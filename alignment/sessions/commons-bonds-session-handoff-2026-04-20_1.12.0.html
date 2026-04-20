@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-20 · v1.12.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .resolved { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .content-work { background: #f4f0fb; border-left: 3px solid #6a4c9c; padding: 0.75em 1em; margin: 1em 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done { color: #1a6a2a; font-weight: 600; }
+  .pending { color: #a2260b; font-weight: 600; }
+  .keep { color: #004a80; font-weight: 600; }
+  .check { color: #7a5400; font-weight: 600; }
+  .skip { color: #666; font-style: italic; }
+  .version { color: #888; font-family: monospace; }
+  .needs-update { color: #a2260b; font-style: italic; }
+  .new { color: #6a4c9c; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-20 · Version <span class="version">1.12.0</span> · Tier 2a rename + Tech Appendix v0.0.2 session</p>
+
+<div class="status">
+<strong>STATUS:</strong> Content work task C1 (Tier 2a rename) fully executed across all four affected documents. Technical Appendix upgraded from v0.0.1 → v0.0.2 (full file replacement, all 5 fixes applied, 123,432 chars, verified clean). 0 file-format conversions this session. Pending Chris decisions reduced from 3 → 2. Multi-scale revision prototype decision resolved.
+</div>
+
+<div class="resume">
+<strong>PROMPT SNIPPET FOR NEXT SESSION:</strong><br>
+Read the handoff <code>commons-bonds-session-handoff-2026-04-20_1.12.0.html</code>. We are in audit + content-work phase. All WS01–17 conversions are done. This session completed Tier 2a rename ("Individual Risk Cost" → "Actuarial Risk Cost") across WS02, WS03, Glossary, and Tech Appendix (now v0.0.2). Remaining content work: C2 (six-tier scale-abstract verbiage), C3 (mechanism/shield architecture), C4 (Decision A ripple), C5 (rigor test two-path), C6 (integrated framework tier names). Remaining conversion queue: ~39 HTML + 7 DOCX. 2 pending Chris decisions. Pick up wherever makes sense.
+</div>
+
+<h2>What changed v1.11.0 → v1.12.0</h2>
+<ul>
+  <li><strong>Tier 2a rename executed (C1 COMPLETE):</strong> "Individual Risk Cost" → "Actuarial Risk Cost" across all four affected documents. See resolved log below for detail.</li>
+  <li><strong>Technical Appendix v0.0.2 produced:</strong> Full file replacement with 5 surgical fixes (A.8, C.2 header, C.2 body, C.3 table, C.4 full section replacement). Verified clean — no CSS leaks in body, all v10 canonical tier names confirmed present.</li>
+  <li><strong>Glossary v2 produced:</strong> Full updated <code>commons_bonds_updated_glossary_v2.html</code> with canonical v10 eight-tier section, abundance layer tags, pricing status per tier, change-note callout on Tier 2a rename, retired terms listed.</li>
+  <li><strong>Multi-scale revision prototype resolved:</strong> Redundant .docx removed. <code>commons-bonds-multi-scale-revision-prototype.html</code> (B3) is canonical. D1 is gone from queue.</li>
+  <li><strong>Placement confirmations (from Chris this session):</strong> <code>error-out-v10.html</code> → <code>core/decomposition/</code> (confirmed). <code>commons_bonds_integrated_framework.html</code> → <code>core/</code> (confirmed). Draft .html files stay .html unless file size becomes a problem (confirmed).</li>
+  <li><strong>Pending Chris decisions: 3 → 2.</strong> Multi-scale resolved. <code>success-criteria 11.html</code> location unknown (not in any uploaded file; needs Drive audit). Native Google Docs question still open.</li>
+</ul>
+
+<h2>Decision log — resolved this session</h2>
+
+<div class="resolved">
+<strong>RESOLVED — Tier 2a rename (C1 COMPLETE)</strong><br>
+"Individual Risk Cost" → "Actuarial Risk Cost" applied to:<br>
+<ul style="margin: 0.5em 0 0 0;">
+  <li><strong>WS02 (<code>02_glossary_reconciliation.md</code>):</strong> Two changes — tier table row 2a; Mission Failure Reserve verdict ("sub-tier 2b under Actuarial Risk Cost"). Delivered as <code>tier-2a-rename-changes.md</code>. Chris applies manually.</li>
+  <li><strong>WS03 (<code>03_chapter_6_integration.md</code>):</strong> One change — tier paragraph item 4 ("Actuarial Risk Cost with Mission Failure Reserve as sub-tier 2b"). Same delivery file.</li>
+  <li><strong>Glossary (<code>commons_bonds_updated_glossary_v2.html</code>):</strong> Full eight-tier section rebuilt with canonical v10 names. Tier 2a entry leads with change-note callout explaining rename rationale. Tier 2b (Mission Failure Reserve) formalized as visually inset sub-tier. All pre-v10 tier names (Immediate Survival, Lifetime Health, Community Stability, etc.) retired. Delivered as full replacement file.</li>
+  <li><strong>Tech Appendix (<code>CommonsBondsTechnicalAppendixv0_0_2.html</code>):</strong> Five fixes in one pass — see Tech Appendix section below. Delivered as full replacement file. Only remaining occurrence of "Individual Risk Cost" is inside Tier 2a's rename note, which is correct.</li>
+  <li><strong>Vocabulary additions archive (<code>commons-bonds-vocabulary-additions_13.html</code>):</strong> No edit needed — this file is source-only and is archived per WS02. The "Individual Risk Cost" reference in Mission Failure Reserve entry is superseded.</li>
+</ul>
+<strong>Rename rationale (preserve for future reference):</strong> "Actuarial" is more precise than "Individual" because the tier prices a <em>population-level statistical distribution</em> of health outcomes, not an individual harm. This aligns with how insurance, public health, and regulatory systems actually measure and absorb these costs. The old label was descriptively inaccurate.
+</div>
+
+<div class="resolved">
+<strong>RESOLVED — Multi-scale revision prototype format decision</strong><br>
+Redundant <code>commons-bonds-multi-scale-revision-prototype.docx</code> (D1) has been removed. <code>commons-bonds-multi-scale-revision-prototype.html</code> (B3) is canonical. D1 removed from conversion queue. B3 stays in Group B (spot-check for math before converting).
+</div>
+
+<div class="resolved">
+<strong>RESOLVED — error-out-v10.html and commons_bonds_integrated_framework.html placement</strong><br>
+Chris confirmed both placements this session:
+<ul style="margin: 0.5em 0 0 0;">
+  <li><code>error-out-v10.html</code> → <code>core/decomposition/</code> (next to sister document <code>eight-tier-v10.html</code>)</li>
+  <li><code>commons_bonds_integrated_framework.html</code> → <code>core/</code></li>
+  <li>Draft .html files stay as .html unless file size causes problems</li>
+</ul>
+</div>
+
+<h2>Technical Appendix — v0.0.2 change log</h2>
+<div class="content-work">
+<strong>File:</strong> <code>CommonsBondsTechnicalAppendixv0_0_2.html</code> · 123,432 chars (was 115,763) · +7,669 chars · Verified: 0 CSS leaks in body content<br><br>
+<strong>Fix 1 — Definition A.8:</strong> Added Political as Layer 7 in the formal abundance layer enumeration (after Ecological). Wording: "Political abundance → reveals governance capture costs: the investment extraction industries make in suppressing honest accounting, regulatory enforcement, and democratic pricing of their own costs."<br><br>
+<strong>Fix 2 — Section C.2 header:</strong> "The Six Abundance Layers" → "The Seven Abundance Layers"<br><br>
+<strong>Fix 3 — Section C.2 body:</strong> Added Layer 7: Political Abundance → Governance Capture Costs paragraph after Layer 6.<br><br>
+<strong>Fix 4 — Section C.3 table:</strong> Added Political row: maps to "B term in CS = RCV − B — political capture suppresses B toward zero; also E(R,t) — costs of institutional corrosion are externality tail items"<br><br>
+<strong>Fix 5 — Section C.4:</strong> Full replacement. Old taxonomy (Immediate Survival / Lifetime Health / Intergenerational Foreclosure / Environmental Remediation / Community and Social / Political Capture / Ecological Carrying / Temporal Displacement) replaced with canonical v10 (Lifetime Survival / Actuarial Risk Cost / Mission Failure Reserve [2b] / Dynastic Labor / Foreclosure / Community Transition Reserve / Ecological Carrying / Knowledge and Culture / Political Capture). Each tier now includes abundance layer tag and pricing status. Tier 2a includes inline rename note.
+</div>
+
+<h2>Pending content work (updated)</h2>
+<div class="content-work">
+<table>
+<tr><th>#</th><th>Task</th><th>Scope</th><th>Status</th></tr>
+<tr><td>C1</td><td>Tier 2a rename: "Individual Risk Cost" → "Actuarial Risk Cost"</td><td>WS02, WS03, Glossary, Tech Appendix</td><td class="done">COMPLETE this session</td></tr>
+<tr><td>C2</td><td>Six-tier scale-abstract core + manifestations verbiage revision (Tiers 1, 2a, 3, 5, 7, 8)</td><td>WS02/WS03</td><td class="pending">Not started</td></tr>
+<tr><td>C3</td><td>Mechanism/shield architecture distinction — update across docs</td><td>Ch. 2, 6, 10, WS02 Glossary, WS08 Tech Appendix</td><td class="pending">Not started</td></tr>
+<tr><td>C4</td><td>Decision A ripple — confirm all WS01–17 docs reflect ratification</td><td>WS01–17 sweep</td><td class="pending">Not started</td></tr>
+<tr><td>C5</td><td>Rigor test two-path structure — confirm adoption in all rigor-testing materials</td><td>All rigor-testing materials</td><td class="pending">Not started</td></tr>
+<tr><td>C6</td><td>Integrated framework tier names — update old taxonomy → canonical v10</td><td><code>commons_bonds_integrated_framework.html</code></td><td class="pending">Not started (needs file upload)</td></tr>
+</table>
+</div>
+
+<h2>Pending Chris decisions (2 remaining)</h2>
+<div class="info">
+<ol style="margin: 0.5em 0 0 0;">
+  <li><strong><code>success-criteria 11.html</code> location:</strong> Appears in multiple Drive folders with same file ID. Claude has no Drive access and could not determine which folders from uploaded files alone. Chris needs to identify the folders in Drive — likely a single file that got dragged into multiple parent folders. Once location(s) confirmed, decide whether to keep in one canonical location or leave as-is.</li>
+  <li><strong>Native Google Docs:</strong> Ch2 (The Miner), Ch4 (Draft), Ch7 (Draft) exist as auto-converted Google Docs. Stale auto-conversions or actively used working docs? If stale, safe to ignore. If working, confirm which is canonical vs. the .html versions.</li>
+</ol>
+</div>
+
+<h2>Files to KEEP as HTML (math, simulation, or session management)</h2>
+<table>
+<tr><th>File</th><th>Reason</th><th>Drive ID</th></tr>
+<tr><td><code>eight-tier-v10.html</code></td><td class="keep">KEEP — Canonical RCV 8-tier decomposition with MathJax math rendering</td><td>1A_iagNbvEGy74fjKcucC-eAXacB7C7aE</td></tr>
+<tr><td><code>error-out-v10.html</code></td><td class="keep">KEEP — "Eight-Tier Decomp + Abundance Inversion Test" guiding doc; move to core/decomposition/</td><td>19GCwTdwdO7H7gN70gHD2ygRNnVIVu7cR</td></tr>
+<tr><td><code>commons_bonds_integrated_framework.html</code></td><td class="keep">KEEP — Integrated framework master doc (math + convergence tables); needs tier-name update (C6); move to core/</td><td>1eVXrifqMaLBYPhUdxSOkr5oQ8t7R6X8N</td></tr>
+<tr><td><code>CommonsBondsTechnicalAppendixv0_0_2.html</code></td><td class="keep">KEEP — Full technical appendix (123KB, v0.0.2, canonical). Supersedes v0.0.1.</td><td>1eCwqqxCOmF29NdKWdK9nnNVicFeCx_ex (upload new version)</td></tr>
+<tr><td><code>08_technical_appendix.html</code></td><td class="keep">KEEP — WS08 stub pointing to technical appendix (math)</td><td>1H_CTnwBB34R4f60tU_MUZA50fkPT5_Sd</td></tr>
+<tr><td><code>Chapter__6_Draft.html</code></td><td class="keep">KEEP — Ch6 first prose draft (inline math: CS=RCV−B, integrals)</td><td>1J2fYepwLGmhnKHcXNPyg3RXJ7vT9t35Q</td></tr>
+<tr><td><code>commons_bonds_full_economy_simulation.html</code></td><td class="keep">KEEP — Interactive simulation (JavaScript)</td><td>1V33vd5z9_queMmyRgWrxuU1iMbu1a0Wo</td></tr>
+<tr><td><code>commons_bonds_updated_glossary_v2.html</code></td><td class="keep">KEEP .html indefinitely — canonical v10 eight-tier, looks great; convert only if size becomes unwieldy</td><td>(upload new version)</td></tr>
+<tr><td><code>Chapter__6_ThreeWaysofCounting.html</code></td><td class="keep">KEEP original (HTML archived); .md version converted in v1.10.0</td><td>1FdQF_VhZT3axYb_6xfy9CqGrq4v4VD3A</td></tr>
+<tr><td><code>commons-bonds-session-handoff-*.html</code></td><td class="keep">KEEP — Session management docs (per user preferences)</td><td>(multiple)</td></tr>
+</table>
+
+<h2>Files needing math check before deciding format — UPDATED (2 remaining)</h2>
+<table>
+<tr><th>File</th><th>Size</th><th>Decision pending</th><th>Drive ID</th></tr>
+<tr><td><code>Chapter__7_TheColonyAdministrator.html</code></td><td>68KB</td><td class="check">CHECK — large, may have formal definitions</td><td>18jkM2v_OxSoauaWmQ5aJb8uJGhOaf2si</td></tr>
+<tr><td><code>commons_bonds_integrated_framework.html</code></td><td>19KB</td><td class="needs-update">KEEP .html confirmed — needs tier-name update (C6) before treating as current. Upload to Chris needed.</td><td>1eVXrifqMaLBYPhUdxSOkr5oQ8t7R6X8N</td></tr>
+</table>
+<p><em>Note: <code>commons-bonds-eight-tier-decomposition 9.html</code> still flagged for archive (superseded by both v10 files). Drive ID: 1oXSkq0OrknZEhzTwvN9q5Ey40NsN8eZ9.</em></p>
+
+<h2>Full conversion todo list</h2>
+
+<h3>Group A — Chapter narrative HTML → .md (confirmed no math)</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Size</th><th>Action</th><th>Notes</th><th>Drive ID</th></tr>
+<tr><td>A1</td><td><code>Chapter__1_ThePlane.html</code></td><td>14KB</td><td class="pending">→ .md</td><td></td><td>1HpUNYN-zl97o0XIh1qL971vn5Yxkl3nm</td></tr>
+<tr><td>A2</td><td><code>Chapter__2_TheMiner.html</code></td><td>31KB</td><td class="pending">→ .md</td><td></td><td>1LMh0elhoIu0HyeaqGmhSPRNPFG3Dbs9u</td></tr>
+<tr><td>A3</td><td><code>Chapter__3_TheWaterman.html</code></td><td>7KB</td><td class="pending">→ .md</td><td></td><td>1ytnIxX7Z7DCXbfWGiozS13zr3wVIXATR</td></tr>
+<tr><td>A4</td><td><code>Chapter__4_Draft.html</code></td><td>25KB</td><td class="pending">→ .md</td><td>Prose draft; confirmed no math.</td><td>1o84SmtvSJ2amseFffeOoSMqgcYzkWJYo</td></tr>
+<tr><td>A5</td><td><code>Chapter__4_THEEXISTENCEPROOF.html</code></td><td>17KB</td><td class="pending">→ .md</td><td>Guidance doc for Ch4.</td><td>15Rps2YCwY1zi2uJSBI4p8ndY4L1YCnLN</td></tr>
+<tr><td>A6</td><td><code>Chapter__5_THEACCOUNTABILITYGAP.html</code></td><td>14KB</td><td class="pending">→ .md</td><td></td><td>1SUmI1Abv_zBdQjlaI4Sns3t3j6pUEAvs</td></tr>
+<tr><td>A7</td><td><code>Chapter__5_Draft.html</code></td><td>24KB</td><td class="pending">→ .md</td><td></td><td>1cmEeV5pYN0vJvQSSVFUAIig8-RfVrdkL</td></tr>
+<tr><td>A8</td><td><code>Chapter__8_Draft.html</code></td><td>42KB</td><td class="pending">→ .md</td><td>Confirmed no math. Low priority.</td><td>1rotLgjLXNDqyotG64oGXQSRR-nrUqiC5</td></tr>
+<tr><td>A9</td><td><code>Chapter__9_Draft.html</code></td><td>51KB</td><td class="pending">→ .md</td><td>Confirmed no math. Low priority.</td><td>12ynzC1sjVZdHjRPtmqPm45jU5KZ549fw</td></tr>
+<tr><td>A10</td><td><code>Chapter_10_Draft.html</code></td><td>45KB</td><td class="pending">→ .md</td><td>Confirmed no math. Low priority. Mechanism/shield chapter (C3 content work).</td><td>1gyqBdemt8t6C3_pSMxTDIKDbB-2DdGIE</td></tr>
+</table>
+
+<h3>Group B — Framework / methodology HTML → .md (spot-check for math first)</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Action</th><th>Notes</th><th>Drive ID</th></tr>
+<tr><td>B1</td><td><code>success-criteria 11.html</code></td><td class="pending">→ .md (spot-check)</td><td>Appears in multiple Drive folders — confirm location before converting. Pending Chris decision.</td><td>(pending)</td></tr>
+<tr><td>B2</td><td><code>commons-bonds-rigor-testing-roles.html</code></td><td class="pending">→ .md (spot-check)</td><td></td><td>—</td></tr>
+<tr><td>B3</td><td><code>commons-bonds-multi-scale-revision-prototype.html</code></td><td class="pending">→ .md (spot-check)</td><td>CANONICAL — .docx (D1) confirmed removed this session.</td><td>—</td></tr>
+<tr><td>B4</td><td><code>alignment_companion.html</code></td><td class="pending">→ .md</td><td></td><td>—</td></tr>
+</table>
+
+<h3>Group C — Other HTML → .md (~25 remaining)</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Action</th></tr>
+<tr><td>C1–C25</td><td>(remaining ~25 HTML files not individually catalogued)</td><td class="pending">→ .md (spot-check each)</td></tr>
+</table>
+
+<h3>Group D — DOCX → .md (7 remaining, down from 8)</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Size</th><th>Action</th><th>Drive ID</th></tr>
+<tr><td>D2</td><td><code>commons-bonds-alignment-companion.docx</code></td><td>—</td><td class="pending">→ .md</td><td>—</td></tr>
+<tr><td>D3</td><td><code>commons-bonds-rigor-test.docx</code></td><td>—</td><td class="pending">→ .md</td><td>—</td></tr>
+<tr><td>D4</td><td><code>commons-bonds-decision-log.docx</code></td><td>—</td><td class="pending">→ .md</td><td>—</td></tr>
+<tr><td>D5</td><td><code>commons-bonds-chapter-outline.docx</code></td><td>—</td><td class="pending">→ .md</td><td>—</td></tr>
+<tr><td>D6</td><td><code>$100 Barrel_ Commons Bonds.docx</code></td><td>11KB</td><td class="pending">→ .md</td><td>1mZpqwHAcY_vmzaOok3IHCEz_Tdg8EFcu</td></tr>
+<tr><td>D7</td><td><code>Book Two_ The Subsidy Economy.docx</code></td><td>15KB</td><td class="pending">→ .md</td><td>1FmatRshVxew__x_u-65uVhU6gKSMUioo4</td></tr>
+<tr><td>D8</td><td><code>Book Three_ Pricing the Final Frontier.docx</code></td><td>16KB</td><td class="pending">→ .md</td><td>13Q0xtt8XAuplGlfD83Q9ov_bFts1gzb3</td></tr>
+</table>
+<p><em>Note: D1 (<code>commons-bonds-multi-scale-revision-prototype.docx</code>) removed — confirmed redundant and deleted by Chris this session.</em></p>
+
+<h3>Group E — Protected / Do Not Touch</h3>
+<table>
+<tr><th>File</th><th>Reason</th></tr>
+<tr><td><code>Commons Bonds - Berggruen (Essay Draft).docx</code></td><td class="skip">PROTECTED — Berggruen Institute folder</td></tr>
+<tr><td><code>Noema Pitch - Commons Bonds - Winn.docx</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+<tr><td><code>Noema - Commons Bonds - Chris Winn.docx</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+<tr><td><code>Noema - Commons Bonds - Chris Winn.pdf</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+</table>
+
+<h2>Chapter map</h2>
+<table>
+<tr><th>Chapter</th><th>Title (confirmed)</th><th>Status</th></tr>
+<tr><td>Ch1</td><td>The Plane</td><td>Draft .html → pending .md conversion (A1)</td></tr>
+<tr><td>Ch2</td><td>The Miner</td><td>Draft .html → pending .md conversion (A2)</td></tr>
+<tr><td>Ch3</td><td>The Waterman</td><td>Draft .html → pending .md conversion (A3)</td></tr>
+<tr><td>Ch4</td><td>The Existence Proof (Norway/Nigeria)</td><td>Prose draft + guidance doc — both cleared for .md (A4, A5)</td></tr>
+<tr><td>Ch5</td><td>The Accountability Gap</td><td>Draft .html + guidance doc → pending .md (A6, A7)</td></tr>
+<tr><td>Ch6</td><td>Three Ways of Counting</td><td>Prose draft .html (KEEP, math); guiding doc .md (converted v1.10.0)</td></tr>
+<tr><td>Ch7</td><td>The Colony Administrator</td><td>68KB .html — still needs math check before format decision</td></tr>
+<tr><td>Ch8</td><td>Unknown title (confirmed no math)</td><td>Draft .html → pending .md (A8, low priority)</td></tr>
+<tr><td>Ch9</td><td>The Renewable Imperative</td><td>Draft .html → pending .md (A9, low priority)</td></tr>
+<tr><td>Ch10</td><td>Common Bonds</td><td>Draft .html → pending .md (A10, low priority); mechanism/shield chapter (C3 content work)</td></tr>
+</table>
+
+<h2>Files produced this session</h2>
+<table>
+<tr><th>File</th><th>Format</th><th>Chars</th><th>Description</th></tr>
+<tr><td><code>CommonsBondsTechnicalAppendixv0_0_2.html</code></td><td>.html</td><td>123,432</td><td>Full Tech Appendix replacement. Supersedes v0.0.1. Upload to Drive.</td></tr>
+<tr><td><code>commons_bonds_updated_glossary_v2.html</code></td><td>.html</td><td>26,898</td><td>Canonical glossary with v10 eight-tier section. Upload to Drive, replace v1.</td></tr>
+<tr><td><code>tier-2a-rename-changes.md</code></td><td>.md</td><td>4,076</td><td>Line-level changes for WS02 and WS03. Apply manually to those files in GitHub.</td></tr>
+<tr><td><code>tech-appendix-c4-replacement.html</code></td><td>.html</td><td>—</td><td>Reference block (C.4 old → new). Superseded by full v0.0.2 delivery; can discard.</td></tr>
+</table>
+
+<h2>Conversion pipeline (proven)</h2>
+<pre>
+pip install markdownify beautifulsoup4 --break-system-packages -q
+
+cat /mnt/user-data/uploads/{filename}.html | python3 -c "
+import sys, re
+from bs4 import BeautifulSoup
+from markdownify import markdownify
+
+html = sys.stdin.read()
+soup = BeautifulSoup(html, 'html.parser')
+for tag in soup.find_all(['style', 'script']):
+    tag.decompose()
+md = markdownify(str(soup), heading_style='ATX', bullets='-')
+md = re.sub(r'\n{3,}', '\n\n\n', md).strip() + '\n'
+print(md)
+" > /mnt/user-data/outputs/{filename}.md
+
+# Spot checks:
+# CSS leak:  grep -c "font-family\|body {" output.md  → must be 0
+# Char count: wc -c output.md
+# Head:      head -25 output.md
+</pre>
+
+<h2>Watch items</h2>
+<div class="watch">
+<ul style="margin-bottom: 0;">
+  <li><strong>Claude has no GitHub access.</strong> All files delivered via <code>present_files</code>. Chris pushes manually.</li>
+  <li><strong>No Drive uploads from Claude.</strong> Heredoc truncation risk. Chris uploads to Drive and GitHub manually.</li>
+  <li><strong>Do not touch <code>/Noema/</code> or <code>/Berggruen Institute - Essay/</code> folders.</strong> Ever.</li>
+  <li><strong>Do not rename Drive files.</strong> Migration is read-only on Drive side.</li>
+  <li><strong>Math files stay .html.</strong> Ch6 Draft, Tech Appendix, eight-tier-v10, error-out-v10, integrated framework, simulation, glossary — never convert.</li>
+  <li><strong>Session handoff files stay .html</strong> per user preferences.</li>
+  <li><strong>Workstreams WS01–17 are DONE.</strong> Do not re-process.</li>
+  <li><strong>Technical Appendix is now v0.0.2.</strong> <code>CommonsBondsTechnicalAppendixv0_0_2.html</code> is authoritative. v0.0.1 is superseded.</li>
+  <li><strong>error-out-v10.html is NOT junk.</strong> "Eight-Tier Decomposition and the Abundance Inversion Test." Goes in <code>core/decomposition/</code>.</li>
+  <li><strong>commons_bonds_integrated_framework.html is NOT archive material.</strong> Needs tier-name content update (C6). Move to <code>core/</code>.</li>
+  <li><strong>Handoff versioning:</strong> v1.12.0 → v1.13.0 for next session; update date prefix if date changes.</li>
+  <li><strong>If session fails mid-Tech-Appendix edit:</strong> resume point is Tech Appendix C.4 replacement. The replacement block is in <code>tech-appendix-c4-replacement.html</code> (delivered this session). However, full v0.0.2 was successfully produced and verified — this is now moot unless Chris spots an error in v0.0.2.</li>
+</ul>
+</div>
+
+<h2>Full WS + session conversion log</h2>
+<table>
+<tr><th>File</th><th>Format</th><th>Chars</th><th>CSS leaks</th><th>Session</th></tr>
+<tr><td><code>CommonsBondsTechnicalAppendixv0_0_2.html</code></td><td>.html</td><td>123,432</td><td>0 (body)</td><td>v1.12.0 (content update, not format conversion)</td></tr>
+<tr><td><code>commons_bonds_updated_glossary_v2.html</code></td><td>.html</td><td>26,898</td><td>0</td><td>v1.12.0 (content update)</td></tr>
+<tr><td><code>Chapter__6_ThreeWaysofCounting.md</code></td><td>.md</td><td>36,740</td><td>0</td><td>v1.10.0</td></tr>
+<tr><td><code>11_living_people_integration.md</code></td><td>.md</td><td>8,742</td><td>0</td><td>v1.2.0</td></tr>
+<tr><td><code>12_visualization_development.md</code></td><td>.md</td><td>12,823</td><td>0</td><td>v1.3.0</td></tr>
+<tr><td><code>13_theory_of_change.md</code></td><td>.md</td><td>15,332</td><td>0</td><td>v1.4.0</td></tr>
+<tr><td><code>14_counterargument_integration.md</code></td><td>.md</td><td>13,068</td><td>0</td><td>v1.5.0</td></tr>
+<tr><td><code>15_origin_story_development.md</code></td><td>.md</td><td>10,806</td><td>0</td><td>v1.6.0</td></tr>
+<tr><td><code>16_international_dimension.md</code></td><td>.md</td><td>13,740</td><td>0</td><td>v1.7.0</td></tr>
+<tr><td><code>17_honest_concession_section.md</code></td><td>.md</td><td>13,370</td><td>0</td><td>v1.8.0</td></tr>
+<tr><td>WS01–10</td><td>.md</td><td>(various)</td><td>0</td><td>v1.0.0–v1.1.0</td></tr>
+</table>
+
+<p class="meta">End of session handoff v1.12.0. 0 format conversions this session. C1 (Tier 2a rename) complete. 4 content tasks (C2–C6) remaining. ~39 HTML + 7 DOCX files in conversion queue. 2 Chris decisions pending.</p>
+
+</body>
+</html>
