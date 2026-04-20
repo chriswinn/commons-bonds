@@ -1,0 +1,278 @@
+
+<style>
+  body { margin: 0; }
+  .doc { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; font-family: var(--font-sans); color: var(--color-text-primary); }
+  h1 { font-size: 22px; font-weight: 500; margin: 0 0 0.25rem; }
+  .subtitle { font-size: 14px; color: var(--color-text-secondary); margin: 0 0 2rem; }
+  h2 { font-size: 18px; font-weight: 500; margin: 2.5rem 0 1rem; border-bottom: 0.5px solid var(--color-border-tertiary); padding-bottom: 0.5rem; }
+  h3 { font-size: 15px; font-weight: 500; margin: 1.75rem 0 0.5rem; color: var(--color-text-primary); }
+  p { font-size: 15px; line-height: 1.7; margin: 0 0 0.75rem; }
+  .tag { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 4px; margin-bottom: 0.5rem; font-weight: 500; }
+  .tag-origin { background: var(--color-background-secondary); color: var(--color-text-secondary); border: 0.5px solid var(--color-border-tertiary); }
+  .tag-weak { background: #FAECE7; color: #993C1D; border: 0.5px solid #F0997B; }
+  .tag-key { background: #E1F5EE; color: #0F6E56; border: 0.5px solid #5DCAA5; }
+  .section-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1.25rem 1.5rem; margin-bottom: 1.25rem; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 0.75rem; }
+  .col-label { font-size: 12px; font-weight: 500; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.25rem; }
+  .col-val { font-size: 14px; line-height: 1.6; color: var(--color-text-primary); }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 1rem 0; }
+  th { text-align: left; font-weight: 500; font-size: 12px; color: var(--color-text-secondary); border-bottom: 0.5px solid var(--color-border-tertiary); padding: 6px 10px; }
+  td { padding: 8px 10px; border-bottom: 0.5px solid var(--color-border-tertiary); vertical-align: top; line-height: 1.5; }
+  tr:last-child td { border-bottom: none; }
+  .highlight-row td { background: var(--color-background-secondary); }
+  .missing-box { background: var(--color-background-secondary); border-left: 3px solid #1D9E75; border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0; padding: 1rem 1.25rem; margin: 1rem 0; }
+  .missing-box h4 { font-size: 14px; font-weight: 500; margin: 0 0 0.4rem; }
+  .missing-box p { font-size: 14px; margin: 0; color: var(--color-text-secondary); }
+  .new-concept { background: #EEEDFE; border-left: 3px solid #534AB7; border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0; padding: 1rem 1.25rem; margin: 1rem 0; }
+  .new-concept h4 { font-size: 14px; font-weight: 500; margin: 0 0 0.4rem; color: #3C3489; }
+  .new-concept p { font-size: 14px; margin: 0; color: #534AB7; }
+  @media (prefers-color-scheme: dark) {
+    .tag-weak { background: #4A1B0C; color: #F0997B; border-color: #993C1D; }
+    .tag-key { background: #04342C; color: #5DCAA5; border-color: #0F6E56; }
+    .new-concept { background: #26215C; border-color: #7F77DD; }
+    .new-concept h4 { color: #AFA9EC; }
+    .new-concept p { color: #7F77DD; }
+    .missing-box { border-color: #1D9E75; }
+  }
+  .dl-btn { display: inline-block; margin-top: 1.5rem; padding: 8px 18px; border: 0.5px solid var(--color-border-secondary); border-radius: var(--border-radius-md); font-size: 14px; cursor: pointer; background: var(--color-background-primary); color: var(--color-text-primary); }
+  .dl-btn:hover { background: var(--color-background-secondary); }
+</style>
+
+<div class="doc" id="maindoc">
+  <h1>Economic &amp; political theory — master reference</h1>
+  <p class="subtitle">Commons Bonds project · April 2026 · Chris Winn</p>
+
+  <h2>Part I — The ten major frameworks</h2>
+
+  <div class="section-card">
+    <span class="tag tag-origin">Smith, Ricardo, Mill · 18th–19th c.</span>
+    <h3>1. Classical liberalism / laissez-faire capitalism</h3>
+    <p>Markets allocate resources most efficiently through price signals and competition. Self-interest channeled through markets produces collective benefit — the "invisible hand." Private ownership of capital, land, and resources is the assumed default.</p>
+    <div class="two-col">
+      <div><div class="col-label">Who captures profit</div><div class="col-val">Private owners of capital — whoever owns the means of production, land, or resources.</div></div>
+      <div><div class="col-label">Who owns commons / resources</div><div class="col-val">Private individuals or firms. Private ownership is assumed to produce better stewardship than public ownership.</div></div>
+    </div>
+    <div class="missing-box" style="margin-top:1rem;">
+      <h4>Core weakness</h4>
+      <p>No mechanism for pricing externalities. The $100 barrel has no instrument for pricing permanent depletion, environmental harm, or long-term community instability. Nature is treated as a free input.</p>
+    </div>
+  </div>
+
+  <div class="section-card">
+    <span class="tag tag-origin">Marx, Engels · 19th c.</span>
+    <h3>2. Marxist political economy</h3>
+    <p>Capitalism generates wealth through surplus value extraction — workers produce more value than they are paid, and owners capture the difference. This is not an aberration; it is the fundamental engine of capital accumulation. Class conflict between owners and workers is inherent and irresolvable within the system. The commons are systematically enclosed — converted from shared use to private ownership through what Marx called primitive accumulation.</p>
+    <div class="two-col">
+      <div><div class="col-label">Who captures profit</div><div class="col-val">The capitalist class — those who own the means of production.</div></div>
+      <div><div class="col-label">Who owns commons / resources</div><div class="col-val">Under capitalism, commons are enclosed into private ownership. The Marxist end-state is collective/state ownership of the means of production.</div></div>
+    </div>
+    <div class="missing-box" style="margin-top:1rem;">
+      <h4>Core weakness</h4>
+      <p>The classic model focuses on the labor relation. It is less developed on resource depletion, ecological limits, or finite non-renewable resources. Marx assumed industrial abundance; the framework strains at permanence of loss.</p>
+    </div>
+  </div>
+
+  <div class="section-card">
+    <span class="tag tag-origin">Harvey · 2004</span>
+    <h3>3. Accumulation by dispossession</h3>
+    <p>Capitalism grows not only by generating new value through labor exploitation, but by appropriating existing value from communities, ecosystems, and public goods. This process is ongoing, not merely historical. Privatization, financialization, and the stripping of public assets are all forms of dispossession. The mechanism follows a consistent pattern: penetrate a resource-rich community → extract at minimal cost to the firm → externalize social and environmental costs onto the community → depart when extraction is no longer profitable.</p>
+    <div class="two-col">
+      <div><div class="col-label">Who captures profit</div><div class="col-val">Mobile capital — corporations and financial actors who penetrate, extract, externalize costs, and depart.</div></div>
+      <div><div class="col-label">Who owns commons / resources</div><div class="col-val">Commons are continuously converted into private profit through legal, financial, or political enclosure.</div></div>
+    </div>
+    <div class="missing-box" style="margin-top:1rem;">
+      <h4>Core weakness</h4>
+      <p>Harvey names the pattern but doesn't fully resolve the valuation problem — how do you price a non-renewable resource that will never exist again? The departure cost, the intergenerational dimension, and the permanent foreclosure problem are gestured at but not formally resolved.</p>
+    </div>
+  </div>
+
+  <div class="section-card">
+    <span class="tag tag-origin">Keynes · 20th c.</span>
+    <h3>4. Keynesian economics</h3>
+    <p>Markets are not self-correcting. Government intervention — public spending, demand management, social insurance — is necessary to stabilize the economy and prevent the worst outcomes of market failure. The state has a legitimate role in managing the economy in the public interest. Redistribution through public goods and social programs is a tool for correcting market outcomes, not replacing them.</p>
+    <div class="two-col">
+      <div><div class="col-label">Who captures profit</div><div class="col-val">Still largely private, but the state recaptures some value through taxation and redistributes it through public goods and social programs.</div></div>
+      <div><div class="col-label">Who owns commons / resources</div><div class="col-val">Ambiguous. Accepts private ownership but argues the state must actively manage externalities and market failures. Does not resolve the ownership question.</div></div>
+    </div>
+    <div class="missing-box" style="margin-top:1rem;">
+      <h4>Core weakness</h4>
+      <p>Keynesianism is a management theory, not an ownership theory. It doesn't challenge who owns the oil — it just argues the government should tax the extraction and spend the revenue wisely. Still has no instrument for pricing permanent depletion.</p>
+    </div>
+  </div>
+
+  <div class="section-card">
+    <span class="tag tag-origin">Hayek, Friedman · Reagan/Thatcher era</span>
+    <h3>5. Neoliberalism</h3>
+    <p>The state itself is the primary problem. Markets are always more efficient than governments at allocating resources. Deregulation, privatization, and free trade maximize growth. Social programs create dependency and distort incentives. This framework accelerated the shift from industrial capital to financialized capital, creating conditions for large-scale risk transfer from institutions to individuals (the pension-to-401k shift is an example).</p>
+    <div class="two-col">
+      <div><div class="col-label">Who captures profit</div><div class="col-val">Financial capital and large corporations. Neoliberalism maximizes private capture by stripping the mechanisms that previously recaptured some value for the public.</div></div>
+      <div><div class="col-label">Who owns commons / resources</div><div class="col-val">Everything should be privatized if possible. Water rights, broadcast spectrum, genetic information, public pension systems — all converted into market assets.</div></div>
+    </div>
+    <div class="missing-box" style="margin-top:1rem;">
+      <h4>Core weakness</h4>
+      <p>The externalization problem is maximized here. With regulation stripped, there is no mechanism at all for capturing the social and environmental cost of extraction. This is the system the Commons Bonds framework most directly targets.</p>
+    </div>
+  </div>
+
+  <div class="section-card">
+    <span class="tag tag-origin">Ostrom · Nobel 2009 · against Hardin's "Tragedy" (1968)</span>
+    <h3>6. Commons theory (Ostrom)</h3>
+    <p>Hardin argued shared resources would always be depleted by individual rational actors over-using them. Ostrom's empirical research proved this wrong — communities across history have successfully governed shared resources through collective institutions with clear rules, monitoring, and graduated sanctions. The commons doesn't fail by nature; it fails when undermined by enclosure, privatization, or the destruction of governing institutions. Ostrom identified community governance as a legitimate third form of property alongside private and state ownership.</p>
+    <div class="two-col">
+      <div><div class="col-label">Who captures profit</div><div class="col-val">The community as a whole — benefit is shared, cost is shared, and long-term stewardship is built into the governance structure.</div></div>
+      <div><div class="col-label">Who owns commons / resources</div><div class="col-val">Collective, community-governed ownership — neither purely private nor state-owned. A genuine third form of property.</div></div>
+    </div>
+    <div class="missing-box" style="margin-top:1rem;">
+      <h4>Core weakness for Commons Bonds</h4>
+      <p>Ostrom's model works well for renewable or slow-depleting resources (fisheries, forests, groundwater). It is harder to apply to non-renewable finite resources that can only be extracted once. A community governing a forest can set sustainable harvest rates. A community governing an oil field is governing something that will simply cease to exist.</p>
+    </div>
+  </div>
+
+  <div class="section-card">
+    <span class="tag tag-origin">Daly, Georgescu-Roegen · 20th c.</span>
+    <h3>7. Ecological economics</h3>
+    <p>The economy is a subsystem of the biosphere, not the reverse. All economic activity depends on natural systems, and those systems have limits. Standard economics — including both capitalism and socialism — treats nature as an infinite free input and ignores thermodynamic limits. Ecological economics insists on steady-state economics: an economy operating within the regenerative capacity of ecosystems. This is the framework most directly engaged with the permanent depletion problem at the core of Commons Bonds.</p>
+    <div class="two-col">
+      <div><div class="col-label">Who captures profit</div><div class="col-val">Largely agnostic about ownership structure — compatible with capitalism, socialism, or the commons, as long as the system operates within ecological limits.</div></div>
+      <div><div class="col-label">Who owns commons / resources</div><div class="col-val">Strongly argues for treating the biosphere and non-renewable resources as a commons governed for long-term sustainability.</div></div>
+    </div>
+    <div class="missing-box" style="margin-top:1rem;">
+      <h4>Key contribution for Commons Bonds</h4>
+      <p>The $100 barrel is structurally wrong because it doesn't include the full cost of depletion of a finite resource, the social discount rate (what future generations are owed for permanent loss), or environmental externalities. The correct price, under ecological economics, is vastly higher and would include something like a depletion rent paid to the permanent community.</p>
+    </div>
+  </div>
+
+  <div class="section-card">
+    <span class="tag tag-origin">Nordic models · European labor movements</span>
+    <h3>8. Social democracy</h3>
+    <p>Capitalism can be made to work for workers and communities if the state is powerful enough to tax it heavily, regulate it firmly, and provide robust public goods. Private ownership is retained, but profit is substantially recaptured through taxation and redistributed as universal services. Norway's Government Pension Fund — oil revenue captured by the state, invested globally, distributed as a permanent public endowment — is the paradigmatic example.</p>
+    <div class="two-col">
+      <div><div class="col-label">Who captures profit</div><div class="col-val">Split — private actors retain profit from production, but the state claims a large share through taxes and directs it toward public benefit.</div></div>
+      <div><div class="col-label">Who owns commons / resources</div><div class="col-val">State-managed, with strong regulatory frameworks. Norway proves that the same finite oil resource can produce entirely different community outcomes depending on ownership and distribution structure.</div></div>
+    </div>
+    <div class="missing-box" style="margin-top:1rem;">
+      <h4>Key contribution for Commons Bonds</h4>
+      <p>Norway is the single most powerful empirical counterexample. Same oil. Same finite resource. Different ownership and distribution structure = entirely different outcome. Norway proves the thesis: the barrel of oil is not inherently destructive; who captures the value determines everything.</p>
+    </div>
+  </div>
+
+  <div class="section-card">
+    <span class="tag tag-origin">Latouche, Hickel · contemporary</span>
+    <h3>9. Degrowth</h3>
+    <p>The fundamental problem is that capitalism requires perpetual growth on a finite planet. The solution is not to grow more sustainably but to deliberately contract economic activity in wealthy nations — reduce throughput, redistribute existing wealth, and redefine wellbeing in non-GDP terms.</p>
+    <div class="two-col">
+      <div><div class="col-label">Who captures profit</div><div class="col-val">Deliberately reduces the role of profit as an organizing principle. Oriented toward sufficiency and equity rather than accumulation.</div></div>
+      <div><div class="col-label">Who owns commons / resources</div><div class="col-val">Collective/community oriented. Skeptical of both private and state ownership as drivers of extraction.</div></div>
+    </div>
+    <div class="missing-box" style="margin-top:1rem;">
+      <h4>Core weakness</h4>
+      <p>Politically difficult to implement; faces the problem of who bears the cost of contraction. Also has limited answers for communities in poverty who still need growth to meet basic needs.</p>
+    </div>
+  </div>
+
+  <div class="section-card">
+    <span class="tag tag-origin">Chesterton, Belloc · early 20th c. · Catholic social tradition</span>
+    <h3>10. Distributism</h3>
+    <p>The problem with capitalism is not that there is private property, but that property is owned by too few people. The solution is wide distribution of productive property — land, tools, small businesses — rather than concentration in either corporate hands or the state. "Three acres and a cow." Decentralized profit capture through many small owners, cooperatives, and localized institutions.</p>
+    <div class="two-col">
+      <div><div class="col-label">Who captures profit</div><div class="col-val">Many small owners — decentralized profit capture.</div></div>
+      <div><div class="col-label">Who owns commons / resources</div><div class="col-val">Small-holder communities, cooperatives, and localized institutions.</div></div>
+    </div>
+    <div class="missing-box" style="margin-top:1rem;">
+      <h4>Core weakness</h4>
+      <p>Romanticizes pre-industrial small-property arrangements. Struggles to address industrial-scale and global-scale resource systems. Also doesn't resolve the depletion problem — small owners can deplete as surely as large ones.</p>
+    </div>
+  </div>
+
+  <h2>Part II — Synthesis table: the two core lenses</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Theory</th>
+        <th>Who captures profit</th>
+        <th>Who owns resources / commons</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Classical liberalism</td><td>Private capital owners</td><td>Private individuals / firms</td></tr>
+      <tr class="highlight-row"><td>Marxism</td><td>Capitalist class (via surplus value)</td><td>Should be collective; currently enclosed</td></tr>
+      <tr><td>Harvey / dispossession</td><td>Mobile capital; leaves community behind</td><td>Commons continuously privatized</td></tr>
+      <tr class="highlight-row"><td>Keynesianism</td><td>Private, with state redistribution</td><td>Private, state-regulated</td></tr>
+      <tr><td>Neoliberalism</td><td>Financial capital, maximally</td><td>Privatized by default</td></tr>
+      <tr class="highlight-row"><td>Commons / Ostrom</td><td>Community as a whole</td><td>Community-governed institutions</td></tr>
+      <tr><td>Ecological economics</td><td>Agnostic; focuses on limits</td><td>Biosphere as commons</td></tr>
+      <tr class="highlight-row"><td>Social democracy</td><td>Split — private + state tax capture</td><td>State-regulated; Norway model</td></tr>
+      <tr><td>Degrowth</td><td>Minimizes profit as goal</td><td>Collective / community oriented</td></tr>
+      <tr class="highlight-row"><td>Distributism</td><td>Many small owners</td><td>Small-holder communities</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Part III — The missing dimension: non-renewable depletion</h2>
+
+  <p>Every framework above has some mechanism for distributing ongoing value — profit from labor, harvest from a fishery, rent from land. The oil barrel problem is different in kind. It is:</p>
+
+  <div class="missing-box">
+    <h4>Irreversible</h4>
+    <p>Once extracted, the resource is gone permanently from the earth, not just from the community.</p>
+  </div>
+  <div class="missing-box">
+    <h4>Intergenerational</h4>
+    <p>Future generations who had no vote in the extraction decision bear permanent loss.</p>
+  </div>
+  <div class="missing-box">
+    <h4>Asymmetric in time</h4>
+    <p>The profit is realized once, in the present. The cost — environmental harm, instability, depletion — accrues indefinitely into the future.</p>
+  </div>
+  <div class="missing-box">
+    <h4>Mispriced by every market mechanism</h4>
+    <p>Because markets discount the future and have no instrument for pricing permanent loss.</p>
+  </div>
+
+  <p style="margin-top:1.25rem;">The closest existing theoretical tools:</p>
+
+  <table>
+    <thead><tr><th>Tool</th><th>What it does</th><th>Limitation</th></tr></thead>
+    <tbody>
+      <tr><td>Hartwick's Rule (1977)</td><td>A community extracting non-renewable resources should invest the rents in renewable capital, so wealth is transformed rather than consumed. Norway's oil fund is the best real-world application.</td><td>Requires political will to enforce; doesn't address the valuation of what is permanently lost.</td></tr>
+      <tr class="highlight-row"><td>Precautionary Principle</td><td>When facing irreversible harm, the burden of proof falls on those who would extract, not those who would protect.</td><td>Procedural, not pricing. Doesn't assign a dollar value to permanent foreclosure.</td></tr>
+      <tr><td>Intergenerational equity (Rawls applied across time)</td><td>A just policy is one agreeable from behind a veil of ignorance — including ignorance of which generation you will be born into.</td><td>Philosophical rather than operational. No pricing mechanism attached.</td></tr>
+      <tr class="highlight-row"><td>Depletion rent concept</td><td>The community should not merely receive a royalty on the $100 barrel; it should receive a permanent endowment equal to the present value of all future value permanently foreclosed by the extraction.</td><td>Under-theorized in the existing literature. This is the gap Commons Bonds is designed to fill.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Part IV — What a new framework needs</h2>
+
+  <div class="new-concept">
+    <h4>Gap 1 — A theory of value that includes permanence</h4>
+    <p>Current pricing theory prices scarcity in the present but has no instrument for pricing permanent foreclosure of future possibility. The framework needs a concept — residual commons value, generational equity rent — that captures this.</p>
+  </div>
+  <div class="new-concept">
+    <h4>Gap 2 — A theory of who owns what was never made</h4>
+    <p>Private property theory can justify ownership of things that were built or produced. But oil, coal, and mineral deposits were not made by anyone. The community's claim is not based on labor (Lockean theory) or contract — it is based on inheritance and presence. This is philosophically under-theorized and is the most important gap.</p>
+  </div>
+  <div class="new-concept">
+    <h4>Gap 3 — A theory of exit costs</h4>
+    <p>Harvey identifies that capital extracts and departs, but no framework adequately prices the cost of departure — the harm left behind when capital leaves. The framework needs a concept like departure liability or residual harm bond — requiring capital to hold collateral equal to the projected long-term cost before extraction begins.</p>
+  </div>
+  <div class="new-concept">
+    <h4>Gap 4 — A solidarity mechanism</h4>
+    <p>The biggest structural support for extractive capitalism is the prevention of cross-community recognition. A new framework needs institutional design that actively produces solidarity across lines currently used to divide — not just redistribution, but the architecture of common identity. This is where the sociology paper connects to the economics framework.</p>
+  </div>
+
+  <p style="margin-top: 2rem; font-size: 13px; color: var(--color-text-secondary);">Generated in conversation with Claude · April 19, 2026 · For Commons Bonds project</p>
+
+  <button class="dl-btn" onclick="downloadHTML()">Download as HTML file</button>
+</div>
+
+<script>
+function downloadHTML() {
+  const content = document.getElementById('maindoc').outerHTML;
+  const full = `<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Commons Bonds — Economic Theory Reference</title><style>body{font-family:system-ui,sans-serif;background:#fff;color:#1a1a1a;margin:0;padding:0}:root{--color-text-primary:#1a1a1a;--color-text-secondary:#666;--color-background-primary:#fff;--color-background-secondary:#f5f5f3;--color-border-tertiary:rgba(0,0,0,0.12);--color-border-secondary:rgba(0,0,0,0.25);--border-radius-md:8px;--border-radius-lg:12px;--font-sans:system-ui,sans-serif}.doc{max-width:860px;margin:0 auto;padding:2rem 1.5rem;font-family:var(--font-sans);color:var(--color-text-primary)}h1{font-size:22px;font-weight:500;margin:0 0 0.25rem}.subtitle{font-size:14px;color:var(--color-text-secondary);margin:0 0 2rem}h2{font-size:18px;font-weight:500;margin:2.5rem 0 1rem;border-bottom:0.5px solid rgba(0,0,0,0.12);padding-bottom:0.5rem}h3{font-size:15px;font-weight:500;margin:1.75rem 0 0.5rem}p{font-size:15px;line-height:1.7;margin:0 0 0.75rem}.tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px;margin-bottom:0.5rem;font-weight:500;background:#f5f5f3;color:#666;border:0.5px solid rgba(0,0,0,0.12)}.section-card{background:#fff;border:0.5px solid rgba(0,0,0,0.12);border-radius:12px;padding:1.25rem 1.5rem;margin-bottom:1.25rem}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:0.75rem}.col-label{font-size:12px;font-weight:500;color:#666;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.25rem}.col-val{font-size:14px;line-height:1.6}table{width:100%;border-collapse:collapse;font-size:13px;margin:1rem 0}th{text-align:left;font-weight:500;font-size:12px;color:#666;border-bottom:0.5px solid rgba(0,0,0,0.12);padding:6px 10px}td{padding:8px 10px;border-bottom:0.5px solid rgba(0,0,0,0.12);vertical-align:top;line-height:1.5}.highlight-row td{background:#f5f5f3}.missing-box{background:#f5f5f3;border-left:3px solid #1D9E75;border-radius:0 8px 8px 0;padding:1rem 1.25rem;margin:1rem 0}.missing-box h4{font-size:14px;font-weight:500;margin:0 0 0.4rem}.missing-box p{font-size:14px;margin:0;color:#666}.new-concept{background:#EEEDFE;border-left:3px solid #534AB7;border-radius:0 8px 8px 0;padding:1rem 1.25rem;margin:1rem 0}.new-concept h4{font-size:14px;font-weight:500;margin:0 0 0.4rem;color:#3C3489}.new-concept p{font-size:14px;margin:0;color:#534AB7}.dl-btn{display:none}</style></head><body>` + content.replace(/<button[^>]*>.*?<\/button>/s,'') + `</body></html>`;
+  const blob = new Blob([full], {type:'text/html'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'commons_bonds_economic_theory_reference.html';
+  a.click();
+}
+</script>

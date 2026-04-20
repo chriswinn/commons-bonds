@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Workstream Alignment Companion</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 760px; margin: 2em auto; padding: 0 1.25em; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .purpose { background: #eef4f8; border-left: 3px solid #466; padding: 0.9em 1.1em; margin: 1.25em 0; font-size: 0.95em; }
+  .optc { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; font-size: 0.92em; }
+  .watch { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .action { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .principle { background: #fff8e1; border-left: 3px solid #c9a227; padding: 0.75em 1em; margin: 1em 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.92em; }
+  th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; }
+  .retired { color: #a22; text-decoration: line-through; }
+  .stays { color: #1a6a2a; font-weight: 600; }
+  .moves { color: #6b4a8a; font-weight: 600; }
+  .flag { color: #b57a00; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Workstream Alignment Companion</h1>
+<p class="meta">Portable reference for any workstream session · Last revised April 19, 2026 · Upload alongside the active workstream file to preserve project-wide alignment</p>
+
+<div class="purpose">
+<strong>Purpose of this document.</strong> The Commons Bonds project has accumulated architectural decisions, scope boundaries, retired vocabulary, cross-reference conventions, and known drift patterns across many sessions. Individual workstream files don't always carry this context. This companion travels with whichever workstream is active and gives a new session everything it needs to stay aligned without re-litigating settled decisions. Read it first. Then read the workstream.
+</div>
+
+<h2>1. Project architecture (Option C, canonical)</h2>
+
+<div class="optc">
+<strong>Two pillars</strong>
+<ol style="margin: 0.4em 0 0.6em 1.4em;">
+<li><strong>Cost Severance</strong> — naming the mechanism by which extraction separates value capture from obligation.</li>
+<li><strong>Residual Commons Value (RCV)</strong> — pricing what was previously unpriceable, via the eight-tier decomposition.</li>
+</ol>
+<strong>Two methodologies</strong>
+<ol style="margin: 0.4em 0 0.6em 1.4em;">
+<li><strong>Abundance Inversion Test</strong> — discovery. Strip an abundance layer; what becomes visible is a tier.</li>
+<li><strong>Universality Test</strong> — validation. If the framework applies on Mars and on an asteroid, the mechanism is structural, not ideological.</li>
+</ol>
+<strong>Book spine</strong>: Mechanism → Math → Universal Validation → Actionable Policy.
+</div>
+
+<h3>Retired vocabulary — never resurrect</h3>
+<p>These terms were retired during Option C finalization. If you find yourself reaching for one, the sentence wants something more precise. The right replacements are noted.</p>
+
+<table>
+<tr><th>Retired term</th><th>What it wanted to say</th><th>Use instead</th></tr>
+<tr><td class="retired">V_civ</td><td>Civilizational value</td><td>Nothing — concept absorbed into RCV. Do not reintroduce.</td></tr>
+<tr><td class="retired">Solidarity Architecture</td><td>Vague gesture at institutional design</td><td>"Institutional legibility infrastructure" (Chapter 10), "common bonds" (title/theme), or the specific mechanism being described.</td></tr>
+<tr><td class="retired">Departure Liability</td><td>What a departing extractor owes</td><td>"Community Transition Reserve" (Tier 5, formalized as Definition A.12 in Technical Appendix).</td></tr>
+<tr><td class="retired">ESG</td><td>Environmental-social-governance scoring</td><td><strong>CSG</strong> (Civilizational Substitutability Gap). ESG was retired because it collided with the separately-defined ESG investing terminology.</td></tr>
+<tr><td class="retired">"Horizon Cost"</td><td>Long-horizon costs</td><td><strong>FGC</strong> (Full Generational Cost). Duplicate was retired; FGC is canonical.</td></tr>
+<tr><td>"Value Extraction" (as economic act)</td><td>The act of taking value</td><td><strong>Value Capture</strong>. "Physical extraction" stays as-is; the <em>economic</em> act is capture.</td></tr>
+<tr><td>"Abundance Test"</td><td>Informal shorthand</td><td>Acceptable only as prose shorthand for <strong>Abundance Inversion Test</strong>. Canonical name in glossary.</td></tr>
+</table>
+
+<h2>2. Two-book split (Decision D, April 19, 2026)</h2>
+
+<div class="principle">
+<strong>Book One</strong> = <em>Commons Bonds</em>. Framework, non-partisan, minimal legal exposure, near-term (Noema → book proposal). Vocabulary establishment is the deliverable. Legislative passage is explicitly not the goal.<br><br>
+<strong>Book Two</strong> = <em>The Subsidy Economy</em>. Applied / policy / advocacy. Notes-only for now. Pending 3–5 years after CRNA / PhD / institutional affiliation or coauthor attachment.<br><br>
+<strong>Success metric (Book One):</strong> "If in ten years a labor lawyer uses 'severed cost' in a brief and the judge doesn't need it explained — and the author never knows it happened — the book succeeded."
+</div>
+
+<h3>Scope discipline test (apply to any content being added to Book One)</h3>
+<ol>
+<li>Does this sharpen the framework, or expand scope? (Sharpen = add. Expand = probably skip.)</li>
+<li>Does it help a reader recognize the mechanism in their own situation?</li>
+<li>Does it add vocabulary the discourse needs, or duplicate vocabulary already established?</li>
+<li>Does it require Book One to make claims that would be stronger if held for Book Two?</li>
+<li>Does it increase legal or political exposure without proportionate utility increase?</li>
+</ol>
+<p><strong>When in doubt, trim.</strong> Book One's job is to make the invisible visible and hand the vocabulary to the discourse. Anything beyond that job risks weakening the book's ability to do its actual job.</p>
+
+<h3>Book Two tells — content that should move to <code>/_One Day Maybe/Book-Two-Subsidy-Economy/</code></h3>
+<ul>
+<li>Named legislation, named agencies, named coalition partners, named executives</li>
+<li>Legislative pathway tables (local/state/federal/international)</li>
+<li>"Entering wedges" tactical language</li>
+<li>Phase 1 / Phase 2 / Phase 3 implementation timelines</li>
+<li>Political risk mitigation matrices</li>
+<li>Specific institutional adoption targets (e.g., "OECD adopts X by year Y")</li>
+<li>Global subsidy aggregation beyond the single "~$10–15T annually" signal sentence</li>
+<li>Industry-specific exposés or named-beneficiary analysis</li>
+</ul>
+
+<h2>3. The eight-tier RCV decomposition (canonical, per Decision A)</h2>
+
+<table>
+<tr><th>#</th><th>Tier</th><th>Abundance layer(s)</th><th>Currently priced?</th></tr>
+<tr><td>1</td><td>Lifetime Survival Cost</td><td>Atmospheric + Ecological</td><td>Partially (acute injury only)</td></tr>
+<tr><td>2a</td><td>Individual Risk Cost</td><td>Institutional</td><td>Partially</td></tr>
+<tr><td>2b</td><td>Mission Failure Reserve</td><td>Geographic + Temporal</td><td>Rarely</td></tr>
+<tr><td>3</td><td>Dynastic Labor Cost</td><td>Temporal</td><td>Never</td></tr>
+<tr><td>4</td><td>Foreclosure Cost</td><td>Temporal</td><td>In RCV only</td></tr>
+<tr><td>5</td><td>Community Transition Reserve</td><td>Geographic + Demographic</td><td>Never (decommissioning ≠ transition)</td></tr>
+<tr><td>6</td><td>Ecological Carrying Cost</td><td>Ecological</td><td>Partially (short timelines)</td></tr>
+<tr><td>7</td><td>Knowledge and Culture Cost</td><td>Demographic</td><td>Never</td></tr>
+<tr><td>8</td><td>Political Capture Cost</td><td>Political</td><td>Never</td></tr>
+</table>
+
+<p><strong>Seven abundance layers</strong> (what an Abundance Inversion Test strips): atmospheric, geographic, temporal, institutional, demographic, ecological, political.</p>
+
+<p><strong>First formal naming is Chapter 6.</strong> Chapter 1 demonstrates tiers through lived experience without labeling. The Technical Appendix formalizes them mathematically as Definitions A.11–A.14 (the four tiers not previously formalized). Tiers 2a, 2b, and 7 stay as prose.</p>
+
+<h2>4. Known alignment issues (the eight items)</h2>
+
+<p>These are project-wide drift patterns identified across the workstream set. If an active workstream intersects any of them, address in-flight.</p>
+
+<table>
+<tr><th>#</th><th>Issue</th><th>Status / what to do</th></tr>
+<tr><td>1</td><td>WS11 cites "Workstream 13 (Counterargument Integration)." WS13 is Theory of Change; WS14 is Counterargument Integration.</td><td>Numbering drift bug. Fix on sight in WS11; sweep WS11–17 for similar off-by-one references.</td></tr>
+<tr><td>2</td><td>WS16 (International Dimension) has the same scope creep WS13 had — full CBAM template, supply chain due diligence, director liability, OECD/World Bank/IMF/WTO coordination mechanisms.</td><td>Apply the same re-scoping WS13 just got: keep one-paragraph observation in Ch. 5 or 7; move institutional-adoption mechanisms to <code>/_One Day Maybe/Book-Two-Subsidy-Economy/International-Coordination-Source/</code>.</td></tr>
+<tr><td>3</td><td>WS11–17 don't use the WS02–10 format (no Prerequisite box, no Option C quick reference box, no standardized Watch / Check-before-ending closers).</td><td>Cosmetic but meaningful — format signals shared master decisions. Add the four conventions when a WS11–17 file is next touched. Templates are in Section 6 below.</td></tr>
+<tr><td>4</td><td>WS11–17 are absent from the WS01 Master Decisions dependency table.</td><td>When any of WS11–17 becomes active, add it to the WS01 table first so future sessions see it.</td></tr>
+<tr><td>5</td><td>WS14 (counterarguments woven into chapters) and WS17 (honest concession section in Ch. 10) have unclear division of labor.</td><td>Rule: WS14 handles <em>rebuttable objections</em> (chapter-level). WS17 handles <em>genuine framework limitations</em> (Ch. 10, meta). Don't repeat content across the two.</td></tr>
+<tr><td>6</td><td>WS11 (Living People Integration) is as resource-intensive as pre-split WS12 — 2–3 months, travel, honoraria, access brokering.</td><td>Probably needs a two-phase treatment like WS12: minimum viable version (one miner, one waterman, no heavy fieldwork) for the proposal, full program gated on publisher attachment. Act when WS11 becomes active.</td></tr>
+<tr><td>7</td><td>Any "Phase 1 / Phase 2 / Phase 3" framing that casts Book One as Phase 1 creates an implicit commitment to Book Two.</td><td>Book One is a book, not a phase. Remove any "Phase 1" language describing Book One itself. WS13 revision already guards this.</td></tr>
+<tr><td>8</td><td>Retired-vocabulary sweep may be incomplete on WS11–17 (no visible Option C quick reference to remind against V_civ, Solidarity Architecture, Departure Liability, ESG).</td><td>Add the Option C quick reference box to any WS11–17 file when next touched. Template in Section 6.</td></tr>
+</table>
+
+<h2>5. Per-workstream quick flags</h2>
+
+<p>Project-wide notes per workstream, beyond what each workstream file itself says. Read the relevant row before starting a session.</p>
+
+<table>
+<tr><th>WS</th><th>Title</th><th>Session-opening flag</th></tr>
+<tr><td>01</td><td>Master Decisions</td><td>Canonical for all decisions. If WS01 conflicts with anything else, WS01 wins. Update its dependency table when WS11–17 become active.</td></tr>
+<tr><td>02</td><td>Glossary Reconciliation</td><td>Cap glossary at ~25 terms. Each term must do work no other term does. No tier-naming in Chapter 1.</td></tr>
+<tr><td>03</td><td>Chapter 6 Integration</td><td>Heaviest writing pass. Don't label "Pillar" or "Methodology" in prose — Option C is invisible architecture. Don't preempt Ch. 7 (Universality) or Ch. 10 (prescription).</td></tr>
+<tr><td>04</td><td>Chapter 1 Knowledge Worker Extension</td><td>Demonstrate tiers; don't name them. Keep consent-problem passage sharp. Wife's medical detail stays minimal — that's her story.</td></tr>
+<tr><td>05</td><td>Chapters 4 + 5 Cases (Nigeria + Social Security)</td><td>Social Security needs all four modifications or it's Book Two. No named administrations. Include the four caveats on the $108T counterfactual.</td></tr>
+<tr><td>06</td><td>Chapter 10 Villain Landing + Retired-Terms Sweep</td><td>Don't resurrect retired terms. Villain is institutional-legibility absence, not any specific actor. Ch. 10 is Register 1 prose.</td></tr>
+<tr><td>07</td><td>Chapter 8 Two-Book Trim</td><td>Either commit to the trim or don't. Half-trimmed = Book Two exposure without Book Two persuasive weight. Keep the $10–15T aggregation signal sentence.</td></tr>
+<tr><td>08</td><td>Technical Appendix Pass</td><td>Add Definitions A.11–A.14 only. Tier 7 and risk sub-tiers stay prose. Theorem A.3 gets scope note + Corollary A.3.1 (not rewrite). Keep under 100K bytes.</td></tr>
+<tr><td>09</td><td>Old-Material Rigor Check</td><td>Default verdict for pre–April 18 working docs is <em>retire</em>, not <em>patch</em>. Don't do fresh chapter assessment until WS03/05/06/07 complete.</td></tr>
+<tr><td>10</td><td>Project Separation + Folder Reorg</td><td>Move only after consuming workstream has pulled content. Don't rename anything. Don't touch <code>/Noema/</code> or <code>/Berggruen Institute - Essay/</code>.</td></tr>
+<tr><td>11</td><td>Living People Integration</td><td><span class="flag">FORMAT FLAG:</span> add Prerequisite + Option C boxes. <span class="flag">REFERENCE BUG:</span> "WS13 (Counterargument)" → WS14. <span class="flag">SCOPE:</span> likely needs two-phase treatment like WS12.</td></tr>
+<tr><td>12</td><td>Visualization Development</td><td>Revised. Phase 1 pre-contract ($500 ceiling, IPG table + one signature figure + sketches); Phase 2 post-contract ($2–5K, gated on publisher attachment). Figure 6 dropped per WS07 trim.</td></tr>
+<tr><td>13</td><td>Theory of Change (Book One Compression)</td><td>Revised and renamed from "Implementation Pathway." Only 500–800 words in Ch. 9 or 10. Original content preserved in <code>/_One Day Maybe/Book-Two-Subsidy-Economy/Implementation-Pathway-Source/</code>.</td></tr>
+<tr><td>14</td><td>Counterargument Integration</td><td><span class="flag">FORMAT FLAG:</span> add Prerequisite + Option C boxes. Division of labor with WS17: WS14 = rebuttable (chapter-level); WS17 = genuine limits (Ch. 10).</td></tr>
+<tr><td>15</td><td>Origin Story Development</td><td><span class="flag">FORMAT FLAG:</span> add Prerequisite + Option C boxes. Personal narrative must not overshadow Ch. 2–3 interview subjects (WS11). No heroic-discovery framing.</td></tr>
+<tr><td>16</td><td>International Dimension</td><td><span class="flag">SCOPE CREEP:</span> re-scope like WS13. Keep the one-paragraph "same mechanism at scale" observation for Ch. 5 or 7; move CBAM/IMF/OECD/WTO institutional mechanisms to Book Two folder. <span class="flag">FORMAT FLAG:</span> add Prerequisite + Option C boxes.</td></tr>
+<tr><td>17</td><td>Honest Concession Section</td><td><span class="flag">FORMAT FLAG:</span> add Prerequisite + Option C boxes. Coordinate with WS14 so objections don't double up across "rebuttal" and "concession" registers.</td></tr>
+</table>
+
+<h2>6. Format templates (for retrofitting WS11–17)</h2>
+
+<p>Any WS11–17 file being edited should have these four elements added to match WS02–10 conventions.</p>
+
+<h3>Prerequisite box (top of file, after title)</h3>
+<pre style="background: #f8f8f8; padding: 0.75em 1em; border-radius: 3px; font-size: 0.85em; overflow-x: auto; white-space: pre-wrap;">&lt;div class="prereq"&gt;
+&lt;strong&gt;Prerequisite:&lt;/strong&gt; [Which earlier workstreams this depends on, and whether
+this workstream can be parallelized with others].
+&lt;/div&gt;</pre>
+
+<h3>Option C quick reference box (directly after prerequisite)</h3>
+<pre style="background: #f8f8f8; padding: 0.75em 1em; border-radius: 3px; font-size: 0.85em; overflow-x: auto; white-space: pre-wrap;">&lt;div class="optc"&gt;
+&lt;strong&gt;Option C quick reference:&lt;/strong&gt; Two pillars (Cost Severance, RCV) + two
+methodologies (Abundance Inversion Test, Universality Test). Retired: V_civ,
+Solidarity Architecture, Departure Liability, ESG.
+&lt;/div&gt;</pre>
+
+<h3>Watch items box (near end of file)</h3>
+<pre style="background: #f8f8f8; padding: 0.75em 1em; border-radius: 3px; font-size: 0.85em; overflow-x: auto; white-space: pre-wrap;">&lt;div class="watch"&gt;
+&lt;ul style="margin-bottom: 0;"&gt;
+&lt;li&gt;&lt;strong&gt;[Thing not to do].&lt;/strong&gt; [Why.]&lt;/li&gt;
+...
+&lt;/ul&gt;
+&lt;/div&gt;</pre>
+
+<h3>Check-before-ending-session numbered list (last section)</h3>
+<p>Numbered list of concrete verifications for session close. 5–10 items. See WS02–10 for examples.</p>
+
+<h3>CSS classes used across WS02–10</h3>
+<p><code>.prereq</code> (yellow), <code>.optc</code> (blue), <code>.watch</code> (red), <code>.action</code> (green). Color values are in the WS02–10 style blocks — copy the style block verbatim for format consistency.</p>
+
+<h2>7. File-location hygiene</h2>
+
+<table>
+<tr><th>Location</th><th>Contents</th><th>Sanctity</th></tr>
+<tr><td><code>/Commons Bonds/</code> (root)</td><td>Active Book One content only</td><td>Keep clean. Non–Book One material gets moved out (WS10).</td></tr>
+<tr><td><code>/Commons Bonds/Workstreams/</code></td><td>The 17 active workstream files</td><td>This is where this alignment document lives alongside.</td></tr>
+<tr><td><code>/Commons Bonds/Archives/</code></td><td>Historical working material; retired docs; session dumps after content migrated</td><td>Don't delete — archive. Everything traceable.</td></tr>
+<tr><td><code>/Commons Bonds/Research/</code></td><td>Scholarly background (not book content)</td><td>Reference material for Technical Appendix literature engagement.</td></tr>
+<tr><td><code>/Commons Bonds/Noema/</code></td><td>Submitted essay</td><td class="retired" style="color: #a22; text-decoration: none;">DO NOT TOUCH.</td></tr>
+<tr><td><code>/Commons Bonds/Berggruen Institute - Essay/</code></td><td>Competition essay</td><td class="retired" style="color: #a22; text-decoration: none;">DO NOT TOUCH — competition prohibits AI-assisted content.</td></tr>
+<tr><td><code>/_One Day Maybe/Book-Two-Subsidy-Economy/</code></td><td>Book Two source material (trimmed content from WS07, WS13, eventually WS16)</td><td>Preserve intact. This is the seed of a future book that may or may not be written.</td></tr>
+<tr><td><code>/_One Day Maybe/Counter-Vance/</code></td><td>Healthcare extraction argument (separate project)</td><td>Separated from Book One via WS10.</td></tr>
+<tr><td><code>/_One Day Maybe/Democratic-Socialism/</code></td><td>Discussion notes (separate project)</td><td>Separated from Book One via WS10.</td></tr>
+<tr><td><code>/_One Day Maybe/Satellite-Essays/</code></td><td>Delegitimization essay + future satellite essay ideas</td><td>Hold until Book One vocabulary is established in discourse.</td></tr>
+</table>
+
+<h2>8. How to use this document in a session</h2>
+
+<div class="action">
+<ol style="margin-bottom: 0;">
+<li>Open whichever workstream file is active for this session.</li>
+<li>Open this alignment companion alongside it.</li>
+<li>Read Section 1 (Option C architecture) and Section 2 (two-book split) first — these are the non-negotiables.</li>
+<li>Read the relevant row in Section 5 (per-workstream flags) for the active workstream.</li>
+<li>Check Section 4 (known alignment issues) to see whether the current session intersects any drift pattern.</li>
+<li>Proceed with the workstream.</li>
+<li>Before closing the session: run the workstream's own "Check before ending the session" list. If the workstream lacks one (WS11–17), use Section 6's template to add one.</li>
+<li>Add an entry to Section 10 (revision log) capturing what was done, which alignment issues closed or newly surfaced, and which per-workstream flags changed. Update the scorecard at the top of Section 10 to match.</li>
+</ol>
+</div>
+
+<h2>9. What this document is not</h2>
+
+<ul>
+<li><strong>Not a replacement for the workstream files.</strong> Each workstream contains its own detailed scope, file references, and deliverables. This document is meta-level alignment only.</li>
+<li><strong>Not a decision record.</strong> WS01 (Master Decisions) is canonical for decisions. If this document ever conflicts with WS01, WS01 wins.</li>
+<li><strong>Not permanent.</strong> As WS11–17 are retrofitted to WS02–10 format and alignment issues resolve, this document's contents will shrink. Revise when issues close.</li>
+<li><strong>Not exhaustive.</strong> New drift patterns will emerge. Add them to Section 4 when they do.</li>
+</ul>
+
+<h2>10. Revision log (maintain as you work)</h2>
+
+<div class="action">
+<strong>This log is the project's running alignment record.</strong> Add an entry at the end of every session that touches a workstream. Over time, the log becomes the single place where you can see what's been done, what issues have closed, what new drift has surfaced, and where things stand without reopening every workstream file.
+</div>
+
+<h3>Alignment scorecard (update as entries are added)</h3>
+
+<p>One-glance summary of project alignment state. Update the "as of" date and the counts whenever a session closes an issue or retrofits a workstream.</p>
+
+<table>
+<tr><th>Dimension</th><th>Count</th><th>As of</th></tr>
+<tr><td>Workstreams complete</td><td>0 of 17</td><td>April 19, 2026</td></tr>
+<tr><td>Workstreams in progress</td><td>0 of 17</td><td>April 19, 2026</td></tr>
+<tr><td>WS11–17 retrofitted to WS02–10 format</td><td>0 of 7</td><td>April 19, 2026</td></tr>
+<tr><td>Alignment issues closed (of original 8)</td><td>0 of 8</td><td>April 19, 2026</td></tr>
+<tr><td>New alignment issues surfaced</td><td>0</td><td>April 19, 2026</td></tr>
+<tr><td>Cross-reference errors fixed</td><td>0</td><td>April 19, 2026</td></tr>
+</table>
+
+<h3>Entry template (copy for each session)</h3>
+
+<pre style="background: #f8f8f8; padding: 0.75em 1em; border-radius: 3px; font-size: 0.85em; overflow-x: auto; white-space: pre-wrap;">&lt;tr&gt;
+  &lt;td&gt;[Date]&lt;/td&gt;
+  &lt;td&gt;[WS number(s) touched, or "N/A" for companion-only updates]&lt;/td&gt;
+  &lt;td&gt;
+    &lt;strong&gt;Done:&lt;/strong&gt; [What was accomplished in this session.]&lt;br&gt;
+    &lt;strong&gt;Issues closed:&lt;/strong&gt; [Which of the 8 alignment issues (Section 4) moved to resolved, or "none".]&lt;br&gt;
+    &lt;strong&gt;Issues surfaced:&lt;/strong&gt; [New drift patterns discovered, or "none".]&lt;br&gt;
+    &lt;strong&gt;Flags changed:&lt;/strong&gt; [Per-workstream flags (Section 5) that should be updated, or "none".]&lt;br&gt;
+    &lt;strong&gt;Follow-ups:&lt;/strong&gt; [Open items for next session, or "none".]
+  &lt;/td&gt;
+&lt;/tr&gt;</pre>
+
+<h3>When to log</h3>
+
+<ul>
+<li>Any session that completes or advances a workstream.</li>
+<li>Any session that modifies this companion document (e.g., closing an issue in Section 4, adding a new drift pattern, retrofitting a WS11–17 file).</li>
+<li>Any session that discovers a new cross-reference bug or scope issue.</li>
+<li>Any session where a decision is made that changes the Book One / Book Two scope line. (Also mirror this in WS01 Master Decisions.)</li>
+</ul>
+
+<h3>When not to log</h3>
+
+<ul>
+<li>Reading sessions where no file is modified.</li>
+<li>Purely editorial passes on chapter prose that don't touch workstreams or alignment state.</li>
+<li>Satellite projects in <code>/_One Day Maybe/</code> (those have their own notes).</li>
+</ul>
+
+<h3>Log entries</h3>
+
+<table>
+<tr><th>Date</th><th>WS</th><th>Activity</th></tr>
+<tr>
+  <td>April 19, 2026</td>
+  <td>N/A</td>
+  <td>
+    <strong>Done:</strong> Created alignment companion. Captured the 8 alignment issues from the workstream review, per-workstream flags for all 17 workstreams, retired-vocabulary ledger, Book One / Book Two scope discipline, format templates for WS11–17 retrofit, usage procedure, and this revision log structure.<br>
+    <strong>Issues closed:</strong> None yet — document captures issues, resolution comes through subsequent sessions.<br>
+    <strong>Issues surfaced:</strong> 8 (documented in Section 4).<br>
+    <strong>Flags changed:</strong> Initial flags set for all 17 workstreams in Section 5.<br>
+    <strong>Follow-ups:</strong> Priority order for next sessions: (a) WS13 re-scoping integrated with WS01 dependency table; (b) WS11 or WS16 format retrofit when next touched; (c) WS11 reference bug fix (off-by-one on WS13/WS14).
+  </td>
+</tr>
+<tr>
+  <td>April 19, 2026</td>
+  <td>12, 13</td>
+  <td>
+    <strong>Done:</strong> Revised WS12 (Visualization) into two-phase structure — Phase 1 pre-contract ($500 ceiling, IPG table + one signature figure + sketches), Phase 2 post-contract ($2–5K, gated on publisher attachment). Figure 6 dropped per WS07 trim. Revised WS13 (renamed from "Implementation Pathway" to "Theory of Change — Book One Compression"): compressed to 500–800 words for Ch. 9 or 10; original content preserved in <code>/_One Day Maybe/Book-Two-Subsidy-Economy/Implementation-Pathway-Source/</code>.<br>
+    <strong>Issues closed:</strong> None yet — WS12 and WS13 files drafted but not yet integrated into chapter drafts; WS01 dependency table not yet updated to reflect new WS13 scope.<br>
+    <strong>Issues surfaced:</strong> None beyond the original 8.<br>
+    <strong>Flags changed:</strong> Section 5 entries for WS12 and WS13 updated to reflect revised scope.<br>
+    <strong>Follow-ups:</strong> Update WS01 Master Decisions dependency table with WS13's new scope. When WS16 is next touched, apply the same scope-creep fix as WS13.
+  </td>
+</tr>
+</table>
+
+<h3>How the log interacts with the scorecard</h3>
+
+<p>When a log entry closes an issue from Section 4, increment the "Alignment issues closed" count in the scorecard. When a WS11–17 retrofit completes, increment that count. When a new drift pattern surfaces, increment "New alignment issues surfaced" and also add a row to Section 4. The scorecard is a derived summary; the log entries are the ground truth. If they ever disagree, the entries win — refresh the scorecard from them.</p>
+
+<h3>When the log gets long</h3>
+
+<p>After ~30 entries, the log becomes harder to scan. At that point: (a) move older entries to a separate "Archive" section at the bottom, (b) keep the most recent ~10 entries at the top, (c) make sure the scorecard still reflects ground truth. Don't delete entries — they're the audit trail.</p>
+
+<h3>When this companion can retire</h3>
+
+<p>This document shrinks as issues resolve. When the alignment scorecard shows all 8 issues closed, all WS11–17 retrofitted, and no new issues outstanding for two consecutive months, the document's job is mostly done. At that point it can be trimmed to just Sections 1 (architecture), 2 (two-book split), and 10 (log). Sections 3–7 can be archived. Sections 4 (known issues) and 5 (per-workstream flags) collapse naturally as entries close.</p>
+
+</body>
+</html>

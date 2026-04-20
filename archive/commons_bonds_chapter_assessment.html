@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commons Bonds - Chapter-by-Chapter Assessment</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            color: #333;
+            background-color: #fff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+        h2 {
+            font-size: 22px;
+            margin: 30px 0 15px 0;
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+        }
+        h3 {
+            font-size: 18px;
+            margin: 20px 0 10px 0;
+            color: #34495e;
+        }
+        .subtitle {
+            font-size: 16px;
+            color: #666;
+            font-style: italic;
+        }
+        .chapter {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #e9ecef;
+        }
+        .chapter-ready {
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+        }
+        .chapter-developing {
+            background-color: #fff3cd;
+            border-color: #ffeaa7;
+        }
+        .chapter-needs-work {
+            background-color: #f8d7da;
+            border-color: #f1c2c3;
+        }
+        .chapter-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .status-ready {
+            background-color: #28a745;
+            color: white;
+        }
+        .status-developing {
+            background-color: #ffc107;
+            color: #856404;
+        }
+        .status-needs-work {
+            background-color: #dc3545;
+            color: white;
+        }
+        .chapter-content {
+            margin-bottom: 15px;
+        }
+        .chapter-content h4 {
+            margin: 10px 0 5px 0;
+            color: #495057;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .chapter-content ul {
+            margin: 5px 0 10px 20px;
+            font-size: 14px;
+        }
+        .chapter-content li {
+            margin-bottom: 3px;
+        }
+        .priority-section {
+            background-color: #e8f4fd;
+            border: 2px solid #3498db;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        .download-info {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 20px;
+            color: #155724;
+        }
+        .completion-stats {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .completion-stats div {
+            text-align: center;
+        }
+        .completion-stats .number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .completion-stats .label {
+            font-size: 12px;
+            color: #6c757d;
+            text-transform: uppercase;
+        }
+        .roadmap {
+            background-color: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        @media print {
+            body {
+                color: #000;
+                background: #fff;
+            }
+            .download-info {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Commons Bonds</h1>
+        <p class="subtitle">Chapter-by-Chapter Content Assessment & Writing Roadmap</p>
+        <p class="subtitle">By Chris Winn</p>
+    </div>
+
+    <div class="download-info">
+        <strong>Download Instructions:</strong> Right-click anywhere on this page and select "Save As" to download as HTML file, or use Ctrl+P (Cmd+P) to print/save as PDF.
+    </div>
+
+    <div class="completion-stats">
+        <div>
+            <div class="number">7</div>
+            <div class="label">Ready Chapters</div>
+        </div>
+        <div>
+            <div class="number">2</div>
+            <div class="label">Developing</div>
+        </div>
+        <div>
+            <div class="number">1</div>
+            <div class="label">Needs Interviews</div>
+        </div>
+        <div>
+            <div class="number">85%</div>
+            <div class="label">Framework Complete</div>
+        </div>
+    </div>
+
+    <h2>Chapter Status Overview</h2>
+
+    <div class="chapter chapter-ready">
+        <div class="status-badge status-ready">READY FOR WRITING</div>
+        <div class="chapter-title">Chapter 1: The Plane</div>
+        <div class="chapter-content">
+            <h4>Current Status:</h4>
+            <ul>
+                <li>Strong personal narrative scaffold (healthcare IT executive story)</li>
+                <li>Personal origin story of cost severance recognition</li>
+                <li>Connection to Harvey's "accumulation by dispossession"</li>
+                <li>Geographic setting (Hampton, harbor, watermen) established</li>
+            </ul>
+            <h4>Ready Elements:</h4>
+            <ul>
+                <li>Personal story from Savannah (wife's illness, plane, cost severance)</li>
+                <li>Career transition narrative (IT executive to nursing student)</li>
+                <li>Framework origin story (sociology coursework, Harvey encounter)</li>
+                <li>Sailboat choice as structural resistance</li>
+            </ul>
+            <h4>Next Steps:</h4>
+            <ul>
+                <li>Write personal opening with authentic voice</li>
+                <li>Integrate 120-hour work week stories for dynastic labor cost</li>
+                <li>Include abundance test methodology introduction</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="chapter chapter-ready">
+        <div class="status-badge status-ready">READY FOR WRITING</div>
+        <div class="chapter-title">Chapter 2: The Miner</div>
+        <div class="chapter-content">
+            <h4>Current Status:</h4>
+            <ul>
+                <li>Complete McDowell County data and analysis</li>
+                <li>$100 barrel passage fully developed</li>
+                <li>Counterarguments integrated ("cheap energy lifted billions")</li>
+                <li>Cost severance mechanism demonstrated concretely</li>
+            </ul>
+            <h4>Ready Elements:</h4>
+            <ul>
+                <li>SMCRA bonding shortfall ($3.7-6B)</li>
+                <li>Bottom-up cost calculation for Appalachian coal</li>
+                <li>IPG calculation (33-122x underpricing)</li>
+                <li>Historical context and community impact</li>
+            </ul>
+            <h4>Enhancement Opportunities:</h4>
+            <ul>
+                <li>Individual miner interview for human texture</li>
+                <li>Former miner or miner's family story</li>
+                <li>Sympathetic extraction-side portrait</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="chapter chapter-needs-work">
+        <div class="status-badge status-needs-work">NEEDS INTERVIEWS</div>
+        <div class="chapter-title">Chapter 3: The Waterman</div>
+        <div class="chapter-content">
+            <h4>Current Status:</h4>
+            <ul>
+                <li>Conceptual scaffold complete</li>
+                <li>Chesapeake Bay as renewable commons framework</li>
+                <li>Connection to Old Point Comfort Marina established</li>
+                <li>Cost severance on renewable resources when extraction exceeds regeneration</li>
+            </ul>
+            <h4>Missing Elements:</h4>
+            <ul>
+                <li>Actual waterman interviews and stories</li>
+                <li>Specific individual narratives with names and faces</li>
+                <li>Historical Bay decline data</li>
+                <li>Personal connection through bar work at Fort Monroe</li>
+            </ul>
+            <h4>Next Steps:</h4>
+            <ul>
+                <li><strong>Priority:</strong> Interview watermen when bar reopens (March 10)</li>
+                <li>Document personal relationships with harbor community</li>
+                <li>Research Bay ecological decline specifics</li>
+                <li>Connect miner and waterman structural positions</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="chapter chapter-ready">
+        <div class="status-badge status-ready">READY FOR WRITING</div>
+        <div class="chapter-title">Chapter 4: The Existence Proof - Norway</div>
+        <div class="chapter-content">
+            <h4>Current Status:</h4>
+            <ul>
+                <li>Full scaffold with Norway sovereign wealth fund analysis</li>
+                <li>Cost severance prevention example</li>
+                <li>$1.9 trillion fund scale and structure documented</li>
+                <li>Institutional preconditions identified</li>
+            </ul>
+            <h4>Ready Elements:</h4>
+            <ul>
+                <li>Historical development of Norwegian oil policy</li>
+                <li>Hartwick Rule implementation in practice</li>
+                <li>Intergenerational equity mechanisms</li>
+                <li>Limitations and preconditions analysis</li>
+            </ul>
+            <h4>Enhancement Opportunities:</h4>
+            <ul>
+                <li>Interview with Norwegian fund manager or policy expert</li>
+                <li>Citizen perspective on generational equity</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="chapter chapter-developing">
+        <div class="status-badge status-developing">STRONG SCAFFOLD</div>
+        <div class="chapter-title">Chapter 5: The Accountability Gap</div>
+        <div class="chapter-content">
+            <h4>Current Status:</h4>
+            <ul>
+                <li>Four industrial cases: Libby, Deepwater Horizon, Exxon Valdez, Baotou</li>
+                <li>Accountability mechanism failures documented</li>
+                <li>Pattern of cost severance across industries</li>
+            </ul>
+            <h4>Ready Elements:</h4>
+            <ul>
+                <li>Libby Montana asbestos case (IPG 55-82x)</li>
+                <li>Deepwater Horizon calculations (IPG 15-17x)</li>
+                <li>Systematic accountability failure patterns</li>
+            </ul>
+            <h4>Missing High-Impact Addition:</h4>
+            <ul>
+                <li><strong>Social Security case:</strong> $108 trillion calculation missing</li>
+                <li>Financial commons at national scale demonstration</li>
+                <li>Political capture cost tier introduction</li>
+                <li>Bridge between industrial and financial cost severance</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="chapter chapter-ready">
+        <div class="status-badge status-ready">READY FOR WRITING</div>
+        <div class="chapter-title">Chapter 6: Three Ways of Counting</div>
+        <div class="chapter-content">
+            <h4>Current Status:</h4>
+            <ul>
+                <li>Three convergent approaches: Damage Function, Real Options, RCV</li>
+                <li>Mathematical framework explanation for general readers</li>
+                <li>Eight-tier FGC decomposition ready for integration</li>
+                <li>Most analytically dense chapter with clear structure</li>
+            </ul>
+            <h4>Ready Elements:</h4>
+            <ul>
+                <li>Bottom-up damage accounting methodology</li>
+                <li>Real options framework (social option value)</li>
+                <li>RCV model with abundance test integration</li>
+                <li>Convergence demonstration across cases</li>
+            </ul>
+            <h4>Integration Needs:</h4>
+            <ul>
+                <li>Abundance test as fourth section: "RCV Decomposed"</li>
+                <li>Eight-tier framework for individual-level application</li>
+                <li>Register transition (story → framework → application)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="chapter chapter-ready">
+        <div class="status-badge status-ready">READY FOR WRITING</div>
+        <div class="chapter-title">Chapter 7: The Colony Administrator</div>
+        <div class="chapter-content">
+            <h4>Current Status:</h4>
+            <ul>
+                <li>Mars thought experiment fully developed</li>
+                <li>Universality test across space mining scenarios</li>
+                <li>CSG ranking system established</li>
+                <li>"Cost severance requires distance" insight</li>
+            </ul>
+            <h4>Ready Elements:</h4>
+            <ul>
+                <li>Mars water colony scenario (10,000 people, 50-year supply)</li>
+                <li>Cross-scenario validation (asteroid iron, lunar helium-3, etc.)</li>
+                <li>Insurance cost and asymmetric regret principles</li>
+                <li>CSG ≈ 0 to High CSG classification system</li>
+            </ul>
+            <h4>Counterargument Integration:</h4>
+            <ul>
+                <li>"Mars is false analogy" addressed within chapter</li>
+                <li>Complexity vs. structure distinction clarified</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="chapter chapter-developing">
+        <div class="status-badge status-developing">NEEDS SCOPE DECISION</div>
+        <div class="chapter-title">Chapter 8: What Things Actually Cost</div>
+        <div class="chapter-content">
+            <h4>Current Status:</h4>
+            <ul>
+                <li>Full-economy simulation scaffold complete</li>
+                <li>$10-15 trillion global subsidy insight</li>
+                <li>Distributional crisis analysis</li>
+                <li>Universal floor structural necessity proof</li>
+            </ul>
+            <h4>Book One Recommendation (Focused):</h4>
+            <ul>
+                <li>One fully worked example: McDowell County coal through 8 tiers</li>
+                <li>Brief aggregation: "$10-15 trillion annually" insight</li>
+                <li>Transition to Book Two: "What happens when we price everything honestly"</li>
+            </ul>
+            <h4>Book Two Material (Full Simulation):</h4>
+            <ul>
+                <li>Resource-by-resource analysis (oil, gas, rare earths, etc.)</li>
+                <li>40-50% cost of living impact calculations</li>
+                <li>Distributional crisis and universal floor requirements</li>
+                <li>Political economy of transition</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="chapter chapter-ready">
+        <div class="status-badge status-ready">READY FOR WRITING</div>
+        <div class="chapter-title">Chapter 9: The Renewable Imperative</div>
+        <div class="chapter-content">
+            <h4>Current Status:</h4>
+            <ul>
+                <li>Four-step policy framework complete</li>
+                <li>International dimension analysis</li>
+                <li>Implementation entering wedges identified</li>
+                <li>Renewable investment dominance argument</li>
+            </ul>
+            <h4>Ready Elements:</h4>
+            <ul>
+                <li>Classify (CSG ranking) → Reserve → Invest → Reassess sequence</li>
+                <li>Community Transition Reserve as named policy tool</li>
+                <li>Political economy of resistance analysis</li>
+                <li>Carbon pricing as entering wedge</li>
+            </ul>
+            <h4>Counterargument Integration:</h4>
+            <ul>
+                <li>"Property rights solve this" addressed in policy section</li>
+                <li>"Implementation pathway doesn't exist" honestly acknowledged</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="chapter chapter-ready">
+        <div class="status-badge status-ready">READY FOR WRITING</div>
+        <div class="chapter-title">Chapter 10: Common Bonds</div>
+        <div class="chapter-content">
+            <h4>Current Status:</h4>
+            <ul>
+                <li>Closing framework complete</li>
+                <li>Title double meaning resolution</li>
+                <li>Shared structural position recognition</li>
+                <li>Camus note and compass imagery</li>
+            </ul>
+            <h4>Ready Elements:</h4>
+            <ul>
+                <li>Miner-waterman-colony administrator connection</li>
+                <li>"Cost severance as function of distance" theme completion</li>
+                <li>Honest model limitations and capabilities</li>
+                <li>Personal grandfather wind tunnel connection</li>
+            </ul>
+            <h4>Emotional Architecture:</h4>
+            <ul>
+                <li>Pure Register 1 (voice, no data)</li>
+                <li>Quiet, powerful conclusion</li>
+                <li>Harbor imagery and compass metaphor</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="priority-section">
+        <h3>Immediate Writing Priorities</h3>
+        <h4>High Priority (Start First):</h4>
+        <ol>
+            <li><strong>Chapter 1 (The Plane):</strong> Personal stories ready, just needs authentic voice</li>
+            <li><strong>Chapter 6 (Three Ways of Counting):</strong> Mathematical framework solid, needs abundance test integration</li>
+            <li><strong>Chapter 2 (The Miner):</strong> All data ready, strongest case study</li>
+        </ol>
+        
+        <h4>Medium Priority (After Initial Three):</h4>
+        <ol>
+            <li><strong>Chapter 7 (Colony Administrator):</strong> Universality test complete, needs narrative polish</li>
+            <li><strong>Chapter 4 (Norway):</strong> Well-researched, straightforward to write</li>
+            <li><strong>Chapter 9 (Renewable Imperative):</strong> Policy framework clear</li>
+        </ol>
+        
+        <h4>Requires External Work:</h4>
+        <ol>
+            <li><strong>Chapter 3 (Waterman):</strong> Needs interviews when bar reopens March 10</li>
+            <li><strong>Chapter 5:</strong> Consider adding Social Security case</li>
+            <li><strong>Chapter 8:</strong> Finalize scope (Book One vs. Book Two split)</li>
+        </ol>
+    </div>
+
+    <div class="roadmap">
+        <h3>Suggested Writing Sequence</h3>
+        <h4>Phase 1 (Immediate - Strong Scaffolds):</h4>
+        <p>Start with Chapters 2, 6, 7 — these have the strongest analytical content and complete scaffolding. Writing them first builds momentum and confidence with the material.</p>
+        
+        <h4>Phase 2 (Personal Content):</h4>
+        <p>Write Chapters 1 and 10 after living with the analytical framework. The personal opening and closing benefit from deep familiarity with the full argument.</p>
+        
+        <h4>Phase 3 (Policy and Interviews):</h4>
+        <p>Complete Chapters 4 and 9, gather waterman interviews for Chapter 3, finalize Chapter 5 scope, determine Chapter 8 approach based on Book One vs. Book Two strategy.</p>
+        
+        <h4>Supporting Materials Already Complete:</h4>
+        <ul>
+            <li>Technical Appendix (141KB, formal mathematics)</li>
+            <li>Vocabulary Glossary (revised with abundance test)</li>
+            <li>AI Collaboration Statement (needs minor revision)</li>
+            <li>Counterargument integration (embedded in chapters)</li>
+        </ul>
+    </div>
+
+    <p style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; color: #666;">
+        <em>Commons Bonds Chapter Assessment - April 18, 2026<br>
+        Framework development complete. Ready for execution phase.<br>
+        Estimated time to first draft completion: 4-6 months with focused effort.</em>
+    </p>
+</body>
+</html>

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commons Bonds: Rigor Testing Roles & Perspectives</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+        
+        .subtitle {
+            margin-top: 0.5rem;
+            opacity: 0.9;
+            font-style: italic;
+        }
+        
+        .role-category {
+            background: #f8f9fa;
+            border-left: 5px solid #007bff;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 5px;
+        }
+        
+        .role-category h2 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        
+        .role {
+            background: white;
+            border: 1px solid #dee2e6;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .role h3 {
+            color: #dc3545;
+            margin-top: 0;
+            font-size: 1.2rem;
+        }
+        
+        .role-description {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+        
+        .attack-style {
+            background: #fff3cd;
+            padding: 0.5rem;
+            border-radius: 3px;
+            margin: 0.5rem 0;
+            border-left: 3px solid #ffc107;
+        }
+        
+        .example-attack {
+            background: #f8d7da;
+            padding: 0.8rem;
+            border-radius: 3px;
+            margin: 0.8rem 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            border-left: 3px solid #dc3545;
+        }
+        
+        .defense-note {
+            background: #d1ecf1;
+            padding: 0.8rem;
+            border-radius: 3px;
+            margin: 0.8rem 0;
+            border-left: 3px solid #17a2b8;
+        }
+        
+        .usage-note {
+            background: #d4edda;
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 2rem 0;
+            border-left: 3px solid #28a745;
+        }
+        
+        .cross-reference {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            font-style: italic;
+        }
+        
+        .toc {
+            background: #e9ecef;
+            padding: 1.5rem;
+            border-radius: 5px;
+            margin: 2rem 0;
+        }
+        
+        .toc h2 {
+            margin-top: 0;
+            color: #495057;
+        }
+        
+        .toc ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .toc li {
+            padding: 0.3rem 0;
+        }
+        
+        .toc a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        
+        .toc a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Commons Bonds: Rigor Testing Roles & Perspectives</h1>
+        <p class="subtitle">Adversarial Critics and Hostile Readers for Framework Stress Testing</p>
+        <p>Compiled from all Commons Bonds project conversations and documents</p>
+    </div>
+
+    <div class="usage-note">
+        <strong>How to Use This Document:</strong> These roles are designed for steelmanning the strongest possible objections to the Commons Bonds framework. Each role represents a different intellectual tradition, methodological approach, or value system that would critique the framework from their specific angle. Use these when you need to stress-test arguments, anticipate counterarguments, or ensure intellectual rigor.
+    </div>
+
+    <div class="toc">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#academic-critics">Academic Critics</a></li>
+            <li><a href="#philosophical-critics">Philosophical Critics</a></li>
+            <li><a href="#political-economic-critics">Political-Economic Critics</a></li>
+            <li><a href="#methodological-critics">Methodological Critics</a></li>
+            <li><a href="#stakeholder-critics">Stakeholder Critics</a></li>
+            <li><a href="#structural-critics">Structural Critics</a></li>
+            <li><a href="#meta-critics">Meta-Critics</a></li>
+        </ul>
+    </div>
+
+    <div class="role-category" id="academic-critics">
+        <h2>Academic Critics</h2>
+        <p>These critics approach the framework from established academic disciplines and methodological traditions.</p>
+
+        <div class="role">
+            <h3>The Academic Economist</h3>
+            <div class="role-description">Looking for category errors, methodological rigor, and alignment with economic theory</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Challenges parameter selection, questions novelty relative to existing economic frameworks, points out measurement difficulties</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "Your model requires estimating substitutability functions, externality tails, and discount factors that are fundamentally unobservable. The IPG for coal ranges from 5x to 133x depending on which social cost of carbon you use. That's not a model - that's choose-your-own-adventure. I can get any answer I want by adjusting parameters."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Acknowledge uncertainty but argue the framework structures it rather than eliminating it. Current market pricing (externalities = $0) is precisely wrong, not uncertain.</div>
+        </div>
+
+        <div class="role">
+            <h3>The Development Economist</h3>
+            <div class="role-description">Focused on global poverty, industrialization pathways, and developing world energy access</div>
+            <div class="attack-style"><strong>Attack Style:</strong> "Cheap energy lifted billions out of poverty" argument, concerned about blocking developing world industrialization</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "If you had applied RCV pricing in 1960, coal would have been $500/ton instead of $4.50. The industrial revolution would have been unaffordable. The Green Revolution that saved a billion people from famine depended on cheap natural gas for fertilizer. Your framework is environmental colonialism."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Distinguish between "shouldn't have happened" vs. "was underpriced." Advocate for differentiated transition timelines and technology transfer funded by historical cost severance.</div>
+        </div>
+
+        <div class="role">
+            <h3>The Novelty Critic</h3>
+            <div class="role-description">Asking whether each concept is genuinely new or just renamed existing ideas</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Compares to existing frameworks (Ostrom, Hartwick, Hotelling), challenges claims of originality</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "Cost Severance vs 'externality' or 'accumulation by dispossession'? RCV vs 'social cost of carbon'? You're claiming four novel contributions when Ostrom won a Nobel for one insight. This looks like relabeling existing concepts."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Show precisely what each concept adds beyond existing frameworks - specific mechanisms and measurements that didn't exist before.</div>
+        </div>
+    </div>
+
+    <div class="role-category" id="philosophical-critics">
+        <h2>Philosophical Critics</h2>
+        <p>These critics examine the framework's conceptual coherence and underlying assumptions.</p>
+
+        <div class="role">
+            <h3>The Analytic Philosopher</h3>
+            <div class="role-description">Looking for ontological confusion and category errors in what types of things are being treated as equivalent</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Examines whether pillars are the same "kind" of thing, checks logical structure and coherence</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "Cost Severance is a mechanism operating in the world. RCV is a quantity in principle measurable. The Abundance Test is a cognitive procedure performed by analysts. These are three different ontological categories being presented as equivalent pillars."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Clarify the distinction between concepts/mechanisms and methods/procedures. Maintain clean categorical boundaries.</div>
+        </div>
+
+        <div class="role">
+            <h3>The Falsifiability Critic</h3>
+            <div class="role-description">Examining whether the framework makes testable predictions or is unfalsifiable</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Points out that CS > 0 in all tested cases suggests the model can't be wrong</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "You tested six cases and found CS > 0 in all six. But you selected cases that are famous environmental disasters. Show me a case where your model predicts CS ≤ 0. If no such case exists, the model is unfalsifiable."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Identify cases where CS could equal zero (sustainably managed renewables, asteroid mining) and explain the structural reasons CS > 0 is found everywhere currently.</div>
+        </div>
+    </div>
+
+    <div class="role-category" id="political-economic-critics">
+        <h2>Political-Economic Critics</h2>
+        <p>These critics examine the framework through different political and economic lenses.</p>
+
+        <div class="role">
+            <h3>The Libertarian/Property Rights Theorist</h3>
+            <div class="role-description">Believes property rights and markets already solve commons problems optimally</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Argues for Coasean solutions, questions government pricing mechanisms</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "The problem isn't market failure - it's commons failure. Clear property rights solve this. If communities held enforceable rights over air and water quality, companies would have to compensate for degradation. You're replacing imperfect markets with political mechanisms subject to capture."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Acknowledge what property rights solve well, then identify structural limitations (intergenerational foreclosure, transboundary externalities, information asymmetries).</div>
+        </div>
+
+        <div class="role">
+            <h3>The Leftist/Anti-Capitalist Critic</h3>
+            <div class="role-description">Argues the framework doesn't go far enough and tries to reform rather than replace capitalism</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Views cost severance as capitalism working as designed, not as a fixable error</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "Cost severance isn't market failure - it's a market feature. Capitalism requires externalizing costs to generate profit. You're rescuing capitalism by absorbing the critique into a reformed version. The system that created McDowell County doesn't deserve reform - it deserves replacement."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Accept the power analysis while maintaining that pricing is necessary even if insufficient. The framework works under any ownership structure.</div>
+        </div>
+
+        <div class="role">
+            <h3>The Conservative/Traditionalist</h3>
+            <div class="role-description">Defends extraction communities' agency and dignity, skeptical of elite environmental concerns</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Emphasizes miner pride and community choice, sees environmental arguments as coastal elite paternalism</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "My grandfather worked in the mines and was proud of it. You're treating extraction communities as passive victims, but they chose mining and fought for mining jobs. Your 'liberation' is experienced as elite abandonment and economic destruction."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Honor the work and workers while arguing they were structurally undercompensated for what they sacrificed. Frame as workers deserving fair compensation, not environmental paternalism.</div>
+        </div>
+    </div>
+
+    <div class="role-category" id="methodological-critics">
+        <h2>Methodological Critics</h2>
+        <p>These critics focus on the framework's research methods and analytical approaches.</p>
+
+        <div class="role">
+            <h3>The AI Adversary</h3>
+            <div class="role-description">Systematically trying to reduce, collapse, or falsify each claim through logical analysis</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Looks for logical inconsistencies, reduction opportunities, and false convergences</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "Run the irreducibility test on each pillar. Cost Severance: irreducible. RCV: irreducible. Abundance Test: reducible to methodology. Two of your claimed pillars fail the test. Either demote them or admit they're not the same kind of thing."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Distinguish between substantive concepts and methodological tools. Maintain clear hierarchy of what constitutes a fundamental contribution vs. a method.</div>
+        </div>
+
+        <div class="role">
+            <h3>The Completeness Critic</h3>
+            <div class="role-description">Argues the framework's categories are chosen rather than derived, missing important dimensions</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Questions why certain cost categories are included but not others</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "Your damage function includes Health + Environment + Carbon + Community. Why not Political Capture, Cultural Erosion, and Information Asymmetry? Under the abundance test, any of these could become visible. Your categories are historical accidents of what's been measured."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Acknowledge limitation while arguing the framework is expandable and the included categories represent current measurement capabilities.</div>
+        </div>
+
+        <div class="role">
+            <h3>The Complexity Theorist</h3>
+            <div class="role-description">Argues Earth systems are too complex for the simplified Mars analogy</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Emphasizes feedback loops, emergent properties, and irreducible complexity</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "A Mars colony of 10,000 people with three water deposits is nothing like Earth with eight billion people and massive resource stocks. Your model produces 'obviously correct' answers on Mars because Mars is simple. Earth has political feedback loops that Mars doesn't have."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Acknowledge complexity differences while maintaining that the structural logic (finite resources, irreversible extraction, intergenerational consequences) remains valid.</div>
+        </div>
+    </div>
+
+    <div class="role-category" id="stakeholder-critics">
+        <h2>Stakeholder Critics</h2>
+        <p>These critics represent specific affected groups and their interests.</p>
+
+        <div class="role">
+            <h3>The Extraction Industry Defender</h3>
+            <div class="role-description">Represents mining, oil, and gas industry perspectives and concerns</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Emphasizes job creation, economic benefits, energy security, and transition costs</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "Energy security requires domestic production. Pricing reforms that make extraction uneconomical force dependence on unstable regions. The transition costs - stranded assets, unemployment, economic disruption - fall hardest on working-class communities."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Acknowledge legitimate security concerns while arguing for transition support funded by pricing surpluses and diversification strategies.</div>
+        </div>
+
+        <div class="role">
+            <h3>The Global South Representative</h3>
+            <div class="role-description">Argues the framework disadvantages developing nations that need cheap energy to industrialize</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Frames full pricing as environmental colonialism that locks in global inequality</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "Developing nations need cheap energy to industrialize. Full pricing locks them into poverty while rich nations that industrialized with cheap fossil fuels pull up the ladder behind them. This is environmental colonialism disguised as justice."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Propose differentiated pricing, technology transfer, and climate finance mechanisms that account for historical responsibility and development needs.</div>
+        </div>
+
+        <div class="role">
+            <h3>The Environmental Justice Advocate</h3>
+            <div class="role-description">Concerned that pricing alone won't address power imbalances that allow extraction to harm vulnerable communities</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Emphasizes power dynamics, environmental racism, and the limits of market solutions</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "Pricing doesn't change power structures. Polluting industries will still locate in poor communities and communities of color because land is cheaper and political resistance is weaker. Market solutions can't solve power problems."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Acknowledge that pricing alone is insufficient; argue it's necessary but must be combined with community empowerment and democratic reform.</div>
+        </div>
+    </div>
+
+    <div class="role-category" id="structural-critics">
+        <h2>Structural Critics</h2>
+        <p>These critics examine how well the framework functions as an intellectual structure.</p>
+
+        <div class="role">
+            <h3>The Writerly Editor</h3>
+            <div class="role-description">Worried about reader comprehension, working memory limits, and structural integrity</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Questions whether the framework is too complex for general readers to follow</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "Readers can track two or three central concepts through a long argument. Four starts to feel like an encyclopedia entry. When you finish and try to summarize over a beer, 'here are the four pillars' is what people say about frameworks they didn't understand."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Simplify the pillar structure and ensure each element serves the core argument rather than proliferating concepts.</div>
+        </div>
+
+        <div class="role">
+            <h3>The Future-Proofer</h3>
+            <div class="role-description">Asking whether the framework architecture can scale and accommodate new discoveries</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Tests whether new methods or concepts can be added without breaking the structure</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "If you discover a new method later - a reversibility test, a power-distance test - does it compete for pillar status? This architecture doesn't scale. You'll either keep adding pillars or have to re-architect everything."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Design clear distinctions between core concepts and methods that allow expansion without structural disruption.</div>
+        </div>
+
+        <div class="role">
+            <h3>The Practical Implementation Critic</h3>
+            <div class="role-description">Skeptical about the political feasibility of implementing the framework</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Points to the difficulty of passing carbon pricing after decades of effort</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "Carbon pricing has been debated for thirty years with limited success. How do you implement comprehensive RCV pricing covering every resource and externality against the resistance of the most powerful industries on Earth? Show me the political coalition."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Frame as a conceptual framework that changes what's conceivable rather than a legislative blueprint. Identify entering wedges and incremental pathways.</div>
+        </div>
+    </div>
+
+    <div class="role-category" id="meta-critics">
+        <h2>Meta-Critics</h2>
+        <p>These critics examine the framework from a higher level, questioning its overall approach or purpose.</p>
+
+        <div class="role">
+            <h3>The Degrowth Critic</h3>
+            <div class="role-description">Argues the framework is just disguised economic contraction</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Claims that dramatically higher resource prices necessarily mean economic shrinkage</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "When you raise the price of every material input by 2-10x, you're contracting the economy. GDP will fall, employment will fall, living standards will fall. You can call it 'honest pricing' but the effect is degrowth."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Distinguish between GDP and welfare, argue for compositional change rather than overall shrinkage, point to historical precedents of beneficial repricing.</div>
+        </div>
+
+        <div class="role">
+            <h3>The Mars Analogy Critic</h3>
+            <div class="role-description">Argues the interplanetary comparison is a false analogy</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Emphasizes qualitative differences between planetary systems that invalidate the comparison</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "Mars makes the model's logic undeniable because scarcity is immediate and lethal. Earth has gradual, generational feedback loops. The systems are qualitatively different. Your asteroid mining example shows the model reduces to market pricing when externalities are zero."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Argue that Mars illuminates the general case precisely because parameters are extreme enough to make logic undeniable. The structural problem is the same.</div>
+        </div>
+
+        <div class="role">
+            <h3>The Scientific Standards Critic</h3>
+            <div class="role-description">Questions whether the framework meets peer-review standards for publication</div>
+            <div class="attack-style"><strong>Attack Style:</strong> Examines methodological rigor against academic publication standards</div>
+            <div class="example-attack">
+                <strong>Example Attack:</strong> "This framework was developed through AI collaboration rather than traditional peer review. The mathematical work hasn't been independently verified. The case studies are selected rather than representative. Academic standards require replication and independent validation."
+            </div>
+            <div class="defense-note"><strong>Defense Strategy:</strong> Acknowledge the non-traditional development process while arguing the mathematical framework is transparent and testable. Frame as a contribution to public intellectual discourse.</div>
+        </div>
+    </div>
+
+    <div class="usage-note">
+        <h2>How to Deploy These Roles</h2>
+        <p><strong>For Individual Arguments:</strong> Pick 2-3 most relevant critics for the specific claim you're testing. Role-play their strongest objections before developing your response.</p>
+        
+        <p><strong>For Framework Testing:</strong> Use the "Big Six" (Academic Economist, Analytic Philosopher, AI Adversary, Writerly Editor, Future-Proofer, Novelty Critic) as a comprehensive stress test battery.</p>
+        
+        <p><strong>For Public Presentation:</strong> Anticipate the Stakeholder Critics (Extraction Industry, Global South, Environmental Justice) as your likely audience objections.</p>
+        
+        <p><strong>For Academic Peer Review:</strong> Focus on Academic Critics and Methodological Critics to ensure scholarly rigor.</p>
+        
+        <p><strong>For Policy Development:</strong> Engage Political-Economic Critics and the Implementation Critic to test real-world viability.</p>
+    </div>
+
+    <div class="cross-reference">
+        <strong>Source Documents:</strong> This compilation draws from Commons Bonds project conversations spanning April 2026, particularly the "Commons Bonds project integration review" chat, "Reviewing commons bonds folder for project gaps" chat, pillar stress-testing sessions, model stress-testing sessions, and counterargument development work documented in "Make It Better" and "Ripple Effects" documents.
+    </div>
+</body>
+</html>

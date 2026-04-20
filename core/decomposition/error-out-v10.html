@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Eight-Tier Decomposition (v10)</title>
+<style>
+body { font-family: Georgia, serif; max-width: 720px; margin: 2em auto; padding: 0 1em; line-height: 1.6; color: #222; }
+h1 { border-bottom: 2px solid #333; padding-bottom: 0.3em; }
+h2 { margin-top: 2em; border-bottom: 1px solid #999; padding-bottom: 0.2em; }
+h3 { margin-top: 1.5em; }
+h4 { margin-top: 1.2em; color: #444; }
+table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; vertical-align: top; }
+th { background: #f4f4f4; }
+blockquote { border-left: 4px solid #888; padding-left: 1em; color: #555; font-style: italic; }
+.meta { color: #666; font-size: 0.9em; margin-bottom: 2em; }
+.tier-name { font-weight: bold; color: #333; }
+.ratified { background: #eaf6ec; border-left: 4px solid #2a7a3c; padding: 1em 1.2em; margin: 1.5em 0; }
+.revision { background: #eef4f8; border-left: 4px solid #466; padding: 1em 1.2em; margin: 1.5em 0; }
+.before { background: #f8f4f0; border-left: 4px solid #a07040; padding: 0.9em 1.1em; margin: 1em 0; }
+.after { background: #eaf6ec; border-left: 4px solid #2a7a3c; padding: 0.9em 1.1em; margin: 1em 0; }
+.rigor { background: #f4f0f8; border-left: 4px solid #6a4ba0; padding: 0.9em 1.1em; margin: 1em 0; font-size: 0.95em; }
+.flag { background: #fff8e1; border-left: 4px solid #c9a227; padding: 0.9em 1.1em; margin: 1em 0; font-size: 0.95em; }
+code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds &mdash; Eight-Tier Decomposition and the Abundance Inversion Test</h1>
+<p class="meta">v10 &middot; April 19, 2026 &middot; Supersedes v9 &middot; Proposed addition to Chapter 6 (Three Ways of Counting) and Technical Appendix</p>
+
+<div class="ratified">
+<strong>Ratification status (v10, April 19, 2026).</strong>
+<ul style="margin-bottom: 0;">
+<li><strong>Decision A ratified.</strong> The April 19 eight-tier decomposition is canonical. The structure (tier set, abundance-layer mapping, falsifiability logic) below is unchanged from v9.</li>
+<li><strong>Multi-scale revision pattern validated</strong> against Tier 1 (individual-scale lock) and Tier 8 (institutional/political-scale lock) via rigor testing across ten critic perspectives (Academic Economist, Analytic Philosopher, AI Adversary, Writerly Editor, Future-Proofer, Novelty Critic, Falsifiability, Completeness, Libertarian, Leftist). Validation cleared the pattern for full WS02/WS03 execution across the remaining four scale-locked tiers (2a, 3, 5, 7).</li>
+<li><strong>Tier 2a rename cleared:</strong> "Individual Risk Cost" &rarr; "Actuarial Risk Cost." To execute in WS02/WS03/WS08.</li>
+<li><strong>Appended section</strong> below carries the three linked architectural refinements, the Tier 1 and Tier 8 prototype revisions, and four refinement flags from the Tier 8 rigor test for WS02/WS03 to address during execution.</li>
+</ul>
+</div>
+
+<hr>
+
+<h2>Purpose</h2>
+<p>Residual Commons Value (RCV) as currently formalized in the Technical Appendix is a single integral representing the substitutability-weighted foreclosure cost plus the externality tail. This is mathematically correct but operationally opaque to a non-economist reader. The decomposition below makes RCV legible at the individual level &mdash; a coal miner, a nurse, an asteroid miner, any worker &mdash; by breaking it into eight named, separable components.</p>
+
+<p>Additionally, this section introduces the <strong>Abundance Inversion Test</strong> as the methodological principle that generates tiers rather than allowing them to proliferate arbitrarily. This prevents the framework from becoming a growing list of ad-hoc costs and grounds each tier in a falsifiable test.</p>
+
+<h2>The Methodological Principle: Abundance Inversion Test</h2>
+
+<p>Earth hides most cost severance tiers behind layers of abundance. Oxygen in the atmosphere is not priced because it is functionally unlimited. A remote mining town with contaminated water is not priced into coal because most consumers never see it. The reduced lifespan of miners is not priced into the market rate because the miners are geographically and demographically separated from the consumers whose electricity they powered.</p>
+
+<p>The asteroid miner scenario is clarifying not because it is exotic but because it strips every layer of abundance simultaneously. When abundance is removed, the tiers become visible. When abundance is restored, they disappear back into invisibility &mdash; but the costs themselves do not disappear. They are simply borne by parties who have no mechanism to price them.</p>
+
+<p>The Abundance Inversion Test, stated formally:</p>
+
+<blockquote>
+To identify hidden tiers in any extraction transaction, strip each layer of abundance sequentially and ask what cost becomes visible. A cost that becomes visible when a specific abundance is stripped, and disappears when that abundance is restored, is a tier. A cost that is visible regardless of abundance layer is already priced by existing frameworks. A cost that does not become visible under any abundance stripping is not a tier &mdash; it is something else.
+</blockquote>
+
+<p>This test serves three functions. It prevents tier proliferation by requiring each proposed tier to survive a specific falsifiable test. It generates new tiers systematically rather than by ad-hoc addition. It demonstrates why the framework is universal &mdash; because the same abundance-stripping methodology applied to any commons on any world produces the correct tier set for that context.</p>
+
+<h3>The Abundance Layers</h3>
+
+<p>Seven abundance layers have been identified. Each corresponds to specific tiers that become visible when the layer is stripped.</p>
+
+<table>
+<tr><th>Abundance Layer</th><th>What Hides It</th><th>Tiers Revealed When Stripped</th></tr>
+<tr><td>Atmospheric</td><td>Functionally infinite atmosphere</td><td>Oxygen cost, radiation shielding cost, atmospheric processing cost</td></tr>
+<tr><td>Geographic</td><td>Ability to travel, relocate, return home</td><td>Spatial displacement cost, transport cost, community immobility cost</td></tr>
+<tr><td>Temporal</td><td>Extraction rates slower than regeneration or substitution</td><td>Rate-of-extraction cost, acceleration premium, temporal displacement cost</td></tr>
+<tr><td>Institutional</td><td>Legal enforcement infrastructure</td><td>Legibility cost, enforcement cost, accountability mechanism cost</td></tr>
+<tr><td>Demographic</td><td>Communities large enough to sustain knowledge transmission</td><td>Knowledge and culture cost, apprenticeship cost, intergenerational expertise cost</td></tr>
+<tr><td>Ecological</td><td>Functional ecosystem services (pollination, water cycling, soil fertility)</td><td>Ecological carrying cost, ecosystem service cost, biodiversity cost</td></tr>
+<tr><td>Political</td><td>Democratic infrastructure that permits honest accounting</td><td>Political capture cost, suppression cost, narrative capture cost</td></tr>
+</table>
+
+<h2>The Eight Tiers (Decomposition of RCV)</h2>
+
+<p>The decomposition below integrates tiers identified through the Abundance Inversion Test. Each tier is named, defined, and mapped to the abundance layer whose stripping makes it visible. The original RCV formula remains mathematically correct; these are its components.</p>
+
+<h3>Tier 1: Lifetime Survival Cost</h3>
+<p class="tier-name">Previously called "Human Survival Overhead"</p>
+<p><strong>Definition:</strong> The full biological, psychological, and social cost of working conditions across the worker's entire life, including latent health consequences that emerge after the contract ends. Not just the food, water, shelter, and healthcare provided during the period of extraction, but the cumulative impact on the worker's life expectancy and health-adjusted lifespan.</p>
+<p><strong>Abundance layer:</strong> Atmospheric and ecological. On Earth, most workers can breathe freely, drink water, and find shelter without pricing. The tier becomes visible when the worker's life expectancy is measurably reduced by the extraction work (black lung in coal miners, burnout and cardiovascular disease in knowledge workers, asbestosis in Libby residents).</p>
+<p><strong>Currently priced by:</strong> Partially priced by workers' compensation and life insurance, but only for acute injuries. Chronic and latent costs are systematically unpriced.</p>
+
+<h3>Tier 2a: Individual Risk Cost</h3>
+<p><strong>Definition:</strong> The true actuarial price of personal harm from the extraction work, including acute injury, chronic disease, and mortality risk &mdash; priced across the full exposure timeline rather than only the contract period.</p>
+<p><strong>Abundance layer:</strong> Institutional. Becomes visible when the institution's ability to absorb or suppress risk data is removed.</p>
+
+<h3>Tier 2b: Mission Failure Reserve</h3>
+<p><strong>Definition:</strong> The cost of the operation not returning its expected value, borne by workers and communities who planned around it. Includes the cost of being stranded (asteroid miner without fuel to return), the cost of a mine producing less than expected (community whose economy depended on projected revenues), and the compounding contingency stack (the cost of needing to try a second time, a third time, and so on).</p>
+<p><strong>Abundance layer:</strong> Geographic and temporal. Becomes visible when the worker cannot return home or try again cheaply.</p>
+<p><strong>Currently priced by:</strong> Nearly no existing framework. Mission Failure Reserve is structurally absent from most extraction contracts.</p>
+
+<h3>Tier 3: Dynastic Labor Cost</h3>
+<p><strong>Definition:</strong> The cost imposed on a worker's lineage by the extraction of their productive capacity at below Full Generational Cost. Includes lost earnings trajectory, lost intergenerational wealth accumulation, and the compounding cost of a generation's productive contribution being consumed in the present rather than held for the future.</p>
+<p><strong>Abundance layer:</strong> Temporal. Becomes visible when the worker's descendants can be identified and the wealth trajectory they would have inherited can be calculated. The Social Security case is Dynastic Labor Cost made fully quantitative across 88 years of American workers.</p>
+<p><strong>Why the name matters:</strong> Capital owners have always understood that their transactions affect their lineages. "Dynastic" names the same claim for workers. It refuses the asymmetry in which capital compounds across generations but labor does not.</p>
+
+<h3>Tier 4: Foreclosure Cost</h3>
+<p class="tier-name">(Renaming "Future Option Foreclosure Cost" for accessibility; acronym FOFC retained for formal use)</p>
+<p><strong>Definition:</strong> The permanent elimination of all future uses the resource might have served, valued at a conservative compound rate from the moment of extraction forward. Weighted by the probability that no substitute exists for each future use.</p>
+<p><strong>Abundance layer:</strong> Temporal. The tier becomes visible when the future is made real &mdash; when specific future uses are imagined and costed rather than dismissed as speculative.</p>
+<p><strong>Currently priced by:</strong> Existing RCV integral prices this explicitly. This tier is the core of the framework's mathematical contribution.</p>
+
+<h3>Tier 5: Community Transition Reserve</h3>
+<p class="tier-name">Previously called "Systemic Reserve"</p>
+<p><strong>Definition:</strong> A pre-committed, independently held fund sized to finance the complete economic transition of any community whose existence became structurally dependent on the extraction operation. Calculated at inception of extraction, held outside the control of the extracting entity, and required to fund full transition of the dependent community when extraction concludes.</p>
+<p><strong>Abundance layer:</strong> Geographic and demographic. Becomes visible when the community cannot simply absorb the loss of the extraction operation through internal redistribution or migration.</p>
+<p><strong>Distinct from:</strong> Existing decommissioning funds (which pay for physical cleanup only) and existing severance packages (which pay individual workers only). The Community Transition Reserve pays for the town, not just the mine or the miner.</p>
+<p><strong>Policy-actionable:</strong> This is the most concrete, immediately implementable policy recommendation in the framework. It can be added to extraction contracts directly without requiring the rest of the framework to be accepted first.</p>
+
+<h3>Tier 6: Ecological Carrying Cost</h3>
+<p><strong>Definition:</strong> The cost of the extraction process on the surrounding ecology, priced across the full recovery timeline. Distinct from Foreclosure Cost (which prices the absence of the extracted resource itself). Ecological Carrying Cost prices the secondary damage to hydrological function, biodiversity, carbon sequestration capacity, flood mitigation, pollination services, and other ecosystem services across centuries or millennia as appropriate.</p>
+<p><strong>Abundance layer:</strong> Ecological. Becomes visible when ecosystem services that are currently free become expensive or unavailable &mdash; which in most cases only happens after significant damage has occurred.</p>
+
+<h3>Tier 7: Knowledge and Culture Cost</h3>
+<p><strong>Definition:</strong> The cost of accumulated community knowledge, skill, and cultural continuity that is lost when an extraction-dependent community disperses below the threshold needed to maintain its collective expertise. Traditional fishing knowledge, mining expertise, land management practice, language, oral history. Once the carrying community disperses, reconstruction is often impossible.</p>
+<p><strong>Abundance layer:</strong> Demographic. Becomes visible when communities fall below the minimum demographic threshold for knowledge transmission.</p>
+
+<h3>Tier 8: Political Capture Cost</h3>
+<p><strong>Definition:</strong> The cost imposed on democratic and institutional systems by extraction industries that use a fraction of their captured value to prevent honest pricing of their costs. Includes lobbying expenditures, regulatory capture, suppression of safety research, narrative capture through funded media, and the broader institutional corrosion these activities produce.</p>
+<p><strong>Abundance layer:</strong> Political. Becomes visible when the democratic infrastructure that would permit honest accounting is itself compromised by the party benefiting from false accounting.</p>
+<p><strong>Why this tier matters:</strong> It is the tier that explains why the other tiers have remained invisible. Political Capture Cost is both a consequence of cost severance and a cause of its persistence. Adding this tier gives the framework an internal explanation for why honest accounting has systematically failed to develop.</p>
+
+<h2>Summary Table</h2>
+<table>
+<tr><th>Tier</th><th>Name</th><th>Abundance Layer</th><th>Already Priced?</th></tr>
+<tr><td>1</td><td>Lifetime Survival Cost</td><td>Atmospheric + Ecological</td><td>Partially (acute only)</td></tr>
+<tr><td>2a</td><td>Individual Risk Cost</td><td>Institutional</td><td>Partially</td></tr>
+<tr><td>2b</td><td>Mission Failure Reserve</td><td>Geographic + Temporal</td><td>Rarely</td></tr>
+<tr><td>3</td><td>Dynastic Labor Cost</td><td>Temporal</td><td>Never</td></tr>
+<tr><td>4</td><td>Foreclosure Cost</td><td>Temporal</td><td>In RCV only</td></tr>
+<tr><td>5</td><td>Community Transition Reserve</td><td>Geographic + Demographic</td><td>Never (decommissioning &ne; transition)</td></tr>
+<tr><td>6</td><td>Ecological Carrying Cost</td><td>Ecological</td><td>Partially (short timelines)</td></tr>
+<tr><td>7</td><td>Knowledge and Culture Cost</td><td>Demographic</td><td>Never</td></tr>
+<tr><td>8</td><td>Political Capture Cost</td><td>Political</td><td>Never</td></tr>
+</table>
+
+<h2>Integration with Existing Framework</h2>
+<p>The eight tiers are not a replacement for the RCV formula in the Technical Appendix. They are a decomposition of it. The integral still integrates. What changes is that non-economist readers can now see <em>what is being integrated</em> &mdash; which is the difference between a framework that can be engaged by the general public and one that can only be engaged by mathematically trained economists.</p>
+
+<p>For Chapter 6 (Three Ways of Counting), the decomposition becomes a fourth section: "RCV Decomposed." It sits after the three convergent approaches (bottom-up damage accounting, real options, RCV) and shows how the same total can be broken into eight columns that a coal miner, a nurse, or an asteroid miner can identify in their own situation.</p>
+
+<h2>For the Technical Appendix</h2>
+<p>Propose adding definitions A.11 through A.14 for the new tiers not previously formalized:</p>
+<ul>
+<li><strong>A.11 Dynastic Labor Cost</strong></li>
+<li><strong>A.12 Community Transition Reserve</strong></li>
+<li><strong>A.13 Ecological Carrying Cost</strong></li>
+<li><strong>A.14 Political Capture Cost</strong></li>
+</ul>
+<p>Knowledge and Culture Cost and the two risk sub-tiers can be treated as prose concepts in the main text rather than formal definitions, to avoid appendix bloat.</p>
+
+<h2>For the Glossary</h2>
+<p>Proposed additions to the existing Vocabulary Glossary:</p>
+<ul>
+<li><strong>Full Generational Cost (FGC)</strong> &mdash; The sum of all tiers that have systematically been excluded from the price of extraction. Companion term: <strong>Horizon Cost</strong> (accessible form).</li>
+<li><strong>Dynastic Labor Cost</strong> &mdash; The cost imposed on a worker's lineage by below-FGC compensation.</li>
+<li><strong>Community Transition Reserve</strong> &mdash; A pre-committed fund sized to finance complete economic transition of an extraction-dependent community.</li>
+<li><strong>Political Capture Cost</strong> &mdash; The cost imposed on democratic systems by extraction industries that suppress honest accounting of their own costs.</li>
+<li><strong>Abundance Inversion Test</strong> &mdash; The methodological principle used to identify hidden tiers by stripping layers of abundance and observing which costs become visible.</li>
+</ul>
+
+<hr>
+
+<h1>Appended Section (v10): Multi-Scale Revision &mdash; Prototype Pattern and Validation</h1>
+
+<p class="meta">Added April 19, 2026 &middot; Supersedes the standalone <code>commons-bonds-multi-scale-revision-prototype.html</code> companion file (now deletable once this v10 is acknowledged)</p>
+
+<h2>Why this section exists</h2>
+
+<p>During the WS01 review toward Decision A ratification, three linked architectural refinements surfaced. They are the same architectural instinct operating at descending levels of granularity, and should be resolved together rather than independently.</p>
+
+<ol>
+<li><strong>Mechanism/shield split.</strong> "Distance" as currently used is carrying two different conceptual loads &mdash; it works as a taxonomy of separation types (spatial, temporal, legal, institutional, demographic, ecological, political) but strains as a name for the mechanism of severance itself. The mechanism is structural allocation &mdash; an arrangement that assigns value-capture to one party and cost-bearing to another. Distance is the shielding condition that prevents that allocation from being recognized, enforced, or corrected.</li>
+<li><strong>Universal claim, scale-dependent salience.</strong> The framework is universal in claim (all eight tiers exist structurally in any extraction arrangement) but scale-dependent in which tiers are visible, measurable, and actionable depending on observer position &mdash; individual evaluating a job, community administrator costing a commons, government allocating investment, firm setting strategy. Each scale's partial blindness is structural to that scale, not arbitrary.</li>
+<li><strong>Scale-abstract verbiage revision.</strong> A direct consequence of (2). Six of eight canonical tier definitions are scale-locked in their surface language (Tiers 1, 2a, 3, 5, 7, 8). Each should be revised to a scale-abstract core definition followed by a "manifestations at different scales" paragraph covering individual, community, firm, and government registers. Tier 2a, currently "Individual Risk Cost," should be renamed "Actuarial Risk Cost" to drop the scale-lock that its current name makes explicit.</li>
+</ol>
+
+<p>None of these reopens Decision A. The April 19 structure remains canonical (see ratification box at top). What this section adds is the surface-language layer that will be executed into the glossary (WS02), Chapter 6 (WS03), and Technical Appendix (WS08).</p>
+
+<h2>Prototype: Tier 1 (Lifetime Survival Cost)</h2>
+
+<h3>Before (canonical, preserved above)</h3>
+
+<div class="before">
+<p><strong>Definition:</strong> The full biological, psychological, and social cost of working conditions across the worker's entire life, including latent health consequences that emerge after the contract ends. Not just the food, water, shelter, and healthcare provided during the period of extraction, but the cumulative impact on the worker's life expectancy and health-adjusted lifespan.</p>
+<p><strong>Abundance layer:</strong> Atmospheric and ecological. On Earth, most workers can breathe freely, drink water, and find shelter without pricing. The tier becomes visible when the worker's life expectancy is measurably reduced by the extraction work (black lung in coal miners, burnout and cardiovascular disease in knowledge workers, asbestosis in Libby residents).</p>
+<p><strong>Currently priced by:</strong> Partially priced by workers' compensation and life insurance, but only for acute injuries. Chronic and latent costs are systematically unpriced.</p>
+</div>
+
+<h3>After (prototype: scale-abstract core plus manifestations)</h3>
+
+<div class="after">
+<p><strong>Definition:</strong> The cumulative biological, psychological, and social cost imposed on those whose embodied capacity is consumed by the extraction, borne across the full lifespan including latent consequences that emerge after the transaction ends. Not just the immediate provisioning (food, water, shelter, healthcare) during the period of extraction, but the long-horizon impact on life expectancy and health-adjusted lifespan of the population absorbing the cost.</p>
+
+<p><strong>Manifestations at different scales:</strong></p>
+<ul>
+<li><strong>Individual.</strong> Health decrement across working life and retirement &mdash; black lung in coal miners, burnout and cardiovascular disease in knowledge workers, asbestosis in Libby residents, chronic conditions whose onset traces back to workplace exposure years or decades earlier.</li>
+<li><strong>Community.</strong> Aggregate life-expectancy gap measurable in extraction-dependent regions, where populations exposed across generations carry a statistical mortality signature that would not exist absent the extraction.</li>
+<li><strong>Firm.</strong> Long-tail liability visible as workers' compensation trends, insurance premium drift, latent litigation exposure, and the actuarial tail of obligations that outlive the contract period.</li>
+<li><strong>Government.</strong> Medicare, Medicaid, and disability burden concentrated in extraction-economy regions, plus the fiscal consequence of shortened working lives reducing the tax base and increasing per-capita entitlement draw.</li>
+</ul>
+
+<p><strong>Abundance layer:</strong> Atmospheric and ecological. Earth's functionally unlimited atmosphere and ambient ecological-service provisioning mean that at most observer scales, the survival overhead is absorbed invisibly. The tier becomes visible &mdash; at whichever scale the observer occupies &mdash; when atmospheric or ecological abundance is stripped or exhausted, exposing the cost of provisioning that was silently underwriting the transaction.</p>
+
+<p><strong>Currently priced by:</strong> Partially priced at the individual scale by workers' compensation and life insurance, but only for acute injuries. Chronic, latent, and aggregate costs are systematically unpriced at every scale.</p>
+</div>
+
+<h2>Prototype: Tier 8 (Political Capture Cost)</h2>
+
+<h3>Before (canonical, preserved above)</h3>
+
+<div class="before">
+<p><strong>Definition:</strong> The cost imposed on democratic and institutional systems by extraction industries that use a fraction of their captured value to prevent honest pricing of their costs. Includes lobbying expenditures, regulatory capture, suppression of safety research, narrative capture through funded media, and the broader institutional corrosion these activities produce.</p>
+<p><strong>Abundance layer:</strong> Political. Becomes visible when the democratic infrastructure that would permit honest accounting is itself compromised by the party benefiting from false accounting.</p>
+</div>
+
+<h3>After (prototype: scale-abstract core plus manifestations)</h3>
+
+<div class="after">
+<p><strong>Definition:</strong> The cost imposed on the institutional and governance systems that would, absent interested-party influence, permit honest accounting of the extraction's costs. Two components: direct resource expenditure by the extracting entity to influence these systems (lobbying, funded research, narrative production, regulatory relationship-building), and the broader institutional corrosion this expenditure produces &mdash; the erosion of trust, the hollowing of deliberative process, the corruption of the information environment &mdash; which outlasts any specific expenditure and degrades governance capacity across unrelated domains.</p>
+
+<p><strong>Manifestations at different scales:</strong></p>
+<ul>
+<li><strong>Individual.</strong> The worker or citizen encounters political capture as information asymmetry &mdash; the inability to get an honest answer about workplace exposure, product risk, or regulatory status, because the institutions that would otherwise produce that information have been compromised. A miner whose state medical board stopped training on pneumoconiosis diagnosis because industry-funded education displaced it is paying Tier 8 even if they never see the check.</li>
+<li><strong>Community.</strong> Local regulatory bodies (zoning boards, water quality commissions, inspectorates, school boards) lose their capacity to act in the community's interest. Industry-funded commissioners, captured state mine-safety inspectorates, university departments whose research priorities track funding rather than community concerns &mdash; these are Tier 8 at community scale.</li>
+<li><strong>Firm.</strong> For firms not part of the extraction, an uneven competitive landscape where rule-makers have been pre-influenced and independent assessment is unavailable. For firms that <em>are</em> extracting, an ongoing strategic expense &mdash; maintaining regulatory relationships, funding counter-research, managing narrative exposure &mdash; rarely booked as a cost of extraction but functionally is.</li>
+<li><strong>Government.</strong> Legislative gridlock on specific policy domains, the revolving door between agencies and industry employment, the overrepresentation of industry-funded research in formal policymaking, the long-horizon hollowing of regulatory capacity. This is the scale at which the tier is currently most visible in existing scholarship (public choice theory, regulatory capture literature).</li>
+</ul>
+
+<p><strong>Abundance layer:</strong> Political. The tier becomes visible &mdash; at whichever scale the observer occupies &mdash; when the democratic and institutional infrastructure that would permit honest accounting is itself compromised by the party benefiting from false accounting. This tier is <em>explanatory</em>: it explains why many of the other tiers have remained invisible, because capture inhibits the institutions that would otherwise surface and price them.</p>
+
+<p><strong>Currently priced by:</strong> Direct expenditure is partially measurable via lobbying disclosures and revolving-door data. Institutional corrosion requires aggregate proxies (declining institutional trust, legislative productivity on specific policy domains, regulatory competence metrics). Neither is priced into extraction.</p>
+</div>
+
+<h3>Rigor test summary (Tier 8, April 19, 2026)</h3>
+
+<p>The prototype Tier 8 revision was stress-tested against ten critic perspectives drawn from <code>commons-bonds-rigor-testing-roles.html</code>. Pattern verdict: <strong>validated</strong>. Four refinement flags surfaced for WS02/WS03 execution:</p>
+
+<div class="flag">
+<ol>
+<li><strong>Measurability split.</strong> Make the direct-expenditure / institutional-corrosion split explicit in the revised wording (per Academic Economist critic). Direct expenditure is measurable; corrosion requires aggregate proxies. Name this rather than eliding it.</li>
+<li><strong>Sub-division question.</strong> Consider splitting Tier 8 into 8a (Direct Capture Expenditure) and 8b (Institutional Corrosion), paralleling the 2a/2b structure (per Analytic Philosopher critic). Flagged for WS02/WS03 deliberation; not resolved in WS01.</li>
+<li><strong>Recursive structural role.</strong> Note that Tier 8 is uniquely the tier that is both an allocation <em>and</em> a shield-maintenance expenditure (per AI Adversary critic). The recursion is a structural feature, not a bug: Tier 8 is the cost of manufacturing the invisibility of Tiers 1&ndash;7. Future readers should see this rather than rediscover it.</li>
+<li><strong>Individual-scale concretization.</strong> Individual-scale manifestation must reach for concrete examples, not abstract framing (per Writerly Editor critic). The pneumoconiosis / state-medical-board example above is one such concretization; others should be developed during WS02/WS03 execution.</li>
+</ol>
+</div>
+
+<h2>What this section authorizes</h2>
+
+<p>With Decision A ratified and the pattern validated against both endpoints of the scale range (individual-locked Tier 1 and institutional-locked Tier 8), the following work is <strong>cleared for execution</strong>:</p>
+
+<ul>
+<li><strong>WS02 (Glossary Reconciliation):</strong> Revise glossary entries for Tiers 1, 2a, 3, 5, 7, 8 to the scale-abstract + manifestations pattern. Execute Tier 2a rename ("Individual Risk Cost" &rarr; "Actuarial Risk Cost"). Address the four Tier 8 refinement flags during execution.</li>
+<li><strong>WS03 (Chapter 6 Integration):</strong> Rewrite the RCV Decomposed section with scale-abstract tier definitions and manifestations paragraphs for all eight tiers. Preserve Tier 2b, Tier 4, and Tier 6 as already sufficiently scale-abstract. Preserve vivid examples (coal miner, Appalachian town, Libby, Norway) as individual/community manifestations rather than definitions.</li>
+<li><strong>WS08 (Technical Appendix):</strong> When Definitions A.11&ndash;A.14 are formalized, use the scale-abstract language as the base. Direct-expenditure / institutional-corrosion split should be structurally represented if Tier 8 remains unified, or split into A.14a and A.14b if the Analytic Philosopher critic's sub-division question is resolved toward splitting.</li>
+<li><strong>Alignment companion:</strong> Next-version update should add a Section 4 entry (new Issue #9) carrying the three architectural refinements and the four Tier 8 refinement flags; Section 10 log entry documenting Decision A ratification and v10 creation.</li>
+</ul>
+
+<h2>What this section does not authorize</h2>
+
+<ul>
+<li><strong>Allocation-vs-distance glossary entries.</strong> The mechanism/shield split is its own glossary and Chapter 2 revision (Cost Severance mechanism section), handled separately in WS02 and a Chapter 2 pass. Not folded into tier-definition revisions.</li>
+<li><strong>Named users or industries.</strong> The four user types (individual, community, firm, government) are observer positions, not named parties. Do not introduce specific companies, agencies, or administrations into manifestations paragraphs &mdash; that's Book Two territory.</li>
+<li><strong>Resolution of the Tier 8 sub-division question (flag #2).</strong> WS02/WS03 should deliberate whether to split or keep unified, with the four-flag context in view. Not a WS01-level question.</li>
+</ul>
+
+</body>
+</html>
