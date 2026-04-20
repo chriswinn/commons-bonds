@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff — 2026-04-20 v1.0.0</title>
+<style>
+body { font-family: Georgia, serif; max-width: 880px; margin: 2rem auto; padding: 0 1.5rem; line-height: 1.6; color: #1f2428; }
+h1 { font-size: 1.55rem; border-bottom: 2px solid #24292e; padding-bottom: 0.4rem; }
+h2 { font-size: 1.2rem; margin-top: 2.2rem; border-bottom: 1px solid #d1d5da; padding-bottom: 0.25rem; color: #24292e; }
+h3 { font-size: 1.05rem; margin-top: 1.4rem; color: #2f363d; }
+h4 { font-size: 0.96rem; margin-top: 1rem; color: #3a4048; }
+.meta { color: #6a737d; font-size: 0.88rem; margin-bottom: 1.5rem; }
+code { background: #f6f8fa; padding: 1px 5px; border-radius: 3px; font-family: "SF Mono", Consolas, Monaco, monospace; font-size: 0.9em; }
+pre { background: #f6f8fa; padding: 0.8rem 1rem; border-radius: 5px; overflow-x: auto; font-size: 0.85em; line-height: 1.45; }
+table { border-collapse: collapse; width: 100%; margin: 0.8rem 0; font-size: 0.9em; }
+th, td { border: 1px solid #d1d5da; padding: 0.4rem 0.55rem; text-align: left; vertical-align: top; }
+th { background: #f6f8fa; font-weight: 600; }
+.badge { display: inline-block; font-size: 0.76em; padding: 1px 7px; border-radius: 10px; font-weight: 600; }
+.badge-ok { background: #dcffe4; color: #22863a; }
+.badge-warn { background: #fff5b1; color: #735c0f; }
+.badge-bad { background: #ffeef0; color: #cb2431; }
+.badge-todo { background: #e1e4e8; color: #586069; }
+blockquote { border-left: 3px solid #d1d5da; padding: 0.3rem 1rem; color: #444; margin: 0.8rem 0; background: #f9f9f9; }
+.toc { background: #f6f8fa; padding: 0.8rem 1.2rem; border-radius: 5px; font-size: 0.92em; }
+.toc ul { margin: 0.3rem 0; padding-left: 1.3rem; }
+ul li, ol li { margin: 0.22rem 0; }
+.batch { background: #f1f8ff; border-left: 4px solid #0366d6; padding: 0.7rem 1rem; margin: 1rem 0; border-radius: 0 4px 4px 0; }
+.batch h3 { margin-top: 0.2rem; color: #0366d6; }
+.batch .effort { font-size: 0.85em; color: #586069; font-style: italic; }
+hr { border: none; border-top: 1px solid #e1e4e8; margin: 2rem 0; }
+.file-id { font-family: monospace; font-size: 0.82em; color: #6a737d; }
+.warn-box { background: #fffbdd; border-left: 4px solid #dbab09; padding: 0.6rem 1rem; margin: 1rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff (2026-04-20 v1.0.0)</h1>
+<p class="meta">
+<strong>Purpose:</strong> Upload this file at the start of the next session to restore full context.<br>
+<strong>Session:</strong> April 20, 2026 — Full migration audit + batched cleanup roadmap.<br>
+<strong>Previous handoff:</strong> <code>commons-bonds-session-handoff-2026-04-19_1.1.0.html</code><br>
+<strong>Scope:</strong> Inventoried the entire <code>commons-bonds/</code> folder tree plus legacy files at the Drive root. No content was created or modified in Drive this session — all writes are intentionally local only to avoid the truncation issues encountered previously.
+</p>
+
+<div class="warn-box">
+<strong>Operating rule (going forward):</strong> Claude does not write files directly into Google Drive. All output files are generated locally and handed to Chris for manual download and upload. This avoids the truncation/missing-file problems that caused work loss in earlier sessions.
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ul>
+<li>1. Current state summary</li>
+<li>2. Target structure vs. actual structure</li>
+<li>3. Audit findings, by issue type</li>
+<li>4. Batched roadmap (7 batches)</li>
+<li>5. How to resume next session</li>
+<li>6. File IDs reference table</li>
+</ul>
+</div>
+
+<h2>1. Current state summary</h2>
+
+<p>Phase 1 of the Google Drive → GitHub migration is <strong>structurally complete</strong>. The <code>commons-bonds/</code> folder exists at <code>/My Drive/___WorkingOn/commons-bonds/</code> (folder ID <span class="file-id">1PdH8DHVXGo45dUajXQHwD3Fmm_V5QEHj</span>) with all eight top-level directories from the design plan: <code>core/</code>, <code>manuscript/</code>, <code>workstreams/</code>, <code>alignment/</code>, <code>research/</code>, <code>publishing/</code>, <code>tools/</code>, <code>archive/</code>, plus a root <code>README.md</code>.</p>
+
+<p>The format strategy from the user preferences — <code>.html</code> for math-heavy content, <code>.md</code> for tracking/narrative — is <em>partially</em> applied. Canonical framework documents (decomposition, glossary, technical appendix) are in HTML as intended. Workstream trackers WS01–WS10 are in MD as intended. However, several significant issues remain, detailed below.</p>
+
+<table>
+<tr><th>Category</th><th>Count</th><th>Status</th></tr>
+<tr><td>Files in correct location and format</td><td>~30</td><td><span class="badge badge-ok">OK</span></td></tr>
+<tr><td>Files in wrong folder</td><td>2</td><td><span class="badge badge-warn">Move</span></td></tr>
+<tr><td>Still in .docx, need conversion</td><td>22</td><td><span class="badge badge-bad">Convert</span></td></tr>
+<tr><td>In .html but should be .md per strategy</td><td>7</td><td><span class="badge badge-warn">Reformat</span></td></tr>
+<tr><td>Exact or near-duplicates</td><td>4+</td><td><span class="badge badge-warn">Dedupe</span></td></tr>
+<tr><td>Empty subfolders (planned but unused)</td><td>5</td><td><span class="badge badge-todo">Populate or note</span></td></tr>
+<tr><td>Legacy Google Docs at Drive root</td><td>3</td><td><span class="badge badge-warn">Review</span></td></tr>
+</table>
+
+<h2>2. Target structure vs. actual structure</h2>
+
+<pre>commons-bonds/                          [1PdH8DHVXGo45dUajXQHwD3Fmm_V5QEHj]
+├── README.md                           ✅
+├── core/
+│   ├── decomposition/
+│   │   └── eight-tier-v10.html         ✅ canonical
+│   ├── glossary/
+│   │   ├── commons_bonds_updated_glossary.html     ✅
+│   │   └── commons-bonds-vocabulary-additions 13.html  ⚠️ possibly redundant
+│   └── technical-appendix/
+│       └── CommonsBondsTechnicalAppendixv0.0.1.html    ✅
+├── alignment/
+│   ├── 00_alignment_companion_1.0.0.html   ✅ companion tracker
+│   ├── decisions/
+│   │   ├── commons-bonds-README.md
+│   │   ├── repository-structure.md
+│   │   ├── commons-bonds-migration-plan.md
+│   │   ├── commons-bonds-workflow-guide.md
+│   │   ├── commons-bonds-github-design.md
+│   │   ├── session-handoff-2026-04-19.md             ⚠️ wrong folder (should be sessions/)
+│   │   ├── eight-tier-decomposition-v10.md           ⚠️ wrong folder (should be core/decomposition/)
+│   │   └── Commons Bonds — Session Archive & Decision Log.docx  ❌ still docx
+│   ├── sessions/
+│   │   ├── commons-bonds-session-handoff-2026-04-19.md
+│   │   ├── commons-bonds-session-handoff-2026-04-19_1.0.0.html
+│   │   ├── commons-bonds-session-handoff-2026-04-19_1.1.0.html
+│   │   └── phase-1-migration-complete.md
+│   └── issues/                         (empty — planned for alignment companion replacement)
+├── manuscript/
+│   ├── chapters/                       ❌ 14 docx files — NONE converted
+│   │   ├── Dedication.docx
+│   │   ├── AUTHOR'S NOTE.docx
+│   │   ├── Chapter 1 (The Plane).docx
+│   │   ├── Chapter 2 (The Miner).docx
+│   │   ├── Chapter 3 (The Waterman).docx
+│   │   ├── Chapter 4 (THE EXISTENCE PROOF).docx
+│   │   ├── Chapter 5 (Draft).docx
+│   │   ├── Chapter 5 (THE ACCOUNTABILITY GAP).docx         ⚠️ dup?
+│   │   ├── Chapter 6 (Draft).docx                           ⚠️ dup set
+│   │   ├── Chapter 6 (Three Ways of Counting).docx          ⚠️ dup set
+│   │   ├── Chapter 6 (Three Ways of Counting) - Draft v0.docx  ⚠️ dup set
+│   │   ├── Chapter 6 (Draft).html           ✅ one HTML version exists
+│   │   ├── Chapter 7 (The Colony Administrator).docx
+│   │   ├── Chapter 8 (Draft).docx
+│   │   ├── Chapter 9 (Draft).docx
+│   │   ├── Chapter 9 (The Renewable Imperative).docx        ⚠️ dup set
+│   │   ├── Chapter 10 (Draft).docx
+│   │   ├── Chapter 10 (Common Bonds).docx                   ⚠️ dup set
+│   │   └── commons-bonds-chapter-1-extension 14.html
+│   └── essay/
+│       ├── Berggruen Institute - Essay/
+│       │   └── Commons Bonds - Berggruen (Essay Draft).docx   (untouched per rules — competition prohibits AI)
+│       └── Noema/
+│           ├── Noema Pitch - Commons Bonds - Winn.docx
+│           ├── Noema - Commons Bonds - Chris Winn.docx
+│           └── Noema - Commons Bonds - Chris Winn.pdf
+├── workstreams/
+│   ├── 01_master_decisions.md          ✅
+│   ├── 02_glossary_reconciliation.md   ✅
+│   ├── 03_chapter_6_integration.md     ✅
+│   ├── 04_chapter_1_extension.md       ✅
+│   ├── 05_chapter_4_and_5_cases.md     ✅
+│   ├── 06_chapter_10_and_sweep.md      ✅
+│   ├── 07_chapter_8_two_book_trim.md   ✅
+│   ├── 08_technical_appendix.html      ⚠️ should be .md (tracking)
+│   ├── 09_old_material_rigor_check.md  ✅
+│   ├── 10_project_separation_folder_reorg.md  ✅
+│   ├── 11_living_people_integration.html       ⚠️ should be .md
+│   ├── 12_visualization_development.html       ⚠️ should be .md
+│   ├── 13_theory_of_change.html                ⚠️ should be .md
+│   ├── 14_counterargument_integration.html     ⚠️ should be .md
+│   ├── 15_origin_story_development.html        ⚠️ should be .md
+│   ├── 16_international_dimension.html         ⚠️ should be .md
+│   └── 17_honest_concession_section.html       ⚠️ should be .md
+├── research/
+│   ├── case-studies/                   (empty)
+│   ├── literature/                     (empty)
+│   └── methodology/
+│       └── commons_bonds_full_economy_simulation.html
+├── publishing/
+│   ├── {targets}/                      (empty — folder name has stray braces)
+│   ├── commons-bonds-success-criteria 11.html
+│   ├── commons_bonds_critical_impact_assessment.html
+│   ├── Commons Bonds Publishing Strategy - Consolidated Plan.docx    ❌ still docx
+│   └── Commons Bonds - Book One/Book Two Path.docx                   ❌ still docx
+├── tools/
+│   ├── commons_bonds_counterarguments_analysis.html    ⚠️ probably belongs in research/validation/
+│   └── commons-bonds-rigor-testing-roles.html          ⚠️ probably belongs in research/methodology/
+└── archive/
+    ├── error-out-v10.html              (superseded decomposition)
+    ├── commons-bonds-villain-analysis 15.html
+    ├── commons-bonds-eight-tier-decomposition 9.html  (pre-v10)
+    ├── commons_bonds_integrated_framework.html
+    ├── commons_bonds_chapter_assessment.html
+    ├── $100 Barrel_ Commons Bonds.docx  ❌ still docx (archive, but source material)
+    ├── _One Day Maybe/                 (future book ideas — Book Two, Book Three)
+    │   ├── Book Two_ The Subsidy Economy.docx
+    │   └── Book Three_ Pricing the Final Frontier.docx
+    ├── prototypes/
+    │   ├── commons-bonds-multi-scale-revision-prototype.html   ✅
+    │   └── commons-bonds-multi-scale-revision-prototype.docx   ⚠️ duplicate of .html
+    └── Consider Including/
+        ├── Nigeria Contrast Case.docx
+        ├── commons - consider including 9.html     ⚠️ identical to …12.html (same 10488 bytes)
+        ├── commons - consider including 12.html    ⚠️ identical to …9.html
+        ├── counter_vance_research_notes … 5.html
+        ├── commons_bonds_economic_theory_reference … 6.html
+        ├── democratic_socialism_book_discussion … 7.html
+        ├── commons_bonds_satellite_idea_delegitimization … 8.html
+        ├── commons_bonds_session_notes … 3.html
+        ├── commons_bonds_new_material … 2.html
+        └── commons_bonds_new_material_from_sociology_chat … 4.html
+
+Legacy files still at My Drive root (outside commons-bonds/):
+├── Commons Bonds - Chapter 2 (The Miner)            Google Doc (5056 bytes — likely stub)
+├── Commons Bonds - Chapter 4 (Draft)                Google Doc (9279 bytes)
+├── Commons Bonds - Chapter 7 (Draft)                Google Doc (14366 bytes)
+├── Commons Bonds - Technical Appendix (COMPLETE) - Download.docx  (2770 bytes — stub)
+└── Untitled                                          octet-stream (4581 bytes — unknown)
+</pre>
+
+<h2>3. Audit findings, by issue type</h2>
+
+<h3>3.1 Files in wrong folder (2)</h3>
+<table>
+<tr><th>File</th><th>Current location</th><th>Should be</th><th>Why</th></tr>
+<tr>
+<td><code>session-handoff-2026-04-19.md</code></td>
+<td><code>alignment/decisions/</code></td>
+<td><code>alignment/sessions/</code></td>
+<td>Appears to duplicate <code>commons-bonds-session-handoff-2026-04-19.md</code> which is already in sessions/. Recommend diffing, merging if different, then removing from decisions/.</td>
+</tr>
+<tr>
+<td><code>eight-tier-decomposition-v10.md</code></td>
+<td><code>alignment/decisions/</code></td>
+<td><code>core/decomposition/</code></td>
+<td>This is the MD companion to the canonical <code>eight-tier-v10.html</code> and belongs beside it.</td>
+</tr>
+</table>
+
+<h3>3.2 Still in .docx — need conversion (22)</h3>
+
+<p><strong>Manuscript chapters (top priority — these are the book itself):</strong></p>
+<ul>
+<li>Dedication.docx</li>
+<li>AUTHOR'S NOTE ON WIND TUNNELS AND AI.docx</li>
+<li>Chapter 1 (The Plane).docx</li>
+<li>Chapter 2 (The Miner).docx</li>
+<li>Chapter 3 (The Waterman).docx</li>
+<li>Chapter 4 (THE EXISTENCE PROOF).docx</li>
+<li>Chapter 5 (Draft).docx <em>and/or</em> Chapter 5 (THE ACCOUNTABILITY GAP).docx (resolve duplication first)</li>
+<li>Chapter 6 — <em>three</em> docx versions exist plus one .html. Pick canonical, archive the rest.</li>
+<li>Chapter 7 (The Colony Administrator).docx</li>
+<li>Chapter 8 (Draft).docx</li>
+<li>Chapter 9 — two versions. Pick canonical.</li>
+<li>Chapter 10 — two versions. Pick canonical.</li>
+</ul>
+
+<p><strong>Alignment / publishing / archive:</strong></p>
+<ul>
+<li><code>alignment/decisions/Commons Bonds — Session Archive & Decision Log.docx</code></li>
+<li><code>publishing/Commons Bonds Publishing Strategy - Consolidated Plan.docx</code></li>
+<li><code>publishing/Commons Bonds_ Book One - Commons Bonds - Path & Book Two - The Subsidy Economy - Path.docx</code></li>
+<li><code>archive/$100 Barrel_ Commons Bonds.docx</code> (archive, but source material may be cited)</li>
+<li><code>archive/_One Day Maybe/Book Two_ The Subsidy Economy.docx</code> (lower priority — future book)</li>
+<li><code>archive/_One Day Maybe/Book Three_ Pricing the Final Frontier.docx</code> (lower priority — future book)</li>
+<li><code>archive/Consider Including/Nigeria Contrast Case.docx</code></li>
+</ul>
+
+<p>Per the hybrid format strategy: <strong>chapters → .md</strong> (narrative, no heavy math in most), <strong>Chapter 6 → .html</strong> (math-heavy, already has .html companion), <strong>appendices/publishing/archive docs → .md</strong> unless they contain formulas.</p>
+
+<h3>3.3 Workstream HTML files that should be MD (7)</h3>
+
+<p>User preferences explicitly state: <em>"Use .md for: Workstream tracking and status."</em> The workstream folder contains seven .html files that are workstream trackers:</p>
+<ul>
+<li><code>08_technical_appendix.html</code> (arguable — tracks the technical-appendix workstream, which involves math, but the tracker itself is status/narrative; recommend MD)</li>
+<li><code>11_living_people_integration.html</code></li>
+<li><code>12_visualization_development.html</code></li>
+<li><code>13_theory_of_change.html</code></li>
+<li><code>14_counterargument_integration.html</code></li>
+<li><code>15_origin_story_development.html</code></li>
+<li><code>16_international_dimension.html</code></li>
+<li><code>17_honest_concession_section.html</code></li>
+</ul>
+
+<h3>3.4 Duplicates and near-duplicates</h3>
+<ul>
+<li><strong>Exact duplicates (10488 bytes each):</strong> <code>archive/Consider Including/commons - consider including 9.html</code> and <code>commons - consider including 12.html</code></li>
+<li><strong>Duplicate format pair:</strong> <code>archive/prototypes/commons-bonds-multi-scale-revision-prototype.docx</code> duplicates its <code>.html</code> twin — the .docx can be removed since the .html is the kept format.</li>
+<li><strong>Possible handoff duplicate:</strong> <code>alignment/decisions/session-handoff-2026-04-19.md</code> vs. <code>alignment/sessions/commons-bonds-session-handoff-2026-04-19.md</code> — diff needed.</li>
+<li><strong>Chapter version clusters:</strong> Ch. 5 (×2), Ch. 6 (×3 docx + 1 html), Ch. 9 (×2), Ch. 10 (×2). These aren't exact duplicates — they may be progressive drafts that need human judgment on which is canonical.</li>
+<li><strong>Glossary overlap:</strong> <code>commons-bonds-vocabulary-additions 13.html</code> and <code>commons_bonds_updated_glossary.html</code> both in <code>core/glossary/</code> — unclear if one is a superset of the other.</li>
+</ul>
+
+<h3>3.5 Misplaced-but-arguable (tools/ → research/)</h3>
+<ul>
+<li><code>tools/commons_bonds_counterarguments_analysis.html</code> — per the GitHub design doc, counterargument analysis belongs at <code>research/validation/counterargument-analysis.md</code>.</li>
+<li><code>tools/commons-bonds-rigor-testing-roles.html</code> — per design, rigor testing belongs at <code>research/methodology/rigor-testing-framework.md</code>.</li>
+<li><code>research/methodology/commons_bonds_full_economy_simulation.html</code> — could arguably live in <code>tools/</code> as a prototype/simulation. Judgment call.</li>
+</ul>
+
+<h3>3.6 Empty planned folders</h3>
+<ul>
+<li><code>alignment/issues/</code> — intended to replace the alignment companion once GitHub Issues workflow is active.</li>
+<li><code>research/case-studies/</code> — planned for Appalachian coal, Deepwater Horizon, Libby vermiculite, Norway SWF.</li>
+<li><code>research/literature/</code> — empty; Ostrom, etc.</li>
+<li><code>publishing/{targets}/</code> — empty, and the folder name has literal <code>{}</code> braces — probably a templating artifact; rename to <code>targets/</code>.</li>
+<li><code>core/definitions/</code> — referenced in design but doesn't exist yet.</li>
+</ul>
+
+<h3>3.7 Legacy files outside commons-bonds/ (at Drive root)</h3>
+<p>These are Google Docs and loose files in My Drive root that were not pulled into the migration:</p>
+<ul>
+<li><code>Commons Bonds - Chapter 2 (The Miner)</code> — Google Doc, 5056 bytes (smaller than the chapters/Chapter 2 docx at 15683 bytes — probably an older stub, verify and archive or delete)</li>
+<li><code>Commons Bonds - Chapter 4 (Draft)</code> — Google Doc, 9279 bytes (no Ch. 4 Draft docx exists in chapters/, only "THE EXISTENCE PROOF" — this may be the live source)</li>
+<li><code>Commons Bonds - Chapter 7 (Draft)</code> — Google Doc, 14366 bytes (vs. chapters/Chapter 7 docx at 894225 bytes — the docx is far larger, so this Google Doc is probably an earlier stub)</li>
+<li><code>Commons Bonds - Technical Appendix (COMPLETE) - Download.docx</code> — only 2770 bytes, almost certainly a download-link stub rather than real content</li>
+<li><code>Untitled</code> — octet-stream, 4581 bytes, unknown format</li>
+</ul>
+
+<h2>4. Batched roadmap</h2>
+
+<p>Each batch is sized for a single session and ordered by risk (lowest first). Batches 1–3 are safe reorganization and format work. Batches 4–5 involve content decisions. Batch 6 is optional polish. Batch 7 is the archive triage.</p>
+
+<div class="batch">
+<h3>Batch 1 — Fix misplaced files</h3>
+<p class="effort">Effort: small. Risk: low. No content changes.</p>
+<ol>
+<li>Diff <code>alignment/decisions/session-handoff-2026-04-19.md</code> vs. <code>alignment/sessions/commons-bonds-session-handoff-2026-04-19.md</code>. If identical or the decisions/ copy is a subset, remove the decisions/ copy. If it has unique content, merge then remove.</li>
+<li>Move <code>alignment/decisions/eight-tier-decomposition-v10.md</code> to <code>core/decomposition/</code> beside the HTML.</li>
+<li>Decide whether to move the two <code>tools/</code> HTML files to <code>research/validation/</code> and <code>research/methodology/</code> respectively (create <code>research/validation/</code> if so). Alternatively, keep them in tools/ and update the design doc to match reality.</li>
+<li>Rename <code>publishing/{targets}/</code> → <code>publishing/targets/</code>.</li>
+</ol>
+<p><em>Claude's role:</em> produce a diff report for the two session-handoff files so Chris can decide. Produce a single "cleanup actions" text file listing every move/rename to execute by hand.</p>
+</div>
+
+<div class="batch">
+<h3>Batch 2 — Resolve chapter version duplicates</h3>
+<p class="effort">Effort: medium. Risk: low (content review only). Sets up Batch 4.</p>
+<ol>
+<li>For each chapter with multiple versions (Ch. 5, Ch. 6, Ch. 9, Ch. 10), Claude reads each version and produces a short comparison memo: length, structure, evident recency, which is the working copy.</li>
+<li>Chris picks canonical versions. Non-canonical versions get moved to <code>archive/chapter-drafts/</code>.</li>
+<li>Same pass for the two exact-duplicate "consider including" HTML files (9 vs. 12) and the prototype .docx/.html pair.</li>
+</ol>
+<p><em>Claude's role:</em> produce a single "chapter-version-comparison.html" report covering all affected chapters in one pass, plus the dedupe recommendations.</p>
+</div>
+
+<div class="batch">
+<h3>Batch 3 — Convert workstreams 08, 11–17 from HTML to MD</h3>
+<p class="effort">Effort: medium. Risk: low (1:1 format conversion, no content interpretation).</p>
+<ol>
+<li>Claude fetches each of the 8 HTML files, converts to well-formed Markdown with preserved structure (headings, lists, code, links).</li>
+<li>Output as 8 local .md files for Chris to upload.</li>
+<li>Chris uploads, then deletes the .html originals.</li>
+</ol>
+<p><em>Claude's role:</em> generate all 8 .md files in one or two rounds, each verified by re-reading before handing over. Zip for single-file download if count is awkward.</p>
+</div>
+
+<div class="batch">
+<h3>Batch 4 — Convert manuscript chapters (Part A: Ch. 1–5 + Dedication + Author's Note)</h3>
+<p class="effort">Effort: large. Risk: medium (content fidelity matters). This is the book.</p>
+<ol>
+<li>After Batch 2 resolves duplicates, convert each canonical chapter docx → .md (narrative chapters) or .html (Ch. 6, math-heavy — already has an .html version to reconcile).</li>
+<li>Each conversion is handed off as a local file. Chris verifies length and content before upload.</li>
+<li>Chris uploads to <code>manuscript/chapters/</code> and moves originals to <code>archive/docx-source/</code> (not delete — keep as fallback).</li>
+</ol>
+<p><em>Claude's role:</em> convert one chapter per request OR batch 2–3 at a time depending on chapter length. Always echo back file size after creation so Chris can sanity-check against the source docx size.</p>
+</div>
+
+<div class="batch">
+<h3>Batch 5 — Convert manuscript chapters (Part B: Ch. 6–10) + misc docx</h3>
+<p class="effort">Effort: large. Risk: medium. Ch. 6 needs HTML reconciliation.</p>
+<ol>
+<li>Ch. 6: reconcile the existing <code>Chapter 6 (Draft).html</code> with the canonical docx chosen in Batch 2. If they match, keep the HTML. If not, regenerate.</li>
+<li>Convert Ch. 7, 8, 9, 10 (canonical versions) → .md.</li>
+<li>Convert <code>alignment/decisions/Session Archive & Decision Log.docx</code> → .md.</li>
+<li>Convert <code>publishing/Publishing Strategy Consolidated Plan.docx</code> → .md.</li>
+<li>Convert <code>publishing/Book One/Book Two Path.docx</code> → .md.</li>
+</ol>
+</div>
+
+<div class="batch">
+<h3>Batch 6 — Archive docx cleanup</h3>
+<p class="effort">Effort: small to medium. Risk: low. Archive hygiene only.</p>
+<ol>
+<li>Convert <code>$100 Barrel_ Commons Bonds.docx</code> → .md (valuable as source material).</li>
+<li>Convert <code>Nigeria Contrast Case.docx</code> → .md.</li>
+<li>Optional: convert <code>Book Two_ The Subsidy Economy.docx</code> and <code>Book Three_ Pricing the Final Frontier.docx</code> → .md. (Lower priority — future books.)</li>
+<li>Delete the redundant <code>archive/prototypes/commons-bonds-multi-scale-revision-prototype.docx</code> (kept twin .html is the canonical version).</li>
+<li>Delete one of the two identical <code>commons - consider including</code> HTML files.</li>
+</ol>
+</div>
+
+<div class="batch">
+<h3>Batch 7 — Legacy Drive root cleanup</h3>
+<p class="effort">Effort: small. Risk: low. Verify then archive or delete.</p>
+<ol>
+<li>Claude reads each legacy file at Drive root (Ch. 2 Google Doc, Ch. 4 Google Doc, Ch. 7 Google Doc, Tech Appendix Download docx, Untitled octet-stream).</li>
+<li>For each, produce a one-line verdict: superseded (archive/delete), unique content (pull into commons-bonds/), or unknown (Chris inspects).</li>
+<li>Chris executes the moves/deletes by hand.</li>
+</ol>
+</div>
+
+<h2>5. How to resume next session</h2>
+
+<ol>
+<li>Upload this file (<code>commons-bonds-session-handoff-2026-04-20_1.0.0.html</code>) at the start of the session. Claude will read it and have full context without searching Drive from scratch.</li>
+<li>Tell Claude which batch to tackle. Good default starting order: Batch 1 (quick wins) → Batch 3 (format conversions, mechanical) → Batch 2 (duplicate resolution, needs your input) → Batch 4/5 (chapters).</li>
+<li>For every file Claude produces, it will echo back the byte size. Spot-check against expectation before uploading.</li>
+<li>If a session approaches length limits, Claude will produce a new handoff file (increment to <code>…_1.1.0.html</code> or <code>…_2026-04-NN_1.0.0.html</code> for a new day) capturing what got done plus the updated remaining-batches list.</li>
+</ol>
+
+<h2>6. File IDs reference table</h2>
+
+<p>Canonical IDs for the folders and key files, so next-session Claude can jump directly without re-searching.</p>
+
+<h4>Folders</h4>
+<table>
+<tr><th>Path</th><th>ID</th></tr>
+<tr><td>commons-bonds/</td><td><span class="file-id">1PdH8DHVXGo45dUajXQHwD3Fmm_V5QEHj</span></td></tr>
+<tr><td>commons-bonds/core/</td><td><span class="file-id">1kaCGQ49lK86B-ka-SaP2FILCUalWGtfZ</span></td></tr>
+<tr><td>&nbsp;&nbsp;core/decomposition/</td><td><span class="file-id">14U6yCixoiv0QveQD6bPr5t9QNSliwazj</span></td></tr>
+<tr><td>&nbsp;&nbsp;core/glossary/</td><td><span class="file-id">1Uzd9a31aLtshXNoP-Q0A1hsROwZx99G6</span></td></tr>
+<tr><td>&nbsp;&nbsp;core/technical-appendix/</td><td><span class="file-id">1bivIuDNuUVd8VGffmqXbKX1qVVya891u</span></td></tr>
+<tr><td>commons-bonds/alignment/</td><td><span class="file-id">1cljiznb0Fjqzru7YV1Df1i_flFj7NmbO</span></td></tr>
+<tr><td>&nbsp;&nbsp;alignment/decisions/</td><td><span class="file-id">1fQ5Bmfj-2eR_ZulJ5fN1o4JoT-6OdDUP</span></td></tr>
+<tr><td>&nbsp;&nbsp;alignment/sessions/</td><td><span class="file-id">1Z_Q2QF1pSG1Jg-BgWdjsva-BonV0LxT6</span></td></tr>
+<tr><td>&nbsp;&nbsp;alignment/issues/</td><td><span class="file-id">1oB_HUAytSm_D6cq2wJnlS1m4_E0aLuxX</span></td></tr>
+<tr><td>commons-bonds/manuscript/</td><td><span class="file-id">1dlM3oX3LbDCRr0vCRPkjDxBJhJSW5_As</span></td></tr>
+<tr><td>&nbsp;&nbsp;manuscript/chapters/</td><td><span class="file-id">1RJYQgBPgCzI_h0aB3JCYf_1U5LGZjPii</span></td></tr>
+<tr><td>&nbsp;&nbsp;manuscript/essay/</td><td><span class="file-id">13sMPI5Xrn0ufr0SODc38unwDoSlt8hCI</span></td></tr>
+<tr><td>commons-bonds/workstreams/</td><td><span class="file-id">1YKLbU4YXmf0TxfeFWqW-I_KjT_gOFlmT</span></td></tr>
+<tr><td>commons-bonds/research/</td><td><span class="file-id">1J1qhe4mTI8EOGWa3PCndwwyQrlmr9qn-</span></td></tr>
+<tr><td>commons-bonds/publishing/</td><td><span class="file-id">1CZEG1n9vxA7hu9wzuN8WXz6Ur5fQwM2w</span></td></tr>
+<tr><td>commons-bonds/tools/</td><td><span class="file-id">1Bsc_fBt4vlZUCGGQtWGVG43ykZ2FBUjO</span></td></tr>
+<tr><td>commons-bonds/archive/</td><td><span class="file-id">1edWI_alBGHjYkIq_V95riEle8_SVwHYg</span></td></tr>
+</table>
+
+<h4>Canonical framework docs</h4>
+<table>
+<tr><th>File</th><th>ID</th></tr>
+<tr><td>eight-tier-v10.html (canonical decomposition)</td><td><span class="file-id">1GOvcYGPBxe-VMZuqSskgRTSJwXRvUmM7</span></td></tr>
+<tr><td>CommonsBondsTechnicalAppendixv0.0.1.html</td><td><span class="file-id">1yK1N5SCQufBFF1lxhRrZlzakL_D8vnsn</span></td></tr>
+<tr><td>commons_bonds_updated_glossary.html</td><td><span class="file-id">1YgTBKlDCh_oaUOwu48tDRtN4IWCC5JdZ</span></td></tr>
+<tr><td>00_alignment_companion_1.0.0.html</td><td><span class="file-id">1UFgeXF28Ct_SP532PmUbOSttrBRphiSo</span></td></tr>
+<tr><td>README.md (commons-bonds root)</td><td><span class="file-id">1cpn__LzdW3hCEUbrky4FfMhSBotxd-iJ</span></td></tr>
+</table>
+
+<h4>Chapter docx files (for Batch 4/5)</h4>
+<table>
+<tr><th>File</th><th>Size</th><th>ID</th></tr>
+<tr><td>Dedication.docx</td><td>7,393 B</td><td><span class="file-id">1840u1QE9Bwtf-21q0-JTrbhY3mFD_mly</span></td></tr>
+<tr><td>AUTHOR'S NOTE.docx</td><td>10,106 B</td><td><span class="file-id">1sYqtfvCTk9_yrGNHCiXcofHOqRDSmrVj</span></td></tr>
+<tr><td>Chapter 1 (The Plane).docx</td><td>10,896 B</td><td><span class="file-id">1HmcQBGcmJS5v9vKIRced2jxKg4joVZAo</span></td></tr>
+<tr><td>Chapter 2 (The Miner).docx</td><td>15,683 B</td><td><span class="file-id">1urXZMNhboqWIOPA3RMvJDpAfFXRZ-G-e</span></td></tr>
+<tr><td>Chapter 3 (The Waterman).docx</td><td>8,131 B</td><td><span class="file-id">1ZZt4MnYkunfne7qXeRjrc-nVdBcX834O</span></td></tr>
+<tr><td>Chapter 4 (THE EXISTENCE PROOF).docx</td><td>11,082 B</td><td><span class="file-id">1Laqq2tbyEbhZiKer_zgH2CzFy67tMvpd</span></td></tr>
+<tr><td>Chapter 5 (Draft).docx</td><td>14,635 B</td><td><span class="file-id">11DGV9C2UylO_qrLGLe9ztaSK1ct5VPgz</span></td></tr>
+<tr><td>Chapter 5 (THE ACCOUNTABILITY GAP).docx</td><td>9,507 B</td><td><span class="file-id">1IttRXU4aagSXsstC6AMJ2yYGPIjFpdSD</span></td></tr>
+<tr><td>Chapter 6 (Draft).docx</td><td>800,465 B</td><td><span class="file-id">1cT2dGcqaJh7YLfJtqYhdSbQEkYs8--Cp</span></td></tr>
+<tr><td>Chapter 6 (Three Ways of Counting).docx</td><td>24,975 B</td><td><span class="file-id">1-lt8OWamsP-pE2zfb1Yl3QHWrg9VCGhv</span></td></tr>
+<tr><td>Chapter 6 (Three Ways of Counting) Draft v0.docx</td><td>22,263 B</td><td><span class="file-id">1vEqLyYzuGlhTy9bw25ZHlkRDYmUZCSHA</span></td></tr>
+<tr><td>Chapter 6 (Draft).html</td><td>34,738 B</td><td><span class="file-id">1tY4lS6cKBUKUpl1j-r-yPqMVuaSBV2VJ</span></td></tr>
+<tr><td>Chapter 7 (The Colony Administrator).docx</td><td>894,225 B</td><td><span class="file-id">1vn5KTSvJ3hAAbpzgueFj6Af1HbPX3AhP</span></td></tr>
+<tr><td>Chapter 8 (Draft).docx</td><td>20,048 B</td><td><span class="file-id">12sCjU59b8pvTOdw9vaiOgbYDhe8_FsZC</span></td></tr>
+<tr><td>Chapter 9 (Draft).docx</td><td>24,380 B</td><td><span class="file-id">1lb_gR7vS33EuBeUEn3z0NoizIScOxkH6</span></td></tr>
+<tr><td>Chapter 9 (The Renewable Imperative).docx</td><td>10,604 B</td><td><span class="file-id">1qXKwQNkeuUPY3wqID01qrwg8bTKf2LTa</span></td></tr>
+<tr><td>Chapter 10 (Draft).docx</td><td>21,834 B</td><td><span class="file-id">1LNvo-dSZj0dGLo157JjQgPOF4cNkgIPn</span></td></tr>
+<tr><td>Chapter 10 (Common Bonds).docx</td><td>8,791 B</td><td><span class="file-id">1dIwRJIc8qPq1NBdl21NeL-aD6Ejs2JV9</span></td></tr>
+<tr><td>commons-bonds-chapter-1-extension 14.html</td><td>9,876 B</td><td><span class="file-id">1UrMnlBT8gp9Wc5Vj0C4ZwhyYC7w5vUmW</span></td></tr>
+</table>
+
+<h4>Workstream HTML files to convert (Batch 3)</h4>
+<table>
+<tr><th>File</th><th>Size</th><th>ID</th></tr>
+<tr><td>08_technical_appendix.html</td><td>14,664 B</td><td><span class="file-id">1vC6C6L1EVfEkeso9YLKIkM_KspM74DXa</span></td></tr>
+<tr><td>11_living_people_integration.html</td><td>11,709 B</td><td><span class="file-id">1Bj4qBSFOczmdKYyiWBUqiHLHYhPqST_5</span></td></tr>
+<tr><td>12_visualization_development.html</td><td>16,708 B</td><td><span class="file-id">1-R9rdazVIhqKYbwfBNy6PoozjDMNL-Zu</span></td></tr>
+<tr><td>13_theory_of_change.html</td><td>18,915 B</td><td><span class="file-id">1FciD2Rm8z57SbsHLepbGiiCxsKYuHZ6T</span></td></tr>
+<tr><td>14_counterargument_integration.html</td><td>17,691 B</td><td><span class="file-id">1uW_foYwgikSLomJ646tlhB-_nFOxsmrg</span></td></tr>
+<tr><td>15_origin_story_development.html</td><td>14,657 B</td><td><span class="file-id">158LIqFm1Lql_8mOqdIEuNe7QBmOGyrLF</span></td></tr>
+<tr><td>16_international_dimension.html</td><td>17,916 B</td><td><span class="file-id">1y_PgxzHBfzPwx_gWyH9G8HbKnvaAdRmG</span></td></tr>
+<tr><td>17_honest_concession_section.html</td><td>17,383 B</td><td><span class="file-id">197yHDdLlsOH5E1UigRgN2LQlAMCDJ7Ed</span></td></tr>
+</table>
+
+<h4>Other docx files for Batch 5 and 6</h4>
+<table>
+<tr><th>File</th><th>Location</th><th>ID</th></tr>
+<tr><td>Session Archive & Decision Log.docx</td><td>alignment/decisions/</td><td><span class="file-id">1YXGRsW-JGGKvHs8PQWgygnbAxg9s-utO</span></td></tr>
+<tr><td>Publishing Strategy Consolidated Plan.docx</td><td>publishing/</td><td><span class="file-id">1xBGY44I3_g2_cAe4BYjrk6HEFzm9jP8_</span></td></tr>
+<tr><td>Book One/Book Two Path.docx</td><td>publishing/</td><td><span class="file-id">1ScH3nUZ2pbEaJx5HR3aPRq-AXqXJ41XK</span></td></tr>
+<tr><td>$100 Barrel_ Commons Bonds.docx</td><td>archive/</td><td><span class="file-id">1qIbnPN0nIbBT2cBxt3myS0uyWIdZmC8P</span></td></tr>
+<tr><td>Nigeria Contrast Case.docx</td><td>archive/Consider Including/</td><td><span class="file-id">14sWjj38Qy-Hssq8un6AOk2CFkqUOXM95</span></td></tr>
+<tr><td>Book Two_ The Subsidy Economy.docx</td><td>archive/_One Day Maybe/</td><td><span class="file-id">19n2MAhr72SNDUcPDveRO9T2Atk-Ca2ea</span></td></tr>
+<tr><td>Book Three_ Pricing the Final Frontier.docx</td><td>archive/_One Day Maybe/</td><td><span class="file-id">1E1XUf89bY1wbeKbL4vR2msucw4XQdrqT</span></td></tr>
+</table>
+
+<h4>Legacy files at Drive root (Batch 7)</h4>
+<table>
+<tr><th>File</th><th>Size</th><th>ID</th></tr>
+<tr><td>Chapter 2 (The Miner) Google Doc</td><td>5,056 B</td><td><span class="file-id">1TemXnGiscGJHzHjgl9a8V-k9aiV0EZy_69iL0OE4eHg</span></td></tr>
+<tr><td>Chapter 4 (Draft) Google Doc</td><td>9,279 B</td><td><span class="file-id">1I2fsW5zqe4usNq8hUZOu8CROnFAuTtbQbV2-TUy-Vv4</span></td></tr>
+<tr><td>Chapter 7 (Draft) Google Doc</td><td>14,366 B</td><td><span class="file-id">1Zd4uLgW-nP5ITAN1JSsvJ5YH16qu3GQXYnxKoKTp87E</span></td></tr>
+<tr><td>Technical Appendix (COMPLETE) - Download.docx</td><td>2,770 B</td><td><span class="file-id">1ls2sVgBiM4dANir0m3dugyeN66cwYfAe</span></td></tr>
+<tr><td>Untitled (octet-stream)</td><td>4,581 B</td><td><span class="file-id">13ol3QR4bs6rR2-Z24eh5cDSTK6570SzR</span></td></tr>
+</table>
+
+<hr>
+
+<p class="meta"><strong>End of handoff.</strong> This file is intended to be uploaded as-is at the start of the next session. No Drive modifications were made while generating it.</p>
+
+</body>
+</html>
