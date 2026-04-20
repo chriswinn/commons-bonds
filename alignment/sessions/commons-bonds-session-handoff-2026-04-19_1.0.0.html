@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff — Batch 1 Complete — 2026-04-19 — v1.0.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 780px; margin: 2em auto; padding: 0 1.25em; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .next { background: #fff8e1; border-left: 3px solid #c9a227; padding: 0.75em 1em; margin: 1em 0; }
+  .watch { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .rules { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; font-size: 0.95em; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; }
+  pre { background: #f8f8f8; padding: 0.75em 1em; border-radius: 3px; font-size: 0.85em; overflow-x: auto; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.93em; }
+  th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; }
+  .done { color: #1a6a2a; font-weight: 600; }
+  .pending { color: #b57a00; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff — Batch 1 Complete</h1>
+<p class="meta">Produced: April 20, 2026 · Handoff version: 1.0.0 · Scope: Commons Bonds Phase 2 GitHub migration, Batch 1 → Batch 2 transition</p>
+
+<div class="status">
+<strong>Status:</strong> <span class="done">Batch 1 complete.</span> All 6 Batch 1 files downloaded from Google Drive, decoded, and converted per hybrid format strategy. Outputs written to <code>/mnt/user-data/outputs/commons-bonds/</code>. Ready for Chris to download and commit to the GitHub repository.
+</div>
+
+<h2>What was done in this session</h2>
+
+<table>
+<tr><th>Source file (Google Drive)</th><th>Output file</th><th>Format</th><th>Notes</th></tr>
+<tr><td><code>alignment/00_alignment_companion.html</code></td><td><code>00_alignment_companion_1.0.0.html</code></td><td>HTML (kept)</td><td>Version suffix per user prefs. Math/CSS preserved for rendering.</td></tr>
+<tr><td><code>workstreams/01_master_decisions.html</code></td><td><code>01_master_decisions.md</code></td><td>Markdown</td><td>Four decisions (A, B, C, D), roadmap table preserved.</td></tr>
+<tr><td><code>workstreams/02_glossary_reconciliation.html</code></td><td><code>02_glossary_reconciliation.md</code></td><td>Markdown</td><td>Term-by-term verdicts, eight-tier canonical list preserved.</td></tr>
+<tr><td><code>workstreams/03_chapter_6_integration.html</code></td><td><code>03_chapter_6_integration.md</code></td><td>Markdown</td><td>Heaviest writing pass. RCV Decomposed section spec intact.</td></tr>
+<tr><td><code>workstreams/04_chapter_1_extension.html</code></td><td><code>04_chapter_1_extension.md</code></td><td>Markdown</td><td>Knowledge-worker paragraph preserved as blockquote.</td></tr>
+<tr><td><code>workstreams/05_chapter_4_and_5_cases.html</code></td><td><code>05_chapter_4_and_5_cases.md</code></td><td>Markdown</td><td>Nigeria paragraph + Social Security case with four modifications.</td></tr>
+</table>
+
+<h2>Instructions to resume (for the next session)</h2>
+
+<div class="next">
+<strong>If this is the next session and you are picking up from here:</strong> Chris's user preferences require (a) creating incrementally-numbered session handoff HTML files before session length is exceeded, and (b) versioning alignment companion HTML files with <code>_X.X.X</code> suffixes. Batch 1 produced <code>_1.0.0</code>; Batch 2 should produce <code>_1.1.0</code> (minor bump, content added).
+</div>
+
+<h3>Step 1 — Confirm Batch 1 is on GitHub</h3>
+
+<p>Before starting Batch 2, confirm with Chris that the 6 Batch 1 output files have been committed to the GitHub repository. The expected repository structure (from Phase 1 planning) is:</p>
+
+<pre>commons-bonds/
+├── README.md
+├── alignment/
+│   └── 00_alignment_companion_1.0.0.html
+├── workstreams/
+│   ├── 01_master_decisions.md
+│   ├── 02_glossary_reconciliation.md
+│   ├── 03_chapter_6_integration.md
+│   ├── 04_chapter_1_extension.md
+│   └── 05_chapter_4_and_5_cases.md
+└── sessions/
+    └── commons-bonds-session-handoff-2026-04-19_1.0.0.html</pre>
+
+<p>If Chris has not yet committed, gently remind him: "The Batch 1 files are ready at <code>/mnt/user-data/outputs/commons-bonds/</code>. Before we start Batch 2, have you pulled these into the GitHub repo? I can't push directly."</p>
+
+<h3>Step 2 — Batch 2 file scope (workstreams 06–10)</h3>
+
+<p>The next batch targets Workstreams 06 through 10, which are the second half of the 01–10 core workstream series. File IDs are already known from the April 20 Drive search (captured in Batch 1 transcript).</p>
+
+<table>
+<tr><th>#</th><th>Filename (Drive)</th><th>File ID</th><th>Target format</th></tr>
+<tr><td>06</td><td><code>06_chapter_10_and_sweep.html</code></td><td><code>179zRrMbXHS27GCSOTr6kvv916DQ0N8sG</code></td><td>.md (prose workstream)</td></tr>
+<tr><td>07</td><td><code>07_chapter_8_two_book_trim.html</code></td><td><code>1j1UaYkkl0M2i1maHOM7DYe17Hr1bLGc3</code></td><td>.md (prose workstream)</td></tr>
+<tr><td>08</td><td><code>08_technical_appendix.html</code></td><td><code>16G8vKyNQWUhLgi63CEQqM2-oxFYnZXtp</code></td><td><strong>.html</strong> (keeps math, per hybrid strategy)</td></tr>
+<tr><td>09</td><td><code>09_old_material_rigor_check.html</code></td><td><code>1Ajwe7y6Y8KoIqqDJzTEbKPqlYTJU-q9O</code></td><td>.md (prose workstream)</td></tr>
+<tr><td>10</td><td><code>10_project_separation_folder_reorg.html</code></td><td><code>16xqWOn0QuFEj5qG6SBHpa_Yd3MzRQ4zY</code></td><td>.md (prose workstream)</td></tr>
+</table>
+
+<p>Parent folder ID for workstreams 06–10: <code>1cBoBWy8KoINYDJd64BHcGl5w-z42Prh5</code> (same as 01–05).</p>
+
+<h3>Step 3 — Execution recipe (reuse the Batch 1 pipeline)</h3>
+
+<p>The Batch 1 pipeline works. Reuse it without modification except for file names. Key details:</p>
+
+<ol>
+<li><strong>Download:</strong> Use <code>Google Drive:download_file_content</code> (not <code>read_file_content</code>, which returns empty for HTML). Each call returns base64 in <code>embeddedResource.contents.blob</code>.</li>
+<li><strong>Save blobs:</strong> Write each base64 string to <code>/home/claude/commons-bonds-raw/{name}.b64</code>.</li>
+<li><strong>Convert:</strong> Run a Python script similar to Batch 1's <code>process.py</code> — decode base64, feed through <code>BeautifulSoup</code> to strip <code>&lt;style&gt;</code> and <code>&lt;script&gt;</code>, then through <code>markdownify</code> with <code>heading_style="ATX"</code> and <code>bullets="-"</code>. For file 08 (Technical Appendix), skip the markdown conversion and write the HTML directly with no version suffix (appendix isn't a companion; it's chapter material).</li>
+<li><strong>Blank-line cleanup:</strong> Collapse runs of blank lines to max 2.</li>
+<li><strong>Output path:</strong> <code>/mnt/user-data/outputs/commons-bonds/</code> (overwrite Batch 1 outputs is fine; they're already on GitHub).</li>
+<li><strong>Present:</strong> Call <code>present_files</code> on all 5 outputs plus the new Batch 2 handoff.</li>
+</ol>
+
+<div class="rules">
+<strong>Critical pipeline details (these went wrong on first pass of Batch 1):</strong>
+<ul style="margin-bottom: 0;">
+<li><code>read_file_content</code> returns empty for HTML files in Drive. <strong>Must use <code>download_file_content</code></strong>.</li>
+<li><code>markdownify</code>'s <code>strip=["style","script"]</code> option does <em>not</em> remove tag contents — only the tag wrapper. CSS leaks through. Use <code>BeautifulSoup</code> to <code>.decompose()</code> those tags first.</li>
+<li>Filenames in Chris's earlier memos don't always match actual Drive filenames. <strong>Always search Drive first</strong> to get the exact titles. Example: the file he called "02_glossary.html" is actually "02_glossary_reconciliation.html" in Drive.</li>
+</ul>
+</div>
+
+<h3>Step 4 — Produce the Batch 2 handoff</h3>
+
+<p>Before the session ends, produce <code>commons-bonds-session-handoff-2026-04-19_1.1.0.html</code> (note: same date, incremented version — the "date" in the filename pattern refers to the <em>project milestone</em> date, not the calendar date of the session). Mirror this file's structure. Update the scope tables, status box, and pending list.</p>
+
+<p>If the session wraps mid-Batch-2, still produce a handoff — just mark which files are done and which remain, and include partial file IDs so the next session resumes cleanly.</p>
+
+<h2>What remains after Batch 2 (Batch 3 preview)</h2>
+
+<p>Workstreams 11–17 are the final batch. Per the alignment companion, these are known to lack the WS02–10 standard format (no Prerequisite box, no Option C reference box, no Watch/Check closers). <strong>Do not auto-add those elements during format conversion</strong> — that's a content change, not a format change. Note it in the Batch 3 handoff as a follow-up item for Chris.</p>
+
+<table>
+<tr><th>#</th><th>Filename</th><th>File ID</th><th>Target format</th></tr>
+<tr><td>11</td><td><code>11_living_people_integration.html</code></td><td><code>1ojDwQYpwUARbg8-dE1-d-wQnb-JDDV9K</code></td><td>.md</td></tr>
+<tr><td>12</td><td><code>12_visualization_development.html</code></td><td><code>1QfY2NPviLaj6tRzvHiBri-uJHzV6pD2h</code></td><td>.md</td></tr>
+<tr><td>13</td><td><code>13_theory_of_change.html</code></td><td><code>1k7sjYb6z9Lp2O_YiGLl9vGbvJYh4mlyd</code></td><td>.md</td></tr>
+<tr><td>14</td><td><code>14_counterargument_integration.html</code></td><td><code>1D33o8jTm2JX4AoFAWzdr_lAbURGXZHAl</code></td><td>.md</td></tr>
+<tr><td>15</td><td><code>15_origin_story_development.html</code></td><td><code>1VkK2YWc8srZjZ74do6Q5PLfzPi8O_0TS</code></td><td>.md</td></tr>
+<tr><td>16</td><td><code>16_international_dimension.html</code></td><td><code>1MR-G3y_U2PpkY9fzBIq9vgjTZkJnRFZZ</code></td><td>.md</td></tr>
+<tr><td>17</td><td><code>17_honest_concession_section.html</code></td><td><code>11LExhmRGAO0fp5B53vEqri-85LBxYHjL</code></td><td>.md</td></tr>
+</table>
+
+<p>Beyond Batch 3, remaining content in Drive (Chapter drafts, Technical Appendix v_COMPLETE, glossary source files, eight-tier decomposition source, vocabulary-additions proposals) still needs migration. Those are Batch 4+ — defer unless Chris wants to define the next batches explicitly.</p>
+
+<h2>Watch items for the next session</h2>
+
+<div class="watch">
+<ul style="margin-bottom: 0;">
+<li><strong>Don't forget the version suffix on the handoff file.</strong> Next handoff should be <code>_1.1.0</code>. If Chris edits WS 01–05 between sessions (e.g., revises a decision), that's a <em>different</em> kind of version bump — coordinate with him before incrementing.</li>
+<li><strong>Don't push directly to GitHub.</strong> Claude has no direct GitHub access in this environment. Always write outputs to <code>/mnt/user-data/outputs/commons-bonds/</code> and hand them to Chris.</li>
+<li><strong>Don't touch <code>/Noema/</code> or <code>/Berggruen Institute - Essay/</code> folders in Drive.</strong> Per WS01 scope guardrails — Noema essay is submitted and under editor control; Berggruen competition prohibits AI-assisted content.</li>
+<li><strong>Don't assume markdownify handles style tags.</strong> Always preprocess with BeautifulSoup. This was a real bug in Batch 1 first attempt.</li>
+<li><strong>Don't rename or reorganize Drive files.</strong> Migration is read-only from Drive; all writes go to GitHub. If a Drive filename is ambiguous, ask Chris — don't fix it silently.</li>
+</ul>
+</div>
+
+<h2>Check before ending the next session</h2>
+
+<ol>
+<li>All 5 Batch 2 files (WS 06–10) downloaded from Drive via <code>download_file_content</code>.</li>
+<li>Base64 blobs saved to <code>/home/claude/commons-bonds-raw/</code>.</li>
+<li>WS 06, 07, 09, 10 converted to <code>.md</code>; WS 08 preserved as <code>.html</code> (no version suffix — it's chapter material, not a companion file).</li>
+<li>CSS stripped (no <code>body { font-family: ... }</code> leaking into markdown heads).</li>
+<li>Tables preserved (spot-check at least one file with a table).</li>
+<li>All outputs written to <code>/mnt/user-data/outputs/commons-bonds/</code>.</li>
+<li>New session handoff produced at <code>commons-bonds-session-handoff-2026-04-19_1.1.0.html</code>.</li>
+<li><code>present_files</code> called on all 5 WS files + handoff + (optional) a refreshed alignment companion at <code>_1.1.0</code> if Chris wants the version incremented.</li>
+</ol>
+
+<h2>Appendix — Known working commands (copy-paste ready)</h2>
+
+<h3>Python processing script template (reuse for Batch 2)</h3>
+
+<pre>"""Decode base64 HTML blobs, convert to Markdown via BeautifulSoup + markdownify."""
+import base64, os
+from bs4 import BeautifulSoup
+from markdownify import markdownify as md
+
+OUT = "/mnt/user-data/outputs/commons-bonds"
+RAW = "/home/claude/commons-bonds-raw"
+os.makedirs(OUT, exist_ok=True)
+
+def clean_html(html):
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["style", "script"]):
+        tag.decompose()
+    return str(soup)
+
+# Batch 2 names — replace with actual downloaded files:
+MD_NAMES = ["06_chapter_10_and_sweep", "07_chapter_8_two_book_trim",
+            "09_old_material_rigor_check", "10_project_separation_folder_reorg"]
+HTML_NAMES = ["08_technical_appendix"]   # keeps math
+
+for name in MD_NAMES + HTML_NAMES:
+    with open(f"{RAW}/{name}.b64") as f:
+        html = base64.b64decode(f.read().strip()).decode("utf-8")
+    if name in HTML_NAMES:
+        with open(f"{OUT}/{name}.html", "w") as f:
+            f.write(html)
+        continue
+    markdown = md(clean_html(html), heading_style="ATX", bullets="-",
+                  strip=["style", "script"])
+    # Collapse &gt;2 blank lines
+    out_lines, blank = [], 0
+    for ln in markdown.split("\n"):
+        if ln.strip() == "":
+            blank += 1
+            if blank &lt;= 2: out_lines.append(ln)
+        else:
+            blank = 0; out_lines.append(ln)
+    with open(f"{OUT}/{name}.md", "w") as f:
+        f.write("\n".join(out_lines).strip() + "\n")
+</pre>
+
+<h3>Drive download pattern (verbatim from Batch 1)</h3>
+
+<pre>Google Drive:download_file_content(fileId="&lt;FILE_ID&gt;")
+# → returns embeddedResource.contents.blob as base64 string
+# Save to /home/claude/commons-bonds-raw/&lt;name&gt;.b64</pre>
+
+<h2>Provenance</h2>
+
+<p>This handoff was produced April 20, 2026, immediately after Batch 1 conversion completed successfully. The conversion pipeline survived one intermediate context compaction (transcript preserved at <code>/mnt/transcripts/2026-04-20-04-27-18-commons-bonds-batch1-conversion.txt</code>), from which the remaining 4 base64 blobs were recovered and processed. No data was lost.</p>
+
+<p>Format revision log for this handoff file:</p>
+
+<table>
+<tr><th>Version</th><th>Date</th><th>Change</th></tr>
+<tr><td>1.0.0</td><td>April 20, 2026</td><td>Initial handoff. Batch 1 complete (WS 01–05 + alignment). Batch 2 scope defined (WS 06–10).</td></tr>
+</table>
+
+</body>
+</html>
