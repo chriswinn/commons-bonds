@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-20 · v1.17.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .content-work { background: #f4f0fb; border-left: 3px solid #6a4c9c; padding: 0.75em 1em; margin: 1em 0; }
+  .decision { background: #fff4e6; border-left: 3px solid #cc7700; padding: 0.75em 1em; margin: 1em 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done { color: #1a6a2a; font-weight: 600; }
+  .pending { color: #a2260b; font-weight: 600; }
+  .keep { color: #004a80; font-weight: 600; }
+  .skip { color: #666; font-style: italic; }
+  .version { color: #888; font-family: monospace; }
+  .new { color: #6a4c9c; font-weight: 600; }
+  .partial { color: #7a5400; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-20 · Version <span class="version">1.17.0</span> · Group A conversions COMPLETE · 1 decision pending (C6)</p>
+
+<div class="status">
+<strong>STATUS:</strong> All Group A chapter narrative and guidance doc conversions are now complete (Ch1–10 drafts + guidance docs where they exist, plus front/back matter). Seven new conversions this session: Ch5 Draft (A7), Ch5 GuidanceDoc (A6), Ch8 Draft (A8), Ch9 Draft (A9), Ch9 GuidanceDoc (new), AuthorsNote (new), Dedication (new). All 7: 0 math hits, 0 CSS leaks. C1–C5 patches produced, awaiting manual GitHub application. 1 pending decision: C6 (integrated framework tier reconciliation). Remaining queue: B1–B4 · ~25 Group C · 7 Group D.
+</div>
+
+<div class="resume">
+<strong>PROMPT SNIPPET FOR NEXT SESSION:</strong><br>
+Read the handoff <code>commons-bonds-session-handoff-2026-04-20_1.17.0.html</code>. We are in audit + content-work phase. All Group A chapter conversions complete (Ch1–10 + front/back matter). 1 pending decision: C6 (integrated framework tier reconciliation). Patches C1–C5 pending manual application to GitHub. B1 now unblocked (success-criteria 11.html → publishing/ folder). Remaining conversions: B1–B4 · ~25 Group C · 7 Group D. Next priority: upload B1–B4 files, begin Group C/D uploads, or resolve C6 decision.
+</div>
+
+<h2>What changed v1.16.0 → v1.17.0</h2>
+<ul>
+  <li><strong>A6 complete:</strong> <code>Chapter__5_TheAccountabilityGap_GuidanceDoc.md</code> — 3,008 chars, 0 CSS leaks. Libby/Deepwater/Exxon/Baotou cases + SCC analysis + pattern statement.</li>
+  <li><strong>A7 complete:</strong> <code>Chapter__5_TheAccountabilityGap_Draft.md</code> — 18,104 chars, 0 CSS leaks. Social Security $108T case as financial commons validation. Closes with target-length note (3,500–4,000 words).</li>
+  <li><strong>A8 complete:</strong> <code>Chapter__8_WhatThingsActuallyCost_Draft.md</code> — 29,029 chars, 0 CSS leaks. Closes with coal pricing worked example (~$558/ton vs $4.50 invoice). Handoff to Ch9–10 intact.</li>
+  <li><strong>A9 complete:</strong> <code>Chapter__9_TheRenewableImperative_Draft.md</code> — 40,906 chars, 0 CSS leaks. Four-step sequence (Classify→Reserve→Invest→Reassess). Property rights + implementation pathway counterarguments addressed. Closes with Ch10 handoff.</li>
+  <li><strong>Ch9 GuidanceDoc complete (new):</strong> <code>Chapter__9_TheRenewableImperative_GuidanceDoc.md</code> — 6,403 chars, 0 CSS leaks. Includes full Counterargument 9 ("academic fantasy") response.</li>
+  <li><strong>AuthorsNote complete (new):</strong> <code>AuthorsNote_OnWindTunnelsAndAI.md</code> — 6,955 chars, 0 CSS leaks. Wind tunnel metaphor, Berggruen distinction, AI collaboration disclosure framing.</li>
+  <li><strong>Dedication complete (new):</strong> <code>Dedication.md</code> — 852 chars, 0 CSS leaks. Three options: grandfather at Langley / McDowell miner + Chesapeake waterman / son.</li>
+  <li><strong>Group A status: ALL COMPLETE.</strong> Every chapter draft and guidance doc that was HTML has been converted to .md. Ch3 and Ch8 have no guidance docs; Ch1 personal narrative is author-only. Math files (Ch6 Draft, Tech Appendix, etc.) correctly retained as .html.</li>
+</ul>
+
+<h2>Chapter writing status (updated)</h2>
+<table>
+<tr><th>Ch</th><th>Title</th><th>Guidance doc</th><th>Prose draft</th><th>Status</th></tr>
+<tr><td>1</td><td>The Plane</td><td><span class="done">A1 done</span> — <code>Chapter__1_ThePlane.md</code></td><td>None — personal narrative (author only)</td><td class="pending">Write: personal story only, scaffold complete</td></tr>
+<tr><td>2</td><td>The Miner</td><td><span class="done">A2 done</span> — <code>Chapter__2_TheMiner_GuidanceDoc.md</code> (17,121 chars)</td><td><span class="done">Done</span> — <code>Chapter__2_TheMiner_Draft.md</code> (27,149 chars)</td><td class="partial">C3 patch 3 to apply on next open; 3 [INTERVIEW NEEDED] slots remain</td></tr>
+<tr><td>3</td><td>The Waterman</td><td><span class="done">A3 done</span> — <code>Chapter__3_TheWaterman.md</code></td><td>None — needs waterman interviews</td><td class="pending">Blocked on interviews</td></tr>
+<tr><td>4</td><td>The Existence Proof</td><td><span class="done">A5 done</span> — <code>Chapter__4_TheExistenceProof_GuidanceDoc.md</code> (7,635 chars)</td><td><span class="done">A4 done</span> — <code>Chapter__4_TheExistenceProof_Draft.md</code> (19,274 chars)</td><td class="done">Both files converted. No patches pending.</td></tr>
+<tr><td>5</td><td>The Accountability Gap</td><td><span class="done">A6 done v1.17.0</span> — <code>Chapter__5_TheAccountabilityGap_GuidanceDoc.md</code> (3,008 chars)</td><td><span class="done">A7 done v1.17.0</span> — <code>Chapter__5_TheAccountabilityGap_Draft.md</code> (18,104 chars)</td><td class="done">Both files converted. 0 math, 0 CSS.</td></tr>
+<tr><td>6</td><td>Three Ways of Counting</td><td><span class="done">Confirmed v1.15.0</span> — <code>Chapter__6_GuidanceDoc.md</code></td><td><span class="keep">KEEP .html</span> — <code>Chapter__6_ThreeWaysofCounting__Draft.html</code> (math)</td><td class="keep">Math file confirmed; C3 patch 2 to apply</td></tr>
+<tr><td>7</td><td>The Colony Administrator</td><td><span class="done">Done v1.16.0</span> — <code>Chapter__7_TheColonyAdministrator_GuidanceDoc.md</code> (38,670 chars)</td><td><span class="done">Done v1.16.0</span> — <code>Chapter__7_TheColonyAdministrator_Draft.md</code> (30,571 chars)</td><td class="done">Both files converted. Contains markdown summary table.</td></tr>
+<tr><td>8</td><td>What Things Actually Cost</td><td>None</td><td><span class="done">A8 done v1.17.0</span> — <code>Chapter__8_WhatThingsActuallyCost_Draft.md</code> (29,029 chars)</td><td class="done">Draft converted. No guidance doc exists.</td></tr>
+<tr><td>9</td><td>The Renewable Imperative</td><td><span class="done">Done v1.17.0</span> — <code>Chapter__9_TheRenewableImperative_GuidanceDoc.md</code> (6,403 chars)</td><td><span class="done">A9 done v1.17.0</span> — <code>Chapter__9_TheRenewableImperative_Draft.md</code> (40,906 chars)</td><td class="done">Both files converted. 0 math, 0 CSS.</td></tr>
+<tr><td>10</td><td>Common Bonds</td><td><span class="done">Done v1.15.0</span> — <code>Chapter_10_GuidanceDoc.md</code> (3,567 chars)</td><td><span class="done">Done v1.15.0</span> — <code>Chapter_10_CommonBonds_Draft.md</code> (38,407 chars)</td><td class="partial">C3 patches 1A–1D to apply</td></tr>
+<tr><td>—</td><td>Author's Note</td><td>—</td><td><span class="done">Done v1.17.0</span> — <code>AuthorsNote_OnWindTunnelsAndAI.md</code> (6,955 chars)</td><td class="done">Wind tunnel metaphor, AI disclosure, Berggruen distinction.</td></tr>
+<tr><td>—</td><td>Dedication</td><td>—</td><td><span class="done">Done v1.17.0</span> — <code>Dedication.md</code> (852 chars)</td><td class="done">Three options noted. Author decides.</td></tr>
+</table>
+
+<h2>Pending content work</h2>
+<div class="content-work">
+<table>
+<tr><th>#</th><th>Task</th><th>Scope</th><th>Status</th></tr>
+<tr><td>C1</td><td>Tier 2a rename: "Individual Risk Cost" → "Actuarial Risk Cost"</td><td>WS02, WS03, Glossary, Tech Appendix</td><td class="done">PATCH PRODUCED v1.12.0 — apply manually to GitHub</td></tr>
+<tr><td>C2</td><td>Six-tier scale-abstract core + manifestations (Tiers 1, 2a, 3, 5, 7, 8)</td><td>WS02/WS03</td><td class="done">PATCH PRODUCED v1.13.0 — apply manually to GitHub</td></tr>
+<tr><td>C3</td><td>Mechanism/shield architecture distinction</td><td>Ch. 2, 6, 10, WS02 Glossary, WS08 Tech Appendix</td><td class="done">PATCH PRODUCED v1.15.0 — apply manually to GitHub. See <code>c3_mechanism_shield_patch.md</code></td></tr>
+<tr><td>C4</td><td>Decision A ripple — ratification note to all WS01–17</td><td>WS01–17</td><td class="done">PATCH PRODUCED v1.13.0 — apply manually to GitHub</td></tr>
+<tr><td>C5</td><td>Rigor test two-path structure</td><td>D3, B2, WS06, WS14</td><td class="done">PATCH PRODUCED v1.13.0 — apply during D3/B2 conversions</td></tr>
+<tr><td>C6</td><td>Integrated framework tier names — update old taxonomy → v10 canonical</td><td><code>commons_bonds_integrated_framework.html</code></td><td class="pending">DECISION NEEDED — see decisions section</td></tr>
+</table>
+</div>
+
+<h2>Pending Chris decisions (1 remaining)</h2>
+<div class="decision">
+<ol style="margin: 0.5em 0 0 0;">
+  <li><strong>C6 — Integrated framework tier reconciliation:</strong> <code>commons_bonds_integrated_framework.html</code> uses an older individual-level 8-tier taxonomy ("Immediate Survival Cost," "Lifetime Health Cost," "Community Stability Cost," "Relationship/Family Cost," "Dynastic Labor Cost," "Opportunity Cost," "Environmental/Ecological Cost," "Existential/Meaning Cost"). This is the individual FGC decomposition, not the structural v10 RCV taxonomy. Four of eight names map cleanly to v10; four do not. Decision needed: (a) Update to v10 structural taxonomy, retiring individual FGC framing; (b) Keep FGC as a separate analytical layer with its own naming; or (c) Explicitly reconcile as complementary lenses. This is architectural, not a name swap.</li>
+</ol>
+</div>
+
+<h2>Files produced this session</h2>
+<table>
+<tr><th>File</th><th>Format</th><th>Chars</th><th>Description</th><th>CSS leaks</th></tr>
+<tr><td><code>Chapter__5_TheAccountabilityGap_GuidanceDoc.md</code></td><td>.md</td><td>3,008</td><td>A6: Ch5 guidance doc — Libby/Deepwater/Exxon/Baotou + SCC + pattern statement</td><td>0</td></tr>
+<tr><td><code>Chapter__5_TheAccountabilityGap_Draft.md</code></td><td>.md</td><td>18,104</td><td>A7: Ch5 prose draft — accountability gap, Social Security $108T case</td><td>0</td></tr>
+<tr><td><code>Chapter__8_WhatThingsActuallyCost_Draft.md</code></td><td>.md</td><td>29,029</td><td>A8: Ch8 prose draft — coal pricing worked example, $558 vs $4.50</td><td>0</td></tr>
+<tr><td><code>Chapter__9_TheRenewableImperative_Draft.md</code></td><td>.md</td><td>40,906</td><td>A9: Ch9 prose draft — 4-step sequence, property rights + implementation counterarguments</td><td>0</td></tr>
+<tr><td><code>Chapter__9_TheRenewableImperative_GuidanceDoc.md</code></td><td>.md</td><td>6,403</td><td>Ch9 guidance doc — Counterargument 9 ("academic fantasy") response included</td><td>0</td></tr>
+<tr><td><code>AuthorsNote_OnWindTunnelsAndAI.md</code></td><td>.md</td><td>6,955</td><td>Author's Note — wind tunnel metaphor, AI collaboration disclosure, Berggruen distinction</td><td>0</td></tr>
+<tr><td><code>Dedication.md</code></td><td>.md</td><td>852</td><td>Dedication — three options (grandfather/miner+waterman/son). Author decides.</td><td>0</td></tr>
+<tr><td><code>commons-bonds-session-handoff-2026-04-20_1.17.0.html</code></td><td>.html</td><td>—</td><td>This handoff file</td><td>—</td></tr>
+</table>
+
+<h2>Conversion queue (updated)</h2>
+
+<h3>Group A — Chapter narrative HTML → .md</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Status</th><th>Notes</th></tr>
+<tr><td>A1</td><td><code>Chapter__1_ThePlane.html</code></td><td class="done">DONE v1.14.0 — 7,531 chars</td><td>Guidance doc</td></tr>
+<tr><td>A1b</td><td><code>commons-bonds-chapter-1-extension_14.html</code></td><td class="done">DONE v1.14.0 — 8,979 chars</td><td>Ch1 knowledge-worker extension</td></tr>
+<tr><td>A2</td><td><code>Chapter__2_TheMiner.html</code></td><td class="done">DONE v1.16.0 — 17,121 chars</td><td>Guidance doc</td></tr>
+<tr><td>A3</td><td><code>Chapter__3_TheWaterman.html</code></td><td class="done">DONE v1.14.0 — 1,577 chars</td><td>Guidance doc</td></tr>
+<tr><td>A4</td><td><code>Chapter__4_THEEXISTENCEPROOF__Draft.html</code></td><td class="done">DONE v1.16.0 — 19,274 chars</td><td>Prose draft</td></tr>
+<tr><td>A5</td><td><code>Chapter__4___GuidanceDoc.html</code></td><td class="done">DONE v1.16.0 — 7,635 chars</td><td>Guidance doc</td></tr>
+<tr><td>A6</td><td><code>Chapter__5___Guidance.html</code></td><td class="done">DONE v1.17.0 — 3,008 chars</td><td>Guidance doc for Ch5</td></tr>
+<tr><td>A7</td><td><code>Chapter__5_THEACCOUNTABILITYGAP__Draft.html</code></td><td class="done">DONE v1.17.0 — 18,104 chars</td><td>Prose draft; 0 math</td></tr>
+<tr><td>A8</td><td><code>Chapter__8_WhatThingsActuallyCost_Draft.html</code></td><td class="done">DONE v1.17.0 — 29,029 chars</td><td>Prose draft; 0 math</td></tr>
+<tr><td>A9</td><td><code>Chapter__9_TheRenewableImperative__Draft.html</code></td><td class="done">DONE v1.17.0 — 40,906 chars</td><td>Prose draft; 0 math</td></tr>
+<tr><td>A10</td><td><code>Chapter_10_CommonBonds_Draft.html</code> + GuidanceDoc</td><td class="done">DONE v1.15.0 — 38,407 + 3,567 chars</td><td>C3 patches 1A–1D to apply</td></tr>
+<tr><td>—</td><td><code>Chapter__7___GuidanceDoc.html</code> + Draft</td><td class="done">DONE v1.16.0 — 38,670 + 30,571 chars</td><td>Both converted</td></tr>
+<tr><td>—</td><td><code>Chapter__9___GuidanceDoc.html</code></td><td class="done">DONE v1.17.0 — 6,403 chars</td><td>Ch9 guidance doc</td></tr>
+<tr><td>—</td><td><code>AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.html</code></td><td class="done">DONE v1.17.0 — 6,955 chars</td><td>Front/back matter</td></tr>
+<tr><td>—</td><td><code>Dedication.html</code></td><td class="done">DONE v1.17.0 — 852 chars</td><td>Front matter</td></tr>
+</table>
+
+<h3>Group B — Framework / methodology HTML → .md</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Status</th><th>Notes</th></tr>
+<tr><td>B1</td><td><code>success-criteria 11.html</code></td><td class="pending">UNBLOCKED — pending upload. Lives in <code>publishing/</code> folder.</td><td>Decision #1 resolved v1.16.0</td></tr>
+<tr><td>B2</td><td><code>commons-bonds-rigor-testing-roles.html</code></td><td class="pending">Pending upload</td><td>After converting, apply C5 two-path structure</td></tr>
+<tr><td>B3</td><td><code>commons-bonds-multi-scale-revision-prototype.html</code></td><td class="pending">Pending upload</td><td>CANONICAL — .docx (D1) confirmed removed</td></tr>
+<tr><td>B4</td><td><code>alignment_companion.html</code></td><td class="pending">Pending upload</td><td></td></tr>
+<tr><td>B5</td><td><code>commons_bonds_chapter_assessment.html</code></td><td class="done">DONE v1.14.0 — 8,858 chars</td><td>Chapter-by-chapter roadmap</td></tr>
+</table>
+
+<h3>Group C — Other HTML → .md (~25 remaining)</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Status</th></tr>
+<tr><td>C1–C25</td><td>(~25 HTML files not individually catalogued)</td><td class="pending">Pending upload; spot-check each for math before converting</td></tr>
+</table>
+
+<h3>Group D — DOCX → .md (7 remaining)</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Size</th><th>Notes</th><th>Drive ID</th></tr>
+<tr><td>D2</td><td><code>commons-bonds-alignment-companion.docx</code></td><td>—</td><td></td><td>—</td></tr>
+<tr><td>D3</td><td><code>commons-bonds-rigor-test.docx</code></td><td>—</td><td>Apply C5 two-path template during conversion</td><td>—</td></tr>
+<tr><td>D4</td><td><code>commons-bonds-decision-log.docx</code></td><td>—</td><td></td><td>—</td></tr>
+<tr><td>D5</td><td><code>commons-bonds-chapter-outline.docx</code></td><td>—</td><td></td><td>—</td></tr>
+<tr><td>D6</td><td><code>$100 Barrel_ Commons Bonds.docx</code></td><td>11KB</td><td></td><td>1mZpqwHAcY_vmzaOok3IHCEz_Tdg8EFcu</td></tr>
+<tr><td>D7</td><td><code>Book Two_ The Subsidy Economy.docx</code></td><td>15KB</td><td></td><td>1FmatRshVxew__x_u-65uVhU6gKSMUioo4</td></tr>
+<tr><td>D8</td><td><code>Book Three_ Pricing the Final Frontier.docx</code></td><td>16KB</td><td></td><td>13Q0xtt8XAuplGlfD83Q9ov_bFts1gzb3</td></tr>
+</table>
+
+<h3>Group E — Protected / Do Not Touch</h3>
+<table>
+<tr><th>File</th><th>Reason</th></tr>
+<tr><td><code>Commons Bonds - Berggruen (Essay Draft).docx</code></td><td class="skip">PROTECTED — Berggruen Institute folder</td></tr>
+<tr><td><code>Noema Pitch - Commons Bonds - Winn.docx</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+<tr><td><code>Noema - Commons Bonds - Chris Winn.docx</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+<tr><td><code>Noema - Commons Bonds - Chris Winn.pdf</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+</table>
+
+<h2>Files to KEEP as HTML (math, simulation, or session management)</h2>
+<table>
+<tr><th>File</th><th>Reason</th><th>Drive ID</th></tr>
+<tr><td><code>eight-tier-v10.html</code></td><td class="keep">KEEP — Canonical RCV 8-tier decomposition with MathJax</td><td>1A_iagNbvEGy74fjKcucC-eAXacB7C7aE</td></tr>
+<tr><td><code>error-out-v10.html</code></td><td class="keep">KEEP — "Eight-Tier Decomp + Abundance Inversion Test"; move to core/decomposition/</td><td>19GCwTdwdO7H7gN70gHD2ygRNnVIVu7cR</td></tr>
+<tr><td><code>commons_bonds_integrated_framework.html</code></td><td class="keep">KEEP — math + convergence tables; C6 decision pending; move to core/</td><td>1eVXrifqMaLBYPhUdxSOkr5oQ8t7R6X8N</td></tr>
+<tr><td><code>CommonsBondsTechnicalAppendixv0_0_2.html</code></td><td class="keep">KEEP — Full technical appendix (123KB, v0.0.2, canonical)</td><td>1eCwqqxCOmF29NdKWdK9nnNVicFeCx_ex</td></tr>
+<tr><td><code>08_technical_appendix.html</code></td><td class="keep">KEEP — WS08 stub (math)</td><td>1H_CTnwBB34R4f60tU_MUZA50fkPT5_Sd</td></tr>
+<tr><td><code>Chapter__6_Draft.html</code> / <code>Chapter__6_ThreeWaysofCounting__Draft.html</code></td><td class="keep">KEEP — Ch6 first prose draft (inline math); confirmed v1.15.0</td><td>1J2fYepwLGmhnKHcXNPyg3RXJ7vT9t35Q</td></tr>
+<tr><td><code>commons_bonds_full_economy_simulation.html</code></td><td class="keep">KEEP — Interactive simulation (JavaScript)</td><td>1V33vd5z9_queMmyRgGwuU1iMbu1a0Wo</td></tr>
+<tr><td><code>commons_bonds_updated_glossary_v2.html</code></td><td class="keep">KEEP .html indefinitely — canonical v10 eight-tier glossary. C3 patches 4A/4B/4C to apply.</td><td>(upload new version)</td></tr>
+<tr><td><code>Chapter__6_ThreeWaysofCounting.html</code></td><td class="keep">KEEP original archived; .md converted v1.10.0</td><td>1FdQF_VhZT3axYb_6xfy9CqGrq4v4VD3A</td></tr>
+<tr><td><code>commons-bonds-session-handoff-*.html</code></td><td class="keep">KEEP — Session management docs (per user preferences)</td><td>(multiple)</td></tr>
+</table>
+
+<h2>Watch items</h2>
+<div class="watch">
+<ul style="margin-bottom: 0;">
+  <li><strong>Claude has no GitHub access.</strong> All files delivered via <code>present_files</code>. Chris pushes manually.</li>
+  <li><strong>No Drive uploads from Claude.</strong> Heredoc truncation risk. Chris uploads to Drive and GitHub manually.</li>
+  <li><strong>Do not touch <code>/Noema/</code> or <code>/Berggruen Institute - Essay/</code> folders.</strong> Ever.</li>
+  <li><strong>Do not rename Drive files.</strong> Migration is read-only on Drive side.</li>
+  <li><strong>Math files stay .html.</strong> Ch6 Draft, Tech Appendix, eight-tier-v10, error-out-v10, integrated framework, simulation, glossary — never convert.</li>
+  <li><strong>Ch6 Draft naming alert:</strong> Uploaded as <code>Chapter__6_ThreeWaysofCounting__Draft.md</code> but content is HTML with inline math. Treat as .html. Canonical name in Drive: <code>Chapter__6_Draft.html</code>.</li>
+  <li><strong>Session handoff files stay .html</strong> per user preferences.</li>
+  <li><strong>Workstreams WS01–17 are DONE</strong> (format conversion). C2/C4 patches add content; apply manually by Chris in GitHub.</li>
+  <li><strong>Technical Appendix is v0.0.2.</strong> <code>CommonsBondsTechnicalAppendixv0_0_2.html</code> is authoritative.</li>
+  <li><strong>error-out-v10.html is NOT junk.</strong> Goes in <code>core/decomposition/</code>.</li>
+  <li><strong>commons_bonds_integrated_framework.html is NOT archive material.</strong> Needs C6 decision first, then patch. Move to <code>core/</code>.</li>
+  <li><strong>C3 patch 3 (Ch2):</strong> Insert mechanism/shield paragraph after first "spatial cost severance" introduction. Apply when Ch2 draft is next open in GitHub.</li>
+  <li><strong>C3 patches 1A–1D (Ch10):</strong> Apply when Ch10 draft is next open in GitHub.</li>
+  <li><strong>C3 patch 2 (Ch6 Draft):</strong> Apply when Ch6 draft is next open in GitHub.</li>
+  <li><strong>C5 patch — apply during D3/B2 conversion:</strong> Add two-path template as header section when converting <code>commons-bonds-rigor-test.docx</code> (D3) and <code>commons-bonds-rigor-testing-roles.html</code> (B2).</li>
+  <li><strong>B1 now unblocked:</strong> <code>success-criteria 11.html</code> → <code>publishing/</code> folder. Upload when ready.</li>
+  <li><strong>Ch8 title confirmed:</strong> "What Things Actually Cost" (from filename). No guidance doc exists for Ch8.</li>
+  <li><strong>Dedication is author's decision:</strong> Three options documented in <code>Dedication.md</code>. No action from Claude needed until author decides.</li>
+  <li><strong>Author's Note is complete:</strong> Wind tunnel metaphor, Berggruen AI prohibition distinction, and framing of AI collaboration as legitimate. No patches pending.</li>
+  <li><strong>Native Google Docs for Ch2/Ch4/Ch7 are stale.</strong> Uploaded files are canonical.</li>
+  <li><strong>Naming convention confirmed:</strong> <code>Chapter_#_Title_Draft.md</code> = prose draft. <code>Chapter_#_Title_GuidanceDoc.md</code> = guidance doc.</li>
+  <li><strong>Handoff versioning:</strong> v1.17.0 → v1.18.0 for next session; keep date prefix as 2026-04-20 until date changes.</li>
+</ul>
+</div>
+
+<h2>Full WS + session conversion log</h2>
+<table>
+<tr><th>File</th><th>Format</th><th>Chars</th><th>CSS leaks</th><th>Session</th></tr>
+<tr><td><code>Chapter__9_TheRenewableImperative_GuidanceDoc.md</code></td><td>.md (guidance doc)</td><td>6,403</td><td>0</td><td>v1.17.0</td></tr>
+<tr><td><code>Chapter__9_TheRenewableImperative_Draft.md</code></td><td>.md (prose draft)</td><td>40,906</td><td>0</td><td>v1.17.0 (A9)</td></tr>
+<tr><td><code>Chapter__8_WhatThingsActuallyCost_Draft.md</code></td><td>.md (prose draft)</td><td>29,029</td><td>0</td><td>v1.17.0 (A8)</td></tr>
+<tr><td><code>Chapter__5_TheAccountabilityGap_Draft.md</code></td><td>.md (prose draft)</td><td>18,104</td><td>0</td><td>v1.17.0 (A7)</td></tr>
+<tr><td><code>Chapter__5_TheAccountabilityGap_GuidanceDoc.md</code></td><td>.md (guidance doc)</td><td>3,008</td><td>0</td><td>v1.17.0 (A6)</td></tr>
+<tr><td><code>AuthorsNote_OnWindTunnelsAndAI.md</code></td><td>.md (front/back matter)</td><td>6,955</td><td>0</td><td>v1.17.0</td></tr>
+<tr><td><code>Dedication.md</code></td><td>.md (front matter)</td><td>852</td><td>0</td><td>v1.17.0</td></tr>
+<tr><td><code>Chapter__7_TheColonyAdministrator_GuidanceDoc.md</code></td><td>.md (guidance doc)</td><td>38,670</td><td>0</td><td>v1.16.0</td></tr>
+<tr><td><code>Chapter__7_TheColonyAdministrator_Draft.md</code></td><td>.md (prose draft)</td><td>30,571</td><td>0</td><td>v1.16.0</td></tr>
+<tr><td><code>Chapter__4_TheExistenceProof_Draft.md</code></td><td>.md (prose draft)</td><td>19,274</td><td>0</td><td>v1.16.0 (A4)</td></tr>
+<tr><td><code>Chapter__4_TheExistenceProof_GuidanceDoc.md</code></td><td>.md (guidance doc)</td><td>7,635</td><td>0</td><td>v1.16.0 (A5)</td></tr>
+<tr><td><code>Chapter__2_TheMiner_GuidanceDoc.md</code></td><td>.md (guidance doc)</td><td>17,121</td><td>0</td><td>v1.16.0 (A2)</td></tr>
+<tr><td><code>Chapter_10_CommonBonds_Draft.md</code></td><td>.md (prose draft)</td><td>38,407</td><td>0</td><td>v1.15.0 (A10)</td></tr>
+<tr><td><code>Chapter_10_GuidanceDoc.md</code></td><td>.md (guidance doc)</td><td>3,567</td><td>0</td><td>v1.15.0 (A10)</td></tr>
+<tr><td><code>c3_mechanism_shield_patch.md</code></td><td>.md (patch)</td><td>17,005</td><td>0</td><td>v1.15.0 (C3)</td></tr>
+<tr><td><code>Chapter__2_TheMiner_Draft.md</code></td><td>.md (prose draft)</td><td>27,149</td><td>0</td><td>v1.14.0 (confirmed v1.16.0)</td></tr>
+<tr><td><code>Chapter__1_ThePlane.md</code></td><td>.md</td><td>7,531</td><td>0</td><td>v1.14.0 (A1)</td></tr>
+<tr><td><code>Chapter__3_TheWaterman.md</code></td><td>.md</td><td>1,577</td><td>0</td><td>v1.14.0 (A3)</td></tr>
+<tr><td><code>commons-bonds-chapter-1-extension.md</code></td><td>.md</td><td>8,979</td><td>0</td><td>v1.14.0 (A1b)</td></tr>
+<tr><td><code>commons_bonds_chapter_assessment.md</code></td><td>.md</td><td>8,858</td><td>0</td><td>v1.14.0 (B5)</td></tr>
+<tr><td><code>CommonsBondsTechnicalAppendixv0_0_2.html</code></td><td>.html</td><td>123,432</td><td>0 (body)</td><td>v1.12.0 (content update)</td></tr>
+<tr><td><code>commons_bonds_updated_glossary_v2.html</code></td><td>.html</td><td>26,898</td><td>0</td><td>v1.12.0 (content update)</td></tr>
+<tr><td><code>Chapter__6_ThreeWaysofCounting.md</code></td><td>.md</td><td>36,740</td><td>0</td><td>v1.10.0</td></tr>
+<tr><td><code>11_living_people_integration.md</code></td><td>.md</td><td>8,742</td><td>0</td><td>v1.2.0</td></tr>
+<tr><td><code>12_visualization_development.md</code></td><td>.md</td><td>12,823</td><td>0</td><td>v1.3.0</td></tr>
+<tr><td><code>13_theory_of_change.md</code></td><td>.md</td><td>15,332</td><td>0</td><td>v1.4.0</td></tr>
+<tr><td><code>14_counterargument_integration.md</code></td><td>.md</td><td>13,068</td><td>0</td><td>v1.5.0</td></tr>
+<tr><td><code>15_origin_story_development.md</code></td><td>.md</td><td>10,806</td><td>0</td><td>v1.6.0</td></tr>
+<tr><td><code>16_international_dimension.md</code></td><td>.md</td><td>13,740</td><td>0</td><td>v1.7.0</td></tr>
+<tr><td><code>17_honest_concession_section.md</code></td><td>.md</td><td>13,370</td><td>0</td><td>v1.8.0</td></tr>
+<tr><td>WS01–10</td><td>.md</td><td>(various)</td><td>0</td><td>v1.0.0–v1.1.0</td></tr>
+</table>
+
+<h2>Conversion pipeline (proven)</h2>
+<pre>
+pip install markdownify beautifulsoup4 --break-system-packages -q
+
+cat /mnt/user-data/uploads/{filename}.html | python3 -c "
+import sys, re
+from bs4 import BeautifulSoup
+from markdownify import markdownify
+
+html = sys.stdin.read()
+soup = BeautifulSoup(html, 'html.parser')
+for tag in soup.find_all(['style', 'script']):
+    tag.decompose()
+md = markdownify(str(soup), heading_style='ATX', bullets='-')
+md = re.sub(r'\n{3,}', '\n\n\n', md).strip() + '\n'
+print(md)
+" > /mnt/user-data/outputs/{filename}.md
+
+# Spot checks:
+# CSS leak:  grep -c "font-family\|body {" output.md  → must be 0
+# Char count: wc -c output.md
+# Math check: grep -c "mathjax\|MathJax" file.html  (avoid shell-escaping \( \[ issues)
+# Head:       head -25 output.md
+# Tail:       tail -6 output.md
+# Note: use sh-compatible do_convert() function pattern — arrays with ( ) break /bin/sh
+</pre>
+
+<p class="meta">End of session handoff v1.17.0. 7 new conversions: A6 (Ch5 GuidanceDoc), A7 (Ch5 Draft), A8 (Ch8 Draft), A9 (Ch9 Draft), Ch9 GuidanceDoc, AuthorsNote, Dedication. <strong>Group A now complete.</strong> All C1–C5 patches produced, awaiting manual application to GitHub. 1 pending decision (C6 architectural). Remaining queue: B1–B4 · ~25 Group C · 7 Group D.</p>
+
+</body>
+</html>
