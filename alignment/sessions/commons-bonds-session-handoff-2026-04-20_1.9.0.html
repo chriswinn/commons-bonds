@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-20 · v1.9.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done { color: #1a6a2a; font-weight: 600; }
+  .pending { color: #a2260b; font-weight: 600; }
+  .keep { color: #004a80; font-weight: 600; }
+  .check { color: #7a5400; font-weight: 600; }
+  .skip { color: #666; font-style: italic; }
+  .version { color: #888; font-family: monospace; }
+  .group { background: #f8f8f8; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-20 · Version <span class="version">1.9.0</span> · Audit session · Full Drive sweep complete</p>
+
+<div class="status">
+<strong>STATUS:</strong> Batch 3 (WS11–17) is <span class="done">COMPLETE</span> as of v1.8.0. This session was an audit-only session. Full Google Drive scan performed across all Commons Bonds files. No conversions executed this session. Working todo list below captures all remaining file format work.
+</div>
+
+<div class="resume">
+<strong>PROMPT SNIPPET FOR NEXT SESSION:</strong><br>
+Read the handoff <code>commons-bonds-session-handoff-2026-04-20_1.9.0.html</code> from Google Drive. We are in audit + content-work phase. All WS01–17 conversions are done. The sweep audit found ~40 HTML files and ~8 DOCX files still needing conversion. Confirm which group from the todo list to tackle first, then proceed. Do not touch Noema or Berggruen folders.
+</div>
+
+<h2>What changed from v1.8.0 → v1.9.0</h2>
+<ul>
+  <li>Full Google Drive sweep completed. All HTML and DOCX files catalogued across the entire project.</li>
+  <li>Audit revealed a substantial backlog of files outside the workstreams folder that were never included in the migration plan.</li>
+  <li>No file conversions were executed this session — this is a planning/audit handoff only.</li>
+</ul>
+
+<h2>Files to KEEP as HTML (math, simulation, or session management)</h2>
+<p>These files must never be converted. They contain RCV formulas, simulation code, or are session handoff documents.</p>
+
+<table>
+<tr><th>File</th><th>Reason to keep as HTML</th><th>Drive ID</th></tr>
+<tr><td><code>eight-tier-v10.html</code></td><td class="keep">KEEP — Canonical RCV 8-tier decomposition (math formulas)</td><td>1A_iagNbvEGy74fjKcucC-eAXacB7C7aE</td></tr>
+<tr><td><code>CommonsBondsTechnicalAppendixv0.0.1.html</code></td><td class="keep">KEEP — Full technical appendix (115KB, definitions A.1–A.9, math)</td><td>1eCwqqxCOmF29NdKWdK9nnNVicFeCx_ex</td></tr>
+<tr><td><code>08_technical_appendix.html</code></td><td class="keep">KEEP — WS08 stub pointing to technical appendix (math)</td><td>1H_CTnwBB34R4f60tU_MUZA50fkPT5_Sd</td></tr>
+<tr><td><code>Chapter__6_ThreeWaysofCounting.html</code></td><td class="keep">KEEP — Ch 6 final (RCV integral, IPG ratio, CS formula)</td><td>1FdQF_VhZT3axYb_6xfy9CqGrq4v4VD3A</td></tr>
+<tr><td><code>Chapter__6_Draft.html</code></td><td class="keep">KEEP — Ch 6 earlier draft (math content)</td><td>1J2fYepwLGmhnKHcXNPyg3RXJ7vT9t35Q</td></tr>
+<tr><td><code>commons_bonds_full_economy_simulation.html</code></td><td class="keep">KEEP — Interactive simulation (JavaScript)</td><td>1V33vd5z9_queMmyRgWrxuU1iMbu1a0Wo</td></tr>
+<tr><td><code>commons-bonds-session-handoff-*.html</code></td><td class="keep">KEEP — Session management docs (per user preferences)</td><td>(multiple)</td></tr>
+</table>
+
+<h2>Files NEEDING math check before deciding format</h2>
+<p>These chapter files are large enough that they may contain formulas. Spot-check for RCV notation before converting.</p>
+<table>
+<tr><th>File</th><th>Size</th><th>Decision pending</th><th>Drive ID</th></tr>
+<tr><td><code>Chapter__7_TheColonyAdministrator.html</code></td><td>68KB</td><td class="check">CHECK — large, may have formal definitions</td><td>18jkM2v_OxSoauaWmQ5aJb8uJGhOaf2si</td></tr>
+<tr><td><code>Chapter__8_Draft.html</code></td><td>42KB</td><td class="check">CHECK — may have math (Ch8 covers policy/reform)</td><td>1rotLgjLXNDqyotG64oGXQSRR-nrUqiC5</td></tr>
+<tr><td><code>Chapter__9_Draft.html</code></td><td>51KB</td><td class="check">CHECK — may have math</td><td>12ynzC1sjVZdHjRPtmqPm45jU5KZ549fw</td></tr>
+<tr><td><code>Chapter_10_Draft.html</code></td><td>45KB</td><td class="check">CHECK — mechanism/shield chapter (math likely)</td><td>1gyqBdemt8t6C3_pSMxTDIKDbB-2DdGIE</td></tr>
+<tr><td><code>commons_bonds_updated_glossary.html</code></td><td>13KB</td><td class="check">CHECK — glossary may have formal math definitions</td><td>1fbgdAOTWIa3iLPeP267X0jh25PGlK3uV</td></tr>
+<tr><td><code>commons_bonds_integrated_framework.html</code></td><td>19KB</td><td class="check">CHECK — framework doc may have RCV notation</td><td>1eVXrifqMaLBYPhUdxSOkr5oQ8t7R6X8N</td></tr>
+<tr><td><code>commons-bonds-eight-tier-decomposition 9.html</code></td><td>16KB</td><td class="check">CHECK — older decomposition (v9?); canonical is v10</td><td>1oXSkq0OrknZEhzTwvN9q5Ey40NsN8eZ9</td></tr>
+<tr><td><code>error-out-v10.html</code></td><td>32KB</td><td class="check">CHECK — ambiguous name, might be junk/archive</td><td>19GCwTdwdO7H7gN70gHD2ygRNnVIVu7cR</td></tr>
+</table>
+
+<h2>Full conversion todo list</h2>
+
+<h3>Group A — Chapter narrative HTML → .md (no math expected)</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Size</th><th>Action</th><th>Drive ID</th></tr>
+<tr><td>A1</td><td><code>Chapter__1_ThePlane.html</code></td><td>14KB</td><td class="pending">→ .md</td><td>1HpUNYN-zl97o0XIh1qL971vn5Yxkl3nm</td></tr>
+<tr><td>A2</td><td><code>Chapter__2_TheMiner.html</code></td><td>31KB</td><td class="pending">→ .md</td><td>1LMh0elhoIu0HyeaqGmhSPRNPFG3Dbs9u</td></tr>
+<tr><td>A3</td><td><code>Chapter__3_TheWaterman.html</code></td><td>7KB</td><td class="pending">→ .md</td><td>1ytnIxX7Z7DCXbfWGiozS13zr3wVIXATR</td></tr>
+<tr><td>A4</td><td><code>Chapter__4_Draft.html</code></td><td>25KB</td><td class="pending">→ .md</td><td>1o84SmtvSJ2amseFffeOoSMqgcYzkWJYo</td></tr>
+<tr><td>A5</td><td><code>Chapter__4_THEEXISTENCEPROOF.html</code></td><td>17KB</td><td class="pending">→ .md (spot-check first)</td><td>15Rps2YCwY1zi2uJSBI4p8ndY4L1YCnLN</td></tr>
+<tr><td>A6</td><td><code>Chapter__5_THEACCOUNTABILITYGAP.html</code></td><td>14KB</td><td class="pending">→ .md</td><td>1SUmI1Abv_zBdQjlaI4Sns3t3j6pUEAvs</td></tr>
+<tr><td>A7</td><td><code>Chapter__5_Draft.html</code></td><td>24KB</td><td class="pending">→ .md</td><td>1cmEeV5pYN0vJvQSSVFUAIig8-RfVrdkL</td></tr>
+<tr><td>A8</td><td><code>Chapter__9_TheRenewableImperative.html</code></td><td>15KB</td><td class="pending">→ .md</td><td>18B8P7a7VZN5E2ampd2-sO0iI4Pbjki6W</td></tr>
+<tr><td>A9</td><td><code>Chapter_10_CommonBonds.html</code></td><td>8KB</td><td class="pending">→ .md</td><td>1aTeKAZyKf5MLaHYaQIIQAMuExq085ghb</td></tr>
+<tr><td>A10</td><td><code>Dedication.html</code></td><td>5KB</td><td class="pending">→ .md</td><td>13VvyAmE-HCiddwrgNlEnvkeNBhr01j3r</td></tr>
+<tr><td>A11</td><td><code>AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.html</code></td><td>11KB</td><td class="pending">→ .md</td><td>14zwbF6A0q2U_COfznSCBNtxxfsJBd_G6</td></tr>
+<tr><td>A12</td><td><code>commons-bonds-chapter-1-extension 14.html</code></td><td>10KB</td><td class="pending">→ .md</td><td>1Ik-RCH12WPvwlJ9zbEnuZyNV_G5pr77j</td></tr>
+</table>
+
+<h3>Group B — Analysis/working HTML → .md</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Size</th><th>Action</th><th>Drive ID</th></tr>
+<tr><td>B1</td><td><code>00_alignment_companion_1.0.0.html</code></td><td>28KB</td><td class="pending">→ .md (no math, tracking doc)</td><td>1aCH2B1m2oW51FWIdRzVLtePp9X2GE0As</td></tr>
+<tr><td>B2</td><td><code>commons-bonds-rigor-testing-roles.html</code></td><td>27KB</td><td class="pending">→ .md</td><td>1jAf8lQXzjRPRZ70Q2IjbWK0cGj87gEY0</td></tr>
+<tr><td>B3</td><td><code>commons_bonds_counterarguments_analysis.html</code></td><td>16KB</td><td class="pending">→ .md</td><td>1yEDEFDrAqVNV3lC-AiLhRvQpUvI0rC42</td></tr>
+<tr><td>B4</td><td><code>commons_bonds_chapter_assessment.html</code></td><td>21KB</td><td class="pending">→ .md</td><td>1xyUI-q8lwtlRI6i2MC-SQnJZPWRjRdgG</td></tr>
+<tr><td>B5</td><td><code>commons_bonds_critical_impact_assessment.html</code></td><td>12KB</td><td class="pending">→ .md</td><td>18WqrkgE_LxcsEjrHieLlstI-jK6_jNHb</td></tr>
+<tr><td>B6</td><td><code>commons-bonds-multi-scale-revision-prototype.html</code></td><td>14KB</td><td class="pending">→ .md (also has .docx version)</td><td>1yxObhU6i5dMhEEzI5ggvm7z1M0LZniGQ</td></tr>
+<tr><td>B7</td><td><code>commons-bonds-villain-analysis 15.html</code></td><td>10KB</td><td class="pending">→ .md</td><td>1MCDddP_dfDT6DeLy1w_7ZpE9_mTVlgEU</td></tr>
+<tr><td>B8</td><td><code>commons-bonds-vocabulary-additions 13.html</code></td><td>7KB</td><td class="pending">→ .md</td><td>1SzlSVxyrTF82_9e0Q5HNmWbFQ6T5EUzW</td></tr>
+<tr><td>B9</td><td><code>commons-bonds-success-criteria 11.html</code></td><td>7KB</td><td class="pending">→ .md</td><td>1areaS3O835FHaL87Qu6X9u0poYdfXec9</td></tr>
+<tr><td>B10</td><td><code>commons-bonds-two-book-strategic-analysis 10.html</code></td><td>12KB</td><td class="pending">→ .md</td><td>1C5-RJxi-545AgXlV9p9qtIldv0t6VdvL</td></tr>
+</table>
+
+<h3>Group C — "Consider Including" folder HTML → .md</h3>
+<p>Parent folder ID: <code>1Py2ZmbdOKsgosjiPFOur37s8dNyuQ8hD</code></p>
+<table>
+<tr><th>#</th><th>File</th><th>Size</th><th>Action</th><th>Drive ID</th></tr>
+<tr><td>C1</td><td><code>commons_bonds_new_material_april_19_2026 - Placeholder to consider for inclusion 2.html</code></td><td>21KB</td><td class="pending">→ .md</td><td>11Kw3w2ZpTOqyPDzCkUcaQ4vsNPnyu5-B</td></tr>
+<tr><td>C2</td><td><code>commons_bonds_session_notes_april_19_2026 - Consider Including 3.html</code></td><td>19KB</td><td class="pending">→ .md</td><td>1yeNLL4gQPniLBfZj606EilLXOkdJw-kX</td></tr>
+<tr><td>C3</td><td><code>commons_bonds_new_material_from_sociology_chat - consider including 4.html</code></td><td>31KB</td><td class="pending">→ .md</td><td>1-4Xk4y65870JcU7EEDV7CBk9cy9wWvE_</td></tr>
+<tr><td>C4</td><td><code>counter_vance_research_notes - consider including 5.html</code></td><td>27KB</td><td class="pending">→ .md</td><td>15BC2Xevxjjj_XVxsuCK1GJteCRn25Hu1</td></tr>
+<tr><td>C5</td><td><code>commons_bonds_economic_theory_reference - consider including 6.html</code></td><td>27KB</td><td class="pending">→ .md (spot-check for math)</td><td>1SqDN_5XdJ2RQQR0WTSrCDO3Tux2BYhcv</td></tr>
+<tr><td>C6</td><td><code>democratic_socialism_book_discussion_april_19_2026 - consider including 7.html</code></td><td>17KB</td><td class="pending">→ .md</td><td>1lLIskm5kkvCcX2eHuvYreiGhapmDXXti</td></tr>
+<tr><td>C7</td><td><code>commons_bonds_satellite_idea_delegitimization - consider including 8.html</code></td><td>6KB</td><td class="pending">→ .md</td><td>1xKUSXYeC9x_w5WmbmjLlKDWRBd6kY-zs</td></tr>
+<tr><td>C8</td><td><code>commons - consider including 9.html</code></td><td>10KB</td><td class="pending">→ .md</td><td>1ONfCBzEzzycb5JOyXIuYa5xO0tjaFpfT</td></tr>
+<tr><td>C9</td><td><code>commons-bonds-two-book-strategic-analysis 10.html</code></td><td>12KB</td><td class="pending">→ .md (dupe of B10?)</td><td>1C5-RJxi-545AgXlV9p9qtIldv0t6VdvL</td></tr>
+<tr><td>C10</td><td><code>commons-bonds-success-criteria 11.html</code></td><td>7KB</td><td class="pending">→ .md</td><td>1areaS3O835FHaL87Qu6X9u0poYdfXec9</td></tr>
+<tr><td>C11</td><td><code>commons - consider including 12.html</code></td><td>10KB</td><td class="pending">→ .md</td><td>1dy0nYnRnOF6PaMMsGZrEVM4tCXPyKott</td></tr>
+<tr><td>C12</td><td><code>commons-bonds-vocabulary-additions 13.html</code></td><td>7KB</td><td class="pending">→ .md</td><td>1SzlSVxyrTF82_9e0Q5HNmWbFQ6T5EUzW</td></tr>
+</table>
+
+<h3>Group D — DOCX files → .md (Commons Bonds project, not protected)</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Size</th><th>Action</th><th>Drive ID</th></tr>
+<tr><td>D1</td><td><code>commons-bonds-multi-scale-revision-prototype.docx</code></td><td>41KB</td><td class="pending">→ .md (html version exists at B6)</td><td>1khYCq3zR6ezOfo8hQEvWDmejaTBdqU2b</td></tr>
+<tr><td>D2</td><td><code>Commons Bonds - Nigeria Contrast Case — Placeholder to Consider for Inclusion.docx</code></td><td>7KB</td><td class="pending">→ .md</td><td>1ZczUy0GA9_WNROzck04NJQYTiptQ7N3t</td></tr>
+<tr><td>D3</td><td><code>Commons Bonds — Session Archive & Decision Log.docx</code></td><td>12KB</td><td class="pending">→ .md</td><td>113m5ERbDDBqoF-suEeaLGx2t0_KSuUr5</td></tr>
+<tr><td>D4</td><td><code>Commons Bonds_ Book One ... Path & Book Two ... Path.docx</code></td><td>31KB</td><td class="pending">→ .md</td><td>17vd96lGSJ_1-rRH6aKIIZOj2j39hKDSA</td></tr>
+<tr><td>D5</td><td><code>Commons Bonds Publishing Strategy - Consolidated Plan.docx</code></td><td>20KB</td><td class="pending">→ .md</td><td>1qvcnuRo1vjs5nHyFcvUy48m9RwkpYYOn</td></tr>
+<tr><td>D6</td><td><code>$100 Barrel_ Commons Bonds.docx</code></td><td>11KB</td><td class="pending">→ .md</td><td>1mZpqwHAcY_vmzaOok3IHCEz_Tdg8EFcu</td></tr>
+<tr><td>D7</td><td><code>Book Two_ The Subsidy Economy.docx</code></td><td>15KB</td><td class="pending">→ .md</td><td>1FmatRshVxew__x_u-65uVhU6gKMUioo4</td></tr>
+<tr><td>D8</td><td><code>Book Three_ Pricing the Final Frontier.docx</code></td><td>16KB</td><td class="pending">→ .md</td><td>13Q0xtt8XAuplGlfD83Q9ov_bFts1gzb3</td></tr>
+</table>
+
+<h3>Group E — Protected / Do Not Touch</h3>
+<table>
+<tr><th>File</th><th>Reason</th></tr>
+<tr><td><code>Commons Bonds - Berggruen (Essay Draft).docx</code></td><td class="skip">PROTECTED — Berggruen Institute folder</td></tr>
+<tr><td><code>Noema Pitch - Commons Bonds - Winn.docx</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+<tr><td><code>Noema - Commons Bonds - Chris Winn.docx</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+<tr><td><code>Noema - Commons Bonds - Chris Winn.pdf</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+</table>
+
+<h2>Items needing Chris decision (not format conversions)</h2>
+
+<div class="info">
+<ol style="margin: 0.5em 0 0 0;">
+  <li><strong>Duplicate files?</strong> Several files appear in multiple folders with identical names and IDs (e.g., <code>success-criteria 11.html</code> appears in both the "consider including" folder and elsewhere). Confirm whether these are true duplicates in different folders or just the same file.</li>
+  <li><strong><code>error-out-v10.html</code></strong> (32KB, ID: <code>19GCwTdwdO7H7gN70gHD2ygRNnVIVu7cR</code>) — Name suggests it may be a junk/error output from a prior session. Open and confirm before deciding.</li>
+  <li><strong>Two Ch 6 HTML files:</strong> <code>Chapter__6_ThreeWaysofCounting.html</code> (56KB, final) and <code>Chapter__6_Draft.html</code> (45KB, earlier draft). Should the draft be archived/removed, or kept as a separate version?</li>
+  <li><strong>Two Ch 4 versions:</strong> <code>Chapter__4_Draft.html</code> + <code>Chapter__4_THEEXISTENCEPROOF.html</code> — same chapter, two approaches. Confirm which is canonical.</li>
+  <li><strong>Native Google Docs (not migrated):</strong> Three chapter Google Docs exist outside the Drive file structure: <em>Chapter 2 (The Miner)</em>, <em>Chapter 4 (Draft)</em>, <em>Chapter 7 (Draft)</em>. These were auto-created when HTML was uploaded. Confirm whether these are stale auto-conversions or working docs.</li>
+  <li><strong><code>commons-bonds-multi-scale-revision-prototype</code></strong> exists as both <code>.html</code> (B6) and <code>.docx</code> (D1). Which is canonical? The .docx was modified later (Apr 19 19:03 vs Apr 19 18:47). Likely .docx is the keeper; .html may be redundant.</li>
+  <li><strong>Chapter ordering:</strong> Drive has chapters labeled both by number (Ch 1–10) and by name (ThePlane, TheMiner, TheWaterman, TheColonyAdministrator, TheRenewableImperative, CommonBonds). Confirm mapping is complete: Ch1=ThePlane, Ch2=TheMiner, Ch3=TheWaterman, Ch7=TheColonyAdministrator, Ch9=TheRenewableImperative, Ch10=CommonBonds. What are Ch4=?, Ch5=?, Ch8=?</li>
+</ol>
+</div>
+
+<h2>Pending content work (separate from format conversion)</h2>
+<ul>
+  <li>Tier 2a rename: "Individual Risk Cost" → "Actuarial Risk Cost" — affects WS02, WS03, Glossary, Tech Appendix</li>
+  <li>Six tiers (1, 2a, 3, 5, 7, 8): scale-abstract core + manifestations verbiage revision (WS02/WS03)</li>
+  <li>Mechanism/shield architecture distinction: update Ch. 2, 6, 10, Glossary (WS02), Technical Appendix (WS08)</li>
+  <li>Decision A ratified 2026-04-19 — confirm what document updates flow from this across WS01–17</li>
+  <li>Rigor test defaults: two-path structure (allocation symmetry + shield absence) — confirm adoption in all rigor-testing materials</li>
+</ul>
+
+<h2>Conversion pipeline (proven — keep for reference)</h2>
+<pre>
+pip install markdownify beautifulsoup4 --break-system-packages -q
+
+# For HTML files uploaded by Chris:
+cat /mnt/user-data/uploads/{filename}.html | python3 -c "
+import sys, re
+from bs4 import BeautifulSoup
+from markdownify import markdownify
+
+html = sys.stdin.read()
+soup = BeautifulSoup(html, 'html.parser')
+for tag in soup.find_all(['style', 'script']):
+    tag.decompose()
+md = markdownify(str(soup), heading_style='ATX', bullets='-')
+md = re.sub(r'\n{3,}', '\n\n\n', md).strip() + '\n'
+print(md)
+" > /mnt/user-data/outputs/{filename}.md
+
+# Spot checks:
+# CSS leak:  grep -c "font-family\|body {" output.md  → must be 0
+# Tables:    grep -c "^|" output.md
+# Char count: wc -c output.md
+# Head:      head -25 output.md
+</pre>
+
+<h2>Watch items</h2>
+<div class="watch">
+<ul style="margin-bottom: 0;">
+  <li><strong>Claude has no GitHub access.</strong> Files delivered via <code>present_files</code> only. Chris pushes manually.</li>
+  <li><strong>Do not touch <code>/Noema/</code> or <code>/Berggruen Institute - Essay/</code> Drive folders.</strong> Ever.</li>
+  <li><strong>Do not rename Drive files.</strong> Migration is read-only on Drive side.</li>
+  <li><strong>Math files stay .html.</strong> Ch6, Tech Appendix, eight-tier-v10, simulation — never convert these.</li>
+  <li><strong>Session handoff files stay .html</strong> per user preferences (versioned with date + number suffix).</li>
+  <li><strong>File upload pattern:</strong> Chris uploads files directly for conversion. Never revert to Drive download approach for conversion (heredoc truncation risk).</li>
+  <li><strong>Handoff versioning:</strong> v1.9.0 → v1.10.0 for next same-day session; update date prefix if date changes.</li>
+  <li><strong>Workstreams WS01–17 are DONE.</strong> Do not re-process them.</li>
+  <li><strong>Technical Appendix is DONE.</strong> Chris converted manually. <code>CommonsBondsTechnicalAppendixv0.0.1.html</code> is the authoritative copy.</li>
+</ul>
+</div>
+
+<h2>Full WS conversion log (complete record)</h2>
+<table>
+<tr><th>File</th><th>Format</th><th>Chars</th><th>CSS leaks</th><th>Tables</th><th>Session</th></tr>
+<tr><td><code>11_living_people_integration.md</code></td><td>.md</td><td>8,742</td><td>0</td><td>0</td><td>v1.2.0</td></tr>
+<tr><td><code>12_visualization_development.md</code></td><td>.md</td><td>12,823</td><td>0</td><td>32</td><td>v1.3.0</td></tr>
+<tr><td><code>13_theory_of_change.md</code></td><td>.md</td><td>15,332</td><td>0</td><td>21</td><td>v1.4.0</td></tr>
+<tr><td><code>14_counterargument_integration.md</code></td><td>.md</td><td>13,068</td><td>0</td><td>0</td><td>v1.5.0</td></tr>
+<tr><td><code>15_origin_story_development.md</code></td><td>.md</td><td>10,806</td><td>0</td><td>0</td><td>v1.6.0</td></tr>
+<tr><td><code>16_international_dimension.md</code></td><td>.md</td><td>13,740</td><td>0</td><td>12</td><td>v1.7.0</td></tr>
+<tr><td><code>17_honest_concession_section.md</code></td><td>.md</td><td>13,370</td><td>0</td><td>0</td><td>v1.8.0</td></tr>
+<tr><td>WS01–10</td><td>.md</td><td>(various)</td><td>0</td><td>(varies)</td><td>v1.0.0–v1.1.0</td></tr>
+<tr><td>Technical Appendix</td><td>.html</td><td>115,763</td><td>—</td><td>—</td><td>Manual (Chris)</td></tr>
+</table>
+
+<p class="meta">End of session handoff v1.9.0. Audit session complete. ~40 HTML + 8 DOCX files remaining in conversion queue.</p>
+
+</body>
+</html>
