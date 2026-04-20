@@ -1,0 +1,230 @@
+---
+
+# Commons Bonds
+
+By Chris Winn
+
+## Chapter 8: What Things Actually Cost
+
+---
+
+## Chapter 8 (What Things Actually Cost) -- Draft v1 (Book One focused scope)
+
+\*Scope note to self: This chapter deliberately does not simulate the whole economy. It walks one extraction -- one ton of McDowell County coal -- through the eight tiers, delivers the intergene
+
+---
+
+What if everything cost what it actually costs?
+
+Ask the question without political coding, without ideology, and the framework we've been building starts answering it before the argument even begins. Not from preference. From arithmetic. Take one extraction — any extraction, though the one we've been tracing since Chapter 2 will do — and walk it through the full accounting the previous chapters made legible. Price the health costs. Price the environmental damage. Price the community that bore the weight. Price the foreclosure carried forward to every generation that follows. Price the families dispersed, the knowledge lost, the political work required to keep the whole operation invisible, the acceleration that compressed centuries of resource use into decades. Add them together. Look at the number. Look at the price on the invoice. Notice the gap.
+
+This chapter does that exercise for one ton of Appalachian coal — and lets the reader see what the gap looks like when it isn't aggregated, abstracted, or dissolved in policy language, but priced, tier by tier, against the extraction we've been following from the book's opening.
+
+The result is not degrowth. It is not anti-capitalism. It is not, in this book, a policy recommendation. It is an accounting exercise. What we choose to do with the accounting is a separate question — a political one — and one this book is deliberately not trying to answer. Book One's job is to make the numbers visible. What gets built from visibility is the subject of a different book, and I'll say where that book begins at the end of this chapter.
+
+---
+
+### The coal, again
+
+Return to McDowell County. Return to the mine Kennedy stood near in 1960, to the county that produced more coal than any other in the United States while its residents queued for surplus food. A ton of coal sold at the mine mouth that year for roughly $4.50. By the time the rail car cleared the last tunnel, the accounting was complete as far as the market was concerned. A buyer paid. A seller was paid. The transaction cleared. The coal was gone.
+
+What the market didn't price — what Chapter 6 spent its pages showing every serious pricing methodology agrees it didn't price — was not a rounding error. It was the majority of the actual cost.
+
+What follows is conservative throughout. Where estimates have a range, I use the lower figure. Where an externality is contested, I omit it. The goal is not a ceiling. The goal is a floor — the smallest honest number the framework can defend — and to show that even the floor sits orders of magnitude above the price that cleared the market.
+
+---
+
+### Tier 1 — Direct Health Cost
+
+Begin with the lungs. Black lung is the most completely documented externality coal has ever produced, because the damage is specific, attributable, and federally tracked. The Black Lung Disability Trust Fund has distributed over forty-four billion dollars to disabled miners and their widows since its creation. It has never collected enough revenue to cover its obligations. Its debt stood at four and a half billion dollars in 2021 and is projected to exceed fifteen billion by 2050. When a coal company files for bankruptcy, its liability transfers to the taxpayer, which is to say, to everyone not currently extracting coal.
+
+That's before the other direct health costs: the excess cardiovascular mortality from particulate exposure, the increased rates of respiratory illness in mining communities whose children were never in the mine, the cancer rates near coal processing facilities, and the medical costs of populations whose life expectancy diverges from the national average by more than a decade.
+
+Allocated against total United States coal production from 1960 to 2020, the Trust Fund alone yields roughly eighty cents per ton. Adding Medicare and Medicaid costs shifted to the public ledger, uncompensated care, and the private medical bills of miners whose employers bankrupted before obligations matured, a conservative figure sits between two and four dollars per ton at the national level.
+
+Two to four dollars. Against a market price of four-fifty in 1960. Tier one alone — the most documented tier — returns roughly as much as the coal sold for.
+
+---
+
+### Tier 2 — Environmental Degradation Cost
+
+Walk outside the mine. The creek running orange with acid mine drainage is not a metaphor. It is a specific hydrochemical process in which exposed sulfide minerals oxidize in contact with water and air, producing sulfuric acid that mobilizes heavy metals into the watershed for a century or longer. Treatment is perpetual. There is no version of acid mine drainage that ends when the mine closes.
+
+Across Appalachia, the reclamation bonds coal companies were required to post under the 1977 Surface Mining Control and Reclamation Act currently fall between three and a half and six billion dollars short of the documented remediation need. Six hundred thirty-three thousand acres are awaiting cleanup. The available bonds total three point eight billion against cleanup costs estimated at seven and a half to nine point eight billion. The gap — four to six billion — is the severed cost sitting in the federal ledger in plain sight, waiting for a funding source that the law assumed would exist and doesn't.
+
+Added to that: the sixty thousand Appalachian cancer cases linked to mountaintop removal mining, the long-tail ecosystem service losses from streams buried under valley fill, the soil contamination in communities downstream of processing facilities, and the atmospheric mercury deposited from coal combustion that now shows up in fish as far away as the North Atlantic.
+
+Conservatively allocated per ton: one to three dollars. Which, added to tier one, already places the national severed cost at three to seven dollars — already above the 1960 market price, before any foreclosure pricing at all.
+
+---
+
+### Tier 3 — Community Disruption Cost
+
+The county peaked near one hundred thousand residents in 1950. By 2020, fewer than twenty thousand remained. Mechanization cut the workforce by more than half within a decade of Kennedy's visit. The U.S. Steel mine closure in 1990 dropped personal income in the county by two-thirds in a single year. In 2016, the last Walmart left. In 2022, McDowell County ranked sixteenth-poorest in the United States with a median household income of twenty-eight thousand dollars and a poverty rate near thirty-eight percent, in a country whose median is over sixty-seven thousand. In 2015, the county recorded the highest drug-induced death rate of any county in America — one hundred forty-one per hundred thousand, close to ten times the national rate.
+
+A community doesn't drop to twenty percent of its population without carrying costs. There are infrastructure costs — schools, fire departments, water systems, hospitals — that must be maintained at some minimum regardless of headcount and whose per-capita burden rises as the headcount falls. There are economic multiplier losses — every local business that closed, every institution that couldn't sustain itself, every dollar that didn't circulate locally because the earner left. There are public program costs — food stamps, disability payments, Medicaid — absorbed by federal and state government in a county that had once generated billions of dollars in coal revenue, almost none of which stayed.
+
+Economists who study regional collapse have methodologies for pricing this; the figures they produce for sustained regional decline sit in the range of five to fifteen dollars per ton of extracted coal when allocated to the extraction that drove the collapse. I'll use the low end. Five dollars per ton.
+
+Running total across the first three tiers: eight to twenty-two dollars per ton. Market price in 1960: four dollars and fifty cents. The gap is already a multiple. We haven't yet priced carbon.
+
+---
+
+### Tier 4 — Foreclosure Cost
+
+This is the tier Chapter 2 named through the $100 barrel passage and Chapter 6 formalized through the RCV integral. It is also the tier that, for fossil fuels, dominates every other.
+
+One ton of coal, when burned, releases approximately 2.86 tons of carbon dioxide into the atmosphere. The EPA's most recent estimate of the social cost of carbon — the economic damage caused by each ton of CO₂ released — is one hundred and ninety dollars. The arithmetic is not subtle. The climate cost of burning one ton of coal, at the currently published federal estimate, is approximately five hundred and forty-four dollars.
+
+Five hundred and forty-four dollars. Against a market price that has oscillated between four dollars and a hundred and forty dollars over the life of the industry. The foreclosure term alone exceeds the market price of every ton of coal ever mined in the United States by a factor somewhere between four and a hundred and thirty, depending on the era.
+
+Add to that the option-value foreclosure not captured by the carbon number: every future metallurgical application that cannot be served by a non-existent substitute, every future chemical feedstock application, every use case we cannot yet imagine for a carbon resource whose existing stock is being burned for electricity in a world where electricity can now be generated from sources that don't require combustion at all.
+
+The foreclosure tier, for coal burned in any era after viable renewable substitutes existed, is a minimum of five hundred and forty-four dollars per ton — and that is before option value, before ecosystem service losses from atmospheric warming, before the climate-induced mortality and migration costs that the social cost of carbon understates.
+
+Conservative floor across four tiers: five hundred and fifty to five hundred and seventy dollars per ton.
+
+---
+
+### Tier 5 — Dynastic Labor Cost
+
+Now the harder tiers. Tier five is the one the abundance test reveals: the cost borne not by the worker but by the worker's family and the generations downstream of that family's dispersal.
+
+A mining community that collapses by eighty percent does not take its children with it uniformly. The children who stay grow up in a food desert where the nearest grocery store is an hour away and the local school's graduation rate is among the lowest in the country. The children who leave are raised by parents whose work was physically destructive enough that many of them did not live to see grandchildren. Intergenerational wealth transmission, which in most American communities is the single largest driver of which lives are possible and which are not, becomes impossible when the family's entire asset base consists of a house in a hollow that cannot be sold.
+
+This is not a rhetorical claim. It is visible in the data. A child born in McDowell County in the bottom income quintile has among the lowest odds of reaching the top quintile of any location in the United States. The mobility data the Opportunity Insights project has made public ranks the county at the floor of national outcomes. The extraction did not just take the coal. It took the children's probability of a different life.
+
+The dynastic cost is real, but data attributing specific dollar figures per ton is sparse. Development economists estimating intergenerational income mobility losses have produced regional estimates in the single-digit billions for counties of McDowell's scale; per-ton allocations, though imprecise, sit in the range of one to five dollars. The number is small next to the carbon term. It is enormous next to the life of a child whose fiftieth percentile income possibility was determined by the zip code they were born in.
+
+I'll use two dollars per ton as a conservative placeholder. The reader can decide whether two dollars per ton of coal, multiplied across sixty years of extraction, represents anything like a fair accounting for what it cost a generation to be born in a county that had been priced at nothing.
+
+---
+
+### Tier 6 — Knowledge and Cultural Cost
+
+The sixth tier is the one that is hardest to see while it's happening because it's invisible until it's already lost. Every mining community carried practical knowledge — how to read the seams, how to manage risk on a specific geological formation, how to keep a specific valley's water system functioning, how the weather behaved in that particular hollow over a particular century — and that knowledge existed because specific people stayed in specific places long enough to accumulate it.
+
+When the community dispersed, the knowledge went with them. Not to somewhere it could be preserved. To places where it had no application. The retired miner who knew exactly how the West Fork ran in February didn't move to somewhere that needed to know how the West Fork ran in February.
+
+And that is just the ecological and occupational knowledge. Add the cultural continuity — the congregations, the civic organizations, the networks of mutual aid that could absorb a personal crisis because everyone knew everyone — and the loss compounds. Replacement cost for the civic infrastructure of a community of a hundred thousand people is not straightforwardly priced, but it is certainly not zero.
+
+I'll price this tier at one dollar per ton. It is not the point of the chapter. But it belongs in the accounting because the abundance test surfaces it, and because the reader who thinks carefully about what the coal cost cannot simply omit the part of the cost that fell outside the ledger because it wasn't denominated in dollars.
+
+---
+
+### Tier 7 — Political Capture Cost
+
+The reason the first six tiers are visible in hindsight and were invisible in the moment is not that the information was unavailable. It is that the industry whose invoices did not reflect the costs had substantial financial incentive to keep the costs unpriced — and did so, for decades, through documented lobbying, regulatory capture, and strategic suppression of research.
+
+Black lung was identifiable as an occupational disease by the early twentieth century. It was not formally recognized as a basis for federal compensation until 1969, and only after a miners' strike and the West Virginia Black Lung Association forced the legislative issue. The United Mine Workers under John L. Lewis declined to press the issue at multiple points in the preceding decades, reportedly on the grounds that raising it would interfere with the mechanization that was producing higher wages. The mechanism that produced the higher wages was, of course, also the mechanism that produced the disease. The rank and file paid the difference.
+
+The social cost of carbon itself has been an object of political capture. Under the Obama administration it was set at forty-two dollars per ton. Under the Trump administration it was cut to between one and seven dollars. Under the Biden administration, it returned to fifty-one dollars, and the EPA's 2023 update raised it to the one hundred and ninety dollars used in this chapter's arithmetic. The number is not uncertain because carbon physics is uncertain. The number is uncertain because the question of how much of the cost should be priced is a political fight, and one side of that fight has more resources than the other.
+
+The cost of the fight is itself a severed cost. Democracies spend real money — through lobbying expenditures, captured regulatory agencies, think tanks funded to produce the conclusions their funders need, and the civic attention diverted from other questions — to keep the honest accounting from happening. Estimates of the annual lobbying spend of the fossil fuel industry alone run into the hundreds of millions of dollars, and that figure captures only the visible fraction.
+
+I'll assign one dollar per ton to this tier — a floor so low it is almost certainly an undercount, chosen to keep the running total conservative. The reader who has followed the argument this far can adjust.
+
+---
+
+### Tier 8 — Temporal Displacement Cost
+
+The final tier is the one revealed by the abundance test most starkly. It is the cost of \*when\*.
+
+The coal in McDowell County had sat in the ground for hundreds of millions of years. Its extraction was compressed into roughly a century, with the bulk of the tonnage moved in the forty years after mechanization. This was not because the country needed coal at that specific rate. It was because the rate at which coal could be extracted had been increased by machinery, and because the financial structure of the industry rewarded rapid extraction over measured extraction.
+
+The temporal displacement cost is the cost of foregone optionality — the value of having extracted more slowly, over a longer period, with time to develop alternatives, time for communities to diversify, time for the externality tail to be absorbed at the rate it could have been absorbed rather than all at once. The 1970s oil shocks produced a fifty-percent improvement in U.S. energy intensity over the subsequent two decades because prices signaled that efficiency mattered. Had coal been priced closer to its honest cost in 1960, the same signal would have driven the same kind of adaptation, at a pace that communities could have survived.
+
+Instead, the mechanization compressed the timeline, the price suppressed the signal, and the adaptation did not happen until the damage had accumulated to the point that the accumulation forced it.
+
+I'll assign this tier two dollars per ton. Again, conservative, almost certainly an undercount.
+
+---
+
+### The sum
+
+Running the total at the low end of every tier:
+
+- Tier 1 (Direct Health): $2
+
+- Tier 2 (Environmental Degradation): $1
+
+- Tier 3 (Community Disruption): $5
+
+- Tier 4 (Foreclosure): $544
+
+- Tier 5 (Dynastic Labor): $2
+
+- Tier 6 (Knowledge and Cultural): $1
+
+- Tier 7 (Political Capture): $1
+
+- Tier 8 (Temporal Displacement): $2
+
+Total: $558 per ton.
+
+Against a market price of $4.50 in 1960. Against a market price of $40 to $140 today, depending on grade. Against every price coal has ever sold for.
+
+The Intergenerational Pricing Gap — the ratio of honest price to market price — for McDowell County coal, at the low end of every tier, is somewhere between four and a hundred and twenty. The range is wide because the market price varies by era. The floor is high because the carbon term dominates anything the market has ever paid for a ton of coal.
+
+---
+
+### The pattern made legible
+
+If this were an isolated case, the reader would be entitled to ask whether McDowell County is a special exception — whether the arithmetic that works here fails somewhere else. Chapter 5 answered that question with case after case. The ratios were not identical; the mechanism was. Deepwater Horizon's documented costs against its projected well revenue produce an IPG of fifteen to seventeen. The W. R. Grace vermiculite mine in Libby, Montana produced an IPG between forty and eighty against its lifetime revenue. The Baotou rare earth extractions, priced against the documented environmental and health costs to the villagers living next to the tailings lake, land in the same range. The Exxon Valdez spill, measured against the market value of the eleven million gallons that reached the sound, produced an IPG that defies simple calculation only because the recovery was never completed.
+
+Different industries. Different geographies. Different decades. Different resources. The same mechanism. The same structural gap between what the invoice said and what the extraction actually cost.
+
+---
+
+### What honest pricing does \*not\* mean
+
+Two misreadings have followed this argument every time I've offered it, and I want to name them before the chapter ends.
+
+The first misreading is that honest pricing is a claim that the extraction should never have happened. It isn't. Cheap energy — even severely mispriced energy — lifted billions of human beings out of poverty, and no responsible reader of this book should accept an account that pretends otherwise. The argument here is narrower and more specific: whoever bore the cost of extraction should have been compensated at rates reflecting what they actually sacrificed. The miners who developed black lung, the communities that collapsed when the coal was exhausted, the children born into a county whose economic future had been extracted before their birth, the generations that will absorb the climate costs — these are not hypothetical entities. They are people. They paid. They are still paying. The question the framework asks is not whether extraction occurred. The question is who paid for it and whether they consented.
+
+The second misreading is that honest pricing is a claim that the market is fake. It isn't. Prices cleared transactions. The money changed hands. Real coal left McDowell County on real rail cars. What the framework argues is that the price cleared the transaction the market could see, and did not clear the transaction that was actually occurring. The market priced the extraction of the coal. The severed costs — the lung damage, the poisoned creek, the collapsed community, the carbon in the atmosphere, the dispersed families, the political fight required to keep the accounting invisible — were a second transaction running alongside the first, unpriced, unwitnessed, and binding on parties who were never consulted.
+
+The market is not fake. The market is incomplete. The job of the framework is to name the part that got left out.
+
+---
+
+### The brief extrapolation
+
+If coal is mispriced locally by a factor somewhere between four and a hundred and twenty, and if the same pattern appears across every extraction case the book has examined, then the aggregate global severed cost across all resource extraction sits in a range the framework can bound but cannot fully specify from here.
+
+Order-of-magnitude: the global fossil fuel industry alone generates on the order of four to five trillion dollars in annual revenue. If full-cost pricing would raise those revenues by a factor of two to three — a conservative estimate given the carbon term alone — the annual global severed cost from fossil extraction is in the range of eight to ten trillion dollars. Add the non-fossil extraction sectors (mining, logging, fisheries harvested above regeneration, aquifer drawdown, agricultural topsoil loss), and the global figure lands somewhere between ten and fifteen trillion dollars annually.
+
+Ten to fifteen trillion. Annually. To put that number in a scale the reader can hold: it is larger than every government subsidy program combined, larger than all international development assistance, larger than all charitable giving in every country on Earth, combined. It is, as far as I can tell, the largest continuous wealth transfer in human history. And it flows in one direction. From the communities closest to extraction to the consumers farthest away. From the future to the present. From the people who have no voice in the market to the ones who do.
+
+That number is the argument's civilizational-scale implication. It is enormous. It is also, in this book, a gestured claim — one sentence of supporting arithmetic against an assertion that would, if taken seriously as a policy agenda, require years of sectoral simulation, political-economic analysis, and implementation work that cannot honestly be compressed into the closing pages of a framework book.
+
+So I am not going to compress it. I am going to name it and leave it.
+
+---
+
+### Two counterarguments, compressed
+
+Two objections will meet this chapter on its way to the next, and the book has made implicit promises about honoring them.
+
+The first is the charge that this is degrowth in a different vocabulary. It isn't. GDP measures market transactions, not welfare. Every dollar spent cleaning up oil spills counts as economic production. Every medical bill from black lung treatment counts as medical output. GDP rises when the children of McDowell County develop addiction disorders and spend money on treatment. GDP does not fall when they die at fifty-eight. Honest pricing reduces GDP in the narrow technical sense while increasing welfare in every sense the measurement was meant to proxy. It shifts the composition of economic activity, not the total. Leaded gasoline was banned and refineries reformulated; the industry did not collapse; children's cognitive outcomes improved. That is the pattern honest pricing repeats at larger scale.
+
+The second is the charge that honest pricing is a tool by which already-industrialized nations pull up the ladder behind them. This is the objection that has to be taken seriously, because if it were true it would be a compelling moral defeater. The framework's response is that whoever created the historical cost owes its repayment, and differentiated transition timelines are a structural feature of honest accounting, not an afterthought. Developed nations built their wealth by severing costs onto the global commons for two centuries. The atmospheric carbon, the disrupted climate, and the industrial infrastructure that benefited from free disposal of externalities were built by specific countries whose present wealth reflects costs borne by populations who were never compensated. Honest pricing creates the revenue to fund clean industrialization pathways for developing nations — not as charity, but as the repayment of historical severance. Solar electricity is now cheaper than coal in most of the developing world. The technology exists. The transition timeline should be asymmetric. The framework requires exactly that.
+
+---
+
+### The closing line, and the door to the next book
+
+What happens if an entire global economy begins to reprice at honest rates? Resource by resource, sector by sector, country by country? What happens to energy costs in the short term, and in the medium term, and in the new equilibrium? Who absorbs the transition? What happens to a household in the bottom forty percent of the income distribution when essentials rise by forty percent? Where does the pricing surplus go, and who decides? What does the economy look like on the other side, and is that economy still recognizably capitalist?
+
+These questions are real. The framework answers them — the mathematics produces specific results, the simulations run in recognizable directions, the distributional crisis and the structural necessity of a universal floor emerge with a clarity that is neither ideological nor optional. They are, all of them, consequences of the pricing exercise this chapter has just performed on a single ton of coal.
+
+They are also the subject of a different book.
+
+This book's job is to make the invisible visible. Chapter 1 through Chapter 8 have done that. Chapter 9 sketches the direction a civilization committed to honest accounting would move. Chapter 10 closes with the miner, the waterman, and the colony administrator recognizing each other across the distance the mechanism was designed to maintain.
+
+What happens inside the global economy once the accounting is honest — the simulation that runs across every resource category, the distributional arithmetic, the universal floor emerging not from ideology but from the math itself, the political economy of the subsidy and the organized resistance of its beneficiaries, the international coordination problem, the implementation pathway from where we are to where honest accounting would take us — that is the subject of the book that comes after this one. The working title is \*The Subsidy Economy\*. The claim it will carry is that the current global economy is not a market economy but a subsidy economy, running a ten-to-fifteen-trillion-dollar annual transfer from the powerless to the powerful, and that honest accounting — once performed at civilizational scale — reveals not a catastrophe but a better, more stable, more resilient economy with a floor beneath it. That book will make specific policy arguments this book does not, and it will implicate specific beneficiaries this book does not. It presupposes the framework this book establishes. It cannot be written until the framework has had time to circulate.
+
+For now, what this chapter gives the reader is the one worked example: a ton of coal, priced honestly, at a floor of roughly five hundred and fifty-eight dollars. The gap between that number and the four-dollar-and-fifty-cent invoice is the severed cost. The invoice is what McDowell County was paid. The severed cost is what McDowell County bore.
+
+The next two chapters return to what that means, for McDowell County, for the waterman, for the reader's own life, and for the century ahead.
+
