@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — C6 Decision Memo · v2.0.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  h4 { font-size: 0.95em; margin-top: 1.2em; font-weight: 600; color: #444; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .recommendation { background: #eaf6ec; border-left: 4px solid #2a7a3c; padding: 1em 1.2em; margin: 1.5em 0; }
+  .supersedes { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; font-size: 0.94em; }
+  .two-path { background: #f4f0fb; border-left: 4px solid #6a4c9c; padding: 0.9em 1.1em; margin: 1.2em 0; }
+  .path1 { background: #fef6e8; border-left: 3px solid #cc7700; padding: 0.7em 0.9em; margin: 0.7em 0; font-size: 0.94em; }
+  .path2 { background: #eaf2fa; border-left: 3px solid #2c5e8a; padding: 0.7em 0.9em; margin: 0.7em 0; font-size: 0.94em; }
+  .pass { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.6em 0.9em; margin: 0.6em 0; font-size: 0.94em; font-weight: 600; color: #1a6a2a; }
+  .fail { background: #fdecea; border-left: 3px solid #b33; padding: 0.6em 0.9em; margin: 0.6em 0; font-size: 0.94em; font-weight: 600; color: #a2260b; }
+  .conditional { background: #fff4e6; border-left: 3px solid #cc7700; padding: 0.6em 0.9em; margin: 0.6em 0; font-size: 0.94em; font-weight: 600; color: #7a5400; }
+  .ait { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .watch { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .finding { background: #eaf2fa; border-left: 4px solid #2c5e8a; padding: 0.9em 1.1em; margin: 1.2em 0; }
+  .scale-ind { color: #1a6a2a; font-weight: 600; }
+  .scale-com { color: #00538a; font-weight: 600; }
+  .scale-gov { color: #7a5400; font-weight: 600; }
+  .scale-corp { color: #6a4c9c; font-weight: 600; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.3em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .vote-pass { background: #eaf6ec; font-weight: 600; color: #1a6a2a; }
+  .vote-fail { background: #fff1f0; font-weight: 600; color: #a2260b; }
+  .vote-partial { background: #fef6e8; font-weight: 600; color: #7a5400; }
+  .version { color: #888; font-family: monospace; }
+  blockquote { border-left: 4px solid #888; margin: 1em 0; padding: 0.4em 1em; color: #444; font-style: italic; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — C6 Decision Memo</h1>
+<p class="meta">Date: 2026-04-20 · Version <span class="version">2.0.0</span> · Supersedes v1.0.0 · C5 two-path rigor structure now applied · Multi-scale usability explicitly tested</p>
+
+<div class="recommendation">
+<strong>RECOMMENDATION (unchanged from v1.0.0, reasoning sharpened):</strong> <strong>Option (c-refined) — Collapse via manifestations pattern.</strong> The two-path rigor test (per C5) strengthens rather than changes this finding. Under the canonical two-path form applied across the four scales the framework claims to cover (individual / community / government / corporate), (c-refined) is the only option that passes Path 1 (Allocation Symmetry) and Path 2 (Shield Absence) at every scale. Options (a), (b), and (c) each fail at least one path at at least one scale. The execution risk from v1.0.0 — "manifestation paragraphs might be thin" — is now made measurable: a manifestation paragraph passes if it dissolves the shield at its scale, and fails otherwise. This is a pass/fail gate, not a style judgment.
+</div>
+
+<div class="supersedes">
+<strong>What this rerun changed:</strong> v1.0.0 used a ten-critic rigor battery and the Abundance Inversion Test as primary evaluations. Per C5, the canonical rigor form is now the two-path test (Allocation Symmetry + Shield Absence). This memo applies the canonical form to each of the four options across four scales, with the AIT and ten-critic findings retained as corroboration. The multi-scale caveat surfaces one new finding not present in v1.0.0 (see §4.4): <em>the older FGC taxonomy has no analog for Tier 8 (Political Capture), which means it cannot describe the shield at government scale at all.</em> This is an independent, decisive reason to reject (b) beyond anything v1.0.0 established.
+</div>
+
+<h2>1. The C6 question (brief recap)</h2>
+
+<p><code>commons_bonds_integrated_framework.html</code> carries an older individual-level 8-tier taxonomy that disagrees with the v10 canonical RCV decomposition on four of eight tiers. Full taxonomy comparison is in v1.0.0 §1. The four options under evaluation:</p>
+
+<ul>
+<li><strong>(a) Retire FGC entirely</strong> — v10 RCV only; older tier list deleted; no phenomenological preservation structure.</li>
+<li><strong>(b) Parallel layers</strong> — two canonical 8-tier decompositions coexist with separate naming.</li>
+<li><strong>(c) Reconcile as complementary lenses</strong> — both taxonomies retained with explicit mapping language.</li>
+<li><strong>(c-refined) Collapse via manifestations</strong> — RCV 8-tier only; phenomenological content absorbed into individual-scale manifestations of the six scale-locked tiers (1, 2a, 3, 5, 7, 8) already in WS02/WS03 revision.</li>
+</ul>
+
+<h2>2. The multi-scale constraint (operative)</h2>
+
+<div class="finding">
+The framework's universality claim — that the same structural logic of cost severance holds across observer scales — is not a theoretical flourish. It is an <strong>operative design requirement</strong>. The framework must be usable by:
+<ul style="margin-bottom: 0;">
+<li><span class="scale-ind">Individual scale:</span> a worker evaluating a job offer, a contractor evaluating a project, a student evaluating a career path.</li>
+<li><span class="scale-com">Community scale:</span> a commons administrator (terrestrial or Martian), a tribal council negotiating extraction rights, a municipal government managing shared resources.</li>
+<li><span class="scale-gov">Government scale:</span> a national legislature pricing externalities, a sovereign wealth fund sizing a reserve, a regulatory agency evaluating permits.</li>
+<li><span class="scale-corp">Corporate scale:</span> a board evaluating supply chain transition, a CEO deciding whether to pivot revenue streams, a sustainability officer pricing transition risk.</li>
+</ul>
+</div>
+
+<p>A framework architecture that serves one scale well but fails at another scale violates the universality claim. The C6 decision must be evaluated against all four scales simultaneously.</p>
+
+<h2>3. Method: C5 two-path rigor test (canonical form)</h2>
+
+<p>Per the C5 patch dated 2026-04-20, all future rigor tests default to the two-path structure. Restated for reference:</p>
+
+<blockquote>
+The Commons Bonds rigor test operates on two paths. <strong>Path 1 (allocation symmetry)</strong> tests whether the claim correctly identifies who captures value and who bears cost, and whether that asymmetry is structural. <strong>Path 2 (shield absence)</strong> tests whether the claim correctly identifies the distance condition that prevents the asymmetry from being recognized or corrected. A claim that passes Path 1 but not Path 2 identifies a real harm but cannot explain why it persists. A claim that passes Path 2 but not Path 1 names a structural condition but cannot locate the cost. Rigor requires both paths.
+</blockquote>
+
+<p>The C6 claim under evaluation is architectural: <em>"Option X is the right way to organize the framework's taxonomy across scales."</em> Path 1 tests whether Option X correctly locates allocation asymmetry at each scale where the framework claims to operate. Path 2 tests whether Option X correctly names the shield at each scale. An architectural option that cannot be rigor-tested at every scale it claims to serve is architecturally incomplete by the framework's own standard.</p>
+
+<h2>4. Two-path evaluation of each option</h2>
+
+<h3>4.1 Option (a) — Retire FGC entirely</h3>
+
+<div class="two-path">
+<strong>Claim:</strong> The v10 RCV taxonomy is canonical and sufficient. The older FGC tier list is deleted. No parallel phenomenological structure is preserved.
+
+<div class="path1"><strong>Path 1 — Allocation Symmetry</strong>
+<ul>
+<li><strong>Who captures value?</strong> At all four scales: extractor correctly identified by RCV structure (employer at individual, firm at community, industry at government, division/vendor at corporate).</li>
+<li><strong>Who bears cost?</strong> Cost-bearer correctly identified at each scale by RCV tiers.</li>
+<li><strong>Is the asymmetry structural?</strong> Yes — RCV derives asymmetry from allocation architecture, not individual moral failure.</li>
+<li><strong>Correct tier assignment?</strong> Yes — v10 canonical tiers already validated against AIT for each scale.</li>
+<li><strong>Path 1 verdict:</strong> <span class="vote-pass">PASS at all four scales.</span></li>
+</ul>
+</div>
+
+<div class="path2"><strong>Path 2 — Shield Absence</strong>
+<ul>
+<li><strong>What is the shield at each scale?</strong>
+ <ul>
+ <li><span class="scale-ind">Individual:</span> <em>epistemic</em> — the worker cannot perceive the tiers they are bearing without a description of how those tiers manifest in their own life.</li>
+ <li><span class="scale-com">Community:</span> institutional + demographic — the community may know but cannot act without institutional vehicles.</li>
+ <li><span class="scale-gov">Government:</span> political (Tier 8 active).</li>
+ <li><span class="scale-corp">Corporate:</span> fiduciary + legal — corporate governance prohibits voluntary acceptance of unpriced costs.</li>
+ </ul>
+</li>
+<li><strong>Is the shield structural at each scale?</strong> Yes at community, government, corporate — the shield persists even with full knowledge. <strong>Partially at individual</strong> — the individual-scale shield is epistemic and is dissolved by naming. Without the naming, the individual cannot apply the framework to their own situation.</li>
+<li><strong>Under (a):</strong> The RCV taxonomy describes the shield at community, government, and corporate scales cleanly. At individual scale, (a) deletes the only vehicle the framework has for naming the phenomenological tier-specific content — which <em>is</em> the shield-dissolution mechanism at individual scale. The framework continues to describe the shield elsewhere, but loses the mechanism that makes the framework recognizable to an individual reader applying it to their own job, contract, or career.</li>
+<li><strong>Path 2 verdict:</strong>
+ <ul>
+ <li><span class="scale-ind">Individual:</span> <span class="vote-fail">FAIL</span> — shield not dissolved; framework becomes unusable at individual scale.</li>
+ <li><span class="scale-com">Community, Government, Corporate:</span> <span class="vote-pass">PASS</span></li>
+ </ul>
+</li>
+</ul>
+</div>
+
+<div class="fail"><strong>Overall verdict for (a): FAIL</strong> — Path 2 fails at individual scale. (a) cannot serve a worker evaluating a job offer or a student evaluating a career, because the shield at that scale is epistemic and (a) removes the only shield-dissolution vehicle the framework had. The framework would become a policy instrument and nothing more. Given the operative multi-scale constraint, (a) is disqualified.</div>
+</div>
+
+<h3>4.2 Option (b) — Parallel layers</h3>
+
+<div class="two-path">
+<strong>Claim:</strong> Two canonical 8-tier decompositions coexist — RCV (structural) and FGC (individual/phenomenological) — with separate glossary entries and separate citations.
+
+<div class="path1"><strong>Path 1 — Allocation Symmetry</strong>
+<ul>
+<li><strong>Who captures value?</strong> Identified — but under <em>which</em> taxonomy? Parallel taxonomies disagree on four of eight tiers.</li>
+<li><strong>Who bears cost?</strong> Same problem — cost is locatable in RCV but also locatable in FGC, at different tiers, sometimes with different implied cost-bearers.</li>
+<li><strong>Is the asymmetry structural?</strong> Partially — the older FGC taxonomy includes phenomenological categories ("Existential/Meaning Cost") that fail AIT and thus cannot be grounded structurally.</li>
+<li><strong>Correct tier assignment?</strong> <strong>Ambiguous by design.</strong> Every claim can be assigned to a tier in RCV and to a different tier in FGC. The tier assignment is not wrong; it is indeterminate.</li>
+<li><strong>Path 1 verdict:</strong> <span class="vote-fail">FAIL at all four scales.</span> Indeterminate tier assignment is a Path 1 failure per the C5 criteria.</li>
+</ul>
+</div>
+
+<div class="path2"><strong>Path 2 — Shield Absence</strong>
+<ul>
+<li><strong>What is the shield?</strong> Under (b), a <em>new shield is created by the architecture itself</em>: the ability to switch taxonomies when one fails to fit a case. A claim that cost severance did not occur under RCV tier N can be rescued by locating it under FGC tier M, and vice versa.</li>
+<li><strong>Is the shield structural?</strong> Yes — the shield is structural to the framework's own architecture. This is the worst kind of Path 2 failure, because the architecture of the rigor test is itself becoming the shield.</li>
+<li><strong>Additionally — multi-scale coverage:</strong> The older FGC has no analog for Tier 8 (Political Capture). FGC is purely individual/phenomenological. At government scale, where Path 2 requires naming the political shield (Tier 8), FGC is silent. This means (b) cannot describe the shield at government scale using the FGC taxonomy — the parallel layer has a structural gap at the scale where the shield is most important to name.</li>
+<li><strong>Path 2 verdict:</strong> <span class="vote-fail">FAIL at all four scales.</span> Switch-arguing shield at individual, community, corporate. Taxonomic silence on Tier 8 at government scale.</li>
+</ul>
+</div>
+
+<div class="fail"><strong>Overall verdict for (b): FAIL</strong> — both paths fail. (b) not only fails the rigor test; it introduces a new Path 2 violation the framework did not previously have. The framework becomes unfalsifiable by taxonomy-switching, and FGC's missing Tier 8 analog means the framework cannot name the shield at the scale where political capture operates. (b) is structurally incompatible with the framework's own standards.</div>
+</div>
+
+<h3>4.3 Option (c) — Reconcile as complementary lenses</h3>
+
+<div class="two-path">
+<strong>Claim:</strong> Both taxonomies retained with explicit mapping language describing how each FGC tier relates to each RCV tier; both are co-canonical.
+
+<div class="path1"><strong>Path 1 — Allocation Symmetry</strong>
+<ul>
+<li><strong>Same problems as (b):</strong> Two parallel tier structures, disagreeing on four of eight categories. Mapping language does not resolve the tier assignment ambiguity — it documents it.</li>
+<li>If the mapping is 1:1 and lossless, the older FGC taxonomy adds nothing and can be retired (i.e., (c) collapses to (a) or (c-refined)). If the mapping is lossy or many-to-many, the tier assignment remains ambiguous, and Path 1 continues to fail.</li>
+<li><strong>Path 1 verdict:</strong> <span class="vote-fail">FAIL at all four scales.</span></li>
+</ul>
+</div>
+
+<div class="path2"><strong>Path 2 — Shield Absence</strong>
+<ul>
+<li>The switch-arguing shield is slightly weaker than under (b), because mapping language constrains which swaps are licit. But any non-1:1 mapping still permits shield-via-reframing at the boundaries.</li>
+<li>The Tier 8 silence in FGC is unchanged — mapping language cannot manufacture a tier that FGC does not contain.</li>
+<li><strong>Path 2 verdict:</strong> <span class="vote-fail">FAIL at government scale (Tier 8 silence), CONDITIONAL at other scales</span> (depends on mapping fidelity).</li>
+</ul>
+</div>
+
+<div class="fail"><strong>Overall verdict for (c): FAIL</strong> — reconciliation without commitment. If the mapping is tight, (c) reduces to (c-refined); if loose, (c) reproduces (b)'s failures. Either way, the parallel-layer status is not structurally defensible under the two-path test.</div>
+</div>
+
+<h3>4.4 Option (c-refined) — Collapse via manifestations</h3>
+
+<div class="two-path">
+<strong>Claim:</strong> RCV 8-tier is canonical. Each of the six scale-locked tiers (1, 2a, 3, 5, 7, 8) has a scale-abstract core definition plus a manifestations paragraph covering individual, community, firm, and government registers. The older FGC content is preserved inside the individual-scale manifestations. FGC is retained only as an umbrella term for the sum of all tiers. There is one taxonomy.
+
+<div class="path1"><strong>Path 1 — Allocation Symmetry</strong>
+<ul>
+<li><strong>Who captures value at each scale?</strong> Single canonical taxonomy; extractor correctly identified per scale via RCV structure.</li>
+<li><strong>Who bears cost at each scale?</strong> Single canonical tier assignment per scale via scale-abstract tier + manifestation.</li>
+<li><strong>Is the asymmetry structural?</strong> Yes — RCV grounds asymmetry in allocation structure. Manifestations explicate how the structure surfaces at each scale without introducing new tier categories.</li>
+<li><strong>Correct tier assignment?</strong> Unambiguous — one taxonomy, one tier per category, scale-specific manifestations as prose not as competing tiers.</li>
+<li><strong>Path 1 verdict:</strong> <span class="vote-pass">PASS at all four scales.</span></li>
+</ul>
+</div>
+
+<div class="path2"><strong>Path 2 — Shield Absence</strong>
+<ul>
+<li><strong>What is the shield at each scale?</strong>
+ <ul>
+ <li><span class="scale-ind">Individual:</span> epistemic — dissolved by the individual-scale manifestation paragraph, which names the tier's content in terms the reader can recognize in their own job/contract/career.</li>
+ <li><span class="scale-com">Community:</span> institutional + demographic — named in Tier 5 (Community Transition Reserve) and Tier 7 (Knowledge/Culture) community-scale manifestations.</li>
+ <li><span class="scale-gov">Government:</span> political — Tier 8 (Political Capture) is already canonical and explicitly describes the government-scale shield as recursive (Tier 8 costs imposed by the party benefiting from the shield).</li>
+ <li><span class="scale-corp">Corporate:</span> fiduciary + legal — named in the firm-scale manifestation paragraph for each tier, specifically Tier 4 (Foreclosure) and Tier 8 (Political Capture).</li>
+ </ul>
+</li>
+<li><strong>Is the shield structural at each scale?</strong> Yes at all four. Each manifestation paragraph describes why the shield persists at that scale even with knowledge.</li>
+<li><strong>Path 2 verdict:</strong> <span class="vote-pass">PASS at all four scales — conditional on manifestation quality (see §7).</span></li>
+</ul>
+</div>
+
+<div class="pass"><strong>Overall verdict for (c-refined): PASS</strong> — both paths clear at all four scales, conditional on the execution gate described in §7. This is the only option that passes the two-path test across the operative scale range.</div>
+</div>
+
+<h2>5. The Tier 8 finding (new in v2.0.0)</h2>
+
+<div class="finding">
+Running Path 2 at government scale surfaced a finding v1.0.0 did not reach: <strong>the older FGC taxonomy has no analog for Tier 8 (Political Capture).</strong> FGC is phenomenological — it describes what the individual worker or community experiences. Political capture is not a phenomenological category; it is an institutional one. FGC does not — cannot, by its own organizing principle — name the shield at government scale.
+
+<p style="margin-top: 0.75em;">This is decisive for the options that retain FGC as a parallel layer. Under (b) or (c), the framework ships with two taxonomies where one (FGC) is structurally incapable of describing the shield at the scale where political capture operates. This is not a style issue or a completeness issue. It is a categorical limitation of the phenomenological taxonomy — and it means (b) and (c) fail Path 2 at government scale for reasons that cannot be fixed within those options. Only an option that retires FGC as a parallel tier structure (a or c-refined) avoids this problem.</p>
+
+<p style="margin-top: 0.75em;">The C5 patch is explicit on this: "Tier 8 (Political Capture) is the institutional mechanism by which the shield is legislated rather than merely structural." A taxonomy without Tier 8 cannot perform Path 2 at government scale. Period.</p>
+</div>
+
+<h2>6. Multi-scale usability matrix</h2>
+
+<p>Summarizing the two-path test results against the multi-scale constraint:</p>
+
+<table>
+<tr><th>Option</th><th><span class="scale-ind">Individual</span></th><th><span class="scale-com">Community</span></th><th><span class="scale-gov">Government</span></th><th><span class="scale-corp">Corporate</span></th><th>Overall</th></tr>
+<tr><td><strong>(a) Retire FGC</strong></td><td class="vote-fail">FAIL (Path 2)</td><td class="vote-pass">PASS</td><td class="vote-pass">PASS</td><td class="vote-pass">PASS</td><td class="vote-fail">FAIL</td></tr>
+<tr><td><strong>(b) Parallel layers</strong></td><td class="vote-fail">FAIL (P1+P2)</td><td class="vote-fail">FAIL (P1+P2)</td><td class="vote-fail">FAIL (P1+P2)</td><td class="vote-fail">FAIL (P1+P2)</td><td class="vote-fail">FAIL</td></tr>
+<tr><td><strong>(c) Vague reconcile</strong></td><td class="vote-partial">CONDITIONAL</td><td class="vote-partial">CONDITIONAL</td><td class="vote-fail">FAIL (P2)</td><td class="vote-partial">CONDITIONAL</td><td class="vote-fail">FAIL</td></tr>
+<tr><td><strong>(c-refined) Collapse via manifestations</strong></td><td class="vote-pass">PASS*</td><td class="vote-pass">PASS*</td><td class="vote-pass">PASS*</td><td class="vote-pass">PASS*</td><td class="vote-pass">PASS*</td></tr>
+</table>
+
+<p style="font-size: 0.88em; color: #555;">*Conditional on the manifestation paragraph execution gate described in §7. The conditional is measurable, not atmospheric: each manifestation either dissolves the shield at its scale or does not.</p>
+
+<h2>7. Execution gate (making the conditional measurable)</h2>
+
+<div class="watch">
+<strong>The execution risk flagged in v1.0.0 is now testable.</strong> The worry was that (c-refined)'s manifestation paragraphs could collapse into (a) if written thinly. Under the two-path test, this worry has a specific operational form:
+
+<p style="margin-top: 0.6em;"><strong>Gate:</strong> Each manifestation paragraph passes the execution gate if, when read on its own, it permits a reader at that scale to name the shield at that scale and see how it operates in a situation they would actually encounter.</p>
+
+<p style="margin-top: 0.6em;"><strong>Concretely, for each of the six scale-locked tiers (1, 2a, 3, 5, 7, 8), each scale-specific manifestation paragraph should enable:</strong></p>
+
+<table>
+<tr><th>Scale</th><th>A reader at this scale can...</th><th>Example test</th></tr>
+<tr><td><span class="scale-ind">Individual</span></td><td>Identify whether they, personally, are bearing this tier of cost in their current or prospective job/contract/career.</td><td>A nurse reading Tier 1 individual-scale manifestation should recognize latent cardiovascular/burnout trajectory as Lifetime Survival Cost — and see that the employer is not pricing it.</td></tr>
+<tr><td><span class="scale-com">Community</span></td><td>Identify whether their community is bearing this tier and where the uncaptured cost is accumulating.</td><td>A McDowell County official reading Tier 5 community-scale manifestation should be able to cost the transition reserve that was never set aside.</td></tr>
+<tr><td><span class="scale-gov">Government</span></td><td>Identify the regulatory or fiscal instrument that would price this tier and the political shield preventing it.</td><td>A Virginia legislator reading Tier 8 government-scale manifestation should see specifically which accounting rule or regulatory exemption encodes the shield.</td></tr>
+<tr><td><span class="scale-corp">Corporate</span></td><td>Identify whether a supply chain, product line, or revenue stream is capturing value via an unpriced tier, and what a transition would cost.</td><td>A corporate sustainability officer reading Tier 6 firm-scale manifestation should be able to ballpark ecological carrying cost of a given extraction contract.</td></tr>
+</table>
+
+<p style="margin-top: 0.6em;"><strong>If a manifestation paragraph does not pass this test at its scale, (c-refined) has collapsed into (a) at that scale for that tier — and the Path 2 shield dissolution has failed at that scale for that tier.</strong> The gate is objective: either a reader at the scale can perform the identification, or they cannot.</p>
+
+<p style="margin-top: 0.6em;"><strong>Mitigation:</strong> During WS02/WS03 execution, each manifestation paragraph is drafted with a named exemplar reader at the target scale in mind (the nurse, the McDowell official, the legislator, the sustainability officer). The draft passes when a reader of that description can perform the identification described above.</p>
+</div>
+
+<h2>8. AIT and ten-critic findings (corroboration, condensed)</h2>
+
+<p>The v1.0.0 findings remain valid and are corroborative of the two-path result:</p>
+
+<div class="ait">
+<strong>AIT:</strong> Three of four non-mapping FGC tiers (Relationship/Family, Opportunity, Existential/Meaning) fail the Abundance Inversion Test; the fourth (Immediate Survival) is redundant with Tier 1. The older FGC taxonomy was not built using AIT methodology and cannot survive the framework's own falsifiability standard. This independently disqualifies (b) and (c) and corroborates the two-path finding.
+</div>
+
+<div class="supersedes">
+<strong>Ten-critic scoreboard (from v1.0.0):</strong> (a) 8 accept / 2 reject · (b) 2 accept / 8 reject · (c) 2 accept / 8 reject · (c-refined) 10 accept (1 execution-risk, now measurable per §7). The two-path test converts the "execution-risk" from a soft concern into a pass/fail gate per manifestation paragraph. This is a tightening, not a reversal.
+</div>
+
+<h2>9. Success criteria alignment (unchanged, confirmed)</h2>
+
+<p>Per <code>commons-bonds-success-criteria_11.html</code>, (c-refined) serves all four realistic success outcomes and satisfies the "when in doubt, trim" heuristic. The multi-scale caveat reinforces rather than disturbs this: if the framework must be usable by individuals, communities, governments, and corporations, (c-refined) is the only option that passes the rigor test at all four.</p>
+
+<p>The single-sentence benchmark (labor lawyer uses "severed cost" in a brief without explanation, ten years from now) is best served by (c-refined) because a single taxonomy with scale-specific manifestations is what produces portable vocabulary. Two taxonomies dilute the citation slot; one taxonomy with prose texture at each scale is what travels.</p>
+
+<h2>10. Implementation plan (updated from v1.0.0)</h2>
+
+<h3>10.1 File-level actions (updated)</h3>
+
+<table>
+<tr><th>File</th><th>Action</th><th>Status</th></tr>
+<tr><td><code>commons_bonds_integrated_framework.html</code></td><td>Remove the individual 8-tier list. Replace with reconciliation paragraph (draft in v1.0.0 §7.3). Retain convergence tables. Move to <code>core/</code>.</td><td>C6 patch — to produce on ratification</td></tr>
+<tr><td>WS02 / WS03 manifestation paragraphs for Tiers 1, 2a, 3, 5, 7, 8</td><td>Draft each scale-specific manifestation paragraph with a named exemplar reader at the target scale. Apply the §7 execution gate before finalizing.</td><td>In progress per memory; gate now defined</td></tr>
+<tr><td><code>commons-bonds-rigor-test.docx</code> (D3)</td><td>When converting, apply C5 two-path template as canonical header, per C5 patch.</td><td>Pending D3 conversion</td></tr>
+<tr><td><code>commons-bonds-rigor-testing-roles.html</code> (B2)</td><td>When converting, reference the two-path structure and confirm role assignments across Path 1 / Path 2.</td><td>Pending B2 conversion</td></tr>
+<tr><td>Glossary (<code>commons_bonds_updated_glossary_v2.html</code>)</td><td>Retain FGC umbrella definition; no tier-level FGC entries. Verify C3 patches 4A/4B/4C do not reintroduce stale FGC tier names.</td><td>Verify on next glossary open</td></tr>
+<tr><td>Technical Appendix</td><td>No change required.</td><td>No action</td></tr>
+<tr><td>Chapters 1–10 audit</td><td>Audit for stale FGC tier labels used as tier references (not as prose). Replace with RCV tier name + individual-scale manifestation prose.</td><td>Audit task; low volume expected</td></tr>
+</table>
+
+<h3>10.2 Completion criteria for C6</h3>
+
+<p>C6 is complete when:</p>
+
+<ul>
+<li>[ ] <code>commons_bonds_integrated_framework.html</code> no longer contains the older individual 8-tier list as a canonical structure.</li>
+<li>[ ] The reconciliation paragraph is in place, explicitly superseding the older taxonomy and pointing to <code>eight-tier-v10.html</code>.</li>
+<li>[ ] WS02/WS03 manifestation paragraphs for the six scale-locked tiers pass the §7 execution gate at all four scales — i.e., a named exemplar reader at each scale can perform the identification described.</li>
+<li>[ ] Ch1–10, Glossary, and Tech Appendix audited; no stale FGC tier labels used as tier references.</li>
+<li>[ ] C6 is marked PATCH PRODUCED in the next session handoff (v1.18.0), joining C1–C5 in the manual-apply queue.</li>
+</ul>
+
+<h2>11. Next actions (awaiting confirmation)</h2>
+
+<ol>
+<li><strong>Ratify (c-refined)</strong> as the C6 resolution on the strength of the two-path test. (Same recommendation as v1.0.0; sharper reasoning; one new decisive finding at §5.)</li>
+<li><strong>Produce the C6 patch</strong> — the specific edit to <code>commons_bonds_integrated_framework.html</code>. Draft reconciliation paragraph already in v1.0.0 §7.3 and quoted inline in §10 of this memo.</li>
+<li><strong>Produce the §7 execution gate as a standalone checklist</strong> (separate short file) that can be applied to each manifestation paragraph as it is drafted in WS02/WS03. Optional but recommended.</li>
+<li><strong>Fold the Tier 8 finding (§5) into C3 patch notes</strong> if not already — it is an independent reason to retire FGC as a parallel taxonomy and may strengthen the mechanism/shield language in Ch2, Ch6, Ch10.</li>
+<li><strong>Mark C6 in v1.18.0 handoff as PATCH PRODUCED</strong> once ratified.</li>
+</ol>
+
+<h2>12. Summary of what v2.0.0 changed from v1.0.0</h2>
+
+<ul>
+<li><strong>Methodology:</strong> Canonical two-path rigor test (C5) now applied. Ten-critic and AIT retained as corroboration rather than as primary evaluations.</li>
+<li><strong>Multi-scale explicit:</strong> Each option evaluated at individual, community, government, corporate. Previously individual scale was implicit.</li>
+<li><strong>New finding (§5):</strong> FGC has no analog for Tier 8. This means (b) and (c) fail Path 2 at government scale for reasons that cannot be fixed within those options. This is an independent decisive finding.</li>
+<li><strong>Execution gate (§7):</strong> The v1.0.0 "execution risk" is converted to a measurable pass/fail per manifestation paragraph. The gate is a reader-at-scale identification test, not a style judgment.</li>
+<li><strong>Recommendation unchanged:</strong> (c-refined). Reasoning sharpened and rigor-tested by the framework's own canonical test. Confidence higher.</li>
+</ul>
+
+<p class="meta">End of C6 Decision Memo v2.0.0. Two-path rigor + AIT + ten-critic + multi-scale usability + success criteria all converge on (c-refined). Recommended for ratification. C6 patch ready to draft on confirmation.</p>
+
+</body>
+</html>
