@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-20 · v1.18.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  h4 { font-size: 0.95em; margin-top: 1.2em; font-weight: 600; color: #444; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .content-work { background: #f4f0fb; border-left: 3px solid #6a4c9c; padding: 0.75em 1em; margin: 1em 0; }
+  .decision { background: #fff4e6; border-left: 3px solid #cc7700; padding: 0.75em 1em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done { color: #1a6a2a; font-weight: 600; }
+  .pending { color: #a2260b; font-weight: 600; }
+  .keep { color: #004a80; font-weight: 600; }
+  .skip { color: #666; font-style: italic; }
+  .version { color: #888; font-family: monospace; }
+  .new { color: #6a4c9c; font-weight: 600; }
+  .partial { color: #7a5400; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-20 · Version <span class="version">1.18.0</span> · Supersedes v1.17.0 · C6 decision memo produced (v1.0.0 + v2.0.0) · Rigor protocol concept ratified as canonical doc needed</p>
+
+<div class="status">
+<strong>STATUS:</strong> Session focused on resolving C6 (integrated framework taxonomy reconciliation). Two decision memos produced: v1.0.0 using ten-critic + AIT methodology, then v2.0.0 applying the C5 two-path rigor test and multi-scale caveat that user flagged as missing in v1.0.0. Recommendation confirmed (c-refined). New finding in v2.0.0: older FGC has no Tier 8 analog — decisive, independent reason to reject (b) and (c). C6 awaiting explicit ratification before patch drafting. <strong>Major action item surfaced:</strong> user identified need for a canonical Commons Bonds Rigor Protocol that consolidates AIT + two-path + multi-scale + ten-critic + success criteria into a single reusable document uploaded at session start for testing major decisions and claims. This is flagged as top priority for next session to prevent concept loss.
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY FOR NEXT SESSION — Commons Bonds Rigor Protocol (canonical doc to create)</h2>
+
+<p><strong>User ask:</strong> Produce a canonical document that consolidates every rigor test the project has been running ad-hoc across sessions into a single reusable protocol. Upload at the start of any session where a major decision or claim needs testing. The protocol is to be treated as a canonical methodology document alongside <code>eight-tier-v10.html</code> and the C5 patch.</p>
+
+<p><strong>Components to integrate:</strong></p>
+<ol>
+<li><strong>AIT falsifiability gate</strong> (from <code>eight-tier-v10.html</code>) — does the claim/tier survive abundance stripping?</li>
+<li><strong>C5 two-path test</strong> — Path 1: Allocation Symmetry · Path 2: Shield Absence (canonical form in <code>commons-bonds-c5-two-path-rigor.md</code>).</li>
+<li><strong>Multi-scale application</strong> — individual / community / government / corporate. Per user caveat: "this framework if done well should be useable for an individual considering a job/contract or even a career path. Just as much as it should be valuable for a community administrator on Mars, a Government managing a commons, or a corporation evaluating if they should be transitioning their revenue streams and/or their supply chain to something different."</li>
+<li><strong>Ten-critic steelman battery</strong> (standing subset from <code>rigor-testing-roles.html</code> validated in <code>eight-tier-v10.html</code>: Academic Economist, Analytic Philosopher, AI Adversary, Writerly Editor, Future-Proofer, Novelty Critic, Falsifiability, Completeness, Libertarian, Leftist).</li>
+<li><strong>Success criteria alignment</strong> (from <code>commons-bonds-success-criteria_11.html</code>) — does the claim/decision serve vocabulary portability, individual applicability, community usability, and next-gen scholarship?</li>
+</ol>
+
+<p><strong>Scoping questions posed to user at end of session — AWAITING ANSWERS:</strong></p>
+
+<table>
+<tr><th>Q</th><th>Question</th><th>Claude's recommendation</th></tr>
+<tr><td>Q1</td><td>Should the protocol integrate all five tests as one sequential battery, or preserve them as modular with a routing rule at the top (different claim types trigger different tests)?</td><td><strong>Modular with routing rule.</strong> Not every decision needs every test. Tier-level claims → AIT + two-path + multi-scale. Architectural claims → two-path + multi-scale + ten-critic + success criteria. Stakeholder-facing claims → two-path + ten-critic with stakeholder critic sub-battery.</td></tr>
+<tr><td>Q2</td><td>Relationship to D3 (<code>commons-bonds-rigor-test.docx</code>) and B2 (<code>commons-bonds-rigor-testing-roles.html</code>) — should the new protocol supersede, absorb, or sit parallel?</td><td><strong>Absorb (option b).</strong> Ten-critic content from B2 folds into the protocol's "ten-critic battery" section. D3 (pending conversion) becomes an applications/examples archive. One canonical rigor document is easier to maintain and cite than three.</td></tr>
+<tr><td>Q3</td><td>Format: methodology document only, or methodology + fill-in template?</td><td><strong>Methodology + fill-in template (option ii).</strong> Reusability is the point. A blank template at the end makes the protocol self-applying when the user uploads it for a new decision.</td></tr>
+<tr><td>Q4</td><td>Name and versioning?</td><td><strong><code>commons_bonds_rigor_protocol_1_0_0.html</code></strong> is cleanest. Alternatives considered: <code>commons_bonds_canonical_rigor_test_1_0_0.html</code>, <code>commons_bonds_decision_rigor_protocol_1_0_0.html</code>.</td></tr>
+<tr><td>Q5</td><td>Critic battery: ten-critic canonical subset only, or include all twenty critics from B2?</td><td><strong>Two-tier structure.</strong> Ten-critic validated subset (from <code>eight-tier-v10.html</code>) is the standing battery. Remaining ten critics from B2 (stakeholder critics, structural critics, meta-critics) available as an <em>optional extended battery</em> for specific claim types — stakeholder critics for public-facing arguments, methodological/scientific-standards critics for peer-review contexts. Matches how the framework is already being applied in practice; makes the two-tier structure explicit.</td></tr>
+</table>
+
+<p><strong>Proposed next-session workflow once protocol exists:</strong> user uploads <code>commons_bonds_rigor_protocol_1_0_0.html</code> + relevant context at session start → any decision or claim gets routed through applicable gates → results documented in the standard form → handoff references the test record. The C6 memo v2.0.0 serves as the first worked example and should be referenced in the protocol as such.</p>
+
+<p><strong>Why this is top priority:</strong> Without this canonical doc, every new major claim requires re-deriving the methodology from scratch (as happened this session with C6, which got redone from v1.0.0 to v2.0.0 because C5 wasn't applied the first time). The user flagged this explicitly: "This is too important to the project to lose."</p>
+</div>
+
+<div class="resume">
+<strong>PROMPT SNIPPET FOR NEXT SESSION:</strong><br>
+Read the handoff <code>commons-bonds-session-handoff-2026-04-20_1.18.0.html</code>. Top priority is the canonical rigor protocol — user has provided the scoping direction implicitly via session context; Claude should (a) confirm the Q1–Q5 recommendations in the handoff or request modifications, (b) produce <code>commons_bonds_rigor_protocol_1_0_0.html</code> as the integrated canonical doc, (c) reference C6 memo v2.0.0 as the first worked example. After protocol ships: resume C6 ratification + patch drafting if user confirms (c-refined). Remaining conversions pending: B1–B4 · ~25 Group C · 7 Group D. Patches C1–C5 + C6 (on ratification) pending manual GitHub application.
+</div>
+
+<h2>What changed v1.17.0 → v1.18.0</h2>
+<ul>
+  <li><strong>C6 decision memo v1.0.0 produced:</strong> <code>commons_bonds_c6_decision_memo_1_0_0.html</code> — 33,395 chars. Ten-critic rigor battery + AIT gatekeeping + mechanism/shield architecture + success criteria. Recommended (c-refined): collapse FGC into RCV via manifestations pattern. Found: 3 of 4 non-mapping FGC tiers fail AIT; ten-critic scoring favors (c-refined) 10-0 with one execution-dependent vote.</li>
+  <li><strong>Asymmetric rigor flagged by user:</strong> v1.0.0 was produced without the C5 two-path patch having been applied. User uploaded <code>commons-bonds-c5-two-path-rigor.md</code> and requested a rerun. Confirmed no sequential dependency — C5 target files (D3, B2, WS06, WS14) were not blockers because the canonical two-path template was self-contained in the patch.</li>
+  <li><strong>C6 decision memo v2.0.0 produced:</strong> <code>commons_bonds_c6_decision_memo_2_0_0.html</code> — 32,268 chars. Canonical C5 two-path test now applied. Multi-scale caveat (individual/community/government/corporate) explicitly tested per user's architectural requirement. Recommendation (c-refined) confirmed with sharper reasoning.</li>
+  <li><strong>New finding in v2.0.0 (§5 of that memo):</strong> The older individual FGC taxonomy has no analog for Tier 8 (Political Capture). FGC is phenomenological; political capture is institutional — FGC cannot describe the shield at government scale. This is an <em>independent decisive reason</em> to reject (b) and (c) beyond anything v1.0.0 established. Cannot be fixed within (b) or (c). Candidate for folding into C3 patch notes (mechanism/shield architecture work for Ch2, Ch6, Ch10) as pedagogical illustration of why mechanism and shield must be distinguished.</li>
+  <li><strong>§7 execution gate in v2.0.0:</strong> v1.0.0's "manifestation paragraphs might be thin" soft worry converted to a measurable pass/fail per paragraph. A manifestation paragraph passes if a named exemplar reader at its scale (nurse / McDowell official / legislator / sustainability officer) can identify whether they are bearing that tier's cost and see how the shield operates. Not a style judgment.</li>
+  <li><strong>Rigor protocol concept ratified as canonical doc needed:</strong> User asked what "§7 execution-gate checklist" meant. Claude clarified: the gate was narrow (manifestation QA only). User redirected to the larger, correct move: consolidate AIT + two-path + multi-scale + ten-critic + success criteria into a single canonical rigor protocol. See top-priority section above.</li>
+  <li><strong>No conversions this session.</strong> B1–B4, Group C, Group D conversion queue unchanged from v1.17.0.</li>
+</ul>
+
+<h2>C6 current state</h2>
+
+<div class="decision">
+<ul style="margin: 0.5em 0 0 0;">
+<li><strong>Recommendation:</strong> (c-refined) — collapse FGC into RCV via manifestations pattern. RCV 8-tier canonical; FGC retained as umbrella term only; older 8-tier list retired; phenomenological content preserved inside scale-abstract manifestations of Tiers 1, 2a, 3, 5, 7, 8 (already in WS02/WS03 queue).</li>
+<li><strong>Rigor basis:</strong> Passes canonical C5 two-path test at all four scales (individual / community / government / corporate). Passes AIT. Passes ten-critic battery 10-0 with measurable execution gate. Satisfies all four success criteria. Satisfies mechanism/shield architecture.</li>
+<li><strong>Awaiting:</strong> Explicit user ratification. Memo v2.0.0 is the current canonical analysis; v1.0.0 is superseded but retained for historical record (showed the progression of reasoning).</li>
+<li><strong>On ratification:</strong> Produce C6 patch — the specific edit text for <code>commons_bonds_integrated_framework.html</code>. Draft reconciliation paragraph exists in v1.0.0 §7.3 and v2.0.0 §10. Joins C1–C5 in manual-apply queue.</li>
+<li><strong>Optional follow-ons:</strong> (1) Fold Tier 8 finding into C3 patch notes as pedagogical illustration; (2) Produce §7 execution-gate checklist as standalone short file for WS02/WS03 manifestation QA — <em>but this is now subsumed under the larger rigor protocol deliverable described in the top-priority section.</em></li>
+</ul>
+</div>
+
+<h2>Pending content work</h2>
+<div class="content-work">
+<table>
+<tr><th>#</th><th>Task</th><th>Scope</th><th>Status</th></tr>
+<tr><td>C1</td><td>Tier 2a rename: "Individual Risk Cost" → "Actuarial Risk Cost"</td><td>WS02, WS03, Glossary, Tech Appendix</td><td class="done">PATCH PRODUCED v1.12.0 — apply manually to GitHub</td></tr>
+<tr><td>C2</td><td>Six-tier scale-abstract core + manifestations (Tiers 1, 2a, 3, 5, 7, 8)</td><td>WS02/WS03</td><td class="done">PATCH PRODUCED v1.13.0 — apply manually to GitHub</td></tr>
+<tr><td>C3</td><td>Mechanism/shield architecture distinction</td><td>Ch. 2, 6, 10, WS02 Glossary, WS08 Tech Appendix</td><td class="done">PATCH PRODUCED v1.15.0 — apply manually to GitHub. See <code>c3_mechanism_shield_patch.md</code>. <strong>Candidate addendum: Tier 8 finding from C6 v2.0.0 §5.</strong></td></tr>
+<tr><td>C4</td><td>Decision A ripple — ratification note to all WS01–17</td><td>WS01–17</td><td class="done">PATCH PRODUCED v1.13.0 — apply manually to GitHub</td></tr>
+<tr><td>C5</td><td>Rigor test two-path structure</td><td>D3, B2, WS06, WS14</td><td class="done">PATCH PRODUCED v1.13.0 — apply during D3/B2 conversions. <strong>Canonical form applied in C6 memo v2.0.0 as first worked example.</strong></td></tr>
+<tr><td>C6</td><td>Integrated framework tier names — update old taxonomy → v10 canonical</td><td><code>commons_bonds_integrated_framework.html</code></td><td class="partial">DECISION MEMO v2.0.0 PRODUCED · Awaiting ratification · Patch draft ready on confirmation</td></tr>
+</table>
+</div>
+
+<h2>Files produced this session</h2>
+<table>
+<tr><th>File</th><th>Format</th><th>Chars</th><th>Description</th><th>CSS leaks</th></tr>
+<tr><td><code>commons_bonds_c6_decision_memo_1_0_0.html</code></td><td>.html</td><td>33,395</td><td>C6 decision memo — ten-critic + AIT analysis, recommended (c-refined). <strong>Superseded by v2.0.0</strong> but retained for historical record.</td><td>N/A (HTML)</td></tr>
+<tr><td><code>commons_bonds_c6_decision_memo_2_0_0.html</code></td><td>.html</td><td>32,268</td><td>C6 decision memo — canonical C5 two-path + multi-scale + AIT + ten-critic corroboration. <strong>Current canonical analysis.</strong> Includes Tier 8 finding.</td><td>N/A (HTML)</td></tr>
+<tr><td><code>commons-bonds-session-handoff-2026-04-20_1.18.0.html</code></td><td>.html</td><td>—</td><td>This handoff file</td><td>—</td></tr>
+</table>
+
+<h2>Chapter writing status (unchanged from v1.17.0)</h2>
+<table>
+<tr><th>Ch</th><th>Title</th><th>Guidance doc</th><th>Prose draft</th><th>Status</th></tr>
+<tr><td>1</td><td>The Plane</td><td><span class="done">A1 done</span> — <code>Chapter__1_ThePlane.md</code></td><td>None — personal narrative (author only)</td><td class="pending">Write: personal story only, scaffold complete</td></tr>
+<tr><td>2</td><td>The Miner</td><td><span class="done">A2 done</span> — <code>Chapter__2_TheMiner_GuidanceDoc.md</code></td><td><span class="done">Done</span> — <code>Chapter__2_TheMiner_Draft.md</code></td><td class="partial">C3 patch 3 to apply on next open; 3 [INTERVIEW NEEDED] slots remain</td></tr>
+<tr><td>3</td><td>The Waterman</td><td><span class="done">A3 done</span> — <code>Chapter__3_TheWaterman.md</code></td><td>None — needs waterman interviews</td><td class="pending">Blocked on interviews</td></tr>
+<tr><td>4</td><td>The Existence Proof</td><td><span class="done">A5 done</span></td><td><span class="done">A4 done</span></td><td class="done">Both files converted. No patches pending.</td></tr>
+<tr><td>5</td><td>The Accountability Gap</td><td><span class="done">A6 done v1.17.0</span></td><td><span class="done">A7 done v1.17.0</span></td><td class="done">Both files converted.</td></tr>
+<tr><td>6</td><td>Three Ways of Counting</td><td><span class="done">Confirmed v1.15.0</span></td><td><span class="keep">KEEP .html</span> (math)</td><td class="keep">C3 patch 2 to apply</td></tr>
+<tr><td>7</td><td>The Colony Administrator</td><td><span class="done">Done v1.16.0</span></td><td><span class="done">Done v1.16.0</span></td><td class="done">Both files converted.</td></tr>
+<tr><td>8</td><td>What Things Actually Cost</td><td>None</td><td><span class="done">A8 done v1.17.0</span></td><td class="done">Draft converted.</td></tr>
+<tr><td>9</td><td>The Renewable Imperative</td><td><span class="done">Done v1.17.0</span></td><td><span class="done">A9 done v1.17.0</span></td><td class="done">Both files converted.</td></tr>
+<tr><td>10</td><td>Common Bonds</td><td><span class="done">Done v1.15.0</span></td><td><span class="done">Done v1.15.0</span></td><td class="partial">C3 patches 1A–1D to apply</td></tr>
+<tr><td>—</td><td>Author's Note</td><td>—</td><td><span class="done">Done v1.17.0</span></td><td class="done">Wind tunnel metaphor, AI disclosure.</td></tr>
+<tr><td>—</td><td>Dedication</td><td>—</td><td><span class="done">Done v1.17.0</span></td><td class="done">Three options. Author decides.</td></tr>
+</table>
+
+<h2>Conversion queue (unchanged from v1.17.0)</h2>
+
+<h3>Group B — Framework / methodology HTML → .md</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Status</th><th>Notes</th></tr>
+<tr><td>B1</td><td><code>success-criteria 11.html</code></td><td class="pending">UNBLOCKED — pending upload. Lives in <code>publishing/</code> folder.</td><td>File was uploaded this session but only for C6 analysis context; not converted. Note: the file is canonical as-is — conversion to .md should happen when user uploads for that purpose.</td></tr>
+<tr><td>B2</td><td><code>commons-bonds-rigor-testing-roles.html</code></td><td class="pending">Pending upload for conversion</td><td>After converting, apply C5 two-path structure. <strong>Content to be absorbed into canonical rigor protocol per Q2 answer.</strong></td></tr>
+<tr><td>B3</td><td><code>commons-bonds-multi-scale-revision-prototype.html</code></td><td class="pending">Pending upload</td><td>CANONICAL — .docx (D1) confirmed removed</td></tr>
+<tr><td>B4</td><td><code>alignment_companion.html</code></td><td class="pending">Pending upload</td><td></td></tr>
+<tr><td>B5</td><td><code>commons_bonds_chapter_assessment.html</code></td><td class="done">DONE v1.14.0</td><td>Chapter-by-chapter roadmap</td></tr>
+</table>
+
+<h3>Group C — Other HTML → .md (~25 remaining)</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Status</th></tr>
+<tr><td>C1–C25</td><td>(~25 HTML files not individually catalogued)</td><td class="pending">Pending upload; spot-check each for math before converting</td></tr>
+</table>
+
+<h3>Group D — DOCX → .md (7 remaining)</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Size</th><th>Notes</th></tr>
+<tr><td>D2</td><td><code>commons-bonds-alignment-companion.docx</code></td><td>—</td><td></td></tr>
+<tr><td>D3</td><td><code>commons-bonds-rigor-test.docx</code></td><td>—</td><td>Apply C5 two-path template during conversion. <strong>Content to be absorbed into canonical rigor protocol per Q2 answer.</strong></td></tr>
+<tr><td>D4</td><td><code>commons-bonds-decision-log.docx</code></td><td>—</td><td></td></tr>
+<tr><td>D5</td><td><code>commons-bonds-chapter-outline.docx</code></td><td>—</td><td></td></tr>
+<tr><td>D6</td><td><code>$100 Barrel_ Commons Bonds.docx</code></td><td>11KB</td><td></td></tr>
+<tr><td>D7</td><td><code>Book Two_ The Subsidy Economy.docx</code></td><td>15KB</td><td></td></tr>
+<tr><td>D8</td><td><code>Book Three_ Pricing the Final Frontier.docx</code></td><td>16KB</td><td></td></tr>
+</table>
+
+<h3>Group E — Protected / Do Not Touch</h3>
+<table>
+<tr><th>File</th><th>Reason</th></tr>
+<tr><td><code>Commons Bonds - Berggruen (Essay Draft).docx</code></td><td class="skip">PROTECTED — Berggruen Institute folder</td></tr>
+<tr><td><code>Noema Pitch - Commons Bonds - Winn.docx</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+<tr><td><code>Noema - Commons Bonds - Chris Winn.docx</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+<tr><td><code>Noema - Commons Bonds - Chris Winn.pdf</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+</table>
+
+<h2>Files to KEEP as HTML (unchanged from v1.17.0 + v2.0.0 memo added)</h2>
+<table>
+<tr><th>File</th><th>Reason</th></tr>
+<tr><td><code>eight-tier-v10.html</code></td><td class="keep">KEEP — Canonical RCV 8-tier decomposition with MathJax; source for AIT methodology</td></tr>
+<tr><td><code>error-out-v10.html</code></td><td class="keep">KEEP — "Eight-Tier Decomp + Abundance Inversion Test"; move to core/decomposition/</td></tr>
+<tr><td><code>commons_bonds_integrated_framework.html</code></td><td class="keep">KEEP — math + convergence tables; <strong>C6 patch pending ratification</strong>; move to core/</td></tr>
+<tr><td><code>CommonsBondsTechnicalAppendixv0_0_2.html</code></td><td class="keep">KEEP — Full technical appendix (123KB, v0.0.2, canonical)</td></tr>
+<tr><td><code>08_technical_appendix.html</code></td><td class="keep">KEEP — WS08 stub (math)</td></tr>
+<tr><td><code>Chapter__6_Draft.html</code></td><td class="keep">KEEP — Ch6 first prose draft (inline math)</td></tr>
+<tr><td><code>commons_bonds_full_economy_simulation.html</code></td><td class="keep">KEEP — Interactive simulation (JavaScript)</td></tr>
+<tr><td><code>commons_bonds_updated_glossary_v2.html</code></td><td class="keep">KEEP .html indefinitely — canonical v10 eight-tier glossary. C3 patches 4A/4B/4C to apply.</td></tr>
+<tr><td><code>Chapter__6_ThreeWaysofCounting.html</code></td><td class="keep">KEEP original archived; .md converted v1.10.0</td></tr>
+<tr><td><code>commons_bonds_c6_decision_memo_1_0_0.html</code></td><td class="keep">KEEP — superseded but retained for methodology history</td></tr>
+<tr><td><code>commons_bonds_c6_decision_memo_2_0_0.html</code></td><td class="keep">KEEP — current canonical C6 analysis</td></tr>
+<tr><td><code>commons-bonds-session-handoff-*.html</code></td><td class="keep">KEEP — Session management docs (per user preferences)</td></tr>
+</table>
+
+<h2>Watch items</h2>
+<div class="watch">
+<ul style="margin-bottom: 0;">
+  <li><strong>RIGOR PROTOCOL IS TOP PRIORITY.</strong> Without the canonical rigor protocol, every new major claim risks methodology drift as happened with C6 (had to redo v1.0.0 → v2.0.0 because C5 wasn't applied the first time). See top-priority section above.</li>
+  <li><strong>Claude has no GitHub access.</strong> All files delivered via <code>present_files</code>. Chris pushes manually.</li>
+  <li><strong>No Drive uploads from Claude.</strong> Heredoc truncation risk. Chris uploads to Drive and GitHub manually.</li>
+  <li><strong>C6 awaiting explicit ratification.</strong> Memo v2.0.0 is the current canonical analysis. Do not produce C6 patch until user explicitly confirms (c-refined).</li>
+  <li><strong>Tier 8 finding candidate for C3 addendum.</strong> From C6 v2.0.0 §5: FGC has no political capture analog — this is a clean pedagogical illustration of why mechanism and shield must be distinguished. Consider folding into C3 patch notes for Ch2, Ch6, Ch10.</li>
+  <li><strong>§7 execution gate subsumed under rigor protocol.</strong> Do not produce as standalone; it should be a sub-test within the manifestation-QA section of the canonical rigor protocol.</li>
+  <li><strong>Do not touch <code>/Noema/</code> or <code>/Berggruen Institute - Essay/</code> folders.</strong> Ever.</li>
+  <li><strong>Do not rename Drive files.</strong> Migration is read-only on Drive side.</li>
+  <li><strong>Math files stay .html.</strong> Ch6 Draft, Tech Appendix, eight-tier-v10, error-out-v10, integrated framework (post-C6 patch), simulation, glossary — never convert.</li>
+  <li><strong>Session handoff files stay .html</strong> per user preferences.</li>
+  <li><strong>Workstreams WS01–17 are DONE</strong> (format conversion). C2/C4 patches add content; apply manually by Chris in GitHub.</li>
+  <li><strong>Technical Appendix is v0.0.2.</strong> <code>CommonsBondsTechnicalAppendixv0_0_2.html</code> is authoritative.</li>
+  <li><strong>C3 patch 3 (Ch2):</strong> Insert mechanism/shield paragraph after first "spatial cost severance" introduction.</li>
+  <li><strong>C3 patches 1A–1D (Ch10):</strong> Apply when Ch10 draft is next open in GitHub.</li>
+  <li><strong>C3 patch 2 (Ch6 Draft):</strong> Apply when Ch6 draft is next open in GitHub.</li>
+  <li><strong>C5 patch — apply during D3/B2 conversion:</strong> Add two-path template as header section when converting <code>commons-bonds-rigor-test.docx</code> (D3) and <code>commons-bonds-rigor-testing-roles.html</code> (B2). <strong>Note:</strong> B2 and D3 content will also be absorbed into the canonical rigor protocol per Q2 answer — coordinate.</li>
+  <li><strong>Naming convention:</strong> <code>Chapter_#_Title_Draft.md</code> = prose draft. <code>Chapter_#_Title_GuidanceDoc.md</code> = guidance doc. Decision memos: <code>commons_bonds_{topic}_{v#_#_#}.html</code>.</li>
+  <li><strong>Handoff versioning:</strong> v1.18.0 → v1.19.0 for next session; keep date prefix as 2026-04-20 until date changes.</li>
+</ul>
+</div>
+
+<h2>Full WS + session conversion log (extended from v1.17.0)</h2>
+<table>
+<tr><th>File</th><th>Format</th><th>Chars</th><th>CSS leaks</th><th>Session</th></tr>
+<tr><td><code>commons_bonds_c6_decision_memo_2_0_0.html</code></td><td>.html (decision memo)</td><td>32,268</td><td>N/A</td><td>v1.18.0</td></tr>
+<tr><td><code>commons_bonds_c6_decision_memo_1_0_0.html</code></td><td>.html (decision memo)</td><td>33,395</td><td>N/A</td><td>v1.18.0 (superseded)</td></tr>
+<tr><td><code>Chapter__9_TheRenewableImperative_GuidanceDoc.md</code></td><td>.md (guidance doc)</td><td>6,403</td><td>0</td><td>v1.17.0</td></tr>
+<tr><td><code>Chapter__9_TheRenewableImperative_Draft.md</code></td><td>.md (prose draft)</td><td>40,906</td><td>0</td><td>v1.17.0 (A9)</td></tr>
+<tr><td><code>Chapter__8_WhatThingsActuallyCost_Draft.md</code></td><td>.md (prose draft)</td><td>29,029</td><td>0</td><td>v1.17.0 (A8)</td></tr>
+<tr><td><code>Chapter__5_TheAccountabilityGap_Draft.md</code></td><td>.md (prose draft)</td><td>18,104</td><td>0</td><td>v1.17.0 (A7)</td></tr>
+<tr><td><code>Chapter__5_TheAccountabilityGap_GuidanceDoc.md</code></td><td>.md (guidance doc)</td><td>3,008</td><td>0</td><td>v1.17.0 (A6)</td></tr>
+<tr><td><code>AuthorsNote_OnWindTunnelsAndAI.md</code></td><td>.md (front/back matter)</td><td>6,955</td><td>0</td><td>v1.17.0</td></tr>
+<tr><td><code>Dedication.md</code></td><td>.md (front matter)</td><td>852</td><td>0</td><td>v1.17.0</td></tr>
+<tr><td><code>Chapter__7_TheColonyAdministrator_GuidanceDoc.md</code></td><td>.md (guidance doc)</td><td>38,670</td><td>0</td><td>v1.16.0</td></tr>
+<tr><td><code>Chapter__7_TheColonyAdministrator_Draft.md</code></td><td>.md (prose draft)</td><td>30,571</td><td>0</td><td>v1.16.0</td></tr>
+<tr><td><code>Chapter__4_TheExistenceProof_Draft.md</code></td><td>.md (prose draft)</td><td>19,274</td><td>0</td><td>v1.16.0 (A4)</td></tr>
+<tr><td><code>Chapter__4_TheExistenceProof_GuidanceDoc.md</code></td><td>.md (guidance doc)</td><td>7,635</td><td>0</td><td>v1.16.0 (A5)</td></tr>
+<tr><td><code>Chapter__2_TheMiner_GuidanceDoc.md</code></td><td>.md (guidance doc)</td><td>17,121</td><td>0</td><td>v1.16.0 (A2)</td></tr>
+<tr><td><code>Chapter_10_CommonBonds_Draft.md</code></td><td>.md (prose draft)</td><td>38,407</td><td>0</td><td>v1.15.0 (A10)</td></tr>
+<tr><td><code>Chapter_10_GuidanceDoc.md</code></td><td>.md (guidance doc)</td><td>3,567</td><td>0</td><td>v1.15.0 (A10)</td></tr>
+<tr><td><code>c3_mechanism_shield_patch.md</code></td><td>.md (patch)</td><td>17,005</td><td>0</td><td>v1.15.0 (C3)</td></tr>
+<tr><td><code>Chapter__2_TheMiner_Draft.md</code></td><td>.md (prose draft)</td><td>27,149</td><td>0</td><td>v1.14.0 (confirmed v1.16.0)</td></tr>
+<tr><td><code>Chapter__1_ThePlane.md</code></td><td>.md</td><td>7,531</td><td>0</td><td>v1.14.0 (A1)</td></tr>
+<tr><td><code>Chapter__3_TheWaterman.md</code></td><td>.md</td><td>1,577</td><td>0</td><td>v1.14.0 (A3)</td></tr>
+<tr><td><code>commons-bonds-chapter-1-extension.md</code></td><td>.md</td><td>8,979</td><td>0</td><td>v1.14.0 (A1b)</td></tr>
+<tr><td><code>commons_bonds_chapter_assessment.md</code></td><td>.md</td><td>8,858</td><td>0</td><td>v1.14.0 (B5)</td></tr>
+<tr><td><code>CommonsBondsTechnicalAppendixv0_0_2.html</code></td><td>.html</td><td>123,432</td><td>0 (body)</td><td>v1.12.0 (content update)</td></tr>
+<tr><td><code>commons_bonds_updated_glossary_v2.html</code></td><td>.html</td><td>26,898</td><td>0</td><td>v1.12.0 (content update)</td></tr>
+<tr><td><code>Chapter__6_ThreeWaysofCounting.md</code></td><td>.md</td><td>36,740</td><td>0</td><td>v1.10.0</td></tr>
+<tr><td>WS01–17</td><td>.md</td><td>(various)</td><td>0</td><td>v1.0.0–v1.8.0</td></tr>
+</table>
+
+<h2>Conversion pipeline (proven, unchanged)</h2>
+<pre>
+pip install markdownify beautifulsoup4 --break-system-packages -q
+
+cat /mnt/user-data/uploads/{filename}.html | python3 -c "
+import sys, re
+from bs4 import BeautifulSoup
+from markdownify import markdownify
+
+html = sys.stdin.read()
+soup = BeautifulSoup(html, 'html.parser')
+for tag in soup.find_all(['style', 'script']):
+    tag.decompose()
+md = markdownify(str(soup), heading_style='ATX', bullets='-')
+md = re.sub(r'\n{3,}', '\n\n\n', md).strip() + '\n'
+print(md)
+" > /mnt/user-data/outputs/{filename}.md
+
+# Spot checks:
+# CSS leak:  grep -c "font-family\|body {" output.md  → must be 0
+# Char count: wc -c output.md
+# Math check: grep -c "mathjax\|MathJax" file.html
+# Head:       head -25 output.md
+# Tail:       tail -6 output.md
+</pre>
+
+<h2>Uploaded this session (for reference)</h2>
+<p>Files Chris uploaded during v1.18.0 for C6 analysis (all retained in <code>/mnt/user-data/uploads/</code> only for the session; not converted):</p>
+<ul>
+<li><code>commons-bonds-session-handoff-2026-04-20_1_17_0.html</code> — prior handoff (read for continuity)</li>
+<li><code>commons_bonds_critical_impact_assessment.html</code> — Part 1/2/3 impact analysis</li>
+<li><code>commons-bonds-success-criteria_11.html</code> — success criteria doc (B1 canonical source)</li>
+<li><code>commons_bonds_counterarguments_analysis.html</code> — counterargument + book strengthening content (extracted from Ch8 outdated draft)</li>
+<li><code>commons-bonds-rigor-testing-roles.html</code> — 20-critic roster (B2 canonical source)</li>
+<li><code>eight-tier-v10.html</code> — v10 canonical RCV decomposition + AIT methodology</li>
+<li><code>error-out-v10.html</code> — same content, different file (confirm duplicate vs variant on next session)</li>
+<li><code>commons-bonds-c5-two-path-rigor.md</code> — C5 patch uploaded mid-session for rerun</li>
+</ul>
+
+<p class="meta">End of session handoff v1.18.0. <strong>Top priority for next session: build the canonical rigor protocol.</strong> See top-priority section above for full scope, component list, and Q1–Q5 recommendations awaiting user confirmation. C6 ratification + patch drafting to follow on user's signal; deferred so the larger rigor protocol ships first and becomes the methodology basis for C6 patch and all future decisions.</p>
+
+</body>
+</html>
