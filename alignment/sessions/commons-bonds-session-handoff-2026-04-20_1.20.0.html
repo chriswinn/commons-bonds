@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-20 · v1.20.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  h4 { font-size: 0.95em; margin-top: 1.2em; font-weight: 600; color: #444; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .content-work { background: #f4f0fb; border-left: 3px solid #6a4c9c; padding: 0.75em 1em; margin: 1em 0; }
+  .decision { background: #fff4e6; border-left: 3px solid #cc7700; padding: 0.75em 1em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done { color: #1a6a2a; font-weight: 600; }
+  .pending { color: #a2260b; font-weight: 600; }
+  .keep { color: #004a80; font-weight: 600; }
+  .skip { color: #666; font-style: italic; }
+  .version { color: #888; font-family: monospace; }
+  .new { color: #6a4c9c; font-weight: 600; }
+  .partial { color: #7a5400; font-weight: 600; }
+  .hold { color: #cc7700; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-20 · Version <span class="version">1.20.0</span> · Supersedes v1.18.0 and v1.19.0 (intermediate; inline) · Major methodology session — canonical rigor protocol shipped, first full application completed, layer/tier stress test produced, two rename candidates surfaced (Life-support, Spatial), ALL candidates on hold pending full naming review next session with additional user-surfaced candidate(s) to be stress-tested</p>
+
+<div class="status">
+<strong>STATUS:</strong> Heaviest methodological session in project history. The canonical rigor protocol was built from concept to shipped v1.1.0 canonical doc across this session — first worked example (C6) ratified and patch produced; second worked example (layer/tier stress test) produced; protocol itself revised once mid-session (v1.0.0 → v1.1.0) when the stress test surfaced a gap (Earth-only exemplar readers silently approved the "Planetary" candidate name before off-Earth testing caught the failure). Two architectural rename candidates surfaced under the protocol (Atmospheric → Life-support, C7; Geographic → Spatial, C8). Two watch items logged (Demographic at individual scale; Political partisan-connotation in US contexts). All nine tiers of the v10 RCV decomposition cleared the full rigor battery with no renames required. <strong>User reopened ratification on BOTH rename candidates and is explicitly halting patch production until a full walk-through of all 7 layers and all 9 tiers — including any additional user-surfaced candidate name(s) to be stress-tested next session — confirms naming stability.</strong> This is the project's third round of tier-level naming (prior rounds: initial, Decision A) and the user wants a stable naming basis before committing to any rename patches. The "push harder so we only rewrite once" instruction supersedes the in-session partial ratification of Life-support.
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY FOR NEXT SESSION — Full naming review (layers + tiers)</h2>
+
+<p><strong>User ask:</strong> Before producing C7 (Life-support candidate) and C8 (Spatial candidate) patches, conduct a deliberate walk-through of all seven abundance layers and all nine tiers. <strong>User has at least one additional candidate name they want stress-tested next session</strong> before the naming basis is signed off. Stress-test every existing candidate (Life-support, Spatial) and every user-surfaced new candidate under the protocol v1.1.0 five-test battery; confirm each name is stable; identify any lingering concerns; establish a signed-off naming basis for all downstream patches, manifestation drafting, and chapter revisions. Motivation: this is the project's third round of tier-level renaming, and the user wants to close the loop rather than continue a rename cascade. "Push harder so we only rewrite once."</p>
+
+<p><strong>Proposed next-session workflow:</strong></p>
+<ol>
+<li>Load <code>commons_bonds_rigor_protocol_1_1_0.md</code> + <code>commons_bonds_layer_tier_stress_test_1_0_0.md</code> + this handoff at session start.</li>
+<li><strong>Ask user for any additional candidate names</strong> they want stress-tested before walking through existing ones. Stress-test each new candidate under the full protocol (AIT + two-path + multi-scale with off-Earth exemplar + ten-critic + success criteria) before the walk-through begins.</li>
+<li>Walk through layers one at a time: present current name + existing candidate(s) + any new user candidates + proposed descriptions + stress-test verdicts + alternatives considered. User confirms or pushes back on each.</li>
+<li>Walk through tiers one at a time: present current name + scale-attribution + stress-test verdict + any historical rename context (especially Decision A on Tier 2a). User confirms or pushes back.</li>
+<li>After sign-off on each name, produce rename patches for the ratified candidates. Bundle overlapping file sets (C7, C8, and any new Cx patches likely touch the same 5 canonical files, so batch them).</li>
+<li>Any candidate that fails a test during stress-testing: document the failure, do not ratify on-the-fly, move to the next candidate.</li>
+</ol>
+
+<p><strong>Pre-computed material available to accelerate the walk-through:</strong></p>
+<ul>
+<li><strong>Stress test memo §3.1</strong> — Life-support candidate analysis (all five tests PASS for Life-support; Atmospheric FAILS multi-scale)</li>
+<li><strong>Stress test memo §3.2</strong> — Geographic → Spatial candidate (full five-test analysis; same failure mode as Atmospheric)</li>
+<li><strong>Stress test memo §3.3–3.7</strong> — Temporal, Institutional, Demographic, Ecological, Political (confirmations with watch items flagged)</li>
+<li><strong>Stress test memo §3.8</strong> — Layer summary table with all verdicts (both candidate renames marked HOLD)</li>
+<li><strong>Stress test memo §4.1–4.9</strong> — Each tier's rigor-test result + conditional attribution status</li>
+<li><strong>Stress test memo §4.10</strong> — Tier summary table with four-column conditional attribution matrix</li>
+</ul>
+
+<p><strong>Why this is top priority:</strong> Name changes propagate through 5+ canonical files plus every chapter draft that references a tier or layer. A rename cycle that stops and restarts costs far more than a deliberate walk-through upfront. The user has done partial rename rounds three times already (initial naming, Decision A, Life-support in-session); a fourth round without full review — especially with at least one more user-surfaced candidate still to arrive — would signal methodology drift. The protocol exists specifically to prevent this.</p>
+
+<p><strong>Expected outputs after review:</strong> Rename patches (C7, C8, and/or new Cx) for whichever names ratify, "keep as-is" decisions documented for names that stay, and an updated handoff noting the naming basis is signed off.</p>
+</div>
+
+<div class="resume">
+<strong>PROMPT SNIPPET FOR NEXT SESSION:</strong><br>
+Read the handoff <code>commons-bonds-session-handoff-2026-04-20_1.20.0.html</code>. Load <code>commons_bonds_rigor_protocol_1_1_0.md</code> and <code>commons_bonds_layer_tier_stress_test_1_0_0.md</code> as primary reference material. Top priority is the full layer and tier naming review: <strong>ask the user for any additional candidate name(s) they want stress-tested first</strong>, run each through the full protocol battery, then walk through all 7 abundance layers (current names: Atmospheric, Geographic, Temporal, Institutional, Demographic, Ecological, Political; existing candidates: Life-support for Atmospheric, Spatial for Geographic; neither ratified) and all 9 tiers (1 Lifetime Survival · 2a Actuarial Risk · 2b Mission Failure Reserve · 3 Dynastic Labor · 4 Foreclosure · 5 Community Transition Reserve · 6 Ecological Carrying · 7 Knowledge and Culture · 8 Political Capture) with the user, one at a time, using pre-computed stress-test analyses as starting points. Confirm each name is stable before producing any rename patches. After sign-off: produce patches (C7, C8, and any new Cx) for whichever names ratify. Also still open: Tier 8 finding as C3 addendum (optional), preferences review drafting (TODO). User instruction: "push harder so we only rewrite once."
+</div>
+
+<h2>What changed v1.19.0 → v1.20.0 (full session summary)</h2>
+<p class="meta">Note: v1.19.0 was an inline session designation used during this work; v1.20.0 is the first persisted handoff produced after v1.18.0. All of the work below happened in a single extended session between v1.18.0 and v1.20.0.</p>
+
+<ul>
+  <li><strong>Rigor protocol v1.0.0 built from scratch:</strong> <code>commons_bonds_rigor_protocol_1_0_0.md</code> — 27,078 chars. First canonical methodology doc in the project. Consolidates AIT + two-path + multi-scale + ten-critic + success criteria into a single modular methodology. Five-route routing rule (tier-level · architectural · stakeholder-facing · novelty · applied-policy — expanded from the three routes in v1.18.0 recommendations). Two-tier critic battery (standing 10 + optional extended sub-batteries for stakeholder, methodological, meta). Fill-in template for decision memos. C6 memo v2.0.0 referenced as first complete worked example. Q1–Q5 from v1.18.0 all ratified with minor expansions (Q1 three routes → five routes; Q2 reference-not-delete B2; Q4 .html → .md extension change).</li>
+
+  <li><strong>Format decision — canonical methodology docs default to .md:</strong> User asked whether the protocol needed to be .html because of math content. It doesn't — the protocol is procedural (decision gates, tables, role descriptions) with no math formulas. Per the hybrid migration plan in user preferences, methodology docs are .md. Saves ~8–15k chars per upload vs. a comparable HTML version with CSS. Candidate for permanent preferences addition (captured in preferences-review TODO below).</li>
+
+  <li><strong>C6 explicitly ratified and patch produced:</strong> <code>c6_integrated_framework_taxonomy_patch.md</code> — 16,653 chars. Replaces older individual 8-tier list in <code>commons_bonds_integrated_framework.html</code> with reconciliation paragraph (from C6 memo v1.0.0 §7.3). Retains convergence tables. Moves file to <code>core/</code>. Includes content-preservation mapping for WS02/WS03 drafting, project-wide audit task list, completion criteria, verification steps. Sixth patch produced; joins C1–C5 in the manual-apply queue. Structure mirrors C3 patch (17,005 chars) — same format conventions.</li>
+
+  <li><strong>Atmospheric → Life-support rename ratified under the rigor protocol:</strong> Full five-test protocol application conducted inline in session. User pushed back on initial "Planetary" candidate (failed at asteroid/LEO exemplar). Life-support emerged, passed all five tests at all four scales × both environment types, 10/0/3 on ten-critic with all three execution-dependent notes being definition-tightening rather than rejections. Both Writerly Editor and Leftist critics actively preferred Life-support over Atmospheric on rhetorical grounds ("Earth is our life-support system" reads stronger than "Earth's atmospheric abundance"). Ratified. C7 patch NOT yet produced — held pending naming review next session.</li>
+
+  <li><strong>Protocol revised mid-session v1.0.0 → v1.1.0:</strong> <code>commons_bonds_rigor_protocol_1_1_0.md</code> — 32,509 chars. Two changes: (1) Test 3 multi-scale expanded to require both Earth-baseline AND off-Earth/engineered-habitat exemplar readers per scale. This is structural — prior form allowed Earth-only exemplars to silently approve claims that failed off-Earth (the "Planetary" near-miss); new form makes the off-Earth exercise mandatory, 8-column matrix (4 scales × 2 environments) with a 5-column compressed fallback when Earth and off-Earth verdicts match everywhere. (2) §4.2 AIT worked-examples table transcription fix: Tier 3 is Dynastic Labor Cost, Tier 6 is Ecological Carrying Cost (prior v1.0.0 had them confused). (3) §10 expanded from "First Worked Example" to "Worked Examples" with stress test memo promoted to §10.2 and its own lesson-learned callout. Version rule per §12.5: this is a minor revision, not a patch, because the off-Earth expansion changes how Test 3 is applied and promotes a second worked example.</li>
+
+  <li><strong>Layer and tier stress test memo produced:</strong> <code>commons_bonds_layer_tier_stress_test_1_0_0.md</code> — 32,996 chars. Second complete worked example under the protocol. Applies full architectural routing (two-path + multi-scale + abbreviated ten-critic + success criteria) to six remaining abundance layers and tier-level routing (AIT + two-path + multi-scale) to all nine tiers of the v10 canonical decomposition. Findings: one rename candidate (Geographic → Spatial), no other renames needed, two watch items (Demographic individual-scale awkwardness, Political US-partisan connotation), all nine tiers PASS. Stress test triggered the protocol v1.0.0 → v1.1.0 revision mid-work when the off-Earth exemplar gap surfaced.</li>
+
+  <li><strong>Geographic → Spatial surfaced as candidate rename:</strong> Same failure mode as Atmospheric. Multi-scale FAIL at off-Earth exemplar (asteroid/LEO operations don't have planet-surface geography; orbital systems have trajectory, delta-V, position — not geography). Spatial passes all five tests; Geographic fails multi-scale. Would cascade to Tier 2b attribution (Geographic + Temporal → Spatial + Temporal) and Tier 5 (Geographic + Demographic → Spatial + Demographic). <strong>Not ratified</strong> — user halted to conduct full naming review first. C8 patch NOT produced.</li>
+
+  <li><strong>Two watch items logged:</strong> Demographic reads awkwardly at individual scale (reader doesn't think in demographic terms about themselves) — cleanest fix is manifestation-paragraph language (mentor/peer framing) rather than layer rename. Political has US-partisan connotation risk, but the framework use is abstract (democratic infrastructure as commons) and the alternative "Governance" is too broad. Both non-urgent; retained for future revisit.</li>
+
+  <li><strong>All nine tiers cleared the protocol:</strong> Tier 1 (Lifetime Survival), 2a (Actuarial Risk), 2b (Mission Failure Reserve), 3 (Dynastic Labor), 4 (Foreclosure), 5 (Community Transition Reserve), 6 (Ecological Carrying), 7 (Knowledge and Culture), 8 (Political Capture). No tier renames, no tier splits, no tier retirements. Attribution updates are mechanical propagations from ratified (Life-support) and candidate (Spatial) layer renames, nothing re-decided at tier level.</li>
+
+  <li><strong>Preferences review TODO captured:</strong> Candidate items: (1) canonical methodology docs default to .md unless math rendering required, (2) rigor protocol upload pattern at session start, (3) session-size management strategy (min upload vs working set), (4) handoff format (.html current pref vs .md), (5) alignment companion file format on upload. Drafting deferred until after naming review completes next session.</li>
+
+  <li><strong>No conversions this session.</strong> B1–B4, Group C, Group D conversion queue unchanged from v1.18.0.</li>
+</ul>
+
+<h2>Current state summary (for fast context rebuild)</h2>
+
+<div class="decision">
+<h3 style="margin-top: 0;">Canonical methodology basis</h3>
+<ul style="margin: 0.5em 0 0 0;">
+<li><strong>Rigor protocol:</strong> v1.1.0 is current canonical. v1.0.0 superseded; remove from upload set.</li>
+<li><strong>Multi-scale test:</strong> 4 scales × 2 environment types (Earth-baseline + off-Earth/engineered-habitat) mandatory for all architectural and stakeholder-facing claims.</li>
+<li><strong>Routing rule:</strong> five claim types (tier-level · architectural · stakeholder-facing · novelty · applied-policy). Union tests when claim spans categories.</li>
+<li><strong>Ten-critic battery:</strong> standing 10 always run when routed; extended batteries (stakeholder, methodological, meta) optional.</li>
+<li><strong>Worked examples:</strong> C6 memo v2.0.0 (architectural, taxonomy reconciliation) · layer/tier stress test v1.0.0 (architectural naming audit across 6 layers and 9 tiers).</li>
+</ul>
+</div>
+
+<div class="decision">
+<h3 style="margin-top: 0;">Current canonical layer names (pending naming review)</h3>
+<ol style="margin: 0.5em 0 0 0;">
+<li><strong>Life-support</strong> (was Atmospheric) — ratified v1.20.0, C7 patch pending</li>
+<li><strong>Geographic</strong> (candidate: Spatial) — awaiting naming review sign-off, C8 patch pending</li>
+<li><strong>Temporal</strong> — stable, confirmed by stress test</li>
+<li><strong>Institutional</strong> — stable, confirmed by stress test</li>
+<li><strong>Demographic</strong> — stable with individual-scale watch item</li>
+<li><strong>Ecological</strong> — stable, confirmed by stress test</li>
+<li><strong>Political</strong> — stable with US-partisan-connotation watch item</li>
+</ol>
+</div>
+
+<div class="decision">
+<h3 style="margin-top: 0;">Current canonical tier names (v10, stable per stress test)</h3>
+<ol style="margin: 0.5em 0 0 0;">
+<li>Tier 1 — <strong>Lifetime Survival Cost</strong> · attribution: Life-support + Ecological</li>
+<li>Tier 2a — <strong>Actuarial Risk Cost</strong> · attribution: Institutional · (renamed from "Individual Risk Cost" per Decision A v1.12.0)</li>
+<li>Tier 2b — <strong>Mission Failure Reserve</strong> · attribution: Geographic (→ Spatial if ratified) + Temporal</li>
+<li>Tier 3 — <strong>Dynastic Labor Cost</strong> · attribution: Temporal</li>
+<li>Tier 4 — <strong>Foreclosure Cost</strong> · attribution: Temporal · (acronym FOFC retained for formal use)</li>
+<li>Tier 5 — <strong>Community Transition Reserve</strong> · attribution: Geographic (→ Spatial if ratified) + Demographic</li>
+<li>Tier 6 — <strong>Ecological Carrying Cost</strong> · attribution: Ecological</li>
+<li>Tier 7 — <strong>Knowledge and Culture Cost</strong> · attribution: Demographic</li>
+<li>Tier 8 — <strong>Political Capture Cost</strong> · attribution: Political</li>
+</ol>
+</div>
+
+<h3>Proposed descriptions for renamed layers (for naming review reference)</h3>
+
+<div class="info">
+<strong>Life-support (ratified):</strong> Functionally abundant ambient conditions for biological existence — breathable atmosphere, surface water, gravitational support, radiation shielding, thermal and pressure regimes — which are free on Earth and priced wherever they must be engineered. Revealed costs: life-support cost, water-provisioning cost, gravity-substitution cost, radiation-shielding cost, thermal-regulation cost, and other ambient-provisioning costs.
+</div>
+
+<div class="info">
+<strong>Spatial (candidate):</strong> Functionally abundant capacity for movement, relocation, return, and access across separations. Revealed costs: spatial displacement cost, transport cost, community immobility cost, trajectory-window cost, delta-V cost, and other separation-provisioning costs.
+</div>
+
+<p class="meta">Both descriptions use the "and other" pattern (established in v1.19.0) to signal that revealed-costs lists are illustrative of a class, not exhaustive. This is the technique that prevents a name from being locked into a single environment-specific interpretation — the exact failure mode "Atmospheric" had with its gaseous-only list.</p>
+
+<h2>Patch queue state</h2>
+<div class="content-work">
+<table>
+<tr><th>#</th><th>Task</th><th>Status</th><th>Next step</th></tr>
+<tr><td>C1</td><td>Tier 2a rename: "Individual Risk Cost" → "Actuarial Risk Cost"</td><td class="done">PATCH PRODUCED v1.12.0</td><td>Apply manually to GitHub</td></tr>
+<tr><td>C2</td><td>Six-tier scale-abstract core + manifestations (Tiers 1, 2a, 3, 5, 7, 8)</td><td class="done">PATCH PRODUCED v1.13.0</td><td>Apply manually to GitHub</td></tr>
+<tr><td>C3</td><td>Mechanism/shield architecture distinction</td><td class="done">PATCH PRODUCED v1.15.0</td><td>Apply manually to GitHub. <strong>Optional addendum:</strong> Tier 8 finding from C6 v2.0.0 §5 (pedagogical illustration).</td></tr>
+<tr><td>C4</td><td>Decision A ripple — ratification note to all WS01–17</td><td class="done">PATCH PRODUCED v1.13.0</td><td>Apply manually to GitHub</td></tr>
+<tr><td>C5</td><td>Rigor test two-path structure</td><td class="done">PATCH PRODUCED v1.13.0</td><td>Apply during D3/B2 conversion. <strong>Also absorbed into rigor protocol §5</strong>; C5 patch remains valid for the standalone D3/B2 update.</td></tr>
+<tr><td>C6</td><td>Integrated framework tier names — reconciliation paragraph</td><td class="done">PATCH PRODUCED v1.20.0 (this session)</td><td>Apply manually to GitHub — <code>c6_integrated_framework_taxonomy_patch.md</code></td></tr>
+<tr><td>C7</td><td>Atmospheric → Life-support rename (5 files)</td><td class="hold">RATIFIED v1.20.0 · PATCH ON HOLD</td><td><strong>Produce patch after naming review signs off layers</strong></td></tr>
+<tr><td>C8</td><td>Geographic → Spatial rename (5 files; candidate)</td><td class="hold">CANDIDATE v1.20.0 · AWAITING RATIFICATION</td><td><strong>Ratify or reject during naming review; then produce patch if ratified</strong></td></tr>
+<tr><td>—</td><td>Protocol v1.0.0 → v1.1.0 revision</td><td class="done">PRODUCED v1.20.0 (this session)</td><td>Replace v1.0.0 with v1.1.0 in upload set</td></tr>
+</table>
+</div>
+
+<h2>Files produced this session</h2>
+<table>
+<tr><th>File</th><th>Format</th><th>Chars</th><th>Description</th><th>CSS leaks</th></tr>
+<tr><td><code>commons_bonds_rigor_protocol_1_0_0.md</code></td><td>.md (methodology)</td><td>27,078</td><td>Initial canonical rigor protocol — five-route routing + two-tier critic battery + fill-in template. <strong>Superseded by v1.1.0 later in same session.</strong></td><td>0</td></tr>
+<tr><td><code>c6_integrated_framework_taxonomy_patch.md</code></td><td>.md (patch)</td><td>16,653</td><td>C6 patch for taxonomy reconciliation in <code>commons_bonds_integrated_framework.html</code>. Sixth patch produced; first patch produced under the canonical rigor protocol.</td><td>0</td></tr>
+<tr><td><code>commons_bonds_layer_tier_stress_test_1_0_0.md</code></td><td>.md (decision memo / audit)</td><td>32,996</td><td>Second worked example under the protocol. Layer + tier rigor audit across 6 remaining layers and all 9 tiers. Surfaces Spatial rename candidate; confirms no other renames.</td><td>0</td></tr>
+<tr><td><code>commons_bonds_rigor_protocol_1_1_0.md</code></td><td>.md (methodology)</td><td>32,509</td><td>Canonical rigor protocol revised for off-Earth exemplar in Test 3, Tier 6 transcription fix, stress test promoted to second worked example. <strong>Supersedes v1.0.0.</strong></td><td>0</td></tr>
+<tr><td><code>commons-bonds-session-handoff-2026-04-20_1.20.0.html</code></td><td>.html (handoff)</td><td>—</td><td>This handoff file.</td><td>—</td></tr>
+</table>
+
+<h2>Chapter writing status (unchanged from v1.17.0)</h2>
+<table>
+<tr><th>Ch</th><th>Title</th><th>Guidance doc</th><th>Prose draft</th><th>Status</th></tr>
+<tr><td>1</td><td>The Plane</td><td><span class="done">A1 done</span> — <code>Chapter__1_ThePlane.md</code></td><td>None — personal narrative (author only)</td><td class="pending">Write: personal story only, scaffold complete</td></tr>
+<tr><td>2</td><td>The Miner</td><td><span class="done">A2 done</span></td><td><span class="done">Done</span></td><td class="partial">C3 patch 3 to apply; 3 [INTERVIEW NEEDED] slots remain. Post-naming-review: audit for "atmospheric"/"geographic" tier-label references if renames confirmed.</td></tr>
+<tr><td>3</td><td>The Waterman</td><td><span class="done">A3 done</span></td><td>None — needs waterman interviews</td><td class="pending">Blocked on interviews</td></tr>
+<tr><td>4</td><td>The Existence Proof</td><td><span class="done">A5 done</span></td><td><span class="done">A4 done</span></td><td class="done">Both files converted. Post-naming-review: audit for layer-name references.</td></tr>
+<tr><td>5</td><td>The Accountability Gap</td><td><span class="done">A6 done v1.17.0</span></td><td><span class="done">A7 done v1.17.0</span></td><td class="done">Both converted. Post-naming-review: audit.</td></tr>
+<tr><td>6</td><td>Three Ways of Counting</td><td><span class="done">Confirmed v1.15.0</span></td><td><span class="keep">KEEP .html</span> (math)</td><td class="keep">C3 patch 2 to apply. <strong>Highest-likelihood chapter for layer-name references</strong> — post-naming-review audit critical.</td></tr>
+<tr><td>7</td><td>The Colony Administrator</td><td><span class="done">Done v1.16.0</span></td><td><span class="done">Done v1.16.0</span></td><td class="done">Both converted. Post-naming-review: audit for Life-support/Spatial references.</td></tr>
+<tr><td>8</td><td>What Things Actually Cost</td><td>None</td><td><span class="done">A8 done v1.17.0</span></td><td class="done">Draft converted. Post-naming-review: audit.</td></tr>
+<tr><td>9</td><td>The Renewable Imperative</td><td><span class="done">Done v1.17.0</span></td><td><span class="done">A9 done v1.17.0</span></td><td class="done">Both converted. Post-naming-review: audit.</td></tr>
+<tr><td>10</td><td>Common Bonds</td><td><span class="done">Done v1.15.0</span></td><td><span class="done">Done v1.15.0</span></td><td class="partial">C3 patches 1A–1D to apply. Post-naming-review: audit.</td></tr>
+<tr><td>—</td><td>Author's Note</td><td>—</td><td><span class="done">Done v1.17.0</span></td><td class="done">Wind tunnel metaphor, AI disclosure.</td></tr>
+<tr><td>—</td><td>Dedication</td><td>—</td><td><span class="done">Done v1.17.0</span></td><td class="done">Three options. Author decides.</td></tr>
+</table>
+
+<h2>Conversion queue (unchanged from v1.17.0)</h2>
+
+<h3>Group B — Framework / methodology HTML → .md</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Status</th><th>Notes</th></tr>
+<tr><td>B1</td><td><code>commons-bonds-success-criteria_11.html</code></td><td class="pending">Pending upload</td><td>Already absorbed (contextually) into rigor protocol §8 — conversion still useful for standalone reference</td></tr>
+<tr><td>B2</td><td><code>commons-bonds-rigor-testing-roles.html</code></td><td class="pending">Pending upload</td><td>20-critic roster. Apply C5 two-path header on conversion. <strong>Content absorbed into rigor protocol §7</strong> (standing 10 inline; remaining 10 referenced as extended sub-batteries).</td></tr>
+<tr><td>B3</td><td><code>commons_bonds_full_economy_simulation.html</code></td><td class="keep">KEEP .html (JavaScript)</td><td>Interactive simulation — not convertible</td></tr>
+<tr><td>B4</td><td><code>alignment_companion.html</code></td><td class="pending">Pending upload</td><td>TODO tracker per user preferences — format TBD during preferences review</td></tr>
+<tr><td>B5</td><td><code>commons_bonds_chapter_assessment.html</code></td><td class="done">DONE v1.14.0</td><td>Chapter-by-chapter roadmap</td></tr>
+</table>
+
+<h3>Group C — Other HTML → .md (~25 remaining)</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Status</th></tr>
+<tr><td>C1–C25</td><td>(~25 HTML files not individually catalogued)</td><td class="pending">Pending upload; spot-check each for math before converting</td></tr>
+</table>
+
+<h3>Group D — DOCX → .md (7 remaining)</h3>
+<table>
+<tr><th>#</th><th>File</th><th>Size</th><th>Notes</th></tr>
+<tr><td>D2</td><td><code>commons-bonds-alignment-companion.docx</code></td><td>—</td><td>Coordinate with B4</td></tr>
+<tr><td>D3</td><td><code>commons-bonds-rigor-test.docx</code></td><td>—</td><td>Apply C5 two-path template during conversion. <strong>Absorbed into rigor protocol</strong> — this file becomes applications/examples archive per C6 decision memo Q2 answer.</td></tr>
+<tr><td>D4</td><td><code>commons-bonds-decision-log.docx</code></td><td>—</td><td></td></tr>
+<tr><td>D5</td><td><code>commons-bonds-chapter-outline.docx</code></td><td>—</td><td></td></tr>
+<tr><td>D6</td><td><code>$100 Barrel_ Commons Bonds.docx</code></td><td>11KB</td><td></td></tr>
+<tr><td>D7</td><td><code>Book Two_ The Subsidy Economy.docx</code></td><td>15KB</td><td></td></tr>
+<tr><td>D8</td><td><code>Book Three_ Pricing the Final Frontier.docx</code></td><td>16KB</td><td></td></tr>
+</table>
+
+<h3>Group E — Protected / Do Not Touch</h3>
+<table>
+<tr><th>File</th><th>Reason</th></tr>
+<tr><td><code>Commons Bonds - Berggruen (Essay Draft).docx</code></td><td class="skip">PROTECTED — Berggruen Institute folder</td></tr>
+<tr><td><code>Noema Pitch - Commons Bonds - Winn.docx</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+<tr><td><code>Noema - Commons Bonds - Chris Winn.docx</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+<tr><td><code>Noema - Commons Bonds - Chris Winn.pdf</code></td><td class="skip">PROTECTED — Noema folder</td></tr>
+</table>
+
+<h2>Files to KEEP as HTML (unchanged + clarifications)</h2>
+<table>
+<tr><th>File</th><th>Reason</th></tr>
+<tr><td><code>eight-tier-v10.html</code></td><td class="keep">KEEP — canonical RCV 8-tier decomposition with MathJax; source for AIT methodology. <strong>Atmospheric references here will need C7 patch application.</strong></td></tr>
+<tr><td><code>error-out-v10.html</code></td><td class="keep">KEEP — confirmed duplicate of eight-tier-v10 content (different file, same substance). Apply C7/C8 patches here too.</td></tr>
+<tr><td><code>commons_bonds_integrated_framework.html</code></td><td class="keep">KEEP — <strong>C6 patch ready; apply manually.</strong> Post-apply: move to <code>core/</code>. Post-naming-review: apply C7/C8 if layer-name references exist.</td></tr>
+<tr><td><code>CommonsBondsTechnicalAppendixv0_0_2.html</code></td><td class="keep">KEEP — Full technical appendix (123KB, v0.0.2, canonical). Contains A.8 abundance-layer definitions and Tier 1 attribution. <strong>C7/C8 patches will touch this.</strong> Note: file header metadata says "v0.0.1" but filename is v0_0_2 — minor inconsistency, worth confirming on next touch.</td></tr>
+<tr><td><code>08_technical_appendix.html</code></td><td class="keep">KEEP — WS08 stub (math)</td></tr>
+<tr><td><code>Chapter__6_Draft.html</code></td><td class="keep">KEEP — Ch6 first prose draft (inline math). Highest-likelihood chapter for layer-name references; audit post-naming-review.</td></tr>
+<tr><td><code>commons_bonds_full_economy_simulation.html</code></td><td class="keep">KEEP — interactive simulation (JavaScript)</td></tr>
+<tr><td><code>commons_bonds_updated_glossary_v2.html</code></td><td class="keep">KEEP .html indefinitely — canonical v10 eight-tier glossary. C3 patches 4A/4B/4C to apply. <strong>C7/C8 patches will touch this (Abundance Layer term definition lists all seven layers).</strong></td></tr>
+<tr><td><code>Chapter__6_ThreeWaysofCounting.html</code></td><td class="keep">KEEP original archived; .md converted v1.10.0</td></tr>
+<tr><td><code>commons_bonds_c6_decision_memo_1_0_0.html</code></td><td class="keep">KEEP — superseded but retained for methodology history</td></tr>
+<tr><td><code>commons_bonds_c6_decision_memo_2_0_0.html</code></td><td class="keep">KEEP — canonical C6 analysis; first worked example under the protocol</td></tr>
+<tr><td><code>commons-bonds-session-handoff-*.html</code></td><td class="keep">KEEP — session management docs (per user preferences)</td></tr>
+</table>
+
+<h3>Files newly canonical as .md (format decision from this session)</h3>
+<table>
+<tr><th>File</th><th>Status</th></tr>
+<tr><td><code>commons_bonds_rigor_protocol_1_1_0.md</code></td><td class="new">CANONICAL — current rigor protocol. Upload at session start.</td></tr>
+<tr><td><code>commons_bonds_rigor_protocol_1_0_0.md</code></td><td class="skip">SUPERSEDED — remove from upload set, archive</td></tr>
+<tr><td><code>commons_bonds_layer_tier_stress_test_1_0_0.md</code></td><td class="new">CANONICAL — second worked example. Reference material for naming review and any future layer/tier claims.</td></tr>
+<tr><td><code>c6_integrated_framework_taxonomy_patch.md</code></td><td class="new">CANONICAL — C6 patch, awaiting manual GitHub apply</td></tr>
+</table>
+
+<h2>Watch items</h2>
+<div class="watch">
+<ul style="margin-bottom: 0;">
+  <li><strong>NAMING REVIEW IS TOP PRIORITY NEXT SESSION.</strong> Do not produce C7 or C8 patches before user walks through all 7 layers and all 9 tiers and signs off on each. This is the project's third rename round; user wants a stable basis before committing more patches. Pre-computed material in stress test memo §3 and §4 accelerates the walk-through but does not substitute for explicit sign-off.</li>
+  <li><strong>Rigor protocol v1.1.0 is canonical; v1.0.0 is superseded.</strong> Upload v1.1.0 at next session start; remove v1.0.0 from working set.</li>
+  <li><strong>Multi-scale test now requires off-Earth exemplar.</strong> Any future architectural or stakeholder-facing claim must be run against both Earth-baseline and off-Earth/engineered-habitat exemplar readers per scale. This is not optional in v1.1.0.</li>
+  <li><strong>"And other" pattern is now standard for revealed-costs lists.</strong> Prevents name lock-in on a single environment-specific interpretation (the failure mode Atmospheric had). Applied in Life-support and Spatial candidate descriptions. Should be applied to all future layer-level description revisions.</li>
+  <li><strong>Claude has no GitHub access.</strong> All files delivered via <code>present_files</code>. Chris pushes manually.</li>
+  <li><strong>No Drive uploads from Claude.</strong> Heredoc truncation risk. Chris uploads to Drive and GitHub manually.</li>
+  <li><strong>C6 awaiting manual GitHub apply.</strong> Patch produced this session; joins C1–C5 in manual queue.</li>
+  <li><strong>Tier 8 finding still candidate for C3 addendum.</strong> From C6 v2.0.0 §5: FGC has no political capture analog — pedagogical illustration of why mechanism and shield must be distinguished. Consider folding into C3 patch notes for Ch2, Ch6, Ch10. Can bundle with C7/C8 patch session or produce separately.</li>
+  <li><strong>Do not touch <code>/Noema/</code> or <code>/Berggruen Institute - Essay/</code> folders.</strong> Ever.</li>
+  <li><strong>Do not rename Drive files.</strong> Migration is read-only on Drive side.</li>
+  <li><strong>Math files stay .html.</strong> Ch6 Draft, Tech Appendix, eight-tier-v10, error-out-v10, integrated framework (post-C6 patch), simulation, glossary — never convert.</li>
+  <li><strong>Session handoff files stay .html</strong> per user preferences. Candidate for preferences review: conversion to .md would save ~8–12k chars per handoff but loses some visual structure; defer to preferences drafting.</li>
+  <li><strong>Methodology docs default to .md</strong> — established this session. Candidate for permanent preferences addition.</li>
+  <li><strong>Workstreams WS01–17 are DONE</strong> (format conversion). C2/C4 patches add content; apply manually by Chris in GitHub.</li>
+  <li><strong>Technical Appendix is v0.0.2</strong> — filename. Metadata header reads v0.0.1. Minor inconsistency; confirm on next touch.</li>
+  <li><strong>C3 patch 3 (Ch2):</strong> Insert mechanism/shield paragraph after first "spatial cost severance" introduction.</li>
+  <li><strong>C3 patches 1A–1D (Ch10):</strong> Apply when Ch10 draft is next open in GitHub.</li>
+  <li><strong>C3 patch 2 (Ch6 Draft):</strong> Apply when Ch6 draft is next open in GitHub.</li>
+  <li><strong>C5 patch — apply during D3/B2 conversion:</strong> Add two-path template as header section when converting <code>commons-bonds-rigor-test.docx</code> (D3) and <code>commons-bonds-rigor-testing-roles.html</code> (B2). B2 and D3 content also now referenced in rigor protocol — coordinate to avoid duplication.</li>
+  <li><strong>Preferences review TODO:</strong> 5 candidates captured; drafting deferred to after naming review.</li>
+  <li><strong>Demographic watch (individual scale):</strong> manifestation-paragraph-level fix, not layer rename. Revisit after WS02/WS03 drafting.</li>
+  <li><strong>Political watch (US partisan connotation):</strong> abstract framework use disambiguates; manifestation-paragraph language can further clarify.</li>
+</ul>
+</div>
+
+<h2>Notes on methodology / process (established this session)</h2>
+<div class="info">
+<ul style="margin-bottom: 0;">
+  <li><strong>Routing before testing.</strong> Classify the claim (tier-level, architectural, stakeholder-facing, novelty, applied-policy) before running tests. Union when multiple categories apply. Codified in protocol §3.</li>
+  <li><strong>Failing test is a finding, not a veto.</strong> A failed test surfaces a gap; response is refine, accept with documentation, or reject. Silence on a failed test is the illegitimate outcome.</li>
+  <li><strong>Two-path first.</strong> For architectural claims, run two-path first (Paths 1 and 2 at all relevant scales and environment types). AIT and ten-critic are cross-checks, not primary. This is what the C6 v1.0.0 → v2.0.0 rerun taught.</li>
+  <li><strong>Off-Earth exemplar is not speculation.</strong> The framework's universality claim covers these cases. Exercising the tests against engineered-habitat readers now catches failure modes that would otherwise only appear in application.</li>
+  <li><strong>"And other" pattern for class-defining lists.</strong> Prevents name lock-in. Apply to revealed-costs lists, manifestation paragraphs where a class is being named, glossary entries with multi-instance definitions.</li>
+  <li><strong>Naming convention (unchanged):</strong> <code>Chapter_#_Title_Draft.md</code> = prose draft. <code>Chapter_#_Title_GuidanceDoc.md</code> = guidance doc. Decision memos: <code>commons_bonds_{topic}_{v#_#_#}.html</code> or <code>.md</code>. Patches: <code>c{N}_{topic}_patch.md</code>. Methodology docs: <code>commons_bonds_{topic}_{v#_#_#}.md</code>. Handoffs: <code>commons-bonds-session-handoff-YYYY-MM-DD_{v#_#_#}.html</code>.</li>
+  <li><strong>Handoff versioning:</strong> v1.20.0 → v1.21.0 for next session; keep date prefix as 2026-04-20 until date changes.</li>
+</ul>
+</div>
+
+<h2>Full WS + session conversion log (extended from v1.18.0)</h2>
+<table>
+<tr><th>File</th><th>Format</th><th>Chars</th><th>CSS leaks</th><th>Session</th></tr>
+<tr><td><code>commons_bonds_rigor_protocol_1_1_0.md</code></td><td>.md (methodology)</td><td>32,509</td><td>0</td><td>v1.20.0 (canonical; supersedes 1.0.0)</td></tr>
+<tr><td><code>commons_bonds_layer_tier_stress_test_1_0_0.md</code></td><td>.md (decision memo / audit)</td><td>32,996</td><td>0</td><td>v1.20.0</td></tr>
+<tr><td><code>commons_bonds_rigor_protocol_1_0_0.md</code></td><td>.md (methodology)</td><td>27,078</td><td>0</td><td>v1.20.0 (superseded)</td></tr>
+<tr><td><code>c6_integrated_framework_taxonomy_patch.md</code></td><td>.md (patch)</td><td>16,653</td><td>0</td><td>v1.20.0</td></tr>
+<tr><td><code>commons_bonds_c6_decision_memo_2_0_0.html</code></td><td>.html (decision memo)</td><td>32,268</td><td>N/A</td><td>v1.18.0</td></tr>
+<tr><td><code>commons_bonds_c6_decision_memo_1_0_0.html</code></td><td>.html (decision memo)</td><td>33,395</td><td>N/A</td><td>v1.18.0 (superseded)</td></tr>
+<tr><td><code>Chapter__9_TheRenewableImperative_GuidanceDoc.md</code></td><td>.md</td><td>6,403</td><td>0</td><td>v1.17.0</td></tr>
+<tr><td><code>Chapter__9_TheRenewableImperative_Draft.md</code></td><td>.md</td><td>40,906</td><td>0</td><td>v1.17.0</td></tr>
+<tr><td><code>Chapter__8_WhatThingsActuallyCost_Draft.md</code></td><td>.md</td><td>29,029</td><td>0</td><td>v1.17.0</td></tr>
+<tr><td><code>Chapter__5_TheAccountabilityGap_Draft.md</code></td><td>.md</td><td>18,104</td><td>0</td><td>v1.17.0</td></tr>
+<tr><td><code>Chapter__5_TheAccountabilityGap_GuidanceDoc.md</code></td><td>.md</td><td>3,008</td><td>0</td><td>v1.17.0</td></tr>
+<tr><td><code>AuthorsNote_OnWindTunnelsAndAI.md</code></td><td>.md</td><td>6,955</td><td>0</td><td>v1.17.0</td></tr>
+<tr><td><code>Dedication.md</code></td><td>.md</td><td>852</td><td>0</td><td>v1.17.0</td></tr>
+<tr><td><code>Chapter__7_TheColonyAdministrator_GuidanceDoc.md</code></td><td>.md</td><td>38,670</td><td>0</td><td>v1.16.0</td></tr>
+<tr><td><code>Chapter__7_TheColonyAdministrator_Draft.md</code></td><td>.md</td><td>30,571</td><td>0</td><td>v1.16.0</td></tr>
+<tr><td><code>Chapter__4_TheExistenceProof_Draft.md</code></td><td>.md</td><td>19,274</td><td>0</td><td>v1.16.0</td></tr>
+<tr><td><code>Chapter__4_TheExistenceProof_GuidanceDoc.md</code></td><td>.md</td><td>7,635</td><td>0</td><td>v1.16.0</td></tr>
+<tr><td><code>Chapter__2_TheMiner_GuidanceDoc.md</code></td><td>.md</td><td>17,121</td><td>0</td><td>v1.16.0</td></tr>
+<tr><td><code>Chapter_10_CommonBonds_Draft.md</code></td><td>.md</td><td>38,407</td><td>0</td><td>v1.15.0</td></tr>
+<tr><td><code>Chapter_10_GuidanceDoc.md</code></td><td>.md</td><td>3,567</td><td>0</td><td>v1.15.0</td></tr>
+<tr><td><code>c3_mechanism_shield_patch.md</code></td><td>.md (patch)</td><td>17,005</td><td>0</td><td>v1.15.0</td></tr>
+<tr><td><code>Chapter__2_TheMiner_Draft.md</code></td><td>.md</td><td>27,149</td><td>0</td><td>v1.14.0</td></tr>
+<tr><td><code>Chapter__1_ThePlane.md</code></td><td>.md</td><td>7,531</td><td>0</td><td>v1.14.0</td></tr>
+<tr><td><code>Chapter__3_TheWaterman.md</code></td><td>.md</td><td>1,577</td><td>0</td><td>v1.14.0</td></tr>
+<tr><td><code>commons-bonds-chapter-1-extension.md</code></td><td>.md</td><td>8,979</td><td>0</td><td>v1.14.0</td></tr>
+<tr><td><code>commons_bonds_chapter_assessment.md</code></td><td>.md</td><td>8,858</td><td>0</td><td>v1.14.0</td></tr>
+<tr><td><code>CommonsBondsTechnicalAppendixv0_0_2.html</code></td><td>.html</td><td>123,432</td><td>0 (body)</td><td>v1.12.0</td></tr>
+<tr><td><code>commons_bonds_updated_glossary_v2.html</code></td><td>.html</td><td>26,898</td><td>0</td><td>v1.12.0</td></tr>
+<tr><td><code>Chapter__6_ThreeWaysofCounting.md</code></td><td>.md</td><td>36,740</td><td>0</td><td>v1.10.0</td></tr>
+<tr><td>WS01–17</td><td>.md</td><td>(various)</td><td>0</td><td>v1.0.0–v1.8.0</td></tr>
+</table>
+
+<h2>Conversion pipeline (proven, unchanged)</h2>
+<pre>
+pip install markdownify beautifulsoup4 --break-system-packages -q
+
+cat /mnt/user-data/uploads/{filename}.html | python3 -c "
+import sys, re
+from bs4 import BeautifulSoup
+from markdownify import markdownify
+
+html = sys.stdin.read()
+soup = BeautifulSoup(html, 'html.parser')
+for tag in soup.find_all(['style', 'script']):
+    tag.decompose()
+md = markdownify(str(soup), heading_style='ATX', bullets='-')
+md = re.sub(r'\n{3,}', '\n\n\n', md).strip() + '\n'
+print(md)
+" &gt; /mnt/user-data/outputs/{filename}.md
+
+# Spot checks:
+# CSS leak:  grep -c "font-family\|body {" output.md  → must be 0
+# Char count: wc -c output.md
+# Math check: grep -c "mathjax\|MathJax" file.html
+# Head:       head -25 output.md
+# Tail:       tail -6 output.md
+</pre>
+
+<h2>Uploaded this session (for reference)</h2>
+<p>Files Chris uploaded during the v1.19.0→v1.20.0 session (all retained in <code>/mnt/user-data/uploads/</code> only for the session; not converted during this session):</p>
+<ul>
+<li><code>commons-bonds-session-handoff-2026-04-20_1_18_0.html</code> — prior handoff (read for continuity)</li>
+<li><code>commons_bonds_c6_decision_memo_1_0_0.html</code> — C6 memo v1.0.0 (for §7.3 reconciliation paragraph reference during C6 patch drafting)</li>
+<li><code>commons_bonds_c6_decision_memo_2_0_0.html</code> — C6 memo v2.0.0 (first worked example reference; drawn from throughout session for C6 patch and protocol building)</li>
+<li><code>eight-tier-v10.html</code> — uploaded mid-session for atmospheric-scope mapping during Life-support rename</li>
+<li><code>error-out-v10.html</code> — uploaded mid-session; confirmed duplicate of eight-tier-v10 content</li>
+<li><code>TechnicalAppendix_v0_0_2.html</code> — uploaded mid-session for atmospheric-scope mapping (contains A.8 AIT + C.2 layer definitions)</li>
+<li><code>commons_bonds_updated_glossary_v2.html</code> — uploaded mid-session for atmospheric-scope mapping (contains Abundance Layer term listing all seven layers)</li>
+<li><code>eight-tier-decomposition-v10.md</code> — uploaded mid-session (content extracted directly in session via documents tag; canonical .md version of the decomposition)</li>
+</ul>
+
+<p class="meta">End of session handoff v1.20.0. <strong>Top priority for next session: full layer + tier naming review with user sign-off on each, using stress test memo §3 and §4 as starting point.</strong> All further rename patches (C7 Life-support, C8 Spatial candidate) held pending sign-off. C6 patch produced this session joins C1–C5 in manual-apply queue. Rigor protocol v1.1.0 is canonical.</p>
+
+</body>
+</html>
