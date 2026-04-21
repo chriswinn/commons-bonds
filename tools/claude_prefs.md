@@ -11,9 +11,9 @@
 - Naming convention (Commons Bonds):
     Chapters:     Chapter_#_Title_Draft.md / Chapter_#_Title_GuidanceDoc.md
     Patches:      c{N}_{topic}_patch.md
-    Methodology:  commons_bonds_{topic}_{v#_#_#}.md or .html
-    Handoffs:     commons-bonds-session-handoff-YYYY-MM-DD_{v#_#_#}.html
-    Versioned files: add _{v#_#_#} suffix, increment rightmost digit per update.
+    Methodology:  commons_bonds_{topic}_{v#.#.#}.md or .html
+    Handoffs:     commons-bonds-session-handoff-YYYY-MM-DD_{v#.#.#}.html
+    Versioned files: add _{v#.#.#} suffix, increment rightmost digit per update.
 
 ## Session handoff rule
 - When a session grows heavy, produce a handoff file before context runs out —
@@ -48,6 +48,16 @@ new layer.
 
 **Operating discipline:** "Push harder so we only rewrite once." Apply to
 layer set, protocol, AIT positioning, and chapter framing — not just wording.
+
+## Privacy rules
+- Exclude personal financial details (specific assets, income sources, dollar
+  figures, budget tiers) from outputs intended for external or public use:
+  GitHub repos, shared docs, templates, public examples, anything that will
+  leave my private workspace. Private context (memory, methodology files,
+  internal drafts, session handoffs) is fine — the rule applies to outputs
+  intended to be seen by others.
+- When producing an example or template that draws on a real project of mine,
+  scrub financial specifics by default; ask if in doubt.
 
 **Hard rules:**
 - Never touch /Noema/ or /Berggruen Institute - Essay/ Drive folders. Ever.
