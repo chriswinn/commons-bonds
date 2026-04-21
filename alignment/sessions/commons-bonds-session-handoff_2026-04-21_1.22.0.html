@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-21 · v1.22.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  h4 { font-size: 0.95em; margin-top: 1.2em; font-weight: 600; color: #444; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status   { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume   { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch    { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info     { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .operating { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done    { color: #1a6a2a; font-weight: 600; }
+  .pending { color: #a2260b; font-weight: 600; }
+  .hold    { color: #cc7700; font-weight: 600; }
+  .new     { color: #6a4c9c; font-weight: 600; }
+  .version { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-21 · Version <span class="version">1.22.0</span> · Supersedes v1.21.0 · Meta-session: preferences optimization, session handoff abstraction project, public GitHub repo scaffolded. No CB content work. Fixes to handoff abstraction project are the top priority before resuming CB.</p>
+
+<div class="status">
+<strong>STATUS:</strong> Session was entirely meta — no Commons Bonds content work. Three outputs produced: (1) a revised preferences draft for Chris to paste into Settings > Profile; (2) a Commons Bonds–specific handoff template with the CB operating core pre-populated; (3) a public GitHub project (<code>claude-session-handoff</code>) containing README.md, MIT license, generic template.html, and a filled example using the sailboat project. All five files were delivered via <code>present_files</code> for manual download. The GitHub project has NOT been pushed yet — files are local only. Three issues were identified in the handoff abstraction output that need correction before the repo goes public: (a) personal financial detail in the sailboat example should be removed, (b) version numbering suffix (<code>_#_#_#</code>) is missing from document naming conventions throughout, (c) the Tartan 33 write-up incorrectly characterises the decision as ruling out the model class rather than that specific $500 boat at that condition/price. Additionally, Chris's userMemories content needs editing — that task is scoped for the start of next session, before any other work.
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY — Three-part sequence for next session</h2>
+
+<h3>Part 1 — Memory editing (do this first, before anything else)</h3>
+<ol>
+  <li>Chris uploads his userMemories content (or pastes it directly).</li>
+  <li>Claude reviews and proposes edits: remove or correct anything inaccurate, outdated, or that Chris flags.</li>
+  <li>Chris applies edits in Settings. Confirm done before proceeding.</li>
+</ol>
+<p><em>Why first:</em> corrected memory context should be in place before we touch any project files.</p>
+
+<h3>Part 2 — Finalize and push the handoff abstraction project</h3>
+<ol>
+  <li>Produce corrected <code>template_1_0_1.html</code> — add <code>_#_#_#</code> version suffix convention throughout naming guidance.</li>
+  <li>Produce corrected <code>examples/sailboat-project-example_1_0_1.html</code>:
+    <ul>
+      <li>Remove personal financial detail (Audient 8024 sale, rental income from inherited property).</li>
+      <li>Fix Tartan 33 characterisation: the decision was to pass on <em>that specific boat</em> at $500 given its condition — not to rule out Tartan 33s as a class. A Tartan 33 in good condition at a fair price remains a valid candidate. Rule of thumb established: if purchase price + repair estimate = compelling total value, the boat stays on the list regardless of repair-to-purchase ratio.</li>
+      <li>Add <code>_#_#_#</code> version suffix to filename and internal naming convention.</li>
+    </ul>
+  </li>
+  <li>Produce corrected <code>README_1_0_1.md</code> if any README content referenced the removed detail or naming convention — check before producing.</li>
+  <li>Produce corrected <code>commons-bonds-handoff-template_1_0_1.html</code> with <code>_#_#_#</code> suffix convention added.</li>
+  <li>Chris downloads all corrected files, pushes repo to GitHub, makes public.</li>
+</ol>
+
+<h3>Part 3 — Return to Commons Bonds: patches first, then layers</h3>
+<p>Chris's proposed ordering and rationale: patches first because they may have drifted from subsequent decisions — capture their value now before drift increases further. Layers and ratification after patches are applied and verified.</p>
+<ol>
+  <li>Chris uploads the patch files produced to date (C1–C6, C9) and the target files they apply to.</li>
+  <li>Claude applies each patch to its target file(s), produces integrated output, runs verification checks.</li>
+  <li>Chris reviews, downloads, pushes to GitHub.</li>
+  <li>Once all current patches are applied, open the naming cohort (ten candidate layers) per the v1.21.0 top priority.</li>
+</ol>
+<p><strong>Claude's note on ordering:</strong> This sequencing is sound. The one refinement worth considering: before applying patches, quickly confirm that C9 (AIT canonical positioning — the scaffolding-vs-load-bearing reframe) doesn't require a corresponding update to any patch target files that C1–C6 also touch. If C9 touches the same files, apply C9 first to avoid a merge conflict on the integrated output. This is a one-minute check at the start of Part 3, not a blocker.</p>
+</div>
+
+<h2>File inventory — session handoff abstraction project</h2>
+<table>
+  <thead><tr><th>File</th><th>Format</th><th>Status</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td><code>claude-session-handoff/README.md</code></td><td>.md</td><td><span class="pending">Needs review before push</span></td><td>Check for naming convention gap; produce v1_0_1 if needed</td></tr>
+    <tr><td><code>claude-session-handoff/template.html</code></td><td>.html</td><td><span class="pending">Needs correction → v1_0_1</span></td><td>Add _#_#_# suffix convention to naming guidance</td></tr>
+    <tr><td><code>claude-session-handoff/LICENSE</code></td><td>text</td><td><span class="done">Clean</span></td><td>MIT, no changes needed</td></tr>
+    <tr><td><code>claude-session-handoff/examples/sailboat-project-example.html</code></td><td>.html</td><td><span class="pending">Needs correction → v1_0_1</span></td><td>Remove financial detail; fix Tartan 33 language; add version suffix</td></tr>
+    <tr><td><code>commons-bonds-handoff-template.html</code></td><td>.html</td><td><span class="pending">Needs correction → v1_0_1</span></td><td>Add _#_#_# suffix to naming convention block</td></tr>
+  </tbody>
+</table>
+
+<h2>File inventory — Commons Bonds (unchanged from v1.21.0)</h2>
+<table>
+  <thead><tr><th>File</th><th>Format</th><th>Location</th><th>Status</th></tr></thead>
+  <tbody>
+    <tr><td><code>commons_bonds_rigor_protocol_1_1_0.md</code></td><td>.md</td><td>GitHub + Drive</td><td><span class="done">Canonical</span> — v1.2.0 additions drafted inline, not yet produced as doc</td></tr>
+    <tr><td><code>commons_bonds_layer_tier_stress_test_1_0_0.md</code></td><td>.md</td><td>GitHub + Drive</td><td><span class="done">Current</span> — still valid for layers 3, 4, 6, 7</td></tr>
+    <tr><td>Chapter 6 Draft</td><td>.html</td><td>Drive</td><td><span class="done">Drafted</span></td></tr>
+    <tr><td>Technical Appendix</td><td>.html</td><td>Drive</td><td><span class="hold">v0.0.2 filename / v0.0.1 internal metadata inconsistency — confirm on next touch</span></td></tr>
+    <tr><td>Patches C1–C6</td><td>.md</td><td>Local / Drive</td><td><span class="pending">Produced, not yet applied to target files</span></td></tr>
+    <tr><td>C9 AIT canonical positioning patch</td><td>.md</td><td>Local / Drive</td><td><span class="pending">Produced this session, not yet applied — apply before or with C1–C6 bundle</span></td></tr>
+    <tr><td>C7, C8</td><td>.md</td><td>—</td><td><span class="hold">On hold pending naming cohort sign-off</span></td></tr>
+  </tbody>
+</table>
+
+<h2>Watch items</h2>
+<div class="watch">
+<ul>
+  <li><strong>Memory editing is the first task next session.</strong> Chris will upload or paste userMemories content. Do not begin any project work until memory review is complete and Chris has applied updates.</li>
+  <li><strong>Handoff abstraction project is not public yet.</strong> Do not treat it as shipped until Chris confirms GitHub push.</li>
+  <li><strong>Personal financial detail removed from sailboat example.</strong> The corrected example should contain only publicly-shareable project context — boat models, qualification pathway, decision rules, marina logistics. No sale items, inheritance, or income sources.</li>
+  <li><strong>Tartan 33 rule clarified:</strong> Ruling out a specific boat at a specific price/condition is not ruling out a model class. Future evaluation rule: if (purchase price + repair estimate) represents compelling total value, the boat stays on the list regardless of whether repairs exceed purchase price.</li>
+  <li><strong>Version suffix convention (<code>_#_#_#</code>) must be added</strong> to all naming guidance in all handoff template files before push.</li>
+  <li><strong>CB patch ordering:</strong> Check C9 target file overlap with C1–C6 targets before applying. Apply C9 first if overlap exists.</li>
+  <li><strong>NAMING COHORT is still the CB top priority after patches.</strong> Ten candidate layers, merger + primitiveness checks at each step. See v1.21.0 §TOP PRIORITY for full workflow — unchanged.</li>
+  <li><strong>Claude has no GitHub access.</strong> All files via <code>present_files</code>. Chris pushes manually.</li>
+  <li><strong>No Drive writes from Claude.</strong> Heredoc truncation risk. Chris uploads manually.</li>
+  <li><strong>Never touch <code>/Noema/</code> or <code>/Berggruen Institute - Essay/</code> Drive folders.</strong></li>
+  <li><strong>Never rename Drive files.</strong> Migration is read-only on the Drive side.</li>
+  <li><strong>Math files stay .html.</strong> Ch6, Tech Appendix, eight-tier, error-out, glossary — never convert.</li>
+  <li><strong>Preferences draft produced this session</strong> — Chris to paste into Settings > Profile. Not yet applied. Do this before next session ideally so the CB operating core is live in preferences.</li>
+  <li><strong>Protocol v1.2.0 still pending</strong> — merger gate, primitiveness gate, revisitability additions drafted inline in v1.21.0; formal doc to be produced alongside naming cohort outcomes.</li>
+  <li><strong>Technical Appendix v0.0.2 vs v0.0.1 metadata inconsistency</strong> — still outstanding, confirm on next touch.</li>
+  <li><strong>Tier 8 finding as C3 addendum (optional)</strong> still in queue.</li>
+  <li><strong>Ch 2 primary-source upgrade pending</strong> — Appalachian land-grant material; integrate when Ch 2 is next open.</li>
+  <li><strong>Ch 9 civilization-scale Foreclosure extension pending</strong> — rare-earth / off-Earth-migration material; integrate when Ch 9 is next open.</li>
+  <li><strong>Ch 1 / Ch 10 NYC isolation material (Cohesion layer canonical non-co-occurring case)</strong> — integrate when those chapters open.</li>
+</ul>
+</div>
+
+<h2>Commons Bonds operating core (canonical — update only on protocol revision)</h2>
+<div class="operating">
+
+<h3>AIT positioning</h3>
+<p>The Abundance Interference Taxonomy is the framework's epistemic core. Layers are organizational scaffolding, not load-bearing structure. Layer additions, mergers, or renames are organizational revisions, not framework-integrity events. Canonical statement: C9 patch §3.</p>
+
+<h3>Two-path rigor test — apply before ratifying any architectural claim</h3>
+<ul>
+  <li><strong>Path 1 — Allocation symmetry:</strong> Is the structural value-capture / cost-bearing asymmetry present?</li>
+  <li><strong>Path 2 — Shield absence:</strong> Is the distance condition (the shielding mechanism) absent?</li>
+</ul>
+<p>Both paths must confirm. Structural allocation is the <em>mechanism</em> of cost severance. Distance is the <em>shielding condition</em>.</p>
+
+<h3>Merger gate — apply before ratifying any new or renamed layer</h3>
+<p>Demonstrate bilateral independence with cases in both directions: a case where Layer A costs occur without Layer B costs, and vice versa. If independence fails in either direction, merger is indicated.</p>
+
+<h3>Primitiveness gate — apply before ratifying any new layer</h3>
+<p>The layer's revealed costs must not decompose cleanly into compositions of existing layers. If they do, the candidate is a cross-layer concept, not a new layer.</p>
+
+<h3>Operating discipline</h3>
+<p><strong>"Push harder so we only rewrite once."</strong> Applies to layer set, protocol, AIT positioning, and chapter framing — not just wording.</p>
+
+<h3>Naming convention</h3>
+<pre>Chapters:    Chapter_#_Title_Draft.md  /  Chapter_#_Title_GuidanceDoc.md
+Patches:     c{N}_{topic}_patch.md
+Methodology: commons_bonds_{topic}_{v#_#_#}.md  or  .html
+Handoffs:    commons-bonds-session-handoff-YYYY-MM-DD_{v#_#_#}.html
+Versioned:   _{v#_#_#} suffix; increment rightmost digit per update</pre>
+
+<h3>Protocol version</h3>
+<p>v1.1.0 canonical. v1.2.0 additions (merger gate, primitiveness gate, revisitability) drafted inline in v1.21.0; formal doc to be produced alongside naming cohort outcomes.</p>
+
+</div>
+
+<h2>Methodology notes (this session)</h2>
+<div class="info">
+<ul>
+  <li><strong>Preferences architecture decision:</strong> CB operating core lives in both preferences (always-on convenience) and handoff files (self-contained, portable). For non-CB projects: handoff only, no preferences bloat. Handoff-as-self-contained-document is the more robust general design — preferences is a convenience layer on top.</li>
+  <li><strong>Two-template conclusion:</strong> One CB-specific template (operating core pre-populated), one generic template (operating core as fillable block). A third "public" variant is redundant — the generic template already serves that function.</li>
+  <li><strong>Boat evaluation rule (new):</strong> Ruling out a specific boat at a specific condition/price is not ruling out a model class. Evaluation criterion: if (purchase price + estimated repair cost) represents compelling total value, the boat is a candidate regardless of whether repairs exceed purchase price. A $500 boat needing $2,000 of work = $2,500 all-in; evaluate on all-in value, not the ratio.</li>
+  <li><strong>Memory editing sequencing:</strong> Do memory editing at the very start of a session, before any project work, so corrected context is active throughout.</li>
+  <li><strong>Session handoff versioning across project types:</strong> CB handoffs continue the v1.##.# sequence. Non-CB handoffs use their own independent sequence (e.g., sailboat-handoff-YYYY-MM-DD_v1_0_0.html).</li>
+</ul>
+</div>
+
+<h2>Resume instructions for next Claude instance</h2>
+<div class="resume">
+<p><strong>To the Claude instance reading this:</strong></p>
+<ol>
+  <li>Read this entire handoff before responding.</li>
+  <li><strong>First task: memory editing.</strong> Chris will upload or paste his userMemories content. Review it with him, propose corrections, and wait for him to confirm updates are applied before proceeding to anything else.</li>
+  <li><strong>Second task: finalize handoff abstraction project.</strong> Three files need correction (template, sailboat example, CB template) — see file inventory above. Produce corrected versions with _1_0_1 suffix, deliver via present_files. Chris then pushes to GitHub.</li>
+  <li><strong>Third task: CB patches.</strong> Chris uploads patch files C1–C6 and C9 plus their target files. Check C9 target overlap first. Apply patches, produce integrated output with verification checks, deliver for Chris to push.</li>
+  <li><strong>Fourth task: naming cohort.</strong> Ten candidate layers, full merger + primitiveness protocol. See v1.21.0 for the complete planned workflow — it remains the CB top priority and is unchanged.</li>
+  <li>The CB operating core in §above applies to all CB work. The two-path test, merger gate, and primitiveness gate are not optional — apply them.</li>
+  <li>Preferences draft was produced this session — if Chris has not yet applied it, remind him to do so before starting CB work so the operating core is active.</li>
+</ol>
+</div>
+
+<h2>Files uploaded this session</h2>
+<ul>
+  <li><code>commons-bonds-session-handoff-2026-04-21_1_21_0.html</code> — prior handoff, read at session start</li>
+</ul>
+
+<p class="meta" style="margin-top:3em; border-top:1px solid #ccc; padding-top:1em;">
+End of session handoff <span class="version">v1.22.0</span>. <strong>Next session sequence: (1) memory editing, (2) finalize + push handoff abstraction project, (3) CB patches C1–C9, (4) naming cohort for ten candidate layers.</strong>
+</p>
+
+</body>
+</html>
