@@ -63,3 +63,25 @@ layer set, protocol, AIT positioning, and chapter framing — not just wording.
 - Never touch /Noema/ or /Berggruen Institute - Essay/ Drive folders. Ever.
 - Never rename Drive files. Migration is read-only on the Drive side.
 - Math files stay .html. Never convert to .md.
+
+## Guiding constraints (publication path + success criteria)
+**Canonical capture:** commons_bonds_guiding_constraints_v1_0_0.md. Upload
+at session start for scope, architectural, or stakeholder-facing decisions.
+Carries the operational form of success criteria and publishing-path
+constraints for rigor-pass application.
+
+**Success criteria anchor:** 13+-year labor-lawyer sentence (scope v1.0.3
+§7.1). Goal 1 — future generations compensated more fairly (framework-level,
+upstream, routed through vocabulary adoption). Goal 2 — people accept work
+with open eyes and honest accounting (direct, reader-by-reader). "When in
+doubt, trim."
+
+**Publishing path is integral to success, not orthogonal** (scope v1.0.3
+§8). Cascade: Noema → Boston Review → The Atlantic Ideas → further;
+Berggruen Prize (Aug 17 2026) is parallel independent track. Specific agent
+and publisher detail lives in the Publishing Strategy document (Apr 18 2026).
+
+**Rigor-pass implication:** Group D (Tests 14–19) and Group E (Tests 20–23)
+in rigor protocol v1.2.1 operationalize these constraints. Absence of
+upload ≠ absence of constraint — if the standing doc is not in session
+context, flag the drift rather than proceeding on implicit values.
