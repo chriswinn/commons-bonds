@@ -1,12 +1,13 @@
 # Commons Bonds — Canonical Rigor Protocol
 
-**Version:** 1.2.1
+**Version:** 1.2.2
 **Date:** 2026-04-22
-**Status:** Canonical. Clarifications patch over ratified v1.2.0.
-**Supersedes:** v1.2.0 (2026-04-21, ratified 2026-04-22), v1.1.0 (2026-04-20), and v1.0.0 (2026-04-21 parallel-lineage artifact).
+**Status:** Canonical. Terminology patch over ratified v1.2.1.
+**Supersedes:** v1.2.1 (2026-04-22 morning, clarifications patch), v1.2.0 (2026-04-21, ratified 2026-04-22), v1.1.0 (2026-04-20), and v1.0.0 (2026-04-21 parallel-lineage artifact).
 **Absorbs:** v1.0.0's expanded test catalog (Groups B/C/D/E/F), expanded character pressure suite (25 characters across Groups G–L), full-vs-light rigor axis, and formal revisitability section. Also ships the v1.21.0 drafted additions (merger gate, primitiveness gate, rejected-candidates-revisitable) as formal protocol content.
 **Supersession notes:** v1.1.0's Test 5 (four realistic success criteria) is superseded by the newer success-criteria articulation in Group E (Goal-1 / Goal-2 / labor-lawyer-in-2039) that emerged in the v1.24.0 scope work. v1.1.0's ten-critic standing battery is mapped into the expanded 25-character roster; four unmapped critics are preserved as a Methodological Defense sub-battery.
-**v1.2.1 patch scope:** Integrates findings from the 2026-04-22 triage (`commons_bonds_rigor_vs_layers_triage_v1_0_0.md`) and rigor pass record (`commons_bonds_rigor_pass_2026-04-22_v1_0_0.md`). Clarifications, cross-references, one substantive correction (Test 13 layer-level scope), and one shield-typology addition (consent-normalization). No structural changes to the test catalog.
+**v1.2.2 patch scope:** Container-term rename "dimension" → "dimension" throughout (per session v1.28.0 meta-term rigor pass — "dimensions" accurately captures independence + compositional structure; "dimensions" implied stacking/hierarchy that was structurally false). Updated references to Habitability (was Atmospheric) and Ecosystem (was Ecological) dimensions where named. Path prefixes for c5 and c9 patches already updated (moved to `alignment/patches/` in session v1.28.0→v1.29.0 reorg). Historical references preserved where referring to filenames or document titles created before 2026-04-22 (e.g., the archived `commons_bonds_layer_tier_stress_test_1_0_0.md` retains "dimension" in filename as historical document reference). No structural changes to the test catalog.
+**v1.2.1 patch scope (historical):** Integrated findings from the 2026-04-22 morning triage (`commons_bonds_rigor_vs_layers_triage_v1_0_0.md`) and rigor pass record (`commons_bonds_rigor_pass_2026-04-22_v1_0_0.md`). Clarifications, cross-references, one substantive correction (Test 13 dimension-level scope), and one shield-typology addition (consent-normalization). No structural changes to the test catalog.
 **References (not absorbed):** `eight-tier-v10.html` (AIT source), `alignment/patches/c5_two_path_rigor.md` (two-path source), `commons-bonds-success-criteria_11.html` (earlier success criteria source), `commons_bonds_c6_decision_memo_2_0_0.html` (first worked example), `commons_bonds_layer_tier_stress_test_1_0_0.md` (second worked example), `commons_bonds_rigor_pass_2026-04-21_v1_0_0.md` (third worked example — v1.24.0 scope rigor passes), `alignment/patches/c9_ait_canonical_positioning_patch.md` (AIT scaffolding-vs-load-bearing canonical).
 
 ---
@@ -17,7 +18,7 @@ The Commons Bonds project has repeatedly produced high-stakes decisions (taxonom
 
 **Failure mode 1 (protocol-incompleteness):** In session v1.18.0, the C6 decision memo was produced in v1.0.0 using AIT + ten-critic but *without* the C5 two-path test, then had to be rerun as v2.0.0 when the missing test was flagged. The rerun surfaced a decisive new finding (the Tier 8 absence in the older FGC taxonomy) that the original battery had not produced.
 
-**Failure mode 2 (lineage-drift):** In session v1.24.0, a new rigor protocol was produced and labeled v1.0.0 without awareness that v1.1.0 was already canonical. The new artifact introduced expanded coverage (25 tests, 25 characters) but silently dropped three canonical elements from v1.1.0: the AIT Falsifiability Gate, the Multi-scale × 2 environments requirement, and the procedural fill-in template. The v1.24.0 session also silently regressed the abundance-layer set from 10 (canonical per v1.21.0) to 7, which the three rigor passes then assumed.
+**Failure mode 2 (lineage-drift):** In session v1.24.0, a new rigor protocol was produced and labeled v1.0.0 without awareness that v1.1.0 was already canonical. The new artifact introduced expanded coverage (25 tests, 25 characters) but silently dropped three canonical elements from v1.1.0: the AIT Falsifiability Gate, the Multi-scale × 2 environments requirement, and the procedural fill-in template. The v1.24.0 session also silently regressed the abundance-dimension set from 10 (canonical per v1.21.0) to 7, which the three rigor passes then assumed.
 
 This protocol (v1.2.0) exists to prevent both failure modes. It consolidates every validated rigor test the project uses — v1.1.0's procedural battery plus v1.0.0's expanded coverage — into a single modular methodology document that can be uploaded at the start of any session and applied consistently.
 
@@ -61,11 +62,11 @@ All applicable tests from the routing in §4, plus the full 25-character pressur
 Required for:
 
 - Scope decisions (book boundaries, chapter scope, deferrals)
-- Architectural moves (new layers, new tiers, framework structural changes)
-- AIT methodology changes (adding/removing abundance layers, inversion-test modifications)
+- Architectural moves (new dimensions, new tiers, framework structural changes)
+- AIT methodology changes (adding/removing abundance dimensions, inversion-test modifications)
 - Publishing path decisions (cascade restructuring, venue changes)
 - Success criteria revisions
-- New layer candidates during naming cohorts
+- New dimension candidates during naming cohorts
 - Chapter-level structural changes (adding, removing, reordering chapters)
 - Canonical decisions affecting Book One / Two / Three scope
 - Any decision whose reversal would require rewriting already-drafted content
@@ -119,7 +120,7 @@ Not every decision needs every test. Classify first; route second. When multiple
 
 **Rationale:** The Commons Bonds framework derives costs from scarcity structure. A proposed cost category that persists even under abundance is not scarcity-grounded and therefore not a framework-compatible cost. AIT falsifiability protects the framework from absorbing phenomenological or moral categories that masquerade as structural.
 
-**Canonical positioning (C9 patch §3):** The Abundance Interference Taxonomy is the framework's epistemic core. Layers are organizational scaffolding, not load-bearing structure. Layer additions, mergers, or renames are organizational revisions, not framework-integrity events.
+**Canonical positioning (C9 patch §3):** The Abundance Interference Taxonomy is the framework's epistemic core. Dimensions are organizational scaffolding, not load-bearing structure. Dimension additions, mergers, or renames are organizational revisions, not framework-integrity events.
 
 **Procedure:**
 
@@ -175,7 +176,7 @@ For the claim under evaluation:
 - Does the claim correctly name the shield? (Unnamed shields cannot be dissolved.)
 - Does the architecture of the claim itself create a new shield? (Serious Path 2 failure. Example from C6: parallel taxonomies create a switch-arguing shield where claims are rescued by reassignment.)
 
-**Shield-typology note — consent-normalization (added v1.2.1):** Individual consent, when treated by the surrounding social, legal, and institutional framework as terminally closing the accounting — "they chose it, no one owes them anything" — operates as a structural social shield even when individual awareness is complete. The shield is not at the individual-recognition level; it operates at the level of social-accounting terminus. A knowledge worker who knowingly traded personal life for 120+ hour weeks is not shield-absent by virtue of their awareness; the shield is the framework that treats their consent as closing the owing. Consent-normalization applies particularly to Institutional, Temporal, and Agency layer cases. See rigor pass record `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` §5 for full treatment.
+**Shield-typology note — consent-normalization (added v1.2.1):** Individual consent, when treated by the surrounding social, legal, and institutional framework as terminally closing the accounting — "they chose it, no one owes them anything" — operates as a structural social shield even when individual awareness is complete. The shield is not at the individual-recognition level; it operates at the level of social-accounting terminus. A knowledge worker who knowingly traded personal life for 120+ hour weeks is not shield-absent by virtue of their awareness; the shield is the framework that treats their consent as closing the owing. Consent-normalization applies particularly to Institutional, Temporal, and Agency dimension cases. See rigor pass record `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` §5 for full treatment.
 
 Verdict: PASS / FAIL / CONDITIONAL.
 
@@ -191,27 +192,27 @@ Verdict: PASS / FAIL / CONDITIONAL.
 
 **Source:** v1.21.0 drafted protocol additions (merger gate, primitiveness gate), formally shipped in this version.
 
-Any proposed layer addition, split, merger, or rename must clear two gates before ratification.
+Any proposed dimension addition, split, merger, or rename must clear two gates before ratification.
 
 **Merger gate (outward):**
 
-Does the candidate substantially overlap with any existing layer such that they should be merged? Test by searching for bilateral independence cases — real-world instances where one is abundant and the other is scarce, in both directions. If independence cases don't exist in both directions, merger is indicated.
+Does the candidate substantially overlap with any existing dimension such that they should be merged? Test by searching for bilateral independence cases — real-world instances where one is abundant and the other is scarce, in both directions. If independence cases don't exist in both directions, merger is indicated.
 
-Example (from v1.21.0 Cohesion ratification): Cohesion vs. Demographic. Case A (Demographic abundance, Cohesion scarcity): Bowling Alone suburban US metros. Case B (Demographic scarcity, Cohesion abundance): small cohesive religious communities below specialist-sustaining threshold. Both directions confirmed → layers remain distinct.
+Example (from v1.21.0 Cohesion ratification): Cohesion vs. Demographic. Case A (Demographic abundance, Cohesion scarcity): Bowling Alone suburban US metros. Case B (Demographic scarcity, Cohesion abundance): small cohesive religious communities below specialist-sustaining threshold. Both directions confirmed → dimensions remain distinct.
 
 **Primitiveness gate (inward):**
 
-Does the candidate reduce to a composition of existing layers? Test by decomposing the candidate's revealed costs and checking whether each cost is already priced by an existing layer (or composition thereof). If all revealed costs decompose cleanly, the candidate is valid as a concept but redundant as a layer.
+Does the candidate reduce to a composition of existing dimensions? Test by decomposing the candidate's revealed costs and checking whether each cost is already priced by an existing dimension (or composition thereof). If all revealed costs decompose cleanly, the candidate is valid as a concept but redundant as a dimension.
 
-Example (from v1.21.0 Survivability rejection): Survivability's revealed costs decomposed cleanly into Tier 4 Foreclosure extended to civilization-scale timescales. Survivability was retained as a valid cross-layer concept but rejected as an independent layer.
+Example (from v1.21.0 Survivability rejection): Survivability's revealed costs decomposed cleanly into Tier 4 Foreclosure extended to civilization-scale timescales. Survivability was retained as a valid cross-dimension concept but rejected as an independent dimension.
 
 **Combined verdict:**
 
-A layer passes the distinctness gates when it clears AIT, passes both merger and primitiveness checks, and passes two-path and multi-scale. A candidate that fails either gate may still be useful as a cross-layer concept, manifestation-level framing, or tier-level attribution — but not as a standalone layer.
+A dimension passes the distinctness gates when it clears AIT, passes both merger and primitiveness checks, and passes two-path and multi-scale. A candidate that fails either gate may still be useful as a cross-dimension concept, manifestation-level framing, or tier-level attribution — but not as a standalone dimension.
 
 **Book-visibility note (added v1.2.1):** This test is load-bearing for taxonomy integrity but doesn't need heavy book-front prose. A short methodology passage and an appendix table (which candidates passed or failed which gate, and why) carries it. This is where the book earns credibility with the Ostrom-successor reader without belaboring the reader who just wants to price their situation. The canonical merger/primitiveness examples table for use in the book's methodology appendix is recorded in `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` §6.1.
 
-**Revisitability note:** Rejected candidates remain revisitable. A candidate concept that fails one framing may succeed under another as understanding of its underlying scarcity sharpens. Failure is a finding about the tested form, not a permanent verdict on the concept space. Re-test is warranted whenever new cases surface that existing layers don't price cleanly.
+**Revisitability note:** Rejected candidates remain revisitable. A candidate concept that fails one framing may succeed under another as understanding of its underlying scarcity sharpens. Failure is a finding about the tested form, not a permanent verdict on the concept space. Re-test is warranted whenever new cases surface that existing dimensions don't price cleanly.
 
 ### 5.4 Test 4 — Multi-Scale × Two-Environments Application
 
@@ -270,8 +271,8 @@ If a claim fails at any scale:
 Apply to scope-level claims, chapter-level structural changes, and decisions whose reversal would require rewriting drafted content.
 
 6. **Trying-to-do-too-much.** Does this increase chapter or book load without proportionate utility increase? A scope expansion must earn its position against the displacement it causes.
-7. **Cross-spectrum preservation.** Does this maintain the book's non-partisan framework positioning? Content that aligns with one political pole without independent framework grounding weakens the cross-spectrum claim. **(v1.2.1 layer-level note:** At the layer level, this test converges with Test 12 (cross-spectrum attack surface). They diverge at the chapter/case level — Test 7 is positioning (does the name read partisan?), Test 12 is reception (what attacks follow?). When assessing layers, run them as a unit; when assessing cases, run them separately.)
-8. **Load-bearing vs. scaffolding.** Is this structural (load-bearing) or organizational (scaffolding)? Scaffolding changes are cheap; load-bearing changes require higher bar. The AIT itself is load-bearing; abundance layers are scaffolding (C9 canonical). **(v1.2.1 layer-level note:** At the layer level this test is subsumed by Test 1 (AIT) per the C9 canonical positioning — load-bearing vs. scaffolding is an AIT-framing question, not an independent gate. Retained here for chapter-level and scope-level applications where the distinction is not purely about AIT.)
+7. **Cross-spectrum preservation.** Does this maintain the book's non-partisan framework positioning? Content that aligns with one political pole without independent framework grounding weakens the cross-spectrum claim. **(v1.2.1 dimension-level note:** At the dimension level, this test converges with Test 12 (cross-spectrum attack surface). They diverge at the chapter/case level — Test 7 is positioning (does the name read partisan?), Test 12 is reception (what attacks follow?). When assessing dimensions, run them as a unit; when assessing cases, run them separately.)
+8. **Load-bearing vs. scaffolding.** Is this structural (load-bearing) or organizational (scaffolding)? Scaffolding changes are cheap; load-bearing changes require higher bar. The AIT itself is load-bearing; abundance dimensions are scaffolding (C9 canonical). **(v1.2.1 dimension-level note:** At the dimension level this test is subsumed by Test 1 (AIT) per the C9 canonical positioning — load-bearing vs. scaffolding is an AIT-framing question, not an independent gate. Retained here for chapter-level and scope-level applications where the distinction is not purely about AIT.)
 9. **Displacement test.** What currently-planned content gets pushed out to make room for this? An addition without displacement is rare; most require something else to shrink or move.
 
 ---
@@ -282,15 +283,15 @@ Apply to decisions that change the author's exposure surface or operational cons
 
 10. **Lone-author vulnerability.** How does this expose the author to targeted response from concentrated interests? A framework-level book by a lone author is structurally more vulnerable than an institutionally-affiliated author's equivalent work.
 11. **Legal exposure.** Defamation, privacy, contract risk, NDA compatibility. Applies especially to CEO-era material, identifiable third parties, and policy claims about named actors.
-12. **Cross-spectrum attack surface.** What attacks does this invite from any direction (left, right, industry, academic)? Different from Test 7 (cross-spectrum preservation) — this is the reception/attack dimension; Test 7 is the positioning dimension. **(v1.2.1 layer-level convergence with Test 7 — see note under Test 7.)**
+12. **Cross-spectrum attack surface.** What attacks does this invite from any direction (left, right, industry, academic)? Different from Test 7 (cross-spectrum preservation) — this is the reception/attack dimension; Test 7 is the positioning dimension. **(v1.2.1 dimension-level convergence with Test 7 — see note under Test 7.)**
 13. **Career-risk compatibility.** Nursing licensing exposure, professional-community exposure, identifiability through workplace or credentialing bodies.
 
-**v1.2.1 correction — Test 13 layer-level relevance via canonical cases:** The original v1.2.0 framing implied this test was layer-indifferent. It is not. Career-risk does real work at the layer level when a layer's canonical cases involve industries capable of professional retaliation against the author. At minimum:
+**v1.2.1 correction — Test 13 dimension-level relevance via canonical cases:** The original v1.2.0 framing implied this test was dimension-indifferent. It is not. Career-risk does real work at the dimension level when a dimension's canonical cases involve industries capable of professional retaliation against the author. At minimum:
 - **Informational.** Canonical cases include tobacco-industry internal-research suppression, pharma data suppression, and the mapping of pharmaceutical sales geography to opioid-death rates in Appalachian counties. Any of these, even presented straightforwardly, can generate industry backlash that routes through professional channels (nursing boards, employer-adjacent networks, insurance credentialing bodies).
 - **Political.** Canonical cases include regulatory capture by industries whose lobbying networks interlock with healthcare financing. Discussion of how political capture interferes with public-health regulation carries similar routed backlash risk.
 - **Institutional (secondary).** CEO-era case content carries related exposure, partially addressed by the pre-drafting anonymization and NDA gates.
 
-**Implication:** A layer's canonical cases are not incidental to the layer; they are what the layer means in practice. Career-risk for specific layers is inherent, not incidental. Mitigation remains primarily case-level (how a specific case is presented and framed), but the test does gate certain layers differently from others. See rigor pass record `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` §4.1 for the source of this correction.
+**Implication:** A dimension's canonical cases are not incidental to the dimension; they are what the dimension means in practice. Career-risk for specific dimensions is inherent, not incidental. Mitigation remains primarily case-level (how a specific case is presented and framed), but the test does gate certain dimensions differently from others. See rigor pass record `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` §4.1 for the source of this correction.
 
 ---
 
@@ -301,7 +302,7 @@ Apply to decisions that affect publishing path, reception, or institutional plac
 14. **Publisher appeal.** Does this strengthen the publisher pitch? Publisher-appeal and framework-rigor can point in the same direction or opposite; when they diverge, rigor wins but the divergence must be named.
 15. **Noema / Berggruen placement fit.** Does this align with the cascade's venue profiles? Noema favors cross-spectrum long-form with intellectual-platform fit; Berggruen favors long-horizon institutional thinking with methodological depth.
 16. **Agent interest.** Commercial viability, media-appeal, pitch clarity.
-17. **Target reader recognition.** Can the intended readers (labor lawyers, community organizers, graduate students, individual workers) pattern-match their situation to this content? **(v1.2.1 layer-level note:** At the layer level, converges with Test 22 (Direct-to-Goal-2) — both ask whether individuals can pattern-match to the layer. They diverge at the book level: Test 17 is general target-reader fit, Test 22 is specifically Goal-2 alignment. Run as a unit at layer level.)
+17. **Target reader recognition.** Can the intended readers (labor lawyers, community organizers, graduate students, individual workers) pattern-match their situation to this content? **(v1.2.1 dimension-level note:** At the dimension level, converges with Test 22 (Direct-to-Goal-2) — both ask whether individuals can pattern-match to the dimension. They diverge at the book level: Test 17 is general target-reader fit, Test 22 is specifically Goal-2 alignment. Run as a unit at dimension level.)
 18. **Competitor / overlap.** Does substantively similar work already exist that would reduce this material's distinctiveness? The Harvey/Klein/Raworth compression test.
 19. **Decade-out durability.** Will this still hold in 13+ years? The canonical success criterion is a 13+-year horizon; claims that depend on present-moment artifacts (specific technologies, political moments, regulatory regimes) need explicit durability handling.
 
@@ -311,10 +312,10 @@ Apply to decisions that affect publishing path, reception, or institutional plac
 
 **Supersedes v1.1.0 Test 5.** The four realistic success criteria in v1.1.0 (vocabulary portability, individual applicability, community usability, next-gen scholarship) are superseded by the following tests, which tie to the specific goals and canonical sentence that emerged in the v1.24.0 scope work.
 
-20. **Vocabulary portability.** Does this help book vocabulary travel (Harvey/Klein/Raworth compression test)? Can the framework's key terms be compressed into citable phrases? **(v1.2.1 layer-level note:** Companion test with Test 23. At the layer level, Tests 20 and 23 are two framings of the same naming-pressure test — run them together when assessing layer names.)
+20. **Vocabulary portability.** Does this help book vocabulary travel (Harvey/Klein/Raworth compression test)? Can the framework's key terms be compressed into citable phrases? **(v1.2.1 dimension-level note:** Companion test with Test 23. At the dimension level, Tests 20 and 23 are two framings of the same naming-pressure test — run them together when assessing dimension names.)
 21. **Upstream-of-Goal-1.** Does this strengthen the book's contribution to "future generations compensated more fairly"? Goal-1 is the framework-success goal; contribution is indirect (through vocabulary adoption and institutional uptake).
-22. **Direct-to-Goal-2.** Does this strengthen the book's direct contribution to "people accept a job or project with open eyes and honest accounting"? Goal-2 is the individual-reader goal; contribution is direct (through individual-scale applicability). **(v1.2.1 layer-level convergence with Test 17 — see note under Test 17.)**
-23. **Labor-lawyer-in-2039 test.** Does this strengthen the canonical 13+-year success sentence — a labor lawyer using the vocabulary in a brief or open court without needing to explain it? **(v1.2.1 layer-level note:** Companion test with Test 20 — see note under Test 20.)
+22. **Direct-to-Goal-2.** Does this strengthen the book's direct contribution to "people accept a job or project with open eyes and honest accounting"? Goal-2 is the individual-reader goal; contribution is direct (through individual-scale applicability). **(v1.2.1 dimension-level convergence with Test 17 — see note under Test 17.)**
+23. **Labor-lawyer-in-2039 test.** Does this strengthen the canonical 13+-year success sentence — a labor lawyer using the vocabulary in a brief or open court without needing to explain it? **(v1.2.1 dimension-level note:** Companion test with Test 20 — see note under Test 20.)
 
 **"When in doubt, trim" heuristic (retained from v1.1.0):** If a proposed structure dilutes any of the four criteria, prefer the trimmed version. A simpler framework that travels beats a more sophisticated framework that does not.
 
@@ -328,7 +329,7 @@ Apply to any content claim, prose-level or framework-level.
 
 24. **Counterargument coverage.** Are the counterarguments this material invites identified and addressed? Especially: are "memoir dressed as framework," "self-serving reframing," and "selective case selection" covered where applicable?
 25. **Steelmannability.** Can the strongest critic engage with this, or does it rely on opponents being weaker than they would be?
-26. **Falsifiability.** Can specific claims be tested — is there empirical work that could disconfirm them? Absorbs v1.1.0's AIT-adjacent falsifiability critic into a general test. **(v1.2.1 layer-level note:** At the layer level, AIT (Test 1) is the falsifiability condition — scarcity-inversion is the test that falsifies a layer claim. Test 26 does its distinct work on empirical claims *within or about* layers (case-level empirical predictions), not on the layer definition itself. Treat as "falsifiability beyond AIT" when applied at layer level.)
+26. **Falsifiability.** Can specific claims be tested — is there empirical work that could disconfirm them? Absorbs v1.1.0's AIT-adjacent falsifiability critic into a general test. **(v1.2.1 dimension-level note:** At the dimension level, AIT (Test 1) is the falsifiability condition — scarcity-inversion is the test that falsifies a dimension claim. Test 26 does its distinct work on empirical claims *within or about* dimensions (case-level empirical predictions), not on the dimension definition itself. Treat as "falsifiability beyond AIT" when applied at dimension level.)
 27. **Empirical grounding.** Is this documented, or asserted? Asserted claims in a framework book require either explicit scoping ("illustrative," "argued") or upgrade to documented.
 
 ---
@@ -430,7 +431,7 @@ A short paragraph per character (one to three sentences) identifying the pressur
 1. Frame the claim explicitly.
 2. Run **two-path** (§5.2) first at all relevant scales.
 3. Apply **multi-scale × 2 environments matrix** (§5.4).
-4. Run **merger and primitiveness gates** (§5.3) if the claim proposes or modifies a layer.
+4. Run **merger and primitiveness gates** (§5.3) if the claim proposes or modifies a dimension.
 5. Run **AIT** (§5.1) as corroboration (especially for tier-level components).
 6. Run **character suite** (§11) as independent cross-check.
 7. Confirm **success criteria** alignment (Group E, §9).
@@ -444,7 +445,7 @@ A short paragraph per character (one to three sentences) identifying the pressur
 2. Run **AIT** first (is it scarcity-grounded?).
 3. Run **two-path** (is there real allocation asymmetry and a real shield?).
 4. Run **multi-scale × 2 environments** (does it work at all observer scales, or is it scale-locked?).
-5. Run **merger and primitiveness gates** against adjacent layers.
+5. Run **merger and primitiveness gates** against adjacent dimensions.
 6. Document. Character suite and success criteria are optional for tier-level; apply when the tier is being proposed for the canonical decomposition or retired from it.
 
 ### 13.3 Recommended sequence for stakeholder-facing claims
@@ -534,7 +535,7 @@ For each sub-claim or tier:
 - **Does architecture create a new shield?** [no / yes — specify]
 - **Verdict:** [PASS / FAIL / CONDITIONAL]
 
-### Test 3 — Merger / Primitiveness Gates (if layer claim)
+### Test 3 — Merger / Primitiveness Gates (if dimension claim)
 
 - **Merger gate:** [Case A direction: abundance of candidate, scarcity of adjacent; Case B direction: reverse. Bilateral independence: yes/no]
 - **Primitiveness gate:** [decomposition attempt; clean decomposition = FAIL; resists decomposition = PASS]
@@ -684,7 +685,7 @@ This documentation requirement exists so that future sessions can review what wa
 
 ### 16.1 First worked example — C6 Decision Memo v2.0.0
 
-The C6 memo is the first complete application of v1.1.0. It evaluates four options (retire FGC / parallel layers / reconcile / collapse via manifestations) against the two-path test at four scales, with AIT + ten-critic + success criteria as corroborative cross-checks.
+The C6 memo is the first complete application of v1.1.0. It evaluates four options (retire FGC / parallel dimensions / reconcile / collapse via manifestations) against the two-path test at four scales, with AIT + ten-critic + success criteria as corroborative cross-checks.
 
 | Test | Section in C6 memo v2.0.0 |
 |---|---|
@@ -705,8 +706,8 @@ The C6 memo is the first complete application of v1.1.0. It evaluates four optio
 
 | Test | Section in stress test memo |
 |---|---|
-| Protocol application per layer | §3 (seven sub-sections) |
-| Layer summary table | §3.8 |
+| Protocol application per dimension | §3 (seven sub-sections) |
+| Dimension summary table | §3.8 |
 | Tier-level rigor per tier | §4 (nine sub-sections) |
 | Tier summary table with verdicts | §4.10 |
 | Aggregate findings | §5 |
@@ -765,14 +766,14 @@ A test or character that fails to differentiate on one pass may differentiate on
 
 **v1.2.1 (2026-04-22):** Clarifications patch. Integrates findings from the 2026-04-22 triage (`commons_bonds_rigor_vs_layers_triage_v1_0_0.md`) and rigor pass record (`commons_bonds_rigor_pass_2026-04-22_v1_0_0.md`). Changes:
 - (1) Test 3 (§5.3): Added book-visibility note; cross-reference to rigor pass record §6.1 for the canonical merger/primitiveness examples table.
-- (2) Tests 7 and 12 (§§6–7): Marked layer-level convergence; noted they diverge at chapter/case level.
-- (3) Test 8 (§6): Noted subsumption under Test 1 at layer level per C9 canonical.
-- (4) Test 13 (§7): **Substantive correction** — career-risk does real work at layer level via canonical cases (particularly Informational and Political); the prior framing as layer-indifferent was wrong.
-- (5) Tests 17 and 22 (§§8–9): Marked layer-level convergence.
-- (6) Tests 20 and 23 (§9): Marked as companion tests at layer level.
-- (7) Test 26 (§10): Annotated as "falsifiability beyond AIT" at layer level.
+- (2) Tests 7 and 12 (§§6–7): Marked dimension-level convergence; noted they diverge at chapter/case level.
+- (3) Test 8 (§6): Noted subsumption under Test 1 at dimension level per C9 canonical.
+- (4) Test 13 (§7): **Substantive correction** — career-risk does real work at dimension level via canonical cases (particularly Informational and Political); the prior framing as dimension-indifferent was wrong.
+- (5) Tests 17 and 22 (§§8–9): Marked dimension-level convergence.
+- (6) Tests 20 and 23 (§9): Marked as companion tests at dimension level.
+- (7) Test 26 (§10): Annotated as "falsifiability beyond AIT" at dimension level.
 - (8) §5.2 Path 2: Added consent-normalization to shield typology; cross-reference to rigor pass record §5 for full treatment. Attribution to Chris for the conceptual finding surfaced in session v1.26.0.
-- No structural changes to the test catalog; all cross-references preserve tests' independent work at non-layer scales.
+- No structural changes to the test catalog; all cross-references preserve tests' independent work at non-dimension scales.
 
 **v1.2.0 (2026-04-21, ratified 2026-04-22):** Lineage-reconciliation revision. Absorbs v1.0.0 (parallel-lineage artifact produced in v1.24.0 session) into the v1.1.0 canonical lineage. Changes:
 - (1) Restored AIT Falsifiability Gate and Multi-scale × 2 Environments from v1.1.0, which v1.0.0 had silently dropped.
@@ -784,7 +785,7 @@ A test or character that fails to differentiate on one pass may differentiate on
 - (7) Added scope-level as a new claim type in the routing rule, with its own sequencing in §13.4.
 - (8) Added third worked example (v1.24.0 rigor pass record) and captured a third failure mode (lineage-drift) that this revision itself guards against.
 
-**v1.1.0 (2026-04-20):** Minor revision of v1.0.0 (original canonical). (1) Test 3 (multi-scale) expanded: each scale now tested against at least one Earth-baseline exemplar AND one off-Earth / engineered-habitat exemplar. (2) §4.2 AIT worked-examples table transcription fix. (3) §10 expanded to two worked examples with layer/tier stress test promoted.
+**v1.1.0 (2026-04-20):** Minor revision of v1.0.0 (original canonical). (1) Test 3 (multi-scale) expanded: each scale now tested against at least one Earth-baseline exemplar AND one off-Earth / engineered-habitat exemplar. (2) §4.2 AIT worked-examples table transcription fix. (3) §10 expanded to two worked examples with dimension/tier stress test promoted.
 
 **v1.0.0 (2026-04-20):** Initial canonical protocol. Consolidated AIT + two-path + multi-scale + ten-critic + success criteria. Five-route routing rule. Two-tier critic battery. Fill-in template. C6 Decision Memo v2.0.0 referenced as first complete worked example.
 

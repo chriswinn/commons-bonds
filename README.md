@@ -32,7 +32,7 @@ Strategic reasoning and content-assignment rules: [`alignment/decisions/sociolog
 
 | Component | Status | File |
 |---|---|---|
-| Rigor protocol | v1.2.1 canonical | [`tools/commons_bonds_rigor_protocol_v1_2_1.md`](tools/commons_bonds_rigor_protocol_v1_2_1.md) |
+| Rigor protocol | v1.2.1 canonical | [`tools/commons_bonds_rigor_protocol_v1.2.2.md`](tools/commons_bonds_rigor_protocol_v1.2.2.md) |
 | Abundance dimensions | 10 canonical (renamed from "layers" in v1.28.0) | [`tools/commons_bonds_abundance_layers_v1_0_0.md`](tools/commons_bonds_abundance_layers_v1_0_0.md) |
 | Book One scope | v1.0.3 canonical | [`tools/commons_bonds_book_scope_v1_0_3.md`](tools/commons_bonds_book_scope_v1_0_3.md) |
 | Guiding constraints | v1.0.0 canonical | [`tools/commons_bonds_guiding_constraints_v1_0_0.md`](tools/commons_bonds_guiding_constraints_v1_0_0.md) |

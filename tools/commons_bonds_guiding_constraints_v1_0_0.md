@@ -4,7 +4,7 @@
 **Version:** 1.0.0
 **Status:** Proposed — awaiting ratification at session close.
 **Supersedes:** none — first version of this document.
-**References (canonical sources):** `commons_bonds_book_scope_v1_0_3.md` §7 and §8 (primary source); `commons_bonds_rigor_protocol_v1_2_1.md` §8 (Group D) and §9 (Group E) (test implementation); Publishing Strategy document (Apr 18, 2026) for agent / publisher / tactical specifics beyond the cascade structure captured here.
+**References (canonical sources):** `commons_bonds_book_scope_v1_0_3.md` §7 and §8 (primary source); `commons_bonds_rigor_protocol_v1.2.2.md` §8 (Group D) and §9 (Group E) (test implementation); Publishing Strategy document (Apr 18, 2026) for agent / publisher / tactical specifics beyond the cascade structure captured here.
 
 ---
 
@@ -196,7 +196,7 @@ Version numbering: v1.0.1 for clarifications and minor updates; v1.1.0 for added
 | Document | Relationship |
 |---|---|
 | `commons_bonds_book_scope_v1_0_3.md` §7, §8 | Primary source. This document translates §7 and §8 into rigor-pass-applicable form. Scope remains canonical for what the book is. |
-| `commons_bonds_rigor_protocol_v1_2_1.md` §8, §9 | Test implementation. Group D (Tests 14–19) and Group E (Tests 20–23) implement the constraints carried here. |
+| `commons_bonds_rigor_protocol_v1.2.2.md` §8, §9 | Test implementation. Group D (Tests 14–19) and Group E (Tests 20–23) implement the constraints carried here. |
 | Publishing Strategy document (Apr 18, 2026) | Detail level below §2. Specific agents, publishers, cascade tactics, timing windows. Referenced but not reproduced; cascade structure in §2.2 is the minimum canonical content here. |
 | Session handoffs (current and prior) | Running record. This document is the stable form; handoffs are the decision log. |
 

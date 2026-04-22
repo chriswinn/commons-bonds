@@ -4,7 +4,7 @@
 **Version:** 1.0.0
 **Status:** Proposed — awaiting ratification at session close.
 **Supersedes:** none — first version of this document. Consolidates v1.21.0 layer ratifications + v1.2.1 rigor-protocol findings + 2026-04-22 Part 2 rigor pass.
-**References:** `commons_bonds_rigor_protocol_v1_2_1.md` (protocol applied); `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` (Part 1 — Test 13 correction, consent-normalization shield, merger/primitiveness examples table); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` (Part 2 — per-layer gap-close + set-completeness sweep); `commons_bonds_guiding_constraints_v1_0_0.md` (Group D / Group E canonical inputs); `commons_bonds_book_scope_v1_0_3.md` (Book One scope).
+**References:** `commons_bonds_rigor_protocol_v1.2.2.md` (protocol applied); `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` (Part 1 — Test 13 correction, consent-normalization shield, merger/primitiveness examples table); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` (Part 2 — per-layer gap-close + set-completeness sweep); `commons_bonds_guiding_constraints_v1_0_0.md` (Group D / Group E canonical inputs); `commons_bonds_book_scope_v1_0_3.md` (Book One scope).
 
 ---
 
@@ -297,7 +297,7 @@ Version numbering: v1.0.1 for clarifications and minor additions; v1.1.0 for nam
 
 | Document | Relationship |
 |---|---|
-| `commons_bonds_rigor_protocol_v1_2_1.md` | Protocol applied for the Part 2 rigor pass. |
+| `commons_bonds_rigor_protocol_v1.2.2.md` | Protocol applied for the Part 2 rigor pass. |
 | `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` | Part 1 — Test 13 correction, consent-normalization shield, merger/primitiveness examples table. |
 | `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` | Part 2 — detailed per-layer assessments and set-completeness sweep. Authoritative source for pressure-testing detail. |
 | `commons_bonds_guiding_constraints_v1_0_0.md` | Group D / Group E canonical inputs for rigor-pass alignment. |

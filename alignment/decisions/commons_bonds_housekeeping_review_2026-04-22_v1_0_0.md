@@ -62,7 +62,7 @@ Any file containing "layer," "Atmospheric," "Ecological," or (eventually) the ot
 | `commons_bonds_layer_tier_stress_test_1_0_0.md` | **Superseded** — dated 2026-04-20, references rigor protocol v1.1.0 and pre-10-dimension state; its findings (Atmospheric → Life-support candidate, Geographic → Spatial surface) absorbed into later work | **ARCHIVE** (to `tools/archive/`) |
 | `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` | Part 1 pass record. Currently listed in `tools/archive/` **AND** referenced as canonical in abundance-layers doc §1 — a contradiction | **INVESTIGATE** (see §3.2 below) |
 | `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` | Part 2 pass record (promoted from Downloads/ this session — first worktree-write) | KEEP canonical |
-| `commons_bonds_rigor_protocol_v1_2_1.md` | Canonical rigor protocol | **PATCH** (layer → dimension throughout; bump to v1.2.2 for terminology patch only) |
+| `commons_bonds_rigor_protocol_v1.2.2.md` | Canonical rigor protocol | **PATCH** (layer → dimension throughout; bump to v1.2.2 for terminology patch only) |
 | `commons_bonds_rigor_vs_layers_triage_v1_0_0.md` | Triage file — used as input to Part 2 | KEEP (history value); optional rename |
 | `userMemories_proposed_2026-04-21_v1_0_1.md` | **Proposed** — personal-context memory file; status unclear; some content already stale (references Tier 2a "to be verified" — may already be done; references eight-tier terminology pre-dimensions) | **INVESTIGATE** — is this proposed-for-Claude-to-adopt as preference block? If ratified, apply + archive; if not ratified, archive-as-proposed. |
 
@@ -372,7 +372,7 @@ This folder is a cross-cutting finding worth its own section. Not in Chris's exp
 
 19. Patch `tools/claude_prefs.md` operating core with v1.28.0 terminology.
 20. Retitle `tools/commons_bonds_abundance_layers_v1_0_0.md` → abundance dimensions v1.1.0; propagate renames in §2; add §5.5 + §5.6 notes.
-21. Patch `tools/commons_bonds_rigor_protocol_v1_2_1.md` terminology → v1.2.2.
+21. Patch `tools/commons_bonds_rigor_protocol_v1.2.2.md` terminology → v1.2.2.
 22. Patch `tools/commons_bonds_guiding_constraints_v1_0_0.md` terminology.
 23. Patch `tools/commons_bonds_book_scope_v1_0_3.md` terminology (Part 3 target).
 24. Patch `core/decomposition/eight-tier-v10.html` terminology.
@@ -407,7 +407,7 @@ This folder is a cross-cutting finding worth its own section. Not in Chris's exp
 ## 13. Cross-references
 
 - `alignment/sessions/commons-bonds-session-handoff-2026-04-22_v1_28_0.html` — references this review at TOP PRIORITY §7.
-- `tools/commons_bonds_rigor_protocol_v1_2_1.md` — canonical rigor protocol (PATCH target).
+- `tools/commons_bonds_rigor_protocol_v1.2.2.md` — canonical rigor protocol (PATCH target).
 - `tools/commons_bonds_abundance_layers_v1_0_0.md` — canonical methodology doc (PATCH+RETITLE target).
 - `tools/commons_bonds_guiding_constraints_v1_0_0.md` — canonical constraints doc (PATCH target).
 - `workstreams/10_project_separation_folder_reorg.md` — original archive/Consider-Including reorganization plan (partially executed; this review prompts completion).

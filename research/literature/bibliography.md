@@ -6,7 +6,7 @@
 **Source material used:**
 - `archive/Consider Including/commons_bonds_new_material_from_sociology_chat - consider including 4.html` final section (bibliography developed for the sociology paper)
 - `archive/Consider Including/commons_bonds_economic_theory_reference - consider including 6.html` → now in `research/literature/` (scholarly background for Technical Appendix literature engagement)
-- Framework-character archetypes from `tools/commons_bonds_rigor_protocol_v1_2_1.md` §11 (Ostrom successor, Harvey/Klein reader, tenured economics chair, etc.)
+- Framework-character archetypes from `tools/commons_bonds_rigor_protocol_v1.2.2.md` §11 (Ostrom successor, Harvey/Klein reader, tenured economics chair, etc.)
 
 ---
 
@@ -378,6 +378,6 @@ Placeholder for additions as they emerge. Candidate additions:
 
 - `archive/Consider Including/commons_bonds_new_material_from_sociology_chat - consider including 4.html` — original sociology-paper bibliography (now integrated here)
 - `research/literature/commons_bonds_economic_theory_reference - consider including 6.html` — scholarly-background reference doc (complementary)
-- `tools/commons_bonds_rigor_protocol_v1_2_1.md` §11 — the 25-character pressure suite (several characters map to canonical readers from this bibliography: Character 17 Ostrom successor, Character 18 Harvey/Klein reader, Character 9 tenured economics chair, etc.)
+- `tools/commons_bonds_rigor_protocol_v1.2.2.md` §11 — the 25-character pressure suite (several characters map to canonical readers from this bibliography: Character 17 Ostrom successor, Character 18 Harvey/Klein reader, Character 9 tenured economics chair, etc.)
 - `research/case-studies/` — all case study files reference this bibliography for their primary-source citations
 - `core/technical-appendix/TechnicalAppendix_v0.0.2.html` — technical appendix (scholarly engagement work happens here)
