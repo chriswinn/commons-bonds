@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-22 · v1.31.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .decision     { background: #f3e8ff; border-left: 4px solid #7a3ea1; padding: 1em 1.2em; margin: 1em 0; }
+  .operating    { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .snippet      { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .decision-label { color: #7a3ea1; font-weight: 600; }
+  .version  { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-22 · Version <span class="version">1.31.0</span> · Supersedes v1.30.0 · Same-day continuation. Two substantive pieces of work this delta: (1) <strong>Infrastructure batch completed</strong> — rigor protocol v1.2.1 → v1.2.2 (dimension terminology patch + dot-suffix filename), Technical Appendix v0.0.2 → v0.0.3 (terminology patch), core/glossary + core/decomposition files layer→dimension sweep, filename-reference updates across 10 active files. Commit <code>7fa0db3</code>. (2) <strong>Decision 1 in-progress with lock pending full rigor</strong> — absence-first framing showed the Demographic dimension prices "non-substitutable specific attachments to specific people / kin / cultures / origins"; Chris pushed back on "Kinship" as too familial (lay English defaults to blood relations); surfaced that chosen family must be in primary scope (Weston / Stacey / Nardi / Karner / Jones literature as sociological grounding); pivoted to <strong>Kindred</strong> as working recommendation (less familial, covers chosen family via "kindred spirits" usage, bilateral-independence-clean with Cohesion). <strong>Kindred has NOT been through the full 25-character rigor suite — that's the next-session starting task.</strong> Also evaluated Gemeinschaft/Gesellschaft as canonical names; verdict: methodology-appendix use only, fails Test 20/23/17/7. Chris paused to capture state before a meeting; this handoff is insurance against context loss.</p>
+
+<div class="status">
+<strong>STATUS:</strong> Session v1.30.0 → v1.31.0 work: 2 commits (<code>7fa0db3</code> infrastructure + this handoff). Infrastructure batch patched ~17 files for dimension terminology. Decision 1 analysis: absence-first framing articulated "non-substitutable specific attachment" as what the dimension dissolves invisibility of; Chris's resistance to Kinship being too familial revealed a gap — lay English reads kinship = blood family, missing chosen family (Weston's canonical category from <em>Families We Choose</em> 1991 + extended literature). Kindred surfaced as alternative that covers chosen family via "kindred spirits" lay usage + preserves non-substitutability precision + less family-coded + clean bilateral independence with Cohesion. <strong>Immediate next task: run Kindred through full 25-character rigor suite per protocol §3.1 before locking.</strong> Chris's time-constrained meeting requires state capture now.
+</div>
+
+<div class="snippet">
+<h2>Copy-paste snippet for next session start</h2>
+<pre>Starting Commons Bonds session — picking up from handoff v1.31.0 (2026-04-22).
+
+Please read these files before responding:
+- commons-bonds-session-handoff-2026-04-22_v1.31.0.html  (this handoff — read first)
+- tools/README.md
+- tools/commons_bonds_rigor_protocol_v1.2.2.md  (NEW this session; dimension terminology)
+- tools/commons_bonds_guiding_constraints_v1_0_0.md
+- tools/commons_bonds_abundance_layers_v1_0_0.md
+- tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1_0_1.md
+
+Current canonical state to verify:
+- Container term: "dimensions" (v1.28.0)
+- Rigor protocol: v1.2.2 canonical (v1.2.1 archived)
+- Technical Appendix: v0.0.3 canonical (v0.0.2 archived)
+- 10 dimensions locked; naming LOCKED: Habitability, Ecosystem
+- Naming PENDING: Demographic (OPEN — Kindred leading, pending full rigor),
+  Geographic (Spatial leading), Informational (Evidentiary leading),
+  Agency (Autonomy leading), Cohesion (Social-Fabric / Civic-Ties leading)
+- New default: when scholarly literature surfaces in discussion, default to adding
+  to research/literature/bibliography.md (confirm with Chris first)
+- Naming convention: dots going forward (v1.2.2); historical files keep underscores
+
+Top priority this session (in order):
+1. Run "Kindred" through FULL rigor (25-character suite + Groups A-F per §3.1)
+   - This is what I erroneously suggested was "already done" in v1.31.0 — it wasn't.
+     Only targeted tests were done. Full rigor is the lock condition.
+2. Add queued bibliography entries for chosen-family scholarship:
+   - Weston, Kath. Families We Choose: Lesbians, Gays, Kinship (1991)
+   - Stacey, Nardi, Karner, Jones — supporting literature for chosen-family
+     extension across queer community, divorced-and-remarried, immigrant
+     second-generation, biological-family-rejected populations
+3. If Kindred passes rigor: LOCK it as canonical name for the Demographic
+   dimension; document supporting reasons in rigor-pass-record; update
+   abundance layers doc §2.5
+4. Priority-2 naming cohort: Informational, Agency, Cohesion, Geographic
+5. Priority-3 stable confirm: Temporal, Institutional, Political
+6. Coordinated methodology-doc revision sweep
+7. Rigor test on 5 resurfaced use cases
+8. manuscript/chapters/ rename propagation
+9. Part 3 methodology audit
+10. Guidance-doc revision sweep
+
+Additional thoughts for this session (Chris, fill in here before sending):
+[                                                                                           ]
+[                                                                                           ]
+</pre>
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY — Full rigor on Kindred (decision-pending) then lock + proceed</h2>
+
+<p><strong>Starting task for next session:</strong> run "Kindred" as the canonical name for the Demographic dimension through the full 25-character rigor suite + Groups A–F per protocol §3.1. If it passes, lock it; if it fails, re-open with fallback candidates (Attachment, Kindred-Bonds, Belonging-with-scope-work, or a new alternative).</p>
+
+<h3>Quick rigor-pass outline for the starting task</h3>
+<ol>
+  <li><strong>Group A framework gates:</strong> AIT (under abundance of specific-attachments, cost evaporates — PASS as working hypothesis); Two-path (Path 1: who captures value from severing kindred? Path 2: what shield enables severance? Both need articulation); Merger gate vs. Cohesion (clean — kindred = specific-non-substitutable vs. Cohesion = civic-general); Primitiveness (does "kindred" decompose into other dimensions? no — it's its own scarcity axis); Multi-scale × 2 env (substrate-independent; Earth + off-Earth pass).</li>
+  <li><strong>Groups B–F (scope / authorial / strategic / success criteria / content quality):</strong> walk through each per protocol §§6–10.</li>
+  <li><strong>25-character pressure suite:</strong> Groups G–L per §11. Specific worries to verify: Character 10 (labor-lawyer-2039 — does "kindred-bond cost" appear in a brief?); Character 11 (organizer — usable in negotiation?); Character M1 (analytic philosopher — precise enough?); Character 25 (NASA Langley grandfather — resonance?); Character 3 (right critic — does "kindred" read as culturally-conservative-coded?); Character 2 (left critic — does chosen-family framing land or read as token?).</li>
+  <li><strong>Historical lineage check:</strong> Weston's <em>Families We Choose</em> (1991) + extended literature as primary source for the chosen-family-is-kindred argument. Strengthens Test 18 (competitor/overlap).</li>
+  <li><strong>Verdict:</strong> PASS → lock + document; FAIL → fallback candidate selection; MIXED → targeted refinement.</li>
+</ol>
+
+<h3>Why Kindred over Kinship (from this session's work)</h3>
+<ul>
+  <li><strong>Kindred covers chosen family cleanly.</strong> "Kindred spirits" is a stock phrase for chosen-family-close friends. "Kinship" in lay English reads blood-family-first.</li>
+  <li><strong>Chosen family is book-worthy scope.</strong> Not just a process note. Weston 1991 is foundational sociological scholarship; a major target-reader population (LGBTQ+, adoptees, estranged-from-family, divorced-and-remarried, immigrant second-generation) recognizes chosen family as the realest thing in their lives. Framework mechanism (cost severance) operates on chosen family identically to blood family. Excluding via narrow "kinship = blood" framing fails Test 17 for these readers.</li>
+  <li><strong>Chris's specific resistance:</strong> "Kinship feels too familial." This surfaces a real semantic gap — lay reading defaults family-narrow even though anthropological usage extends to fictive kin. Kindred sidesteps this.</li>
+  <li><strong>Chris's intuition that Cohesion captures "community ties":</strong> partly correct for civic-generic community (neighbors, citizens, professional peers). But NOT correct for specific-identity-deep community (ethnic community, religious community as identity-not-just-weekly-service, chosen-family networks). The framework needs BOTH dimensions to price BOTH meanings of "community." Kindred vs Cohesion distinction: gemeinschaft vs gesellschaft (Tönnies 1887) — use this in methodology appendix only, not as canonical names.</li>
+</ul>
+</div>
+
+<div class="decision">
+<h2><span class="decision-label">OPEN DECISION (refined this session)</span> — Demographic naming: Kindred (leading) pending full rigor</h2>
+<p><strong>Change from v1.30.0:</strong> Kinship → Kindred as working recommendation. Driven by Chris's resistance to Kinship (too familial) + surfaced requirement that chosen family be in primary scope (Weston literature).</p>
+<p><strong>Lock condition:</strong> Kindred passes full rigor per §3.1. Not yet run; TOP PRIORITY next session.</p>
+<p><strong>Fallback candidates if Kindred fails:</strong> Attachment (psychology-grounded, clinical precision; slight place-attachment overlap with Spatial); Intimates / Intimate-Ties (romance-coding baggage); Belonging (blurs with Cohesion, requires explicit scope-boundary work); invented compound like Held-Bonds or Chosen-Bonds (compound awkwardness).</p>
+<p><strong>Not viable:</strong> Gemeinschaft / Gesellschaft (or English transliterations) — fail Tests 20/23/17/7. Useful in methodology appendix only.</p>
+</div>
+
+<h2>Infrastructure batch complete this session (commit <code>7fa0db3</code>)</h2>
+
+<table>
+  <thead><tr><th>Change</th><th>Detail</th></tr></thead>
+  <tbody>
+    <tr><td>Protocol v1.2.1 → v1.2.2</td><td>Container-term rename "layer" → "dimension" throughout. Filename references (c5, c9) already updated to <code>alignment/patches/</code> path in prior session. New file: <code>tools/commons_bonds_rigor_protocol_v1.2.2.md</code> (first canonical tools/ file using dot-suffix). Archive predecessor via git rename.</td></tr>
+    <tr><td>Technical Appendix v0.0.2 → v0.0.3</td><td>Terminology patch (single-line HTML; confirmed no CSS class / id collisions). Note: the "v0.0.2 metadata inconsistency fix" originally flagged in v1.28.0 deferred queue was NOT specifically identified; deferred to targeted pass.</td></tr>
+    <tr><td>core/glossary/commons_bonds_updated_glossary_v2.html</td><td>Layer → dimension terminology patch (14 instances via sed). In place; no version bump.</td></tr>
+    <tr><td>core/glossary/commons-bonds-vocabulary-additions 13.html</td><td>Layer → dimension terminology patch (2 instances). Still flagged INVESTIGATE per housekeeping review §7.3 (unclear if content consumed into glossary v2).</td></tr>
+    <tr><td>core/decomposition/eight-tier-v10.html</td><td>Layer → dimension terminology patch (24 instances). No version bump; decomposition content stable.</td></tr>
+    <tr><td>core/decomposition/error-out-v10.html</td><td>Layer → dimension terminology patch (24 instances). No version bump.</td></tr>
+    <tr><td>Filename-reference updates</td><td><code>commons_bonds_rigor_protocol_v1_2_1</code> → <code>commons_bonds_rigor_protocol_v1.2.2</code> across 10 active files (README.md, tools/README.md, abundance layers doc, guiding constraints, rigor pass v1_0_1, sociology-paper-transition, workstreams-superseded, housekeeping review, this session's handoffs, bibliography).</td></tr>
+    <tr><td>Historical handoffs (archived)</td><td>NOT updated — preserving historical accuracy at time of writing.</td></tr>
+  </tbody>
+</table>
+
+<h2>New operating rule (v1.31.0): literature additions to bibliography</h2>
+<div class="info">
+<p><strong>Default:</strong> When scholarly literature surfaces in session discussion (cited by Chris or by Claude as part of a framework argument), default to adding it to <code>research/literature/bibliography.md</code> — <strong>but confirm with Chris first before adding</strong>.</p>
+<p><strong>Rationale:</strong> The bibliography is the canonical "which scholarship fed this project" record. Sources cited in reasoning should be captured; leaving them in chat-only form loses lineage. Confirmation ensures Chris catches cases where a citation is provisional / being considered-against / not actually load-bearing.</p>
+<p><strong>Queued for next session start:</strong> Add to bibliography —</p>
+<ul>
+  <li><strong>Weston, Kath.</strong> <em>Families We Choose: Lesbians, Gays, Kinship.</em> Columbia University Press, 1991. Foundational text for chosen-family scholarship.</li>
+  <li><strong>Stacey, Judith.</strong> Related work on modern family formations.</li>
+  <li><strong>Nardi, Peter M.</strong> Work on friendship-as-kinship, gay men's kinship networks.</li>
+  <li><strong>Karner, Tracy X.</strong> Work on fictive kinship and caregiving.</li>
+  <li><strong>Jones, Angela.</strong> Work on Black queer kinship and chosen family.</li>
+</ul>
+<p><strong>Chapter relevance:</strong> Ch 1 personal-narrative (chosen-family loss during life transitions), Ch 2 (Chris's Story 1 includes friends not just family), Ch 10 (closing reflection on shared bonds).</p>
+<p><strong>Support / contradict:</strong> STRONG SUPPORT. Establishes chosen family as rigorously-researched kinship territory; provides canonical citation for extending kindred scope beyond blood.</p>
+</div>
+
+<h2>Gemeinschaft / Gesellschaft evaluation (methodology-appendix use only)</h2>
+<div class="info">
+<p>Tönnies's 1887 distinction (<em>Gemeinschaft und Gesellschaft</em>) maps onto the Kindred / Cohesion split cleanly: gemeinschaft = kin-like, identity-deep, non-substitutable bonds (Kindred territory); gesellschaft = functional, civic, substitutable-in-principle (Cohesion territory).</p>
+<p><strong>Not viable as canonical dimension names</strong> — fails Test 20 (vocabulary portability), Test 23 (labor-lawyer-2039), Test 17 (target-reader recognition — a McDowell miner / Chesapeake waterman / community organizer won't recognize the German term), Test 7 (cross-spectrum — reads pretentious / academic-continental / anti-pragmatist across spectrum).</p>
+<p><strong>Viable as methodology-appendix vocabulary</strong> — cite Tönnies 1887 explicitly; state that Kindred prices gemeinschaft-type costs and Cohesion prices gesellschaft-type costs. Strengthens Test 18 (competitor / overlap) by showing the framework extends a 140-year-old sociological tradition with a pricing mechanism Tönnies didn't have. Ostrom-successor readers appreciate the scholarly pedigree; academic economics chair sees the grounding.</p>
+<p><strong>Integration: methodology appendix + brief mention in Ch 2/3 (kinship-vs-civic-community paragraph as scope-boundary statement).</strong> Dimension NAMES stay English (Kindred, Cohesion); German terms live in appendix.</p>
+</div>
+
+<h2>Files modified this session (v1.30.0 → v1.31.0)</h2>
+<table>
+  <thead><tr><th>File</th><th>Change</th></tr></thead>
+  <tbody>
+    <tr><td><code>tools/commons_bonds_rigor_protocol_v1.2.2.md</code></td><td>NEW (renamed from v1_2_1). Terminology patch applied.</td></tr>
+    <tr><td><code>core/technical-appendix/TechnicalAppendix_v0.0.3.html</code></td><td>NEW (renamed from v0.0.2). Terminology patch applied.</td></tr>
+    <tr><td><code>core/glossary/commons_bonds_updated_glossary_v2.html</code></td><td>Terminology patch (14 instances).</td></tr>
+    <tr><td><code>core/glossary/commons-bonds-vocabulary-additions 13.html</code></td><td>Terminology patch (2 instances).</td></tr>
+    <tr><td><code>core/decomposition/eight-tier-v10.html</code></td><td>Terminology patch (24 instances).</td></tr>
+    <tr><td><code>core/decomposition/error-out-v10.html</code></td><td>Terminology patch (24 instances).</td></tr>
+    <tr><td><code>README.md</code> + <code>tools/README.md</code> + 8 others</td><td>Filename reference updates (v1_2_1 → v1.2.2).</td></tr>
+    <tr><td><code>alignment/sessions/archive/commons-bonds-session-handoff-2026-04-22_v1.30.0.html</code></td><td>Archived (was current handoff).</td></tr>
+    <tr><td><code>alignment/sessions/commons-bonds-session-handoff-2026-04-22_v1.31.0.html</code></td><td>NEW (this file).</td></tr>
+  </tbody>
+</table>
+
+<h2>Open tasks (consolidated, unchanged from v1.30.0 except Decision 1 refinement)</h2>
+<p>See <code>alignment/sessions/archive/commons-bonds-session-handoff-2026-04-22_v1.30.0.html</code> Section "Open tasks" for the full categorized snapshot (🟣 Blocked on decisions / 🟢 Ready for Claude / 🟡 Gate-checks / 🔵 Chris's fieldwork / 🟠 Editorial content). Unchanged except:</p>
+<ul>
+  <li>Decision 1 refined: Kindred leading (was Kinship); pending full rigor.</li>
+  <li>New queued item: bibliography additions (Weston + Stacey + Nardi + Karner + Jones) — add at session start per new default rule.</li>
+</ul>
+
+<h2>Watch items (updated for v1.31.0)</h2>
+<div class="watch">
+<ul>
+  <li><strong>Protocol is v1.2.2 now.</strong> Reference by new filename: <code>tools/commons_bonds_rigor_protocol_v1.2.2.md</code>. Old v1_2_1 is archived (content moved via git mv preserving history).</li>
+  <li><strong>Tech Appendix is v0.0.3 now.</strong> Reference: <code>core/technical-appendix/TechnicalAppendix_v0.0.3.html</code>.</li>
+  <li><strong>Kindred is NOT locked yet.</strong> Full rigor must run before the name ratifies. Treat as "leading candidate, not canonical."</li>
+  <li><strong>Bibliography additions queued.</strong> Weston + Stacey + Nardi + Karner + Jones — confirm with Chris, then add.</li>
+  <li><strong>New default rule:</strong> literature surfacing in discussion → propose adding to bibliography, confirm, add.</li>
+  <li><strong>tools/ = session upload set</strong> per Chris's workflow.</li>
+  <li><strong>Patches live in <code>alignment/patches/</code></strong> (c2, c3, c4, c5, c9, tier_2a).</li>
+  <li><strong>Dot-suffix convention</strong> for new files going forward (v1.31.0 format); existing underscored files retain their names until optional mass rename sweep.</li>
+  <li>Worktree writes + merges + pushes authorized per-request.</li>
+  <li>Never touch <code>/Noema/</code> or <code>/Berggruen Institute - Essay/</code>. Math files stay .html. Privacy rule active.</li>
+  <li><code>.DS_Store</code>, <code>.claude/</code>, <code>.chriswinn/</code> in <code>.gitignore</code>.</li>
+  <li>Memory auto-loads from <code>~/.claude/projects/.../memory/</code>.</li>
+</ul>
+</div>
+
+<h2>Resume instructions for next Claude instance</h2>
+<div class="resume">
+<ol>
+  <li>Read this handoff + <code>tools/README.md</code> + upload set listed in snippet. Note the protocol is now v1.2.2 (dimension terminology).</li>
+  <li><strong>First task: add queued bibliography entries.</strong> Confirm with Chris, then add Weston + Stacey + Nardi + Karner + Jones to <code>research/literature/bibliography.md</code>. Add as new section on chosen-family scholarship, likely between sections 4 (Inequality / Risk Shift) and 5 (Healthcare).</li>
+  <li><strong>Second task: run Kindred through full rigor per §3.1.</strong> Full 25-character suite + Groups A-F. Produce rigor-pass record: <code>tools/rigor-passes/commons_bonds_rigor_pass_2026-04-XX_v1.0.2.md</code>.</li>
+  <li><strong>If Kindred passes:</strong> lock as canonical name for the Demographic dimension. Update <code>tools/commons_bonds_abundance_layers_v1_0_0.md</code> §2.5 (Demographic) with new canonical name + rationale + supporting literature citations + chosen-family scope statement. Document why-Kindred-not-Kinship reasoning in the pass record for future revisitability.</li>
+  <li><strong>If Kindred fails:</strong> re-open with fallback candidates (Attachment / Kindred-Bonds / Intimates-Ties / Belonging-with-scope-work / invented). Re-run rigor on selected.</li>
+  <li><strong>Third task: Priority-2 cohort.</strong> Informational (→ Evidentiary leading), Agency (→ Autonomy leading), Cohesion (→ Social-Fabric / Civic-Ties leading), Geographic (→ Spatial leading). Walk one at a time per protocol §3.1 — probably using the absence-first framing that worked well for Demographic.</li>
+  <li><strong>Fourth task: Priority-3 stable confirm.</strong> Temporal, Institutional, Political. Short confirm pass.</li>
+  <li><strong>Fifth task: coordinated methodology-doc revision sweep.</strong></li>
+  <li><strong>Sixth task: rigor test on 5 resurfaced use cases</strong> per sociology-paper-to-book-transition.md §5.</li>
+  <li><strong>Seventh: manuscript/chapters/ rename propagation.</strong></li>
+  <li><strong>Eighth: Part 3 audit.</strong></li>
+  <li><strong>Ninth: guidance-doc revision sweep.</strong></li>
+  <li>Operating core + rigor protocol apply. See <code>tools/commons_bonds_rigor_protocol_v1.2.2.md</code>.</li>
+  <li>Worktree-writes + merges + pushes authorized per-request.</li>
+</ol>
+</div>
+
+<h2>Operating core (unchanged; reference v1.30.0 archive for full detail)</h2>
+<div class="operating">
+<ul>
+  <li><strong>AIT</strong> is epistemic core; dimensions are organizational scaffolding.</li>
+  <li><strong>Two-path rigor:</strong> allocation symmetry + shield absence (consent-normalization shield per v1.2.1 / v1.2.2).</li>
+  <li><strong>Merger + primitiveness gates</strong> for any new or renamed dimension.</li>
+  <li><strong>Single-dimension cost severance</strong> — one-dimension cases are full instances.</li>
+  <li><strong>Availability-absence as severity-marker</strong> (v1.28.0) — not a primitive axis.</li>
+  <li><strong>Canonical cases are dimension-inherent</strong> — not illustrations.</li>
+  <li><strong>10 dimensions</strong> locked for Book One; naming cohort in progress.</li>
+  <li><strong>Books 1/2/3 strategy</strong> per <code>alignment/decisions/sociology-paper-to-book-transition.md</code> §4.</li>
+  <li><strong>Operating discipline:</strong> push harder so we only rewrite once.</li>
+</ul>
+</div>
+
+<p class="meta" style="margin-top:3em; border-top:1px solid #ccc; padding-top:1em;">
+End of session handoff <span class="version">v1.31.0</span>. <strong>Next immediate: (1) add bibliography entries (Weston + extended literature); (2) run Kindred through full rigor per §3.1; (3) if passes, lock as canonical name for Demographic dimension.</strong> Infrastructure batch complete (protocol v1.2.2, tech appendix v0.0.3, core/glossary + decomposition terminology patched). Framework state: 10 dimensions locked; Habitability + Ecosystem named; Kindred leading for Demographic, pending rigor.
+</p>
+
+</body>
+</html>
