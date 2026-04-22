@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-22 · v1.26.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  h4 { font-size: 0.95em; margin-top: 1.2em; font-weight: 600; color: #444; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status    { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume    { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch     { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info      { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .operating { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .snippet { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done    { color: #1a6a2a; font-weight: 600; }
+  .pending { color: #a2260b; font-weight: 600; }
+  .hold    { color: #cc7700; font-weight: 600; }
+  .new     { color: #6a4c9c; font-weight: 600; }
+  .version { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-22 · Version <span class="version">1.26.0</span> · Supersedes v1.25.0 · Ratification + patch session. Four substantive outputs: (1) rigor protocol v1.2.0 ratified as canonical; (2) rigor pass record documenting ratification, two corrections to the triage, and the canonical merger/primitiveness examples table for the book's methodology appendix; (3) rigor protocol v1.2.1 produced as a clarifications patch integrating the session's findings; (4) companion triage on the 25-character pressure suite, same treatment as the test triage. One conceptual finding promoted to canonical record: consent does not dissolve cost severance — individual consent, when treated as societal terminus, operates as a structural Path 2 shield even when awareness is complete. Consent-normalization added to the Path 2 shield typology.</p>
+
+<div class="status">
+<strong>STATUS:</strong> Part 1 of the v1.25.0 five-part sequence is complete. Chris read v1.25.0 handoff and v1.2.0 protocol; asked for triage of ~26 tests against the 10 canonical layers; received it; corrected Test 13 (career-risk does real work at layer level via canonical cases — not layer-indifferent as the triage initially proposed); surfaced the consent-normalization shield-typology finding; ratified v1.2.0; directed production of v1.2.1 patch and 25-character companion triage. All three produced same session. Session ended with handoff production per operating discipline (produce before context runs heavy). Part 2 (rigor pass on the 10 canonical layers using v1.2.1) is the next session's top priority.
+</div>
+
+<div class="snippet">
+<h2>Copy-paste snippet for next session start</h2>
+<p style="font-size: 0.9em; color: #555; margin-top: 0;">Paste the contents of the pre block below into the first message of the next session. The snippet orients the next Claude instance to canonical state before the full handoff is read. Space at the bottom for additional thoughts at session start.</p>
+<pre>Starting Commons Bonds session — picking up from handoff v1.26.0 (2026-04-22).
+
+Please read these files before responding:
+- commons-bonds-session-handoff-2026-04-22_v1_26_0.html  (previous handoff — read first)
+- commons_bonds_rigor_protocol_v1_2_1.md  (canonical rigor protocol)
+- commons_bonds_rigor_pass_2026-04-22_v1_0_0.md  (ratified findings + merger/primitiveness examples table)
+
+Current canonical state to verify:
+- Rigor protocol: v1.2.1 (ratified 2026-04-22; clarifications patch over ratified v1.2.0).
+- Abundance-layer set: 10 layers — Atmospheric, Geographic, Temporal, Institutional, Demographic,
+  Ecological, Political, Cohesion, Informational, Agency. Names pending for the rename-flagged ones.
+- Path 2 shield typology includes consent-normalization as of v1.2.1 (the 120+ hr-week case anchors it).
+- Canonical cases are layer-inherent, not incidental — a layer's career-risk / legal-exposure profile
+  is defined by its canonical cases (Test 13 correction, ratified this session).
+
+Part 1 of the v1.25.0 five-part sequence is DONE. Queued priorities:
+- Part 2: rigor pass on the 10 canonical layers using v1.2.1. Produce
+  commons_bonds_abundance_layers_v1_0_0.md (layer-set methodology) and a rigor pass record.
+  Sequencing guidance is in commons_bonds_character_suite_vs_layers_triage_v1_0_0.md §10
+  (run ~15 differentiating characters per layer, not all 25).
+- Part 3: audit v1.24.0 outputs against 10-layer canonical set (scope v1.0.3, chapter guidance
+  addendum, v1.24.0 rigor pass record).
+- Part 4: elevate publication strategy + success criteria into preferences or standing doc.
+- Part 5: naming cohort on the 10 canonical layers + deferred queue items.
+
+Watch items carried forward: no Drive writes from Claude; no GitHub writes; never touch /Noema/ or
+/Berggruen Institute - Essay/ folders; math files stay .html; privacy rule active (scrub financial
+specifics from external-facing outputs by default).
+
+Additional thoughts for this session (Chris, fill in here before sending):
+[                                                                                           ]
+[                                                                                           ]
+[                                                                                           ]
+</pre>
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY — Part 2: Rigor pass on the 10 canonical abundance layers</h2>
+
+<p>This is the Part 2 work queued in v1.25.0, now correctly armed with the ratified v1.2.1 protocol and the triage guidance on which tests and characters actually differentiate at the layer level.</p>
+
+<h3>Workflow steps</h3>
+<ol>
+  <li><strong>Session start:</strong> upload the three canonical files per the copy-paste snippet. Verify canonical state.</li>
+  <li><strong>Gap-close on the 10:</strong> Tests 1–4 already passed for all 10 per v1.21.0 ratification. Focus on Groups B–F where the previous rigor pass didn't run, plus the differentiated characters (per triage §10 sequencing).</li>
+  <li><strong>Set-completeness sweep:</strong> run §6.2 of the 2026-04-22 rigor pass record (social/relational, cognitive/psychological, information/data, biological/species, cosmic/physical-law) through primitiveness + merger gates. Document which collapse (expected: most), which survive (possibly cosmic/physical-law).</li>
+  <li><strong>Output A:</strong> <code>commons_bonds_abundance_layers_v1_0_0.md</code> — methodology document ratifying the final canonical layer set.</li>
+  <li><strong>Output B:</strong> <code>commons_bonds_rigor_pass_2026-04-XX_v1_0_1.md</code> (or next available version) — separate pass-record per protocol §2.4.</li>
+</ol>
+
+<h3>Sequencing guidance from this session's triage</h3>
+<p>Don't run all 25 characters × 10 layers (250 cells of triage theater). Run ~15 differentiating characters per layer in the order below, per character triage §10:</p>
+<ol>
+  <li>Tests 20/23 companion pair + Character 10 (Labor lawyer 2039) + M1 (Analytic Philosopher) — naming cohort.</li>
+  <li>Characters 9, 11, 13 — differentiated per-layer traction.</li>
+  <li>Characters 14, 15, 16, 21, 23, 25 — canonical-case authenticity and ethical anchoring.</li>
+  <li>Characters 1, 3, 7 — critic / gatekeeper pressure on specific layers.</li>
+  <li>Groups B/C/D/F as applicable.</li>
+  <li>Characters 2, 17, X1 — framework-meta pressure.</li>
+  <li>Skip at layer level: Characters 4, 5, 6, 8, 12, 18, 19, 20, 22, 24 (consolidated or process-only per triage).</li>
+</ol>
+
+<h3>Run Part 4 before Part 2?</h3>
+<p>Per v1.25.0 handoff §Part 4: if publication-path and success-criteria constraints should inform the layer rigor pass (they are Group D and Group E tests in v1.2.1), consider running Part 4 first. Chris may prefer to interleave: resolve Option A/B/C for publication strategy at session start, then proceed to Part 2 with those constraints canonical.</p>
+</div>
+
+<h2>Canonical additions and corrections this session</h2>
+
+<h3>Shield typology — consent-normalization (added v1.2.1 §5.2)</h3>
+<p>Individual consent, when treated by the surrounding social, legal, and institutional framework as terminally closing the accounting — "they chose it, no one owes them anything" — operates as a structural social shield even when individual awareness is complete. The shield is not at the individual-recognition level; it operates at social-accounting terminus. Canonical case: a knowledge worker who knowingly traded personal life for 120+ hour weeks is not shield-absent by virtue of awareness; the shield is the framework that treats their consent as closing the owing. Applies particularly to Institutional, Temporal, and Agency layer cases. Full treatment in rigor pass record §5.</p>
+
+<h3>Test 13 correction — career-risk is layer-inherent via canonical cases (v1.2.1 §7)</h3>
+<p>The original v1.2.0 framing implied Test 13 (career-risk compatibility) was layer-indifferent. It is not. Career-risk does real work at the layer level when a layer's canonical cases involve industries capable of professional retaliation: <strong>Informational</strong> (tobacco-industry internal-research suppression, pharma data suppression, opioid-death geography mapped to Appalachian counties), <strong>Political</strong> (regulatory capture by industries whose lobbying networks interlock with healthcare financing), and secondarily <strong>Institutional</strong> (CEO-era case content, partially addressed by pre-drafting NDA and anonymization gates). A layer's canonical cases are not incidental to the layer — they are what the layer means in practice. Mitigation is case-level presentation / framing, not layer-level.</p>
+
+<h3>Meta-pattern surfaced by the Test 13 correction</h3>
+<p>Whenever a pressure (career-risk, legal exposure, retaliation) looks layer-indifferent in the abstract, it's worth asking whether it becomes layer-differentiating via canonical cases. The same logical structure applies to Character 21 (nursing colleague): the character triage initially flagged it as process-only; the Test 13 correction moved it to scaffolding-earns-it for Informational and Political. Worth capturing as methodology in the Part 2 output or a v1.2.2 note: <em>canonical cases define a layer's pressure profile, not just its content profile.</em></p>
+
+<h3>Merger / primitiveness examples table (canonical source: rigor pass record §6.1)</h3>
+<p>The book's methodology appendix has a canonical source for the passage Chris asked to be recorded under Test 3: "load-bearing for taxonomy integrity but doesn't need heavy book-front prose — a short methodology passage and an appendix table (which candidates passed or failed which gate, and why) carries it." Ratified entries: Cohesion passed merger (Bowling Alone / religious-community bilateral independence); Cohesion, Informational, Agency passed primitiveness (v1.21.0); Survivability failed primitiveness (decomposed into Tier 4 extended); older FGC "Existential/Meaning Cost" and "Immediate Survival Cost" failed AIT (prior gate). Candidates under evaluation: social/relational, cognitive/psychological, information/data, biological/species, cosmic/physical-law — Part 2 territory.</p>
+
+<h2>Files produced this session (2026-04-22 · v1.25.0 → v1.26.0)</h2>
+<table>
+  <thead><tr><th>File</th><th>Format</th><th>Status</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td><code>commons_bonds_rigor_vs_layers_triage_v1_0_0.md</code></td><td>.md</td><td><span class="done">Proposed assessment (historical record)</span></td><td>Triage of ~26 tests against 10 layers. Input document to the rigor pass record; Test 13 correction and one meta-finding on consent were integrated downstream. File remains as-is for historical traceability.</td></tr>
+    <tr><td><code>commons_bonds_rigor_pass_2026-04-22_v1_0_0.md</code></td><td>.md</td><td><span class="done">Ratified findings</span></td><td>Records ratification of v1.2.0, two corrections to the triage, the consent-normalization finding, and the canonical merger/primitiveness examples table (§6.1) for the book's methodology appendix.</td></tr>
+    <tr><td><code>commons_bonds_rigor_protocol_v1_2_1.md</code></td><td>.md</td><td><span class="done">Canonical</span></td><td>Clarifications patch over ratified v1.2.0. Nine surgical edits: consent-normalization added to Path 2 shield typology, Test 3 book-visibility note, Tests 7/12 and 17/22 convergence notes, Test 8 subsumption note, Test 13 substantive correction, Tests 20/23 marked as companion pair, Test 26 annotated as "falsifiability beyond AIT," change log entry. No structural changes.</td></tr>
+    <tr><td><code>commons_bonds_character_suite_vs_layers_triage_v1_0_0.md</code></td><td>.md</td><td><span class="done">Proposed assessment</span></td><td>Companion to the test triage, applied to the 25-character suite plus sub-batteries. Same four-verdict framework. Headline: 2 load-bearing + 13 scaffolding-earns-it + 5 process-only + 5 consolidation candidates. §10 provides Part 2 sequencing guidance.</td></tr>
+    <tr><td><code>commons-bonds-session-handoff-2026-04-22_v1_26_0.html</code></td><td>.html</td><td><span class="new">This file</span></td><td>Captures session findings, Part 2 workflow guidance, and includes a copy-paste snippet for the next session.</td></tr>
+  </tbody>
+</table>
+
+<h2>Canonical abundance-layer roster (unchanged from v1.25.0; awaiting Part 2 gap-close)</h2>
+<table>
+  <thead><tr><th>#</th><th>Layer</th><th>Name status</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td><strong>Atmospheric</strong></td><td>Rename pending</td><td>Candidates: Life-support, Habitability, Biophysical. "Life-support" flagged — breaks abundance-naming pattern.</td></tr>
+    <tr><td>2</td><td><strong>Geographic</strong></td><td>Rename pending</td><td>Candidate: Spatial. Geographic FAILS multi-scale off-Earth per v1.0.0 stress test.</td></tr>
+    <tr><td>3</td><td><strong>Temporal</strong></td><td>Stable</td><td>No rename.</td></tr>
+    <tr><td>4</td><td><strong>Institutional</strong></td><td>Stable</td><td>No rename.</td></tr>
+    <tr><td>5</td><td><strong>Demographic</strong></td><td>Rename pending</td><td>Candidates: Communal, Cultural, Kinship, Belonging, Fellowship, "Common Bonds" (meta-confusion risk with book title).</td></tr>
+    <tr><td>6</td><td><strong>Ecological</strong></td><td>Stable</td><td>Nested-under-Habitability scope condition to be documented.</td></tr>
+    <tr><td>7</td><td><strong>Political</strong></td><td>Stable</td><td>US-partisan-connotation watch item retained.</td></tr>
+    <tr><td>8</td><td><strong>Cohesion</strong></td><td>Ratified candidate v1.21.0; name TBD</td><td>Candidates: Cohesion, Social-Fabric, Civic-Ties, Communion. Non-co-occurring canonical case: NYC consulting-years isolation.</td></tr>
+    <tr><td>9</td><td><strong>Informational</strong></td><td>Ratified candidate v1.21.0; name TBD</td><td>Candidates: Informational (bland), Epistemic, Veridical, Evidentiary. Kantian consent-precondition pair with Agency. Canonical cases drive career-risk (v1.2.1 §7).</td></tr>
+    <tr><td>10</td><td><strong>Agency</strong></td><td>Ratified candidate v1.21.0; name TBD</td><td>Candidates: Agency, Autonomy, Non-coercion. Strongest primitiveness result. Cross-ideological traction (libertarian + leftist).</td></tr>
+  </tbody>
+</table>
+
+<h2>Deferred queue (carried from v1.25.0, updated)</h2>
+<table>
+  <thead><tr><th>Item</th><th>Status</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td>Part 2 — rigor pass on 10 canonical layers using v1.2.1</td><td><span class="new">TOP PRIORITY next session</span></td><td>See Top Priority section above. Armed with triage sequencing guidance.</td></tr>
+    <tr><td>Part 3 — audit v1.24.0 outputs against 10-layer canonical set</td><td><span class="hold">Queued</span></td><td>Scope v1.0.3 → v1.0.4+; chapter guidance addendum v1.0.0 → v1.0.1+; v1.24.0 rigor pass record v1.0.0 → v1.0.1+.</td></tr>
+    <tr><td>Part 4 — elevate publication strategy + success criteria</td><td><span class="hold">Queued (consider running before Part 2)</span></td><td>Option A/B/C in v1.25.0 handoff §Part 4. Group D and Group E tests in v1.2.1 depend on this being canonical.</td></tr>
+    <tr><td>Naming cohort on 10 canonical layers</td><td><span class="hold">Blocked on Part 2</span></td><td>Walk 10 one at a time with merger/primitiveness at each step; bundle C7/C8/CX/CY/CZ/CW patches after sign-off.</td></tr>
+    <tr><td>Memory streamlining pass</td><td><span class="hold">Deferred to Part 5</span></td><td>Runs after layer stability so streamlining happens once, not twice.</td></tr>
+    <tr><td>CB patches C1–C6 and C9</td><td><span class="hold">Deferred to Part 5</span></td><td>C9 already canonical in operating core; apply manually to GitHub. C7/C8/CX/CY/CZ/CW produced after naming cohort.</td></tr>
+    <tr><td>Handoff abstraction project — 3 files to v1.0.1</td><td><span class="hold">Deferred to Part 5</span></td><td>Template, sailboat example (privacy-scrubbed), commons-bonds-handoff-template.</td></tr>
+    <tr><td>Tier 2a rename verification ("Individual Risk Cost" → "Actuarial Risk Cost")</td><td><span class="hold">Deferred to Part 5</span></td><td>Verify during patching pass.</td></tr>
+    <tr><td>v1.2.2 protocol clarifications (if warranted)</td><td><span class="new">Empirical — wait for Part 2</span></td><td>Annotations suggested in character triage §11 (Characters 4, 18, 19 as layer-level overlaps with Tests 18, 20, 20); layer-inherent-canonical-cases methodology note; full-vs-light layer-pass guidance. Handle after Part 2 generates empirical confirmation.</td></tr>
+    <tr><td>Technical Appendix v0.0.2 vs v0.0.1 metadata inconsistency</td><td><span class="hold">Deferred</span></td><td>May need AIT section update after Part 2.</td></tr>
+    <tr><td>Ch 2 primary-source upgrade (Appalachian land-grant material)</td><td><span class="hold">Deferred</span></td><td>Integrate when Ch 2 is next open.</td></tr>
+    <tr><td>Ch 9 civilization-scale Foreclosure extension (rare-earth / off-Earth migration)</td><td><span class="hold">Deferred</span></td><td>Integrate when Ch 9 is next open.</td></tr>
+    <tr><td>Ch 1 / Ch 10 NYC isolation material (Cohesion canonical non-co-occurring case)</td><td><span class="hold">Deferred</span></td><td>Integrate when those chapters open.</td></tr>
+    <tr><td>Full chapter guidance documents for remaining chapters</td><td><span class="hold">Queued</span></td><td>Template in chapter guidance addendum v1.0.0 final section.</td></tr>
+    <tr><td>Ch. 7 scaffold verification</td><td><span class="hold">Parallel task, Chris offline</span></td><td>Confirm whether Ch. 7 current scaffold applies full eight-tier depth or only universality validation.</td></tr>
+    <tr><td>NDA review (CEO-era engagements)</td><td><span class="hold">Pre-drafting gate for Ch. 6</span></td><td>Required before Ch. 6 CEO-perspective case drafting.</td></tr>
+    <tr><td>Subordinate anonymization protocol decision</td><td><span class="hold">Pre-drafting gate</span></td><td>Preferred: pattern description without identifiable specifics.</td></tr>
+    <tr><td>Lithium fallback evaluation for Ch. 8</td><td><span class="hold">Gate-check (after Ch. 2 drafted)</span></td><td>Evaluate whether Ch. 8 coal deepens Ch. 2 or repeats it.</td></tr>
+    <tr><td>Chapter ordering gate-check (coal before/after asteroid)</td><td><span class="hold">Gate-check (after Ch. 2 + Ch. 7 drafted)</span></td><td>Scope §11.5 provisional: keep current order.</td></tr>
+    <tr><td>Ch. 6 "villain who isn't a villain" frame validation</td><td><span class="hold">Gate-check (after Ch. 6 drafted)</span></td><td>Confirm analytical weight vs. pure rhetoric.</td></tr>
+    <tr><td>120-hour-week case integration</td><td><span class="new">Queued for Ch. drafting</span></td><td>Canonical case for consent-normalization shield type. Route through appropriate layer chapter (Institutional or Temporal) per Part 2 outcome.</td></tr>
+    <tr><td>Congrats-reply drafting for SGA presidency win</td><td><span class="hold">Parallel task</span></td><td>Slottable anytime; not blocking.</td></tr>
+  </tbody>
+</table>
+
+<h2>Watch items</h2>
+<div class="watch">
+<ul>
+  <li><strong>Session-start discipline:</strong> upload (a) v1.2.1 rigor protocol, (b) this handoff, (c) the 2026-04-22 rigor pass record. Paste the snippet at the top of the first message. Without these in session context, Part 2 will risk lineage-drift (the failure mode v1.2.0 was built to prevent).</li>
+  <li><strong>Part 4 ordering question:</strong> consider resolving publication strategy + success criteria (v1.25.0 handoff §Part 4, Option A/B/C) before running Part 2. Group D and Group E tests in v1.2.1 depend on those being canonical. If Part 4 runs first, the Part 2 gap-close has cleaner test inputs.</li>
+  <li><strong>Proposed-awaiting-ratification items from v1.24.0 still apply:</strong> scope v1.0.3, chapter guidance addendum v1.0.0, v1.24.0 rigor pass record. These need the Part 3 audit before they become canonical.</li>
+  <li><strong>Meta-pattern to verify in Part 2:</strong> canonical cases define a layer's pressure profile, not just its content profile. If the Part 2 rigor pass confirms this pattern, capture it as methodology in <code>commons_bonds_abundance_layers_v1_0_0.md</code> or as a v1.2.2 note.</li>
+  <li><strong>Don't run all 25 characters × 10 layers in Part 2.</strong> Triage §10 gives the ~15-character-per-layer sequencing. Running all 25 is triage theater; the consolidated characters duplicate tests at layer level.</li>
+  <li><strong>Claude has no GitHub access.</strong> All files via <code>present_files</code>. Chris pushes manually to GitHub and Google Drive; local backed up to iCloud.</li>
+  <li><strong>No Drive writes from Claude.</strong> Heredoc truncation risk. Chris uploads manually.</li>
+  <li><strong>Never touch <code>/Noema/</code> or <code>/Berggruen Institute - Essay/</code> Drive folders.</strong></li>
+  <li><strong>Never rename Drive files.</strong> Migration is read-only on the Drive side.</li>
+  <li><strong>Math files stay .html.</strong> Ch6, Tech Appendix, eight-tier, error-out, glossary — never convert.</li>
+  <li><strong>Privacy rule active:</strong> scrub personal financial specifics from external-facing outputs by default.</li>
+  <li><strong>Publishing path is integral to Book One success criteria</strong> (scope §8) — not orthogonal timing.</li>
+</ul>
+</div>
+
+<h2>Methodology notes (this session)</h2>
+<div class="info">
+<ul>
+  <li><strong>Three-deliverable pattern worked well.</strong> Ratification + patch + companion triage produced in one session, sequenced so the rigor pass record feeds the patch, and the patch is canonical by the time the companion triage ships. Worth using again when multiple artifacts need to land coherently.</li>
+  <li><strong>Triage-as-input-to-ratification pattern validated.</strong> The proposed triage (<code>commons_bonds_rigor_vs_layers_triage_v1_0_0.md</code>) was deliberately produced as proposed assessment, not as ratified finding. This allowed Chris to correct Test 13 without the correction changing the historical triage record — the correction lives in the rigor pass record. Clean separation per protocol §2.4.</li>
+  <li><strong>Chris's consent-normalization observation is the kind of finding the protocol is designed to catch and canonicalize.</strong> Without the shield-typology note in v1.2.1 and the rigor pass record §5 entry, a future session would re-derive this observation when the 120-hour-week case was next touched. Lineage discipline prevents that.</li>
+  <li><strong>Test 13 was a genuine miss, corrected by Chris.</strong> Worth naming: the triage's original verdict was "PROCESS-ONLY, NON-DIFFERENTIATING ON LAYERS" — a category mistake that treated canonical cases as separable from the layers that define them. Chris caught it with the opioid-geography / Appalachian-county example. Pattern to watch in Part 2: any test or character provisionally flagged layer-indifferent deserves a canonical-case check before the verdict stands.</li>
+  <li><strong>Copy-paste snippet is new this handoff.</strong> If it proves useful, fold into the handoff template when the handoff abstraction project runs in Part 5.</li>
+</ul>
+</div>
+
+<h2>Resume instructions for next Claude instance</h2>
+<div class="resume">
+<p><strong>To the Claude instance reading this:</strong></p>
+<ol>
+  <li>Read this entire handoff before responding, especially the Canonical Additions and Watch Items sections.</li>
+  <li><strong>Verify canonical state at session start.</strong> Confirm with Chris that (a) rigor protocol v1.2.1 is canonical; (b) 10-layer set is unchanged; (c) consent-normalization shield type is in Path 2 typology; (d) Test 13 correction is canonical (career-risk is layer-inherent via canonical cases). If any are not in session context, flag the drift before proceeding.</li>
+  <li><strong>Orient using the copy-paste snippet at the top of this handoff</strong> if Chris pasted it into his first message. It recapitulates canonical state compactly.</li>
+  <li><strong>First task: Part 2 — rigor pass on the 10 canonical layers using v1.2.1.</strong> Workflow in the Top Priority section above. Use the sequencing guidance from the character triage §10. Produce <code>commons_bonds_abundance_layers_v1_0_0.md</code> and a separate rigor pass record.</li>
+  <li><strong>Consider running Part 4 first</strong> (publication strategy + success criteria elevation). Group D and Group E tests in v1.2.1 depend on Part 4 being canonical. Ask Chris if he wants to interleave.</li>
+  <li><strong>Then Part 3:</strong> audit v1.24.0 outputs against 10-layer canonical set.</li>
+  <li><strong>Then Part 5:</strong> naming cohort + deferred queue items.</li>
+  <li>The CB operating core applies to all CB work. Two-path test (now with consent-normalization shield), merger gate, primitiveness gate, revisitability — canonical. Rigor protocol v1.2.1 extends the core.</li>
+  <li><strong>Watch for the meta-pattern:</strong> canonical cases define a layer's pressure profile, not just its content profile. If Part 2 confirms, capture as methodology.</li>
+  <li>Privacy rule: scrub personal financial specifics from external-facing outputs by default.</li>
+  <li>No Drive writes from Claude. No GitHub writes. Chris uploads/pushes manually.</li>
+  <li>Never touch /Noema/ or /Berggruen Institute - Essay/ Drive folders. Never rename Drive files. Math files stay .html.</li>
+</ol>
+</div>
+
+<h2>Files uploaded this session (for reference)</h2>
+<ul>
+  <li><code>commons-bonds-session-handoff-2026-04-21_v1_25_0.html</code> — prior handoff, read at session start</li>
+  <li><code>commons_bonds_rigor_protocol_v1_2_0.md</code> — proposed-awaiting-ratification protocol, ratified this session</li>
+</ul>
+
+<h2>Commons Bonds operating core (canonical — updated v1.26.0)</h2>
+<div class="operating">
+
+<h3>AIT positioning (canonical, from C9 patch §3)</h3>
+<p>The Abundance Interference Taxonomy is the framework's epistemic core. Layers are organizational scaffolding, not load-bearing structure. Layer additions, mergers, or renames are organizational revisions, not framework-integrity events. The AIT operates on any cost-scarcity relationship independently of a containing taxonomy — its validity is a property of the cost-scarcity relationship itself, not of any layer set.</p>
+
+<h3>Canonical abundance-layer set (10 layers, per v1.21.0; awaiting Part 2 gap-close under v1.2.1)</h3>
+<p>Atmospheric (rename pending) · Geographic (rename pending) · Temporal · Institutional · Demographic (rename pending) · Ecological · Political · Cohesion (name TBD) · Informational (name TBD) · Agency (name TBD). See roster table above.</p>
+
+<h3>Two-path rigor test — apply before ratifying any architectural claim</h3>
+<ul>
+  <li><strong>Path 1 — Allocation symmetry:</strong> Is the structural value-capture / cost-bearing asymmetry present?</li>
+  <li><strong>Path 2 — Shield absence:</strong> Is the distance condition (the shielding mechanism) absent? Shield typology: epistemic, institutional, political, fiduciary, spatial, temporal, <strong>consent-normalization</strong> (added v1.2.1).</li>
+</ul>
+<p>Both paths must confirm. Structural allocation is the <em>mechanism</em> of cost severance. Distance is the <em>shielding condition</em>. Individual awareness and agreement do not dissolve cost severance when the social framework treats consent as terminally closing the accounting.</p>
+
+<h3>Merger gate — apply before ratifying any new or renamed layer</h3>
+<p>Demonstrate bilateral independence with cases in both directions. If independence fails in either direction, merger is indicated.</p>
+
+<h3>Primitiveness gate — apply before ratifying any new layer</h3>
+<p>The layer's revealed costs must not decompose cleanly into compositions of existing layers. If they do, the candidate is a cross-layer concept, not a new layer.</p>
+
+<h3>Canonical cases are layer-inherent (added v1.26.0)</h3>
+<p>A layer's canonical cases are not incidental to the layer; they are what the layer means in practice. Career-risk, legal exposure, and reception pressures route through specific layers via their canonical cases — layer-indifferent-in-the-abstract does not mean layer-indifferent-in-practice. Verified pattern as of the Test 13 correction.</p>
+
+<h3>Revisitability</h3>
+<p>Rejected candidates remain revisitable. A candidate concept that fails one framing may succeed under another as understanding sharpens. Failure is a finding about the tested form, not a permanent verdict on the concept space.</p>
+
+<h3>Operating discipline</h3>
+<p><strong>"Push harder so we only rewrite once."</strong> Applies to layer set, protocol, AIT positioning, chapter framing, book scope, and the rigor protocol's own lineage.</p>
+
+<h3>Protocol version</h3>
+<p><strong>v1.2.1 canonical</strong> (<code>commons_bonds_rigor_protocol_v1_2_1.md</code>, 2026-04-22) — clarifications patch over ratified v1.2.0.</p>
+
+<h3>Naming convention</h3>
+<pre>Chapters:    Chapter_#_Title_Draft.md  /  Chapter_#_Title_GuidanceDoc.md
+Patches:     c{N}_{topic}_patch.md
+Methodology: commons_bonds_{topic}_{v#_#_#}.md  or  .html
+Handoffs:    commons-bonds-session-handoff-YYYY-MM-DD_{v#_#_#}.html
+Rigor pass:  commons_bonds_rigor_pass_YYYY-MM-DD_{v#_#_#}.md
+Versioned:   _{v#_#_#} suffix; increment rightmost digit per update</pre>
+
+</div>
+
+<p class="meta" style="margin-top:3em; border-top:1px solid #ccc; padding-top:1em;">
+End of session handoff <span class="version">v1.26.0</span>. <strong>Next session top priority: Part 2 rigor pass on the 10 canonical abundance layers using v1.2.1, with triage-guided character sequencing. Consider running Part 4 (publication strategy + success criteria) first to canonicalize Group D and Group E inputs.</strong> All v1.24.0 outputs remain proposed-awaiting-ratification pending Part 3 audit.
+</p>
+
+</body>
+</html>
