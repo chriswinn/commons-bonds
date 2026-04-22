@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-21 · v1.24.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  h4 { font-size: 0.95em; margin-top: 1.2em; font-weight: 600; color: #444; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status   { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume   { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch    { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info     { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .critical { background: #fce4ec; border-left: 4px solid #c2185b; padding: 1em 1.2em; margin: 1em 0; }
+  .operating { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done    { color: #1a6a2a; font-weight: 600; }
+  .pending { color: #a2260b; font-weight: 600; }
+  .hold    { color: #cc7700; font-weight: 600; }
+  .new     { color: #6a4c9c; font-weight: 600; }
+  .version { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-21 · Version <span class="version">1.24.0</span> · Supersedes v1.23.0 · Substantial scope + methodology session. Outputs: scope doc v1.0.0 → v1.0.3, rigor protocol v1.0.0, chapter guidance addendum for Ch. 6/7/8 v1.0.0. Critical recursive-validation gap surfaced at session's end: the abundance layers (7 or 8 — ambiguity to resolve) underlying the Abundance Inversion Test have not themselves been rigor-tested, despite being the foundation of every rigor pass run this session. Next session starts by running the framework against itself.</p>
+
+<div class="status">
+<strong>STATUS:</strong> Extensive scope and methodology work produced this session. Parts 1 and 2 of the v1.23.0 priority queue were completed: (1) memory v1.0.1 and privacy-addendum preferences confirmed applied; (2) book-scoping review produced scope doc v1.0.0 → v1.0.3 with full rigor applied at each iteration. New methodology artifact created: rigor protocol v1.0.0 codifying 25 framework tests + 25-character pressure suite + full/light protocols. Chapter guidance addendum v1.0.0 produced for Ch. 6, Ch. 7, Ch. 8 covering what the worked examples must accomplish. Critical recursive-validation gap surfaced at session's end: the abundance layers underlying the AIT have not been validated through the rigor framework they support. Memory streamlining pass (original Part 3) deferred — must run after layer stability, not before, or it streamlines twice. Deferred queue (original Part 4) remains pending.
+</div>
+
+<div class="critical">
+<strong>CRITICAL — RECURSIVE VALIDATION GAP</strong>
+<p>The Abundance Inversion Test is canonical in Book One per scope §1.4. It passed both primitiveness and merger gates as a <em>methodology</em>. But the <em>abundance layers</em> it operates on — the specific set of things stripped to reveal hidden tiers — have not been run through the rigor framework. Every scope decision, every rigor pass, and every chapter guidance claim made this session assumed the layer set is canonical. It is not. Until next session's rigor pass confirms the layers, all this-session outputs are <strong>proposed — awaiting ratification</strong> not only at the document level but at the framework level.</p>
+<p><strong>Ambiguity to resolve first:</strong> Claude enumerated seven abundance layers during this session (atmospheric, geographic, temporal, institutional, demographic, ecological, political). Chris referenced "8 layers of abundance" in the session-close message. Resolution paths before rigor pass can run:</p>
+<ol>
+<li>There is an 8th layer Claude is missing from prior conversations — identify and include.</li>
+<li>Chris is conflating the eight RCV tiers (Decision A, 2026-04-19) with the abundance layers — clarify the distinction and proceed with whichever set is canonical.</li>
+<li>The layer set has expanded since Claude's enumeration — identify the expansion source and update.</li>
+</ol>
+<p>Resolve the ambiguity before running the rigor pass. The layer set's cardinality affects how merger-gate pairs are enumerated.</p>
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY — Six-part sequence for next session</h2>
+
+<h3>Part 1 — Resolve layer-count ambiguity</h3>
+<ol>
+  <li>Chris confirms the canonical abundance-layer count (7, 8, or other) and the canonical name of each layer.</li>
+  <li>If necessary, pull from prior conversations or Drive methodology docs to reconstruct the authoritative list.</li>
+  <li>Record the resolution before rigor pass begins.</li>
+</ol>
+
+<h3>Part 2 — Full rigor pass on the abundance layers (framework against itself)</h3>
+<ol>
+  <li><strong>Primitiveness gate per layer.</strong> For each layer, demonstrate that it does not decompose cleanly into compositions of other layers. Example test: does "political abundance" decompose into institutional + demographic + ecological abundances? If yes, political is a cross-layer concept, not a primitive. Run this test for every layer.</li>
+  <li><strong>Merger gate per layer pair.</strong> For every pair of layers, demonstrate bilateral independence — cases where layer A shields costs that layer B does not, and vice versa. For N layers, this is N×(N-1)/2 pairs: 21 pairs if 7 layers, 28 pairs if 8 layers.</li>
+  <li><strong>Two-path test per layer.</strong> Does each layer genuinely function as a shielding condition (shields the mechanism of cost severance) rather than as a cost itself? If a "layer" is actually a cost, it belongs in the tier set, not the layer set.</li>
+  <li><strong>Set completeness test.</strong> Are there abundances that exist in the real world but are not on the list? Is the set closed, or does it have obvious gaps? Candidate abundances to test for missing-from-set: cognitive/psychological, social/relational, biological/species, information/data, cosmic/physical-law. Run each through primitiveness + merger to determine whether it belongs.</li>
+  <li><strong>Character suite pressure test.</strong> Apply the 25-character suite from rigor protocol v1.0.0 to the layer set. Flag any character whose pressure surfaces missing layers, layer definitions that don't hold, or set-completeness failures.</li>
+</ol>
+<p>Output: a versioned methodology document <code>commons_bonds_abundance_layers_v1_0_0.md</code> (or <code>.html</code> if math-heavy) formally ratifying the canonical layer set. This document should include the rigor-pass findings, the canonical naming, definitional statements for each layer, and cross-references to downstream content that depends on it.</p>
+
+<h3>Part 3 — Cascade revisions if layer set changes</h3>
+<p>If Part 2's rigor pass produces a layer set different from what this session assumed, work through the dependency chain in order:</p>
+<ol>
+  <li><strong>AIT canonical content</strong> — scope v1.0.3 §1.4 and Technical Appendix Abundance Inversion Test section. Update if layer naming, count, or definitions change.</li>
+  <li><strong>PCC placement</strong> — scope v1.0.3 §1.5 places Political Capture Cost in the political-abundance layer. If that layer is renamed, merged, or restructured, PCC placement updates.</li>
+  <li><strong>Ch. 7 worked application</strong> — chapter guidance addendum v1.0.0 specifies the asteroid-miner case demonstrates layer stripping. If the layer set changes, the demonstration changes.</li>
+  <li><strong>Rigor protocol impact assessment</strong> — rigor protocol v1.0.0 Group A tests. The tests themselves (primitiveness, merger, two-path) should be robust to layer-set changes; the protocol shouldn't need revision unless layer-rigor findings reveal a deeper issue with the tests. Flag if the protocol needs updating.</li>
+  <li><strong>Memory content</strong> — userMemories contains references to AIT as canonical. If substantial AIT revision results, flag for inclusion in the consolidated memory streamlining pass (Part 5).</li>
+</ol>
+
+<h3>Part 4 — Re-validate this-session work against the ratified layer set</h3>
+<p>After Parts 2 and 3 stabilize, re-run rigor on this session's outputs to confirm they still hold:</p>
+<ol>
+  <li>Scope doc v1.0.3 — full re-read. Likely-affected sections: §1.4, §1.5, §1.10 (worked applications across scales), §1.11 (pre-drafting items), §11 (gate-check).</li>
+  <li>Rigor protocol v1.0.0 — confirm the 25 tests and 25 characters still apply unchanged. High likelihood of passing unchanged; low but nonzero risk of revision.</li>
+  <li>Chapter guidance addendum v1.0.0 — Ch. 7 section is highest-risk; Ch. 6 and Ch. 8 sections should pass unchanged unless layer changes propagate to tier decomposition.</li>
+  <li>Bump versions as needed: scope v1.0.4+, rigor protocol v1.0.1+, chapter guidance addendum v1.0.1+.</li>
+</ol>
+
+<h3>Part 5 — Memory streamlining pass (consolidated)</h3>
+<p>Runs after layer stability and all cascade revisions are complete, so all streamlining happens in one pass:</p>
+<ol>
+  <li>Ephemeral items: congrats-reply status, other near-term transients that won't matter in 2 weeks.</li>
+  <li>Thematic redundancy: Kant / virtue ethics appears in both Personal context and Long-term background with different phrasings.</li>
+  <li>Scoping additions (from this session): Decision A eight-tier canonical, AIT canonical status, PCC clarification, publishing-path integrality, 13+-year canonical success sentence, Configuration C scope, rigor protocol existence, chapter guidance addendum existence.</li>
+  <li>Abundance-layer additions (from next session's Part 2): canonical layer set, AIT operational dependency, any ratified changes.</li>
+  <li>Produce <code>userMemories_proposed_2026-04-XX_v1_0_2.md</code> for Chris to paste into Settings &gt; Profile.</li>
+</ol>
+
+<h3>Part 6 — Resume deferred queue</h3>
+<ol>
+  <li>Finalize and push handoff abstraction project (three v1.0.1 files from v1.22.0 queue — see deferred queue table below).</li>
+  <li>CB patches C1–C6 and C9, with C9 overlap check first.</li>
+  <li>Naming cohort (ten candidate layers) per v1.21.0 protocol — full merger + primitiveness gates. <strong>Note:</strong> "Ten candidate layers" here refers to the separate naming-cohort item from v1.21.0, not the abundance layers from Part 2. Confirm before starting.</li>
+</ol>
+</div>
+
+<h2>Files produced this session (2026-04-21)</h2>
+<table>
+  <thead><tr><th>File</th><th>Format</th><th>Status</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td><code>commons_bonds_book_scope_v1_0_0.md</code></td><td>.md</td><td><span class="hold">Superseded by v1.0.3</span></td><td>Initial scoping doc; three-book split, Abundance Inversion Test canonical, success criteria ten-year timeline</td></tr>
+    <tr><td><code>commons_bonds_book_scope_v1_0_1.md</code></td><td>.md</td><td><span class="hold">Superseded by v1.0.3</span></td><td>First rigor pass: PCC reclassified shield-not-tier; publishing-path integral-not-orthogonal; 13+-year timeline; Ch. 8 coal rationale; preconditions restructured; lithium fallback named</td></tr>
+    <tr><td><code>commons_bonds_book_scope_v1_0_2.md</code></td><td>.md</td><td><span class="hold">Superseded by v1.0.3</span></td><td>Configuration C integrated: Ch. 6 dual worked cases (worker + CEO), §1.10 worked-applications-across-scales, §1.11 pre-drafting items</td></tr>
+    <tr><td><code>commons_bonds_book_scope_v1_0_3.md</code></td><td>.md</td><td><span class="pending">Proposed — awaiting ratification; pending abundance-layer rigor pass</span></td><td>§11 gate-check process added; Ch. 7 asteroid-miner full rigor pass; chapter-ordering question flagged for gate-check resolution with provisional recommendation</td></tr>
+    <tr><td><code>commons_bonds_rigor_protocol_v1_0_0.md</code></td><td>.md</td><td><span class="pending">Proposed — awaiting ratification; confirm robustness to abundance-layer changes</span></td><td>25 framework tests (Groups A–F) + 25-character pressure suite (Groups G–L) + full/light rigor protocols</td></tr>
+    <tr><td><code>commons_bonds_chapter_guidance_addendum_ch6_7_8_v1_0_0.md</code></td><td>.md</td><td><span class="pending">Proposed — awaiting ratification; Ch. 7 section highest re-validation risk</span></td><td>Focused addendum on what Ch. 6, 7, 8 worked examples must accomplish; template candidate for future full chapter guidance docs</td></tr>
+  </tbody>
+</table>
+
+<h2>Ratification status summary</h2>
+<div class="info">
+<p>All this-session outputs are <strong>proposed — awaiting ratification</strong>. Ratification depends on:</p>
+<ul>
+  <li>Successful abundance-layer rigor pass (Part 2) — if layers hold as this session assumed, this-session outputs ratify with minor possible sharpenings.</li>
+  <li>Successful cascade (Part 3) — if layers change, this-session outputs update to match, then ratify.</li>
+  <li>Chris's direct pushback on any ratification call — if the rigor pass outputs don't match Chris's intent, revision precedes ratification regardless of rigor-pass outcome.</li>
+</ul>
+<p>No this-session output should be treated as canonical until the abundance-layer rigor pass completes and cascade revisions (if any) are applied.</p>
+</div>
+
+<h2>Deferred queue</h2>
+<table>
+  <thead><tr><th>Item</th><th>Status</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td>Handoff abstraction project — 3 files to v1.0.1</td><td><span class="hold">Deferred to Part 6</span></td><td>template, sailboat example (remove financial detail, fix Tartan 33 framing, add all-in value rule, integrate full bluewater + catamaran shortlist), commons-bonds-handoff-template; check README for ripple edits; add <code>_#_#_#</code> version suffix convention throughout</td></tr>
+    <tr><td>CB patches C1–C6 and C9</td><td><span class="hold">Deferred to Part 6</span></td><td>Check C9 target file overlap with C1–C6 targets before applying; apply C9 first if overlap exists</td></tr>
+    <tr><td>Naming cohort — ten candidate layers</td><td><span class="hold">Deferred to Part 6</span></td><td>Full merger + primitiveness gates per v1.21.0 workflow. Confirm this is separate from the abundance-layer set (Part 2).</td></tr>
+    <tr><td>Tier 2a rename verification ("Individual Risk Cost" → "Actuarial Risk Cost")</td><td><span class="hold">Deferred to patching pass</span></td><td>Chris believes rename is applied; verify during patching pass — check all canonical files for stragglers</td></tr>
+    <tr><td>Protocol v1.2.0 formal document</td><td><span class="hold">Deferred</span></td><td>Merger gate, primitiveness gate, revisitability additions drafted inline in v1.21.0; formal doc to be produced alongside naming cohort outcomes</td></tr>
+    <tr><td>Technical Appendix v0.0.2 vs v0.0.1 metadata inconsistency</td><td><span class="hold">Deferred</span></td><td>Confirm on next touch. May also need AIT section update if Part 2 changes layers.</td></tr>
+    <tr><td>Tier 8 finding as C3 addendum (optional)</td><td><span class="hold">Deferred</span></td><td>Still in queue</td></tr>
+    <tr><td>Ch 2 primary-source upgrade (Appalachian land-grant material)</td><td><span class="hold">Deferred</span></td><td>Integrate when Ch 2 is next open</td></tr>
+    <tr><td>Ch 9 civilization-scale Foreclosure extension (rare-earth / off-Earth migration)</td><td><span class="hold">Deferred</span></td><td>Integrate when Ch 9 is next open</td></tr>
+    <tr><td>Ch 1 / Ch 10 NYC isolation material (Cohesion layer canonical non-co-occurring case)</td><td><span class="hold">Deferred</span></td><td>Integrate when those chapters open</td></tr>
+    <tr><td>Full chapter guidance documents for all 10 chapters</td><td><span class="new">New — queued for dedicated session(s)</span></td><td>Template candidate embedded in chapter guidance addendum v1.0.0 final section. Apply to remaining seven chapters (1, 2, 3, 4, 5, 9, 10) in future session(s).</td></tr>
+    <tr><td>Past-chats search for Ch. 10 close options</td><td><span class="new">Available on request</span></td><td>Reconstruct the discussion of close options, what was considered, what was chosen, reasoning. Current scope has "one-letter shift" (Commons Bonds → common bonds) as canonical close move.</td></tr>
+    <tr><td>Ch. 7 scaffold verification</td><td><span class="new">Parallel task</span></td><td>Chris's offline task: when next in Drive, confirm whether Ch. 7 current scaffold applies full eight-tier depth or only universality validation. Affects §1.10 scale-distribution claim.</td></tr>
+    <tr><td>NDA review (CEO-era engagements)</td><td><span class="new">Pre-drafting, Chris offline</span></td><td>Required before Ch. 6 CEO-perspective case drafting</td></tr>
+    <tr><td>Subordinate anonymization protocol decision</td><td><span class="new">Pre-drafting</span></td><td>Preferred: pattern description without identifiable specifics (scope §1.11). Required before Ch. 6 drafting.</td></tr>
+    <tr><td>Lithium fallback evaluation for Ch. 8</td><td><span class="new">Gate-check (after Ch. 2 drafted)</span></td><td>Evaluate whether Ch. 8 coal deepens Ch. 2 or repeats it; invoke lithium fallback if latter (scope §1.9)</td></tr>
+    <tr><td>Chapter ordering gate-check (coal before/after asteroid)</td><td><span class="new">Gate-check (after Ch. 2 + Ch. 7 drafted)</span></td><td>Read both in current order; decide whether attack-on-miners concern requires reordering. Scope §11.5 provisional: keep current order.</td></tr>
+    <tr><td>Ch. 6 "villain who isn't a villain" frame validation</td><td><span class="new">Gate-check (after Ch. 6 drafted)</span></td><td>Confirm the frame carries analytical weight rather than being purely rhetorical</td></tr>
+    <tr><td>Congrats-reply drafting for SGA presidency win</td><td><span class="hold">Available as parallel task</span></td><td>Can be slotted in whenever Chris wants — not blocking any CB work</td></tr>
+  </tbody>
+</table>
+
+<h2>Watch items</h2>
+<div class="watch">
+<ul>
+  <li><strong>Abundance-layer rigor pass is the highest-priority item carried forward</strong> — blocks ratification of all this-session outputs and gates the memory streamlining pass.</li>
+  <li><strong>Layer-count ambiguity must be resolved before rigor pass begins</strong> — 7 vs. 8 affects merger-gate pair enumeration and may affect layer-primitiveness findings.</li>
+  <li><strong>Cascade risk from layer changes is real.</strong> AIT, PCC placement, Ch. 7 guidance, potentially rigor protocol all depend on layer set. Dependency order is specified in Part 3.</li>
+  <li><strong>All this-session outputs are "proposed — awaiting ratification."</strong> Treat as working documents, not canonical, until Part 4 re-validation completes.</li>
+  <li><strong>Memory streamlining must run post-layer-stability</strong> — otherwise streamlined twice (once now, once after layer cascade). Part 5 position is deliberate.</li>
+  <li><strong>Quite a bit of the existing book content will need revision</strong> based on this-session work — Chris acknowledged this explicitly. Existing chapter scaffolds do not yet reflect Configuration C, the Abundance Inversion Test as canonical, PCC as shielding condition, publishing path as integral, or the gate-check process. Revision work is substantial but expected.</li>
+  <li><strong>Pre-drafting items for Ch. 6 are real gates</strong>: NDA review + subordinate anonymization. These must resolve before Ch. 6 drafting begins, not during or after.</li>
+  <li><strong>Claude has no GitHub access.</strong> All files via <code>present_files</code>. Chris pushes manually to both GitHub and Google Drive; local is backed up to iCloud.</li>
+  <li><strong>No Drive writes from Claude.</strong> Heredoc truncation risk. Chris uploads manually.</li>
+  <li><strong>Never touch <code>/Noema/</code> or <code>/Berggruen Institute - Essay/</code> Drive folders.</strong></li>
+  <li><strong>Never rename Drive files.</strong> Migration is read-only on the Drive side.</li>
+  <li><strong>Math files stay .html.</strong> Ch6, Tech Appendix, eight-tier, error-out, glossary — never convert.</li>
+  <li><strong>Privacy rule active:</strong> scrub personal financial specifics from external-facing outputs by default; memory and internal files retain specificity.</li>
+  <li><strong>Publishing path is integral to Book One success criteria</strong> (scope §8) — not orthogonal timing. Noema / Berggruen cascade outcomes are scope-level revisit triggers (scope §9 trigger #1).</li>
+</ul>
+</div>
+
+<h2>Commons Bonds operating core (canonical — update only on protocol revision)</h2>
+<div class="operating">
+
+<h3>AIT positioning</h3>
+<p>The Abundance Interference Taxonomy is the framework's epistemic core. Layers are organizational scaffolding, not load-bearing structure. Layer additions, mergers, or renames are organizational revisions, not framework-integrity events. Canonical statement: C9 patch §3. <strong>Note (v1.24.0):</strong> the abundance-layer set that the AIT operates on (distinct from AIT layers in the organizational sense) has not been rigor-validated as of this handoff. See critical callout above.</p>
+
+<h3>Two-path rigor test — apply before ratifying any architectural claim</h3>
+<ul>
+  <li><strong>Path 1 — Allocation symmetry:</strong> Is the structural value-capture / cost-bearing asymmetry present?</li>
+  <li><strong>Path 2 — Shield absence:</strong> Is the distance condition (the shielding mechanism) absent?</li>
+</ul>
+<p>Both paths must confirm. Structural allocation is the <em>mechanism</em> of cost severance. Distance is the <em>shielding condition</em>.</p>
+
+<h3>Merger gate — apply before ratifying any new or renamed layer</h3>
+<p>Demonstrate bilateral independence with cases in both directions: a case where Layer A costs occur without Layer B costs, and vice versa. If independence fails in either direction, merger is indicated.</p>
+
+<h3>Primitiveness gate — apply before ratifying any new layer</h3>
+<p>The layer's revealed costs must not decompose cleanly into compositions of existing layers. If they do, the candidate is a cross-layer concept, not a new layer.</p>
+
+<h3>Operating discipline</h3>
+<p><strong>"Push harder so we only rewrite once."</strong> Applies to layer set, protocol, AIT positioning, chapter framing, book scope, <em>and now the abundance-layer set itself</em>. The recursive-validation gap surfaced this session is an instance of the discipline being applied: better to catch and fix now than after the layers propagate further through ratified content.</p>
+
+<h3>Naming convention</h3>
+<pre>Chapters:    Chapter_#_Title_Draft.md  /  Chapter_#_Title_GuidanceDoc.md
+Patches:     c{N}_{topic}_patch.md
+Methodology: commons_bonds_{topic}_{v#_#_#}.md  or  .html
+Handoffs:    commons-bonds-session-handoff-YYYY-MM-DD_{v#_#_#}.html
+Versioned:   _{v#_#_#} suffix; increment rightmost digit per update</pre>
+
+<h3>Protocol version</h3>
+<p>v1.1.0 canonical. v1.2.0 additions (merger gate, primitiveness gate, revisitability) drafted inline in v1.21.0; formal doc to be produced alongside naming cohort outcomes. <strong>New in v1.24.0:</strong> rigor protocol v1.0.0 codifies 25-test + 25-character suite with full/light protocols — extends operating core without replacing it.</p>
+
+</div>
+
+<h2>Methodology notes (this session)</h2>
+<div class="info">
+<ul>
+  <li><strong>Rigor pass is recursive.</strong> Running rigor on scope decisions requires rigor on the tools used to run rigor. The abundance layers are a foundation that was assumed rather than validated. The recursive-validation gap surfaced at session's end is the honest consequence.</li>
+  <li><strong>The 25-test + 25-character rigor suite proved genuinely load-bearing.</strong> Applied three times this session (scope v1.0.1 initial, v1.0.2 Configuration C, v1.0.3 Ch. 7 asteroid-miner) and produced substantive corrections each time — PCC recharacterization, publishing-path reclassification, Character 23 surfacing anonymization requirement. Validation that the protocol does real work.</li>
+  <li><strong>"Villain who isn't a villain" framing.</strong> Chris named this during Configuration C discussion. It describes the CEO-perspective case in Ch. 6 — allocation is structural, individual extractors are not villains, framework applies equally to author-as-CEO and author-as-worker. Open question: does it carry analytical weight or is it purely rhetorical? Resolved at Ch. 6 draft gate-check per scope §11.5.</li>
+  <li><strong>Configuration C (Ch. 6 dual worked cases) passed full rigor</strong> with one critical flag from Character 23 (former subordinate) requiring anonymization protocol. Ch. 7 asteroid-miner full rigor pass passed all 25 tests with one yellow flag from Character 14 (Appalachian reader) tied to the chapter-ordering question.</li>
+  <li><strong>Chapter-ordering question emerged but did not resolve.</strong> Arguments for reordering (asteroid before coal) and for keeping current order both have merit. Resolution deferred to gate-check after Ch. 2 and Ch. 7 drafts exist.</li>
+  <li><strong>Close options reconstruction available on request.</strong> Chris noted he doesn't recall all options discussed for Ch. 10 or reasoning for the current one-letter-shift canonical. Past-chats search will reconstruct when prompted.</li>
+  <li><strong>Full chapter guidance docs identified as next major scoping-adjacent task.</strong> Template embedded in chapter guidance addendum v1.0.0 final section. Apply to remaining seven chapters in future session(s).</li>
+  <li><strong>Gate-check process is the bridge from scoping to drafting.</strong> Scope doc §11 codifies what runs after each chapter draft. Prevents scoping decisions from hardening without empirical test against actual written content.</li>
+</ul>
+</div>
+
+<h2>Resume instructions for next Claude instance</h2>
+<div class="resume">
+<p><strong>To the Claude instance reading this:</strong></p>
+<ol>
+  <li>Read this entire handoff before responding.</li>
+  <li><strong>First task: resolve the abundance-layer count ambiguity</strong> (Part 1 above). Do not start the rigor pass until Chris has confirmed whether the canonical set is 7, 8, or other, and what each layer's canonical name is. If Chris cannot confirm from memory, offer to search past conversations or Drive methodology docs to reconstruct.</li>
+  <li><strong>Second task: run the full rigor pass on the abundance layers</strong> (Part 2 above). Primitiveness per layer, merger per pair, two-path per layer, set-completeness test, character-suite pressure. Output: <code>commons_bonds_abundance_layers_v1_0_0.md</code> methodology document ratifying the canonical layer set. Apply operating discipline — this is a high-leverage decision with cascade risk. Push hard.</li>
+  <li><strong>Third task: if the layer set changes, cascade revisions</strong> (Part 3 above) in dependency order: AIT content → PCC placement → Ch. 7 guidance → rigor protocol impact assessment → memory flag. Version-bump all affected documents.</li>
+  <li><strong>Fourth task: re-validate this-session outputs against the ratified layer set</strong> (Part 4). Scope v1.0.3 → v1.0.4+, rigor protocol v1.0.0 → v1.0.1+ if needed, chapter guidance addendum v1.0.0 → v1.0.1+ if Ch. 7 section affected.</li>
+  <li><strong>Fifth task: memory streamlining pass</strong> (Part 5). Consolidated post-stability pass incorporating scoping additions, layer-pass outcomes, ephemeral cleanup, thematic redundancy.</li>
+  <li><strong>Sixth task: resume deferred queue</strong> (Part 6). Handoff-abstraction corrections, CB patches C1–C9 with C9 overlap check, naming cohort for ten candidate layers (separate from abundance-layer set — confirm before starting).</li>
+  <li><strong>Parallel tasks available anytime:</strong> congrats-reply drafting for SGA presidency win; past-chats search for Ch. 10 close options; full chapter guidance docs production (remaining seven chapters).</li>
+  <li>The CB operating core applies to all CB work. Two-path test, merger gate, primitiveness gate — not optional. Rigor protocol v1.0.0 (25-test + 25-character suite) extends the core and should be applied for scope, architectural, and framework decisions per the full-vs-light protocol.</li>
+  <li>Privacy rule: scrub personal financial specifics from external-facing outputs by default. Memory and internal files retain specificity. If in doubt, ask.</li>
+  <li>No Drive writes from Claude. Heredoc truncation risk. Chris uploads manually.</li>
+  <li>Never touch /Noema/ or /Berggruen Institute - Essay/ Drive folders. Never rename Drive files. Math files stay .html.</li>
+</ol>
+</div>
+
+<h2>Files uploaded this session</h2>
+<ul>
+  <li><code>commons-bonds-session-handoff_2026-04-21_1_23_0.html</code> — prior handoff, read at session start</li>
+  <li><code>CommonsBondsPublishingStrategyConsolidated.html</code> — Publishing Strategy from Apr 18, 2026</li>
+  <li><code>CommonsBonds_BookOneCommonsBondsPathBookTwo.html</code> — Book One / Book Two path conversation capturing the Abundance Inversion Test derivation, lone-author vulnerability analysis, Book Two deferral rationale</li>
+  <li><code>commons_bonds_critical_impact_assessment.html</code> — Apr 19, 2026 honest assessment of project potential (Harvey/Klein/Raworth ceiling, Nobel-gap analysis)</li>
+  <li><code>commons-bonds-success-criteria_11.html</code> — Apr 19, 2026 success criteria document</li>
+</ul>
+
+<p class="meta" style="margin-top:3em; border-top:1px solid #ccc; padding-top:1em;">
+End of session handoff <span class="version">v1.24.0</span>. <strong>Next session sequence: (1) resolve layer-count ambiguity, (2) run the framework against itself — full rigor pass on abundance layers, (3) cascade revisions if layers change, (4) re-validate this-session outputs, (5) memory streamlining pass, (6) resume deferred queue.</strong> All this-session outputs are proposed-awaiting-ratification pending the layer rigor pass.
+</p>
+
+</body>
+</html>
