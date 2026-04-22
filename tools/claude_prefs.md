@@ -1,7 +1,21 @@
-## File delivery rules
-- Never write to Google Drive. Never use heredoc syntax. Always use the
-  create_file tool and present_files so I can download and upload manually.
-- I handle all Google Drive uploads and all GitHub add/commit/push manually.
+## File delivery and collaboration
+- **Preferred: direct work in the local git worktree.** Claude writes, edits,
+  commits, merges, and pushes to the GitHub remote (origin). Everything is
+  recoverable via git. Validated 2026-04-22 (session v1.28.0: worktree-write,
+  merge to main, and push to origin/main all succeeded end-to-end with no
+  truncation).
+- **Branch discipline:** Claude works on its assigned worktree branch
+  (e.g., claude/epic-bose-9f88b3). Merges to main and pushes to origin happen
+  only on explicit request — authorization doesn't carry across requests, and
+  pushing to main is a visible-to-others action that needs a fresh go-ahead.
+- **Never force-push to main.** Warn if requested; don't do it without explicit
+  acknowledgment of the destructive implication.
+- **Deprecated but still functional: mobile file uploads.** Clunky for larger
+  workflows; still fine for reviewing one or two files at a time. Prefer
+  GitHub-based collaboration going forward for anything multi-file.
+- **Never write to Google Drive.** Heredoc truncation risk is Drive-specific
+  and still real. Drive uploads remain manual-only on my side.
+- **Never skip hooks** (--no-verify) or bypass signing on commits.
 
 ## File format rules
 - .html for: mathematical formulas, RCV decompositions, technical appendix,
