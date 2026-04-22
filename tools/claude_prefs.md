@@ -22,12 +22,26 @@
   glossary definitions, chapter drafts with equations, session handoffs.
 - .md for: workstream tracking, alignment notes, policy/narrative chapters,
   README files, patches, protocol documents, methodology docs.
-- Naming convention (Commons Bonds):
-    Chapters:     Chapter_#_Title_Draft.md / Chapter_#_Title_GuidanceDoc.md
-    Patches:      c{N}_{topic}_patch.md
-    Methodology:  commons_bonds_{topic}_{v#.#.#}.md or .html
-    Handoffs:     commons-bonds-session-handoff-YYYY-MM-DD_{v#.#.#}.html
-    Versioned files: add _{v#.#.#} suffix, increment rightmost digit per update.
+- Naming convention (Commons Bonds): **Version suffixes use dots, not underscores.**
+  Canonical format is `_v{major}.{minor}.{patch}` (example: `_v1.2.1`), not `_v1_2_1`.
+  Patterns:
+    Chapters:     Chapter_#_Title_Draft.md  /  Chapter_#_Title_GuidanceDoc.md
+    Patches:      c{N}_{topic}_patch.md  (in alignment/patches/)
+    Methodology:  commons_bonds_{topic}_v{major}.{minor}.{patch}.md  (or .html)
+                  example: commons_bonds_rigor_protocol_v1.2.2.md
+    Handoffs:     commons-bonds-session-handoff-YYYY-MM-DD_v{major}.{minor}.{patch}.html
+                  example: commons-bonds-session-handoff-2026-04-22_v1.29.0.html
+    Rigor pass:   commons_bonds_rigor_pass_YYYY-MM-DD_v{major}.{minor}.{patch}.md
+                  (in tools/rigor-passes/)
+    Triage:       commons_bonds_{topic}_triage_v{major}.{minor}.{patch}.md
+                  (in tools/triage/)
+  Versioned files: add `_v{major}.{minor}.{patch}` suffix; increment rightmost digit
+  per minor update (patch). Middle digit for material additions. Leading digit for
+  fundamental revisions.
+  Historical note: files created pre-2026-04-22 (session v1.29.0) use underscored
+  version suffixes (e.g., `_v1_2_1.md`). New files use dot-separated. A mass rename
+  sweep to normalize existing files is queued as an optional future task; in the
+  meantime, reference existing files by their current on-disk names.
 
 ## Session handoff rule
 - When a session grows heavy, produce a handoff file before context runs out —

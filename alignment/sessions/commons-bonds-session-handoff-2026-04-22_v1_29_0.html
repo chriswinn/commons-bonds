@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-22 · v1.29.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  h4 { font-size: 0.95em; margin-top: 1.2em; font-weight: 600; color: #444; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .decision     { background: #f3e8ff; border-left: 4px solid #7a3ea1; padding: 1em 1.2em; margin: 1em 0; }
+  .operating    { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .snippet      { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .decision-label { color: #7a3ea1; font-weight: 600; }
+  .version  { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-22 · Version <span class="version">1.29.0</span> · Supersedes v1.28.0 · Same-day continuation session executing the full housekeeping sweep + structural reorg. All 32 actions from the v1.28.0 housekeeping review §11 addressed (immediate tier executed, investigate tier resolved, post-cohort patches moved to deferred queue). Major structural changes: <code>tools/</code> reorganized with subfolders + README; <code>alignment/issues/</code> renamed to <code>alignment/patches/</code> (migration-era misnomer corrected); C-patches relocated from <code>alignment/issues/</code> → briefly through <code>tools/</code> → settled at <code>alignment/patches/</code> (per Chris's workflow: <code>tools/</code> = session-upload-set, patches are project-meta not upload material); 9 case study files populated in <code>research/case-studies/</code> (4 from existing chapter drafts, 5 from recovered sociology-paper source material); consolidated bibliography written at <code>research/literature/bibliography.md</code> with 30+ annotated entries (Ostrom, Harvey, Raworth, Daly, Polanyi, Desmond, Piketty, Keefe, Bullard, Hacker, Case & Deaton, Butler, Quill, FCIC, plus Hardin + Vance as contradict-targets); Claude Code memory system populated with 4 persistent memory files; 2 new project-state docs in <code>alignment/decisions/</code> (workstreams-superseded mapping + sociology-paper-to-book-transition with Books 1/2/3 strategy + queued rigor-test task). The v1.28.0 framework state (10 dimensions, Habitability + Ecosystem locked, Demographic naming open) is unchanged — this session did not touch the cohort.</p>
+
+<div class="status">
+<strong>STATUS:</strong> Session devoted to structural housekeeping + content capture. Seventeen commits on main covering: .DS_Store untracking; preference file update to GitHub-workflow pattern; session-handoff archival; c6 decision memo deduplication; Consider-Including duplicate deletion; Chapter 5 guidance filename normalization; Consider-Including reorganization per workstream-10 plan (Counter-Vance, Democratic-Socialism, Satellite-Essays separated into <code>_One Day Maybe/</code>; economic-theory-reference moved to <code>research/literature/</code>); 3 superseded framework docs archived (integrated_framework, layer_tier_stress_test, eight-tier-decomposition.md); permission normalization 0600→0644 across 39 files; publishing/targets/ empty directory removed; userMemories promoted to Claude Code memory system + source archived; Ch 1a knowledge-worker extension merged into Ch 1 guidance; Ch 8 guidance doc stub created (Ch 8 guidance never existed in git history — the guidance content lived in <code>archive/commons_bonds_chapter_assessment.md</code>, which Chris noted seeded the two-book / three-book split decision); workstreams/ folder archived (17 files) with mapping doc covering all surviving action items; research/case-studies/ README + 9 case study files; research/literature/bibliography.md consolidated bibliography; sociology-paper-to-book-transition.md capturing publishability assessment + structured todo list + Books 1/2/3 strategy + queued rigor-test task; alignment/decisions/ stale migration docs archived (6 files); alignment/issues/ renamed to alignment/patches/; C-patches settled at alignment/patches/ with naming normalization (c2/c3/c4/c5/c9 + tier_2a); tools/ reorganized with rigor-passes/ and triage/ subfolders + README.md directory. Framework work deferred to next session.
+</div>
+
+<div class="snippet">
+<h2>Copy-paste snippet for next session start</h2>
+<p style="font-size: 0.9em; color: #555; margin-top: 0;">Paste the pre block below into the first message of the next session. Space at the bottom for additional session-start thoughts.</p>
+<pre>Starting Commons Bonds session — picking up from handoff v1.29.0 (2026-04-22).
+
+Please read these files before responding:
+- commons-bonds-session-handoff-2026-04-22_v1_29_0.html  (this handoff — read first)
+- tools/README.md  (directory + upload-set reference; new this session)
+- tools/commons_bonds_rigor_protocol_v1_2_1.md  (canonical rigor protocol)
+- tools/commons_bonds_guiding_constraints_v1_0_0.md  (canonical Group D / E inputs)
+- tools/commons_bonds_abundance_layers_v1_0_0.md  (proposed; 10 dimensions tentatively
+  approved; retitle/renames pending post-cohort)
+- tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1_0_1.md  (Part 2 pass record)
+
+Current canonical state to verify:
+- Container term: "dimensions" (renamed from "layers" v1.28.0).
+- Dimension count: 10 locked for Book One. Availability-absence is severity-marker
+  across the 10, not a primitive 11th axis.
+- Locked dimension names: Habitability (was Atmospheric), Ecosystem (was Ecological),
+  Temporal, Institutional, Political (US-partisan watch).
+- Naming pending: Demographic (OPEN DECISION — Kinship vs Belonging), Geographic
+  (Spatial leading), Informational (Evidentiary leading), Agency (Autonomy leading),
+  Cohesion (Social-Fabric / Civic-Ties leading).
+- Rigor protocol: v1.2.1 (c5 / c9 references patched to include alignment/patches/
+  path this session).
+- Folder structure: tools/ = session upload set; alignment/patches/ = canonical
+  architectural patches (c2, c3, c4, c5, c9, tier_2a); alignment/decisions/ =
+  project-meta; research/case-studies/ = 9 standalone case files; research/
+  literature/bibliography.md = consolidated scholarly references.
+
+Top priority this session (in order):
+1. Demographic naming decision (Kinship vs Belonging — OPEN from v1.28.0).
+2. Priority-2 naming cohort: Informational, Agency, Cohesion, Geographic.
+3. Priority-3 stable confirmation: Temporal, Institutional, Political.
+4. Coordinated doc-revision pass (methodology + operating core propagation).
+5. Queued rigor test on resurfaced use cases (5 new case studies, post-cohort;
+   per alignment/decisions/sociology-paper-to-book-transition.md Section 5).
+6. manuscript/chapters/ rename propagation (8 drafts + 10 guidance docs).
+7. Part 3 methodology audit.
+8. Guidance-doc revision sweep.
+
+Watch items: no Drive writes (Drive-specific truncation); worktree writes + merges
++ pushes validated (v1.28.0); never touch /Noema/ or /Berggruen Institute - Essay/
+Drive folders; math files stay .html; privacy rule active; .DS_Store + .claude/ +
+.chriswinn/ in .gitignore; tools/ serves as session-upload-set folder per
+Chris's workflow.
+
+Additional thoughts for this session (Chris, fill in here before sending):
+[                                                                                           ]
+[                                                                                           ]
+[                                                                                           ]
+</pre>
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY — Demographic decision → Priority-2 cohort → Priority-3 confirm → propagation → audits</h2>
+
+<p>The substantive framework pipeline from v1.28.0 is unchanged and carries forward. This session's housekeeping was preparatory (clean filesystem for the cohort / audit / draft work to come).</p>
+
+<h3>1. Demographic naming decision (CARRIED from v1.28.0 — OPEN)</h3>
+<p>Kinship (recommended) vs Belonging (alternate). Decision tree unchanged from v1.28.0 — see OPEN DECISION below.</p>
+
+<h3>2. Priority-2 cohort (CARRIED from v1.28.0)</h3>
+<p>Informational (→ Evidentiary leading), Agency (→ Autonomy leading), Cohesion (→ Social-Fabric / Civic-Ties leading), Geographic (→ Spatial leading). Walk one at a time per abundance layers doc §6. For each: verify merger gate under new name, primitiveness gate, Tests 20/23 compression, Characters 10/M1/11 pattern-match.</p>
+
+<h3>3. Priority-3 stable confirmation (CARRIED from v1.28.0)</h3>
+<p>Temporal, Institutional, Political. Short confirm pass under rename-cohort context. US-partisan watch retained on Political.</p>
+
+<h3>4. Coordinated doc-revision pass (CARRIED from v1.28.0)</h3>
+<ul>
+  <li>Retitle abundance layers doc → abundance dimensions doc, bump v1.0.0 → v1.1.0, propagate renames in §2.</li>
+  <li>Add §5.5 availability-absence severity-marker note.</li>
+  <li>Add §5.6 lived-experience-as-canonical-case methodology.</li>
+  <li>Patch rigor protocol v1.2.1 terminology → v1.2.2.</li>
+  <li>Patch guiding constraints v1.0.0 terminology.</li>
+  <li>Patch <code>tools/claude_prefs.md</code> operating core block (still uses "layer" terminology).</li>
+  <li>Patch <code>tools/README.md</code> if terminology references change.</li>
+  <li>Patch <code>core/glossary/commons_bonds_updated_glossary_v2.html</code> terminology — load-bearing; glossary is where framework vocabulary lives.</li>
+  <li>Patch <code>core/technical-appendix/TechnicalAppendix_v0.0.2.html</code> terminology; resolve v0.0.2 metadata inconsistency.</li>
+  <li>Patch <code>core/decomposition/eight-tier-v10.html</code> and <code>error-out-v10.html</code> terminology.</li>
+</ul>
+
+<h3>5. Queued rigor test on resurfaced use cases (NEW this session)</h3>
+<p>Per <code>alignment/decisions/sociology-paper-to-book-transition.md</code> Section 5. Five resurfaced case studies from the sociology-paper source need to pass full rigor per <code>tools/commons_bonds_rigor_protocol_v1_2_1.md</code> against (a) framework-integrity tests, (b) scope/placement tests, (c) publishing-strategy alignment (Books 1/2/3 assignment), (d) success-criteria alignment, (e) book-assignment per the content-routing rules in the transition doc. Cases: <code>opioid-extraction-appalachia.md</code>, <code>2008-financial-crisis.md</code>, <code>healthcare-end-of-life.md</code>, <code>housing-enforced-immobility.md</code>, <code>tax-tradeoff-us-sweden.md</code>. Sequenced after naming cohort + propagation; before guidance-doc revision sweep (so the pass outputs inform which cases integrate where).</p>
+
+<h3>6. manuscript/chapters/ rename propagation (CARRIED from v1.28.0)</h3>
+<p>8 draft chapters + 10 guidance docs + author's note. Grep-based vocabulary sweep: layer → dimension, Atmospheric → Habitability, Ecological → Ecosystem, plus remaining Priority-2 renames once locked. Ch. 6 .html math file — verify MathJax rendering post-patch.</p>
+
+<h3>7. Part 3 — v1.24.0 methodology audit (CARRIED from v1.28.0)</h3>
+<p>Scope v1.0.3, chapter guidance addendum v1.0.0, v1.24.0 rigor pass record. Absorbs the rename cohort in one revision pass. Sequenced after chapter-draft propagation so chapter-level findings can inform scope/addendum revisions.</p>
+
+<h3>8. Guidance-doc revision sweep (CARRIED from v1.28.0, expanded this session)</h3>
+<p>Every chapter guidance doc brought to v1.28.0 standard — terminology, single-dimension cost severance methodology (§5.4), availability-absence severity-marker (§5.5), lived-experience-canonical-case pattern (§5.6). Ch. 1 guidance currently holds a merged Ch 1a Knowledge Worker Extension from this session; that merge's raw integration needs polish. Ch. 8 guidance doc stub (created this session) needs full rewrite. Integrates the queued rigor-test output (TOP PRIORITY §5 above) to inform which resurfaced cases land in which chapters.</p>
+
+<h3>9. Housekeeping — complete this session</h3>
+<p>All 32 housekeeping review actions addressed. Immediate tier: done. Investigate tier: resolved. Post-cohort PATCH sweep items (items 19-32 from review §11): carried forward into the rename-propagation and guidance-doc revision sweeps above.</p>
+</div>
+
+<div class="decision">
+<h2><span class="decision-label">OPEN DECISION (carried from v1.28.0)</span> — Demographic naming: Kinship vs Belonging</h2>
+<p><strong>Status:</strong> Unchanged from v1.28.0. Pending Chris's selection at session start.</p>
+<p><strong>Decision context:</strong> Experiential-directness (Belonging — Chris's framing "feel part of a group, community, culture, vs. alone and isolated") vs. scope-precision (Kinship — anthropology-native kin/non-kin distinction maintaining the Demographic/Cohesion merger-gate boundary). Full discussion in v1.28.0 handoff archived at <code>alignment/sessions/archive/commons-bonds-session-handoff-2026-04-22_v1_28_0.html</code>. Recommendation: Kinship. Alternate defensible: Belonging with explicit layer-intro scope-boundary work.</p>
+</div>
+
+<h2>Structural changes this session (v1.28.0 → v1.29.0)</h2>
+
+<h3>tools/ reorganized as session-upload-set folder</h3>
+<p>Per Chris's workflow: <code>tools/</code> is the folder from which he grabs files to upload at session start. The reorg makes the top level exactly the upload set + subfolders for supporting material.</p>
+<pre>
+tools/
+  README.md                                         (NEW - directory + upload instructions)
+  claude_prefs.md                                   <-- upload
+  commons_bonds_rigor_protocol_v1_2_1.md            <-- upload
+  commons_bonds_guiding_constraints_v1_0_0.md       <-- upload
+  commons_bonds_abundance_layers_v1_0_0.md          <-- upload
+  commons_bonds_book_scope_v1_0_3.md                <-- upload
+
+  rigor-passes/                                     (NEW - historical audit trail)
+    commons_bonds_rigor_pass_2026-04-22_v1_0_1.md   <-- upload current one
+  triage/                                           (NEW - one-session inputs)
+    commons_bonds_rigor_vs_layers_triage_v1_0_0.md
+    commons_bonds_character_suite_vs_layers_triage_v1_0_0.md
+  archive/                                          (existing - superseded versions)
+</pre>
+
+<h3>alignment/issues/ → alignment/patches/ (renamed from migration-era misnomer)</h3>
+<p>The "Issues" folder was a GitHub-Issues-workflow artifact from April 19 migration. That workflow was discarded; the folder held architectural patches (c-patches), not tracked issues. Renamed for honesty. C-patches + tier_2a all live here now.</p>
+<pre>
+alignment/patches/
+  c2_scale_abstract_patch.md
+  c3_mechanism_shield_patch.md
+  c4_decision_a_sweep.md
+  c5_two_path_rigor.md
+  c9_ait_canonical_positioning_patch.md
+  tier_2a_rename_patch.md                           (renamed from tier-2a-rename-changes.md)
+  archive/
+    phase-1-migration-complete.md
+</pre>
+<p>Rigor protocol v1.2.1 references to c5 and c9 updated to include <code>alignment/patches/</code> path prefix.</p>
+
+<h3>alignment/decisions/ pruned + organized</h3>
+<ul>
+  <li><strong>Archived (to <code>alignment/decisions/archive/</code>):</strong> <code>commons-bonds-README.md</code> (stale 9-tier list), <code>commons-bonds-github-design.md</code> (discarded GitHub Issues workflow), <code>commons-bonds-migration-plan.md</code> (migration complete), <code>commons-bonds-workflow-guide.md</code> (discarded), <code>repository-structure.md</code> (never-implemented theoretical), <code>Commons Bonds — Session Archive & Decision Log.docx</code> (pre-migration log), <code>eight-tier-decomposition-v10.md</code> (April 19 Ch 6 content proposal, superseded). <strong>Moved to <code>archive/</code> (top-level):</strong> <code>commons_bonds_integrated_framework.html</code> (pre-migration Option-C master doc).</li>
+  <li><strong>Kept canonical:</strong> c6 decision memos (1_0_0 and 2_0_0), housekeeping review (this session's), workstreams-superseded mapping (new), sociology-paper-to-book-transition doc (new, with Books 1/2/3 strategy + publishability assessment + rigor-test queued task).</li>
+</ul>
+
+<h3>workstreams/ archived</h3>
+<p>17 workstream planning docs from April 19-20 moved to <code>archive/workstreams-old/</code>. All surviving action items mapped to current homes in <code>alignment/decisions/workstreams-superseded-2026-04-22.md</code>. Architecture that workstreams described (Option C + GitHub-Issues workflow + two-pillars + two-methodologies) has been superseded by the rigor-protocol v1.2.1 + 10-dimension + naming-cohort + guidance-doc-centric approach.</p>
+
+<h3>research/ populated</h3>
+<p><code>research/case-studies/</code> — was empty placeholder; now has README documenting the staging pattern + 9 standalone case study files:</p>
+<ul>
+  <li>Cases from existing chapter drafts (Ch 2, Ch 4, Ch 5): <code>appalachian-coal.md</code>, <code>norway-swf.md</code> (with Nigeria contrast embedded), <code>libby-vermiculite.md</code>, <code>deepwater-horizon.md</code>.</li>
+  <li>Cases from sociology-paper source recovery (not yet in any draft): <code>opioid-extraction-appalachia.md</code>, <code>2008-financial-crisis.md</code>, <code>healthcare-end-of-life.md</code>, <code>housing-enforced-immobility.md</code>, <code>tax-tradeoff-us-sweden.md</code>.</li>
+</ul>
+<p><code>research/literature/</code> — now has <code>bibliography.md</code> (consolidated + annotated, 30+ entries) plus the relocated <code>commons_bonds_economic_theory_reference</code> file. Each bibliography entry has support/contradict/mixed annotation + chapter relevance + framework-character note where applicable.</p>
+
+<h3>publishing/targets/ removed</h3>
+<p>Empty abandoned-plan directory. Targeting info lives in <code>CommonsBondsPublishingStrategyConsolidated.html</code> per guiding constraints.</p>
+
+<h3>.DS_Store and Claude-Code folders now gitignored</h3>
+<p>Root <code>.gitignore</code> (added by Chris pre-session): <code>**/.DS_Store</code>, <code>**/.claude</code>, <code>**/.chriswinn</code>. Six tracked <code>.DS_Store</code> files untracked this session. File mode normalization 0600 → 0644 applied to 39 files (non-tracked change; permission modes for non-executable files aren't git-visible but normalization aligns local with fresh-clone defaults).</p>
+
+<h3>Claude Code memory system populated</h3>
+<p>At <code>~/.claude/projects/-Users-c17n-Documents----WorkingOn-commons-bonds/memory/</code>:</p>
+<ul>
+  <li><code>MEMORY.md</code> — index</li>
+  <li><code>user_role.md</code> — role, work, technical background, academic pathway</li>
+  <li><code>user_personal_anchors.md</code> — Hampton roots, grandfather-at-NASA-Langley ethical anchor, Loretta, sailboat lifestyle, poetry/philosophy interests</li>
+  <li><code>project_commons_bonds.md</code> — book project high-level state, success criteria, publishing path, framework state</li>
+  <li><code>project_near_term_gates.md</code> — 2026-05-07 coursework, 2026-05-15 nursing, 2026-08-17 Berggruen, boat-purchase holds</li>
+</ul>
+<p>Source file <code>userMemories_proposed_2026-04-21_v1_0_1.md</code> archived to <code>tools/archive/</code>.</p>
+
+<h3>claude_prefs.md updated (GitHub workflow canonical)</h3>
+<p>"File delivery rules" section expanded to "File delivery and collaboration" reflecting validated worktree-write + merge + push workflow. Drive-specific constraint retained. Mobile upload deprecation noted. Branch-discipline rules codified (worktree branches, explicit-authorization for push, no force-push-to-main).</p>
+
+<h3>manuscript/chapters/ updates</h3>
+<ul>
+  <li>Ch 1 guidance absorbed the Ch 1a Knowledge Worker Extension (workstream 04 proposal merged in, source file removed).</li>
+  <li>Ch 5 guidance filename normalized (<code>Chapter__5___Guidance.md</code> → <code>Chapter__5___GuidanceDoc.md</code>).</li>
+  <li>Ch 8 guidance doc stub created — points at <code>archive/commons_bonds_chapter_assessment.md</code> (which Chris noted seeded the two-book / three-book split) and <code>archive/workstreams-old/07_chapter_8_two_book_trim.md</code>. Full rewrite queued for guidance-doc revision sweep.</li>
+  <li>Permissions normalized (Ch 1 / 1a / 3 guidance previously 0600, now 0644).</li>
+</ul>
+
+<h2>Canonical additions this session</h2>
+
+<h3>Books 1/2/3 strategy — consolidated reasoning</h3>
+<p>Captured in <code>alignment/decisions/sociology-paper-to-book-transition.md</code> Section 4. Three-book structure, strategic logic (Book One protects Book Two / Book Two protects Book One / Book Three extends), why the split is integral to the publishability assessment (not orthogonal), and content-assignment rules for routing future material. Book One = framework-naming (non-partisan, minimal legal exposure, 2026-2027 target). Book Two = *The Subsidy Economy* (advocacy, requires coauthorship + institutional affiliation + legal-backed publisher, 2029+ target, notes-only for now). Book Three = *Pricing the Final Frontier* (off-Earth applications, post-Book-Two).</p>
+
+<h3>Publishability assessment with current status annotations</h3>
+<p>Captured in <code>alignment/decisions/sociology-paper-to-book-transition.md</code> Sections 1-2. Five publishability items from the sociology-paper source now annotated with 2026-04-22 status: (1) theoretical contribution precision — substantially progressed (departure liability retired; cost severance + RCV precise); (2) contingency argument — partially progressed; (3) original reporting — partially progressed via Ch 1 knowledge-worker merge; (4) strongest counterargument — partial in existing drafts; (5) reachable horizon — Norway + Alaska flagged, not yet standalone-treated.</p>
+
+<h3>Structured todo list with current status</h3>
+<p>Section 2 of the transition doc captures the sociology-paper §7 todo list with status annotations. Foundation work mostly substantially-progressed; evidence-and-reporting tasks mostly pending (composite-family 2008 narrative, additional original scene, steelman counterargument, Rousseau-question resolution). Categories: (1) active work with identified homes; (2) pre-cohort gated items; (3) Chris's fieldwork + external.</p>
+
+<h3>9 standalone case study files</h3>
+<p>Per <code>research/case-studies/README.md</code> staging pattern — verbatim prose from chapter drafts (4) or from sociology-paper source (5), framed for standalone use with framework-application analysis + expansion notes + cross-references.</p>
+
+<h3>Consolidated bibliography</h3>
+<p><code>research/literature/bibliography.md</code> — 30+ entries across 13 subject sections. Each entry: citation + summary + relevance + support/contradict/mixed annotation + chapter relevance + framework-character note where applicable. Includes the canonical precursor-sources (Ostrom, Harvey, Raworth, Daly, Polanyi, Sen, Desmond, Piketty, Keefe, Bullard, Hacker, Case & Deaton, Butler, Quill, FCIC, Case & Deaton, Georgescu-Roegen), the canonical contradict-targets (Hardin, Vance), and framework-adjacent modern literature (Anderson, Zuboff, Standing, Mazzucato).</p>
+
+<h3>Queued task: rigor test on resurfaced use cases</h3>
+<p>Per sociology-paper-to-book-transition.md Section 5. Five case studies from sociology-paper recovery need full rigor pass (framework-integrity + scope + publishing-strategy + success-criteria + book-assignment) to determine Book 1/2/3 routing and chapter integration.</p>
+
+<h2>Files produced / modified this session (v1.28.0 → v1.29.0)</h2>
+<table>
+  <thead><tr><th>Location</th><th>File / Operation</th><th>Status</th></tr></thead>
+  <tbody>
+    <tr><td><code>tools/</code></td><td><code>README.md</code> created; 5 canonical docs unchanged at top level; subfolder reorg (rigor-passes/, triage/); c-patches moved out; pass record + triage files moved into subfolders</td><td><span class="done">Structural reorg complete</span></td></tr>
+    <tr><td><code>tools/</code></td><td><code>claude_prefs.md</code> — File delivery rules expanded to File delivery and collaboration (GitHub workflow canonical)</td><td><span class="done">Updated</span></td></tr>
+    <tr><td><code>tools/</code></td><td><code>commons_bonds_rigor_protocol_v1_2_1.md</code> — c5/c9 reference paths updated to <code>alignment/patches/</code> prefix</td><td><span class="done">Updated</span></td></tr>
+    <tr><td><code>tools/archive/</code></td><td><code>commons_bonds_layer_tier_stress_test_1_0_0.md</code> (v1.21.0-era, superseded), <code>userMemories_proposed_2026-04-21_v1_0_1.md</code></td><td><span class="done">Archived</span></td></tr>
+    <tr><td><code>alignment/patches/</code></td><td>NEW folder (renamed from <code>alignment/issues/</code>). Contains c2/c3/c4/c5/c9 + tier_2a; archive/ with phase-1-migration-complete</td><td><span class="done">Renamed + populated</span></td></tr>
+    <tr><td><code>alignment/decisions/archive/</code></td><td>NEW folder. 6 stale migration-era docs moved in + eight-tier-decomposition.md (April 19 content proposal)</td><td><span class="done">Archived</span></td></tr>
+    <tr><td><code>alignment/decisions/</code></td><td><code>commons_bonds_housekeeping_review_2026-04-22_v1_0_0.md</code>, <code>workstreams-superseded-2026-04-22.md</code>, <code>sociology-paper-to-book-transition.md</code></td><td><span class="new">NEW canonical</span></td></tr>
+    <tr><td><code>alignment/sessions/</code></td><td>v1.28.0 handoff archived to <code>archive/</code>; v1.29.0 (this file) canonical</td><td><span class="new">Current handoff</span></td></tr>
+    <tr><td><code>research/case-studies/</code></td><td><code>README.md</code> + 9 case study files (appalachian-coal, norway-swf, libby-vermiculite, deepwater-horizon, opioid-extraction-appalachia, 2008-financial-crisis, healthcare-end-of-life, housing-enforced-immobility, tax-tradeoff-us-sweden)</td><td><span class="new">NEW canonical</span></td></tr>
+    <tr><td><code>research/literature/</code></td><td><code>bibliography.md</code> (consolidated + annotated); plus relocated <code>commons_bonds_economic_theory_reference - consider including 6.html</code> from Consider Including/</td><td><span class="new">NEW canonical</span></td></tr>
+    <tr><td><code>archive/</code></td><td><code>commons_bonds_integrated_framework.html</code> moved here (pre-migration Option-C master doc)</td><td><span class="done">Archived</span></td></tr>
+    <tr><td><code>archive/workstreams-old/</code></td><td>17 workstream files moved in (01-17)</td><td><span class="done">Archived</span></td></tr>
+    <tr><td><code>archive/_One Day Maybe/</code></td><td>3 NEW subfolders: Counter-Vance/, Democratic-Socialism/, Satellite-Essays/ (populated from Consider Including/ reorganization per workstream 10 plan)</td><td><span class="done">Reorganized</span></td></tr>
+    <tr><td><code>archive/Consider Including/</code></td><td>Reduced: confirmed duplicate 9.html deleted; 4 files reorganized into _One Day Maybe/ subfolders + research/literature/</td><td><span class="done">Partial archival</span></td></tr>
+    <tr><td><code>manuscript/chapters/</code></td><td>Ch 1 guidance merged with Ch 1a (workstream 04 extension absorbed); Ch 1a removed; Ch 5 filename normalized; Ch 8 guidance stub created; permissions normalized across 0600-tagged guidance docs</td><td><span class="done">Updated</span></td></tr>
+    <tr><td><code>publishing/</code></td><td><code>targets/</code> empty directory removed</td><td><span class="done">Cleaned</span></td></tr>
+    <tr><td>Claude Code memory</td><td>5 files populated at <code>~/.claude/projects/-Users-c17n-Documents----WorkingOn-commons-bonds/memory/</code> (MEMORY.md + user_role + user_personal_anchors + project_commons_bonds + project_near_term_gates)</td><td><span class="new">NEW persistent memory</span></td></tr>
+    <tr><td>Root</td><td><code>.gitignore</code> (by Chris pre-session): <code>**/.DS_Store</code>, <code>**/.claude</code>, <code>**/.chriswinn</code></td><td><span class="done">Updated</span></td></tr>
+  </tbody>
+</table>
+<p><em>Seventeen commits on <code>main</code> this session (session-v1.28.0 commit <code>104f384</code> through structural-reorg commit <code>390f92f</code>). All pushed to <code>origin/main</code>.</em></p>
+
+<h2>Canonical abundance-dimension roster (unchanged from v1.28.0)</h2>
+<table>
+  <thead><tr><th>#</th><th>Current name</th><th>Canonical rename</th><th>Naming status</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>Atmospheric</td><td><strong>Habitability</strong></td><td><span class="done">LOCKED (v1.28.0)</span></td></tr>
+    <tr><td>2</td><td>Geographic</td><td>→ Spatial (leading)</td><td><span class="pending">Priority-2 cohort</span></td></tr>
+    <tr><td>3</td><td>Temporal</td><td>Temporal</td><td><span class="done">Stable</span></td></tr>
+    <tr><td>4</td><td>Institutional</td><td>Institutional</td><td><span class="done">Stable</span></td></tr>
+    <tr><td>5</td><td>Demographic</td><td>→ <strong>Kinship</strong> (recommended) / Belonging (alt)</td><td><span class="decision-label">OPEN DECISION</span></td></tr>
+    <tr><td>6</td><td>Ecological</td><td><strong>Ecosystem</strong></td><td><span class="done">LOCKED (v1.28.0)</span></td></tr>
+    <tr><td>7</td><td>Political</td><td>Political</td><td><span class="done">Stable (US-partisan watch)</span></td></tr>
+    <tr><td>8</td><td>Cohesion</td><td>→ Social-Fabric / Civic-Ties (leading)</td><td><span class="pending">Priority-2 cohort</span></td></tr>
+    <tr><td>9</td><td>Informational</td><td>→ Evidentiary (leading)</td><td><span class="pending">Priority-2 cohort</span></td></tr>
+    <tr><td>10</td><td>Agency</td><td>→ Autonomy (leading)</td><td><span class="pending">Priority-2 cohort</span></td></tr>
+  </tbody>
+</table>
+<p><strong>Container term:</strong> "dimensions" (locked v1.28.0). <strong>No 11th dimension.</strong></p>
+
+<h2>Deferred queue (carried from v1.28.0, updated with v1.29.0 status)</h2>
+<table>
+  <thead><tr><th>Item</th><th>Status</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td>Demographic naming decision (Kinship vs Belonging)</td><td><span class="decision-label">TOP PRIORITY next session</span></td><td>Carried from v1.28.0 OPEN DECISION.</td></tr>
+    <tr><td>Priority-2 naming cohort</td><td><span class="new">TOP PRIORITY after Demographic</span></td><td>Informational, Agency, Cohesion, Geographic. Leading candidates: Evidentiary, Autonomy, Social-Fabric / Civic-Ties, Spatial.</td></tr>
+    <tr><td>Priority-3 stable confirmation</td><td><span class="pending">After Priority-2</span></td><td>Short confirm pass; Political partisan-watch retained.</td></tr>
+    <tr><td>Coordinated doc revision pass (methodology layer)</td><td><span class="hold">After cohort lands</span></td><td>Abundance dimensions doc retitle + §2 propagation; protocol terminology; guiding constraints; operating core; claude_prefs.md operating-core block; tools/README.md terminology; core/ glossary + tech appendix + decomposition.</td></tr>
+    <tr><td><strong>Rigor test on 5 resurfaced use cases</strong></td><td><span class="new">NEW — queued after cohort; before guidance-doc sweep</span></td><td>Per <code>alignment/decisions/sociology-paper-to-book-transition.md</code> §5. Full rigor against framework-integrity + scope + publishing-strategy + success-criteria + book-assignment.</td></tr>
+    <tr><td>manuscript/chapters/ rename propagation — 8 drafts + 10 guidance docs</td><td><span class="hold">After methodology propagation</span></td><td>Ch 1, 2, 4, 5, 6 (.html math), 7, 8, 9, 10 drafts + all guidance docs. ~230KB of prose; grep-based patching; Ch 6 MathJax verification.</td></tr>
+    <tr><td>Part 3 — v1.24.0 methodology audit</td><td><span class="hold">After chapter-draft propagation</span></td><td>Scope v1.0.3, chapter guidance addendum v1.0.0, v1.24.0 rigor pass record.</td></tr>
+    <tr><td>Guidance-doc revision sweep</td><td><span class="hold">After Part 3 + rigor-test on resurfaced cases</span></td><td>Every chapter guidance doc brought to v1.28.0 standard. Integrates cases from resurfaced-rigor-test output. Ch 8 guidance stub → full rewrite.</td></tr>
+    <tr><td>Full ratification of Part 2 outputs</td><td><span class="hold">After cohort + propagation + rigor-test</span></td><td>Abundance dimensions doc + Part 2 rigor pass record become canonical.</td></tr>
+    <tr><td>Housekeeping review</td><td><span class="done">COMPLETE</span></td><td>All 32 actions addressed. Immediate tier done. Investigate tier resolved. Post-cohort PATCH sweep items carried into the rename-propagation.</td></tr>
+    <tr><td>Memory streamlining pass</td><td><span class="hold">After dimension + name stability</span></td><td>Memory system populated this session; streamlining happens once when names are final.</td></tr>
+    <tr><td>CB patches C7/C8/CX/CY/CZ/CW</td><td><span class="hold">After cohort</span></td><td>Bundle patches produced after naming sign-off per v1.26.0 queue.</td></tr>
+    <tr><td>Tier 2a rename verification</td><td><span class="hold">During Part 3 patching</span></td><td>Patch doc now in <code>alignment/patches/tier_2a_rename_patch.md</code>.</td></tr>
+    <tr><td>Handoff abstraction project</td><td><span class="hold">Deferred</span></td><td>Template + sailboat (privacy-scrubbed) + CB-handoff-template.</td></tr>
+    <tr><td>v1.2.2 protocol clarifications</td><td><span class="hold">Empirical — after cohort</span></td><td>Layer → dimension terminology patch is the bundled motivation.</td></tr>
+    <tr><td>Technical Appendix v0.0.2 metadata inconsistency</td><td><span class="hold">After cohort</span></td><td>AIT section update after cohort.</td></tr>
+    <tr><td>Ch 2 primary-source upgrade (Appalachian land-grant)</td><td><span class="hold">When Ch 2 is next open</span></td><td>Queued.</td></tr>
+    <tr><td>Ch 9 civilization-scale Foreclosure extension</td><td><span class="hold">Deferred</span></td><td>Absorbs availability-absence / entropy / Georgescu-Roegen / Daly material.</td></tr>
+    <tr><td>Ch 1 / Ch 10 NYC isolation material</td><td><span class="hold">Deferred</span></td><td>Cohesion canonical non-co-occurring case.</td></tr>
+    <tr><td>Chris's Story 1 integration into Ch 2 or similar</td><td><span class="hold">Queued for Ch. drafting</span></td><td>Demographic canonical case expansion (moving-from-family/friends/origin-culture).</td></tr>
+    <tr><td>Full chapter guidance documents for remaining chapters</td><td><span class="hold">Queued</span></td><td>Part of guidance-doc revision sweep.</td></tr>
+    <tr><td>Ch. 7 scaffold verification</td><td><span class="hold">Parallel, Chris offline</span></td><td>Eight-tier depth vs. universality validation only.</td></tr>
+    <tr><td>NDA review (CEO-era engagements)</td><td><span class="hold">Pre-drafting gate for Ch. 6</span></td><td>Required before Ch. 6 CEO-perspective case drafting.</td></tr>
+    <tr><td>Subordinate anonymization protocol decision</td><td><span class="hold">Pre-drafting gate</span></td><td>Preferred: pattern description without identifiable specifics.</td></tr>
+    <tr><td>Lithium fallback evaluation for Ch. 8</td><td><span class="hold">Gate-check (after Ch. 2 drafted)</span></td><td>Evaluate whether Ch. 8 coal deepens Ch. 2 or repeats it.</td></tr>
+    <tr><td>Chapter ordering gate-check (coal before/after asteroid)</td><td><span class="hold">Gate-check</span></td><td>Scope §11.5 provisional: keep current order.</td></tr>
+    <tr><td>Ch. 6 "villain who isn't a villain" frame validation</td><td><span class="hold">Gate-check (after Ch. 6 drafted)</span></td><td>Confirm analytical weight vs. pure rhetoric.</td></tr>
+    <tr><td>120-hour-week case integration</td><td><span class="hold">Queued for Ch. drafting</span></td><td>Canonical for consent-normalization shield type.</td></tr>
+    <tr><td>Congrats-reply drafting for SGA presidency win</td><td><span class="hold">Parallel task</span></td><td>Slottable anytime; not blocking.</td></tr>
+    <tr><td>Berggruen Prize submission (2026-08-17 deadline)</td><td><span class="hold">Chris's task — AI-free</span></td><td>Parallel to Noema cascade. Claude does not contribute prose; Berggruen folder untouched.</td></tr>
+    <tr><td>Pre-contract visualization Phase 1 (workstream 12)</td><td><span class="hold">Chris's task</span></td><td>IPG master table + sketch figures for proposal package. Phase 2 post-contract.</td></tr>
+    <tr><td>Fieldwork — watermen + possible McDowell / Norway interviews (workstream 11)</td><td><span class="hold">Chris's task</span></td><td>Living-people integration; supports multiple chapters.</td></tr>
+  </tbody>
+</table>
+
+<h2>Watch items</h2>
+<div class="watch">
+<ul>
+  <li><strong>tools/ = session upload set.</strong> Chris's workflow confirmed this session: <code>tools/</code> is the folder he grabs from to upload at session start. Don't put non-upload material at <code>tools/</code> top level. Subfolders (rigor-passes/, triage/, archive/) hold session-upload-adjacent material.</li>
+  <li><strong>Patches live in <code>alignment/patches/</code></strong>, not in <code>tools/</code>. C-patches are project-meta architectural decisions, not session-upload. Rigor protocol references them via <code>alignment/patches/{filename}</code>.</li>
+  <li><strong>Session-start upload set:</strong> see <code>tools/README.md</code> for the canonical list. Paste the snippet above. Without these files in session context, cohort and propagation work risks lineage-drift.</li>
+  <li><strong>Demographic naming decision is genuinely open.</strong> Kinship recommended; Belonging defensible. Don't default either direction before Chris decides.</li>
+  <li><strong>Worktree-write + merge + push validated.</strong> Per <code>claude_prefs.md</code>: direct writes to local worktree, merges to main, pushes to origin — all authorized per-request. Pushing to main requires fresh explicit go-ahead each time (authorization doesn't carry across requests).</li>
+  <li><strong>Google Drive writes still OFF.</strong> Drive-specific heredoc truncation risk. Chris uploads to Drive manually.</li>
+  <li><strong>Never touch <code>/Noema/</code> or <code>/Berggruen Institute - Essay/</code> Drive folders.</strong> Noema submitted. Berggruen competition prohibits AI-generated content.</li>
+  <li><strong>Never rename Drive files.</strong> Migration is read-only on the Drive side.</li>
+  <li><strong>Math files stay <code>.html</code>.</strong> Ch. 6, Tech Appendix, eight-tier, error-out, glossary — never convert.</li>
+  <li><strong>Privacy rule active.</strong> Scrub personal financial specifics from external-facing outputs. Chris's Story 1, Story 2, and the knowledge-worker extension material are personal — pattern-describe rather than specific-identify in book prose.</li>
+  <li><strong>Claude Code memory now load-bearing.</strong> Memory files at <code>~/.claude/projects/.../memory/</code> auto-load at session start (per the memory system in Claude Code). No need to re-brief Claude on Chris's work context / sailboat plan / NASA-Langley anchor each session.</li>
+  <li><strong>The 5 resurfaced use cases haven't passed full rigor yet.</strong> Their current <code>research/case-studies/</code> placement is structural staging, not ratified-for-book-inclusion. The queued rigor test (see TOP PRIORITY §5) determines Book 1/2/3 routing + chapter integration.</li>
+  <li><strong>.gitignore handles macOS + Claude Code + Chris's working folders.</strong> <code>**/.DS_Store</code>, <code>**/.claude</code>, <code>**/.chriswinn</code>. Don't commit these.</li>
+</ul>
+</div>
+
+<h2>Methodology notes (this session)</h2>
+<div class="info">
+<ul>
+  <li><strong>tools/ = session upload set (workflow alignment).</strong> Chris's note: "Right now the tools folder ends up being the folder that I grab all relevant files (except session handoff files) to upload to you to kick off a work session when I'm not chatting with you in Claude Code." This sharpened the structural question — patches aren't upload material and shouldn't be in tools/, even in a subfolder. Pattern going forward: <code>tools/</code> top level = what to upload; subfolders = session-upload-adjacent; other folders (alignment/, research/, manuscript/, core/, archive/) = not upload set.</li>
+  <li><strong>alignment/issues/ was a migration-era misnomer.</strong> The folder never held "issues" in the GitHub Issues sense; it held architectural patches. Renamed to <code>alignment/patches/</code> for honesty. Pattern: name folders for what they hold, not for the workflow that was planned but never implemented.</li>
+  <li><strong>Sociology-paper source recovery.</strong> Chris's flag that the Hillbilly Elegy / opioid / Purdue / DuPont content came from his sociology-class paper (precursor to the project) led to reading <code>archive/Consider Including/commons_bonds_new_material_from_sociology_chat - consider including 4.html</code>. Found: 7 major content blocks (2008 double risk transfer, healthcare externalization, housing immobility, opioid-as-deliberate-extraction, tax tradeoff, publishability assessment, structured todo list), plus bibliography. None had been integrated into chapter drafts despite being queued for 4 days. Captured this session: 5 as standalone case files, publishability + todo list in transition doc, bibliography in research/literature.</li>
+  <li><strong>DuPont attribution correction.</strong> Chris asked about "DuPont being found guilty of creating sales plans that essentially created the opioid pandemic." Verified against the sociology-paper source: the case is Purdue Pharma / Sacklers ($11B extracted pre-bankruptcy; Appalachian-county-specific targeting; internal addiction research suppression). DuPont's notable West Virginia accountability case is the C8/PFAS Parkersburg contamination — different industry, same geography. Correction applied to <code>appalachian-coal.md</code> expansion notes + <code>opioid-extraction-appalachia.md</code> standalone treatment.</li>
+  <li><strong>Verbatim-copy + framing-with-context pattern for case studies.</strong> Case study files preserve chapter prose verbatim (no editorial rewriting) but add a header with metadata (source, status, related cases) + a "case in brief" section + framework-application analysis + expansion notes + cross-references. Preserves existing voice; makes standalone reading tractable. Applied to all 9 case files.</li>
+  <li><strong>Books 1/2/3 strategy is inseparable from publishability.</strong> Consolidating Books strategy into the publishability assessment document (rather than keeping separate) reflects that the strategic split IS what makes each book's publishability achievable — Book One needs to be framework-naming to publish at Noema register; advocacy would dilute the theoretical contribution; Book Two's different success criteria require different timeline and institutional infrastructure.</li>
+  <li><strong>Memory system as session-persistence infrastructure.</strong> Claude Code's memory system at <code>~/.claude/projects/.../memory/</code> auto-loads at session start. Populating it with Chris's bio + project context removes the re-briefing overhead. Pattern: save when content is stable (not mid-flight); update when stale; remove when wrong.</li>
+  <li><strong>Git hygiene: rigor-preserving archive moves.</strong> Every archive operation this session used <code>git mv</code> (not delete-and-create) to preserve git history. Moves show as renames in git log with 100% similarity; content lineage stays traceable. Same pattern for the <code>alignment/issues/</code> → <code>alignment/patches/</code> folder rename and all c-patch relocations.</li>
+</ul>
+</div>
+
+<h2>Resume instructions for next Claude instance</h2>
+<div class="resume">
+<p><strong>To the Claude instance reading this:</strong></p>
+<ol>
+  <li>Read this entire handoff before responding. Especially OPEN DECISION and TOP PRIORITY sections.</li>
+  <li><strong>Verify canonical state at session start.</strong> Confirm with Chris that (a) rigor protocol v1.2.1 canonical; (b) guiding constraints v1.0.0 canonical; (c) container term "dimensions"; (d) 10 dimensions locked; (e) Habitability + Ecosystem locked; (f) Demographic naming OPEN; (g) C-patches live in <code>alignment/patches/</code>; (h) <code>tools/</code> reorganized with README + subfolders; (i) 9 case study files in <code>research/case-studies/</code> — the 5 sociology-paper-source cases haven't passed full rigor yet.</li>
+  <li><strong>First task: Demographic naming decision.</strong> Kinship (recommended) vs Belonging. Chris's call. Then Priority-2 cohort.</li>
+  <li><strong>Second task: Priority-2 cohort.</strong> Informational, Agency, Cohesion, Geographic. Walk one at a time. Match v1_0_1 pass-record density. Leading candidates per abundance layers doc §6.</li>
+  <li><strong>Third task: Priority-3 stable confirmation.</strong> Temporal, Institutional, Political stable. Short confirm pass.</li>
+  <li><strong>Fourth task: Coordinated doc-revision pass.</strong> Propagate renames across methodology docs. Retitle abundance layers doc to abundance dimensions doc. Add §5.5 and §5.6 methodology notes. Patch claude_prefs operating-core block. Patch tools/README if terminology references change.</li>
+  <li><strong>Fifth task: Rigor test on 5 resurfaced use cases.</strong> Per sociology-paper-to-book-transition.md §5. Full rigor against framework-integrity + scope + publishing-strategy + success-criteria + book-assignment. Output: new rigor-pass-record in <code>tools/rigor-passes/</code>.</li>
+  <li><strong>Sixth task: manuscript/chapters/ rename propagation.</strong> 8 drafts + 10 guidance docs. Ch 6 MathJax verification.</li>
+  <li><strong>Seventh task: Part 3 methodology audit.</strong> Scope v1.0.3, chapter guidance addendum v1.0.0, v1.24.0 rigor pass record.</li>
+  <li><strong>Eighth task: guidance-doc revision sweep.</strong> Chapter guidance docs to v1.28.0+ standard. Integrates resurfaced-case-rigor-test output.</li>
+  <li><strong>Ninth task: full ratification of Part 2 outputs</strong> after naming + propagation + rigor-test land.</li>
+  <li>The CB operating core applies (per <code>tools/claude_prefs.md</code>): two-path rigor, merger gate, primitiveness gate, single-dimension cost severance (§5.4), availability-absence-as-severity (§5.5), revisitability.</li>
+  <li>Privacy rule: scrub personal financial specifics; Chris's Story 1/2 pattern-describe by default.</li>
+  <li>Worktree-writes + merges + pushes authorized per-request. Check <code>claude_prefs.md</code> §1 for collaboration rules.</li>
+  <li>Never touch /Noema/ or /Berggruen Institute - Essay/ Drive folders. Math files stay .html.</li>
+  <li>Memory auto-loads from <code>~/.claude/projects/.../memory/</code>. You already know Chris's work context / sailboat plan / NASA-Langley anchor / near-term gates.</li>
+</ol>
+</div>
+
+<h2>Files uploaded this session (for reference)</h2>
+<ul>
+  <li><code>commons-bonds-session-handoff-2026-04-22_v1_28_0.html</code> — prior handoff (now archived)</li>
+  <li>Implicit: Chris's running context + files in the worktree tree readable at absolute paths</li>
+</ul>
+
+<h2>Commons Bonds operating core (canonical — unchanged from v1.28.0)</h2>
+<div class="operating">
+
+<h3>AIT positioning (canonical, from C9 patch §3)</h3>
+<p>The Abundance Interference Taxonomy is the framework's epistemic core. Dimensions are organizational scaffolding, not load-bearing structure.</p>
+
+<h3>Canonical container term: "dimensions" (v1.28.0)</h3>
+<p>Replaces "layers." Historical docs retain "layers" as lineage; canonical usage is "dimensions."</p>
+
+<h3>Canonical abundance-dimension set (10 dimensions; Book One canonical)</h3>
+<p>Atmospheric→<strong>Habitability</strong> · Geographic→Spatial · Temporal · Institutional · Demographic→<strong>Kinship</strong>-or-Belonging · Ecological→<strong>Ecosystem</strong> · Political · Cohesion→Social-Fabric / Civic-Ties · Informational→Evidentiary · Agency→Autonomy. No 11th.</p>
+
+<h3>Two-path rigor test</h3>
+<p>Path 1 (allocation symmetry) + Path 2 (shield absence, including consent-normalization per v1.2.1). Both paths must confirm.</p>
+
+<h3>Merger gate + Primitiveness gate</h3>
+<p>Both apply to any new or renamed dimension. Bilateral independence for merger; non-decomposition for primitiveness. Availability-absence (v1.28.0) is canonical worked example of primitiveness-gate failure.</p>
+
+<h3>Single-dimension cost severance (v1.27.0; renamed v1.28.0)</h3>
+<p>A case activating one dimension is a full instance of cost severance. See abundance dimensions doc §5.4.</p>
+
+<h3>Availability-absence as severity-marker (v1.28.0 NEW)</h3>
+<p>Every dimension prices availability-absence of its specific thing. Permanent vs. transient availability-absence is severity, not a primitive axis. See §5.5 (pending addition to abundance dimensions doc).</p>
+
+<h3>Canonical cases are dimension-inherent (v1.26.0)</h3>
+<p>A dimension's canonical cases are what it means in practice, not incidental illustrations.</p>
+
+<h3>Guiding constraints (canonical v1.0.0)</h3>
+<p>Per <code>tools/commons_bonds_guiding_constraints_v1_0_0.md</code>. Success criteria anchor: 13+-year labor-lawyer sentence. Goal 1 / Goal 2. Publishing path integral to success.</p>
+
+<h3>Books 1/2/3 strategy (consolidated v1.29.0)</h3>
+<p>Book One = framework-naming (non-partisan, 2026-2027). Book Two = <em>The Subsidy Economy</em> (advocacy, 2029+, notes-only pending CRNA / institutional). Book Three = <em>Pricing the Final Frontier</em> (off-Earth extension, post-Book-Two). Per <code>alignment/decisions/sociology-paper-to-book-transition.md</code> §4.</p>
+
+<h3>Operating discipline</h3>
+<p><strong>"Push harder so we only rewrite once."</strong> Applies throughout.</p>
+
+<h3>Protocol version</h3>
+<p><strong>v1.2.1 canonical.</strong> Terminology patch (layer → dimension + path-prefix updates already applied this session for c5/c9) queued for v1.2.2.</p>
+
+<h3>Naming conventions</h3>
+<pre>Chapters:    Chapter_#_Title_Draft.md  /  Chapter_#_Title_GuidanceDoc.md
+Patches:     c{N}_{topic}_patch.md  (in alignment/patches/)
+Methodology: commons_bonds_{topic}_{v#_#_#}.md  or  .html  (in tools/)
+Rigor pass:  commons_bonds_rigor_pass_YYYY-MM-DD_{v#_#_#}.md  (in tools/rigor-passes/)
+Triage:      commons_bonds_{topic}_triage_{v#_#_#}.md  (in tools/triage/)
+Handoffs:    commons-bonds-session-handoff-YYYY-MM-DD_{v#_#_#}.html  (in alignment/sessions/)
+Versioned:   _{v#_#_#} suffix; increment rightmost digit per minor update</pre>
+
+</div>
+
+<p class="meta" style="margin-top:3em; border-top:1px solid #ccc; padding-top:1em;">
+End of session handoff <span class="version">v1.29.0</span>. <strong>Next session top priority: Demographic naming decision (Kinship vs Belonging) → Priority-2 cohort → Priority-3 confirm → coordinated methodology-doc revision pass → rigor test on 5 resurfaced use cases → manuscript/chapters/ rename propagation → Part 3 audit → guidance-doc revision sweep.</strong> All housekeeping complete. tools/ reorganized as session-upload-set folder. alignment/patches/ is canonical patches home. Framework state unchanged from v1.28.0. 17 commits on main this session.
+</p>
+
+</body>
+</html>
