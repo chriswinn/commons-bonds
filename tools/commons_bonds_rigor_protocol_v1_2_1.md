@@ -7,7 +7,7 @@
 **Absorbs:** v1.0.0's expanded test catalog (Groups B/C/D/E/F), expanded character pressure suite (25 characters across Groups G–L), full-vs-light rigor axis, and formal revisitability section. Also ships the v1.21.0 drafted additions (merger gate, primitiveness gate, rejected-candidates-revisitable) as formal protocol content.
 **Supersession notes:** v1.1.0's Test 5 (four realistic success criteria) is superseded by the newer success-criteria articulation in Group E (Goal-1 / Goal-2 / labor-lawyer-in-2039) that emerged in the v1.24.0 scope work. v1.1.0's ten-critic standing battery is mapped into the expanded 25-character roster; four unmapped critics are preserved as a Methodological Defense sub-battery.
 **v1.2.1 patch scope:** Integrates findings from the 2026-04-22 triage (`commons_bonds_rigor_vs_layers_triage_v1_0_0.md`) and rigor pass record (`commons_bonds_rigor_pass_2026-04-22_v1_0_0.md`). Clarifications, cross-references, one substantive correction (Test 13 layer-level scope), and one shield-typology addition (consent-normalization). No structural changes to the test catalog.
-**References (not absorbed):** `eight-tier-v10.html` (AIT source), `c5_two_path_rigor.md` (two-path source), `commons-bonds-success-criteria_11.html` (earlier success criteria source), `commons_bonds_c6_decision_memo_2_0_0.html` (first worked example), `commons_bonds_layer_tier_stress_test_1_0_0.md` (second worked example), `commons_bonds_rigor_pass_2026-04-21_v1_0_0.md` (third worked example — v1.24.0 scope rigor passes), `c9_ait_canonical_positioning_patch.md` (AIT scaffolding-vs-load-bearing canonical).
+**References (not absorbed):** `eight-tier-v10.html` (AIT source), `alignment/patches/c5_two_path_rigor.md` (two-path source), `commons-bonds-success-criteria_11.html` (earlier success criteria source), `commons_bonds_c6_decision_memo_2_0_0.html` (first worked example), `commons_bonds_layer_tier_stress_test_1_0_0.md` (second worked example), `commons_bonds_rigor_pass_2026-04-21_v1_0_0.md` (third worked example — v1.24.0 scope rigor passes), `alignment/patches/c9_ait_canonical_positioning_patch.md` (AIT scaffolding-vs-load-bearing canonical).
 
 ---
 
@@ -147,7 +147,7 @@ Not every decision needs every test. Classify first; route second. When multiple
 
 ### 5.2 Test 2 — Two-Path Rigor
 
-**Source:** `c5_two_path_rigor.md` (C5 patch, 2026-04-20).
+**Source:** `alignment/patches/c5_two_path_rigor.md` (C5 patch, 2026-04-20).
 
 **Canonical statement:**
 
@@ -796,9 +796,9 @@ A test or character that fails to differentiate on one pass may differentiate on
 
 - **Operating core:** preferences, session handoffs through v1.24.0, C9 patch §3 (AIT canonical positioning).
 - **AIT source:** `eight-tier-v10.html`.
-- **Two-path source:** `c5_two_path_rigor.md` (C5 patch).
+- **Two-path source:** `alignment/patches/c5_two_path_rigor.md` (C5 patch).
 - **Success criteria source:** `commons-bonds-success-criteria_11.html` (earlier) and v1.24.0 scope v1.0.3 §7 (newer, referenced by Group E).
-- **Scaffolding-vs-load-bearing canonical:** `c9_ait_canonical_positioning_patch.md`.
+- **Scaffolding-vs-load-bearing canonical:** `alignment/patches/c9_ait_canonical_positioning_patch.md`.
 - **First worked example:** `commons_bonds_c6_decision_memo_2_0_0.html`.
 - **Second worked example:** `commons_bonds_layer_tier_stress_test_1_0_0.md`.
 - **Third worked example:** `commons_bonds_rigor_pass_2026-04-21_v1_0_0.md`.
