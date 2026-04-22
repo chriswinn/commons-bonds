@@ -351,7 +351,63 @@
 
 ---
 
-## 14. Supporting sources not yet integrated
+## 14. Chosen family and fictive kinship (Kindred dimension grounding)
+
+Load-bearing literature for the Kindred dimension's chosen-family scope (per rigor pass `commons_bonds_rigor_pass_2026-04-22_v1.0.2.md`, 2026-04-22). Grounds the dimension's extension beyond blood-family to specific non-substitutable attachment-bonds in general — ethnic, cultural, linguistic, chosen-kin, and fictive-kin forms treated on equal footing by the framework.
+
+### Weston, Kath. *Families We Choose: Lesbians, Gays, Kinship.* Columbia University Press, 1991.
+
+- **Summary:** Foundational ethnographic study of chosen-family formations in the 1980s gay and lesbian community in the San Francisco Bay Area. Establishes that kinship is rigorously researchable as relationally-constituted (not only biologically-given), and that chosen families function as primary kinship structures for populations excluded from or disconnected from biological-family networks.
+- **Relevance:** Primary scholarly anchor for the Kindred dimension's chosen-family scope. The Kindred dimension prices severance of *specific non-substitutable attachment-bonds* regardless of whether those bonds are blood-related, legally-recognized, or relationally-constituted — Weston is the canonical source that treats all three on equal analytical footing. Without Weston's grounding, the "chosen family" extension would read as authorial stipulation rather than recognized sociological category.
+- **Relationship:** **STRONG SUPPORT.** Weston's framing is exactly what the Kindred dimension requires — specific non-substitutable kinship as researchable object, regardless of biological vs. chosen origin.
+- **Chapter relevance:** Ch 1 (personal-narrative chosen-family loss during life transitions); Ch 2 (Story 1 — friends as primary bonds alongside blood family); Ch 6 methodology appendix (Kindred dimension formal definition); Ch 10 (closing reflection on shared bonds across the full canonical-case set).
+- **Framework character:** Character 15 in rigor protocol §11 (young worker — LGBTQ+ chosen-family-first pattern-match is the strongest single-character PASS for Kindred per the lock pass).
+
+### Stacey, Judith. *Unhitched: Love, Marriage, and Family Values from West Hollywood to Western China.* New York University Press, 2011.
+
+- **Summary:** Comparative analysis of family-formation diversity — chosen families, polyamorous kin networks, multi-household parenting arrangements, and culturally-variant kinship structures beyond the nuclear-family-default.
+- **Relevance:** Extends Weston into comparative / cross-cultural territory. Relevant to the Kindred dimension's handling of immigrant second-generation, divorced-and-remarried, and culturally-variant-kinship populations.
+- **Relationship:** **SUPPORT.**
+- **Chapter relevance:** Ch 2 (kinship-variation framing); Ch 6 methodology appendix (scope-boundary discussion of Kindred vs. narrow blood-family framings).
+
+### Nardi, Peter M. *Gay Men's Friendships: Invincible Communities.* University of Chicago Press, 1999.
+
+- **Summary:** Ethnographic and sociological study of friendship-as-kinship among gay men — the substantial functional weight that non-romantic, non-biological chosen-family bonds carry in populations whose access to legally-recognized kinship has been structurally constrained.
+- **Relevance:** Supports the Kindred dimension's recognition of friendship-based chosen-family bonds as full instances of the same scarcity axis (specific non-substitutable attachment) rather than as a weaker or secondary category.
+- **Relationship:** **SUPPORT.**
+- **Chapter relevance:** Ch 1 (personal-narrative framing of chosen-family networks); Ch 6 methodology appendix.
+
+### Karner, Tracy X. Work on fictive kinship and caregiving networks (collected essays).
+
+- **Summary:** Research on fictive-kinship structures in caregiving contexts — how non-biological relationships assume full kinship function in eldercare, chronic-illness care, and end-of-life support, particularly in populations where biological family is geographically distant, estranged, or unavailable.
+- **Relevance:** Directly relevant to the Kindred dimension's nursing-context canonical use (care planning that recognizes chosen family alongside biological) and to Character 21 (nursing colleague) pattern-matching in the Kindred lock pass. Fictive-kinship framing is anthropologically well-established; Karner extends it into applied care contexts.
+- **Relationship:** **SUPPORT.**
+- **Chapter relevance:** Ch 1 (healthcare / caregiving case content); methodology appendix on dimension scope.
+
+### Jones, Angela. Work on Black queer kinship and chosen family.
+
+- **Summary:** Scholarship on Black queer kinship formations — how chosen-family structures operate at the intersection of racial and sexual marginalization, where biological-family access is contingent on cultural acceptance and legal recognition is historically limited.
+- **Relevance:** Ensures the Kindred dimension's chosen-family scope is not restricted to a single demographic pattern. Jones's work grounds the framework's handling of intersectional populations where multiple shield-types (naturalization-of-dominant-kinship + cultural-distance + consent-normalization) compound.
+- **Relationship:** **SUPPORT.**
+- **Chapter relevance:** Ch 2 (Story 1 / intersectional framing); Ch 10 (cross-case recognition of multiple chosen-family patterns).
+
+### Tönnies, Ferdinand. *Gemeinschaft und Gesellschaft.* 1887. (Translated: *Community and Society,* trans. Charles P. Loomis, Michigan State University Press, 1957.)
+
+- **Summary:** Foundational sociological distinction between *Gemeinschaft* (kin-like, identity-deep, non-substitutable community) and *Gesellschaft* (functional, civic, substitutable-in-principle society).
+- **Relevance:** The Commons Bonds Kindred / Cohesion dimension split maps directly onto Tönnies's distinction. Framework extends Tönnies with tier-decomposable pricing apparatus that Tönnies did not have. Methodology-appendix engagement grounds the split academically for Ostrom-successor and economics-chair readers.
+- **Relationship:** **SUPPORT (foundational).** Methodology-appendix use only; dimension names stay English (Kindred, Cohesion) per v1.31.0 decision.
+- **Chapter relevance:** Ch 6 methodology appendix (Kindred / Cohesion boundary-statement grounding); Ch 2–3 kinship-vs-civic-community scope paragraph.
+
+### Schneider, David M. *A Critique of the Study of Kinship.* University of Michigan Press, 1984. (Also: Carsten, Janet, ed. *Cultures of Relatedness: New Approaches to the Study of Kinship.* Cambridge University Press, 2000.)
+
+- **Summary:** Schneider's critique and Carsten's extension reframe kinship anthropology from biological-given to culturally-constituted, opening the analytical space for fictive kinship and chosen-family frameworks.
+- **Relevance:** Methodology-grounding for the Kindred dimension's extension of kinship to relationally-constituted bonds. Pre-emptively addresses the analytic-philosopher critique ("Kindred has a specific technical meaning in anthropology — you're using it loosely") flagged in the Kindred lock pass character suite.
+- **Relationship:** **SUPPORT (methodology-depth).** Methodology-appendix use; not required for main-text prose.
+- **Chapter relevance:** Ch 6 methodology appendix (Kindred dimension formal definition + anthropological-lineage note).
+
+---
+
+## 15. Supporting sources not yet integrated
 
 Placeholder for additions as they emerge. Candidate additions:
 

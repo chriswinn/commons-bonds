@@ -80,7 +80,7 @@ The surviving actionable content routes into this newer architecture cleanly, pe
 - `alignment/sessions/commons-bonds-session-handoff-2026-04-22_v1_28_0.html` — current session handoff.
 - `commons_bonds_housekeeping_review_2026-04-22_v1_0_0.md` — housekeeping review this doc is referenced from.
 - `tools/commons_bonds_rigor_protocol_v1.2.2.md` — canonical rigor protocol (replaces the Option-C-era workflow).
-- `tools/commons_bonds_abundance_layers_v1_0_0.md` — abundance-dimensions methodology doc (10 dimensions canonical).
+- `tools/commons_bonds_abundance_dimensions_v1_1_0.md` — abundance-dimensions methodology doc (10 dimensions canonical; Priority-1 naming cohort complete — Habitability, Kindred, Ecosystem locked 2026-04-22).
 - `manuscript/chapters/Chapter__8___GuidanceDoc.md` — the new Ch 8 guidance stub that absorbs WS07 content.
 - `manuscript/chapters/Chapter__1___GuidanceDoc.md` — now contains WS04 merged content.
 

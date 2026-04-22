@@ -64,13 +64,13 @@ This spine is load-bearing and holds across the ten-chapter structure:
 
 ### 1.4 The Abundance Inversion Test (canonical in Book One)
 
-Stripping abundance is the methodology that makes invisible tiers visible. Abundance is the mechanism of invisibility; stripping abundance is therefore the method of detection. The test is stated plainly in the Technical Appendix: to identify hidden tiers in any extraction transaction, strip each abundance layer in turn and observe what becomes visible.
+Stripping abundance is the methodology that makes invisible tiers visible. Abundance is the mechanism of invisibility; stripping abundance is therefore the method of detection. The test is stated plainly in the Technical Appendix: to identify hidden tiers in any extraction transaction, strip each abundance dimension in turn and observe what becomes visible.
 
-Abundance layers to strip: atmospheric, geographic, temporal, institutional, demographic, ecological, political. Each strip reveals specific tiers. The asteroid miner scenario strips all of them simultaneously, which is why Chapter 7 is clarifying rather than speculative.
+Abundance dimensions to strip: habitability, geographic, temporal, institutional, kindred, ecosystem, political, cohesion, informational, agency. Each strip reveals specific tiers. The asteroid miner scenario strips all of them simultaneously, which is why Chapter 7 is clarifying rather than speculative.
 
 **Why this belongs in Book One (not deferred).** The test passes both gates:
 
-- **Primitiveness gate.** It does not decompose cleanly into existing layers; it is the *meta-method* by which layers are identified. It operates one level up.
+- **Primitiveness gate.** It does not decompose cleanly into existing dimensions; it is the *meta-method* by which dimensions are identified. It operates one level up.
 - **Merger gate.** It is bilaterally independent from the tier decomposition itself — the tiers could exist as a static list without the test (and be accused of proliferation), and the test could be articulated without the current tier set (and would still be generative). Neither entails the other.
 
 Without the test, the tier set is a list that invites "why not more / why these" challenges. With it, the tier set is the product of a falsifiable method: any proposed tier must survive the inversion. That is the rigor anchor Book One needs.
@@ -85,7 +85,7 @@ Political Capture Cost is **a shielding condition**, not a tier. It describes th
 - **Merger gate (bilateral independence) fails in one direction.** Other tiers exist without PCC (a natural disaster causes cost severance without political capture being operative). PCC does not exist without other tiers (alone it has no referent — it is always the suppression *of* something).
 - **Two-path test on PCC itself.** Path 1 (allocation asymmetry): confirmed. Path 2 (shield absence): *PCC is itself a shield*. Shield-absence fails.
 
-These results together establish PCC's architectural location: the political-abundance layer of the Abundance Inversion Test. Stripping political abundance reveals the tiers PCC was hiding.
+These results together establish PCC's architectural location: the political-abundance dimension of the Abundance Inversion Test. Stripping political abundance reveals the tiers PCC was hiding.
 
 **Where PCC appears in Book One:**
 
@@ -272,7 +272,7 @@ A line-by-line audit of material currently in circulation:
 | IT / knowledge-worker stories | Book One, Ch. 1 (narrative) + Ch. 6 (analytical) | Narrative grounding in Ch. 1; full analytical tier treatment as worker-perspective case in Ch. 6 (per Config C) |
 | CEO-perspective worked case (author's healthcare-IT executive experience) | Book One, Ch. 6 (analytical, paired with worker-perspective case) | Demonstrates allocation symmetry in biographical form — same person, different structural positions, same mechanism |
 | Community Transition Reserve | Book One, Ch. 9 | Named policy recommendation |
-| Political Capture Cost (structural, as shielding mechanism) | Book One, Glossary + AIT political-abundance layer | v1.0.1 rigor pass: fails primitiveness + bilateral-independence gates as tier; is itself a shield. Not a tier; is the political-abundance shielding condition in AIT. |
+| Political Capture Cost (structural, as shielding mechanism) | Book One, Glossary + AIT political-abundance dimension | v1.0.1 rigor pass: fails primitiveness + bilateral-independence gates as tier; is itself a shield. Not a tier; is the political-abundance shielding condition in AIT. |
 | Political Capture Cost (applied, named industries with documented suppression histories) | Book Two | Advocacy work; requires Book Two's authorial configuration |
 | $10–15T aggregate subsidy figure | Book One, Ch. 8 (signpost only) | One-paragraph signpost, not simulation |
 | Full-economy simulation | Book Two | Presupposes Book One's framework |

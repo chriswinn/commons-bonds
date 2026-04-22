@@ -52,9 +52,9 @@
 
 ## Commons Bonds operating core
 **AIT positioning:** The Abundance Interference Taxonomy is the framework's
-epistemic core. Layers are organizational scaffolding, not load-bearing
-structure. Layer additions, mergers, or renames are organizational revisions,
-not framework-integrity events.
+epistemic core. Dimensions are organizational scaffolding, not load-bearing
+structure. Dimension additions, mergers, or renames are organizational
+revisions, not framework-integrity events.
 
 **Two-path rigor test (apply before ratifying any architectural claim):**
 Path 1 — Allocation symmetry: is the structural value-capture/cost-bearing
@@ -64,18 +64,19 @@ absent?
 Both paths must be confirmed. Structural allocation is the mechanism of cost
 severance; distance is the shielding condition.
 
-**Merger gate (apply before ratifying any new or renamed layer):**
+**Merger gate (apply before ratifying any new or renamed dimension):**
 Demonstrate bilateral independence with cases in both directions — a case
-where Layer A costs occur without Layer B costs, and vice versa. If
+where Dimension A costs occur without Dimension B costs, and vice versa. If
 independence fails in either direction, merger is indicated.
 
-**Primitiveness gate (apply before ratifying any new layer):**
-The layer's revealed costs must not decompose cleanly into compositions of
-existing layers. If they do, the candidate is a cross-layer concept, not a
-new layer.
+**Primitiveness gate (apply before ratifying any new dimension):**
+The dimension's revealed costs must not decompose cleanly into compositions
+of existing dimensions. If they do, the candidate is a cross-dimension
+concept, not a new dimension.
 
 **Operating discipline:** "Push harder so we only rewrite once." Apply to
-layer set, protocol, AIT positioning, and chapter framing — not just wording.
+dimension set, protocol, AIT positioning, and chapter framing — not just
+wording.
 
 ## Privacy rules
 - Exclude personal financial details (specific assets, income sources, dollar

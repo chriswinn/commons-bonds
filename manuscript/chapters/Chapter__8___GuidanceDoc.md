@@ -50,5 +50,5 @@ The queued guidance-doc revision sweep should:
 1. Verify the current Ch 8 draft reflects the Book One trim scope (not the full-economy-simulation scope).
 2. Integrate v1.28.0 dimension-rename terminology ("dimensions" not "layers"; Habitability, Ecosystem, and the remaining renames from the naming cohort) into the guidance.
 3. Integrate the methodology work from the v1.28.0 session: single-dimension cost severance (methodology §5.4), availability-absence as severity-marker (§5.5 proposed), canonical-cases-from-lived-experience pattern.
-4. Check whether Ch 8 coal content needs to incorporate the Irreversibility / entropy / Georgescu-Roegen framing that was absorbed during the Layer-11 investigation in v1.28.0 — per the handoff, Ch 8 coal is the natural home for climate-as-entropy-debt framing.
+4. Check whether Ch 8 coal content needs to incorporate the Irreversibility / entropy / Georgescu-Roegen framing that was absorbed during the Cosmic/physical-law 11th-dimension candidacy investigation in v1.28.0 — per the handoff, Ch 8 coal is the natural home for climate-as-entropy-debt framing.
 5. Write the full guidance doc with the same structure as other chapter guidance docs (scope, spine, ready elements, next steps, counterarguments, integration with eight-tier and dimension framework).

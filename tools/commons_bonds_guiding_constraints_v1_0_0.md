@@ -161,7 +161,7 @@ Each document is load-bearing at its level. None replaces another. Scope decides
 |---|---|
 | Test 20 — Vocabulary portability | §1.6 (compression test) and §1.1 (canonical sentence). Companion pair with Test 23 per v1.2.1. |
 | Test 21 — Upstream-of-Goal-1 | §1.2 Goal 1 definition and its upstream framing. |
-| Test 22 — Direct-to-Goal-2 | §1.2 Goal 2 definition. Converges with Test 17 at layer level per v1.2.1. |
+| Test 22 — Direct-to-Goal-2 | §1.2 Goal 2 definition. Converges with Test 17 at dimension level per v1.2.1. |
 | Test 23 — Labor-lawyer-in-2039 | §1.1 canonical sentence. Companion pair with Test 20. |
 
 ### 3.3 When a rigor pass finds a constraint not captured here

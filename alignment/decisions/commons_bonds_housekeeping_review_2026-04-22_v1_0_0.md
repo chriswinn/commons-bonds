@@ -55,7 +55,7 @@ Any file containing "layer," "Atmospheric," "Ecological," or (eventually) the ot
 | `.DS_Store` | macOS artifact | **DELETE + .gitignore** |
 | `.gitkeep` | standard | KEEP |
 | `claude_prefs.md` | Active canonical preferences — **contains outdated "layer" terminology** | **PATCH** (rename propagation: §3 "layer" → "dimension"; update operating core block to match v1.28.0 handoff) |
-| `commons_bonds_abundance_layers_v1_0_0.md` | Proposed canonical methodology doc | **PATCH + RETITLE** (→ `commons_bonds_abundance_dimensions_v1_1_0.md`; §2 dimension-name propagation; §5.5 add availability-absence severity-marker; §5.6 add lived-experience-canonical-case methodology per v1.28.0) |
+| `commons_bonds_abundance_layers_v1_0_0.md` | Superseded by retitle + patch 2026-04-22 | **DONE** — retitled to `commons_bonds_abundance_dimensions_v1_1_0.md`; §2 dimension-name propagation carried (Habitability, Kindred, Ecosystem locked); §5.5 availability-absence severity-marker + §5.6 lived-experience-canonical-case methodology still pending for a follow-up v1.1.1 patch. |
 | `commons_bonds_book_scope_v1_0_3.md` | Canonical Book One scope | **PATCH** (rename propagation throughout; Part 3 audit target) |
 | `commons_bonds_character_suite_vs_layers_triage_v1_0_0.md` | Triage file — used as input to Part 2 rigor pass | KEEP (history value); rename to `..._vs_dimensions_triage...` optional |
 | `commons_bonds_guiding_constraints_v1_0_0.md` | Canonical Group D/E inputs | **PATCH** (terminology: layer → dimension) |
@@ -371,7 +371,7 @@ This folder is a cross-cutting finding worth its own section. Not in Chris's exp
 **After naming cohort completes (PATCH sweep — the main rename propagation):**
 
 19. Patch `tools/claude_prefs.md` operating core with v1.28.0 terminology.
-20. Retitle `tools/commons_bonds_abundance_layers_v1_0_0.md` → abundance dimensions v1.1.0; propagate renames in §2; add §5.5 + §5.6 notes.
+20. ~~Retitle `tools/commons_bonds_abundance_layers_v1_0_0.md` → abundance dimensions v1.1.0; propagate renames in §2;~~ **DONE 2026-04-22** as `commons_bonds_abundance_dimensions_v1_1_0.md` (Habitability, Kindred, Ecosystem locks propagated; container-term sweep completed). §5.5 and §5.6 notes (availability-absence severity-marker + lived-experience-canonical-case methodology per v1.28.0) **still pending** for a v1.1.1 patch.
 21. Patch `tools/commons_bonds_rigor_protocol_v1.2.2.md` terminology → v1.2.2.
 22. Patch `tools/commons_bonds_guiding_constraints_v1_0_0.md` terminology.
 23. Patch `tools/commons_bonds_book_scope_v1_0_3.md` terminology (Part 3 target).
@@ -408,7 +408,7 @@ This folder is a cross-cutting finding worth its own section. Not in Chris's exp
 
 - `alignment/sessions/commons-bonds-session-handoff-2026-04-22_v1_28_0.html` — references this review at TOP PRIORITY §7.
 - `tools/commons_bonds_rigor_protocol_v1.2.2.md` — canonical rigor protocol (PATCH target).
-- `tools/commons_bonds_abundance_layers_v1_0_0.md` — canonical methodology doc (PATCH+RETITLE target).
+- `tools/commons_bonds_abundance_dimensions_v1_1_0.md` — canonical methodology doc (retitle + patch DONE 2026-04-22; §5.5 / §5.6 additions pending).
 - `tools/commons_bonds_guiding_constraints_v1_0_0.md` — canonical constraints doc (PATCH target).
 - `workstreams/10_project_separation_folder_reorg.md` — original archive/Consider-Including reorganization plan (partially executed; this review prompts completion).
 
