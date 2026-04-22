@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff Template</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 920px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.65em; border-bottom: 3px solid #1a3a2a; padding-bottom: 0.3em; margin-bottom: 0.2em; color: #1a3a2a; }
+  h2 { font-size: 1.15em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 0.97em; margin-top: 1.4em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.88em; margin-bottom: 1.5em; font-family: monospace; }
+  .status   { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.8em 1em; margin: 1em 0; }
+  .priority { background: #fff8e6; border: 2px solid #c8860a; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .priority h2 { color: #7a4e00; border-color: #c8860a; margin-top: 0; }
+  .resume   { background: #eef4f8; border-left: 3px solid #3a6080; padding: 0.8em 1em; margin: 1em 0; }
+  .watch    { background: #fdecea; border-left: 3px solid #b03030; padding: 0.8em 1em; margin: 1em 0; }
+  .info     { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.8em 1em; margin: 1em 0; }
+  .operating { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .placeholder { background: #fffbe6; border: 1px dashed #c8a020; border-radius: 3px; padding: 0.4em 0.7em; font-style: italic; color: #7a5800; font-size: 0.87em; margin: 0.3em 0; }
+  .placeholder::before { content: "▶ "; font-style: normal; }
+  .usage { background: #1a3a2a; color: #c0dcc0; border-radius: 4px; padding: 1.1em 1.4em; margin: 1.2em 0 2em; font-size: 0.87em; line-height: 1.7; }
+  .usage h2 { color: #7ad4a0; border-color: #2a5a3a; font-size: 0.95em; margin-top: 0; }
+  .usage li { color: #b0ccb0; margin-bottom: 0.4em; }
+  .usage code { background: #2a4a32; color: #90c898; padding: 1px 4px; border-radius: 2px; }
+  code { background: #ede9e2; padding: 1px 4px; border-radius: 3px; font-size: 0.87em; font-family: monospace; }
+  pre { background: #f3f3f3; padding: 0.8em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.83em; line-height: 1.45; font-family: monospace; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.87em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #eee; font-size: 0.88em; }
+  .done    { color: #1a6a2a; font-weight: 600; }
+  .pending { color: #a2260b; font-weight: 600; }
+  .hold    { color: #cc7700; font-weight: 600; }
+  .new     { color: #6a4c9c; font-weight: 600; }
+  .version { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: <strong>[YYYY-MM-DD]</strong> &nbsp;·&nbsp; Version: <strong class="version">[v#.##.#]</strong> &nbsp;·&nbsp; Supersedes: <strong>[prior version]</strong> &nbsp;·&nbsp; <em>[One-line session summary]</em></p>
+
+<div class="usage">
+  <h2>Template usage — delete this block before saving</h2>
+  <ol>
+    <li>Fill every <code>▶ placeholder</code>. Delete each placeholder when done.</li>
+    <li>Delete this entire usage block before saving the handoff.</li>
+    <li>The <strong>Operating Core (§7)</strong> is pre-populated — only update when a formal protocol revision occurs.</li>
+    <li>Version: <code>v[major].[session].[patch]</code> — rightmost digit = intra-session, middle = new session, leftmost = major structural change.</li>
+    <li>Filename: <code>commons-bonds-session-handoff-YYYY-MM-DD_v#_##_#.html</code></li>
+    <li>Download → upload to Drive and GitHub manually. Claude never writes to Drive or GitHub.</li>
+  </ol>
+</div>
+
+<!-- §1 STATUS -->
+<div class="status">
+  <strong>STATUS:</strong>
+  <div class="placeholder">Summarise what happened: what was opened, decided, changed, deferred. Include layer count changes, patch numbers produced, protocol version changes, scope changes for next session.</div>
+</div>
+
+<!-- §2 TOP PRIORITY -->
+<div class="priority">
+  <h2>TOP PRIORITY FOR NEXT SESSION</h2>
+  <p><strong>Goal:</strong> <em class="placeholder" style="display:inline">Single most important outcome in one sentence.</em></p>
+  <h3>Proposed workflow</h3>
+  <ol>
+    <li><div class="placeholder">Step 1 — what to load/upload at session start</div></li>
+    <li><div class="placeholder">Step 2 — first action after loading</div></li>
+    <li><div class="placeholder">Continue as needed...</div></li>
+  </ol>
+  <h3>Pre-computed material available</h3>
+  <ul>
+    <li><div class="placeholder">Memos, patches, or analysis produced this session that feed directly into next session.</div></li>
+  </ul>
+</div>
+
+<!-- §3 LAYER & TIER STATE -->
+<h2>§3 — Layer &amp; tier state</h2>
+<div class="placeholder">State total candidate layers and any pending mergers, additions, or renames.</div>
+<table>
+  <thead><tr><th>#</th><th>Current name</th><th>Name candidates</th><th>Merger check</th><th>Primitiveness check</th><th>Status</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td><div class="placeholder">Name</div></td><td><div class="placeholder">—</div></td><td><div class="placeholder">Pass/Fail/Pending</div></td><td><div class="placeholder">Pass/Fail/Pending</div></td><td><div class="placeholder">Ratified/Hold/TBD</div></td></tr>
+    <tr><td>2</td><td><div class="placeholder">Name</div></td><td><div class="placeholder">—</div></td><td><div class="placeholder">Pass/Fail/Pending</div></td><td><div class="placeholder">Pass/Fail/Pending</div></td><td><div class="placeholder">Ratified/Hold/TBD</div></td></tr>
+  </tbody>
+</table>
+<h3>Tier status</h3>
+<div class="placeholder">Tier-level changes or findings this session. "No changes" is a valid entry.</div>
+
+<!-- §4 PATCH QUEUE -->
+<h2>§4 — Patch queue</h2>
+<table>
+  <thead><tr><th>Patch</th><th>Topic</th><th>Files touched</th><th>Status</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td><code>c1_</code></td><td><div class="placeholder">Topic</div></td><td><div class="placeholder">Files</div></td><td><span class="done">Applied</span></td><td></td></tr>
+    <tr><td><code>cN_</code></td><td><div class="placeholder">Topic</div></td><td><div class="placeholder">Files</div></td><td><span class="pending">Produced, not applied</span></td><td><div class="placeholder">Apply order/dependencies</div></td></tr>
+  </tbody>
+</table>
+
+<!-- §5 FILE INVENTORY -->
+<h2>§5 — File inventory</h2>
+<table>
+  <thead><tr><th>File</th><th>Format</th><th>Location</th><th>Status</th></tr></thead>
+  <tbody>
+    <tr><td><code>commons_bonds_rigor_protocol_v#_#_#.md</code></td><td>.md</td><td>GitHub + Drive</td><td><div class="placeholder">Current / Superseded</div></td></tr>
+    <tr><td><div class="placeholder">filename</div></td><td><div class="placeholder">.html/.md</div></td><td><div class="placeholder">GitHub / Drive / Local</div></td><td><div class="placeholder">Status</div></td></tr>
+  </tbody>
+</table>
+
+<!-- §6 WATCH ITEMS -->
+<h2>§6 — Watch items</h2>
+<div class="watch">
+  <ul>
+    <li><div class="placeholder">Critical items — unresolved decisions, execution-dependent conditions, naming flags, cascade risks.</div></li>
+    <li><strong>Claude has no GitHub access.</strong> All files via <code>present_files</code>. Chris pushes manually.</li>
+    <li><strong>No Drive uploads from Claude.</strong> Heredoc truncation risk. Chris uploads manually.</li>
+    <li><strong>Never touch <code>/Noema/</code> or <code>/Berggruen Institute - Essay/</code> folders. Ever.</strong></li>
+    <li><strong>Never rename Drive files.</strong> Migration is read-only on the Drive side.</li>
+    <li><strong>Math files stay .html.</strong> Never convert Ch6, Tech Appendix, eight-tier, error-out, glossary to .md.</li>
+  </ul>
+</div>
+
+<!-- §7 OPERATING CORE — pre-populated, update only on protocol revision -->
+<h2>§7 — Commons Bonds operating core</h2>
+<div class="operating">
+
+  <h3>AIT positioning (canonical)</h3>
+  <p>The Abundance Interference Taxonomy is the framework's epistemic core. Layers are organizational scaffolding, not load-bearing structure. Layer additions, mergers, or renames are organizational revisions, not framework-integrity events. Canonical statement: C9 patch §3.</p>
+
+  <h3>Two-path rigor test — apply before ratifying any architectural claim</h3>
+  <ul>
+    <li><strong>Path 1 — Allocation symmetry:</strong> Is the structural value-capture / cost-bearing asymmetry present?</li>
+    <li><strong>Path 2 — Shield absence:</strong> Is the distance condition (the shielding mechanism) absent?</li>
+  </ul>
+  <p>Both paths must confirm. Structural allocation is the <em>mechanism</em> of cost severance. Distance is the <em>shielding condition</em>.</p>
+
+  <h3>Merger gate — apply before ratifying any new or renamed layer</h3>
+  <p>Demonstrate bilateral independence with cases in both directions: a case where Layer A costs occur without Layer B costs, and vice versa. If independence fails in either direction, merger is indicated.</p>
+
+  <h3>Primitiveness gate — apply before ratifying any new layer</h3>
+  <p>The layer's revealed costs must not decompose cleanly into compositions of existing layers. If they do, the candidate is a cross-layer concept, not a new layer.</p>
+
+  <h3>Operating discipline</h3>
+  <p><strong>"Push harder so we only rewrite once."</strong> Applies to layer set, protocol, AIT positioning, and chapter framing — not just wording.</p>
+
+  <h3>Naming convention</h3>
+  <pre>Chapters:    Chapter_#_Title_Draft.md  /  Chapter_#_Title_GuidanceDoc.md
+Patches:     c{N}_{topic}_patch.md
+Methodology: commons_bonds_{topic}_{v#_#_#}.md  or  .html
+Handoffs:    commons-bonds-session-handoff-YYYY-MM-DD_{v#_#_#}.html
+Versioned:   _{v#_#_#} suffix; increment rightmost digit per update</pre>
+
+  <h3>Current protocol version</h3>
+  <div class="placeholder">State canonical protocol version and any in-progress draft, e.g. "v1.1.0 canonical; v1.2.0 additions drafted inline, to be produced with naming cohort outcomes."</div>
+
+</div>
+
+<!-- §8 METHODOLOGY NOTES -->
+<h2>§8 — Methodology notes (this session)</h2>
+<div class="info">
+  <ul>
+    <li><div class="placeholder">New operating rules, process refinements, or interpretive precedents established this session that should carry forward.</div></li>
+  </ul>
+</div>
+
+<!-- §9 RESUME INSTRUCTIONS -->
+<h2>§9 — Resume instructions for next Claude instance</h2>
+<div class="resume">
+  <p><strong>To the Claude instance reading this:</strong></p>
+  <ol>
+    <li>Read this handoff in full before responding to the user.</li>
+    <li>Load the files listed in §5 that are flagged as needed for the §2 priority work.</li>
+    <li>Confirm understanding of §7 (operating core) before any analytical work — the two-path test, merger gate, and primitiveness gate apply to all layer and tier work.</li>
+    <li>Begin with the top priority in §2 unless the user redirects.</li>
+    <li><div class="placeholder">Session-specific resume note, e.g. "confirm C9 patch framing before naming cohort."</div></li>
+  </ol>
+</div>
+
+<!-- §10 FILES UPLOADED THIS SESSION -->
+<h2>§10 — Files uploaded this session</h2>
+<ul>
+  <li><div class="placeholder">Files uploaded during this session. Available in /mnt/user-data/uploads/ for session duration only; not persisted.</div></li>
+</ul>
+
+<p class="meta" style="margin-top:3em; border-top:1px solid #ccc; padding-top:1em;">
+  End of handoff <span class="version">[v#.##.#]</span>. &nbsp;
+  <strong>Top priority next session: <em>[restate in one line]</em></strong>
+</p>
+
+</body>
+</html>
