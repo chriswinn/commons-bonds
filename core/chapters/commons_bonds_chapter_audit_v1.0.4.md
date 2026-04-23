@@ -105,7 +105,7 @@ Chapter-by-chapter verdict, now against actual-content reads:
 3. **Story menu selection** from guidance (120-hour billable week / wife illness / consulting handoff / Thanksgiving sales cycle). Pick 2-3; don't attempt all.
 4. **Additional original scene beyond the plane opener** — sociology-paper-source item 3 calls for at least one more original scene (nursing / healthcare-IT institutional / community-college SGA). See case audit §9.3 for self-observation guidance.
 5. **Healthcare end-of-life bridge** (1-2 paragraphs) — connects wife's illness downstream to the Butler / pacemaker case that Ch 5 will integrate.
-6. **Feudalism brief anchor** (optional placement here OR Ch 10 / prologue) — "mechanism predates capitalism" framing per stands-the-test-of-time drafts.
+6. **Feudalism brief anchor (non-optional for cross-spectrum access; placement optional between prologue / early Ch 1 body)** — "mechanism predates capitalism" framing per stands-the-test-of-time drafts. This is load-bearing for the book's cross-spectrum positioning: without it, cross-spectrum readers may pattern-match Ch 1 as another anti-capitalism critique before reaching Ch 7's full stress-test or Ch 10's closing synthesis. The Ch 1 placement is the cross-spectrum-access gate.
 
 **Pre-drafting gates (non-optional):**
 
@@ -720,7 +720,7 @@ Each guidance doc needs update work against the Session A case-study audit (v1.0
 
 **Update tasks:**
 1. ~~Add healthcare end-of-life bridge section~~ **✓ DONE v1.0.4** — referenced in v1.0.4 case-study section with register-discipline note (Butler citation reserved for Ch 5; Ch 1 uses Chris's own experience + family-level texture).
-2. ~~Add feudalism brief-anchor decision~~ **✓ DONE v1.0.4** — documented in v1.0.4 case-study section as optional-redundant given Ch 7 + Ch 10 coverage; final placement remains Chris's call.
+2. ~~Add feudalism brief-anchor decision~~ **✓ DONE v1.0.4 (corrected)** — v1.0.4 initial framing mis-characterized feudalism as optional-redundant given Ch 7 + Ch 10 coverage; Chris correctly flagged that feudalism in Ch 1 is load-bearing for cross-spectrum access (establishes early that Commons Bonds is not an anti-capitalism book). Updated framing: brief anchor in Ch 1 prologue or very early in chapter body, one paragraph, establishing mechanism-predates-capitalism and transcends-ownership-structure. Ch 7 + Ch 10 carry the fuller treatment for readers who stay; Ch 1's version is the cross-spectrum-access gate. Placement (prologue vs. body) remains Chris's call; inclusion is non-optional.
 3. ~~Add additional-original-scene decision framework~~ **✓ DONE v1.0.4** — nursing / healthcare-IT institutional / community-college SGA candidates listed with selection guidance (pick one; observational not synthesized).
 4. ~~Add Ch 1 → Ch 10 harbor-opening coordination note~~ **✓ DONE v1.0.4** — included in register discipline section.
 5. ~~Reference case audit §9.3 fieldwork guidance for self-observation~~ — **referenced v1.0.4 as cross-reference.**
