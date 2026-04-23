@@ -66,7 +66,7 @@ This spine is load-bearing and holds across the ten-chapter structure:
 
 Stripping abundance is the methodology that makes invisible tiers visible. Abundance is the mechanism of invisibility; stripping abundance is therefore the method of detection. The test is stated plainly in the Technical Appendix: to identify hidden tiers in any extraction transaction, strip each abundance dimension in turn and observe what becomes visible.
 
-Abundance dimensions to strip: habitability, geographic, temporal, institutional, kindred, ecosystem, political, cohesion, informational, agency. Each strip reveals specific tiers. The asteroid miner scenario strips all of them simultaneously, which is why Chapter 7 is clarifying rather than speculative.
+Abundance dimensions to strip: habitability, spatial, temporal, institutional, kindred, ecosystem, political, cohesion, epistemic, autonomy. Each strip reveals specific tiers. The asteroid miner scenario strips all of them simultaneously, which is why Chapter 7 is clarifying rather than speculative.
 
 **Why this belongs in Book One (not deferred).** The test passes both gates:
 

@@ -6,8 +6,8 @@
 **Status:** Canonical — ratified 2026-04-22; Kindred LOCKED.
 **Claim under evaluation:** Lock "Kindred" as the canonical name for the dimension previously labeled Demographic (v1.21.0 / v1.28.0 ratified dimension; name open since Part 2 rigor pass).
 **Rigor depth:** Full per protocol §3.1 (naming cohort, load-bearing canonical decision affecting Book One scope).
-**Companion outputs (landed 2026-04-22):** `tools/commons_bonds_abundance_dimensions_v1_1_0.md` §2.5 (Kindred locked with chosen-family scope + Weston anchor; file retitled from `abundance_layers_v1_0_0.md`, version bumped v1.0.0 → v1.1.0 per naming-cohort propagation rule; Habitability and Ecosystem locks also propagated in the same pass); `research/literature/bibliography.md` §14 (new section "Chosen family and fictive kinship" — Weston 1991, Stacey, Nardi, Karner, Jones, Tönnies 1887, Schneider/Carsten).
-**Inputs used:** `commons_bonds_session-handoff-2026-04-22_v1.31.0.html` (decision-state, absence-first framing, Kindred emergence); `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` (Part 1 — merger/primitiveness examples, consent-normalization shield); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` (Part 2 — Demographic dimension ratified with rename pending; Test 20/23 failure on "Demographic"); `commons_bonds_abundance_dimensions_v1_1_0.md` §2.5 (scarcity axis, canonical cases, scope boundary with Cohesion); `commons_bonds_guiding_constraints_v1_0_0.md` (Group D / E anchors).
+**Companion outputs (landed 2026-04-22):** `tools/commons_bonds_abundance_dimensions_v1_2_0.md` §2.5 (Kindred locked with chosen-family scope + Weston anchor; file retitled from `abundance_layers_v1_0_0.md`, version bumped v1.0.0 → v1.1.0 per naming-cohort propagation rule; Habitability and Ecosystem locks also propagated in the same pass); `research/literature/bibliography.md` §14 (new section "Chosen family and fictive kinship" — Weston 1991, Stacey, Nardi, Karner, Jones, Tönnies 1887, Schneider/Carsten).
+**Inputs used:** `commons_bonds_session-handoff-2026-04-22_v1.31.0.html` (decision-state, absence-first framing, Kindred emergence); `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` (Part 1 — merger/primitiveness examples, consent-normalization shield); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` (Part 2 — Demographic dimension ratified with rename pending; Test 20/23 failure on "Demographic"); `commons_bonds_abundance_dimensions_v1_2_0.md` §2.5 (scarcity axis, canonical cases, scope boundary with Cohesion); `commons_bonds_guiding_constraints_v1_0_0.md` (Group D / E anchors).
 
 ---
 
@@ -364,7 +364,7 @@ Items that must be handled before drafting the Kindred dimension intro / methodo
 
 **Immediate (this session, post-ratification):**
 
-1. Update `tools/commons_bonds_abundance_dimensions_v1_1_0.md` §2.5 per §12 rename sequence above. Bump doc version to v1.1.0 per the doc's own §8 rule ("naming-cohort ratification propagation = v1.1.0"); propagate Habitability and Ecosystem locks in the same pass.
+1. Update `tools/commons_bonds_abundance_dimensions_v1_2_0.md` §2.5 per §12 rename sequence above. Bump doc version to v1.1.0 per the doc's own §8 rule ("naming-cohort ratification propagation = v1.1.0"); propagate Habitability and Ecosystem locks in the same pass.
 2. Update §6 of the same doc to reflect Demographic → Kindred locked; remove from Priority-1 naming cohort.
 3. Add bibliography entries (Weston + Stacey + Nardi + Karner + Jones) to `research/literature/bibliography.md` as new section "Chosen family and fictive kinship" positioned between existing sections by topical fit.
 4. Cross-reference this rigor-pass record in the next session handoff's files-produced table.
@@ -378,7 +378,7 @@ Items that must be handled before drafting the Kindred dimension intro / methodo
 **Completion criteria for this pass:**
 
 - Rigor-pass record (this file) ratified and referenced in next handoff.
-- `commons_bonds_abundance_dimensions_v1_1_0.md` bumped with Kindred-locked state (plus Habitability and Ecosystem locks propagated in the same pass, and container-term "layer" → "dimension" sweep).
+- `commons_bonds_abundance_dimensions_v1_2_0.md` bumped with Kindred-locked state (plus Habitability and Ecosystem locks propagated in the same pass, and container-term "layer" → "dimension" sweep).
 - Bibliography additions landed.
 - Kindred state in handoff: "LOCKED" replaces "Kindred leading, pending full rigor."
 
@@ -398,7 +398,7 @@ None. The pass is complete; verdict is PASS; mitigations are documented and scop
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.2.md` — this file.
 
 **Files to update on lock (within this session):**
-- `tools/commons_bonds_abundance_dimensions_v1_1_0.md` — Kindred lock propagation + Habitability lock + Ecosystem lock + container-term sweep; doc version bump v1.0.0 → v1.1.0; file renamed from `commons_bonds_abundance_layers_v1_0_0.md`.
+- `tools/commons_bonds_abundance_dimensions_v1_2_0.md` — Kindred lock propagation + Habitability lock + Ecosystem lock + container-term sweep; doc version bump v1.0.0 → v1.1.0; file renamed from `commons_bonds_abundance_layers_v1_0_0.md`.
 - `research/literature/bibliography.md` — chosen-family scholarship section added.
 
 **Files to reference in next session handoff:**
@@ -409,7 +409,7 @@ None. The pass is complete; verdict is PASS; mitigations are documented and scop
 - `commons_bonds_rigor_protocol_v1.2.2.md` — protocol applied.
 - `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` — Part 1 (consent-normalization shield, merger/primitiveness examples).
 - `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` — Part 2 (Demographic rigor / rename pending).
-- `commons_bonds_abundance_dimensions_v1_1_0.md` §2.5 (scarcity axis, scope).
+- `commons_bonds_abundance_dimensions_v1_2_0.md` §2.5 (scarcity axis, scope).
 - `commons_bonds_guiding_constraints_v1_0_0.md` — Group D / E canonical inputs.
 - `commons-bonds-session-handoff-2026-04-22_v1.31.0.html` — Kindred emergence + chosen-family surfacing context.
 

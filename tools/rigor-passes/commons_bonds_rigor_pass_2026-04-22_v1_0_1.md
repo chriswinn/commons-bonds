@@ -4,7 +4,7 @@
 **Version:** 1.0.1
 **Protocol version applied:** `commons_bonds_rigor_protocol_v1.2.2.md`
 **Status:** Proposed — awaiting ratification at session close.
-**Companion outputs:** `commons_bonds_abundance_dimensions_v1_1_0.md` (methodology ratification of the canonical layer set); `commons_bonds_guiding_constraints_v1_0_0.md` (canonical Group D / Group E inputs).
+**Companion outputs:** `commons_bonds_abundance_dimensions_v1_2_0.md` (methodology ratification of the canonical layer set); `commons_bonds_guiding_constraints_v1_0_0.md` (canonical Group D / Group E inputs).
 **Inputs used:** `commons_bonds_rigor_vs_layers_triage_v1_0_0.md` (test triage), `commons_bonds_character_suite_vs_layers_triage_v1_0_0.md` (character triage), `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` (Part 1 ratification record incl. Test 13 correction and consent-normalization shield addition).
 
 ---
@@ -538,7 +538,7 @@ The meta-pattern flagged in the v1.26.0 handoff is confirmed empirically by this
 - **Institutional** Test 13 secondary via CEO-era case content.
 - **Agency, Temporal, Cohesion, Ecological, Demographic, Geographic, Atmospheric** — Test 13 low at layer level because canonical cases do not involve professional-retaliation-capable industries.
 
-**Methodology implication (to carry to `commons_bonds_abundance_dimensions_v1_1_0.md`):** When introducing a layer, its canonical cases are part of the layer's definition, not separate illustrations. The scope of the canonical cases shapes the mitigation protocols the layer requires.
+**Methodology implication (to carry to `commons_bonds_abundance_dimensions_v1_2_0.md`):** When introducing a layer, its canonical cases are part of the layer's definition, not separate illustrations. The scope of the canonical cases shapes the mitigation protocols the layer requires.
 
 ### 6.2 Naming pressure concentrates in four layers
 
@@ -615,7 +615,7 @@ Test 22 (direct-to-Goal-2) does strongest work at **Temporal** (individual-reade
 
 **Pre-drafting gates (carried forward unchanged):** NDA review (CEO-era); subordinate anonymization; Ch. 6 scaffold verification; Ch. 7 scaffold verification.
 
-**Methodology doc commitments (for `commons_bonds_abundance_dimensions_v1_1_0.md`):** canonical-cases-define-pressure-profile note; Character 25 ethical-anchor note; Kantian pair (Informational ↔ Agency) cross-reference.
+**Methodology doc commitments (for `commons_bonds_abundance_dimensions_v1_2_0.md`):** canonical-cases-define-pressure-profile note; Character 25 ethical-anchor note; Kantian pair (Informational ↔ Agency) cross-reference.
 
 ---
 
@@ -623,7 +623,7 @@ Test 22 (direct-to-Goal-2) does strongest work at **Temporal** (individual-reade
 
 **Files produced this pass:**
 - `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` — this file.
-- `commons_bonds_abundance_dimensions_v1_1_0.md` — methodology doc ratifying canonical layer set.
+- `commons_bonds_abundance_dimensions_v1_2_0.md` — methodology doc ratifying canonical layer set.
 
 **Files consumed:**
 - `commons_bonds_rigor_protocol_v1.2.2.md` — protocol applied.

@@ -33,7 +33,7 @@ Strategic reasoning and content-assignment rules: [`alignment/decisions/sociolog
 | Component | Status | File |
 |---|---|---|
 | Rigor protocol | v1.2.1 canonical | [`tools/commons_bonds_rigor_protocol_v1.2.2.md`](tools/commons_bonds_rigor_protocol_v1.2.2.md) |
-| Abundance dimensions | 10 canonical; Priority-1 naming cohort complete (Habitability, Kindred, Ecosystem locked 2026-04-22) | [`tools/commons_bonds_abundance_dimensions_v1_1_0.md`](tools/commons_bonds_abundance_dimensions_v1_1_0.md) |
+| Abundance dimensions | 10 canonical; Priority-1 naming cohort complete (Habitability, Kindred, Ecosystem locked 2026-04-22) | [`tools/commons_bonds_abundance_dimensions_v1_2_0.md`](tools/commons_bonds_abundance_dimensions_v1_2_0.md) |
 | Book One scope | v1.0.3 canonical | [`tools/commons_bonds_book_scope_v1_0_3.md`](tools/commons_bonds_book_scope_v1_0_3.md) |
 | Guiding constraints | v1.0.0 canonical | [`tools/commons_bonds_guiding_constraints_v1_0_0.md`](tools/commons_bonds_guiding_constraints_v1_0_0.md) |
 | Current handoff | v1.29.0 | [`alignment/sessions/commons-bonds-session-handoff-2026-04-22_v1_29_0.html`](alignment/sessions/commons-bonds-session-handoff-2026-04-22_v1_29_0.html) |

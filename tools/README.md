@@ -15,7 +15,7 @@ For any substantive session work, upload these files plus the current session ha
 | `tools/claude_prefs.md` | Operating preferences, file-format rules, privacy rules, Commons Bonds operating core |
 | `tools/commons_bonds_rigor_protocol_v1.2.2.md` | Canonical rigor protocol — test battery (~26 tests), 25-character pressure suite, routing rule, full/light rigor axis |
 | `tools/commons_bonds_guiding_constraints_v1_0_0.md` | Canonical Group D (strategic / publishing-path) + Group E (success criteria) inputs |
-| `tools/commons_bonds_abundance_dimensions_v1_1_0.md` | Methodology document for the 10 abundance dimensions (retitled from `abundance_layers_v1_0_0.md` 2026-04-22; Priority-1 naming cohort complete — Habitability, Kindred, Ecosystem locked) |
+| `tools/commons_bonds_abundance_dimensions_v1_2_0.md` | Methodology document for the 10 abundance dimensions (retitled from `abundance_layers_v1_0_0.md` 2026-04-22; Priority-1 naming cohort complete — Habitability, Kindred, Ecosystem locked) |
 | `tools/commons_bonds_book_scope_v1_0_3.md` | Canonical Book One scope |
 | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` | Most recent rigor pass record (Part 2, session v1.28.0) |
 
@@ -62,7 +62,7 @@ Please read these files before responding:
 - commons-bonds-session-handoff-2026-04-22_v1_28_0.html
 - commons_bonds_rigor_protocol_v1.2.2.md
 - commons_bonds_guiding_constraints_v1_0_0.md
-- commons_bonds_abundance_dimensions_v1_1_0.md
+- commons_bonds_abundance_dimensions_v1_2_0.md
 - commons_bonds_rigor_pass_2026-04-22_v1_0_1.md
 ```
 

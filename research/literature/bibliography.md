@@ -318,9 +318,10 @@
 ### Anderson, Elizabeth. *Private Government: How Employers Rule Our Lives (and Why We Don't Talk about It).* Princeton University Press, 2017.
 
 - **Summary:** Analysis of the American workplace as a private-government structure — employers exert quasi-state power over workers with limited accountability.
-- **Relevance:** Complements the consent-normalization shield added in rigor protocol v1.2.1 and the Agency dimension (pending rename to Autonomy). The 120-hour-week consent-normalization case (Temporal + Agency intersection) is in Anderson's territory.
-- **Relationship:** **SUPPORT.**
-- **Chapter relevance:** Ch 1 (knowledge worker extension); Ch 6.
+- **Relevance:** **Canonical for the Autonomy dimension** (locked 2026-04-22; was "Agency"). Complements the consent-normalization shield added in rigor protocol v1.2.1. The 120-hour-week consent-normalization case (Temporal + Autonomy intersection) is in Anderson's territory.
+- **Relationship:** **STRONG SUPPORT.**
+- **Chapter relevance:** Ch 1 (knowledge worker extension); Ch 6 (analytical worker-perspective case); methodology appendix (Autonomy dimension formal definition).
+- **Framework-dimension grounding:** Autonomy (primary).
 
 ### Zuboff, Shoshana. *The Age of Surveillance Capitalism.* PublicAffairs, 2019.
 
@@ -341,6 +342,70 @@
 - **Summary:** Extends *Capital in the Twenty-First Century* with historical-comparative analysis of inequality-ideology patterns across civilizations.
 - **Relevance:** Historical depth for the political-economy arguments in Ch 9 and Ch 10.
 - **Relationship:** **SUPPORT.**
+
+### Fricker, Miranda. *Epistemic Injustice: Power and the Ethics of Knowing.* Oxford University Press, 2007.
+
+- **Summary:** Foundational philosophical treatment of epistemic injustice — the harms that occur when someone is wronged specifically in their capacity as a knower. Distinguishes testimonial injustice (not being believed because of identity-prejudice) from hermeneutical injustice (lacking shared interpretive resources to make one's experience intelligible).
+- **Relevance:** **Canonical for the Epistemic dimension** (locked 2026-04-22; was "Informational"). Fricker's framework is the primary scholarly anchor for the dimension's extension beyond specific-evidence-suppression (tobacco / pharma / opioid cases) into knowledge-structural asymmetry (AI model opacity, attention-economy surveillance, academic gatekeeping, epistemic-authority capture). ~9000 citations; now canonical in philosophy, sociology, legal theory, AI ethics.
+- **Relationship:** **STRONG SUPPORT.**
+- **Chapter relevance:** Ch 6 methodology appendix (Epistemic dimension formal definition); cross-dimension with Autonomy (Kantian consent-precondition pair — consent requires both knowledge and non-coercion).
+- **Framework-dimension grounding:** Epistemic (primary).
+
+### Medina, José. *The Epistemology of Resistance: Gender and Racial Oppression, Epistemic Injustice, and Resistant Imaginations.* Oxford University Press, 2013.
+
+- **Summary:** Extends Fricker's epistemic-injustice frame into theories of resistance — how marginalized epistemic positions generate specific kinds of knowledge that privileged positions cannot access.
+- **Relevance:** Supports Epistemic dimension's treatment of epistemic-authority capture as a shield; grounds framework's "what becomes visible under abundance" for cases where epistemic-structure itself is the asymmetry.
+- **Relationship:** **SUPPORT.**
+- **Chapter relevance:** Methodology appendix (Epistemic dimension).
+- **Framework-dimension grounding:** Epistemic.
+
+### Hess, Charlotte & Elinor Ostrom, eds. *Understanding Knowledge as a Commons: From Theory to Practice.* MIT Press, 2007.
+
+- **Summary:** Extends Ostrom's commons-governance framework from physical commons (fisheries, forests, irrigation) into knowledge commons (scientific literature, cultural heritage, software, data). Establishes knowledge-as-commons as a legitimate scholarly territory.
+- **Relevance:** **Bridges Ostrom (Cohesion dimension anchor) to Epistemic dimension** — extends the scholarly ancestry for Commons Bonds through the commons-governance lineage into epistemic territory. Directly grounds framework's "commons governance extended into epistemic pricing."
+- **Relationship:** **STRONG SUPPORT.**
+- **Chapter relevance:** Ch 6 methodology appendix (Epistemic + Cohesion engagement with Ostrom successor literature); Ch 9 (policy architecture for knowledge-commons).
+- **Framework-dimension grounding:** Epistemic + Cohesion (bridge).
+
+### Klinenberg, Eric. *Palaces for the People: How Social Infrastructure Can Help Fight Inequality, Polarization, and the Decline of Civic Life.* Crown, 2018.
+
+- **Summary:** Argues that "social infrastructure" — libraries, schools, parks, community centers, public spaces — is the physical and institutional scaffolding for civic cohesion; its defunding and degradation produces the atomization Putnam described.
+- **Relevance:** **Canonical for the Cohesion dimension** (retained 2026-04-22). Extends Putnam's descriptive social-capital framework into an analysis of structural infrastructure that produces or erodes cohesion. The framework's tier-decomposable pricing of Cohesion scarcity maps onto Klinenberg's case material.
+- **Relationship:** **STRONG SUPPORT.**
+- **Chapter relevance:** Methodology appendix (Cohesion dimension); Ch 9 (policy architecture for civic-infrastructure investment).
+- **Framework-dimension grounding:** Cohesion (primary).
+
+### Murthy, Vivek H. *Together: The Healing Power of Human Connection in a Sometimes Lonely World.* Harper Wave, 2020.
+
+- **Summary:** Former US Surgeon General's treatment of loneliness as a public-health crisis, documenting the epidemiological consequences of civic-trust erosion and proposing social-connection as public-health infrastructure.
+- **Relevance:** Extends the Cohesion dimension's canonical-case cluster into public-health territory (loneliness as measurable health cost). Bridges Cohesion to nursing-professional vocabulary — load-bearing for Character 21 alignment.
+- **Relationship:** **SUPPORT.**
+- **Chapter relevance:** Methodology appendix (Cohesion dimension).
+- **Framework-dimension grounding:** Cohesion.
+
+### Sennett, Richard. *The Fall of Public Man.* Knopf, 1977.
+
+- **Summary:** Classic sociological treatment of public-life erosion — the transformation of the 19th-century public sphere (shared civic ritual, stranger-coordination as a valued domain) into 20th-century intimacy-obsession and public-as-performance.
+- **Relevance:** Historical grounding for the Cohesion dimension — Sennett establishes the longue durée of civic-cohesion erosion that Putnam and Klinenberg document in the American 20th–21st-century phase.
+- **Relationship:** **SUPPORT.**
+- **Chapter relevance:** Methodology appendix (Cohesion dimension historical context).
+- **Framework-dimension grounding:** Cohesion.
+
+### Soja, Edward W. *Seeking Spatial Justice.* University of Minnesota Press, 2010.
+
+- **Summary:** Foundational text in the "spatial justice" movement — the claim that justice has an irreducibly spatial dimension and that allocation-of-space is itself an allocation-of-justice problem.
+- **Relevance:** **Canonical for the Spatial dimension** (locked 2026-04-22; was "Geographic"). Soja's spatial-justice frame is the scholarly ancestor the framework extends with tier-decomposable pricing. Methodology-appendix engagement establishes framework as commons-governance-extended-into-spatial-pricing.
+- **Relationship:** **STRONG SUPPORT.**
+- **Chapter relevance:** Methodology appendix (Spatial dimension); Ch 2 (Appalachian coal as spatial-justice case); Ch 8 (housing/infrastructure policy).
+- **Framework-dimension grounding:** Spatial (primary).
+
+### Harvey, David. "The Spatial Fix — Hegel, Von Thunen, and Marx." *Antipode* 13, no. 3 (1981): 1–12. (Also expanded in *Spaces of Capital*, 2001.)
+
+- **Summary:** Harvey's "spatial fix" — the argument that capitalism's inherent crises are resolved (temporarily) through spatial reorganization: relocating production, opening new markets, investing in built environment. Capital accumulates through spatial restructuring, imposing costs on stranded / displaced populations.
+- **Relevance:** Complements Harvey's "accumulation by dispossession" (§2) with a spatial-mechanism specification. Directly grounds the Spatial dimension's pricing of immobility-as-bargaining-shield and stranded-population cost-bearing.
+- **Relationship:** **STRONG SUPPORT.**
+- **Chapter relevance:** Ch 2 (Appalachian coal — spatial fix in action); Ch 8 methodology; methodology appendix (Spatial dimension).
+- **Framework-dimension grounding:** Spatial (primary).
 
 ### Mazzucato, Mariana. *The Value of Everything: Making and Taking in the Global Economy.* Public Affairs, 2018.
 
