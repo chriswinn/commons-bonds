@@ -221,6 +221,57 @@ Additional thoughts for this session (Chris, fill in here before sending):
 <tr><td>(this)</td><td>handoff</td><td>v1.35.0 session handoff</td></tr>
 </table>
 
+<h2>Chapter length tracking</h2>
+
+<p class="meta"><strong>Standing section in all session handoffs going forward.</strong> Refreshed at handoff creation; updated in the next handoff when a chapter draft changes. Word counts via <code>wc -w</code> on draft files in <code>manuscript/chapters/</code>. Pages calculated at ~275 words/page (trade-book 6×9 format). Draft files include preamble/postamble AI-commentary, so raw counts run slightly high for chapters whose drafts were produced with inline commentary (notably Ch 9 + Ch 10 + Ch 1 notes); actual chapter prose is a bit shorter.</p>
+
+<table>
+<tr><th>Ch</th><th>Title</th><th>Current words</th><th>Current pages</th><th>Target words</th><th>Target pages</th><th>Status</th></tr>
+<tr><td>1</td><td>The Plane</td><td>—</td><td>—</td><td>5,000–6,000</td><td>18–22</td><td>not drafted</td></tr>
+<tr><td>2</td><td>The Miner</td><td>5,232</td><td>~19</td><td>5,000–6,000</td><td>18–22</td><td class="done">in range</td></tr>
+<tr><td>3</td><td>The Waterman</td><td>—</td><td>—</td><td>5,000–6,000</td><td>18–22</td><td>not drafted</td></tr>
+<tr><td>4</td><td>The Existence Proof</td><td>2,998</td><td>~11</td><td>~4,000–5,000</td><td>15–18</td><td class="hold">low — room for Nordic steelman + governance detail</td></tr>
+<tr><td>5</td><td>The Accountability Gap</td><td>3,850</td><td>~14</td><td>3,500–4,000 (original); consider 4,500–5,000 post-v1.0.3 (6 cases)</td><td>13–15 original; 16–18 revised</td><td class="hold">in original range; under-target for 6-case structure</td></tr>
+<tr><td>6</td><td>Three Ways of Counting</td><td>~5,158*</td><td>~19*</td><td>~5,000–6,000</td><td>18–22</td><td class="done">*HTML format inflates count; likely ~4,500 actual prose</td></tr>
+<tr><td>7</td><td>The Colony Administrator</td><td>5,774</td><td>~21</td><td>~5,000–6,000</td><td>18–22</td><td class="done">slightly over; acceptable</td></tr>
+<tr><td>8</td><td>What Things Actually Cost</td><td>4,959</td><td>~18</td><td>"short" per scope doc §426</td><td>—</td><td class="done">appropriate</td></tr>
+<tr><td>9</td><td>The Renewable Imperative</td><td>7,251</td><td>~26</td><td>5,000–6,000</td><td>18–22</td><td class="pending">over target — length management flagged</td></tr>
+<tr><td>10</td><td>Common Bonds</td><td>7,507</td><td>~27</td><td>5,000–7,000</td><td>18–25</td><td class="hold">upper end / slightly over</td></tr>
+</table>
+
+<h3>Totals + projection</h3>
+
+<ul>
+  <li><strong>Drafted (8 of 10):</strong> ~42,700 words, ~155 pages.</li>
+  <li><strong>Projected with Ch 1 + Ch 3 at 5–6K each:</strong> ~53–55K words, ~195–200 pages.</li>
+  <li><strong>Trade-book sweet spot:</strong> 60–80K words / 220–290 pages. Room to grow by ~15–25K words without bloat.</li>
+</ul>
+
+<h3>Deliberate expansion candidates</h3>
+
+<ul>
+  <li><strong>Ch 1 + Ch 3</strong> — authorial drafting will add ~11K words (~40 pages).</li>
+  <li><strong>Ch 4</strong> — currently 3K; could easily reach 4–5K with Nordic steelman + governance-mechanism detail (NBIM / Council on Ethics / exclusion list / appointment mechanisms).</li>
+  <li><strong>Ch 5</strong> — 3.85K at 6 cases; v1.0.3 case-count expansion argues for raising target to 4.5–5K.</li>
+</ul>
+
+<h3>Length management candidates</h3>
+
+<ul>
+  <li><strong>Ch 9</strong> (~7.3K → ~6K) after contingency argument + US-Sweden + CTR definition integration + compression pass. Already flagged in chapter audit §2.9 integration-work item 7.</li>
+  <li><strong>Ch 10</strong> (~7.5K, at upper end of 5–7K target). Probably fine; register is the concern, not length.</li>
+</ul>
+
+<div class="operating">
+<strong>Standing-section convention (Chris's direction 2026-04-23):</strong>
+<ul>
+  <li>This section appears in every session handoff going forward.</li>
+  <li>Word counts refreshed at handoff creation.</li>
+  <li>When a chapter draft is updated between handoffs, the change is reflected in the next session's handoff Chapter length tracking section.</li>
+  <li>Rough refresh cadence: at handoff time, run <code>wc -w</code> on <code>manuscript/chapters/*Draft*</code>, update the Current words + Current pages columns, flag any chapter that has moved in/out of target range.</li>
+</ul>
+</div>
+
 <h2>Current state: chapters + cases</h2>
 
 <h3>Chapter-level state (per chapter audit v1.0.5)</h3>
