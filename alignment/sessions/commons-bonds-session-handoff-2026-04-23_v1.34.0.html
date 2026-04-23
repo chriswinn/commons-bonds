@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-23 · v1.34.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .decision     { background: #f3e8ff; border-left: 4px solid #7a3ea1; padding: 1em 1.2em; margin: 1em 0; }
+  .operating    { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .milestone    { background: #e8f2fa; border-left: 4px solid #2a5a8c; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .snippet      { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .decision-label { color: #7a3ea1; font-weight: 600; }
+  .version  { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-23 · Version <span class="version">1.34.0</span> · Supersedes v1.33.0 · Large same-day continuation. <strong>Complete project-folder audit landed</strong>: every folder + subfolder inventoried, every file routed or retired. 21 commits since v1.33.0. Project workspace is clean — ready for the tier-structure decision and chapter-guidance-revision phase.</p>
+
+<div class="status">
+<strong>STATUS:</strong> <strong>Project-folder audit COMPLETE.</strong> Every folder walked: retired ~40 superseded artifacts, restructured <code>archive/_OneDayMaybe/</code>, surfaced all pending-review items into <code>alignment/decisions/</code> + <code>alignment/patches/pending-framework-review/</code>, updated root <code>README.md</code>, cleaned up whitespace-laden filenames, removed .gitkeep placeholders. Framework canonical state unchanged from v1.33.0 — 10 dimensions LOCKED, rigor protocol v1.3.0, tier-structure decision still deferred. Workspace is ready for downstream framework work.
+</div>
+
+<div class="snippet">
+<h2>Copy-paste snippet for next session start</h2>
+<pre>Starting Commons Bonds session — picking up from handoff v1.34.0 (2026-04-23).
+
+Please read these files before responding:
+- commons-bonds-session-handoff-2026-04-23_v1.34.0.html  (this handoff — read first)
+- README.md  (freshly updated; reflects current project state)
+- tools/README.md
+- tools/commons_bonds_rigor_protocol_v1.3.0.md
+- tools/commons_bonds_guiding_constraints_v1_0_0.md
+- core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md
+- tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md  (latest — 8-tier full rigor)
+
+Current canonical state to verify:
+- 10 dimensions LOCKED: Habitability, Spatial, Temporal, Institutional, Kindred,
+  Ecosystem, Political, Cohesion, Epistemic, Autonomy. Naming cohort COMPLETE.
+- Rigor protocol: v1.3.0 canonical (Tests 28 + 29 standing).
+- Technical Appendix: v0.0.3 canonical.
+- 8-tier decomposition: all 8 earn their place; Autonomy-consent coverage
+  gap flagged; tier-structure decision deferred.
+- Eight-tier-v10.html references two worked examples: C6 decision memo
+  v2.0.0 (at alignment/decisions/) + layer_tier_stress_test_1_0_0
+  (at tools/archive/ — kept as actively-referenced worked example).
+- Naming convention: dots going forward; historical files keep underscores.
+- Operating discipline: smaller focused commits, push each to main directly.
+
+Pending-review queues:
+
+alignment/decisions/ pending-review items (13 total):
+  12 April 19 items (7 from File 3 "theoretical captures" + 5 from File 2
+  "RCV formal-model session"), each marked Status: Pending review. Plus
+  alternate-8-tier-individual-level-retired.md (flagged for tier-decision
+  review) + ws12-ipg-data-table-for-reconciliation.md (flagged for
+  case-study earning-its-place audit).
+
+alignment/patches/pending-framework-review/ (5 items + README):
+  C2, C3, C9 patches (canonical-file revision targets gated on tier-structure
+  decision) + 2 layer-era triage analyses (rigor-vs-layers,
+  character-suite-vs-layers) that will inform v1.3.1 protocol revisions.
+
+Top priority this session (in order):
+1. Tier-structure decision: v1.0.7 comparative rigor on organizing
+   principles + Autonomy coverage gap + Option A (reframe as worked
+   examples) vs. Option B (one-pass restructure to 10 tiers matching
+   dimensions) vs. Principle 1-4 organizing principle choice. Context in
+   tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md §9.2
+   + §10 per-tier verdicts.
+2. Case-study earning-its-place audit (research/case-studies/ 17 files):
+   which are Book 1 / Book 2-3 / scaffolding?
+3. Review 12 April 19 pending-review items; accept / defer / retire each.
+4. Review 3 canonical-file patches in pending-framework-review/: C2
+   (scale-abstract manifestations), C3 (mechanism/shield), C9 (AIT
+   scaffolding-vs-load-bearing).
+5. Chapter guidance revision (after tier-structure decision): revise
+   Chapter__N___GuidanceDoc.md files for locked dimensions + locked tier
+   structure + case-study inclusions.
+6. Chapter rewrites + 2 new chapters (final drafting pass).
+
+Additional thoughts for this session (Chris, fill in here before sending):
+[                                                                                           ]
+[                                                                                           ]
+</pre>
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY — tier-structure decision + case-study earning-its-place audit</h2>
+
+<p>Project-folder audit is complete. The next substantial work is:</p>
+
+<ol>
+  <li><strong>Tier-structure decision</strong> (deferred since v1.33.0). Context fully captured in
+    <code>tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md</code>. Options:
+    <ul>
+      <li><strong>Option A (reframe)</strong> — treat 8 tiers as worked examples; ship with Autonomy covered via case-study examples.</li>
+      <li><strong>Option B (one-pass restructure)</strong> — 10 top-level tiers matching 10 dimensions; current tier vocabulary preserved as sub-categories.</li>
+      <li><strong>Principle 1-4 choice</strong> — what organizes the tiers (scope-by-duration, cost-bearer-category, temporal-granularity, dimension-alignment).</li>
+    </ul>
+    Chris leans Option B. Likely route: v1.0.7 comparative rigor pass on organizing principles, then execute restructure as one coordinated pass.
+    <br><br>
+    <strong>Pending-review companions for this decision:</strong>
+    <ul>
+      <li><code>alignment/decisions/alternate-8-tier-individual-level-retired.md</code> — retired April 18 alternate 8-tier; may reveal organizing-principle alternatives.</li>
+      <li><code>alignment/decisions/ws12-ipg-data-table-for-reconciliation.md</code> — reconciliation of competing IPG ratio framings across case studies.</li>
+    </ul>
+  </li>
+  <li><strong>Case-study earning-its-place audit</strong>: evaluate each of 17 files in <code>research/case-studies/</code> against Book 1 / Book 2-3 / scaffolding routing.</li>
+  <li><strong>Review April 19 pending-review queue</strong> (12 items in <code>alignment/decisions/</code> with <code>Status: Pending review</code>). Ratify / defer / retire each individually.</li>
+  <li><strong>Review canonical-file patches</strong> (C2, C3, C9 in <code>alignment/patches/pending-framework-review/</code>). Determine what each patch's prescribed content has or hasn't been absorbed into canonical files post-naming-cohort.</li>
+  <li><strong>Chapter guidance revision</strong> — after tier-structure decision lands, revise <code>manuscript/chapters/Chapter__N___GuidanceDoc.md</code> files.</li>
+  <li><strong>Chapter rewrites + new chapter drafting</strong> — 8 drafted chapters rewritten against locked framework; 2 remaining chapters drafted.</li>
+</ol>
+</div>
+
+<h2>Session v1.33.0 → v1.34.0: accomplishments</h2>
+
+<p class="meta">21 commits pushed to main. Complete project-folder audit executed in response to Chris's direction: sweep archive/, then go through each of the other folders. Smaller-focused-commits discipline maintained throughout. Commits grouped below by theme.</p>
+
+<div class="milestone">
+<h3>Archive/ top-level sweep (3 commits)</h3>
+<p>Commits <code>74ec47c</code>, <code>1e21f92</code>, <code>1f08ac3</code>:</p>
+<ul>
+  <li><strong><code>archive/commons_bonds_chapter_assessment.md</code> retired</strong> (April 18 project-status snapshot, pre-naming-cohort). IPG numbers for Libby (55-82×) and Deepwater Horizon (15-17×) preserved as <em>Historical IPG framing (superseded)</em> breadcrumbs in the corresponding case-study files — current canonical framings are 40× cost-to-revenue ratio (Libby) and 40% cost recovery ratio (Deepwater).</li>
+  <li><strong><code>archive/commons_bonds_integrated_framework.html</code> retired</strong> (April 18 master doc). Alternate individual-level 8-tier decomposition captured to <code>alignment/decisions/alternate-8-tier-individual-level-retired.md</code> per Chris's direction — flagged for tier-structure decision review as potential organizing-principle insight.</li>
+  <li><strong><code>archive/eight-tier-decomposition-v10.md</code> retired</strong> as superseded subset of canonical <code>core/decomposition/eight-tier-v10.html</code>.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>archive/workstreams/ retirement + IPG table capture (1 commit)</h3>
+<p>Commit <code>fccdc4f</code> — all 17 workstream planning files (April 19-20 pre-naming-cohort) retired. Verification confirmed all load-bearing content absorbed elsewhere: Tier 2a "Actuarial Risk Cost" rename canonical; 120-hour-week paragraph in Ch 1 guidance; $10-15T aggregation signal in Ch 8 / Ch 9 guidance; Definitions A.11-A.14 in Tech Appendix; counterargument + concession content distributed across chapter guidance docs.</p>
+<p>Workstream 12's <strong>6-case IPG data table</strong> (McDowell 45-133×, Deepwater 2.1-2.6×, Libby 13-27×, Baotou 5.7-8.7×, Niger Delta 4.9-7.4×, Appalachian MTR 23-38×) captured separately to <code>alignment/decisions/ws12-ipg-data-table-for-reconciliation.md</code> — numbers differ from canonical case-study framings; to be reconciled during case-study earning-its-place audit.</p>
+</div>
+
+<div class="milestone">
+<h3>archive/_OneDayMaybe/ restructure (2 commits)</h3>
+<p>Commits <code>065f34c</code> (Chris's .docx→.html conversion), <code>f6481e8</code>:</p>
+<ul>
+  <li>Folder <code>_One Day Maybe/</code> renamed to <code>_OneDayMaybe/</code> (Chris's rename — whitespace-handling improvement).</li>
+  <li>Restructured into <code>book-two/notes/</code> (4 files: SubsidyEconomy, full-economy-sim, counter-vance, democratic-socialism) + <code>book-three/notes/</code> (PricingtheFinalFrontier) + <code>satellite-essays/</code> (delegitimization) + <code>two-book-strategic-analysis.html</code> at root.</li>
+  <li>README.md written for book-two/ and book-three/ documenting scope + activation triggers (per 2026-04-19 two-book split + Chris's CRNA / institutional-affiliation preconditions).</li>
+  <li>Full Book-1-style scaffolding duplication deferred to Book-2 activation.</li>
+  <li>Kebab-case renames of whitespace-laden filenames + lowercase folder names throughout.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>archive/prototypes/ + publishing/ sweep (2 commits)</h3>
+<p>Commits <code>fa8275b</code>, <code>bbdfb4a</code>:</p>
+<ul>
+  <li><strong><code>archive/prototypes/100Barrel_CommonsBonds.html</code></strong> routed to <code>publishing/essay-drafts/100-barrel-essay-passage.html</code> — polished ~2000-word essay prose (engagement with Hotelling, Rawls, Hartwick, Daly) is a submission asset for future essay cascade (Noema / Berggruen / Boston Review / Atlantic Ideas), not scaffolding.</li>
+  <li><strong>4 publishing/ files retired</strong>: CommonsBondsPublishingStrategyConsolidated.html (obsolete two-track strategy), CommonsBonds_BookOneCommonsBondsPathBookTwo.html (conversation transcript), commons-bonds-success-criteria 11.html (canonical in guiding_constraints + scope), commons_bonds_critical_impact_assessment.html (strategic historical context absorbed).</li>
+  <li><strong><code>publishing/essay-drafts/</code></strong> folder established as home for future essay-prose source material.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>research/literature/ clean + core/glossary/ retirement (2 commits)</h3>
+<p>Commits <code>0258d35</code>, <code>bc665c8</code>:</p>
+<ul>
+  <li><strong><code>research/literature/economic-theory-reference.html</code></strong> — renamed from "commons_bonds_economic_theory_reference - consider including 6.html" (kebab-case, whitespace cleanup). 10-framework economic/political theory comparison doc kept as reference material for Technical Appendix literature engagement.</li>
+  <li><strong><code>core/glossary/commons-bonds-vocabulary-additions 13.html</code> retired</strong>. All 7 core terms canonical in <code>commons_bonds_updated_glossary_v2.html</code> (FGC, Dynastic Labor Cost, Community Transition Reserve, Political Capture Cost, Abundance Inversion Test, Abundance Dimension); Horizon Cost explicitly listed as retired per ws02 verdict.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>alignment/decisions/ cleanup (2 commits)</h3>
+<p>Commits <code>cd61455</code>, <code>4e75765</code>:</p>
+<ul>
+  <li><strong><code>alignment/decisions/archive/</code> retired entirely</strong> (6 pre-GitHub-transition files: README, github-design, migration-plan, workflow-guide, repository-structure, session-archive .docx). All superseded by current operating state.</li>
+  <li><strong>C6 decision memo v1.0.0 retired</strong> (superseded by v2.0.0). v2.0.0 kept as rigor-protocol worked-example reference (cited in rigor protocol v1.3.0:905 as "First worked example" of two-path rigor).</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>alignment/patches/ sweep (1 commit + 1 later triage shift)</h3>
+<p>Commits <code>3ee95d8</code>, <code>5754978</code>:</p>
+<ul>
+  <li><strong>New <code>alignment/patches/pending-framework-review/</code></strong> subfolder with README.md.</li>
+  <li>Patches <strong>C2</strong> (scale-abstract core + manifestations for 6 tiers), <strong>C3</strong> (mechanism/shield architectural distinction), <strong>C9</strong> (AIT-as-epistemic-core canonical statement) routed here — their application targets canonical files (glossary, Tech Appendix, chapter drafts) whose next revision is gated on the pending tier-structure decision.</li>
+  <li>Patches <strong>C4</strong> (Decision A sweep), <strong>C5</strong> (two-path rigor canonical form), <strong>tier_2a_rename</strong> retired — applications complete (C4 targets retired with ws01-17; C5 canonical in rigor protocol + used in C6 memo v2.0.0; tier_2a canonical across glossary + Tech Appendix + eight-tier).</li>
+  <li>2 layer-era triage files moved from <code>tools/triage/</code> to <code>pending-framework-review/</code>: <code>commons_bonds_rigor_vs_layers_triage_v1_0_0.md</code> (26 rigor tests × 10 layers) + <code>commons_bonds_character_suite_vs_layers_triage_v1_0_0.md</code> (25 reader-persona characters × 10 layers). Their general recommendations (Tests 28+29, companion-pair 20/23) absorbed into v1.3.0; per-layer analytical findings remain useful for tier-structure decision.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>manuscript/essay/ whitespace renames (1 commit)</h3>
+<p>Commit <code>1ee8e0b</code>:</p>
+<ul>
+  <li>Folder <code>manuscript/essay/Berggruen Institute - Essay/</code> → <code>manuscript/essay/berggruen/</code>.</li>
+  <li>Berggruen essay-draft .docx renamed to kebab-case.</li>
+  <li>5 Noema files renamed to kebab-case lowercase (<code>Noema Pitch - Commons Bonds - Winn.docx</code> → <code>noema-pitch-commons-bonds-winn.docx</code> etc.).</li>
+  <li><code>Noema/</code> folder name preserved (no whitespace; proper noun).</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Root README + 4 retirements + .gitkeep cleanup (3 commits)</h3>
+<p>Commits <code>80ebaec</code>, <code>da91c1d</code>, <code>c94ee47</code>:</p>
+<ul>
+  <li><strong>README.md fully updated</strong>: v1.33.0 status → current state references 10 dimensions LOCKED + naming cohort COMPLETE + rigor protocol v1.3.0 + Tech Appendix v0.0.3 + updated folder structure + direct-to-main workflow. Removed references to retired scaffolding (Consider Including, workstreams-old, alignment/decisions/archive/).</li>
+  <li><strong>4 scaffolding files retired</strong>: <code>alignment/commons-bonds-handoff-template.html</code> (old §1-§10 template; handoff format now settled pattern), <code>alignment/decisions/sociology-paper-to-book-transition.md</code> (status-trail duplicated in README + guiding_constraints + book-two/-three READMEs), <code>alignment/decisions/workstreams-superseded-2026-04-22.md</code> (17-workstream mapping; workstreams all retired this session), <code>core/decomposition/archive/error-out-v10.html</code> (confirmed duplicate of eight-tier-v10).</li>
+  <li><strong>8 .gitkeep files retired</strong> + <code>archive/workstreams/</code> folder pruned entirely.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>tools/archive/ sweep + final retirements (2 commits)</h3>
+<p>Commits <code>31b7a94</code>, <code>a8ba22b</code>:</p>
+<ul>
+  <li><strong>8 superseded version artifacts retired</strong> from tools/archive/ (git history preserves): 3 book_scope predecessors (v1.0.0, v1.0.1, v1.0.2), 3 rigor_protocol predecessors (v1.1.0, v1.0.1, v1.2.0), 2 old rigor_pass records (2026-04-21 v1_0_0, 2026-04-22 v1_0_0).</li>
+  <li><strong>layer_tier_stress_test_1_0_0.md kept</strong> at tools/archive/ as actively-referenced worked example (cited in rigor protocol v1.3.0:905 as "Second worked example").</li>
+  <li><strong>2 status-trail docs retired</strong>: <code>essay-publishability-and-book-todo-2026-04-19.md</code> (duplicated the just-retired sociology-paper-transition doc), <code>commons_bonds_housekeeping_review_2026-04-22_v1_0_0.md</code> (417-line folder audit whose purpose is substantially served — all low-risk and INVESTIGATE items resolved this session; PATCH items captured in handoff priority queue).</li>
+</ul>
+</div>
+
+<h2>Commits this session (21 total, all pushed to main)</h2>
+
+<table>
+<tr><th>SHA</th><th>Scope</th><th>Summary</th></tr>
+<tr><td><code>74ec47c</code></td><td>retirement</td><td>retire chapter_assessment; preserve Libby 55-82× + Deepwater 15-17× as historical IPG breadcrumbs</td></tr>
+<tr><td><code>1e21f92</code></td><td>retirement + capture</td><td>retire integrated_framework; capture alternate individual-level 8-tier for tier-decision review</td></tr>
+<tr><td><code>1f08ac3</code></td><td>retirement</td><td>retire archive/eight-tier-decomposition-v10.md as superseded subset</td></tr>
+<tr><td><code>065f34c</code></td><td>Chris rename</td><td>converted .docx → .html (BookTwo, BookThree)</td></tr>
+<tr><td><code>fccdc4f</code></td><td>retirement + capture</td><td>retire archive/workstreams/ (all 17); capture ws12 IPG data table</td></tr>
+<tr><td><code>f6481e8</code></td><td>restructure</td><td>archive/_OneDayMaybe/ → book-two/ + book-three/ + satellite-essays/</td></tr>
+<tr><td><code>fa8275b</code></td><td>route</td><td>100Barrel → publishing/essay-drafts/ (submission asset)</td></tr>
+<tr><td><code>bbdfb4a</code></td><td>retirement</td><td>4 publishing/ scaffolding files retired</td></tr>
+<tr><td><code>0258d35</code></td><td>rename</td><td>economic-theory-reference.html (whitespace cleanup)</td></tr>
+<tr><td><code>bc665c8</code></td><td>retirement</td><td>core/glossary/commons-bonds-vocabulary-additions 13 retired</td></tr>
+<tr><td><code>cd61455</code></td><td>retirement</td><td>alignment/decisions/archive/ (6 pre-GitHub-transition files)</td></tr>
+<tr><td><code>4e75765</code></td><td>retirement</td><td>C6 decision memo v1.0.0 (v2.0.0 kept as worked example)</td></tr>
+<tr><td><code>3ee95d8</code></td><td>patches sweep</td><td>C2/C3/C9 → pending-framework-review/; C4/C5/tier_2a_rename retired</td></tr>
+<tr><td><code>1ee8e0b</code></td><td>rename</td><td>manuscript/essay/ whitespace-laden paths → kebab-case</td></tr>
+<tr><td><code>5754978</code></td><td>shift</td><td>tools/triage/ → pending-framework-review/</td></tr>
+<tr><td><code>80ebaec</code></td><td>README update</td><td>README.md to current state (v1.33.0 session, naming cohort complete)</td></tr>
+<tr><td><code>da91c1d</code></td><td>retirement</td><td>4 superseded scaffolding files (handoff-template, sociology-paper, workstreams-superseded, error-out)</td></tr>
+<tr><td><code>c94ee47</code></td><td>cleanup</td><td>remove 8 .gitkeep placeholders; archive/workstreams/ pruned</td></tr>
+<tr><td><code>31b7a94</code></td><td>retirement</td><td>8 tools/archive/ superseded versions; layer_tier_stress_test kept</td></tr>
+<tr><td><code>a8ba22b</code></td><td>retirement</td><td>essay-publishability + housekeeping-review (purposes served)</td></tr>
+<tr><td>(this)</td><td>handoff</td><td>v1.34.0 session handoff</td></tr>
+</table>
+
+<h2>Current project structure</h2>
+
+<p class="meta">Reflects post-sweep canonical state. All folders below have content (no .gitkeep placeholders remain).</p>
+
+<table>
+<tr><th>Folder</th><th>Contents</th></tr>
+<tr><td><code>tools/</code></td><td>Canonical methodology: rigor protocol v1.3.0 + book scope v1.0.3 + guiding constraints + claude_prefs + rigor-passes/ (v1.0.1–v1.0.6) + archive/ (just layer_tier_stress_test, actively referenced)</td></tr>
+<tr><td><code>core/</code></td><td>decomposition/ (eight-tier-v10) + dimensions/ (abundance dimensions v1.2.0) + glossary/ (updated_glossary_v2) + technical-appendix/ (v0.0.3)</td></tr>
+<tr><td><code>manuscript/</code></td><td>chapters/ (8 drafts + 10 guidance docs + dedication + author's note) + essay/Noema/ (submitted) + essay/berggruen/ (AI-free target)</td></tr>
+<tr><td><code>alignment/</code></td><td>decisions/ (13 pending-review items + C6 memo v2.0.0) + patches/pending-framework-review/ (C2, C3, C9 + 2 triage docs) + patches/archive/ (phase-1-migration) + sessions/ (current + archive/)</td></tr>
+<tr><td><code>research/</code></td><td>case-studies/ (17 files + README) + literature/ (bibliography + economic-theory-reference)</td></tr>
+<tr><td><code>publishing/</code></td><td>essay-drafts/100-barrel-essay-passage.html (submission asset)</td></tr>
+<tr><td><code>archive/</code></td><td>_OneDayMaybe/book-two/ + book-three/ + satellite-essays/ + two-book-strategic-analysis.html</td></tr>
+</table>
+
+<h2>Open items for next session</h2>
+
+<div class="info">
+<ul>
+  <li><strong>Pending-review queue in <code>alignment/decisions/</code>:</strong> 12 April 19 items + alternate-8-tier-retired + ws12-ipg-data-table (13 total).</li>
+  <li><strong>Pending-framework-review queue in <code>alignment/patches/</code>:</strong> C2, C3, C9 patches (canonical-file revision targets) + 2 layer-era triage analyses. All gated on tier-structure decision.</li>
+  <li><strong>Tier-structure decision</strong>: captured in rigor pass v1.0.6 §9.2 + §10. Options A / B / Principle 1-4. Chris leans Option B (10 top-level tiers matching 10 dimensions). Likely route: v1.0.7 comparative rigor pass.</li>
+  <li><strong>Autonomy coverage gap</strong>: from v1.0.6 findings. Resolution is tier-structure-decision-adjacent.</li>
+  <li><strong>Book One chapter rewrite gates</strong>:
+    <ul>
+      <li>Tier-structure decision lands first.</li>
+      <li>Chapter guidance revision sweep (reflects locked dimensions + locked tier structure + case-study inclusions).</li>
+      <li>Chapter rewrites of 8 drafted chapters + 2 new chapters (Ch 1 draft + Ch 3 draft — currently guidance-only).</li>
+    </ul>
+  </li>
+  <li><strong>Downstream waiting on tier decision</strong>: Option B execution (rename core/decomposition/ → core/framework/ + absorb dimensions doc + update eight-tier-v10 content), methodology-doc revision sweep, Part 3 methodology audit, manuscript dimension-name propagation.</li>
+</ul>
+</div>
+
+<h2>Session context observations</h2>
+
+<div class="operating">
+<ul>
+  <li><strong>Audit pattern established</strong>: walk every folder; route or retire; preserve actionable content by capture-then-retire. Works as standing methodology for future housekeeping.</li>
+  <li><strong>Scaffolding-vs-book-worthy discipline</strong> (Test 29 from protocol v1.3.0) is the clarifying criterion. Applied consistently — status-trail docs that serve their tracking purpose and duplicate canonical content are retire-able; actively-referenced worked examples are load-bearing even when archived.</li>
+  <li><strong>Canonical pattern: pending-review queues</strong> in alignment/decisions/ (individual decision items) and alignment/patches/pending-framework-review/ (canonical-file revision targets gated on framework decisions). Both surface their items during natural next-phase work without requiring review-all-now discipline.</li>
+  <li><strong>Git history preserves retired content</strong> — enables aggressive retirement of superseded versions without losing ability to reference history.</li>
+  <li><strong>Direct-to-main workflow with smaller commits</strong>: session sustained smaller-focused-commit discipline across 21 commits. Each commit documents its specific retirement / capture / restructure scope.</li>
+  <li><strong>Whitespace-handling improvement</strong>: Chris renamed <code>_One Day Maybe</code> → <code>_OneDayMaybe</code> mid-session for commandline usability. Applied more broadly during essay folder renames (Berggruen folder + Noema files to kebab-case).</li>
+</ul>
+</div>
+
+<p class="meta">End of handoff. Archive <code>commons-bonds-session-handoff-2026-04-23_v1.33.0.html</code> to <code>alignment/sessions/archive/</code> as part of the next session's first commit.</p>
+
+</body>
+</html>
