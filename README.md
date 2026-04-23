@@ -3,7 +3,7 @@
 *A framework for honest accounting of intergenerational commons-extraction costs*
 
 **Author:** Chris Winn
-**Status:** Framework development active — session v1.29.0 (2026-04-22)
+**Status:** Active framework development — session v1.33.0 (2026-04-23)
 
 ---
 
@@ -18,80 +18,77 @@ The framework applies across extraction domains — coal mining, oil drilling, f
 
 ## Success criterion
 
-If, thirteen or more years from now, a labor lawyer uses "severed cost" in a brief or in open court and the judge does not need it explained — and the author whose name is on the book never knows this happened — the book has succeeded. Vocabulary used by people solving real problems; not royalties, not prizes, not revolution.
+> If, ten-plus years from now, a labor lawyer uses "severed cost" in a brief or in open court and the judge does not need it explained — and the author whose name is on the book never knows this happened — the book has succeeded.
+
+Vocabulary used by people solving real problems. Not royalties, not prizes, not revolution.
 
 ## Three-book structure
 
 - **Book One — *Commons Bonds*** (active, 2026–2027 target) — framework naming, non-partisan. Publication cascade: Noema (primary) → Boston Review (fallback) → The Atlantic Ideas → further venues. Parallel Berggruen Prize track, 2026-08-17 deadline (AI-free writing).
-- **Book Two — *The Subsidy Economy*** (notes-only, 2029+ target) — applied / policy / advocacy. Requires coauthorship, institutional affiliation, and publisher legal backing. Seed material lives in `archive/_One Day Maybe/`.
-- **Book Three — *Pricing the Final Frontier*** (notes-only) — off-Earth extraction framework extension. Post-Book-Two.
+- **Book Two — *The Subsidy Economy*** (notes-only, 2029+ target) — applied / policy / advocacy. Requires coauthorship, institutional affiliation, and publisher legal backing. Seed material in [`archive/_OneDayMaybe/book-two/`](archive/_OneDayMaybe/book-two/).
+- **Book Three — *Pricing the Final Frontier*** (notes-only) — off-Earth extraction framework extension. Seed material in [`archive/_OneDayMaybe/book-three/`](archive/_OneDayMaybe/book-three/).
 
-Strategic reasoning and content-assignment rules: [`alignment/decisions/sociology-paper-to-book-transition.md`](alignment/decisions/sociology-paper-to-book-transition.md) §4.
-
-## Current canonical state (as of session v1.29.0)
+## Current canonical state
 
 | Component | Status | File |
 |---|---|---|
-| Rigor protocol | v1.2.1 canonical | [`tools/commons_bonds_rigor_protocol_v1.3.0.md`](tools/commons_bonds_rigor_protocol_v1.3.0.md) |
-| Abundance dimensions | 10 canonical; Priority-1 naming cohort complete (Habitability, Kindred, Ecosystem locked 2026-04-22) | [`core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md`](core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md) |
+| Rigor protocol | **v1.3.0** canonical (Tests 28 + 29 standing book-integrity) | [`tools/commons_bonds_rigor_protocol_v1.3.0.md`](tools/commons_bonds_rigor_protocol_v1.3.0.md) |
+| Abundance dimensions | **10 canonical; naming cohort COMPLETE** | [`core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md`](core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md) |
+| Eight-tier decomposition | v10 canonical; **tier-structure decision deferred** | [`core/decomposition/eight-tier-v10.html`](core/decomposition/eight-tier-v10.html) |
+| Technical appendix | v0.0.3 canonical | [`core/technical-appendix/TechnicalAppendix_v0.0.3.html`](core/technical-appendix/TechnicalAppendix_v0.0.3.html) |
+| Glossary | v2 canonical | [`core/glossary/commons_bonds_updated_glossary_v2.html`](core/glossary/commons_bonds_updated_glossary_v2.html) |
 | Book One scope | v1.0.3 canonical | [`tools/commons_bonds_book_scope_v1_0_3.md`](tools/commons_bonds_book_scope_v1_0_3.md) |
 | Guiding constraints | v1.0.0 canonical | [`tools/commons_bonds_guiding_constraints_v1_0_0.md`](tools/commons_bonds_guiding_constraints_v1_0_0.md) |
-| Current handoff | v1.29.0 | [`alignment/sessions/commons-bonds-session-handoff-2026-04-22_v1_29_0.html`](alignment/sessions/commons-bonds-session-handoff-2026-04-22_v1_29_0.html) |
+| Current handoff | **v1.33.0** | [`alignment/sessions/commons-bonds-session-handoff-2026-04-23_v1.33.0.html`](alignment/sessions/commons-bonds-session-handoff-2026-04-23_v1.33.0.html) |
 
-**Naming cohort progress:** Habitability (was Atmospheric) and Ecosystem (was Ecological) locked. Demographic, Geographic, Informational, Agency, Cohesion naming pending Priority-2 cohort.
+**10 locked dimensions:** Habitability · Spatial · Temporal · Institutional · Kindred · Ecosystem · Political · Cohesion · Epistemic · Autonomy
 
 ## Repository structure
 
-- **`tools/`** — canonical working methodology (session upload set). See [`tools/README.md`](tools/README.md) for upload-set directory.
-- **`manuscript/`** — book content:
-  - `chapters/` — 8 drafts + 10 guidance docs
+- **[`tools/`](tools/)** — canonical working methodology (session upload set). See [`tools/README.md`](tools/README.md) for upload-set directory. Contains rigor protocol, book scope, guiding constraints, `rigor-passes/` record, `archive/` of superseded methodology versions.
+- **[`manuscript/`](manuscript/)** — book content:
+  - `chapters/` — 8 drafts + 10 guidance docs + dedication + author's note
   - `essay/Noema/` — submitted essay (do not touch)
-  - `essay/Berggruen Institute - Essay/` — competition requires AI-free content (do not touch)
-- **`core/`** — canonical framework content (eight-tier decomposition, glossary, technical appendix — math-heavy HTML)
-- **`alignment/`** — project-meta:
-  - `decisions/` — ratified architectural decisions, housekeeping reviews, project-state docs
-  - `patches/` — canonical architectural patches (c2, c3, c4, c5, c9, tier-2a)
-  - `sessions/` — current session handoff + archived handoffs
-- **`research/`** — scholarly apparatus:
-  - `case-studies/` — 9 standalone case studies (see [README](research/case-studies/README.md))
-  - `literature/` — consolidated bibliography + economic-theory reference
-- **`publishing/`** — cascade strategy and path documents
-- **`archive/`** — superseded material preserved for lineage:
-  - `_One Day Maybe/` — Book Two + Book Three seed material
-  - `Consider Including/` — staging-to-be-routed (reduced per workstream 10 plan)
-  - `workstreams-old/` — 17 archived workstream planning docs
-  - `prototypes/` — early framework prototypes
+  - `essay/berggruen/` — competition requires AI-free content (do not touch)
+- **[`core/`](core/)** — canonical framework content: `dimensions/`, `decomposition/`, `glossary/`, `technical-appendix/` (math-heavy HTML)
+- **[`alignment/`](alignment/)** — project-meta:
+  - `decisions/` — ratified decisions + pending-review items (e.g. April 19 per-section captures, alternate 8-tier retired for tier-decision review)
+  - `patches/pending-framework-review/` — C2/C3/C9 patches + 2 layer-era triage analyses, gated on tier-structure decision
+  - `patches/archive/` — applied patches
+  - `sessions/` — current handoff + `archive/` of prior handoffs
+- **[`research/`](research/)** — `case-studies/` (17 files — see [README](research/case-studies/README.md)) + `literature/` (bibliography + economic-theory-reference)
+- **[`publishing/`](publishing/)** — `essay-drafts/` (Noema/Berggruen source prose)
+- **[`archive/`](archive/)** — deferred material:
+  - `_OneDayMaybe/book-two/` and `book-three/` — dumping grounds for Book Two / Book Three
+  - `_OneDayMaybe/satellite-essays/` — framework-adjacent essays
+  - `_OneDayMaybe/two-book-strategic-analysis.html` — strategic rationale for the books split
 
-## Session workflow (for Claude sessions)
+## Session workflow
 
 When starting a new Claude session:
 
 1. Grab the current session handoff from `alignment/sessions/` (top level).
 2. Grab the session-upload set from `tools/` per [`tools/README.md`](tools/README.md).
 3. Include `tools/rigor-passes/` current pass record.
-4. Paste the session-start snippet (at the top of the current handoff) into the first message.
+4. Paste the copy-paste snippet (at the top of the current handoff) into the first message.
 
 ## Key conceptual foundations
 
 - **Two-path rigor** — allocation symmetry + shield absence. Both paths must confirm.
 - **Merger gate + primitiveness gate** — applied to any new or renamed dimension.
-- **Abundance Inversion Test (AIT)** — epistemic core; scarcity-grounded claims survive abundance stripping.
+- **Abundance Inversion Test (AIT)** — epistemic core; scarcity-grounded claims survive abundance stripping. Dimensions are organizational scaffolding around AIT.
+- **Earning-its-place + Scaffolding-vs-book-worthy** — standing book-integrity tests (Tests 28 + 29) applied at every rigor depth.
 - **Canonical cases are dimension-inherent** — not incidental illustrations.
 - **Single-dimension cost severance** — one-dimension cases are full instances; framework doesn't require multi-dimension co-occurrence.
-- **Availability-absence is severity-marker** — not a primitive dimension (v1.28.0 finding).
 
 ## Hard rules
 
-- Never touch `/Noema/` or `/Berggruen Institute - Essay/` Drive folders.
+- Never touch `manuscript/essay/Noema/` or `manuscript/essay/berggruen/` — Noema submitted; Berggruen requires AI-free content.
 - Math files stay `.html` (Ch. 6, Technical Appendix, eight-tier decomposition, glossary).
 - Privacy: scrub personal financial specifics from external-facing outputs.
 - `.DS_Store`, `.claude/`, `.chriswinn/` are in `.gitignore` — never commit.
-- Drive is read-only on the Drive side (no renames, no writes from Claude).
+- Direct-to-main git workflow with smaller focused commits; push each to origin after commit.
 
 ## Migration note
 
-Repository migrated from Google Drive to GitHub on April 19–20, 2026. Migration-era planning documents (workflow guides, repository-structure proposals, GitHub-Issues-workflow designs) are archived in [`alignment/decisions/archive/`](alignment/decisions/archive/).
-
-## Related
-
-This project was preceded by a sociology-paper precursor thread that seeded its intellectual foundations. That thread's content, publishability assessment, and structured todo list is consolidated in [`alignment/decisions/sociology-paper-to-book-transition.md`](alignment/decisions/sociology-paper-to-book-transition.md). The consolidated bibliography across the project lives at [`research/literature/bibliography.md`](research/literature/bibliography.md).
+Repository migrated from Google Drive to GitHub on April 19–20, 2026.
