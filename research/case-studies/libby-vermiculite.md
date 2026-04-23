@@ -61,6 +61,12 @@ Libby demonstrates the accountability-gap pattern at full severity: the complete
 
 ---
 
+## Historical IPG framing (superseded)
+
+An earlier April 18, 2026 project-status document (`commons_bonds_chapter_assessment.md`, retired 2026-04-23) reported the Libby IPG as **55–82×**. The current canonical framing in this file uses **40× cost-to-revenue ratio** ($100M revenue vs. $4B+ documented costs), which is the ratified simpler form. Breadcrumb preserved here in case the wider range surfaces in earlier rigor records and needs reconciliation.
+
+---
+
 ## Cross-references
 
 - `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` — source chapter

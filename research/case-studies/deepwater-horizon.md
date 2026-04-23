@@ -67,6 +67,12 @@ Deepwater Horizon demonstrates the accountability-gap pattern at its largest pos
 
 ---
 
+## Historical IPG framing (superseded)
+
+An earlier April 18, 2026 project-status document (`commons_bonds_chapter_assessment.md`, retired 2026-04-23) reported the Deepwater Horizon IPG as **15–17×**. The current canonical framing in this file uses **40% cost recovery ratio** ($60–65B paid vs. $150B total documented costs per CBO), which is the ratified reframing. The shift from multiplicative-IPG to recovery-ratio framing reflects the different empirical profile of a one-event disaster (where total documented cost is bounded) vs. extraction-lifetime cases (where IPG multiples capture cumulative underpricing). Breadcrumb preserved here in case the earlier multiplier surfaces in prior rigor records.
+
+---
+
 ## Cross-references
 
 - `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` — source chapter
