@@ -2,7 +2,7 @@
 
 **Date:** 2026-04-22
 **Version:** 1.0.2
-**Protocol version applied:** `commons_bonds_rigor_protocol_v1.2.2.md`
+**Protocol version applied:** `commons_bonds_rigor_protocol_v1.3.0.md`
 **Status:** Canonical — ratified 2026-04-22; Kindred LOCKED.
 **Claim under evaluation:** Lock "Kindred" as the canonical name for the dimension previously labeled Demographic (v1.21.0 / v1.28.0 ratified dimension; name open since Part 2 rigor pass).
 **Rigor depth:** Full per protocol §3.1 (naming cohort, load-bearing canonical decision affecting Book One scope).
@@ -406,7 +406,7 @@ None. The pass is complete; verdict is PASS; mitigations are documented and scop
 - State change: Demographic (OPEN) → Kindred (LOCKED); naming-cohort Priority-1 complete.
 
 **Files consumed:**
-- `commons_bonds_rigor_protocol_v1.2.2.md` — protocol applied.
+- `commons_bonds_rigor_protocol_v1.3.0.md` — protocol applied.
 - `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` — Part 1 (consent-normalization shield, merger/primitiveness examples).
 - `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` — Part 2 (Demographic rigor / rename pending).
 - `commons_bonds_abundance_dimensions_v1_2_0.md` §2.5 (scarcity axis, scope).

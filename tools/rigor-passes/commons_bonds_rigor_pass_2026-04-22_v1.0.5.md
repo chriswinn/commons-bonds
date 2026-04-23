@@ -2,7 +2,7 @@
 
 **Date:** 2026-04-22
 **Version:** 1.0.5
-**Protocol version applied:** `commons_bonds_rigor_protocol_v1.2.2.md`
+**Protocol version applied:** `commons_bonds_rigor_protocol_v1.3.0.md`
 **Status:** Proposed — awaiting ratification at session close.
 **Rigor depth:** Full per protocol §3.1, escalated from short-confirm-pass per Chris's direction. Operating discipline: now that Priority-1 and Priority-2 renames have propagated (Spatial, Kindred, Habitability, Ecosystem, Epistemic, Autonomy), the three stable dimensions' merger-gate bilateral-independence statements need re-verification under current adjacent-dimension names — not just a compression check. Full 25-character suite + Groups A–F per dimension.
 
@@ -15,7 +15,7 @@
 
 **Companion output (if locks ratify):** minor refinements to `commons_bonds_abundance_dimensions_v1_2_0.md` §2.3 / §2.4 / §2.7 profiles if this pass surfaces gap-fills (education-availability-in-Epistemic pattern, where a case cluster was missing from the original profile).
 
-**Inputs used:** `commons_bonds_abundance_dimensions_v1_2_0.md` §2.3 / §2.4 / §2.7 (current rich profiles); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` §3.3 / §3.4 / §3.7 (Part 2 Temporal / Institutional / Political findings); `commons_bonds_rigor_pass_2026-04-22_v1.0.4.md` (Priority-2 full rigor — sets the pattern for full-rigor-under-renamed-names analysis); `commons_bonds_rigor_protocol_v1.2.2.md` (protocol applied); `research/literature/bibliography.md` (scholarly-ancestor engagement — updated per Priority-2 commit with Anderson, Fricker, Klinenberg, Soja, etc.).
+**Inputs used:** `commons_bonds_abundance_dimensions_v1_2_0.md` §2.3 / §2.4 / §2.7 (current rich profiles); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` §3.3 / §3.4 / §3.7 (Part 2 Temporal / Institutional / Political findings); `commons_bonds_rigor_pass_2026-04-22_v1.0.4.md` (Priority-2 full rigor — sets the pattern for full-rigor-under-renamed-names analysis); `commons_bonds_rigor_protocol_v1.3.0.md` (protocol applied); `research/literature/bibliography.md` (scholarly-ancestor engagement — updated per Priority-2 commit with Anderson, Fricker, Klinenberg, Soja, etc.).
 
 ---
 
@@ -447,7 +447,7 @@ Two minor watch items (not blockers):
 - State change: **naming cohort complete**; all 10 dimensions rigor-verified under canonical names; Priority queue shifts to placement review + coordinated sweep + chapter-drafting integration.
 
 **Files consumed:**
-- `commons_bonds_rigor_protocol_v1.2.2.md` — protocol applied.
+- `commons_bonds_rigor_protocol_v1.3.0.md` — protocol applied.
 - `commons_bonds_abundance_dimensions_v1_2_0.md` — current canonical state + rich profiles.
 - `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` — Part 2 findings for Temporal / Institutional / Political (§3.3, §3.4, §3.7).
 - `commons_bonds_rigor_pass_2026-04-22_v1.0.4.md` — Priority-2 full-rigor pass; template for full-rigor-under-renamed-names pattern.

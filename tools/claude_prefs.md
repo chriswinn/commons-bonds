@@ -28,7 +28,7 @@
     Chapters:     Chapter_#_Title_Draft.md  /  Chapter_#_Title_GuidanceDoc.md
     Patches:      c{N}_{topic}_patch.md  (in alignment/patches/)
     Methodology:  commons_bonds_{topic}_v{major}.{minor}.{patch}.md  (or .html)
-                  example: commons_bonds_rigor_protocol_v1.2.2.md
+                  example: commons_bonds_rigor_protocol_v1.3.0.md
     Handoffs:     commons-bonds-session-handoff-YYYY-MM-DD_v{major}.{minor}.{patch}.html
                   example: commons-bonds-session-handoff-2026-04-22_v1.29.0.html
     Rigor pass:   commons_bonds_rigor_pass_YYYY-MM-DD_v{major}.{minor}.{patch}.md

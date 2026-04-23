@@ -2,7 +2,7 @@
 
 **Date:** 2026-04-22
 **Version:** 1.0.3
-**Protocol version applied:** `commons_bonds_rigor_protocol_v1.2.2.md`
+**Protocol version applied:** `commons_bonds_rigor_protocol_v1.3.0.md`
 **Status:** Proposed — awaiting ratification at session close.
 **Rigor depth:** Light rigor per `commons_bonds_abundance_dimensions_v1_2_0.md` §6 cohort-sequencing guidance. Each candidate tested under (a) merger gate under the new name, (b) primitiveness gate under the new name, (c) Tests 20 and 23 compression, (d) Characters 10 / M1 / 11 pattern-match. Escalates to full rigor for any candidate whose rename is also a scope-clarification move (per protocol §3.3 default-to-full rule).
 **Claims under evaluation:** Lock the four Priority-2 naming candidates:
@@ -11,7 +11,7 @@
 3. **Cohesion → Social-Fabric** (leading per §2.8; Civic-Ties fallback)
 4. **Geographic → Spatial** (leading per §2.2)
 **Companion output (if locks ratify):** bump `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` → `v1_2_0.md` per doc's own §8 rule ("Priority-2 naming-cohort ratification propagation = v1.2.0"); cross-reference updates in active files per v1.1.0 pattern.
-**Inputs used:** `commons_bonds_abundance_dimensions_v1_2_0.md` §2.2 / §2.8 / §2.9 / §2.10 (current status + candidate rationale); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` §3.2 / §3.8 / §3.9 / §3.10 (Part 2 pressure findings per dimension); `commons_bonds_rigor_pass_2026-04-22_v1.0.2.md` (Kindred lock — template for the cohort-rigor-pass pattern); `commons_bonds_rigor_protocol_v1.2.2.md` §3.2 (light rigor) and §9 (Group E success criteria).
+**Inputs used:** `commons_bonds_abundance_dimensions_v1_2_0.md` §2.2 / §2.8 / §2.9 / §2.10 (current status + candidate rationale); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` §3.2 / §3.8 / §3.9 / §3.10 (Part 2 pressure findings per dimension); `commons_bonds_rigor_pass_2026-04-22_v1.0.2.md` (Kindred lock — template for the cohort-rigor-pass pattern); `commons_bonds_rigor_protocol_v1.3.0.md` §3.2 (light rigor) and §9 (Group E success criteria).
 
 ---
 
@@ -329,7 +329,7 @@ Both are drafting-stage checks, not blockers for the lock.
 - State change: Priority-2 cohort complete with 3 locks + Cohesion retention; Priority-3 short confirm pass as next cohort step.
 
 **Files consumed:**
-- `commons_bonds_rigor_protocol_v1.2.2.md` — protocol applied (light rigor per §3.2).
+- `commons_bonds_rigor_protocol_v1.3.0.md` — protocol applied (light rigor per §3.2).
 - `commons_bonds_abundance_dimensions_v1_2_0.md` — current canonical state + §6 cohort-sequencing guidance.
 - `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` — Part 2 pressure findings per dimension (§3.2, §3.8, §3.9, §3.10).
 - `commons_bonds_rigor_pass_2026-04-22_v1.0.2.md` — Kindred lock pass as cohort-rigor template.

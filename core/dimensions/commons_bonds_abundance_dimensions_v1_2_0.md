@@ -13,7 +13,7 @@
 - §6 naming-cohort status: Priority-1 + Priority-2 complete; Priority-3 (Temporal, Institutional, Political) pending short confirm pass.
 - §9 cross-references updated with v1.0.4 rigor pass record.
 
-**References:** `commons_bonds_rigor_protocol_v1.2.2.md` (protocol applied); `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` (Part 1 — Test 13 correction, consent-normalization shield, merger/primitiveness examples table); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` (Part 2 — per-dimension gap-close + set-completeness sweep); `commons_bonds_rigor_pass_2026-04-22_v1.0.2.md` (Kindred lock pass); `commons_bonds_rigor_pass_2026-04-22_v1.0.3.md` (Priority-2 light-rigor — superseded; lineage record); `commons_bonds_rigor_pass_2026-04-22_v1.0.4.md` (Priority-2 full-rigor pass, canonical for Priority-2 verdicts); `commons_bonds_guiding_constraints_v1_0_0.md` (Group D / Group E canonical inputs); `commons_bonds_book_scope_v1_0_3.md` (Book One scope); `research/literature/bibliography.md` (scholarly-ancestor engagement).
+**References:** `commons_bonds_rigor_protocol_v1.3.0.md` (protocol applied); `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` (Part 1 — Test 13 correction, consent-normalization shield, merger/primitiveness examples table); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` (Part 2 — per-dimension gap-close + set-completeness sweep); `commons_bonds_rigor_pass_2026-04-22_v1.0.2.md` (Kindred lock pass); `commons_bonds_rigor_pass_2026-04-22_v1.0.3.md` (Priority-2 light-rigor — superseded; lineage record); `commons_bonds_rigor_pass_2026-04-22_v1.0.4.md` (Priority-2 full-rigor pass, canonical for Priority-2 verdicts); `commons_bonds_guiding_constraints_v1_0_0.md` (Group D / Group E canonical inputs); `commons_bonds_book_scope_v1_0_3.md` (Book One scope); `research/literature/bibliography.md` (scholarly-ancestor engagement).
 
 ---
 
@@ -500,7 +500,7 @@ Version numbering: v1.2.1 for clarifications and minor additions within the curr
 
 | Document | Relationship |
 |---|---|
-| `commons_bonds_rigor_protocol_v1.2.2.md` | Protocol applied for the Part 2 rigor pass, Kindred lock pass, and Priority-2 full-rigor pass. |
+| `commons_bonds_rigor_protocol_v1.3.0.md` | Protocol applied for the Part 2 rigor pass, Kindred lock pass, and Priority-2 full-rigor pass. |
 | `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` | Part 1 — Test 13 correction, consent-normalization shield, merger/primitiveness examples table. |
 | `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` | Part 2 — detailed per-dimension assessments and set-completeness sweep (retains historical "per-layer" phrasing internally; terminology-sweep update deferred to mass rename pass). Authoritative source for pressure-testing detail. |
 | `commons_bonds_rigor_pass_2026-04-22_v1.0.2.md` | Kindred lock pass — full rigor on Kindred naming candidate; ratified 2026-04-22. |

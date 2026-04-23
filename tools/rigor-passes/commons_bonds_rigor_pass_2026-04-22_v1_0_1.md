@@ -2,7 +2,7 @@
 
 **Date:** 2026-04-22
 **Version:** 1.0.1
-**Protocol version applied:** `commons_bonds_rigor_protocol_v1.2.2.md`
+**Protocol version applied:** `commons_bonds_rigor_protocol_v1.3.0.md`
 **Status:** Proposed — awaiting ratification at session close.
 **Companion outputs:** `commons_bonds_abundance_dimensions_v1_2_0.md` (methodology ratification of the canonical layer set); `commons_bonds_guiding_constraints_v1_0_0.md` (canonical Group D / Group E inputs).
 **Inputs used:** `commons_bonds_rigor_vs_layers_triage_v1_0_0.md` (test triage), `commons_bonds_character_suite_vs_layers_triage_v1_0_0.md` (character triage), `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` (Part 1 ratification record incl. Test 13 correction and consent-normalization shield addition).
@@ -626,7 +626,7 @@ Test 22 (direct-to-Goal-2) does strongest work at **Temporal** (individual-reade
 - `commons_bonds_abundance_dimensions_v1_2_0.md` — methodology doc ratifying canonical layer set.
 
 **Files consumed:**
-- `commons_bonds_rigor_protocol_v1.2.2.md` — protocol applied.
+- `commons_bonds_rigor_protocol_v1.3.0.md` — protocol applied.
 - `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` — Part 1 record; Test 13 correction, consent-normalization shield, merger/primitiveness examples table.
 - `commons_bonds_rigor_vs_layers_triage_v1_0_0.md` — test triage input.
 - `commons_bonds_character_suite_vs_layers_triage_v1_0_0.md` — character triage input.

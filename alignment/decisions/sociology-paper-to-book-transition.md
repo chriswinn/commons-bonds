@@ -232,7 +232,7 @@ When material surfaces during drafting or research, the default routing:
 
 ### Task scope
 
-Run each resurfaced use case through a full rigor pass per `tools/commons_bonds_rigor_protocol_v1.2.2.md`. The cases that surfaced through the sociology-paper source recovery this session:
+Run each resurfaced use case through a full rigor pass per `tools/commons_bonds_rigor_protocol_v1.3.0.md`. The cases that surfaced through the sociology-paper source recovery this session:
 
 1. `research/case-studies/opioid-extraction-appalachia.md`
 2. `research/case-studies/2008-financial-crisis.md`

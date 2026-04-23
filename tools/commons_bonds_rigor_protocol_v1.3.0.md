@@ -1,11 +1,12 @@
 # Commons Bonds — Canonical Rigor Protocol
 
-**Version:** 1.2.2
+**Version:** 1.3.0
 **Date:** 2026-04-22
-**Status:** Canonical. Terminology patch over ratified v1.2.1.
-**Supersedes:** v1.2.1 (2026-04-22 morning, clarifications patch), v1.2.0 (2026-04-21, ratified 2026-04-22), v1.1.0 (2026-04-20), and v1.0.0 (2026-04-21 parallel-lineage artifact).
+**Status:** Canonical. **Minor bump** — adds two standing tests (earning-its-place-in-the-book + scaffolding-vs-book-worthy) applied at every rigor depth.
+**Supersedes:** v1.2.2 (2026-04-22 afternoon, container-term terminology patch), v1.2.1 (2026-04-22 morning, clarifications patch), v1.2.0 (2026-04-21, ratified 2026-04-22), v1.1.0 (2026-04-20), and v1.0.0 (2026-04-21 parallel-lineage artifact).
 **Absorbs:** v1.0.0's expanded test catalog (Groups B/C/D/E/F), expanded character pressure suite (25 characters across Groups G–L), full-vs-light rigor axis, and formal revisitability section. Also ships the v1.21.0 drafted additions (merger gate, primitiveness gate, rejected-candidates-revisitable) as formal protocol content.
 **Supersession notes:** v1.1.0's Test 5 (four realistic success criteria) is superseded by the newer success-criteria articulation in Group E (Goal-1 / Goal-2 / labor-lawyer-in-2039) that emerged in the v1.24.0 scope work. v1.1.0's ten-critic standing battery is mapped into the expanded 25-character roster; four unmapped critics are preserved as a Methodological Defense sub-battery.
+**v1.3.0 scope:** Added two new standing tests — Test 28 (Earning-its-place-in-the-book) and Test 29 (Scaffolding-vs-book-worthy filter) — grouped as new "Standing Book-Integrity Tests" in §5A (inserted between Group A framework tests and Group B scope tests). These tests run at **every** rigor depth including light rigor, on every claim type, unconditionally. Motivation: Chris's session-v1.32.0 observation that the scaffolding-vs-book-worthy distinction (which drove the core/ vs. tools/ placement principle and the 8-tier rigor pass's per-tier scaffolding judgments) is load-bearing enough across all rigor work to deserve standing-test status rather than being re-derived per pass. §3.1 and §3.2 updated to reflect mandatory status. §4 routing rule updated. §14 fill-in template updated. §17.7 change log entry added.
 **v1.2.2 patch scope:** Container-term rename "dimension" → "dimension" throughout (per session v1.28.0 meta-term rigor pass — "dimensions" accurately captures independence + compositional structure; "dimensions" implied stacking/hierarchy that was structurally false). Updated references to Habitability (was Atmospheric) and Ecosystem (was Ecological) dimensions where named. Path prefixes for c5 and c9 patches already updated (moved to `alignment/patches/` in session v1.28.0→v1.29.0 reorg). Historical references preserved where referring to filenames or document titles created before 2026-04-22 (e.g., the archived `commons_bonds_layer_tier_stress_test_1_0_0.md` retains "dimension" in filename as historical document reference). No structural changes to the test catalog.
 **v1.2.1 patch scope (historical):** Integrated findings from the 2026-04-22 morning triage (`commons_bonds_rigor_vs_layers_triage_v1_0_0.md`) and rigor pass record (`commons_bonds_rigor_pass_2026-04-22_v1_0_0.md`). Clarifications, cross-references, one substantive correction (Test 13 dimension-level scope), and one shield-typology addition (consent-normalization). No structural changes to the test catalog.
 **References (not absorbed):** `eight-tier-v10.html` (AIT source), `alignment/patches/c5_two_path_rigor.md` (two-path source), `commons-bonds-success-criteria_11.html` (earlier success criteria source), `commons_bonds_c6_decision_memo_2_0_0.html` (first worked example), `commons_bonds_layer_tier_stress_test_1_0_0.md` (second worked example), `commons_bonds_rigor_pass_2026-04-21_v1_0_0.md` (third worked example — v1.24.0 scope rigor passes), `alignment/patches/c9_ait_canonical_positioning_patch.md` (AIT scaffolding-vs-load-bearing canonical).
@@ -57,7 +58,9 @@ Protocol (standing reference) and rigor pass record (historical audit) serve dif
 
 ### 3.1 Full rigor
 
-All applicable tests from the routing in §4, plus the full 25-character pressure suite (§10).
+**Mandatory tests (always run, independent of routing):** Group A framework tests (§§5.1–5.4) + **Standing book-integrity tests (§5A — Tests 28 and 29, added v1.3.0)**.
+
+All additional tests from the routing in §4, plus the full 25-character pressure suite (§11).
 
 Required for:
 
@@ -73,7 +76,7 @@ Required for:
 
 ### 3.2 Light rigor
 
-A subset of tests applied judgmentally. Always runs the three framework tests (§5.1, §5.2, §5.3 — AIT, two-path, merger+primitiveness gates). Additional tests run when obviously relevant. Character suite skipped unless a specific character's pressure area covers the decision.
+A subset of tests applied judgmentally. **Mandatory tests at light rigor:** Group A framework tests (§5.1 AIT, §5.2 two-path, §5.3 merger+primitiveness) + **Standing book-integrity tests (§5A — Tests 28 and 29, added v1.3.0; abbreviated procedure acceptable at light depth per §5A.1 and §5A.2)**. Additional tests run when obviously relevant. Character suite skipped unless a specific character's pressure area covers the decision.
 
 Appropriate for:
 
@@ -85,6 +88,8 @@ Appropriate for:
 - Counterargument wording within already-identified counterargument slots
 - Integration edits applying already-ratified decisions
 
+**v1.3.0 note on light rigor:** Tests 28 and 29 were added as mandatory at light rigor specifically because they take minutes to apply at light depth (name the function / consumer; identify the audience / content-type) and prevent scaffolding accumulation in canonical content. The small time-cost is net-positive for book-integrity maintenance.
+
 ### 3.3 Default
 
 When ambiguous, default to full. Drift from light to full is cheap (brief additional review). Drift the other way is expensive (re-argument of decisions that should have been ratified with more structure). Operating discipline: push harder so we only rewrite once.
@@ -95,7 +100,11 @@ When ambiguous, default to full. Drift from light to full is cheap (brief additi
 
 Not every decision needs every test. Classify first; route second. When multiple categories apply, union the tests.
 
-| Claim type | Description | Apply |
+**Always run (mandatory at every rigor depth, independent of routing, added v1.3.0):** §5A standing book-integrity tests — Test 28 (Earning-its-place-in-the-book) + Test 29 (Scaffolding-vs-book-worthy filter). These apply to every claim regardless of type.
+
+**Routed by claim type:**
+
+| Claim type | Description | Apply (in addition to §5A standing tests) |
 |---|---|---|
 | **Tier-level** | Is tier N real? Does this content belong in tier N or M? Does AIT hold for tier N? | AIT + two-path + multi-scale + merger/primitiveness gates |
 | **Architectural** | How should the framework organize its taxonomy, relationships, or structure? (C6 was architectural.) | Two-path + multi-scale + character suite + success criteria + merger/primitiveness gates |
@@ -104,7 +113,7 @@ Not every decision needs every test. Classify first; route second. When multiple
 | **Novelty / scholarly** | Does this claim beat, extend, or supersede existing literature? Is the vocabulary citeable? | Character suite with Novelty Critic primary + success criteria + decade-out durability |
 | **Applied-policy** | Should this jurisdiction, firm, or council adopt a specific instrument based on the framework? | Two-path + character suite with governance sub-battery + success criteria |
 
-**Example of unioning:** C6 was primarily architectural but had tier-level implications (Tier 8 finding). Applied tests: two-path + multi-scale + character suite + success criteria + AIT (corroborative for tier-level component).
+**Example of unioning:** C6 was primarily architectural but had tier-level implications (Tier 8 finding). Applied tests: two-path + multi-scale + character suite + success criteria + AIT (corroborative for tier-level component) + **§5A standing tests (always)**.
 
 **AIT is often corroborative rather than primary** for architectural and stakeholder claims, but it is *primary* for tier-level claims. When in doubt, run it.
 
@@ -263,6 +272,68 @@ If a claim fails at any scale:
 - Is the failure at a scale the framework does not claim to serve? → document the scoping and proceed.
 
 **Do not silently drop scales.** A claim scoped to individual-only should say so; a claim that happens to fail at government scale but silently presents as universal is a framework integrity violation.
+
+---
+
+## 5A. Standing book-integrity tests (MANDATORY at every rigor depth)
+
+**Added v1.3.0 (2026-04-22).** These two tests are standing — they apply to *every* rigor pass at *every* depth (full, light, confirmation, or ad-hoc), on *every* claim type, regardless of routing. Unlike Groups B–F which apply conditionally based on the routing rule in §4, Tests 28 and 29 are always run.
+
+**Why standing status:** the scaffolding-vs-book-worthy distinction surfaced in session v1.32.0 as the core/ vs. tools/ placement principle (scaffolding → tools/; book-worthy → core/). The 8-tier rigor pass (v1.0.6) then applied it per-tier and found it load-bearing on tier-retention decisions. Both observations confirm that book-integrity is a distinct concern from framework-integrity (Group A), scope (Group B), or content quality (Group F). Embedding these tests as standing prevents them from being re-derived per pass or forgotten on light-rigor claims.
+
+**Applied to the 8-tier rigor pass v1.0.6 in retrospective:** each of the 8 tiers was assessed under Tests 28 and 29; all 8 earned their place; Tier 8 had WS-authorization sections flagged as scaffolding to strip. These tests also validated the v1.32.0 core/ placement decision (dimensions doc book-worthy → core/; rigor passes scaffolding → tools/).
+
+### 5A.1 Test 28 — Earning-its-place-in-the-book
+
+**Core question:** Does this content, claim, structural element, or rigor-pass finding advance Book One's stated goals (Goal-1 vocabulary adoption / Goal-2 individual-reader use) sufficiently to earn its position against the cost of reader attention and authorial effort?
+
+**Procedure:**
+
+1. **State the book-scope function.** For the content being evaluated, name the specific function it serves in Book One (or Book Two / Book Three where applicable). "It's useful" is not a function; "it grounds Ch. 5's accountability-gap argument at a specific quantitative case" is.
+2. **Identify the consumer.** Which chapter, methodology-appendix section, canonical-case file, or reader archetype consumes this content? If no identifiable consumer can be named, the content has not earned its place — it is either premature (propose later if a consumer emerges) or extraneous (move to scaffolding / archive).
+3. **Verify load-bearing.** Is the content load-bearing on its consumer, or could the consumer function without it? Redundant content with other tiers / dimensions / chapters / canonical cases does not earn its place; load-bearing content that fills an identifiable gap does.
+4. **Check the removal test.** If this content were removed, would the gap it leaves be identifiable (a specific chapter loses a specific argument; a rigor pass loses a specific finding; a reader loses a specific pattern-match) or trivially-filled (a sentence gets reworded; a footnote gets renumbered)? Identifiable-gap = earns place; trivially-filled = does not.
+
+**Verdicts:**
+
+- **EARNS PLACE** — content serves a named book-scope function for a named consumer, is load-bearing, and passes the removal test. Document the function + consumer in the pass record so future drafters can verify.
+- **EARNS PLACE WITH REFINEMENT** — content serves a function but requires specific refinement (scope-clarification, scale-abstract treatment, cross-reference addition, name change) to do so cleanly. Specify the refinement.
+- **DOES NOT EARN PLACE** — content does not serve a named function. Routing: (a) demote to scaffolding (tools/ or archive/) if it documents a decision-trail; (b) retire if purely redundant; (c) defer to a later book / edition if premature but potentially useful.
+
+**Application at light rigor:** still run, but in abbreviated form — name the function and consumer; skip the load-bearing and removal-test steps unless an initial read raises doubt.
+
+**Worked examples:**
+
+- **8-tier rigor pass v1.0.6 §5:** all 8 tiers applied Test 28; all earned place with specific book-scope functions named (Tier 1 → Ch. 1 / Ch. 2 / Ch. 5; Tier 2b → Ch. 7 canonical off-Earth case; Tier 3 → Ch. 5 Social Security canonical; etc.).
+- **Priority-2 Cohesion retention pass v1.0.4:** Social-Fabric rename candidate tested under Test 28 implicitly (did the rename earn its place over Cohesion-retention-with-Putnam-engagement?). Finding: no — rename created more issues than it solved; retention earned its place.
+- **Dimensions doc core/ placement (session v1.32.0):** dimensions doc tested under Test 28 — earns its place in book (rich profiles for 10 dimensions are reference material consumed by chapter drafting, methodology appendix, rigor passes). Passed.
+
+### 5A.2 Test 29 — Scaffolding-vs-book-worthy filter
+
+**Core question:** Is this content canonical framework material that readers encounter directly (book-worthy — belongs in core/ or manuscript/chapters/), or process / methodology / decision-trail material produced during framework development (scaffolding — belongs in tools/ or archive/)?
+
+**Procedure:**
+
+1. **Identify the audience.** Who reads this content as primary audience? Readers encountering the framework → book-worthy. Future Claude instances / methodology contributors / rigor-pass writers / author-revisiting-decisions → scaffolding.
+2. **Check value location.** Is the content's value in-the-content (what it says, what it defines, what it teaches) → book-worthy? Or in-the-reasoning-trail (why we decided what we decided, what we tried and rejected, what assumptions we made) → scaffolding?
+3. **Apply placement principle.** Scaffolding lives in `tools/` (active), `tools/archive/`, `alignment/decisions/`, `alignment/sessions/archive/`. Book-worthy lives in `core/`, `manuscript/chapters/`, `research/case-studies/`, `research/literature/bibliography.md`.
+4. **Handle mixed content.** Many working documents contain both scaffolding and book-worthy sections mixed together. Identify each section's type; extract book-worthy content to appropriate canonical location; retain scaffolding in working location; cross-reference as needed.
+
+**Verdicts:**
+
+- **BOOK-WORTHY** — canonical framework content for reader audience; place in core/ or manuscript/.
+- **SCAFFOLDING** — process / methodology / decision-trail; place in tools/ or archive/.
+- **MIXED — extract + split** — identify book-worthy portion and scaffolding portion; execute extraction to canonical location; retain scaffolding in working location.
+- **MIXED — keep together (with justification)** — for documents where scaffolding and book-worthy content are load-bearing-together (e.g., rigor-pass records where the scaffolding-reasoning validates the book-worthy finding and should not be split), retain mixed state with explicit justification.
+
+**Application at light rigor:** still run, but in abbreviated form — identify audience and primary content-type; skip the mixed-content extraction step unless an initial read surfaces substantial mixing.
+
+**Worked examples:**
+
+- **session v1.32.0 core/ placement decision:** dimensions doc tested under Test 29 — **book-worthy** (canonical framework content, reader audience). Moved from tools/ to core/dimensions/. Rigor passes (v1.0.2–v1.0.5) tested under Test 29 — **scaffolding** (decision-trail for naming-cohort work, methodology audience). Retained in tools/rigor-passes/.
+- **8-tier rigor pass v1.0.6 §5.9 (Tier 8):** v10's "What this section authorizes / does not authorize" sub-sections tested under Test 29 — **scaffolding** (WS02/WS03/WS08 execution authorization from April 19; those decisions have landed). Flagged for strip in v11 content update.
+- **claude_prefs.md operating core:** tested under Test 29 — **scaffolding** (operating-preference content for Claude; not reader-facing). Lives in tools/ per placement principle.
+- **Eight-tier decomposition canonical content (AIT methodology + 8 tiers):** tested under Test 29 — **book-worthy** (canonical framework content consumed by Technical Appendix + Ch. 6). Belongs in core/ (currently core/decomposition/; pending move to core/framework/ per v1.0.6 §11.2).
 
 ---
 
@@ -510,6 +581,25 @@ Copy-paste into a new decision memo file named `commons_bonds_{topic}_{v#_#_#}.m
 
 ---
 
+## Standing book-integrity tests (§5A — always run, added v1.3.0)
+
+### Test 28 — Earning-its-place-in-the-book
+
+- **Book-scope function served:** [name the specific function; not "it's useful"]
+- **Consumer:** [chapter / appendix section / canonical-case file / reader archetype]
+- **Load-bearing?** [yes — specify what would break without it / no — flag as redundant or premature]
+- **Removal test:** [identifiable gap / trivially-filled]
+- **Verdict:** [EARNS PLACE / EARNS PLACE WITH REFINEMENT (specify) / DOES NOT EARN PLACE (route: scaffold / retire / defer)]
+
+### Test 29 — Scaffolding-vs-book-worthy filter
+
+- **Primary audience:** [readers / methodology-contributors / author-revisiting]
+- **Value location:** [in-the-content / in-the-reasoning-trail]
+- **Placement routing:** [core/ or manuscript/ (book-worthy) / tools/ or archive/ (scaffolding) / mixed — extract + split / mixed — justified-keep-together]
+- **Verdict:** [BOOK-WORTHY / SCAFFOLDING / MIXED (specify treatment)]
+
+---
+
 ## Group A — Framework tests
 
 ### Test 1 — AIT (if applicable)
@@ -729,7 +819,7 @@ The C6 memo is the first complete application of v1.1.0. It evaluates four optio
 
 ### 17.1 Current version
 
-**1.2.1** (2026-04-22) — canonical. Clarifications patch over ratified v1.2.0.
+**1.3.0** (2026-04-22 evening) — canonical. Minor bump adding two standing tests (§5A Test 28 earning-its-place + Test 29 scaffolding-vs-book-worthy) applied at every rigor depth. Supersedes v1.2.2 (container-term rename), v1.2.1 (clarifications patch), v1.2.0 (ratified base).
 
 ### 17.2 Upload pattern
 
@@ -763,6 +853,17 @@ Upload at session start alongside the current session handoff. Do not modify wit
 A test or character that fails to differentiate on one pass may differentiate on another. Rejection is a finding about the tested application, not a permanent verdict. Re-test warranted when new decision types surface that existing tests don't cover cleanly.
 
 ### 17.7 Change log
+
+**v1.3.0 (2026-04-22 evening):** Minor bump — adds two standing tests to the protocol as §5A, mandatory at every rigor depth. Changes:
+- (1) §5A new: "Standing book-integrity tests (MANDATORY at every rigor depth)" inserted between Group A framework tests and Group B scope tests. Contains Test 28 (Earning-its-place-in-the-book) and Test 29 (Scaffolding-vs-book-worthy filter). Both tests run on every claim type independent of routing.
+- (2) §3.1 full rigor: updated mandatory-test list to include §5A.
+- (3) §3.2 light rigor: updated mandatory-test list to include §5A (abbreviated procedure acceptable at light depth).
+- (4) §4 routing rule: notes §5A always runs regardless of routing; routed claim-types still apply per table in addition to §5A.
+- (5) §14 fill-in template: new Standing book-integrity tests section added between Preliminary recommendation and Group A.
+- (6) Motivation: session v1.32.0 surfaced scaffolding-vs-book-worthy as the core/ vs. tools/ placement principle; 8-tier rigor pass v1.0.6 applied earning-its-place + scaffolding judgments per tier and confirmed both tests as load-bearing on retention decisions. Embedding as standing prevents re-derivation per pass and ensures coverage at light rigor.
+- No structural changes to existing tests; all prior test content unchanged.
+
+**v1.2.2 (2026-04-22):** Container-term rename patch. "layer" → "dimension" throughout per session v1.28.0 meta-term rigor pass. Habitability and Ecosystem dimension-name updates where named. Path prefixes for c5 and c9 patches updated to `alignment/patches/`. Historical filename references preserved. No structural changes to the test catalog.
 
 **v1.2.1 (2026-04-22):** Clarifications patch. Integrates findings from the 2026-04-22 triage (`commons_bonds_rigor_vs_layers_triage_v1_0_0.md`) and rigor pass record (`commons_bonds_rigor_pass_2026-04-22_v1_0_0.md`). Changes:
 - (1) Test 3 (§5.3): Added book-visibility note; cross-reference to rigor pass record §6.1 for the canonical merger/primitiveness examples table.

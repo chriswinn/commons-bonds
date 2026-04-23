@@ -2,7 +2,7 @@
 
 **Date:** 2026-04-22
 **Version:** 1.0.4
-**Protocol version applied:** `commons_bonds_rigor_protocol_v1.2.2.md`
+**Protocol version applied:** `commons_bonds_rigor_protocol_v1.3.0.md`
 **Status:** Proposed — awaiting ratification at session close.
 **Rigor depth:** Full per protocol §3.1, escalated from light-rigor draft (`commons_bonds_rigor_pass_2026-04-22_v1.0.3.md`, superseded but retained as lineage record) at Chris's direction. Operating discipline: "these are the dimensions that will be cited long after my life is over if this project is done well" — naming decisions at this tier warrant the full 25-character suite + Groups A–F, not light cohort rigor.
 
@@ -18,7 +18,7 @@
 
 **Companion output (if locks ratify):** bump `commons_bonds_abundance_dimensions_v1_2_0.md` → `v1_2_0.md` per doc's §8 rule; §2 subsection updates absorb the §10 rich profiles from this pass; cross-reference updates per v1.1.0 pattern.
 
-**Inputs used:** `commons_bonds_abundance_dimensions_v1_2_0.md` §2.2 / §2.8 / §2.9 / §2.10 (current status + v1.1.1 AIT worked examples); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` §3.2 / §3.8 / §3.9 / §3.10 (Part 2 pressure findings); `commons_bonds_rigor_pass_2026-04-22_v1.0.2.md` (Kindred lock — full-rigor template); `commons_bonds_rigor_pass_2026-04-22_v1.0.3.md` (superseded light-rigor draft — early findings preserved); `commons_bonds_rigor_protocol_v1.2.2.md` (protocol applied); `commons_bonds_guiding_constraints_v1_0_0.md` (Group D / E anchors); `research/literature/bibliography.md` (scholarly-ancestor engagement).
+**Inputs used:** `commons_bonds_abundance_dimensions_v1_2_0.md` §2.2 / §2.8 / §2.9 / §2.10 (current status + v1.1.1 AIT worked examples); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` §3.2 / §3.8 / §3.9 / §3.10 (Part 2 pressure findings); `commons_bonds_rigor_pass_2026-04-22_v1.0.2.md` (Kindred lock — full-rigor template); `commons_bonds_rigor_pass_2026-04-22_v1.0.3.md` (superseded light-rigor draft — early findings preserved); `commons_bonds_rigor_protocol_v1.3.0.md` (protocol applied); `commons_bonds_guiding_constraints_v1_0_0.md` (Group D / E anchors); `research/literature/bibliography.md` (scholarly-ancestor engagement).
 
 ---
 
@@ -704,7 +704,7 @@ Both are drafting-stage checks, not lock-blockers.
 - `research/literature/bibliography.md` — additions per §12.1 step 7.
 
 **Files consumed:**
-- `commons_bonds_rigor_protocol_v1.2.2.md` — protocol applied.
+- `commons_bonds_rigor_protocol_v1.3.0.md` — protocol applied.
 - `commons_bonds_abundance_dimensions_v1_2_0.md` — current canonical state + v1.1.1 AIT worked examples.
 - `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` — Part 2 pressure findings.
 - `commons_bonds_rigor_pass_2026-04-22_v1.0.2.md` — Kindred lock as full-rigor template.
