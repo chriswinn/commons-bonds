@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-23 · v1.35.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .decision     { background: #f3e8ff; border-left: 4px solid #7a3ea1; padding: 1em 1.2em; margin: 1em 0; }
+  .operating    { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .milestone    { background: #e8f2fa; border-left: 4px solid #2a5a8c; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .snippet      { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .decision-label { color: #7a3ea1; font-weight: 600; }
+  .version  { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-23 · Version <span class="version">1.35.0</span> · Supersedes v1.34.0 · Same-day continuation. Session theme: <strong>case-study development + broad integration pass across Book 1 chapters</strong>. 14 commits since v1.34.0. Two parallel audits now at v1.0.5 (chapter + case-study). Six of ten chapters saw draft-level case integrations this session. Ch 1 + Ch 3 guidance docs substantially expanded. Two new historical-universality cases drafted and integrated into Ch 7.</p>
+
+<div class="status">
+<strong>STATUS:</strong> <strong>Book 1 integration pass substantially complete.</strong> 6 chapter drafts touched with new case-study content (Ch 2 / 5 / 7 / 8 / 9 / 10); Ch 1 + Ch 3 guidance docs expanded to audit-surfaced completeness. 6 new case-study files drafted (Alaska, Chattanooga, Mondragon, Vienna, Egypt, Qin) + 1 upgraded from stub (indigenous). Both audits bumped 1.0.1 → 1.0.5 with integration catalogs. Framework canonical state unchanged from v1.34.0 — 10 dimensions LOCKED, rigor protocol v1.3.0, tier-structure decision still deferred. Book 1's case-and-chapter scaffold is now materially richer than it was this morning.
+</div>
+
+<div class="snippet">
+<h2>Copy-paste snippet for next session start</h2>
+<pre>Starting Commons Bonds session — picking up from handoff v1.35.0 (2026-04-23).
+
+Please read these files before responding:
+- commons-bonds-session-handoff-2026-04-23_v1.35.0.html  (this handoff — read first)
+- core/chapters/commons_bonds_chapter_audit_v1.0.5.md  (chapter-level audit with integration catalog)
+- core/case-studies/commons_bonds_case_study_audit_v1.0.5.md  (case-level audit with integration catalog)
+- tools/commons_bonds_rigor_protocol_v1.3.0.md
+- tools/commons_bonds_guiding_constraints_v1_0_0.md
+- core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md
+- tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md
+
+Current canonical state to verify:
+- 10 dimensions LOCKED: Habitability, Spatial, Temporal, Institutional, Kindred,
+  Ecosystem, Political, Cohesion, Epistemic, Autonomy. Naming cohort COMPLETE.
+- Rigor protocol: v1.3.0 canonical (Tests 28 + 29 standing).
+- Technical Appendix: v0.0.3 canonical.
+- 8-tier decomposition: all 8 earn their place; Autonomy-consent coverage
+  gap flagged; tier-structure decision still deferred.
+- Chapter audit: v1.0.5 at core/chapters/ — all 10 chapter profiles complete
+  against actual drafts; integration work flagged per chapter.
+- Case-study audit: v1.0.5 at core/case-studies/ — 18 cases profiled with
+  book-routing; integration catalog at §0.2.
+- Naming convention: dots going forward; historical files keep underscores.
+- Operating discipline: smaller focused commits, push each to main directly.
+
+Integration status (new since v1.34.0, from audit v1.0.5 catalog):
+- Ch 2: opioid second-cycle + housing third-level refutation integrated.
+- Ch 5: 2008 double-risk-transfer + healthcare commons integrated; chapter
+  now covers 6 cases (was 4).
+- Ch 7: three-civilization temporal stress-test (Egypt + Qin + feudalism)
+  + blood diamonds immune-response added.
+- Ch 8: housing pattern + tar sands brief mention integrated.
+- Ch 9: reachable-horizon cluster (Alaska / Chattanooga / Mondragon /
+  Vienna) integrated; Alaska full anchor in political-economy section.
+- Ch 10: feudalism + blood diamonds one-sentence anchors + indigenous
+  Lakota/Black Hills dedicated anchor integrated. Indigenous
+  sensitivity-reader engagement remains non-optional BEFORE publication.
+- Ch 1 + Ch 3 guidance docs expanded per audit §4.1.1 + §4.1.3.
+
+Top priority this session (in order):
+1. TIER-STRUCTURE DECISION (still the #1 unblocker; context in
+   tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md
+   §9.2 + §10).
+2. Chapter-guidance revision sweep (the chapters whose integrations
+   are tier-agnostic can move now; Ch 6 + Ch 8 guidance remains
+   tier-structure-gated).
+3. Indigenous case sensitivity-reader engagement — identify candidate
+   readers BEFORE publication (non-optional gate per case file §7.1).
+4. Chesapeake fieldwork (Ch 3 blocker).
+5. Ch 1 + Ch 3 authorial drafting (undrafted; Ch 1 guidance now
+   comprehensive per v1.0.5; Ch 3 guidance upgraded from stub).
+6. Optional: full-rigor pass on 6 new cases (Alaska, Chattanooga,
+   Mondragon, Vienna, Egypt, Qin) — compressed rigor applied during
+   integration; full depth is next-session followup.
+7. Ch 10 final paragraph selection (3 candidates drafted at
+   research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md §2).
+8. Length management passes — Ch 5 (6 cases), Ch 9 (~5,900 words
+   post-reachable-horizon integration).
+
+Additional thoughts for this session (Chris, fill in here before sending):
+[                                                                                           ]
+[                                                                                           ]
+</pre>
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY — tier-structure decision + chapter-guidance revision sweep</h2>
+
+<p>Book 1's case-and-chapter scaffold is now substantially richer. The remaining blockers to moving into the final-drafting phase are the ones that were already blockers at v1.34.0 — but now with much more clarity about exactly what rewrite work lives downstream of each.</p>
+
+<ol>
+  <li><strong>Tier-structure decision</strong> (still deferred; now highest-leverage unblocker). Context in <code>tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md</code> §9.2 + §10.
+    <ul>
+      <li><strong>Option A (reframe)</strong> — treat 8 tiers as worked examples; ship with Autonomy covered via case-study examples.</li>
+      <li><strong>Option B (one-pass restructure)</strong> — 10 top-level tiers matching 10 dimensions; current tier vocabulary preserved as sub-categories.</li>
+      <li><strong>Principle 1–4 choice</strong> — what organizes the tiers (scope-by-duration, cost-bearer-category, temporal-granularity, dimension-alignment).</li>
+    </ul>
+    Chris leans Option B. Likely route: v1.0.7 comparative rigor pass on organizing principles, then execute restructure as one coordinated pass.
+  </li>
+  <li><strong>Chapter-guidance revision sweep</strong> — split by tier-decision dependency per chapter audit §4:
+    <ul>
+      <li><em>Tier-agnostic, ready now:</em> Ch 1 (✓ done v1.0.5), Ch 3 (✓ done v1.0.5), Ch 4 (Nordic steelman decision), Ch 7 (blood diamonds + feudalism ✓ done; Autonomy-coverage-gap framing + register pass remain), Ch 9 (contingency argument + US-Sweden + CTR definition + length management), Ch 10 (final paragraph selection + grandfather-at-Langley specificity + theory-of-change sharpening).</li>
+      <li><em>Tier-gated:</em> Ch 6 (heaviest — tier-structure is the chapter's primary structural work), Ch 8 (tier names must reconcile), Ch 2 + Ch 5 (tier-name propagation where used in drafts).</li>
+    </ul>
+  </li>
+  <li><strong>Indigenous case sensitivity-reader engagement</strong> — non-optional pre-publication gate per <code>research/case-studies/indigenous-land-dispossession.md</code> §7.1. Ideally a Lakota Nation sensitivity reader given the primary exemplar. Chris should begin identifying candidates — this is the pacing constraint on Ch 10's final form.</li>
+  <li><strong>Chesapeake fieldwork</strong> (Ch 3 blocker, opportunistic). Fort Monroe bar reopening + watermen interviews per case-study audit §9.1 interview specification.</li>
+  <li><strong>Ch 1 + Ch 3 authorial drafting</strong> — Ch 1 guidance is now comprehensive; Ch 3 guidance upgraded from stub with full integration work specified. Both remain Chris authorial work.</li>
+  <li><strong>Optional: full-rigor pass on 6 new cases</strong> (Alaska, Chattanooga, Mondragon, Vienna, Egypt, Qin). Compressed rigor was applied during integration. Full-depth rigor is a natural next-session task if Chris wants the cases to carry the same weight as the v1.0.0 canonical cases.</li>
+</ol>
+</div>
+
+<h2>Session v1.34.0 → v1.35.0: accomplishments</h2>
+
+<p class="meta">14 commits pushed to main. Session theme: case-study development + broad integration pass across Book 1 chapters. Smaller-focused-commits discipline maintained throughout. Commits grouped by theme below.</p>
+
+<div class="milestone">
+<h3>Phase 1 — Session A: case-study audit + substantial development (5 commits)</h3>
+<p>Commits <code>42e4195</code>, <code>66a99fe</code>, <code>5addf7b</code>, <code>118167b</code>, <code>bb96154</code>:</p>
+<ul>
+  <li><strong>Case-study audit v1.0.0</strong> (<code>core/case-studies/commons_bonds_case_study_audit_v1.0.0.md</code>) — full rigor pass on 16 cases + book-completion assessment (§6); fieldwork guidance per case (§9, added v1.0.1).</li>
+  <li><strong>Indigenous land dispossession upgraded from stub to substantial</strong> (251 lines). Lakota / Black Hills as primary exemplar with category framing (Cherokee, Dawes Act, Hawaiian, terra nullius); Kimmerer / Simpson / Coulthard / Dunbar-Ortiz register anchors; pre-drafting gates (§7: sensitivity-reader engagement non-optional, consultation consideration, scope discipline).</li>
+  <li><strong>Reachable-horizon cluster</strong> — 4 new case-study files: Alaska Permanent Fund (~150 lines, US-domestic reachable-horizon anchor), Chattanooga EPB Fiber (~80 lines, municipal infrastructure commons), Mondragon (~100 lines, labor-ownership at cooperative-federation scale), Vienna social housing (~120 lines, municipal housing commons).</li>
+  <li><strong>Stands-the-test-of-time drafts</strong> — <code>research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md</code> (~400 lines): §1 contingency argument (500 words with Taft-Hartley 1947, Truman 1949 healthcare, Powell Memorandum 1971, 1978 Revenue Act, Gramm-Leach-Bliley 1999, 2005 Bankruptcy Act); §2 three final-paragraph candidates; §3 Nordic-model-unrepeatable steelman (600 words + defeat); §4 humane-and-precise register discipline (5 operational tests).</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Phase 2 — Session B: chapter audit (5 commits)</h3>
+<p>Commits <code>42a0fe5</code>, <code>4e34623</code>, <code>ad816a2</code>, <code>d3702f0</code>, <code>e504a65</code>:</p>
+<ul>
+  <li><strong>Chapter audit v1.0.0 → v1.0.2</strong> at <code>core/chapters/commons_bonds_chapter_audit_v1.0.*.md</code>. Full profiles of all 10 chapters + _Dedication + _AUTHORSNOTE against actual draft + guidance-doc content. §4 guidance-doc update task list (per-chapter, sequenced by tier-decision dependency). §5 AUTHORSNOTE + Dedication guidance assessment + recommendations for new guidance docs.</li>
+  <li><strong>Ch 6 HTML draft verified read</strong> (45KB, only HTML draft in set). §2.6 re-profiled against actual draft: corrects bottom-up totals to $8-$22/ton absent carbon and $550-570 with; identifies that draft compressed guidance's 6 counterarguments to 2 (property-rights + degrowth moved to Ch 9 + Ch 10); verdict upgraded from "Substantial revision" to "Moderate revision, tier-structure dependent."</li>
+  <li><strong>Ch 9 reachable-horizon cluster integration landed</strong>. Alaska promoted from passing reference to full anchor paragraph in political-economy section (25% royalty capture, ~$80B, 1982-present dividend, survived every administration). Chattanooga + Mondragon + Vienna added as dedicated paragraphs in entering-wedges section. Closing "burden of proof has shifted" landing. Draft grew ~5,500 → ~5,900 words.</li>
+  <li><strong>Case-study audit v1.0.2</strong> synchronized with Ch 6 verification + Ch 9 integration. Convergence-table notes added to §§2.1, 2.2 (Norway backtest), 2.3, 2.4. §2.10 tax-trade-off companion-cluster pre-drafting blocker cleared.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Phase 3 — broad integration pass across Ch 2, 5, 7, 10 (2 commits)</h3>
+<p>Commits <code>e504a65</code>, <code>3fd8768</code>:</p>
+<ul>
+  <li><strong>Ch 2 (The Miner):</strong> "The Second Cycle" section added (opioid extraction Appalachia: Purdue target map, Sackler $11B, Big Three $21B settlement, 141/100k overdose rate as engineered-not-cultural signature). Housing enforced-immobility third-level refutation added inside "Miners Chose That Work" counter (49% cost-burdened renters, 90%+ counties, landlord surplus capture).</li>
+  <li><strong>Ch 5 (The Accountability Gap):</strong> "2008 and the Double Risk Transfer" section (1978 Revenue Act → 401(k); MBS/CDO machinery; TARP $700B + Fed $16T+ vs. 10M foreclosures; FCIC verdict). "The Healthcare Commons" section (GoFundMe 25x growth 2011-2020, 88% failure rate, racial disparity layer, Butler/pacemaker: $54 conversation vs. ~$12K procedure, 80-hour-week caregiving). Chapter opener + synthesis rewritten from "four cases" to "six cases."</li>
+  <li><strong>Ch 7 (The Colony Administrator):</strong> "The framework across time, and the immune response" section added with feudalism (pre-capitalist temporal stress-test) + blood diamonds / Kimberley Process (simulated-reattachment immune response; pattern generalizes to fair-trade, carbon offsets, ESG screens).</li>
+  <li><strong>Ch 10 (Common Bonds):</strong> Feudalism one-sentence anchor in left-critique section ("Feudal lords did it a thousand years before any of these arrangements existed"). Blood diamonds one-sentence anchor in same section ("certificate on a conflict-free diamond..."). <strong>Indigenous Lakota/Black Hills dedicated anchor</strong> between honest-concession + left-critique — Treaty of Fort Laramie 1868, 1877 taking, <em>United States v. Sioux Nation of Indians</em> (1980) ruling, $2B escrow, 45-year refusal; humane-and-precise register per stands-the-test-of-time drafts §4; authorial-limit framing; names Kimmerer / Simpson / Coulthard / Dunbar-Ortiz / Deloria for readers.</li>
+  <li><strong>Sensitivity-reader-gate interpretation corrected.</strong> v1.0.2 audits treated the non-optional sensitivity-reader gate as pre-INTEGRATION blocker; v1.0.3 corrected to pre-PUBLICATION gate. Draft-stage anchor with humane-and-precise register is appropriate; sensitivity-reader engagement remains non-optional before publication.</li>
+  <li><strong>Audits bumped v1.0.3.</strong> §1 table rows 5, 7, 8, 9, 12, 13, 16 updated to draft-integrated status; integration catalog added at audit §0.2.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Phase 4 — Ch 8 housing/tar-sands + Ch 1 + Ch 3 guidance expansion (1 commit + audit v1.0.4)</h3>
+<p>Commit <code>3c6c0f1</code>:</p>
+<ul>
+  <li><strong>Ch 8 (What Things Actually Cost):</strong> Housing-market pattern paragraph + Canadian tar sands brief mention added after "different industries, different geographies" passage. Household-scale tier arithmetic (foreclosure-of-mobility + dynastic + political-capture) + Alberta bitumen heavy-crude markets externalizing ecological damage to boreal forests, treaty violations to First Nations, and carbon tail of combustion.</li>
+  <li><strong>Ch 1 guidance expansion</strong> (155 → ~210 lines) per chapter audit §4.1.1 tasks 1-6: case-study references section (healthcare end-of-life bridge; feudalism decision), additional-original-scene guidance (nursing / healthcare-IT / SGA candidates), non-optional pre-drafting gates (NDA review, subordinate anonymization, wife's medical privacy, parents, Hampton community), register discipline (Pure Register 1, target 5-6K words, don't name tiers, don't soften consent-problem, don't preempt Ch 2), character pressure points, Ch 10 harbor-opening coordination.</li>
+  <li><strong>Ch 3 guidance CRITICAL upgrade from 38-line stub to ~130 lines</strong> per chapter audit §4.1.3: Chesapeake fieldwork specification, case-file development plan, renewable-past-regenerative-capacity framework-distinctive theorization, Hampton-roots integration, pre-drafting gates (interview consent protocol, Hampton-specificity discipline, CBF/VIMS institutional handling, watermen-community dignity), register notes, character pressure points, cross-chapter tensions (Ch 8, Ch 10, Ch 4 handoffs).</li>
+  <li><strong>Audits bumped v1.0.4.</strong> §2.8 Ch 8 integration items 3 (housing) + 4 (tar sands) marked DONE; §4.1.1 + §4.1.3 guidance-doc task lists marked DONE; §1 cross-chapter table updated.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Phase 5 — Ch 7 three-civilization temporal stress-test (2 commits)</h3>
+<p>Commits <code>bf9c864</code>, <code>7eb5861</code>:</p>
+<ul>
+  <li><strong>Mid-flight correction</strong>: v1.0.4 initially framed Ch 1's feudalism anchor as optional-redundant. Chris flagged it was load-bearing for cross-spectrum access. v1.0.4 patch corrected framing. Chris then raised the Marxist-theory-adjacency concern: "feudalism" sits inside primitive→slave→feudal→capitalist vocabulary that risks activating the dismissal the anchor is designed to prevent.</li>
+  <li><strong>Two new case-study files (research/case-studies/):</strong> <code>ancient-egypt-pyramids.md</code> (~80 lines, Lehner + Hawass archaeological consensus on skilled-paid-conscripted labor — NOT chattel slaves; slave narrative weakens modern-labor parallel); <code>qin-dynasty-monumental-extraction.md</code> (~100 lines, Qin Shi Huang Great Wall + mausoleum, 300k-500k+ conscripted laborers, documented mass mortality per Sima Qian, legalist harshness producing the dynasty's four-year collapse).</li>
+  <li><strong>Editorial call on placement:</strong> Chris gave latitude ("whichever chapter makes the most sense for the book"). Call was Ch 7, not Ch 1. Reasoning: Ch 7 is the universality-test chapter; Ch 1's register discipline (pure Register 1) is preserved; Ch 1 cross-spectrum credibility is carried by Chris's biography instead.</li>
+  <li><strong>Ch 7 "Framework across time, and the immune response" section expanded</strong> with pyramids (Giza Workers' Village consensus) + Qin Great Wall + Terracotta + Sima Qian mortality + paired-no-contact universality observation. Existing feudalism material preserved. Closing line strengthened: "the pyramids and the Great Wall... have been standing longer than any of our political vocabularies." Three-civilization temporal stress-test spans 4,500 years.</li>
+  <li><strong>Audits bumped v1.0.5.</strong> Chapter audit §2.1 + §2.7 + §4.1.1 reframed; case-study audit §2.17 (Egypt) + §2.18 (Qin) profiles added with Ch 7 placement; §1 table 16 → 18 cases.</li>
+</ul>
+</div>
+
+<h2>Commits since v1.34.0 (14 total)</h2>
+
+<table>
+<tr><th>Hash</th><th>Type</th><th>Summary</th></tr>
+<tr><td><code>42e4195</code></td><td>audit</td><td>case study audit v1.0.0: full rigor pass on 16 cases + book-completion assessment</td></tr>
+<tr><td><code>66a99fe</code></td><td>development</td><td>indigenous land dispossession: stub → substantial case study (CRITICAL DEVELOP per audit §2.16)</td></tr>
+<tr><td><code>5addf7b</code></td><td>new cases</td><td>reachable-horizon cluster: Alaska + Chattanooga + Mondragon + Vienna case files</td></tr>
+<tr><td><code>118167b</code></td><td>drafts</td><td>stands-the-test-of-time drafts: contingency + final paragraph + Nordic steelman + register discipline</td></tr>
+<tr><td><code>bb96154</code></td><td>audit patch</td><td>audit v1.0.1: add §9 fieldwork guidance (per-case interview targets + questions)</td></tr>
+<tr><td><code>42a0fe5</code></td><td>audit</td><td>Session B start: chapter audit v1.0.0 partial (4 of 10 profiles complete + structure)</td></tr>
+<tr><td><code>4e34623</code></td><td>integration</td><td>Ch 9 integration: reachable-horizon cluster landed in draft</td></tr>
+<tr><td><code>ad816a2</code></td><td>audit</td><td>chapter audit v1.0.2: Ch 6 draft-verified + Ch 9 integration tracked</td></tr>
+<tr><td><code>d3702f0</code></td><td>audit</td><td>case study audit v1.0.2: Ch 6 draft-verified + Ch 9 integration landed</td></tr>
+<tr><td><code>e504a65</code></td><td>integration</td><td>draft integration: case studies landed across Ch 2, 5, 7, 10</td></tr>
+<tr><td><code>3fd8768</code></td><td>audits</td><td>audits v1.0.3: broad case-study integration pass synced</td></tr>
+<tr><td><code>3c6c0f1</code></td><td>expansion</td><td>Ch 1 + Ch 3 guidance expansion + Ch 8 housing/tar-sands + audits v1.0.4</td></tr>
+<tr><td><code>bf9c864</code></td><td>reframing</td><td>Ch 1 guidance + audit: reframe feudalism as load-bearing (not optional)</td></tr>
+<tr><td><code>7eb5861</code></td><td>integration</td><td>Ch 7 three-civilization temporal stress-test: Egypt + Qin + feudalism</td></tr>
+<tr><td>(this)</td><td>handoff</td><td>v1.35.0 session handoff</td></tr>
+</table>
+
+<h2>Current state: chapters + cases</h2>
+
+<h3>Chapter-level state (per chapter audit v1.0.5)</h3>
+
+<table>
+<tr><th>#</th><th>Chapter</th><th>Draft state</th><th>Post-session integration status</th></tr>
+<tr><td>1</td><td>The Plane</td><td>Not begun</td><td>Guidance ~210 lines (was 155) — audit §4.1.1 tasks 1-6 DONE. Authorial drafting pending.</td></tr>
+<tr><td>2</td><td>The Miner</td><td>~280 lines (was 253)</td><td>Opioid + housing integrated. Tier-name propagation pending.</td></tr>
+<tr><td>3</td><td>The Waterman</td><td>Not begun</td><td>Guidance ~130 lines (was 38-line stub) — audit §4.1.3 tasks 1-6 DONE. BLOCKING on Chesapeake fieldwork.</td></tr>
+<tr><td>4</td><td>The Existence Proof</td><td>120 lines (unchanged)</td><td>Reachable-horizon cluster cross-referenced via Ch 9 primary placement. Nordic steelman integration decision still open.</td></tr>
+<tr><td>5</td><td>The Accountability Gap</td><td>~180 lines (was 118); 6 cases</td><td>2008 + healthcare integrated. Length management pass needed. Tier-name propagation pending.</td></tr>
+<tr><td>6</td><td>Three Ways of Counting</td><td>HTML, 45KB (verified)</td><td>Draft-verified v1.0.2. Tier-structure-gated + IPG-table reconciliation + HTML → .md + MathJax conversion remain.</td></tr>
+<tr><td>7</td><td>The Colony Administrator</td><td>~205 lines (was 182)</td><td>Feudalism + blood diamonds + Egypt + Qin integrated. Three-civilization temporal stress-test landed. Autonomy-coverage-gap framing + register pass remain.</td></tr>
+<tr><td>8</td><td>What Things Actually Cost</td><td>~235 lines (was 230)</td><td>Housing + tar sands integrated. Tier-structure-gated + guidance-doc upgrade from 54-line stub still pending.</td></tr>
+<tr><td>9</td><td>The Renewable Imperative</td><td>~5,900 words (was 5,500)</td><td>Reachable-horizon cluster integrated. Contingency argument + Nordic steelman + US-Sweden + CTR definition + length management remain.</td></tr>
+<tr><td>10</td><td>Common Bonds</td><td>~175 lines (was 160)</td><td>Feudalism + blood diamonds anchors + indigenous Lakota anchor integrated. Sensitivity-reader pre-publication gate + final paragraph + grandfather-specificity remain.</td></tr>
+</table>
+
+<h3>Case-level state (per case-study audit v1.0.5)</h3>
+
+<p>18 cases profiled (was 16). 9 cases newly draft-integrated this session across Ch 2/5/7/8/9/10. Indigenous integration at draft level with sensitivity-reader engagement as pre-publication gate (non-optional). 6 new case-study files created: reachable-horizon cluster (4) + Egypt + Qin. Indigenous upgraded from stub. 3 research documents created (stands-the-test-of-time drafts + case-study audit + chapter audit).</p>
+
+<h2>Current project structure (delta from v1.34.0)</h2>
+
+<table>
+<tr><th>Folder</th><th>Delta since v1.34.0</th></tr>
+<tr><td><code>core/chapters/</code></td><td><strong>New folder.</strong> <code>commons_bonds_chapter_audit_v1.0.0.md</code> (superseded) → <code>_v1.0.5.md</code> (current).</td></tr>
+<tr><td><code>core/case-studies/</code></td><td><code>commons_bonds_case_study_audit_v1.0.0.md</code> (superseded) → <code>_v1.0.5.md</code> (current).</td></tr>
+<tr><td><code>research/case-studies/</code></td><td><strong>6 new files:</strong> alaska-permanent-fund, chattanooga-municipal-broadband, mondragon-cooperative, vienna-social-housing, ancient-egypt-pyramids, qin-dynasty-monumental-extraction. <strong>1 upgraded:</strong> indigenous-land-dispossession (stub → 251 lines).</td></tr>
+<tr><td><code>research/</code></td><td><strong>New:</strong> <code>commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md</code> (~400 lines).</td></tr>
+<tr><td><code>manuscript/chapters/</code></td><td>6 chapter drafts modified (Ch 2, 5, 7, 8, 9, 10). Ch 1 + Ch 3 guidance docs substantially expanded. No new chapter drafts yet (Ch 1 + Ch 3 remain Chris-authorial).</td></tr>
+<tr><td><code>alignment/sessions/</code></td><td>v1.34.0 handoff → archived next session; v1.35.0 (this file).</td></tr>
+</table>
+
+<h2>Open items + decisions pending for next session</h2>
+
+<div class="info">
+<ul>
+  <li><strong>Tier-structure decision</strong> (still the #1 unblocker). Options A / B / Principle 1-4. Chris leans Option B. Likely route: v1.0.7 comparative rigor pass.</li>
+  <li><strong>Autonomy coverage gap</strong>: resolution is tier-structure-decision-adjacent.</li>
+  <li><strong>Indigenous case sensitivity-reader engagement</strong>: non-optional pre-publication gate per case file §7.1. Chris should begin identifying candidate readers. Ideally Lakota Nation given primary exemplar.</li>
+  <li><strong>Ch 10 final paragraph commitment</strong>: 3 candidates drafted at <code>research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md</code> §2 (A prescription-led, B image-led, C sentence-led hybrid — Claude recommended C). Chris's authorial call.</li>
+  <li><strong>Grandfather-at-Langley specificity</strong> for Ch 10 — Chris-only memory-work (which tunnels, who the model makers were, how people spoke about him).</li>
+  <li><strong>Ch 1 final placement questions</strong>: whether to include a one-sentence forward reference to Ch 7's historical-universality section; additional-original-scene selection (nursing / healthcare-IT / SGA); feudalism optional Ch 1 treatment.</li>
+  <li><strong>Feudalism case-study file deepening</strong> (optional): current file is 51 lines placeholder; for Ch 7's weight, could optionally deepen to parallel Egypt (~80) / Qin (~100) depth.</li>
+  <li><strong>IPG reconciliation</strong>: canonical McDowell (33-122x) vs. Ch 6 table forms (5-133x + 19-47x); canonical Libby (40x) vs. Ch 6 table (55-82x + 40-80x); canonical Deepwater (40% recovery ratio) vs. Ch 6 table (15-17x + ~15x). Chapter audit §2.6 integration item.</li>
+  <li><strong>Chesapeake fieldwork</strong>: Fort Monroe bar reopening + watermen interviews per case-study audit §9.1.</li>
+  <li><strong>Length management passes</strong>: Ch 5 (6 cases, may exceed ~3,500-4,000 target), Ch 9 (~5,900 words post-reachable-horizon).</li>
+  <li><strong>Ch 6 HTML → .md + MathJax format conversion</strong> for production.</li>
+  <li><strong>AUTHORSNOTE + Dedication guidance docs</strong> — per chapter audit §4.2 recommendation to extract meta-guidance from current mixed-content files into dedicated guidance docs.</li>
+</ul>
+</div>
+
+<h2>Operating observations from this session</h2>
+
+<div class="operating">
+<ul>
+  <li><strong>Parallel audit architecture works.</strong> The chapter audit + case-study audit pair at <code>core/chapters/</code> + <code>core/case-studies/</code> is the right home for this kind of standing canonical reference. Both files are now at v1.0.5 with integration catalogs + per-entry routing. Future integration work can reference these rather than re-derive placement.</li>
+  <li><strong>Compressed rigor during integration is sufficient.</strong> Applied per-case during v1.0.3 + v1.0.4 + v1.0.5 integrations; caught the significant issues (feudalism's Marxist-adjacency, sensitivity-reader-gate interpretation, Ch 1 register-discipline protection). Full-rigor pass on the 6 new cases is a next-session optional followup, not a blocker.</li>
+  <li><strong>Editorial latitude + explicit ratification works well.</strong> Chris gave "whichever chapter makes the most sense for the book" latitude on Egypt + Qin placement; the Ch 7 call was made and ratified. Keeps velocity without sacrificing alignment.</li>
+  <li><strong>Mid-flight corrections are cheap in this protocol.</strong> Feudalism-Ch-1 framing was reframed twice in a single session (optional-redundant → load-bearing → replaced by Egypt + Qin → routed to Ch 7). Each reframe was a few-minute edit + commit. The audits' change-log discipline makes the reasoning traceable.</li>
+  <li><strong>Honest incompleteness framing works in draft prose.</strong> Ch 10's indigenous anchor uses "the work of engaging it fully... remains ahead of me" rather than pretending the case is fully carried. This lands better than over-claiming, and it preserves the pre-publication sensitivity-reader gate as a concrete next step rather than a vague aspiration.</li>
+  <li><strong>Read-the-audit-before-editing-guidance discipline</strong> is load-bearing. Chris flagged mid-session that I was expanding Ch 1 + Ch 3 guidance without reading chapter audit §2.1 + §2.3 first; correcting that produced substantially better output on the second pass.</li>
+  <li><strong>Pair-then-route</strong> (Egypt + Qin paired, then routed to Ch 7) is a decision-quality improvement over single-case-placement. The pairing itself forecloses the "singling out a culture" reading; the routing decision is then clean.</li>
+</ul>
+</div>
+
+<p class="meta">End of handoff. Archive <code>commons-bonds-session-handoff-2026-04-23_v1.34.0.html</code> to <code>alignment/sessions/archive/</code> as part of the next session's first commit.</p>
+
+</body>
+</html>
