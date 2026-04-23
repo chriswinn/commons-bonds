@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-23 · v1.33.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .decision     { background: #f3e8ff; border-left: 4px solid #7a3ea1; padding: 1em 1.2em; margin: 1em 0; }
+  .operating    { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .milestone    { background: #e8f2fa; border-left: 4px solid #2a5a8c; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .snippet      { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .decision-label { color: #7a3ea1; font-weight: 600; }
+  .version  { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-23 · Version <span class="version">1.33.0</span> · Supersedes v1.32.0 · Long, high-throughput session with <strong>19 commits landed to main</strong>, smaller-focused-commit discipline adopted, project-folder review + case-study migration nearly complete, and protocol escalated to v1.3.0 with standing book-integrity tests.</p>
+
+<div class="status">
+<strong>STATUS:</strong> Protocol <strong>v1.3.0 locked</strong> with Test 28 (earning-its-place) + Test 29 (scaffolding-vs-book-worthy) as standing checks at every rigor depth. <strong>8-tier rigor pass v1.0.6</strong> done — all 8 tiers earn their place; <strong>Autonomy coverage gap flagged</strong> as potential Tier 9 (or organizing-principle restructure). <strong>Tier-structure decision deferred</strong> pending completion of project-folder review + case-study audit. <code>archive/Consider Including/</code> <strong>is now empty</strong>. All April 19 sources captured. Case-study folder has 3 new full captures (Social Security, blood diamonds, feudalism), 1 expansion (Nigeria + Venezuela + Iran), 3 validation-case stubs (Canadian tar sands, Chesapeake fisheries, Indigenous land dispossession). File 2 + File 3 per-section split into 12 individually-reviewable pending-review items in <code>alignment/decisions/</code>.
+</div>
+
+<div class="snippet">
+<h2>Copy-paste snippet for next session start</h2>
+<pre>Starting Commons Bonds session — picking up from handoff v1.33.0 (2026-04-23).
+
+Please read these files before responding:
+- commons-bonds-session-handoff-2026-04-23_v1.33.0.html  (this handoff — read first)
+- tools/README.md
+- tools/commons_bonds_rigor_protocol_v1.3.0.md
+- tools/commons_bonds_guiding_constraints_v1_0_0.md
+- core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md
+- tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md  (latest — 8-tier full rigor)
+
+Current canonical state to verify:
+- 10 dimensions LOCKED: Habitability, Spatial, Temporal, Institutional, Kindred,
+  Ecosystem, Political, Cohesion, Epistemic, Autonomy. Naming cohort COMPLETE.
+- Rigor protocol: v1.3.0 canonical — Tests 28 + 29 are standing book-integrity
+  checks at every rigor depth (even light passes).
+- Technical Appendix: v0.0.3 canonical.
+- 8-tier decomposition: all 8 earn their place under v1.0.6 full rigor;
+  Autonomy-consent-dimension coverage gap flagged; tier-structure decision
+  (Options A/B + Principle 1-4) deferred pending project-folder review close.
+- Naming convention: dots going forward; historical files keep underscores.
+- Operating discipline: smaller focused commits, push each to main directly
+  (low collision risk; Chris + Claude only).
+
+Pending-review queue in alignment/decisions/:
+  12 April 19 items (7 from File 3 "theoretical captures" + 5 from File 2
+  "RCV formal-model session"), each marked Status: Pending review. Split
+  per-section so each can be individually reviewed and accepted / deferred /
+  retired without entangling with the others.
+
+Top priority this session (in order):
+1. Review alignment/decisions/ pending-review items — ratify or defer each.
+2. Project-folder review: remaining areas (archive/ top-level files —
+   chapter_assessment, integrated_framework, eight-tier-decomposition-v10;
+   archive/_One Day Maybe/; archive/workstreams/; archive/prototypes/100Barrel;
+   publishing/). Apply Tests 28 + 29 + Book 1/2/3 routing.
+3. Case-study earning-its-place audit: which case-study files are Book 1,
+   Book 2/3, or scaffolding?
+4. Tier-structure decision (v1.0.7 comparative rigor on organizing principles
+   + Autonomy coverage gap + Option A reframe vs. Option B one-pass restructure).
+5. Chapter guidance revision (reflect locked dimensions + locked tier structure).
+6. Chapter rewrites + 2 new chapters (final drafting pass).
+
+Additional thoughts for this session (Chris, fill in here before sending):
+[                                                                                           ]
+[                                                                                           ]
+</pre>
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY — review pending-review items + close project-folder review + tier-structure decision</h2>
+
+<p><strong>Starting sequence for next session</strong> (Chris's preferred order pulled from this session's discussion):</p>
+
+<ol>
+  <li><strong>Review the 12 pending-review items in <code>alignment/decisions/</code></strong> (all filenames begin with <code>april-19-</code>). Each was split out of File 2 / File 3 so they can be ratified, deferred, or retired individually. Several are high-priority and load-bearing (revised thesis, commons-bonds-master-term, broader-than-capitalism, RCV triangulated estimation, Hotelling identity); others are Book 2 / future (consumer-generation, reproductive-labor publishing strategy).</li>
+  <li><strong>Finish systematic project-folder review.</strong> Areas not yet audited this session:
+    <ul>
+      <li><code>archive/</code> top-level files: <code>chapter_assessment.md</code>, <code>integrated_framework.md</code>, <code>eight-tier-decomposition-v10.md</code>.</li>
+      <li><code>archive/_One Day Maybe/</code> — unknown contents.</li>
+      <li><code>archive/workstreams/</code> (renamed from <code>workstreams-old/</code> by Chris this session).</li>
+      <li><code>archive/prototypes/100Barrel/</code>.</li>
+      <li><code>publishing/</code>.</li>
+    </ul>
+    Apply Test 28 (earning-its-place) + Test 29 (scaffolding-vs-book-worthy) + Book 1/2/3 routing to each.
+  </li>
+  <li><strong>Case-study earning-its-place audit.</strong> Evaluate each file in <code>research/case-studies/</code> against Book 1 / Book 2-3 / scaffolding routing.</li>
+  <li><strong>Tier-structure decision</strong> (deferred from this session — see <code>tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md</code> §9.2 + §10). Options on the table:
+    <ul>
+      <li><strong>Option A (reframe)</strong> — treat 8 tiers as worked examples, not exhaustive decomposition; ship as-is with Autonomy covered via case-study examples.</li>
+      <li><strong>Option B (one-pass restructure)</strong> — 10 top-level tiers matching 10 dimensions; current tier vocabulary preserved as sub-categories.</li>
+      <li><strong>Principle 1-4 choice</strong> — what organizes the tiers (scope-by-duration, cost-bearer-category, temporal-granularity, dimension-alignment).</li>
+    </ul>
+    Likely route: v1.0.7 comparative rigor pass on organizing principles, then execute restructure as one coordinated pass across tier doc + decomposition folder + technical appendix + chapter guidance docs.
+  </li>
+  <li><strong>Chapter guidance revision</strong> (reflect locked dimension names + locked tier structure + case-study inclusions + personal-story anchors).</li>
+  <li><strong>Chapter rewrites + new chapter drafting</strong> (8 drafted chapters rewritten; 2 remaining chapters drafted).</li>
+</ol>
+</div>
+
+<h2>Session v1.32.0 → v1.33.0: accomplishments</h2>
+
+<p class="meta">19 commits landed to main this session. Chris directed smaller-focused-commit discipline — "start disciplining myself to do smaller more focused commits which handle one thing very much aligned with coding best practices" — and push-to-main cadence after each commit. Below grouped by theme rather than strictly commit-order.</p>
+
+<div class="milestone">
+<h3>Protocol escalation — v1.2.2 → v1.3.0 with standing book-integrity tests</h3>
+<p>Commit <code>8fe0393</code> — <strong>rigor protocol v1.3.0</strong> adds §5A with two tests mandatory at every rigor depth (even light passes):</p>
+<ul>
+  <li><strong>Test 28 — Earning-its-place test.</strong> Does this item's inclusion in the book pay for itself? Does it add insight, case coverage, or connective tissue not already provided by other content? If yes, it earns its place; if no, it's scaffolding or throwaway.</li>
+  <li><strong>Test 29 — Scaffolding-vs-book-worthy test.</strong> Is this content something a reader directly encounters in the book (book-worthy) or is it process / methodology / decision-trail for the author and collaborators (scaffolding)? Scaffolding belongs in <code>tools/</code>; book-worthy belongs in <code>core/</code> or <code>manuscript/</code>.</li>
+</ul>
+<p>Both tests now standing in every pass type — even light Groups A-F only. Protocol version bumped.</p>
+</div>
+
+<div class="milestone">
+<h3>8-tier decomposition — full rigor pass v1.0.6 (all 8 earn place; Autonomy gap flagged)</h3>
+<p>Commit <code>8fe0393</code> — <strong>8-tier rigor pass v1.0.6</strong> ran each tier through full rigor (Groups A-F + 25-character suite + earning-its-place + scaffolding judgment). Findings:</p>
+<ul>
+  <li><strong>All 8 tiers earn their place</strong> under Test 28. Each carries load the others don't; no redundancies that would warrant merger.</li>
+  <li><strong>8-tier structure is heterogeneous</strong> — 5 different naming principles across the tiers (scope, methodology, event/remedy, structure/object, mechanism, context, content). This is not itself a failure, but raises a principle-selection question for downstream structural work.</li>
+  <li><strong>Autonomy coverage gap flagged</strong> — the 10 dimensions include Autonomy (principal-agent, consent, self-determination), but no tier is dedicated to consent / autonomy / self-determination cost. Might be handled via:
+    <ul>
+      <li>Existing tiers (implicit; e.g. Dynastic Labor, Political Capture) carry autonomy load without naming it — which may be acceptable at the decomposition level if Autonomy operates as a case-study cross-cutting property rather than a cost category.</li>
+      <li>A new Tier 9 "Autonomy Cost" / "Consent Severance Cost" / "Self-Determination Cost" — adds structural tidiness at cost of tier proliferation.</li>
+      <li>A full restructure around dimension-alignment (Principle 4) — 10 tiers mapped 1:1 to dimensions.</li>
+    </ul>
+    Tier-structure decision deferred pending project-folder review close.
+  </li>
+  <li><strong>Option A vs. Option B</strong> framed in §9.2. Chris leans Option B ("might be the move and frankly if we go with Option A, I might be tempted to revisit Option B down the line prior to publishing anyway") but wants the decision after project-folder review + case-study audit so the structural pass can absorb everything in one coordinated restructure.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Project-folder systematic review — Tests 28 + 29 + Book 1/2/3 routing applied folder by folder</h3>
+
+<p>This was the session's dominant throughput. Commits <code>94ae073</code>, <code>d4a137a</code>, <code>56d87f7</code>, <code>9ab1bb4</code>, <code>80d0eef</code>, <code>cf90bca</code>, <code>1bd969b</code>, <code>28d72c3</code>, <code>b690760</code>, <code>3a3300c</code>, <code>ce299d0</code>, <code>3a249d4</code>, <code>f8f1c0b</code>, <code>c3cbb3e</code>, <code>3ee5bec</code>.</p>
+
+<h4>Retirements (source superseded, duplicate, or fully captured)</h4>
+<ul>
+  <li><code>core/decomposition/error-out-v10.html</code> — duplicate of eight-tier-v10 per Chris's recollection that the broken session that produced this file was the motivator for shifting research to GitHub.</li>
+  <li><code>archive/prototypes/commons-bonds-multi-scale-revision-prototype.html</code> — prototype superseded by multi-scale work already integrated into canonical docs.</li>
+  <li><code>tools/archive/preferences_privacy_addendum_v1_0_1.md</code> — content already in <code>claude_prefs.md</code>; retired.</li>
+  <li><code>tools/archive/userMemories_proposed_2026-04-21_v1_0_1.md</code> — content already in memory system.</li>
+  <li><code>archive/Consider Including/commons_bonds_session_notes_april_19_2026... 3.html</code> (File 3) — captured to <code>core/framework/april-19-theoretical-captures.md</code> <em>then</em> further split into per-section pending-review items in <code>alignment/decisions/</code>; source retired.</li>
+  <li><code>archive/Consider Including/commons_bonds_new_material_from_sociology_chat... 4.html</code> (File 4) — scaffolding captured to <code>alignment/decisions/essay-publishability-and-book-todo-2026-04-19.md</code> + <code>sociology-paper-to-book-transition.md</code>; source retired.</li>
+  <li><code>archive/Consider Including/commons_bonds_new_material_april_19_2026... 2.html</code> (File 2) — RCV formal-model session split per-section into 5 pending-review items in <code>alignment/decisions/</code>; source retired.</li>
+  <li><strong><code>archive/Consider Including/</code> folder is now empty.</strong></li>
+</ul>
+
+<h4>Case-study folder expansions</h4>
+<ul>
+  <li><strong>Nigeria oil contrast</strong> (<code>80d0eef</code> HTML intermediate + <code>cf90bca</code> .md migration + <code>b690760</code> expansion) — originally in <code>.chriswinn/ai-session-project-main/</code> (out-of-scope abstracted-project folder), moved to canonical case-studies; expanded with Venezuela + Iran paired-case reference for broader comparative framing.</li>
+  <li><strong>Social Security extraction</strong> (<code>1bd969b</code>) — migrated from archive; counterfactual math shows $108T Dynastic Labor Cost (FCIC 2011 reference).</li>
+  <li><strong>Blood diamonds</strong> (<code>3a3300c</code>) — captured from File 3 stress-test; simulated-severance / ethical-surcharge-as-performance-reattachment insight preserved.</li>
+  <li><strong>Feudalism</strong> (<code>ce299d0</code>) — captured from File 3 stress-test; broader-than-capitalism framing; cost-bearer-blaming narrative is ancient.</li>
+  <li><strong>Canadian tar sands</strong> (stub in <code>3a249d4</code>) — RCV validation, different-institutional-context axis.</li>
+  <li><strong>Chesapeake fisheries</strong> (stub in <code>3a249d4</code>) — RCV boundary test, renewable-pushed-past-regenerative-capacity; high Hampton-roots personal relevance.</li>
+  <li><strong>Indigenous land dispossession</strong> (stub in <code>3a249d4</code>) — cross-domain enclosure test; flagged <strong>NOT OPTIONAL for Book 1</strong>; may require dedicated chapter-level treatment rather than case-study-among-many.</li>
+</ul>
+
+<h4>Villain analysis migration</h4>
+<ul>
+  <li>Commit <code>28d72c3</code> — archive villain-analysis theoretical content migrated to <code>manuscript/chapters/Chapter_10___GuidanceDoc.md</code>. Appended Theoretical Development section covering the four holes + where-the-real-villain-is (absent institutional legibility infrastructure) + Ch. 10 closing anchor <em>"Establish the prior claim of future generations on commons resources as a first principle of political economy"</em>.</li>
+</ul>
+
+<h4>April 19 sources per-section split (latest work)</h4>
+<ul>
+  <li>Commit <code>3ee5bec</code> — File 2 (5 BLOCKs) and File 3 (7 sections) split into 12 individually-reviewable pending-review files in <code>alignment/decisions/</code>. Each marked <strong>Status: Pending review</strong>, each carries priority + integration target + source citation. Purpose: allow Chris to ratify, defer, or retire each decision without entanglement with the others.</li>
+</ul>
+
+<p>File 2 per-section items (5):</p>
+<ul>
+  <li><code>april-19-rcv-two-instrument-distinction.md</code> (Block 1 — reparations model analysis, 5 holes, CSD-vs-RCV distinction)</li>
+  <li><code>april-19-rcv-triangulated-estimation.md</code> (Block 2 — three-method framework)</li>
+  <li><code>april-19-rcv-hotelling-identity.md</code> (Block 3 — RCV − Hotelling rent = cost severance identity)</li>
+  <li><code>april-19-rcv-validation-strategy.md</code> (Block 4 — Norway calibration + primary tests + boundary/cross-domain tests)</li>
+  <li><code>april-19-rcv-honest-assessment.md</code> (Block 5 — self-assessment of the formal-model proposal)</li>
+</ul>
+
+<p>File 3 per-section items (7):</p>
+<ul>
+  <li><code>april-19-revised-thesis.md</code> (High priority)</li>
+  <li><code>april-19-commons-bonds-master-term.md</code> (High priority; commons-architecture proposed to replace solidarity-architecture)</li>
+  <li><code>april-19-moral-externality.md</code> (Medium priority; theoretical bridge for Noema / Boston Review engagement)</li>
+  <li><code>april-19-universality-stress-test-remainder.md</code> (Medium priority; links to individual case-study files)</li>
+  <li><code>april-19-broader-than-capitalism.md</code> (High priority; Ch. 1 / prologue distinct paragraph)</li>
+  <li><code>april-19-publishing-strategy-reproductive-labor.md</code> (High priority; publishing-strategy decision)</li>
+  <li><code>april-19-consumer-generation-observation.md</code> (Medium priority; Book 2)</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Chris-initiated rename — <code>workstreams-old</code> → <code>workstreams</code></h3>
+<p>Commit <code>7ff776b</code> (Chris direct push) — renamed <code>archive/workstreams-old/</code> to <code>archive/workstreams/</code> since the old content was superseded and the "-old" suffix no longer meaningful once the active workstream work migrated elsewhere. This caused a one-time merge conflict during my rebase; resolved cleanly.</p>
+</div>
+
+<h2>Memory updates this session</h2>
+
+<div class="info">
+<p>Updates to <code>~/.claude/projects/-Users-c17n-Documents----WorkingOn-commons-bonds/memory/</code> (persists across sessions):</p>
+<ul>
+  <li><strong>Smaller focused commits</strong> — <code>feedback_git_push_cadence.md</code> amended with commit-scope discipline addendum. Chris: "start disciplining myself to do smaller more focused commits which handle one thing very much aligned with coding best practices."</li>
+  <li><strong>8/10 chapters drafted</strong> — <code>project_drafting_state_and_history.md</code> updated. Chris corrected my misassumption that only a handful of chapters existed.</li>
+  <li><strong>Data-loss risk contained via GitHub</strong> — same memory file updated. Chris: "to state it's in ongoing risk isn't really accurate anymore. Everything is in GitHub now." Rephrased to describe the prior incident without implying current ongoing risk.</li>
+  <li><strong>.chriswinn/ folder out of scope</strong> — <code>project_chriswinn_abstracted_version.md</code> notes the abstracted-version subfolder at <code>.chriswinn/ai-session-project-main/</code> is gitignored and out of this project's operating scope. Files placed there should not be committed to <code>commons-bonds</code>.</li>
+  <li><strong>User role addition</strong> — <code>user_role.md</code> now notes ethics-teaching aspiration + NCLEX-RN → CRNA path with Nurse Practitioner as backup.</li>
+  <li><strong>July 15 state-board appointment</strong> — <code>project_near_term_gates.md</code> updated with the selection-notification gate.</li>
+</ul>
+</div>
+
+<h2>Commits this session (19 total, all pushed to main)</h2>
+
+<table>
+<tr><th>SHA</th><th>Scope</th><th>Summary</th></tr>
+<tr><td><code>8fe0393</code></td><td>protocol + rigor</td><td>rigor protocol v1.2.2 → v1.3.0 (Tests 28 + 29 standing) + 8-tier rigor pass v1.0.6</td></tr>
+<tr><td><code>94ae073</code></td><td>retirement</td><td>retire core/decomposition/error-out-v10.html as duplicate</td></tr>
+<tr><td><code>d4a137a</code></td><td>retirement</td><td>delete archive/prototypes/commons-bonds-multi-scale-revision-prototype.html</td></tr>
+<tr><td><code>56d87f7</code></td><td>retirement</td><td>delete tools/archive/preferences_privacy_addendum_v1_0_1.md</td></tr>
+<tr><td><code>9ab1bb4</code></td><td>retirement</td><td>delete tools/archive/userMemories_proposed_2026-04-21_v1_0_1.md</td></tr>
+<tr><td><code>80d0eef</code></td><td>case-study</td><td>converted Nigeria Contrast Case to .html (intermediate step before .md migration)</td></tr>
+<tr><td><code>7ff776b</code></td><td>rename (Chris)</td><td>workstreams-old → workstreams</td></tr>
+<tr><td><code>cf90bca</code></td><td>case-study</td><td>migrate Nigeria Contrast Case from archive to research/case-studies/ as .md</td></tr>
+<tr><td><code>1bd969b</code></td><td>case-study</td><td>migrate Social Security Case from archive to research/case-studies/ as .md</td></tr>
+<tr><td><code>28d72c3</code></td><td>manuscript</td><td>migrate villain-analysis theoretical development to Ch. 10 guidance doc</td></tr>
+<tr><td><code>b690760</code></td><td>case-study</td><td>expand nigeria-oil-contrast.md with Venezuela + Iran paired-case reference</td></tr>
+<tr><td><code>3a3300c</code></td><td>case-study</td><td>capture blood-diamonds case study — simulated-severance as system immune response</td></tr>
+<tr><td><code>ce299d0</code></td><td>case-study</td><td>capture feudalism case study — mechanism predates capitalism</td></tr>
+<tr><td><code>3a249d4</code></td><td>case-study</td><td>capture three RCV-validation-case placeholders (Canadian tar sands, Chesapeake fisheries, Indigenous land dispossession)</td></tr>
+<tr><td><code>f8f1c0b</code></td><td>retirement + capture</td><td>retire sociology-chat File 4; capture scaffolding (publishability + todo) to alignment/decisions</td></tr>
+<tr><td><code>c3cbb3e</code></td><td>retirement + capture</td><td>retire April 19 session notes File 3; capture remaining theoretical content to core/framework/</td></tr>
+<tr><td><code>3ee5bec</code></td><td>split + retirement</td><td>File 2 + File 3 per-section split into 12 pending-review items in alignment/decisions/</td></tr>
+</table>
+
+<p class="meta">Two commit shas above are paired-cleanup commits (e.g. <code>80d0eef</code> + <code>cf90bca</code> were the html-intermediate then md-migration pair for Nigeria). Total 17 distinct git commits from my side + 1 from Chris + 1 session-handoff = 19.</p>
+
+<h2>Open items / context for next session</h2>
+
+<div class="info">
+<ul>
+  <li><strong>Pending-review queue</strong>: 12 items in <code>alignment/decisions/</code> all with <code>Status: Pending review</code>. Each carries a priority mark (High / Medium) and integration target. Chris's intended workflow: review and accept / defer / retire each individually without entangling.</li>
+  <li><strong>Tier-structure decision deferred</strong>: see <code>tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md</code> §9.2 + §10. All context captured; can be resumed anytime after project-folder review + case-study audit complete.</li>
+  <li><strong>Autonomy coverage gap</strong>: likely resolved as part of the tier-structure decision. Options: absorb via case-study cross-cutting property, add Tier 9, or restructure 8-tier → 10-tier dimension-aligned (Principle 4).</li>
+  <li><strong>Option B downstream work queued</strong>: rename <code>core/decomposition/</code> → <code>core/framework/</code> + absorb dimensions doc into framework folder + retire / update eight-tier-v10 content. This is all coordinated with the tier-structure decision — one pass rather than piecemeal.</li>
+  <li><strong>Coordinated methodology-doc revision sweep</strong>: <code>alignment/patches/c2</code> and <code>c9</code> dimension-name updates, <code>core/glossary/</code> terminology propagation, <code>core/technical-appendix/</code> revision. Queued pending tier-structure decision so all methodology revisions happen in one coordinated pass.</li>
+  <li><strong>Project-folder review not complete</strong>: remaining areas listed in Top Priority #2 above. Don't treat as done.</li>
+  <li><strong>Case-study earning-its-place audit pending</strong>: all captures are done but no Book 1/2/3 routing audit yet.</li>
+  <li><strong>Bibliography cross-check pending</strong>: references in <code>alignment/decisions/essay-publishability-and-book-todo-2026-04-19.md</code> "Key References" section should be cross-checked against <code>research/literature/bibliography.md</code> — some already there, some potentially missing.</li>
+</ul>
+</div>
+
+<h2>Session context observations</h2>
+
+<div class="operating">
+<ul>
+  <li><strong>Smaller-focused-commits discipline adopted</strong>. This session was explicitly Chris's turning point toward coding-best-practice commit hygiene. Future sessions should continue this cadence — one concern per commit, push immediately to main (low collision risk with Chris + Claude only).</li>
+  <li><strong>Direct-to-main workflow</strong> active. No PR workflow, no branch protection issues. Chris may also push directly (happened this session with <code>7ff776b</code>); plan for occasional merge-conflicts during rebase.</li>
+  <li><strong>Pending-review pattern</strong>: when capturing ambiguous material from archive sources, splitting into per-section pending-review files in <code>alignment/decisions/</code> with <code>Status: Pending review</code> is the pattern that worked at end-of-session. Future captures of similar source material should follow this pattern rather than creating large aggregate captures that are then hard to individually review.</li>
+  <li><strong>Standing test pattern</strong>: Tests 28 + 29 now run on every rigor depth. Even light passes must report earning-its-place + scaffolding-vs-book-worthy verdict. This is a lightweight check but load-bearing — it prevents gradual accumulation of scaffolding in canonical locations.</li>
+</ul>
+</div>
+
+<p class="meta">End of handoff. Archive <code>commons-bonds-session-handoff-2026-04-22_v1.32.0.html</code> to <code>alignment/sessions/archive/</code> as part of the next session's first commit.</p>
+
+</body>
+</html>
