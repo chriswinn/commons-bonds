@@ -29,8 +29,19 @@ The passage does two things the essay currently doesn't:
 
 ---
 
+## Paired cases in the same pattern — Venezuela + Iran
+
+The April 19 session universality stress-test (`archive/Consider Including/commons_bonds_session_notes_april_19_2026... 3.html` — itself pending migration) treats **Nigeria, Venezuela, and Iran** as a group under a single "Oil" row of the stress-test matrix. Their shared structural pattern per that source:
+
+- **Value captured:** petroleum companies and shareholders; profit expatriated; governments overthrown to facilitate extraction.
+- **Accountability severed onto:** communities on exhausted land with no resource, no infrastructure, no self-chosen government.
+- **What they add to the framework:** Norway enters as proof of concept (accountability reattachment institutionally possible). Nigeria / Venezuela / Iran are the counter-proofs demonstrating that the outcome is not geological but political-institutional.
+
+Venezuela and Iran do not yet have dedicated case-study files. The Nigeria case (above) is the paradigmatic instance with specific documented content; Venezuela and Iran fit the same pattern but would require separate source-documentation work before getting their own dedicated files. For now, reference the pattern as "Nigeria and analogous oil-extraction cases (Venezuela, Iran)" when citing the broader pattern; reference just Nigeria when citing specific documented detail.
+
 ## Next-step suggestions (not from source; Claude-added for completeness)
 
 - Develop documentary sources: Niger Delta oil-spill record (Shell / ExxonMobil / Chevron); Ken Saro-Wiwa and MOSOP context; UNEP environmental assessments; academic literature on oil extraction and resource curse.
 - Frame against the framework's 10-dimension structure: the Niger Delta case plausibly activates Habitability, Ecosystem, Kindred, Spatial, Political, and Epistemic dimensions together — a dense multi-dimension activation that mirrors Appalachian coal's structure at a different geography + scale.
 - Decide whether Nigeria is a standalone chapter-integrated passage (placement option 1 or 2) or a case-study anchor for a broader international section. Chapter-guidance revision after tier-structure decision will route this.
+- Decide whether Venezuela and Iran should become separate case-study files or stay as paired-reference mentions. Separate files would require dedicated source-documentation work; paired reference is sufficient for the "Norway is not geology but choice" argument the Nigeria case serves.
