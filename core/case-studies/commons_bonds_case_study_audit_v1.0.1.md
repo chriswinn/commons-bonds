@@ -1,11 +1,11 @@
 # Commons Bonds — Case Study Audit
 
-**Version:** 1.0.0
-**Date:** 2026-04-23
+**Version:** 1.0.1
+**Date:** 2026-04-23 (evening update)
 **Status:** Canonical reference for Book One chapter drafting + standing framework-integrity audit. **Parallel to `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md`** — where the dimensions doc provides rich profiles for the 10 canonical dimensions, this doc provides rich profiles for the 16 canonical case studies, with each run through the v1.3.0 rigor protocol and routed to Book 1 / Book 2 / Book 3 / scaffolding.
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v1.3.0.md` (full rigor per case, compressed rendering — Groups A, 5A standing, and selected Group B-F + character suite pressure points that produce findings; silent characters condensed).
-**Supersedes:** None — first consolidated case-study audit.
-**Related:** `alignment/decisions/alternate-8-tier-individual-level-retired.md` (tier-structure-decision input); `alignment/decisions/ws12-ipg-data-table-for-reconciliation.md` (IPG-framing reconciliation target); `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md` (8-tier rigor pass).
+**Supersedes:** v1.0.0 (2026-04-23 afternoon). Patch bump: adds §9 Fieldwork guidance — per-case interview recommendations (who + what questions) to drive Chris's workstream-11 fieldwork sequencing. No structural changes to §§0–8.
+**Related:** `alignment/decisions/alternate-8-tier-individual-level-retired.md` (tier-structure-decision input); `alignment/decisions/ws12-ipg-data-table-for-reconciliation.md` (IPG-framing reconciliation target); `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md` (8-tier rigor pass); `research/case-studies/indigenous-land-dispossession.md` (CRITICAL-DEVELOP case, now at substantial depth); `research/case-studies/alaska-permanent-fund.md` + reachable-horizon cluster (Chattanooga, Mondragon, Vienna); `research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md` (contingency argument + final-paragraph candidates + Nordic steelman + register discipline).
 
 ---
 
@@ -1384,4 +1384,162 @@ Version numbering:
 
 ---
 
-*End of Commons Bonds Case Study Audit v1.0.0.*
+## §9. Fieldwork guidance (added v1.0.1)
+
+Per Chris's direction: the audit should drive who to interview and what questions to ask. This section translates the per-case profiles into a per-case fieldwork specification. It is scaffolding for Chris's workstream-11 work — it is not canonical framework content. Retained here with the audit because the per-case analytical context feeds the interview design directly.
+
+**Sequencing principle.** Fieldwork runs opportunistically as access surfaces. Do not treat as sequential must-complete-in-order work. Instead, when any of the interview-targets becomes accessible (Fort Monroe bar reopens, a McDowell contact surfaces, Norway travel opportunity arises, etc.), use the relevant §9.N as the interview prep.
+
+### 9.1 Chapter 3 (Chesapeake fisheries / The Waterman) — BLOCKING
+
+**Why first:** Ch 3 is undrafted; the case-study file is a stub; the chapter cannot be written without fieldwork anchor.
+
+**Who to interview** (in priority order):
+1. **Working waterman with 30+ years on the water.** Ideally based at Fort Monroe, Tangier Island, or one of the remaining working waterfronts on the Virginia or Maryland Chesapeake. Look for someone who can speak to: oyster harvest volumes they remember across decades; blue crab catch changes; seasonal rhythm changes; specific named changes in water color / clarity / smell; specific named species disappearances or returns.
+2. **Retired waterman with family members still on the water.** A generational witness — can speak to what his grandfather did, what he did, what his son does, and what is different across the three.
+3. **Chesapeake Bay Foundation scientist or fisheries manager.** For the institutional-side perspective on regulatory failures + governance attempts + specific measurement data on Bay decline.
+4. **Academic at Virginia Institute of Marine Science (VIMS).** For the scholarly anchor — who has studied the specific fishery-collapse mechanisms; who knows where the data anomalies are.
+
+**Core questions:**
+- What did your father / grandfather fish? What did you fish? What do your children / grandchildren fish (if they fish at all)?
+- Can you point to a specific year or event when you saw the water or the harvest change?
+- What was the last year you caught (specific species) in (specific place)?
+- What do you tell your children about whether to stay on the water?
+- When did the sense change — if it changed — from "we're adjusting to seasonal variation" to "this is structural decline"?
+- What does the framework's word for the harm register as: "severed cost"? "Accountability gap"? "Residual commons value"? Do any of these land as accurate descriptions of what you've experienced?
+- What were the watermen asked to give up, that you don't think the Bay or the broader community ever paid back?
+
+**Tone / consent notes:**
+- Record with consent; offer anonymity option; offer to share transcript before publication; ask what the waterman wants to be called in the book (name, waterman, "a waterman I know").
+- Do not fish for the sentence you want to quote — the goal is understanding the situation, not a quotable line.
+- Chris's Hampton roots are an asset here — you are not a visiting academic; you are someone with personal geography.
+
+**Specific anchor-moments to probe:**
+- Oyster-harvest collapse (dates vary by subregion; Virginia vs. Maryland; peak 1880s–1900s → 99% decline by 1990s).
+- Menhaden and striped-bass management disputes (specific regulatory battles).
+- "Dead zones" / hypoxia events (specific years + locations).
+- Reckonings around aquaculture (oyster-reef restoration; whether this is restoration or a different thing).
+
+**Research gaps this fieldwork closes:**
+- Case-study file §1 (brief) + §6 (framework application) currently empty. Interviews fill these.
+- Ch 3 draft — entire chapter currently absent.
+
+### 9.2 Chapter 2 (Appalachian coal / The Miner) — enhancement
+
+**Why next:** Coal case is the densest-multi-dimension case in the framework; interview-grounding would strengthen an already-drafted chapter + provide material for the opioid-extension integration.
+
+**Who to interview** (in priority order):
+1. **Former coal miner (black lung case).** Direct pension / compensation / medical experience.
+2. **Miner's widow or surviving family member.** Caregiving experience + lifetime-impact observation + children-left-or-stayed choices.
+3. **McDowell County resident (generational).** Someone who remembers peak-population McDowell, who stayed, who can speak to community collapse first-hand.
+4. **Appalachian Citizens' Law Center attorney or similar advocate.** Legal / policy / institutional expert working on the mechanism's current effects.
+5. **United Mine Workers of America local-chapter member.** Union history + contemporary status perspective.
+
+**Core questions:**
+- What did the mine company promise your family? What did it deliver? Where did the gap go?
+- What happened to the children in your town — who stayed, who left, who came back?
+- When did you know that black lung was going to be part of your life?
+- What would compensation look like that would make your family whole? (Not what is legally available — what would make it whole?)
+- The opioid crisis — what do you think happened here? Was it a cultural failure, a targeted business strategy, or something else?
+- Was there a moment when the community knew the mine was going to close, and was there a chance to prepare that was missed?
+- What did the union do for you? What did the union fail to do?
+
+**Specific anchor-moments:**
+- The U.S. Steel Gary mine closure (late 1980s).
+- The Black Lung Trust Fund enrollment / denial / compensation process.
+- The SMCRA reclamation-bond situation — what was promised vs. what was funded.
+- The OxyContin arrival — when did prescriptions become common, who was prescribing, what was said.
+
+**Tone / consent notes:**
+- Miners and their families have been treated as objects-of-study extensively. They may be skeptical of yet-another-interviewer. Chris's nursing-school context + non-academic frame may be an asset; lead with listening.
+- Privacy around specific medical and financial details — scrub where necessary.
+
+### 9.3 Chapter 1 (The Plane) — additional original scene
+
+**Why:** Per sociology-paper source item 3. Chapter 1 currently has the plane opener; one more original scene from nursing / healthcare-IT / community-college context is needed.
+
+**Who to interview / observe:**
+- Not an external interview — this is Chris's own observational access. Nursing-school clinical rotations; community-college SGA interactions; healthcare-IT consulting networks. Some of what's needed may already be in Chris's journals or notes; some needs to be documented now before it recedes.
+
+**Question-to-ask-yourself framing:**
+- What have I seen in clinical rotation that I did not have language for before reading my own draft?
+- What have I seen in SGA that falls into the "am I being asked to donate unpriced tiers" pattern?
+- Is there a specific patient interaction (scrubbed for privacy) that demonstrated the healthcare-cost mechanism as lived experience rather than as cited statistic?
+- Is there an SGA constituent encounter where I watched the mechanism operate on a community-college student?
+
+**Privacy / consent discipline:**
+- Patient details scrubbed to protect HIPAA + privacy even in scrubbed form.
+- SGA constituent details — if named, with consent; if unnamed, with enough distance to prevent identification.
+- CEO-era material — NDA review + subordinate anonymization (audit §4.2 pre-drafting gate). Do not reuse specific projects or individuals without explicit consent or sufficient scrubbing.
+
+### 9.4 Chapter 4 (Norway) — optional but high-value
+
+**Why:** Currently reads as institutional abstraction. A human-voice anchor would add the texture the chapter otherwise lacks.
+
+**Who to interview:**
+1. **Norwegian fund-governance expert or former NBIM official.** Institutional-side perspective on how the discipline was maintained across administrations.
+2. **Norwegian citizen thoughtful about what the fund means for future generations.** Cross-generational perspective; what a Norwegian grandmother tells a grandchild about the fund.
+3. **Norwegian parliamentarian or former minister.** Political-will perspective; how cross-party consensus on the fund was maintained.
+
+**Core questions:**
+- Why did Norway not spend the oil money the way Venezuela did or the way Texas did?
+- How do you explain the fund to a child? To a tourist? To an American skeptic?
+- What would it take for the fund to be raided? Is that possible under the current constitution?
+- What does Norway think about the global distributional implications — that the fund compounds partly on returns from other countries' economies?
+- What does Norway not solve that you wish it did?
+
+**Access considerations:**
+- Norwegian-consulate academic contacts; Norwegian School of Economics faculty; Government Pension Fund Global public communications office is publicly accessible.
+- Zoom-based interview is feasible from the US; Norway travel is not required.
+
+### 9.5 Chapter 5 (Accountability Gap) — supplementary
+
+**Who to interview:**
+1. **Libby Montana resident.** Community-level impact perspective; the EPA public-health-emergency era; the ongoing counting-of-dead.
+2. **Gulf Coast fisherman or tourism operator** post-Deepwater Horizon. Long-tail impact perspective.
+3. **Ken Feinberg** (administered the Gulf Coast Claims Facility). If accessible — administrative-mechanism perspective.
+4. **A foreclosed homeowner from 2008.** Household-level 2008 experience.
+5. **A retired state-treasury official** who served during the pre-2008 era. Institutional-financial perspective.
+
+**Core questions (per case):**
+- (Libby) When did you know? When did the town know? What did knowing change?
+- (Deepwater) What did the cleanup funds pay for? What did they not pay for? What remains unfunded ten years on?
+- (2008) Walk me through the specific instruments your household held. What did you understand at the time vs. what you understand now?
+
+### 9.6 Chapter 10 (Common Bonds / indigenous case) — critical
+
+**Who to interview / consult:**
+- **Sensitivity reader from Lakota nation** (if Black Hills is primary exemplar) or from the nation centered in whatever exemplar Chris selects.
+- **Indigenous scholar or community-historian.** Dunbar-Ortiz, Simpson, Coulthard are canonical but high-access. Tribal colleges and cultural-preservation offices may be more accessible starting points.
+- **A Lakota person with family history in the Black Hills refusal** (if accessible). Direct connection to the refusal-of-compensation decision.
+
+**Core questions:**
+- What do you want someone writing this chapter to understand before they write it?
+- What have other authors gotten wrong, and how?
+- Is there a specific passage in Kimmerer or Simpson or Coulthard that captures what you would want this chapter to honor?
+- Is the framework's vocabulary (severed cost, residual commons value, commons bonds) an honest framing for what happened, or does it flatten what happened?
+- What would a chapter about indigenous dispossession that you would recommend to another indigenous person need to contain?
+
+**Consent / humility notes:**
+- This fieldwork is the highest-stakes in the book. A non-indigenous author writing about indigenous dispossession must operate at the register Kimmerer / Simpson / Coulthard demonstrate. Prepare to learn; do not prepare to quote.
+- Compensation considerations — if any interviewee contributes substantively, offer honorarium and share of any book proceeds attributable to their input.
+- Scope humility — the chapter does not propose Land Back policy. Be explicit about this in every interview so no interviewee expects the chapter to carry their policy priorities.
+
+### 9.7 Universal interview-discipline notes
+
+- **Consent protocol** (apply to every interview): explain what the book will do with the material, offer anonymity option, offer transcript review, offer to share relevant draft sections before publication, document consent.
+- **Attribution negotiations** — some interviewees will want to be named; some won't. Honor preferences.
+- **Follow-up discipline** — if an interviewee provides material that becomes load-bearing in a chapter, follow up with a final-draft review opportunity.
+- **Don't fish for sentences.** The interview goal is to understand the situation from their vantage point; not to extract the quotable line.
+- **Record** with consent — transcribe later. Don't rely on memory for specific dates or quotes.
+- **Honoraria** where appropriate. Even small ones signal respect for time contributed.
+
+### 9.8 What fieldwork does NOT do
+
+- Does not replace published-scholarship citation. Interview anchors add texture; published scholarship anchors claims. Both are load-bearing.
+- Does not substitute for framework discipline. An interviewee's framing may not match the framework's framing; the two are not required to align. The framework names a structural mechanism; interview material names lived experience. The book holds both.
+- Does not turn the book into memoir or journalism. The interview material serves the framework argument. If interview material pulls the book toward memoir (over-focus on single individuals' stories) or toward journalism (exposé framing), the register has drifted. Preserve structural-framework register.
+
+---
+
+*End of Commons Bonds Case Study Audit v1.0.1. Supersedes v1.0.0 — adds §9 Fieldwork guidance per Chris's direction.*
