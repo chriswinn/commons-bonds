@@ -163,7 +163,9 @@ Ch 1 is undrafted. Chris's authorial drafting should be informed by — not repl
 ### Canonical case-study file references
 
 - **`research/case-studies/healthcare-end-of-life.md`** — the Butler / pacemaker end-of-life case + the GoFundMe-as-safety-net pattern + racial-disparity layer. Direct bridge material for the wife's-illness passage. Specifically: the $54-conversation-vs.-$461-procedure-vs.-$12K-flat-fee Medicare reimbursement data; the 80-hour-week caregiving pattern Butler's mother bore; the 25x growth in GoFundMe medical campaigns 2011-2020 as structural indicator; the 88% failure rate. This is the case file for establishing early in Ch 1 that the framework's mechanism operates in healthcare at the scale of Chris's own experience, not just at the scale of coal-mining-Appalachia.
-- **`research/case-studies/feudalism.md`** — **load-bearing anchor, not optional.** This is the case that establishes early that Commons Bonds is not an anti-capitalism book — that the mechanism predates capitalism (feudal lords), operates in post-capitalist economies (Soviet industrial planning), and will operate under whatever system is available. Without this anchor landing early, the book risks being pattern-matched by cross-spectrum readers as "another anti-capitalism critique," which narrows the audience below Book 1's actual scope. The anchor should be brief — one paragraph maximum, probably in a prologue or very early in Ch 1 — and should frame cost severance as structural (whatever economic system is available becomes its delivery vehicle), not ideological. Ch 7 carries the temporal-stress-test at full depth for readers who stay with the book long enough; Ch 10 carries it again in the closing synthesis. Ch 1's version is the access gate — the brief, early placement that keeps conservative and centrist readers in the book long enough to encounter the Ch 7 and Ch 10 treatments. Per case-study file §"Strategic framing value": "Forecloses the 'this is a socialist critique' dismissal. The critique transcends capitalism-vs-socialism." This framing is load-bearing for the book's cross-spectrum positioning.
+- **Historical-universality case material — not Ch 1's work.** The cross-spectrum-access function (establishing that Commons Bonds is not an anti-capitalism book) is now carried by **Ch 7's three-civilization temporal stress-test** (paired ancient-Egyptian-pyramids + Qin-Dynasty-monumental-extraction + feudalism — see `research/case-studies/ancient-egypt-pyramids.md` + `qin-dynasty-monumental-extraction.md` + `feudalism.md`), with Ch 10's left-critique section closing the loop. Ch 1's cross-spectrum credibility instead comes from **Chris himself**: an IT consultant at NASA + Johns Hopkins + NIH turned nursing student turned sailboat writer is a biography that does not fit a single political tribe. That biographical credibility is the correct Ch 1 access-gate, not historical case material — and it preserves Ch 1's Register 1 discipline (no theory, no data, no framework vocabulary).
+
+  Chris may optionally include a one-sentence forward reference (e.g., "the mechanism this book describes is older than any of the institutions in it, as Chapter 7 will show") if he wants to pre-empt the anti-capitalism framing very early. But that is a one-sentence move, not a historical-case-anchor move. Feudalism, Egypt, and Qin are Ch 7's work.
 
 ### Register + integration notes
 
@@ -180,9 +182,11 @@ Ch 1 is undrafted. Chris's authorial drafting should be informed by — not repl
 
 ### Cross-references
 
-- Chapter audit v1.0.3 §2.1 — Ch 1 integration items.
-- Case-study audit v1.0.3 §2.7 — healthcare end-of-life Book 1 — Ch 1 personal-bridge + Ch 5 canonical routing.
-- Case-study audit v1.0.3 §2.13 — feudalism Ch 1 prologue brief anchor routing.
+- Chapter audit v1.0.5 §2.1 — Ch 1 integration items.
+- Case-study audit v1.0.5 §2.7 — healthcare end-of-life Book 1 — Ch 1 personal-bridge + Ch 5 canonical routing.
+- Case-study audit v1.0.5 §2.17 — ancient Egyptian pyramids: **Ch 7 paired-anchor routing** (cross-spectrum-access function landed in Ch 7's temporal stress-test section, not Ch 1).
+- Case-study audit v1.0.5 §2.18 — Qin Dynasty monumental extraction: **Ch 7 paired-anchor routing**.
+- Case-study audit v1.0.5 §2.13 — feudalism: retained in Ch 7 (temporal stress-test, now paired with Egypt + Qin) + Ch 10 (left-critique, post-capitalist-continuation).
 
 ---
 

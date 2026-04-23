@@ -1,9 +1,11 @@
 # Commons Bonds — Case Study Audit
 
-**Version:** 1.0.4
+**Version:** 1.0.5
 **Date:** 2026-04-23 (late-session update)
-**Status:** Canonical reference for Book One chapter drafting + standing framework-integrity audit. **Parallel to `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md`** and `core/chapters/commons_bonds_chapter_audit_v1.0.4.md`.
+**Status:** Canonical reference for Book One chapter drafting + standing framework-integrity audit. **Parallel to `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md`** and `core/chapters/commons_bonds_chapter_audit_v1.0.5.md`.
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v1.3.0.md` (full rigor per case, compressed rendering — Groups A, 5A standing, and selected Group B-F + character suite pressure points that produce findings; silent characters condensed).
+
+**Supersedes v1.0.4:** Two new case-study files added as paired temporal-stress-test anchor: **ancient Egyptian pyramids** (§2.17) + **Qin Dynasty monumental extraction** (§2.18). v1.0.5 initial proposal placed them in Ch 1; Chris's editorial call ("whichever chapter makes the most sense for the book") routed them to **Ch 7**'s existing "Framework across time, and the immune response" section, where they join feudalism (added v1.0.3) as a three-civilization temporal stress-test. Rationale: Ch 7 is the universality-test chapter — universality cases belong architecturally there. Ch 1's register discipline (pure Register 1, no theory/data/historical-case material) is preserved. Ch 1's cross-spectrum credibility is instead carried by Chris's own biography (IT consultant at NASA/JH/NIH → nursing student → sailboat writer — a life that doesn't fit a single political tribe). Ch 7 draft integrated v1.0.5. §1 cross-case summary table updated (16 → 18 cases).
 
 **Supersedes v1.0.3:** Three integration landings. (1) **Ch 8 housing pattern + tar sands** draft integration (one paragraph added after the existing "different industries, different geographies" pattern passage). §2.8 housing case gains Ch 8 draft-integration status (alongside its Ch 2 primary placement). §2.14 tar sands case gains Ch 8 brief-mention draft integration. (2) **Ch 1 guidance-doc expansion** (case-study references + pre-drafting gates + register discipline + additional-original-scene guidance). (3) **Ch 3 guidance-doc expansion from 38-line stub to ~130 lines** (fieldwork specification, case-file development plan, renewable-past-regeneration theorization, Hampton-roots integration, pre-drafting gates, register notes).
 
@@ -112,6 +114,8 @@ Cross-case §§3–6 then synthesize: dimension-activation matrix, chapter map, 
 | 14 | Canadian tar sands | Ecosystem, Habitability, Spatial, Political, Kindred | Case-study file remains stub; **Ch 8 brief mention draft-integrated v1.0.4** (Alberta bitumen / heavy-crude markets / boreal forest + First Nations treaty violations / combustion carbon tail — 1-2 sentences inside Ch 8 housing/pattern paragraph) | **Book 1 — Ch 8 brief mention canonical** (Tech Appendix validation case remains optional) | Ch 8 brief integrated; case-file deepening optional |
 | 15 | Chesapeake fisheries | Ecosystem (primary, renewable-past-regeneration); Spatial, Temporal, Political (secondary) | Stub only | **Book 1 — Ch 3 anchor (currently undrafted chapter)** — development blocked on author's fieldwork | Blocking |
 | 16 | Indigenous land dispossession | Kindred (primary); Spatial, Political, Institutional, Habitability, Ecosystem, Epistemic | Substantial case-study file (251 lines); **DRAFT-INTEGRATED v1.0.3** (Ch 10 dedicated anchor between honest-concession + left-critique — Lakota/Black Hills exemplar with authorial-limit framing) | **Book 1 — Ch 10 load-bearing anchor (landed)** | Integrated draft-level; **sensitivity-reader engagement non-optional before publication** |
+| 17 | Ancient Egyptian pyramids | Kindred, Autonomy, Institutional, Political, Spatial | Case-study file drafted v1.0.5 (~80 lines); **DRAFT-INTEGRATED v1.0.5 into Ch 7** "Framework across time" section alongside §2.18 Qin + §2.13 feudalism | **Book 1 — Ch 7 paired anchor (with §2.18)** inside three-civilization temporal stress-test | Integrated |
+| 18 | Qin Dynasty monumental extraction (Great Wall + First Emperor's tomb) | Kindred, Autonomy, Institutional, Political, Spatial | Case-study file drafted v1.0.5 (~100 lines); **DRAFT-INTEGRATED v1.0.5 into Ch 7** "Framework across time" section alongside §2.17 Egypt + §2.13 feudalism | **Book 1 — Ch 7 paired anchor (with §2.17)** inside three-civilization temporal stress-test | Integrated |
 
 **Top-line findings (detailed in §3):**
 
@@ -1097,6 +1101,77 @@ Each profile applies the v1.3.0 rigor protocol at full rigor with compressed ren
 
 - "Possibly the densest multi-dimension activation case in the framework" — from the current stub. Preserve this insight during development.
 - Treat as Ch 10 load-bearing, not as stress-test checkbox. The framework's claim about cost severance across all contexts needs this case to hold.
+
+---
+
+### §2.17 Ancient Egyptian pyramids — Ch 7 temporal stress-test (paired with §2.18)
+
+**Case-study file:** `research/case-studies/ancient-egypt-pyramids.md` (v1.0.0, drafted 2026-04-23).
+
+**Dimension activation (primary):** Kindred, Autonomy, Institutional, Political, Spatial (historical-labor-extraction multi-dimension activation).
+
+**Placement:** Book 1 — **Ch 7 paired anchor** with §2.18 (Qin Dynasty) inside Ch 7's existing "Framework across time, and the immune response" section. Joins §2.13 feudalism (added v1.0.3) to form a three-civilization temporal stress-test. Draft integration landed v1.0.5.
+
+**Rigor verdict (Group A + 5A):**
+
+- **Test 1 (AIT):** PASS. Value captured by pharaoh + priestly elite (political legitimacy, divine kingship, afterlife provisions, centralized state power). Cost borne by conscripted rotational laborers whose exit was structurally foreclosed by the centralized redistributive economy. The asymmetry is total even though the labor was skilled + paid + medically cared for per current archaeological consensus.
+- **Test 2 (Two-path):** PASS. Path 1 allocation: clear. Path 2 shield: centralized state economy + divine-kingship ideology + geographic-and-political foreclosure of exit. No independent tribunal. Consent nominal at best.
+- **Test 4 (Multi-scale):** PASS. The mechanism operates across all extraction scales — pyramid construction, agricultural surplus extraction, monumental projects, tomb-building. Different outputs; same structural function.
+- **Test 28 (Earning-its-place):** **EARNS PLACE** — Ch 7 temporal-universality stress-test component. Paired with §2.18 + §2.13 to demonstrate the mechanism operating across three civilizations with no shared lineage; universality-by-example anchor for Ch 7's universality claim.
+- **Test 29 (Scaffolding-vs-book-worthy):** **BOOK-WORTHY** at paragraph depth inside Ch 7. Full case-study file depth is scaffolding for the brief integration.
+
+**Strategic framing value:**
+
+- Forecloses the "anti-capitalism critique" dismissal more completely than feudalism does. No reader's political lineage runs through pharaonic divine kingship.
+- Universal recognition — every reader holds a mental image of the pyramids.
+- Political valence near zero — no contemporary political alignment claims ancient Egypt.
+- Archaeological revision (Lehner, Hawass) on skilled-paid-conscripted labor strengthens the modern-labor parallel (miners, cost-burdened renters, Baotou workers all "chose" their positions under structurally foreclosed exit).
+
+**Register notes:**
+
+- Use "conscripted laborers," not "slaves." Archaeological consensus post-1990s. Slave narrative comes from Herodotus + Exodus tradition, not supported by the Giza Workers' Village evidence.
+- Brief — the pyramid itself is the evidence. Don't over-explain.
+- Avoid dwelling on Egyptology. Two to four sentences. Image. Move on.
+
+**Research gaps (optional):** Lehner + Hawass specific citations; Deir el-Medina village parallel; Papyrus Harris I labor administration; comparative worker mortality estimates.
+
+**Book placement verdict: Book 1 — Ch 7 paired anchor (with §2.18) inside three-civilization temporal stress-test. DRAFT-INTEGRATED v1.0.5.**
+
+---
+
+### §2.18 Qin Dynasty monumental extraction — Ch 7 temporal stress-test (paired with §2.17)
+
+**Case-study file:** `research/case-studies/qin-dynasty-monumental-extraction.md` (v1.0.0, drafted 2026-04-23).
+
+**Dimension activation (primary):** Kindred, Autonomy, Institutional, Political, Spatial (historical-labor-extraction multi-dimension activation at compressed-extraction timescale).
+
+**Placement:** Book 1 — **Ch 7 paired anchor** with §2.17 (Egypt) inside Ch 7's existing "Framework across time, and the immune response" section. Joins §2.13 feudalism (added v1.0.3) to form a three-civilization temporal stress-test. Draft integration landed v1.0.5.
+
+**Rigor verdict (Group A + 5A):**
+
+- **Test 1 (AIT):** PASS. Value captured by Qin state + First Emperor (political unification of China, posthumous legitimacy, afterlife provisions, imperial symbolism). Cost borne by conscripted peasant labor + prisoners + convicts, with documented mass mortality (Sima Qian *Records of the Grand Historian*, compiled c. 94 BCE). The asymmetry is total and the mortality signature is explicit in a way the Egyptian case is not.
+- **Test 2 (Two-path):** PASS. Path 1 allocation: clear. Path 2 shield: legalist political philosophy + strict conscription penalties + centralized imperial authority + no meaningful exit. The harshness contributed to the Qin's collapse within four years of the First Emperor's death — a rare case where the shield failed fast enough to be visible historically.
+- **Test 4 (Multi-scale):** PASS.
+- **Test 28:** **EARNS PLACE** — Ch 7 temporal-universality stress-test, paired with §2.17. Adds cross-civilizational universality dimension that §2.17 alone cannot provide; Qin's documented mass-mortality signature is stronger than Egypt's archaeological consensus on skilled-paid-conscripted labor, so the two cases complement each other on the what-counts-as-exploitation question.
+- **Test 29:** **BOOK-WORTHY** at paragraph depth inside Ch 7.
+
+**Strategic framing value:**
+
+- Paired with §2.17 demonstrates universality across civilizations. Egypt and Qin China had no contact; their divine-kingship / legalist-imperialism systems were ideologically incommensurable; the mechanism operated in both. Mechanism is therefore not cultural. It is structural.
+- Qin's compressed-and-brittle extraction pattern (rapid mortality, dynasty collapse) parallels McDowell County coal's compressed-extraction pattern. Both produce political instability when cost-bearing becomes intolerable. Useful framework observation available in Ch 7 or Ch 8.
+- Documented mass mortality (Sima Qian) is the stronger cost-signature of the two paired cases. Egypt has stronger skilled-paid-labor evidence; Qin has stronger mortality evidence. Together they span the modern argument about exploitation.
+- The Great Wall and the Terracotta Army are among the most-recognized monuments in human history — universal recognition matches Egypt.
+
+**Register notes:**
+
+- Paired paragraphs with §2.17 inside Ch 7's "Framework across time" section. Each civilization gets 2-3 sentences at paragraph depth; the three-civilization span (Egypt + Qin + feudalism) does the universality work by example.
+- Name the documented mortality without dwelling. "Workers whose remains are buried in the wall itself" — one phrase carries the weight.
+- Avoid orientalism. The paired-case structure (Egypt + China) IS the anti-orientalism move.
+- Do not soften. Qin's brutality is documented. Cite Sima Qian if one-source-name is needed; otherwise let the Great Wall + the Terracotta Army do the work.
+
+**Research gaps (optional):** Sima Qian specific chapters on Qin + First Emperor; recent archaeological work on Wall construction mortality; Qin Shi Huang mausoleum archaeological literature; comparative corvée literature.
+
+**Book placement verdict: Book 1 — Ch 7 paired anchor (with §2.17) inside three-civilization temporal stress-test. DRAFT-INTEGRATED v1.0.5.**
 
 ---
 
