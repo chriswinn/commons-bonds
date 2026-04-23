@@ -1,19 +1,42 @@
 # Commons Bonds — Chapter Audit (Session B)
 
-**Version:** 1.0.2
-**Date:** 2026-04-23 (late-session update — supersedes v1.0.1)
-**Status:** Complete. All 10 chapter profiles produced against the actual chapter-draft + guidance-doc content (Ch 6 HTML draft verified this revision). Adds §4 guidance-doc update task list, §5 AUTHORSNOTE + Dedication guidance assessment, cross-chapter findings revised against real content, and this revision's integration work (Ch 9 reachable-horizon cluster landed; §2.6 re-profiled).
+**Version:** 1.0.3
+**Date:** 2026-04-23 (late-session update — supersedes v1.0.2)
+**Status:** Complete. All 10 chapter profiles produced against the actual chapter-draft + guidance-doc content. v1.0.3 captures a broad case-study integration pass across Ch 2, 5, 7, 10 per Chris's direction ("update the relevant chapters with the appropriate case studies").
+**Supersedes v1.0.2:** Broad integration pass landed. Ch 2: opioid second-cycle section + housing enforced-immobility third-level refutation. Ch 5: 2008 double-risk-transfer + healthcare commons (GoFundMe + racial disparity + Butler pacemaker); chapter now describes 6 cases, not 4. Ch 7: temporal + immune-response stress tests (feudalism + blood diamonds / Kimberley Process). Ch 10: feudalism one-sentence anchor + blood diamonds one-sentence anchor + indigenous Lakota Black Hills dedicated anchor (reversing v1.0.2 assumption that sensitivity-reader gate blocked draft-stage integration — the gate is pre-PUBLICATION, not pre-integration; draft-stage anchor with humane-and-precise register is appropriate; sensitivity-reader engagement remains non-optional before publication). §§2.2, 2.5, 2.7, 2.10 integration-work item status flags updated to reflect completions. §1 cross-chapter table updated for Ch 2, 5, 7, 10.
 **Supersedes v1.0.1:** §2.6 rewritten against actual Ch 6 HTML draft read (corrects bottom-up totals to $8-$22 absent carbon, $550-570 with; identifies 2 counterarguments in draft vs. 6 in guidance — architectural compression, not oversight; cross-chapter counterargument distribution verified against Ch 9 + Ch 10); §2.9 updated to reflect completed reachable-horizon cluster integration (Alaska promoted to full anchor; Chattanooga + Mondragon + Vienna added as dedicated paragraphs in entering-wedges section); §1 cross-chapter table status updates.
 **Supersedes v1.0.0 partial** — replaces placeholder §§2.1, 2.3, 2.6, 2.7, 2.8, 2.9 with full profiles; re-verifies §§2.2, 2.4, 2.5, 2.10 against actual drafts; adds §§4 + 5.
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v1.3.0.md`.
-**Parallel to:** `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` + `core/case-studies/commons_bonds_case_study_audit_v1.0.1.md`.
+**Parallel to:** `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` + `core/case-studies/commons_bonds_case_study_audit_v1.0.3.md`.
 
-## §0.1 v1.0.2 change log
+## §0.1 v1.0.3 change log
+
+1. **Ch 2 integration landed.** Opioid second-cycle extension section added between "Mechanism Not Motive" and "What McDowell and Chesapeake Have in Common" (Purdue target map + Sackler extraction + Big Three distributors + 141/100k signature as engineered-not-cultural). Housing enforced-immobility third-level refutation added to "Counterargument: Miners Chose That Work" (~49% renters cost-burdened; 90%+ counties; landlord class captures the relocation-cushion). §2.2 integration-items 2 and 3 now DONE.
+2. **Ch 5 integration landed.** 2008 double-risk-transfer section added between Baotou and Social Security. Healthcare commons section added between Social Security and "Pattern Made Visible." Chapter opener + "Pattern Made Visible" synthesis rewritten from "four cases" to "six cases." §2.5 integration-items 2 and 3 now DONE (plus Social Security was already in v1.0.0 draft). Remaining Ch 5 integration work: structural-revision-check after doubled-case-count lands, length management.
+3. **Ch 7 integration landed.** "Framework across time, and the immune response" section added after "Mars is a false analogy" counter. Handles feudalism as pre-capitalist mechanism + blood diamonds / Kimberley Process as simulated-reattachment (+ generalization to fair-trade / offsets / ESG). §2.7 integration items for feudalism + blood diamonds now DONE.
+4. **Ch 10 integration landed.** Feudalism one-sentence anchor in left-critique section ("Feudal lords did it a thousand years before any of these arrangements existed, calling it divine order and natural hierarchy"). Blood diamonds one-sentence anchor in same section ("certificate on a conflict-free diamond..."). Indigenous Lakota/Black Hills dedicated anchor between honest-concession and left-critique (Treaty of Fort Laramie 1868, 1877 taking, 1980 SCOTUS unconstitutional-taking ruling, $2B escrow, 45+ year refusal; humane-and-precise register; authorial-limit concession; names Kimmerer/Simpson/Coulthard/Dunbar-Ortiz/Deloria). §2.10 integration items 1 (indigenous), 4 (feudalism), 5 (blood diamonds) now DONE. **CRITICAL NOTE on indigenous:** draft-anchor landed; sensitivity-reader engagement remains non-optional per case-study file §7.1 pre-publication gate.
+5. **Sensitivity-reader-gate interpretation corrected.** v1.0.2 treated sensitivity-reader engagement as pre-integration blocker; v1.0.3 corrects to pre-publication gate. Draft-stage anchor is appropriate given the authorial-limit framing preserved in draft ("the work of engaging it fully... remains ahead of me").
+6. **§1 cross-chapter table updated** for Ch 2, 5, 7, 10.
+
+## §0.2 v1.0.3 integration landings (consolidated catalog)
+
+| Chapter | Case | Placement | Depth | Register notes |
+|---|---|---|---|---|
+| Ch 2 | Opioid extraction Appalachia | New section "The Second Cycle" | ~5 paragraphs | Affirmative frame per sociology-paper source; Vance as footnote not anchor |
+| Ch 2 | Housing enforced immobility | Added paragraph inside existing "Miners Chose That Work" counter | 1 paragraph | Third-level refutation — structural immobility as contemporary company-town-in-distributed-form |
+| Ch 5 | 2008 financial crisis | New section "2008 and the Double Risk Transfer" | 5 paragraphs | National-financial-scale extension; FCIC as authority |
+| Ch 5 | Healthcare end-of-life | New section "The Healthcare Commons" | 4 paragraphs | GoFundMe growth curve + racial disparity + Butler/pacemaker |
+| Ch 7 | Feudalism + Blood diamonds | New section "The framework across time, and the immune response" | 4 paragraphs | Temporal universality + simulated-reattachment universality |
+| Ch 10 | Feudalism | One-sentence anchor in left-critique | 1 sentence | "Feudal lords did it a thousand years before any of these arrangements existed" |
+| Ch 10 | Blood diamonds | One-sentence anchor in left-critique | 1 sentence | "certificate on a conflict-free diamond..." |
+| Ch 10 | Indigenous Lakota / Black Hills | Dedicated anchor between honest-concession + left-critique | ~4 paragraphs | Humane-and-precise register per stands-the-test-of-time drafts §4; author acknowledges the work remains ahead of him |
+
+## §0.3 v1.0.2 change log (preserved)
 
 1. **§2.6 Chapter 6 — re-profiled against actual draft.** Corrected bottom-up totals; identified cross-chapter counterargument distribution (Ch 6 compressed to 2; property-rights + degrowth moved to Ch 9 + Ch 10); flagged HTML → .md + MathJax format conversion as production task; confirmed register discipline ("structures uncertainty" load-bearing); verdict upgraded from "Substantial revision required" to "Strong draft. Revision required is MODERATE and tier-structure dependent, not wholesale rewrite."
 2. **Ch 9 reachable-horizon cluster integration landed.** Alaska Permanent Fund (political-economy section, full anchor paragraph — 25% royalty capture, ~$80B fund, 1982–present dividend, survived every administration). Chattanooga EPB Fiber (entering-wedges — municipal-scale infrastructure commons, red-state, private-incumbent-opposed, survived). Mondragon (entering-wedges — labor-ownership at cooperative-federation scale, 1956–present, 80k employees, internal pay ratio cap). Vienna social housing (entering-wedges — municipal-majority housing commons, 1919–present, survived Austrofascism + Nazi occupation + every postwar administration). Framing paragraph + closing "burden of proof has shifted" landing.
 3. **§2.9 updated** to reflect completed integration work item #1. Remaining integration items (contingency argument, Nordic steelman, US-Sweden tax, Community Transition Reserve definition, theory-of-change) still pending.
-4. **§2.10 indigenous integration — no change this session.** Remains blocked on sensitivity-reader engagement (non-optional per §2.10 pre-drafting gates). Draft prose not modified.
+4. **§2.10 indigenous integration — status corrected in v1.0.3.** v1.0.2 treated as blocked on sensitivity-reader engagement; v1.0.3 landed draft anchor with humane-and-precise register; pre-publication sensitivity-reader engagement remains non-optional.
 5. **Cross-chapter table (§1) status updates** for Ch 6 + Ch 9.
 
 ---
@@ -38,15 +61,15 @@ Chapter-by-chapter verdict, now against actual-content reads:
 | # | Chapter | Draft state | Guidance state | Audit verdict | Key blockers |
 |---|---|---|---|---|---|
 | 1 | The Plane | **Not begun** | Substantial (155 lines); knowledge-worker extension integrated | **Chris authorial drafting** | Original scene + personal-narrative drafting |
-| 2 | The Miner | Drafted (253 lines) | Substantial (187 lines) | **Ready for integration rewrite** | Opioid ext + housing refutation + IPG sources |
+| 2 | The Miner | Drafted (~280 lines post-v1.0.3) | Substantial (187 lines) | **Ready for integration rewrite — partially landed** | ~~Opioid ext + housing refutation~~ **DONE v1.0.3**; IPG sources + tier-structure propagation remain |
 | 3 | The Waterman | **Not begun** | Stub (38 lines) | **BLOCKING on Chesapeake fieldwork** | Watermen interviews + Chesapeake case-study file development |
 | 4 | The Existence Proof | Drafted (120 lines) | Substantial (108 lines) | **Ready for integration rewrite** | Governance detail + reachable-horizon cross-ref + Nordic steelman option |
-| 5 | The Accountability Gap | Drafted (118 lines) | Substantial (85 lines) | **Needs substantial revision — scope expansion** | 2008 bridge + Social Security + healthcare integration |
+| 5 | The Accountability Gap | Drafted (~180 lines post-v1.0.3; 6 cases) | Substantial (85 lines) | **Needs revision — scope expansion landed, length management pending** | ~~2008 + Social Security + healthcare~~ **DONE v1.0.3**; length management + structural-revision-check for 6-case chapter remain |
 | 6 | Three Ways of Counting | Drafted (HTML, ~45KB — verified v1.0.2) | **Very substantial (289 lines)** — richest guidance in set | **Moderate revision — tier-structure dependent + format conversion** | Tier decision impact is lighter than v1.0.1 assumed (draft is tier-agnostic; Ch 8 carries tier-decomposition load) + IPG-table reconciliation + HTML → .md + MathJax |
-| 7 | The Colony Administrator | Drafted (182 lines, strong) | **Largest guidance (472 lines)** — all 8 scenarios worked | **Ready for integration rewrite + minor additions** | Blood diamonds + feudalism stress-test entries + register pass |
+| 7 | The Colony Administrator | Drafted (~190 lines post-v1.0.3) | **Largest guidance (472 lines)** — all 8 scenarios worked | **Ready for integration rewrite** | ~~Blood diamonds + feudalism stress-test entries~~ **DONE v1.0.3**; register pass remains |
 | 8 | What Things Actually Cost | Drafted (230 lines — very strong) | Stub (54 lines) | **Substantial revision — tier-structure dependent** | Tier decision + dimension-rename + housing integration pattern reference |
 | 9 | The Renewable Imperative | Drafted (~5,900 words post-v1.0.2 integration) | Thin (73 lines) | **Ready for integration rewrite — partially landed** | ~~Reachable-horizon cluster~~ **DONE v1.0.2**; contingency argument + Nordic steelman + US-Sweden tax + Community Transition Reserve definition remain |
-| 10 | Common Bonds | Drafted (160 lines — strong) | **Substantial (135 lines)** + theoretical development section | **Needs substantial revision — CRITICAL indigenous integration + final paragraph** | Indigenous case integration + final paragraph selection + grandfather-at-Langley specificity (Chris-only content) |
+| 10 | Common Bonds | Drafted (~175 lines post-v1.0.3) | **Substantial (135 lines)** + theoretical development section | **Needs revision — anchors landed, final paragraph + grandfather-specificity + sensitivity-reader review remain** | ~~Indigenous case integration~~ (draft anchor **DONE v1.0.3**; pre-publication sensitivity-reader engagement remains non-optional); ~~feudalism + blood diamonds anchors~~ **DONE v1.0.3**; final paragraph selection + grandfather-at-Langley specificity (Chris-only) remain |
 | — | _Dedication | Text stub (23 lines) — 3 options given | **Embedded in file — no separate guidance** | **Needs dedicated guidance (per Chris observation)** | Select among 3 options |
 | — | _AUTHORSNOTE_ON_WINDTUNNELS_AND_AI | Draft text present | **Embedded in file — no separate guidance; guidance-like meta-discussion in same file** | **Needs dedicated guidance (per Chris observation)** | Separate draft-prose from meta-guidance |
 

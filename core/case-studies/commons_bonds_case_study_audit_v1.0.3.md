@@ -1,27 +1,55 @@
 # Commons Bonds — Case Study Audit
 
-**Version:** 1.0.2
+**Version:** 1.0.3
 **Date:** 2026-04-23 (late-session update)
-**Status:** Canonical reference for Book One chapter drafting + standing framework-integrity audit. **Parallel to `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md`** and `core/chapters/commons_bonds_chapter_audit_v1.0.2.md`.
+**Status:** Canonical reference for Book One chapter drafting + standing framework-integrity audit. **Parallel to `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md`** and `core/chapters/commons_bonds_chapter_audit_v1.0.3.md`.
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v1.3.0.md` (full rigor per case, compressed rendering — Groups A, 5A standing, and selected Group B-F + character suite pressure points that produce findings; silent characters condensed).
+
+**Supersedes v1.0.2:** Broad integration pass landed across Ch 2, 5, 7, 10 per Chris's direction ("update the relevant chapters with the appropriate case studies"). Post-v1.0.2 integration events:
+
+1. **Ch 2 integration landed.** Opioid extraction + housing enforced-immobility now in Ch 2 draft (opioid as new "Second Cycle" section; housing as third-level refutation within "Miners Chose That Work"). §2.8 + §2.9 case files now have draft-integration status.
+2. **Ch 5 integration landed.** 2008 financial crisis (national-financial-scale) + healthcare end-of-life now in Ch 5 draft as new sections. Ch 5 synthesis rewritten from 4 cases to 6 cases. §2.5 (2008) + §2.7 (healthcare) case files now have draft-integration status.
+3. **Ch 7 integration landed.** Feudalism + blood diamonds now in Ch 7 draft as "framework across time, and the immune response" stress-test section. §2.12 + §2.13 case files now have draft-integration status.
+4. **Ch 10 integration landed.** Feudalism + blood diamonds one-sentence anchors in left-critique section; **Indigenous Lakota/Black Hills dedicated anchor** between honest-concession + left-critique (reversing v1.0.2 sensitivity-reader-gate-as-blocker interpretation — the gate is pre-publication, not pre-integration; draft anchor with humane-and-precise register is appropriate). §2.12, §2.13, §2.16 case files now have draft-integration status. **Sensitivity-reader engagement remains non-optional before publication per §2.16 pre-drafting gates.**
+
 **Supersedes v1.0.1:** This revision reflects two material post-v1.0.1 events verified from actual draft reads:
 1. **Ch 6 HTML draft verified read (2026-04-23 late session).** Confirms four cases that appear in Ch 6's convergence table — McDowell coal ($4.50/ton, Damage IPG 5-133x, RCV IPG 19-47x); Deepwater Horizon ($4.25B, 15-17x, ~15x); Exxon Valdez ($5.5M, 1,200-1,900x, ~1,000x); Libby ($100M lifetime, 55-82x, 40-80x). Ch 6 also contains the Norway backtest passage ("CS is small, but positive"). **IPG reconciliation with §2 case-file canonical numbers remains a pending reconciliation item** (chapter audit §2.6 flags the mismatch: McDowell canonical 33-122x in case files; Libby canonical 40x; Deepwater 40% recovery ratio — Ch 6 table must align).
-2. **Ch 9 reachable-horizon cluster integration LANDED (2026-04-23 late session).** The four reachable-horizon companion case-study files (Alaska Permanent Fund, Chattanooga EPB Fiber, Mondragon, Vienna social housing) were created earlier this session and have now been integrated into the Ch 9 draft manuscript (political-economy section for Alaska; entering-wedges section for Chattanooga/Mondragon/Vienna). This moves the reachable-horizon cluster from "research gap" to "partially complete — integration landed, chapter-level rewrite pending."
+2. **Ch 9 reachable-horizon cluster integration LANDED.** Alaska + Chattanooga + Mondragon + Vienna integrated into Ch 9 draft.
 
 **Supersedes v1.0.0:** v1.0.1 patch added §9 Fieldwork guidance (per-case interview recommendations) without structural changes.
 
-**Related:** `alignment/decisions/alternate-8-tier-individual-level-retired.md`; `alignment/decisions/ws12-ipg-data-table-for-reconciliation.md`; `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md`; `research/case-studies/indigenous-land-dispossession.md`; reachable-horizon cluster at `research/case-studies/alaska-permanent-fund.md` + `chattanooga-municipal-broadband.md` + `mondragon-cooperative.md` + `vienna-social-housing.md`; `research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md`; `core/chapters/commons_bonds_chapter_audit_v1.0.2.md` (Ch 6 + Ch 9 profiles synchronized with this version).
+**Related:** `alignment/decisions/alternate-8-tier-individual-level-retired.md`; `alignment/decisions/ws12-ipg-data-table-for-reconciliation.md`; `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md`; `research/case-studies/indigenous-land-dispossession.md`; reachable-horizon cluster at `research/case-studies/alaska-permanent-fund.md` + `chattanooga-municipal-broadband.md` + `mondragon-cooperative.md` + `vienna-social-housing.md`; `research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md`; `core/chapters/commons_bonds_chapter_audit_v1.0.3.md` (all Ch profiles synchronized with this version).
 
-## §0.1 v1.0.2 change log
+## §0.1 v1.0.3 change log
 
-1. **§1 cross-case summary table** — row 10 (tax trade-off US vs. Sweden) status updated to reflect companion-cluster development + Ch 9 integration landed. Note added immediately after table about the reachable-horizon companion cluster now being operational research-grade.
-2. **§2.10 tax trade-off** — "reachable-horizon companion cases not yet developed" flag cleared; replaced with current status.
+1. **§1 cross-case summary table** — status updates for rows 5 (2008), 7 (healthcare), 8 (housing), 9 (opioid), 12 (blood diamonds), 13 (feudalism), 16 (indigenous). All now reflect draft-integration status.
+2. **§2.5, §2.7, §2.8, §2.9, §2.12, §2.13, §2.16 draft-integration status** — each case's chapter-integration section updated with placement + date + draft depth.
+3. **§3 cross-case findings + §3.2 chapter map** — updated to reflect Ch 2/5/7/10 integrations (no longer "queued"; now "integrated in draft").
+4. **§5 research gaps** — items that were "research gaps for Ch X drafting" now marked as having landed integrations; remaining gaps are narrower (data refreshes, length management, structural revision checks, sensitivity-reader pre-publication engagement).
+5. **§6 assessment + §7 implementation plan** — updated to reflect the broader integration pass; revised view of remaining work is less "queued-for-integration" and more "narrow-specific-refinement."
+6. **§0.3 v1.0.2 change log** preserved below for traceability.
+
+## §0.2 v1.0.3 integration landings (consolidated catalog)
+
+| Chapter | Case | Placement | Status v1.0.2 | Status v1.0.3 |
+|---|---|---|---|---|
+| Ch 2 | Opioid extraction (§2.9) | New "Second Cycle" section | Queued | ✓ Draft-integrated |
+| Ch 2 | Housing enforced immobility (§2.8) | Counterargument section | Queued | ✓ Draft-integrated |
+| Ch 5 | 2008 financial crisis (§2.5) | New section between Baotou + Social Security | Queued | ✓ Draft-integrated |
+| Ch 5 | Healthcare end-of-life (§2.7) | New section before Pattern-Made-Visible | Queued | ✓ Draft-integrated |
+| Ch 7 | Feudalism (§2.13) | New "framework across time" section | Stub + Queued | ✓ Draft-integrated |
+| Ch 7 | Blood diamonds (§2.12) | Same section (immune response) | Stub + Queued | ✓ Draft-integrated |
+| Ch 10 | Feudalism (§2.13) | Left-critique one-sentence anchor | — | ✓ Draft-integrated |
+| Ch 10 | Blood diamonds (§2.12) | Left-critique one-sentence anchor | — | ✓ Draft-integrated |
+| Ch 10 | Indigenous Lakota/Black Hills (§2.16) | Dedicated anchor between concession + left-critique | Blocked (reinterpreted v1.0.3) | ✓ Draft-integrated; sensitivity-reader pre-publication gate preserved |
+
+## §0.3 v1.0.2 change log (preserved)
+
+1. **§1 cross-case summary table** — row 10 (tax trade-off US vs. Sweden) status updated to reflect companion-cluster development + Ch 9 integration landed.
+2. **§2.10 tax trade-off** — "reachable-horizon companion cases not yet developed" flag cleared.
 3. **§5.4 reachable-horizon cluster items** — previously listed as research gaps; updated to reflect completion of case-study files + Ch 9 integration.
-4. **§6 assessment** — "reachable-horizon cluster developed (not yet researched)" blocker removed; updated to current state.
-5. **§7 implementation plan** — Ch 9 reachable-horizon sequence updates (research files ✓ developed; Ch 9 integration ✓ partially landed).
-6. **Ch 6 convergence table verification note** added to §§2.1, 2.3, 2.4 (affected cases).
-
-**Indigenous case integration (§2.16)** — NO CHANGE this revision. Remains blocked on sensitivity-reader engagement per non-optional pre-drafting gate. Ch 10 draft not modified this session.
+4. **§6 assessment + §7 implementation plan** — "reachable-horizon cluster developed (not yet researched)" blocker removed.
+5. **Ch 6 convergence table verification note** added to §§2.1, 2.3, 2.4 (affected cases).
 
 ---
 
@@ -70,18 +98,18 @@ Cross-case §§3–6 then synthesize: dimension-activation matrix, chapter map, 
 | 2 | Norway SWF | Institutional, Temporal, Political, Ecosystem (primary); Spatial, Autonomy, Epistemic (secondary) | Full draft in Ch 4 | **Book 1 — Ch 4 anchor** | Canonical |
 | 3 | Libby vermiculite (W.R. Grace) | Habitability, Epistemic, Institutional, Political (primary); Kindred, Temporal (secondary) | Full draft in Ch 5 | **Book 1 — Ch 5 canonical** | Canonical |
 | 4 | Deepwater Horizon (BP) | Habitability, Ecosystem, Spatial, Institutional (primary); Temporal, Epistemic (secondary) | Full draft in Ch 5 | **Book 1 — Ch 5 canonical** | Canonical |
-| 5 | 2008 financial crisis (double risk transfer) | Temporal, Institutional, Political, Epistemic (primary); Kindred, Autonomy, Cohesion (secondary) | Substantial queued; not in any draft | **Book 1 — Ch 5 candidate** (fifth case or Ch 5↔Ch 6 bridge) | Queued |
+| 5 | 2008 financial crisis (double risk transfer) | Temporal, Institutional, Political, Epistemic (primary); Kindred, Autonomy, Cohesion (secondary) | **Draft-integrated v1.0.3** (Ch 5 new section between Baotou + Social Security) | **Book 1 — Ch 5 canonical** | Integrated; awaiting rewrite pass |
 | 6 | Social Security ($108T counterfactual) | Temporal, Political (primary, Tier 8 fully demonstrated); Institutional, Autonomy (secondary) | Substantial queued; referenced in eight-tier-v10 | **Book 1 — Ch 5 candidate** (national-financial scale demonstration) | Queued |
-| 7 | Healthcare end-of-life (GoFundMe / Butler / pacemaker) | Habitability, Kindred, Institutional, Epistemic, Political (primary); Temporal, Autonomy (secondary) | Substantial queued | **Book 1 — Ch 1 personal-bridge + Ch 5 candidate** | Queued |
-| 8 | Housing enforced immobility | Spatial (primary); Temporal, Institutional, Kindred, Political (secondary) | Substantial queued | **Book 1 — Ch 2 refutation + Ch 8 pattern-integration** | Queued |
-| 9 | Opioid extraction Appalachia (Purdue/Sacklers) | Habitability, Institutional, Epistemic, Political (primary); Kindred, Temporal, Autonomy (secondary) | Substantial queued | **Book 1 — Ch 2 second-cycle extension** | Queued |
+| 7 | Healthcare end-of-life (GoFundMe / Butler / pacemaker) | Habitability, Kindred, Institutional, Epistemic, Political (primary); Temporal, Autonomy (secondary) | **Draft-integrated v1.0.3** (Ch 5 new "Healthcare Commons" section); Ch 1 personal-bridge still pending Chris authorial drafting | **Book 1 — Ch 5 canonical** (Ch 5 landed); **Ch 1 personal-bridge** (pending Chris) | Ch 5 integrated; Ch 1 pending |
+| 8 | Housing enforced immobility | Spatial (primary); Temporal, Institutional, Kindred, Political (secondary) | **Draft-integrated v1.0.3** (Ch 2 third-level refutation within Miners-Chose counter); Ch 8 pattern-integration still pending | **Book 1 — Ch 2 refutation canonical**; **Ch 8 pattern-integration** pending | Ch 2 integrated; Ch 8 pending |
+| 9 | Opioid extraction Appalachia (Purdue/Sacklers) | Habitability, Institutional, Epistemic, Political (primary); Kindred, Temporal, Autonomy (secondary) | **Draft-integrated v1.0.3** (Ch 2 new "Second Cycle" section) | **Book 1 — Ch 2 canonical** | Integrated; awaiting rewrite pass |
 | 10 | Tax trade-off (US vs Sweden) | Institutional, Political (primary); Autonomy, Cohesion (secondary) | Substantial queued; **reachable-horizon companion cluster DEVELOPED + Ch 9 integration LANDED v1.0.2** (Alaska / Chattanooga / Mondragon / Vienna case-study files + Ch 9 draft integration) | **Book 1 — Ch 9 reachable-horizon anchor** | Queued (tax-trade-off core); companion cluster partially complete |
 | 11 | Nigeria / Niger Delta oil | Habitability, Ecosystem, Spatial, Institutional, Political, Kindred (primary); Epistemic, Autonomy (secondary) | Draft passage embedded in Ch 4 | **Book 1 — Ch 4 mirror case** | Embedded |
-| 12 | Blood diamonds (simulated reattachment) | Kindred, Epistemic, Autonomy, Political, Ecosystem | Placeholder stub; unique "simulated-severance" framework contribution | **Book 1 — Ch 7 stress-test + Ch 10 brief anchor** | Stub |
-| 13 | Feudalism (pre-capitalist severance) | Kindred, Autonomy, Institutional, Political, Spatial | Placeholder stub; "broader than capitalism" anchor | **Book 1 — Ch 1 or prologue brief anchor + Ch 7 stress-test** | Stub |
+| 12 | Blood diamonds (simulated reattachment) | Kindred, Epistemic, Autonomy, Political, Ecosystem | **Draft-integrated v1.0.3** (Ch 7 stress-test section + Ch 10 one-sentence anchor in left-critique); case-study file remains placeholder | **Book 1 — Ch 7 canonical stress-test + Ch 10 anchor** | Integrated; case file deepening optional |
+| 13 | Feudalism (pre-capitalist severance) | Kindred, Autonomy, Institutional, Political, Spatial | **Draft-integrated v1.0.3** (Ch 7 "framework across time" section + Ch 10 one-sentence anchor in left-critique); Ch 1 brief anchor pending Chris authorial drafting | **Book 1 — Ch 7 canonical stress-test + Ch 10 anchor**; **Ch 1 prologue brief** pending | Integrated (Ch 7 + Ch 10); Ch 1 pending |
 | 14 | Canadian tar sands | Ecosystem, Habitability, Spatial, Political, Kindred | Stub only (RCV validation) | **Book 1 — Ch 8 brief mention OR Tech Appendix validation case** | Stub |
 | 15 | Chesapeake fisheries | Ecosystem (primary, renewable-past-regeneration); Spatial, Temporal, Political (secondary) | Stub only | **Book 1 — Ch 3 anchor (currently undrafted chapter)** — development blocked on author's fieldwork | Blocking |
-| 16 | Indigenous land dispossession | Kindred (primary); Spatial, Political, Institutional, Habitability, Ecosystem, Epistemic | Stub only — **flagged NOT OPTIONAL for Book 1** | **Book 1 — Ch 10 load-bearing anchor** (possibly Ch 2/3 section) | Critical-develop |
+| 16 | Indigenous land dispossession | Kindred (primary); Spatial, Political, Institutional, Habitability, Ecosystem, Epistemic | Substantial case-study file (251 lines); **DRAFT-INTEGRATED v1.0.3** (Ch 10 dedicated anchor between honest-concession + left-critique — Lakota/Black Hills exemplar with authorial-limit framing) | **Book 1 — Ch 10 load-bearing anchor (landed)** | Integrated draft-level; **sensitivity-reader engagement non-optional before publication** |
 
 **Top-line findings (detailed in §3):**
 
