@@ -1,11 +1,27 @@
 # Commons Bonds — Case Study Audit
 
-**Version:** 1.0.1
-**Date:** 2026-04-23 (evening update)
-**Status:** Canonical reference for Book One chapter drafting + standing framework-integrity audit. **Parallel to `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md`** — where the dimensions doc provides rich profiles for the 10 canonical dimensions, this doc provides rich profiles for the 16 canonical case studies, with each run through the v1.3.0 rigor protocol and routed to Book 1 / Book 2 / Book 3 / scaffolding.
+**Version:** 1.0.2
+**Date:** 2026-04-23 (late-session update)
+**Status:** Canonical reference for Book One chapter drafting + standing framework-integrity audit. **Parallel to `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md`** and `core/chapters/commons_bonds_chapter_audit_v1.0.2.md`.
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v1.3.0.md` (full rigor per case, compressed rendering — Groups A, 5A standing, and selected Group B-F + character suite pressure points that produce findings; silent characters condensed).
-**Supersedes:** v1.0.0 (2026-04-23 afternoon). Patch bump: adds §9 Fieldwork guidance — per-case interview recommendations (who + what questions) to drive Chris's workstream-11 fieldwork sequencing. No structural changes to §§0–8.
-**Related:** `alignment/decisions/alternate-8-tier-individual-level-retired.md` (tier-structure-decision input); `alignment/decisions/ws12-ipg-data-table-for-reconciliation.md` (IPG-framing reconciliation target); `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md` (8-tier rigor pass); `research/case-studies/indigenous-land-dispossession.md` (CRITICAL-DEVELOP case, now at substantial depth); `research/case-studies/alaska-permanent-fund.md` + reachable-horizon cluster (Chattanooga, Mondragon, Vienna); `research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md` (contingency argument + final-paragraph candidates + Nordic steelman + register discipline).
+**Supersedes v1.0.1:** This revision reflects two material post-v1.0.1 events verified from actual draft reads:
+1. **Ch 6 HTML draft verified read (2026-04-23 late session).** Confirms four cases that appear in Ch 6's convergence table — McDowell coal ($4.50/ton, Damage IPG 5-133x, RCV IPG 19-47x); Deepwater Horizon ($4.25B, 15-17x, ~15x); Exxon Valdez ($5.5M, 1,200-1,900x, ~1,000x); Libby ($100M lifetime, 55-82x, 40-80x). Ch 6 also contains the Norway backtest passage ("CS is small, but positive"). **IPG reconciliation with §2 case-file canonical numbers remains a pending reconciliation item** (chapter audit §2.6 flags the mismatch: McDowell canonical 33-122x in case files; Libby canonical 40x; Deepwater 40% recovery ratio — Ch 6 table must align).
+2. **Ch 9 reachable-horizon cluster integration LANDED (2026-04-23 late session).** The four reachable-horizon companion case-study files (Alaska Permanent Fund, Chattanooga EPB Fiber, Mondragon, Vienna social housing) were created earlier this session and have now been integrated into the Ch 9 draft manuscript (political-economy section for Alaska; entering-wedges section for Chattanooga/Mondragon/Vienna). This moves the reachable-horizon cluster from "research gap" to "partially complete — integration landed, chapter-level rewrite pending."
+
+**Supersedes v1.0.0:** v1.0.1 patch added §9 Fieldwork guidance (per-case interview recommendations) without structural changes.
+
+**Related:** `alignment/decisions/alternate-8-tier-individual-level-retired.md`; `alignment/decisions/ws12-ipg-data-table-for-reconciliation.md`; `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md`; `research/case-studies/indigenous-land-dispossession.md`; reachable-horizon cluster at `research/case-studies/alaska-permanent-fund.md` + `chattanooga-municipal-broadband.md` + `mondragon-cooperative.md` + `vienna-social-housing.md`; `research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md`; `core/chapters/commons_bonds_chapter_audit_v1.0.2.md` (Ch 6 + Ch 9 profiles synchronized with this version).
+
+## §0.1 v1.0.2 change log
+
+1. **§1 cross-case summary table** — row 10 (tax trade-off US vs. Sweden) status updated to reflect companion-cluster development + Ch 9 integration landed. Note added immediately after table about the reachable-horizon companion cluster now being operational research-grade.
+2. **§2.10 tax trade-off** — "reachable-horizon companion cases not yet developed" flag cleared; replaced with current status.
+3. **§5.4 reachable-horizon cluster items** — previously listed as research gaps; updated to reflect completion of case-study files + Ch 9 integration.
+4. **§6 assessment** — "reachable-horizon cluster developed (not yet researched)" blocker removed; updated to current state.
+5. **§7 implementation plan** — Ch 9 reachable-horizon sequence updates (research files ✓ developed; Ch 9 integration ✓ partially landed).
+6. **Ch 6 convergence table verification note** added to §§2.1, 2.3, 2.4 (affected cases).
+
+**Indigenous case integration (§2.16)** — NO CHANGE this revision. Remains blocked on sensitivity-reader engagement per non-optional pre-drafting gate. Ch 10 draft not modified this session.
 
 ---
 
@@ -59,7 +75,7 @@ Cross-case §§3–6 then synthesize: dimension-activation matrix, chapter map, 
 | 7 | Healthcare end-of-life (GoFundMe / Butler / pacemaker) | Habitability, Kindred, Institutional, Epistemic, Political (primary); Temporal, Autonomy (secondary) | Substantial queued | **Book 1 — Ch 1 personal-bridge + Ch 5 candidate** | Queued |
 | 8 | Housing enforced immobility | Spatial (primary); Temporal, Institutional, Kindred, Political (secondary) | Substantial queued | **Book 1 — Ch 2 refutation + Ch 8 pattern-integration** | Queued |
 | 9 | Opioid extraction Appalachia (Purdue/Sacklers) | Habitability, Institutional, Epistemic, Political (primary); Kindred, Temporal, Autonomy (secondary) | Substantial queued | **Book 1 — Ch 2 second-cycle extension** | Queued |
-| 10 | Tax trade-off (US vs Sweden) | Institutional, Political (primary); Autonomy, Cohesion (secondary) | Substantial queued | **Book 1 — Ch 9 reachable-horizon anchor** | Queued |
+| 10 | Tax trade-off (US vs Sweden) | Institutional, Political (primary); Autonomy, Cohesion (secondary) | Substantial queued; **reachable-horizon companion cluster DEVELOPED + Ch 9 integration LANDED v1.0.2** (Alaska / Chattanooga / Mondragon / Vienna case-study files + Ch 9 draft integration) | **Book 1 — Ch 9 reachable-horizon anchor** | Queued (tax-trade-off core); companion cluster partially complete |
 | 11 | Nigeria / Niger Delta oil | Habitability, Ecosystem, Spatial, Institutional, Political, Kindred (primary); Epistemic, Autonomy (secondary) | Draft passage embedded in Ch 4 | **Book 1 — Ch 4 mirror case** | Embedded |
 | 12 | Blood diamonds (simulated reattachment) | Kindred, Epistemic, Autonomy, Political, Ecosystem | Placeholder stub; unique "simulated-severance" framework contribution | **Book 1 — Ch 7 stress-test + Ch 10 brief anchor** | Stub |
 | 13 | Feudalism (pre-capitalist severance) | Kindred, Autonomy, Institutional, Political, Spatial | Placeholder stub; "broader than capitalism" anchor | **Book 1 — Ch 1 or prologue brief anchor + Ch 7 stress-test** | Stub |
@@ -128,6 +144,8 @@ Each profile applies the v1.3.0 rigor protocol at full rigor with compressed ren
 
 **Book placement verdict: Book 1 — Ch 2 anchor. Canonical.**
 
+**Ch 6 convergence-table appearance (verified v1.0.2):** McDowell coal also appears as a convergence-table row in Ch 6 draft: market price $4.50/ton (1960); Damage-Function IPG 5-133x; RCV Model IPG 19-47x; Direction CS > 0. Ch 6's bottom-up worked example ("take one ton of Appalachian coal... walk through every cost category") treats McDowell as the primary worked case: health $2-4/ton; environmental $1-3/ton; community $5-15/ton; total absent carbon $8-22/ton; with carbon (2.86 tons CO₂ × $190 SCC) ~$550-570/ton. **IPG reconciliation flagged** — Ch 6 table's 5-133x / 19-47x must reconcile with canonical 33-122x used in case file / Ch 2 draft. Reconciliation is chapter-audit §2.6 integration-work item.
+
 **Research gaps / numbers still needed:**
 
 1. Component-level source citations for the 33–122× IPG range — black lung actuarial (DALY × historic exposure population × social cost-of-illness values); reclamation gap (SMCRA bond data + GAO estimates); community-transition cost (comparative transition-cost literature); intergenerational dispersion (workforce-formation-cost + migration data).
@@ -189,10 +207,14 @@ Each profile applies the v1.3.0 rigor protocol at full rigor with compressed ren
 
 **Book placement verdict: Book 1 — Ch 4 anchor. Canonical.**
 
+**Ch 6 backtest-passage appearance (verified v1.0.2):** Ch 6 draft includes a "Norway Backtest" section that applies the RCV framework to Norwegian oil: "$1.8 trillion" Government Pension Fund Global framed as enormous B; Hartwick's Rule reference; verdict "CS is small, but positive. The fund captures most of the financial value. The barrel is still physically gone; no fund can manufacture more subsurface petroleum. The externality tail, though smaller, is not zero." Ch 6 uses Norway as the "model differentiates" evidence — it does not say extraction is always bad at the same rate. **Complementary to Ch 4 anchor treatment** — Ch 4 frames Norway as existence proof; Ch 6 uses it as the model's discrimination test. Architecture is coherent across both.
+
+**Ch 9 political-economy + entering-wedges appearance (verified v1.0.2):** Ch 9 draft references Norway in both the political-economy section (line 125-area, paired with Alaska) and the entering-wedges section (line 157, "Norway has demonstrated, over fifty years, that it is politically possible to sustain the discipline required to capture resource rents and preserve them for intergenerational equity"). Ch 9 extends Norway beyond existence-proof into policy-instrument territory.
+
 **Research gaps / numbers needed:**
 
 1. Fund governance-mechanism detail — NBIM, Council on Ethics, exclusion list. The draft says "institutional design" but doesn't detail the design.
-2. Comparable SWF cases as reachable-horizon complements (Alaska Permanent Fund, Chile's ESSF, Texas Permanent School Fund). Flag the Alaska case particularly — it forecloses the "it could never work here" objection at state scale within the US constitutional framework.
+2. ~~Comparable SWF cases as reachable-horizon complements (Alaska Permanent Fund, Chile's ESSF, Texas Permanent School Fund).~~ **✓ Alaska Permanent Fund case-study file DEVELOPED + Ch 9 INTEGRATION LANDED v1.0.2.** Chile ESSF + Texas Permanent School Fund remain optional deepening material. Flag the Alaska case particularly — it forecloses the "it could never work here" objection at state scale within the US constitutional framework.
 3. 600-word steelman of "Nordic-model-unrepeatable" counter (per sociology-paper-assessment item 4). This is chapter-drafting work, not research, but requires deliberate framing and engagement.
 
 **Pre-drafting items:**
@@ -247,6 +269,8 @@ Each profile applies the v1.3.0 rigor protocol at full rigor with compressed ren
 
 **Book placement verdict: Book 1 — Ch 5 canonical.**
 
+**Ch 6 convergence-table appearance (verified v1.0.2):** Libby appears in Ch 6 draft convergence table: market price ~$100M lifetime; Damage-Function IPG 55-82x; RCV Model IPG 40-80x; Direction CS > 0. Ch 6's bottom-up narrative names Libby as "$100 million in lifetime mine revenue against $5 to $8 billion in asbestos-related illness costs, environmental remediation, and community destruction." **IPG reconciliation flagged** — canonical simpler 40x form (per §5.1.2 of this audit) vs. Ch 6 table's 55-82x + 40-80x breadcrumbs. Chapter-audit §2.6 integration-work item.
+
 **Research gaps:**
 
 1. IPG-framing reconciliation — earlier 55-82× range vs. current 40× ratio. Historical breadcrumb preserved; confirm 40× is the ratified framing for chapter-rewrites phase.
@@ -299,6 +323,8 @@ Each profile applies the v1.3.0 rigor protocol at full rigor with compressed ren
 | Labor-lawyer-2039 | Serves — post-event settlement architecture is legal-apparatus territory |
 
 **Book placement verdict: Book 1 — Ch 5 canonical.**
+
+**Ch 6 convergence-table appearance (verified v1.0.2):** Deepwater also appears in Ch 6 draft convergence table: market price $4.25B revenue; Damage-Function IPG 15-17x; RCV Model IPG ~15x; Direction CS > 0. Ch 6's bottom-up narrative names Deepwater as "production revenue of roughly $4.25 billion against documented litigation costs, restoration obligations, ecological losses, and public-health spending in the range of $65 to $70 billion." **IPG reconciliation flagged** — the canonical 40% recovery ratio framing vs. Ch 6 table's 15-17x multiplicative form. Chapter-audit §2.6 integration-work item. Exxon Valdez also appears in Ch 6 ($5.5M oil, 1,200-1,900x Damage, ~1,000x RCV) — not currently a §2 profile in this audit; add if Valdez becomes a named case beyond the Ch 6 reference.
 
 **Research gaps:**
 
@@ -672,15 +698,22 @@ Each profile applies the v1.3.0 rigor protocol at full rigor with compressed ren
 
 **Research gaps:**
 
-1. **Nordic-model-unrepeatable steelman** — 600 words, serious version. Scale, ethnic heterogeneity, path-dependence, oil-wealth. Then defeat specifically, not generally.
-2. Alaska Permanent Fund case detail — scale, dividend structure, political-party history, durability.
-3. Chattanooga municipal broadband detail — why it works, political opposition, scalability.
-4. Mondragon cooperative federation — 80,000 employees, structural detail, cross-national applicability.
-5. Vienna social-housing model (for companion housing-enforced-immobility case §2.8).
+1. **Nordic-model-unrepeatable steelman** — 600 words, serious version. Scale, ethnic heterogeneity, path-dependence, oil-wealth. Then defeat specifically, not generally. **✓ DRAFTED at `research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md` §3.** Ch 9 or Ch 4 integration pending.
+2. ~~Alaska Permanent Fund case detail~~ — **✓ DEVELOPED at `research/case-studies/alaska-permanent-fund.md`** + **✓ Ch 9 INTEGRATION LANDED (2026-04-23)** — promoted from passing reference to full anchor paragraph in political-economy section.
+3. ~~Chattanooga municipal broadband detail~~ — **✓ DEVELOPED at `research/case-studies/chattanooga-municipal-broadband.md`** + **✓ Ch 9 INTEGRATION LANDED** (entering-wedges dedicated paragraph — municipal-scale infrastructure-commons, red-state, private-incumbent-opposed, survived).
+4. ~~Mondragon cooperative federation~~ — **✓ DEVELOPED at `research/case-studies/mondragon-cooperative.md`** + **✓ Ch 9 INTEGRATION LANDED** (entering-wedges dedicated paragraph — 1956-present, ~80k employees, internal pay ratio 6-9:1, survived 2013 Fagor bankruptcy).
+5. ~~Vienna social-housing model~~ — **✓ DEVELOPED at `research/case-studies/vienna-social-housing.md`** + **✓ Ch 9 INTEGRATION LANDED** (entering-wedges dedicated paragraph — Red Vienna 1919 origin, survived Austrofascism + Nazi occupation, ~60% of Vienna residents in municipal/cooperative housing).
+
+**Remaining research gaps for this case:**
+
+- Current (2024-2026) US vs. Sweden comparative tax data — percentages, provision-side outputs, structural form (progressive income + VAT + employer contributions).
+- Specific US-to-Sweden recovery-ratio numbers by provision area (healthcare, education, childcare, parental leave).
+- US public support polling for Scandinavian-model-individual-elements vs. "Scandinavian socialism" — evidence that specific provisions have majority support even when labeled badly.
+- Contingent political history that produced each Nordic architecture (pre-1914 to 1960s) — what actually enabled the institutions.
 
 **Pre-drafting items:**
 
-1. The **reachable-horizon companion cases** (Alaska / Chattanooga / Mondragon / Vienna) are not yet developed. They are load-bearing for this case's function; without them, the case reads as "look at Sweden, do that" (advocacy-framed). With them, the case reads as "here are working architectures already in operation, including US-domestic ones" (structural observation).
+1. ~~**The reachable-horizon companion cases** (Alaska / Chattanooga / Mondragon / Vienna) are not yet developed.~~ **CLEARED v1.0.2. All four case-study files developed; Alaska/Chattanooga/Mondragon/Vienna Ch 9 integration landed in draft.** The case now reads as "here are working architectures already in operation, including US-domestic ones" per the intended structural-observation framing.
 
 **Framing notes:**
 
@@ -1185,7 +1218,7 @@ Research gaps surfaced during the rigor pass. Items requiring external research 
 7. **Ch 5 healthcare** — Butler book specific quotes; current-year CPT code amounts; AARP unpaid-caregiving $470B+ citation; Himmelstein medical-bankruptcy current rates; Ly & Soman (2020) paper.
 8. **Ch 2 housing** — Harvard JCHS 2024 data; Chetty mobility data specific citations; post-2008 foreclosure-to-PE-rental pipeline data.
 9. **Ch 2 opioid** — Purdue-target-county-level sales map data (US District Court SDOH MDL public record); Keefe (2021) specific pages.
-10. **Ch 9 tax trade-off** — Alaska Permanent Fund detail; Chattanooga broadband detail; Mondragon detail; Vienna social-housing detail.
+10. **Ch 9 tax trade-off** — ~~Alaska Permanent Fund detail; Chattanooga broadband detail; Mondragon detail; Vienna social-housing detail.~~ **✓ All four developed as standalone case-study files + Ch 9 integration LANDED (v1.0.2).** Remaining: current US-Sweden comparative tax data refresh; Nordic-model-unrepeatable steelman Ch 9 integration decision; current sourcing for each of the four companion cases (see individual files' research-gaps sections).
 11. **Ch 4 Nigeria** — UNEP 2011 report specific pages; Saro-Wiwa + MOSOP context.
 12. **Ch 3 Chesapeake** — Chesapeake Bay Foundation data; NOAA oyster/blue crab population data; Jackson et al. (2001).
 13. **Ch 10 indigenous** — exemplar-selection decision + Dunbar-Ortiz / Wolfe / Coulthard / Simpson / Kimmerer specific citations.
@@ -1198,16 +1231,22 @@ Research gaps surfaced during the rigor pass. Items requiring external research 
 4. **Housing YIMBY steelman** — zoning-restriction argument. Ch 2 or Ch 8.
 5. **Indigenous-case uniqueness steelman** — "unique historical injustice, not same-mechanism" counter. Ch 10.
 
-### 5.4 Reachable-horizon development (Ch 9 critical)
+### 5.4 Reachable-horizon development (Ch 9 critical) — STATUS v1.0.2
 
 **Per sociology-paper source item 5 — the reachable-horizon problem is load-bearing for Book 1's closing responsibility.**
 
-1. **Alaska Permanent Fund** — standalone case-study file development recommended. Would pair with `norway-swf.md` as US-domestic reachable-horizon.
-2. **Chattanooga municipal broadband** — brief case-study file.
-3. **Mondragon Cooperative Corporation** — brief case-study file.
-4. **Vienna social housing** — brief case-study file (for housing-enforced-immobility companion).
+1. ~~**Alaska Permanent Fund**~~ — **✓ DEVELOPED** (`research/case-studies/alaska-permanent-fund.md`) + **✓ Ch 9 INTEGRATED** (political-economy section, full anchor paragraph).
+2. ~~**Chattanooga municipal broadband**~~ — **✓ DEVELOPED** (`research/case-studies/chattanooga-municipal-broadband.md`) + **✓ Ch 9 INTEGRATED** (entering-wedges dedicated paragraph).
+3. ~~**Mondragon Cooperative Corporation**~~ — **✓ DEVELOPED** (`research/case-studies/mondragon-cooperative.md`) + **✓ Ch 9 INTEGRATED** (entering-wedges dedicated paragraph).
+4. ~~**Vienna social housing**~~ — **✓ DEVELOPED** (`research/case-studies/vienna-social-housing.md`) + **✓ Ch 9 INTEGRATED** (entering-wedges dedicated paragraph).
 
-**These four case-study files are the concrete research-gap for Ch 9's reachable-horizon function. Each is a few days of focused research. Total ~2-3 weeks of focused work.**
+**Status v1.0.2:** All four case-study files developed as research-grade briefs; all four integrated into Ch 9 draft at dedicated-paragraph depth; "burden of proof has shifted" closing landing added.
+
+**Remaining Ch 9 reachable-horizon work:**
+
+- Each companion case-study file has its own remaining research gaps (current numerical data, primary-source citations, structural detail refinements) — flagged in each file's §Research gaps / §5 section.
+- Ch 9 rewrite pass integrating the new cluster material with the existing four-step sequence + contingency argument (once integrated) + US-Sweden tax-trade-off (once integrated).
+- Length management — Ch 9 grew to ~5,900 words; next pass needs deliberate compression.
 
 ---
 
@@ -1258,7 +1297,7 @@ Research gaps surfaced during the rigor pass. Items requiring external research 
 
 5. **Ch 5 expansion integrated.** 2008 + Social Security + healthcare end-of-life sub-case. Requires scope management — chapter risks overload.
 
-6. **Ch 9 reachable-horizon developed.** Alaska + Chattanooga + Mondragon + Vienna case-study files. Then integration into Ch 9.
+6. **Ch 9 reachable-horizon developed.** ~~Alaska + Chattanooga + Mondragon + Vienna case-study files. Then integration into Ch 9.~~ **✓ ALL FOUR CASE-STUDY FILES DRAFTED + Ch 9 INTEGRATION LANDED v1.0.2.** Remaining: current-data refreshes per companion files' research-gaps + Ch 9 rewrite pass integrating new cluster with existing four-step + contingency argument + US-Sweden.
 
 7. **Ch 2 extensions.** Opioid + housing-enforced-immobility.
 
@@ -1292,7 +1331,7 @@ Rousseau's framework took decades to produce visible change. The American and Fr
 
 3. **Steelman counterarguments written as well as their proponents would write them** (sociology-paper source item 4). The Nordic-model-unrepeatable argument in particular. Books that land lasting arguments defeat opposing arguments on their own terms, not through caricature.
 
-4. **A reachable horizon** (sociology-paper source item 5). The Alaska / Chattanooga / Mondragon / Vienna companion case-study cluster is not decoration — it is what prevents the book from producing despair or rage that authoritarianism captures. This is structurally essential for the book's moral weight.
+4. **A reachable horizon** (sociology-paper source item 5). The Alaska / Chattanooga / Mondragon / Vienna companion case-study cluster is not decoration — it is what prevents the book from producing despair or rage that authoritarianism captures. This is structurally essential for the book's moral weight. **Status v1.0.2: cluster research drafted + Ch 9 integration landed; remaining work is current-data refresh + Ch 9 rewrite pass + length management.**
 
 5. **The final paragraph written first** (sociology-paper source item). The book's emotional-and-intellectual destination anchors every chapter's direction. Chris has not yet committed to the final paragraph's form. Ch 10 GuidanceDoc has the Camus note + the institutional-legibility prescription + the harbor-image; these elements are available but the specific final-paragraph form is open.
 
@@ -1315,12 +1354,12 @@ Rousseau's framework took decades to produce visible change. The American and Fr
 **"Stands the test of time" requires an additional discipline beyond "great."** The gap between them is the difference between a competent book and a durable one. That difference is made up primarily of:
 
 - **Original reporting / fieldwork** (not yet done).
-- **The indigenous case handled with care** (not yet developed).
-- **The contingency argument sharpened** (not yet written).
-- **The reachable-horizon cluster developed** (not yet researched).
-- **The final paragraph written first** (not yet committed).
-- **The steelmen written as strong as their proponents would write them** (not yet at full rigor).
-- **The humane-and-precise register preserved through every chapter** (ongoing discipline).
+- **The indigenous case handled with care** (✓ case-study file at substantial depth; integration into Ch 10 blocked on sensitivity-reader engagement).
+- **The contingency argument sharpened** (✓ drafted at `research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md` §1; Ch 9 or Ch 5 integration pending).
+- **The reachable-horizon cluster developed** (✓ research files drafted — Alaska, Chattanooga, Mondragon, Vienna; ✓ Ch 9 draft integration landed v1.0.2; current-data refresh + Ch 9 rewrite pass remain).
+- **The final paragraph written first** (✓ three candidates drafted at stands-the-test-of-time drafts §2; Chris selection pending).
+- **The steelmen written as strong as their proponents would write them** (Nordic-model steelman ✓ drafted at stands-the-test-of-time drafts §3; remaining per §5.3 of this audit).
+- **The humane-and-precise register preserved through every chapter** (✓ discipline documented at stands-the-test-of-time drafts §4; ongoing operational discipline).
 
 These disciplines are consistent with Chris's stated success criteria and with the book's existing architecture. They are not additional projects — they are what the book already-wants-to-be at full depth. The question is whether the drafting pace + external constraints permit that depth.
 
@@ -1344,12 +1383,12 @@ These disciplines are consistent with Chris's stated success criteria and with t
 
 1. **Tier-structure decision lands** (per v1.0.7 comparative rigor pass on organizing principles). This is the most important unblocker.
 2. **Indigenous case developed** to substantial case-study-file status (parallel to appalachian-coal.md depth). 2-3 weeks focused work.
-3. **Alaska Permanent Fund + Chattanooga + Mondragon + Vienna** reachable-horizon companion files drafted. 2-3 weeks focused work (overlapping with indigenous-case).
+3. ~~**Alaska Permanent Fund + Chattanooga + Mondragon + Vienna** reachable-horizon companion files drafted. 2-3 weeks focused work (overlapping with indigenous-case).~~ **✓ COMPLETED (v1.0.2)** — four case-study files drafted at research-grade depth; Ch 9 draft integration landed. Remaining work sits in each file's own research-gaps section + Ch 9 rewrite pass.
 
 ### 7.3 Then (months)
 
 1. Chapter-guidance revision sweep (all 10 docs).
-2. Chapter rewrites in sequence: Ch 10 (indigenous integration) → Ch 9 (reachable-horizon integration) → Ch 5 (2008 + Social Security + healthcare integration) → Ch 2 (opioid + housing extensions) → Ch 1 (personal-narrative drafting) → Ch 3 (watermen chapter when fieldwork permits).
+2. Chapter rewrites in sequence: Ch 10 (indigenous integration — sensitivity-reader-gated) → Ch 9 (reachable-horizon cluster now ✓ landed; remaining contingency + Nordic steelman + US-Sweden + CTR definition + length management) → Ch 5 (2008 + Social Security + healthcare integration) → Ch 2 (opioid + housing extensions) → Ch 1 (personal-narrative drafting) → Ch 3 (watermen chapter when fieldwork permits).
 3. Technical Appendix v0.0.4 update.
 
 ### 7.4 When this audit is revised
