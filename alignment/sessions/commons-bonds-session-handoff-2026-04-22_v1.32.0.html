@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-22 · v1.32.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .decision     { background: #f3e8ff; border-left: 4px solid #7a3ea1; padding: 1em 1.2em; margin: 1em 0; }
+  .operating    { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .milestone    { background: #e8f2fa; border-left: 4px solid #2a5a8c; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .snippet      { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .decision-label { color: #7a3ea1; font-weight: 600; }
+  .version  { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-22 · Version <span class="version">1.32.0</span> · Supersedes v1.31.0 · Substantial same-day continuation. <strong>Four milestone commits landed this session; naming cohort COMPLETE across all 10 dimensions</strong>. Session started with Kindred pending full rigor and ended with dimensions doc promoted to <code>core/dimensions/</code> per scaffolding-vs-book-worthy placement principle. Handoff produced at Chris's request because the school building is closing for the night; Chris will resume from a different location.</p>
+
+<div class="status">
+<strong>STATUS:</strong> <strong>Naming cohort COMPLETE.</strong> All 10 dimensions full-rigor-verified under canonical names: Habitability, Spatial, Temporal, Institutional, Kindred, Ecosystem, Political, Cohesion, Epistemic, Autonomy. All single-word abstract nouns. Framework spine stable. Dimensions doc promoted from <code>tools/</code> to <code>core/dimensions/</code> as canonical book-worthy content. Four commits this session: <code>5e7bb03</code> (Priority-1 + layers→dimensions transition), <code>e938731</code> (Priority-2 + rich profiles for all 10), <code>9c4f86f</code> (Priority-3 close), <code>e4d31ff</code> (core/ placement). Next substantial task: eight-tier / error-out absorption into Technical Appendix or dimensions doc.
+</div>
+
+<div class="snippet">
+<h2>Copy-paste snippet for next session start</h2>
+<pre>Starting Commons Bonds session — picking up from handoff v1.32.0 (2026-04-22).
+
+Please read these files before responding:
+- commons-bonds-session-handoff-2026-04-22_v1.32.0.html  (this handoff — read first)
+- tools/README.md
+- tools/commons_bonds_rigor_protocol_v1.2.2.md
+- tools/commons_bonds_guiding_constraints_v1_0_0.md
+- core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md  (MOVED from tools/ this session; canonical rich profiles for all 10 dimensions)
+- tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.5.md  (latest — Priority-3 close)
+
+Current canonical state to verify:
+- 10 dimensions LOCKED: Habitability, Spatial, Temporal, Institutional, Kindred,
+  Ecosystem, Political, Cohesion, Epistemic, Autonomy (all single-word abstract nouns).
+  Full-rigor-verified under canonical names. Naming cohort COMPLETE.
+- Dimensions doc location: core/dimensions/ (promoted from tools/ 2026-04-22 per
+  scaffolding-vs-book-worthy placement).
+- Rigor protocol: v1.2.2 canonical.
+- Technical Appendix: v0.0.3 canonical.
+- Session-start upload set updated; dimensions doc now at core/dimensions/ but
+  remains in the upload set.
+- Naming convention: dots going forward; historical files keep underscores.
+- Operating rule (refined this session): literature additions to bibliography —
+  add without asking if load-bearing on ratified decision; queue if tied to
+  pending candidate that may not survive rigor.
+- Standing behavior (new this session): on every read/edit, scan for stale
+  "layer" container-term and old dimension names (Atmospheric / Ecological /
+  Demographic / Kinship / Informational / Agency / Geographic); surface findings
+  inline rather than silently patching.
+
+Top priority this session (in order):
+1. Read core/decomposition/eight-tier-v10.html and core/decomposition/error-out-v10.html
+   to scope absorption targets.
+2. Propose absorption (Technical Appendix vs. dimensions doc vs. standalone-but-
+   moved-to-core/framework/); run brief rigor check on the absorption target;
+   execute retire/absorb.
+3. Coordinated methodology-doc revision sweep: rigor protocol Test 13 examples,
+   alignment/patches/c2 and c9 dimension-name updates, core/glossary terminology
+   propagation for Priority-2 renames.
+4. manuscript/chapters/ rename propagation (layer → dimension; Priority-1 and
+   Priority-2 dimension-name renames).
+5. Rigor test on 5 resurfaced use cases per sociology-paper-to-book-transition §5.
+6. Part 3 methodology audit (v1.24.0 outputs against current 10-dimension
+   ratified set under canonical names).
+7. Guidance-doc revision sweep.
+
+Additional thoughts for this session (Chris, fill in here before sending):
+[                                                                                           ]
+[                                                                                           ]
+</pre>
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY — eight-tier / error-out absorption into canonical-content structure</h2>
+
+<p><strong>Starting task for next session:</strong> resolve the placement / absorption of two legacy files in <code>core/decomposition/</code> that Chris flagged as probable retire-or-absorb candidates at session close: <code>eight-tier-v10.html</code> (the AIT tier decomposition — framework spine) and <code>error-out-v10.html</code> (parallel error-taxonomy; purpose needs verification).</p>
+
+<h3>Scoping steps</h3>
+<ol>
+  <li><strong>Read both files to understand current content.</strong> <code>eight-tier-v10.html</code> is the AIT canonical source referenced from multiple places (rigor protocol, dimensions doc, technical appendix). <code>error-out-v10.html</code> is less-referenced and may be a superseded / parallel artifact worth archiving.</li>
+  <li><strong>Propose absorption target(s).</strong> My working hypothesis (flagged at session close):
+    <ul>
+      <li><strong>eight-tier-v10.html</strong> probably absorbs into Technical Appendix (formal methodology fit — tier definitions belong in the book's formal methodology appendix). Leave a brief tier-list summary in dimensions doc as cross-reference since tiers × dimensions are the framework spine together.</li>
+      <li><strong>error-out-v10.html</strong> — likely retire to <code>core/decomposition/archive/</code> (if superseded) OR absorb useful content into Technical Appendix / dimensions doc.</li>
+    </ul>
+  </li>
+  <li><strong>Run a brief rigor check on absorption target.</strong> Absorbing into Technical Appendix affects the book's formal methodology section; worth a light rigor pass (Groups A–F + select characters 6, 9, 10, 12, M1) to verify the absorbed content holds under current canonical dimension names. Absorbing into dimensions doc affects the canonical methodology; similar check.</li>
+  <li><strong>Execute retire / absorb.</strong> Update all cross-references. If Technical Appendix is the target, bump v0.0.3 → v0.0.4 or similar. If dimensions doc is the target, bump v1.2.0 → v1.3.0 (or v1.2.1 for minor absorption).</li>
+  <li><strong>Verify framework integrity.</strong> After absorption, confirm the tier decomposition is still accessible to all readers who need it (rigor pass records, manuscript chapters, methodology appendix) and no references break.</li>
+</ol>
+
+<h3>Why this is the next priority</h3>
+<p>The naming cohort close (Priority-1 + Priority-2 + Priority-3 all complete) + the dimensions doc promotion to <code>core/</code> together establish the canonical framework-content structure. The eight-tier / error-out disposition closes out the <code>core/</code> reorganization that Chris's scaffolding-vs-book-worthy distinction implies. After this, <code>core/</code> contains only book-worthy content; <code>tools/</code> contains only scaffolding; the boundary is clean.</p>
+
+<h3>Alternative framing if absorption is not the right call</h3>
+<p>If the eight-tier file is sufficiently substantial and self-contained that absorbing it elsewhere would bloat the target doc, consider renaming <code>core/decomposition/</code> to <code>core/framework/</code> and adding the dimensions doc to it (so the folder contains the tier decomposition AND the dimension set — the complete framework spine together). This would restructure <code>core/</code> as:</p>
+<ul>
+  <li><code>core/framework/</code> — eight-tier decomposition + dimensions doc (framework spine)</li>
+  <li><code>core/glossary/</code> — vocabulary (unchanged)</li>
+  <li><code>core/technical-appendix/</code> — technical appendix (unchanged)</li>
+</ul>
+<p>Chris and Claude should decide between absorption vs. folder-restructuring at the reading-both-files step.</p>
+</div>
+
+<h2>Session v1.31.0 → v1.32.0: accomplishments</h2>
+
+<div class="milestone">
+<h3>Commit <code>5e7bb03</code> — Priority-1 naming cohort + layers → dimensions transition</h3>
+<ul>
+  <li><strong>Kindred lock</strong> — full-rigor pass <code>tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.2.md</code> (25-character suite + Groups A–F). Chosen-family scope (Weston 1991) now explicitly in-scope for the dimension (was Demographic).</li>
+  <li><strong>Habitability lock</strong> (was Atmospheric) — resolves Test 20/23 compression failure + off-Earth multi-scale coverage.</li>
+  <li><strong>Ecosystem lock</strong> (was Ecological) — compression improvement; noun-form alignment.</li>
+  <li><strong>Container-term sweep "layer" → "dimension"</strong> throughout canonical operating docs (<code>claude_prefs.md</code>, <code>book_scope_v1_0_3.md</code>, <code>guiding_constraints_v1_0_0.md</code>).</li>
+  <li><strong>Abundance dimensions doc retitled + bumped</strong>: <code>commons_bonds_abundance_layers_v1_0_0.md</code> → <code>commons_bonds_abundance_dimensions_v1_1_0.md</code> (filename + title + container-term sweep + 3 name locks).</li>
+  <li><strong>Bibliography</strong>: new §14 "Chosen family and fictive kinship" (Weston, Stacey, Nardi, Karner, Jones, Tönnies, Schneider/Carsten).</li>
+  <li><strong>Chapter 8 guidance doc</strong>: "Layer-11 investigation" → "Cosmic/physical-law 11th-dimension candidacy investigation".</li>
+  <li><strong>Housekeeping review</strong>: item #20 marked DONE (retitle + patch complete).</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Commit <code>e938731</code> — Priority-2 naming cohort + rich profiles for all 10 dimensions</h3>
+<ul>
+  <li><strong>Priority-2 full-rigor pass</strong> <code>v1.0.4</code> (comparative Evidentiary-vs-Epistemic; comparative Cohesion / Community / Civic / Culture / Social-Fabric treatment). Superseded light-rigor draft <code>v1.0.3</code> retained as lineage record.</li>
+  <li><strong>Spatial lock</strong> (was Geographic) — resolves off-Earth multi-scale naming failure from v1.0.0 stress test.</li>
+  <li><strong>Epistemic lock</strong> (was Informational) — selected over Evidentiary on case-cluster breadth (AI-era, attention-economy, paradigm-defense all native) + decade-out durability. Trade-off: Test 23 courtroom-register mitigated by methodology-appendix framing "evidentiary asymmetry" as legal-register specific case.</li>
+  <li><strong>Autonomy lock</strong> (was Agency) — resolves principal-agent baggage; Kantian pair with Epistemic reads more philosophically precise.</li>
+  <li><strong>Cohesion RETAINED</strong> (not renamed) — expanded candidate pool (Community, Civic, Culture, Social-Fabric, Civic-Ties, Communion, Fellowship, Solidarity, Conviviality) all failed. Methodology-appendix Putnam-engagement prose is the chosen mitigation for Test 18 positioning concerns.</li>
+  <li><strong>Abundance dimensions doc v1.1.0 → v1.2.0</strong> with <strong>rich profiles for all 10 dimensions</strong>: Summary / What becomes visible under AIT inversion / Case cluster / Scope boundary and other observations / Relevant literature / What's uniquely priced vs. adjacent dimensions / Naming status / Pre-drafting items.</li>
+  <li><strong>Operating docs swept</strong> for Priority-2 dimension-name renames (<code>book_scope_v1_0_3.md</code> §1.4 AIT inversion list).</li>
+  <li><strong>Bibliography</strong>: 8 new load-bearing entries (Fricker, Medina, Hess & Ostrom, Klinenberg, Murthy, Sennett, Soja, Harvey's <em>Spatial Fix</em>) + Anderson entry updated for Autonomy lock.</li>
+  <li><strong>§2.9 Epistemic mid-session addition</strong>: education-availability case cluster (primary Epistemic, cross-dimension canonical — slavery-era literacy prohibitions, rural school underfunding, elite-education gatekeeping, digital divide, AI-era knowledge-access disparity, mother-tongue-education displacement, educational-debt structures, credentialing gatekeeping). Chris flagged this after rigor pass landed; adopted as framework-strengthening.</li>
+  <li><strong>§2.9 and §2.10 cross-references</strong>: Epistemic ↔ Autonomy Kantian pair sharpened with Sen's capability approach located at the pair cross-reference; education as connective infrastructure.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Commit <code>9c4f86f</code> — Priority-3 naming cohort close (naming cohort COMPLETE)</h3>
+<ul>
+  <li><strong>Priority-3 full-rigor confirm pass</strong> <code>v1.0.5</code> (escalated from short-confirm-pass per Chris's direction — adjacent-dimension renames required bilateral-independence re-verification under current canonical adjacency names).</li>
+  <li><strong>Temporal LOCKED stable</strong>; bilateral independence verified under Autonomy + Ecosystem renames. Strongest Goal-2 direct-contribution dimension; strongest Berggruen-fit.</li>
+  <li><strong>Institutional LOCKED stable</strong>; bilateral independence verified under Autonomy + Epistemic renames. Character 25 (NASA Langley grandfather) confirmed load-bearing as ethical anchor.</li>
+  <li><strong>Political LOCKED stable</strong> with US-partisan-connotation watch retained. Primary Test 13 career-risk load-bearer among stable dimensions.</li>
+  <li><strong>Three minor-strengthening additions</strong> to §2 case clusters:
+    <ul>
+      <li>§2.3 Temporal: healthcare-cost deferral patterns (ACA cost-structure, long-term-care financing, Medicare Part D temporal-cost shifting).</li>
+      <li>§2.4 Institutional: tech-platform governance as distinct hierarchy-type (platform power over users/contractors, algorithmic management, employee-as-product; cross-dimension with Autonomy + Epistemic).</li>
+      <li>§2.7 Political: international-body capture (WTO, IMF, UN-agency industry-lobby penetration) + intra-party primary capture via campaign-finance gatekeeping.</li>
+    </ul>
+  </li>
+  <li><strong>§6 naming-cohort status</strong>: Priority-3 COMPLETE; naming cohort COMPLETE across all 10 dimensions.</li>
+  <li><strong>§9 cross-references</strong>: v1.0.5 rigor pass added.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Commit <code>e4d31ff</code> — core/ placement: dimensions doc promoted from tools/ to core/dimensions/</h3>
+<ul>
+  <li>Applied the <strong>scaffolding-vs-book-worthy placement principle</strong> surfaced in session conversation: <code>tools/</code> holds methodology / process / decision-trail (scaffolding); <code>core/</code> holds canonical framework content readers encounter directly (book-worthy).</li>
+  <li><strong>Move</strong>: <code>tools/commons_bonds_abundance_dimensions_v1_2_0.md</code> → <code>core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md</code>.</li>
+  <li><strong>Whole doc preserved</strong> (Chris's Option A) — meta-process sections stay with canonical content; splitting would create cross-reference brittleness.</li>
+  <li><strong>New <code>core/dimensions/</code> subfolder</strong> (Chris's Option B) — parallel to existing <code>core/decomposition/</code>, <code>core/glossary/</code>, <code>core/technical-appendix/</code>.</li>
+  <li><strong>Cross-references updated</strong> (full-path <code>tools/...</code> → <code>core/dimensions/...</code>) in 9 active files.</li>
+  <li><strong>Doc retained in session-start upload set</strong> despite folder change — rich profiles are reference material constantly consulted in chapter drafting and rigor work.</li>
+</ul>
+</div>
+
+<h2>Memory updates this session</h2>
+
+<div class="info">
+<p>Two feedback memories added/refined to <code>~/.claude/projects/-Users-c17n-Documents----WorkingOn-commons-bonds/memory/</code> — these persist across sessions:</p>
+<ul>
+  <li><strong><code>feedback_bibliography_additions.md</code></strong> (refined): When scholarly literature surfaces in session work, add it without asking if load-bearing on a ratified decision or clearly-canonical source. Queue (state but don't add) if tied to a currently-pending naming decision that might not survive rigor. After decision locks, add queued entries as part of the lock action — no separate confirmation needed. Drop queued entries if decision fails. <strong>Original intent was citation hygiene, not pre-approval friction.</strong></li>
+  <li><strong><code>feedback_terminology_regression_check.md</code></strong> (new): On every read/edit of a Commons Bonds file, scan for regressed framework terminology. If found, surface the finding to Chris with file path + line numbers + suggested update. <strong>Don't silently patch</strong> — flag so Chris can decide. Regressed patterns: "layer" container-term (should be "dimension"); old dimension names (Atmospheric → Habitability, Ecological → Ecosystem, Demographic/Kinship → Kindred, Informational → Epistemic, Agency → Autonomy, Geographic → Spatial); stale filename <code>commons_bonds_abundance_layers_v1_0_0.md</code>. Carve-outs: metaphorical / non-framework uses; intentional lineage annotations ("renamed from X"); historical records correctly preserved in archive/.</li>
+</ul>
+<p>MEMORY.md index updated to reference both.</p>
+</div>
+
+<h2>Framework state (canonical after this session)</h2>
+
+<table>
+  <thead><tr><th>#</th><th>Dimension</th><th>Status</th><th>Lock pass</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>Habitability</td><td class="done">LOCKED</td><td>Priority-1 (commit 5e7bb03)</td></tr>
+    <tr><td>2</td><td>Spatial</td><td class="done">LOCKED</td><td>Priority-2 full rigor (v1.0.4; commit e938731)</td></tr>
+    <tr><td>3</td><td>Temporal</td><td class="done">LOCKED stable</td><td>Priority-3 full rigor (v1.0.5; commit 9c4f86f)</td></tr>
+    <tr><td>4</td><td>Institutional</td><td class="done">LOCKED stable</td><td>Priority-3 full rigor (v1.0.5; commit 9c4f86f)</td></tr>
+    <tr><td>5</td><td>Kindred</td><td class="done">LOCKED</td><td>Kindred lock pass v1.0.2 full rigor (commit 5e7bb03)</td></tr>
+    <tr><td>6</td><td>Ecosystem</td><td class="done">LOCKED</td><td>Priority-1 (commit 5e7bb03)</td></tr>
+    <tr><td>7</td><td>Political</td><td class="done">LOCKED stable</td><td>Priority-3 full rigor (v1.0.5; commit 9c4f86f). US-partisan-connotation watch retained.</td></tr>
+    <tr><td>8</td><td>Cohesion</td><td class="done">RETAINED</td><td>Priority-2 full rigor (v1.0.4; commit e938731). Methodology-appendix Putnam-engagement as Test-18 mitigation.</td></tr>
+    <tr><td>9</td><td>Epistemic</td><td class="done">LOCKED</td><td>Priority-2 full rigor (v1.0.4; commit e938731). Selected over Evidentiary on case-cluster breadth + decade-out durability.</td></tr>
+    <tr><td>10</td><td>Autonomy</td><td class="done">LOCKED</td><td>Priority-2 full rigor (v1.0.4; commit e938731). Kantian pair with Epistemic philosophically tight.</td></tr>
+  </tbody>
+</table>
+
+<p><strong>Set-completeness:</strong> No 11th dimension. All 10 single-word abstract nouns. Naming-pattern-consistent. Cosmic/physical-law candidacy remains revisitable for Ch. 9 civilization-scale extension or Book Three, but out-of-scope for Book One.</p>
+
+<h2>Files produced this session</h2>
+<table>
+  <thead><tr><th>File</th><th>Status</th><th>Purpose</th></tr></thead>
+  <tbody>
+    <tr><td><code>tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.2.md</code></td><td class="done">Ratified (commit 5e7bb03)</td><td>Kindred lock pass — full rigor</td></tr>
+    <tr><td><code>tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.3.md</code></td><td class="done">Ratified as lineage record (commit e938731)</td><td>Priority-2 light-rigor pass — superseded by v1.0.4 but retained as audit trail</td></tr>
+    <tr><td><code>tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.4.md</code></td><td class="done">Ratified (commit e938731)</td><td>Priority-2 full-rigor pass — canonical for Priority-2 verdicts</td></tr>
+    <tr><td><code>tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.5.md</code></td><td class="done">Ratified (commit 9c4f86f)</td><td>Priority-3 full-rigor confirm pass — closes naming cohort</td></tr>
+    <tr><td><code>core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md</code></td><td class="done">Canonical (commit e4d31ff)</td><td>Rich profiles for all 10 dimensions; promoted from tools/ to core/dimensions/</td></tr>
+    <tr><td><code>alignment/sessions/commons-bonds-session-handoff-2026-04-22_v1.32.0.html</code></td><td class="new">NEW (this file)</td><td>Session handoff</td></tr>
+    <tr><td><code>alignment/sessions/archive/commons-bonds-session-handoff-2026-04-22_v1.31.0.html</code></td><td>Archived (was current handoff)</td><td>Historical</td></tr>
+  </tbody>
+</table>
+
+<h2>Watch items</h2>
+<div class="watch">
+<ul>
+  <li><strong>Dimensions doc is now at <code>core/dimensions/</code></strong> — not <code>tools/</code>. All active cross-references updated; bare-filename references (no path prefix) remain correct as filename-only and were not touched.</li>
+  <li><strong>Naming cohort COMPLETE</strong> — no further naming work indicated. If drafting surfaces naming pressure not caught by rigor, treat as drafting-stage finding and decide case-by-case whether to escalate to new cohort work.</li>
+  <li><strong>Cohesion retention hinges on methodology-appendix Putnam-engagement prose</strong> — if drafting reveals prose-mitigation insufficient, Cohesion returns to cohort candidacy with expanded alternatives beyond Social-Fabric / Civic-Ties / Communion.</li>
+  <li><strong>Epistemic scope-statement effectiveness</strong> — if AI-era / attention-economy / paradigm-defense cases read awkwardly under "Epistemic" in actual drafting, scope statement may need strengthening; extreme case, dimension name returns to candidacy.</li>
+  <li><strong>Political partisan-read mitigation</strong> — dimension-intro cross-spectrum framing is load-bearing for reception; watch during Ch. 2 / Ch. 8 / Ch. 9 drafting.</li>
+  <li><strong>Tech-platform governance cross-dimension</strong> — flagged in v1.0.5 §7.3 as potential future cross-dimension concept if drafting reveals cases that don't fit cleanly under Institutional + Autonomy + Epistemic.</li>
+  <li><strong>Eight-tier / error-out absorption pending</strong> — these two files in <code>core/decomposition/</code> are candidates for retire / absorb into Technical Appendix or dimensions doc. Next session priority.</li>
+  <li><strong>Priority-2 dimension-name sweep scope was targeted</strong> (book_scope §1.4 only) — similar to Priority-1 commit precedent. Broader sweep (rigor protocol Test 13 examples, alignment/patches/c2 and c9, core/glossary, core/decomposition, core/technical-appendix, chapter drafts, case studies) is deferred to the "coordinated methodology-doc revision sweep" and "manuscript/chapters/ rename propagation" tasks.</li>
+  <li><strong>Three optional minor-strengthening candidates</strong> accepted and committed (healthcare-cost deferral in Temporal; tech-platform governance in Institutional; international-body capture in Political). All three now in canonical v1.2.0 profiles.</li>
+  <li><strong>tools/ = scaffolding; core/ = book-worthy</strong> — guiding placement principle now explicit in tools/README.md entry. Use this for future placement decisions.</li>
+  <li><strong>Worktree writes + merges + pushes</strong> authorized per-request per prior handoff. Four commits landed locally this session; none pushed yet — push is Chris's call.</li>
+  <li><strong>Historical-preservation rule</strong>: archived session handoffs (in <code>alignment/sessions/archive/</code>) are not updated when filenames or content change. Active files get cross-reference updates.</li>
+  <li>Never touch <code>/Noema/</code> or <code>/Berggruen Institute - Essay/</code>. Math files stay .html. Privacy rule active.</li>
+</ul>
+</div>
+
+<h2>Open tasks (consolidated)</h2>
+
+<h3>Next-session priority (ordered)</h3>
+<ol>
+  <li><strong>Eight-tier / error-out absorption</strong> — read both files, propose absorption target (Technical Appendix vs. dimensions doc vs. <code>core/framework/</code> folder rename), run brief rigor check on target, execute retire/absorb. Top Priority above.</li>
+  <li><strong>Coordinated methodology-doc revision sweep</strong> — rigor protocol Test 13 examples (dimension-name references); <code>alignment/patches/c2_scale_abstract_patch.md</code> + <code>c9_ait_canonical_positioning_patch.md</code> dimension-name updates; <code>core/glossary/</code> + <code>core/decomposition/</code> + <code>core/technical-appendix/</code> dimension-name propagation for Priority-2 renames.</li>
+  <li><strong>manuscript/chapters/ rename propagation</strong> — "layer" → "dimension" + Priority-1 and Priority-2 dimension-name renames throughout chapter drafts and guidance docs. Substantial work; should be one dedicated sweep.</li>
+  <li><strong>Rigor test on 5 resurfaced use cases</strong> per <code>alignment/decisions/sociology-paper-to-book-transition.md</code> §5. Validates the 10-dimension set against concrete cases from the sociology-paper lineage.</li>
+  <li><strong>Part 3 methodology audit</strong> — v1.24.0 outputs (scope v1.0.3, chapter-guidance addendum, prior rigor pass records) against current 10-dimension ratified set under canonical names.</li>
+  <li><strong>Guidance-doc revision sweep</strong> — chapter guidance docs (<code>manuscript/chapters/Chapter__N___GuidanceDoc.md</code>) integration of Priority-1 + Priority-2 locks + rich-profile references.</li>
+</ol>
+
+<h3>Deferred / queued (not active)</h3>
+<ul>
+  <li>claude_prefs.md §5.5 (availability-absence severity-marker) and §5.6 (lived-experience-canonical-case methodology) v1.28.0 additions — flagged in housekeeping review, pending v1.1.1 patch.</li>
+  <li>Triage file renames (<code>commons_bonds_rigor_vs_layers_triage_v1_0_0.md</code>, <code>commons_bonds_character_suite_vs_layers_triage_v1_0_0.md</code>) — optional cosmetic; defer unless needed.</li>
+  <li>Potential tech-platform governance cross-dimension concept — drafting-stage check.</li>
+  <li>Priority-3 §9 minor-strengthening completions — all three ACCEPTED and committed this session.</li>
+</ul>
+
+<h2>Resume instructions for next Claude instance</h2>
+<div class="resume">
+<ol>
+  <li>Read this handoff + session-upload set listed in snippet. Note the dimensions doc now lives at <code>core/dimensions/</code> (moved this session).</li>
+  <li><strong>First task: read <code>core/decomposition/eight-tier-v10.html</code> and <code>core/decomposition/error-out-v10.html</code></strong> to understand content; propose absorption targets to Chris before executing.</li>
+  <li><strong>Second task (contingent on first): execute absorption / retirement.</strong> Update cross-references; bump version of absorbing target (Technical Appendix likely to v0.0.4 or similar).</li>
+  <li><strong>Third task: coordinated methodology-doc revision sweep</strong> for Priority-2 dimension-name renames across rigor protocol, alignment/patches, core/glossary, core/technical-appendix. Note: core/decomposition will be affected by the eight-tier absorption decision; sequence accordingly.</li>
+  <li><strong>Fourth task: manuscript/chapters/ rename propagation.</strong> Substantial; dedicate session.</li>
+  <li><strong>Fifth task: rigor test on 5 resurfaced use cases</strong> per sociology-paper-to-book-transition §5.</li>
+  <li><strong>Sixth task: Part 3 methodology audit.</strong></li>
+  <li><strong>Seventh task: guidance-doc revision sweep.</strong></li>
+  <li>Operating core unchanged; rigor protocol v1.2.2 applies; <code>tools/</code> = scaffolding, <code>core/</code> = book-worthy.</li>
+  <li>Auto-memory persists — bibliography addition rule + terminology regression check standing.</li>
+  <li>Worktree-writes + merges + pushes authorized per-request. Four commits in this worktree unpushed as of handoff; push is Chris's call.</li>
+</ol>
+</div>
+
+<h2>Recent commits (session v1.31.0 → v1.32.0)</h2>
+<table>
+  <thead><tr><th>Commit</th><th>Title</th><th>Scale</th></tr></thead>
+  <tbody>
+    <tr><td><code>e4d31ff</code></td><td>core/ placement: dimensions doc promoted from tools/ to core/dimensions/</td><td>9 files changed, 14 insertions(+), 14 deletions(-)</td></tr>
+    <tr><td><code>9c4f86f</code></td><td>Priority-3 naming cohort close: Temporal, Institutional, Political all LOCK stable; naming cohort complete</td><td>2 files changed, 472 insertions(+), 10 deletions(-)</td></tr>
+    <tr><td><code>e938731</code></td><td>Priority-2 naming cohort milestone: Spatial, Epistemic, Autonomy locked; Cohesion retained; rich profiles for all 10 dimensions</td><td>13 files changed, 1655 insertions(+), 356 deletions(-)</td></tr>
+    <tr><td><code>5e7bb03</code></td><td>dimensions milestone: abundance_layers → abundance_dimensions + Priority-1 naming cohort (Habitability, Kindred, Ecosystem locked)</td><td>14 files changed, 839 insertions(+), 341 deletions(-)</td></tr>
+  </tbody>
+</table>
+
+<h2>Operating core (unchanged; reference v1.31.0 archive for full detail)</h2>
+<div class="operating">
+<ul>
+  <li><strong>AIT</strong> is epistemic core; dimensions are organizational scaffolding.</li>
+  <li><strong>Two-path rigor test:</strong> allocation symmetry + shield absence (consent-normalization shield per v1.2.1 / v1.2.2).</li>
+  <li><strong>Merger + primitiveness gates</strong> for any new or renamed dimension.</li>
+  <li><strong>Single-dimension cost severance</strong> — one-dimension cases are full instances.</li>
+  <li><strong>Availability-absence as severity-marker</strong> (v1.28.0) — not a primitive axis.</li>
+  <li><strong>Canonical cases are dimension-inherent</strong> — not illustrations.</li>
+  <li><strong>10 dimensions locked</strong>; naming cohort COMPLETE.</li>
+  <li><strong>Books 1/2/3 strategy</strong> per <code>alignment/decisions/sociology-paper-to-book-transition.md</code> §4.</li>
+  <li><strong>Operating discipline:</strong> "Push harder so we only rewrite once."</li>
+  <li><strong>Scaffolding-vs-book-worthy placement:</strong> tools/ = methodology, process, decision-trail; core/ = canonical framework content readers encounter.</li>
+  <li><strong>Kantian consent-precondition pair:</strong> Epistemic ↔ Autonomy (consent requires both knowledge and non-coercion). Sen's capability approach locates at the pair cross-reference, with education as connective infrastructure.</li>
+  <li><strong>Ethical anchor:</strong> Character 25 (Chris's grandfather at NASA Langley) — system-wide across Habitability, Institutional, Kindred, Ecosystem, Epistemic. Load-bearing for framework-not-purely-critical reading.</li>
+</ul>
+</div>
+
+<p class="meta" style="margin-top:3em; border-top:1px solid #ccc; padding-top:1em;">
+End of session handoff <span class="version">v1.32.0</span>. <strong>Next immediate: read eight-tier + error-out files; propose absorption targets; execute retire/absorb.</strong> Naming cohort COMPLETE across all 10 dimensions; framework spine stable; <code>core/</code> contains canonical book-worthy content; <code>tools/</code> contains scaffolding. Four commits landed locally; push deferred to Chris's call.
+</p>
+
+</body>
+</html>
