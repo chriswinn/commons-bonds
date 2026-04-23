@@ -408,7 +408,7 @@ This folder is a cross-cutting finding worth its own section. Not in Chris's exp
 
 - `alignment/sessions/commons-bonds-session-handoff-2026-04-22_v1_28_0.html` — references this review at TOP PRIORITY §7.
 - `tools/commons_bonds_rigor_protocol_v1.2.2.md` — canonical rigor protocol (PATCH target).
-- `tools/commons_bonds_abundance_dimensions_v1_2_0.md` — canonical methodology doc (retitle + patch DONE 2026-04-22; §5.5 / §5.6 additions pending).
+- `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` — canonical methodology doc (retitle + patch DONE 2026-04-22; §5.5 / §5.6 additions pending).
 - `tools/commons_bonds_guiding_constraints_v1_0_0.md` — canonical constraints doc (PATCH target).
 - `workstreams/10_project_separation_folder_reorg.md` — original archive/Consider-Including reorganization plan (partially executed; this review prompts completion).
 

@@ -10,7 +10,7 @@
 2. **Agency → Autonomy** (leading per §2.10)
 3. **Cohesion → Social-Fabric** (leading per §2.8; Civic-Ties fallback)
 4. **Geographic → Spatial** (leading per §2.2)
-**Companion output (if locks ratify):** bump `tools/commons_bonds_abundance_dimensions_v1_2_0.md` → `v1_2_0.md` per doc's own §8 rule ("Priority-2 naming-cohort ratification propagation = v1.2.0"); cross-reference updates in active files per v1.1.0 pattern.
+**Companion output (if locks ratify):** bump `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` → `v1_2_0.md` per doc's own §8 rule ("Priority-2 naming-cohort ratification propagation = v1.2.0"); cross-reference updates in active files per v1.1.0 pattern.
 **Inputs used:** `commons_bonds_abundance_dimensions_v1_2_0.md` §2.2 / §2.8 / §2.9 / §2.10 (current status + candidate rationale); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` §3.2 / §3.8 / §3.9 / §3.10 (Part 2 pressure findings per dimension); `commons_bonds_rigor_pass_2026-04-22_v1.0.2.md` (Kindred lock — template for the cohort-rigor-pass pattern); `commons_bonds_rigor_protocol_v1.2.2.md` §3.2 (light rigor) and §9 (Group E success criteria).
 
 ---
@@ -276,7 +276,7 @@ Priority-3 (Temporal, Institutional, Political) remains pending — short confir
 
 ### 9.1 Immediate (this session, post-ratification)
 
-1. Rename `tools/commons_bonds_abundance_dimensions_v1_2_0.md` → `tools/commons_bonds_abundance_dimensions_v1_2_0.md` per doc's own §8 rule (v1.2.0 = Priority-2 propagation).
+1. Rename `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` → `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` per doc's own §8 rule (v1.2.0 = Priority-2 propagation).
 2. Update the file's §2 per-dimension sections:
    - §2.2: Geographic → Spatial (locked; off-Earth note).
    - §2.8: Cohesion retained (not Social-Fabric); add Putnam-engagement note + revisitability annotation.
@@ -320,7 +320,7 @@ Both are drafting-stage checks, not blockers for the lock.
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.3.md` — this file.
 
 **Files to update on lock (within this session, if ratified):**
-- `tools/commons_bonds_abundance_dimensions_v1_2_0.md` → `v1_2_0.md` (rename + content propagation).
+- `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` → `v1_2_0.md` (rename + content propagation).
 - Active cross-reference files per §9.1 step 5.
 - Operating-doc terminology sweep for the 3 new dimension names per §9.1 step 6.
 

@@ -643,7 +643,7 @@ Per Chris's request: for each final-selected term, a reference block for propaga
 
 ### 12.1 Immediate (this session, post-ratification)
 
-1. Rename `tools/commons_bonds_abundance_dimensions_v1_2_0.md` → `tools/commons_bonds_abundance_dimensions_v1_2_0.md` per doc's §8 rule (v1.2.0 = Priority-2 naming-cohort propagation).
+1. Rename `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` → `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` per doc's §8 rule (v1.2.0 = Priority-2 naming-cohort propagation).
 2. Update §2 per-dimension subsections:
    - §2.2: Geographic → Spatial (locked); absorb §10.1 profile content.
    - §2.8: Cohesion retained; add Putnam-engagement note + revisitability annotation; absorb §10.4 profile content.
@@ -698,7 +698,7 @@ Both are drafting-stage checks, not lock-blockers.
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.4.md` — this file.
 
 **Files to update on lock (within this session, if ratified):**
-- `tools/commons_bonds_abundance_dimensions_v1_2_0.md` → `v1_2_0.md` (rename + propagation; absorb §10 profiles).
+- `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` → `v1_2_0.md` (rename + propagation; absorb §10 profiles).
 - Active cross-reference files per §12.1 step 5.
 - Operating-doc terminology sweep for 3 new dimension names per §12.1 step 6.
 - `research/literature/bibliography.md` — additions per §12.1 step 7.

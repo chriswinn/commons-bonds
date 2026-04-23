@@ -15,7 +15,7 @@ For any substantive session work, upload these files plus the current session ha
 | `tools/claude_prefs.md` | Operating preferences, file-format rules, privacy rules, Commons Bonds operating core |
 | `tools/commons_bonds_rigor_protocol_v1.2.2.md` | Canonical rigor protocol — test battery (~26 tests), 25-character pressure suite, routing rule, full/light rigor axis |
 | `tools/commons_bonds_guiding_constraints_v1_0_0.md` | Canonical Group D (strategic / publishing-path) + Group E (success criteria) inputs |
-| `tools/commons_bonds_abundance_dimensions_v1_2_0.md` | Methodology document for the 10 abundance dimensions (retitled from `abundance_layers_v1_0_0.md` 2026-04-22; Priority-1 naming cohort complete — Habitability, Kindred, Ecosystem locked) |
+| `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` | Canonical methodology document for the 10 abundance dimensions. **Promoted to `core/` 2026-04-22** per scaffolding-vs-book-worthy placement principle (parallel to `core/decomposition/`, `core/glossary/`, `core/technical-appendix/`); retained in session-start upload set because the rich profiles for all 10 dimensions are reference material constantly consulted in chapter drafting and rigor work. Naming cohort complete: Habitability, Spatial, Temporal, Institutional, Kindred, Ecosystem, Political, Cohesion, Epistemic, Autonomy (all single-word abstract nouns; all full-rigor-verified). |
 | `tools/commons_bonds_book_scope_v1_0_3.md` | Canonical Book One scope |
 | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` | Most recent rigor pass record (Part 2, session v1.28.0) |
 
