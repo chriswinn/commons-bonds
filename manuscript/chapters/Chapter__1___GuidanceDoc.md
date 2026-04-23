@@ -153,3 +153,71 @@ Chapter 1 should not name the eight tiers. That work belongs in Chapter 6. But C
 The book currently risks being read as "about coal miners and watermen." It is not. It is about anyone whose value is captured while costs are severed — which includes the reader, probably including the reader holding the book. Chapter 1 is the place where that identification happens. If the reader does not recognize themselves in Chapter 1, they will read the book as a diagnosis of other people's problems. If they do recognize themselves, they will read every subsequent chapter as a continuation of their own story.
 
 The IT stories are the most direct route to reader recognition for the specific demographic most likely to encounter this book — knowledge workers, professionals, people with access to Noema or Boston Review or whatever publication hosts the first encounter. Use them. Not as a digression from the framework. As the demonstration that the framework is about them.
+
+---
+
+## Case-study references (added 2026-04-23 per chapter audit v1.0.3)
+
+Ch 1 is undrafted. Chris's authorial drafting should be informed by — not replaced by — the following case-study source files. Each is a research-grade brief available for reference while drafting the personal narrative + knowledge-worker extension.
+
+### Canonical case-study file references
+
+- **`research/case-studies/healthcare-end-of-life.md`** — the Butler / pacemaker end-of-life case + the GoFundMe-as-safety-net pattern + racial-disparity layer. Direct bridge material for the wife's-illness passage. Specifically: the $54-conversation-vs.-$461-procedure-vs.-$12K-flat-fee Medicare reimbursement data; the 80-hour-week caregiving pattern Butler's mother bore; the 25x growth in GoFundMe medical campaigns 2011-2020 as structural indicator; the 88% failure rate. This is the case file for establishing early in Ch 1 that the framework's mechanism operates in healthcare at the scale of Chris's own experience, not just at the scale of coal-mining-Appalachia.
+- **`research/case-studies/feudalism.md`** — brief historical anchor ("mechanism broader than capitalism"). Optional for Ch 1 prologue if Chris wants to establish very early that the critique is structural, not ideological. Lower priority than the healthcare-end-of-life integration — but per case-study audit §2.13 this case's natural Book 1 home is "Ch 1 or prologue brief anchor." If included, the anchor should be brief (one paragraph maximum) and frame cost severance as predating capitalism, Soviet planning, and any specific ownership structure. Ch 7 already carries the temporal-stress-test at depth per v1.0.3 integration; Ch 1 prologue mention is therefore optional-redundant rather than load-bearing.
+
+### Register + integration notes
+
+- **Healthcare end-of-life is the structural bridge from personal narrative to framework.** The draft paragraph at line 117 ("There is a specific kind of 120-hour week...") establishes the knowledge-worker version of the mechanism. The healthcare-end-of-life integration adds the medical-commons version operating on the wife's body and, later, the parents' bodies. Both in Chris's personal story. Both demonstrating the framework operates at individual scale before it is named.
+- **Do not quote Butler directly in Ch 1.** Butler's account is load-bearing in Ch 5 per v1.0.3 integration (see chapter audit v1.0.3 §2.5). Ch 1's use of the healthcare-end-of-life material should be Chris's own experience + family-level texture, not the Butler citation, which Ch 5 carries. Reserve Butler for Ch 5.
+- **Consent-problem-in-sharpest-form** (existing guidance at line 132) — this passage's refutation of the free-market "voluntary trade-offs" argument is strengthened by a brief reference to the healthcare-end-of-life mechanism the family experienced. Chris had elite resources and was still trapped by the healthcare-cost architecture. The same architecture, without elite resources, produces the 88%-GoFundMe-failure-rate pattern. Chris's case is the framework's most-favorable-condition test; the framework still applies.
+
+### Case studies NOT for Ch 1
+
+- **Opioid extraction Appalachia** — Ch 2 material (second-cycle section per v1.0.3 integration). Not Ch 1.
+- **Housing enforced immobility** — Ch 2 refutation + Ch 8 pattern-integration per v1.0.3. Not Ch 1 even though housing is part of Chris's biography (sailboat-over-house choice).
+- **Indigenous land dispossession** — Ch 10 anchor per v1.0.3. A settler-author-writing-about-indigenous-dispossession passage does not belong in a personal-origin-story chapter.
+- **2008 financial crisis** — Ch 5 material per v1.0.3. If Chris's healthcare IT career overlapped the 2008 crisis in a specific way, a single-sentence acknowledgment might work; the full 2008 case is Ch 5.
+
+### Cross-references
+
+- Chapter audit v1.0.3 §2.1 — Ch 1 integration items.
+- Case-study audit v1.0.3 §2.7 — healthcare end-of-life Book 1 — Ch 1 personal-bridge + Ch 5 canonical routing.
+- Case-study audit v1.0.3 §2.13 — feudalism Ch 1 prologue brief anchor routing.
+
+---
+
+## Additional audit-surfaced integration items (added 2026-04-23 per chapter audit v1.0.3 §2.1)
+
+These are audit findings beyond the case-study references that should inform Chris's drafting. Consolidated from chapter audit v1.0.3 §2.1 + case audit v1.0.3 §9.3.
+
+### Additional original scene beyond the plane opener
+
+Per sociology-paper source item 3: books that change discourse are anchored in observed human experience, not only in analysis of published literature. The plane opener is one such scene. Book 1 needs at least one more. Candidates:
+
+- **A nursing-school / clinical-rotation scene** — the transition from IT-consulting register to healthcare-provider register; the moment a patient's severed-cost geometry became visible from the other side of the counter. Chris's ongoing nursing coursework makes this self-observational material accessible.
+- **A healthcare-IT institutional scene** — a specific meeting or project where the cost-severance mechanism was visible but not yet named. The MDLogix co-founding moment or a NASA / JH / NIH decision that demonstrated the mechanism structurally (subject to NDA review per pre-drafting gates below).
+- **A community-college SGA / tutoring-office scene** — first-in-family students navigating educational commons pressures; everyday observation from Chris's VPCC SGA presidency.
+
+Pick one. Both the plane opener and the additional scene should be Chris's observation, not synthesized narrative.
+
+### Pre-drafting gates (non-optional, per audit)
+
+1. **CEO-era NDA review.** MDLogix references, specific client names (NASA, Johns Hopkins, NIH, insurance companies, defense contractors), specific engagements, specific colleagues. Pass draft through legal counsel before submission to any publication. Per chapter audit §4.2.
+2. **Subordinate anonymization.** Any colleague or direct-report reference should be scrubbed or explicitly consented. If a specific person's story illustrates the mechanism, seek consent with the option of anonymization.
+3. **Wife's medical privacy.** Do not describe specific medical details beyond what is structurally necessary. Her story is not Chris's to put on paper. Structurally necessary = the fact of near-death + the fact of recovery + the caregiving-displacement pattern. Not necessary = diagnosis, surgical specifics, ongoing condition.
+4. **Parents' privacy.** The "parents standing a little less straight" framing is load-bearing for the return-to-Hampton motivation; specific health or family-structural details beyond that are not Chris's to publish.
+5. **Hampton community observations.** Watermen observed daily-visible from the sailboat should not be described in ways that identify specific operators without consent. Generic observational register — "a man moving on deck, a line cast, a cough" — is appropriate; specific names are not.
+
+### Register discipline
+
+- **Pure Register 1.** No theory. No data. No framework vocabulary. The reader should reach Chapter 1's end caring about Chris and curious about the argument, without having encountered a single statistic.
+- **Target length 5,000–6,000 words.** Room for the 120-hour-week paragraph + story menu (2–3 selected stories) + consent problem passage + healthcare end-of-life bridge + additional original scene.
+- **Do not name the eight tiers.** That is Ch 6's work. Demonstrate each tier through lived experience in the sequence a reader will later recognize, but do not label them.
+- **Do not soften the consent-problem passage.** "You had options a coal miner in McDowell County does not have" is the book's sharpest framework-demonstration. Preserve it.
+- **Do not preempt Ch 2.** One McDowell County reference permissible (in the consent-problem passage); the case itself is Ch 2's work.
+- **Coordinate with Ch 10 harbor opening.** Ch 1's "I came to this harbor because..." framing + Ch 10's Old-Point-Comfort-at-dawn opening share a geographic spine. Don't repeat the same image; earn the recurrence by letting Ch 1 plant what Ch 10 pays off.
+
+### Character pressure points (per audit)
+
+- **C14 (Appalachian reader), C15 (young worker), C16 (former IT consultant), C21 (nursing colleague), C22 (MFA critic)** all press on this chapter.
+- **Ch 1 is the register-establishment chapter.** Every subsequent chapter's register is tested against Ch 1's baseline. If Ch 1's first-person voice lands, the book's register is secured. If it does not, no subsequent chapter can carry the book by itself.

@@ -1,13 +1,15 @@
 # Commons Bonds — Chapter Audit (Session B)
 
-**Version:** 1.0.3
-**Date:** 2026-04-23 (late-session update — supersedes v1.0.2)
-**Status:** Complete. All 10 chapter profiles produced against the actual chapter-draft + guidance-doc content. v1.0.3 captures a broad case-study integration pass across Ch 2, 5, 7, 10 per Chris's direction ("update the relevant chapters with the appropriate case studies").
+**Version:** 1.0.4
+**Date:** 2026-04-23 (late-session update — supersedes v1.0.3)
+**Status:** Complete. All 10 chapter profiles produced against the actual chapter-draft + guidance-doc content. v1.0.4 captures Ch 8 draft integration (housing pattern + tar sands) + Ch 1 + Ch 3 guidance-doc expansion per audit §4.1.1 + §4.1.3 + §4.1.8 task lists.
+**Supersedes v1.0.3:** Three integration landings. (1) **Ch 8 draft integration** — housing-market pattern paragraph + Canadian tar sands brief mention added after the "different industries, different geographies" pattern passage — demonstrates framework applies beyond industrial extraction (household scale + heavy-crude-with-treaty-violations). (2) **Ch 1 guidance-doc expansion** per §4.1.1 task list — case-study references (healthcare end-of-life bridge + feudalism brief-anchor decision) + additional-original-scene section + pre-drafting gates (NDA, anonymization, wife's medical privacy, parents, Hampton community) + register discipline + character pressure points + Ch 10 harbor coordination. (3) **Ch 3 guidance-doc expansion** (CRITICAL upgrade from 38-line stub) per §4.1.3 task list — integration work per audit §2.3 (fieldwork, case-file development, renewable-past-regeneration theorization, Hampton-roots anchor) + case-study references + pre-drafting gates (interview consent, Hampton-specificity, CBF/VIMS institutional handling, watermen dignity) + register notes + character pressure points + cross-chapter tensions (Ch 8, Ch 10, Ch 4 handoffs). §2.8 integration-work items 3 (housing) + 4 (tar sands) now DONE. §4.1.1 tasks 1, 2, 3, 4 DONE. §4.1.3 tasks 1-6 DONE.
+**Supersedes v1.0.2 (v1.0.3 summary):** Broad case-study integration pass across Ch 2, 5, 7, 10 per Chris's direction ("update the relevant chapters with the appropriate case studies").
 **Supersedes v1.0.2:** Broad integration pass landed. Ch 2: opioid second-cycle section + housing enforced-immobility third-level refutation. Ch 5: 2008 double-risk-transfer + healthcare commons (GoFundMe + racial disparity + Butler pacemaker); chapter now describes 6 cases, not 4. Ch 7: temporal + immune-response stress tests (feudalism + blood diamonds / Kimberley Process). Ch 10: feudalism one-sentence anchor + blood diamonds one-sentence anchor + indigenous Lakota Black Hills dedicated anchor (reversing v1.0.2 assumption that sensitivity-reader gate blocked draft-stage integration — the gate is pre-PUBLICATION, not pre-integration; draft-stage anchor with humane-and-precise register is appropriate; sensitivity-reader engagement remains non-optional before publication). §§2.2, 2.5, 2.7, 2.10 integration-work item status flags updated to reflect completions. §1 cross-chapter table updated for Ch 2, 5, 7, 10.
 **Supersedes v1.0.1:** §2.6 rewritten against actual Ch 6 HTML draft read (corrects bottom-up totals to $8-$22 absent carbon, $550-570 with; identifies 2 counterarguments in draft vs. 6 in guidance — architectural compression, not oversight; cross-chapter counterargument distribution verified against Ch 9 + Ch 10); §2.9 updated to reflect completed reachable-horizon cluster integration (Alaska promoted to full anchor; Chattanooga + Mondragon + Vienna added as dedicated paragraphs in entering-wedges section); §1 cross-chapter table status updates.
 **Supersedes v1.0.0 partial** — replaces placeholder §§2.1, 2.3, 2.6, 2.7, 2.8, 2.9 with full profiles; re-verifies §§2.2, 2.4, 2.5, 2.10 against actual drafts; adds §§4 + 5.
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v1.3.0.md`.
-**Parallel to:** `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` + `core/case-studies/commons_bonds_case_study_audit_v1.0.3.md`.
+**Parallel to:** `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` + `core/case-studies/commons_bonds_case_study_audit_v1.0.4.md`.
 
 ## §0.1 v1.0.3 change log
 
@@ -60,14 +62,14 @@ Chapter-by-chapter verdict, now against actual-content reads:
 
 | # | Chapter | Draft state | Guidance state | Audit verdict | Key blockers |
 |---|---|---|---|---|---|
-| 1 | The Plane | **Not begun** | Substantial (155 lines); knowledge-worker extension integrated | **Chris authorial drafting** | Original scene + personal-narrative drafting |
+| 1 | The Plane | **Not begun** | Substantial (~210 lines post-v1.0.4; case-study references + pre-drafting gates + register discipline + additional-original-scene guidance added) | **Chris authorial drafting** | Original scene + personal-narrative drafting |
 | 2 | The Miner | Drafted (~280 lines post-v1.0.3) | Substantial (187 lines) | **Ready for integration rewrite — partially landed** | ~~Opioid ext + housing refutation~~ **DONE v1.0.3**; IPG sources + tier-structure propagation remain |
-| 3 | The Waterman | **Not begun** | Stub (38 lines) | **BLOCKING on Chesapeake fieldwork** | Watermen interviews + Chesapeake case-study file development |
+| 3 | The Waterman | **Not begun** | Substantial (~130 lines post-v1.0.4 — upgraded from 38-line stub with full integration guidance per §4.1.3) | **BLOCKING on Chesapeake fieldwork** | Watermen interviews + Chesapeake case-study file development |
 | 4 | The Existence Proof | Drafted (120 lines) | Substantial (108 lines) | **Ready for integration rewrite** | Governance detail + reachable-horizon cross-ref + Nordic steelman option |
 | 5 | The Accountability Gap | Drafted (~180 lines post-v1.0.3; 6 cases) | Substantial (85 lines) | **Needs revision — scope expansion landed, length management pending** | ~~2008 + Social Security + healthcare~~ **DONE v1.0.3**; length management + structural-revision-check for 6-case chapter remain |
 | 6 | Three Ways of Counting | Drafted (HTML, ~45KB — verified v1.0.2) | **Very substantial (289 lines)** — richest guidance in set | **Moderate revision — tier-structure dependent + format conversion** | Tier decision impact is lighter than v1.0.1 assumed (draft is tier-agnostic; Ch 8 carries tier-decomposition load) + IPG-table reconciliation + HTML → .md + MathJax |
 | 7 | The Colony Administrator | Drafted (~190 lines post-v1.0.3) | **Largest guidance (472 lines)** — all 8 scenarios worked | **Ready for integration rewrite** | ~~Blood diamonds + feudalism stress-test entries~~ **DONE v1.0.3**; register pass remains |
-| 8 | What Things Actually Cost | Drafted (230 lines — very strong) | Stub (54 lines) | **Substantial revision — tier-structure dependent** | Tier decision + dimension-rename + housing integration pattern reference |
+| 8 | What Things Actually Cost | Drafted (~235 lines post-v1.0.4) | Stub (54 lines — guidance-doc upgrade remains pending per §4.1.8) | **Substantial revision — tier-structure dependent** | Tier decision + dimension-rename; ~~housing integration pattern + tar sands~~ **DONE v1.0.4** |
 | 9 | The Renewable Imperative | Drafted (~5,900 words post-v1.0.2 integration) | Thin (73 lines) | **Ready for integration rewrite — partially landed** | ~~Reachable-horizon cluster~~ **DONE v1.0.2**; contingency argument + Nordic steelman + US-Sweden tax + Community Transition Reserve definition remain |
 | 10 | Common Bonds | Drafted (~175 lines post-v1.0.3) | **Substantial (135 lines)** + theoretical development section | **Needs revision — anchors landed, final paragraph + grandfather-specificity + sensitivity-reader review remain** | ~~Indigenous case integration~~ (draft anchor **DONE v1.0.3**; pre-publication sensitivity-reader engagement remains non-optional); ~~feudalism + blood diamonds anchors~~ **DONE v1.0.3**; final paragraph selection + grandfather-at-Langley specificity (Chris-only) remain |
 | — | _Dedication | Text stub (23 lines) — 3 options given | **Embedded in file — no separate guidance** | **Needs dedicated guidance (per Chris observation)** | Select among 3 options |
@@ -429,8 +431,8 @@ Chapter-by-chapter verdict, now against actual-content reads:
 
 1. **Tier-structure decision dependency** — chapter works through 8 tiers explicitly. Tier names (Direct Health / Environmental Degradation / Community Disruption / Foreclosure / Dynastic Labor / Knowledge and Cultural / Political Capture / Temporal Displacement) in Ch 8 draft differ from case-audit canonical (Lifetime Survival / Actuarial Risk / Mission Failure / Dynastic Labor / Foreclosure / Community Transition Reserve / Ecological Carrying / Knowledge and Culture / Political Capture). **Tier-renaming is a direct blocker to Ch 8 rewrite.**
 2. **Dimension-name propagation** — less heavy than Ch 6 but still substantial.
-3. **Housing enforced-immobility pattern integration** — per case audit §2.8. Chapter 8 as instance of housing-market cost severance is a candidate alternate placement; coordinate with Ch 2 primary placement.
-4. **Canadian tar sands brief mention** — if climate-policy section requires. Per case audit §2.14, Tech Appendix routing recommended over Ch 8 integration.
+3. ~~**Housing enforced-immobility pattern integration**~~ — **✓ DONE v1.0.4.** Paragraph added after "Different industries. Different geographies." pattern passage; tier-arithmetic applied at household scale (foreclosure-of-mobility + dynastic + political capture); Ch 2 primary placement preserved.
+4. ~~**Canadian tar sands brief mention**~~ — **✓ DONE v1.0.4.** Brief mention integrated in same added paragraph (Alberta bitumen / heavy-crude markets / boreal forest + First Nations treaty violations / combustion carbon tail). Tech Appendix validation-case remains optional future work.
 5. **Guidance-doc fleshing-out** — current guidance (54 lines) is stub; guidance-doc revision sweep needs to produce full guidance (other chapters' guidance ranges 73-472 lines).
 6. **$10-15T aggregation-signal preservation** — per archived workstream 7 content + Book One trim discipline. Preserve single-sentence form.
 7. **Climate-as-entropy-debt framing** (from v1.28.0 cosmic-dimension investigation, per Ch 8 guidance stub) — Ch 8 coal is natural home for Georgescu-Roegen-level framing if adopted.
@@ -714,15 +716,16 @@ Each guidance doc needs update work against the Session A case-study audit (v1.0
 
 #### §4.1.1 Chapter 1 Guidance
 
-**Current state:** 155 lines — substantial; integrates former Ch 1a.
+**Current state:** ~210 lines post-v1.0.4 (was 155). Integrates former Ch 1a + v1.0.4 case-study references section + v1.0.4 additional-audit-surfaced integration items section.
 
 **Update tasks:**
-1. Add healthcare end-of-life bridge section (1-2 para anchor connecting wife's illness downstream to Butler/pacemaker) — per case audit §2.7 + Ch 1 integration work §2.1.
-2. Add feudalism brief-anchor decision (Ch 1 OR prologue OR Ch 10).
-3. Add additional-original-scene decision framework (nursing / healthcare-IT / community-college SGA).
-4. Add Ch 1 → Ch 10 harbor-opening coordination note.
-5. Reference case audit §9.3 fieldwork guidance for self-observation.
-6. Tag: **Independent of tier-structure decision. Can proceed.**
+1. ~~Add healthcare end-of-life bridge section~~ **✓ DONE v1.0.4** — referenced in v1.0.4 case-study section with register-discipline note (Butler citation reserved for Ch 5; Ch 1 uses Chris's own experience + family-level texture).
+2. ~~Add feudalism brief-anchor decision~~ **✓ DONE v1.0.4** — documented in v1.0.4 case-study section as optional-redundant given Ch 7 + Ch 10 coverage; final placement remains Chris's call.
+3. ~~Add additional-original-scene decision framework~~ **✓ DONE v1.0.4** — nursing / healthcare-IT institutional / community-college SGA candidates listed with selection guidance (pick one; observational not synthesized).
+4. ~~Add Ch 1 → Ch 10 harbor-opening coordination note~~ **✓ DONE v1.0.4** — included in register discipline section.
+5. ~~Reference case audit §9.3 fieldwork guidance for self-observation~~ — **referenced v1.0.4 as cross-reference.**
+6. **Remaining (non-v1.0.4):** NDA / subordinate / wife-medical / parents / Hampton pre-drafting gates — **added v1.0.4 per §2.1 pre-drafting-gates list** (non-optional). Register-discipline notes (Pure Register 1, target length, don't name tiers, don't soften consent-problem, don't preempt Ch 2) — **added v1.0.4.**
+7. Tag: **Independent of tier-structure decision. Guidance-doc COMPLETE per v1.0.4.** Chapter drafting itself remains Chris authorial work.
 
 #### §4.1.2 Chapter 2 Guidance
 
@@ -736,16 +739,16 @@ Each guidance doc needs update work against the Session A case-study audit (v1.0
 
 #### §4.1.3 Chapter 3 Guidance
 
-**Current state:** 38-line stub.
+**Current state:** ~130 lines post-v1.0.4 (upgraded from 38-line stub). v1.0.4 added comprehensive "Expanded integration guidance" section per §2.3 + §4.1.3 task list.
 
 **Update tasks:**
-1. **CRITICAL UPGRADE FROM STUB.** Currently one of two stubs in the set (along with Ch 8).
-2. Incorporate Chesapeake fieldwork specification from case audit §9.1 — who to interview, core questions, tone/consent notes, specific anchor-moments.
-3. Develop Chesapeake fisheries case-study file integration specification — reference `research/case-studies/chesapeake-fisheries.md` (currently stub; will need substantial development).
-4. Renewable-past-regenerative-capacity framework-distinctive theorization section.
-5. First-person Hampton-roots integration specification.
-6. Watermen voice integration sequence (how interview material threads through chapter).
-7. Tag: **Independent of tier-structure decision. Blocking on fieldwork.**
+1. ~~**CRITICAL UPGRADE FROM STUB.**~~ **✓ DONE v1.0.4.** Ch 8 stub remains (§4.1.8).
+2. ~~Incorporate Chesapeake fieldwork specification from case audit §9.1~~ **✓ DONE v1.0.4** — referenced and summarized (watermen interviews 30+ years, CBF scientist, VIMS academic, case-audit §9.1 cross-reference).
+3. ~~Develop Chesapeake fisheries case-study file integration specification~~ **✓ DONE v1.0.4** — reference + development status + specific research gaps (NOAA data, CBF reports, Jackson et al. 2001, 300-year community history, 1970s striped-bass moratorium) documented.
+4. ~~Renewable-past-regenerative-capacity framework-distinctive theorization section~~ **✓ DONE v1.0.4** — section added with non-renewable vs. renewable-past-regeneration distinction + oysters/crabs as canonical cases + irreversibility-threshold discussion.
+5. ~~First-person Hampton-roots integration specification~~ **✓ DONE v1.0.4** — included in integration-work items + register notes + Hampton-specificity pre-drafting gate.
+6. ~~Watermen voice integration sequence~~ **✓ v1.0.4 covers the structural shape** (fieldwork → case-file development → chapter anchor); specific interview-material-threading sequence remains post-fieldwork work.
+7. Tag: **Independent of tier-structure decision. Guidance-doc COMPLETE per v1.0.4.** Chapter drafting itself blocked on fieldwork (Fort Monroe bar reopening + watermen interview access).
 
 #### §4.1.4 Chapter 4 Guidance
 
@@ -801,8 +804,8 @@ Each guidance doc needs update work against the Session A case-study audit (v1.0
 2. Full chapter guidance following other-chapter-guidance template (scope, spine, ready elements, next steps, counterarguments, integration with 8-tier + dimension framework).
 3. Absorb archived workstream 7 Book One trim scope + Book Two deferred scope.
 4. Tier-structure-decision dependency flagged explicitly.
-5. Housing enforced-immobility pattern-integration specification.
-6. Canadian tar sands brief-mention decision (likely Tech Appendix per case audit §2.14).
+5. ~~Housing enforced-immobility pattern-integration specification~~ — **✓ DONE v1.0.4 (draft-level)**. Draft paragraph landed in Ch 8 directly; guidance-doc-level specification remains pending the larger §4.1.8 stub-upgrade task.
+6. ~~Canadian tar sands brief-mention decision~~ — **✓ DONE v1.0.4 (draft-level)**. Brief mention integrated in same paragraph; Tech Appendix validation-case routing remains optional future work.
 7. Irreversibility / climate-as-entropy-debt framing decision (Ch 8 as natural home).
 8. $10-15T aggregation-signal preservation specification.
 9. Tag: **Gated on tier-structure decision.**
