@@ -1,12 +1,17 @@
 # Commons Bonds — Path Comparison Report
 
-**Date:** 2026-04-23
-**Version:** 1.0.0
-**Protocol applied:** `tools/commons_bonds_rigor_protocol_v2.1.0.md`
+**Date:** 2026-04-23 (v1.0.0); revised 2026-04-24 (v1.1.0)
+**Version:** 1.1.0
+**Protocol applied:** v1.0.0 was applied under v2.1.0; v1.1.0 §11 informational findings applied under **v2.2.0** (which adds 6 informational goals).
 **Decision being made:** What scope should the Commons Bonds framework occupy in the published Book 1?
 **Paths compared:** 6 — Path A (status quo) / Path B (compress to CORE) / Path C (dimensions kept, tiers retired) / Path D (tiers kept, dimensions retired) / Path E (aggressive minimum) / Path F (variables-not-dimensions reframing)
-**Goal weighting used:** Default (per protocol §22.4)
+**Goal weighting used:** Default — primary goals per protocol §22.4a; informational goals per §22.4b (NEW v2.2.0)
 **Author:** Chris Winn
+
+**v1.1.0 changes from v1.0.0:**
+- **§8 Decision rationale filled in** — Path F selected by Chris (2026-04-24) consistent with v1.0.0 suite recommendation.
+- **§11 Informational findings added** (NEW per v2.2.0 §22.4b) — six informational goals applied per-path: personal/ethical satisfaction + family wellbeing + career safety + time/capacity preservation + movement utility + financial sustainability.
+- **No revisions to §§1-7, §9-10** — primary-goal analysis stands as v1.0.0; v1.1.0 is purely additive.
 
 ---
 
@@ -585,17 +590,35 @@ If the author's goal-weighting differs substantially from the protocol defaults 
 
 ## §8. Decision rationale (author's choice + reasoning)
 
-**[INTENTIONALLY LEFT BLANK FOR CHRIS.]**
+**Path selected:** **Path F — Variables-not-dimensions reframing.**
+**Date of decision:** 2026-04-24.
+**Alignment with suite recommendation:** consistent (suite recommended Path F; author ratifies).
 
-The PCR's job is to produce findings + recommendations. The choice is the author's. After reviewing the above, Chris fills in:
+**Goals prioritized in the choice:**
 
-- **Path selected:** ___
-- **Goals prioritized in the choice:** ___
-- **Trade-offs accepted:** ___
-- **Reasoning for divergence from suite recommendation, if any:** ___
-- **Implementation timeline + sequencing (high level):** ___
+- **Long-term project impact** — Goal-1 vocabulary cascade at 13+-year horizon + Goal-2 individual-reader use are the criteria the book's success is ultimately measured against. Path F's generative framing maximizes both.
+- **Success criteria** — closely aligned with long-term impact; Path F's reader-applies-the-tool positioning directly strengthens Goal-2 delivery in a way Paths A-E cannot.
+- **Publishing path success** — Path F's pitch + comp-title fit + platform positioning are stronger than all alternatives, strengthening the cascade traction that success criteria depends on.
+- **Academic reception** — weighted at default (1.0× relative to other primary goals); the suite identified one addressable caveat (ontology-preferring reviewers may prefer Path A's commitment) which is mitigated via Ch 6 methodology-strengthening pass.
 
-Documenting the choice + reasoning here makes the decision rerunnable. If cascade reception later surfaces a problem the suite predicted (or didn't), this section becomes the trail showing what was deliberate.
+**Trade-offs accepted:**
+
+- Path F's ontology-vs-generativity trade-off (some academic reviewers prefer ontological commitment over methodological generativity) — accepted with mitigation plan to strengthen Ch 6 methodology defense of generativity-with-reliability.
+- Implementation cost of reframing (5-10% of manuscript content requires reframing; lighter than Path B/E rewriting but real work) — accepted; the suite's finding that Path F has the lowest implementation cost among strong paths makes the trade-off manageable.
+- Personal-stories integration depth (Path K / K+F) deferred to a downstream decision after Chris drafts personal stories — see Cross-cutting Finding 6 (added v1.1.0) and memory file `project_personal_stories_drafting.md`. Path F's generative framing removes the pre-drafting "which dimensions does this story illustrate" concern; stories can be drafted freely and evaluated after.
+
+**Reasoning for divergence from suite recommendation:** N/A — decision aligns with suite recommendation.
+
+**Implementation timeline + sequencing (high level per PCR §10):**
+
+- **Phase A (framework-level reframing, 1-2 weeks focused work):** chapter audit v1.0.6 + case-study audit v1.0.6 + dimensions canonical doc v1.3.0 + 8-tier decomposition reframing + methodology canonical reframing.
+- **Phase B (chapter draft reframing, 3-4 weeks focused work; can parallel Phase A):** Ch 6 methodology rewrite + Ch 8 worked-example reframing + Ch 7 strengthening (add asteroid-miner multi-perspective example per 2026-04-23 Ch 7 guidance update) + Ch 1 + Ch 10 reframing (minor) + throughout-book vocabulary check.
+- **Phase C (parallel independent work):** indigenous sensitivity-reader engagement + Chesapeake fieldwork + Ch 1 + Ch 3 authorial drafting + **personal-stories drafting** (per project memory `project_personal_stories_drafting.md` — Chris's drafting pace; no deadline; the Path F reframing unblocks drafting by removing the pre-fit-to-framework concern).
+- **Phase D (submission readiness, after Phase A + B land):** full-suite PSR run + comp titles + jacket copy + pitch + cascade essay submissions + literary agent outreach.
+
+**Dependencies + gates surfaced by §11 informational findings** — see v1.1.0 §11 below for per-goal findings that may affect timing, scope, or mitigation plans across the phases above. Where informational-goal findings surface items that affect the primary-goal-driven implementation, they get lifted into the implementation plan explicitly.
+
+**Rerunnability note:** this decision was made with suite recommendation + informational findings in v1.1.0 + personal-stories-drafting gate documented + asteroid-miner multi-perspective example already specified in Ch 7 guidance. If cascade reception or reviewer feedback later surfaces a problem the suite predicted (or missed), this section + the v1.1.0 §11 findings become the traceable record showing what was deliberate, what was deferred, and why.
 
 ---
 
@@ -724,5 +747,112 @@ These are findings that surfaced across multiple paths and multiple modules — 
 
 ---
 
-*End of Path Comparison Report v1.0.0. Decision-rationale section (§8) intentionally blank for Chris's authorial completion. Once Chris's decision is recorded at §8, the chosen-path implementation per §10 becomes the next session's work.*
+## §11. Informational findings (NEW v1.1.0 per protocol v2.2.0 §22.4b)
+
+Per protocol v2.2.0, six informational goals produce per-path findings without driving primary recommendations. They surface considerations the primary goals miss. Especially worth running because **an unexpected very-good or very-bad finding can materially affect a decision the primary goals would otherwise resolve cleanly.**
+
+Findings below confirm, extend, or complicate the primary-goals recommendation (Path F) made in §§1-7.
+
+### §11.1 Personal/ethical satisfaction with the published work
+
+**The goal asks:** does the author consider the published book personally honest, true to experience, true to the people they write about? Will they stand behind it in 10+ years?
+
+| Path | Per-path finding | Watch-this callout |
+|---|---|---|
+| **Path A** | Comprehensive taxonomy. Author's voice is framework-systematizer voice. Honest at a level — the framework is earnestly worked — but doesn't foreground the author's personal experience of cost severance. 10-year-later: author may find the taxonomy commitment binds them to specific dimension/tier positions they evolve away from. | **Bind-to-earlier-self risk:** the 10-dimension taxonomy + 8-tier decomposition are specific commitments that subsequent intellectual development may revise; the author is locked into defending them in published form. |
+| **Path B** | Clean methodological contribution. Author's voice is equation-and-method voice. Honest in a narrow sense. 10-year-later: easier to stand behind because the commitments are tighter (equation + method + vocabulary); the illustrations aren't load-bearing. | — |
+| **Path C, D** | Hybrid positions split the commitment problem — author still committed to one taxonomy (dimensions or tiers) but not the other. Moderate 10-year satisfaction. | — |
+| **Path E** | Aggressive minimum. Author's voice is assert-the-equation voice. Honest but thin — the book may feel under-developed to the author in retrospect (did I do the work?). | **Under-development regret risk:** at 30K words with aggressive case retirement, the author may look back and feel the book didn't earn its place; sustained personal-ethical satisfaction may be harder than the primary-goal scoring suggests. |
+| **Path F** | Methodologically-generative + illustratively-grounded. Author's voice is author-discovering-the-method voice. Most sustainable in 10-year terms — the commitments (equation + method + vocabulary) are tight; the illustrations serve pedagogical function without being defensive commitments. | **Unexpectedly-good finding:** Path F's generative framing explicitly permits future scholars (including the author's future self) to extend + refine + revise specific variables without unraveling the framework. The author ages with the framework instead of being stuck defending it. Long-term author-satisfaction is strongest of all paths. |
+
+**Aggregate:** Path F is strongest on personal/ethical satisfaction over the 10+-year horizon because the generative framing anticipates author-evolution and doesn't bind to specific ontological commitments that may become inconvenient.
+
+### §11.2 Family wellbeing
+
+**The goal asks:** wife / parents / son / extended family privacy, relational impact, exposure burden across the book's life.
+
+| Path | Per-path finding | Watch-this callout |
+|---|---|---|
+| **Path A** | Family exposure at current Ch 1 + Ch 10 depth — wife's illness, grandfather at Langley, parents-less-straight, son mentions, Hampton community. Pre-drafting gates in Ch 1 guidance + Ch 10 guidance cover mitigation. | — |
+| **Path B** | Compressed book; family exposure reduced if Ch 1 + Ch 10 compress. Slight improvement over A. | — |
+| **Path C, D, E** | Similar to A or slight reduction. | — |
+| **Path F** | Same as Path A — no change in family-exposure depth (Path F is framework reframing, not content revision). Family pre-drafting gates still apply unchanged. | — |
+| **Path K / K+F (future option)** | **Substantially higher family exposure** — memoir-anchored requires more scene-level personal material; wife's medical privacy, parents' privacy, son's privacy all surface more explicitly. Path K's family-wellbeing exposure is 3-5× higher than Path F's. | **Future-decision flag:** when Chris drafts personal stories (per memory `project_personal_stories_drafting.md`), family-wellbeing implications of each story warrant explicit pre-evaluation. The Path K revisit gate should include explicit wife / parents / son consultation on specific personal material before any Path K integration commits. **This is the single most important informational finding for the personal-stories gate.** |
+
+**Aggregate:** Path F is neutral on family wellbeing (no change from current state). Watch-this callout is for the downstream Path K decision — not this decision.
+
+### §11.3 Career safety + nursing-licensure protection
+
+**The goal asks:** does the published book preserve Chris's ability to practice nursing, hold institutional positions, work with vulnerable populations?
+
+| Path | Per-path finding | Watch-this callout |
+|---|---|---|
+| **Path A-E, Path F** | Nursing-licensure exposure is minimal and path-independent — the framework material and case studies don't directly involve patient data, clinical-practice decisions, or professional-conduct items. Legal review of Ch 5 healthcare commons section required (standard pre-publication check). | — |
+| **All paths** | CEO-era material (if Ch 1 authorial drafting includes MDLogix / NASA / Johns Hopkins / NIH specifics) requires NDA review pre-publication. Path-independent. | **Legal-review gate:** regardless of path, Ch 1 authorial drafting + any Ch 5 healthcare specifics trigger legal counsel review before submission. Budget for this is separate from framework-scope decision. |
+| **Path K / K+F (future option)** | **Higher career exposure** — memoir-anchored nursing-school + clinical-rotation scenes could raise patient-privacy concerns even with anonymization. Also: SGA presidency material could raise institutional-political exposure. | **Future-decision flag:** nursing-clinical content + SGA-institutional content in memoir-depth require separate legal + institutional review above Path F's baseline. The Path K revisit gate should surface career-exposure items per story + require explicit mitigation planning before integration. |
+
+**Aggregate:** Path F is neutral on career safety (no change from current state). Watch-this callout is for Path K revisit.
+
+### §11.4 Time / capacity preservation
+
+**The goal asks:** what's the implementation cost relative to author's life capacity (nursing school, coursework, future practice, family, sleep)?
+
+| Path | Implementation cost | Opportunity cost |
+|---|---|---|
+| **Path A** | ~0 weeks (preserves all current investment; status quo) | None direct; but locks in the book as currently drafted + audited, which may be under-performing on primary goals. |
+| **Path B** | 8-12 weeks of focused rewrite work (substantial Ch 5 + Ch 6 + Ch 8 rewrite + case retirements + audit rewrites) | ~2-3 months of nursing-school / coursework / clinical-rotation capacity traded for the rewrite. |
+| **Path C, D** | 4-6 weeks of focused rewrite work (partial rewrites) | ~1-1.5 months of capacity. |
+| **Path E** | 12-16 weeks of focused work (most aggressive rewriting + scoping) | ~3-4 months of capacity + substantial emotional energy in case-retirement decisions. |
+| **Path F** | **6-9 weeks of focused reframing work** — lightest-touch of the non-status-quo paths. Chapter drafts substantially intact; Ch 6 + Ch 8 most affected (reframing not ground-up rewrite); Ch 7 strengthening (add asteroid-miner example) is already specified in guidance. Phase A + Phase B per §10. | **1.5-2 months of capacity.** Compatible with continued nursing-school pacing if spread across 3-4 calendar months. Phase C (personal-stories drafting, Chesapeake fieldwork, Ch 1 + Ch 3 authorial drafting, indigenous sensitivity-reader identification) runs on a parallel opportunistic cadence — no fixed schedule. |
+
+**Aggregate:** Path F is the most capacity-efficient of the strong-primary-goal paths. Watch-this: no unexpected findings.
+
+### §11.5 Movement / community-of-practice utility
+
+**The goal asks:** does the book serve organized work (labor organizing, environmental advocacy, indigenous sovereignty, commons governance, healthcare reform)? Does it build a community of practice that extends the framework?
+
+| Path | Per-path finding | Watch-this callout |
+|---|---|---|
+| **Path A** | Comprehensive framework usable by organizers who invest in learning the taxonomy. But the taxonomy-load reduces casual-organizer uptake. | — |
+| **Path B** | Clean methodology + vocabulary usable by organizers without taxonomy overhead. Lower uptake barrier; higher volume of organizers who engage. | — |
+| **Path C, D** | Middle positions. | — |
+| **Path E** | Clean methodology + small case set. Movement uptake limited by how much the framework can be extended without more worked examples. | — |
+| **Path F** | **Generative method + vocabulary + rich illustrative cases = strongest movement utility of all paths.** Organizers can apply AIT + RCV in their specific context (labor-contract negotiation, community-commons disputes, extraction-project advocacy) without needing to memorize a taxonomy. The framework becomes a tool organizers deploy; worked examples in the book are learning material for new users. | **Unexpectedly-good finding:** Path F's variables-not-dimensions reframing directly enables movement extension in a way the other paths structurally don't. Labor lawyers can use severed cost. Community organizers can use the equation. Indigenous-sovereignty advocates can apply AIT to land-claim contexts. Environmental-justice practitioners can compute RCV for specific extraction projects. The framework becomes usable infrastructure for organized work in a way that could substantially exceed the book's initial audience. **This may be the most important informational finding in §11 for Goal-1 vocabulary cascade** — movement uptake is how vocabulary cascades in practice. |
+
+**Aggregate:** Path F is dramatically strongest on movement utility. Unexpectedly-good finding: movement uptake may be the primary cascade mechanism rather than academic citation; Path F enables this directly.
+
+### §11.6 Financial sustainability
+
+**The goal asks:** does the book + cascade produce enough income to support continued writing without continuous nursing-shift income to bridge?
+
+| Path | Per-path finding | Watch-this callout |
+|---|---|---|
+| **Path A** | Trade press advance (if landed) likely modest for a first-time-author methodology book. ~$5-25K advance range; royalties modest; speaking fees follow. | — |
+| **Path B** | Sharper pitch = slightly better advance trajectory. ~$10-30K advance range. Essay-cascade income meanwhile builds platform. | — |
+| **Path C, D** | Middle positions. | — |
+| **Path E** | Short-book format may land at small-advance hybrid press or be essay-cascade-only. ~$0-15K advance. | **Sub-sustainability risk:** if Path E doesn't land a real book contract, cascade-income alone may not sustain continued writing without nursing-shift income bridging. |
+| **Path F** | **Strongest advance trajectory** given the memoir-adjacent + tool-for-readers + cross-spectrum positioning. Comparable comp-title fit (*Doughnut Economics*, *Thinking Fast and Slow*, *Atomic Habits*) suggests ~$25-75K advance range at trade press with good cascade traction. Royalties stronger if movement-uptake materializes (per §11.5). Speaking fees + advisory opportunities likely materialize post-publication given the framework-as-tool positioning. | **Unexpectedly-strong income-trajectory finding:** Path F's combination of (a) clean trade-press pitch + (b) movement-uptake potential + (c) individual-reader-tool positioning could produce a materially stronger income trajectory than a first-time-author framework book typically earns. The generative framework also supports Book 2 + advisory work + lecture circuit — all additional income streams downstream of Book 1. **Sustainability gets plausibly 2-4 years of non-nursing-income runway out of Book 1 alone if cascade traction is strong.** |
+
+**Aggregate:** Path F is strongest on financial sustainability. Watch-this: unexpectedly-strong income trajectory could materially improve sustainability planning.
+
+### §11.7 Cross-informational-goal synthesis
+
+Across the six informational goals, Path F produces three unexpectedly-good findings and zero unexpectedly-bad findings. No informational-goal finding contradicts the primary-goal recommendation. The informational-goals layer reinforces rather than challenges the Path F selection.
+
+The **most significant informational findings** for implementation planning:
+
+1. **Family-wellbeing watch-this for Path K revisit** (§11.2) — when personal stories are drafted + the Path K revisit runs, family-wellbeing per-story evaluation is the most important single item. Family consultation on specific personal material should be explicit before any Path K integration commits.
+2. **Movement-utility unexpectedly-good finding** (§11.5) — may redirect cascade strategy. If movement uptake is the primary cascade mechanism rather than academic citation, publishing-strategy decisions (venue prioritization, blurb requests, book-launch communities) should weight organizers' networks alongside academic networks.
+3. **Financial sustainability unexpectedly-strong trajectory** (§11.6) — changes the book's role in Chris's career planning. If Book 1 can plausibly provide 2-4 years of runway, the nursing-shift income bridging requirement lightens, opening capacity for Book 2 + advisory work to land earlier.
+4. **Personal/ethical-satisfaction unexpectedly-good finding** (§11.1) — Path F's generative framing anticipates author-evolution. 10-year author-satisfaction is structurally stronger than other paths because the commitments are tight + revisable.
+
+### §11.8 Informational findings impact on primary recommendation
+
+**Primary recommendation (Path F, per §§1-7) stands unchanged.** The informational findings in §11 reinforce the Path F selection across all six goals with no contradicting findings. The two watch-this callouts (§11.2 family-wellbeing for Path K revisit; §11.3 career-safety for Path K revisit) apply to a downstream decision, not to this decision.
+
+The three unexpectedly-good findings (§11.1 author-satisfaction longevity; §11.5 movement-utility potential; §11.6 income-trajectory strength) should inform implementation planning in §10 + the session handoff.
+
+---
+
+*End of Path Comparison Report v1.1.0. §8 decision rationale complete (Path F selected 2026-04-24). §11 informational findings added per protocol v2.2.0 §22.4b. Implementation per §10 Phase A + Phase B becomes next-session work.*
 
