@@ -1,9 +1,11 @@
 # Commons Bonds — Case Study Audit
 
-**Version:** 1.0.5
-**Date:** 2026-04-23 (late-session update)
-**Status:** Canonical reference for Book One chapter drafting + standing framework-integrity audit. **Parallel to `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md`** and `core/chapters/commons_bonds_chapter_audit_v1.0.5.md`.
-**Protocol applied:** `tools/commons_bonds_rigor_protocol_v1.3.0.md` (full rigor per case, compressed rendering — Groups A, 5A standing, and selected Group B-F + character suite pressure points that produce findings; silent characters condensed).
+**Version:** 1.0.6
+**Date:** 2026-04-24 (Path F reframing — supersedes v1.0.5)
+**Status:** Canonical reference for Book One chapter drafting + standing framework-integrity audit. **Parallel to `core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md`** (will bump from v1.2.0 under Phase A1 Task 3) and `core/chapters/commons_bonds_chapter_audit_v1.0.6.md`. **v1.0.6 applies Path F reframing** per PCR v1.1.0 §8 decision + rigor pass v1.0.0 §11 ratified resolutions: cases become **worked examples of AIT-applied variable-discovery** across specific extraction contexts, not instances of a canonical taxonomy. Per-case verdicts preserved; per-case dimension-activation columns reframed as "variables identified in this case via AIT."
+**Protocol applied:** `tools/commons_bonds_rigor_protocol_v2.2.0.md` (full rigor per case, compressed rendering — Groups A, 5A standing, and selected Group B-F + character suite pressure points that produce findings; silent characters condensed).
+
+**Supersedes v1.0.5 — Path F reframing:** All 18 case profiles preserved. Dimension activation columns retained with reframed function: each case activates the variables AIT surfaces when applied to that specific extraction context. Convergence across the 18 cases (all clustering into roughly 10 abundances + 8 tier cost categories) becomes evidence for the framework's empirical reliability rather than evidence for ontological canonical taxonomy — a subtle but load-bearing reframing. §0.1a NEW v1.0.6 change log at top. §1 cross-case summary table carries a Path F-context note. Per-case §2 profiles preserved; Path F reframing lands at the chapter-draft level in Phase B Task 15 (throughout-book vocabulary check) rather than in this audit.
 
 **Supersedes v1.0.4:** Two new case-study files added as paired temporal-stress-test anchor: **ancient Egyptian pyramids** (§2.17) + **Qin Dynasty monumental extraction** (§2.18). v1.0.5 initial proposal placed them in Ch 1; Chris's editorial call ("whichever chapter makes the most sense for the book") routed them to **Ch 7**'s existing "Framework across time, and the immune response" section, where they join feudalism (added v1.0.3) as a three-civilization temporal stress-test. Rationale: Ch 7 is the universality-test chapter — universality cases belong architecturally there. Ch 1's register discipline (pure Register 1, no theory/data/historical-case material) is preserved. Ch 1's cross-spectrum credibility is instead carried by Chris's own biography (IT consultant at NASA/JH/NIH → nursing student → sailboat writer — a life that doesn't fit a single political tribe). Ch 7 draft integrated v1.0.5. §1 cross-case summary table updated (16 → 18 cases).
 
@@ -23,6 +25,37 @@
 **Supersedes v1.0.0:** v1.0.1 patch added §9 Fieldwork guidance (per-case interview recommendations) without structural changes.
 
 **Related:** `alignment/decisions/alternate-8-tier-individual-level-retired.md`; `alignment/decisions/ws12-ipg-data-table-for-reconciliation.md`; `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1.0.6.md`; `research/case-studies/indigenous-land-dispossession.md`; reachable-horizon cluster at `research/case-studies/alaska-permanent-fund.md` + `chattanooga-municipal-broadband.md` + `mondragon-cooperative.md` + `vienna-social-housing.md`; `research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md`; `core/chapters/commons_bonds_chapter_audit_v1.0.3.md` (all Ch profiles synchronized with this version).
+
+## §0.1a v1.0.6 change log — Path F reframing
+
+**Triggering decision:** PCR v1.1.0 §8 confirmed Path F on 2026-04-24. Rigor pass v1.0.0 §11 ratified the four conditions. Phase A1 Task 2 executes here.
+
+**What changes under Path F in this audit:**
+
+The case studies remain exactly as developed. What reframes is their function:
+
+- **v1.0.5 framing (ontological):** "18 cases, each activating specific canonical dimensions per the 10-abundance taxonomy; dimension activation is the analytical handle for book-placement decisions."
+- **v1.0.6 framing (illustrative via variable-discovery):** "18 cases, each a worked example of AIT applied to a specific extraction context; the variables each case surfaces happen to cluster into roughly 10 abundances + 8 cost categories, which is evidence of the method's empirical reliability across diverse contexts. Cases are pedagogical demonstrations of the framework's generative method, not instances of a canonical taxonomy."
+
+**What this means in practice:**
+
+- **Dimension activation columns retained, function reframed.** "Kindred (primary), Spatial (primary), Institutional (secondary)" in a case profile now means "AIT applied to this case surfaced Kindred-type + Spatial-type + Institutional-type variables as primary costs." The labels are useful categorical shorthand, not canonical commitments.
+- **Per-case verdicts preserved.** EARNS PLACE, BOOK 1 placement, research gaps, pre-drafting items — all stand. Path F doesn't re-open case-level scope decisions.
+- **Convergence across 18 cases becomes the framework's empirical evidence.** The fact that diverse cases (McDowell coal + Norway oil + Libby vermiculite + Deepwater Horizon + 2008 crisis + Social Security + healthcare + housing + opioid + Nigeria + blood diamonds + feudalism + tar sands + Chesapeake + indigenous + tax trade-off + Egypt + Qin) all surface variables that cluster into the same ~10 abundance categories is evidence the method is reliable, not evidence the categories are ontological.
+- **The 10-abundance + 8-tier convergence becomes the reproducibility claim** referenced in Ch 6 Condition 3 reproducibility-scope section (Phase A2 Task 7). Ch 6 language: "eighteen cases examined across five centuries of extraction history — pharaonic Egypt through Qin China through medieval Europe through industrial Appalachia through contemporary Chesapeake fisheries through speculative asteroid-mining — consistently surface variables that cluster into approximately the same ten categories. This is not proof that the method is fully reproducible across all analysts; it is evidence that under common assumptions, AIT + the four gates (dimensional consistency + boundedness + independence) converge on similar variable sets."
+
+**What does NOT change:**
+
+- The case-study audit protocol applied (per-case v1.3.0 rigor; now per v2.2.0).
+- Book routing per case (Book 1 / Book 2 / Book 3 / scaffolding).
+- Per-case pre-drafting gates (sensitivity-reader, anonymization, legal review).
+- Research gaps per case.
+- §3 cross-case findings + §3.1 dimension-activation matrix (the matrix becomes "variable-type activation matrix" functionally but structurally identical).
+- §9 fieldwork guidance.
+
+**Phase B Task 15 (throughout-book vocabulary check) handles the draft-prose-level reframing.** This audit carries the v1.0.6 header + §0.1a + §1 context note + this change log at v1.0.6; per-case §2 profiles stay in v1.0.5 form pending Phase B vocabulary work.
+
+---
 
 ## §0.1 v1.0.3 change log
 
@@ -94,7 +127,9 @@ Cross-case §§3–6 then synthesize: dimension-activation matrix, chapter map, 
 
 ## §1. Cross-case summary
 
-16 case studies evaluated. The following table is the load-bearing scannable reference; detailed rigor per case follows in §2.
+18 case studies evaluated. The following table is the load-bearing scannable reference; detailed rigor per case follows in §2.
+
+**Path F context note (v1.0.6):** the "Dimension activation" column below labels the variable categories AIT surfaced when applied to each specific case. Under Path F, these labels remain useful shorthand for categorizing the cost-types a case demonstrates, but they do not constitute ontological commitment to a canonical 10-dimension taxonomy. The empirical fact that diverse cases converge on approximately the same 10 variable categories is evidence of the method's reliability (see §0.1a change log for full discussion). Cases that span the same category don't necessarily share identical variable instances — "Kindred" activation in the indigenous dispossession case refers to non-substitutable ancestral-land attachment; "Kindred" activation in the McDowell coal case refers to family-community dynastic cost; both are legitimately-in-the-Kindred-category under AIT, but they're different specific variables.
 
 | # | Case | Dimension activation | Current state | Book home | Status |
 |---|---|---|---|---|---|
