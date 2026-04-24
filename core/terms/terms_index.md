@@ -129,25 +129,236 @@ Each term carries its own `term-spec version` independent of document versions. 
 - Political Capture Cost
 
 **Records populated in §4 (2026-04-24):**
-- Spatial Cost Severance — `RETIRED` (misnamed; abundance-cost not severance).
-- Temporal Cost Severance — `RETIRED` (replaced by lowercase prose phrase "intergenerational cost severance").
-- intergenerational cost severance (lowercase prose phrase) — `CURRENT` (adopted as standard book descriptor for the intergenerational subtype of Cost Severance).
-- Cost Bearing — `SUPERSEDED` (demoted from glossary to prose-only).
-- Value Extraction — `CURRENT` at Ring 1 (promoted from Ring 2; causal-event term; supersedes retired Value Capture).
-- Value Capture — `RETIRED` (duplicative with Value Extraction; retired per head-to-head triage).
 
-**Ring-1 synthesis batch partial ratification (2026-04-24):**
-- Value Extraction: ratified ✓ (Option B adopted)
-- Cost Severance + Severed Cost: pending (Option A from CS-vs-SC rigor pass)
-- AIT: pending (Option A from AIT rigor pass)
-- RCV: pending (Option A from RCV rigor pass)
-- Commons Bonds: pending (rigor pass not yet run — Open Insight #4)
+*Retirement / demotion records (4):*
+- Spatial Cost Severance — `RETIRED` (misnamed; abundance-cost not severance).
+- Temporal Cost Severance — `RETIRED` (replaced by lowercase prose phrase).
+- Cost Bearing — `SUPERSEDED` (demoted from glossary to prose-only).
+- Value Capture — `RETIRED` (duplicative with Value Extraction).
+
+*CURRENT records — active Ring-1 terms (6):*
+- Cost Severance — `CURRENT` Ring 1 (mechanism; 227 uses).
+- Severed Cost — `CURRENT` Ring 1 (result + flagship adoption phrase; 37 uses; success-criterion target).
+- Value Extraction — `CURRENT` Ring 1 (causal event; promoted from Ring 2; 16 proper-noun + 42 concept-level uses; supersedes Value Capture).
+- Abundance Inversion Test (AIT) — `CURRENT` Ring 1 (methodology + Gate L.1; 505 uses).
+- Residual Commons Value (RCV) — `CURRENT` Ring 1 (quantification-anchor + equation component; 729 uses — framework's MOST-used term).
+- intergenerational cost severance (lowercase prose phrase) — `CURRENT` (adopted as standard book descriptor for the intergenerational subtype of Cost Severance).
+
+**Ring-1 synthesis batch — FULLY RATIFIED 2026-04-24:**
+- Value Extraction: Option B ratified ✓
+- Cost Severance + Severed Cost: Option A (keep both) ratified ✓
+- AIT: Option A (keep current) ratified ✓
+- RCV: Option A (keep current) ratified ✓
+- Cost (Cᵢ): Option B (from earlier Variable-vs-Cost pass) — still pending individual ratification
+- Commons Bonds: still pending rigor pass (Open Insight #4)
+
+**Ring 1 now has 5 of 7 terms with populated records + 1 ratified-elsewhere + 1 pending rigor pass.**
 
 ---
 
 ## §4. Established records
 
 *(Records below are populated as rigor passes land. Each record's body summarizes the pass's verdict; full pass documents live at `tools/rigor-passes/`.)*
+
+---
+
+### Cost Severance
+
+**Working definition:** the structural mechanism by which extraction separates value capture from cost bearing. The process/mechanism noun that names the framework's core phenomenon. Middle position in the framework's causal chain: *Value Extraction → Cost Severance → Severed Cost.*
+
+**Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn, Ring-1 synthesis batch).
+
+**Term-spec version:** v1.0 (first sanctioned spec after CS-vs-SC triage).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Variable-addability rigor pass (2026-04-24) — CORE mechanism preserved under Path F generalization.
+- Tier-reframing + macro-grouping passes (2026-04-24) — mechanism preserved under all ratified framework changes.
+- CS-vs-SC triage rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cost_severance_vs_severed_cost_v1.0.0.md` (2026-04-24) §17 — Option A (keep both Cost Severance + Severed Cost with role discipline) PASSES extreme rigor.
+- Ring-1 synthesis pass (2026-04-24) — verdict reinforced; CS = RCV − B equation integration verified.
+
+**Role discipline:** Cost Severance is the *process/mechanism noun*. Use when naming the mechanism, describing how the phenomenon operates, or in theoretical discussion. *"McDowell suffers cost severance."* *"Cost severance operates through..."* Lexical slot: subject of analytical sentences about mechanism operation. Companion term: Severed Cost for result/quantity naming (see separate record).
+
+**Usage audit:** 227 occurrences in 36 files as of 2026-04-24 — framework's most-used mechanism term.
+
+**Depends on:**
+- Value Extraction (causal event that triggers the mechanism — Ring 1)
+- Severed Cost (result-side companion — Ring 1)
+- RCV (quantification that measures the mechanism's output — Ring 1)
+- CS = RCV − B equation (Cost Severance appears as "CS" in the equation)
+- AIT (methodology for identifying costs within the mechanism's scope)
+
+**Staleness triggers:**
+- Framework CORE math redefines the CS = RCV − B relation.
+- Academic adoption evidence shows "cost severance" failing to travel.
+- Role-discipline slippage where prose blurs CS (mechanism) with SC (result).
+
+**Commit trail:**
+- CS-vs-SC rigor pass: commit `0021e24` (2026-04-24).
+- Ring-1 synthesis: commit `2b70377` (2026-04-24).
+- Ratification + Ring-1 record: this commit.
+
+**Supersedes / superseded by:** N/A — retained under triage.
+
+**Notes:**
+- Pair with Severed Cost is grammatical complementarity (process noun vs result noun), NOT duplication. Standard economics convention (externality vs externality cost; rent-seeking vs rent).
+- Style-discipline per CS-vs-SC rigor pass: use Cost Severance when naming the mechanism; use Severed Cost when quantifying specific instances.
+
+---
+
+### Severed Cost
+
+**Working definition:** a specific cost that has been severed — value extracted by capturer while the cost remains at the source (community, ecosystem, future generation). The result/quantity noun naming the quantified outcome of the Cost Severance mechanism. **Flagship adoption target** for the framework's success criterion ("severed cost" used by labor lawyer in brief).
+
+**Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn, Ring-1 synthesis batch).
+
+**Term-spec version:** v1.0 (first sanctioned spec after CS-vs-SC triage).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Same implicit rigor as Cost Severance — Severed Cost is the flagship adoption phrase tested across every rigor pass since Path F.
+- CS-vs-SC triage rigor pass (2026-04-24) §17 — Option A ratified; Severed Cost retained as flagship adoption target alongside Cost Severance mechanism name.
+- Ring-1 synthesis (2026-04-24) — role discipline reinforced.
+
+**Role discipline:** Severed Cost is the *result/quantity noun* + *flagship adoption phrase*. Use when quantifying a specific instance, writing legal/policy-register prose, or using the framework's adoption-target vocabulary. *"McDowell bears a severed cost of $550/ton."* *"The severed cost shows up in community collapse."* Lexical slot: object or quantified predicate in accounting sentences. Companion: Cost Severance for mechanism naming.
+
+**Usage audit:** 37 occurrences in 12 files as of 2026-04-24 — less framework-internal usage than Cost Severance, but higher adoption potential (shorter, quantifiable, legal-register).
+
+**Success criterion:** THE framework's target for adoption. *"If, ten-plus years from now, a labor lawyer uses 'severed cost' in a brief or in open court and the judge does not need it explained — the book has succeeded."*
+
+**Depends on:**
+- Cost Severance (mechanism-side companion — Ring 1)
+- CS = RCV − B equation (Severed Cost is the quantified CS in specific instances)
+- Value Extraction (causal event upstream)
+- RCV − B computation (mathematical basis)
+
+**Staleness triggers:**
+- Success criterion shifts away from "severed cost" adoption target.
+- Legal/policy adoption evidence after publication shows different phrase traveling instead.
+- Mechanism-name changes (Cost Severance) would force SC revisit.
+
+**Commit trail:**
+- CS-vs-SC rigor pass: commit `0021e24` (2026-04-24).
+- Ring-1 synthesis: commit `2b70377` (2026-04-24).
+- Ratification + Ring-1 record: this commit.
+
+**Supersedes / superseded by:** N/A — retained under triage.
+
+**Notes:**
+- Flagship adoption phrase. When the book's rhetorical strategy is honest accounting, Severed Cost is the term that travels into legal briefs, policy memos, and journalism. Retirement or replacement would directly sabotage the success criterion.
+- Style-discipline per CS-vs-SC rigor pass (and applies symmetrically with Cost Severance).
+
+---
+
+### Abundance Inversion Test (AIT)
+
+**Working definition:** the framework's epistemic methodology for determining whether a candidate cost is scarcity-grounded (and therefore admissible to RCV computation). Procedure: invert the scarcity-condition underlying the cost to its abundance counterpart; if the cost vanishes under the counterfactual, it's scarcity-grounded and admits. Gate L.1 of the four-gate discipline. Chris's original methodology coinage. Short form "Abundance Test" acceptable in informal prose contexts.
+
+**Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn, Ring-1 synthesis batch).
+
+**Term-spec version:** v1.0 (first sanctioned spec after rigor-pass verification).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Variable-addability rigor pass (2026-04-24) — AIT confirmed as CORE epistemic methodology.
+- Path F rigor pass (2026-04-24) — AIT's role as admission-method for Cᵢ confirmed.
+- Tier-reframing + macro-grouping passes (2026-04-24) — AIT role unchanged.
+- AIT rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_ait_v1.0.0.md` (2026-04-24) §17 — Option A PASSES unconditionally. 505 embedded uses (439 acronym + 50 full-form + 16 short-form) across 30 files. Name-mechanism match exact. Vocabulary-coherence with abundance-architecture preserved.
+- Ring-1 synthesis (2026-04-24) — AIT's position coherent with other Ring-1 terms.
+
+**Role:** methodology/test-name + Gate L.1 (first of the four gates) + epistemology-anchor. Not a public-adoption target (not a brief phrase); academic-citation target.
+
+**Short form:** "Abundance Test" acceptable in informal prose contexts (16 existing uses). Full form "Abundance Inversion Test" in formal/first-use contexts. Acronym "AIT" in technical/dense-reference contexts.
+
+**Usage audit (2026-04-24):** 505 total uses across 30 files — framework-internal workhorse.
+
+**Depends on:**
+- Abundances (the 10 organizational scaffolding — AIT operates on abundance-conditions)
+- Four Gates structure (AIT is Gate L.1)
+- Cost (Cᵢ) (AIT admits Cᵢ to the integrand)
+- RCV (AIT-admitted Cᵢ integrates into RCV)
+- Framework CORE math
+
+**Staleness triggers:**
+- Framework's abundance vocabulary restructured in a way that misaligns "abundance inversion."
+- Published peer review identifies academic citation ambiguity.
+- Alternative methodology name surfaces with compelling rigor verdict (unlikely given passage of standalone rigor pass).
+
+**Commit trail:**
+- AIT rigor pass: commit `9abb263` (2026-04-24).
+- Ring-1 synthesis: commit `2b70377` (2026-04-24).
+- Ratification + Ring-1 record: this commit.
+
+**Supersedes / superseded by:** N/A.
+
+**Notes:**
+- Name-mechanism match (Principle #3) is exact: "Abundance Inversion Test" literally describes what the test does (inverts to abundance counterfactually and tests whether the cost vanishes).
+- Rename candidates (Scarcity-Grounding Test, Scarcity Test, Abundance Test primary, drop acronym) each failed rigor.
+- Academic citation anchor: readers cite the framework's methodology as "AIT (Winn, Commons Bonds)."
+
+---
+
+### Residual Commons Value (RCV)
+
+**Working definition:** the framework's central quantification — the true intergenerational cost of extraction that remains unpriced by conventional accounting (market prices + accountability bonds + existing externality instruments). Computed as the integral of the sum of admitted cost terms (Cᵢ) against a declining discount factor over infinite horizon:
+
+RCV(R, t₀, Context) = ∫ₜ₀^∞ { Σᵢ Cᵢ(R, t, Context) } · D(t, t₀) dt
+
+One side of the flagship equation CS = RCV − B, where CS is cost severance and B is the accountability bond.
+
+**Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn, Ring-1 synthesis batch).
+
+**Term-spec version:** v1.0 (first sanctioned spec after rigor-pass verification).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Variable-addability rigor pass (2026-04-24) — RCV confirmed as CORE quantification; variable-addability generalization preserves RCV form.
+- Path F rigor pass (2026-04-24) — RCV's role under the four-gate discipline confirmed.
+- Tier-reframing + macro-grouping passes (2026-04-24) — RCV unchanged.
+- RCV rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_rcv_v1.0.0.md` (2026-04-24) §17 — Option A PASSES unconditionally. 729 total uses (658 acronym + 71 full-form) across 34 files — framework's MOST-used term. Name-quantity match exact per word (Residual / Commons / Value each does load-bearing semantic work).
+- Ring-1 synthesis (2026-04-24) — RCV's equation-anchor role reinforced.
+
+**Role:** quantification-anchor + equation-component (CS = RCV − B) + academic-citation target.
+
+**Semantic work per word:**
+- *Residual* — what remains unpriced after conventional accounting
+- *Commons* — the shared pools bearing the cost (communities, ecosystems, future generations)
+- *Value* — dollar-denominated quantity
+
+Removing any word creates ambiguity or unmoors the term.
+
+**Usage audit (2026-04-24):** 729 total uses across 34 files — **framework's most-used term.**
+
+**Depends on:**
+- Cost Severance (RCV is one side of CS = RCV − B)
+- Severed Cost (SC is the result of CS = RCV − B computation)
+- Accountability Bond (B) (RCV pairs with B in the equation)
+- AIT (AIT admits Cᵢ that RCV integrates)
+- Four gates (filter Cᵢ admissible to RCV)
+- Value Extraction (causal event upstream)
+- Framework CORE math
+
+**Staleness triggers:**
+- CS = RCV − B equation redefined.
+- Conventional accounting scope changes in a way that redefines "residual" reference.
+- Academic adoption evidence shows RCV failing to travel as citation anchor.
+
+**Commit trail:**
+- RCV rigor pass: commit `5dea091` (2026-04-24).
+- Ring-1 synthesis: commit `2b70377` (2026-04-24).
+- Ratification + Ring-1 record: this commit.
+
+**Supersedes / superseded by:** N/A.
+
+**Notes:**
+- Each word of "Residual Commons Value" is load-bearing per §3.1 of the RCV rigor pass.
+- Rename candidates (True Intergenerational Cost, Commons Value, drop acronym, different root) each failed rigor on precision, equation integration, academic citation, or existing-usage continuity.
+- The acronym's 658 framework-internal uses represent the framework's most durable citation infrastructure.
+- Integration discipline: "RCV" as technical acronym; "Residual Commons Value" in first-use + formal contexts.
 
 ---
 

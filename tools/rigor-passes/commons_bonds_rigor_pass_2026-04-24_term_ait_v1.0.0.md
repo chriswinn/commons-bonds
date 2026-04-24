@@ -490,11 +490,15 @@ Commit Option A only after cross-pairing synthesis (pending RCV pass + synthesis
 - (D) Abundance Test as primary — NOT recommended.
 - (E) Drop named methodology — NOT recommended.
 
-**Ratified decision:** *(held pending synthesis)*
+**Ratified decision (2026-04-24, Chris Winn, Ring-1 synthesis batch):** **Option A — Keep Abundance Inversion Test (AIT).** Established methodology name; "Abundance Test" short form acceptable in informal contexts.
 
 ### §20.2 Conditions 1–4
 
-**Ratified decision:** *(pending ratification of §20.1 after synthesis)*
+**Ratified decision:** APPROVED.
+- Condition 1: Terms Index §4 provenance record (this commit).
+- Condition 2: Glossary v3 strengthened entry during bump (~10 min).
+- Condition 3: No sweep required.
+- Condition 4: Cross-pairing synthesis ratified concurrently with this ratification.
 
 ---
 

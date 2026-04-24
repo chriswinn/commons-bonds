@@ -537,11 +537,15 @@ Existing 227 + 37 uses already follow the grammatical distinction (verified info
 - (D) Rename to differentiate.
 - (E) Different root terminology.
 
-**Ratified decision:** *(pending; hold until synthesis with Value-Capture-vs-Extraction + AIT + RCV passes)*
+**Ratified decision (2026-04-24, Chris Winn, Ring-1 synthesis batch):** **Option A — Keep both Cost Severance and Severed Cost with role discipline.** Cost Severance = mechanism/process name (framework-internal analytical); Severed Cost = result/quantity name + flagship adoption phrase (success-criterion target).
 
 ### §20.2 Conditions 1–4
 
-**Ratified decision:** *(pending ratification of §20.1)*
+**Ratified decision:** APPROVED. All four conditions proceed during Phase A3 sweep:
+- Condition 1: Glossary v3 role-discipline notes under both entries (~10 min).
+- Condition 2: Ch 6 guidance doc style-note documenting role discipline (~5 min).
+- Condition 3: Terms Index §4 provenance records for both (this commit).
+- Condition 4: No large-scale sweep required; existing 227 + 37 uses already follow grammatical distinction.
 
 ---
 

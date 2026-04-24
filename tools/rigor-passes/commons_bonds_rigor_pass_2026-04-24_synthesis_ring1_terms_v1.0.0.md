@@ -310,25 +310,33 @@ Retirement record to be added:
 - (B) Revise specific recommendations before batch-ratification.
 - (C) Reject the synthesis; run further passes before ratifying.
 
-**Ratified decision:** *(pending)*
+**Ratified decision (2026-04-24, Chris Winn):** **Option A — synthesis verdict ratified; all four standalone verdicts approved.**
 
-### §10.2 Individual standalone verdicts (ratified together if §10.1 (A) chosen)
+### §10.2 Individual standalone verdicts (ratified together)
 
-- Value Capture vs Value Extraction → Option B (Value Extraction): *(pending)*
-- Cost Severance vs Severed Cost → Option A (keep both with role discipline): *(pending)*
-- AIT → Option A (keep current): *(pending)*
-- RCV → Option A (keep current): *(pending)*
+- Value Capture vs Value Extraction → Option B (Value Extraction): RATIFIED 2026-04-24 (commit `06370dc`).
+- Cost Severance vs Severed Cost → Option A (keep both with role discipline): RATIFIED 2026-04-24 (this commit).
+- AIT → Option A (keep current): RATIFIED 2026-04-24 (this commit).
+- RCV → Option A (keep current): RATIFIED 2026-04-24 (this commit).
 
 ### §10.3 Ring-1 architecture
 
-**Ratified decision:** 7-term Ring 1 per §8 (pending Commons Bonds name rigor pass): *(pending)*
+**Ratified decision:** 7-term Ring 1 adopted (pending Commons Bonds name rigor pass completing the architecture):
+1. Cost Severance (ratified 2026-04-24)
+2. Severed Cost (ratified 2026-04-24)
+3. Value Extraction (ratified 2026-04-24, promoted from Ring 2)
+4. Abundance Inversion Test (AIT) (ratified 2026-04-24)
+5. Residual Commons Value (RCV) (ratified 2026-04-24)
+6. Cost (Cᵢ) (ratified in Variable-vs-Cost pass)
+7. Commons Bonds (pending rigor pass — Open Insight #4)
 
 ### §10.4 Downstream Phase A3 sweep tasks (unblocked on ratification)
 
-- Value Capture → Value Extraction sweep: 16 proper-noun refs in 9 files.
-- Terms Index §4 batch population: 6 CURRENT records + 1 RETIRED record.
-- Glossary v3 updates incorporating role discipline + new records.
-- Chapter drafts sweep during Phase A3 audit.
+- Value Capture → Value Extraction sweep: 16 proper-noun refs in 9 files — UNBLOCKED.
+- Terms Index §4 batch population: 4 additional CURRENT records (Cost Severance, Severed Cost, AIT, RCV) landed in this commit.
+- Glossary v3 role-discipline updates (CS + SC) + strengthened entries (AIT + RCV) during v3 bump.
+- Chapter drafts sweep during Phase A3 audit for Principle-#4 three streams (Tier-1 + Tier-2 + active-use pointers).
+- Essay-protection: final remaining item is Commons Bonds name rigor pass (Open Insight #4).
 
 ---
 

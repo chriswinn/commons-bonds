@@ -517,11 +517,15 @@ One side of the flagship equation CS = RCV − B, where CS is cost severance and
 - (D) Drop acronym — NOT recommended.
 - (E) Different root — NOT recommended.
 
-**Ratified decision:** *(held pending synthesis)*
+**Ratified decision (2026-04-24, Chris Winn, Ring-1 synthesis batch):** **Option A — Keep Residual Commons Value (RCV).** Established quantification-anchor name; full-form + acronym discipline preserved.
 
 ### §20.2 Conditions 1–4
 
-**Ratified decision:** *(pending ratification of §20.1 after synthesis)*
+**Ratified decision:** APPROVED.
+- Condition 1: Terms Index §4 provenance record (this commit).
+- Condition 2: Glossary v3 strengthened entry during bump (~10 min).
+- Condition 3: No sweep required.
+- Condition 4: Cross-pairing synthesis ratified concurrently with this ratification.
 
 ---
 
