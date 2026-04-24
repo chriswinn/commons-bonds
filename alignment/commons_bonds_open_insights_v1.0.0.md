@@ -126,6 +126,24 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Dependencies / Links:** Relates to Insight #3 (severance cluster internal consistency) — the causal-event term is part of the severance vocabulary cluster. May be absorbed into the severance cluster rigor pass or run standalone before it.
 - **Todo link:** "Review Open Insight #7: Value Capture vs Value Extraction naming."
 
+### Insight #9 — Framework as decision-time severance-detection tool (not just ex-post analysis)
+
+- **Raised:** 2026-04-24 by Chris Winn (via the commute-story conversation) + me (naming the pattern)
+- **Status:** raised
+- **Category:** framework-structure · book-scope · application-domain
+- **Content:** The book's framing to date has centered on *ex-post* cost-severance analysis — pricing what McDowell County bore after extraction, what Deepwater Horizon left behind, what Libby lost to asbestos. But the commute-story conversation surfaced a distinct and arguably more practically-useful application: **the framework as a decision-time tool.** At the moment a decision is being made (signing an apartment lease, accepting a job, consenting to a medical treatment, purchasing a house, pivoting careers), informal AIT + informal RCV can surface costs the decision-maker would otherwise miss. Chris's commute story demonstrated this: *"the quick mental what would a day in the life of living here and getting to/from my office be like/entail"* is informal AIT (testing whether the cost is scarcity-grounded in time) + informal RCV (mentally multiplying hours × days × year). The framework doesn't need math-fluent readers to be useful at decision-time; it needs readers who know the two-step (test for scarcity-grounding → compute informal cost over the affected horizon).
+- **Why it matters:** (a) expands the book's practical reach substantially — most readers encounter cost severance from the OTHER side of the transaction (as consumers, employees, residents) more often than from the extractor side. Decision-time tooling is the application most readers can use. (b) Reinforces the "no villain" structural argument — the commute-story apartment manager wasn't the adversary; the information architecture was. Decision-time tooling is what closes the information gap. (c) Potentially addresses a Ch 8 or Ch 10 scope question — where does the applications discussion live? (d) Affects the framework's contribution-claim — the book offers not just a theory but a usable instrument.
+- **Proposed resolution:** Decide whether to:
+  - (a) Foreground decision-time application in a dedicated chapter or appendix ("How to Apply the Framework Before Signing") with worked examples for employment, medical, housing, major-life decisions.
+  - (b) Thread decision-time application through multiple chapters (Ch 8 picks it up during the walkthrough; Ch 10 gestures at it reflectively; no dedicated section).
+  - (c) Keep the focus on ex-post analysis; mention decision-time application briefly without making it structural.
+  - (d) Something else that surfaces during further exploration.
+- **Dependencies / Links:**
+  - Personal Stories Candidate #1 (commute trade) carries the opening example for decision-time application; story is captured + tagged with framework connections.
+  - May require its own rigor pass if (a) is ratified — decision-time framework application as a chapter/appendix-level scope addition.
+  - Related to candidate Working Principle: "When the author's intent is knowable, ask before recommending" — informal framework application requires the reader to know what they're deciding about; formal AIT + RCV requires data the reader may not have. Different usability tiers.
+- **Todo link:** "Review Open Insight #9: framework as decision-time tool — book-scope decision."
+
 ### Insight #8 — Audit methodology failure risk (captured as Working Principle #2)
 
 - **Raised:** 2026-04-24 by me
