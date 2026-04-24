@@ -33,13 +33,16 @@ Vocabulary used by people solving real problems. Not royalties, not prizes, not 
 | Component | Status | File |
 |---|---|---|
 | Rigor protocol | **v2.2.0** canonical — Pre-Submission Peer Review Suite (11 modules) + Path Comparison Mode + **6 informational goals** (personal/ethical satisfaction + family wellbeing + career safety + time/capacity preservation + movement utility + financial sustainability — produce per-path findings without driving primary recommendations) | [`tools/commons_bonds_rigor_protocol_v2.2.0.md`](tools/commons_bonds_rigor_protocol_v2.2.0.md) |
-| Abundance dimensions | **10 canonical; naming cohort COMPLETE** | [`core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md`](core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md) |
-| Eight-tier decomposition | v10 canonical; **tier-structure decision deferred** | [`core/decomposition/eight-tier-v10.html`](core/decomposition/eight-tier-v10.html) |
-| Technical appendix | v0.0.3 canonical | [`core/technical-appendix/TechnicalAppendix_v0.0.3.html`](core/technical-appendix/TechnicalAppendix_v0.0.3.html) |
+| Abundance dimensions | **v1.3.0 canonical — Path F reframing applied.** 10 abundances framed as variables AIT has discovered across 18 cases — illustrative, not ontological. Naming-cohort preserved. | [`core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md`](core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md) |
+| Eight-tier decomposition | v10 canonical + **Path F reframing preamble added 2026-04-24.** Eight tiers framed as one way to organize per-case accounting (not universal structure). Phase A2 methodology work will specify the four-gate discipline formally. | [`core/decomposition/eight-tier-v10.html`](core/decomposition/eight-tier-v10.html) |
+| Chapter audit | **v1.0.6 canonical — Path F reframing applied** | [`core/chapters/commons_bonds_chapter_audit_v1.0.6.md`](core/chapters/commons_bonds_chapter_audit_v1.0.6.md) |
+| Case-study audit | **v1.0.6 canonical — Path F reframing applied** | [`core/case-studies/commons_bonds_case_study_audit_v1.0.6.md`](core/case-studies/commons_bonds_case_study_audit_v1.0.6.md) |
+| Technical appendix | v0.0.3 canonical; **Phase A2 Task 10 bumps to v0.0.4** with four-gate discipline + formula generalization | [`core/technical-appendix/TechnicalAppendix_v0.0.3.html`](core/technical-appendix/TechnicalAppendix_v0.0.3.html) |
 | Glossary | v2 canonical | [`core/glossary/commons_bonds_updated_glossary_v2.html`](core/glossary/commons_bonds_updated_glossary_v2.html) |
 | Book One scope | v1.0.3 canonical | [`tools/commons_bonds_book_scope_v1_0_3.md`](tools/commons_bonds_book_scope_v1_0_3.md) |
 | Guiding constraints | v1.0.0 canonical | [`tools/commons_bonds_guiding_constraints_v1_0_0.md`](tools/commons_bonds_guiding_constraints_v1_0_0.md) |
-| Current handoff | **v1.33.0** | [`alignment/sessions/commons-bonds-session-handoff-2026-04-23_v1.33.0.html`](alignment/sessions/commons-bonds-session-handoff-2026-04-23_v1.33.0.html) |
+| Framework-scope decision | **Path F selected** — variables-not-dimensions reframing. PCR v1.1.0 §8 confirmed 2026-04-24. Extreme-rigor pass PASSES-WITH-CONDITIONS. | [`tools/pre-submission-reviews/commons_bonds_pcr_2026-04-23_v1.1.0.md`](tools/pre-submission-reviews/commons_bonds_pcr_2026-04-23_v1.1.0.md) · [`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_path_f_variable_addability_v1.0.0.md`](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_path_f_variable_addability_v1.0.0.md) |
+| Current handoff | **v1.38.0** | [`alignment/sessions/commons-bonds-session-handoff-2026-04-24_v1.38.0.html`](alignment/sessions/commons-bonds-session-handoff-2026-04-24_v1.38.0.html) |
 
 **10 locked dimensions:** Habitability · Spatial · Temporal · Institutional · Kindred · Ecosystem · Political · Cohesion · Epistemic · Autonomy
 
