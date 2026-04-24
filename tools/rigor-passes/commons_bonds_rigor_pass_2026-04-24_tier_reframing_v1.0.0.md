@@ -435,16 +435,16 @@ Retire "tier" from canonical vocabulary per the dissolution. Defer the macro-gro
 
 ### §11.6 Optional Condition 6 — Macro-grouping design
 
-**Ratified decision:** ESCALATED to separate rigor pass. Author's prior: skeptical — "grouping things is going to naturally have people look at something a certain way, and then all of a sudden we are creating another layer of abstraction allowing cost severance to remain hidden." Open to revision "if the rigor says groups would help tell the story even just within the book." The rigor pass evaluates the macro-grouping claim against the author's prior and against the framework's Path F + dissolution commitments.
+**Ratified decision (2026-04-24):** REJECTED via separate rigor pass. Macro-grouping pass verdict: Option A (reject macro-groupings at every level — no framework-canonical macro-categories, no chapter-layout permit for thematic section headings). Pure variable enumeration with narrative pacing is the book's structural approach. Author's prior (abstraction-hides-severance) was confirmed by §7 of the macro-grouping pass; rigor also identified negative alignment with success criterion (vocabulary dilution), academic reception (rigor concerns reproduce one layer up), and long-term project impact.
 
-**Tracking:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_macro_grouping_v1.0.0.md` (in progress).
+**Rigor pass:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_macro_grouping_v1.0.0.md`](commons_bonds_rigor_pass_2026-04-24_macro_grouping_v1.0.0.md) — Option A ratified at §10.
 
 ### §11.7 Sequencing decision
 
-**Ratified decision:** *(pending macro-grouping rigor-pass outcome).* If macro-grouping is rejected, default sequencing is option (a) Phase A3 standalone. If macro-grouping is approved, sequencing may shift to bundle the macro-grouping integration with the dissolution work.
+**Ratified decision:** *(pending author selection — macro-grouping pass has resolved, so the choice is now live).* Macro-grouping pass ratified Option A (reject entirely); Condition 6 adds minimal effort to any sequencing option. The three sequencing options remain available:
 
-**Options (preserved for later decision):**
-- (a) Phase A3 (4–7 days, before Phase B). Clean methodology-complete boundary.
+**Options:**
+- (a) Phase A3 (4–7 days, before Phase B). Clean methodology-complete boundary. Recommended.
 - (b) Absorb Conditions 1 + 2 + 4 into Phase A2.5 (1–2 days); defer Condition 3 into Phase B Task 12.
 - (c) Defer all conditions into Phase B chapter-drafting work.
 
