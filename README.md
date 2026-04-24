@@ -32,7 +32,7 @@ Vocabulary used by people solving real problems. Not royalties, not prizes, not 
 
 | Component | Status | File |
 |---|---|---|
-| Rigor protocol | **v1.3.0** canonical (Tests 28 + 29 standing book-integrity) | [`tools/commons_bonds_rigor_protocol_v1.3.0.md`](tools/commons_bonds_rigor_protocol_v1.3.0.md) |
+| Rigor protocol | **v2.0.0** canonical — Pre-Submission Peer Review Suite (11 purpose-driven modules; runnable standalone or full-suite) | [`tools/commons_bonds_rigor_protocol_v2.0.0.md`](tools/commons_bonds_rigor_protocol_v2.0.0.md) |
 | Abundance dimensions | **10 canonical; naming cohort COMPLETE** | [`core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md`](core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md) |
 | Eight-tier decomposition | v10 canonical; **tier-structure decision deferred** | [`core/decomposition/eight-tier-v10.html`](core/decomposition/eight-tier-v10.html) |
 | Technical appendix | v0.0.3 canonical | [`core/technical-appendix/TechnicalAppendix_v0.0.3.html`](core/technical-appendix/TechnicalAppendix_v0.0.3.html) |
