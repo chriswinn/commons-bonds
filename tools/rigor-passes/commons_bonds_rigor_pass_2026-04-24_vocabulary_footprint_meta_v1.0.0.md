@@ -543,16 +543,18 @@ Each rewrite works. CSG is S-at-scale — a specific application of S, not a dis
 
 ---
 
-**Per-term items for author decision** (with audit data + rigor-only recommendations):
+**Per-term items — updated 2026-04-24 after audit re-run per Working Principle #2 (audit the concept, not the exact phrase):**
 
-| Term | Chapter audit | Rigor-only recommendation | Options | Downstream cost (not a verdict input per Principle #1) |
-|---|---|---|---|---|
-| Civilizational Substitutability Gap (CSG) | 66 refs (Ch 7, Ch 9, audits, cases) | **RETIRE** — not distinct from S | (a) Retire; (b) Promote to Ring-2; (c) Demote to Tech-Appendix-only | Ch 7 + Ch 9 rewrite ~2–3 days |
-| Asymmetric Regret Principle | 0 chapter refs (Tech Appendix §G only) | DEMOTE to Tech-Appendix-level | (a) Demote; (b) Retire; (c) Retain | Minimal |
-| Value Capture | 0 chapter refs (meta-doc only) | DEMOTE from glossary | (a) Demote; (b) Retain short entry; (c) Retire | Minimal |
-| Cost Bearing | 0 chapter refs | DEMOTE from glossary | Same as Value Capture | Minimal |
-| Spatial Cost Severance | 0 chapter refs | DEMOTE (prose-only) | (a) Demote; (b) Retain | Minimal |
-| Temporal Cost Severance | 1 ref (Social Security case) | DEMOTE (rephrasable) | (a) Demote; (b) Retain | Minimal (one rephrase) |
+Original audit used case-sensitive exact-phrase matching and produced false 0-refs for Value Capture, Cost Bearing, and Asymmetric Regret. Corrected audit below.
+
+| Term | Corrected audit | Author disposition (2026-04-24) | Rationale |
+|---|---|---|---|
+| **Civilizational Substitutability Gap (CSG)** | 66 refs (Ch 7, Ch 9, audits, cases) | Pending ratification — rigor-only recommendation: **RETIRE** | Not distinct from S; semantic test confirms all CSG usage rewrites as "S at civilization scale." Ch 7 + Ch 9 rewrites are downstream scheduling, not verdict input (per Principle #1). |
+| **Value Capture / Value Extraction** | 16 "Value Capture" proper-noun refs + 42+ concept refs across 23 files | **PROMOTE to Ring 2** (causal-event term load-bearing in framework chain) + escalate to Open Insight #7 for naming decision between Capture / Extraction | Author signal 2026-04-24: "Value Capture or Value Extraction is the event that causes Cost Severance to be created." Load-bearing as causal-event anchor. Naming between Capture and Extraction deserves its own rigor pass (Insight #7). |
+| **Cost Bearing** | 46 refs across 17 files | **DEMOTE from glossary; retain in prose** | Author signal 2026-04-24: "Cost Bearing is someone bearing the cost of cost severance, so perhaps prose vs. glossary." Role-description, not framework-technical term. |
+| **Asymmetric Regret Principle** | 24+ "asymmetric" refs across 7 files (12 in Ch 7 guidance, 4 in Ch 7 draft) | **DEFERRED pending author re-read** | Author noted 2026-04-24: "Asymmetric Regret Principle I'm going to reread the actual definition prior to commenting." Hold for author review before ratifying disposition. |
+| **Spatial Cost Severance** | 0 refs (audit confirmed with better methodology) | DEMOTE (prose-only) | No chapter load-bearing; prose variant of Cost Severance. |
+| **Temporal Cost Severance** | 1 ref (Social Security case; rephrasable) | DEMOTE | Same rationale as Spatial; one rephrase during Phase A3 sweep. |
 
 ### §13.3 Reshaped queue adoption
 

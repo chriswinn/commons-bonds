@@ -115,6 +115,28 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Dependencies / Links:** Addresses Insight #1 structurally. Insights #2 and #3 will be partially absorbed.
 - **Todo link:** vocabulary-footprint meta-pass (in todo list, in-progress).
 
+### Insight #7 — Value Capture vs Value Extraction terminology decision
+
+- **Raised:** 2026-04-24 by Chris Winn (pointed out Value Capture OR Value Extraction as the causal event that produces Cost Severance)
+- **Status:** raised
+- **Category:** vocabulary · framework-structure
+- **Content:** The framework currently uses "Value Capture" (16 proper-noun refs + 42+ concept refs in chapter drafts). Author flagged that "Value Extraction" is an alternative candidate for the same causal event. Since this is the event that produces Cost Severance — the extractor captures/extracts value, leaving the "bill" of severance on the community, ecosystem, future generations — the naming choice matters. "Value Extraction" pairs naturally with "extraction economy" vocabulary; "Value Capture" is broader (applies to non-extractive contexts like financial instruments).
+- **Why it matters:** This is the causal-event term in the framework's three-concept chain (Value Capture/Extraction → Cost Severance → Severed Cost). Naming it clearly matters for prose consistency and for the framework's causal-chain legibility. It's also Berggruen-essay-relevant vocabulary (likely to appear in the essay).
+- **Proposed resolution:** Run a focused rigor pass on Value Capture vs Value Extraction — full option-space (Capture, Extraction, both-interchangeable, different-term-entirely) tested against the ratified modules + §22.4 alignment. Promote the resolved term to Ring 2 of the tiered-ring architecture.
+- **Dependencies / Links:** Relates to Insight #3 (severance cluster internal consistency) — the causal-event term is part of the severance vocabulary cluster. May be absorbed into the severance cluster rigor pass or run standalone before it.
+- **Todo link:** "Review Open Insight #7: Value Capture vs Value Extraction naming."
+
+### Insight #8 — Audit methodology failure risk (captured as Working Principle #2)
+
+- **Raised:** 2026-04-24 by me
+- **Status:** closed-ratified (promoted to Working Principle #2)
+- **Category:** method
+- **Content:** My original audit methodology used case-sensitive exact-phrase grep, which returned 0 matches for Value Capture / Cost Bearing / Asymmetric Regret — terms that actually have 16 / 46 / 24+ occurrences when audited case-insensitively + concept-level. Risk: future audits produce misleading verdicts if methodology isn't disciplined.
+- **Why it matters:** Audit methodology is part of the rigor. A retirement recommendation based on a flawed audit creates exactly the chapter-rewrite cost the meta-pass was supposed to prevent.
+- **Proposed resolution:** Formalize as Working Principle #2 in `alignment/commons_bonds_working_principles_v1.0.0.md`.
+- **Dependencies / Links:** Working Principle #2 landed 2026-04-24 (commit 72825a4).
+- **Todo link:** N/A (closed).
+
 ---
 
 ## §3. Closed insights
