@@ -128,13 +128,50 @@ Each term carries its own `term-spec version` independent of document versions. 
 - Knowledge and Culture Cost
 - Political Capture Cost
 
+**Retired records populated in §4 (2026-04-24):**
+- Spatial Cost Severance — RETIRED (misnamed; abundance-cost not severance). See §4.
+
 ---
 
 ## §4. Established records
 
 *(Records below are populated as rigor passes land. Each record's body summarizes the pass's verdict; full pass documents live at `tools/rigor-passes/`.)*
 
-*(None yet. First records land with the Variable-vs-Cost rigor pass.)*
+---
+
+### Spatial Cost Severance
+
+**Working definition (prior):** a variant of Cost Severance operating across spatial distance — extractors separated from affected communities by geography.
+
+**Status:** `RETIRED` (ratified 2026-04-24 by Chris Winn)
+
+**Term-spec version:** v1.0 final (retirement)
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Vocabulary-footprint meta-rigor pass §13.2.c (2026-04-24) — initial RETIRE/DEMOTE analysis based on 0 chapter refs.
+- Author 2026-04-24: *"Spatial Cost Severance is probably misnamed, as that was just Cost Severance that happened only if and when distance between locations vanished. So that isn't really cost severance but really an abundance cost that vanishes or appears e.g. miner can teleport instantly to/from an asteroid for work each day = totally removes a lot of the cost severance of living on an asteroid."* — identified the misnaming at the phenomenon level; RETIRE (not DEMOTE) ratified.
+- Principle-#3-candidate check (variant-subtype verification): FAILED — the phenomenon was abundance-cost mechanics mis-absorbed into the Cost Severance concept. Retirement corrects the misnaming.
+
+**Depends on (why this term was in the vocabulary):**
+- Glossary v2 carried this as a named Cost Severance variant alongside Temporal Cost Severance.
+- Loose variant-naming discipline that didn't verify the variant's subtype status against the Cost Severance definition.
+
+**Staleness triggers (what would cause this retirement to be revisited):**
+- A new phenomenon surfacing that is genuinely spatial-severance (not abundance-cost) and requires a dedicated term.
+- (Unlikely — the abundance-cost mechanics the old term was describing are fully captured by the Spatial abundance + Cᵢ framework.)
+
+**Commit trail:**
+- Meta-pass initial RETIRE/DEMOTE analysis: commit `46600bc` (2026-04-24).
+- Author ratification + RETIRE (not DEMOTE): commit pending (this update).
+
+**Supersedes / superseded by:** N/A — retired without replacement. Phenomenon captured by Spatial abundance + associated Cᵢ (framework already in place).
+
+**Notes:**
+- This is the first entry in §4. Serves as template format for future RETIRED-status records.
+- The RETIRE verdict is on Principle-#3 grounds (variant-subtype check failed), not vocabulary-footprint grounds. A distinct decision class from terms retired via footprint pruning (e.g., FGC under tier dissolution).
+- Sweep targets when Phase A3 lands: glossary v2 entry removal; any residual chapter/case-study references to "Spatial Cost Severance" proper-noun (audit confirmed 0 chapter refs; only glossary-level entry to retire).
 
 ---
 
