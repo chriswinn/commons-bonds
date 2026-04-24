@@ -330,11 +330,14 @@ Option B (rename to capitalized "Intergenerational Cost Severance") is defensibl
 - (B) Rename to capitalized "Intergenerational Cost Severance" (defensible but weaker than C on vocabulary-footprint grounds).
 - (C) Retire capitalized term; use "intergenerational cost severance" in prose (recommended).
 
-**Ratified decision:** *(pending)*
+**Ratified decision (2026-04-24, Chris Winn):** **Option C — RETIRE capitalized term; the concept persists as "intergenerational cost severance" (lowercase) in prose.**
 
 ### §12.2 Conditions 1–3
 
-**Ratified decision:** *(pending)* — each condition individually ratifiable; all three are small-effort Phase A3 items.
+**Ratified decision:** APPROVED. All three conditions proceed during Phase A3 sweep:
+- Condition 1: Glossary v3 retirement of Temporal Cost Severance entry (~5 min).
+- Condition 2: 5 proper-noun references in chapter drafts + case studies swept to lowercase "intergenerational cost severance" (~10 min).
+- Condition 3: Terms Index §4 provenance record added (~5 min, executed 2026-04-24 in this ratification commit).
 
 ---
 

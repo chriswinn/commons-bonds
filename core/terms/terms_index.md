@@ -130,13 +130,96 @@ Each term carries its own `term-spec version` independent of document versions. 
 
 **Records populated in §4 (2026-04-24):**
 - Spatial Cost Severance — `RETIRED` (misnamed; abundance-cost not severance).
-- Value Capture / Value Extraction — `CURRENT` at Ring-2 status; naming decision (Capture vs Extraction) pending under Open Insight #7.
+- Temporal Cost Severance — `RETIRED` (replaced by lowercase prose phrase "intergenerational cost severance"; capitalized term failed on adjective-choice + framework-usage-evidence grounds).
+- Cost Bearing — `SUPERSEDED` (demoted from glossary to prose-only; role-description not framework-technical).
+- Value Capture / Value Extraction — pending batch ratification (Ring-1 synthesis).
 
 ---
 
 ## §4. Established records
 
 *(Records below are populated as rigor passes land. Each record's body summarizes the pass's verdict; full pass documents live at `tools/rigor-passes/`.)*
+
+---
+
+### Cost Bearing
+
+**Working definition (prior, as glossary v2 entry):** descriptive term for the role a party plays when carrying cost severance (the cost-bearing community, ecosystem, or future generation).
+
+**Status:** `SUPERSEDED` — demoted from glossary entry to prose-only usage. The concept persists in prose (*"the cost-bearer,"* *"the community bears,"* *"future generations bear the cost"*) but is not a framework-technical term.
+
+**Term-spec version:** v1.0 final (demotion)
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Vocabulary-footprint meta-pass §13.2.c (2026-04-24, commit `46600bc`) — initial analysis as Ring-3 candidate (demote from glossary).
+- Chapter-draft audit 2026-04-24 (per Principle #2 concept-level methodology, commit `af2f18e`): 46 concept-level references across 17 files.
+- Author 2026-04-24 guidance: *"Cost Bearing is someone bearing the cost of cost severance, so perhaps prose vs. glossary."*
+- Ratified 2026-04-24 by Chris Winn: DEMOTE from glossary; retain in prose.
+
+**Rationale for demotion (not retirement):**
+- Cost Bearing describes a ROLE (someone is bearing cost), not a framework-specific mechanism or event. Role-description doesn't need technical vocabulary.
+- Contrast with Value Capture / Value Extraction (also a concept around the capture event): Value Extraction describes a discrete EVENT the framework prices; Cost Bearing describes the receiving-end position. The event earns framework-term status (Ring 1); the role is prose-level.
+- Chapter-draft usage (46 refs) is already descriptive-register; no sweep required.
+
+**Depends on:**
+- Cost Severance (Cost Bearing is the receiving-end role of the Cost Severance mechanism).
+- Severed Cost (Cost Bearing is what a party does with respect to Severed Cost).
+- Both parent concepts preserve the Cost Bearing concept in prose automatically.
+
+**Staleness triggers:**
+- Framework redefines the cost-bearer role in a way that warrants a dedicated technical term (unlikely).
+- Academic or legal discourse adopts "cost-bearer" as a technical-legal term (possible in employment / workers-rights law; would warrant revisit).
+
+**Commit trail:**
+- Meta-pass analysis: commit `46600bc` (2026-04-24).
+- Audit correction: commit `af2f18e` (2026-04-24).
+- Ratification + DEMOTE: this commit.
+
+**Supersedes / superseded by:** N/A — concept persists in prose; only glossary-entry form superseded.
+
+**Notes:**
+- Phase A3 sweep target: glossary v2 Cost Bearing entry removed in v3 bump. Chapter-draft usage stays as-is (46 existing refs are descriptive prose).
+- Principle #4 (active-use traceability): since Cost Bearing is prose-descriptive (not a framework term), no provenance-pointer needed in chapter drafts. This record is the audit trail.
+
+---
+
+### Temporal Cost Severance
+
+**Working definition (prior):** a variant of Cost Severance naming the intergenerational dimension — value captured now; costs borne by future generations.
+
+**Status:** `RETIRED` (ratified 2026-04-24 by Chris Winn)
+
+**Term-spec version:** v1.0 final (retirement)
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Focused rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_temporal_cost_severance_v1.0.0.md` (2026-04-24) — Option C (retire capitalized term) recommended on adjective-choice + framework-usage-evidence grounds.
+- Audit finding: framework uses "intergenerational" 109× across 27 files vs 6× usage of "Temporal Cost Severance" proper-noun — 18× preference for intergenerational.
+- Principle-#3 variant-subtype check: PASSED (intergenerational IS a genuine subtype of Cost Severance — removing the generational gap eliminates this form of severance).
+- Companion rigor pass on the replacement phrase: `commons_bonds_rigor_pass_2026-04-24_term_intergenerational_cost_severance_v1.0.0.md` (2026-04-24) — Option A (adopt "intergenerational cost severance" lowercase prose phrase) PASSES unconditionally.
+
+**Depends on (why the term was in the vocabulary):**
+- Glossary v2 carried this as a Cost Severance variant alongside Spatial Cost Severance.
+- Loose variant-naming discipline (pre-Principle-#3) that admitted the variant without verifying adjective strength or framework-usage alignment.
+
+**Staleness triggers (what would cause retirement revisit):**
+- The Cost Severance concept redefined in a way that changes the subtype-mapping.
+- Academic or policy usage patterns shift toward "temporal" over "intergenerational" for this subtype.
+- (Neither expected; retirement stands.)
+
+**Commit trail:**
+- Focused rigor pass: commit `9df1958` (2026-04-24).
+- Intergenerational cost severance rigor pass: commit `1be07e0` (2026-04-24).
+- Ratification + RETIRE: this commit.
+
+**Supersedes / superseded by:** replaced by lowercase prose phrase "intergenerational cost severance" (per `commons_bonds_rigor_pass_2026-04-24_term_intergenerational_cost_severance_v1.0.0.md` Option A ratification).
+
+**Notes:**
+- Different retirement basis from Spatial Cost Severance (which failed Principle #3 on misnaming grounds). Temporal Cost Severance PASSED Principle #3 (genuine subtype) but retired on adjective-precision + framework-usage-evidence grounds.
+- Phase A3 sweep targets: 5 proper-noun references (Ch 2, Social Security case, Deepwater case) → rewrite as lowercase "intergenerational cost severance"; 1 glossary v2 entry → remove in v3 bump.
 
 ---
 
