@@ -57,13 +57,44 @@ Every v1.3.0 test is absorbed. Some appear in multiple modules (preserved with c
 
 ### §0.3 What's new in v2.0.0 (beyond reorganization)
 
-- **M2 Case study tests** — formalized from the case-study audit's implicit procedure. Standalone module. NEW.
-- **M4 Craft tests** — structure, narrative arc, prose voice, register consistency, chapter handoffs, flow, line-edit concerns. v1.3.0 had only Character 22 (MFA critic); insufficient for pre-submission peer review. NEW.
-- **M9 Risk / exposure tests** — consolidates legal + reputational + career + anonymization + sensitivity-reader into a single pre-submission risk review. v1.3.0 scattered these across Tests 10, 11, 13 + Characters 7, 23 + the indigenous-case §7.1 gates. NEW as consolidated module.
-- **M10 Publishing path additions** — comp titles, jacket copy, pitch clarity, platform-and-bio review. v1.3.0 didn't have these. NEW sub-tests.
-- **Review-memo output format** per module — replaces test-verdict tables as primary output. Author gets a peer-reviewer's memo, not a matrix.
+**Architectural fixes (mid-revision; per Chris's framework smell-test concern):**
+
+- **M1 rescoped to CORE only.** Initial v2.0.0 draft conflated framework CORE (AIT methodology + RCV formula + CS = RCV − B equation + formal vocabulary + universality) with framework ELABORATION (10 dimensions + 8-tier decomposition + two-path + merger/primitiveness). Mid-revision corrected: M1 tests CORE only. ELABORATION tested by other modules (M2 / M3 / M7 / M8). v1.3.0's C9 canonical positioning is now operationally honored.
+- **M1 sub-tests:** M1.1 AIT (preserved + expanded methodological defense); M1.2 RCV formula integrity (NEW — mathematical coherence + variable definition + worked-example agreement + boundary cases); M1.3 CS = RCV − B coherence (NEW); M1.4 Formal vocabulary integrity (NEW — 9 canonical terms tested for definition / consistency / distinct work / citability); M1.5 Universality across scales × environments (rescoped from dimension-level to core-level).
+- **§5.1 NEW** — explicit framework CORE vs. framework ELABORATION scope note. Names what M1 tests vs. what other modules test.
+- **Two-path rigor relocated** from v1.3.0 framework-level Group A → M2 (case study tests) as PRIMARY case-level diagnostic. Two-path's actual function is per-case analysis; v1.3.0 placed it at framework level for organizational reasons. Mid-revision restored to its true scope.
+- **Merger / primitiveness gates relocated** to M2.3a (conditional sub-test, runs only when new dimension is being proposed) + M3 / M7 references when dimensions are being evaluated as content.
+
+**New modules:**
+
+- **M2 Case study tests** — formalized from the case-study audit's implicit procedure. Standalone module. NEW. Now houses two-path rigor as primary case-level diagnostic.
+- **M4 Craft tests** — structure, narrative arc, prose voice, register consistency, chapter handoffs, flow, line-edit concerns, preamble-strip. v1.3.0 had only Character 22 (MFA critic); insufficient for pre-submission peer review. NEW.
+- **M9 Risk / exposure tests** — consolidates legal + reputational + career + anonymization + sensitivity-reader into a single pre-submission risk review. v1.3.0 scattered these across Tests 10, 11, 13 + Characters 7, 23 + the indigenous-case §7.1 gates. NEW as consolidated module. Output format is the **Risk Register** (every entry uses the cross-cutting FINDING / SOLVE / MITIGATE / SHOW-STOPPER format from §17.2).
+
+**Module additions:**
+
+- **M5 Dinner-table** formalized standalone (was scattered in v1.3.0 Tests 17, 20 + Character 19).
+- **M7 Originality M7.1** — explicit contribution-claim articulation (was implicit in v1.3.0 Test 18).
+- **M10 Publishing path** restructured around **4-endpoint breakdown** (NEW per Chris's request 2026-04-23): literary agents / book publishers (trade / university / hybrid) / magazine publishers / essay publishers. Each endpoint has its own venue-fit verdict with different criteria. M10.1 explicitly identifies which endpoints the material is targeting. M10 also added: comp titles (M10.4), jacket copy (M10.5), pitch clarity (M10.6), platform and bio (M10.7). None in v1.3.0.
+
+**Output format architecture (mid-revision; per Chris's "format should match the test type" concern):**
+
+- Initial v2.0.0 draft used review-memo format universally. Mid-revision rationalized per module:
+  - **Hybrid** (verdict table + reviewer-judgment): M1, M2, M3, M7, M8, M10 — modules with mix of precise verdicts + interpretive judgment.
+  - **Peer-reviewer memo** (mostly prose): M4, M6 — modules where assessment is inherently interpretive.
+  - **Verdict table + brief judgment**: M5 — module where assessments reduce cleanly to verdicts.
+  - **Risk Register**: M9 — every entry uses the cross-cutting finding format.
+  - **Per-character voice memos + structural-flag aggregate**: M11 — each character speaks in their own voice using the cross-cutting finding format.
+- **§17.2 NEW — cross-cutting finding format**: FINDING / Reviewer voice / What this means for the project / SOLVE / MITIGATE / SHOW-STOPPER. Used by all modules for findings warranting reviewer-voice treatment. Default for M9 + M11.
+- **Show-stopper levels (NEW)**: SUBMISSION / PUBLICATION / SUCCESS-CRITERIA / N/A — Accept. Each level reflects a different failure mode. Per-venue escalation rule documented.
+- **SOLVE vs. MITIGATE distinction (NEW)**: separate paths. Solve eliminates the finding; mitigate reduces severity without eliminating. Some findings have both options; some have only one (e.g., defamation cannot be mitigated, only solved). Reviewer states all applicable options; author chooses.
+
+**Other additions:**
+
 - **Running modes** — single-module / combined / full / light. v1.3.0 had only full / light. NEW.
-- **Sensitivity-reader engagement** elevated to standing gate for content involving marginalized / named / living parties. Previously only in indigenous-case file.
+- **Sensitivity-reader engagement** elevated to **Standing Gate C** for content involving marginalized / named / living parties. Previously only in indigenous-case file.
+- **Standing gates apply to every module at every depth.** v1.3.0 §5A standing tests (Tests 28 + 29) preserved as Standing Gate A + B; new Standing Gate C added.
+- **Worked examples 18.5 + 18.6** added (case-study audit + chapter audit as v2.0.0 retrospective worked examples).
 
 ---
 
@@ -607,27 +638,30 @@ Does the case invite attack from specific political / industry / academic direct
 
 Earning-its-place per case + Scaffolding-vs-book-worthy (case-study files are book-worthy; rigor-pass records about cases are scaffolding) + Sensitivity-reader (specific to cases engaging marginalized / named parties).
 
-### §7.6 Review memo output format
+### §7.6 Output format — Hybrid (verdict table per axis + reviewer-judgment)
 
 > **M2 Case Study Review — [case name] in [chapter]**
 >
 > **Standing gates:** [one-line each].
 >
-> **Dimension activation:** [primary / secondary / intensity]. Verdict: [coverage].
+> **Verdict table:**
 >
-> **AIT at case level:** [scarcity / abundance-inversion result]. Verdict.
+> | Sub-test | Verdict | Notes |
+> |---|---|---|
+> | M2.1 Dimension activation | [COVERAGE-APPROPRIATE / UNDER-WEIGHT / OVER-WEIGHT] | Primary + secondary dims |
+> | M2.2 AIT at case level | [PASS / FAIL / PARTIAL] | |
+> | M2.3 Two-path at case level | [PASS / FAIL / CONDITIONAL] | Path 1 + Path 2 separately |
+> | M2.3a Merger / primitiveness (only if proposing new dim) | [PASS / FAIL / N/A] | |
+> | M2.4 Chapter fit | [FITS / FITS WITH REFINEMENT / MISFIT] | Intended function: [anchor / mirror / etc] |
+> | M2.5 Register fit | [REGISTER-FIT / REQUIRES REVISION / REGISTER-MISMATCH] | |
+> | M2.6 Legal / ethical exposure | [CLEAR / CLEARS-WITH-PRE-PUB-WORK / BLOCKS-SUBMISSION] | Per-named-party items |
+> | M2.7 Cross-spectrum per case | [HANDLED / NEEDS HANDLING / STRUCTURAL WEAKNESS] | |
 >
-> **Two-path at case level:** Path 1 / Path 2 findings. Verdict.
+> **Reviewer's judgment (empirical-social-scientist voice):**
 >
-> **Chapter fit:** [function served / performed?]. Verdict.
+> One- or two-paragraph synthesis. Does the case do what the chapter needs it to do? Where does the strongest pressure land? What would strengthen the placement?
 >
-> **Register fit:** [match? revision needed?]. Verdict.
->
-> **Legal / ethical exposure:** [per named party]. Verdict + pre-publication items.
->
-> **Cross-spectrum:** [attack-direction check]. Verdict.
->
-> **Reviewer's judgment:** Peer-review-voice summary. Whether the case does what the chapter needs it to do, and what would strengthen its placement.
+> **Findings warranting cross-cutting format (per §17):** Any sub-test rated FAIL, BLOCKS-SUBMISSION, MISFIT, or STRUCTURAL WEAKNESS goes here as a separate section using the FINDING / Reviewer voice / What this means / SOLVE / MITIGATE / SHOW-STOPPER format.
 >
 > **Recommendation:** [Integrated-as-is / Refine-before-submission / Relocate / Remove from chapter].
 
@@ -721,27 +755,29 @@ Can specific content claims be tested empirically? What would disconfirm them?
 
 Earning-its-place (per content block) + Scaffolding-vs-book-worthy (especially when audit surfaces a case-study file's decision trail bleeding into a chapter) + Sensitivity-reader (per Standing Gate C).
 
-### §8.6 Review memo output format
+### §8.6 Output format — Hybrid (verdict table + reviewer-judgment)
 
 > **M3 Book Content Review — [content block being evaluated]**
 >
 > **Standing gates:** [one-line each].
 >
-> **Trying-to-do-too-much (M3.1):** [added / displaced]. Verdict.
+> **Verdict table:**
 >
-> **Displacement (M3.2):** [displacement identified / handling]. Verdict.
+> | Sub-test | Verdict | Notes |
+> |---|---|---|
+> | M3.1 Trying-to-do-too-much | [PROPORTIONATE / OVER-WEIGHT / UNDER-WEIGHT] | What's added / what it displaces |
+> | M3.2 Displacement | [HANDLED / NO DISPLACEMENT IDENTIFIED / AMBIGUOUS] | |
+> | M3.3 Load-bearing vs. scaffolding | [STRUCTURAL / ORGANIZATIONAL / MIXED] | |
+> | M3.4 Counterargument coverage | [COVERED / PARTIAL / UNCOVERED] | List counterarguments named / handled |
+> | M3.5 Empirical grounding | [GROUNDED / GAPS / SOURCING-PASS-NEEDED] | List ungrounded claims |
+> | M3.6 Steelmannability | [STEELMAN HANDLED / STRAWMAN ONLY / CRITIC WOULD WIN] | Strongest critic identified |
+> | M3.7 Falsifiability | [FALSIFIABLE / DEFINITIONAL-SCOPED / UNFALSIFIABLE-AND-UNCLEAR] | |
 >
-> **Load-bearing vs. scaffolding (M3.3):** Verdict.
+> **Reviewer's judgment (trade-press editor voice):**
 >
-> **Counterargument coverage (M3.4):** [counterarguments named / handled where]. Verdict.
+> One- or two-paragraph synthesis. Does the content earn its place? Where does it press hardest? What would tighten it for editorial review?
 >
-> **Empirical grounding (M3.5):** [grounded / gaps]. Verdict.
->
-> **Steelmannability (M3.6):** [strongest critic / content handles their best version?]. Verdict.
->
-> **Falsifiability (M3.7):** Verdict.
->
-> **Reviewer's judgment:** Editor-voice summary.
+> **Findings warranting cross-cutting format (per §17):** Any sub-test rated UNCOVERED, CRITIC WOULD WIN, OVER-WEIGHT, or SOURCING-PASS-NEEDED goes here using the FINDING / Reviewer voice / What this means / SOLVE / MITIGATE / SHOW-STOPPER format.
 >
 > **Recommendation:** [Publication-ready / Refine before submission / Substantial revision required].
 
@@ -839,27 +875,29 @@ Several drafts in `manuscript/chapters/` were generated inline and retain AI-pro
 
 Earning-its-place + Scaffolding-vs-book-worthy (especially M4.7 — drafts contain scaffolding that needs extraction) + Sensitivity-reader (register discipline around marginalized-party content; per indigenous case §7.1 humane-and-precise discipline, register is a sensitivity-reader concern).
 
-### §9.6 Review memo output format
+### §9.6 Output format — Peer-reviewer memo (developmental editor voice; mostly prose)
+
+Craft assessment is inherently interpretive. "Voice consistency," "scene-and-summary balance," and "register drift" do not reduce cleanly to verdicts. The output is a prose memo in the voice of a developmental editor who has read the manuscript end-to-end.
 
 > **M4 Craft Review — [chapter or whole manuscript]**
 >
 > **Standing gates:** [one-line each].
 >
-> **Argumentative arc (M4.1):** [sentence per chapter]. Verdict.
+> **The reviewer's letter:**
 >
-> **Handoffs (M4.2):** [per-handoff findings]. Verdict.
+> Opening paragraph: overall craft impression of the manuscript / chapter. Does it read as a work of non-fiction prose, or as a research report dressed as prose?
 >
-> **Voice consistency (M4.3):** Verdict + drift flags.
+> Argumentative arc paragraph (M4.1): does the argument build? Where does it loop, digress, or compress? Specific chapter-level recommendations.
 >
-> **Register consistency (M4.4):** Verdict + drift flags.
+> Voice + register paragraph (M4.3 + M4.4): does the book sound like one author? Where does register drift? Are Register 1 entry points present in Register 2 chapters?
 >
-> **Scene-and-summary balance (M4.5):** [per chapter]. Verdict.
+> Handoffs paragraph (M4.2): per chapter-pair, does the close earn the open? Specific paragraphs flagged.
 >
-> **Prose quality (M4.6):** Sample-paragraph notes + patterns. Verdict.
+> Scene + prose paragraph (M4.5 + M4.6): scene-and-summary balance per chapter; line-edit-level patterns; sample paragraphs flagged.
 >
-> **Preamble / postamble strip (M4.7):** [per chapter]. Verdict.
+> Preamble strip paragraph (M4.7): per chapter, what scaffolding text needs to be stripped before submission.
 >
-> **Reviewer's judgment:** Craft-reviewer voice summary.
+> **Findings warranting cross-cutting format (per §17):** Any structural craft finding (voice fracture between chapters, register-failure of a key passage, argumentative-arc collapse) goes here using the FINDING / Reviewer voice / What this means / SOLVE / MITIGATE / SHOW-STOPPER format. M4 findings most often have show-stopper level PUBLICATION (fixable in editorial rounds) rather than SUBMISSION; flag the rare cases that block submission.
 >
 > **Recommendation:** [Editorial-ready / Substantive prose pass before submission / Developmental-edit pass before submission].
 
@@ -929,21 +967,28 @@ Is every new term introduced with enough context that a reader encountering it f
 
 Standard three gates.
 
-### §10.6 Review memo output format
+### §10.6 Output format — Verdict table + brief judgment
+
+Dinner-table accessibility tests reduce cleanly to verdicts (can-it-be-explained / does-vocabulary-travel / does-archetype-recognize / are-terms-scaffolded). Output is a compact verdict table with a short reader-voice judgment.
 
 > **M5 Dinner-Table Review — [content being evaluated]**
 >
 > **Standing gates:** [one-line each].
 >
-> **Dinner-table test (M5.1):** [60-second compression]. Verdict.
+> **Verdict table:**
 >
-> **Vocabulary portability (M5.2):** [per key term: 3-word compression possible?]. Verdict.
+> | Sub-test | Verdict | Notes |
+> |---|---|---|
+> | M5.1 Dinner-table test | [READY / TWO-LAYER NEEDED / FRAMEWORK-PRIMED-LISTENER ONLY] | 60-second compression draft |
+> | M5.2 Vocabulary portability | [PORTABLE / NEARLY / UNPORTABLE] | Per key term: 3-word compression test |
+> | M5.3 Target reader recognition | [RECOGNIZES / PARTIAL / DOES NOT] | Per archetype |
+> | M5.4 Jargon / scaffolded vocab | [SCAFFOLDED / PARTIAL / ASSUMES SPECIALIST KNOWLEDGE] | List unscaffolded terms |
 >
-> **Target reader recognition (M5.3):** [per archetype]. Verdict.
+> **Reader's brief judgment (general-reader voice):**
 >
-> **Jargon / scaffolded-vocabulary (M5.4):** [per new term]. Verdict.
+> One short paragraph. Can the reader walk away able to explain this to a friend? If not, what's specifically in the way?
 >
-> **Reviewer's judgment:** General-reader voice summary. Can the reader walk away able to explain this to a friend? If not, what's in the way?
+> **Findings warranting cross-cutting format (per §17):** Any sub-test rated UNPORTABLE, DOES NOT RECOGNIZE, or ASSUMES SPECIALIST KNOWLEDGE for a key term goes here using the FINDING / Reviewer voice / SOLVE / MITIGATE / SHOW-STOPPER format. M5 findings most often have show-stopper level SUCCESS-CRITERIA (book can publish, but cascade-durability is at risk if core vocabulary isn't portable).
 >
 > **Recommendation:** [Accessible / Scaffolding needed / Simplification pass required].
 
@@ -1038,25 +1083,31 @@ Can a future graduate student building on this book cite it cleanly? Does the me
 
 Standard three gates. M6 especially surfaces sensitivity-reader for indigenous / marginalized-community engagement per Standing Gate C.
 
-### §11.6 Review memo output format
+### §11.6 Output format — Peer-reviewer memo (senior academic voice; mostly prose)
+
+M6 literally simulates academic peer review. The output should read like a peer reviewer's letter to a journal editor or university-press acquiring editor — prose-led, in the voice of a senior scholar in the field, with specific recommendations for strengthening before publication.
 
 > **M6 Academic Rigor Review — [content being evaluated]**
 >
 > **Standing gates:** [one-line each].
 >
-> **Methodological defense (M6.1):** Verdict.
+> **The reviewer's letter:**
 >
-> **Literature engagement (M6.2):** [per field]. Verdict.
+> Opening paragraph: Would I endorse this for publication at a top journal in the field, or recommend rejection? What's my one-line placement of the work against the existing literature?
 >
-> **Falsifiability beyond AIT (M6.3):** Verdict.
+> Methodological defense paragraph (M6.1): Per methodology element (AIT, RCV formula, two-path at case level, multi-scale universality), is the defense adequate? What would the strongest methodological objection be, and does the author handle it?
 >
-> **Empirical grounding (M6.4):** Verdict + sourcing gaps.
+> Literature engagement paragraph (M6.2): Per relevant field (commons governance / externality theory / political economy of extraction / intergenerational justice / settler-colonial studies), is the engagement adequate? Specific citations missing or weak?
 >
-> **Steelman at peer-review depth (M6.5):** [per key claim]. Verdict.
+> Falsifiability paragraph (M6.3): Per empirical claim, is the disconfirmation condition stated? Specific claims that would benefit from sharper falsifiability scope.
 >
-> **Citability and portability (M6.6):** Verdict.
+> Empirical grounding paragraph (M6.4): Per quantitative claim, is the source traceable to primary documentation? Sourcing-pass items that must be resolved before publication.
 >
-> **Reviewer's judgment:** Senior-academic voice summary. Would this reviewer endorse the book for peer review at a top journal or university press? What would need strengthening?
+> Steelmannability paragraph (M6.5): Per key claim, is the strongest field-specific peer-reviewer counterargument handled? Specific gaps where a strong reviewer would press.
+>
+> Citability paragraph (M6.6): Could a graduate student building on this work cite specific theorems / definitions / methods? Could the method port to cases not in the book?
+>
+> **Findings warranting cross-cutting format (per §17):** Most M6 findings warrant the cross-cutting format. Each significant finding goes here as: FINDING / Reviewer voice / What this means for the project / SOLVE / MITIGATE / SHOW-STOPPER. M6 findings often have show-stopper level SUCCESS-CRITERIA (the book can publish, but academic uptake — load-bearing on 13+ year cascade — depends on resolution).
 >
 > **Recommendation:** [Submission-ready for academic venue / Requires literature pass / Requires methodology strengthening / Requires substantive revision].
 
@@ -1135,21 +1186,50 @@ Can CB's key vocabulary compress to a 2-3-word phrase that travels in the way "a
 
 Standard three gates.
 
-### §12.6 Review memo output format
+### §12.6 Output format — Hybrid (contribution-claim prose + competitor verdict table + reviewer-judgment)
+
+Originality assessment combines an interpretive piece (the contribution claim — must be articulated in prose) with verdict-table elements (per-competitor overlap; per-term vocabulary compression). Hybrid format.
 
 > **M7 Originality Review — [content or book-level]**
 >
 > **Standing gates:** [one-line each].
 >
-> **Contribution claim (M7.1):** [claim statement]. Verdict.
+> **Contribution claim (M7.1; prose):**
 >
-> **Competitor overlap (M7.2):** [per closest competing work]. Verdict.
+> The author's contribution claim, in 2-3 sentences. (If the author has not articulated this, draft it from the work as it stands.) Then the reviewer's verdict on whether the claim is articulable, requires sharpening, or unclear.
 >
-> **Novelty-critic steelman (M7.3):** [per strongest novelty skeptic]. Verdict.
+> **Competitor overlap (M7.2; verdict table):**
 >
-> **Vocabulary compression (M7.4):** [per candidate term]. Verdict.
+> | Competitor work | Overlap | Distinctive addition | Verdict |
+> |---|---|---|---|
+> | Pigouvian externality theory | [overlap] | [distinctive] | [DISTINCTIVE / PARTIAL / SUBSTANTIVE OVERLAP] |
+> | Ostrom (commons governance) | | | |
+> | Harvey (accumulation by dispossession) | | | |
+> | Klein (disaster capitalism) | | | |
+> | Raworth (doughnut economics) | | | |
+> | Stern / Nordhaus / Weitzman (climate economics) | | | |
+> | Graeber (*Debt*) | | | |
+> | (other adjacent) | | | |
 >
-> **Reviewer's judgment:** Review-article-author voice summary. Does this work belong in a review of the field? What's the one-line placement?
+> **Novelty-critic steelman (M7.3; prose):**
+>
+> Per strongest novelty-skeptic position (3-5 lines), the response: accept-and-scope or defend-with-differentiating-claim.
+>
+> **Vocabulary compression (M7.4; verdict table):**
+>
+> | Candidate term | Word count | Compression test result | Verdict |
+> |---|---|---|---|
+> | cost severance | 2 | [travels / partial / does not] | |
+> | severed cost | 2 | | |
+> | residual commons value (RCV) | 3 / 1 abbrev | | |
+> | civilizational substitutability gap (CSG) | 3 / 1 abbrev | | |
+> | accountability bond (B) | 2 / 1 abbrev | | |
+>
+> **Reviewer's judgment (review-article-author voice; prose):**
+>
+> Does this work belong in a review of the field? What's the one-line placement against existing literature? Where does the originality claim hold most strongly, and where does it weaken?
+>
+> **Findings warranting cross-cutting format (per §17):** Any competitor rated SUBSTANTIVE OVERLAP, any novelty-critic steelman rated CONTRIBUTION WEAKER THAN CLAIMED, or any vocabulary rated DOES NOT TRAVEL goes here using FINDING / Reviewer voice / SOLVE / MITIGATE / SHOW-STOPPER. M7 findings often have show-stopper level SUCCESS-CRITERIA (book can publish without contribution-claim defense, but cascade-durability suffers) or SUBMISSION-level for academic venues that gate on contribution.
 >
 > **Recommendation:** [Contribution defensible / Sharpen contribution / Substantial rework of positioning].
 
@@ -1230,23 +1310,31 @@ Does this book's naming work operate at the Rousseau level? Does it make the ext
 
 Standard three gates.
 
-### §13.6 Review memo output format
+### §13.6 Output format — Hybrid (interpretive-lean: prose for durability + Rousseau, verdict table for vocabulary + goals)
+
+Long-term potential is mostly interpretive — durability and Rousseau-test reach back from a hypothetical 2045. Vocabulary cascade and goals alignment reduce to per-item verdicts. Hybrid with interpretive lean.
 
 > **M8 Long-term Potential Review — [content or book-level]**
 >
 > **Standing gates:** [one-line each].
 >
-> **Decade-out durability (M8.1):** [anchors / scoping]. Verdict.
+> **The 2045 reader's letter (prose; M8.1 + M8.5):**
 >
-> **Vocabulary cascade (M8.2):** [per key term]. Verdict.
+> Opening paragraph: Reading this work in 2045, what's still standing? What's faded into period-specific commentary? Does the work live in 2045's intellectual history, or has it become a footnote?
 >
-> **Labor-lawyer-2039 (M8.3):** Verdict.
+> Decade-out durability paragraph (M8.1): Per claim, what time-bound anchors does it depend on? Are those anchors likely to survive? Where does scoping save the claim from anchor-failure?
 >
-> **Goals alignment (M8.4):** Verdict.
+> Rousseau-test paragraph (M8.5): Does the work make the extraction mechanism feel structural-and-interruptible rather than natural? What downstream political work becomes possible once the mechanism is named? Is the naming compression-ready for the Rousseau-level move (decades-long discourse cascade)?
 >
-> **Rousseau-test (M8.5):** Verdict.
+> **Verdict table (M8.2 + M8.3 + M8.4):**
 >
-> **Reviewer's judgment:** 2045-reader voice summary. Does this book live in 2045's intellectual history, or does it fade? What would strengthen its durability?
+> | Sub-test | Verdict | Notes |
+> |---|---|---|
+> | M8.2 Vocabulary cascade-potential | [HIGH / MODERATE / LOW] | Per key term: 2036 paragraph-test |
+> | M8.3 Labor-lawyer-2039 | [STRENGTHENS / NEUTRAL / WEAKENS] | The canonical 2039 brief test |
+> | M8.4 Goals alignment | [ALIGNED / DILUTES GOAL-1 / DILUTES GOAL-2] | Per content |
+>
+> **Findings warranting cross-cutting format (per §17):** Any sub-test rated WEAKENS, DILUTES, LOW (vocabulary cascade), or any Rousseau-test finding rated DOES NOT REACH goes here using FINDING / Reviewer voice / SOLVE / MITIGATE / SHOW-STOPPER. M8 findings most often have show-stopper level SUCCESS-CRITERIA (book can publish, but cascade-durability — load-bearing on 13+ year goal — is at risk).
 >
 > **Recommendation:** [Cascade-durable / Some sharpening needed / Durability concerns require revision].
 
@@ -1334,27 +1422,53 @@ What does the book ask the publisher to carry? Defamation insurance? Contract in
 
 Sensitivity-reader gate is this module's own work. Earning-its-place is still relevant (risky content that doesn't earn its place should be removed, not mitigated).
 
-### §14.6 Review memo output format
+### §14.6 Output format — Risk Register (every entry uses the cross-cutting finding format)
 
-> **M9 Risk / Exposure Review — [content or manuscript-level]**
+M9's output is the canonical use of the cross-cutting FINDING / Reviewer voice / What this means / SOLVE / MITIGATE / SHOW-STOPPER format defined at §17. Every risk entry — whether legal, career, lone-author, third-party, sensitivity-reader, or publisher-level — gets the full risk-register treatment.
+
+> **M9 Risk / Exposure Register — [content or manuscript-level]**
 >
 > **Standing gates:** [one-line each].
 >
-> **Legal (M9.1):** [per risk type]. Verdict + pre-submission legal items.
+> **Risk register (per identified risk):**
 >
-> **Career-risk (M9.2):** Verdict + mitigation.
+> ```
+> RISK #[N]: [short title]
+> Source sub-test: [M9.1 Legal / M9.2 Career / M9.3 Lone-author / M9.4 Anonymization / M9.5 Sensitivity-reader / M9.6 Publisher-level]
 >
-> **Lone-author vulnerability (M9.3):** Verdict + mitigation.
+> FINDING: [short statement of the risk in 1-2 sentences]
 >
-> **Anonymization / third-party (M9.4):** Verdict + pending items.
+> Reviewer voice: "[publisher's-counsel or sensitivity-expert voice quote — what would they say if they saw this?]"
 >
-> **Sensitivity-reader engagement (M9.5):** Verdict + engagement plan.
+> What this means for the project: [consequence if unaddressed — be specific about which step it blocks or what reception it damages]
 >
-> **Publisher-level risk (M9.6):** Verdict + publisher-pool notes.
+> SOLVE: [action that eliminates the risk; specify if applicable. May be N/A if only mitigation exists, or if risk is structurally unsolvable]
 >
-> **Reviewer's judgment:** Counsel + sensitivity-expert voice. Consolidated pre-submission risk picture. Items that cannot be deferred to drafting or post-submission resolution.
+> MITIGATE: [action that reduces severity without eliminating; specify if applicable. May be N/A if only solve works — e.g., defamation can't be mitigated, only solved]
 >
-> **Recommendation:** [Submission-cleared / Pre-submission items (list) / Blocks submission until remediation].
+> SHOW-STOPPER:
+>   [SUBMISSION] — blocks sending to publisher / editor / academic without remediation
+>   [PUBLICATION] — blocks publication; fixable in editorial rounds
+>   [SUCCESS-CRITERIA] — doesn't block submission or publication, but blocks 13+-year cascade goal if unfixed
+>   [N/A — Accept] — non-show-stopper; author may accept as trade-off
+>
+> Pre-submission action items: [specific items + owner + timeline]
+> ```
+>
+> **Aggregate verdict:**
+>
+> | Show-stopper level | Count | Status |
+> |---|---|---|
+> | SUBMISSION | [N] | [List risks blocking submission] |
+> | PUBLICATION | [N] | [List risks blocking publication] |
+> | SUCCESS-CRITERIA | [N] | [List risks affecting 13+-year goal] |
+> | N/A — Accept | [N] | [List risks the author may accept] |
+>
+> **Reviewer's judgment (counsel + sensitivity-expert voice; brief prose):**
+>
+> Consolidated pre-submission risk picture. Are there items that block submission today? Are there items the author should engage now even if they don't block submission (sensitivity-reader candidate identification; legal-counsel preliminary review)?
+>
+> **Recommendation:** [Submission-cleared / Pre-submission items (list with owners) / Blocks submission until remediation (list specific blockers)].
 
 ### §14.7 Light mode
 
@@ -1387,27 +1501,60 @@ Is this viable for the intended publishing cascade, and what's the submission pa
 
 ### §15.4 Sub-tests
 
-#### M10.1 Publisher appeal (formerly v1.3.0 Test 14)
+#### M10.1 Endpoint identification — what publishing path(s) is this material targeting?
 
-Does the work strengthen or weaken a publisher pitch? Publisher-appeal and framework-rigor can diverge; when they diverge, rigor wins, but the divergence must be named.
+Commons Bonds material reaches the world through four distinct publishing-endpoint types. Each has different gates, different audiences, different submission criteria. The first task is identifying which endpoints the material being reviewed is actually targeting — and which it is structurally suited for.
 
-**Procedure:** Per publisher-type (academic press, trade, hybrid / small press, essay cascade venues), assess appeal. Note any divergence from rigor findings.
+**The four endpoint types:**
 
-**Verdict:** APPEALING (specify to which publisher types) / NARROWED APPEAL (specify) / LOW APPEAL (requires positioning work or publisher-type narrowing).
+1. **Literary agents** (gatekeepers to book publishers). Endpoint: representation contract → submission to book publishers. Gate: pitch-ready manuscript + comp titles + author platform + commercial-viability case. Author-side artifact: query letter + sample chapters + book proposal.
+2. **Book publishers.** Endpoint: book contract → published book. Three sub-categories:
+   - **Trade press** — Beacon Press, PublicAffairs, Chelsea Green, FSG, Bloomsbury, W.W. Norton. Mass-market reach; advance + royalties; agent typically required.
+   - **University press** — Duke, Chicago, MIT, Harvard, Oxford, Princeton. Academic legitimation; smaller advance; peer review required; agent optional but increasingly common for trade-academic crossover.
+   - **Hybrid / small press** — niche or activist-adjacent presses; lower barrier to entry; smaller distribution. Acceptable for follow-on or specialist work; usually not target for a first major book seeking cascade-durable reach.
+3. **Magazine publishers** (long-form essay or serialization). Endpoint: published essay (5,000-15,000+ words). Venues: *The New Yorker*, *Harper's*, *The Atlantic*, *Guardian Long Read*, *The London Review of Books*, *Granta*. Gate: pitch + clips + editorial fit; usually requires literary-magazine-quality prose. Author-side artifact: pitch letter + completed draft or substantial sample.
+4. **Essay publishers** (idea-platform venues, shorter pieces). Endpoint: published essay (2,000-6,000 words). Venues: *Noema*, *Berggruen* (prize venue + journal), *Boston Review*, *Aeon*, *LARB*, *n+1*, *Jacobin*, *Dissent*, *The Drift*. Gate: pitch + draft + editorial fit; intellectual-platform standard rather than literary-magazine standard. Author-side artifact: pitch + completed essay.
 
-#### M10.2 Cascade venue fit (formerly v1.3.0 Test 15)
+**Cascade logic:** Essay publishers typically come first (lowest barrier; cascade builds traction); magazine publishers next (longer-form, higher-prestige); literary agents engaged once traction is visible; book publishers approached via agent. Sequencing matters — approaching a literary agent without cascade traction or a book publisher without an agent typically results in rejection regardless of manuscript quality.
 
-For each venue in the cascade (Noema / Berggruen / Boston Review / The Atlantic Ideas / longer-term trade press):
+**Procedure:** State which endpoints the material being reviewed is targeting. Verify each is strategically appropriate (don't pitch a 5,000-word essay to a book publisher; don't query an agent without comp-title research; don't enter Berggruen without AI-free manuscript discipline).
 
-- **Noema** — intellectual-platform fit, cross-spectrum long-form, originality of contribution. Dinner-table-intelligent-reader audience.
-- **Berggruen Prize (essay, Aug 17 2026 deadline)** — long-horizon institutional thinking, methodological rigor, philosophical depth, lived-experience grounding. AI-free manuscript required.
+**Verdict:** ENDPOINTS-CLEAR / ENDPOINTS-MISALIGNED (specify) / ENDPOINTS-UNCLEAR.
+
+#### M10.2 Endpoint-specific venue fit (formerly v1.3.0 Test 15)
+
+For each endpoint identified in M10.1, assess venue-specific fit.
+
+**Literary agent fit (when targeting agents):**
+
+- Pitch clarity (one-paragraph hook + comp titles + reader pool + author platform).
+- Commercial viability case (similar-book sales, audience-segment evidence).
+- Manuscript-readiness signal (sample chapters polished; complete draft preferred for first-time author).
+- Specific agent fit per agent's interest list (climate / political economy / commons / structural critique / first-time-author openness).
+
+**Book publisher fit (per sub-category):**
+
+- **Trade press:** Beacon Press, PublicAffairs, Chelsea Green, FSG, Bloomsbury, W.W. Norton — assess each for editor list + recent acquisitions in adjacent space + fit with Commons Bonds positioning. Trade press typically requires agent.
+- **University press:** Duke, Chicago, MIT, Harvard, Oxford, Princeton — assess each for series fit + acquiring editor + peer-review-process appetite. Common Bonds' methodology-and-case-study structure fits university press well; the trade-prose register (Register 1 + Register 2) makes it candidate for trade-academic crossover.
+- **Hybrid / small press:** noted as available; not primary target for a first-book seeking 13+-year cascade-durable reach.
+
+**Magazine publisher fit (when targeting magazines):**
+
+- *The New Yorker, Harper's, The Atlantic*: long-form narrative non-fiction; require literary-grade prose + extensive editorial process. Commons Bonds chapter material (Ch 2 miner; Ch 3 waterman; Ch 10 closing) is candidate; methodology chapters (Ch 6) are not.
+- *Guardian Long Read*: international audience; structural-critique-friendly.
+- *London Review of Books, Granta*: literary-intellectual; book-review-adjacent.
+
+**Essay publisher fit (currently the active cascade entry):**
+
+- **Noema** — intellectual-platform fit, cross-spectrum long-form, originality of contribution. Dinner-table-intelligent-reader audience. Commons Bonds essay submitted (per project state).
+- **Berggruen Prize (essay, Aug 17 2026 deadline)** — long-horizon institutional thinking, methodological rigor, philosophical depth, lived-experience grounding. **AI-free manuscript required** (per project state and protocol; manuscript-AI-disclosure rules at M9.1).
 - **Boston Review** — progressive intellectual, policy-adjacent, argument-centered.
 - **The Atlantic Ideas** — general-interest intellectual, narrative-carried.
-- **Trade press book (post-cascade)** — dependent on cascade traction; candidates: Beacon Press, PublicAffairs, Chelsea Green, Bloomsbury, FSG.
+- **Aeon, LARB, n+1, Jacobin, Dissent, The Drift** — additional cascade options based on Noema response + venue editorial calendars.
 
-**Procedure:** Per venue, verify content fits. Flag content that cascades well vs. specific-venue-only.
+**Procedure:** Per endpoint × per venue, verify content fits. Flag content that cascades well across multiple venues (high-leverage) vs. specific-venue-only (cultivate that relationship).
 
-**Verdict:** FITS CASCADE / FITS SPECIFIC VENUES (specify) / MISFIT.
+**Verdict per venue:** FITS / FITS WITH REVISION (specify) / MISFIT (reroute or develop different material).
 
 #### M10.3 Agent interest (formerly v1.3.0 Test 16)
 
@@ -1468,31 +1615,85 @@ From a publisher's perspective: who buys this? M5 Dinner-table asks whether read
 
 Standard three gates.
 
-### §15.6 Review memo output format
+### §15.6 Output format — Hybrid (4-endpoint verdict table + pitch / comps / jacket-copy prose)
+
+M10 mixes interpretive elements (the pitch, comp titles, jacket copy, bio — all draft artifacts that need prose) with verdict-table elements (per-endpoint × per-venue fit). Hybrid format.
 
 > **M10 Publishing Path Review — [content or manuscript-level]**
 >
 > **Standing gates:** [one-line each].
 >
-> **Publisher appeal (M10.1):** [per publisher type]. Verdict.
+> **Endpoint identification (M10.1):**
 >
-> **Cascade venue fit (M10.2):** [per venue]. Verdict.
+> | Endpoint type | Targeting? | Strategic fit | Verdict |
+> |---|---|---|---|
+> | Literary agents | [Y/N] | [why / why not at current state] | |
+> | Book publishers (trade / university / hybrid) | [Y/N per sub-cat] | | |
+> | Magazine publishers | [Y/N] | | |
+> | Essay publishers | [Y/N] | (currently active cascade) | |
 >
-> **Agent interest (M10.3):** [pitch / description / comps]. Verdict.
+> Endpoint identification verdict: [ENDPOINTS-CLEAR / ENDPOINTS-MISALIGNED / ENDPOINTS-UNCLEAR].
 >
-> **Comp titles (M10.4):** [3-5 comps with fit notes]. Verdict.
+> **Endpoint × venue fit (M10.2; verdict table per active endpoint):**
 >
-> **Jacket copy (M10.5):** [draft]. Verdict.
+> *Literary agents (if active):*
+> | Agent / agency | Interest list match | Pitch readiness for them | Verdict |
+> |---|---|---|---|
+> | [agent] | | | |
 >
-> **Pitch clarity (M10.6):** [30-second pitch]. Verdict.
+> *Book publishers (if active):*
+> | Publisher | Sub-category | Editor / series fit | Verdict |
+> |---|---|---|---|
+> | Beacon Press | Trade | | |
+> | PublicAffairs | Trade | | |
+> | Chelsea Green | Trade | | |
+> | Duke UP | University | | |
+> | (etc.) | | | |
 >
-> **Platform and bio (M10.7):** [bio draft + assessment]. Verdict.
+> *Magazine publishers (if active):*
+> | Magazine | Length / format fit | Editorial-process tolerance | Verdict |
+> |---|---|---|---|
+> | The New Yorker | | | |
+> | Harper's | | | |
+> | The Atlantic | | | |
+> | Guardian Long Read | | | |
+> | (etc.) | | | |
 >
-> **Readership (M10.8):** Verdict.
+> *Essay publishers (currently active):*
+> | Venue | Fit | Status | Verdict |
+> |---|---|---|---|
+> | Noema | Cross-spectrum long-form | Submitted | |
+> | Berggruen Prize | Long-horizon institutional thinking; AI-free required | Aug 17 2026 deadline | |
+> | Boston Review | | | |
+> | The Atlantic Ideas | | | |
+> | Aeon | | | |
+> | LARB | | | |
+> | n+1 | | | |
+> | (etc.) | | | |
 >
-> **Reviewer's judgment:** Agent-voice summary. Submission sequence recommended. Risks to the pitch.
+> **Author-side artifacts (prose; M10.3 + M10.4 + M10.5 + M10.6 + M10.7):**
 >
-> **Recommendation:** [Submission-ready / Sharpening work required (list) / Positioning work required (list)].
+> *Pitch (M10.6):* [30-second pitch draft]. Verdict: [PITCH-CLEAR / SHARPENING NEEDED / PITCH-UNCLEAR].
+>
+> *Comp titles (M10.4):* [3-5 comps with one-line fit notes per comp]. Verdict: [COMP-SET STRONG / NEEDS WORK / NO VIABLE COMPS].
+>
+> *Jacket copy (M10.5):* [200-word draft]. Verdict: [JACKET-COPY-READY / NEEDS-DRAFT / UNCLEAR WHAT TO CLAIM].
+>
+> *Author bio + platform (M10.7):* [one-paragraph bio draft]. Platform-readiness: [SUPPORTS / PARTIAL / UNDERDEVELOPED]. Verdict.
+>
+> *Agent-pitch coherence (M10.3):* one-sentence elevator pitch + one-paragraph description + comps. Coherent? Verdict: [PITCH-READY / SHARPENING NEEDED / UNCLEAR].
+>
+> **Readership (M10.8; verdict):**
+>
+> Estimated reader pool with audience-segment evidence. Verdict: [DEFINED / DIFFUSE / UNCERTAIN].
+>
+> **Reviewer's judgment (literary-agent voice; brief prose):**
+>
+> Submission sequence recommended (cascade order). Risks to the pitch. Where the manuscript / essays are pitch-ready and where they need sharpening before active outreach.
+>
+> **Findings warranting cross-cutting format (per §17):** Any endpoint × venue MISFIT, any pitch / comp / jacket-copy verdict UNCLEAR, or any platform-and-bio finding rated UNDERDEVELOPED goes here using FINDING / Reviewer voice / SOLVE / MITIGATE / SHOW-STOPPER. M10 findings often have show-stopper level SUBMISSION (blocks active outreach until sharpened) or PUBLICATION (would not survive editor's first read).
+>
+> **Recommendation:** [Submission-ready (specify endpoints) / Sharpening work required (list with venue priorities) / Positioning work required (list)].
 
 ### §15.7 Light mode
 
@@ -1591,21 +1792,54 @@ For each character:
 
 Applied per character-pressure finding where relevant.
 
-### §16.7 Review memo output format
+### §16.7 Output format — Per-character voice memos + structural-flag aggregate table
+
+Each character speaks in their own voice. Per-character output uses the cross-cutting FINDING / Reviewer voice / What this means / SOLVE / MITIGATE / SHOW-STOPPER format (defined at §17). The reviewer-voice slot is the character's own voice — what would *this person* say if they read the material? An aggregate table surfaces structural patterns across characters.
 
 > **M11 Critic Pressure Review — [content or manuscript-level]**
 >
 > **Standing gates:** [one-line each].
 >
-> Per character (25 + activated sub-batteries): [pressure point / strength / mitigation / cross-reference to other modules where applicable].
+> **Per-character pressure (25 characters + activated sub-batteries):**
 >
-> **Structural flags:** [any finding from multiple characters on the same weakness]. Structural mitigation required.
+> For each character, when pressure is found:
 >
-> **Decisive flags:** [any single character whose pressure is strong enough to gate submission]. Submission-gate items.
+> ```
+> CHARACTER: C[N] [name + role]
+> Group: [G Critics / H Gatekeepers / I Intended Users / J Cultural Readers / K Personal-Proximal / L Ethical-Legacy]
 >
-> **Reviewer's judgment:** Aggregate across all characters. Identify the 2-3 most significant pressure patterns. Map to other modules for remediation.
+> FINDING: [what this character would press on, in 1-2 sentences]
 >
-> **Recommendation:** [Clear / Structural mitigation required / Substantive revision required before submission].
+> Reviewer voice (this character's voice): "[what they would say]"
+>
+> What this means for the project: [consequence]
+>
+> SOLVE: [action that addresses this character's pressure; specify if applicable]
+> MITIGATE: [action that reduces severity without eliminating; specify if applicable]
+> SHOW-STOPPER: [SUBMISSION / PUBLICATION / SUCCESS-CRITERIA / N/A — Accept]
+>
+> Cross-reference: [other modules where this finding also surfaces, e.g., M6 / M9 / M10]
+> ```
+>
+> Characters who do not produce pressure on the material being reviewed are listed in a single line: "Silent characters (no significant pressure): C[N], C[N], ..."
+>
+> **Structural-flag aggregate table:**
+>
+> | Pattern | Characters surfacing it | Cross-module references | Severity |
+> |---|---|---|---|
+> | [pattern description] | [C#, C#, C#] | [M#, M#] | [SUBMISSION / PUBLICATION / SUCCESS-CRITERIA / N/A] |
+>
+> A pattern surfaced by 3+ characters on the same weakness is a **structural flag** — likely requires book-level rather than chapter-level remediation.
+>
+> **Decisive flags:**
+>
+> Any single character whose pressure is strong enough to gate submission gets called out separately. Examples: C7 publisher's legal counsel finds defamation risk → SHOW-STOPPER SUBMISSION; C6 Berggruen Prize judge finds AI-disclosure violation → SHOW-STOPPER SUBMISSION-for-this-venue.
+>
+> **Reviewer's judgment (aggregate; brief prose):**
+>
+> The 2-3 most significant pressure patterns. Where they surface across other modules. What overall posture the manuscript takes against the full reader surface.
+>
+> **Recommendation:** [Clear across full character set / Structural mitigation required (list) / Specific decisive flags require resolution before submission (list)].
 
 ### §16.8 Light mode
 
@@ -1625,7 +1859,57 @@ Already documented per-character above.
 
 Stored at: `tools/pre-submission-reviews/` (new folder). Module-level runs that aren't full-suite may be stored as rigor-pass records per v1.3.0 convention.
 
-### §17.2 Template
+### §17.2 Cross-cutting finding format (used by all modules; default for M9 + M11)
+
+Any module surfacing a finding that involves external-reviewer pressure uses the following format. M9 Risk Register uses this format for every entry; M11 Critic Pressure uses it per character; M6 Academic Rigor uses it for most findings; M7 Originality + M10 Publishing Path use it for decisive findings; other modules use it for structural findings (verdicts of FAIL, BLOCKS-SUBMISSION, MISFIT, OVER-WEIGHT, CRITIC WOULD WIN, UNCOVERED, DOES NOT TRAVEL, DILUTES, WEAKENS, UNDERDEVELOPED).
+
+```
+FINDING: [short statement of the problem in 1-2 sentences]
+
+Reviewer voice: "[what a specific reviewer in this domain would say if they read the material — quoted, in their voice, with enough specificity to be recognizable]"
+
+What this means for the project: [consequence if unaddressed — be specific about which step it blocks (submission to which venue / publication / academic uptake / cascade-durability) or what reception it damages]
+
+SOLVE: [action that eliminates the finding]
+  — Specify if applicable. May be N/A if the finding is structurally unsolvable
+    (e.g., framework restatement-of-existing-work concern requires re-positioning,
+    not solving). Solve actions tend to be substantive (revision, addition,
+    re-scoping, additional research, expert consultation).
+
+MITIGATE: [action that reduces severity without fully fixing]
+  — Specify if applicable. May be N/A where only solve works (e.g., defamation
+    risk cannot be mitigated, only solved through revision or removal).
+    Mitigate actions tend to be lighter (acknowledgment + scoping, framing
+    revisions, single-paragraph additions, cross-references).
+
+SHOW-STOPPER: [Yes / No; if Yes, specify level]
+  — SUBMISSION — blocks sending to publisher / editor / academic without remediation.
+    These items must be resolved before the manuscript / essay leaves the author's hands.
+  — PUBLICATION — blocks publication; fixable in editorial rounds. The manuscript
+    can submit, but the editor will require resolution before publication.
+  — SUCCESS-CRITERIA — doesn't block submission or publication, but blocks the
+    13+-year vocabulary-cascade goal if unfixed. Examples: weak originality
+    defense (book publishes but academic uptake fails); unportable vocabulary
+    (book publishes but readers can't carry the terms forward).
+  — N/A — Accept — non-show-stopper; author may accept the finding as a deliberate
+    trade-off. Document the acceptance reasoning so future reviewers don't
+    re-surface the same finding.
+```
+
+**The four show-stopper levels reflect different failure modes:**
+
+| Level | What it blocks | Example finding |
+|---|---|---|
+| **SUBMISSION** | Active outreach (agent, editor, academic, publisher) | Defamation risk in a chapter requires legal review before submission. Unannotated AI-generated text in a Berggruen submission. Unconsented identifiable third party. |
+| **PUBLICATION** | Final published work | Editorial-grade prose issue (preserved in published copy if not fixed). Sensitivity-reader engagement not yet completed for indigenous-case anchor. Sourcing gap on a quantitative claim that will be cited. |
+| **SUCCESS-CRITERIA** | 13+-year cascade goal (Goal-1 vocabulary adoption / Goal-2 individual-reader use) | Unportable key vocabulary. Weak originality defense vs. existing literature. Failed Rousseau-test (book reads as period-specific commentary). |
+| **N/A — Accept** | Nothing; trade-off documented | Author accepts a known limitation with explicit handling. |
+
+**Rule for ambiguous findings:** When a finding could be either solvable or only mitigable, the reviewer states both options and the author chooses. The reviewer does not silently rule out solve. The author's choice (and reasoning) gets documented in the consolidated pre-submission action items, so future review cycles can see what was deliberate vs. what was deferred.
+
+**Rule for show-stopper escalation:** A finding initially flagged at SUCCESS-CRITERIA may escalate to PUBLICATION or SUBMISSION level for specific venues. Example: weak contribution defense is SUCCESS-CRITERIA-level for trade press but SUBMISSION-level for academic press + Berggruen. The flag should specify per-venue when relevant.
+
+### §17.3 Template
 
 ```markdown
 # Commons Bonds — Pre-Submission Peer Review Report
@@ -1650,38 +1934,38 @@ Stored at: `tools/pre-submission-reviews/` (new folder). Module-level runs that 
 
 ## Module reviews
 
-### M1 — Framework integrity
-[Full review memo per §6.6]
+### M1 — Framework integrity (CORE)
+[Hybrid: verdict table + reviewer-judgment per §6.7]
 
 ### M2 — Case study
-[Per-case memos per §7.6]
+[Hybrid: per-case verdict tables + reviewer-judgment per §7.6]
 
 ### M3 — Book content
-[Per-content-block memos per §8.6]
+[Hybrid: per-content-block verdict table + reviewer-judgment per §8.6]
 
 ### M4 — Craft
-[Full review memo per §9.6]
+[Peer-reviewer memo (developmental editor voice; mostly prose) per §9.6]
 
 ### M5 — Dinner-table
-[Per-content-block memos per §10.6]
+[Verdict table + brief reader-voice judgment per §10.6]
 
 ### M6 — Academic rigor
-[Full review memo per §11.6]
+[Peer-reviewer memo (senior academic voice; mostly prose) per §11.6]
 
 ### M7 — Originality
-[Full review memo per §12.6]
+[Hybrid: contribution-claim prose + competitor verdict table + reviewer-judgment per §12.6]
 
 ### M8 — Long-term potential
-[Full review memo per §13.6]
+[Hybrid (interpretive-lean): 2045-reader prose + vocabulary/goals verdict table per §13.6]
 
 ### M9 — Risk / exposure
-[Full review memo per §14.6]
+[**Risk Register**: every entry uses cross-cutting FINDING / SOLVE / MITIGATE / SHOW-STOPPER format from §17.2; aggregate verdict table per §14.6]
 
 ### M10 — Publishing path
-[Full review memo per §15.6]
+[Hybrid: 4-endpoint × per-venue verdict table + author-side artifacts (pitch / comps / jacket copy / bio) prose per §15.6]
 
 ### M11 — Critic pressure
-[Full review memo per §16.7]
+[Per-character voice memos using cross-cutting format from §17.2 + structural-flag aggregate table per §16.7]
 
 ---
 
@@ -1782,24 +2066,45 @@ A sub-test or character that fails to differentiate on one pass may differentiat
 
 **Structural reorganization** from test-type groups (v1.3.0) to purpose-driven peer-review modules. Every v1.3.0 test preserved; none dropped. Every module runnable standalone; running the full suite constitutes a Pre-Submission Peer Review.
 
-**Changes:**
+**Two commits land v2.0.0:**
+
+- **Checkpoint commit (89a6037, 2026-04-23):** initial v2.0.0 file + M1 CORE rescope + M2 two-path absorption + most module content. Output formats still in initial form; M9 not yet risk register; M10 not yet 4-endpoint; cross-cutting finding format not yet documented.
+- **Final commit (this commit):** mid-revision refinements per Chris's editorial review — output format rationalization per module + M9 risk register format + M10 4-endpoint breakdown + cross-cutting finding format with show-stopper levels and SOLVE/MITIGATE distinction.
+
+**Changes (full):**
 
 1. **Reorganization.** v1.3.0's Group A / §5A / Groups B-F / 25-character suite → v2.0.0's 11 purpose-driven modules (M1-M11).
-2. **Standing gates.** v1.3.0's §5A Tests 28 + 29 promoted to Standing Gates (§3), plus new Standing Gate C (Sensitivity-reader engagement). Standing gates apply to every module at every depth.
+2. **Standing gates.** v1.3.0's §5A Tests 28 + 29 promoted to Standing Gates (§3), plus new **Standing Gate C** (Sensitivity-reader engagement). Standing gates apply to every module at every depth.
 3. **New modules.**
-   - **M2 Case study tests** (NEW) — formalizing implicit procedure from case-study audit.
+   - **M2 Case study tests** (NEW) — formalizing implicit procedure from case-study audit. Houses two-path rigor as primary case-level diagnostic (relocated from v1.3.0 framework-level Group A).
    - **M4 Craft tests** (NEW) — structure, arc, voice, register, prose, preamble-strip.
-   - **M9 Risk / exposure** (NEW consolidated) — legal + reputational + career + anonymization + sensitivity-reader.
-4. **Module content additions.**
+   - **M9 Risk / exposure** (NEW consolidated) — legal + reputational + career + anonymization + sensitivity-reader. Output format: Risk Register using cross-cutting finding format throughout.
+4. **M1 architectural fix (CORE only).** Initial v2.0.0 conflated framework CORE with framework ELABORATION; mid-revision corrected. M1 tests AIT + RCV formula integrity + CS = RCV − B coherence + formal vocabulary integrity + universality across scales × environments. ELABORATION (10 dimensions + 8-tier decomposition + two-path + merger/primitiveness) tested by other modules. §5.1 NEW scope note.
+5. **Module content additions.**
    - **M5 Dinner-table test** — formalized standalone (was scattered in v1.3.0 Tests 17, 20 + Character 19).
    - **M7 Originality contribution claim articulation** (M7.1) — explicit procedure for stating contribution (was implicit in Test 18).
-   - **M10 Publishing path additions** — comp titles (M10.4), jacket copy (M10.5), pitch clarity (M10.6), platform and bio (M10.7). None in v1.3.0.
-5. **Output format shift.** Each module produces a review-memo in peer-reviewer voice, not test-verdict table. Full-suite output = Pre-Submission Peer Review Report.
-6. **Running modes.** Single-module / combined / full / light. v1.3.0 had only full / light.
-7. **Sensitivity-reader engagement** elevated from case-file-specific (indigenous case §7.1) to Standing Gate C applicable to all content.
-8. **Worked examples 18.5 + 18.6** added (case-study audit + chapter audit as v2.0.0 retrospective examples).
+   - **M10 Publishing path 4-endpoint breakdown** (per Chris's request 2026-04-23): literary agents / book publishers (trade / university / hybrid) / magazine publishers / essay publishers. M10.1 explicit endpoint identification; M10.2 endpoint × venue fit verdict tables.
+   - **M10 additional sub-tests** — comp titles (M10.4), jacket copy (M10.5), pitch clarity (M10.6), platform and bio (M10.7). None in v1.3.0.
+6. **Output format architecture (rationalized per module):**
+   - **Hybrid (verdict table + reviewer-judgment):** M1, M2, M3, M7, M8, M10.
+   - **Peer-reviewer memo (mostly prose):** M4, M6.
+   - **Verdict table + brief judgment:** M5.
+   - **Risk Register:** M9 (every entry uses cross-cutting format).
+   - **Per-character voice memos + structural-flag aggregate:** M11 (each character speaks in their own voice using cross-cutting format).
+7. **Cross-cutting finding format (NEW §17.2)** — FINDING / Reviewer voice / What this means for the project / SOLVE / MITIGATE / SHOW-STOPPER. Used by all modules for findings warranting reviewer-voice treatment. Default for M9 + M11.
+8. **Show-stopper levels (NEW)** — SUBMISSION / PUBLICATION / SUCCESS-CRITERIA / N/A — Accept. Per-venue escalation rule documented.
+9. **SOLVE vs. MITIGATE distinction (NEW)** — separate paths in cross-cutting format. Solve eliminates the finding; mitigate reduces severity without eliminating. Some findings have both options; some have only one.
+10. **Running modes** — single-module / combined / full / light. v1.3.0 had only full / light.
+11. **Sensitivity-reader engagement** elevated from case-file-specific (indigenous case §7.1) to Standing Gate C applicable to all content.
+12. **Worked examples 18.5 + 18.6** added (case-study audit + chapter audit as v2.0.0 retrospective examples).
 
 **Mapping from v1.3.0 → v2.0.0** at §0.2. Complete: every v1.3.0 test location now has a v2.0.0 location.
+
+**Provenance note on key revisions:**
+
+- The CORE-vs-ELABORATION distinction (M1 rescope) traces to Chris's framework-smell-test concern raised mid-session 2026-04-23, articulated as: the framework's contribution is AIT methodology + RCV equation + formal vocabulary; the 10 dimensions + 8 tiers may be useful elaboration but are not load-bearing on the book's contribution.
+- The 4-endpoint breakdown for M10 traces to Chris's direct request 2026-04-23 to add literary agents / book publishers / magazine publishers / essay publishers as explicit publishing-path endpoints.
+- The output-format rationalization + cross-cutting finding format with SOLVE / MITIGATE / SHOW-STOPPER traces to Chris's editorial review 2026-04-23: "for some tests it seems correct that the output should read like a peer reviewer's memo. But for some tests a verdict table does seem like the correct format... It could possibly even mean some tests produce results that say a critic or peer reviewer would say ___ and what that means for the project is ___ and you could solve that by ___ (or) mitigate that by ____ (or) it's a show stopper that stops the project from (being successful, getting published, moving forward, etc.) if you don't fix it."
 
 ### Prior versions (summary)
 
