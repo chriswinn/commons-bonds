@@ -670,6 +670,7 @@ Removing any word creates ambiguity or unmoors the term.
 **Notes:**
 - Different retirement basis from Spatial Cost Severance (which failed Principle #3 on misnaming grounds). Temporal Cost Severance PASSED Principle #3 (genuine subtype) but retired on adjective-precision + framework-usage-evidence grounds.
 - Phase A3 sweep targets: 5 proper-noun references (Ch 2, Social Security case, Deepwater case) → rewrite as lowercase "intergenerational cost severance"; 1 glossary v2 entry → remove in v3 bump.
+- **Reconsider pass 2026-04-24 (ratified):** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_temporal_cost_severance_reconsider_v1.0.0.md` tested whether "temporal cost severance" should be adopted as a lowercase prose phrase parallel to the Spatial CS re-examination + intergenerational cost severance lowercase adoption. Verdict: Option A (KEEP RETIRED). Principle-#3 variant-subtype check FAILED for "temporal" — the qualifier describes a constitutive property of ALL cost severance (all severance has temporal offset between value-capture and cost-bearing), not a distinguishing gap-type. Spatial + intergenerational lowercase pair does NOT extend to a three-member cohort. Ratified 2026-04-24 by Chris Winn.
 
 ---
 
@@ -706,6 +707,84 @@ Removing any word creates ambiguity or unmoors the term.
 - This is the first entry in §4. Serves as template format for future RETIRED-status records.
 - The RETIRE verdict is on Principle-#3 grounds (variant-subtype check failed), not vocabulary-footprint grounds. A distinct decision class from terms retired via footprint pruning (e.g., FGC under tier dissolution).
 - Sweep targets when Phase A3 lands: glossary v2 entry removal; any residual chapter/case-study references to "Spatial Cost Severance" proper-noun (audit confirmed 0 chapter refs; only glossary-level entry to retire).
+
+---
+
+### Universality Test
+
+**Working definition (prior, retired):** A framework-internal validation check — run the framework against diverse extraction contexts (terrestrial + hypothetical extraterrestrial Mars/Europa) and verify it produces reasonable answers including self-identification of boundary conditions. Complements AIT as framework's validation methodology (vs AIT's discovery methodology).
+
+**Status:** `RETIRED / DEMOTED` as capitalized named term (ratified 2026-04-24 by Chris Winn). Concept preserved in prose as scope-claim + boundary-awareness + Tech Appendix §F Mars/Europa illustration.
+
+**Term-spec version:** v1.1 (supersedes v1.0 en-bloc demotion; individual-pass verification).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Meta-pass §11.5 + §13.2.a en-bloc ratification (commit `d58b2cd`, 2026-04-24) — DEMOTE recommendation on "M1 of rigor protocol subsumes universality testing" grounds (rationale later corrected — see individual pass).
+- Individual re-examination pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_universality_test_re_examination_v1.0.0.md` (2026-04-24) — Option B (CONFIRM DEMOTE) with corrected rationale: named-test status requires the test to be EXERCISED; 0 chapter refs + no in-book exercise fails that threshold.
+- AIT-pairing comparison vs Abundance Masking: UT's pairing with AIT is categorial (both methodologies), NOT structural (AIT's definition doesn't depend on UT being named) — differs from AM-AIT where AIT's definition requires AM named.
+
+**Depends on (why this term was in the vocabulary):**
+- Glossary v2 carried the term as a methodology paired with AIT.
+- V2 definition's "complements AIT" language initially suggested load-bearing pairing.
+
+**Staleness triggers:**
+- Book cases start exercising a repeated universality-check methodology that benefits from a name-handle.
+- AIT is restructured such that its definition becomes dependent on UT being named.
+- Framework develops a formal boundary-condition protocol warranting its own named test.
+
+**Commit trail:**
+- Meta-pass en-bloc demotion: commit `d58b2cd`.
+- Individual re-examination pass commit: `713beb7`.
+- Ratification: this commit.
+
+**Supersedes / superseded by:** N/A — concept preserved in prose + Tech Appendix §F; only capitalized term retired.
+
+**Notes:**
+- Tech Appendix §F retains Mars/Europa passage as "scope claim + boundary-awareness illustration" without the named test.
+- Distinguishing from Abundance Masking (which PROMOTED to Ring 2 pending ratification via parallel re-examination): AM names an in-the-world mechanism active in every extraction case; UT names a validation methodology that isn't exercised anywhere. Different Principle-#3 outcomes despite both having AIT-pairing in v2.
+- Phase A3 sweep targets: glossary v2 entry removed in v3; Tech Appendix §F reframed.
+
+---
+
+### Civilizational Substitutability Gap (CSG)
+
+**Working definition (prior, retired):** A derived scalar CSG(R) = S_max(R, industrial) − S_max(R, existential) — the gap between industrial-context substitutability ceiling and existential-context substitutability ceiling for a resource R. Policy rule: high-gap resources warrant strategic in-situ preservation.
+
+**Status:** `RETIRED` as capitalized named term (ratified 2026-04-24 by Chris Winn). Concept preserved in prose as "industrial-existential substitutability gap" + sub-entry under Substitutability Function in glossary v3 + Tech Appendix §G formula + policy rule retained.
+
+**Term-spec version:** v1.0 final (retirement).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Meta-pass §11.2 + §13.2.c rigor-only analysis (commit `af2f18e`, 2026-04-24) — RETIRE on "CSG is S-at-scale" grounds.
+- Individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_csg_v1.0.0.md` (2026-04-24) — Option B (CONFIRM RETIRE) with corrected semantic test: CSG is specifically a DIFFERENCE between two S-evaluations (not just "S at scale"). Correction confirms (not rescues) retirement.
+- Parsimony principle: framework doesn't name derived scalars. S(t) − S(t−1), max-S-over-uncertainty, S-for-rival-baselines — none are named separately. CSG belongs to that class.
+- ARP pairing differentiator: CSG-ARP is TOPICAL pairing (ARP applies to high-CSG resources), NOT STRUCTURAL (ARP's definition doesn't depend on CSG being named). Contrasts with AM-AIT. Weaker pairing → doesn't reach Ring-2.
+- Ratification produced a ratified Principle #1 Corollary B: **"usage frequency alone is not a rigor argument for retention."** CSG had 66 active refs (close-call flagged); ratification confirmed that usage frequency cannot override the derivation-from-primitive verdict.
+
+**Depends on (why this term was in the vocabulary):**
+- Glossary v2 carried CSG as a standalone entry under policy-instruments section.
+- Active use in Ch 7 (Mars colony, asteroid-miner) + Ch 9 (Renewable Imperative) as decision-rule shorthand.
+
+**Staleness triggers:**
+- Ch 7 / Ch 9 chapter rewrites produce prose-quality issues that would be resolved by restoring CSG as a named term.
+- A structural pairing emerges where CSG becomes load-bearing for another framework element's definition (analogous to Abundance Masking for AIT).
+- Academic field adopts "CSG" as a travel-ready term that retirement would forfeit.
+
+**Commit trail:**
+- Meta-pass §13.2.c analysis: commit `af2f18e`.
+- Individual rigor pass commit: `3ec3707`.
+- Ratification: this commit.
+
+**Supersedes / superseded by:** N/A — concept preserved in prose + Tech Appendix §G formula; only capitalized term retired. Prose replacement: "industrial-vs-existential substitutability gap" OR "industrial-existential substitutability gap" OR (for Tech Appendix mathematical contexts) simply "the difference between S_max(industrial) and S_max(existential)."
+
+**Notes:**
+- Close-call retirement: 66 active refs + active pedagogical use in Ch 7/Ch 9 + ARP pairing. Ratified as RETIRE on rigor grounds (parsimony + derivation-from-primitive) overriding usage-frequency argument. This ratification established Principle #1 Corollary B.
+- ARP (Asymmetric Regret Principle) v2 reference "Applies across all uncertainty ranges for high-CSG resources" rewrites to "Applies across all uncertainty ranges for resources with large industrial-existential substitutability gaps." Downstream sweep.
+- Phase A3 sweep targets (Stream A): Ch 7 (asteroid-miner + Mars-colony prose) + Ch 9 (Renewable Imperative) + glossary v2 → v3 removal + Tech Appendix §G retain formula as sub-entry under Substitutability Function. ~2-3 days sweep work per meta-pass estimate.
 
 ---
 

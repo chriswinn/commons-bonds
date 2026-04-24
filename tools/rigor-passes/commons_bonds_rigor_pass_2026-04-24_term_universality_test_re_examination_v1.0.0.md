@@ -248,7 +248,7 @@ The earlier meta-pass §11.5 rationale said *"universality is tested by M1 + §2
 
 ## §8. Author-ratified resolutions
 
-*Pending author ratification. Recommended Option B (confirm demote; individual-pass verification of earlier en-bloc ratification).*
+**Ratified 2026-04-24 by Chris Winn — Option B (CONFIRM DEMOTE).** Earlier en-bloc demotion ratification (commit `d58b2cd`) confirmed by this individual re-examination pass. AIT-pairing argument does NOT reach Ring-2 load-bearing here because: (a) AIT's definition doesn't depend on UT being named (unlike AM-AIT structural pairing), (b) 0 chapter refs + no in-book exercise of the test. Concept preserved in prose (scope claim + boundary-awareness) + Tech Appendix §F Mars/Europa illustration.
 
 ---
 

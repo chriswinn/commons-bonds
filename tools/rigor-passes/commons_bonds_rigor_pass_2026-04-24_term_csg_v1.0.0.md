@@ -256,7 +256,7 @@ Ch 7 + Ch 9 rewrites are ~2-3 days of sweep work (66 refs across draft prose). T
 
 ## §9. Author-ratified resolutions
 
-*Pending author ratification. Recommended Option B (confirm retire capitalized term; preserve concept + formula in prose and Tech Appendix §G under Substitutability Function).*
+**Ratified 2026-04-24 by Chris Winn — Option B (CONFIRM RETIRE).** Meta-pass §13.2.c rigor-only recommendation upheld by individual pass. Capitalized "Civilizational Substitutability Gap (CSG)" retired. Concept preserved in prose as "industrial-vs-existential substitutability gap" + sub-entry under Substitutability Function in glossary v3 + Tech Appendix §G. Ch 7 + Ch 9 draft prose rewrites (66 refs) scheduled in Phase A3 audit sweep (Stream A). ARP cross-pairing reference rewrites to "resources with large industrial-existential substitutability gaps." Ratification produced a ratified Principle #1 Corollary B ("usage frequency alone is not a rigor argument for retention").
 
 ---
 

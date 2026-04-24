@@ -199,7 +199,7 @@ The existing Temporal Cost Severance retirement record (§4) gets a pointer to t
 
 ## §9. Author-ratified resolutions
 
-*Pending author ratification. Recommended Option A (keep retired; no lowercase parallel).*
+**Ratified 2026-04-24 by Chris Winn — Option A (KEEP RETIRED).** Capitalized "Temporal Cost Severance" retirement (commit `4435488`) confirmed by this reconsider pass. Lowercase "temporal cost severance" NOT adopted. Spatial + intergenerational lowercase pair does not extend to three-member cohort. Principle-#3 variant-subtype check FAILED for "temporal" as distinguishing qualifier (it's a constitutive property of all severance, not a subtype).
 
 ---
 

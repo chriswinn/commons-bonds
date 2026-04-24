@@ -37,9 +37,23 @@ Rewrite cost, sweep cost, or any other effort-to-repair is not valid reasoning f
 
 Commons Bonds is an author-paced project with no publisher deadline or external clock forcing a decision point. A month or two of extra chapter work costs nothing the success criterion cares about. What costs the success criterion is publishing a framework whose vocabulary doesn't survive academic pressure — which is exactly what happens if weak recommendations survive because correcting them seems like too much work.
 
-**Corollary — scheduling notes are allowed; scheduling-as-rigor is not.**
+**Corollary A — scheduling notes are allowed; scheduling-as-rigor is not.**
 
 A rigor pass may end with a *§N Downstream execution cost* section noting how many days / chapters / docs the ratified action implicates. That section informs sequencing (Phase A3 vs Phase B absorption vs deferral) but does not flip verdicts from §1 executive summary.
+
+**Corollary B — usage frequency alone is not a rigor argument for retention** *(ratified 2026-04-24 by Chris Winn during CSG rigor pass findings review)*
+
+Parallel to Corollary A: just as effort-to-repair cannot argue *against* retirement, raw usage frequency (chapter-ref counts, occurrences across docs) cannot argue *for* retention. High usage proves only that the term has been used — not that it earns its place on rigor grounds.
+
+**What this changes about my reasoning:**
+
+- A term with N chapter refs is not, for that reason alone, Ring-2 or Ring-1-worthy. The rigor verdict must rest on: (a) is it a distinct concept? (b) is it load-bearing for something? (c) does it pass Principle #3 / primitive-distinctness / derivation-from-primitive checks?
+- When a retirement verdict is close-call, listing "but there are 66 refs to sweep" is a Principle #1 Corollary A concern (scheduling), not a reason to retain.
+- When a retention verdict is made, usage frequency can be NOTED as evidence that the concept is active — but the verdict must cite the rigor-level distinctness/load-bearing claim, not the ref count.
+
+**Why this matters on this project specifically:**
+
+Frameworks that mature tend to prune. High-use terms can accumulate by inertia (author wrote them, found them useful, kept using them) without passing rigor tests for distinctness. CSG's 66 refs + active pedagogical use could have argued for retention on usage grounds; the rigor verdict retired anyway because CSG is a derived scalar from the primitive S. The corollary prevents usage inertia from protecting terms that don't earn their keep rigor-wise.
 
 ---
 
