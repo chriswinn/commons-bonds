@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-24 · v1.39.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .decision     { background: #f3e8ff; border-left: 4px solid #7a3ea1; padding: 1em 1.2em; margin: 1em 0; }
+  .operating    { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .milestone    { background: #e8f2fa; border-left: 4px solid #2a5a8c; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .snippet      { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .version  { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-24 · Version <span class="version">1.39.0</span> · Supersedes v1.38.0 · Same-day continuation. Session theme: <strong>Phase A1 COMPLETE — all four framework-level reframing tasks landed (chapter audit + case-study audit + dimensions canonical doc + 8-tier decomposition Path F preamble)</strong>. 5 commits since v1.38.0. Phase A2 methodology formalization begins next.</p>
+
+<div class="status">
+<strong>STATUS:</strong> <strong>PHASE A1 COMPLETE.</strong> All four Path F reframing tasks landed across four separate commits. Chapter audit v1.0.5 → v1.0.6, case-study audit v1.0.5 → v1.0.6, dimensions canonical doc v1.2.0 → v1.3.0, 8-tier decomposition Path F preamble added, README refreshed to reflect all Path F landings. Framework canonical state is now materially Path F-aligned at the reference-document level; chapter-draft vocabulary reframing happens in Phase B Task 15 (throughout-book vocab check). Phase A2 methodology formalization (6 tasks, 2-3 weeks) begins immediately in continuation of this session.
+</div>
+
+<div class="snippet">
+<h2>Copy-paste snippet for next session start</h2>
+<pre>Starting Commons Bonds session — picking up from handoff v1.39.0 (2026-04-24).
+
+Please read these files before responding:
+- commons-bonds-session-handoff-2026-04-24_v1.39.0.html  (this handoff — read first)
+- tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_path_f_variable_addability_v1.0.0.md  (extreme-rigor pass with Chris's ratified decisions at §11)
+- tools/pre-submission-reviews/commons_bonds_pcr_2026-04-23_v1.1.0.md  (PCR with Path F confirmation)
+- tools/commons_bonds_rigor_protocol_v2.2.0.md
+- core/chapters/commons_bonds_chapter_audit_v1.0.6.md  (Phase A1 Task 1 landed)
+- core/case-studies/commons_bonds_case_study_audit_v1.0.6.md  (Phase A1 Task 2 landed)
+- core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md  (Phase A1 Task 3 landed)
+- core/decomposition/eight-tier-v10.html  (Phase A1 Task 4 — Path F preamble added)
+- core/technical-appendix/TechnicalAppendix_v0.0.3.html  (current; Phase A2 Task 10 bumps to v0.0.4)
+- manuscript/chapters/Chapter__6___GuidanceDoc.md  (Phase A2 Tasks 7+8+9 affect Ch 6 body)
+
+Current canonical state to verify:
+- Rigor protocol: v2.2.0 canonical.
+- Framework-scope decision: Path F selected. Path F variable-
+  addability verified at extreme rigor PASS-WITH-CONDITIONS.
+- Chris's four-condition ratifications locked at rigor pass §11
+  (summary in Ch 6 body + Technical Appendix formal spec;
+  middle register; matter-of-fact; confident).
+- Phase A1 COMPLETE. Four docs bumped to Path F framing:
+  chapter audit v1.0.6, case-study audit v1.0.6, dimensions
+  canonical doc v1.3.0, 8-tier decomposition Path F preamble.
+- 8 chapter drafts at ~42,700 words / ~155 pages; unchanged.
+- Phase A2 begins: methodology formalization (6 tasks, 2-3 weeks).
+- Deferred decisions: "what do we call this" (abundance vs. variable
+  naming); Path K personal-stories integration depth.
+
+Top priority this session: continue/complete Phase A2 tasks per
+rigor pass §11.5.
+
+Phase A2 task list (2-3 weeks focused work total):
+  Task 5: Four-gate formal specification (Technical Appendix v0.0.4)
+    AIT + dimensional consistency + boundedness + independence as
+    formal tests with worked examples per gate. 1 week. Foundational.
+  Task 6: Formula generalization mathematical derivation (Technical
+    Appendix v0.0.4). Sum-of-costs RCV form + convergence + dimensional
+    discipline. 3-5 days. Depends on Task 5.
+  Task 7: Reproducibility scope section (Ch 6 body). Matter-of-fact
+    tone. 1-2 days. Can parallel Tasks 5+6.
+  Task 8: Contribution-from-Pigou articulation (Ch 6 + Intro
+    Originality section). Confident tone. 3-5 days. Can parallel.
+  Task 9: Ch 6 body summary of four gates. 1 day. Depends on Task 5.
+  Task 10: Technical Appendix v0.0.4 consolidated publication.
+    1-2 days. Depends on Tasks 5+6.
+
+Phase B (after Phase A2): 3-4 weeks chapter draft reframing —
+Tasks 11-15 per rigor pass §11.5.
+
+Phase C parallel opportunistic: indigenous sensitivity-reader
+engagement + Chesapeake fieldwork + Ch 1 + Ch 3 authorial drafting
++ personal-stories drafting (per project memory).
+
+Total Path F implementation: 6-9 weeks focused work (consistent with
+PCR §10 estimate).
+
+Additional thoughts for this session (Chris, fill in here before sending):
+[                                                                                           ]
+[                                                                                           ]
+</pre>
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY — Phase A2 methodology formalization begins</h2>
+
+<p>Phase A1 landed the framework-level reframing at the reference-document level. Phase A2 now formalizes the methodology that the four Path F conditions require. This is the mathematical + philosophical substance the book's contribution rests on; without Phase A2 landing cleanly, Phase B chapter rewrites would implement an undefended framework.</p>
+
+<p><strong>Phase A2 — six tasks, ~2-3 weeks focused work:</strong></p>
+
+<ol start="5">
+  <li><strong>Four-gate formal specification</strong> (rigor pass §11.5 Task 5; 1 week; foundational). AIT + dimensional consistency + boundedness + independence as formal tests in Technical Appendix v0.0.4. Formal statement per gate + 3+ worked examples passing + 3+ worked examples failing per gate. Chris's Condition 1 ratification: formal spec lives in Technical Appendix (body-text summary in Ch 6 per Task 9).</li>
+  <li><strong>Formula generalization</strong> (Task 6; 3-5 days; depends on Task 5). Mathematical derivation of generalized sum-of-costs RCV form: <code>RCV = ∫ (Σᵢ Cᵢ) · D dt</code>. Linearity of integration + convergence proof + dimensional discipline + CS = RCV − B relation preservation. Worked example: adding community-transition cost to McDowell coal RCV. Chris's Condition 2 ratification: middle register (formal statements + worked derivations + convergence-condition tables).</li>
+  <li><strong>Reproducibility scope section</strong> (Task 7; 1-2 days; can parallel Tasks 5+6). Ch 6 body section, ~500-800 words, acknowledging that different analysts produce defensibly-different RCV estimates; framework contributes structured methodology + transparency, not unique numbers. Compared to field practice (social-cost-of-carbon range $3-$190). Future-research flag (inter-rater reliability). Chris's Condition 3 ratification: matter-of-fact tone (not apologetic).</li>
+  <li><strong>Contribution-from-Pigou articulation</strong> (Task 8; 3-5 days; can parallel). Ch 6 originality-of-contribution section + Introduction §Originality. ~1,000 words. Three specific distinctions (substitutability-weighting + integrated architecture + AIT method). Worked comparative examples for McDowell coal + Deepwater Horizon + one additional case. Chris's Condition 4 ratification: confident tone (not defensive).</li>
+  <li><strong>Ch 6 body summary of four gates</strong> (Task 9; 1 day; depends on Task 5). Body-text paragraph (~150-250 words) naming the four gates with one-sentence explanation per gate. References Technical Appendix for formal spec. Register 2 with Register 1 entry point.</li>
+  <li><strong>Technical Appendix v0.0.4 consolidated publication</strong> (Task 10; 1-2 days; depends on Tasks 5+6). All formal sections compiled into v0.0.4 HTML. Bumps from v0.0.3. MathJax preserved.</li>
+</ol>
+
+<p><strong>Sequencing recommendation:</strong> Task 5 first (foundational; everything downstream depends on it). Tasks 7 + 8 can run parallel to Tasks 5+6 if work capacity permits. Task 6 depends on Task 5 landing. Tasks 9 + 10 are integration work that lands after Tasks 5+6+7+8.</p>
+
+<p><strong>Starting in continuation of this session:</strong> Task 5 (four-gate formal specification). Substantial; will use checkpoint-commit pattern per rigor pass §11.7 precedent.</p>
+</div>
+
+<h2>Session v1.38.0 → v1.39.0: accomplishments</h2>
+
+<p class="meta">5 commits pushed to main. All four Phase A1 tasks complete. Smaller-focused-commits discipline maintained — each task landed as its own commit before the next began.</p>
+
+<div class="milestone">
+<h3>Phase A1 Task 1 — Chapter audit v1.0.5 → v1.0.6 (commit 963c4f6)</h3>
+<ul>
+  <li>Header bumped to v1.0.6 with Path F supersedes note.</li>
+  <li>§0.1a NEW v1.0.6 change log explaining Path F reframing.</li>
+  <li>§1 cross-chapter table: NEW Path F reframing burden column per chapter. Ch 6 + Ch 8 flagged as largest burdens.</li>
+  <li>§2.6 Ch 6 Path F reframing notes substantially expanded (three-approach convergence preserved + strengthens under Path F; RCV formula generalization; four-gate summary; reproducibility scope; contribution-from-Pigou).</li>
+  <li>§2.8 Ch 8 Path F reframing notes expanded (8 cost categories retained; function reframes from canonical-8-tiers to variables-AIT-identified-for-this-specific-case; $558/ton floor preserved; framing language throughout shifts).</li>
+  <li>Other §2 entries preserved from v1.0.5; light-touch reframing happens at Phase B Task 15.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Phase A1 Task 2 — Case-study audit v1.0.5 → v1.0.6 (commit 665b0b5)</h3>
+<ul>
+  <li>Header bumped to v1.0.6. Protocol applied updated to v2.2.0.</li>
+  <li>§0.1a NEW v1.0.6 change log: 18 cases preserved; dimension activation columns retained with reframed function (variables identified in this case via AIT); per-case verdicts stand; convergence across 18 cases becomes empirical-reliability evidence.</li>
+  <li>§1 Path F context note added: "dimension activation" labels are useful shorthand not canonical commitment; cases spanning same category may activate different specific variables within the category.</li>
+  <li>Per-case §2 profiles preserved in v1.0.5 form.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Phase A1 Task 3 — Dimensions canonical doc v1.2.0 → v1.3.0 (commit ebf9121)</h3>
+<ul>
+  <li>Header bumped to v1.3.0 with Path F reframing title addition ("variables AIT has discovered across our cases").</li>
+  <li>§0.1 NEW v1.3.0 change log explaining reframing: 10 abundances stay named (cascade-durability for Goal-1); what they ARE changes (variable categories AIT converges on, not definitional ontological commitments); rich profiles preserved unchanged; per-case dimension activation continues to be analytically useful; convergence across 18 cases becomes empirical reliability evidence for Ch 6 Condition 3.</li>
+  <li>References updated to v2.2.0 rigor protocol + PCR v1.1.0 + extreme-rigor pass; historical v1.2.0 references preserved for lineage.</li>
+  <li>Decision point preserved for Phase A2+: "what do we call this" terminology question. Recommendation: keep "abundance" as label (travels in cascade) but frame as "the ten abundance categories our research has surfaced." Deferred.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Phase A1 Task 4 + README — 8-tier Path F preamble + Phase A1 complete (commit f227d08)</h3>
+<ul>
+  <li>Path F reframing preamble added at top of eight-tier-v10.html (prominent yellow-bordered callout per style convention).</li>
+  <li>Original v10 content preserved intact — tier names, abundance mappings, rigor validation all stand.</li>
+  <li>Preamble specifies: eight tiers framed as one way to organize per-case accounting when AIT is applied to industrial-extraction contexts; other organizations possible for other contexts (asteroid-mining, Mars colony, etc.); tier-to-abundance mappings preserved as analytical shorthand not ontological commitment; AIT as load-bearing methodological test.</li>
+  <li>Phase A2 methodology work (Tasks 5-10) flagged for future four-gate formal specification.</li>
+  <li>README.md updated: dimensions v1.3.0 row; 8-tier Path F preamble note; chapter audit v1.0.6 row; case-study audit v1.0.6 row; framework-scope decision row added with Path F + rigor-pass references; current handoff v1.33.0 → v1.38.0 (now v1.39.0 after this commit).</li>
+</ul>
+</div>
+
+<h2>Commits since v1.38.0 (5 total)</h2>
+
+<table>
+<tr><th>Hash</th><th>Type</th><th>Summary</th></tr>
+<tr><td><code>963c4f6</code></td><td>Phase A1</td><td>Task 1: chapter audit v1.0.5 → v1.0.6 (Path F reframing)</td></tr>
+<tr><td><code>665b0b5</code></td><td>Phase A1</td><td>Task 2: case-study audit v1.0.5 → v1.0.6 (Path F reframing)</td></tr>
+<tr><td><code>ebf9121</code></td><td>Phase A1</td><td>Task 3: dimensions canonical doc v1.2.0 → v1.3.0 (Path F reframing)</td></tr>
+<tr><td><code>f227d08</code></td><td>Phase A1</td><td>Task 4 + README: 8-tier Path F preamble + Phase A1 complete</td></tr>
+<tr><td>(this)</td><td>handoff</td><td>v1.39.0 session handoff</td></tr>
+</table>
+
+<h2>Chapter length tracking</h2>
+
+<p class="meta"><strong>Standing section in all session handoffs.</strong> Refreshed at handoff creation; updated in next handoff when a chapter draft changes.</p>
+
+<p><strong>No chapter drafts modified this session.</strong> All session work was in <code>core/chapters/</code>, <code>core/case-studies/</code>, <code>core/dimensions/</code>, <code>core/decomposition/</code> (reference-document framing work) + <code>alignment/sessions/</code> (handoff) + <code>README.md</code>. Word counts unchanged from v1.38.0.</p>
+
+<table>
+<tr><th>Ch</th><th>Title</th><th>Current words</th><th>Current pages</th><th>Target words</th><th>Target pages</th><th>Status</th></tr>
+<tr><td>1</td><td>The Plane</td><td>—</td><td>—</td><td>5,000–6,000</td><td>18–22</td><td>not drafted</td></tr>
+<tr><td>2</td><td>The Miner</td><td>5,232</td><td>~19</td><td>5,000–6,000</td><td>18–22</td><td class="done">in range</td></tr>
+<tr><td>3</td><td>The Waterman</td><td>—</td><td>—</td><td>5,000–6,000</td><td>18–22</td><td>not drafted</td></tr>
+<tr><td>4</td><td>The Existence Proof</td><td>2,998</td><td>~11</td><td>~4,000–5,000</td><td>15–18</td><td class="hold">low — room for Nordic steelman + governance detail</td></tr>
+<tr><td>5</td><td>The Accountability Gap</td><td>3,850</td><td>~14</td><td>3,500–4,000 (original); consider 4,500–5,000 post-v1.0.3 (6 cases)</td><td>13–15 original; 16–18 revised</td><td class="hold">in original range; under-target for 6-case structure</td></tr>
+<tr><td>6</td><td>Three Ways of Counting</td><td>~5,158*</td><td>~19*</td><td>~5,000–6,000</td><td>18–22</td><td class="done">*HTML format inflates count; likely ~4,500 actual prose. Path F Phase B largest draft rewrite here (Task 11, 1-2 weeks).</td></tr>
+<tr><td>7</td><td>The Colony Administrator</td><td>5,774</td><td>~21</td><td>~5,000–6,000</td><td>18–22</td><td class="done">Path F Phase B adds ~1,000-1,500 words (asteroid-miner multi-perspective example; Task 13).</td></tr>
+<tr><td>8</td><td>What Things Actually Cost</td><td>4,959</td><td>~18</td><td>"short" per scope doc §426</td><td>—</td><td class="done">Path F Phase B reframes tier-by-tier worked example (Task 12, 1 week).</td></tr>
+<tr><td>9</td><td>The Renewable Imperative</td><td>7,251</td><td>~26</td><td>5,000–6,000</td><td>18–22</td><td class="pending">over target — length management flagged.</td></tr>
+<tr><td>10</td><td>Common Bonds</td><td>7,507</td><td>~27</td><td>5,000–7,000</td><td>18–25</td><td class="hold">upper end / slightly over; Path F Phase B minor reframing.</td></tr>
+</table>
+
+<h2>Current canonical state delta from v1.38.0</h2>
+
+<table>
+<tr><th>Component</th><th>v1.38.0 state</th><th>v1.39.0 state (post-Phase A1)</th></tr>
+<tr><td>Chapter audit</td><td>v1.0.5</td><td><strong>v1.0.6 — Path F reframing applied</strong></td></tr>
+<tr><td>Case-study audit</td><td>v1.0.5</td><td><strong>v1.0.6 — Path F reframing applied</strong></td></tr>
+<tr><td>Dimensions canonical doc</td><td>v1.2.0</td><td><strong>v1.3.0 — Path F reframing applied</strong></td></tr>
+<tr><td>8-tier decomposition</td><td>v10; tier-structure-decision deferred</td><td>v10 + <strong>Path F preamble added 2026-04-24</strong></td></tr>
+<tr><td>Rigor protocol</td><td>v2.2.0</td><td>v2.2.0 (unchanged)</td></tr>
+<tr><td>PCR</td><td>v1.1.0 (Path F confirmed)</td><td>v1.1.0 (unchanged)</td></tr>
+<tr><td>Extreme-rigor pass</td><td>v1.0.0 with §11 ratified resolutions</td><td>v1.0.0 (unchanged)</td></tr>
+<tr><td>Chapter drafts</td><td>8 drafted; word counts as tracked</td><td>8 drafted; word counts unchanged</td></tr>
+<tr><td>Technical Appendix</td><td>v0.0.3</td><td>v0.0.3 (Phase A2 Task 10 bumps to v0.0.4)</td></tr>
+<tr><td>Current handoff</td><td>v1.38.0</td><td>v1.39.0 (this file)</td></tr>
+</table>
+
+<h2>Open items + decisions pending for next session</h2>
+
+<div class="info">
+<ul>
+  <li><strong>PHASE A2 EXECUTION — begins in continuation of this session.</strong> 6 tasks; ~2-3 weeks focused work. Tasks 5-10 per rigor pass §11.5. Task 5 foundational; Tasks 7 + 8 can parallel; Tasks 9 + 10 are integration work.</li>
+  <li><strong>PHASE B chapter draft reframing</strong> (after A2 lands) — 5 tasks (Tasks 11-15); ~3-4 weeks of focused work. Ch 6 methodology rewrite + Ch 8 worked-example reframing + Ch 7 asteroid-miner multi-perspective + Ch 1 / Ch 10 minor reframing + throughout-book vocab check.</li>
+  <li><strong>PHASE C parallel opportunistic</strong> — indigenous sensitivity-reader engagement + Chesapeake fieldwork + Ch 1 + Ch 3 authorial drafting + personal-stories drafting (per project memory).</li>
+  <li><strong>PHASE D submission readiness</strong> (after A + B land) — full-suite PSR run + comp titles + jacket copy + pitch + cascade essay submissions + literary agent outreach.</li>
+  <li><strong>Deferred decision: "what do we call this"</strong> — abundance vs. variable vs. dimension naming. Current recommendation: keep "abundance" as label (cascade-durability) but frame as "abundance categories our research has surfaced." Revisits during or after Phase A2 methodology-work landing.</li>
+  <li><strong>Deferred decision: Path K integration depth</strong> — personal-stories drafting results. Revisits after stories exist as drafts.</li>
+  <li><strong>Berggruen Prize deadline 2026-08-17</strong> — AI-free essay required. Independent track from Book 1 work.</li>
+  <li><strong>Noema response pending.</strong></li>
+  <li><strong>IPG reconciliation</strong> — can fold into Phase B Ch 6 reframing work (Task 11).</li>
+  <li><strong>AUTHORSNOTE + Dedication guidance docs</strong> — pending per chapter audit §4.2. Minor Path F interaction noted.</li>
+</ul>
+</div>
+
+<h2>Operating observations from this session</h2>
+
+<div class="operating">
+<ul>
+  <li><strong>Phase A1's checkpoint-commit pattern worked cleanly.</strong> Each of the four tasks landed in its own commit before the next began. If session had ended mid-Phase-A1, completed tasks would have been preserved. Pattern worth preserving for Phase A2 (especially Task 5's longer estimated scope).</li>
+  <li><strong>Path F reframing at reference-document level is less invasive than expected.</strong> All four Phase A1 tasks preserved existing content intact + added Path F reframing as preamble/change-log/context-note. No content was retired or rewritten during Phase A1; only framing was added. The audits + canonical docs can now be read either in their v1.0.5/v1.2.0 content-mode or v1.0.6/v1.3.0 Path-F-framed-mode, and both modes work. This suggests Phase B chapter-draft reframing will be similarly additive — adding framing paragraphs + vocabulary adjustments without requiring wholesale rewrites of existing draft prose.</li>
+  <li><strong>The naming-cohort work Chris invested in earlier stands up.</strong> Path F reframing could have destabilized the 10-dimension naming (if dimensions-as-ontology was discarded, names could be discarded too). Instead, Path F's "variables AIT has converged on" framing preserves the naming-cohort cascade-durability work — names travel because they do cascade-work, regardless of whether they're ontological or empirical-convergent categories. The naming work isn't wasted; it's redeployed.</li>
+  <li><strong>Chris's rigor-pass decisions paid off in Phase A1 execution.</strong> The four-condition ratifications at rigor pass §11 made Phase A1 decisions mechanical — no need to relitigate "how should this be framed" at each document; the ratified specs provided the framing directly. Phase A2 will depend even more heavily on the ratified decisions (Conditions 1-4 become tasks 5, 6, 7, 8 almost directly).</li>
+  <li><strong>Phase A1's per-commit scope discipline:</strong> ~40-80 lines of changes per task commit. Task 1 was largest (~82 insertions); Task 4 was smallest (~25 insertions). The per-task scope stayed manageable; the four tasks together landed framework reframing at canonical-doc depth in under 250 total lines of changes. Phase A2 tasks are likely larger (Task 5 especially, at 1 week estimate).</li>
+</ul>
+</div>
+
+<p class="meta">End of handoff. Archive <code>commons-bonds-session-handoff-2026-04-24_v1.38.0.html</code> to <code>alignment/sessions/archive/</code> — already done as part of this session's v1.39.0 creation.</p>
+
+</body>
+</html>
