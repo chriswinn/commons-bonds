@@ -221,7 +221,14 @@ While the FUNCTION E(R, t) is framework-internal (Ring 2), the PHRASE "externali
 
 ## §8. Author-ratified resolutions
 
-*Pending author ratification. Recommended Option A (confirm Ring 2).*
+**Ratified 2026-04-24 by Chris Winn — Option A (CONFIRM Ring 2).** Externality Tail E(R, t) confirmed as C₂-sibling to C₁ in RCV integrand. 46 active refs; distinct from Pigouvian externalities via temporal-independence framing ("runs on its own clock") + substitutability-independence + time-indexed function form + "runs on its own clock" rhetorical anchor. Phrase "externality tail" has Ring-1-travel potential flagged for monitoring (function E(R, t) stays Ring 2).
+
+**M12 citations activated (flipped from queued to ratified):**
+- Pigou, Arthur Cecil. *The Economics of Welfare* (1920, 4th ed. 1932) — foundational externality literature; framework extends Pigouvian core with temporal-persistence + substitutability-independence.
+- Nordhaus, William D. & Boyer, Joseph. *Warming the World* (MIT Press 2000) + NBER 2017 — DICE model as methodological parallel for post-extraction persistent externality.
+- Stern, Nicholas. *The Economics of Climate Change: The Stern Review* (Cambridge 2007) — intergenerational-equity framing aligns with framework's intergenerational-cost-severance.
+
+Bibliography entries upgraded to ratified status. Tech Appendix §L footnote + methodological lineage section.
 
 ---
 

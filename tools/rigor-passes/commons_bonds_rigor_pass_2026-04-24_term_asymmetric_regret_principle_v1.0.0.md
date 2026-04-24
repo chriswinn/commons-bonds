@@ -272,9 +272,18 @@ If author ratifies rename, this pass's rigor analysis applies to whichever name 
 
 ## §8. Author-ratified resolutions
 
-*Pending author ratification:*
-1. **Primary verdict:** Option A (PROMOTE to Ring 2) — ratify Y/N.
-2. **Rename sub-decision:** retain "Asymmetric Regret Principle" OR rename to one of the candidates OR hold for future pass.
+**Primary verdict ratified 2026-04-24 by Chris Winn — Option A (PROMOTE to Ring 2).** ARP promoted from meta-pass §13.2.c DEFERRED status to Ring-2 internal-load-bearing named rule. 20+ active refs across Ch 7 / Ch 9 / Ch 10 + Ch 7 GuidanceDoc. Distinct from Precautionary Principle via bidirectional-flip-by-context (Principle #5). Distinct from Savage 1951 minimax-regret + Loomes-Sugden 1982 regret theory as framework-specific specialization applied to RCV-tail quantification uncertainty.
+
+**Rename sub-decision — open (pending author decision).** Candidates still on the table: *Asymmetric Regret Principle (current)* · *Asymmetric Regret Rule* · *Asymmetric Rule* · *Asymmetry Rule* · *Reversibility Default* · *Irreversibility Bias* · *Regret Asymmetry Rule* · *Option-Preservation Rule*. Rename does not affect the ratified rigor verdict (underlying rule earns Ring-2 status regardless of name). Sub-decision remains as Open Insight tracking for author call.
+
+**M12 citations activated (flipped from queued to ratified):**
+- Savage, Leonard J. "The Theory of Statistical Decision" (JASA 1951) — minimax regret foundation.
+- Loomes, Graham & Sugden, Robert. "Regret Theory" (Economic Journal 1982) — asymmetric-regret formalization.
+- Lempert, Popper, Bankes. *Shaping the Next One Hundred Years* (RAND 2003) — Robust Decision Making academic-positioning.
+
+Bibliography entries upgraded to ratified status. Tech Appendix footnote to position ARP as framework-specialization of established decision-theoretic lineage.
+
+**CSG-ARP cross-pairing update:** CSG retirement ratified earlier 2026-04-24; ARP's v2 reference "high-CSG resources" rewrites to "resources with large industrial-existential substitutability gaps" in Phase A3 Stream A sweep. Applies regardless of rename sub-decision outcome.
 
 ---
 

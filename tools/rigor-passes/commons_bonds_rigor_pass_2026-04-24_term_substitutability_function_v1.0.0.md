@@ -240,7 +240,13 @@ S_max appears in CSG context (retired per commit `3ec3707` — S_max industrial 
 
 ## §8. Author-ratified resolutions
 
-*Pending author ratification. Recommended Option A (confirm Ring 2).*
+**Ratified 2026-04-24 by Chris Winn — Option A (CONFIRM Ring 2).** Substitutability Function (S) confirmed as framework's most novel single mathematical component at Ring 2 (internal load-bearing). 98 active refs; structurally distinct from all other primitives; CORE-math load-bearing for C₁ foreclosure-cost formula; not a public-adoption target (function name, not travel-ready quantity).
+
+**M12 citations activated (flipped from queued to ratified per Principle #6 Corollary C):**
+- Hicks, John R. *The Theory of Wages* (1932) — foundational substitutability / elasticity-of-substitution lineage.
+- Dixit, Avinash K. & Pindyck, Robert S. *Investment under Uncertainty* (Princeton 1994) — real-options theory / irreversibility-under-uncertainty closest established concept.
+
+Both to be cited in Tech Appendix §L methodological footnote positioning S as framework-specific extension (time-indexed probability with baseline-conditional + extraction-timing feedback). Bibliography entries upgraded to ratified status.
 
 ---
 

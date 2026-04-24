@@ -522,7 +522,7 @@ Added 2026-04-24. Decision-theoretic literature the framework engages — for th
 - **Relationship:** **SUPPORT (academic-lineage citation).**
 - **Chapter relevance:** Tech Appendix (ARP methodological footnote); Ch 7 GuidanceDoc (where ARP's Comet/Europa bidirectional-flip cases appear).
 - **Rigor provenance:** ARP rigor pass 2026-04-24 (recommended Savage citation); literature audit 2026-04-24.
-- **Status:** queued pending ARP rigor-pass ratification (Option A promote Ring 2).
+- **Status:** ratified 2026-04-24 (ARP Option A ratified by Chris Winn).
 
 ### Loomes, Graham, and Robert Sugden. "Regret Theory: An Alternative Theory of Rational Choice Under Uncertainty." *The Economic Journal* 92, no. 368 (1982): 805–824. https://doi.org/10.2307/2232669
 
@@ -531,7 +531,7 @@ Added 2026-04-24. Decision-theoretic literature the framework engages — for th
 - **Relationship:** **SUPPORT (academic lineage).**
 - **Chapter relevance:** Tech Appendix (ARP methodological footnote).
 - **Rigor provenance:** ARP rigor pass 2026-04-24; literature audit 2026-04-24.
-- **Status:** queued pending ARP rigor-pass ratification.
+- **Status:** ratified 2026-04-24 (ARP Option A ratified by Chris Winn).
 
 ### Lempert, Robert J., Steven W. Popper, and Steven C. Bankes. *Shaping the Next One Hundred Years: New Methods for Quantitative, Long-Term Policy Analysis.* Santa Monica, CA: RAND Corporation, 2003. https://www.rand.org/pubs/monograph_reports/MR1626.html
 
@@ -540,7 +540,7 @@ Added 2026-04-24. Decision-theoretic literature the framework engages — for th
 - **Relationship:** **SUPPORT.**
 - **Chapter relevance:** Tech Appendix (ARP academic-positioning triad).
 - **Rigor provenance:** ARP rigor pass 2026-04-24; literature audit 2026-04-24.
-- **Status:** queued pending ARP ratification.
+- **Status:** ratified 2026-04-24 (ARP Option A ratified by Chris Winn).
 
 ### Dixit, Avinash K., and Robert S. Pindyck. *Investment under Uncertainty.* Princeton, NJ: Princeton University Press, 1994.
 
@@ -549,7 +549,7 @@ Added 2026-04-24. Decision-theoretic literature the framework engages — for th
 - **Relationship:** **SUPPORT (academic lineage).**
 - **Chapter relevance:** Tech Appendix §L + §M (S's formal introduction); Ch 6 §Substitutability Function.
 - **Rigor provenance:** Substitutability Function rigor pass 2026-04-24; literature audit 2026-04-24.
-- **Status:** queued pending S rigor-pass ratification (Option A confirm Ring 2).
+- **Status:** ratified 2026-04-24 (S Option A ratified by Chris Winn).
 
 ### Hicks, John R. *The Theory of Wages.* London: Macmillan, 1932. Second edition, 1963.
 
@@ -558,7 +558,7 @@ Added 2026-04-24. Decision-theoretic literature the framework engages — for th
 - **Relationship:** **SUPPORT (foundational-lineage citation).**
 - **Chapter relevance:** Tech Appendix §L methodological footnote (substitutability lineage).
 - **Rigor provenance:** Substitutability Function rigor pass 2026-04-24; literature audit 2026-04-24.
-- **Status:** queued pending S rigor-pass ratification.
+- **Status:** ratified 2026-04-24 (S Option A ratified by Chris Winn).
 
 ---
 
@@ -573,7 +573,7 @@ Added 2026-04-24. Externality literature the framework engages for the Externali
 - **Relationship:** **SUPPORT (foundational lineage).** Pigou's framework is the scholarly parent; framework's E is a temporally-structured specialization.
 - **Chapter relevance:** Ch 6 methodology (externality-concept grounding); Tech Appendix §L (E's formal introduction); Ch 9 (policy-instrument lineage — Pigouvian tax as ancestor of Accountability Bond).
 - **Rigor provenance:** Externality Tail rigor pass 2026-04-24; literature audit 2026-04-24.
-- **Status:** queued pending E rigor-pass ratification.
+- **Status:** ratified 2026-04-24 (E Option A ratified by Chris Winn).
 
 ### Nordhaus, William D., and Joseph Boyer. *Warming the World: Economic Models of Global Warming.* Cambridge, MA: MIT Press, 2000. (Also: Nordhaus, W. D. "Evolution of Assessments of the Economics of Global Warming: Changes in the DICE Model, 1992–2017." NBER Working Paper 23319, April 2017.)
 
@@ -582,7 +582,7 @@ Added 2026-04-24. Externality literature the framework engages for the Externali
 - **Relationship:** **SUPPORT (methodological parallel).** Framework's E extends DICE's climate-damage treatment into a general post-extraction externality structure.
 - **Chapter relevance:** Ch 2 (carbon footnote); Ch 9 (renewable-imperative); Tech Appendix §L (E's climate-damage discussion).
 - **Rigor provenance:** Externality Tail rigor pass 2026-04-24; literature audit 2026-04-24.
-- **Status:** queued pending E rigor-pass ratification.
+- **Status:** ratified 2026-04-24 (E Option A ratified by Chris Winn).
 - **Note:** Nordhaus received the 2018 Nobel Memorial Prize in Economic Sciences for integrating climate change into long-run macroeconomic analysis.
 
 ### Stern, Nicholas. *The Economics of Climate Change: The Stern Review.* Cambridge: Cambridge University Press, 2007. (Originally released as independent review to UK Government, October 2006.)
@@ -592,7 +592,7 @@ Added 2026-04-24. Externality literature the framework engages for the Externali
 - **Relationship:** **STRONG SUPPORT (methodologically aligned — low-discount-rate intergenerational-equity framing shared).**
 - **Chapter relevance:** Ch 2 (carbon footnote); Ch 9 (renewable-imperative); Tech Appendix (E + intergenerational-CS lineage).
 - **Rigor provenance:** Externality Tail rigor pass 2026-04-24; literature audit 2026-04-24.
-- **Status:** queued pending E rigor-pass ratification.
+- **Status:** ratified 2026-04-24 (E Option A ratified by Chris Winn).
 
 ---
 

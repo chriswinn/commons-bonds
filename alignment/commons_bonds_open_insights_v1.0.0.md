@@ -179,6 +179,28 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Dependencies / Links:** Web literature search results 2026-04-24. Terms Index update v1.1 (this commit). Phase A3 citation sweep pending.
 - **Todo link:** "Review Open Insight #10 remainders: (i) Cost Severance naming collision rigor pass; (ii) Phase A3 citation sweep plan."
 
+### Insight #12 — Asymmetric Regret Principle rename sub-decision
+
+- **Raised:** 2026-04-24 by me (surfaced during ARP rigor pass; flagged at ratification 2026-04-24 by Chris Winn)
+- **Status:** raised · awaiting author decision (rename is independent of rigor verdict; primary verdict Option A promote Ring 2 already ratified)
+- **Category:** vocabulary · craft
+- **Content:** "Principle" in "Asymmetric Regret Principle" may overclaim given ARP is an operational decision rule (not a foundational ethical principle). Chris engaged 2026-04-24 with candidates "Asymmetric Rule," "Asymmetric Regret Rule," "Asymmetry Rule." Rigor pass offered additional candidates. At ARP ratification 2026-04-24, rename sub-decision held open pending author deliberation.
+- **Why it matters:** Rename ripples through 20+ chapter refs (Ch 7 + Ch 9 + Ch 10 + Ch 7 GuidanceDoc + Tech Appendix). Chosen name affects how academic reviewers + general readers process the rule — "Principle" sets foundational expectations; "Rule" sets operational expectations; "Default" sets procedural expectations.
+- **Candidate set (ratified 2026-04-24 by Chris Winn's engagement + my analysis):**
+  - **Retain "Asymmetric Regret Principle"** — status quo; preserves existing draft prose; "Principle" may overclaim.
+  - **"Asymmetric Regret Rule"** — minimal change from current; "Rule" downgrades overclaim while preserving "regret" framing.
+  - **"Asymmetric Rule"** — short; strips "regret" framing (may lose specificity).
+  - **"Asymmetry Rule"** — short; abstract (may read too vague).
+  - **"Reversibility Default"** — operational framing; clearest instruction ("default to reversible"); loses "asymmetric" intellectual content.
+  - **"Irreversibility Bias"** — psychology-framed; may read as cognitive-bias rather than decision rule.
+  - **"Regret Asymmetry Rule"** — emphasizes asymmetric-regret as property; clear rule status.
+  - **"Option-Preservation Rule"** — elegant bidirectional framing (preserve options either way); bigger conceptual shift to option-theory language.
+- **Proposed resolution:** Author selects from candidate set (or proposes new candidate) at whatever pace suits authorial voice development. No urgency — primary verdict ratified + Principle #5 (context-flipping rules earn named-rule status) holds for whichever name is chosen.
+- **Dependencies / Links:** ARP rigor pass (commit `7f35783`); ARP ratification (this commit `TBD`); Principle #5 (commit `cae4936`); Terms Index ARP record.
+- **Todo link:** "Review Open Insight #12: ARP rename sub-decision — author's paced decision."
+
+---
+
 ### Insight #11 — "Cost Severance" semantic collision with HR/accounting "severance costs"
 
 - **Raised:** 2026-04-24 by me (surfaced during Insight #10 literature audit)

@@ -804,4 +804,146 @@ Mariana Mazzucato, *The Value of Everything: Making and Taking in the Global Eco
 
 ---
 
+### Substitutability Function (S)
+
+**Working definition:** Probability function S(t | t₀) — probability that a functionally adequate substitute for resource R exists at future time t, conditional on baseline technological state at t₀. Appears in foreclosure-cost term C₁ = [1 − S(t|t₀)] · U(R, t, Q(t)). Influenced by extraction-timing feedback: earlier extraction can reduce innovation pressure and lower S(t) for future t. Framework's most novel single mathematical component per meta-pass §10.2.
+
+**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn).
+
+**Term-spec version:** v1.0 (first sanctioned spec).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Meta-pass §10.2 (commit `46600bc`) — identified as framework's most novel single component; Ring-2 default classification.
+- Individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_substitutability_function_v1.0.0.md` (2026-04-24) — Option A (confirm Ring 2) verified via distinctness check vs Hicks / real options / intertemporal substitution + 98-ref concept audit + Principle-#3 primitive-distinctness check.
+
+**M12 classification:** Independent specialization (not adoption, not original coinage). Framework-specific features (time-indexed probability, baseline-conditional, endogenous to extraction timing) distinguish from Hicks 1932 elasticity of substitution + Dixit-Pindyck 1994 real options + intertemporal substitution macro theory.
+
+**M12 citations (ratified 2026-04-24):**
+- Hicks, John R. *The Theory of Wages* (1932) — foundational elasticity-of-substitution lineage.
+- Dixit, Avinash K. & Pindyck, Robert S. *Investment under Uncertainty* (Princeton 1994) — real-options theory closest established concept.
+Tech Appendix §L methodological footnote positions S as framework-specific extension.
+
+**Why Ring 2 (not Ring 1):** S is a mathematical function; policymakers adopt named quantities (RCV), not named functions. Readers encounter S to understand C₁; non-readers don't adopt. Internal load-bearing is the correct scope.
+
+**Depends on:** C₁ formula structure · definition of "functionally adequate substitute" · baseline t₀ convention.
+
+**Pairs with:** Externality Tail E (sibling canonical cost term) · Foreclosure Cost C₁ (S is a factor in C₁) · Extraction-timing feedback loop.
+
+**Staleness triggers:**
+- CORE math restructured to eliminate C₁ as separate term.
+- Academic field produces established terminology that should displace.
+- Ring-1 vs Ring-2 boundary redrawn such that S becomes a public-adoption target.
+
+**Commit trail:**
+- Individual rigor pass: commit `302dffb` (2026-04-24).
+- Ratification + Ring-2 record: this commit.
+
+**Notes:**
+- S_max derivations (including retired CSG formula) are compositional uses of S, not separate primitives. Primitive/derivation discipline established via CSG retirement pass.
+- 98 active refs across 25 files as of 2026-04-24.
+- Ch 6 §Substitutability Function is the term's pedagogical home.
+
+---
+
+### Externality Tail (E)
+
+**Working definition:** Time-indexed cost function E(R, t) — damage from extraction of resource R at time t that persists independently of substitute availability. Sibling to foreclosure cost C₁ in the RCV integrand; runs on its own clock (temporally independent of S); structurally specializes Pigouvian externality concept with post-extraction persistence + substitutability-independence. "A substitute for coal doesn't clean up the mine. A substitute for oil doesn't remove carbon from the atmosphere."
+
+**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn).
+
+**Term-spec version:** v1.0 (first sanctioned spec).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Meta-pass §10.2 — Ring-2 internal load-bearing classification.
+- Individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_externality_tail_v1.0.0.md` (2026-04-24) — Option A (confirm Ring 2) verified via distinctness check vs Pigouvian externalities + 46-ref concept audit + Principle-#3 check.
+
+**M12 classification:** Framework-specific specialization of Pigouvian externality concept. Distinct via (a) post-extraction persistence, (b) substitutability-independence, (c) time-indexed function form, (d) "runs on its own clock" rhetorical anchor.
+
+**M12 citations (ratified 2026-04-24):**
+- Pigou, Arthur Cecil. *The Economics of Welfare* (1920, 4th ed. 1932) — foundational externality literature.
+- Nordhaus, William D. & Boyer, Joseph. *Warming the World* (MIT Press 2000) — DICE model methodological parallel.
+- Stern, Nicholas. *The Economics of Climate Change: The Stern Review* (Cambridge 2007) — intergenerational-equity framing.
+Tech Appendix §L footnote positions E as temporal-specialization of Pigouvian externality.
+
+**Why Ring 2 (not Ring 1):** E(R, t) is a function name; policymakers adopt named quantities, not named functions. Expanding Ring 1 dilutes adoption-bet focus on Severed Cost flagship.
+
+**Phrase travel-potential flagged:** The PHRASE "externality tail" (not the function) may have Ring-1-travel potential if policy / legal discourse adopts. Monitoring note only; not a Ring-1 promotion recommendation.
+
+**Depends on:** RCV integrand structure · "extraction" concept · "persistence" concept.
+
+**Pairs with:** Substitutability Function (S) sibling · Foreclosure Cost (C₁) sibling · Four Gates (E passes through Gates like any admitted Cᵢ).
+
+**Staleness triggers:**
+- CORE math restructured to eliminate E as separate term.
+- Academic field produces established terminology that should displace.
+- Phrase "externality tail" adoption reaches threshold for Ring-1 promotion consideration.
+
+**Commit trail:**
+- Individual rigor pass: commit `bbe8069` (2026-04-24).
+- Ratification + Ring-2 record: this commit.
+
+**Notes:**
+- "Tail" metaphor does NOT imply diminishing — E can compound (climate cumulative damage). Ch 6 clarification recommended.
+- Ch 7 pedagogical role teaches foreclosure-vs-persistence distinction (C₁ vs E). Preserve.
+
+---
+
+### Asymmetric Regret Principle (ARP)
+
+**Working definition:** Framework-specific operational decision rule — when RCV tails cannot be precisely quantified, default to the reversible option. "We can always extract later. We can never un-extract." Specialization of Savage-style minimax-regret applied to resource-extraction decisions under quantification uncertainty. Bidirectional-flip-by-context — directs extract-aggressively (Comet flyby case: access window closes) OR preserve (Europa case: incommensurable externality) depending on which action is reversible.
+
+**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn — promoted from meta-pass §13.2.c DEFERRED status).
+
+**Term-spec version:** v1.0 (first sanctioned spec).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Meta-pass §13.2.c (commit `af2f18e`) — DEFERRED pending author re-read.
+- Individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_asymmetric_regret_principle_v1.0.0.md` (2026-04-24) — Option A (PROMOTE to Ring 2) ratified with rename-sub-decision flagged.
+- **Principle #5 origination:** ARP's bidirectional-flip behavior originated Working Principle #5 ("Context-flipping rules earn named-rule status") ratified 2026-04-24.
+
+**M12 classification:** Framework-specific operational specialization of established decision-theoretic family. Related to Precautionary Principle (different: ARP bidirectional, PP unidirectional); related to Savage 1951 minimax-regret + Loomes-Sugden 1982 regret theory (framework-specialization with irreversibility-weighted regret tails); related to Lempert Popper Bankes 2003 Robust Decision Making (philosophically aligned).
+
+**M12 citations (ratified 2026-04-24):**
+- Savage, Leonard J. "The Theory of Statistical Decision" (JASA 1951).
+- Loomes, Graham & Sugden, Robert. "Regret Theory: An Alternative Theory of Rational Choice Under Uncertainty" (Economic Journal 1982).
+- Lempert, Popper & Bankes. *Shaping the Next One Hundred Years* (RAND 2003).
+Tech Appendix footnote positions ARP as framework-specialization.
+
+**Why Ring 2 (not Ring 1):** Framework-internal operational rule, not public adoption target. Pedagogically useful across Ch 7 / Ch 9 / Ch 10 but not the flagship contribution.
+
+**Why NOT retired (despite overlap with Precautionary Principle):** Bidirectional flip-by-context is ARP-distinctive; PP is unidirectional. Trigger condition (cost-quantification uncertainty for RCV tails) is specific. 20+ active chapter refs.
+
+**Rename sub-decision (OPEN — pending author decision, does not affect rigor verdict):**
+Candidates: *Asymmetric Regret Principle (current)* · *Asymmetric Regret Rule* · *Asymmetric Rule* · *Asymmetry Rule* · *Reversibility Default* · *Irreversibility Bias* · *Regret Asymmetry Rule* · *Option-Preservation Rule*. Captured as Open Insight for author deliberation. Rename (if adopted) is Phase A3 Stream A sweep work.
+
+**CSG-ARP cross-pairing:** CSG retired 2026-04-24; ARP's v2 reference "high-CSG resources" rewrites to "resources with large industrial-existential substitutability gaps" in Phase A3 sweep. Applies regardless of rename outcome.
+
+**Depends on:** RCV (the function over whose tails uncertainty applies) · framework's cost-quantification methodology.
+
+**Pairs with:**
+- Substitutability Function (S) — ARP governs decisions about high-gap resources.
+- Universality Test concept (demoted) — ARP is the rule for boundary-condition regime.
+
+**Staleness triggers:**
+- Framework develops a formal minimax-regret treatment that subsumes ARP mechanically.
+- Academic community adopts "Reversibility Default" or analogous terminology that would displace current name.
+- Rename ratified — rerun under new name to verify rigor transfers cleanly.
+
+**Commit trail:**
+- Individual rigor pass: commit `7f35783` (2026-04-24).
+- Principle #5 ratified (originating context): commit `cae4936`.
+- Ratification + Ring-2 record: this commit.
+
+**Notes:**
+- "Principle" in current name may overclaim given ARP is operational decision rule, not foundational principle. Rename sub-decision captures this concern.
+- Academic-positioning: Tech Appendix footnote cites Savage 1951 + Rio Declaration 1992 (Precautionary Principle) + Lempert et al. 2003 RDM to position ARP as framework-specialization of established decision theory.
+
+---
+
 *End of Term Provenance Index v0.1.0. Skeleton established 2026-04-24. Populated progressively as Tier A rigor work produces records.*
