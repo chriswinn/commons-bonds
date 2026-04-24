@@ -453,11 +453,11 @@ Removing any word creates ambiguity or unmoors the term.
 
 ### Value Extraction
 
-**Working definition:** the act by which value is separated from its source (a community, ecosystem, or future generation) and taken by a value-capturer. The causal event that produces Cost Severance — extraction severs cost from the capturer (who benefits) and leaves it with the source (who bears). Chris's original coinage, serving as an accessible-language reframing of David Harvey's "accumulation by dispossession." First position in the framework's causal chain: *Value Extraction → Cost Severance → Severed Cost.*
+**Working definition:** the act by which value is separated from its source (a community, ecosystem, or future generation) and taken by a value-capturer. The causal event that produces Cost Severance — extraction severs cost from the capturer (who benefits) and leaves it with the source (who bears). First position in the framework's causal chain: *Value Extraction → Cost Severance → Severed Cost.*
 
 **Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn, promoted from Ring 2).
 
-**Term-spec version:** v1.0 (first sanctioned spec after triage vs Value Capture).
+**Term-spec version:** v1.1 (Mazzucato citation addendum added 2026-04-24 after literature audit; v1.0 was first sanctioned spec after triage vs Value Capture).
 
 **Last reviewed:** 2026-04-24
 
@@ -470,7 +470,19 @@ Removing any word creates ambiguity or unmoors the term.
 - *Value Extraction → Cost Severance → Severed Cost* reads as tight causal sequence because extraction IS the severance mechanism (the act of separating value from source is the same act that severs cost from the capturer).
 - *Value Capture → Cost Severance → Severed Cost* required reader inference (capture is acquisition, not separation). Rejected.
 
-**Harvey lineage:** Value Extraction is Chris's original-coinage accessible reframing of David Harvey's "accumulation by dispossession." The essay/book can cite Harvey in the setup (*"what I call value extraction — echoing David Harvey's accumulation by dispossession but more plainly named"*) preserving academic credibility + establishing originality as reframing-for-accessibility.
+**Literature positioning (added 2026-04-24 after prior-art audit):**
+
+Mariana Mazzucato, *The Value of Everything: Making and Taking in the Global Economy* (Penguin/PublicAffairs, 2018), is the dominant established usage of the term "value extraction" in political economy. Mazzucato defines value extraction as *"activities focused on moving around existing resources and outputs, and gaining disproportionately from the ensuing trade"* — focused on rent-seeking in financial capitalism (asset managers, pharma patents, hedge funds, financial-sector extraction).
+
+**Chris's relationship to Mazzucato's term:** Chris arrived at "value extraction" independently through his sociology-essay work as an accessible-language reframing of David Harvey's *"accumulation by dispossession"* (Harvey 2003). This was independent rediscovery of a parallel framing — not original coinage in the sense of priority in published discourse. Intellectual honesty requires acknowledging Mazzucato's prior published usage.
+
+**The framework's extension of Mazzucato:** Where Mazzucato diagnoses value extraction as rent-seeking in financial capitalism (moving existing value without creating new), this framework operationalizes and specializes the diagnosis for physical-resource extraction — adding (a) a pricing mechanism (RCV, Severed Cost, Accountability Bond), (b) a causal chain (Value Extraction → Cost Severance → Severed Cost), (c) the Cost Severance mechanism specific to the separation of value-capturers from cost-bearers in resource extraction, (d) the Accountability Bond instrument that would price the severed costs into the extractor's ledger. The framework can be positioned as *"extending Mazzucato's value-extraction critique from financial rent-seeking into the physical-resource domain, with a specific accountability instrument."*
+
+**Canonical citation form (recommended for Ch 1, Ch 6, Tech Appendix):**
+
+> *"This framework extends Mariana Mazzucato's diagnosis of value extraction (Mazzucato 2018) — developed there for rent-seeking in financial capitalism — into the physical-resource domain. Where Mazzucato identifies value-extraction as activities that move existing value without creating new, this framework specifies the mechanism by which physical-resource extraction systematically separates value-capturers from cost-bearers (Cost Severance) and proposes a pricing instrument (Accountability Bond) to internalize the resulting Severed Cost. The framing echoes David Harvey's accumulation by dispossession (Harvey 2003), rendered in accessible accounting-register language."*
+
+**Harvey lineage (preserved):** Value Extraction connects to David Harvey's *"accumulation by dispossession"* (Harvey 2003) as philosophical antecedent. Chris's usage reframes Harvey's critique in accessible accounting-register language suitable for policy / legal / non-academic audiences. Harvey's framing predates Mazzucato and is foundational for both usages.
 
 **Depends on:**
 - Cost Severance (Ring 1; the mechanism that Value Extraction causes)

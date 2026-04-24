@@ -1,6 +1,6 @@
 # Commons Bonds — Extreme-Rigor Pass: Value Extraction (Standalone)
 
-**Version:** 1.0.0
+**Version:** 1.1.0 (v1.0.0 ratified 2026-04-24; v1.1.0 addendum 2026-04-24 adds Mazzucato prior-art finding + canonical citation form — does not reverse v1.0.0 verdict)
 **Date:** 2026-04-24
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v2.2.0.md` — full 11-module suite at maximum depth + §22 Path Comparison Mode + §22.4 usefulness-vs-goals alignment + pass-specific tests (individual term merits + causal-chain-position test + v2-distinction question from earlier Principle-#2 failure surface).
 **Scope:** standalone rigor pass on "Value Extraction" as the framework's causal-event term — distinct from the earlier Value-Capture-vs-Extraction pair triage (which tested a pair-choice question). Addresses Chris's author-direction 2026-04-24: *"run Commons Bonds, Value Extraction and Cost Severance under full dedicated rigor passes, then if they all pass I would want to run them all together as a group."* Also folds in the v2-distinction re-examination question (whether v2's Value Capture = economic / Value Extraction = physical distinction earns its place).
@@ -268,3 +268,49 @@ Rerun if:
 ---
 
 *End of Value Extraction standalone rigor pass v1.0.0. Option A PASSES unconditionally. v2-distinction question (Option E) REJECTED. Ready for 3-term integrated synthesis with Commons Bonds + Cost Severance.*
+
+---
+
+## §v1.1.0 Addendum — Mazzucato prior-art finding + canonical citation form (added 2026-04-24 post-ratification)
+
+**Trigger:** Chris raised intellectual-honesty concern about unknowingly appropriating established economics terminology. Web literature audit conducted 2026-04-24 across all framework vocabulary (see Open Insight #10).
+
+**Finding:** Mariana Mazzucato, *The Value of Everything: Making and Taking in the Global Economy* (Penguin/PublicAffairs, 2018), is the dominant established usage of "value extraction" in political economy. Defined there as *"activities focused on moving around existing resources and outputs, and gaining disproportionately from the ensuing trade"* — applied to rent-seeking in financial capitalism (asset managers, pharma patents, hedge funds).
+
+**Chris's relationship to Mazzucato's term:** Chris arrived at "value extraction" independently through sociology-essay work as an accessible-language reframing of David Harvey's *"accumulation by dispossession"* (Harvey 2003). This was independent rediscovery of a parallel framing — NOT original coinage in the sense of priority in published discourse.
+
+**Impact on v1.0.0 verdict:** NONE. Option A (Value Extraction as Ring-1 causal-event term) still PASSES. The Mazzucato prior art does not change the rigor verdict on selection between Extraction and Capture; it adds a CITATION REQUIREMENT for intellectual-honesty.
+
+**Ratified decision 2026-04-24:** **cite Mazzucato + position framework as extension into physical-resource domain.** (Alternative considered: rename to reduce appropriation appearance. Rejected — Mazzucato's framing is a strength to build on, not a liability.)
+
+### Canonical citation form (recommended for Ch 1, Ch 6, Tech Appendix)
+
+> *"This framework extends Mariana Mazzucato's diagnosis of value extraction (Mazzucato 2018) — developed there for rent-seeking in financial capitalism — into the physical-resource domain. Where Mazzucato identifies value-extraction as activities that move existing value without creating new, this framework specifies the mechanism by which physical-resource extraction systematically separates value-capturers from cost-bearers (Cost Severance) and proposes a pricing instrument (Accountability Bond) to internalize the resulting Severed Cost. The framing echoes David Harvey's accumulation by dispossession (Harvey 2003), rendered in accessible accounting-register language."*
+
+### Extension positioning (what framework adds beyond Mazzucato)
+
+| Dimension | Mazzucato (2018) | Commons Bonds framework extension |
+|---|---|---|
+| Domain | Financial capitalism (rent-seeking) | Physical resource extraction |
+| Mechanism | Diagnosis: moving existing value without creating | Specification: Cost Severance (separation of value-capturer from cost-bearer) |
+| Measurement | No pricing instrument | RCV integrand + Severed Cost calculation |
+| Remedy | Policy reform + public-value restoration | Accountability Bond as internalization instrument |
+| Causal chain | Implicit (extraction → externality) | Explicit (Value Extraction → Cost Severance → Severed Cost) |
+
+### Phase A3 sweep targets
+
+1. **Ch 1** — when Value Extraction is first introduced, cite Mazzucato + Harvey with the canonical form above.
+2. **Ch 6** — when the framework's Value Extraction → Cost Severance → Severed Cost causal chain is formalized, repeat the Mazzucato extension positioning.
+3. **Tech Appendix** — add a dedicated footnote or §G subsection on literature lineage (Mazzucato, Harvey, plus related citations for Substitutability Function, AIT, Externality Tail, Accountability Bond).
+4. **Glossary v3** — Value Extraction entry includes Mazzucato citation in its definition.
+5. **Terms Index** — record already updated (v1.1) with full citation + positioning.
+
+### What's preserved from v1.0.0
+
+- Option A verdict (Ring-1 Value Extraction) — UNCHANGED.
+- v2-distinction rejection (Option E) — UNCHANGED.
+- Harvey lineage — UNCHANGED + strengthened (Harvey 2003 predates both Chris and Mazzucato; foundational).
+- Causal-chain bridge test verdict — UNCHANGED.
+- Register-alignment + Berggruen fit — UNCHANGED + slightly strengthened (Mazzucato's framing is already established in Berggruen-adjacent discourse).
+
+*End of v1.1.0 addendum. Ratified 2026-04-24 by Chris Winn.*

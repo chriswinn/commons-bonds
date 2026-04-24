@@ -155,6 +155,44 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Dependencies / Links:** Working Principle #2 landed 2026-04-24 (commit 72825a4).
 - **Todo link:** N/A (closed).
 
+### Insight #10 — Framework vocabulary literature audit (prior-art check against established economics/political-economy terminology)
+
+- **Raised:** 2026-04-24 by Chris Winn
+- **Status:** under-review (findings reported + 2 decisions ratified; remaining decisions + Phase A3 citation sweep pending)
+- **Category:** vocabulary · method · publishing (intellectual honesty)
+- **Content:** Chris raised concern that some framework terms may collide with or unknowingly appropriate established economics / political-economy terminology. Comprehensive web-literature audit conducted 2026-04-24 across all framework vocabulary. Key findings:
+  - **"Value Extraction"** — Mariana Mazzucato, *The Value of Everything* (2018), is the dominant established usage in political economy. Chris independently rediscovered the term through sociology-essay work. **Decision ratified 2026-04-24: cite Mazzucato + position framework as extension into physical-resource domain.**
+  - **"Cost Severance"** — **semantic collision** with established HR/accounting "severance costs" (employee termination, per IAS 37, US GAAP). Chris's usage is totally different but reader-confusion risk is real. **Decision pending** (options: keep + disambiguate / rename / lean into collision rhetorically).
+  - **"Accountability Bond"** — adjacent to established "Reclamation Bond" / "Financial Assurance" literature in mining/oil-gas regulation (OSMRE; GAO-17-207R). **Decision ratified 2026-04-24: cite reclamation-bond / financial-assurance literature in Tech Appendix + Ch 5.**
+  - **"Abundance Inversion Test" (AIT)** — low-risk collision with Christopher Alletto's 2024 SSRN paper "The Abundance Inversion" (different concept: AI + public-sector efficiency). **Recommended:** Tech Appendix footnote for due diligence.
+  - **"Asymmetric Regret"** — already identified in ARP rigor pass; Loomes-Sugden 1982 + Savage 1951 minimax regret; Tech Appendix footnote recommended.
+  - **"Substitutability Function S"** — concept of substitutability is from Hicks 1932 + CES literature + Dixit-Pindyck real options; specific S(t|t₀) probability-over-time-with-extraction-feedback form appears novel. Recommended: cite Hicks + Dixit-Pindyck.
+  - **"Commons Bonds"** — adjacent to Environmental Impact Bonds (EIB) literature; specific phrase appears novel. Recommended: cite EIB literature in Ch 5/Tech Appendix.
+  - Appears novel (no prior art found): Severed Cost, RCV, Externality Tail (as term), Four Gates, Abundance Masking, IPG.
+- **Why it matters:** Chris's intellectual-honesty commitment requires explicit acknowledgment of prior art. Framework adoption credibility depends on being seen as extending established work, not appropriating or ignoring it. Mazzucato + reclamation-bond citations are the most load-bearing; Cost Severance naming collision is the highest-stakes open decision.
+- **Proposed resolution:**
+  - **(Done 2026-04-24):** Terms Index Value Extraction record updated with Mazzucato citation + extension positioning + canonical citation form.
+  - **(Phase A3 sweep):** Ch 1 + Ch 6 + Tech Appendix add Mazzucato citation at Value Extraction first use.
+  - **(Phase A3 sweep):** Ch 5 + Tech Appendix add reclamation-bond / financial-assurance citations at Accountability Bond first use.
+  - **(Pending decision):** Cost Severance naming collision — needs dedicated rigor pass on whether to (a) keep + disambiguate, (b) rename, (c) lean into rhetorically.
+  - **(Recommended, low priority):** Tech Appendix footnotes for AIT (Alletto), Substitutability Function (Hicks/Dixit-Pindyck), Asymmetric Regret (Savage/Loomes-Sugden), Commons Bonds (EIB literature).
+- **Dependencies / Links:** Web literature search results 2026-04-24. Terms Index update v1.1 (this commit). Phase A3 citation sweep pending.
+- **Todo link:** "Review Open Insight #10 remainders: (i) Cost Severance naming collision rigor pass; (ii) Phase A3 citation sweep plan."
+
+### Insight #11 — "Cost Severance" semantic collision with HR/accounting "severance costs"
+
+- **Raised:** 2026-04-24 by me (surfaced during Insight #10 literature audit)
+- **Status:** raised · awaiting author decision
+- **Category:** vocabulary · craft · publishing
+- **Content:** "Severance costs" / "cost of severance" is an established HR/accounting term for employee termination payments (IAS 37, US GAAP, PwC, KPMG, Bloomberg). Every corporate accountant, HR professional, tax lawyer, and policy professional reads "cost severance" as "employment termination cost." Chris's Ring-1 flagship "Cost Severance" (the separation of cost-bearer from value-capturer) is totally different meaning but collides in reading. Collision risk is high because the target audiences (policy, legal, academic econ) include exactly the people who know the HR/accounting meaning.
+- **Why it matters:** Cost Severance is the framework's Ring-1 flagship — the term the book's adoption-durability bet rests on. Semantic collision at first-encounter degrades adoption: a reader processing "cost severance" as HR-severance-costs before picking up the framework's meaning has to back-parse on every occurrence. If the term can't reliably communicate on first read in target audiences, the flagship fails its job.
+- **Proposed resolution (options pending dedicated rigor pass):**
+  - **Option A — Keep + explicit disambiguation.** Ch 1 + glossary + every chapter's first use include a disambiguation note ("Cost Severance in this framework does NOT refer to employment severance costs; it names the separation of cost-bearer from value-capturer"). Rhetorical cost on every first use; preserves established Ring-1 architecture.
+  - **Option B — Rename.** Candidates: "Cost Severing" (verbal form — the act), "Value-Cost Severance" (adds disambiguation inline), "Cost-Value Severance" (same), "Cost Decoupling" (clearer; loses severance-as-rupture rhetoric), "Severance of Costs from Benefits" (most explicit; wordy). All have tradeoffs.
+  - **Option C — Keep + lean into collision rhetorically.** "Cost severance in my framework has a meaning I want to put next to employment severance: when a company sheds workers to cut costs, we call it severance. When a company sheds its RESPONSIBILITY for the costs its extraction creates, that's cost severance too — and ours does far more damage to far more people over far longer." This uses the collision as rhetorical bridge.
+- **Dependencies / Links:** Insight #10 (literature audit); existing Ring-1 ratification of Cost Severance (commit `0aafed7`); Severed Cost Ring-1 ratification (unaffected; distinct term with no collision).
+- **Todo link:** "Review Open Insight #11: Cost Severance naming collision — run dedicated rigor pass or ratify option directly."
+
 ---
 
 ## §3. Closed insights
