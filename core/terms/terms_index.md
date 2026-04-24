@@ -132,14 +132,110 @@ Each term carries its own `term-spec version` independent of document versions. 
 - Spatial Cost Severance — `RETIRED` (misnamed; abundance-cost not severance).
 - Temporal Cost Severance — `RETIRED` (replaced by lowercase prose phrase "intergenerational cost severance").
 - intergenerational cost severance (lowercase prose phrase) — `CURRENT` (adopted as standard book descriptor for the intergenerational subtype of Cost Severance).
-- Cost Bearing — `SUPERSEDED` (demoted from glossary to prose-only; role-description not framework-technical).
-- Value Capture / Value Extraction — pending batch ratification (Ring-1 synthesis).
+- Cost Bearing — `SUPERSEDED` (demoted from glossary to prose-only).
+- Value Extraction — `CURRENT` at Ring 1 (promoted from Ring 2; causal-event term; supersedes retired Value Capture).
+- Value Capture — `RETIRED` (duplicative with Value Extraction; retired per head-to-head triage).
+
+**Ring-1 synthesis batch partial ratification (2026-04-24):**
+- Value Extraction: ratified ✓ (Option B adopted)
+- Cost Severance + Severed Cost: pending (Option A from CS-vs-SC rigor pass)
+- AIT: pending (Option A from AIT rigor pass)
+- RCV: pending (Option A from RCV rigor pass)
+- Commons Bonds: pending (rigor pass not yet run — Open Insight #4)
 
 ---
 
 ## §4. Established records
 
 *(Records below are populated as rigor passes land. Each record's body summarizes the pass's verdict; full pass documents live at `tools/rigor-passes/`.)*
+
+---
+
+### Value Extraction
+
+**Working definition:** the act by which value is separated from its source (a community, ecosystem, or future generation) and taken by a value-capturer. The causal event that produces Cost Severance — extraction severs cost from the capturer (who benefits) and leaves it with the source (who bears). Chris's original coinage, serving as an accessible-language reframing of David Harvey's "accumulation by dispossession." First position in the framework's causal chain: *Value Extraction → Cost Severance → Severed Cost.*
+
+**Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn, promoted from Ring 2).
+
+**Term-spec version:** v1.0 (first sanctioned spec after triage vs Value Capture).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Full rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md` (2026-04-24) — Option B PASSES extreme rigor. Wins on decisive causal-chain bridge test + register alignment with book's extraction-economy critique + Harvey lineage + legal-register adoption + Berggruen fit + concept-level audit (extract-derivatives already dominate framework prose 42 refs).
+- Cross-pairing synthesis `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_synthesis_ring1_terms_v1.0.0.md` (2026-04-24) — Value Extraction verdict REINFORCED by synthesis: extraction's separation-from-source semantics pairs natively with Cost Severance's severance-from-capturer semantics. The chain flows.
+- Vocabulary-footprint meta-pass §13.2.c (2026-04-24) — initial Ring-2 classification; corrected audit + author ratification promoted to Ring 1.
+
+**Decisive test from rigor pass (causal-chain bridge):**
+- *Value Extraction → Cost Severance → Severed Cost* reads as tight causal sequence because extraction IS the severance mechanism (the act of separating value from source is the same act that severs cost from the capturer).
+- *Value Capture → Cost Severance → Severed Cost* required reader inference (capture is acquisition, not separation). Rejected.
+
+**Harvey lineage:** Value Extraction is Chris's original-coinage accessible reframing of David Harvey's "accumulation by dispossession." The essay/book can cite Harvey in the setup (*"what I call value extraction — echoing David Harvey's accumulation by dispossession but more plainly named"*) preserving academic credibility + establishing originality as reframing-for-accessibility.
+
+**Depends on:**
+- Cost Severance (Ring 1; the mechanism that Value Extraction causes)
+- Severed Cost (Ring 1; the result downstream of the chain)
+- Abundance framework (the abundances that Value Extraction operates against — producing scarcity-grounded costs that AIT admits)
+- Principle #3 (variant-mechanism-match discipline; Value Extraction passes)
+
+**Staleness triggers:**
+- Cost Severance concept redefined in a way that changes the causal-chain relationship.
+- Published peer review identifies legal-register ambiguity with regulatory-capture or extraction-industry usage.
+- Adoption evidence shows "value extraction" failing to travel in legal/policy/Berggruen contexts.
+
+**Commit trail:**
+- Full rigor pass: commit `daef46a` (2026-04-24).
+- Cross-pairing synthesis: commit `2b70377` (2026-04-24).
+- Ratification + Ring-1 promotion: this commit.
+
+**Supersedes:** Value Capture (retired as duplicative per author 2026-04-24 admission that the two were interchangeable). Previous interchangeable-usage convention retired.
+
+**Notes:**
+- **Style discipline:** capitalized "Value Extraction" when naming the framework term; lowercase "value extraction" in prose when describing the act in context.
+- First position in causal chain; Berggruen essay-critical per author direction 2026-04-24 ("that causal chain not landing means I lose the reader, reviewer, editor, et al at the very beginning").
+- Phase A3 sweep target: 16 Value Capture proper-noun refs across 9 files → Value Extraction.
+- Principle #4 (active-use traceability): chapter drafts using Value Extraction will gain provenance-pointer headers pointing to this Terms Index record during Phase A3 sweep.
+
+---
+
+### Value Capture
+
+**Working definition (prior):** causal-event term used interchangeably with Value Extraction to describe the act of an extractor capturing/obtaining value from a source.
+
+**Status:** `RETIRED` (ratified 2026-04-24 by Chris Winn as duplicative with Value Extraction).
+
+**Term-spec version:** v1.0 final (retirement).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Same as Value Extraction above — the pair was tested head-to-head in the Value-Capture-vs-Extraction rigor pass (2026-04-24, commit `daef46a`). Verdict: Option B (Value Extraction) passes on every decisive axis; Value Capture retires as duplicative.
+- Author's own admission (2026-04-24): the two terms were interchangeable in meaning; triage picks one.
+
+**Rationale for retirement (not demotion):**
+- Value Capture was a duplicate of Value Extraction in meaning, not a distinct concept. Triage selects; doesn't preserve both.
+- Rigor-pass decisive tests (causal-chain bridge, register alignment, Harvey lineage, concept-level audit, critic pressure) all preferred Value Extraction.
+- Retaining Value Capture would carry redundant vocabulary footprint competing with Value Extraction — works against the success-criterion single-term adoption bet.
+
+**Depends on (why the term was in the vocabulary):**
+- Author's original dual coinage (Value Capture / Value Extraction as interchangeable accessible reframings of accumulation-by-dispossession).
+- Glossary v2 carried both as glossary entries.
+- Pre-rigor-pass loose naming discipline admitted duplicative entries.
+
+**Staleness triggers (what would cause retirement revisit):**
+- Academic or legal discourse separately adopts "value capture" as a framework-technical term with meaning distinct from "value extraction."
+- Regulatory-capture collision-avoidance motivation emerges that argues for reinstating Value Capture as distinct term.
+- (Neither expected.)
+
+**Commit trail:**
+- Triage rigor pass: commit `daef46a` (2026-04-24).
+- Ratification + RETIRE: this commit.
+
+**Supersedes / superseded by:** superseded by Value Extraction as the sole causal-event term.
+
+**Notes:**
+- Different retirement basis from Spatial Cost Severance (Principle-#3 misnaming) and Temporal Cost Severance (adjective-precision + framework-usage-evidence). Value Capture retires as DUPLICATE of a co-existing-and-preferred term.
+- Phase A3 sweep targets: 16 proper-noun Value Capture references across 9 files rewritten to Value Extraction; glossary v2 Value Capture entry removed in v3.
 
 ---
 

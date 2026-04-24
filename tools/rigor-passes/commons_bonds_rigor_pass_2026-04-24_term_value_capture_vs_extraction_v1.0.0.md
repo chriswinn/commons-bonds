@@ -599,19 +599,23 @@ Chris's Ch 1 guidance (added earlier 2026-04-24) permits an optional one-sentenc
 - (E) Value Severance (structural failure; not recommended).
 - (G) Accumulation by Dispossession only (accessibility failure; not recommended).
 
-**Ratified decision:** *(pending)*
+**Ratified decision (2026-04-24, Chris Winn):** **Option B — Value Extraction as the sole causal-event term.**
 
 ### §20.2 Ring-1 promotion
 
-**Ratified decision:** *(pending)* — ratifying Option B implies Value Extraction → Ring 1.
+**Ratified decision:** APPROVED. Value Extraction promoted from Ring 2 to Ring 1. Ring 1 now includes: Cost Severance · Severed Cost · Value Extraction · AIT · RCV · Cost (Cᵢ) · Commons Bonds (pending rigor pass) = 7 Ring-1 terms.
 
 ### §20.3 Value Capture retirement
 
-**Ratified decision:** *(pending)* — ratifying Option B implies Value Capture is retired as duplicative.
+**Ratified decision:** APPROVED. Value Capture RETIRED as duplicative with Value Extraction per author's own admission that the two were interchangeable. Triage retained Extraction on decisive-test grounds (§4 causal-chain bridge + §7 concept-level audit + §10 Harvey lineage + §13 critic pressure + §16 §22.4 alignment).
 
 ### §20.4 Conditions 1–4 (sweep + integrations)
 
-**Ratified decision:** *(pending)* — individually ratifiable; all are Phase A3 items.
+**Ratified decision:** APPROVED. All four conditions proceed during Phase A3 sweep:
+- Condition 1: Terms Index §4 provenance records (Value Extraction CURRENT Ring-1; Value Capture RETIRED) — executed in this ratification commit.
+- Condition 2: Ring-1 promotion reflected in meta-pass + Terms Index + downstream docs.
+- Condition 3: Phase A3 sweep — 16 Value Capture proper-noun refs across 9 files → Value Extraction.
+- Condition 4 (optional): Ch 1 intellectual-tradition signal may optionally invoke Harvey's "accumulation by dispossession" as lineage for Value Extraction. Author's call per Ch 1 guidance doc.
 
 ---
 
