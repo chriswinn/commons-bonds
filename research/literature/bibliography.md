@@ -407,12 +407,13 @@
 - **Chapter relevance:** Ch 2 (Appalachian coal — spatial fix in action); Ch 8 methodology; methodology appendix (Spatial dimension).
 - **Framework-dimension grounding:** Spatial (primary).
 
-### Mazzucato, Mariana. *The Value of Everything: Making and Taking in the Global Economy.* Public Affairs, 2018.
+### Mazzucato, Mariana. *The Value of Everything: Making and Taking in the Global Economy.* Public Affairs / Penguin, 2018.
 
-- **Summary:** Distinction between value-creating and value-extracting economic activity; argument that the current accounting conflates them.
-- **Relevance:** Complementary framework — Mazzucato works at the macro "making vs. taking" level; Commons Bonds works at the transaction-specific "severed cost" level. Both share the intuition that current accounting misrepresents what's actually happening.
-- **Relationship:** **SUPPORT.**
-- **Chapter relevance:** Ch 6 methodology; Ch 9.
+- **Summary:** Distinction between value-creating and value-extracting economic activity; argument that the current accounting conflates them. Defines value extraction as *"activities focused on moving around existing resources and outputs, and gaining disproportionately from the ensuing trade"* — focused on rent-seeking in financial capitalism (asset managers, pharma patents, hedge funds).
+- **Relevance:** **LOAD-BEARING (Ring-1 flagship term "Value Extraction").** Mazzucato is the dominant established usage of "value extraction" in political economy. Chris independently rediscovered the term through sociology-essay work as an accessible reframing of Harvey's *accumulation by dispossession*; Mazzucato's prior published usage is acknowledged here as a matter of intellectual honesty and framework positioning. **The framework extends Mazzucato's diagnosis from rent-seeking in financial capitalism into the physical-resource domain** — adding (a) a specific mechanism (Cost Severance — the separation of value-capturers from cost-bearers in resource extraction), (b) a pricing instrument (Accountability Bond + RCV calculation), (c) an explicit causal chain (Value Extraction → Cost Severance → Severed Cost). Canonical citation form recommended for Ch 1, Ch 6, Tech Appendix first uses (see Terms Index "Value Extraction" record for exact text).
+- **Relationship:** **STRONG SUPPORT (extended).** The framework positions itself as operationalizing Mazzucato's moral-economic critique with a pricing framework specific to physical-resource extraction.
+- **Chapter relevance:** Ch 1 (first-use citation at Value Extraction introduction); Ch 6 methodology (extension positioning); Ch 9 policy-framework; Tech Appendix (literature lineage section).
+- **Rigor provenance:** Literature audit 2026-04-24 (Open Insight #10); ratification decision 2026-04-24 by Chris Winn — "cite Mazzucato + position framework as extension"; Value Extraction standalone rigor pass v1.1.0 addendum.
 
 ---
 
@@ -472,7 +473,154 @@ Load-bearing literature for the Kindred dimension's chosen-family scope (per rig
 
 ---
 
-## 15. Supporting sources not yet integrated
+## 15. Environmental bonds and financial assurance (Accountability Bond grounding)
+
+Added 2026-04-24 after framework-literature audit (Open Insight #10) + ratified decision by Chris Winn to cite reclamation-bond / financial-assurance literature in Tech Appendix + Ch 5 at Accountability Bond first use. These sources ground the framework's Accountability Bond (B) as an extension of established environmental-bonding practice from mining/oil-gas/infrastructure into the broader Severed Cost spectrum.
+
+### Balboa, Cristina M. "Accountability of Environmental Impact Bonds: The Future of Global Environmental Governance?" *Global Environmental Politics* 16, no. 2 (2016): 33–41. MIT Press. https://doi.org/10.1162/GLEP_a_00352
+
+- **Summary:** Examines Environmental Impact Bonds (EIBs) as instruments combining private capital with environmental-outcome accountability. Analyzes the accountability implications — that EIBs are not actually bonds but pay-for-success contracts, with investors bearing the risk of outcome achievement and financial savings pegged to intervention results.
+- **Relevance:** **LOAD-BEARING (Ring-2 Accountability Bond + Ring-1 Commons Bonds positioning).** Establishes the EIB literature as the scholarly context for the framework's Accountability Bond. Balboa's accountability framing — especially "prioritizing of private over public accountabilities and potential perverse incentives" — is material the framework's Accountability Bond design must engage.
+- **Relationship:** **SUPPORT (adjacent instrument family).** Framework's Accountability Bond extends EIB conceptual space from specific-project financing to Severed Cost internalization.
+- **Chapter relevance:** Ch 5 (Accountability Gap); Ch 6 methodology (Accountability Bond formal definition); Tech Appendix (literature lineage — environmental-bonds section).
+- **Rigor provenance:** Literature audit 2026-04-24 (Open Insight #10); ratified by Chris Winn 2026-04-24.
+
+### Yang, Peifang, and Graham A. Davis. "Why Don't Environmental Bonds Fully Cover Reclamation Costs?" *Energy Policy* 152 (2021): 112187. https://doi.org/10.1016/j.enpol.2021.112187
+
+- **Summary:** Analyzes why governments systematically require environmental bonds smaller than full reclamation cost — showing a revenue-maximizing government may reasonably accept under-bonding because large bonds discourage extractive activity, reducing fiscal income from project rents. The bonding rate depends on the regulator's estimation of the elasticity of exit in response to bonding.
+- **Relevance:** **LOAD-BEARING (Accountability Bond — diagnosis of systematic under-bonding).** This paper diagnoses exactly the mechanism the framework's Accountability Bond is designed to correct: when B is set below the true Severed Cost, the extraction proceeds but its full cost severance persists unpriced. Yang & Davis provide the quantitative / economic-policy evidence that current financial-assurance practice does NOT internalize full reclamation costs. The framework extends this insight to non-reclamation costs (health, community, intergenerational, epistemic) that current bonds don't even attempt to cover.
+- **Relationship:** **STRONG SUPPORT (diagnostic).** Empirical backing for the framework's central Accountability Bond problem statement.
+- **Chapter relevance:** Ch 5 (Accountability Gap — under-bonding as mechanism); Ch 6 methodology; Ch 9 policy architecture (bond-design reform).
+- **Rigor provenance:** Literature audit 2026-04-24 (Open Insight #10); ratified by Chris Winn 2026-04-24.
+
+### U.S. Government Accountability Office. *Financial Assurances for Reclamation: Federal Regulations and Policies for Selected Mining and Energy Development Activities.* Report GAO-17-207R. Washington, DC: GAO, January 17, 2017. https://www.gao.gov/products/gao-17-207r
+
+- **Summary:** Congressional-watchdog report on federal regulations and policies governing financial assurances (reclamation bonds) for mining and energy development. Surveys the regulatory patchwork across federal agencies (OSMRE, BLM, USFS, BOEM) and documents gaps in coverage.
+- **Relevance:** **SUPPORT (primary-source regulatory-architecture documentation).** Authoritative federal-level documentation of the financial-assurance architecture the framework's Accountability Bond engages.
+- **Relationship:** **SUPPORT (authoritative source).**
+- **Chapter relevance:** Ch 5 (regulatory-architecture documentation); Ch 9 (policy reform targets).
+- **Rigor provenance:** Literature audit 2026-04-24 (Open Insight #10).
+
+### U.S. Office of Surface Mining Reclamation and Enforcement (OSMRE). *Reclamation Bonds.* Agency guidance and regulatory materials. U.S. Department of the Interior. https://www.osmre.gov/resources/reclamation-bonds
+
+- **Summary:** OSMRE is the federal authority on surface-coal-mining reclamation under the Surface Mining Control and Reclamation Act (SMCRA) of 1977. Agency-level guidance on reclamation-bond requirements, self-bonding rules, and state-federal coordination.
+- **Relevance:** **SUPPORT (primary-source regulatory authority).** Federal-agency canonical source for how reclamation bonds operate in practice. Contextualizes the framework's Accountability Bond extension of this architecture.
+- **Relationship:** **SUPPORT.**
+- **Chapter relevance:** Ch 5 (regulatory architecture); Ch 9 (policy reform); Tech Appendix (environmental-bonds lineage).
+- **Rigor provenance:** Literature audit 2026-04-24 (Open Insight #10).
+
+---
+
+## 16. Decision theory and uncertainty (Asymmetric Regret Principle + Substitutability Function grounding)
+
+Added 2026-04-24. Decision-theoretic literature the framework engages — for the Asymmetric Regret Principle (decision rule under RCV-tail quantification uncertainty) and the Substitutability Function S(t|t₀) (probability-over-time with extraction-timing feedback). These sources are **tied to pending rigor-pass ratifications** (ARP recommended Option A promote to Ring 2 with rename sub-decision; S rigor pass recommended Option A confirm Ring 2; both pending Chris Winn ratification). Added per Chris's 2026-04-24 directive to capture all literature-audit resources in bibliography.
+
+### Savage, Leonard J. "The Theory of Statistical Decision." *Journal of the American Statistical Association* 46, no. 253 (1951): 55–67.
+
+- **Summary:** Foundational paper introducing minimax regret as a decision rule under uncertainty — minimize the worst-case regret relative to some measure of unavoidable risk. Argued that decision-makers should consider potential regret, not just expected utility.
+- **Relevance:** **Academic lineage for the Asymmetric Regret Principle (ARP).** ARP is closest-reducible to Savage-style minimax-regret specialized for irreversibility-weighted regret, where the regret-distribution is bimodal with heavy tail on irreversibility. Framework should cite Savage in Tech Appendix to position ARP academically.
+- **Relationship:** **SUPPORT (academic-lineage citation).**
+- **Chapter relevance:** Tech Appendix (ARP methodological footnote); Ch 7 GuidanceDoc (where ARP's Comet/Europa bidirectional-flip cases appear).
+- **Rigor provenance:** ARP rigor pass 2026-04-24 (recommended Savage citation); literature audit 2026-04-24.
+- **Status:** queued pending ARP rigor-pass ratification (Option A promote Ring 2).
+
+### Loomes, Graham, and Robert Sugden. "Regret Theory: An Alternative Theory of Rational Choice Under Uncertainty." *The Economic Journal* 92, no. 368 (1982): 805–824. https://doi.org/10.2307/2232669
+
+- **Summary:** Landmark paper formalizing regret theory as an alternative to expected utility — counterfactually compares lotteries rather than operating on a single-lottery value functional. Established anticipated regret / rejoicing as decision-theoretic inputs.
+- **Relevance:** **Academic lineage for ARP.** Loomes-Sugden extends Savage's minimax-regret into a broader decision-theoretic framework; their formalization of asymmetric regret (upward vs. downward counterfactual thinking) is directly ancestral to ARP's asymmetric-regret framing.
+- **Relationship:** **SUPPORT (academic lineage).**
+- **Chapter relevance:** Tech Appendix (ARP methodological footnote).
+- **Rigor provenance:** ARP rigor pass 2026-04-24; literature audit 2026-04-24.
+- **Status:** queued pending ARP rigor-pass ratification.
+
+### Lempert, Robert J., Steven W. Popper, and Steven C. Bankes. *Shaping the Next One Hundred Years: New Methods for Quantitative, Long-Term Policy Analysis.* Santa Monica, CA: RAND Corporation, 2003. https://www.rand.org/pubs/monograph_reports/MR1626.html
+
+- **Summary:** RAND monograph introducing Robust Decision Making (RDM) — reframes long-term decision questions as "how can we choose actions today robust across many plausible futures?" Examines hundreds to millions of scenarios; seeks robustness rather than optimality; supports adaptive strategies.
+- **Relevance:** **Academic lineage for ARP + Tech Appendix methodological positioning.** ARP is philosophically aligned with RDM — both reason about decisions under deep uncertainty with robustness bias. Framework's Tech Appendix can cite RDM alongside Savage + Loomes-Sugden as the triad of decision-theoretic precedents ARP specializes.
+- **Relationship:** **SUPPORT.**
+- **Chapter relevance:** Tech Appendix (ARP academic-positioning triad).
+- **Rigor provenance:** ARP rigor pass 2026-04-24; literature audit 2026-04-24.
+- **Status:** queued pending ARP ratification.
+
+### Dixit, Avinash K., and Robert S. Pindyck. *Investment under Uncertainty.* Princeton, NJ: Princeton University Press, 1994.
+
+- **Summary:** First detailed exposition of real-options theory applied to capital investment — frames investment decisions as options that can be delayed under uncertainty, exploiting the analogy to financial-options theory for a richer dynamic framework than traditional NPV.
+- **Relevance:** **Academic lineage for the Substitutability Function S(t|t₀).** S is closest-related to real-options theory's handling of irreversibility + dynamic uncertainty, but with framework-specific features: S is a probability-over-time (not a point elasticity), baseline-conditional on t₀, and endogenous to extraction-timing feedback. Tech Appendix citation positions S as specialized extension.
+- **Relationship:** **SUPPORT (academic lineage).**
+- **Chapter relevance:** Tech Appendix §L + §M (S's formal introduction); Ch 6 §Substitutability Function.
+- **Rigor provenance:** Substitutability Function rigor pass 2026-04-24; literature audit 2026-04-24.
+- **Status:** queued pending S rigor-pass ratification (Option A confirm Ring 2).
+
+### Hicks, John R. *The Theory of Wages.* London: Macmillan, 1932. Second edition, 1963.
+
+- **Summary:** Classic microeconomic treatment of wage determination; first statement of the economic concept of elasticity of substitution — measure of how much one factor of production changes to keep output constant in response to a change in relative factor prices.
+- **Relevance:** **Academic lineage for the Substitutability Function S.** Hicks is the foundational reference for substitutability in economics; S extends Hicks's elasticity from point-measure to time-indexed probability function with extraction-timing feedback. Tech Appendix citation establishes historical anchor.
+- **Relationship:** **SUPPORT (foundational-lineage citation).**
+- **Chapter relevance:** Tech Appendix §L methodological footnote (substitutability lineage).
+- **Rigor provenance:** Substitutability Function rigor pass 2026-04-24; literature audit 2026-04-24.
+- **Status:** queued pending S rigor-pass ratification.
+
+---
+
+## 17. Externality theory and climate cost (Externality Tail grounding)
+
+Added 2026-04-24. Externality literature the framework engages for the Externality Tail E(R, t) — post-extraction damage that persists independent of substitute availability. Status: tied to pending Externality Tail rigor pass ratification (recommended Option A confirm Ring 2).
+
+### Pigou, Arthur Cecil. *The Economics of Welfare.* London: Macmillan, 1920. Fourth edition, 1932.
+
+- **Summary:** Foundational treatment of externalities — costs imposed or benefits conferred on others that are not accounted for by the person creating them. Introduced the concept of Pigouvian taxes: negative externalities should be offset by a tax; positive externalities by a subsidy. (Extends Marshall's original concept into a developed framework with government-intervention justification.)
+- **Relevance:** **Academic lineage for Externality Tail (E) + the framework's broader externality-internalization architecture.** Pigou is the canonical 20th-century source on externalities. E(R, t) is a temporally-specialized externality concept — retains Pigouvian core (cost-imposed-on-third-party) but adds post-extraction persistence + substitutability-independence + time-indexed function form. Tech Appendix citation positions framework as extending Pigou.
+- **Relationship:** **SUPPORT (foundational lineage).** Pigou's framework is the scholarly parent; framework's E is a temporally-structured specialization.
+- **Chapter relevance:** Ch 6 methodology (externality-concept grounding); Tech Appendix §L (E's formal introduction); Ch 9 (policy-instrument lineage — Pigouvian tax as ancestor of Accountability Bond).
+- **Rigor provenance:** Externality Tail rigor pass 2026-04-24; literature audit 2026-04-24.
+- **Status:** queued pending E rigor-pass ratification.
+
+### Nordhaus, William D., and Joseph Boyer. *Warming the World: Economic Models of Global Warming.* Cambridge, MA: MIT Press, 2000. (Also: Nordhaus, W. D. "Evolution of Assessments of the Economics of Global Warming: Changes in the DICE Model, 1992–2017." NBER Working Paper 23319, April 2017.)
+
+- **Summary:** Landmark integrated-assessment modeling of climate change economics — the DICE (Dynamic Integrated Climate-Economy) model that became foundational for social-cost-of-carbon estimation and climate policy analysis.
+- **Relevance:** **Academic context for Externality Tail's climate-damage framing.** DICE is the canonical framework for pricing cumulative climate damage as externality — exactly the kind of temporally-persistent externality that Externality Tail (E) generalizes. Tech Appendix citation positions E's climate-damage applications academically.
+- **Relationship:** **SUPPORT (methodological parallel).** Framework's E extends DICE's climate-damage treatment into a general post-extraction externality structure.
+- **Chapter relevance:** Ch 2 (carbon footnote); Ch 9 (renewable-imperative); Tech Appendix §L (E's climate-damage discussion).
+- **Rigor provenance:** Externality Tail rigor pass 2026-04-24; literature audit 2026-04-24.
+- **Status:** queued pending E rigor-pass ratification.
+- **Note:** Nordhaus received the 2018 Nobel Memorial Prize in Economic Sciences for integrating climate change into long-run macroeconomic analysis.
+
+### Stern, Nicholas. *The Economics of Climate Change: The Stern Review.* Cambridge: Cambridge University Press, 2007. (Originally released as independent review to UK Government, October 2006.)
+
+- **Summary:** 700-page independent review commissioned by the UK Government. Concluded that climate change is "the greatest and widest-ranging market failure ever seen." Proposed that ~1% of global GDP per annum is required to avoid the worst effects. Controversial for using a low discount rate that treats future generations' welfare as comparable to present.
+- **Relevance:** **Climate-economics reference for Externality Tail + intergenerational cost severance.** Stern Review's argument that climate is a market failure producing persistent intergenerational damage is structurally parallel to the framework's framing of carbon as paradigmatic externality-tail + intergenerational-cost-severance case.
+- **Relationship:** **STRONG SUPPORT (methodologically aligned — low-discount-rate intergenerational-equity framing shared).**
+- **Chapter relevance:** Ch 2 (carbon footnote); Ch 9 (renewable-imperative); Tech Appendix (E + intergenerational-CS lineage).
+- **Rigor provenance:** Externality Tail rigor pass 2026-04-24; literature audit 2026-04-24.
+- **Status:** queued pending E rigor-pass ratification.
+
+---
+
+## 18. Adjacent / due-diligence citations (collision check only)
+
+Added 2026-04-24 for due-diligence documentation. Sources identified during the framework-literature audit whose terms collide lexically with framework terms but apply to different concepts. Cited in Tech Appendix footnotes for intellectual-honesty (acknowledge lexical collision, establish that domain and concept differ) rather than as supporting literature. Status: low-priority; optional citations.
+
+### Alletto, Christopher. "The Abundance Inversion: AI, Public Sector Efficiency, and the Future of Fiscal Policy." SSRN Working Paper 5249827, 2024. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5249827
+
+- **Summary:** Uses "Abundance Inversion" to formalize a Fiscal Abundance Hypothesis — that advancements in AI, predictive analytics, and zero-marginal-cost technologies can enable public-sector resource allocation to exceed market-based efficiency. Extended Cobb-Douglas production function with CES specifications; Monte Carlo simulations on empirical calibration from global digital-governance data.
+- **Relevance:** **DUE-DILIGENCE ONLY.** Uses the phrase "Abundance Inversion" for a DIFFERENT concept (public-sector vs private-sector efficiency under AI) than the framework's Abundance Inversion Test (AIT — resource-substitutability testing for scarcity-grounded costs). Low direct-collision risk because the domains don't overlap, but intellectual-honesty calls for acknowledging the lexical collision in Tech Appendix.
+- **Relationship:** **N/A — lexical-collision due diligence only.** Alletto's work is not a scholarly ancestor of the framework.
+- **Chapter relevance:** Tech Appendix methodological footnote on AIT (optional; due-diligence).
+- **Rigor provenance:** Literature audit 2026-04-24 (Open Insight #10).
+- **Status:** optional citation, low priority.
+
+### Desai, Deven R., and Mark A. Lemley. "Scarcity, Regulation, and the Abundance Society." *Frontiers in Research Metrics and Analytics* (editorial; also SSRN Working Paper 4150871, 2022). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4150871
+
+- **Summary:** Editorial framing scarcity and abundance as rhetorical constructs that inform different regulatory institutions. Scarcity maps onto limits on freedom; abundance props freedom's unlimited potential. Discusses artificial-scarcity creation via intellectual property and regulatory capture.
+- **Relevance:** **DUE-DILIGENCE / ADJACENT CITATION.** Uses "abundance" in policy-rhetorical sense related to but distinct from the framework's abundance-construct (the 10 abundances = scaffolding for AIT's scarcity-grounded cost test). Worth citing in Tech Appendix to distinguish framework's abundance usage from rhetorical-abundance literature.
+- **Relationship:** **ADJACENT (rhetorical-vs-technical distinction).**
+- **Chapter relevance:** Tech Appendix methodological footnote on abundance-construct; optional.
+- **Rigor provenance:** Literature audit 2026-04-24.
+- **Status:** optional citation, low priority.
+
+---
+
+## 19. Supporting sources not yet integrated
 
 Placeholder for additions as they emerge. Candidate additions:
 
