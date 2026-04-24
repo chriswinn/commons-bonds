@@ -231,3 +231,15 @@ Pick one. Both the plane opener and the additional scene should be Chris's obser
 ## Forward-reference to Ch 7 multi-perspective worked example (added 2026-04-23 per PCR v1.0.0 Cross-cutting Finding 3)
 
 Ch 1's "this book is about that structure — or rather, the absence of it" pull-back paragraph (or whatever Chris's drafted equivalent ends up being) can include a brief forward-reference to Ch 7's multi-perspective worked example (asteroid mining contract scenario from miner / company / colony administrator + Earth-equivalent McDowell coal miner perspectives — see Ch 7 guidance). The forward-reference frames the book as a tool readers will learn to apply, not just a framework readers will learn to recognize. One sentence is sufficient — something like "by the time you reach the chapter on the colony administrator, you'll have an analytical apparatus you can apply to any extraction situation in your own life: the contract you're considering, the community you live in, the work you do." Specific phrasing is Chris's authorial call; the function is to plant the apply-this-to-yourself frame early so Ch 2-9 read as *teaching the reader the apparatus*, not as *displaying the apparatus to the reader*. Pure Register 1 — no framework vocabulary; the forward-reference reads as authorial promise, not as definition.
+
+---
+
+## Ch 1 and the intellectual-tradition signal (added 2026-04-24 per Phase A2 Task 8)
+
+Chapter 6 now carries a "The Contribution" section that names the framework's intellectual debt to Pigou and articulates three distinctions (substitutability-weighting + integrated architecture + AIT method) with worked comparative examples for McDowell coal + Deepwater Horizon + Libby. That Register 2 content does not belong in Ch 1.
+
+What Ch 1 *can* optionally carry — if Chris wants to plant the signal that this book extends an established economics tradition rather than floating free of one — is a single Register 1 sentence somewhere in the origin-story thread. Shape: a quiet acknowledgment that the question the book is asking ("who pays the costs that never appeared on the invoice?") has been asked before and answered incompletely, not a citation and not a literature review. For example: "the question was not new — economists had been naming versions of it for a century — but the answer always stopped short of the part that mattered to the people I was watching." Specific phrasing is Chris's authorial call; the function is to pre-empt the "naive outsider reinvents externality theory" reading without breaking Register 1 discipline.
+
+One sentence is the ceiling, not the floor. Zero is also correct — if Chris's personal story already carries intellectual credibility through biography (NASA + JH + NIH + MDLogix co-founding + nursing pivot), the tradition-signal can be deferred entirely to Ch 6 where the contribution is actually articulated.
+
+**Do not cite Pigou by name in Ch 1.** Name-dropping a century-old economist in the origin story breaks register and signals defensiveness. Ch 6 is where Pigou gets named.
