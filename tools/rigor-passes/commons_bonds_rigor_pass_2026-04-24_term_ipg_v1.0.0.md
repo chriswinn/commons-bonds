@@ -305,7 +305,16 @@ The "IPG ≫ 1 universally" claim is PARTLY by construction — RCV includes int
 
 ## §9. Author-ratified resolutions
 
-*Pending author ratification. Recommended Option A (CONFIRM Ring 2) + minor Ch 6 + Tech Appendix framing updates per §7.*
+**Ratified 2026-04-24 by Chris Winn — Option A (CONFIRM Ring 2).** IPG earns Ring-2 internal-load-bearing status as framework-specific market-pricing-gap diagnostic distinct from CS's accountability-pricing-gap diagnostic. Principle-#3 derivation check PASSES (not a pure internal derivation; composes framework primitive RCV with external empirical reference market_price). M12 classification: independent specialization of adjacent intergenerational-pricing literature (Ramsey 1928, Stern 2007, Nordhaus DICE).
+
+**Ratification also surfaces new parsimony-principle corollary (worth capturing in Principle #6):**
+- **Internal derivations** (composed from framework primitives only): NOT named per parsimony discipline (CSG retirement precedent — S_max, S(t)−S(t−1)).
+- **External-composites** (framework primitive composed with external empirical reference): CAN earn named-object status when load-bearing. IPG canonical example (RCV × market_price).
+- Rationale: compositions with external reality position the framework AGAINST empirical reality — substantive content that internal derivations don't carry.
+
+**Ch 6 + Tech Appendix framing update ratified:**
+- "IPG ≫ 1 universally" reframed: architectural (by construction) + empirical (magnitude calibration). Prevents overclaiming.
+- Tech Appendix §L footnote adds Ramsey/Stern/Nordhaus/declining-discount citations positioning IPG as framework-specific diagnostic composite.
 
 ---
 

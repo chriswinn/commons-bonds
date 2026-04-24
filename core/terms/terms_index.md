@@ -1194,4 +1194,73 @@ The equation's statement "CS = RCV − B" is **framework-level prescription** (i
 
 ---
 
+### Intergenerational Pricing Gap (IPG)
+
+**Working definition:** Ratio IPG = RCV / market_price — the factor by which markets underprice extraction at the point of transaction. "IPG = 33" means the market price covers approximately 3% of the true intergenerational cost captured in RCV. Framework-specific market-pricing-gap diagnostic, DISTINCT from Cost Severance (CS = RCV − B — accountability-pricing-gap diagnostic). Different diagnostic purpose, different denominator.
+
+**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn).
+
+**Term-spec version:** v1.0 (first sanctioned spec).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Meta-pass §10.2 + §12.1 item 10 (commit `46600bc`) — Ring-2 classification with flag for individual rigor to test demote-to-Ring-3 alternative.
+- Individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_ipg_v1.0.0.md` (2026-04-24, commit `256e34d`) — Option A (CONFIRM Ring 2) ratified 2026-04-24. Principle-#3 derivation check PASSES.
+
+**M12 classification:** Independent specialization. Adjacent intergenerational-pricing literature (Ramsey 1928, Stern 2007, Nordhaus DICE, declining-discount work from Weitzman/Gollier/Portney-Weyant) addresses "markets underprice intergenerational costs" qualitatively; no established work uses this specific ratio form with RCV-as-numerator. Framework-specific diagnostic composite.
+
+**M12 citations (for Tech Appendix §L methodological footnote):**
+- Ramsey, Frank P. "A Mathematical Theory of Saving" (1928) — foundational intergenerational-discount framework.
+- Stern 2007 + Nordhaus DICE — already in bibliography for Externality Tail; cross-reference.
+- Declining discount rate literature — optional Tech Appendix depth.
+
+**Distinguishing from CS:**
+- **CS uses B** (Accountability Bond — all accountability-instrument dollars; framework primitive). Measures what's not internalized by accountability mechanisms.
+- **IPG uses market_price** (transaction price — external empirical reference). Measures what's not priced by markets at transaction time.
+- Can diverge: Norway has small CS (sovereign wealth fund captures B ≈ RCV post-transaction) but potentially large IPG (oil market price below true intergenerational cost AT transaction). Complementary diagnostics.
+
+**Parsimony-principle corollary established (ratified 2026-04-24):**
+- **Internal derivations** (framework primitives only): NOT named (per CSG retirement — S_max, S(t)−S(t−1), etc.).
+- **External-composites** (framework primitive composed with external empirical reference): CAN earn named-object status when load-bearing.
+- IPG is canonical example of external-composite earning named status.
+- Worth flagging as possible Principle #6 sub-corollary if pattern repeats.
+
+**Epistemic-honesty note (for Ch 6 framing, ratified 2026-04-24):**
+- "IPG ≫ 1 universally" is PARTLY by construction — RCV includes intergenerational costs markets don't price, so IPG > 1 is architectural for extraction cases.
+- Empirical work quantifies MAGNITUDE (McDowell IPG = 33), not direction.
+- Ch 6 convergence-table framing should present as "architecture + magnitude calibration," not "open empirical finding." Overclaiming the architectural-fact as empirical-discovery would be a rigor-integrity risk.
+
+**Why Ring 2 (not Ring 3 demote per meta-pass flag):**
+- Distinct diagnostic from CS (different denominator, different diagnostic purpose).
+- 15+ active chapter/guidance refs + dedicated WS12 decision doc.
+- Convergence-table pedagogy (Ch 6) depends on IPG as compressed scalar ("IPG = 33" is framework's canonical empirical compression).
+- "IPG ≫ 1" architectural claim deserves a named handle.
+
+**Depends on:**
+- RCV definition (numerator — framework primitive).
+- Market-price measurement (denominator — external empirical reference).
+- Cost Severance (IPG is complementary diagnostic, not synonym).
+
+**Pairs with:**
+- CS = RCV − B (complementary gap diagnostic — different denominator).
+- RCV (direct component).
+- Accountability-gap narrative (IPG quantifies market-pricing-gap at transaction time; CS quantifies what accountability instruments cover).
+
+**Staleness triggers:**
+- RCV definition restructured.
+- Framework develops more precise pricing-gap diagnostic that displaces.
+- Empirical work reveals "IPG ≫ 1" not universal (would change both architectural claim and IPG's role).
+
+**Commit trail:**
+- Individual rigor pass: commit `256e34d` (2026-04-24).
+- Ratification + Terms Index record: this commit.
+
+**Notes:**
+- Convergence-table pedagogy: 4 approaches converge on IPG ≫ 1. Chapter's numerical center of gravity.
+- McDowell IPG = 33 (market covers ~3% of true cost) is framework's canonical empirical compression — readers remember single-number claim.
+- WS12 IPG data table (`alignment/decisions/ws12-ipg-data-table-for-reconciliation.md`) is load-bearing for case-study cross-comparison.
+
+---
+
 *End of Term Provenance Index v0.1.0. Skeleton established 2026-04-24. Populated progressively as Tier A rigor work produces records.*
