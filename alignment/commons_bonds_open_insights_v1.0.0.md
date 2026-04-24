@@ -179,6 +179,80 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Dependencies / Links:** Web literature search results 2026-04-24. Terms Index update v1.1 (this commit). Phase A3 citation sweep pending.
 - **Todo link:** "Review Open Insight #10 remainders: (i) Cost Severance naming collision rigor pass; (ii) Phase A3 citation sweep plan."
 
+### Insight #18 — Autonomy-as-commons treatment in Ch 1, Ch 6, Tech Appendix (with political-philosophical acknowledgment)
+
+- **Raised:** 2026-04-24 by Chris Winn at Option C' ratification: *"Additionally capture where the autonomy as a commons example should be discussed in the book, and how, and then add it to the guidance documents for that/those chapter(s). Then add it to the drafts of the associated chapter(s) as I think you already have the supporting reasons and guidance for it in your memory."*
+- **Status:** addressed (guidance docs updated + light prose added to drafts via this work; chapter-revision phase will integrate further).
+- **Category:** craft · chapter-placement · framework-coherence · political-philosophical positioning
+- **Content:** Autonomy is the politically-most-contested of the 10 commons categories. Whether autonomy operates as a commons depends on political tradition (classical liberalism vs civic republicanism vs socialist vs Marxist vs lived-oppression vs dominant-class perspectives). Framework's response per Option C' ratification: don't argue universal ontology; show how cost severance operates across whatever-commons-the-reader-identifies; treat the 10 as examples not canonical.
+- **Where in the book autonomy-as-commons should be discussed:**
+
+  **Ch 1 (origin story + 120-hour-week thread):**
+  - Anderson 2017 *Private Government* canonical for autonomy dimension per bibliography (already cited).
+  - Ch 1's 120-hour-week thread already has consent-problem passage. Extend with autonomy-as-commons framing: knowledge-worker case demonstrates autonomy-supporting-infrastructure (employment law; labor protections; severance norms; contract enforceability) functioning AS commons that extraction (120-hour weeks) severs costs from.
+  - Connects to Personal Stories Candidate #1 (commute-trade) — both 120-hour-week and commute-trade are Commons-Consumption Inversion cases on the autonomy/time commons axis.
+
+  **Ch 2 (The Miner — Appalachian coal):**
+  - Sen's capabilities framework + consent-under-constraint already invoked.
+  - Coal miner's autonomy-supporting-infrastructure (mobility options; alternative employment; community wealth as exit option; epistemic resources to evaluate Black Lung risk) was systematically depleted — autonomy-commons hollowed out. Add explicit framing.
+
+  **Ch 6 (methodology — Three Ways of Counting):**
+  - When introducing CIT, autonomy is the politically-most-contested example. Use it as the case where political-philosophical-acknowledgment is most explicit.
+  - Tech Appendix carries fuller treatment; Ch 6 prose names the contestation and proceeds.
+
+  **Tech Appendix §F (or methodology section):**
+  - Full Anderson + Pettit + Skinner civic-republican lineage citation.
+  - Explicit political-philosophical-acknowledgment passage (the recommended authorial-voice positioning text).
+  - Note that Autonomy commons-framing is one tradition among several; framework operates regardless of which.
+
+  **Ch 9 (policy economy):**
+  - Community Transition Reserve as named policy rec includes autonomy-supporting-infrastructure (income transition + retraining + relocation support = autonomy-commons restoration).
+
+  **Ch 10 (closing):**
+  - Reflective passage can return to autonomy-as-commons framing as one example of the framework's reach.
+
+- **How autonomy-as-commons should be discussed (authorial-voice):**
+
+  The recommended Ch 1 / Ch 6 framing (ratified 2026-04-24 with Option C'):
+  > *"This framework doesn't argue that autonomy is universally a commons, or that habitability is, or that time is. It argues that when any of these operate AS commons in a given society — shared, depended-on, collectively enabling — extraction can sever cost from that commons, and this methodology measures the severance. Different political traditions have different commitments about what is shared and what is individual. The framework works within any of those commitments. What it doesn't accept is extraction without accountability, regardless of which commons is being extracted from."*
+
+  For autonomy specifically:
+  > *"Autonomy is the most contested of the commons categories examined here. Classical liberals will recognize autonomy as individual natural-right; the supporting infrastructure (rule of law; contract enforceability; labor protections; severance norms) is enabling but not itself commons. Civic republicans (in the tradition of Anderson, Pettit, Skinner) will recognize autonomy as non-domination, requiring shared institutions to remain sustainable — institutions that function as commons. The framework doesn't settle this. It accommodates both readings — and the lived-oppression reading, where autonomy is something extracted not shared. What the framework asks: when extraction operates on whatever-autonomy-supporting-infrastructure your case treats as load-bearing, the cost-severance methodology applies. That's the through-line."*
+
+- **Why this matters:**
+  - Honors political-philosophical diversity (Option C' ratified positioning).
+  - Protects framework from "autonomy ISN'T a commons in MY tradition" attack — framework accommodates rather than asserts.
+  - Strengthens the framework's tool-use positioning across audiences.
+  - Makes Anderson + Pettit + Skinner lineage explicit (already in bibliography for Anderson; Pettit + Skinner can be added if Tech Appendix treatment goes deep).
+  - Ties Ch 1's 120-hour-week and commute-trade narratives to the Autonomy commons-framing without forcing political commitment on the reader.
+
+- **Bibliography additions (potentially needed):**
+  - Pettit, Philip. *Republicanism: A Theory of Freedom and Government* (1997) — civic-republican autonomy-as-non-domination.
+  - Skinner, Quentin. *Liberty Before Liberalism* (1998) — historical-republican-tradition.
+  - Both optional Tech Appendix depth additions; not load-bearing for Book 1 chapter prose.
+
+- **Action: this commit captures the discipline.**
+  Phase 2 (this commit): guidance docs updated for Ch 1 + Ch 6 + Tech Appendix.
+  Phase 3 (this commit or follow-on): light prose insertions into chapter drafts at natural points.
+
+- **Dependencies / Links:** Option C' ratification (10-list dissolution rigor pass commit `e30087e`); Anderson 2017 + Sen 1999 + Nussbaum 2011 (already in bibliography); Personal Stories Candidate #1 (commute-trade as Consumption-Inversion paradigm); Open Insights #13 (scope-creep), #15 (chapter revision thread), #16 (two CIT sub-forms); Ch 1 + Ch 6 guidance docs + drafts (Phase 2 + 3 of this work).
+- **Todo link:** "Review Open Insight #18: autonomy-as-commons placement — verify Ch 1 + Ch 6 + Tech Appendix integration during Phase B chapter revision."
+
+### Insight #17 — Option C' political-philosophical positioning (commons-as-examples-not-canonical)
+
+- **Raised:** 2026-04-24 by Chris Winn during 10-list dissolution exchange: *"You would likely get very different answers from a person living in a modern socialist, or democratic society and a slave, a slave owner. I'm curious to lean into this..."*
+- **Status:** closed-ratified 2026-04-24 by Option C' ratification (10-commons-list dissolution rigor pass).
+- **Category:** framework-structure · craft · publishing
+- **Content:** What counts as a commons is politically-traditionally contested. Framework strengthens by accommodating rather than settling. Ratified positioning: the 10 are EXAMPLES not canonical; framework's universality is about METHOD (CIT applies anywhere extraction operates on commons-like resources), not enumeration canonicity. Tech Appendix names political-contestation explicitly for politically-contested commons (Autonomy especially; also Political, Kindred, Epistemic).
+- **Why it matters:**
+  - Reduces framework's political-commitment surface.
+  - Increases framework's usability across political traditions.
+  - Honors lived-experience variance (slave/owner/citizen all face cost-severance under different ontologies of commons).
+  - Matches successful adjacent-framework publishing pattern (Ostrom, Sen/Nussbaum, Raworth, Klinenberg, Mazzucato).
+- **Resolution:** Option C' ratified via 10-commons-list dissolution rigor pass (commit `e30087e`). See Open Insight #18 for autonomy-as-commons specific chapter-placement implementation.
+- **Dependencies / Links:** 10-list dissolution rigor pass; Open Insight #18 (autonomy-as-commons placement); Terms Index Abundances v1.2 record.
+- **Todo link:** N/A (closed).
+
 ### Insight #16 — Two CIT sub-forms (Absence-Inversion + Consumption-Inversion) as methodology-contribution book content
 
 - **Raised:** 2026-04-24 by Chris Winn + me collaboratively. Surfaced during commons-as-structural-identity rigor pass. Author direction: *"Make sure we capture this as that is a marvelous insight that likely needs to be somewhere in the book."*

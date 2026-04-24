@@ -388,16 +388,28 @@ Principle #1 Corollary A (scheduling not verdict input): effort noted as downstr
 
 ## §11. Author-ratified resolutions
 
-*Pending author ratification.* Recommended:
+**Ratified 2026-04-24 by Chris Winn — Option C' (refined middle path).** Option C base recommendation (demote 10-list to reproducibility-reference) ratified WITH political-philosophical acknowledgment refinement surfaced in author exchange:
 
-1. **Ratify Option C (middle path: demote 10-list to reproducibility-reference).**
-2. **Ratify Ch 6 restructure toward CIT-forward + 2-3 worked cases.**
-3. **Ratify per-commons profiles preservation in methodology doc** (not chapter prose).
-4. **Ratify chapter-audit + case-study-audit preservation** (framed as reproducibility record).
+**Option C' specific changes vs Option C base:**
 
-Alternative ratifications possible:
-- Ratify Option A (keep scaffolding) — preserves status quo.
-- Ratify Option B (full dissolution) — strongest rigor; largest sweep.
+1. **Framing shift:** "examples of commons categories the framework has examined" rather than "the framework's commons categories." Reframes 10 from reproducibility-record to *worked-example record across cases* — the methodology produces these in our examined cases; reader's cases may produce different/additional ones.
+
+2. **Explicit political-philosophical acknowledgment:** the framework doesn't claim universal ontology of what IS a commons; it shows HOW cost severance operates across whatever commons are identified in a given context. Different political traditions (classical liberalism, civic republicanism, socialist-communitarian, Marxist, lived-oppression, dominant-class) make different commitments about what is shared vs individual. The framework works within any of those commitments; what it doesn't accept is extraction without accountability regardless of which commons is being extracted from.
+
+3. **Politically-contested commons treatment:** Autonomy (especially) + Political + Kindred + Epistemic explicitly framed as commons CAN function in those modes; other political traditions may treat them differently AND framework still applies. Tech Appendix names contestation; invites reader application with their own commons-identification.
+
+4. **Universality claim sharpened:** universality is about METHOD (CIT applies anywhere extraction operates on commons-like resources), not about enumeration canonicity. Matches Raworth's Doughnut + Ostrom's commons-governance pattern.
+
+5. **Authorial-voice positioning** (recommended Ch 1 or Ch 6 prose):
+> *"This framework doesn't argue that autonomy is universally a commons, or that habitability is, or that time is. It argues that when any of these operate AS commons in a given society — shared, depended-on, collectively enabling — extraction can sever cost from that commons, and this methodology measures the severance. Different political traditions have different commitments about what is shared and what is individual. The framework works within any of those commitments. What it doesn't accept is extraction without accountability, regardless of which commons is being extracted from."*
+
+**Ratifications activated:**
+- Ch 6 restructure toward CIT-forward + 2-3 worked cases (one Absence-Inversion + one Consumption-Inversion).
+- Per-commons profiles preservation in methodology doc + Tech Appendix (not chapter prose).
+- Chapter-audit + case-study-audit preservation (framed as methodology-reproducibility record).
+- Tech Appendix political-philosophical acknowledgment section added.
+- Autonomy-as-commons treatment specifically called out for chapter placement (see Open Insight #18 for Ch 1 + Ch 6 + Tech Appendix guidance).
+- Tightly coupled with commons-as-structural-identity reframing pass + CIT rename pass; all three ratified together 2026-04-24.
 
 ---
 

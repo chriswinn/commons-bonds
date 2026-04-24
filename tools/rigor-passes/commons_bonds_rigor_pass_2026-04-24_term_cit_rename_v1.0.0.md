@@ -253,7 +253,7 @@ Per commons-reframing pass §5 — ~100+ AIT refs across:
 
 ## §9. Author-ratified resolutions
 
-*Pending author ratification. Recommended: ratify CIT rename + Phase A3 Stream A sweep.*
+**Ratified 2026-04-24 by Chris Winn — RATIFY CIT rename.** "Commons Inversion Test (CIT)" replaces "Abundance Inversion Test (AIT)" as Ring-1 methodology name. Both forms (acronym + spelled-out) adopted per framework convention (AIT precedent: spell-out at first-use per chapter; acronym after). M12 audit: no prior-art collision; framework-specific specialization within counterfactual-reasoning methodological family. Two sub-forms (Commons-Absence + Commons-Consumption Inversion) formalized as methodology contribution beyond rename. Phase A3 Stream A sweep activated (~15-20 hours). Tightly coupled with commons-as-structural-identity reframing pass + 10-list dissolution Option C' pass; all three ratified together 2026-04-24.
 
 ---
 

@@ -1263,4 +1263,152 @@ The equation's statement "CS = RCV − B" is **framework-level prescription** (i
 
 ---
 
+### Commons Inversion Test (CIT) [supersedes AIT 2026-04-24]
+
+**Working definition:** Framework-specific Ring-1 methodology for admitting candidate costs to RCV. Operates on commons categories: imagine the commons inverted (either absent or unconsumed); if the candidate cost becomes visible as commons-dependent, admit to Cᵢ via Four Gates. Two sub-forms:
+- **Commons-Absence Inversion** — imagine commons not existing (paradigm: oxygen in space; McDowell habitability destroyed by coal extraction). Operational question: *what would it take to replace the commons?*
+- **Commons-Consumption Inversion** — imagine commons not consumed (paradigm: commute-time returned; forest uncut). Operational question: *what could the commons do if not drawn down?*
+
+Specialized extension of commons-governance methodology (Ostrom lineage) to extraction-contexts where commons are drawn down rather than managed-in-place.
+
+**Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn). Supersedes AIT.
+
+**Term-spec version:** v1.0 (first sanctioned spec).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Author structural-identity insights 2026-04-24 — commons-as-structural-identity + AIT-as-CIT realizations.
+- Commons-as-Structural-Identity rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_commons_as_structural_identity_v1.0.0.md` (commit `c4b09dc`) — broader reframing including CIT rename + 10-as-commons-categories. Option A ratified.
+- Dedicated CIT rename rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cit_rename_v1.0.0.md` (commit `b294c79`) — Option A (ratify CIT) ratified with full M12 audit + sub-form formalization.
+- 10-Commons-List Dissolution rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_10_commons_list_dissolution_v1.0.0.md` (commit `e30087e`) — Option C' ratified (10 as examples-not-canonical; methodology-forward; political-philosophical acknowledgment).
+
+**M12 classification:** Original specialization within counterfactual-reasoning methodological family. No prior-art collision on phrase or concept; acronym collisions in unrelated domains only (spell-out-at-first-use convention mitigates).
+
+**M12 citations (for Tech Appendix methodological footnote):**
+- Ostrom 1990 *Governing the Commons* — commons-governance lineage.
+- Hess & Ostrom 2007 *Understanding Knowledge as a Commons* — knowledge commons extension; precedent for extending commons to novel domains.
+- Counterfactual reasoning family (Lewis 1973 + subsequent philosophy-of-action literature) — operational lineage.
+
+**Supersedes:** AIT (Abundance Inversion Test). AIT's semantic content preserved + refined via two sub-forms; name updated to match operational instruction (commons-inversion, not abstract abundance-inversion).
+
+**Depends on:** commons-governance tradition (Ostrom lineage); commons as structural identity of formerly-named-abundances; Four Gates admission apparatus; "abundance" as state-name of each commons.
+
+**Pairs with:**
+- RCV (Ring 1) — CIT admits costs to RCV integrand.
+- Four Gates (Ring 2) — CIT is one of four admission gates.
+- Abundance Masking (Ring 2) — CIT detects what Abundance Masking hides.
+- Cᵢ (Ring 1) — CIT-admitted costs become Cᵢ entries.
+- Commons categories (the 10 examples) — CIT operates on each commons.
+
+**Staleness triggers:**
+- Commons-as-structural-identity reframing reversed.
+- New methodology replaces CIT.
+- Academic adoption evidence shows CIT failing to travel.
+
+**Commit trail:**
+- Commons-as-Structural-Identity pass: commit `c4b09dc` (2026-04-24).
+- Dedicated CIT rename pass: commit `b294c79` (2026-04-24).
+- 10-list dissolution pass: commit `e30087e` (2026-04-24).
+- Ratification + Terms Index record: this commit.
+
+**Notes:**
+- "Commons Inversion Test" at first-use per chapter; "CIT" as acronym after. Framework convention per AIT precedent.
+- Two sub-forms formalized as framework methodology contribution beyond rename — see Tech Appendix methodology section + Open Insight #16.
+- Commute-story (Personal Stories Candidate #1) is the paradigm Commons-Consumption case; most resource-extraction cases are Commons-Absence; some (mining) exercise both.
+
+---
+
+### Abundance Inversion Test (AIT) — RETIRED
+
+**Status:** `RETIRED` (ratified 2026-04-24 by Chris Winn — superseded by Commons Inversion Test (CIT) per commons-as-structural-identity reframing). Historical references in older docs preserved per Principle #4 Tier-2 discipline (retirement-note headers; no content sweep).
+
+**Working definition (prior, retired):** Framework methodology for admitting candidate costs to RCV via abundance-inversion test ("invert the current abundance condition; does the cost become visible?").
+
+**Term-spec version:** v1.0 final (retirement).
+
+**Last reviewed:** 2026-04-24
+
+**Why retired:** Author insight 2026-04-24: *"AiT is really CiT showing that a commons cost exists when you imagine the current abundance of that commons not existing."* The test operates on commons (concrete shared resources), not on abstract abundance-states. CIT's framing makes the operational instruction visualizable; AIT's framing required reader-side abstraction. Plus the two sub-forms (Commons-Absence + Commons-Consumption Inversion) became visible only after the commons-reframing — they were obscured under "invert the abundance state" language.
+
+**Supersedes / superseded by:** Superseded by Commons Inversion Test (CIT). AIT's semantic content preserved + refined in CIT.
+
+**Rigor provenance:** see CIT record + 3 ratified rigor passes (Commons-as-Structural-Identity + CIT rename + 10-list dissolution).
+
+**Notes:**
+- Phase A3 Stream A sweep target: ~100+ active AIT refs across framework (chapters + Tech Appendix + glossary + rigor passes + case studies + decision docs) — Tier-1 sweep per Principle #4.
+- Historical docs (older rigor passes, session handoffs): Tier-2 retirement-note headers; no content sweep.
+
+---
+
+### Abundances → Commons Categories (10-element example record) — UPDATED 2026-04-24
+
+**Working definition (v1.2 — supersedes v1.1 from earlier-this-session Abundances pass):** The 10 commons categories the framework has examined across the 18 cases of this book's research: Habitability · Spatial · Temporal · Institutional · Kindred · Ecosystem · Political · Cohesion · Epistemic · Autonomy. **These are EXAMPLES, not a canonical or exhaustive enumeration.** Each names a commons whose abundance state CIT can invert to reveal scarcity-grounded costs. "Abundance" is the STATE of each commons (abundant vs scarce), not the commons itself.
+
+**Status:** `CURRENT` as **examples-record reference** at Ring 2 (ratified 2026-04-24 by Chris Winn — Option C' middle path with political-philosophical acknowledgment).
+
+**Term-spec version:** v1.2 (supersedes v1.1 "scaffolding construct" framing → "examples-record reference" per Option C' refinement).
+
+**Last reviewed:** 2026-04-24
+
+**Key reframing (Option C' specific):**
+- The 10 are NOT framework scaffolding (load-bearing architecture).
+- The 10 ARE framework EXAMPLES — what CIT has surfaced across the 18 cases examined.
+- Framework's UNIVERSALITY claim is about METHODOLOGY (CIT works wherever extraction operates on commons-like resources), NOT about enumeration canonicity.
+- Different political traditions have different commitments about what IS a commons; the framework accommodates rather than settles this contestation.
+- Reader application may surface different or additional commons categories in their context; framework is generative + politically-pluralistic.
+
+**Rigor provenance:**
+- Path F rigor pass — variables-not-dimensions reframing.
+- Naming-cohort rigor passes 2026-04-22 (per-element rigor) preserved.
+- Commons-as-Structural-Identity rigor pass (commit `c4b09dc`) — abundances → commons categories.
+- 10-Commons-List Dissolution rigor pass (commit `e30087e`) — Option C' ratified: examples-not-canonical + political-philosophical acknowledgment.
+
+**Political-philosophical acknowledgment (load-bearing for Ch 1 + Tech Appendix):**
+
+What counts as a commons is politically-traditionally contested:
+- **Classical liberalism** — autonomy as individual natural-right; supporting infrastructure enabling but not commons.
+- **Civic republicanism** (Pettit/Skinner) — autonomy as non-domination; requires shared institutions; commons-like dependence.
+- **Socialist/communitarian** — autonomy as enabled by shared infrastructure; the enabling conditions ARE commons.
+- **Marxist** — autonomy material-conditions dependent.
+- **Lived-oppression perspective** (slave, colonized, repressed worker) — autonomy as something denied/extracted, not shared commons.
+- **Dominant-class perspective** — autonomy as individual privilege.
+
+Framework doesn't argue universal ontology of what IS a commons. Argues: when any of these operate AS commons in a given society, extraction severs cost from that commons; CIT measures the severance. **Universality of method, examples of application, political-traditional-agnosticism on specific commons-ontology.**
+
+Politically-contested commons especially: Autonomy (Anderson 2017 *Private Government* civic-republican framing); Political (rules of voice + representation contested); Kindred (Western nuclear vs collectivist kinship norms contested); Epistemic (knowledge-as-commons vs knowledge-as-property contested).
+
+**Why Ring 2 (not Ring 1):** examples-record reference is framework-internal; not a public-adoption target.
+
+**Recommended authorial-voice positioning** (for Ch 1 / Ch 6):
+> *"This framework doesn't argue that autonomy is universally a commons, or that habitability is, or that time is. It argues that when any of these operate AS commons in a given society — shared, depended-on, collectively enabling — extraction can sever cost from that commons, and this methodology measures the severance. Different political traditions have different commitments about what is shared and what is individual. The framework works within any of those commitments. What it doesn't accept is extraction without accountability, regardless of which commons is being extracted from."*
+
+**Depends on:**
+- CIT methodology (operates on examples).
+- Path F generative framework architecture.
+- Per-commons rich profiles (preserved in methodology doc v1.4.0).
+- Bibliography commons-governance lineage (Ostrom + Hess + Klinenberg + Anderson + Polanyi).
+
+**Pairs with:**
+- CIT (Ring 1) — examples illustrate methodology.
+- Abundance Masking (Ring 2) — operates across commons examples.
+- Cᵢ (Ring 1) — admitted via CIT operating on commons.
+
+**Staleness triggers:**
+- Commons-as-structural-identity reversed.
+- New examples surfaced via CIT framework application.
+- Political-philosophical positioning challenged in academic reception.
+
+**Commit trail:**
+- Commons-as-Structural-Identity pass: commit `c4b09dc`.
+- 10-list dissolution pass: commit `e30087e`.
+- Ratification + Terms Index update: this commit.
+
+**Notes:**
+- Phase A3 Stream A sweep targets: glossary v3 → "Commons categories (examples)" entry; methodology doc rename v1.3.0 → v1.4.0; chapter audit + case-study audit framed as reproducibility record (preserved); Ch 6 restructured methodology-forward.
+- Per-commons rich profiles (v1.2.0 naming-cohort work) preserved in methodology doc — NOT chapter prose. Per Open Insight #13 (scope-creep monitoring), per-commons depth = Tech Appendix not chapters.
+- Autonomy-as-commons specifically gets explicit political-philosophical acknowledgment in Ch 1 + Ch 6 + Tech Appendix per Open Insight #18.
+
+---
+
 *End of Term Provenance Index v0.1.0. Skeleton established 2026-04-24. Populated progressively as Tier A rigor work produces records.*

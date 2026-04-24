@@ -540,13 +540,16 @@ Level 1 (Tech Appendix footnote — commons-governance lineage Ostrom + Hess + K
 
 ## §9. Author-ratified resolutions
 
-*Pending author ratification.* Recommended:
+**Ratified 2026-04-24 by Chris Winn — Option A (full reframing).** Framework structural identity formally reframed as commons-governance-extended-to-extraction. Specific ratifications:
 
-1. **Ratify Option A (full reframing).**
-2. **Ratify two-sub-form formalization of CIT** (Commons-Absence + Commons-Consumption) as methodology contribution.
-3. **Ratify Phase A3 Stream A sweep plan** per §5 (~15-25 hours; version bumps per §5.4).
-4. **Ratify commons-governance lineage positioning** in Ch 1 + Tech Appendix per §7 action-ladder compliance.
-5. **Supersede earlier Abundances rigor pass v1.0.0** (from earlier-this-session) — the commons-reframing is the ratified structural-identity framing.
+1. **The 10 are commons categories** (structural identity); "abundance" preserved as state-name for each commons.
+2. **AIT → CIT (Commons Inversion Test).**
+3. **Two CIT sub-forms** (Commons-Absence Inversion + Commons-Consumption Inversion) formalized as methodology contribution.
+4. **Abundance Masking** retained unchanged (mechanism-name precision).
+5. **Explicit commons-governance lineage positioning** in Ch 1 + Tech Appendix (Ostrom 1990 + Hess & Ostrom 2007 + Klinenberg 2018 + Anderson 2017 + Polanyi 1944).
+6. **Phase A3 Stream A sweep plan** activated (~15-25 hours).
+7. **Supersedes earlier Abundances rigor pass v1.0.0** (from earlier-this-session) — superseded by this commons-reframing.
+8. **Tightly coupled ratifications:** ratification of this pass implies ratification of Pass 2 (CIT rename) + Pass 3 (Option C' — 10-list dissolution middle path with political-philosophical acknowledgment).
 
 ---
 
