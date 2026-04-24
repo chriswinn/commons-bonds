@@ -216,9 +216,9 @@ If author ratifies rename, this pass's rigor analysis applies to whichever name 
 - Ch 7 / Ch 9 / Ch 10 existing prose — unchanged (no rewrite sweep needed unless rename adopted).
 - Substitutability Function — unchanged.
 
-### §6.3 Cross-pairing note (CSG)
+### §6.3 Cross-pairing note (post-CSG-retirement)
 
-If CSG retirement ratifies (separate pass), ARP's v2 reference "Applies across all uncertainty ranges for high-CSG resources" rewrites to "Applies across all uncertainty ranges for resources with large industrial-existential substitutability gaps." Downstream sweep task.
+**Status:** CSG retirement ratified 2026-04-24 (commit `a9acf8e`). ARP's v2 reference *"Applies across all uncertainty ranges for high-CSG resources"* must be rewritten. Post-retirement canonical form: *"Applies across all uncertainty ranges for resources with large industrial-existential substitutability gaps."* This rewrite is a Phase A3 Stream A sweep target (same sweep that handles Ch 7 + Ch 9 "CSG" → "industrial-existential substitutability gap" replacements).
 
 ---
 

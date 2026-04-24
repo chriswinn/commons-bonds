@@ -221,6 +221,40 @@ Retirements during today's session (2026-04-24) that have Terms Index records bu
 
 ---
 
+### Principle #5 — Context-flipping rules earn named-rule status
+
+**Ratified:** 2026-04-24 by Chris Winn
+**Originating context:** Asymmetric Regret Principle (ARP) rigor pass 2026-04-24. Ch 7 GuidanceDoc shows ARP directing *extract-aggressively* on Comet flyby (access window closes permanently → extraction is the reversible choice) AND *preserve* on Europa (incommensurable biosphere externality → preservation is the reversible choice). Same rule, opposite operational verdicts. Precautionary Principle can't do this — it's unidirectional. The bidirectional flip was decisive for ARP's Ring-2 promotion.
+**Scope:** every rigor pass evaluating a decision-rule / heuristic / principle candidate for named-term status.
+
+**Principle statement:**
+
+When a candidate decision rule produces opposite operational verdicts under different contexts (extract-here vs preserve-there) while remaining the *same underlying rule*, that bidirectional flip is a positive test for named-rule status. Describing such a rule in generic prose ("sometimes do X, sometimes do Y") loses the unifying principle that generates the flip. Naming the rule makes the unification visible.
+
+Conversely, unidirectional rules (rules that always point in the same operational direction) are less name-earning — they can be stated as prose imperatives without losing structure.
+
+**What this changes about my reasoning:**
+
+- When a rigor pass evaluates a decision-rule candidate (e.g., "should we name this reasoning pattern?"), I check: does the rule's operational output flip by context while the rule itself stays constant? If YES → strong name-earning signal. If NO → weaker; test parsimony + other load-bearing criteria harder.
+- When testing Principle #3 (misnaming) against a decision rule, I ask separately: is this rule bidirectional? A bidirectional rule survives Principle #3 misnaming tests that a unidirectional rule might fail, because the bidirectional structure IS the distinguishing feature.
+- When presenting rigor-pass findings, bidirectional-flip rules get explicit context-comparison tables (e.g., "Comet flyby → extract; Europa → preserve") to show the unification visible.
+
+**Why this principle matters on this project specifically:**
+
+The framework has multiple decision rules in its vocabulary (ARP; Four Gates admit-or-reject; Abundance Inversion's pass-or-fail). Not all are bidirectional. ARP is (flips based on which action is reversible). Four Gates aren't in the same sense (they either admit or reject a cost; they don't flip). AIT isn't (it confirms or denies scarcity-grounding). ARP's bidirectionality is what earns named-rule Ring-2 status where other decision rules may not.
+
+**Corollary — the diagnostic question:**
+
+For any candidate decision rule, ask: *"under different contexts, does this rule direct OPPOSITE actions while remaining the same rule?"* If yes, the rule earns named-rule status (subject to other rigor tests). If no, the rule may still earn a name via other criteria but doesn't earn it via bidirectionality.
+
+**Examples in the framework:**
+- **Asymmetric Regret Principle** (ARP) — bidirectional (flips on which action is reversible). PASSES.
+- **Precautionary Principle** (established literature) — unidirectional (always toward prevention). Framework doesn't name it; cites it.
+- **Abundance Inversion Test** (AIT) — not a direction-rule; a test. N/A.
+- **Option-Preservation** (candidate framing for ARP rename) — bidirectional (preserve optionality either by acting or by not acting). PASSES; candidate rename for ARP captures the same bidirectional structure.
+
+---
+
 ## §3. Candidate principles (articulated but not yet ratified as such)
 
 ### Candidate — Option-space breadth is load-bearing
