@@ -179,6 +179,47 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Dependencies / Links:** Web literature search results 2026-04-24. Terms Index update v1.1 (this commit). Phase A3 citation sweep pending.
 - **Todo link:** "Review Open Insight #10 remainders: (i) Cost Severance naming collision rigor pass; (ii) Phase A3 citation sweep plan."
 
+### Insight #16 — Two CIT sub-forms (Absence-Inversion + Consumption-Inversion) as methodology-contribution book content
+
+- **Raised:** 2026-04-24 by Chris Winn + me collaboratively. Surfaced during commons-as-structural-identity rigor pass. Author direction: *"Make sure we capture this as that is a marvelous insight that likely needs to be somewhere in the book."*
+- **Status:** captured · placement deferred to chapter revision phase (Phase B or later). Preserved in Tech Appendix methodology via CIT rigor pass regardless; this insight is about chapter-level prose treatment.
+- **Category:** framework-methodology contribution · chapter placement · craft
+- **Content:** AIT's "invert the abundance state" language collapsed two operationally distinct modes of the test. Under the CIT reframing, the two sub-forms become visible:
+
+  **Commons-Absence Inversion** — imagine the commons not existing at all.
+  - **Paradigm cases:** oxygen in space; water on Mars; McDowell habitability destroyed by coal extraction; Deepwater's Gulf ecosystem absent; Libby's protected-workplace-health commons eliminated.
+  - **Operational question:** *what would it take to replace the commons?* (Or: what costs does the commons carry for free that would become visible bills if the commons were gone?)
+  - **Typical application:** physical-resource extraction cases; civilizational-scale destruction; hypothetical off-Earth scenarios.
+
+  **Commons-Consumption Inversion** — imagine the commons not being consumed.
+  - **Paradigm cases:** commute time returned (5 hours/day saved); forest uncut; attention not harvested; lifetime-hours not sold to employer beyond needed work.
+  - **Operational question:** *what could the commons do if not drawn down?* (What opportunities does the consumed commons foreclose that weren't visible at the moment of choice?)
+  - **Typical application:** time-commons + attention-commons + opportunity-commons cases; personal-scale extractions; information-asymmetric self-severance cases.
+
+- **Why it matters for the book:**
+  - **Methodology clarity:** two named sub-forms make CIT's operational flexibility visible. Readers learn when each applies.
+  - **Audience bridging:** Absence-Inversion resonates with readers who think about extraction in environmental/resource terms (Ostrom / Klein / Raworth reader). Consumption-Inversion resonates with knowledge-worker readers whose own lives have been commons-consumed by the attention/time economy. The framework reaches both audiences by naming both modes.
+  - **Case-class organization:** the framework's 18+ cases naturally split by sub-form. McDowell, Deepwater, Libby, Chesapeake, Norway, asteroid scenarios = Absence. Commute, healthcare-time, 2008-retirement-savings-consumed, 120-hour-week = Consumption. Some cases exercise both (mining destroys habitability AND consumes land).
+  - **Pedagogical economy:** Ch 6 can introduce CIT with ONE paradigm from each sub-form (e.g., Habitability-Absence for McDowell; Time-Consumption for commute-story). Two cases teach the full method. Without the sub-form distinction, readers have to infer the flexibility from scattered examples.
+  - **Adoption durability:** having two distinct framed modes gives the framework more surface area for travel — a legal brief, policy paper, or academic article can cite CIT with the appropriate sub-form, which is more useful than citing "the abundance inversion test" abstractly.
+
+- **Proposed book placements:**
+  - **Ch 6 (methodology)** — introduce CIT with both sub-forms + one paradigm case each. Most likely primary placement.
+  - **Tech Appendix methodological section** — full formalization with more paradigm cases + operational guidance for each sub-form. Already captured via CIT rigor pass.
+  - **Ch 1 (if personal narrative opens)** — the commute-story (Candidate #1) is paradigm Consumption-Inversion. If Ch 1 opens with commute, the sub-form is implicitly introduced there and formalized in Ch 6.
+  - **Ch 7 (asteroid miner)** — paradigm Absence-Inversion. The two-sub-form framing could cross-reference: "Ch 1's commute story was Commons-Consumption; the asteroid miner is Commons-Absence; the framework handles both."
+  - **Ch 10 (closing)** — possible reflective use showing framework's operational flexibility across both modes.
+
+- **Distinction vs prior capture:**
+  - **Tech Appendix methodology** (via CIT rigor pass): formal mechanism-level treatment. Captured.
+  - **Terms Index CIT record:** ready-reference. Captured.
+  - **This Open Insight:** tracks the CHAPTER-LEVEL prose treatment + placement decisions. Additive to Tech Appendix treatment.
+
+- **Dependencies / Links:** CIT rigor pass; commons-as-structural-identity rigor pass; Open Insight #15 (chapter revision thread — Ch 6 methodology treatment); Personal Stories Candidates Candidate #1 (commute trade — paradigm Consumption case).
+- **Todo link:** "Review Open Insight #16: two CIT sub-forms chapter placement — decide Ch 1 / Ch 6 / Tech Appendix distribution during chapter revision."
+
+---
+
 ### Insight #15 — Chapter revision thread: apply Accountability-Bond epistemic-humility discipline across Ch 4 / Ch 5 / Ch 6 / Ch 9 / Ch 10
 
 - **Raised:** 2026-04-24 by Chris Winn (during epistemic-humility discipline ratification): *"capture this as a possible thread to review when we get past the terminology and start revising chapters"*
