@@ -130,7 +130,8 @@ Each term carries its own `term-spec version` independent of document versions. 
 
 **Records populated in §4 (2026-04-24):**
 - Spatial Cost Severance — `RETIRED` (misnamed; abundance-cost not severance).
-- Temporal Cost Severance — `RETIRED` (replaced by lowercase prose phrase "intergenerational cost severance"; capitalized term failed on adjective-choice + framework-usage-evidence grounds).
+- Temporal Cost Severance — `RETIRED` (replaced by lowercase prose phrase "intergenerational cost severance").
+- intergenerational cost severance (lowercase prose phrase) — `CURRENT` (adopted as standard book descriptor for the intergenerational subtype of Cost Severance).
 - Cost Bearing — `SUPERSEDED` (demoted from glossary to prose-only; role-description not framework-technical).
 - Value Capture / Value Extraction — pending batch ratification (Ring-1 synthesis).
 
@@ -139,6 +140,59 @@ Each term carries its own `term-spec version` independent of document versions. 
 ## §4. Established records
 
 *(Records below are populated as rigor passes land. Each record's body summarizes the pass's verdict; full pass documents live at `tools/rigor-passes/`.)*
+
+---
+
+### intergenerational cost severance (lowercase prose phrase)
+
+**Working definition:** the intergenerational subtype of Cost Severance — value captured now, costs borne by future generations. Used as a lowercase descriptive phrase composing the framework's existing "intergenerational" adjective (109 framework uses) and "cost severance" Ring-1 term (227 framework uses). Not a capitalized proper-noun compound.
+
+**Status:** `CURRENT` as lowercase prose phrase (ratified 2026-04-24 by Chris Winn). Replaces the retired capitalized "Temporal Cost Severance" term.
+
+**Term-spec version:** v1.0 (first sanctioned spec).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Focused rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_intergenerational_cost_severance_v1.0.0.md` (2026-04-24) — Option A PASSES UNCONDITIONALLY. Wins on every module with meaningful signal.
+- Companion pass (same date): Temporal Cost Severance retirement — the paired move that retires the capitalized term in favor of this lowercase phrase.
+- Audit finding: framework's natural language already composes "intergenerational" + "cost severance" ~109 + 227 times; this ratification formalizes consistency of the existing pattern.
+- Principle-#3 variant-subtype check: PASSED (intergenerational IS a genuine subtype of Cost Severance).
+
+**Lowercase discipline is LOAD-BEARING:**
+- Capitalizing the phrase as a proper-noun compound would reintroduce the jargon-inflation problem that sank "Temporal Cost Severance."
+- The phrase is the composition of two existing framework concepts (one abstract, one Ring-1); it does not warrant proper-noun status on its own.
+- Style-guide discipline (per Conditions 3 of the rigor pass): use lowercase always; do not capitalize even at sentence start where possible (restructure sentence if needed).
+
+**Academic connections:**
+- Intergenerational equity (Weiss, Brown-Weiss)
+- Intergenerational justice (Rawls, Parfit)
+- Intergenerational ethics (Broome, Stern, Nordhaus)
+- Intergenerational mobility (Chetty, Piketty)
+- The phrase slots cleanly into these established discourses.
+
+**Depends on:**
+- Cost Severance (Ring 1 parent concept)
+- "intergenerational" adjective (framework's existing heavy usage)
+- Principle-#3 variant-subtype discipline (passed — genuine subtype, not misnaming)
+- Lowercase discipline (prevents jargon inflation)
+
+**Staleness triggers:**
+- Cost Severance concept redefined in a way that changes the subtype-mapping.
+- Phrase drifts into capitalized usage — triggers lowercase-discipline re-test.
+- Published peer review identifies systematic ambiguity in compositional use.
+
+**Commit trail:**
+- Focused rigor pass: commit `1be07e0` (2026-04-24).
+- Companion Temporal Cost Severance retirement ratification: commit `4435488` (2026-04-24).
+- This adoption ratification: this commit.
+
+**Supersedes:** implicit composition-only usage (0 prior exact-phrase occurrences; now formalized as the book's standard descriptor). Supersedes "Temporal Cost Severance" capitalized term as the replacement-phrase of choice.
+
+**Notes:**
+- This phrase is NOT a technical term like Cost Severance, RCV, or AIT. It is a descriptive compound used consistently per style-guide discipline.
+- Completes the Option-C outcome from the Temporal-Cost-Severance rigor pass. Both passes together ratified 2026-04-24: retire "Temporal Cost Severance"; adopt "intergenerational cost severance" in prose.
+- Phase A3 sweep targets: glossary v3 sub-entry under Cost Severance (~5 min); Ch 6 integration at Approach 3 (~10 min); Ch 6 guidance doc style-note (~5 min).
 
 ---
 

@@ -477,11 +477,15 @@ Wins on every module with meaningful signal. M1 and M7 indifferent (CORE and ori
 - (D) Context-dependent use.
 - (E) No subtype distinction.
 
-**Ratified decision:** *(pending)*
+**Ratified decision (2026-04-24, Chris Winn):** **Option A — ADOPT "intergenerational cost severance" (lowercase) as the book's standard prose phrase for the intergenerational subtype of Cost Severance.** Together with the ratified retirement of capitalized "Temporal Cost Severance" (2026-04-24), this completes the paired move: retire the capitalized weak term; adopt the lowercase strong phrase.
 
 ### §18.2 Conditions 1–4
 
-**Ratified decision:** *(pending)* — each condition individually ratifiable.
+**Ratified decision:** APPROVED. All four conditions proceed:
+- Condition 1: Glossary v3 sub-entry under Cost Severance explaining the intergenerational subtype (lowercase prose phrase; not capitalized proper-noun).
+- Condition 2: Ch 6 integration at Approach 3 / Foreclosure Cost discussion.
+- Condition 3: Style-guide discipline note in Ch 6 guidance doc.
+- Condition 4: Terms Index §4 provenance record (this commit).
 
 ---
 
