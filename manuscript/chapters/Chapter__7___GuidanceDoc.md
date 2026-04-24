@@ -470,3 +470,56 @@ Within Chapter 7 (The Colony Administrator), the cross-scenario testing already 
 
 These within-chapter comparisons strengthen the argument because they show the model isn't a blunt instrument that says "extraction bad." It's a sensitive instrument that says "extraction under these conditions produces this much cost severance, and extraction under different conditions produces a different amount." That sensitivity is what makes it credible.
 
+---
+
+## Multi-perspective application example — asteroid mining contract scenario (added 2026-04-23 per PCR v1.0.0 Cross-cutting Finding 3)
+
+**Source + rationale:** Path Comparison Report v1.0.0 (Path Comparison Mode applied to framework-scope decision) surfaced the asteroid-miner-considering-off-world-contract example as decisive evidence for the framework's individual-scale usability (Goal-2 — individual readers apply the framework to their own decisions). The example is currently absent from the manuscript and from this guidance doc.
+
+**Test-suite assessment (M1.5 + M2 + M3 + M5 + M7 + M8 + M11) on whether to expand to multi-perspective + Earth equivalent:** EXPAND. Strengthens on 7 modules (M1.5 universality, M2 chapter fit, M3.4 counterargument coverage, M7 originality, M8 long-term, M11 C9 + C10 + C13 + C24); weakens recoverably on 2 (M3.1 trying-to-do-too-much, M5 dinner-table). Earth-equivalent perspective is the highest-leverage addition because it connects the speculative asteroid scenarios to current-day extraction contexts where readers actually live.
+
+**Recommended placement within Ch 7:** extend the existing cross-scenario universality-test material (currently scenarios 1–8) with a multi-perspective "applied" demonstration that walks the framework through a single asteroid-mining contract scenario from four stakeholder perspectives + one Earth-based equivalent. Treat as the chapter's pivot from "the model produces correct answers across scenario types" to "the model produces actionable answers across stakeholder positions within a single scenario" — which sets up Ch 8 (one extraction worked through all tiers) and Ch 9 (policy response).
+
+**The four perspectives:**
+
+1. **The asteroid miner considering the off-world contract (individual scale, off-Earth).**
+   - Activates: Habitability (bodily safety, biological adaptation, life-support dependency), Kindred (family separation, communication delay across distance + time, dependents the miner is responsible for), Temporal (return-trip uncertainty, post-contract Earth-economy reintegration delay), Autonomy (constrained consent — what alternatives exist back on Earth?), Institutional (contract enforceability across jurisdictions; legal recourse if the company fails on its obligations).
+   - Tier signature: Tier 1 (direct survival risk) + Tier 3 (dynastic — family back on Earth bears the cost of separation) + Tier 4 (foreclosure of return options if contract terms degrade).
+   - Application: applies AIT to the contract terms — what scarcity does this contract operate on? Identifies which tiers the offered compensation covers and which it leaves uncovered. Computes residual cost severance. Uses the result in negotiation: "the offered B doesn't cover Tier 3 dynastic costs; I need either a higher base + family-support stipend, or a shorter contract term, or both."
+
+2. **The asteroid mining company (corporate scale, off-Earth).**
+   - Activates: Institutional (regulatory exposure across jurisdictions; reserve-bond requirements; insurance), Political (geopolitical positioning between Earth-based regulators and any off-Earth governance), Temporal (extraction-rate optionality — extract now vs. preserve for future demand), Epistemic (worker-safety information disclosure standards), Ecosystem (any biological hazards the operation exposes the workforce to).
+   - Tier signature: Tier 7 (political capture cost the company has the resources to attempt) + Tier 8 (temporal displacement — extraction-pace decisions affect future colony viability) + bonding-side calculations on Tiers 1, 4, 5.
+   - Application: applies AIT to its own extraction model — what costs is the company currently externalizing? Computes the bond required to make contracts socially acceptable. Decides between (a) raising compensation to internalize, (b) restructuring extraction pace to reduce externality tail, (c) accepting that some operations are not viable under honest accounting.
+
+3. **The asteroid colony administrator (community-government scale, off-Earth).**
+   - Activates: Spatial (the asteroid is the commons; extraction reduces the commons), Temporal (intergenerational reserve preservation; what does the next generation inherit?), Cohesion (social impact of extraction-rate decisions on colony fabric), Political (distributional fairness across colony residents — who captures the value, who bears the cost), Institutional (governance instruments available to set extraction policy).
+   - Tier signature: Tier 4 (foreclosure of resource for colony's long-term viability) + Tier 5 (community-transition reserve — what happens when this asteroid is depleted?) + Tier 7 (political capture pressure from extraction firms) + Tier 8 (temporal displacement — pace of extraction relative to colony's capacity to absorb).
+   - Application: applies AIT to extraction-policy decisions — what are the cumulative cost-severance effects of permitted extraction across all operating contracts? Sets bond requirements that the framework computes are necessary to make the operations colony-net-positive. Negotiates with extraction firms from a framework-grounded position rather than a purely-political position.
+
+4. **Earth-based equivalent — McDowell County coal miner considering an extraction job (individual scale, Earth) — connects to Ch 2 anchor case.**
+   - Activates: same dimension set as the asteroid miner but with different parameter values. Habitability (black lung; not asphyxiation but the same dimensional cost). Kindred (family in the hollows; different geography but same dynastic-cost shape). Temporal (post-extraction-economy reintegration; the cost of staying when the mine closes). Autonomy (constrained consent under company-town conditions historically; under landlord-class housing capture currently). Institutional (bond requirements under SMCRA; regulatory enforcement gaps).
+   - Tier signature: same as the asteroid miner — Tier 1 + Tier 3 + Tier 4 — with different parameter values.
+   - Application: the McDowell coal miner historically did not apply this framework because it didn't exist. The framework's contribution is to make this analytical apparatus available to any worker considering any extraction job. The Earth-equivalent demonstrates that the same multi-perspective analysis the asteroid miner performs is performable today by current workers — the framework operates at present-day Earth-extraction scale, not just at speculative-future-off-Earth scale.
+
+**Why all four perspectives matter together:**
+
+The single-perspective version (just the miner) demonstrates Goal-2 (individual readers apply the framework). The multi-perspective version demonstrates that the framework operates as a *negotiation instrument* across the full stakeholder set in any extraction context. The Earth equivalent grounds the speculative scenarios in present-day applicability — readers can apply this Tuesday morning, not in a hypothetical future. Together the four perspectives demonstrate the framework's full operational range in a single scenario architecture.
+
+**Register notes:**
+
+- Each perspective: 2-4 paragraphs maximum. Total addition to Ch 7: ~1,000-1,500 words.
+- Compress aggressively — this is a worked example serving the universality argument, not a deep case study. Use the 8 cross-scenarios above as the model for compression (each scenario gets ~150-300 words of analysis).
+- Earth-equivalent paragraph should explicitly cross-reference Ch 2 (McDowell coal anchor case) so the connection is visible, not implied.
+- Asteroid scenario specifics (asteroid composition, contract length, colony size, etc.) — use the same setup as the existing Mars-water-ice colony for continuity, or reference a new asteroid scenario that complements it.
+
+**Cross-chapter coordination:**
+
+- **Ch 1 guidance** — note the framework-as-tool framing in Ch 1 should reference forward to Ch 7's worked example as "the kind of application this book teaches you to do."
+- **Ch 10 guidance** — note Ch 10 closing can briefly reference the asteroid-miner example as the demonstration of "tool readers apply in their own contexts."
+- **Ch 8 guidance** — Ch 8's tier-by-tier worked McDowell coal example pairs with Ch 7's multi-perspective application. Ch 7 = how the framework applies across stakeholders within a scenario; Ch 8 = how the framework prices an extraction tier-by-tier within a single perspective. Don't duplicate; complement.
+
+**Path-dependency note:**
+
+If Path F (variables-not-dimensions reframing per PCR v1.0.0 §2 Path F) is adopted at PCR §8, this example will reframe — each perspective discovers its variables via AIT rather than being structured around the canonical 10 dimensions / 8 tiers. The example survives the path choice; only the framing changes. Until §8 is filled in, write to current framework canonical state (10 dimensions + 8 tiers as named here).
+

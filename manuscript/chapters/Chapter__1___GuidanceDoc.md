@@ -225,3 +225,9 @@ Pick one. Both the plane opener and the additional scene should be Chris's obser
 
 - **C14 (Appalachian reader), C15 (young worker), C16 (former IT consultant), C21 (nursing colleague), C22 (MFA critic)** all press on this chapter.
 - **Ch 1 is the register-establishment chapter.** Every subsequent chapter's register is tested against Ch 1's baseline. If Ch 1's first-person voice lands, the book's register is secured. If it does not, no subsequent chapter can carry the book by itself.
+
+---
+
+## Forward-reference to Ch 7 multi-perspective worked example (added 2026-04-23 per PCR v1.0.0 Cross-cutting Finding 3)
+
+Ch 1's "this book is about that structure — or rather, the absence of it" pull-back paragraph (or whatever Chris's drafted equivalent ends up being) can include a brief forward-reference to Ch 7's multi-perspective worked example (asteroid mining contract scenario from miner / company / colony administrator + Earth-equivalent McDowell coal miner perspectives — see Ch 7 guidance). The forward-reference frames the book as a tool readers will learn to apply, not just a framework readers will learn to recognize. One sentence is sufficient — something like "by the time you reach the chapter on the colony administrator, you'll have an analytical apparatus you can apply to any extraction situation in your own life: the contract you're considering, the community you live in, the work you do." Specific phrasing is Chris's authorial call; the function is to plant the apply-this-to-yourself frame early so Ch 2-9 read as *teaching the reader the apparatus*, not as *displaying the apparatus to the reader*. Pure Register 1 — no framework vocabulary; the forward-reference reads as authorial promise, not as definition.
