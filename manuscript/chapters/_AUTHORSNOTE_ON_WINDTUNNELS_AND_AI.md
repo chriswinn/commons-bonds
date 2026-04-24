@@ -82,5 +82,21 @@ This mutual-permissioning is load-bearing. Without it, the AI defers to the ques
 
 ---
 
+---
+
+**2026-04-24 — Pattern: AI as peer-review surrogate**
+
+Context: Chris is a solo author without institutional academic affiliation, PhD-level economics training, or an established peer-review network. Prior to the book's submission to any publisher, prize, or journal, the entire stress-testing process — methodological rigor, originality check, cross-perspective review, adversarial reading — is executed by the AI running the project's rigor protocol testing suite. There is no faculty advisor reviewing drafts. There is no writing group reading chapters. There is no informal network of economists checking the math. The AI is the peer-review process.
+
+This is not a peripheral detail; it's load-bearing for how the book reaches the reader. The rigor protocol (v2.2.0's 11 modules — Framework CORE, Case study, Book content, Craft, Dinner-table, Academic rigor, Originality, Long-term potential, Risk exposure, Publishing path, Critic pressure — plus Path Comparison Mode and informational-goals alignment) is designed to simulate the review perspectives a traditionally-reviewed book would encounter. The AI runs these modules at extreme rigor. Chris reviews the output. The process iterates until the framework survives the tests or a test exposes weakness requiring revision. All rigor-pass documents are preserved in the repository alongside the book, available for any reader to inspect.
+
+The candid framing for the AI Statement: the AI is not only an instrument (the wind tunnel), it is also a review substitute. A reader evaluating the book's credibility needs to know this. If the testing-suite substitution is adequate to the book's claims, the book stands on its rigor-tested merits. If the substitution is inadequate, the book's structural claims deserve the skepticism owed to unreviewed work. The transparency invites the reader to make that judgment themselves.
+
+Originating context: articulated 2026-04-24 by Chris — *"the perspective is a person who's 'entire' peer review process prior to showing this book to someone for consideration in publishing, originality, peer review... really anything... is asking an AI to run this test suite. So step back and revise this test rigor suite to actually be what we need vs. what it currently is."* — which is why the rigor suite was revised to the modular + path-comparison + informational-goals v2.2.0 form, designed specifically for this substitution role.
+
+**Why this matters for the final AI Statement:** this is more consequential than a division-of-labor note. It's a structural admission about what the AI is doing in this project — not just testing a framework but *standing in for the peer-review infrastructure the author lacks.* Acknowledging this directly makes the rigor claims evaluable. It shifts the AI Statement from "AI as research collaborator" to "AI as research collaborator + peer-review surrogate." That's a different claim, and it deserves explicit verbiage in the final prose.
+
+---
+
 **[Future additions land here as patterns are observed. Each entry: date, context, pattern description, why it matters. Tentative until woven into the final prose.]**
 
