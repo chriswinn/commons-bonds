@@ -287,3 +287,44 @@ Second, address the agency question honestly. Yes, these communities chose minin
 
 Third, the transition is the hardest part, and the book must be honest about this. The communities that will be most harmed by the transition to honest pricing are the same communities that were most harmed by the extraction itself. This is cost severance operating a second time — first the extraction severed costs onto them, now the transition severs new costs onto them. The framework must include transition support for extraction communities funded by the pricing surplus. Not charity. Not paternalism. Compensation for decades of underpriced extraction, delivered as investment in economic diversification, education, healthcare, and infrastructure. The pricing surplus exists precisely because these communities were underpaid. Returning it to them is restitution, not welfare.
 
+
+---
+
+## Phase A2 additions to Ch 6 draft — Path F reframing (added 2026-04-24)
+
+Three subsections were added to the Ch 6 draft during Phase A2 (Tasks 7, 8, 9). Current Ch 6 section ordering after those landings:
+
+1. Opening (Register 1)
+2. Approach 1 — Bottom-Up Damage Accounting
+3. Approach 2 — The Real Options Model
+4. Approach 3 — The RCV Model (formula introduced here)
+5. The Substitutability Function
+6. The Convergence (backtest table)
+7. The Norway Backtest
+8. **The Four Gates** *(new, Task 9)* — paragraph-length summary of AIT + dimensional + boundedness + independence gates + one paragraph referencing Technical Appendix §L (gate formal statements) and §M (sum-of-costs generalization); ~500 words; Register 2.
+9. **The Contribution** *(new, Task 8)* — ~1,050 words; three distinctions from Pigouvian externality theory (substitutability-weighting + integrated architecture + AIT method) + worked comparative examples for McDowell coal, Deepwater Horizon, Libby; Register 2, confident tone per rigor pass §11.4.
+10. What the Critics Will Say
+11. The Carbon Concession
+12. **Reproducibility and the Range of Defensible Estimates** *(new, Task 7)* — ~625 words; frames the framework's output range against field practice (SCC $3–$190 as model); transparency discipline; inter-rater reliability studies as downstream work; Register 2, matter-of-fact tone per rigor pass §11.3.
+13. What the Chapter Leaves for Later
+
+### Four Gates subsection — placement rationale
+
+Positioned between Norway Backtest and The Contribution because Norway demonstrates the framework differentiates; the four-gate note explains *how* it differentiates (what admits variables to the computation); "The Contribution" then explains *what's new* relative to Pigouvian analysis. The flow is Norway → gates → contribution → critics → concessions → what's left for later. Revision discipline: when the Ch 6 draft is next revised, preserve the four-gate subsection's convention of (a) stating each gate in a single paragraph and (b) referring formal mathematical content to the Technical Appendix rather than absorbing it into the body. Body text is Register 2 without Register 1 entry point at this position — the reader has already crossed the formula threshold.
+
+### The Contribution subsection — cross-reference
+
+Ch 1's §"Ch 1 and the intellectual-tradition signal" (2026-04-24 guidance addition) is the Register 1 complement to Ch 6's Contribution section. Ch 1 carries at most a one-sentence tradition-signal; Ch 6's Contribution section carries the full Pigou-distinction argument with worked examples. Do not cite Pigou by name in Ch 1.
+
+### Reproducibility subsection — future-work scoping
+
+The subsection explicitly scopes inter-rater reliability studies as downstream work rather than a framework precondition. If Chris wants to expand this into a book-end epilogue or Ch 10 closing thread (e.g., "what research would strengthen this framework"), the reproducibility subsection's future-work flag is the canonical reference point.
+
+### Cross-references
+
+- Technical Appendix Section L (four-gate formal specifications) — v0.0.4, 2026-04-24.
+- Technical Appendix Section M (formula generalization + sum-of-costs derivation) — v0.0.4, 2026-04-24.
+- Rigor pass 2026-04-24 §11.1–§11.4 — Conditions 1–4 of Path F PASS-WITH-CONDITIONS resolution, now materially implemented in Ch 6 body + Technical Appendix v0.0.4.
+- Ch 1 guidance doc §"Ch 1 and the intellectual-tradition signal" — Register 1 complement to Ch 6 Contribution section.
+
+---
