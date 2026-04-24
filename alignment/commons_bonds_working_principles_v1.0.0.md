@@ -126,7 +126,7 @@ Cost Severance is the framework's flagship mechanism. Its precision is load-bear
 
 ### Principle #4 — Retirements preserve their history in-document
 
-**Ratified:** 2026-04-24 by Chris Winn (pending confirmation): *"When we update/retire words it probably makes sense to update the current documents it's used in, and simply add a note that the word was retired as of version #.#.# of the document, and perhaps a pointer to the associated document that captures the reason(s) why."*
+**Ratified:** 2026-04-24 by Chris Winn. Confirmed 2026-04-24 with extension per second directive: *"Additionally include a pointer to the associated document that captures the reason(s) why it's used in the then current document."* Originating articulation: *"When we update/retire words it probably makes sense to update the current documents it's used in, and for all older files maybe simply add a note that the word was retired as of version #.#.# of the document, and perhaps a pointer to the associated document that captures the reason(s) why."*
 
 **Originating context:** as the project retires vocabulary items (FGC, 8 tier labels, Spatial Cost Severance, Abundance Masking, Universality Test, Value Capture pending, Temporal Cost Severance pending, etc.), silently sweeping each retired term out of the documents where it appears creates a readability gain but destroys the audit trail. A future reader encountering a reference to a retired term — or noticing a retired term's absence — has no in-document signal explaining what happened. Making retirement traces visible preserves the reasoning chain.
 
