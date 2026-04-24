@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-23 · v1.36.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .decision     { background: #f3e8ff; border-left: 4px solid #7a3ea1; padding: 1em 1.2em; margin: 1em 0; }
+  .operating    { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .milestone    { background: #e8f2fa; border-left: 4px solid #2a5a8c; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .snippet      { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .version  { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-23 · Version <span class="version">1.36.0</span> · Supersedes v1.35.0 · Same-day continuation. Session theme: <strong>rigor protocol rewrite from single-state assessment instrument (v1.3.0) to purpose-driven Pre-Submission Peer Review Suite (v2.0.0) + Path Comparison Mode (v2.1.0)</strong>. 3 commits since v1.35.0. The suite is now positioned to answer the framework-scope decision Chris has been signaling — comparative-state decisions are now suite-grounded rather than gut-led.</p>
+
+<div class="status">
+<strong>STATUS:</strong> <strong>Rigor protocol at v2.1.0.</strong> Pre-Submission Peer Review Suite (11 purpose-driven modules M1-M11) + Path Comparison Mode (comparative-decision instrument). Single-state output = PSR; comparative-state output = PCR. All v1.3.0 tests + all v2.0.0 modules preserved; v2.1.0 is additive. Framework canonical state unchanged from v1.35.0 — 10 dimensions LOCKED, tier-structure decision still deferred (now explicitly pending PCR-grounded resolution). Framework-scope decision is the headline priority for next session; v2.1.0 is the instrument for that decision.
+</div>
+
+<div class="snippet">
+<h2>Copy-paste snippet for next session start</h2>
+<pre>Starting Commons Bonds session — picking up from handoff v1.36.0 (2026-04-23).
+
+Please read these files before responding:
+- commons-bonds-session-handoff-2026-04-23_v1.36.0.html  (this handoff — read first)
+- tools/commons_bonds_rigor_protocol_v2.1.0.md  (canonical rigor protocol + Path Comparison Mode)
+- core/chapters/commons_bonds_chapter_audit_v1.0.5.md
+- core/case-studies/commons_bonds_case_study_audit_v1.0.5.md
+- tools/commons_bonds_guiding_constraints_v1_0_0.md
+- core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md
+
+Current canonical state to verify:
+- Rigor protocol: v2.1.0 canonical (11-module Pre-Submission Peer Review Suite
+  + Path Comparison Mode). v1.3.0 at tools/archive/; v2.0.0 retired same-day
+  via git history.
+- 10 dimensions LOCKED: Habitability, Spatial, Temporal, Institutional, Kindred,
+  Ecosystem, Political, Cohesion, Epistemic, Autonomy.
+- Chapter audit v1.0.5; case-study audit v1.0.5; 18 cases profiled.
+- 8 chapter drafts at ~42,700 words / ~155 pages; projected full book ~53-55k.
+- Technical Appendix v0.0.3.
+- Rigor protocol v2.1.0 §22 §22 Path Comparison Mode is the instrument for the
+  framework-scope decision (Paths A-F including Path F variables-not-dimensions
+  reframing).
+- Operating discipline: smaller focused commits, push each to main directly.
+
+Top priority this session (in order):
+1. RUN FULL PCR — apply v2.1.0 Path Comparison Mode to Paths A-F for the
+   framework-scope decision. Deliverable: commons_bonds_pcr_2026-04-23_v1.0.0.md
+   at tools/pre-submission-reviews/. The framework-scope decision then proceeds
+   suite-grounded rather than gut-led. See §22.8 of the protocol for path specs.
+2. Apply PCR outcome: execute the chosen-path revisions on the framework,
+   chapter drafts, case studies, audits. Scope depends on which path wins.
+3. Any remaining work surfaced by the PCR that isn't covered by path choice
+   (e.g., sensitivity-reader engagement for indigenous case, Chesapeake
+   fieldwork, Ch 1 + Ch 3 authorial drafting).
+
+Additional thoughts for this session (Chris, fill in here before sending):
+[                                                                                           ]
+[                                                                                           ]
+</pre>
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY — framework-scope decision via PCR run</h2>
+
+<p>v2.1.0 was built specifically for this decision. The path set is articulated at protocol §22.8:</p>
+
+<ul>
+  <li><strong>Path A — Status quo.</strong> All 10 abundance dimensions + 8-tier decomposition + AIT + RCV + CS + formal vocabulary + 18 case studies + extensive elaboration. Current state.</li>
+  <li><strong>Path B — Compress to CORE.</strong> AIT + RCV + CS + vocabulary + small case-study illustrative set. Dimensions and tiers retired. Aggressive simplification.</li>
+  <li><strong>Path C — Hybrid (dimensions kept, tiers retired).</strong> 10 dimensions as case-classification heuristic; 8-tier retired.</li>
+  <li><strong>Path D — Hybrid (tiers kept, dimensions retired).</strong> 8 tiers as accounting structure; 10 dimensions retired.</li>
+  <li><strong>Path E — Aggressive minimum.</strong> CORE only + cases as illustrations of mechanism, not framework.</li>
+  <li><strong>Path F — Variables-not-dimensions reframing (NEW).</strong> CORE same as Path B. 10 abundances + 8 tiers reframed as <em>examples of variables AIT discovered in our cases</em> — illustrative, not ontological. Framework becomes generative: readers apply method in their own contexts. Asteroid-miner-considering-off-world-contract example directly satisfies Goal-2.</li>
+</ul>
+
+<p><strong>The PCR run will produce:</strong></p>
+
+<ul>
+  <li>CORE-survival gate verdict per path (M1 applied).</li>
+  <li>Standing-gate verdicts per path (3 gates × 6 paths).</li>
+  <li>Per-path × per-module findings for modules mapped to Chris's four goals.</li>
+  <li>Per-goal aggregate score per path.</li>
+  <li>Cross-path trade-off surface (where paths win on one goal and lose on another).</li>
+  <li>Per-goal recommendations + decision rationale.</li>
+</ul>
+
+<p>After the PCR lands, the framework-scope decision becomes Chris's explicit choice with the suite's findings in front of him. The chosen-path revisions then become the next session's work: execute the revisions on framework, chapter drafts, case studies, audits, and any downstream artifacts.</p>
+</div>
+
+<h2>Session v1.35.0 → v1.36.0: accomplishments</h2>
+
+<p class="meta">3 commits pushed to main. Session theme: rigor protocol rewrite. Smaller-focused-commits discipline maintained with checkpoint pattern (first commit was a partial checkpoint protecting the architectural fix; second completed v2.0.0; third added v2.1.0 Path Comparison Mode).</p>
+
+<div class="milestone">
+<h3>Phase 1 — v2.0.0 rewrite from v1.3.0 (2 commits)</h3>
+<p>Commits <code>89a6037</code> (checkpoint), <code>b77423e</code> (final):</p>
+<ul>
+  <li><strong>Structural reorganization</strong> from v1.3.0 test-type groups (Group A / §5A / Groups B-F / 25-character suite) to v2.0.0's 11 purpose-driven modules. Every v1.3.0 test preserved; none dropped.</li>
+  <li><strong>M1 rescoped to CORE only</strong> per Chris's framework smell-test concern. v1.3.0 + v2.0.0-initial had conflated framework CORE (AIT + RCV + CS = RCV − B + formal vocabulary + universality) with framework ELABORATION (10 dimensions + 8 tiers + two-path + merger/primitiveness). Mid-revision corrected: M1 tests CORE only. §5.1 NEW framework-CORE-vs-elaboration scope note.</li>
+  <li><strong>M1 sub-tests:</strong> M1.1 AIT (preserved + expanded methodological defense); M1.2 RCV formula integrity (NEW — mathematical coherence + variable definition + worked-example agreement + boundary cases); M1.3 CS = RCV − B coherence (NEW); M1.4 Formal vocabulary integrity (NEW — 9 canonical terms tested); M1.5 Universality across scales × environments (rescoped from dimension-level to core-level).</li>
+  <li><strong>Two-path rigor relocated</strong> from framework-level to M2 Case Study as PRIMARY case-level diagnostic.</li>
+  <li><strong>3 new modules:</strong> M2 Case study tests, M4 Craft tests, M9 Risk / exposure (consolidated).</li>
+  <li><strong>M9 Risk Register format</strong> — every risk entry uses cross-cutting FINDING / Reviewer voice / What this means / SOLVE / MITIGATE / SHOW-STOPPER format.</li>
+  <li><strong>M10 Publishing path 4-endpoint breakdown</strong> (per Chris's request) — literary agents / book publishers (trade / university / hybrid) / magazine publishers / essay publishers. Each endpoint has its own venue-fit verdict with different criteria.</li>
+  <li><strong>Standing Gate C (NEW):</strong> Sensitivity-reader engagement elevated from case-file-specific (indigenous case §7.1) to standing gate applicable to all content.</li>
+  <li><strong>Per-module output format rationalization:</strong> Hybrid (M1, M2, M3, M7, M8, M10) / Peer-reviewer memo (M4, M6) / Verdict table + brief judgment (M5) / Risk Register (M9) / Per-character voice memos + structural-flag aggregate (M11).</li>
+  <li><strong>§17.2 NEW cross-cutting finding format</strong> — FINDING / Reviewer voice / What this means / SOLVE / MITIGATE / SHOW-STOPPER with SOLVE/MITIGATE distinction and SHOW-STOPPER levels (SUBMISSION / PUBLICATION / SUCCESS-CRITERIA / N/A — Accept).</li>
+  <li><strong>Running modes:</strong> single-module / combined / full / light.</li>
+  <li><strong>v1.3.0 archived</strong> at <code>tools/archive/</code>; README.md + tools/README.md + tools/claude_prefs.md updated.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Phase 2 — v2.1.0 Path Comparison Mode (1 commit)</h3>
+<p>Commit <code>9dab563</code>:</p>
+<ul>
+  <li><strong>§22 NEW — Path Comparison Mode</strong> (the substantive addition). Comparative-state instrument for framework-scope, structural, and content-architecture decisions. Triggered by Chris's framework smell-test concern being a comparative decision (keep current scope vs. compress vs. reframe) that v2.0.0's single-state architecture couldn't answer.</li>
+  <li><strong>§22.3 Path Specification format</strong> — structured way to describe each path (name / description / retained / removed / restructured / new / implications / standing-gate implications / provenance).</li>
+  <li><strong>§22.4 Goal-to-modules mapping</strong> — Chris's four goals (publishing path success / academic reception / success criteria / long-term project impact) each mapped to specific modules with default weightings. Author-adjustable.</li>
+  <li><strong>§22.5 Per-path module application protocol</strong> — CORE-survival pass first, then standing-gate pass per path, then goal-mapped module pass, then cross-path comparison.</li>
+  <li><strong>§22.6 Path Comparison Report (PCR) template</strong> — 10-section structured deliverable.</li>
+  <li><strong>§22.7 Decision framework</strong> — rules for reading trade-offs across paths × goals. CORE-survival is binary; per-goal verdicts are weighted; suspicious of all-goals-winning paths; show-stoppers disqualify at submission level.</li>
+  <li><strong>§22.8 Worked example</strong> — framework-scope decision Paths A-F including Path F (variables-not-dimensions reframing) sketched with anticipated trade-off patterns.</li>
+  <li><strong>Mode 5: Path Comparison</strong> added to running modes (now five).</li>
+  <li><strong>PCR vs. PSR distinction</strong> documented at §1.3 — two complementary outputs.</li>
+  <li><strong>No structural changes to v2.0.0</strong> — 11 modules, standing gates, cross-cutting format preserved. v2.1.0 is purely additive.</li>
+  <li><strong>v2.0.0 retired same-day</strong> via git history per project pattern.</li>
+</ul>
+</div>
+
+<h2>Commits since v1.35.0 (3 total)</h2>
+
+<table>
+<tr><th>Hash</th><th>Type</th><th>Summary</th></tr>
+<tr><td><code>89a6037</code></td><td>protocol</td><td>rigor protocol v2.0.0 CHECKPOINT (partial): M1 CORE rescope + M2 two-path absorption</td></tr>
+<tr><td><code>b77423e</code></td><td>protocol</td><td>rigor protocol v2.0.0 FINAL: output formats + risk register + 4-endpoint + cross-cutting findings</td></tr>
+<tr><td><code>9dab563</code></td><td>protocol</td><td>rigor protocol v2.1.0: Path Comparison Mode added (minor bump)</td></tr>
+<tr><td>(this)</td><td>handoff</td><td>v1.36.0 session handoff</td></tr>
+</table>
+
+<h2>Chapter length tracking</h2>
+
+<p class="meta"><strong>Standing section in all session handoffs going forward.</strong> Refreshed at handoff creation; updated in the next handoff when a chapter draft changes. Word counts via <code>wc -w</code> on draft files in <code>manuscript/chapters/</code>. Pages calculated at ~275 words/page (trade-book 6×9 format). Draft files include preamble/postamble AI-commentary, so raw counts run slightly high for chapters whose drafts were produced with inline commentary (notably Ch 9 + Ch 10 + Ch 1 notes); actual chapter prose is a bit shorter.</p>
+
+<p><strong>No chapter drafts modified this session.</strong> All session work was in <code>tools/</code> (rigor protocol v2.0.0 → v2.1.0). Word counts unchanged from v1.35.0.</p>
+
+<table>
+<tr><th>Ch</th><th>Title</th><th>Current words</th><th>Current pages</th><th>Target words</th><th>Target pages</th><th>Status</th></tr>
+<tr><td>1</td><td>The Plane</td><td>—</td><td>—</td><td>5,000–6,000</td><td>18–22</td><td>not drafted</td></tr>
+<tr><td>2</td><td>The Miner</td><td>5,232</td><td>~19</td><td>5,000–6,000</td><td>18–22</td><td class="done">in range</td></tr>
+<tr><td>3</td><td>The Waterman</td><td>—</td><td>—</td><td>5,000–6,000</td><td>18–22</td><td>not drafted</td></tr>
+<tr><td>4</td><td>The Existence Proof</td><td>2,998</td><td>~11</td><td>~4,000–5,000</td><td>15–18</td><td class="hold">low — room for Nordic steelman + governance detail</td></tr>
+<tr><td>5</td><td>The Accountability Gap</td><td>3,850</td><td>~14</td><td>3,500–4,000 (original); consider 4,500–5,000 post-v1.0.3 (6 cases)</td><td>13–15 original; 16–18 revised</td><td class="hold">in original range; under-target for 6-case structure</td></tr>
+<tr><td>6</td><td>Three Ways of Counting</td><td>~5,158*</td><td>~19*</td><td>~5,000–6,000</td><td>18–22</td><td class="done">*HTML format inflates count; likely ~4,500 actual prose</td></tr>
+<tr><td>7</td><td>The Colony Administrator</td><td>5,774</td><td>~21</td><td>~5,000–6,000</td><td>18–22</td><td class="done">slightly over; acceptable</td></tr>
+<tr><td>8</td><td>What Things Actually Cost</td><td>4,959</td><td>~18</td><td>"short" per scope doc §426</td><td>—</td><td class="done">appropriate</td></tr>
+<tr><td>9</td><td>The Renewable Imperative</td><td>7,251</td><td>~26</td><td>5,000–6,000</td><td>18–22</td><td class="pending">over target — length management flagged</td></tr>
+<tr><td>10</td><td>Common Bonds</td><td>7,507</td><td>~27</td><td>5,000–7,000</td><td>18–25</td><td class="hold">upper end / slightly over</td></tr>
+</table>
+
+<h3>Totals + projection (unchanged from v1.35.0)</h3>
+
+<ul>
+  <li><strong>Drafted (8 of 10):</strong> ~42,700 words, ~155 pages.</li>
+  <li><strong>Projected with Ch 1 + Ch 3 at 5–6K each:</strong> ~53–55K words, ~195–200 pages.</li>
+  <li><strong>Trade-book sweet spot:</strong> 60–80K words / 220–290 pages.</li>
+</ul>
+
+<p><strong>Expansion candidates + length management</strong> flagged in v1.35.0; unchanged. Framework-scope decision (via next PCR run) may affect Ch 6 + Ch 8 length substantially — Path B or Path E would compress; Path F would retain length but reframe; Path A status-quo leaves length unchanged.</p>
+
+<h2>Current state delta from v1.35.0</h2>
+
+<table>
+<tr><th>Component</th><th>v1.35.0 state</th><th>v1.36.0 state</th></tr>
+<tr><td>Rigor protocol</td><td>v1.3.0 canonical</td><td>v2.1.0 canonical (Pre-Submission Peer Review Suite + Path Comparison Mode)</td></tr>
+<tr><td>Chapter audit</td><td>v1.0.5</td><td>v1.0.5 (unchanged)</td></tr>
+<tr><td>Case-study audit</td><td>v1.0.5</td><td>v1.0.5 (unchanged)</td></tr>
+<tr><td>Chapter drafts</td><td>8 of 10 drafted</td><td>8 of 10 drafted (unchanged this session)</td></tr>
+<tr><td>Case-study files</td><td>21 files (18 audit-profiled + 3 auxiliary)</td><td>unchanged</td></tr>
+<tr><td>10 dimensions</td><td>LOCKED; naming cohort COMPLETE</td><td>unchanged; status may change pending PCR outcome (Paths B / E / F would retire; Paths A / C retain; Path D retires)</td></tr>
+<tr><td>Tier-structure decision</td><td>deferred</td><td>still deferred; v2.1.0 is the instrument for the decision via PCR</td></tr>
+</table>
+
+<h2>Open items + decisions pending for next session</h2>
+
+<div class="info">
+<ul>
+  <li><strong>FRAMEWORK-SCOPE DECISION (via PCR run)</strong> — the top priority this session. v2.1.0 Path Comparison Mode is the instrument. Output: <code>commons_bonds_pcr_2026-04-23_v1.0.0.md</code> at <code>tools/pre-submission-reviews/</code>.</li>
+  <li><strong>Tier-structure decision</strong> — folded into the framework-scope PCR. Paths A-F each take a specific position on tier structure (A retains 8 tiers; B retires; C retires; D retains; E retires; F reframes as illustrative variables). The PCR surfaces which path is best.</li>
+  <li><strong>Indigenous case sensitivity-reader engagement</strong> — non-optional pre-publication gate. Independent of framework-scope decision. Chris should continue identifying candidate Lakota Nation sensitivity readers.</li>
+  <li><strong>Chesapeake fieldwork</strong> (Ch 3 blocker) — opportunistic; unchanged status.</li>
+  <li><strong>Ch 1 + Ch 3 authorial drafting</strong> — unchanged; Ch 1 guidance ~210 lines; Ch 3 guidance ~130 lines; both ready for Chris's drafting work.</li>
+  <li><strong>Ch 10 final paragraph selection</strong> — 3 candidates drafted at <code>research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md</code> §2.</li>
+  <li><strong>Grandfather-at-Langley specificity</strong> (Ch 10) — Chris-only memory-work.</li>
+  <li><strong>IPG reconciliation</strong> — pending. Chapter audit §2.6 integration item.</li>
+  <li><strong>Length management passes</strong> — Ch 5 + Ch 9. Some of this may be affected by framework-scope decision.</li>
+  <li><strong>AUTHORSNOTE + Dedication guidance docs</strong> — pending per chapter audit §4.2.</li>
+  <li><strong>Ch 6 HTML → .md + MathJax format conversion</strong> — production task.</li>
+</ul>
+</div>
+
+<h2>Operating observations from this session</h2>
+
+<div class="operating">
+<ul>
+  <li><strong>Checkpoint-commit discipline preserved substantial architectural work.</strong> The v2.0.0 M1-rescope was interrupted mid-flight by Chris's editorial review + smell-test concern. Checkpoint commit (89a6037) landed the core architectural fix before continuing with output-format rationalization. Had session ended after checkpoint, v2.0.0 work would have been partially preserved; v2.1.0 could have built on it. Pattern worth preserving: commit checkpoints during substantial protocol/methodology rewrites.</li>
+  <li><strong>Mid-flight corrections produced better output than initial drafts.</strong> Chris's editorial review corrected three of my initial choices during this session: (1) the M1 scope (CORE vs. elaboration distinction); (2) the output-format architecture (not all modules should use peer-reviewer memos); (3) the first-gate identity (framework stays first but scoped to CORE only). Each correction was a few-minute edit + commit. The audits' change-log discipline made the reasoning traceable.</li>
+  <li><strong>v2.1.0 was triggered by the comparative-decision gap v2.0.0 left open.</strong> v2.0.0 assessed current state; Chris's framework smell-test concern implied a comparative decision (which scope is best?) that v2.0.0 couldn't answer natively. v2.1.0 closes the gap so framework-scope decisions are suite-grounded.</li>
+  <li><strong>Path F emerged during editorial review.</strong> After Path A-E were proposed, Chris's articulation of "the abundances as discoverable variables, not dimensions" produced Path F — genuinely different from compress-or-retain paths. The asteroid-miner-considering-off-world-contract example directly addresses Goal-2 (individual reader use) in a way the other paths don't. The PCR will test it on equal footing with the others.</li>
+  <li><strong>The pattern that's working: build the instrument before making the decision.</strong> v2.1.0 explicitly exists to make framework-scope decisions suite-grounded. Running the suite on the decision is the next session; the instrument is in place first.</li>
+</ul>
+</div>
+
+<p class="meta">End of handoff. Archive <code>commons-bonds-session-handoff-2026-04-23_v1.35.0.html</code> to <code>alignment/sessions/archive/</code> as part of the next session's first commit.</p>
+
+</body>
+</html>
