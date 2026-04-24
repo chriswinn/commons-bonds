@@ -124,6 +124,59 @@ Cost Severance is the framework's flagship mechanism. Its precision is load-bear
 
 ---
 
+### Principle #4 — Retirements preserve their history in-document
+
+**Ratified:** 2026-04-24 by Chris Winn (pending confirmation): *"When we update/retire words it probably makes sense to update the current documents it's used in, and simply add a note that the word was retired as of version #.#.# of the document, and perhaps a pointer to the associated document that captures the reason(s) why."*
+
+**Originating context:** as the project retires vocabulary items (FGC, 8 tier labels, Spatial Cost Severance, Abundance Masking, Universality Test, Value Capture pending, Temporal Cost Severance pending, etc.), silently sweeping each retired term out of the documents where it appears creates a readability gain but destroys the audit trail. A future reader encountering a reference to a retired term — or noticing a retired term's absence — has no in-document signal explaining what happened. Making retirement traces visible preserves the reasoning chain.
+
+**Scope:** all framework-vocabulary retirements going forward. Applies retroactively to the retirements already ratified 2026-04-24 (Spatial Cost Severance, FGC, 8 tier labels, etc.) when those retirements propagate into the affected documents during Phase A3 sweep.
+
+**Principle statement (per author clarification 2026-04-24):**
+
+Retirements are handled in two tiers depending on the document's status:
+
+**(Tier 1) Current / active documents** — sweep the retired term out (replace with new term where applicable, or remove where no replacement exists). Bump the document's version to reflect the change. The sweep is the update.
+
+**(Tier 2) Older / historical / archived / versioned-predecessor documents** — **do NOT sweep or rewrite.** Instead add a single *retirement-note header* near the top of the document with three components:
+1. Which term(s) were retired.
+2. The document version (or framework-state version) at which retirement occurred.
+3. A pointer to the rigor pass, Terms Index record, or decision doc that captures the reasoning.
+
+The older document's historical content remains intact. Only the header note is added. Readers encountering the document see the retirement-state up front and can follow the pointer if they want the reasoning. This respects the live-vs-archive policy (point 2 of 2026-04-24 ratified policy: older docs stay intact except for minimal annotation).
+
+**Per-document-type format guidance:**
+
+| Document type | Tier | Retirement treatment |
+|---|---|---|
+| **Terms Index** (`core/terms/terms_index.md` §4) | Tier 1 | Full RETIRED record with rigor-pass link + full reasoning (this is the authoritative retirement record — template established by Spatial Cost Severance entry 2026-04-24). |
+| **Glossary** (currently v2, bumping to v3) | Tier 1 | Sweep retired terms out in v3. The v3 → v2 supersession is the audit trail; v2 is preserved as an older doc. |
+| **Active chapter drafts** | Tier 1 | Sweep retired term to replacement where natural; where sweep would distort authorial voice, add footnote. |
+| **Active audit docs** (chapter audit v1.0.6, case-study audit v1.0.6) | Tier 1 | Sweep retired terms; bump to v1.0.7 at sweep-time. |
+| **Active Technical Appendix** (v0.0.4) | Tier 1 | Sweep retired terms; document gets a "Changes from v0.0.3 → v0.0.4" section (already has this for the dimension renames). |
+| **Archived session handoffs** | Tier 2 | Add single retirement-note header: *"Note: this handoff references terms subsequently retired (e.g., 'Spatial Cost Severance'). See `core/terms/terms_index.md` §4 for the retirement record and rigor-pass reasoning."* No sweep. |
+| **Archived rigor protocol versions** (`tools/archive/*.md`) | Tier 2 | Single retirement-note header; no sweep. |
+| **Archived rigor passes** (e.g., `tools/rigor-passes/*2026-04-22*.md`) | Tier 2 | Single retirement-note header; no sweep. Rigor passes from 2026-04-24 (Path F, tier-reframing, macro-grouping) get the existing `§ Subsequent developments` annotation pattern per prior ratification. |
+| **Superseded Technical Appendix versions** (v0.0.3) | Tier 2 | Single retirement-note header pointing to v0.0.4 + Terms Index. |
+| **Archived chapter audits / case-study audits** (v1.0.5 etc.) | Tier 2 | Single retirement-note header; no sweep. |
+| **PCR v1.1.0** (historical pre-submission review) | Tier 2 | Single retirement-note header; body intact per earlier ratified policy. |
+
+**What this changes about my execution:**
+
+- When a retirement is ratified, downstream sweep-plus-note work runs in two modes: Tier-1 (update/sweep) + Tier-2 (header-note-only). Both land in Phase A3.
+- Active docs get version-bumped with each retirement batch.
+- Archived/older docs get a header note once per retirement batch (not per term; one consolidated note listing all terms retired in that batch).
+
+**Why this principle matters on this project specifically:**
+
+Commons Bonds's rigor-pass infrastructure is part of the book's credibility infrastructure. A reviewer encountering a retired term + finding a clean audit trail through retirement notes + Terms Index + rigor passes will trust the framework more than one encountering silent sweeps. The audit trail IS the credibility.
+
+**Corollary:**
+
+Retirements during today's session (2026-04-24) that have Terms Index records but haven't yet propagated into their affected documents (Spatial Cost Severance; when Value Capture retirement ratifies; etc.) will need Phase A3 sweep to apply this principle. The Terms Index record exists; the in-document retirement notes don't yet. Phase A3 adds them.
+
+---
+
 ## §3. Candidate principles (articulated but not yet ratified as such)
 
 ### Candidate — Option-space breadth is load-bearing
