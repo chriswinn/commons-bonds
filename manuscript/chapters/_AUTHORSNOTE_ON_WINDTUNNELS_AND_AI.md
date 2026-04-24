@@ -56,3 +56,31 @@ This serves multiple purposes: intellectual honesty, a statement about the legit
 
 ---
 
+========
+
+========
+
+COLLABORATION PATTERNS OBSERVED (tentative additions)
+
+This section accumulates specific patterns of AI-human collaboration observed during the book's development. These are tentative — noted when they appear during working sessions, to be woven into the final AI Statement prose later if they hold up. Each entry is dated and tied to the session/context where it was observed.
+
+---
+
+**2026-04-24 — Pattern: structural thinking vs rigor execution division of labor**
+
+Observed during the session that produced Path F variable-addability ratification, tier dissolution, macro-grouping Option A, the Term Provenance System, Working Principles, and the vocabulary-footprint meta-rigor pass.
+
+The pattern that produced signal: Chris thinks structurally about the framework — asking questions like "should we even have tiers?" or "is grouping creating abstraction that hides cost severance?" or "have we tested the term against our success criteria?" The AI executes on rigor and capture infrastructure — writing the rigor passes, running the testing modules, auditing chapter drafts, maintaining provenance records, enforcing the working principles.
+
+Neither role alone produces the same work. Structural thinking without rigor execution produces untestable intuitions. Rigor execution without structural thinking produces thorough tests of the wrong questions. The combination produces tested structural decisions.
+
+The pattern emerged explicitly when Chris pointed out (2026-04-24): *"By design the rigor tests only test the things we put through them. Let's have an open item for you to have the freedom to think about if we are really considering the right options or if other potential candidates should be included in the rigor tests. Similarly you have a much more expansive knowledge base than I could ever dream of having. I want you to always feel you have the freedom to think & express your ideas so we can work more collaboratively vs. me asking the right questions."*
+
+This mutual-permissioning is load-bearing. Without it, the AI defers to the questions asked, and valuable option-space gaps go unflagged. Without it, structural insights stay in the human's head until the right question surfaces them.
+
+**Why this matters for the book:** if the AI Statement describes AI as a "wind tunnel" — a testing instrument the human brings models to — this pattern adds a second dimension. The AI also brings option-space discipline and breadth-of-reference that shape what models the human brings to the tunnel. That's a collaboration, not just an instrumentation.
+
+---
+
+**[Future additions land here as patterns are observed. Each entry: date, context, pattern description, why it matters. Tentative until woven into the final prose.]**
+
