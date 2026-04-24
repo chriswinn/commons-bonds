@@ -96,6 +96,34 @@ When the audit output is decisive for a verdict (not just descriptive), verify b
 
 ---
 
+### Principle #3 — Misnaming is a rigor failure
+
+**Ratified:** 2026-04-24 by Chris Winn
+**Originating context:** Spatial Cost Severance was labeled as a Cost Severance variant for months. The variant-subtype check (when finally applied) revealed the phenomenon (spatial-distance-dependent costs that vanish when distance collapses) was actually abundance-cost mechanics, not severance. The name *pollutes* the Cost Severance concept's precision every time a reader encounters "Spatial Cost Severance" and tries to map it onto the Cost Severance definition.
+**Scope:** every variant-term, subtype-term, or compound-term introduced into the framework vocabulary. Applies retroactively (audit existing vocabulary) and prospectively (verify before introducing new terms).
+
+**Principle statement:**
+
+When a variant-term is introduced for a core concept (e.g., "Spatial X," "Temporal X," "Intergenerational X"), verify that the variant actually describes a genuine subtype of X — *not* a distinct phenomenon being accidentally absorbed into X. A misnamed term is worse than no term, because it pollutes the parent concept's precision every time a reader encounters it.
+
+**What this changes about my reasoning:**
+
+- When proposing or evaluating a variant-term, run the variant-subtype check explicitly: "under the parent concept's definition, is this variant still an instance? Or is it describing a different mechanism?"
+- The check: imagine the variant's distinguishing condition (spatial distance, temporal gap, whatever) is removed. Does the variant's phenomenon remain or vanish? If it vanishes because it depended on that condition, confirm the condition produces a *subtype* of the parent concept — not an adjacent-but-distinct mechanism.
+- If a variant fails the check, either (a) rename it (the phenomenon is real but not a subtype of the parent), (b) retire it entirely (the phenomenon is already captured elsewhere), or (c) redefine the parent concept to genuinely include the variant (with all the rigor-pass work that implies).
+- This principle is stricter than the merger/primitiveness gate (Section L.4 independence gate) — it operates at the *naming* level before the variable-admission level.
+
+**Why this principle matters on this project specifically:**
+
+Cost Severance is the framework's flagship mechanism. Its precision is load-bearing for the success criterion (*"severed cost"* adopted as legal/policy vocabulary). Every misnamed variant dilutes the precision. Spatial Cost Severance and the Temporal-Cost-Severance-renaming question (tested in the 2026-04-24 focused rigor pass) both show the risk: variants can accumulate that weaken the parent concept. Principle #3 is the discipline that prevents this.
+
+**Corollaries:**
+
+- Principle #3 applies to *all* variant-terms, not just Cost-Severance-variants. If a future rigor pass proposes "Spatial Abundance Masking" or "Temporal Gate," the variant-subtype check must run.
+- A variant passing Principle #3 does not automatically earn a dedicated named term. Passing only confirms the variant is a genuine subtype; whether it needs a name is a separate vocabulary-footprint question (see meta-pass + Variable-vs-Cost rigor pass + Temporal-Cost-Severance rigor pass for examples of this two-step analysis).
+
+---
+
 ## §3. Candidate principles (articulated but not yet ratified as such)
 
 ### Candidate — Option-space breadth is load-bearing

@@ -128,8 +128,9 @@ Each term carries its own `term-spec version` independent of document versions. 
 - Knowledge and Culture Cost
 - Political Capture Cost
 
-**Retired records populated in §4 (2026-04-24):**
-- Spatial Cost Severance — RETIRED (misnamed; abundance-cost not severance). See §4.
+**Records populated in §4 (2026-04-24):**
+- Spatial Cost Severance — `RETIRED` (misnamed; abundance-cost not severance).
+- Value Capture / Value Extraction — `CURRENT` at Ring-2 status; naming decision (Capture vs Extraction) pending under Open Insight #7.
 
 ---
 
