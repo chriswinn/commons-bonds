@@ -1,18 +1,55 @@
 # Commons Bonds — Chapter Audit (Session B)
 
-**Version:** 1.0.5
-**Date:** 2026-04-23 (late-session update — supersedes v1.0.4)
-**Status:** Complete. All 10 chapter profiles produced against the actual chapter-draft + guidance-doc content. v1.0.5 captures Ch 1 cross-spectrum-access-anchor reframing: feudalism replaced for Ch 1 by paired ancient-Egypt-pyramids + Qin-Dynasty-monumental-extraction cases. Feudalism remains load-bearing in Ch 7 + Ch 10 (different function).
-**Supersedes v1.0.4:** Paired ancient-Egyptian-pyramids + Qin-Dynasty-monumental-extraction cases drafted and integrated into **Ch 7** (not Ch 1). v1.0.4 initial framing treated feudalism as Ch 1's cross-spectrum-access gate; Chris flagged Marxist-theory adjacency risk. v1.0.5 initial proposal: Egypt + Qin in Ch 1. v1.0.5 final (Chris editorial call, "whichever chapter makes the most sense for the book"): Egypt + Qin + feudalism as three-civilization temporal stress-test inside Ch 7's existing "Framework across time, and the immune response" section. Rationale: (a) Ch 7 is the universality-test chapter — universality cases belong architecturally there; (b) Ch 1 register discipline (pure Register 1, no theory/data/historical-case material) is preserved; (c) Chris's own biography carries Ch 1 cross-spectrum credibility (IT consultant at NASA/JH/NIH → nursing student → sailboat writer is cross-tribe). Both case-study files drafted (`research/case-studies/ancient-egypt-pyramids.md` + `research/case-studies/qin-dynasty-monumental-extraction.md`). Ch 7 draft updated. Ch 1 guidance doc updated to point to Ch 7 for historical-universality cases.
+**Version:** 1.0.6
+**Date:** 2026-04-24 (Path F reframing — supersedes v1.0.5)
+**Status:** Complete. All 10 chapter profiles preserved from v1.0.5. **v1.0.6 applies Path F reframing** per PCR v1.1.0 §8 decision + rigor pass v1.0.0 §11 ratified resolutions: dimensions and tiers are now **examples of variables AIT discovered across the cases we examined — illustrative, not ontological**. Framework becomes generative; readers apply the method in their own contexts. Dimensions and tiers remain in the book with reframed function (teaching-method-via-example, not asserting-canonical-categories).
+
+**Supersedes v1.0.5:** Path F reframing applied throughout. §0.1a NEW v1.0.6 change log at top. §1 cross-chapter table expanded with Path F context column. §2.6 Ch 6 reframing notes substantially expanded (most affected chapter under Path F — methodology rewrite in Phase B). §2.8 Ch 8 reframing notes expanded (second most affected — tier-worked-example reframing in Phase B). Other §2 entries preserved with light-touch Path F path-notes added. Phase A2 methodology formalization work (rigor pass §11.5 Tasks 5-10) + Phase B chapter draft reframing work (rigor pass §11.5 Tasks 11-15) referenced throughout.
+
+**Supersedes v1.0.4 (v1.0.5 summary):** Paired ancient-Egyptian-pyramids + Qin-Dynasty-monumental-extraction cases drafted and integrated into **Ch 7** (not Ch 1). v1.0.4 initial framing treated feudalism as Ch 1's cross-spectrum-access gate; Chris flagged Marxist-theory adjacency risk. v1.0.5 initial proposal: Egypt + Qin in Ch 1. v1.0.5 final (Chris editorial call, "whichever chapter makes the most sense for the book"): Egypt + Qin + feudalism as three-civilization temporal stress-test inside Ch 7's existing "Framework across time, and the immune response" section. Rationale: (a) Ch 7 is the universality-test chapter — universality cases belong architecturally there; (b) Ch 1 register discipline (pure Register 1, no theory/data/historical-case material) is preserved; (c) Chris's own biography carries Ch 1 cross-spectrum credibility (IT consultant at NASA/JH/NIH → nursing student → sailboat writer is cross-tribe). Both case-study files drafted (`research/case-studies/ancient-egypt-pyramids.md` + `research/case-studies/qin-dynasty-monumental-extraction.md`). Ch 7 draft updated. Ch 1 guidance doc updated to point to Ch 7 for historical-universality cases.
 **Supersedes v1.0.3:** Three integration landings. (1) **Ch 8 draft integration** — housing-market pattern paragraph + Canadian tar sands brief mention added after the "different industries, different geographies" pattern passage — demonstrates framework applies beyond industrial extraction (household scale + heavy-crude-with-treaty-violations). (2) **Ch 1 guidance-doc expansion** per §4.1.1 task list — case-study references (healthcare end-of-life bridge + feudalism brief-anchor decision) + additional-original-scene section + pre-drafting gates (NDA, anonymization, wife's medical privacy, parents, Hampton community) + register discipline + character pressure points + Ch 10 harbor coordination. (3) **Ch 3 guidance-doc expansion** (CRITICAL upgrade from 38-line stub) per §4.1.3 task list — integration work per audit §2.3 (fieldwork, case-file development, renewable-past-regeneration theorization, Hampton-roots anchor) + case-study references + pre-drafting gates (interview consent, Hampton-specificity, CBF/VIMS institutional handling, watermen dignity) + register notes + character pressure points + cross-chapter tensions (Ch 8, Ch 10, Ch 4 handoffs). §2.8 integration-work items 3 (housing) + 4 (tar sands) now DONE. §4.1.1 tasks 1, 2, 3, 4 DONE. §4.1.3 tasks 1-6 DONE.
 **Supersedes v1.0.2 (v1.0.3 summary):** Broad case-study integration pass across Ch 2, 5, 7, 10 per Chris's direction ("update the relevant chapters with the appropriate case studies").
 **Supersedes v1.0.2:** Broad integration pass landed. Ch 2: opioid second-cycle section + housing enforced-immobility third-level refutation. Ch 5: 2008 double-risk-transfer + healthcare commons (GoFundMe + racial disparity + Butler pacemaker); chapter now describes 6 cases, not 4. Ch 7: temporal + immune-response stress tests (feudalism + blood diamonds / Kimberley Process). Ch 10: feudalism one-sentence anchor + blood diamonds one-sentence anchor + indigenous Lakota Black Hills dedicated anchor (reversing v1.0.2 assumption that sensitivity-reader gate blocked draft-stage integration — the gate is pre-PUBLICATION, not pre-integration; draft-stage anchor with humane-and-precise register is appropriate; sensitivity-reader engagement remains non-optional before publication). §§2.2, 2.5, 2.7, 2.10 integration-work item status flags updated to reflect completions. §1 cross-chapter table updated for Ch 2, 5, 7, 10.
 **Supersedes v1.0.1:** §2.6 rewritten against actual Ch 6 HTML draft read (corrects bottom-up totals to $8-$22 absent carbon, $550-570 with; identifies 2 counterarguments in draft vs. 6 in guidance — architectural compression, not oversight; cross-chapter counterargument distribution verified against Ch 9 + Ch 10); §2.9 updated to reflect completed reachable-horizon cluster integration (Alaska promoted to full anchor; Chattanooga + Mondragon + Vienna added as dedicated paragraphs in entering-wedges section); §1 cross-chapter table status updates.
 **Supersedes v1.0.0 partial** — replaces placeholder §§2.1, 2.3, 2.6, 2.7, 2.8, 2.9 with full profiles; re-verifies §§2.2, 2.4, 2.5, 2.10 against actual drafts; adds §§4 + 5.
-**Protocol applied:** `tools/commons_bonds_rigor_protocol_v1.3.0.md`.
-**Parallel to:** `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` + `core/case-studies/commons_bonds_case_study_audit_v1.0.5.md`.
+**Protocol applied:** `tools/commons_bonds_rigor_protocol_v2.2.0.md`.
+**Parallel to:** `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` (will bump to v1.3.0 under Phase A1 Task 3) + `core/case-studies/commons_bonds_case_study_audit_v1.0.5.md` (will bump to v1.0.6 under Phase A1 Task 2).
 
-## §0.1 v1.0.3 change log
+## §0.1a v1.0.6 change log — Path F reframing
+
+**Triggering decision:** PCR v1.1.0 §8 confirmed Path F (variables-not-dimensions reframing) on 2026-04-24. Rigor pass v1.0.0 §11 ratified four conditions with specific implementation specs. Phase A1 execution begins with this audit bump.
+
+**What changes under Path F:**
+
+The 10 abundances (Habitability / Spatial / Temporal / Institutional / Kindred / Ecosystem / Political / Cohesion / Epistemic / Autonomy) and 8-tier decomposition (Direct Health / Environmental Degradation / Community Disruption / Foreclosure / Dynastic Labor / Knowledge and Cultural / Political Capture / Temporal Displacement) **stay in the book**. What changes is their function:
+
+- **v1.0.5 framing (ontological):** "these are the canonical 10 dimensions of cost severance and the canonical 8-tier per-case accounting structure."
+- **v1.0.6 framing (illustrative via variable-discovery):** "these are examples of variables AIT has discovered across the 18 cases we examined — useful illustrations of the framework's generative method. Yours may include these. Yours may include others. AIT is how you find them."
+
+**What this means per-chapter:**
+
+- **Chapters substantively unchanged:** Ch 1 + Ch 3 + Ch 4 + Ch 9 + Ch 10 (most of these chapters already avoid canonical-taxonomy framing; minor reframing only).
+- **Chapters with moderate reframing:** Ch 2 + Ch 5 + Ch 7 (cases discussed without heavy taxonomy claims; reframing is mostly pedagogical — cases become worked examples of method, not instances of categories).
+- **Chapters with substantial Phase B rewrites:** **Ch 6** (methodology chapter — most affected; see §2.6) + **Ch 8** (tier-worked-example chapter — second most affected; see §2.8). These two chapters carry the dimensions + tiers at full canonical depth in v1.0.5; Phase B reframes them to carry the generative-method framing instead.
+
+**What this does NOT change:**
+
+- The framework's CORE (AIT + RCV + CS + formal vocabulary) is unchanged per Path F. Core held across all paths in PCR §3 CORE-survival gate.
+- Chapter audit verdicts (earns-place / scaffolding / integration-work lists) for v1.0.5 cases + content stand. Path F doesn't re-open scope decisions already made.
+- Pre-drafting gates (sensitivity-reader, anonymization, NDA review, register discipline) are preserved unchanged.
+
+**Path F additional integration items for Phase B (referenced in §§2.6 + 2.8):**
+
+- **Phase A2 methodology formalization** (rigor pass §11.5 Tasks 5-10) must land before Phase B chapter rewrites. Four conditions: four-gate discipline published + formula generalization + reproducibility scope + Pigou distinction. Ch 6 body + Technical Appendix v0.0.4.
+- **Phase B Ch 6 methodology rewrite** (rigor pass §11.5 Task 11): 1-2 weeks. Replaces tier-by-tier methodology with variable-discovery-via-AIT methodology; keeps three-approach convergence; incorporates four-gate summary (Condition 1 body-text) + reproducibility scope section (Condition 3 matter-of-fact) + contribution-from-Pigou articulation (Condition 4 confident). References Technical Appendix v0.0.4 for formal derivations (Condition 2 middle register).
+- **Phase B Ch 8 worked-example reframing** (rigor pass §11.5 Task 12): 1 week. McDowell coal walked through as "AIT applied → variables identified → RCV computed" rather than "8 tiers filled in." Variable names match current 8-tier names (tiers become labels for variables that AIT identified in this case); preserves existing content while reframing pedagogical function.
+- **Phase B Ch 7 asteroid-miner multi-perspective example** (rigor pass §11.5 Task 13 + Ch 7 guidance doc 2026-04-23): 3-5 days. Already specified at design-level.
+
+**Decision point preserved for Phase A2+:** Chris has flagged a "what do we call this" question — should Commons Bonds still be called a "framework" under the generative-method reframing? Deferred; will revisit after Phase A2 methodology work lands. Terminology choice interacts with how the methodology is published.
+
+---
+
+## §0.1 v1.0.3 change log (preserved from v1.0.5)
 
 1. **Ch 2 integration landed.** Opioid second-cycle extension section added between "Mechanism Not Motive" and "What McDowell and Chesapeake Have in Common" (Purdue target map + Sackler extraction + Big Three distributors + 141/100k signature as engineered-not-cultural). Housing enforced-immobility third-level refutation added to "Counterargument: Miners Chose That Work" (~49% renters cost-burdened; 90%+ counties; landlord class captures the relocation-cushion). §2.2 integration-items 2 and 3 now DONE.
 2. **Ch 5 integration landed.** 2008 double-risk-transfer section added between Baotou and Social Security. Healthcare commons section added between Social Security and "Pattern Made Visible." Chapter opener + "Pattern Made Visible" synthesis rewritten from "four cases" to "six cases." §2.5 integration-items 2 and 3 now DONE (plus Social Security was already in v1.0.0 draft). Remaining Ch 5 integration work: structural-revision-check after doubled-case-count lands, length management.
@@ -59,22 +96,22 @@ Chapter-level companion to the case-study audit. For each of 10 chapters + the d
 
 ## §1. Cross-chapter summary
 
-Chapter-by-chapter verdict, now against actual-content reads:
+Chapter-by-chapter verdict, now against actual-content reads. **v1.0.6 adds Path F context column** — each chapter's reframing burden under Path F per PCR §10 + rigor pass §11.5 sequenced tasks.
 
-| # | Chapter | Draft state | Guidance state | Audit verdict | Key blockers |
-|---|---|---|---|---|---|
-| 1 | The Plane | **Not begun** | Substantial (~210 lines post-v1.0.4; case-study references + pre-drafting gates + register discipline + additional-original-scene guidance added) | **Chris authorial drafting** | Original scene + personal-narrative drafting |
-| 2 | The Miner | Drafted (~280 lines post-v1.0.3) | Substantial (187 lines) | **Ready for integration rewrite — partially landed** | ~~Opioid ext + housing refutation~~ **DONE v1.0.3**; IPG sources + tier-structure propagation remain |
-| 3 | The Waterman | **Not begun** | Substantial (~130 lines post-v1.0.4 — upgraded from 38-line stub with full integration guidance per §4.1.3) | **BLOCKING on Chesapeake fieldwork** | Watermen interviews + Chesapeake case-study file development |
-| 4 | The Existence Proof | Drafted (120 lines) | Substantial (108 lines) | **Ready for integration rewrite** | Governance detail + reachable-horizon cross-ref + Nordic steelman option |
-| 5 | The Accountability Gap | Drafted (~180 lines post-v1.0.3; 6 cases) | Substantial (85 lines) | **Needs revision — scope expansion landed, length management pending** | ~~2008 + Social Security + healthcare~~ **DONE v1.0.3**; length management + structural-revision-check for 6-case chapter remain |
-| 6 | Three Ways of Counting | Drafted (HTML, ~45KB — verified v1.0.2) | **Very substantial (289 lines)** — richest guidance in set | **Moderate revision — tier-structure dependent + format conversion** | Tier decision impact is lighter than v1.0.1 assumed (draft is tier-agnostic; Ch 8 carries tier-decomposition load) + IPG-table reconciliation + HTML → .md + MathJax |
-| 7 | The Colony Administrator | Drafted (~190 lines post-v1.0.3) | **Largest guidance (472 lines)** — all 8 scenarios worked | **Ready for integration rewrite** | ~~Blood diamonds + feudalism stress-test entries~~ **DONE v1.0.3**; register pass remains |
-| 8 | What Things Actually Cost | Drafted (~235 lines post-v1.0.4) | Stub (54 lines — guidance-doc upgrade remains pending per §4.1.8) | **Substantial revision — tier-structure dependent** | Tier decision + dimension-rename; ~~housing integration pattern + tar sands~~ **DONE v1.0.4** |
-| 9 | The Renewable Imperative | Drafted (~5,900 words post-v1.0.2 integration) | Thin (73 lines) | **Ready for integration rewrite — partially landed** | ~~Reachable-horizon cluster~~ **DONE v1.0.2**; contingency argument + Nordic steelman + US-Sweden tax + Community Transition Reserve definition remain |
-| 10 | Common Bonds | Drafted (~175 lines post-v1.0.3) | **Substantial (135 lines)** + theoretical development section | **Needs revision — anchors landed, final paragraph + grandfather-specificity + sensitivity-reader review remain** | ~~Indigenous case integration~~ (draft anchor **DONE v1.0.3**; pre-publication sensitivity-reader engagement remains non-optional); ~~feudalism + blood diamonds anchors~~ **DONE v1.0.3**; final paragraph selection + grandfather-at-Langley specificity (Chris-only) remain |
-| — | _Dedication | Text stub (23 lines) — 3 options given | **Embedded in file — no separate guidance** | **Needs dedicated guidance (per Chris observation)** | Select among 3 options |
-| — | _AUTHORSNOTE_ON_WINDTUNNELS_AND_AI | Draft text present | **Embedded in file — no separate guidance; guidance-like meta-discussion in same file** | **Needs dedicated guidance (per Chris observation)** | Separate draft-prose from meta-guidance |
+| # | Chapter | Draft state | Guidance state | Audit verdict | Key blockers | **Path F reframing burden** |
+|---|---|---|---|---|---|---|
+| 1 | The Plane | **Not begun** | Substantial (~210 lines post-v1.0.4) | **Chris authorial drafting** | Original scene + personal-narrative drafting | Minor — pre-Path-F guidance already treats framework-as-tool; forward-reference to Ch 7 already specified |
+| 2 | The Miner | Drafted (~280 lines post-v1.0.3) | Substantial (187 lines) | **Ready for integration rewrite — partially landed** | IPG sources + vocabulary strip (Path F) | Moderate — Ch 2 currently uses dimension/tier framing in parts; Phase B throughout-book vocabulary check (Task 15) reframes to variable-discovery language |
+| 3 | The Waterman | **Not begun** | Substantial (~130 lines) | **BLOCKING on Chesapeake fieldwork** | Watermen interviews + Chesapeake case-study file development | Minor — chapter undrafted; Path F reframing is authorial-drafting-time discipline, not post-hoc rework |
+| 4 | The Existence Proof | Drafted (120 lines) | Substantial (108 lines) | **Ready for integration rewrite** | Governance detail + reachable-horizon cross-ref + Nordic steelman option | Minor — Norway SWF case demonstrates the framework operating; Path F reframing is light vocabulary pass |
+| 5 | The Accountability Gap | Drafted (~180 lines; 6 cases) | Substantial (85 lines) | **Needs revision — scope expansion landed, length management pending** | Length management + structural-revision-check for 6-case chapter | Moderate — cases reframed as worked examples of method (Path F Phase B Task 15) |
+| 6 | Three Ways of Counting | Drafted (HTML, ~45KB — verified v1.0.2) | **Very substantial (289 lines)** | **Substantial revision — Path F methodology rewrite** | See §2.6 for Path F-specific scope | **LARGEST Path F burden** — methodology chapter requires full rewrite to carry Path F's generative framing (Phase B Task 11, 1-2 weeks) |
+| 7 | The Colony Administrator | Drafted (~190 lines) | **Largest guidance (472 lines)** | **Ready for integration rewrite** | Register pass + asteroid-miner multi-perspective example | Moderate — chapter is already universality-test territory (Path-F-friendly); needs Phase B Task 13 (asteroid-miner example, 3-5 days) |
+| 8 | What Things Actually Cost | Drafted (~235 lines) | Stub (54 lines) | **Substantial revision — Path F tier-worked-example reframing** | See §2.8 for Path F-specific scope | **Second-largest Path F burden** — tier-worked McDowell coal reframed as AIT-applied-variable-discovery worked example (Phase B Task 12, 1 week) |
+| 9 | The Renewable Imperative | Drafted (~5,900 words) | Thin (73 lines) | **Ready for integration rewrite — partially landed** | Contingency argument + Nordic steelman + US-Sweden tax + CTR definition | Minor-to-moderate — policy-response chapter largely Path-F-aligned; light vocabulary pass |
+| 10 | Common Bonds | Drafted (~175 lines) | **Substantial (135 lines)** + theoretical development | **Needs revision — anchors landed, final paragraph + grandfather-specificity + sensitivity-reader review remain** | Indigenous sensitivity-reader + final paragraph + grandfather-specificity | Minor — closing chapter already Register 1 (avoids taxonomic language); Path F Task 14 adds brief asteroid-miner closing-reference |
+| — | _Dedication | Text stub (23 lines) | **Embedded in file** | **Needs dedicated guidance** | Select among 3 options | None — dedication doesn't carry framework content |
+| — | _AUTHORSNOTE_ON_WINDTUNNELS_AND_AI | Draft text present | **Embedded in file** | **Needs dedicated guidance** | Separate draft-prose from meta-guidance | Minor — if Path F reframes what the book IS (a tool, not a taxonomy), the AI statement's framing may adjust; Phase A2-adjacent decision |
 
 ### 1.1 Readers of this audit who may want to skip around
 
@@ -310,7 +347,17 @@ Chapter-by-chapter verdict, now against actual-content reads:
 
 ### §2.6 Chapter 6 — Three Ways of Counting
 
-**Current state:** Drafted HTML (~45KB — only HTML draft in set; Google Docs export with MathJax-style glyphs) + **very substantial guidance (289 lines)**. Draft is verified complete against actual prose read 2026-04-23.
+**Path F reframing burden: LARGEST in the set.** Ch 6 is the methodology chapter and currently carries dimensions + tiers in their ontological-canonical framing. Path F reframes this to generative-method framing. This reframing is the single most substantial Phase B chapter-draft work item (Phase B Task 11, ~1-2 weeks per rigor pass §11.5).
+
+**Path F reframing specifics for Ch 6:**
+
+- The three-approach convergence (bottom-up + real-options + RCV) is preserved and strengthens under Path F. All three approaches become demonstrations that AIT applied to different analytical lenses converges on similar RCV outputs — evidence of the method's reliability across independent application paths.
+- The RCV formula presentation changes: instead of "here is the canonical formula with two specific terms," the chapter presents the formula as "here is the generalized sum-of-costs form; the current canonical McDowell-coal-era specification has these two terms; future applications will surface additional terms via AIT."
+- The four gates (AIT + dimensional consistency + boundedness + independence) per rigor pass §11 get their summary presentation in Ch 6 body (Condition 1 resolution: summary-in-body + formal-in-Technical-Appendix; Phase A2 Task 9).
+- The reproducibility scope section (Condition 3: matter-of-fact tone; Phase A2 Task 7) lands in Ch 6 body — a dedicated ~500-800-word section acknowledging that different analysts produce defensibly-different RCV estimates; framework contributes structured methodology + transparency, not unique numbers.
+- The contribution-from-Pigou articulation (Condition 4: confident tone; Phase A2 Task 8) lands in Ch 6 originality-of-contribution section — ~1,000 words including worked comparative examples for McDowell coal + Deepwater Horizon + one additional case.
+
+**Current state (v1.0.5 content preserved):** Drafted HTML (~45KB — only HTML draft in set; Google Docs export with MathJax-style glyphs) + **very substantial guidance (289 lines)**. Draft is verified complete against actual prose read 2026-04-23.
 
 **Load-bearing argument (from draft verified):** Three convergent pricing approaches applied to the same four historical cases.
 
@@ -418,7 +465,17 @@ Chapter-by-chapter verdict, now against actual-content reads:
 
 ### §2.8 Chapter 8 — What Things Actually Cost
 
-**Current state:** Drafted (230 lines — very strong) + stub guidance (54 lines). Coal worked through all 8 tiers explicitly. Arrives at $558/ton conservative floor.
+**Path F reframing burden: SECOND-LARGEST in the set.** Ch 8 is the tier-worked-example chapter that walks McDowell coal through 8 tiers explicitly and produces the $558/ton conservative floor. Under Path F, this chapter's function reframes from "instances of canonical 8 tiers" to "worked example of AIT-applied-variable-discovery producing 8 cost categories for this specific case, each priced to produce the RCV computation." Phase B Task 12 (~1 week per rigor pass §11.5).
+
+**Path F reframing specifics for Ch 8:**
+
+- The 8 cost categories (Direct Health / Environmental Degradation / Community Disruption / Foreclosure / Dynastic Labor / Knowledge and Cultural / Political Capture / Temporal Displacement) remain in the chapter. Their function changes from "canonical 8 tiers applied to this case" to "variables AIT identified when applied to McDowell County coal extraction, 1960-2020; other extractions would surface different variable sets."
+- The $558/ton conservative floor remains. The chapter's arithmetic doesn't change under Path F.
+- What changes: the framing language throughout. Where the current draft says "Tier 1" or "dynastic-labor tier," the reframed draft says "the first variable AIT surfaced was direct health cost" or "the dynastic-labor variable became material when we applied AIT to the community-collapse dynamics."
+- New opening paragraph for the chapter: brief setup that "the 8 cost categories worked through below are what AIT surfaced when applied to this specific case. The generative method that produced this list can produce different lists for different cases; see Ch 7's multi-perspective asteroid-miner example for a contrasting application."
+- The chapter's closing extrapolation ($10-15T annual global severed cost aggregation) is preserved and strengthened under Path F — the aggregation is more defensible when each per-case RCV is produced by AIT-applied-variable-discovery rather than a canonical-taxonomy claim.
+
+**Current state (v1.0.5 content preserved):** Drafted (230 lines — very strong) + stub guidance (54 lines). Coal worked through all 8 tiers explicitly. Arrives at $558/ton conservative floor.
 
 **Load-bearing argument:** Extended case. One ton of McDowell County coal, 1960 market price $4.50, walked through Tier 1 (Direct Health, $2) + Tier 2 (Environmental Degradation, $1) + Tier 3 (Community Disruption, $5) + Tier 4 (Foreclosure, $544 — carbon dominates) + Tier 5 (Dynastic Labor, $2) + Tier 6 (Knowledge and Cultural, $1) + Tier 7 (Political Capture, $1) + Tier 8 (Temporal Displacement, $2) = $558 floor. Brief extrapolation to $10-15T annual global severed cost aggregation signal. Two counterarguments compressed (degrowth + pulling up ladder). Transition to Ch 9 + Ch 10 + Book 2.
 
