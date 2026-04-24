@@ -690,39 +690,64 @@ Mariana Mazzucato, *The Value of Everything: Making and Taking in the Global Eco
 
 ---
 
-### Spatial Cost Severance
+### Spatial Cost Severance / spatial cost severance
 
-**Working definition (prior):** a variant of Cost Severance operating across spatial distance — extractors separated from affected communities by geography.
+**Working definition:** the geographic subtype of Cost Severance — value extracted from an area disperses to distant consumers while costs (health, environmental, community) concentrate locally where extraction occurred. Used as **lowercase descriptive phrase** composing "spatial" modifier + Ring-1 "cost severance" term. Not capitalized as proper-noun compound (capitalized form produced jargon inflation and was retired via the earlier analysis; lowercase composition is the ratified form).
 
-**Status:** `RETIRED` (ratified 2026-04-24 by Chris Winn)
+**Status:** `CURRENT` as lowercase prose phrase (ratified 2026-04-24 by Chris Winn — un-retirement via re-examination rigor pass). Supersedes earlier `RETIRED` status from 2026-04-24 which was a Principle-#2 failure (audited the wrong phenomenon).
 
-**Term-spec version:** v1.0 final (retirement)
+**Term-spec version:** v1.1 (v1.0 was RETIRED status; v1.1 is CURRENT lowercase-prose-phrase after re-examination).
 
 **Last reviewed:** 2026-04-24
 
+**History and re-examination:**
+
+The term was initially RETIRED 2026-04-24 (commit `2dc54aa`) on Principle-#3-candidate grounds, based on the author's asteroid-teleport articulation: *"Spatial Cost Severance is probably misnamed, as that was just Cost Severance that happened only if and when distance between locations vanished. So that isn't really cost severance but really an abundance cost that vanishes or appears e.g. miner can teleport instantly to/from an asteroid for work each day = totally removes a lot of the cost severance of living on an asteroid."*
+
+**The re-examination (2026-04-24) revealed this was a Principle-#2 failure.** Two distinct phenomena had been conflated:
+- The **asteroid-teleport example** described SPATIAL-ABUNDANCE MECHANICS (distance-as-abundance-condition producing abundance-costs).
+- The **v2 glossary definition** described GEOGRAPHIC DISPERSAL OF VALUE vs CONCENTRATION OF COST: *"costs concentrate where extraction happens; value disperses to distant consumers. Geographic dimension of cost severance. The 13-year life expectancy gap between McDowell County and the national average is the human face of spatial cost severance."*
+
+These are **two different framework elements.** The earlier retirement audited the asteroid-teleport description and concluded the phenomenon wasn't real severance — missing that the v2 definition describes a GENUINE severance subtype operating across a geographic gap.
+
+**Principle-#3 variant-subtype check CORRECTED (re-examination pass §3):**
+- Counterfactual: remove the spatial dispersal of value (imagine all electricity consumers live near McDowell County).
+- Result: value-capturers and cost-bearers become the same community. Severance mechanism can't operate across a collapsed geography.
+- Verdict: PASSES. Spatial dispersal is load-bearing for this form of severance.
+
 **Rigor provenance:**
-- Vocabulary-footprint meta-rigor pass §13.2.c (2026-04-24) — initial RETIRE/DEMOTE analysis based on 0 chapter refs.
-- Author 2026-04-24: *"Spatial Cost Severance is probably misnamed, as that was just Cost Severance that happened only if and when distance between locations vanished. So that isn't really cost severance but really an abundance cost that vanishes or appears e.g. miner can teleport instantly to/from an asteroid for work each day = totally removes a lot of the cost severance of living on an asteroid."* — identified the misnaming at the phenomenon level; RETIRE (not DEMOTE) ratified.
-- Principle-#3-candidate check (variant-subtype verification): FAILED — the phenomenon was abundance-cost mechanics mis-absorbed into the Cost Severance concept. Retirement corrects the misnaming.
+- Vocabulary-footprint meta-rigor pass §13.2.c (2026-04-24, commit `46600bc`) — initial RETIRE/DEMOTE analysis.
+- Original retirement ratification (2026-04-24, commit `2dc54aa`) — based on author's asteroid-teleport description; later recognized as Principle-#2 failure (audited the wrong phenomenon).
+- **Re-examination rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_spatial_cost_severance_re_examination_v1.0.0.md` (2026-04-24, commit `c04b7d8`)** — Option B (adopt as lowercase prose phrase) ratified; reverses earlier retirement.
+- Principle-#3 check UNDER v2 DEFINITION: PASSES (spatial gap is load-bearing for this severance subtype).
+- This re-examination **originated the "distinguishing gap-type" diagnostic** later reused in the Temporal CS reconsider pass: *"if removing a qualifier's condition doesn't leave other severance forms intact, the qualifier isn't a subtype qualifier."*
 
-**Depends on (why this term was in the vocabulary):**
-- Glossary v2 carried this as a named Cost Severance variant alongside Temporal Cost Severance.
-- Loose variant-naming discipline that didn't verify the variant's subtype status against the Cost Severance definition.
+**Parallel to:** intergenerational cost severance (adopted 2026-04-24 commit `6e19f71`). Both are Cost Severance subtypes adopted as lowercase prose phrases. The spatial + intergenerational lowercase pair is the framework's subtype-descriptor set (Temporal was tested as potential third member via reconsider pass; FAILED Principle #3, kept retired).
 
-**Staleness triggers (what would cause this retirement to be revisited):**
-- A new phenomenon surfacing that is genuinely spatial-severance (not abundance-cost) and requires a dedicated term.
-- (Unlikely — the abundance-cost mechanics the old term was describing are fully captured by the Spatial abundance + Cᵢ framework.)
+**Depends on:**
+- Cost Severance (Ring 1 parent concept)
+- "spatial" adjective (framework-familiar; also used in Spatial abundance)
+- Principle-#3 variant-subtype discipline
+- Principle #2 (audit concept not phrase — principle origination includes this re-examination as a Principle-#2 recovery template)
+
+**Staleness triggers:**
+- Phrase drifts into capitalized usage → lowercase-discipline re-test.
+- Cost Severance parent concept redefined.
+- Academic field adopts established terminology that should displace.
 
 **Commit trail:**
-- Meta-pass initial RETIRE/DEMOTE analysis: commit `46600bc` (2026-04-24).
-- Author ratification + RETIRE (not DEMOTE): commit pending (this update).
+- Meta-pass initial analysis: commit `46600bc` (2026-04-24).
+- Original retirement ratification: commit `2dc54aa` (2026-04-24).
+- Re-examination rigor pass: commit `c04b7d8` (2026-04-24).
+- Ratification of un-retirement: this commit.
 
-**Supersedes / superseded by:** N/A — retired without replacement. Phenomenon captured by Spatial abundance + associated Cᵢ (framework already in place).
+**Supersedes / superseded by:** v1.1 (CURRENT lowercase-prose-phrase) supersedes v1.0 (RETIRED) from 2026-04-24. Earlier retirement preserved in history above as Principle-#2 recovery template.
 
 **Notes:**
-- This is the first entry in §4. Serves as template format for future RETIRED-status records.
-- The RETIRE verdict is on Principle-#3 grounds (variant-subtype check failed), not vocabulary-footprint grounds. A distinct decision class from terms retired via footprint pruning (e.g., FGC under tier dissolution).
-- Sweep targets when Phase A3 lands: glossary v2 entry removal; any residual chapter/case-study references to "Spatial Cost Severance" proper-noun (audit confirmed 0 chapter refs; only glossary-level entry to retire).
+- **Distinct from Spatial abundance.** Spatial abundance is one of the 10 abundances (framework scaffolding). Spatial cost severance is a CS-subtype-by-geographic-gap. These are different framework elements; the conflation between them caused the original Principle-#2 failure.
+- **Canonical example:** McDowell County 13-year life-expectancy gap (coal's value dispersed nationally while health + community collapse costs concentrated locally). Book prose already extensively describes this phenomenon; the lowercase phrase formalizes the subtype-handle.
+- **Style discipline (lowercase always):** restructure sentences to avoid sentence-start capitalization where possible. Mirrors intergenerational cost severance discipline. Not a capitalized proper-noun compound.
+- **Sweep targets (Phase A3):** glossary v2 → v3 sub-entry under Cost Severance; Ch 2 McDowell prose (where the phenomenon is already described) can use the phrase naturally; meta-pass §13.2.c table updated with un-retirement pointer.
 
 ---
 
@@ -943,6 +968,144 @@ Candidates: *Asymmetric Regret Principle (current)* · *Asymmetric Regret Rule* 
 **Notes:**
 - "Principle" in current name may overclaim given ARP is operational decision rule, not foundational principle. Rename sub-decision captures this concern.
 - Academic-positioning: Tech Appendix footnote cites Savage 1951 + Rio Declaration 1992 (Precautionary Principle) + Lempert et al. 2003 RDM to position ARP as framework-specialization of established decision theory.
+
+---
+
+### Accountability Bond (B)
+
+**Working definition:** Formal quantity B in the framework's flagship equation CS = RCV − B. Represents the total dollars forced onto extractors via accountability instruments — reclamation bonds, sovereign wealth funds, carbon taxes, insurance requirements, direct liability, severance agreements, any financial mechanism that internalizes extraction costs. Under the framework's ideal B = RCV (honest accounting). Under current regimes B < RCV (accountability gap = Cost Severance = RCV − B). Extends established environmental-bonding / Pigouvian-tax lineage from project-specific or single-externality scope to full Severed Cost spectrum.
+
+**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn).
+
+**Term-spec version:** v1.0 (first sanctioned spec).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Meta-pass §10.2 (commit `46600bc`) — Ring-2 internal load-bearing classification.
+- Literature audit + citation ratification commits `56a226f` + `f643e59` (2026-04-24) — M12 classification as extension of reclamation-bond + EIB + Pigouvian-tax lineage; bibliography citations ratified for Ch 5 + Tech Appendix.
+- Individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_accountability_bond_v1.0.0.md` (2026-04-24) — Option A (confirm Ring 2) + two monitoring flags (phrase-travel + scope-creep).
+
+**M12 classification:** Independent specialization + extension of established environmental-bonding / Pigouvian-tax lineage. Framework novelty is (a) full-Severed-Cost scope vs reclamation-only, (b) equational-closure role in CS = RCV − B. Not original coinage; consciously extends prior art.
+
+**M12 citations (ratified 2026-04-24):**
+- Pigou, Arthur Cecil. *The Economics of Welfare* (1920, 4th ed. 1932).
+- Balboa, Cristina M. "Accountability of Environmental Impact Bonds" (*Global Environmental Politics* 2016).
+- Yang, Peifang & Davis, Graham A. "Why Don't Environmental Bonds Fully Cover Reclamation Costs?" (*Energy Policy* 2021).
+- U.S. GAO. *Financial Assurances for Reclamation* (GAO-17-207R, 2017).
+- U.S. OSMRE. *Reclamation Bonds* (agency guidance).
+
+Canonical Ch 5 + Tech Appendix first-use citation form drafted in rigor pass §3.5.
+
+**Why Ring 2 (not Ring 1):**
+- Scalar-variable role dominant (right-side of CS = RCV − B equation).
+- Ring-1 focus discipline preserves adoption-bet focus on 7 current flagships.
+- Phrase-travel-flag captures Ring-1-promotion upside without current commitment.
+
+**Two monitoring flags (ratified 2026-04-24):**
+
+**(i) Phrase-travel monitoring flag.** Watch for post-publication adoption evidence that "accountability bond" travels independently of framework uptake (legal briefs, policy papers, academic citation as load-bearing adoption term). Rerun trigger: reconsider Ring-1 promotion if phrase begins traveling in target-audience discourse.
+
+**(ii) Scope-creep monitoring flag (cross-cutting; applies to whole framework, but Accountability Bond is likely-heaviest source of pressure).** Watch for B's instrument-design space inviting detailed treatment that pushes Book 1 into Book 2 / Book 3 territory.
+- **In-scope for Book 1:** naming the Accountability Bond concept; explaining equational-closure role; citing lineage; illustrating accountability-gap via case studies; articulating framework-level prescription.
+- **Out-of-scope for Book 1 (Book 2/3 territory):** detailed instrument-design specifics — carbon-tax architecture, insurance-mechanism design, sovereign-wealth-fund governance, severance-agreement legal drafting, cross-jurisdictional policy-instrument coordination, specific Severed Cost category pricing methodologies.
+- **Trigger indicator:** chapter drafting stretches to include instrument-design specifics beyond Book 1's diagnosis + framework + case-demonstration scope.
+- **Mitigation:** Book 1 points to future books ("a future treatment will work through instrument-design questions for each Severed Cost category") rather than absorbing the depth.
+
+**Rename candidates tested and rejected (per rigor pass §4):** *Accountability Severance* · *Severance Bond* · *Severed-Cost Bond* · *Commons Liability Bond*. Best fallback if rename ever needed: *Severed-Cost Bond* (pairs with Ring-1 flagship Severed Cost).
+
+**Depends on:** CS = RCV − B equation · RCV definition · "accountability instrument" concept space.
+
+**Pairs with:**
+- RCV (left-side equation term; B is compared against RCV).
+- Cost Severance (CS = gap between RCV and B).
+- Commons Bonds (framework name; B is the instrument subtype of the broader commons-bonds category).
+
+**Staleness triggers:**
+- CS = RCV − B equation restructured.
+- Phrase adoption in legal/policy discourse triggers Ring-1 reconsideration.
+- Chapter drafting triggers scope-creep flag (instrument-design specifics beyond Book 1 scope).
+- Established instrument terminology shifts (e.g., EIBs displace reclamation bonds as dominant policy frame).
+
+**Commit trail:**
+- Literature audit + citation ratification: commits `56a226f` + `f643e59` (2026-04-24).
+- Individual rigor pass: commit `7fa1c1b` (2026-04-24).
+- Ratification + Terms Index record: this commit.
+
+**Notes:**
+- B pairs structurally with RCV to close CS equation. Same mathematical-function-dominance as S and E but different role (output-side of equation vs integrand-components).
+- "Accountability" vs "liability" distinction: accountability is the relational + constructive word (positive framing); liability is the defensive legal-action word. Framework uses "accountability" intentionally.
+- "Bond" metaphor: operates both as financial-instrument (legal-register) and relational-bond (framework-title register). Double-entendre load-bearing for book's Commons Bonds positioning.
+
+---
+
+### Abundance Masking
+
+**Working definition:** The mechanism by which abundance makes costs invisible to market pricing until scarcity forces them into view. Oxygen feels free because Earth's atmosphere is abundant. Ecological services feel free because ecosystems haven't collapsed yet. **Abundance Masking is the mechanism; Abundance Dimension is the dimension along which it operates** — distinct entries: masking is a process, dimension is a category (per v2 definition). Paired with AIT: masking is the process; AIT is the methodology that detects what masking hides.
+
+**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn — promoted from earlier DEMOTE-to-prose via re-examination).
+
+**Term-spec version:** v1.1 (v1.0 was the meta-pass demote-to-prose recommendation; v1.1 corrects after Principle-#2 re-read under re-examination).
+
+**Last reviewed:** 2026-04-24
+
+**History and re-examination:**
+
+The term was initially scheduled for DEMOTE-to-prose 2026-04-24 (meta-pass §13.2.c, commit `46600bc`) with rationale: *"Abundance Masking names the phenomenon that AIT detects — abundances mask costs by making them invisible to pricing. But the phenomenon is what AIT is FOR. Naming it as a separate term creates a term-per-mechanism bloat."*
+
+**The re-examination (2026-04-24) revealed this was a Principle-#2 failure.** The reasoning got the direction BACKWARDS — it said "AIT detects AM, therefore AM is redundant with AIT." That's analogous to saying "we have 'severance mechanism detection,' so we don't need the term 'severance mechanism' itself." The DETECTOR and the DETECTED are complementary, not redundant.
+
+The v2 definition makes the pairing structure explicit: *"Abundance Masking is the mechanism; Abundance Dimension is the dimension along which it operates. These are distinct entries: masking is a process, dimension is a category."*
+
+**Decisive test — "What does AIT detect?":**
+- Without Abundance Masking term: AIT's definition becomes circular or unanchored. Adversarial reader: *"What makes a cost scarcity-grounded vs not?"* The answer requires naming the phenomenon AIT is designed to detect.
+- With Abundance Masking term: *"AIT tests whether a candidate cost survives abundance inversion — i.e., whether the cost is genuinely hidden by Abundance Masking or is intrinsic to the activity regardless of scarcity."* Clean + explanatorily complete.
+
+**Parallel to Cost Severance vs Severed Cost pair:** framework benefits from naming both sides of flagship mechanism-pairs:
+
+| Pair type | Left side | Right side |
+|---|---|---|
+| Mechanism + Result | Cost Severance | Severed Cost |
+| **Mechanism + Methodology** | **Abundance Masking** | **AIT** |
+| Event + Mechanism | Value Extraction | Cost Severance |
+
+**Rigor provenance:**
+- Meta-pass §11.3 + §13.2.c (commit `46600bc`, 2026-04-24) — initial DEMOTE-to-prose recommendation; Principle-#2 failure.
+- Re-examination rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_abundance_masking_re_examination_v1.0.0.md` (2026-04-24, commit `cf02160`) — Option A (PROMOTE to Ring 2) recommended; supersedes earlier demote-to-prose.
+- Ratification 2026-04-24 by Chris Winn — this commit.
+- **Diagnostic originated here (cross-cutting):** "structural vs topical pairing" distinction that later guided Universality Test re-examination + CSG-ARP pairing analysis. Structural pairings (Partner-A's definition requires Partner-B named) justify Ring-2 promotion; topical pairings don't.
+
+**M12 classification:** Framework-specific mechanism-name. The concept of abundance making costs invisible is adjacent to "rhetoric of abundance masks depletion" in ecological-economics literature + artificial-scarcity literature (Desai & Lemley 2022), but no established term captures the specific framework role as AIT-paired mechanism-name. **Appears novel as specific framework term.**
+
+**Why Ring 2 (not Ring 1):**
+- Framework-internal mechanism-name paired with AIT (also Ring 1).
+- Not a public-adoption target. Readers encounter AM to understand AIT's object; non-readers don't adopt.
+- Chapter usage pattern: the MECHANISM is active in every extraction case in the book (costs masked by atmospheric abundance, ecosystem-service abundance, etc. — McDowell, Deepwater, Libby, all exhibit the mechanism). Naming it at Ring 2 formalizes what's already operating.
+
+**Depends on:**
+- AIT (paired detection methodology — Ring 1)
+- Abundances (the domain over which masking operates)
+- Cost Severance (the phenomenon that masking enables by hiding costs)
+
+**Pairs with:**
+- **AIT (structural pairing).** AIT's definition requires Abundance Masking named. Retiring AM would break AIT's definition.
+- **Abundance Dimension.** Process vs category distinction per v2 definition.
+
+**Staleness triggers:**
+- AIT methodology redefined in a way that changes what it detects.
+- Framework's abundance vocabulary restructured.
+
+**Commit trail:**
+- Meta-pass initial DEMOTE-to-prose analysis: commit `46600bc` (2026-04-24).
+- Re-examination rigor pass: commit `cf02160` (2026-04-24).
+- Ratification + Ring-2 record: this commit.
+
+**Supersedes / superseded by:** v1.1 (CURRENT Ring 2) supersedes v1.0 (DEMOTE-to-prose) from meta-pass §13.2.c. Earlier demotion preserved in history above as Principle-#2 recovery template.
+
+**Notes:**
+- Distinct from Abundance Dimension per v2 explicit distinction (process vs category).
+- In-the-world mechanism: active in every extraction case in the book whether or not named in chapter prose. Naming formalizes what's already operating.
+- **Diagnostic origination:** this re-examination surfaced the "structural vs topical pairing" distinction that is now part of the rigor protocol's working toolkit for evaluating AIT-pairing arguments. Formalized as M12 action-ladder input via Principle #6.
 
 ---
 

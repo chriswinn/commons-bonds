@@ -285,7 +285,19 @@ Any of the above would trigger reconsideration of Ring-1 promotion.
 
 ## §9. Author-ratified resolutions
 
-*Pending author ratification. Recommended Option A (CONFIRM Ring 2 + phrase-travel monitoring flag). Literature lineage citation already ratified 2026-04-24 per Open Insight #10.*
+**Ratified 2026-04-24 by Chris Winn — Option A (CONFIRM Ring 2) + phrase-travel monitoring flag + scope-creep monitoring flag.** Accountability Bond (B) confirmed at Ring 2 internal load-bearing; literature-lineage citation ratified (Pigou + Balboa + Yang & Davis + GAO + OSMRE) for Ch 5 + Tech Appendix first uses.
+
+**Two monitoring flags attached (ratified 2026-04-24):**
+
+**(i) Phrase-travel monitoring flag** — watch for post-publication adoption evidence that "accountability bond" travels independently of framework uptake (legal briefs, policy papers, academic citation). Trigger action: rerun this pass and reconsider Ring-1 promotion.
+
+**(ii) Scope-creep monitoring flag (NEW — ratified 2026-04-24 by Chris Winn).** Watch for B's instrument-design space inviting detailed treatment that would push Book 1 into territory better left for Book 2 / Book 3. Specifically:
+- **In-scope for Book 1 (framework book):** naming Accountability Bond · explaining equational-closure role in CS = RCV − B · citing lineage (reclamation bonds, EIBs, Pigouvian taxes, sovereign wealth funds) · illustrating via case studies where B < RCV (McDowell, Deepwater, Libby, Social Security, etc.) · articulating the accountability-gap problem structure.
+- **Scope-creep warning (Book 2/3 territory):** detailed instrument-DESIGN treatments — carbon-tax architecture specifics, insurance-mechanism design, sovereign-wealth-fund governance specifics, severance-agreement legal drafting, policy-instrument coordination across jurisdictions, how to price specific Severed Cost categories in specific cases. These go deep into prescription; Book 1 stays at diagnosis + framework + flagship case demonstrations.
+- **Trigger indicator:** when chapter drafting finds itself stretching to include instrument-design specifics beyond the "accountability gap exists, here's the framework for seeing it, here's what closing it would require in framework terms" scope, pause and ask: *is this Book 1 work, or Book 2/3 work?*
+- **Mitigation:** Book 1 can POINT TO future books ("a future treatment will work through specific instrument-design questions for each Severed Cost category") rather than absorbing the depth.
+
+This flag applies across the framework (not just Accountability Bond), but Accountability Bond is the likely-heaviest source of scope-creep pressure because B is the policy-instrument-most-directly-implied term.
 
 ---
 

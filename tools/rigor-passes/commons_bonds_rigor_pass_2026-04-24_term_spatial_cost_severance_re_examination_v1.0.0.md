@@ -273,11 +273,28 @@ This cross-pairing reinforces both adoptions. They're not redundant; they descri
 
 ## §10. Author-ratified resolutions
 
-*Pending author ratification of this re-examination pass's reversal of the earlier retirement.*
+**Ratified 2026-04-24 by Chris Winn — Option B (ADOPT as lowercase prose phrase).** Reverses earlier retirement ratification (commit `2dc54aa`) which was a Principle-#2 failure (audited author's asteroid-teleport articulation without reading v2 glossary definition). Principle-#3 variant-subtype check PASSES under v2 definition — spatial dispersal of value + concentration of cost is a genuine Cost Severance subtype operating across geographic gap. Parallels the intergenerational cost severance 2026-04-24 lowercase adoption.
 
 ### §10.1 Path choice
 
-**Ratified decision:** *(pending — recommended Option B: adopt as lowercase prose phrase)*
+**Ratified decision:** Option B — adopt "spatial cost severance" as lowercase prose phrase. Capitalized proper-noun form NOT adopted (would reintroduce jargon inflation). Style discipline: lowercase always; composes "spatial" modifier + Ring-1 "cost severance" term.
+
+### §10.2 What changes
+
+- Terms Index Spatial Cost Severance record flips `RETIRED → CURRENT` as lowercase prose phrase (supersedes v1.0 retirement).
+- Glossary v3 sub-entry under Cost Severance describing "spatial cost severance" as the geographic subtype (parallel to intergenerational cost severance).
+- Ch 6 lowercase-discipline style note adds "spatial cost severance" pairing with intergenerational cost severance.
+- Meta-pass §13.2.c table gets pointer to this re-examination pass's reversal.
+
+### §10.3 What does NOT change
+
+- Framework CORE math — unchanged.
+- Cost Severance Ring-1 status — unchanged.
+- Spatial abundance (separate framework element; one of the 10 abundances) — unchanged (it's a different phenomenon from spatial cost severance; distinction preserved per this pass).
+
+### §10.4 Distinguishing diagnostic originated here
+
+The "distinguishing gap-type" diagnostic that later guided the Temporal CS reconsider pass originated from this re-examination: *if removing a qualifier's condition doesn't leave other severance forms intact, the qualifier isn't a subtype qualifier.* Spatial passes (other severance forms persist when spatial gap removed). Intergenerational passes (same). Temporal fails (removing temporal offset abolishes severance entirely, not a subtype).
 
 ---
 

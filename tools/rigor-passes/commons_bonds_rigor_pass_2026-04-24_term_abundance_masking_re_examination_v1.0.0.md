@@ -179,7 +179,15 @@ Retaining Abundance Masking as Ring-2 mechanism-name preserves AIT's explanatory
 
 ## §7. Author-ratified resolutions
 
-*Pending author ratification. Recommended Option A (Ring 2 promote).*
+**Ratified 2026-04-24 by Chris Winn — Option A (PROMOTE to Ring 2).** Reverses earlier meta-pass §13.2.c demote-to-prose ratification (commit `46600bc`) which was a Principle-#2 failure (read 0 chapter refs as signal to demote while missing v2's explicit AIT-pairing language). Abundance Masking is the mechanism AIT exists to detect; retiring or demoting while keeping AIT would create a mechanism-name gap ("AIT detects what?"). Structurally parallel to Cost Severance + Severed Cost pair — both sides of a mechanism-pair deserve named framework status.
+
+Ring 2 count now 9 (after this ratification + all prior 2026-04-24 batches): Accountability Bond · CS = RCV − B equation · Four Gates (cluster pending) · Abundances (pending) · Substitutability Function (S) · Externality Tail (E) · IPG (pending) · Asymmetric Regret Principle (rename sub-decision open) · **Abundance Masking**.
+
+**This re-examination originated the "structural vs topical pairing" diagnostic** that was later used to distinguish which AIT-pairings earn Ring-2 promotion:
+- **Structural pairing:** Partner-A's *definition* requires Partner-B named. (AM-AIT — passes; AIT's definition requires Abundance Masking named.)
+- **Topical pairing:** Partner-A *applies to cases involving* Partner-B but definition doesn't depend on B's name. (Universality Test-AIT, CSG-ARP — failed.)
+
+Only structural pairings justify Ring-2 promotion via pairing argument. Diagnostic captured in Abundance Masking's Terms Index record + later passes' reasoning.
 
 ---
 
