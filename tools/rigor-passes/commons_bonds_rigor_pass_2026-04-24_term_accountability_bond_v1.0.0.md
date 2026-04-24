@@ -328,6 +328,18 @@ Any of the above would trigger reconsideration of Ring-1 promotion.
 
 **Why Accountability Bond is the heaviest scope-creep source:** B is the framework's **remediation-side variable** (vs. diagnostic elements like RCV, AIT, Cost Severance, Severed Cost which REVEAL the problem) — the only framework element that does something about the gap rather than measure it. This remediation role makes B the natural pivot point toward applied work on named beneficiaries / lobbying / industry-specific reform. The scope-creep flag exists precisely because B's remediation function structurally pulls toward Book 2's applied-advocacy territory. Book 1 names B and states the framework-level claim (B = RCV is the ideal; current regimes produce B < RCV); Book 2 would do the applied work of naming specific industries' under-bonding + the lobbying histories that sustain it + the coauthor/institutional-cover-protected advocacy.
 
+**Epistemic-humility discipline for B in Book 1 — author-specified framing 2026-04-24:**
+
+B as a framework CATEGORY (= the sum of all instruments that force cost-bearing onto extractors) is distinct from any SPECIFIC INSTRUMENT design. Book 1 should not present Accountability Bond — and especially not any specific implementation thereof — as THE solution to cost severance. Rather:
+
+- **Book 1 names B at the category level:** *"B is the name for every mechanism that forces extractors to bear costs — reclamation bonds, sovereign wealth funds, carbon taxes, insurance requirements, direct liability, severance agreements. B doesn't specify HOW; it names the aggregate quantity that should equal RCV."*
+- **Book 1 identifies the strongest existing real-world exemplar — Norway's Government Pension Fund Global (sovereign wealth fund)** — as the most impressive mitigation-solution humanity has so far produced for intergenerational cost severance. Norway's fund is framework-canonical case material (Ch 4 anchor).
+- **Book 1 honors the preconditions.** Norway's solution only works because Norway has rule-of-law + institutional architecture that prevents plundering current-population accounts or not-yet-born-generation accounts. The fund presupposes a governance configuration most societies lack. **Even Norway isn't a perfect solution** — it's the most impressive we have, and its preconditions are load-bearing.
+- **Book 1 does NOT claim Accountability Bond (as a novel instrument) is the right solution.** The framework's claim is mathematical: B = RCV is honest accounting. WHICH specific instruments (or instrument mix) best realize that equality is a LIVE policy design space — one that Book 2 or other authors with appropriate institutional cover are better positioned to debate.
+- **Book 1 can PONDER.** A book that tells personal + theoretical stories showing cost severance + framework-level work to help it be identified can legitimately include high-level pondering — "perhaps something like an accountability bond could bridge this, though the Norway example shows what actually works and under what preconditions." That's framework-appropriate. What's out of scope is prescribing specific instrument design as THE fix.
+
+This discipline applies across all remediation-side discussion in Book 1. B is the framework concept; Norway is the canonical existing example; specific instrument designs are a live policy design space Book 1 frames but doesn't settle.
+
 This flag applies across the framework (not just Accountability Bond), but B is the likely-heaviest source of scope-creep pressure. Other watched terms: Abundances (pending rigor pass), Four Gates (pending cluster pass), Cᵢ categories (ratified Ring 1).
 
 ---

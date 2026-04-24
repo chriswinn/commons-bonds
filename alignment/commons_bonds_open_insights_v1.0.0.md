@@ -179,6 +179,33 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Dependencies / Links:** Web literature search results 2026-04-24. Terms Index update v1.1 (this commit). Phase A3 citation sweep pending.
 - **Todo link:** "Review Open Insight #10 remainders: (i) Cost Severance naming collision rigor pass; (ii) Phase A3 citation sweep plan."
 
+### Insight #14 — Norway's sovereign wealth fund as canonical intergenerational-CS mitigation exemplar + epistemic-humility discipline for B
+
+- **Raised:** 2026-04-24 by Chris Winn (during Accountability Bond scope-creep clarification): *"I think the commonwealth fund of Norway is the most impressive mitigation solution I have found to address intergenerational cost severance yet it obviously can't exist in societies where a government is allowed to plunder accounts of people currently living and accounts of people not yet born so the Norway solution isn't a perfect solution."*
+- **Status:** raised · load-bearing for Book 1 authorial-voice calibration around Accountability Bond + Ch 4 Norway treatment
+- **Category:** craft · framework-structure · publishing
+- **Content:** Author-specified discipline for Book 1's treatment of the framework's remediation-side variable (Accountability Bond, B):
+  - **B is a framework CATEGORY, not a novel single-instrument prescription.** B = "every mechanism that forces cost-bearing onto extractors" (sovereign wealth funds, carbon taxes, insurance, reclamation bonds, direct liability, etc.). The framework's claim is mathematical: B = RCV is honest accounting. Which SPECIFIC instrument-mix best realizes that equality is a live policy design space, not a framework pre-commitment.
+  - **Norway's Government Pension Fund Global (sovereign wealth fund) is the canonical existing real-world exemplar** — the most impressive intergenerational-cost-severance mitigation humanity has produced. Framework-canonical case material; Ch 4 anchor (already structured around Norway per bibliography + Ostrom successor literature).
+  - **Norway's solution presupposes governance preconditions** — rule of law; institutional architecture preventing plundering current-population accounts or not-yet-born-generation accounts. Not universal; preconditions load-bearing.
+  - **No claim to having solved it.** Book 1 frames the problem rigorously (CS = RCV − B; current regimes produce B < RCV); offers Norway as the best existing real-world example; PONDERS Accountability Bond as one possible direction; does NOT prescribe a specific instrument design as THE fix.
+  - **Book 1 authorial voice:** *"perhaps something like an accountability bond could bridge this, though the Norway example shows what actually works and under what preconditions — and no society has yet solved this completely."* That register is framework-appropriate pondering. What's out of scope: "The Commons Bonds Framework Accountability Bond Act of 20XX" (that's applied-advocacy Book 2 territory with all the rigor-asymmetry concerns v1.0.3 §6.1 identifies).
+- **Why it matters:**
+  - Prevents Book 1 from over-reaching into instrument-prescription that would (a) trigger applied-advocacy scope-creep (Insight #13); (b) pre-commit the framework to a specific instrument design the evidence may not support; (c) undermine the framework's adoption credibility by appearing to sell a specific product rather than present a diagnostic + measurement tool.
+  - Centers Norway at appropriate prominence — the framework's strongest empirical example of what intergenerational-CS mitigation can look like when preconditions hold.
+  - Preserves intellectual honesty about what the framework HAS and HASN'T achieved: it has the diagnostic apparatus (naming + measurement); it has identified one existing example that works; it has NOT proven that any one specific instrument design is universally right.
+- **Implications for chapter drafting:**
+  - **Ch 4 (Norway)** — treat Norway's sovereign wealth fund as the canonical real-world mitigation exemplar with preconditions-are-load-bearing framing. Norway is the book's strongest empirical anchor on the remediation side.
+  - **Ch 5 (Accountability Gap)** — frame B as framework category; reference Norway as the strongest existing example approaching B ≈ RCV; frame current American regimes as radically distant (B << RCV).
+  - **Ch 6 (methodology)** — introduce B as framework element + equational closure; avoid specific-instrument prescription.
+  - **Ch 9 (policy economy)** — Community Transition Reserve named policy rec is framework-appropriate; additional specific instrument-prescription tested against the epistemic-humility discipline.
+  - **Ch 10 (closing)** — final reflection can honor that framework identifies the problem + offers diagnostic + points toward known-working examples without claiming a single-instrument cure.
+- **Proposed resolution:** capture in Accountability Bond rigor pass §7.3 + Terms Index Accountability Bond record (done 2026-04-24 with this commit). Apply during chapter drafting as authorial-voice calibration. No further decision needed; this is discipline not option-selection.
+- **Dependencies / Links:** Accountability Bond rigor pass (Terms Index record); Open Insight #13 (book-scope creep); v1.0.3 book-scope doc; Norway case-study file; Ch 4 guidance; Ostrom-successor bibliography entries (Hess & Ostrom 2007 Knowledge Commons; Ostrom 1990 Governing the Commons — North 1990 institutional-economics).
+- **Todo link:** "Review Open Insight #14: authorial-voice discipline during chapter drafting (Ch 4 Norway treatment; Ch 5 accountability-gap framing; Ch 6/9/10 remediation discussion)."
+
+---
+
 ### Insight #13 — Book-scope creep monitoring (Book 1 vs Book 2 vs Book 3 boundary per `tools/commons_bonds_book_scope_v1_0_3.md`)
 
 - **Raised:** 2026-04-24 by Chris Winn (during Accountability Bond ratification: *"flag to see if it starts to cause book scope creep, creep towards things that are perhaps best left for book 2, book 3, etc. for scope of book and reasons for separating books"*). Refined 2026-04-24 after Chris corrected an initial oversimplified "Book 1 = diagnosis; Book 2/3 = fix" framing — *"The above said, I can accept the... Review the book 1 vs. book 2 vs. book 3 publication strategy documents and reasons. That is the guiding book scope, not my earlier over simplified sentence."* Governing document: `tools/commons_bonds_book_scope_v1_0_3.md` (2026-04-21 proposed canonical).

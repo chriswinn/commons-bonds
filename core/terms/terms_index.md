@@ -1040,6 +1040,13 @@ Canonical Ch 5 + Tech Appendix first-use citation form drafted in rigor pass §3
 - "Accountability" vs "liability" distinction: accountability is the relational + constructive word (positive framing); liability is the defensive legal-action word. Framework uses "accountability" intentionally.
 - "Bond" metaphor: operates both as financial-instrument (legal-register) and relational-bond (framework-title register). Double-entendre load-bearing for book's Commons Bonds positioning.
 
+**Epistemic-humility discipline — author-specified framing 2026-04-24 (load-bearing for Book 1 authorial-voice calibration):**
+- B is the framework CATEGORY for every mechanism that forces cost-bearing on extractors — NOT a novel single-instrument prescription. Book 1 should NOT present Accountability Bond as THE solution to cost severance.
+- **Norway's Government Pension Fund Global (sovereign wealth fund) is Book 1's canonical existing real-world exemplar** of intergenerational-cost-severance mitigation. Norway is the most impressive existing solution humanity has produced for this problem class — framework-canonical case (Ch 4 anchor).
+- **Norway's solution presupposes governance preconditions** (rule of law; institutional architecture preventing plundering current-population accounts or not-yet-born-generation accounts). Not a universal solution; its preconditions are load-bearing. Book 1 honors this — "even the best existing example isn't universal."
+- **No claim to having solved it.** The framework's claim is mathematical (B = RCV is honest accounting); which specific instrument-mix best realizes that equality is a LIVE policy design space Book 1 frames but doesn't settle. Book 2 (or authors with institutional cover) are better positioned for applied instrument-design debate.
+- **Book 1 CAN ponder.** Framework-appropriate pondering: *"perhaps something like an accountability bond could bridge this, though the Norway example shows what actually works and under what preconditions."* What's OUT of scope: prescribing a specific instrument design (e.g., "The Commons Bonds Framework Accountability Bond Act") as THE fix.
+
 ---
 
 ### Abundance Masking
