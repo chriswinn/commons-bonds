@@ -492,9 +492,41 @@ Terms in §11.1–§11.10 above either retire automatically (FGC, Abundance Mask
 
 **Ratified decision (2026-04-24, Chris Winn):** APPROVED. Tiered-ring architecture is the framework's vocabulary classification going forward. Ring 1 (5 public load-bearing terms) + Ring 2 (7 internal load-bearing terms) + Ring 3 (retirement/demotion candidates) per §10 specifications.
 
-### §13.2 Ring-3 dispositions (per §11.1–§11.10, individually ratifiable)
+### §13.2 Ring-3 dispositions (per §11.1–§11.10)
 
-**Ratified decisions:** *(pending — may be ratified per-term or en-bloc)*
+**Ratified 2026-04-24 per Chris's instruction:** "en-bloc for the obvious straightforward consequences of prior decisions, the shift to per-term for all other terms."
+
+**§13.2.a EN-BLOC RATIFIED** (2026-04-24, Chris Winn) — straightforward consequences of prior ratified decisions, confirmed safe by chapter-draft audit:
+
+| Term | Disposition | Audit finding | Prior-decision basis |
+|---|---|---|---|
+| **FGC / Full Generational Cost** | RETIRE as framework term | 1 ref (Ch 10 guidance, sweepable) | Tier dissolution (2026-04-24) — FGC was tier-aggregate; tiers gone → FGC redundant with RCV |
+| **8 tier labels** (Lifetime Survival Cost · Actuarial Risk Cost · Mission Failure Reserve · Dynastic Labor Cost · Community Transition Reserve · Ecological Carrying Cost · Knowledge and Culture Cost · Political Capture Cost) | RETIRE as tier-labels; the *cost names* persist as named Cᵢ in prose | 0–11 refs each across drafts + case studies; tier-labeling retires, cost names stay | Tier dissolution (2026-04-24) |
+| **Foreclosure Cost duplicate in glossary** | MERGE — single glossary entry (as C₁ formula term); tier-entry version deleted | Same — inherent in tier dissolution | Tier dissolution + glossary hygiene |
+| **Abundance Dimension** (as class term) | RETIRE | 0 chapter refs | Queued under Dimension-vs-Abundance rigor pass (pre-existing terminology decision) |
+| **Abundance Masking** | DEMOTE to prose description | 0 chapter refs (glossary-only) | AIT already tests for masking; named term redundant |
+| **Universality Test** | DEMOTE to M1-rigor-reference | 0 chapter refs (glossary-only) | Rigor protocol v2.2.0 M1 subsumes universality testing |
+
+**§13.2.b PER-TERM DECISIONS PENDING** — see §13.2.c for revised analysis post-audit:
+
+**§13.2.c Audit-driven revision: CSG promotion to Ring-2**
+
+The meta-pass's original recommendation was RETIRE or DEMOTE for Civilizational Substitutability Gap (CSG) on grounds that CSG is "S evaluated at civilization scale, not a distinct concept." A chapter-draft audit conducted 2026-04-24 revealed **66 occurrences across 6 files** including Ch 7 (Mars colony, asteroid-miner thought experiment) and Ch 9 (Renewable Imperative) drafts. CSG is actively load-bearing in those chapters' prose and does semantic work the S function alone doesn't carry — *civilization-scale substitutability with implications bounded by the civilization's technological horizon.*
+
+**Revised recommendation:** PROMOTE CSG to Ring-2 (internal load-bearing). Chapter drafts use CSG as a distinct concept; retiring it would require rewriting Ch 7 + Ch 9 to expand S-function prose — substantial effort with no corresponding adoption-bandwidth gain.
+
+**Ratified decision on CSG:** *(pending author call — recommendation: Ring-2 promotion)*
+
+**Per-term items for author decision** (with audit data + recommendations):
+
+| Term | Chapter audit | Recommendation | Options |
+|---|---|---|---|
+| Civilizational Substitutability Gap (CSG) | 66 refs across Ch 7 + Ch 9 + case audit + chapter audit | **PROMOTE TO RING-2** | (a) Promote to Ring-2; (b) Retire + rewrite Ch 7 + Ch 9; (c) Demote to Tech-Appendix-only |
+| Asymmetric Regret Principle | 0 chapter refs (Tech Appendix §G mention only) | DEMOTE to Tech-Appendix-level | (a) Demote; (b) Retire; (c) Retain |
+| Value Capture | 0 chapter refs (meta-doc usage only) | DEMOTE from glossary | (a) Demote from glossary; (b) Retain as short entry; (c) Retire |
+| Cost Bearing | 0 chapter refs | DEMOTE from glossary | Same as Value Capture |
+| Spatial Cost Severance | 0 chapter refs | DEMOTE | (a) Demote; (b) Retain |
+| Temporal Cost Severance | 1 ref (Social Security case) | DEMOTE (rephrasable) | (a) Demote; (b) Retain |
 
 ### §13.3 Reshaped queue adoption
 
