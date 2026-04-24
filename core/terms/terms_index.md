@@ -1119,4 +1119,79 @@ The v2 definition makes the pairing structure explicit: *"Abundance Masking is t
 
 ---
 
+### CS = RCV − B equation (named relational claim)
+
+**Working definition:** The framework's central relational claim — Cost Severance in a transaction equals specifically Residual Commons Value minus Accountability Bond (arithmetic subtraction). The equation asserts: (i) only RCV and B matter for computing CS; (ii) the accountability-gap is linear in B (each dollar of B reduces CS dollar-for-dollar); (iii) B = RCV defines the framework's ideal state quantitatively (CS = 0 ↔ honest accounting). **Named framework object distinct from its component terms** — CS, RCV, B each have their own Terms Index record + rigor pass; this equation record is the ratified-2026-04-24 classification of the equation itself as a distinct Ring-2 structural element.
+
+**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn — "named relational claim").
+
+**Term-spec version:** v1.0 (first sanctioned spec).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Meta-pass §10.2 + §12.1 item 7 (commit `46600bc`) — identified as Ring-2 internal load-bearing ("CS = RCV − B equation (as a single conceptual object)").
+- Ring-1 full integrated pass (commit `d4c4be4`) — equation structurally tested in unified-system rigor; no reconsideration surfaced.
+- Individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cs_rcv_b_equation_v1.0.0.md` (2026-04-24) — Option A (CONFIRM Ring 2 as named relational claim) ratified 2026-04-24 by Chris Winn. Principle-#3 derivation check PASSES (light non-triviality: equation fixes arithmetic form + only-these-components claim + ideal-state definition beyond what's in components' prose definitions). M12 classification: independent specialization of established gap-accounting structure.
+
+**M12 classification:** Independent specialization of established gap/deficit-accounting structure. Gap-form equations ubiquitous in adjacent literature:
+- **Pigouvian gap:** externality − tax = unpriced amount (Pigou 1920).
+- **Stern Review intergenerational framing:** present-cost-to-future minus current-priced = intergenerational transfer (Stern 2007).
+- **Nordhaus DICE social-cost-of-carbon:** cumulative marginal damage − market carbon price = SCC gap (Nordhaus & Boyer 2000).
+- **Accounting identity:** economic-cost − recorded-cost = unrecorded-cost.
+
+Framework novelty is NOT the gap-form (ubiquitous) — it is the specific decomposition (what RCV is, what B is, what CS is as mechanism-result pair with Severed Cost).
+
+**M12 citations (ratified 2026-04-24, already added to bibliography in prior commits):**
+- Pigou, Arthur Cecil. *The Economics of Welfare* (1920) — Pigouvian gap lineage.
+- Stern, Nicholas. *The Economics of Climate Change: The Stern Review* (Cambridge 2007) — intergenerational-gap parallel.
+- Nordhaus, William D. & Boyer, Joseph. *Warming the World* (MIT Press 2000) — DICE social-cost-of-carbon parallel.
+
+Tech Appendix §L methodological footnote positions the equation as extension of this established gap-accounting lineage with framework-specific decomposition.
+
+**Why Ring 2 (not Ring 1):**
+- Equations don't travel as adoption vocabulary the way terms do. Ring-1 adoption-targets are CS / SC / RCV / B / AIT / VE / Commons Bonds individually.
+- Analogue: *F = ma* travels as vocabulary, but only AFTER Newtonian framework adoption; the framework-level terms (force, mass, acceleration) travel first. Same pattern: framework terms travel first; the equation holds them together internally.
+- The equation is the internal structural anchor — Ring 2 (internal load-bearing) appropriate.
+
+**Why NOT demoted to "just math" or merged into Cost Severance record:**
+- Carries independent content (arithmetic form; only-B-and-RCV-matter claim; ideal-state definition).
+- Citing the equation as a single object is rhetorically and pedagogically more economical than reconstructing the relationship each time.
+- **Stability-anchor function** in rigor infrastructure: naming the equation forces consistency across term definitions. If a later rigor pass weakens one term, the equation surfaces the consequence for the whole framework immediately.
+- **Scope-creep discipline (Insight #13):** equation-as-object helps chapter drafts stay at framework level ("CS = RCV − B; current regimes produce B < RCV") without sprawling into instrument-specific territory.
+
+**Cross-reference to epistemic-humility discipline (Insight #14):**
+The equation's statement "CS = RCV − B" is **framework-level prescription** (in-scope for Book 1 per v1.0.3). The equation does NOT commit to which specific instrument-mix realizes B. **Norway's sovereign wealth fund is the canonical real-world example of B approaching RCV;** the equation itself is the framework-level object that makes Norway's success measurable + that makes the American B << RCV gap visible. Book 1 presents the equation + points to Norway as best-existing-example + PONDERS Accountability Bond as one candidate direction — does NOT prescribe a specific instrument design as THE fix.
+
+**Depends on (all these must hold for equation to hold):**
+- CS definition (Ring 1) — mechanism/quantity.
+- RCV definition (Ring 1) — integrand form ∫ᵗ₀^∞ {[1 − S(t|t₀)] · U(R, t, Q(t)) + E(R, t)} · D(t, t₀) dt.
+- B definition (Ring 2) — full-Severed-Cost scope.
+- Substitutability Function S (Ring 2) — appears in RCV integrand via C₁.
+- Externality Tail E (Ring 2) — appears in RCV integrand.
+- Abundance Masking + AIT (Ring 2/1) — govern which costs are admitted to RCV.
+- Four Gates (Ring 2, pending) — admission apparatus for Cᵢ.
+
+**Pairs with:**
+- All component terms — equation is their combined structural anchor.
+- Accountability-gap argument (the interpretive claim that CS > 0 in practice).
+- Insight #14 epistemic-humility discipline (B = RCV is the ideal; Norway is canonical existing example; no single-instrument cure prescribed).
+
+**Staleness triggers:**
+- Any component definition changes in a way that affects the equation (stability-anchor function surfaces this immediately).
+- CORE math restructured to use a different form (ratio, logarithm, multi-term).
+- Academic adoption evidence shows gap-accounting form displaced by an alternative.
+
+**Commit trail:**
+- Individual rigor pass: this commit.
+- Ratification + Terms Index record: this commit.
+
+**Notes:**
+- "CS = RCV − B" is the three-word / four-character / one-operator encapsulation of the framework's central claim. Maximum compressibility.
+- Pedagogical role: readers who internalize the equation acquire the framework's central assertion in one expression.
+- Rigor-infrastructure role: the equation acts as stability anchor — if later rigor weakens one component, the equation immediately surfaces the consequence for the whole.
+- Scope-creep discipline: equation-as-object keeps chapter drafts at framework level rather than instrument-specific level (per Open Insight #13 + Insight #14).
+
+---
+
 *End of Term Provenance Index v0.1.0. Skeleton established 2026-04-24. Populated progressively as Tier A rigor work produces records.*
