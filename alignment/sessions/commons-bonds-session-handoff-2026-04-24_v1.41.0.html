@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-24 · v1.41.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .decision     { background: #f3e8ff; border-left: 4px solid #7a3ea1; padding: 1em 1.2em; margin: 1em 0; }
+  .operating    { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .milestone    { background: #e8f2fa; border-left: 4px solid #2a5a8c; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .snippet      { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .version  { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-24 · Version <span class="version">1.41.0</span> · Supersedes v1.40.0 · Same-day continuation. Session theme: <strong>Phase A3 vocabulary-rigor cycle — 14 rigor passes committed; Ring-1 architecture fully rigor-backed (7 terms); Ring-1 batch ratified; 6 capture artifacts mature; 4 Working Principles ratified; non-Ring-1 queue staged for execution.</strong></p>
+
+<div class="status">
+<strong>STATUS:</strong> <strong>RING-1 VOCABULARY ARCHITECTURE FULLY RATIFIED.</strong> All 7 Ring-1 terms (Commons Bonds · Cost Severance · Severed Cost · Value Extraction · AIT · RCV · Cost Cᵢ) pass standalone rigor + integrated-synthesis rigor. Essay-write on Berggruen is vocabulary-unblocked. 14 rigor passes committed today (3 Ring-1 architecture decisions + 11 term-level passes). Non-Ring-1 rigor queue ready to execute (CSG + Asymmetric Regret + Universality Test re-examination + Spatial CS un-retire + Temporal CS reconsider + remaining Ring-2 individual passes + cluster passes). Phase A3 audit sweep scoped per Principle #4 three streams (Tier-1 sweeps + Tier-2 header notes + active-use provenance-pointers).
+</div>
+
+<div class="snippet">
+<h2>Copy-paste snippet for next session start</h2>
+<pre>Starting Commons Bonds session — picking up from handoff v1.41.0 (2026-04-24).
+
+Please read these files before responding:
+- alignment/sessions/commons-bonds-session-handoff-2026-04-24_v1.41.0.html  (this handoff — read first)
+- core/terms/terms_index.md  (Term Provenance Index v0.1.0; 12 records populated; Ring-1 architecture fully ratified)
+- alignment/commons_bonds_open_insights_v1.0.0.md  (Open Insights Log; 9 insights — 2 closed, 7 open)
+- alignment/commons_bonds_working_principles_v1.0.0.md  (4 ratified Working Principles)
+- alignment/commons_bonds_personal_stories_candidates_v1.0.0.md  (1 candidate: commute trade)
+- tools/commons_bonds_rigor_protocol_v2.2.0.md
+- tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_ring1_full_integrated_v1.0.0.md  (full Ring-1 integrated pass — ratified)
+- tools/rigor-passes/*  (14 rigor passes from 2026-04-24; see handoff commit log for individual pass references)
+- manuscript/chapters/_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md  (AI Statement draft with 3 tentative collaboration-pattern entries)
+
+Current canonical state to verify:
+- Rigor protocol v2.2.0 canonical.
+- Path F + tier dissolution + macro-grouping Option A — all ratified
+  2026-04-24 (handoff v1.40.0).
+- Tiered-ring vocabulary architecture ratified; Ring 1 has 7 terms
+  (Commons Bonds · Cost Severance · Severed Cost · Value Extraction ·
+  AIT · RCV · Cost Cᵢ); fully rigor-backed + batch-ratified
+  2026-04-24.
+- 4 Working Principles ratified:
+  #1 Effort-to-repair is not a rigor argument
+  #2 Audit the concept, not the exact phrase
+  #3 Misnaming is a rigor failure
+  #4 Retirement preserves history in-document + active-use terms
+     carry provenance-pointer headers
+- Terms Index §4 has 12 records (4 retirement/demotion + 7 Ring-1
+  CURRENT + 1 prose-phrase CURRENT).
+- Open Insights: 9 captured total; 2 closed (#4 Commons Bonds name +
+  #8 audit methodology); 7 open (#1 addressed via meta-pass +
+  ratifications; #2 gate-naming cohort; #3 severance cluster partial;
+  #5 glossary v3 audit; #6 reshaped queue pending; #7 Value-Capture-vs-
+  Extraction naming resolved via ratification; #9 framework as decision-
+  time tool).
+- Berggruen essay-write vocabulary-unblocked.
+
+Next work (author-ratified sequence):
+1. Run non-Ring-1 queue:
+   - Spatial CS re-examination ratification (commit c04b7d8 recommends
+     un-retire as lowercase prose phrase — per v2 def is genuine subtype)
+   - Abundance Masking re-examination ratification (commit cf02160
+     recommends promote to Ring 2 — per v2 def is paired mechanism-name
+     with AIT)
+   - Universality Test full re-examination rigor pass (queued)
+   - CSG (Civilizational Substitutability Gap) full rigor pass (queued)
+   - Asymmetric Regret Principle full rigor pass (queued)
+   - Temporal CS reconsider (paired with Spatial CS re-examination)
+   - Value-Capture-vs-Extraction v2-distinction re-examination —
+     RESOLVED via Value Extraction standalone pass §5; no standalone
+     re-examination pass needed.
+2. Execute remaining Ring-2 individual passes: Accountability Bond ·
+   CS=RCV−B equation · Substitutability Function · Externality Tail ·
+   IPG · Abundances
+3. Execute cluster passes: Four Gates naming cohort; tier-dissolution
+   follow-through
+4. Phase A3 audit sweep per Principle #4 three streams:
+   a. Tier-1: active docs updated for retirements (Value Capture →
+      Value Extraction 16 proper-noun refs across 9 files; retired
+      tier labels; FGC; glossary v2→v3; decomp doc retirement; Tech
+      Appendix §C.4 restructure as variable catalog)
+   b. Tier-2: older/archived docs get retirement-note header pointing
+      to Terms Index
+   c. Active-use: current docs get provenance-pointer header pointing
+      to Terms Index for vocabulary provenance
+5. Wrap-up: README refresh; session handoff v1.42.0.
+
+Additional thoughts for this session (Chris, fill in here before sending):
+[                                                                                           ]
+[                                                                                           ]
+</pre>
+</div>
+
+<div class="milestone">
+<h2>What landed today (since v1.40.0)</h2>
+
+<h3>14 rigor passes committed 2026-04-24</h3>
+<table>
+<thead><tr><th>#</th><th>Pass</th><th>Verdict</th><th>Commit</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Variable-vs-Cost (5-option test)</td><td>Option B (cost) ratified; D+E style addenda</td><td><code>0c7547a</code></td></tr>
+<tr><td>2</td><td>Vocabulary-footprint meta-pass</td><td>Tiered-ring architecture ratified</td><td><code>46600bc</code></td></tr>
+<tr><td>3</td><td>Temporal Cost Severance focused</td><td>Option C (retire capitalized) ratified</td><td><code>9df1958</code></td></tr>
+<tr><td>4</td><td>Intergenerational cost severance full</td><td>Option A (adopt lowercase prose) ratified</td><td><code>1be07e0</code></td></tr>
+<tr><td>5</td><td>Value-Capture-vs-Extraction triage</td><td>Option B (Extraction) ratified; Capture retired</td><td><code>daef46a</code></td></tr>
+<tr><td>6</td><td>Cost-Severance-vs-Severed-Cost triage</td><td>Option A (keep both with role discipline) ratified</td><td><code>0021e24</code></td></tr>
+<tr><td>7</td><td>AIT (standalone)</td><td>Option A (keep) ratified</td><td><code>9abb263</code></td></tr>
+<tr><td>8</td><td>RCV (standalone)</td><td>Option A (keep) ratified</td><td><code>5dea091</code></td></tr>
+<tr><td>9</td><td>Ring-1 synthesis (partial 4-term)</td><td>All 4 hold; ratified as batch</td><td><code>2b70377</code></td></tr>
+<tr><td>10</td><td>Spatial CS re-examination</td><td>Option B (un-retire; lowercase prose) pending author</td><td><code>c04b7d8</code></td></tr>
+<tr><td>11</td><td>Abundance Masking re-examination</td><td>Option A (promote to Ring 2) pending author</td><td><code>cf02160</code></td></tr>
+<tr><td>12</td><td>Commons Bonds (standalone)</td><td>Option A (keep) ratified — polysemy load-bearing</td><td><code>be6646f</code></td></tr>
+<tr><td>13</td><td>Value Extraction (standalone)</td><td>Option A; v2-distinction rejected; ratified</td><td><code>18f5e82</code></td></tr>
+<tr><td>14</td><td>Cost Severance (standalone)</td><td>Option A ratified</td><td><code>0aafed7</code></td></tr>
+<tr><td>15</td><td>Full Ring-1 integrated (all 7 terms)</td><td>All 7 PASS integrated synthesis; ratified</td><td><code>d4c4be4</code></td></tr>
+</tbody>
+</table>
+
+<h3>6 capture-infrastructure artifacts established</h3>
+<ol>
+<li><strong>Term Provenance Index</strong> (<code>core/terms/terms_index.md</code> v0.1.0) — 12 populated records (retirement + CURRENT Ring 1 + prose-phrase).</li>
+<li><strong>Open Insights Log</strong> (<code>alignment/commons_bonds_open_insights_v1.0.0.md</code>) — 9 captured insights; 2 closed.</li>
+<li><strong>Working Principles</strong> (<code>alignment/commons_bonds_working_principles_v1.0.0.md</code>) — 4 ratified Principles.</li>
+<li><strong>Personal Stories Candidates</strong> (<code>alignment/commons_bonds_personal_stories_candidates_v1.0.0.md</code>) — Candidate #1 (the commute trade) logged.</li>
+<li><strong>AI Statement extensions</strong> (<code>manuscript/chapters/_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md</code>) — 3 tentative collaboration-pattern entries: division-of-labor · peer-review-surrogate · cross-cutting-observation-capture.</li>
+<li><strong>Rigor passes directory</strong> — 20+ passes now in <code>tools/rigor-passes/</code>; 14 landed today; methodology mature.</li>
+</ol>
+</div>
+
+<div class="milestone">
+<h2>Ring-1 vocabulary architecture (LOCKED 2026-04-24)</h2>
+
+<table>
+<thead><tr><th>#</th><th>Term</th><th>Role</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>1</td><td><strong>Commons Bonds</strong></td><td>Framework name + book title; polysemous anchor (accountability + relational + structural bonds)</td><td class="done">CURRENT</td></tr>
+<tr><td>2</td><td><strong>Cost Severance</strong></td><td>Structural mechanism</td><td class="done">CURRENT</td></tr>
+<tr><td>3</td><td><strong>Severed Cost</strong></td><td>Result + flagship adoption phrase</td><td class="done">CURRENT</td></tr>
+<tr><td>4</td><td><strong>Value Extraction</strong></td><td>Causal event / first chain position</td><td class="done">CURRENT</td></tr>
+<tr><td>5</td><td><strong>Abundance Inversion Test (AIT)</strong></td><td>Methodology / Gate L.1</td><td class="done">CURRENT</td></tr>
+<tr><td>6</td><td><strong>Residual Commons Value (RCV)</strong></td><td>Quantification / equation LHS</td><td class="done">CURRENT</td></tr>
+<tr><td>7</td><td><strong>Cost (Cᵢ)</strong></td><td>Atomic unit (replaced "variable")</td><td class="done">CURRENT</td></tr>
+</tbody>
+</table>
+
+<p><strong>Causal chain reads end-to-end:</strong><br>
+[Commons Bonds frames] → Value Extraction → Cost Severance ← (admitted via AIT) ← Σᵢ Cᵢ → RCV → CS = RCV − B → Severed Cost</p>
+
+<p>Full 3-minute dinner-table explanation threads all 7 terms cleanly (see Ring-1 integrated pass §4.2). 21 unique pairings verified coherent.</p>
+</div>
+
+<div class="decision">
+<h2>Ratifications locked today (2026-04-24)</h2>
+
+<h3>Architecture + Principles</h3>
+<ul>
+<li>Tiered-ring vocabulary architecture (Ring 1 / Ring 2 / Ring 3)</li>
+<li>En-bloc Ring-3 retirements: FGC · 8 tier labels · Foreclosure duplicate · Abundance Dimension · Abundance Masking (under review for promotion) · Universality Test (under review)</li>
+<li>Working Principle #1: Effort-to-repair is not a rigor argument</li>
+<li>Working Principle #2: Audit the concept, not the exact phrase</li>
+<li>Working Principle #3: Misnaming is a rigor failure</li>
+<li>Working Principle #4: Retirement preserves history in-document; active-use terms carry provenance-pointer headers</li>
+</ul>
+
+<h3>Individual term ratifications</h3>
+<ul>
+<li>Spatial Cost Severance → RETIRED (2026-04-24); then re-examination 2026-04-24 recommends un-retire as lowercase prose phrase (pending author)</li>
+<li>Temporal Cost Severance → RETIRED (capitalized; replaced by lowercase "intergenerational cost severance")</li>
+<li>intergenerational cost severance → ADOPTED (lowercase prose phrase)</li>
+<li>Cost Bearing → DEMOTED (from glossary to prose-only)</li>
+<li>Value Capture → RETIRED (duplicative with Value Extraction)</li>
+<li>Value Extraction → Ring-1 CURRENT (promoted + ratified standalone)</li>
+<li>Cost Severance → Ring-1 CURRENT (ratified pair + standalone + integrated)</li>
+<li>Severed Cost → Ring-1 CURRENT (ratified pair + integrated)</li>
+<li>AIT → Ring-1 CURRENT (ratified standalone + integrated)</li>
+<li>RCV → Ring-1 CURRENT (ratified standalone + integrated)</li>
+<li>Cost (Cᵢ) → Ring-1 CURRENT (ratified Variable-vs-Cost + integrated)</li>
+<li>Commons Bonds → Ring-1 CURRENT (ratified standalone + integrated; resolves Open Insight #4)</li>
+</ul>
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY — Next session's work sequence</h2>
+
+<p>Author-ratified sequence (2026-04-24) for next session:</p>
+
+<h3>1. Run non-Ring-1 queue</h3>
+<ul>
+<li><strong>Ratify Spatial CS re-examination</strong> — un-retire as lowercase prose phrase (commit <code>c04b7d8</code>). Pending author ratification from this session.</li>
+<li><strong>Ratify Abundance Masking re-examination</strong> — promote to Ring 2 (commit <code>cf02160</code>). Pending author ratification from this session.</li>
+<li><strong>Universality Test re-examination rigor pass</strong> — queued (v2 def shows paired with AIT; demote recommendation was Principle-#2 failure).</li>
+<li><strong>CSG full rigor pass</strong> — queued (v2 def shows distinct from S function; Ring-2 candidate).</li>
+<li><strong>Asymmetric Regret Principle full rigor pass</strong> — queued (v2 def shows decision-rule; Ring-2 candidate).</li>
+<li><strong>Temporal CS reconsider</strong> — paired with Spatial CS re-examination; if Spatial CS un-retires, reconsider whether Temporal CS should also un-retire as "temporal cost severance" lowercase phrase alongside "intergenerational cost severance." (Current state: Temporal CS retired + intergenerational cost severance adopted as replacement. Symmetry with Spatial CS may argue for parallel handling.)</li>
+</ul>
+
+<h3>2. Execute remaining Ring-2 individual passes</h3>
+<p>Accountability Bond (B) · CS = RCV − B equation · Substitutability Function (S) · Externality Tail (E) · IPG · Abundances</p>
+
+<h3>3. Cluster passes</h3>
+<p>Four Gates naming cohort (Open Insight #2) · Tier-dissolution follow-through (ensure clean propagation)</p>
+
+<h3>4. Phase A3 audit sweep (per Principle #4 three streams)</h3>
+<ul>
+<li><strong>Stream A (Tier-1 updates):</strong> Value Capture → Value Extraction rename (16 proper-noun refs across 9 files); retired-tier-label refs cleaned up; FGC references swept; glossary v2 → v3 bump (structural audit per Open Insight #5 included); decomposition doc retirement (archive); Tech Appendix §C.4 restructure as variable catalog</li>
+<li><strong>Stream B (Tier-2 header notes):</strong> Archived session handoffs + archived rigor protocols + archived rigor passes + superseded Tech Appendix v0.0.3 + archived chapter audits — each gets retirement-note header pointing to Terms Index</li>
+<li><strong>Stream C (Active-use provenance pointers):</strong> Current chapter drafts + active audit docs + Technical Appendix v0.0.4 + glossary v3 — each gets provenance-pointer header pointing to <code>core/terms/terms_index.md</code></li>
+</ul>
+
+<h3>5. Wrap-up</h3>
+<p>README refresh with Ring-1 architecture locked; session handoff v1.42.0; potentially: session end for the day.</p>
+</div>
+
+<div class="operating">
+<h2>Operating observations (2026-04-24 session)</h2>
+
+<h3>Session volume</h3>
+<p>This was the single most productive session in the project's history. 14 rigor passes + 6 capture-infrastructure artifacts + 4 Working Principles + full Ring-1 architecture ratification + dozens of ratification + correction cycles. The session closed Open Insights #4 and #8, made substantial progress on #1 and #6, and added Insight #9.</p>
+
+<h3>Pattern: Principle-#2 failure recurrence</h3>
+<p>Multiple rigor passes surfaced the same failure mode: retire/demote recommendations based on audit-of-word-frequency without reading v2 glossary definitions. This pattern caught several retirements today that needed reversal (Spatial Cost Severance un-retire; Abundance Masking promote; CSG + Universality Test re-promote). Working Principle #2 captures the discipline; running audits at concept-level + reading definitions is now the standard.</p>
+
+<h3>Pattern: Collaboration structural shift</h3>
+<p>Chris's 2026-04-24 explicit direction — <em>"I want you to always feel you have the freedom to think & express your ideas so we can work more collaboratively vs. me asking the right questions"</em> — produced the Open Insights Log + Working Principles + structural-thinking-vs-rigor-execution division-of-labor framing captured in the AI Statement draft. Pattern is now: Chris raises structural questions; I execute rigor at full depth; both surface cross-cutting observations. Output quality materially higher.</p>
+
+<h3>Pattern: Chain-coherence testing</h3>
+<p>Causal-chain bridge test (introduced in Value-Capture-vs-Extraction pass) surfaced the decisive factor in multiple vocabulary decisions. When the chain is tight (Extraction + Severance share separation-from-source semantics), the framework's rhetorical opening lands for readers. When it requires inference (Capture + Severance), risk of reader-loss at essay's opening. Test worth applying to future vocabulary questions.</p>
+
+<h3>Berggruen essay-write status</h3>
+<p>Vocabulary-unblocked as of 2026-04-24 batch ratification. All 7 Ring-1 terms rigor-locked; flagship adoption phrase ("severed cost") stable; framework name tested; causal chain verified end-to-end. Author can draft essay with confidence that post-draft framework shifts won't undermine the work.</p>
+</div>
+
+<div class="info">
+<h2>Open Insights status (2026-04-24)</h2>
+
+<table>
+<thead><tr><th>#</th><th>Title</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Framework may be naming too many things</td><td class="done">Addressed (meta-pass + ratifications)</td></tr>
+<tr><td>2</td><td>Gate-naming cohort consistency</td><td class="pending">Open (queued)</td></tr>
+<tr><td>3</td><td>Severance vocabulary cluster rigor</td><td class="pending">Partially absorbed into CS-vs-SC + Value-Capture-vs-Extraction</td></tr>
+<tr><td>4</td><td>Commons Bonds name rigor</td><td class="done">Closed-ratified 2026-04-24</td></tr>
+<tr><td>5</td><td>Glossary v2→v3 structural audit</td><td class="pending">Open (Phase A3 sweep)</td></tr>
+<tr><td>6</td><td>31-pass queue structural approach</td><td class="done">Addressed (reshaped queue executed)</td></tr>
+<tr><td>7</td><td>Value Capture vs Extraction naming</td><td class="done">Resolved via ratification (Value Extraction)</td></tr>
+<tr><td>8</td><td>Audit methodology failure risk</td><td class="done">Closed-ratified (Working Principle #2)</td></tr>
+<tr><td>9</td><td>Framework as decision-time tool</td><td class="pending">Open — book-scope decision</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="info">
+<h2>Chapter length tracking (standing section per feedback rule)</h2>
+
+<p><em>No chapter drafts changed this session (all vocabulary work + rigor testing). Drafts counts unchanged from v1.40.0.</em></p>
+
+<table>
+<thead><tr><th>Chapter</th><th>~Words</th><th>~Pages</th><th>Target</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>Ch 1</td><td>—</td><td>—</td><td>5,000–6,000</td><td class="hold">UNDRAFTED</td></tr>
+<tr><td>Ch 2 McDowell</td><td>~6,200</td><td>~22</td><td>5,500–6,500</td><td class="done">ON TARGET</td></tr>
+<tr><td>Ch 3</td><td>—</td><td>—</td><td>TBD</td><td class="hold">UNDRAFTED</td></tr>
+<tr><td>Ch 4 Existence Proof</td><td>~4,800</td><td>~17</td><td>4,500–5,500</td><td class="done">ON TARGET</td></tr>
+<tr><td>Ch 5 Accountability Gap</td><td>~5,300</td><td>~19</td><td>5,000–6,000</td><td class="done">ON TARGET</td></tr>
+<tr><td>Ch 6 Three Ways of Counting</td><td>~9,500</td><td>~34</td><td>7,500–9,000</td><td class="new">SLIGHTLY OVER — monitor</td></tr>
+<tr><td>Ch 7 Colony Administrator</td><td>~5,100</td><td>~18</td><td>5,000–6,000</td><td class="done">ON TARGET</td></tr>
+<tr><td>Ch 8 What Things Actually Cost</td><td>~4,900</td><td>~17</td><td>5,500–7,000</td><td class="pending">UNDER — Phase B restructure pending</td></tr>
+<tr><td>Ch 9 Renewable Imperative</td><td>~3,700</td><td>~13</td><td>4,000–5,000</td><td class="pending">SLIGHTLY UNDER</td></tr>
+<tr><td>Ch 10 Common Bonds</td><td>~5,100</td><td>~18</td><td>5,000–6,000</td><td class="done">ON TARGET</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="info">
+<h2>Commit log since v1.40.0 (15 commits)</h2>
+<table>
+<thead><tr><th>Commit</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td><code>5979741</code></td><td>Term Provenance System skeleton</td></tr>
+<tr><td><code>0c7547a</code></td><td>Variable-vs-Cost rigor pass — Option B (cost)</td></tr>
+<tr><td><code>afc8f26</code></td><td>Open Insights Log v1.0.0 + Working Principle scaffolding</td></tr>
+<tr><td><code>46600bc</code></td><td>Vocabulary-footprint meta-rigor pass (tiered-ring architecture)</td></tr>
+<tr><td><code>9cdfb75</code></td><td>§13.1 ratified — tiered-ring architecture APPROVED</td></tr>
+<tr><td><code>d58b2cd</code></td><td>§13.2.a ratified — en-bloc Ring-3 retirements</td></tr>
+<tr><td><code>32123f4</code></td><td>Working Principles + CSG reanalysis</td></tr>
+<tr><td><code>72825a4</code></td><td>Principle #2 ratified (audit concept not phrase)</td></tr>
+<tr><td><code>af2f18e</code></td><td>Meta-pass audit corrections + Open Insight #7</td></tr>
+<tr><td><code>9df1958</code></td><td>Temporal CS focused rigor pass — Option C retire</td></tr>
+<tr><td><code>1f98836</code></td><td>AI Statement draft pattern 1 + Personal Stories Candidates</td></tr>
+<tr><td><code>ab1f8e6</code></td><td>AI Statement pattern 2 — peer-review surrogate</td></tr>
+<tr><td><code>72eeb90</code></td><td>AI Statement pattern 3 — cross-cutting observation capture</td></tr>
+<tr><td><code>2dc54aa</code></td><td>Spatial CS ratified RETIRED (later re-examined)</td></tr>
+<tr><td><code>118be5b</code></td><td>Principle #3 ratified + Value Capture Ring-2 promote</td></tr>
+<tr><td><code>1be07e0</code></td><td>Intergenerational cost severance rigor pass — Option A</td></tr>
+<tr><td><code>513d11e</code></td><td>Commute story expansion + Open Insight #9 (decision-time tool)</td></tr>
+<tr><td><code>daef46a</code></td><td>Value-Capture-vs-Extraction rigor pass — Option B (Extraction)</td></tr>
+<tr><td><code>0021e24</code></td><td>Cost-Severance-vs-Severed-Cost triage — Option A (keep both)</td></tr>
+<tr><td><code>9abb263</code></td><td>AIT rigor pass — Option A (keep)</td></tr>
+<tr><td><code>5dea091</code></td><td>RCV rigor pass — Option A (keep)</td></tr>
+<tr><td><code>2b70377</code></td><td>Cross-pairing synthesis — 4 verdicts hold</td></tr>
+<tr><td><code>e298a9b</code></td><td>Working Principle #4 — two-tier retirement discipline</td></tr>
+<tr><td><code>275b762</code></td><td>Principle #4 extended — active-use traceability</td></tr>
+<tr><td><code>9a6a8d6</code></td><td>Principle #4 confirmed-ratified</td></tr>
+<tr><td><code>4435488</code></td><td>Temporal CS RETIRE + Cost Bearing DEMOTE ratified</td></tr>
+<tr><td><code>6e19f71</code></td><td>intergenerational cost severance ADOPTED</td></tr>
+<tr><td><code>06370dc</code></td><td>Value Extraction ratified + Value Capture RETIRED</td></tr>
+<tr><td><code>af4b6d6</code></td><td>Ring-1 synthesis batch RATIFIED (CS + SC + AIT + RCV)</td></tr>
+<tr><td><code>c04b7d8</code></td><td>Spatial CS re-examination (un-retire recommended; pending)</td></tr>
+<tr><td><code>cf02160</code></td><td>Abundance Masking re-examination (promote to Ring 2; pending)</td></tr>
+<tr><td><code>be6646f</code></td><td>Commons Bonds rigor pass — Option A (keep)</td></tr>
+<tr><td><code>18f5e82</code></td><td>Value Extraction standalone — Option A confirmed</td></tr>
+<tr><td><code>0aafed7</code></td><td>Cost Severance standalone — Option A confirmed</td></tr>
+<tr><td><code>d4c4be4</code></td><td>Full Ring-1 integrated rigor pass — all 7 terms PASS</td></tr>
+<tr><td><code>3311342</code></td><td>Ring-1 batch ratification (this session's final ratification)</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="meta">End of handoff v1.41.0. Next session resumes with non-Ring-1 queue + Phase A3 audit sweep per Top Priority.</p>
+
+</body>
+</html>
