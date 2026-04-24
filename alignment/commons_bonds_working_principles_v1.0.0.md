@@ -161,11 +161,41 @@ The older document's historical content remains intact. Only the header note is 
 | **Archived chapter audits / case-study audits** (v1.0.5 etc.) | Tier 2 | Single retirement-note header; no sweep. |
 | **PCR v1.1.0** (historical pre-submission review) | Tier 2 | Single retirement-note header; body intact per earlier ratified policy. |
 
+**Extension per author 2026-04-24: active-term traceability.**
+
+The principle covers two symmetric cases:
+
+**(Retirement case) — traceable why a term is GONE** — per the Tier 1 / Tier 2 discipline above.
+
+**(Active-use case) — traceable why a term is THERE** — active documents using current framework vocabulary should include a reasoning-pointer so readers can trace why each term is the one being used. Author direction: *"include a pointer to the associated document that captures the reason(s) why it's used in the then current document."*
+
+**Format for active-use traceability:**
+
+Active documents (chapter drafts, current audits, Technical Appendix, glossary, guidance docs) include a *provenance pointer* — a short header note near the top of the document that points readers to the Terms Index for vocabulary provenance:
+
+> *"Framework vocabulary used in this document: provenance (rigor-pass support, ratification history, definition) tracked in `core/terms/terms_index.md`. See individual entries for reasoning chain."*
+
+This one-line note provides a single entry-point to the full audit trail without requiring per-term inline footnotes (which would clutter prose). The Terms Index records carry the detailed reasoning; the document's header note points to the Index.
+
+**For documents that are PRIMARILY about vocabulary** (Terms Index itself, glossary, rigor passes, provenance records) — no header note needed; they're already the reasoning-chain docs.
+
+**For OLDER / archived documents (Tier 2)** — the retirement-note header already provides a backward-pointer; active-term traceability is preserved implicitly because the older doc's content is intact (readers can follow its references to whatever was current at the time).
+
+**Combined Tier structure:**
+
+| Document state | Active-term pointer | Retirement note |
+|---|---|---|
+| Current / active | Header-note pointing to Terms Index | Tier-1 sweep at retirement time |
+| Older / archived / superseded | N/A (older doc's self-references are preserved) | Tier-2 retirement-note header |
+| Vocabulary-authoritative (Terms Index, glossary, rigor passes) | — (is itself the reasoning chain) | Embedded in the authoritative record |
+
 **What this changes about my execution:**
 
 - When a retirement is ratified, downstream sweep-plus-note work runs in two modes: Tier-1 (update/sweep) + Tier-2 (header-note-only). Both land in Phase A3.
 - Active docs get version-bumped with each retirement batch.
 - Archived/older docs get a header note once per retirement batch (not per term; one consolidated note listing all terms retired in that batch).
+- **Current documents gain a provenance-pointer header** (one-line Terms Index pointer) during Phase A3 sweep. Low-effort addition per doc; enables reader-facing traceability.
+- Phase A3 audit sweep scope includes: (i) Tier-1 retirement sweeps, (ii) Tier-2 retirement-note-header additions, (iii) active-use provenance-pointer headers on current docs.
 
 **Why this principle matters on this project specifically:**
 
