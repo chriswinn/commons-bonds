@@ -1,10 +1,10 @@
 # Commons Bonds — Canonical Rigor Protocol
 
-**Version:** 2.0.0 — Pre-Submission Peer Review Suite
+**Version:** 2.1.0 — Pre-Submission Peer Review Suite + Path Comparison Mode
 **Date:** 2026-04-23
-**Status:** Canonical. **Major bump.** Structural reorganization from test-type groups (v1.3.0) to purpose-driven peer-review modules. Every module is runnable standalone; running the full suite constitutes a comprehensive pre-submission peer review the author can hand to the reviewer who comes next.
-**Supersedes:** v1.3.0 (2026-04-22) and all prior. See §0 below for the v1.3.0 → v2.0.0 mapping and §20 for the change log.
-**Absorption:** All v1.3.0 tests are preserved; none dropped. Numbering reorganized from Tests 1-29 into Modules 1-11 with mapping at §0.2.
+**Status:** Canonical. **Minor bump from v2.0.0** (same-day). Adds Path Comparison Mode (§22) — a comparative-decision instrument for evaluating multiple framework-scope, structural, or content-architecture paths against the suite's modules and aggregate goals. Enables suite-grounded scope decisions instead of gut-led choices.
+**Supersedes:** v2.0.0 (2026-04-23, earlier same day; M1 + M2 + module output formats + cross-cutting finding format) and all prior.
+**Absorption:** All v1.3.0 tests + all v2.0.0 modules preserved; none dropped. Path Comparison Mode is additive — it does not change M1-M11, the standing gates, or the Pre-Submission Peer Review Report format. It adds a new running mode (Mode 5) and a new output format (Path Comparison Report) that builds on the existing modules.
 
 ---
 
@@ -54,6 +54,24 @@ Every v1.3.0 test is absorbed. Some appear in multiple modules (preserved with c
 | §10 Test 27 | Empirical grounding | M3 + M6 |
 | §11 | 25-character pressure suite | M11 Critic pressure (preserved whole; cross-references to other modules documented) |
 | §11.7-11.9 | Sub-batteries (Methodological / Stakeholder / Meta) | M11 sub-batteries (preserved) |
+
+### §0.3a What's new in v2.1.0 (minor bump from v2.0.0)
+
+**Path Comparison Mode (NEW §22).** v2.0.0 evaluated current state; v2.1.0 adds comparative-state evaluation. Takes 2-5 path specifications, runs each through the relevant modules, aggregates findings against goal weightings, produces a Path Comparison Report (PCR) with explicit trade-off surface and per-goal recommendations.
+
+**Triggering work:** Chris's framework smell-test concern (raised mid-2026-04-23 during v2.0.0 work) implied a comparative decision: keep current scope vs. compress vs. reframe. v2.0.0's single-state architecture couldn't produce a suite-grounded answer to "which path is best?" — it could only assess each path separately. v2.1.0 closes that gap.
+
+**Specific additions:**
+
+- **§1.3:** PCR vs. PSR distinction. Two complementary outputs.
+- **§2.2 Mode 5: Path Comparison.** Five running modes total (single-module / combined / full / light / **path comparison**).
+- **§22 NEW:** Path Comparison Mode procedure (Path Spec format + per-path module application + goal-to-modules mapping + PCR template + decision framework + worked example).
+- **§22.4 goal-to-modules mapping** (Chris's four goals: publishing / academic reception / success criteria / long-term impact mapped to specific modules with default weightings).
+- **§22.6 PCR template** (10-section structured deliverable).
+- **§22.7 decision framework** (rules for reading trade-offs across paths × goals).
+- **§22.8 worked example: framework-scope decision (Paths A-F)** including Path F (variables-not-dimensions reframing per Chris's 2026-04-23 articulation). Sketch of anticipated trade-off patterns; full PCR run is next-session deliverable.
+
+**No structural changes to v2.0.0:** all 11 modules, all standing gates, the single-state PSR, and the cross-cutting finding format remain unchanged. v2.1.0 is purely additive.
 
 ### §0.3 What's new in v2.0.0 (beyond reorganization)
 
@@ -124,9 +142,14 @@ Running the suite in full should produce enough confidence that:
 - **Replace legal review.** M9 surfaces legal exposure and flags items for counsel review. It does not provide legal counsel.
 - **Guarantee publishability or academic reception.** The suite raises the floor; cascade reception is its own empirical question.
 
-### §1.3 Output: the Pre-Submission Peer Review Report
+### §1.3 Outputs: PSR and Path Comparison Report
 
-A full-suite run produces a single deliverable: a **Pre-Submission Peer Review Report** (naming pattern: `commons_bonds_psr_YYYY-MM-DD_v#.#.#.md`). The report contains one review memo per module + a consolidated findings section + pre-submission action items.
+The suite produces two distinct deliverables depending on running mode:
+
+- **Pre-Submission Peer Review Report (PSR)** — `commons_bonds_psr_YYYY-MM-DD_v#.#.#.md`. Produced by full-suite, combined, or single-module runs. One review memo per module + consolidated findings + pre-submission action items. **For evaluating CURRENT STATE of material before submission.**
+- **Path Comparison Report** — `commons_bonds_pcr_YYYY-MM-DD_v#.#.#.md` (NEW v2.1.0). Produced by Path Comparison runs (Mode 5). Per-path × per-module verdict matrix + per-goal aggregate scores + trade-off surface + per-goal recommendations + decision rationale. **For comparing multiple alternative paths and selecting between them on goal-weighted criteria.**
+
+The two outputs are complementary. PSR answers "is this material ready for submission?" Path Comparison answers "which path produces the best material to submit?"
 
 ---
 
@@ -138,12 +161,13 @@ Upload this file alongside the current session handoff and any relevant context 
 
 ### §2.2 Running modes
 
-Four modes supported:
+Five modes supported:
 
 1. **Single-module** — `run: M#` or `run: <module name>`. Produces that module's review memo only. Examples: "run academic rigor tests" (M6), "run originality tests" (M7), "run case study tests for indigenous case" (M2).
 2. **Combined** — `run: M# + M#` or list of modules. Produces unioned review memos. Example: "run originality + publishing" (M7 + M10).
-3. **Full suite** — `run: full rigor` or `run: pre-submission peer review`. Produces all 11 modules in the standard sequence (§3.2). Output: complete Pre-Submission Peer Review Report.
+3. **Full suite** — `run: full rigor` or `run: pre-submission peer review`. Produces all 11 modules in the standard sequence (§3.2). Output: complete Pre-Submission Peer Review Report (PSR).
 4. **Light rigor** — `run: light`. Mandatory standing gates (§5) + framework integrity on framework claims + module-appropriate quick-hit questions based on claim type. Abbreviated output.
+5. **Path Comparison** (NEW v2.1.0) — `run: compare paths` or `run: path comparison [list of paths]`. Takes 2-5 path specifications + a goal weighting + a module set; runs each module against each path; produces a Path Comparison Report with per-goal recommendations and trade-off surface. **For framework-scope, structural, or content-architecture decisions where multiple alternative approaches need to be evaluated against each other.** Procedure + report template at §22.
 
 ### §2.3 Standard sequence for full-suite runs
 
@@ -2062,6 +2086,26 @@ A sub-test or character that fails to differentiate on one pass may differentiat
 
 ## §20. Change log
 
+### v2.1.0 (2026-04-23) — minor bump from v2.0.0
+
+**Path Comparison Mode added (§22).** v2.0.0 was a single-state instrument (assesses material as it is); v2.1.0 adds comparative-state capability (compares multiple alternative paths against goal-weighted criteria).
+
+**Triggering context:** Chris's framework smell-test concern surfaced during v2.0.0 work: the framework's elaborated state (10 dimensions + 8 tiers + extensive variable structure) may not be the right scope. v2.0.0 could test individual states but couldn't compare alternatives. v2.1.0 closes that gap so framework-scope decisions can be suite-grounded rather than gut-led.
+
+**Changes:**
+
+1. **New running mode:** Mode 5 — Path Comparison. Joins single-module / combined / full / light.
+2. **New output deliverable:** Path Comparison Report (PCR). Naming: `commons_bonds_pcr_YYYY-MM-DD_v#.#.#.md`. Distinct from PSR.
+3. **§1.3 updated:** PCR vs. PSR distinction documented.
+4. **§22 NEW (the substantive addition):** Path Comparison Mode procedure — Path Spec format (§22.3), goal-to-modules mapping (§22.4), per-path module application protocol (§22.5), PCR template (§22.6), decision framework (§22.7), worked example (§22.8 — framework-scope decision Paths A-F including new Path F variables-not-dimensions reframing).
+5. **No changes to M1-M11.** v2.1.0 is purely additive.
+6. **No changes to standing gates.** Three gates from v2.0.0 (Earning-its-place + Scaffolding-vs-book-worthy + Sensitivity-reader) preserved unchanged; applied per-path during Path Comparison runs.
+7. **No changes to cross-cutting finding format (§17.2).** Used in PCR §9 (cross-cutting findings across paths) the same way it's used in PSR.
+
+**v2.0.0 retired** (single-state-only; superseded by v2.1.0 same day; preserved via git history per project's "git preserves superseded versions" pattern).
+
+**Provenance note on Path F:** Path F (variables-not-dimensions reframing) emerged in Chris's articulation 2026-04-23 after v2.0.0 was committed. The reframing: the 10 abundances are not a canonical taxonomy but examples of variables that have proven material across our cases. Framework becomes generative — AIT identifies variables in any extraction situation; readers apply method in their own contexts. Asteroid-miner-considering-off-world-contract example demonstrates the framework's individual-scale usability (directly satisfies Goal-2). Path F is the path most likely (per pre-PCR sketch in §22.8) to outperform on multiple goals; full PCR run pending.
+
 ### v2.0.0 (2026-04-23) — major bump
 
 **Structural reorganization** from test-type groups (v1.3.0) to purpose-driven peer-review modules. Every v1.3.0 test preserved; none dropped. Every module runnable standalone; running the full suite constitutes a Pre-Submission Peer Review.
@@ -2108,6 +2152,7 @@ A sub-test or character that fails to differentiate on one pass may differentiat
 
 ### Prior versions (summary)
 
+- **v2.0.0 (2026-04-23 same day, earlier):** Major bump from v1.3.0. Pre-Submission Peer Review Suite. 11 purpose-driven modules. Single-state assessment instrument. Superseded by v2.1.0 same day (Path Comparison Mode added).
 - **v1.3.0 (2026-04-22 evening):** Added §5A standing tests (Tests 28 + 29). Minor bump.
 - **v1.2.2 (2026-04-22 afternoon):** Container-term rename patch ("layer" → "dimension").
 - **v1.2.1 (2026-04-22 morning):** Clarifications patch + Test 13 correction + consent-normalization shield typology.
@@ -2130,8 +2175,277 @@ Full v1.3.0 change log preserved at `tools/archive/commons_bonds_rigor_protocol_
 - **Chapter audit (M3 + M4 worked example):** `core/chapters/commons_bonds_chapter_audit_v1.0.5.md`.
 - **Indigenous case sensitivity-reader protocol:** `research/case-studies/indigenous-land-dispossession.md` §7.1.
 - **Worked rigor-pass records:** `tools/rigor-passes/` (v1.0.1–v1.0.6).
-- **Superseded protocol:** v1.3.0 (retired via git history; see §0.2 for mapping).
+- **Superseded protocols:** v1.3.0 (archived at `tools/archive/`; mapping at §0.2). v2.0.0 (single-state-only; superseded by v2.1.0 same day; retired via git history per project's "git preserves superseded versions" pattern).
 
 ---
 
-*End of Commons Bonds Canonical Rigor Protocol v2.0.0 — Pre-Submission Peer Review Suite.*
+## §22. Path Comparison Mode (NEW v2.1.0)
+
+### §22.1 Purpose
+
+The Pre-Submission Peer Review Suite (modes 1-4) evaluates **current state**: does this material, as it sits, pass rigor? It is a single-state assessment instrument.
+
+Many decisions facing the author are not single-state. They are **comparative**: should the framework be Path A (current 10 dimensions + 8 tiers), Path B (compress to CORE), Path C (hybrid), Path F (variables-not-dimensions reframing), or some other path? Should the case-study set include 18 cases or compress to 8? Should Ch 6 reorganize methodology around three approaches or four? Each is a multi-state question. Running the suite once on each candidate state produces multiple PSRs, but the comparative analysis — which path wins on which goal, where the trade-offs lie, what to choose — happens outside the suite.
+
+**Path Comparison Mode** is the suite's native instrument for comparative-state decisions. It takes 2-5 path specifications, runs each through the relevant modules, aggregates findings against goal weightings, and produces a Path Comparison Report (PCR) with explicit trade-off surface and per-goal recommendations.
+
+**The instrument's purpose is to make scope decisions suite-grounded rather than gut-led.**
+
+### §22.2 When to use Path Comparison Mode
+
+- **Framework-scope decisions.** Whether to retain, compress, restructure, or reframe core framework architecture. Example: should the 10 dimensions + 8 tiers be retained as canonical taxonomy, retired to scaffolding, or reframed as illustrative variables?
+- **Content-architecture decisions.** Whether the book's chapter structure, case-study set, or argument architecture should follow alternative configurations. Example: should Book 1 include 16, 18, or 22 case studies? Should Ch 5 cover four cases or six?
+- **Vocabulary decisions.** Whether key vocabulary (cost severance / severed cost / RCV / CSG / dimensions / tiers) should be revised, replaced, or reframed. Example: "abundances as dimensions" vs. "abundances as discoverable variables."
+- **Submission strategy decisions.** Which publishing endpoint (literary agent / book publisher / magazine publisher / essay publisher) to prioritize, and in what cascade order.
+- **Pivot decisions.** Whether to scope the book up, down, or sideways from current state.
+
+**When NOT to use Path Comparison Mode:**
+
+- Single-state submission readiness — use full-suite PSR (Mode 3) instead.
+- Single-finding remediation — use single-module (Mode 1) instead.
+- Path-set has only one viable path — Path Comparison adds no value over PSR.
+- Path-set contains paths that fail M1 Framework Integrity at CORE level — drop the failing paths first, then compare the survivors.
+
+### §22.3 Path Specification format
+
+Each path being compared is specified in a structured way:
+
+```
+PATH [letter or label]: [short name]
+
+Description (1-2 paragraphs):
+  What this path is. What changes from current state. What the path's central
+  claim or commitment is.
+
+Retained from current state:
+  - [item]
+  - [item]
+
+Removed from current state:
+  - [item]
+  - [item]
+
+Restructured / reframed from current state:
+  - [item]: [from / to]
+  - [item]: [from / to]
+
+Net new content added:
+  - [item]
+  - [item]
+
+Implications:
+  - For framework: [what changes in M1 + M2]
+  - For content: [what changes in chapter drafts + case studies]
+  - For positioning: [what changes in pitch + comp titles + venue fit]
+  - For long-term: [what changes in cascade durability + Goal-1/Goal-2 alignment]
+
+Standing-gate implications:
+  - Earning-its-place: [does this path's content earn place better/worse than baseline?]
+  - Scaffolding-vs-book-worthy: [does this path move content between book / scaffolding?]
+  - Sensitivity-reader: [does this path increase/decrease sensitivity-reader engagement burden?]
+
+Provenance:
+  - [Origin of this path: who proposed it, when, in response to what]
+```
+
+**Quality criteria for path specs:**
+
+- **Specific.** "Compress the framework" is not a path spec. "Retain AIT + RCV + CS + vocabulary; retire the 10-dimension taxonomy; retire the 8-tier decomposition; cases serve as illustrative-mechanism not as canonical-instances" is.
+- **Distinct.** Each path must be materially different from each other path. Two paths that differ only in wording are not two paths.
+- **Implementable.** A path that cannot actually be executed as a manuscript revision is not a path; it's a thought experiment.
+- **Comparable.** Paths must share enough common scope to be compared. A path proposing a different book entirely cannot be compared to a path proposing a within-current-book revision.
+
+### §22.4 Goal-to-modules mapping
+
+The four goals Chris named (publishing path success / academic reception / success criteria / long-term project impact) map to specific modules. Path Comparison Mode aggregates per-module findings into per-goal scores via this mapping.
+
+| Goal | Primary modules | Secondary modules | Weighting note |
+|---|---|---|---|
+| **Publishing path success** | M10 Publishing path + M9 Risk / exposure + M4 Craft | M3 Book content + M11 (gatekeeper characters: C5, C6, C7, C8) | Weight M10 at 1.0; M9 at 0.8; M4 at 0.7; secondaries at 0.5 |
+| **Academic reception** | M6 Academic rigor + M7 Originality | M1 Framework integrity (CORE defense) + M11 (academic critics: C9, C12, C17, M1-M4 sub-battery) | Weight M6 at 1.0; M7 at 1.0; M1 at 0.8; secondaries at 0.5 |
+| **Success criteria** (Goal-1 vocabulary cascade + Goal-2 individual-reader use) | M5 Dinner-table + M8 Long-term potential + M3 Book content | M11 (intended-users: C10, C11, C12, C13) | Weight M5 at 1.0; M8 at 1.0; M3 at 0.8; secondaries at 0.5 |
+| **Long-term project impact** | M8 Long-term potential + M7 Originality (cascade defense) | M5 Dinner-table (vocabulary portability) + M11 C24 (2040 reader) | Weight M8 at 1.0; M7 at 0.9; M5 at 0.7; C24 at 0.6 |
+| **Cross-cutting (applied to all paths regardless of goal)** | M1 CORE integrity (does the CORE survive in this path?) | M2 Case study (do the cases still do their work?) | Pass/fail gate; no weighting — a path that fails M1 CORE in any path-spec is dropped before goal-aggregation |
+
+**Author-adjustable weighting:** the weights above are defaults. The author may specify alternate weightings ("for this decision, I'm prioritizing academic reception over publishing path success at 1.5×"), and the report reflects the chosen weighting explicitly so the decision is reproducible.
+
+### §22.5 Per-path module application protocol
+
+For each path × each module:
+
+1. **Load the path spec** (from §22.3) into the module's evaluation context.
+2. **Run the module against the path's content** rather than current-state content. The module asks: if the manuscript were as Path X specifies, what would this module find?
+3. **Produce the module's normal output** (verdict table / peer-reviewer memo / risk register / etc.) — but with each verdict and finding labeled by path.
+4. **For sub-tests where the path's reframing changes the test's answer**, document the delta explicitly. Example: M7.1 contribution claim under Path A vs. under Path F — the contribution claim differs; the M7.1 verdict differs; the report shows both.
+5. **For sub-tests where the path doesn't materially change the answer**, note "no material change vs. baseline" and move on. Don't pretend differences exist where they don't.
+
+**Sequencing within a Path Comparison run:**
+
+1. **CORE survival pass first** (M1 applied to each path's CORE). Any path that fails M1 at CORE level is dropped from the comparison; document the failure but don't run other modules on it. The decision is binary at this gate.
+2. **Standing-gate pass per path** (Earning-its-place + Scaffolding-vs-book-worthy + Sensitivity-reader applied to each path's content as specified). Findings noted but not automatically disqualifying — author may accept a path with standing-gate concerns and document the trade-off.
+3. **Goal-mapped module pass per path** (run modules per the goal-to-modules mapping; aggregate per-goal scores).
+4. **Cross-path comparison and trade-off surface** (compare goal scores across paths; identify trade-offs; produce per-goal recommendations).
+
+### §22.6 Path Comparison Report (PCR) template
+
+```markdown
+# Commons Bonds — Path Comparison Report
+
+**Date:** YYYY-MM-DD
+**Version:** #.#.#
+**Protocol applied:** commons_bonds_rigor_protocol_v2.1.0.md
+**Decision being made:** [one-line description]
+**Paths compared:** [N paths — list]
+**Goal weighting used:** [default / custom — specify]
+**Author:** Chris Winn
+
+---
+
+## §1. Executive recommendation
+
+[2-3 paragraphs. Which path wins overall? Which path wins per goal? What's the trade-off picture? What's the recommended decision and why?]
+
+## §2. Path specs (full per §22.3)
+
+### Path A — [name]
+[Full path spec]
+
+### Path B — [name]
+[Full path spec]
+
+[etc. for each path]
+
+## §3. CORE survival gate (M1 applied per path)
+
+| Path | M1.1 AIT | M1.2 RCV | M1.3 CS=RCV-B | M1.4 Vocabulary | M1.5 Universality | CORE survives? |
+|---|---|---|---|---|---|---|
+| Path A | | | | | | [Y/N] |
+| Path B | | | | | | |
+| Path C | | | | | | |
+| Path F | | | | | | |
+
+[Discussion: any path failing CORE is dropped from goal-aggregation. List dropped paths + reason.]
+
+## §4. Standing gates per path
+
+| Path | Earning-its-place | Scaffolding-vs-book-worthy | Sensitivity-reader |
+|---|---|---|---|
+| Path A | | | |
+| Path B | | | |
+| (etc.) | | | |
+
+## §5. Per-goal aggregate scores
+
+For each goal, the modules producing the scores + the path-by-path verdict + the per-goal aggregate.
+
+### §5.1 Publishing path success
+| Path | M10 verdict | M9 verdict | M4 verdict | M3 verdict | M11 gatekeepers | **Aggregate** |
+|---|---|---|---|---|---|---|
+| Path A | | | | | | |
+| Path B | | | | | | |
+| (etc.) | | | | | | |
+
+[Discussion: which path wins, and why. Specific findings per path that drove the verdict.]
+
+### §5.2 Academic reception
+[Same structure: M6 + M7 + M1 + M11 academic characters]
+
+### §5.3 Success criteria (Goal-1 + Goal-2)
+[Same structure: M5 + M8 + M3 + M11 intended-users]
+
+### §5.4 Long-term project impact
+[Same structure: M8 + M7 + M5 + C24]
+
+## §6. Trade-off surface
+
+[The most important section of the report. Per cross-goal trade-off:
+- Trade-off [N]: Path A wins on [goal X] but loses on [goal Y]. Why this trade-off exists. What would resolve it (if anything). Whether the trade-off is fundamental or remediable.]
+
+## §7. Per-goal recommendations
+
+**If publishing path success is the priority:** [recommended path + brief reasoning]
+**If academic reception is the priority:** [recommended path + brief reasoning]
+**If success criteria is the priority:** [recommended path + brief reasoning]
+**If long-term project impact is the priority:** [recommended path + brief reasoning]
+
+## §8. Decision rationale (author's choice + reasoning)
+
+[Author fills in. Which path was selected. Which goals were prioritized. What trade-offs were accepted. What the next steps are after the decision.]
+
+## §9. Cross-cutting findings (per §17.2 format)
+
+[Any findings that surfaced across multiple paths and multiple modules — patterns the author should know about regardless of path choice. Use the FINDING / Reviewer voice / SOLVE / MITIGATE / SHOW-STOPPER format.]
+
+## §10. Pre-implementation action items
+
+[For the chosen path: what work needs to happen before implementation. Sequenced. Owners + timeline where applicable.]
+```
+
+### §22.7 Decision framework — reading trade-offs
+
+Path Comparison surfaces trade-offs. The author has to choose. The framework for choosing:
+
+**1. CORE-survival gate is binary.** A path that fails M1 at CORE is not a viable path; remove it from consideration regardless of other strengths.
+
+**2. Standing-gate failures are negotiable but flagged.** A path with sensitivity-reader engagement requirements doesn't disqualify the path; it adds a pre-publication gate to the implementation.
+
+**3. Per-goal verdicts are weighted, not absolute.** A path that wins on three goals and loses on one may be the right choice if the weighting reflects the author's actual priority. The default weighting reflects what the suite assumes; the author should adjust if their priority differs.
+
+**4. Trade-off patterns matter more than per-goal verdicts.** If Paths A, B, C all show the same trade-off (e.g., academic-reception strength comes at dinner-table cost), the trade-off is structural and the author needs to decide which side of it to commit to. If only one path shows the trade-off, the trade-off is path-specific and may indicate that path has a fixable weakness.
+
+**5. The "win across all goals" path is suspicious.** A path that beats all alternatives on all goals is either genuinely strong (rare) or the result of weak path-spec-discipline (more common — the path was specified too vaguely to register its trade-offs). When this happens, sharpen the path specs and re-run.
+
+**6. Show-stoppers from any module disqualify a path at the show-stopper level.** A path with a SUBMISSION-level show-stopper that cannot be solved or mitigated is not a viable submission path. SUCCESS-CRITERIA show-stoppers are negotiable but reduce the path's score on long-term-impact and success-criteria goals.
+
+**7. The author's choice is the choice.** The suite produces findings + recommendations. The author chooses, and the choice gets documented in §8 of the PCR. The choice may diverge from the suite's recommendation if the author has information the suite doesn't (relationship with a specific publisher, knowledge of a specific reader's reception, personal scope-discipline preference). The documented divergence becomes a future-rerunnable record — if cascade reception surfaces a problem the suite predicted, the documented choice surfaces why the divergence was made.
+
+### §22.8 Worked example — framework-scope decision (Paths A-F)
+
+To illustrate Path Comparison Mode without fully running it, this section sketches the path set Chris is currently contemplating for the framework-scope decision. A full PCR run on these paths will produce the actual decision instrument.
+
+**The decision:** what scope should the Commons Bonds framework occupy in the published Book 1?
+
+**The path set:**
+
+- **Path A — Status quo.** All 10 abundance dimensions + 8-tier decomposition + AIT + RCV + CS + formal vocabulary + 18 case studies + extensive elaboration. Most expansive framework. Current state.
+- **Path B — Compress to CORE.** AIT + RCV + CS + vocabulary + small case-study illustrative set. Dimensions and tiers retired (or moved to appendix-only). Aggressive simplification.
+- **Path C — Hybrid (dimensions kept, tiers retired).** AIT + RCV + CS + vocabulary + 10 dimensions as case-classification heuristic. 8-tier decomposition retired. Dimensions do the structural work; tiers were elaboration on dimensions.
+- **Path D — Hybrid (tiers kept, dimensions retired).** AIT + RCV + CS + vocabulary + 8 tiers as accounting structure. 10 dimensions retired (tiers do the structural work; dimensions were a parallel taxonomy).
+- **Path E — Aggressive minimum.** AIT + RCV + CS + vocabulary only + cases as illustrations of mechanism, not framework. Most compressed.
+- **Path F — Variables-not-dimensions reframing** (NEW per Chris's 2026-04-23 articulation). CORE same as Path B. The 10 abundances + 8 tiers reframed as **examples of variables that have proven material across our cases — illustrative, not ontological.** Framework becomes generative: AIT identifies variables in any extraction situation; RCV computes cost severance from the variable set the user identifies. Different situations produce different variable sets. The book teaches the method + provides cases as worked examples; readers apply the method in their own contexts (asteroid colony administrator, asteroid commons miner considering an off-world contract for himself + his new wife + child, McDowell coal miner at the negotiation table, etc.).
+
+**Anticipated trade-off patterns** (to be confirmed by full PCR run):
+
+- Path A likely strong on M3 (dimensions + tiers earn place if reader is committed) but pressured on M5 (dinner-table — 10-dimension taxonomy is a lot to carry) and M7 (originality — a 10-dimension taxonomy is more vulnerable to "this restates an existing taxonomy" than an equation + method is).
+- Path B likely strong on M5 + M7 + M10 but loses content the cases organize cleanly under (M3 may surface that the dimensions + tiers were doing real organizational work).
+- Path C and D each gamble on one structural taxonomy carrying the load; the other being retired. Likely middle outcomes on most goals.
+- Path E may strip the framework below useful threshold; M3 and M2 may surface that the cases need some organizational structure to function.
+- Path F is the most interesting candidate for high scores across multiple goals: M5 + M7 + M8 + M10 all likely strengthen because the framework becomes a tool readers apply rather than a taxonomy they memorize. M1 CORE survives unchanged. M3 reframes content (dimensions stay but as variable-examples not categories). M11 critics like grad students (C12) and Ostrom-successors (C17) likely much friendlier to a generative framework than a competing-taxonomy framework. **Risk to verify:** some peer reviewers (M6 + C9) may prefer ontological commitment and read variable-discoverability as evasion. Suite needs to surface this.
+
+**Anticipated per-goal recommendations** (to be confirmed by full PCR run):
+
+- Publishing path success: Path B or Path F likely lead.
+- Academic reception: Path A vs. Path F is the likely competition; depends on whether reviewers want commitment-to-ontology (favors A) or methodological-contribution (favors F).
+- Success criteria: Path F likely leads (most readable + most usable as individual tool).
+- Long-term impact: Path F likely leads (most cascade-durable — equation + method survives as taxonomies evolve).
+
+**Pre-comparison flag:** Chris has explicitly stated Path F is genuinely new framing not previously surfaced. The suite should test it on equal footing with the others, not pre-favor it because it's recent.
+
+**Next step after this v2.1.0 publishes:** full PCR run on Paths A-F, producing the actual decision instrument. The framework-scope decision then proceeds suite-grounded rather than gut-led.
+
+### §22.9 Light mode
+
+Path Comparison Mode does not have a "light" sub-mode. The decision being made is too important to compress. If the comparison is not worth a full Path Comparison Run, the decision likely doesn't warrant Path Comparison Mode — use single-module or full-suite PSR instead.
+
+### §22.10 Cross-references
+
+- §1.3 PCR vs. PSR distinction.
+- §2.2 Mode 5: Path Comparison.
+- §17.2 cross-cutting finding format (used for cross-cutting findings in PCR §9).
+- §22.4 goal-to-modules mapping.
+- §22.6 PCR template.
+- All M1-M11 modules apply per-path.
+
+---
+
+*End of Commons Bonds Canonical Rigor Protocol v2.1.0 — Pre-Submission Peer Review Suite + Path Comparison Mode.*
