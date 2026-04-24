@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-24 · v1.38.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .decision     { background: #f3e8ff; border-left: 4px solid #7a3ea1; padding: 1em 1.2em; margin: 1em 0; }
+  .operating    { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .milestone    { background: #e8f2fa; border-left: 4px solid #2a5a8c; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .snippet      { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .version  { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-24 · Version <span class="version">1.38.0</span> · Supersedes v1.37.0 · Same-day continuation. Session theme: <strong>Extreme-rigor pass on Path F variable-addability claim + Chris's ratified resolutions on the four conditions + Phase A1 kickoff</strong>. 2 commits since v1.37.0; Phase A1 execution begins immediately after this handoff.</p>
+
+<div class="status">
+<strong>STATUS:</strong> <strong>Path F variable-addability claim VERIFIED at extreme rigor (PASS-WITH-CONDITIONS).</strong> Four conditions for Phase A/B execution ratified by Chris with specific implementation specs: (1) four-gate discipline published via Ch 6 body summary + Technical Appendix formal spec; (2) formula generalization at middle register (formal statements + worked derivations + convergence tables); (3) reproducibility scope stated matter-of-factly (not apologetic); (4) contribution-from-Pigou articulated confidently (not defensive). Sequenced task list locked at rigor pass §11.5 (15 tasks across Phase A1 + A2 + B). Phase A1 begins in continuation of this session.
+</div>
+
+<div class="snippet">
+<h2>Copy-paste snippet for next session start</h2>
+<pre>Starting Commons Bonds session — picking up from handoff v1.38.0 (2026-04-24).
+
+Please read these files before responding:
+- commons-bonds-session-handoff-2026-04-24_v1.38.0.html  (this handoff — read first)
+- tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_path_f_variable_addability_v1.0.0.md  (extreme-rigor pass with Chris's ratified decisions at §11)
+- tools/pre-submission-reviews/commons_bonds_pcr_2026-04-23_v1.1.0.md  (PCR with Path F confirmation)
+- tools/commons_bonds_rigor_protocol_v2.2.0.md  (protocol)
+- core/chapters/commons_bonds_chapter_audit_v1.0.5.md  (current; needs reframing to v1.0.6 under Path F — Phase A1 Task 1)
+- core/case-studies/commons_bonds_case_study_audit_v1.0.5.md  (current; needs reframing to v1.0.6 under Path F — Phase A1 Task 2)
+- core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md  (current; needs reframing to v1.3.0 under Path F — Phase A1 Task 3)
+- core/decomposition/eight-tier-v10.html  (current; needs reframing under Path F — Phase A1 Task 4)
+- tools/commons_bonds_guiding_constraints_v1_0_0.md
+
+Current canonical state:
+- Rigor protocol: v2.2.0 canonical (Pre-Submission Peer Review Suite
+  + Path Comparison Mode + 6 informational goals).
+- Framework-scope decision: **Path F selected** (variables-not-
+  dimensions reframing). Path F variable-addability claim verified
+  at extreme rigor PASS-WITH-CONDITIONS (rigor pass 2026-04-24).
+- Chris ratified the four conditions with specific implementation
+  specs. Sequenced task list at rigor pass §11.5.
+- 8 chapter drafts at ~42,700 words / ~155 pages; unchanged this
+  session.
+- 10 dimensions + 8 tiers status: LOCKED under current canonical
+  state; Phase A1 reframes them as examples-of-variables-AIT-
+  discovered (illustrative, not ontological).
+
+Top priority this session: continue/complete Phase A1 tasks per
+rigor pass §11.5.
+
+Phase A1 task list (1 week focused work total):
+  Task 1: Chapter audit v1.0.5 → v1.0.6 (Path F reframing)
+  Task 2: Case-study audit v1.0.5 → v1.0.6 (cases-as-worked-examples)
+  Task 3: Dimensions canonical doc v1.2.0 → v1.3.0 (illustrative-not-
+    ontological reframing)
+  Task 4: 8-tier decomposition reframing (one way to organize per-
+    case accounting; other organizations possible)
+
+Phase A2 (after Phase A1): 2-3 weeks methodology formalization
+— Tasks 5-10 per rigor pass §11.5. Four-gate formal spec +
+formula generalization + reproducibility scope + Pigou distinction
++ Ch 6 body summary + Technical Appendix v0.0.4 consolidated.
+
+Phase B (after Phase A2): 3-4 weeks chapter draft reframing —
+Tasks 11-15 per rigor pass §11.5. Ch 6 methodology rewrite + Ch 8
+worked-example reframing + Ch 7 asteroid-miner multi-perspective
+example + Ch 1 / Ch 10 minor reframing + throughout-book vocab
+check.
+
+Total Path F implementation: 6-9 weeks of focused work.
+
+Additional thoughts for this session (Chris, fill in here before sending):
+[                                                                                           ]
+[                                                                                           ]
+</pre>
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY — Phase A1 execution</h2>
+
+<p>The framework-scope decision resolved (Path F), the variable-addability claim verified at extreme rigor (PASS-WITH-CONDITIONS), and the four conditions ratified with specific implementation specs. Next step: execute Phase A1 (framework-level reframing audits + canonical docs) so Phase A2 methodology formalization can land with clean upstream documents.</p>
+
+<p><strong>Phase A1 — four tasks, ~1 week of focused work, can partially parallel:</strong></p>
+
+<ol>
+  <li><strong>Chapter audit v1.0.5 → v1.0.6 (Path F reframing).</strong> §1 cross-chapter table updated per Path F (each chapter's content function under variable-discovery framing). §§2.6 + 2.8 deepest reframing (Ch 6 methodology + Ch 8 worked example). Other §§2 entries lighter-touch reframing. 2-3 days.</li>
+  <li><strong>Case-study audit v1.0.5 → v1.0.6 (cases-as-worked-examples-of-method).</strong> §1 + per-case profiles updated. Dimension activation columns retained but reframed as "variables identified in this case." 2-3 days. Depends on Task 1.</li>
+  <li><strong>Dimensions canonical doc v1.2.0 → v1.3.0 (illustrative-not-ontological reframing).</strong> The 10 abundances reframed from "canonical taxonomy" to "variables identified across our cases — illustrative, not ontological." Naming cohort completeness preserved. 1-2 days. Can parallel Tasks 1+2.</li>
+  <li><strong>8-tier decomposition reframing.</strong> Tier names retained but presented as "one way to organize per-case accounting; other organizations are possible." 1-2 days. Can parallel Tasks 1-3.</li>
+</ol>
+
+<p><strong>Dependencies:</strong> Task 2 depends on Task 1 (case-study audit references chapter audit). Tasks 3 + 4 can run parallel to Tasks 1 + 2.</p>
+
+<p><strong>What Phase A1 does NOT do:</strong> chapter draft rewriting (Phase B), methodology formalization in Technical Appendix (Phase A2), personal-stories drafting (Phase C parallel), indigenous sensitivity-reader engagement (Phase C parallel).</p>
+
+<p><strong>After Phase A1 lands:</strong> Phase A2 methodology formalization work (rigor pass §11.5 Tasks 5-10) becomes the next focused block. Phase A1 output (reframed audits + canonical docs) is the upstream context Phase A2 depends on.</p>
+</div>
+
+<h2>Session v1.37.0 → v1.38.0: accomplishments</h2>
+
+<p class="meta">2 commits pushed to main. Session theme: extreme-rigor pass on Path F variable-addability + Chris's ratified resolutions. Phase A1 execution begins in continuation of this session.</p>
+
+<div class="milestone">
+<h3>Phase 1 — Extreme-rigor pass on Path F variable-addability claim (1 commit)</h3>
+<p>Commit <code>11ed126</code>:</p>
+<ul>
+  <li><strong>Triggering question (Chris, 2026-04-24):</strong> do the mathematical proofs + formulas actually support variable-addability, and does Path F survive the most extreme rigor we can apply?</li>
+  <li><strong>Four tests applied at maximum depth:</strong> §3 Mathematical proof test; §4 Philosopher-of-science extreme pressure (4 challenges); §5 Applied-economist extreme pressure (4 challenges); §6 AI-adversary extreme pressure (3 adversarial cases).</li>
+  <li><strong>Aggregate verdict: PASS-WITH-CONDITIONS.</strong> Path F's variable-addability claim survives extreme rigor when four explicit conditions are met during Phase A/B implementation.</li>
+  <li><strong>Four conditions identified</strong> as pre-Phase-A gates:
+    <ol>
+      <li>Four-gate discipline publication (AIT + dimensional consistency + boundedness + independence)</li>
+      <li>Formula generalization publication (sum-of-costs RCV form with mathematical derivation)</li>
+      <li>Reproducibility scope explicit statement</li>
+      <li>Contribution-from-Pigou distinction articulation</li>
+    </ol>
+  </li>
+  <li><strong>Honest finding:</strong> Chris's intuition is correct (the framework's generative-methodology claim is defensible at extreme rigor), but it requires methodology work to be executed, not assumed. The rigor pass identifies what that work is; Phase A/B executes it.</li>
+  <li><strong>Without conditions:</strong> framework fails on unfalsifiability + reproducibility + dimensional-consistency + reducibility-to-Pigou grounds. Conditions are load-bearing, not optional.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Phase 2 — Chris's ratified resolutions on four conditions (1 commit; this commit)</h3>
+<p>Commit <code>[current]</code>:</p>
+<ul>
+  <li><strong>§11 NEW in rigor pass:</strong> Author-ratified resolutions section with explicit decision + execution spec per condition.</li>
+  <li><strong>Condition 1 ratified:</strong> summary in Ch 6 body + formal specification in Technical Appendix. Rationale: two-tier publishing serves both trade-book reader + scholar-citing-the-book reader.</li>
+  <li><strong>Condition 2 ratified:</strong> middle register (formal statements + worked derivations + convergence tables). Rationale: audience includes both academics + serious general readers; middle register serves both.</li>
+  <li><strong>Condition 3 ratified:</strong> matter-of-fact tone (framework explicit about standard applied-economics practice; not apologetic). Rationale: reproducibility point isn't a flaw to apologize for; it's a correct understanding of how applied frameworks work.</li>
+  <li><strong>Condition 4 ratified:</strong> confident tone (this is our contribution, here's how it extends the field; not defensive). Rationale: distinctions are real; defensive tone signals author isn't sure.</li>
+  <li><strong>§11.5 Sequenced task list:</strong> 15 tasks across Phase A1 + A2 + B with dependencies + effort estimates. Total 6-9 weeks of focused work (consistent with PCR §10 estimate; rigor-pass conditions absorbed into Phase A2 scope without adding to total).</li>
+  <li><strong>§11.6 Phase B integration decision preserved:</strong> personal-stories drafting integration depth (Path K-flavor) waits for stories to exist as drafts.</li>
+  <li><strong>§11.7 Rerun gate:</strong> rigor pass is rerunnable after Phase A2 methodology work lands to verify conditions have been met.</li>
+</ul>
+</div>
+
+<h2>Commits since v1.37.0 (2 total)</h2>
+
+<table>
+<tr><th>Hash</th><th>Type</th><th>Summary</th></tr>
+<tr><td><code>11ed126</code></td><td>rigor pass</td><td>extreme-rigor pass: Path F variable-addability PASSES-WITH-CONDITIONS</td></tr>
+<tr><td>(this)</td><td>rigor pass + handoff</td><td>rigor pass §11 ratified resolutions + v1.38.0 handoff</td></tr>
+</table>
+
+<h2>Chapter length tracking</h2>
+
+<p class="meta"><strong>Standing section in all session handoffs.</strong> Refreshed at handoff creation; updated in next handoff when a chapter draft changes.</p>
+
+<p><strong>No chapter drafts modified this session.</strong> All session work was in <code>tools/rigor-passes/</code> (extreme-rigor pass creation + ratified resolutions) + <code>alignment/sessions/</code> (handoff). Word counts unchanged from v1.37.0.</p>
+
+<table>
+<tr><th>Ch</th><th>Title</th><th>Current words</th><th>Current pages</th><th>Target words</th><th>Target pages</th><th>Status</th></tr>
+<tr><td>1</td><td>The Plane</td><td>—</td><td>—</td><td>5,000–6,000</td><td>18–22</td><td>not drafted</td></tr>
+<tr><td>2</td><td>The Miner</td><td>5,232</td><td>~19</td><td>5,000–6,000</td><td>18–22</td><td class="done">in range</td></tr>
+<tr><td>3</td><td>The Waterman</td><td>—</td><td>—</td><td>5,000–6,000</td><td>18–22</td><td>not drafted</td></tr>
+<tr><td>4</td><td>The Existence Proof</td><td>2,998</td><td>~11</td><td>~4,000–5,000</td><td>15–18</td><td class="hold">low — room for Nordic steelman + governance detail</td></tr>
+<tr><td>5</td><td>The Accountability Gap</td><td>3,850</td><td>~14</td><td>3,500–4,000 (original); consider 4,500–5,000 post-v1.0.3 (6 cases)</td><td>13–15 original; 16–18 revised</td><td class="hold">in original range; under-target for 6-case structure</td></tr>
+<tr><td>6</td><td>Three Ways of Counting</td><td>~5,158*</td><td>~19*</td><td>~5,000–6,000</td><td>18–22</td><td class="done">*HTML format inflates count; likely ~4,500 actual prose. Path F Phase B largest draft rewrite here.</td></tr>
+<tr><td>7</td><td>The Colony Administrator</td><td>5,774</td><td>~21</td><td>~5,000–6,000</td><td>18–22</td><td class="done">slightly over; Path F Phase B adds ~1,000-1,500 words (asteroid-miner multi-perspective example per Ch 7 guidance).</td></tr>
+<tr><td>8</td><td>What Things Actually Cost</td><td>4,959</td><td>~18</td><td>"short" per scope doc §426</td><td>—</td><td class="done">appropriate. Path F Phase B reframes tier-by-tier worked example; length may compress slightly.</td></tr>
+<tr><td>9</td><td>The Renewable Imperative</td><td>7,251</td><td>~26</td><td>5,000–6,000</td><td>18–22</td><td class="pending">over target — length management flagged.</td></tr>
+<tr><td>10</td><td>Common Bonds</td><td>7,507</td><td>~27</td><td>5,000–7,000</td><td>18–25</td><td class="hold">upper end / slightly over; Path F Phase B minor reframing + possible asteroid-miner closing-reference.</td></tr>
+</table>
+
+<h3>Totals + projection (unchanged from v1.37.0)</h3>
+
+<ul>
+  <li><strong>Drafted (8 of 10):</strong> ~42,700 words, ~155 pages.</li>
+  <li><strong>Projected with Ch 1 + Ch 3 at 5–6K each + Path F Phase B adjustments:</strong> ~54-58K words, ~200-210 pages.</li>
+  <li><strong>Trade-book sweet spot:</strong> 60–80K words / 220–290 pages.</li>
+</ul>
+
+<h2>Ratified decisions summary (for rerun reference)</h2>
+
+<div class="decision">
+<strong>Framework-scope decision (PCR v1.0.0 / v1.1.0 §8, 2026-04-23 / 2026-04-24):</strong> Path F — variables-not-dimensions reframing.
+</div>
+
+<div class="decision">
+<strong>Path F variable-addability verification (rigor pass v1.0.0, 2026-04-24):</strong> PASS-WITH-CONDITIONS. Four conditions specified.
+</div>
+
+<div class="decision">
+<strong>Condition 1 resolution (rigor pass §11.1, 2026-04-24):</strong> summary in Ch 6 body + formal specification in Technical Appendix v0.0.4.
+</div>
+
+<div class="decision">
+<strong>Condition 2 resolution (rigor pass §11.2, 2026-04-24):</strong> middle register (formal statements + worked derivations + convergence-condition tables).
+</div>
+
+<div class="decision">
+<strong>Condition 3 resolution (rigor pass §11.3, 2026-04-24):</strong> matter-of-fact tone (framework explicit about standard applied-economics practice; not apologetic).
+</div>
+
+<div class="decision">
+<strong>Condition 4 resolution (rigor pass §11.4, 2026-04-24):</strong> confident tone (this is our contribution, here's how it extends the field; not defensive).
+</div>
+
+<h2>Open items + decisions pending for next session</h2>
+
+<div class="info">
+<ul>
+  <li><strong>PHASE A1 EXECUTION — begins in continuation of this session.</strong> 4 tasks; ~1 week of focused work. Tasks 1-4 per rigor pass §11.5.</li>
+  <li><strong>PHASE A2 methodology formalization</strong> (after A1 lands) — 6 tasks (Tasks 5-10); ~2-3 weeks of focused work. Four-gate formal spec + formula generalization + reproducibility scope + Pigou distinction + Ch 6 body summary + Technical Appendix v0.0.4 consolidated.</li>
+  <li><strong>PHASE B chapter draft reframing</strong> (after A2 lands) — 5 tasks (Tasks 11-15); ~3-4 weeks of focused work. Ch 6 + Ch 8 + Ch 7 + Ch 1 / Ch 10 + throughout-book vocab check.</li>
+  <li><strong>PHASE C parallel independent work</strong> — indigenous sensitivity-reader engagement + Chesapeake fieldwork + Ch 1 + Ch 3 authorial drafting + personal-stories drafting (per project memory). Opportunistic; no deadline.</li>
+  <li><strong>PHASE D submission readiness</strong> (after A + B land) — full-suite PSR run + comp titles + jacket copy + pitch + cascade essay submissions + literary agent outreach.</li>
+  <li><strong>Deferred decision: Path K integration depth</strong> (personal-stories drafting results) — revisits after stories exist as drafts.</li>
+  <li><strong>Chris's "what do we call this" question</strong> — should we still call Commons Bonds a "framework" under the generative-method reframing? Deferred; can revisit after Phase A2 methodology work lands, since the terminology choice interacts with how the methodology is published.</li>
+  <li><strong>Berggruen Prize deadline 2026-08-17</strong> — AI-free essay required. Independent track from Book 1 work.</li>
+  <li><strong>Noema response pending.</strong></li>
+  <li><strong>IPG reconciliation</strong> — can fold into Phase B Ch 6 reframing work.</li>
+</ul>
+</div>
+
+<h2>Operating observations from this session</h2>
+
+<div class="operating">
+<ul>
+  <li><strong>The extreme-rigor pass earned its place.</strong> Chris's question ("did we verify that Path F passes the most extreme rigor we can apply?") was asked at the right moment — before Phase A committed to reframing the book around a claim that hadn't been rigorously tested. The pass identified four specific conditions that will now be built into Phase A/B execution rather than discovered during submission review. This is what pre-implementation gates are for.</li>
+  <li><strong>Ratified-decision discipline works.</strong> Chris walked through each of the four conditions with an explicit decision + rationale; the rigor pass §11 now contains those decisions as the locked implementation spec. Future sessions don't have to re-derive which tone to use in Ch 6 (matter-of-fact for reproducibility; confident for Pigou distinction); the decision is captured + citeable.</li>
+  <li><strong>Honest findings beat reassurance.</strong> The rigor pass concluded PASS-WITH-CONDITIONS, not PASS. That's honest — Chris's intuition is correct, but the intuition requires methodology work to materialize as a defensible framework. The pass says what that work is + estimates effort. If the pass had said PASS unconditionally, Phase A would have been built on an undefended claim; the reviewer pressure would have landed during submission instead.</li>
+  <li><strong>Sequenced task lists from rigor passes feed implementation plans.</strong> Rigor pass §11.5 becomes the Phase A1 + A2 + B work queue. The rigor pass is not just a verification document; it's a project-planning artifact for the implementation it prescribes.</li>
+  <li><strong>The protocol's extreme-rigor capability is now demonstrated.</strong> v2.2.0 Path Comparison Mode + extreme-rigor-pass pattern has now been exercised end-to-end: framework-scope decision (PCR) → rigor-pass verification of the selected path's load-bearing claim → ratified resolutions on conditions → sequenced task list for implementation. The full decision instrument works as designed.</li>
+</ul>
+</div>
+
+<p class="meta">End of handoff. Archive <code>commons-bonds-session-handoff-2026-04-24_v1.37.0.html</code> to <code>alignment/sessions/archive/</code> — already done as part of this session's v1.38.0 creation.</p>
+
+</body>
+</html>

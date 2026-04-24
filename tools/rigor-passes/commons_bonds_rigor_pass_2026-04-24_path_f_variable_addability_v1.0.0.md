@@ -730,4 +730,102 @@ This extreme-rigor pass can be rerun at any time to test whether the four condit
 
 ---
 
-*End of Extreme-Rigor Pass v1.0.0. Path F variable-addability claim PASSES-WITH-CONDITIONS. Proceed with Phase A implementation including §8 action items as explicit deliverables. Rerunnable after any methodology-work landing or new-variable proposal.*
+## §11. Author-ratified resolutions (Chris, 2026-04-24)
+
+Chris walked through the four conditions + made explicit ratification decisions. The following resolutions are now LOCKED for Phase A/B execution.
+
+### §11.1 Condition 1 — Four-gate discipline publication strategy
+
+**Ratified decision:** summary in Ch 6 body (paragraph-length mention naming the four gates) + formal specification in Technical Appendix v0.0.4.
+
+**Rationale (author's reasoning):** body-text reader learns the discipline exists; appendix reader can verify the mechanics. Two-tier publishing serves both the trade-book reader and the scholar-citing-the-book reader.
+
+**Execution spec:**
+- Ch 6 body: one paragraph (~150-250 words) naming the four gates (AIT + dimensional + boundedness + independence) with one-sentence explanation per gate. Register 2 (data-bearing prose with Register 1 entry point).
+- Technical Appendix v0.0.4: dedicated section per gate. Each section contains:
+  - Formal statement of the gate (test procedure in mathematical / logical form)
+  - Worked examples: 3+ variables that pass + 3+ variables that fail (including canonical failures: existential-meaning cost, moral-sentiment cost)
+  - Edge cases + handling
+  - Integration with existing framework elements
+
+### §11.2 Condition 2 — Formula generalization mathematical register
+
+**Ratified decision:** middle register — formal statements + worked derivations + convergence-condition tables. Formal enough to satisfy methodological peer review; accessible enough for grad student citing the book to verify.
+
+**Rationale (author's reasoning):** audience includes both academics + serious general readers; full-formal register alienates the general reader; proof-sketch is too light for academic review. Middle serves both.
+
+**Execution spec:**
+- Technical Appendix v0.0.4 dedicated methodology section (~1,500-2,000 words) containing:
+  - Starting canonical two-term RCV formula
+  - Derivation of generalized sum-of-costs form `RCV = ∫ (Σᵢ Cᵢ) · D dt` via linearity of integration
+  - Convergence proof under finite-sum + per-term boundedness (proposition + proof sketch + discussion)
+  - Dimensional discipline statement (all Cᵢ in `[dollars / (resource-unit · time-unit)]`)
+  - Convergence-condition table (bounded-at-infinity terms vs. asymptotically-non-zero terms under Weitzman declining-rate discount; finite-horizon truncation convention T = 500 years)
+  - CS = RCV − B relation preservation verification
+- Ch 6 body: one paragraph referencing the appendix + stating the generalization informally (e.g., "The RCV formula in its fully general form expresses the total residual commons value as a sum of discovered cost terms integrated over time, each term identified through AIT...").
+
+### §11.3 Condition 3 — Reproducibility scope tone
+
+**Ratified decision:** matter-of-fact — framework is explicit about standard applied-economics practice; reproducibility is correctly understood as transparency-about-assumptions, not uniform-outputs. Not apologetic.
+
+**Rationale (author's reasoning):** the reproducibility point isn't a flaw to apologize for; it's a correct understanding of how applied frameworks work. Apologetic tone signals author isn't sure; matter-of-fact tone signals the author understands the field's norms.
+
+**Execution spec:**
+- Ch 6 body: ~500-800 word section titled something like "What the framework does and doesn't guarantee" or "Reproducibility, transparency, and the range of defensible estimates."
+- Register 2 (data-bearing argument).
+- Compared to field practice explicitly (social-cost-of-carbon estimate range $3-$190 is the model — this framework's output range is comparable and appropriate, not uniquely weak).
+- Future-research flag (inter-rater reliability studies) scoped as downstream work, not framework-requirement.
+- Does NOT apologize; does NOT hedge; does NOT defer; states the position matter-of-factly.
+
+### §11.4 Condition 4 — Contribution-from-Pigou articulation tone
+
+**Ratified decision:** confident — this is our contribution, here's how it extends the field. Not defensive.
+
+**Rationale (author's reasoning):** the distinctions are real; presenting them defensively signals the author isn't sure. Confident framing is honest about intellectual debt to Pigou while explicit about what's added.
+
+**Execution spec:**
+- Ch 6 originality-of-contribution section + book's Introduction §Originality section: ~1,000 words total.
+- Register 2 with Register 1 entry points.
+- Lead with the three distinctions (substitutability-weighting + integrated architecture + AIT method), stated as contributions.
+- Acknowledge Pigou as intellectual debt in one sentence, then move to the three additions without further apology.
+- Worked comparative examples for McDowell coal + Deepwater Horizon + one additional case, each demonstrating how Pure-Pigouvian analysis produces a different (lower, less complete) output than RCV analysis.
+- Tone: confident scholar adding to an established field, not defensive outsider claiming legitimacy.
+
+### §11.5 Sequenced task list — Phase A2 methodology formalization work (after Phase A1 audit reframing)
+
+Ordered per dependency. Conditions 1 + 2 are sequentially dependent (gates must be specified before formula generalization can reference them). Conditions 3 + 4 can run in parallel with 1 + 2.
+
+| # | Task | Location | Depends on | Est. effort | Lands in |
+|---|---|---|---|---|---|
+| 1 | **Phase A1: Chapter audit v1.0.6** — reframe per Path F | `core/chapters/commons_bonds_chapter_audit_v1.0.6.md` | — | 2-3 days | Phase A1 |
+| 2 | **Phase A1: Case-study audit v1.0.6** — cases-as-worked-examples-of-method | `core/case-studies/commons_bonds_case_study_audit_v1.0.6.md` | Task 1 | 2-3 days | Phase A1 |
+| 3 | **Phase A1: Dimensions canonical doc v1.3.0** — reframe from canonical taxonomy to illustrative-variables | `core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md` | — (can parallel Tasks 1+2) | 1-2 days | Phase A1 |
+| 4 | **Phase A1: 8-tier decomposition reframing** — "one way to organize per-case accounting; other organizations possible" | `core/decomposition/eight-tier-v10.html` or new versioned doc | — (can parallel Tasks 1-3) | 1-2 days | Phase A1 |
+| 5 | **Phase A2: Four-gate formal specification** — Condition 1 | Technical Appendix v0.0.4 | Tasks 1-4 | 1 week | Phase A2 |
+| 6 | **Phase A2: Formula generalization mathematical derivation** — Condition 2 | Technical Appendix v0.0.4 | Task 5 | 3-5 days | Phase A2 |
+| 7 | **Phase A2: Reproducibility scope section** — Condition 3 | Ch 6 body | — (can parallel Tasks 5+6) | 1-2 days | Phase A2 |
+| 8 | **Phase A2: Contribution-from-Pigou articulation** — Condition 4 | Ch 6 originality section + Introduction §Originality | — (can parallel Tasks 5+6) | 3-5 days | Phase A2 |
+| 9 | **Phase A2: Ch 6 body summary of four gates** — integration of Condition 1 body-text | Ch 6 body | Task 5 | 1 day | Phase A2 |
+| 10 | **Phase A2: Technical Appendix v0.0.4 consolidated publication** — all formal sections compiled | Technical Appendix v0.0.4 | Tasks 5+6 | 1-2 days | Phase A2 |
+| 11 | **Phase B: Ch 6 methodology rewrite** — full chapter reframing with formalized methodology in hand | `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html` | Tasks 5-10 | 1-2 weeks | Phase B |
+| 12 | **Phase B: Ch 8 worked-example reframing** | `manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md` | Tasks 5-10 | 1 week | Phase B |
+| 13 | **Phase B: Ch 7 multi-perspective asteroid-miner example** — per Ch 7 guidance doc 2026-04-23 | `manuscript/chapters/Chapter__7_TheColonyAdministrator__Draft.md` | Tasks 3+4 | 3-5 days | Phase B |
+| 14 | **Phase B: Ch 1 + Ch 10 minor reframing** | Ch 1 + Ch 10 drafts + guidance | Tasks 1-4 | 2-3 days | Phase B |
+| 15 | **Phase B: Throughout-book vocabulary check** — dimension/tier framing stripped or reframed consistently | All chapter drafts | Tasks 11+12 | 1 week | Phase B |
+
+**Total Phase A1 effort:** ~1 week (Tasks 1-4; can overlap).
+**Total Phase A2 effort:** ~2-3 weeks (Tasks 5-10; 5+6 sequential, 7+8 parallel with 5+6).
+**Total Phase B effort:** ~3-4 weeks (Tasks 11-15; some overlap possible).
+**Grand total Path F implementation:** 6-9 weeks of focused work (consistent with PCR §10 estimate; rigor-pass conditions absorbed into Phase A2 scope without adding to total).
+
+### §11.6 Decision point for Phase B integration work — preserved for later
+
+When Phase B arrives, a decision remains about whether to integrate personal-stories drafting (per project memory `project_personal_stories_drafting.md`) at Path K depth. That decision waits for stories to exist as drafts. Phase B per-above assumes Path F alone; Path K-flavor additions would extend Phase B scope.
+
+### §11.7 Rerun gate
+
+This rigor pass can be rerun at any time after Phase A2 methodology work lands to verify the four conditions have been met. Expected next rerun: after Technical Appendix v0.0.4 + Ch 6 body updates land (end of Phase A2). Verification: check that §11.1-§11.4 execution specs are materially in the published documents.
+
+---
+
+*End of Extreme-Rigor Pass v1.0.0 with Author-ratified resolutions (§11, 2026-04-24). Path F variable-addability claim PASSES-WITH-CONDITIONS. Conditions ratified as specified implementation scope. Phase A1 begins next. Rerunnable after any methodology-work landing or new-variable proposal.*
