@@ -490,7 +490,7 @@ Terms in §11.1–§11.10 above either retire automatically (FGC, Abundance Mask
 
 ### §13.1 Tiered-ring architecture
 
-**Ratified decision:** *(pending)*
+**Ratified decision (2026-04-24, Chris Winn):** APPROVED. Tiered-ring architecture is the framework's vocabulary classification going forward. Ring 1 (5 public load-bearing terms) + Ring 2 (7 internal load-bearing terms) + Ring 3 (retirement/demotion candidates) per §10 specifications.
 
 ### §13.2 Ring-3 dispositions (per §11.1–§11.10, individually ratifiable)
 

@@ -52,13 +52,13 @@ New insights automatically get added to the todo list in both states: one entry 
 ### Insight #1 — Framework may be naming too many things (vocabulary footprint)
 
 - **Raised:** 2026-04-24 by me
-- **Status:** under-review
+- **Status:** addressed (tiered-ring architecture ratified 2026-04-24; Ring-3 dispositions + reshaped-queue adoption still pending ratification)
 - **Category:** vocabulary · meta
 - **Content:** The framework currently carries ~20+ named terms: cost severance, severed cost, value capture, cost bearing, RCV, CS, AIT, IPG, CSG, FGC, foreclosure cost, externality tail, substitutability function, accountability bond, the ten abundances, the four gates, context, dimensions, abundances, variable/cost, and more. Each named concept competes for reader adoption bandwidth. The success criterion (labor lawyer uses "severed cost" in a brief) favors sharpness + concision; proliferation works against that.
 - **Why it matters:** If the framework's adoption-durability is limited by vocabulary bandwidth, running 31 individual term rigor-passes is lower-leverage than running one meta-pass that tests the whole vocabulary for redundancy, load-bearing-ness, retirement candidates, and merger opportunities. A ~20-pass queue after the meta-pass beats a 31-pass queue without it.
 - **Proposed resolution:** Vocabulary-footprint meta-rigor pass (M1 + M4 + M5 + M6 + M11 at depth, plus §22.4 alignment) that tests the whole vocabulary as a system. Output reshapes the remaining pass queue.
-- **Dependencies / Links:** Will supersede/reshape most items on the current Tier A rigor-on-glossary queue.
-- **Todo link:** "Write vocabulary-footprint meta-rigor pass" (in todo list, next up).
+- **Dependencies / Links:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_vocabulary_footprint_meta_v1.0.0.md` (2026-04-24, commit 46600bc). §13.1 tiered-ring architecture APPROVED 2026-04-24; §13.2 Ring-3 dispositions and §13.3 reshaped-queue adoption still pending.
+- **Todo link:** "Await author ratification of meta-pass §13.2 + §13.3" (current in-progress todo).
 
 ### Insight #2 — Gate names are inconsistent in convention
 
