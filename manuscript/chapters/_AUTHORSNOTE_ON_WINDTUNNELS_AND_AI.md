@@ -98,5 +98,21 @@ Originating context: articulated 2026-04-24 by Chris — *"the perspective is a 
 
 ---
 
+---
+
+**2026-04-24 — Pattern: cross-cutting observation capture**
+
+Context: during working sessions, the AI identifies observations that span the framework's vocabulary, structure, and consistency — observations a solo author may not reach because they emerge from seeing multiple docs / chapters / decisions simultaneously. These are distinct from rigor-pass outputs (which answer specific questions the author asked) and from structural decisions (which the author drives). They are cross-cutting observations: *"the framework may be naming too many things" · "the gate naming convention is inconsistent" · "the severance vocabulary cluster needs cluster-level rigor" · "Commons Bonds itself hasn't been through current rigor" · "running 31 passes individually may be the wrong structural approach."* Examples the AI surfaced on a single day (2026-04-24) once given explicit permission to raise them proactively.
+
+Before that permissioning, the AI would hold such observations — answering the specific questions asked, not the cross-cutting questions not-asked. The author could only surface these by asking the right question, which requires already suspecting there is something to ask about. Without permissioning, the observations are lost to the conversation.
+
+The author's explicit invitation (2026-04-24): *"I want you to always feel you have the freedom to think & express your ideas so we can work more collaboratively vs. me asking the right questions. You had real valuable insights into the testing suite revisions that would have been lost if I didn't explicitly ask for them, let's not make that a possible mistake again."* This was followed by the creation of the Open Insights Log (`alignment/commons_bonds_open_insights_v1.0.0.md`) as the persistent capture mechanism for such observations between sessions.
+
+**Why this matters for the final AI Statement:** it's one thing to describe the AI as a test-runner; it's another to describe it as a reader-across-the-whole-project that notices patterns a solo author can miss. This is part of what the collaboration actually produced. The Open Insights Log is available for inspection alongside the book; readers evaluating the collaboration's contribution can see what the AI surfaced + whether those surfacings held up under subsequent rigor work.
+
+This entry is adjacent to the first entry (structural-thinking-vs-rigor-execution division of labor). The first entry established who does what; this entry describes a specific kind of contribution the AI makes under that division — the cross-cutting observation. Together they frame the collaboration as: author drives structure; AI executes rigor; AI also scans-across-the-project and surfaces cross-cutting observations for author consideration.
+
+---
+
 **[Future additions land here as patterns are observed. Each entry: date, context, pattern description, why it matters. Tentative until woven into the final prose.]**
 
