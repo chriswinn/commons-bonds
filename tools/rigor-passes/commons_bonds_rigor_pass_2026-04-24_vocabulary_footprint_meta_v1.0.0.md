@@ -509,24 +509,50 @@ Terms in §11.1–§11.10 above either retire automatically (FGC, Abundance Mask
 
 **§13.2.b PER-TERM DECISIONS PENDING** — see §13.2.c for revised analysis post-audit:
 
-**§13.2.c Audit-driven revision: CSG promotion to Ring-2**
+**§13.2.c Audit-driven CSG analysis — REVISED on rigor-only grounds (2026-04-24)**
 
-The meta-pass's original recommendation was RETIRE or DEMOTE for Civilizational Substitutability Gap (CSG) on grounds that CSG is "S evaluated at civilization scale, not a distinct concept." A chapter-draft audit conducted 2026-04-24 revealed **66 occurrences across 6 files** including Ch 7 (Mars colony, asteroid-miner thought experiment) and Ch 9 (Renewable Imperative) drafts. CSG is actively load-bearing in those chapters' prose and does semantic work the S function alone doesn't carry — *civilization-scale substitutability with implications bounded by the civilization's technological horizon.*
+**Initial audit finding:** Civilizational Substitutability Gap (CSG) has 66 occurrences across 6 files including Ch 7 (Mars colony, asteroid-miner thought experiment) and Ch 9 (Renewable Imperative) drafts.
 
-**Revised recommendation:** PROMOTE CSG to Ring-2 (internal load-bearing). Chapter drafts use CSG as a distinct concept; retiring it would require rewriting Ch 7 + Ch 9 to expand S-function prose — substantial effort with no corresponding adoption-bandwidth gain.
+**Initial (incorrect) recommendation:** PROMOTE CSG to Ring-2 (internal load-bearing), with chapter-rewrite cost cited as reason to avoid retiring.
 
-**Ratified decision on CSG:** *(pending author call — recommendation: Ring-2 promotion)*
+**Correction per Chris Winn 2026-04-24 + now-ratified Principle #1 (*effort-to-repair is not a rigor argument*):** rewrite cost is not valid reasoning on a framework correctness decision. Redo the analysis on rigor-only grounds.
 
-**Per-term items for author decision** (with audit data + recommendations):
+**Rigor-only analysis:**
 
-| Term | Chapter audit | Recommendation | Options |
-|---|---|---|---|
-| Civilizational Substitutability Gap (CSG) | 66 refs across Ch 7 + Ch 9 + case audit + chapter audit | **PROMOTE TO RING-2** | (a) Promote to Ring-2; (b) Retire + rewrite Ch 7 + Ch 9; (c) Demote to Tech-Appendix-only |
-| Asymmetric Regret Principle | 0 chapter refs (Tech Appendix §G mention only) | DEMOTE to Tech-Appendix-level | (a) Demote; (b) Retire; (c) Retain |
-| Value Capture | 0 chapter refs (meta-doc usage only) | DEMOTE from glossary | (a) Demote from glossary; (b) Retain as short entry; (c) Retire |
-| Cost Bearing | 0 chapter refs | DEMOTE from glossary | Same as Value Capture |
-| Spatial Cost Severance | 0 chapter refs | DEMOTE | (a) Demote; (b) Retain |
-| Temporal Cost Severance | 1 ref (Social Security case) | DEMOTE (rephrasable) | (a) Demote; (b) Retain |
+*Is CSG a concept distinct from the Substitutability Function S, or is it S evaluated at civilization scale?*
+
+Semantic test: can every CSG usage be rewritten in terms of S without semantic loss?
+
+- "The CSG for a Mars colony" → "The substitutability landscape S(t | t₀) bounded by the colony's technological scope" ✓
+- "CSG defines a threshold for the colony" → "S evaluated at civilization scale defines a threshold" ✓
+- "CSG analysis shows" → "Applying S at civilization scale shows" ✓
+
+Each rewrite works. CSG is S-at-scale — a specific application of S, not a distinct concept.
+
+**M6 academic rigor:** a derivable concept with its own named term is imprecise naming. Reviewer pushback: *"Why is CSG a separate thing? It's just S evaluated at civilization scale."* Valid critique under current naming.
+
+**M5 dinner-table:** adds cognitive load without contributing new concept; non-expert reader holding both "S" and "CSG" must reconcile them, when in fact they're the same.
+
+**§22.4 Success-criterion:** CSG doesn't help vocabulary adoption (not a Ring-1 target); adds to the proliferation that competes against "severed cost" adoption.
+
+**Revised (rigor-only) recommendation: RETIRE CSG.** Ch 7 and Ch 9 draft prose that currently uses CSG gets rewritten during Phase A3 audit sweep and/or Phase B chapter restructure to express the concept via S-function prose. The rewrite work is noted as a downstream scheduling observation — it does not flip the rigor verdict.
+
+**Downstream execution cost (scheduling observation per Principle #1 corollary):** Ch 7 + Ch 9 + associated case-study + audit references require rewrites expressing CSG concept as "substitutability function S at civilization scale." Effort ~2–3 days. Lands in Phase A3 audit sweep or early Phase B.
+
+**Ratified decision on CSG:** *(pending author call — revised recommendation: RETIRE on rigor grounds; Ch 7 + Ch 9 rewrites scheduled in Phase A3/B)*
+
+---
+
+**Per-term items for author decision** (with audit data + rigor-only recommendations):
+
+| Term | Chapter audit | Rigor-only recommendation | Options | Downstream cost (not a verdict input per Principle #1) |
+|---|---|---|---|---|
+| Civilizational Substitutability Gap (CSG) | 66 refs (Ch 7, Ch 9, audits, cases) | **RETIRE** — not distinct from S | (a) Retire; (b) Promote to Ring-2; (c) Demote to Tech-Appendix-only | Ch 7 + Ch 9 rewrite ~2–3 days |
+| Asymmetric Regret Principle | 0 chapter refs (Tech Appendix §G only) | DEMOTE to Tech-Appendix-level | (a) Demote; (b) Retire; (c) Retain | Minimal |
+| Value Capture | 0 chapter refs (meta-doc only) | DEMOTE from glossary | (a) Demote; (b) Retain short entry; (c) Retire | Minimal |
+| Cost Bearing | 0 chapter refs | DEMOTE from glossary | Same as Value Capture | Minimal |
+| Spatial Cost Severance | 0 chapter refs | DEMOTE (prose-only) | (a) Demote; (b) Retain | Minimal |
+| Temporal Cost Severance | 1 ref (Social Security case) | DEMOTE (rephrasable) | (a) Demote; (b) Retain | Minimal (one rephrase) |
 
 ### §13.3 Reshaped queue adoption
 
