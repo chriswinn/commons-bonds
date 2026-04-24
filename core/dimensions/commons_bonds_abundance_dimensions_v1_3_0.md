@@ -1,19 +1,46 @@
-# Commons Bonds — Abundance Dimensions
+# Commons Bonds — Abundance Dimensions (Path F reframing: variables AIT has discovered across our cases)
 
-**Date:** 2026-04-22
-**Version:** 1.2.0
-**Status:** Canonical. Priority-2 naming-cohort propagation + rich-profile format for all 10 dimensions.
-**Supersedes:** v1.1.1 (2026-04-22 afternoon — AIT worked examples added per-dimension), v1.1.0 (Priority-1 naming cohort — Habitability, Kindred, Ecosystem locked), v1.0.0 (`commons_bonds_abundance_layers_v1_0_0.md`, initial methodology ratification). Consolidates v1.21.0 dimension ratifications + v1.2.1 rigor-protocol findings + 2026-04-22 Part 2 rigor pass + Kindred lock pass (v1.0.2) + Priority-2 full-rigor pass (v1.0.4).
-**v1.2.0 patch scope (naming-cohort Priority-2 complete + rich-profile format):**
-- **Spatial** locked as canonical name for what was Geographic (§2.2).
-- **Epistemic** locked as canonical name for what was Informational (§2.9) — selected over Evidentiary on case-cluster breadth + decade-out durability grounds.
-- **Autonomy** locked as canonical name for what was Agency (§2.10).
-- **Cohesion** retained (not renamed) — expanded candidate pool (Community, Civic, Culture) rigor-tested; all failed due to Kindred-overlap or lateral-move concerns; methodology-appendix Putnam-engagement prose is the chosen mitigation for Test 18 positioning concerns.
-- **Rich-profile format** applied to all 10 §2.N subsections: Summary / What becomes visible under AIT inversion / Case cluster / Scope boundary and other observations / Relevant literature / What's uniquely priced vs. adjacent dimensions / Naming status / Pre-drafting items (where relevant). Profile format replaces the prior Scarcity-axis / Paradigmatic-asymmetry / Canonical-cases / Scope-boundary / Naming-status structure; all prior content absorbed into the rich profile.
-- §6 naming-cohort status: Priority-1 + Priority-2 complete; Priority-3 (Temporal, Institutional, Political) pending short confirm pass.
-- §9 cross-references updated with v1.0.4 rigor pass record.
+**Date:** 2026-04-24
+**Version:** 1.3.0
+**Status:** Canonical. **v1.3.0 applies Path F reframing** per PCR v1.1.0 §8 decision + rigor pass v1.0.0 §11 ratified resolutions. The 10 abundances are now understood as **variables AIT has discovered across the 18 cases examined in this book's research — empirically-convergent examples of what scarcity-grounded cost looks like, not a canonical ontological taxonomy.** Framework is generative: future applications of AIT to new contexts will surface additional variables (or refine existing ones); the 10 presented here are the set that has proven material across the specific cases examined to date. All per-dimension rich-profile content preserved from v1.2.0 as pedagogical evidence that AIT converges on reliable variable categories — not as ontological commitment to these 10 specifically.
 
-**References:** `commons_bonds_rigor_protocol_v1.3.0.md` (protocol applied); `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` (Part 1 — Test 13 correction, consent-normalization shield, merger/primitiveness examples table); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` (Part 2 — per-dimension gap-close + set-completeness sweep); `commons_bonds_rigor_pass_2026-04-22_v1.0.2.md` (Kindred lock pass); `commons_bonds_rigor_pass_2026-04-22_v1.0.3.md` (Priority-2 light-rigor — superseded; lineage record); `commons_bonds_rigor_pass_2026-04-22_v1.0.4.md` (Priority-2 full-rigor pass, canonical for Priority-2 verdicts); `commons_bonds_guiding_constraints_v1_0_0.md` (Group D / Group E canonical inputs); `commons_bonds_book_scope_v1_0_3.md` (Book One scope); `research/literature/bibliography.md` (scholarly-ancestor engagement).
+**Supersedes:** v1.2.0 (2026-04-22 — naming-cohort Priority-2 complete + rich-profile format for all 10 abundances). Path F reframing applied to framing statements; per-dimension profiles preserved unchanged.
+
+**v1.3.0 patch scope (Path F reframing):**
+- Conceptual reframing: the 10 abundances stop being "the canonical taxonomy of cost severance" and become "the ten variable categories AIT has converged on across the 18 cases examined." Labels + rich-profile content preserved; ontological claim withdrawn.
+- Framing statement updated to present doc as empirical-reliability record rather than definitional commitment.
+- §6 naming-cohort preserved — naming is still load-bearing because labels that travel (travel = cascade) matter for Goal-1. What's preserved: the discipline of naming. What's removed: the claim that the named set is complete or ontologically primary.
+- §2.N rich profiles preserved intact. Each profile's AIT-inversion section remains a valid worked-example of AIT applied to that variable category. Under Path F, these examples demonstrate the method's reliability across the variable category; they do not assert the category is uniquely primary.
+- Phase A2 methodology work (rigor pass §11.5 Tasks 5-10) will extend this further with the four-gate discipline + formula generalization published in Technical Appendix v0.0.4.
+- §0.1 NEW v1.3.0 change log.
+
+**References (v1.3.0):** `tools/commons_bonds_rigor_protocol_v2.2.0.md` (protocol applied); `tools/pre-submission-reviews/commons_bonds_pcr_2026-04-23_v1.1.0.md` (Path F decision); `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_path_f_variable_addability_v1.0.0.md` (extreme-rigor verification); historical rigor-pass records (preserved for lineage): `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md`, `_v1_0_1.md`, `_v1.0.2.md`, `_v1.0.3.md`, `_v1.0.4.md`, `_v1.0.5.md`, `_v1.0.6.md`; `tools/commons_bonds_guiding_constraints_v1_0_0.md`; `tools/commons_bonds_book_scope_v1_0_3.md`; `research/literature/bibliography.md`.
+
+**References (v1.2.0 preserved for lineage):** `commons_bonds_rigor_protocol_v1.3.0.md`; `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` (Part 1); `commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` (Part 2); `commons_bonds_rigor_pass_2026-04-22_v1.0.2.md` (Kindred lock pass); `commons_bonds_rigor_pass_2026-04-22_v1.0.3.md` (Priority-2 light-rigor — superseded); `commons_bonds_rigor_pass_2026-04-22_v1.0.4.md` (Priority-2 full-rigor pass).
+
+## §0.1 v1.3.0 change log — Path F reframing
+
+**Triggering decision:** PCR v1.1.0 §8 confirmed Path F (variables-not-dimensions reframing) on 2026-04-24. Rigor pass v1.0.0 §11 ratified the four conditions. Phase A1 Task 3 executes here.
+
+**What changes under Path F in this canonical doc:**
+
+- **The 10 abundances stay named as currently specified.** Habitability, Spatial, Temporal, Institutional, Kindred, Ecosystem, Political, Cohesion, Epistemic, Autonomy. Names are preserved; labels do cascade-work that naming-cohort rigor passes established (per Goal-1 vocabulary durability).
+- **What they ARE changes.** They are no longer "the ten canonical dimensions of cost severance as a definitive ontological taxonomy." They are "the ten variable categories that have convergently emerged when AIT is applied across the 18 cases examined in this book's research."
+- **Rich profiles preserved.** The Summary / AIT-inversion / Case-cluster / Scope / Literature / Distinctness / Naming / Pre-drafting sections per dimension remain intact and do exactly the same methodological work. What changes is the framing: each profile demonstrates AIT's convergent discovery of this variable-type across cases, not a definitional commitment to this-variable-type-being-canonical.
+- **Cases still activate dimensions.** Per-case dimension activation (canonical in chapter audit + case-study audit) continues to be analytically useful. The 18 cases converging on these 10 categories IS the empirical evidence Ch 6 Condition 3 reproducibility-scope section will reference (Phase A2 Task 7).
+
+**What stays the same:**
+
+- Naming conventions (all 10 abundances named + naming-cohort rigor preserved).
+- Per-dimension rich profiles (content unchanged).
+- Merger/primitiveness analyses (still relevant when proposed new dimensions are evaluated under the independence gate of the four-gate discipline).
+- Pre-drafting items per dimension.
+
+**Decision point preserved for Phase A2+:** Chris has flagged a "what do we call this" question — should the book still call these "abundances" or "dimensions"? Under Path F framing, "variables" is technically accurate but loses the naming-cohort durability work. Current recommendation: keep "abundance" as the label for each variable category (travels in the cascade; rich-profile depth preserved), but frame them in Ch 6 + Technical Appendix as "the ten abundance categories our research has surfaced" rather than "the ten canonical dimensions." Decision deferred to Phase A2 methodology work landing.
+
+**Phase B Task 15 (throughout-book vocabulary check) will handle draft-prose-level reframing** of the dimension/abundance framing throughout chapter drafts. This doc's per-dimension rich profiles stay in v1.2.0 form pending Phase B vocabulary work.
+
+---
 
 ---
 
