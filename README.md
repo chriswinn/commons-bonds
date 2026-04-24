@@ -32,7 +32,7 @@ Vocabulary used by people solving real problems. Not royalties, not prizes, not 
 
 | Component | Status | File |
 |---|---|---|
-| Rigor protocol | **v2.1.0** canonical — Pre-Submission Peer Review Suite (11 modules) **+ Path Comparison Mode** (comparative-decision instrument for framework-scope, structural, and content-architecture decisions) | [`tools/commons_bonds_rigor_protocol_v2.1.0.md`](tools/commons_bonds_rigor_protocol_v2.1.0.md) |
+| Rigor protocol | **v2.2.0** canonical — Pre-Submission Peer Review Suite (11 modules) + Path Comparison Mode + **6 informational goals** (personal/ethical satisfaction + family wellbeing + career safety + time/capacity preservation + movement utility + financial sustainability — produce per-path findings without driving primary recommendations) | [`tools/commons_bonds_rigor_protocol_v2.2.0.md`](tools/commons_bonds_rigor_protocol_v2.2.0.md) |
 | Abundance dimensions | **10 canonical; naming cohort COMPLETE** | [`core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md`](core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md) |
 | Eight-tier decomposition | v10 canonical; **tier-structure decision deferred** | [`core/decomposition/eight-tier-v10.html`](core/decomposition/eight-tier-v10.html) |
 | Technical appendix | v0.0.3 canonical | [`core/technical-appendix/TechnicalAppendix_v0.0.3.html`](core/technical-appendix/TechnicalAppendix_v0.0.3.html) |

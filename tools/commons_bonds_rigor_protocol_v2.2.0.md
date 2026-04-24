@@ -1,10 +1,10 @@
 # Commons Bonds — Canonical Rigor Protocol
 
-**Version:** 2.1.0 — Pre-Submission Peer Review Suite + Path Comparison Mode
-**Date:** 2026-04-23
-**Status:** Canonical. **Minor bump from v2.0.0** (same-day). Adds Path Comparison Mode (§22) — a comparative-decision instrument for evaluating multiple framework-scope, structural, or content-architecture paths against the suite's modules and aggregate goals. Enables suite-grounded scope decisions instead of gut-led choices.
-**Supersedes:** v2.0.0 (2026-04-23, earlier same day; M1 + M2 + module output formats + cross-cutting finding format) and all prior.
-**Absorption:** All v1.3.0 tests + all v2.0.0 modules preserved; none dropped. Path Comparison Mode is additive — it does not change M1-M11, the standing gates, or the Pre-Submission Peer Review Report format. It adds a new running mode (Mode 5) and a new output format (Path Comparison Report) that builds on the existing modules.
+**Version:** 2.2.0 — Pre-Submission Peer Review Suite + Path Comparison Mode + Informational Goals
+**Date:** 2026-04-24
+**Status:** Canonical. **Minor bump from v2.1.0.** Adds five informational goals to Path Comparison Mode — Personal/Ethical Satisfaction, Family Wellbeing, Career Safety + Nursing-Licensure Protection, Time/Capacity Preservation, Movement Utility, Financial Sustainability — that produce per-path findings without driving primary recommendations. Surfaces considerations primary goals miss; flags unexpected very-good or very-bad findings that may matter at decision time.
+**Supersedes:** v2.1.0 (2026-04-23, day prior; Path Comparison Mode added) and all prior.
+**Absorption:** All v1.3.0 tests + all v2.0.0 modules + v2.1.0 Path Comparison Mode preserved. v2.2.0 is additive — adds informational goals to §22.4 goal-to-modules mapping and adds §22.6 PCR template informational-findings section. Primary goals (publishing path success / academic reception / success criteria / long-term project impact) unchanged in their primary-driver status.
 
 ---
 
@@ -54,6 +54,29 @@ Every v1.3.0 test is absorbed. Some appear in multiple modules (preserved with c
 | §10 Test 27 | Empirical grounding | M3 + M6 |
 | §11 | 25-character pressure suite | M11 Critic pressure (preserved whole; cross-references to other modules documented) |
 | §11.7-11.9 | Sub-batteries (Methodological / Stakeholder / Meta) | M11 sub-batteries (preserved) |
+
+### §0.3a-2 What's new in v2.2.0 (minor bump from v2.1.0)
+
+**Five informational goals added to Path Comparison Mode (§22.4b NEW).** v2.1.0 supported four primary goals (publishing path success / academic reception / success criteria / long-term project impact) that drove per-path scoring + recommendations. v2.2.0 adds:
+
+- **Personal/Ethical Satisfaction** — does the author consider the published book personally honest, true to experience, true to people written about?
+- **Family Wellbeing** — wife / parents / son / extended family privacy + relational impact + exposure burden
+- **Career Safety + Nursing-Licensure Protection** — does the published book preserve Chris's ability to practice nursing + hold institutional positions + work with vulnerable populations
+- **Time / Capacity Preservation** — implementation cost relative to author's life capacity (nursing school, coursework, family, sleep, future practice)
+- **Movement / Community-of-Practice Utility** — does the book serve organized work + build community of practice
+- **Financial Sustainability** — does the book + cascade produce sustainable income
+
+These goals do NOT drive primary recommendations; they produce per-path findings that surface considerations the primary goals miss. Especially worth running because **an unexpected very-good or very-bad finding from an informational goal can materially affect a decision the primary goals would otherwise resolve cleanly.**
+
+**Specific changes in v2.2.0:**
+
+- **§22.4 reorganized:** §22.4a (primary goals — drive recommendations) + §22.4b NEW (informational goals — produce findings only).
+- **§22.6 PCR template extended:** new §11 informational findings section with sub-sections per informational goal (§11.1-§11.6).
+- **No changes to v2.1.0 modules, standing gates, primary goals, or any other architecture.** v2.2.0 is purely additive.
+
+**Triggering context:** during PCR v1.0.0 author-review (Chris reviewing the framework-scope decision recommendation), author asked whether there were goals not currently weighted in the suite that he should be considering. Suggested additions: personal/ethical satisfaction (author intrinsic goal), family wellbeing (author's people), career safety (nursing-licensure interaction), time/capacity preservation (implementation cost as a goal), movement utility (organized-work uptake), financial sustainability (writing-life income). Chris ratified all six as informational additions; v2.2.0 implements.
+
+**Application to PCR v1.0.0:** the existing PCR predates v2.2.0 and is structured against v2.1.0's four primary goals. To apply v2.2.0 informational goals to an existing PCR, the existing PCR is bumped to v1.1.0 with §11 informational findings added retrospectively.
 
 ### §0.3a What's new in v2.1.0 (minor bump from v2.0.0)
 
@@ -2086,6 +2109,22 @@ A sub-test or character that fails to differentiate on one pass may differentiat
 
 ## §20. Change log
 
+### v2.2.0 (2026-04-24) — minor bump from v2.1.0
+
+**Five informational goals added to Path Comparison Mode.** Personal/Ethical Satisfaction + Family Wellbeing + Career Safety + Time/Capacity Preservation + Movement Utility + Financial Sustainability. These produce per-path findings without driving primary recommendations; they surface considerations the four primary goals (publishing path success / academic reception / success criteria / long-term project impact) miss.
+
+**Why the addition matters:** when the primary-goals comparison produces a clean recommendation, the author may be tempted to commit on primary-goal evidence alone. Informational findings can surface considerations that change the calculus (e.g., a path that wins on academic reception but creates substantial family-relational damage; a path that wins on publishing path but is financially sub-sustainable; a path with implementation cost beyond author's capacity).
+
+**Specific changes:**
+
+1. **§22.4 reorganized** into §22.4a (primary goals) + §22.4b (informational goals — NEW).
+2. **§22.6 PCR template extended** with §11 informational findings section (sub-sections §11.1-§11.6 per informational goal).
+3. **No structural changes to v2.1.0 modules, standing gates, primary goals, running modes, or any other architecture.** v2.2.0 is purely additive.
+
+**Provenance:** during PCR v1.0.0 author-review (Chris reviewing the framework-scope-decision recommendation 2026-04-24), Chris asked whether there were goals not weighted in the suite he should be considering. Suite produced 8 candidate goals; Chris ratified 6 as informational additions (the two he explicitly suggested adding — personal/ethical satisfaction + time/capacity preservation — plus financial sustainability + movement utility + family wellbeing + career safety). v2.2.0 implements.
+
+**v2.1.0 retired** same-day-pattern (preserved via git history; mapping to v2.1.0 sections preserved for any downstream document referencing v2.1.0 specifically).
+
 ### v2.1.0 (2026-04-23) — minor bump from v2.0.0
 
 **Path Comparison Mode added (§22).** v2.0.0 was a single-state instrument (assesses material as it is); v2.1.0 adds comparative-state capability (compares multiple alternative paths against goal-weighted criteria).
@@ -2175,7 +2214,7 @@ Full v1.3.0 change log preserved at `tools/archive/commons_bonds_rigor_protocol_
 - **Chapter audit (M3 + M4 worked example):** `core/chapters/commons_bonds_chapter_audit_v1.0.5.md`.
 - **Indigenous case sensitivity-reader protocol:** `research/case-studies/indigenous-land-dispossession.md` §7.1.
 - **Worked rigor-pass records:** `tools/rigor-passes/` (v1.0.1–v1.0.6).
-- **Superseded protocols:** v1.3.0 (archived at `tools/archive/`; mapping at §0.2). v2.0.0 (single-state-only; superseded by v2.1.0 same day; retired via git history per project's "git preserves superseded versions" pattern).
+- **Superseded protocols:** v1.3.0 (archived at `tools/archive/`; mapping at §0.2). v2.0.0 (single-state-only; superseded by v2.1.0 next day; retired via git history). v2.1.0 (Path Comparison Mode without informational goals; superseded by v2.2.0 next day; retired via git history). v2.2.0 mapping back to v2.1.0 + v2.0.0 + v1.3.0 preserved.
 
 ---
 
@@ -2257,9 +2296,13 @@ Provenance:
 
 ### §22.4 Goal-to-modules mapping
 
-The four goals Chris named (publishing path success / academic reception / success criteria / long-term project impact) map to specific modules. Path Comparison Mode aggregates per-module findings into per-goal scores via this mapping.
+Path Comparison Mode runs against two tiers of goals: **primary goals** (drive recommendations + per-path scoring) and **informational goals** (produce findings only; surface considerations the primary goals don't capture).
 
-| Goal | Primary modules | Secondary modules | Weighting note |
+#### §22.4a Primary goals (drive recommendations)
+
+The four primary goals (publishing path success / academic reception / success criteria / long-term project impact) map to specific modules. Path Comparison Mode aggregates per-module findings into per-goal scores via this mapping.
+
+| Primary goal | Primary modules | Secondary modules | Weighting note |
 |---|---|---|---|
 | **Publishing path success** | M10 Publishing path + M9 Risk / exposure + M4 Craft | M3 Book content + M11 (gatekeeper characters: C5, C6, C7, C8) | Weight M10 at 1.0; M9 at 0.8; M4 at 0.7; secondaries at 0.5 |
 | **Academic reception** | M6 Academic rigor + M7 Originality | M1 Framework integrity (CORE defense) + M11 (academic critics: C9, C12, C17, M1-M4 sub-battery) | Weight M6 at 1.0; M7 at 1.0; M1 at 0.8; secondaries at 0.5 |
@@ -2268,6 +2311,23 @@ The four goals Chris named (publishing path success / academic reception / succe
 | **Cross-cutting (applied to all paths regardless of goal)** | M1 CORE integrity (does the CORE survive in this path?) | M2 Case study (do the cases still do their work?) | Pass/fail gate; no weighting — a path that fails M1 CORE in any path-spec is dropped before goal-aggregation |
 
 **Author-adjustable weighting:** the weights above are defaults. The author may specify alternate weightings ("for this decision, I'm prioritizing academic reception over publishing path success at 1.5×"), and the report reflects the chosen weighting explicitly so the decision is reproducible.
+
+#### §22.4b Informational goals (NEW v2.2.0 — produce findings only)
+
+These goals do NOT drive primary recommendations, but they DO produce per-path findings that surface considerations the primary goals miss. Especially worth running because **an unexpected very-good or very-bad finding from an informational goal can materially affect a decision the primary goals would otherwise resolve cleanly.**
+
+| Informational goal | What this goal asks | Modules consulted | Output format |
+|---|---|---|---|
+| **Personal/ethical satisfaction with the published work** | Does the author consider the published book personally honest, true to their experience, true to the people they write about? Will they stand behind it in 10+ years? | Author self-assessment (no module direct mapping); M4 Craft (voice consistency = author-honest voice); M11 C25 (grandfather at NASA Langley = ethical anchor character) | Per-path findings + author-side judgment + flag any path that requires author dishonesty or scope-of-self-disclosure the author won't sustain |
+| **Family wellbeing** | Wife / parents / son / extended family privacy, relational impact, exposure burden across the book's life | M9 Risk / exposure (M9.4 third-party + M9.5 sensitivity-reader); M11 C25 (Chris's family-anchor character) — applied to family members specifically | Per-path findings on family-exposure burden + relational risk + privacy mitigation requirements; flag any path that creates ongoing relational damage |
+| **Career safety + nursing-licensure protection** | Does the published book preserve Chris's ability to practice nursing, hold institutional positions, work with vulnerable populations (patients, students, clients)? | M9.2 (career-risk); M11 C7 (legal counsel) + C21 (nursing colleague) | Per-path findings on nursing-licensure exposure + employer-network exposure + clinical-practice-trust exposure; flag any path that creates licensure or employment vulnerability |
+| **Time / capacity preservation** | What's the implementation cost relative to author's life capacity (nursing school, coursework, family, sleep, future practice)? | All modules — implementation-cost estimates surfaced from per-path findings | Per-path implementation-cost estimate (weeks / months) + opportunity-cost estimate (what else can't be done in that time) + flag any path that would consume more capacity than available |
+| **Movement / community-of-practice utility** | Does the book serve organized work (labor organizing, environmental advocacy, indigenous sovereignty, commons governance, healthcare reform)? Does it build a community of practice that extends the framework? | M11 C11 (community organizer) + C12 (grad student); M5 Dinner-table (vocabulary portability for movement use); M8 Long-term (cascade-into-community) | Per-path findings on movement-applicability + community-extension potential + flag any path that severs the book from organized work |
+| **Financial sustainability** | Does the book + cascade produce enough income (advance + royalties + speaking + advisory) to support continued writing without continuous nursing-shift income to bridge? | M10 Publishing path (publisher economics); M11 C8 (literary agent — commercial assessment) | Per-path income-trajectory estimate (advance range, royalty trajectory, speaking-fee potential) + flag any path that produces sub-sustainable income |
+
+**Key v2.2.0 design principle:** informational goals are **flag-surfacers, not drivers**. The PCR's executive recommendation continues to be driven by the four primary goals. Informational findings appear as their own report section (§11 in revised PCR template, §22.6) and can include "watch this" callouts where unexpected findings warrant attention.
+
+**Why this matters:** when the primary-goals comparison produces a clean recommendation (as PCR v1.0.0 did with Path F), the author may be tempted to commit on primary-goal evidence alone. Informational findings can surface considerations that change the calculus — e.g., a path that wins on academic reception but creates substantial family-relational damage, or a path that wins on publishing path but is financially sub-sustainable. The informational-goals layer prevents the primary-goals view from dominating without scrutiny.
 
 ### §22.5 Per-path module application protocol
 
@@ -2379,6 +2439,28 @@ For each goal, the modules producing the scores + the path-by-path verdict + the
 ## §10. Pre-implementation action items
 
 [For the chosen path: what work needs to happen before implementation. Sequenced. Owners + timeline where applicable.]
+
+## §11. Informational findings (NEW v2.2.0 — informational goals per §22.4b)
+
+For each informational goal, per-path findings + watch-this callouts where unexpected very-good or very-bad findings warrant attention. These do NOT drive primary recommendation; they surface considerations the primary goals miss.
+
+### §11.1 Personal/ethical satisfaction with the published work
+[Per path: does the author consider this version of the book personally honest, true to experience, true to people written about? Will they stand behind it in 10+ years? Watch-this callouts where any path requires author dishonesty or sustained scope-of-self-disclosure the author won't sustain.]
+
+### §11.2 Family wellbeing
+[Per path: family-exposure burden, relational impact, privacy mitigation requirements. Watch-this callouts where any path creates ongoing relational damage.]
+
+### §11.3 Career safety + nursing-licensure protection
+[Per path: nursing-licensure exposure, employer-network exposure, clinical-practice-trust exposure. Watch-this callouts where any path creates licensure or employment vulnerability.]
+
+### §11.4 Time / capacity preservation
+[Per path: implementation-cost estimate (weeks / months), opportunity-cost estimate (what else can't be done in that time). Watch-this callouts where any path would consume more capacity than available.]
+
+### §11.5 Movement / community-of-practice utility
+[Per path: movement-applicability findings, community-extension potential. Watch-this callouts where any path severs the book from organized work or where any path unexpectedly enables movement-uptake the author hadn't anticipated.]
+
+### §11.6 Financial sustainability
+[Per path: income-trajectory estimate (advance range, royalty trajectory, speaking-fee potential). Watch-this callouts where any path produces sub-sustainable income or where any path produces unexpectedly strong income trajectory.]
 ```
 
 ### §22.7 Decision framework — reading trade-offs
