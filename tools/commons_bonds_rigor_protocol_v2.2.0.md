@@ -1,10 +1,10 @@
 # Commons Bonds — Canonical Rigor Protocol
 
-**Version:** 2.2.0 — Pre-Submission Peer Review Suite + Path Comparison Mode + Informational Goals
+**Version:** 2.3.0 — Pre-Submission Peer Review Suite + Path Comparison Mode + Informational Goals + **M12 Intellectual Honesty / Prior-Art Audit**
 **Date:** 2026-04-24
-**Status:** Canonical. **Minor bump from v2.1.0.** Adds five informational goals to Path Comparison Mode — Personal/Ethical Satisfaction, Family Wellbeing, Career Safety + Nursing-Licensure Protection, Time/Capacity Preservation, Movement Utility, Financial Sustainability — that produce per-path findings without driving primary recommendations. Surfaces considerations primary goals miss; flags unexpected very-good or very-bad findings that may matter at decision time.
-**Supersedes:** v2.1.0 (2026-04-23, day prior; Path Comparison Mode added) and all prior.
-**Absorption:** All v1.3.0 tests + all v2.0.0 modules + v2.1.0 Path Comparison Mode preserved. v2.2.0 is additive — adds informational goals to §22.4 goal-to-modules mapping and adds §22.6 PCR template informational-findings section. Primary goals (publishing path success / academic reception / success criteria / long-term project impact) unchanged in their primary-driver status.
+**Status:** Canonical. **Minor bump from v2.2.0.** Adds Module M12 (Intellectual Honesty / Prior-Art Audit) — structural requirement to run a literature-audit check on every term, concept, or decision rule introduced by the framework, verifying whether the term is Chris's original coinage, independent rediscovery of established terminology, lexical collision with an established different concept, or adoption of an established term. Produces citation / disambiguation / rename / positioning recommendations. Originated during framework-wide literature audit 2026-04-24 (Open Insight #10) that identified (a) Mazzucato 2018 as prior published usage of "value extraction," (b) HR/accounting "severance costs" as semantic collision with "Cost Severance," (c) reclamation-bond / financial-assurance literature as prior art for Accountability Bond. The 2026-04-24 audit produced a new Working Principle (author 2026-04-24: "Please capture the intellectual-honesty check as one of the tests to run in the full test suite.") — this v2.3.0 bump formalizes the test.
+**Supersedes:** v2.2.0 (2026-04-24, same day; informational goals added) and all prior.
+**Absorption:** All v1.3.0 tests + all v2.0.0 modules + v2.1.0 Path Comparison Mode + v2.2.0 informational goals preserved. v2.3.0 is additive — adds M12 to §5 module overview table, full M12 module definition at §17.5 (new), cross-reference in §22.4 goals-to-modules mapping, and M12 line in PSR template. Primary goals unchanged; M12 is a NEW module not a revision.
 
 ---
 
@@ -310,7 +310,7 @@ The full suite applies to any non-trivial book content. For targeted runs, class
 
 ---
 
-## §5. The 11 modules — overview
+## §5. The 12 modules — overview (M12 added v2.3.0)
 
 | # | Module | Core question | Reviewer voice | Output format |
 |---|---|---|---|---|
@@ -325,6 +325,7 @@ The full suite applies to any non-trivial book content. For targeted runs, class
 | 9 | Risk / exposure | Legal, reputational, ethical risks for the author and third parties | Publisher's legal counsel + sensitivity-reader-protocol expert | **Risk register** — finding / reviewer-voice / consequence / solve / mitigate / show-stopper |
 | 10 | Publishing path | Cascade viability + marketability + venue fit across 4 endpoint types | Literary agent preparing submission | Hybrid (4-endpoint verdict table + pitch / comps / jacket-copy prose) |
 | 11 | Critic pressure | 25-character attack-surface review | The 25 characters from v1.3.0, preserved | Character-voice memos + structural-flag aggregate |
+| **12** | **Intellectual honesty / Prior-art audit** (NEW v2.3.0) | **Is this term/concept original coinage, independent rediscovery, lexical collision, or adoption of established terminology? What citation / disambiguation / rename / positioning does intellectual honesty require?** | **Literature-survey reviewer + intellectual-history editor** | **Prior-art table per term (finding → classification → action) + aggregate positioning memo + bibliography additions list** |
 
 Each module below follows the same template:
 
@@ -1898,6 +1899,139 @@ Already documented per-character above.
 
 ---
 
+## §16.5. M12 — Intellectual honesty / Prior-art audit (NEW v2.3.0)
+
+### §16.5.1 Reviewer voice
+
+A literature-survey reviewer + intellectual-history editor. Someone trained to ask "where does this come from?" and "who said this first in published discourse?" — not interested in whether the framework's argument succeeds, but in whether the framework's TERMS, CONCEPTS, and DECISION RULES are honestly positioned relative to prior published work. Combines skepticism of the skilled bibliographer with the care of an editor who has seen authors unwittingly reproduce others' work and wants to prevent it.
+
+### §16.5.2 Core question
+
+*For each framework term, concept, or decision rule tested: does an established prior usage of this term exist in published literature? If yes, what classification does the relationship merit (original coinage / independent rediscovery / lexical collision with a different concept / adoption of established term)? What action does intellectual honesty require (cite + position as extension / cite + disambiguate / rename / acknowledge lexical collision / no action)?*
+
+This test does NOT evaluate whether the framework's argument is correct. It evaluates whether the framework's vocabulary is honestly represented — whether readers encountering a framework term will be misled about its lineage or appropriation status.
+
+### §16.5.3 When to run
+
+- **Every term added to the framework's Ring-1 or Ring-2 vocabulary.** Required before ratification.
+- **Every decision rule named in the framework** (e.g., Asymmetric Regret Principle, Abundance Inversion Test).
+- **Every named mathematical primitive** (e.g., Substitutability Function, Externality Tail).
+- **Framework-wide audit** at least once per major phase (pre-submission, pre-publication).
+- **Retrospectively** when a term is flagged for rigor review — even if originally introduced without literature audit.
+
+### §16.5.4 Sub-tests
+
+#### §16.5.4a Exact-phrase literature search
+
+Web-search the exact framework term (+ modifiers) against published economics / political-economy / decision-theory / legal / sociology literature. Log all published prior uses including author, year, publication venue, and definition-of-use.
+
+#### §16.5.4b Concept-level search
+
+Search for the UNDERLYING CONCEPT the term names — not just the exact phrase. A framework term can be honest even if the exact phrase is novel, IF the concept is also novel. Conversely, a framework term can be problematic if the exact phrase is novel but the concept is established under a different name (e.g., "abundance masking" as concept ≈ established artificial-scarcity literature).
+
+Patterns to test:
+- Synonyms and paraphrases of the term.
+- Closely-adjacent established terms in the same domain.
+- Mathematical / formal analogues (for function / equation names).
+
+#### §16.5.4c Classification of finding
+
+For each prior-usage hit, classify the relationship:
+
+| Classification | Definition | Action required |
+|---|---|---|
+| **Original coinage** | No prior published usage of phrase OR concept. | Document; no action. |
+| **Independent rediscovery** | Author arrived at term independently, but prior published usage exists for same/similar concept. | **Cite prior art + position framework as extension / specialization.** Acknowledge independence while crediting priority. |
+| **Lexical collision (different concept)** | Same phrase used in published literature for a genuinely different concept. | **Cite collision + disambiguate** in Tech Appendix / glossary / Ch 1. Consider rename if collision risk is high. |
+| **Adoption of established term** | Author intentionally adopts established term with same meaning. | **Cite original source.** No framework claim to novelty on this term. |
+| **Adjacent term (related but distinct)** | Published literature uses related terminology for related but meaningfully different concept. | **Cite as adjacent + distinguish** in Tech Appendix. |
+
+#### §16.5.4d Collision-severity assessment
+
+For LEXICAL COLLISIONS specifically, assess severity:
+
+| Severity | Diagnostic | Action |
+|---|---|---|
+| **High** | Framework's target audience (policy / legal / academic) overlaps heavily with the audience for the established different-concept term. Reader will reflexively mis-parse on first encounter. | Dedicated rigor pass on rename-vs-disambiguate-vs-lean-in; treat as Ring-1-flagship decision if term is Ring 1. |
+| **Medium** | Target audience overlap partial; disambiguation in Ch 1 + glossary sufficient. | Disambiguation note + Tech Appendix citation. |
+| **Low** | Target audience barely overlaps; collision is bibliographic-trivia. | Tech Appendix footnote for due diligence. |
+
+#### §16.5.4e Positioning statement
+
+For INDEPENDENT REDISCOVERY or ADJACENT TERM findings, draft a canonical positioning statement showing how the framework relates to the prior work:
+
+- "The framework EXTENDS X's diagnosis from [domain A] into [domain B]..."
+- "The framework SPECIALIZES X's concept Y by adding [framework-specific features]..."
+- "The framework's Z is an accessible reframing of X's Y in [register / audience context]..."
+
+The positioning statement is LOAD-BEARING for Ch 1 or Tech Appendix citation and MUST be included in the term's Terms Index record.
+
+#### §16.5.4f Bibliography impact check
+
+For every non-"original coinage" finding, determine whether the prior-work source should be added to the project bibliography per the bibliography-additions rule (load-bearing on ratified decision → add; tied to pending candidate → queue).
+
+### §16.5.5 Standing gates
+
+- **Gate A (earning-its-place):** does the framework term still earn its place after acknowledging prior art? (Original-coinage findings pass trivially; independent-rediscovery findings must articulate what the framework adds that prior work does not; adoption findings should downgrade term from framework-novelty claims.)
+- **Gate B (scaffolding-vs-book-worthy):** does the citation / disambiguation / rename reach Tech-Appendix depth or Ch 1 prose depth? (Most prior-art citations belong in Tech Appendix; only load-bearing positioning reaches main-text prose.)
+
+### §16.5.6 Output format — Prior-art audit report
+
+For EACH term tested, produce:
+
+1. **Term + definition as used in framework.**
+2. **Exact-phrase search results** (hits with author / year / venue / definition).
+3. **Concept-level search results** (adjacent + synonym hits).
+4. **Classification** (original coinage / independent rediscovery / lexical collision / adoption / adjacent) with rationale.
+5. **Severity assessment** for any collisions.
+6. **Recommended action** (cite / disambiguate / rename / no action / dedicated rigor pass).
+7. **Canonical positioning statement** (if independent rediscovery or adjacent).
+8. **Bibliography additions** (load-bearing sources to add).
+
+Aggregate the per-term reports into a **framework-wide prior-art audit memo** summarizing:
+- Terms that passed cleanly (original coinage).
+- Terms requiring citation + positioning (independent rediscovery).
+- Terms requiring disambiguation (lexical collision — assess severity).
+- Terms that are adoptions (framework cites but doesn't claim).
+- Bibliography additions (aggregate list).
+- Open decisions (where multiple action-paths are defensible and require author ratification).
+
+### §16.5.7 Light mode
+
+**Not skippable.** M12 is NEVER skipped in a light-mode run — the cost of intellectual-honesty failure (appropriation appearance, academic-credibility damage) is too high. A light-mode M12 abbreviates to: exact-phrase search only (skip concept-level); auto-classify as "appears novel" if no exact-phrase hits; flag for full M12 re-run at the next major phase.
+
+### §16.5.8 Cross-references
+
+- **M6 (academic rigor):** M6 tests whether the framework survives peer review; M12 tests whether the framework's vocabulary is honestly positioned. An M12 finding may raise an M6 flag but the tests are distinct — M12 is about provenance; M6 is about argument strength.
+- **M7 (originality):** M7 tests what the framework genuinely contributes; M12 tests whether the CLAIMS of originality are honestly grounded in prior-art audit. An M12 finding of "independent rediscovery" may downgrade an M7 originality claim.
+- **§22.4 goals-to-modules:** M12 primarily serves the Academic Reception goal and the Intellectual-Integrity goal (see §22.4 below).
+- **Working Principle #6** (Intellectual-honesty audit is part of rigor — ratified 2026-04-24).
+
+### §16.5.9 When M12 reveals problems — action ladder
+
+Ordered from lightest to heaviest intervention:
+
+1. **Tech Appendix footnote** — minimal acknowledgment, due diligence.
+2. **Glossary entry citation** — prior art noted in term's formal definition.
+3. **Ch 1 prose citation** — load-bearing positioning in main text at first use.
+4. **Terms Index extension-positioning statement** — formal framework-relation statement.
+5. **Dedicated rigor pass** — for close calls between cite-and-extend vs rename (flagged as Ring-1-flagship-level decision).
+6. **Rename** — when lexical-collision severity is High and no disambiguation reaches the target audience's first-encounter reflex.
+
+### §16.5.10 M12 for retrospective audits
+
+When a term is flagged for rigor review AFTER originally being introduced without M12, run M12 as a stand-alone audit. The findings may trigger:
+- Terms Index record version bump (e.g., v1.0 → v1.1 with prior-art addendum).
+- Rigor pass version bump (e.g., v1.0.0 → v1.1.0 with M12 addendum — see Value Extraction standalone pass v1.1.0 2026-04-24 as template).
+- New Open Insight if the finding requires author ratification.
+- Bibliography additions.
+
+### §16.5.11 Example audit (Value Extraction, 2026-04-24)
+
+See `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_value_extraction_standalone_v1.0.0.md` §v1.1.0 Addendum for a worked example of M12 retrospective audit. Value Extraction → Mazzucato 2018 independent-rediscovery finding → cite-plus-extension-positioning action → canonical positioning statement → Terms Index v1.1 + bibliography update.
+
+---
+
 ## §17. Output — the Pre-Submission Peer Review Report
 
 ### §17.1 Naming
@@ -2013,6 +2147,9 @@ SHOW-STOPPER: [Yes / No; if Yes, specify level]
 
 ### M11 — Critic pressure
 [Per-character voice memos using cross-cutting format from §17.2 + structural-flag aggregate table per §16.7]
+
+### M12 — Intellectual honesty / Prior-art audit (v2.3.0)
+[Per-term prior-art audit report per §16.5.6: term → exact-phrase search → concept-level search → classification (original coinage / independent rediscovery / lexical collision / adoption / adjacent) → severity → recommended action → canonical positioning statement (if applicable) → bibliography additions. Aggregate framework-wide memo at end.]
 
 ---
 

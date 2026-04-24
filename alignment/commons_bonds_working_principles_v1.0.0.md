@@ -255,6 +255,44 @@ For any candidate decision rule, ask: *"under different contexts, does this rule
 
 ---
 
+### Principle #6 — Intellectual-honesty (prior-art) audit is part of rigor
+
+**Ratified:** 2026-04-24 by Chris Winn
+**Originating context:** Framework-wide literature audit 2026-04-24 (Open Insight #10). Chris raised concern that some framework terms may collide with or unknowingly appropriate established economics / political-economy terminology: *"I honestly thought you said you pulled that from existing literature. Could you do a search to confirm if you/we came up with that term? Additionally for all terms to the same search. I really don't want to claim anyone else's work as my own."* Audit revealed:
+- Mazzucato 2018 as prior published usage of "value extraction" (Chris independently rediscovered).
+- HR/accounting "severance costs" as semantic collision with "Cost Severance" (Ring-1 flagship).
+- Reclamation-bond / financial-assurance literature as prior art for Accountability Bond.
+Chris directive: *"Please capture the intellectual-honesty check as one of the tests to run in the full test suite."* Formalized as rigor protocol Module M12 (v2.3.0) and this working principle.
+**Scope:** every term, concept, decision rule, and named mathematical primitive introduced into the framework's vocabulary. Applies both prospectively (before term ratification) and retrospectively (for terms introduced before this principle existed).
+
+**Principle statement:**
+
+Intellectual honesty about prior art is part of rigor. Every framework term must pass a literature audit that classifies its relationship to prior published work — (a) original coinage, (b) independent rediscovery of established terminology, (c) lexical collision with a different established concept, (d) adoption of an established term, or (e) adjacent to established terminology. The classification determines the required action: cite + extension-positioning for independent rediscovery; disambiguation or rename for lexical collision; citation-only for adoption; due-diligence footnote for adjacent; no action for original coinage.
+
+Usage-inertia protection is NOT a defense against an M12 finding: a framework term that has 100 chapter refs but is revealed to be independent rediscovery of Mazzucato-style established terminology does NOT get to dodge the citation requirement by claiming "too expensive to change" (Principle #1) or "too widely used to alter" (Principle #1 Corollary B). The citation requirement is a rigor-level obligation.
+
+**What this changes about my reasoning:**
+
+- When proposing, evaluating, or ratifying any framework term, I run M12 (literature audit) before the ratification decision.
+- For terms already ratified before this principle existed, I run retrospective M12 audits during Phase A3 or on explicit author request.
+- When a rigor pass recommends or ratifies a term, the pass's verdict includes an M12 finding as part of the rigor basis.
+- When I draft citation / positioning / disambiguation language, I default to explicit and visible (main-text Ch 1 positioning) rather than buried (Tech Appendix footnote only) for load-bearing terms.
+- When M12 finds a lexical-collision of High severity (target audience for the framework overlaps heavily with audience for the established different-concept term), I flag as a dedicated-rigor-pass requirement rather than a single-footnote fix.
+
+**Why this principle matters on this project specifically:**
+
+Commons Bonds's adoption-durability bet rests on framework vocabulary traveling into policy / legal / academic discourse. If a reader in those audiences encounters a framework term and their first reflex is "wait — that's Mazzucato's term, is this author appropriating it?" or "wait — 'cost severance' in accounting means something else, is this author being sloppy?" — the framework loses the credibility its adoption-durability depends on. Intellectual-honesty audit is what prevents this. Additionally, Chris's commitment to not claim others' work as his own is a load-bearing authorial value that the framework's infrastructure must support.
+
+**Corollaries:**
+
+- **Corollary A — Citation beats rename for independent rediscovery.** When the framework and an established term describe the same concept arrived at independently, the stronger move is usually to cite + position-as-extension rather than rename. Rename signals the framework couldn't stand next to its intellectual ancestors; citation signals it can. (Rename remains appropriate for High-severity lexical collisions where the term means a DIFFERENT concept in established use.)
+
+- **Corollary B — "Original coinage" requires evidence, not claim.** A term cannot be called "original coinage" without an M12 audit that specifically checked for prior published usage. Prior-to-M12 terms that were called "original coinage" (including Value Extraction, labeled as such in earlier Terms Index records before the 2026-04-24 audit) require retrospective audits and may need their claim revised to "independent rediscovery."
+
+- **Corollary C — Retrospective M12 updates add value, not obligation.** When M12 finds prior art for an already-ratified term, the finding ADDS provenance information; it does NOT usually flip the rigor verdict. The Value Extraction 2026-04-24 audit is the template — Mazzucato finding → citation requirement → positioning statement → bibliography update, but Option A (Ring 1) verdict unchanged.
+
+---
+
 ## §3. Candidate principles (articulated but not yet ratified as such)
 
 ### Candidate — Option-space breadth is load-bearing
