@@ -243,3 +243,32 @@ What Ch 1 *can* optionally carry — if Chris wants to plant the signal that thi
 One sentence is the ceiling, not the floor. Zero is also correct — if Chris's personal story already carries intellectual credibility through biography (NASA + JH + NIH + MDLogix co-founding + nursing pivot), the tradition-signal can be deferred entirely to Ch 6 where the contribution is actually articulated.
 
 **Do not cite Pigou by name in Ch 1.** Name-dropping a century-old economist in the origin story breaks register and signals defensiveness. Ch 6 is where Pigou gets named.
+
+---
+
+## Autonomy-as-commons treatment in Ch 1 (added 2026-04-24 per Open Insight #18 + Option C' political-philosophical acknowledgment ratification)
+
+The 120-hour-week passage (line 117) is the chapter's paradigm Commons-Consumption Inversion case (per Open Insight #16). It demonstrates the framework operating on the **autonomy commons** — specifically, the autonomy-supporting infrastructure (employment law; labor protections; severance norms; contract enforceability; the social architecture that makes elite-knowledge-worker autonomy possible) — which was systematically severed by the contract architecture even though the contract was nominally voluntary.
+
+**Authorial-voice guidance:** Ch 1 should NOT explicitly use the phrase "autonomy commons" or "Commons Inversion Test" in Register 1. Those are Ch 6 / Tech Appendix vocabulary. Ch 1's role is to demonstrate the mechanism through lived experience; the framework's vocabulary lands in Ch 6. What Ch 1 CAN do — and what the existing 120-hour-week paragraph already does implicitly — is name what was extracted (attention, presence, time, the version of life that required physical-cognitive-emotional presence) without stipulating a political-philosophical commitment about whether that constituted commons-extraction. The reader's own political-philosophical position can fill that in.
+
+**Anderson 2017 *Private Government* connection:** Anderson is the canonical scholarly anchor for the autonomy dimension (per bibliography §13). She frames the modern American workplace as private-government structure where employers exert quasi-state power over workers. The 120-hour-week passage operates in Anderson's territory — the quasi-state authority of the consulting firm over its consultants' time, attention, and presence is the case material. Ch 1 doesn't cite Anderson (Ch 6 / Tech Appendix territory); Ch 1 demonstrates what Anderson describes.
+
+**The political-philosophical contestation Ch 1 doesn't need to settle:** different readers will frame the 120-hour-week passage differently:
+- Classical-liberal reader: "you signed the contract; voluntary trade-off; market mechanism."
+- Civic-republican reader: "the supporting institutions failed; this is non-domination violation."
+- Socialist/communitarian reader: "the autonomy-supporting commons (collective bargaining, labor protection, etc.) was eroded; this is what its absence looks like."
+- Lived-oppression reader: "even with elite resources, the structural pressure was extractive."
+
+The chapter's existing consent-problem passage (line 130-136) handles this well — it forecloses the easy "voluntary trade-off" dismissal without committing to a specific political-philosophical alternative. **Preserve that move.** The autonomy-as-commons reading is one valid reading; the framework's argument doesn't require Ch 1 to assert it.
+
+**Where the political-philosophical acknowledgment lands:** Ch 6 + Tech Appendix carry the framework-level acknowledgment that what counts as a commons is politically-traditionally contested. Ch 1's job is the lived-experience demonstration that survives across all those political readings. (Per Option C' refinement: framework's universality is about METHOD, not about enumeration canonicity or political-ontological commitment.)
+
+**Cross-references:**
+- Open Insight #16 (two CIT sub-forms — 120-hour-week is paradigm Commons-Consumption Inversion case)
+- Open Insight #17 (Option C' political-philosophical positioning)
+- Open Insight #18 (autonomy-as-commons placement)
+- Ch 6 guidance § Autonomy-as-commons treatment
+- Tech Appendix v0.0.5 commons-governance lineage section
+- Personal Stories Candidate #1 (commute-trade — second Consumption-Inversion case Ch 1 may incorporate)
+- Anderson 2017 *Private Government* (bibliography §13; Ch 6 / Tech Appendix citation territory)

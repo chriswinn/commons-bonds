@@ -328,3 +328,66 @@ The subsection explicitly scopes inter-rater reliability studies as downstream w
 - Ch 1 guidance doc §"Ch 1 and the intellectual-tradition signal" — Register 1 complement to Ch 6 Contribution section.
 
 ---
+
+## Commons-as-structural-identity reframing in Ch 6 (added 2026-04-24 per ratified 3-pass commons-transition work)
+
+Three framework-level rigor-pass ratifications 2026-04-24 reshape Ch 6's methodology section. Ch 6 is where the framework's structural identity gets articulated as **commons-governance extended to extraction-contexts**, with CIT as the operational methodology.
+
+### What changes in Ch 6
+
+**1. AIT → CIT (Commons Inversion Test) throughout.**
+
+The Four Gates subsection (currently item 8 in chapter structure) renames the first gate from "AIT (Abundance Inversion Test)" to "CIT (Commons Inversion Test)." Spell-out at first use; acronym after. CIT operates on commons categories; tests whether candidate cost depends on the commons. Two sub-forms (introduced below) replace the abstract "invert the abundance state" instruction.
+
+**2. Two CIT sub-forms formalized in methodology section.**
+
+When introducing CIT, name BOTH sub-forms with paradigm cases:
+- **Commons-Absence Inversion** — imagine the commons not existing. Paradigm: McDowell's habitability commons. Question: *what would it take to replace what was lost?*
+- **Commons-Consumption Inversion** — imagine the commons not being consumed. Paradigm: Chris's commute-trade (5 hours/day returned) OR the 120-hour-week passage from Ch 1 (knowledge-worker autonomy commons). Question: *what could the commons do if not drawn down?*
+
+Two sub-forms make CIT's flexibility visible. Most extraction cases = Absence; personal-scale cases = Consumption; some (mining destroys land AND consumes lifetime labor) exercise both.
+
+**3. The 10 commons categories presented as EXAMPLES, not canonical scaffolding.**
+
+Per Option C' ratification: the 10 (Habitability, Spatial, Temporal, Institutional, Kindred, Ecosystem, Political, Cohesion, Epistemic, Autonomy) are what CIT has surfaced across the 18 cases of the book's research. Ch 6 introduces the methodology + walks 2-3 worked examples (one Absence-Inversion + one Consumption-Inversion) + REFERENCES the 10 as the framework's reproducibility-record across cases. Ch 6 does NOT walk through all 10 at depth — that work lives in Tech Appendix + methodology doc (per Open Insight #13 scope-creep monitoring).
+
+**4. Explicit political-philosophical acknowledgment.**
+
+Per Option C' ratification: what counts as a commons is politically-traditionally contested. Ch 6 includes the canonical authorial-voice positioning (Register 2; Tech Appendix carries deeper citation depth):
+
+> *"This framework doesn't argue that autonomy is universally a commons, or that habitability is, or that time is. It argues that when any of these operate AS commons in a given society — shared, depended-on, collectively enabling — extraction can sever cost from that commons, and this methodology measures the severance. Different political traditions have different commitments about what is shared and what is individual. The framework works within any of those commitments. What it doesn't accept is extraction without accountability, regardless of which commons is being extracted from."*
+
+**5. Autonomy-as-commons treatment specifically (per Open Insight #18).**
+
+When introducing the 10 examples, Autonomy gets explicit acknowledgment as politically-contested. Recommended Register-2 prose:
+
+> *"Autonomy is the most contested of these examples. Classical liberals will recognize autonomy as individual natural-right; the supporting infrastructure (rule of law; contract enforceability; labor protections; severance norms) is enabling but not itself commons. Civic republicans (Anderson, Pettit, Skinner) will recognize autonomy as non-domination, requiring shared institutions to remain sustainable — institutions that function as commons. The framework doesn't settle this. It accommodates both readings — and the lived-oppression reading, where autonomy is something extracted not shared. What the framework asks: when extraction operates on whatever-autonomy-supporting-infrastructure your case treats as load-bearing, the cost-severance methodology applies. That's the through-line."*
+
+This passage names the contestation directly (no papering-over); cites Anderson (already in bibliography §13); Pettit + Skinner are optional Tech Appendix depth. Frames the framework's accommodation rather than commitment. Connects to Ch 1's 120-hour-week passage (where autonomy-as-commons was demonstrated through lived experience without political-philosophical commitment).
+
+### What does NOT change in Ch 6
+
+- Four Gates subsection structure (4 gates: CIT renamed from AIT + Dimensional/Units Consistency + Boundedness + Independence).
+- The Contribution section (Pigouvian-distinction argument unchanged; commons-governance lineage ADDED to position alongside Pigouvian extension).
+- McDowell + Deepwater + Libby worked examples — preserved.
+- Convergence-table presentation (4 approaches → IPG ≫ 1) — unchanged.
+- Norway backtest — unchanged (now framed as canonical existing example of B approaching RCV; cross-reference Open Insight #14 epistemic-humility discipline).
+
+### Commons-governance lineage ADD to The Contribution section
+
+Currently The Contribution section names three Pigouvian distinctions (substitutability-weighting + integrated architecture + AIT-method). Update:
+- Rename "AIT-method" to "CIT-method."
+- Add fourth distinction: **commons-governance-lineage extension.** Framework extends Ostrom-tradition commons governance from perpetually-managed commons to extraction-drawdown commons via Cost Severance mechanism + Accountability Bond pricing instrument + CIT methodology with two sub-forms.
+- Or weave commons-lineage into contribution-claim opener: *"This framework extends two intellectual traditions — Pigouvian externality theory + Ostrom-lineage commons governance — into a setting neither addressed: extraction contexts where commons are drawn down rather than managed-in-place."*
+
+### Cross-references (added 2026-04-24)
+
+- Three commons-transition rigor passes (commits `c4b09dc` + `b294c79` + `e30087e`).
+- Open Insight #16 (two CIT sub-forms book-content placement).
+- Open Insight #17 (Option C' political-philosophical positioning — closed-ratified).
+- Open Insight #18 (autonomy-as-commons placement — this guidance section is the Ch 6 implementation).
+- Open Insight #14 (Norway-as-canonical-mitigation-exemplar + epistemic-humility for B).
+- Open Insight #13 (book-scope creep monitoring — per-commons depth → Tech Appendix not chapters).
+- Ch 1 guidance § Autonomy-as-commons treatment in Ch 1.
+- Tech Appendix v0.0.5 commons-governance lineage section (deeper Anderson + Pettit + Skinner + full Ostrom-tradition citation depth).
+- Bibliography §1 (Ostrom + Hess & Ostrom + Coase) + §13 (Anderson + Klinenberg + Murthy).
