@@ -305,7 +305,14 @@ Commons Bonds name rigor pass completes Open Insight #4. Update the Open Insight
 - (B) Revise specific terms before locking.
 - (C) Reject integration; require further individual passes.
 
-**Ratified decision:** *(pending)*
+**Ratified decision (2026-04-24, Chris Winn):** **Option A — integrated Ring-1 verdict ratified. All 7 terms locked as the framework's Ring-1 vocabulary architecture.**
+
+### §9.2 Downstream unblocks (now active)
+
+- Berggruen essay-write vocabulary-unblocked.
+- Non-Ring-1 rigor queue can proceed (CSG, Asymmetric Regret, Universality Test, Spatial CS re-examination, Temporal CS reconsider).
+- Phase A3 audit sweep can execute with stable Ring-1 reference.
+- Open Insight #4 (Commons Bonds name rigor) closed-ratified.
 
 ---
 

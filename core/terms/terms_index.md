@@ -128,37 +128,82 @@ Each term carries its own `term-spec version` independent of document versions. 
 - Knowledge and Culture Cost
 - Political Capture Cost
 
-**Records populated in §4 (2026-04-24):**
+**Records populated in §4 (2026-04-24) — all 12 entries:**
 
 *Retirement / demotion records (4):*
-- Spatial Cost Severance — `RETIRED` (misnamed; abundance-cost not severance).
+- Spatial Cost Severance — `RETIRED` (misnamed; abundance-cost not severance). **Note: re-examination rigor pass 2026-04-24 flipped recommendation to "spatial cost severance" lowercase prose phrase; pending author ratification of reversal.**
 - Temporal Cost Severance — `RETIRED` (replaced by lowercase prose phrase).
 - Cost Bearing — `SUPERSEDED` (demoted from glossary to prose-only).
 - Value Capture — `RETIRED` (duplicative with Value Extraction).
 
-*CURRENT records — active Ring-1 terms (6):*
-- Cost Severance — `CURRENT` Ring 1 (mechanism; 227 uses).
-- Severed Cost — `CURRENT` Ring 1 (result + flagship adoption phrase; 37 uses; success-criterion target).
-- Value Extraction — `CURRENT` Ring 1 (causal event; promoted from Ring 2; 16 proper-noun + 42 concept-level uses; supersedes Value Capture).
-- Abundance Inversion Test (AIT) — `CURRENT` Ring 1 (methodology + Gate L.1; 505 uses).
-- Residual Commons Value (RCV) — `CURRENT` Ring 1 (quantification-anchor + equation component; 729 uses — framework's MOST-used term).
+*CURRENT Ring-1 records (7 — full Ring 1 architecture):*
+- **Commons Bonds** — `CURRENT` Ring 1 (framework name + book title; polysemous; standalone rigor `be6646f` + integrated rigor `d4c4be4`).
+- **Cost Severance** — `CURRENT` Ring 1 (mechanism; 227 uses; standalone rigor `0aafed7` + pair rigor `0021e24` + integrated `d4c4be4`).
+- **Severed Cost** — `CURRENT` Ring 1 (result + flagship adoption phrase; 37 uses; pair rigor `0021e24` + integrated `d4c4be4`).
+- **Value Extraction** — `CURRENT` Ring 1 (causal event; standalone rigor `18f5e82` + triage `daef46a` + integrated `d4c4be4`; supersedes Value Capture).
+- **Abundance Inversion Test (AIT)** — `CURRENT` Ring 1 (methodology + Gate L.1; 505 uses; standalone rigor `9abb263` + integrated `d4c4be4`).
+- **Residual Commons Value (RCV)** — `CURRENT` Ring 1 (quantification-anchor + equation component; 729 uses — framework's MOST-used term; standalone rigor `5dea091` + integrated `d4c4be4`).
+- **Cost (Cᵢ)** — `CURRENT` Ring 1 (atomic unit; Variable-vs-Cost rigor `0c7547a` + integrated `d4c4be4`).
+
+*Other CURRENT records:*
 - intergenerational cost severance (lowercase prose phrase) — `CURRENT` (adopted as standard book descriptor for the intergenerational subtype of Cost Severance).
 
-**Ring-1 synthesis batch — FULLY RATIFIED 2026-04-24:**
-- Value Extraction: Option B ratified ✓
-- Cost Severance + Severed Cost: Option A (keep both) ratified ✓
-- AIT: Option A (keep current) ratified ✓
-- RCV: Option A (keep current) ratified ✓
-- Cost (Cᵢ): Option B (from earlier Variable-vs-Cost pass) — still pending individual ratification
-- Commons Bonds: still pending rigor pass (Open Insight #4)
+**Ring-1 architecture FULLY RATIFIED 2026-04-24 (all 7 terms):**
+All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026-04-24. Ring-1 vocabulary architecture locked.
 
-**Ring 1 now has 5 of 7 terms with populated records + 1 ratified-elsewhere + 1 pending rigor pass.**
+**Pending updates (to be applied during Phase A3 sweep):**
+- Spatial Cost Severance retirement reversal (pending author ratification of re-examination pass).
+- Abundance Masking promotion to Ring 2 (pending author ratification of re-examination pass).
+- CSG + Asymmetric Regret rigor passes + Universality Test re-examination (queued for non-Ring-1 queue run).
+- Open Insight #4 → closed-ratified (Commons Bonds name rigor complete).
 
 ---
 
 ## §4. Established records
 
 *(Records below are populated as rigor passes land. Each record's body summarizes the pass's verdict; full pass documents live at `tools/rigor-passes/`.)*
+
+---
+
+### Commons Bonds
+
+**Working definition:** the framework's identifying name and the book's title. Polysemous compound naming three simultaneously-operating meanings: (1) **accountability bonds** — the formal instrument B in CS = RCV − B (reclamation bonds, performance bonds, community-transition reserves); (2) **relational bonds** — intergenerational duty, community-place attachment, labor solidarity, and other human-and-ecological bonds that cost severance breaks; (3) **structural bonds** — ecosystem interdependencies, atmospheric stability, economic interconnections that cost severance frays. All three meanings operate simultaneously in the book; contexts disambiguate.
+
+**Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn, batch ratification with standalone + integrated rigor).
+
+**Term-spec version:** v1.0 (first sanctioned spec after dedicated rigor pass).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Commons Bonds standalone rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_commons_bonds_v1.0.0.md` (2026-04-24) §9 — Option A PASSES extreme rigor unconditionally. Polysemy confirmed as load-bearing (each of 3 meanings does framework work). 7 rename candidates tested; none improves.
+- Full Ring-1 integrated rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_ring1_full_integrated_v1.0.0.md` (2026-04-24) §7 — Commons Bonds pairs coherently with every other Ring-1 term (21 pairings verified).
+- Open Insight #4 (Commons Bonds name rigor) RESOLVED by these two passes.
+
+**Polysemy per meaning, load-bearing verification:**
+- Accountability bonds (Meaning #1): direct link to CS = RCV − B formula where B is the accountability bond.
+- Relational bonds (Meaning #2): Ch 1's 120-hour-week thread, Ch 7's Mars colony bonds, Ch 10's closing reflection.
+- Structural bonds (Meaning #3): ecosystem cases (Chesapeake, McDowell watersheds), atmospheric/climate stability, economic-community interdependencies.
+
+**Role:** framework identifier + book title; umbrella under which all Ring-1 terms live.
+
+**Depends on:** every Ring-1 term (title only name-works if the framework it names is coherent): Cost Severance + Severed Cost + Value Extraction + AIT + RCV + Cost (Cᵢ).
+
+**Staleness triggers:**
+- Framework scope changes materially (e.g., non-commons extraction becomes primary).
+- One of the three meanings becomes obsolete.
+- Adoption evidence after publication shows title failing to travel.
+
+**Commit trail:**
+- Standalone rigor pass: commit `be6646f` (2026-04-24).
+- Full Ring-1 integrated pass: commit `d4c4be4` (2026-04-24).
+- Batch ratification: this commit.
+
+**Supersedes / superseded by:** N/A — retention. First-ever rigor pass on the name.
+
+**Notes:**
+- Subtitle choice is author's call + publisher convention; rigor-neutral. Examples discussed in standalone pass §9.1.
+- Polysemy is asset, not liability. Parallel: "capital" in economics has multiple meanings (financial, human, social, political); context disambiguates; no one calls that imprecision.
 
 ---
 
@@ -298,6 +343,50 @@ Each term carries its own `term-spec version` independent of document versions. 
 - Name-mechanism match (Principle #3) is exact: "Abundance Inversion Test" literally describes what the test does (inverts to abundance counterfactually and tests whether the cost vanishes).
 - Rename candidates (Scarcity-Grounding Test, Scarcity Test, Abundance Test primary, drop acronym) each failed rigor.
 - Academic citation anchor: readers cite the framework's methodology as "AIT (Winn, Commons Bonds)."
+
+---
+
+### Cost (Cᵢ)
+
+**Working definition:** the framework's atomic unit of measurement — an indexed cost term admitted to the RCV integrand under the four gates of Section L. Each Cᵢ has units [$ · resource-unit⁻¹ · time-unit⁻¹], is identified through the Abundance Inversion Test (AIT) applied to a specific extraction Context, and contributes additively to RCV via the sum-of-costs form. The class of all costs is open and extensible — AIT applied to new Contexts may surface new costs the current framework does not enumerate.
+
+**Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn as part of Ring-1 synthesis batch; standalone rigor via Variable-vs-Cost pass).
+
+**Term-spec version:** v1.0 (first ratified spec; supersedes prior informal "variable" / "cost variable" / "cost term" usage).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Variable-vs-Cost rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_variable_vs_cost_v1.0.0.md` (2026-04-24) §15 — Option B (replace "variable" with "cost") recommended. 5 options tested (A: variable / B: cost / C: hybrid / D: drop class term / E: ledger entry). Option B won on 9 of 11 modules; M1 and M7 indifferent.
+- Full Ring-1 integrated rigor pass (2026-04-24) — Cost (Cᵢ) coheres with all other Ring-1 terms.
+
+**Style discipline (inherited from D + E options as addenda):**
+- *From Option D:* prefer specific named costs ("Black Lung Cost," "Community Transition Cost") to the class noun "cost" wherever prose allows. The class noun is fallback; specific names are default.
+- *From Option E:* preserve bookkeeping metaphor at discourse level — framework voice is accountant's voice. "Cost" as atomic-unit name reinforces without needing more formal "ledger entry" / "accounting item" language.
+
+**Notation:** Cᵢ (indexed by i) in formal/mathematical contexts; "cost" as class noun + specific-name (e.g., "black-lung cost") in prose contexts. "Cost term" remains admissible where math-as-term-of-sum is being explicitly invoked ("each cost term Cᵢ enters the integrand").
+
+**Role:** atomic-unit-of-measurement across the framework's formula, gates, and accounting. Every named specific cost (Community Transition Cost, Dynastic Labor Cost, Political Capture Cost, etc.) is a Cᵢ.
+
+**Depends on:**
+- Four gates (L.1–L.4 admit Cᵢ to RCV)
+- RCV formula (integrand is Σᵢ Cᵢ · D)
+- AIT (identifies which Cᵢ admit — Gate L.1)
+- Cost Severance (Cᵢ are what get severed)
+
+**Staleness triggers:**
+- Framework's atomic unit changes structurally (e.g., introduction of a higher-abstraction class above Cᵢ).
+- Four-gate discipline materially revised.
+
+**Commit trail:**
+- Variable-vs-Cost rigor pass: commit `0c7547a` (2026-04-24).
+- Ring-1 synthesis batch ratification: commit `af4b6d6` (2026-04-24).
+- Integrated Ring-1 pass: commit `d4c4be4` (2026-04-24).
+
+**Supersedes:** prior informal "variable" / "cost variable" / "cost term" usage in Path F rigor pass + Technical Appendix Sections L + M (usage continues as historical record in those docs per live-vs-archive policy).
+
+**Notes:**
+- Ambiguity with everyday "cost" in prose is managed by context-disambiguation — the same discipline economists apply to "utility" and "welfare."
 
 ---
 

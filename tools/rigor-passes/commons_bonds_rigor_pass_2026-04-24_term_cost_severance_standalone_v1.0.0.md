@@ -245,7 +245,7 @@ Per author direction: Ring-1 (all 7 terms) integrated pass after all three stand
 
 ## §11. Author-ratified resolutions
 
-*Pending. Standalone verdict: Option A.*
+**Ratified 2026-04-24 by Chris Winn (batch ratification):** Option A (keep Cost Severance as Ring-1 mechanism-name) confirmed at standalone rigor. Reinforces earlier pair-triage ratification (commit `af4b6d6`).
 
 ---
 

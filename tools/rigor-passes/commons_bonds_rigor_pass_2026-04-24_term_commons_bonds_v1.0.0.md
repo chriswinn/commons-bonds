@@ -334,7 +334,7 @@ Author's call; not a rigor issue.
 
 ## §12. Author-ratified resolutions
 
-*Pending author ratification. Recommended Option A.*
+**Ratified 2026-04-24 by Chris Winn (batch ratification with Value Extraction standalone + Cost Severance standalone + full Ring-1 integrated pass):** Option A — Keep "Commons Bonds" as framework name + book title. Open Insight #4 resolved.
 
 ---
 

@@ -85,13 +85,13 @@ New insights automatically get added to the todo list in both states: one entry 
 ### Insight #4 — "Commons Bonds" (book title + framework name) has not been through the current rigor suite
 
 - **Raised:** 2026-04-24 by me
-- **Status:** raised
+- **Status:** closed-ratified 2026-04-24 — Commons Bonds name rigor-tested + ratified
 - **Category:** vocabulary · framework-structure
 - **Content:** "Commons Bonds" is the book title and the framework's identifying name. It has been in use throughout the project but has not been run through the rigor protocol v2.2.0 suite. Given that (a) the framework's structure has materially resettled this session (Path F + tier dissolution + macro-grouping Option A), and (b) "Commons Bonds" is arguably the most load-bearing single vocabulary item (readers encounter it first; editors and librarians index against it), running rigor on the name itself is overdue.
 - **Why it matters:** If the name doesn't survive current-state rigor, changing it is cheaper now than after publication. If it survives cleanly, the rigor pass itself becomes publication-defense material.
-- **Proposed resolution:** Full extreme-rigor pass on "Commons Bonds" as name (M1-M11 at depth; path-comparison with alternatives if any surface during the pass). Output: either a ratified-continuation provenance record or a name-change recommendation with candidates.
-- **Dependencies / Links:** Relates to Insight #1 (vocabulary footprint) — the name is the most-exposed term. Should probably run AFTER vocabulary-footprint meta-pass (which may surface alternatives worth testing).
-- **Todo link:** "Review Open Insight #4: Commons Bonds name rigor."
+- **Resolution (2026-04-24):** Full extreme-rigor pass executed (`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_commons_bonds_v1.0.0.md`, commit `be6646f`). Verdict: Option A PASSES UNCONDITIONALLY. Polysemy confirmed as load-bearing (three meanings: accountability bonds / relational bonds / structural bonds — each does framework-serving work). 7 rename candidates tested; none improves on decisive axes. Reinforced by full Ring-1 integrated rigor pass (commit `d4c4be4`) showing Commons Bonds pairs coherently with every other Ring-1 term. Batch-ratified 2026-04-24 by Chris Winn.
+- **Dependencies / Links:** Commons Bonds CURRENT Ring-1 record in `core/terms/terms_index.md` §4. Rigor passes at `tools/rigor-passes/`.
+- **Todo link:** N/A (closed).
 
 ### Insight #5 — Glossary v2 has a Foreclosure Cost duplicate (pre-existing hygiene issue)
 

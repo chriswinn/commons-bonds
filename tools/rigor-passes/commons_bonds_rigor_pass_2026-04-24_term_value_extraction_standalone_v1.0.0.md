@@ -254,7 +254,7 @@ Per author direction: Commons Bonds + Value Extraction + Cost Severance integrat
 
 ## §14. Author-ratified resolutions
 
-*Pending. Standalone verdict: Option A. v2-distinction question resolved as rejection of Option E.*
+**Ratified 2026-04-24 by Chris Winn (batch ratification):** Option A (keep Value Extraction as sole causal-event term) confirmed at standalone rigor. Option E (v2-distinction between Value Capture economic / Value Extraction physical) REJECTED. Reinforces earlier pair-triage ratification (commit `06370dc`).
 
 ---
 
