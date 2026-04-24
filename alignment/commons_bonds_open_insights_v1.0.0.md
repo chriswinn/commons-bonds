@@ -179,45 +179,65 @@ New insights automatically get added to the todo list in both states: one entry 
 - **Dependencies / Links:** Web literature search results 2026-04-24. Terms Index update v1.1 (this commit). Phase A3 citation sweep pending.
 - **Todo link:** "Review Open Insight #10 remainders: (i) Cost Severance naming collision rigor pass; (ii) Phase A3 citation sweep plan."
 
-### Insight #13 — Book-scope creep monitoring (Book 1 vs Book 2/3 boundary)
+### Insight #13 — Book-scope creep monitoring (Book 1 vs Book 2 vs Book 3 boundary per `tools/commons_bonds_book_scope_v1_0_3.md`)
 
-- **Raised:** 2026-04-24 by Chris Winn (during Accountability Bond ratification: *"flag to see if it starts to cause book scope creep, creep towards things that are perhaps best left for book 2, book 3, etc. for scope of book and reasons for separating books"*).
+- **Raised:** 2026-04-24 by Chris Winn (during Accountability Bond ratification: *"flag to see if it starts to cause book scope creep, creep towards things that are perhaps best left for book 2, book 3, etc. for scope of book and reasons for separating books"*). Refined 2026-04-24 after Chris corrected an initial oversimplified "Book 1 = diagnosis; Book 2/3 = fix" framing — *"The above said, I can accept the... Review the book 1 vs. book 2 vs. book 3 publication strategy documents and reasons. That is the guiding book scope, not my earlier over simplified sentence."* Governing document: `tools/commons_bonds_book_scope_v1_0_3.md` (2026-04-21 proposed canonical).
 - **Status:** raised · ongoing monitoring discipline (cross-cutting across framework; not a per-term decision)
 - **Category:** craft · publishing · meta (framework-scope discipline)
-- **Content:** Several Ring-2 framework elements — Accountability Bond especially, but also aspects of Cᵢ cost-category design, Abundances scaffolding, and Four Gates implementation — invite detailed prescriptive / instrument-design / implementation-specific treatment that would push Book 1 past its intended scope. Book 1 is the framework book (diagnosis + framework + case demonstrations). Books 2/3 are where detailed instrument-design, cross-jurisdictional policy coordination, and category-specific pricing methodologies belong.
-- **Why it matters:** Scope creep has two failure modes: (a) Book 1 bloats toward a comprehensive-manual size that loses its framework-introduction role; (b) Book 2/3 lose their clearest subject matter if Book 1 absorbs it. Both failure modes damage the three-book ladder's cumulative value.
-- **In-scope for Book 1 (framework book):**
-  - Naming framework concepts + defining them rigorously
-  - Articulating the equational structure (CS = RCV − B)
-  - Explaining mechanisms (Value Extraction → Cost Severance → Severed Cost; AIT → Abundance Masking)
-  - Citing lineage + positioning against established literature (M12 compliance)
-  - Illustrating via flagship case studies (McDowell, Deepwater, Libby, Social Security, 2008, healthcare, Chesapeake, Norway, opioid, tax-tradeoff, housing, ecc.)
-  - Naming the accountability-gap problem structure
-  - Framework-level prescription (B should equal RCV; current regimes B < RCV)
-- **Out-of-scope for Book 1 (Book 2/3 territory):**
-  - Detailed instrument-design specifics (carbon-tax architecture, insurance-mechanism design, sovereign-wealth-fund governance specifics, severance-agreement legal drafting)
-  - Cross-jurisdictional policy-instrument coordination
-  - Specific Severed Cost category pricing methodologies
-  - Implementation manuals for specific actors (regulators, policymakers, corporate counsel)
-  - Deep dives on specific Cᵢ decomposition in specific industries
-  - Deep dives on specific Abundance definition refinement
-- **Trigger indicators (watch during chapter drafting):**
-  - A passage begins prescribing specific instrument mechanics rather than naming the framework-level requirement.
-  - A passage tries to cover all known variants of an instrument type.
-  - A passage engages with implementation-specific literature at textbook-depth.
-  - A chapter's word count climbs past its target because of implementation details rather than framework clarity.
-- **Mitigation:**
-  - Book 1 can POINT TO future books ("a future treatment will work through specific instrument-design questions for each Severed Cost category") rather than absorbing the depth.
-  - Preserve detailed notes in `.claude/` or research notes for future Books 2/3.
-  - Use footnotes sparingly — footnotes that become mini-essays are scope-creep signal.
-- **Trigger-heavy terms flagged (watch these in chapter drafting):**
-  - **Accountability Bond (B)** — Ring-2, ratified 2026-04-24 with explicit scope-creep flag in Terms Index record. Likely-heaviest source of pressure because B is the policy-instrument-most-directly-implied term.
-  - **Abundances (10-element scaffolding)** — Ring-2, pending rigor pass. Each abundance has implementation-refinement depth that could pull Book 1 toward textbook-mode.
-  - **Four Gates** — Ring-2 cluster, pending rigor pass. Gate-implementation specifics could bloat.
-  - **Cᵢ cost categories** — ratified Ring-1; each category (health, community, intergenerational, ecological, epistemic, etc.) could invite deep methodology.
-- **Proposed resolution (operational monitoring, not decision):** during Phase A3 chapter drafting + future sessions, when a rigor pass or chapter-drafting session encounters scope pressure, explicitly apply the Book-1-vs-Book-2/3 test. Annotate scope-creep decisions in chapter drafts / rigor passes / guidance docs. If pattern persists across multiple terms, consider promoting to a Working Principle (Principle #7: Book-scope discipline).
-- **Dependencies / Links:** Accountability Bond rigor pass (this commit); Terms Index Accountability Bond record (scope-creep flag); cross-references to upcoming Abundances + Four Gates rigor passes.
-- **Todo link:** "Review Open Insight #13: book-scope-creep monitoring — watch during chapter drafting + future rigor passes; consider Principle #7 promotion if pattern persists."
+- **Content:** Several Ring-2 framework elements — Accountability Bond especially, but also Abundances scaffolding, Four Gates, and Cᵢ cost categories — invite treatment that would push Book 1 past the scope articulated in v1.0.3. The earlier oversimplified framing ("Book 1 = tool, Book 2/3 = fix") is REJECTED; the correct scope boundary is the **framework-naming vs. applied-advocacy distinction** grounded in the rigor-test reasoning of v1.0.3 §6.1.
+- **Why it matters:** Scope creep has two failure modes: (a) Book 1 bloats toward a comprehensive-manual size that loses its framework-introduction role AND exposes the lone author to applied-advocacy risk the v1.0.3 rigor test identifies as structurally asymmetric; (b) Book 2/3 lose their clearest subject matter if Book 1 absorbs it. Both failure modes damage the three-book ladder's cumulative value.
+
+**Actual scope boundary (per v1.0.3):**
+
+**Book 1 (*Commons Bonds* — framework-naming book, 2026–2027 target, ACTIVE):**
+- Names the mechanism (Cost Severance), prices the unpriceable residual (RCV), demonstrates universality via Abundance Inversion Test.
+- 10 chapters + Technical Appendix + Glossary.
+- Worked applications at **4 scales:** (1) individual narrative — the Miner; (2) individual analytical — worker/CEO dual-position cases (Ch 6); (3) hypothetical maximum-stripped — asteroid miner (Ch 7); (4) civilizational — coal at full tier depth (Ch 8).
+- **Includes framework-level policy recommendations** — e.g., Community Transition Reserve named in Ch 9.
+- **Includes the Accountability Bond concept** as framework element — states CS = RCV − B; articulates that B should equal RCV; describes the accountability-gap problem structurally; illustrates via flagship cases (McDowell, Deepwater, Libby, Social Security, 2008, healthcare, Chesapeake, Norway, opioid, tax-tradeoff, housing).
+- **Includes Political Capture Cost as structural mechanism** (shielding condition in AIT; political-abundance dimension); NOT as applied critique of named industries.
+- One-paragraph signposts acceptable (e.g., $10–15T aggregate subsidy in Ch 8 is signpost, not full simulation).
+
+**Book 2 (*The Subsidy Economy* — applied-advocacy book, 2029+ target, NOTES-ONLY):**
+- Applied, politically charged. Presupposes Book 1 framework + applies it to named beneficiaries.
+- Full-economy simulations; resource-by-resource transition mechanics; named industries with documented lobbying histories; regulatory capture events; policy architecture for extraction-honest economy.
+- **Activation gates (both required):** coauthor relationship OR institutional affiliation (economist, journalist, policy researcher); publisher with strong legal infrastructure.
+- Reason Book 2 is a SEPARATE BOOK not a later Book 1 chapter: per v1.0.3 §6.1 rigor test — lone-author advocacy work on named beneficiaries is asymmetric (bears political cost while benefits distribute to others) + shield-absent (no institutional distance from named beneficiaries). Coauthor/institution restores balance. Nursing career + Berggruen + being-the-framework-source are safer than also authoring the applied-advocacy.
+
+**Book 3 (*Pricing the Final Frontier* — horizon, NOTES-ONLY):**
+- Off-Earth extraction, space law, cross-planetary institutional architecture.
+- Expands Book 1 Ch 7's asteroid-miner seed into full institutional treatment.
+
+**The load-bearing reason for the split (per v1.0.3 §6.1):**
+- Book 1 (naming mechanisms) passes rigor test: **symmetric + shielded** (author bears intellectual cost + authorship burden; distance from named beneficiaries preserves shield).
+- Book 2 as lone-author work FAILS rigor test: **asymmetric + unshielded** (author bears political cost while benefits distribute; no institutional shield from named beneficiaries).
+- Book 3 as horizon work is future-safe: off-Earth extraction is post-adoption territory where framework vocabulary has had time to circulate.
+- **NOT diagnosis-vs-fix** — Book 1 includes framework-level prescription (Community Transition Reserve; B = RCV as ideal; Accountability Bond as central instrument concept). What Book 1 EXCLUDES is applied-advocacy-on-named-beneficiaries.
+
+**Trigger indicators (watch during chapter drafting + rigor passes):**
+- A passage names specific industries with documented lobbying histories (→ Book 2).
+- A passage attempts full-economy simulation rather than signpost (→ Book 2).
+- A passage does resource-by-resource transition mechanics depth (→ Book 2).
+- A passage names specific beneficiaries of extraction systematically (→ Book 2).
+- A passage does exhaustive space-law / cross-planetary institutional design (→ Book 3).
+- A passage goes textbook-depth on any single Abundance, Cᵢ, or instrument-type implementation (→ may be Book 2 or future specialist work).
+
+**Mitigation:**
+- Book 1 can POINT TO future books ("a fuller treatment of named industries' lobbying histories is beyond this book's framework scope and is the subject of future applied work") rather than absorbing the depth.
+- Preserve detailed notes in `.claude/` or `archive/_OneDayMaybe/book-two/` or `archive/_OneDayMaybe/book-three/` directories.
+- Use footnotes sparingly — footnotes that become mini-essays are scope-creep signal.
+- The v1.0.3 scope-boundary table (in that doc, §2) is the authoritative reference for specific material allocation decisions.
+
+**Trigger-heavy terms flagged (watch during chapter drafting):**
+- **Accountability Bond (B)** — Ring-2, ratified 2026-04-24. Likely-heaviest source of pressure **not because remediation is out-of-scope** (framework-level prescription IS in scope) **but because applied instrument-design on specific named industries + resource-by-resource B calibration is Book 2 territory**. Book 1 names B + states B = RCV as ideal + describes the gap empirically via cases; Book 2 would do the applied work of raising specific industries' B via specific instruments.
+- **Abundances (10-element scaffolding)** — Ring-2, pending rigor pass. Textbook-depth elaboration on each abundance could pull Book 1 toward comprehensive-manual mode.
+- **Four Gates** — Ring-2 cluster, pending rigor pass. Gate-implementation specifics for named regulatory contexts would cross into applied territory.
+- **Cᵢ cost categories** — ratified Ring-1; each category (health, community, intergenerational, etc.) has Book-2 applied depth (industry-specific pricing methodologies) that belongs to advocacy work.
+
+- **Proposed resolution (operational monitoring, not decision):** during Phase A3 chapter drafting + future sessions, when a rigor pass or chapter-drafting session encounters scope pressure, explicitly apply the v1.0.3 boundary test (framework-naming vs applied-advocacy-on-named-beneficiaries). Annotate scope-creep decisions in chapter drafts / rigor passes / guidance docs. If pattern persists across multiple terms, consider promoting to a Working Principle (Principle #7: Book-scope discipline grounded in v1.0.3).
+- **Governing document:** `tools/commons_bonds_book_scope_v1_0_3.md` (2026-04-21 proposed canonical).
+- **Dependencies / Links:** Accountability Bond rigor pass; Terms Index Accountability Bond record (scope-creep flag); cross-references to upcoming Abundances + Four Gates rigor passes; `archive/_OneDayMaybe/book-two/` and `book-three/` repositories for future-book notes.
+- **Todo link:** "Review Open Insight #13: book-scope-creep monitoring grounded in v1.0.3 — watch during chapter drafting + future rigor passes; consider Principle #7 promotion if pattern persists."
 
 ---
 

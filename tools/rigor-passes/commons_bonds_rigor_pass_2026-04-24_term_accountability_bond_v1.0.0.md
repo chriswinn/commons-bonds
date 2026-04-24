@@ -21,6 +21,16 @@
 
 **RECOMMENDED: Option A — CONFIRM Ring 2 (internal load-bearing) + flag phrase-travel potential for Ring-1 monitoring.** Accountability Bond (B) operates as the right-hand quantity in the framework's flagship equation CS = RCV − B; 48 active refs across chapters and framework docs; structurally load-bearing. Ring 2 correctly reflects framework-internal function-use. However, the PHRASE "accountability bond" (like "externality tail") has genuine policy/legal adoption potential that Ring-1-monitoring flag captures.
 
+**B is the framework's REMEDIATION-side variable, not a diagnostic term** *(author-added framing 2026-04-24, preserved here as decisive identity):*
+
+Where RCV / AIT / Cost Severance / Severed Cost are **diagnostic** elements — they REVEAL the problem, IDENTIFY admissible costs, NAME the mechanism, QUANTIFY the result — Accountability Bond is the **action-side** element. B is the dollars that actually flow onto the extractor's ledger to close (or attempt to close) the cost-severance gap. B doesn't measure severance; it REMEDIATES it. This is the distinguishing identity of the term. Every other Ring-1/Ring-2 element of the framework works to make the gap visible; B is the element that does something about it.
+
+The distinction matters for:
+- **Framework architecture:** B is structurally the only remediation-side variable. Everything else is measurement or mechanism-naming. This makes B the pivot between diagnosis (the framework's first half) and response (the framework's implications for action).
+- **Adoption / policy work:** policymakers reading the framework want to know "what do we DO?" — the answer is "raise B until it equals RCV." B is the actionable output.
+- **Scope-creep discipline (Open Insight #13):** B's action-side identity is exactly why it's the heaviest scope-creep trigger — action-side questions invite instrument-design depth (how specifically to raise B in case X for category Y?). The scope-creep flag ratified 2026-04-24 exists precisely because B's remediation role draws Book-2/3-level prescriptive content into Book 1's orbit unless managed.
+- **Naming:** "Bond" metaphor reinforces remediation-side identity — a bond is something POSTED (action), not something MEASURED. The term carries its remediation function in the word itself.
+
 **M12 classification (completed during prior literature audit commits `56a226f` + `f643e59`):** **Independent specialization / extension of established environmental-bonding instruments.**
 
 - **Reclamation Bond / Financial Assurance lineage** (U.S. Office of Surface Mining Reclamation & Enforcement; GAO-17-207R 2017; Yang & Davis 2021 Energy Policy). Established in mining / oil-gas regulation; empirically under-covers reclamation costs per Yang & Davis.
@@ -291,13 +301,34 @@ Any of the above would trigger reconsideration of Ring-1 promotion.
 
 **(i) Phrase-travel monitoring flag** — watch for post-publication adoption evidence that "accountability bond" travels independently of framework uptake (legal briefs, policy papers, academic citation). Trigger action: rerun this pass and reconsider Ring-1 promotion.
 
-**(ii) Scope-creep monitoring flag (NEW — ratified 2026-04-24 by Chris Winn).** Watch for B's instrument-design space inviting detailed treatment that would push Book 1 into territory better left for Book 2 / Book 3. Specifically:
-- **In-scope for Book 1 (framework book):** naming Accountability Bond · explaining equational-closure role in CS = RCV − B · citing lineage (reclamation bonds, EIBs, Pigouvian taxes, sovereign wealth funds) · illustrating via case studies where B < RCV (McDowell, Deepwater, Libby, Social Security, etc.) · articulating the accountability-gap problem structure.
-- **Scope-creep warning (Book 2/3 territory):** detailed instrument-DESIGN treatments — carbon-tax architecture specifics, insurance-mechanism design, sovereign-wealth-fund governance specifics, severance-agreement legal drafting, policy-instrument coordination across jurisdictions, how to price specific Severed Cost categories in specific cases. These go deep into prescription; Book 1 stays at diagnosis + framework + flagship case demonstrations.
-- **Trigger indicator:** when chapter drafting finds itself stretching to include instrument-design specifics beyond the "accountability gap exists, here's the framework for seeing it, here's what closing it would require in framework terms" scope, pause and ask: *is this Book 1 work, or Book 2/3 work?*
-- **Mitigation:** Book 1 can POINT TO future books ("a future treatment will work through specific instrument-design questions for each Severed Cost category") rather than absorbing the depth.
+**(ii) Scope-creep monitoring flag (NEW — ratified 2026-04-24 by Chris Winn; boundary corrected per `tools/commons_bonds_book_scope_v1_0_3.md`).** Watch for Accountability Bond's discussion crossing from Book 1's framework scope into Book 2's applied-advocacy-on-named-beneficiaries territory. The boundary is **framework-naming vs. applied advocacy**, NOT diagnosis-vs-fix — Book 1 DOES include framework-level prescription (Community Transition Reserve in Ch 9; B = RCV as stated ideal; Accountability Bond as named framework element). What Book 1 EXCLUDES is applied-advocacy-on-specific-named-industries.
 
-This flag applies across the framework (not just Accountability Bond), but Accountability Bond is the likely-heaviest source of scope-creep pressure because B is the policy-instrument-most-directly-implied term.
+- **In-scope for Book 1 (framework-naming work — passes v1.0.3 §6.1 rigor test as symmetric + shielded):**
+  - Naming Accountability Bond as framework element.
+  - Explaining equational-closure role in CS = RCV − B.
+  - Citing lineage (reclamation bonds, EIBs, Pigouvian taxes, sovereign wealth funds).
+  - Illustrating via flagship case studies where B < RCV (McDowell, Deepwater, Libby, Social Security, 2008, healthcare, Chesapeake, Norway, opioid, tax-tradeoff, housing).
+  - Articulating the accountability-gap problem structurally.
+  - Framework-level prescription — "B should equal RCV" as ideal-state claim.
+  - One-paragraph signposts (e.g., $10–15T aggregate subsidy Ch 8 signpost).
+- **Scope-creep warning — Book 2 territory (applied-advocacy — FAILS v1.0.3 §6.1 rigor test as asymmetric + unshielded for lone author):**
+  - Full-economy simulation of B across resource categories.
+  - Resource-by-resource transition mechanics.
+  - Named industries with documented lobbying histories that have kept their specific B below their specific RCV.
+  - Named beneficiaries of the B < RCV gap.
+  - Specific regulatory-capture events as case-study material.
+  - Policy architecture for extraction-honest economy at implementation level.
+- **Trigger indicators when chapter drafting:**
+  - A passage names specific industries with lobbying histories (→ Book 2 territory).
+  - A passage attempts full-economy B-vs-RCV simulation rather than signpost (→ Book 2 territory).
+  - A passage does resource-by-resource transition mechanics (→ Book 2 territory).
+  - A passage prescribes implementation depth for specific instruments in specific jurisdictions (→ Book 2 territory).
+  - A footnote becomes a mini-essay on named industry's lobbying (→ Book 2 territory).
+- **Mitigation:** Book 1 can POINT TO future books ("a fuller treatment of named industries' lobbying histories is beyond this book's framework scope and is the subject of future applied work") rather than absorbing the depth. Preserve detailed notes in `.claude/` or `archive/_OneDayMaybe/book-two/` for future Book 2.
+
+**Why Accountability Bond is the heaviest scope-creep source:** B is the framework's **remediation-side variable** (vs. diagnostic elements like RCV, AIT, Cost Severance, Severed Cost which REVEAL the problem) — the only framework element that does something about the gap rather than measure it. This remediation role makes B the natural pivot point toward applied work on named beneficiaries / lobbying / industry-specific reform. The scope-creep flag exists precisely because B's remediation function structurally pulls toward Book 2's applied-advocacy territory. Book 1 names B and states the framework-level claim (B = RCV is the ideal; current regimes produce B < RCV); Book 2 would do the applied work of naming specific industries' under-bonding + the lobbying histories that sustain it + the coauthor/institutional-cover-protected advocacy.
+
+This flag applies across the framework (not just Accountability Bond), but B is the likely-heaviest source of scope-creep pressure. Other watched terms: Abundances (pending rigor pass), Four Gates (pending cluster pass), Cᵢ categories (ratified Ring 1).
 
 ---
 
