@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-24 · v1.37.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .decision     { background: #f3e8ff; border-left: 4px solid #7a3ea1; padding: 1em 1.2em; margin: 1em 0; }
+  .operating    { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .milestone    { background: #e8f2fa; border-left: 4px solid #2a5a8c; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .snippet      { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .version  { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff</h1>
+<p class="meta">Date: 2026-04-24 · Version <span class="version">1.37.0</span> · Supersedes v1.36.0. Session theme: <strong>framework-scope decision landed — Path F (variables-not-dimensions reframing) confirmed via suite-grounded Path Comparison Report; protocol extended with 6 informational goals; personal-stories drafting gate + book-architecture revisit queued</strong>. 5 commits since v1.36.0. The framework-scope decision that has been deferred since v1.33.0 is now resolved; Phase A + Phase B implementation work becomes headline priority for next session.</p>
+
+<div class="status">
+<strong>STATUS:</strong> <strong>PATH F SELECTED.</strong> PCR v1.1.0 documents the decision: variables-not-dimensions reframing — CORE same as Path B (AIT + RCV + CS + formal vocabulary); the 10 abundances + 8 tiers reframed as examples of variables AIT discovered in our cases (illustrative, not ontological); framework becomes generative. Protocol now at v2.2.0 (6 informational goals added); asteroid-miner multi-perspective example specified in Ch 7 guidance; personal-stories drafting gate captured with book-architecture revisit task. Implementation plan at PCR §10 Phase A (1-2 weeks framework-level reframing) + Phase B (3-4 weeks chapter draft reframing) + Phase C (parallel independent work) + Phase D (submission readiness).
+</div>
+
+<div class="snippet">
+<h2>Copy-paste snippet for next session start</h2>
+<pre>Starting Commons Bonds session — picking up from handoff v1.37.0 (2026-04-24).
+
+Please read these files before responding:
+- commons-bonds-session-handoff-2026-04-24_v1.37.0.html  (this handoff — read first)
+- tools/pre-submission-reviews/commons_bonds_pcr_2026-04-23_v1.1.0.md  (PCR with Path F confirmation + informational findings)
+- tools/commons_bonds_rigor_protocol_v2.2.0.md  (rigor protocol + Path Comparison Mode + informational goals)
+- core/chapters/commons_bonds_chapter_audit_v1.0.5.md
+- core/case-studies/commons_bonds_case_study_audit_v1.0.5.md
+- tools/commons_bonds_guiding_constraints_v1_0_0.md
+- core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md
+
+Current canonical state to verify:
+- Rigor protocol: v2.2.0 canonical (Pre-Submission Peer Review Suite
+  + Path Comparison Mode + 6 informational goals).
+- Framework-scope decision: **Path F selected** (variables-not-
+  dimensions reframing). Path F implementation is the scope of the
+  next multi-session work.
+- Chapter audit v1.0.5; case-study audit v1.0.5. Both need bumping
+  to v1.0.6 under Path F reframing per PCR §10 Phase A.
+- 8 chapter drafts at ~42,700 words / ~155 pages; projected full
+  book ~53-55k. Path F preserves book length (reframing not
+  compression).
+- 10 dimensions + 8 tiers status: LOCKED under current canonical
+  state; under Path F they reframe as examples of variables AIT
+  discovered (illustrative not ontological).
+- Operating discipline: smaller focused commits, push each to main.
+- Three unexpectedly-good informational findings to keep in mind:
+  (1) Path F author-satisfaction longevity (10-year horizon strong);
+  (2) Path F movement-utility (may be primary cascade mechanism);
+  (3) Path F financial sustainability (~$25-75K advance range; 2-4
+  years of runway possible if cascade strong).
+
+Top priority this session (in order):
+1. Phase A: chapter audit v1.0.6 reframing (dimensions + tiers as
+   illustrative variables, not ontological taxonomy). Chapter audit
+   §1 cross-chapter table updates + §2 per-chapter updates.
+2. Phase A: case-study audit v1.0.6 reframing (cases-as-worked-
+   examples-of-method, not cases-as-instances-of-taxonomy).
+3. Phase A: dimensions canonical doc v1.3.0 reframing
+   (core/dimensions/commons_bonds_abundance_dimensions).
+4. Phase A: 8-tier decomposition reframing
+   (core/decomposition/eight-tier-v10.html).
+5. Phase A: methodology canonical reframing (Ch 6 + Technical
+   Appendix v0.0.4).
+
+Phase B chapter draft work (Ch 6 methodology rewrite + Ch 8 worked-
+example reframing + Ch 7 multi-perspective asteroid-miner example
++ minor Ch 1 / Ch 10 reframing + throughout-book vocabulary check)
+follows Phase A.
+
+Phase C (parallel, opportunistic): indigenous sensitivity-reader
+engagement + Chesapeake fieldwork + Ch 1 + Ch 3 authorial drafting
++ personal-stories drafting per project memory.
+
+Additional thoughts for this session (Chris, fill in here before sending):
+[                                                                                           ]
+[                                                                                           ]
+</pre>
+</div>
+
+<div class="top-priority">
+<h2>TOP PRIORITY — Phase A implementation (framework-level reframing)</h2>
+
+<p>The framework-scope decision is resolved. Path F selected. Phase A is the first substantive work executing that decision. Per PCR §10, Phase A consists of:</p>
+
+<ol>
+  <li><strong>Chapter audit → v1.0.6.</strong> Reframe §1 cross-chapter table per Path F (each chapter's content function under variable-discovery framing). §§2.6 + 2.8 deepest reframing required (Ch 6 methodology + Ch 8 worked example).</li>
+  <li><strong>Case-study audit → v1.0.6.</strong> Reframe §1 + per-case profiles (cases-as-worked-examples-of-method, not cases-as-instances-of-taxonomy). Dimension activation columns retained but reframed.</li>
+  <li><strong>Dimensions canonical doc → v1.3.0.</strong> <code>core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md</code> bumped. Reframe from "canonical taxonomy" to "variables identified across our cases — illustrative not ontological."</li>
+  <li><strong>8-tier decomposition reframing.</strong> <code>core/decomposition/eight-tier-v10.html</code> reframed. Tier names retained but presented as "one way to organize per-case accounting; other organizations are possible."</li>
+  <li><strong>Methodology canonical reframing.</strong> Ch 6 methodology + Technical Appendix v0.0.4 reframing.</li>
+</ol>
+
+<p><strong>Estimated effort:</strong> 1-2 weeks of focused work. Phase A is front-loaded architectural work; Phase B (chapter draft reframing) depends on Phase A landing so reframed chapter drafts align with reframed audits + canonical docs.</p>
+
+<p><strong>Phase B can partially parallel Phase A</strong> — Ch 6 + Ch 8 reframing (most draft work under Phase B) interacts closely with dimensions + tiers canonical doc revisions (Phase A); running them sequentially is cleaner, but some parallel drafting is feasible. Ch 7 strengthening (add asteroid-miner multi-perspective example per Ch 7 guidance update 2026-04-23) + Ch 1 / Ch 10 minor reframing can run parallel to Phase A.</p>
+
+<p><strong>Watch-this items for Phase A per PCR v1.1.0 §11:</strong></p>
+<ul>
+  <li><strong>Movement-utility unexpectedly-good finding (§11.5)</strong> — Path F's variables-not-dimensions reframing enables movement uptake substantially. Publishing-strategy decisions (venue prioritization, blurb requests, book-launch communities) should weight organizers' networks alongside academic networks. May redirect cascade strategy.</li>
+  <li><strong>Financial-sustainability unexpectedly-strong trajectory (§11.6)</strong> — Path F cascade may produce 2-4 years of non-nursing-income runway. Changes the book's role in Chris's career planning; nursing-shift bridging requirement lightens.</li>
+  <li><strong>Author-satisfaction longevity (§11.1)</strong> — Path F's generative framing anticipates author evolution; tight commitments + revisable illustrations produces strongest 10+-year author-satisfaction.</li>
+</ul>
+</div>
+
+<h2>Session v1.36.0 → v1.37.0: accomplishments</h2>
+
+<p class="meta">5 commits pushed to main. Session theme: framework-scope decision resolution + protocol extension. Smaller-focused-commits discipline maintained.</p>
+
+<div class="milestone">
+<h3>Phase 1 — Full PCR run (1 commit)</h3>
+<p>Commit <code>ddb105b</code>:</p>
+<ul>
+  <li><strong>PCR v1.0.0 produced</strong> — first Path Comparison Report under v2.1.0 protocol. Applied Path Comparison Mode to framework-scope decision: 6 paths compared (A status quo / B compress-to-CORE / C dim-kept-tier-retired / D tier-kept-dim-retired / E aggressive-minimum / F variables-not-dimensions).</li>
+  <li><strong>Verdict: Path F wins on all four primary goals.</strong> Runner-up Path B on three of four. Paths C / D / E dominated. Path A competitive only on academic reception.</li>
+  <li><strong>Why Path F:</strong> single reframing strengthens all four goals because all four are strengthened by the same characteristic (framework becomes useful to reader rather than impressive to academic). Preserves case-study work. Lowest implementation cost among strong paths (5-10% reframing vs. 30-40% rewriting).</li>
+  <li><strong>Trade-offs surfaced:</strong> ontology vs. methodology (Path F's hybrid is highest-leverage position); comprehensiveness vs. accessibility (Path F serves both); implementation cost vs. positioning (Path F lowest + highest-scoring); author authority vs. reader authority (Path F is the right middle).</li>
+  <li><strong>Five cross-cutting findings:</strong> (1) 10-dim taxonomy more vulnerable than canonical positioning suggests; (2) Indigenous-case sensitivity-reader non-optional regardless of path; (3) Asteroid-miner-off-world-contract example structurally important + currently absent from manuscript; (4) Book length tracks framework-scope decision; (5) Variables-not-dimensions reframing strengthens universality claim.</li>
+  <li><strong>§8 Decision rationale</strong> intentionally blank at v1.0.0 for Chris's authorial completion.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Phase 2 — Asteroid-miner example guidance (1 commit)</h3>
+<p>Commit <code>199417c</code>:</p>
+<ul>
+  <li><strong>Test-suite assessment on multi-perspective expansion.</strong> Verdict: EXPAND. Strengthens 7 modules (M1.5 universality + M2 chapter fit + M3.4 counterargument + M7 originality + M8 long-term + M11 C9 / C10 / C13 / C24); weakens 2 recoverably (M3.1 scope + M5 dinner-table). Earth-equivalent perspective highest-leverage addition.</li>
+  <li><strong>Ch 7 guidance updated</strong> with full multi-perspective worked example specification — four perspectives at ~250-400 words each: (1) asteroid miner / individual off-Earth; (2) asteroid mining company / corporate off-Earth; (3) asteroid colony administrator / community-government off-Earth; (4) Earth-based equivalent: McDowell coal miner considering extraction job (connects to Ch 2 anchor).</li>
+  <li><strong>Ch 1 guidance forward-reference note</strong> — framework-as-tool framing can briefly reference Ch 7 worked example to plant apply-this-to-yourself frame early. Pure Register 1; one sentence sufficient.</li>
+  <li><strong>Ch 10 guidance closing-reference note</strong> — catalog-of-cost-bearers passage can include forward-reaching imagery referencing asteroid-miner as tool-readers-apply demonstration. One paragraph maximum.</li>
+  <li><strong>Cross-chapter coordination documented</strong> — Ch 7 carries at full depth; Ch 1 + Ch 10 reference at single-sentence / single-paragraph depth.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Phase 3 — Protocol v2.2.0 (6 informational goals, 1 commit)</h3>
+<p>Commit <code>da78f15</code>:</p>
+<ul>
+  <li><strong>Six informational goals added</strong> to Path Comparison Mode: Personal/Ethical Satisfaction + Family Wellbeing + Career Safety + Nursing-Licensure + Time/Capacity Preservation + Movement Utility + Financial Sustainability.</li>
+  <li><strong>Informational goals are flag-surfacers, not drivers.</strong> PCR primary recommendation continues to be driven by the four primary goals (publishing path success / academic reception / success criteria / long-term project impact). Informational findings appear as their own PCR §11 section and include "watch this" callouts where unexpected very-good or very-bad findings warrant attention.</li>
+  <li><strong>§22.4 reorganized</strong> into §22.4a (primary goals) + §22.4b (NEW informational goals).</li>
+  <li><strong>§22.6 PCR template extended</strong> with §11 informational findings section (sub-sections §11.1-§11.6 per informational goal).</li>
+  <li><strong>No structural changes</strong> to v2.1.0 modules, standing gates, primary goals, running modes. v2.2.0 is purely additive.</li>
+  <li><strong>Triggered by PCR v1.0.0 author-review</strong> — Chris asked whether goals unweighted in the suite should be considered. Suite proposed 8 candidates; Chris ratified 6 as informational additions.</li>
+  <li><strong>Cross-references updated:</strong> README.md + tools/README.md + tools/claude_prefs.md now reference v2.2.0.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Phase 4 — PCR v1.1.0: Path F confirmation + informational findings (1 commit)</h3>
+<p>Commit <code>78e1a35</code>:</p>
+<ul>
+  <li><strong>§8 Decision rationale filled in.</strong> Path F selected (2026-04-24). Aligned with v1.0.0 suite recommendation. Goals prioritized: long-term impact + success criteria + publishing path; academic reception at default weight. Trade-offs accepted: ontology-vs-generativity tension (addressable via Ch 6 strengthening); implementation cost of reframing (manageable at 6-9 weeks); personal-stories integration depth deferred to downstream decision.</li>
+  <li><strong>§11 informational findings added</strong> per v2.2.0 §22.4b — six informational goals applied per-path retroactively.</li>
+  <li><strong>Three unexpectedly-good Path F findings surfaced:</strong>
+    <ul>
+      <li>§11.1 author-satisfaction longevity (generative framing anticipates author evolution)</li>
+      <li>§11.5 movement-utility potential (may be primary cascade mechanism rather than academic citation)</li>
+      <li>§11.6 financial-sustainability trajectory (~$25-75K advance range; 2-4 years of runway possible)</li>
+    </ul>
+  </li>
+  <li><strong>Two watch-this callouts</strong> for downstream Path K revisit (after personal stories draft):
+    <ul>
+      <li>§11.2 family-wellbeing per-story evaluation most-important single item; family consultation before Path K commits</li>
+      <li>§11.3 nursing-clinical + SGA-institutional memoir-depth content requires separate legal + institutional review</li>
+    </ul>
+  </li>
+  <li><strong>No contradicting findings.</strong> Informational-goals layer reinforces Path F selection.</li>
+  <li><strong>Implementation plan at §10 Phase A + Phase B + Phase C + Phase D</strong> becomes next-session work.</li>
+</ul>
+</div>
+
+<div class="milestone">
+<h3>Phase 5 — Memory updates + book-architecture revisit task</h3>
+<ul>
+  <li><strong>Memory: <code>project_personal_stories_drafting.md</code></strong> created (2026-04-24) documenting: personal-stories drafting unblocked under Path F (no pre-fit-to-framework concern); candidate stories listed; evaluation criteria when drafts exist (M3 + M4 + M5 + M9 + M11 per story); Path K revisit gate.</li>
+  <li><strong>Memory expanded</strong> during session: book-architecture revisit task added — once personal stories exist as drafts, revisit goes beyond "which stories integrate where" to full book-level architecture review (structure / tone / flow / what to include / why for each inclusion).</li>
+  <li><strong>Both in MEMORY.md index.</strong></li>
+</ul>
+</div>
+
+<h2>Commits since v1.36.0 (5 total)</h2>
+
+<table>
+<tr><th>Hash</th><th>Type</th><th>Summary</th></tr>
+<tr><td><code>ddb105b</code></td><td>PCR</td><td>PCR v1.0.0: framework-scope decision (Paths A-F) — Path F recommended</td></tr>
+<tr><td><code>199417c</code></td><td>guidance</td><td>guidance: asteroid-miner multi-perspective example into Ch 7 (+ Ch 1 + Ch 10 cross-refs)</td></tr>
+<tr><td><code>da78f15</code></td><td>protocol</td><td>rigor protocol v2.2.0: 6 informational goals added (minor bump)</td></tr>
+<tr><td><code>78e1a35</code></td><td>PCR</td><td>PCR v1.1.0: Path F confirmed + informational findings added</td></tr>
+<tr><td>(this)</td><td>handoff</td><td>v1.37.0 session handoff</td></tr>
+</table>
+
+<h2>Chapter length tracking</h2>
+
+<p class="meta"><strong>Standing section in all session handoffs.</strong> Refreshed at handoff creation; updated in next handoff when a chapter draft changes.</p>
+
+<p><strong>No chapter drafts modified this session.</strong> All session work was in <code>tools/</code> (rigor protocol v2.1.0 → v2.2.0; PCR v1.0.0 → v1.1.0) + <code>tools/pre-submission-reviews/</code> (PCR creation) + guidance docs (Ch 1 + Ch 7 + Ch 10). Word counts unchanged from v1.36.0.</p>
+
+<table>
+<tr><th>Ch</th><th>Title</th><th>Current words</th><th>Current pages</th><th>Target words</th><th>Target pages</th><th>Status</th></tr>
+<tr><td>1</td><td>The Plane</td><td>—</td><td>—</td><td>5,000–6,000</td><td>18–22</td><td>not drafted</td></tr>
+<tr><td>2</td><td>The Miner</td><td>5,232</td><td>~19</td><td>5,000–6,000</td><td>18–22</td><td class="done">in range</td></tr>
+<tr><td>3</td><td>The Waterman</td><td>—</td><td>—</td><td>5,000–6,000</td><td>18–22</td><td>not drafted</td></tr>
+<tr><td>4</td><td>The Existence Proof</td><td>2,998</td><td>~11</td><td>~4,000–5,000</td><td>15–18</td><td class="hold">low — room for Nordic steelman + governance detail</td></tr>
+<tr><td>5</td><td>The Accountability Gap</td><td>3,850</td><td>~14</td><td>3,500–4,000 (original); consider 4,500–5,000 post-v1.0.3 (6 cases)</td><td>13–15 original; 16–18 revised</td><td class="hold">in original range; under-target for 6-case structure</td></tr>
+<tr><td>6</td><td>Three Ways of Counting</td><td>~5,158*</td><td>~19*</td><td>~5,000–6,000</td><td>18–22</td><td class="done">*HTML format inflates count; likely ~4,500 actual prose. Path F reframing most-substantial Phase B work here.</td></tr>
+<tr><td>7</td><td>The Colony Administrator</td><td>5,774</td><td>~21</td><td>~5,000–6,000</td><td>18–22</td><td class="done">slightly over; acceptable. Path F Phase B adds ~1,000-1,500 words (asteroid-miner multi-perspective example per Ch 7 guidance); post-Phase-B estimate ~6,800-7,300 words.</td></tr>
+<tr><td>8</td><td>What Things Actually Cost</td><td>4,959</td><td>~18</td><td>"short" per scope doc §426</td><td>—</td><td class="done">appropriate. Path F Phase B reframes tier-by-tier worked example; length may compress slightly.</td></tr>
+<tr><td>9</td><td>The Renewable Imperative</td><td>7,251</td><td>~26</td><td>5,000–6,000</td><td>18–22</td><td class="pending">over target — length management flagged; Path F may help if Phase B reframes some content.</td></tr>
+<tr><td>10</td><td>Common Bonds</td><td>7,507</td><td>~27</td><td>5,000–7,000</td><td>18–25</td><td class="hold">upper end / slightly over; Path F Phase B minor reframing + possible asteroid-miner closing-reference paragraph</td></tr>
+</table>
+
+<h3>Totals + projection</h3>
+
+<ul>
+  <li><strong>Drafted (8 of 10):</strong> ~42,700 words, ~155 pages.</li>
+  <li><strong>Projected with Ch 1 + Ch 3 at 5–6K each + Path F Phase B adjustments (Ch 7 +1-1.5K; Ch 6 + Ch 8 compression):</strong> ~54-58K words, ~200-210 pages.</li>
+  <li><strong>Trade-book sweet spot:</strong> 60–80K words / 220–290 pages.</li>
+</ul>
+
+<h2>Open items + decisions pending for next session</h2>
+
+<div class="info">
+<ul>
+  <li><strong>PHASE A IMPLEMENTATION — Top priority.</strong> Chapter audit → v1.0.6; case-study audit → v1.0.6; dimensions canonical doc → v1.3.0; 8-tier decomposition reframing; methodology canonical reframing. 1-2 weeks focused work.</li>
+  <li><strong>Phase B chapter draft reframing.</strong> Ch 6 methodology rewrite; Ch 8 worked-example reframing; Ch 7 strengthening (asteroid-miner multi-perspective example — already specified in guidance); Ch 1 + Ch 10 minor reframing; throughout-book vocabulary check. 3-4 weeks focused work; can partially parallel Phase A.</li>
+  <li><strong>Phase C parallel independent work:</strong> indigenous sensitivity-reader engagement (non-optional before publication); Chesapeake fieldwork (Ch 3 blocker; opportunistic); Ch 1 + Ch 3 authorial drafting; <strong>personal-stories drafting</strong> (per project memory; no deadline; Chris's pace).</li>
+  <li><strong>Personal-stories gate + book-architecture revisit</strong> — queued for after stories drafted. Per-story evaluation (M3 + M4 + M5 + M9 + M11) first; then full book-architecture revisit (structure / tone / flow / what to include / why for each). The Path K integration decision happens after these evaluations.</li>
+  <li><strong>Phase D submission readiness</strong> — after Phase A + B land. Full-suite PSR run + comp titles + jacket copy + pitch + cascade essay submissions + literary agent outreach.</li>
+  <li><strong>Indigenous sensitivity-reader candidate identification</strong> — can begin now, independent of Phase A + B. Chris identifies candidate Lakota Nation readers via indigenous-scholar networks / tribal cultural preservation offices / indigenous editors at academic presses.</li>
+  <li><strong>Berggruen Prize deadline 2026-08-17</strong> — AI-free essay required. Independent track from Book 1 work.</li>
+  <li><strong>Noema response pending</strong> — if Noema lands, cascade accelerates; Chris's essay positioning sharpens.</li>
+  <li><strong>IPG reconciliation</strong> — still pending per chapter audit §2.6. Can be folded into Phase B Ch 6 reframing work.</li>
+</ul>
+</div>
+
+<h2>Operating observations from this session</h2>
+
+<div class="operating">
+<ul>
+  <li><strong>Suite-grounded decisions produce findings gut-decisions don't.</strong> The framework-scope decision had been deferred since v1.33.0 (six weeks ago in project time) because the gut-led choice was unclear. The Path Comparison Report + informational findings produced a clean Path F selection + three unexpectedly-good findings + two watch-this callouts for downstream work — all of which would have been missed without the suite.</li>
+  <li><strong>Informational-goals layer reinforces rather than disrupts.</strong> v2.2.0's six informational goals were added in anticipation of surfacing considerations the primary goals missed. In practice, informational findings for PCR v1.1.0 reinforced the Path F recommendation (no contradictions) + surfaced three unexpectedly-good findings. The informational layer earns its place as a decision-robustness check, not as a decision-disrupter.</li>
+  <li><strong>Path F unblocks personal-stories drafting.</strong> Chris had been pausing on personal-story drafts because he was trying to figure out which stories mapped to the existing framework best. Path F's generative framing removes that concern: any story showing cost severance happening to Chris or people around him fits cleanly. The protocol decision has downstream behavioral effects on the author's drafting practice.</li>
+  <li><strong>Book-architecture revisit emerged mid-session.</strong> Chris's instruction to "add a task to revisit book structure, tone, flow, what to be included and why after adding personal stories" extended the personal-stories-drafting gate into a larger book-architecture review. Captured in project memory; preserved across sessions.</li>
+  <li><strong>Primary + informational goals pattern is extensible.</strong> Future major decisions (Path K integration depth after stories; Book 2 preconditions; venue-cascade reorganization) can use the same goal-driver + informational-finding architecture. The v2.2.0 protocol bump isn't a one-off fix; it's a standing capability for future comparative decisions.</li>
+</ul>
+</div>
+
+<p class="meta">End of handoff. Archive <code>commons-bonds-session-handoff-2026-04-23_v1.36.0.html</code> to <code>alignment/sessions/archive/</code> as part of the next session's first commit (already archived in this session per PCR v1.1.0 rename + handoff creation workflow).</p>
+
+</body>
+</html>
