@@ -64,13 +64,45 @@ Each principle follows the template: ratified-by-whom-and-when · originating-co
 
 ---
 
+### Principle #2 — Audit the concept, not the exact phrase
+
+**Ratified:** 2026-04-24 by me (self-ratified; candidate for author confirmation)
+**Originating context:** while auditing Ring-3 vocabulary-retirement candidates, I used case-sensitive exact-phrase grep patterns (e.g., `\bValue Capture\b`) which returned 0 matches for Value Capture, Cost Bearing, and Asymmetric Regret. A better-methodology re-audit (case-insensitive + concept-level patterns matching proper-noun, compound, phrasal, adjective forms) revealed 16, 46, and 24+ occurrences respectively — flipping the retirement recommendations to *promote*.
+**Scope:** every audit that informs a rigor-pass verdict or a Ring-classification decision.
+
+**Principle statement:**
+
+When auditing chapter drafts / case studies / guidance docs for the presence of a concept, search for all forms in which the concept can be expressed — not just the proper-noun or capitalized-phrase form. Concepts appear as:
+- Proper-noun forms ("Value Capture")
+- Lowercase forms ("value capture")
+- Compound / hyphenated forms ("cost-bearing," "value-extraction")
+- Phrasal forms ("capturing the value," "bearing the cost")
+- Adjectival / derivative forms ("asymmetric regret," "cost-severing mechanism")
+
+**What this changes about my audit methodology:**
+
+- Default to case-insensitive matching (`re.IGNORECASE`) unless there's a specific reason to case-sensitive.
+- When auditing a concept, write 2–4 patterns covering the expected surface forms, not one pattern for the proper-noun form.
+- When an audit returns 0 results, treat that as a candidate for methodology failure before treating it as a substantive finding.
+- When audit results will inform a retirement/demotion recommendation, sanity-check by reading a sample of the candidate-term's chapter prose.
+
+**Why this principle matters on this project specifically:**
+
+The Ring-3 retirement decisions have real consequences — retiring a load-bearing term because the audit missed its occurrences would create chapter-rewrite work that the meta-pass was supposed to prevent. The audit methodology IS part of the rigor.
+
+**Corollary — audit verification:**
+
+When the audit output is decisive for a verdict (not just descriptive), verify by (a) running the audit with alternative patterns, (b) sampling one or two hit files to confirm the pattern catches what it should, and (c) checking a plausible non-hit to confirm the pattern's scope is right.
+
+---
+
 ## §3. Candidate principles (articulated but not yet ratified as such)
 
 ### Candidate — Option-space breadth is load-bearing
 
 Articulated 2026-04-24 after Variable-vs-Cost rigor pass incident where I tested only A/B/C despite D and E being real candidates. Pattern: when framing a rigor question, explicitly enumerate candidate options that the initial question didn't raise. I shouldn't assume the initial framing exhausts the option space.
 
-**Why candidate rather than ratified:** this is a recurring behavior pattern I'm working to internalize. May warrant formal ratification as Principle #2 if it proves to benefit from the explicit statement.
+**Why candidate rather than ratified:** this is a recurring behavior pattern I'm working to internalize. May warrant formal ratification as Principle #3 if it proves to benefit from the explicit statement.
 
 ### Candidate — Proactive insight capture
 
