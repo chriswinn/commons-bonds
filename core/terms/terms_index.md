@@ -209,11 +209,11 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 
 ### Cost Severance
 
-**Working definition:** the structural mechanism by which extraction separates value capture from cost bearing. The process/mechanism noun that names the framework's core phenomenon. Middle position in the framework's causal chain: *Value Extraction → Cost Severance → Severed Cost.*
+**Working definition:** the structural mechanism by which extraction separates value capture from cost bearing. The process/mechanism noun that names the framework's core phenomenon. Middle position in the framework's causal chain: *Value Extraction → Cost Severance → Severed Cost.* **Specialization (not contradiction) of the familiar employment-severance concept** — inverted to describe the relationship between value-capturers and the commons they draw from (per M12 audit 2026-04-24 + Option C rhetorical-bridge ratification; canonical Ch 1 framing established).
 
-**Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn, Ring-1 synthesis batch).
+**Status:** `CURRENT` at Ring 1 (Ring-1 synthesis batch ratified 2026-04-24 by Chris Winn; M12 collision audit + Option C ratified 2026-04-24 by Chris Winn).
 
-**Term-spec version:** v1.0 (first sanctioned spec after CS-vs-SC triage).
+**Term-spec version:** v1.1 (v1.0 was Ring-1 synthesis ratification; v1.1 adds M12 finding + Option C rhetorical-bridge ratification + Ch 1 canonical framing).
 
 **Last reviewed:** 2026-04-24
 
@@ -222,6 +222,7 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 - Tier-reframing + macro-grouping passes (2026-04-24) — mechanism preserved under all ratified framework changes.
 - CS-vs-SC triage rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cost_severance_vs_severed_cost_v1.0.0.md` (2026-04-24) §17 — Option A (keep both Cost Severance + Severed Cost with role discipline) PASSES extreme rigor.
 - Ring-1 synthesis pass (2026-04-24) — verdict reinforced; CS = RCV − B equation integration verified.
+- **M12 collision rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cost_severance_collision_v1.0.0.md` (2026-04-24)** — tested semantic collision with HR/accounting "severance costs" (IAS 37, US GAAP, Big-4 firms, corporate-law practice). Classification: lexical collision, different concept, HIGH severity for legal/accounting audience. **Option C (rhetorical bridge) ratified 2026-04-24 by Chris Winn** — the collision is converted into a Ch 1 teaching move that recruits reader's existing HR-severance schema as on-ramp ("THIS IS the same move, applied differently"). Option B (rename) tested 6 candidates including Accountability Severance as strongest; all rejected. First application of M12 as primary driver in a rigor pass; established rhetorical-bridge as Level 5 on M12 action ladder.
 
 **Role discipline:** Cost Severance is the *process/mechanism noun*. Use when naming the mechanism, describing how the phenomenon operates, or in theoretical discussion. *"McDowell suffers cost severance."* *"Cost severance operates through..."* Lexical slot: subject of analytical sentences about mechanism operation. Companion term: Severed Cost for result/quantity naming (see separate record).
 
@@ -249,6 +250,9 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 **Notes:**
 - Pair with Severed Cost is grammatical complementarity (process noun vs result noun), NOT duplication. Standard economics convention (externality vs externality cost; rent-seeking vs rent).
 - Style-discipline per CS-vs-SC rigor pass: use Cost Severance when naming the mechanism; use Severed Cost when quantifying specific instances.
+- **M12 bridge-commitment discipline (ratified 2026-04-24):** Ch 1 opening leans into HR/accounting collision as rhetorical bridge (see collision rigor pass §5 for canonical framing). Post-Ch-1 chapters use "Cost Severance" cleanly without defensive "not to be confused with..." language. Bridge does its work once; chapters trust it. If Ch 1 drafting reveals the bridge is authorially unsustainable, fallback to Option A (explicit disambiguation). Do NOT fallback to Option B (rename) unless both C and A attempts fail.
+- **Canonical Ch 1 framing (recommended text):**
+  > *"Corporate America knows the word 'severance.' When a company sheds workers to cut costs, we pay the severed employee — severance — and call it a cost of doing business. The word honors something: when you cut someone loose, you owe them. You sever the tie, and you pay for the severing. Cost severance works the opposite direction. When a company extracts value from a commons — a community, an ecosystem, a future generation — it sheds the COST of that value onto the source. The tie between value-capturer and cost-bearer gets severed, but the payment architecture of employment severance is absent. The cost-bearer gets stuck with the cost the value-capturer got paid to generate. So: severance we understand in employment. Cost severance is the same move, applied to the relationship between value-capturers and the commons they draw from — except the bill never comes due to the severing party. That's the problem this book is about."*
 
 ---
 

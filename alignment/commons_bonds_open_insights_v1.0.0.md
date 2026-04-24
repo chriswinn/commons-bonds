@@ -182,16 +182,17 @@ New insights automatically get added to the todo list in both states: one entry 
 ### Insight #11 — "Cost Severance" semantic collision with HR/accounting "severance costs"
 
 - **Raised:** 2026-04-24 by me (surfaced during Insight #10 literature audit)
-- **Status:** raised · awaiting author decision
+- **Status:** closed-ratified 2026-04-24 — Option C (rhetorical bridge) ratified by Chris Winn via dedicated rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cost_severance_collision_v1.0.0.md`
 - **Category:** vocabulary · craft · publishing
 - **Content:** "Severance costs" / "cost of severance" is an established HR/accounting term for employee termination payments (IAS 37, US GAAP, PwC, KPMG, Bloomberg). Every corporate accountant, HR professional, tax lawyer, and policy professional reads "cost severance" as "employment termination cost." Chris's Ring-1 flagship "Cost Severance" (the separation of cost-bearer from value-capturer) is totally different meaning but collides in reading. Collision risk is high because the target audiences (policy, legal, academic econ) include exactly the people who know the HR/accounting meaning.
 - **Why it matters:** Cost Severance is the framework's Ring-1 flagship — the term the book's adoption-durability bet rests on. Semantic collision at first-encounter degrades adoption: a reader processing "cost severance" as HR-severance-costs before picking up the framework's meaning has to back-parse on every occurrence. If the term can't reliably communicate on first read in target audiences, the flagship fails its job.
-- **Proposed resolution (options pending dedicated rigor pass):**
-  - **Option A — Keep + explicit disambiguation.** Ch 1 + glossary + every chapter's first use include a disambiguation note ("Cost Severance in this framework does NOT refer to employment severance costs; it names the separation of cost-bearer from value-capturer"). Rhetorical cost on every first use; preserves established Ring-1 architecture.
-  - **Option B — Rename.** Candidates: "Cost Severing" (verbal form — the act), "Value-Cost Severance" (adds disambiguation inline), "Cost-Value Severance" (same), "Cost Decoupling" (clearer; loses severance-as-rupture rhetoric), "Severance of Costs from Benefits" (most explicit; wordy). All have tradeoffs.
-  - **Option C — Keep + lean into collision rhetorically.** "Cost severance in my framework has a meaning I want to put next to employment severance: when a company sheds workers to cut costs, we call it severance. When a company sheds its RESPONSIBILITY for the costs its extraction creates, that's cost severance too — and ours does far more damage to far more people over far longer." This uses the collision as rhetorical bridge.
-- **Dependencies / Links:** Insight #10 (literature audit); existing Ring-1 ratification of Cost Severance (commit `0aafed7`); Severed Cost Ring-1 ratification (unaffected; distinct term with no collision).
-- **Todo link:** "Review Open Insight #11: Cost Severance naming collision — run dedicated rigor pass or ratify option directly."
+- **Resolution:**
+  - **Option C — Keep + lean into collision rhetorically — RATIFIED 2026-04-24.** Ch 1 opening uses the HR familiarity as a teaching bridge: "Corporate America knows the word 'severance.' [...] Cost severance works the opposite direction. [...] Same move, applied to the relationship between value-capturers and the commons they draw from — except the bill never comes due to the severing party."
+  - Option A (disambiguate) held as fallback if Ch 1 drafting reveals bridge is authorially unsustainable.
+  - Option B (rename — 6 candidates tested, Accountability Severance was strongest) rejected on M12 + M4 + M11 grounds.
+  - Ratification also established **rhetorical bridge as Level 5 on the M12 action ladder** (Principle #6 Corollary D, ratified 2026-04-24).
+- **Dependencies / Links:** Insight #10 (literature audit); Cost Severance collision rigor pass; Principle #6 Corollary D (M12 action ladder); Ring-1 ratification of Cost Severance (commit `0aafed7`); Severed Cost Ring-1 ratification (unaffected; distinct term with no collision).
+- **Todo link:** N/A (closed).
 
 ---
 

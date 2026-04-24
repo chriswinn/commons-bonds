@@ -345,7 +345,15 @@ This pass establishes a new pattern for High-severity lexical collisions: **rhet
 
 ## §9. Author-ratified resolutions
 
-*Pending author ratification. Recommended Option C (keep + lean into collision as Ch 1 rhetorical bridge). Fallback: Option A (disambiguate). Option B (rename) tested and rejected.*
+**Ratified 2026-04-24 by Chris Winn — Option C (rhetorical bridge).** Cost Severance retained as Ring-1 flagship; Ch 1 opening leans into the HR/accounting semantic collision as rhetorical bridge. Option A (disambiguate) held as fallback if Ch 1 drafting reveals the bridge is authorially unsustainable. Option B (rename) rejected — strongest rename candidate (Accountability Severance) failed to outperform Option C on M12 + M4 + M11 simultaneously.
+
+**Ratification also establishes as ratified pattern:** rhetorical-bridge as Level 5 on the M12 action ladder (between Terms Index extension-positioning and dedicated rigor pass), for future High-severity lexical collisions where bridge framing is authorially tractable. Principle #6's action ladder formally extended.
+
+**Phase A3 sweep targets triggered by this ratification:**
+1. Ch 1 — add the rhetorical-bridge framing (~1 page at opening or first-substantive Cost Severance introduction). Canonical text provided in §5.
+2. Glossary v3 — Cost Severance entry opens with condensed bridge ("specialization of the familiar employment-severance move, applied to commons extraction").
+3. Chapter draft scan — remove any defensive "not to be confused with HR severance" language in post-Ch-1 chapters (bridge does its work once; chapters trust it).
+4. Terms Index — Cost Severance record updated with M12 audit finding + Option C ratification (this commit).
 
 ---
 

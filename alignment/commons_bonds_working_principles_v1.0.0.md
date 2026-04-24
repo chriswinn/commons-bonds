@@ -291,6 +291,18 @@ Commons Bonds's adoption-durability bet rests on framework vocabulary traveling 
 
 - **Corollary C — Retrospective M12 updates add value, not obligation.** When M12 finds prior art for an already-ratified term, the finding ADDS provenance information; it does NOT usually flip the rigor verdict. The Value Extraction 2026-04-24 audit is the template — Mazzucato finding → citation requirement → positioning statement → bibliography update, but Option A (Ring 1) verdict unchanged.
 
+- **Corollary D — M12 action ladder (ratified 2026-04-24 via Cost Severance collision pass).** When M12 finds prior art requiring action, the following 7-level ladder governs the response — lighter at top, heavier at bottom:
+
+  1. **Tech Appendix footnote** (for low-severity or due-diligence-only findings)
+  2. **Glossary entry citation** (prior art noted in term's formal definition)
+  3. **Ch 1 prose citation** (load-bearing positioning in main text at first use)
+  4. **Terms Index extension-positioning statement** (formal framework-relation statement)
+  5. **Rhetorical bridge in load-bearing main text** (for High-severity lexical collisions where the collision can be converted into a teaching on-ramp; ratified via Cost Severance collision pass 2026-04-24; see that pass §5 for canonical bridge structure)
+  6. **Dedicated rigor pass** (for close calls between cite-and-extend vs. rename)
+  7. **Rename** (when lexical-collision severity is High and no bridge / disambiguation reaches the target audience's first-encounter reflex)
+
+  Level 5 (rhetorical bridge) is the highest-integrity move for High-severity collisions where bridge framing is authorially tractable — it honors the prior meaning AND extends it, recruiting the reader's existing schema as on-ramp rather than fighting it. Level 7 (rename) is reserved for cases where bridge framing fails.
+
 ---
 
 ## §3. Candidate principles (articulated but not yet ratified as such)
