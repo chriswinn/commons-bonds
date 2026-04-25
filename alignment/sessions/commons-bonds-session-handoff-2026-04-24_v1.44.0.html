@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-24 · v1.44.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .decision     { background: #f3e8ff; border-left: 4px solid #7a3ea1; padding: 1em 1.2em; margin: 1em 0; }
+  .operating    { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .milestone    { background: #e8f2fa; border-left: 4px solid #2a5a8c; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .author-task  { background: #fff0f5; border: 2px solid #c04080; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .author-task h2 { border-bottom: 1px solid #c04080; color: #80305a; margin-top: 0; }
+  .snippet      { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .version  { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff 2026-04-24 · v1.44.0</h1>
+<p class="meta"><strong>Date:</strong> 2026-04-24 · <strong>Version:</strong> 1.44.0 (supersedes v1.43.0; same-day continuation) · <strong>Phase:</strong> A3 Stream A sweep <span class="done">COMPLETE</span> · M12 sweep <span class="done">COMPLETE</span> · Academic-rigor full test <span class="done">COMPLETE</span> · <strong>Next:</strong> personal-stories dump (author task) + Block 4 validation + Phase B authoring</p>
+
+<div class="top-priority">
+<h2>v1.44.0 = v1.43.0 + M12 sweep + academic-rigor full test</h2>
+<p>v1.43.0 (commit <code>f89351a</code>) captured the Phase A3 Stream A sweep complete state. v1.44.0 captures the two subsequent rigor cycles that landed in this same session: <strong>M12 intellectual-honesty sweep</strong> (commit <code>c07a7c1</code>) verifying the framework is M12-clean across every term, plus <strong>academic-rigor full test</strong> (commit <code>ae90800</code>) producing PASS WITH CONDITIONS verdict across M1 + M6 + M7 + M11. Today is now <strong>three rigor cycles deep</strong> beyond the original Phase A3 ratification day.</p>
+<p>The academic-rigor test surfaced eight Phase B work items + one author task (personal-stories dump) that this handoff codifies as next-session priorities.</p>
+</div>
+
+<h2>What landed in this continuation (post-v1.43.0)</h2>
+
+<div class="milestone">
+<h3>Two rigor cycles — two commits</h3>
+
+<table>
+  <tr><th>Commit</th><th>Scope</th><th>Verdict</th></tr>
+  <tr>
+    <td><code>c07a7c1</code></td>
+    <td><strong>M12 intellectual-honesty sweep — comprehensive framework-wide audit + CSG retirement sweep execution.</strong> Every term in <code>core/terms/terms_index.md</code> verified against Working Principle #6 Corollary D 7-level action ladder. 7 Ring-1 + 9 Ring-2 + 3 Architecture + 2 sub-instruments + 11 retired terms audited. Surfaced + corrected v1.43.0 misframing: Ch 7+9 CSG was NOT a "collision" between two CSGs; there's only ONE CSG (Civilizational Substitutability Gap, retired today). Ch 7 + Ch 9 chapter drafts swept (32 CSG instances → "industrial-existential substitutability gap"); Tech Appendix HTML swept (22 instances); Tech Appendix supplement corrected. v1.43.0 self-correction documented inline.</td>
+    <td><strong>Framework M12-CLEAN.</strong> No PEND items. Bibliography carries citations for every load-bearing prior-art finding.</td>
+  </tr>
+  <tr>
+    <td><code>ae90800</code></td>
+    <td><strong>Academic-rigor full test — comprehensive M1 + M6 + M7 + M11 review.</strong> Tests applied to post-restructure framework (commons-as-structural-identity reframing, AIT→CIT with two sub-forms, Two-Instrument Architecture, Triangulated RCV Estimation, Hotelling Identity, B = B₁ + B₂, Four Gates, ARR, Working Principles 5+6). Six M11 academic-critic characters probed (Char 9 econ chair / Char 12 grad student / Char 17 Ostrom successor / Char 18 philosopher of science / Char 19 reparations economist / Char 23 legal scholar). All PRESSURE-HANDLED.</td>
+    <td><strong>PASS WITH CONDITIONS.</strong> No structural-integrity fails; no methodological flaws. Eight Phase B work items + one literature gap flagged.</td>
+  </tr>
+</table>
+</div>
+
+<h3>Academic-rigor PASS-WITH-CONDITIONS detail</h3>
+
+<div class="info">
+<p><strong>The four conditions:</strong></p>
+<ol>
+  <li><strong>Block 4 validation execution.</strong> Norway calibration + Appalachian coal numerical Three Ways estimates. Substantiates Triangulated RCV Estimation falsifiability claim + Hotelling Identity empirical claim. Highest-leverage academic-rigor strengthening item. <em>Empirical work; not authoring.</em></li>
+  <li><strong>Phase B authoring work (~30-50 hours).</strong> Consolidate methodology defense rationales into Ch 6 + Tech Appendix §G main-text prose. Currently the defense lives in rigor passes + supplements but not consistently in main text.</li>
+  <li><strong>One literature gap.</strong> Parfit <em>Reasons and Persons</em> (1984) on intergenerational moral status — needed for IPG load-bearing claim. Add to bibliography + engage in Ch 6 or Ch 10.</li>
+  <li><strong>Three CIT-positioning refinements.</strong> Level-of-claim specification; Ostrom-vs-extraction-context distinction; thought-experiment-vs-empirical positioning consistency. Minor; Phase B-tractable.</li>
+</ol>
+<p><strong>Berggruen window readiness (2026-08-17):</strong> framework is M6-pass-ready in rigor-record + supplement form <em>now</em>; submission readiness is blocked by Block 4 partial validation + Phase B authoring work landing.</p>
+<p><strong>Honest scoping:</strong> the academic-rigor test is structured self-assessment by the framework's methodology layer, NOT external peer review. The real academic-rigor test is encounter with an actual senior academic in Ostrom-tradition / resource-economics / reparations-economics / intergenerational-justice fields. See academic-rigor rigor pass §6 for external-review sequencing recommendations.</p>
+</div>
+
+<h2>NEW author task — personal-stories stream-of-consciousness dump</h2>
+
+<div class="author-task">
+<h2>Author task: dump 5+ personal stories, then review for book / essay use</h2>
+<p><strong>Framing:</strong> a moment to dump a bunch of personal stories stream-of-consciousness, then step back and review the stories to see what might actually be useful for the book, essays, etc. Per project-memory <em>Personal stories drafting + Path K revisit gate</em>: drafting is unblocked under Path F (no pre-fit-to-framework concern); once 3-5 drafts exist, suite evaluates per-story (M3+M4+M5+M9+M11) and we revisit Path K integration depth.</p>
+
+<p><strong>Five named stories Chris flagged for capture:</strong></p>
+<ol>
+  <li><strong>120-hour weeks.</strong> The math + body-cost of being taught that 120 is normal, that recovery is the weekend's job, that the company's revenue depends on you not noticing the trade. <em>Likely commons activated:</em> Temporal + Autonomy + possibly Habitability (sleep / health). <em>Likely framework reading:</em> CIT Commons-Consumption Inversion paradigm case at the individual scale.</li>
+  <li><strong>Being taught to bounce around for salary bumps.</strong> The internal-ladder-vs-external-market arbitrage that becomes the only way wages keep up with anything. The career discipline that emerges. The story your manager doesn't tell you because the company's interest is the opposite of yours. <em>Likely commons activated:</em> Institutional + Political + Cohesion (workplace social fabric extracted in service of wage suppression). <em>Likely framework reading:</em> CSD-style backward accounting of wage-restraint extraction.</li>
+  <li><strong>5-hour daily commute.</strong> Enough time to fall in love / fall out of love / learn a language / learn an instrument. The specific arithmetic of what 5 hours × 5 days × 50 weeks compounds into across a working life. The choice that wasn't a choice. <em>Likely commons activated:</em> Temporal (load-bearing). <em>Likely framework reading:</em> Temporal commons paradigm — the canonical individual-scale commons-consumption case the framework needs in Ch 1 or Ch 8.</li>
+  <li><strong>What companies actually get paid for you as a consultant.</strong> The G&A + Overhead arithmetic. The number on the contract. The number in your paycheck. The geometry of the gap. Plus the parallel story: a company refusing to bump your salary even to match federal cost-of-living increase, which is itself typically less than half of actual inflation. <em>Likely commons activated:</em> Institutional + Political + Epistemic (information asymmetry as the load-bearing extraction mechanism). <em>Likely framework reading:</em> Abundance Masking + Epistemic commons consumption — the case that surfaces consent-normalization shield as the active mechanism.</li>
+  <li><strong>Airplane story while Loretta had a wound-vac.</strong> The healthcare-system + spousal-care + work-travel intersection. <em>Likely commons activated:</em> Kindred + Habitability (medical) + Temporal + Cohesion. <em>Likely framework reading:</em> healthcare-end-of-life-adjacent case with multiple commons co-active. <em>Personal-anchor relevance:</em> Loretta is an anchor character in the project memory; this story is candidate Ch 5 or Ch 8 material.</li>
+</ol>
+
+<p><strong>What to do:</strong></p>
+<ol>
+  <li><strong>Stream-of-consciousness dump first.</strong> Don't pre-fit to framework. Don't pre-edit. Capture each story as Chris's voice in raw form — first draft is for getting them out of his head onto the page. Path F discipline applies (drafting unblocked; no pre-fit constraint).</li>
+  <li><strong>Add other stories that surface during the dump.</strong> The five named are seeds, not a complete list. The dumping process itself usually surfaces stories that hadn't crystallized yet. Capture those too.</li>
+  <li><strong>Step back and review.</strong> Once 5+ drafts exist, run the M3 + M4 + M5 + M9 + M11 suite per story (per Path F revisit gate). Surface which stories are book-load-bearing vs. essay-better vs. private-context-only. Revisit Path K integration depth at that point.</li>
+</ol>
+
+<p><strong>Where to draft:</strong> recommended location is <code>manuscript/personal-stories/</code> (new directory) with one file per story (e.g., <code>120_hour_weeks_v0.1.md</code>). Loose markdown is fine — these are first drafts. The directory + file structure can be set up in next session as the dump begins.</p>
+
+<p><strong>Why this matters for the book:</strong> Ch 1 currently has SCAFFOLD ONLY status with AUTHOR ZONES marked. The personal-narrative spine that makes Ch 1 work is exactly this kind of story material — and the framework's Register-1 entry-points across other chapters (Ch 2 Miner, Ch 5 AccountabilityGap, Ch 7 ColonyAdministrator, Ch 8 WhatThingsActuallyCost) similarly depend on lived-experience grounding that Chris's voice supplies. The 5 named stories likely populate 2-3 chapters' Register-1 anchors directly.</p>
+</div>
+
+<h2>Updated next-session priorities</h2>
+
+<div class="resume">
+<p><strong>Top-priority work (in order):</strong></p>
+<ol>
+  <li><strong>Personal-stories stream-of-consciousness dump</strong> (author task — see section above). 5+ stories drafted in raw form; review pass after.</li>
+  <li><strong>Block 4 validation execution</strong> (Norway calibration + Appalachian coal numerical Three Ways estimates). Highest-leverage academic-rigor strengthening item. Substantiates Triangulated RCV Estimation falsifiability + Hotelling Identity empirical claims.</li>
+  <li><strong>Phase B authoring: methodology defense consolidation.</strong> Ch 6 methodology section + Tech Appendix §G prose should consolidate the eight methodology defense rationales currently scattered across rigor passes + supplements. (Defense for: CIT vs. revealed preference; Two-Instrument vs. single-instrument; Triangulation vs. single-method; Hotelling Identity vs. Pigou-only or Hotelling-only; Four Gates vs. CIT-only; Option C' vs. legislative; ARR vs. CBA / pure precautionary; CIT two-sub-forms vs. single-form.)</li>
+  <li><strong>Phase B authoring: Ostrom-vs-extraction-context distinction.</strong> Ch 6 + Tech Appendix supplement §6.1 should explicitly contrast Ostrom-tradition coordination commons (CCI fails) with extraction-context commons (CCI passes). Most-load-bearing M11 Character 17 finding.</li>
+  <li><strong>Phase B literature: Parfit engagement.</strong> Add <em>Reasons and Persons</em> (1984) to bibliography + Ch 6 or Ch 10 engagement on intergenerational moral status. Closes M6.2 GAP IDENTIFIED.</li>
+  <li><strong>Phase B literature: reparations-economics main-text engagement.</strong> Ch 5 + Ch 6 should engage Darity & Mullen 2020 in main-text prose, not only in supplement + bibliography. Closes M11 Character 19 positioning concern.</li>
+  <li><strong>CIT formal-spec refinement: level-of-claim.</strong> Tech Appendix supplement §6 should add explicit level-of-claim-specification clause. Closes M11 Character 12 refinement opportunity (grad student platform-economy attention-extraction probe).</li>
+  <li><strong>CIT positioning consistency audit.</strong> Audit chapter prose for consistency between "CIT as thought-experiment discrimination gate" and "empirical methods are the falsifiability layer above CIT." Closes M11 Character 18 finding.</li>
+  <li><strong>Empirical sourcing-pass.</strong> Tech Appendix supplement §3.1 (DAC numerical anchors) + Ch 7 (space-economics numerical anchors). Closes M6.4 sourcing-pass-needed flags.</li>
+  <li><strong>Tech Appendix v0.0.5 HTML integration</strong> of supplement §2-§7 new sections (Phase B authoring cycle).</li>
+  <li><strong>Sensitivity-analysis execution</strong> (Open Insight #20: σ + α + V_option dominance for Method 3).</li>
+  <li><strong>Phase B chapter-revision work — broader.</strong> Prose-level integration of structural-restructure ratifications across all chapter drafts (per-passage revisions; not just terminology).</li>
+</ol>
+
+<p><strong>Standing items / monitoring:</strong></p>
+<ul>
+  <li>Open Insight #14 — Norway-as-canonical-B2 epistemic-humility discipline applied during chapter revision.</li>
+  <li>Open Insight #15 — autonomy-as-commons chapter revision thread (Ch 4/5/6/9/10).</li>
+  <li>Open Insight #16 — CIT two-sub-forms refinement (level-of-claim clause is the next refinement).</li>
+  <li>Open Insight #17 — Option C' political-philosophical-accommodation discipline (active during chapter drafts + reception).</li>
+  <li>Open Insight #18 — autonomy-as-commons placement (Pettit / Skinner republican tradition).</li>
+  <li>Open Insight #19 — CSD-RCV correlation hypothesis (framework's deepest empirical claim; Block 4 tests).</li>
+  <li>Open Insight #20 — sensitivity-analysis execution.</li>
+  <li>Open Insight #13 — book-scope creep monitoring per v1.0.3 strategy (active across all chapter drafting).</li>
+</ul>
+
+<p><strong>Stale terms still pending Phase B passage rewrite</strong> (not string-substitutable):</p>
+<ul>
+  <li>Tech Appendix v0.0.5 HTML: 15 FGC instances (8-tier-vintage acronym; context-meaning shifts per occurrence) + 1 Universality Test instance (replaced by structural-vs-topical pairing diagnostic with no single named referent). Phase B Tech Appendix authoring pass.</li>
+</ul>
+</div>
+
+<h2>Cumulative state at session end (after v1.44.0 continuation)</h2>
+
+<div class="milestone">
+<h3>Three rigor cycles complete today</h3>
+<ul>
+  <li><strong>Phase A3 Stream A sweep</strong> — 7 commits — all today's structural-restructure ratifications materialized across active framework docs.</li>
+  <li><strong>M12 intellectual-honesty sweep</strong> — 1 commit — framework verified M12-clean; CSG retirement swept; v1.43.0 self-correction documented.</li>
+  <li><strong>Academic-rigor full test</strong> — 1 commit — PASS WITH CONDITIONS; eight Phase B work items + one author task flagged.</li>
+</ul>
+
+<h3>Framework readiness summary</h3>
+<table>
+  <tr><th>Dimension</th><th>Status</th><th>Notes</th></tr>
+  <tr><td>Structural integrity (M1)</td><td class="done">PASS WITH CONDITIONS</td><td>All 5 sub-tests pass; Block 4 validation pending</td></tr>
+  <tr><td>Academic rigor (M6)</td><td class="done">PASS WITH CONDITIONS</td><td>Defense DEFENSIBLE; literature has Parfit gap; falsifiability scoped correctly; sourcing-pass items flagged</td></tr>
+  <tr><td>Originality (M7)</td><td class="done">DISTINCTIVE CONTRIBUTION</td><td>Synthesis-as-contribution defense holds</td></tr>
+  <tr><td>Critic pressure (M11)</td><td class="done">PRESSURE-HANDLED</td><td>Six academic-relevant characters tested; positioning work flagged</td></tr>
+  <tr><td>Intellectual honesty (M12)</td><td class="done">CLEAN</td><td>No PEND items; comprehensive sweep complete</td></tr>
+  <tr><td>Working Principles 1-6</td><td class="done">OPERATIONAL</td><td>+ Corollaries A, B, D ratified</td></tr>
+  <tr><td>Bibliography</td><td class="done">COMPLETE-WITH-ONE-GAP</td><td>Parfit 1984 to add Phase B</td></tr>
+  <tr><td>Glossary v3</td><td class="done">CANONICAL</td><td>commit <code>5123da6</code></td></tr>
+  <tr><td>Terms index</td><td class="done">CANONICAL</td><td>Provenance for every term</td></tr>
+  <tr><td>Methodology doc v1.4.0</td><td class="done">TIER-1 UPDATED</td><td>commit <code>00e877b</code></td></tr>
+  <tr><td>Rigor protocol v2.4.0</td><td class="done">TIER-1 UPDATED</td><td>commit <code>4304cb5</code>; M12 module preserved</td></tr>
+  <tr><td>Tech Appendix v0.0.5</td><td class="hold">SUPPLEMENT-PENDING-INTEGRATION</td><td>HTML swept; supplement §2-§7 new sections drafted in markdown awaiting Phase B authoring integration</td></tr>
+  <tr><td>Chapter Guidance Docs</td><td class="done">SWEPT</td><td>Ch 1, 6, 7 updated; Ch 2-5, 8-10 verified clean</td></tr>
+  <tr><td>Chapter drafts (markdown + HTML)</td><td class="done">SWEPT</td><td>Ch 1 + Ch 6 HTML AIT/CIT swept; Ch 7 + Ch 9 CSG swept; Ch 2/4/5/8/10 clean</td></tr>
+  <tr><td>Personal stories</td><td class="pending">AUTHOR TASK QUEUED</td><td>5 named stories + open invitation for stream-of-consciousness dump</td></tr>
+  <tr><td>Block 4 validation</td><td class="pending">PENDING</td><td>Highest-leverage empirical follow-up</td></tr>
+  <tr><td>Phase B authoring</td><td class="pending">PENDING</td><td>~30-50 hours estimated; methodology defense consolidation + literature engagement + chapter prose revisions</td></tr>
+</table>
+</div>
+
+<h2>Commit log (this continuation, post-v1.43.0)</h2>
+
+<pre>
+ae90800  Academic-rigor full test — comprehensive M1 + M6 + M7 + M11 review of post-restructure framework
+c07a7c1  M12 intellectual-honesty sweep — comprehensive framework-wide audit + CSG retirement sweep execution
+f89351a  session handoff v1.42.0 → v1.43.0: Phase A3 Stream A sweep complete (cutoff for v1.43.0)
+</pre>
+
+<p>Total commits this session (cumulative across v1.42.0 + v1.43.0 + v1.44.0 windows): ~59. All committed to <code>origin/main</code> via working branch <code>claude/epic-lamport-d7a6a7</code>.</p>
+
+<h2>Chapter length tracking (per project memory)</h2>
+
+<table>
+  <tr><th>Ch</th><th>Status</th><th>Word count est.</th><th>Target</th><th>Note</th></tr>
+  <tr><td>1</td><td>SCAFFOLD ONLY (post-sweep clean; AUTHOR ZONES await personal-stories dump)</td><td>~1,500</td><td>5,000-6,000</td><td>Personal stories #1, #3, #4 candidates for Ch 1 Register-1 anchors</td></tr>
+  <tr><td>2</td><td>DRAFTED (sweep clean)</td><td>~2,500</td><td>4,000-5,000</td><td>The Miner; consent + agency well-handled</td></tr>
+  <tr><td>3</td><td>DRAFTED (sweep clean)</td><td>~2,000</td><td>4,000-5,000</td><td>(unchanged)</td></tr>
+  <tr><td>4</td><td>DRAFTED (sweep clean)</td><td>~2,000</td><td>4,000-5,000</td><td>Norway as canonical B2 exemplar (Open Insight #14)</td></tr>
+  <tr><td>5</td><td>DRAFTED (sweep clean)</td><td>~2,500</td><td>4,000-5,000</td><td>Accountability gap; B1+B2 framing pending Phase B; reparations-economics main-text engagement pending; <strong>personal story #5 (airplane / wound-vac)</strong> candidate for Ch 5 Register-1 anchor</td></tr>
+  <tr><td>6</td><td>DRAFTED HTML (sweep complete) + supplementary drafts</td><td>~5,000</td><td>6,000-8,000</td><td>Methodology; Phase B work: methodology defense consolidation + Ostrom-vs-extraction-context distinction + Parfit engagement + reparations-economics engagement + CIT positioning consistency</td></tr>
+  <tr><td>7</td><td>DRAFTED (CSG swept; line 113 manually rewritten)</td><td>~3,000</td><td>5,000-6,000</td><td>Asteroid miner; sourcing-pass needed for space-economics numerical anchors</td></tr>
+  <tr><td>8</td><td>DRAFTED (sweep clean)</td><td>~3,000</td><td>5,000-6,000</td><td>What Things Actually Cost; <strong>personal stories #1 (120hr), #2 (salary bumps), #3 (commute), #4 (consultant G&A)</strong> all candidates for Ch 8 Register-1 anchors</td></tr>
+  <tr><td>9</td><td>DRAFTED (CSG swept; lines 5+6 stale meta-notes marked superseded)</td><td>~2,500</td><td>4,000-5,000</td><td>Renewable Imperative; B1/B2 conversations pending Phase B</td></tr>
+  <tr><td>10</td><td>DRAFTED (sweep clean)</td><td>~2,000</td><td>3,000-4,000</td><td>Common Bonds closing; Parfit engagement candidate location</td></tr>
+</table>
+
+<p>Aggregate manuscript: ~26,000 words drafted; target ~45,000-50,000. Phase A3 sweep <span class="done">COMPLETE</span>; Phase B chapter-revision work + personal-stories dump are the next major drafting cycles.</p>
+
+<h2>Operating discipline status</h2>
+
+<div class="operating">
+<ul>
+  <li><strong>Working Principles</strong>: 6 ratified (#1 effort-to-repair-not-rigor + Corollaries A & B; #2 audit-concept-not-phrase; #3 misnaming-is-rigor-failure; #4 retirements-preserve-history; #5 context-flipping-rules-earn-named-rule-status; #6 intellectual-honesty-audit + Corollary D 7-level action ladder). Two candidate principles pending in §3.</li>
+  <li><strong>M12 protocol</strong>: ratified as rigor module in v2.4.0; framework now verified M12-clean as of comprehensive sweep (commit <code>c07a7c1</code>). Never skipped in light mode going forward.</li>
+  <li><strong>Tier-1 update header pattern</strong> (Working Principle #4): proven across Methodology doc v1.4.0, Rigor protocol v2.4.0, Tech Appendix v0.0.5 (HTML in-place + markdown supplement sidecar). Pattern handles HTML files exceeding Read-tool token limits (sed sweeps + supplement sidecars).</li>
+  <li><strong>Self-correction discipline</strong> (new pattern this session): when an earlier handoff's framing is later found to be incorrect, the correction is documented inline in the original handoff via a "self-correction" section + full explanation in the next-version handoff. v1.43.0 → v1.44.0 demonstrates this pattern (CSG misframing correction).</li>
+  <li><strong>Push cadence</strong>: each commit pushed to origin/main as it landed (per project memory).</li>
+  <li><strong>Bibliography rule</strong>: load-bearing on ratified decisions → add immediately; tied to pending → queue. Today: 17 (initial Phase A3) + 7 (completeness pass) = 24 added; Parfit 1984 next addition (Phase B).</li>
+</ul>
+</div>
+
+<h2>Source-of-truth pointer</h2>
+
+<div class="info">
+<p>For any framework question, canonical-source-of-truth order (most current first):</p>
+<ol>
+  <li><code>core/glossary/commons_bonds_updated_glossary_v3.html</code> (commit <code>5123da6</code>)</li>
+  <li><code>core/terms/terms_index.md</code> — provenance for every term</li>
+  <li><code>tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_academic_rigor_full_test_v1.0.0.md</code> (commit <code>ae90800</code>) — academic-rigor verdict + Phase B work items</li>
+  <li><code>tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_m12_intellectual_honesty_sweep_v1.0.0.md</code> (commit <code>c07a7c1</code>) — M12 audit per term</li>
+  <li><code>core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md</code> — methodology doc v1.4.0 (commit <code>00e877b</code>)</li>
+  <li><code>tools/commons_bonds_rigor_protocol_v2.2.0.md</code> — rigor protocol v2.4.0 (commit <code>4304cb5</code>)</li>
+  <li><code>core/technical-appendix/TechnicalAppendix_v0.0.5.html</code> + <code>TechnicalAppendix_v0.0.5_supplement.md</code> (commits <code>148266f</code> + <code>c07a7c1</code>)</li>
+  <li><code>research/literature/bibliography.md</code> (commit <code>f96158a</code>)</li>
+  <li><code>alignment/commons_bonds_working_principles_v1.0.0.md</code> — Working Principles 1-6</li>
+  <li><code>alignment/commons_bonds_open_insights_v1.0.0.md</code> — Open Insights queue (#10-#20)</li>
+  <li><code>tools/rigor-passes/</code> — ~32 rigor passes from today (each ratified ratification + each rigor cycle has a record)</li>
+</ol>
+</div>
+
+<p style="text-align: center; color: #888; font-size: 0.85em; margin-top: 3em;">— End of v1.44.0 handoff. Three rigor cycles complete today (Phase A3 Stream A sweep + M12 + academic-rigor full test). Framework is M12-clean and academically defensible with Phase B work items + author personal-stories task queued. Next: personal-stories dump + Block 4 validation + Phase B authoring. —</p>
+
+</body>
+</html>
