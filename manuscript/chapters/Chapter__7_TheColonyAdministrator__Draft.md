@@ -110,19 +110,19 @@ This has an implication for the policy work the later chapters take up. The clos
 
 A natural consequence of the cross-scenario testing is a recognition that the framework does not treat all resources the same, because the framework's parameters do not treat all resources the same. For some resources, the residual commons value collapses to near the market price — the framework adds little, and market pricing is approximately correct. For others, it is orders of magnitude higher than the market price — the framework reveals severe and systematic underpricing. The difference between these two classes is a property of the resource itself, not a choice made by the analyst.
 
-The book uses the term civilizational substitutability gap, abbreviated CSG, for this property. A resource's civilizational substitutability gap is the difference between its substitutability for current industrial applications and its substitutability for possible long-term civilizational applications — the applications, known and unknown, that a species with a two-hundred-year planning horizon would want to keep options open for.
+The book calls this property the *industrial-existential substitutability gap*. A resource's industrial-existential substitutability gap is the difference between its substitutability for current industrial applications and its substitutability for possible long-term civilizational applications — the applications, known and unknown, that a species with a two-hundred-year planning horizon would want to keep options open for. Per the framework's Substitutability Function S, this gap is the difference S_max(industrial) − S_max(existential).
 
-Coal has a CSG near zero. Electricity from coal is readily substitutable today; no foreseeable civilizational application requires coal as a specific input. Sand, common iron ore, and common stone are similar — abundant, substitutable, zero civilizational substitutability gap.
+Coal has a industrial-existential substitutability gap near zero. Electricity from coal is readily substitutable today; no foreseeable civilizational application requires coal as a specific input. Sand, common iron ore, and common stone are similar — abundant, substitutable, zero industrial-existential substitutability gap.
 
-Conventional oil, copper, and zinc have low CSG. Substitutable for most current applications; no clear civilizational applications that uniquely require them.
+Conventional oil, copper, and zinc have low industrial-existential substitutability gap. Substitutable for most current applications; no clear civilizational applications that uniquely require them.
 
-Uranium, lithium, and cobalt have moderate CSG. Substitutable for some applications; important strategic roles in specific technologies; future applications plausibly but not certainly dependent on these particular materials.
+Uranium, lithium, and cobalt have moderate industrial-existential substitutability gap. Substitutable for some applications; important strategic roles in specific technologies; future applications plausibly but not certainly dependent on these particular materials.
 
-Rare earth elements and platinum group metals have high CSG. Their specific magnetic, catalytic, and electronic properties are required for technologies that have not yet been invented but which almost any civilization with advanced manufacturing will need. Substitutes exist for some current applications; no clear path to substitutes for all applications; high probability that at least some future applications cannot be served without them.
+Rare earth elements and platinum group metals have high industrial-existential substitutability gap. Their specific magnetic, catalytic, and electronic properties are required for technologies that have not yet been invented but which almost any civilization with advanced manufacturing will need. Substitutes exist for some current applications; no clear path to substitutes for all applications; high probability that at least some future applications cannot be served without them.
 
-Helium-3 occupies a unique category — conditionally high CSG. If deuterium-helium-3 fusion becomes viable, helium-3 becomes one of the most strategically important resources in the accessible solar system. If it does not, helium-3 is a curiosity. The classification is contingent on a technology that has not yet been demonstrated.
+Helium-3 occupies a unique category — conditionally high industrial-existential substitutability gap. If deuterium-helium-3 fusion becomes viable, helium-3 becomes one of the most strategically important resources in the accessible solar system. If it does not, helium-3 is a curiosity. The classification is contingent on a technology that has not yet been demonstrated.
 
-The CSG ranking is not a complete map of what to reserve and what to extract. It is the input that, combined with the stock estimate and the externality tail for each resource class, produces the reservation policy the later chapters will develop. For the moment, it is enough to observe that the ranking produces intuitively correct answers and that the framework's logic supports those intuitions: the things we should worry about reserving for our descendants are the things whose civilizational substitutability gap is high, because those are the things our descendants might need and cannot replace.
+The industrial-existential substitutability gap ranking is not a complete map of what to reserve and what to extract. It is the input that, combined with the stock estimate and the externality tail for each resource class, produces the reservation policy the later chapters will develop. For the moment, it is enough to observe that the ranking produces intuitively correct answers and that the framework's logic supports those intuitions: the things we should worry about reserving for our descendants are the things whose industrial-existential substitutability gap is high, because those are the things our descendants might need and cannot replace.
 
 ---
 
@@ -132,7 +132,7 @@ The summary of the universality test fits in a small table. Each scenario is run
 
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
-| Scenario | RCV | Cost Severance | CSG | Model's recommendation |
+| Scenario | RCV | Cost Severance | industrial-existential substitutability gap | Model's recommendation |
 | Asteroid iron | Very low | Near zero | Near zero | Extract freely |
 | Mars water, pre-colony | Extreme | Extreme | Maximum | Preserve absolutely |
 | Mars rare earths, inhabited colony | High | Near zero (self-bearing) | High | Extract carefully; costs borne locally |

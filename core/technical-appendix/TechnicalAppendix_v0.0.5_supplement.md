@@ -23,15 +23,15 @@ The HTML file `TechnicalAppendix_v0.0.5.html` is `TechnicalAppendix_v0.0.4.html`
 | Version 0.0.4 (header) | Version 0.0.5 | 1 | (this commit) |
 | v0.0.4 (filename refs) | v0.0.5 | 2 | (this commit) |
 
-**Stale terms NOT swept** (retired terms that cannot be string-replaced without breaking sentences — Phase B materialization will rewrite these passages):
+**Stale terms — sweep status (corrected 2026-04-24 in M12 sweep rigor pass `..._m12_intellectual_honesty_sweep_v1.0.0.md`):**
 
-| Stale term | Count | Status | Successor |
+| Stale term | Count (originally) | Status | Successor / sweep disposition |
 |---|---|---|---|
-| CSG (Cost Severance Gap) | 22 | RETIRED on parsimony grounds | Use the underlying primitive: CS = RCV − B. Don't name derivations of primitives. (See `core/terms/terms_index.md` retired-terms section.) |
-| FGC | 15 | RETIRED (8-tier-vintage acronym) | Use Foreclosure Cost (C₁) or the appropriate tier name. |
-| Universality Test | 1 | RETIRED — replaced by structural-vs-topical pairing diagnostic. | See rigor pass `commons_bonds_rigor_pass_2026-04-24_term_universality_test_re_examination_v1.0.0.md`. |
+| CSG (**Civilizational Substitutability Gap** — *NOT* "Cost Severance Gap"; the original v0.0.5 supplement misexpanded the acronym; corrected here) | 22 | RETIRED 2026-04-24 on parsimony grounds (commit `3ec3707`) — CSG is a derivation of S (S_max(industrial) − S_max(existential)); framework doesn't name derived scalars. | **SWEPT 2026-04-24 in M12 sweep.** Replaced inline with prose "industrial-existential substitutability gap" per terms_index §792 ratified replacement. Tech Appendix §G formula retained as sub-entry under Substitutability Function. (Some passages may carry redundant "(CSG)" parentheticals after sed sweep — Phase B Tech Appendix authoring pass should clean those up.) |
+| FGC | 15 | RETIRED (8-tier-vintage acronym) — context-meaning shifts per occurrence | NOT swept (passage rewrite required, not string substitution). Phase B Tech Appendix authoring pass — replace with Foreclosure Cost (C₁) or appropriate tier-name spelled out per local context. |
+| Universality Test | 1 | RETIRED — replaced by structural-vs-topical pairing diagnostic (no single named referent). | NOT swept (passage rewrite required). Phase B Tech Appendix authoring pass. See rigor pass `commons_bonds_rigor_pass_2026-04-24_term_universality_test_re_examination_v1.0.0.md`. |
 
-**Reading-discipline note for v0.0.5 HTML:** Wherever the HTML references CSG / FGC / "Universality Test", read those passages with the reader-correction in mind. Phase B authoring pass will rewrite the affected sections. Until then, this supplement + `core/glossary/commons_bonds_updated_glossary_v3.html` + `core/terms/terms_index.md` are canonical-source-of-truth.
+**Reading-discipline note for v0.0.5 HTML:** Wherever the HTML references FGC / "Universality Test", read those passages with the reader-correction in mind. Phase B authoring pass will rewrite the affected sections. CSG references have been swept inline as of M12 sweep. Until then, this supplement + `core/glossary/commons_bonds_updated_glossary_v3.html` + `core/terms/terms_index.md` are canonical-source-of-truth.
 
 ---
 

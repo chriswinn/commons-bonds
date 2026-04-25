@@ -90,24 +90,22 @@
 </table>
 </div>
 
-<h2>New M12 finding (NOT YET RESOLVED)</h2>
+<h2>v1.43.0 self-correction (made in M12 sweep, this same session)</h2>
 
-<div class="watch">
-<h3>Ch 7+9 CSG acronym collision — needs dedicated M12 rigor pass</h3>
-<p><strong>Finding:</strong> Ch 7 (TheColonyAdministrator) and Ch 9 (TheRenewableImperative) use the acronym CSG to mean <strong>"Civilizational Substitutability Gap"</strong> — a chapter-specific resource-classification property:</p>
+<div class="status">
+<h3>Original "M12 finding" framing was incorrect — corrected via M12 sweep rigor pass</h3>
+<p><strong>Original (incorrect) framing:</strong> v1.43.0 originally claimed Ch 7+9 use of "CSG" was a <em>collision</em> between two CSGs — chapter-specific "Civilizational Substitutability Gap" vs. framework-retired "Cost Severance Gap" — requiring three resolution options (disambiguate / rename / spell-out).</p>
+<p><strong>Reality (verified against terms_index §792):</strong> there is only <em>one</em> CSG in the framework — Civilizational Substitutability Gap — and it was <em>already retired</em> today on parsimony grounds (commit <code>3ec3707</code>). The Ch 7+9 + Tech Appendix HTML CSG references were <strong>unswept retired-term references</strong>, not collision instances. The chapter-draft sweep in commit <code>9a95e66</code> missed them because the audit pattern was hunting AIT/abundance terms, not retired terms specifically.</p>
+<p><strong>Origin of the misframing:</strong> when drafting the Tech Appendix v0.0.5 supplement (commit <code>148266f</code>), the supplement misexpanded "CSG" as "Cost Severance Gap" without checking the terms_index entry. That misexpansion propagated into v1.43.0. Per Working Principle #6 Corollary B ("'original coinage' requires evidence, not claim" — extended to acronym-expansion claims): the expansion should have been verified against terms_index before being written about.</p>
+<p><strong>Resolution executed in M12 sweep rigor pass</strong> (<code>commons_bonds_rigor_pass_2026-04-24_m12_intellectual_honesty_sweep_v1.0.0.md</code>):</p>
 <ul>
-  <li>Ch 7 line 113: <em>"The book uses the term civilizational substitutability gap, abbreviated CSG, for this property. A resource's civilizational substitutability gap is the difference between its substitutability for current industrial applications and its substitutability for possible long-term civilizational applications..."</em></li>
-  <li>Ch 9 line 5 contains explicit disambiguation note: <em>"CSG, not ESG. The acronym changed (Civilizational Substitutability Gap). I used CSG throughout."</em></li>
+  <li>Tech Appendix supplement corrected to identify CSG as Civilizational Substitutability Gap (not Cost Severance Gap) and to note the prose replacement is "industrial-existential substitutability gap" per terms_index §792.</li>
+  <li>Tech Appendix HTML swept: 22 CSG → "industrial-existential substitutability gap" inline.</li>
+  <li>Ch 7 swept: 7 CSG + 2 lowercase prose → "industrial-existential substitutability gap"; line 113 introduction passage manually rewritten (definition was self-referencing under sed; replaced with prose introduction tied to Substitutability Function S).</li>
+  <li>Ch 9 swept: 25 CSG → "industrial-existential substitutability gap"; lines 5 + 6 stale meta-notes about CSG/ESG and Value Capture/Value Extraction marked superseded with strikethrough.</li>
+  <li>v1.43.0 self-correction documented here; v1.44.0 next-session handoff will reflect M12 sweep COMPLETE state.</li>
 </ul>
-<p><strong>Collision:</strong> the framework-retired CSG = "Cost Severance Gap" (retired on parsimony grounds — derivations of primitives shouldn't be named; see <code>core/terms/terms_index.md</code>). Per M12 / Working Principle #6 + Corollary D 7-level action ladder, this is at minimum a <strong>Level-3 lexical-collision-disambiguated</strong> finding, possibly Level-4 collision-rename-required.</p>
-
-<p><strong>Three resolution options to evaluate in dedicated rigor pass:</strong></p>
-<ol>
-  <li><strong>Disambiguate.</strong> Keep CSG = Civilizational Substitutability Gap; add explicit chapter-opening footnote disambiguating from retired Cost Severance Gap; update terms_index entry for retired CSG to note the chapter-domain re-use.</li>
-  <li><strong>Rename.</strong> Rename Ch 7+9 acronym to avoid collision (e.g., CSubG, CivSubGap, or full-spelled term).</li>
-  <li><strong>Spell out.</strong> Use "civilizational substitutability gap" without acronym throughout Ch 7+9.</li>
-</ol>
-<p>Recommendation: add to next-session M12 sweep agenda; resolve before academic-rigor full test (M12 finding will surface during M6 review).</p>
+<p><strong>M12 sweep verdict:</strong> framework is M12-clean as of 2026-04-24. No PEND items. See M12 sweep rigor pass §5 for full term-by-term audit.</p>
 </div>
 
 <h2>Cumulative state at session end (after v1.43.0 continuation)</h2>
@@ -199,9 +197,9 @@ f96158a  Phase A3 sweep: Bibliography completeness — 7 additional citations lo
 
 <div class="resume">
 <p><strong>Top-priority work (in order):</strong></p>
+<p><em>Note: M12 intellectual-honesty sweep was previously listed here as the next-session top priority. It executed in this same session immediately following v1.43.0 — see the self-correction section above + the M12 sweep rigor pass <code>commons_bonds_rigor_pass_2026-04-24_m12_intellectual_honesty_sweep_v1.0.0.md</code>. Updated priority list:</em></p>
 <ol>
-  <li><strong>M12 intellectual-honesty sweep</strong> across entire framework + glossary, <strong>including the new Ch 7+9 CSG collision finding</strong>. Validates today's M12 work + catches edge-case terms + resolves the CSG collision (three options outlined above).</li>
-  <li><strong>Academic-rigor full test</strong> across the integrated framework as it now stands (post-restructure, post-sweep). Comprehensive M6 + M11 review.</li>
+  <li><strong>Academic-rigor full test</strong> across the integrated framework as it now stands (post-restructure, post-sweep, post-M12). Comprehensive M6 + M11 review.</li>
   <li><strong>Block 4 validation execution</strong> (Norway calibration + Appalachian coal numerical Three Ways estimates) — substantiates Triangulated RCV Estimation falsifiability.</li>
   <li><strong>Sensitivity-analysis execution</strong> (Open Insight #20: σ + α + V_option dominance for Method 3 Scarcity-Adjusted Option Value).</li>
   <li><strong>Tech Appendix v0.0.5 HTML integration</strong> of supplement §2-§7 new sections (deferred to Phase B authoring cycle; supplement is canonical-source-of-truth pointer until then).</li>
@@ -218,13 +216,13 @@ f96158a  Phase A3 sweep: Bibliography completeness — 7 additional citations lo
   <li>Open Insight #19 — CSD-RCV correlation hypothesis (framework's deepest empirical claim; Block 4 tests).</li>
   <li>Open Insight #20 — sensitivity-analysis execution.</li>
   <li>Open Insight #13 — book-scope creep monitoring per v1.0.3 strategy (active across all chapter drafting).</li>
-  <li><span class="new">NEW</span> — Ch 7+9 CSG = Civilizational Substitutability Gap collision (M12 finding; folded into next-session M12 sweep).</li>
+  <li><strike>NEW — Ch 7+9 CSG = Civilizational Substitutability Gap collision (M12 finding; folded into next-session M12 sweep).</strike> <strong>RESOLVED in M12 sweep this session</strong> — was a misframing (no collision; CSG was already retired today; Ch 7+9 + Tech Appendix HTML CSG references were unswept retired-term references). Sweep executed; framework M12-clean.</li>
 </ul>
 
-<p><strong>Stale terms NOT swept this continuation</strong> (require Phase B passage rewrite, not string substitution):</p>
+<p><strong>Stale terms NOT swept</strong> (require Phase B passage rewrite, not string substitution):</p>
 <ul>
-  <li>Tech Appendix v0.0.5 HTML: CSG (22 instances of retired Cost Severance Gap term); FGC (15 instances of retired 8-tier acronym); Universality Test (1 instance of retired test-name). These appear in passages whose semantic structure changes when the term retires; need full rewrite, not search-replace. Phase B work.</li>
-  <li>Phase B authoring cycle should integrate Tech Appendix supplement §2-§7 new sections concurrently with these retired-term rewrites.</li>
+  <li>Tech Appendix v0.0.5 HTML: <strike>CSG (22 instances)</strike> SWEPT in M12 sweep (replaced inline with "industrial-existential substitutability gap"); FGC (15 instances of retired 8-tier acronym) — context-meaning shifts per occurrence, requires passage rewrite; Universality Test (1 instance) — replaced by structural-vs-topical pairing diagnostic with no single named referent, requires passage rewrite. Phase B Tech Appendix authoring pass.</li>
+  <li>Phase B authoring cycle should integrate Tech Appendix supplement §2-§7 new sections concurrently with FGC + Universality Test retired-term rewrites.</li>
 </ul>
 </div>
 
