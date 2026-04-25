@@ -344,13 +344,32 @@ Both pass full 12-module rigor. Each has distinct strengths:
 
 ## §7. Author-ratified resolutions
 
-*Pending author ratification.* Recommended:
+**Ratified 2026-04-24 by Chris Winn — REVERSIBILITY DEFAULT.** Top finalist adopted. ARP (Asymmetric Regret Principle) supersedes to Reversibility Default. Status quo and Asymmetric Regret Rule fallback both rejected.
 
-1. **Adopt Reversibility Default** (top finalist).
-2. **OR adopt Asymmetric Regret Rule** (minimal-change fallback) if authorial-voice considerations favor preserving "regret" framing.
-3. **OR keep Asymmetric Regret Principle** (least-recommended; "Principle" overclaim concern documented in ARP rigor pass).
+**Decisive rationale (from §1 + §5 + parallel to Restitution Bond ratification):**
+- M5 dinner-table strongest — *"default to the option you can undo"* parses immediately.
+- Aphorism aligns directly — *"We can always extract later. We can never un-extract."* IS reversibility-default articulated.
+- No overclaim — "Default" is operationally precise.
+- Decision-theoretic lineage preserved via Tech Appendix footnote (Savage 1951 + Loomes-Sugden 1982 + Rio Declaration 1992 + Dixit-Pindyck 1994 + Lempert-Popper-Bankes 2003).
+- Bidirectional flip-by-context preserved (what's reversible varies by context; Comet flyby vs Europa).
+- Cross-political-tradition adoption breadth preserved (same Option C' discipline applied to Restitution Bond).
+- Open Insight #12 closed-ratified.
 
-Sub-decision is authorial-voice-dependent; rigor pass surfaces tradeoffs. Pass does NOT recommend keeping current name — both finalists outperform on M4 + M5 + overclaim-relief.
+**Phase A3 sweep activated:**
+- ~20 chapter refs (Ch 7 GuidanceDoc 11 refs + Ch 7/9/10 drafts + Tech Appendix) — Tier-1 sweep per Principle #4.
+- Glossary v3 entry rename.
+- Tech Appendix v0.0.5 academic-anchor footnote.
+- Terms Index supersession record (this commit).
+- Older rigor passes + session handoffs — Tier-2 retirement-note headers per Principle #4.
+- Working Principle #5 (context-flipping rules earn named-rule status) — example reference updates from ARP to Reversibility Default.
+- CSG record cross-pairing reference updates.
+
+**What stays the same:**
+- Decision-theoretic content (specialization of Savage minimax-regret with bidirectional-flip-by-context applied to RCV-tail uncertainty).
+- Aphorism *"We can always extract later. We can never un-extract."*
+- Two paradigm cases (Comet flyby — extract; Europa — preserve).
+- Tech Appendix academic positioning (cite Savage + Loomes-Sugden + Lempert + RDM regardless).
+- Principle #5 (context-flipping rules earn named-rule status) — applies regardless of name.
 
 ### §7.1 Sweep scope (any rename adopted)
 

@@ -403,7 +403,15 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
-### Insight #12 — Asymmetric Regret Principle rename sub-decision
+### Insight #12 — Asymmetric Regret Principle rename sub-decision — CLOSED-RATIFIED 2026-04-24
+
+**Resolution 2026-04-24 by Chris Winn:** **Reversibility Default (RD)** ratified as new name. Replaces "Asymmetric Regret Principle." Per ARP rename rigor pass commit `b8b62e3`. Decision-theoretic content unchanged; name aligned with operational instruction + accounting-bookkeeping register + cross-political-tradition adoption breadth. Same Option C' political-philosophical-accommodation discipline that resolved Restitution Bond + 10-list dissolution.
+
+**Phase A3 sweep activated:** ~20 chapter refs (Ch 7 GuidanceDoc + Ch 7/9/10 drafts + Tech Appendix); Glossary v3 entry rename; Working Principle #5 example-reference updates; CSG record cross-pairing reference update; older docs Tier-2 retirement-note headers per Principle #4.
+
+---
+
+### Insight #12 (original content — preserved for provenance)
 
 - **Raised:** 2026-04-24 by me (surfaced during ARP rigor pass; flagged at ratification 2026-04-24 by Chris Winn)
 - **Status:** raised · awaiting author decision (rename is independent of rigor verdict; primary verdict Option A promote Ring 2 already ratified)

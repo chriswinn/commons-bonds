@@ -917,11 +917,94 @@ Tech Appendix §L footnote positions E as temporal-specialization of Pigouvian e
 
 ---
 
-### Asymmetric Regret Principle (ARP)
+### Asymmetric Regret Principle (ARP) — SUPERSEDED 2026-04-24 by Reversibility Default
 
-**Working definition:** Framework-specific operational decision rule — when RCV tails cannot be precisely quantified, default to the reversible option. "We can always extract later. We can never un-extract." Specialization of Savage-style minimax-regret applied to resource-extraction decisions under quantification uncertainty. Bidirectional-flip-by-context — directs extract-aggressively (Comet flyby case: access window closes) OR preserve (Europa case: incommensurable externality) depending on which action is reversible.
+**Status:** `SUPERSEDED` 2026-04-24 by Reversibility Default per ARP rename rigor pass (commit `b8b62e3`) ratified by Chris Winn. The decision-theoretic CONTENT and aphorism *"We can always extract later. We can never un-extract."* preserved unchanged; the NAME updated to align with operational instruction + accounting-bookkeeping register + cross-political-tradition adoption breadth.
 
-**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn — promoted from meta-pass §13.2.c DEFERRED status).
+**Why renamed:** "Principle" overclaimed (operational decision rule, not foundational ethical principle). "Reversibility Default" is operationally precise; matches accounting-bookkeeping register; M5 dinner-table parses immediately; aphorism aligns directly with the name; decision-theoretic lineage preserved via Tech Appendix footnote.
+
+**Supersession trail:** see Reversibility Default record below for current framework element.
+
+**Working definition (prior, retained for historical reference):** Framework-specific operational decision rule — when RCV tails cannot be precisely quantified, default to the reversible option. Specialization of Savage-style minimax-regret applied to resource-extraction decisions under quantification uncertainty. Bidirectional-flip-by-context — directs extract-aggressively (Comet flyby case: access window closes) OR preserve (Europa case: incommensurable externality) depending on which action is reversible.
+
+**Phase A3 sweep targets activated by ARP rename ratification:**
+- ~20 chapter refs (Ch 7 GuidanceDoc 11 refs + Ch 7/9/10 drafts + Tech Appendix) — Tier-1 sweep per Principle #4: replace "Asymmetric Regret Principle" / "ARP" with "Reversibility Default" / "RD."
+- Older rigor passes + session handoffs — Tier-2 retirement-note headers per Principle #4.
+- Working Principle #5 (context-flipping rules earn named-rule status) — example reference updates from ARP to Reversibility Default.
+- CSG record cross-pairing reference: ARP-cited-CSG-context updates to RD-cited-CSG-context.
+
+---
+
+### Reversibility Default (RD)
+
+**Working definition:** Framework-specific Ring-2 operational decision rule — when RCV tails cannot be precisely quantified, default to the option whose action is reversible: extraction when access window closes (Comet flyby), preservation when irreversible damage is at stake (Europa). Aphorism: *"We can always extract later. We can never un-extract."* Specialization of Savage-style minimax-regret with irreversibility-weighted regret tails. Bidirectional-flip-by-context (per Working Principle #5: context-flipping rules earn named-rule status). Aligned with Rio Declaration 1992 precautionary tradition + Lempert-Popper-Bankes 2003 RDM.
+
+**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn — supersedes Asymmetric Regret Principle).
+
+**Term-spec version:** v2.0 (rename from Asymmetric Regret Principle v1.0; framework content unchanged; name updated for operational clarity + cross-political-tradition adoption).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- ARP rigor pass (commit `7f35783`, 2026-04-24) — Ring-2 promotion ratified for the underlying decision rule.
+- ARP rename rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_arp_rename_v1.0.0.md` (commit `b8b62e3`, 2026-04-24) — Reversibility Default top finalist; alternatives tested (Asymmetric Regret Rule fallback; 8 other candidates rejected).
+- Ratification 2026-04-24 by Chris Winn — this commit. Reversibility Default ratified.
+
+**Why "Reversibility Default" (per ARP rename rigor pass §1):**
+- M5 dinner-table strongest — *"default to the option you can undo"* parses immediately.
+- Aphorism aligns directly — the rule's content IS reversibility-default articulated.
+- Operational primacy — name conveys what to DO with the rule.
+- No overclaim — "Default" is operationally precise; doesn't claim foundational principle status.
+- Cross-political-tradition adoption — same Option C' discipline that resolved Restitution Bond.
+- Bidirectional flip-by-context preserved (what's reversible varies by context).
+- Decision-theoretic lineage preserved via Tech Appendix academic anchors (Savage + Loomes-Sugden + Lempert RDM + Rio Declaration + Dixit-Pindyck).
+
+**M12 classification:** Original specialization within counterfactual-reasoning + minimax-regret + precautionary-principle + real-options decision-theoretic lineage. Adjacent traditions cited; framework's contribution is specialization-with-bidirectional-flip + irreversibility-weighted regret-tail framing.
+
+**M12 citations:**
+- Savage, Leonard J. "The Theory of Statistical Decision." *Journal of the American Statistical Association* 46, no. 253 (1951): 55–67. — already in bibliography §16.
+- Loomes & Sugden 1982 *Economic Journal* — already in bibliography §16. Asymmetric-regret theory.
+- Lempert, Popper & Bankes 2003 *Shaping the Next One Hundred Years* — already in bibliography §16. Robust Decision Making.
+- Dixit & Pindyck 1994 — already in bibliography §16. Real-options theory; reversibility-as-decision-axis.
+- Rio Declaration 1992 Principle 15 — precautionary-principle tradition (general international-law reference; Tech Appendix footnote).
+
+**Why Ring 2 (not Ring 1):**
+- Framework-internal operational decision rule, not public-adoption-target vocabulary.
+- Pedagogically useful across Ch 7 / Ch 9 / Ch 10 + Ch 7 GuidanceDoc but not flagship contribution.
+
+**Why NOT retired (despite overlap with Precautionary Principle):**
+- Bidirectional flip-by-context is RD-distinctive; PP is unidirectional.
+- Trigger condition (cost-quantification uncertainty for RCV tails) is specific.
+- 20+ active chapter refs.
+
+**Pairs with:**
+- RCV (Ring 1) — the function over whose tails uncertainty applies.
+- Substitutability Function S (Ring 2) — RD governs decisions about high-substitutability-gap resources.
+- Working Principle #5 (context-flipping rules earn named-rule status) — RD is the originating example.
+- CSD + RCV two-instrument architecture — RD applies to uncertainty in either instrument's tails.
+
+**Aphorism preserved:** *"We can always extract later. We can never un-extract."* This aphorism literally describes reversibility-default; renaming the rule to match the aphorism's actual content is consistent.
+
+**Two paradigm cases (Ch 7) preserved:**
+- **Comet flyby:** access window closes permanently → extraction is reversible-relative-to-losing-access → RD directs extract.
+- **Europa:** incommensurable biosphere externality → preservation is reversible-relative-to-irreversible-damage → RD directs preserve.
+
+**Open Insight #12** (ARP rename sub-decision) — closed-ratified 2026-04-24.
+
+**Staleness triggers:**
+- Framework develops formal minimax-regret treatment that subsumes RD mechanically.
+- Academic adoption shows alternative naming displacing RD.
+- Two paradigm cases (Comet/Europa) restructured in chapter drafting.
+
+**Commit trail:**
+- ARP Ring-2 promotion: commit `7f35783`.
+- ARP rename rigor pass: commit `b8b62e3`.
+- Ratification + Terms Index supersession + RD record: this commit.
+
+**Notes:**
+- Phase A3 sweep targets: Ch 7 GuidanceDoc + Ch 7/9/10 drafts (~20 refs); Tech Appendix v0.0.5 academic-anchor footnote; Glossary v3 entry rename; Working Principle #5 example-reference updates.
+- Decision-theoretic content unchanged; only name updates.
+- Same Option C' political-philosophical-accommodation discipline that resolved Restitution Bond + 10-list dissolution applies — Reversibility Default is operationally primary + cross-tradition-adoption-broad.
 
 **Term-spec version:** v1.0 (first sanctioned spec).
 
