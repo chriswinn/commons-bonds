@@ -648,6 +648,103 @@ Added 2026-04-24 per Three Ways + RCV Formal-Model rigor pass ratification (Chri
 
 ---
 
+## 18.6. Resource economics + sustainability accounting (additional Hotelling-extension lineage)
+
+Added 2026-04-24 per Phase A3 sweep — load-bearing on multiple ratified Ring-2 elements (Hotelling Identity, Triangulated RCV Estimation Methods 1+2, B2 Foreclosure Bond). Per Chris directive: ensure all referenced documents are in the bibliography.
+
+### Hartwick, John M. "Intergenerational Equity and the Investing of Rents from Exhaustible Resources." *American Economic Review* 67, no. 5 (1977): 972–974.
+
+- **Summary:** Foundational result in resource economics — if the rent on a non-renewable resource is fully invested in reproducible capital, consumption can be sustained indefinitely (Hartwick rule). Companion to Hotelling 1931.
+- **Relevance:** **LOAD-BEARING** for B2 (Foreclosure Bond) sub-instrument record + Norway-as-canonical-B2 designation + Triangulated RCV Estimation Method 2. Norway's Government Pension Fund Global directly operationalizes Hartwick's rule. Framework's B2 instrument cluster (sovereign wealth funds; reclamation bonds; etc.) sits in Hartwick territory.
+- **Relationship:** **STRONG SUPPORT (foundational lineage extended).**
+- **Chapter relevance:** Ch 4 (Norway as Hartwick-rule operationalization); Ch 6 The Contribution section (commons-governance + Pigouvian + Hotelling + Hartwick triad-plus-one of intellectual lineage); Tech Appendix v0.0.5 §B2 formalism.
+- **Rigor provenance:** Hotelling Identity rigor pass (commit `5b8ff42`); B = B1 + B2 decomposition rigor pass (commit `ab24a8e`); Triangulated RCV Estimation rigor pass (commit `4f48c48`).
+- **Status:** ratified 2026-04-24.
+
+### Solow, Robert M. "Intergenerational Equity and Exhaustible Resources." *Review of Economic Studies* 41 (1974): 29–45.
+
+- **Summary:** Foundational paper on intergenerational equity in resource economics; develops the maximin-consumption framework that Hartwick's rule operationalizes.
+- **Relevance:** Adjacent lineage for B2 + Triangulated RCV Estimation Method 2. Cited in Hotelling Identity rigor pass + B2 record as foundational intergenerational-equity precedent.
+- **Relationship:** **SUPPORT.**
+- **Chapter relevance:** Tech Appendix v0.0.5 methodological footnote on intergenerational-equity tradition.
+- **Rigor provenance:** Hotelling Identity rigor pass; Triangulated RCV Estimation rigor pass.
+- **Status:** ratified 2026-04-24. **Solow: Nobel Memorial Prize in Economic Sciences, 1987.**
+
+### Pearce, David W., and Atkinson, Giles D. "Capital theory and the measurement of sustainable development: an indicator of weak sustainability." *Ecological Economics* 8 (1993): 103–108.
+
+- **Summary:** Sustainability accounting framework asking whether countries' capital accumulation exceeds natural-capital depletion (Adjusted Net Saving / Genuine Savings indicator).
+- **Relevance:** Adjacent lineage for the framework's commons-perspective accounting. Cited in Hotelling Identity rigor pass as adjacent-tradition.
+- **Relationship:** **SUPPORT.**
+- **Chapter relevance:** Tech Appendix v0.0.5 methodological footnote on sustainability-accounting tradition.
+- **Rigor provenance:** Hotelling Identity rigor pass (optional Tech Appendix depth addition).
+- **Status:** ratified 2026-04-24.
+
+### Costanza, Robert, et al. "The value of the world's ecosystem services and natural capital." *Nature* 387 (1997): 253–260.
+
+- **Summary:** Landmark valuation of global ecosystem services; established replacement-cost methodology for ecological commons.
+- **Relevance:** **LOAD-BEARING** for Triangulated RCV Estimation Method 1 (Replacement Cost lower bound). Costanza et al.'s replacement-cost methodology is the methodological lineage for Method 1's substitutable-component pricing.
+- **Relationship:** **STRONG SUPPORT (methodology adopted).**
+- **Chapter relevance:** Ch 6 Three Ways of Counting (Method 1 framing); Tech Appendix v0.0.5 Method 1 formalism.
+- **Rigor provenance:** Triangulated RCV Estimation rigor pass (commit `4f48c48`); Three Ways + RCV Formal-Model rigor pass (commit `1c8e4dd`).
+- **Status:** ratified 2026-04-24.
+
+### Ramsey, Frank P. "A Mathematical Theory of Saving." *Economic Journal* 38, no. 152 (1928): 543–559.
+
+- **Summary:** Foundational paper on intergenerational discounting and optimal saving — established the formal mathematics of how to value future welfare against present consumption.
+- **Relevance:** Foundational intergenerational-discount-rate framework cited in IPG (Intergenerational Pricing Gap) rigor pass + Triangulated RCV Estimation Method 2 lineage. The Ramsey formula is the standard structure social-discount-rate debates engage (Stern-Nordhaus controversy turned on Ramsey-formula calibration).
+- **Relationship:** **SUPPORT (foundational lineage; cited in Tech Appendix).**
+- **Chapter relevance:** Tech Appendix v0.0.5 methodological footnote on intergenerational-discount-rate tradition; cross-reference for Stern Review + Nordhaus DICE.
+- **Rigor provenance:** IPG rigor pass (commit `256e34d`); Triangulated RCV Estimation rigor pass.
+- **Status:** ratified 2026-04-24.
+
+---
+
+## 18.7. Welfare-state design + civic-republican autonomy (Restitution Bond + Autonomy commons grounding)
+
+Added 2026-04-24 per Phase A3 sweep — load-bearing on ratified B1 (Restitution Bond) + Autonomy commons category political-philosophical-acknowledgment passages.
+
+### Esping-Andersen, Gøsta. *The Three Worlds of Welfare Capitalism.* Princeton University Press, 1990.
+
+- **Summary:** Foundational typology of welfare-state regimes (liberal / conservative-corporatist / social-democratic). Establishes welfare-state architecture as institutional-design space with distinct decommodification + stratification trajectories.
+- **Relevance:** Lineage for B1 (Restitution Bond) sub-instrument; welfare-state design tradition is the backward-looking accountability-architecture B1 instruments operate within.
+- **Relationship:** **SUPPORT.**
+- **Chapter relevance:** Ch 5 (accountability gap — B1 instrument cluster grounding); Ch 9 (policy economy — welfare-state architecture as B1 territory); Tech Appendix v0.0.5 B1 formalism.
+- **Rigor provenance:** B = B1 + B2 decomposition rigor pass (commit `ab24a8e`); B1 + B2 naming rigor pass (commit `8e6a5b2`).
+- **Status:** ratified 2026-04-24.
+
+### Pettit, Philip. *Republicanism: A Theory of Freedom and Government.* Oxford University Press, 1997.
+
+- **Summary:** Foundational contemporary statement of civic-republican political philosophy — freedom as non-domination requiring institutional architecture (rule of law; protection from arbitrary power) rather than mere non-interference.
+- **Relevance:** Lineage for Autonomy commons category political-philosophical-acknowledgment passage (Ch 6 + Tech Appendix). Pettit's civic-republican framing positions autonomy as non-domination requiring shared institutions = commons-like infrastructure.
+- **Relationship:** **SUPPORT (one tradition the framework accommodates per Option C' discipline).**
+- **Chapter relevance:** Ch 6 Autonomy-as-commons political-philosophical-acknowledgment passage; Tech Appendix v0.0.5 autonomy-commons formal treatment.
+- **Rigor provenance:** Commons-as-Structural-Identity rigor pass (commit `c4b09dc`); 10-Commons-List Dissolution Option C' (commit `e30087e`); Open Insight #18.
+- **Status:** ratified 2026-04-24.
+
+### Skinner, Quentin. *Liberty Before Liberalism.* Cambridge University Press, 1998.
+
+- **Summary:** Historical-republican-tradition recovery — examines pre-liberal conceptions of freedom (especially Roman + early-modern republican thought) as freedom-from-domination.
+- **Relevance:** Companion to Pettit 1997; provides historical depth for civic-republican autonomy framing in Autonomy-as-commons political-philosophical-acknowledgment.
+- **Relationship:** **SUPPORT.**
+- **Chapter relevance:** Tech Appendix v0.0.5 methodological footnote (optional depth addition for Pettit-Skinner lineage).
+- **Rigor provenance:** Commons-as-Structural-Identity rigor pass; 10-Commons-List Dissolution Option C'.
+- **Status:** ratified 2026-04-24.
+
+---
+
+## 18.8. International-law precautionary principle (Asymmetric Regret Rule adjacent)
+
+### United Nations. *Rio Declaration on Environment and Development.* Principle 15 (Precautionary Principle). UNCED, Rio de Janeiro, 1992.
+
+- **Summary:** International environmental-law principle — "Where there are threats of serious or irreversible damage, lack of full scientific certainty shall not be used as a reason for postponing cost-effective measures to prevent environmental degradation."
+- **Relevance:** Adjacent tradition for Asymmetric Regret Rule (ARR) — both reason about decision-making under uncertainty with bias toward caution. ARR is bidirectional (flips by which action is reversible); Precautionary Principle is unidirectional (always toward preventive action). Distinct but adjacent.
+- **Relationship:** **ADJACENT (related but distinct decision rule).**
+- **Chapter relevance:** Tech Appendix v0.0.5 ARR methodological footnote (Savage + Loomes-Sugden + Lempert RDM + Rio Declaration as decision-theoretic + international-law precautionary triad).
+- **Rigor provenance:** ARP rigor pass (commit `7f35783`); ARP rename rigor pass (commit `b8b62e3`).
+- **Status:** ratified 2026-04-24.
+
+---
+
 ## 19. Supporting sources not yet integrated
 
 Placeholder for additions as they emerge. Candidate additions:
