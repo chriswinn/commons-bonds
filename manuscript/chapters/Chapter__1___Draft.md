@@ -57,7 +57,7 @@ This is the sharpest demonstration of the framework you can make, because it for
 - *Audience-recognition bridge for knowledge-worker readers.*
 - *Information-asymmetric self-severance demonstration (past-self extracted value; future-self bore cost).*
 - *No-villain framing reinforced (apartment manager not malicious; pricing architecture missing).*
-- *Decision-time-tool demonstration (what informal AIT/CIT + RCV would have surfaced at lease-signing).*]
+- *Decision-time-tool demonstration (what informal CIT + RCV would have surfaced at lease-signing).*]
 
 ---
 
