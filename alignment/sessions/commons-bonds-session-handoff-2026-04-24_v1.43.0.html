@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-04-24 · v1.43.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .decision     { background: #f3e8ff; border-left: 4px solid #7a3ea1; padding: 1em 1.2em; margin: 1em 0; }
+  .operating    { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .milestone    { background: #e8f2fa; border-left: 4px solid #2a5a8c; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .snippet      { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .version  { font-family: monospace; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff 2026-04-24 · v1.43.0</h1>
+<p class="meta"><strong>Date:</strong> 2026-04-24 · <strong>Version:</strong> 1.43.0 (supersedes v1.42.0; same-day continuation) · <strong>Phase:</strong> A3 Stream A sweep <span class="done">COMPLETE</span> · <strong>Next:</strong> M12 intellectual-honesty sweep + academic-rigor full test</p>
+
+<div class="top-priority">
+<h2>v1.43.0 = v1.42.0 + Phase A3 Stream A sweep complete</h2>
+<p>v1.42.0 (commit <code>4a25e7f</code>) was authored after the framework structural-restructure ratifications but <em>before</em> the cross-document sweep that materializes those ratifications across the active framework docs. v1.43.0 captures the <strong>Phase A3 Stream A sweep</strong> work that landed in five subsequent commits (<code>5123da6</code> · <code>f96158a</code> · <code>ce6b7db</code> · <code>00e877b</code> · <code>4304cb5</code> · <code>148266f</code> · <code>9a95e66</code>). Today's framework structural-restructure work is now <strong>materialized across all active framework docs</strong> — Glossary, Bibliography, Methodology, Rigor Protocol, Tech Appendix, Chapter Guidance Docs, and Chapter Drafts.</p>
+<p>One <strong>new M12 finding</strong> surfaced during the sweep that was not visible at v1.42.0 time: <strong>Ch 7+9 use the acronym CSG to mean "Civilizational Substitutability Gap"</strong> — a chapter-specific resource-classification property that collides with the framework-retired CSG ("Cost Severance Gap"). Logged for next-session M12 dedicated rigor pass.</p>
+</div>
+
+<h2>What landed in this continuation (post-v1.42.0)</h2>
+
+<div class="milestone">
+<h3>Phase A3 Stream A sweep — seven commits</h3>
+
+<table>
+  <tr><th>Commit</th><th>Scope</th><th>Status</th></tr>
+  <tr>
+    <td><code>5123da6</code></td>
+    <td><strong>Glossary v2 → v3</strong> — full Phase A3 framework restructure ratifications integrated. 406 lines: Ring 1 + Ring 2 + Architecture (Two-Instrument + Four Gates) + Commons Categories (10 examples not canonical with political-philosophical acknowledgment passage) + Retired Terms section + Key Revisions + provenance pointer per Working Principle #4.</td>
+    <td class="done">DONE</td>
+  </tr>
+  <tr>
+    <td><code>f96158a</code></td>
+    <td><strong>Bibliography completeness</strong> — 7 additional citations load-bearing on today's ratified Ring-2 elements added per Chris's "make sure all referenced documents are in the bibliography!" directive: Hartwick 1977, Solow 1974, Pearce-Atkinson 1993, Costanza 1997, Ramsey 1928, Esping-Andersen 1990, Pettit 1997, Skinner 1998, Rio Declaration 1992 (§18.6, §18.7, §18.8 added).</td>
+    <td class="done">DONE</td>
+  </tr>
+  <tr>
+    <td><code>ce6b7db</code></td>
+    <td><strong>Chapter Guidance Docs</strong> — Ch 1, 6, 7 updated for AIT→CIT + ARP→ARR + commons-reframing terminology. Ch 1 line 239: "AIT method" → "CIT method"; "three distinctions" → "four distinctions". Ch 6 lines 304-305: Four Gates and The Contribution descriptions updated to reference CIT and Units Consistency. Ch 7 header note + "applies AIT to" → "applies CIT (Commons Inversion Test; renamed from AIT 2026-04-24) to" × 3; Path F note updated to commons-reframing language. Ch 2-5, 8-10 verified clean (no AIT/ARP/abundance-dimension refs).</td>
+    <td class="done">DONE</td>
+  </tr>
+  <tr>
+    <td><code>00e877b</code></td>
+    <td><strong>Methodology doc v1.3.0 → v1.4.0</strong> (Tier-1 update header per Working Principle #4; file path retains <code>_v1_3_0</code> slug pending Phase B full-rewrite/rename). Title: "Abundance Dimensions" → "Commons Categories (10 examples, not canonical)". §0.0 v1.4.0 change log added. §1 reframed: AIT positioning → CIT positioning + commons-as-structural-identity. §2 header: "10 canonical abundance dimensions" → "10 commons categories surfaced to date". §4 set-completeness reframed under Option C'. AIT → CIT swept. Per-category rich profiles preserved unchanged as pedagogical evidence.</td>
+    <td class="done">DONE</td>
+  </tr>
+  <tr>
+    <td><code>4304cb5</code></td>
+    <td><strong>Rigor protocol v2.3.0 → v2.4.0</strong> (Tier-1 update header). Header bumped with new absorption section explaining three same-day ratifications (commons-as-structural-identity + AIT→CIT + 10-list dissolution Option C'). AIT → CIT swept (~55 instances). "Abundance Inversion Test" → "Commons Inversion Test". §5.6 ELABORATION list: "10 abundance dimensions" → "10 commons categories (examples, not canonical)" with Option C' framing. M1.1 + M6.3 module names absorb CIT rename (test logic identical). Per-module test content unchanged.</td>
+    <td class="done">DONE</td>
+  </tr>
+  <tr>
+    <td><code>148266f</code></td>
+    <td><strong>Tech Appendix v0.0.4 → v0.0.5 + supplement</strong>. (1) <code>TechnicalAppendix_v0.0.5.html</code> — renamed from v0.0.4 with in-place sed sweep: AIT → CIT × 18, "Abundance Inversion Test" → "Commons Inversion Test" × 7, "abundance dimension" → "commons category" × 10, "Asymmetric Regret Principle" → "Asymmetric Regret Rule" × 2, "Spatial CS" → "Cost Severance" × 2, internal version markers bumped. Per-section content NOT changed. (2) <code>TechnicalAppendix_v0.0.5_supplement.md</code> — 339-line Tier-1 supersession sidecar drafting all v0.0.5 NEW SECTIONS in markdown form: §2 Two-Instrument Architecture (CSD + RCV) · §3 Triangulated RCV Estimation (Three Ways) · §4 B = B₁ + B₂ decomposition · §5 Hotelling Identity · §6 CIT formal spec + Four Gates · §7 ARR · §8 Working Principles + Open Insights · §10 Phase B materialization plan. Stale terms NOT swept (CSG × 22, FGC × 15, Universality Test × 1) — flagged for Phase B passage rewrite.</td>
+    <td class="done">DONE</td>
+  </tr>
+  <tr>
+    <td><code>9a95e66</code></td>
+    <td><strong>Chapter drafts</strong> — Ch 1 Draft line 60 "informal AIT/CIT + RCV" → "informal CIT + RCV". Ch 6 ThreeWaysofCounting HTML draft sed-swept: AIT → CIT × 6 + "Abundance Inversion Test" → "Commons Inversion Test" × 2 + "abundance dimension" → "commons category" × 1. Ch 2/4/5/8/10 markdown drafts audited clean. Ch 6 SupplementaryDrafts file references AIT intentionally (meta-document). <strong>Ch 7+9 CSG = "Civilizational Substitutability Gap" collision flagged for next-session M12 sweep.</strong></td>
+    <td class="done">DONE</td>
+  </tr>
+</table>
+</div>
+
+<h2>New M12 finding (NOT YET RESOLVED)</h2>
+
+<div class="watch">
+<h3>Ch 7+9 CSG acronym collision — needs dedicated M12 rigor pass</h3>
+<p><strong>Finding:</strong> Ch 7 (TheColonyAdministrator) and Ch 9 (TheRenewableImperative) use the acronym CSG to mean <strong>"Civilizational Substitutability Gap"</strong> — a chapter-specific resource-classification property:</p>
+<ul>
+  <li>Ch 7 line 113: <em>"The book uses the term civilizational substitutability gap, abbreviated CSG, for this property. A resource's civilizational substitutability gap is the difference between its substitutability for current industrial applications and its substitutability for possible long-term civilizational applications..."</em></li>
+  <li>Ch 9 line 5 contains explicit disambiguation note: <em>"CSG, not ESG. The acronym changed (Civilizational Substitutability Gap). I used CSG throughout."</em></li>
+</ul>
+<p><strong>Collision:</strong> the framework-retired CSG = "Cost Severance Gap" (retired on parsimony grounds — derivations of primitives shouldn't be named; see <code>core/terms/terms_index.md</code>). Per M12 / Working Principle #6 + Corollary D 7-level action ladder, this is at minimum a <strong>Level-3 lexical-collision-disambiguated</strong> finding, possibly Level-4 collision-rename-required.</p>
+
+<p><strong>Three resolution options to evaluate in dedicated rigor pass:</strong></p>
+<ol>
+  <li><strong>Disambiguate.</strong> Keep CSG = Civilizational Substitutability Gap; add explicit chapter-opening footnote disambiguating from retired Cost Severance Gap; update terms_index entry for retired CSG to note the chapter-domain re-use.</li>
+  <li><strong>Rename.</strong> Rename Ch 7+9 acronym to avoid collision (e.g., CSubG, CivSubGap, or full-spelled term).</li>
+  <li><strong>Spell out.</strong> Use "civilizational substitutability gap" without acronym throughout Ch 7+9.</li>
+</ol>
+<p>Recommendation: add to next-session M12 sweep agenda; resolve before academic-rigor full test (M12 finding will surface during M6 review).</p>
+</div>
+
+<h2>Cumulative state at session end (after v1.43.0 continuation)</h2>
+
+<div class="milestone">
+<h3>Framework structural-restructure work — fully materialized</h3>
+<p>All today's ratifications are now reflected in:</p>
+<ul>
+  <li><strong>Glossary v3</strong> (canonical) — Ring 1 / Ring 2 / Architecture / Commons Categories / Retired Terms</li>
+  <li><strong>Terms index</strong> (provenance source-of-truth) — every term's origin, status, retire/rename history</li>
+  <li><strong>Bibliography</strong> — 17 new citations + 7 completeness-pass additions; all load-bearing references present</li>
+  <li><strong>Methodology doc v1.4.0</strong> (Tier-1) — Option C' commons-as-structural-identity reframing</li>
+  <li><strong>Rigor protocol v2.4.0</strong> (Tier-1) — AIT→CIT swept; M12 module preserved</li>
+  <li><strong>Tech Appendix v0.0.5</strong> + supplement — terminology swept inline; new sections drafted in markdown supplement awaiting HTML integration on next authoring pass</li>
+  <li><strong>Chapter Guidance Docs</strong> — all 10 verified or updated</li>
+  <li><strong>Chapter drafts</strong> — Ch 1, Ch 6 HTML swept; Ch 2/4/5/8/10 clean; Ch 7+9 CSG flagged</li>
+  <li><strong>Working Principles 1-6 + Corollaries A, B, D</strong> — codified in <code>alignment/commons_bonds_working_principles_v1.0.0.md</code></li>
+  <li><strong>Open Insights #10-#20</strong> — codified in <code>alignment/commons_bonds_open_insights_v1.0.0.md</code></li>
+</ul>
+</div>
+
+<h3>Major framework structural changes ratified today (carried forward from v1.42.0)</h3>
+
+<p><strong>Reframing #1 — Commons-as-Structural-Identity:</strong></p>
+<ul>
+  <li>The 10 "abundances" → the 10 <strong>commons categories</strong> (per author insight 2026-04-24: <em>"an abundance of water, air, or time isn't a 'variable' or a 'cost' at all... it's a commons!"</em>)</li>
+  <li><strong>AIT → CIT (Commons Inversion Test)</strong> — Ring-1 methodology renamed; framework explicitly extends Ostrom-lineage commons-governance to extraction-contexts</li>
+  <li><strong>Two CIT sub-forms formalized</strong> as methodology contribution: Commons-Absence Inversion (paradigm: McDowell habitability destroyed; oxygen in space) + Commons-Consumption Inversion (paradigm: commute time; 120-hour week; medical-commons of dying-with-dignity)</li>
+  <li><strong>10-list Option C' dissolution</strong> — 10 are EXAMPLES not canonical; framework's universality is about METHOD not enumeration; explicit political-philosophical acknowledgment that what counts as a commons is contested across traditions</li>
+  <li><strong>"Abundance" preserved as STATE-name</strong> for each commons (abundant vs scarce; the state CIT inverts)</li>
+  <li><strong>Abundance Masking</strong> stays unchanged (mechanism-name precision)</li>
+</ul>
+
+<p><strong>Reframing #2 — Two-Instrument Architecture:</strong></p>
+<ul>
+  <li><strong>CSD (Cost Severance Damages)</strong> — backward-looking instrument promoted to Ring 2. Pairs with B1.</li>
+  <li><strong>Triangulated RCV Estimation</strong> ("Three Ways of Counting") — Ring 2; M1 Replacement Cost + M2 Norway Revealed Preference + M3 Scarcity-Adjusted Option Value</li>
+  <li><strong>Hotelling Identity</strong> — Ring 2 with explicit extension-positioning discipline (Hotelling's part = resource rent rule; framework's part = recognition that gap = Cost Severance per unit)</li>
+  <li><strong>B = B1 + B2 decomposition</strong> of Accountability Bond</li>
+  <li><strong>B1 = Restitution Bond</strong> (over "Reparations Bond" — Option C' political-philosophical-accommodation)</li>
+  <li><strong>B2 = Foreclosure Bond</strong> (term-pair coherence with Foreclosure Cost C₁)</li>
+  <li>Norway = canonical existing B2 exemplar (operationalizes Hartwick rule); B1 globally underdeveloped (reparations-economics is the active scholarly territory)</li>
+</ul>
+
+<p><strong>Other Ring-1 / Ring-2 work today:</strong></p>
+<ul>
+  <li><strong>Cost Severance — Option C ratified</strong> (rhetorical bridge to HR/accounting "severance costs" collision via Ch 1 opening)</li>
+  <li><strong>ARP → Asymmetric Regret Rule (ARR)</strong> — last-word rename ("Principle" → "Rule") downgrades overclaim; preserves regret-theory direct-lineage in name; M6 maximum-protective. <em>(Same-day flip: preliminary Reversibility Default ratification reversed when M6 question surfaced.)</em></li>
+  <li>Ring-2 Substitutability Function (S) confirmed</li>
+  <li>Ring-2 Externality Tail (E) confirmed</li>
+  <li>Ring-2 Accountability Bond aggregate confirmed; refined to B = B1 + B2</li>
+  <li>Ring-2 CS = RCV − B equation as named relational claim confirmed</li>
+</ul>
+
+<h2>Commit log (this continuation, post-v1.42.0)</h2>
+
+<pre>
+9a95e66  Phase A3 sweep: Chapter drafts (Ch 1, Ch 6 HTML) — AIT→CIT terminology updates
+148266f  Phase A3 sweep: Tech Appendix v0.0.4 → v0.0.5 — in-place terminology sweep + v0.0.5 supplement (new-section drafts)
+4304cb5  Phase A3 sweep: Rigor protocol v2.3.0 → v2.4.0 — Option C' commons-as-structural-identity reframing + AIT→CIT rename absorbed
+00e877b  Phase A3 sweep: Methodology doc v1.3.0 → v1.4.0 — Option C' commons-as-structural-identity reframing + AIT→CIT rename
+ce6b7db  Phase A3 sweep: Chapter Guidance Docs (Ch 1, 6, 7) — AIT→CIT + ARP→ARR + commons-reframing terminology updates
+f96158a  Phase A3 sweep: Bibliography completeness — 7 additional citations load-bearing on today's ratified Ring-2 elements
+5123da6  Phase A3 sweep: Glossary v2 → v3 — full Phase A3 framework restructure ratifications integrated
+4a25e7f  session handoff v1.41.0 → v1.42.0: framework structural-restructure day complete (cutoff for v1.42.0)
+</pre>
+
+<p>Total commits this session (cumulative across v1.42.0 + v1.43.0 windows): ~57. All committed to <code>origin/main</code> via working branch <code>claude/epic-lamport-d7a6a7</code>.</p>
+
+<h2>Chapter length tracking (per project memory)</h2>
+
+<table>
+  <tr><th>Ch</th><th>Status</th><th>Word count est.</th><th>Target</th><th>Note</th></tr>
+  <tr><td>1</td><td>SCAFFOLD ONLY (post-sweep clean)</td><td>~1,500</td><td>5,000-6,000</td><td>AUTHOR ZONES marked; "informal CIT + RCV" updated this continuation; awaits Chris's voice fill</td></tr>
+  <tr><td>2</td><td>DRAFTED (sweep clean)</td><td>~2,500</td><td>4,000-5,000</td><td>The Miner; consent + agency well-handled</td></tr>
+  <tr><td>3</td><td>DRAFTED (sweep clean)</td><td>~2,000</td><td>4,000-5,000</td><td>(unchanged today)</td></tr>
+  <tr><td>4</td><td>DRAFTED (sweep clean)</td><td>~2,000</td><td>4,000-5,000</td><td>Norway as canonical B2 exemplar (Open Insight #14)</td></tr>
+  <tr><td>5</td><td>DRAFTED (sweep clean)</td><td>~2,500</td><td>4,000-5,000</td><td>Accountability gap; B1+B2 framing pending Phase B</td></tr>
+  <tr><td>6</td><td>DRAFTED HTML (sweep complete) + supplementary drafts</td><td>~5,000</td><td>6,000-8,000</td><td>HTML sed-swept (AIT/abundance terms) this continuation; CIT + 10 commons + political-philosophical acknowledgment; supplementary drafts awaiting Phase B integration</td></tr>
+  <tr><td>7</td><td>DRAFTED (M12 finding pending)</td><td>~3,000</td><td>5,000-6,000</td><td>Asteroid miner; <span class="new">CSG = "Civilizational Substitutability Gap" collision flagged</span></td></tr>
+  <tr><td>8</td><td>DRAFTED (sweep clean)</td><td>~3,000</td><td>5,000-6,000</td><td>What Things Actually Cost</td></tr>
+  <tr><td>9</td><td>DRAFTED (M12 finding pending)</td><td>~2,500</td><td>4,000-5,000</td><td>Renewable Imperative; <span class="new">CSG = "Civilizational Substitutability Gap" collision flagged</span>; B1/B2 conversations pending Phase B</td></tr>
+  <tr><td>10</td><td>DRAFTED (sweep clean)</td><td>~2,000</td><td>3,000-4,000</td><td>Common Bonds closing</td></tr>
+</table>
+
+<p>Aggregate manuscript: ~26,000 words drafted; target ~45,000-50,000. Phase A3 sweep <span class="done">COMPLETE</span> (was previously estimated at 30-50 hours of Phase B work; landed in ~2 hours today via Tier-1 update header pattern + targeted sweeps). Phase B chapter-revision work still pending (per-passage prose updates around the structural-restructure ratifications) but no longer blocked on terminology-sweep dependencies.</p>
+
+<h2>Resume-here for next session</h2>
+
+<div class="resume">
+<p><strong>Top-priority work (in order):</strong></p>
+<ol>
+  <li><strong>M12 intellectual-honesty sweep</strong> across entire framework + glossary, <strong>including the new Ch 7+9 CSG collision finding</strong>. Validates today's M12 work + catches edge-case terms + resolves the CSG collision (three options outlined above).</li>
+  <li><strong>Academic-rigor full test</strong> across the integrated framework as it now stands (post-restructure, post-sweep). Comprehensive M6 + M11 review.</li>
+  <li><strong>Block 4 validation execution</strong> (Norway calibration + Appalachian coal numerical Three Ways estimates) — substantiates Triangulated RCV Estimation falsifiability.</li>
+  <li><strong>Sensitivity-analysis execution</strong> (Open Insight #20: σ + α + V_option dominance for Method 3 Scarcity-Adjusted Option Value).</li>
+  <li><strong>Tech Appendix v0.0.5 HTML integration</strong> of supplement §2-§7 new sections (deferred to Phase B authoring cycle; supplement is canonical-source-of-truth pointer until then).</li>
+  <li><strong>Phase B chapter-revision work</strong> — prose-level integration of structural-restructure ratifications (per-passage revisions; not just terminology). Estimated 30-50 hours.</li>
+</ol>
+
+<p><strong>Standing items / monitoring:</strong></p>
+<ul>
+  <li>Open Insight #14 — Norway-as-canonical-B2 epistemic-humility discipline applied during chapter revision.</li>
+  <li>Open Insight #15 — autonomy-as-commons chapter revision thread (Ch 4/5/6/9/10).</li>
+  <li>Open Insight #16 — CIT two-sub-forms refinement during M12 sweep + academic rigor.</li>
+  <li>Open Insight #17 — Option C' political-philosophical-accommodation discipline (during chapter drafts + reception).</li>
+  <li>Open Insight #18 — autonomy-as-commons placement (Pettit / Skinner republican tradition).</li>
+  <li>Open Insight #19 — CSD-RCV correlation hypothesis (framework's deepest empirical claim; Block 4 tests).</li>
+  <li>Open Insight #20 — sensitivity-analysis execution.</li>
+  <li>Open Insight #13 — book-scope creep monitoring per v1.0.3 strategy (active across all chapter drafting).</li>
+  <li><span class="new">NEW</span> — Ch 7+9 CSG = Civilizational Substitutability Gap collision (M12 finding; folded into next-session M12 sweep).</li>
+</ul>
+
+<p><strong>Stale terms NOT swept this continuation</strong> (require Phase B passage rewrite, not string substitution):</p>
+<ul>
+  <li>Tech Appendix v0.0.5 HTML: CSG (22 instances of retired Cost Severance Gap term); FGC (15 instances of retired 8-tier acronym); Universality Test (1 instance of retired test-name). These appear in passages whose semantic structure changes when the term retires; need full rewrite, not search-replace. Phase B work.</li>
+  <li>Phase B authoring cycle should integrate Tech Appendix supplement §2-§7 new sections concurrently with these retired-term rewrites.</li>
+</ul>
+</div>
+
+<h2>Operating discipline status</h2>
+
+<div class="operating">
+<ul>
+  <li><strong>Working Principles</strong>: 6 ratified (#1 effort-to-repair-not-rigor + Corollaries A & B; #2 audit-concept-not-phrase; #3 misnaming-is-rigor-failure; #4 retirements-preserve-history; #5 context-flipping-rules-earn-named-rule-status; #6 intellectual-honesty-audit + Corollary D 7-level action ladder). Two candidate principles pending in §3.</li>
+  <li><strong>M12 protocol</strong>: ratified as rigor module in v2.4.0 (was v2.3.0 at v1.42.0 cutoff); never skipped in light mode.</li>
+  <li><strong>Tier-1 update header pattern</strong> (Working Principle #4): applied to Methodology doc v1.4.0, Rigor protocol v2.4.0, Tech Appendix v0.0.5 (HTML in-place sweep + markdown supplement sidecar). Pattern works well for HTML files exceeding Read-tool token limits — sed sweeps + supplement sidecars preserve content while materializing ratifications.</li>
+  <li><strong>Push cadence</strong>: each commit pushed to origin/main as it landed (per project memory).</li>
+  <li><strong>HTML editing workflow clarification this continuation:</strong> all files are local-only (Chris's laptop + iCloud sync + GitHub); no Google Docs round-trip required; HTML files editable in current workflow via sed when token-limited.</li>
+  <li><strong>Bibliography rule</strong>: load-bearing on ratified decisions → add immediately; tied to pending → queue. Today: 17 + 7 (completeness pass) = 24 added.</li>
+</ul>
+</div>
+
+<h2>Source-of-truth pointer</h2>
+
+<div class="info">
+<p>For any framework question, canonical-source-of-truth order (most current first):</p>
+<ol>
+  <li><code>core/glossary/commons_bonds_updated_glossary_v3.html</code> (commit <code>5123da6</code>)</li>
+  <li><code>core/terms/terms_index.md</code> — provenance for every term</li>
+  <li><code>core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md</code> — methodology doc v1.4.0 (commit <code>00e877b</code>)</li>
+  <li><code>tools/commons_bonds_rigor_protocol_v2.2.0.md</code> — rigor protocol v2.4.0 (commit <code>4304cb5</code>)</li>
+  <li><code>core/technical-appendix/TechnicalAppendix_v0.0.5.html</code> + <code>TechnicalAppendix_v0.0.5_supplement.md</code> (commit <code>148266f</code>)</li>
+  <li><code>research/literature/bibliography.md</code> (commit <code>f96158a</code>)</li>
+  <li><code>alignment/commons_bonds_working_principles_v1.0.0.md</code> — Working Principles 1-6</li>
+  <li><code>alignment/commons_bonds_open_insights_v1.0.0.md</code> — Open Insights queue (#10-#20)</li>
+  <li><code>tools/rigor-passes/</code> — ~30 rigor passes from today (each ratified ratification has a record)</li>
+</ol>
+</div>
+
+<p style="text-align: center; color: #888; font-size: 0.85em; margin-top: 3em;">— End of v1.43.0 handoff. Phase A3 Stream A sweep <span class="done">COMPLETE</span>. Today's framework structural-restructure work fully materialized across active framework docs. Next: M12 sweep (with new Ch 7+9 CSG finding) + academic-rigor full test. —</p>
+
+</body>
+</html>
