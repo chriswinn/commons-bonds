@@ -236,7 +236,7 @@ Ch 1's "this book is about that structure — or rather, the absence of it" pull
 
 ## Ch 1 and the intellectual-tradition signal (added 2026-04-24 per Phase A2 Task 8)
 
-Chapter 6 now carries a "The Contribution" section that names the framework's intellectual debt to Pigou and articulates three distinctions (substitutability-weighting + integrated architecture + AIT method) with worked comparative examples for McDowell coal + Deepwater Horizon + Libby. That Register 2 content does not belong in Ch 1.
+Chapter 6 now carries a "The Contribution" section that names the framework's intellectual debt to Pigou + Hotelling + commons-governance lineage and articulates four distinctions (substitutability-weighting + integrated architecture + **CIT method (renamed from AIT 2026-04-24)** + commons-governance lineage extension) with worked comparative examples for McDowell coal + Deepwater Horizon + Libby. That Register 2 content does not belong in Ch 1.
 
 What Ch 1 *can* optionally carry — if Chris wants to plant the signal that this book extends an established economics tradition rather than floating free of one — is a single Register 1 sentence somewhere in the origin-story thread. Shape: a quiet acknowledgment that the question the book is asking ("who pays the costs that never appeared on the invoice?") has been asked before and answered incompletely, not a citation and not a literature review. For example: "the question was not new — economists had been naming versions of it for a century — but the answer always stopped short of the part that mattered to the people I was watching." Specific phrasing is Chris's authorial call; the function is to pre-empt the "naive outsider reinvents externality theory" reading without breaking Register 1 discipline.
 
