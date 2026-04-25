@@ -496,17 +496,28 @@ Estimated sweep effort: ~10-15 hours additional Phase A3 Stream A work.
 
 ## §11. Author-ratified resolutions
 
-*Pending author ratification.* Recommended:
+**Ratified 2026-04-24 by Chris Winn — PASS WITH CONDITIONS, with explicit directive that each new framework element gets its own dedicated full rigor pass before being added to the framework.** Author directive: *"we can't add new terms Cost Severance Damages, Triangulated RCV Estimation, Reparations Bonds, Resource-Foreclosure Bond, methods, or things to the framework without due rigor."*
 
-1. **RATIFY all four blocks (PASS WITH CONDITIONS per §9.1).**
-2. **Promote CSD to Ring 2** (new Terms Index record).
-3. **Promote Hotelling Identity to Ring 2** (new Terms Index record).
-4. **Confirm Triangulated RCV Estimation as Ring 2** (new Terms Index record).
-5. **Update Accountability Bond record** to reflect B = B1 + B2 decomposition.
-6. **Add Hotelling 1931 + Darity & Mullen 2020 to bibliography.**
-7. **Open Insights #19 (CSD-RCV correlation hypothesis) + #20 (sensitivity-analysis execution).**
-8. **Tech Appendix v0.0.5 sweep work** activated (~10-15 hours).
-9. **Block 4 validation execution** flagged for Phase A3 / Phase B (Tech Appendix v0.0.5 should publish at least Norway + Appalachian coal calculations).
+**Foundation-level ratifications activated by this pass:**
+1. **All four blocks PASS WITH CONDITIONS** at the framework-architecture level.
+2. **CSD identified as Ring-2 candidate** — promotion requires dedicated rigor pass before Terms Index record creation.
+3. **Hotelling Identity identified as Ring-2 candidate** — promotion requires dedicated rigor pass.
+4. **Triangulated RCV Estimation identified as Ring-2 methodology candidate** — promotion requires dedicated rigor pass.
+5. **B = B1 + B2 decomposition identified as refinement to ratified Accountability Bond** — refinement requires dedicated rigor pass.
+6. **Hotelling 1931 + Darity & Mullen 2020 added to bibliography** as load-bearing on this ratification.
+7. **Open Insights #19 (CSD-RCV correlation hypothesis) + #20 (sensitivity-analysis execution) opened.**
+
+**Per-element rigor passes commissioned by this ratification:**
+- CSD (Cost Severance Damages) — individual full rigor pass.
+- Hotelling Identity — individual full rigor pass.
+- Triangulated RCV Estimation — full rigor pass (includes Method 1 + 2 + 3 as sub-tests).
+- Accountability Bond B = B1 + B2 decomposition — full rigor pass.
+
+**Phase A3 Stream A sweep work activated** (~10-15 hours) but gated on per-element rigor passes ratifying first.
+
+**Tech Appendix v0.0.5 publication target:** publishes Hotelling identity formalism + 3-method specification + validation execution + B1/B2 decomposition. Drafted only after per-element passes ratify.
+
+**Block 4 validation execution:** flagged for Phase A3 / Phase B; numerical calculations for at least Norway + Appalachian coal calibration cases to substantiate falsifiability infrastructure.
 
 ---
 

@@ -620,6 +620,30 @@ Added 2026-04-24 for due-diligence documentation. Sources identified during the 
 
 ---
 
+## 18.5. Resource economics + reparations economics (RCV formal-model grounding)
+
+Added 2026-04-24 per Three Ways + RCV Formal-Model rigor pass ratification (Chris Winn 2026-04-24). These are LOAD-BEARING citations for the framework's central value-estimation apparatus.
+
+### Hotelling, Harold. "The Economics of Exhaustible Resources." *Journal of Political Economy* 39, no. 2 (1931): 137–175.
+
+- **Summary:** Foundational paper on resource economics. Introduced what became known as Hotelling's rule: the rent on a non-renewable resource (market price minus extraction cost) should rise over time at the rate of interest, reflecting the scarcity premium accruing to the extractor as the stock depletes.
+- **Relevance:** **LOAD-BEARING (Hotelling Identity — RCV − Hotelling rent = Cost Severance per unit).** Per Three Ways + RCV Formal-Model rigor pass Block 3 (ratified 2026-04-24): Hotelling rent represents the *extractor's* scarcity premium; RCV represents the *commons'* scarcity premium; the gap between them IS, by definition, Cost Severance per unit. The Hotelling identity provides the framework's clean mathematical bridge to standard resource economics. M6 academic positioning anchor.
+- **Relationship:** **STRONG SUPPORT (foundational lineage extended).** Framework extends Hotelling 1931 via the identity claim positioning RCV as Hotelling-complementary measurement.
+- **Chapter relevance:** Ch 6 "The Contribution" section (commons-governance + Pigouvian + Hotelling triad of intellectual lineage); Tech Appendix Hotelling Identity formalism section; Tech Appendix methodological positioning footnote.
+- **Rigor provenance:** Three Ways + RCV Formal-Model rigor pass 2026-04-24 (commit `1c8e4dd`); ratified by Chris Winn 2026-04-24.
+- **Status:** ratified 2026-04-24.
+
+### Darity, William A., Jr., and A. Kirsten Mullen. *From Here to Equality: Reparations for Black Americans in the Twenty-First Century.* University of North Carolina Press, 2020.
+
+- **Summary:** The contemporary landmark in reparations economics. Develops the wealth-gap-against-comparable-households methodology for calculating reparations claims. Treats reparations as an economic-justice question with quantitative grounding, not solely a political/symbolic question.
+- **Relevance:** **LOAD-BEARING (CSD — Cost Severance Damages — backward-looking instrument).** Per Three Ways + RCV Formal-Model rigor pass Block 1 (ratified 2026-04-24): the framework's two-instrument architecture distinguishes RCV (forward-looking, resource permanent-foreclosure) from CSD (backward-looking, realized human harm). Darity & Mullen's wealth-gap calculation methodology is canonical for the CSD instrument. The framework's CSD measurement applies their methodology to extraction-community contexts (Appalachian coal communities; opioid Appalachia; environmental-justice cases).
+- **Relationship:** **STRONG SUPPORT (methodology adopted + extended).** Framework's CSD methodology adopts Darity & Mullen's matched-comparison approach for extraction-community-vs-non-extraction-community calibration.
+- **Chapter relevance:** Ch 5 (the accountability gap — CSD measurement); Ch 9 (policy economy — reparations bond as B1 instrument); Ch 10 (cross-case synthesis); Tech Appendix CSD formalism.
+- **Rigor provenance:** Three Ways + RCV Formal-Model rigor pass 2026-04-24 (commit `1c8e4dd`); ratified by Chris Winn 2026-04-24.
+- **Status:** ratified 2026-04-24.
+
+---
+
 ## 19. Supporting sources not yet integrated
 
 Placeholder for additions as they emerge. Candidate additions:
