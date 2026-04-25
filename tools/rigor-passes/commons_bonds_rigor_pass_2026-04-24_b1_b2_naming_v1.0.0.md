@@ -330,18 +330,22 @@ Both names pass all 12 modules. Highlights:
 
 ## §10. Author-ratified resolutions
 
-*Pending author ratification.* Recommended:
+**Ratified 2026-04-24 by Chris Winn — Restitution Bond (B1) + Foreclosure Bond (B2).**
 
 1. **B1 = "Restitution Bond"** (replaces "Reparations Bond" working label).
 2. **B2 = "Foreclosure Bond"** (replaces "Resource-Foreclosure Bond" working label).
-3. **Aggregate Accountability Bond v1.2** description updated.
-4. **Phase A3 sweep** activates final names across active framework docs.
+3. **Aggregate Accountability Bond updated to v1.2** with final sub-instrument names.
+4. **Phase A3 sweep** activates final names across active framework docs (Ch 5 + Ch 9 prose; Tech Appendix v0.0.5; Glossary v3 sub-entries).
 
-Alternative ratifications possible:
-- B1 = "Reparations Bond" (preserve working label; preserve direct-lineage signal at political-loading cost).
-- B1 = "Damages Bond" (cleanest legal-register; narrower scope than Restitution).
-- B2 = "Resource-Foreclosure Bond" (preserve working label; preserve descriptive explicitness at length cost).
-- B2 = "Hartwick Bond" (most honest direct-lineage; weakest M5 dinner-table).
+**Final pair structure (ratified):**
+- **Backward-looking pair:** Cost Severance Damages (CSD) ↔ **Restitution Bond (B1)**
+- **Forward-looking pair:** Residual Commons Value (RCV) ↔ **Foreclosure Bond (B2)**
+- **Aggregate:** CS = (CSD − B1) + (RCV − B2) = (CSD + RCV) − (B1 + B2)
+
+**M5 dinner-table for the pair (ratified framing):**
+> *"Two kinds of bonds — Restitution for what was already done to people, Foreclosure for what was permanently taken from the resource."*
+
+**Lineage citations preserved:** Restitution-law tradition + Darity & Mullen 2020 reparations economics + truth-and-reconciliation + toxic-tort + class-action damages + environmental-justice damages all cited in Tech Appendix v0.0.5 as adjacent traditions for B1; Hotelling 1931 + Hartwick 1977 + reclamation-bond literature + EIB + Pigouvian-tax tradition cited for B2. Working-label-political-loading concerns resolved without loss of methodology lineage.
 
 ---
 

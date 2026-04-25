@@ -1628,13 +1628,13 @@ The framework EXTENDS Hotelling 1931 by adding a commons-side measurement to pai
 
 ---
 
-### Accountability Bond — UPDATE: B = B1 + B2 decomposition
+### Accountability Bond — UPDATE: B = B1 + B2 decomposition (v1.2 — final sub-instrument names ratified)
 
-**Working definition update (v1.1, supersedes v1.0):** Aggregate framework instrument B = B1 + B2 closing the Cost Severance gap (CS = RCV − B at aggregate level; expanding via two-instrument architecture: total CS = (CSD − B1) + (RCV − B2)). Sub-decomposed into B1 (Reparations Bond, backward-looking, pairs with CSD) and B2 (Resource-Foreclosure Bond, forward-looking, pairs with RCV).
+**Working definition update (v1.2, supersedes v1.1 working-label sub-instrument names):** Aggregate framework instrument B = B1 + B2 closing the Cost Severance gap (CS = RCV − B at aggregate level; expanding via two-instrument architecture: total CS = (CSD − B1) + (RCV − B2)). Sub-decomposed into **B1 (Restitution Bond, backward-looking, pairs with CSD) and B2 (Foreclosure Bond, forward-looking, pairs with RCV)**. Final sub-instrument names ratified 2026-04-24 via dedicated B1 + B2 naming rigor pass.
 
-**Status:** `CURRENT` at Ring 2 (aggregate ratified 2026-04-24 by Chris Winn; v1.1 update with B = B1 + B2 decomposition ratified 2026-04-24).
+**Status:** `CURRENT` at Ring 2 (aggregate ratified 2026-04-24 by Chris Winn; v1.1 update with B = B1 + B2 decomposition ratified 2026-04-24; v1.2 update with final sub-instrument names ratified 2026-04-24).
 
-**Term-spec version:** v1.1 (aggregate v1.0 plus B = B1 + B2 decomposition; Ring 2 status preserved).
+**Term-spec version:** v1.2 (aggregate v1.0 + B = B1 + B2 decomposition v1.1 + final sub-instrument names v1.2; Ring 2 status preserved).
 
 **Last reviewed:** 2026-04-24.
 
@@ -1643,36 +1643,47 @@ The framework EXTENDS Hotelling 1931 by adding a commons-side measurement to pai
 - Three Ways + RCV Formal-Model pass §7.3 (commit `1c8e4dd`) — surfaced B = B1 + B2 decomposition via Block 1 two-instrument architecture.
 - Three Ways + RCV Formal-Model ratification (commit `66becc5`) — decomposition rigor pass commissioned.
 - B1/B2 decomposition individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_b1_b2_decomposition_v1.0.0.md` (commit `ab24a8e`) — Option A (decomposition ratified) verified with equational consistency check + per-sub-instrument M12 audit.
-- Ratification 2026-04-24 by Chris Winn — this commit.
+- B1 + B2 naming rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_b1_b2_naming_v1.0.0.md` (commit `8e6a5b2`) — Restitution Bond + Foreclosure Bond ratified over working labels (Reparations Bond + Resource-Foreclosure Bond).
+- Aggregate decomposition ratification 2026-04-24 by Chris Winn (commit `56b5fd4`) — B = B1 + B2 + Open Insight #14 refinement.
+- Final names ratification 2026-04-24 by Chris Winn — this commit.
 
 **Equational consistency:** CS = RCV − B holds aggregately; decomposed: total CS = (CSD − B1) + (RCV − B2) = TED − B (Total Extraction Damages minus Total Accountability Bond). Boundary-case instruments (spanning both) decomposed by component.
 
-#### B1 — Reparations Bond (Ring-2 sub-instrument)
+#### B1 — Restitution Bond (Ring-2 sub-instrument)
 
-**Working definition:** Backward-looking accountability-instrument cluster that closes the CSD gap. Mechanisms compensating realized human harm from cost severance — reparations payments, welfare-state instruments (universal healthcare, social-safety-net programs, public pensions), environmental-justice damages compensation, toxic-tort litigation, truth-and-reconciliation processes. Pairs with CSD in two-instrument architecture.
+**Working definition:** Backward-looking accountability-instrument cluster that closes the CSD gap. Mechanisms restoring (in monetary, legal, structural, or rights-based form) what was taken from people via cost severance — restitution payments, reparations programs, welfare-state instruments (universal healthcare, social-safety-net programs, public pensions), environmental-justice damages compensation, toxic-tort litigation, class-action damages, truth-and-reconciliation processes. Pairs with CSD in two-instrument architecture.
+
+**Why "Restitution" over "Reparations" (per B1 + B2 naming rigor pass commit `8e6a5b2`):** legal-register-clear; cross-political-tradition adoption potential. "Reparations" carries political-loading that narrows framework adoption to politically-progressive audiences; "Restitution" preserves the same restoration-of-what-was-taken meaning while reaching center-right + libertarian + politically-cautious institutional audiences who'd disengage at "Reparations." Per Option C' political-philosophical-accommodation discipline (ratified 2026-04-24): framework accommodates political traditions rather than asserts politically-loaded commitments. Restitution-law scope is BROADER than damages-law (encompasses monetary + legal + structural + rights-based restoration); fits CSD's broader scope than narrow damages.
 
 **M12 lineage:**
-- Darity & Mullen 2020 *From Here to Equality* — primary reparations economics anchor (already in bibliography §18.5).
-- Esping-Andersen 1990 *The Three Worlds of Welfare Capitalism* — welfare-state design lineage (optional Tech Appendix addition).
-- Bullard 1990 *Dumping in Dixie* — environmental-justice damages lineage (already in bibliography §7).
+- Restitution-law tradition (general legal vocabulary; not citation-specific).
+- Darity, William A., Jr., & Mullen, A. Kirsten. *From Here to Equality* (UNC Press 2020) — primary reparations economics methodology source. Already in bibliography §18.5.
+- Bullard, Robert D. *Dumping in Dixie* (Westview 1990) — environmental-justice damages cross-reference. Already in bibliography §7.
+- Toxic-tort + class-action damages tradition (legal-economics lineage).
+- Truth and Reconciliation processes (South Africa post-apartheid + analogous infrastructures).
+- Esping-Andersen, *The Three Worlds of Welfare Capitalism* (Princeton 1990) — welfare-state design lineage (optional Tech Appendix addition).
 
-**Status of B1 globally:** UNDERDEVELOPED. Reparations-economics is the active scholarly territory; less politically settled than B2; varies widely across welfare-state architectures; environmental-justice-damages compensation is litigation-driven and incomplete.
+**Status of B1 globally:** UNDERDEVELOPED. Restitution-and-reparations is the active scholarly territory; less politically settled than B2; varies widely across welfare-state architectures; environmental-justice damages compensation is litigation-driven and incomplete.
 
 **Pairs with:** CSD (Ring 2); aggregate Accountability Bond; Cost Severance mechanism (Ring 1).
 
-#### B2 — Resource-Foreclosure Bond (Ring-2 sub-instrument)
+#### B2 — Foreclosure Bond (Ring-2 sub-instrument)
 
 **Working definition:** Forward-looking accountability-instrument cluster that closes the RCV gap. Mechanisms internalizing resource permanent-foreclosure value — Hartwick savings (sovereign wealth funds), reclamation bonds, Environmental Impact Bonds, Pigouvian carbon taxes, cap-and-trade schemes, decommissioning bonds. Pairs with RCV in two-instrument architecture.
+
+**Why "Foreclosure Bond" over "Resource-Foreclosure Bond" (per B1 + B2 naming rigor pass commit `8e6a5b2`):** **term-pair coherence with Foreclosure Cost (C₁ in RCV integrand)** — *"Foreclosure Cost is what's lost; Foreclosure Bond is what would internalize it."* Shorter; preserves descriptive content via framework context; M5 dinner-table strong via mortgage-foreclosure analogy (in mortgage-foreclosure, ownership permanently severed from borrower; in resource-foreclosure, future-use permanently severed from future generations).
 
 **Norway = canonical existing B2 exemplar** (specifically — operationalizes Hartwick rule 1977 via sovereign-wealth-fund). Refines Open Insight #14: Norway's GPFG is canonical B2, NOT canonical aggregate B; Norwegian welfare-state is approximately B1-for-Norwegian-citizens but doesn't extend to non-Norwegian populations affected by Norwegian oil's climate externalities.
 
 **M12 lineage:**
-- Hotelling 1931 + Hartwick rule 1977 + Solow 1974 — Hartwick-savings tradition.
+- Hotelling, Harold. *Journal of Political Economy* 1931 — already in bibliography §18.5. Foundational resource-economics; Hotelling rent under honest accounting flows to B2 instrument.
+- Hartwick rule 1977 — invest resource rents in reproducible capital. Norway sovereign-fund operationalizes (optional Tech Appendix addition).
+- Solow 1974 — intergenerational equity and exhaustible resources (optional Tech Appendix addition).
 - OSMRE Reclamation Bonds + GAO-17-207R + Yang & Davis 2021 — already in bibliography §15. Reclamation bond literature.
 - Balboa 2016 *Accountability of Environmental Impact Bonds* — already in bibliography §15.
 - Pigou 1920 *Economics of Welfare* — already in bibliography §17. Pigouvian-tax tradition.
 
-**Pairs with:** RCV (Ring 1); aggregate Accountability Bond; Hotelling 1931 framing (Hotelling rent under honest accounting flows to B2 instrument); Norway case study.
+**Pairs with:** RCV (Ring 1); Foreclosure Cost C₁ (term-pair coherence — what the bond internalizes); aggregate Accountability Bond; Hotelling 1931 framing; Norway case study.
 
 **Aggregate B notes (v1.1 update):**
 - Phrase-travel-monitoring flag (Open Insight #11) preserved at aggregate level.
