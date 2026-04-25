@@ -1411,4 +1411,71 @@ Politically-contested commons especially: Autonomy (Anderson 2017 *Private Gover
 
 ---
 
+### Cost Severance Damages (CSD)
+
+**Working definition:** Backward-looking framework instrument measuring realized human harm from cost severance — health damages, intergenerational disadvantage, community-level suffering, foreclosed life-trajectories. Distinct from RCV (forward-looking resource permanent-foreclosure measurement). The framework's two-instrument architecture (per Three Ways + RCV Formal-Model rigor pass Block 1, ratified 2026-04-24): CSD measures damages-to-people; RCV measures damages-to-resource. Together they constitute Total Extraction Damages.
+
+**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn).
+
+**Term-spec version:** v1.0 (first sanctioned spec; supersedes implicit-operation status across 7+ framework cases).
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Three Ways + RCV Formal-Model rigor pass Block 1 (commit `1c8e4dd`, 2026-04-24) — surfaced CSD as hidden Ring-2 element via two-instrument architecture.
+- Three Ways + RCV Formal-Model ratification (commit `66becc5`, 2026-04-24) — promotion commissioned by Chris Winn directive.
+- CSD individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_csd_v1.0.0.md` (commit `98fc8e6`, 2026-04-24) — Option A (Ring 2) ratified by Chris Winn 2026-04-24 with Principle-#3 distinctness check + M12 audit + 7-case implicit-operation evidence.
+
+**M12 classification:** Independent specialization with established-methodology lineage. Adopts reparations-economics (Darity & Mullen 2020) wealth-gap-against-comparable-households methodology + VSL/DALY health-economics + intergenerational-mobility (Chetty et al.) + extends into extraction-community contexts via two-instrument architecture.
+
+**M12 citations (LOAD-BEARING for Tech Appendix):**
+- Darity, William A., Jr., & Mullen, A. Kirsten. *From Here to Equality* (UNC Press 2020) — already in bibliography §18.5.
+- Bullard, Robert D. *Dumping in Dixie* (Westview 1990) — already in bibliography §7. Environmental-justice cross-reference.
+- Chetty, Raj, et al. — already in bibliography §4. Intergenerational-mobility cross-reference.
+- VSL/DALY methodology references — Tech Appendix v0.0.5.
+
+**Why Ring 2 (not Ring 1):**
+- Framework-internal architecture; readers learn it; non-readers don't adopt CSD as travel-ready vocabulary.
+- Adoption-bet focus on Ring-1 flagships (Commons Bonds + Cost Severance + Severed Cost + Value Extraction + RCV + Cᵢ + CIT) preserved.
+
+**Why Ring 2 (not subsumed under Cost Severance / Severed Cost):**
+- Cost Severance = mechanism noun; Severed Cost = quantified result noun; CSD = specific measurement instrument for the human-harm component of result. Three different conceptual layers; instrument-layer warrants separate record.
+
+**Implicit operation in framework cases (7 demonstrated; preserved in CSD rigor pass §2.2):**
+- McDowell coal — life-expectancy gap, Black Lung, community-collapse mortality, intergenerational mobility loss
+- Healthcare end-of-life — family-caregiver labor-time, patient-suffering, financial depletion
+- Opioid Appalachia — overdose deaths, family destruction, multi-generational trauma, foster-care overload
+- 2008 financial crisis — 10M foreclosures, retirement-cohort wealth destruction, racial wealth-gap effects
+- Chesapeake watermen — multi-generational livelihood-loss, community-cohesion erosion
+- Libby vermiculite — multi-decade asbestos health damages
+- Tax-tradeoff (US-Sweden) — welfare-state-architecture-driven life-outcome disparities
+
+**Pairs with:**
+- RCV (Ring 1) — companion forward-looking instrument; orthogonal measurement (Block 1 Hole 5: full reparations leave the resource still gone).
+- B1 (Reparations Bond, Ring-2 sub-instrument pending B = B1 + B2 ratification) — accountability instrument that closes CSD gap.
+- Cost Severance (Ring 1) — mechanism CSD measures damages from.
+- Severed Cost (Ring 1) — quantified result; CSD is the backward-looking measurement of its human-harm component.
+- Total Extraction Damages = CSD + uncaptured RCV (Block 3 framework decomposition).
+
+**Staleness triggers:**
+- Two-instrument architecture (Block 1) reversed.
+- CSD methodology displaced by superior measurement framework.
+- Reparations-economics field develops a different framing that supersedes wealth-gap-against-comparable-households methodology.
+
+**Commit trail:**
+- Three Ways + RCV Formal-Model pass: commit `1c8e4dd`.
+- Three Ways + RCV Formal-Model ratification + bibliography additions: commit `66becc5`.
+- CSD individual rigor pass: commit `98fc8e6`.
+- Ratification + Terms Index record: this commit.
+
+**Open Insights:**
+- **Open Insight #19** (CSD-RCV correlation hypothesis) — the framework's deepest empirical claim that CSD and uncaptured RCV correlate across extraction cases; remains hypothesis pending Block 4 validation execution.
+
+**Notes:**
+- CSD is the framework's most-empirically-validated measurement instrument — reparations-economics + environmental-justice + health-economics traditions have decades of methodology development.
+- Norway's welfare-state architecture is approximately B1-for-Norwegian-citizens; framework's CSD measurement of climate-extraction damages on non-Norwegian populations remains uncompensated.
+- Phase A3 sweep targets: Ch 5 prose; Tech Appendix v0.0.5 formalism; Glossary v3 entry.
+
+---
+
 *End of Term Provenance Index v0.1.0. Skeleton established 2026-04-24. Populated progressively as Tier A rigor work produces records.*

@@ -294,7 +294,16 @@ The B1 instrument that would close the CSD gap is a separate ratification — co
 
 ## §9. Author-ratified resolutions
 
-*Pending author ratification.* Recommended Option A (PROMOTE to Ring 2 as backward-looking instrument).
+**Ratified 2026-04-24 by Chris Winn — Option A (PROMOTE to Ring 2 as backward-looking framework instrument).** CSD promoted from implicit-operation status to formal Ring-2 element with Terms Index record. Two-Instrument Architecture (CSD + RCV) becomes explicit framework structure.
+
+**What this ratification activates:**
+1. CSD Terms Index record creation (this commit).
+2. CSD prepared for B1 (Reparations Bond) pairing per pending B = B1 + B2 decomposition ratification.
+3. Open Insight #19 (CSD-RCV correlation hypothesis) opened for Block 4 case-study validation testing.
+4. Phase A3 sweep targets activated: Ch 5 prose addition naming CSD as backward-looking instrument; Tech Appendix v0.0.5 CSD formalism section; Glossary v3 CSD entry.
+5. M12 citations confirmed: Darity & Mullen 2020 (load-bearing); Bullard 1990 + Chetty et al. + VSL/DALY methodology references (cross-references).
+
+**Open Insight #19 (CSD-RCV correlation hypothesis):** the framework's deepest empirical claim — that CSD and uncaptured RCV correlate across extraction cases — remains hypothesis pending Block 4 validation execution. Honest framework-claim discipline.
 
 ---
 
