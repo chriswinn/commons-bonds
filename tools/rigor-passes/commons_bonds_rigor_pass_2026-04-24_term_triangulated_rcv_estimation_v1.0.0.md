@@ -2,6 +2,10 @@
 
 **Version:** 1.0.0
 **Date:** 2026-04-24
+
+> **Naming update header (added 2026-04-24 post-ratification per Principle #4 Tier-1 active-doc-update):**
+> This pass references the B1 + B2 sub-instrument names (~1 reference). Per dedicated B1 + B2 naming rigor pass (commit `8e6a5b2`) ratified 2026-04-24: B1 = **Restitution Bond** (replaces "Reparations Bond"); B2 = **Foreclosure Bond** (replaces "Resource-Foreclosure Bond"). RCV pairs with **Foreclosure Bond (B2)** in two-instrument architecture; CSD pairs with **Restitution Bond (B1)**.
+
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v2.3.0.md` — full 12-module suite + §22 + §22.4 + all 6 Working Principles. **Three sub-tests embedded** (one per Method).
 **Scope:** Individual full rigor pass on **Triangulated RCV Estimation** — the framework's three-method estimation methodology for RCV. Tests methodology as a whole + each Method individually (Method 1 Replacement Cost / Method 2 Norway Revealed Preference / Method 3 Scarcity-Adjusted Option Value) + triangulation discipline. Commissioned by Three Ways + RCV Formal-Model rigor pass ratification 2026-04-24.
 **Status:** rigor pass executed 2026-04-24; pending author ratification.

@@ -1535,7 +1535,7 @@ Politically-contested commons especially: Autonomy (Anderson 2017 *Private Gover
 
 **Pairs with:**
 - RCV (Ring 1) — companion forward-looking instrument; orthogonal measurement (Block 1 Hole 5: full reparations leave the resource still gone).
-- B1 (Reparations Bond, Ring-2 sub-instrument pending B = B1 + B2 ratification) — accountability instrument that closes CSD gap.
+- B1 (Restitution Bond, Ring-2 sub-instrument; ratified 2026-04-24 per B1 + B2 naming rigor pass commit `8e6a5b2`) — accountability instrument that closes CSD gap.
 - Cost Severance (Ring 1) — mechanism CSD measures damages from.
 - Severed Cost (Ring 1) — quantified result; CSD is the backward-looking measurement of its human-harm component.
 - Total Extraction Damages = CSD + uncaptured RCV (Block 3 framework decomposition).

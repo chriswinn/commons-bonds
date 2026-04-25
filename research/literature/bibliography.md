@@ -511,9 +511,11 @@ Added 2026-04-24 after framework-literature audit (Open Insight #10) + ratified 
 
 ---
 
-## 16. Decision theory and uncertainty (Asymmetric Regret Principle + Substitutability Function grounding)
+## 16. Decision theory and uncertainty (Reversibility Default + Substitutability Function grounding)
 
-Added 2026-04-24. Decision-theoretic literature the framework engages — for the Asymmetric Regret Principle (decision rule under RCV-tail quantification uncertainty) and the Substitutability Function S(t|t₀) (probability-over-time with extraction-timing feedback). These sources are **tied to pending rigor-pass ratifications** (ARP recommended Option A promote to Ring 2 with rename sub-decision; S rigor pass recommended Option A confirm Ring 2; both pending Chris Winn ratification). Added per Chris's 2026-04-24 directive to capture all literature-audit resources in bibliography.
+> **Naming update 2026-04-24:** "Asymmetric Regret Principle (ARP)" was renamed to **Reversibility Default (RD)** per ARP rename rigor pass commit `b8b62e3` ratified 2026-04-24. Citations in this section apply to the renamed rule unchanged; entry-body references to "ARP" preserved as written-when-added (rigor-pass-context provenance per Principle #4 Tier-1 update treatment).
+
+Added 2026-04-24. Decision-theoretic literature the framework engages — for **Reversibility Default (formerly Asymmetric Regret Principle)** (decision rule under RCV-tail quantification uncertainty) and the Substitutability Function S(t|t₀) (probability-over-time with extraction-timing feedback). These sources are **ratified citations** as of 2026-04-24 — both rigor passes ratified (Reversibility Default Ring 2; S Option A confirm Ring 2). Added per Chris's 2026-04-24 directive to capture all literature-audit resources in bibliography.
 
 ### Savage, Leonard J. "The Theory of Statistical Decision." *Journal of the American Statistical Association* 46, no. 253 (1951): 55–67.
 

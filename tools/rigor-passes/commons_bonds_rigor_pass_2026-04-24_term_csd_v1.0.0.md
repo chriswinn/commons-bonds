@@ -2,6 +2,10 @@
 
 **Version:** 1.0.0
 **Date:** 2026-04-24
+
+> **Naming update header (added 2026-04-24 post-ratification per Principle #4 Tier-1 active-doc-update):**
+> This pass uses "Reparations Bond" working label for B1 throughout (~6 references). Per the dedicated B1 + B2 naming rigor pass (commit `8e6a5b2`) ratified 2026-04-24, B1 final ratified name is **Restitution Bond**. CSD pairs with **Restitution Bond (B1)** in the two-instrument architecture. Working label preserved in body for narrative integrity; mentally substitute Restitution Bond when reading.
+
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v2.3.0.md` — full 12-module suite + §22 + §22.4 + all 6 Working Principles + ratified corollaries.
 **Scope:** Individual full rigor pass on **Cost Severance Damages (CSD)** — promotes the framework's backward-looking instrument from implicit-operation status to formal Ring-2 element with Terms Index record. Commissioned by Three Ways + RCV Formal-Model rigor pass ratification 2026-04-24 per Chris Winn directive.
 **Status:** rigor pass executed 2026-04-24; pending author ratification.

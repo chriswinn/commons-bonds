@@ -2,6 +2,14 @@
 
 **Version:** 1.0.0
 **Date:** 2026-04-24
+
+> **Naming update header (added 2026-04-24 post-ratification per Principle #4 Tier-1 active-doc-update):**
+> This pass uses the working labels "Reparations Bond" and "Resource-Foreclosure Bond" for B1 and B2 throughout (~5 references). Per the dedicated B1 + B2 naming rigor pass (commit `8e6a5b2`) ratified 2026-04-24 by Chris Winn, the FINAL ratified sub-instrument names are:
+> - **B1 = Restitution Bond** (replaces "Reparations Bond" working label)
+> - **B2 = Foreclosure Bond** (replaces "Resource-Foreclosure Bond" working label)
+>
+> Working labels preserved in the body of this pass for narrative integrity (the pass was written before the naming sub-decision); when reading, mentally substitute final names. Working labels' political-loading concern (B1) and length/redundancy concern (B2) drove the rename per dedicated rigor pass.
+
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v2.3.0.md` — full 12-module suite + §22 Path Comparison Mode + §22.4 goals alignment + all 6 Working Principles + ratified corollaries.
 **Scope:** Tests the four interlocking blocks of the April 19, 2026 RCV formal-model session that have remained "pending review" while terminology rigor work consumed Phase A3 attention. These blocks are the framework's central VALUE-ESTIMATION apparatus (distinct from the Four Gates, which is the ADMISSION apparatus). Per author surfacing of the gap 2026-04-24: *"Run the Three Ways + RCV formal-model rigor pass."*
 **Status:** rigor pass executed 2026-04-24; pending author ratification.

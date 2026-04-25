@@ -2,6 +2,14 @@
 
 **Version:** 1.0.0
 **Date:** 2026-04-24
+
+> **Naming update header (added 2026-04-24 post-ratification per Principle #4 Tier-1 active-doc-update):**
+> This pass uses working labels "Reparations Bond" and "Resource-Foreclosure Bond" for B1 and B2 throughout (~17 references). The DECOMPOSITION ratified at AGGREGATE level (commit `56b5fd4`); the FINAL NAMES were ratified separately via dedicated B1 + B2 naming rigor pass (commit `8e6a5b2`) per Chris Winn directive 2026-04-24:
+> - **B1 = Restitution Bond** (replaces "Reparations Bond" working label) — legal-register-clear; cross-political-tradition adoption breadth.
+> - **B2 = Foreclosure Bond** (replaces "Resource-Foreclosure Bond" working label) — term-pair coherence with Foreclosure Cost (C₁ in RCV integrand).
+>
+> Working labels preserved in body for narrative integrity (this pass was written before the naming sub-decision); when reading, mentally substitute final names. The decomposition logic + equational consistency + Norway-as-canonical-B2-exemplar all hold under final names.
+
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v2.3.0.md` — full 12-module suite + §22 + §22.4 + all 6 Working Principles.
 **Scope:** Individual full rigor pass on the **Accountability Bond decomposition** — the framework's two-instrument architecture (Block 1) implies B should be decomposed into **B1 (Reparations Bond)** + **B2 (Resource-Foreclosure Bond)**. Refinement to ratified Accountability Bond Ring-2 record (commit `7fa1c1b`). Commissioned by Three Ways + RCV Formal-Model rigor pass ratification 2026-04-24.
 **Status:** rigor pass executed 2026-04-24; pending author ratification.
