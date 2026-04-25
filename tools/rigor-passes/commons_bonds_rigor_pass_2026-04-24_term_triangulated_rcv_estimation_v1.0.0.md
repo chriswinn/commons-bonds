@@ -355,7 +355,21 @@ Open Insight #14 ratified 2026-04-24: Norway's sovereign wealth fund is the cano
 
 ## §10. Author-ratified resolutions
 
-*Pending author ratification.* Recommended Option A (PROMOTE to Ring 2 with three method-specific refinements).
+**Ratified 2026-04-24 by Chris Winn — Option A (PROMOTE to Ring 2 with three method-specific refinements).** Triangulated RCV Estimation becomes formal Ring-2 estimation methodology. Methods 1, 2, 3 ratified together as sub-records under parent methodology.
+
+**Ratification activates:**
+1. Terms Index record creation for Triangulated RCV Estimation (Ring 2) + sub-records for Methods 1, 2, 3.
+2. Method 2 Norway-Revealed-Preference reframed per Open Insight #14 epistemic humility (middle-anchor within triangulation; not absolute middle of true RCV).
+3. Method 3 Scarcity-Adjusted Option Value formal model spec commissioned for Tech Appendix v0.0.5 (Dixit-Pindyck-style with σ + α + V_option parameters).
+4. Convergence-table clarification commissioned for Tech Appendix v0.0.5 (4-approaches: Methods 1+2+3 + Hotelling-citation cross-check vs Methods + CSD-RCV correlation cross-check).
+5. "Three Ways of Counting" pedagogical name (Ch 6 chapter title) preserved; "Triangulated RCV Estimation" formal name for Tech Appendix.
+
+**Per-method ratifications:**
+- **Method 1 (Replacement Cost):** PASS as lower bound; Costanza 1997 lineage citation (optional Tech Appendix addition).
+- **Method 2 (Norway Revealed Preference):** PASS WITH REFRAMING per Open Insight #14; Hartwick 1977 + Solow 1974 lineage citations (optional).
+- **Method 3 (Scarcity-Adjusted Option Value):** PASS WITH SPEC NEEDED; Dixit-Pindyck 1994 already in bibliography.
+
+**Open Insight #20** (sensitivity-analysis execution σ + α + V_option) opened for Phase A3 / Phase B Tech Appendix v0.0.5 publication.
 
 ---
 

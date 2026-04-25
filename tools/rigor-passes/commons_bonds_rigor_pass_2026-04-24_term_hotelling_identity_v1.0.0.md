@@ -272,9 +272,43 @@ These are Tech Appendix bonus citations if the framework's resource-economics po
 
 ---
 
-## §8. Author-ratified resolutions
+## §8. Author-ratified resolutions — Hotelling Identity Ring 2 promotion ratified with extension-positioning discipline
 
-*Pending author ratification.* Recommended Option A (PROMOTE to Ring 2 with Tech Appendix specification).
+**Author dialogue 2026-04-24:**
+
+> *(Round 1 — author challenge):* *"note 'Hotelling Identity' isn't my idea it's Hotelling, correct? we are just citing it and leveraging it within our formula."*
+>
+> *(Round 2 — author resolution):* *"ratify = Hotelling Identity Ring 2 promotion... but again, it's not my work so just cite it and then use it and call out how my work extends / adds to his work."*
+
+**Ratified 2026-04-24 by Chris Winn — Option A (PROMOTE Hotelling Identity to Ring 2)** WITH explicit extension-positioning discipline per author's M12-honesty directive.
+
+**The extension-positioning honesty discipline (load-bearing for Terms Index record):**
+
+- **Hotelling 1931 is Hotelling's work** — established the resource-rent rule (p − c rises at rate of interest as the resource depletes; rent = the extractor's scarcity premium). Framework cites Hotelling 1931 (bibliography §18.5).
+
+- **Framework's contribution is the EXTENSION** — adding a commons-side measurement (RCV) that pairs with Hotelling rent + the recognition that the gap between commons' true cost (RCV) and extractor's market-priced scarcity premium (Hotelling rent) IS the residual cost the framework names Cost Severance per unit.
+
+- **The "identity" relation IS framework's articulation** — Hotelling didn't write *RCV − Hotelling rent = CS per unit* (he didn't have RCV; he didn't have Cost Severance as named mechanism). What the framework adds is the integration: positioning RCV as Hotelling-complementary measurement + naming the gap.
+
+**What the Terms Index record must explicitly include:**
+1. **Citation:** Hotelling 1931 as foundational resource-economics lineage.
+2. **Hotelling's part** (clearly attributed): resource rent = p − c; rent rises at rate of interest; extractor scarcity premium.
+3. **Framework's part** (clearly attributed): RCV definition + recognition that Hotelling rent under honest accounting represents commons' scarcity value being appropriated by extractor + identity articulation linking RCV − Hotelling rent = CS per unit.
+
+**Naming preserved as "Hotelling Identity"** (the identity that connects framework to Hotelling's work) — analogous to how named-after-mathematicians constructions credit the foundational lineage without claiming the credit-bearer wrote the specific extension. Alternative naming considered ("Cost Severance — Hotelling Bridge"; "Commons-Hotelling Identity") but "Hotelling Identity" is concise + cites Hotelling in the name; extension-positioning carried in the Terms Index record + Tech Appendix passage.
+
+**M6 academic-positioning value preserved:** transforms M11 critic's *"isn't this rebranding externality theory?"* attack into structural identification — framework asserts the algebraic complement to Hotelling 1931. Honest extension claim, properly attributed.
+
+**Tech Appendix v0.0.5 publication targets:**
+- Hotelling 1931 citation + clear attribution of Hotelling's resource-rent rule.
+- Hotelling-rent-as-appropriated-commons-value interpretive passage (framework's part).
+- Per-unit per-period vs integrated form clarification.
+- Framework-extends-Hotelling positioning (extension-not-coinage; honest M12 framing).
+
+**Lesson captured for future passes:** when ratifying Ring placement for elements that EXTEND established work, Terms Index records must explicitly distinguish:
+- (a) Foundational element-component cited (e.g., Hotelling rent = p − c).
+- (b) Framework's specific contribution (e.g., commons-side RCV measurement + identity-articulation positioning).
+- This distinction protects against accidental over-claim while preserving framework's legitimate extension contribution.
 
 ---
 

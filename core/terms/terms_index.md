@@ -1478,4 +1478,215 @@ Politically-contested commons especially: Autonomy (Anderson 2017 *Private Gover
 
 ---
 
+### Hotelling Identity (framework's extension of Hotelling 1931)
+
+**Working definition:** The framework's articulation that the gap between commons' true cost of extraction (RCV) and extractor's market-priced scarcity premium (Hotelling rent) IS, by definition, the per-unit Cost Severance: **RCV − Hotelling rent = Cost Severance per unit.** Bridge between framework vocabulary and standard resource-economics math.
+
+**INTELLECTUAL HONESTY — clear attribution of components (per author M12 directive 2026-04-24):**
+
+- **Hotelling's part** (Hotelling 1931): resource rent = market price − extraction cost (p − c); the rent rises over time at rate of interest; this rent represents the EXTRACTOR's scarcity premium accruing as the resource depletes. Standard resource-economics; foundational.
+- **Framework's part:** (a) defining RCV as the COMMONS' true cost of extraction (forward-looking; integrand over substitutability + externality + abundance-grounded costs admitted via Four Gates); (b) recognizing that Hotelling rent under honest accounting represents commons' scarcity value being APPROPRIATED by extractor (rather than compensated to the commons); (c) articulating the identity: RCV − Hotelling rent = CS per unit. The identity is framework's articulation; Hotelling didn't write it (didn't have RCV; didn't have Cost Severance as named mechanism).
+
+The framework EXTENDS Hotelling 1931 by adding a commons-side measurement to pair with Hotelling's extractor-side rent + naming the gap as the framework's central concept (Cost Severance).
+
+**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn with explicit extension-positioning discipline).
+
+**Term-spec version:** v1.0.
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Three Ways + RCV Formal-Model rigor pass Block 3 (commit `1c8e4dd`) — Hotelling Identity surfaced.
+- Three Ways + RCV Formal-Model ratification (commit `66becc5`) — promotion commissioned.
+- Hotelling Identity individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_hotelling_identity_v1.0.0.md` (commit `5b8ff42`) — Option A (Ring 2 promote) with §3.2 Tech Appendix specification framing for the appropriated-commons-value interpretation.
+- Author M12 challenge round 1 (2026-04-24): *"note 'Hotelling Identity' isn't my idea it's Hotelling, correct? we are just citing it and leveraging it within our formula."*
+- Author M12 resolution round 2 (2026-04-24): *"ratify = Hotelling Identity Ring 2 promotion... but again, it's not my work so just cite it and then use it and call out how my work extends / adds to his work."*
+- Ratification 2026-04-24 by Chris Winn — this commit. Ring 2 promotion ratified WITH extension-positioning discipline.
+
+**M12 classification:** Independent specialization with foundational lineage extension. Hotelling 1931 is the foundation (clearly attributed); framework's identity-articulation + RCV-as-Hotelling-complementary-measurement is the extension (clearly attributed). NOT framework coinage of the underlying resource-rent concept.
+
+**M12 citations (LOAD-BEARING):**
+- **Hotelling, Harold. "The Economics of Exhaustible Resources." *Journal of Political Economy* 39, no. 2 (1931): 137–175.** — foundational; in bibliography §18.5.
+
+**Optional Tech Appendix depth additions:**
+- Solow 1974 — intergenerational equity and exhaustible resources.
+- Hartwick 1977 — invest resource rents in reproducible capital (Norway sovereign-fund operationalization).
+- Pearce-Atkinson 1993 — sustainability accounting / capital-theory extension.
+- Daly's stock-flow accounting — already in bibliography §3.
+
+**Why Ring 2 (not Ring 1):**
+- Mathematical bridge, not adoption-target vocabulary.
+- Lawyers + policymakers don't adopt mathematical identities directly; they adopt the framework concepts (Severed Cost; Cost Severance; Commons Bonds) the identity supports.
+
+**Why Ring 2 with extension-positioning discipline:**
+- Ring 2 placement honors the identity's M6 academic-positioning value (transforms M11 critic's *"isn't this rebranding externality theory?"* attack into structural identification).
+- Extension-positioning honesty (Hotelling's part vs framework's part clearly attributed in this record + Tech Appendix passage) prevents the overclaim that the framework "coined" Hotelling's foundational work.
+- Bibliography Hotelling 1931 entry is correct attribution at scholarly level.
+
+**Pairs with:**
+- RCV (Ring 1) — numerator in identity; framework's measurement.
+- Hotelling rent (resource-economics term; Hotelling 1931) — subtractend; clearly Hotelling's contribution.
+- Cost Severance equation CS = RCV − B (Ring 2) — Hotelling Identity is the per-unit specialization for standard-economics framing.
+- Cost Severance mechanism (Ring 1) — what the identity ultimately characterizes per-unit.
+
+**Tech Appendix v0.0.5 publication required:**
+- Hotelling 1931 lineage citation + clear attribution.
+- Per-unit per-period form: RCV(t) − Hotelling-rent(t) = CS(t).
+- Integrated form: ∫RCV(t) dt − ∫Hotelling-rent(t) dt = ∫CS(t) dt.
+- Hotelling-rent-as-appropriated-commons-value interpretive passage: under honest accounting, Hotelling rent represents commons' scarcity value being appropriated by extractor rather than compensated to commons.
+- Framework-extends-Hotelling positioning (Hotelling's part + framework's part clearly attributed).
+
+**Staleness triggers:**
+- Hotelling 1931 framework displaced in resource economics (not expected; foundational status).
+- Framework restructures CS equation in ways that change identity form.
+- Tech Appendix specification reveals identity holds only under restricted assumptions.
+
+**Commit trail:**
+- Three Ways + RCV Formal-Model pass: commit `1c8e4dd`.
+- Three Ways ratification + Hotelling 1931 added to bibliography: commit `66becc5`.
+- Hotelling Identity individual rigor pass: commit `5b8ff42`.
+- Ratification + Terms Index record: this commit.
+
+**Notes:**
+- The identity transforms M11 critic's "rebranding externality theory" attack into structural identification — framework asserts the algebraic complement to Hotelling 1931.
+- M6 academic-positioning value is high; extension-positioning discipline preserves the value while honestly attributing components.
+- Captured lesson (per Hotelling Identity rigor pass §8): when ratifying Ring placement for elements that EXTEND established work, Terms Index records must explicitly distinguish (a) foundational component cited and (b) framework's specific contribution. This protects against accidental over-claim while preserving framework's legitimate extension contribution.
+
+---
+
+### Triangulated RCV Estimation ("Three Ways of Counting" pedagogically)
+
+**Working definition:** Three-method estimation methodology for RCV producing a defensible range rather than a single point estimate. Method 1 (Replacement Cost lower bound) + Method 2 (Norway Revealed Preference middle-anchor within triangulation) + Method 3 (Scarcity-Adjusted Option Value upper bound). Convergence reduces uncertainty; divergence reveals where real disagreements live (substitutability vs scarcity-rate vs option-value parameter dominance).
+
+**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn).
+
+**Term-spec version:** v1.0.
+
+**Last reviewed:** 2026-04-24
+
+**Rigor provenance:**
+- Three Ways + RCV Formal-Model rigor pass Block 2 (commit `1c8e4dd`) — methodology surfaced.
+- Three Ways + RCV Formal-Model ratification (commit `66becc5`) — promotion commissioned.
+- Triangulated RCV Estimation individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_triangulated_rcv_estimation_v1.0.0.md` (commit `4f48c48`) — Option A (Ring 2 promote) verified with three method sub-tests + triangulation-discipline check + integration check.
+- Ratification 2026-04-24 by Chris Winn — this commit.
+
+**M12 classification:** Independent specialization within established estimation methodology traditions. Each method adopts standard methodology; triangulation discipline is standard validation. Framework's contribution is the SPECIFIC THREE METHODS chosen + convergence/divergence diagnostic + integration with Two-Instrument Architecture (CSD ↔ B1; RCV ↔ B2).
+
+**M12 citations:**
+- Costanza, Robert, et al. *Nature* 1997 — Method 1 replacement-cost methodology lineage. (Optional Tech Appendix addition.)
+- Hartwick 1977 + Solow 1974 — Method 2 Hartwick-rule + intergenerational-equity lineage. (Optional Tech Appendix addition.)
+- Dixit & Pindyck 1994 — Method 3 real-options-theory foundation. Already in bibliography §16.
+- Hotelling 1931 — used in Tech Appendix discussion of how RCV connects to standard resource economics; CITED not promoted as framework element. Already in bibliography §18.5.
+
+**Sub-records (Methods 1, 2, 3) preserved within parent record below:**
+
+#### Method 1 — Replacement Cost (Lower Bound)
+- *Methodology:* RCV_min per unit ≥ replacement cost from nearest substitute − market price at extraction.
+- *Boundary checks:* sand → low; helium → severe (correct directional differentiation).
+- *M12 lineage:* Costanza 1997 ecosystem-services valuation + standard regulatory cost-benefit analysis + eminent-domain takings law.
+
+#### Method 2 — Norway Revealed Preference (Middle-Anchor within Triangulation)
+- *Methodology:* Norway fund value ÷ total barrels extracted = per-barrel captured value; for any comparison case, gap = Empirical measure of uncaptured RCV.
+- *Sidesteps the discount-rate debate* (empirical not philosophical).
+- *Per Open Insight #14 epistemic-humility ratification:* Norway didn't fully capture RCV either (climate damages externalized; future-uses option-value uncaptured). Method 2 functions as Norway-anchored MIDDLE within the triangulation (Method 1 ≤ Method 2 ≤ Method 3 ≤ true RCV); not absolute middle of true RCV.
+- *M12 lineage:* Hartwick rule 1977 + Solow 1974 + revealed-preference economics tradition.
+
+#### Method 3 — Scarcity-Adjusted Option Value (Theoretical Upper Bound)
+- *Methodology:* Real-options theory (Dixit-Pindyck 1994) specialized for declining substitutability + future-use uncertainty. Parameters σ + α + V_option.
+- *Tech Appendix v0.0.5 specification REQUIRED:* mathematical specification, parameter calibration approach, upper-bound rationale.
+- *M12 lineage:* Dixit-Pindyck 1994 (already in bibliography); real-options applications in natural-resource extraction (Brennan-Schwartz 1985); option-pricing foundation (Black-Scholes 1973).
+
+**Why Ring 2 (not Ring 1):**
+- Mathematical methodology, not adoption-target vocabulary.
+- Readers learn methodology; non-readers adopt framework concepts (Severed Cost; CS), not estimation methodologies.
+
+**Pairs with:**
+- RCV (Ring 1) — the quantity estimated.
+- Four Gates (Ring 2) — admit costs first; estimate value second.
+- CSD (Ring 2) — companion two-instrument-architecture estimation (different methodology — reparations economics rather than triangulated).
+- Substitutability Function S (Ring 2) — appears in Method 3 formal model.
+
+**Convergence-table pedagogy** (Ch 6 numerical center-of-gravity per IPG rigor pass): 4 approaches converge on IPG ≫ 1 across cases. Tech Appendix v0.0.5 should clarify whether 4-approaches reference is Methods 1+2+3 + Hotelling-citation cross-check OR Methods + CSD-RCV correlation cross-check (Block 1 cross-validation idea).
+
+**Methodology naming decision (ratified 2026-04-24):**
+- "Triangulated RCV Estimation" — formal name (Tech Appendix).
+- "Three Ways of Counting" — pedagogical name (Ch 6 chapter title; preserves M5 dinner-table accessibility).
+- Both forms ratified; different audiences.
+
+**Open Insight #20** (sensitivity-analysis execution σ + α + V_option dominance) opened for Tech Appendix v0.0.5 publication.
+
+**Staleness triggers:**
+- Block 4 validation execution reveals methods don't converge on test cases.
+- New estimation methodology emerges that displaces one of the three.
+- Sensitivity-analysis reveals one parameter dominates such that triangulation provides no value.
+
+**Commit trail:**
+- Three Ways + RCV Formal-Model pass: commit `1c8e4dd`.
+- Three Ways ratification + bibliography additions: commit `66becc5`.
+- Triangulated RCV Estimation individual rigor pass: commit `4f48c48`.
+- Ratification + Terms Index record: this commit.
+
+---
+
+### Accountability Bond — UPDATE: B = B1 + B2 decomposition
+
+**Working definition update (v1.1, supersedes v1.0):** Aggregate framework instrument B = B1 + B2 closing the Cost Severance gap (CS = RCV − B at aggregate level; expanding via two-instrument architecture: total CS = (CSD − B1) + (RCV − B2)). Sub-decomposed into B1 (Reparations Bond, backward-looking, pairs with CSD) and B2 (Resource-Foreclosure Bond, forward-looking, pairs with RCV).
+
+**Status:** `CURRENT` at Ring 2 (aggregate ratified 2026-04-24 by Chris Winn; v1.1 update with B = B1 + B2 decomposition ratified 2026-04-24).
+
+**Term-spec version:** v1.1 (aggregate v1.0 plus B = B1 + B2 decomposition; Ring 2 status preserved).
+
+**Last reviewed:** 2026-04-24.
+
+**Rigor provenance update:**
+- Original Accountability Bond rigor pass (commit `7fa1c1b`) — aggregate Ring-2 ratified.
+- Three Ways + RCV Formal-Model pass §7.3 (commit `1c8e4dd`) — surfaced B = B1 + B2 decomposition via Block 1 two-instrument architecture.
+- Three Ways + RCV Formal-Model ratification (commit `66becc5`) — decomposition rigor pass commissioned.
+- B1/B2 decomposition individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_b1_b2_decomposition_v1.0.0.md` (commit `ab24a8e`) — Option A (decomposition ratified) verified with equational consistency check + per-sub-instrument M12 audit.
+- Ratification 2026-04-24 by Chris Winn — this commit.
+
+**Equational consistency:** CS = RCV − B holds aggregately; decomposed: total CS = (CSD − B1) + (RCV − B2) = TED − B (Total Extraction Damages minus Total Accountability Bond). Boundary-case instruments (spanning both) decomposed by component.
+
+#### B1 — Reparations Bond (Ring-2 sub-instrument)
+
+**Working definition:** Backward-looking accountability-instrument cluster that closes the CSD gap. Mechanisms compensating realized human harm from cost severance — reparations payments, welfare-state instruments (universal healthcare, social-safety-net programs, public pensions), environmental-justice damages compensation, toxic-tort litigation, truth-and-reconciliation processes. Pairs with CSD in two-instrument architecture.
+
+**M12 lineage:**
+- Darity & Mullen 2020 *From Here to Equality* — primary reparations economics anchor (already in bibliography §18.5).
+- Esping-Andersen 1990 *The Three Worlds of Welfare Capitalism* — welfare-state design lineage (optional Tech Appendix addition).
+- Bullard 1990 *Dumping in Dixie* — environmental-justice damages lineage (already in bibliography §7).
+
+**Status of B1 globally:** UNDERDEVELOPED. Reparations-economics is the active scholarly territory; less politically settled than B2; varies widely across welfare-state architectures; environmental-justice-damages compensation is litigation-driven and incomplete.
+
+**Pairs with:** CSD (Ring 2); aggregate Accountability Bond; Cost Severance mechanism (Ring 1).
+
+#### B2 — Resource-Foreclosure Bond (Ring-2 sub-instrument)
+
+**Working definition:** Forward-looking accountability-instrument cluster that closes the RCV gap. Mechanisms internalizing resource permanent-foreclosure value — Hartwick savings (sovereign wealth funds), reclamation bonds, Environmental Impact Bonds, Pigouvian carbon taxes, cap-and-trade schemes, decommissioning bonds. Pairs with RCV in two-instrument architecture.
+
+**Norway = canonical existing B2 exemplar** (specifically — operationalizes Hartwick rule 1977 via sovereign-wealth-fund). Refines Open Insight #14: Norway's GPFG is canonical B2, NOT canonical aggregate B; Norwegian welfare-state is approximately B1-for-Norwegian-citizens but doesn't extend to non-Norwegian populations affected by Norwegian oil's climate externalities.
+
+**M12 lineage:**
+- Hotelling 1931 + Hartwick rule 1977 + Solow 1974 — Hartwick-savings tradition.
+- OSMRE Reclamation Bonds + GAO-17-207R + Yang & Davis 2021 — already in bibliography §15. Reclamation bond literature.
+- Balboa 2016 *Accountability of Environmental Impact Bonds* — already in bibliography §15.
+- Pigou 1920 *Economics of Welfare* — already in bibliography §17. Pigouvian-tax tradition.
+
+**Pairs with:** RCV (Ring 1); aggregate Accountability Bond; Hotelling 1931 framing (Hotelling rent under honest accounting flows to B2 instrument); Norway case study.
+
+**Aggregate B notes (v1.1 update):**
+- Phrase-travel-monitoring flag (Open Insight #11) preserved at aggregate level.
+- Scope-creep-monitoring flag (Open Insight #13) preserved + applies to both sub-instruments.
+- Two-readership adoption opportunity surfaced: B2-conversation (resource-economics + sustainability-finance audiences); B1-conversation (justice-economics + political-philosophy audiences).
+- Open Insight #14 refined: Norway = canonical existing B2 exemplar; B1 globally underdeveloped.
+
+**Phase A3 sweep targets:**
+- Ch 5 (accountability gap) — two-instrument architecture framing.
+- Ch 9 (policy economy) — two distinct instrument-design conversations named.
+- Tech Appendix v0.0.5 — B = B1 + B2 decomposition section + per-sub-instrument formalism.
+- Glossary v3 — B1 + B2 sub-entries.
+- Open Insight #14 update — Norway-as-B2-canonical refinement.
+
+---
+
 *End of Term Provenance Index v0.1.0. Skeleton established 2026-04-24. Populated progressively as Tier A rigor work produces records.*

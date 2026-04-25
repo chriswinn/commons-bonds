@@ -275,7 +275,14 @@ Framework operates in both conversations simultaneously. M10 publishing implicat
 
 ## §9. Author-ratified resolutions
 
-*Pending author ratification.* Recommended Option A (B = B1 + B2 decomposition ratified; sub-instrument records added to Terms Index; aggregate Accountability Bond record updated; Open Insight #14 refined for Norway-as-B2-canonical).
+**Ratified 2026-04-24 by Chris Winn — Option A (B = B1 + B2 decomposition).** Aggregate Accountability Bond Ring-2 status preserved; sub-instruments B1 (Reparations Bond, backward-looking, pairs with CSD) + B2 (Resource-Foreclosure Bond, forward-looking, pairs with RCV) added at Ring-2 sub-instrument layer. Equational form preserved (CS = RCV − B holds with B = B1 + B2). Norway-as-B2-canonical refinement to Open Insight #14 ratified.
+
+**Ratification activates:**
+1. Aggregate Accountability Bond Terms Index record updated (v1.1) with B = B1 + B2 decomposition note.
+2. New sub-instrument Terms Index records for B1 + B2.
+3. Open Insight #14 refined: Norway = canonical existing B2 exemplar (operationalizes Hartwick rule 1977 via sovereign-wealth-fund); B1 globally underdeveloped; reparations-economics is the active scholarly territory for B1.
+4. Two-readership opportunity for adoption: B2-conversation (resource-economics + sustainability-finance) + B1-conversation (justice-economics + political-philosophy).
+5. Phase A3 sweep targets: Ch 5 + Ch 9 prose; Tech Appendix v0.0.5 B = B1 + B2 formalism; Glossary v3 sub-entries.
 
 ---
 
