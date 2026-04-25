@@ -1,10 +1,23 @@
 # Commons Bonds — Canonical Rigor Protocol
 
-**Version:** 2.3.0 — Pre-Submission Peer Review Suite + Path Comparison Mode + Informational Goals + **M12 Intellectual Honesty / Prior-Art Audit**
+**Version:** 2.4.0 — Pre-Submission Peer Review Suite + Path Comparison Mode + Informational Goals + M12 Intellectual Honesty / Prior-Art Audit + **Commons-as-Structural-Identity reframing + CIT→CIT rename absorbed**
 **Date:** 2026-04-24
-**Status:** Canonical. **Minor bump from v2.2.0.** Adds Module M12 (Intellectual Honesty / Prior-Art Audit) — structural requirement to run a literature-audit check on every term, concept, or decision rule introduced by the framework, verifying whether the term is Chris's original coinage, independent rediscovery of established terminology, lexical collision with an established different concept, or adoption of an established term. Produces citation / disambiguation / rename / positioning recommendations. Originated during framework-wide literature audit 2026-04-24 (Open Insight #10) that identified (a) Mazzucato 2018 as prior published usage of "value extraction," (b) HR/accounting "severance costs" as semantic collision with "Cost Severance," (c) reclamation-bond / financial-assurance literature as prior art for Accountability Bond. The 2026-04-24 audit produced a new Working Principle (author 2026-04-24: "Please capture the intellectual-honesty check as one of the tests to run in the full test suite.") — this v2.3.0 bump formalizes the test.
-**Supersedes:** v2.2.0 (2026-04-24, same day; informational goals added) and all prior.
-**Absorption:** All v1.3.0 tests + all v2.0.0 modules + v2.1.0 Path Comparison Mode + v2.2.0 informational goals preserved. v2.3.0 is additive — adds M12 to §5 module overview table, full M12 module definition at §17.5 (new), cross-reference in §22.4 goals-to-modules mapping, and M12 line in PSR template. Primary goals unchanged; M12 is a NEW module not a revision.
+**Status:** Canonical. **Minor bump from v2.3.0.** Tier-1 update header per Working Principle #4 — file path retains `_v2.2.0.md` slug pending Phase B full-rewrite/rename. Absorbs three same-day ratifications:
+1. **Commons-as-structural-identity reframing** (rigor pass commit `c4b09dc`) — the framework is a commons-governance theory extended to extraction; the structural primitive is *Commons*, not *Abundance*. Abundance/scarcity is a relational property between extractor and commons.
+2. **AIT → CIT rename** (rigor pass commit `b294c79`) — the test formerly known as the *Abundance Inversion Test* is now the *Commons Inversion Test* (CIT). CIT has two sub-forms: Commons-Absence Inversion + Commons-Consumption Inversion. The "abundance-inversion" thought-experiment continues to operate (now as the commons-consumption-inversion sub-form specifically).
+3. **10-list dissolution** (rigor pass commit `e30087e`) — Option C' political-philosophical-accommodation: the 10 commons categories are presented as examples (not canonical). Methodology (CIT + Four Gates) belongs to the framework; candidate commons belong to the political-philosophical tradition.
+
+**Supersedes:** v2.3.0 (2026-04-24, same day — added M12) and all prior.
+**Absorption:** All v1.3.0 tests + all v2.0.0 modules + v2.1.0 Path Comparison Mode + v2.2.0 informational goals + v2.3.0 M12 module preserved. v2.4.0 is additive at the framing level + sweeps AIT → CIT throughout. Per-module test content unchanged; only the structural-identity language updated. M1.1 "AIT Falsifiability Gate" is renamed to "CIT Falsifiability Gate" — test content (apply CIT to a claim; if claim persists under commons-consumption-abundance → FAIL; if evaporates → PASS) unchanged. M6.3 "Falsifiability (beyond AIT)" → "Falsifiability (beyond CIT)" — content unchanged.
+
+**v2.4.0 sweep notes:**
+- "CIT" → "CIT" replaced throughout (intentional historical-name references retained where pointing to v1.x lineage).
+- "Commons Inversion Test" → "Commons Inversion Test" replaced throughout.
+- "abundance-inversion" methodological language updated to read as CIT sub-form (commons-consumption-inversion specifically).
+- "10 abundance dimensions" → "10 commons categories (examples, not canonical)" framing in §5.6 ELABORATION list and §22.5 path-listing context.
+- Per-module test logic NOT changed. Tests continue to operate on the same scarcity-grounded-cost-claim discrimination.
+
+---
 
 ---
 
@@ -24,7 +37,7 @@ Every v1.3.0 test is absorbed. Some appear in multiple modules (preserved with c
 
 | v1.3.0 location | v1.3.0 test | v2.0.0 module |
 |---|---|---|
-| §5.1 | Test 1 (AIT) | M1 Framework integrity |
+| §5.1 | Test 1 (CIT) | M1 Framework integrity |
 | §5.2 | Test 2 (Two-path) | M1 + M2 (case-level) |
 | §5.3 | Test 3 (Merger / Primitiveness) | M1 + M6 (academic-methodology) |
 | §5.4 | Test 4 (Multi-scale × 2 environments) | M1 + M2 (case-level) |
@@ -100,8 +113,8 @@ These goals do NOT drive primary recommendations; they produce per-path findings
 
 **Architectural fixes (mid-revision; per Chris's framework smell-test concern):**
 
-- **M1 rescoped to CORE only.** Initial v2.0.0 draft conflated framework CORE (AIT methodology + RCV formula + CS = RCV − B equation + formal vocabulary + universality) with framework ELABORATION (10 dimensions + 8-tier decomposition + two-path + merger/primitiveness). Mid-revision corrected: M1 tests CORE only. ELABORATION tested by other modules (M2 / M3 / M7 / M8). v1.3.0's C9 canonical positioning is now operationally honored.
-- **M1 sub-tests:** M1.1 AIT (preserved + expanded methodological defense); M1.2 RCV formula integrity (NEW — mathematical coherence + variable definition + worked-example agreement + boundary cases); M1.3 CS = RCV − B coherence (NEW); M1.4 Formal vocabulary integrity (NEW — 9 canonical terms tested for definition / consistency / distinct work / citability); M1.5 Universality across scales × environments (rescoped from dimension-level to core-level).
+- **M1 rescoped to CORE only.** Initial v2.0.0 draft conflated framework CORE (CIT methodology + RCV formula + CS = RCV − B equation + formal vocabulary + universality) with framework ELABORATION (10 dimensions + 8-tier decomposition + two-path + merger/primitiveness). Mid-revision corrected: M1 tests CORE only. ELABORATION tested by other modules (M2 / M3 / M7 / M8). v1.3.0's C9 canonical positioning is now operationally honored.
+- **M1 sub-tests:** M1.1 CIT (preserved + expanded methodological defense); M1.2 RCV formula integrity (NEW — mathematical coherence + variable definition + worked-example agreement + boundary cases); M1.3 CS = RCV − B coherence (NEW); M1.4 Formal vocabulary integrity (NEW — 9 canonical terms tested for definition / consistency / distinct work / citability); M1.5 Universality across scales × environments (rescoped from dimension-level to core-level).
 - **§5.1 NEW** — explicit framework CORE vs. framework ELABORATION scope note. Names what M1 tests vs. what other modules test.
 - **Two-path rigor relocated** from v1.3.0 framework-level Group A → M2 (case study tests) as PRIMARY case-level diagnostic. Two-path's actual function is per-case analysis; v1.3.0 placed it at framework level for organizational reasons. Mid-revision restored to its true scope.
 - **Merger / primitiveness gates relocated** to M2.3a (conditional sub-test, runs only when new dimension is being proposed) + M3 / M7 references when dimensions are being evaluated as content.
@@ -314,7 +327,7 @@ The full suite applies to any non-trivial book content. For targeted runs, class
 
 | # | Module | Core question | Reviewer voice | Output format |
 |---|---|---|---|---|
-| 1 | Framework integrity (CORE) | Do the equations, AIT methodology, and formal vocabulary hold? | Commons-governance-successor academic | Hybrid (verdict table + reviewer-judgment) |
+| 1 | Framework integrity (CORE) | Do the equations, CIT methodology, and formal vocabulary hold? | Commons-governance-successor academic | Hybrid (verdict table + reviewer-judgment) |
 | 2 | Case study | Does this case do its work for the specific chapter? | Empirical social scientist reviewing a mixed-methods chapter | Hybrid (verdict table per axis + reviewer-judgment) |
 | 3 | Book content | Does this content earn its place and serve the argument? | Trade-press editor | Hybrid (verdict table + reviewer-judgment) |
 | 4 | Craft | Structure, narrative arc, prose voice, register consistency | Literary craft reviewer / developmental editor | Peer-reviewer memo (prose) |
@@ -341,14 +354,14 @@ Each module below follows the same template:
 
 **The CORE of the Commons Bonds framework (tested by M1):**
 
-1. **AIT methodology** — abundance-inversion test for identifying scarcity-grounded cost.
+1. **CIT methodology** — Commons Inversion Test for identifying commons-extraction cost (two sub-forms: commons-absence inversion + commons-consumption inversion; the latter is the "abundance-inversion" thought-experiment from the v1.x AIT framing).
 2. **RCV formula** — `RCV(R, t₀) = ∫ₜ₀^∞ {[1 − S(t | t₀)] · U(R, t, Q(t)) + E(R, t)} · D(t, t₀) dt`
 3. **CS equation** — `CS = RCV − B` (cost severance as residual commons value minus accountability bond).
 4. **Formal vocabulary** — cost severance / severed cost / residual commons value / accountability bond / civilizational substitutability gap.
 
 **Framework elaboration (NOT tested by M1 — tested by other modules):**
 
-- **10 abundance dimensions** (Habitability, Spatial, Temporal, Institutional, Kindred, Ecosystem, Political, Cohesion, Epistemic, Autonomy) — useful taxonomy for chapter organization; not load-bearing on the book's contribution. Tested by M3 (do they earn their place in the book?) + M7 (are they original contributions or restating existing taxonomies?) + M2 (do cases activate them cleanly?).
+- **10 commons categories** (Habitability, Spatial, Temporal, Institutional, Kindred, Ecosystem, Political, Cohesion, Epistemic, Autonomy) — presented as **examples, not canonical** per Option C' (commit `e30087e`). Useful taxonomy for chapter organization + cascade vocabulary; not load-bearing on the book's contribution. Tested by M3 (do they earn their place in the book?) + M7 (are they original contributions or restating existing taxonomies?) + M2 (do cases activate them cleanly?). Set is open at the political-philosophical-tradition layer; methodology (CIT + Four Gates) belongs to the framework.
 - **8-tier decomposition** — useful per-case accounting structure. Same treatment as dimensions — tested by M3 + M7 + M8 (does the specific tier structure hold cascade-durable?).
 - **Two-path rigor protocol** — primary diagnostic method for case-level analysis. Tested as part of M2 (case study).
 - **Merger / primitiveness gates** — dimension-distinctness checks. Tested conditionally when new dimensions are proposed (sub-test within M3 or M7, not a standing M1 gate).
@@ -356,7 +369,7 @@ Each module below follows the same template:
 
 **Why the distinction matters:** conflating core with elaboration inflates the framework's scope, invites attack on peripheral elements as if they were load-bearing, and obscures which parts of the book the author must defend vs. which parts are useful illustrations the book can compress or restructure. M1 tests the part that must hold for the book to be the book; other modules test whether the elaborations earn their place.
 
-**C9 canonical positioning (preserved from v1.3.0):** AIT is the framework's epistemic core. Dimensions are organizational scaffolding, not load-bearing structure. Dimension additions, mergers, or renames are organizational revisions, not framework-integrity events.
+**C9 canonical positioning (preserved from v1.3.0):** CIT is the framework's epistemic core. Dimensions are organizational scaffolding, not load-bearing structure. Dimension additions, mergers, or renames are organizational revisions, not framework-integrity events.
 
 ---
 
@@ -364,11 +377,11 @@ Each module below follows the same template:
 
 ### §6.1 Reviewer voice
 
-A commons-governance-successor academic — someone in the Ostrom tradition with training in political economy and methodology. Evaluates whether the framework's CORE elements (AIT methodology + RCV formula + CS equation + formal vocabulary + universality claim) are internally coherent, mathematically defensible, and survive methodological peer review.
+A commons-governance-successor academic — someone in the Ostrom tradition with training in political economy and methodology. Evaluates whether the framework's CORE elements (CIT methodology + RCV formula + CS equation + formal vocabulary + universality claim) are internally coherent, mathematically defensible, and survive methodological peer review.
 
 ### §6.2 Core question
 
-Does the framework's CORE — AIT methodology + RCV formula + CS equation + formal vocabulary + universality across scales and environments — hold under methodological peer review?
+Does the framework's CORE — CIT methodology + RCV formula + CS equation + formal vocabulary + universality across scales and environments — hold under methodological peer review?
 
 **Critical scope note:** M1 tests CORE only. The 10 dimensions, 8-tier decomposition, two-path rigor protocol, and merger/primitiveness gates are framework elaboration tested by other modules (M2 / M3 / M7). See §5.1 for the core/elaboration distinction.
 
@@ -376,21 +389,21 @@ Does the framework's CORE — AIT methodology + RCV formula + CS equation + form
 
 - Pre-submission to any venue where the framework's core claims are load-bearing.
 - Methodology-appendix + Ch 6 (methodology chapter) review.
-- Any revision to the equations, AIT methodology, or canonical vocabulary.
+- Any revision to the equations, CIT methodology, or canonical vocabulary.
 - Whenever the originality / academic-rigor modules surface contribution-claim concerns that depend on core integrity.
 - **Default first gate** in any full-suite run.
 
 ### §6.4 Sub-tests
 
-#### M1.1 AIT Falsifiability Gate
+#### M1.1 CIT Falsifiability Gate
 
-**Core question:** Does the AIT methodology hold? Can it correctly distinguish scarcity-grounded cost from non-scarcity-grounded claim?
+**Core question:** Does the CIT methodology hold? Can it correctly distinguish scarcity-grounded cost from non-scarcity-grounded claim?
 
 **Procedure:**
 
-1. Apply AIT to a claim-under-evaluation: name the scarcity the claim depends on; imagine that scarcity inverted (abundance); ask whether the claim persists.
-2. If the claim persists under abundance → not scarcity-grounded → **FAIL AIT**.
-3. If the claim evaporates under abundance → scarcity-grounded → **PASS AIT**.
+1. Apply CIT to a claim-under-evaluation: name the scarcity the claim depends on; imagine that scarcity inverted (abundance); ask whether the claim persists.
+2. If the claim persists under abundance → not scarcity-grounded → **FAIL CIT**.
+3. If the claim evaporates under abundance → scarcity-grounded → **PASS CIT**.
 4. Cross-check via worked examples (canonical set):
    - Tier 6 Ecological under ecosystem-service abundance → evaporates → PASS.
    - Tier 3 Dynastic under no-temporal-separation → evaporates → PASS.
@@ -399,8 +412,8 @@ Does the framework's CORE — AIT methodology + RCV formula + CS equation + form
 
 **Methodological defense (what a peer reviewer will press):**
 
-- "AIT is unfalsifiable in Popperian sense — inverting scarcity is not observable." Response: AIT is a thought-experiment falsification gate, not an empirical falsification gate. Its function is to discriminate scarcity-grounded cost claims from non-scarcity-grounded claims by counterfactual inversion. Empirical falsification of any specific cost claim (e.g., "Appalachian coal extracted X dollars") is the work of M3.7 + M6.3 + M6.4, not M1.1.
-- "AIT could be gamed — call something scarcity that isn't." Response: paired with M1.2 (RCV formula) and M2 (case-level two-path), gaming is exposed because the gamed claim cannot be priced or located in real cases.
+- "CIT is unfalsifiable in Popperian sense — inverting scarcity is not observable." Response: CIT is a thought-experiment falsification gate, not an empirical falsification gate. Its function is to discriminate scarcity-grounded cost claims from non-scarcity-grounded claims by counterfactual inversion. Empirical falsification of any specific cost claim (e.g., "Appalachian coal extracted X dollars") is the work of M3.7 + M6.3 + M6.4, not M1.1.
+- "CIT could be gamed — call something scarcity that isn't." Response: paired with M1.2 (RCV formula) and M2 (case-level two-path), gaming is exposed because the gamed claim cannot be priced or located in real cases.
 
 **Verdict:** PASS / FAIL / CORROBORATIVE (used alongside other tests as cross-check).
 
@@ -495,11 +508,11 @@ For each canonical term, verify:
 
 #### M1.5 Universality across scales × environments (rescoped from v1.3.0 Test 4)
 
-**Core question:** Does the CORE (equations + AIT + vocabulary) hold across all relevant scales and both environment types?
+**Core question:** Does the CORE (equations + CIT + vocabulary) hold across all relevant scales and both environment types?
 
 **Procedure:**
 
-Apply the CORE at each scale × environment combination. For each cell, ask: can this person / body / firm apply the equations + AIT + vocabulary to identify and price cost severance in their actual situation?
+Apply the CORE at each scale × environment combination. For each cell, ask: can this person / body / firm apply the equations + CIT + vocabulary to identify and price cost severance in their actual situation?
 
 | Scale | Earth exemplar | Off-Earth exemplar | Core works? |
 |---|---|---|---|
@@ -538,7 +551,7 @@ Apply Earning-its-place + Scaffolding-vs-book-worthy + Sensitivity-reader to the
 >
 > | Sub-test | Verdict | Notes |
 > |---|---|---|
-> | M1.1 AIT falsifiability | [PASS / FAIL / CORROB] | |
+> | M1.1 CIT falsifiability | [PASS / FAIL / CORROB] | |
 > | M1.2 RCV formula integrity | [PASS / FAIL / PASS-WITH-REFINEMENT] | |
 > | M1.3 CS = RCV − B coherence | [PASS / FAIL / PASS-WITH-REFINEMENT] | |
 > | M1.4 Formal vocabulary integrity | [PASS / FAIL / PASS-WITH-REFINEMENT] | |
@@ -560,8 +573,8 @@ M1.1 + M1.4 mandatory; M1.5 abbreviated to "does the CORE work at individual + g
 
 - M2 Case study runs two-path rigor at case level (relocated from v1.3.0 framework-level testing).
 - M3 Book content tests whether dimensions and tiers earn their place in the book.
-- M6 Academic rigor re-reviews the methodological defense of AIT + RCV against field-specific peer-reviewer pressure.
-- M7 Originality asks: is the AIT methodology + RCV formulation a distinctive contribution, or extension of Polanyi / Ostrom / externality theory?
+- M6 Academic rigor re-reviews the methodological defense of CIT + RCV against field-specific peer-reviewer pressure.
+- M7 Originality asks: is the CIT methodology + RCV formulation a distinctive contribution, or extension of Polanyi / Ostrom / externality theory?
 - §5.1 framework core vs. elaboration scope note — load-bearing context for M1.
 
 ---
@@ -570,7 +583,7 @@ M1.1 + M1.4 mandatory; M1.5 abbreviated to "does the CORE work at individual + g
 
 ### §7.1 Reviewer voice
 
-An empirical social scientist reviewing a mixed-methods chapter that deploys case studies to support a structural claim. Evaluates dimension activation, case-level rigor (AIT + two-path at case level), chapter fit, register fit, and legal / ethical exposure of named parties.
+An empirical social scientist reviewing a mixed-methods chapter that deploys case studies to support a structural claim. Evaluates dimension activation, case-level rigor (CIT + two-path at case level), chapter fit, register fit, and legal / ethical exposure of named parties.
 
 ### §7.2 Core question
 
@@ -593,11 +606,11 @@ Which of the 10 canonical dimensions does the case activate, at what intensity?
 
 **Verdict:** COVERAGE-APPROPRIATE / UNDER-WEIGHT (flag chapter consequences) / OVER-WEIGHT (flag scope consequences).
 
-#### M2.2 AIT at case level
+#### M2.2 CIT at case level
 
 Does the case demonstrate scarcity-grounded cost severance? Apply M1.1 procedure at case-level specificity.
 
-**Verdict:** PASS / FAIL / PARTIAL (specify which dimensions / tiers fail AIT at this case's parameters).
+**Verdict:** PASS / FAIL / PARTIAL (specify which dimensions / tiers fail CIT at this case's parameters).
 
 #### M2.3 Two-path rigor at case level (PRIMARY case-level diagnostic — relocated from v2.0.0 M1 in mid-revision)
 
@@ -697,7 +710,7 @@ Earning-its-place per case + Scaffolding-vs-book-worthy (case-study files are bo
 > | Sub-test | Verdict | Notes |
 > |---|---|---|
 > | M2.1 Dimension activation | [COVERAGE-APPROPRIATE / UNDER-WEIGHT / OVER-WEIGHT] | Primary + secondary dims |
-> | M2.2 AIT at case level | [PASS / FAIL / PARTIAL] | |
+> | M2.2 CIT at case level | [PASS / FAIL / PARTIAL] | |
 > | M2.3 Two-path at case level | [PASS / FAIL / CONDITIONAL] | Path 1 + Path 2 separately |
 > | M2.3a Merger / primitiveness (only if proposing new dim) | [PASS / FAIL / N/A] | |
 > | M2.4 Chapter fit | [FITS / FITS WITH REFINEMENT / MISFIT] | Intended function: [anchor / mirror / etc] |
@@ -715,7 +728,7 @@ Earning-its-place per case + Scaffolding-vs-book-worthy (case-study files are bo
 
 ### §7.7 Light mode
 
-Dimension activation + chapter fit + standing gates mandatory; AIT + two-path at case level only if case is new; register-fit by reading one paragraph of case prose in the chapter; legal / ethical exposure by named-party scan.
+Dimension activation + chapter fit + standing gates mandatory; CIT + two-path at case level only if case is new; register-fit by reading one paragraph of case prose in the chapter; legal / ethical exposure by named-party scan.
 
 ### §7.8 Cross-references
 
@@ -1072,9 +1085,9 @@ Will this survive peer review in the relevant academic fields, and will it be ci
 
 #### M6.1 Methodological defense
 
-Does the methodology — AIT + two-path + merger/primitiveness + multi-scale — hold as methodology (not just as framework)? Can the author defend the choice of these specific tests, against a reviewer asking "why these and not X?"
+Does the methodology — CIT + two-path + merger/primitiveness + multi-scale — hold as methodology (not just as framework)? Can the author defend the choice of these specific tests, against a reviewer asking "why these and not X?"
 
-**Procedure:** Per methodology element, state the defense: what problem the element solves, what alternatives were considered, why this one was chosen. Engage the reviewer's likely alternatives (e.g., for AIT: revealed preference; for two-path: allocation-only or shield-only; for multi-scale: Earth-only; for merger/primitiveness: composition-indifferent dimensioning).
+**Procedure:** Per methodology element, state the defense: what problem the element solves, what alternatives were considered, why this one was chosen. Engage the reviewer's likely alternatives (e.g., for CIT: revealed preference; for two-path: allocation-only or shield-only; for multi-scale: Earth-only; for merger/primitiveness: composition-indifferent dimensioning).
 
 **Verdict:** DEFENSIBLE / PARTIAL (specify which elements lack defense) / WEAK DEFENSE (requires methodology-appendix revision).
 
@@ -1092,9 +1105,9 @@ Does the book engage the correct literatures correctly? Key fields:
 
 **Verdict:** ENGAGED / GAPS IDENTIFIED (specify) / ENGAGEMENT-WEAK (requires literature-review pass).
 
-#### M6.3 Falsifiability (beyond AIT) (formerly v1.3.0 Test 26)
+#### M6.3 Falsifiability (beyond CIT) (formerly v1.3.0 Test 26)
 
-AIT (M1.1) is the framework's falsifiability gate. M6.3 asks: beyond AIT, are the book's empirical claims falsifiable? What would disconfirm them?
+CIT (M1.1) is the framework's falsifiability gate. M6.3 asks: beyond CIT, are the book's empirical claims falsifiable? What would disconfirm them?
 
 **Procedure:** Per empirical claim (e.g., Ch 2's 33-122× IPG for McDowell coal; Ch 5's 10M foreclosure figure; Ch 6's convergence table), state what evidence would disconfirm. Flag any claim without a disconfirmation condition.
 
@@ -1114,7 +1127,7 @@ Does the content steelman the strongest peer-reviewer version of its counterargu
 
 **Procedure:** Per key claim, state the strongest academic-field-specific counterargument and verify the book handles it. Examples:
 - To the framework: "Commons Bonds is a restatement of Pigouvian externality theory with new vocabulary." Strongest academic form.
-- To the methodology: "AIT is not falsifiable in Popperian sense; inverting scarcity is not observable." Strongest.
+- To the methodology: "CIT is not falsifiable in Popperian sense; inverting scarcity is not observable." Strongest.
 - To the indigenous case: "Framework imposes settler-colonial analytic categories on non-settler-colonial cosmologies." Strongest.
 
 **Verdict:** STEELMAN HANDLED / PARTIAL / NOT HANDLED (requires engagement).
@@ -1143,7 +1156,7 @@ M6 literally simulates academic peer review. The output should read like a peer 
 >
 > Opening paragraph: Would I endorse this for publication at a top journal in the field, or recommend rejection? What's my one-line placement of the work against the existing literature?
 >
-> Methodological defense paragraph (M6.1): Per methodology element (AIT, RCV formula, two-path at case level, multi-scale universality), is the defense adequate? What would the strongest methodological objection be, and does the author handle it?
+> Methodological defense paragraph (M6.1): Per methodology element (CIT, RCV formula, two-path at case level, multi-scale universality), is the defense adequate? What would the strongest methodological objection be, and does the author handle it?
 >
 > Literature engagement paragraph (M6.2): Per relevant field (commons governance / externality theory / political economy of extraction / intergenerational justice / settler-colonial studies), is the engagement adequate? Specific citations missing or weak?
 >
@@ -1194,7 +1207,7 @@ What's genuinely new vs. restating existing literature? Can the claim of contrib
 
 Can the author state, in 2-3 sentences, what the book contributes that existing work does not?
 
-**Procedure:** Produce the contribution claim. Example for Commons Bonds (candidate articulation): "Ostrom's polycentric commons-governance framework operates at present-day scales; Harvey's accumulation-by-dispossession operates at structural-critique scales. Neither prices permanent foreclosure of non-renewable resources via substitutability-weighted intergenerational cost. Commons Bonds extends the commons-governance tradition into intergenerational pricing by introducing (a) the AIT methodology for scarcity-grounded cost identification, (b) the RCV formula for pricing foreclosure under substitutability uncertainty, and (c) the two-path rigor protocol for distinguishing real severance from institutional capture."
+**Procedure:** Produce the contribution claim. Example for Commons Bonds (candidate articulation): "Ostrom's polycentric commons-governance framework operates at present-day scales; Harvey's accumulation-by-dispossession operates at structural-critique scales. Neither prices permanent foreclosure of non-renewable resources via substitutability-weighted intergenerational cost. Commons Bonds extends the commons-governance tradition into intergenerational pricing by introducing (a) the CIT methodology for scarcity-grounded cost identification, (b) the RCV formula for pricing foreclosure under substitutability uncertainty, and (c) the two-path rigor protocol for distinguishing real severance from institutional capture."
 
 **Verdict:** CLAIM ARTICULABLE / REQUIRES SHARPENING / UNCLEAR CLAIM (serious problem).
 
@@ -1205,7 +1218,7 @@ Does substantially similar work already exist that would reduce this material's 
 **Procedure:** For each field identified in M6.2, state: closest existing work / the overlap / the distinctive addition. Key candidates:
 
 - vs. **Pigouvian externality theory:** adds intergenerational-foreclosure via substitutability; adds allocation-shield structural analysis.
-- vs. **Ostrom:** extends to intergenerational scale; adds AIT methodology; operates where no standing commons-governance body exists.
+- vs. **Ostrom:** extends to intergenerational scale; adds CIT methodology; operates where no standing commons-governance body exists.
 - vs. **Harvey (accumulation-by-dispossession):** names the mechanism at finer structural resolution (severance mechanism vs. accumulation pattern); prices rather than critiques.
 - vs. **Klein (disaster capitalism):** broader scope (extraction not only disaster); operates year-round not only in crisis.
 - vs. **Raworth (doughnut economics):** Raworth is system-level framing; CB is case-level pricing.
@@ -1914,7 +1927,7 @@ This test does NOT evaluate whether the framework's argument is correct. It eval
 ### §16.5.3 When to run
 
 - **Every term added to the framework's Ring-1 or Ring-2 vocabulary.** Required before ratification.
-- **Every decision rule named in the framework** (e.g., Asymmetric Regret Principle, Abundance Inversion Test).
+- **Every decision rule named in the framework** (e.g., Asymmetric Regret Principle, Commons Inversion Test).
 - **Every named mathematical primitive** (e.g., Substitutability Function, Externality Tail).
 - **Framework-wide audit** at least once per major phase (pre-submission, pre-publication).
 - **Retrospectively** when a term is flagged for rigor review — even if originally introduced without literature audit.
@@ -2172,9 +2185,9 @@ SHOW-STOPPER: [Yes / No; if Yes, specify level]
 
 ### §18.1 First worked example — C6 Decision Memo v2.0.0
 
-`alignment/decisions/commons_bonds_c6_decision_memo_2_0_0.html` — the first complete application of the multi-test battery. Evaluates four options (retire FGC / parallel dimensions / reconcile / collapse via manifestations) against two-path + four scales + AIT + 10-critic + success criteria.
+`alignment/decisions/commons_bonds_c6_decision_memo_2_0_0.html` — the first complete application of the multi-test battery. Evaluates four options (retire FGC / parallel dimensions / reconcile / collapse via manifestations) against two-path + four scales + CIT + 10-critic + success criteria.
 
-**Lesson:** The first v1.0.0 memo applied AIT + 10-critic without two-path. The rerun with two-path surfaced the decisive Tier 8 absence. Running only some applicable tests produced a recommendation defensible on the narrow battery but missing a decisive finding.
+**Lesson:** The first v1.0.0 memo applied CIT + 10-critic without two-path. The rerun with two-path surfaced the decisive Tier 8 absence. Running only some applicable tests produced a recommendation defensible on the narrow battery but missing a decisive finding.
 
 **v2.0.0 translation:** In v2.0.0 terms, the v1.0.0 memo ran M1.1 + M11 without M1.2. Running M1 as a complete module (all four sub-tests) would have caught it.
 
@@ -2188,7 +2201,7 @@ SHOW-STOPPER: [Yes / No; if Yes, specify level]
 
 `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-21_v1_0_0.md` — three rigor passes during v1.24.0 scope session.
 
-**Lesson:** v1.24.0 produced a parallel-lineage protocol (v1.0.0) without awareness that v1.1.0 was canonical. The parallel-lineage artifact had expanded coverage but silently dropped AIT + multi-scale + procedural template. Lineage-drift.
+**Lesson:** v1.24.0 produced a parallel-lineage protocol (v1.0.0) without awareness that v1.1.0 was canonical. The parallel-lineage artifact had expanded coverage but silently dropped CIT + multi-scale + procedural template. Lineage-drift.
 
 ### §18.4 Fourth worked example — 8-tier rigor pass v1.0.6
 
@@ -2280,7 +2293,7 @@ A sub-test or character that fails to differentiate on one pass may differentiat
 
 **v2.0.0 retired** (single-state-only; superseded by v2.1.0 same day; preserved via git history per project's "git preserves superseded versions" pattern).
 
-**Provenance note on Path F:** Path F (variables-not-dimensions reframing) emerged in Chris's articulation 2026-04-23 after v2.0.0 was committed. The reframing: the 10 abundances are not a canonical taxonomy but examples of variables that have proven material across our cases. Framework becomes generative — AIT identifies variables in any extraction situation; readers apply method in their own contexts. Asteroid-miner-considering-off-world-contract example demonstrates the framework's individual-scale usability (directly satisfies Goal-2). Path F is the path most likely (per pre-PCR sketch in §22.8) to outperform on multiple goals; full PCR run pending.
+**Provenance note on Path F:** Path F (variables-not-dimensions reframing) emerged in Chris's articulation 2026-04-23 after v2.0.0 was committed. The reframing: the 10 abundances are not a canonical taxonomy but examples of variables that have proven material across our cases. Framework becomes generative — CIT identifies variables in any extraction situation; readers apply method in their own contexts. Asteroid-miner-considering-off-world-contract example demonstrates the framework's individual-scale usability (directly satisfies Goal-2). Path F is the path most likely (per pre-PCR sketch in §22.8) to outperform on multiple goals; full PCR run pending.
 
 ### v2.0.0 (2026-04-23) — major bump
 
@@ -2299,7 +2312,7 @@ A sub-test or character that fails to differentiate on one pass may differentiat
    - **M2 Case study tests** (NEW) — formalizing implicit procedure from case-study audit. Houses two-path rigor as primary case-level diagnostic (relocated from v1.3.0 framework-level Group A).
    - **M4 Craft tests** (NEW) — structure, arc, voice, register, prose, preamble-strip.
    - **M9 Risk / exposure** (NEW consolidated) — legal + reputational + career + anonymization + sensitivity-reader. Output format: Risk Register using cross-cutting finding format throughout.
-4. **M1 architectural fix (CORE only).** Initial v2.0.0 conflated framework CORE with framework ELABORATION; mid-revision corrected. M1 tests AIT + RCV formula integrity + CS = RCV − B coherence + formal vocabulary integrity + universality across scales × environments. ELABORATION (10 dimensions + 8-tier decomposition + two-path + merger/primitiveness) tested by other modules. §5.1 NEW scope note.
+4. **M1 architectural fix (CORE only).** Initial v2.0.0 conflated framework CORE with framework ELABORATION; mid-revision corrected. M1 tests CIT + RCV formula integrity + CS = RCV − B coherence + formal vocabulary integrity + universality across scales × environments. ELABORATION (10 dimensions + 8-tier decomposition + two-path + merger/primitiveness) tested by other modules. §5.1 NEW scope note.
 5. **Module content additions.**
    - **M5 Dinner-table test** — formalized standalone (was scattered in v1.3.0 Tests 17, 20 + Character 19).
    - **M7 Originality contribution claim articulation** (M7.1) — explicit procedure for stating contribution (was implicit in Test 18).
@@ -2322,7 +2335,7 @@ A sub-test or character that fails to differentiate on one pass may differentiat
 
 **Provenance note on key revisions:**
 
-- The CORE-vs-ELABORATION distinction (M1 rescope) traces to Chris's framework-smell-test concern raised mid-session 2026-04-23, articulated as: the framework's contribution is AIT methodology + RCV equation + formal vocabulary; the 10 dimensions + 8 tiers may be useful elaboration but are not load-bearing on the book's contribution.
+- The CORE-vs-ELABORATION distinction (M1 rescope) traces to Chris's framework-smell-test concern raised mid-session 2026-04-23, articulated as: the framework's contribution is CIT methodology + RCV equation + formal vocabulary; the 10 dimensions + 8 tiers may be useful elaboration but are not load-bearing on the book's contribution.
 - The 4-endpoint breakdown for M10 traces to Chris's direct request 2026-04-23 to add literary agents / book publishers / magazine publishers / essay publishers as explicit publishing-path endpoints.
 - The output-format rationalization + cross-cutting finding format with SOLVE / MITIGATE / SHOW-STOPPER traces to Chris's editorial review 2026-04-23: "for some tests it seems correct that the output should read like a peer reviewer's memo. But for some tests a verdict table does seem like the correct format... It could possibly even mean some tests produce results that say a critic or peer reviewer would say ___ and what that means for the project is ___ and you could solve that by ___ (or) mitigate that by ____ (or) it's a show stopper that stops the project from (being successful, getting published, moving forward, etc.) if you don't fix it."
 
@@ -2334,7 +2347,7 @@ A sub-test or character that fails to differentiate on one pass may differentiat
 - **v1.2.1 (2026-04-22 morning):** Clarifications patch + Test 13 correction + consent-normalization shield typology.
 - **v1.2.0 (2026-04-21, ratified 2026-04-22):** Lineage reconciliation (v1.0.0 parallel-lineage absorbed into v1.1.0 canonical).
 - **v1.1.0 (2026-04-20):** Multi-scale × 2 environments + off-Earth exemplars.
-- **v1.0.0 (2026-04-20):** Initial canonical protocol. AIT + two-path + multi-scale + 10-critic + success criteria.
+- **v1.0.0 (2026-04-20):** Initial canonical protocol. CIT + two-path + multi-scale + 10-critic + success criteria.
 
 Full v1.3.0 change log preserved at `tools/archive/commons_bonds_rigor_protocol_v1.3.0.md` (if archived) or via git history.
 
@@ -2342,8 +2355,8 @@ Full v1.3.0 change log preserved at `tools/archive/commons_bonds_rigor_protocol_
 
 ## §21. Appendix — cross-references
 
-- **Operating core:** preferences, session handoffs, C9 patch §3 (AIT canonical positioning).
-- **AIT source:** `core/decomposition/eight-tier-v10.html`.
+- **Operating core:** preferences, session handoffs, C9 patch §3 (CIT canonical positioning).
+- **CIT source:** `core/decomposition/eight-tier-v10.html`.
 - **Two-path source:** `alignment/patches/pending-framework-review/c2_scale_abstract_patch.md`, `...c3_mechanism_shield_patch.md`, `...c5_two_path_rigor.md` (preserved paths; c5 archived).
 - **Success criteria source:** `tools/commons_bonds_book_scope_v1_0_3.md` + `tools/commons_bonds_guiding_constraints_v1_0_0.md`.
 - **Scaffolding-vs-load-bearing canonical:** `alignment/patches/pending-framework-review/c9_ait_canonical_positioning_patch.md`.
@@ -2426,7 +2439,7 @@ Provenance:
 
 **Quality criteria for path specs:**
 
-- **Specific.** "Compress the framework" is not a path spec. "Retain AIT + RCV + CS + vocabulary; retire the 10-dimension taxonomy; retire the 8-tier decomposition; cases serve as illustrative-mechanism not as canonical-instances" is.
+- **Specific.** "Compress the framework" is not a path spec. "Retain CIT + RCV + CS + vocabulary; retire the 10-dimension taxonomy; retire the 8-tier decomposition; cases serve as illustrative-mechanism not as canonical-instances" is.
 - **Distinct.** Each path must be materially different from each other path. Two paths that differ only in wording are not two paths.
 - **Implementable.** A path that cannot actually be executed as a manuscript revision is not a path; it's a thought experiment.
 - **Comparable.** Paths must share enough common scope to be compared. A path proposing a different book entirely cannot be compared to a path proposing a within-current-book revision.
@@ -2514,7 +2527,7 @@ For each path × each module:
 
 ## §3. CORE survival gate (M1 applied per path)
 
-| Path | M1.1 AIT | M1.2 RCV | M1.3 CS=RCV-B | M1.4 Vocabulary | M1.5 Universality | CORE survives? |
+| Path | M1.1 CIT | M1.2 RCV | M1.3 CS=RCV-B | M1.4 Vocabulary | M1.5 Universality | CORE survives? |
 |---|---|---|---|---|---|---|
 | Path A | | | | | | [Y/N] |
 | Path B | | | | | | |
@@ -2626,12 +2639,12 @@ To illustrate Path Comparison Mode without fully running it, this section sketch
 
 **The path set:**
 
-- **Path A — Status quo.** All 10 abundance dimensions + 8-tier decomposition + AIT + RCV + CS + formal vocabulary + 18 case studies + extensive elaboration. Most expansive framework. Current state.
-- **Path B — Compress to CORE.** AIT + RCV + CS + vocabulary + small case-study illustrative set. Dimensions and tiers retired (or moved to appendix-only). Aggressive simplification.
-- **Path C — Hybrid (dimensions kept, tiers retired).** AIT + RCV + CS + vocabulary + 10 dimensions as case-classification heuristic. 8-tier decomposition retired. Dimensions do the structural work; tiers were elaboration on dimensions.
-- **Path D — Hybrid (tiers kept, dimensions retired).** AIT + RCV + CS + vocabulary + 8 tiers as accounting structure. 10 dimensions retired (tiers do the structural work; dimensions were a parallel taxonomy).
-- **Path E — Aggressive minimum.** AIT + RCV + CS + vocabulary only + cases as illustrations of mechanism, not framework. Most compressed.
-- **Path F — Variables-not-dimensions reframing** (NEW per Chris's 2026-04-23 articulation). CORE same as Path B. The 10 abundances + 8 tiers reframed as **examples of variables that have proven material across our cases — illustrative, not ontological.** Framework becomes generative: AIT identifies variables in any extraction situation; RCV computes cost severance from the variable set the user identifies. Different situations produce different variable sets. The book teaches the method + provides cases as worked examples; readers apply the method in their own contexts (asteroid colony administrator, asteroid commons miner considering an off-world contract for himself + his new wife + child, McDowell coal miner at the negotiation table, etc.).
+- **Path A — Status quo.** All 10 commons categories (examples, not canonical) + 8-tier decomposition + CIT + RCV + CS + formal vocabulary + 18 case studies + extensive elaboration. Most expansive framework. Current state.
+- **Path B — Compress to CORE.** CIT + RCV + CS + vocabulary + small case-study illustrative set. Dimensions and tiers retired (or moved to appendix-only). Aggressive simplification.
+- **Path C — Hybrid (dimensions kept, tiers retired).** CIT + RCV + CS + vocabulary + 10 dimensions as case-classification heuristic. 8-tier decomposition retired. Dimensions do the structural work; tiers were elaboration on dimensions.
+- **Path D — Hybrid (tiers kept, dimensions retired).** CIT + RCV + CS + vocabulary + 8 tiers as accounting structure. 10 dimensions retired (tiers do the structural work; dimensions were a parallel taxonomy).
+- **Path E — Aggressive minimum.** CIT + RCV + CS + vocabulary only + cases as illustrations of mechanism, not framework. Most compressed.
+- **Path F — Variables-not-dimensions reframing** (NEW per Chris's 2026-04-23 articulation). CORE same as Path B. The 10 abundances + 8 tiers reframed as **examples of variables that have proven material across our cases — illustrative, not ontological.** Framework becomes generative: CIT identifies variables in any extraction situation; RCV computes cost severance from the variable set the user identifies. Different situations produce different variable sets. The book teaches the method + provides cases as worked examples; readers apply the method in their own contexts (asteroid colony administrator, asteroid commons miner considering an off-world contract for himself + his new wife + child, McDowell coal miner at the negotiation table, etc.).
 
 **Anticipated trade-off patterns** (to be confirmed by full PCR run):
 
