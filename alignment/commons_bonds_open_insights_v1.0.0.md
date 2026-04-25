@@ -403,11 +403,17 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
-### Insight #12 — Asymmetric Regret Principle rename sub-decision — CLOSED-RATIFIED 2026-04-24
+### Insight #12 — Asymmetric Regret Principle rename sub-decision — CLOSED-RATIFIED 2026-04-24 (FINAL after same-day flip)
 
-**Resolution 2026-04-24 by Chris Winn:** **Reversibility Default (RD)** ratified as new name. Replaces "Asymmetric Regret Principle." Per ARP rename rigor pass commit `b8b62e3`. Decision-theoretic content unchanged; name aligned with operational instruction + accounting-bookkeeping register + cross-political-tradition adoption breadth. Same Option C' political-philosophical-accommodation discipline that resolved Restitution Bond + 10-list dissolution.
+**Resolution 2026-04-24 by Chris Winn (FINAL):** **Asymmetric Regret Rule (ARR)** ratified as new name. Replaces "Asymmetric Regret Principle." Per ARP rename rigor pass commit `b8b62e3`.
 
-**Phase A3 sweep activated:** ~20 chapter refs (Ch 7 GuidanceDoc + Ch 7/9/10 drafts + Tech Appendix); Glossary v3 entry rename; Working Principle #5 example-reference updates; CSG record cross-pairing reference update; older docs Tier-2 retirement-note headers per Principle #4.
+**Same-day flip provenance:** A preliminary ratification of "Reversibility Default (RD)" was reversed same-day 2026-04-24 after M6 academic-rigor question surfaced post-ratification. RD would have required Tech-Appendix-footnote + Ch 7 prose + Glossary entries to make Savage / Loomes-Sugden lineage visible to reviewers; ARR has regret-theory direct lineage IN THE NAME — M6 maximum-protective without footnote dependency.
+
+**Why "Rule" over "Principle":** Operational decision rule, not foundational ethical principle. "Rule" downgrades overclaim while preserving "Asymmetric Regret" framing's direct-lineage value.
+
+**Phase A3 sweep activated (smaller than RD's would have been — last-word rename only):** ~20 chapter refs (Ch 7 GuidanceDoc + Ch 7/9/10 drafts + Tech Appendix) — replace "Asymmetric Regret Principle" / "ARP" with "Asymmetric Regret Rule" / "ARR"; Glossary v3 entry rename; Working Principle #5 example-reference updates; CSG record cross-pairing reference update; older docs Tier-2 retirement-note headers per Principle #4.
+
+**Lesson captured for future passes:** when M5 + cross-tradition-adoption tradeoffs appear close, foreground M6 direct-name-visibility EXPLICITLY in the executive summary recommendation. The M5/M6 weighing should be visible at ratification time, not surfaced post-ratification. (Captured in ARP rename rigor pass §7 final.)
 
 ---
 

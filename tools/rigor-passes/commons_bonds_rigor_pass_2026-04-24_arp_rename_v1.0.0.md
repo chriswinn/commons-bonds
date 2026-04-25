@@ -344,32 +344,38 @@ Both pass full 12-module rigor. Each has distinct strengths:
 
 ## §7. Author-ratified resolutions
 
-**Ratified 2026-04-24 by Chris Winn — REVERSIBILITY DEFAULT.** Top finalist adopted. ARP (Asymmetric Regret Principle) supersedes to Reversibility Default. Status quo and Asymmetric Regret Rule fallback both rejected.
+**Ratification timeline 2026-04-24 — same-day flip:**
 
-**Decisive rationale (from §1 + §5 + parallel to Restitution Bond ratification):**
-- M5 dinner-table strongest — *"default to the option you can undo"* parses immediately.
-- Aphorism aligns directly — *"We can always extract later. We can never un-extract."* IS reversibility-default articulated.
-- No overclaim — "Default" is operationally precise.
-- Decision-theoretic lineage preserved via Tech Appendix footnote (Savage 1951 + Loomes-Sugden 1982 + Rio Declaration 1992 + Dixit-Pindyck 1994 + Lempert-Popper-Bankes 2003).
-- Bidirectional flip-by-context preserved (what's reversible varies by context; Comet flyby vs Europa).
-- Cross-political-tradition adoption breadth preserved (same Option C' discipline applied to Restitution Bond).
-- Open Insight #12 closed-ratified.
+**(Round 1, ratified earlier 2026-04-24):** Reversibility Default. Author chose top finalist for M5 dinner-table + cross-political-tradition adoption + aphorism alignment + no-overclaim.
 
-**Phase A3 sweep activated:**
-- ~20 chapter refs (Ch 7 GuidanceDoc 11 refs + Ch 7/9/10 drafts + Tech Appendix) — Tier-1 sweep per Principle #4.
-- Glossary v3 entry rename.
-- Tech Appendix v0.0.5 academic-anchor footnote.
+**(Round 2, ratified later 2026-04-24 — FINAL):** **ASYMMETRIC REGRET RULE (ARR).** Author flipped after M6 academic-rigor question surfaced post-ratification: Reversibility Default required Tech Appendix footnote + Ch 7 prose + Glossary entries to make Savage / Loomes-Sugden lineage visible to reviewers; Asymmetric Regret Rule has the lineage IN THE NAME (instant pattern-match to regret-theory tradition) — M6 maximum-protective without footnote dependency.
+
+**Final ratification (FINAL):** **Asymmetric Regret Rule (ARR).** Replaces "Asymmetric Regret Principle." Reversibility Default ratification REJECTED 2026-04-24 same-day flip; preserved here for provenance.
+
+**Decisive rationale for FINAL ratification:**
+- **M6 maximum-protective in the name.** Decision theorist + academic reviewer pattern-matches "Asymmetric Regret" to Loomes-Sugden 1982 + Savage 1951 immediately. No footnote dependency.
+- **"Rule" downgrades "Principle" overclaim** while preserving regret-theory framing. Per ARP rigor pass concern that "Principle" overclaimed (operational decision rule, not foundational ethical principle).
+- **Minimal sweep cost** — ARP and ARR differ only in last word; existing chapter prose retains "asymmetric regret" framing intact.
+- **Decision-theoretic lineage in name** stronger M6 than Reversibility Default's footnote-dependent lineage.
+- **Authorial-voice continuity** preserved — Ch 7 GuidanceDoc's existing "asymmetric regret" prose largely unchanged.
+
+**Phase A3 sweep activated (smaller than RD's would have been):**
+- ~20 chapter refs (Ch 7 GuidanceDoc 11 refs + Ch 7/9/10 drafts + Tech Appendix) — Tier-1 sweep per Principle #4: replace "Asymmetric Regret Principle" / "ARP" with "Asymmetric Regret Rule" / "ARR." Last-word rename only.
+- Glossary v3 entry rename ("Principle" → "Rule").
+- Tech Appendix v0.0.5 academic-anchor footnote (Savage + Loomes-Sugden + Lempert RDM still load-bearing for full lineage; less critical for M6 since name carries direct lineage).
 - Terms Index supersession record (this commit).
 - Older rigor passes + session handoffs — Tier-2 retirement-note headers per Principle #4.
-- Working Principle #5 (context-flipping rules earn named-rule status) — example reference updates from ARP to Reversibility Default.
+- Working Principle #5 (context-flipping rules earn named-rule status) — example reference: ARP → ARR (preserve "Asymmetric Regret" core).
 - CSG record cross-pairing reference updates.
 
 **What stays the same:**
 - Decision-theoretic content (specialization of Savage minimax-regret with bidirectional-flip-by-context applied to RCV-tail uncertainty).
 - Aphorism *"We can always extract later. We can never un-extract."*
 - Two paradigm cases (Comet flyby — extract; Europa — preserve).
-- Tech Appendix academic positioning (cite Savage + Loomes-Sugden + Lempert + RDM regardless).
-- Principle #5 (context-flipping rules earn named-rule status) — applies regardless of name.
+- Tech Appendix academic positioning (cite Savage + Loomes-Sugden + Lempert + RDM).
+- Principle #5 (context-flipping rules earn named-rule status) — applies regardless.
+
+**M6 verdict (lesson captured for similar future sub-decisions):** when M5 + cross-tradition-adoption tradeoffs appear close, foreground M6 direct-name-visibility EXPLICITLY in the executive summary recommendation. The M5/M6 weighing should be visible to author at ratification time, not surfaced post-ratification. This pass's original recommendation was insufficiently transparent on the M6 cost; correction landed via same-day flip to ARR.
 
 ### §7.1 Sweep scope (any rename adopted)
 

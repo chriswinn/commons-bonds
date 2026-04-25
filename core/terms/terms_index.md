@@ -917,13 +917,13 @@ Tech Appendix §L footnote positions E as temporal-specialization of Pigouvian e
 
 ---
 
-### Asymmetric Regret Principle (ARP) — SUPERSEDED 2026-04-24 by Reversibility Default
+### Asymmetric Regret Principle (ARP) — SUPERSEDED 2026-04-24 by Asymmetric Regret Rule (ARR)
 
-**Status:** `SUPERSEDED` 2026-04-24 by Reversibility Default per ARP rename rigor pass (commit `b8b62e3`) ratified by Chris Winn. The decision-theoretic CONTENT and aphorism *"We can always extract later. We can never un-extract."* preserved unchanged; the NAME updated to align with operational instruction + accounting-bookkeeping register + cross-political-tradition adoption breadth.
+**Status:** `SUPERSEDED` 2026-04-24 by Asymmetric Regret Rule (ARR) per ARP rename rigor pass (commit `b8b62e3`) ratified by Chris Winn 2026-04-24 (FINAL ratification after same-day flip from preliminary Reversibility Default ratification). The decision-theoretic CONTENT and aphorism *"We can always extract later. We can never un-extract."* preserved unchanged; the LAST WORD updated ("Principle" → "Rule") to address overclaim concern while preserving regret-theory direct-lineage in the name.
 
-**Why renamed:** "Principle" overclaimed (operational decision rule, not foundational ethical principle). "Reversibility Default" is operationally precise; matches accounting-bookkeeping register; M5 dinner-table parses immediately; aphorism aligns directly with the name; decision-theoretic lineage preserved via Tech Appendix footnote.
+**Why renamed:** "Principle" overclaimed (operational decision rule, not foundational ethical principle). "Rule" downgrades while preserving "Asymmetric Regret" framing — direct M6 academic pattern-match to Loomes-Sugden 1982 + Savage 1951 regret-theory tradition. Maximum-protective M6 in the name without Tech-Appendix-footnote dependency.
 
-**Supersession trail:** see Reversibility Default record below for current framework element.
+**Supersession trail:** see Asymmetric Regret Rule record below for current framework element.
 
 **Working definition (prior, retained for historical reference):** Framework-specific operational decision rule — when RCV tails cannot be precisely quantified, default to the reversible option. Specialization of Savage-style minimax-regret applied to resource-extraction decisions under quantification uncertainty. Bidirectional-flip-by-context — directs extract-aggressively (Comet flyby case: access window closes) OR preserve (Europa case: incommensurable externality) depending on which action is reversible.
 
@@ -935,29 +935,39 @@ Tech Appendix §L footnote positions E as temporal-specialization of Pigouvian e
 
 ---
 
-### Reversibility Default (RD)
+### Reversibility Default (RD) — RATIFICATION REVERSED 2026-04-24 (same-day flip)
 
-**Working definition:** Framework-specific Ring-2 operational decision rule — when RCV tails cannot be precisely quantified, default to the option whose action is reversible: extraction when access window closes (Comet flyby), preservation when irreversible damage is at stake (Europa). Aphorism: *"We can always extract later. We can never un-extract."* Specialization of Savage-style minimax-regret with irreversibility-weighted regret tails. Bidirectional-flip-by-context (per Working Principle #5: context-flipping rules earn named-rule status). Aligned with Rio Declaration 1992 precautionary tradition + Lempert-Popper-Bankes 2003 RDM.
+**Status:** `RATIFICATION-REVERSED` 2026-04-24 same-day flip. Preliminary ratification of Reversibility Default (earlier 2026-04-24) reversed when M6 academic-rigor question surfaced post-ratification: RD required Tech Appendix footnote + Ch 7 prose + Glossary entries to make Savage / Loomes-Sugden lineage visible to reviewers; Asymmetric Regret Rule (ARR) has the lineage IN THE NAME — M6 maximum-protective without footnote dependency. Author flipped to ARR. Final ratified element is **Asymmetric Regret Rule (ARR)** per record below.
 
-**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn — supersedes Asymmetric Regret Principle).
+**Lesson captured (for ARP rename rigor pass + future similar passes):** when M5 + cross-tradition-adoption tradeoffs appear close, foreground M6 direct-name-visibility EXPLICITLY in the executive summary recommendation. The M5/M6 weighing should be visible to author at ratification time, not surfaced post-ratification.
 
-**Term-spec version:** v2.0 (rename from Asymmetric Regret Principle v1.0; framework content unchanged; name updated for operational clarity + cross-political-tradition adoption).
+**Preliminary working definition (preserved for provenance):** Framework-specific Ring-2 operational decision rule — when RCV tails cannot be precisely quantified, default to the option whose action is reversible. Same decision-theoretic content as Asymmetric Regret Rule (FINAL ratified name); only the name candidate differed.
+
+---
+
+### Asymmetric Regret Rule (ARR) — FINAL ratification 2026-04-24
+
+**Working definition:** Framework-specific Ring-2 operational decision rule — when RCV tails cannot be precisely quantified, default to the option whose action is reversible: extraction when access window closes (Comet flyby), preservation when irreversible damage is at stake (Europa). Aphorism: *"We can always extract later. We can never un-extract."* Specialization of Savage 1951 minimax-regret with irreversibility-weighted regret tails (Loomes-Sugden 1982 regret-theory tradition). Bidirectional-flip-by-context (per Working Principle #5: context-flipping rules earn named-rule status). Aligned with Lempert-Popper-Bankes 2003 RDM + Rio Declaration 1992 precautionary tradition.
+
+**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn — supersedes Asymmetric Regret Principle; ratification finalized after same-day flip from preliminary Reversibility Default ratification).
+
+**Term-spec version:** v2.0 (rename from Asymmetric Regret Principle v1.0; framework content unchanged; last word "Principle" → "Rule" to downgrade overclaim while preserving regret-theory direct-lineage in name).
 
 **Last reviewed:** 2026-04-24
 
 **Rigor provenance:**
-- ARP rigor pass (commit `7f35783`, 2026-04-24) — Ring-2 promotion ratified for the underlying decision rule.
-- ARP rename rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_arp_rename_v1.0.0.md` (commit `b8b62e3`, 2026-04-24) — Reversibility Default top finalist; alternatives tested (Asymmetric Regret Rule fallback; 8 other candidates rejected).
-- Ratification 2026-04-24 by Chris Winn — this commit. Reversibility Default ratified.
+- ARP rigor pass (commit `7f35783`, 2026-04-24) — Ring-2 promotion ratified for the underlying decision rule (originally as Asymmetric Regret Principle).
+- ARP rename rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_arp_rename_v1.0.0.md` (commit `b8b62e3`, 2026-04-24) — 10 candidates tested; Reversibility Default identified as top M5 finalist; Asymmetric Regret Rule identified as M6 fallback. Pass's executive summary insufficiently surfaced M6 cost of RD's footnote-dependency; author M6 question post-ratification flipped final choice to ARR.
+- Preliminary ratification (Reversibility Default) — REVERSED same-day 2026-04-24 after M6 question surfaced.
+- Final ratification 2026-04-24 by Chris Winn — this commit. **Asymmetric Regret Rule (ARR) ratified.**
 
-**Why "Reversibility Default" (per ARP rename rigor pass §1):**
-- M5 dinner-table strongest — *"default to the option you can undo"* parses immediately.
-- Aphorism aligns directly — the rule's content IS reversibility-default articulated.
-- Operational primacy — name conveys what to DO with the rule.
-- No overclaim — "Default" is operationally precise; doesn't claim foundational principle status.
-- Cross-political-tradition adoption — same Option C' discipline that resolved Restitution Bond.
-- Bidirectional flip-by-context preserved (what's reversible varies by context).
-- Decision-theoretic lineage preserved via Tech Appendix academic anchors (Savage + Loomes-Sugden + Lempert RDM + Rio Declaration + Dixit-Pindyck).
+**Why "Asymmetric Regret Rule" (FINAL):**
+- **M6 maximum-protective in the name.** Decision theorist + academic reviewer pattern-matches "Asymmetric Regret" to Loomes-Sugden 1982 + Savage 1951 regret-theory tradition immediately. No Tech-Appendix-footnote dependency.
+- **"Rule" downgrades "Principle" overclaim** while preserving regret-theory framing — operational decision rule, not foundational ethical principle.
+- **Minimal sweep cost** — ARP and ARR differ only in last word; existing chapter prose retains "asymmetric regret" framing largely intact.
+- **Authorial-voice continuity** preserved — Ch 7 GuidanceDoc's existing "asymmetric regret" prose largely unchanged.
+- **Decision-theoretic lineage in the name** stronger M6 than Reversibility Default's footnote-dependent lineage.
+- **Aphorism preserved:** *"We can always extract later. We can never un-extract."* The aphorism describes the operational instruction; "Asymmetric Regret Rule" names the principled basis for that instruction (regret asymmetry under irreversibility).
 
 **M12 classification:** Original specialization within counterfactual-reasoning + minimax-regret + precautionary-principle + real-options decision-theoretic lineage. Adjacent traditions cited; framework's contribution is specialization-with-bidirectional-flip + irreversibility-weighted regret-tail framing.
 

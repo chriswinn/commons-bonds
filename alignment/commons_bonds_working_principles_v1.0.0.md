@@ -224,7 +224,7 @@ Retirements during today's session (2026-04-24) that have Terms Index records bu
 ### Principle #5 — Context-flipping rules earn named-rule status
 
 **Ratified:** 2026-04-24 by Chris Winn
-**Originating context:** Asymmetric Regret Principle (ARP) rigor pass 2026-04-24, subsequently renamed to **Reversibility Default (RD)** per ARP rename rigor pass commit `b8b62e3` ratified 2026-04-24. Ch 7 GuidanceDoc shows the rule directing *extract-aggressively* on Comet flyby (access window closes permanently → extraction is the reversible choice) AND *preserve* on Europa (incommensurable biosphere externality → preservation is the reversible choice). Same rule, opposite operational verdicts. Precautionary Principle can't do this — it's unidirectional. The bidirectional flip was decisive for the rule's Ring-2 promotion.
+**Originating context:** Asymmetric Regret Principle (ARP) rigor pass 2026-04-24, subsequently renamed to **Asymmetric Regret Rule (ARR)** per ARP rename rigor pass commit `b8b62e3` ratified 2026-04-24 (final ratification after same-day flip from preliminary Reversibility Default ratification — M6 academic-rigor question surfaced post-preliminary-ratification; ARR has regret-theory direct lineage in the name without Tech-Appendix-footnote dependency). Ch 7 GuidanceDoc shows the rule directing *extract-aggressively* on Comet flyby (access window closes permanently → extraction is the reversible choice) AND *preserve* on Europa (incommensurable biosphere externality → preservation is the reversible choice). Same rule, opposite operational verdicts. Precautionary Principle can't do this — it's unidirectional. The bidirectional flip was decisive for the rule's Ring-2 promotion.
 **Scope:** every rigor pass evaluating a decision-rule / heuristic / principle candidate for named-term status.
 
 **Principle statement:**
@@ -248,7 +248,7 @@ The framework has multiple decision rules in its vocabulary (ARP; Four Gates adm
 For any candidate decision rule, ask: *"under different contexts, does this rule direct OPPOSITE actions while remaining the same rule?"* If yes, the rule earns named-rule status (subject to other rigor tests). If no, the rule may still earn a name via other criteria but doesn't earn it via bidirectionality.
 
 **Examples in the framework:**
-- **Reversibility Default (RD)** (formerly Asymmetric Regret Principle; renamed 2026-04-24) — bidirectional (flips on which action is reversible). PASSES.
+- **Asymmetric Regret Rule (ARR)** (formerly Asymmetric Regret Principle; renamed 2026-04-24 — last-word "Principle" → "Rule" to downgrade overclaim) — bidirectional (flips on which action is reversible). PASSES.
 - **Precautionary Principle** (established literature) — unidirectional (always toward prevention). Framework doesn't name it; cites it.
 - **Abundance Inversion Test** (AIT) — not a direction-rule; a test. N/A.
 - **Option-Preservation** (candidate framing for ARP rename) — bidirectional (preserve optionality either by acting or by not acting). PASSES; candidate rename for ARP captures the same bidirectional structure.
