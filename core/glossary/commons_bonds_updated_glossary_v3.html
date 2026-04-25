@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commons Bonds — Updated Glossary v3</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            color: #333;
+            background-color: #fff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+        h2 {
+            font-size: 22px;
+            margin: 30px 0 15px 0;
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+        }
+        h3 {
+            font-size: 18px;
+            margin: 25px 0 10px 0;
+            color: #34495e;
+        }
+        .subtitle {
+            font-size: 16px;
+            color: #666;
+            font-style: italic;
+        }
+        .term {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+        .term-name {
+            font-weight: bold;
+            font-size: 18px;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        .term-definition {
+            margin-bottom: 10px;
+        }
+        .ring-label {
+            font-size: 11px;
+            color: #888;
+            font-weight: normal;
+            font-style: italic;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .ring-1-section {
+            background-color: #e8f4fd;
+            border: 2px solid #3498db;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .ring-2-section {
+            background-color: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .architecture-section {
+            background-color: #f0f4f8;
+            border: 2px solid #5a8a9f;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .commons-section {
+            background-color: #f3e8ff;
+            border: 2px solid #7a3ea1;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .retired-section {
+            background-color: #fff5f5;
+            border: 2px solid #c0392b;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            opacity: 0.85;
+        }
+        .retired-section .term {
+            background-color: #ffeeee;
+            border-left-color: #c0392b;
+        }
+        .lineage-note {
+            font-size: 0.85em;
+            color: #555;
+            font-style: italic;
+            margin-top: 8px;
+        }
+        .provenance-pointer {
+            background-color: #fef9ec;
+            border-left: 4px solid #b8860b;
+            padding: 1em 1.2em;
+            margin: 1.5em 0;
+            font-size: 0.95em;
+        }
+        @media print {
+            body { color: #000; background: #fff; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Commons Bonds</h1>
+        <p class="subtitle">Canonical Vocabulary Glossary — v3</p>
+        <p class="subtitle">By Chris Winn</p>
+        <p class="subtitle" style="font-size:13px; color:#999;">Updated 2026-04-24 · Phase A3 framework structural-restructure ratifications integrated · Two-Instrument Architecture (CSD + RCV) + Commons-as-Structural-Identity reframing + B = B1 + B2 decomposition + Asymmetric Regret Rule (renamed from Principle) + AIT renamed to Commons Inversion Test + 8-tier FGC decomposition retired (replaced by Cᵢ admitted via Four Gates per Path F + tier-dissolution ratifications)</p>
+    </div>
+
+    <div class="provenance-pointer">
+        <strong>Framework vocabulary provenance pointer (per Working Principle #4):</strong> All terms in this glossary have full provenance — rigor pass support, ratification history, definition lineage, M12 prior-art audit — tracked in <code>core/terms/terms_index.md</code>. See individual entries there for the reasoning chain behind each term's classification (Ring 1 / Ring 2 / retired) and naming decisions. Bibliography lineage citations in <code>research/literature/bibliography.md</code>.
+    </div>
+
+    <div class="ring-1-section">
+        <h2>Ring 1 — Public Adoption Targets (load-bearing for framework durability)</h2>
+        <p style="font-size:0.9em; color:#555; margin-bottom:16px;">These terms travel outside the book into legal / policy / academic discourse. The framework's adoption-durability bet rests on these. Seven Ring-1 terms ratified as of 2026-04-24.</p>
+
+        <div class="term">
+            <div class="ring-label">Ring 1 · Framework name + book title</div>
+            <div class="term-name">Commons Bonds</div>
+            <div class="term-definition">The framework's name + the book's title. Plural "Commons" is load-bearing: the framework operates across MULTIPLE commons categories (the 10 examples surfaced via CIT). The bonds are the obligations owed to shared resources + the financial instruments (Restitution Bond + Foreclosure Bond = aggregate Accountability Bond) that could enforce these obligations. Polysemic title: obligations (commons bonds) becoming shared identity (common bonds).</div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 1 · Causal-chain event</div>
+            <div class="term-name">Value Extraction</div>
+            <div class="term-definition">The act by which value is separated from its source (a community, ecosystem, or future generation) and taken by a value-capturer. The causal event that produces Cost Severance — extraction severs cost from the capturer (who benefits) and leaves it with the source (who bears). First position in the framework's causal chain: <em>Value Extraction → Cost Severance → Severed Cost.</em> Framework EXTENDS Mariana Mazzucato's value-extraction critique (Mazzucato 2018) — developed there for rent-seeking in financial capitalism — into the physical-resource domain. Echoes David Harvey's accumulation by dispossession (Harvey 2003) rendered in accessible accounting-register language.</div>
+            <div class="lineage-note">Lineage: Mazzucato 2018, <em>The Value of Everything</em>; Harvey 2003, <em>The New Imperialism</em>.</div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 1 · Mechanism noun</div>
+            <div class="term-name">Cost Severance</div>
+            <div class="term-definition">The structural mechanism by which extraction separates value capture from cost bearing. The process/mechanism noun naming the framework's core phenomenon. Middle position in causal chain: <em>Value Extraction → Cost Severance → Severed Cost.</em> Quantified via the flagship equation <strong>CS = RCV − B</strong>. <strong>Specialization (not contradiction) of the familiar employment-severance concept</strong> — inverted to describe the relationship between value-capturers and the commons they draw from. Ch 1 opening builds the rhetorical bridge from HR-severance familiarity to framework usage (per Option C ratification 2026-04-24). Cost severance requires distance between value-capturer and cost-bearer — when that distance collapses to zero, cost severance approaches zero automatically.</div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 1 · Result noun · flagship adoption target</div>
+            <div class="term-name">Severed Cost</div>
+            <div class="term-definition">A specific cost that has been severed — value extracted by capturer while the cost remains at the source (community, ecosystem, future generation). The result/quantity noun naming the quantified outcome of the Cost Severance mechanism. <strong>Flagship adoption target</strong> for the framework's success criterion (e.g., labor lawyer uses "severed cost" in a brief).</div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 1 · Quantification</div>
+            <div class="term-name">Residual Commons Value (RCV)</div>
+            <div class="term-definition">The true intergenerational cost of extraction: foreclosure cost plus externality tail, weighted by substitutability and discounted across time. The price that includes what markets structurally exclude. Forward-looking measurement instrument (companion to backward-looking CSD per Two-Instrument Architecture). Formally: RCV(R, t₀) = ∫[t₀ to ∞] { [1 − S(t|t₀)] · U(R, t, Q(t)) + E(R, t) } · D(t, t₀) dt. The name itself encodes the framework's commons-structural-identity: <em>Residual Commons Value.</em></div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 1 · Methodology</div>
+            <div class="term-name">Commons Inversion Test (CIT)</div>
+            <div class="term-definition">Framework-specific Ring-1 methodology for admitting candidate costs to RCV. <strong>Renamed 2026-04-24 from Abundance Inversion Test (AIT)</strong> per author insight that the test operates on commons (concrete shared resources), not abstract abundances. CIT operates on commons categories: imagine the commons inverted (either absent or unconsumed); if the candidate cost becomes visible as commons-dependent, admit to Cᵢ via Four Gates.
+            <p style="margin-top:10px;"><strong>Two sub-forms (formalized as methodology contribution beyond rename):</strong></p>
+            <ul style="margin-top:6px; margin-bottom:0;">
+              <li><strong>Commons-Absence Inversion</strong> — imagine the commons not existing (paradigm: oxygen in space; McDowell habitability destroyed by coal extraction). Operational question: <em>what would it take to replace the commons?</em></li>
+              <li><strong>Commons-Consumption Inversion</strong> — imagine the commons not being consumed (paradigm: commute time returned; forest uncut; medical-commons of dying-with-dignity). Operational question: <em>what could the commons do if not drawn down?</em></li>
+            </ul>
+            <p style="margin-top:10px; margin-bottom:0;">Specialized extension of commons-governance methodology (Ostrom-lineage tradition) to extraction-contexts where commons are drawn down rather than managed-in-place.</p>
+            </div>
+            <div class="lineage-note">Lineage: Ostrom 1990, Hess & Ostrom 2007 (knowledge commons); counterfactual reasoning + minimax-regret (Savage 1951; Loomes-Sugden 1982).</div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 1 · Cost variables</div>
+            <div class="term-name">Cost (Cᵢ)</div>
+            <div class="term-definition">Indexed cost variables admitted to RCV via the Four Gates (Path F + tier-dissolution ratifications retire the prior 8-tier decomposition; costs are now Cᵢ admitted variables, not pre-sorted tier categories). Each Cᵢ is a specific cost variable with units, time-domain, and admission justification. Each must pass all four Gates: CIT (commons-grounded?) + Units Consistency + Boundedness + Independence.</div>
+        </div>
+    </div>
+
+    <div class="ring-2-section">
+        <h2>Ring 2 — Internal Load-Bearing (framework-coherence; not adoption targets)</h2>
+        <p style="font-size:0.9em; color:#555; margin-bottom:16px;">Readers encounter these to understand the framework's internal structure; non-readers don't adopt them as travel-ready vocabulary. Ten Ring-2 terms ratified as of 2026-04-24.</p>
+
+        <div class="term">
+            <div class="ring-label">Ring 2 · Equation</div>
+            <div class="term-name">CS = RCV − B (Cost Severance equation)</div>
+            <div class="term-definition">The framework's central relational claim — Cost Severance equals specifically Residual Commons Value minus Accountability Bond. Three independent contributions: (i) only RCV and B matter for computing CS; (ii) accountability-gap is linear in B; (iii) B = RCV defines the framework's ideal state quantitatively (CS = 0 ↔ honest accounting). With B = B1 + B2 decomposition: total CS = (CSD − B1) + (RCV − B2) = (CSD + RCV) − (B1 + B2). Standard gap-accounting form (Pigou 1920 + Stern 2007 + Nordhaus DICE) with framework-specific decomposition.</div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 2 · Backward-looking instrument</div>
+            <div class="term-name">Cost Severance Damages (CSD)</div>
+            <div class="term-definition">Backward-looking framework instrument measuring realized human harm from cost severance — health damages, intergenerational disadvantage, community-level suffering, foreclosed life-trajectories. Distinct from RCV (forward-looking resource permanent-foreclosure measure). Pairs with Restitution Bond (B1) in two-instrument architecture. Adopts reparations-economics methodology (Darity & Mullen 2020) + extends to extraction-community contexts.</div>
+            <div class="lineage-note">Lineage: Darity & Mullen 2020; VSL/DALY methodology; Chetty et al. intergenerational mobility; Bullard 1990 environmental justice.</div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 2 · Aggregate accountability instrument</div>
+            <div class="term-name">Accountability Bond (B)</div>
+            <div class="term-definition">Aggregate framework instrument <strong>B = B1 + B2</strong> closing the Cost Severance gap. Every mechanism that forces extractors to bear costs. <strong>Decomposed (Block 1 Two-Instrument Architecture):</strong>
+            <ul style="margin-top:6px; margin-bottom:0;">
+              <li><strong>B1 = Restitution Bond</strong> (backward-looking; closes CSD gap; reparations + welfare-state + environmental-justice damages compensation + restitution-law tradition).</li>
+              <li><strong>B2 = Foreclosure Bond</strong> (forward-looking; closes RCV gap; Hartwick savings + sovereign wealth funds + reclamation bonds + EIBs + Pigouvian carbon taxes). <strong>Term-pair coherence with Foreclosure Cost (C₁ in RCV integrand).</strong></li>
+            </ul>
+            <p style="margin-top:10px; margin-bottom:0;">The aggregate quantity that should equal RCV for honest accounting. Norway's Government Pension Fund Global is canonical existing B2 exemplar (operationalizes Hartwick rule); B1 globally remains underdeveloped (reparations-economics is the active scholarly territory).</p>
+            </div>
+            <div class="lineage-note">Lineage (B1): Darity & Mullen 2020; Bullard 1990; restitution-law tradition. Lineage (B2): Hotelling 1931, Hartwick rule 1977, Solow 1974, Yang & Davis 2021, Balboa 2016, GAO-17-207R, OSMRE, Pigou 1920.</div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 2 · Hotelling-extension identity</div>
+            <div class="term-name">Hotelling Identity</div>
+            <div class="term-definition">The framework's articulation that the gap between commons' true cost (RCV) and extractor's market-priced scarcity premium (Hotelling rent) IS, by definition, the per-unit Cost Severance: <strong>RCV − Hotelling rent = CS per unit.</strong> Bridge between framework vocabulary and standard resource-economics math. <strong>Hotelling's part</strong> (Hotelling 1931): resource rent = market price − extraction cost = extractor's scarcity premium. <strong>Framework's part:</strong> defining RCV as commons' true cost; recognizing Hotelling rent under honest accounting represents commons' scarcity value being APPROPRIATED by extractor (rather than compensated to commons); articulating the identity itself. Honest extension; Hotelling didn't write the identity (didn't have RCV).</div>
+            <div class="lineage-note">Lineage: Hotelling 1931 (foundational); Hartwick 1977; Solow 1974; Pearce-Atkinson 1993; Daly stock-flow accounting.</div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 2 · Estimation methodology</div>
+            <div class="term-name">Triangulated RCV Estimation ("Three Ways of Counting")</div>
+            <div class="term-definition">Three-method estimation methodology for RCV producing a defensible range rather than a single point estimate. <strong>"Three Ways of Counting"</strong> is the pedagogical name (Ch 6 chapter title); <strong>"Triangulated RCV Estimation"</strong> is the formal Tech Appendix name.
+            <ul style="margin-top:6px; margin-bottom:0;">
+              <li><strong>Method 1 — Replacement Cost (lower bound):</strong> what would it cost to provide the same service from the next-best substitute? Captures only substitutable component.</li>
+              <li><strong>Method 2 — Norway Revealed Preference (middle-anchor within triangulation):</strong> Norway sovereign-fund per-barrel value as anchor. <em>Sidesteps the discount-rate debate.</em> Per Open Insight #14 epistemic humility, Norway didn't fully capture RCV either; functions as middle-anchor between Methods 1 and 3, not absolute middle of true RCV.</li>
+              <li><strong>Method 3 — Scarcity-Adjusted Option Value (upper bound):</strong> real-options theory (Dixit-Pindyck 1994) specialized for declining substitutability + future-use uncertainty. Parameters σ + α + V_option.</li>
+            </ul>
+            <p style="margin-top:10px; margin-bottom:0;">Convergence reduces uncertainty; divergence reveals where real disagreements live (substitutability vs scarcity-rate vs option-value parameter dominance per sensitivity analysis).</p>
+            </div>
+            <div class="lineage-note">Lineage: Costanza 1997 (Method 1); Hartwick 1977 + Solow 1974 (Method 2); Dixit-Pindyck 1994 (Method 3).</div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 2 · Substitutability primitive</div>
+            <div class="term-name">Substitutability Function S(t|t₀)</div>
+            <div class="term-definition">Probability function — probability that a functionally adequate substitute for resource R exists at future time t, conditional on baseline technological state at t₀. Appears in foreclosure-cost term C₁ = [1 − S(t|t₀)] · U(R, t, Q(t)). Framework's most novel single mathematical component. Influenced by extraction-timing feedback: earlier extraction can reduce innovation pressure and lower S(t) for future t. Distinct from Hicks 1932 elasticity of substitution (point measure) + Dixit-Pindyck 1994 real options (no commons-extraction context).</div>
+            <div class="lineage-note">Lineage: Hicks 1932 (elasticity of substitution); Dixit-Pindyck 1994 (real-options theory); intertemporal substitution in macro theory.</div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 2 · Externality primitive</div>
+            <div class="term-name">Externality Tail E(R, t)</div>
+            <div class="term-definition">Time-indexed cost function — damage from extraction of resource R at time t that persists independently of substitute availability. Sibling to foreclosure cost C₁ in the RCV integrand; runs on its own clock (temporally independent of S); structurally specializes Pigouvian externality concept with post-extraction persistence + substitutability-independence. <em>"A substitute for coal doesn't clean up the mine. A substitute for oil doesn't remove carbon from the atmosphere."</em></div>
+            <div class="lineage-note">Lineage: Pigou 1920 (foundational); Nordhaus DICE; Stern Review 2007.</div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 2 · Diagnostic ratio</div>
+            <div class="term-name">Intergenerational Pricing Gap (IPG)</div>
+            <div class="term-definition">Ratio IPG = RCV / market_price — the factor by which markets underprice extraction at the point of transaction. "IPG = 33" means the market price covers approximately 3% of the true intergenerational cost. Framework-specific market-pricing-gap diagnostic, distinct from Cost Severance (which uses B not market_price). McDowell coal IPG = 33 is framework's canonical empirical compression. By construction IPG > 1 for extraction cases where RCV captures intergenerational costs markets don't price; empirical work quantifies MAGNITUDE.</div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 2 · Mechanism (paired with CIT)</div>
+            <div class="term-name">Abundance Masking</div>
+            <div class="term-definition">The mechanism by which abundance makes costs invisible to market pricing until scarcity forces them into view. Oxygen feels free because Earth's atmosphere is abundant. Ecological services feel free because ecosystems haven't collapsed yet. <strong>Paired with CIT:</strong> masking is the process; CIT is the methodology that detects what masking hides. Promoted to Ring 2 from earlier demote-to-prose ratification per re-examination 2026-04-24 — framework benefits from naming both sides of the mechanism + methodology pair (analogous to Cost Severance + Severed Cost).</div>
+        </div>
+
+        <div class="term">
+            <div class="ring-label">Ring 2 · Decision rule</div>
+            <div class="term-name">Asymmetric Regret Rule (ARR)</div>
+            <div class="term-definition">Framework-specific operational decision rule — when RCV tails cannot be precisely quantified, default to the option whose action is reversible. Aphorism: <em>"We can always extract later. We can never un-extract."</em> Specialization of Savage 1951 minimax-regret with irreversibility-weighted regret tails. <strong>Bidirectional flip-by-context</strong> (per Working Principle #5): directs extract-aggressively (Comet flyby — access window closes; extraction is the reversible choice) AND preserve (Europa — incommensurable biosphere externality; preservation is the reversible choice). <strong>Renamed 2026-04-24 from Asymmetric Regret Principle</strong> — last-word "Principle" → "Rule" to downgrade overclaim while preserving regret-theory direct lineage in name.</div>
+            <div class="lineage-note">Lineage: Savage 1951 (minimax regret); Loomes-Sugden 1982 (regret theory); Lempert-Popper-Bankes 2003 RDM; Rio Declaration 1992 (precautionary principle adjacent).</div>
+        </div>
+    </div>
+
+    <div class="architecture-section">
+        <h2>Architecture — Two-Instrument + Four Gates</h2>
+
+        <h3>Two-Instrument Architecture</h3>
+        <p style="margin-bottom:16px;">The framework measures two orthogonal aspects of an extraction event:</p>
+        <ul>
+            <li><strong>CSD (Cost Severance Damages)</strong> — backward-looking; realized human harm; reparations-economics-grounded; pairs with B1 (Restitution Bond).</li>
+            <li><strong>RCV (Residual Commons Value)</strong> — forward-looking; resource permanent-foreclosure; triangulated estimation; pairs with B2 (Foreclosure Bond).</li>
+        </ul>
+        <p>Total Extraction Damages = CSD + uncaptured RCV. Per Block 1 Hole 5: <em>you could fully compensate every Appalachian descendant — make them whole on health, education, housing, income — and the coal is still gone.</em> Two distinct measurements of the same extraction event from different directions. Open Insight #19 (CSD-RCV correlation hypothesis) is the framework's deepest empirical claim — that CSD and uncaptured RCV correlate across extraction cases would be a structural empirical finding.</p>
+
+        <h3>Four Gates (admission apparatus for Cᵢ)</h3>
+        <p style="margin-bottom:16px;">Four conditions a candidate cost must pass to be admitted to RCV as a Cᵢ. <strong>Naming asymmetry honors structural distinction:</strong> Gate 1 (CIT) is a TEST (procedural methodology); Gates 2-4 are CONDITIONS (static mathematical properties).</p>
+        <ol>
+            <li><strong>CIT (Commons Inversion Test)</strong> — content gate; is the cost commons-dependent? (Two sub-forms: Absence + Consumption Inversion.)</li>
+            <li><strong>Units Consistency</strong> — mathematical condition; cost in dollars × time-domain commensurable with rest of RCV integrand. (Renamed 2026-04-24 from "Dimensional Consistency" — per Four Gates cluster pass; "units" matches accounting-bookkeeping register, disambiguates from former "dimension" usage.)</li>
+            <li><strong>Boundedness</strong> — mathematical condition; cost integrand converges. (Active on climate/intergenerational cases requiring discount-rate convention.)</li>
+            <li><strong>Independence</strong> — mathematical condition; cost not redundantly correlated with already-admitted Cᵢ (no double-counting). (Active on multi-stream cases like 2008 financial crisis + opioid Appalachia.)</li>
+        </ol>
+    </div>
+
+    <div class="commons-section">
+        <h2>Commons Categories — 10 Examples (NOT canonical or exhaustive)</h2>
+        <p style="margin-bottom:16px;"><strong>Per Option C' political-philosophical-accommodation discipline ratified 2026-04-24:</strong> the 10 categories below are EXAMPLES of commons CIT has surfaced across the 18 cases this book examines — not a canonical or exhaustive enumeration. Framework's universality is about METHOD (CIT applies anywhere extraction operates on commons-like resources), not about enumeration canonicity. Different political traditions have different commitments about what is shared and what is individual; framework accommodates rather than asserts.</p>
+
+        <p style="font-style:italic; margin-bottom:16px;">"Abundance" preserved as STATE-name for each commons (abundant vs scarce — the state CIT inverts), distinct from the commons CATEGORY label. Per-commons rich-profile content lives in <code>core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md</code> (methodology doc; Phase A3 sweep target for v1.4.0 rename).</p>
+
+        <ol>
+            <li><strong>Habitability</strong> — life-supporting conditions of place. Paradigm: McDowell coal extraction stripping clean air, healthy bodies, intact community life-support.</li>
+            <li><strong>Spatial</strong> — geographic shared infrastructure (mobility access; public space; geographic commons). Paradigm: Chesapeake Bay watermen's geographic commons.</li>
+            <li><strong>Temporal</strong> — shared time-budget; intergenerational time-commons. Paradigm: Social Security cohort-succession commons.</li>
+            <li><strong>Institutional</strong> — governance + legal architecture as shared infrastructure. Paradigm: 2008 financial-crisis institutional commons damage.</li>
+            <li><strong>Kindred</strong> — kinship + chosen-family + specific-attachment-bond infrastructure. Paradigm: opioid Appalachia family-destruction.</li>
+            <li><strong>Ecosystem</strong> — ecological services + biodiversity (canonical Ostrom commons territory). Paradigm: Deepwater Horizon Gulf ecosystem.</li>
+            <li><strong>Political</strong> — political agency + voice + representation as shared infrastructure. Paradigm: Political Capture Cost in extraction industries.</li>
+            <li><strong>Cohesion</strong> — civic / community / social-infrastructure binding (Klinenberg <em>Palaces for the People</em> territory).</li>
+            <li><strong>Epistemic</strong> — knowledge + epistemic-authority commons (Hess & Ostrom <em>Understanding Knowledge as a Commons</em> 2007 territory). Paradigm: opioid case truthful-info-suppression by Sackler/Purdue.</li>
+            <li><strong>Autonomy</strong> — autonomy-supporting infrastructure (Anderson <em>Private Government</em> 2017 — civic-republican framing). <em>Most-contested example politically;</em> see Open Insight #18 + Ch 6 political-philosophical acknowledgment passage.</li>
+        </ol>
+        <p style="margin-top:16px; font-size:0.9em; color:#555;"><em>This framework doesn't argue that autonomy is universally a commons, or that habitability is, or that time is. It argues that when any of these operate AS commons in a given society — shared, depended-on, collectively enabling — extraction can sever cost from that commons, and this methodology measures the severance. Different political traditions have different commitments. The framework works within any of those commitments. What it doesn't accept is extraction without accountability, regardless of which commons is being extracted from.</em></p>
+    </div>
+
+    <div class="retired-section">
+        <h2>Retired Terms (preserved for provenance per Working Principle #4)</h2>
+
+        <div class="term">
+            <div class="term-name">Abundance Inversion Test (AIT)</div>
+            <div class="term-definition">SUPERSEDED 2026-04-24 by Commons Inversion Test (CIT) per author insight that the test operates on commons (concrete shared resources), not abstract abundances. Decision-theoretic content preserved + refined via two CIT sub-forms; name updated to match operational instruction.</div>
+        </div>
+
+        <div class="term">
+            <div class="term-name">Asymmetric Regret Principle</div>
+            <div class="term-definition">SUPERSEDED 2026-04-24 by Asymmetric Regret Rule (ARR). Last-word rename: "Principle" overclaimed (operational decision rule, not foundational ethical principle). Decision-theoretic content unchanged; regret-theory framing preserved; "Rule" downgrades overclaim while preserving direct M6 academic pattern-match to Loomes-Sugden 1982 + Savage 1951.</div>
+        </div>
+
+        <div class="term">
+            <div class="term-name">Value Capture</div>
+            <div class="term-definition">RETIRED 2026-04-24. Ratified replacement: <strong>Value Extraction</strong> (per Value-Capture-vs-Extraction rigor pass + cross-pairing synthesis). Causal-chain bridge test favored Extraction (separation-from-source semantics pairs with Cost Severance's severance-from-capturer semantics).</div>
+        </div>
+
+        <div class="term">
+            <div class="term-name">Spatial Cost Severance (capitalized proper-noun) → spatial cost severance (lowercase prose phrase)</div>
+            <div class="term-definition">Capitalized form RETIRED → un-retired as <strong>lowercase prose phrase</strong> (per re-examination rigor pass 2026-04-24, reversing earlier Principle-#2-failure retirement). Geographic subtype of Cost Severance: costs concentrate where extraction happens; value disperses to distant consumers. Canonical case: McDowell County 13-year life-expectancy gap. <em>Distinct from Spatial commons category (the abundance-domain).</em> Lowercase discipline mirrors intergenerational cost severance pattern.</div>
+        </div>
+
+        <div class="term">
+            <div class="term-name">Temporal Cost Severance</div>
+            <div class="term-definition">RETIRED 2026-04-24 (capitalized form). Lowercase form also rejected per Temporal CS reconsider pass: Principle-#3 variant-subtype check FAILED for "temporal" — qualifier describes constitutive property of all CS (all severance has temporal offset between value-capture and cost-bearing), not a distinguishing gap-type. The intergenerational lowercase prose phrase covers the load-bearing cases. Spatial + intergenerational lowercase pair does NOT extend to a three-member cohort.</div>
+        </div>
+
+        <div class="term">
+            <div class="term-name">Abundance Dimension</div>
+            <div class="term-definition">RETIRED 2026-04-24 as construct-label. The 10 are now framed as <strong>commons categories</strong> (examples not canonical) per Option C' ratification + commons-as-structural-identity reframing. "Abundance" preserved as state-name (abundant vs scarce — the state CIT inverts), not as the construct-label for the 10.</div>
+        </div>
+
+        <div class="term">
+            <div class="term-name">Universality Test</div>
+            <div class="term-definition">RETIRED/DEMOTED 2026-04-24 per re-examination pass. Concept preserved in prose (scope claim + boundary-awareness illustration; Mars/Europa pedagogy retained in Tech Appendix) without dedicated capitalized term. Was 0 chapter refs; not exercised as test in book cases.</div>
+        </div>
+
+        <div class="term">
+            <div class="term-name">Full Generational Cost (FGC)</div>
+            <div class="term-definition">RETIRED 2026-04-24 (per tier-dissolution + meta-pass §11.1). FGC was tied to the 8-tier decomposition; under Path F + tier-dissolution ratifications, costs are now Cᵢ admitted via Four Gates. Where FGC was used, refer to RCV (the integrand) or Σᵢ Cᵢ (the sum of admitted costs).</div>
+        </div>
+
+        <div class="term">
+            <div class="term-name">Civilizational Substitutability Gap (CSG)</div>
+            <div class="term-definition">RETIRED 2026-04-24 per individual rigor pass + meta-pass §13.2.c. CSG = S_max(industrial) − S_max(existential) is a derived scalar from the Substitutability Function (S) primitive. Framework parsimony: don't name derivations of primitives. Concept preserved in prose as "industrial-vs-existential substitutability gap" + sub-entry under Substitutability Function in Tech Appendix.</div>
+        </div>
+
+        <div class="term">
+            <div class="term-name">Eight-Tier FGC Decomposition (v10)</div>
+            <div class="term-definition">RETIRED 2026-04-24 per tier-reframing rigor pass + Path F variable-addability ratification. The 8 tiers (Lifetime Survival Cost, Actuarial Risk Cost, Mission Failure Reserve, Dynastic Labor Cost, Foreclosure Cost, Community Transition Reserve, Ecological Carrying Cost, Knowledge and Culture Cost, Political Capture Cost) failed the duplication check (Foreclosure Cost appeared in both tier 4 and as RCV core; the 8 couldn't be defended as non-overlapping/complete). REPLACED by Cᵢ indexed cost variables admitted through Four Gates. Some former tier names preserved as illustrative cost-category labels in chapter prose; no longer the framework's pre-sorted decomposition.</div>
+        </div>
+
+        <div class="term">
+            <div class="term-name">Cost Bearing</div>
+            <div class="term-definition">DEMOTED 2026-04-24 from glossary; retained in prose. Per author signal: "Cost Bearing is someone bearing the cost of cost severance, so perhaps prose vs. glossary." Role-description, not framework-technical term.</div>
+        </div>
+    </div>
+
+    <div class="core-section" style="background-color:#e8f4fd; border:2px solid #3498db; border-radius:8px; padding:20px; margin:20px 0;">
+        <h3>Key Revisions — v3 (2026-04-24)</h3>
+        <ol>
+            <li><strong>Two-Instrument Architecture</strong> ratified — CSD (backward) + RCV (forward) + B = B1 + B2 decomposition.</li>
+            <li><strong>AIT → CIT (Commons Inversion Test)</strong> — Ring-1 methodology renamed. Two sub-forms formalized (Commons-Absence + Commons-Consumption Inversion).</li>
+            <li><strong>10 abundances → 10 commons categories</strong> (examples not canonical). "Abundance" preserved as state-name. Per Option C' political-philosophical-accommodation discipline.</li>
+            <li><strong>ARP → Asymmetric Regret Rule (ARR)</strong> — last-word rename downgrades "Principle" overclaim; preserves regret-theory direct lineage.</li>
+            <li><strong>Cost Severance Option C ratified</strong> — Ch 1 rhetorical bridge to HR/accounting "severance costs" collision (recruits familiar schema as on-ramp).</li>
+            <li><strong>B = B1 + B2 decomposition</strong> — Restitution Bond (B1) + Foreclosure Bond (B2). Final names ratified after dedicated naming rigor pass; "Restitution" over "Reparations" for cross-political-tradition adoption breadth.</li>
+            <li><strong>Hotelling Identity</strong> — Ring 2 with extension-positioning discipline (Hotelling 1931 cited; framework extends with RCV-as-Hotelling-complementary measurement).</li>
+            <li><strong>Triangulated RCV Estimation ("Three Ways of Counting")</strong> — Ring 2 estimation methodology with three sub-methods.</li>
+            <li><strong>Four Gates "Dimensional Consistency" → "Units Consistency"</strong> — register-aligned + disambiguates from former "dimension" usage.</li>
+            <li><strong>Spatial Cost Severance un-retired</strong> as lowercase prose phrase; <strong>Abundance Masking promoted to Ring 2</strong>; <strong>Universality Test demoted</strong>; <strong>CSG retired</strong>; <strong>Temporal CS retirement confirmed</strong>; <strong>FGC + 8-tier decomposition retired</strong>.</li>
+            <li><strong>Bibliography lineage citations</strong> integrated — Mazzucato 2018, Hotelling 1931, Darity & Mullen 2020, Hartwick 1977, Solow 1974, Costanza 1997, Pigou 1920, Stern 2007, Nordhaus DICE, Savage 1951, Loomes-Sugden 1982, Lempert-Popper-Bankes 2003, Hicks 1932, Dixit-Pindyck 1994, Yang & Davis 2021, Balboa 2016, GAO-17-207R, OSMRE, Bullard 1990, Anderson 2017, Hess & Ostrom 2007, Ostrom 1990.</li>
+        </ol>
+        <p style="font-size:0.85em; color:#666; margin-top:12px;"><strong>For complete provenance:</strong> see <code>core/terms/terms_index.md</code> for per-term rigor-pass support, ratification history, M12 prior-art audit, dependencies, staleness triggers, and full reasoning chain. See <code>research/literature/bibliography.md</code> for bibliography lineage.</p>
+    </div>
+
+    <p style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; color: #666;">
+        <em>Commons Bonds Glossary v3 — Updated 2026-04-24<br>
+        Phase A3 framework structural-restructure ratifications integrated.<br>
+        Two-Instrument Architecture · Commons-as-Structural-Identity · CIT (renamed from AIT) · ARR (renamed from ARP) · B = B1 + B2 (Restitution + Foreclosure Bonds).</em>
+    </p>
+</body>
+</html>
