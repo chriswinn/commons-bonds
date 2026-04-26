@@ -33,6 +33,33 @@
 
 ---
 
+### Candidate #2 — Norway-Social-Security architectural comparison
+
+**Surfaced:** 2026-04-26 during Ch 5 passage 2 (Social Security Treasury-IOU prudence steelman) register-review. The Norway sovereign-pension-fund architecture (Hartwick-rule operationalization for petroleum extraction) is structurally available as a contrast architecture for the U.S. Social Security pay-as-you-go architecture; the comparison demonstrates that the U.S. retirement-security architecture was a contingent choice, not an inevitability.
+
+**Author-flagged book-scope question (2026-04-26):** *"I have always wondered if the Norway-Social-Security section was worthy of the book as it shows the way things are is a choice ... not the way they have to be. or if it crosses into solutions and should really be book two."* This question made book-scope (Book 1 vs Book 2) the center of the rigor pass — not just chapter-placement.
+
+**Rigor pass executed:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-26_candidate_norway_social_security_comparison_v1.0.0.md`
+
+**Q1A verdict (Book 1 vs Book 2 vs reject?):** **BOOK 1 — passes scope discipline if framed as structural observation.** Two framings tested:
+- Structural-observation framing (Book 1): names architectural choice + contingent history; does not prescribe transition mechanism. PASSES Book 1 rigor per v1.0.3 §6.1 + Open Insight #13 scope discipline + Insight #14 epistemic-humility. Pairs with existing precedent (Ch 4 Norway-Nigeria; Ch 9 reachable-horizon cluster; stands-the-test §1 contingency argument).
+- Applied-advocacy framing (Book 2): prescribes specific transition mechanism. FAILS Book 1 rigor; falls within Book 2 scope.
+
+**Q1B verdict (framing):** structural-observation paired with the contingency-argument form (specific moments produced the current architecture; the architecture is contingent; what was decided can be re-decided).
+
+**Q2 verdict (best Book 1 chapter):** **Ch 4 (The Existence Proof) primary placement RECOMMENDED.** Chapter scope is exactly what this candidate engages (Norway-as-canonical-existing-B₂-exemplar already established in Ch 4); pairs with Open Insight #14 epistemic-humility discipline + Insight #15 chapter-revision thread. Three other options tested: Ch 5 light cross-reference (defensible); Ch 9 light cross-reference (defensible); Ch 10 one-line reflective echo (optional).
+
+**Status:** rigor-pass-ratified-pending; awaiting author ratification at rigor pass §7. When ratified, integration scope:
+- Ch 4 primary: ~600-800 words during Ch 4 holistic review (Phase B chapter-revision per Insight #15 standing thread)
+- Ch 5 secondary: ~100-150 word cross-reference within Social Security case (optional; this session if ratified)
+- Ch 9 secondary: ~100-150 word cross-reference within reachable-horizon cluster (optional)
+- Ch 10 tertiary: one-line reflective echo (optional)
+- No new bibliography additions (all sources already in framework bibliography)
+
+**Cross-references:** rigor pass file; `tools/commons_bonds_book_scope_v1_0_3.md` (Book 1 vs Book 2 scope governance); Open Insights #13 + #14 + #15; Ch 4 draft + research/case-studies/norway-swf.md; bibliography §18.6 (Hartwick 1977; Solow 1974).
+
+---
+
 ## §2. Discipline notes
 
 ### §2.1 When to add a candidate to this tracker
