@@ -60,6 +60,30 @@
 
 ---
 
+### Candidate #3 — Sweden 1930s banking-crisis household-relief comparison
+
+**Surfaced:** 2026-04-26 during Ch 5 passage 3 (Restitution and Foreclosure section) holistic-sweep audit. Sweden's 1932-1937 banking-crisis response combined bank-rescue with substantial household-relief (krona devaluation; mortgage-modification programs; public-works employment; the 1938 Saltsjöbaden Agreement framework). The U.S. 2008 + 2020 responses chose differently. The cross-country / cross-century comparison demonstrates contingency in scope-choice across societies facing structurally analogous banking-crisis pressure.
+
+**Cluster context:** forms a third member of the contingency-argument candidate cluster (Candidate #1: 2008 housing-bubble-scale-vs-rescue-scope; Candidate #2: Norway-Social-Security architectural comparison; Candidate #3: Sweden 1930s banking-crisis household-relief). Together the three triangulate the framework's contingency claim from three angles — counter-factual (#1), cross-country (#2), cross-country + cross-century (#3).
+
+**Rigor pass executed:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-26_candidate_sweden_1930s_household_relief_v1.0.0.md`
+
+**Q1A verdict (Book 1 vs Book 2 vs reject?):** **BOOK 1 — passes scope discipline if framed as structural observation.** Same Book 1 / Book 2 boundary regime as Candidates #1 and #2. Structural-observation framing passes; applied-advocacy framing falls within Book 2 scope.
+
+**Q1B verdict (framing):** structural-observation paired with the contingency-argument form, presented as part of the cluster (#1 + #2 + #3 together).
+
+**Q2 verdict (best Book 1 chapter):** **Ch 9 (The Renewable Imperative) primary placement RECOMMENDED.** Pairs with Candidate #1 primary placement (also Ch 9). Ch 5 defensible secondary; Ch 10 echo-only. Ch 6 rejected.
+
+**Status:** rigor-pass-ratified-pending; awaiting author ratification at rigor pass §7. When ratified, integration scope:
+- **Ch 9 primary:** ~400-500 words; pairs with Candidate #1's ~500-600 words (combined Ch 9 contingency-cluster ~900-1,100 words across two candidates)
+- **Ch 5 secondary (optional):** ~100-150 words cross-reference within 2008 case
+- **Ch 10 tertiary (optional):** one-line reflective echo
+- **Bibliography:** Kindleberger 1973 *The World in Depression* + Eichengreen 1992 *Golden Fetters* — promotions to §6 if ratified
+
+**Cross-references:** rigor pass file; companion candidates #1 + #2; Ch 9 draft (recommended integration target); Ch 5 + Ch 10 (optional cross-reference targets).
+
+---
+
 ## §2. Discipline notes
 
 ### §2.1 When to add a candidate to this tracker
