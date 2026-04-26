@@ -52,13 +52,18 @@ New insights automatically get added to the todo list in both states: one entry 
 ### Insight #1 — Framework may be naming too many things (vocabulary footprint)
 
 - **Raised:** 2026-04-24 by me
-- **Status:** addressed (tiered-ring architecture ratified 2026-04-24; Ring-3 dispositions + reshaped-queue adoption still pending ratification)
+- **Status:** **closed-ratified 2026-04-26** — vocabulary-footprint meta-pass executed and operationalized; tiered-ring architecture ratified; Ring-1 / Ring-2 / retired-term partition completed via subsequent individual rigor passes + integrated synthesis.
 - **Category:** vocabulary · meta
-- **Content:** The framework currently carries ~20+ named terms: cost severance, severed cost, value capture, cost bearing, RCV, CS, AIT, IPG, CSG, FGC, foreclosure cost, externality tail, substitutability function, accountability bond, the ten abundances, the four gates, context, dimensions, abundances, variable/cost, and more. Each named concept competes for reader adoption bandwidth. The success criterion (labor lawyer uses "severed cost" in a brief) favors sharpness + concision; proliferation works against that.
-- **Why it matters:** If the framework's adoption-durability is limited by vocabulary bandwidth, running 31 individual term rigor-passes is lower-leverage than running one meta-pass that tests the whole vocabulary for redundancy, load-bearing-ness, retirement candidates, and merger opportunities. A ~20-pass queue after the meta-pass beats a 31-pass queue without it.
-- **Proposed resolution:** Vocabulary-footprint meta-rigor pass (M1 + M4 + M5 + M6 + M11 at depth, plus §22.4 alignment) that tests the whole vocabulary as a system. Output reshapes the remaining pass queue.
-- **Dependencies / Links:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_vocabulary_footprint_meta_v1.0.0.md` (2026-04-24, commit 46600bc). §13.1 tiered-ring architecture APPROVED 2026-04-24; §13.2 Ring-3 dispositions and §13.3 reshaped-queue adoption still pending.
-- **Todo link:** "Await author ratification of meta-pass §13.2 + §13.3" (current in-progress todo).
+- **Content:** The framework originally carried ~20+ named terms (cost severance, severed cost, value capture, cost bearing, RCV, CS, AIT, IPG, CSG, FGC, foreclosure cost, externality tail, substitutability function, accountability bond, the ten abundances, the four gates, context, dimensions, abundances, variable/cost, and more). Each named concept competes for reader adoption bandwidth. The success criterion favors sharpness + concision; proliferation works against that.
+- **Closure (2026-04-26):** Closed via the cumulative work of:
+  - **Vocabulary-footprint meta-pass** (`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_vocabulary_footprint_meta_v1.0.0.md`, commit `46600bc`) — established Ring-1 / Ring-2 / Ring-3 architecture; identified retirement candidates; reshaped the rigor-pass queue from 31 individual passes to ~10-14 cluster + targeted individual passes
+  - **Ring-1 individual rigor passes** (Cost Severance + Severed Cost + Value Extraction + CIT + RCV + Cᵢ + Commons Bonds) — each ratified individually
+  - **Synthesis Ring-1 rigor pass** (`commons_bonds_rigor_pass_2026-04-24_synthesis_ring1_terms_v1.0.0.md`) — verdict: "All four standalone verdicts hold under synthesis. The Ring-1 vocabulary architecture is COHERENT and PASSES extreme rigor as an integrated whole"
+  - **Ring-1 full integrated rigor pass** (`commons_bonds_rigor_pass_2026-04-24_ring1_full_integrated_v1.0.0.md`) — verdict: "ALL 7 RING-1 TERMS PASS INTEGRATED RIGOR UNCONDITIONALLY"
+  - **Subsequent retirements** of Value Capture (→ Value Extraction; sweep executed 2026-04-26 commit `90f9c3f`); Spatial Cost Severance + Temporal Cost Severance (re-examined and reframed); CSG (parsimony retirement); FGC (8-tier-vintage retirement); Universality Test; AIT (→ CIT)
+- **Vocabulary footprint as of 2026-04-26:** 7 Ring-1 terms (Cost Severance · Severed Cost · Value Extraction · CIT · RCV · Cᵢ · Commons Bonds) + ~10-12 Ring-2 operational terms + retired-term provenance preserved in `core/terms/terms_index.md`. Footprint substantially reduced from original ~20+; rigor backing complete.
+- **Dependencies / Links:** vocabulary-footprint meta-pass + 7 Ring-1 individual passes + synthesis + integrated passes; `core/terms/terms_index.md` for current ring-membership provenance.
+- **Todo link:** N/A (closed).
 
 ### Insight #2 — Gate names are inconsistent in convention
 
@@ -78,13 +83,20 @@ New insights automatically get added to the todo list in both states: one entry 
 ### Insight #3 — "Severance" vocabulary cluster needs cluster-level internal-consistency review
 
 - **Raised:** 2026-04-24 by me
-- **Status:** raised
+- **Status:** **closed-ratified 2026-04-26** — cluster tested at three levels (head-to-head + synthesis + integrated); cluster verdict CLEAN.
 - **Category:** vocabulary
-- **Content:** "Cost Severance" (mechanism), "Severed Cost" (result), "Spatial Cost Severance" (variant), "Temporal Cost Severance" (variant), "Value Capture" (the other half of the gap), and related cluster terms are tightly interconnected. Testing them individually in sequence may produce verdicts that are internally inconsistent — e.g., Option-B for one cluster-member may contradict Option-A for another if both are rigor-tested in isolation.
-- **Why it matters:** Cluster inconsistency shows up in prose as jarring mismatches between closely-related terms. Individual rigor passes can miss this because each pass sees only one term. A cluster-level rigor pass tests the cluster as a system.
-- **Proposed resolution:** Severance-cluster rigor pass that evaluates all cluster members simultaneously (M4 + M5 + M6 + M11 + §22.4). Output is a set of coordinated decisions rather than six unrelated term decisions.
-- **Dependencies / Links:** May be absorbed into or supersede some individual passes in the current Tier A queue (Cost Severance, Severed Cost, Spatial Cost Severance, Temporal Cost Severance, Value Capture).
-- **Todo link:** "Review Open Insight #3: Severance cluster-level rigor."
+- **Content:** The original concern was that "Cost Severance" (mechanism) + "Severed Cost" (result) + "Spatial Cost Severance" (variant) + "Temporal Cost Severance" (variant) + "Value Capture" (causal-event term) + related cluster terms are tightly interconnected; testing them individually in sequence might produce internally inconsistent verdicts.
+- **Closure (2026-04-26):** Closed via the cumulative work of multiple cluster-level rigor passes:
+  - **Vocabulary-footprint meta-pass** (`commons_bonds_rigor_pass_2026-04-24_vocabulary_footprint_meta_v1.0.0.md`) — explicitly addressed Insight #3 and identified the severance cluster as cluster-level pass C1
+  - **Cost Severance vs Severed Cost head-to-head** (`commons_bonds_rigor_pass_2026-04-24_term_cost_severance_vs_severed_cost_v1.0.0.md`) — tests two cluster members head-to-head; verdict: Option A (keep both with role discipline)
+  - **Cost Severance collision rigor pass** (`commons_bonds_rigor_pass_2026-04-24_term_cost_severance_collision_v1.0.0.md`) — Option C (rhetorical bridge) ratified
+  - **Value Capture vs Value Extraction rigor pass** (`commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md`) — Option B (Value Extraction) ratified; Value Capture retired
+  - **Spatial Cost Severance re-examination** + **Temporal Cost Severance** + **Intergenerational Cost Severance** rigor passes — variants reframed as lowercase-descriptive-phrase compositions of "cost severance" (not capitalized proper-noun compounds)
+  - **Synthesis Ring-1 rigor pass** — verdict: "All four standalone verdicts hold under synthesis. The Ring-1 vocabulary architecture is COHERENT and PASSES extreme rigor as an integrated whole"
+  - **Ring-1 full integrated rigor pass** — verdict: "ALL 7 RING-1 TERMS PASS INTEGRATED RIGOR UNCONDITIONALLY"
+- **Cluster as of 2026-04-26:** Cost Severance + Severed Cost + Value Extraction (Ring 1; cluster-coherent). Spatial / Temporal / Intergenerational cost severance retired as proper-noun-compounds; preserved as lowercase descriptive phrases composed from "cost severance." Value Capture retired (sweep executed commit `90f9c3f`).
+- **Dependencies / Links:** see closure provenance above; cluster-level rigor work is complete.
+- **Todo link:** N/A (closed).
 
 ### Insight #4 — "Commons Bonds" (book title + framework name) has not been through the current rigor suite
 
@@ -100,24 +112,29 @@ New insights automatically get added to the todo list in both states: one entry 
 ### Insight #5 — Glossary v2 has a Foreclosure Cost duplicate (pre-existing hygiene issue)
 
 - **Raised:** 2026-04-24 by me
-- **Status:** raised
+- **Status:** **closed-ratified 2026-04-26** — glossary v3 was built from scratch with M12 audit per term; structural audit complete.
 - **Category:** vocabulary · craft
-- **Content:** "Foreclosure Cost" appears twice in glossary v2: once under Mathematical and Measurement Terms, once as Tier 4. Under tier dissolution the duplicate resolves automatically (Tier 4 vanishes). But the fact the duplicate was there in the v2 glossary at all is a sign the glossary predates some of the framework's structural decisions.
-- **Why it matters:** Low-severity, but signals that the glossary v2 → v3 bump needs more than a dimension-rename sweep; it needs a structural walk-through to catch other potential duplicates or stale entries.
-- **Proposed resolution:** When glossary bumps to v3 (post-rigor-pass work), do a full structural audit pass rather than just a rename sweep. Flag any other duplicate or stale entry found.
-- **Dependencies / Links:** Glossary v2 → v3 bump is on the Phase A3 wrap-up task list.
-- **Todo link:** "Review Open Insight #5: Glossary structural audit during v3 bump."
+- **Content:** "Foreclosure Cost" appeared twice in glossary v2: once under Mathematical and Measurement Terms, once as Tier 4. The duplicate resolved automatically when tier dissolution happened, but the original concern was broader: the glossary v2 → v3 bump might need more than a rename sweep — a full structural walk-through to catch other duplicates or stale entries.
+- **Closure (2026-04-26):** Closed via the cumulative work of:
+  - **M12 intellectual-honesty sweep** (`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_m12_intellectual_honesty_sweep_v1.0.0.md`, commit `c07a7c1`) — comprehensive M12 sweep across **every term currently in `core/terms/terms_index.md` plus every term referenced in `core/glossary/commons_bonds_updated_glossary_v3.html`**. Each term verified against M12 Corollary D 7-level action ladder. Surfaced + corrected v1.43.0 misframing on CSG; comprehensive structural audit completed.
+  - **Glossary v3 build** (commit `5123da6`) — glossary v3 was constructed from scratch with provenance discipline, not as a rename sweep over v2. Each entry was created with its current ratified status + rigor-pass cross-reference. The "structural walk-through" the original insight asked for IS the v3 build itself.
+  - **Glossary v2** (`core/glossary/commons_bonds_updated_glossary_v2.html`) — retired; preserved as lineage record. The Foreclosure Cost duplicate that triggered the insight is in v2 only and does not propagate to v3.
+- **Glossary as of 2026-04-26:** v3 is current canonical (commit `5123da6`); covers Ring-1 / Ring-2 / Architecture / Commons Categories / Retired Terms with provenance per entry. Cross-checked by M12 sweep against terms_index. No outstanding structural-audit items.
+- **Dependencies / Links:** M12 sweep + glossary v3 build; `core/glossary/commons_bonds_updated_glossary_v3.html` (current canonical); `core/terms/terms_index.md` (cross-referenced by every glossary entry).
+- **Todo link:** N/A (closed).
 
 ### Insight #6 — Running 31 individual rigor passes may be the wrong structural approach
 
 - **Raised:** 2026-04-24 by me
-- **Status:** addressed (vocabulary-footprint meta-pass in progress)
+- **Status:** **closed-ratified 2026-04-26** — vocabulary-footprint meta-pass executed; queue reshaped from 31 individual passes to ~10-14 cluster + targeted individual passes; reshaped queue worked through to completion.
 - **Category:** method · meta
-- **Content:** The initial 31-pass queue loaded after author's "full rigor on every term" ratification assumes each term is independently testable. Many terms are tightly coupled (severance cluster, gate cohort, variable-vs-cost affecting dimension-vs-abundance). Individual-pass approach reproduces each other's findings and misses cluster-level insights.
-- **Why it matters:** Resource allocation. A handful of well-scoped cluster passes + a meta-pass produces more insight per unit effort than 31 isolated passes.
-- **Proposed resolution:** Run vocabulary-footprint meta-pass first; it will reshape the remaining queue into cluster passes + a smaller number of individual passes for terms that genuinely stand alone.
-- **Dependencies / Links:** Addresses Insight #1 structurally. Insights #2 and #3 will be partially absorbed.
-- **Todo link:** vocabulary-footprint meta-pass (in todo list, in-progress).
+- **Content:** The initial 31-pass queue loaded after author's "full rigor on every term" ratification assumed each term was independently testable. Many terms are tightly coupled (severance cluster, gate cohort, variable-vs-cost affecting dimension-vs-abundance). Individual-pass approach reproduces findings + misses cluster-level insights.
+- **Closure (2026-04-26):** Closed via:
+  - **Vocabulary-footprint meta-pass** (`commons_bonds_rigor_pass_2026-04-24_vocabulary_footprint_meta_v1.0.0.md`) — explicitly addressed Insight #6; reshaped queue from 31 → ~10-14 passes; identified cluster-level passes (severance cluster C1; four gates cluster C2; tier-dissolution C3); identified retirement candidates; identified terms warranting individual deep rigor.
+  - **Reshaped queue executed:** ~10-14 individual + cluster + integrated rigor passes ran across 2026-04-24 through 2026-04-26. Examples: Ring-1 individual passes (Cost Severance + Severed Cost + Value Extraction + AIT/CIT + RCV + Cᵢ + Commons Bonds); cluster passes (Four Gates cluster; severance cluster via head-to-head + synthesis + integrated); Ring-2 passes (Accountability Bond, CSD, Hotelling Identity, Substitutability Function, Asymmetric Regret Rule rename, Triangulated RCV Estimation, Externality Tail, etc.); meta-passes (Path F variable-addability, commons-as-structural-identity, 10-commons-list dissolution, macro-grouping, tier-reframing); synthesis (synthesis_ring1_terms; ring1_full_integrated); per-cluster (academic_rigor_full_test; m12_intellectual_honesty_sweep; three_ways_rcv_formal_model).
+- **Method outcome:** the meta-pass approach was decisively validated. Cluster passes did substantially more work per unit effort than 31 individual passes would have. The 47 rigor-pass files in `tools/rigor-passes/` represent the executed reshaped queue + supplements; the queue is substantially complete.
+- **Dependencies / Links:** Addresses Insights #1 (closed) + #2 (closed) + #3 (closed) structurally. The meta-pass approach is now the standing methodology for cluster-level rigor work.
+- **Todo link:** N/A (closed).
 
 ### Insight #7 — Value Capture vs Value Extraction terminology decision
 
@@ -267,7 +284,17 @@ New insights automatically get added to the todo list in both states: one entry 
 ### Insight #16 — Two CIT sub-forms (Absence-Inversion + Consumption-Inversion) as methodology-contribution book content
 
 - **Raised:** 2026-04-24 by Chris Winn + me collaboratively. Surfaced during commons-as-structural-identity rigor pass. Author direction: *"Make sure we capture this as that is a marvelous insight that likely needs to be somewhere in the book."*
-- **Status:** captured · placement deferred to chapter revision phase (Phase B or later). Preserved in Tech Appendix methodology via CIT rigor pass regardless; this insight is about chapter-level prose treatment.
+- **Status:** **closed-ratified 2026-04-26** — captured at multiple operationalization levels (Tech Appendix supplement §6.1 + §6.1.1 + §6.1.2; cit_examples per-case worked-examples; supplement HTML integration block); chapter-level prose treatment drafted in Ch 6 supplementary drafts §6.5–§6.10 cluster.
+- **Closure (2026-04-26):** Two-sub-form CIT operationalized across:
+  - **Tech Appendix supplement §6.1** — formal spec of CAI + CCI as sub-forms in sequence (CAI first; CCI second; only claims passing both qualify as Cost Severance)
+  - **Tech Appendix supplement §6.1.1** (added 2026-04-25) — level-of-claim specification discipline (closes M11 Char 12 finding from academic-rigor full test); commit `b566d66`
+  - **Tech Appendix supplement §6.1.2** (added 2026-04-25) — domain distinction (extraction commons vs coordination commons; CCI failure routes to Ostrom-tradition, not framework rejection); closes M11 Char 17 finding; commit `408a37d`
+  - **Tech Appendix HTML partial integration block** — §6 included in commit `351817c` integration of supplement §2-§7
+  - **`core/methodology/cit_examples_v1_0_0.md`** — seven worked CIT applications through Four Gates with both sub-forms exercised
+  - **Ch 6 supplementary drafts** §6.5 (Parfit) + §6.6 (CIT-vs-empirical falsifiability) + §6.7 (IPG reconciliation) + §6.8 (DAC three-horizon) + §6.9 (Ostrom-vs-extraction) + §6.10 (reparations-economics) + §6.11 (methodology defense consolidation) — chapter-prose-register treatments drafted, AUTHOR ZONE-flagged for register review pending Ch 6 finalization
+- **Chapter placement decisions made:** Ch 6 is primary placement (formal methodology + worked examples). Optional reflective companion in Ch 10 (per §6.5.3 draft). Ch 1 commute-story is paradigm Consumption-Inversion case if Chris's personal-stories drafting cycle integrates it. Ch 7 asteroid miner is paradigm Absence-Inversion. Cross-chapter framing flagged for Phase B chapter revision.
+- **Dependencies / Links:** CIT rename rigor pass (commit `b294c79`); commons-as-structural-identity rigor pass (commit `c4b09dc`); academic-rigor full test (commit `ae90800`) for M11 Char 12 + Char 17 findings; Ch 6 supplementary drafts file (multiple commits 2026-04-25 / 2026-04-26).
+- **Todo link:** N/A (closed at framework + supplement level; chapter-level prose finalization is Phase B chapter-revision work governed by Insight #15 thread).
 - **Category:** framework-methodology contribution · chapter placement · craft
 - **Content:** AIT's "invert the abundance state" language collapsed two operationally distinct modes of the test. Under the CIT reframing, the two sub-forms become visible:
 
