@@ -357,7 +357,9 @@ The HTML integration of §2-§7 new sections is deferred to Phase B (post-course
 6. §7 ARR — independent of §2-§5; can land any time.
 7. §8 Working Principles + Open Insights — closing cross-reference section.
 
-**Until Phase B materialization:** this supplement file is canonical-source-of-truth pointer for v0.0.5 new content. The HTML carries v0.0.4 baseline content swept in place per §1; supplement carries v0.0.5 delta.
+**Phase B partial integration landed 2026-04-25:** §2–§7 of this supplement have been integrated into `TechnicalAppendix_v0.0.5.html` as a clearly-marked partial-integration section block before `</body></html>`. The HTML now carries reader-facing parity for the new framework material. **This supplement remains the canonical-source-of-truth pointer for cross-reference depth** — the HTML integration uses simple inline styling for readability without disrupting the existing Google Docs export CSS structure; full Phase B HTML rewrite will reformat in the doc's master style. §1 sweep status (FGC × 15 + Universality Test × 1 still require passage rewrite) is unchanged.
+
+**Until Phase B full HTML rewrite:** this supplement file remains the cross-reference depth source for v0.0.5 new content. The HTML carries v0.0.4 baseline content swept in place per §1 + the §2–§7 partial-integration block from 2026-04-25.
 
 ---
 
