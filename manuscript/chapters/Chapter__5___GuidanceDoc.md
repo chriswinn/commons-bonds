@@ -77,7 +77,7 @@ The social cost of carbon as the closest existing attempt:
 - EPA 2023: $190/ton
 - The political volatility of the SCC as evidence that pricing is contested precisely because it determines how much cost severance society will tolerate
 
-The pattern statement: Every case, every resource, every geography, every decade — value captured, costs severed, market price capturing a fraction of true cost. Not individual bad actors. Structural absence of the instruments needed to price what's being lost.
+The pattern statement: Every case, every resource, every geography, every decade — value extracted, costs severed, market price capturing a fraction of true cost. Not individual bad actors. Structural absence of the instruments needed to price what's being lost.
 
 Counterarguments woven in: None explicitly in this chapter. The cases speak for themselves. The methodological objections come in Chapter 6 when the model is formally presented.
 

@@ -338,7 +338,7 @@ RCV result: Moderate, but with a time-urgency component that the model captures
 
 Does the model produce the right answer? Yes, and it reveals an interesting inversion. For every other scenario, the model recommends caution and preservation. For a comet flyby, it recommends aggressive extraction — because the "preserve for later" option doesn't exist. The resource is going away regardless of what you do. The asymmetric regret flips: the regret of not extracting (losing access permanently) exceeds the regret of extracting (minimal externalities).
 
-What this reveals about the model's structure: The model is not inherently conservative. It doesn't always say "preserve." It says "extract when RCV is low relative to the value captured, preserve when RCV is high relative to the value captured." For a comet flyby with near-zero externalities and a closing access window, aggressive extraction is the model's recommended strategy.
+What this reveals about the model's structure: The model is not inherently conservative. It doesn't always say "preserve." It says "extract when RCV is low relative to the value extracted, preserve when RCV is high relative to the value extracted." For a comet flyby with near-zero externalities and a closing access window, aggressive extraction is the model's recommended strategy.
 
 This is important for the book because it demonstrates that Commons Bonds is not an anti-extraction framework. It's a proper-pricing framework. Sometimes proper pricing says "don't extract" (McDowell County coal). Sometimes it says "extract aggressively" (comet flyby, asteroid iron). The model differentiates correctly based on the parameters.
 

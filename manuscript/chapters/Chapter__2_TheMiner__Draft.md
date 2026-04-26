@@ -130,13 +130,17 @@ Economists call this an externality. The word is technically accurate and practi
 
 At this point the book needs a word for what we've been describing, because we will use it in every chapter that follows.
 
-**Cost severance** is the mechanism by which costs are cut loose from the transactions that create them and transferred to parties who did not participate in the value capture. The coal company captured the value when it sold the coal. The miners, their families, and their communities bore the costs — the black lung, the empty towns, the children who left. The severance is the structural gap between those two groups: who got the money and who got the bill.
+**Cost severance** is the mechanism by which costs are cut loose from the transactions that create them and transferred to parties who did not participate in the value extraction. The coal company extracted the value when it sold the coal. The miners, their families, and their communities bore the costs — the black lung, the empty towns, the children who left. The severance is the structural gap between those two groups: who got the money and who got the bill.
 
 The noun form is **severed cost**: a cost that has been detached from its source and displaced onto a third party. The $4 to $6 billion reclamation bonding gap is a severed cost. The $4.6 billion Black Lung Trust Fund deficit is a severed cost. The 13-year life expectancy gap is the human body absorbing severed cost.
 
-The paired mechanism is **value capture**: the act of extracting worth from a system while declining to absorb the full cost of extraction. Value capture is not theft. It is not fraud. In most cases, it is perfectly legal. It is what happens when the accounting system does not require honest pricing.
+The paired mechanism is **value extraction**: the act of separating worth from its source while declining to absorb the full cost of the separation. Value extraction is not theft. It is not fraud. In most cases, it is perfectly legal. It is what happens when the accounting system does not require honest pricing.
 
-These three terms — cost severance, severed cost, value capture — will appear throughout this book. They are not rhetorical devices. They are descriptions of a mechanism that operates the same way whether we are talking about coal mines in West Virginia, oil wells in the Niger Delta, copper mines in Zambia, or fisheries in the Chesapeake Bay.
+These three terms — cost severance, severed cost, value extraction — will appear throughout this book. They are not rhetorical devices. They are descriptions of a mechanism that operates the same way whether we are talking about coal mines in West Virginia, oil wells in the Niger Delta, copper mines in Zambia, or fisheries in the Chesapeake Bay.
+
+[*AUTHOR ZONE — Mazzucato + Harvey lineage citation at first-use of Value Extraction added 2026-04-26 by Claude per Value Extraction standalone rigor pass v1.1.0 addendum + Value-Capture-vs-Extraction rigor pass §20.4 Condition 4. Pending author review for register / placement / length.*]
+
+The phrase "value extraction" carries an established lineage worth naming once at the moment we adopt it. Mariana Mazzucato, in *The Value of Everything* (2018), develops the diagnosis of value extraction as a feature of contemporary capitalism — though her treatment focuses on rent-seeking in financial capitalism rather than on physical-resource extraction. The framework here extends Mazzucato's diagnosis into the physical-resource domain: where she identifies value extraction as activities that move existing value without creating new, this book specifies the mechanism by which physical-resource extraction systematically separates value-capturers from cost-bearers and proposes a pricing instrument to internalize the resulting cost. The framing also echoes David Harvey's earlier *accumulation by dispossession* (2003), rendered here in accessible accounting-register language because the book's success criterion depends on the vocabulary being usable by readers who will not have read either author. Mazzucato is the lineage; Harvey is the lineage behind Mazzucato; what follows is the framework's attempt to operationalize what they diagnose.
 
 ---
 
@@ -146,9 +150,9 @@ There is one more dimension of McDowell County's story that the numbers alone ca
 
 The value that came out of those mountains was not consumed in those mountains. It powered Pittsburgh's steel mills. It lit Chicago's streetcars. It heated New York apartments. It built the ships that were launched from Norfolk. The people who consumed it never saw McDowell County. They never met the miners. They never drove past the orange creeks. They did not know, in any concrete sense, that the cheap energy flowing through their lives had a cost that was being concentrated, in real time, in a county 400 miles away.
 
-This is spatial cost severance: the geographic gap between where value is captured and where costs are borne. Distance enabled ignorance, and ignorance made the accounting invisible. The consumers were not villains. Most of them would have been horrified by McDowell County if they had seen it. But they didn't see it. The transaction was structured so that they didn't have to.
+This is spatial cost severance: the geographic gap between where value is extracted and where costs are borne. Distance enabled ignorance, and ignorance made the accounting invisible. The consumers were not villains. Most of them would have been horrified by McDowell County if they had seen it. But they didn't see it. The transaction was structured so that they didn't have to.
 
-This geographic dimension is distinct from, but as important as, the temporal dimension — the gap between present value capture and future cost-bearing. We will see temporal cost severance in later chapters. What McDowell County demonstrates is that you don't need centuries of delay for cost severance to operate. You just need enough distance that the people who benefit never have to look at what their benefit costs.
+This geographic dimension is distinct from, but as important as, the temporal dimension — the gap between present value extraction and future cost-bearing. We will see temporal cost severance in later chapters. What McDowell County demonstrates is that you don't need centuries of delay for cost severance to operate. You just need enough distance that the people who benefit never have to look at what their benefit costs.
 
 ---
 
@@ -260,7 +264,7 @@ The miner and the waterman do not know each other. The mechanism connecting them
 - Within-chapter comparison case (guidance suggests contrasting a McDowell County community with slightly better outcomes due to stronger union presence or local advocacy — optional but worth considering)
 
 **What this draft locks in:**
-- Cost vocabulary introduced: cost severance, severed cost, value capture
+- Cost vocabulary introduced: cost severance, severed cost, value extraction
 - Spatial cost severance established (distance as enabling mechanism)
 - Both counterarguments honored and addressed
 - Carbon footnote planted for Ch6 ("We'll return to that")
