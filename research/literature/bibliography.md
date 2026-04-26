@@ -238,6 +238,24 @@
 - **Relationship:** **STRONG SUPPORT (source).**
 - **Chapter relevance:** Ch 5.
 
+### Mian, Atif, and Amir Sufi. *House of Debt: How They (and You) Caused the Great Recession, and How We Can Prevent It from Happening Again.* University of Chicago Press, 2014.
+
+- **Summary:** Empirical analysis of the 2008 financial crisis using county-level household debt data. Argues that the housing bubble's leverage cascade — household debt concentrated in the most vulnerable income strata, with home-equity falling to negative as housing prices collapsed — was the primary mechanism producing the recession's depth and duration. The book documents that demand collapse following the housing bust was geographically concentrated in counties with the highest leverage exposure, and argues that the policy response (rescuing financial institutions while letting household balance sheets unwind) was a design choice with substantial welfare-loss consequences. Mian-Sufi-Trebbi follow-up papers extend the analysis into political-economy effects (credit access + electoral outcomes; political polarization following financial crises).
+- **Relevance:** **LOAD-BEARING (Ch 9 scope-choice argument grounding).** Per the 2026-04-26 rigor pass on the candidate prose addition (`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-26_candidate_2008_scope_argument_v1.0.0.md`): Mian-Sufi establishes the housing-bubble-scale-and-leverage-cascade literature. The framework's distinctive contribution is to grant the scale-inevitability argument and isolate the rescue's *scope-choice* as a separate design variable that the existing literature does not isolate. The framework does not refute Mian-Sufi; the framework grants the mechanism Mian-Sufi documents and adds the structural finding that the policy-design-architecture's choice of who to rescue is independent of the bubble's scale. Citation discipline: cite Mian-Sufi at first introduction in Ch 9 + acknowledge that the framework's argument extends rather than refutes their analysis.
+- **Relationship:** **SUPPORT (extended).** The framework operationalizes a structural finding adjacent to but distinct from Mian-Sufi's empirical argument.
+- **Chapter relevance:** Ch 9 (scope-choice argument primary placement); Ch 8 (cross-reference if secondary placement adopted); Ch 5 (cross-reference within 2008 case prose where appropriate); Tech Appendix (methodological footnote on scale-vs-scope distinction).
+- **Rigor provenance:** Promoted from §19 candidate list 2026-04-26 per author ratification of 2008 scope-choice candidate rigor pass §6.
+- **Status:** ratified 2026-04-26.
+
+### Reinhart, Carmen M., and Kenneth S. Rogoff. *This Time Is Different: Eight Centuries of Financial Folly.* Princeton University Press, 2009.
+
+- **Summary:** Cross-country, cross-century empirical study of financial crises. Documents that financial crises follow a consistent pattern across centuries and across very different institutional contexts — banking crises; sovereign debt crises; inflation crises; currency crises — and that the recurring "this time is different" claim during each bubble is itself a recognizable feature of the pattern. The book establishes the historical inevitability of post-bubble cascades across diverse policy regimes and time periods.
+- **Relevance:** **LOAD-BEARING (Ch 9 scope-choice argument grounding).** Per the 2026-04-26 rigor pass: Reinhart-Rogoff establishes the historical-pattern argument (foreclosure cascades have followed bubbles for centuries; the 2008 cascade is part of the pattern). The framework's distinctive contribution: granting historical-pattern inevitability does not address the policy-architecture-scope-choice variable. Different societies facing the same scale-inevitable cascades have made different scope-choices in how to rescue (compare 1930s Sweden's banking-crisis response — substantial household relief alongside bank rescue — to U.S. 2008 response — bank rescue without comparable household relief). The cross-country comparison Reinhart-Rogoff enables is itself the framework's evidence for scope-choice as an independent design variable.
+- **Relationship:** **SUPPORT (extended).** The framework draws on Reinhart-Rogoff's historical pattern but extends it by isolating scope-choice variation across societies facing comparable scale-inevitabilities.
+- **Chapter relevance:** Ch 9 (scope-choice argument; cross-country comparison anchor); Tech Appendix (historical-pattern citation).
+- **Rigor provenance:** Promoted from §19 candidate list 2026-04-26 per author ratification of 2008 scope-choice candidate rigor pass §6.
+- **Status:** ratified 2026-04-26.
+
 ---
 
 ## 7. Environmental justice

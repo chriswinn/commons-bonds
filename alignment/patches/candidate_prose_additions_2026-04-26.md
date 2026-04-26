@@ -23,11 +23,11 @@
 
 **Q2 verdict (best chapter home?):** **Ch 9 primary placement (recommended)**; Ch 8 defensible secondary; Ch 10 echo-only at one-line reflective. Ch 5 + Ch 6 rejected.
 
-**Status:** rigor-pass-ratified-pending; awaiting author ratification at rigor pass §6 before integration. When ratified, integration scope:
-- Ch 9: ~500-600 words at "political economy of resistance" or "entering wedges" section
-- Ch 8: ~150-200 words cross-reference paragraph (optional secondary)
-- Ch 10: one-line reflective echo (optional tertiary)
-- Bibliography: Mian & Sufi 2014 *House of Debt* + Reinhart & Rogoff 2009 *This Time Is Different* promoted from §19 candidate list to full entries
+**Status:** **closed-ratified 2026-04-26 (Chris Winn) — pending integration commits.** Author ratified Q1=yes + Q2=D (Ch 9 primary) + C (Ch 8 secondary) + E (Ch 10 tertiary). Full three-placement integration approved. Integration scope:
+- **Ch 9 primary:** ~500-600 words at "political economy of resistance" or "entering wedges" section (pending integration during Ch 9 register-review this session)
+- **Ch 8 secondary:** ~150-200 word cross-reference paragraph (pending integration during Ch 8 register-review this session)
+- **Ch 10 tertiary:** one-line reflective echo (pending integration during Ch 10 register-review this session)
+- **Bibliography:** Mian & Sufi 2014 *House of Debt* + Reinhart & Rogoff 2009 *This Time Is Different* promoted to §6 (Financial crisis and financial commons) — DONE in this commit cluster.
 
 **Cross-references:** Ch 5 register-review session 2026-04-26 (originating context); the rigor pass; Ch 9 draft (recommended integration target); Ch 8 draft (secondary); bibliography §19 candidate list (Mian-Sufi + Reinhart-Rogoff promotions pending).
 

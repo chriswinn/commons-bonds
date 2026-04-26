@@ -212,8 +212,6 @@ Five chapter-placement options tested.
 
 ## §6. Author-ratified resolutions
 
-*Pending. Chris reviews §1 verdict + §3 Q1 module-by-module + §4 Q2 chapter-placement option-space, then ratifies or revises.*
-
 ### §6.1 Path choice
 
 **Q1 — does the addition belong in the book?**
@@ -224,19 +222,26 @@ Five chapter-placement options tested.
 - (A) Ch 5 — REJECTED.
 - (B) Ch 6 — REJECTED.
 - (C) Ch 8 — DEFENSIBLE secondary placement.
-- (D) Ch 9 — **RECOMMENDED primary placement.**
+- (D) Ch 9 — RECOMMENDED primary placement.
 - (E) Ch 10 — ECHO ONLY (one-line reflective).
 - (F) REJECT entirely — REJECTED.
 
-**Ratification target:** Q1 = yes; Q2 = D (Ch 9 primary; possibly C as secondary cross-reference; possibly E as closing-reflection echo).
+**Ratified decision (2026-04-26, Chris Winn):**
+- **Q1 = YES** — addition belongs in the book.
+- **Q2 = D (Ch 9) primary placement RATIFIED**, **C (Ch 8) secondary cross-reference RATIFIED**, **E (Ch 10) tertiary one-line reflective echo RATIFIED**. Full three-placement integration approved.
 
-### §6.2 Implications if ratified
+### §6.2 Implementation cluster
 
-- **Bibliography additions** — Mian & Sufi 2014 *House of Debt*; Reinhart & Rogoff 2009 *This Time Is Different* (both promoted from §19 candidate list to full entries).
-- **Ch 9 prose addition** — ~500-600 words at "political economy of resistance" or "entering wedges" section; integrate when Ch 9 register-review reaches the appropriate section (per current Ch 9 register-review todo this session).
-- **Ch 8 secondary** — ~150-200 word cross-reference paragraph if author wants the secondary placement.
-- **Ch 10 tertiary** — one-line reflective if author wants the tertiary echo.
-- **Tracker doc update** — `alignment/patches/candidate_prose_additions_2026-04-26.md` (if used) updated with rigor-pass-ratified placement decision.
+Per the ratified decision, all three placements integrate during this session's Ch 5 → Ch 7 → Ch 8 → Ch 9 → Ch 10 register-review walk. Specifically:
+
+- **Bibliography promotions** — Mian & Sufi 2014 *House of Debt* + Reinhart & Rogoff 2009 *This Time Is Different* promoted to §6 (Financial crisis and financial commons); promoted to full entries with citation discipline note (the framework grants their mechanism arguments and extends by isolating scope-choice as separate design variable).
+- **Ch 9 primary** — ~500-600 words at "political economy of resistance" or "entering wedges" section; integrated during Ch 9 register-review.
+- **Ch 8 secondary** — ~150-200 word cross-reference paragraph integrated during Ch 8 register-review (pairs with existing housing-pattern + YIMBY-steelman cluster).
+- **Ch 10 tertiary** — one-line reflective echo integrated during Ch 10 register-review (folds with closing reflection).
+
+### §6.3 Tracker doc closure
+
+`alignment/patches/candidate_prose_additions_2026-04-26.md` Candidate #1 status updated to closed-ratified-pending-integration; integration commits referenced as they land during Ch 8 / Ch 9 / Ch 10 register-review.
 
 ---
 
