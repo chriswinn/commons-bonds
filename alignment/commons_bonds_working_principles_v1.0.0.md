@@ -305,6 +305,39 @@ Commons Bonds's adoption-durability bet rests on framework vocabulary traveling 
 
 ---
 
+### Principle #7 — Pre-publication-state discipline
+
+Articulated and ratified 2026-04-26 by Chris Winn, after a methodology critique on the Gate-2-rename rigor pass surfaced that external-reception modules (M6 prior-art audit; M11 critic-pressure; M12 collision check) had been implicitly given weight on retired placeholder terms that no external reader has ever encountered or will encounter.
+
+**Statement:** External-reception modules (M6 prior-art audit; M11 critic-pressure; M12 collision check) apply at full weight only to **candidate-publication terms** — the vocabulary the framework will ship with in published outputs (book; essays; papers). **Placeholder terms used and retired during pre-publication drafting carry zero external-reception weight**; rigor on their retirement is internal-coherence-only. Internal-doc-update cost (sweeping references; updating glossary entries; refreshing chapter prose) is real and material, but per Working Principle #1 it is **not a rigor argument** — it is downstream scheduling.
+
+**Operational consequences:**
+
+1. **Rigor on candidate-publication terms operates at full M6/M11/M12 depth.** A naming choice that will appear in the published book or essay must be tested against established academic priors, future critic reception, and prior-art collision because future readers will encounter it.
+
+2. **Rigor on retired-term retirement is lightweight.** A rigor pass on retiring a placeholder that's never been published doesn't need M6/M11/M12 at full depth. It needs internal-coherence checks (does the framework still cohere after the retirement?) + Tier-1-update-header documentation (per Principle #4) so internal provenance preserves the lineage.
+
+3. **The pre-publication state is a window of cheap correction.** Until publication, rename / retire / restructure costs are purely internal — measured in commit-time and doc-update-time, not in published-reader-migration-time. The framework can self-correct freely. Working Principle #1 (effort-to-repair-not-a-rigor-argument) reinforces this: internal repair effort is real but doesn't count as rigor input.
+
+4. **For terms that have been published and are later retired (post-publication retirement),** the discipline shifts: external-reception modules apply because the retired term has reached external readers. This is a different regime than pre-publication retirement. The framework is currently entirely in the pre-publication regime.
+
+**Why this matters for the framework's adoption-durability bet:** the framework's success criterion (vocabulary that travels — the labor lawyer in 2039 citing "severed cost" in a brief) is about *future* reception of the *published* vocabulary. Forward-simulation of that reception is what M6/M11/M12 are for. Wasting forward-simulation effort on retired terms that will never reach future readers is a methodology error that obscures what the rigor work is actually accomplishing.
+
+**Concrete example (from the supplemental Gate-2-rename pass 2026-04-26):** the prior pass mentioned "Dimensional Consistency" (T2-retired predecessor of "Units Consistency") in its alignment table at full per-test weight. The supplemental pass applied Principle #7 and treated the retired term as zero-weight — appears only for provenance, not for current rigor evaluation. The analysis is therefore lighter on retired-predecessor mentions and heavier on candidate-publication-term comparisons (Units Consistency vs Consistency vs Commensurability vs Commensurate vs Comparability vs Homogeneity — all six being candidate-publication terms get full M6/M11/M12 weight).
+
+**Interaction with other principles:**
+- **Principle #1** (effort-to-repair-not-a-rigor-argument) — Principle #7 reinforces this: internal repair effort doesn't count as rigor input regardless of how the term changes.
+- **Principle #4** (retirements-preserve-history) — Principle #7 specifies that retirement provenance is documented per #4's Tier-1 header pattern; the *content* of retirement-pass rigor focuses on internal-coherence rather than on the external-reception modules.
+- **Principle #6** (M12 intellectual honesty) — Principle #7 specifies that the M12 Corollary D 7-level action ladder (original-coinage / independent-rediscovery / lexical-collision-disambiguated / collision-rename-required / rhetorical-bridge / extension-positioning / borrowed-term-acknowledged) applies to candidate-publication terms; retired terms don't need M12 ladder evaluation at full weight.
+
+**Triggering rigor-protocol update:** the rigor protocol (`tools/commons_bonds_rigor_protocol_v2.4.0.md`) should reference Principle #7 in its description of M6/M11/M12 modules so future rigor passes apply the discipline by default. Effort: small protocol update (separate commit).
+
+**Triggering retroactive scan recommended:** past rigor passes may contain places where retired-term external-reception worries were inappropriately weighted. A retroactive scan would identify and revise. Effort: ~1 audit commit. Likely produces a small set of revisions (the principle has been implicitly held in many places; explicit violations are likely few).
+
+**Provenance:** articulated by Claude after author flagged retired-vocabulary worry in supplemental Gate-2 rigor pass 2026-04-26; ratified 2026-04-26 by Chris Winn ("My recommendation: All three, because they reinforce each other"). Implemented by adding to working principles doc + updating rigor protocol + executing retroactive scan.
+
+---
+
 ## §3. Candidate principles (articulated but not yet ratified as such)
 
 ### Candidate — Option-space breadth is load-bearing
