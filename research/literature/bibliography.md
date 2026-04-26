@@ -745,6 +745,22 @@ Added 2026-04-24 per Phase A3 sweep — load-bearing on ratified B1 (Restitution
 
 ---
 
+## 18.9. Intergenerational moral philosophy (IPG + intergenerational cost-severance grounding)
+
+Added 2026-04-25. Moral-philosophy literature the framework engages for **IPG (Intergenerational Pricing Gap)** and the broader claim that intergenerational cost-severance is a moral wrong, not merely a deferred accounting cost. Closes the M6.2 GAP IDENTIFIED in academic-rigor full test 2026-04-24 (rigor pass `commons_bonds_rigor_pass_2026-04-24_academic_rigor_full_test_v1.0.0.md`, commit `ae90800`). Status: load-bearing on the IPG / intergenerational-CS claim ratified across multiple rigor passes.
+
+### Parfit, Derek. *Reasons and Persons.* Oxford: Oxford University Press, 1984.
+
+- **Summary:** Foundational treatment of personal identity, rationality, and obligations to future generations. Part IV ("Future Generations") establishes the **non-identity problem** — that policies which determine *which* future people exist cannot wrong those particular people by causing them to exist with worse-than-zero lives, since the alternative is non-existence — and argues nonetheless for an **impersonal moral framework** under which we have obligations to future generations grounded in the goodness of outcomes rather than in person-affecting wrongs. The "Mere Addition Paradox" + the Repugnant Conclusion arguments establish that population-axiology has internal tensions that any framework engaging future-generation moral status must navigate.
+- **Relevance:** **LOAD-BEARING (intergenerational moral-status grounding for IPG and B₂ Foreclosure Bond).** The framework's IPG = 33 (McDowell coal) and its broader intergenerational-cost-severance claim assert that present extraction wrongs not-yet-existing future generations. Without Parfit, the framework's intergenerational-claim has no engagement with the deepest philosophical objection to that claim (the non-identity problem); with Parfit, the framework operates within an established philosophical vocabulary for intergenerational moral status. Parfit's impersonal framework is also the philosophical companion to the framework's Hotelling Identity (RCV − Hotelling rent = CS) at intergenerational scale: Hotelling prices the private exhaustibility of the resource; the framework prices what is severed from generations whose existence is conditional on extraction-policy choices. Parfit grounds the moral status of those generations.
+- **Relationship:** **STRONG SUPPORT (philosophical lineage for intergenerational-CS claim).** The framework extends Parfit's impersonal-framework reasoning into a measurement apparatus (CSD + RCV; B₁ + B₂; CS = RCV − B). Parfit establishes *that* intergenerational obligations exist; the framework establishes *how* to price them.
+- **Chapter relevance:** Ch 6 methodology (intergenerational-CS section — recommended primary placement, in the same passage that introduces B₂ Foreclosure Bond and intergenerational-discount-rate posture); Ch 10 closing reflection (philosophical-companion register at lower depth); Tech Appendix §F (B₂ Foreclosure Bond methodology — intergenerational-moral-status footnote citing Parfit Part IV).
+- **Note on the non-identity problem:** the framework's response to Parfit's non-identity puzzle is not to solve it philosophically but to operate at the level of *systems* rather than *specific persons*. CS = RCV − B prices what extraction-systems sever from whatever-future-generation-arises under the system. The accounting is system-level (commons remaining for future generations whoever they are); the moral claim is impersonal (the goodness of outcomes for those generations); Parfit's Part IV legitimates this move within established moral-philosophy.
+- **Rigor provenance:** Academic-rigor full test 2026-04-24 (M6.2 GAP IDENTIFIED — Parfit explicitly named as needed for IPG load-bearing claim); v1.44.0 session handoff Phase B literature item.
+- **Status:** ratified 2026-04-25 (load-bearing-on-ratified-decision per bibliography-additions-rule memory; added without separate rigor pass since the IPG / intergenerational-CS claim is already ratified across multiple prior rigor passes).
+
+---
+
 ## 19. Supporting sources not yet integrated
 
 Placeholder for additions as they emerge. Candidate additions:
