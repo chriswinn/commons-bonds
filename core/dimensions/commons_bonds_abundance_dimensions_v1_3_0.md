@@ -2,7 +2,7 @@
 
 **Date:** 2026-04-24
 **Version:** 1.4.0 (Tier-1 update header per Working Principle #4)
-**Status:** Canonical. **v1.4.0 applies Option C' commons-as-structural-identity reframing** per rigor passes `commons_bonds_rigor_pass_2026-04-24_commons_as_structural_identity_v1.0.0.md`, `..._term_cit_rename_v1.0.0.md`, and `..._10_commons_list_dissolution_v1.0.0.md` (commits `c4b09dc`, `b294c79`, `e30087e`). The 10 categories are **examples (not canonical) of commons that the framework has surfaced across cases examined to date** — political-philosophical-accommodation discipline (Option C') applies: the framework does not legislate the boundaries or completeness of "what counts as a commons"; it provides a methodology (CIT + Four Gates) for evaluating any candidate commons that surfaces in a given political-philosophical tradition. All per-dimension rich-profile content preserved from v1.3.0 as pedagogical evidence that CIT converges on reliable commons categories under specific case clusters — not as ontological commitment to these 10 specifically.
+**Status:** Current methodology reference (v1.4.0 Tier-1 update). **v1.4.0 applies Option C' commons-as-structural-identity reframing** per rigor passes `commons_bonds_rigor_pass_2026-04-24_commons_as_structural_identity_v1.0.0.md`, `..._term_cit_rename_v1.0.0.md`, and `..._10_commons_list_dissolution_v1.0.0.md` (commits `c4b09dc`, `b294c79`, `e30087e`). The 10 categories are **examples (not canonical) of commons that the framework has surfaced across cases examined to date** — political-philosophical-accommodation discipline (Option C') applies: the framework does not legislate the boundaries or completeness of "what counts as a commons"; it provides a methodology (CIT + Four Gates) for evaluating any candidate commons that surfaces in a given political-philosophical tradition. All per-dimension rich-profile content preserved from v1.3.0 as pedagogical evidence that CIT converges on reliable commons categories under specific case clusters — not as ontological commitment to these 10 specifically.
 
 **Supersedes:** v1.3.0 (2026-04-24 — Path F reframing, "variables AIT has discovered" — note: AIT was renamed to CIT same day; v1.3.0 prose still used the AIT label). Path F is itself superseded by Option C' (commons-as-structural-identity): the framework now treats these as commons categories rather than abundance variables, because abundance/scarcity is a *property of the relationship between extractor and commons* rather than a variable type. The categories' status as "examples, not canonical" carries forward and strengthens.
 
@@ -23,10 +23,10 @@
 - AIT→CIT rename rigor pass (commit `b294c79`) — the test inverts commons-presence (or commons-consumption), not abundance per se. CIT has two sub-forms (commons-absence inversion + commons-consumption inversion). The 10 §2.N "CIT inversion" subsections in this doc read under CIT as commons-consumption-inversion worked-examples.
 - 10-list dissolution rigor pass (commit `e30087e`) — Option C' political-philosophical-accommodation ratified. The 10 categories presented here remain useful as examples but no longer carry "canonical / complete for Book One" status. The framework's job is methodology (CIT + Four Gates); the political-philosophical tradition supplies the candidate commons.
 
-**What changes in this canonical doc under v1.4.0:**
+**What changes in this doc under v1.4.0:**
 - Title + framing language updated to "commons categories" + "examples, not canonical."
 - AIT → CIT replaced throughout (52+ instances upstream; ~20 instances in this doc).
-- §1 "CIT positioning" reframed → "§1. CIT positioning + commons-as-structural-identity (canonical)" with updated content reflecting the structural primitive.
+- §1 "CIT positioning" reframed → "§1. CIT positioning + commons-as-structural-identity" with updated content reflecting the structural primitive.
 - §2 header reframed from "the 10 canonical abundance dimensions" → "the 10 commons categories surfaced to date (examples, not canonical)."
 - §4 "Set-completeness" framing updated — completeness claims withdrawn; framing reread as "what 18 cases have surfaced to date."
 - §6 naming-cohort status retained (labels still cascade-work — Goal-1 vocabulary durability).
@@ -58,7 +58,7 @@
 
 **Triggering decision:** PCR v1.1.0 §8 confirmed Path F (variables-not-dimensions reframing) on 2026-04-24. Rigor pass v1.0.0 §11 ratified the four conditions. Phase A1 Task 3 executes here.
 
-**What changes under Path F in this canonical doc:**
+**What changes under Path F in this doc:**
 
 - **The 10 abundances stay named as currently specified.** Habitability, Spatial, Temporal, Institutional, Kindred, Ecosystem, Political, Cohesion, Epistemic, Autonomy. Names are preserved; labels do cascade-work that naming-cohort rigor passes established (per Goal-1 vocabulary durability).
 - **What they ARE changes.** They are no longer "the ten canonical dimensions of cost severance as a definitive ontological taxonomy." They are "the ten variable categories that have convergently emerged when CIT is applied across the 18 cases examined in this book's research."
@@ -82,17 +82,17 @@
 
 ## Purpose
 
-This document is the canonical methodology source for the Commons Bonds abundance-dimension set. It does three things:
+This document is the current methodology reference for the Commons Bonds commons-categories set. It does three things:
 
-1. **Defines** the 10 canonical dimensions — their summaries, CIT inversions, case clusters, scope boundaries, relevant literature, and uniquely-priced contributions.
-2. **Ratifies** the set as complete for Book One under the v1.2.2 rigor protocol, incorporating v1.21.0 dimension ratifications (Cohesion, Informational, Agency) + 2026-04-22 rigor-pass findings + Kindred lock + Priority-2 locks (Spatial, Epistemic, Autonomy) + Cohesion retention.
-3. **Carries** the methodology notes emerging from the Part 2 pass — canonical-cases-define-pressure-profile pattern, ethical-anchor requirement, Kantian consent-precondition pair.
+1. **Defines** the 10 commons categories surfaced to date — their summaries, CIT inversions, case clusters, scope boundaries, relevant literature, and uniquely-priced contributions.
+2. **Ratifies** the set as the working set for Book One under the v1.2.2 rigor protocol (presented as examples per Option C' political-philosophical-accommodation, not as a canonical / complete enumeration), incorporating v1.21.0 dimension ratifications (Cohesion, Informational, Agency) + 2026-04-22 rigor-pass findings + Kindred lock + Priority-2 locks (Spatial, Epistemic, Autonomy) + Cohesion retention.
+3. **Carries** the methodology notes emerging from the Part 2 pass — canonical-cases-define-pressure-profile pattern (case-as-anchor-example usage), ethical-anchor requirement, Kantian consent-precondition pair.
 
-Detailed pressure-test records live in the rigor pass files referenced above; this document carries the canonical synthesis. Chapter-level case integration and Priority-3 naming-cohort confirmation remain pending in Part 5.
+Detailed pressure-test records live in the rigor pass files referenced above; this document carries the current methodology synthesis. Chapter-level case integration and Priority-3 naming-cohort confirmation remain pending in Part 5.
 
 ---
 
-## 1. CIT positioning + commons-as-structural-identity (canonical, v1.4.0 reframing of C9 patch §3)
+## 1. CIT positioning + commons-as-structural-identity (v1.4.0 reframing of C9 patch §3)
 
 The Commons Inversion Test (CIT; renamed from AIT 2026-04-24) is the framework's epistemic core. **Commons categories are organizational scaffolding around the structural primitive (Commons), not load-bearing structure themselves.** Category additions, mergers, or renames are organizational revisions, not framework-integrity events. The CIT operates on any extraction–commons relationship independently of a containing list of commons categories — its validity is a property of the extraction–commons relationship itself, not of any particular set of commons categories.
 
@@ -448,7 +448,7 @@ The merger gate (outward) and primitiveness gate (inward) are the distinctness t
 
 ## 4. Set-completeness (as of 2026-04-22)
 
-Five candidates tested against the canonical 10 in Part 2 §5:
+Five candidates tested against the working 10 in Part 2 §5:
 
 | Candidate | Verdict | Routing |
 |---|---|---|
@@ -528,7 +528,7 @@ Multi-dimension activation (Ch. 7 asteroid-miner activating 9–10 dimensions; C
 - Institutional — LOCKED stable.
 - Political — LOCKED stable with US-partisan-connotation watch retained.
 
-**Naming cohort COMPLETE.** All 10 dimensions are full-rigor-verified under canonical names: Habitability, Spatial, Temporal, Institutional, Kindred, Ecosystem, Political, Cohesion, Epistemic, Autonomy. All single-word abstract nouns. No further naming-cohort work indicated.
+**Naming cohort COMPLETE.** All 10 commons categories are full-rigor-verified under their current ratified names: Habitability, Spatial, Temporal, Institutional, Kindred, Ecosystem, Political, Cohesion, Epistemic, Autonomy. All single-word abstract nouns. No further naming-cohort work indicated.
 
 **Cohort sequencing guidance** (for future naming work if triggered by drafting-stage findings): walk dimensions one at a time. For each rename, verify (a) merger gate under the new name (names can imply boundary shifts); (b) primitiveness gate; (c) Tests 20 and 23 compression; (d) Characters 10 / M1 / 11 pattern-match at minimum; escalate to full rigor (25-character suite + Groups A–F) when the rename is also a scope-clarification move.
 
@@ -538,7 +538,7 @@ Multi-dimension activation (Ch. 7 asteroid-miner activating 9–10 dimensions; C
 
 ## 7. Relationship to book methodology appendix
 
-This document is the internal canonical source. The book's methodology appendix (Tech Appendix territory) carries a reader-facing subset:
+This document is the internal current-state methodology reference. The book's methodology appendix (Tech Appendix territory) carries a reader-facing subset:
 
 - **Short methodology passage** introducing the abundance-dimension concept and the merger / primitiveness discipline (per Part 1 §4.2 "book-visibility note" on Test 3).
 - **Appendix table** of which candidates passed or failed which gate, and why — anchored by `commons_bonds_rigor_pass_2026-04-22_v1_0_0.md` §6.1.
@@ -580,8 +580,8 @@ Version numbering: v1.2.1 for clarifications and minor additions within the curr
 | `commons_bonds_rigor_pass_2026-04-22_v1.0.5.md` | Priority-3 full-rigor confirm pass — canonical for Priority-3 verdicts (Temporal, Institutional, Political all LOCK stable). Closes the naming cohort. |
 | `commons_bonds_guiding_constraints_v1_0_0.md` | Group D / Group E canonical inputs for rigor-pass alignment. |
 | `commons_bonds_book_scope_v1_0_3.md` | Book One scope; chapter-level case integration. |
-| `eight-tier-v10.html` | CIT canonical source. |
-| `alignment/patches/c9_ait_canonical_positioning_patch.md` | Scaffolding-vs-load-bearing canonical. |
+| `eight-tier-v10.html` | CIT precursor source (8-tier scheme retired; preserved for lineage). |
+| `alignment/patches/c9_ait_canonical_positioning_patch.md` | Scaffolding-vs-load-bearing reference (filename retains "ait_canonical" naming for lineage; AIT was renamed CIT 2026-04-24). |
 | `research/literature/bibliography.md` | Chosen-family scholarship section (Weston, Stacey, Nardi, Karner, Jones, Tönnies, Schneider/Carsten) added 2026-04-22 per Kindred lock; additional entries for Priority-2 locked dimensions (Anderson, Fricker, Sen, Hess & Ostrom, Klinenberg, Murthy, etc.) queued per v1.0.4 §12.1 step 7. |
 
 ---

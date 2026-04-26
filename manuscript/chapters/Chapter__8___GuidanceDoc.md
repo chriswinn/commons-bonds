@@ -9,7 +9,7 @@
 
 No standalone Ch 8 guidance doc has ever existed in git history. The Ch 8 guidance content was always embedded in `archive/commons_bonds_chapter_assessment.md` (2026-04-18, chapter-by-chapter assessment) and later absorbed into `workstreams/07_chapter_8_two_book_trim.md` (the Book One trim workstream). The chapter-wide assessment doc is also historically significant — its Ch 8 section was the seed of the two-book split decision that later expanded into Book One / Book Two / Book Three scoping.
 
-This stub extracts the Ch 8 scope content into the canonical guidance-doc location so Ch 8 has filesystem parity with the other chapter guidance docs, and so the queued guidance-doc revision sweep has a clear starting file.
+This stub extracts the Ch 8 scope content into the standard guidance-doc location so Ch 8 has filesystem parity with the other chapter guidance docs, and so the queued guidance-doc revision sweep has a clear starting file.
 
 ## Source 1: Chapter 8 scope from chapter assessment (archive/commons_bonds_chapter_assessment.md, 2026-04-18)
 

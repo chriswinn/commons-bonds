@@ -353,7 +353,7 @@ Per Option C' ratification: the 10 (Habitability, Spatial, Temporal, Institution
 
 **4. Explicit political-philosophical acknowledgment.**
 
-Per Option C' ratification: what counts as a commons is politically-traditionally contested. Ch 6 includes the canonical authorial-voice positioning (Register 2; Tech Appendix carries deeper citation depth):
+Per Option C' ratification: what counts as a commons is politically-traditionally contested. Ch 6 includes the ratified authorial-voice positioning (Register 2; Tech Appendix carries deeper citation depth):
 
 > *"This framework doesn't argue that autonomy is universally a commons, or that habitability is, or that time is. It argues that when any of these operate AS commons in a given society — shared, depended-on, collectively enabling — extraction can sever cost from that commons, and this methodology measures the severance. Different political traditions have different commitments about what is shared and what is individual. The framework works within any of those commitments. What it doesn't accept is extraction without accountability, regardless of which commons is being extracted from."*
 
