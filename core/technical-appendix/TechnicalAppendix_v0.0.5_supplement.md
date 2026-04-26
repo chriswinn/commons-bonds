@@ -231,6 +231,31 @@ This positioning:
 
 The two sub-forms run in sequence: CAI first (is this commons-grounded at all?), then CCI (is this consumption-grounded?). Only claims passing both qualify as Cost Severance.
 
+#### §6.1.1 Level-of-claim specification (added 2026-04-25)
+
+**Discipline:** CIT's outcome depends on the level at which the cost claim is specified. The same extraction relationship can produce a CIT-pass at one level of aggregation and a CIT-fail at another, and this is not a defect of the test — it is a methodological feature requiring the analyst to be explicit about the level the cost claim is named at.
+
+**Formal rule:** Before running CAI + CCI on a candidate cost claim, specify the level at which the commons is asserted to be finite. The specification must name:
+
+1. **The aggregation scope** of the commons (individual-user / community / population / cohort / generational / civilizational / planetary).
+2. **The temporal scope** (instantaneous / cumulative-over-period / lifetime / intergenerational / open-ended).
+3. **The substitutability scope** (single-substitute / class-of-substitutes / no-substitute-available).
+
+**Worked example — platform-economy attention extraction (canonical level-of-claim case):**
+
+Consider the candidate cost claim that platform attention-extraction (e.g., recommendation algorithms optimizing for engagement) constitutes Cost Severance.
+
+- **Level A — individual-user instantaneous.** "TikTok extracts attention from individual user X during session Y." CAI passes (no audience = no extraction). CCI **fails**: individual attention regenerates between sessions; the platform's pricing presupposes individual-user attention is sufficiently regenerative. **CIT-fail at Level A.** Framework's CS does not apply at this level.
+- **Level B — cumulative-population intergenerational.** "Platform attention-extraction across the entire user population, cumulative across the digital-attention era, depletes a finite collective-cognitive-bandwidth commons whose regeneration capacity is bounded by neurobiological and developmental constraints." CAI passes. CCI **may pass**: collective-cognitive-bandwidth at population-and-generational scale has finite-commons properties analogous to atmospheric carbon (the substrate is finite even if individual instances regenerate). **CIT may pass at Level B**, depending on empirical bounds.
+
+**The two outcomes are not contradictory.** They reflect that CIT operates on the cost claim *as specified*. Level-A claims and Level-B claims are different empirical claims about what is being severed; CIT correctly distinguishes them.
+
+**Reporting discipline:** every CIT application must specify the level-of-claim before reporting the verdict. A bare "CIT passes" without level specification is methodologically incomplete. The minimum-acceptable form is: "CIT-pass at level [aggregation] / [temporal] / [substitutability]; CIT-fail at level [aggregation] / [temporal] / [substitutability]."
+
+**Source of refinement:** M11 Character 12 (graduate student building on the work) probed this distinction during the 2026-04-24 academic-rigor full test. The Char 12 case was platform-economy attention extraction; the framework's response surfaced that CIT operates at the level the cost claim is specified at, and that platform-extraction analysis benefits from explicit level specification because the individual-user level and the cumulative-population level produce different verdicts. See `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_academic_rigor_full_test_v1.0.0.md` §4.2.
+
+**Cross-references:** Open Insight #16 (CIT two-sub-forms refinement); Open Insight #20 (sensitivity-analysis execution — same level-of-specification discipline applies to σ + α + V_option calibration); Working Principle #2 (audit-concept-not-phrase — the level-of-claim discipline is itself a Principle #2 application: identical *phrases* about commons-extraction can route to different *concepts* depending on the aggregation level).
+
 ### §6.2 Four Gates admission apparatus
 
 Per the Four Gates cluster rigor pass, a commons-extraction-cost claim is admitted to the framework's CS accounting if and only if it passes all four gates:
