@@ -233,6 +233,30 @@ If Ch 10 incorporates a brief reflective return to the philosophical grounding (
 
 ---
 
+## §6.10 Passage M — Reparations-economics main-text engagement (Ch 6 companion to Ch 5 §6.10) (added 2026-04-25; closes M11 Char 19)
+
+**Placement:** Ch 6 methodology section. Insert in the B = B₁ + B₂ decomposition walkthrough (likely the section that introduces Restitution Bond and Foreclosure Bond), positioned to make the reparations-economics academic lineage visible at first introduction of B₁ rather than only in the supplement / bibliography.
+
+**Function:** Closes M11 Character 19 (reparations economist) finding from the 2026-04-24 academic-rigor full test (commit `ae90800`). Char 19 is one of the four most-load-bearing external-review audiences (per academic-rigor pass §6.3). The Phase B work item: Darity & Mullen 2020 *From Here to Equality* + adjacent reparations-economics literature should appear in Ch 6 main-text prose, not only in bibliography (currently §18.5) + supplement (currently §4.1 Restitution Bond record). Ch 5 carries the empirical engagement (per the Ch 5 draft's new "Restitution and Foreclosure: Two Directions of Accountability" section); Ch 6 should carry the methodological engagement.
+
+### §6.10.1 Draft passage (~360 words; Ch 6 main-text register)
+
+> The Restitution Bond instrument the framework specifies is not new methodology dropped into the literature without lineage. It operates within an established academic tradition — reparations economics — whose methodology William Darity Jr. and A. Kirsten Mullen develop most rigorously in *From Here to Equality: Reparations for Black Americans in the Twenty-First Century* (2020). Their wealth-gap calculation methodology is the contemporary state of the art for pricing harm whose damage is structurally embedded in economic systems rather than the result of any single tortious act. Restitution Bond is a specialization of that methodology to extraction-community contexts.
+>
+> The specialization is real but the methodology is largely the same. Darity and Mullen accumulate, with care, the specific economic mechanisms by which harm has been compounded across generations: discriminatory housing policy, redlined access to capital, the GI Bill's structural exclusions, the specific dollars of family wealth that compounded for some populations and not others. The reparations price-tag they arrive at is not a moral abstraction; it is the cumulative product of measurable mechanisms. The framework's CSD (Cost Severance Damages) instrument operates the same way for extraction communities: accumulate the specific mechanisms (Black Lung mortality; community-transition costs absorbed unfunded; opioid-mortality demographic compression; cumulative health-care costs externalized to families and Medicare) and price the result. The methodology is portable; the per-context calibration is what differs.
+>
+> The reparations-economics tradition carries one further discipline the framework adopts. Reparations economics treats the question of *what is owed* as analytically separate from the question of *what is politically feasible to collect*. The accounting is method-driven; the political path is downstream. The framework's CSD calculation, like Darity and Mullen's wealth-gap calculation, applies regardless of whether any specific polity is currently prepared to make restitution. The Bond posting B₁ that would discharge accumulated CSD is determined by the methodology, not by current political will. This is intentionally the appropriate scope for Book One — the framework's contribution here is naming the mechanism and pricing the obligation, not legislating the payment schedule. The political work belongs to Chapter 9's policy economy and to the broader public conversation that any framework can only contribute to, not conclude.
+
+### §6.10.2 Integration notes for Phase B
+
+- **Recommended placement:** Ch 6 methodology section, in the B = B₁ + B₂ decomposition walkthrough. Lands at the Restitution Bond first-introduction point so the reparations-economics lineage is visible to the academic reviewer at first encounter rather than relegated to a footnote.
+- **Pairs with §6.5 Parfit engagement:** Parfit grounds the framework's intergenerational moral standing (B₂ Foreclosure Bond direction); Darity & Mullen ground the framework's already-realized-harm methodology (B₁ Restitution Bond direction). Both should appear in Ch 6's B-decomposition section so the philosophical + methodological lineage is paired and visible.
+- **Cross-references to land:** `research/literature/bibliography.md` §18.5 (Darity & Mullen + adjacent reparations-economics); supplement §4.1 (Restitution Bond record); Ch 5 draft's "Restitution and Foreclosure: Two Directions of Accountability" section (the empirical-engagement companion to this methodological-engagement passage).
+- **Cross-spectrum-tone discipline:** the passage frames reparations-economics as scholarly methodology rather than political program. Honors the Darity-Mullen methodological contribution; positions the framework as extending their methodology into adjacent territory (extraction-community contexts) rather than competing with it. Same Option-C' political-philosophical-accommodation discipline that carried the Ostrom-vs-extraction-context distinction (§6.9).
+- **Phase B-blocker dependency:** none. This passage can land independently. Pairs naturally with §6.5 (Parfit) + §6.6 (CIT-vs-empirical falsifiability) + §6.9 (Ostrom-vs-extraction) as the Ch 6 academic-rigor-strengthening cluster.
+
+---
+
 ## §7. Integration notes for Chris during Phase B Ch 6 revision
 
 **Existing Ch 6 HTML draft (`Chapter__6_ThreeWaysofCounting__Draft.html`):**
