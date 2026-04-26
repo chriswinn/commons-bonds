@@ -256,6 +256,24 @@
 - **Rigor provenance:** Promoted from §19 candidate list 2026-04-26 per author ratification of 2008 scope-choice candidate rigor pass §6.
 - **Status:** ratified 2026-04-26.
 
+### Kindleberger, Charles P. *The World in Depression, 1929-1939.* University of California Press, 1973. (Revised edition 1986.)
+
+- **Summary:** Foundational economic-history account of the global Great Depression as a coordinated banking-crisis cascade. Develops what would become known as Kindleberger's "lender-of-last-resort" thesis — the absence of a stabilizing hegemon willing to coordinate international liquidity provision was the structural variable producing the Depression's depth and duration. The book documents national-level responses across the affected economies (United States, United Kingdom, France, Germany, the Nordic countries) and is widely cited as the canonical comparative-banking-crisis history of the 1930s.
+- **Relevance:** **LOAD-BEARING (Ch 9 Sweden 1930s candidate grounding).** Per the 2026-04-26 rigor pass on Candidate #3 (Sweden 1930s banking-crisis household-relief comparison): Kindleberger documents the 1930s Swedish response in comparative context, including the krona devaluation (1931), the Riksbank-coordinated bank-rescue (1933), the public-works employment programs (1934-1937), and the institutional-stabilization sequence that became the 1938 Saltsjöbaden Agreement framework. The framework's contribution is to isolate scope-choice as a design variable across the Kindleberger-documented 1930s response variation.
+- **Relationship:** **SUPPORT (extended).** The framework draws on Kindleberger's comparative-banking-crisis history but extends it by isolating scope-choice as design variable rather than as institutional-curiosity.
+- **Chapter relevance:** Ch 9 (Sweden 1930s candidate primary placement; cross-country comparison anchor); Tech Appendix (banking-crisis-history citation).
+- **Rigor provenance:** Added 2026-04-26 per author ratification of Sweden 1930s candidate rigor pass §7.
+- **Status:** ratified 2026-04-26.
+
+### Eichengreen, Barry. *Golden Fetters: The Gold Standard and the Great Depression, 1919-1939.* Oxford University Press, 1992.
+
+- **Summary:** Comparative-economic-history study of how the gold standard's structural constraints amplified the Great Depression's severity across affected economies. Documents that countries which abandoned the gold standard earlier — Sweden (1931), the United Kingdom (1931), Japan (1931) — recovered earlier and with substantially less household-welfare damage than countries that maintained the gold standard longer (the United States and France through 1936; Germany under different but structurally analogous monetary constraints). The book's analytical contribution is to demonstrate that monetary-architecture choice was a substantial determinant of Depression-era outcomes — different societies facing the same crisis pressure produced different outcomes through different architectural choices.
+- **Relevance:** **LOAD-BEARING (Ch 9 Sweden 1930s candidate grounding).** Per the 2026-04-26 rigor pass on Candidate #3: Eichengreen documents the Swedish 1931 krona-devaluation as part of a broader pattern of architectural-choice variation across Depression-era responses. The framework's contribution is to extend Eichengreen's monetary-architecture-as-design-variable analysis into the broader scope-of-rescue domain (krona devaluation paired with mortgage-modification programs, public-works employment, household-relief infrastructure development). Eichengreen demonstrates that architecture mattered for monetary recovery; the framework extends that finding into the architectural choice of who to rescue and at what scale.
+- **Relationship:** **SUPPORT (extended).** The framework draws on Eichengreen's monetary-architecture-as-design-variable analysis and extends it into scope-of-rescue architecture.
+- **Chapter relevance:** Ch 9 (Sweden 1930s candidate primary placement; architectural-choice-as-design-variable cross-reference); Tech Appendix (banking-crisis-history citation).
+- **Rigor provenance:** Added 2026-04-26 per author ratification of Sweden 1930s candidate rigor pass §7.
+- **Status:** ratified 2026-04-26.
+
 ---
 
 ## 7. Environmental justice

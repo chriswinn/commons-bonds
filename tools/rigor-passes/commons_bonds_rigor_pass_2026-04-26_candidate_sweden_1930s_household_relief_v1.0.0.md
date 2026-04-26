@@ -197,27 +197,26 @@ Four chapter-placement options tested.
 
 ## §7. Author-ratified resolutions
 
-*Pending. Chris reviews §1 verdict + §3 Q1A book-scope + §4 Q1B framing + §5 Q2 chapter-placement, then ratifies or revises.*
-
 ### §7.1 Path choice
 
-**Q1A — does the addition belong in BOOK 1?**
-- (Yes — structural-observation framing) RECOMMENDED. Passes Book 1 rigor per v1.0.3 §6.1 + Open Insight #13 scope discipline.
-- (Yes — applied-advocacy framing) REJECTED. Falls within Book 2 scope.
-- (No — defer to Book 2) DEFENSIBLE if author prefers applied-advocacy framing exclusively; rejects structural-observation framing as Book 1 material.
-- (No — reject entirely) REJECTED. The cluster-coherence test (with Candidates #1 + #2) makes this candidate load-bearing for the broader contingency argument.
+**Ratified decision (2026-04-26, Chris Winn):**
 
-**Q1B — what framing?**
-- (Structural-observation paired with contingency-argument form, presented as part of the cluster) RECOMMENDED.
-- (Applied-advocacy with transition-mechanism prescription) REJECTED — Book 2 territory.
+- **Q1A = YES (Book 1)** — addition belongs in Book 1, structural-observation framing.
+- **Q1B = structural-observation paired with contingency-argument form** ratified — presented as part of the cluster (#1 + #2 + #3 together) demonstrating contingency from three angles (counter-factual, cross-country, cross-country + cross-century).
+- **Q2 = Ch 9 primary RATIFIED** + Ch 5 secondary cross-reference RATIFIED + Ch 10 tertiary one-line reflective echo RATIFIED. Three-placement integration approved.
 
-**Q2 — which Book 1 chapter is the best home?**
-- (A) Ch 9 — RECOMMENDED PRIMARY PLACEMENT.
-- (B) Ch 5 — DEFENSIBLE secondary; light cross-reference appropriate.
-- (C) Ch 6 — REJECTED.
-- (D) Ch 10 — ECHO ONLY.
+### §7.2 Implementation cluster
 
-**Ratification target:** Q1A = yes (structural-observation framing); Q1B = structural-observation paired with contingency argument; Q2 = A (Ch 9 primary) + optional B / D as cross-reference / echo.
+Per the ratified decision, integration proceeds as follows:
+
+- **Bibliography promotions** — Kindleberger 1973 *The World in Depression* + Eichengreen 1992 *Golden Fetters* added as full entries to §6 (Financial crisis and financial commons).
+- **Ch 9 primary placement** — ~400-500 words during Ch 9 register-review later this session. Combined Ch 9 contingency-cluster prose: ~900-1,100 words across Candidates #1 and #3 in Ch 9.
+- **Ch 5 secondary cross-reference** — ~100-150 words within the 2008 case; integrated this session as part of Ch 5 holistic sweep work.
+- **Ch 10 tertiary reflective echo** — one-line during Ch 10 register-review later this session. Pairs with Candidate #1 + Candidate #2 Ch 10 echoes for the closing-chapter contingency-cluster reflection.
+
+### §7.3 Tracker doc closure
+
+`alignment/patches/candidate_prose_additions_2026-04-26.md` Candidate #3 status updated to closed-ratified-pending-integration; integration commits referenced as they land during this session's chapter-by-chapter sweep.
 
 ### §7.2 Implications if ratified
 

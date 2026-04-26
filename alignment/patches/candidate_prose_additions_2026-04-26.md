@@ -74,11 +74,11 @@
 
 **Q2 verdict (best Book 1 chapter):** **Ch 9 (The Renewable Imperative) primary placement RECOMMENDED.** Pairs with Candidate #1 primary placement (also Ch 9). Ch 5 defensible secondary; Ch 10 echo-only. Ch 6 rejected.
 
-**Status:** rigor-pass-ratified-pending; awaiting author ratification at rigor pass §7. When ratified, integration scope:
-- **Ch 9 primary:** ~400-500 words; pairs with Candidate #1's ~500-600 words (combined Ch 9 contingency-cluster ~900-1,100 words across two candidates)
-- **Ch 5 secondary (optional):** ~100-150 words cross-reference within 2008 case
-- **Ch 10 tertiary (optional):** one-line reflective echo
-- **Bibliography:** Kindleberger 1973 *The World in Depression* + Eichengreen 1992 *Golden Fetters* — promotions to §6 if ratified
+**Status:** **closed-ratified 2026-04-26 (Chris Winn) — pending integration commits.** Author ratified Q1A=yes-Book-1 + Q1B=structural-observation-framing + Q2=Ch 9 primary + Ch 5 secondary + Ch 10 tertiary. Three-placement integration approved. Integration scope:
+- **Ch 9 primary:** ~400-500 words; pairs with Candidate #1's ~500-600 words (combined Ch 9 contingency-cluster ~900-1,100 words across two candidates) — to be integrated during Ch 9 register-review later this session
+- **Ch 5 secondary:** ~100-150 words cross-reference within 2008 case — integrated this session as part of Ch 5 holistic sweep
+- **Ch 10 tertiary:** one-line reflective echo — to be integrated during Ch 10 register-review
+- **Bibliography:** Kindleberger 1973 *The World in Depression* + Eichengreen 1992 *Golden Fetters* — promotions to §6 in this commit cluster
 
 **Cross-references:** rigor pass file; companion candidates #1 + #2; Ch 9 draft (recommended integration target); Ch 5 + Ch 10 (optional cross-reference targets).
 
