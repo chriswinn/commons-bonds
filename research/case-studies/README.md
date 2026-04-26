@@ -2,21 +2,17 @@
 
 **Purpose:** Staging for standalone case-study writeups that may eventually support the book beyond what fits in the main chapter drafts.
 
-## Current state (as of 2026-04-22)
+## Current state (status overview — see audit for authoritative detail)
 
-This folder is intentionally empty. All canonical case-study content for Book One lives **inline in the chapter drafts**:
+**Authoritative integration tracker:** [`core/case-studies/commons_bonds_case_study_audit_v1.0.6.md`](../../core/case-studies/commons_bonds_case_study_audit_v1.0.6.md) — per-case integration status, dimension activations, rigor-test verdicts, and chapter placements for all 18+ cases.
 
-| Case | Current home |
-|---|---|
-| Appalachian coal (McDowell County) | `manuscript/chapters/Chapter__2_TheMiner__Draft.md` |
-| Norway sovereign wealth fund | `manuscript/chapters/Chapter__4_THEEXISTENCEPROOF__Draft.md` |
-| Libby vermiculite (W.R. Grace asbestos) | `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` |
-| Deepwater Horizon (BP oil spill) | `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` |
-| Exxon Valdez | `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` |
-| Baotou rare earths | `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` |
-| Mars / off-Earth thought experiment | `manuscript/chapters/Chapter__7_TheColonyAdministrator__Draft.md` |
+The folder now holds 22 standalone case-study writeups. Each case is at one of three integration states tracked in the audit:
 
-The chapter-inline approach is canonical for Book One — the framework is applied directly in each chapter as the mechanism is introduced, rather than catalogued separately here.
+- **Chapter-inline (substantive integration):** Appalachian coal (Ch 2 anchor + Ch 6 + Ch 8); Norway SWF (Ch 4 anchor); Libby vermiculite (Ch 5 + Ch 6 + Ch 8); Deepwater Horizon (Ch 5 + Ch 6); 2008 financial crisis (Ch 5 + Ch 9); Social Security (Ch 5); healthcare end-of-life (Ch 1 + Ch 5); housing enforced immobility (Ch 2 + Ch 8); opioid Appalachia (Ch 2); Nigeria oil (Ch 4 mirror); Egypt + Qin (Ch 7 stress-test); feudalism + blood diamonds (Ch 7 + Ch 10); indigenous land dispossession (Ch 10 anchor — sensitivity-reader pre-pub gate stands); Canadian tar sands (Ch 8 brief); Chesapeake fisheries (Ch 2 + Ch 6 + Dedication); reachable-horizon cluster — Alaska Permanent Fund + Chattanooga municipal broadband + Mondragon + Vienna social housing (Ch 9).
+- **Standalone-only (drafted; not yet in any chapter draft):** Tax trade-off US vs Sweden — designated for Ch 9 reachable-horizon anchor; integration pending Nordic-model-unrepeatable steelman landing first (drafted at `research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md` §3).
+- **Embedded-also-as-chapter-content (some cases are referenced in chapter drafts but the standalone file carries longer-form companion material):** see audit per-case profiles.
+
+The chapter-inline approach is the project's working pattern for Book One — framework is applied directly in each chapter as the mechanism is introduced, with standalone files retained here as longer-form companion / scholarly-extension material when worth preserving.
 
 ## When new content lives here
 

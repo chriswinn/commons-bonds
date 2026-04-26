@@ -21,12 +21,12 @@ Chesapeake fisheries serve a specific analytical function: they test whether the
 ## Why this case matters beyond validation
 
 - **Hampton / Chesapeake Bay is personal territory:** Chris's Hampton roots + sailboat plans + the book's closing image ("the watermen going out before dawn") make this a potentially first-person case, distinct from most other case studies which are primarily third-person documented.
-- **Oyster collapse as canonical Tier 6 (Ecological Carrying) + Tier 3 (Dynastic Labor) case:** Chesapeake oyster harvests collapsed from ~15 million bushels/year (late 1800s) to under 200,000 bushels/year (1990s) — a 99% decline. Mechanism: overharvesting + habitat destruction + pollution + disease. The collapse forced multi-generational dispossession of waterman communities who'd harvested for ~300 years; the commons was consumed before the communities fully exited.
+- **Oyster collapse as Ecosystem-commons + Cohesion-commons paradigm case** (note: prior framing as "Tier 6 / Tier 3" referenced the retired 8-tier scheme; current framework uses the 10-commons-categories-as-examples discipline per Option C', and Ecosystem + Cohesion are the load-bearing commons activations here): Chesapeake oyster harvests collapsed from ~15 million bushels/year (late 1800s) to under 200,000 bushels/year (1990s) — a 99% decline. Mechanism: overharvesting + habitat destruction + pollution + disease. The collapse forced multi-generational dispossession of waterman communities who'd harvested for ~300 years; the commons was consumed before the communities fully exited.
 - **Regulatory-governance failure pattern:** the Chesapeake Bay Commission, state-level fishery management, and interstate coordination failures are documented. Political-dimension cost-severance operates here alongside Ecosystem cost.
 - **Renewable-conversion insight is framework-distinctive:** most extraction-framework work is about non-renewables; the renewable-pushed-past-regeneration pattern is less well-theorized. The framework's handling of this case is a claim-staking opportunity.
 
 ## Next-step suggestions (not from source; Claude-added)
 
 - Develop source documentation: Chesapeake Bay Foundation annual reports, NOAA oyster and blue crab population data, academic work on fisheries collapse (Jackson et al. "Historical Overfishing and the Recent Collapse of Coastal Ecosystems"), regional histories of watermen communities.
-- Consider elevating to Ch. 3 (The Waterman) canonical case if that chapter takes a watermen-focused framing, or to Ch. 2 (The Miner) comparison point if Ch. 3 goes differently.
+- Consider elevating to Ch. 3 (The Waterman) anchor case if that chapter takes a watermen-focused framing, or to Ch. 2 (The Miner) comparison point if Ch. 3 goes differently.
 - Personal-narrative-integration opportunity: Chris's Hampton roots + visible-to-him daily Chesapeake cases make this a candidate for first-person observation paired with documentary case material.
