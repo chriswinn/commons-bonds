@@ -85,6 +85,46 @@
 
 ---
 
+## §6.5 Passage G — Parfit engagement (intergenerational moral status grounding for IPG and B₂) (added 2026-04-25)
+
+**Placement:** Ch 6 methodology section, after the B = B₁ + B₂ decomposition is introduced and before the Four Gates / CIT specification. The passage functions as the philosophical grounding paragraph that legitimates the framework's intergenerational claim.
+
+**Function:** Closes M6.2 GAP IDENTIFIED from 2026-04-24 academic-rigor full test (commit `ae90800`). Engages Derek Parfit's *Reasons and Persons* (1984) Part IV on obligations to future generations + the non-identity problem. Establishes that the framework operates within established moral-philosophy vocabulary for intergenerational moral status, rather than asserting intergenerational obligation as a free-standing premise.
+
+**Bibliography reference:** `research/literature/bibliography.md` §18.9 (Parfit *Reasons and Persons* 1984), added 2026-04-25.
+
+### §6.5.1 Draft passage (~450 words; Ch 6 main-text register)
+
+> The framework prices what extraction severs from future generations. This is a strong claim, and it deserves a strong philosophical anchor — because critics will push on a particular question: how can extraction wrong people who do not yet exist?
+>
+> The most rigorous form of this objection is what Derek Parfit named the **non-identity problem**. Different policy choices today determine which specific future people come into existence at all. A world that extracts coal aggressively produces some particular set of future humans living particular lives; a world that extracts coal gently produces a different set of future humans living different lives. The aggressive-extraction children cannot be wronged by the policy that produced them, on a strict person-affecting account, because the alternative for them is non-existence rather than better-existence. This is not an abstruse philosophical puzzle; it is the deepest objection to any framework that prices future-generation costs.
+>
+> Parfit's response — and the response this framework adopts — is to operate at the level of **outcomes** rather than of specific persons. The moral question is not "did the extraction wrong any particular future person?" but rather "is the future-generation outcome worse than it would have been under different extraction policy?" If the answer is yes, the loss is real, and the accounting matters, regardless of whether the persons who bear the loss could have been the same persons under different policy. This is what philosophers call an *impersonal* moral framework — outcomes are evaluated by their goodness for whoever-the-future-people-turn-out-to-be, not by their goodness for specific identifiable individuals.
+>
+> The framework's Residual Commons Value calculation operates in exactly this register. RCV does not price what was taken from a particular named miner's grandchild. RCV prices what extraction severs from whatever future generations arise — the commons not available to be lived in, not available to be drawn from, not available to be passed forward. The Foreclosure Bond (B₂) is the framework's accounting instrument for that severance. CSD is the corresponding accounting for harm already realized. The two-instrument architecture inherits Parfit's distinction between impersonal-outcomes-evaluation (forward-looking RCV / B₂) and person-affecting-outcomes-evaluation (backward-looking CSD / B₁) — both are legitimate moral domains; the framework distinguishes them rather than collapsing them.
+>
+> This grounding does not solve the non-identity problem in its philosophical depth. Parfit himself did not solve it; the literature has not solved it; the framework does not pretend to. What the framework does is **operate within** an established moral-philosophy vocabulary for intergenerational status, rather than treating intergenerational obligation as something the reader is asked to accept on faith. The moral standing of future generations is, in Parfit's framework, a defensible philosophical commitment — and the framework's IPG of 33 (the McDowell-coal compression) is the empirical apparatus that prices what is owed under that commitment.
+
+### §6.5.2 Tech Appendix companion footnote (~150 words; Tech Appendix §F register)
+
+> The framework's intergenerational moral grounding follows Parfit (1984) Part IV. Specifically: the framework adopts the impersonal-outcomes evaluation framework (the goodness-of-future-states-for-whoever-arises-in-them) rather than person-affecting evaluation (the wronging-of-specific-future-individuals). The two-instrument architecture maps onto this distinction: B₁ Restitution Bond addresses already-realized person-affecting harm (CSD; the historical extraction-portfolio); B₂ Foreclosure Bond addresses prospective impersonal-outcomes loss (forward-looking RCV; the commons not available to whatever future generations arise). Parfit's non-identity problem is not solved by the framework but is operated-within: the framework's claim is that *the goodness of future-generation outcomes* is the morally-relevant variable, not *which specific future persons are wronged*. This positioning legitimates IPG as a moral accounting object rather than as a free-standing posit.
+
+### §6.5.3 Optional Ch 10 reflective companion (~120 words; closing-chapter register)
+
+If Ch 10 incorporates a brief reflective return to the philosophical grounding (per § 2 final-paragraph candidates' incorporation strategy), Parfit can appear at compressed register:
+
+> Parfit asked the question this book operates underneath: do we owe anything to people who do not yet exist? His answer was that we owe them *outcomes* — not specific persons (we cannot wrong the people whose existence depends on our choices, on a strict person-affecting view), but the goodness of whatever futures our choices make possible for them. This framework is the accounting apparatus for that owing. The grandfather at NASA Langley measured what airplanes actually do; this work measures what extraction actually leaves for whoever comes after. Both are instruments. Both make claims that have to survive contact with the world they are measuring. The instrument waits to be built.
+
+### §6.5.4 Integration notes for Phase B
+
+- **Recommended primary placement:** Ch 6 main-text passage (§6.5.1). Length ~450 words; integrates as a single unit between the B₁ + B₂ decomposition and the Four Gates / CIT specification.
+- **Tech Appendix footnote (§6.5.2):** lands in Tech Appendix §F (B₂ methodology) as a citation-density footnote making the Parfit lineage visible to academic reviewers.
+- **Optional Ch 10 reflective use (§6.5.3):** if § 2 of `research/commons_bonds_stands_the_test_of_time_drafts_v1.0.0.md` Candidate C with B-incorporation is selected, the §6.5.3 compressed Parfit reference can fold into the closing meditation. Alternatively, leave Ch 10 to the harbor / grandfather / instrument register without explicit Parfit invocation; the Ch 6 grounding does the load-bearing work.
+- **Cross-spectrum tone:** the Parfit engagement is methodologically careful (acknowledges the non-identity problem; doesn't claim to solve it; positions framework as operating-within rather than transcending). This protects against M11 cross-spectrum-attack vulnerabilities by demonstrating that the framework's intergenerational claim engages the strongest available philosophical challenge rather than ignoring it.
+- **Phase B-blocker dependency:** none. This passage can land independently of other Phase B work items.
+
+---
+
 ## §7. Integration notes for Chris during Phase B Ch 6 revision
 
 **Existing Ch 6 HTML draft (`Chapter__6_ThreeWaysofCounting__Draft.html`):**
