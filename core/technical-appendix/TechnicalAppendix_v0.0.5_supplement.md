@@ -256,6 +256,20 @@ Consider the candidate cost claim that platform attention-extraction (e.g., reco
 
 **Cross-references:** Open Insight #16 (CIT two-sub-forms refinement); Open Insight #20 (sensitivity-analysis execution — same level-of-specification discipline applies to σ + α + V_option calibration); Working Principle #2 (audit-concept-not-phrase — the level-of-claim discipline is itself a Principle #2 application: identical *phrases* about commons-extraction can route to different *concepts* depending on the aggregation level).
 
+#### §6.1.2 Domain distinction: extraction commons vs. coordination commons (added 2026-04-25)
+
+**Discipline:** CIT's domain is *extraction commons* — commons whose finite stock is consumed by non-shared-stakeholder extractors, with cost borne by stakeholders who do not capture extraction value. CIT is NOT designed for *coordination commons* — commons whose finite stock is shared among coordinating-stakeholder users, with cost borne under coordination breakdown. The two commons-classes are structurally distinct.
+
+**Operational filter (CCI sub-form):** a coordination commons fails CCI — if the resource were inexhaustible, the coordination structure would be unchanged (the cost is access-management, not consumption-of-finite-commons). An extraction commons passes CCI — if the resource were inexhaustible, extraction would price differently (the cost IS consumption-of-finite-commons by non-shared-stakeholders).
+
+**Methodology cross-reference:** Ostrom-tradition coordination-commons analysis (Ostrom 1990 *Governing the Commons*; Hess & Ostrom 2007 *Understanding Knowledge as a Commons*; the eight design principles literature) is the framework-adjacent apparatus for coordination commons. CIT + Three Ways + B = B₁ + B₂ are the framework apparatus for extraction commons. The two methodologies are non-competing; they address structurally distinct commons-classes.
+
+**Hybrid cases:** real-world cases that carry both elements (e.g., a pastoral commons whose forest is also externally extracted; an aquifer that is both irrigation-coordination-commons and oil-extraction-target) admit parallel analyses — each method addresses the component of the case its domain covers. The framework does NOT subsume Ostrom's apparatus; Ostrom does NOT subsume the framework. Both apply to their respective domains within a hybrid case.
+
+**Reporting discipline:** every CIT application should specify (per §6.1.1 level-of-claim discipline) whether the cost claim is named at extraction-commons level or coordination-commons level. A CIT-fail at the coordination-commons level is correct routing to Ostrom-tradition apparatus, not a framework limitation.
+
+**Source of refinement:** M11 Character 17 (Ostrom-successor scholar) probed this distinction during the 2026-04-24 academic-rigor full test. See `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_academic_rigor_full_test_v1.0.0.md` §4.3.
+
 ### §6.2 Four Gates admission apparatus
 
 Per the Four Gates cluster rigor pass, a commons-extraction-cost claim is admitted to the framework's CS accounting if and only if it passes all four gates:

@@ -193,6 +193,46 @@ If Ch 10 incorporates a brief reflective return to the philosophical grounding (
 
 ---
 
+## §6.9 Passage L — Ostrom-vs-extraction-context distinction (added 2026-04-25; closes M11 Char 17)
+
+**Placement:** Ch 6 methodology section, after the Commons Inversion Test is introduced and before the Four Gates apparatus. The passage functions as a structural-positioning paragraph that distinguishes the framework's domain (extraction-context commons) from Ostrom's domain (coordination-context commons), pre-empting the most-load-bearing M11 attack vector — the Ostrom-successor-scholar reading the framework as competing-with-Ostrom rather than extending-into-adjacent-territory.
+
+**Function:** Closes the most-load-bearing M11 Character 17 finding from the 2026-04-24 academic-rigor full test (commit `ae90800`). Char 17 surfaced that CIT's CCI sub-form ("would extraction price differently if the commons were inexhaustible?") *fails* on Ostrom-tradition coordination commons (where the cost is coordination failure, not consumption-of-finite-commons) and *passes* on extraction-context commons (where the cost IS consumption of finite commons by non-shared-stakeholders). The distinction is methodologically real and load-bearing for the framework's claim to extend rather than replace Ostrom-tradition commons-economics.
+
+### §6.9.1 Draft passage (~520 words; Ch 6 main-text register)
+
+> A reader from the Ostrom tradition will hold a particular question at arm's length when this framework is introduced. The question is whether the Commons Inversion Test, when it filters cost claims, is filtering *the same kind of commons* that Ostrom's *Governing the Commons* describes — and if so, whether the framework is competing with Ostrom-tradition commons-economics or extending it into adjacent territory. The honest answer requires distinguishing two structurally different commons-classes that have, until recently, been treated under one heading.
+>
+> The first class — call it the coordination commons — is what Ostrom's eight design principles address. A fishery shared by twenty boats. A grazing pasture shared by forty households. An irrigation system shared by a hundred farms. The commons is finite. Multiple users draw from it. The risk Ostrom names is that uncoordinated drawing produces collective ruin — Hardin's "tragedy" — and her contribution was to demonstrate, empirically across hundreds of cases, that communities of shared-stakeholders can self-govern these commons through specific institutional architectures. The cost the framework would have to price, if it were applied to a coordination commons, is the cost of coordination breakdown. That is not what this framework prices. Coordination breakdown is a cost the existing Ostrom-tradition apparatus already prices, and prices well, where the necessary institutional architecture is in place.
+>
+> The second class — call it the extraction commons — is what *this* framework addresses. The atmospheric carbon-stability that makes habitable climate. The Appalachian mountain habitat that exists or doesn't. The ancestral land whose dispossession is permanent. The cumulative collective-cognitive-bandwidth that platform attention extraction can deplete or not. Multiple users still draw from these commons. But the actors *capturing* value through extraction are not, in any meaningful sense, shared-stakeholders with the actors *bearing* cost. The mining company is not a member of the McDowell community. The platform is not a member of the user population whose attention it monetizes. The carbon emitter is not a member of the future generation whose habitable climate is being foreclosed. The asymmetry between value-capture and cost-bearing is structural, not contingent. The cost the framework prices is the severance enabled by that asymmetry.
+>
+> CIT's two sub-forms make the distinction operational. Commons-Absence Inversion asks whether the cost claim is commons-grounded at all. Commons-Consumption Inversion asks whether it is consumption-of-finite-commons that the cost is grounded in. A coordination commons fails the second test: if the fishery were inexhaustible, the coordination cost would be unchanged — communities would still need to govern access — and so the cost the cost claim names is not severance in this framework's specific sense. An extraction commons passes the second test: if the atmospheric carbon-stability were inexhaustible, extraction would price differently because the cost-bearing party's cost would not exist. The framework operates on extraction commons; Ostrom operates on coordination commons; the two domains are adjacent and the methodologies extend rather than compete with one another. Where a real-world case carries both elements — a forest that is both shared-stakeholder pastoral commons (Ostrom territory) and target of external timber extraction (this framework's territory) — the analyses run in parallel. CIT screens what this framework can address; Ostrom's eight design principles address what hers can. Each method does work the other can't.
+
+### §6.9.2 Tech Appendix supplement §6.1 companion (~250 words; methodology register)
+
+**Placement:** add as new §6.1.2 in the Tech Appendix supplement, immediately after §6.1.1 (Level-of-claim specification, added 2026-04-25). The two §6.1.* refinements together complete the CIT formal spec's M11-derived clarifications.
+
+> **§6.1.2 Domain distinction: extraction commons vs. coordination commons (added 2026-04-25; closes M11 Char 17).**
+>
+> CIT's domain is *extraction commons* — commons whose finite stock is consumed by non-shared-stakeholder extractors, with cost borne by stakeholders who do not capture extraction value. CIT is NOT designed for *coordination commons* — commons whose finite stock is shared among coordinating-stakeholder users, with cost borne under coordination breakdown. The two commons-classes are structurally distinct.
+>
+> The CCI sub-form is the operational filter. A coordination commons fails CCI: if the resource were inexhaustible, the coordination structure would be unchanged (the cost is access-management, not consumption-of-finite-commons). An extraction commons passes CCI: if the resource were inexhaustible, extraction would price differently (the cost IS consumption-of-finite-commons by non-shared-stakeholders).
+>
+> **Methodology cross-reference:** Ostrom-tradition coordination-commons analysis (Ostrom 1990 *Governing the Commons*; Hess & Ostrom 2007 *Understanding Knowledge as a Commons*; the eight design principles literature) is the framework-adjacent apparatus for coordination commons. CIT + Three Ways + B = B₁ + B₂ are the framework apparatus for extraction commons. The two methodologies are non-competing; they address structurally distinct commons-classes. Real-world cases that carry both elements (e.g., a pastoral commons whose forest is also externally extracted; an aquifer that is both irrigation-coordination-commons and oil-extraction-target) admit parallel analyses — each method addresses the component of the case its domain covers.
+>
+> **Reporting discipline:** every CIT application should specify (per §6.1.1 level-of-claim discipline) whether the cost claim is named at extraction-commons level or coordination-commons level. A CIT-fail at the coordination-commons level is correct routing to Ostrom-tradition apparatus, not a framework limitation.
+
+### §6.9.3 Integration notes for Phase B
+
+- **Recommended Ch 6 placement:** after the existing CIT-introduction passage (§1 Passage A in this supplementary drafts file), before the Four Gates apparatus introduction. The placement establishes domain before procedure.
+- **Recommended Tech Appendix supplement placement:** new §6.1.2, immediately following §6.1.1 (level-of-claim specification). Both §6.1.* refinements pair as the M11-derived CIT formal spec clarifications.
+- **Cross-spectrum-tone discipline:** the passage explicitly positions framework as extending-rather-than-competing-with-Ostrom. Honors Ostrom-tradition without subordinating the framework to it. Most-load-bearing protection against M11 Char 17 (Ostrom-successor scholar reading framework as competitor).
+- **Cross-references to land:** Ostrom 1990 *Governing the Commons* + Hess & Ostrom 2007 *Understanding Knowledge as a Commons* (both in bibliography §1); CIT examples worked file (`core/methodology/cit_examples_v1_0_0.md`) — note: Ostrom-tradition cases (irrigation; small-scale fisheries) could be added to the worked examples specifically to demonstrate CIT-fail-at-coordination-commons routing.
+- **Phase B-blocker dependency:** none. This passage can land independently of other Phase B work items.
+
+---
+
 ## §7. Integration notes for Chris during Phase B Ch 6 revision
 
 **Existing Ch 6 HTML draft (`Chapter__6_ThreeWaysofCounting__Draft.html`):**
