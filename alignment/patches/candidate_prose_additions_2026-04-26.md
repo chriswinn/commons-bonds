@@ -122,6 +122,20 @@
 
 ---
 
+### Candidate #7 — Deep-seabed mining as extraction-frontier case → Ch 9 (or reject)
+
+**Surfaced:** 2026-04-26 during Ch 7 holistic sweep audit. The Mars-thought-experiment chapter establishes that extraction frameworks must be tested at the limits where parameters are stark; deep-seabed polymetallic-nodule mining (Clarion-Clipperton Zone; ISA exploration contracts since 2014; The Metals Company / Nauru-sponsored 2-year-rule trigger 2021; ISA mining-code negotiations ongoing through 2024-2025) sits as a near-term real-world case that exercises the same structural features the Mars-water and Europa-ocean scenarios stress-test in fiction: high industrial-existential substitutability gap inputs (cobalt, nickel, manganese, rare earths for renewable-energy-transition technologies); externality tail that is genuinely hard to bound (deep-sea ecosystems whose recovery rates from disturbance are unknown on multi-decadal-to-multi-century timescales); cost-severance distance that is structural (extraction in international-waters areas legally outside any state's territorial accountability framework); and asymmetric-regret pressure (irreversibility of disturbance versus reversibility of waiting-and-studying). The case is also a live policy front, with the ISA mining-code decision pending and major mining states (China, Russia, Norway domestically) signaling interest in proceeding.
+
+**Cluster context:** if integrated, would pair with Candidate #5 (rare-earths-as-strategic-resource framing) as both engage the renewable-transition's critical-minerals-supply question; would pair with Ch 7's Europa-ocean treatment as both engage extraction-into-unbounded-externality-tail scenarios; would pair with Ch 9's reachable-horizon discussion of partial-implementations of accountability architecture (the ISA itself is a partial-implementation; whether it is the kind that survives the immune-response stress test is the framework-relevant question).
+
+**Best chapter rigor-test (preliminary):** Ch 9 — could fit as either: (a) reachable-horizon-cluster extension showing accountability-architecture-design challenges in the international-commons context; (b) industrial-existential-substitutability-gap applied case showing the framework's pricing logic on a near-term decision; (c) immune-response-applied case showing how ISA architecture either does or does not resist the simulated-reattachment adaptation. ALTERNATIVELY: REJECT if the case pulls Ch 9 toward Book 2 territory (specific industrial-policy prescription for ISA negotiations) rather than structural observation.
+
+**Status:** **pending dedicated rigor pass during Ch 9 holistic sweep.** Rigor pass will determine: Q1 (does it belong in Book 1?); Q1B (structural-observation framing — likely yes given parallels to existing structural-observation candidates #1-#3, but ISA-policy-prescription temptation needs specific guard); Q2 (Ch 9 reachable-horizon vs industrial-existential-substitutability-gap-applied vs immune-response-applied vs reject).
+
+**Cross-references:** Ch 7 Mars-water + Europa-ocean treatments (originating context — the structural-features parallel surfaced when Ch 7 audit walked through what limit-cases the framework needs to pressure-test); Ch 7 industrial-existential substitutability gap section (line 119; cobalt/nickel/rare-earths placement in the ranking is directly relevant); Candidate #5 (rare-earths-strategic-resource cluster companion); Ch 9 draft (proposed integration target); v1.0.3 §6.1 book-scope governance.
+
+---
+
 ## §2. Discipline notes
 
 ### §2.1 When to add a candidate to this tracker
