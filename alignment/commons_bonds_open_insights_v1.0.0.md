@@ -456,6 +456,21 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #21 — Tech Appendix v0.0.5 HTML full-rewrite (dedicated session)
+
+- **Raised:** 2026-04-26 by Chris Winn during Phase B authoring session
+- **Status:** raised · queued for dedicated session
+- **Category:** craft · publishing · Phase B authoring
+- **Content:** The Tech Appendix v0.0.5 HTML carries Google-Docs-export styling (now legacy artifact — Google Docs round-trip stopped 4-5 days before this session) plus the partial integration block from 2026-04-25 (commit `351817c`) that added supplement §2-§7 in inline-styled form before `</body></html>`. A full HTML rewrite is warranted to: (1) reformat in clean canonical authoring style rather than Google-Docs-export CSS; (2) reconcile the partial integration block with the rest of the doc structurally (move §2-§7 sections into the doc's natural section ordering rather than at-end appended-block); (3) execute the 15 FGC + 1 Universality Test passage rewrites flagged in supplement §1 (not string-substitutable); (4) reframe §K Decomposition Layer cluster for the retired 8-tier scheme; (5) integrate the Block 4 numerical results + Method 3 sensitivity findings + DAC three-horizon + IPG-table reconciliation as canonical sections rather than supplement-staged; (6) integrate the Phase B authoring passages from Ch 6 supplementary drafts (§6.5 Parfit; §6.6 CIT-vs-empirical falsifiability; §6.7 IPG-table reconciliation; §6.8 DAC three-horizon; §6.9 Ostrom-vs-extraction; §6.10 reparations-economics) where they have Tech Appendix companions.
+- **Why it matters:** the Tech Appendix is the framework's academic-rigor showpiece; for Berggruen-window submission readiness (2026-08-17), the doc should land in clean, methodologically-current, well-organized form rather than the current accreted-state form (v0.0.4 baseline + 2026-04-24 in-place sweep + 2026-04-25 partial integration block + supplement-staged Phase B drafts). Reader experience matters; academic reviewer experience especially matters.
+- **Why dedicated session:** the work is large enough (~6 substantive tasks; multi-cycle rigor) that batching it with other Phase B work fragments attention and risks the kind of partial-rewrite that creates new inconsistencies. A dedicated session can hold the whole Tech Appendix in working memory, walk through each task with full structural awareness, and produce a clean v0.0.6 (or v1.0.0 if the rewrite is substantial enough to warrant the version bump).
+- **Proposed resolution:** schedule a dedicated session for Tech Appendix v0.0.5 → v0.0.6 (or v1.0.0) full HTML rewrite. Pre-session prep: confirm whether to retain HTML-as-output-format or migrate to markdown-with-HTML-rendering pipeline (cleaner authoring; build-toolchain question for Chris). Session plan: walk each section in order; consolidate from supplement + integration block + Ch 6 supplementary drafts; reconcile IPG-table numerical anchors; produce clean canonical structure; commit per-section per push-cadence rule.
+- **Trigger condition for session start:** Chris signals readiness — likely after current Phase B Tier 1 + Tier 4 batch lands (currently in progress in 2026-04-25/26 session), and either before or after the personal-stories drafting cycle depending on Chris's priority sequence.
+- **Dependencies / Links:** v1.44.0 session handoff (Phase B item: Tech Appendix v0.0.5 HTML integration of supplement §2-§7); commit `351817c` (2026-04-25 partial integration block); supplement file (`core/technical-appendix/TechnicalAppendix_v0.0.5_supplement.md`); Block 4 validation work (`core/technical-appendix/block4_validation_2026-04-25.md`); Method 3 sensitivity analysis (`core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md`); empirical sourcing pass (`core/technical-appendix/empirical_sourcing_pass_2026-04-25.md`); Ch 6 supplementary drafts §6.5–§6.10 (Phase B authoring passages with Tech Appendix companions).
+- **Todo link:** "Schedule dedicated session for Tech Appendix v0.0.5 full HTML rewrite (Insight #21)."
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*
