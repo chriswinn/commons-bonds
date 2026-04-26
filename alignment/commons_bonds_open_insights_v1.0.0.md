@@ -118,13 +118,20 @@ New insights automatically get added to the todo list in both states: one entry 
 ### Insight #7 — Value Capture vs Value Extraction terminology decision
 
 - **Raised:** 2026-04-24 by Chris Winn (pointed out Value Capture OR Value Extraction as the causal event that produces Cost Severance)
-- **Status:** raised
+- **Status:** **closed-ratified 2026-04-24** (rigor passes complete + ratified) · **sweep executed 2026-04-26**
 - **Category:** vocabulary · framework-structure
-- **Content:** The framework currently uses "Value Capture" (16 proper-noun refs + 42+ concept refs in chapter drafts). Author flagged that "Value Extraction" is an alternative candidate for the same causal event. Since this is the event that produces Cost Severance — the extractor captures/extracts value, leaving the "bill" of severance on the community, ecosystem, future generations — the naming choice matters. "Value Extraction" pairs naturally with "extraction economy" vocabulary; "Value Capture" is broader (applies to non-extractive contexts like financial instruments).
-- **Why it matters:** This is the causal-event term in the framework's three-concept chain (Value Capture/Extraction → Cost Severance → Severed Cost). Naming it clearly matters for prose consistency and for the framework's causal-chain legibility. It's also Berggruen-essay-relevant vocabulary (likely to appear in the essay).
-- **Proposed resolution:** Run a focused rigor pass on Value Capture vs Value Extraction — full option-space (Capture, Extraction, both-interchangeable, different-term-entirely) tested against the ratified modules + §22.4 alignment. Promote the resolved term to Ring 2 of the tiered-ring architecture.
-- **Dependencies / Links:** Relates to Insight #3 (severance cluster internal consistency) — the causal-event term is part of the severance vocabulary cluster. May be absorbed into the severance cluster rigor pass or run standalone before it.
-- **Todo link:** "Review Open Insight #7: Value Capture vs Value Extraction naming."
+- **Content:** The framework originally used "Value Capture" (16 proper-noun refs + 42+ concept refs in chapter drafts). Author flagged that "Value Extraction" was an alternative candidate for the same causal event. Two rigor passes ran 2026-04-24:
+  1. `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md` — head-to-head + causal-chain-bridge testing across full option space (Capture / Extraction / both-interchangeable / Value Appropriation / Value Severance / Accumulation by Dispossession only)
+  2. `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_value_extraction_standalone_v1.0.0.md` — standalone rigor on Value Extraction with v1.1.0 addendum on Mazzucato 2018 prior-art finding + canonical citation form
+- **Resolution (2026-04-24, Chris Winn):**
+  - **Option B — Value Extraction as sole causal-event term — RATIFIED**
+  - **Value Capture RETIRED** as duplicative (per author's own admission that the two were interchangeable)
+  - **Value Extraction promoted to Ring 1**
+  - **Mazzucato 2018 citation discipline + Harvey 2003 lineage** ratified per v1.1.0 addendum; canonical citation form drafted
+- **Why it matters:** This is the causal-event term in the framework's three-concept chain (Value Extraction → Cost Severance → Severed Cost). Decisive test was the causal-chain-bridge: extraction IS the severance mechanism (separation-from-source semantics pairs with Cost Severance's severance-from-capturer semantics); capture would have required reader inference to bridge.
+- **Sweep execution (2026-04-26):** Phase A3 sweep completed in commit `90f9c3f`. Chapter drafts (Ch 2 / Ch 4 / Ch 5 GuidanceDoc / Ch 7 draft + GuidanceDoc / Ch 10) + `core/methodology/cit_examples_v1_0_0.md` swept. Mazzucato + Harvey lineage citation paragraph added at Ch 2 first-use of Value Extraction (AUTHOR ZONE annotation; pending author register-review). Tech Appendix dedicated Mazzucato lineage footnote / §G subsection deferred to Insight #21 dedicated session per recommended workflow. Provenance preserved in `core/terms/terms_index.md` + retired glossary v2.
+- **Dependencies / Links:** Relates to Insight #3 (severance cluster internal consistency) — the causal-event term resolution is now an INPUT to any cluster pass that runs, not an open question. Relates to Insight #21 (Tech Appendix dedicated session) for Mazzucato lineage footnote integration.
+- **Todo link:** N/A (closed; sweep executed).
 
 ### Insight #9 — Framework as decision-time severance-detection tool (not just ex-post analysis)
 
