@@ -263,12 +263,12 @@ All four gates pass M12. CIT carries the framework-specific specialization weigh
 
 ## §9. Author-ratified resolutions
 
-*Pending author ratification.* Recommended:
+**Ratified decision (2026-04-26, Chris Winn) — formal ratification carried forward via the focused Gate-2-rename rigor pass:**
 
-1. **Ratify Option A** (cohort confirmed; naming-asymmetry acknowledged as load-bearing).
-2. **Ratify "Units Consistency"** (T2 resolved).
-3. **Close Open Insight #2** (gate-naming inconsistency rationalized).
-4. **Phase A3 sweep targets:** Tech Appendix §L; Glossary v3; Ch 6 §Four Gates subsection. ~2-3 hours sweep work.
+1. **Option A RATIFIED** — cohort confirmed; naming-asymmetry acknowledged as load-bearing structural distinction (CIT is a methodological TEST; the other three are mathematical CONDITIONS).
+2. **"Units Consistency" RATIFIED** (T2 resolved).
+3. **Open Insight #2 CLOSED-RATIFIED 2026-04-26** — gate-naming inconsistency rationalized as load-bearing. Closure provenance: this pass + `commons_bonds_rigor_pass_2026-04-26_term_consistency_gate_rename_v1.0.0.md` together cover the option space exhaustively (cohort-level renaming + restructuring + single-gate rename to single-word property-noun + single-gate rename with units-meaning preservation + status quo).
+4. **No sweep needed.** This pass's verdict was operationally adopted across the framework before formal ratification (terms_index Four Gates record CURRENT; supplement §6.2 uses CIT + Units Consistency + Boundedness + Independence; glossary v3 reflects the cohort). The sweep was already done; only the formal ratification statement was outstanding, and is recorded here.
 
 ---
 
@@ -282,4 +282,4 @@ Rerun if:
 
 ---
 
-*End of Four Gates cluster rigor pass v1.0.0. Option A (cohort confirmed + Units Consistency ratified + naming-asymmetry acknowledged as load-bearing) recommended. Resolves T2 + closes Open Insight #2. Pending author ratification.*
+*End of Four Gates cluster rigor pass v1.0.0. Option A (cohort confirmed + Units Consistency ratified + naming-asymmetry acknowledged as load-bearing) ratified 2026-04-26 by Chris Winn (carried forward via the focused Gate-2-rename rigor pass `commons_bonds_rigor_pass_2026-04-26_term_consistency_gate_rename_v1.0.0.md`). Resolves T2 + closes Open Insight #2 definitively.*

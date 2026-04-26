@@ -455,23 +455,26 @@ If Option A is rejected on specificity grounds (which §17 and §18 confirm), an
 
 ## §20. Author-ratified resolutions
 
-*Pending. Chris reviews §1 verdict + §2.4 falsifiers + §13–§19 decisive modules, then ratifies or revises.*
-
 ### §20.1 Path choice
 
 **Options:**
 - (A) Rename Gate 2 to "Consistency" — REJECTED in this pass on specificity + M6 + M12 + §22.4 grounds.
-- (B) Retain "Units Consistency" — **RECOMMENDED.** Status quo per `four_gates_cluster_v1.0.0.md` ratification stands.
+- (B) Retain "Units Consistency" — **RECOMMENDED.**
 - (C) Rename Gate 2 to "Commensurability" — DEFENSIBLE alternative; not strongly preferred over B.
 - (D) Revisit four_gates_cluster verdict more broadly — out of scope for this pass.
 
-**Ratification target:** Option B retain (recommended).
+**Ratified decision (2026-04-26, Chris Winn): Option B — RETAIN "Units Consistency."** Status quo per `four_gates_cluster_v1.0.0.md` ratification stands. This pass's verdict (REJECT rename) preserves the original four_gates_cluster verdict (CONFIRM cohort + acknowledge naming asymmetry as load-bearing structural distinction). Author note: "this pass + four_gates_cluster together cover the option space exhaustively."
 
-### §20.2 Implications if ratified
+### §20.2 Implications
 
-- No sweep needed; current chapter-prose + Tech Appendix + glossary references intact.
-- Open Insight #2 status update: closes definitively (this pass + four_gates_cluster together cover the option space).
-- Pass file's §20 ratification section gets updated upon author response.
+- **No sweep needed** — current chapter-prose + Tech Appendix supplement + glossary v3 + cit_examples references to "Units Consistency" intact and unchanged.
+- **Open Insight #2 closed-ratified 2026-04-26.** Closure provenance: `four_gates_cluster_v1.0.0.md` (original cluster verdict) + this pass (Gate-2-rename-only sub-option exhaustively tested). Together they cover the option space:
+  - Cohort-level renaming for parallelism (`four_gates_cluster` Option B; tested both all-test-suffix and all-property-noun sub-options) — REJECTED
+  - Cohort-level restructuring (`four_gates_cluster` Options C + D) — REJECTED
+  - Single-gate rename to single-word property-noun (this pass's Option A) — REJECTED
+  - Single-gate rename with single-word units-meaning preservation (this pass's Option C — Commensurability) — DEFENSIBLE-but-not-preferred
+  - Status quo (cohort with naming asymmetry honoring CIT-as-test vs others-as-conditions) — RATIFIED across both passes
+- **Four_gates_cluster ratification carry-forward.** This ratification implicitly confirms the four_gates_cluster verdict (Option A — confirm cohort + ratify "Units Consistency" + acknowledge naming asymmetry); the four_gates_cluster pass's §9 Author-ratified-resolutions section can be updated to reflect formal ratification with cross-reference to this pass.
 
 ---
 
