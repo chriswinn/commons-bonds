@@ -646,6 +646,33 @@ Added 2026-04-24 per Three Ways + RCV Formal-Model rigor pass ratification (Chri
 - **Rigor provenance:** Three Ways + RCV Formal-Model rigor pass 2026-04-24 (commit `1c8e4dd`); ratified by Chris Winn 2026-04-24.
 - **Status:** ratified 2026-04-24.
 
+### Coates, Ta-Nehisi. "The Case for Reparations." *The Atlantic*, June 2014.
+
+- **Summary:** Long-form essay developing the case for reparations to Black Americans through specific historical mechanisms — redlining, contract-buying in postwar Chicago, GI Bill exclusions, the cumulative wealth gap that those policies produced and that subsequent policy has not addressed. Argument architecture: name the specific mechanism, name the specific harm, name the specific debt. Widely credited with returning reparations to mainstream American political discourse.
+- **Relevance:** **SUPPORT (argument-architecture lineage for B₁ Restitution Bond + CSD).** Coates establishes the structural-harm-to-specific-populations argument that Darity & Mullen 2020 develops methodologically. The framework's CSD instrument operates on the same argument architecture: name the specific mechanism (cost severance), name the specific harm (life-expectancy gap; community collapse; foreclosed-options), name the specific debt (CSD as backward-looking accounting). Coates's mechanism-by-mechanism approach is the rhetorical companion to Darity-Mullen's methodological approach.
+- **Relationship:** **SUPPORT (rhetorical / argument-architecture lineage; not methodology).** Coates establishes the argumentative form; Darity & Mullen carry the methodology.
+- **Chapter relevance:** Ch 5 (accountability gap — Restitution Bond + reparations-economics passages); Ch 10 (closing reflection — argument-architecture companion to grandfather-at-Langley discipline); referenced as candidate for engagement in Ch 5 reparations-economics main-text engagement passage (commit `99ba353`).
+- **Rigor provenance:** Promoted from §19 candidate list 2026-04-26 per author direction (Phase B Tier-A reparations-economics adjacent literature additions); load-bearing on M11 Char 19 (reparations economist) full closure.
+- **Status:** ratified 2026-04-26.
+
+### Hamilton, Darrick, William A. Darity Jr., Anne E. Price, Vishnu Sridharan, and Rebecca Tippett. *Umbrellas Don't Make It Rain: Why Studying and Working Hard Isn't Enough for Black Americans.* The New School + Insight Center for Community Economic Development + Duke Center for Social Equity, 2015.
+
+- **Summary:** Empirical wealth-gap study demonstrating that conventional explanations for the Black-white wealth gap (educational attainment, employment, family structure) cannot account for the magnitude of the gap. Even Black households achieving college-degree, full-employment, and married-couple status display median wealth substantially below white households at lower educational and employment status. The gap is structural, not behavioral; the umbrella metaphor names that — individual umbrellas don't make it rain on you, and individual achievement doesn't lift you out of structural disadvantage.
+- **Relevance:** **SUPPORT (empirical wealth-gap methodology for CSD).** Hamilton & Darity's empirical methodology — matched-comparison across achievement categories — is the empirical companion to Darity & Mullen's reparations-claim methodology. Framework's CSD measurement applies the same matched-comparison discipline to extraction-community-vs-non-extraction-community contexts (McDowell County life-expectancy gap; opioid-Appalachia mortality demography; Black Lung mortality disparities).
+- **Relationship:** **SUPPORT (empirical methodology + structural-explanation framing).**
+- **Chapter relevance:** Ch 5 (accountability gap — empirical companion to Darity-Mullen 2020); Tech Appendix CSD methodology footnote; Ch 6 main-text reparations-economics-engagement passage (per Ch 6 supplementary drafts §6.10).
+- **Rigor provenance:** Promoted from §19 candidate list 2026-04-26 per author direction (Phase B Tier-A reparations-economics adjacent literature additions).
+- **Status:** ratified 2026-04-26.
+
+### Conley, Dalton. *Being Black, Living in the Red: Race, Wealth, and Social Policy in America.* University of California Press, 1999. (Tenth-anniversary edition 2010.)
+
+- **Summary:** Foundational empirical study of racial wealth gap — first comprehensive academic treatment showing that wealth (not income) is the primary mechanism of intergenerational racial economic inequality in the United States. Demonstrates that across multiple economic indicators (educational attainment, criminal-justice outcomes, health outcomes), controlling for parental wealth eliminates or substantially reduces the apparent racial gap. Wealth — and the policy mechanisms that produced its racial distribution — is the structural variable, not race per se.
+- **Relevance:** **SUPPORT (foundational lineage for reparations-economics + CSD).** Conley established the wealth-as-structural-variable methodology that Darity, Mullen, Hamilton, and the broader reparations-economics literature develop. The framework's CSD instrument applies the same wealth-vs-income distinction to extraction-community contexts: extraction-community wealth (housing, businesses, accumulated capital, land tenure) is the structural variable, not income flow during the extraction era. McDowell County's collapse is a wealth-collapse phenomenon — the housing stock, the business base, the institutional capital — not an income-flow phenomenon during peak production. Conley's methodology grounds why CSD measures cumulative wealth-equivalent harm rather than peak-period income loss.
+- **Relationship:** **SUPPORT (methodological foundation).**
+- **Chapter relevance:** Ch 5 (accountability gap — extraction-community wealth-as-structural-variable framing); Tech Appendix CSD methodology footnote.
+- **Rigor provenance:** Added 2026-04-26 per author direction (Phase B Tier-A reparations-economics adjacent literature additions); foundational lineage for Darity & Mullen 2020 + Hamilton et al. 2015.
+- **Status:** ratified 2026-04-26.
+
 ---
 
 ## 18.6. Resource economics + sustainability accounting (additional Hotelling-extension lineage)
@@ -766,9 +793,7 @@ Added 2026-04-25. Moral-philosophy literature the framework engages for **IPG (I
 Placeholder for additions as they emerge. Candidate additions:
 
 - **Herman Daly + Joshua Farley.** *Ecological Economics: Principles and Applications.* Textbook for the ecological-economics framework Commons Bonds engages.
-- **Darrick Hamilton + William A. Darity Jr.** Racial wealth gap literature — needed for full integration of the racial-concentration signature across cases.
 - **Bob Herbert.** *Losing Our Way: An Intimate Portrait of a Troubled America.* Journalism complement to the structural framing.
-- **Ta-Nehisi Coates.** "The Case for Reparations" (*The Atlantic*, 2014). Argument architecture for structural-harm-to-specific-populations.
 - **Evan Osnos.** Reporting on the new American oligarchy — contemporary companion to political-capture analysis.
 - **Robert Reich.** Various books on the political economy of inequality.
 - **Joseph Stiglitz.** *The Price of Inequality* (2012). Nobel economist making the inequality-has-costs argument at accessible register.
