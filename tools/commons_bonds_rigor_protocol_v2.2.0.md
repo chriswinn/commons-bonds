@@ -301,6 +301,28 @@ Every module's procedure begins with a one-line application of each standing gat
 
 If any standing gate returns a blocking verdict, the module surfaces that at the top of its review memo and recommends resolution before submission.
 
+### §3.5 Pre-publication-state discipline for external-reception modules (per Working Principle #7)
+
+**Scope:** This discipline applies specifically to external-reception modules — **M6 (academic rigor / prior-art audit)**, **M11 (critic pressure)**, and **M12 (intellectual honesty / collision check)**. Per Working Principle #7 (`alignment/commons_bonds_working_principles_v1.0.0.md` §1, ratified 2026-04-26), these modules forward-simulate future reception against established academic priors. **They apply at full weight only to candidate-publication terms** — vocabulary the framework will ship with in published outputs (book; essays; papers).
+
+**Term-classification rule (applied at the top of any rigor pass that runs M6/M11/M12):**
+
+| Term type | M6/M11/M12 weight |
+|---|---|
+| **Candidate-publication term** — current ratified vocabulary that will appear in published outputs; or new candidate term being tested for adoption | **Full weight.** Module runs at standard depth. |
+| **Retired placeholder term** — vocabulary used and retired during pre-publication drafting; never reached external readers and never will | **Zero weight.** Module does not pressure-test the retired term against future reception. Term appears only for internal-coherence provenance (per Principle #4 retirements-preserve-history). |
+| **Post-publication retired term** — vocabulary that was published and later retired (none currently exist in the framework; all retirement to date is pre-publication) | Full weight on the *retirement-pathway* (post-publication retirements need to address external-reader migration); not the case currently in this framework. |
+
+**Module-procedure addition:** when an M6, M11, or M12 module begins evaluation of a term, it states the term-classification one-line at module top:
+
+> **Term classification (per Principle #7):** [candidate-publication / retired-placeholder / post-publication-retired]; [full-weight / zero-weight / pathway-weight].
+
+**Why this discipline matters:** the framework's success criterion (Goal-1 vocabulary adoption — vocabulary that travels) depends on *future reception of the published vocabulary*. M6/M11/M12 are forward-simulation modules; their value comes from forward-simulating that future reception. Retired-vocabulary forward-simulation is wasted effort — no future reader will encounter the retired term. The discipline focuses module attention where it does work.
+
+**Companion to Working Principle #1:** Principle #1 (effort-to-repair-not-a-rigor-argument) holds that internal repair effort doesn't count as rigor input. Principle #7 holds that retired-term external-reception worries don't count as rigor input either. Together: the rigor protocol filters out two classes of would-be-rigor-arguments that aren't actually rigor — internal cost (Principle #1) and retired-term simulation (Principle #7).
+
+**Worked example:** The supplemental Gate-2-naming M6 pass (`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-26_gate_2_naming_M6_supplement_v1.0.0.md`) operationalizes this discipline. Six candidates (Consistency / Units Consistency / Commensurability / Commensurate / Comparability / Homogeneity) are all candidate-publication terms — all get full M6/M11 depth. The retired predecessor "Dimensional Consistency" appears once for provenance and is zero-weighted in evaluation.
+
 ---
 
 ## §4. Claim classification (simplified from v1.3.0)
