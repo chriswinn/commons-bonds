@@ -223,27 +223,27 @@ Four chapter-placement options tested.
 
 ## §7. Author-ratified resolutions
 
-*Pending. Chris reviews §1 verdict + §3 Q1A book-scope + §4 Q1B framing + §5 Q2 chapter-placement, then ratifies or revises.*
-
 ### §7.1 Path choice
 
-**Q1A — does the addition belong in BOOK 1?**
-- (Yes — structural-observation framing) RECOMMENDED. Passes Book 1 rigor per v1.0.3 §6.1 + Open Insight #13 scope discipline.
-- (Yes — applied-advocacy framing) REJECTED. Falls within Book 2 scope.
-- (No — defer to Book 2) DEFENSIBLE if author prefers the applied-advocacy framing exclusively; rejects the structural-observation framing as Book 1 material.
-- (No — reject entirely) REJECTED. The structural-observation form has clear precedent in framework's existing material.
+**Ratified decision (2026-04-26, Chris Winn):**
 
-**Q1B — what framing?**
-- (Structural-observation paired with contingency-argument form) RECOMMENDED.
-- (Applied-advocacy with transition-mechanism prescription) REJECTED — Book 2 territory.
+- **Q1A = YES (Book 1)** — addition belongs in Book 1, framed as structural observation. Passes v1.0.3 §6.1 scope discipline + Open Insight #13.
+- **Q1B = structural-observation paired with contingency-argument form** ratified — names architectural choice + traces contingent history (1935 Social Security Act + 1939 amendments + 1950s expansions + 1960s-70s benefit expansions + 1983 Greenspan reforms); honors Insight #14 epistemic-humility.
+- **Q2 = Ch 4 primary placement RATIFIED** + Ch 5 secondary cross-reference RATIFIED + Ch 9 secondary cross-reference RATIFIED + Ch 10 tertiary one-line reflective echo RATIFIED. Full four-placement integration approved.
 
-**Q2 — which Book 1 chapter is the best home?**
-- (A) Ch 4 — RECOMMENDED PRIMARY PLACEMENT.
-- (B) Ch 5 — DEFENSIBLE secondary; light cross-reference appropriate.
-- (C) Ch 9 — DEFENSIBLE secondary; light cross-reference appropriate.
-- (D) Ch 10 — ECHO ONLY.
+### §7.2 Implementation cluster
 
-**Ratification target:** Q1A = yes (structural-observation framing); Q1B = structural-observation paired with contingency argument; Q2 = A (Ch 4 primary) + optional B / C / D as cross-references.
+Per the ratified decision, integration proceeds as follows:
+
+- **Ch 4 primary placement** — ~600-800 words during Ch 4 holistic review (Phase B chapter-revision per Insight #15 standing thread). Pairs with Open Insight #14 epistemic-humility application.
+- **Ch 5 secondary cross-reference** — ~100-150 words during Ch 5 holistic review remainder this session (this commit cluster).
+- **Ch 9 secondary cross-reference** — ~100-150 words during Ch 9 register-review later this session.
+- **Ch 10 tertiary reflective echo** — one-line during Ch 10 register-review later this session.
+- **No new bibliography additions** — all sources already in framework bibliography (§18.6 Hartwick + Solow; §1 Ostrom; §17 Pigou; existing Norway case-file source).
+
+### §7.3 Tracker doc closure
+
+`alignment/patches/candidate_prose_additions_2026-04-26.md` Candidate #2 status updated to closed-ratified-pending-integration; integration commits referenced as they land during this session's chapter-by-chapter sweep.
 
 ### §7.2 Implications if ratified
 
