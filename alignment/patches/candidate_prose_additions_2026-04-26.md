@@ -84,6 +84,44 @@
 
 ---
 
+### Candidate #4 — Climate carbon-tail of Macondo well lifetime production (Deepwater) → Ch 8
+
+**Surfaced:** 2026-04-26 during Ch 5 holistic sweep, Deepwater Horizon section. The Macondo well's lifetime production was projected at 40-60 million barrels, which when combusted produces approximately 17-26 million tons of CO₂. At a $190/ton SCC anchor (Rennert et al. 2022), that's a $3.2-4.9 billion carbon-tail externality alongside the $150B documented Deepwater costs already in Ch 5. The carbon-tail framing pairs naturally with Ch 8's eight-tier walkthrough of one ton of Appalachian coal where the carbon-cost-per-ton ($550-570/ton from 2.86t CO₂ × $190 SCC) is already the chapter's headline finding.
+
+**Best chapter rigor-test (preliminary):** Ch 8 — paired with the existing carbon-cost-per-ton walkthrough. Could surface as either (a) light cross-reference within Ch 8's coal walkthrough showing the same carbon-cost methodology applied to oil; (b) parallel oil-extraction worked-example alongside the coal walkthrough. Length: ~150-300 words depending on framing.
+
+**Status:** **pending dedicated rigor pass during Ch 8 holistic sweep.** Rigor pass will determine: Q1 (does the addition belong in the book?); Q2 (Ch 8 cross-reference vs parallel-worked-example vs reject).
+
+**Cross-references:** Ch 5 Deepwater section (originating context); Ch 8 draft (proposed integration target); bibliography §17 (Pigou; Nordhaus DICE; Stern Review — already in framework bibliography for carbon-cost lineage).
+
+---
+
+### Candidate #5 — Rare-earths-as-strategic-resource framing → Ch 9 (or reject)
+
+**Surfaced:** 2026-04-26 during Ch 5 holistic sweep, Baotou section. Rare-earths supply-chain dependency on Baotou has produced policy-architecture responses — US Mountain Pass mine reopening (2018); EU Critical Raw Materials Act (2023); Japan-Australia rare-earth alternative-sourcing investment (post-2010 Senkaku rare-earth-export-restriction crisis); various efforts to develop alternative supply chains as strategic-resilience policy. The rare-earths-as-strategic-resource framing connects to Ch 9's reachable-horizon cluster (existing partial-implementations of alternative architectures) but at narrow domain (one specific resource).
+
+**Best chapter rigor-test (preliminary):** Ch 9 — could fit reachable-horizon cluster as additional case OR as light cross-reference within Baotou-cited prose. ALTERNATIVELY: REJECT as too narrow / too specialist for Book 1 scope. The strategic-resource framing engages industrial-policy depth that may pull Ch 9 toward Book 2 territory (specific industrial-policy prescription).
+
+**Status:** **pending dedicated rigor pass during Ch 9 holistic sweep.** Rigor pass will determine: Q1 (does it belong in Book 1?); Q1B (structural-observation framing or risk Book 2 boundary?); Q2 (Ch 9 reachable-horizon cluster extension vs light cross-reference vs reject).
+
+**Cross-references:** Ch 5 Baotou section (originating context); Ch 9 draft (proposed integration target); v1.0.3 §6.1 book-scope governance.
+
+---
+
+### Candidate #6 — US-uniqueness international healthcare-comparison → Ch 9 (or inline within Ch 5)
+
+**Surfaced:** 2026-04-26 during Ch 5 holistic sweep, Healthcare Commons section. The H.3 closing-implications paragraph already lightly references this ("Among the wealthy nations, the United States is the only one whose healthcare-financing architecture produces the GoFundMe-as-default pattern at this scale; the cross-national comparison Chapter 9 develops at fuller depth will return to this finding"). The fuller cross-country comparison (US vs Sweden + Denmark + Norway + Germany + UK + Canada + Australia) demonstrates the architectural-choice variation in healthcare-financing analogous to Candidate #2's Norway-Social-Security comparison and Candidate #3's Sweden 1930s comparison.
+
+**Best chapter rigor-test (preliminary):** Ch 9 primary — pairs naturally with the existing tax-tradeoff-US-Sweden integration (commit `56ab66f`) and with Candidates #1, #2, #3 contingency-cluster. Could be either: (a) extension of tax-tradeoff section explicitly engaging healthcare-financing architectural variation; (b) standalone healthcare-architectural-comparison cross-country case. Length: ~300-500 words depending on framing.
+
+**Status:** **pending dedicated rigor pass during Ch 9 holistic sweep.** Rigor pass will determine: Q1 (does the addition belong in Book 1?); Q1B (structural-observation framing — yes, given the existing tax-tradeoff treatment is already structural-observation); Q2 (Ch 9 primary vs cross-reference within healthcare section vs both).
+
+**Cluster context:** forms a fourth member alongside Candidates #1 (2008 scope-choice), #2 (Norway-Social-Security), #3 (Sweden 1930s) of the contingency-argument candidate cluster. All four are cross-country / cross-architecture / cross-century comparisons demonstrating contingency in policy-architecture-design-choices. Together they triangulate the framework's contingency claim across multiple domains: financial-crisis-response (#1, #3); retirement-security architecture (#2); healthcare-financing architecture (#6).
+
+**Cross-references:** Ch 5 Healthcare Commons H.3 closing paragraph (originating context); Ch 9 tax-tradeoff section (commit `56ab66f`); Candidates #1, #2, #3 (cluster companions); bibliography §11 Tax Foundation 2024 (already in framework bibliography); v1.0.3 §6.1 book-scope governance.
+
+---
+
 ## §2. Discipline notes
 
 ### §2.1 When to add a candidate to this tracker

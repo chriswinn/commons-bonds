@@ -213,6 +213,15 @@
 - **Relationship:** **SUPPORT.**
 - **Chapter relevance:** Ch 5; `healthcare-end-of-life.md`.
 
+### Gawande, Atul. *Being Mortal: Medicine and What Matters in the End.* Metropolitan Books, 2014.
+
+- **Summary:** Surgeon-author examination of how American medicine handles aging, dying, and end-of-life decision-making. Documents the systemic pattern by which the U.S. healthcare-financing architecture over-treats dying patients (reimbursement incentivizes intervention at every decision point) while substantially under-funding palliative-care infrastructure (palliative-care reimbursement is a fraction of intervention reimbursement; medical-school curricula carry minimal palliative-care training). Develops the structural reading that individual physicians and patients are operating within an architecture whose incentive structure produces the over-intervention pattern regardless of any individual moral choice at the bedside.
+- **Relevance:** **SUPPORT (systemic-extension grounding for Butler-pacemaker case).** Per Ch 5 holistic sweep 2026-04-26: Gawande extends Butler's case from individual archetype to systemic pattern. The framework's healthcare cost-severance reading specifies that the architecture's reimbursement structure produces the pattern by aggregating individual rational responses to design-choice incentives. End-of-life care is the most emotionally legible illustration; the same architecture operates in maternal-care, mental-health-care, and chronic-disease-management reimbursement.
+- **Relationship:** **SUPPORT (systemic structural reading).**
+- **Chapter relevance:** Ch 5 (Healthcare Commons section); cross-reference candidate for Ch 9 (international comparison; US uniqueness in producing GoFundMe-as-default-safety-net pattern).
+- **Rigor provenance:** Added 2026-04-26 per Ch 5 holistic sweep ratification (candidate H.2 systemic-extension of Butler case).
+- **Status:** ratified 2026-04-26.
+
 ### Berliner, Lauren S., and Nora J. Kenworthy. "Producing a Worthy Illness: Personal Crowdfunding Amidst Financial Crisis." *Social Science & Medicine* 187 (2017): 233–42.
 
 - **Summary:** Analysis of medical crowdfunding as a phenomenon — who gets funded, who doesn't, and the structural implications.
