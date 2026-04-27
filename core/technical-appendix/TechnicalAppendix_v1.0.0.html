@@ -172,7 +172,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     <strong>
      Scope progress (Open Insight #21 Path B):
     </strong>
-    Scope 1 (format conversion) &checkmark; &middot; Scope 2 (TOC restructure + partial-integ reconciliation) &checkmark; &middot; Scope 3 (FGC + Universality Test passage rewrites) pending &middot; Scope 4 (&sect;C.4 8-tier excise + tier-coupled &sect;K excise) pending &middot; Scope 5 (Block 4 + Method 3 + DAC + IPG-table integration) pending &middot; Scope 6 (Phase B Ch 6 supplementary integration) pending &middot; Scope 7 (Ch 6 HTML rewrite) pending. Subsequent commits address each remaining scope individually.
+    Scope 1 (format conversion) &checkmark; &middot; Scope 2 (TOC restructure + partial-integ reconciliation + CIT worked examples embedded) &checkmark; &middot; Scope 3 (retired-vocabulary passage rewrites) &checkmark; &middot; Scope 4 (&sect;C.4 8-tier excise + &sect;K verified clean) &checkmark; &middot; Scope 5 (Block 4 + Method 3 + DAC + IPG-table integration) pending &middot; Scope 6 (Phase B Ch 6 supplementary integration) pending &middot; Scope 7 (Ch 6 HTML rewrite) pending. Subsequent commits address each remaining scope individually.
    </p>
    <p>
     <strong>
@@ -1263,11 +1263,11 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Sources:
      </strong>
-     old &sect;C "Commons Inversion Test Protocol" (C.1&ndash;C.3) merged with partial integration &sect;6 (CIT formal spec including &sect;6.1.1 Level-of-claim specification + &sect;6.2 Four Gates admission apparatus + &sect;6.3 Worked-examples cross-reference). The &sect;6.1.2 Domain distinction (extraction-vs-coordination commons) from supplement is integrated below. &sect;C.4 (8-tier FGC Decomposition) preserved here pending Scope 4 excision per Open Insight #21 + tier-reframing rigor pass &sect;11.2. Worked examples are cross-referenced (not duplicated) to
+     old &sect;C "Commons Inversion Test Protocol" (C.1&ndash;C.3; C.4 excised in Scope 4 per Open Insight #21 Q3 = (a) excise entirely + tier-reframing rigor pass &sect;11.2 &mdash; 8-tier dissolution ratified 2026-04-24) merged with partial integration &sect;6 (CIT formal spec including &sect;6.1.1 Level-of-claim specification + &sect;6.2 Four Gates admission apparatus). The &sect;6.1.2 Domain distinction (extraction-vs-coordination commons) is integrated below from supplement &sect;6.1.2. Worked examples are duplicated in &sect;6.3 (per Q5 reconsidered) from
      <code>
       core/methodology/cit_examples_v1_0_0.md
      </code>
-     per Working Principle #4. Backed by CIT rename rigor pass (commit
+     . Backed by CIT rename rigor pass (commit
      <code>
       b294c79
      </code>
@@ -1279,7 +1279,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <code>
       e30087e
      </code>
-     ). See
+     ) + tier-reframing rigor pass (commit per tier_reframing_v1.0.0). See
      <code>
       core/terms/terms_index.md
      </code>
@@ -1450,84 +1450,6 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       </td>
      </tr>
     </table>
-    <h3>
-     C.4 The Eight-Tier Full Generational Cost (FGC) Decomposition &mdash; Canonical v10
-    </h3>
-    <p>
-     The Commons Inversion Test, applied systematically, reveals nine cost categories (eight tiers, one with a sub-tier) that standard accounting misses. These constitute the Full Generational Cost (FGC). Each tier maps to the commons category whose stripping makes it visible &mdash; this mapping is what makes the tier system falsifiable. Per Decision A ratified April 19, 2026.
-    </p>
-    <p>
-     FGC Tier 1: Lifetime Survival Cost
-    </p>
-    <p>
-     Abundance dimension: Habitability + Ecosystem &nbsp;|&nbsp; Currently priced: Partially (acute threats only). The cost of sustaining life itself &mdash; oxygen, water, food &mdash; where extraction directly threatens these conditions across a lifetime of exposure. Distinct from acute emergency injury: Lifetime Survival Cost captures long-duration attrition of basic life-support conditions. Most visible at the Mars limit, where atmospheric and ecological abundance are simultaneously absent. Present in Appalachia via multi-decade groundwater contamination and in Baotou via chronic air quality emergencies. Belongs to E(R, t).
-    </p>
-    <p>
-     FGC Tier 2a: Actuarial Risk Cost
-    </p>
-    <p>
-     Abundance dimension: Institutional &nbsp;|&nbsp; Currently priced: Partially (acute injury only). The statistically expected cost of occupational and environmental health risk borne by workers and affected populations across the full extraction lifecycle &mdash; chronic disease burden, reduced lifespan, long-latency illness. Black lung in McDowell County; mesothelioma in Libby; elevated cancer rates in Baotou. The &ldquo;actuarial&rdquo; framing names the key feature: these costs manifest as population-level probability distributions, not individual certainties, but constitute quantifiable costs that insurance and public health systems must absorb without reimbursement from extractors. Revealed by stripping institutional abundance &mdash; without enforcement infrastructure, the population distribution falls entirely on the public balance sheet. Markets price acute injury partially; long-latency actuarial risk is structurally excluded from extraction contracts. Belongs to E(R, t). Previously labeled &ldquo;Individual Risk Cost&rdquo; &mdash; renamed per Decision A (April 19, 2026). The actuarial framing is more precise: the tier is priced as a population distribution, consistent with how insurance, regulatory, and public health systems actually measure these costs.
-    </p>
-    <p>
-     FGC Tier 2b: Mission Failure Reserve (sub-tier of Tier 2a)
-    </p>
-    <p>
-     Abundance dimension: Spatial + Temporal &nbsp;|&nbsp; Currently priced: Rarely. The cost of an extraction operation failing to deliver its projected economic value to workers and communities who planned around it &mdash; premature closures, production shortfalls below promised capacity, bankruptcies that discharge pension and cleanup obligations while leaving communities stranded. Distinct from Actuarial Risk Cost (health and physical harm) and from Community Transition Reserve (planned transition cost): Mission Failure Reserve prices the broken promise and its cascading economic consequences. Structurally absent from most extraction contracts &mdash; the failure mode is foreseeable and the reserve is almost never required.
-    </p>
-    <p>
-     FGC Tier 3: Dynastic Labor Cost
-    </p>
-    <p>
-     Abundance dimension: Temporal &nbsp;|&nbsp; Currently priced: Never. The cost imposed on a worker&rsquo;s lineage when their productive capacity is extracted below Full Generational Cost. Capital compounds across generations; labor is asked not to. The &ldquo;dynastic&rdquo; framing refuses this asymmetry: 120-hour work weeks extract not just the worker&rsquo;s time but their children&rsquo;s future, their family&rsquo;s stability, the compounding value that sustained, bounded work might have created. Revealed by stripping temporal abundance &mdash; intergenerational effects become visible only from a multi-generational timescale. The Social Security $108 trillion figure is Dynastic Labor Cost quantified across 88 years of American workers. Never priced in extraction contracts.
-    </p>
-    <p>
-     FGC Tier 4: Foreclosure Cost
-    </p>
-    <p>
-     Abundance dimension: Temporal &nbsp;|&nbsp; Currently priced: In RCV only &mdash; never in markets. The permanent loss of resource access to all future generations, weighted by substitutability probability. This is the core RCV term: [1 &minus; S(t)] &middot; U(R, t, Q(t)), integrated to infinity. Markets price Tier 1 and partially Tier 2a; they structurally cannot price Tier 4 because future generations cannot bid in present markets. Foreclosure Cost is zero if perfect substitutes are achievable (S_max = 1); it approaches its maximum when the resource is irreplaceable (S_max &rarr; 0). Appalachian coal extracted in 80 years permanently foreclosed all 22nd- and 23rd-century optionality.
-    </p>
-    <p>
-     FGC Tier 5: Community Transition Reserve
-    </p>
-    <p>
-     Abundance dimension: Spatial + Kindred &nbsp;|&nbsp; Currently priced: Never (decommissioning &ne; transition). The cost of financing the complete economic transition of any community whose existence became structurally dependent on an extraction operation. Revealed by stripping geographic and demographic abundance: the community&rsquo;s immobility and concentrated dependence become visible when abundance is removed. Distinct from decommissioning funds (physical site cleanup only) and severance packages (individual workers only). The Community Transition Reserve funds the town &mdash; its institutions, its economic diversification, its population&rsquo;s ability to remain and rebuild. McDowell County&rsquo;s population fell from 100,000 to 18,000 in the absence of any such reserve. The most policy-actionable tier: can be added to extraction contracts without requiring the rest of the framework to be accepted first.
-    </p>
-    <p>
-     FGC Tier 6: Ecological Carrying Cost
-    </p>
-    <p>
-     Abundance dimension: Ecosystem &nbsp;|&nbsp; Currently priced: Partially (short regulatory timelines only). The ongoing cost of ecosystem service degradation &mdash; lost pollination, disrupted hydrology, soil loss, aquatic food chain collapse &mdash; priced across the full ecological recovery timeline. Distinct from Foreclosure Cost (the absent resource) and post-extraction site cleanup: the Ecological Carrying Cost prices the continuing loss of living ecosystem services during recovery periods that can span generations. The Chesapeake Bay&rsquo;s oyster population, once filtering the entire Bay in three days, now filters it in a year &mdash; a permanent reduction in ecological carrying capacity affecting every downstream use. Belongs to E(R, t) with a particularly long tail. Partially priced under short regulatory timelines; structurally underpriced for multi-generational recovery periods.
-    </p>
-    <p>
-     FGC Tier 7: Knowledge and Culture Cost
-    </p>
-    <p>
-     Abundance dimension: Kindred &nbsp;|&nbsp; Currently priced: Never. The cost of accumulated community knowledge, skill, and cultural continuity lost when an extraction-dependent community disperses below the threshold needed to maintain collective expertise. Revealed by stripping demographic abundance: cultural transmission requires a minimum viable community size; below that threshold, knowledge systems collapse non-linearly. Three generations of technical mining knowledge, traditional ecological knowledge, and social capital accumulated over a century in McDowell County were destroyed when population fell from 100,000 to 18,000. The loss is irreversible in the same way language death is irreversible: once dispersed below critical threshold, the knowledge does not reconstitute itself when conditions improve. Never priced in extraction contracts.
-    </p>
-    <p>
-     FGC Tier 8: Political Capture Cost
-    </p>
-    <p>
-     Abundance dimension: Political &nbsp;|&nbsp; Currently priced: Never. The cost imposed on democratic and institutional systems by extraction industries using a fraction of their captured value to suppress honest pricing of their own costs &mdash; lobbying expenditures, regulatory capture, suppression of safety research, narrative capture through funded media, and broader institutional corrosion. Both a consequence of cost severance and a cause of its persistence. W.R. Grace concealed Libby asbestos contamination for 27 years; coal interests have spent billions suppressing the social cost of carbon. These costs are borne diffusely by the public and are not recoverable through standard liability. Explains why all other tiers have remained underpriced at scale: the mechanism is self-reinforcing. Never priced in extraction contracts.
-    </p>
-    <p>
-     Note: The Eight-Tier FGC (v10) is an individual-resource decomposition using the Commons Inversion Test as its generative methodology. A separate eight-tier &ldquo;full-cost accounting ledger&rdquo; for extraction events appears in Chapter 8. These are parallel frameworks at different scales &mdash; individual resource vs. extraction event &mdash; and should be distinguished in the text. See Ripple Effects 2.0, Section II.2. | Canonical v10 tier names per Decision A, April 19, 2026. Tier 2a renamed from &ldquo;Individual Risk Cost&rdquo; to &ldquo;Actuarial Risk Cost.&rdquo; Tier 2b (Mission Failure Reserve) formalized. Political commons category added as Tier 8 commons category and incorporated into A.8, C.2, and C.3.
-    </p>
-    <div class="status-block">
-     <p>
-      <strong>
-       [AWAITING SCOPE 4 EXCISION]
-      </strong>
-      The &sect;C.4 Eight-Tier FGC Decomposition subsection above is preserved verbatim pending excision in Scope 4 per author ratification of Open Insight #21 Q3 = (a) excise entirely. Tier-reframing rigor pass (commit per tier-reframing v1.0.0 &sect;11.2) ratified 8-tier dissolution; variables Cᵢ (defined under Four Gates &sect;7) are the framework's atomic unit of measurement. See core/terms/terms_index.md tier dissolution record + cit_examples_v1_0_0.md for current variable-level worked examples.
-     </p>
-    </div>
-    <p>
-     Source rigor passes: CIT rename (commit b294c79); Four Gates cluster (commit d188e6f). Worked examples:
-     <code>
-      core/methodology/cit_examples_v1_0_0.md
-     </code>
-     (commit 9ab3dc2).
-    </p>
     <h3>
      &sect;6.1 Two sub-forms
     </h3>
