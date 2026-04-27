@@ -14,7 +14,7 @@ Before writing, a few notes on what I applied from the consolidated project stat
 
 By Chris Winn
 
-## Chapter 9: The Renewable Imperative
+## Chapter 9: Pricing Honestly
 
 Chapter 8 put a number on the invoice.
 
@@ -78,7 +78,7 @@ Every dollar of renewable research does three things at once. It raises the subs
 
 The second investment priority is alternative supply sources — what gets called, in compressed form, space access. This is the piece of the framework that often sounds science-fictional and isn't. The argument is purely one of comparative residual commons value. An asteroid has no communities bearing spatial cost severance. It has no ecosystems whose collapse cascades through a biosphere. Its externality tail is measured against an empty rock in an empty orbit. The industrial-existential substitutability gap of a lifeless body is, by construction, very low. A kilogram of nickel lifted from 16 Psyche and returned to Earth orbit will eventually, as launch costs continue to decline, compete on total cost with a kilogram of nickel mined from a terrestrial deposit whose full residual commons value has been priced honestly. The model says nothing about when that crossover happens. It says only that the eventual destination of industrial extraction, for the most abundant materials we use, is off this planet. Investing in the capabilities that reach that destination sooner is investing in a future where Earth's deposits do not need to be extracted at all.
 
-This is the "renewable imperative" stated plainly. The model does not say never extract. It says extract from the lowest-RCV source first. For most industrial materials, over the next century, the lowest-RCV source will be renewable substitution. For a narrower set of materials — the ones we cannot substitute and cannot recycle indefinitely — the lowest-RCV source will eventually be extraterrestrial. Neither conclusion was arrived at by politics. Both fall out of the arithmetic once extraction is priced honestly.
+This is what pricing honestly demands, stated plainly. The model does not say never extract. It says extract from the lowest-RCV source first. For most industrial materials, over the next century, the lowest-RCV source will be renewable substitution. For a narrower set of materials — the ones we cannot substitute and cannot recycle indefinitely — the lowest-RCV source will eventually be extraterrestrial. Neither conclusion was arrived at by politics. Both fall out of the arithmetic once extraction is priced honestly.
 
 ---
 
