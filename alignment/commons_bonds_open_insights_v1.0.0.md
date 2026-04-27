@@ -511,6 +511,20 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #22 — Chapter titles fall within chapter-by-chapter prose-sweep scope
+
+- **Raised:** 2026-04-27 by Chris Winn during Ch 9 holistic review
+- **Status:** raised · pending memory-rule clarification + verification sweep across remaining chapter titles
+- **Category:** sweep-discipline · craft · framework consistency
+- **Content:** During Ch 9 holistic review, the author surfaced the diagnosis that the original chapter title "The Renewable Imperative" was likely a carry-over from before the Book 1 / Book 2 split (per `tools/commons_bonds_book_scope_v1_0_3.md` v1.0.3 §6.1). The chapter's substantive content had been disciplined into Book 1 scope through prior sweeps (explicit "framework, not blueprint" framing; "framework's role here is structural observation, not advocacy" framing in tax-tradeoff section; "this is not a legislative blueprint. It is a framework" closing). But the title itself had not been swept for Book-1/Book-2-split-carry-over. The full-depth Round 1+2+3 chapter-title rigor pass (`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-27_ch9_title_candidates_v1.0.0.md`) confirmed the diagnosis was rigor-grounded — the original title failed simultaneously on M3.4 + M6 + M8 + M9 + M10 + M11 + §22.4 modules. Author ratified replacement title "Pricing Honestly" 2026-04-27.
+- **Why it matters:** the chapter-by-chapter prose-sweep discipline memory rule (per `feedback_always_expand_rule.md`) names "every prose element in every chapter (not just newly-drafted AUTHOR ZONE passages)" as in-scope, with three rigor questions. **Chapter titles are prose elements.** They should fall in the same sweep that catches terminology regressions, vocabulary mismatches, applied-advocacy-vs-framework-establishment register drift, and Book-1/Book-2-split carry-overs. Without explicit memorialization, future sweeps may miss title-level concerns the way the Ch 9 sweep nearly missed "Renewable Imperative." The Ch 7 title swap from "The Colony Administrator" to "On Other Worlds" was caught under separate vocabulary-sweep discipline; the Ch 9 title swap was caught only because the author flagged the political-charge concern. The discipline gap is real and worth closing.
+- **What would resolve this:** memory-rule clarification adding chapter titles to the chapter-by-chapter sweep scope, OR formal capture as Working Principle, OR addition to the protocol document. The clarification should specify: (a) chapter titles are prose elements; (b) sweeps should check title for Book-1/Book-2-split carry-over, applied-advocacy register drift, and vocabulary regressions; (c) title rigor passes follow the same protocol as Ch 7 and Ch 9 title rigor passes (full 14-module evaluation when carry-over or register concern surfaces).
+- **Verification sweep recommended:** the remaining Book 1 chapters with titles already in the set (Ch 2 "The Miner"; Ch 4 "The Existence Proof"; Ch 5 "The Accountability Gap"; Ch 6 "Three Ways of Counting"; Ch 8 "What Things Actually Cost"; Ch 10 "Common Bonds") have already passed informal sweep per the Ch 9 set-rigor analysis (none carry obvious carry-over concerns). Ch 1 + Ch 3 are not yet drafted; their titles should be rigor-tested when they land. The set-level rigor analysis (Ch 9 title rigor pass §10) may be worth memorializing as a once-per-major-revision check.
+- **Dependencies / Links:** `feedback_always_expand_rule.md` (memory rule on chapter-by-chapter sweep discipline); Ch 7 title rigor pass (`commons_bonds_rigor_pass_2026-04-26_ch7_title_candidates_v1.0.0.md`); Ch 9 title rigor pass (`commons_bonds_rigor_pass_2026-04-27_ch9_title_candidates_v1.0.0.md`); v1.0.3 §6.1 book-scope governance; `tools/commons_bonds_rigor_protocol_v2.2.0.md`.
+- **Todo link:** "Review Open Insight #22: chapter-titles-in-sweep-scope memory-rule clarification + remaining-chapters verification sweep."
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*
