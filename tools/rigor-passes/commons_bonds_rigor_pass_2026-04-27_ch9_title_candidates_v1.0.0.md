@@ -241,4 +241,84 @@ The Ch 7 title rigor pass landed on a similar trade-off ("Mars Steward" narrativ
 
 ---
 
-*End of chapter-title rigor pass v1.0.0. Round 1 (§1-§9) drafted 2026-04-27 with ten candidates. Round 2 (§10) added 2026-04-27 with four additional candidates evaluated at author's "out of curiosity" direction. Full-depth comparative treatment across fourteen total candidates.*
+---
+
+## §11. Round 3 — One additional candidate evaluated at author direction
+
+### §11.1 Author's framing
+
+> "out of curiosity do a rigor test of 'Pricing Honestly'"
+
+**O. "Pricing Honestly"** — active gerund-adverb construction; grammatical variant of L "Honest Pricing"
+
+### §11.2 Module-by-module evaluation
+
+| Module | O Pricing Honestly | (compare: L Honest Pricing) |
+|---|:---:|:---:|
+| M1.5 universality / chapter-truth | ★★★ | ★★★ |
+| M2.4 chapter fit | ★★★ | ★★★ |
+| M2.5 register fit | ★★ | ★★ |
+| M3.4 counterargument | ★★★ | ★★★ |
+| M4.3 prose voice | ★★★ | ★★ |
+| M4.7 framing resonance | ★★ | ★★★ |
+| M5 dinner-table | ★★★ | ★★ |
+| M6 academic rigor | ★★★ | ★★★ |
+| M8 long-term | ★★★ | ★★★ |
+| M9 risk / political-charge | ★★★ | ★★★ |
+| M10 publishing path | ★★★ | ★★★ |
+| M11 critic pressure | ★★★ | ★★★ |
+| M12 intellectual honesty | ★★★ | ★★★ |
+| §22.4 (Book 1 scope) | ★★★ | ★★★ |
+| **★★★ count** | **12** | **11** |
+| **✗ count** | **0** | **0** |
+| **Net** | **+12** | **+11** |
+
+### §11.3 Notable findings
+
+**Finding R3.1 — "Pricing Honestly" ties with "The Pricing Imperative" at +12.** The active-gerund construction picks up two ★★★ shifts vs. its sister-candidate L "Honest Pricing": M4.3 (prose voice — active voice carries more engagement than nominal phrase) and M5 (dinner-table — active voice is slightly more reader-engaging). Loses one ★★★ on M4.7 (framing resonance — Ch 8 uses "honest pricing" as a noun phrase consistently; "Pricing Honestly" is a grammatical restatement rather than direct mirror).
+
+**Finding R3.2 — Stylistic-preference question, not rigor-substantive.** "Honest Pricing" is more conventional / academic (mirrors Ch 8's noun-phrase usage); "Pricing Honestly" is more active / engaged (gerund implies ongoing practice). Both are framework-derived, both are politically neutral, both are tight Ch 8-pairs. The differences are register/voice, not rigor.
+
+**Finding R3.3 — "Pricing Honestly" carries a hidden imperative.** The active-voice gerund implies "we should be pricing honestly" without using the word "imperative." This recovers some of the imperative-mood narrative weight that L "Honest Pricing" loses relative to H "The Pricing Imperative." Result: "Pricing Honestly" achieves narrative engagement equivalent to imperative-mood titles without the imperative word, AND framework-anchoring tightness equivalent to "Honest Pricing" without the noun-phrase formality.
+
+### §11.4 Updated combined ranking (Rounds 1 + 2 + 3)
+
+| # | Candidate | ★★★ | ✗ | Net |
+|---|---|:---:|:---:|:---:|
+| 1 | H "The Pricing Imperative" | 12 | 0 | +12 |
+| 1 | O "Pricing Honestly" | 12 | 0 | +12 |
+| 3 | L "Honest Pricing" | 11 | 0 | +11 |
+| 4 | J "The Honest Pricing Imperative" | 10 | 0 | +10 |
+| 4 | M "Honest Accounting" | 10 | 0 | +10 |
+| 6 | D "What the Arithmetic Demands" | 9 | 0 | +9 |
+| 6 | F "What a Society Would Do" | 9 | 0 | +9 |
+| 8 | B "Closing the Gap" | 8 | 0 | +8 |
+| 8 | C "The Reachable Horizon" | 8 | 0 | +8 |
+| 14 | A "The Renewable Imperative" (current) | 1 | 8 | −7 |
+
+### §11.5 Updated recommendation
+
+The Round 3 evaluation produces a tied co-primary at the top:
+
+**Co-primary recommendations:**
+- **H "The Pricing Imperative"** — preserves "imperative" word; explicit narrative weight via the imperative-mood word.
+- **O "Pricing Honestly"** — recovers imperative-mood narrative weight via active-voice construction WITHOUT the "imperative" word; tighter framework-anchoring; more conversational register.
+
+**Trade-off comparison:**
+- **H** is more academic-conventional ("imperative" is a technical / philosophical word).
+- **O** is more conversational and active ("honestly" is plain English; the gerund implies ongoing practice).
+- Both pair naturally with Ch 8's "What Things Actually Cost."
+- **H** reads as an authoritative-sounding noun phrase.
+- **O** reads as a description of an ongoing practice / engagement.
+
+The choice depends on author voice-preference: more authoritative-philosophical (H) vs. more active-conversational (O).
+
+**Best two candidates if narrative-engagement matters most:**
+- **O "Pricing Honestly"** wins on M5 (★★★) + M4.3 (★★★) AND keeps the framework-anchoring tightness of "honest" framework-language.
+
+**Best two candidates if framework-anchoring tightness matters most:**
+- **L "Honest Pricing"** + **O "Pricing Honestly"** are framework-anchored variants; H carries the imperative-word but uses framework-derived "pricing."
+
+---
+
+*End of chapter-title rigor pass v1.0.0. Round 1 (§1-§9) ten candidates; Round 2 (§10) four additional; Round 3 (§11) one additional. Full-depth comparative treatment across fifteen total candidates.*
