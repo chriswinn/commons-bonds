@@ -136,6 +136,37 @@
 
 ---
 
+### Candidate #8 — Mars-as-arbitrary-choice framing + Sun-expansion-makes-off-world-survival-structural argument → Ch 7 (chapter-intro framing + C7.5 extension)
+
+**Surfaced:** 2026-04-26 during Ch 7 holistic-sweep integration. Chris Winn raised two related concerns about the Mars thought experiment in two messages: (1) "I don't want anyone to get hung up on the selection of Mars as the location of the thought experiment, though my pondering is that any other choice of planet, asteroid, or some other off world location will still be a science-fiction scenario that most reader's can't share in / accommodate"; (2) "we could also point out that we currently think the sun will expand and engulf the earth in about 5 billion years. And the heat from that expansion would make the earth uninhabitable far earlier some estimates put that at 500 million to 1 Billion years. And assuming that actually happens I just don't believe we wouldn't try to expand off of earth to colonize other locations and continue to survive as a species."
+
+The first concern produced an inline-integrated chapter-intro framing sentence (Element A); the author then directed (in the same exchange) that the framing AND its proposed Sun-expansion extension (Element B) be rigor-tested at full depth before further integration. The author flagged the integration as having both a load-bearing risk ("could be a bit too theoretical or science fiction based for the book") and a load-bearing opportunity ("feels almost perfect for the universality claim").
+
+**Cluster context:** Candidate #8 sits in the methodological-framing cluster, distinct from the contingency-argument cluster (Candidates #1, #2, #3, #6) and the extraction-frontier cluster (Candidates #4, #5, #7). It is the first methodological-framing candidate to receive a dedicated rigor pass.
+
+**Rigor pass executed:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-26_candidate_mars_setting_choice_plus_sun_expansion_v1.0.0.md` (FULL DEPTH per author direction — all 12 modules of rigor protocol v2.2.0 + Standing Gates A/B/C + §22.4 alignment + Working Principle #7 + dedicated treatments of the "too theoretical / science fiction" risk and the universality-claim-alignment opportunity).
+
+**Q1 verdict (does it belong in the book?):** **YES — both Element A and Element B pass at full depth.** Element A passes all 12 modules with no required mitigations. Element B passes all 12 modules with five execution dependencies: (1) methodological-not-advocacy guard sentence; (2) bibliography additions; (3) strongly-recommended enhanced guard sentence acknowledging colonialism-redux concern; (4) author register-review of proposed prose; (5) available fail-safe paths if register-review surfaces issues.
+
+**Q2 verdict (best placement?):** **Option 3 — Element A at chapter intro (already integrated); Element B at C7.5 sub-objection extension (~200-220 words).** Two alternative options rejected: chapter-intro extension only (lengthens intro inappropriately); C7.5 extension only (loses Element A's brief frame).
+
+**Author-flagged concern (load-bearing):** "could be a bit too theoretical or science fiction based for the book." Rigor pass §6 gives this dedicated treatment: risk has two components (register risk + credibility risk); mitigation is multi-component (placement at C7.5 / register-discipline / methodological-not-advocacy guard / bibliography support / explicit emotional-distance signal / scaffolding-not-load-bearing); fail-safe paths available (tightened prose / Tech Appendix relocation / removal). Combined mitigation rated sufficient.
+
+**Author-flagged opportunity (load-bearing):** "feels almost perfect for the universality claim." Rigor pass §7 gives this dedicated treatment: Element B contributes a third dimension of universality (universality across civilizational scales of time, extending the existing parameter-range and historical-time universality dimensions); the alignment is "almost perfect" in three specific ways (completes the universality span; methodologically strengthens the false-analogy response; connects the chapter's two stress tests).
+
+**Status:** **rigor pass complete; pending author ratification on seven decisions** (rigor pass §12):
+- Decision 1: ratify Q1 (yes for both elements)
+- Decision 2: ratify Q2 (Option 3 placement)
+- Decision 3: base guard sentence vs. enhanced guard sentence (recommended: enhanced)
+- Decision 4: bibliography placement — new §X (Astronomy / stellar evolution) vs. fold into §17 (recommended: §17)
+- Decision 5: optional Adams & Laughlin 1999 popular-science-synthesis citation
+- Decision 6: author register-review of proposed §5.2 prose
+- Decision 7: fail-safe path preference if register-review surfaces issues
+
+**Cross-references:** rigor pass file (full-depth v1.0.0 covering 12 modules + gates + scope + dedicated treatments); Ch 7 draft (chapter-intro framing already integrated; C7.5 sub-objection target for proposed Element B integration); bibliography §17 (Externalities, climate, intergenerational economics — proposed bibliography-addition target); v1.0.3 §6.1 book-scope governance; Open Insight #14 (epistemic-humility discipline — same operating discipline applies); Open Insight #15 (Phase B chapter-revision standing thread — same standing-thread).
+
+---
+
 ## §2. Discipline notes
 
 ### §2.1 When to add a candidate to this tracker
