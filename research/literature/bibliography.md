@@ -236,6 +236,24 @@
 - **Relationship:** **SUPPORT (source).**
 - **Chapter relevance:** Ch 5.
 
+### Reid, T. R. *The Healing of America: A Global Quest for Better, Cheaper, and Fairer Health Care.* Penguin Press, 2009.
+
+- **Summary:** Canonical popular-press cross-national healthcare comparison. Reid (former Washington Post bureau chief) traveled across multiple healthcare systems (UK NHS; French; German; Japanese; Canadian; Taiwanese) for treatment of the same shoulder injury, documenting the structural differences in financing architecture, cost, access, and outcomes. Provides the trade-press accessible version of the cross-national-healthcare-architecture comparison the framework engages structurally.
+- **Relevance:** **Cross-national healthcare-financing-architecture lineage citation for Ch 9 Candidate #6 integration.** Reid's reporting documents that universal-coverage architectures take multiple forms across countries, that none produces the U.S. medical-crowdfunding-default pattern, and that the financing-architecture choice is contingent rather than inevitable.
+- **Relationship:** **SUPPORT (cross-national-comparison lineage).**
+- **Chapter relevance:** Ch 9 (Candidate #6 healthcare-architecture-comparison integration).
+- **Rigor provenance:** Candidate #6 full-depth rigor pass 2026-04-27.
+- **Status:** ratified 2026-04-27 (Candidate #6 bundle ratified by Chris Winn).
+
+### Commonwealth Fund. *Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System Compared to Other High-Income Countries.* Commonwealth Fund, 2024.
+
+- **Summary:** Most recent edition of the Commonwealth Fund's regular cross-national health-system comparison report. Compares the U.S. against 9 other high-income countries (Australia, Canada, France, Germany, Netherlands, New Zealand, Sweden, Switzerland, UK) across access, equity, care process, administrative efficiency, and health outcomes. Documents persistent U.S. ranking at the bottom across most performance dimensions despite highest per-capita spending.
+- **Relevance:** **Empirical academic-policy anchor for Ch 9 Candidate #6 healthcare-architecture-comparison integration.** Provides the load-bearing cross-national-comparison data on which the framework's structural-observation reading rests.
+- **Relationship:** **SUPPORT (empirical academic-policy anchor).**
+- **Chapter relevance:** Ch 9 (Candidate #6 healthcare-architecture-comparison integration).
+- **Rigor provenance:** Candidate #6 full-depth rigor pass 2026-04-27.
+- **Status:** ratified 2026-04-27 (Candidate #6 bundle ratified by Chris Winn).
+
 ---
 
 ## 6. Financial crisis and financial commons
@@ -669,6 +687,24 @@ Added 2026-04-24. Externality literature the framework engages for the Externali
 - **Chapter relevance:** Ch 7 (C7.5 science-fiction-skeptic sub-objection treatment — Element B methodological-not-advocacy guard sentence).
 - **Rigor provenance:** Candidate #8 full-depth rigor pass 2026-04-26.
 - **Status:** ratified 2026-04-26 (Candidate #8 bundle ratified by Chris Winn).
+
+### Smith, Craig R., Fabio C. De Leo, Angelo F. Bernardino, Andrew K. Sweetman, and Pedro Martinez Arbizu. "Abyssal food limitation, ecosystem structure and climate change." *Nature Geoscience* 1, no. 11 (2008): 743-748.
+
+- **Summary:** Foundational treatment of deep-sea ecosystem dynamics in the Clarion-Clipperton Zone and analogous abyssal-plain environments. Documents that food-limited abyssal ecosystems support unique biological communities whose recovery from disturbance operates on multi-decadal-to-multi-century timescales — far slower than continental-shelf or terrestrial ecosystem recovery. Establishes the load-bearing ecosystem-recovery science behind the framework's externality-tail-unbounded reading of deep-seabed mining.
+- **Relevance:** **Long-horizon externality-tail anchor for Ch 9 Candidate #7 deep-seabed mining integration.** Smith et al. provides the technical-citation grounding for the framework's reading of CCZ ecosystem disturbance as externality-tail-unbounded under the same regime as Ch 7's Europa-ocean treatment.
+- **Relationship:** **SUPPORT (technical-citation anchor for ecosystem-recovery-timescale claim).**
+- **Chapter relevance:** Ch 9 (Candidate #7 deep-seabed-mining reachable-horizon integration).
+- **Rigor provenance:** Candidate #7 full-depth rigor pass 2026-04-27.
+- **Status:** ratified 2026-04-27 (Candidate #7 bundle ratified by Chris Winn).
+
+### Jaeckel, Aline. *The International Seabed Authority and the Precautionary Principle: Balancing Deep Seabed Mineral Mining and Marine Environmental Protection.* Leiden: Brill Nijhoff, 2017.
+
+- **Summary:** Canonical academic treatment of the International Seabed Authority's institutional architecture for managing UNCLOS-mandated deep-seabed mineral extraction and marine environmental protection. Engages the precautionary-principle question in the ISA mining-code negotiations and traces the structural tensions between resource-extraction-authorization and environmental-stewardship within the ISA's mandate. Provides the institutional-architecture grounding for the framework's reading of ISA as a partial-implementation of international-accountability architecture that will be tested by the immune-response stress test.
+- **Relevance:** **Institutional-architecture anchor for Ch 9 Candidate #7 deep-seabed mining integration.** Jaeckel provides the academic-grounding for the framework's reading of ISA as partial-implementation; engages the substantive policy debate without prescribing specific ISA mining-code decisions.
+- **Relationship:** **SUPPORT (institutional-architecture lineage).**
+- **Chapter relevance:** Ch 9 (Candidate #7 deep-seabed-mining reachable-horizon integration).
+- **Rigor provenance:** Candidate #7 full-depth rigor pass 2026-04-27.
+- **Status:** ratified 2026-04-27 (Candidate #7 bundle ratified by Chris Winn).
 
 ### Deudney, Daniel. *Dark Skies: Space Expansionism, Planetary Geopolitics, and the Ends of Humanity.* New York: Oxford University Press, 2020.
 
