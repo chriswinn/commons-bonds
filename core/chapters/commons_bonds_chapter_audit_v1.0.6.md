@@ -106,9 +106,9 @@ Chapter-by-chapter verdict, now against actual-content reads. **v1.0.6 adds Path
 | 4 | The Existence Proof | Drafted (120 lines) | Substantial (108 lines) | **Ready for integration rewrite** | Governance detail + reachable-horizon cross-ref + Nordic steelman option | Minor — Norway SWF case demonstrates the framework operating; Path F reframing is light vocabulary pass |
 | 5 | The Accountability Gap | Drafted (~180 lines; 6 cases) | Substantial (85 lines) | **Needs revision — scope expansion landed, length management pending** | Length management + structural-revision-check for 6-case chapter | Moderate — cases reframed as worked examples of method (Path F Phase B Task 15) |
 | 6 | Three Ways of Counting | Drafted (HTML, ~45KB — verified v1.0.2) | **Very substantial (289 lines)** | **Substantial revision — Path F methodology rewrite** | See §2.6 for Path F-specific scope | **LARGEST Path F burden** — methodology chapter requires full rewrite to carry Path F's generative framing (Phase B Task 11, 1-2 weeks) |
-| 7 | The Colony Administrator | Drafted (~190 lines) | **Largest guidance (472 lines)** | **Ready for integration rewrite** | Register pass + asteroid-miner multi-perspective example | Moderate — chapter is already universality-test territory (Path-F-friendly); needs Phase B Task 13 (asteroid-miner example, 3-5 days) |
+| 7 | On Other Worlds | Drafted (~190 lines) | **Largest guidance (472 lines)** | **Ready for integration rewrite** | Register pass + asteroid-miner multi-perspective example | Moderate — chapter is already universality-test territory (Path-F-friendly); needs Phase B Task 13 (asteroid-miner example, 3-5 days) |
 | 8 | What Things Actually Cost | Drafted (~235 lines) | Stub (54 lines) | **Substantial revision — Path F tier-worked-example reframing** | See §2.8 for Path F-specific scope | **Second-largest Path F burden** — tier-worked McDowell coal reframed as AIT-applied-variable-discovery worked example (Phase B Task 12, 1 week) |
-| 9 | The Renewable Imperative | Drafted (~5,900 words) | Thin (73 lines) | **Ready for integration rewrite — partially landed** | Contingency argument + Nordic steelman + US-Sweden tax + CTR definition | Minor-to-moderate — policy-response chapter largely Path-F-aligned; light vocabulary pass |
+| 9 | Pricing Honestly | Drafted (~5,900 words) | Thin (73 lines) | **Ready for integration rewrite — partially landed** | Contingency argument + Nordic steelman + US-Sweden tax + CTR definition | Minor-to-moderate — policy-response chapter largely Path-F-aligned; light vocabulary pass |
 | 10 | Common Bonds | Drafted (~175 lines) | **Substantial (135 lines)** + theoretical development | **Needs revision — anchors landed, final paragraph + grandfather-specificity + sensitivity-reader review remain** | Indigenous sensitivity-reader + final paragraph + grandfather-specificity | Minor — closing chapter already Register 1 (avoids taxonomic language); Path F Task 14 adds brief asteroid-miner closing-reference |
 | — | _Dedication | Text stub (23 lines) | **Embedded in file** | **Needs dedicated guidance** | Select among 3 options | None — dedication doesn't carry framework content |
 | — | _AUTHORSNOTE_ON_WINDTUNNELS_AND_AI | Draft text present | **Embedded in file** | **Needs dedicated guidance** | Separate draft-prose from meta-guidance | Minor — if Path F reframes what the book IS (a tool, not a taxonomy), the AI statement's framing may adjust; Phase A2-adjacent decision |
@@ -419,11 +419,11 @@ Chapter-by-chapter verdict, now against actual-content reads. **v1.0.6 adds Path
 
 ---
 
-### §2.7 Chapter 7 — The Colony Administrator
+### §2.7 Chapter 7 — On Other Worlds
 
 **Current state:** Drafted (182 lines — strong) + **largest guidance in set (472 lines)** with 8 cross-scenarios fully worked. Draft runs through Mars water-ice thought experiment, cross-scenarios, "Mars is false analogy" counter, cost severance as function of distance insight, CSG ranking.
 
-**Load-bearing argument:** Universality test. Mars colony with 10,000 people + 3 ice deposits + 50-year supply as thought-experiment anchor. Framework walks through S(t) + U(R,t,Q(t)) + E(R,t) + D(t) at Mars-water parameters (near-zero substitutability, life-or-death utility, etc.). Then changes parameters one at a time to show convergence on market pricing for high-abundance low-externality resources and divergence for low-substitutability high-externality resources. 8 cross-scenarios (asteroid iron, Mars water pre-colony, Mars rare earths w/ colony, lunar He-3, lunar regolith, Europa ice, comet flyby, exoplanet rare earths). CSG ranking introduced. Cost severance requires distance insight is the chapter's deepest finding.
+**Load-bearing argument:** Universality test. Mars habitat with 10,000 people + 3 ice deposits + 50-year supply as thought-experiment anchor. Framework walks through S(t) + U(R,t,Q(t)) + E(R,t) + D(t) at Mars-water parameters (near-zero substitutability, life-or-death utility, etc.). Then changes parameters one at a time to show convergence on market pricing for high-abundance low-externality resources and divergence for low-substitutability high-externality resources. 8 cross-scenarios (asteroid iron, Mars water pre-inhabitation, Mars rare earths w/ habitat, lunar He-3, lunar regolith, Europa ice, comet flyby, exoplanet rare earths). CSG ranking introduced. Cost severance requires distance insight is the chapter's deepest finding.
 
 **Rigor verdict — Ready for integration rewrite + minor additions.**
 
@@ -458,7 +458,7 @@ Chapter-by-chapter verdict, now against actual-content reads. **v1.0.6 adds Path
 
 **Cross-chapter tensions:**
 
-- Ch 7 Mars + Ch 10 colony-administrator recurrence. Ch 7 introduces; Ch 10 completes the miner/waterman/colony-administrator trinity.
+- Ch 7 Mars + Ch 10 off-world administrator recurrence. Ch 7 introduces; Ch 10 completes the miner/waterman/off-world administrator trinity.
 - Ch 7 CSG + Ch 9 "Classify" step. Coordinate terminology.
 
 ---
@@ -520,7 +520,7 @@ Chapter-by-chapter verdict, now against actual-content reads. **v1.0.6 adds Path
 
 ---
 
-### §2.9 Chapter 9 — The Renewable Imperative
+### §2.9 Chapter 9 — Pricing Honestly
 
 **Current state:** Drafted (228 lines — very strong) + thin guidance (73 lines). Four-step sequence (Classify → Reserve → Invest → Reassess). International dimension (border adjustment via CBAM model). Political economy of resistance (Mancur Olson framing). Property rights + limits. Entering wedges. "What a framework does" (Harvey / Ostrom / Raworth / Desmond precedent). Transition to Ch 10.
 
@@ -572,7 +572,7 @@ Chapter-by-chapter verdict, now against actual-content reads. **v1.0.6 adds Path
 
 **Current state:** Drafted (160 lines — strong) + substantial guidance (135 lines) + embedded "Theoretical development: The villain question" section (from archived villain-analysis, migrated 2026-04-23). Case audit §2.16 flags CRITICAL indigenous-case integration.
 
-**Load-bearing argument (from draft):** Closing synthesis. Harbor opening (Old Point Comfort dawn, watermen going out). Miner/waterman/colony-administrator recognition — same structural position, different geographies + centuries. Mechanism doesn't care if they know each other; in fact works better when they don't; system maintains itself by preventing recognition. "Cost severance is a function of distance" — geographic + temporal + institutional + cultural + narrative. Grandfather at Langley — model makers who measured what was true. Honest concession (discount rate, Europa life, tech breakthroughs, present-vs-future tension, 4 things model cannot do + 3 things it can). Left-critique brief engagement — "this framework is not an argument for capitalism. It is not an argument against it." First-generation / last-generation passage. Commons Bonds → common bonds title resolution. Sisyphus/Camus/compass closing image.
+**Load-bearing argument (from draft):** Closing synthesis. Harbor opening (Old Point Comfort dawn, watermen going out). Miner/waterman/off-world administrator recognition — same structural position, different geographies + centuries. Mechanism doesn't care if they know each other; in fact works better when they don't; system maintains itself by preventing recognition. "Cost severance is a function of distance" — geographic + temporal + institutional + cultural + narrative. Grandfather at Langley — model makers who measured what was true. Honest concession (discount rate, Europa life, tech breakthroughs, present-vs-future tension, 4 things model cannot do + 3 things it can). Left-critique brief engagement — "this framework is not an argument for capitalism. It is not an argument against it." First-generation / last-generation passage. Commons Bonds → common bonds title resolution. Sisyphus/Camus/compass closing image.
 
 **Rigor verdict — Needs substantial revision (CRITICAL indigenous integration + final paragraph selection + grandfather specificity).**
 
@@ -617,7 +617,7 @@ Chapter-by-chapter verdict, now against actual-content reads. **v1.0.6 adds Path
 **Cross-chapter tensions:**
 
 - Ch 10 pulls case-references from Ch 2 + 4 + 5 + 7 + 8 + 9. Must compress without flattening.
-- Indigenous case's weight requires dedicated treatment without dominating chapter. Target Ch 10 architecture: miner/waterman/colony-administrator unification (brief) → cost severance as function of distance → indigenous-case anchor → villain-analysis prescription → honest concession → first-generation/last-generation → common bonds resolution → harbor close. Chapter grows from 160 to ~200-220 lines post-integration.
+- Indigenous case's weight requires dedicated treatment without dominating chapter. Target Ch 10 architecture: miner/waterman/off-world administrator unification (brief) → cost severance as function of distance → indigenous-case anchor → villain-analysis prescription → honest concession → first-generation/last-generation → common bonds resolution → harbor close. Chapter grows from 160 to ~200-220 lines post-integration.
 
 ---
 
@@ -757,7 +757,7 @@ Norway appears in Ch 4 (primary) + Ch 6 (backtest) + Ch 9 (entering-wedge). Thre
 
 Well-differentiated.
 
-Mars appears in Ch 7 (primary) + Ch 10 (recurrence as colony-administrator anchor). Differentiated.
+Mars appears in Ch 7 (primary) + Ch 10 (recurrence as off-world administrator anchor). Differentiated.
 
 **No significant repetition risk identified in current drafts.** Integration work must preserve the differentiation.
 

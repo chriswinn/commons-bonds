@@ -136,9 +136,9 @@ Admitting all four as separate Cᵢ would *double-count* — the household exper
 
 ---
 
-## §5. The asteroid miner (Ch 7 Mars-colony / Europa thought-experiment): multi-commons absent simultaneously
+## §5. The asteroid miner (Ch 7 Mars habitat / Europa thought-experiment): multi-commons absent simultaneously
 
-**Setting:** Hypothetical extraction operation in space — asteroid mining, Mars-colony resource extraction, or hypothetical Europa-ice mining. Used in Ch 7 as the framework's universality test ("if it works on Mars, it works on Earth").
+**Setting:** Hypothetical extraction operation in space — asteroid mining, Mars habitat resource extraction, or hypothetical Europa-ice mining. Used in Ch 7 as the framework's universality test ("if it works on Mars, it works on Earth").
 
 **Candidate cost streams:**
 - Life-support infrastructure cost (oxygen, food, water production replacement)

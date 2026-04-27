@@ -182,7 +182,7 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 
 **Polysemy per meaning, load-bearing verification:**
 - Accountability bonds (Meaning #1): direct link to CS = RCV − B formula where B is the accountability bond.
-- Relational bonds (Meaning #2): Ch 1's 120-hour-week thread, Ch 7's Mars colony bonds, Ch 10's closing reflection.
+- Relational bonds (Meaning #2): Ch 1's 120-hour-week thread, Ch 7's Mars habitat bonds, Ch 10's closing reflection.
 - Structural bonds (Meaning #3): ecosystem cases (Chesapeake, McDowell watersheds), atmospheric/climate stability, economic-community interdependencies.
 
 **Role:** framework identifier + book title; umbrella under which all Ring-1 terms live.
@@ -808,7 +808,7 @@ These are **two different framework elements.** The earlier retirement audited t
 
 **Depends on (why this term was in the vocabulary):**
 - Glossary v2 carried CSG as a standalone entry under policy-instruments section.
-- Active use in Ch 7 (Mars colony, asteroid-miner) + Ch 9 (Renewable Imperative) as decision-rule shorthand.
+- Active use in Ch 7 (Mars habitat, asteroid-miner) + Ch 9 (Renewable Imperative) as decision-rule shorthand.
 
 **Staleness triggers:**
 - Ch 7 / Ch 9 chapter rewrites produce prose-quality issues that would be resolved by restoring CSG as a named term.
@@ -825,7 +825,7 @@ These are **two different framework elements.** The earlier retirement audited t
 **Notes:**
 - Close-call retirement: 66 active refs + active pedagogical use in Ch 7/Ch 9 + ARP pairing. Ratified as RETIRE on rigor grounds (parsimony + derivation-from-primitive) overriding usage-frequency argument. This ratification established Principle #1 Corollary B.
 - ARP (Asymmetric Regret Principle) v2 reference "Applies across all uncertainty ranges for high-CSG resources" rewrites to "Applies across all uncertainty ranges for resources with large industrial-existential substitutability gaps." Downstream sweep.
-- Phase A3 sweep targets (Stream A): Ch 7 (asteroid-miner + Mars-colony prose) + Ch 9 (Renewable Imperative) + glossary v2 → v3 removal + Tech Appendix §G retain formula as sub-entry under Substitutability Function. ~2-3 days sweep work per meta-pass estimate.
+- Phase A3 sweep targets (Stream A): Ch 7 (asteroid-miner + Mars habitat prose) + Ch 9 (Renewable Imperative) + glossary v2 → v3 removal + Tech Appendix §G retain formula as sub-entry under Substitutability Function. ~2-3 days sweep work per meta-pass estimate.
 
 ---
 

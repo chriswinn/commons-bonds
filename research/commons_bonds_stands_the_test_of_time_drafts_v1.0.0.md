@@ -30,7 +30,7 @@ The remaining "stands the test of time" item — **original reporting / fieldwor
 
 ## §1. The contingency argument
 
-**Target chapter:** Ch 9 (*The Renewable Imperative*) as compressed 500-800 word section, OR Ch 10 (*Common Bonds*) as spine-sentence + brief illustration.
+**Target chapter:** Ch 9 (*Pricing Honestly*) as compressed 500-800 word section, OR Ch 10 (*Common Bonds*) as spine-sentence + brief illustration.
 **Function:** The Rousseauian move — make hierarchy feel contingent, not natural. Per sociology-paper source item 2: "The essay needs to name the specific historical moments when the current arrangement was constructed. Contingency requires specificity."
 **Success criterion:** Readers finish this section unable to un-see that the current arrangement was *built* by identifiable decisions at identifiable moments, and therefore can be rebuilt.
 
@@ -79,7 +79,7 @@ The remaining "stands the test of time" item — **original reporting / fieldwor
 **Function:** Per sociology-paper source: "Write the book's last paragraph before writing anything else. Know where you're going. Rousseau knew his argument ended with natural man as the moral benchmark against which civilization would be measured and found wanting. Your equivalent endpoint — the emotional and intellectual destination you want the reader to arrive at — should be written before the first chapter is drafted."
 **Current working formulation (Ch 10 GuidanceDoc):** "Establish the prior claim of future generations on commons resources as a first principle of political economy, expressible as a financial instrument, enforceable wherever institutions exist to enforce it, and nameable as a debt wherever they do not."
 
-This is load-bearing. Chris's final paragraph should preserve or refine it. Below are three candidate elaborations for his selection / refinement. Each integrates: (a) the existing prescription, (b) the harbor image from Ch 1, (c) the grandfather at Langley, (d) the miner / waterman / colony administrator unification, (e) the indigenous case's weight without making the book about a single case.
+This is load-bearing. Chris's final paragraph should preserve or refine it. Below are three candidate elaborations for his selection / refinement. Each integrates: (a) the existing prescription, (b) the harbor image from Ch 1, (c) the grandfather at Langley, (d) the miner / waterman / off-world administrator unification, (e) the indigenous case's weight without making the book about a single case.
 
 ### 2.1 Candidate A — Prescription-led close
 
@@ -89,7 +89,7 @@ This is load-bearing. Chris's final paragraph should preserve or refine it. Belo
 >
 > My grandfather worked at NASA Langley, in the wind tunnels, measuring what airplanes actually do rather than what designers hoped they would do. He was a model maker, which is a small word for a large discipline: the discipline of building instruments precise enough to reveal the difference between what a thing claims to be and what it is.
 >
-> The mines claimed to be wealth. The coal is gone. The mountains are cut. The creeks run the colors they run. The people whose ancestors were there before the mines arrived — who had names for those mountains and words for those creeks — are still bearing the cost of the difference between what the extraction claimed to be and what it was. The watermen went out before dawn for reasons their grandchildren may not be able to. The colony administrator on Mars would know, instantly, that the accounting was wrong. The instruments we have are not precise enough yet. They can be.
+> The mines claimed to be wealth. The coal is gone. The mountains are cut. The creeks run the colors they run. The people whose ancestors were there before the mines arrived — who had names for those mountains and words for those creeks — are still bearing the cost of the difference between what the extraction claimed to be and what it was. The watermen went out before dawn for reasons their grandchildren may not be able to. The off-world administrator on Mars would know, instantly, that the accounting was wrong. The instruments we have are not precise enough yet. They can be.
 >
 > The prior claim of future generations on commons resources — the right they hold to find the water drinkable, the mountains standing, the languages spoken, the commons intact — is a first principle of political economy. We can express it as a financial instrument. We can enforce it where institutions exist to enforce it. We can name it as a debt where they do not.
 >
@@ -101,7 +101,7 @@ This is load-bearing. Chris's final paragraph should preserve or refine it. Belo
 >
 > They have done this for three hundred years on this water. Their fathers did it and their grandfathers did it and the men and women whose languages named these inlets before the ships arrived did a version of it that none of us now living can remember with specificity, because the specificity was in the languages and the languages were broken by the policies that the policies were designed to break them. A few of the languages are coming back. A few of the practices are being rebuilt. The water has changed, though. The water has less in it than it did, and more of other things, and the watermen know this without having to have it measured because they have been on the water for three hundred years.
 >
-> Somewhere in Montana the town of Libby is still counting its dead. Somewhere in West Virginia a child born this year, if she stays, will live twelve fewer years than a child born the same year two hundred miles away in Washington DC. Somewhere on a plane right now is a consultant whose body is arriving at a meeting where his attention should have been four minutes ago. Somewhere on Mars, someday, a colony administrator will take responsibility for water allocations that matter because the margin is visible and the cost-bearers are standing in the same room.
+> Somewhere in Montana the town of Libby is still counting its dead. Somewhere in West Virginia a child born this year, if she stays, will live twelve fewer years than a child born the same year two hundred miles away in Washington DC. Somewhere on a plane right now is a consultant whose body is arriving at a meeting where his attention should have been four minutes ago. Somewhere on Mars, someday, a off-world administrator will take responsibility for water allocations that matter because the margin is visible and the cost-bearers are standing in the same room.
 >
 > What links them is a structure. The structure allocates value to one party and cost to another. The structure is maintained by distance — geographic, temporal, institutional, cultural, narrative — that prevents the parties bearing cost from recognizing who is capturing value, and prevents the parties capturing value from having to look at who is bearing cost. Close any one of those distances and the structure becomes visible. Make it visible and it becomes correctable.
 >
@@ -137,7 +137,7 @@ Chris selects + refines. My recommendation: **Candidate C as starting form**, wi
 
 ## §3. Nordic-model-unrepeatable steelman (600 words)
 
-**Target chapter:** Ch 4 (*The Existence Proof*) steelman section OR Ch 9 (*The Renewable Imperative*) counterargument section.
+**Target chapter:** Ch 4 (*The Existence Proof*) steelman section OR Ch 9 (*Pricing Honestly*) counterargument section.
 **Function:** Per sociology-paper source item 4: "Write the steelman counterargument. 600 words. The serious version... Write it as well as its best proponent would. Then defeat it specifically, not generally. You cannot publish in serious venues without doing this."
 
 ### 3.1 The steelman (600 words)

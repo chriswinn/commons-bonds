@@ -244,7 +244,7 @@ Each profile applies the v1.3.0 rigor protocol at full rigor with compressed ren
 
 - **Test 1 (AIT):** PASS. The fund prices temporal + institutional scarcity that the American model leaves invisible. Under abundance — infinite substitution possibilities for petroleum, unconstrained time horizons — the fund becomes unnecessary; the case evaporates into the non-pricing baseline.
 - **Test 2 (Two-path):** PASS. Path 1: Norway captures rent (B enormous); Norway does NOT close externality tail or foreclosure cost entirely — CS reduced by an order of magnitude, not to zero. Path 2: shield is dramatically reduced but not dissolved (atmospheric carbon externality still falls on global populations receiving no fund return).
-- **Test 4 (Multi-scale × 2 environments):** PASS. Works at all four scales on Earth; the off-Earth equivalent is the Mars-colony-administrator case (Ch 7). Clean.
+- **Test 4 (Multi-scale × 2 environments):** PASS. Works at all four scales on Earth; the off-Earth equivalent is the Mars habitat-administrator case (Ch 7). Clean.
 - **Test 28 (Earns place):** **EARNS PLACE** — existence proof that cost severance is policy choice, not natural law. Removal test: Book 1 becomes a diagnosis without a destination. Critical.
 - **Test 29 (Book-worthy):** BOOK-WORTHY.
 
@@ -610,7 +610,7 @@ Each profile applies the v1.3.0 rigor protocol at full rigor with compressed ren
 
 - **Test 1 (AIT):** PASS. Under abundant housing + abundant savings capacity, the enforced-immobility mechanism evaporates.
 - **Test 2 (Two-path):** PASS. Path 1: landlord class captures surplus wages cannot absorb; cost-burdened renters bear foreclosure of mobility. Path 2: market-geography shield (90%+ of counties have housing outpacing income); zoning shield (political); information shield (households don't see the macro pattern, only their own); racial-concentration shield.
-- **Test 4 (Multi-scale):** PASS. Individual, household, community, government, corporate (REIT and institutional-rental-property owners). Earth-only scope; off-Earth equivalent would be habitat-module allocation in Mars colony (Ch 7 adjacent).
+- **Test 4 (Multi-scale):** PASS. Individual, household, community, government, corporate (REIT and institutional-rental-property owners). Earth-only scope; off-Earth equivalent would be habitat-module allocation in Mars habitat (Ch 7 adjacent).
 - **Test 28 (Earns place):** **EARNS PLACE** — load-bearing refutation of the "miners chose that work" counter. Ch 2 currently handles the counter at two levels (structural company-town + information); this case adds a third level (macro housing-market dynamics) that makes the refutation irreducible.
 - **Test 29:** BOOK-WORTHY.
 
@@ -1265,9 +1265,9 @@ Consolidated case-to-chapter assignments:
 | **Ch 4: The Existence Proof** | Norway SWF + Nigeria | — | Canonical; Ch 4 complete |
 | **Ch 5: The Accountability Gap** | Libby + Deepwater + Exxon Valdez + Baotou + Social Security (textual reference to 4 + queue for Social Security) | Integrate Social Security + 2008 financial crisis (as fifth + bridge-to-Ch-6) + Healthcare end-of-life (as sub-case) | Chapter expands from 4 to 6+ cases; needs compression or scope expansion |
 | **Ch 6: Three Ways of Counting** | Methodology | Coal worked through 8 tiers; 2008 as scale-bridge opener if route as bridge | Methodology chapter; cases thread through rather than anchor |
-| **Ch 7: The Colony Administrator** | Mars / off-Earth thought experiment | Blood diamonds (stress-test entry); feudalism (stress-test entry) | Stress-test section — compact additions |
+| **Ch 7: On Other Worlds** | Mars / off-Earth thought experiment | Blood diamonds (stress-test entry); feudalism (stress-test entry) | Stress-test section — compact additions |
 | **Ch 8: What Things Actually Cost** | Coal worked through tiers | Housing enforced-immobility (pattern integration); Canadian tar sands (brief mention if climate-policy section) | Extended-case chapter |
-| **Ch 9: The Renewable Imperative** | Four-step policy framework | Tax trade-off US-Sweden (reachable-horizon anchor); Alaska Permanent Fund + Chattanooga + Mondragon (reachable-horizon companions) | Add reachable-horizon case cluster |
+| **Ch 9: Pricing Honestly** | Four-step policy framework | Tax trade-off US-Sweden (reachable-horizon anchor); Alaska Permanent Fund + Chattanooga + Mondragon (reachable-horizon companions) | Add reachable-horizon case cluster |
 | **Ch 10: Common Bonds** | Closing framework | Indigenous land dispossession (load-bearing anchor); feudalism (cross-spectrum passage); blood diamonds (brief "system's immune response" anchor) | CRITICAL DEVELOP for indigenous case |
 
 **Integration sequencing recommendation:**
