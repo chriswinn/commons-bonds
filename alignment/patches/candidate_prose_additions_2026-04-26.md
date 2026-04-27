@@ -176,7 +176,14 @@ The first concern produced an inline-integrated chapter-intro framing sentence (
 - Ch 7 sweep + Element B + bibliography: this commit cluster (2026-04-26).
 - Project-wide cross-chapter sweep: separate task tracked in Phase B work queue.
 
-**Open follow-up:** chapter-title file rename question (`Chapter__7_TheColonyAdministrator__Draft.md` → `Chapter__7_TheHabitatAdministrator__Draft.md`) flagged for author decision; in-prose chapter title at line 7 changed to "The Habitat Administrator" for consistency with sweep, but the file name retains "TheColonyAdministrator" pending separate file-rename decision (involves cross-file references).
+**Chapter-title decision (ratified 2026-04-26):** **"On Other Worlds."** Three rigor passes informed the decision:
+- Round 1 chapter-title rigor pass evaluated 7 candidates including original "Colony Administrator" and post-sweep "Habitat Administrator"; identified G "Mars Steward" as primary recommendation.
+- Author surfaced substantive M2.4/M3.4/M3.6 finding (missed in Round 1): "Steward" carries preservation-bias connotation that conflicts with chapter's parameter-sensitive thesis (chapter recommends extraction in 5 of 7 cross-scenario sweep cases). G and F (Steward variants) eliminated from serious consideration.
+- Round 2 chapter-title rigor pass evaluated 6 candidates (4 new thematic + 2 best role-administrator from Round 1) at full depth; "On Other Worlds" emerged as clear leader at +9 net score, combining narrative pull (★★★ M5) + universality (★★★ M1.5) + register fit (★★★ M2.5) + publishing path (★★★ M10) in a configuration no other candidate matched.
+- In-prose chapter title at line 7 ratified as "Chapter 7: On Other Worlds" (was "The Habitat Administrator" after vocabulary sweep; original was "The Colony Administrator").
+- Body-text "administrator" usages retained per Round 2 §12.7 — thematic title doesn't conflict with body-role-noun usage.
+
+**Open follow-up:** file rename question (`Chapter__7_TheColonyAdministrator__Draft.md` → `Chapter__7_OnOtherWorlds__Draft.md`) deferred to project-wide vocabulary sweep batch per Round 2 §12.8 recommendation. Cross-file references to old chapter titles ("The Colony Administrator" / "The Habitat Administrator") need updating during project-wide sweep.
 
 **Cross-references:** rigor pass file (full-depth v1.0.0 covering 12 modules + gates + scope + dedicated treatments); Ch 7 draft (chapter-intro framing already integrated; C7.5 sub-objection target for proposed Element B integration); bibliography §17 (Externalities, climate, intergenerational economics — proposed bibliography-addition target); v1.0.3 §6.1 book-scope governance; Open Insight #14 (epistemic-humility discipline — same operating discipline applies); Open Insight #15 (Phase B chapter-revision standing thread — same standing-thread).
 
