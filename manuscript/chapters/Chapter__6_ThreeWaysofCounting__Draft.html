@@ -227,6 +227,31 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2em 0; }
      The fight over the SCC is itself a proxy war over acceptable cost severance levels. Every dollar of SCC that is not priced is a dollar of cost severed onto communities and future generations. The debate over the &ldquo;correct&rdquo; SCC is a debate over how much severance we are willing to tolerate.
     </p>
     <p>
+     One distinction worth making explicit at this point in the carbon accounting. The bottom-up damage-accounting we have been doing prices what carbon
+     <em>
+      does
+     </em>
+     once emitted &mdash; the damage side, anchored by the Social Cost of Carbon. The framework's forward-looking RCV apparatus (Approach 3, below) also asks a different question &mdash; what would it cost to engineer the substitute the commons was providing? &mdash; and the answer for atmospheric CO₂ comes from direct-air-capture. Both numbers belong in honest carbon accounting; they answer different questions.
+    </p>
+    <p>
+     Climeworks's Orca and Mammoth facilities in Iceland, currently the largest operational direct-air-capture installations, capture CO₂ at a cost of approximately six hundred to one thousand dollars per ton. These are first-of-a-kind costs. Carbon Engineering's Stratos facility in Texas, in construction at the time of writing and targeting commissioning within the next two years, is projected to capture at three hundred to six hundred dollars per ton at full operation. The International Energy Agency's
+     <em>
+      Direct Air Capture 2022
+     </em>
+     review and the IPCC's AR6 Working Group III place the achievable cost by mid-century in the one-hundred-to-three-hundred-dollar range under optimistic deployment scenarios, contingent on learning curves and policy support that the next decade either will or will not produce. The book presents all three horizons because the answer depends on which one the reader is asking about, and the framework's response to the question "what does it cost to replace what's been severed" is honestly horizon-dependent.
+    </p>
+    <p>
+     One distinction matters here. The Social Cost of Carbon &mdash; the figure of approximately one hundred ninety dollars per ton at a two percent discount rate, drawn from Rennert and colleagues 2022 &mdash; prices the
+     <em>
+      damage
+     </em>
+     that a ton of CO₂ does once emitted. Direct-air-capture prices the
+     <em>
+      engineering reversal
+     </em>
+     of that damage. The two numbers appear together when the convergence table compares approaches, but they answer different questions. The substitution-side question (what does it cost to replace the commons function) belongs in Approach 3's RCV Method 1; the damage-side question (what does the harm cost) is what Approach 1's bottom-up walkthrough has been answering. Conflating them is one of the easier methodological errors a reader could make, and the framework's reporting discipline keeps them separated so the reader doesn't.
+    </p>
+    <p>
      Even with this limitation, the bottom-up method gives a floor. It says that the market underprices extraction by at least a factor of several, and potentially by factors of tens or hundreds. It does not tell us the ceiling. For that, we need a method that does not rely on enumerating costs one by one.
     </p>
     <hr>
@@ -497,34 +522,13 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2em 0; }
      </tr>
     </table>
     <p>
-     <strong>
-      Case-file ratified canonical forms
-     </strong>
-     (per IPG-reconciliation work flagged in chapter audit &sect;2.6 + case-study audit &sect;0.2; Block 4 validation cross-confirms canonicals at the lower end of the table&rsquo;s triangulated method ranges): &nbsp;McDowell County coal &mdash;
-     <strong>
-      33&ndash;122&times;
-     </strong>
-     (case file:
-     <code>
-      research/case-studies/appalachian-coal.md
-     </code>
-     ); &nbsp;Deepwater Horizon &mdash;
-     <strong>
-      40% cost-recovery ratio
-     </strong>
-     ($60&ndash;65B paid against $150B total documented costs per CBO; one-event-disaster framing differs from extraction-lifetime multiplicative form; case file:
-     <code>
-      research/case-studies/deepwater-horizon.md
-     </code>
-     ); &nbsp;Libby vermiculite &mdash;
-     <strong>
-      40&times; cost-to-revenue ratio
-     </strong>
-     ($100M lifetime revenue against $4B+ documented costs; case file:
-     <code>
-      research/case-studies/libby-vermiculite.md
-     </code>
-     ); &nbsp;Exxon Valdez &mdash; multi-method range stable; not currently a case-study audit profile. The variance between table figures and case-file canonicals reflects time-horizon attribution + Method-distinction (Damage-Function vs RCV Model vs Block 4 Three Ways triangulation), not framework imprecision. Readers seeking the simplest defensible single-number compression per case find it in the case-file headers; readers seeking method-decomposition find it here and in the Tech Appendix supplement &sect;3.
+     The IPG ratios in the convergence table reflect different methodological lenses, and a reader comparing them across cases will see ranges rather than single numbers. McDowell coal in this table reads at 5&ndash;133&times; via a damage-function method and 19&ndash;47&times; via the residual commons value model; the case-study file's ratified figure is 33&ndash;122&times;. Libby's table figures are 55&ndash;82&times; and 40&ndash;80&times;; the case-file ratified form is a simpler 40&times; cost-to-revenue ratio. Deepwater Horizon's table figures are 15&ndash;17&times; and ~15&times;; the case-file ratified form is a 40% cost-recovery ratio. These are not contradictions. They are different methods producing different numerical compressions of the same structural finding.
+    </p>
+    <p>
+     The Block 4 validation work cross-confirms the case-file canonical forms at the lower end of the triangulated three-method range. McDowell's case-file canonical 33&ndash;122&times; falls within the Block 4 triangulated 50&ndash;555&times; range when method-by-method estimates are aggregated; the variance reflects time-horizon attribution (1960 nominal vs. 2025 real) more than framework imprecision. Libby's 40&times; falls within the table's 40&ndash;80&times; upper-bound. Deepwater's 40% recovery-ratio framing differs from the table's multiplicative form because Deepwater is a one-event disaster (where total documented cost is bounded) versus extraction-lifetime cases (where IPG multiples capture cumulative underpricing).
+    </p>
+    <p>
+     The discipline this surfaces: every IPG figure in the book carries an implicit method + time-horizon attribution, and the convergence-table presentation reports the range. Readers who want the case-file ratified canonical form (the simplest defensible single-number compression for each case) find it in the case-study file headers. Readers who want the method-level decomposition find it in the Tech Appendix. The ranges in the convergence table sit between those two registers &mdash; broader than the canonical compression, narrower than the full method-decomposition.
     </p>
     <p>
      The methods converge. Different assumptions, different foundations, same qualitative conclusion and, in most cases, similar magnitudes. The direction never flips. In every case tested, market prices understate the true cost &mdash; always by a meaningful factor, sometimes by three or four orders of magnitude.
@@ -723,6 +727,26 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2em 0; }
     </p>
     <p>
      This is analogous to the claim, made in 1940, that no existing airplane could fly faster than sound. The claim was true, not because it was unfalsifiable, but because the necessary technology had not been built. It was falsified in 1947 when Chuck Yeager flew through the barrier. The RCV framework&rsquo;s universal CS &gt; 0 result for non-renewables under existing regimes will be falsified the day the required instruments are deployed and produce a measured CS &le; 0.
+    </p>
+    <p>
+     Two distinct falsifiability operations are at work in this framework. The Commons Inversion Test is a thought-experiment filter &mdash; a candidate cost claim either survives or fails its counterfactual inversion.
+     <em>
+      Would the cost be priced differently if the commons were absent?
+     </em>
+     <em>
+      Would it be priced differently if the commons were inexhaustible?
+     </em>
+     Claims that don't survive are filtered out before they reach the measurement apparatus. This is conceptual filtering; thought-experiments don't survive empirical falsification in the Popperian sense, and the framework does not claim they do.
+    </p>
+    <p>
+     The empirical falsifiability &mdash; the layer above the inversion test &mdash; operates at the level of specific cost-claim predictions.
+     <em>
+      CS &gt; 0 for case X under existing accountability regimes.
+     </em>
+     That prediction is empirically testable through the case-study record; it is what the Three Ways of Counting calibrates. The framework's Block 4 validation work executes this layer for Norway and Appalachian coal specifically, with sensitivity analysis on the Method 3 parameters surfacing irreversibility as the dominant empirical question for Earth-bound primary cases.
+    </p>
+    <p>
+     So when the Popperian reader asks whether the framework is falsifiable, the answer is layered. The inversion test screens the candidate. The Three Ways of Counting estimate the residual commons value. The empirical case-study record adjudicates the prediction. Each layer does work the others can't, and each is falsifiable in the sense appropriate to its level. The framework's response to the unfalsifiability objection is therefore not "the inversion test can be wrong" &mdash; it is "the inversion test is the methodological filter; empirical falsifiability operates one layer above it, at the level of CS / RCV predictions for specific cases."
     </p>
     <p>
      Until that day, the prediction stands, and its universality is evidence of a structural gap, not a methodological trick.
@@ -989,235 +1013,6 @@ seven Ch 6 main-text passages land structurally, this block's marker can be remo
        Phase B-blocker dependency:
       </strong>
       none. This passage can land independently of other Phase B work items.
-     </li>
-    </ul>
-    <hr>
-    <h3>
-     &sect;6.6 Passage H &mdash; CIT-vs-empirical falsifiability distinction (added 2026-04-25; closes M11 Char 18)
-    </h3>
-    <p>
-     <strong>
-      Placement:
-     </strong>
-     Ch 6 Counterargument 4 / "Your model says extraction is always underpriced, which means it is unfalsifiable" response section. Insert as one paragraph after the existing CS-prediction-falsifiability response (Yeager-and-the-sound-barrier passage).
-    </p>
-    <p>
-     <strong>
-      Function:
-     </strong>
-     Closes M11 Character 18 (philosopher of science / Popperian / Lakatosian) finding from the 2026-04-24 academic-rigor full test (commit
-     <code>
-      ae90800
-     </code>
-     ). Per the audit at
-     <code>
-      alignment/patches/cit_positioning_consistency_audit_2026-04-25.md
-     </code>
-     &sect;2.1 finding: Ch 6's existing Counterargument-4 response handles the falsifiability question at the CS-prediction level correctly but does NOT explicitly distinguish between CIT-thought-experiment falsification and CS-empirical falsification. A Popperian reader will press: "you call CIT a falsifiability gate, but CIT operates on thought-experiments &mdash; what's the empirical operation?"
-    </p>
-    <h4>
-     &sect;6.6.1 Draft passage (~200 words; Ch 6 main-text register)
-    </h4>
-    <blockquote>
-     <p>
-      Two distinct falsifiability operations are at work in this framework. The Commons Inversion Test is a thought-experiment filter &mdash; a candidate cost claim either survives or fails its counterfactual inversion.
-      <em>
-       Would the cost be priced differently if the commons were absent?
-      </em>
-      <em>
-       Would it be priced differently if the commons were inexhaustible?
-      </em>
-      Claims that don't survive are filtered out before they reach the measurement apparatus. This is conceptual falsification; thought-experiments don't survive empirical falsification in the Popperian sense, and the framework does not claim they do.
-     </p>
-     <p>
-      The empirical falsifiability &mdash; the layer above the inversion test &mdash; operates at the level of specific cost-claim predictions.
-      <em>
-       CS &gt; 0 for case X under existing accountability regimes.
-      </em>
-      That prediction is empirically testable through the case-study record; it is what the Three Ways of Counting calibrates. The framework's Block 4 validation work executes this layer for Norway and Appalachian coal specifically, with sensitivity analysis on the Method 3 parameters surfacing irreversibility as the dominant empirical question for Earth-bound primary cases.
-     </p>
-     <p>
-      So when the Popperian reader asks whether the framework is falsifiable, the answer is layered. The inversion test screens the candidate. The Three Ways of Counting estimate the residual commons value. The empirical case-study record adjudicates the prediction. Each layer does work the others can't, and each is falsifiable in the sense appropriate to its level. The framework's response to the unfalsifiability objection is therefore not "the inversion test can be wrong" &mdash; it is "the inversion test is the methodological filter; empirical falsifiability operates one layer above it, at the level of CS / RCV predictions for specific cases."
-     </p>
-    </blockquote>
-    <h4>
-     &sect;6.6.2 Integration notes for Phase B
-    </h4>
-    <ul>
-     <li>
-      <strong>
-       Recommended placement:
-      </strong>
-      insert this passage after the existing Counterargument 4 / "model is unfalsifiable" response in the Ch 6 HTML draft + GuidanceDoc text. Specifically, after the Yeager-and-the-sound-barrier paragraph in the GuidanceDoc (around line 234-236) &mdash; its analog placement in the HTML draft.
-     </li>
-     <li>
-      <strong>
-       Length:
-      </strong>
-      ~200 words; lands as one passage rather than restructuring existing prose.
-     </li>
-     <li>
-      <strong>
-       Cross-spectrum-tone discipline:
-      </strong>
-      the passage stays methodologically careful &mdash; concedes that thought-experiments are not Popperian-falsifiable; positions empirical falsifiability at the appropriate layer; doesn't overclaim. Protects against M11 Char 18 attack vector by demonstrating the framework engages the strongest available challenge.
-     </li>
-     <li>
-      <strong>
-       Cross-references to land:
-      </strong>
-      Block 4 validation work (
-      <code>
-       core/technical-appendix/block4_validation_2026-04-25.md
-      </code>
-      ); Method 3 sensitivity analysis (
-      <code>
-       method3_sensitivity_analysis_2026-04-25.md
-      </code>
-      ); CIT positioning consistency audit (
-      <code>
-       alignment/patches/cit_positioning_consistency_audit_2026-04-25.md
-      </code>
-      ).
-     </li>
-    </ul>
-    <hr>
-    <h3>
-     &sect;6.7 Passage I &mdash; IPG-table reconciliation (added 2026-04-25)
-    </h3>
-    <p>
-     <strong>
-      Placement:
-     </strong>
-     Ch 6 convergence-table walkthrough section. Reconciliation note (1-2 paragraphs) added to the methodology paragraph that introduces the IPG ratios per case.
-    </p>
-    <p>
-     <strong>
-      Function:
-     </strong>
-     Closes the IPG-reconciliation work flagged in chapter audit &sect;2.6 + case-study audit &sect;0.2 + multiple per-case file headers (Libby; Deepwater). The Ch 6 HTML convergence table currently shows McDowell 5-133&times; / 19-47&times;; Libby 55-82&times; / 40-80&times;; Deepwater 15-17&times; / ~15&times; &mdash; figures that need reconciliation to case-file ratified canonical forms (McDowell 33-122&times;; Libby 40&times;; Deepwater 40% recovery ratio). Block 4 validation (commit
-     <code>
-      ffcda12
-     </code>
-     ) cross-confirmed the canonical numbers at the lower end of triangulated ranges &mdash; variance reflects time-horizon attribution + Method-distinction, not framework imprecision.
-    </p>
-    <h4>
-     &sect;6.7.1 Draft reconciliation paragraph (~280 words; Ch 6 main-text register)
-    </h4>
-    <blockquote>
-     <p>
-      The IPG ratios in the convergence table reflect different methodological lenses, and a reader comparing them across cases will see ranges rather than single numbers. McDowell coal in this table reads at 5-133&times; via a damage-function method and 19-47&times; via the residual commons value model; the case-study file's ratified figure is 33-122&times;. Libby's table figures are 55-82&times; and 40-80&times;; the case-file ratified form is a simpler 40&times; cost-to-revenue ratio. Deepwater Horizon's table figures are 15-17&times; and ~15&times;; the case-file ratified form is a 40% cost-recovery ratio. These are not contradictions. They are different methods producing different numerical compressions of the same structural finding.
-     </p>
-     <p>
-      The Block 4 validation work cross-confirms the case-file canonical forms at the lower end of the triangulated three-method range. McDowell's case-file canonical 33-122&times; falls within the Block 4 triangulated 50-555&times; range when method-by-method estimates are aggregated; the variance reflects time-horizon attribution (1960 nominal vs. 2025 real) more than framework imprecision. Libby's 40&times; falls within the table's 40-80&times; upper-bound. Deepwater's 40% recovery-ratio framing differs from the table's multiplicative form because Deepwater is a one-event disaster (where total documented cost is bounded) versus extraction-lifetime cases (where IPG multiples capture cumulative underpricing).
-     </p>
-     <p>
-      The discipline this surfaces: every IPG figure in the book carries an implicit method + time-horizon attribution, and the convergence-table presentation reports the range. Readers who want the case-file ratified canonical form (the simplest defensible single-number compression for each case) find it in the case-study file headers. Readers who want the method-level decomposition find it in the Tech Appendix. The ranges in the convergence table sit between those two registers &mdash; broader than the canonical compression, narrower than the full method-decomposition.
-     </p>
-    </blockquote>
-    <h4>
-     &sect;6.7.2 Integration notes for Phase B
-    </h4>
-    <ul>
-     <li>
-      <strong>
-       Recommended placement:
-      </strong>
-      insert this paragraph block immediately after the convergence-table presentation in the Ch 6 HTML draft. The reconciliation discipline lives where the table lives, before readers encounter the bottom-up McDowell walkthrough.
-     </li>
-     <li>
-      <strong>
-       Convergence-table revisions:
-      </strong>
-      for clarity, the convergence-table itself should add a footnote per row indicating "(case-file canonical: Xx)" so readers see both the method-decomposed range and the canonical compression in the same view. This is a separate small revision from the paragraph block above.
-     </li>
-     <li>
-      <strong>
-       Cross-references to land:
-      </strong>
-      case-study audit &sect;2.1 + &sect;2.3 + &sect;2.4 (the per-case IPG provenance); Block 4 validation &sect;2.5 (Method-by-Method McDowell triangulation showing 50-555&times; range with canonical 33-122&times; at lower-end-confirmed); each case-study file's "Historical IPG framing (superseded)" section.
-     </li>
-    </ul>
-    <hr>
-    <h3>
-     &sect;6.8 Passage J &mdash; DAC three-horizon + SCC-vs-DAC distinction (added 2026-04-25)
-    </h3>
-    <p>
-     <strong>
-      Placement:
-     </strong>
-     Ch 6 methodology section, in the Method 1 Replacement Cost walkthrough where the Habitability commons anchor is introduced. Inserts the empirical-sourcing-pass three-horizon DAC range + the SCC-vs-DAC distinction discipline.
-    </p>
-    <p>
-     <strong>
-      Function:
-     </strong>
-     Closes the M6.4 sourcing-pass-needed flag for Tech Appendix supplement &sect;3.1 (per
-     <code>
-      core/technical-appendix/empirical_sourcing_pass_2026-04-25.md
-     </code>
-     &sect;1.3 recommendation). The Ch 6 main-text needs to (a) present DAC at three horizons rather than a single point estimate, (b) distinguish DAC (substitution-side; Method 1) from Social Cost of Carbon (damage-side; appears in convergence table) rather than conflating them.
-    </p>
-    <h4>
-     &sect;6.8.1 Draft passage (~320 words; Ch 6 main-text register)
-    </h4>
-    <blockquote>
-     <p>
-      Method 1 prices the engineering substitute for what the commons is providing. For atmospheric CO₂, the engineering substitute is direct-air-capture. The technology exists. It operates. The numbers, however, depend on what horizon the question is asked at, and the framework's discipline is to present three horizons rather than a single point estimate.
-     </p>
-     <p>
-      Climeworks's Orca and Mammoth facilities in Iceland, currently the largest operational direct-air-capture installations, capture CO₂ at a cost of approximately six hundred to one thousand dollars per ton. These are first-of-a-kind costs. Carbon Engineering's Stratos facility in Texas, in construction at the time of writing and targeting commissioning within the next two years, is projected to capture at three hundred to six hundred dollars per ton at full operation. The International Energy Agency's Direct Air Capture 2022 review and the IPCC's AR6 Working Group III place the achievable cost by mid-century in the one-hundred-to-three-hundred-dollar range under optimistic deployment scenarios, contingent on learning curves and policy support that the next decade either will or will not produce. The book presents all three horizons because the answer depends on which one the reader is asking about, and the framework's response to the question "what does it cost to replace what's been severed" is honestly horizon-dependent.
-     </p>
-     <p>
-      One distinction matters here. The Social Cost of Carbon &mdash; the figure of approximately one hundred ninety dollars per ton at a two percent discount rate, drawn from Rennert and colleagues 2022 &mdash; prices the
-      <em>
-       damage
-      </em>
-      that a ton of CO₂ does once emitted. Direct-air-capture prices the
-      <em>
-       engineering reversal
-      </em>
-      of that damage. The two numbers appear together in the convergence table, but they answer different questions. Method 1 uses direct-air-capture because the framework's Method 1 logic is substitution-side: what does it cost to engineer the substitute commons function the natural sinks were providing for free? The Social Cost of Carbon belongs in a different column, asking the damage-side question. Conflating them is one of the easier methodological errors a reader could make, and the framework's reporting discipline keeps them separated so the reader doesn't.
-     </p>
-    </blockquote>
-    <h4>
-     &sect;6.8.2 Integration notes for Phase B
-    </h4>
-    <ul>
-     <li>
-      <strong>
-       Recommended placement:
-      </strong>
-      insert this passage in Ch 6's Method 1 Replacement Cost walkthrough, replacing the current "direct-air-capture cost per ton CO₂ at engineering scale" placeholder. The three-horizon framing lands first; the SCC-vs-DAC distinction follows as the closing methodological discipline.
-     </li>
-     <li>
-      <strong>
-       Convergence-table footnote:
-      </strong>
-      add a footnote to the convergence table's "carbon term" column distinguishing SCC ($190/ton at 2% discount, damage-side) from any DAC anchor (substitution-side, Method 1).
-     </li>
-     <li>
-      <strong>
-       Cross-references to land:
-      </strong>
-      <code>
-       core/technical-appendix/empirical_sourcing_pass_2026-04-25.md
-      </code>
-      &sect;1 (full DAC sourcing);
-      <code>
-       research/literature/bibliography.md
-      </code>
-      &sect;17 (Nordhaus DICE for SCC lineage; Stern Review for low-discount-rate framing); IEA
-      <em>
-       Direct Air Capture 2022
-      </em>
-      + IPCC AR6 Working Group III + US National Academies 2019 (the three-horizon-anchor literature).
-     </li>
-     <li>
-      <strong>
-       Phase B-blocker dependency:
-      </strong>
-      none. This passage can land independently; it pairs naturally with &sect;6.5 (Parfit) + &sect;6.6 (CIT-vs-empirical falsifiability) as the Ch 6 methodology-grounding cluster.
      </li>
     </ul>
     <hr>
