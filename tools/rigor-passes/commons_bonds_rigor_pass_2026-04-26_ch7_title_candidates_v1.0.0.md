@@ -377,26 +377,49 @@ The scorecard's response:
 
 ## §9. Recommendation
 
-**Primary recommendation: G "The Mars Steward."**
+The scorecard surfaces two co-primary candidates that are genuinely close at the top: G "The Mars Steward" (+6 net) and E "The Mars Administrator" (+5 net). Both share the same Mars-specific M1.5 trade-off and both match the original A "Colony Administrator" on the craft axes the author flagged (★★★ on M5 / M2.5 / M4.3). They differ on a single substantive axis — moral-weight (G) vs. bureaucratic-precision-and-parallelism (E) — and that difference is closer to author-preference than to rigor-determined ranking.
+
+### §9.1 Co-primary recommendation #1: E "The Mars Administrator"
 
 Rationale:
-- Recovers the narrative pull the author identified as missing (★★★ on M5 / M2.5 / M4.3 — matches A on these axes).
-- Adds moral weight ("Steward") that aligns with the chapter's substantive argument: the administrator's role is structurally one of stewardship because cost-severance fails when the affected community is internal. The chapter is already about stewardship; the title naming it makes the substance visible.
-- Resonates with the chapter-intro framing sentence (★★★ on M4.7) — the framing names Mars as the chosen example; the title naming Mars is consistent with that framing.
-- Rigor-clean (zero ✗) — no critic-pressure / publishing-path / intellectual-honesty burden.
-- Trade-press friendly (Mars is universally-recognized; popular-science familiarity).
-- Academic-respectable (steward-discourse is academically-acceptable; not loaded with capture risk).
-- Slight M1.5 loss (Mars-specific in title) is mitigated by the chapter-intro framing sentence that already names Mars-as-arbitrary-choice.
+- **Preserves the structural parallelism with the original "Colony Administrator"** — same role-noun (Administrator), same syntactic pattern (place-noun + role-noun); only the loaded word swaps. Reader continuity from any prior reference to the original title is preserved at maximum.
+- **Title-body register consistency.** The body text uses "the administrator" extensively; if the title says "Administrator" too, no register-split. (G's title says "Steward" while body says "administrator" — small but real internal-consistency cost.)
+- **★★★ on M2.5 / M4.3 / M4.7 / M5** — matches G on the four craft modules the author's concern engages.
+- **Mars-explicit framing resonance.** ★★★ on M4.7 — the chapter-intro framing sentence names Mars as the chosen example; the title naming Mars is consistent with that framing.
+- **"Administrator" is more universally-understood than "Steward"** — slight M5 dinner-table edge in cross-reader-comprehension; "Administrator" is plain-English-everyday, "Steward" carries some archaic / Tolkien-esque echo that may or may not land for every reader.
+- **Modest rigor cost** — 2 ✗ marks (M1.5 Mars-specific; M9 LOW-MODERATE risk via Mars-Musk-rhetoric adjacency). Both ✗ marks are mitigable: M1.5 by the chapter-intro framing sentence already in place; M9 by the Element B methodological-not-advocacy guard sentence already in place.
 
-**Secondary recommendation: D "The Off-World Administrator"** if priority is universality-explicit title-level framing rather than narrative pull. Rigor-cleanest of all candidates; loses only on narrative pull (★★ on M5).
+### §9.2 Co-primary recommendation #2: G "The Mars Steward"
 
-**Tertiary recommendation: A "The Colony Administrator" retention** per vocabulary rigor pass §10's narrative-retention provision (≤2-3 colony usages permitted where load-bearing). The chapter title is the most-load-bearing-narrative usage. Trade-off: highest narrative pull at the cost of carrying the rigor burden the Candidate #8 guard sentences absorb. This is defensible if the author values narrative continuity above rigor cleanness.
+Rationale:
+- **Adds moral weight** ("Steward") that aligns with the chapter's substantive argument: the administrator's role is structurally one of stewardship because cost-severance fails when the affected community is internal. The chapter is already about stewardship; the title naming it makes the substance visible.
+- **★★★ on M5 / M2.5 / M4.3 / M4.7** — matches E on craft modules.
+- **Slightly stronger M2.4 (chapter fit)** — ★★★ on M2.4 vs E's ★★. The "Steward" framing names the chapter's substantive thesis (stewardship-under-no-cost-severance) directly, while "Administrator" describes the role more bureaucratically.
+- **Same Mars-explicit framing resonance** as E.
+- **Same rigor cost as E** — 2 ✗ marks, same mitigation.
 
-**Not recommended:**
-- **B Habitat Administrator** (current sweep state) — fails the craft modules the author flagged.
+### §9.3 The E-vs-G choice
+
+The choice between E and G turns on a single craft-preference axis:
+
+- **If priority is title-body internal consistency + universal-comprehensibility + structural-parallelism with original**: choose **E "The Mars Administrator."**
+- **If priority is title-as-substantive-thesis-statement + moral-weight elevation + tight chapter-fit alignment**: choose **G "The Mars Steward."**
+
+Both are rigor-cleared. Both recover the narrative pull author identified as missing. Both are Mars-specific (mitigable via existing framing). Both are publishing-path-friendly. The choice is genuinely author-preference at this point.
+
+### §9.4 Secondary recommendation: D "The Off-World Administrator"
+
+If priority is universality-explicit title-level framing rather than narrative pull: D is rigor-cleanest of all candidates (zero ✗) with full M1.5 alignment. Loses only on narrative pull (★★ on M5 — moderate rather than high).
+
+### §9.5 Tertiary recommendation: A "The Colony Administrator" retention
+
+Per vocabulary rigor pass §10's narrative-retention provision (≤2-3 colony usages permitted where load-bearing). The chapter title is the most-load-bearing-narrative usage. Trade-off: highest narrative pull at the cost of carrying the rigor burden the Candidate #8 guard sentences absorb. Defensible if the author values narrative continuity above rigor cleanness.
+
+### §9.6 Not recommended
+
+- **B Habitat Administrator** (current sweep state) — fails the craft modules the author flagged (✗ on M2.5 / M4.3 / M5).
 - **C Outpost Administrator** — middling everywhere; no module-leader.
-- **E Mars Administrator** — Mars-specificity carries M1.5 risk without the moral-weight compensating benefit Steward provides.
-- **F Habitat Steward** — rigor-clean but moderate narrative pull; G Mars Steward is strictly better on the narrative axis at small M1.5 cost.
+- **F Habitat Steward** — rigor-clean but moderate narrative pull (★★ on M5); E and G dominate on craft axes.
 
 ---
 
@@ -421,10 +444,13 @@ Rationale:
 
 ## §11. Decisions for author ratification
 
-1. **Ratify primary recommendation G "The Mars Steward"?** *(rec: yes)*
-2. **OR ratify secondary recommendation D "The Off-World Administrator"?** *(if priority is universality-explicit framing)*
+1. **Choose between co-primary recommendations:**
+   - **E "The Mars Administrator"** — title-body consistency + structural-parallelism with original + universal-comprehensibility *(matches "Colony Administrator" pattern most closely)*
+   - **G "The Mars Steward"** — moral-weight + substantive-thesis-statement + tight chapter-fit alignment
+   - Both rigor-cleared at +5/+6 net; choice is craft-preference.
+2. **OR ratify secondary recommendation D "The Off-World Administrator"?** *(if priority is universality-explicit framing rather than narrative pull)*
 3. **OR retain A "The Colony Administrator" per vocabulary rigor pass §10 narrative-retention provision?** *(if priority is narrative continuity above rigor cleanness)*
-4. **Body-text register-shift:** if G ratified, leave body "administrator" usages intact OR shift body to "steward"? *(rec: leave body intact)*
+4. **Body-text register-shift:** if G ratified, leave body "administrator" usages intact OR shift body to "steward"? *(rec: leave body intact)* If E ratified, no register-shift question — title and body match.
 5. **File rename timing:** execute now, OR defer to a dedicated cross-file-reference sweep? *(rec: defer until project-wide vocabulary sweep batch)*
 
 ---
