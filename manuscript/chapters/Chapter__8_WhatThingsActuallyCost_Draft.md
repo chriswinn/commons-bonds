@@ -20,7 +20,7 @@ Ask the question without political coding, without ideology, and the framework w
 
 This chapter does that exercise for one ton of Appalachian coal — and lets the reader see what the gap looks like when it isn't aggregated, abstracted, or dissolved in policy language, but priced, tier by tier, against the extraction we've been following from the book's opening.
 
-The result is not degrowth. It is not anti-capitalism. It is not, in this book, a policy recommendation. It is an accounting exercise. What we choose to do with the accounting is a separate question — a political one — and one this book is deliberately not trying to answer. Book One's job is to make the numbers visible. What gets built from visibility is the subject of a different book, and I'll say where that book begins at the end of this chapter.
+The result is not degrowth. It is not anti-capitalism. It is not, in this book, a policy recommendation. It is an accounting exercise. What we choose to do with the accounting is a separate question — a political one — and one this book is deliberately not trying to answer. The book's job is to make the numbers visible. What gets built from visibility is the work of policy-makers, communities, and political coalitions who carry the framework's vocabulary into specific implementation contexts.
 
 ---
 
@@ -228,17 +228,17 @@ The second is the charge that honest pricing is a tool by which already-industri
 
 ---
 
-### The closing line, and the door to the next book
+### The closing line
 
 What happens if an entire global economy begins to reprice at honest rates? Resource by resource, sector by sector, country by country? What happens to energy costs in the short term, and in the medium term, and in the new equilibrium? Who absorbs the transition? What happens to a household in the bottom forty percent of the income distribution when essentials rise by forty percent? Where does the pricing surplus go, and who decides? What does the economy look like on the other side, and is that economy still recognizably capitalist?
 
 These questions are real. The framework answers them — the mathematics produces specific results, the simulations run in recognizable directions, the distributional crisis and the structural necessity of a universal floor emerge with a clarity that is neither ideological nor optional. They are, all of them, consequences of the pricing exercise this chapter has just performed on a single ton of coal.
 
-They are also the subject of a different book.
+They are also outside the scope of this book.
 
 This book's job is to make the invisible visible. Chapter 1 through Chapter 8 have done that. Chapter 9 sketches the direction a civilization committed to honest accounting would move. Chapter 10 closes with the miner, the waterman, and the off-world administrator recognizing each other across the distance the mechanism was designed to maintain.
 
-What happens inside the global economy once the accounting is honest — the simulation that runs across every resource category, the distributional arithmetic, the universal floor emerging not from ideology but from the math itself, the political economy of the subsidy and the organized resistance of its beneficiaries, the international coordination problem, the implementation pathway from where we are to where honest accounting would take us — that is the subject of the book that comes after this one. The working title is \*The Subsidy Economy\*. The claim it will carry is that the current global economy is not a market economy but a subsidy economy, running a ten-to-fifteen-trillion-dollar annual transfer from the powerless to the powerful, and that honest accounting — once performed at civilizational scale — reveals not a catastrophe but a better, more stable, more resilient economy with a floor beneath it. That book will make specific policy arguments this book does not, and it will implicate specific beneficiaries this book does not. It presupposes the framework this book establishes. It cannot be written until the framework has had time to circulate.
+These questions presuppose the framework this book establishes. Their pursuit belongs to policy-makers, scholars, communities, and political coalitions who carry the framework's vocabulary into specific implementation contexts. The framework cannot do that work itself. What honest accounting at civilizational scale would reveal — when it is performed by those who do that work, in time and on terms not legislated by these pages — is not a catastrophe but a better, more stable, more resilient economy with a floor beneath it.
 
 For now, what this chapter gives the reader is the one worked example: a ton of coal, priced honestly, at a floor of roughly five hundred and fifty-eight dollars. The gap between that number and the four-dollar-and-fifty-cent invoice is the severed cost. The invoice is what McDowell County was paid. The severed cost is what McDowell County bore.
 

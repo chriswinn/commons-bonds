@@ -549,7 +549,7 @@ New insights automatically get added to the todo list in both states: one entry 
 ### Insight #24 — Book 1 references to Book 2 — full rigor + question pass needed
 
 - **Raised:** 2026-04-27 by Chris Winn during Ch 2 holistic-review CTR rigor exercise. Author framing: *"I'm yet not convinced that we should mention a book 2 in book 1."*
-- **Status:** raised · pending full rigor + question pass · author skeptical of Book 2 mentions in Book 1
+- **Status:** **closed-ratified 2026-04-27 (Chris Winn) — Scenario B selected; all Book 2 references removed from Book 1.** Full-depth rigor pass executed 2026-04-27 produced decisive verdict (Scenario B at +13 net rigor; Scenario A at 0; Scenario C at 0). Five surgical edits across Ch 5 + Ch 8 integrated 2026-04-27. Original "raised · pending full rigor + question pass · author skeptical" status superseded by ratification.
 - **Category:** book-scope · framework boundary · publishing path · craft
 - **Content:** During Ch 2 holistic-review CTR rigor exercise, the recommended Version G (principle-first + subsidy clarification) included an explicit cross-reference to Ch 8's closing section that references Book 2 by working title (*The Subsidy Economy*). The author flagged the broader question of whether Book 1 should reference Book 2 at all. Currently Book 1 contains at minimum:
   - **Ch 8 closing (lines 231-247)** — explicit "subject of a different book ... working title is *The Subsidy Economy*" framing; structurally treats Ch 8's closing as a Book 2 forward-pointer
