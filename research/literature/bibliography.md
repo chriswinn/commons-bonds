@@ -643,6 +643,42 @@ Added 2026-04-24. Externality literature the framework engages for the Externali
 - **Rigor provenance:** Externality Tail rigor pass 2026-04-24; literature audit 2026-04-24.
 - **Status:** ratified 2026-04-24 (E Option A ratified by Chris Winn).
 
+### Sackmann, I.-Juliana, Arnold I. Boothroyd, and Kathleen E. Kraemer. "Our Sun. III. Present and Future." *Astrophysical Journal* 418 (1993): 457–468.
+
+- **Summary:** Mainstream solar-physics treatment of the Sun's main-sequence evolution, projecting solar-luminosity trajectory across the next several billion years. Established the result that increasing solar luminosity will make Earth uninhabitable for biological civilizations on the order of 500 million to 1 billion years from now — well before the red-giant phase. Foundational reference for the "Earth's habitability lifetime" timescale used in long-horizon civilizational-survival arguments.
+- **Relevance:** **Long-horizon physical-environmental anchor for Ch 7 universality argument (Candidate #8 Element B per 2026-04-26 rigor pass).** Sackmann et al. is the load-bearing technical citation behind the "Sun-expansion makes Earth uninhabitable on 500M-1B-year horizon" claim that Ch 7 uses to argue that off-world habitat thought experiments are not science-fiction but a coherent forward-looking civilizational concern.
+- **Relationship:** **SUPPORT (technical-citation anchor for long-horizon physical-environmental constraint).** Sackmann et al. is the scientific lineage; framework's use is methodological-justification only, NOT advocacy for off-world expansion as policy priority.
+- **Chapter relevance:** Ch 7 (C7.5 science-fiction-skeptic sub-objection treatment — Element B per Candidate #8 rigor pass).
+- **Rigor provenance:** Candidate #8 full-depth rigor pass 2026-04-26.
+- **Status:** ratified 2026-04-26 (Candidate #8 bundle ratified by Chris Winn).
+
+### Schröder, Klaus-Peter, and Robert Connon Smith. "Distant future of the Sun and Earth revisited." *Monthly Notices of the Royal Astronomical Society* 386, no. 1 (2008): 155–163.
+
+- **Summary:** Updated treatment of the Sun's late-main-sequence and red-giant evolution, with refined modeling of Earth's fate under solar expansion. Established that Earth will be engulfed by the red-giant Sun on a timescale of approximately 5 billion years (with some uncertainty bounds depending on tidal-interaction modeling and mass-loss assumptions).
+- **Relevance:** **Long-horizon physical-environmental anchor for Ch 7 universality argument (Candidate #8 Element B per 2026-04-26 rigor pass).** Schröder & Smith is the load-bearing technical citation behind the "red-giant engulfment of Earth ~5 billion years" claim that anchors Ch 7's structural-future argument for off-world habitat thought experiments.
+- **Relationship:** **SUPPORT (technical-citation anchor for long-horizon physical-environmental constraint).** Schröder & Smith is the scientific lineage; framework's use is methodological-justification only, NOT advocacy.
+- **Chapter relevance:** Ch 7 (C7.5 science-fiction-skeptic sub-objection treatment — Element B per Candidate #8 rigor pass).
+- **Rigor provenance:** Candidate #8 full-depth rigor pass 2026-04-26.
+- **Status:** ratified 2026-04-26 (Candidate #8 bundle ratified by Chris Winn).
+
+### Ord, Toby. *The Precipice: Existential Risk and the Future of Humanity.* London: Bloomsbury, 2020.
+
+- **Summary:** Current canonical academic treatment of long-horizon civilizational-risk analysis. Surveys existential risks (anthropogenic and natural) facing humanity over coming centuries; estimates probabilities; discusses mitigation strategies including off-world expansion as one of several long-horizon civilizational-resilience approaches. Develops the argument with academic care, contextualizing rather than advocating off-world expansion.
+- **Relevance:** **M11 critic-pressure / M12 prior-art lineage citation for Ch 7 Element B treatment of off-world habitats (Candidate #8 per 2026-04-26 rigor pass).** Ord 2020 is the academic best-practice anchor for the "off-world inhabitation as one of several long-horizon mitigation strategies" framing the chapter uses in its methodological-not-advocacy guard.
+- **Relationship:** **SUPPORT (M6/M11/M12 lineage acknowledgment).** Ord's treatment of off-world expansion is methodologically careful in exactly the way the framework's use needs to remain.
+- **Chapter relevance:** Ch 7 (C7.5 science-fiction-skeptic sub-objection treatment — Element B methodological-not-advocacy guard sentence).
+- **Rigor provenance:** Candidate #8 full-depth rigor pass 2026-04-26.
+- **Status:** ratified 2026-04-26 (Candidate #8 bundle ratified by Chris Winn).
+
+### Deudney, Daniel. *Dark Skies: Space Expansionism, Planetary Geopolitics, and the Ends of Humanity.* New York: Oxford University Press, 2020.
+
+- **Summary:** Major skeptical academic treatment of space-expansion advocacy. Argues that off-world expansionism is geopolitically destabilizing, ethically distracting from near-term Earth-stewardship priorities, and unjustified by the existential-risk argument. Engages directly with Sagan, Hawking, and the Bostrom/Ord existential-risk lineage as well as with the Mars-colonization advocacy tradition. Provides the academic-skeptical counterweight that intellectual-honesty discipline requires alongside expansionist citations.
+- **Relevance:** **M11 critic-pressure / M12 prior-art lineage citation for Ch 7 Element B methodological-not-advocacy guard (Candidate #8 per 2026-04-26 rigor pass).** Deudney 2020 is the load-bearing skeptical-lineage citation that the guard sentence in Element B explicitly engages ("the skeptical academic lineage that argues off-world expansionism is geopolitically destabilizing and distracting from near-term Earth-stewardship priorities"). Without this citation, the guard would be one-sided.
+- **Relationship:** **SUPPORT (M6/M11/M12 lineage acknowledgment — provides the skeptical counterweight that academic-best-practice requires).** The framework adopts neither Deudney's skeptical position nor the expansionist counter-position; it uses the contestation to scope-discipline its methodological argument.
+- **Chapter relevance:** Ch 7 (C7.5 science-fiction-skeptic sub-objection treatment — Element B methodological-not-advocacy guard sentence).
+- **Rigor provenance:** Candidate #8 full-depth rigor pass 2026-04-26.
+- **Status:** ratified 2026-04-26 (Candidate #8 bundle ratified by Chris Winn).
+
 ---
 
 ## 18. Adjacent / due-diligence citations (collision check only)

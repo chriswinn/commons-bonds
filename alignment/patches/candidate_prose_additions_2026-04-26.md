@@ -154,14 +154,29 @@ The first concern produced an inline-integrated chapter-intro framing sentence (
 
 **Author-flagged opportunity (load-bearing):** "feels almost perfect for the universality claim." Rigor pass §7 gives this dedicated treatment: Element B contributes a third dimension of universality (universality across civilizational scales of time, extending the existing parameter-range and historical-time universality dimensions); the alignment is "almost perfect" in three specific ways (completes the universality span; methodologically strengthens the false-analogy response; connects the chapter's two stress tests).
 
-**Status:** **rigor pass complete; pending author ratification on seven decisions** (rigor pass §12):
-- Decision 1: ratify Q1 (yes for both elements)
-- Decision 2: ratify Q2 (Option 3 placement)
-- Decision 3: base guard sentence vs. enhanced guard sentence (recommended: enhanced)
-- Decision 4: bibliography placement — new §X (Astronomy / stellar evolution) vs. fold into §17 (recommended: §17)
-- Decision 5: optional Adams & Laughlin 1999 popular-science-synthesis citation
-- Decision 6: author register-review of proposed §5.2 prose
-- Decision 7: fail-safe path preference if register-review surfaces issues
+**Status:** **closed-ratified 2026-04-26 (Chris Winn) — bundle integrated.** Author ratified the bundle: Ch 7 vocabulary sweep (Path B colony→habitat per companion vocabulary rigor pass) + Element B prose update at C7.5 with base guard sentence + bibliography additions (Sackmann 1993 + Schröder & Smith 2008 + Ord 2020 + Deudney 2020 to §17). Companion vocabulary rigor pass `commons_bonds_rigor_pass_2026-04-26_vocabulary_colony_vs_settlement_vs_habitat_v1.0.0.md` ratified separately and applied as part of the bundle. Author also raised colonialism-redux mitigation question; vocabulary change to habitat-and-inhabit-cluster addressed most of the concern at substance level (base guard sentence retained; enhanced guard sentence not needed). Author additionally directed project-wide vocabulary sweep across all chapters + guidance docs + glossary + tech appendix + case studies + alignment docs (tracked as separate Phase B project-wide task).
+
+**Decisions resolved (2026-04-26):**
+- Decision 1: Q1 ratified (both elements belong in book) — YES.
+- Decision 2: Q2 ratified (Option 3 — Element A at chapter intro; Element B at C7.5) — YES.
+- Decision 3: base guard sentence under habitat-vocabulary — YES (enhanced guard sentence not adopted because vocabulary change addresses colonialism-redux substance directly).
+- Decision 4: bibliography placement — fold into existing §17 (Externalities, climate, intergenerational economics) — YES.
+- Decision 5: Adams & Laughlin 1999 optional citation — DEFERRED (not adopted in this commit; can be added later if needed).
+- Decision 6: author register-review of proposed §5.2 prose — implicit-ratified by bundle ratification (author may still revise during subsequent reviews).
+- Decision 7: fail-safe path — N/A (proceeded with Path B; fail-safe paths available if register issues surface in subsequent review).
+
+**Vocabulary rigor pass decisions resolved (2026-04-26):**
+- Q1 vocabulary change ratified — YES.
+- Q2 destination habitat ratified — YES.
+- Path B (mixed habitat-and-narrative) ratified — YES.
+- §15.6 cluster rules ratified — YES (habitat / inhabitants / inhabit / settling / minimal colony retention).
+- Cross-chapter scope ratified — project-wide sweep tracked as separate task (per author direction "make sure everything is aligned with this decision").
+
+**Integration commits:**
+- Ch 7 sweep + Element B + bibliography: this commit cluster (2026-04-26).
+- Project-wide cross-chapter sweep: separate task tracked in Phase B work queue.
+
+**Open follow-up:** chapter-title file rename question (`Chapter__7_TheColonyAdministrator__Draft.md` → `Chapter__7_TheHabitatAdministrator__Draft.md`) flagged for author decision; in-prose chapter title at line 7 changed to "The Habitat Administrator" for consistency with sweep, but the file name retains "TheColonyAdministrator" pending separate file-rename decision (involves cross-file references).
 
 **Cross-references:** rigor pass file (full-depth v1.0.0 covering 12 modules + gates + scope + dedicated treatments); Ch 7 draft (chapter-intro framing already integrated; C7.5 sub-objection target for proposed Element B integration); bibliography §17 (Externalities, climate, intergenerational economics — proposed bibliography-addition target); v1.0.3 §6.1 book-scope governance; Open Insight #14 (epistemic-humility discipline — same operating discipline applies); Open Insight #15 (Phase B chapter-revision standing thread — same standing-thread).
 
