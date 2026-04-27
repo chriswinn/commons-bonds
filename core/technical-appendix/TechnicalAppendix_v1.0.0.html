@@ -172,7 +172,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     <strong>
      Scope progress (Open Insight #21 Path B):
     </strong>
-    Scope 1 (format conversion) &checkmark; &middot; Scope 2 (TOC restructure + partial-integ reconciliation + CIT worked examples embedded) &checkmark; &middot; Scope 3 (retired-vocabulary passage rewrites) &checkmark; &middot; Scope 4 (&sect;C.4 8-tier excise + &sect;K verified clean) &checkmark; &middot; Scope 5 (Block 4 + Method 3 + DAC + IPG-table integration) pending &middot; Scope 6 (Phase B Ch 6 supplementary integration) pending &middot; Scope 7 (Ch 6 HTML rewrite) pending. Subsequent commits address each remaining scope individually.
+    Scope 1 (format conversion) &checkmark; &middot; Scope 2 (TOC restructure + partial-integ reconciliation + CIT worked examples embedded) &checkmark; &middot; Scope 3 (retired-vocabulary passage rewrites) &checkmark; &middot; Scope 4 (&sect;C.4 8-tier excise + &sect;K verified clean) &checkmark; &middot; Scope 5 (Block 4 + Method 3 + DAC + space-economics + IPG-table integrated into &sect;11.1&ndash;&sect;11.7) &checkmark; &middot; Scope 6 (Phase B Ch 6 supplementary integration) pending &middot; Scope 7 (Ch 6 HTML rewrite) pending. Subsequent commits address each remaining scope individually.
    </p>
    <p>
     <strong>
@@ -3450,6 +3450,2305 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     </p>
     <p>
      CS structure:&nbsp;Global electronics consumers capture value; Baotou residents bear costs. This is the most explicit case of spatial cost severance operating at international scale &mdash; the geographic distance between beneficiary (Silicon Valley consumer) and cost-bearer (Inner Mongolian villager) is ~10,000 km. Cost severance scales with distance.
+    </p>
+    <h3>
+     &sect;11.1 Block 4 &mdash; Norway petroleum calibration (Three Ways of Counting executed)
+    </h3>
+    <p>
+     <strong>
+      Source:
+     </strong>
+     <code>
+      core/technical-appendix/block4_validation_2026-04-25.md
+     </code>
+     &sect;1.
+Worked execution of Methods 1+2+3 against Norway 1971&ndash;present petroleum extraction data.
+Numerical anchors below are the framework's empirical operationalization.
+    </p>
+    <h4>
+     &sect;1. Norway calibration &mdash; Three Ways of Counting executed
+    </h4>
+    <h5>
+     &sect;1.1 Empirical anchors (Norway petroleum extraction, 1971&ndash;present)
+    </h5>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        Anchor
+       </th>
+       <th>
+        Value
+       </th>
+       <th>
+        Source
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        <strong>
+         Cumulative oil + gas production through 2024
+        </strong>
+       </td>
+       <td>
+        ~50 billion barrels of oil equivalent (BOE)
+       </td>
+       <td>
+        Norwegian Petroleum Directorate annual reports;
+        <em>
+         Norwegian Petroleum
+        </em>
+        (norskpetroleum.no) cumulative production data
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         GPFG (Government Pension Fund Global) value, ~mid-2025
+        </strong>
+       </td>
+       <td>
+        ~$1.9 trillion
+       </td>
+       <td>
+        Norges Bank Investment Management public reporting; Ministry of Finance
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Per-citizen GPFG share
+        </strong>
+       </td>
+       <td>
+        ~$340,000 / Norwegian citizen
+       </td>
+       <td>
+        NBIM public reporting (cited in
+        <code>
+         research/case-studies/norway-swf.md
+        </code>
+        )
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         State capture rate (B / petroleum wealth)
+        </strong>
+       </td>
+       <td>
+        ~70-80% (direct taxation + production licenses + Equinor state ownership + fund contributions)
+       </td>
+       <td>
+        Norwegian Petroleum Directorate; Norway Ministry of Finance
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Annual fiscal-rule withdrawal
+        </strong>
+       </td>
+       <td>
+        ~3% expected real return
+       </td>
+       <td>
+        Norway fiscal rule (2001)
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Carbon intensity (combusted)
+        </strong>
+       </td>
+       <td>
+        ~0.43 tons CO₂ per barrel of oil; ~2.7 tons CO₂ per BOE-equivalent natural gas
+       </td>
+       <td>
+        EPA emissions factors; IPCC AR6 standard combustion factors
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Cumulative emissions from Norwegian production (combusted)
+        </strong>
+       </td>
+       <td>
+        ~21.5 billion tons CO₂ (oil basis; gas basis adds substantially)
+       </td>
+       <td>
+        Calculated: 50B BOE &times; 0.43 t/BOE; lower-bound (oil-only conversion)
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Norwegian production-side emissions (extraction + processing)
+        </strong>
+       </td>
+       <td>
+        ~3-5% of combustion-side emissions
+       </td>
+       <td>
+        Norwegian Environment Agency reports
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <h5>
+     &sect;1.2 Method 1 &mdash; Replacement Cost (lower-bound floor for Habitability commons)
+    </h5>
+    <p>
+     <strong>
+      Logic:
+     </strong>
+     Method 1 prices the engineering cost to replace the substitutable component of the commons. For Norwegian oil, the substitutable component on the Habitability axis is the atmospheric CO₂-removal function the natural sinks provide for free; the engineering substitute is direct-air-capture (DAC). Per
+     <code>
+      core/technical-appendix/empirical_sourcing_pass_2026-04-25.md
+     </code>
+     &sect;1.3 three-horizon DAC range:
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Conservative (current operational, first-of-a-kind DAC):
+      </strong>
+      $600&ndash;$1,000/ton CO₂ &times; 21.5B tons =
+      <strong>
+       $12.9&ndash;21.5T total atmospheric replacement cost
+      </strong>
+      (oil-emissions only; gas adds ~15-30%).
+     </li>
+     <li>
+      <strong>
+       Mid-range (at-scale commercial within next decade):
+      </strong>
+      $300&ndash;$600/ton &times; 21.5B tons =
+      <strong>
+       $6.5&ndash;12.9T
+      </strong>
+      .
+     </li>
+     <li>
+      <strong>
+       Optimistic (2050 nth-of-a-kind):
+      </strong>
+      $100&ndash;$300/ton &times; 21.5B tons =
+      <strong>
+       $2.2&ndash;6.5T
+      </strong>
+      .
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Per-BOE conversion:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      Conservative DAC: $12.9&ndash;21.5T / 50B BOE =
+      <strong>
+       $258&ndash;430/BOE atmospheric-only Method 1 floor
+      </strong>
+      .
+     </li>
+     <li>
+      Mid-range DAC: $130&ndash;258/BOE.
+     </li>
+     <li>
+      Optimistic DAC: $44&ndash;130/BOE.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Note:
+     </strong>
+     Method 1 floor as constructed prices ONLY the Habitability commons (atmospheric CO₂-removal substitute). It does NOT price the foreclosed-non-energy-use of the petroleum hydrocarbons (which Norway acknowledges is a remaining commons-loss per case file: "the barrel is still gone"). Adding Foreclosure-of-non-energy-use raises the Method 1 floor by an additional $50-200/BOE depending on substitute-availability assumptions for petrochemical feedstock + specific-hydrocarbon-application uses.
+    </p>
+    <p>
+     <strong>
+      Method 1 anchor for Norway (Habitability + Foreclosure-of-non-energy-use):
+     </strong>
+     <strong>
+      $300&ndash;$650/BOE at mid-range DAC + moderate Foreclosure-of-non-energy-use estimate.
+     </strong>
+    </p>
+    <h5>
+     &sect;1.3 Method 2 &mdash; Norway Revealed Preference (anchor; what Norway actually internalized)
+    </h5>
+    <p>
+     <strong>
+      Logic:
+     </strong>
+     Method 2 reads the per-BOE value Norway's polity revealed it considered worth internalizing through the GPFG accumulation + tax architecture. Per Open Insight #14: this is a
+     <strong>
+      lower-bound on true RCV
+     </strong>
+     (Norway internalized real value but did NOT internalize all of it &mdash; atmospheric externality + non-Norwegian-population climate costs + non-energy-use foreclosure are not in the GPFG).
+    </p>
+    <p>
+     <strong>
+      Calculation:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      GPFG value $1.9T at ~75% capture rate of net petroleum wealth (mid-point of 70-80% range).
+     </li>
+     <li>
+      Implied total petroleum wealth: $1.9T / 0.75 &asymp;
+      <strong>
+       $2.5T
+      </strong>
+      .
+     </li>
+     <li>
+      Per-BOE value: $2.5T / 50B BOE =
+      <strong>
+       ~$50/BOE Method 2 anchor
+      </strong>
+      .
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Caveats (per Open Insight #14 epistemic-humility):
+     </strong>
+    </p>
+    <ul>
+     <li>
+      Norway's capture rate INCLUDES the foreign-economy reinvestment compounding effect &mdash; the GPFG's growth is partly the global-economy productive output reinvested. Stripping the foreign-compound-interest component down to extraction-time rent capture, the per-BOE rent-capture is smaller (~$30-40/BOE).
+     </li>
+     <li>
+      $50/BOE is in 2025 dollars; older extraction-era rent was lower in nominal terms. Inflation-adjusted, the inflation-corrected per-BOE accumulation is roughly $50/BOE.
+     </li>
+     <li>
+      Norway's capture is per-Norwegian-citizen + per-Norwegian-future-generation accounting. It does NOT account for non-Norwegian populations affected by Norwegian oil's climate externalities. Per the case file: "Norwegian-welfare-state is approximately B1-for-Norwegian-citizens but doesn't extend to non-Norwegian populations." So Method 2 anchor is
+      <strong>
+       B₁-for-Norwegians-only
+      </strong>
+      , not aggregate B for the global commons.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Method 2 anchor for Norway:
+     </strong>
+     <strong>
+      ~$50/BOE (B₁-for-Norwegians-only; B₂ globally underdeveloped).
+     </strong>
+    </p>
+    <h5>
+     &sect;1.4 Method 3 &mdash; Scarcity-Adjusted Option Value (upper bound)
+    </h5>
+    <p>
+     <strong>
+      Logic:
+     </strong>
+     Method 3 prices the scarcity-adjusted option value per supplement &sect;3.3 + sensitivity analysis &sect;3.2 (calibrated parameters for Norway).
+    </p>
+    <p>
+     <strong>
+      Norwegian parameter calibration:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      &sigma; &asymp; 50&ndash;200 (oil reserves recoverable via secondary extraction; functionally non-renewable on civilizational scale but partially substitutable)
+     </li>
+     <li>
+      &alpha; &asymp; 0.50&ndash;0.75 (institutional architecture moves Norway out of &alpha;-dominance regime &mdash; restoration optionality preserved through GPFG)
+     </li>
+     <li>
+      V_option &asymp; $30&ndash;200/BOE (climate-policy + future-substitutability uncertainty)
+     </li>
+     <li>
+      &beta; = 1 (default conservative-irreversibility regime)
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Calculation (mid-range parameter choice &mdash; &sigma;=100, &alpha;=0.65, V_option=$80, &beta;=1):
+     </strong>
+    </p>
+    <ul>
+     <li>
+      scarcity_multiplier(&sigma;=100) = 1 + log(101) &times; Hotelling_anchor (using 5%/yr Hotelling-rate proxy) &asymp; 1 + 4.6 &times; 0.05 &asymp; 1.23
+     </li>
+     <li>
+      irreversibility_premium(&alpha;=0.65, &beta;=1) = 1/(0.35) &asymp; 2.86
+     </li>
+     <li>
+      <strong>
+       Method 3 RCV &asymp; $80 &times; 1.23 &times; 2.86 &asymp; $281/BOE
+      </strong>
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Sensitivity range across parameter ranges:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      Low parameters (&sigma;=50, &alpha;=0.50, V_option=$30): $30 &times; 1.20 &times; 2.0 &asymp;
+      <strong>
+       $72/BOE
+      </strong>
+     </li>
+     <li>
+      High parameters (&sigma;=200, &alpha;=0.75, V_option=$200): $200 &times; 1.27 &times; 4.0 &asymp;
+      <strong>
+       $1,016/BOE
+      </strong>
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Method 3 range for Norway:
+     </strong>
+     <strong>
+      ~$70&ndash;1,000/BOE; mid-range ~$280/BOE.
+     </strong>
+    </p>
+    <h5>
+     &sect;1.5 Triangulation findings for Norway
+    </h5>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        Method
+       </th>
+       <th>
+        Estimate (per BOE)
+       </th>
+       <th>
+        What it prices
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        <strong>
+         M1 &mdash; Replacement Cost (Habitability + non-energy-use Foreclosure)
+        </strong>
+       </td>
+       <td>
+        ~$300&ndash;$650
+       </td>
+       <td>
+        Atmospheric DAC + petrochemical-feedstock substitution
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         M2 &mdash; Norway Revealed Preference
+        </strong>
+       </td>
+       <td>
+        ~$50
+       </td>
+       <td>
+        B₁-for-Norwegians-only (extraction rent captured)
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         M3 &mdash; Scarcity-Adjusted Option Value
+        </strong>
+       </td>
+       <td>
+        ~$70&ndash;$1,000 (mid: $280)
+       </td>
+       <td>
+        Combined scarcity + irreversibility + option-value
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <p>
+     <strong>
+      Convergence assessment:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      <strong>
+       M1 and M3 mid-range estimates converge at ~$300/BOE.
+      </strong>
+      Both methods cluster in similar order-of-magnitude RCV territory when calibrated to Norway's parameters.
+     </li>
+     <li>
+      <strong>
+       M2 is the OUTLIER LOWER-BOUND at $50/BOE
+      </strong>
+      &mdash; exactly as Open Insight #14 predicted. Norway's revealed preference is a LOWER bound on true RCV, not a middle estimate. The institutional architecture moved Norway out of the &alpha;-dominance regime BUT did not capture the full atmospheric externality OR the non-Norwegian-population climate cost.
+     </li>
+     <li>
+      <strong>
+       Implied Cost Severance (CS = RCV &minus; B) for Norway:
+      </strong>
+      if RCV ~$300/BOE and B (per-Norwegian) ~$50/BOE, then CS per BOE ~$250/BOE.
+      <strong>
+       Cumulative Norwegian CS &asymp; 50B BOE &times; $250 &asymp; $12.5T.
+      </strong>
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Structural finding:
+     </strong>
+     Even Norway, the framework's canonical-existing-B2 exemplar, carries a residual CS of approximately $10&ndash;15 trillion when triangulated across Three Ways. The framework's claim &mdash; that Norway has dramatically reduced CS but not eliminated it &mdash; is empirically supported. Norway's CS-reduction is ~83% (1 &minus; $50/$300) relative to a hypothetical no-architecture baseline; American extraction regimes' CS-reduction is approximately 0%. The 83-percentage-point gap between Norway's CS and American CS is the framework's load-bearing empirical claim.
+    </p>
+    <hr>
+    <h3>
+     &sect;11.2 Block 4 &mdash; Appalachian coal (McDowell County) calibration
+    </h3>
+    <p>
+     <strong>
+      Source:
+     </strong>
+     <code>
+      core/technical-appendix/block4_validation_2026-04-25.md
+     </code>
+     &sect;2.
+Worked execution of Methods 1+2+3 against McDowell County coal-extraction data 1900&ndash;2020.
+Companion to &sect;11.1 Norway.
+    </p>
+    <h4>
+     &sect;2. Appalachian coal calibration &mdash; Three Ways of Counting executed
+    </h4>
+    <h5>
+     &sect;2.1 Empirical anchors (McDowell County, West Virginia, 1900-2020)
+    </h5>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        Anchor
+       </th>
+       <th>
+        Value
+       </th>
+       <th>
+        Source
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        <strong>
+         Cumulative coal production (McDowell + adjacent counties, peak production era)
+        </strong>
+       </td>
+       <td>
+        ~600 million tons
+       </td>
+       <td>
+        West Virginia Geological Survey + USGS coal-production statistics
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         1960 average coal price (Ch 6 convergence-table anchor)
+        </strong>
+       </td>
+       <td>
+        $4.50/ton
+       </td>
+       <td>
+        Ch 6 HTML convergence table; case-file ratified
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Documented IPG &mdash; case-file ratified canonical
+        </strong>
+       </td>
+       <td>
+        ~33&ndash;122&times;
+       </td>
+       <td>
+        Case-study audit &sect;2.1 + terms_index Severed Cost record
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Carbon intensity (combusted)
+        </strong>
+       </td>
+       <td>
+        ~2.86 tons CO₂ per ton coal
+       </td>
+       <td>
+        EPA emissions factors
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Cumulative emissions from McDowell coal (combusted)
+        </strong>
+       </td>
+       <td>
+        ~1.7 billion tons CO₂
+       </td>
+       <td>
+        Calculated: 600M tons &times; 2.86 t/t
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Black Lung Trust Fund cumulative payouts (1969-present)
+        </strong>
+       </td>
+       <td>
+        ~$44 billion + $4.6B current debt
+       </td>
+       <td>
+        Black Lung Trust Fund annual reports
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Reclamation Bond shortfalls
+        </strong>
+       </td>
+       <td>
+        $4&ndash;6 billion gap (industry-vs-actual)
+       </td>
+       <td>
+        OSMRE; GAO-17-207R
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Bankruptcy-transferred liabilities
+        </strong>
+       </td>
+       <td>
+        ~$865M to taxpayers (2014-2016 alone)
+       </td>
+       <td>
+        OSMRE bankruptcy filings
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         McDowell County life-expectancy gap
+        </strong>
+       </td>
+       <td>
+        13 years vs. national-average county
+       </td>
+       <td>
+        CDC + Robert Wood Johnson Foundation county health rankings
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <h5>
+     &sect;2.2 Method 1 &mdash; Replacement Cost (lower-bound floor)
+    </h5>
+    <p>
+     <strong>
+      Habitability commons (atmospheric component):
+     </strong>
+    </p>
+    <ul>
+     <li>
+      1.7B tons CO₂ &times; $300&ndash;600/ton DAC at-scale =
+      <strong>
+       $510B &ndash; $1.02T atmospheric replacement cost
+      </strong>
+      (cumulative).
+     </li>
+     <li>
+      Per-ton coal: $510B / 600M tons =
+      <strong>
+       $850&ndash;$1,700/ton coal at conservative DAC; $283&ndash;$1,700/ton at optimistic DAC
+      </strong>
+      .
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Habitability + Ecosystem (mountaintop-removal habitat + watershed):
+     </strong>
+    </p>
+    <ul>
+     <li>
+      Mountaintop-removal restoration estimates (where engineering substitution is partial): ~$50,000&ndash;$200,000/acre disturbed; cumulative McDowell disturbed area ~150,000 acres &rarr;
+      <strong>
+       ~$7.5B&ndash;30B Ecosystem Method 1 floor
+      </strong>
+      (substitutable component only; non-substitutable component priced higher in Method 3).
+     </li>
+     <li>
+      Per-ton coal: ~$12&ndash;50/ton.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Cohesion + Kindred + Spatial (community-replacement):
+     </strong>
+    </p>
+    <ul>
+     <li>
+      Cohesive-community-replacement is the least Method-1-tractable. Conservative engineering-substitute estimate: ~$200,000-500,000/displaced-resident &times; 50,000 net out-migration &asymp; $10&ndash;25B. Per-ton coal ~$17&ndash;42/ton.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Method 1 anchor for McDowell coal (combined Habitability + Ecosystem + Cohesion floors):
+     </strong>
+     <strong>
+      ~$880&ndash;$1,800/ton coal at conservative DAC; ~$310&ndash;$1,800/ton at optimistic DAC.
+     </strong>
+    </p>
+    <h5>
+     &sect;2.3 Method 2 &mdash; Revealed Preference (anchor)
+    </h5>
+    <p>
+     <strong>
+      Logic:
+     </strong>
+     Method 2 for McDowell reveals what existing accountability regimes captured, NOT what was wrongly extracted. The expected result is that B &lt;&lt; RCV by orders of magnitude &mdash; the "accountability gap" the framework names.
+    </p>
+    <p>
+     <strong>
+      Calculation:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      Black Lung Trust Fund cumulative payouts: $44B over 56 years
+     </li>
+     <li>
+      Reclamation bonds posted (net of shortfalls): ~$3-5B
+     </li>
+     <li>
+      Bankruptcy-transferred-to-taxpayer liabilities: ~$0.9B (recent era only)
+     </li>
+     <li>
+      Other miner-compensation + medical-cost-shifting: estimated ~$5-10B (uncovered medical care; disability programs)
+     </li>
+     <li>
+      <strong>
+       Total realized B for McDowell-coal context: ~$53-60B (50+ years aggregate)
+      </strong>
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Per-ton coal: $53B / 600M tons &asymp; $88/ton (2025$ adjusted; nominal-era figures are lower).
+     </strong>
+    </p>
+    <p>
+     <strong>
+      Note:
+     </strong>
+     This is an upper-bound on realized B because some of these dollars (Black Lung Trust Fund) are paid by the federal general fund, not by the extracting industry &mdash; meaning B as captured-by-the-extraction-bond-architecture is even lower. Industry-paid component is roughly $5-8B (reclamation bonds + private medical settlements).
+     <strong>
+      Industry-paid B per ton ~$8-15/ton.
+     </strong>
+    </p>
+    <p>
+     <strong>
+      Method 2 anchor for McDowell coal:
+     </strong>
+     <strong>
+      ~$8&ndash;88/ton (low end: industry-paid only; high end: societally-paid including Black Lung).
+     </strong>
+    </p>
+    <h5>
+     &sect;2.4 Method 3 &mdash; Scarcity-Adjusted Option Value (upper bound)
+    </h5>
+    <p>
+     <strong>
+      McDowell parameter calibration:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      &sigma; &asymp; 200&ndash;500 (coal regenerates over geological time; functionally non-renewable; high effective scarcity)
+     </li>
+     <li>
+      &alpha; &asymp; 0.85&ndash;0.95 (mountaintop-removal habitat irreversible at finite engineering cost; cultural-and-community commons irreversible without targeted intervention; atmospheric carbon-cycle disruption irreversible at climate-tipping-point boundary)
+     </li>
+     <li>
+      V_option &asymp; $50&ndash;500/ton (per-ton coal option value of preserving the resource for future-non-energy-uses + climate-stability)
+     </li>
+     <li>
+      &beta; = 1 (conservative; &beta; = 2 produces order-of-magnitude amplification per &sect;3.4 sensitivity)
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Calculation (mid-range parameter choice &mdash; &sigma;=300, &alpha;=0.9, V_option=$200, &beta;=1):
+     </strong>
+    </p>
+    <ul>
+     <li>
+      scarcity_multiplier(&sigma;=300) = 1 + log(301) &times; 0.05 &asymp; 1.29
+     </li>
+     <li>
+      irreversibility_premium(&alpha;=0.9, &beta;=1) = 1/(0.10) = 10
+     </li>
+     <li>
+      <strong>
+       Method 3 RCV &asymp; $200 &times; 1.29 &times; 10 &asymp; $2,580/ton
+      </strong>
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Sensitivity range:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      Low parameters (&sigma;=200, &alpha;=0.85, V_option=$50): $50 &times; 1.27 &times; 6.67 &asymp;
+      <strong>
+       $420/ton
+      </strong>
+     </li>
+     <li>
+      High parameters (&sigma;=500, &alpha;=0.95, V_option=$500): $500 &times; 1.31 &times; 20 &asymp;
+      <strong>
+       $13,100/ton
+      </strong>
+     </li>
+     <li>
+      Conservative &beta;=2 at &alpha;=0.9: irreversibility_premium = 100; Method 3 &asymp; $25,800/ton (precaution-regime)
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Method 3 range for McDowell coal:
+     </strong>
+     <strong>
+      ~$420&ndash;$13,100/ton at &beta;=1; ~$5,000&ndash;$130,000/ton at &beta;=2 precaution-regime; mid-range &beta;=1 ~$2,500/ton.
+     </strong>
+    </p>
+    <h5>
+     &sect;2.5 Triangulation findings for McDowell coal
+    </h5>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        Method
+       </th>
+       <th>
+        Estimate (per ton coal)
+       </th>
+       <th>
+        What it prices
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        <strong>
+         M1 &mdash; Replacement Cost (Habitability + Ecosystem + Cohesion floors)
+        </strong>
+       </td>
+       <td>
+        ~$310&ndash;$1,800 (DAC-horizon-dependent)
+       </td>
+       <td>
+        Engineering-substitute floors for substitutable components
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         M2 &mdash; Revealed Preference (existing accountability regime)
+        </strong>
+       </td>
+       <td>
+        ~$8&ndash;$88 (industry-paid: $8-15; societally-paid including Black Lung: $50-88)
+       </td>
+       <td>
+        What existing B has actually captured
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         M3 &mdash; Scarcity-Adjusted Option Value (&beta;=1 default)
+        </strong>
+       </td>
+       <td>
+        ~$420&ndash;$13,100 (mid: $2,500)
+       </td>
+       <td>
+        Combined scarcity + irreversibility + option-value (&alpha;-dominated)
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <p>
+     <strong>
+      Convergence assessment:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      <strong>
+       M1 and M3 mid-range converge at ~$1,000-3,000/ton coal.
+      </strong>
+      Triangulation finding: when &alpha; is near 1 (the McDowell case), M3 dominates and exceeds M1 substantially. M1 is the floor; M3 sets the upper bound; the gap between them is informative &mdash; it's the irreversibility premium.
+     </li>
+     <li>
+      <strong>
+       M2 is dramatically below M1 and M3 &mdash; by 1-3 orders of magnitude.
+      </strong>
+      This is the framework's load-bearing empirical claim: existing American accountability regimes capture ~1-3% of true RCV for McDowell coal. The "accountability gap" is real, large, and triangulation-confirmed.
+     </li>
+     <li>
+      <strong>
+       Implied Cost Severance:
+      </strong>
+      at RCV ~$2,500/ton (M3 mid-range) and B ~$50-88/ton (M2 societally-paid), CS &asymp; $2,400-2,450/ton.
+      <strong>
+       Per-ton CS ~50&times; the 1960-era market price; per-ton CS dwarfs the realized B by 25-50&times;.
+      </strong>
+     </li>
+     <li>
+      <strong>
+       IPG calculation:
+      </strong>
+      if IPG = (RCV / market price), then McDowell IPG &asymp; $2,500 / $4.50 (1960 nominal) &asymp;
+      <strong>
+       555&times;
+      </strong>
+      &mdash; but this is mixing 1960 nominal with 2025 RCV, which inflates the ratio. Inflation-corrected (1960 $4.50 &asymp; $50 in 2025), McDowell IPG &asymp; $2,500 / $50 &asymp;
+      <strong>
+       50&times;
+      </strong>
+      . This is roughly consistent with case-file canonical 33-122&times; range and confirms the canonical compression at the lower end.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Structural finding:
+     </strong>
+     McDowell coal triangulates to an RCV in the $1,000-3,000/ton range (2025$), against realized B of $50-88/ton (societally-paid; $8-15/ton industry-paid). The 50&times; IPG ratio is empirically grounded by triangulation across three independent methods. The framework's "accountability gap" claim is structurally supported.
+    </p>
+    <hr>
+    <h3>
+     &sect;11.3 CSD&ndash;RCV correlation hypothesis test (Open Insight #19)
+    </h3>
+    <p>
+     <strong>
+      Source:
+     </strong>
+     <code>
+      core/technical-appendix/block4_validation_2026-04-25.md
+     </code>
+     &sect;3.
+The two-case Norway + McDowell test surfaces an Open-Insight #19 reframing finding: CSD and RCV
+do not invert as the original hypothesis assumed. They positively correlate (extraction-severity
+signature) while remaining structurally orthogonal (per Block 1 two-instrument architecture).
+Both findings are framework-coherent.
+    </p>
+    <h4>
+     &sect;3. CSD-RCV correlation hypothesis test (Open Insight #19)
+    </h4>
+    <p>
+     <strong>
+      Hypothesis under test:
+     </strong>
+     <em>
+      contexts with high CSD (large past extraction) tend to have low RCV (commons largely consumed); contexts with low CSD (early-stage extraction) tend to have high RCV (commons largely intact).
+     </em>
+    </p>
+    <h5>
+     &sect;3.1 The two-case test
+    </h5>
+    <p>
+     <strong>
+      Norway:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      CSD: relatively low (Norwegian welfare-state outcomes good; Norwegian population per-capita well-served by GPFG; Norwegian land minimally damaged by extraction; CSD is concentrated in non-Norwegian populations affected by climate externalities, which is large in absolute terms but distributed globally rather than localized).
+     </li>
+     <li>
+      RCV: moderate-to-high. Norway captured ~17% of true RCV (M2 / M3 mid-range; $50/BOE / $300/BOE); the remaining 83% is uncaptured.
+     </li>
+     <li>
+      <strong>
+       Norway = moderate CSD + high uncaptured RCV.
+      </strong>
+     </li>
+    </ul>
+    <p>
+     <strong>
+      McDowell coal (Appalachian):
+     </strong>
+    </p>
+    <ul>
+     <li>
+      CSD: VERY high. 13-year life-expectancy gap; population collapse; cultural commons hollowed out; Black Lung mortality cumulative across generations; community-transition costs uncompensated.
+     </li>
+     <li>
+      RCV: very high (the commons-loss continues even after extraction ends; mountaintop-removal habitat irreversible; carbon externality persists for centuries).
+     </li>
+     <li>
+      <strong>
+       McDowell = very high CSD + very high uncaptured RCV.
+      </strong>
+     </li>
+    </ul>
+    <h5>
+     &sect;3.2 What the two-case test shows
+    </h5>
+    <p>
+     The hypothesis predicted
+     <strong>
+      inverse correlation
+     </strong>
+     (high CSD &rarr; low RCV; low CSD &rarr; high RCV). The two cases show:
+    </p>
+    <ul>
+     <li>
+      Norway: moderate CSD + moderate-high uncaptured RCV.
+     </li>
+     <li>
+      McDowell: very high CSD + very high uncaptured RCV.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      This is POSITIVE correlation, not inverse.
+     </strong>
+     Both Norway and McDowell carry uncaptured RCV; McDowell carries more on both axes simultaneously.
+    </p>
+    <p>
+     <strong>
+      Reframing of Open Insight #19:
+     </strong>
+     the original hypothesis ("inverse correlation") may be wrong. The empirical pattern in two-case test is
+     <strong>
+      positive correlation: contexts with more extraction-history have BOTH more CSD (more harm done to commons-bearers) AND more uncaptured RCV (more commons-loss not yet priced).
+     </strong>
+    </p>
+    <p>
+     This is actually structurally consistent with the framework: extraction does not subtract CSD from RCV; it adds to BOTH. Past extraction harms the commons-bearers (CSD &uarr;) AND consumes the commons (RCV &uarr; where uncaptured). The two move TOGETHER, not in opposition.
+    </p>
+    <h5>
+     &sect;3.3 Implications
+    </h5>
+    <p>
+     <strong>
+      For the framework:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      The
+      <strong>
+       two-instrument architecture remains structurally sound
+      </strong>
+      but the correlation hypothesis as initially specified should be reframed.
+     </li>
+     <li>
+      The reframed hypothesis:
+      <em>
+       contexts with more extraction history carry both more CSD and more uncaptured RCV; the framework's two-instrument architecture is the apparatus that makes both visible simultaneously.
+      </em>
+     </li>
+     <li>
+      This is a stronger structural claim than the inverse-correlation hypothesis, because it means CSD-and-RCV-co-elevation is a SIGNATURE of severity-of-extraction rather than an independence finding.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      For Open Insight #19 status:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Initial hypothesis: NOT SUPPORTED by two-case test.
+      </strong>
+     </li>
+     <li>
+      <strong>
+       Reframed hypothesis (positive correlation as severity-signature):
+      </strong>
+      PRELIMINARILY SUPPORTED; needs broader case-set test (Block 4 cross-case extension).
+     </li>
+     <li>
+      <strong>
+       Block 4 follow-up:
+      </strong>
+      test on additional cases &mdash; opioid Appalachia (very high CSD + moderate RCV); Chesapeake fisheries (moderate CSD + boundary-case RCV); indigenous land dispossession (very high CSD + cross-domain RCV that's about enclosure not depletion).
+     </li>
+    </ul>
+    <p>
+     <strong>
+      For Phase B publication:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      Tech Appendix should report the Open Insight #19 reframing as part of the Three Ways validation discussion.
+     </li>
+     <li>
+      The framing change is methodologically important: CSD and RCV are not redundant measurements (independence preserved); but they are co-driven by extraction-history (positive correlation expected for the framework's primary case-class).
+     </li>
+    </ul>
+    <hr>
+    <h3>
+     &sect;11.4 Method 3 sensitivity analysis &mdash; &alpha;-dominance finding + cross-case dominance map
+    </h3>
+    <p>
+     <strong>
+      Source:
+     </strong>
+     <code>
+      core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md
+     </code>
+     &sect;3 + &sect;4. Sensitivity analysis of Method 3 RCV
+     <sub>
+      M3
+     </sub>
+     = V
+     <sub>
+      option
+     </sub>
+     &times;
+scarcity_multiplier(&sigma;) &times; irreversibility_premium(&alpha;) across realistic &sigma; + &alpha; + V
+     <sub>
+      option
+     </sub>
+     ranges
++ functional-form specifications. Key finding:
+     <strong>
+      &alpha; (irreversibility) dominates the cross-case
+output range
+     </strong>
+     . The framework debate about RCV is therefore a debate about irreversibility &mdash;
+the empirical companion to the Asymmetric Regret Rule's irreversibility-weighting (&sect;8 / supplement &sect;7).
+Same structural insight expressed at decision-rule level (ARR) and estimation-method level (Method 3).
+    </p>
+    <h4>
+     &sect;3. Sensitivity findings
+    </h4>
+    <h5>
+     &sect;3.1 Dominance map
+    </h5>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        Regime
+       </th>
+       <th>
+        &sigma;
+       </th>
+       <th>
+        &alpha;
+       </th>
+       <th>
+        V_option
+       </th>
+       <th>
+        Dominant parameter
+       </th>
+       <th>
+        Why
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        <strong>
+         Commons-extinction-class
+        </strong>
+       </td>
+       <td>
+        any
+       </td>
+       <td>
+        0.9&ndash;1.0
+       </td>
+       <td>
+        any
+       </td>
+       <td>
+        <strong>
+         &alpha;
+        </strong>
+       </td>
+       <td>
+        irreversibility_premium &rarr; &infin; as &alpha; &rarr; 1; nothing else matters at order-of-magnitude scale
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Scarce-but-restorable
+        </strong>
+       </td>
+       <td>
+        100+
+       </td>
+       <td>
+        0.1&ndash;0.5
+       </td>
+       <td>
+        any
+       </td>
+       <td>
+        <strong>
+         &sigma;
+        </strong>
+       </td>
+       <td>
+        scarcity_multiplier carries the work; irreversibility_premium &asymp; 1
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Abundant-restorable
+        </strong>
+       </td>
+       <td>
+        0.1&ndash;10
+       </td>
+       <td>
+        0&ndash;0.1
+       </td>
+       <td>
+        varies
+       </td>
+       <td>
+        <strong>
+         V_option
+        </strong>
+       </td>
+       <td>
+        both multipliers &asymp; 1; V_option drives the result
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Hybrid (most real cases)
+        </strong>
+       </td>
+       <td>
+        10&ndash;100
+       </td>
+       <td>
+        0.5&ndash;0.9
+       </td>
+       <td>
+        $100&ndash;$10,000
+       </td>
+       <td>
+        <strong>
+         mixed; &alpha; &rarr; &sigma; &rarr; V_option order
+        </strong>
+       </td>
+       <td>
+        &alpha; matters most because it's near-1; &sigma; second because it's the visible scarcity; V_option third because it's the dimensional anchor
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <h5>
+     &sect;3.2 Worked-example application (using framework's three calibration cases)
+    </h5>
+    <p>
+     Method 3 estimates for the framework's three named calibration anchors per supplement &sect;3.3 worked-example:
+    </p>
+    <p>
+     <strong>
+      McDowell coal (Appalachian extraction context):
+     </strong>
+    </p>
+    <ul>
+     <li>
+      &sigma; &asymp; 200&ndash;500 (coal regenerates over geological time; functionally non-renewable on civilizational scale)
+     </li>
+     <li>
+      &alpha; &asymp; 0.85&ndash;0.95 (mountaintop-removal habitat is mostly irreversible; community-and-cultural commons partially recoverable through targeted intervention but largely lost in current US policy regime)
+     </li>
+     <li>
+      V_option &asymp; $500&ndash;$2,000/ton (energy-system substitution + climate-stability optionality)
+     </li>
+     <li>
+      <strong>
+       Dominance:
+      </strong>
+      <strong>
+       &alpha; dominates
+      </strong>
+      (irreversibility_premium &asymp; 7&ndash;20 at &alpha; = 0.85&ndash;0.95; scarcity_multiplier &asymp; 6&ndash;7 via log(1+200..500); V_option &asymp; $500&ndash;$2,000). The framework's RCV estimate for McDowell is driven primarily by irreversibility &mdash; the framework's "the coal is gone" / "the mountains are cut" claim is the load-bearing structural finding.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Norwegian oil (Method 2 calibration anchor):
+     </strong>
+    </p>
+    <ul>
+     <li>
+      &sigma; &asymp; 50&ndash;200 (oil reserves; recoverable secondary extraction reduces effective &sigma;)
+     </li>
+     <li>
+      &alpha; &asymp; 0.50&ndash;0.75 (Norwegian extraction is partially recoverable via sovereign-wealth-fund accumulation that could fund DAC-class restoration; the resource itself is lost but the value is preserved through the institutional architecture)
+     </li>
+     <li>
+      V_option &asymp; $30&ndash;$200/barrel (climate-policy + future-substitutability uncertainty)
+     </li>
+     <li>
+      <strong>
+       Dominance:
+      </strong>
+      <strong>
+       &sigma; + &alpha; near-equal; V_option third.
+      </strong>
+      Norway's institutional architecture has reduced effective irreversibility (by funding restoration optionality through GPFG accumulation) &mdash; so &alpha; is moderate rather than near-1, and &sigma; + &alpha; both matter. This is the structural reason Norway is the framework's canonical-existing-B2 exemplar: institutional architecture moves the case out of the &alpha;-dominance regime.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Asteroid mining (Ch 7 thought-experiment):
+     </strong>
+    </p>
+    <ul>
+     <li>
+      &sigma; &asymp; 1&ndash;10 (cosmic-scale stocks; substitutability across asteroids &asymp; 1; effective scarcity is low)
+     </li>
+     <li>
+      &alpha; &asymp; 0.05&ndash;0.2 (asteroid extraction is recoverable through extraction of substitutes; minimal habitat / community / atmospheric loss)
+     </li>
+     <li>
+      V_option &asymp; $0.01&ndash;$10/ton (low option value because substitution is plentiful)
+     </li>
+     <li>
+      <strong>
+       Dominance:
+      </strong>
+      <strong>
+       V_option dominates by default.
+      </strong>
+      Both multipliers &asymp; 1; V_option &times; small-multiplier produces small RCV; framework's "RCV approaches market price for asteroid iron" claim follows. This is the framework correctly producing market-price-equivalent answers where market pricing is approximately right &mdash; exactly the calibration the asteroid case is designed to demonstrate.
+     </li>
+    </ul>
+    <h5>
+     &sect;3.3 Cross-case dominance pattern
+    </h5>
+    <p>
+     The dominance map across the three calibration cases reveals a structural finding:
+    </p>
+    <p>
+     <strong>
+      No single parameter universally dominates Method 3 across the framework's case landscape.
+     </strong>
+     Different cases activate different parameters as the dominant driver:
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Earth-bound civilization-scale extractions
+      </strong>
+      (McDowell coal; Appalachian habitat; atmospheric stability): &alpha; dominates because irreversibility is what makes commons-extinction the load-bearing concern.
+     </li>
+     <li>
+      <strong>
+       Institutional-architecture-mediated extractions
+      </strong>
+      (Norway oil; well-managed renewables): &sigma; + &alpha; moderate; V_option third. Institutional architecture is the lever that shifts cases out of the &alpha;-dominance regime.
+     </li>
+     <li>
+      <strong>
+       Substitutable / cosmic-scale extractions
+      </strong>
+      (asteroid; cosmic resources): V_option dominates because both multipliers approach 1.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      This is itself the framework's load-bearing structural claim about Method 3:
+     </strong>
+     RCV is driven by
+     <em>
+      whatever is closest to its range-extreme
+     </em>
+     , and the framework's primary cases (industrial-existential extraction) cluster in the &alpha;-dominance regime. The framework's "irreversibility is the heart of the matter" prose claim is empirically supported by this sensitivity pattern.
+    </p>
+    <h5>
+     &sect;3.4 Sensitivity to &beta; (irreversibility-aversion calibration)
+    </h5>
+    <p>
+     Switching from &beta; = 1 to &beta; = 2 in irreversibility_premium amplifies the &alpha;-dominance regime by additional orders of magnitude near &alpha; = 1. For the McDowell case at &alpha; = 0.9, irreversibility_premium grows from 10 (&beta; = 1) to 100 (&beta; = 2), shifting the framework's RCV by an order of magnitude.
+    </p>
+    <p>
+     <strong>
+      Methodological recommendation:
+     </strong>
+     &beta; = 1 is the conservative-default for Phase B publication. Sensitivity to &beta; = 2 should be reported as an alternative-precaution-regime in the Tech Appendix Method 3 specification. Author / future-implementation can calibrate &beta; to the case's risk-posture (climate-tipping-point cases may warrant &beta; &gt; 1; well-restorable cases warrant &beta; closer to 1).
+    </p>
+    <hr>
+    <h4>
+     &sect;4. Implications for framework debate-narrowing
+    </h4>
+    <p>
+     The Open Insight #20 motivation was:
+     <em>
+      if one parameter dominates, the real debate about RCV becomes a debate about that parameter, narrowing the framework's contested surface.
+     </em>
+    </p>
+    <p>
+     <strong>
+      Sensitivity finding for that motivation:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      The framework's
+      <strong>
+       Earth-bound primary cases
+      </strong>
+      (McDowell, Deepwater, Libby, atmospheric-carbon, biodiversity, indigenous-dispossession) all cluster in the
+      <strong>
+       &alpha;-dominance regime
+      </strong>
+      .
+     </li>
+     <li>
+      For those cases, the real debate about RCV is
+      <strong>
+       a debate about irreversibility
+      </strong>
+      &mdash; not a debate about discount rates, not a debate about scarcity, not a debate about option-value.
+      <strong>
+       Whether commons-loss is irreversible is the load-bearing empirical question.
+      </strong>
+     </li>
+     <li>
+      This is
+      <strong>
+       the framework's optimal contested-surface positioning
+      </strong>
+      : irreversibility is empirically tractable (extraction either is or isn't reversible at finite engineering cost), philosophically aligned with the framework's Asymmetric Regret Rule (irreversibility weights the rule), and academically aligned with the IPCC AR6 / climate-tipping-point literature.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Phase B publication recommendation:
+     </strong>
+     Tech Appendix Method 3 specification should foreground the &alpha;-dominance finding and frame the framework's contested surface as "is this commons-loss irreversible?" rather than the broader "is the RCV estimate correct?" The narrower question is more empirically tractable and more aligned with established climate-economics + biodiversity-economics + cultural-preservation literature.
+    </p>
+    <p>
+     This narrowing is itself a methodological contribution: by surfacing &alpha;-dominance, the framework gives reviewers + opponents + adopters a focused empirical question rather than an uncontainable methodological debate.
+    </p>
+    <hr>
+    <h3>
+     &sect;11.5 DAC three-horizon range &mdash; Method 1 Habitability commons anchor specification
+    </h3>
+    <p>
+     <strong>
+      Source:
+     </strong>
+     <code>
+      core/technical-appendix/empirical_sourcing_pass_2026-04-25.md
+     </code>
+     &sect;1. Operationalizes Method 1 Replacement Cost for the Habitability commons (atmospheric CO₂)
+via a three-horizon DAC cost range &mdash; present operational facilities ($600&ndash;1,200/tCO₂); 2030&ndash;2040
+projections ($150&ndash;500/tCO₂); long-run scaled-engineering targets ($100&ndash;200/tCO₂). The three-horizon
+framing replaces single-point anchors with time-bounded ranges that honor scale-up uncertainty.
+Distinct from Social Cost of Carbon (SCC): SCC measures damages-avoided whereas DAC measures
+direct-replacement cost &mdash; both inputs to RCV but at different methodological layers.
+    </p>
+    <h4>
+     &sect;1. Direct-air-capture (DAC) cost per ton CO₂ &mdash; Tech Appendix supplement &sect;3.1 anchor
+    </h4>
+    <p>
+     The supplement &sect;3.1 (Method 1 Replacement Cost) uses DAC cost-per-ton as the worked-example anchor for the Habitability commons (atmospheric ecosystem). The Method 1 logic: the floor on Habitability-commons Residual Commons Value is the engineering cost to replace the substitutable component of the commons (the CO₂-removal function the atmosphere provides at zero marginal cost via natural sinks).
+    </p>
+    <h5>
+     &sect;1.1 Operational DAC facilities (2024-2025 cost figures)
+    </h5>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        Facility
+       </th>
+       <th>
+        Operator
+       </th>
+       <th>
+        Operational since
+       </th>
+       <th>
+        Capture capacity
+       </th>
+       <th>
+        Cost per ton CO₂ (current)
+       </th>
+       <th>
+        Cost per ton CO₂ (target at scale)
+       </th>
+       <th>
+        Source
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        <strong>
+         Orca
+        </strong>
+        (Iceland)
+       </td>
+       <td>
+        Climeworks
+       </td>
+       <td>
+        2021
+       </td>
+       <td>
+        ~4,000 tons/year
+       </td>
+       <td>
+        ~$600&ndash;$1,000/ton
+       </td>
+       <td>
+        n/a (pilot)
+       </td>
+       <td>
+        Climeworks public reporting; IEA
+        <em>
+         Direct Air Capture 2022
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Mammoth
+        </strong>
+        (Iceland)
+       </td>
+       <td>
+        Climeworks
+       </td>
+       <td>
+        2024
+       </td>
+       <td>
+        ~36,000 tons/year (target full scale)
+       </td>
+       <td>
+        ~$600&ndash;$1,000/ton initial; targeting ~$300&ndash;$400/ton at full operation
+       </td>
+       <td>
+        $300&ndash;$400/ton
+       </td>
+       <td>
+        Climeworks public reporting (2024 commissioning); MIT Technology Review coverage
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Stratos
+        </strong>
+        (Texas, US)
+       </td>
+       <td>
+        Carbon Engineering / 1PointFive (Occidental)
+       </td>
+       <td>
+        construction; targeting 2025 commissioning
+       </td>
+       <td>
+        ~500,000 tons/year (target)
+       </td>
+       <td>
+        n/a (pre-operational)
+       </td>
+       <td>
+        $94&ndash;$232/ton (Carbon Engineering 2018
+        <em>
+         Joule
+        </em>
+        paper basis); ~$300&ndash;$600/ton more conservative third-party estimates
+       </td>
+       <td>
+        Keith et al., "A Process for Capturing CO2 from the Atmosphere,"
+        <em>
+         Joule
+        </em>
+        (2018); 1PointFive announcements
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <p>
+     <strong>
+      Provisional consolidated range for Habitability-commons Method 1 anchor:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Conservative (current operational, first-of-a-kind):
+      </strong>
+      $600&ndash;$1,000/ton CO₂.
+     </li>
+     <li>
+      <strong>
+       Mid-range (declared targets at-scale, next 5&ndash;10 years):
+      </strong>
+      $300&ndash;$600/ton CO₂.
+     </li>
+     <li>
+      <strong>
+       Optimistic (industry-target nth-of-a-kind by 2050):
+      </strong>
+      $100&ndash;$300/ton CO₂.
+     </li>
+    </ul>
+    <p>
+     The framework's Method 1 anchor should report all three ranges with explicit time-horizon attribution, not a single point estimate.
+    </p>
+    <h5>
+     &sect;1.2 Authoritative review-literature ranges
+    </h5>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        Source
+       </th>
+       <th>
+        DAC cost range
+       </th>
+       <th>
+        Time horizon
+       </th>
+       <th>
+        Notes
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        <strong>
+         IEA,
+         <em>
+          Direct Air Capture: A Key Technology for Net Zero
+         </em>
+        </strong>
+        (2022)
+       </td>
+       <td>
+        $125&ndash;$335/ton CO₂ for early commercial-scale; $100/ton achievable by 2030 in optimistic scenarios
+       </td>
+       <td>
+        2025&ndash;2030 commercial-scale; 2030+ optimistic
+       </td>
+       <td>
+        IEA's reference framing. https://www.iea.org/reports/direct-air-capture-2022
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         IEA,
+         <em>
+          Net Zero by 2050
+         </em>
+        </strong>
+        (2021)
+       </td>
+       <td>
+        $130&ndash;$330/ton CO₂
+       </td>
+       <td>
+        2030 commercial-scale
+       </td>
+       <td>
+        Net-Zero scenario assumption.
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         IPCC AR6 Working Group III
+        </strong>
+        (2022), Chapter 12
+       </td>
+       <td>
+        $100&ndash;$300/ton CO₂ in optimistic deployment scenarios; &gt;$1,000/ton in pessimistic
+       </td>
+       <td>
+        2030&ndash;2050
+       </td>
+       <td>
+        https://www.ipcc.ch/report/ar6/wg3/
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         National Academies (US),
+         <em>
+          Negative Emissions Technologies and Reliable Sequestration
+         </em>
+        </strong>
+        (2019)
+       </td>
+       <td>
+        $100&ndash;$600/ton CO₂ over a wide deployment-scenario sensitivity
+       </td>
+       <td>
+        2030&ndash;2050
+       </td>
+       <td>
+        Pre-Stratos; figures may underrepresent recent learning curves.
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Realmonte et al.,
+         <em>
+          Nature Communications
+         </em>
+        </strong>
+        (2019)
+       </td>
+       <td>
+        $100&ndash;$600/ton CO₂ at multi-gigaton scale
+       </td>
+       <td>
+        2050
+       </td>
+       <td>
+        Modeled at-scale figure.
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         House et al.,
+         <em>
+          PNAS
+         </em>
+        </strong>
+        (2011)
+       </td>
+       <td>
+        $1,000+/ton CO₂ early estimate
+       </td>
+       <td>
+        2010s pessimistic
+       </td>
+       <td>
+        Early-literature pessimistic floor; useful for steelman engagement on M6.4.
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <h5>
+     &sect;1.3 Recommended Method 1 anchor specification (for Tech Appendix supplement &sect;3.1 + Ch 6 main-text integration)
+    </h5>
+    <p>
+     <strong>
+      Recommended language (Phase B integration):
+     </strong>
+    </p>
+    <blockquote>
+     <p>
+      The Habitability-commons Method 1 anchor is the engineering cost to remove and sequester one ton of CO₂ via direct-air-capture (DAC). Operational DAC facilities (Climeworks Orca and Mammoth in Iceland, 2021 and 2024) currently report capture costs in the range of $600&ndash;$1,000 per ton CO₂. Targets for at-scale commercial deployment over the next decade are in the $300&ndash;$600/ton range (Climeworks Mammoth full-operation target; Carbon Engineering / 1PointFive Stratos pre-operational projection). Authoritative review literature (IEA
+      <em>
+       Direct Air Capture 2022
+      </em>
+      ; IPCC AR6 Working Group III, 2022; US National Academies 2019) places the achievable cost by 2050 in the $100&ndash;$300/ton range under optimistic deployment scenarios. The Method 1 anchor accordingly reports a three-horizon range: $600&ndash;$1,000/ton (current operational), $300&ndash;$600/ton (at-scale commercial within the next decade), $100&ndash;$300/ton (optimistic 2050 nth-of-a-kind). The atmospheric-commons CS arithmetic uses the appropriate-horizon figure for the comparison being made; the McDowell-coal carbon term (Ch 6 convergence table) uses the IPCC-aligned $190/ton SCC for a reason distinct from DAC replacement-cost: SCC prices the damage caused, DAC prices the engineering reversal of that damage, and the two should not be conflated.
+     </p>
+    </blockquote>
+    <p>
+     <strong>
+      Distinction discipline:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Social Cost of Carbon (SCC):
+      </strong>
+      prices the damage that one ton of CO₂ emission causes (current US EPA central estimate: $190/ton CO₂ at 2% discount rate; Rennert et al. 2022
+      <em>
+       Nature
+      </em>
+      ).
+     </li>
+     <li>
+      <strong>
+       DAC cost-per-ton:
+      </strong>
+      prices the engineering cost to remove one ton already emitted.
+     </li>
+     <li>
+      <strong>
+       Method 1 (Replacement Cost) Habitability anchor:
+      </strong>
+      uses DAC, NOT SCC. The Method 1 logic is "what would it cost to engineer a substitute for the commons function" &mdash; the substitute function for the atmospheric CO₂-removal capacity is DAC. SCC is the damage-side number; Method 1 is the substitution-side number. They appear together in the convergence-table presentation but answer different questions.
+     </li>
+    </ul>
+    <hr>
+    <h3>
+     &sect;11.6 Space-economics anchors &mdash; Ch 7 (asteroid miner) calibration
+    </h3>
+    <p>
+     <strong>
+      Source:
+     </strong>
+     <code>
+      core/technical-appendix/empirical_sourcing_pass_2026-04-25.md
+     </code>
+     &sect;2. Numerical anchors for the Ch 7 asteroid-miner thought experiment &mdash; launch costs (Earth-to-LEO,
+Earth-to-GTO), asteroid sample-return per gram, commercial-mining proposal estimates (cited as
+actor-stated projections, not validated), Mars surface-operations cost reference. Grounds the
+Mars/Europa thought experiments in plausible-economics terms while preserving the
+boundary-awareness register (per &sect;12).
+    </p>
+    <h4>
+     &sect;2. Space-economics numerical anchors &mdash; Ch 7 (asteroid miner) calibration
+    </h4>
+    <p>
+     Ch 7 uses thought-experiment-style scenarios (Mars colony water; asteroid iron; lunar helium; comet volatiles; Europa ice; exoplanet hypotheticals) to demonstrate that CIT operates across parameter ranges. The chapter is intentionally light on numerical anchoring &mdash; the demonstration is that CIT produces different verdicts at different parameter values, not that any specific numerical estimate holds. M6.4 nonetheless flags that selected numerical anchors would strengthen academic-credibility positioning, particularly for the asteroid-iron extrapolation where the "RCV approaches market price" claim depends on substitutability and externality being approximately zero.
+    </p>
+    <h5>
+     &sect;2.1 Launch-cost anchors (Earth-to-LEO and Earth-to-GTO)
+    </h5>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        Vehicle
+       </th>
+       <th>
+        Operator
+       </th>
+       <th>
+        Cost per kg to LEO (current, 2024&ndash;2025 estimates)
+       </th>
+       <th>
+        Notes
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        <strong>
+         Falcon 9
+        </strong>
+       </td>
+       <td>
+        SpaceX
+       </td>
+       <td>
+        ~$2,700/kg (LEO; full-stack rate based on $67M/22.8t)
+       </td>
+       <td>
+        Operational since 2010; reusable booster.
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Falcon Heavy
+        </strong>
+       </td>
+       <td>
+        SpaceX
+       </td>
+       <td>
+        ~$1,400/kg (LEO; $90M/63.8t LEO capacity)
+       </td>
+       <td>
+        Operational since 2018.
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Starship (early-operational target)
+        </strong>
+       </td>
+       <td>
+        SpaceX
+       </td>
+       <td>
+        ~$200&ndash;$1,000/kg (LEO; targeted; not yet validated)
+       </td>
+       <td>
+        Pre-operational as of 2024&ndash;2025; figures are SpaceX-stated targets, not third-party-validated.
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Vulcan Centaur
+        </strong>
+       </td>
+       <td>
+        ULA
+       </td>
+       <td>
+        ~$5,000&ndash;$8,000/kg (LEO)
+       </td>
+       <td>
+        Operational 2024.
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         New Glenn
+        </strong>
+       </td>
+       <td>
+        Blue Origin
+       </td>
+       <td>
+        ~$2,000&ndash;$6,000/kg (LEO; targeted)
+       </td>
+       <td>
+        First flight 2025; cost figures are pre-operational.
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <p>
+     <strong>
+      Source:
+     </strong>
+     FAA/AST commercial-space launch reports; Aerospace Corporation Center for Space Policy and Strategy briefings; SpaceX public statements;
+     <em>
+      Space News
+     </em>
+     coverage.
+    </p>
+    <p>
+     <strong>
+      Order-of-magnitude framing:
+     </strong>
+     Earth-launch infrastructure has reduced cost-per-kg by approximately one order of magnitude (from ~$30,000/kg Space Shuttle era to ~$2,000&ndash;$5,000/kg current commercial-launch baseline) over 2010&ndash;2025; a further order-of-magnitude reduction to $200&ndash;$500/kg is plausible-but-not-validated for the next decade dependent on Starship operational maturity.
+    </p>
+    <h5>
+     &sect;2.2 Asteroid sample-return mission costs (per gram returned)
+    </h5>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        Mission
+       </th>
+       <th>
+        Operator
+       </th>
+       <th>
+        Sample mass returned
+       </th>
+       <th>
+        Mission cost (USD, mission-vintage)
+       </th>
+       <th>
+        Cost per gram returned
+       </th>
+       <th>
+        Notes
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        <strong>
+         OSIRIS-REx &rarr; Bennu
+        </strong>
+       </td>
+       <td>
+        NASA
+       </td>
+       <td>
+        121.6 g (final accounting; 2023 capsule return)
+       </td>
+       <td>
+        ~$1.16B (lifecycle; 2016 launch through 2023 return)
+       </td>
+       <td>
+        ~$9.5M/g
+       </td>
+       <td>
+        Single-mission, single-asteroid; primarily science-mission, not optimized for cost-per-gram.
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Hayabusa2 &rarr; Ryugu
+        </strong>
+       </td>
+       <td>
+        JAXA
+       </td>
+       <td>
+        5.4 g (2020 capsule return)
+       </td>
+       <td>
+        ~$300M (lifecycle, 2014 launch through 2020 return)
+       </td>
+       <td>
+        ~$56M/g
+       </td>
+       <td>
+        Smaller mission profile; technology-demonstration-and-science.
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Hayabusa &rarr; Itokawa
+        </strong>
+       </td>
+       <td>
+        JAXA
+       </td>
+       <td>
+        1500 microscopic particles, ~mg total (2010 return)
+       </td>
+       <td>
+        ~$170M (lifecycle)
+       </td>
+       <td>
+        n/a (sample-mass too small for meaningful $/g framing)
+       </td>
+       <td>
+        First-generation; mission profile not optimized for sample mass.
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <p>
+     <strong>
+      Source:
+     </strong>
+     NASA OSIRIS-REx mission lifecycle accounting; JAXA Hayabusa/Hayabusa2 mission accounting;
+     <em>
+      Nature Astronomy
+     </em>
+     and
+     <em>
+      Science
+     </em>
+     coverage of sample-return missions.
+    </p>
+    <p>
+     <strong>
+      Framing for Ch 7 calibration:
+     </strong>
+     science-mission sample-return at ~$9.5M/g (Bennu) is approximately
+     <strong>
+      5&ndash;7 orders of magnitude
+     </strong>
+     above the per-gram cost framework that asteroid-mining commercial proposals operate in (which assume per-gram costs in the $1&ndash;$100 range at scale, contingent on (a) full-mass extraction not single-sample-return; (b) substantial Starship-class or post-Starship launch-cost reduction; (c) in-situ resource utilization eliminating the return-to-Earth requirement for many use-cases). The 5&ndash;7 order-of-magnitude gap is the framework's relevant calibration point: Ch 7's "RCV approaches market price for asteroid iron" claim depends on cost-per-kg dropping by ~6 orders of magnitude relative to current science-mission economics, AND on substitutability remaining high (which is the core CIT claim, not a launch-cost-dependent claim).
+    </p>
+    <h5>
+     &sect;2.3 Asteroid-mining commercial-proposal cost estimates (for context)
+    </h5>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        Source
+       </th>
+       <th>
+        Asteroid-mining cost per ton extracted material (target / projection)
+       </th>
+       <th>
+        Notes
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        <strong>
+         Keck Institute Asteroid Retrieval Mission Study
+        </strong>
+        (2012)
+       </td>
+       <td>
+        ~$2.6B for retrieval of a 7-ton asteroid to lunar orbit (~$370,000/kg retrieved)
+       </td>
+       <td>
+        Pre-Starship; mission profile assumes existing launch infrastructure.
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Planetary Resources commercial estimates
+        </strong>
+        (2013&ndash;2018, pre-acquisition)
+       </td>
+       <td>
+        $50&ndash;$500/kg at scale (water; iron); not validated by operational missions
+       </td>
+       <td>
+        Company-stated targets; broadly skeptical reception in space-economics literature.
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Deep Space Industries commercial estimates
+        </strong>
+        (2013&ndash;2018, pre-acquisition)
+       </td>
+       <td>
+        Comparable order of magnitude to Planetary Resources estimates
+       </td>
+       <td>
+        Same caveat.
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <p>
+     <strong>
+      Source:
+     </strong>
+     Keck Institute for Space Studies,
+     <em>
+      Asteroid Retrieval Mission Study
+     </em>
+     (2012); industry-presentation materials from Planetary Resources and Deep Space Industries;
+     <em>
+      Space Resources Roundtable
+     </em>
+     proceedings.
+    </p>
+    <p>
+     <strong>
+      Caveat for Ch 7:
+     </strong>
+     commercial asteroid-mining cost projections are actor-stated targets, not validated operational figures. The 5&ndash;7 order-of-magnitude reduction implicit in commercial projections has not been demonstrated by any operational mission. The framework's Ch 7 thought-experiment use of "asteroid iron is approximately market-priced under any reasonable accountability bond" is robust to wide variance in this projection because the structural argument is about substitutability and externality (both ~0 for asteroid iron), not about specific cost-per-kg numbers.
+    </p>
+    <h5>
+     &sect;2.4 Mars surface-operations cost reference (for thought-experiment grounding)
+    </h5>
+    <p>
+     The Mars-colony water-extraction thought-experiment in Ch 7 does not depend on specific per-kg cost numbers, but the chapter's plausibility benefits from a one-paragraph reference that current operational Mars surface costs (Curiosity, Perseverance, Ingenuity, Mars Exploration Rovers) run in the order of $1B+ per mission for ~1-ton-class delivered surface mass. This anchors the thought-experiment's "small colony" framing in plausible-not-fantasy economics &mdash; the colony exists at the boundary of what operational Mars-surface presence has achieved, not at orders of magnitude beyond it.
+    </p>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        Mission
+       </th>
+       <th>
+        Operator
+       </th>
+       <th>
+        Delivered Mars surface mass
+       </th>
+       <th>
+        Mission cost (USD, mission-vintage)
+       </th>
+       <th>
+        Cost per kg surface-delivered
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        <strong>
+         Curiosity (Mars Science Laboratory)
+        </strong>
+       </td>
+       <td>
+        NASA
+       </td>
+       <td>
+        899 kg rover (2012 landing)
+       </td>
+       <td>
+        ~$2.5B lifecycle
+       </td>
+       <td>
+        ~$2.8M/kg surface-delivered
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         Perseverance (Mars 2020)
+        </strong>
+       </td>
+       <td>
+        NASA
+       </td>
+       <td>
+        1,025 kg rover (2021 landing)
+       </td>
+       <td>
+        ~$2.7B lifecycle
+       </td>
+       <td>
+        ~$2.6M/kg surface-delivered
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <strong>
+         InSight
+        </strong>
+       </td>
+       <td>
+        NASA
+       </td>
+       <td>
+        358 kg lander (2018 landing)
+       </td>
+       <td>
+        ~$830M lifecycle
+       </td>
+       <td>
+        ~$2.3M/kg surface-delivered
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <p>
+     <strong>
+      Source:
+     </strong>
+     NASA mission lifecycle accounting;
+     <em>
+      Planetary Society
+     </em>
+     mission cost analyses.
+    </p>
+    <p>
+     <strong>
+      Order-of-magnitude framing:
+     </strong>
+     current Mars surface-presence economics are ~$2&ndash;3M per kg delivered, dominated by interplanetary-cruise + entry-descent-landing infrastructure rather than per-kg launch from Earth. A small colony (~10 person-class, ~10&ndash;100 ton delivered surface mass) under current operational economics would carry order-of-magnitude $30B&ndash;$300B delivery cost, before any consideration of in-situ resource utilization, Starship-class delivery cost reduction, or the speculative-but-plausible-decade-scale developments Ch 7's thought-experiment assumes.
+    </p>
+    <hr>
+    <h3>
+     &sect;11.7 IPG-table reconciliation (33&ndash;122&times; canonical &rarr; 50&ndash;555&times; triangulated range)
+    </h3>
+    <p>
+     <strong>
+      Sources:
+     </strong>
+     Block 4 McDowell coal &sect;2.5 triangulation findings + chapter-audit &sect;2.6
+IPG-table reconciliation work + &sect;16 K.4 Sensitivity Analysis Summary.
+    </p>
+    <p>
+     Earlier IPG (Intergenerational Pricing Gap) reports at Ch 6 + Ch 8 + case-file canonical
+documentation cited a 33&ndash;122&times; range for the McDowell coal IPG (the ratio of true RCV to
+market-priced cost). Block 4 Three Ways calibration (&sect;11.2) produces a triangulated range
+of
+     <strong>
+      50&ndash;555&times;
+     </strong>
+     across Methods 1+2+3 with Method 3 &alpha;-dominance applied.
+Reconciliation finding:
+    </p>
+    <ul>
+     <li>
+      <strong>
+       The two ranges are not in tension.
+      </strong>
+      The 33&ndash;122&times; canonical case-file reports
+reflect Method-1-anchored estimates with conservative time-horizon attribution. The
+50&ndash;555&times; triangulated range reflects Methods 1+2+3 with the upper bound carrying Method 3's
+&alpha;-irreversibility-premium for the multi-generational time scale.
+     </li>
+     <li>
+      <strong>
+       The variance reflects time-horizon attribution, not framework imprecision.
+      </strong>
+      Method 1 (replacement-cost) anchors at engineering-time-scale (decades); Method 3 with
+&alpha;-dominance reflects multi-generational-time-scale irreversibility-premium. Both are correct
+RCV measurements at their respective time scales. The IPG range widens with time horizon &mdash;
+that's a feature, not a defect.
+     </li>
+     <li>
+      <strong>
+       Pedagogical implication for Ch 6:
+      </strong>
+      when Ch 6 walks through the McDowell
+convergence table, the reconciliation should be made explicit &mdash;
+      <em>
+       "the canonical 33&ndash;122&times;
+report and the triangulated 50&ndash;555&times; range both correctly describe McDowell's IPG, at
+different time-horizons. The framework is not committed to a single number; it is committed
+to a method that makes the time-horizon attribution explicit."
+      </em>
+     </li>
+     <li>
+      <strong>
+       Pedagogical implication for Ch 8:
+      </strong>
+      Ch 8's 22-vs-1&times; tier-by-tier walkthrough
+(per the Ch 8 worked-example reframing) sits within the lower-bound (Method 1, near-term)
+end of the range. Ch 8's claim is conservative; the wider range is the framework's full
+accounting honesty.
+     </li>
+    </ul>
+    <p>
+     This reconciliation closes the chapter-audit &sect;2.6 finding: the IPG variance across reports
+is not framework-imprecision but time-horizon-attribution discipline. Source docs preserve
+this finding at
+     <code>
+      core/chapters/commons_bonds_chapter_audit_v1.0.6.md
+     </code>
+     &sect;2.6.
     </p>
    </section>
    <section id="sec-12-boundary-awareness-scope-claim">
