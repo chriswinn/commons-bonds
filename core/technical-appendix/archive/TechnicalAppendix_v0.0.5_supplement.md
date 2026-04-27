@@ -1,8 +1,12 @@
-# Technical Appendix v0.0.5 — Supplement (canonical-source-of-truth pointer + new-section drafts)
+# Technical Appendix v0.0.5 — Supplement (HISTORICAL RECORD — superseded by v1.0.0 in-HTML 2026-04-27)
+
+> **RETIREMENT NOTE (2026-04-27):** This supplement was superseded by `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (the v1.0.0 in-HTML rewrite per Open Insight #21 Path B). The supplement's §2–§7 new-section drafts have been integrated into the v1.0.0 HTML directly; this file is preserved as historical record per Principle #4 Tier-2 discipline. Its terminology (e.g., "canonical-source-of-truth pointer," "Canonical v10") reflects pre-2026-04-27 framing and should not be used as a current reference; for current vocabulary status see `core/terms/terms_index.md`. For current Tech Appendix content, see `core/technical-appendix/TechnicalAppendix_v1.0.0.html`.
+
+---
 
 **Date:** 2026-04-24
-**Version:** v0.0.5 supplement
-**Status:** Tier-1 update sidecar per Working Principle #4. Pairs with `TechnicalAppendix_v0.0.5.html` (in-place sweep of v0.0.4 — see §1 below).
+**Version:** v0.0.5 supplement (historical)
+**Status:** `SUPERSEDED` 2026-04-27 by v1.0.0 in-HTML. Originally Tier-1 update sidecar per Working Principle #4; paired with `TechnicalAppendix_v0.0.5.html` (in-place sweep of v0.0.4 — see §1 below).
 **Supersedes:** Tech Appendix v0.0.4 (file renamed to v0.0.5 in same commit; sweeps documented in §1).
 
 ---

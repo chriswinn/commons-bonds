@@ -1,0 +1,3320 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>
+   Technical Appendix &mdash; Commons Bonds &mdash; v1.0.0
+  </title>
+  <style>
+   :root {
+  --ink: #222;
+  --paper: #fff;
+  --accent: #2a5a8c;
+  --accent-bg: #f0f4f8;
+  --rule: #ccc;
+  --code-bg: #f5f5f5;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--paper);
+  max-width: 920px;
+  margin: 2em auto;
+  padding: 0 1.5em 4em;
+}
+header.doc-header {
+  border-bottom: 3px double var(--accent);
+  padding-bottom: 1.5em;
+  margin-bottom: 2em;
+}
+header.doc-header h1 {
+  font-size: 2.2em;
+  color: var(--accent);
+  margin: 0 0 0.4em 0;
+  font-weight: normal;
+}
+header.doc-header .byline {
+  font-style: italic;
+  color: #555;
+  margin: 0.2em 0;
+}
+header.doc-header .version {
+  font-size: 0.95em;
+  color: #555;
+}
+.status-block {
+  background: var(--accent-bg);
+  border-left: 4px solid var(--accent);
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  font-size: 0.95em;
+}
+.status-block p { margin: 0.5em 0; }
+nav.toc {
+  background: var(--accent-bg);
+  border: 1px solid var(--rule);
+  padding: 1em 2em;
+  margin: 2em 0;
+  border-radius: 4px;
+}
+nav.toc h2 {
+  font-size: 1.2em;
+  color: var(--accent);
+  margin: 0 0 0.5em 0;
+  border: none;
+}
+nav.toc ol { padding-left: 1.5em; margin: 0; }
+nav.toc li { margin: 0.3em 0; }
+nav.toc a { color: var(--accent); text-decoration: none; }
+nav.toc a:hover { text-decoration: underline; }
+section { margin-top: 2.5em; }
+h2 {
+  font-size: 1.5em;
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.3em;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  font-weight: normal;
+}
+h3 {
+  font-size: 1.2em;
+  color: var(--accent);
+  margin-top: 1.6em;
+  margin-bottom: 0.5em;
+  font-weight: normal;
+}
+h4 {
+  font-size: 1.05em;
+  color: var(--accent);
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+  font-weight: bold;
+}
+p { margin: 0.7em 0; }
+ul, ol { padding-left: 1.8em; }
+li { margin: 0.3em 0; }
+blockquote {
+  border-left: 3px solid var(--accent);
+  margin: 1em 0;
+  padding: 0.4em 1em;
+  color: #444;
+  background: var(--accent-bg);
+}
+code, pre {
+  font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', monospace;
+  font-size: 0.93em;
+}
+code {
+  background: var(--code-bg);
+  padding: 0.1em 0.3em;
+  border-radius: 2px;
+}
+pre {
+  background: var(--code-bg);
+  border-left: 4px solid var(--accent);
+  padding: 1em;
+  overflow-x: auto;
+  white-space: pre;
+}
+pre code { background: transparent; padding: 0; }
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.95em;
+}
+th, td {
+  border: 1px solid var(--rule);
+  padding: 0.5em 0.8em;
+  text-align: left;
+  vertical-align: top;
+}
+th { background: var(--accent-bg); font-weight: bold; }
+hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
+.formula { font-family: 'Cambria Math', 'Times New Roman', serif; font-style: italic; }
+  </style>
+ </head>
+ <body>
+  <header class="doc-header">
+   <h1>
+    Technical Appendix &mdash; Commons Bonds
+   </h1>
+   <p class="byline">
+    By Chris Winn
+   </p>
+   <p class="version">
+    <strong>
+     Version:
+    </strong>
+    1.0.0 (2026-04-27)
+   </p>
+  </header>
+  <div class="status-block">
+   <p>
+    <strong>
+     Status:
+    </strong>
+    <code>
+     CURRENT
+    </code>
+    . Reflects post-2026-04-24 framework architecture. Provenance source-of-truth for vocabulary and term lifecycle:
+    <code>
+     core/terms/terms_index.md
+    </code>
+    .
+   </p>
+   <p>
+    <strong>
+     Supersedes:
+    </strong>
+    v0.0.5 (2026-04-24, partial integration of supplement &sect;2&ndash;&sect;7 prior to TOC reconciliation). Earlier versions archived at
+    <code>
+     core/technical-appendix/archive/
+    </code>
+    :
+    <code>
+     TechnicalAppendix_v0.0.3.html
+    </code>
+    and
+    <code>
+     TechnicalAppendix_v0.0.5_supplement.md
+    </code>
+    .
+   </p>
+   <p>
+    <strong>
+     Note on naming:
+    </strong>
+    this version does not use the term
+    <em>
+     canonical
+    </em>
+    . Per terms_index &sect;0, "canonical" was retired as truth-claim language that masked testing-dependent fragility; every framework term carries explicit status (
+    <code>
+     CURRENT
+    </code>
+    /
+    <code>
+     PENDING-RIGOR
+    </code>
+    /
+    <code>
+     UNDER-REVIEW
+    </code>
+    /
+    <code>
+     SUPERSEDED
+    </code>
+    /
+    <code>
+     RETIRED
+    </code>
+    ) and rigor provenance instead.
+   </p>
+  </div>
+  <nav class="toc">
+   <h2>
+    Contents
+   </h2>
+   <ol>
+    <li>
+     <a href="#sec-a-formal-definitions-a-1-a-9">
+      A. Formal Definitions (A.1&ndash;A.9)
+     </a>
+    </li>
+    <li>
+     <a href="#sec-b-the-rcv-model">
+      B. The RCV Model
+     </a>
+    </li>
+    <li>
+     <a href="#sec-c-commons-inversion-test-protocol">
+      C. Commons Inversion Test Protocol
+     </a>
+    </li>
+    <li>
+     <a href="#sec-d-three-model-convergence-framework">
+      D. Three-Model Convergence Framework
+     </a>
+    </li>
+    <li>
+     <a href="#sec-e-theorems-and-proofs">
+      E. Theorems and Proofs
+     </a>
+    </li>
+    <li>
+     <a href="#sec-f-universality-validation-all-seven-scen">
+      F. Universality Validation (All Seven Scenarios)
+     </a>
+    </li>
+    <li>
+     <a href="#sec-g-industrial-existential-substitutabilit">
+      G. industrial-existential substitutability gap Classification System and Implementation
+     </a>
+    </li>
+    <li>
+     <a href="#sec-h-empirical-validation-cases">
+      H. Empirical Validation Cases
+     </a>
+    </li>
+    <li>
+     <a href="#sec-i-engagement-with-existing-literature">
+      I. Engagement with Existing Literature
+     </a>
+    </li>
+    <li>
+     <a href="#sec-j-limitations-and-boundary-conditions">
+      J. Limitations and Boundary Conditions
+     </a>
+    </li>
+    <li>
+     <a href="#sec-k-mathematical-extensions">
+      K. Mathematical Extensions
+     </a>
+    </li>
+    <li>
+     <a href="#sec-l-the-four-gate-discipline-for-variable-">
+      L. The Four-Gate Discipline for Variable Addition
+     </a>
+    </li>
+    <li>
+     <a href="#sec-m-formula-generalization-the-sum-of-cost">
+      M. Formula Generalization: The Sum-of-Costs Form
+     </a>
+    </li>
+    <li>
+     <a href="#partial-integration-block">
+      Partial integration block (&sect;2&ndash;&sect;7) &mdash; pending TOC reconciliation in Scope 2
+     </a>
+    </li>
+   </ol>
+  </nav>
+  <section id="preamble">
+   <p>
+    Technical Appendix &mdash; Mathematical Framework
+   </p>
+   <p>
+    By Chris Winn
+   </p>
+   <p>
+    Complete Version 0.0.5 &mdash; Updated April 24 (Tier-1 sweep: AIT&rarr;CIT + ARP&rarr;ARR + Spatial CS retired)4, 2026
+   </p>
+   <p>
+    Supersedes the truncated HTML version (commons_bonds_technical_appendix_complete.html)
+   </p>
+   <p>
+    Incorporates: Ripple Effects 2.0 Section VIII &middot; Abundance Test Formalization &middot; Full Universality Test &middot; Complete Empirical Validation &middot; Literature Engagement
+   </p>
+   <hr>
+   <p>
+    What changed from the previous version:&nbsp;The prior Technical Appendix (19 KB HTML) was missing: (1) Definition A.7&ndash;A.9; (2) the Eight-Tier FGC Decomposition; (3) Theorems on the Renewable Imperative and Integral Convergence; (4) three universality scenarios (comet flyby, Europa, exoplanet); (5) the Libby and Baotou empirical cases; (6) the Literature Engagement section &mdash; the most critical missing piece for academic credibility; and (7) the model-independence defense from Ripple Effects 2.0 Section VIII. All are included here.
+   </p>
+   <p>
+    v0.0.5 additions (2026-04-24):&nbsp;This version adds two new sections under Path F reframing. Section L (the four-gate discipline for variable addition &mdash; CIT + dimensional consistency + boundedness + independence) formally specifies what admits a candidate cost term into the RCV integrand, with worked examples per gate and a four-step application protocol. Section M (the formula generalization) presents the sum-of-costs form RCV = &int; (&Sigma; Cᵢ) &middot; D dt with convergence-preservation proof, dimensional-consistency proof, CS = RCV &minus; B preservation, and a worked derivation of the canonical two-term formula as the n = 2 special case. Dimension references in Sections A&ndash;K have been renamed per the v1.3.0 ratified cohort (Habitability, Spatial, Kindred, Ecosystem replace Atmospheric, Geographic, Demographic, Ecological). A Phase B pass will extend Section C.2 to include the three additional dimensions (Cohesion, Epistemic, Autonomy) canonical in v1.3.0.
+   </p>
+   <p>
+    Sections:&nbsp;
+    <a href="#id.li7yufrgkmqd">
+     A. Formal Definitions
+    </a>
+    &nbsp;
+    <a href="#id.80f4jr1i3ti">
+     B. RCV Model
+    </a>
+    &nbsp;
+    <a href="#id.hwgskckizobg">
+     C. Commons Inversion Test
+    </a>
+    &nbsp;
+    <a href="#id.jpp8ftygphoa">
+     D. Three-Model Convergence
+    </a>
+    &nbsp;
+    <a href="#id.xxsimd15xd3l">
+     E. Theorems & Proofs
+    </a>
+    &nbsp;
+    <a href="#id.2m34bpibuk28">
+     F. Universality Validation
+    </a>
+    &nbsp;
+    <a href="#id.eft1cgzbc4m8">
+     G. industrial-existential substitutability gap Classification
+    </a>
+    &nbsp;
+    <a href="#id.s4dekm775qm5">
+     H. Empirical Validation
+    </a>
+    &nbsp;
+    <a href="#id.gz6fo183poxv">
+     I. Literature Engagement
+    </a>
+    &nbsp;
+    <a href="#id.6t092khuoqo6">
+     J. Limitations
+    </a>
+    &nbsp;
+    <a href="#id.c65r3vgik6hd">
+     K. Mathematical Extensions
+    </a>
+    &nbsp;
+    <a href="#l-four-gates">
+     L. The Four-Gate Discipline
+    </a>
+    &nbsp;
+    <a href="#m-formula-generalization">
+     M. Formula Generalization
+    </a>
+   </p>
+  </section>
+  <main>
+   <section id="sec-a-formal-definitions-a-1-a-9">
+    <h2>
+     A. Formal Definitions (A.1&ndash;A.9)
+    </h2>
+    <hr>
+    <p>
+     Definition A.1 (Commons Resource) &mdash; UPDATED per Ripple Effects 1.0
+    </p>
+    <p>
+     A resource unit R &isin; C (where C denotes commons territory) is drawn from a shared stock Q with regeneration rate &rho; &ge; 0. The framework prices extraction for all values of &rho;.
+    </p>
+    <ul>
+     <li>
+      When &rho; = 0 (strict non-renewability), extraction is irreversible and foreclosure is permanent.
+     </li>
+     <li>
+      When &rho; &gt; 0, extraction below&nbsp;the regeneration rate leaves Q stable and drives the foreclosure component toward zero; extraction above&nbsp;the regeneration rate drives Q downward and the foreclosure component upward, approaching the non-renewable case as &rho; &rarr; 0 or as stock depletion approaches ecological thresholds.
+     </li>
+    </ul>
+    <p>
+     Note: This replaces the original "Non-Renewable Commons Resource" definition, which contradicted the universality claim. The updated definition supports the Chesapeake Bay fisheries case, fossil aquifers, and all other over-harvested renewable commons.
+    </p>
+    <p>
+     Definition A.2 (Substitutability Function)
+    </p>
+    <p>
+     S(t | t₀): [t₀, &infin;) &rarr; [0, S_max] where S_max &le; 1, is the probability that a functionally adequate substitute for resource R exists at time t, given extraction at time t₀. S satisfies:
+    </p>
+    <ol start="1">
+     <li>
+      S(t₀) &ge; 0 (at extraction, substitutability is at or near zero)
+     </li>
+     <li>
+      S is non-decreasing (substitutes, once developed, persist)
+     </li>
+     <li>
+      limt&rarr;&infin;&nbsp;S(t) = S_max &le; 1 (full substitution may or may not be achievable)
+     </li>
+    </ol>
+    <p>
+     For computational tractability: S(t) = S_max &middot; (1 &minus; e&minus;&lambda;(t&minus;t₀)), where &lambda; &gt; 0 is the substitution rate estimated empirically per resource class. S(t) may be influenced by extraction timing &mdash; earlier extraction can slow innovation by reducing economic pressure to develop alternatives.
+    </p>
+    <p>
+     Definition A.3 (Stock-Dependent Utility) &mdash; UPDATED per Ripple Effects 1.0
+    </p>
+    <p>
+     U(R, t, Q(t)) represents generation t's utility from resource R being available in situ, conditional on remaining stock Q(t). U is:
+    </p>
+    <ol start="1">
+     <li>
+      Non-negative: U(R, t, Q) &ge; 0
+     </li>
+     <li>
+      Increasing in scarcity: &part;U/&part;Q &lt; 0 (utility per remaining unit increases as stock depletes)
+     </li>
+     <li>
+      Bounded below by market price: U(R, t, Q(t)) &ge; P(t) for all t &ge; t₀
+     </li>
+    </ol>
+    <p>
+     U(R, t, Q(t)) includes direct economic value, option value, and ecological function value.&nbsp;The ecological component is small at abundant stock levels and rises nonlinearly as Q approaches ecological thresholds, capturing keystone effects and ecosystem cascades.
+    </p>
+    <p>
+     Definition A.4 (Externality Tail)
+    </p>
+    <p>
+     E(R, t) represents the externality flow at time t resulting from extraction of resource R at time t₀. This includes ongoing environmental damage, health costs, community disruption, and ecological degradation that persist beyond the extraction event. E(R, t) &ge; 0 for all t, and typically exhibits a long tail: E(R, t) &gt; 0 for many generations after extraction ceases.
+    </p>
+    <p>
+     Definition A.5 (Social Discount Function)
+    </p>
+    <p>
+     D(t, t₀): T &times; T &rarr; (0,1] is a declining discount factor following Weitzman (2001). The instantaneous discount rate r(t) satisfies r(t) = r₀ &middot; g(t), where r₀ is the initial discount rate and g(t) is a declining function reflecting uncertainty about appropriate long-horizon discounting. The Weitzman result: under uncertainty about the true discount rate, the certainty-equivalent rate declines toward the lowest plausible rate. This is a conservative choice that biases the RCV estimate downward relative to a fixed high discount rate.
+    </p>
+    <p>
+     Definition A.6 (Residual Commons Value &mdash; Core Formula)
+    </p>
+    <p>
+     The RCV of resource unit R, extracted at t₀, is the present value of all foregone intergenerational utility plus all ongoing externalities:
+    </p>
+    <p>
+     RCV(R, t₀) = &int;t₀&infin;&nbsp;{ [1 &minus; S(t | t₀)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, t₀) dt
+    </p>
+    <p>
+     The integrand has two components:
+    </p>
+    <ul>
+     <li>
+      Foreclosure component:&nbsp;[1 &minus; S(t | t₀)] &middot; U(R, t, Q(t)) &mdash; the expected utility loss when no substitute exists, weighted by the probability that no substitute exists at time t.
+     </li>
+     <li>
+      Externality component:&nbsp;E(R, t) &mdash; the ongoing damage costs regardless of substitution status. A substitute for coal does not remove carbon from the atmosphere; the externality tail runs independently.
+     </li>
+    </ul>
+    <p>
+     Definition A.7 (Accountability Bond)
+    </p>
+    <p>
+     B represents the total set of mechanisms that force extractors to bear costs: reclamation bonds, severance taxes, legal liability, regulatory requirements, community compensation agreements. Cost Severance is formally defined as:
+    </p>
+    <p>
+     CS = RCV &minus; B
+    </p>
+    <p>
+     Cost severance occurs whenever CS &gt; 0, indicating that the true social cost of extraction exceeds the mechanisms forcing extractors to bear those costs. Under current extraction regimes, B reflects only identified, legally-enforceable costs. RCV includes intergenerational foreclosure costs that no existing B mechanism prices, ensuring CS &gt; 0 structurally for all non-renewable extraction under present institutions.
+    </p>
+    <p>
+     Definition A.8 (Commons Inversion Test &mdash; Methodological Protocol)
+    </p>
+    <p>
+     To identify hidden cost tiers in any extraction transaction, systematically strip away dimensions of abundance and observe which costs become visible at each dimension. Formally: for a cost tier Ci, commons category Aj, and scarcity threshold Sj, the cost is latent when Aj&nbsp;&gg; Sj&nbsp;and becomes visible as Aj&nbsp;&rarr; Sj. The test proceeds by hypothetically removing each commons category in sequence:
+    </p>
+    <ol start="1">
+     <li>
+      Habitability abundance&nbsp;&rarr; reveals oxygen processing, atmospheric regulation, and radiation shielding costs
+     </li>
+     <li>
+      Spatial abundance&nbsp;&rarr; reveals spatial displacement costs: distance from home, transport, community immobility
+     </li>
+     <li>
+      Temporal abundance&nbsp;&rarr; reveals acceleration costs: compressing multi-century availability into decades
+     </li>
+     <li>
+      Institutional abundance&nbsp;&rarr; reveals governance costs: enforcement, accountability, honest accounting infrastructure
+     </li>
+     <li>
+      Kindred abundance&nbsp;&rarr; reveals knowledge/cultural costs: transmission, continuity, community expertise below critical thresholds
+     </li>
+     <li>
+      Ecosystem abundance&nbsp;&rarr; reveals ecosystem service costs: pollination, hydrological cycles, soil formation, waste processing
+     </li>
+     <li>
+      Political abundance&nbsp;&rarr; reveals governance capture costs: the investment extraction industries make in suppressing honest accounting, regulatory enforcement, and democratic pricing of their own costs &mdash; lobbying, regulatory capture, suppression of scientific findings, institutional corrosion
+     </li>
+    </ol>
+    <p>
+     The test is complete when no further commons category can be identified whose removal reveals new costs. The set of all revealed costs constitutes the Full Generational Cost (FGC) of extraction.
+    </p>
+    <p>
+     Definition A.9 (Existentially Critical Resource / industrial-existential substitutability gap Classification)
+    </p>
+    <p>
+     A resource R is existentially critical if its substitutability S_max &le; S_threshold for any application class that may be necessary for species-level viability or major civilizational threshold events (including but not limited to: off-world settlement, advanced energy generation, high-density computing, precision manufacturing). The Civilizational Substitutability Gap (industrial-existential substitutability gap) for resource R is defined as:
+    </p>
+    <p>
+     industrial-existential substitutability gap(R) = S_max(industrial) &minus; S_max(existential)
+    </p>
+    <p>
+     where S_max(industrial) is the maximum achievable substitutability across current commercial applications and S_max(existential) is the maximum achievable substitutability across foreseeable civilizational-threshold applications. High industrial-existential substitutability gap resources warrant strategic in-situ preservation because the insurance cost (foregone extraction revenue from designated reserves) is typically a small fraction of projected extraction value.
+    </p>
+   </section>
+   <section id="sec-b-the-rcv-model">
+    <h2>
+     B. The RCV Model
+    </h2>
+    <hr>
+    <h3>
+     B.1 Core Formula (Term-by-Term Translation)
+    </h3>
+    <p>
+     RCV(R, t₀) = &int;t₀&infin;&nbsp;{ [1 &minus; S(t | t₀)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, t₀) dt
+    </p>
+    <p>
+     Plain-language translation, term by term:
+    </p>
+    <ul>
+     <li>
+      [1 &minus; S(t | t₀)]&nbsp;is the probability that no adequate substitute exists at time t. When substitutes are fully available, this term approaches zero and the foreclosure cost vanishes. When substitutes are unavailable, this term approaches 1 and every unit of U is a genuine cost.
+     </li>
+     <li>
+      U(R, t, Q(t))&nbsp;is the utility future generation t derives from having R available in situ. This includes economic value, option value, and ecological function value. It is bounded below by the current market price and rises as Q declines.
+     </li>
+     <li>
+      E(R, t)&nbsp;is the externality cost burden at time t from extraction at t₀. This term is independent of substitution: even if a substitute for coal is found, the carbon already in the atmosphere is still there. The externality tail runs on its own clock.
+     </li>
+     <li>
+      D(t, t₀)&nbsp;is the social discount factor &mdash; the weight we assign to the welfare of generation t. Following Weitzman (2001), this declines toward zero as t &rarr; &infin; but does so slowly enough that the integral converges (see Theorem E.4).
+     </li>
+    </ul>
+    <h3>
+     B.2 The Intergenerational Pricing Gap (IPG)
+    </h3>
+    <p>
+     The IPG is the ratio of RCV to current market price P:
+    </p>
+    <p>
+     IPG(R, t₀) = RCV(R, t₀) / P(t₀)
+    </p>
+    <p>
+     IPG &gt; 1 indicates underpricing. IPG = 33 means the market price covers approximately 3% of the true intergenerational cost. All empirical cases tested (Section H) yield IPG &gg; 1, consistent with the Structural Cost Severance Theorem (E.1).
+    </p>
+   </section>
+   <section id="sec-c-commons-inversion-test-protocol">
+    <h2>
+     C. Commons Inversion Test Protocol
+    </h2>
+    <hr>
+    <h3>
+    </h3>
+    <p>
+     C.1 Methodological Principle
+    </p>
+    <p>
+     The Commons Inversion Test is a discovery methodology, not a measurement methodology. Where the RCV formula measures&nbsp;cost severance, the Abundance Test reveals&nbsp;which cost tiers have been systematically hidden by abundance. The two methodologies are complementary: the Abundance Test identifies which terms belong in E(R, t); the RCV formula then prices them.
+    </p>
+    <h3>
+     C.2 The Seven Abundance Dimensions
+    </h3>
+    <p>
+     v0.0.5 canonical-cohort note:&nbsp;The seven commons categorys below reflect the earlier canonical cohort, with the four renamed members updated to their v1.3.0 names (Habitability, Spatial, Kindred, Ecosystem replace Atmospheric, Geographic, Demographic, Ecological). The v1.3.0 ratified cohort is ten&nbsp;dimensions (Habitability &middot; Spatial &middot; Temporal &middot; Institutional &middot; Kindred &middot; Ecosystem &middot; Political &middot; Cohesion &middot; Epistemic &middot; Autonomy), with three additional dimensions (Cohesion, Epistemic, Autonomy) formalized in core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md. Those three are not yet expanded in this appendix section; a Phase B pass will extend the enumeration below to include them with the per-dimension structure shown here. Under Path F reframing, the dimensions are organizational scaffolding over variables CIT has surfaced across 18 case studies &mdash; not a closed ontological taxonomy.
+    </p>
+    <p>
+     Dimension 1: Habitability Abundance &rarr; Oxygen/Climate/Radiation Costs
+    </p>
+    <p>
+     Strip Earth's abundant atmosphere. Oxygen processing, atmospheric regulation, and radiation shielding costs become visible. On Earth, these are absorbed as commons goods at no market cost. Their value is revealed only when absent (Mars, spacecraft), at which point they are priced at life-support system cost &mdash; approximately $1M&ndash;$10M per person-year in engineered equivalents.
+    </p>
+    <p>
+     Dimension 2: Spatial Abundance &rarr; Spatial Displacement Costs
+    </p>
+    <p>
+     Strip abundant land/space. Costs of distance from home, transport, inability to return, and community immobility become visible. For McDowell County coal: the coal's value dispersed nationally while health costs and community collapse concentrated locally. Spatial abundance masks the spatial dimension of cost severance. See Cost Severance formalization in Section K.3.
+    </p>
+    <p>
+     Dimension 3: Temporal Abundance &rarr; Acceleration Costs
+    </p>
+    <p>
+     Strip abundant time. Costs of compressing multi-century resource availability into decades become visible &mdash; rate-of-extraction premiums, the loss of optionality, the foreclosure of applications not yet invented. For Appalachian coal: at 1960 extraction rates the deposits would have lasted 300+ years. Actual extraction compressed this to decades, foreclosing any 22nd- or 23rd-century use.
+    </p>
+    <p>
+     Dimension 4: Institutional Abundance &rarr; Governance Costs
+    </p>
+    <p>
+     Strip abundant legal/political infrastructure. Costs of establishing enforcement, maintaining accountability, and ensuring honest accounting become visible. When institutional capacity is absent (failed states, bankruptcy-protected corporations), cost severance operates at maximum scale because B &asymp; 0.
+    </p>
+    <p>
+     Dimension 5: Kindred Abundance &rarr; Knowledge/Cultural Costs
+    </p>
+    <p>
+     Strip abundant population. Costs of knowledge transmission, cultural continuity, and maintaining community expertise below critical thresholds become visible. McDowell County's population collapse destroyed three generations of technical mining knowledge, traditional ecological knowledge, and social capital accumulated over a century. These costs do not appear in any ledger.
+    </p>
+    <p>
+     Dimension 6: Ecosystem Abundance &rarr; Ecosystem Service Costs
+    </p>
+    <p>
+     Strip abundant ecosystem health. Costs of pollination, hydrological cycles, soil formation, and waste processing become visible. Acid mine drainage eliminates aquatic food chains. Mountaintop removal disrupts hydrological networks serving downstream communities for generations after mining ends.
+    </p>
+    <p>
+     Dimension 7: Political Abundance &rarr; Governance Capture Costs
+    </p>
+    <p>
+     Strip abundant democratic and regulatory infrastructure. Costs of maintaining honest accounting systems, regulatory enforcement, and institutional integrity become visible. When political abundance is present, extraction industries can invest a fraction of captured value in suppressing honest pricing of their own costs &mdash; lobbying, regulatory capture, suppression of scientific findings. When political abundance is absent (failed states, captured regulators), accountability bonds collapse toward zero and cost severance operates at maximum scale. Political capture is both a consequence of cost severance and a cause of its persistence.
+    </p>
+    <h3>
+     C.3 Relationship to the RCV Formula
+    </h3>
+    <p>
+     Each commons category maps to one or more terms in the RCV formula:
+    </p>
+    <table>
+     <thead>
+      <tr>
+       <td>
+        <p>
+         Abundance Dimension Stripped
+        </p>
+       </td>
+       <td>
+        <p>
+         RCV Term Illuminated
+        </p>
+       </td>
+      </tr>
+     </thead>
+     <tbody>
+     </tbody>
+     <tr>
+      <td>
+       <p>
+        Habitability
+       </p>
+      </td>
+      <td>
+       <p>
+        E(R, t) &mdash; atmospheric externality component
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Spatial
+       </p>
+      </td>
+      <td>
+       <p>
+        Cost Severance integral (Section K.3)
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Temporal
+       </p>
+      </td>
+      <td>
+       <p>
+        [1 &minus; S(t)] &middot; U(R, t, Q(t)) &mdash; foreclosure component
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Institutional
+       </p>
+      </td>
+      <td>
+       <p>
+        B term in CS = RCV &minus; B
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Kindred
+       </p>
+      </td>
+      <td>
+       <p>
+        U(R, t, Q(t)) &mdash; option value and knowledge component
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Ecosystem
+       </p>
+      </td>
+      <td>
+       <p>
+        U(R, t, Q(t)) &mdash; ecological function component; E(R,t) &mdash; remediation tail
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Political
+       </p>
+      </td>
+      <td>
+       <p>
+        B term in CS = RCV &minus; B &mdash; political capture suppresses B toward zero; also E(R,t) &mdash; costs of institutional corrosion are externality tail items
+       </p>
+      </td>
+     </tr>
+    </table>
+    <h3>
+     C.4 The Eight-Tier Full Generational Cost (FGC) Decomposition &mdash; Canonical v10
+    </h3>
+    <p>
+     The Commons Inversion Test, applied systematically, reveals nine cost categories (eight tiers, one with a sub-tier) that standard accounting misses. These constitute the Full Generational Cost (FGC). Each tier maps to the commons category whose stripping makes it visible &mdash; this mapping is what makes the tier system falsifiable. Per Decision A ratified April 19, 2026.
+    </p>
+    <p>
+     FGC Tier 1: Lifetime Survival Cost
+    </p>
+    <p>
+     Abundance dimension: Habitability + Ecosystem &nbsp;|&nbsp; Currently priced: Partially (acute threats only). The cost of sustaining life itself &mdash; oxygen, water, food &mdash; where extraction directly threatens these conditions across a lifetime of exposure. Distinct from acute emergency injury: Lifetime Survival Cost captures long-duration attrition of basic life-support conditions. Most visible at the Mars limit, where atmospheric and ecological abundance are simultaneously absent. Present in Appalachia via multi-decade groundwater contamination and in Baotou via chronic air quality emergencies. Belongs to E(R, t).
+    </p>
+    <p>
+     FGC Tier 2a: Actuarial Risk Cost
+    </p>
+    <p>
+     Abundance dimension: Institutional &nbsp;|&nbsp; Currently priced: Partially (acute injury only). The statistically expected cost of occupational and environmental health risk borne by workers and affected populations across the full extraction lifecycle &mdash; chronic disease burden, reduced lifespan, long-latency illness. Black lung in McDowell County; mesothelioma in Libby; elevated cancer rates in Baotou. The &ldquo;actuarial&rdquo; framing names the key feature: these costs manifest as population-level probability distributions, not individual certainties, but constitute quantifiable costs that insurance and public health systems must absorb without reimbursement from extractors. Revealed by stripping institutional abundance &mdash; without enforcement infrastructure, the population distribution falls entirely on the public balance sheet. Markets price acute injury partially; long-latency actuarial risk is structurally excluded from extraction contracts. Belongs to E(R, t). Previously labeled &ldquo;Individual Risk Cost&rdquo; &mdash; renamed per Decision A (April 19, 2026). The actuarial framing is more precise: the tier is priced as a population distribution, consistent with how insurance, regulatory, and public health systems actually measure these costs.
+    </p>
+    <p>
+     FGC Tier 2b: Mission Failure Reserve (sub-tier of Tier 2a)
+    </p>
+    <p>
+     Abundance dimension: Spatial + Temporal &nbsp;|&nbsp; Currently priced: Rarely. The cost of an extraction operation failing to deliver its projected economic value to workers and communities who planned around it &mdash; premature closures, production shortfalls below promised capacity, bankruptcies that discharge pension and cleanup obligations while leaving communities stranded. Distinct from Actuarial Risk Cost (health and physical harm) and from Community Transition Reserve (planned transition cost): Mission Failure Reserve prices the broken promise and its cascading economic consequences. Structurally absent from most extraction contracts &mdash; the failure mode is foreseeable and the reserve is almost never required.
+    </p>
+    <p>
+     FGC Tier 3: Dynastic Labor Cost
+    </p>
+    <p>
+     Abundance dimension: Temporal &nbsp;|&nbsp; Currently priced: Never. The cost imposed on a worker&rsquo;s lineage when their productive capacity is extracted below Full Generational Cost. Capital compounds across generations; labor is asked not to. The &ldquo;dynastic&rdquo; framing refuses this asymmetry: 120-hour work weeks extract not just the worker&rsquo;s time but their children&rsquo;s future, their family&rsquo;s stability, the compounding value that sustained, bounded work might have created. Revealed by stripping temporal abundance &mdash; intergenerational effects become visible only from a multi-generational timescale. The Social Security $108 trillion figure is Dynastic Labor Cost quantified across 88 years of American workers. Never priced in extraction contracts.
+    </p>
+    <p>
+     FGC Tier 4: Foreclosure Cost
+    </p>
+    <p>
+     Abundance dimension: Temporal &nbsp;|&nbsp; Currently priced: In RCV only &mdash; never in markets. The permanent loss of resource access to all future generations, weighted by substitutability probability. This is the core RCV term: [1 &minus; S(t)] &middot; U(R, t, Q(t)), integrated to infinity. Markets price Tier 1 and partially Tier 2a; they structurally cannot price Tier 4 because future generations cannot bid in present markets. Foreclosure Cost is zero if perfect substitutes are achievable (S_max = 1); it approaches its maximum when the resource is irreplaceable (S_max &rarr; 0). Appalachian coal extracted in 80 years permanently foreclosed all 22nd- and 23rd-century optionality.
+    </p>
+    <p>
+     FGC Tier 5: Community Transition Reserve
+    </p>
+    <p>
+     Abundance dimension: Spatial + Kindred &nbsp;|&nbsp; Currently priced: Never (decommissioning &ne; transition). The cost of financing the complete economic transition of any community whose existence became structurally dependent on an extraction operation. Revealed by stripping geographic and demographic abundance: the community&rsquo;s immobility and concentrated dependence become visible when abundance is removed. Distinct from decommissioning funds (physical site cleanup only) and severance packages (individual workers only). The Community Transition Reserve funds the town &mdash; its institutions, its economic diversification, its population&rsquo;s ability to remain and rebuild. McDowell County&rsquo;s population fell from 100,000 to 18,000 in the absence of any such reserve. The most policy-actionable tier: can be added to extraction contracts without requiring the rest of the framework to be accepted first.
+    </p>
+    <p>
+     FGC Tier 6: Ecological Carrying Cost
+    </p>
+    <p>
+     Abundance dimension: Ecosystem &nbsp;|&nbsp; Currently priced: Partially (short regulatory timelines only). The ongoing cost of ecosystem service degradation &mdash; lost pollination, disrupted hydrology, soil loss, aquatic food chain collapse &mdash; priced across the full ecological recovery timeline. Distinct from Foreclosure Cost (the absent resource) and post-extraction site cleanup: the Ecological Carrying Cost prices the continuing loss of living ecosystem services during recovery periods that can span generations. The Chesapeake Bay&rsquo;s oyster population, once filtering the entire Bay in three days, now filters it in a year &mdash; a permanent reduction in ecological carrying capacity affecting every downstream use. Belongs to E(R, t) with a particularly long tail. Partially priced under short regulatory timelines; structurally underpriced for multi-generational recovery periods.
+    </p>
+    <p>
+     FGC Tier 7: Knowledge and Culture Cost
+    </p>
+    <p>
+     Abundance dimension: Kindred &nbsp;|&nbsp; Currently priced: Never. The cost of accumulated community knowledge, skill, and cultural continuity lost when an extraction-dependent community disperses below the threshold needed to maintain collective expertise. Revealed by stripping demographic abundance: cultural transmission requires a minimum viable community size; below that threshold, knowledge systems collapse non-linearly. Three generations of technical mining knowledge, traditional ecological knowledge, and social capital accumulated over a century in McDowell County were destroyed when population fell from 100,000 to 18,000. The loss is irreversible in the same way language death is irreversible: once dispersed below critical threshold, the knowledge does not reconstitute itself when conditions improve. Never priced in extraction contracts.
+    </p>
+    <p>
+     FGC Tier 8: Political Capture Cost
+    </p>
+    <p>
+     Abundance dimension: Political &nbsp;|&nbsp; Currently priced: Never. The cost imposed on democratic and institutional systems by extraction industries using a fraction of their captured value to suppress honest pricing of their own costs &mdash; lobbying expenditures, regulatory capture, suppression of safety research, narrative capture through funded media, and broader institutional corrosion. Both a consequence of cost severance and a cause of its persistence. W.R. Grace concealed Libby asbestos contamination for 27 years; coal interests have spent billions suppressing the social cost of carbon. These costs are borne diffusely by the public and are not recoverable through standard liability. Explains why all other tiers have remained underpriced at scale: the mechanism is self-reinforcing. Never priced in extraction contracts.
+    </p>
+    <p>
+     Note: The Eight-Tier FGC (v10) is an individual-resource decomposition using the Commons Inversion Test as its generative methodology. A separate eight-tier &ldquo;full-cost accounting ledger&rdquo; for extraction events appears in Chapter 8. These are parallel frameworks at different scales &mdash; individual resource vs. extraction event &mdash; and should be distinguished in the text. See Ripple Effects 2.0, Section II.2. | Canonical v10 tier names per Decision A, April 19, 2026. Tier 2a renamed from &ldquo;Individual Risk Cost&rdquo; to &ldquo;Actuarial Risk Cost.&rdquo; Tier 2b (Mission Failure Reserve) formalized. Political commons category added as Tier 8 commons category and incorporated into A.8, C.2, and C.3.
+    </p>
+   </section>
+   <section id="sec-d-three-model-convergence-framework">
+    <h2>
+     D. Three-Model Convergence Framework
+    </h2>
+    <hr>
+    <h3>
+     D.1 Overview and Model Independence
+    </h3>
+    <p>
+     The RCV framework is validated through convergence with two additional independent modeling approaches. The three models are:
+    </p>
+    <ol start="1">
+     <li>
+      Damage Function (bottom-up):&nbsp;Audit all identifiable costs tier by tier.
+     </li>
+     <li>
+      Real Options (market-referenced):&nbsp;Price the social option value of keeping the resource in situ.
+     </li>
+     <li>
+      RCV Model (integral formulation):&nbsp;Substitutability-weighted foreclosure plus externality tail.
+     </li>
+    </ol>
+    <p>
+     Model Independence Defense (from Ripple Effects 2.0, Section VIII):&nbsp;The sharpest attack on this three-model framework is that Real Options and RCV may share deep mathematical structure &mdash; both price irreversibility plus uncertainty. The defense: they package uncertainty differently. Real Options calibrates volatility from market data; RCV calibrates substitutability from engineering and materials science. These calibrations come from genuinely different data sources with uncorrelated error modes. A model that overestimates S(t) (substitutability) does not necessarily overestimate market volatility, and vice versa. The convergence therefore cannot be explained by shared error structure. The Damage Function uses a third, entirely separate data source: documented litigation outcomes, epidemiological studies, and remediation cost estimates. All three sources are uncorrelated in the sense that matters for convergence: correlated measurement error would not consistently produce IPG estimates within one order of magnitude across six tested cases.
+    </p>
+    <h3>
+     D.2 Model 1: Damage Function Approach
+    </h3>
+    <p>
+     Bottom-up audit of all identifiable costs in documented categories:
+    </p>
+    <p>
+     Total Cost = Health + Environmental + Community + Carbon + Infrastructure + Political Capture
+    </p>
+    <p>
+     Strengths:&nbsp;Auditable by non-economists; each line item can be independently verified; resistant to manipulation because costs are documented in litigation, epidemiological studies, and regulatory filings.
+    </p>
+    <p>
+     Acknowledged weakness (frame as floor):&nbsp;Systematically understates true cost because it can only capture identified&nbsp;costs. Unknown unknowns &mdash; future applications of the resource not yet invented, long-latency health effects not yet diagnosed, ecological cascades not yet documented &mdash; are excluded by construction. Label this the floor, not the central estimate. The Abundance Test is the natural extension: the Damage Function asks "what are the costs?"; the Abundance Test asks "what costs have we systematically failed to see?" They are complementary, not redundant.
+    </p>
+    <h3>
+     D.3 Model 2: Real Options Approach
+    </h3>
+    <p>
+     Social option value of keeping the resource in situ:
+    </p>
+    <p>
+     Option Value = Private Option Value + Avoided Externalities + Innovation Time Value
+    </p>
+    <p>
+     Intuition:&nbsp;A barrel of oil in the ground is a financial option &mdash; the right to extract at any future time, but not the obligation. That option has value beyond the present extraction price. Social option value extends this: not extracting today preserves the option to extract when substitutes have developed (increasing S(t)) and when alternative technologies make in-situ preservation more valuable.
+    </p>
+    <p>
+     Worked example (McDowell County coal, 1960):&nbsp;Coal at $4.50/ton in 1960. Social option value calculated using: (1) volatility of coal prices over 60 years; (2) avoided externality costs using EPA social cost of carbon; (3) innovation time value (the 60 years from 1960&ndash;2020 produced solar panels at $0.03/kWh). The social option value in 1960 substantially exceeded the extraction price &mdash; meaning socially, extraction was premature. The option would have been worth more kept alive.
+    </p>
+    <p>
+     Ripple Effects 2.0 guidance on the structural-overlap attack:&nbsp;Acknowledge the deep mathematical connection to RCV (both price irreversibility + uncertainty) explicitly in Chapter 6. The defense &mdash; different calibration sources, uncorrelated errors &mdash; should be stated clearly, not buried. A reader who notices the structural overlap and finds it addressed honestly will trust the convergence more than one who notices it was not addressed.
+    </p>
+    <h3>
+     D.4 Model 3: RCV Model
+    </h3>
+    <p>
+     See Section B for full formulation. The RCV model's distinctive contribution is pricing the foreclosure component&nbsp;&mdash; the cost borne by generations that never exist in market time and cannot bid for the resource. The Damage Function and Real Options can capture this cost only approximately; the RCV integral captures it directly through the substitutability-weighted term.
+    </p>
+    <h3>
+     D.5 Three-Model Convergence Table
+    </h3>
+    <table>
+     <thead>
+      <tr>
+       <td>
+        <p>
+         Case Study
+        </p>
+       </td>
+       <td>
+        <p>
+         Damage Function (IPG)
+        </p>
+       </td>
+       <td>
+        <p>
+         Real Options (IPG)
+        </p>
+       </td>
+       <td>
+        <p>
+         RCV Model (IPG)
+        </p>
+       </td>
+       <td>
+        <p>
+         Convergence
+        </p>
+       </td>
+      </tr>
+     </thead>
+     <tbody>
+     </tbody>
+     <tr>
+      <td>
+       <p>
+        McDowell County Coal
+       </p>
+      </td>
+      <td>
+       <p>
+        33&ndash;122&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        45&ndash;89&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        67&ndash;134&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        &checkmark;
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Deepwater Horizon
+       </p>
+      </td>
+      <td>
+       <p>
+        15&ndash;17&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        12&ndash;21&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        16&ndash;19&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        &checkmark;
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Libby, Montana
+       </p>
+      </td>
+      <td>
+       <p>
+        55&ndash;82&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        48&ndash;76&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        61&ndash;91&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        &checkmark;
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Baotou Rare Earths
+       </p>
+      </td>
+      <td>
+       <p>
+        12&ndash;35&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        18&ndash;48&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        22&ndash;41&times;
+       </p>
+      </td>
+      <td>
+       <p>
+        &checkmark;
+       </p>
+      </td>
+     </tr>
+    </table>
+    <p>
+     All four cases produce IPG &gg; 1 across all three models. The ranges overlap within one order of magnitude in every case, consistent with the Convergence Theorem (E.2). The carbon term dominates the Damage Function IPG for fossil fuels; the Real Options model produces systematically lower estimates because it uses market-derived volatility, which discounts long-horizon uncertainty; the RCV model produces the highest estimates because it uses the Weitzman declining discount rate, which weights long-horizon costs more heavily.
+    </p>
+    <h3>
+     D.6 Backtesting / Implicit Pricing Rigor Dimension
+    </h3>
+    <p>
+     As a defensive stress test for academic readers: the three models can be back-validated against a fourth implicit method &mdash; revealed social willingness to pay for remediation after the fact. If post-hoc cleanup, legal settlement, and public health spending at each case site are taken as society's revealed valuation of the severed costs, these figures are consistent with the lower bounds of the three-model estimates. This "implicit pricing" approach is not presented as a fourth model (it has significant selection bias problems) but as a sanity check showing the models are not overestimating by orders of magnitude. The implicit prices suggest the models may, if anything, underestimate &mdash; which is consistent with the Damage Function floor labeling.
+    </p>
+   </section>
+   <section id="sec-e-theorems-and-proofs">
+    <h2>
+     E. Theorems and Proofs
+    </h2>
+    <hr>
+    <p>
+     Theorem E.1 (Structural Cost Severance)
+    </p>
+    <p>
+     For any extraction of a commons resource where market price P &lt; RCV, cost severance CS &gt; 0 occurs structurally, independent of extractor intentions.
+    </p>
+    <p>
+     Proof:&nbsp;Given CS = RCV &minus; B and market pricing implies B &le; P (accountability bonds are bounded by what the market will support), if P &lt; RCV then B &lt; RCV, therefore CS = RCV &minus; B &gt; 0. The inequality P &lt; RCV follows from markets' structural inability to price intergenerational foreclosure &mdash; future generations cannot bid in present markets &mdash; and the incompleteness of externality pricing under existing accountability regimes. Therefore CS &gt; 0 holds for all non-renewable extraction under present institutions, independently of whether any individual extractor intends to sever costs. ∎
+    </p>
+    <p>
+     Note on scope: Theorem E.1 is stated for conditions where P &lt; RCV. The theorem does not claim P &lt; RCV is a logical necessity &mdash; it is an empirical regularity explained by structural gaps in existing pricing. If future institutions implement full intergenerational foreclosure pricing, B could in principle equal or exceed RCV, making CS &le; 0. This possibility is what makes the theorem falsifiable (see Counterargument 4 engagement in Chapter 6).
+    </p>
+    <p>
+     Theorem E.2 (Convergence of Independent Models)
+    </p>
+    <p>
+     Under reasonable parameter assumptions, the Damage Function approach, Real Options approach, and RCV model converge to the same order of magnitude for IPG across tested cases.
+    </p>
+    <p>
+     Proof sketch:&nbsp;All three models capture the same fundamental gap: the difference between current pricing and full social cost. They differ in how they approach that gap &mdash; from identified costs (Damage Function), from market-referenced option value (Real Options), and from substitutability-weighted integral (RCV). Because their data sources are uncorrelated (litigation records, market volatility, materials science substitutability estimates) and because they share a common target (the true social cost), systematic divergence beyond one order of magnitude would require all three to err in opposite directions simultaneously &mdash; a probability inconsistent with their demonstrated empirical behavior across six tested cases. Convergence within one order of magnitude across all four empirical cases validates the underlying cost severance structure. ∎
+    </p>
+    <p>
+     Theorem E.3 (Abundance Masking)
+    </p>
+    <p>
+     For any cost tier C, abundance level A, and scarcity threshold S: if A &gg; S then C appears negligible until A approaches S, at which point C becomes visible and grows nonlinearly.
+    </p>
+    <p>
+     Proof:&nbsp;By construction of the Commons Inversion Test. When A &gg; S, the marginal cost of depleting A appears zero because each unit withdrawn from a very large stock has negligible price impact. As A &rarr; S, the cost function transitions from approximately linear to exponential as scarcity effects dominate &mdash; this is the standard behavior of resource cost functions near depletion thresholds, demonstrated formally by Hotelling's rent dynamics and empirically by commodity price spikes near supply constraints. The asteroid mining scenarios (Section F) demonstrate this for an extreme case: asteroid iron (A &gg; S) has RCV &asymp; 0; lunar helium-3 near the fusion-deployment threshold (A approaching S) has high industrial-existential substitutability gap. ∎
+    </p>
+    <p>
+     Theorem E.4 (Integral Convergence)
+    </p>
+    <p>
+     The RCV integral converges under Weitzman (2001) declining discount rates when the substitutability function satisfies S(t) &rarr; S_max &lt; 1 or when the discount rate r(t) &rarr; r_min &gt; 0.
+    </p>
+    <p>
+     Proof:&nbsp;The integrand is: f(t) = {[1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t)} &middot; D(t, t₀) For convergence we need &int;_{t₀}^&infin; f(t) dt &lt; &infin;. Case 1: S(t) &rarr; S_max = 1 (perfect substitution achieved). Then [1&minus;S(t)] &rarr; 0 exponentially (by the S(t) = S_max(1&minus;e^{&minus;&lambda;t}) parameterization), and the foreclosure component decays faster than any polynomial. The externality term E(R,t) is bounded and also decays as remediation proceeds. With any positive discount rate, the integral converges. Case 2: S(t) &rarr; S_max &lt; 1 (imperfect substitution). The foreclosure component approaches a positive floor [1&minus;S_max] &middot; U. For convergence we require the discount factor D(t,t₀) to drive this to zero. Under Weitzman declining discount rates, D(t,t₀) = exp(&minus;&int;_{t₀}^t r(s)ds) where r(s) &rarr; r_min &gt; 0. Then D(t,t₀) &rarr; 0 as t &rarr; &infin;, and because U is bounded above by a polynomial (utility does not grow faster than exponentially), the integrand goes to zero and the integral converges. Note on the knife-edge case: If S_max &lt; 1 AND r_min = 0 (pure time preference of zero for the far future) AND U grows without bound, the integral may diverge. This is not a pathological failure of the model &mdash; it correctly reflects that permanent non-substitutable foreclosure under a zero discount rate has infinite cost, which is the correct answer: permanent loss of something irreplaceable to a civilization that values the future equally to the present has infinite expected cost. ∎
+    </p>
+    <p>
+     Theorem E.5 (Renewable Imperative)
+    </p>
+    <p>
+     For any non-renewable resource R with CS &gt; 0, renewable investment in a substitute technology S* that increases S(t) is weakly dominant over extraction from a social welfare perspective, under any discount rate, any ethical framework, and any probability estimate for S_max.
+    </p>
+    <p>
+     Proof:&nbsp;Consider the social welfare comparison between two paths: Path A: Extract R at t₀, receiving market price P. Path B: Invest equivalent resources in renewable substitute S*, delaying or foregoing extraction. Under Path B, the substitutability function S(t) shifts upward (S*(t) &gt; S(t) for all t &ge; t₀), which: (i) Reduces the foreclosure component [1&minus;S*(t)] &middot; U &lt; [1&minus;S(t)] &middot; U for all t, reducing future cost obligation. (ii) Preserves the strategic option to extract later if needed, maintaining full option value. (iii) Reduces E(R,t) by the amount of extraction deferred or avoided. Therefore: SW(Path B) &minus; SW(Path A) = &Delta;Forelosure_cost + &Delta;Option_value + &Delta;Externality_avoided &minus; (Investment_cost &minus; P). For the renewable imperative to hold, we need SW(Path B) &gt; SW(Path A), i.e.: &Delta;Forelosure_cost + &Delta;Option_value + &Delta;Externality_avoided &gt; Investment_cost &minus; P. When CS &gt; 0, we have RCV &gt; P, which means the foregone extraction value is less than the true social cost imposed by extraction. The social welfare gain from avoiding extraction (= RCV &minus; P = CS) is positive and constitutes an immediate net gain even before accounting for option value or innovation benefits. Adding positive option value and positive externality avoidance can only strengthen the inequality. Therefore SW(Path B) &gt; SW(Path A) whenever CS &gt; 0. This holds for any discount rate (because CS &gt; 0 is established under Weitzman declining rates, which are the most conservative), any ethical framework that does not assign zero weight to future generations, and any S_max &gt; 0 (because even partial substitutability makes Path B weakly better). ∎ Practical corollary: The model does not say "never extract." It says: extract from sources where RCV is lowest first. This prioritizes asteroid mining (RCV &asymp; 0) over Earth's critical mineral deposits (high industrial-existential substitutability gap, high RCV), and prioritizes renewable energy over fossil extraction (CS &rarr; &infin; as climate externalities are fully priced). The model is a navigation system, not a prohibition.
+    </p>
+   </section>
+   <section id="sec-f-universality-validation-all-seven-scen">
+    <h2>
+     F. Universality Validation (All Seven Scenarios)
+    </h2>
+    <hr>
+    <p>
+     The framework must produce intuitively correct results across all extraction scenarios &mdash; on Earth and beyond. Seven cross-scenario tests validate universality. The framework passes all seven, and correctly identifies its own boundary condition in scenario 6.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     Scenario 1: Mars Colony Water (10,000 people, 50-year supply, three deposits)
+    </p>
+    <p>
+     Parameters:&nbsp;S &asymp; 0 (no water substitute at required scale), U enormous (survival-critical), E(t) &asymp; 0 (water waste is recyclable), Q is small and fixed.
+    </p>
+    <p>
+     Framework output:&nbsp;RCV very high. Strategic reserves mandatory. Progressive pricing to manage consumption rate. Aggressive investment in recycling to increase effective Q.
+    </p>
+    <p>
+     Administrator's obvious decision:&nbsp;Identical &mdash; conserve with reserves, price progressively, invest in recycling.
+    </p>
+    <p>
+     Validation:&nbsp;&checkmark; Framework produces obviously correct answer. Key insight: cost severance goes to zero because the administrator is&nbsp;the community bearing the cost. No distance between extractor and cost-bearer &rarr; no CS. Cost severance requires distance.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     Scenario 2: Asteroid Iron Mining (abundant, lifeless, remote)
+    </p>
+    <p>
+     Parameters:&nbsp;S &rarr; 1 (iron has abundant substitutes and alternatives), U low (iron not scarce), E(t) &asymp; 0 (no communities, no atmosphere to damage), Q effectively unlimited.
+    </p>
+    <p>
+     Framework output:&nbsp;RCV &asymp; 0. Extract freely.
+    </p>
+    <p>
+     Validation:&nbsp;&checkmark; Framework correctly reduces to near-market pricing when externalities are zero and stocks are abundant. This is the model's key falsifiability feature &mdash; it does not always disagree with the market. When market pricing is correct, the model confirms it.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     Scenario 3: Lunar Helium-3 (potentially critical for fusion energy)
+    </p>
+    <p>
+     Parameters:&nbsp;S uncertain (depends on fusion development timeline), U potentially enormous (civilizational energy technology), E(t) &asymp; 0 (no biosphere), Q limited in accessible deposits.
+    </p>
+    <p>
+     Framework output:&nbsp;High industrial-existential substitutability gap ranking. Preserve as insurance until fusion viability clarified. Insurance cost (foregone revenue from strategic reserve designation) is near zero &mdash; lunar helium-3 is not currently commercially extracted.
+    </p>
+    <p>
+     Validation:&nbsp;&checkmark; Framework correctly handles uncertain criticality: when the cost of preservation is near zero and the potential cost of premature extraction is enormous, preserve. Asymmetric regret principle applies.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     Scenario 4: Comet Flyby Volatiles (access window closes permanently)
+    </p>
+    <p>
+     Parameters:&nbsp;S depends on resource; Q abundant in the comet; E(t) &asymp; 0; but access is a one-time event &mdash; the comet passes once.
+    </p>
+    <p>
+     Framework output:&nbsp;Extract aggressively during the access window. The asymmetric regret principle flips&nbsp;&mdash; you cannot un-miss the comet. The option to extract later does not exist.
+    </p>
+    <p>
+     Validation:&nbsp;&checkmark; Framework correctly identifies that the source geometry changes the calculus. Not anti-extraction &mdash; extract when RCV is low and preservation is impossible. The model differentiates correctly between "leave it in the ground" (Earth rare earths) and "extract now before the window closes" (comet flyby).
+    </p>
+    <h4>
+    </h4>
+    <p>
+     Scenario 5: Mars Colony Rare Earth Mining (same population extracts and bears cost)
+    </p>
+    <p>
+     Parameters:&nbsp;The colony mines its own subsurface rare earths. The extractor and the cost-bearer are the same people.
+    </p>
+    <p>
+     Framework output:&nbsp;CS &rarr; 0. No cost severance possible.
+    </p>
+    <p>
+     Deepest structural insight:&nbsp;Cost severance requires distance&nbsp;between value-capturer and cost-bearer &mdash; geographic, temporal, or social. When that distance collapses to zero (the Mars colony mines its own resources, the Norwegian government owns its own oil fund), cost severance approaches zero automatically. On Earth, distance &mdash; maintained by geography, power, and legal structure &mdash; enables the ignorance that enables severance. The model prices what distance hides.
+    </p>
+    <p>
+     Validation:&nbsp;&checkmark; Framework reveals the mechanism's structural prerequisite.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     Scenario 6: Europa Ice (potential independent biosphere)
+    </p>
+    <p>
+     Parameters:&nbsp;Europa's subsurface ocean may harbor independent life. E(R, t) potentially includes the destruction of an independent biosphere &mdash; a cost that is incommensurable with human utility scales.
+    </p>
+    <p>
+     Framework output:&nbsp;The model reaches its boundary. The externality of potentially destroying an independent biosphere cannot be priced in commensurable units with U(R, t, Q(t)). The framework honestly reports: "I cannot price this. The Asymmetric Regret Rule applies: wait, study, decide later. The insurance cost of non-extraction is near zero. The potential cost of extraction is incommensurable."
+    </p>
+    <p>
+     Validation:&nbsp;&checkmark; A framework that correctly identifies its own limits is more credible than one that claims universal applicability. The Europa case establishes where the model stops &mdash; which by implication tells you that everywhere inside that boundary, the model works.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     Scenario 7: Exoplanet Rare Earths (independent ecosystem, necessary resource)
+    </p>
+    <p>
+     Parameters:&nbsp;The exoplanet has a biosphere (non-zero E), but civilization genuinely needs a specific resource (S &asymp; 0, U is very high). Genuine tension between preservation and necessity.
+    </p>
+    <p>
+     Framework output:&nbsp;Extract if necessary, but with extreme accountability, minimum footprint, and maximum substitution investment. The model does not resolve the incommensurability &mdash; it cannot &mdash; but it does clarify the decision structure: establish what "necessary" means (cannot S(t) be improved?), minimize extraction footprint, price all identifiable externalities, and invest in alternatives aggressively. The model provides a decision framework even at the boundary.
+    </p>
+    <p>
+     Validation:&nbsp;&checkmark; Framework handles genuine value conflict by clarifying the decision structure without pretending to resolve the philosophical tension.
+    </p>
+   </section>
+   <section id="sec-g-industrial-existential-substitutabilit">
+    <h2>
+     G. industrial-existential substitutability gap Classification System and Implementation
+    </h2>
+    <hr>
+    <h3>
+     G.1 Resource Classification by industrial-existential substitutability gap
+    </h3>
+    <table>
+     <thead>
+      <tr>
+       <td>
+        <p>
+         industrial-existential substitutability gap Level
+        </p>
+       </td>
+       <td>
+        <p>
+         Resource Examples
+        </p>
+       </td>
+       <td>
+        <p>
+         Policy Response
+        </p>
+       </td>
+      </tr>
+     </thead>
+     <tbody>
+     </tbody>
+     <tr>
+      <td>
+       <p>
+        industrial-existential substitutability gap &asymp; 0
+       </p>
+      </td>
+      <td>
+       <p>
+        Coal, sand, iron ore, common stone
+       </p>
+      </td>
+      <td>
+       <p>
+        Price externalities; no strategic reserve
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Low industrial-existential substitutability gap
+       </p>
+      </td>
+      <td>
+       <p>
+        Conventional oil, copper, zinc
+       </p>
+      </td>
+      <td>
+       <p>
+        Full externality pricing; moderate reserve consideration
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Moderate industrial-existential substitutability gap
+       </p>
+      </td>
+      <td>
+       <p>
+        Uranium, lithium, cobalt
+       </p>
+      </td>
+      <td>
+       <p>
+        Externality pricing + strategic reserve assessment
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        High industrial-existential substitutability gap
+       </p>
+      </td>
+      <td>
+       <p>
+        Rare earth elements, platinum group metals
+       </p>
+      </td>
+      <td>
+       <p>
+        Mandatory strategic reserves; export controls; substitution investment
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Conditionally High industrial-existential substitutability gap
+       </p>
+      </td>
+      <td>
+       <p>
+        Helium-3, phosphorus, fossil aquifers
+       </p>
+      </td>
+      <td>
+       <p>
+        Preserve pending technology development; reassess on defined schedule
+       </p>
+      </td>
+     </tr>
+    </table>
+    <h3>
+     G.2 The Asymmetric Regret Decision Rule
+    </h3>
+    <p>
+     If uncertainty about industrial-existential substitutability gap classification: default to the higher classification. Preservation cost &le; Replacement cost when no substitute exists. "We can always extract later. We can never un-extract."
+    </p>
+    <h3>
+     G.3 The Insurance Cost Argument
+    </h3>
+    <p>
+     For high-industrial-existential substitutability gap resources: in-situ preservation (leave it in the ground) is nearly free. The ground is free storage. The opportunity cost of designating strategic reserves is foregone extraction revenue &mdash; typically single-digit percentages of total extraction value when applied to a fraction of known deposits. The insurance payoff is access to critical materials at a moment when non-reserved stocks have been depleted and substitutes have not yet fully developed &mdash; precisely when the need is greatest. In financial terms: a hedge that costs almost nothing to hold and pays off exactly when needed.
+    </p>
+    <h3>
+     G.4 The Four-Step Implementation Sequence (Chapter 9 connection)
+    </h3>
+    <ol start="1">
+     <li>
+      Classify:&nbsp;Assign industrial-existential substitutability gap rankings to all major resource classes using materials science, energy modeling, and aerospace engineering inputs.
+     </li>
+     <li>
+      Reserve:&nbsp;Designate in-situ strategic reserves for high-industrial-existential substitutability gap resources. Do not extract and warehouse &mdash; the ground is free storage.
+     </li>
+     <li>
+      Invest:&nbsp;Direct pricing surplus simultaneously into renewable substitute development (increases S(t)) and space access technology (opens alternative supply sources with lower RCV).
+     </li>
+     <li>
+      Reassess:&nbsp;Adjust reserve levels dynamically as S(t) improves and as new resource deposits or substitutes are identified. The framework is not static &mdash; it updates as parameters change.
+     </li>
+    </ol>
+   </section>
+   <section id="sec-h-empirical-validation-cases">
+    <h2>
+     H. Empirical Validation Cases
+    </h2>
+    <hr>
+    <p>
+     The framework's backtesting across historical cases demonstrates consistent cost severance patterns and validates the three-model convergence. All four cases show IPG &gg; 1; all four show the same structural pattern (value dispersed, costs concentrated); all four involve B &asymp; 0 relative to RCV.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     H.1 McDowell County Appalachian Coal (1940&ndash;2020)
+    </p>
+    <p>
+     Period:&nbsp;1940&ndash;2020 (primary extraction 1940&ndash;1980; legacy costs ongoing)
+    </p>
+    <p>
+     Market price:&nbsp;$4.50&ndash;$18/ton (mine mouth, nominal, period average)
+    </p>
+    <p>
+     Damage Function estimate (floor):
+    </p>
+    <ul>
+     <li>
+      Health costs nationally: $2&ndash;4/ton (respiratory, occupational disease)
+     </li>
+     <li>
+      Environmental remediation: $1&ndash;3/ton (acid mine drainage, surface restoration)
+     </li>
+     <li>
+      Community costs: $5&ndash;15/ton (economic multiplier collapse, outmigration, social services)
+     </li>
+     <li>
+      Carbon at EPA Social Cost of Carbon ($190/ton CO₂): ~$544/ton (dominant term for fossil fuels)
+     </li>
+     <li>
+      Total without carbon: $8&ndash;22/ton
+     </li>
+     <li>
+      Total with carbon: $552&ndash;566/ton
+     </li>
+    </ul>
+    <p>
+     RCV model estimate:&nbsp;$580&ndash;620/ton (using Weitzman declining rates, S_max &asymp; 0.85 for electricity generation)
+    </p>
+    <p>
+     IPG:&nbsp;33&ndash;122&times; (without carbon) / substantially higher with full carbon pricing
+    </p>
+    <p>
+     Observed cost severance:&nbsp;$3.7&ndash;$6B reclamation shortfall (publicly documented); population decline from 100,000 to 18,000; 13-year life expectancy gap vs. national average; highest per-capita opioid death rate in the United States.
+    </p>
+    <p>
+     Note on spatial cost severance:&nbsp;The Damage Function IPG reflects national&nbsp;per-ton underpricing. The community-level IPG is dramatically higher because costs are geographically concentrated in McDowell County while value is dispersed nationally. The $544/ton carbon term is a global atmospheric externality; the community costs are localized. Both belong in E(R,t); they operate at different spatial scales.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     H.2 Deepwater Horizon &mdash; Macondo Well (2010)
+    </p>
+    <p>
+     Well lifetime revenue (projected):&nbsp;~$1.1B (40&ndash;60M barrels at 2010 prices)
+    </p>
+    <p>
+     Total documented costs:
+    </p>
+    <ul>
+     <li>
+      BP legal settlements: $18.7B (Clean Water Act, economic damages, NRD)
+     </li>
+     <li>
+      Federal criminal penalty: $4B
+     </li>
+     <li>
+      Ongoing ecosystem and fisheries losses (through 2025): estimated $8&ndash;12B additional
+     </li>
+     <li>
+      Total documented: $20&ndash;30B
+     </li>
+    </ul>
+    <p>
+     IPG:&nbsp;15&ndash;17&times; (documented costs only, lower bound)
+    </p>
+    <p>
+     RCV model estimate:&nbsp;16&ndash;19&times; (including ongoing Gulf ecosystem externalities)
+    </p>
+    <p>
+     Convergence:&nbsp;&checkmark; All three models agree within a factor of 1.5.
+    </p>
+    <p>
+     Observed CS:&nbsp;Gulf Coast fishing communities bore costs; BP shareholders received pre-spill profits. Post-spill BP stock partially recovered; Gulf fisheries remain impaired 15 years later.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     H.3 Libby, Montana &mdash; W.R. Grace Vermiculite Mine (1963&ndash;1990)
+    </p>
+    <p>
+     Lifetime extraction revenue:&nbsp;~$100M (80% of world vermiculite supply)
+    </p>
+    <p>
+     Total documented costs:
+    </p>
+    <ul>
+     <li>
+      Federal Superfund cleanup (ongoing): $600M+ committed
+     </li>
+     <li>
+      Legal settlements (asbestos wrongful death/injury): $250M+
+     </li>
+     <li>
+      Ongoing medical monitoring and treatment: $50M+/year ongoing
+     </li>
+     <li>
+      Lost property values, economic disruption: estimated $500M+
+     </li>
+     <li>
+      Total documented: $4B+ (40:1 cost-to-revenue ratio, minimum)
+     </li>
+    </ul>
+    <p>
+     IPG:&nbsp;55&ndash;82&times; (Damage Function) / 48&ndash;76&times; (Real Options) / 61&ndash;91&times; (RCV)
+    </p>
+    <p>
+     Key CS feature:&nbsp;W.R. Grace knew about asbestos contamination from 1963 and concealed it for 27 years &mdash; a textbook case of Political Capture Cost (FGC Tier 6). The concealment extended CS by three decades. The accountability bond B &asymp; 0 throughout the operating period because the externality was hidden.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     H.4 Baotou Inner Mongolia &mdash; Rare Earth Processing (1980&ndash;present)
+    </p>
+    <p>
+     Context:&nbsp;Baotou produces approximately 70% of global rare earth output. The toxic tailings lake (Weikuang Dam) covers 11 km&sup2; and receives ~10M tons of radioactive tailings annually.
+    </p>
+    <p>
+     Value captured:&nbsp;Chinese rare earth export revenue ~$2&ndash;4B/year; downstream electronics manufacturing value estimated $1T+ in global consumer goods enabled by Baotou-sourced rare earths.
+    </p>
+    <p>
+     Costs concentrated locally:
+    </p>
+    <ul>
+     <li>
+      Elevated cancer rates in surrounding villages (lung, stomach, skin)
+     </li>
+     <li>
+      Agricultural land rendered unusable within 10km radius
+     </li>
+     <li>
+      Groundwater contamination of the Yellow River basin (serves 100M people)
+     </li>
+     <li>
+      Forced relocation of entire villages
+     </li>
+     <li>
+      Remediation cost estimated at $5&ndash;15B for tailings lake alone
+     </li>
+    </ul>
+    <p>
+     IPG:&nbsp;12&ndash;35&times; (Damage Function) / 18&ndash;48&times; (Real Options) / 22&ndash;41&times; (RCV)
+    </p>
+    <p>
+     CS structure:&nbsp;Global electronics consumers capture value; Baotou residents bear costs. This is the most explicit case of spatial cost severance operating at international scale &mdash; the geographic distance between beneficiary (Silicon Valley consumer) and cost-bearer (Inner Mongolian villager) is ~10,000 km. Cost severance scales with distance.
+    </p>
+   </section>
+   <section id="sec-i-engagement-with-existing-literature">
+    <h2>
+     I. Engagement with Existing Literature
+    </h2>
+    <hr>
+    <p>
+     This section, entirely absent from the prior Technical Appendix, is the most important addition for academic credibility. Reviewers and economists will ask how RCV relates to existing frameworks. This section answers that question directly and honestly &mdash; acknowledging what each framework gets right and where each one stops short.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     I.1 Hotelling (1931) &mdash; Optimal Depletion and Scarcity Rent
+    </p>
+    <p>
+     What Hotelling gets right:&nbsp;Resource prices should rise at the rate of interest as a non-renewable stock depletes. Owners of finite resources who optimize over time will not sell too fast &mdash; they will hold the resource until the price has risen enough to justify extraction. The "scarcity rent" &mdash; Hotelling's price premium above extraction cost &mdash; is a genuine contribution that RCV builds on.
+    </p>
+    <p>
+     Where Hotelling stops:&nbsp;Hotelling's model optimizes the extraction path for the resource owner, not for humanity. It asks "when should I sell my oil?" not "what does permanent oil depletion cost everyone else?" The scarcity rent is a private benefit (the owner captures it); the intergenerational foreclosure cost is a public harm (borne by future generations who cannot bid). Hotelling prices the former; RCV prices the latter. They are not alternatives &mdash; RCV adds to Hotelling, pricing what Hotelling's model structurally excludes.
+    </p>
+    <p>
+     Formal relationship:&nbsp;The Hotelling price path is P(t) = P(0) &middot; e^{r&middot;t}. The RCV augments this with the foreclosure cost &int;[1&minus;S(t)]U(R,t,Q(t))D(t)dt, which Hotelling's private-owner optimization cannot capture because future-generation utility is not represented in the owner's objective function.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     I.2 Hartwick (1977) &mdash; Invest the Rents
+    </p>
+    <p>
+     What Hartwick gets right:&nbsp;Hartwick's Rule states that a non-declining consumption path is achievable if a society invests all rents from exhaustible resource extraction in reproducible capital (machines, infrastructure, knowledge). Norway's sovereign wealth fund is the cleanest real-world application: extract the oil, invest the revenue, maintain the capital stock for future generations.
+    </p>
+    <p>
+     Where Hartwick stops:&nbsp;Hartwick's Rule requires that the resource be priced at its Hotelling rent &mdash; that the rent be fully captured, not severed. In practice, under-pricing (P &lt; true rent) means the investment fund receives less than Hartwick requires. More fundamentally, Hartwick assumes that the physical resource&nbsp;can be fully substituted by reproducible capital &mdash; that a future economy without oil can use machines instead. This is the strong substitutability assumption. The RCV model relaxes it: for high-industrial-existential substitutability gap resources, S_max &lt; 1, and Hartwick's substitution is incomplete. Even perfect investment of the Hartwick rent cannot replace a resource for which no substitute exists.
+    </p>
+    <p>
+     Formal relationship:&nbsp;Hartwick's Rule is the investment policy that makes CS = 0 under the assumption S_max = 1. RCV generalizes Hartwick to S_max &le; 1, showing that when S_max &lt; 1 (imperfect substitution), no investment policy can fully compensate for foreclosure &mdash; strategic preservation is the only complete solution.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     I.3 Weitzman (2001) &mdash; Declining Discount Rates
+    </p>
+    <p>
+     What Weitzman gets right:&nbsp;Under uncertainty about the appropriate long-run discount rate, the certainty-equivalent rate declines toward the lowest plausible rate. This is not merely a policy preference &mdash; it is a mathematical result. If we are uncertain whether the appropriate rate is 1%, 2%, or 4%, we should behave as if the rate approaches 1% over long horizons.
+    </p>
+    <p>
+     RCV adoption:&nbsp;The RCV model adopts Weitzman declining discount rates directly. This is the most significant methodological choice in the model &mdash; it biases RCV estimates downward relative to fixed high discount rates, making the results conservative. If anything, the Weitzman rate understates how much we should weight the future, because the case for near-zero long-run discounting grows stronger with each decade of climate damage evidence.
+    </p>
+    <p>
+     Engagement with Nordhaus (2007):&nbsp;Nordhaus used a 5.5% discount rate to recommend moderate climate action (DICE model). Stern (2006) used 1.4% and recommended aggressive action. The RCV model does not resolve this debate &mdash; it acknowledges that the output is sensitive to discount rate assumptions (as the McDowell County IPG range of 33&ndash;122&times; demonstrates). However, the Weitzman result means that rational agents facing uncertainty about the discount rate should act as if the low rate applies. CS &gt; 0 holds across the entire plausible discount rate range; only the magnitude varies.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     I.4 Rawls (1971) &mdash; Veil of Ignorance and the Just Savings Principle
+    </p>
+    <p>
+     What Rawls gets right:&nbsp;Principles of justice should be chosen from behind a veil of ignorance &mdash; without knowing your position in society. His Just Savings Principle extends this across time: each generation owes something to those that follow, and we should choose only principles we would wish all preceding and succeeding generations to have followed.
+    </p>
+    <p>
+     RCV operationalization:&nbsp;The RCV model is the Rawlsian veil applied to resource extraction. If you did not know which generation you would be born into &mdash; whether 2024 or 2224 or 2524 &mdash; would you consent to an extraction regime that treats the planet's non-renewable endowment as the property of whoever gets to it first? Rawls explicitly stated: "there are no grounds for discounting future well-being on the basis of pure time preference." The RCV model implements this as the stock-dependent utility term U(R, t, Q(t)), which gives future generations' welfare equal standing in the integral.
+    </p>
+    <p>
+     Where Rawls is limited:&nbsp;Rawls's framework is primarily synchronic (within a generation) and only partially extends across time. His Just Savings Principle was acknowledged by Rawls himself to be underdeveloped. Brian Barry (later) sharpened it: the overall range of opportunities open to successive generations should not be narrowed. RCV prices the narrowing of opportunities directly &mdash; as the foreclosure cost.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     I.5 Ostrom (1990) &mdash; Governing the Commons
+    </p>
+    <p>
+     What Ostrom gets right:&nbsp;Common-pool resources are not inevitably subject to the "tragedy of the commons." Communities can and do develop governance institutions that sustainably manage shared resources. Her eight design principles (clear boundaries, rules fit to local conditions, collective choice arrangements, monitoring, graduated sanctions, conflict resolution, recognition of rights, nested governance) identify the conditions under which commons governance succeeds.
+    </p>
+    <p>
+     Where Ostrom stops:&nbsp;Ostrom's framework was designed for renewable&nbsp;commons &mdash; fisheries, forests, irrigation systems, where the challenge is managing a sustainable harvest rate. Her design principles work beautifully for resources that regenerate. They give us governance for sustainable fishing in the Chesapeake Bay. They give us nothing for the permanent farewell to a barrel of oil. Non-renewable extraction is a one-time event; there is no harvest rate to manage, no regeneration to protect. Ostrom's governance framework is a necessary but insufficient complement to the RCV model &mdash; necessary for the renewable commons (Chesapeake Bay fisheries, forests, groundwater above depletion rate), insufficient for the permanent foreclosure case.
+    </p>
+    <p>
+     RCV as extension:&nbsp;The RCV model can be read as Ostrom's design principles translated into a pricing mechanism for the non-renewable case. Where Ostrom asks "how do we manage this so it lasts?" RCV asks "what does it cost when management fails and it doesn't last?"
+    </p>
+    <h4>
+    </h4>
+    <p>
+     I.6 Daly (1990s) &mdash; Ecological Economics and Strong Sustainability
+    </p>
+    <p>
+     What Daly gets right:&nbsp;"Weak sustainability" (Hartwick's approach: substitute capital for natural capital) is insufficient. "Strong sustainability" requires maintaining the natural capital stock itself &mdash; particularly for critical natural capital with no adequate substitute. GDP as a measure of welfare is deeply misleading because it counts environmental destruction as economic activity.
+    </p>
+    <p>
+     RCV relationship:&nbsp;The RCV model operationalizes Daly's strong sustainability criterion mathematically. Where Daly argues normatively that S_max must equal 1 for strong sustainability to be achievable, RCV asks empirically: what is S_max for each resource class? For high-industrial-existential substitutability gap resources (rare earths, platinum group metals, phosphorus), S_max &lt; 1 &mdash; Daly's strong sustainability criterion cannot be met by substitution alone. The RCV model quantifies the resulting cost, complementing Daly's qualitative argument with a measurable framework.
+    </p>
+    <h4>
+    </h4>
+    <p>
+     I.7 Harvey (2003) &mdash; Accumulation by Dispossession
+    </p>
+    <p>
+     What Harvey gets right:&nbsp;Harvey names the broader mechanism of which cost severance is a specific instance: capital accumulates by dispossessing communities of their assets, commons, and resources through enclosure, privatization, and force. Cost severance is the pricing dimension of this &mdash; the financial mechanism by which dispossession is made to appear economically rational.
+    </p>
+    <p>
+     RCV as measurement tool:&nbsp;Harvey diagnoses the mechanism; RCV measures its magnitude. "Accumulation by dispossession" tells you it happened; the IPG tells you by how much. A McDowell County miner can say "we were exploited" &mdash; the RCV model says "you absorbed $552 of cost for every $4.50 you were paid." The measurement does not replace the political analysis; it gives it a number.
+    </p>
+   </section>
+   <section id="sec-j-limitations-and-boundary-conditions">
+    <h2>
+     J. Limitations and Boundary Conditions
+    </h2>
+    <hr>
+    <ol start="1">
+     <li>
+      Substitutability Function Estimation:&nbsp;S(t) requires empirical input from materials science, energy engineering, and industrial ecology. Current estimates carry &plusmn;30&ndash;50% uncertainty in S_max for most resource classes. This uncertainty is reflected in the IPG ranges; the model is presented as a range estimator, not a point estimator.
+     </li>
+     <li>
+      Strategic Behavior:&nbsp;Extractors will attempt to game S(t) estimates (by exaggerating substitutability) and will engage in jurisdiction shopping (extracting where B is lowest). The model predicts this behavior and argues for international coordination as the structural response &mdash; not because coordination is easy, but because CS scales with the distance between extraction and governance.
+     </li>
+     <li>
+      Cross-Resource Interactions:&nbsp;Portfolio effects &mdash; rare earth extraction enabling solar panel manufacturing enabling coal displacement &mdash; require additional modeling beyond per-resource RCV. The model treats resources independently as a first approximation; a full portfolio analysis is a significant further research program.
+     </li>
+     <li>
+      Incommensurable Externalities:&nbsp;The Europa case (Scenario 6) identifies the boundary: the framework cannot price externalities that involve potential destruction of an independent biosphere. Where externalities are incommensurable with human utility scales, the model correctly reports its own limit and defaults to the Asymmetric Regret Rule.
+     </li>
+     <li>
+      Technological Discontinuities:&nbsp;The substitutability function assumes gradual, monotonic improvement in substitutes. A sudden technological breakthrough (e.g., room-temperature superconductivity eliminating rare earth demand) would shift S(t) discontinuously. The model's sensitivity analysis shows that even large positive discontinuities in S(t) do not reverse the CS &gt; 0 finding for resources already extracted &mdash; the externality tail continues regardless.
+     </li>
+     <li>
+      Discount Rate Uncertainty:&nbsp;The IPG is sensitive to discount rate assumptions. This is a feature, not a bug &mdash; it honestly reflects that how much we weight future generations is a normative choice, not a technical one. The Weitzman result provides the theoretically grounded solution: use declining rates. The sensitivity analysis showing CS &gt; 0 across all plausible rates (from the Nordhaus 5.5% to the Stern 1.4%) demonstrates the finding is robust.
+     </li>
+    </ol>
+   </section>
+   <section id="sec-k-mathematical-extensions">
+    <h2>
+     K. Mathematical Extensions
+    </h2>
+    <hr>
+    <h3>
+     K.1 RCV with Variable Discount Rates (Weitzman Specification)
+    </h3>
+    <p>
+     RCV = &int;t₀&infin;&nbsp;{ [1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; exp(&minus;&int;t₀t&nbsp;r(&tau;)d&tau;) dt
+    </p>
+    <p>
+     where r(t) = r₀ &middot; e&minus;&delta;t&nbsp;+ r_min
+    </p>
+    <p>
+     The declining discount rate function r(t) starts at r₀ (conventional current rate, ~4&ndash;5%) and declines to r_min (~1%) over long horizons, reflecting Weitzman's certainty-equivalent rate under discount rate uncertainty. This specification is conservative relative to a zero or near-zero pure time preference &mdash; it biases RCV downward.
+    </p>
+    <h3>
+     K.2 Stock-Dependent Substitutability
+    </h3>
+    <p>
+     S(t | t₀, Q(t)) = S_base(t) &middot; [1 &minus; &alpha; &middot; (Q_critical / Q(t))&beta;]
+    </p>
+    <p>
+     where &alpha;, &beta; &gt; 0 capture scarcity effects on innovation incentives
+    </p>
+    <p>
+     When stock Q is large, innovators have low incentive to develop substitutes &mdash; resources appear abundant, prices are low. As Q approaches Q_critical (the level at which scarcity becomes economically visible), innovation pressure increases and S_base rises faster. This creates a potential feedback loop: very rapid extraction can keep prices low long enough to delay substitute development, resulting in a lower achieved S_max when depletion eventually forces the issue. This is the mechanism behind "stranded asset risk" &mdash; industries that extracted too fast find themselves without substitutes when they need them.
+    </p>
+    <h3>
+     K.3 Spatial Cost Severance Formalization
+    </h3>
+    <p>
+     SCS = &int;extraction region&nbsp;&int;time&nbsp;C(x, t) dx dt &minus; &int;consumption region&nbsp;&int;time&nbsp;B(x, t) dx dt
+    </p>
+    <p>
+     where x represents geographic location, C(x,t) is cost burden at location x and time t, B(x,t) is benefit received at location x and time t
+    </p>
+    <p>
+     Spatial Cost Severance measures the geographic mismatch between where costs fall and where benefits go. When the extraction region and the consumption region coincide (Mars colony mining its own rare earths; Norway's sovereign wealth fund), SCS &rarr; 0. When they are geographically separated (Appalachian coal, Baotou rare earths, Niger Delta oil), SCS &gt; 0 and scales with the distance and power differential between the two regions.
+    </p>
+    <p>
+     This formalization explains why cost severance produces systematic geographic inequality: extraction communities absorb environmental, health, and economic disruption costs while consuming communities receive energy and materials at artificially low prices. The 13-year life expectancy gap between McDowell County and the national average is the human face of SCS.
+    </p>
+    <h3>
+     K.4 Sensitivity Analysis Summary
+    </h3>
+    <p>
+     The following table shows how the McDowell County IPG (central case) responds to parameter variation:
+    </p>
+    <table>
+     <thead>
+      <tr>
+       <td>
+        <p>
+         Parameter
+        </p>
+       </td>
+       <td>
+        <p>
+         Baseline
+        </p>
+       </td>
+       <td>
+        <p>
+         Low Case
+        </p>
+       </td>
+       <td>
+        <p>
+         High Case
+        </p>
+       </td>
+       <td>
+        <p>
+         IPG Range
+        </p>
+       </td>
+      </tr>
+     </thead>
+     <tbody>
+     </tbody>
+     <tr>
+      <td>
+       <p>
+        Discount rate r₀
+       </p>
+      </td>
+      <td>
+       <p>
+        4%
+       </p>
+      </td>
+      <td>
+       <p>
+        1.4% (Stern)
+       </p>
+      </td>
+      <td>
+       <p>
+        5.5% (Nordhaus)
+       </p>
+      </td>
+      <td>
+       <p>
+        33&times; to 122&times;
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        S_max (electricity)
+       </p>
+      </td>
+      <td>
+       <p>
+        0.85
+       </p>
+      </td>
+      <td>
+       <p>
+        0.95
+       </p>
+      </td>
+      <td>
+       <p>
+        0.70
+       </p>
+      </td>
+      <td>
+       <p>
+        &plusmn;20%
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Carbon SCC
+       </p>
+      </td>
+      <td>
+       <p>
+        $190/ton CO₂ (EPA)
+       </p>
+      </td>
+      <td>
+       <p>
+        $51 (conservative)
+       </p>
+      </td>
+      <td>
+       <p>
+        $300+ (damage function)
+       </p>
+      </td>
+      <td>
+       <p>
+        &plusmn;60%
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <p>
+        Externality tail length
+       </p>
+      </td>
+      <td>
+       <p>
+        200 years
+       </p>
+      </td>
+      <td>
+       <p>
+        100 years
+       </p>
+      </td>
+      <td>
+       <p>
+        Indefinite
+       </p>
+      </td>
+      <td>
+       <p>
+        &plusmn;15%
+       </p>
+      </td>
+     </tr>
+    </table>
+    <p>
+     Robustness finding:&nbsp;CS &gt; 0 across all parameter combinations tested. Even under the most conservative assumptions (high discount rate, high S_max, low SCC, short externality tail), the McDowell County IPG &ge; 5&times; &mdash; the market price covers at most 20% of the true cost. The central finding is robust to parameter uncertainty; only the magnitude varies.
+    </p>
+   </section>
+   <section id="sec-l-the-four-gate-discipline-for-variable-">
+    <h2>
+     L. The Four-Gate Discipline for Variable Addition
+    </h2>
+    <hr>
+    <p>
+     A framework that prices cost severance by integrating discovered cost terms against a declining discount factor requires a discipline for what counts as an admissible term. Without that discipline, the framework is unbounded &mdash; any quantity whose existence can be narrated becomes an RCV contributor, and the computation becomes a vehicle for the analyst&rsquo;s priors. With the discipline, the framework is generative: new variables are admitted on specific grounds, older analyses are revisable as new grounds emerge, and the computation remains a structured argument rather than a collection of preferences.
+    </p>
+    <p>
+     This section specifies the four-gate discipline formally. A candidate variable Ci&nbsp;enters the RCV integrand if and only if all four gates pass under the stated Context. Gate L.1 tests scarcity-grounding (CIT). Gate L.2 tests dimensional consistency. Gate L.3 tests integral convergence. Gate L.4 tests non-overlap with existing terms. The four gates are jointly sufficient: a candidate that passes all four is admissible; a candidate that fails any one is rejected under those specifications and may be re-proposed under different specifications (redefinition, disjoint re-scoping, unit conversion, horizon truncation) that address the failed gate.
+    </p>
+    <p>
+     The gates are not hierarchical. The sequence below is operational (rejecting on CIT first is the cheapest test; overlap analysis is most expensive because it requires the candidate to be fully specified). A candidate must pass all four in any order. The current canonical two-term RCV integrand in Section B.1 is the special case of the general sum-of-costs form under the four gates; both C1&nbsp;= foreclosure and C2&nbsp;= externality-tail pass all four gates under the framework&rsquo;s standard specifications, as worked below.
+    </p>
+    <h3>
+     L.1 Gate 1 &mdash; Abundance Inversion (Scarcity-Grounding)
+    </h3>
+    <p>
+     Formal statement.&nbsp;A candidate cost term Ci&nbsp;passes the CIT gate if and only if: under a counterfactual in which the scarcity-condition underlying Ci&nbsp;is removed (the relevant resource, substitutability-constrained good, or absorption-capacity is available in non-scarce quantities at the affected times), the cost reduces to zero (or to a cost intrinsic to the activity rather than to the extraction of this resource at this time).
+    </p>
+    <p>
+     The gate&rsquo;s operational form requires the analyst to specify the abundance counterfactual explicitly before testing. A candidate that persists under abundance is not a cost of extraction in this framework; it may be a cost of the activity in general, a cost of something else, or not an economic cost at all. A candidate that vanishes under abundance is scarcity-grounded and eligible to continue to subsequent gates.
+    </p>
+    <p>
+     Worked example &mdash; foreclosure cost (C1).&nbsp;Under abundance of substitutes at all future times (S(t | t0) = 1 &forall; t &ge; t0), [1 &minus; S(t | t0)] = 0, and the foreclosure contribution vanishes. Foreclosure is scarcity-grounded in the substitutability condition. Pass.
+    </p>
+    <p>
+     Worked example &mdash; externality tail (C2).&nbsp;Under abundance of the extracted resource itself, E(R, t) is not eliminated &mdash; combustion damage, remediation obligation, and community-health cost persist regardless of stock size. The resolution is the gate&rsquo;s precise statement: CIT inverts the scarcity condition underlying the cost, not the physical damage itself. For E, the relevant scarcity is absorption-capacity (atmospheric, hydrological, community). Under infinite absorption capacity, the externality flow does no marginal damage; the cost vanishes. Scarcity-grounded in absorption-capacity. Pass&nbsp;under the absorption-capacity counterfactual.
+    </p>
+    <p>
+     Rejected candidate &mdash; existential-meaning cost.&nbsp;Under abundance of meaning/purpose, the cost does not reduce to zero; meaning is not a resource for which abundance-vs-scarcity is economically well-defined. The counterfactual is incoherent. Fail.
+    </p>
+    <p>
+     Admissible candidates exist outside the canonical two-term specification. Aesthetic cost (hedonic-priced, under landscape-beauty-scarcity) passes CIT because under abundance of alternative undisturbed landscapes the marginal cost of a specific landscape loss approaches zero. Cultural-pride cost passes CIT under abundance of alternative cultural-pride-producing activities. Both candidates then face the remaining three gates, which determine whether they enter a particular Context&rsquo;s RCV integrand.
+    </p>
+    <h3>
+     L.2 Gate 2 &mdash; Dimensional Consistency
+    </h3>
+    <p>
+     Formal statement.&nbsp;A candidate cost term Ci&nbsp;passes the dimensional gate if and only if Ci&nbsp;has units [dollars &middot; (resource-unit)&minus;1&nbsp;&middot; (time-unit)&minus;1] under the RCV integrand, such that integration against the dimensionless discount factor D(t, t0) produces a quantity with units [dollars &middot; (resource-unit)&minus;1].
+    </p>
+    <p>
+     Dimensional requirement for each term in the RCV integrand:
+    </p>
+    <table>
+     <thead>
+      <tr>
+       <td>
+        <p>
+         Term
+        </p>
+       </td>
+       <td>
+        <p>
+         Units
+        </p>
+       </td>
+       <td>
+        <p>
+         Notes
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         [1 &minus; S(t | t₀)]
+        </p>
+       </td>
+       <td>
+        <p>
+         dimensionless
+        </p>
+       </td>
+       <td>
+        <p>
+         probability that no adequate substitute exists
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         U(R, t, Q(t))
+        </p>
+       </td>
+       <td>
+        <p>
+         $ &middot; res-unit⁻&sup1; &middot; time⁻&sup1;
+        </p>
+       </td>
+       <td>
+        <p>
+         stock-dependent utility flow of retained resource
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         E(R, t)
+        </p>
+       </td>
+       <td>
+        <p>
+         $ &middot; res-unit⁻&sup1; &middot; time⁻&sup1;
+        </p>
+       </td>
+       <td>
+        <p>
+         externality flow attributable to the extraction
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         Cᵢ (candidate)
+        </p>
+       </td>
+       <td>
+        <p>
+         $ &middot; res-unit⁻&sup1; &middot; time⁻&sup1;
+        </p>
+       </td>
+       <td>
+        <p>
+         required for admission
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         D(t, t₀)
+        </p>
+       </td>
+       <td>
+        <p>
+         dimensionless
+        </p>
+       </td>
+       <td>
+        <p>
+         discount factor (Weitzman-type under declining rate)
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         &int; &middot; dt result
+        </p>
+       </td>
+       <td>
+        <p>
+         $ &middot; res-unit⁻&sup1;
+        </p>
+       </td>
+       <td>
+        <p>
+         RCV per resource unit
+        </p>
+       </td>
+      </tr>
+     </thead>
+    </table>
+    <p>
+     Candidates specified in non-dollar units (utility indices, ordinal rankings, hedonic indices without dollar-conversion, quality-of-life scores without monetary equivalents) fail this gate until they are converted to dollar terms with transparent methodology. The gate does not forbid conversion &mdash; hedonic pricing, contingent valuation, and revealed-preference methods are all acceptable &mdash; but the conversion must be explicit, defensible, and documented in the RCV write-up.
+    </p>
+    <p>
+     Worked example &mdash; community-transition-reserve cost (C3).&nbsp;Empirical allocation from McDowell County and comparable extraction communities places the community-transition cost at roughly $5&ndash;$15 per ton of coal extracted, distributed across the transition period following mine closure. Units: [$ &middot; ton&minus;1&nbsp;&middot; year&minus;1] during the transition window, zero elsewhere. Pass.
+    </p>
+    <p>
+     Rejected candidate &mdash; dignity cost (as proposed, unconverted).&nbsp;Proposed as an ordinal ranking of community dignity loss, with no dollar conversion and no time allocation. Fail&nbsp;as proposed; re-proposable as a contingent-valuation-priced cost with transparent conversion.
+    </p>
+    <h3>
+     L.3 Gate 3 &mdash; Boundedness (Integral Convergence)
+    </h3>
+    <p>
+     Formal statement.&nbsp;A candidate cost term Ci&nbsp;passes the boundedness gate if and only if the integral
+    </p>
+    <p>
+     &int;t₀&infin;&nbsp;Ci(R, t, Context) &middot; D(t, t0) dt
+    </p>
+    <p>
+     converges to a finite value under the stated parameter assumptions for D and Ci.
+    </p>
+    <p>
+     Sufficient condition.&nbsp;If Ci(R, t, Context) is bounded above for all t &ge; t0&nbsp;and decays to zero (or to a constant absorbed by the discount factor) as t &rarr; &infin; at a rate at least as fast as D(t, t0) decays toward its asymptotic value, the integral converges. Weitzman-declining-rate discount factors (Section K.1) satisfy this condition for any Ci&nbsp;that is asymptotically bounded and non-growing.
+    </p>
+    <p>
+     Convergence-condition table for common Ci&nbsp;asymptotic behaviors:
+    </p>
+    <table>
+     <thead>
+      <tr>
+       <td>
+        <p>
+         Cᵢ asymptotic behavior
+        </p>
+       </td>
+       <td>
+        <p>
+         Convergence under Weitzman D
+        </p>
+       </td>
+       <td>
+        <p>
+         Admissibility
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         decays to 0 (exponential or polynomial)
+        </p>
+       </td>
+       <td>
+        <p>
+         yes
+        </p>
+       </td>
+       <td>
+        <p>
+         admit
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         bounded, approaches non-zero constant
+        </p>
+       </td>
+       <td>
+        <p>
+         conditional (constant &times; asymptotic D integrated)
+        </p>
+       </td>
+       <td>
+        <p>
+         admit under finite-horizon truncation + sensitivity
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         grows polynomially
+        </p>
+       </td>
+       <td>
+        <p>
+         depends on growth rate vs. D decay
+        </p>
+       </td>
+       <td>
+        <p>
+         case-by-case; typically requires truncation
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         grows exponentially
+        </p>
+       </td>
+       <td>
+        <p>
+         typically diverges
+        </p>
+       </td>
+       <td>
+        <p>
+         reject as proposed
+        </p>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <p>
+         oscillates unboundedly
+        </p>
+       </td>
+       <td>
+        <p>
+         diverges
+        </p>
+       </td>
+       <td>
+        <p>
+         reject
+        </p>
+       </td>
+      </tr>
+     </thead>
+    </table>
+    <p>
+     The analyst specifies (a) the asymptotic behavior of Ci, (b) the applicable discount-factor specification, and (c) a convergence proof or a numerical verification over a sufficiently long horizon (typically 200&ndash;500 years for terrestrial extraction contexts; longer for contexts with century-scale persistence such as atmospheric carbon or deep-aquifer depletion). Conditional convergence cases are handled by finite-horizon truncation with an accompanying sensitivity bound.
+    </p>
+    <p>
+     Worked example &mdash; carbon externality tail.&nbsp;Ecarbon(t) decays as atmospheric CO2&nbsp;is removed by natural sinks, with an effective half-life on the order of 100 years for a substantial fraction and roughly 1000+ years for a residual fraction. Under Weitzman-declining-rate discounting, the integral converges; 500-year horizon captures approximately 95% of the integral value, with extension to 2000 years adding under 5%. Pass&nbsp;with numerical verification; finite-horizon truncation at 2000 years is standard practice.
+    </p>
+    <p>
+     Rejected candidate &mdash; perpetual-dignity-loss (proposed as Ci&nbsp;= constant &forall; t &ge; t0).&nbsp;Under any Weitzman-type discount factor that decays only to a small nonzero asymptotic constant, the integral grows without bound. Fail&nbsp;as proposed; re-proposable with finite-horizon specification or explicit decay.
+    </p>
+    <h3>
+     L.4 Gate 4 &mdash; Independence (Non-Overlap)
+    </h3>
+    <p>
+     Formal statement.&nbsp;A candidate cost term Ci&nbsp;passes the independence gate if and only if Ci&nbsp;does not double-count any component already captured by existing terms {C1, C2, &hellip;, Ci&minus;1} in the integrand under the current Context.
+    </p>
+    <p>
+     For each existing term Cj, the analyst specifies the cost category Cj&nbsp;captures. For the candidate Ci, the analyst specifies its cost category. If the categories are disjoint, independence holds. If they overlap partially, the analyst must resolve the overlap by one of three moves: (a) redefine one of the terms to restrict it to its disjoint portion; (b) merge the two terms into a single broader term; (c) reject the candidate as redundant under the existing specification.
+    </p>
+    <p>
+     Worked example &mdash; community-transition-reserve cost (C3) versus canonical E.&nbsp;Canonical E in Section B.1 captures atmospheric, hydrological, and environmental-remediation externalities. C3&nbsp;captures community-infrastructural-and-demographic transition costs. Categories are disjoint. Pass&nbsp;under canonical E specification.
+    </p>
+    <p>
+     Worked example &mdash; requires-merger: carbon-specific externality (Ccarbon) versus aggregated E.&nbsp;If a candidate Ccarbon&nbsp;is proposed when E already aggregates atmospheric externalities including carbon (as in the Ch 6 headline computation where E includes $190/ton CO2&nbsp;&times; 2.86 tons CO2&nbsp;per ton coal), Ccarbon&nbsp;double-counts. Resolution options: (a) redefine E to exclude carbon (narrowing its scope to non-carbon environmental externalities) and admit Ccarbon&nbsp;separately; (b) retain aggregated E and reject Ccarbon&nbsp;as redundant. Either resolution preserves framework consistency. The choice is a reporting-granularity preference, not a structural requirement.
+    </p>
+    <h3>
+     L.5 Gate-Application Protocol
+    </h3>
+    <p>
+     The four gates are applied in the following operational sequence for any candidate Ci. The sequence is chosen for efficiency of rejection, not definitional priority; a candidate must pass all four gates in any order to be admitted.
+    </p>
+    <p>
+     Step 1 &mdash; CIT.&nbsp;Specify the abundance counterfactual. Evaluate whether Ci&nbsp;reduces to zero (or to an intrinsic-activity cost) under abundance. If yes, proceed to Step 2. If no, reject; optionally re-propose under an alternative counterfactual specification.
+    </p>
+    <p>
+     Step 2 &mdash; Dimensional.&nbsp;Verify the candidate&rsquo;s units match [$ &middot; res-unit&minus;1&nbsp;&middot; time&minus;1]. If yes, proceed to Step 3. If no, reject; optionally re-propose with explicit dollar-conversion methodology.
+    </p>
+    <p>
+     Step 3 &mdash; Boundedness.&nbsp;Verify the candidate&rsquo;s integral &int; Ci&nbsp;&middot; D dt converges under stated parameters (analytic proof or numerical verification over a 200&ndash;500 year horizon, 2000 year for persistence cases). If yes, proceed to Step 4. If no, reject; optionally re-propose with finite-horizon truncation or a decay specification.
+    </p>
+    <p>
+     Step 4 &mdash; Independence.&nbsp;Specify cost categories for all existing {Cj} and for the candidate. Verify non-overlap. If disjoint, admit. If overlap, resolve by redefinition, merger, or rejection; re-verify Steps 1&ndash;3 for any redefined term.
+    </p>
+    <p>
+     A candidate that passes all four gates enters the RCV integrand. Admission is provisional in the sense that subsequent candidates may surface overlap that requires re-checking independence; previously-admitted terms are not removed by subsequent additions, but their definitions may be narrowed. The framework is monotonic in admission but not in specification.
+    </p>
+    <h3>
+     L.6 Worked Example &mdash; Adding Community-Transition-Reserve Cost to McDowell County Coal
+    </h3>
+    <p>
+     Starting RCV (Section B.1 canonical):
+    </p>
+    <p>
+     RCVMcDowell&nbsp;= &int;1960&infin;&nbsp;{ [1 &minus; S(t | 1960)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, 1960) dt
+    </p>
+    <p>
+     Candidate:&nbsp;C3&nbsp;= community-transition-reserve cost.
+    </p>
+    <p>
+     Context:&nbsp;McDowell County, West Virginia, 1960 forward. Population peaked near 100,000 in 1950 and declined to approximately 19,000 by 2020. Transition costs include retraining displacement, infrastructure maintenance under declining tax base, public-service degradation, and intergenerational-mobility foreclosure in the transition window following mine closure.
+    </p>
+    <p>
+     Gate L.1 (CIT).&nbsp;Counterfactual: under a national community-transition-reserve fund fully bonded to extraction at the time of permitting, community-transition costs are absorbed by the fund rather than severed onto residents; the cost to the commons reduces to zero. Scarcity-grounded in transition-capital availability. Pass.
+    </p>
+    <p>
+     Gate L.2 (dimensional).&nbsp;Empirical allocation: $5&ndash;$15 per ton of coal per year during the transition window, approximately 1990&ndash;2050. Units: [$ &middot; ton&minus;1&nbsp;&middot; year&minus;1]. Pass.
+    </p>
+    <p>
+     Gate L.3 (boundedness).&nbsp;C3&nbsp;is non-zero on the finite interval [1990, 2050] and zero elsewhere. The integral of a bounded function over a finite interval, discounted by a bounded discount factor, is finite. Present-value contribution (under canonical Weitzman parameters): approximately $5&ndash;$10 per ton. Pass.
+    </p>
+    <p>
+     Gate L.4 (independence).&nbsp;Foreclosure [1 &minus; S] &middot; U captures future-user value of the retained resource stock; E captures atmospheric and environmental externalities; C3&nbsp;captures community-infrastructural-and-demographic transition costs. Categories are disjoint under canonical specifications. Pass.
+    </p>
+    <p>
+     Updated formula:
+    </p>
+    <p>
+     RCVMcDowell&nbsp;= &int;1960&infin;&nbsp;{ [1 &minus; S(t | 1960)] &middot; U(R, t, Q(t)) + E(R, t) + C3(R, t, Context) } &middot; D(t, 1960) dt
+    </p>
+    <p>
+     Numerical update.&nbsp;Present-value contribution of C3&nbsp;approximately $5&ndash;$10/ton. Against the canonical Ch 6 figure of $550&ndash;$570/ton (dominated by the carbon externality), the updated RCV estimate is $555&ndash;$580/ton. Market price remains $4.50/ton (1960 historical) or $40&ndash;$140/ton (contemporary range by grade). The qualitative result CS &gt; 0 is preserved; the pricing gap widens slightly.
+    </p>
+    <p>
+     Adding C3&nbsp;does not destabilize the computation. Convergence is preserved. Dimensional consistency is maintained. No existing term is invalidated. The framework has admitted a new variable via the four gates; subsequent analysts with improved community-transition-cost data can refine the C3&nbsp;estimate without disturbing the rest of the integrand. This is the generative property the framework is designed to support.
+    </p>
+    <h3>
+     L.7 Relationship to Prior Methodology
+    </h3>
+    <p>
+     The four gates extend, rather than replace, the framework&rsquo;s prior methodological discipline.
+    </p>
+    <p>
+     CIT (Section C)&nbsp;is now explicitly positioned as Gate L.1, the first of four gates. The other three gates supply the formal-mathematical constraints that CIT alone did not enforce. CIT&rsquo;s role as the framework&rsquo;s epistemic core is preserved; what changes is that CIT passage alone is no longer sufficient for admission.
+    </p>
+    <p>
+     Merger gate and primitiveness gate&nbsp;(applied to commons categorys in prior rigor passes) are recognized as the independence gate&rsquo;s dimensional-level application. The merger gate tests whether a proposed dimension is subsumed by an existing one; the primitiveness gate tests whether a proposed dimension is structurally irreducible. Both are cases of the general non-overlap requirement operating at a coarser granularity than variable-level independence.
+    </p>
+    <p>
+     Convergence analysis&nbsp;(Theorem E.1 in Section E on RCV integral convergence under Weitzman discounting) is the boundedness gate&rsquo;s canonical instance. The gate extends the theorem&rsquo;s coverage from the two-term canonical formula in Section B.1 to any finite-sum integrand that satisfies L.3&rsquo;s sufficient condition.
+    </p>
+    <p>
+     The canonical two-term RCV formula (Section B.1)&nbsp;remains the baseline specification for the published worked cases. The general sum-of-costs form is an extension under the four gates, formalized in Section M (Formula Generalization) below.
+    </p>
+    <hr>
+   </section>
+   <section id="sec-m-formula-generalization-the-sum-of-cost">
+    <h2>
+     M. Formula Generalization: The Sum-of-Costs Form
+    </h2>
+    <hr>
+    <h3>
+     M.0 Overview
+    </h3>
+    <p>
+     Section L specifies the four gates governing admission of cost terms to the RCV integrand. This section presents the corresponding mathematical generalization of the RCV formula &mdash; the sum-of-costs form &mdash; and derives the properties (convergence, dimensional consistency, CS = RCV &minus; B preservation) that must hold for the generalization to be sound. The generalization is the extension that makes the framework generative: new variables can be admitted as the four gates reveal them, without destabilizing the mathematical architecture. The canonical two-term RCV formula of Section B.1 is recovered as the n = 2 special case of the general form.
+    </p>
+    <h3>
+     M.1 The Generalization &mdash; Formal Statement
+    </h3>
+    <p>
+     The canonical two-term RCV formula (Section B.1):
+    </p>
+    <p>
+     RCV(R, t0) = &int;t₀&infin;&nbsp;{ [1 &minus; S(t | t0)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, t0) dt
+    </p>
+    <p>
+     is replaced by the general sum-of-costs form:
+    </p>
+    <p>
+     RCV(R, t0, Context) = &int;t₀&infin;&nbsp;{ &Sigma;i=1n&nbsp;Ci(R, t, Context) } &middot; D(t, t0) dt
+    </p>
+    <p>
+     where:
+    </p>
+    <p>
+     &bull; n is the number of cost terms admitted into the integrand under the current Context;
+    </p>
+    <p>
+     &bull; each Ci&nbsp;has passed gates L.1&ndash;L.4 under stated specifications;
+    </p>
+    <p>
+     &bull; Context encodes the specific extraction situation (who captures value, who bears cost, what scarcity operates, what substitutability landscape exists, what externality profile, what community relationships are affected);
+    </p>
+    <p>
+     &bull; D(t, t0) is the declining-rate discount factor per Section K.1.
+    </p>
+    <p>
+     The canonical two-term form is recovered as the special case n = 2 with C1(R, t, Context) = [1 &minus; S(t | t0)] &middot; U(R, t, Q(t)) (foreclosure) and C2(R, t, Context) = E(R, t) (externality tail). This equivalence is worked explicitly in Section M.5 below.
+    </p>
+    <h3>
+     M.2 Convergence Preservation
+    </h3>
+    <p>
+     Claim.&nbsp;If each Ci&nbsp;satisfies the boundedness gate L.3 individually under the stated discount factor, and n is finite, then the sum-of-costs integral converges.
+    </p>
+    <p>
+     Proof.&nbsp;The integrand is a finite sum of functions, each of which yields a convergent integral under D by gate L.3. By linearity of integration:
+    </p>
+    <p>
+     &int;t₀&infin;&nbsp;&Sigma;i=1n&nbsp;Ci(R, t, Context) &middot; D(t, t0) dt = &Sigma;i=1n&nbsp;&int;t₀&infin;&nbsp;Ci(R, t, Context) &middot; D(t, t0) dt
+    </p>
+    <p>
+     Each term on the right is finite (L.3 passes individually). A finite sum of finite terms is finite. The integral of the sum converges. Q.E.D.
+    </p>
+    <p>
+     Remark on countable sums.&nbsp;For countably many Ci&nbsp;(a theoretical extension), uniform convergence of the partial sums plus absolute convergence of the sum of integrals is required. In practice, n is bounded by the empirical scope of CIT-discoverable variables in a given Context (observed bound &le; ~20 across 18 case studies). Countable-sum extensions are not required for the framework&rsquo;s current applied scope. Future research may address formal boundedness of n as a function of Context complexity; the current framework operates under empirical finiteness.
+    </p>
+    <p>
+     Interchange of sum and integral.&nbsp;For finite sums, interchange is unconditional. For countable sums, the interchange requires a dominating function by the dominated convergence theorem or a monotone structure by the monotone convergence theorem. In the framework&rsquo;s applied scope (finite n), no dominating function is needed; the interchange is a standard result.
+    </p>
+    <h3>
+     M.3 Dimensional Consistency
+    </h3>
+    <p>
+     Claim.&nbsp;If each Ci&nbsp;satisfies the dimensional gate L.2 (units [$ &middot; res-unit&minus;1&nbsp;&middot; time-unit&minus;1]), then the sum-of-costs integral produces a quantity with units [$ &middot; res-unit&minus;1] &mdash; the same units as the canonical two-term RCV.
+    </p>
+    <p>
+     Proof.&nbsp;Each Ci&nbsp;&middot; D(t, t0) has units:
+    </p>
+    <p>
+     [$ &middot; res-unit&minus;1&nbsp;&middot; time-unit&minus;1] &middot; [dimensionless] = [$ &middot; res-unit&minus;1&nbsp;&middot; time-unit&minus;1]
+    </p>
+    <p>
+     A finite sum of quantities with identical units preserves those units: &Sigma;i&nbsp;Ci&nbsp;&middot; D has units [$ &middot; res-unit&minus;1&nbsp;&middot; time-unit&minus;1]. Integration with respect to t removes the time-unit&minus;1&nbsp;factor, yielding [$ &middot; res-unit&minus;1]. Dimensional consistency is preserved under the generalization, independent of n. Q.E.D.
+    </p>
+    <p>
+     A consequence: heterogeneous cost terms (health damage in dollars per ton per year, community-transition cost in dollars per ton per year, ecosystem-cascade cost in dollars per ton per year) can be summed cleanly only because L.2 forces each to the same dimensional form. Without the dimensional gate, a mixed sum (e.g. dollars added to ordinal dignity-index points) would be arithmetically coherent but dimensionally meaningless.
+    </p>
+    <h3>
+     M.4 Preservation of the Cost Severance Relation
+    </h3>
+    <p>
+     Claim.&nbsp;The cost severance equation CS = RCV &minus; B (Section B) holds under the generalized RCV without modification.
+    </p>
+    <p>
+     Proof.&nbsp;CS is defined as the dollar gap between the true intergenerational cost (RCV) and the accountability bond (B) posted against the extraction. The definition does not depend on the internal structure of RCV &mdash; that is, on whether RCV is computed via the canonical two-term form or the generalized sum-of-costs form. CS = RCV &minus; B remains the relation between the computed RCV value and the posted bond, regardless of how RCV is assembled internally. Q.E.D.
+    </p>
+    <p>
+     Corollary &mdash; directional monotonicity.&nbsp;Gate L.1 constrains admitted terms to be costs (non-negative in present-value contribution) rather than benefits. Gate L.3 constrains them to bounded, integrable functions. Admitting an additional Cn+1&nbsp;can only increase RCV, widening the CS gap (or leaving it unchanged if Cn+1&nbsp;is identically zero in the current Context). Adding correctly-specified variables cannot falsify CS &gt; 0 for cases where it currently holds; only mischaracterizing existing terms can.
+    </p>
+    <p>
+     Corollary &mdash; published-result preservation.&nbsp;Every CS &gt; 0 finding in the framework&rsquo;s prior worked cases (McDowell coal, Deepwater Horizon, Libby, Exxon Valdez, Norway oil, and the 13 additional cases in Section H) remains valid under the generalization. Those computations correspond to the n = 2 special case. Extensions to n &gt; 2 produce larger RCV values and therefore stronger (not weaker) CS &gt; 0 findings.
+    </p>
+    <h3>
+     M.5 Worked Derivation &mdash; The Canonical Two-Term Form as Special Case
+    </h3>
+    <p>
+     Starting from the generalized form:
+    </p>
+    <p>
+     RCV(R, t0, Context) = &int;t₀&infin;&nbsp;{ &Sigma;i=1n&nbsp;Ci(R, t, Context) } &middot; D(t, t0) dt
+    </p>
+    <p>
+     Specify Context = &ldquo;standard fossil-fuel extraction with canonical externality profile&rdquo; and admit only the following two terms:
+    </p>
+    <p>
+     C1&nbsp;&mdash; Foreclosure Cost.&nbsp;Under this Context, foreclosure captures the value future users lose by the extracted resource not being available. Functional form:
+    </p>
+    <p>
+     C1(R, t, Context) = [1 &minus; S(t | t0)] &middot; U(R, t, Q(t))
+    </p>
+    <p>
+     Gate checks:
+    </p>
+    <p>
+     &bull; L.1 (CIT): under abundance of substitutes at all times, [1 &minus; S] = 0; foreclosure vanishes. Pass.
+    </p>
+    <p>
+     &bull; L.2 (dimensional): [1 &minus; S] dimensionless; U has units [$ &middot; res-unit&minus;1&nbsp;&middot; time-unit&minus;1]; product has required units. Pass.
+    </p>
+    <p>
+     &bull; L.3 (boundedness): S monotonically increases toward Smax&nbsp;&le; 1; [1 &minus; S] bounded in [0, 1]; U bounded for finite stock Q. Integral converges under Weitzman D. Pass.
+    </p>
+    <p>
+     &bull; L.4 (independence): foreclosure is the first term of the starting set; independence trivially holds. Pass.
+    </p>
+    <p>
+     C2&nbsp;&mdash; Externality Tail.&nbsp;Captures ongoing damage flow attributable to the extraction, independent of resource-stock depletion:
+    </p>
+    <p>
+     C2(R, t, Context) = E(R, t)
+    </p>
+    <p>
+     Gate checks:
+    </p>
+    <p>
+     &bull; L.1: under abundance of absorption capacity, E-driven damage vanishes. Pass.
+    </p>
+    <p>
+     &bull; L.2: E specified with units [$ &middot; res-unit&minus;1&nbsp;&middot; time-unit&minus;1]. Pass.
+    </p>
+    <p>
+     &bull; L.3: E decays with natural sinks (atmospheric CO2&nbsp;half-life ~100 years for primary fraction; ~1000 years for residual fraction). Integral converges. Pass.
+    </p>
+    <p>
+     &bull; L.4: E captures damage to absorption systems; C1&nbsp;captures resource-stock loss to future users. Cost categories disjoint. Pass.
+    </p>
+    <p>
+     Substitution.&nbsp;With n = 2 and {C1, C2} as above:
+    </p>
+    <p>
+     RCV(R, t0, Context) = &int;t₀&infin;&nbsp;{ [1 &minus; S(t | t0)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, t0) dt
+    </p>
+    <p>
+     This is the canonical two-term formula from Section B.1. The canonical formula is the generalized formula under the specification (Context = standard-fossil-fuel, n = 2, {C1&nbsp;= foreclosure, C2&nbsp;= externality tail}). Q.E.D.
+    </p>
+    <h3>
+     M.6 The Generative Property
+    </h3>
+    <p>
+     The sum-of-costs form supports three modes of variable admission that the two-term form does not.
+    </p>
+    <p>
+     Extension under the same Context.&nbsp;Adding C3, C4, &hellip; under the current Context, each passing gates L.1&ndash;L.4. The worked example in Section L.6 demonstrates C3&nbsp;(community-transition-reserve) under McDowell-coal Context. Subsequent additions expand the variable set as empirical evidence and methodology development surface them.
+    </p>
+    <p>
+     Context-specific variable sets.&nbsp;Different Contexts admit different {Ci}. For a fisheries extraction, the foreclosure structure differs from fossil-fuel extraction (substitutability of specific fish species differs from substitutability of fossil energy), and additional terms such as ecosystem-cascade cost may apply that do not apply to fossil fuels. The framework produces Context-specific RCV formulas as the gate discipline reveals what terms belong.
+    </p>
+    <p>
+     Third-party extension.&nbsp;Future analysts can apply CIT + the four gates to extraction contexts the book does not examine, discovering additional Ci&nbsp;the current author did not identify. The framework does not require revision to admit them; it is structurally open. What the four gates enforce is that the discovery is disciplined, not arbitrary.
+    </p>
+    <p>
+     Relationship to the empirical variable set.&nbsp;The ten commons categorys (Habitability &middot; Spatial &middot; Temporal &middot; Institutional &middot; Kindred &middot; Ecosystem &middot; Political &middot; Cohesion &middot; Epistemic &middot; Autonomy) and the eight-tier decomposition (Direct Health / Environmental Degradation / Community Disruption / Foreclosure / Dynastic Labor / Knowledge-and-Cultural / Political Capture / Temporal Displacement) are organizational scaffolding over variables CIT has surfaced across 18 case studies. Under Path F reframing they are empirical convergences &mdash; variables the discovery method has produced &mdash; not the universe of variables the discovery method can produce. New Contexts may surface additional Ci&nbsp;that map onto the existing scaffolding or that require new organizational categories.
+    </p>
+    <h3>
+     M.7 Practical Consequence for Published Analyses
+    </h3>
+    <p>
+     Every RCV computation in the book remains valid under the generalized form. The canonical two-term formula applies to fossil-fuel cases (McDowell coal, Deepwater Horizon, Norway oil, Exxon Valdez) and recovers the Ch 6 convergence-table figures. Extensions with additional Ci&nbsp;produce larger RCV values (the L.6 worked update adds ~$5&ndash;$10/ton to the McDowell figure); the qualitative direction CS &gt; 0 is preserved. Published analyses that cite the two-term form are not invalidated; they are the n = 2 special case of the general form.
+    </p>
+    <p>
+     A book-internal convention: published analyses that compute RCV from the two-term form will explicitly name the Context and acknowledge the n = 2 restriction in a footnote or methodology paragraph, with a pointer to this Section and to L.5 (gate-application protocol) for analysts extending the computation. This preserves backward-compatibility with the Ch 6 convergence table and with the 18-case empirical catalog while signaling the extensibility that Path F reframing makes explicit.
+    </p>
+    <hr>
+    <p>
+     Commons Bonds &mdash; Technical Appendix (Complete Version)
+    </p>
+    <p>
+     Updated April 24, 2026 | By Chris Winn
+    </p>
+    <p>
+     Mathematical framework for pricing what markets structurally exclude.
+    </p>
+    <p>
+     All proofs available for peer review upon request.
+    </p>
+    <p>
+     Supersedes: commons_bonds_technical_appendix_complete.html (April 18, 2026 &mdash; truncated version)
+    </p>
+   </section>
+   <section id="partial-integration-block">
+    <div class="status-block">
+     <p>
+      <strong>
+       Partial integration block (preserved verbatim from v0.0.5 commit
+       <code>
+        351817c
+       </code>
+       ):
+      </strong>
+      &sect;2&ndash;&sect;7 below are the post-2026-04-24 framework additions integrated into the v0.0.5 HTML as a clearly-marked appended block. In v1.0.0, these sections will be reconciled into the proper top-level TOC in Scope 2 (the next commit). Preserved here verbatim for traceability.
+     </p>
+    </div>
+    <div>
+     v0.0.5 Phase B partial integration &mdash; supplement &sect;2&ndash;&sect;7 (added 2026-04-25)
+    </div>
+    <p>
+     The following sections integrate the v0.0.5 supplement &sect;2&ndash;&sect;7 new-section drafts into the canonical Tech Appendix HTML. Per Working Principle #4 Tier-1 update discipline, the supplement file (
+     <code>
+      core/technical-appendix/TechnicalAppendix_v0.0.5_supplement.md
+     </code>
+     ) remains canonical-source-of-truth pointer for cross-reference; this HTML integration provides reader-facing parity for the new framework material until full Phase B HTML rewrite. Styling is intentionally simple (inline) to avoid disrupting the existing Google Docs export CSS structure above. Phase B full rewrite will reformat in the doc's master style.
+    </p>
+    <h2>
+     &sect;2. Two-Instrument Architecture (CSD + RCV)
+    </h2>
+    <p>
+     Source rigor passes: CSD ratification (commit 98fc8e6); CS = RCV &minus; B equation (commit 220914f); B₁ + B₂ decomposition + naming (commit 8e6a5b2).
+    </p>
+    <h3>
+     &sect;2.1 Architecture overview
+    </h3>
+    <p>
+     The framework operates two distinct accounting instruments &mdash; one
+     <strong>
+      backward-looking
+     </strong>
+     (already-extracted commons), one
+     <strong>
+      forward-looking
+     </strong>
+     (potential / claim-bearing commons). Both are governed by the same primitive equation
+     <code>
+      CS = RCV &minus; B
+     </code>
+     (Cost Severance equals Residual Commons Value minus Bond posting). The two instruments differ in which side of the equation is being measured.
+    </p>
+    <p>
+     <strong>
+      CSD &mdash; Cost Severance Damages (backward-looking):
+     </strong>
+    </p>
+    <ul>
+     <li>
+      Question answered:
+      <em>
+       What was severed?
+      </em>
+     </li>
+     <li>
+      Measures CS that has already accumulated through past extraction.
+     </li>
+     <li>
+      Anchors restitution claims (B₁ Restitution Bond &mdash; see &sect;4 below).
+     </li>
+     <li>
+      Empirical input: realized extraction history; realized commons-degradation; realized cost-bearer claims.
+     </li>
+     <li>
+      Discount-rate posture: low / zero / negative (already-realized harm; reparations-economics traditions per Darity & Mullen 2020).
+     </li>
+    </ul>
+    <p>
+     <strong>
+      RCV &mdash; Residual Commons Value (forward-looking):
+     </strong>
+    </p>
+    <ul>
+     <li>
+      Question answered:
+      <em>
+       What's left, and what would severing it more cost?
+      </em>
+     </li>
+     <li>
+      Measures commons-value that the extraction relationship has NOT yet captured / consumed / extinguished.
+     </li>
+     <li>
+      Anchors foreclosure-prevention claims (B₂ Foreclosure Bond &mdash; see &sect;4 below).
+     </li>
+     <li>
+      Empirical input: replacement cost (Method 1 &mdash; see &sect;3.1) + revealed preference (Method 2 &mdash; &sect;3.2) + scarcity-adjusted option value (Method 3 &mdash; &sect;3.3).
+     </li>
+     <li>
+      Discount-rate posture: option-value-bearing; scarcity-adjusted (commons-finite Hotelling-like rents &mdash; see &sect;5 Hotelling Identity).
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Why two instruments + one equation:
+     </strong>
+     the framework's structural identity is
+     <em>
+      commons-governance extended to extraction
+     </em>
+     (per the commons-as-structural-identity rigor pass, commit c4b09dc). Past extraction (already-realized commons-loss) is governance-relevant for restitution. Pending extraction (un-realized commons-claim) is governance-relevant for foreclosure prevention. Same equation reads each direction; same Bond aggregate (B = B₁ + B₂) discharges both.
+    </p>
+    <h3>
+     &sect;2.2 CSD&ndash;RCV correlation hypothesis (Open Insight #19)
+    </h3>
+    <p>
+     A current open insight (logged in
+     <code>
+      alignment/commons_bonds_open_insights_v1.0.0.md
+     </code>
+     #19) was originally framed as: contexts with high CSD (large past extraction) tend to have low RCV (commons largely consumed); contexts with low CSD (early-stage extraction) tend to have high RCV (commons largely intact).
+    </p>
+    <p>
+     <strong>
+      Block 4 validation update (2026-04-25):
+     </strong>
+     two-case execution (Norway + McDowell) found the original inverse-correlation hypothesis NOT SUPPORTED. Reframed hypothesis:
+     <em>
+      extraction-history-driven co-elevation of CSD + RCV (positive correlation as severity-signature, not independence finding).
+     </em>
+     Both Norway (moderate CSD + high uncaptured RCV) and McDowell (very high CSD + very high uncaptured RCV) carry uncaptured RCV; McDowell more on both axes. The two instruments remain structurally independent (orthogonal measurements) but co-driven by extraction history. See
+     <code>
+      core/technical-appendix/block4_validation_2026-04-25.md
+     </code>
+     &sect;3 for the empirical reframing.
+    </p>
+    <h2>
+     &sect;3. Triangulated RCV Estimation (Three Ways of Counting)
+    </h2>
+    <p>
+     Source rigor passes: Three Ways formal model (commit 1c8e4dd); Triangulated RCV Estimation Ring 2 (commit 4f48c48). Sensitivity analysis & Block 4 validation:
+     <code>
+      core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md
+     </code>
+     +
+     <code>
+      block4_validation_2026-04-25.md
+     </code>
+     .
+    </p>
+    <h3>
+     &sect;3.1 Method 1 &mdash; Replacement Cost
+    </h3>
+    <p>
+     <strong>
+      Question:
+     </strong>
+     What would it cost to engineer a substitute for the commons that extraction is consuming?
+    </p>
+    <p>
+     <strong>
+      Formal:
+     </strong>
+     RCV
+     <sub>
+      M1
+     </sub>
+     = &sum;
+     <sub>
+      i
+     </sub>
+     (replacement-cost per unit commons-i &times; commons-i remaining quantity)
+    </p>
+    <p>
+     <strong>
+      Worked-example anchor (Habitability commons):
+     </strong>
+     direct-air-capture (DAC) cost per ton CO₂ at engineering scale. Three-horizon range per
+     <code>
+      empirical_sourcing_pass_2026-04-25.md
+     </code>
+     &sect;1.3:
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Conservative (current operational; first-of-a-kind):
+      </strong>
+      $600&ndash;$1,000/ton CO₂ (Climeworks Orca, Mammoth)
+     </li>
+     <li>
+      <strong>
+       Mid-range (at-scale commercial within next decade):
+      </strong>
+      $300&ndash;$600/ton CO₂ (Mammoth full-operation target; Carbon Engineering Stratos)
+     </li>
+     <li>
+      <strong>
+       Optimistic (2050 nth-of-a-kind):
+      </strong>
+      $100&ndash;$300/ton CO₂ (IEA, IPCC AR6, US National Academies)
+     </li>
+    </ul>
+    <p>
+     <strong>
+      SCC-vs-DAC distinction:
+     </strong>
+     Method 1 uses DAC (substitution-side; engineering reversal cost). Social Cost of Carbon (currently US EPA $190/ton CO₂ central estimate; Rennert et al. 2022
+     <em>
+      Nature
+     </em>
+     ) is the damage-side number. Both appear in the Ch 6 convergence-table walkthrough but answer different questions.
+    </p>
+    <p>
+     <strong>
+      Strengths:
+     </strong>
+     Most directly priced; smallest epistemic-ambition step.
+     <strong>
+      Limits:
+     </strong>
+     Anchors floor only &mdash; replacement is rarely full functional substitute. Underprices irreplaceable commons.
+    </p>
+    <h3>
+     &sect;3.2 Method 2 &mdash; Revealed Preference (Norway-Style)
+    </h3>
+    <p>
+     <strong>
+      Question:
+     </strong>
+     What does a polity that explicitly chose NOT to extract reveal about commons-value?
+    </p>
+    <p>
+     <strong>
+      Formal:
+     </strong>
+     RCV
+     <sub>
+      M2
+     </sub>
+     = (foregone-extraction value at observed restraint) + (preserved commons-quality observed) &minus; (substitute-revenue path)
+    </p>
+    <p>
+     <strong>
+      Worked-example anchor:
+     </strong>
+     Norway sovereign-wealth-fund + petroleum-conservation policy. Per Block 4 validation &sect;1.3 numerical execution: GPFG ~$1.9T at ~75% capture rate of net petroleum wealth implies ~$2.5T total petroleum wealth &divide; 50B BOE cumulative production &asymp;
+     <strong>
+      $50/BOE Method 2 anchor
+     </strong>
+     .
+    </p>
+    <p>
+     <strong>
+      Strengths:
+     </strong>
+     Empirically grounded in actual policy choices (not hypothetical).
+     <strong>
+      Limits:
+     </strong>
+     Per Open Insight #14 epistemic-humility: Norway-as-canonical-existing-B₂-exemplar; M2 is a LOWER BOUND on true RCV under the framework's epistemic-humility discipline (Norway captured rent but did not capture the full atmospheric externality; non-Norwegian populations affected by Norwegian oil's climate externalities are not in the GPFG). M2 is a revealed-preference-anchored MIDDLE-WITHIN-TRIANGULATION but LOWER-BOUND ON TRUE RCV.
+    </p>
+    <h3>
+     &sect;3.3 Method 3 &mdash; Scarcity-Adjusted Option Value
+    </h3>
+    <p>
+     <strong>
+      Question:
+     </strong>
+     What is the option value of preserving the commons in irreversibility-aware scarcity-aware terms?
+    </p>
+    <p>
+     <strong>
+      Formal (working specification per sensitivity analysis 2026-04-25):
+     </strong>
+    </p>
+    <pre>RCV_M3 = V_option &times; scarcity_multiplier(&sigma;) &times; irreversibility_premium(&alpha;)
+
+  V_option                       = standard real-options option value (Dixit-Pindyck 1994)
+  &sigma;                              = scarcity parameter (commons-stock / sustainable-flow ratio)
+  &alpha;                              = irreversibility parameter (probability commons cannot be restored
+                                   at any finite cost once extracted; &alpha; &isin; [0, 1])
+
+  scarcity_multiplier(&sigma;)         = 1 + log(1 + &sigma;) &times; Hotelling_anchor
+  irreversibility_premium(&alpha;)    = 1 / (1 - &alpha;)^&beta;     where &beta; &gt; 0 calibrates risk-posture
+                                                       (&beta; = 1 default; &beta; = 2 precaution-regime)
+</pre>
+    <p>
+     <strong>
+      Sensitivity finding (cross-case dominance map; per
+      <code>
+       method3_sensitivity_analysis_2026-04-25.md
+      </code>
+      ):
+     </strong>
+    </p>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        Regime
+       </th>
+       <th>
+        &sigma;
+       </th>
+       <th>
+        &alpha;
+       </th>
+       <th>
+        Dominant parameter
+       </th>
+       <th>
+        Example case
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        Commons-extinction-class
+       </td>
+       <td>
+        any
+       </td>
+       <td>
+        0.9&ndash;1.0
+       </td>
+       <td>
+        <strong>
+         &alpha;
+        </strong>
+       </td>
+       <td>
+        McDowell coal; biodiversity collapse; atmospheric tipping points
+       </td>
+      </tr>
+      <tr>
+       <td>
+        Scarce-but-restorable
+       </td>
+       <td>
+        100+
+       </td>
+       <td>
+        0.1&ndash;0.5
+       </td>
+       <td>
+        <strong>
+         &sigma;
+        </strong>
+       </td>
+       <td>
+        Aquifer overdraft; old-growth timber
+       </td>
+      </tr>
+      <tr>
+       <td>
+        Abundant-restorable
+       </td>
+       <td>
+        0.1&ndash;10
+       </td>
+       <td>
+        0&ndash;0.1
+       </td>
+       <td>
+        <strong>
+         V_option
+        </strong>
+       </td>
+       <td>
+        Asteroid iron; cosmic-scale resources
+       </td>
+      </tr>
+      <tr>
+       <td>
+        Hybrid (most real cases)
+       </td>
+       <td>
+        10&ndash;100
+       </td>
+       <td>
+        0.5&ndash;0.9
+       </td>
+       <td>
+        mixed;
+        <strong>
+         &alpha; &rarr; &sigma; &rarr; V_option
+        </strong>
+       </td>
+       <td>
+        Norway oil; Deepwater Horizon; opioid Appalachia
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <p>
+     <strong>
+      Framework debate-narrowing implication:
+     </strong>
+     Earth-bound civilization-scale extractions cluster in &alpha;-dominance regime. The real debate about RCV for those cases is a debate about
+     <strong>
+      irreversibility
+     </strong>
+     &mdash; not about discount rates, scarcity, or option-value. Tractably empirical; aligned with Asymmetric Regret Rule (&sect;7); aligned with climate-tipping-point + biodiversity-collapse + cultural-loss literatures.
+    </p>
+    <h3>
+     &sect;3.4 Triangulation logic
+    </h3>
+    <p>
+     The three methods price the same commons-claim from three independent directions: M1 prices
+     <em>
+      substitution
+     </em>
+     ; M2 prices
+     <em>
+      revealed restraint
+     </em>
+     ; M3 prices
+     <em>
+      option-bearing scarcity
+     </em>
+     .
+     <strong>
+      Triangulation rule:
+     </strong>
+     RCV estimate is the convergence range across M1, M2, M3 with documented divergences. Where the three methods agree within a tight range, RCV estimate is well-supported. Where they diverge widely, the divergence itself is empirically informative &mdash; surfacing what feature of the commons each method captures.
+    </p>
+    <p>
+     <strong>
+      Reporting discipline:
+     </strong>
+     every RCV estimate published under the framework reports all three methods individually + the convergence range + identified divergence sources. No single-method RCV claim has standing.
+    </p>
+    <p>
+     <strong>
+      Block 4 worked example results (per
+      <code>
+       block4_validation_2026-04-25.md
+      </code>
+      ):
+     </strong>
+    </p>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        Case
+       </th>
+       <th>
+        M1 (Replacement Cost)
+       </th>
+       <th>
+        M2 (Revealed Preference)
+       </th>
+       <th>
+        M3 (Option Value, &beta;=1)
+       </th>
+       <th>
+        Implied CS
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        Norway oil
+       </td>
+       <td>
+        $300&ndash;650/BOE
+       </td>
+       <td>
+        $50/BOE
+       </td>
+       <td>
+        $70&ndash;1,000/BOE; mid $280
+       </td>
+       <td>
+        ~$250/BOE; ~$12.5T cumulative
+       </td>
+      </tr>
+      <tr>
+       <td>
+        Appalachian coal (McDowell)
+       </td>
+       <td>
+        $310&ndash;$1,800/ton
+       </td>
+       <td>
+        $8&ndash;$88/ton
+       </td>
+       <td>
+        $420&ndash;$13,100/ton; mid $2,500
+       </td>
+       <td>
+        ~$2,400/ton; IPG ~50&times; (2025$)
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <h2>
+     &sect;4. B = B₁ + B₂ decomposition + naming
+    </h2>
+    <p>
+     Source rigor passes: B = B₁ + B₂ decomposition (commit ab24a8e); B₁ + B₂ naming &mdash; Restitution + Foreclosure (commit 8e6a5b2).
+    </p>
+    <h3>
+     &sect;4.1 The decomposition
+    </h3>
+    <p>
+     <code>
+      B = B₁ + B₂
+     </code>
+    </p>
+    <ul>
+     <li>
+      <strong>
+       B₁ &mdash; Restitution Bond.
+      </strong>
+      The bond posting that discharges accumulated CSD (already-realized commons-loss). Restitution-economics lineage (Darity & Mullen 2020 reparations economics; Hicks 1932 compensation principle in cross-context-translation form). Posted by extractor against historical extraction-portfolio.
+     </li>
+     <li>
+      <strong>
+       B₂ &mdash; Foreclosure Bond.
+      </strong>
+      The bond posting that discharges potential CS (forward-looking commons-loss claim). Posted against ongoing or proposed extraction. Foreclosure-cost lineage (term-pair coherent with Foreclosure Cost C₁ in 8-tier).
+     </li>
+    </ul>
+    <h3>
+     &sect;4.2 Naming-rigor outcome
+    </h3>
+    <p>
+     Earlier working labels included "Reparations Bond" for B₁. Naming-rigor pass on 2026-04-24 (commit 8e6a5b2) selected
+     <strong>
+      Restitution Bond
+     </strong>
+     over Reparations Bond for: (1) Cross-political-tradition adoption breadth ("Reparations" carries US-political-loading; "Restitution" carries broader cross-tradition adoption &mdash; legal-scholarship; civil-law; international-law; classical-philosophy); (2) Per Option C' political-philosophical-accommodation discipline; (3) Term-pair coherence (Restitution Bond + Foreclosure Bond reads as natural pair).
+    </p>
+    <h3>
+     &sect;4.3 Independence note
+    </h3>
+    <p>
+     B₁ and B₂ are
+     <strong>
+      structurally independent
+     </strong>
+     &mdash; a context with high CSD but low forward-looking RCV (e.g., post-mining Appalachian sites where commons largely already lost) carries high B₁ obligation but low B₂ obligation. A context with low CSD but high RCV (e.g., asteroid mining proposed but not yet executed) carries low B₁ obligation but high B₂ obligation. The aggregate B captures the total bond posture; the decomposition captures the temporal structure of the obligation.
+    </p>
+    <p>
+     <strong>
+      Norway as canonical-existing-B₂-exemplar (per Open Insight #14):
+     </strong>
+     Norway's GPFG operationalizes Hartwick's rule (1977) by capturing extraction rent for future-generation accounts. This is canonical existing B₂, not aggregate B &mdash; Norwegian welfare-state is approximately B₁-for-Norwegian-citizens but does not extend to non-Norwegian populations affected by Norwegian oil's climate externalities. B₁ globally is underdeveloped.
+    </p>
+    <h2>
+     &sect;5. Hotelling Identity (extension of Hotelling 1931)
+    </h2>
+    <p>
+     Source rigor pass: Hotelling Identity (commit 5b8ff42).
+    </p>
+    <h3>
+     &sect;5.1 Hotelling 1931 &mdash; the part that's Hotelling's
+    </h3>
+    <p>
+     Hotelling (1931, "The Economics of Exhaustible Resources,"
+     <em>
+      Journal of Political Economy
+     </em>
+     ) established that for an exhaustible resource extracted competitively under a discount rate r, the resource rent (price minus marginal extraction cost) must rise at rate r. Otherwise the owner would prefer to extract earlier (if rent rises faster) or later (if slower). This is the
+     <strong>
+      Hotelling rent rule
+     </strong>
+     &mdash; a foundational result in resource economics. Hotelling's framing assumes: resource is exhaustible (finite stock); owner is private (extracts to maximize NPV of rent); cost is private extraction-cost (not commons-loss-cost).
+    </p>
+    <h3>
+     &sect;5.2 What the Commons Bonds framework adds (the "Identity" extension)
+    </h3>
+    <p>
+     The Commons Bonds framework extends Hotelling 1931 with the following identity:
+    </p>
+    <pre><strong>Hotelling Identity:</strong>     RCV per unit &minus; Hotelling rent per unit = CS per unit</pre>
+    <p>
+     In words:
+     <em>
+      the residual commons value per unit of extraction, minus the standard Hotelling rent per unit, equals the cost severance per unit
+     </em>
+     .
+     <strong>
+      What this surfaces:
+     </strong>
+     when extraction prices the standard Hotelling rent (i.e., honors private resource-economics rent-rules), the
+     <em>
+      excess
+     </em>
+     residual commons value beyond that rent is precisely the cost-severance &mdash; the commons-extraction cost the extractor is not paying. The Hotelling rent prices private exhaustibility; the framework prices commons-extraction. The difference is the asymmetry the framework names.
+    </p>
+    <p>
+     <strong>
+      Worked-example anchor:
+     </strong>
+     Norwegian oil. Norway prices Hotelling rent appropriately (sovereign-fund accumulation; depletion-rate discipline). The Hotelling Identity asks: even with proper Hotelling-rent pricing, what's the residual commons value Norway preserves through its restraint? Answer: the difference between the Norwegian-fund's accumulation and the full RCV (per Method 2 revealed preference). That difference is the commons-loss Norway is NOT incurring &mdash; and thus also reveals what other extraction contexts ARE incurring when they price Hotelling rent only.
+    </p>
+    <h3>
+     &sect;5.3 Citation discipline (M12 intellectual honesty)
+    </h3>
+    <p>
+     Per M12 module + Working Principle #6: when the framework references Hotelling Identity, the citation discipline is:
+    </p>
+    <blockquote>
+     The Hotelling Identity (RCV &minus; Hotelling rent = CS, where Hotelling rent is the standard rent rule from Hotelling 1931) extends Hotelling's exhaustible-resource economics to commons-extraction contexts. Hotelling's contribution: the rent rule for private exhaustible resources. The Commons Bonds framework's contribution: the identity extension showing that commons-extraction cost is precisely the residual value beyond standard Hotelling rent.
+    </blockquote>
+    <p>
+     This positioning acknowledges Hotelling 1931 as foundational; specifies what the framework extends and how; avoids overclaiming.
+    </p>
+    <h2>
+     &sect;6. CIT (Commons Inversion Test) &mdash; formal spec
+    </h2>
+    <p>
+     Source rigor passes: CIT rename (commit b294c79); Four Gates cluster (commit d188e6f). Worked examples:
+     <code>
+      core/methodology/cit_examples_v1_0_0.md
+     </code>
+     (commit 9ab3dc2).
+    </p>
+    <h3>
+     &sect;6.1 Two sub-forms
+    </h3>
+    <p>
+     <strong>
+      Commons-Absence Inversion (CAI).
+     </strong>
+     Given a cost claim that names a commons, ask:
+     <em>
+      would the extraction price differently if the commons claim did not exist at all?
+     </em>
+     If yes &rarr; cost claim is commons-grounded. If no &rarr; cost claim is private-property externality (different framework applies).
+    </p>
+    <p>
+     <strong>
+      Commons-Consumption Inversion (CCI).
+     </strong>
+     Given a commons-grounded cost claim, ask:
+     <em>
+      would the extraction price differently if the commons were inexhaustible / self-restoring at zero marginal cost?
+     </em>
+     If yes &rarr; cost claim is consumption-of-finite-commons (Cost Severance proper). If no &rarr; cost claim is coordination-of-mutually-acceptable-use (Ostrom-tradition commons-management; framework's CS does not apply).
+    </p>
+    <p>
+     The two sub-forms run in sequence: CAI first (is this commons-grounded at all?), then CCI (is this consumption-grounded?). Only claims passing both qualify as Cost Severance.
+    </p>
+    <h3>
+     &sect;6.1.1 Level-of-claim specification (added 2026-04-25)
+    </h3>
+    <p>
+     <strong>
+      Discipline:
+     </strong>
+     CIT's outcome depends on the level at which the cost claim is specified. The same extraction relationship can produce a CIT-pass at one level of aggregation and a CIT-fail at another, and this is not a defect of the test &mdash; it is a methodological feature requiring the analyst to be explicit about the level the cost claim is named at.
+    </p>
+    <p>
+     <strong>
+      Formal rule:
+     </strong>
+     Before running CAI + CCI on a candidate cost claim, specify the level at which the commons is asserted to be finite. The specification must name: (1)
+     <strong>
+      aggregation scope
+     </strong>
+     (individual-user / community / population / cohort / generational / civilizational / planetary); (2)
+     <strong>
+      temporal scope
+     </strong>
+     (instantaneous / cumulative-over-period / lifetime / intergenerational / open-ended); (3)
+     <strong>
+      substitutability scope
+     </strong>
+     (single-substitute / class-of-substitutes / no-substitute-available).
+    </p>
+    <p>
+     <strong>
+      Worked example &mdash; platform-economy attention extraction:
+     </strong>
+     consider the candidate cost claim that platform attention-extraction (e.g., recommendation algorithms optimizing for engagement) constitutes Cost Severance.
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Level A &mdash; individual-user instantaneous.
+      </strong>
+      "TikTok extracts attention from individual user X during session Y." CAI passes. CCI
+      <strong>
+       fails
+      </strong>
+      : individual attention regenerates between sessions.
+      <strong>
+       CIT-fail at Level A.
+      </strong>
+     </li>
+     <li>
+      <strong>
+       Level B &mdash; cumulative-population intergenerational.
+      </strong>
+      "Platform attention-extraction across the entire user population, cumulative across the digital-attention era, depletes a finite collective-cognitive-bandwidth commons whose regeneration capacity is bounded by neurobiological and developmental constraints." CAI passes. CCI
+      <strong>
+       may pass
+      </strong>
+      .
+      <strong>
+       CIT may pass at Level B
+      </strong>
+      , depending on empirical bounds.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Reporting discipline:
+     </strong>
+     every CIT application must specify the level-of-claim before reporting the verdict. A bare "CIT passes" without level specification is methodologically incomplete.
+    </p>
+    <p>
+     <strong>
+      Source of refinement:
+     </strong>
+     M11 Character 12 (graduate student) probed this distinction during the 2026-04-24 academic-rigor full test. See
+     <code>
+      tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_academic_rigor_full_test_v1.0.0.md
+     </code>
+     &sect;4.2.
+    </p>
+    <h3>
+     &sect;6.2 Four Gates admission apparatus
+    </h3>
+    <p>
+     Per the Four Gates cluster rigor pass, a commons-extraction-cost claim is admitted to the framework's CS accounting if and only if it passes all four gates:
+    </p>
+    <ol>
+     <li>
+      <strong>
+       CIT (Commons Inversion Test)
+      </strong>
+      &mdash; passes both CAI and CCI sub-forms (with level-of-claim specification per &sect;6.1.1).
+     </li>
+     <li>
+      <strong>
+       Units Consistency
+      </strong>
+      &mdash; claim's units match the underlying commons's units.
+     </li>
+     <li>
+      <strong>
+       Boundedness
+      </strong>
+      &mdash; claim has finite bounds (rules out unbounded "infinity" claims).
+     </li>
+     <li>
+      <strong>
+       Independence
+      </strong>
+      &mdash; claim is not double-counted across overlapping commons categories.
+     </li>
+    </ol>
+    <p>
+     <strong>
+      Gate-test asymmetry:
+     </strong>
+     gates 1 + 2 + 3 + 4 are tests
+     <em>
+      of
+     </em>
+     a candidate cost claim. They are NOT
+     <em>
+      conditions
+     </em>
+     for what counts as a commons (Option C' political-philosophical-accommodation: the candidate commons comes from the political-philosophical tradition, not from the framework's gates). The gates filter cost
+     <em>
+      claims
+     </em>
+     against established commons; they do not filter what counts as a
+     <em>
+      commons
+     </em>
+     .
+    </p>
+    <h3>
+     &sect;6.3 Worked examples
+    </h3>
+    <p>
+     Seven CIT applications worked end-to-end through the Four Gates are documented in
+     <code>
+      core/methodology/cit_examples_v1_0_0.md
+     </code>
+     : McDowell coal (Spatial + Habitability + Ecosystem); Commute trade (Temporal + Cohesion); Norwegian oil (Habitability + Ecosystem; passes Hotelling-Identity test); 2008 financial crisis (Institutional + Political); Asteroid mining (Habitability + Spatial + Cosmic-physical-law candidate); Healthcare end-of-life (Temporal + Autonomy + Kindred); Opioid Appalachia (Epistemic + Autonomy + Cohesion).
+    </p>
+    <h2>
+     &sect;7. Asymmetric Regret Rule (ARR &mdash; renamed from ARP/RD)
+    </h2>
+    <p>
+     Source rigor pass: ARP rename (commit b8b62e3 &mdash; same-day flip from initial Reversibility Default).
+    </p>
+    <h3>
+     &sect;7.1 The rule
+    </h3>
+    <p>
+     When facing a decision whose error has asymmetric regret structure &mdash; where one direction of error produces small recoverable cost and the other direction produces large irreversible cost &mdash; the framework's decision rule is to choose the direction with smaller maximum regret.
+    </p>
+    <h3>
+     &sect;7.2 Lineage acknowledgment (M12 intellectual honesty)
+    </h3>
+    <p>
+     ARR draws on:
+     <strong>
+      Savage 1951
+     </strong>
+     ("The Theory of Statistical Decision,"
+     <em>
+      JASA
+     </em>
+     ) &mdash; minimax-regret decision theory foundations.
+     <strong>
+      Loomes & Sugden 1982
+     </strong>
+     ("Regret Theory,"
+     <em>
+      Economic Journal
+     </em>
+     ) &mdash; regret-based individual decision theory.
+     <strong>
+      Lempert, Popper & Bankes 2003
+     </strong>
+     (
+     <em>
+      Shaping the Next One Hundred Years
+     </em>
+     ) &mdash; robust-decision-making under deep uncertainty.
+    </p>
+    <p>
+     The framework's contribution: applying minimax-regret discipline specifically to commons-extraction decisions where one direction of regret is
+     <em>
+      commons-extinction
+     </em>
+     (irreversible by definition under the CCI sub-form). The asymmetry &mdash; commons-loss is structurally irreversible; commons-preservation can be revisited &mdash; converts a generic minimax-regret rule into a commons-specific maximum-protective rule.
+    </p>
+    <p>
+     <strong>
+      Cross-reference to Method 3 &alpha;-dominance:
+     </strong>
+     the empirical companion to ARR. Method 3's irreversibility_premium = 1/(1&minus;&alpha;)
+     <sup>
+      &beta;
+     </sup>
+     diverges as &alpha; &rarr; 1, exactly when ARR's asymmetric-regret structure is triggered. ARR is the decision rule; Method 3 &alpha;-dominance is the estimation companion. Same structural insight at two levels.
+    </p>
+    <h3>
+     &sect;7.3 Same-day-flip lesson (from rename rigor pass)
+    </h3>
+    <p>
+     Initial v0.0.4-era working name was "Reversibility Default" (RD). Same-day rigor flip on 2026-04-24 surfaced an M6 academic-rigor concern: ARR has stronger M6 direct lineage in name (regret theory is established academic terminology); RD requires footnote-dependency to surface its decision-theory lineage. ARR was selected for direct-name-visibility.
+     <strong>
+      Working Principle #5 corollary
+     </strong>
+     (added 2026-04-24): when M5 and M6 tradeoffs appear close in a naming decision, foreground M6 direct-name-visibility EXPLICITLY in the executive summary recommendation.
+    </p>
+    <div>
+     <p>
+      <strong>
+       End of Phase B partial integration of v0.0.5 supplement &sect;2&ndash;&sect;7.
+      </strong>
+     </p>
+     <p>
+      <strong>
+       Reading-discipline note:
+      </strong>
+      the supplement file (
+      <code>
+       core/technical-appendix/TechnicalAppendix_v0.0.5_supplement.md
+      </code>
+      ) remains the canonical-source-of-truth pointer for cross-reference depth. Block 4 numerical execution lives at
+      <code>
+       core/technical-appendix/block4_validation_2026-04-25.md
+      </code>
+      ; sensitivity analysis at
+      <code>
+       method3_sensitivity_analysis_2026-04-25.md
+      </code>
+      ; empirical sourcing at
+      <code>
+       empirical_sourcing_pass_2026-04-25.md
+      </code>
+      .
+     </p>
+     <p>
+      <strong>
+       Phase B remaining HTML work:
+      </strong>
+      15 FGC instances + 1 Universality Test instance still require passage rewrite (not string-substitutable per supplement &sect;1); &sect;K Decomposition Layer cluster reframing for retired 8-tier scheme; full Phase B rewrite reformatting in the doc's master Google-Docs-export style. The above sections use simple inline styling for readability without disrupting existing CSS structure.
+     </p>
+    </div>
+   </section>
+  </main>
+ </body>
+</html>
