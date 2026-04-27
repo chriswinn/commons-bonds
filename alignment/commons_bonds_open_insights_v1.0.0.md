@@ -546,6 +546,35 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #24 — Book 1 references to Book 2 — full rigor + question pass needed
+
+- **Raised:** 2026-04-27 by Chris Winn during Ch 2 holistic-review CTR rigor exercise. Author framing: *"I'm yet not convinced that we should mention a book 2 in book 1."*
+- **Status:** raised · pending full rigor + question pass · author skeptical of Book 2 mentions in Book 1
+- **Category:** book-scope · framework boundary · publishing path · craft
+- **Content:** During Ch 2 holistic-review CTR rigor exercise, the recommended Version G (principle-first + subsidy clarification) included an explicit cross-reference to Ch 8's closing section that references Book 2 by working title (*The Subsidy Economy*). The author flagged the broader question of whether Book 1 should reference Book 2 at all. Currently Book 1 contains at minimum:
+  - **Ch 8 closing (lines 231-247)** — explicit "subject of a different book ... working title is *The Subsidy Economy*" framing; structurally treats Ch 8's closing as a Book 2 forward-pointer
+  - **Possibly other forward-pointers in Ch 9 / Ch 10** — verification sweep needed; the recommended Version G CTR resolution would add another reference in Ch 9 if ratified
+- **The boundary question:** does Book 1's identity as a self-contained framework book require absence of Book 2 references? Or do Book 2 references serve scope-discipline by explicitly naming what THIS book doesn't do (and where that work lives)?
+
+  **Pro-mention argument:** explicit Book 2 references operationalize scope-discipline by deferring specific applied-advocacy questions to Book 2; without the deferral mechanism, Book 1 may be tempted to half-do Book 2's work. Naming Book 2 is the framing device that makes "framework, not blueprint" credible.
+
+  **Anti-mention argument:** Book 1 should stand alone. References to a future book may read as: (a) premature publishing commitment; (b) implicit promise of more material that may not materialize on the timeline implied; (c) scope-bridging that undermines Book 1's self-contained identity; (d) editorial/craft cost — readers may flag "why mention a sequel?"; (e) potential reader-frustration if Book 2 takes longer than implied or doesn't materialize at all.
+
+- **What would resolve this:** full rigor + question pass following the same protocol as Open Insights #22 (chapter-titles-in-sweep-scope) and #23 (CTR boundary question). Pass would evaluate:
+  - Module-level rigor on Book 2 references (M1.5 / §22.4 / M3.4 / M9 / M10 publishing path / M11 / M12)
+  - Greatness question (does Book 1 stand alone better with or without Book 2 references?)
+  - Standing-the-test-of-time question (does mentioning a future book age well or poorly?)
+  - Identification of all Book 2 references currently in Book 1 (verification sweep across all chapters)
+  - Three resolution paths: retain all references / remove all references / asymmetric (some retain, some remove)
+
+- **Connection to Open Insight #23:** the recommended Version G framing for the CTR resolution explicitly references Ch 8's *Subsidy Economy* framing as a Book 2 forward-pointer. **If Insight #24 resolves toward removing Book 2 references, Version G needs revision; Versions D / E / F (which can be revised to not reference Book 2 by name) become more attractive.** The two insights should be deliberated together OR Insight #24 should be resolved before Insight #23 final integration.
+
+- **Dependencies / Links:** Open Insight #23 (CTR boundary question — direct connection); Open Insight #22 (chapter-titles-in-sweep-scope — methodologically similar Book-1/Book-2-discipline question); v1.0.3 §6.1 book-scope governance; Ch 8 lines 231-247 closing section.
+
+- **Todo link:** "Review Open Insight #24: Book 1 references to Book 2 — run full rigor + question pass; identify all Book 2 references in Book 1; resolve before/with Insight #23 CTR final integration."
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*
