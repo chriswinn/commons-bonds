@@ -94,7 +94,7 @@ That is precisely the point.
 
 When the coal came out of the ground, it carried with it an implicit obligation: that when the coal ran out or became uneconomical, the community that had organized itself around extraction would have something to organize itself around next. That obligation was never priced. It was never bonded. It was never part of the transaction.
 
-The community transition reserve — the fund that should have been set aside to retrain workers, maintain services during the adjustment, attract replacement industries, keep the hospitals open — was never established, because establishing it would have reduced the profitability of extraction. So when the extraction ended, the community absorbed the full cost of transition alone. It is still absorbing it.
+Costs that aren't priced are still costs. They get paid. Someone pays them. In McDowell County, what wasn't priced was the future of the place — the bodies of the miners, the institutions of the towns, the children's odds, the soil, the water, the air. By every conservative measure, the unpriced costs exceeded the priced compensation by an order of magnitude. The plain-accounting name for this is subsidy: the community subsidized the coal industry; the miners subsidized their employers; the future subsidized the present. The architecture that would have closed the gap — capturing the rents at extraction, routing them to the bearers, holding them across the full life cycle of the externality tail — was never built. The community absorbed the full cost of transition alone. It is still absorbing it.
 
 ---
 
