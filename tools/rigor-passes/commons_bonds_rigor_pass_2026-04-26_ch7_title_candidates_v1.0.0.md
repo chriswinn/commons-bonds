@@ -455,4 +455,99 @@ Per vocabulary rigor pass §10's narrative-retention provision (≤2-3 colony us
 
 ---
 
-*End of chapter-title rigor pass v1.0.0. Drafted 2026-04-26 during Candidate #8 ratification follow-up at Chris Winn's direction. Full-depth comparative treatment across seven candidates with explicit narrative-pull-vs-rigor-cleanness trade-off analysis.*
+---
+
+## §12. Round 2 — Steward elimination + six-candidate full-depth re-evaluation
+
+### §12.1 Why Round 2
+
+After §1-§11 was committed, the author surfaced a substantive M2.4 / M3.4 / M3.6 finding: "Steward" carries a preservation-bias connotation that conflicts with the chapter's parameter-sensitive thesis. The chapter's own cross-scenario sweep recommends extraction in five of seven scenarios (asteroid iron, lunar regolith, comet volatiles, Mars rare earths, plus partial-extraction in others) — a "Steward" title implies preservation-default, undercutting the chapter's argument before the chapter can make it. The author's reading is module-supported and was missed in Round 1. **G "The Mars Steward" and F "The Habitat Steward" are eliminated from serious consideration on M2.4 (chapter fit) grounds.**
+
+The author then directed a Round 2 evaluation across six candidates — four new thematic alternatives plus the two strongest role-administrator candidates from Round 1 — with full-depth rigor and explicit comparative ranking.
+
+### §12.2 Six Round-2 candidates
+
+- **R1 "Beyond Earth"** (NEW) — broad thematic; sci-fi-genre-evocative; minimal anchoring to specific argument
+- **R2 "What Distance Hides"** (NEW) — uses chapter's own line ("It puts a number on the costs that distance hides"); literary
+- **R3 "Pricing Distance"** (NEW) — names chapter's surfaced thesis directly; abstract-substantive
+- **R4 "On Other Worlds"** (NEW) — narrative + universal + parameter-neutral; literary-essayistic
+- **R5 "The Mars Administrator"** (E from Round 1) — preservation-neutral role-noun; Mars-specific
+- **R6 "The Off-World Administrator"** (D from Round 1) — preservation-neutral role-noun; universality-explicit
+
+### §12.3 Module-by-module scorecard (Round 2)
+
+| Module | R1 Beyond Earth | R2 What Distance Hides | R3 Pricing Distance | R4 On Other Worlds | R5 Mars Admin | R6 Off-World Admin |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| M1.5 universality | ★★★ | ★★ | ★★★ | ★★★ | ✗ | ★★★ |
+| M2.4 chapter fit | ★★ | ★★★ | ★★★ | ★★ | ★★ | ★★ |
+| M2.5 register fit | ★★ | ★★ | ★★ | ★★★ | ★★★ | ★★ |
+| M3.4 counterargument | ★★★ | ★★★ | ★★★ | ★★★ | ★★★ | ★★★ |
+| M4.3 prose voice | ★★ | ★★ | ★★ | ★★★ | ★★★ | ★★ |
+| M4.7 framing resonance | ★★ | ★★★ | ★★★ | ★★ | ★★★ | ★★ |
+| M5 dinner-table | ★★★ | ★★ | ★ | ★★★ | ★★★ | ★★ |
+| M6 academic rigor | ★★ | ★ | ★★★ | ★★ | ★★ | ★★★ |
+| M8 long-term | ★★★ | ★★★ | ★★★ | ★★★ | ★★ | ★★★ |
+| M9 risk | ★★ | ★★★ | ★★★ | ★★★ | ★★ | ★★★ |
+| M10 publishing path | ★★ | ★ | ★★ | ★★★ | ★★★ | ★★★ |
+| M11 critic pressure | ★★★ | ★★ | ★★★ | ★★★ | ★★★ | ★★★ |
+| M12 intellectual honesty | ★★★ | ★★★ | ★★★ | ★★★ | ★★ | ★★★ |
+| **★★★ count** | **5** | **4** | **7** | **9** | **6** | **7** |
+| **✗ count** | **0** | **0** | **0** | **0** | **1** | **0** |
+| **Net** | **+5** | **+4** | **+7** | **+9** | **+5** | **+7** |
+
+### §12.4 Round-2 ranking
+
+1. **R4 "On Other Worlds" — +9** ★★★ on 9 of 13 modules; zero ✗
+2. **R3 "Pricing Distance" — +7** ★★★ on 7; zero ✗
+3. **R6 "The Off-World Administrator" — +7** ★★★ on 7; zero ✗
+4. **R5 "The Mars Administrator" — +5** ★★★ on 6; one ✗ (M1.5 Mars-specific)
+5. **R1 "Beyond Earth" — +5** ★★★ on 5; zero ✗
+6. **R2 "What Distance Hides" — +4** ★★★ on 4; zero ✗
+
+### §12.5 Notable findings called out
+
+**Finding 1 — "On Other Worlds" is the surprise leader.** It's the only candidate that combines ★★★ on M5 (dinner-table narrative pull) AND M1.5 (explicit universality) AND M2.5 (register fit) AND M4.3 (prose voice) AND M10 (publishing path — strong on both academic and trade vectors). No other candidate scores ★★★ across that specific cluster. The "On Other Worlds" plural form ("worlds" not "world") is doing the universality work directly in the title; the literary-essayistic register matches Ch 7's voice precisely; and the title carries narrative-evocation without sci-fi-genre register capture (which "Beyond Earth" risks). Slight weakness on M2.4 (chapter fit ★★) and M4.7 (framing resonance ★★) — the title is broad and doesn't directly cite the chapter's substantive argument or use chapter-internal language, but it doesn't fight the argument either.
+
+**Finding 2 — "Pricing Distance" is academically strongest but narratively weakest.** ★★★ on M2.4 + M4.7 + M6 + M9 + M11 + M12 — names the chapter's surfaced thesis directly ("the framework prices distance") and is academically the most defensible. But ★ on M5 (dinner-table) — the title is abstract / clinical and may not engage casual readers. This is the title to choose if you want academic-respectability over reader-engagement.
+
+**Finding 3 — "What Distance Hides" carries M6 / M10 risk.** Despite being the most chapter-resonant title (uses the chapter's own closing line; ★★★ on M4.7), it carries M6 academic-rigor risk (★) and M10 publishing-path risk (★) because academic-press reviewers may flag it as too poetic / literary for a serious framework chapter. Trade-press would likely engage, but the Berggruen-window submission target is academic-leaning. The chapter's voice is essayistic-philosophical-with-technical-anchors; "What Distance Hides" pulls the register toward pure-literary, which is a small register-shift the chapter does not otherwise sustain.
+
+**Finding 4 — "Beyond Earth" carries minor sci-fi-genre capture risk.** ★★★ on M5 (narrative pull) and M1.5 (universality), but ★★ on M2.5 (register fit) and M9 (risk) — "Beyond Earth" is sci-fi-genre-evocative in a way that may pattern-match for some readers to popular-science / Carl-Sagan / Kim-Stanley-Robinson territory. Not necessarily problematic, but it's a register the chapter does not otherwise sustain. Compared to "On Other Worlds" (which is narrative-evocative without sci-fi-genre capture), "Beyond Earth" pays a small register-shift cost without compensating narrative gain.
+
+**Finding 5 — "The Mars Administrator" remains the strongest title-body-consistency choice.** ★★★ on M2.5 + M4.3 + M4.7 + M5 + M10 + M11 — preserves the chapter's existing administrator-role usage in the body text, maintains tight voice consistency, and resonates with the chapter-intro framing sentence (which explicitly names Mars). Its single ✗ is M1.5 (Mars-specific in title), mitigated by the chapter-intro framing already in place. This is the title to choose if you want maximum continuity with the existing draft and don't want to introduce title-vs-body register differences.
+
+**Finding 6 — "The Off-World Administrator" is the rigor-cleanest balanced choice.** ★★★ on M1.5 + M6 + M8 + M9 + M10 + M11 + M12 — fully clean across all academic-rigor / risk / long-term modules. Loses to "On Other Worlds" on M5 / M2.5 / M4.3 (moderate vs strong narrative pull) but wins on the rigor side. This is the title to choose if you want a role-administrator title with maximum universality alignment.
+
+### §12.6 Trade-off triangulation
+
+The Round 2 ranking surfaces three distinct titles that occupy different positions on the trade-off space, each defensible:
+
+- **R4 "On Other Worlds"** — best balance of narrative pull + universality + rigor cleanness. Slight weakness on chapter-fit (broad rather than substantive-thesis-naming).
+- **R3 "Pricing Distance"** — best academic-rigor + chapter-fit + framing-resonance. Weakness on reader-engagement.
+- **R6 "The Off-World Administrator"** — best preservation of administrator-role + universality. Moderate narrative pull.
+- **R5 "The Mars Administrator"** — best title-body internal consistency + framing resonance. Pays Mars-specific universality cost.
+
+### §12.7 Round-2 recommendation
+
+**Primary recommendation: R4 "On Other Worlds."**
+
+Aggregate score is highest (+9). The title combines narrative pull, universality alignment, register fit, and publishing-path strength in a configuration no other candidate matches. It recovers the narrative pull the author identified as missing in "Habitat Administrator" without paying the rigor cost of "Colony Administrator," and avoids the preservation-bias of Steward-variants. The slight weakness on M2.4 (chapter fit) — the title is broad rather than thesis-naming — is acceptable because the chapter intro's first paragraph immediately establishes what the chapter does ("The thought experiment that organizes it is a small habitat on Mars, where ten thousand people are trying to make sensible decisions..."). The title's job is to draw the reader in; the first paragraph does the thesis-naming.
+
+**Secondary recommendation: R3 "Pricing Distance"** if priority is academic-rigor / thesis-naming over reader-engagement. Strong for academic-press / Berggruen-window submission specifically; weaker for trade-press readability.
+
+**Tertiary recommendation: R6 "The Off-World Administrator"** if priority is preservation of the administrator-role pattern + maximum universality. Rigor-cleanest balanced choice.
+
+**Recommended NOT to ratify:**
+- R1 "Beyond Earth" — sci-fi-genre register-shift without compensating gain over R4.
+- R2 "What Distance Hides" — academic-press / publishing-path risk on register grounds.
+- R5 "The Mars Administrator" — Mars-specific universality cost without compensating advantage over R6 on the rigor side or R4 on the narrative side.
+
+### §12.8 Round-2 decisions for author ratification
+
+1. **Choose primary:** R4 "On Other Worlds" *(rec)* / R3 "Pricing Distance" / R6 "The Off-World Administrator" / other?
+2. **Body-text register-shift:** if R4 ratified, leave body "administrator" usages intact (they don't conflict with thematic title); if R3 ratified, same; if R5 / R6 ratified, no register-shift question.
+3. **File rename timing:** unchanged from Round 1 §11 — execute with project-wide vocabulary sweep batch.
+
+---
+
+*End of chapter-title rigor pass v1.0.0. Round 1 (§1-§11) drafted 2026-04-26; Round 2 (§12) added 2026-04-26 after author surfaced Steward-preservation-bias finding and directed six-candidate re-evaluation. Full-depth comparative treatment across thirteen total candidates (seven in Round 1, six in Round 2 with two carried over) with explicit narrative-pull-vs-rigor-cleanness trade-off analysis at both rounds.*
