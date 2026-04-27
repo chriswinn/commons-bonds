@@ -49,11 +49,11 @@
 
 **Q2 verdict (best Book 1 chapter):** **Ch 4 (The Existence Proof) primary placement RECOMMENDED.** Chapter scope is exactly what this candidate engages (Norway-as-canonical-existing-B₂-exemplar already established in Ch 4); pairs with Open Insight #14 epistemic-humility discipline + Insight #15 chapter-revision thread. Three other options tested: Ch 5 light cross-reference (defensible); Ch 9 light cross-reference (defensible); Ch 10 one-line reflective echo (optional).
 
-**Status:** **closed-ratified 2026-04-26 (Chris Winn) — pending integration commits.** Author ratified Q1A=yes-Book-1 + Q1B=structural-observation-framing + Q2=Ch 4 primary + Ch 5 secondary + Ch 9 secondary + Ch 10 tertiary. Full four-placement integration approved. Integration scope:
-- **Ch 4 primary:** ~600-800 words during Ch 4 holistic review (Phase B chapter-revision per Insight #15 standing thread)
-- **Ch 5 secondary:** ~100-150 word cross-reference within Social Security case (this session integration)
-- **Ch 9 secondary:** ~100-150 word cross-reference within reachable-horizon cluster (later this session integration during Ch 9 register-review)
-- **Ch 10 tertiary:** one-line reflective echo (later this session integration during Ch 10 register-review)
+**Status:** **closed-ratified 2026-04-26 (Chris Winn) — Ch 4 primary integrated 2026-04-27.** Author ratified Q1A=yes-Book-1 + Q1B=structural-observation-framing + Q2=Ch 4 primary + Ch 5 secondary + Ch 9 secondary + Ch 10 tertiary. Full four-placement integration approved. Integration scope:
+- **Ch 4 primary:** ~800 words integrated 2026-04-27 as new section "Architecture is a choice" placed between "A contrast worth drawing" (Nigeria) and "The part Norway has not solved" (limitations). Author-ratified prose-revision incorporated: explicit source-difference acknowledgment ("architectural sources differ ... but the question each architecture answers is structurally analogous") to head off apples-and-oranges objection; "mostly in real time" replaced with "in close-to-real-time" + Treasury-IOU reality named ("trust fund is an accounting record of intra-government debt rather than a compounding pool of external capital"). Strengthens "could have been Norway" argument by naming the political-economy reality of trust-fund proceeds being spent on general operations.
+- **Ch 5 secondary:** ~100-150 word cross-reference within Social Security case (already integrated earlier session)
+- **Ch 9 secondary:** ~100-150 word cross-reference within reachable-horizon cluster (pending Ch 9 register-review)
+- **Ch 10 tertiary:** one-line reflective echo (pending Ch 10 register-review)
 - **Bibliography:** no new additions (all sources already in framework bibliography §18.6 Hartwick + Solow)
 
 **Cross-references:** rigor pass file; `tools/commons_bonds_book_scope_v1_0_3.md` (Book 1 vs Book 2 scope governance); Open Insights #13 + #14 + #15; Ch 4 draft + research/case-studies/norway-swf.md; bibliography §18.6 (Hartwick 1977; Solow 1974).
