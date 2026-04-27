@@ -24,10 +24,10 @@
 **Q2 verdict (best chapter home?):** **Ch 9 primary placement (recommended)**; Ch 8 defensible secondary; Ch 10 echo-only at one-line reflective. Ch 5 + Ch 6 rejected.
 
 **Status:** **closed-ratified 2026-04-26 (Chris Winn) — pending integration commits.** Author ratified Q1=yes + Q2=D (Ch 9 primary) + C (Ch 8 secondary) + E (Ch 10 tertiary). Full three-placement integration approved. Integration scope:
-- **Ch 9 primary:** ~500-600 words at "political economy of resistance" or "entering wedges" section (pending integration during Ch 9 register-review this session)
-- **Ch 8 secondary:** ~150-200 word cross-reference paragraph (pending integration during Ch 8 register-review this session)
-- **Ch 10 tertiary:** one-line reflective echo (pending integration during Ch 10 register-review this session)
-- **Bibliography:** Mian & Sufi 2014 *House of Debt* + Reinhart & Rogoff 2009 *This Time Is Different* promoted to §6 (Financial crisis and financial commons) — DONE in this commit cluster.
+- **Ch 9 primary:** ~500-600 words at "political economy of resistance" or "entering wedges" section (pending integration during Ch 9 holistic review)
+- **Ch 8 secondary:** ~210-word cross-reference paragraph integrated 2026-04-27 at end of Housing-YIMBY-steelman section before "What honest pricing does NOT mean." Cites Mian & Sufi 2014 *House of Debt* (already in §6 bibliography); names TARP scope-choice + Federal Reserve emergency-lending facilities; structural-observation framing preserved per Book 1 scope discipline.
+- **Ch 10 tertiary:** one-line reflective echo (pending integration during Ch 10 review)
+- **Bibliography:** Mian & Sufi 2014 *House of Debt* + Reinhart & Rogoff 2009 *This Time Is Different* promoted to §6 (Financial crisis and financial commons) — DONE in earlier commit cluster.
 
 **Cross-references:** Ch 5 register-review session 2026-04-26 (originating context); the rigor pass; Ch 9 draft (recommended integration target); Ch 8 draft (secondary); bibliography §19 candidate list (Mian-Sufi + Reinhart-Rogoff promotions pending).
 
@@ -90,9 +90,9 @@
 
 **Best chapter rigor-test (preliminary):** Ch 8 — paired with the existing carbon-cost-per-ton walkthrough. Could surface as either (a) light cross-reference within Ch 8's coal walkthrough showing the same carbon-cost methodology applied to oil; (b) parallel oil-extraction worked-example alongside the coal walkthrough. Length: ~150-300 words depending on framing.
 
-**Status:** **pending dedicated rigor pass during Ch 8 holistic sweep.** Rigor pass will determine: Q1 (does the addition belong in the book?); Q2 (Ch 8 cross-reference vs parallel-worked-example vs reject).
+**Status:** **closed-ratified 2026-04-27 (Chris Winn) — Ch 8 cross-reference integrated.** Full-depth rigor pass executed `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-27_candidate_macondo_carbon_tail_v1.0.0.md`. All 12 modules + Standing Gates + §22.4 + Working Principle #7 evaluated. Q1: YES — methodological-consistency argument is load-bearing for framework universality within Ch 8's "pattern made legible" section. Q2: Option A (Ch 8 cross-reference within existing Deepwater citation, ~115 words). Option B (parallel-worked-example) rejected as bloat-risk; Option C (reject entirely) rejected because methodological consistency is load-bearing. Author broadly authorized integration of rigor-passing items 2026-04-27 (Ch 8 holistic review session); rigor passed; integrated. Integration commit: this Ch 8 bundle commit.
 
-**Cross-references:** Ch 5 Deepwater section (originating context); Ch 8 draft (proposed integration target); bibliography §17 (Pigou; Nordhaus DICE; Stern Review — already in framework bibliography for carbon-cost lineage).
+**Cross-references:** rigor pass file; Ch 5 Deepwater section (originating context); Ch 8 draft (integration target — completed); bibliography §17 (Pigou; Nordhaus DICE; Stern Review — already in framework bibliography for carbon-cost lineage); Rennert et al. 2022 (SCC anchor already cited in Ch 8 Tier 4 via Ch8.1 expansion).
 
 ---
 
