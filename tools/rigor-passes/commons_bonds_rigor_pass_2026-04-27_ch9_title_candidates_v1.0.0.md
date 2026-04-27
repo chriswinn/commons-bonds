@@ -156,4 +156,89 @@ The author's "carry-over from pre-Book-1/Book-2-split" diagnosis surfaces a broa
 
 ---
 
-*End of chapter-title rigor pass v1.0.0. Drafted 2026-04-27 during Ch 9 Phase 1 ratification follow-up at Chris Winn's direction. Full-depth comparative treatment across ten candidates with explicit attention to the Book-1/Book-2-split carry-over diagnosis the author surfaced.*
+---
+
+## §10. Round 2 — Four additional candidates evaluated at author direction
+
+### §10.1 Author's framing
+
+> "out of curiosity do a rigor test of 'The Balanced Pricing Imperative' & 'Honest Pricing' & 'Honest Accounting' & 'Balanced Books'"
+
+Four additional candidates evaluated 2026-04-27, organized by approach:
+
+- **K. "The Balanced Pricing Imperative"** — preserves imperative-mood; "balanced" replaces "renewable"
+- **L. "Honest Pricing"** — short declarative; framework-anchored to Ch 8 "honest pricing" framing
+- **M. "Honest Accounting"** — short declarative; connects to Ch 8 "This is an accounting exercise" framing
+- **N. "Balanced Books"** — short declarative; double-meaning wordplay (accounting books + the book itself)
+
+### §10.2 Module-by-module scorecard (Round 2)
+
+| Module | K Balanced Pricing Imperative | L Honest Pricing | M Honest Accounting | N Balanced Books |
+|---|:---:|:---:|:---:|:---:|
+| M1.5 universality / chapter-truth | ★★ | ★★★ | ★★ | ★ |
+| M2.4 chapter fit | ★★ | ★★★ | ★★★ | ★★ |
+| M2.5 register fit | ★★ | ★★ | ★★ | ★★ |
+| M3.4 counterargument | ★★ | ★★★ | ★★★ | ★★ |
+| M4.3 prose voice | ★★ | ★★ | ★★ | ★★ |
+| M4.7 framing resonance | ★★ | ★★★ | ★★★ | ★★ |
+| M5 dinner-table | ★★ | ★★ | ★★ | ★★★ |
+| M6 academic rigor | ★★ | ★★★ | ★★★ | ★★ |
+| M8 long-term | ★★★ | ★★★ | ★★★ | ★★★ |
+| M9 risk / political-charge | ★★★ | ★★★ | ★★★ | ★★★ |
+| M10 publishing path | ★★ | ★★★ | ★★★ | ★★ |
+| M11 critic pressure | ★★ | ★★★ | ★★★ | ★★ |
+| M12 intellectual honesty | ★★ | ★★★ | ★★★ | ★★ |
+| §22.4 (Book 1 scope) | ★★★ | ★★★ | ★★★ | ★★★ |
+| **★★★ count** | **3** | **11** | **10** | **5** |
+| **✗ count** | **0** | **0** | **0** | **0** |
+| **Net** | **+3** | **+11** | **+10** | **+5** |
+
+### §10.3 Notable findings on the new candidates
+
+**Finding R2.1 — "Honest Pricing" is genuinely competitive with the Round 1 leader.** At +11, it's only one point below H "The Pricing Imperative" (+12). The trade-off: H preserves imperative-mood narrative weight (★★★ on M5 + M4.3); L drops the imperative for declarative directness (★★ on M5 + M4.3). H wins on narrative pull; L wins on conciseness and framework-anchoring tightness. Both pair naturally with Ch 8 ("What Things Actually Cost"). Both fully clean on rigor / publishing-path / scope axes.
+
+**Finding R2.2 — "Honest Accounting" is close to "Honest Pricing"** at +10. The strength is direct connection to Ch 8's "This is an accounting exercise" framing line (line 23 of Ch 8). Slight cost: "accounting" is more clinical than "pricing"; less narratively-evocative. Trade-off depends on whether the Ch 8 → Ch 9 pair is "diagnosis → response" (favors pricing) or "calculation → application" (favors accounting).
+
+**Finding R2.3 — "Balanced Books" carries semantic drift** from the framework's actual claim. The framework argues current books are dishonest (cost severance hides real costs), and honest pricing would reveal them. "Balanced" implies a different operation — equilibrium between two sides — that doesn't quite map. Net +5; the wordplay is clever but introduces M1.5 (★ — semantic drift) and M12 (★★ — slight inaccuracy) concerns.
+
+**Finding R2.4 — "The Balanced Pricing Imperative" combines "Balanced" semantic drift with wordiness.** Same M1.5 drift as N; longer than the Round 1 leader. Net +3; weakest of the new candidates.
+
+### §10.4 Updated combined ranking (Rounds 1 + 2)
+
+| # | Candidate | ★★★ | ✗ | Net |
+|---|---|:---:|:---:|:---:|
+| 1 | H "The Pricing Imperative" | 12 | 0 | +12 |
+| 2 | L "Honest Pricing" | 11 | 0 | +11 |
+| 3 | J "The Honest Pricing Imperative" | 10 | 0 | +10 |
+| 3 | M "Honest Accounting" | 10 | 0 | +10 |
+| 5 | D "What the Arithmetic Demands" | 9 | 0 | +9 |
+| 5 | F "What a Society Would Do" | 9 | 0 | +9 |
+| 7 | B "Closing the Gap" | 8 | 0 | +8 |
+| 7 | C "The Reachable Horizon" | 8 | 0 | +8 |
+| 9 | I "The Accountability Imperative" | 6 | 0 | +6 |
+| 10 | E "From Diagnosis to Architecture" | 5 | 0 | +5 |
+| 10 | G "Acting on the Number" | 5 | 0 | +5 |
+| 10 | N "Balanced Books" | 5 | 0 | +5 |
+| 13 | K "The Balanced Pricing Imperative" | 3 | 0 | +3 |
+| 14 | A "The Renewable Imperative" (current) | 1 | 8 | −7 |
+
+### §10.5 Updated recommendation
+
+The Round 2 evaluation surfaces a genuinely competitive alternative to the Round 1 primary recommendation:
+
+**Co-primary recommendations:**
+- **H "The Pricing Imperative"** — highest aggregate (+12); preserves imperative-mood narrative weight; recommended if narrative pull weighting is high.
+- **L "Honest Pricing"** — close second (+11); declarative; pairs even more tightly with Ch 8 via the "honest pricing" framing line; recommended if directness and framework-anchoring tightness weighting is high.
+
+**Trade-off comparison:**
+- **H** retains "imperative" — useful narrative weight but pre-categorizes the chapter as advocacy (mildly; not loaded the way "renewable imperative" was).
+- **L** drops "imperative" — more descriptive; pairs with Ch 8's "honest pricing" usage; reads as a frame-defining title rather than an advocacy title.
+
+The Ch 7 title rigor pass landed on a similar trade-off ("Mars Steward" narrative-weight vs "Off-World Administrator" universality-explicit) and the user chose the rigor-cleanest option. Same logic might apply here: **L "Honest Pricing"** is closer to the framework's actual operation; **H "The Pricing Imperative"** carries slightly more narrative load.
+
+**Tertiary additions to the recommended set:**
+- **M "Honest Accounting"** — if the Ch 8-as-accounting-exercise framing line is preferred as the title-anchor over the Ch 8-as-pricing-diagnosis framing.
+
+---
+
+*End of chapter-title rigor pass v1.0.0. Round 1 (§1-§9) drafted 2026-04-27 with ten candidates. Round 2 (§10) added 2026-04-27 with four additional candidates evaluated at author's "out of curiosity" direction. Full-depth comparative treatment across fourteen total candidates.*
