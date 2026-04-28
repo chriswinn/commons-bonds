@@ -10,11 +10,11 @@
 
 **Author intuition (starting hypothesis):** approachable for non-economics-degree readers + academic-defensible against economics-trained scrutiny → maps to **Option B (academic-trade hybrid crossover)**.
 
-**Status:** PROPOSED — awaiting author ratification.
+**Status:** **RATIFIED 2026-04-28 by Chris Winn** — verdict (a) full ratify Option B primary + supplementary D in adoption-travel chapters. Becomes fixed input to the terminology rigor pass + vocabulary strategy scaffolding doc.
 
 **Author:** Chris Winn
 
-**Recommended verdict:** **Option B (academic-trade hybrid) primary register + Option D (policy-practitioner) supplementary register for adoption-travel chapters (notably Ch 9 *Pricing Honestly*).** Author intuition confirmed under M3 + M6 + M10 + M11 + success-criterion tests; D-supplementation strengthens legal/policy adoption-travel without compromising primary audience.
+**Ratified verdict:** **Option B (academic-trade hybrid) primary register + Option D (policy-practitioner) supplementary register for adoption-travel chapters (notably Ch 9 *Pricing Honestly*; Ch 7 instrument-design sections; Ch 10 regulatory-architecture sections).** Author intuition confirmed under M3 + M6 + M10 + M11 + success-criterion tests; D-supplementation strengthens legal/policy adoption-travel without compromising primary audience.
 
 ---
 

@@ -577,6 +577,30 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #25 — Book-level audience choice — CLOSED-RATIFIED 2026-04-28 (Option B + supplementary D)
+
+- **Raised:** 2026-04-28 by Chris Winn during the intergenerational-cluster vocabulary rigor-pass methodology refinement. Author articulation: *"let's ask the question about a holistic strategy to approach when to leverage terminology I create for the framework/book, when to replace with academic words, when to replace with prose from the perspective of what is the right answer for the intended audience the book is trying to reach as well as the additional audiences the book will need to reach based on subject matter, publisher, and literary agent."* Followed by clarification that audience choice is a book-level question (not per-term) requiring its own rigor test prior to the terminology strategy.
+- **Status:** **closed-ratified 2026-04-28 (Chris Winn) — Option (a) full ratify Option B (academic-trade hybrid) primary + Option D (policy-practitioner) supplementary in adoption-travel chapters.** Full-depth rigor pass executed 2026-04-28 (`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md`); six audience options enumerated (A trade / B academic-trade hybrid / C pure academic / D policy-practitioner / E public-intellectual / F cross-tradition); B dominates 7 of 10 criteria in cross-option matrix; loses on success-criterion-reachability only (mitigated by D supplementation).
+- **Category:** publishing · craft · framework boundary · vocabulary
+- **Content:** *Commons Bonds* is written to the academic-trade hybrid crossover audience (Mazzucato / Raworth / Anderson / Sen / Acemoglu-Robinson / Stiglitz / Hickel register; Princeton / Yale / Harvard / MIT / U-Chicago press landing) as primary register, with policy-practitioner (Brookings / Roosevelt-Institute / Tooze) supplementary register in chapters where legal/policy adoption-travel is the success-criterion (Ch 9 *Pricing Honestly* canonical; Ch 7 instrument-design sections; Ch 10 regulatory-architecture sections).
+- **Decisive findings (full detail in rigor pass file):**
+  1. Content profile (math + multi-discipline lineage + Option-C' cross-tradition + personal narrative + 18 case studies) only threads through B without sacrificing components.
+  2. Author intuition (*"approachable for non-economists; not dismissed by economists"*) IS the B brief.
+  3. Success criterion (severed-cost into legal/policy vocabulary) requires D supplementation.
+  4. Author voice already operates in B; switching to A/C/D/E/F primary would require substantial voice rewrite.
+  5. Realistic publisher landing is the major academic-trade presses (Princeton/Yale/Harvard/MIT/U-Chicago/Belknap/Norton-academic-trade).
+  6. M11 critic-survival is strongest under B.
+- **Implementation implications (per rigor pass §10):**
+  - Terminology rigor pass (`commons_bonds_rigor_pass_2026-04-28_intergenerational_cluster_vocabulary_consolidation_v1.0.0.md`) inherits B + supplementary D as fixed input. Tier A→D decision rule reshapes accordingly.
+  - Suffix-convention coherence test runs against B reader (Mazzucato/Raworth profile) as audience-of-record.
+  - Vocabulary strategy scaffolding doc (`alignment/commons_bonds_vocabulary_strategy_v1.0.0.md`, to be drafted) codifies the audience as standing input for future vocabulary decisions.
+  - Each chapter's drafting calibrates explicitly: B default; D modulation in Ch 9 + Ch 7 instrument-design + Ch 10 regulatory-architecture sections; light F-flavor preserved within B in Ch 4 + Ch 10 cross-tradition sections.
+  - Marketing positioning leverages B + supplementary D: comp titles Mazzucato/Raworth/Anderson; realistic publisher targets the major academic-trade presses; realistic agent class is the specific subset who represent academic-trade hybrid authors.
+- **Dependencies / Links:** Rigor pass file `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md`; downstream rigor pass `commons_bonds_rigor_pass_2026-04-28_intergenerational_cluster_vocabulary_consolidation_v1.0.0.md`; downstream scaffolding doc `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` (to be drafted); v1.0.3 §6.1 book-scope governance; Working Principles file (possible new Principle #7 codifying audience-discipline as standing commitment).
+- **Todo link:** Reshape cluster vocabulary rigor pass with B+D as fixed input; draft vocabulary strategy scaffolding doc; consider drafting new Working Principle #7.
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*
