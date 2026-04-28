@@ -4,7 +4,7 @@
 **Date:** 2026-04-27
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v2.3.0.md` — full 12-module suite + §22 + §22.4 + all 6 Working Principles. Special focus on M5 (dinner-table), M6 (academic), M8 (long-term / test-of-time), M11 (critic survival), M12 (prior-art audit).
 **Scope:** Tests (1) whether Passage M (~360 words; Darity-Mullen reparations-economics methodological engagement) should appear in Ch 6 as currently placed, expanded, compressed, relocated, or removed entirely; (2) what vocabulary the section's h3 should use (Restitution Lineage / Reparations Lineage / alternative). Per author directive 2026-04-27: *"Do a full rigor test on the inclusion of Restitution Lineage vs. The Reparations Lineage Or some similar verbiage and expand to the entire section that was just included and investigate if including them would make the book stronger, expand, compress, remove, and ultimately will this make the book great? will this make the book stand the test of time?"*
-**Status:** rigor pass executed 2026-04-27; pending author ratification.
+**Status:** rigor pass executed 2026-04-27; **ratified 2026-04-27 by Chris Winn** — full ratification of I-A + V-A + S-B' revised. Applied to manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html.
 **Author:** Chris Winn
 
 ---
@@ -386,14 +386,24 @@ For h3 V-A "The Restitution Lineage":
 
 ## §11. Author-ratified resolutions
 
-**[PENDING — author ratification 2026-04-27.]**
+**Ratified 2026-04-27 by Chris Winn — full ratification of recommended combination I-A + V-A + S-B' (revised).**
 
-Once ratified:
-- Apply V-A h3 rename to manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html
-- Apply S-B' opening clause broadening
-- Update Open Insight #21 status if relevant
-- Cross-reference this rigor pass from terms_index Restitution Bond record (additional applicable-context citation)
-- Cross-reference from b1_b2_naming pass as follow-on application of §10 multi-lineage discipline
+1. **I-A — INCLUDE the section as currently placed** in Ch 6 between "What Is Owed" (Passage G) and "Two Kinds of Commons" (Passage L). Confirms Passage M placement structurally; confirms B₁/B₂ symmetric-lineage chapter-prose pairing with G's Parfit grounding for B₂.
+
+2. **V-A — RENAME h3 from "The Reparations Lineage" to "The Restitution Lineage."** Per b1_b2_naming pass §10 ratified discipline at h3 level. Applied to manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html.
+
+3. **S-B' — APPLY light broadening of first-paragraph opening clause** (~25 words) to acknowledge multi-tradition lineage:
+   - **From:** *"It operates within an established academic tradition — reparations economics — whose methodology William Darity Jr. and A. Kirsten Mullen develop most rigorously..."*
+   - **To:** *"It operates within several adjacent academic traditions — restitution-law, truth-and-reconciliation processes, environmental-justice damages compensation, and most directly reparations economics, whose methodology William Darity Jr. and A. Kirsten Mullen develop most rigorously..."*
+   - Applied to manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html.
+
+4. **Remaining passage prose preserved as currently placed** — Darity-Mullen wealth-gap methodology engagement (paragraph 2); CSD instrument operating same way for extraction communities (paragraph 2); methodology-vs-politics distinction (paragraph 3); Book-1-scope discipline reference to Ch 9 policy economy (paragraph 3).
+
+**Ratifications activated:**
+- V-A vocabulary discipline (Restitution Lineage h3) extends b1_b2_naming pass §10 ratified-2026-04-24 instrument-name discipline to section-heading register.
+- S-B' multi-tradition citation breadth pattern available as precedent for future passages where multi-lineage acknowledgment is M12-relevant.
+- Cross-political-tradition adoption-bandwidth discipline reaffirmed at section-heading level (per Option C' political-philosophical-accommodation discipline ratified 2026-04-24).
+- Test-of-time vocabulary discipline reaffirmed (Roman-law-lineage Restitution preferred over 21st-century-U.S.-marked Reparations at high-visibility section-heading positions).
 
 ---
 
