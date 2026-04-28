@@ -90,7 +90,7 @@ Conservative floor across four components: five hundred and fifty to five hundre
 
 ### Dynastic Labor Cost
 
-Now the harder components. Dynastic Labor Cost is the one the abundance test reveals: the cost borne not by the worker but by the worker's family and the generations downstream of that family's dispersal.
+Now the harder components. Dynastic Labor Cost is the one the Commons Inversion Test reveals: the cost borne not by the worker but by the worker's family and the generations downstream of that family's dispersal.
 
 A mining community that collapses by eighty percent does not take its children with it uniformly. The children who stay grow up in a food desert where the nearest grocery store is an hour away and the local school's graduation rate is among the lowest in the country. The children who leave are raised by parents whose work was physically destructive enough that many of them did not live to see grandchildren. Intergenerational wealth transmission, which in most American communities is the single largest driver of which lives are possible and which are not, becomes impossible when the family's entire asset base consists of a house in a hollow that cannot be sold.
 
@@ -110,7 +110,7 @@ When the community dispersed, the knowledge went with them. Not to somewhere it 
 
 And that is just the ecological and occupational knowledge. Add the cultural continuity — the congregations, the civic organizations, the networks of mutual aid that could absorb a personal crisis because everyone knew everyone — and the loss compounds. Replacement cost for the civic infrastructure of a community of a hundred thousand people is not straightforwardly priced, but it is certainly not zero.
 
-I'll price this component at one dollar per ton. It is not the point of the chapter. But it belongs in the accounting because the abundance test surfaces it, and because the reader who thinks carefully about what the coal cost cannot simply omit the part of the cost that fell outside the ledger because it wasn't denominated in dollars.
+I'll price this component at one dollar per ton. It is not the point of the chapter. But it belongs in the accounting because the Commons Inversion Test surfaces it, and because the reader who thinks carefully about what the coal cost cannot simply omit the part of the cost that fell outside the ledger because it wasn't denominated in dollars.
 
 ---
 
@@ -130,7 +130,7 @@ I'll assign one dollar per ton to this component — a floor so low it is almost
 
 ### Temporal Displacement Cost
 
-Temporal Displacement Cost is the component revealed by the abundance test most starkly. It is the cost of \*when\*.
+Temporal Displacement Cost is the component revealed by the Commons Inversion Test most starkly. It is the cost of \*when\*.
 
 The coal in McDowell County had sat in the ground for hundreds of millions of years. Its extraction was compressed into roughly a century, with the bulk of the tonnage moved in the forty years after mechanization. This was not because the country needed coal at that specific rate. It was because the rate at which coal could be extracted had been increased by machinery, and because the financial structure of the industry rewarded rapid extraction over measured extraction.
 
