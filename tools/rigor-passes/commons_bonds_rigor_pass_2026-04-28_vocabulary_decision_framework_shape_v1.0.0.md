@@ -8,11 +8,11 @@
 
 **Triggering question (2026-04-28 by Chris Winn):** *"do a rigor pass on if the four-move framework is the right shape or if it should be framed differently."*
 
-**Status:** PROPOSED — awaiting author ratification.
+**Status:** **RATIFIED 2026-04-28 by Chris Winn** — verdict (a) full ratify Option 1 + refinements (a) and (b).
 
 **Author:** Chris Winn
 
-**Recommended verdict:** **Option 1 (current four-move A/B/C/D framework) RATIFIED with one refinement** — Option 4 (split D into D1 general framework-coinage + D2 framework-coinage-engineered-for-adoption-travel) earns marginal coverage improvement over base Option 1, but the §5 D-modulation discipline already captures the D1/D2 distinction operationally without requiring a separate tier slot. **NET: Stick with four-move A/B/C/D; the existing framework shape passes.**
+**Ratified verdict:** **Option 1 (four-move A/B/C/D framework) maintained with two refinements** — (a) §5 D-modulation guidance in the vocabulary strategy doc gets explicit subsection covering engineered-for-adoption-travel design intent; (b) §4 of the scaffolding doc gets supplementary decision-tree representation for pedagogical accessibility. The four-move framework is the standing shape; alternative options 2-7 produce weaker outcomes; option 8 (decision-tree) is operationally equivalent and adopted as supplementary illustration only.
 
 ---
 

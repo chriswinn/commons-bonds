@@ -6,11 +6,11 @@
 
 **Scope:** Refines Working Principle #4 (*Retirements preserve their history in-document*, ratified 2026-04-24) by surfacing a missing third tier — **scaffolding / decision-record documents** — that the existing Tier 1 / Tier 2 dichotomy elides. Provides per-folder classification across the repo. Triggered by the Value Capture sweep scope question (2026-04-27 → 2026-04-28).
 
-**Status:** PROPOSED — awaiting author ratification.
+**Status:** **RATIFIED 2026-04-28 by Chris Winn** — verdict (a) full ratify A2 + L2 + S1 (Tier 3 trichotomy with explicit per-folder classification + per-instance lowercase judgment + Tier-aware sentinel exclusion).
 
 **Author:** Chris Winn (originating articulation 2026-04-28 while drifting off: *"perhaps this is the sort of thing that's perfect to keep living in scaffolding along with reasons that we regressed the use of that term/word/etc. and that means the publisher facing documents will be scrubbed clean"*).
 
-**Recommended verdict:** **Option A — Tier 3 trichotomy with explicit per-folder classification.** Preserves audit trail discipline while clarifying which documents get scrubbed at retirement.
+**Ratified verdict:** **Option A — Tier 3 trichotomy with explicit per-folder classification.** Preserves audit trail discipline while clarifying which documents get scrubbed at retirement. Triggers Phase 1 (Working Principle #4 update — add Tier 3 row), Phase 2 (Value Capture → Value Extraction publisher-facing sweep per §4 plan), Phase 3 (routine 1 Tier-aware exclusion update + add `\bValue Capture\b` regression pattern).
 
 ---
 

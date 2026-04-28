@@ -1,8 +1,8 @@
 # Commons Bonds — Vocabulary Strategy
 
-**Version:** 1.0.0
+**Version:** 1.0.1
 **Established:** 2026-04-28
-**Status:** PROPOSED — awaiting author ratification.
+**Status:** **RATIFIED 2026-04-28 by Chris Winn** — v1.0.1 incorporates ratified refinements per `commons_bonds_rigor_pass_2026-04-28_vocabulary_decision_framework_shape_v1.0.0.md`: (a) §5 D-modulation guidance covers engineered-for-adoption-travel design intent; (b) §4 includes supplementary decision-tree representation; (c) §10 case-study selection deferred (audience for scaffolding doc is Chris + AI assistants — case studies serve future-AI pattern-matching but the per-term rigor passes themselves are the canonical examples; explicit selection deferred).
 **Author:** Chris Winn
 
 **Purpose:** Standing reference for vocabulary decisions on the *Commons Bonds* project. Codifies the discipline that flows from the ratified book-level audience (Option B + supplementary D, RATIFIED 2026-04-28). Future vocabulary decisions inherit this discipline without re-running the audience or methodology rigor passes.
@@ -175,6 +175,62 @@ In D-modulation chapters (Ch 9 + Ch 7 instrument-design + Ch 10 regulatory-archi
 
 Failure on either override pushes the verdict to Tier D-with-policy-vocabulary-specialization. The coined term is then engineered with explicit attention to regulatory-text adoption-travel.
 
+### §4.5 Decision-tree representation (supplementary)
+
+The four-tier-ladder above is mathematically equivalent to a decision-tree of sequential yes/no questions. For readers who decode algorithmic walks more easily than tier-lists, the same discipline can be expressed:
+
+```
+For any candidate vocabulary decision:
+
+  1. Does an established academic-literature term capture the framework's
+     intended meaning EXACTLY?
+     |
+     +-- Question 1a: AND would a B-register reader (Mazzucato/Raworth/Sen
+     |   profile) decode it without specialist gloss?
+     |   |
+     |   +-- YES → ★ TIER A (adopt verbatim with citation)
+     |   |
+     |   +-- NO → proceed to question 2
+     |
+     +-- NO → proceed to question 2
+
+  2. Is there an academic-literature term that's close-but-not-identical,
+     where the framework specializes one or two axes?
+     |
+     +-- Question 2a: AND is the specialization decodable to a B-register
+     |   reader with a light footnote?
+     |   |
+     |   +-- YES → ★ TIER B (adopt with framework-specialization footnote)
+     |   |
+     |   +-- NO → proceed to question 3
+     |
+     +-- NO → proceed to question 3
+
+  3. Would descriptive prose adjective + noun (existing English vocabulary)
+     suffice in B-register chapter usage WITHOUT proper-noun status?
+     |
+     +-- YES → ★ TIER C (descriptive prose; track as preserved compositional
+     |          phrase if recurring; do NOT promote to proper-noun)
+     |
+     +-- NO → proceed to question 4
+
+  4. The framework needs a distinction no existing vocabulary supports.
+     |
+     +-- ★ TIER D (coinage justified — proceed to draft full terms_index
+                   record per S1 schema with audience-rationale narrative)
+
+  D-modulation override (in Ch 9, Ch 7 instrument-design, Ch 10
+  regulatory-architecture sections):
+     After the tier verdict, additionally test:
+     - Does this tier choice support severed-cost migrating into
+       legal/policy text?
+     - Does the term read naturally in regulatory-vocabulary register?
+     If failure on either, push verdict to Tier D-with-policy-vocabulary-
+     specialization (term engineered for regulatory-text adoption-travel).
+```
+
+This decision-tree is operationally equivalent to the tier-ladder framing in §4.2; it is included as a supplementary representation per the framework-shape rigor pass `commons_bonds_rigor_pass_2026-04-28_vocabulary_decision_framework_shape_v1.0.0.md` ratification.
+
 ---
 
 ## §5. D-modulation guidance for adoption-travel chapters
@@ -205,6 +261,29 @@ Per the ratified book-audience verdict:
 A B-primary chapter (e.g., Ch 4 *Existence Proof*) might introduce *Cost Severance* with: *"Cost Severance is the framework's name for the structural mechanism by which extraction separates value capture from cost bearing — the central phenomenon this book examines."*
 
 A D-modulation chapter (e.g., Ch 9 *Pricing Honestly*) might introduce the same term with: *"The accountability gap measures the dollar amount of cost severance — RCV minus the Accountability Bond. When B = RCV, severance is zero (honest accounting); when B is below RCV, the gap is what gets passed forward."* — same framework term, more instrument-design-vocabulary register.
+
+### §5.5 Engineered-for-adoption-travel design intent
+
+Per the four-move-framework-shape rigor pass (RATIFIED 2026-04-28), the framework recognizes a distinction between two flavors of Tier D coinage that operate within the four-tier shape rather than splitting D into separate tiers:
+
+**Tier D (general framework coinage)** — coined to support the framework's internal apparatus or pedagogy. Examples: Substitutability Function (S), Asymmetric Regret Rule (ARR), Abundance Masking, Triangulated RCV Estimation. These terms exist primarily to make the framework's internal logic legible; their adoption travel beyond the book is a side benefit, not the design intent.
+
+**Tier D engineered for legal/policy adoption-travel** — coined with explicit design intent that the term migrates into regulatory text + legal opinions + policy briefs. Examples: Cost Severance, Severed Cost, Restitution Bond, Foreclosure Bond, Cost Severance Damages (CSD). The term's success criterion is migration into regulatory vocabulary; the design choice (suffix, semantic loading, lineage hooks) optimizes for that travel.
+
+Both flavors are Tier D under the four-move framework — the distinction is a *design intent annotation*, not a separate tier. The decision rule (default to lowest tier serving B-register reader) applies identically; the design-intent annotation determines additional engineering-for-adoption-travel constraints in D-modulation chapters.
+
+**When to flag a Tier D coinage as engineered-for-adoption-travel:**
+1. The term appears in D-modulation chapters (Ch 9; Ch 7 instrument-design sections; Ch 10 regulatory-architecture sections) as a load-bearing instrument-name.
+2. The framework's success criterion is the term's migration into legal/policy text.
+3. The suffix (e.g., -Bond, -Damages, Severed Cost) pattern-matches existing regulatory-vocabulary conventions to ease adoption.
+4. The lineage hooks (e.g., Restitution-tradition cross-political-readability for Restitution Bond) explicitly support adoption across political traditions.
+
+**When NOT to flag Tier D as engineered-for-adoption-travel:**
+1. The term exists primarily to make framework's internal logic legible (e.g., Triangulated RCV Estimation — pedagogical-internal).
+2. The term appears mostly in B-primary chapters as conceptual apparatus.
+3. The term's design intent is reader-comprehension, not regulatory-vocabulary migration.
+
+**Decision-record annotation:** when a Tier D coinage carries engineered-for-adoption-travel design intent, the terms_index Rigor-provenance section explicitly notes: *"Tier D engineered for legal/policy adoption-travel per vocabulary strategy §5.5 — design intent: [specific success-criterion]; suffix-convention: [pattern]; lineage hooks: [traditions]."*
 
 ---
 
@@ -377,7 +456,9 @@ Renamed per {rigor pass file} ratified {date} by {Chris Winn / collaborative}. N
 
 ## §10. Worked examples
 
-These case studies show how past framework vocabulary decisions map onto this discipline. They serve as standing reference for similar future decisions.
+**Status: case-study selection deferred (per author direction 2026-04-28).** Audience for this scaffolding doc is Chris + AI assistants applying the discipline to future vocabulary decisions; case studies serve future-AI pattern-matching, but the per-term rigor passes themselves are the canonical examples. Explicit selection of "the right 8" is deferred — when a future vocabulary decision needs a worked-example anchor, the relevant past per-term rigor pass gets cross-referenced inline rather than promoted into a curated §10 list.
+
+The original draft enumerated 8 worked examples (Cost Severance / Externality Tail / Restitution Bond / intergenerational equity / intergenerational cost severance / ARR / CSG demotion / Cost Bearing demotion). Those drafts are preserved below as illustrative — not curated as canonical.
 
 ### §10.1 Cost Severance (Tier D, targets B-register first; survives D-modulation)
 

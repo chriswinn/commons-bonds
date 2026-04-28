@@ -601,6 +601,55 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #26 — Vocabulary decision framework shape — CLOSED-RATIFIED 2026-04-28 (Option 1 four-move A/B/C/D + refinements)
+
+- **Raised:** 2026-04-28 by Chris Winn during vocabulary strategy scaffolding doc review: *"do a rigor pass on if the four-move framework is the right shape or if it should be framed differently."*
+- **Status:** **closed-ratified 2026-04-28 (Chris Winn) — verdict (a) full ratify Option 1 four-move A/B/C/D framework + refinements (a) and (b).** Focused rigor pass executed 2026-04-28 (`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_vocabulary_decision_framework_shape_v1.0.0.md`); 8 alternative shapes enumerated (3-move collapses, 5-move D split, two-axis matrix, continuous spectrum, role-first framing, decision-tree); Option 1 dominates 5 of 6 criteria; 8 of 8 past framework vocabulary decisions map cleanly via hindsight test.
+- **Category:** vocabulary · method
+- **Content:** Four-move A/B/C/D framework (Tier A academic verbatim / Tier B academic + specialization / Tier C descriptive prose / Tier D framework coinage) ratified as the standing shape for vocabulary discipline. Refinement (a): §5 D-modulation guidance covers engineered-for-adoption-travel design intent (D1/D2 distinction operationally captured without elevating to separate tier slot); Refinement (b): §4 of vocabulary strategy doc gets supplementary decision-tree representation for pedagogical accessibility.
+- **Implementation:**
+  - `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` v1.0.0 → v1.0.1 with refinements applied: §4.5 decision-tree representation added; §5.5 engineered-for-adoption-travel design intent added.
+  - Four-move framework cited as standing-shape reference in all future vocabulary decisions.
+- **Dependencies / Links:** Rigor pass file `commons_bonds_rigor_pass_2026-04-28_vocabulary_decision_framework_shape_v1.0.0.md`; scaffolding doc `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md`; book-audience rigor pass (RATIFIED 2026-04-28 Insight #25).
+- **Todo link:** Apply refinements to vocabulary strategy scaffolding doc.
+
+---
+
+### Insight #27 — Vocabulary strategy scaffolding doc v1.0.1 — CLOSED-RATIFIED 2026-04-28
+
+- **Raised:** 2026-04-28 by collaborative drafting during cluster vocabulary rigor pass execution. Author articulation: *"let's capture the resulting solution/approach that we decide on in a scaffolding document like core/terms/terms_index.md."*
+- **Status:** **closed-ratified 2026-04-28 (Chris Winn) — v1.0.1 with refinements per Insight #26 applied.** The scaffolding document codifies the standing vocabulary discipline that flows from the ratified book-level audience (Insight #25) and the ratified four-move framework shape (Insight #26). Future framework vocabulary decisions inherit this discipline without re-running the audience or methodology rigor passes.
+- **Category:** vocabulary · method · scaffolding
+- **Content:** `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` (now v1.0.1 with refinements) is the standing source-of-truth for vocabulary decisions. Sits alongside `commons_bonds_working_principles_v1.0.0.md` as parallel discipline-record. Sections §1-§12 cover: scope; inherited audience input (B + supplementary D); four vocabulary moves (Tier A/B/C/D); decision rule + decision-tree supplement; D-modulation guidance + engineered-for-adoption-travel design intent; suffix-convention discipline; capitalization-discipline; cross-political-tradition robustness; decision-record format; worked examples (selection deferred per author 2026-04-28); versioning + revision triggers; cross-references.
+- **§10 case-study selection — deferred:** audience for scaffolding is Chris + AI assistants applying discipline to future vocabulary decisions; case studies serve future-AI pattern-matching but per-term rigor passes themselves are the canonical examples. Explicit selection deferred until specific vocabulary decision needs a worked-example anchor.
+- **Implementation:**
+  - Document committed at v1.0.0 (cae3c70); refined to v1.0.1 (this commit).
+  - Cited as standing-discipline reference from terms_index entries + future per-term rigor passes.
+- **Dependencies / Links:** Scaffolding doc file; book-audience rigor pass (Insight #25); vocabulary framework shape rigor pass (Insight #26); cluster vocabulary rigor pass (in flight); architecture rigor pass S1 schema (`commons_bonds_rigor_pass_2026-04-27_publication_architecture_terms_index_glossary_tech_appendix_v1.0.0.md`).
+- **Todo link:** Update `MEMORY.md` to reflect new standing discipline document; consider drafting new Working Principle #7 codifying audience-discipline as standing commitment.
+
+---
+
+### Insight #28 — Retirement traces / scaffolding-vs-publisher-facing — CLOSED-RATIFIED 2026-04-28
+
+- **Raised:** 2026-04-28 by Chris Winn during Value Capture sweep scope discussion: *"perhaps this is the sort of thing that's perfect to keep living in scaffolding along with reasons that we regressed the use of that term/word/etc. and that means the publisher facing documents will be scrubbed clean."*
+- **Status:** **closed-ratified 2026-04-28 (Chris Winn) — verdict (a) full ratify A2 + L2 + S1.** Refines Working Principle #4 (Retirements preserve their history in-document, ratified 2026-04-24) by surfacing a missing third tier — scaffolding / decision-record documents — that the existing Tier 1 / Tier 2 dichotomy elides. Provides per-folder Tier classification across the repo + concrete Value Capture sweep plan + routine 1 Tier-aware exclusion update.
+- **Category:** vocabulary · method · scaffolding · publishing
+- **Content:** Three-tier classification ratified:
+  - **Tier 1 — Reader-facing (publisher-facing) live documents** → SWEEP retired terms (manuscript chapters, current glossary v3, current Tech Appendix, current case-study audits, research case-study writeups).
+  - **Tier 2 — Reader-facing archived / superseded versions** → header-note retirement annotation; body intact (archived prior glossary versions, archived Tech Appendix versions, archived sessions, archived rigor protocol versions).
+  - **Tier 3 — Scaffolding / decision-record / author-facing** (NEW) → preserve all retirement traces in full (terms_index, rigor passes, working principles, open insights, current sessions, alignment patches, tools/routines, core/scaffolding).
+  - Per-instance lowercase judgment (Axis L2): proper-noun "Value Capture" sweeps uniformly; lowercase "value capture / value captured" reviewed for framework-vs-descriptive-English sense.
+  - Routine 1 Tier-aware exclusion (Axis S1): exclusion list reframed to Tier 3 scaffolding paths (principled rule that scales to future retirements without per-term routine updates).
+- **Implementation phases triggered:**
+  1. Update Working Principle #4 — add Tier 3 row to format table.
+  2. Apply Value Capture → Value Extraction publisher-facing sweep per rigor pass §4 plan: Ch 4 (1), Ch 5 (4), glossary v3 (2), case-study audit (4), research case studies (~7 with per-instance review), tools/rigor-protocol (1).
+  3. Update routine 1 — Tier-aware exclusions + add `\bValue Capture\b` regression pattern.
+- **Dependencies / Links:** Rigor pass file `commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md`; Working Principle #4 (`alignment/commons_bonds_working_principles_v1.0.0.md`); routine 1 in claude.ai; Value-Capture-vs-Extraction rigor pass `commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md`.
+- **Todo link:** Apply Value Capture → Value Extraction publisher-facing sweep (Phases 1-3); ratify Working Principle #4 Tier-3 row addition.
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*
