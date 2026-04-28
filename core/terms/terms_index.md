@@ -1166,6 +1166,24 @@ Candidates: *Asymmetric Regret Principle (current)* · *Asymmetric Regret Rule* 
 
 **Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn).
 
+**Glossary definition (~75 words, reader-register):**
+> The framework's action-side variable: the dollars actually forced onto extractors via accountability instruments — reclamation bonds, sovereign wealth funds, carbon taxes, environmental insurance, severance agreements. **Accountability Bond (B)** is what closes (or attempts to close) the cost-severance gap. The primitive equation: Cost Severance = Residual Commons Value − Accountability Bond posted. Under honest accounting, B = RCV; current regimes leave B < RCV by orders of magnitude.
+
+**Tech Appendix definition (~340 words, formal + lineage):**
+> The framework's right-side equation variable: the formal scalar B in the primitive equation
+>
+> **CS(R, t₀) = RCV(R, t₀) − B(R, t₀)**
+>
+> Represents the total dollars forced onto extractors via accountability instruments — the financial mechanisms that internalize extraction costs onto the extractor's ledger. Instrument cluster includes: reclamation bonds (Surface Mining Control and Reclamation Act 1977 + supporting OSMRE guidance + GAO 2017 financial-assurances analysis); Environmental Impact Bonds (Balboa 2016); Pigouvian taxes (Pigou 1920 *Economics of Welfare*); sovereign wealth funds operationalizing the Hartwick rule (Hartwick 1977); decommissioning bonds; carbon-pricing schemes; environmental-justice damages compensation; toxic-tort + class-action damages; truth-and-reconciliation processes.
+>
+> The Accountability Bond is the framework's only **action-side** variable — every other Ring-1 / Ring-2 element (RCV / CIT / Cost Severance / Severed Cost / Cᵢ / Substitutability Function / Externality Tail) is **diagnostic** (reveals, identifies, names, or quantifies the problem). B is the dollars that actually flow onto the extractor's ledger to close (or attempt to close) the cost-severance gap. B doesn't measure severance; it remediates it.
+>
+> Decomposed in Ring 2 as B = B₁ + B₂ where B₁ is the Restitution Bond (backward-looking; closes already-realized harm; reparations-economics lineage per Darity & Mullen 2020) and B₂ is the Foreclosure Bond (forward-looking; closes prospective intergenerational foreclosure; option-value + Hartwick-rule lineage).
+>
+> Under honest accounting, B = RCV: the bond posted equals the true intergenerational cost. Under current regimes, B < RCV across nearly every extraction case examined; the gap is the cost severance the framework prices.
+>
+> Norway's Government Pension Fund Global (sovereign wealth fund) is the canonical real-world exemplar of B operating at scale — capturing roughly 70-80% of net petroleum wealth for intergenerational distribution. Norway's solution presupposes governance preconditions and is not universal. The framework's claim is mathematical (B = RCV is honest accounting); which specific instrument-mix best realizes that equality is a live policy-design space.
+
 **Term-spec version:** v1.0 (first sanctioned spec).
 
 **Last reviewed:** 2026-04-24
