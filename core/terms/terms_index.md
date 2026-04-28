@@ -1728,6 +1728,24 @@ The framework EXTENDS Hotelling 1931 by adding a commons-side measurement to pai
 
 **Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn with explicit extension-positioning discipline).
 
+**Glossary definition (~80 words, reader-register):**
+> The framework's mathematical bridge to standard resource economics. Hotelling 1931 priced the rent that accrues to a private extractor as a finite resource depletes — the gap between price and extraction cost, rising over time. The framework's **Hotelling Identity** says: that same rent, looked at from the commons' side, is the cost severance per unit. Per-unit Residual Commons Value minus per-unit standard Hotelling rent equals per-unit Cost Severance. Hotelling's math; framework's commons-side reading.
+
+**Tech Appendix definition (~330 words, formal + lineage):**
+> A framework-articulated identity bridging the framework's commons-side measurement (RCV) to standard resource economics' extractor-side rent rule (Hotelling 1931):
+>
+> **RCV − Hotelling rent = Cost Severance per unit**
+>
+> M12 attribution discipline (per Hotelling Identity rigor pass §3 + author M12 directive 2026-04-24):
+>
+> *Hotelling's part* (Hotelling 1931 *The Economics of Exhaustible Resources*): resource rent = market price − extraction cost (p − c); the rent rises over time at the rate of interest; this rent represents the **extractor's** scarcity premium accruing as the resource depletes. Standard resource-economics; foundational.
+>
+> *Framework's part:* (a) defining RCV as the **commons'** true cost of extraction (forward-looking integrand over substitutability + externality + commons-grounded costs admitted via Four Gates); (b) recognizing that Hotelling rent under honest accounting represents commons' scarcity value being **appropriated** by the extractor (rather than compensated to the commons); (c) articulating the identity RCV − Hotelling rent = CS per unit. The identity is the framework's articulation; Hotelling did not write it (he did not have RCV; he did not have Cost Severance as named mechanism).
+>
+> The framework extends Hotelling 1931 by adding a commons-side measurement to pair with Hotelling's extractor-side rent + naming the gap as the framework's central concept (Cost Severance). Adjacent literature deepening the extension: Solow 1974 (intergenerational equity and exhaustible resources); Hartwick 1977 (invest resource rents in reproducible capital — operationalized in Norway's sovereign-wealth fund); Pearce-Atkinson 1993 (sustainability accounting / capital-theory extension); Daly's stock-flow accounting tradition.
+>
+> Mathematical bridge, not adoption-target vocabulary. Ring 2 placement honors M6 academic-positioning value: transforms the M11 critic's *"isn't this rebranding externality theory?"* attack into structural identification — the framework names the gap Hotelling's framing identifies but does not price.
+
 **Term-spec version:** v1.0.
 
 **Last reviewed:** 2026-04-24
