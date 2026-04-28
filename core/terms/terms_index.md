@@ -1278,6 +1278,18 @@ Canonical Ch 5 + Tech Appendix first-use citation form drafted in rigor pass §3
 
 **Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn — promoted from earlier DEMOTE-to-prose via re-examination).
 
+**Glossary definition (~75 words, reader-register):**
+> The mechanism by which abundance makes costs invisible to market pricing until scarcity forces them into view. Oxygen feels free because Earth's atmosphere is abundant. Ecological services feel free because ecosystems haven't collapsed yet. Coal-country lung tissue felt free because the affected population was small and dispersed. *Abundance Masking* names *how* costs hide; the Commons Inversion Test (CIT) is the methodology that *finds* what's being hidden. Mechanism + methodology — paired.
+
+**Tech Appendix definition (~290 words, formal + lineage):**
+> *Abundance Masking* is the framework's mechanism-name for the process by which a commons's abundance state suppresses market pricing of costs that draw down that commons. The mechanism operates whenever the commons is sufficiently abundant that scarcity-driven price signals haven't yet emerged: atmospheric oxygen is unpriced because Earth's atmosphere is abundant; ecological services are unpriced because ecosystems haven't yet collapsed; lung-tissue capacity in coal communities was unpriced because the affected population was geographically and politically small. The mechanism does not require *intent* — it operates structurally whenever the abundance condition holds.
+>
+> **Pairing structure (load-bearing).** Abundance Masking is paired structurally — not topically — with the Commons Inversion Test (CIT, Ring 1, supersedes AIT 2026-04-24). The pairing is: Abundance Masking is the mechanism the framework asks CIT to detect; CIT is the methodology that surfaces what Abundance Masking is hiding. CIT's definition requires Abundance Masking to be a named object — without the mechanism-name, CIT becomes circular ("a test for the unnamed thing"). Retiring Abundance Masking would break CIT's definition. The structural-pairing principle (originated in this term's re-examination) now governs Ring-2 promotion decisions for mechanism-methodology pairs.
+>
+> **Distinguished from Abundance Dimension.** Mechanism vs category. Abundance Masking is the *process* by which costs become invisible; abundance dimension is the *kind* of abundance along which the mechanism operates (atmospheric, ecological, temporal, etc.).
+>
+> **M12 lineage.** Framework-specific mechanism-name. Adjacent literature includes ecological-economics work on the rhetoric of abundance masking depletion + artificial-scarcity literature (Desai & Lemley 2022, *Notre Dame Law Review*); no established term captures the specific framework role as CIT-paired mechanism-name. Appears novel as specific framework term.
+
 **Term-spec version:** v1.1 (v1.0 was the meta-pass demote-to-prose recommendation; v1.1 corrects after Principle-#2 re-read under re-examination).
 
 **Last reviewed:** 2026-04-24
