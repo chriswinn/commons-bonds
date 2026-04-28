@@ -22,6 +22,8 @@ This chapter does that exercise for one ton of Appalachian coal — and lets the
 
 The result is not degrowth. It is not anti-capitalism. It is not, in this book, a policy recommendation. It is an accounting exercise. What we choose to do with the accounting is a separate question — a political one — and one this book is deliberately not trying to answer. The book's job is to make the numbers visible. What gets built from visibility is the work of policy-makers, communities, and political coalitions who carry the framework's vocabulary into specific implementation contexts.
 
+What follows walks each cost component the framework's Four Gates admit — every Cᵢ that passes the discipline of the Commons Inversion Test, units consistency, boundedness, and independence — through one specific extraction. The eight components below are the ones McDowell County coal surfaces; a different extraction surfaces a different set. The methodology is universal; the components are case-specific.
+
 ---
 
 ### The coal, again
@@ -34,7 +36,7 @@ What follows is conservative throughout. Where estimates have a range, I use the
 
 ---
 
-### Tier 1 — Direct Health Cost
+### Direct Health Cost
 
 Begin with the lungs. Black lung is the most completely documented externality coal has ever produced, because the damage is specific, attributable, and federally tracked. The Black Lung Disability Trust Fund has distributed over forty-four billion dollars to disabled miners and their widows since its creation. It has never collected enough revenue to cover its obligations. Its debt stood at four and a half billion dollars in 2021 and is projected to exceed fifteen billion by 2050. When a coal company files for bankruptcy, its liability transfers to the taxpayer, which is to say, to everyone not currently extracting coal.
 
@@ -42,11 +44,11 @@ That's before the other direct health costs: the excess cardiovascular mortality
 
 Allocated against total United States coal production from 1960 to 2020, the Trust Fund alone yields roughly eighty cents per ton. Adding Medicare and Medicaid costs shifted to the public ledger, uncompensated care, and the private medical bills of miners whose employers bankrupted before obligations matured, a conservative figure sits between two and four dollars per ton at the national level.
 
-Two to four dollars. Against a market price of four-fifty in 1960. Tier one alone — the most documented tier — returns roughly as much as the coal sold for.
+Two to four dollars. Against a market price of four-fifty in 1960. Direct health alone — the most documented component — returns roughly as much as the coal sold for.
 
 ---
 
-### Tier 2 — Environmental Degradation Cost
+### Environmental Degradation Cost
 
 Walk outside the mine. The creek running orange with acid mine drainage is not a metaphor. It is a specific hydrochemical process in which exposed sulfide minerals oxidize in contact with water and air, producing sulfuric acid that mobilizes heavy metals into the watershed for a century or longer. Treatment is perpetual. There is no version of acid mine drainage that ends when the mine closes.
 
@@ -54,11 +56,11 @@ Across Appalachia, the reclamation bonds coal companies were required to post un
 
 Added to that: the sixty thousand Appalachian cancer cases linked to mountaintop removal mining, the long-tail ecosystem service losses from streams buried under valley fill, the soil contamination in communities downstream of processing facilities, and the atmospheric mercury deposited from coal combustion that now shows up in fish as far away as the North Atlantic.
 
-Conservatively allocated per ton: one to three dollars. Which, added to tier one, already places the national severed cost at three to seven dollars — already above the 1960 market price, before any foreclosure pricing at all.
+Conservatively allocated per ton: one to three dollars. Which, added to direct health, already places the national severed cost at three to seven dollars — already above the 1960 market price, before any foreclosure pricing at all.
 
 ---
 
-### Tier 3 — Community Disruption Cost
+### Community Disruption Cost
 
 The county peaked near one hundred thousand residents in 1950. By 2020, fewer than twenty thousand remained. Mechanization cut the workforce by more than half within a decade of Kennedy's visit. The U.S. Steel mine closure in 1990 dropped personal income in the county by two-thirds in a single year. In 2016, the last Walmart left. In 2022, McDowell County ranked sixteenth-poorest in the United States with a median household income of twenty-eight thousand dollars and a poverty rate near thirty-eight percent, in a country whose median is over sixty-seven thousand. In 2015, the county recorded the highest drug-induced death rate of any county in America — one hundred forty-one per hundred thousand, close to ten times the national rate.
 
@@ -66,13 +68,13 @@ A community doesn't drop to twenty percent of its population without carrying co
 
 Economists who study regional collapse have methodologies for pricing this; the figures they produce for sustained regional decline sit in the range of five to fifteen dollars per ton of extracted coal when allocated to the extraction that drove the collapse. I'll use the low end. Five dollars per ton.
 
-Running total across the first three tiers: eight to twenty-two dollars per ton. Market price in 1960: four dollars and fifty cents. The gap is already a multiple. We haven't yet priced carbon.
+Running total across the first three components: eight to twenty-two dollars per ton. Market price in 1960: four dollars and fifty cents. The gap is already a multiple. We haven't yet priced carbon.
 
 ---
 
-### Tier 4 — Foreclosure Cost
+### Foreclosure Cost
 
-This is the tier Chapter 2 named through the $100 barrel passage and Chapter 6 formalized through the RCV integral. It is also the tier that, for fossil fuels, dominates every other.
+This is the cost component Chapter 2 named through the $100 barrel passage and Chapter 6 formalized through the RCV integral. It is also the component that, for fossil fuels, dominates every other.
 
 One ton of coal, when burned, releases approximately 2.86 tons of carbon dioxide into the atmosphere. The EPA's most recent estimate of the social cost of carbon — the economic damage caused by each ton of CO₂ released, anchored to the Rennert et al. 2022 *Nature* meta-analysis that grounded the 2023 EPA update — is one hundred and ninety dollars. The arithmetic is not subtle. The climate cost of burning one ton of coal, at the currently published federal estimate, is approximately five hundred and forty-four dollars.
 
@@ -80,15 +82,15 @@ Five hundred and forty-four dollars. Against a market price that has oscillated 
 
 Add to that the option-value foreclosure not captured by the carbon number: every future metallurgical application that cannot be served by a non-existent substitute, every future chemical feedstock application, every use case we cannot yet imagine for a carbon resource whose existing stock is being burned for electricity in a world where electricity can now be generated from sources that don't require combustion at all.
 
-The foreclosure tier, for coal burned in any era after viable renewable substitutes existed, is a minimum of five hundred and forty-four dollars per ton — and that is before option value, before ecosystem service losses from atmospheric warming, before the climate-induced mortality and migration costs that the social cost of carbon understates.
+The foreclosure component, for coal burned in any era after viable renewable substitutes existed, is a minimum of five hundred and forty-four dollars per ton — and that is before option value, before ecosystem service losses from atmospheric warming, before the climate-induced mortality and migration costs that the social cost of carbon understates.
 
-Conservative floor across four tiers: five hundred and fifty to five hundred and seventy dollars per ton.
+Conservative floor across four components: five hundred and fifty to five hundred and seventy dollars per ton.
 
 ---
 
-### Tier 5 — Dynastic Labor Cost
+### Dynastic Labor Cost
 
-Now the harder tiers. Tier five is the one the abundance test reveals: the cost borne not by the worker but by the worker's family and the generations downstream of that family's dispersal.
+Now the harder components. Dynastic Labor Cost is the one the abundance test reveals: the cost borne not by the worker but by the worker's family and the generations downstream of that family's dispersal.
 
 A mining community that collapses by eighty percent does not take its children with it uniformly. The children who stay grow up in a food desert where the nearest grocery store is an hour away and the local school's graduation rate is among the lowest in the country. The children who leave are raised by parents whose work was physically destructive enough that many of them did not live to see grandchildren. Intergenerational wealth transmission, which in most American communities is the single largest driver of which lives are possible and which are not, becomes impossible when the family's entire asset base consists of a house in a hollow that cannot be sold.
 
@@ -100,21 +102,21 @@ I'll use two dollars per ton as a conservative placeholder. The reader can decid
 
 ---
 
-### Tier 6 — Knowledge and Cultural Cost
+### Knowledge and Cultural Cost
 
-The sixth tier is the one that is hardest to see while it's happening because it's invisible until it's already lost. Every mining community carried practical knowledge — how to read the seams, how to manage risk on a specific geological formation, how to keep a specific valley's water system functioning, how the weather behaved in that particular hollow over a particular century — and that knowledge existed because specific people stayed in specific places long enough to accumulate it.
+Knowledge and Cultural Cost is the component that is hardest to see while it's happening because it's invisible until it's already lost. Every mining community carried practical knowledge — how to read the seams, how to manage risk on a specific geological formation, how to keep a specific valley's water system functioning, how the weather behaved in that particular hollow over a particular century — and that knowledge existed because specific people stayed in specific places long enough to accumulate it.
 
 When the community dispersed, the knowledge went with them. Not to somewhere it could be preserved. To places where it had no application. The retired miner who knew exactly how the West Fork ran in February didn't move to somewhere that needed to know how the West Fork ran in February.
 
 And that is just the ecological and occupational knowledge. Add the cultural continuity — the congregations, the civic organizations, the networks of mutual aid that could absorb a personal crisis because everyone knew everyone — and the loss compounds. Replacement cost for the civic infrastructure of a community of a hundred thousand people is not straightforwardly priced, but it is certainly not zero.
 
-I'll price this tier at one dollar per ton. It is not the point of the chapter. But it belongs in the accounting because the abundance test surfaces it, and because the reader who thinks carefully about what the coal cost cannot simply omit the part of the cost that fell outside the ledger because it wasn't denominated in dollars.
+I'll price this component at one dollar per ton. It is not the point of the chapter. But it belongs in the accounting because the abundance test surfaces it, and because the reader who thinks carefully about what the coal cost cannot simply omit the part of the cost that fell outside the ledger because it wasn't denominated in dollars.
 
 ---
 
-### Tier 7 — Political Capture Cost
+### Political Capture Cost
 
-The reason the first six tiers are visible in hindsight and were invisible in the moment is not that the information was unavailable. It is that the industry whose invoices did not reflect the costs had substantial financial incentive to keep the costs unpriced — and did so, for decades, through documented lobbying, regulatory capture, and strategic suppression of research.
+The reason the first six components are visible in hindsight and were invisible in the moment is not that the information was unavailable. It is that the industry whose invoices did not reflect the costs had substantial financial incentive to keep the costs unpriced — and did so, for decades, through documented lobbying, regulatory capture, and strategic suppression of research.
 
 Black lung was identifiable as an occupational disease by the early twentieth century. It was not formally recognized as a basis for federal compensation until 1969, and only after a miners' strike and the West Virginia Black Lung Association forced the legislative issue. The United Mine Workers under John L. Lewis declined to press the issue at multiple points in the preceding decades, reportedly on the grounds that raising it would interfere with the mechanization that was producing higher wages. The mechanism that produced the higher wages was, of course, also the mechanism that produced the disease. The rank and file paid the difference.
 
@@ -122,13 +124,13 @@ The social cost of carbon itself has been an object of political capture. Under 
 
 The cost of the fight is itself a severed cost. Democracies spend real money — through lobbying expenditures, captured regulatory agencies, think tanks funded to produce the conclusions their funders need, and the civic attention diverted from other questions — to keep the honest accounting from happening. Estimates of the annual lobbying spend of the fossil fuel industry alone run into the hundreds of millions of dollars, and that figure captures only the visible fraction.
 
-I'll assign one dollar per ton to this tier — a floor so low it is almost certainly an undercount, chosen to keep the running total conservative. The reader who has followed the argument this far can adjust.
+I'll assign one dollar per ton to this component — a floor so low it is almost certainly an undercount, chosen to keep the running total conservative. The reader who has followed the argument this far can adjust.
 
 ---
 
-### Tier 8 — Temporal Displacement Cost
+### Temporal Displacement Cost
 
-The final tier is the one revealed by the abundance test most starkly. It is the cost of \*when\*.
+Temporal Displacement Cost is the component revealed by the abundance test most starkly. It is the cost of \*when\*.
 
 The coal in McDowell County had sat in the ground for hundreds of millions of years. Its extraction was compressed into roughly a century, with the bulk of the tonnage moved in the forty years after mechanization. This was not because the country needed coal at that specific rate. It was because the rate at which coal could be extracted had been increased by machinery, and because the financial structure of the industry rewarded rapid extraction over measured extraction.
 
@@ -136,35 +138,37 @@ The temporal displacement cost is the cost of foregone optionality — the value
 
 Instead, the mechanization compressed the timeline, the price suppressed the signal, and the adaptation did not happen until the damage had accumulated to the point that the accumulation forced it.
 
-I'll assign this tier two dollars per ton. Again, conservative, almost certainly an undercount.
+I'll assign this component two dollars per ton. Again, conservative, almost certainly an undercount.
 
 ---
 
 ### The sum
 
-Running the total at the low end of every tier:
+The framework's Cᵢ-summation discipline (RCV = ∫ (Σ Cᵢ) · D dt per the Tech Appendix's sum-of-costs general form) sums these admitted components across the relevant time horizon; the per-ton arithmetic this chapter performs is the time-snapshot version of that integral, applied to a single extraction.
 
-- Tier 1 (Direct Health): $2
+Running the total at the low end of every component:
 
-- Tier 2 (Environmental Degradation): $1
+- Direct Health: $2
 
-- Tier 3 (Community Disruption): $5
+- Environmental Degradation: $1
 
-- Tier 4 (Foreclosure): $544
+- Community Disruption: $5
 
-- Tier 5 (Dynastic Labor): $2
+- Foreclosure: $544
 
-- Tier 6 (Knowledge and Cultural): $1
+- Dynastic Labor: $2
 
-- Tier 7 (Political Capture): $1
+- Knowledge and Cultural: $1
 
-- Tier 8 (Temporal Displacement): $2
+- Political Capture: $1
+
+- Temporal Displacement: $2
 
 Total: $558 per ton.
 
 Against a market price of $4.50 in 1960. Against a market price of $40 to $140 today, depending on grade. Against every price coal has ever sold for.
 
-The Intergenerational Pricing Gap — the ratio of honest price to market price — for McDowell County coal, at the low end of every tier, is somewhere between four and a hundred and twenty. The range is wide because the market price varies by era. The floor is high because the carbon term dominates anything the market has ever paid for a ton of coal.
+The Intergenerational Pricing Gap — the ratio of honest price to market price — for McDowell County coal, at the low end of every component, is somewhere between four and a hundred and twenty. The range is wide because the market price varies by era. The floor is high because the carbon term dominates anything the market has ever paid for a ton of coal.
 
 ---
 
@@ -174,7 +178,7 @@ If this were an isolated case, the reader would be entitled to ask whether McDow
 
 Different industries. Different geographies. Different decades. Different resources. The same mechanism. The same structural gap between what the invoice said and what the extraction actually cost.
 
-The pattern does not stop at what conventionally counts as extraction. The housing-market pattern Chapter 2 named — nearly half of American renters cost-burdened, the landlord class capturing the surplus that would otherwise have funded mobility — produces the same shape at the household scale. Run the tier arithmetic against a rent-burdened household and the tiers populate: foreclosure-of-mobility cost (what is no longer possible as a life once housing consumes the savings that would have funded relocation), dynastic cost (what cannot be inherited because the parents could not accumulate), political capture cost (the zoning and tenant-law architecture that keeps the revenue flow oriented in one direction). The value flows to asset owners who are not present at the scale of the local community. The costs accumulate at the scale of the household whose savings do not accumulate. The arithmetic is different from McDowell's. The structure is identical. The same holds for the Canadian tar sands — Alberta's bitumen operations priced against heavy-crude markets while the ecological damage falls on boreal forests and peatlands, the treaty violations fall on indigenous First Nations whose territories host the operations, and the atmospheric carbon tail follows the combustion wherever the barrels are burned. The Athabasca Chipewyan First Nation, Mikisew Cree First Nation, and Fort McKay First Nation, whose traditional territories under Treaty 8 of 1899 sit above and beside the bitumen deposits, have documented elevated cancer rates in downstream communities, contaminated traditional-food sources, and consultation-and-consent failures the Canadian courts have engaged repeatedly without resolving the structural arrangement. Framework application against tar sands returns the same order-of-magnitude gap that coal returns. The pattern is not specific to coal. It is what happens when the accounting system was built to track only one side of the ledger.
+The pattern does not stop at what conventionally counts as extraction. The housing-market pattern Chapter 2 named — nearly half of American renters cost-burdened, the landlord class capturing the surplus that would otherwise have funded mobility — produces the same shape at the household scale. Run the cost-component arithmetic against a rent-burdened household and the components populate: foreclosure-of-mobility cost (what is no longer possible as a life once housing consumes the savings that would have funded relocation), dynastic cost (what cannot be inherited because the parents could not accumulate), political capture cost (the zoning and tenant-law architecture that keeps the revenue flow oriented in one direction). The value flows to asset owners who are not present at the scale of the local community. The costs accumulate at the scale of the household whose savings do not accumulate. The arithmetic is different from McDowell's. The structure is identical. The same holds for the Canadian tar sands — Alberta's bitumen operations priced against heavy-crude markets while the ecological damage falls on boreal forests and peatlands, the treaty violations fall on indigenous First Nations whose territories host the operations, and the atmospheric carbon tail follows the combustion wherever the barrels are burned. The Athabasca Chipewyan First Nation, Mikisew Cree First Nation, and Fort McKay First Nation, whose traditional territories under Treaty 8 of 1899 sit above and beside the bitumen deposits, have documented elevated cancer rates in downstream communities, contaminated traditional-food sources, and consultation-and-consent failures the Canadian courts have engaged repeatedly without resolving the structural arrangement. Framework application against tar sands returns the same order-of-magnitude gap that coal returns. The pattern is not specific to coal. It is what happens when the accounting system was built to track only one side of the ledger.
 
 The housing finding above will encounter a serious objection from a particular direction, and the framework cannot earn the integration without engaging it specifically. The objection is that housing costs are driven by zoning restrictions on supply, not by landlord-surplus capture — that the structural mechanism the chapter prices is misdiagnosed, that the binding constraint is the regulatory architecture that prevents new units from being built where demand concentrates, and that any framework treating landlord rent-extraction as the primary mechanism is mistaking the symptom for the cause.
 
