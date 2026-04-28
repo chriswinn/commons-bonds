@@ -227,6 +227,20 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 
 **Status:** `CURRENT` at Ring 1 (Ring-1 synthesis batch ratified 2026-04-24 by Chris Winn; M12 collision audit + Option C ratified 2026-04-24 by Chris Winn).
 
+**Glossary definition (~80 words, reader-register):**
+> The mechanism by which extraction separates value capture from cost bearing. When a company extracts value from a commons — a community, an ecosystem, a future generation — and the costs of that extraction stay with the source rather than the extractor, the result is **cost severance**. The framework's term builds on the familiar idea of employment severance, where a company that sheds a worker pays that worker for the cut tie. Cost severance is the same logic applied to commons extraction — except the payment architecture is missing.
+
+**Tech Appendix definition (~310 words, formal + lineage):**
+> The structural mechanism by which extraction separates value capture from cost bearing. Cost Severance is the framework's process/mechanism noun naming the central phenomenon the framework measures and prices. Middle position in the framework's causal chain: *Value Extraction → Cost Severance → Severed Cost* (where Severed Cost is the result/quantity companion noun).
+>
+> Formal expression in the framework's primitive equation:
+>
+> **CS(R, t₀) = RCV(R, t₀) − B(R, t₀)**
+>
+> where CS is per-unit Cost Severance for resource R extracted at time t₀, RCV is the per-unit Residual Commons Value (the full intergenerational cost; integral of substitutability-weighted foreclosure cost plus externality tail across all future time), and B is the per-unit Accountability Bond posting (the actual instrument value capturing rents and committing them to closing the gap). CS &gt; 0 indicates extraction is underpriced under the current accountability regime; CS &asymp; 0 indicates the bond approximates the true intergenerational cost; CS theoretically can be negative under fully-bonded sustainable management.
+>
+> M12 lineage: specialization (not contradiction) of the familiar employment-severance concept. In employment, severance is the payment a value-capturer (employer) makes when severing the tie with a cost-bearer (worker). The framework inverts the direction: under cost severance, the value-capturer (extractor) sheds costs onto the source (commons) without compensating for the severing. The Ch 1 rhetorical bridge recruits the reader's existing employment-severance schema as on-ramp; subsequent chapters use the term cleanly without defensive disambiguation. Cost Severance is the framework's most-used mechanism term. Aggregate at scale: cumulative cost severance across all Earth-bound extraction since the industrial revolution exceeds, by every available estimate, the cumulative wages paid for the extraction labor by orders of magnitude.
+
 **Term-spec version:** v1.1 (v1.0 was Ring-1 synthesis ratification; v1.1 adds M12 finding + Option C rhetorical-bridge ratification + Ch 1 canonical framing).
 
 **Last reviewed:** 2026-04-24
