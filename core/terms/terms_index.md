@@ -990,6 +990,20 @@ Tech Appendix §L methodological footnote positions S as framework-specific exte
 
 **Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn).
 
+**Glossary definition (~80 words, reader-register):**
+> The damage that lingers after extraction stops. A substitute for coal doesn't clean up the mine. A substitute for oil doesn't remove carbon from the atmosphere. *Externality Tail* is the framework's name for costs that persist independently of whether substitutes appear — climate damage from past emissions, mine-tailings dispersion, biological extinction. Mathematically: E(R, t) — a time-indexed function that runs on its own clock. Specializes Pigou's externality concept (1920) for post-extraction persistence.
+
+**Tech Appendix definition (~310 words, formal + lineage):**
+> **E(R, t)** is a time-indexed cost function — the damage from extraction of resource R at time t that persists independently of substitute availability. The *Externality Tail* captures the class of costs whose persistence is decoupled from substitution dynamics: a substitute for coal doesn't clean up the mine; a substitute for oil doesn't remove carbon from the atmosphere; a substitute for a destroyed species doesn't restore extinction.
+>
+> Sibling to foreclosure cost C₁ in the RCV integrand. The two functions appear together in the framework's expanded RCV form: RCV(R, t₀) = ∫_{t₀}^∞ {[1 − S(t|t₀)] · U(R, t, Q(t)) + E(R, t)} · D(t, t₀) dt — where S is the Substitutability Function (governing C₁ behavior) and E captures externalities that run on their own clock (temporally independent of S).
+>
+> **Distinguished from generic Pigouvian externalities** (Pigou 1920) on four axes: (a) post-extraction persistence — the cost continues after extraction stops; (b) substitutability-independence — the cost is decoupled from whether substitutes appear; (c) time-indexed function form — E is a function of (resource, time), not a static unit-tax target; (d) "runs on its own clock" rhetorical anchor — separate temporal dynamics from S.
+>
+> **Why a function name (not a scalar).** Policymakers adopt named quantities (severed cost, accountability bond) rather than named functions. The Externality Tail is internal load-bearing infrastructure — Ring 2, not Ring 1. The phrase *"externality tail"* itself may earn Ring-1 travel potential if policy/legal discourse adopts; monitoring flag only.
+>
+> **M12 lineage.** Pigou 1920 *The Economics of Welfare* (4th ed. 1932) — foundational externality literature; Nordhaus & Boyer 2000 *Warming the World* (MIT Press) — DICE-model methodological parallel for time-indexed cumulative climate damage; Stern 2007 *The Economics of Climate Change: The Stern Review* (Cambridge) — intergenerational-equity framing. Framework's contribution is the four-axis specialization.
+
 **Term-spec version:** v1.0 (first sanctioned spec).
 
 **Last reviewed:** 2026-04-24
