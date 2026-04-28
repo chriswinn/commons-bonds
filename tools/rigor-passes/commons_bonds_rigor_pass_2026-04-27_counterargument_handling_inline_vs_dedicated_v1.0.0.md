@@ -4,7 +4,7 @@
 **Date:** 2026-04-27
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v2.3.0.md` — full 12-module suite + §22 + §22.4 + all 6 Working Principles. Special focus on M3 (book content + counterargument coverage), M4 (craft / momentum / register), M5 (dinner-table + reading flow), M6 (academic), M8 (long-term / test-of-time), M11 (critic survival), M12 (intellectual honesty).
 **Scope:** Tests Ch 6's full defensive-content cluster — the just-inserted "Why These Choices" (Passage N, ~2,000 words, uncommitted) + existing "What the Critics Will Say" section (~1,400 words) + existing "The Carbon Concession" (~600 words) + existing "Reproducibility and the Range of Defensible Estimates" (~900 words) = ~4,900 words of consecutive dedicated defensive material in the chapter's back half. Tests whether this material should be (1) included as currently structured, (2) compressed, (3) restructured into inline-woven prose at natural arising points throughout the chapter, (4) removed, or (5) restructured per some hybrid. Per author directive 2026-04-27: *"run a full rigor test on the inclusion of the counter arguments as written or if the best way to handle counterarguments would be as we are walking through the framework and when that particular counterargument would naturally arise vs. in a dedicated session as that tends to read as defensive and breaks the natural momentum and flow of the prose. Include the entire counterargument section and how it sets within Chapter 6, and feel free to test alternate arrangements or some similar verbiage and investigate if including them as is or in some other verbiage and if including them would make the book stronger, expand, compress, remove, and ultimately will this make the book great? will this make the book stand the test of time?"*
-**Status:** rigor pass executed 2026-04-27; pending author ratification.
+**Status:** rigor pass executed 2026-04-27; **ratified 2026-04-27 by Chris Winn** — full ratification of A-1 + B-2 + per-element inline routing. Plus cross-chapter sweep scheduled for Ch 2 / Ch 4 / Ch 5 / Ch 7 / Ch 8 / Ch 9 / Ch 10 per same discipline. Implementation: multi-commit chapter restructure begins with revert of uncommitted Passage N body in working tree (revert to commit `04da48f`) + this rigor pass §11 ratification + per-element inline-weave commits + final dedicated-section removal commit.
 **Author:** Chris Winn
 
 ---
@@ -374,15 +374,27 @@ Multi-commit chapter-restructure:
 
 ## §11. Author-ratified resolutions
 
-**[PENDING — author ratification 2026-04-27.]**
+**Ratified 2026-04-27 by Chris Winn — full ratification of A-1 + B-2 + per-element inline routing.**
 
-Once ratified:
-- Discard uncommitted Passage N body insertion in working tree (revert to last committed state of Chapter__6_ThreeWaysofCounting__Draft.html which is post-Passage-M-ratification commit `04da48f`).
-- Plan multi-commit chapter restructure per §4 routing matrix.
-- First commit-batch lands inline-woven Passage N defenses (8 sub-defenses distributed across existing sections).
-- Second commit-batch lands inline-woven counterargument rebuttals + concessions (Pricing-the-unpriceable + Popperian falsifiability + Carbon Concession + Reproducibility Range distributed across natural arising points).
-- Third commit removes the now-empty dedicated sections (What the Critics Will Say + Carbon Concession + Reproducibility Range h3 + closing — preserved if any non-defensive content remains).
-- Cross-chapter sweep follow-up: schedule per-chapter checks against this discipline for Ch 5 / Ch 7 / Ch 8 / Ch 9 / Ch 10. Outside scope of this rigor pass.
+1. **A-1 — INCLUDE all current defensive substance.** Counterargument coverage + methodology defenses + concessions all preserved (closes load-bearing M11 audiences; M3.4 coverage maintained).
+
+2. **B-2 — ALL INLINE-WOVEN.** Dissolve all four dedicated defensive sections (Why These Choices [Passage N]; What the Critics Will Say; The Carbon Concession; Reproducibility and the Range of Defensible Estimates). Counterargument-handling becomes woven prose throughout the chapter at points where each objection / defense / concession naturally arises.
+
+3. **Per-element inline routing per §4 routing matrix.** Each defensive piece lands at its identified natural arising point.
+
+4. **Cross-chapter sweep scheduled.** Same discipline (book_scope v1.0.3 §63 + §124 + this rigor pass's verdict) to be applied to Ch 2 / Ch 4 / Ch 5 / Ch 7 / Ch 8 / Ch 9 / Ch 10 — per-chapter rigor checks. Estimated 5-7 follow-up chapter-restructure passes if the discipline is applied across all drafted chapters.
+
+**Implementation cadence:**
+- Revert uncommitted Passage N body insertion in working tree (revert Chapter__6_ThreeWaysofCounting__Draft.html to post-Passage-M-ratification state, commit `04da48f`).
+- Multi-commit chapter restructure across ~7-9 inline-weave operations.
+- Final commit removes now-empty dedicated section wrappers + any closing-section content that remains non-defensive.
+- Marker block + line 169 cleanup commit (already-queued task) handles remaining marker block content separately.
+
+**Ratifications activated:**
+- B-2 inline-woven discipline confirmed at chapter-level structural register (extends book_scope v1.0.3 §63 + §124 from chapter-level to within-chapter-section-level).
+- Cross-chapter sweep scheduled per Insight #22 sweep discipline + this rigor pass's verdict.
+- Successful-adjacent-framework-book pattern (8/8 of Smith / Marx / Keynes / Ostrom / Mazzucato / Raworth / Klinenberg / Piketty) adopted as durable structural model for Commons Bonds.
+- Test-of-time discipline reaffirmed (confident framework-introduction register; counterarguments addressed at natural arising points, not in retrospective-defense register).
 
 ---
 
