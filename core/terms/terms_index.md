@@ -290,6 +290,20 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 
 **Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn, Ring-1 synthesis batch).
 
+**Glossary definition (~80 words, reader-register):**
+> The result of cost severance — a specific cost cut loose from the transaction that created it and transferred to a third party who did not capture the value. The Black Lung Trust Fund's $4.6 billion deficit is a severed cost. The 13-year life expectancy gap in McDowell County is a severed cost. **Severed cost** is the framework's adoption target — the phrase the book hopes a labor lawyer or judge will use in court without needing it explained.
+
+**Tech Appendix definition (~290 words, formal + lineage):**
+> A specific instance of cost that has been severed from the transaction that produced it. Severed Cost is the framework's result/quantity noun naming the quantified outcome of the Cost Severance mechanism. Companion to Cost Severance (the process/mechanism noun) per the role-discipline ratified by the CS-vs-SC triage rigor pass (2026-04-24): Cost Severance for mechanism-naming and theoretical discussion; Severed Cost for instance-quantification and legal-register prose.
+>
+> Formal relationship: each Severed Cost instance is a specific value of CS = RCV − B for a given resource extraction at a given time. The aggregate Cost Severance across all extraction instances in a given accounting scope is the sum of the corresponding Severed Costs.
+>
+> Lexical role: subject or quantified predicate in accounting sentences. *"McDowell County bears a severed cost of $550/ton."* *"The Black Lung Trust Fund deficit is the severed cost the framework prices."* *"Severed cost shows up in community collapse, life-expectancy gaps, and atmospheric carbon."*
+>
+> M12 lineage: standard economics convention of distinguishing process-noun from result-noun (externality / externality cost; rent-seeking / rent). Severed Cost extends this convention to the cost-severance mechanism. Pair with Cost Severance is grammatical complementarity, not duplication.
+>
+> Adoption-target status: Severed Cost is THE framework's target for legal-register adoption per the framework's success criterion. The target case: a labor lawyer or judge uses "severed cost" in a brief or in open court without needing it explained, ten-plus years from publication. The criterion is structural — when the term has reached general legal vocabulary, the framework has succeeded in its adoption goal.
+
 **Term-spec version:** v1.0 (first sanctioned spec after CS-vs-SC triage).
 
 **Last reviewed:** 2026-04-24
