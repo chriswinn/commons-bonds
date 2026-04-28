@@ -11,7 +11,7 @@
 
 Per author directive 2026-04-27: *"Run a focused Ch 8 full rigor pass."*
 
-**Status:** rigor pass executed 2026-04-27; pending author ratification.
+**Status:** rigor pass executed 2026-04-27; **ratified 2026-04-27 by Chris Winn** — full ratification of D1-C + D2-A + D3-A + D4-A. Implementation: 5-6 sequential commits per Phase 1-5 plan.
 **Author:** Chris Winn
 
 ---

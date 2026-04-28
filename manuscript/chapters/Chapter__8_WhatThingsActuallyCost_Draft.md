@@ -10,7 +10,7 @@ By Chris Winn
 
 ## Chapter 8 (What Things Actually Cost) -- Draft v1 (Book One focused scope)
 
-\*Scope note to self: This chapter deliberately does not simulate the whole economy. It walks one extraction -- one ton of McDowell County coal -- through the eight tiers, delivers the intergene
+\*Scope note to self: This chapter deliberately does not simulate the whole economy. It walks one extraction -- one ton of McDowell County coal -- through the framework's full cost-decomposition, delivers the intergenerational pricing gap as a specific number, and gestures at the civilizational-scale implication without attempting to simulate it. Subsequent chapters develop what the simulation would require; this chapter performs the worked example that makes those subsequent simulations meaningful.\*
 
 ---
 
@@ -18,7 +18,7 @@ What if everything cost what it actually costs?
 
 Ask the question without political coding, without ideology, and the framework we've been building starts answering it before the argument even begins. Not from preference. From arithmetic. Take one extraction — any extraction, though the one we've been tracing since Chapter 2 will do — and walk it through the full accounting the previous chapters made legible. Price the health costs. Price the environmental damage. Price the community that bore the weight. Price the foreclosure carried forward to every generation that follows. Price the families dispersed, the knowledge lost, the political work required to keep the whole operation invisible, the acceleration that compressed centuries of resource use into decades. Add them together. Look at the number. Look at the price on the invoice. Notice the gap.
 
-This chapter does that exercise for one ton of Appalachian coal — and lets the reader see what the gap looks like when it isn't aggregated, abstracted, or dissolved in policy language, but priced, tier by tier, against the extraction we've been following from the book's opening.
+This chapter does that exercise for one ton of Appalachian coal — and lets the reader see what the gap looks like when it isn't aggregated, abstracted, or dissolved in policy language, but priced, cost-component by cost-component, against the extraction we've been following from the book's opening.
 
 The result is not degrowth. It is not anti-capitalism. It is not, in this book, a policy recommendation. It is an accounting exercise. What we choose to do with the accounting is a separate question — a political one — and one this book is deliberately not trying to answer. The book's job is to make the numbers visible. What gets built from visibility is the work of policy-makers, communities, and political coalitions who carry the framework's vocabulary into specific implementation contexts.
 
