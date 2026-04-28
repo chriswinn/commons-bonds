@@ -394,9 +394,25 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 
 ### Cost (Cᵢ)
 
-**Working definition:** the framework's atomic unit of measurement — an indexed cost term admitted to the RCV integrand under the four gates of Section L. Each Cᵢ has units [$ · resource-unit⁻¹ · time-unit⁻¹], is identified through the Abundance Inversion Test (AIT) applied to a specific extraction Context, and contributes additively to RCV via the sum-of-costs form. The class of all costs is open and extensible — AIT applied to new Contexts may surface new costs the current framework does not enumerate.
+**Working definition:** the framework's atomic unit of measurement — an indexed cost term admitted to the RCV integrand under the Four Gates discipline. Each Cᵢ has units [$ · resource-unit⁻¹ · time-unit⁻¹], is identified through the Commons Inversion Test (CIT) applied to a specific extraction Context, and contributes additively to RCV via the sum-of-costs form. The class of all costs is open and extensible — CIT applied to new Contexts may surface new costs the current framework does not enumerate.
 
 **Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn as part of Ring-1 synthesis batch; standalone rigor via Variable-vs-Cost pass).
+
+**Glossary definition (~75 words, reader-register):**
+> The framework's atomic unit of measurement — a specific cost term that gets summed into the framework's accounting. Each **Cᵢ** is a named cost (Direct Health Cost, Foreclosure Cost, Community Disruption Cost, Dynastic Labor Cost, etc.) that the Commons Inversion Test has identified for a specific extraction. The class is open: every extraction surfaces its own Cᵢ set; the methodology is universal, the components are case-specific.
+
+**Tech Appendix definition (~330 words, formal + lineage):**
+> The framework's atomic unit of measurement: an indexed cost term Cᵢ admitted to the RCV integrand under the Four Gates discipline. Each Cᵢ has units [$ · resource-unit⁻¹ · time-unit⁻¹], is identified through the Commons Inversion Test (CIT) applied to a specific extraction Context, and contributes additively to RCV via the sum-of-costs form:
+>
+> **RCV(R, t₀, Context) = ∫ₜ₀^∞ { Σᵢ Cᵢ(R, t, Context) } · D(t, t₀) dt**
+>
+> The Σᵢ enumerates all Cᵢ that have been admitted via the Four Gates: (1) **CIT** — the cost claim is grounded in consumption of a finite commons (verified via Commons-Absence Inversion + Commons-Consumption Inversion sub-forms); (2) **Units Consistency** — Cᵢ is expressible in the framework's standard units; (3) **Boundedness** — Cᵢ's contribution to the integral converges to a finite value under the framework's discount assumptions; (4) **Independence** — Cᵢ does not double-count what an existing term already captures.
+>
+> The class of all Cᵢ is open and extensible — CIT applied to new Contexts may surface new cost components the current framework does not enumerate. Specific named costs that have been admitted across cases include Foreclosure Cost (C₁ canonical), Externality Tail (C₂ canonical), Community Disruption Cost, Dynastic Labor Cost, Knowledge and Cultural Cost, Political Capture Cost, Temporal Displacement Cost. Each is a Cᵢ entry in the framework's accounting; each was admitted by passing the Four Gates against a specific extraction Context.
+>
+> Style discipline: prefer specific named costs ("Black Lung Cost," "Community Transition Cost") to the class noun "cost" wherever prose allows. Use Cᵢ (indexed by i) in formal/mathematical contexts; "cost term" remains admissible where math-as-term-of-sum is being explicitly invoked.
+>
+> Replaces prior informal "variable" / "cost variable" usage retired 2026-04-24 per Variable-vs-Cost rigor pass.
 
 **Term-spec version:** v1.0 (first ratified spec; supersedes prior informal "variable" / "cost variable" / "cost term" usage).
 
@@ -417,7 +433,7 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 **Depends on:**
 - Four gates (L.1–L.4 admit Cᵢ to RCV)
 - RCV formula (integrand is Σᵢ Cᵢ · D)
-- AIT (identifies which Cᵢ admit — Gate L.1)
+- CIT (identifies which Cᵢ admit — Gate 1 of the Four Gates)
 - Cost Severance (Cᵢ are what get severed)
 
 **Staleness triggers:**
