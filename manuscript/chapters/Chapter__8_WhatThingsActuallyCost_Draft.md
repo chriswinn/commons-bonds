@@ -104,7 +104,7 @@ I'll use two dollars per ton as a conservative placeholder. The reader can decid
 
 ### Knowledge and Cultural Cost
 
-Knowledge and Cultural Cost is the component that is hardest to see while it's happening because it's invisible until it's already lost. Every mining community carried practical knowledge — how to read the seams, how to manage risk on a specific geological formation, how to keep a specific valley's water system functioning, how the weather behaved in that particular hollow over a particular century — and that knowledge existed because specific people stayed in specific places long enough to accumulate it.
+This component is hardest to see while it's happening because it's invisible until it's already lost. Every mining community carried practical knowledge — how to read the seams, how to manage risk on a specific geological formation, how to keep a specific valley's water system functioning, how the weather behaved in that particular hollow over a particular century — and that knowledge existed because specific people stayed in specific places long enough to accumulate it.
 
 When the community dispersed, the knowledge went with them. Not to somewhere it could be preserved. To places where it had no application. The retired miner who knew exactly how the West Fork ran in February didn't move to somewhere that needed to know how the West Fork ran in February.
 
@@ -130,7 +130,7 @@ I'll assign one dollar per ton to this component — a floor so low it is almost
 
 ### Temporal Displacement Cost
 
-Temporal Displacement Cost is the component revealed by the Commons Inversion Test most starkly. It is the cost of \*when\*.
+This component — revealed by the Commons Inversion Test most starkly — is the cost of \*when\*.
 
 The coal in McDowell County had sat in the ground for hundreds of millions of years. Its extraction was compressed into roughly a century, with the bulk of the tonnage moved in the forty years after mechanization. This was not because the country needed coal at that specific rate. It was because the rate at which coal could be extracted had been increased by machinery, and because the financial structure of the industry rewarded rapid extraction over measured extraction.
 
