@@ -198,13 +198,15 @@ The pattern visible in McDowell County and in the rent-burdened household scaled
 
 ### What honest pricing does \*not\* mean
 
-Two misreadings have followed this argument every time I've offered it, and I want to name them before the chapter ends.
+Three misreadings have followed this argument every time I've offered it, and I want to name them before the chapter ends.
 
 The first misreading is that honest pricing is a claim that the extraction should never have happened. It isn't. Cheap energy — even severely mispriced energy — lifted billions of human beings out of poverty, and no responsible reader of this book should accept an account that pretends otherwise. The argument here is narrower and more specific: whoever bore the cost of extraction should have been compensated at rates reflecting what they actually sacrificed. The miners who developed black lung, the communities that collapsed when the coal was exhausted, the children born into a county whose economic future had been extracted before their birth, the generations that will absorb the climate costs — these are not hypothetical entities. They are people. They paid. They are still paying. The question the framework asks is not whether extraction occurred. The question is who paid for it and whether they consented.
 
 The second misreading is that honest pricing is a claim that the market is fake. It isn't. Prices cleared transactions. The money changed hands. Real coal left McDowell County on real rail cars. What the framework argues is that the price cleared the transaction the market could see, and did not clear the transaction that was actually occurring. The market priced the extraction of the coal. The severed costs — the lung damage, the poisoned creek, the collapsed community, the carbon in the atmosphere, the dispersed families, the political fight required to keep the accounting invisible — were a second transaction running alongside the first, unpriced, unwitnessed, and binding on parties who were never consulted.
 
 The market is not fake. The market is incomplete. The job of the framework is to name the part that got left out.
+
+The third misreading is that honest pricing is a tool by which already-industrialized nations pull up the ladder behind developing economies. This is the objection that has to be taken seriously, because if it were true it would be a compelling moral defeater. It isn't, and the response is structural rather than rhetorical: whoever created the historical cost owes its repayment, and differentiated transition timelines are a structural feature of honest accounting, not an afterthought. Developed nations built their wealth by severing costs onto the global commons for two centuries. The atmospheric carbon, the disrupted climate, and the industrial infrastructure that benefited from free disposal of externalities were built by specific countries whose present wealth reflects costs borne by populations who were never compensated. Honest pricing creates the revenue to fund clean industrialization pathways for developing nations — not as charity, but as the repayment of historical severance. Solar electricity is now cheaper than coal in most of the developing world. The technology exists. The transition timeline should be asymmetric. The framework requires exactly that.
 
 ---
 
@@ -218,17 +220,9 @@ Ten to fifteen trillion. Annually. To put that number in a scale the reader can 
 
 That number is the argument's civilizational-scale implication. It is enormous. It is also, in this book, a gestured claim — one sentence of supporting arithmetic against an assertion that would, if taken seriously as a policy agenda, require years of sectoral simulation, political-economic analysis, and implementation work that cannot honestly be compressed into the closing pages of a framework book.
 
+One reading the figure invites is that the chapter is doing degrowth in a different vocabulary. It isn't. GDP measures market transactions, not welfare. Every dollar spent cleaning up oil spills counts as economic production. Every medical bill from black lung treatment counts as medical output. GDP rises when the children of McDowell County develop addiction disorders and spend money on treatment. GDP does not fall when they die at fifty-eight. Honest pricing reduces GDP in the narrow technical sense while increasing welfare in every sense the measurement was meant to proxy. It shifts the composition of economic activity, not the total. Leaded gasoline was banned and refineries reformulated; the industry did not collapse; children's cognitive outcomes improved. That is the pattern honest pricing repeats at larger scale.
+
 So I am not going to compress it. I am going to name it and leave it.
-
----
-
-### Two counterarguments, compressed
-
-Two objections will meet this chapter on its way to the next, and the book has made implicit promises about honoring them.
-
-The first is the charge that this is degrowth in a different vocabulary. It isn't. GDP measures market transactions, not welfare. Every dollar spent cleaning up oil spills counts as economic production. Every medical bill from black lung treatment counts as medical output. GDP rises when the children of McDowell County develop addiction disorders and spend money on treatment. GDP does not fall when they die at fifty-eight. Honest pricing reduces GDP in the narrow technical sense while increasing welfare in every sense the measurement was meant to proxy. It shifts the composition of economic activity, not the total. Leaded gasoline was banned and refineries reformulated; the industry did not collapse; children's cognitive outcomes improved. That is the pattern honest pricing repeats at larger scale.
-
-The second is the charge that honest pricing is a tool by which already-industrialized nations pull up the ladder behind them. This is the objection that has to be taken seriously, because if it were true it would be a compelling moral defeater. The framework's response is that whoever created the historical cost owes its repayment, and differentiated transition timelines are a structural feature of honest accounting, not an afterthought. Developed nations built their wealth by severing costs onto the global commons for two centuries. The atmospheric carbon, the disrupted climate, and the industrial infrastructure that benefited from free disposal of externalities were built by specific countries whose present wealth reflects costs borne by populations who were never compensated. Honest pricing creates the revenue to fund clean industrialization pathways for developing nations — not as charity, but as the repayment of historical severance. Solar electricity is now cheaper than coal in most of the developing world. The technology exists. The transition timeline should be asymmetric. The framework requires exactly that.
 
 ---
 
