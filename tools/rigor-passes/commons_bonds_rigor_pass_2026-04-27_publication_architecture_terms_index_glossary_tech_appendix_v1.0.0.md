@@ -10,7 +10,7 @@
 
 Tests four interacting questions: (1) the architecture pattern (status quo vs upstream-source-of-truth vs merge); (2) per-term schema in terms_index; (3) synthesis-content boundary for Tech Appendix; (4) maintenance discipline (manual vs tooling). Per author directive 2026-04-27: *"It's probably time to make a task to merge the core/glossary and the core/terms/terms_index.md or perhaps the terms_index really needs to turn into the scaffolding for the technical appendix & the glossary?"* + ratified follow-up: *"the terms_index become the upstream source-of-truth that derives both Tech Appendix + glossary as downstream publication artifacts does seem to have a lot of merit if that's what you would suggest."*
 
-**Status:** rigor pass executed 2026-04-27; pending author ratification.
+**Status:** rigor pass executed 2026-04-27; **ratified 2026-04-27 by Chris Winn** — full ratification of A2 + S1 + B1 + M1 (upstream-source-of-truth hybrid; audience-specific rendering fields per term; Tech Appendix carries synthesis content not in terms_index; manual maintenance discipline initially).
 **Author:** Chris Winn
 
 ---
@@ -624,16 +624,37 @@ Total Phase 2-4 implementation: **~33-50 hours**, splittable across 3-5 dedicate
 
 ## §13. Author-ratified resolutions
 
-**[PENDING — author ratification 2026-04-27.]**
+**Ratified 2026-04-27 by Chris Winn — full ratification of A2 + S1 + B1 + M1.**
 
-Once ratified:
-- Update todo queue with phased implementation tasks (Phase 2-5).
-- Phase 2 (terms_index restructure) commits incrementally per term group (CURRENT-status terms first).
-- Phase 3 (Tech Appendix v2.0.0 rebuild) sequences after Phase 2 completion.
-- Phase 4 (Glossary v4 rebuild) sequences after Phase 2 (independent from Phase 3).
-- Phase 5 (maintenance discipline) activates from Phase 2 onward; future rigor passes follow the upstream-touched-first workflow.
-- Cross-reference this rigor pass from terms_index §2 (replacing or augmenting the Glossary-only integration documentation).
-- Cross-reference from b1_b2_naming pass + counterargument-handling pass + dissolution pass as the architecture-rigor-pass foundation for those future propagation patterns.
+1. **A2 — UPSTREAM-SOURCE-OF-TRUTH HYBRID architecture.** terms_index becomes the upstream source-of-truth for both Glossary and Tech Appendix downstream artifacts. Tech Appendix carries synthesis content (math, proofs, theorems, worked examples) that doesn't decompose into per-term records.
+
+2. **S1 — AUDIENCE-SPECIFIC RENDERING FIELDS** added to terms_index per-term schema:
+   - `glossary_definition` (~80 words, reader-register, one example)
+   - `tech_appendix_definition` (~300 words, formal + lineage citations)
+   - Internal fields (rigor_provenance, decision_history, M11 character probes, rigor-pass commit refs) stay internal — NEVER appear in publication artifacts.
+
+3. **B1 — TECH APPENDIX SYNTHESIS-CONTENT BOUNDARY.** Tech Appendix carries math, proofs, theorems, worked examples (Block 4, Method 3, DAC three-horizon), convergence arguments, integration narrative, empirical validation cases, engagement-with-existing-literature, boundary-awareness scope claim, limitations — all NOT in terms_index. Per-term sections derive from terms_index. Internal-scaffolding (rigor-pass references, M11 probes, status-indicator definitions, version-progression archaeology) MOVED to new `core/scaffolding/tech_appendix_provenance.md`.
+
+4. **M1 — MANUAL MAINTENANCE DISCIPLINE** initially. Workflow: any term-related change touches terms_index FIRST; downstream regeneration manual; versioning lockstep (terms_index v1.X → Glossary v4.X → Tech Appendix v2.X). Optional CI check or pre-commit hook for downstream-only changes (deferred). M2 generation tooling reconsidered if M1 manual discipline drifts over 3-6 months.
+
+**Implementation phases activated (per §12.3):**
+- **Phase 1** (this rigor pass): architectural ratification — COMPLETE.
+- **Phase 2** (~10-15 hrs): terms_index restructure — add glossary_definition + tech_appendix_definition fields per CURRENT term; bump terms_index v0.1.0 → v1.0.0. **NEXT.**
+- **Phase 3** (~20-30 hrs): Tech Appendix v2.0.0 rebuild — strip retired-vocabulary; strip scaffolding; rebuild definitional sections from terms_index; preserve synthesis content; move scaffolding to core/scaffolding/. **AFTER Phase 2.**
+- **Phase 4** (~3-5 hrs): Glossary v4 rebuild — derive from terms_index CURRENT terms' glossary_definition; reader-register HTML. **AFTER Phase 2; INDEPENDENT of Phase 3.**
+- **Phase 5** (ongoing): maintenance discipline activated from Phase 2 onward; future rigor passes follow upstream-touched-first workflow.
+
+**Ratifications activated:**
+- Architecture pattern: terms_index as upstream source-of-truth ratified at framework-level (extends terms_index §2 already-documented Glossary-only integration discipline to Tech Appendix).
+- Per-term schema discipline: audience-specific rendering fields ratified as part of terms_index template; future rigor-pass ratifications affecting terms include glossary_definition + tech_appendix_definition updates as part of the ratification commit.
+- Synthesis-content boundary discipline: math, proofs, theorems, worked examples stay in Tech Appendix as section-level material; internal-scaffolding moves to core/scaffolding/.
+- Versioning lockstep discipline: terms_index v1.X → Glossary v4.X → Tech Appendix v2.X derive at each release point; cross-artifact consistency enforced.
+- Manual discipline: terms_index touched FIRST for any term-related change; future rigor passes end with terms_index impact assessment per terms_index §1 staleness-detection discipline.
+
+**Cross-references to land:**
+- terms_index §2 update: replace Glossary-only integration paragraph with full A2 + B1 architecture statement covering both downstream artifacts.
+- b1_b2_naming pass + counterargument-handling pass + dissolution pass: cross-reference this architecture-rigor-pass as foundation for future propagation patterns.
+- Architecture-rigor-pass cross-referenced from terms_index template §1 (audience-specific rendering fields are now part of canonical schema).
 
 ---
 
