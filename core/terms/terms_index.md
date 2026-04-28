@@ -1063,6 +1063,18 @@ Tech Appendix §L footnote positions E as temporal-specialization of Pigouvian e
 
 **Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn — supersedes Asymmetric Regret Principle; ratification finalized after same-day flip from preliminary Reversibility Default ratification).
 
+**Glossary definition (~85 words, reader-register):**
+> The framework's operational decision rule for cases where future costs can't be precisely quantified. *We can always extract later. We can never un-extract.* When in doubt, default to the action that's reversible. The rule flips by context: on a comet flyby (access window closes permanently), extraction is the reversible choice. On Europa-class biosphere risk, preservation is the reversible choice. Same rule, opposite verdicts. Specialization of regret-theory + minimax-regret tradition (Savage 1951; Loomes & Sugden 1982) with irreversibility-weighted regret tails.
+
+**Tech Appendix definition (~310 words, formal + lineage):**
+> The *Asymmetric Regret Rule* (ARR) is the framework's operational decision rule for the regime where RCV tails cannot be precisely quantified. Instruction: when uncertain, default to the option whose action is reversible relative to the alternative. The rule produces opposite operational verdicts under different contexts while remaining the same underlying rule (per Working Principle #5: context-flipping rules earn named-rule status). On Comet-flyby cases, extraction is the reversible action — the access window closes permanently and failing to extract is irreversible. On Europa-class cases (incommensurable biosphere externality), preservation is the reversible action — extraction would impose irreversible damage. The bidirectional flip is what justifies named-rule status over generic precautionary prose.
+>
+> **Aphorism:** *"We can always extract later. We can never un-extract."* The aphorism describes the operational instruction; the named rule names the principled basis (regret asymmetry under irreversibility).
+>
+> **Distinguished from the Precautionary Principle.** PP is unidirectional (default-to-caution). ARR is bidirectional — the default-to-reversibility direction depends on which action is reversible in the specific context. ARR survives M11 critic-survival probes that PP cannot (e.g., the critic claim "your rule would freeze all extraction" is false: ARR directs *extract* on Comet flyby).
+>
+> **M12 lineage.** Specialization within counterfactual-reasoning + minimax-regret + precautionary + real-options decision-theoretic lineage. Savage 1951 (*JASA* 46, no. 253: 55-67) — minimax-regret foundation; Loomes & Sugden 1982 (*Economic Journal*) — regret theory; Dixit & Pindyck 1994 — real-options reversibility-as-decision-axis; Lempert, Popper & Bankes 2003 (RAND) — Robust Decision Making; Rio Declaration 1992 Principle 15 — international-law precautionary tradition. Framework's contribution is the bidirectional-flip + irreversibility-weighted regret-tail framing.
+
 **Term-spec version:** v2.0 (rename from Asymmetric Regret Principle v1.0; framework content unchanged; last word "Principle" → "Rule" to downgrade overclaim while preserving regret-theory direct-lineage in name).
 
 **Last reviewed:** 2026-04-24
