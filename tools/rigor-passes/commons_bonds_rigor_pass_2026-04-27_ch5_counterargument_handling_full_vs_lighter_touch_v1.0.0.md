@@ -7,7 +7,7 @@
 
 Per author directive 2026-04-27: *"do a full rigor test of full restructure vs. lighter touch options and show me any notable findings that come up."*
 
-**Status:** rigor pass executed 2026-04-27; pending author ratification.
+**Status:** rigor pass executed 2026-04-27; **ratified 2026-04-27 by Chris Winn** — Option B (lighter touch) ratified.
 **Author:** Chris Winn
 
 ---
@@ -381,9 +381,9 @@ Ch 6 had four dedicated h3 counterargument sections totaling ~4,900 words = ~hal
 
 ## §13. Author-ratified resolutions
 
-**[PENDING — author ratification 2026-04-27.]**
+**Ratified 2026-04-27 by Chris Winn — Option B (lighter touch).**
 
-Once ratified:
+Implementation:
 - Apply lighter-touch edits to manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:
   - Remove line 89 meta-framing sentence
   - Remove "The first counterclaim..." / "The second counterclaim..." / "The third counterclaim..." / "The fourth counterclaim..." sequencing labels in 2008 section
