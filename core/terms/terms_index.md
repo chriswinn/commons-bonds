@@ -1636,6 +1636,24 @@ Politically-contested commons especially: Autonomy (Anderson 2017 *Private Gover
 
 **Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn).
 
+**Glossary definition (~80 words, reader-register):**
+> The framework's measurement instrument for already-realized human harm from cost severance — health damages, intergenerational disadvantage, community-level suffering, foreclosed life-trajectories. **Cost Severance Damages (CSD)** is backward-looking; it counts what extraction has already done to people. Companion to Residual Commons Value, which is forward-looking and counts what extraction forecloses for future generations. Together: CSD prices what's been taken from people; RCV prices what's been taken from the resource.
+
+**Tech Appendix definition (~310 words, formal + lineage):**
+> Backward-looking framework instrument measuring realized human harm from cost severance: health damages, intergenerational disadvantage, community-level suffering, foreclosed life-trajectories. CSD is the framework's specific measurement instrument for the human-harm component of Severed Cost.
+>
+> Two-instrument architecture per Three Ways + RCV Formal-Model rigor pass Block 1 (ratified 2026-04-24): CSD measures damages-to-people (already-realized; person-affecting); RCV measures damages-to-resource (forward-looking; impersonal-outcomes per Parfit 1984). Together they constitute Total Extraction Damages = CSD + uncaptured RCV (Block 3 framework decomposition). The two instruments are orthogonal: full reparations on the human-harm side leave the resource still gone (Block 1 Hole 5).
+>
+> Pairs with B₁ (Restitution Bond, Ring-2 sub-instrument): the accountability instrument that closes the CSD gap. Where CSD diagnoses the realized harm, B₁ posts the dollars that would discharge it.
+>
+> M12 lineage: independent specialization with established-methodology lineage. Adopts:
+> - **Reparations-economics methodology** (Darity & Mullen 2020 *From Here to Equality*) — wealth-gap-against-comparable-households calculation; the contemporary state of the art for pricing harm structurally embedded in economic systems.
+> - **Environmental-justice damages** (Bullard 1990 *Dumping in Dixie*) — distributional analysis of environmental harm across racial / socioeconomic / geographic lines.
+> - **Intergenerational-mobility methodology** (Chetty et al.) — quantifying foreclosed life-trajectories through opportunity-mobility data.
+> - **VSL / DALY health-economics** — value-of-statistical-life and disability-adjusted-life-year frameworks for pricing health harm at scale.
+>
+> Framework's contribution is the extraction-community-context specialization + the two-instrument architecture integration. Implicit operation across seven demonstrated cases (McDowell coal; healthcare end-of-life; opioid Appalachia; 2008 financial crisis; Chesapeake watermen; Libby vermiculite; tax-tradeoff US-Sweden welfare-state comparison).
+
 **Term-spec version:** v1.0 (first sanctioned spec; supersedes implicit-operation status across 7+ framework cases).
 
 **Last reviewed:** 2026-04-24
