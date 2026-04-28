@@ -503,6 +503,20 @@ Removing any word creates ambiguity or unmoors the term.
 
 **Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn, promoted from Ring 2).
 
+**Glossary definition (~75 words, reader-register):**
+> The act by which value is separated from its source — a community, an ecosystem, or a future generation — and taken by someone who did not produce it. Value extraction is the causal event that produces cost severance: the same act that captures the value severs the cost from the capturer and leaves it with the source. The framework's causal chain runs *Value Extraction → Cost Severance → Severed Cost*.
+
+**Tech Appendix definition (~330 words, formal + lineage):**
+> The act by which value is separated from its source (a community, ecosystem, or future generation) and taken by a value-capturer. Value Extraction is the causal event that produces Cost Severance — extraction severs cost from the capturer (who benefits) and leaves it with the source (who bears). First position in the framework's causal chain: *Value Extraction → Cost Severance → Severed Cost.*
+>
+> M12 lineage: the framework builds on two adjacent intellectual traditions.
+>
+> Mariana Mazzucato (*The Value of Everything: Making and Taking in the Global Economy*, Penguin/PublicAffairs, 2018) is the dominant published usage of "value extraction" in political economy. Mazzucato defines value extraction as *"activities focused on moving around existing resources and outputs, and gaining disproportionately from the ensuing trade"* — focused on rent-seeking in financial capitalism (asset managers, pharmaceutical patent rents, financial-sector extraction). The framework extends Mazzucato's diagnosis from rent-seeking-in-financial-capitalism into the physical-resource domain — adding (a) a pricing mechanism (RCV, Severed Cost, Accountability Bond); (b) a causal chain naming the mechanism at three positions; (c) the Cost Severance specialization for the separation of value-capturers from cost-bearers in resource extraction; (d) an accountability instrument (B) that would internalize the severed costs into the extractor's ledger.
+>
+> David Harvey (*The New Imperialism*, Oxford University Press, 2003), Chapter 4, develops *accumulation by dispossession* as the contemporary form of the older primitive-accumulation pattern Marx named — capital accumulating not through productive activity but through seizure or enclosure of common resources. Harvey's framing predates Mazzucato and is foundational for both usages. The framework's "value extraction" rendering reframes Harvey's critique in accessible accounting-register language suitable for legal / policy / non-academic audiences.
+>
+> Canonical positioning: *"this framework extends Mazzucato's value-extraction critique from financial rent-seeking into the physical-resource domain, with a specific accountability instrument."*
+
 **Term-spec version:** v1.1 (Mazzucato citation addendum added 2026-04-24 after literature audit; v1.0 was first sanctioned spec after triage vs Value Capture).
 
 **Last reviewed:** 2026-04-24
