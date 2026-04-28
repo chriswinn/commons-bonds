@@ -1422,6 +1422,20 @@ Specialized extension of commons-governance methodology (Ostrom lineage) to extr
 
 **Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn). Supersedes AIT.
 
+**Glossary definition (~75 words, reader-register):**
+> The framework's discovery method for identifying which costs of extraction belong in the accounting. The **Commons Inversion Test** asks of a candidate cost: imagine the commons that grounds it is absent or unconsumed. If the cost becomes visible only against that imagined inversion, it is commons-grounded and admits to the framework's accounting. If the cost would persist regardless, it is intrinsic to the activity, not to the commons-state, and is excluded.
+
+**Tech Appendix definition (~310 words, formal + lineage):**
+> A framework-specific methodology for admitting candidate costs to the RCV integrand. The Commons Inversion Test (CIT) is the discrimination gate that filters cost claims for commons-grounding before they reach the measurement apparatus. Two operational sub-forms:
+>
+> **Commons-Absence Inversion (CAI)** asks whether the cost claim is commons-grounded at all. The operation: imagine the commons does not exist. The cost the test surfaces is replacement cost — what it would take to recreate or compensate for what was destroyed. Paradigm cases: McDowell County's habitability commons demonstrably stripped by coal extraction; atmospheric oxygen that feels free on Earth and must be priced when imagined absent (the asteroid-mining test in Chapter 7).
+>
+> **Commons-Consumption Inversion (CCI)** asks whether the commons-grounded claim is consumption-of-finite-commons. The operation: imagine the commons not being consumed. The cost the test surfaces is opportunity cost — what the commons would have done if not drawn down. Paradigm cases: lifetime hours that could have gone to language-learning or family-time if not spent commuting; a forest functioning as carbon sink and watershed if not cut.
+>
+> The two sub-forms run different filters. CAI distinguishes commons-grounded claims from private-property externalities. CCI distinguishes consumption-of-finite-commons claims from coordination-of-mutually-acceptable-use claims. A single-form CIT would have collapsed these into one test and produced ambiguous results in Ostrom-tradition cases where CAI passes but CCI fails. The two-sub-form architecture makes the routing explicit.
+>
+> M12 lineage: specialized extension of commons-governance methodology (Ostrom 1990 *Governing the Commons*; Hess & Ostrom 2007 *Understanding Knowledge as a Commons*) into extraction-contexts where commons are drawn down rather than managed-in-place. The counterfactual-reasoning operational family (Lewis 1973 + subsequent philosophy-of-action literature) supplies the thought-experiment lineage. CIT supersedes AIT (Abundance Inversion Test) per the CIT rename rigor pass 2026-04-24; AIT's semantic content preserved + refined via the two sub-forms.
+
 **Term-spec version:** v1.0 (first sanctioned spec).
 
 **Last reviewed:** 2026-04-24
