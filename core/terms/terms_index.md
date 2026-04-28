@@ -1815,6 +1815,20 @@ The framework EXTENDS Hotelling 1931 by adding a commons-side measurement to pai
 
 **Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn).
 
+**Glossary definition (~80 words, reader-register):**
+> The framework's discipline for estimating Residual Commons Value: instead of a single point estimate, run three independent methods and report the convergence range. **Three Ways of Counting** runs Replacement Cost (what would it cost to replace what was lost?), Revealed Preference (what did the most-honest existing example actually capture?), and Scarcity-Adjusted Option Value (what's the option value of leaving it in situ?). Where the three methods converge, the answer is robust. Where they diverge, the parameter pulling them apart names the real argument.
+
+**Tech Appendix definition (~310 words, formal + lineage):**
+> Three-method estimation methodology for Residual Commons Value producing a defensible range rather than a single point estimate. Each method has independent epistemological grounding; convergence reduces uncertainty; divergence reveals which parameters are doing the load-bearing work in any particular case.
+>
+> **Method 1 — Replacement Cost (lower bound):** RCV_min per unit ≥ replacement cost from nearest substitute − market price at extraction. Lineage: Costanza et al. 1997 ecosystem-services valuation + standard regulatory cost-benefit analysis + eminent-domain takings law. Boundary check: low for substitutable resources (e.g., common construction sand); severe for irreplaceable resources (e.g., helium for cryogenic applications). Correct directional differentiation across the substitutability spectrum.
+>
+> **Method 2 — Revealed Preference (middle-anchor within triangulation):** Norway sovereign-fund-captured value ÷ total barrels extracted = per-barrel captured value; gap between this and true cost = empirical measure of uncaptured RCV. Sidesteps the discount-rate debate (empirical not philosophical). Per Open Insight #14 epistemic-humility ratification: Norway did not fully capture RCV either (climate damages externalized; future-uses option-value uncaptured). Method 2 functions as Norway-anchored middle within the triangulation; not absolute middle of true RCV.
+>
+> **Method 3 — Scarcity-Adjusted Option Value (upper bound):** Real-options-theory foundation per Dixit & Pindyck 1994. Prices the option value of leaving the resource in situ given uncertainty about future substitutability + future demand + future applications not yet invented. Requires parameter calibration that ranges across two orders of magnitude in plausible values; Method 3's α-dominance finding (Block 4 sensitivity analysis) demonstrates that asymmetric-regret structure is the dominant pattern for Earth-bound civilization-scale extractions.
+>
+> Reporting discipline: every RCV estimate reports all three methods individually plus the convergence range plus identified divergence sources. No single-method RCV claim has standing in the framework's accounting. The triangulation operationalizes the framework's commitment to expressing uncertainty in a form that supports decisions rather than hiding it behind a headline number.
+
 **Term-spec version:** v1.0.
 
 **Last reviewed:** 2026-04-24
