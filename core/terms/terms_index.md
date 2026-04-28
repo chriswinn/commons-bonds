@@ -446,6 +446,28 @@ One side of the flagship equation CS = RCV − B, where CS is cost severance and
 
 **Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn, Ring-1 synthesis batch).
 
+**Glossary definition (~75 words, reader-register):**
+> The framework's central quantification — the true intergenerational cost of an extraction that remains unpriced by markets, accountability bonds, and standard externality instruments combined. **Residual Commons Value** is what's *left over* when you account for everything ordinary accounting captures and ask: what did this extraction actually cost the future, the community, the ecosystem? It pairs with the accountability bond in the framework's primitive equation: Cost Severance = Residual Commons Value − Bond posting.
+
+**Tech Appendix definition (~310 words, formal + lineage):**
+> The framework's central quantification: the true intergenerational cost of extraction that remains unpriced by conventional accounting (market prices + accountability bonds + existing externality instruments combined). RCV pairs with the Accountability Bond (B) in the framework's primitive equation:
+>
+> **CS(R, t₀) = RCV(R, t₀) − B(R, t₀)**
+>
+> where CS is per-unit Cost Severance for resource R at time t₀.
+>
+> RCV's formal expression — the integrand-and-integral form that admits new cost components per the Four Gates discipline:
+>
+> **RCV(R, t₀, Context) = ∫ₜ₀^∞ { Σᵢ Cᵢ(R, t, Context) } · D(t, t₀) dt**
+>
+> The integrand sums all admitted cost components Cᵢ (each filtered through the Commons Inversion Test, Units Consistency, Boundedness, and Independence gates), weighted by the social discount factor D(t, t₀). The integral runs from extraction time t₀ to infinite horizon — the framework prices what extraction severs from every future generation, not only present-value-discounted near-term harms.
+>
+> Triangulated estimation per Three Ways of Counting: each RCV calculation reports three independent methodological estimates (Replacement Cost / Revealed Preference / Scarcity-Adjusted Option Value) with explicit convergence range; no single-method RCV claim has standing in the framework's accounting.
+>
+> Semantic work per word: *Residual* — what remains unpriced after conventional accounting captures what it can; *Commons* — the shared pools bearing the cost (communities, ecosystems, future generations); *Value* — dollar-denominated quantity. Each word load-bearing per the RCV rigor pass §3.1; removing any creates ambiguity or unmoors the term.
+>
+> Framework's most-used term (~729 occurrences across framework docs). Most durable citation infrastructure.
+
 **Term-spec version:** v1.0 (first sanctioned spec after rigor-pass verification).
 
 **Last reviewed:** 2026-04-24
