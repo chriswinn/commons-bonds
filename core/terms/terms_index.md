@@ -1423,6 +1423,20 @@ The equation's statement "CS = RCV − B" is **framework-level prescription** (i
 
 **Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn).
 
+**Glossary definition (~75 words, reader-register):**
+> The ratio of true intergenerational cost (RCV) to market price. *IPG = 33* means today's price covers about 3% of the cost being passed forward. A market-pricing-gap diagnostic — distinct from Cost Severance, which measures what accountability instruments fail to cover. IPG > 1 is architectural for extraction; the empirical question is the magnitude. McDowell's IPG ≈ 33 is the book's canonical compression — readers remember a single number.
+
+**Tech Appendix definition (~330 words, formal + lineage):**
+> **IPG = RCV(R, t₀) / market_price(R, t₀)** — the dimensionless ratio of the framework's Residual Commons Value (true intergenerational cost) to the empirically observed market price at the transaction. Definitionally: IPG quantifies the factor by which markets underprice extraction at the point of transaction. *IPG = 33* (McDowell coal calibration) means the market price covers approximately 3% of the true intergenerational cost.
+>
+> **Distinguished from Cost Severance.** CS = RCV − B uses the framework's accountability primitive (B = Restitution Bond + Foreclosure Bond) — measures what accountability instruments fail to cover. IPG uses market price (external empirical reference) — measures what markets fail to price at transaction. The two diagnostics can diverge: Norway has small CS (sovereign-wealth-fund B ≈ RCV) but potentially large IPG (oil market price below true intergenerational cost AT transaction). Complementary, not redundant.
+>
+> **Architectural status.** IPG > 1 is partly architectural: RCV by construction includes intergenerational costs markets don't price, so IPG > 1 follows from the framework's primitive definitions. Empirical work calibrates the *magnitude* — not the direction. Ch 6 framing presents IPG > 1 as architecture + magnitude calibration, not as open empirical finding (per M12 honesty: overclaiming architectural facts as empirical discoveries would erode rigor integrity).
+>
+> **External-composite lineage.** IPG is the framework's canonical example of *external-composite* terms earning named status — a framework primitive (RCV) composed with an external empirical reference (market price). Per parsimony discipline ratified 2026-04-24, internal derivations (S_max, S(t)−S(t−1)) are NOT named; external-composites earn named status when load-bearing.
+>
+> **M12 lineage.** Ramsey 1928 (foundational intergenerational-discount framework, *Economic Journal*); Stern 2007 (*The Economics of Climate Change*); Nordhaus DICE model (multi-decade development, *American Economic Review* and successor venues); declining-discount-rate literature (Weitzman, Gollier, Portney-Weyant) for Tech Appendix depth. Adjacent intergenerational-pricing literature addresses *"markets underprice intergenerational costs"* qualitatively; no established work uses this specific RCV-as-numerator ratio form. IPG is framework-specific independent specialization.
+
 **Term-spec version:** v1.0 (first sanctioned spec).
 
 **Last reviewed:** 2026-04-24
