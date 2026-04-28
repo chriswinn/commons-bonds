@@ -53,13 +53,23 @@ The conversation produced five distinct methodological refinements that this rig
 
 **Refinement 6 — REPLACE-WITH-PROSE verdicts include rewrite drafts.** Per-occurrence flagged occurrences carry both current prose + proposed rewrite + flag for author judgment; mechanical Phase 5 sweep applies pre-ratified rewrites.
 
-**Refinement 7 — Audience-perspective is the holistic decision-lens for Tier A/B/C/D choice.** (Author articulation 2026-04-28: *"let's ask the question about a holistic strategy to approach when to leverage terminology I create for the framework/book, when to replace with academic words, when to replace with prose from the perspective of what is the right answer for the intended audience the book is trying to reach as well as the additional audiences the book will need to reach based on subject matter, publisher, and literary agent."*) The Tier A→D ladder is NOT audience-agnostic. The verdict for any term depends on which audience it's trying to reach first + whether gatekeeper-tier audiences pass it. Sub-pass 2 reshapes accordingly.
+**Refinement 7 — Audience choice is a book-level decision (separate rigor pass), not per-term.** (Author clarification 2026-04-28: *"I didn't mean to say to test per term and per term usage based on the audience of each term and term usage. I meant based on the audience the entire book is trying to reach as well as the publisher, literary agent, and of course the academic people that the book has to stand up against."*) The audience choice is a property of the book, not a property of each term. Resolved by separate rigor pass `commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md` (RATIFIED 2026-04-28). This rigor pass inherits that ratified audience as fixed input — see §2.5 below.
 
-**Refinement 8 — Aggressive-scope suffix-convention coherence test.** (Author ratification 2026-04-28.) The framework's existing suffix convention (Cost / Gap / Bond / Rule / Test / Function endings) gets evaluated NOT just for "is the current filler adequate" but for "what's the best filler from the audience-tier perspective?" Each suffix slot is tested against 2-5 alternatives (e.g., Cᵢ as -Cost vs -Burden vs -Charge vs -Levy vs -Damage; B-side as -Bond vs -Account vs -Reserve vs -Fund vs -Trust). Per-slot ratified suffix gets captured in the scaffolding deliverable.
+**Refinement 8 — Aggressive-scope suffix-convention coherence test.** (Author ratification 2026-04-28.) The framework's existing suffix convention (Cost / Gap / Bond / Rule / Test / Function endings) gets evaluated NOT just for "is the current filler adequate" but for "what's the best filler from the inherited-audience perspective?" Each suffix slot is tested against 2-5 alternatives (e.g., Cᵢ as -Cost vs -Burden vs -Charge vs -Levy vs -Damage; B-side as -Bond vs -Account vs -Reserve vs -Fund vs -Trust). Per-slot ratified suffix gets captured in the scaffolding deliverable.
 
-**Refinement 9 — Joint deliverable: rigor pass + scaffolding document.** The rigor pass produces immediate per-term verdicts; the scaffolding document captures the standing audience-aware vocabulary discipline. Future framework vocabulary decisions inherit the discipline without re-running the rigor pass. Scaffolding document path: `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` (sits alongside `commons_bonds_working_principles_v1.0.0.md` as a parallel discipline-record).
+**Refinement 9 — Joint deliverable: rigor pass + scaffolding document.** The rigor pass produces immediate per-term verdicts; the scaffolding document captures the standing vocabulary discipline as standing input for future decisions (inheriting the ratified book-audience). Scaffolding document path: `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` (sits alongside `commons_bonds_working_principles_v1.0.0.md` as a parallel discipline-record).
 
-### §2.4 Out of scope
+### §2.4 Inherited fixed input — ratified book-level audience
+
+This rigor pass inherits the verdict of `commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md` (RATIFIED 2026-04-28 by Chris Winn) as fixed input:
+
+> **Option B (academic-trade hybrid) primary register + Option D (policy-practitioner) supplementary register in adoption-travel chapters (Ch 9 *Pricing Honestly* canonical; Ch 7 instrument-design sections; Ch 10 regulatory-architecture sections).**
+>
+> The B-register reader profile: non-economics-degree-but-engaged generalist (Mazzucato / Raworth / Sen / Anderson / Hickel reader). Approachable for non-economists; academic-defensible against economics-trained scrutiny. Realistic publisher landing: Princeton / Yale / Harvard / MIT / U-Chicago presses. The D-modulation reader profile (in adoption-travel chapters): policy-practitioner / regulatory-vocabulary-fluent reader; success-criterion is severed-cost migrating into legal/policy text.
+
+Every Tier A/B/C/D verdict, every suffix-convention verdict, every per-usage replaceability verdict in this rigor pass evaluates against this single inherited audience profile. Per-term audience juggling is out of scope (that was the wrong altitude per Refinement 7).
+
+### §2.5 Out of scope
 
 - **Scaffolding documents (Tier 3 per proposed retirement-traces rigor pass)** — `core/terms/terms_index.md`, `tools/rigor-passes/*.md`, `alignment/sessions/*.md`, archived prior versions. Per-usage parsimony doesn't apply to these.
 - **Existing-term renames triggered by audience-aware verdicts** flow into per-term focused rigor passes downstream (per the standard project workflow); not in-scope for this rigor pass to draft individual-term-rename rigor passes for the (potentially many) terms that surface as RECONSIDER candidates.
@@ -87,19 +97,19 @@ The rigor pass applies five sub-passes in sequence. Sub-pass output feeds the ne
 
 ### §3.2 Sub-pass 2 — Existing-vocabulary-fit per term (Tier A→D ladder)
 
-**Purpose:** Determine for each term whether existing vocabulary suffices, and at what tier.
+**Purpose:** Determine for each term whether existing vocabulary suffices, and at what tier — evaluated against the inherited ratified audience (§2.4).
 
 **Procedure (per term):**
-1. **Tier A check** — does an established academic-literature term capture the framework's intended meaning *exactly*? If yes → adopt verbatim with citation; no coinage.
-2. **Tier B check** — if Tier A fails, is there an academic-literature term that's close-but-not-identical, where the framework specializes one or two axes? If yes → adopt with explicit specialization footnote.
-3. **Tier C check** — if Tier B fails, would descriptive prose adjective+noun suffice in chapter usage? If yes → no proper-noun framework term; track in terms_index as "preserved compositional phrase" if recurring.
-4. **Tier D check** — if Tiers A+B+C all fail, the framework needs to make a distinction no existing vocabulary supports. Coinage justified — proceed to sub-pass 3.
+1. **Tier A check** — does an established academic-literature term capture the framework's intended meaning *exactly*, AND land cleanly with the B-register reader (Mazzucato/Raworth/Sen profile) without specialist gloss? If yes → adopt verbatim with citation; no coinage.
+2. **Tier B check** — if Tier A fails, is there an academic-literature term that's close-but-not-identical, where the framework specializes one or two axes, AND the specialization is decodable to a B-register reader with light footnote? If yes → adopt with explicit specialization footnote.
+3. **Tier C check** — if Tier B fails, would descriptive prose adjective+noun (existing English vocabulary) suffice in B-register chapter usage? If yes → no proper-noun framework term; track in terms_index as "preserved compositional phrase" if recurring.
+4. **Tier D check** — if Tiers A+B+C all fail, the framework needs to make a distinction no existing vocabulary supports for the B-register reader. Coinage justified — proceed to sub-pass 3.
 
-**Decision rule:** Default to lowest tier (A → B → C → D) that adequately captures intended meaning. Coinage is the last resort.
+**Decision rule (under inherited B+D audience):** Default to lowest tier (A → B → C → D) that adequately serves the B-register reader. Coinage (Tier D) is the last resort. For terms in D-modulation chapters where the success-criterion is legal/policy adoption-travel, the Tier verdict additionally tests whether the chosen tier supports regulatory-text migration; failure on that test pushes the verdict to Tier D-with-D-register-specialization (e.g., severed cost as Tier D specifically engineered for legal/policy adoption).
 
-**Strict-fit threshold for Tier A** (ratified default): existing term must capture *every* axis the framework cares about per sub-pass 1 ratified axis list. Framework specialization on minor axes pushes the verdict to Tier B with formal footnote.
+**Strict-fit threshold for Tier A** (ratified default): existing term must capture *every* axis the framework cares about per sub-pass 1 ratified axis list **AND** require no specialist gloss for the B-register reader. Framework specialization on minor axes — OR specialist-gloss requirement — pushes the verdict to Tier B with formal footnote.
 
-**Output:** Per-term Tier verdict (A / B / C / D).
+**Output:** Per-term Tier verdict (A / B / C / D), with audience-rationale per verdict.
 
 ### §3.3 Sub-pass 3 — Mathematical-role audit
 
