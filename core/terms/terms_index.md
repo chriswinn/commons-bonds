@@ -929,6 +929,24 @@ These are **two different framework elements.** The earlier retirement audited t
 
 **Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn).
 
+**Glossary definition (~80 words, reader-register):**
+> A probability that says, for any future time, whether an adequate substitute for the resource being extracted will exist. **Substitutability Function S** answers the question every foreclosure calculation needs: how likely is it that the people of 2200 will have a non-petroleum way to do what petroleum currently does? When S = 1, foreclosure cost vanishes (a perfect substitute exists). When S = 0, foreclosure cost is the full intergenerational claim. Most cases sit between, and the function tracks where.
+
+**Tech Appendix definition (~280 words, formal + lineage):**
+> Probability function S(t | t₀): the probability that a functionally adequate substitute for resource R exists at future time t, conditional on baseline technological state at t₀. Appears in the foreclosure-cost term within RCV's integrand:
+>
+> **C₁(R, t, Q(t)) = [1 − S(t | t₀)] · U(R, t, Q(t))**
+>
+> where U is stock-dependent utility. The factor [1 − S(t | t₀)] weights the foreclosure contribution at each future time by the probability that no substitute exists then. Under perfect substitutability (S = 1), the foreclosure contribution vanishes. Under no substitutability (S = 0), the full per-period utility loss enters the integrand.
+>
+> The framework's most novel single mathematical component per Meta-pass §10.2 — distinguishes from Hicks 1932 elasticity of substitution (single-period; no time-indexed probability) and from Dixit-Pindyck 1994 real options (option-value framing without baseline-conditional probability structure).
+>
+> Endogenous to extraction timing: earlier extraction can reduce innovation pressure on substitute development, lowering S(t) for future t. The function therefore carries an extraction-timing feedback loop the framework prices but standard externality analysis does not.
+>
+> M12 lineage: Hicks 1932 *The Theory of Wages* (foundational elasticity-of-substitution lineage); Dixit & Pindyck 1994 *Investment under Uncertainty* (closest established real-options framing). Framework's specialization adds time-indexed probability + baseline-conditional structure + extraction-timing endogeneity.
+>
+> Mathematical function (not adoption-target vocabulary). Framework-internal load-bearing component; readers encounter S to understand C₁; the named adoption-target vocabulary is RCV / Cost Severance / Severed Cost.
+
 **Term-spec version:** v1.0 (first sanctioned spec).
 
 **Last reviewed:** 2026-04-24
