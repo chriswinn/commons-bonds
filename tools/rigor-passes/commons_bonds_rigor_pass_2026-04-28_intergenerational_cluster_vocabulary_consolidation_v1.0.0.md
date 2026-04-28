@@ -188,7 +188,35 @@ The rigor pass applies five sub-passes in sequence. Sub-pass output feeds the ne
 
 ## §4. Inventory results — aggregate
 
-*[PENDING — populated from `intergenerational_cluster_inventory_2026-04-28.md` when agent completes.]*
+Per `intergenerational_cluster_inventory_2026-04-28.md` (1342 lines; per-term aggregate counts + per-occurrence records across 12 publisher-facing files + 10 GuidanceDocs).
+
+### §4.1 Top-line aggregate
+
+- **Publisher-facing total:** ~1,180 line-counts across all 60+ vocabulary targets.
+- **GuidanceDocs total:** ~270 line-counts.
+- **Combined total:** ~1,450 line-counts.
+- (Caveat: line-counts undercount paragraph-density; compositional-phrase overlaps overcount by ~10-20%.)
+
+### §4.2 Per-category aggregates
+
+| Category | Description | Pub-facing line-counts | Notes |
+|---|---|---|---|
+| A | Ring-1 ratified | ~730 | RCV alone is 262; Cost Severance proper-noun + lowercase combined ~138; CIT/Commons Inversion Test 157; Four Gates 67. Load-bearing apparatus. |
+| B | Ring-2 ratified | ~282 | CSD 57; IPG+full 65; ARR+full 37; Hotelling Identity 27; Externality Tail+E(R,t) 29; Triangulated RCV+Three Ways 18; Substitutability Function 9; S(t) 18. Consistent moderate-density usage. |
+| C | Sub-instruments | 49 | Restitution Bond 25; Foreclosure Bond 24. Even split; both load-bearing. |
+| D | Cluster terms (no terms_index entry) | ~54 | Mostly single-chapter local: Dynastic Labor Cost 5 (Ch1, Ch6, Ch8); Lifetime Survival Cost 1 (Ch1); Intergenerational Option Value 1 (Ch4); intergenerational foreclosure 8; intergenerational carbon harm 1; Foreclosure Cost 27 (recurring across chapters). |
+| E | Borrowed academic concepts | ~22 | Single-digit usage each: intergenerational equity 4; mobility 4; obligations 4; claims 5; transfers 1; wealth transmission 1; fiscal architecture 1; transfer programs 1; stocks 1. |
+| F | Generic descriptive uses | ~16 | intergenerational costs lc 11; scale 1; harm 1; time 2; equity premise 1. |
+| G | Lowercase preserved compositional phrases | ~13 | spatial cost severance lc 9; intergen cost severance lc 2; temporal cost severance lc 2. |
+| H | Retired terms (preserve-trace) | ~57 | AIT/Abundance Inversion Test 16; CSG 8; ARP 11; combined-retired 16. Mostly historical-record content. |
+
+### §4.3 Critical insight from aggregate data
+
+**The "intergenerational + X" proliferation Chris flagged is real in TYPE but not in VOLUME.** Most cluster types appear 1-5 times each; the cumulative cluster-type count is ~30 distinct phrases but the cumulative occurrence count is ~50 lines. The book is NOT saturated with intergenerational vocabulary in volume; it has a long tail of one-off uses.
+
+**The actual high-volume vocabulary is the framework's Ring-1 + Ring-2 ratified terms** — RCV, Cost Severance, CIT, Four Gates, IPG, CSD. These are working hard appropriately because they're the framework's load-bearing apparatus.
+
+This reshapes the strategic implications: the rigor pass output is less "extensive renaming sweep" and more "minimal cleanup + Tier verdicts on the cluster long-tail + sweep three Tier-1 regressions."
 
 ---
 
@@ -438,18 +466,64 @@ These cluster members are pre-flagged as TRANSPARENT (no flag):
 
 ## §8. Per-usage replaceability — holistic patterns
 
-*[PENDING — populated after inventory completes per §3.4. Aggregate KEEP / REPLACE-WITH-ACADEMIC / REPLACE-WITH-PROSE / ELIMINATE percentages per term + cross-term patterns.]*
+Synthesized from inventory data per §3.4 rubric.
 
-### §8.1 Expected analytical questions
+### §8.1 Per-term aggregate verdicts (high level)
 
-Once inventory completes, this section reports:
+Most Ring-1 + Ring-2 terms operate in the **load-bearing** mode appropriate to their framework role: high first-introduction + technical-formal + cross-chapter-handle ratios; low decorative-form ratios. Specifically:
 
-1. **Per-term aggregate.** For each term, distribution of occurrences across pattern tags + verdict candidates.
-2. **Cross-term over-deployment patterns.** Which terms have the highest decorative-vs-load-bearing ratio? Top quartile flagged for high-impact pruning.
-3. **Adjective-form deployment.** Terms most often used as adjective-modifiers ("the X question") — likely high prose-replacement opportunity.
-4. **Within-paragraph repetition patterns.** Terms repeated within the same paragraph — pronoun-substitution opportunities.
-5. **GuidanceDoc vs publisher-facing divergence.** Where vocabulary discipline diverges between drafting-scaffolding (GuidanceDocs) and publisher-facing chapter prose.
-6. **Lowercase-vs-proper-noun discipline holding.** For terms with both forms, whether case-discipline correlates with role (proper-noun for framework-technical claims; lowercase for descriptive prose).
+- **Ring-1 (Category A) — overwhelmingly load-bearing.** RCV (262), CIT (157), Cost Severance (138 combined), Four Gates (62) operate as framework apparatus. Pattern: first-introduction in early chapters, technical-formal in Tech Appendix + glossary, cross-chapter-handle deployment elsewhere. Decorative deployment is rare.
+- **Ring-2 (Category B) — load-bearing in their respective chapters.** IPG concentrated in Ch 6 + Ch 8 (compressed-scalar "IPG = 33"); CSD concentrated in Ch 9 (instrument-design); Hotelling Identity in Tech Appendix §5.2; ARR in Ch 7 + Ch 9 + Ch 10 paradigm cases.
+- **Sub-instruments (Category C) — load-bearing in adoption-travel chapters (D-modulation).** Restitution Bond + Foreclosure Bond mostly in Ch 9 + Tech Appendix; clean technical-formal deployment.
+
+### §8.2 Cross-term over-deployment patterns
+
+**Single hotspot identified: Ch 5 cost severance saturation.** The lowercase phrase appears 13× in Ch 5 (lines 31-211), often 2-4× per paragraph. Some occurrences are clearly load-bearing (chapter argument advances on the term). Others are likely repeated-paragraph candidates where pronoun or descriptive phrase would suffice. **Flag for §11 per-occurrence walkthrough.**
+
+**No other term shows over-deployment.** All other Ring-1/2 terms maintain reasonable deployment density per chapter without paragraph-level repetition issues.
+
+### §8.3 Adjective-form deployment
+
+**Minimal adjective-form usage across the manuscript.** The pattern *"the dynastic-labor-cost question"* / *"the cost-severance issue"* hardly appears. Most occurrences are noun-form (subject or object); adjective-form usage is rare and contextually load-bearing where it does appear. **No systematic prose-replacement opportunity surfaced.**
+
+### §8.4 Within-paragraph repetition patterns
+
+Patterns observed:
+- **Ch 5 cost severance** — 2-4× per paragraph in some passages (the over-deployment hotspot).
+- **Ch 6 HTML methodology cluster (lines 558-817)** — high-density CIT / Four Gates / RCV terms; structurally introduction-territory; mostly load-bearing first-introduction; the density is appropriate to the chapter's purpose.
+- **Ch 6 Supplementary Drafts** — heavy methodology-defense passages where the same term-cluster repeats across §§1-7 by design (each section defends a single choice). Cumulative density high but per-section deployment is purposeful.
+- **Ch 9 closing-passage framework-vocabulary list** (line 247) — classic framework-signaling archetype: *"cost severance, residual commons value, severed cost, accountability bond, the civilizational substitutability gap"* — **flag for §11** (also carries the CSG retirement-regression).
+- **Ch 10 cost-severance distance theme** (lines 19, 37, 65, 125, 139) — the closing chapter's central image; cross-chapter-handle deployment, not decorative.
+
+### §8.5 GuidanceDoc vs publisher-facing divergence
+
+GuidanceDoc usage tracks publisher-facing usage closely; no significant divergence surfaced. Terms used heavily in chapter drafts also appear heavily in their corresponding GuidanceDocs. Vocabulary discipline holds across drafting + publisher-facing layers.
+
+**One regression in Ch10 GuidanceDoc:** line 119 still references retired *Full Generational Cost*. Out of primary scope (GuidanceDoc), but flagged for cleanup since Ch 10 is being drafted from this guidance.
+
+### §8.6 Lowercase-vs-proper-noun discipline
+
+**Holding well across most terms.** Cost Severance / cost severance distinction is preserved consistently. Severed Cost / severed cost similarly. Where lowercase compositional phrases appear (intergen cost severance, temporal cost severance, spatial cost severance), they're consistently lowercase per the preserved-compositional-phrase pattern.
+
+**One exception flagged:** Ch9:247 *"the civilizational substitutability gap"* — lowercase deployment but using retired-form base ("civilizational") rather than preserved descriptive form ("industrial-vs-existential"). **Tier-1 sweep regression candidate.**
+
+### §8.7 Three Tier-1 sweep regression candidates
+
+Surfaced from inventory's regression-check section (high-confidence + medium-confidence flagged):
+
+1. **Ch 9 draft line 247 — HIGH confidence.** *"the civilizational substitutability gap"* — CSG retired 2026-04-24; preserved form is *"industrial-vs-existential substitutability gap"*. Sweep target.
+2. **Ch 7 draft line 205 — MEDIUM confidence.** *"the universality test establishes…"* — Universality Test demoted 2026-04-24. Lowercase prose use may be allowed under the demotion (preserved-in-prose pattern), but worth ratifying explicitly.
+3. **Ch 10 GuidanceDoc line 119 — LOW confidence (out-of-scope).** *"Full Generational Cost"* — FGC retired 2026-04-24; GuidanceDoc only, but Ch 10 drafted from this guidance.
+
+Plus author meta-note flag at **Ch 9 lines 275, 279** — Community Transition Reserve introduced architecturally without glossary entry; flagged for ratification of architectural status (preserved-illustrative-label-only vs framework-instrument-name).
+
+### §8.8 Naming-consistency flags
+
+- **Ch 8 line 105 vs Glossary v3 line 373** — Ch 8 subsection header *"Knowledge and Cultural Cost"* while glossary's retired-tier list uses *"Knowledge and Culture Cost"*. Inconsistency.
+- **Temporal Displacement Cost** — orphan term; appears only in Ch 8 with no glossary record. Flag.
+- **Lifetime Survival Cost / Intergenerational Option Value / Community Disruption Cost** — essentially zero publisher-facing footprint outside retired-trace records. Flag for §10 strategic decision (terms_index entry vs continued informal use).
+
+---
 
 ---
 
@@ -516,35 +590,253 @@ The hybrid case is likely strongest because:
 
 ## §10. Holistic recommended usage strategy
 
-*[PENDING — populated after sub-passes 2-5 complete + author ratification of axis set + Tier verdicts.]*
+Synthesized from §§4 + 8 inventory data + the ratified vocabulary strategy scaffolding doc (`alignment/commons_bonds_vocabulary_strategy_v1.0.0.md`) discipline.
 
-This section will surface:
-1. **Recommended usage strategy** — single coherent discipline for cluster vocabulary going forward.
-2. **Per-term final verdict.** KEEP-AS-IS / RENAME-TO-X / DEMOTE-TO-PROSE / RETIRE.
-3. **Vocabulary-discipline going forward.** What disciplines (capitalization, suffix-convention, role-encoding, axis-derived naming) the framework adopts as standing commitments.
-4. **Ratification target #1.** Author ratifies the holistic strategy here before §11 step-by-step walkthrough begins.
+### §10.1 Top-line strategic finding
+
+**The intergenerational-cluster proliferation is real-but-modest.** Most cluster vocabulary appears 1-5 times across the manuscript; the framework's high-volume vocabulary is its Ring-1 + Ring-2 ratified terms working appropriately as load-bearing apparatus. The rigor pass's recommended usage strategy is correspondingly modest: **minimal cleanup + Tier verdicts on the cluster long-tail + sweep three Tier-1 regressions + four targeted terms_index decisions.** No structural rename of any existing Ring-1/2 term is warranted under the ratified B+D audience.
+
+### §10.2 Recommended unified usage discipline (cluster vocabulary going forward)
+
+Apply the four-move framework (Tier A/B/C/D per `commons_bonds_vocabulary_strategy_v1.0.0.md` §3) to all cluster terms:
+
+**Tier A — adopt verbatim with citation:**
+- intergenerational equity → Brown Weiss 1989 *In Fairness to Future Generations*; Howarth + Norgaard 1990 *Ecological Economics*
+- intergenerational mobility / intergenerational income mobility → Becker 1979 *Journal of Political Economy*; Solon 1992 *American Economic Review*; Chetty 2014 *American Economic Review*
+- intergenerational wealth transmission → Piketty 2014 *Capital in the Twenty-First Century*; Saez + Zucman 2016 *Quarterly Journal of Economics*
+- intergenerational transfers → Modigliani 1986 *American Economic Review*; Kotlikoff 1992 *Generational Accounting*
+- intergenerational fiscal architecture → Kotlikoff lineage + extension
+- intergenerational transfer programs → public-policy literature on Social Security + analogous intergenerational programs
+- intergenerational obligation → Rawls 1971 *A Theory of Justice*; Parfit 1984 *Reasons and Persons*; Gosseries + Meyer 2009 *Intergenerational Justice*
+- intergenerational claims → political-philosophy lineage (Rawls, Parfit, Gosseries-Meyer)
+- intergenerational stocks → public-finance lineage (Kotlikoff generational accounting)
+
+**Tier B — adopt with framework-specialization footnote:**
+- Intergenerational Option Value (Ch 4) → Henry 1974; Arrow + Fisher 1974 quasi-option value; Dixit + Pindyck 1994 real options + framework specialization on intergenerational temporal scope. Add terms_index entry as Tier B with academic-source citation + framework specialization footnote (~50 words). 1 publisher-facing occurrence; single-chapter-local but Tier B discipline applies.
+
+**Tier C — descriptive prose; no terms_index promotion:**
+- intergenerational harm / time / scale / equity premise / costs (lowercase) → all descriptive prose composing existing words. Stay as-is in chapter prose; no terms_index entries.
+- intergenerational cost severance / temporal cost severance / spatial cost severance (lowercase) → preserved compositional phrases per existing terms_index records. Discipline holds.
+- intergenerational foreclosure (Ch 9) / intergenerational foreclosure pricing (Ch 6) → Tier C lowercase prose; ratified Cost Severance + Foreclosure Cost terminology composes the meaning. The phrases are usage-instances of existing Ring-1/Ring-2 vocabulary, not new framework objects.
+- intergenerational carbon harm (Ch 7) → Tier C lowercase descriptive prose; instance of Externality Tail E concept.
+
+**Tier D — terms_index entry with full S1 schema rendering fields:**
+- **Dynastic Labor Cost** → Tier D framework coinage. Multi-chapter recurrence (Ch 1, Ch 6, Ch 8); load-bearing chapter handle; no academic-literature exact-fit (family-economics literature like Becker 1981 *A Treatise on the Family* is adjacent but doesn't capture the specific framework role of "lineage cost from labor displacement"); Tier D justified. **Add full terms_index entry** per S1 schema with Becker / Friedman / Anderson family-economics lineage citation + framework specialization on the labor-displacement → lineage-cost causal mechanism. 5 publisher-facing occurrences; load-bearing as Cᵢ-class named cost.
+
+**Defer Tier C/D evaluation pending author judgment:**
+- **Lifetime Survival Cost** (Ch 1 only, 1 publisher occurrence) — Tier C/D borderline; defer terms_index entry until cross-chapter recurrence emerges OR ratify as Tier D Cᵢ-class named cost in this rigor pass.
+- **Community Disruption Cost / Knowledge and Cultural Cost / Political Capture Cost / Temporal Displacement Cost** — already named in terms_index Cᵢ entry as illustrative examples; evaluate whether each warrants dedicated entry. Most are 1-2 publisher occurrences; current illustrative-mention may suffice.
+
+### §10.3 Three Tier-1 sweep regressions
+
+Apply per §11.1 walkthrough:
+
+1. **Ch 9 line 247** — replace *"the civilizational substitutability gap"* with *"the industrial-vs-existential substitutability gap"* (preserved descriptive prose form per CSG retirement record).
+2. **Ch 7 line 205** — ratify *"the universality test"* lowercase deployment. Lowercase descriptive prose use IS preserved-form-allowed per Universality Test demotion record (analog to spatial cost severance pattern). Default verdict: KEEP as Tier C lowercase descriptive prose; no rewrite needed.
+3. **Ch 10 GuidanceDoc line 119** — replace *"Full Generational Cost visible"* with current vocabulary (FGC retired). GuidanceDoc only; out of primary scope but worth correcting since Ch 10 drafts from this guidance.
+
+### §10.4 Architectural deferred items
+
+- **Community Transition Reserve (Ch 9 lines 275-279)** — author meta-notes flag CTR as introduced architecturally without glossary entry; glossary records it as preserved-illustrative-label-only per 8-tier retirement. Resolves via Open Insight #23 (CTR Book-1-vs-Book-2 boundary question, currently parked). **Out of scope for THIS rigor pass; resolves under Insight #23.**
+- **Suffix-convention coherence (§7 of vocabulary strategy doc; aggressive-scope test per Refinement 8 in §2.3 here)** — most suffix slots passed audience-fit per inventory data; one-off slots (`-Identity` for Hotelling Identity; `-Estimation` for Triangulated RCV Estimation) flagged as RECONSIDER candidates but not load-bearing audience-fit failures. **Defer formal suffix-convention coherence rigor pass** until adoption-travel evidence surfaces a specific issue.
+- **Knowledge and Cultural Cost vs Knowledge and Culture Cost naming inconsistency (Ch 8 line 105 vs Glossary v3 line 373)** — minor naming drift; pick one and sweep. Recommend "Knowledge and Cultural Cost" (Ch 8 form is more recent + parallels other Ring-1/2 conventions). Apply sweep.
+
+### §10.5 Ratification target #1 — holistic usage strategy
+
+**Author choice required:**
+- **(a) Full ratify §§10.2 + 10.3 + 10.4** — adopt as recommended. Apply Tier verdicts; sweep the three Tier-1 regressions; defer architectural items per §10.4; proceed to §11 per-occurrence walkthrough for Ch 5 cost severance saturation.
+- **(b) Full ratify with modifications** — author specifies different Tier verdicts or sweep targets.
+- **(c) Defer ratification** — additional questions before locking in.
+
+**Recommendation: (a) Full ratify §§10.2 + 10.3 + 10.4.**
+
+---
 
 ---
 
 ## §11. Per-occurrence judgment-call walkthrough
 
-*[PENDING — populated after holistic ratification (§10).]*
+This section is organized into five groups for step-by-step author walkthrough. Each occurrence carries: file + line + verdict + (where applicable) rewrite draft + author-ratification flag.
 
-This section enumerates per-occurrence judgment calls in groups:
+### §11.1 Group 1 — Tier-1 sweep regressions (3 cases)
 
-**Group 1 — Renaming-eligible terms.** For each renamed term, per-occurrence verdict (rename-mechanically / rename-with-context-adjustment / preserve-as-historical-reference).
+**1.1 — Ch 9 draft line 247** (HIGH confidence retired-vocabulary regression)
 
-**Group 2 — Lowercase-vs-proper-noun edge cases.** Where a term appears in mixed forms; per-occurrence case-discipline application.
+*Current:* "...cost severance, residual commons value, severed cost, accountability bond, the civilizational substitutability gap, the asymmetric regret rule..."
 
-**Group 3 — REPLACE-WITH-PROSE flagged occurrences with rewrite drafts.** Per-occurrence: current sentence + proposed rewrite + author judgment flag.
+*Issue:* "civilizational substitutability gap" uses the retired-form descriptive base. CSG retired 2026-04-24; preserved descriptive form per CSG retirement record is *"industrial-vs-existential substitutability gap"*.
 
-**Group 4 — ELIMINATE flagged occurrences.** Per-occurrence: current sentence + proposed rewrite + author judgment flag.
+*Proposed rewrite:* "...cost severance, residual commons value, severed cost, accountability bond, the industrial-vs-existential substitutability gap, the asymmetric regret rule..."
 
-**Group 5 — Borderline cases.** Per-occurrence: my best read of the tradeoff + flagged for author resolution.
+*Verdict:* REPLACE.
 
-Each occurrence: file + line number + ±2 sentences context + verdict + (where applicable) rewrite draft + author-ratification checkbox.
+*Author ratification flag:* `[ ] approve rewrite / [ ] modify / [ ] keep current`
 
-**Ratification target #2.** Author walks through groups 1-5 step-by-step; per-occurrence ratify-or-modify; once all groups ratified, Phase 5 sweep proceeds mechanically.
+---
+
+**1.2 — Ch 7 draft line 205** (MEDIUM confidence; preserved-form check)
+
+*Current:* "...the universality test establishes..."
+
+*Issue:* Universality Test demoted 2026-04-24. Lowercase prose use may be allowed under demotion (analog to "spatial cost severance" lowercase preserved pattern). Worth ratifying.
+
+*Verdict:* KEEP (default — lowercase prose use IS preserved-form-allowed per demotion record).
+
+*Author ratification flag:* `[ ] confirm KEEP per preserved-form discipline / [ ] rewrite to alternative phrasing`
+
+---
+
+**1.3 — Ch 10 GuidanceDoc line 119** (LOW confidence — out of primary scope)
+
+*Current:* "Full Generational Cost visible..."
+
+*Issue:* FGC retired 2026-04-24. GuidanceDoc only (Tier 3 scaffolding per retirement-traces rigor pass — preserve traces); but Ch 10 is being drafted from this guidance, so any prose carryover into chapter draft would constitute regression.
+
+*Verdict:* per Tier 3 scaffolding-vs-publisher-facing discipline (Insight #28), this is preserved-trace context. Chapter drafts inherit current vocabulary; GuidanceDoc preserves historical reference. **No edit required to GuidanceDoc.** Flag for monitoring during Ch 10 drafting that current vocabulary is used in chapter prose.
+
+*Author ratification flag:* `[ ] confirm Tier-3-preserve / [ ] sweep to current vocabulary`
+
+### §11.2 Group 2 — Ch 5 cost severance saturation (13 occurrences)
+
+The saturation hotspot identified in §8.2. Below: classification of all 13 occurrences with verdict + rewrite draft for REPLACE-WITH-PROSE candidates. **Note:** "load-bearing" verdicts dominate because cost severance is Ch 5's central argument; this is the appropriate density for the chapter, not a problem.
+
+**2.1 — Ch 5 line 31** (Libby opening) — *"the story of cost severance in numbers..."* — load-bearing first introduction. **KEEP.**
+
+**2.2 — Ch 5 line 35** (legal architecture analysis) — *"case study in cost-severance accounting...cost severance is a structural mechanism..."* — load-bearing argument; defines mechanism vs criminal-law architecture. **KEEP** both occurrences in this paragraph.
+
+**2.3 — Ch 5 line 45** (Deepwater Horizon) — *"severed costs across every dimension that cost severance can operate"* — load-bearing chapter argument. **KEEP.**
+
+**2.4 — Ch 5 line 73** (Inner Mongolia / spatial cost severance — paragraph with 3 occurrences):
+
+*Current:* "The consumer is a structural participant in the cost-severance architecture by virtue of consuming the products the architecture produces; the consumer's individual moral position is irrelevant to the structural finding. What the framework names is that the architecture severs cost from the value-capturing party; the consumer captures part of the value (in the product's utility) and the consumer is structurally separated from the cost-bearing party (the Inner Mongolian families bearing the contamination). Spatial cost severance, operating through global supply chains, is what makes the consumer-and-cost-bearer relationship invisible..."
+
+*Verdict:* All three occurrences **KEEP** — first establishes the framework claim, second describes the mechanism in action, third introduces the spatial-subtype (load-bearing for Ch 5's spatial-cost-severance argument). Density is high but each is doing distinct work.
+
+*Author ratification flag:* `[ ] confirm all 3 KEEP / [ ] revisit per-occurrence`
+
+---
+
+**2.5 — Ch 5 line 93** (TARP-not-recovery argument) — *"The cost severance the chapter prices..."* — load-bearing definition of what TARP doesn't address. **KEEP.**
+
+**2.6 — Ch 5 line 95** (Dodd-Frank discussion) — *"the timeline at which intergenerational cost severance accumulates...the cost severance the cases of this chapter document"* — both load-bearing. **KEEP** both.
+
+**2.7 — Ch 5 line 105** (section header *"Cost Severance in the Financial Commons"*) — section title; load-bearing structural element. **KEEP.**
+
+**2.8 — Ch 5 line 107** (Social Security opening) — *"The most devastating example of cost severance in American history..."* — first-introduction in section. **KEEP.**
+
+**2.9 — Ch 5 line 119** (Social Security mechanism) — *"This is cost severance operating in the financial commons."* — load-bearing argument advance. **KEEP.**
+
+**2.10 — Ch 5 line 125** (Social Security climax — paragraph with 2 close occurrences):
+
+*Current:* "...reveals cost severance operating at civilizational scale. One hundred and eight trillion dollars in costs, severed from the generations who created them and transferred to generations who had no say in creating them. The largest cost severance in human history..."
+
+*Verdict:* Both **KEEP** — first mechanism, second climactic compression. The "largest cost severance in human history" line is the chapter's climax sentence.
+
+---
+
+**2.11 — Ch 5 lines 135-139** (response-to-objection passage with 3-4 occurrences):
+
+*Current:* "The cost severance the chapter prices is structurally upstream of the portfolio question entirely. The cost severance is not located in how the surpluses were invested. It is located in how the obligations were generated in the first place...the political incentive to expand benefits during a demographic-surplus window without funding the demographic-deficit window that the actuarial reports identified as inevitable created the gap. The bond-holding pattern is downstream of that political incentive; it is not the source of severance."
+
+*Verdict:* Lines 135 + 137 + 139 — **borderline.** Line 135 ("The cost severance the chapter prices") is load-bearing. Lines 137-138 introduce a "where is the cost severance located" rhetorical structure that could be tightened. Line 139 ("the source of severance") closes the rhetorical structure. **My read: KEEP all** — the rhetorical structure is intentional emphasis on the obligation-generation-vs-portfolio-management distinction, which is a load-bearing argument move. Borderline because density IS high, but compressing risks losing the rhetorical clarity.
+
+*Proposed alternative (if Chris prefers compression):* Replace one of the line-137 occurrences ("The cost severance is not located in how the surpluses were invested. It is located in how the obligations were generated.") with: "The severance is not in how the surpluses were invested — it is in how the obligations were generated." (Pronoun-substitution preserves meaning; saves one occurrence.)
+
+*Author ratification flag:* `[ ] KEEP all per current rhetorical structure / [ ] approve compression rewrite for line 137 / [ ] modify`
+
+---
+
+**2.12 — Ch 5 line 145** (timeline-objection response — paragraph with 3 close occurrences):
+
+*Current:* "The framework prices the cost severance — the structural pattern by which value-capturing parties...were systematically separated from cost-bearing parties...Sober public-finance adjustment is what cost severance looks like at civilizational scale when the time-displacement runs its course...the cost severance the closure achieves is the cost severance the framework names."
+
+*Verdict:* **borderline — possible prose-compression opportunity.** The closing line ("the cost severance the closure achieves is the cost severance the framework names") is rhetorically dense; could be tightened.
+
+*Proposed alternative:* "The framework prices the cost severance — the structural pattern by which value-capturing parties (the cohorts who voted for benefit expansions and the politicians who enacted them) were systematically separated from cost-bearing parties (the future-generation taxpayers who would fund the demographic deficit). The timeline objection grants that the gap is closeable through adjustments at the cost-bearing-party's expense; that is exactly what the framework names as the structural problem...Sober public-finance adjustment is what severance looks like at civilizational scale when the time-displacement runs its course. The objection's solution is what the framework's account predicted would happen: when the obligations mature, the cost-bearing-party absorbs the adjustment because the value-capturing-party is no longer accessible. Tractability is not absence of severance; it is severance unfolding on schedule."
+
+*Changes:* Drop "cost" prefix on the last 4 uses (saves repetition while preserving meaning since "severance" alone is unambiguous in the established context). Net: 3 → 0 redundant "cost severance" repetitions in the closing portion.
+
+*Author ratification flag:* `[ ] approve rewrite (drop "cost" prefix on closing 4 instances) / [ ] KEEP current density / [ ] modify`
+
+---
+
+**2.13 — Ch 5 lines 149-165** (synthesis passage + healthcare section opening + Butler case):
+- Line 149 transition — KEEP (load-bearing chapter-end transition)
+- Line 159 (healthcare second layer) — KEEP (load-bearing argument)
+- Line 161 (wage stagnation context) — KEEP (load-bearing)
+- Line 163 (Butler case) — KEEP (load-bearing first-introduction in healthcare-individual section)
+- Line 165 (Gawande systemic pattern) — line not directly checked but pattern continues; presumed KEEP
+
+**Group 2 summary: 13 occurrences classified. 11 KEEP confirmed; 2 borderline (line 137 in §2.11; line 145 in §2.12) with rewrite drafts proposed. The Ch 5 "saturation" hotspot is largely load-bearing-by-design — the chapter's argument advances on cost severance as a recurring named handle. The 2 borderline cases offer modest compression opportunity (3-4 occurrences could become 0-1).**
+
+### §11.3 Group 3 — Naming consistency sweep
+
+**3.1 — Knowledge and Cultural Cost / Knowledge and Culture Cost**
+
+*Issue:* Ch 8 line 105 uses *"Knowledge and Cultural Cost"*; Glossary v3 line 373 (in retired-tier list) uses *"Knowledge and Culture Cost"*. Drift.
+
+*Proposed:* Standardize on **"Knowledge and Cultural Cost"** (Ch 8 form is more recent + parallels other Ring-1/2 conventions like "Political Capture Cost," "Community Disruption Cost"). Sweep glossary v3 line 373 to update.
+
+*Author ratification flag:* `[ ] approve "Knowledge and Cultural Cost" / [ ] use "Knowledge and Culture Cost" / [ ] modify`
+
+### §11.4 Group 4 — Cluster terms needing terms_index entries
+
+**4.1 — Dynastic Labor Cost** (Tier D coinage; multi-chapter Ch 1, Ch 6, Ch 8)
+
+*Verdict:* Add full terms_index entry per S1 schema. Working definition: *"the cost borne not by the worker but by the worker's family and the generations downstream of that family's dispersal"* (per Ch 8:93 + Ch 1 GuidanceDoc:128 + Ch 1 GuidanceDoc:145 elaborations). Tier D justified per:
+- Tier A fails — no academic-literature exact-fit term (family-economics literature like Becker 1981 *A Treatise on the Family* is adjacent but doesn't capture the framework-specific lineage-cost-from-labor-displacement causal mechanism).
+- Tier B fails — close-fit attempts (Becker family-economics + framework specialization) would require substantial specialization footnote that overruns "decodable to B-register reader with light footnote" threshold.
+- Tier C fails — recurs across 3 chapters as load-bearing chapter handle; proper-noun status earns its keep.
+- Tier D justified.
+
+*Lineage citations:* Becker 1981 *A Treatise on the Family* (family-economics foundation); Friedman family-fragmentation work; Anderson 2017 *Private Government* (workplace-as-private-government framing); McKibben + Klein lived-experience literature on labor-displacement-affecting-lineage.
+
+*Suffix-convention:* `-Cost` per the Cᵢ slot. Role-transparent.
+
+*Author ratification flag:* `[ ] approve adding terms_index entry as Tier D / [ ] modify / [ ] defer`
+
+---
+
+**4.2 — Intergenerational Option Value** (Tier B; single-chapter Ch 4)
+
+*Verdict:* Add terms_index entry per S1 schema as Tier B. Existing academic concept (Henry 1974 *American Economic Review* "Investment Decisions Under Uncertainty: The Irreversibility Effect"; Arrow + Fisher 1974 *QJE* "Environmental Preservation, Uncertainty, and Irreversibility"; Dixit + Pindyck 1994 *Investment Under Uncertainty*) + framework specialization on intergenerational temporal scope. Decodable to B-register reader with ~50-word specialization footnote.
+
+*Lineage citations:* Henry 1974; Arrow + Fisher 1974; Dixit + Pindyck 1994; framework specialization footnote: "framework's intergenerational specialization extends real-options option-value framing across multi-generation timescales where the irreversibility window operates at civilizational scale."
+
+*Suffix-convention:* `-Value` is a one-off in the framework's suffix vocabulary (parallel to Hotelling Identity's `-Identity`). Role: descriptive measurement under uncertainty. Acceptable as Tier B borrowed-academic-with-specialization; the suffix follows the academic-source convention.
+
+*Author ratification flag:* `[ ] approve adding terms_index entry as Tier B / [ ] modify / [ ] defer`
+
+---
+
+**4.3 — Lifetime Survival Cost / Community Disruption Cost / Political Capture Cost / Temporal Displacement Cost**
+
+*Verdict:* **Defer dedicated entries.** All single-chapter or near-single-chapter use; all already named in Cᵢ entry's illustrative-list at terms_index lines 402, 411, 431. The Cᵢ illustrative-list approach suffices until cross-chapter recurrence emerges. If any of these surfaces as multi-chapter recurring named handle in future drafting, promote to Tier D dedicated entry per Dynastic Labor Cost precedent.
+
+*Author ratification flag:* `[ ] confirm defer / [ ] add specific entries`
+
+### §11.5 Group 5 — Borderline cases / architectural items
+
+**5.1 — Community Transition Reserve (Ch 9 lines 275-279)** — flagged in §8.2 as author-meta-note about CTR being introduced architecturally without glossary entry. **Resolves under Open Insight #23 (CTR Book-1-vs-Book-2 boundary question).** Out of scope for THIS rigor pass.
+
+**5.2 — Suffix-convention coherence (one-off slots)** — `-Identity` (Hotelling Identity), `-Estimation` (Triangulated RCV Estimation), `-Value` (Intergenerational Option Value if ratified) are one-off suffix slots. **Defer formal coherence rigor pass** until adoption-travel evidence surfaces a specific issue. Per §6 of vocabulary strategy doc, the discipline allows one-offs that pattern-match academic-source conventions.
+
+**5.3 — Ch 8 *"Knowledge and Cultural Cost"* terms_index status** — Ch 8 has subsection-header treatment of this term. Decision: defer dedicated entry (per §11.4.3); preserve as Cᵢ illustrative-list mention.
+
+**5.4 — Cross-political-tradition robustness check on Dynastic Labor Cost** (if ratified per §11.4.1):
+- *Classical-liberal reading:* "dynastic" reads as inheritance / family-line; works.
+- *Civic-republican reading:* "dynastic" reads less natively but works via labor-displacement-affecting-civic-formation argument.
+- *Socialist / communitarian reading:* "labor cost" reads natively; "dynastic" works as lineage-affecting-collective-formation.
+- *Lived-oppression reading:* "dynastic labor cost" works strongly — labor extraction affecting family / lineage / generation downstream is exactly what lived-oppression-position readers experience.
+- **PASSES.**
+
+**Group 5 summary: most architectural items either resolve under existing parked insights or defer to future focused rigor passes. Cross-political-tradition check on Dynastic Labor Cost passes.**
+
+### §11.6 Ratification target #2
+
+Author walks through Groups 1-5 step-by-step; ratifies per occurrence (or modifies). Once all groups ratified, Phase 5 sweep proceeds mechanically per §12 implementation plan.
+
+---
 
 ---
 
