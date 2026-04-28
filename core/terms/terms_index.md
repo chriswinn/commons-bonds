@@ -1584,6 +1584,18 @@ Specialized extension of commons-governance methodology (Ostrom lineage) to extr
 
 **Status:** `CURRENT` as **examples-record reference** at Ring 2 (ratified 2026-04-24 by Chris Winn — Option C' middle path with political-philosophical acknowledgment).
 
+**Glossary definition (~80 words, reader-register):**
+> The ten kinds of commons the framework has examined across the 18 cases in this book — Habitability, Spatial, Temporal, Institutional, Kindred, Ecosystem, Political, Cohesion, Epistemic, Autonomy. They are *examples*, not a closed list. When McDowell County loses generations of healthy lung tissue, that is the **Habitability commons** being extracted. When a coal town loses its civic life, that is **Cohesion**. Different political traditions disagree about what counts as a commons; the framework's methodology works within any of them.
+
+**Tech Appendix definition (~300 words, formal + lineage):**
+> The 10 commons categories surfaced by Commons Inversion Test (CIT) application across the 18 cases of this book's research: Habitability, Spatial, Temporal, Institutional, Kindred, Ecosystem, Political, Cohesion, Epistemic, Autonomy. The list is an examples-record reference, not a canonical or exhaustive enumeration. Each category names a class of commons whose abundance state CIT can invert to reveal scarcity-grounded costs admissible to the RCV integrand under the Four Gates discipline.
+>
+> Architectural status (Option C' ratified 2026-04-24): the 10 are framework EXAMPLES — what CIT has surfaced across the cases examined — not framework SCAFFOLDING (load-bearing architecture). The framework's universality claim is about METHODOLOGY (CIT operates wherever extraction acts on commons-like resources), not about enumeration canonicity. Reader application may surface different or additional commons categories in different contexts; the framework is generative and politically-pluralistic.
+>
+> Political-philosophical acknowledgment (load-bearing): what counts as a commons is politically-traditionally contested. Classical liberalism (autonomy as individual natural-right); civic republicanism (Pettit / Skinner — autonomy as non-domination requiring shared institutions); socialist/communitarian (autonomy enabled by shared infrastructure); Marxist (material-conditions dependent); lived-oppression perspectives (autonomy as denied/extracted); dominant-class perspectives (autonomy as individual privilege). The framework does not argue a universal ontology of what IS a commons; it argues that when any of these operate AS commons in a given society, extraction severs cost from that commons and CIT measures the severance.
+>
+> M12 lineage: Ostrom 1990 *Governing the Commons*; Hess & Ostrom 2007 *Understanding Knowledge as a Commons*; Klinenberg 2018 *Palaces for the People*; Anderson 2017 *Private Government* (civic-republican autonomy framing); Polanyi 1944 *The Great Transformation* (commons-disembedding lineage). Per-commons rich profiles preserved in methodology doc v1.4.0.
+
 **Term-spec version:** v1.2 (supersedes v1.1 "scaffolding construct" framing → "examples-record reference" per Option C' refinement).
 
 **Last reviewed:** 2026-04-24
