@@ -1348,6 +1348,18 @@ The v2 definition makes the pairing structure explicit: *"Abundance Masking is t
 
 **Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn — "named relational claim").
 
+**Glossary definition (~85 words, reader-register):**
+> The framework's flagship equation. Cost Severance equals Residual Commons Value minus Accountability Bond — *what's truly owed minus what's actually paid*. When B = RCV, severance is zero (honest accounting). When B is below RCV, the difference is what gets passed to communities, ecosystems, or future generations. Norway's sovereign wealth fund is the canonical real-world example of B approaching RCV; the American extraction economy operates with B ≪ RCV. Three words, one operator — the book's central assertion in compressed form.
+
+**Tech Appendix definition (~320 words, formal + lineage):**
+> **CS = RCV − B** — the framework's central relational claim. Cost Severance in a transaction equals Residual Commons Value minus Accountability Bond (arithmetic subtraction, dollar-denominated). The equation asserts three things simultaneously: (i) only RCV and B matter for computing CS — no third term, no nonlinearity; (ii) the accountability-gap is linear in B (each dollar of B reduces CS dollar-for-dollar); (iii) B = RCV defines the framework's ideal state quantitatively (CS = 0 ↔ honest accounting). It is a *named relational claim* — the equation itself is a Ring-2 framework object distinct from its component terms (CS / RCV / B each have separate Terms Index records).
+>
+> **Stability-anchor function.** Naming the equation forces consistency across term definitions. If a later rigor pass weakens one component, the equation surfaces the consequence for the whole framework immediately (rigor-infrastructure load-bearing).
+>
+> **Scope discipline.** The equation is *framework-level prescription* — it does NOT commit to which specific instrument-mix realizes B. Norway's sovereign wealth fund is the canonical real-world example of B approaching RCV; the equation itself is the framework-level object that makes Norway's success measurable AND that makes the American B ≪ RCV gap visible. Book 1 presents the equation + points to Norway as best-existing-example + ponders Accountability Bond as one candidate direction; the framework does not prescribe a specific instrument design as THE fix (per Insight #14 epistemic-humility discipline).
+>
+> **M12 lineage.** Independent specialization of established gap/deficit-accounting structure. Gap-form equations are ubiquitous in adjacent literature: Pigou 1920 *The Economics of Welfare* (externality − tax = unpriced amount); Stern 2007 *The Economics of Climate Change: The Stern Review* (present-cost-to-future − current-priced = intergenerational transfer); Nordhaus & Boyer 2000 *Warming the World* (cumulative marginal damage − market carbon price = social cost of carbon gap). Framework novelty is NOT the gap-form (ubiquitous in welfare economics) — it is the specific decomposition: what RCV is, what B is, what CS is as mechanism-result pair with Severed Cost.
+
 **Term-spec version:** v1.0 (first sanctioned spec).
 
 **Last reviewed:** 2026-04-24
