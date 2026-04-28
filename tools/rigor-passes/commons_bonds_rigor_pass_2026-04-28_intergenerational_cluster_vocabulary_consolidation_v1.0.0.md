@@ -53,10 +53,16 @@ The conversation produced five distinct methodological refinements that this rig
 
 **Refinement 6 — REPLACE-WITH-PROSE verdicts include rewrite drafts.** Per-occurrence flagged occurrences carry both current prose + proposed rewrite + flag for author judgment; mechanical Phase 5 sweep applies pre-ratified rewrites.
 
+**Refinement 7 — Audience-perspective is the holistic decision-lens for Tier A/B/C/D choice.** (Author articulation 2026-04-28: *"let's ask the question about a holistic strategy to approach when to leverage terminology I create for the framework/book, when to replace with academic words, when to replace with prose from the perspective of what is the right answer for the intended audience the book is trying to reach as well as the additional audiences the book will need to reach based on subject matter, publisher, and literary agent."*) The Tier A→D ladder is NOT audience-agnostic. The verdict for any term depends on which audience it's trying to reach first + whether gatekeeper-tier audiences pass it. Sub-pass 2 reshapes accordingly.
+
+**Refinement 8 — Aggressive-scope suffix-convention coherence test.** (Author ratification 2026-04-28.) The framework's existing suffix convention (Cost / Gap / Bond / Rule / Test / Function endings) gets evaluated NOT just for "is the current filler adequate" but for "what's the best filler from the audience-tier perspective?" Each suffix slot is tested against 2-5 alternatives (e.g., Cᵢ as -Cost vs -Burden vs -Charge vs -Levy vs -Damage; B-side as -Bond vs -Account vs -Reserve vs -Fund vs -Trust). Per-slot ratified suffix gets captured in the scaffolding deliverable.
+
+**Refinement 9 — Joint deliverable: rigor pass + scaffolding document.** The rigor pass produces immediate per-term verdicts; the scaffolding document captures the standing audience-aware vocabulary discipline. Future framework vocabulary decisions inherit the discipline without re-running the rigor pass. Scaffolding document path: `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` (sits alongside `commons_bonds_working_principles_v1.0.0.md` as a parallel discipline-record).
+
 ### §2.4 Out of scope
 
-- **Suffix-convention coherence test.** Existing convention (Cost / Gap / Bond / Rule / Test / Function endings) is well-established + load-bearing on chapter prose. Questioning the convention itself would be a much bigger architectural redesign — out-of-scope unless explicitly added.
-- **Scaffolding documents** — `core/terms/terms_index.md`, `tools/rigor-passes/*.md`, `alignment/sessions/*.md`, archived prior versions. These are Tier 3 per the proposed scaffolding-vs-publisher-facing rigor pass (`commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md`); per-usage parsimony doesn't apply.
+- **Scaffolding documents (Tier 3 per proposed retirement-traces rigor pass)** — `core/terms/terms_index.md`, `tools/rigor-passes/*.md`, `alignment/sessions/*.md`, archived prior versions. Per-usage parsimony doesn't apply to these.
+- **Existing-term renames triggered by audience-aware verdicts** flow into per-term focused rigor passes downstream (per the standard project workflow); not in-scope for this rigor pass to draft individual-term-rename rigor passes for the (potentially many) terms that surface as RECONSIDER candidates.
 
 ---
 
