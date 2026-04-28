@@ -1,15 +1,3 @@
-Let me connect to Google Drive to pull the Chapter 9 assessment and scaffold documents.I found the critical documents. Let me pull the chapter assessment and the Chapter 9 scaffold in full.Now let me pull the full Chapter 9 scaffold document.I have the full context — the chapter assessment document confirms Chapter 9 is ready for writing with the four-step sequence (Classify → Reserve → Invest → Reassess), international dimension, political economy analysis, entering wedges, and the two counterarguments (property rights + implementation pathway). Chapter 9 is policy framework and prose — no formulas required — so I'll deliver it inline.
-
-Before writing, a few notes on what I applied from the consolidated project state across your chats, the assessment doc, and the scaffold:
-
-- ~~industrial-existential substitutability gap, not ESG. The acronym changed (Civilizational Substitutability Gap). I used industrial-existential substitutability gap throughout.~~ *(2026-04-24 M12 sweep: industrial-existential substitutability gap retired on parsimony grounds; chapter prose updated to use "industrial-existential substitutability gap" inline.)*
-- ~~"Value capture," not "value extraction."~~ *(2026-04-24 superseded: Value Extraction is the Ring-1 framework term; Value Capture retired. Chapter prose updated.)*
-- Book One scope. Per the Chapter 8 decision, Book One walks the McDowell County example through eight tiers. Chapter 9 continues in that scope — specific, practical, not full-economy simulation (that lives in Book Two).
-- Register 2 entered through Register 1. Same pattern Chapter 8 established. Policy feels like a practical to-do list, not an abstract framework.
-- The "framework, not blueprint" landing is deliberately placed as the last counterargument before the Chapter 10 transition, as the scaffold specifies.
-
----
-
 # Commons Bonds
 
 By Chris Winn
@@ -18,7 +6,7 @@ By Chris Winn
 
 Chapter 8 put a number on the invoice.
 
-One ton of McDowell County coal, sold at the mine mouth in 1960 for four dollars and fifty cents, actually cost — conservatively, floor-estimated, tier by tier — somewhere between five hundred and six hundred dollars when every severed cost was priced honestly. The gap between those two numbers is not a rhetorical flourish. It is arithmetic. And it is replicated, with different parameters, across every extraction the economy runs.
+One ton of McDowell County coal, sold at the mine mouth in 1960 for four dollars and fifty cents, actually cost — conservatively, floor-estimated, cost-component by cost-component — somewhere between five hundred and six hundred dollars when every severed cost was priced honestly. The gap between those two numbers is not a rhetorical flourish. It is arithmetic. And it is replicated, with different parameters, across every extraction the economy runs.
 
 The honest response to arithmetic like that is not outrage. It is to ask what to do about it.
 
