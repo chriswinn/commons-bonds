@@ -171,6 +171,20 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 
 **Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn, batch ratification with standalone + integrated rigor).
 
+**Glossary definition (~80 words, reader-register):**
+> The framework's identifying name and the book's title. The phrase carries three meanings working at once: the formal **accountability bonds** that would close the gap between what extraction costs and what extractors pay; the **relational bonds** between people, generations, and place that extraction without accountability frays; and the **structural bonds** of ecosystems and economies that hold what we share. The book's central question is how to keep all three intact.
+
+**Tech Appendix definition (~300 words, formal + lineage):**
+> The framework's identifying name. *Commons Bonds* is a polysemous compound naming three simultaneously-operating meanings, each load-bearing for the framework's argument:
+>
+> (1) **Accountability bonds** — the formal pricing instrument B in the framework's primitive equation CS = RCV − B. The instrument cluster includes reclamation bonds (Surface Mining Control and Reclamation Act 1977), Environmental Impact Bonds (Balboa 2016), Pigouvian-tax mechanisms (Pigou 1920), sovereign wealth funds operationalizing the Hartwick rule (Hartwick 1977), and decommissioning reserves. Decomposed in Ring 2 as B = B₁ + B₂ where B₁ is the Restitution Bond (backward-looking; reparations-economics lineage per Darity & Mullen 2020) and B₂ is the Foreclosure Bond (forward-looking; option-value + Hartwick-rule lineage).
+>
+> (2) **Relational bonds** — intergenerational duty (per Parfit 1984 *Reasons and Persons* Part IV impersonal-outcomes evaluation), community-place attachment (per Anderson 2017 *Private Government*; Klinenberg 2018 *Palaces for the People*), labor solidarity, kinship obligations, and other human-and-ecological bonds that cost severance breaks. The framework's RCV calculation prices what these bonds were worth when extraction severed them.
+>
+> (3) **Structural bonds** — ecosystem interdependencies (commons-governance per Ostrom 1990 *Governing the Commons*; Hess & Ostrom 2007), atmospheric stability (carbon-stability commons priced via DAC three-horizon and Social Cost of Carbon), economic interconnections, and physical commons whose continued availability the framework's foreclosure-cost component prices.
+>
+> All three meanings operate simultaneously throughout the book; chapter context disambiguates which is foregrounded. Polysemy is load-bearing, not loose: the framework's structural claim is that the three meanings are mechanistically linked — accountability-bond posting B is what would close the gap that severs relational + structural bonds, and the framework's measurement methodology (CIT + Three Ways + Four Gates) operates across all three.
+
 **Term-spec version:** v1.0 (first sanctioned spec after dedicated rigor pass).
 
 **Last reviewed:** 2026-04-24
