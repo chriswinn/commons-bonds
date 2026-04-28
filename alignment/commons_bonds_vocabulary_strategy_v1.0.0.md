@@ -452,6 +452,20 @@ When an existing term is renamed (e.g., AIT → CIT, ARP → ARR, Reparations Bo
 Renamed per {rigor pass file} ratified {date} by {Chris Winn / collaborative}. New name chosen per vocabulary strategy v1.0.0 §{section} discipline: {one-sentence rationale}.
 ```
 
+### §9.5 Publisher-facing-scrubbing discipline (per Working Principle #8)
+
+The decision-record narrative formats above (§9.2 + §9.3 + §9.4) live in `core/terms/terms_index.md` Rigor-provenance sections (Tier 3 scaffolding per Working Principle #8). They DO NOT appear in publisher-facing artifacts — chapter drafts, glossary entries, Tech Appendix sections.
+
+**Specifically:**
+
+- **In chapter prose:** terms appear as named objects with reader-facing context — first-introduction definitions, lineage citations on first use, framework-specialization footnotes if Tier B. NO audience-rationale narratives, cross-tier-rejection notes, or "Tier D per §X" annotations.
+- **In glossary entries:** rendering fields derived from terms_index `glossary_definition` field (~75-85 words, reader-register, one concrete example). NO Rigor-provenance / Audience-rationale / Cross-tier-rejection / Tier-suffix-convention metadata.
+- **In Tech Appendix:** rendering fields derived from terms_index `tech_appendix_definition` field (~280-340 words, formal + lineage citations + math notation). NO "Backed by rigor pass X (commit Y)" annotations, M11 critic-survival probes inline, status indicators.
+
+**The decision-record narratives are author-facing scaffolding** (Tier 3 per Working Principle #8) — they let future-author + AI assistants + reviewers trace why each term landed at its ratified tier without having to re-run the discipline. They are NOT intended for the B-register reader (Mazzucato/Raworth/Sen profile) of the published book.
+
+This discipline holds for ALL framework vocabulary decisions going forward and for the Phase 3 Tech Appendix v2.0.0 rebuild + Phase 4 Glossary v4 rebuild deliverables.
+
 ---
 
 ## §10. Worked examples

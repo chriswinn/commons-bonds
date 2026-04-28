@@ -338,6 +338,83 @@ Articulated and ratified 2026-04-26 by Chris Winn, after a methodology critique 
 
 ---
 
+### Principle #8 — Publisher-facing artifacts are scrubbed of scaffolding/audit-trail content
+
+**Ratified:** 2026-04-28 by Chris Winn. Originating articulation: *"regarding the Tier 3 / scaffolding-vs-publisher-facing principle in the still-PROPOSED retirement-traces rigor pass — scaffolding is internal; reasoning chains preserved in the rigor passes themselves; don't over-engineer for external readability. Let's expand that to every external facing document. So all chapter drafts, glossary items, and technical appendix."*
+
+**Originating context:** the retirement-traces rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md` (RATIFIED 2026-04-28; Insight #28) established the Tier 1 / Tier 2 / Tier 3 trichotomy for retirement-trace handling specifically. Tier 1 (publisher-facing live documents) gets retired terms swept; Tier 3 (scaffolding/decision-record) preserves traces. Author surfaced 2026-04-28 that the principle generalizes beyond retirement-traces: ALL scaffolding/audit-trail content should be scrubbed from publisher-facing artifacts (chapter drafts, glossary, Tech Appendix), with reasoning chains preserved exclusively in scaffolding documents (terms_index, rigor passes, working principles, vocabulary strategy, sessions, open insights, alignment patches).
+
+**Scope:**
+
+*Tier 1 publisher-facing artifacts subject to scrub:*
+- Chapter drafts (`manuscript/chapters/Chapter_*Draft.{md,html}`) at submission-readiness state
+- Current + future glossary (`core/glossary/commons_bonds_updated_glossary_v3.html` + future v4 derived from terms_index)
+- Current + future Tech Appendix (`core/technical-appendix/TechnicalAppendix_v1.0.0.html` + future v2.0.0 derived from terms_index)
+- Research case-study writeups (`research/case-studies/*.md`) where they feed chapter prose
+
+*Tier 3 scaffolding documents preserving all traces:*
+- `core/terms/terms_index.md` (source-of-truth)
+- `tools/rigor-passes/*.md` (decision history)
+- `alignment/commons_bonds_working_principles_v*.md` + `commons_bonds_vocabulary_strategy_v*.md` + `commons_bonds_open_insights_v*.md` (standing disciplines)
+- `alignment/sessions/*.md` + `alignment/patches/*.md` (project state)
+
+**Principle statement:**
+
+Publisher-facing artifacts (Tier 1) carry only content directly serving the reader — prose, equations, lineage citations, examples, footnotes that aid reader comprehension. They DO NOT carry scaffolding/audit-trail content:
+
+- "Backed by rigor pass X (commit Y)" annotations
+- M11 critic-survival probes inline
+- "Per Insight #N" / "Per Working Principle #M" cross-references
+- Decision-record narratives ("the verdict here was X because Y...")
+- Status indicators (CURRENT / RETIRED / SUPERSEDED markers in inline prose)
+- Version-progression archaeology
+- Author-meta-notes ("Flag this when you get to the glossary pass…")
+- Rigor-pass commit references
+
+Reasoning chains for ALL framework decisions (vocabulary, methodology, structural) are preserved exclusively in scaffolding documents.
+
+**Explicitly OUT of scope for scrub** (these stay in publisher-facing artifacts because they serve the reader, not the audit trail):
+
+- Lineage citations on first-use (e.g., Brown Weiss 1989 for intergenerational equity; Pigou 1920 for externality lineage)
+- Tier B framework-specialization footnotes (e.g., Externality Tail's "Pigou + 4-axis specialization" footnote)
+- Tech Appendix §L methodological footnotes that situate the framework in established traditions
+- Reader-facing cross-references between chapters that aid navigation
+- Case-study sources / data citations
+
+**What this changes about my execution:**
+
+- **During chapter drafting:** sweep author-meta-notes, status indicators, rigor-pass commit references before submitting to publisher. Pre-submission readiness audit (routine 2) catches these patterns.
+- **During Tech Appendix v2.0.0 rebuild:** explicitly scrub all scaffolding content — "Backed by rigor pass X (commit Y)" patterns, M11 probes, version archaeology, status-indicator definitions, pre-v1.0.0 version-progression sections.
+- **During Glossary v4 rebuild:** derive entries from terms_index rendering fields (per S1 schema); no rigor-pass references in glossary entries; no Insight / Working-Principle cross-references in entries.
+- **Pre-submission readiness audit (routine 2):** expand pattern checks to include scaffolding-content patterns.
+
+**Why this principle matters on this project specifically:** the book's credibility infrastructure includes both academic-trade-hybrid-publisher reach (Princeton/Yale/Harvard/MIT/U-Chicago) and legal/policy-adoption-travel reach (regulatory text + policy briefs). Both audiences expect publisher-facing artifacts to be clean of internal-process content. Audit trail in scaffolding documents is exactly where reviewers, future-author, future-collaborator look for reasoning; it should NOT appear in the published book itself. Mixing tiers undermines reader experience + signals process-rather-than-content focus.
+
+**Application discipline:**
+
+- **Prospective application** (default per author 2026-04-28): going forward, no new scaffolding content lands in Tier 1 artifacts. Pre-submission readiness audit catches violations naturally.
+- **Retroactive sweep is NOT triggered automatically:** current chapter drafts may contain residual author-meta-notes etc. that get cleaned during normal pre-submission readiness audit (routine 2), not via dedicated retroactive sweep. Reason: retroactive sweep risks losing author intent (some "meta-notes" might be legitimate footnote-content in disguise).
+
+**Corollaries:**
+
+- **Tier 3 scaffolding documents preserve all traces, decisions, rigor-pass references, and reasoning chains** — generalizes the corollary from the retirement-traces rigor pass.
+- **Tier 2 archived versions get header-note-only annotations** for retirements (per Principle #4).
+- **Tier 1 publisher-facing artifacts contain only content serving the reader** — Principle #8's distinctive contribution.
+
+**Interaction with other principles:**
+
+- **Principle #4 (retirements preserve their history in-document)** — Principle #8 generalizes: it's not just retirement-traces that go to Tier 3; ALL audit-trail content does. Principle #4 covers the special case of retired-term traces; Principle #8 covers the broader category.
+- **Principle #7 (pre-publication-state discipline)** — Principle #8 reinforces: pre-publication artifacts that get scrubbed before publication don't carry the audit trail forward into publication.
+
+**Cross-references:**
+
+- Retirement-traces rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md` (Insight #28 closed-ratified 2026-04-28)
+- Vocabulary strategy scaffolding doc `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` §9 (decision-record format references this principle)
+- Architecture rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-27_publication_architecture_terms_index_glossary_tech_appendix_v1.0.0.md` (Phase 3 Tech Appendix v2.0.0 + Phase 4 Glossary v4 rebuilds inherit Principle #8 as standing input)
+- Routine 2 (pre-submission readiness audit) — pattern checks extended to include scaffolding-content patterns
+
+---
+
 ## §3. Candidate principles (articulated but not yet ratified as such)
 
 ### Candidate — Option-space breadth is load-bearing

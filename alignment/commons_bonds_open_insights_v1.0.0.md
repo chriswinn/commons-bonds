@@ -650,6 +650,28 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #29 — Working Principle #8 (Publisher-facing artifacts scrubbed of scaffolding/audit-trail content) — CLOSED-RATIFIED 2026-04-28
+
+- **Raised:** 2026-04-28 by Chris Winn during the cluster vocabulary rigor pass synthesis review. Author articulation: *"regarding the Tier 3 / scaffolding-vs-publisher-facing principle in the still-PROPOSED retirement-traces rigor pass — scaffolding is internal; reasoning chains preserved in the rigor passes themselves; don't over-engineer for external readability. Let's expand that to every external facing document. So all chapter drafts, glossary items, and technical appendix."*
+- **Status:** **closed-ratified 2026-04-28 (Chris Winn) — full ratification of Working Principle #8 generalizing the retirement-traces Tier 1 / Tier 3 split to ALL scaffolding/audit-trail content.** Two scope clarifications also confirmed: (i) prospective application only — no retroactive sweep of existing chapter drafts (routine 2 catches violations naturally during pre-submission readiness audit); (ii) lineage citations + framework-specialization footnotes are explicitly OUT of scope for scrub (they serve the reader, not the audit trail).
+- **Category:** scaffolding · publishing · framework-discipline · publisher-facing
+- **Content:** Generalizes the principle from the retirement-traces rigor pass (Insight #28) — instead of just retirement-traces being scrubbed from publisher-facing artifacts and preserved in scaffolding, ALL scaffolding/audit-trail content gets that treatment. Specifically, publisher-facing artifacts (Tier 1: chapter drafts, glossary, Tech Appendix, research case-study writeups) carry only reader-facing content. They DO NOT carry: rigor-pass commit references, M11 critic-survival probes inline, "Per Insight #N" / "Per Working Principle #M" cross-references, decision-record narratives, status indicators (CURRENT/RETIRED inline markers), version-progression archaeology, author-meta-notes, rigor-pass commit references. Reasoning chains for ALL framework decisions live exclusively in Tier 3 scaffolding documents (terms_index, rigor passes, working principles, vocabulary strategy, open insights, sessions, alignment patches).
+- **Out of scope for scrub** (these stay in publisher-facing artifacts because they serve the reader): lineage citations on first-use; Tier B framework-specialization footnotes; Tech Appendix §L methodological footnotes that situate the framework in established traditions; reader-facing cross-references between chapters; case-study sources / data citations.
+- **Implementation:**
+  1. Working Principle #8 added to `alignment/commons_bonds_working_principles_v1.0.0.md` (this commit).
+  2. Retirement-traces rigor pass §3 updated with note generalizing Tier 1 / Tier 3 split per Principle #8 (this commit).
+  3. Vocabulary strategy scaffolding doc §9.5 added — publisher-facing-scrubbing discipline cross-reference (this commit).
+  4. Phase 3 Tech Appendix v2.0.0 rebuild + Phase 4 Glossary v4 rebuild inherit Principle #8 as standing input (when those phases land).
+  5. Routine 2 (pre-submission readiness audit) — pattern checks expand to include scaffolding-content patterns. (Separate update via RemoteTrigger; deferred to follow-up commit.)
+- **Application discipline:** prospective only. Current chapter drafts may contain residual author-meta-notes etc. that get cleaned during normal pre-submission readiness audit (routine 2), not via dedicated retroactive sweep.
+- **Interaction with other principles:**
+  - Principle #4 (retirements preserve their history in-document) — Principle #8 generalizes Principle #4's retirement-trace logic to ALL audit-trail content.
+  - Principle #7 (pre-publication-state discipline) — Principle #8 reinforces: pre-publication artifacts that get scrubbed before publication don't carry the audit trail forward.
+- **Dependencies / Links:** Working Principle #8 file location; retirement-traces rigor pass `commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md` (Insight #28); vocabulary strategy scaffolding doc `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` §9.5; architecture rigor pass `commons_bonds_rigor_pass_2026-04-27_publication_architecture_terms_index_glossary_tech_appendix_v1.0.0.md` (Phase 3 + Phase 4 rebuild deliverables inherit Principle #8); routine 2.
+- **Todo link:** Update routine 2 pattern-check list to include scaffolding-content patterns (separate commit).
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*

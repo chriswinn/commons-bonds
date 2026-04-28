@@ -106,6 +106,8 @@ Based on the Tier 3 extension, here is the proposed classification for the Commo
 
 ### Tier 3 — Scaffolding / decision-record / author-facing — PRESERVE FULL TRACES (NEW)
 
+**Note (added 2026-04-28 per Working Principle #8 ratification):** the Tier 1 / Tier 3 split established here for retirement-trace handling generalizes to ALL scaffolding/audit-trail content per Working Principle #8 (`alignment/commons_bonds_working_principles_v1.0.0.md`). Publisher-facing artifacts are scrubbed not only of retired-term references but of all audit-trail content (rigor-pass commit references, M11 probes, decision-record narratives, status indicators in prose, author-meta-notes, version-progression archaeology). Reasoning chains for ALL framework decisions live in Tier 3 scaffolding documents.
+
 | Path | Notes |
 |---|---|
 | `core/terms/terms_index.md` | The vocabulary source-of-truth. RETIRED records are scaffolding-by-design. Preserve in full. (Already Principle #4 Tier 1 in the existing table, but the existing rule says "full RETIRED record with rigor-pass link" — i.e., trace preserved within the entry. This rigor pass affirms that pattern under Tier 3.) |
