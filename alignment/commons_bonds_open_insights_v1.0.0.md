@@ -865,6 +865,27 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #40 — Phase 2 Theorem E.4 Integral Convergence academic-rigor depth audit — CLOSED-RATIFIED 2026-04-29
+
+- **Raised:** 2026-04-29 by Phase 1 §8.3 (E.4 flagged for Phase 2 academic-rigor depth audit).
+- **Status:** **closed-ratified 2026-04-29 (Chris Winn) — verdict (a) Full ratify all three enhancements** per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e4_integral_convergence_v1.0.0.md`. First Phase 2 theorem audit; lightest of the 5 theorems per pre-audit assessment, executed first as proof-of-concept for the theorem-audit pattern. Tests applied (8): premise enumeration; logical derivation; edge case analysis; collision check against established convergence theorems (Lebesgue dominated convergence; monotone convergence; Weitzman 2001; Hartwick 1977; Solow 1974; Stern Review 2007); citation discipline; falsifiability; domain of applicability; counterexample resistance. **No structural defect in theorem's substance.** Repair work is formalization, not re-derivation.
+- **Category:** academic-rigor · pass-fail-gate · theorem-audit · Phase 2
+- **Content:** Three concrete restructure enhancements ratified:
+  1. **Premise enumeration (Assumptions A1–A4 per rigor pass §13.1):** explicit numbered premises including polynomial-growth bounds on U (utility) + E (externality tail); substitutability monotonicity + admissible function class on S; Weitzman declining-rate framework on D (discount factor).
+  2. **Restructured theorem statement (per rigor pass §13.2):** clean case decomposition (SC1: r_∞ > 0; SC2: sufficient substitutability convergence) + knife-edge divergence corollary promoted from footnote to theorem statement. Reformulates ambiguous theorem-statement-vs-case-analysis mapping in current text.
+  3. **Restructured proof (per rigor pass §13.3):** explicit Lebesgue dominated convergence theorem invocation; Weitzman 2001 cited as load-bearing premise A4; standard real-analysis text cited (Royden 1988 / Folland 1999 / Rudin 1987 — citation choice pending §15 Q4).
+- **Decisive criterion:** counterexamples constructed under current premises (rigor pass §12) that prove the theorem-as-currently-written is provably weak: (1) S(t) = 0.5 constant + r = 0 + U = 1 + E = 0 → RCV = ∞ but does not match the "knife-edge" footnote condition (which assumed U unbounded); actual divergence condition is "[1 − S_max] · U does not decay" not "U unbounded." (2) S(t) = 1 − 1/(1+t)² + r = 0 + U = (1+t)³ → RCV = ∫(1+t)dt = ∞; SC2 requires speed of S→1 to dominate U's growth, not just any convergence. The restructure handles both counterexamples explicitly via SC1/SC2 conditions.
+- **Pass-fail verdict on as-currently-written E.4:** WEAK — would not survive academic peer review at top-tier journals (AER, QJE, JPE, JEEM, JPubE) without restructure.
+- **Pass-fail verdict on restructured E.4 per rigor pass §13:** STRONG — meets academic-peer-review standards. Citations explicit; premises numbered; case decomposition clean; counterexample resistance verified; falsifiability condition explicit (knife-edge corollary).
+- **Pattern observation (audit-pattern proof-of-concept):** E.4 audit produced 612-line rigor pass + ~140 lines analytical substrate. Audit pattern works. Per-test verdict structure surfaces specific gaps. Counterexample construction is genuinely productive (found 2 real gaps). Recommended restatement is concrete + ratifiable. **Scope projection for remaining theorems:** E.1 (framework's central theorem) ~800-1000 lines; E.3 (circular proof; full formalization needed) ~700-900 lines; E.5 (over-specified scope; scope-tightening + practical-corollary separation) ~700-900 lines; E.2 (categorization decision: relabel as empirical observation OR restructure as formal robustness theorem) ~400-600 lines depending on Option A vs B. Aggregate Phase 2 theorem audit scope estimate: ~3000-3800 lines across 5 rigor passes (slightly above original 2800-3700 estimate).
+- **Implementation pending:**
+  - **Tech Appendix v1.0.0 HTML §10 line 3279-3285 — restructured E.4 text per rigor pass §13.** Same open question as Insights #35 + #38 Tech Appendix §L footnotes: apply now vs batch into Phase 3 Tech Appendix v2.0.0 rebuild. Possibility of unified batch into v2.0.0 rebuild for all Phase 2 Tech Appendix changes.
+  - **Bibliography expansion** — add Royden 1988 + Folland 1999 + Rudin 1987 (real analysis) per author choice on §15 Q4.
+  - **Pre-publication external review** (per Insight #39) — real-analysis-trained economics PhD or formal-methods expert verifies the restructured E.4. Downstream gate; this Phase 2 audit produces the substrate.
+- **Dependencies / Links:** Phase 1 full framework audit §8.3 (`commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md`); Insight #39 (pre-publication external review; downstream gate); Insights #35 + #38 (verdict-pattern cross-reference; shared open question on Tech Appendix HTML edit timing); Weitzman 2001 (load-bearing premise A4); Hartwick 1977 + Solow 1974 + Stern Review 2007 (adjacent literature; cleanly extended without conflict per rigor pass §8); standard real-analysis literature (Lebesgue dominated convergence; monotone convergence — invoked via Royden 1988 / Folland 1999 / Rudin 1987).
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*
