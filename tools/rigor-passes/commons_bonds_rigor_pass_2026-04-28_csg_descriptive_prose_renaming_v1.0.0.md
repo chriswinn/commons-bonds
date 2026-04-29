@@ -441,4 +441,106 @@ For the audit-trail, the alternative-tested record per Working Principle #6 (M12
 
 ---
 
-**End of rigor pass v1.0.0 [PROPOSED — awaiting ratification].**
+---
+
+## §11. Author pushback + reframing (added 2026-04-28)
+
+### §11.1 Author pushback
+
+Author articulation (2026-04-28) after reading the §1-§10 initial analysis:
+
+> *"'the civilizational substitutability gap' is a major think in the framework. We are perhaps the first to try to quantify and price using something that is critical to the existence of humanity. E.g. if we use all rare earth metals now, what happens if it turns out we need them to travel in space in 10,000 - 1,000,000 years? What happens then to humanity in 500 million to 1 billion years when the sun has expanded and earth no longer supports life?"*
+
+### §11.2 What the pushback surfaces
+
+My initial §4 analysis treated the existential pole as roughly equivalent to "long-horizon planning" (200-year scope, Ch 7's pedagogical illustration). That treatment systematically underweighted the framework's actual claim. The framework's existential pole is about **civilizational continuity at deep-time scales**:
+
+- Space-travel timescales: 10,000-1,000,000+ years (humanity becoming multi-planetary)
+- Geological timescales: 500M-1B years (sun-expansion making Earth uninhabitable)
+- Cosmological timescales beyond that
+
+The framework may be **first to attempt quantitative pricing of resources that are critical to the existence of humanity at this scale** — not just "long-horizon planning resources" but resources whose loss could foreclose civilizational continuation across deep time.
+
+This is a much larger claim than "long-horizon" framing carries. "Horizon" is medium-term-coded (decades to centuries; planning-horizon connotation). My Candidate A ("horizon-substitution gap") undersells the framework's actual stake.
+
+### §11.3 Candidates that DO carry the deep-time weight
+
+Reframing with the corrected understanding, the candidates that properly carry the weight:
+
+**P. existential substitutability gap** (3 words, ~12 syllables)
+- Drops "industrial-vs-" prefix from original; keeps "existential" and "substitutability" load-bearing words.
+- "Existential" carries Bostrom 2002 + Bostrom 2014 *Superintelligence* + MacAskill 2022 *What We Owe the Future* + Future of Humanity Institute lineage — established economic-philosophical pricing of civilizational-existence stakes.
+- "Substitutability" preserves framework S Function anchor.
+- Compresses the original by 30% (5 words → 3 words; 14 syllables → 12 syllables).
+- Adjectival deployment: *"low existential substitutability gap resources"* — readable.
+- Paired-comparison signal: implicit in chapter-prose first-introduction (*"the gap between current-industrial-application substitutability and long-horizon civilizational-continuity substitutability — what the framework calls the existential substitutability gap"*); after first introduction, "existential" carries the comparison context.
+- **Verdict: STRONG.**
+
+**Q. deep-time substitutability gap** (4 words, ~14 syllables; same syllable count as original)
+- "Deep time" is established in geology (Hutton 1788; Cuvier 1812; McPhee 1981 *Basin and Range*) + Long Now Foundation (Brand 1996+) + cultural/popular-science vocabulary.
+- Properly invokes million-year+ timescales — directly addresses Chris's pushback about 10K-1M-year and 500M-year timescales.
+- Vivid + accessible.
+- "Substitutability" preserves framework anchor.
+- Adjectival deployment: *"low deep-time substitutability gap resources"* — works.
+- Same syllable count as original (no compression on that axis); compression is on conceptual weight (deep-time properly carries scale that "industrial-vs-existential" buries in compound-modifier).
+- **Verdict: STRONG.**
+
+**R. civilizational substitutability gap** (lowercase descriptive — the original CSG concept restored without proper-noun status)
+- Identical to retired CSG except lowercase. The 2026-04-24 retirement was specifically about the proper-noun coinage; the descriptive prose form is precisely what the retirement record preserved.
+- "Civilizational" carries Diamond 2005 *Collapse* + Wright 2004 *A Short History of Progress* + Tainter 1988 *Collapse of Complex Societies* lineage.
+- Most-direct mapping to author's "civilizational substitutability gap is a major thing in the framework" articulation.
+- Adjectival deployment: *"low civilizational substitutability gap resources"* — works.
+- Word/syllable count: 3 words, ~13 syllables. Tighter than original by one word.
+- Concern: confusion with retired Civilizational Substitutability Gap (CSG) proper-noun. Mitigation: lowercase form is exactly what the retirement record preserved; reader pattern-matches to the lowercase descriptive prose form rather than to the retired proper-noun.
+- **Verdict: STRONG-with-mitigation.**
+
+**S. STATUS QUO** ("industrial-existential substitutability gap")
+- Per §4.8 + §11.2: structurally clunky in adjectival deployment; 5 words / 14 syllables. The "industrial-vs-" prefix DOES preserve the explicit paired-comparison signal but at substantial readability cost.
+- **Verdict: WEAK on readability; ADEQUATE on conceptual completeness.**
+
+### §11.4 Cross-candidate matrix (reframed)
+
+| Criterion | P existential substitutability gap | Q deep-time substitutability gap | R civilizational substitutability gap | S STATUS QUO |
+|---|---|---|---|---|
+| Carries deep-time / civilizational-existence weight | **STRONG** | **STRONG** | STRONG | ADEQUATE (buried in compound) |
+| Audience B + D | STRONG | STRONG | STRONG | WEAK |
+| Framework-anchor (substitutability) | STRONG | STRONG | STRONG | STRONG |
+| Paired-comparison signal | ADEQUATE (implicit; needs first-intro anchor) | ADEQUATE | ADEQUATE | STRONG (explicit) |
+| Lineage / collision | STRONG (Bostrom + MacAskill) | STRONG (Hutton, Brand, McPhee) | ADEQUATE-with-mitigation (lowercase preserves; collision risk with retired proper-noun) | STRONG |
+| Adjectival deployment | STRONG | STRONG | STRONG | WEAK |
+| Word count / syllable count | 3 / 12 | 4 / 14 | 3 / 13 | 5 / 14 |
+| Distinctive | high | very high | medium (overlaps retired form) | medium |
+
+### §11.5 Updated recommendation
+
+**Top candidate: P — "existential substitutability gap"** — carries the existential / civilizational-existence weight (Bostrom + MacAskill lineage); compresses the original by 30%; framework-anchored; reads cleanly adjectivally; M11 critic-survival STRONG.
+
+**Close-second: Q — "deep-time substitutability gap"** — equally strong on weight; vivid + accessible; same syllable count as original but conceptually tighter.
+
+**Close-third: R — "civilizational substitutability gap"** (lowercase) — most-direct mapping to author's articulation; lineage strong; collision-with-retired-proper-noun is the only concern (mitigated by lowercase + the retirement record preserved this exact descriptive form).
+
+**Author choice between P / Q / R is the load-bearing decision.** All three carry the framework's deep-time weight; choice is between:
+- **P (existential)** — Bostrom + MacAskill economic-pricing lineage; emphasizes humanity-as-species existential stakes
+- **Q (deep-time)** — Brand + McPhee + geology lineage; emphasizes scale of timescales (millions-billions of years)
+- **R (civilizational)** — Diamond + Wright lineage; emphasizes civilizational-continuity-as-political-economy stakes
+
+### §11.6 First-introduction anchor (regardless of which candidate ratifies)
+
+Whichever candidate is ratified, the chapter prose first-introduction in Ch 7 should anchor the paired-comparison meaning:
+
+*"...the gap between a resource's substitutability for current industrial applications and its substitutability for long-horizon civilizational-continuity applications — applications, known and unknown, that a species with a deep-time planning horizon would want to keep options open for. The book calls this property the [P / Q / R]."*
+
+The "deep-time planning horizon" framing in the first-introduction sentence does the heavy lifting of communicating timescale; the term itself can then carry through chapter prose without re-anchoring per occurrence.
+
+### §11.7 Updated §7.1 recommendation
+
+**Item 3.1 — CSG descriptive prose renaming (REVISED per §11):**
+- **Author choice between P (existential substitutability gap), Q (deep-time substitutability gap), R (civilizational substitutability gap lowercase).**
+- Default if author defers: **P (existential substitutability gap)** — Bostrom + MacAskill lineage gives strongest economic-pricing-of-existential-stakes academic anchor; matches the framework's "first to attempt quantitative pricing of civilizational-existence-critical resources" claim.
+- Initial Candidate A ("horizon-substitution gap") **withdrawn** — undersells the framework's deep-time weight per §11.2 reframing.
+
+Item 3.2 (Ch 5:145 compression) recommendation **unchanged** — Author's Structure B per §6.5 stands.
+
+---
+
+**End of rigor pass v1.0.0 [PROPOSED — awaiting ratification + author choice between P / Q / R].**
