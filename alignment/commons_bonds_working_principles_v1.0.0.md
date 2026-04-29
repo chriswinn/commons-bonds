@@ -415,6 +415,57 @@ Reasoning chains for ALL framework decisions (vocabulary, methodology, structura
 
 ---
 
+### Principle #9 — Worktree isolation with session-end fast-forward to main
+
+**Ratified:** 2026-04-29 by Chris Winn. Originating articulation: *"Hmm, is there a better workflow for us to use? Like should we create .claude & .chriswinn directories in the git folder and checkout the project to those and push to the main branch from those folders instead of working on the main branch?"* followed by *"Let's go ahead and implement your suggested working process and document it as our standard workflow going forward."*
+
+**Originating context:** the iCloud incident 2026-04-29 (project relocated from `~/Documents/___WorkingOn/commons-bonds` to `~/commons-bonds` after iCloud sync corruption deleted ~70 working-tree files mid-session) plus the harness-managed worktree pattern (Claude's session worktrees auto-created at `.claude/worktrees/<branch-name>/` on a separate branch) made evident that single-checkout direct-to-main is fragile when author and Claude operate concurrently. The earlier project rule "Direct-to-main git workflow; push each commit as it lands" is supplemented — direct-to-main is preserved at the ratified-chunk level, but with worktree isolation during the session itself.
+
+**Principle statement:**
+
+The project operates two concurrent working trees from a single `.git` directory:
+
+| Working tree | Branch | Operator | Purpose |
+|---|---|---|---|
+| `/Users/c17n/commons-bonds` | `main` | Chris Winn | Author checkout; reading state; manual edits |
+| `/Users/c17n/commons-bonds/.claude/worktrees/<session-name>` | `claude/<session-name>` | Claude (harness-issued) | Claude's session work |
+
+**During-session discipline:**
+
+- Claude commits to the harness-issued branch within its worktree.
+- Chris's primary checkout is never touched by Claude.
+- Object database is shared (single `.git`); refs are tracked per worktree.
+
+**Session-end ritual** (executed when a chunk of Claude's work is ratified by Chris):
+
+1. Claude pushes the feature branch to origin: `git push -u origin claude/<session-name>` (preserves session as a remote record).
+2. Claude fast-forwards `origin/main` to the branch HEAD: `git push origin HEAD:main`. Fast-forward only — direct-to-main linear history is preserved (no merge commits).
+3. Chris runs `git pull` in the primary checkout to absorb changes locally.
+4. The feature branch may be deleted post-merge or kept indefinitely as a session-record.
+
+**Cadence:** the merge happens per ratified chunk, not per commit. A chunk may be one commit (e.g., the v1.0.1 cleanup) or many (a multi-commit rigor pass). Ratification by Chris is the gate.
+
+**What this changes about Claude's execution:**
+
+- Claude no longer pushes directly to `main` on each commit. Claude pushes to the harness-issued branch, then surfaces a "ready to merge?" signal when a chunk is ratified.
+- After Chris ratifies, Claude executes the merge ritual (steps 1–3 above) and confirms `origin/main` is at the new HEAD.
+- `git fetch origin main:main` from Claude's worktree fails by design (git refuses to fetch into a branch checked out in another worktree). Claude treats `origin/main` as the source of truth and trusts Chris's primary checkout will pull when convenient.
+- If the harness places Claude on a session branch but no commits land that session, the branch can be discarded without ritual — nothing to merge.
+
+**Why this principle matters on this project specifically:** the iCloud incident demonstrated that single-checkout discipline is fragile. Worktree isolation prevents author-Claude collisions during long sessions (the iCloud-deleted-while-editing scenario could not occur because Chris's working tree is independent of Claude's). Direct-to-main linear history (no merge commits, no PR ceremony) is preserved at the ratified-chunk level. The trade-off is one merge-step per ratified chunk, which surfaces a natural "is this ready?" gate that the previous push-each-commit-immediately pattern lacked.
+
+**Interaction with other principles:**
+
+- This supersedes the project rule "Direct-to-main git workflow; push each commit as it lands" as articulated in earlier session handoffs. Direct-to-main is preserved at the ratified-chunk level (via fast-forward push), not at the commit level.
+- **Principle #7 (pre-publication-state discipline)** — orthogonal; pre-publication discipline operates on content, this principle operates on git workflow.
+
+**Cross-references:**
+
+- Session handoff `alignment/sessions/commons-bonds-session-handoff-2026-04-29_v1.47.0.md` §2.5 — iCloud incident motivating context
+- First execution: commit `b8db72d` (Vocabulary strategy v1.0.1 file rename + version-marker sweep) merged via this ritual on 2026-04-29
+
+---
+
 ## §3. Candidate principles (articulated but not yet ratified as such)
 
 ### Candidate — Option-space breadth is load-bearing
