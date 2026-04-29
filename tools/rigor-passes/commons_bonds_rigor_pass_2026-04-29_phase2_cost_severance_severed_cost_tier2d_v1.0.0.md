@@ -12,7 +12,7 @@
 
 **Scope:** Phase 2 deeper-dive on the Tier 2d cross-political-tradition concern surfaced in [Phase 1 §5.2 + §5.3 + §9.1](commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md). Ring-1 status NOT presumed; pass/fail gate as authored. Each audience cell is a genuine PASS/WEAK/FAIL test — verdicts are not pre-weighted by edit-cost or rename-bar considerations (per Working Principle #1 effort-to-repair-not-rigor-argument and per author direction above).
 
-**Status:** PROPOSED — Phase 2 audit complete; awaiting author ratification of verdict + recommended actions.
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify all three enhancements + KEEP terms.** Author also ratified that Ch 1 bridge prose v2 will be applied during a future Ch 1 + Ch 2 conversational drafting session (deferred per author direction 2026-04-29 — to follow remaining Phase 2 priority list + terms_index revision + scaffolding-vs-publisher-facing separation pass + word-count recompute). Tech Appendix §L methodological footnote placement (now vs Phase 3 Tech Appendix v2.0.0 rebuild batched) — pending author choice on §12.3 open question.
 
 **Author:** Chris Winn
 
@@ -973,4 +973,4 @@ The verdict structure is layered — author can ratify components independently:
 
 ---
 
-**End of Phase 2 deeper-dive rigor pass v1.0.0 [PROPOSED — awaiting author ratification of §11.1 verdict + §11.3 ratification choices].**
+**End of Phase 2 deeper-dive rigor pass v1.0.0 [RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify].**

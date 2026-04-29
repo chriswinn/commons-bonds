@@ -752,6 +752,65 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #35 — Cost Severance + Severed Cost Tier 2d Phase 2 deeper-dive — CLOSED-RATIFIED 2026-04-29
+
+- **Raised:** 2026-04-29 by Phase 1 full framework audit §5.2 + §5.3 + §9.1 (flagged Tier 2d cross-political-tradition concern).
+- **Status:** **closed-ratified 2026-04-29 (Chris Winn) — verdict (a) Full ratify all three enhancements + KEEP terms** per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_cost_severance_severed_cost_tier2d_v1.0.0.md`. Full 12-cell multi-audience matrix (vocabulary strategy v1.0.1 §2 + §8) at Phase 2 depth; M6 academic rigor + M11 critic-survival from 5 critic positions + M12 attribution-honesty depth audit + Ch 1 Option C bridge plan verification at Tier 2d depth. **No cell FAILS.** Tier 2a + Tier 2d + Lived-oppression conditional STRONG-with-enhancement / WEAK-without. Rename rejected (6 alternatives tested; none dominates).
+- **Category:** vocabulary · framework-discipline · Ring-1 · cross-political-tradition robustness
+- **Content:** Three concrete enhancements ratified:
+  1. **M12 lineage citation expansion** to terms_index Cost Severance + Severed Cost Rigor-provenance — Coulthard 2014 *Red Skin, White Masks*; Tuck & Yang 2012 "Decolonization is not a metaphor"; Darity & Mullen 2020 *From Here to Equality*; Anderson 2017 *Private Government*; Patel & Moore 2017 *A History of the World in Seven Cheap Things*; Federici 2004 *Caliban and the Witch*; Hickel 2020 *Less Is More* + *The Divide*; Whyte (indigenous environmental ethics); Wolfe 1999 *Settler Colonialism*; DuBois / Robinson / Wilderson; Marx *Capital* Vol. 1; Demsetz 1967; Coase 1960 (severance-context); Hayek 1960; Pettit 1997; US severance-tax law (state statutes — Texas, Alaska, Wyoming, North Dakota, Montana; ~36 states).
+  2. **Ch 1 Option C bridge prose extension** from one-register (labor-severance) to three-register (labor + severance-tax + colonial). v2 DRAFT ratified per Phase 2 §7.4; supersedes 2026-04-24 v1 single-register version. v1 preserved in terms_index Cost Severance entry as historical record per Working Principle #4.
+  3. **Tech Appendix §L methodological footnote** on Cost Severance + Severed Cost commodification + decolonial framing + reparations-economics parallel. DRAFT in Phase 2 §8.2. **Placement choice (now vs Phase 3 Tech Appendix v2.0.0 rebuild) PENDING** per Phase 2 §12.3 open question.
+- **Decisive criterion:** Rename rejected because no alternative dominates Cost Severance + Severed Cost across all 12 audience cells under genuine pass/fail discipline (Working Principle #1 effort-to-repair-not-rigor + author direction 2026-04-29 "this book being understandable and passing rigor each of these audiences is truly a pass/fail gate"). The Tier 2d concern is M12 lineage gap, not vocabulary fit gap; the term *severance* has multi-register strength (labor + severance-tax + property-law + colonial + capital-severance-of-labor-from-product) that the prior 2026-04-24 ratification under-invoked. Significant Tier 2b adoption-travel finding: severance-tax precedent (36 US states) is the existing legal vocabulary closest to what CSD/Restitution Bond/Foreclosure Bond extend.
+- **Implementation applied 2026-04-29:**
+  1. terms_index Cost Severance Rigor-provenance section — Phase 2 entry added; cross-political-tradition lineage section added (16+ citations across 7 traditions including US severance-tax law).
+  2. terms_index Severed Cost Rigor-provenance section — Phase 2 entry added; cross-references Cost Severance lineage symmetrically.
+  3. terms_index Cost Severance "Notes" section — canonical Ch 1 framing v2 (three-register extended) ratified; v1 (2026-04-24 single-register) preserved as historical record.
+  4. M12 bridge-commitment discipline note updated to cover three-register bridge approach.
+- **Pending implementation:**
+  - **Tech Appendix §L methodological footnote placement decision** (now in TechnicalAppendix_v1.0.0.html vs batched into Phase 3 v2.0.0 rebuild) — Phase 2 §12.3 open question; awaits author choice.
+  - **Ch 1 + Ch 2 conversational drafting session** (deferred per author direction 2026-04-29 — to follow remaining Phase 2 priority list + terms_index revision + scaffolding-vs-publisher-facing separation pass + word-count recompute). Chris will type personal stories + waterman stories; Claude asks follow-up questions as needed to meet chapter + bridge needs. Bridge prose v2 lands in Ch 1 during this session.
+- **Phase 2 verdict on bridge effectiveness:** "PLAN HOLDS conditionally pending execution + enhancement." Execution = Ch 1 drafting to 5K-6K target with v2 bridge prose landed at appropriate placement. Until then, Phase 2 verdict is provisional.
+- **Dependencies / Links:** Phase 1 full framework audit (`commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md`); 2026-04-24 Cost Severance collision pass + standalone pass + CS-vs-SC triage pass; vocabulary strategy v1.0.1 §2 + §8 12-cell multi-audience matrix; Working Principle #1 (effort-to-repair-not-rigor); Working Principle #8 (publisher-facing scaffolding scrub); Insight #36 (deferred Ch 1 + Ch 2 conversational drafting session); Insight #37 (scaffolding-vs-publisher-facing separation pass + word-count recompute).
+
+---
+
+### Insight #36 — Ch 1 + Ch 2 conversational drafting session (deferred) — OPEN
+
+- **Raised:** 2026-04-29 by author direction following Insight #35 ratification: *"Let's plan a session where I type my personal stories and stories from several watermen and let's make it a conversation where you ask additional information if / when needed to meet the needs of the chapter and the bridge as intended."*
+- **Status:** **OPEN; deferred until prerequisites complete.**
+- **Category:** chapter-drafting · session-design · Ch 1 + Ch 2
+- **Content:** Conversational drafting session for Ch 1 (currently 1,446-word starter scaffold; target 5K-6K) + Ch 2 *The Miner* (currently drafted ~5,200 words; revision/integration with Ch 1 narrative). Format: Chris types personal stories + stories from several watermen; Claude asks follow-up questions in real time to surface (a) bridge prose v2 placement + author-voice refinement (per Insight #35 enhancement 2); (b) Ch 1 personal-narrative spine completion (per Ch 1 GuidanceDoc + Personal Stories Candidates v1.0.0); (c) waterman-story integration (per Ch 1 §AUTHOR-ZONE-1 Hampton sailboat + watermen narrative spine + Ch 2 cross-reference); (d) the consent problem in its sharpest form (per Ch 1 §AUTHOR-ZONE-3); (e) lived-experience demonstration of each cost-category per Ch 1 GuidanceDoc lines 142-149.
+- **Prerequisites (sequenced per author direction 2026-04-29):**
+  1. Remaining Phase 2 priority list items completed (per Phase 1 §10 — Foreclosure Bond housing-crisis collision + theorem audit + RCV/Q(t)/scarcity multiplier bundle + Externality Tail statistics-tail collision + Three Ways of Counting post-rename verification; ~5 deeper-dive rigor passes).
+  2. terms_index revision (lineage citation expansions; status sweeps; v0.1.0 → v1.0.0 version bump per session pending work §5.4).
+  3. **Possibly:** scaffolding-vs-publisher-facing separation pass on each public-facing document (Insight #37) + word-count recompute (because current chapter-length tracking may include scaffolding content not present in actual publisher-facing prose).
+- **Why deferred:** Ch 1 bridge prose v2 cannot be effectively author-refined until prerequisites complete. Specifically: word-count gap to 5K-6K target may differ substantially after scaffolding-vs-publisher-facing separation; Phase 2 priority items may surface additional vocabulary-discipline changes that would update bridge content; terms_index revision affects citation density Chris references during drafting.
+- **Decision-needed at session start:** session length (likely multi-session work); Ch 1 vs Ch 1+Ch 2 vs Ch 1+Ch 2+Ch 3 scope (Ch 3 currently not drafted — 0 words against 5K-6K target).
+- **Dependencies / Links:** Insight #35 (Phase 2 ratification with bridge v2 ratified-but-not-applied); Insight #37 (scaffolding separation prerequisite); Phase 1 §10 remaining flagged items; session pending work §5.3 chapter-drafting list.
+
+---
+
+### Insight #37 — Scaffolding-vs-publisher-facing separation pass + word-count recompute — OPEN
+
+- **Raised:** 2026-04-29 by author direction following Insight #35 ratification: *"possibly after we do a pass to separate the scaffolding from the publisher, agent, end reader view of each public facing document. As our document length estimates might include internal scaffolding words vs. what the actual end documents will actually include."*
+- **Status:** **OPEN; pending decision (whether to do this pass now vs at chapter pre-submission editing).**
+- **Category:** working-principle-application · publisher-facing-discipline · word-count-honesty
+- **Content:** Working Principle #8 (Publisher-facing artifacts scrubbed of scaffolding/audit-trail content) generalized to apply across ALL public-facing documents — chapter drafts, glossary, Tech Appendix — with two specific deliverables:
+  1. **Scaffolding-vs-publisher-facing separation:** identify scaffolding content (author-meta-notes; status indicators; "Per Insight #N" cross-references; rigor-pass commit references; M11 probe markers; AUTHOR-ZONE blocks; STARTER DRAFT SCAFFOLD framing notes; Register-discipline notes; etc.) vs publisher-facing content (actual prose readers will encounter) on a per-document basis. Quantify the split.
+  2. **Word-count recompute:** current chapter-length tracking (Ch 1: 1,446 words; Ch 2: 5,200; Ch 4: 5,400; Ch 5: 5,800; Ch 6: 12,000; Ch 7: 5,500; Ch 8: 5,400; Ch 9: 5,600; Ch 10: 5,800) may include scaffolding content. True publisher-facing word counts may differ substantially. Recompute under WP#8 discipline.
+- **Why this matters now:**
+  - **Ch 1 drafting decisions** (Insight #36) depend on accurate publisher-facing word-count gap to 5K-6K target.
+  - **Pre-submission readiness audit (routine 2)** already runs WP#8 pattern checks; this would extend the discipline to a deliberate one-time-pass rather than ongoing-sentinel.
+  - **Tech Appendix v2.0.0 rebuild** (Phase 3 of architecture work) is the natural place to apply WP#8 at Tech Appendix scale; this insight surfaces whether to do similar pass on chapter drafts now or defer to chapter pre-submission editing.
+- **Decision question for author:**
+  - **(a) Do the separation pass now** — comprehensive across all chapters + glossary + Tech Appendix; produces accurate publisher-facing word counts; ~3-5 hours work.
+  - **(b) Do per-chapter separation at pre-submission editing** — defer the comprehensive pass; handle each chapter's scaffolding scrub at the chapter's individual pre-submission editing cycle. May leave Ch 1 drafting (Insight #36) without accurate word-count target.
+  - **(c) Partial separation now: Ch 1 + Ch 2 only** — separation only on the chapters Insight #36 will draft; defer the rest.
+- **Dependencies / Links:** Working Principle #8; Insight #28 retirement-traces / scaffolding-vs-publisher-facing (RATIFIED 2026-04-28); Insight #36 (Ch 1 + Ch 2 conversational drafting session — depends on this pass for accurate word-count target).
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*
