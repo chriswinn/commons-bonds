@@ -6,7 +6,7 @@
 
 **Scope:** Phase 2 academic-rigor depth audit on the **"RCV"** acronym for Residual Commons Value as it appears across the framework. Phase 1 §5.5 + §10 #2 flagged: *"RCV acronym collision audit (RCV used in radio common variable, recreational vehicle, risk capital value contexts)."* This audit identifies the actual real-world collisions, assesses misread risk per audience tier, and recommends disambiguation discipline.
 
-**Status:** **[PROPOSED] — pending author ratification.**
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify all three disambiguation enhancements,** with §15 Q5 Ranked-Choice Voting reorder applied (RCV-as-Ranked-Choice-Voting moves to first in disambiguation note given rising-salience trajectory). Tech Appendix HTML edit timing pending author choice on §15 Q6 (same open question as Insights #35 + #38 + #40 + #41 + #42 + #43). Insight #44 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
 
 **Author:** Chris Winn
 
