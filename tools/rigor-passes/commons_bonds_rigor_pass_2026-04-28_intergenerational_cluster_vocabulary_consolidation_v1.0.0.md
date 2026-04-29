@@ -57,7 +57,7 @@ The conversation produced five distinct methodological refinements that this rig
 
 **Refinement 8 — Aggressive-scope suffix-convention coherence test.** (Author ratification 2026-04-28.) The framework's existing suffix convention (Cost / Gap / Bond / Rule / Test / Function endings) gets evaluated NOT just for "is the current filler adequate" but for "what's the best filler from the inherited-audience perspective?" Each suffix slot is tested against 2-5 alternatives (e.g., Cᵢ as -Cost vs -Burden vs -Charge vs -Levy vs -Damage; B-side as -Bond vs -Account vs -Reserve vs -Fund vs -Trust). Per-slot ratified suffix gets captured in the scaffolding deliverable.
 
-**Refinement 9 — Joint deliverable: rigor pass + scaffolding document.** The rigor pass produces immediate per-term verdicts; the scaffolding document captures the standing vocabulary discipline as standing input for future decisions (inheriting the ratified book-audience). Scaffolding document path: `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` (sits alongside `commons_bonds_working_principles_v1.0.0.md` as a parallel discipline-record).
+**Refinement 9 — Joint deliverable: rigor pass + scaffolding document.** The rigor pass produces immediate per-term verdicts; the scaffolding document captures the standing vocabulary discipline as standing input for future decisions (inheriting the ratified book-audience). Scaffolding document path: `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` (sits alongside `commons_bonds_working_principles_v1.0.0.md` as a parallel discipline-record).
 
 ### §2.4 Inherited fixed input — ratified book-level audience
 
@@ -590,7 +590,7 @@ The hybrid case is likely strongest because:
 
 ## §10. Holistic recommended usage strategy
 
-Synthesized from §§4 + 8 inventory data + the ratified vocabulary strategy scaffolding doc (`alignment/commons_bonds_vocabulary_strategy_v1.0.0.md`) discipline.
+Synthesized from §§4 + 8 inventory data + the ratified vocabulary strategy scaffolding doc (`alignment/commons_bonds_vocabulary_strategy_v1.0.1.md`) discipline.
 
 ### §10.1 Top-line strategic finding
 
@@ -598,7 +598,7 @@ Synthesized from §§4 + 8 inventory data + the ratified vocabulary strategy sca
 
 ### §10.2 Recommended unified usage discipline (cluster vocabulary going forward)
 
-Apply the four-move framework (Tier A/B/C/D per `commons_bonds_vocabulary_strategy_v1.0.0.md` §3) to all cluster terms:
+Apply the four-move framework (Tier A/B/C/D per `commons_bonds_vocabulary_strategy_v1.0.1.md` §3) to all cluster terms:
 
 **Tier A — adopt verbatim with citation:**
 - intergenerational equity → Brown Weiss 1989 *In Fairness to Future Generations*; Howarth + Norgaard 1990 *Ecological Economics*

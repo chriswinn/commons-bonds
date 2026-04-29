@@ -306,7 +306,7 @@ The framework already operates under an implicit role-bearing-suffix discipline.
 | Methodology / test | `-Test` | Commons Inversion Test (CIT) |
 | Methodology / apparatus | `-Gates` | Four Gates |
 | Identity (math equation by definition) | `-Identity` | Hotelling Identity |
-| Estimation methodology | `-Estimation` | Triangulated RCV Estimation |
+| Estimation methodology | `-Estimation` | (slot retired per Insight #31 RATIFIED 2026-04-28; Triangulated RCV Estimation → Three Ways of Counting) |
 
 ### §6.2 The discipline going forward
 
@@ -324,9 +324,9 @@ If a new mathematical role surfaces that doesn't match any existing slot, the su
 
 Per the cluster vocabulary rigor pass (`commons_bonds_rigor_pass_2026-04-28_intergenerational_cluster_vocabulary_consolidation_v1.0.0.md`), each suffix slot is evaluated against 2-5 alternatives under the inherited B-register audience. The per-slot verdicts are:
 
-*[PENDING — populated from rigor pass §§7+10 once synthesis completes. Each suffix slot's ratified filler + alternative-tested-and-rejected rationale lands here as standing reference.]*
+*[Cluster pass §10.4 (RATIFIED 2026-04-28) defers the formal suffix-convention coherence rigor pass: "most suffix slots passed audience-fit per inventory data; one-off slots (`-Identity` for Hotelling Identity; `-Estimation` for Triangulated RCV Estimation) flagged as RECONSIDER candidates but not load-bearing audience-fit failures. Defer formal suffix-convention coherence rigor pass until adoption-travel evidence surfaces a specific issue." The table below remains as preliminary forecasts; ratified verdicts will land here when the deferred coherence pass executes.]*
 
-The expected pattern (subject to rigor-pass verdicts):
+The preliminary forecast pattern (subject to the deferred coherence pass):
 
 | Suffix slot | Current | Likely verdict |
 |---|---|---|
@@ -338,7 +338,7 @@ The expected pattern (subject to rigor-pass verdicts):
 | Methodologies | `-Test` | Likely RATIFIED — methodological-procedure convention; flagged for re-test under B-register audience due to mild statistical-test connotation. |
 | Functions | `-Function` | Likely RATIFIED — math-specialist convention; B-register reader decodes with light context. |
 | Identity (one-off) | `-Identity` | RECONSIDER possible — Hotelling Identity is one-off; B-register reader may misread as "personal identity"; alternative -Equation / -Relation possible. |
-| Estimation (one-off) | `-Estimation` | RECONSIDER possible — Triangulated RCV Estimation is one-off + has pedagogical alternative ("Three Ways of Counting"). |
+| Estimation (one-off) | `-Estimation` | RETIRED per Insight #31 RATIFIED 2026-04-28 — Triangulated RCV Estimation renamed to "Three Ways of Counting"; slot now empty in active vocabulary. |
 
 ---
 
@@ -429,7 +429,7 @@ Every framework vocabulary decision lands in `core/terms/terms_index.md` per the
 Every Tier D or Tier B decision carries a brief decision-narrative in the terms_index entry's `Rigor provenance` section:
 
 ```
-Audience-rationale (per vocabulary strategy v1.0.0): Tier {A/B/C/D} chosen because [reason serving B-register reader]. {If D-modulation applicable: D-modulation override applied because [reason supporting legal/policy adoption-travel].} Cross-tier-rejection: Tier {one-down-from-chosen} rejected because [reason]. Cross-political-tradition check: PASSES (or describe specific accommodation).
+Audience-rationale (per vocabulary strategy v1.0.1): Tier {A/B/C/D} chosen because [reason serving B-register reader]. {If D-modulation applicable: D-modulation override applied because [reason supporting legal/policy adoption-travel].} Cross-tier-rejection: Tier {one-down-from-chosen} rejected because [reason]. Cross-political-tradition check: PASSES (or describe specific accommodation).
 ```
 
 This narrative becomes part of the standing audit trail. Future readers (academic reviewers, editors, future-self) can trace why a given term landed at a given tier.
@@ -439,7 +439,7 @@ This narrative becomes part of the standing audit trail. Future readers (academi
 When a new term is coined (Tier D), the suffix choice is documented:
 
 ```
-Suffix-convention: {-Cost / -Bond / -Function / -Rule / -Test / -Gates / -Severance / -Damages / -Gap} per §6 of vocabulary strategy v1.0.0. Encodes mathematical role: {role}. Pattern-matches academic convention: {convention}.
+Suffix-convention: {-Cost / -Bond / -Function / -Rule / -Test / -Gates / -Severance / -Damages / -Gap} per §6 of vocabulary strategy v1.0.1. Encodes mathematical role: {role}. Pattern-matches academic convention: {convention}.
 ```
 
 If the new term extends the suffix-convention with a new slot, that requires its own focused rigor pass before coinage.
@@ -449,7 +449,7 @@ If the new term extends the suffix-convention with a new slot, that requires its
 When an existing term is renamed (e.g., AIT → CIT, ARP → ARR, Reparations Bond → Restitution Bond), the supersession record cites this strategy doc:
 
 ```
-Renamed per {rigor pass file} ratified {date} by {Chris Winn / collaborative}. New name chosen per vocabulary strategy v1.0.0 §{section} discipline: {one-sentence rationale}.
+Renamed per {rigor pass file} ratified {date} by {Chris Winn / collaborative}. New name chosen per vocabulary strategy v1.0.1 §{section} discipline: {one-sentence rationale}.
 ```
 
 ### §9.5 Publisher-facing-scrubbing discipline (per Working Principle #8)
@@ -568,11 +568,11 @@ The original draft enumerated 8 worked examples (Cost Severance / Externality Ta
 
 ### §11.1 Version
 
-Document version: **v1.0.0** as of 2026-04-28.
+Document version: **v1.0.1** as of 2026-04-28.
 
 ### §11.2 Ratification
 
-Initial document ratification: **PROPOSED — awaiting author ratification.** Once ratified, the document becomes the standing reference for framework vocabulary decisions; cited from terms_index entries + chapter audit + rigor passes.
+Initial document ratification: **RATIFIED 2026-04-28 by Chris Winn** (v1.0.0 → v1.0.1 with refinements per `commons_bonds_rigor_pass_2026-04-28_vocabulary_decision_framework_shape_v1.0.0.md`: §4.5 decision-tree representation; §5.5 engineered-for-adoption-travel design intent; §10 case-study selection deferred). Document is the standing reference for framework vocabulary decisions; cited from terms_index entries + chapter audit + rigor passes.
 
 ### §11.3 Revision triggers
 
@@ -623,4 +623,4 @@ Whenever this document is revised:
 
 ---
 
-**End of vocabulary strategy v1.0.0 [PROPOSED — awaiting author ratification].**
+**End of vocabulary strategy v1.0.1 [RATIFIED 2026-04-28 by Chris Winn].**

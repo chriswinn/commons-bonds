@@ -54,7 +54,7 @@ See preamble: 2026-04-28 author message clarifying that audience choice is a boo
 
 This is logically prior to:
 - The terminology rigor pass (`commons_bonds_rigor_pass_2026-04-28_intergenerational_cluster_vocabulary_consolidation_v1.0.0.md`) — which inherits this verdict as a fixed input.
-- The vocabulary strategy scaffolding doc (`alignment/commons_bonds_vocabulary_strategy_v1.0.0.md`) — which captures this verdict + the resulting terminology discipline as standing reference.
+- The vocabulary strategy scaffolding doc (`alignment/commons_bonds_vocabulary_strategy_v1.0.1.md`) — which captures this verdict + the resulting terminology discipline as standing reference.
 - All future per-term naming + suffix decisions.
 
 ### §2.3 Out of scope
@@ -457,7 +457,7 @@ Each suffix slot (Cost / Gap / Bond / Rule / Test / Function / Severance / Tail 
 
 ### §10.3 Vocabulary strategy scaffolding doc — captures both
 
-`alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` will codify:
+`alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` will codify:
 - The ratified book-audience (B + supplementary D).
 - The Tier A→D decision rule under that audience.
 - The suffix-convention discipline under that audience.
@@ -487,7 +487,7 @@ Once ratified, this rigor pass becomes the source-of-truth for the book-audience
 
 The ratification gets propagated to:
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — Insight #20-or-similar — the book-audience-choice insight (closed-ratified at ratification date).
-- `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` (to be drafted) — codifies the audience as standing input.
+- `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` (to be drafted) — codifies the audience as standing input.
 - `alignment/commons_bonds_working_principles_v1.0.0.md` — possible new Working Principle (#7?) capturing audience-discipline-as-standing-commitment.
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_intergenerational_cluster_vocabulary_consolidation_v1.0.0.md` — the terminology rigor pass updates to reference B + supplementary D as fixed input.
 

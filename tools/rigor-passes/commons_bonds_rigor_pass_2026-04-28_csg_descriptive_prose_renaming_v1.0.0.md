@@ -538,7 +538,7 @@ The "deep-time planning horizon" framing in the first-introduction sentence does
 
 Per author direction (2026-04-28): *"That's why I'm asking you to run full tests, with multiple audience groups for each thing and having us discuss. This is a major revision for the book."*
 
-Audience tiers per `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` §2:
+Audience tiers per `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §2:
 
 - **Tier 1** — Primary B-register reader (Mazzucato / Raworth / Sen / Anderson / Hickel / Acemoglu+Robinson reader)
 - **Tier 2a** — Academic economists (welfare-economics-trained; Pigou / Stern / Nordhaus / Hotelling / Stiglitz lineage)

@@ -409,7 +409,7 @@ Reasoning chains for ALL framework decisions (vocabulary, methodology, structura
 **Cross-references:**
 
 - Retirement-traces rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_retirement_traces_scaffolding_vs_publisher_facing_v1.0.0.md` (Insight #28 closed-ratified 2026-04-28)
-- Vocabulary strategy scaffolding doc `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` §9 (decision-record format references this principle)
+- Vocabulary strategy scaffolding doc `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §9 (decision-record format references this principle)
 - Architecture rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-27_publication_architecture_terms_index_glossary_tech_appendix_v1.0.0.md` (Phase 3 Tech Appendix v2.0.0 + Phase 4 Glossary v4 rebuilds inherit Principle #8 as standing input)
 - Routine 2 (pre-submission readiness audit) — pattern checks extended to include scaffolding-content patterns
 

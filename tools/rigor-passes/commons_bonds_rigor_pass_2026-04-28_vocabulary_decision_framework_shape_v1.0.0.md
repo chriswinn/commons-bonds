@@ -4,7 +4,7 @@
 **Date:** 2026-04-28
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v2.3.0.md` — focused subset (M3 fit, M6 academic-defensibility, M11 critic survival, M12 lineage). Full 12-module suite not required — this is a meta-question about the SHAPE of a discipline-framework, not a substantive framework claim.
 
-**Scope:** Tests whether the four-move framework (Tier A / B / C / D) proposed in `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` §3 is the right shape, or whether an alternative framing would better serve the project's vocabulary discipline.
+**Scope:** Tests whether the four-move framework (Tier A / B / C / D) proposed in `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §3 is the right shape, or whether an alternative framing would better serve the project's vocabulary discipline.
 
 **Triggering question (2026-04-28 by Chris Winn):** *"do a rigor pass on if the four-move framework is the right shape or if it should be framed differently."*
 
@@ -44,7 +44,7 @@
 
 ### §2.1 The framework's existing four-move shape
 
-Per `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` §3:
+Per `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §3:
 
 - **Tier A:** Adopt established academic-literature term verbatim with citation
 - **Tier B:** Adopt established academic-literature term with framework-specialization footnote
@@ -369,7 +369,7 @@ Refinements:
 
 ### §10.3 Cross-references that update
 
-- `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` — bumps to v1.0.1 with refinements (or v1.1.0 if Option 4 ratified)
+- `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` — bumps to v1.0.1 with refinements (or v1.1.0 if Option 4 ratified)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_intergenerational_cluster_vocabulary_consolidation_v1.0.0.md` — references ratified shape in synthesis sections
 - `core/terms/terms_index.md` per-term records — cite ratified framework shape in Rigor-provenance sections
 
