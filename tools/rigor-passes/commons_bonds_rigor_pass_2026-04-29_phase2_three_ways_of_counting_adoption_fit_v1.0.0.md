@@ -6,7 +6,7 @@
 
 **Scope:** Phase 2 adoption-fit audit on the **Three Ways of Counting** (TWoC) Ring-2 methodology name post the 2026-04-28 rename from "Triangulated RCV Estimation" (Insight #31 RATIFIED). Phase 1 §10 #5 flagged: *"Three Ways of Counting — post-rename adoption-fit verification (minor; can defer until pre-submission review)."*
 
-**Status:** **[PROPOSED] — pending author ratification.**
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify (Option A clean drop).** Tech Appendix HTML edit timing (apply 2-line edit to v1.0.0 now vs batch into Phase 3 v2.0.0 rebuild) — pending author choice on §6 Q2 (same open question as Insights #35 + #38 + #40 + #41). Insight #42 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
 
 **Author:** Chris Winn
 
