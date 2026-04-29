@@ -532,15 +532,120 @@ Whichever candidate is ratified, the chapter prose first-introduction in Ch 7 sh
 
 The "deep-time planning horizon" framing in the first-introduction sentence does the heavy lifting of communicating timescale; the term itself can then carry through chapter prose without re-anchoring per occurrence.
 
-### §11.7 Updated §7.1 recommendation
+### §11.7 Multi-audience matrix per candidate (added 2026-04-28 per author direction — full rigor with multiple audience groups per item)
 
-**Item 3.1 — CSG descriptive prose renaming (REVISED per §11):**
-- **Author choice between P (existential substitutability gap), Q (deep-time substitutability gap), R (civilizational substitutability gap lowercase).**
-- Default if author defers: **P (existential substitutability gap)** — Bostrom + MacAskill lineage gives strongest economic-pricing-of-existential-stakes academic anchor; matches the framework's "first to attempt quantitative pricing of civilizational-existence-critical resources" claim.
-- Initial Candidate A ("horizon-substitution gap") **withdrawn** — undersells the framework's deep-time weight per §11.2 reframing.
+Per author direction (2026-04-28): *"That's why I'm asking you to run full tests, with multiple audience groups for each thing and having us discuss. This is a major revision for the book."*
+
+Audience tiers per `alignment/commons_bonds_vocabulary_strategy_v1.0.0.md` §2:
+
+- **Tier 1** — Primary B-register reader (Mazzucato / Raworth / Sen / Anderson / Hickel / Acemoglu+Robinson reader)
+- **Tier 2a** — Academic economists (welfare-economics-trained; Pigou / Stern / Nordhaus / Hotelling / Stiglitz lineage)
+- **Tier 2b** — Legal scholars / policy practitioners (Tooze / Brookings / Roosevelt-Institute / Hockett / Omarova reader)
+- **Tier 2c** — Environmental + intergenerational ethics scholars (Brown Weiss / Howarth / Gosseries / Parfit / Rawls / Sen lineage)
+- **Tier 2d** — Indigenous + heterodox economy scholars (Ostrom / Polanyi / Graeber / Anderson / Mauss + indigenous-knowledge-tradition readers)
+- **Tier 2e** — Existential-risk / long-now readers (Bostrom / MacAskill / Future of Humanity Institute / Long Now Foundation / planetary-boundaries Rockström) — *especially relevant for THIS concept given deep-time stakes*
+- **Tier 3a** — Trade publisher gatekeepers (Penguin / Norton / Knopf / FSG acquisitions; trade literary agents)
+- **Tier 3b** — Academic-trade hybrid gatekeepers (Princeton / Yale / Harvard / MIT / U-Chicago press editors; specialized academic-trade agents)
+
+Plus cross-political-tradition robustness check across four reading-positions per vocabulary strategy v1.0.1 §8:
+- Classical-liberal
+- Civic-republican
+- Socialist / communitarian
+- Lived-oppression
+
+#### Candidate P — "existential substitutability gap"
+
+| Audience | Read | Verdict |
+|---|---|---|
+| Tier 1 B-register | "Existential" connects to popular-discourse existential-risk vocabulary (Bostrom; AI-existential-risk debates 2020+); accessible without specialist gloss | STRONG |
+| Tier 2a Academic economists | "Substitutability" reads as standard econ vocab; "existential" reads as the existential-risk-economics emerging field (Posner, Gollier on catastrophe-discounting) | STRONG |
+| Tier 2b Legal/policy practitioners | "Existential" reads in policy contexts (existential-risk policy at UK / Centre for the Study of Existential Risk; AI-policy contexts) | STRONG |
+| Tier 2c Intergenerational ethics scholars | STRONG fit — Parfit's *Reasons and Persons* Part IV deals with future-generation-existence ethics; Bostrom's existential-risk arguments are core-curriculum in this field | **STRONG** |
+| Tier 2d Indigenous + heterodox | "Existential" pattern-matches indigenous-tradition framings of "existence-of-the-people" continuity (Whyte 2018 *Indigenous Climate Justice*); cross-tradition fit | STRONG |
+| Tier 2e Existential-risk / long-now | STRONGEST FIT — directly invokes the field's central vocabulary; Bostrom 2002 + MacAskill 2022 are foundational; FHI / CSER / Long Now natively use this language | **STRONGEST** |
+| Tier 3a Trade gatekeepers | "Existential" reads in popular-trade discourse (existential-risk has been NYT-bestseller-adjacent: Ord *The Precipice*; MacAskill *What We Owe the Future*); pitchable | STRONG |
+| Tier 3b Academic-trade hybrid gatekeepers | STRONG fit — academic-trade hybrid presses regularly publish existential-risk-economics work (MacAskill at Yale; Parfit at OUP) | STRONG |
+| Classical-liberal reading | "Existential" pattern-matches individual-survival-rights framing; reads acceptably | ADEQUATE |
+| Civic-republican reading | "Existential" pattern-matches public-good-of-civilizational-continuity framing | STRONG |
+| Socialist / communitarian reading | "Existential" pattern-matches collective-survival framing (e.g., climate-existential-risk discourse) | STRONG |
+| Lived-oppression reading | STRONGEST among traditions — "existential" literally means "of existence"; lived-oppression positions invoke existential-stakes language regularly (Black-existential philosophy lineage: Fanon, Du Bois, Coates) | **STRONGEST** |
+
+**Net Candidate P:** Strong-or-strongest across all 12 sub-audience cells. No weak cells.
+
+#### Candidate Q — "deep-time substitutability gap"
+
+| Audience | Read | Verdict |
+|---|---|---|
+| Tier 1 B-register | "Deep time" is recognizable from popular science (McPhee 1981; Brand Long Now); accessible | STRONG |
+| Tier 2a Academic economists | "Deep time" is non-economics native; reads as imported geology vocabulary; some economists may pause | ADEQUATE |
+| Tier 2b Legal/policy practitioners | "Deep time" doesn't migrate into regulatory text naturally; D-modulation chapters (Ch 9) lose adoption-travel | WEAK |
+| Tier 2c Intergenerational ethics scholars | "Deep time" connects to Brown-Weiss future-generations work + Gosseries-Meyer; ADEQUATE-STRONG | STRONG |
+| Tier 2d Indigenous + heterodox | STRONGEST FIT — indigenous knowledge traditions natively engage deep-time / seven-generations / ancestral-continuity framings | **STRONG-STRONGEST** |
+| Tier 2e Existential-risk / long-now | STRONGEST FIT — Long Now Foundation explicitly uses "deep time"; cosmologists / Anthropocene-studies natively use it | **STRONGEST** |
+| Tier 3a Trade gatekeepers | "Deep time" is pitchable but slightly more specialized than "existential" | ADEQUATE |
+| Tier 3b Academic-trade hybrid gatekeepers | STRONG fit (Brand at Princeton; geology-trade-hybrid books at Norton) | STRONG |
+| Classical-liberal reading | "Deep time" reads neutrally; no political connotation | ADEQUATE |
+| Civic-republican reading | "Deep time" doesn't natively engage civic vocabulary | ADEQUATE |
+| Socialist / communitarian reading | "Deep time" doesn't natively engage class vocabulary; sometimes read as "depoliticizing" framing | ADEQUATE |
+| Lived-oppression reading | "Deep time" can read as detached / scientific-distancing from immediate-survival concerns; SOME risk of de-prioritizing present-suffering framings | ADEQUATE-WEAK |
+
+**Net Candidate Q:** STRONG on Tier 1 + Tier 2c + Tier 2d + Tier 2e + Tier 3b; WEAK on Tier 2b (legal/policy adoption-travel); ADEQUATE-WEAK on lived-oppression cross-tradition. Mixed.
+
+#### Candidate R — "civilizational substitutability gap" (lowercase descriptive)
+
+| Audience | Read | Verdict |
+|---|---|---|
+| Tier 1 B-register | "Civilizational" reads as accessible (Diamond *Collapse* was NYT-bestseller); slightly heavier register than "existential" or "deep time" | STRONG |
+| Tier 2a Academic economists | "Civilizational" doesn't natively engage econ vocabulary; reads as imported anthro/sociology language | ADEQUATE |
+| Tier 2b Legal/policy practitioners | "Civilizational" reads in policy contexts (e.g., civilizational-resilience framing in UN reports); ADEQUATE-STRONG | STRONG |
+| Tier 2c Intergenerational ethics scholars | "Civilizational" connects to civilizational-collapse + civilizational-continuity ethics work; STRONG | STRONG |
+| Tier 2d Indigenous + heterodox | "Civilizational" carries colonial-implication risk (whose civilization?); some indigenous + heterodox positions have specifically critical readings of "civilization" framings | ADEQUATE-WEAK |
+| Tier 2e Existential-risk / long-now | "Civilizational" connects to civilizational-existential-risk literature (Bostrom uses both "existential" and "civilizational"); ADEQUATE-STRONG | STRONG |
+| Tier 3a Trade gatekeepers | Pitchable; Diamond + Wright + Tainter trade lineage | STRONG |
+| Tier 3b Academic-trade hybrid gatekeepers | STRONG fit | STRONG |
+| Classical-liberal reading | "Civilizational" reads neutrally; some classical-liberal readers may invoke "Western civilization" framings | ADEQUATE |
+| Civic-republican reading | "Civilizational" connects to civic-republican concern with civilizational-institutions | STRONG |
+| Socialist / communitarian reading | "Civilizational" can read as obscuring class-stakes; ADEQUATE-WEAK | ADEQUATE-WEAK |
+| Lived-oppression reading | "Civilizational" carries colonial-implication risk; whose civilization is being preserved? | **WEAK-RISK** |
+
+Plus the **previously-flagged collision risk with retired Civilizational Substitutability Gap (CSG) proper-noun** — readers may pattern-match the lowercase form to the retired Title Case form, creating ambiguity about which form is current.
+
+**Net Candidate R:** STRONG on most academic + publisher tiers; ADEQUATE-WEAK on Tier 2d (indigenous + heterodox) + lived-oppression reading; collision risk with retired proper-noun.
+
+#### Cross-candidate net assessment
+
+**Candidate P (existential substitutability gap)** — STRONG or STRONGEST across all 12 sub-audience cells. No WEAK or ADEQUATE-WEAK cells. The strongest fit emerges in Tier 2c (intergenerational ethics) + Tier 2e (existential-risk / long-now) + lived-oppression reading. **The lived-oppression-reading STRONG verdict is particularly load-bearing** — among the four political-tradition readings, "existential" carries weight in lived-oppression positions in a way "deep-time" + "civilizational" do not (existential as in Black existential philosophy: Fanon's *Black Skin, White Masks* engages existential framing of survival-under-oppression as foundational).
+
+**Candidate Q (deep-time substitutability gap)** — STRONG on Tier 2d + Tier 2e + Tier 1; WEAK on Tier 2b (legal/policy) which is load-bearing for D-modulation chapters; ADEQUATE-WEAK on lived-oppression reading.
+
+**Candidate R (civilizational substitutability gap lowercase)** — STRONG on most academic + publisher tiers; WEAK-RISK on lived-oppression reading (colonial-implication concern); collision risk with retired proper-noun.
+
+### §11.8 Discussion-surfacing — three things to consider
+
+Three things to discuss before ratifying:
+
+**Discussion item 1 — How heavily does the indigenous + lived-oppression reading concern weigh?** The framework's Option C' political-philosophical-accommodation discipline (ratified 2026-04-24) committed the framework to working across all four reading-positions including lived-oppression. The CSG concept is specifically about preserving resources for civilizational-continuation; whose civilization is being preserved is a real question that lived-oppression readers will ask. **Candidate P's lived-oppression-STRONG verdict** versus **Candidate Q's ADEQUATE-WEAK** versus **Candidate R's WEAK-RISK** is a real differentiator. If the lived-oppression reading is load-bearing (per Option C'), Candidate P pulls strongly ahead.
+
+**Discussion item 2 — How heavily does D-modulation adoption-travel weigh?** The framework's success-criterion includes severed-cost-into-legal/policy-vocabulary. Ch 9 *Pricing Honestly* + Ch 7 instrument-design + Ch 10 regulatory-architecture are D-modulation chapters where the term will be deployed in regulatory-text-adjacent prose. **Candidate Q's WEAK on Tier 2b is a real concern** — "deep-time substitutability gap" doesn't migrate cleanly into regulatory text. Candidate P + R both pass Tier 2b cleanly.
+
+**Discussion item 3 — How heavily does the Bostrom-MacAskill-Long-Now lineage anchor weigh?** Both P and Q connect to existential-risk / long-now literature, but P connects to the **economic-pricing wing** of that literature (MacAskill *What We Owe the Future* explicitly engages economic-pricing of long-term futures; Bostrom's framework is the philosophical foundation). The framework's claim — "first to attempt quantitative pricing of civilizational-existence-critical resources" — pattern-matches MacAskill's project specifically. **If the framework wants to be read as an extension of / sibling-work-to MacAskill's economic-pricing-of-deep-future**, Candidate P aligns most directly.
+
+### §11.9 Updated §7.1 recommendation (with author discussion-flagged)
+
+**Item 3.1 — CSG descriptive prose renaming (REVISED + multi-audience-tested per §11.7-§11.8):**
+
+Three viable candidates surfaced. Recommendation pending author discussion of the three discussion items above.
+
+- **Candidate P (existential substitutability gap)** — STRONG/STRONGEST across all 12 audience cells; no weak cells; strongest lineage anchor for the framework's "first economic pricing of civilizational-existence-critical resources" claim (Bostrom + MacAskill economic-pricing wing); strongest lived-oppression-reading fit (load-bearing per Option C').
+- **Candidate Q (deep-time substitutability gap)** — STRONG on Tier 2e + Tier 2d + Tier 1; WEAK on Tier 2b (D-modulation adoption-travel); ADEQUATE-WEAK on lived-oppression reading.
+- **Candidate R (civilizational substitutability gap lowercase)** — STRONG on most academic + publisher tiers; WEAK-RISK on lived-oppression (colonial-implication); collision risk with retired proper-noun.
+
+**My current recommendation: Candidate P** based on the multi-audience matrix; pending author discussion of the three considerations above.
+
+**Initial Candidate A ("horizon-substitution gap") remains withdrawn** — undersells deep-time weight per §11.2.
 
 Item 3.2 (Ch 5:145 compression) recommendation **unchanged** — Author's Structure B per §6.5 stands.
 
 ---
 
-**End of rigor pass v1.0.0 [PROPOSED — awaiting ratification + author choice between P / Q / R].**
+**End of rigor pass v1.0.0 [PROPOSED — awaiting ratification + author discussion of §11.8 three considerations + choice between P / Q / R].**
