@@ -12,7 +12,7 @@
 
 **Scope:** Phase 2 deeper-dive on the Foreclosure Bond (B₂) housing-crisis connotation collision surfaced in [Phase 1 §6.14](commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md). Ring-2 sub-instrument status NOT presumed; pass/fail gate as authored. Each audience cell is a genuine PASS/WEAK/FAIL test — verdicts are not pre-weighted by edit-cost or rename-bar considerations (per Working Principle #1 + author direction above). Re-tests the 2026-04-24 b1_b2_naming pass verdict against full 12-cell matrix that did not exist at the time of the original ratification.
 
-**Status:** PROPOSED — Phase 2 audit complete; awaiting author ratification of verdict + recommended actions.
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify all three enhancements + KEEP term.** Ch 9 bridge prose v1 DRAFT lands in terms_index Foreclosure Bond entry as scaffolding ratification; awaits author voice refinement during Ch 9 revision cycle. Tech Appendix §L methodological footnote placement (now vs Phase 3 Tech Appendix v2.0.0 rebuild + unification with Cost Severance Phase 2 §L footnote into single methodological-framing section) — pending author choice on §12.4 + §12.5 open questions.
 
 **Author:** Chris Winn
 
@@ -850,4 +850,4 @@ Remaining items after Cost Severance + Foreclosure Bond Phase 2 complete:
 
 ---
 
-**End of Phase 2 deeper-dive rigor pass v1.0.0 [PROPOSED — awaiting author ratification of §11.1 verdict + §11.3 ratification choices].**
+**End of Phase 2 deeper-dive rigor pass v1.0.0 [RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify].**
