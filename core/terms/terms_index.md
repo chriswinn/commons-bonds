@@ -125,7 +125,7 @@ Each term carries its own `term-spec version` independent of document versions. 
 - Dynastic Labor Cost
 - Community Transition Reserve
 - Ecological Carrying Cost
-- Knowledge and Culture Cost
+- Knowledge and Cultural Cost
 - Political Capture Cost
 
 **Records populated in §4 (2026-04-24) — all 12 entries:**

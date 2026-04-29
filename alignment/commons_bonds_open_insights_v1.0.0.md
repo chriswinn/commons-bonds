@@ -733,6 +733,25 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #34 — Group 2 Knowledge and Cultural Cost naming consistency — CLOSED-RATIFIED 2026-04-29
+
+- **Raised:** 2026-04-28 by collaborative inventory work (cluster vocabulary rigor pass §10.4 surfaced the naming drift between Ch 8:105 "Knowledge and Cultural Cost" and Glossary v3:373 retired-list "Knowledge and Culture Cost").
+- **Status:** **closed-ratified 2026-04-29 (Chris Winn) — verdict (a) C1 "Knowledge and Cultural Cost" as canonical form** per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_group2_knowledge_culture_cost_naming_v1.0.0.md`. Multi-audience matrix STRONG on 5 of 12 cells (Tier 2b legal/policy + Tier 2c intergenerational ethics + Tier 2d indigenous + heterodox + civic-republican + lived-oppression); ADEQUATE on 6; ADEQUATE-WEAK on 1 (Tier 3b academic-trade hybrid copy-editor concern, mitigable via editorial-review defense protocol). M11 + M12 + plagiarism/copyright/legal-exposure all SURVIVE/PASS.
+- **Category:** vocabulary · framework-discipline · Cᵢ-class naming
+- **Content:** Cᵢ-class extraction cost referring to community-knowledge-and-cultural-continuity loss compounding from community dispersal. Per Ch 8:107-113 chapter prose, the two facets (practical/ecological knowledge + cultural continuity / civic infrastructure) are conceptually unified ("the loss compounds"); single Cᵢ-class entry preferred over splitting (C3 split rejected per parsimony + chapter conceptual unity).
+- **Decisive criterion:** Cross-political-tradition Option C' commitment (load-bearing per book-audience ratification 2026-04-28, Insight #25) favors C1's lived-oppression-reading + Tier 2d indigenous + heterodox-alignment STRONG fit. Cultural-loss vocabulary in lived-oppression literatures uses adjective form ("cultural genocide," "cultural erasure," "cultural extraction"); "Cultural [X]" pattern dominant in cultural-studies + indigenous-studies literatures.
+- **Implementation applied 2026-04-29:**
+  1. Glossary v3 line 373 retired-list entry — swept "Knowledge and Culture Cost" → "Knowledge and Cultural Cost"
+  2. terms_index line 128 (8-tier-being-dissolved listing) — swept to match
+  3. terms_index line 411 (Cᵢ illustrative-list) — already used C1 form (verified)
+  4. Ch 8 line 105 subsection header — already C1 form (no edit needed)
+- **Editorial-review defense protocol:** when academic-trade hybrid press copy-editor flags C1 mixed-parts-of-speech during pre-submission editorial review, framework defends C1 by citing rigor pass §4.1 (lived-oppression reading + Tier 2d indigenous + heterodox alignment) + Ch 8 prose context. If editor insists on C2, framework can defer at publication (single-form choice; rigor-pass record preserves the rationale).
+- **Pending (low priority):** routine 1 pattern addition for "Knowledge and Culture Cost" (without "al") as retired-form regression pattern; deferrable.
+- **Adjacent literature for future Tech Appendix §L methodological footnote** (when this Cᵢ promoted to dedicated terms_index entry): Bourdieu 1986 *The Forms of Capital* (cultural capital framing); Lemkin 1944 *Axis Rule in Occupied Europe* (cultural genocide concept); UN-IP-Declaration 2007 (cultural rights); Polanyi 1958 *Personal Knowledge* (tacit knowledge); Scott 1998 *Seeing Like a State* (mētis / local knowledge); Ostrom 1990 *Governing the Commons* (community-embedded knowledge); Caudill 1962 *Night Comes to the Cumberlands* (Appalachian community-knowledge dispersal).
+- **Dependencies / Links:** Group 2 rigor pass; cluster vocabulary rigor pass §10.4; book-audience Insight #25 (Option C' political-philosophical accommodation).
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*

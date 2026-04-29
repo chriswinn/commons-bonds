@@ -14,11 +14,11 @@ Plus a third option surfaced during rigor:
 
 **Triggering articulation (cluster vocabulary rigor pass §10.4 + author direction 2026-04-29):** Naming drift between Ch 8 + Glossary v3 needs canonical-form ratification. Author direction 2026-04-29: *"Let's run Group 2's action items through the full rigor, audience, publisher, literary agent tests, and academic rigor tests and then discuss."*
 
-**Status:** PROPOSED — awaiting author ratification.
+**Status:** **RATIFIED 2026-04-29 by Chris Winn** — verdict (a) adopt C1 "Knowledge and Cultural Cost" as canonical form. Glossary v3 line 373 + terms_index line 128 swept to match Ch 8:105 form. Editorial-review defense protocol per §9.3.4 stands for pre-submission editorial-review concerns from academic-trade hybrid press copy-editors.
 
 **Author:** Chris Winn
 
-**Recommended verdict:** **Adopt C1 "Knowledge and Cultural Cost"** as the canonical form (Ch 8 form stands; Glossary v3 line 373 retired-list entry updated to match). Verdict turns on §3.4 lived-oppression-reading consideration + §3.5 framework-vocabulary-set parsimony (avoids splitting one conceptual unit into two Cᵢ entries when the chapter prose treats them as one compound loss). Trade-off: C1 has slight grammatical-parallelism concern (mixed parts of speech in coordination) which is mitigated by the elliptical reading + chapter prose's explicit treatment of the two facets as compounding-together.
+**Ratified verdict:** **Adopt C1 "Knowledge and Cultural Cost"** as the canonical form. Wins on load-bearing cross-political-tradition Option C' criterion (lived-oppression reading + Tier 2d indigenous + heterodox alignment STRONG); modest cost on Tier 3b academic-trade hybrid copy-editor constraint (mitigable via editorial-review defense protocol per §9.3.4). C2 + C3 rejected per §8 + §4.3.
 
 ---
 
