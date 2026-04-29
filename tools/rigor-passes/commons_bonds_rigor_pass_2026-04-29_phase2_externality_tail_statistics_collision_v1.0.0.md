@@ -6,7 +6,7 @@
 
 **Scope:** Phase 2 academic-rigor depth audit on the **Externality Tail (E(R, t))** Ring-2 term — does the "tail" suffix collide with statistics-distribution-tail conventions in finance / actuarial / extreme-value theory / risk literature? Phase 1 §6.11 + §10 #3 flagged: *"Externality Tail — statistics-distribution-tail collision + suffix coherence (already deferred per Item 4.2 partly). Statistics-distribution-tail collision (Tier 2a econ readers may import distribution-tail framing; framework's E is a time-indexed function, not distribution tail). Verdict: PASS screening BUT FLAG for Phase 2 deeper dive on statistics-tail collision + suffix-convention coherence."*
 
-**Status:** **[PROPOSED] — pending author ratification.**
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify both enhancements.** Tech Appendix HTML edit timing pending author choice on §15 Q6 (same open question as Insights #35 + #38 + #40 + #41 + #42). Insight #43 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
 
 **Author:** Chris Winn
 
