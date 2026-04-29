@@ -8,11 +8,11 @@
 
 **Triggering articulation (2026-04-28 by Chris Winn):** *"Go ahead and also batch run all Items you did NOT flagging for specific review through the same full rigor, audience, and academic rigor tests."*
 
-**Status:** PROPOSED — awaiting author ratification.
+**Status:** **RATIFIED 2026-04-28 by Chris Winn** — verdict (a) ratify all batch-tested verdicts as previously recommended.
 
 **Author:** Chris Winn
 
-**Recommended verdict:** **All items pass. Ratify all batch-tested verdicts as previously recommended.** No revisions to the cluster rigor pass §10.2 + §10.3 + §10.4 verdicts surfaced from this batch run.
+**Ratified verdict:** **All 24 items pass full rigor + audience + academic rigor tests. Cluster rigor pass §10.2 + §10.3 + §10.4 + §11.2 verdicts hold without modification.** No revisions to previously-recommended verdicts surfaced from this batch run.
 
 ---
 

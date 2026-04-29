@@ -1903,11 +1903,13 @@ The framework EXTENDS Hotelling 1931 by adding a commons-side measurement to pai
 
 ---
 
-### Triangulated RCV Estimation ("Three Ways of Counting" pedagogically)
+### Three Ways of Counting (formerly "Triangulated RCV Estimation"; renamed 2026-04-28)
 
-**Working definition:** Three-method estimation methodology for RCV producing a defensible range rather than a single point estimate. Method 1 (Replacement Cost lower bound) + Method 2 (Norway Revealed Preference middle-anchor within triangulation) + Method 3 (Scarcity-Adjusted Option Value upper bound). Convergence reduces uncertainty; divergence reveals where real disagreements live (substitutability vs scarcity-rate vs option-value parameter dominance).
+**Working definition:** Three-method estimation methodology for RCV producing a defensible range rather than a single point estimate. Method 1 (Replacement Cost lower bound) + Method 2 (Norway Revealed Preference middle-anchor within triangulation) + Method 3 (Scarcity-Adjusted Option Value upper bound). Convergence reduces uncertainty; divergence reveals where real disagreements live (substitutability vs scarcity-rate vs option-value parameter dominance). The methodology's output is described inline as *"the triangulated three-method range."*
 
-**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn).
+**Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn — methodology unchanged; renamed 2026-04-28 by Chris Winn from "Triangulated RCV Estimation" to "Three Ways of Counting" per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_triangulated_rcv_estimation_naming_review_v1.0.0.md` Option B verdict — drop redundant formal name; promote pedagogical alias to primary methodology name; preserve "the triangulated three-method range" as inline result description; vocabulary footprint reduces by one Ring-2 term per Working Principle #1 parsimony).
+
+**Supersession record:** "Triangulated RCV Estimation" (proper-noun coined 2026-04-24) RETIRED 2026-04-28 as redundant with "Three Ways of Counting" pedagogical name. Methodology, three sub-methods (Replacement Cost / Revealed Preference / Scarcity-Adjusted Option Value), convergence/divergence diagnostic, reporting discipline all preserved unchanged. Tier verdict reaffirmed at Ring 2 / Tier D under "Three Ways of Counting" (chapter title pattern-matches accessible academic-trade convention per Mazzucato / Raworth / Anderson lineage).
 
 **Glossary definition (~80 words, reader-register):**
 > The framework's discipline for estimating Residual Commons Value: instead of a single point estimate, run three independent methods and report the convergence range. **Three Ways of Counting** runs Replacement Cost (what would it cost to replace what was lost?), Revealed Preference (what did the most-honest existing example actually capture?), and Scarcity-Adjusted Option Value (what's the option value of leaving it in situ?). Where the three methods converge, the answer is robust. Where they diverge, the parameter pulling them apart names the real argument.

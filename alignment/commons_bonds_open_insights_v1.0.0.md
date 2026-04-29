@@ -672,6 +672,49 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #30 — Hotelling Identity attribution review — CLOSED-RATIFIED 2026-04-28
+
+- **Raised:** 2026-04-28 by Chris Winn during cluster vocabulary rigor pass review: *"Hotelling Identity as mentioned in the book is actually a derivative of Hotelling's work he did a long time ago, but I'm taking that work and adding to it with the 'Hotelling Identity' as mentioned in the Chapter. See if that should be in the in the glossary / terms_index as well as how that should be cited. I don't recall how I left it in the latest edit... I think I might have awkwardly mention it's Hotelling's work three times in the Technical Appendix but don't really clearly explain what is mine and what is his, and I honestly need you to review how that is cited in the Chapter as well. And for that matter how I'm taking the Hotelling rent and using that in the formula."*
+- **Status:** **closed-ratified 2026-04-28 (Chris Winn) — verdict (a) ratify minor cleanup pass per `commons_bonds_rigor_pass_2026-04-28_hotelling_identity_attribution_review_v1.0.0.md` §5.** Underlying attribution discipline ratified 2026-04-24 is sound; cleanup needed only for 3 Working Principle #8 violations in Tech Appendix §4 + numbering inconsistency + Tier-classification of Ch 6 supplementary drafts file.
+- **Category:** vocabulary · framework-discipline · publisher-facing · attribution
+- **Content:** Hotelling Identity is the framework's extension of Hotelling 1931, not a coinage. terms_index entry §1816-1822 is explicit on the attribution split (Hotelling's part vs framework's part). Tech Appendix §5.1/5.2/5.3 cleanly separates the two contributions. Hotelling rent appears ONLY in the bridging Identity (RCV − Hotelling rent = CS per unit), NOT in the primary CS = RCV − B equation — clean attribution. Chapter 6 HTML line 799 handles attribution discipline correctly.
+- **Cleanup applied 2026-04-28:**
+  1. Tech Appendix §4 attribution paragraph — removed "Source: Hotelling Identity individual rigor pass (commit `5b8ff42`); see `core/terms/terms_index.md`..." sentence + standalone "Source rigor pass: Hotelling Identity (commit 5b8ff42)." line (Working Principle #8 scrub).
+  2. Renumbered §5.1/5.2/5.3 → §4.1/4.2/4.3 (mechanical fix).
+  3. Reframed §4.3 (formerly §5.3) — removed "Per M12 module + Working Principle #6:" framing + meta-commentary closing line; replaced with reader-facing "Citation discipline. Anywhere the framework references the Hotelling Identity, the canonical attribution form is:" framing.
+  4. Fixed line 638 cross-reference: "see §5 Hotelling Identity" → "see §4 Hotelling Identity".
+  5. **Tier classification of `Chapter__6___SupplementaryDrafts_2026-04-24.md`** — resolved as Tier 2 archive (file moved to `manuscript/chapters/archive/` 2026-04-28 with archive header note documenting content disposition). Line 297 rigor-pass-record cross-references preserved as Tier 2 historical trace per retirement-traces rigor pass discipline.
+- **Dependencies / Links:** Hotelling Identity attribution review rigor pass; underlying 2026-04-24 ratification at `commons_bonds_rigor_pass_2026-04-24_term_hotelling_identity_v1.0.0.md`; retirement-traces rigor pass (Insight #28); Working Principle #8 (Insight #29).
+
+---
+
+### Insight #31 — Three Ways of Counting (renamed from "Triangulated RCV Estimation") — CLOSED-RATIFIED 2026-04-28
+
+- **Raised:** 2026-04-28 by Chris Winn during cluster vocabulary rigor pass review: *"For the other item in the Suffix-convention coherence 'Triangulated RCV Estimation' that is the result from the 3 ways test and should probably have a cleaner & more citable name... As it stands now the result is just referred to as 'triangulated three-method range'... perhaps that's all we really need?"*
+- **Status:** **closed-ratified 2026-04-28 (Chris Winn) — Option B verdict per `commons_bonds_rigor_pass_2026-04-28_triangulated_rcv_estimation_naming_review_v1.0.0.md`.** Drop "Triangulated RCV Estimation" as separate Ring-2 term; promote "Three Ways of Counting" as primary methodology name; preserve "the triangulated three-method range" as inline result description.
+- **Category:** vocabulary · framework-discipline · parsimony
+- **Content:** Framework had 3 names for the same thing (formal "Triangulated RCV Estimation" + pedagogical "Three Ways of Counting" + result-description "the triangulated three-method range"). Per Working Principle #1 parsimony + four-move tier ladder, "Three Ways of Counting" alone serves as both pedagogical and primary methodology name. The three Methods themselves (Replacement Cost; Revealed Preference; Scarcity-Adjusted Option Value) carry their own academic lineage — Costanza 1997, Hartwick 1977 + Solow 1974, Dixit + Pindyck 1994 + Henry 1974 + Arrow + Fisher 1974. Removes the one-off `-Estimation` suffix.
+- **Implementation applied 2026-04-28:**
+  1. terms_index entry header renamed: `### Triangulated RCV Estimation ("Three Ways of Counting" pedagogically)` → `### Three Ways of Counting (formerly "Triangulated RCV Estimation"; renamed 2026-04-28)` with supersession record.
+  2. Tech Appendix §B "Sources:" block — removed "Triangulated RCV Estimation" reference + WP#8-violating rigor-pass commit references (3 commits: 1c8e4dd, 4f48c48, 5dea091); simplified to clean prose.
+  3. Tech Appendix §B "Source rigor passes:" line — removed (rigor-pass commit references; WP#8 scrub).
+  4. Tech Appendix §I "Hotelling Identity instead" passage line ~6353 — renamed "Triangulated RCV Estimation individual rigor pass" → "Three Ways of Counting individual rigor pass".
+  5. Methods 1/2/3 sub-records preserved unchanged with academic lineage.
+- **Pending:** routine 1 pattern-list update to add `\bTriangulated RCV Estimation\b` as retired-vocabulary regression pattern (separate RemoteTrigger update).
+- **Dependencies / Links:** Triangulated RCV Estimation naming review rigor pass; Working Principle #1 parsimony + Corollary B (CSG retirement origination 2026-04-24); vocabulary strategy v1.0.1 §3 four-move tier ladder.
+
+---
+
+### Insight #32 — Cluster items-not-flagged batch rigor — CLOSED-RATIFIED 2026-04-28 (24 items PASS)
+
+- **Raised:** 2026-04-28 by Chris Winn: *"batch run all Items you did NOT flagging for specific review through the same full rigor, audience, and academic rigor tests."*
+- **Status:** **closed-ratified 2026-04-28 (Chris Winn) — verdict (a) ratify all batch-tested verdicts as previously recommended.** All 24 items PASS full rigor + audience + academic rigor tests per `commons_bonds_rigor_pass_2026-04-28_cluster_items_not_flagged_batch_rigor_v1.0.0.md`. Cluster rigor pass §10.2 + §10.3 + §10.4 + §11.2 verdicts hold without modification.
+- **Category:** vocabulary · framework-discipline · batch-verification
+- **Content:** 24 items batch-tested across 5 categories: 9 Tier A borrowed academic concept adoptions (intergenerational equity / mobility / wealth transmission / transfers / fiscal architecture / transfer programs / obligations / claims / stocks); 7 Tier C descriptive prose preservation groups; 4 Tier D coinage defers (Lifetime Survival Cost / Community Disruption Cost / Political Capture Cost / Temporal Displacement Cost — all stay in Cᵢ illustrative-list at terms_index line 411 until cross-chapter recurrence emerges); 2 chapter-prose KEEP-per-existing-discipline (Ch 7:205 universality test lowercase; Ch 10 GuidanceDoc:119 FGC preserved per Tier-3); 11 Ch 5 cost severance KEEP verdicts. Common pattern: items not flagged because they don't change framework vocabulary set; batch run formally verifies discipline holds.
+- **Dependencies / Links:** Items-not-flagged batch rigor pass; cluster vocabulary rigor pass §10 + §11; vocabulary strategy v1.0.1.
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*

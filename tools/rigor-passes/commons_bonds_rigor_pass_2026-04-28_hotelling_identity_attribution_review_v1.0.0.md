@@ -8,11 +8,11 @@
 
 **Triggering question (2026-04-28 by Chris Winn):** *"Hotelling Identity as mentioned in the book is actually a derivative of Hotelling's work he did a long time ago, but I'm taking that work and adding to it with the 'Hotelling Identity' as mentioned in the Chapter. See if that should be in the in the glossary / terms_index as well as how that should be cited. I don't recall how I left it in the latest edit... I think I might have awkwardly mention it's Hotelling's work three times in the Technical Appendix but don't really clearly explain what is mine and what is his, and I honestly need you to review how that is cited in the Chapter as well. And for that matter how I'm taking the Hotelling rent and using that in the formula."*
 
-**Status:** PROPOSED — awaiting author ratification.
+**Status:** **RATIFIED 2026-04-28 by Chris Winn** — verdict (a) ratify minor cleanup pass to scrub Working Principle #8 violations in Tech Appendix §4 + supplementary file Tier-2 archive (resolves §4.8 author judgment item — supplementary file moved to `manuscript/chapters/archive/` 2026-04-28).
 
 **Author:** Chris Winn
 
-**Recommended verdict:** **Underlying attribution discipline is sound; ratify minor cleanup pass to scrub Working Principle #8 violations in Tech Appendix §4.** No structural change to terms_index entry; glossary v3 update deferred to Phase 4 v4 rebuild (which derives from terms_index per S1 schema).
+**Ratified verdict:** **Underlying attribution discipline is sound; ratify minor cleanup pass per §5 to scrub Working Principle #8 violations in Tech Appendix §4 (3 scrub items + numbering fix) + Tier-2 archive of `Chapter__6___SupplementaryDrafts_2026-04-24.md` (resolves §4.8 supplementary file Tier-classification question — file is archived as Tier 2 with header-note discipline; line 297 rigor-pass-record cross-references preserved as historical trace).** No structural change to terms_index entry; glossary v3 update deferred to Phase 4 v4 rebuild (auto-derives from terms_index per S1 schema).
 
 ---
 

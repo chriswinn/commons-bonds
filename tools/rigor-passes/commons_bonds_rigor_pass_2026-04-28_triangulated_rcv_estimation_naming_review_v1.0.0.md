@@ -8,11 +8,11 @@
 
 **Triggering question (2026-04-28 by Chris Winn):** *"For the other item in the Suffix-convention coherence 'Triangulated RCV Estimation' that is the result from the 3 ways test and should probably have a cleaner & more citable name... As it stands now the result is just referred to as 'triangulated three-method range'... perhaps that's all we really need? Let's just run those two through the full rigor, audience, and academic rigor tests."*
 
-**Status:** PROPOSED — awaiting author ratification.
+**Status:** **RATIFIED 2026-04-28 by Chris Winn** — Option B verdict (drop "Triangulated RCV Estimation" as separate Ring-2 term; promote "Three Ways of Counting" as primary methodology name; preserve "the triangulated three-method range" as inline result description).
 
 **Author:** Chris Winn
 
-**Recommended verdict:** **Option B — drop "Triangulated RCV Estimation" as a separate Ring-2 term; promote "Three Ways of Counting" from pedagogical-alias to primary methodology name; preserve "the triangulated three-method range" as the inline result phrasing.** Result: vocabulary footprint reduces by one term while keeping the methodology pedagogically accessible AND academically defensible (the chapter is already titled "Three Ways of Counting"; the methods themselves carry their own academic lineage; no separate formal-methodology-name is load-bearing).
+**Ratified verdict:** **Option B — drop "Triangulated RCV Estimation" as a separate Ring-2 term; promote "Three Ways of Counting" from pedagogical-alias to primary methodology name; preserve "the triangulated three-method range" as the inline result phrasing.** Vocabulary footprint reduces by one Ring-2 term while keeping the methodology pedagogically accessible AND academically defensible (the chapter is already titled "Three Ways of Counting"; the methods themselves carry their own academic lineage; no separate formal-methodology-name is load-bearing).
 
 ---
 

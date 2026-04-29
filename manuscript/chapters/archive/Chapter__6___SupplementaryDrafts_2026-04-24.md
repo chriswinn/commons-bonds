@@ -1,11 +1,24 @@
-# Chapter 6 — Supplementary Drafts (2026-04-24 commons-transition reframing)
+# Chapter 6 — Supplementary Drafts (2026-04-24 commons-transition reframing) [ARCHIVED 2026-04-28]
+
+**ARCHIVE NOTE (2026-04-28):** This file was moved to `manuscript/chapters/archive/` on 2026-04-28 by Chris Winn after content disposition was verified. Per the retirement-traces / scaffolding-vs-publisher-facing rigor pass (Insight #28 closed-ratified 2026-04-28), the file is preserved as Tier 2 archived historical record. **DO NOT integrate from this file going forward** — Ch 6 HTML draft (`Chapter__6_ThreeWaysofCounting__Draft.html`) is the canonical Ch 6 source.
+
+**Content disposition:**
+- **Passages G + L + M:** integrated into Ch 6 HTML as dedicated h3 sections (commits `338600a` Passage G — "What Is Owed" / Parfit engagement; `60ead95` Passage L — "Two Kinds of Commons" / Ostrom-vs-extraction distinction; `04da48f` Passage M — Restitution Lineage with multi-tradition citation broadening per the I-A + V-A + S-B' verdict).
+- **Passage N (Methodology defense consolidation, ~2,000 words):** integrated 2026-04-27, then REVERTED in working tree per commit `088e4d5` after the Counterargument-handling rigor pass dissolved dedicated defense-h3 sections into inline-woven prose at natural arising points (per A-1 + B-2 verdict).
+- **Passages A, B, C, D, E, F, H, I, J:** partial integration. Some content carried into Ch 6 HTML; some superseded by subsequent rigor-pass verdicts; some integrated into Tech Appendix v1.0.0 supplementary integration commit `8cade87`.
+
+**Why archived:** The file is no longer a live staging document; canonical Ch 6 source is the HTML draft. Project precedent for archiving supplementary files post-integration: commit `dc3c1e3` (Ch 7 numerical-anchoring footnote — fold into chapter draft + remove supplementary file).
+
+---
+
+**Original status header (preserved below for historical reference):**
 
 **Status:** Supplementary drafts created 2026-04-24 to support Phase B integration into Ch 6 HTML draft (`Chapter__6_ThreeWaysofCounting__Draft.html`). Not a standalone chapter file. These are READY-TO-INTEGRATE Register-2 passages that implement the ratifications from the three commons-transition rigor passes:
 - Commons-as-Structural-Identity reframing (commit `c4b09dc`)
 - Dedicated CIT rename (commit `b294c79`)
 - 10-Commons-List Dissolution Option C' (commit `e30087e`)
 
-**Why this file exists:** Ch 6's HTML draft is risky to modify directly (Google Docs export; project trauma-informed re: heredoc data-loss). These passages are drafted in markdown for clean integration during Phase B chapter revision when Chris is in his authoring environment.
+**Why this file exists** [now superseded — see Archive Note above]: Ch 6's HTML draft is risky to modify directly (Google Docs export; project trauma-informed re: heredoc data-loss). These passages are drafted in markdown for clean integration during Phase B chapter revision when Chris is in his authoring environment.
 
 **Ch 6 GuidanceDoc** (`Chapter__6___GuidanceDoc.md`) carries the full drafting direction. This file carries the actual ready-to-paste prose.
 
