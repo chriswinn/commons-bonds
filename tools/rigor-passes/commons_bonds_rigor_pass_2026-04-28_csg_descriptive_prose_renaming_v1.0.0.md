@@ -648,4 +648,110 @@ Item 3.2 (Ch 5:145 compression) recommendation **unchanged** — Author's Struct
 
 ---
 
-**End of rigor pass v1.0.0 [PROPOSED — awaiting ratification + author discussion of §11.8 three considerations + choice between P / Q / R].**
+---
+
+## §12. Group 3.2 multi-audience re-rigor — Ch 5:145 Structure B compression (added 2026-04-29)
+
+### §12.1 Author re-direction
+
+Author articulation (2026-04-29): *"Go ahead and pass Group 3.2 through the full rigor tests as well."*
+
+Per author direction, applying the same multi-audience matrix discipline (12 sub-audience cells per vocabulary strategy v1.0.1 §2 + §8) + M11 critic-survival probes + M12 attribution-honesty check + voice-impact + excerpt-resilience tests to the Ch 5:145 Structure B compression decision.
+
+### §12.2 The decision under multi-audience test
+
+**Structure B (Author refinement §6.5):** Drop "cost" prefix on instances 1, 2, 3 (early + middle uses); KEEP "cost severance" only on instance 4 (second-to-last sentence, immediately before climax compression at instances 5 + 6). Pattern: bbb-A-bb (short-short-short-LONG-short-short).
+
+**Vs Structure A (initial §6.2 proposal):** Keep "cost severance" on instance 1; drop "cost" on instances 2, 3, 4. Pattern: A-bbbb-bb (LONG-short-short-short-short-short-short).
+
+**Vs Status quo:** 4 full-form "cost severance" instances + 2 climax "severance" instances. Pattern: AAAA-bb.
+
+### §12.3 Multi-audience matrix on Structure B
+
+| Audience | Read | Verdict |
+|---|---|---|
+| Tier 1 B-register | Reads as authorial discipline — compression earned through chapter-context establishment (13+ prior uses). Expand-before-climax pattern is recognizable from sophisticated nonfiction prose (Mazzucato, Raworth, Sen all use rhythm-modulation through key-term repetition + deliberate compression). | STRONG |
+| Tier 2a Academic economists | Compression doesn't lose framework concept — Cost Severance is Ring-1 ratified; "severance" within established context refers unambiguously. Academic reviewers value tight prose; compression is preferred over saturation. | STRONG |
+| Tier 2b Legal/policy practitioners | Policy practitioners read fast; compression helps. The single retained full-form ("cost severance") at second-to-last position serves as a citation-anchor — quotable for policy briefs. | STRONG |
+| Tier 2c Intergenerational ethics scholars | Climax sentence (*"Tractability is not absence of severance; it is severance unfolding on schedule"*) carries the philosophical-seriousness ethics readers expect. Parfit-style aphoristic compression at the climax position. Compression respects philosophical-prose convention. | STRONG |
+| Tier 2d Indigenous + heterodox | Heterodox readers engage Ch 5 via lived-oppression dimension (cost-bearing parties = those whose communities, ecosystems, futures absorb extraction's costs). Structure B preserves this signal — "severance" carries the framework concept; climax punch lands. The *"Tractability is not absence of severance"* line specifically addresses the technical-policy-tractability response to lived-oppression critique. | STRONG |
+| Tier 2e Existential-risk / long-now | Less central audience for Ch 5 (which focuses on Social Security + financial crisis + healthcare; not deep-time stakes). However the retained full-form mention *"Sober public-finance adjustment is what cost severance looks like at civilizational scale when the time-displacement runs its course"* connects the chapter argument to deep-time-stakes framing. | ADEQUATE |
+| Tier 3a Trade gatekeepers | Trade gatekeepers value prose-craft. Structure B reads as confident authorial discipline — the writer earns the compression by establishing the term + then trusting the reader to follow. Pitchable + reads as "authorial voice with discipline." | STRONG |
+| Tier 3b Academic-trade hybrid gatekeepers | These editors specifically value simultaneous accessibility + intellectual rigor. Structure B demonstrates both — accessibility (compressed prose) + rigor (climax phrasing carries philosophical weight). The expand-before-climax rhythm is exactly what academic-trade-hybrid prose-style sections look for. | **STRONGEST** |
+| Classical-liberal reading | The paragraph's substantive critique (Social Security obligation generation as structural cost severance) is preserved exactly. Compression doesn't alter critique-receivability. | STRONG |
+| Civic-republican reading | "Value-capturing parties" / "cost-bearing parties" framing distinguishes private-benefit-extractors from public-good-bearers. Structure B preserves this framing word-for-word. Climax line engages civic-republican concern with structural-injustice. | STRONG |
+| Socialist / communitarian reading | *"Sober public-finance adjustment is what cost severance looks like at civilizational scale when the time-displacement runs its course"* is exactly the structural-class critique socialist readers respond to. The expansion at second-to-last position GIVES THIS LINE WEIGHT — that's a reading-position-favoring choice. | **STRONG (specifically benefits this reading)** |
+| Lived-oppression reading | Future-generation-taxpayers = cost-bearing-party in this case. Lived-oppression reading values the framework's clear naming of who-pays-vs-who-benefits. The *"cost-bearing-party absorbs the adjustment because the value-capturing-party is no longer accessible"* line is the structural-injustice articulation. Structure B preserves cadence; climax lands. | STRONG |
+
+**Net Structure B verdict:** STRONG or STRONGEST across 11 of 12 sub-audience cells; ADEQUATE on Tier 2e (which is less central to Ch 5's content anyway). The compression specifically benefits the socialist/communitarian reading by emphasizing the civilizational-scale-public-finance line.
+
+### §12.4 M11 critic-survival probes against Structure B
+
+**Critic 1 — "By compressing 'cost severance' to 'severance' you're losing precision; readers might confuse with HR severance / property severance / etc."**
+
+Response: Ch 5 establishes cost severance 13+ times before line 145 (lines 31, 35, 45, 73, 93, 95, 105, 107, 119, 125, 135, 137, 139). The operational definition immediately following the opening *"severance — the structural pattern by which value-capturing parties... were systematically separated from cost-bearing parties..."* self-anchors the meaning even if a reader skipped to this paragraph cold. M11 SURVIVES.
+
+**Critic 2 — "The expand-before-climax pattern feels like over-rhetoric; you're calling attention to the term gratuitously."**
+
+Response: All effective nonfiction uses rhythm-modulation. The expand-before-climax (sometimes called "rhetorical key-change-before-cadence") is a recognized device used by Mazzucato (*The Value of Everything*), Raworth (*Doughnut Economics*), Sen (*The Idea of Justice*) — all academic-trade-hybrid B-register exemplars. Drawing rhetorical attention to the term is appropriate when the term IS the chapter's central concept. M11 SURVIVES.
+
+**Critic 3 — "What if the paragraph gets excerpted in a review or quoted out of context?"**
+
+Response: The opening sentence carries the operational definition explicitly. Even excerpted, the reader gets *"the framework prices the severance — the structural pattern by which value-capturing parties... were systematically separated from cost-bearing parties..."* That's a self-contained framework-concept articulation. The full-form "cost severance" occurrence at second-to-last position also functions as a citation-anchor for excerpt purposes. Excerpt-resilience verdict: **ADEQUATE-STRONG.** M11 SURVIVES.
+
+**Critic 4 — "Why expand at the second-to-last position specifically?"**
+
+Response: The expansion serves two specific rhetorical functions: (1) reminding the reader of the FULL framework term right before the climax — a rhetorical-key-change before the final cadence; (2) emphasizing the *"civilizational scale"* claim in that specific sentence by presenting it with full term-weight. Both functions are intentional + load-bearing on the paragraph's argument structure. M11 SURVIVES.
+
+**Critic 5 — "Structure A is more conventional. Why not stick with the convention?"**
+
+Response: Convention has costs. Structure A's establish-then-compress is conventional but produces predictable rhythm. Structure B's compress-then-expand-then-compress produces rhythmic interest by violating convention purposefully. For a chapter whose central concept is a load-bearing recurring named handle, the violation creates emphasis; for chapters where the term is incidental, convention works. Ch 5's central concept = cost severance, so the unconventional rhythm earns its keep. M11 SURVIVES.
+
+### §12.5 M12 attribution-honesty check
+
+The compression decision doesn't change framework attribution. "Cost Severance" is the framework's Ring-1 coined term (ratified per b1_b2_naming pass + Cost-Severance-vs-Severed-Cost rigor pass; Ch 1 Option C HR-severance bridge). Compressing to "severance" within established chapter context doesn't compromise authorship. The framework's claim to the Cost Severance term remains intact in: terms_index Ring-1 entry; Glossary v3 entry; Tech Appendix usage; Bibliography lineage citations; Ch 5 chapter-section header (line 105 *"Cost Severance in the Financial Commons"*); Ch 5 first introduction (line 1).
+
+**Verdict:** M12 PASSES. No attribution risk.
+
+### §12.6 Cross-political-tradition robustness
+
+All four reading-positions read Structure B successfully per §12.3. Compression doesn't introduce political-tradition-distorting connotation; the expand-before-climax pattern specifically benefits the socialist/communitarian reading by emphasizing the civilizational-scale public-finance line.
+
+**Verdict:** PASSES across all four reading-positions.
+
+### §12.7 Voice impact + excerpt-resilience comparison
+
+| Criterion | Structure A | Structure B | Status quo |
+|---|---|---|---|
+| Rhythm pattern | A-bbbb-bb | bbb-A-bb | AAAA-bb |
+| Establishment-compression convention fit | STRONG (conventional) | ADEQUATE (unconventional but defensible) | WEAK (saturation) |
+| Climax punch | ADEQUATE | **STRONG** (expansion-before-climax creates contrast emphasis) | ADEQUATE |
+| Excerpt-resilience | STRONGER (opening anchor) | ADEQUATE-STRONG (operational definition + second-to-last citation-anchor compensate) | STRONG (multiple full-form anchors) |
+| Reader cognitive load | STRONG | STRONG | WEAK (saturation impedes flow) |
+| Word/syllable economy | STRONG | STRONG | WEAK |
+| Rhetorical sophistication | ADEQUATE (conventional) | **STRONG** (expand-before-climax is a recognized advanced device) | WEAK |
+
+**Net comparison:** Structure B wins on climax punch + rhetorical sophistication; Structure A wins on excerpt-resilience by a small margin. Both win decisively over status quo.
+
+### §12.8 Updated Group 3.2 verdict
+
+**Structure B passes the full multi-audience matrix + M11 + M12 + cross-political-tradition + voice-impact + excerpt-resilience tests:**
+
+- 11 of 12 sub-audience cells STRONG or STRONGEST; 1 cell ADEQUATE (Tier 2e existential-risk, less central to Ch 5's content)
+- All 5 M11 critic-survival probes SURVIVE
+- M12 attribution-honesty PASSES
+- Cross-political-tradition robustness PASSES across all 4 reading-positions
+- Voice impact STRONGER than Structure A; rhetorical sophistication is the key differentiator
+- Excerpt-resilience ADEQUATE-STRONG (slightly weaker than Structure A but compensated by operational definition + second-to-last citation-anchor)
+
+**Recommendation: APPROVE Structure B for Ch 5:145 compression.**
+
+### §12.9 Updated final recommendations
+
+**Item 3.1 — CSG descriptive prose renaming:** Multi-audience matrix per §11.7-§11.8 surfaces three viable candidates (P / Q / R); pending author discussion of three considerations.
+
+**Item 3.2 — Ch 5:145 compression:** Multi-audience matrix per §12 verifies Structure B passes all probes. **APPROVE Author Structure B per §6.5 + §12.** Apply chapter edit when author ratifies (single chapter edit; ~5 min implementation).
+
+---
+
+**End of rigor pass v1.0.0 [PROPOSED — awaiting Item 3.1 ratification (P/Q/R choice) + Item 3.2 ratification (Structure B per §12).]**
