@@ -836,6 +836,35 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #39 — Pre-publication external review for academic-rigor pass/fail gate — OPEN
+
+- **Raised:** 2026-04-29 by Phase 2 theorem-audit kickoff. Surfaced when Claude began Phase 2 deeper-dive on theorems E.1–E.5 (Phase 1 §10 candidate #3) per author direction 2026-04-29: *"the math formulas and proofs have to stand up to academic rigor or I don't have a book."*
+- **Status:** **OPEN; pre-publication-state work; not blocking until manuscript reaches submission-ready state.**
+- **Category:** academic-rigor · pass-fail-gate · external-review · pre-publication
+- **Content:** The Phase 2 theorem audits (and the Phase 2 mathematical-formula audits — RCV integrand; scarcity multiplier; integral convergence) produce **Claude's assessment** of the proofs and formulas. Claude is not formally credentialed in economics or formal methods. For a pass/fail academic-rigor gate at top-tier journals (AER, QJE, JPE, JEEM, JPubE) and at academic-trade hybrid presses (Princeton, Yale, Harvard, MIT, U-Chicago), eventual external review by a credentialed third party is warranted before publication. Without it, the framework's published academic claims rest on Claude's review alone — which is a defensible-but-thin foundation for the book's pass/fail success criterion (severed cost migrating into legal/policy text + book taken seriously by economics + ethics + policy-economics communities).
+
+- **Scope of external review proposed:**
+  1. **Theorems E.1–E.5 (post-Phase 2 restructure)** — proof-structure verification by economics PhD or formal-methods expert. Prerequisites: Phase 2 theorem audits complete (Insights #40–#44 or similar; one per theorem per Phase 1 §10 #3).
+  2. **Mathematical formulas** — RCV integrand notation; scarcity multiplier formula academic-defensibility; Hotelling Identity (already partially audited per Insight #30 §12.3 with three pre-publication safe-practice steps recommended). Prerequisites: Phase 2 mathematical-formula audits complete.
+  3. **Bibliography accuracy + completeness** — separate todo item per author direction 2026-04-28; tied to Phase 3 Tech Appendix v2.0.0 rebuild. External review can verify lineage citations resolve correctly + framework's positioning vis-à-vis cited literature is fairly characterized.
+  4. **Cross-political-tradition lineage citations** — Insight #35 Phase 2 + Insight #38 Phase 2 added substantial lineage (Coulthard; Tuck & Yang; Darity & Mullen; Anderson; Federici; Patel & Moore; Hickel; Mian & Sufi; Rothstein; Taylor; Coates; Hyman; Sugrue; Desmond). External review can verify the framework's positioning vis-à-vis these traditions is fair + non-extractive.
+
+- **Reviewer profile candidates:** economics PhD with intergenerational-equity / resource-economics specialization (Brown Weiss tradition; Solow tradition; Stern Review tradition); formal-methods reviewer for theorem proofs; potentially a heterodox-economics reviewer for cross-political-tradition discipline; potentially a reparations-economics reviewer (Darity & Mullen tradition) for racial-justice + housing-economics positioning. Multi-reviewer approach likely warranted given the framework's cross-disciplinary scope.
+
+- **Why this is OPEN now (raised but not yet executable):** the framework's academic-rigor restructure is in progress (Phase 2 theorem audits underway). External review is most useful AFTER the restructure produces academic-peer-review-ready proofs. Premature review (pre-restructure) would surface issues already known internally; post-restructure review tests whether the Phase 2 work succeeded.
+
+- **Implementation pending (when triggered):**
+  - Identify reviewer candidates (network search; Brown Weiss / Solow / Stern lineage academics; reparations-economics scholars).
+  - Determine compensation / honorarium structure.
+  - Determine review scope per reviewer (full theorem suite vs partial; full bibliography vs partial).
+  - Set timeline relative to manuscript submission.
+
+- **Why this is **not** blocking the Phase 2 work:** Phase 2 audits are valuable in themselves; they restructure the proofs to academic-rigor standards. External review tests the restructure but doesn't replace it. Phase 2 work proceeds; external review is a downstream gate.
+
+- **Dependencies / Links:** Phase 2 theorem audits (Phase 1 §10 candidate #3; ~5 separate rigor passes per Insight #38 verdict pattern observation suggests not unique to vocabulary items); Phase 2 mathematical-formula audits (Phase 1 §10 candidates #4 + #7 + #8); bibliography accuracy + completeness audit (per author direction 2026-04-28; tied to Phase 3 Tech Appendix v2.0.0 rebuild); Hotelling Identity §12 (Insight #30) already-recommended pre-publication safe-practice steps (Google Scholar + JSTOR + Web of Science literature collision-check; bibliography Hotelling 1931 cross-check; Tech Appendix v2.0.0 rebuild attribution audit).
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*
