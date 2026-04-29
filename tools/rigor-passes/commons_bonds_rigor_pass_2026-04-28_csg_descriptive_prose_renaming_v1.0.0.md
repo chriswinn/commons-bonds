@@ -8,13 +8,15 @@
 
 **Triggering articulation (2026-04-28 by Chris Winn):** *"'the industrial-vs-existential substitutability gap' just sounds clunky to me. We have to be able to come up with a better name."*
 
-**Status:** PROPOSED — awaiting author ratification.
+**Status:** **RATIFIED 2026-04-29 by Chris Winn** — Item 3.1 verdict: Candidate P (existential substitutability gap) + explicit disambiguation footnote per §13.7. Item 3.2 verdict: Author Structure B per §6.5 + §12 (applied 2026-04-29 commit `90540b9`). Initial Candidate A ("horizon-substitution gap") withdrawn per §11.2 reframing (undersold deep-time weight).
 
 **Author:** Chris Winn
 
-**Recommended verdict:** **Adopt "horizon-substitution gap" as the descriptive prose form** (replaces "industrial-existential substitutability gap" / "industrial-vs-existential substitutability gap"). Three-word phrase; framework-anchored ("substitution" connects to Substitutability Function S); paired-comparison signal ("horizon" implies current-horizon vs long-horizon); avoids collision with established critical-raw-materials policy meaning; reads cleanly in adjectival positions ("low horizon-substitution gap resources"). Sweep across Ch 7 + Ch 9 + glossary v3 + Tech Appendix §G + terms_index retirement record (~25 occurrences total).
+**Ratified verdict:** **Adopt Candidate P "existential substitutability gap" as the descriptive prose form** (replaces "industrial-existential substitutability gap" / "industrial-vs-existential substitutability gap"). Three words; preserves framework S Function anchor via "substitutability"; carries the deep-time existential weight (Bostrom 2002 + 2014 + MacAskill 2022 + Ord 2020 lineage); STRONG/STRONGEST across all 12 multi-audience cells per §11.7; SURVIVES all M11 + M12 + plagiarism/copyright/legal-exposure probes per §13.
 
-For Ch 5:145 cost-severance compression — **approve compression rewrite per cluster rigor pass §11.2.12.**
+**Disambiguation footnote required on first chapter introduction** (Ch 7 line ~117) — explicit citation of existential-risk economics lineage + explicit disambiguation from longtermism's specific ethical commitments + framework's gap-concept positioned as one input to existential-risk reasoning.
+
+For Ch 5:145 cost-severance compression — **Author Structure B applied 2026-04-29 (commit `90540b9`).**
 
 ---
 

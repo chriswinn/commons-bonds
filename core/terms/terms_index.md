@@ -887,7 +887,9 @@ These are **two different framework elements.** The earlier retirement audited t
 
 **Working definition (prior, retired):** A derived scalar CSG(R) = S_max(R, industrial) − S_max(R, existential) — the gap between industrial-context substitutability ceiling and existential-context substitutability ceiling for a resource R. Policy rule: high-gap resources warrant strategic in-situ preservation.
 
-**Status:** `RETIRED` as capitalized named term (ratified 2026-04-24 by Chris Winn). Concept preserved in prose as "industrial-existential substitutability gap" + sub-entry under Substitutability Function in glossary v3 + Tech Appendix §G formula + policy rule retained.
+**Status:** `RETIRED` as capitalized named term (ratified 2026-04-24 by Chris Winn). Concept preserved in prose as **"existential substitutability gap"** + sub-entry under Substitutability Function in glossary v3 + Tech Appendix §G formula + policy rule retained.
+
+**Preserved-prose-form rename note (2026-04-29):** Initial preservation form *"industrial-existential substitutability gap"* (2026-04-24) renamed to *"existential substitutability gap"* per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_csg_descriptive_prose_renaming_v1.0.0.md` Candidate P verdict ratified 2026-04-29 by Chris Winn. Multi-audience matrix (12 sub-audience cells) STRONG/STRONGEST across all cells. M11 + M12 + plagiarism/copyright/legal-exposure probes all SURVIVE with disambiguation discipline. Bostrom 2002 + Bostrom 2014 + MacAskill 2022 + Ord 2020 existential-risk economics lineage citations required on first chapter introduction (Ch 7 line ~117 disambiguation footnote).
 
 **Term-spec version:** v1.0 final (retirement).
 

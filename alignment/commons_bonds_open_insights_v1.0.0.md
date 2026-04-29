@@ -715,6 +715,24 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #33 — Group 3 Tier-1 sweep regressions ratified — CLOSED-RATIFIED 2026-04-29
+
+- **Raised:** 2026-04-28 by Chris Winn during cluster vocabulary rigor pass review (Group 3 framework-word touches).
+- **Status:** **closed-ratified 2026-04-29 (Chris Winn) — both Group 3 items applied.**
+  - **Item 3.1** — *"industrial-existential substitutability gap"* renamed to **"existential substitutability gap"** per Candidate P verdict (`commons_bonds_rigor_pass_2026-04-28_csg_descriptive_prose_renaming_v1.0.0.md` §13.7). Multi-audience matrix (12 sub-audience cells) STRONG/STRONGEST across all cells. M11 + M12 + plagiarism/copyright/legal-exposure probes all SURVIVE with disambiguation discipline. Bostrom 2002 + 2014 + MacAskill 2022 + Ord 2020 existential-risk economics lineage citation added at Ch 7 first-introduction (line 117) with explicit disambiguation from longtermism's specific ethical commitments + framework's gap-concept positioned as one input to existential-risk reasoning.
+  - **Item 3.2** — Ch 5:145 cost-severance compression Author Structure B applied 2026-04-29 (commit `90540b9`). Pattern: bbb-A-bb (drop "cost" prefix on instances 1, 2, 3; KEEP "cost severance" only on instance 4 immediately before climax). Multi-audience matrix STRONG/STRONGEST across 11 of 12 cells; specifically benefits socialist/communitarian reading by emphasizing the civilizational-scale public-finance line.
+- **Category:** vocabulary · framework-discipline · attribution · publisher-facing
+- **Implementation applied 2026-04-29:**
+  1. terms_index CSG retirement record updated — preserved-prose-form citation changed from "industrial-existential substitutability gap" to "existential substitutability gap" + added 2026-04-29 rename note.
+  2. Ch 7 *On Other Worlds* draft swept (~9 occurrences); disambiguation footnote added at line ~117 first introduction citing Bostrom + MacAskill + Ord lineage + explicit longtermism-disambiguation.
+  3. Ch 9 *Pricing Honestly* draft swept (~15 occurrences) including Ch 9:247 specific case ("civilizational substitutability gap" → "existential substitutability gap" — resolves Tier-1 sweep regression).
+  4. Tech Appendix v1.0.0 §G + scattered references swept (~17 occurrences); §3 sensitivity-analysis prose at line 4831 reframed ("industrial-existential extraction" → "extraction of resources with high existential substitutability gaps").
+  5. Ch 5:145 paragraph compression applied (Author Structure B per §6.5 + §12).
+- **Pending:** routine 1 pattern-list update — add `industrial.?existential substitutability gap` as retired-vocabulary regression pattern (separate RemoteTrigger update). Glossary v3 sub-entry rename deferred to Phase 4 v4 rebuild (auto-derives from terms_index per S1 schema).
+- **Dependencies / Links:** CSG renaming rigor pass (Item 3.1); cluster rigor pass §11.2.12 (Item 3.2); Ch 5:145 chapter edit commit `90540b9`; Ch 7/Ch 9/Tech Appendix sweep + disambiguation footnote in this commit.
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*
