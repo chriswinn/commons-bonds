@@ -754,4 +754,158 @@ All four reading-positions read Structure B successfully per §12.3. Compression
 
 ---
 
-**End of rigor pass v1.0.0 [PROPOSED — awaiting Item 3.1 ratification (P/Q/R choice) + Item 3.2 ratification (Structure B per §12).]**
+---
+
+## §13. Group 3.1 multi-audience full-discipline re-rigor — M11 + M12 + plagiarism/copyright/legal-exposure probes per P/Q/R candidate (added 2026-04-29)
+
+### §13.1 Author re-direction
+
+Author articulation (2026-04-29): *"Go ahead and pass Group 3.1 through the full rigor tests as well."*
+
+Per author direction, applying the same full-discipline rigor (M11 critic-survival probes + M12 attribution-honesty + plagiarism/copyright/legal-exposure probes) to each of the three CSG renaming candidates (P/Q/R) that was just applied to Hotelling Identity §12. The §11.7 multi-audience matrix surfaced the audience-fit per candidate; §13 surfaces the citation-discipline + legal-exposure landscape per candidate.
+
+### §13.2 Lineage-citation burden per candidate
+
+Each candidate brings the framework into a different academic-conversation-space + carries a different lineage-citation burden:
+
+| Candidate | Required lineage citations | Academic-conversation-space the framework enters |
+|---|---|---|
+| **P existential substitutability gap** | Bostrom 2002 (existential-risk concept origination); Bostrom 2014 *Superintelligence*; MacAskill 2022 *What We Owe the Future*; Ord 2020 *The Precipice*; Future of Humanity Institute / Centre for the Study of Existential Risk literature | Existential-risk economics + longtermism + future-of-humanity ethics |
+| **Q deep-time substitutability gap** | Hutton 1788 *Theory of the Earth* (deep-time geology origination); McPhee 1981 *Basin and Range* (deep-time popularization); Brand 1996+ Long Now Foundation; Anthropocene-studies literature (Steffen et al. 2015 *The Anthropocene Review*) | Deep-time geology + Anthropocene-studies + long-now/cathedral-thinking |
+| **R civilizational substitutability gap** | Diamond 2005 *Collapse*; Wright 2004 *A Short History of Progress*; Tainter 1988 *The Collapse of Complex Societies*; Polanyi 1944 (related civilizational-economy framing) | Civilizational-collapse historiography + comparative-civilizational political economy |
+
+**Each positioning has academic-trade-hybrid-publisher (Tier 3b) implications:**
+- **P** positions the framework alongside MacAskill/Bostrom/Ord — a high-profile but politically-charged academic conversation (longtermism is a contested current research program; criticisms from Crary 2020s, Émile Torres 2022+ have been substantial). Adopting "existential" requires the framework to take a stance within that conversation.
+- **Q** positions the framework alongside Brand/McPhee/Anthropocene-studies — a more politically-neutral but methodologically-eclectic conversation. Lower controversy footprint.
+- **R** positions the framework alongside Diamond/Tainter — a popular-historical conversation that economists sometimes regard as outside-the-discipline. Mixed academic reception.
+
+### §13.3 M11 critic-survival probes per candidate
+
+#### §13.3.1 Candidate P — M11 probes
+
+**Critic P1 — "You're appropriating Bostrom's existential-risk framing without explicit citation; this looks like free-riding on existential-risk discourse."**
+
+Response: Framework's adoption of "existential" as descriptive adjective for the substitutability-gap concept does NOT claim Bostrom's specific existential-risk framework. The framework cites Bostrom 2002 + 2014 + MacAskill 2022 on first introduction in chapter prose + Tech Appendix lineage; situates the framework as "extending economic-pricing apparatus to existence-critical resources, in conversation with [existential-risk literature]." Explicit attribution discipline + framework-extension clarity prevents free-riding charge. M11 SURVIVES.
+
+**Critic P2 — "'Existential' is philosophical-existentialism-coded (Sartre, Heidegger, Camus) — readers may import wrong connotations."**
+
+Response: "Existential" has multiple lineages: (a) philosophical-existentialism (Sartre, Heidegger, Camus) — concerns being-and-existence at individual level; (b) existential-risk-economics (Bostrom, MacAskill, Ord) — concerns species-level existence-stakes; (c) standard-English usage — anything pertaining to existence. The framework's chapter-prose first-introduction explicitly anchors meaning to (b) + standard-English (c); imports of (a) are blocked by context. M11 SURVIVES.
+
+**Critic P3 — "Longtermism is controversial; MacAskill has been criticized (Crary; Torres; Riley). Aligning with that framing politicizes the framework unnecessarily."**
+
+Response: Framework's "existential" adoption does NOT require alignment with longtermism-as-philosophical-program. The framework adopts the WORD "existential" + the economic-pricing-of-existence-stakes work; it does NOT adopt longtermism's specific ethical commitments (e.g., total-utilitarian aggregation across futures; Bostrom's specific population-ethics conclusions). Framework's chapter-prose can explicitly disambiguate: *"the framework's existential-substitutability concern is about resources critical to civilizational-continuity options; this is distinct from longtermism's specific ethical aggregation framework, though it draws on the same economic-pricing-of-future-states tradition."* M11 SURVIVES with explicit disambiguation footnote.
+
+**Critic P4 — "Bostrom's existential-risk framework is about extinction-level events; framework's substitutability-gap is about resource-substitutability differentials. Different concepts."**
+
+Response: True. The framework's gap concept is one input to existential-risk reasoning (resource-substitutability is one factor among many that determines civilizational-continuity options), not a substitute for the broader existential-risk apparatus. Chapter-prose can clarify: *"the existential substitutability gap is one element of the broader existential-risk landscape, focusing specifically on resource-availability over civilizational timescales."* This positions the framework as contributing TO existential-risk economics, not claiming to BE existential-risk economics. M11 SURVIVES.
+
+**Critic P5 — "What if Bostrom or MacAskill objects to the framework's appropriation of 'existential' for this specific concept?"**
+
+Response: "Existential" is standard-English vocabulary; no individual or institution holds claim. The framework's use is academic discussion + commentary + extension — fair-use protected + standard scholarly practice. Bostrom + MacAskill specifically welcome extensions to existential-risk economics (per their published work + FHI/CSER mission statements). Probability of formal objection: minimal. M11 SURVIVES.
+
+**Critic P6 — "'Existential substitutability gap' could be misread as 'gap in existential substitutability' (single-axis: how substitutable for existential uses) rather than 'gap between two evaluations' (paired: differential between current-industrial and long-horizon-civilizational)."**
+
+Response: This is the structural concern flagged in §11.4 / §11.7. Mitigation: chapter-prose first-introduction explicitly anchors paired-comparison meaning per §11.6 ("the gap between a resource's substitutability for current industrial applications and its substitutability for long-horizon civilizational-continuity applications"). After first introduction, the term carries the established meaning. Per-occurrence ambiguity blocked by context. M11 SURVIVES.
+
+#### §13.3.2 Candidate Q — M11 probes
+
+**Critic Q1 — "'Deep time' is geology vocabulary — does an economic-pricing framework belong using it?"**
+
+Response: "Deep time" has migrated beyond geology into Anthropocene-studies, climate-economics (Stern 2007 engages deep-time discounting), and long-now / cathedral-thinking discourse. The framework's use is consistent with this broader migration. McPhee 1981 + Brand 1996+ explicitly extend "deep time" beyond geology. Framework cites the cross-disciplinary lineage on first introduction. M11 SURVIVES.
+
+**Critic Q2 — "Long Now Foundation has techno-optimist tech-bro associations (Brand, Kelly, etc.); the framework may not want those associations."**
+
+Response: "Deep time" predates Long Now Foundation by 200+ years (Hutton 1788). Framework's lineage citations include Hutton + McPhee + Brand — the geology/popular-science lineage is dominant; Long Now is one of multiple sources. Framework can cite "deep time" without committing to Long Now's specific institutional positioning. M11 SURVIVES.
+
+**Critic Q3 — "McPhee's 'deep time' was about geological time per se; framework's gap is about substitutability-differential. Concept-mismatch?"**
+
+Response: Framework's adoption is "deep-time" as adjective qualifying "substitutability gap" — not claiming the framework's gap IS deep time itself. Compare: "long-run equilibrium" adopts "long-run" as qualifier without claiming THE concept is "the long run" itself. M11 SURVIVES.
+
+**Critic Q4 — "What if a critic accuses the framework of borrowing geology vocabulary inappropriately?"**
+
+Response: "Borrowing" interdisciplinary vocabulary is standard academic practice when properly cited. The framework's use is in the cross-disciplinary deep-time tradition (Anthropocene-studies, climate-economics, sustainability-science) — a well-established interdisciplinary space, not an inappropriate borrowing. M11 SURVIVES.
+
+**Critic Q5 — "'Deep-time substitutability gap' uses the geology adjective + econ noun phrase. Adjectival-deployment may read as forced compound."**
+
+Response: "Low deep-time substitutability gap resources" — works. "High deep-time substitutability gap" — works. Some hyphenated-compound awkwardness in adjectival positions but no worse than the original "industrial-existential substitutability gap." M11 ADEQUATE.
+
+#### §13.3.3 Candidate R — M11 probes
+
+**Critic R1 — "'Civilizational' is colonial-coded — whose civilization is being preserved? Framework's claim about 'civilizational continuity' may import Western-civilization-default-framing."**
+
+Response: Per §11.7 lived-oppression-reading verdict: this is a real concern. Mitigation requires framework's chapter-prose to explicitly disambiguate: *"the framework's 'civilizational' usage refers to human-civilization broadly — all humans across all civilizations — not Western-civilization-specifically. The Option C' political-philosophical accommodation extends to indigenous + heterodox readings of civilization; the framework engages plurality of civilizational forms."* Without this explicit disambiguation, the colonial-coding concern is real. M11 SURVIVES with explicit disambiguation, WEAK without.
+
+**Critic R2 — "Lowercase 'civilizational substitutability gap' looks identical to the retired Civilizational Substitutability Gap (CSG) proper-noun. Reader confusion risk."**
+
+Response: Per §11.4 and §11.7: real concern. Mitigation: terms_index supersession record explicitly flags the lowercase form is the preserved-descriptive-prose form per CSG retirement record. Chapter-prose deploys lowercase consistently. Reader who searches "Civilizational Substitutability Gap" finds the retired-record + the preserved-lowercase-form together. ADEQUATE-WITH-MITIGATION; absent careful supersession discipline, WEAK.
+
+**Critic R3 — "Diamond/Tainter are popular-historical, not economic-pricing literature. Framework's lineage citation here may not satisfy economics-academic readers."**
+
+Response: True — Diamond + Tainter + Wright are popular-historical / political-economy / archaeology-of-collapse literatures, not welfare-economics. For Tier 2a (academic economists), the lineage citation may read as outside-discipline. Mitigation: framework's chapter-prose can position civilizational-collapse work as ADJACENT but not primary lineage; primary lineage stays Pigou/Hotelling/Stern/Hartwick (welfare-economics) with civilizational-collapse work as informing-context. M11 SURVIVES with primary-lineage-stays-welfare-economics framing.
+
+**Critic R4 — "'Civilizational' carries collapse-narrative associations (Diamond's *Collapse*, Tainter's *Collapse*). Reader may import doom-framing not appropriate to framework's tone."**
+
+Response: Framework's tone is sober + analytical, not doom-narrative. Adopting "civilizational" lowercase + chapter-prose-tone-discipline blocks doom-narrative imports. But there's residual risk that some readers import the connotation regardless. ADEQUATE.
+
+**Critic R5 — "Why prefer 'civilizational' (which has known collisions per R1, R2, R3, R4) over 'existential' (which has cleaner lineage)?"**
+
+Response: This is the core tradeoff between R and P. R's strengths: most-direct mapping to author's articulation; Diamond/Tainter accessible to general readers. R's weaknesses: colonial-coding risk; collision with retired CSG; popular-historical (not econ) lineage. P's strengths: Bostrom/MacAskill economic-pricing-of-existence lineage; cleaner across all four reading-positions. P's weaknesses: longtermism-controversy proximity; existential-risk concept mismatch with substitutability-gap concept. **Per §11.7 multi-audience matrix, P scores STRONG/STRONGEST across all 12 cells; R scores WEAK-RISK on lived-oppression reading.**
+
+### §13.4 M12 attribution-honesty per candidate
+
+| Element | Candidate P | Candidate Q | Candidate R |
+|---|---|---|---|
+| Lineage-citation requirements (first introduction) | Bostrom 2002; Bostrom 2014; MacAskill 2022; Ord 2020 | Hutton 1788; McPhee 1981; Brand 1996+ Long Now; Steffen 2015 | Diamond 2005; Wright 2004; Tainter 1988; Polanyi 1944 |
+| Bibliography burden | 4-5 new entries | 4-5 new entries | 4 new entries |
+| Framework-vs-existing-work distinction | STRONG (framework adopts existential adjective + cites; doesn't claim to BE existential-risk economics) | STRONG (deep-time as qualifier; cites deep-time lineage; framework's contribution is the gap-concept itself) | STRONG (civilizational as descriptive; framework's contribution is the gap-concept) |
+| Disambiguation-from-source-concept | Required (P3 + P4 mitigation: framework is one input to existential-risk reasoning, not equal to it) | Optional (deep-time is broad qualifier; minimal disambiguation needed) | Required (R1 + R3 + R4 mitigation: civilizational ≠ Western-civilizational-default; framework cites collapse-historiography as adjacent not primary) |
+| **Net M12 verdict** | STRONG with required disambiguation footnote | STRONG | ADEQUATE-with-required-disambiguation; WEAK without |
+
+### §13.5 Plagiarism / copyright / legal-exposure probes per candidate
+
+**For all three candidates:**
+- Plagiarism: zero risk if framework cites the lineage on first introduction. The candidates use COMMON-ENGLISH adjectives ("existential" / "deep-time" / "civilizational") that are not copyrightable + not exclusive to any institution.
+- Copyright: zero risk. Adjectival use is fair-use academic discussion.
+- Defamation: zero risk. No claims about identifiable individuals.
+- Academic-misconduct: zero risk if lineage-citation discipline holds.
+
+**Candidate-specific legal exposure:**
+
+**Candidate P:** Slightly elevated reputational-risk exposure due to longtermism-controversy proximity. If the framework gets associated with EA-longtermism via the "existential" adoption, framework may inherit critiques of longtermism (e.g., Émile Torres 2022 critiques of MacAskill; Crary critiques of effective altruism). Mitigation: explicit disambiguation footnote per P3 makes clear framework adopts the WORD without adopting longtermism's specific ethical commitments. Net legal-exposure: minimal; reputational-association: ADEQUATE-WITH-MITIGATION.
+
+**Candidate Q:** Minimal reputational-association concern. Long Now Foundation has tech-techno-optimist associations but those are mild; deep-time predates Long Now and has broad cross-disciplinary use. Net legal + reputational: minimal.
+
+**Candidate R:** Minimal legal exposure. Reputational-association concern: civilizational framing has known critiques in indigenous + heterodox + post-colonial scholarship (cf. Linda Tuhiwai Smith 1999 *Decolonizing Methodologies*; Eduardo Galeano *Open Veins*; etc.). Adopting "civilizational" without explicit disambiguation invites those critiques; with disambiguation, manageable. Net legal: minimal; reputational-association: ADEQUATE-WITH-DISAMBIGUATION; WEAK-WITHOUT.
+
+### §13.6 Updated assessment integrating §11 + §13
+
+| Criterion | P existential | Q deep-time | R civilizational |
+|---|---|---|---|
+| §11.7 multi-audience matrix (12 cells) | **STRONG/STRONGEST across all 12** | STRONG on 8; ADEQUATE-WEAK on 4 (Tier 2b legal/policy + lived-oppression + civic-republican + socialist) | STRONG on 9; WEAK-RISK on lived-oppression; collision risk with retired CSG proper-noun |
+| §13.3 M11 critic survival | 6 probes SURVIVE (with disambiguation footnote on P3, P4) | 5 probes SURVIVE; 1 ADEQUATE | 5 probes; 2 ADEQUATE-WITH-MITIGATION; net SURVIVES with discipline |
+| §13.4 M12 attribution-honesty | STRONG with disambiguation | STRONG | ADEQUATE with disambiguation; WEAK without |
+| §13.5 Plagiarism/copyright | zero risk | zero risk | zero risk |
+| §13.5 Legal/reputational exposure | minimal-with-disambiguation; longtermism-controversy proximity | minimal | minimal-with-disambiguation; colonial-coding risk |
+| Bibliography burden | 4-5 new entries (existential-risk literature) | 4-5 new entries (deep-time + Anthropocene-studies) | 4 new entries (collapse-historiography) |
+| Academic-conversation-space the framework enters | Existential-risk economics + longtermism (high-profile + politically-charged) | Deep-time geology + Anthropocene-studies (politically-neutral, methodologically-eclectic) | Civilizational-collapse historiography (popular-historical; mixed academic reception) |
+
+### §13.7 Final recommendation
+
+Net assessment after §11 + §13:
+
+- **Candidate P (existential substitutability gap)** — best multi-audience matrix performance (STRONG/STRONGEST across all 12 cells); strongest economic-pricing-of-existence-stakes lineage anchor; M11 + M12 + plagiarism/copyright all SURVIVE with disambiguation discipline. **Tradeoff:** longtermism-controversy proximity requires explicit disambiguation footnote on first chapter introduction.
+- **Candidate Q (deep-time substitutability gap)** — strong on Tier 1 + Tier 2d/2e + Tier 3b; weak on Tier 2b D-modulation adoption-travel; minimal legal/reputational risk. **Tradeoff:** D-modulation chapters (Ch 9 + Ch 7 instrument-design) lose adoption-travel to regulatory text.
+- **Candidate R (civilizational substitutability gap)** — most-direct mapping to author's articulation; strong with required disambiguation discipline (colonial-coding mitigation + collision-with-retired-CSG mitigation). **Tradeoff:** lived-oppression reading is WEAK-RISK without disambiguation; popular-historical lineage may not satisfy academic-economists.
+
+**Updated current recommendation: Candidate P (existential substitutability gap) with explicit disambiguation footnote on first chapter introduction.** The footnote makes clear: framework adopts "existential" as descriptive adjective + cites existential-risk economics lineage; framework does NOT adopt longtermism's specific ethical commitments; framework's gap-concept is one input to existential-risk reasoning, not equal to it.
+
+**Pending author discussion of three considerations from §11.8:**
+1. How heavily does indigenous + lived-oppression reading weigh? (Favors P over R; P scores STRONG on lived-oppression where R scores WEAK-RISK)
+2. How heavily does D-modulation adoption-travel weigh? (Favors P + R over Q; Q scores WEAK on Tier 2b)
+3. How heavily does Bostrom-MacAskill-Long-Now lineage anchor weigh? (Favors P; P pattern-matches MacAskill's economic-pricing-of-deep-future project most directly)
+
+**Author choice between P / Q / R remains the load-bearing decision.** Default if author defers: **Candidate P + disambiguation footnote.**
+
+---
+
+**End of rigor pass v1.0.0 [PROPOSED — Item 3.2 ratified + applied 2026-04-29 (commit 90540b9). Item 3.1 awaiting author choice between P / Q / R + ratification.]**
