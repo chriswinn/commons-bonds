@@ -8,7 +8,7 @@
 
 **Scope:** Phase 2 academic-rigor depth audit on **Theorem E.1 (Structural Cost Severance)** as currently stated in [Tech Appendix v1.0.0 §10 line 3249-3258](core/technical-appendix/TechnicalAppendix_v1.0.0.html). E.1 asserts the framework's foundational claim that cost severance occurs structurally (not just intentionally) under current institutions. This rigor pass tests the proof structure against academic-peer-review standards + identifies the formalization repair work required.
 
-**Status:** PROPOSED — Phase 2 audit complete; awaiting author ratification of verdict + recommended actions.
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify: split into E.1a + E.1b; adopt premises P1–P3; tighten scope; add citations.** Tech Appendix HTML edit timing (apply restructure to v1.0.0 now vs batch into Phase 3 Tech Appendix v2.0.0 rebuild) — pending author choice on §15 Q1 (same open question as Insights #35 + #38 + #40; possibility of unified batch into v2.0.0 rebuild for all Phase 2 Tech Appendix changes).
 
 **Author:** Chris Winn
 
@@ -649,4 +649,4 @@ This rigor pass + 4 sibling theorem rigor passes produce Claude's assessment. Pe
 
 ---
 
-**End of Phase 2 deeper-dive rigor pass v1.0.0 [PROPOSED — awaiting author ratification of §14.1 verdict + §14.4 ratification choices + §15 open questions].**
+**End of Phase 2 deeper-dive rigor pass v1.0.0 [RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify].**
