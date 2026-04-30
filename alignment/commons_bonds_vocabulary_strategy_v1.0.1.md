@@ -623,4 +623,97 @@ Whenever this document is revised:
 
 ---
 
-**End of vocabulary strategy v1.0.1 [RATIFIED 2026-04-28 by Chris Winn].**
+## §13. Notation-discipline (added 2026-04-29 per Insight #55)
+
+### §13.1 Why this section exists
+
+Per Insight #42 (Phase 2 E.3 audit) + Insight #50 (Phase 2 RCV acronym collision) + Insight #52 (Phase 2 RCV integrand Q(t) convention divergence) + Insight #55 (framework-wide notation collision audit OPEN): notation collisions are a parallel discipline to vocabulary collisions. The same letter or abbreviation used for distinct concepts across the framework's apparatus produces the same M12 attribution-honesty + readability issue that the vocabulary-discipline framework is designed to prevent. This §13 codifies notation-discipline as standing reference parallel to §6 (suffix-convention discipline) + §7 (capitalization-discipline) + §8 (cross-political-tradition robustness check).
+
+### §13.2 The reserved-letter ledger (per current framework usage)
+
+Before introducing any new single-letter variable, multi-letter abbreviation, or Greek letter to the framework, cross-check against the reserved-letter ledger below. If the chosen letter/symbol collides with reserved usage, choose a non-reserved alternative.
+
+**Single-letter variables (Latin):**
+
+| Letter | Reserved use | Source / authority |
+|---|---|---|
+| **A** | Abundance (cost-tier domain in Theorem E.3) | Tech Appendix §10 E.3 |
+| **B** | Aggregate Accountability Bond (CS = RCV − B) | Tech Appendix §B + terms_index entry |
+| **B₁** | Restitution Bond (sub-instrument) | terms_index Restitution Bond entry |
+| **B₂** | Foreclosure Bond (sub-instrument) | terms_index Foreclosure Bond entry |
+| **C, Cᵢ** | Cost / i-th cost component | Tech Appendix §B Definition A.4 |
+| **CS** | Cost Severance (per equation CS = RCV − B) | Tech Appendix §B + terms_index Cost Severance entry |
+| **D, D(t, t₀)** | Discount factor (Weitzman 2001 declining-rate) | Tech Appendix §B Definition A.5 |
+| **E, E(R, t)** | Externality tail (function); also Theorem labels E.1–E.5 (context disambiguates) | terms_index Externality Tail entry; Tech Appendix §10 |
+| **P** | Market price | Tech Appendix §10 E.1 |
+| **Q, Q(t)** | Quality-stock | Insight #52 (P2#8) |
+| **R** | Resource (in RCV integrand) | Tech Appendix §B Definition A.1 |
+| **S, S(t)** | Substitutability function (probability function in [0, 1]) | Tech Appendix §B Definition A.2 |
+| **U, U(R, t, Q(t))** | Utility | Tech Appendix §B Definition A.6 |
+
+**Subscript + superscript patterns:**
+
+| Pattern | Reserved use | Source |
+|---|---|---|
+| **S_max** | Substitutability function limit (existential substitutability gap) | Insight #33 |
+| **t₀** | Initial time (extraction time) | Tech Appendix §B |
+| **r_∞** | Long-run discount rate | Insight #40 (Theorem E.4) |
+
+**Greek letters:**
+
+| Letter | Reserved use | Source |
+|---|---|---|
+| **α** | Scarcity-multiplier exponent / cost-function curvature parameter | Insight #42 (Theorem E.3) + Insight #47 (P2#7 scarcity multiplier) |
+| **λ** | Substitutability function exponential parameter | Insight #40 (Theorem E.4) |
+| **τ (tau)** | Scarcity threshold | Insight #42 (Theorem E.3 — renamed from S to τ to disambiguate from substitutability function S(t)) |
+
+**Multi-letter abbreviations:**
+
+| Abbreviation | Reserved use | Source |
+|---|---|---|
+| **RCV** | Residual Commons Value | Tech Appendix §B Definition A.1 + terms_index entry |
+| **CIT** | Commons Inversion Test | terms_index entry; supersedes AIT |
+| **CSD** | Cost Severance Damages | terms_index entry |
+| **ARR** | Asymmetric Regret Rule | terms_index entry; supersedes ARP |
+| **IPG** | Intergenerational Pricing Gap | terms_index entry |
+| **CS** | Cost Severance (also single-letter-pair convention) | terms_index entry |
+| **AIT** | RETIRED — superseded by CIT | terms_index retired-records |
+| **FGC** | RETIRED | terms_index retired-records |
+| **ESG** | RETIRED in framework context (industrial-existential substitutability gap) | terms_index retired-records |
+
+### §13.3 The discipline going forward
+
+When coining a new framework variable, abbreviation, or Greek letter (Tier D move per §3), the notation choice must:
+
+1. **Cross-check the reserved-letter ledger** (§13.2) before introduction. If the letter is reserved, choose a non-reserved alternative.
+2. **Pattern-match academic conventions** for the role (e.g., σ commonly denotes standard deviation in econometrics; if the framework introduces σ for something else, justify the divergence with M12 attribution-honesty footnote per §6.4).
+3. **Survive the cross-political-tradition robustness check** parallel to §8 — for symbols (e.g., subscripted letters or composite notation), verify the choice doesn't have unintended connotations in adjacent academic fields.
+4. **Document the reservation** — when a new letter/abbreviation is ratified, this §13.2 ledger is updated in the same commit.
+
+### §13.4 Failure mode this prevents
+
+Per Insight #42 Phase 2 E.3 audit: the S → τ collision (E.3 scarcity threshold colliding with E.4 substitutability function S(t) and Insight #33 S_max) was caught only because the cross-theorem viewing angle surfaced it; single-theorem audits would not have flagged it. Without standing notation-discipline, future framework decisions risk introducing similar collisions.
+
+The four-layer notation discipline (Routine 1 prospective + Routine 2 retrospective + Insight #55 one-time retroactive + this §13 preventive) provides comprehensive coverage:
+
+- **Prospective (Routine 1)** — daily sentinel catches new collisions as introduced.
+- **Retrospective (Routine 2)** — weekly pre-submission sweep catches anything routine 1 misses.
+- **One-time retroactive (Insight #55)** — surfaces existing collisions before Phase 3 Tech Appendix v2.0.0 rebuild.
+- **Preventive (this §13)** — guides new framework decisions; reserved-letter ledger consulted before any new notation introduction.
+
+### §13.5 Cross-references
+
+- **Insight #42** — Phase 2 E.3 audit; origin of NOTATION COLLISION finding; established S → τ rename.
+- **Insight #50** — Phase 2 RCV acronym collision; resolved.
+- **Insight #52** — Phase 2 RCV integrand Q(t) convention divergence; resolved via §B Definition A.3 expansion.
+- **Insight #33** — existential substitutability gap rename; established S_max notation.
+- **Insight #40** — Theorem E.4 audit; established S(t) substitutability-function notation discipline.
+- **Insight #55 OPEN** — Framework-wide notation collision audit (one-time retroactive sweep); informs Phase 3 v2.0.0 rebuild.
+- **Insight #39 OPEN** — Pre-publication external review; notation-discipline reviewer is one of the multi-perspective reviewers warranted.
+- **Routine 1** — daily terminology-regression sentinel extended with notation-collision patterns (#9 specific S → τ; #10 reserved-letter ledger general).
+- **Routine 2** — weekly pre-submission readiness audit extended with comprehensive notation-collision sweep (check #5).
+- **Phase 3 Tech Appendix v2.0.0 rebuild** — downstream implementation venue for any collision-resolution renames identified by Insight #55 audit.
+
+---
+
+**End of vocabulary strategy v1.0.1 [RATIFIED 2026-04-28 by Chris Winn; §13 notation-discipline added 2026-04-29 per Insight #55].**

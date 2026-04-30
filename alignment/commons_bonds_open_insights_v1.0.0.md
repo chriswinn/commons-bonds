@@ -1114,6 +1114,57 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #55 — Framework-wide notation collision audit (one-time retroactive sweep) — OPEN
+
+- **Raised:** 2026-04-29 by Insight #42 Phase 2 E.3 audit + parallel-session integration §17. The S → τ collision (E.3 scarcity threshold colliding with E.4 substitutability function and Insight #33 S_max) was caught only because the cross-theorem viewing angle surfaced it; single-theorem audits would not have flagged it. Other collisions almost certainly exist that haven't been surfaced. Author direction 2026-04-29: implement four-layer notation discipline (Routine 1 prospective + Routine 2 retrospective + this Insight one-time retroactive + Vocabulary strategy v1.0.1 standing-discipline preventive).
+- **Status:** **OPEN; one-time retroactive audit; pre-publication-state work; informs Phase 3 Tech Appendix v2.0.0 rebuild.**
+- **Category:** notation-discipline · academic-rigor · cross-document-sweep · pre-publication
+- **Content:** Comprehensive sweep of all variable letters/symbols + abbreviations across the framework's apparatus to identify undisclosed notation collisions. Scope:
+  - **Documents in scope:** Tech Appendix v1.0.0 HTML (all sections); terms_index.md (all entries); manuscript/chapters/Chapter_*Draft.{md,html} (all 10 chapters); core/glossary/commons_bonds_updated_glossary_v3.html.
+  - **Categories to check:**
+    1. **Single-letter overloads** — A; B; C; D; E; P; Q; R; S; U; plus Greek letters α; β; γ; δ; ε; η; θ; λ; μ; ν; π; ρ; σ; τ; φ; ψ; ω. For each, identify all distinct semantic uses across the document set.
+    2. **Multi-letter abbreviations** — RCV; CIT; CSD; ARR; IPG; CS; AIT (retired); FGC (retired); ESG (retired). For each, identify all distinct semantic uses.
+    3. **Subscript patterns** — B₁; B₂; Cᵢ; S_max; t₀; r_∞. For each, verify subscript-context discipline.
+    4. **Greek-letter conventions** — verify any Greek letter introduced (α curvature; β coefficient; λ exponential parameter; τ scarcity threshold; etc.) is consistent across uses.
+  - **Reserved-letter ledger (per Routine 1 pattern #10; codified in Vocabulary strategy v1.0.1 §13):**
+    - **S, S(t)** — substitutability function (Tech Appendix §B Definition A.2)
+    - **S_max** — substitutability function limit (Insight #33)
+    - **τ (tau)** — scarcity threshold per Insight #42
+    - **B, B₁, B₂** — Accountability Bond + sub-instruments
+    - **C, Cᵢ** — cost / i-th cost component
+    - **CS** — Cost Severance
+    - **D, D(t, t₀)** — discount factor
+    - **E, E(R, t)** — externality tail (function); also Theorem labels E.1–E.5
+    - **R** — resource
+    - **Q, Q(t)** — quality-stock per Insight #52
+    - **U, U(R, t, Q(t))** — utility
+    - **A** — abundance (Theorem E.3)
+    - **r(s), r_∞** — discount rate (per Insight #40)
+    - **α** — scarcity-multiplier exponent / cost-function curvature
+    - **λ** — substitutability exponential parameter (per Insight #40)
+- **Already-identified collisions (cross-reference pre-existing Insight resolutions):**
+  - **Insight #42** (Phase 2 E.3) — S = scarcity threshold collision with S(t) = substitutability function and S_max. **RESOLVED**: rename S → τ in E.3 + CIT Definition A.8 reframing.
+  - **Insight #50** (Phase 2 #4 RCV acronym collision) — RCV vs adjacent-field meanings (radio common variable; recreational vehicle; ranked-choice voting). **RESOLVED** via Phase 2 audit.
+  - **Insight #52** (Phase 2 #8 RCV integrand Q(t) notation-clarity) — Q(t) convention divergence (framework's Q-as-quality-stock vs Hotelling 1931 q-as-extraction-flow vs Pindyck 1978 X(t)-for-stock vs Dasgupta-Heal 1979 S(t)-for-stock vs Mussa-Rosen 1978 Q-as-quality-index). **RESOLVED** via §B Definition A.3 expansion.
+- **Output of audit:**
+  - Collision report — per category (single-letter; multi-letter; subscript; Greek), list each collision found with file:line examples + severity (HIGH / MEDIUM / LOW).
+  - Rename recommendations — for each collision, recommend which use stays vs which gets renamed; rationale + cross-reference to existing resolutions.
+  - Cross-political-tradition robustness check — for new Greek letter or symbol choices, verify the choice doesn't collide with academic conventions in adjacent fields (resource economics; intergenerational ethics; commodity economics; tipping-point ecology).
+- **Implementation venue:** feeds into Phase 3 Tech Appendix v2.0.0 rebuild (where most collision repairs will land). Some collisions may require chapter-prose updates (handled at Insight #36 Ch 1 + Ch 2 conversational drafting session OR as part of pre-submission editorial review).
+- **Cadence relationship to routines:**
+  - **Routine 1** (daily sentinel) — prospective; catches new collisions as introduced. Already extended per this Insight (pattern #9 + #10).
+  - **Routine 2** (weekly pre-submission audit) — retrospective; comprehensive sweep against reserved-letter ledger. Already extended per this Insight (check #5 inserted between truncated-paragraphs and chapter-length-tracking).
+  - **This Insight (one-time retroactive)** — covers the gap routines won't catch automatically; surfaces the *currently-existing* collisions before Phase 3 v2.0.0 rebuild.
+  - **Vocabulary strategy v1.0.1 §13** — preventive standing discipline; guides new vocabulary decisions to avoid future collisions.
+- **Pre-publication external review (per Insight #39):** notation-discipline reviewer (mathematical-economics formal-methods specialist) verifies collision audit is exhaustive + reserved-letter ledger is correct + recommended renames are non-disruptive to academic-economics readers. Downstream gate.
+- **Implementation pending:**
+  - **Execute the sweep** — comprehensive cross-document scan per categories above; estimated scope ~400-600 lines (rigor pass document) + collision-report findings.
+  - **Update Vocabulary strategy v1.0.1 §13** with reserved-letter ledger codified (parallel to §6 suffix-convention discipline). Already drafted in this commit.
+  - **Phase 3 Tech Appendix v2.0.0 rebuild scope** — incorporate all collision-resolution renames + reserved-letter ledger as discipline.
+- **Dependencies / Links:** Insight #42 (Phase 2 E.3 — origin of NOTATION COLLISION finding); Insight #50 (Phase 2 RCV acronym collision); Insight #52 (Phase 2 RCV integrand Q(t) convention divergence); Insight #33 (existential substitutability gap rename — established S_max notation); Insight #40 (Theorem E.4 — established S(t) notation); Insight #39 (pre-publication external review; downstream gate); Routine 1 (`tools/routines/proposed_routines_v1.0.0.md` — extended with notation-collision patterns #9 + #10); Routine 2 (same file — extended with notation-collision sweep check #5); Vocabulary strategy v1.0.1 §13 (this commit — codifies reserved-letter ledger as standing discipline); Phase 3 Tech Appendix v2.0.0 rebuild (downstream implementation venue).
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*

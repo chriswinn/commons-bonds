@@ -44,6 +44,30 @@ Patterns to check (each is a regex):
   6. "industrial-existential substitutability gap" or "\\bESG\\b" (in framework context) — RETIRED 2026-04-24 on parsimony grounds; replaced by "industrial-existential substitutability gap" lowercase prose phrase
   7. "Spatial Cost Severance" (Title Case as proper noun) — RETIRED 2026-04-24, replaced with lowercase prose phrase per Spatial CS re-examination rigor pass v1.1
   8. "\\bFGC\\b" or "Full Generational Cost" — RETIRED 2026-04-24 per tier-reframing rigor pass
+  9. NOTATION COLLISION — S used as scarcity threshold (collides with substitutability function S(t)) — RENAMED to τ (tau) per Insight #42 RATIFIED 2026-04-29 (Phase 2 Theorem E.3 audit + parallel-session integration §17). Detection patterns:
+     - "[Ss]carcity threshold S\\b" (S used as scarcity threshold variable)
+     - "\\bS = scarcity\\b" (S being defined as scarcity threshold)
+     - "scarcity threshold .{0,30}\\bS\\b" (prose phrasing colliding S with scarcity threshold)
+     - "abundance threshold .{0,30}\\bS\\b" (parallel — "abundance threshold" framing)
+     Remediation hint: rename S → τ for scarcity/abundance threshold; reserve `S` and `S(t)` exclusively for substitutability function (per Insight #40 E.4 audit + framework's RCV integrand discipline).
+  10. NOTATION COLLISION (general) — new single-letter Tech Appendix variable definition that collides with reserved letters. Reserved letter ledger (per current framework usage; cross-check before introducing new variables):
+     - **S, S(t)** — substitutability function (Tech Appendix §B Definition A.2; load-bearing in RCV integrand + Theorems E.4 + E.5)
+     - **S_max** — substitutability function limit (existential substitutability gap per Insight #33)
+     - **τ (tau)** — scarcity threshold per Insight #42 (Phase 2 E.3)
+     - **B, B₁, B₂** — Accountability Bond + sub-instruments (Restitution Bond + Foreclosure Bond)
+     - **C, Cᵢ** — cost / i-th cost component
+     - **CS** — Cost Severance (per equation CS = RCV − B)
+     - **D, D(t, t₀)** — discount factor (Weitzman 2001 declining-rate)
+     - **E, E(R, t)** — externality tail (function); also Theorem labels E.1–E.5 (context disambiguates)
+     - **R** — resource
+     - **Q, Q(t)** — quality-stock per Insight #52 (RCV integrand notation)
+     - **U, U(R, t, Q(t))** — utility
+     - **A** — abundance (Theorem E.3 domain)
+     - **r(s), r_∞** — discount rate (per Insight #40 Theorem E.4)
+     - **α** — scarcity-multiplier exponent / cost-function curvature parameter
+     - **λ** — substitutability function exponential parameter (per Insight #40)
+     Detection pattern: heuristic — grep for new variable-definition forms ("Let X = " or "where X is " or "X denotes ") and cross-check the X against reserved-letter ledger above. Flag any conflict.
+     Remediation hint: choose a non-reserved letter or Greek letter not already in use (e.g., σ, μ, ν, ξ, π, ρ, φ, ψ, ω; or capital Greek like Γ, Δ, Θ, Λ, Π, Σ, Ψ, Ω).
 
 Exclusions (do NOT flag):
   - core/terms/terms_index.md SUPERSEDED + RETIRED records (canonical record of retired terms)
@@ -112,7 +136,35 @@ For each manuscript/chapters/Chapter_*Draft.* file, check:
    - Pattern: lines ending with "..." mid-paragraph (heuristic: "delivers the intergene" / "the full ext" / similar mid-word truncations)
    - Findings: flag files + line numbers
 
-5. Chapter-length tracking (per memory rule on standing chapter-length tracking):
+5. NOTATION COLLISION SWEEP (per Insight #55 framework-wide notation discipline, RATIFIED 2026-04-29):
+
+   Comprehensive cross-document scan for notation collisions across:
+   - core/technical-appendix/TechnicalAppendix_v*.html
+   - core/terms/terms_index.md
+   - manuscript/chapters/Chapter_*Draft.{md,html}
+   - core/glossary/commons_bonds_updated_glossary_v*.html
+
+   For each single-letter variable + multi-letter abbreviation in active use:
+   (a) Identify all distinct semantic uses across the document set.
+   (b) Flag any letter/abbreviation used for >1 distinct concept.
+   (c) Cross-check against reserved-letter ledger (Routine 1 pattern #10).
+
+   Specific patterns to scan:
+   - Single-letter variables: A, B, C, D, E, P, Q, R, S, U, plus Greek letters α, β, γ, δ, ε, η, θ, λ, μ, ν, π, ρ, σ, τ, φ, ψ, ω
+   - Multi-letter abbreviations: RCV, CIT, CSD, ARR, IPG, CS, AIT (retired), FGC (retired), ESG (retired)
+   - Subscript patterns: B₁, B₂, Cᵢ, S_max, t₀, r_∞
+
+   Output format:
+
+   For each collision detected:
+   - Letter/abbreviation: <symbol>
+   - Distinct semantic uses: <list, with file:line examples>
+   - Severity: HIGH (load-bearing in framework apparatus) / MEDIUM (used in prose only) / LOW (single-instance overlap)
+   - Remediation suggestion: <which use stays + which gets renamed; cite Insight # if already addressed>
+
+   This sweep is retrospective + cumulative; expect zero new collisions per week once Insight #55 audit is complete + Phase 3 v2.0.0 rebuild applied. Pre-completion: expect findings.
+
+6. Chapter-length tracking (per memory rule on standing chapter-length tracking):
    - Word count per chapter file
    - Compare to standing target ranges:
      - Ch 1: 5,000-6,000 (currently partial draft)
@@ -136,13 +188,23 @@ Per chapter:
   - Strikethrough markup: [CLEAN | N findings: ...]
   - INTERVIEW NEEDED placeholders: [N count, line refs]
   - Truncated paragraphs: [CLEAN | N findings: ...]
+  - Notation-collision findings (in chapter prose): [CLEAN | N findings: ...]
   - Pre-submission status: [READY | NEEDS CLEANUP: ...]
+
+Notation-collision sweep summary (cross-document; not per-chapter):
+  - Letters/abbreviations checked: <count>
+  - Collisions detected: <count>
+  - HIGH severity: <count, list>
+  - MEDIUM severity: <count, list>
+  - LOW severity: <count, list>
+  - All known collisions (Insights #42, #50, #52) addressed: [YES | NO with diff]
 
 Closing summary:
   Total chapters READY for submission: N of 10
   Chapters with publication-blockers: M
   Chapters substantially over target: K
   Chapters substantially under target: J
+  Notation-collision status: [CLEAN | N collisions outstanding]
 
 Audit run YYYY-MM-DD. Next run: Monday next week 8am ET.
 ```
