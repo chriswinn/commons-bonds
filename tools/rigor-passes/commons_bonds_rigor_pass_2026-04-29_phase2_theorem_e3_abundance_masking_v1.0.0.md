@@ -8,7 +8,7 @@
 
 **Scope:** Phase 2 academic-rigor depth audit on **Theorem E.3 (Abundance Masking)** as currently stated in [Tech Appendix v1.0.0 §10 line 3270-3276](core/technical-appendix/TechnicalAppendix_v1.0.0.html). E.3 asserts that cost appears negligible when abundance is high but becomes visible and grows nonlinearly as abundance approaches scarcity threshold. This rigor pass tests the proof structure against academic-peer-review standards + identifies the formalization repair work required.
 
-**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify: formal mathematical derivation + notation disambiguation (S → τ) + domain restriction + citation expansion.** Tech Appendix HTML edit timing (apply restructure to v1.0.0 now vs batch into Phase 3 Tech Appendix v2.0.0 rebuild) — pending author choice on §15 Q1 (same open question as Insights #35 + #38 + #40 + #41). Tech Appendix-wide notation sweep (S → τ for scarcity-threshold instances) pending.
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify, expanded post-ratification 2026-04-29 to four enhancements (was three) per parallel-session findings integration:** formal mathematical derivation + notation disambiguation (S → τ) + domain restriction + citation expansion + **CIT-as-operational-corollary reframing** (parallel-session distinctive finding from `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e3_circular_proof_v1.0.0.md`, retained as SUPPLEMENTARY to canonical Insight #42). Tech Appendix HTML edit timing — BATCHED into Phase 3 Tech Appendix v2.0.0 rebuild per shared open question with Insights #35 + #38 + #40 + #41 + #42 + #47 + #48 + #49 + #50 + #51 + #52 + #53. Tech Appendix-wide notation sweep (S → τ for scarcity-threshold instances) pending. See §17 for parallel-session findings integration detail.
 
 **Author:** Chris Winn
 
@@ -573,6 +573,7 @@ For E.3 specifically: a reviewer with resource-economics + commodity-economics s
 - [Phase 1 full framework audit §8.2](commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md) — flagged E.3 for Phase 2 academic-rigor depth audit.
 - [Phase 2 E.4 rigor pass (Insight #40)](commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e4_integral_convergence_v1.0.0.md) — established theorem-audit pattern; established S(t) substitutability function notation discipline.
 - [Phase 2 E.1 rigor pass (Insight #41)](commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e1_structural_cost_severance_v1.0.0.md) — verdict-pattern cross-reference (KEEP + restructure pattern).
+- [Phase 2 E.3 circular-proof parallel-session rigor pass (SUPPLEMENTARY to canonical Insight #42)](commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e3_circular_proof_v1.0.0.md) — independently arrived at most of the same findings; surfaces CIT-as-operational-corollary reframing as distinctive structural enhancement (integrated into this canonical record per §17 post-ratification 2026-04-29).
 - Insight #33 (existential substitutability gap rename) — established S_max notation discipline.
 
 ### §16.2 Downstream artifacts (this pass would update on ratification)
@@ -595,4 +596,91 @@ For E.3 specifically: resource-economics + commodity-economics specialization re
 
 ---
 
-**End of Phase 2 deeper-dive rigor pass v1.0.0 [RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify].**
+## §17. Parallel-session findings integration (post-ratification 2026-04-29)
+
+### §17.1 Why this section exists
+
+This canonical E.3 rigor pass was ratified 2026-04-29 (Insight #42) before a parallel-session E.3 audit reached the main branch. The parallel-session audit (`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e3_circular_proof_v1.0.0.md`, retained as SUPPLEMENTARY) independently arrived at most of the same load-bearing findings but surfaced **one structural enhancement absent from this audit's original verdict** plus a complementary lineage track:
+
+1. **CIT-as-operational-corollary reframing** — explicit logical relationship between E.3 (analytic theorem) and CIT (operational protocol; Definition A.8). Eliminates the circularity at the *structural* level rather than only at the *proof-content* level.
+
+2. **Resource-economics + tipping-point lineage** — Pindyck 1978 + Dasgupta-Heal 1979 + Barnosky et al. 2012 *Nature* + Lenton et al. 2008 *PNAS*, complementary to this audit's commodity-economics + supply-elasticity lineage (Marshall 1890 + Hamilton 2009 + Kilian 2009).
+
+3. **Alternative premise framing** — parallel-session enumerates abstract cost-function properties as P1 (monotonicity in abundance) + P2 (abundance limit) + P3 (convexity in scarcity ratio) + P4 (nonlinear growth near scarcity threshold), distinct from but consistent with this audit's Premises A1-A4 (stock-flow framework + cost-function-with-explicit-functional-form + supply-elasticity behavior + domain restrictions).
+
+The parallel session integrated this audit's distinctive findings (notation collision; specific functional form; commodity-economics lineage; four counterexample classes) into their supplementary rigor pass §1.6. **This canonical record now reciprocally integrates the parallel-session distinctive findings.** Both audits remain accessible for full provenance + complementary-perspective preservation.
+
+### §17.2 Enhancement count: 3 → 4
+
+The original §1.4 listed three enhancements (formal derivation + notation disambiguation + domain restriction). The post-ratification integration adds:
+
+**Enhancement 4: CIT-as-operational-corollary reframing.** Explicit forward-pointer at Tech Appendix Definition A.8 (CIT) + backward-pointer at Tech Appendix §10 E.3 statement, restating the relationship as theorem → operational corollary (not circular).
+
+**Forward-pointer at Definition A.8 (CIT) — recommended insertion:**
+
+> *(Per Theorem E.3 (Abundance Masking) at §10, the abundance-masking phenomenon is established analytically from resource-economics cost-function primitives. CIT operationalizes detection of the phenomenon: stripping away dimensions of abundance and observing which cost tiers transition from C ≈ 0 to C → large is the empirical signature of E.3's analytic prediction. CIT's validity as a discovery methodology follows from E.3's analytic establishment of the abundance-masking phenomenon.)*
+
+**Backward-pointer at §10 E.3 statement (after restructured proof) — recommended insertion:**
+
+> *(Operational corollary: CIT (Definition A.8) is the methodological protocol that detects the abundance-masking phenomenon established analytically here. CIT's validity follows from E.3.)*
+
+These pointers clarify: E.3 is the **analytic theorem** (substantive claim about cost-function behavior near scarcity thresholds, derivable from primitives); CIT is the **operational protocol** (methodology that detects the phenomenon E.3 establishes). The relationship is theorem → corollary, not circular.
+
+### §17.3 Lineage citation expansion (resource-economics + tipping-point lineage)
+
+The parallel-session audit cites a complementary lineage absent from this audit's §8.4 collision check + §9.1 citation discipline:
+
+**Resource-economics primitives:**
+- **Pindyck, R. S. 1978.** "The Optimal Exploration and Production of Nonrenewable Resources." *Journal of Political Economy* 86(5): 841-861. — stock-dependent cost-function behavior; foundational for P1 (monotonicity) + P2 (abundance limit).
+- **Dasgupta, P. & Heal, G. M. 1979.** *Economic Theory and Exhaustible Resources.* Cambridge: Cambridge University Press. — scarcity-tipping-point analysis; foundational for P3 (convexity) + P4 (nonlinear growth).
+
+**Ecological tipping-point literature:**
+- **Barnosky, A. D., et al. 2012.** "Approaching a state shift in Earth's biosphere." *Nature* 486: 52-58. — biosphere-scale tipping-point dynamics; relevant for P4 (nonlinear growth near critical thresholds in ecological systems).
+- **Lenton, T. M., et al. 2008.** "Tipping elements in the Earth's climate system." *Proceedings of the National Academy of Sciences* 105(6): 1786-1793. — climate-system tipping-points; same role as Barnosky 2012 for climate-specific applications.
+
+**Lineage relationship (this audit's commodity-economics vs parallel's resource-economics + tipping-point):**
+
+Both lineages support the same conclusions (P1-P4 / A1-A4 properties of the cost function near scarcity threshold). They differ in framing:
+- **Commodity-economics + supply-elasticity** (this audit) — analyzes abundance-masking via *price discovery* mechanisms in priced markets (supply elasticity collapse near binding constraints; commodity-shock empirical patterns).
+- **Resource-economics + tipping-point** (parallel audit) — analyzes abundance-masking via *biophysical/structural* mechanisms in ecological + exhaustible-resource systems (state-shift dynamics; stock-dependent extraction cost).
+
+**Both lineages should be cited** in the restructured E.3 proof because they address abundance-masking from complementary angles (price-discovery ⊕ biophysical-state-shift). Together they establish the phenomenon as both market-economics-recognizable and ecological-economics-recognizable — strengthening the framework's cross-disciplinary academic positioning.
+
+### §17.4 Premise framing reconciliation (P1-P4 vs A1-A4)
+
+This audit's Premises A1-A4 (§13.1) and the parallel audit's Premises P1-P4 are **complementary, not contradictory**:
+
+| This audit (A1-A4) | Parallel audit (P1-P4) | Relationship |
+|---|---|---|
+| A1 Stock-flow framework | (implicit; not stated as premise) | A1 establishes domain; P1-P4 properties hold within that domain |
+| A2 Cost-function structure with explicit functional form c(A) = c₀ · (τ/(A−τ))^α | P1 monotonicity + P2 abundance limit + P3 convexity + P4 nonlinear growth | A2's specific functional form realizes all four P-premises; A2 is a *concrete* premise; P1-P4 are *abstract* properties |
+| A3 Standard supply-elasticity behavior | (implicit in derivation lineage) | A3 is the microeconomic mechanism producing P3-P4 |
+| A4 Domain restrictions (4 counterexample classes excluded) | Domain restrictions (4 counterexample classes excluded) | Same content; reconciled |
+
+**Recommendation for restructured E.3:** state premises in BOTH framings — A1-A4 as concrete premises with explicit functional form (this audit's contribution); reference P1-P4 as the abstract cost-function properties A2's functional form realizes (parallel audit's contribution). Top-tier academic readers benefit from both abstraction levels.
+
+### §17.5 Updated implementation checklist (post-integration)
+
+Per §14.6 implementation pending list, expanded with parallel-session findings:
+
+1. **Tech Appendix v1.0.0 HTML §10 line 3270-3276 — restructured E.3 per §13 + §17 integrated content.** Apply via Phase 3 Tech Appendix v2.0.0 rebuild (per shared open question batched).
+2. **Tech Appendix-wide notation sweep — S → τ for scarcity-threshold instances.** May surface additional collision instances in CIT Definition A.8 + adjacent text.
+3. **Tech Appendix Definition A.8 (CIT) update** — add forward-pointer per §17.2 establishing CIT-as-operational-corollary relationship to E.3.
+4. **Tech Appendix §10 E.3 statement update** — add backward-pointer per §17.2 + restructured proof per §13.3 + §17.3 (cite Pindyck 1978 + Dasgupta-Heal 1979 + Barnosky 2012 + Lenton 2008 + Marshall 1890 + Hamilton 2009 + Kilian 2009 in proof).
+5. **Bibliography expansion** — Pindyck 1978 *JPE*; Dasgupta-Heal 1979 *Economic Theory and Exhaustible Resources*; Barnosky et al. 2012 *Nature*; Lenton et al. 2008 *PNAS*; Hamilton 2009 *Brookings*; Kilian 2009 *AER*; Marshall 1890 *Principles of Economics*; Pindyck 2008 *Energy Journal*; modern microeconomics text (Mankiw or Friedman *Price Theory* for supply-elasticity foundation).
+6. **terms_index update** — clarify CIT entry per §17.2 (CIT = operational protocol detecting E.3's analytic claim; CIT's validity follows from E.3).
+7. **Pre-publication external review** (Insight #39) — multi-reviewer (resource-economics + commodity-economics + ecological-economics + formal-methods) consistent with the cross-disciplinary lineage now invoked.
+
+### §17.6 Cross-reference to parallel-session supplementary rigor pass
+
+The parallel-session audit is preserved at:
+
+`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e3_circular_proof_v1.0.0.md`
+
+Status per parallel file's own preamble: **SUPPLEMENTARY to canonical Insight #42** (this rigor pass). Subject-collision resolution per author direction 2026-04-29: both audits arrived at the same load-bearing findings independently; canonical status retained on this file (Insight #42); parallel preserved as supplementary perspective with distinctive contribution (CIT-as-operational-corollary reframing).
+
+Both files should be consulted together for the full E.3 audit picture during Phase 3 Tech Appendix v2.0.0 rebuild implementation.
+
+---
+
+**End of Phase 2 deeper-dive rigor pass v1.0.0 [RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify, expanded to 4 enhancements 2026-04-29 post-ratification per parallel-session findings integration].**
