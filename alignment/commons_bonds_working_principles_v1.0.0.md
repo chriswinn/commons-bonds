@@ -296,17 +296,17 @@ Conversely, unidirectional rules (rules that always point in the same operationa
 
 **Why this principle matters on this project specifically:**
 
-The framework has multiple decision rules in its vocabulary (ARP; Four Gates admit-or-reject; Abundance Inversion's pass-or-fail). Not all are bidirectional. ARP is (flips based on which action is reversible). Four Gates aren't in the same sense (they either admit or reject a cost; they don't flip). AIT isn't (it confirms or denies scarcity-grounding). ARP's bidirectionality is what earns named-rule Ring-2 status where other decision rules may not.
+The framework has multiple decision rules in its vocabulary (ARR; Four Gates admit-or-reject; CIT's pass-or-fail). Not all are bidirectional. ARR is (flips based on which action is reversible). Four Gates aren't in the same sense (they either admit or reject a cost; they don't flip). CIT isn't (it confirms or denies scarcity-grounding). ARR's bidirectionality is what earns named-rule Ring-2 status where other decision rules may not.
 
 **Corollary — the diagnostic question:**
 
 For any candidate decision rule, ask: *"under different contexts, does this rule direct OPPOSITE actions while remaining the same rule?"* If yes, the rule earns named-rule status (subject to other rigor tests). If no, the rule may still earn a name via other criteria but doesn't earn it via bidirectionality.
 
 **Examples in the framework:**
-- **Asymmetric Regret Rule (ARR)** (formerly Asymmetric Regret Principle; renamed 2026-04-24 — last-word "Principle" → "Rule" to downgrade overclaim) — bidirectional (flips on which action is reversible). PASSES.
+- **Asymmetric Regret Rule (ARR)** — bidirectional (flips on which action is reversible). PASSES. *(Trace: archive/retirements/index.md — ARP → ARR rename 2026-04-24.)*
 - **Precautionary Principle** (established literature) — unidirectional (always toward prevention). Framework doesn't name it; cites it.
-- **Abundance Inversion Test** (AIT) — not a direction-rule; a test. N/A.
-- **Option-Preservation** (candidate framing for ARP rename) — bidirectional (preserve optionality either by acting or by not acting). PASSES; candidate rename for ARP captures the same bidirectional structure.
+- **Commons Inversion Test (CIT)** — not a direction-rule; a test. N/A. *(Trace: archive/retirements/index.md — AIT → CIT rename 2026-04-24.)*
+- **Option-Preservation** (candidate framing tested at ARR rename) — bidirectional (preserve optionality either by acting or by not acting). PASSES; tested as candidate rename target with same bidirectional structure.
 
 ---
 

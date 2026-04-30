@@ -260,24 +260,30 @@ Surfaced during Insight #60 scaffolding cleanup pass when author asked whether "
 
 ## §3. Chapter length tracking
 
-**⚠ Note:** Word counts not refreshed this session (continued limitation from v1.47.0). Numbers below carry from v1.47.0 handoff §3. **Recompute candidate at next session start (Insight #37 separation pass would also produce accurate publisher-facing word counts).**
+**Refreshed 2026-04-30 (Thread δ wrap)** via `wc -w` on `manuscript/chapters/Chapter*.md` + `Chapter*.html`. Counts below are RAW (include scaffolding annotations + audit-trail content + editorial notes still in chapter drafts). **Insight #37 scaffolding-vs-publisher-facing separation pass (Thread β) will produce *publisher-facing* word counts** that may differ materially. Use the publisher-facing counts (post-#37) for submission-readiness gates; raw counts here are useful for relative-size reasoning during drafting.
 
-| Chapter | Status | Word count | Target | Status |
+| Chapter | Status | Word count (RAW 2026-04-30) | Target | Status |
 |---|---|---|---|---|
-| Ch 1 (untitled) | partial draft | 1,446 | 5K-6K | 🚧 partial; awaits author personal-stories drafting cycle (Path F) |
-| Ch 2 *The Miner* | drafted | ~5,200 | 5K-6K | ✅ within range |
-| Ch 3 (TBD waterman) | not drafted | 0 | 5K-6K | ❌ not started; cross-referenced from Ch 8/9/10 |
-| Ch 4 *The Existence Proof* | drafted | ~5,400 | 5K-6K | ✅ within range; Intergenerational Option Value Tier B promotion (Insight #57) load-bearing on chapter argument |
-| Ch 5 *The Accountability Gap* | drafted | ~5,800 | 5K-6K | ✅ within range; FLAGGED pre-submission review |
-| Ch 6 *Three Ways of Counting* (HTML) | drafted | ~12,000 | 6K-8K | ⚠ over (post-supplementary-passages integration); Insight #21 structural placement work pending may compress |
-| Ch 7 *On Other Worlds* | drafted | ~5,500 | 5K-6K | ✅ within range |
-| Ch 8 *What Things Actually Cost* | drafted | ~5,400 | 5K-6K | ✅ within range; Lineage Labor Cost rename applied (Insight #56) |
-| Ch 9 *Pricing Honestly* | drafted | ~5,600 | 5K-6K | ✅ within range |
-| Ch 10 *Common Bonds* | drafted | ~5,800 | 5K-7K | ✅ within range |
+| Ch 1 (untitled) | partial draft | 1,446 | 5K-6K | 🚧 partial; awaits Insight #36 Ch 1 + Ch 3 conversational drafting session |
+| Ch 2 *The Miner* | drafted | 5,276 | 5K-6K | ✅ within range |
+| Ch 3 (TBD waterman) | not drafted | 0 (GuidanceDoc only) | 5K-6K | ❌ not started; awaits Insight #36 |
+| Ch 4 *The Existence Proof* | drafted | 4,039 | 5K-6K | ⚠ slightly under target (raw); Intergenerational Option Value Tier B promotion (Insight #57) load-bearing on chapter argument |
+| Ch 5 *The Accountability Gap* | drafted | 9,506 | 5K-6K | ⚠ over target (raw); likely to compress significantly under #37 separation pass; FLAGGED pre-submission review |
+| Ch 6 *Three Ways of Counting* (HTML) | drafted | 10,941 | 6K-8K | ⚠ over (post-supplementary-passages integration); Insight #21 structural placement work pending may compress |
+| Ch 7 *On Other Worlds* | drafted | 7,532 | 5K-6K | ⚠ over target (raw); likely to compress under #37 separation pass |
+| Ch 8 *What Things Actually Cost* | drafted | 6,027 | 5K-6K | ⚠ slightly over target (raw); Lineage Labor Cost rename applied (Insight #56) |
+| Ch 9 *Pricing Honestly* | drafted | 10,327 | 5K-6K | ⚠ over target (raw); likely to compress significantly under #37 separation pass |
+| Ch 10 *Common Bonds* | drafted | 7,682 | 5K-7K | ⚠ slightly over target (raw); likely to compress under #37 separation pass |
 
-**Total drafted:** ~52,000 words across 8 chapters (Ch 2, 4, 5, 6, 7, 8, 9, 10).
+**Total drafted (RAW):** 62,776 words across 9 files (Ch 1 partial + Ch 2 + Ch 4 + Ch 5 + Ch 6 + Ch 7 + Ch 8 + Ch 9 + Ch 10).
 
-**Targets vs current:** Ch 6 over target after supplementary-passage integration; Insight #21 structural placement may compress. All other drafted chapters within target ranges.
+**Notable shifts vs prior estimates (carried from v1.47.0):**
+- Ch 5 / Ch 7 / Ch 9 / Ch 10 are notably larger than the prior ~5,500-5,800 estimates — accumulated scaffolding annotations during 2026-04-26 → 2026-04-30 sweeps explain the gap
+- Ch 4 is slightly smaller than prior ~5,400 estimate — possibly per-sweep prose tightening that wasn't tracked, or prior estimate was high
+- Ch 1 + Ch 3 unchanged (partial / not-started)
+- Ch 6 within ~1K of prior ~12K estimate — supplementary integration accounted for
+
+**Implication for Thread β:** the #37 separation pass is more load-bearing than v1.47.0 framing suggested. Several chapters are 4-5K words over target in RAW form; publisher-facing counts (post-#37) may be much closer to targets. Don't take RAW counts as evidence of over-drafting; treat them as the upper bound until #37 produces publisher-facing counts.
 
 ---
 
