@@ -101,7 +101,8 @@ Exclusions (do NOT flag):
   - tools/rigor-passes/* (historical-record files documenting the retirements)
   - core/scaffolding/* (internal-process scaffolding may reference retired vocabulary as historical context)
   - alignment/sessions/archive/* (archived session handoffs)
-  - core/decomposition/eight-tier-v10.html (retired-archive file)
+  - archive/decomposition/eight-tier-v10.html (retired-archive file; relocated 2026-04-30 per Insight #55 hygiene pass)
+  - archive/* (general archive scope; retired-archive files preserved for provenance)
   - core/glossary/commons_bonds_updated_glossary_v3.html lines flagged with "RETIRED" status indicator
 
 Output format:

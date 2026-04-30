@@ -2,7 +2,7 @@
 
 **Source:** `archive/Consider Including/commons - consider including 12.html` (April 19, 2026 session). Converted from .html to .md per file-format discipline on 2026-04-23 as part of systematic project-folder review.
 
-**Status:** Proposed addition to Chapter 5 (The Accountability Gap). Extended version of the one-sentence reference in `core/decomposition/eight-tier-v10.html` Tier 3 ("The Social Security case is Dynastic Labor Cost made fully quantitative across 88 years of American workers").
+**Status:** Proposed addition to Chapter 5 (The Accountability Gap). Extended version of the one-sentence reference in `archive/decomposition/eight-tier-v10.html` Tier 3 ("The Social Security case is Dynastic Labor Cost made fully quantitative across 88 years of American workers"). [Path updated 2026-04-30 per Insight #55 hygiene pass; previously at `core/decomposition/`. The 8-tier scheme itself is RETIRED per tier-reframing rigor pass §11.2; cost-component admission now governed by Path F + Four Gates discipline; this case-study reference predates that retirement.]
 
 **Framework-dimension grounding:** Temporal (primary); Political (Tier 8 — clearest documented Political Capture Cost instance in American history).
 

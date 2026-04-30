@@ -2378,7 +2378,7 @@ Full v1.3.0 change log preserved at `tools/archive/commons_bonds_rigor_protocol_
 ## §21. Appendix — cross-references
 
 - **Operating core:** preferences, session handoffs, C9 patch §3 (CIT canonical positioning).
-- **CIT source:** `core/decomposition/eight-tier-v10.html`.
+- **CIT source:** `archive/decomposition/eight-tier-v10.html` (path updated 2026-04-30 per Insight #55 hygiene pass; 8-tier scheme RETIRED per tier-reframing rigor pass §11.2; CIT methodology now governed by Tech Appendix §C.1 + Four Gates §L per Path F reframing).
 - **Two-path source:** `alignment/patches/pending-framework-review/c2_scale_abstract_patch.md`, `...c3_mechanism_shield_patch.md`, `...c5_two_path_rigor.md` (preserved paths; c5 archived).
 - **Success criteria source:** `tools/commons_bonds_book_scope_v1_0_3.md` + `tools/commons_bonds_guiding_constraints_v1_0_0.md`.
 - **Scaffolding-vs-load-bearing canonical:** `alignment/patches/pending-framework-review/c9_ait_canonical_positioning_patch.md`.
