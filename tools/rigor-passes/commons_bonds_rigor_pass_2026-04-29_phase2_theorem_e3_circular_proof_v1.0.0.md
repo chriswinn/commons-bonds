@@ -8,7 +8,7 @@
 
 **Scope:** Phase 2 academic-rigor depth audit on **Theorem E.3 (Abundance Masking)** as stated at [Tech Appendix v1.0.0 §10 lines 3270-3276](core/technical-appendix/TechnicalAppendix_v1.0.0.html). Phase 1 §8.2 + E.4 rigor pass §16.3 flagged: *"E.3 (Abundance Masking) — circular proof; full formalization needed; ~700-900 lines."*
 
-**Status:** **[PROPOSED] — pending author ratification.**
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify Option β + γ COMBINED + integration of four findings from parallel-session E.3 audit per author direction 2026-04-29.** Original audit (this doc v1.0.0) caught: circular proof + substantive derivation + CIT-as-operational-corollary reframing + 3 enhancements (premise enumeration P1–P4; substantive derivation; domain restriction excluding constant-marginal-cost). Parallel-session audit findings integrated per author direction (load-bearing additions): **(F1) S vs τ notation-collision rename** (scarcity threshold currently shares letter "S" with substitutability function across theorems — load-bearing collision; rename E.3's scarcity threshold S → τ); **(F2) commodity-economics + supply-elasticity lineage** (Hamilton 2009 *Brookings Papers*; Kilian 2009 *AER*; Marshall 1890 *Principles of Economics*) complementary to tipping-point lineage; **(F3) specific functional form** c(A) = c₀ · (τ/(A−τ))^α as concrete derivation foundation realizing P1–P4 premises; **(F4) four counterexample classes** for domain restriction (renewable resources; information goods; network-effect goods; constant-marginal-cost) — strengthens domain-of-applicability beyond original audit's single constant-cost class. Tech Appendix HTML edit timing: BATCH into Phase 3 v2.0.0 rebuild per shared open question with Insights #35 + #38 + #40 + #47 + #48 + #49 + #50 + #51 + #52 + #53. Insight #54 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
 
 **Author:** Chris Winn
 
@@ -143,6 +143,63 @@ Combined, β + γ:
 - Any other theorem in E.1 / E.2 / E.4 / E.5.
 
 The framework's load-bearing claims survive intact; the logical structure (E.3 derives from primitives; CIT operationalizes) replaces circularity.
+
+### §1.6 Integration of four parallel-session-audit findings (added 2026-04-29 per author direction)
+
+Parallel-session E.3 audit surfaced four load-bearing findings absent from this audit's original v1.0.0 [PROPOSED]. Per author direction, they are integrated:
+
+**Finding F1 — S vs τ notation collision (most important).** E.3 currently uses **S** for scarcity threshold (*"For any cost tier C, abundance level A, and scarcity threshold S..."*). But the framework reserves **S** for the **substitutability function** (Tech Appendix §B Definition A.2; load-bearing in RCV integrand + E.4 + E.5). Same letter, two different concepts across theorems. Critical reader confusion: a quant reader encountering "scarcity threshold S" in E.3 alongside "substitutability function S(t)" in adjacent theorems pattern-matches to a single concept and finds incoherence.
+
+**Repair (Enhancement 4):** Rename E.3's scarcity threshold **S → τ** (Greek tau). τ is unused elsewhere in the framework + reads naturally as a "threshold" parameter in resource-economics convention (Pindyck 1978; Dasgupta-Heal 1979 use threshold-style Greek letters for stock-state parameters). All E.3 statements + proof + Definition A.8 (CIT) reframing must use τ instead of S for scarcity threshold. terms_index entry for CIT also requires the rename.
+
+**Finding F2 — Commodity-economics + supply-elasticity lineage.** Original audit's collision-check (§8) cited tipping-point ecological-economics lineage (Barnosky et al. 2012; Lenton et al. 2008) but missed the parallel commodity-economics + supply-elasticity lineage that addresses abundance-masking from the price-discovery angle:
+- **Marshall, Alfred. 1890.** *Principles of Economics*. London: Macmillan. — foundational supply-elasticity treatment; near-vertical supply curve at scarcity threshold.
+- **Hamilton, James D. 2009.** "Causes and Consequences of the Oil Shock of 2007–08." *Brookings Papers on Economic Activity* (Spring): 215-261. — empirical commodity-shock literature on abundance-to-scarcity transition price dynamics.
+- **Kilian, Lutz. 2009.** "Not All Oil Price Shocks Are Alike: Disentangling Demand and Supply Shocks in the Crude Oil Market." *American Economic Review* 99(3): 1053-1069. — supply-elasticity + scarcity-threshold empirical methodology.
+
+These are **complementary**, not competing, with the tipping-point lineage. Tipping-point literature establishes nonlinear dynamics near critical thresholds in ecological systems; commodity-economics literature establishes the same pattern in priced-market systems via supply-elasticity collapse. Both lineages support P3 + P4 (convexity in scarcity ratio + nonlinear growth near threshold).
+
+**Repair (integrated into Enhancement 2 substantive derivation):** Cite both lineages in restructured proof — Marshall 1890 + Hamilton 2009 + Kilian 2009 alongside Barnosky 2012 + Lenton 2008. Bibliography expansion absorbs both lineages.
+
+**Finding F3 — Specific functional form c(A) = c₀ · (τ/(A−τ))^α as concrete realization.** Original audit's P1–P4 premises specify abstract conditions (monotonicity; abundance limit; convexity; nonlinear-growth-near-threshold) but didn't provide a concrete functional form satisfying all four. Parallel audit surfaces the form:
+
+> **c(A, τ) = c₀ · (τ/(A−τ))^α** where c₀ > 0, α > 0, A > τ.
+
+Properties:
+- Monotonically decreasing in A: ∂c/∂A = −c₀ · α · τ · (τ/(A−τ))^(α-1) · 1/(A−τ)² < 0 for A > τ ✓ (P1)
+- Abundance limit: as A → ∞, (τ/(A−τ)) → 0, so c → 0 ✓ (P2)
+- Convex in (τ/(A-τ)) ratio: ∂²c/∂(τ/(A-τ))² ≥ 0 for α ≥ 1 ✓ (P3)
+- Nonlinear growth near threshold: as A → τ⁺, (τ/(A−τ)) → ∞, so c → ∞ ✓ (P4)
+
+The α parameter calibrates curvature: α = 1 gives linear-in-(τ/(A−τ)) growth; α > 1 gives super-linear divergence near threshold (matches commodity-shock empirical patterns per Hamilton 2009 + Kilian 2009).
+
+**Repair (integrated as supplementary derivation example in §13.2):** Add c(A, τ) = c₀ · (τ/(A−τ))^α as concrete realization of P1–P4 — gives readers a working specification rather than only abstract premises. Connects to commodity-economics literature (specific form is recognizable from supply-elasticity + Hotelling-rent-near-exhaustion economics).
+
+**Finding F4 — Four counterexample classes drive expanded domain restriction.** Original audit's counterexample resistance (§12) caught only constant-marginal-cost regimes (manufactured goods with elastic supply). Parallel audit surfaces three additional counterexample classes that violate E.3's universal-quantifier claim:
+
+| Counterexample class | Premise violated | Domain implication |
+|---|---|---|
+| **Constant-marginal-cost** (manufactured goods; elastic supply) | P1 (∂C/∂A = 0; flat) + P2 (C → c₀, not 0) | Original audit caught |
+| **Renewable resources** (regeneration faster than extraction) | A doesn't decrease monotonically; abundance-masking pattern N/A because A self-restores | NEW — must exclude |
+| **Information goods** (non-rival; A doesn't decrease as units consumed) | Abundance never approaches scarcity threshold; concept doesn't apply | NEW — must exclude |
+| **Network-effect goods** (value increases with adoption; ∂U/∂A > 0) | Inverts P1 — utility increases as more consumed; opposite of scarcity-utility relationship | NEW — must exclude |
+
+**Repair (integrated into Enhancement 3 domain-of-applicability):** Expand domain restriction to exclude four counterexample classes:
+
+> *Domain of applicability:* This theorem applies to **non-renewable, rival, anti-network-effect, non-constant-marginal-cost** cost tiers c(A, τ) on the domain A > τ where c is non-constant in A and satisfies P1–P4 (i.e., standard exhaustible-resource cost-function behavior per Pindyck 1978; Dasgupta-Heal 1979; Hotelling 1931 + commodity-shock empirical patterns per Hamilton 2009; Kilian 2009; Marshall 1890 supply-elasticity lineage). Out of scope: (a) constant-marginal-cost regimes (elastic-supply manufactured goods); (b) renewable resources (where A self-restores faster than depletion); (c) information goods (non-rival; A doesn't decrease through consumption); (d) network-effect goods (where ∂U/∂A > 0 inverts the scarcity-utility relationship).
+
+This restricts E.3's universal-quantifier claim to its actual structural domain — non-renewable extraction with rivalry + standard scarcity-utility relationship.
+
+### §1.7 Updated enhancement count: four enhancements (was three)
+
+After integration of parallel-session findings, the recommended verdict is **four concrete enhancements** (not three):
+
+1. **Premise enumeration P1–P4** (per §13.1; updated to use τ for scarcity threshold).
+2. **Substantive derivation** (per §13.2; cites Pindyck 1978 + Dasgupta-Heal 1979 + Hotelling 1931 + Marshall 1890 + Hamilton 2009 + Kilian 2009 + Barnosky et al. 2012 + Lenton et al. 2008; includes specific functional form c(A, τ) = c₀ · (τ/(A−τ))^α per F3).
+3. **Domain-of-applicability statement** (per §13.3; expanded to exclude four counterexample classes per F4).
+4. **NEW: S → τ notation rename** (per F1) — eliminate notation collision between E.3's scarcity threshold and framework's substitutability function.
+
+Plus: CIT-relationship reframing (§13.4 + §13.5) + bibliography expansion (§13.6).
 
 ---
 
@@ -483,46 +540,69 @@ Include the domain restriction (per §11.3) as part of theorem statement to make
 
 ## §13. Recommended formal restatement
 
-### §13.1 Premise enumeration (Assumptions P1–P4)
+### §13.1 Premise enumeration (Assumptions P1–P4) — UPDATED with τ rename per Finding F1
 
-**P1 (Monotonicity in abundance):** Cost tier C: ℝ_>0 × ℝ_>0 → ℝ_≥0 satisfies ∂C/∂A ≤ 0 for all A > S. (More abundance → lower or equal per-unit cost.) Standard resource-economics cost-function premise (Pindyck 1978 *JPE*; Dasgupta-Heal 1979).
+**P1 (Monotonicity in abundance):** Cost tier c: ℝ_>0 × ℝ_>0 → ℝ_≥0 satisfies ∂c/∂A ≤ 0 for all A > τ. (More abundance → lower or equal per-unit cost.) Standard resource-economics cost-function premise (Pindyck 1978 *JPE*; Dasgupta-Heal 1979; Marshall 1890 *Principles of Economics* supply-elasticity foundations).
 
-**P2 (Abundance limit):** lim_{A → ∞} C(A, S) = 0. (Per-unit cost vanishes in the abundance limit.) Standard premise (Pindyck 1978; Hartwick 1977).
+**P2 (Abundance limit):** lim_{A → ∞} c(A, τ) = 0. (Per-unit cost vanishes in the abundance limit.) Standard premise (Pindyck 1978; Hartwick 1977).
 
-**P3 (Convexity in scarcity ratio):** C(A, S) is convex in (S/A) for S/A ∈ (0, 1]: ∂²C/∂(S/A)² ≥ 0. (Cost-function curvature near scarcity threshold; Hotelling 1931 rent dynamics extended to cost-function form.)
+**P3 (Convexity in scarcity ratio):** c(A, τ) is convex in (τ/A) for τ/A ∈ (0, 1]: ∂²c/∂(τ/A)² ≥ 0. (Cost-function curvature near scarcity threshold; Hotelling 1931 rent dynamics extended to cost-function form; Marshall 1890 supply-elasticity collapse near scarcity.)
 
-**P4 (Nonlinear growth near scarcity threshold):** ∂C/∂A → -∞ as A → S⁺ from above (or the gradient grows without bound). Tipping-point cost-function behavior near critical scarcity threshold (Barnosky et al. 2012 *Nature*; Lenton et al. 2008 *PNAS*).
+**P4 (Nonlinear growth near scarcity threshold):** ∂c/∂A → -∞ as A → τ⁺ from above (or the gradient grows without bound). Tipping-point cost-function behavior near critical scarcity threshold (Barnosky et al. 2012 *Nature* ecological tipping-points; Lenton et al. 2008 *PNAS* climate tipping-points; Hamilton 2009 *Brookings Papers* + Kilian 2009 *AER* commodity-shock empirical patterns).
 
-### §13.2 Theorem statement (restructured)
+**Notation note (per Finding F1):** Scarcity threshold is denoted **τ** (Greek tau), NOT S — to avoid notation collision with the framework's substitutability function S(t) (Tech Appendix §B Definition A.2; load-bearing in RCV integrand + Theorems E.4 + E.5). The Commons Inversion Test (CIT) operational protocol per Definition A.8 + terms_index entry must use τ to match.
+
+### §13.2 Theorem statement (restructured) — UPDATED with τ rename + functional form per Findings F1 + F3
 
 **Theorem E.3 (Abundance Masking).**
 
-*Under Assumptions P1–P4, for any cost tier C(A, S) on the domain A ≥ S exhibiting standard resource-economics cost-function behavior:*
+*Under Assumptions P1–P4, for any cost tier c(A, τ) on the domain A > τ exhibiting standard exhaustible-resource cost-function behavior:*
 
-- *(i) When A ≫ S, C(A, S) ≈ 0 (per-unit cost is negligible).*
-- *(ii) As A → S⁺, C(A, S) grows nonlinearly without bound (cost gradient diverges).*
+- *(i) When A ≫ τ, c(A, τ) ≈ 0 (per-unit cost is negligible).*
+- *(ii) As A → τ⁺, c(A, τ) grows nonlinearly without bound (cost gradient diverges).*
 
 *The transition from (i) to (ii) is the abundance-masking phenomenon.*
 
-**Proof.** By P1 + P2, lim_{A → ∞} C(A, S) = 0; combined with monotonicity, for any ε > 0 ∃ A* > S such that C(A, S) < ε for all A > A*. Hence when A ≫ S, C(A, S) < ε for ε arbitrarily small — establishing (i).
+**Proof.** By P1 + P2, lim_{A → ∞} c(A, τ) = 0; combined with monotonicity, for any ε > 0 ∃ A* > τ such that c(A, τ) < ε for all A > A*. Hence when A ≫ τ, c(A, τ) < ε for ε arbitrarily small — establishing (i).
 
-By P3 + P4, the cost gradient ∂C/∂A grows without bound as A → S⁺ from above. Equivalently, for any M > 0 ∃ δ > 0 such that ∂C/∂A < -M for all A ∈ (S, S+δ). Integrating, C(A, S) grows nonlinearly without bound as A → S⁺ — establishing (ii).
+By P3 + P4, the cost gradient ∂c/∂A grows without bound as A → τ⁺ from above. Equivalently, for any M > 0 ∃ δ > 0 such that ∂c/∂A < -M for all A ∈ (τ, τ+δ). Integrating, c(A, τ) grows nonlinearly without bound as A → τ⁺ — establishing (ii).
 
-The transition from (i) to (ii) follows by intermediate-value continuity of C(A, S) on (S, ∞). The cost function transitions from C ≈ 0 (at A ≫ S) to C → ∞ (at A → S⁺) through a nonlinear-growth regime determined by P3 + P4 convexity behavior.
+The transition from (i) to (ii) follows by intermediate-value continuity of c(A, τ) on (τ, ∞). The cost function transitions from c ≈ 0 (at A ≫ τ) to c → ∞ (at A → τ⁺) through a nonlinear-growth regime determined by P3 + P4 convexity behavior.
 
-By Lebesgue dominated convergence theorem (Royden 1988 §4.4; Folland 1999 §2.4), the integrated cost ∫_{S}^{A_max} C(A, S) dA can be computed pointwise on the domain.
+By Lebesgue dominated convergence theorem (Royden 1988 §4.4; Folland 1999 §2.4), the integrated cost ∫_{τ}^{A_max} c(A, τ) dA can be computed pointwise on the domain.
 
 The abundance-masking phenomenon is therefore guaranteed by P1–P4 + standard real-analysis limit theorems. ∎
 
-### §13.3 Domain of applicability
+**Concrete realization (working specification per Finding F3):** A specific functional form satisfying all P1–P4 premises is:
 
-> *Domain of applicability:* This theorem applies to cost tiers C(A, S) on the domain A ≥ S where C is non-constant in A and satisfies P1–P4 (i.e., standard resource-economics cost-function behavior per Pindyck 1978; Dasgupta-Heal 1979; Hotelling 1931). Constant-marginal-cost regimes (e.g., elastic-supply manufactured goods) are out of scope. Resource-collapse regimes (A < S) are out of scope and require separate analysis (cf. Diamond 2005 *Collapse*; Tainter 1988 *The Collapse of Complex Societies*).
+> **c(A, τ) = c₀ · (τ/(A−τ))^α** where c₀ > 0, α > 0, A > τ.
+
+Properties (verifying P1–P4):
+- (P1) Monotonically decreasing: ∂c/∂A = −c₀ · α · τ · (τ/(A−τ))^(α-1) · 1/(A−τ)² < 0 for A > τ ✓
+- (P2) Abundance limit: as A → ∞, (τ/(A−τ)) → 0 ⇒ c → 0 ✓
+- (P3) Convex in (τ/(A-τ)) ratio for α ≥ 1 ✓
+- (P4) Nonlinear growth near threshold: as A → τ⁺, c → ∞ ✓
+
+The α parameter calibrates curvature: α = 1 gives linear-in-(τ/(A−τ)) growth; α > 1 gives super-linear divergence near threshold (matching empirical commodity-shock patterns per Hamilton 2009 + Kilian 2009; matching ecological-tipping-point behavior per Barnosky 2012 + Lenton 2008; consistent with Hotelling 1931 rent-near-exhaustion dynamics).
+
+This functional form is offered as a working specification — the theorem holds for any function satisfying P1–P4; this is one concrete realization consistent with both commodity-economics + ecological-tipping-point lineages.
+
+### §13.3 Domain of applicability — UPDATED with four counterexample-class restrictions per Finding F4
+
+> *Domain of applicability:* This theorem applies to cost tiers c(A, τ) on the domain A > τ exhibiting **non-renewable, rival, anti-network-effect, non-constant-marginal-cost** structural properties + satisfying P1–P4 (standard exhaustible-resource cost-function behavior per Pindyck 1978; Dasgupta-Heal 1979; Hotelling 1931 + commodity-shock empirical patterns per Hamilton 2009; Kilian 2009; Marshall 1890 supply-elasticity lineage). **Out of scope (four counterexample classes):**
+>
+> - *(a) Constant-marginal-cost regimes* — elastic-supply manufactured goods where ∂c/∂A = 0 violates P1 + c → c₀ ≠ 0 violates P2.
+> - *(b) Renewable resources* — where A self-restores faster than depletion; abundance-masking phenomenon doesn't apply because A doesn't decrease monotonically.
+> - *(c) Information goods* — non-rival; abundance never approaches scarcity threshold because consumption doesn't decrease A.
+> - *(d) Network-effect goods* — where ∂U/∂A > 0 (utility increases with adoption) inverts the scarcity-utility relationship that grounds the abundance-masking phenomenon.
+>
+> Resource-collapse regimes (A < τ) are also out of scope and require separate analysis (cf. Diamond 2005 *Collapse*; Tainter 1988 *The Collapse of Complex Societies*).
 
 ### §13.4 CIT-as-operational-corollary reframing (Tech Appendix §B Definition A.8)
 
 Add to Tech Appendix §B Definition A.8 (CIT definition) the following clarifying paragraph:
 
-> *Relationship to Theorem E.3 (Abundance Masking).* The abundance-masking phenomenon — the transition of cost tier C from C ≈ 0 (at A ≫ S) to C → ∞ (at A → S⁺) — is established analytically in Theorem E.3 (§10) from standard resource-economics cost-function primitives (P1–P4). CIT is the **methodological protocol** that detects this phenomenon empirically in any extraction transaction: stripping away dimensions of abundance and observing which cost tiers transition from latent-to-visible is the empirical signature of E.3's analytic prediction. **CIT's validity as a discovery methodology follows from E.3.** Equivalently: E.3 tells us why CIT works; CIT is how we operationalize E.3-based detection of hidden cost tiers.
+> *Relationship to Theorem E.3 (Abundance Masking).* The abundance-masking phenomenon — the transition of cost tier c from c ≈ 0 (at A ≫ τ) to c → ∞ (at A → τ⁺) — is established analytically in Theorem E.3 (§10) from standard resource-economics cost-function primitives (P1–P4). CIT is the **methodological protocol** that detects this phenomenon empirically in any extraction transaction: stripping away dimensions of abundance and observing which cost tiers transition from latent-to-visible is the empirical signature of E.3's analytic prediction. **CIT's validity as a discovery methodology follows from E.3.** Equivalently: E.3 tells us why CIT works; CIT is how we operationalize E.3-based detection of hidden cost tiers. *Notation note:* CIT Definition A.8 must use τ (Greek tau) for scarcity threshold to match E.3's notation, eliminating notation collision with the framework's substitutability function S(t).
 
 ### §13.5 Backward-pointer at E.3 statement
 
@@ -530,18 +610,30 @@ Add to E.3 statement (after the restructured proof in §13.2) a one-line backwar
 
 > *Operational corollary:* The Commons Inversion Test (Definition A.8) operationalizes detection of the abundance-masking phenomenon established here. CIT's validity as discovery methodology follows from E.3.
 
-### §13.6 Bibliography expansion
+### §13.6 Bibliography expansion — UPDATED with commodity-economics + supply-elasticity lineage per Finding F2
 
-Add to bibliography:
-- **Pindyck, Robert S. 1978.** "The Optimal Exploration and Production of Nonrenewable Resources." *Journal of Political Economy* 86(5): 841-861. — premise P1 + P3 anchor (already added per Phase 2 #8 [Q(t)] Insight TBD).
-- **Dasgupta, Partha, and Geoffrey Heal. 1979.** *Economic Theory and Exhaustible Resources*. Cambridge: Cambridge University Press. — premises P1–P4 textbook anchor (already added per Phase 2 #8 [Q(t)]).
+Add to bibliography (commodity-economics + supply-elasticity lineage NEW per F2):
+- **Marshall, Alfred. 1890.** *Principles of Economics*. London: Macmillan. — foundational supply-elasticity treatment; near-vertical supply curve at scarcity threshold; underwrites P3 + P4 from price-discovery angle. (NEW per Finding F2.)
+- **Hamilton, James D. 2009.** "Causes and Consequences of the Oil Shock of 2007–08." *Brookings Papers on Economic Activity* (Spring): 215-261. — empirical commodity-shock literature on abundance-to-scarcity transition price dynamics. (NEW per Finding F2.)
+- **Kilian, Lutz. 2009.** "Not All Oil Price Shocks Are Alike: Disentangling Demand and Supply Shocks in the Crude Oil Market." *American Economic Review* 99(3): 1053-1069. — supply-elasticity + scarcity-threshold empirical methodology. (NEW per Finding F2.)
+
+Resource-economics lineage (mostly already in framework's bibliography per other ratified rigor passes):
+- **Pindyck, Robert S. 1978.** "The Optimal Exploration and Production of Nonrenewable Resources." *Journal of Political Economy* 86(5): 841-861. — premise P1 + P3 anchor (already added per Insight #52 Q(t) notation audit).
+- **Dasgupta, Partha, and Geoffrey Heal. 1979.** *Economic Theory and Exhaustible Resources*. Cambridge: Cambridge University Press. — premises P1–P4 textbook anchor (already added per Insight #52).
+- **Hotelling, Harold. 1931.** "The Economics of Exhaustible Resources." *Journal of Political Economy* 39(2): 137-175. — premise P3 + P4 rent-dynamics anchor (already in bibliography per Hotelling Identity §12).
+- **Hartwick, John M. 1977.** "Intergenerational Equity and the Investing of Rents from Exhaustible Resources." *American Economic Review* 67(5): 972-974. — premise P2 abundance-limit anchor (already in bibliography per Hotelling Identity §12).
+
+Tipping-point ecological-economics lineage (NEW per this audit):
 - **Barnosky, Anthony D., et al. 2012.** "Approaching a state shift in Earth's biosphere." *Nature* 486(7401): 52-58. — premise P4 ecological tipping-point anchor.
 - **Lenton, Timothy M., et al. 2008.** "Tipping elements in the Earth's climate system." *Proceedings of the National Academy of Sciences* 105(6): 1786-1793. — premise P4 climate tipping-point anchor.
-- **Royden, H. L. 1988.** *Real Analysis*, 3rd ed. New York: Macmillan. — limit-theorem invocation (already added per Insight #40 Theorem E.4).
-- **Folland, Gerald B. 1999.** *Real Analysis: Modern Techniques and Their Applications*, 2nd ed. New York: Wiley-Interscience. — limit-theorem invocation (already added per Insight #40).
-- **Hotelling, Harold. 1931.** "The Economics of Exhaustible Resources." *Journal of Political Economy* 39(2): 137-175. — premise P3 + P4 rent-dynamics anchor (already in bibliography per Hotelling Identity §12).
+
+Real-analysis lineage (already in framework bibliography per Insight #40 Theorem E.4):
+- **Royden, H. L. 1988.** *Real Analysis*, 3rd ed. New York: Macmillan.
+- **Folland, Gerald B. 1999.** *Real Analysis: Modern Techniques and Their Applications*, 2nd ed. New York: Wiley-Interscience.
 
 (Optional secondary additions: Diamond 2005 *Collapse*; Tainter 1988 *The Collapse of Complex Societies* — for resource-collapse-regime out-of-scope reference.)
+
+**Aggregate bibliography expansion:** 3 NEW references (Marshall 1890; Hamilton 2009; Kilian 2009) + 2 NEW references (Barnosky 2012; Lenton 2008) = 5 net-new references for Phase 3 v2.0.0 rebuild bibliography. The remaining references (Pindyck 1978; Dasgupta-Heal 1979; Hotelling 1931; Hartwick 1977; Royden 1988; Folland 1999) overlap with prior ratified Insights #40 + #52 and absorb once at rebuild time.
 
 ---
 
