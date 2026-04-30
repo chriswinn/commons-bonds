@@ -362,3 +362,65 @@ Section labels are scaffolding placeholders for the Insight #36 drafting session
 - Does not commit Ch 1 to the autonomy-as-commons political-philosophical claim — accommodation preserved per Option C' ratification.
 - Does not exceed scope — the framework-vocabulary work + political-philosophical acknowledgment land in Ch 6 (see `manuscript/chapters/archive/Chapter__6___SupplementaryDrafts_2026-04-24.md`).
 - Does not codify a decision-time methodology — Pattern 2 threading per WP#10.
+
+---
+
+## Operational guidance for Insight #36 β.2 conversational drafting session
+
+*Added 2026-04-30 as a parallel to the same-named section in `Chapter__3___GuidanceDoc.md` (post-#37 follow-on per author direction). Ch 1 already carries strong content for most categories (structural-asks at lines 70-93; story-types at lines 138-143; case-study references at lines 178-201; pre-drafting gates at lines 220-227). This section names what's parallel to Ch 3, points to the existing content, and adds what was missing — primarily Pattern 2 anchor framing and current Cᵢ vocabulary for the cost-category mapping.*
+
+### Pattern 2 anchor framing (per Insight #9 verdict ratified 2026-04-30)
+
+Ch 1 commute-trade is the **first external-layer Pattern 2 decision-time anchor** for the framework. Per Insight #9 verdict (b): demonstrate the framework's decision-time affordance through Chris's voice; do NOT codify a methodology. Readers extract "the framework can be used at decision-time" by watching Chris's past-self get severed from his future-self's outcome — not from a procedural how-to.
+
+Decision-time moments worth threading through Ch 1 prose (any of these, all of these, or moments that surface during conversational drafting):
+
+- **Signing the lease that locked in the 5-hour commute** — the apartment-manager moment per Personal Stories Candidate #1; informal CIT (testing whether the cost is scarcity-grounded in time) + informal RCV (mentally multiplying hours × days × year) would have surfaced ~1,800 hours/year that the lease-signing moment did not price.
+- **Accepting the contract that captured the billable time** — the consulting-engagement moment; the contract priced the hours but not what the hours displaced (presence, attention, the wife's recovery, the son's first months).
+- **Choosing the income trajectory over presence** — the recurring decision to keep billing 120 hours when the family's healthcare depended on the income; the choice that *was* a choice but not the free choice free-market theory presupposes (per consent-problem passage already in Draft).
+- **The moment the framework was visible but not yet named** — the moment Chris's own observation crossed from "this work is expensive" to "the contract priced the billable time, not the displacement." Origin moment per lines 102-108.
+- **The pivot to nursing** — the decision moment when the cost-severance Chris had been bearing became visible enough to act on. Foreclosure-cost made personal: the version of the IT-consulting life that did not happen.
+
+Each of these is a moment where informal CIT + informal RCV (the two-step from `core/methodology/decision_time_application_internal_v1.0.0.md` §2) would surface costs the decision-maker would otherwise miss. **Do not name these costs in chapter prose using framework vocabulary.** Pure Register 1; the decision-time framing emerges from Chris's voice describing the choices he faced and what they cost.
+
+**Worked-example seed material:** `core/methodology/decision_time_application_internal_v1.0.0.md` §5 carries decision-time worked-examples (apartment leases, employment, medical, housing, career pivots, consumer purchases) — Ch 1's commute-trade + 120-hour-week + nursing-pivot examples extend that catalog. Internal-layer; not for chapter prose; informs the conversational session's question shape.
+
+### Pointers to existing content (do not duplicate)
+
+The following already exists in this GuidanceDoc and is canonical — the conversational session should read it directly, not via the parallel structure I added for Ch 3.
+
+- **Structural-asks for what Ch 1 must do for the book to land** → existing lines 70-93 ("the book needs living people / villain who isn't a villain / origin story") + lines 168-170 (reader-recognition gate) + lines 152-155 (knowledge-worker recognition route). These are the canonical structural-asks; Ch 3 had to draft them; Ch 1 had them from the start.
+- **Story-types worth gathering / drafting** → existing lines 138-143 (four-story menu: 120-hour week / wife's illness + paternal leave / consulting handoff that never happened / Thanksgiving sales cycle). Plus Personal Stories Candidate #1 (commute-trade) — the cross-reference at top.
+- **Case-study source files** → existing lines 178-201 (healthcare-end-of-life canonical bridge; what's NOT Ch 1's work).
+- **Pre-drafting gates** → existing lines 220-227 (CEO-era NDA review; subordinate anonymization; wife's medical privacy; parents' privacy; Hampton observations).
+- **Register discipline** → existing lines 217-222 (Pure Register 1; target length 5K-6K; no eight-tier naming; preserve consent-problem passage; no Ch 2 preempt; coordinate with Ch 10).
+- **Character pressure points** → existing lines 226-227 (C14, C15, C16, C21, C22; Ch 1 as register-establishment).
+
+### Cost-category demonstration mapping in current Cᵢ vocabulary
+
+The existing list at lines 142-149 maps cost categories to knowledge-worker lived experience but uses the **retired 8-tier vocabulary** (8-tier RETIRED 2026-04-24 per Insight #21 + #63; superseded by Cᵢ admission via CIT through Four Gates per Path F). The intent is unchanged — Ch 1 demonstrates each category through lived experience without naming. The mapping below is the same intent in current vocabulary, recommended for the conversational session.
+
+Ch 1 should NOT name these in prose (Register 1 discipline; framework vocabulary lands in Ch 6). What follows is internal scaffolding for which Cᵢ categories Chris's stories naturally illuminate. Recommend covering 4-6 of these implicitly; the rest can wait for subsequent chapters.
+
+- **Lifetime / Health cost** — elevated cortisol, cardiovascular strain, sleep debt; chronic health cost of extended knowledge work at billable intensity. Plus the wife's medical-commons cost made visible during the family's healthcare experience. Plus the parents' aging — the body-cost the family bore that the contract did not price.
+- **Individual / Actuarial Risk cost** — the real career risk of not closing, of being replaced, of missing deadlines that determined compensation. The compounding risk-stack at consulting-engagement scale.
+- **Mission Failure Reserve** — what happens if the deal does not close, if the startup fails, if the healthcare IT company does not receive its next contract. The contingency the household had to carry that the contract did not price.
+- **Lineage Labor cost** — the son, the wife, the parents. What was taken from Chris's lineage by the displacement. Time taken from the version of fatherhood that was foreclosed during the 120-hour weeks.
+- **Foreclosure cost** — the version of Chris's life that did not happen. The choice to become a nursing student. The fact that this was only available because the earlier life had already extracted what it was going to extract. The IT-consulting-career-continuation that was foreclosed for the household to have any version of recovery.
+- **Knowledge and Cultural cost** — the consulting handoff that never happened (the firm extracted what Chris could produce; it did not extract the knowledge that made him able to produce it; when he left, the knowledge disappeared from the firm). Knowledge-worker scale demonstration.
+- **Community Transition cost** — when a knowledge worker burns out and leaves the industry, what support infrastructure catches them? For most, nothing. For Chris, the transition to nursing was self-funded; the surrounding economy did not price it.
+- **Ecological / Habitability cost** — less directly visible for knowledge work, but the attention ecology of a household and the knowledge ecology of a firm both degrade under extraction patterns. Light touch; this category lands more directly in Ch 3 + Ch 8.
+- **Political Capture cost** — the tech industry's suppression of labor law reform, the healthcare industry's suppression of nursing wage growth, the consulting industry's resistance to pricing for knowledge transfer. All real; all documented; all operating to maintain the extraction patterns the chapter describes.
+
+The 8-tier list at lines 142-149 should be considered superseded by this mapping for any future-drafting purpose. Keeping the original list in place (rather than rewriting line 142-149) preserves the audit trail per WP#4.
+
+### Conversational drafting session structure (suggested for Insight #36 β.2)
+
+Not prescriptive — Chris's preference governs. Default shape if no preference surfaced:
+
+1. **Open with Chris's personal-narrative spine** per existing lines 36-42 — wife's illness, the plane, the IT career, the company, NASA + Johns Hopkins + NIH, the Savannah house, the paternal leave running out. This is §AUTHOR-ZONE-1 territory; Chris's voice from the start.
+2. **Walk through 2-3 of the four story types** at existing lines 138-143 plus the commute-trade at Personal Stories Candidate #1. Surface follow-up questions in real time; each story illuminates one or more of the cost categories above without naming them.
+3. **Land the consent-problem passage** (already in Draft at line 25-27 + already articulated at GuidanceDoc lines 147-149) — the sharpest demonstration of the framework. Pattern 2 register: lived dilemma, not procedural reasoning.
+4. **Plant the healthcare-end-of-life bridge** per existing lines 187-189 — the medical-commons mechanism operating on the wife's body and, later, the parents' bodies. Both in Chris's personal story.
+5. **Optional: the additional original scene** per existing lines 212-220 — nursing-school clinical rotation OR community-college SGA observation OR healthcare-IT institutional scene. One additional scene beyond the plane opener (per chapter-audit-v1.0.6 sociology-paper source item 3; also at audit §9.3 line 1636).
+6. **Land the closing in Chris's voice** with the bridge to Ch 2 (one McDowell County reference permissible per existing line 224 — the case itself is Ch 2's work).
