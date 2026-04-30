@@ -915,6 +915,41 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #42 — Phase 2 Theorem E.3 Abundance Masking academic-rigor depth audit — CLOSED-RATIFIED 2026-04-29
+
+- **Raised:** 2026-04-29 by Phase 1 §8.2 (E.3 flagged for Phase 2 academic-rigor depth audit).
+- **Status:** **closed-ratified 2026-04-29 (Chris Winn) — verdict (a) Full ratify: formal mathematical derivation + notation disambiguation (S → τ) + domain restriction + citation expansion** per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e3_abundance_masking_v1.0.0.md`. Third Phase 2 theorem audit; circular-reasoning case. Tests applied (8); 7 of 8 verdicts WEAK on as-currently-written; 1 ADEQUATE; 0 STRONG.
+- **Category:** academic-rigor · pass-fail-gate · theorem-audit · Phase 2 · notation-discipline
+- **Content:** Three concrete restructure enhancements ratified:
+  1. **Replace circular CIT-construction reasoning with formal mathematical derivation** via supply-elasticity argument + explicit hyperbolic functional form near scarcity threshold: c(A) = c₀ · (τ/(A−τ))^α with α ≥ 1. Limit analysis: lim_{A → ∞} c(A) = 0 (abundance masks cost); lim_{A → τ⁺} c(A) = ∞ (cost diverges as abundance approaches scarcity).
+  2. **Disambiguate notation:** rename E.3's "scarcity threshold" to **τ (tau)**. Reserve `S` and `S(t)` exclusively for substitutability function (per Insight #40 E.4 audit + framework's RCV integrand discipline). Apply consistently across Tech Appendix.
+  3. **Add domain restrictions:** non-renewable depletable commons under stock-flow framework with standard supply-elasticity. Explicit exclusions for renewable commons (regeneration ≥ extraction); information / non-rivalrous commons (use does not deplete stock); network-effect commons (cost dynamics depend on coordination effects).
+- **Decisive finding (NEW Phase 2 — distinctive from parallel-session audit):** **NOTATION COLLISION** between three distinct concepts using letter S:
+  - E.3 `S`: scarcity threshold (a numeric value of abundance)
+  - E.4 `S(t)` + framework RCV integrand: substitutability function (a probability function in [0, 1])
+  - Insight #33 `S_max`: limit of substitutability function (existential substitutability gap)
+  
+  Same letter; three concepts; serious M12 attribution-honesty + readability issue. Only visible when looking ACROSS theorems (E.3 S vs E.4 S(t) vs framework integrand S vs Insight #33 S_max); single-theorem audit would not surface this. **NEW Phase 2 finding** not in Phase 1 §6.11 (which addressed Externality Tail's `-Tail` suffix) or §8.2 (which flagged Hotelling rent dynamics + commodity price spike empirical citations as Phase 2 scope).
+- **Other findings (overlap likely with parallel session E.3 audit):**
+  - Circular reasoning: "By construction of the Commons Inversion Test" — CIT is methodology for identifying admissible costs, NOT source of abundance-masking phenomenon.
+  - Missing formal mathematical derivation: "linear to exponential transition" hand-waved without functional form.
+  - Hotelling 1931 cited but not directly applicable as written; adjacent + supportive (extraction-price-over-time) but not directly proving E.3 (cost-as-function-of-abundance).
+  - Empirical citation gap: Hamilton 2009 *Brookings Papers*; Kilian 2009 *AER*; Pindyck 2008 *Energy Journal* commodity-price-spike literature not cited.
+  - Domain over-broad: 4 counterexamples constructed (renewable commons; information commons; network-effect commons; constant-cost commons); all real; all falsify universal claim. Repair = explicit domain restrictions per Premise A4.
+- **Pass-fail verdict on as-currently-written E.3:** WEAK (7 of 8 tests). Would not survive academic peer review at top-tier journals.
+- **Pass-fail verdict on restructured E.3 per rigor pass §13:** STRONG. Formal derivation with explicit hyperbolic functional form; notation disambiguated; domain restricted to non-renewable depletable commons; load-bearing citations explicit.
+- **Pattern observation after 3 theorem audits:** audits surface substantive finds at Phase 2 depth that screening-level Phase 1 missed. E.4 found 2 counterexamples + ambiguous mapping; E.1 found 1 wrong premise + 1 categorization conflation + 1 real counterexample + 3 missing citations; E.3 found notation collision + circular reasoning + 4 domain-restriction counterexamples + 3 missing citations. Pattern doing real work.
+- **Implementation pending:**
+  - **Tech Appendix v1.0.0 HTML §10 line 3270-3276 — restructured E.3 per rigor pass §13.** Same open question as Insights #35 + #38 + #40 + #41: apply now vs batch into Phase 3 Tech Appendix v2.0.0 rebuild. Possibility of unified batch.
+  - **Tech Appendix-wide notation sweep — S → τ for scarcity-threshold instances.** May surface additional collision instances.
+  - **Bibliography expansion** — Hamilton 2009; Kilian 2009; Pindyck 2008; possibly Massari & Ruberti 2013 (rare-earth mineral price-spike); Marshall 1890 *Principles of Economics* + modern microeconomics text for supply-elasticity foundation.
+  - **terms_index update** — possibly clarify CIT entry that CIT is methodology for identifying admissible costs, NOT source of abundance-masking phenomenon (resolves circular reasoning at terminology level).
+  - **Pre-publication external review** (per Insight #39) — resource-economics + commodity-economics specialization reviewer (Hotelling lineage; Hamilton/Kilian energy-economics tradition); formal-methods reviewer for limit analysis + functional form. Downstream gate.
+- **Parallel-session note:** User ran parallel sessions on rest of Phase 2 list (E.5, E.2, items 4-8) while this session worked on E.1 + E.3. Notation-collision finding distinctive to this session's E.3 audit; not surfaced by parallel session. User will wrap parallel session and bring outputs into this branch for reconciliation.
+- **Dependencies / Links:** Phase 1 full framework audit §8.2 (`commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md`); Insight #40 (E.4 audit; established S(t) substitutability-function notation discipline; cross-reference for notation-collision finding); Insight #41 (E.1 audit; verdict-pattern cross-reference); Insight #33 (existential substitutability gap rename; established S_max notation); Insight #39 (pre-publication external review; downstream gate); Hotelling 1931 (adjacent rent-dynamics framework); Hamilton 2009 + Kilian 2009 + Pindyck 2008 (empirical commodity-price-spike literature); Marshall 1890 + modern microeconomics (supply-elasticity foundation).
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*
