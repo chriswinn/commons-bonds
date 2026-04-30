@@ -3,7 +3,7 @@
 *A framework for honest accounting of intergenerational commons-extraction costs*
 
 **Author:** Chris Winn
-**Status:** Active framework development — session v1.33.0 (2026-04-23)
+**Status:** Active framework development — session v1.47.0 (2026-04-29)
 
 ---
 
@@ -44,7 +44,7 @@ Vocabulary used by people solving real problems. Not royalties, not prizes, not 
 | Framework-scope decision | **Path F selected** — variables-not-dimensions reframing. PCR v1.1.0 §8 confirmed 2026-04-24. Extreme-rigor pass PASSES-WITH-CONDITIONS; **Phase A2 Conditions 1–4 materially implemented 2026-04-24** (Tech Appendix v0.0.4 §L + §M; Ch 6 body §Four-Gates + §Contribution + §Reproducibility). Rigor-pass rerun available per §11.7. | [`tools/pre-submission-reviews/commons_bonds_pcr_2026-04-23_v1.1.0.md`](tools/pre-submission-reviews/commons_bonds_pcr_2026-04-23_v1.1.0.md) · [`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_path_f_variable_addability_v1.0.0.md`](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_path_f_variable_addability_v1.0.0.md) |
 | Tier reframing decision | **Reframing claim FAILS SC-1 on §5.3 duplication check (2026-04-24); dissolution ratified.** 5 of 9 v10 tiers are variables, 1 is C₁ duplication, 3 ambiguous, 0 clear groupings. Variables replace tiers at framework-specification level. Conditions 1–4 APPROVED (2026-04-24); Condition 5 (Tier 6 / E overlap) deferred. Sequencing pending. | [`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_tier_reframing_v1.0.0.md`](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_tier_reframing_v1.0.0.md) |
 | Macro-grouping decision | **Option A ratified (2026-04-24) — macro-groupings REJECTED at every level.** No framework-canonical macro-categories; no chapter-layout permit for thematic section headings. Pure variable enumeration with narrative pacing is the book's structural approach. Author's prior (abstraction-hides-severance) CONFIRMED by §7 test; success-criterion alignment NEGATIVE for macro-canonical, CONFIRMED strong for Option A. | [`tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_macro_grouping_v1.0.0.md`](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_macro_grouping_v1.0.0.md) |
-| Current handoff | **v1.40.0** | [`alignment/sessions/commons-bonds-session-handoff-2026-04-24_v1.40.0.html`](alignment/sessions/commons-bonds-session-handoff-2026-04-24_v1.40.0.html) |
+| Current handoff | **v1.47.0** | [`alignment/sessions/commons-bonds-session-handoff-2026-04-29_v1.47.0.md`](alignment/sessions/commons-bonds-session-handoff-2026-04-29_v1.47.0.md) |
 
 **10 locked dimensions:** Habitability · Spatial · Temporal · Institutional · Kindred · Ecosystem · Political · Cohesion · Epistemic · Autonomy
 
@@ -55,7 +55,7 @@ Vocabulary used by people solving real problems. Not royalties, not prizes, not 
   - `chapters/` — 8 drafts + 10 guidance docs + dedication + author's note
   - `essay/Noema/` — submitted essay (do not touch)
   - `essay/berggruen/` — competition requires AI-free content (do not touch)
-- **[`core/`](core/)** — canonical framework content: `dimensions/`, `decomposition/`, `glossary/`, `technical-appendix/` (math-heavy HTML)
+- **[`core/`](core/)** — canonical framework content: `dimensions/`, `glossary/`, `technical-appendix/` (math-heavy HTML), `terms/`, `methodology/`, `chapters/`, `case-studies/` (per Insight #55: 8-tier `decomposition/` archived to `archive/decomposition/`)
 - **[`alignment/`](alignment/)** — project-meta:
   - `decisions/` — ratified decisions + pending-review items (e.g. April 19 per-section captures, alternate 8-tier retired for tier-decision review)
   - `patches/pending-framework-review/` — C2/C3/C9 patches + 2 layer-era triage analyses, gated on tier-structure decision
@@ -81,7 +81,7 @@ When starting a new Claude session:
 
 - **Two-path rigor** — allocation symmetry + shield absence. Both paths must confirm.
 - **Merger gate + primitiveness gate** — applied to any new or renamed dimension.
-- **Abundance Inversion Test (AIT)** — epistemic core; scarcity-grounded claims survive abundance stripping. Dimensions are organizational scaffolding around AIT.
+- **Commons Inversion Test (CIT)** — epistemic core; scarcity-grounded cost claims survive counterfactual inversion (CAI / CCI). Operates as a thought-experiment discrimination gate within the Four Gates admission apparatus (Path F per Insight #21 + tier-reframing). Renamed from AIT; replaces 8-tier decomposition discipline.
 - **Earning-its-place + Scaffolding-vs-book-worthy** — standing book-integrity tests (Tests 28 + 29) applied at every rigor depth.
 - **Canonical cases are dimension-inherent** — not incidental illustrations.
 - **Single-dimension cost severance** — one-dimension cases are full instances; framework doesn't require multi-dimension co-occurrence.
@@ -89,10 +89,10 @@ When starting a new Claude session:
 ## Hard rules
 
 - Never touch `manuscript/essay/Noema/` or `manuscript/essay/berggruen/` — Noema submitted; Berggruen requires AI-free content.
-- Math files stay `.html` (Ch. 6, Technical Appendix, eight-tier decomposition, glossary).
+- Math files stay `.html` (Ch. 6, Technical Appendix, glossary). The eight-tier decomposition is RETIRED 2026-04-24 + archived 2026-04-30 (Insight #55); replaced by Cᵢ admission via Four Gates per Path F.
 - Privacy: scrub personal financial specifics from external-facing outputs.
 - `.DS_Store`, `.claude/`, `.chriswinn/` are in `.gitignore` — never commit.
-- Direct-to-main git workflow with smaller focused commits; push each to origin after commit.
+- Worktree-isolation git workflow per Working Principle #9: harness-issued feature branches during a session; ratified-chunk fast-forward to `main` via `git push origin HEAD:main` after each closed-ratified insight or atomic patch.
 
 ## Migration note
 

@@ -90,6 +90,13 @@ Per-term audience juggling is out of scope. The audience is a property of the bo
 
 ### §3.1 Definitions
 
+**Disambiguation note (added 2026-04-30 per Insight #63):** the word "Tier" is used for two entirely distinct framework concepts. The qualifier disambiguates:
+
+- **Tier A / Tier B / Tier C / Tier D** (letter-qualified) — the **vocabulary-decision four-move ladder** defined in this section. Current standing discipline; codified in vocabulary strategy v1.0.1; ratified 2026-04-28 per Insight #27.
+- **Tier 1 / Tier 2 / … / Tier 8** (number-qualified) — the **8-tier cost-decomposition scheme**, RETIRED 2026-04-24 per tier-reframing rigor pass §11.2 + Path F variable-addability ratification. Replaced by Cᵢ admission via Four Gates per Insight #21. Archived 2026-04-30 per Insight #55 hygiene pass at `archive/decomposition/`. Trace: `archive/retirements/index.md`.
+
+When citing or referencing "Tier" without context, always include the qualifier (letter for vocabulary moves; number for the retired decomposition). Standalone "Tier framework" is ambiguous and should not be used. Insight #63 (OPEN) holds the question of whether qualifier-based disambiguation is sufficient OR whether a vocabulary-strategy rename to e.g. "Move A/B/C/D" is warranted under pre-publication external review.
+
 The framework's vocabulary discipline recognizes four moves:
 
 **Tier A — Adopt established academic-literature term verbatim with citation.**
