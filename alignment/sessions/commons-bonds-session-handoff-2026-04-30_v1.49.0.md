@@ -283,6 +283,27 @@ Post-v1.48.0: All 8 Phase 2 flagged items resolved. All 3 Group 1 items resolved
 
 ---
 
+## §3.5 Cross-thread discipline addendum (2026-04-30) — Working Principle #10 layer-classification
+
+**RATIFIED 2026-04-30 during Thread δ Insight #9 surfacing.** Working Principle #10 (Two-layer content origination discipline) applies to **all four threads**:
+
+> All new framework content is classified at origination as **internal-scaffolding** or **external-publisher-facing**. Internal scaffolding is rich; external is disciplined per WP#8 + Pattern 2 demonstration (threaded through cases rather than codified in dedicated how-to / methodology sections — the *Doughnut Economics* / *Mission Economy* / *Mine!* model).
+
+**Per-thread application:**
+- **Thread α (architecture):** Phase 3 Tech Appendix v2.0.0 + Phase 4 Glossary v4 are external-layer rebuilds — apply WP#8 scrubbing + Pattern 2 demonstration (Tech Appendix demonstrates the framework's apparatus through theorems + cases; doesn't codify a decision-time methodology). Internal scaffolding (terms_index v1.0.0; vocab strategy; working principles) stays rich per its layer.
+- **Thread β (drafting):** Ch 1 + Ch 3 conversational drafting (Insight #36) absorbs Pattern 2 threading at external layer — personal stories carry decision-time anchors WITHOUT codifying a methodology. Ch 6 supplementary integration applies same discipline. Ch 5 review applies WP#8 scrubbing.
+- **Thread γ (hygiene):** README.md is publisher-facing landing page — apply WP#8 + Pattern 2; archive consolidation operates on internal-scaffolding structure (no external-layer impact except path references).
+- **Thread δ (discussion):** Insight #14 (Norway) already operates on Pattern 2 discipline ("demonstrate the affordance; don't codify it"); Insight #13 (book-scope creep) is reinforced by WP#10 (rich internal preserves Book 2 seed material without scope-creep into Book 1).
+
+**Default behavior when uncertain:** classify new content as internal scaffolding. It's easier to promote internal material to external (when it earns the slot via Pattern 2 demonstration) than to scrub publisher-facing artifacts of accumulated scaffolding.
+
+**Cross-references:**
+- Working Principle #10 — `alignment/commons_bonds_working_principles_v1.0.0.md` Principle #10
+- Internal scaffolding canonical artifact — `core/methodology/decision_time_application_internal_v1.0.0.md`
+- Insight #9 closed-ratified 2026-04-30 (verdict source for WP#10 generalization)
+
+---
+
 ## §4. Parallel-session coordination discipline
 
 ### §4.1 File-level conflict map

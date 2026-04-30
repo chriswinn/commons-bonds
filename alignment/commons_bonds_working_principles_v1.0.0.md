@@ -519,6 +519,72 @@ The project operates two concurrent working trees from a single `.git` directory
 
 ---
 
+### Principle #10 — Two-layer content origination discipline (internal scaffolding vs external publisher-facing)
+
+**Ratified:** 2026-04-30 by Chris Winn during Insight #9 Thread δ surfacing. Originating reframe: *"hmm, I think perhaps I should have asked the question differently as what we are archiving isn't necessarily going to end up as end reader, publisher, literary agent facing. So I guess a better question is what should be internal vs external, then apply the earlier question to the external facing material."*
+
+**Originating context:** Insight #9 (Framework as decision-time severance-detection tool) initially framed as a single-layer book-scope question (a/b/c/d options for the publisher-facing book). The reframe surfaced that the question is actually two-layer: (Step 1) what lives in internal scaffolding vs external publisher-facing artifacts; (Step 2) for whatever lands external, apply book-scope / literature-pattern reasoning. The reframe is general — it applies to *any* framework decision where rich research / methodology / worked examples / literature audits exist alongside a publisher-facing chapter / glossary / Tech Appendix decision.
+
+**Principle statement:**
+
+All new framework content is classified at origination as **internal-scaffolding** or **external-publisher-facing**. The two layers operate under different disciplines:
+
+| Layer | What lives here | Discipline |
+|---|---|---|
+| **Internal scaffolding** | `.claude/` · `tools/` · `core/methodology/` · `alignment/` · `research/` · `archive/` | Rich; preserves methodology notes, worked examples, research-grade depth, literature audits, audit trail, decision-time-application drafts, Book 2 / Book 3 seed material, framework-supporting material that doesn't need publisher-facing exposure |
+| **External publisher-facing** | `manuscript/chapters/*` · `core/glossary/*` · `core/technical-appendix/*` · `manuscript/essay/*` | Disciplined per WP#8 (scrubbed of audit-trail content) + Pattern 2 demonstration (threaded through cases rather than codified in dedicated how-to / methodology sections — the *Doughnut Economics* / *Mission Economy* / *Mine!* model) |
+
+**Cross-layer flow:**
+
+- **Internal can FEED external** — worked examples can become chapter prose; literature audits can inform chapter framing; methodology drafts can demonstrate as case treatment.
+- **External must NOT carry internal contamination** — no scaffolding bleed into publisher-facing artifacts. WP#8 enforces this directly.
+- **Internal serves as bridge to Book 2 / Book 3** — research that doesn't land in Book 1 publisher-facing accumulates in internal scaffolding, where it becomes seed material for future books per Insight #13 book-scope-creep discipline.
+
+**Application discipline at content origination:**
+
+Before creating new content, classify it:
+
+1. *Is this directly supporting the reader-facing argument in a way that earns its publisher-facing slot?* → External.
+2. *Is this methodology / research / worked example / audit material that supports framework decisions but doesn't need to land in chapters / glossary / Tech Appendix?* → Internal.
+3. *Is this material that future books (Book 2 / Book 3) might absorb?* → Internal (as seed).
+4. *Is this audit trail / decision record / rigor-pass content?* → Internal (per WP#4 + WP#8).
+
+When in doubt, default to internal — it's easier to promote internal material to external (when it earns the slot) than to scrub publisher-facing artifacts of accumulated scaffolding.
+
+**Pattern 2 demonstration discipline (for external layer):**
+
+External-facing material that touches applied / decision-time / how-to registers should follow the **Pattern 2 / threaded** model documented in [`core/methodology/decision_time_application_internal_v1.0.0.md`](../core/methodology/decision_time_application_internal_v1.0.0.md):
+
+- Demonstrate the framework's affordance through case treatment (chapters; personal stories; cross-references)
+- Do NOT codify a methodology in publisher-facing prose (no "How to Apply" chapters; no prescribed two-step procedures)
+- Trust the reader to extract the methodology by observing the framework get used
+- Mirror the Insight #14 epistemic-humility discipline: "demonstrate the affordance; don't codify it"
+
+**Why this principle matters:**
+
+1. **Preserves all research without scope-creep cost.** Rich internal scaffolding doesn't bleed into publisher-facing register. Insight #13 (book-scope creep monitoring) is reinforced.
+2. **Names where new content originates.** WP#4 (refined retirement-trace policy) tells us where retirement traces go. WP#8 tells us what's scrubbed from publisher-facing. Insight #28 classifies retirement tiers. Insight #37 is the after-the-fact separation operation. WP#10 fills the gap: it tells us where new content *originates* and the discipline that follows from that classification.
+3. **Creates a clean handoff to Book 2 / Book 3.** Material that exceeds Book 1 publisher-facing scope accumulates in internal scaffolding as seed for future books — rather than being lost or forced into Book 1 inappropriately.
+4. **Coordinates parallel threads.** Threads α (architecture), β (drafting), γ (hygiene), δ (discussion) per session handoff v1.49.0 each operate across both layers; explicit two-layer discipline keeps thread outputs disciplined regardless of which thread lands them.
+
+**Interaction with other principles:**
+
+- **WP#4 (refined retirement-trace policy)** — operates on the same internal/external axis; WP#10 generalizes the discipline to all content origination, not just retirement traces.
+- **WP#8 (publisher-facing scrubbed of scaffolding)** — WP#10 is the origination-time companion to WP#8's scrubbing-time discipline.
+- **Insight #13 (book-scope creep monitoring)** — WP#10 provides the structural answer to scope-creep pressure: rich material lives internal; external stays disciplined.
+- **Insight #14 (Norway treatment + epistemic-humility discipline)** — WP#10 generalizes the "demonstrate the affordance; don't codify it" register from Norway/Accountability Bond specifically to all framework affordances at the publisher-facing layer.
+- **Insight #28 (three-tier retirement-trace classification)** — WP#10 operates at content-origination; Insight #28 operates at retirement-time. Compatible; complementary.
+- **Insight #37 (scaffolding-vs-publisher-facing separation pass)** — Insight #37 is the after-the-fact separation operation; WP#10 prevents the contamination at origination, reducing #37's scope going forward.
+
+**Cross-references:**
+
+- Insight #9 closed-ratified 2026-04-30 (verdict (b) at external layer + rich-internal-scaffolding discipline) — WP#10 is generalized from this verdict
+- [`core/methodology/decision_time_application_internal_v1.0.0.md`](../core/methodology/decision_time_application_internal_v1.0.0.md) — internal scaffolding artifact preserving the literature-pattern analysis (Pattern 1 / 2 / 3) + two-layer framing rationale
+- WP#4 (refined per Insight #59); WP#8; Insight #13; Insight #14; Insight #28; Insight #37
+- Session handoff v1.49.0 §4 — parallel-thread coordination discipline
+
+---
+
 ## §3. Candidate principles (articulated but not yet ratified as such)
 
 ### Candidate — Option-space breadth is load-bearing
