@@ -1067,6 +1067,62 @@ Tech Appendix §L footnote positions E as temporal-specialization of Pigouvian e
 
 ---
 
+### Intergenerational Option Value
+
+**Working definition:** The value of preserving optionality on a resource for future-generation uses that may emerge from future technologies / discoveries / civilizational-application changes. Specialization of real-options option-value concept (Henry 1974; Arrow + Fisher 1974; Dixit + Pindyck 1994) to intergenerational temporal-scope. Distinct from Substitutability Function S (which captures *probability* of substitute existing) — Intergenerational Option Value captures the *value* of preserving the option to discover one.
+
+**Status:** `CURRENT` at Ring 2 — RATIFIED 2026-04-30 by Chris Winn per Insight #57 (Group 1.2 Tier B promotion verdict).
+
+**Glossary definition (~80 words, reader-register):**
+> The value of preserving the option that future generations might discover or develop a use for a resource we currently extract. **Intergenerational Option Value** specializes real-options theory (Henry 1974; Arrow + Fisher 1974) to the temporal scope where future generations cannot bid in present markets. When extraction is irreversible and substitute discovery uncertain, preserving optionality has positive value even if no substitute is yet known. Ch 4 *The Existence Proof* uses this concept to establish that future generations have value-claims on present extraction.
+
+**Tech Appendix definition (~280 words, formal + lineage):**
+> Specialization of real-options theory's option-value concept (Henry 1974 *AER* "Investment Decisions Under Uncertainty: The Irreversibility Effect"; Arrow + Fisher 1974 *QJE* "Environmental Preservation, Uncertainty, and Irreversibility" quasi-option value; Dixit + Pindyck 1994 *Investment under Uncertainty*) to intergenerational temporal-scope. The framework specializes the temporal scope axis: real-options theory addresses uncertainty + irreversibility within markets where all parties bid; intergenerational option value addresses the same structure across generational boundaries where future parties cannot bid.
+>
+> Conceptual relationship to existing framework apparatus:
+> - **Substitutability Function S(t | t₀)** captures *probability* of substitute existing at time t.
+> - **Intergenerational Option Value** captures *value* of preserving the option to discover one.
+> - Both contribute to the foreclosure-cost component C₁ within RCV's integrand, but at different conceptual levels (S is a probability factor; option-value is the welfare gain from preserved optionality).
+>
+> Ch 4 argument-load-bearing role: Ch 4 *The Existence Proof* frames the entire chapter via option-value reasoning. The "existence proof" Ch 4 establishes is that this option-value is non-zero under any reasonable preservation-of-future-utility assumption — therefore future generations have value-claims on present extraction even when no specific substitute has emerged.
+>
+> M12 lineage: Henry 1974 + Arrow + Fisher 1974 + Dixit-Pindyck 1994 (foundational real-options); Howarth + Norgaard 1990 *Land Economics* (intergenerational extension; "Intergenerational Resource Rights, Efficiency, and Social Optimality"); Howarth + Norgaard 1992 *AER* (sustainable-development valuation). Framework specializes by integrating with RCV integrand + Cᵢ-admissibility via CIT + Four Gates.
+
+**Term-spec version:** v1.0 (first sanctioned spec post Group 1.2 ratification 2026-04-30).
+
+**Last reviewed:** 2026-04-30
+
+**Rigor provenance:**
+- Holistic strategy §10 §5.1 (2026-04-29) — flagged Tier B promotion vs defer (commit `0a8510d`); discussion-needed verdict between (α) Tier B promotion and (β) defer.
+- Group 1.2 rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_group1_2_intergenerational_option_value_v1.0.0.md` (2026-04-30) — full-depth rigor test parallel to Phase 2 #3.# theorem audits. **Verdict (α) Tier B promotion + dedicated terms_index entry RATIFIED 2026-04-30 by Chris Winn.** 12-cell multi-audience matrix: 9 STRONG + 3 ADEQUATE (Tier 2d + Socialist/communitarian + Lived-oppression — option-value reads as detached/abstract for present-suffering positions; mitigable via Tech Appendix §L methodological footnote per Insight #35 + #38 patterns). M11 critic-survival SURVIVES all 5 probes. Tier-ladder: Tier B clean (Henry/Arrow-Fisher/Dixit-Pindyck close-fit + intergenerational specialization decodable via light footnote).
+
+**Decisive criterion for Tier B (vs defer):** Argument-load-bearing distinction. Ch 4 argument-spine depends on Intergenerational Option Value as named concept; threshold-policy that defers single-chapter Cᵢ items (Lifetime Survival Cost; Community Disruption Cost; Political Capture Cost; Temporal Displacement Cost) applies to illustrative mentions, not argument-spines. Per Insight #32 §32.3 corollary: usage-frequency is not the rigor argument; argument-load-bearing-ness is a separate axis.
+
+**M12 lineage citations (ratified 2026-04-30):**
+- Henry, C. 1974. "Investment Decisions Under Uncertainty: The Irreversibility Effect." *American Economic Review* 64(6): 1006-1012. — quasi-option-value foundation.
+- Arrow, K. J. & Fisher, A. C. 1974. "Environmental Preservation, Uncertainty, and Irreversibility." *Quarterly Journal of Economics* 88(2): 312-319.
+- Dixit, A. K. & Pindyck, R. S. 1994. *Investment Under Uncertainty.* Princeton University Press.
+- Howarth, R. B. & Norgaard, R. B. 1990. "Intergenerational Resource Rights, Efficiency, and Social Optimality." *Land Economics* 66(1).
+- Howarth, R. B. & Norgaard, R. B. 1992. "Environmental Valuation under Sustainable Development." *American Economic Review* 82(2).
+
+**Cross-political-tradition robustness (per vocabulary strategy v1.0.1 §8):** STRONG on classical-liberal + civic-republican; ADEQUATE on socialist/communitarian + lived-oppression (option-value reads as academic-distance vocabulary; some heterodox traditions critique option-value as marketizing-the-future). Mitigation: Tech Appendix §L methodological footnote addressing commodification critique parallel to Insight #35 + #38 patterns (queued for Phase 3 v2.0.0 rebuild).
+
+**Pairs with:** Substitutability Function (S) — distinct conceptual level (S = probability factor; option-value = welfare gain from preserved optionality); Foreclosure Cost (C₁) — option-value is welfare-economic basis for C₁ admissibility per CIT; RCV integrand.
+
+**Pre-publication external review (per Insight #39):** economics PhD with real-options-theory specialization (Dixit-Pindyck tradition) + intergenerational-equity specialization (Brown Weiss + Howarth-Norgaard tradition) verifies framework-specialization is correctly characterized. Downstream gate.
+
+**Implementation pending Phase 3 v2.0.0 rebuild:**
+- Tech Appendix §L methodological footnote — address commodification critique + clarify intergenerational temporal-scope specialization.
+- Glossary v3 → v4 rebuild Intergenerational Option Value dedicated entry.
+- Optional Ch 4 prose tightening — verify framework-specialization + lineage bridge readable.
+
+**Notes:**
+- Distinct from Substitutability Function S(t) — S captures probability; Intergenerational Option Value captures the welfare value of preserving optionality. Both contribute to C₁ at different conceptual levels.
+- Ch 4 first-introduction is the term's pedagogical home; framework cites Henry/Arrow-Fisher/Dixit-Pindyck/Howarth-Norgaard lineage on first use.
+- Tier B classification preserves academic-anchor (real-options theory) while allowing framework-specialization (intergenerational temporal-scope; Cᵢ-admissibility via CIT + Four Gates).
+
+---
+
 ### Asymmetric Regret Principle (ARP) — SUPERSEDED 2026-04-24 by Asymmetric Regret Rule (ARR)
 
 **Status:** `SUPERSEDED` 2026-04-24 by Asymmetric Regret Rule (ARR) per ARP rename rigor pass (commit `b8b62e3`) ratified by Chris Winn 2026-04-24 (FINAL ratification after same-day flip from preliminary Reversibility Default ratification). The decision-theoretic CONTENT and aphorism *"We can always extract later. We can never un-extract."* preserved unchanged; the LAST WORD updated ("Principle" → "Rule") to address overclaim concern while preserving regret-theory direct-lineage in the name.

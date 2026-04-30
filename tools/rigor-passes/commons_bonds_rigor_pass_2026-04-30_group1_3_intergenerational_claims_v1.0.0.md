@@ -11,7 +11,7 @@
 2. **(β) Drop intergenerational claims** — compose from existing obligation-vocabulary; reduces vocabulary footprint by one Tier A item
 3. **(γ) Replace claims with "future-generation entitlements"** — explicit duty/entitlement signaling; longer phrase but unambiguous
 
-**Status:** PROPOSED — Group 1.3 audit complete; awaiting author ratification.
+**Status:** **RATIFIED 2026-04-30 by Chris Winn — verdict (α) Keep both intergenerational obligations + intergenerational claims as deliberate Hohfeldian-dual.** Implementation: documentation-only (no chapter sweep needed; current framework usage is correct + deliberate). Insight #58 closed-ratified record added to open_insights. Hohfeld 1913 bibliography addition queued for Phase 3 Tech Appendix v2.0.0 rebuild.
 
 **Author:** Chris Winn
 
@@ -358,4 +358,4 @@ For Hohfeldian-dual discipline: legal-philosophy / political-philosophy reviewer
 
 ---
 
-**End of Group 1.3 intergenerational claims rigor pass v1.0.0 [PROPOSED — awaiting author ratification of §8.1 verdict + §8.3 ratification choices + §9 open questions].**
+**End of Group 1.3 intergenerational claims rigor pass v1.0.0 [RATIFIED 2026-04-30 by Chris Winn — verdict (α) Keep both].**

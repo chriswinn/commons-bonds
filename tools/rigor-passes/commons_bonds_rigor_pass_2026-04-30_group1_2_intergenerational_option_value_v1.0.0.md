@@ -11,7 +11,7 @@
 2. **(β) Defer** — keep in chapter prose only; treat as Cᵢ illustrative-list mention; promote later if cross-chapter recurrence emerges
 3. **(γ) Tier C descriptive prose** — drop proper-noun status; "the intergenerational option value of resource X" as descriptive prose composing existing words
 
-**Status:** PROPOSED — Group 1.2 audit complete; awaiting author ratification.
+**Status:** **RATIFIED 2026-04-30 by Chris Winn — verdict (α) Tier B promotion + dedicated terms_index entry.** Implementation: dedicated terms_index Ring-2 entry added 2026-04-30 with Tier B classification + Henry 1974 + Arrow-Fisher 1974 + Dixit-Pindyck 1994 + Howarth-Norgaard 1990 lineage; Tech Appendix §L methodological footnote queued for Phase 3 v2.0.0 rebuild; Insight #57 closed-ratified record added.
 
 **Author:** Chris Winn
 
@@ -353,4 +353,4 @@ For Intergenerational Option Value Tier B promotion: economics PhD with real-opt
 
 ---
 
-**End of Group 1.2 Intergenerational Option Value rigor pass v1.0.0 [PROPOSED — awaiting author ratification of §9.1 verdict + §9.3 ratification choices + §10 open questions].**
+**End of Group 1.2 Intergenerational Option Value rigor pass v1.0.0 [RATIFIED 2026-04-30 by Chris Winn — verdict (α) Tier B promotion + dedicated terms_index entry].**
