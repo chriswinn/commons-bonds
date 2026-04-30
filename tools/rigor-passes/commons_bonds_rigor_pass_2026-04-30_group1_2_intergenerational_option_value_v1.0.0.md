@@ -345,7 +345,7 @@ Rationale:
 ### §11.3 Sibling Group 1 items
 
 - Group 1.1 (Dynastic Labor Cost rename to Lineage Labor Cost) — parallel ratification (PROPOSED in this commit batch).
-- Group 1 intergenerational claims redundancy — separate decision (rigor pass in this commit batch).
+- Group 1.3 intergenerational obligations + claims Hohfeldian-dual (Insight #58 RATIFIED 2026-04-30; verdict: Keep both as deliberate Hohfeld 1913 jural-correlative usage) — sibling Group 1 audit ratified concurrently.
 
 ### §11.4 Pre-publication external review (Insight #39)
 

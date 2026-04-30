@@ -95,7 +95,7 @@ Per author direction 2026-04-29 (carried forward): each audience cell is genuine
 ### §2.3 What this pass does NOT cover
 
 - Group 1.2 (Intergenerational Option Value Tier B promotion vs defer) — separate decision; covered by holistic strategy §10 §5.1; pending separately.
-- Group 3 holistic-strategy redundancy item (intergenerational claims) — separate decision; covered by holistic strategy §10 §4.8; pending separately.
+- Group 1.3 intergenerational obligations + claims Hohfeldian-dual (Insight #58 RATIFIED 2026-04-30; Keep both as deliberate jural-correlative usage per Hohfeld 1913) — sibling Group 1 audit; covered by holistic strategy §10 §4.8 origin.
 - Application of rename across chapters + terms_index + glossary — pending author ratification of verdict; chapter-sweep work happens after.
 
 ---
@@ -606,7 +606,7 @@ Rationale:
 ### §13.3 Sibling Group 1 items (pending separately)
 
 - **Group 1.2 (Intergenerational Option Value Tier B promotion vs defer)** — separate decision; covered by holistic strategy §10 §5.1; pending.
-- **Group 3 holistic-strategy redundancy item (intergenerational claims)** — separate decision; covered by holistic strategy §10 §4.8; pending.
+- **Group 1.3 intergenerational obligations + claims Hohfeldian-dual** (Insight #58 RATIFIED 2026-04-30; verdict: Keep both as deliberate Hohfeld 1913 jural-correlative usage) — sibling Group 1 audit; covered by holistic strategy §10 §4.8 origin.
 
 ### §13.4 Pre-publication external review (Insight #39)
 
