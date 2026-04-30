@@ -1114,6 +1114,45 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #59 — Working Principle #4 refinement: Tiered retirement-trace policy + retirement-archive index — CLOSED-RATIFIED 2026-04-30
+
+- **Raised:** 2026-04-30 by author direction *"Should I change the framework's discipline of keeping retirement traces in scaffolding documents?"* The question surfaced after Group 1 ratification batch + Insight #55 cleanup work, where retirement-trace volume across scaffolding docs became visible.
+- **Status:** **closed-ratified 2026-04-30 (Chris Winn) — verdict: Tiered retirement-trace policy + retirement-archive index combined (Options B + C per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_working_principle_4_refinement_v1.0.0.md`).** Working Principle #4 refined; retirement-archive index created.
+- **Category:** working-principle-revision · scaffolding-discipline · retirement-trace-policy · publisher-prep · framework-maturity
+- **Content:** Refine WP#4 retirement-trace discipline as the framework matures from work-in-progress phase to publisher-prep phase. Tiered policy by document type:
+  - **Open insights / pending rigor passes:** full traces (active discipline; status quo)
+  - **Ratified rigor passes (frozen):** full traces preserved as historical record (status quo)
+  - **Working principles + vocabulary strategy:** light traces in body; cross-reference retirement archive index
+  - **terms_index v1.0.0+:** summary-level traces (1-line "renamed YYYY-MM-DD per Insight #N"); full traces in retirement archive
+  - **Publisher-facing (Tier 1 per WP#8):** no traces (status quo)
+  - **Tier 2 archived/superseded:** header-note only (status quo)
+  
+  PLUS: dedicated `archive/retirements/index.md` — single canonical retirement-archive index. Other scaffolding documents reference this index rather than carrying full retirement traces inline.
+- **Decisive criterion:** at the publisher-prep phase, the discipline's costs (terms_index bloat; navigability decline; Phase 3+4 rebuild inheriting noise; pre-publication external review friction) began to outweigh its benefits (provenance + reversibility + M12 honesty). Refined discipline preserves the purpose (via retirement archive + ratified rigor passes) while addressing navigability cost.
+- **5 alternatives tested at full rigor depth (per rigor pass §4):**
+  - (A) Status quo — REJECTED (navigability declining)
+  - **(B) Tiered policy** — STRONG (7/7 dimensions); selected
+  - **(C) Retirement-archive index standalone** — STRONG with caveat (incomplete without active-scaffolding policy); paired with (B)
+  - (D) Sunset clause — REJECTED (calendar overhead)
+  - (E) Two-tier scaffolding — STRONG but functionally equivalent to (B) with less granularity
+- **What this preserves:** provenance (retirement archive + ratified rigor passes); reversibility (rigor passes remain canonical); M12 attribution-honesty (academic lineage in rigor passes + vocabulary strategy); Routine 1+2 sentinels (cross-reference archive for remediation hints); Working Principle #8 publisher-facing scrub (unchanged; complementary).
+- **What this changes:** terms_index v1.0.0+ reads as current-state document; working principles + vocabulary strategy less cluttered; single canonical retirement archive; Phase 3+4 rebuilds derive from cleaner sources; pre-publication external reviewer sees current state cleanly.
+- **Implementation applied 2026-04-30:**
+  1. **Working Principle #4 refinement note** added to `alignment/commons_bonds_working_principles_v1.0.0.md` Principle #4 (REFINEMENT 2026-04-30 per Insight #59 section). Per-document-type table updated with refined policy.
+  2. **Retirement-archive index** created at `archive/retirements/index.md` — initial structure + populated with 16 vocabulary retirements + 2 methodology retirements + 3 file/artifact retirements + cross-references to ratifying rigor passes + maintenance discipline + index versioning.
+- **Implementation pending (queued for Phase 3 + scaffolding cleanup):**
+  - **terms_index v1.0.0 version bump** — apply summary-level traces; full traces moved to archive/retirements/index.md. Substantial work (~2,000+ lines of terms_index to review for retirement-trace migration).
+  - **Working principles body cleanup** — replace inline retirement traces with archive cross-references where appropriate (small).
+  - **Vocabulary strategy v1.0.1 §6 + §7 + §13 cleanup** — light retirement traces; cross-reference archive (medium).
+  - **Insight #37 (scaffolding-vs-publisher-facing separation)** — incorporates this refined WP#4 discipline as part of separation pass scope.
+  - **Phase 3 Tech Appendix v2.0.0 rebuild** — derives from cleaner terms_index v1.0.0+.
+  - **Phase 4 Glossary v4 rebuild** — derives from cleaner terms_index v1.0.0+.
+  - **Routine 1 + 2 patterns cosmetic update** — already function correctly; cross-reference retirement archive for remediation hints.
+- **Pre-publication external review (Insight #39):** the refined discipline IMPROVES reviewer experience — current-state visible cleanly + full audit trail accessible via retirement archive + ratified rigor passes. Reviewer needs less scaffolding context to evaluate publisher-facing content.
+- **Dependencies / Links:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_working_principle_4_refinement_v1.0.0.md` (full audit trail); `archive/retirements/index.md` (new canonical retirement-archive); Working Principle #4 refinement note (this commit); Working Principle #8 (publisher-facing scrub; complementary; unchanged); Working Principle #1 (effort-to-repair-not-rigor; supports refinement); Insight #28 (retirement-traces / scaffolding-vs-publisher-facing trichotomy origin); Insight #37 (OPEN scaffolding-vs-publisher-facing separation; natural integration point); Insight #39 (pre-publication external review; refinement improves reviewer experience); Insight #55 (notation collision audit; sibling cleanup work that surfaced retirement-trace volume).
+
+---
+
 ### Insight #57 — Group 1.2 Intergenerational Option Value Tier B promotion — CLOSED-RATIFIED 2026-04-30
 
 - **Raised:** 2026-04-29 by holistic strategy §10 §5.1 — Tier B promotion vs defer discussion-needed verdict for newly-proposed framework Tier D coinage; subsequently elevated 2026-04-30 to Tier B classification via Group 1.2 rigor pass.

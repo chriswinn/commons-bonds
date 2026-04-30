@@ -221,6 +221,59 @@ Retirements during today's session (2026-04-24) that have Terms Index records bu
 
 ---
 
+**REFINEMENT 2026-04-30 per Insight #59 — Tiered retirement-trace policy + retirement-archive index:**
+
+The original 2026-04-24 discipline (sweep current docs; header-note older docs; full retirement record in Terms Index) was correct for the rapid-development phase. As the framework matured into the publisher-prep phase (2026-04-29 onward), the discipline's costs began to outweigh benefits in some places — specifically, terms_index approaching v1.0.0 with substantial retirement-trace metadata; navigability declining; Phase 3 + Phase 4 rebuilds inheriting noise; pre-publication external review friction.
+
+Per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_working_principle_4_refinement_v1.0.0.md` (RATIFIED 2026-04-30 by Chris Winn): refine the discipline to a **tiered retirement-trace policy + dedicated retirement-archive index** (Options B + C combined per rigor pass §4-§5).
+
+**Refined per-document-type policy:**
+
+| Document type | Retirement-trace policy (refined) |
+|---|---|
+| **Open insights** (insights with OPEN status) | Full traces (active discipline; status quo) |
+| **Pending rigor passes** ([PROPOSED] status) | Full traces (active audit trails; status quo) |
+| **Ratified rigor passes** (frozen by date in filename) | Full traces preserved as historical record (status quo; canonical decision-record) |
+| **Working principles** | Light traces in body; cross-reference retirement archive index |
+| **Vocabulary strategy v1.0.1** | Light traces in §6 + §7 + §13; cross-reference retirement archive index |
+| **terms_index v1.0.0+** | **Summary-level traces** (1-line "renamed YYYY-MM-DD per Insight #N; full trace at archive/retirements/index.md"); full traces moved to retirement archive index |
+| **Publisher-facing artifacts** (chapter drafts; glossary; Tech Appendix) | NO traces (status quo per WP#8) |
+| **Tier 2 archived/superseded files** | Header-note only (status quo) |
+
+**New canonical retirement-archive index:** `archive/retirements/index.md` — single canonical index for all retirement events across the project. Other scaffolding documents reference this index rather than carrying full retirement traces inline. Each entry links to the canonical rigor pass that ratified the retirement; that rigor pass remains the source-of-truth for the full audit trail.
+
+**What the refinement preserves:**
+
+- **Provenance** — preserved via retirement archive index + ratified rigor passes (canonical decision-record).
+- **Reversibility** — preserved (rigor passes that ratified retirements remain canonical; revisits cite the rigor pass).
+- **M12 attribution-honesty** — preserved (academic lineage stays in rigor passes + vocabulary strategy).
+- **Routine 1 + 2 sentinel** — preserved (still catches retired-vocabulary regression; remediation hints reference archive).
+- **Working Principle #8** publisher-facing scrub — unchanged; complementary.
+
+**What the refinement changes:**
+
+- terms_index v1.0.0+ reads as current-state document, not retirement-trace catalog.
+- Working principles + vocabulary strategy less cluttered with retirement annotations.
+- Single canonical retirement-archive (instead of distributed retirement traces).
+- Phase 3 Tech Appendix v2.0.0 + Phase 4 Glossary v4 rebuilds derive from cleaner sources.
+- Pre-publication external reviewer sees current state cleanly; full audit trail accessible via archive.
+
+**Implementation pending:**
+
+- terms_index v1.0.0 version bump applies summary-level retirement traces (full traces moved to archive/retirements/index.md).
+- Working principles body cleanup (this principle's table above) — done in this commit.
+- Vocabulary strategy v1.0.1 §6 + §7 + §13 retirement-trace cleanup — queued (could absorb into Insight #37 scaffolding-vs-publisher-facing separation pass).
+- Phase 3 Tech Appendix v2.0.0 rebuild derives from cleaner terms_index.
+- Phase 4 Glossary v4 rebuild derives from cleaner terms_index.
+
+**Cross-references:**
+
+- `archive/retirements/index.md` — new canonical retirement-archive index; populated 2026-04-30 with 16 vocabulary retirements + 2 methodology retirements + 3 file/artifact retirements.
+- `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_working_principle_4_refinement_v1.0.0.md` — full audit trail for this refinement.
+- Insight #59 (closed-ratified 2026-04-30) — open_insights record.
+
+---
+
 ### Principle #5 — Context-flipping rules earn named-rule status
 
 **Ratified:** 2026-04-24 by Chris Winn
