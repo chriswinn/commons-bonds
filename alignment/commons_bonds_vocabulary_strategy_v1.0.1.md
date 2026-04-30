@@ -302,7 +302,7 @@ The framework already operates under an implicit role-bearing-suffix discipline.
 
 | Mathematical role | Suffix | Examples |
 |---|---|---|
-| Input variable / Cᵢ | `-Cost` | Foreclosure Cost, Externality Tail (variant), Lineage Labor Cost (RATIFIED 2026-04-30 per Insight #56; renamed from Dynastic Labor Cost), Lifetime Survival Cost (when ratified), Community Disruption Cost, Knowledge and Cultural Cost, Political Capture Cost |
+| Input variable / Cᵢ | `-Cost` | Foreclosure Cost, Externality Tail (variant), Lineage Labor Cost (RATIFIED 2026-04-30 per Insight #56; renamed from Dynastic Labor Cost — class-connotation cleanup; full trace at `archive/retirements/index.md` §1), Lifetime Survival Cost (when ratified), Community Disruption Cost, Knowledge and Cultural Cost, Political Capture Cost |
 | Function inside RCV integrand | `-Function` | Substitutability Function (S), Discount Function (D) |
 | Primitive on equation's other side | `-Bond` | Accountability Bond (B), Restitution Bond (B₁), Foreclosure Bond (B₂) |
 | Output mechanism | `-Severance` | Cost Severance |
@@ -313,7 +313,7 @@ The framework already operates under an implicit role-bearing-suffix discipline.
 | Methodology / test | `-Test` | Commons Inversion Test (CIT) |
 | Methodology / apparatus | `-Gates` | Four Gates |
 | Identity (math equation by definition) | `-Identity` | Hotelling Identity |
-| Estimation methodology | `-Estimation` | (slot retired per Insight #31 RATIFIED 2026-04-28; Triangulated RCV Estimation → Three Ways of Counting) |
+| Estimation methodology | `-Estimation` | (slot retired per Insight #31 RATIFIED 2026-04-28; Triangulated RCV Estimation → Three Ways of Counting; full trace at `archive/retirements/index.md` §1) |
 
 ### §6.2 The discipline going forward
 
@@ -345,7 +345,7 @@ The preliminary forecast pattern (subject to the deferred coherence pass):
 | Methodologies | `-Test` | Likely RATIFIED — methodological-procedure convention; flagged for re-test under B-register audience due to mild statistical-test connotation. |
 | Functions | `-Function` | Likely RATIFIED — math-specialist convention; B-register reader decodes with light context. |
 | Identity (one-off) | `-Identity` | RECONSIDER possible — Hotelling Identity is one-off; B-register reader may misread as "personal identity"; alternative -Equation / -Relation possible. |
-| Estimation (one-off) | `-Estimation` | RETIRED per Insight #31 RATIFIED 2026-04-28 — Triangulated RCV Estimation renamed to "Three Ways of Counting"; slot now empty in active vocabulary. |
+| Estimation (one-off) | `-Estimation` | RETIRED per Insight #31 RATIFIED 2026-04-28 — Triangulated RCV Estimation renamed to "Three Ways of Counting"; slot now empty in active vocabulary. Full trace: `archive/retirements/index.md` §1. |
 
 ---
 
@@ -689,9 +689,9 @@ Before introducing any new single-letter variable, multi-letter abbreviation, or
 | **ARR** | Asymmetric Regret Rule | terms_index entry; supersedes ARP |
 | **IPG** | Intergenerational Pricing Gap | terms_index entry |
 | **CS** | Cost Severance (also single-letter-pair convention) | terms_index entry |
-| **AIT** | RETIRED — superseded by CIT | terms_index retired-records |
-| **FGC** | RETIRED | terms_index retired-records |
-| **ESG** | RETIRED in framework context (industrial-existential substitutability gap) | terms_index retired-records |
+| **AIT** | RETIRED 2026-04-24 — superseded by CIT | terms_index AIT-RETIRED entry + `archive/retirements/index.md` §1 |
+| **FGC** | RETIRED 2026-04-24 — replaced by Cᵢ admitted via Four Gates per Path F | `archive/retirements/index.md` §1 |
+| **ESG** | RETIRED 2026-04-29 in framework context — industrial-existential → existential substitutability gap (Insight #33) | `archive/retirements/index.md` §1 |
 
 ### §13.2.1 Section-namespace overlap with single-letter variables (informational)
 

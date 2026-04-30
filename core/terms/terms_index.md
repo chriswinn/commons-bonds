@@ -1,7 +1,9 @@
 # Commons Bonds — Term Provenance Index
 
-**Version:** 0.1.0 (skeleton, established 2026-04-24)
-**Purpose:** registry of framework vocabulary with full provenance — rigor support, dependency tracking, staleness triggers, versioning — replacing prior "canonical" claims that masked the testing-dependent nature of every term.
+**Version:** 1.0.0 (current-state document; established 2026-04-24 as v0.1.0 skeleton; bumped to v1.0.0 2026-04-30 per refined Working Principle #4 — Insight #59)
+**Purpose:** current-state registry of framework vocabulary — rigor support, dependency tracking, staleness triggers, versioning — replacing prior "canonical" claims that masked the testing-dependent nature of every term.
+
+**Retirement-trace discipline (per refined WP#4 + Insight #59 ratified 2026-04-30):** v1.0.0+ carries summary-level retirement traces (skeleton form: status + supersession + 1-sentence why + archive pointer). Full traces — multi-paragraph history, full rigor-provenance, sweep targets, commit trails — live at `archive/retirements/index.md` (canonical retirement-archive) plus the ratifying rigor pass for each retirement event. This bumps terms_index from skeleton-with-full-traces (v0.1.0) to current-state-document-with-summary-traces (v1.0.0).
 
 ---
 
@@ -62,8 +64,23 @@ Each term has a Provenance Record with the following fields:
 | `UNDER-REVIEW` | Rigor pass in progress; term may be revised or retired when pass ratifies. |
 | `SUPERSEDED` | Replaced by newer term; preserved for historical reference with pointer to replacement. |
 | `RETIRED` | Dropped without replacement (e.g., dissolved concepts). |
+| `DEMOTED` | Concept persists in prose but no longer carries proper-noun framework-term status (glossary entry removed; chapter-prose use continues). |
 
 **Critical property:** no status claims truth. `CURRENT` means "this survives our most recent applicable rigor." It does not mean "this is correct." Framework decisions are always downstream of rigor testing, which is always subject to new pressure.
+
+### Retired / superseded / demoted entry template (skeleton form, v1.0.0+)
+
+Per refined Working Principle #4 (Insight #59 ratified 2026-04-30), retired/superseded/demoted entries use a skeleton form rather than full inline trace. Full traces live in `archive/retirements/index.md` + the ratifying rigor pass.
+
+```markdown
+### <Term>
+
+**Status:** RETIRED|SUPERSEDED|DEMOTED YYYY-MM-DD (Insight #N). <Replaced by | Demoted from glossary; concept persists as prose | etc.>
+**Why:** <one sentence — the rigor-level rationale, not the narrative>.
+**Full trace:** `archive/retirements/index.md` §<N> + <ratifying rigor pass path>.
+```
+
+Skeleton entries may add a single `**Notes:**` line if structurally load-bearing (e.g., diagnostic originated here; cross-cutting reuse). Multi-paragraph narratives, full rigor-provenance lists, sweep-target catalogs, and commit trails belong in the archive index + rigor pass, not here.
 
 ### Staleness detection
 
@@ -75,87 +92,46 @@ Each term carries its own `term-spec version` independent of document versions. 
 
 ## §2. Integration with other framework docs
 
-- **Glossary (`core/glossary/commons_bonds_updated_glossary_v2.html`)** is updated to short gloss entries that reference their full record in this index. Glossary becomes the user-facing lookup; this index is the provenance source-of-truth.
-- **Rigor passes** produce provenance records as their primary deliverable. When a pass ratifies, it updates affected records in this index.
+- **Glossary (`core/glossary/commons_bonds_updated_glossary_v3.html`)** carries short gloss entries derived from this index per S1 schema. Glossary v4 rebuild (Phase α.3) will derive the entire structure from this index. Glossary is the user-facing lookup; this index is the provenance source-of-truth.
+- **Technical Appendix (`core/technical-appendix/TechnicalAppendix_v1.0.0.html`)** carries formal definitions + theorem framework. v2.0.0 rebuild (Phase α.2) batches all Phase 2 + Group 1 ratifications including theorem restructures, notation discipline, §L methodological footnotes, and bibliography expansion — derives from this index where applicable.
+- **Retirement archive (`archive/retirements/index.md`)** is the canonical retirement-archive established 2026-04-30 by Insight #59. Full traces of every retirement event live there + in the ratifying rigor pass. This index carries summary-level traces only (skeleton form per §1 template).
+- **Rigor passes** produce provenance records as their primary deliverable. When a pass ratifies, it updates affected records in this index. Rigor passes themselves remain canonical decision-record (frozen by date in filename).
+- **Working principles + vocabulary strategy** (`alignment/commons_bonds_working_principles_v1.0.0.md` + `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md`) carry light retirement traces with cross-reference to the archive index per refined WP#4.
+- **Layer classification (per WP#10 ratified 2026-04-30):** terms_index is INTERNAL scaffolding — rich per its layer. Three principles coordinate the internal/external axis: WP#4 (refined) governs retirement-time discipline; WP#8 governs scrubbing-time discipline (publisher-facing artifacts scrubbed of audit-trail content); WP#10 governs origination-time discipline (classify new content as internal or external before generating it). Rendering-field drafts in entries here (Glossary def, Tech Appendix def) are internal scaffolding that FEEDS external rebuilds (Phase α.2 Tech Appendix v2.0.0 + Phase α.3 Glossary v4) per WP#10 §4.3 cross-layer flow.
 - **Session handoffs** reference this index's current state rather than repeating "canonical" summaries.
 - **README** canonical-state table links to relevant provenance records.
-- **Today's three rigor passes** (Path F, tier-reframing, macro-grouping) get a `§ Subsequent developments` section appended with dated annotations as downstream decisions affect them. Their bodies remain historical record per the live-vs-archive policy ratified 2026-04-24.
 
-## §3. Provenance records
+## §3. Current-state snapshot
 
-*This section populates as rigor passes produce records. Initially empty; fills as the Tier A extreme-rigor work lands on each framework term and each glossary term.*
+This section gives readers a one-screen orientation to the framework's current vocabulary state. Full per-term records live in §4. Retirement traces are skeleton-form per §1; full traces live in `archive/retirements/index.md`.
 
-### Pending records (awaiting rigor-pass completion)
+### Ring-1 (7 terms — framework architecture; ratified 2026-04-24)
 
-**Terminology decisions (4):**
-- Variable vs Cost (atomic unit of measurement)
-- Dimension vs Abundance (class term for the 10)
-- Dimensional Consistency vs Units Consistency (Gate L.2 name)
-- Closed-count "10 abundances" vs generative framing
+- **Commons Bonds** (framework name + book title)
+- **Cost Severance** (mechanism)
+- **Severed Cost** (result + flagship adoption phrase)
+- **Value Extraction** (causal event; supersedes Value Capture)
+- **Commons Inversion Test (CIT)** (methodology + Gate L.1; supersedes AIT 2026-04-24)
+- **Residual Commons Value (RCV)** (quantification-anchor + equation component)
+- **Cost (Cᵢ)** (atomic unit; admitted via Four Gates)
 
-**Core framework terms (6):**
-- Commons Bonds
-- Cost Severance
-- Value Capture
-- Severed Cost
-- Spatial Cost Severance
-- Temporal Cost Severance
+### Ring-2 (mechanism + measurement + sub-instruments)
 
-**Methodology terms (4):**
-- Abundance Inversion Test (AIT)
-- Abundance Masking
-- Abundance Dimension
-- Universality Test
+Mechanism / measurement / equation: Abundance Masking · Substitutability Function (S) · Externality Tail (E) · Intergenerational Pricing Gap (IPG) · CS = RCV − B equation · Cost Severance Damages (CSD) · Hotelling Identity · Three Ways of Counting (formerly Triangulated RCV Estimation; Insight #31 2026-04-28) · Intergenerational Option Value (Tier B promotion 2026-04-30 per Insight #57).
 
-**Mathematical and measurement terms (9):**
-- Full Generational Cost (FGC)
-- Residual Commons Value (RCV)
-- Accountability Bond (B)
-- Foreclosure Cost
-- Externality Tail
-- Substitutability Function
-- Intergenerational Pricing Gap (IPG)
-- Civilizational Substitutability Gap (CSG)
-- Asymmetric Regret Principle
+Accountability instruments: Accountability Bond (B) = Restitution Bond (B₁) + Foreclosure Bond (B₂).
 
-**Tier entries (8, being dissolved per 2026-04-24 tier-reframing ratification):**
-- Lifetime Survival Cost
-- Actuarial Risk Cost
-- Mission Failure Reserve
-- Dynastic Labor Cost (RENAMED 2026-04-30 to Lineage Labor Cost per Insight #56 RATIFIED — class-connotation cleanup; historical 8-tier name preserved here for provenance)
-- Community Transition Reserve
-- Ecological Carrying Cost
-- Knowledge and Cultural Cost
-- Political Capture Cost
+Decision rule: Asymmetric Regret Rule (ARR; supersedes ARP).
 
-**Records populated in §4 (2026-04-24) — all 12 entries:**
+Cost-component examples (Cᵢ illustrative-list; class is open per Path F): Foreclosure Cost · Lineage Labor Cost (renamed from Dynastic Labor Cost 2026-04-30 per Insight #56) · Community Disruption Cost · Knowledge and Cultural Cost · Political Capture Cost · Lifetime Survival Cost · Actuarial Risk Cost · Mission Failure Reserve · Community Transition Reserve · Ecological Carrying Cost.
 
-*Retirement / demotion records (4):*
-- Spatial Cost Severance — `RETIRED` (misnamed; abundance-cost not severance). **Note: re-examination rigor pass 2026-04-24 flipped recommendation to "spatial cost severance" lowercase prose phrase; pending author ratification of reversal.**
-- Temporal Cost Severance — `RETIRED` (replaced by lowercase prose phrase).
-- Cost Bearing — `SUPERSEDED` (demoted from glossary to prose-only).
-- Value Capture — `RETIRED` (duplicative with Value Extraction).
+### Lowercase prose phrases (subtype descriptors; not capitalized framework terms)
 
-*CURRENT Ring-1 records (7 — full Ring 1 architecture):*
-- **Commons Bonds** — `CURRENT` Ring 1 (framework name + book title; polysemous; standalone rigor `be6646f` + integrated rigor `d4c4be4`).
-- **Cost Severance** — `CURRENT` Ring 1 (mechanism; 227 uses; standalone rigor `0aafed7` + pair rigor `0021e24` + integrated `d4c4be4`).
-- **Severed Cost** — `CURRENT` Ring 1 (result + flagship adoption phrase; 37 uses; pair rigor `0021e24` + integrated `d4c4be4`).
-- **Value Extraction** — `CURRENT` Ring 1 (causal event; standalone rigor `18f5e82` + triage `daef46a` + integrated `d4c4be4`; supersedes Value Capture).
-- **Abundance Inversion Test (AIT)** — `CURRENT` Ring 1 (methodology + Gate L.1; 505 uses; standalone rigor `9abb263` + integrated `d4c4be4`).
-- **Residual Commons Value (RCV)** — `CURRENT` Ring 1 (quantification-anchor + equation component; 729 uses — framework's MOST-used term; standalone rigor `5dea091` + integrated `d4c4be4`).
-- **Cost (Cᵢ)** — `CURRENT` Ring 1 (atomic unit; Variable-vs-Cost rigor `0c7547a` + integrated `d4c4be4`).
+intergenerational cost severance · spatial cost severance.
 
-*Other CURRENT records:*
-- intergenerational cost severance (lowercase prose phrase) — `CURRENT` (adopted as standard book descriptor for the intergenerational subtype of Cost Severance).
+### Retired / superseded / demoted (full traces in `archive/retirements/index.md`)
 
-**Ring-1 architecture FULLY RATIFIED 2026-04-24 (all 7 terms):**
-All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026-04-24. Ring-1 vocabulary architecture locked.
-
-**Pending updates (to be applied during Phase A3 sweep):**
-- Spatial Cost Severance retirement reversal (pending author ratification of re-examination pass).
-- Abundance Masking promotion to Ring 2 (pending author ratification of re-examination pass).
-- CSG + Asymmetric Regret rigor passes + Universality Test re-examination (queued for non-Ring-1 queue run).
-- Open Insight #4 → closed-ratified (Commons Bonds name rigor complete).
+Abundance Inversion Test (AIT) · Asymmetric Regret Principle (ARP) · Reversibility Default (RD; same-day flip) · Civilizational Substitutability Gap (CSG; demoted to descriptive prose) · Universality Test (demoted) · Cost Bearing (demoted) · Value Capture · Temporal Cost Severance · Spatial Cost Severance proper-noun (un-retired as lowercase prose phrase; see entry) · Full Generational Cost (FGC) · 8-tier decomposition scheme · "Reparations Bond" working label (renamed to Restitution Bond) · "Resource-Foreclosure Bond" working label (renamed to Foreclosure Bond) · industrial-existential substitutability gap · Knowledge and Culture Cost (renamed to Knowledge and Cultural Cost) · Dynastic Labor Cost (renamed to Lineage Labor Cost).
 
 ---
 
@@ -201,7 +177,7 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 
 **Role:** framework identifier + book title; umbrella under which all Ring-1 terms live.
 
-**Depends on:** every Ring-1 term (title only name-works if the framework it names is coherent): Cost Severance + Severed Cost + Value Extraction + AIT + RCV + Cost (Cᵢ).
+**Depends on:** every Ring-1 term (title only name-works if the framework it names is coherent): Cost Severance + Severed Cost + Value Extraction + CIT + RCV + Cost (Cᵢ).
 
 **Staleness triggers:**
 - Framework scope changes materially (e.g., non-commons extraction becomes primary).
@@ -271,7 +247,7 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 - Severed Cost (result-side companion — Ring 1)
 - RCV (quantification that measures the mechanism's output — Ring 1)
 - CS = RCV − B equation (Cost Severance appears as "CS" in the equation)
-- AIT (methodology for identifying costs within the mechanism's scope)
+- CIT (methodology for identifying costs within the mechanism's scope)
 
 **Staleness triggers:**
 - Framework CORE math redefines the CS = RCV − B relation.
@@ -362,55 +338,6 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 **Notes:**
 - Flagship adoption phrase. When the book's rhetorical strategy is honest accounting, Severed Cost is the term that travels into legal briefs, policy memos, and journalism. Retirement or replacement would directly sabotage the success criterion.
 - Style-discipline per CS-vs-SC rigor pass (and applies symmetrically with Cost Severance).
-
----
-
-### Abundance Inversion Test (AIT)
-
-**Working definition:** the framework's epistemic methodology for determining whether a candidate cost is scarcity-grounded (and therefore admissible to RCV computation). Procedure: invert the scarcity-condition underlying the cost to its abundance counterpart; if the cost vanishes under the counterfactual, it's scarcity-grounded and admits. Gate L.1 of the four-gate discipline. Chris's original methodology coinage. Short form "Abundance Test" acceptable in informal prose contexts.
-
-**Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn, Ring-1 synthesis batch).
-
-**Term-spec version:** v1.0 (first sanctioned spec after rigor-pass verification).
-
-**Last reviewed:** 2026-04-24
-
-**Rigor provenance:**
-- Variable-addability rigor pass (2026-04-24) — AIT confirmed as CORE epistemic methodology.
-- Path F rigor pass (2026-04-24) — AIT's role as admission-method for Cᵢ confirmed.
-- Tier-reframing + macro-grouping passes (2026-04-24) — AIT role unchanged.
-- AIT rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_ait_v1.0.0.md` (2026-04-24) §17 — Option A PASSES unconditionally. 505 embedded uses (439 acronym + 50 full-form + 16 short-form) across 30 files. Name-mechanism match exact. Vocabulary-coherence with abundance-architecture preserved.
-- Ring-1 synthesis (2026-04-24) — AIT's position coherent with other Ring-1 terms.
-
-**Role:** methodology/test-name + Gate L.1 (first of the four gates) + epistemology-anchor. Not a public-adoption target (not a brief phrase); academic-citation target.
-
-**Short form:** "Abundance Test" acceptable in informal prose contexts (16 existing uses). Full form "Abundance Inversion Test" in formal/first-use contexts. Acronym "AIT" in technical/dense-reference contexts.
-
-**Usage audit (2026-04-24):** 505 total uses across 30 files — framework-internal workhorse.
-
-**Depends on:**
-- Abundances (the 10 organizational scaffolding — AIT operates on abundance-conditions)
-- Four Gates structure (AIT is Gate L.1)
-- Cost (Cᵢ) (AIT admits Cᵢ to the integrand)
-- RCV (AIT-admitted Cᵢ integrates into RCV)
-- Framework CORE math
-
-**Staleness triggers:**
-- Framework's abundance vocabulary restructured in a way that misaligns "abundance inversion."
-- Published peer review identifies academic citation ambiguity.
-- Alternative methodology name surfaces with compelling rigor verdict (unlikely given passage of standalone rigor pass).
-
-**Commit trail:**
-- AIT rigor pass: commit `9abb263` (2026-04-24).
-- Ring-1 synthesis: commit `2b70377` (2026-04-24).
-- Ratification + Ring-1 record: this commit.
-
-**Supersedes / superseded by:** N/A.
-
-**Notes:**
-- Name-mechanism match (Principle #3) is exact: "Abundance Inversion Test" literally describes what the test does (inverts to abundance counterfactually and tests whether the cost vanishes).
-- Rename candidates (Scarcity-Grounding Test, Scarcity Test, Abundance Test primary, drop acronym) each failed rigor.
-- Academic citation anchor: readers cite the framework's methodology as "AIT (Winn, Commons Bonds)."
 
 ---
 
@@ -532,7 +459,7 @@ Removing any word creates ambiguity or unmoors the term.
 - Cost Severance (RCV is one side of CS = RCV − B)
 - Severed Cost (SC is the result of CS = RCV − B computation)
 - Accountability Bond (B) (RCV pairs with B in the equation)
-- AIT (AIT admits Cᵢ that RCV integrates)
+- CIT (CIT admits Cᵢ that RCV integrates)
 - Four gates (filter Cᵢ admissible to RCV)
 - Value Extraction (causal event upstream)
 - Framework CORE math
@@ -607,7 +534,7 @@ Mariana Mazzucato, *The Value of Everything: Making and Taking in the Global Eco
 **Depends on:**
 - Cost Severance (Ring 1; the mechanism that Value Extraction causes)
 - Severed Cost (Ring 1; the result downstream of the chain)
-- Abundance framework (the abundances that Value Extraction operates against — producing scarcity-grounded costs that AIT admits)
+- Abundance framework (the abundances that Value Extraction operates against — producing scarcity-grounded costs that CIT admits)
 - Principle #3 (variant-mechanism-match discipline; Value Extraction passes)
 
 **Staleness triggers:**
@@ -632,48 +559,20 @@ Mariana Mazzucato, *The Value of Everything: Making and Taking in the Global Eco
 
 ### Value Capture
 
-**Working definition (prior):** causal-event term used interchangeably with Value Extraction to describe the act of an extractor capturing/obtaining value from a source.
+**Status:** RETIRED 2026-04-24 (Insight #28). Replaced by **Value Extraction** as the sole causal-event term.
 
-**Status:** `RETIRED` (ratified 2026-04-24 by Chris Winn as duplicative with Value Extraction).
-
-**Term-spec version:** v1.0 final (retirement).
-
-**Last reviewed:** 2026-04-24
-
-**Rigor provenance:**
-- Same as Value Extraction above — the pair was tested head-to-head in the Value-Capture-vs-Extraction rigor pass (2026-04-24, commit `daef46a`). Verdict: Option B (Value Extraction) passes on every decisive axis; Value Capture retires as duplicative.
-- Author's own admission (2026-04-24): the two terms were interchangeable in meaning; triage picks one.
-
-**Rationale for retirement (not demotion):**
-- Value Capture was a duplicate of Value Extraction in meaning, not a distinct concept. Triage selects; doesn't preserve both.
-- Rigor-pass decisive tests (causal-chain bridge, register alignment, Harvey lineage, concept-level audit, critic pressure) all preferred Value Extraction.
-- Retaining Value Capture would carry redundant vocabulary footprint competing with Value Extraction — works against the success-criterion single-term adoption bet.
-
-**Depends on (why the term was in the vocabulary):**
-- Author's original dual coinage (Value Capture / Value Extraction as interchangeable accessible reframings of accumulation-by-dispossession).
-- Glossary v2 carried both as glossary entries.
-- Pre-rigor-pass loose naming discipline admitted duplicative entries.
-
-**Staleness triggers (what would cause retirement revisit):**
-- Academic or legal discourse separately adopts "value capture" as a framework-technical term with meaning distinct from "value extraction."
-- Regulatory-capture collision-avoidance motivation emerges that argues for reinstating Value Capture as distinct term.
-- (Neither expected.)
-
-**Commit trail:**
-- Triage rigor pass: commit `daef46a` (2026-04-24).
-- Ratification + RETIRE: this commit.
-
-**Supersedes / superseded by:** superseded by Value Extraction as the sole causal-event term.
+**Why:** duplicative with Value Extraction (author 2026-04-24 admission that the two were interchangeable in meaning); triage selects one to avoid redundant vocabulary footprint competing with Value Extraction's success-criterion single-term adoption bet. Rigor-pass decisive tests (causal-chain bridge, register alignment, Harvey lineage, concept-level audit, critic pressure) all preferred Value Extraction.
 
 **Notes:**
-- Different retirement basis from Spatial Cost Severance (Principle-#3 misnaming) and Temporal Cost Severance (adjective-precision + framework-usage-evidence). Value Capture retires as DUPLICATE of a co-existing-and-preferred term.
-- Phase A3 sweep targets: 16 proper-noun Value Capture references across 9 files rewritten to Value Extraction; glossary v2 Value Capture entry removed in v3.
+- Different retirement basis from misnaming (Principle #3) or adjective-precision retirements: Value Capture retires as DUPLICATE of a co-existing-preferred term.
+
+**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_value_capture_vs_extraction_v1.0.0.md`.
 
 ---
 
 ### intergenerational cost severance (lowercase prose phrase)
 
-**Working definition:** the intergenerational subtype of Cost Severance — value captured now, costs borne by future generations. Used as a lowercase descriptive phrase composing the framework's existing "intergenerational" adjective (109 framework uses) and "cost severance" Ring-1 term (227 framework uses). Not a capitalized proper-noun compound.
+**Working definition:** the intergenerational subtype of Cost Severance — value captured now, costs borne by future generations. Used as a lowercase descriptive phrase composing the framework's existing "intergenerational" adjective and "cost severance" Ring-1 term. Not a capitalized proper-noun compound.
 
 **Status:** `CURRENT` as lowercase prose phrase (ratified 2026-04-24 by Chris Winn). Replaces the retired capitalized "Temporal Cost Severance" term.
 
@@ -681,269 +580,109 @@ Mariana Mazzucato, *The Value of Everything: Making and Taking in the Global Eco
 
 **Last reviewed:** 2026-04-24
 
-**Rigor provenance:**
-- Focused rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_intergenerational_cost_severance_v1.0.0.md` (2026-04-24) — Option A PASSES UNCONDITIONALLY. Wins on every module with meaningful signal.
-- Companion pass (same date): Temporal Cost Severance retirement — the paired move that retires the capitalized term in favor of this lowercase phrase.
-- Audit finding: framework's natural language already composes "intergenerational" + "cost severance" ~109 + 227 times; this ratification formalizes consistency of the existing pattern.
-- Principle-#3 variant-subtype check: PASSED (intergenerational IS a genuine subtype of Cost Severance).
-
 **Lowercase discipline is LOAD-BEARING:**
-- Capitalizing the phrase as a proper-noun compound would reintroduce the jargon-inflation problem that sank "Temporal Cost Severance."
-- The phrase is the composition of two existing framework concepts (one abstract, one Ring-1); it does not warrant proper-noun status on its own.
-- Style-guide discipline (per Conditions 3 of the rigor pass): use lowercase always; do not capitalize even at sentence start where possible (restructure sentence if needed).
+- Capitalizing as a proper-noun compound would reintroduce the jargon-inflation problem that sank "Temporal Cost Severance."
+- The phrase composes two existing framework concepts (one abstract, one Ring-1); does not warrant proper-noun status.
+- Style-guide: use lowercase always; restructure sentences to avoid sentence-start capitalization where possible.
 
-**Academic connections:**
-- Intergenerational equity (Weiss, Brown-Weiss)
-- Intergenerational justice (Rawls, Parfit)
-- Intergenerational ethics (Broome, Stern, Nordhaus)
-- Intergenerational mobility (Chetty, Piketty)
-- The phrase slots cleanly into these established discourses.
+**Academic connections:** Intergenerational equity (Weiss, Brown-Weiss); Intergenerational justice (Rawls, Parfit); Intergenerational ethics (Broome, Stern, Nordhaus); Intergenerational mobility (Chetty, Piketty). The phrase slots cleanly into these discourses.
 
-**Depends on:**
-- Cost Severance (Ring 1 parent concept)
-- "intergenerational" adjective (framework's existing heavy usage)
-- Principle-#3 variant-subtype discipline (passed — genuine subtype, not misnaming)
-- Lowercase discipline (prevents jargon inflation)
+**Depends on:** Cost Severance (Ring 1 parent); "intergenerational" adjective (framework's heavy usage); Principle-#3 variant-subtype discipline (passed — genuine subtype); lowercase discipline.
 
-**Staleness triggers:**
-- Cost Severance concept redefined in a way that changes the subtype-mapping.
-- Phrase drifts into capitalized usage — triggers lowercase-discipline re-test.
-- Published peer review identifies systematic ambiguity in compositional use.
+**Staleness triggers:** Cost Severance concept redefined; phrase drifts into capitalized usage; published peer review identifies systematic ambiguity.
 
-**Commit trail:**
-- Focused rigor pass: commit `1be07e0` (2026-04-24).
-- Companion Temporal Cost Severance retirement ratification: commit `4435488` (2026-04-24).
-- This adoption ratification: this commit.
+**Rigor provenance:** Focused rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_intergenerational_cost_severance_v1.0.0.md` (Option A PASSES UNCONDITIONALLY). Companion: Temporal Cost Severance retirement (paired move). Principle-#3 check: PASSED.
 
-**Supersedes:** implicit composition-only usage (0 prior exact-phrase occurrences; now formalized as the book's standard descriptor). Supersedes "Temporal Cost Severance" capitalized term as the replacement-phrase of choice.
+**Supersedes:** "Temporal Cost Severance" capitalized term (see retired entry below). Full retirement trace at `archive/retirements/index.md` §1.
 
 **Notes:**
-- This phrase is NOT a technical term like Cost Severance, RCV, or AIT. It is a descriptive compound used consistently per style-guide discipline.
-- Completes the Option-C outcome from the Temporal-Cost-Severance rigor pass. Both passes together ratified 2026-04-24: retire "Temporal Cost Severance"; adopt "intergenerational cost severance" in prose.
-- Phase A3 sweep targets: glossary v3 sub-entry under Cost Severance (~5 min); Ch 6 integration at Approach 3 (~10 min); Ch 6 guidance doc style-note (~5 min).
+- This phrase is NOT a technical term like Cost Severance, RCV, or CIT. It is a descriptive compound used consistently per style-guide discipline.
+- Parallel to *spatial cost severance* (lowercase prose phrase). Together these form the framework's subtype-descriptor pair.
 
 ---
 
 ### Cost Bearing
 
-**Working definition (prior, as glossary v2 entry):** descriptive term for the role a party plays when carrying cost severance (the cost-bearing community, ecosystem, or future generation).
+**Status:** DEMOTED 2026-04-24 — concept persists in prose ("the cost-bearer," "the community bears," "future generations bear the cost") but no longer a framework-technical term. Glossary v2 entry removed in v3 bump.
 
-**Status:** `SUPERSEDED` — demoted from glossary entry to prose-only usage. The concept persists in prose (*"the cost-bearer,"* *"the community bears,"* *"future generations bear the cost"*) but is not a framework-technical term.
+**Why:** Cost Bearing describes a ROLE (someone is bearing cost), not a framework-specific mechanism or event. Role-description doesn't need technical vocabulary; chapter-draft usage (46 refs at audit) is already descriptive-register; no sweep required.
 
-**Term-spec version:** v1.0 final (demotion)
+**Staleness triggers:** academic or legal discourse adopts "cost-bearer" as a technical-legal term (possible in employment/workers-rights law) — would warrant revisit.
 
-**Last reviewed:** 2026-04-24
-
-**Rigor provenance:**
-- Vocabulary-footprint meta-pass §13.2.c (2026-04-24, commit `46600bc`) — initial analysis as Ring-3 candidate (demote from glossary).
-- Chapter-draft audit 2026-04-24 (per Principle #2 concept-level methodology, commit `af2f18e`): 46 concept-level references across 17 files.
-- Author 2026-04-24 guidance: *"Cost Bearing is someone bearing the cost of cost severance, so perhaps prose vs. glossary."*
-- Ratified 2026-04-24 by Chris Winn: DEMOTE from glossary; retain in prose.
-
-**Rationale for demotion (not retirement):**
-- Cost Bearing describes a ROLE (someone is bearing cost), not a framework-specific mechanism or event. Role-description doesn't need technical vocabulary.
-- Contrast with Value Capture / Value Extraction (also a concept around the capture event): Value Extraction describes a discrete EVENT the framework prices; Cost Bearing describes the receiving-end position. The event earns framework-term status (Ring 1); the role is prose-level.
-- Chapter-draft usage (46 refs) is already descriptive-register; no sweep required.
-
-**Depends on:**
-- Cost Severance (Cost Bearing is the receiving-end role of the Cost Severance mechanism).
-- Severed Cost (Cost Bearing is what a party does with respect to Severed Cost).
-- Both parent concepts preserve the Cost Bearing concept in prose automatically.
-
-**Staleness triggers:**
-- Framework redefines the cost-bearer role in a way that warrants a dedicated technical term (unlikely).
-- Academic or legal discourse adopts "cost-bearer" as a technical-legal term (possible in employment / workers-rights law; would warrant revisit).
-
-**Commit trail:**
-- Meta-pass analysis: commit `46600bc` (2026-04-24).
-- Audit correction: commit `af2f18e` (2026-04-24).
-- Ratification + DEMOTE: this commit.
-
-**Supersedes / superseded by:** N/A — concept persists in prose; only glossary-entry form superseded.
-
-**Notes:**
-- Phase A3 sweep target: glossary v2 Cost Bearing entry removed in v3 bump. Chapter-draft usage stays as-is (46 existing refs are descriptive prose).
-- Principle #4 (active-use traceability): since Cost Bearing is prose-descriptive (not a framework term), no provenance-pointer needed in chapter drafts. This record is the audit trail.
+**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor pass (vocabulary-footprint meta-pass §13.2.c) + author 2026-04-24 guidance.
 
 ---
 
 ### Temporal Cost Severance
 
-**Working definition (prior):** a variant of Cost Severance naming the intergenerational dimension — value captured now; costs borne by future generations.
+**Status:** RETIRED 2026-04-24 (capitalized proper-noun term). Replaced by lowercase prose phrase **intergenerational cost severance** (see entry above).
 
-**Status:** `RETIRED` (ratified 2026-04-24 by Chris Winn)
+**Why:** framework usage strongly preferred "intergenerational" over "temporal" (109× vs 6×); Principle-#3 check PASSED (genuine subtype) but retired on adjective-precision + framework-usage-evidence grounds.
 
-**Term-spec version:** v1.0 final (retirement)
+**Reconsider pass (2026-04-24, ratified):** tested whether "temporal cost severance" should be adopted as a lowercase prose phrase parallel to spatial + intergenerational. **Verdict: KEEP RETIRED.** Principle-#3 check FAILED for "temporal" as lowercase form — the qualifier describes a constitutive property of ALL cost severance (all severance has temporal offset between value-capture and cost-bearing), not a distinguishing gap-type. Spatial + intergenerational lowercase pair does NOT extend to a three-member cohort.
 
-**Last reviewed:** 2026-04-24
+**Notes (structurally load-bearing):**
+- Different retirement basis from Spatial Cost Severance: Temporal PASSED Principle #3 but retired on usage-evidence; Spatial FAILED then PASSED on re-examination under v2 definition.
+- Reconsider verdict diagnostic — "if removing a qualifier's condition doesn't leave other severance forms intact, the qualifier isn't a subtype qualifier" — originated in Spatial CS re-examination; reused here to reject lowercase adoption.
 
-**Rigor provenance:**
-- Focused rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_temporal_cost_severance_v1.0.0.md` (2026-04-24) — Option C (retire capitalized term) recommended on adjective-choice + framework-usage-evidence grounds.
-- Audit finding: framework uses "intergenerational" 109× across 27 files vs 6× usage of "Temporal Cost Severance" proper-noun — 18× preference for intergenerational.
-- Principle-#3 variant-subtype check: PASSED (intergenerational IS a genuine subtype of Cost Severance — removing the generational gap eliminates this form of severance).
-- Companion rigor pass on the replacement phrase: `commons_bonds_rigor_pass_2026-04-24_term_intergenerational_cost_severance_v1.0.0.md` (2026-04-24) — Option A (adopt "intergenerational cost severance" lowercase prose phrase) PASSES unconditionally.
-
-**Depends on (why the term was in the vocabulary):**
-- Glossary v2 carried this as a Cost Severance variant alongside Spatial Cost Severance.
-- Loose variant-naming discipline (pre-Principle-#3) that admitted the variant without verifying adjective strength or framework-usage alignment.
-
-**Staleness triggers (what would cause retirement revisit):**
-- The Cost Severance concept redefined in a way that changes the subtype-mapping.
-- Academic or policy usage patterns shift toward "temporal" over "intergenerational" for this subtype.
-- (Neither expected; retirement stands.)
-
-**Commit trail:**
-- Focused rigor pass: commit `9df1958` (2026-04-24).
-- Intergenerational cost severance rigor pass: commit `1be07e0` (2026-04-24).
-- Ratification + RETIRE: this commit.
-
-**Supersedes / superseded by:** replaced by lowercase prose phrase "intergenerational cost severance" (per `commons_bonds_rigor_pass_2026-04-24_term_intergenerational_cost_severance_v1.0.0.md` Option A ratification).
-
-**Notes:**
-- Different retirement basis from Spatial Cost Severance (which failed Principle #3 on misnaming grounds). Temporal Cost Severance PASSED Principle #3 (genuine subtype) but retired on adjective-precision + framework-usage-evidence grounds.
-- Phase A3 sweep targets: 5 proper-noun references (Ch 2, Social Security case, Deepwater case) → rewrite as lowercase "intergenerational cost severance"; 1 glossary v2 entry → remove in v3 bump.
-- **Reconsider pass 2026-04-24 (ratified):** `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_temporal_cost_severance_reconsider_v1.0.0.md` tested whether "temporal cost severance" should be adopted as a lowercase prose phrase parallel to the Spatial CS re-examination + intergenerational cost severance lowercase adoption. Verdict: Option A (KEEP RETIRED). Principle-#3 variant-subtype check FAILED for "temporal" — the qualifier describes a constitutive property of ALL cost severance (all severance has temporal offset between value-capture and cost-bearing), not a distinguishing gap-type. Spatial + intergenerational lowercase pair does NOT extend to a three-member cohort. Ratified 2026-04-24 by Chris Winn.
+**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor passes (`commons_bonds_rigor_pass_2026-04-24_term_temporal_cost_severance_v1.0.0.md` + `..._reconsider_v1.0.0.md` + companion intergenerational lowercase adoption pass).
 
 ---
 
 ### Spatial Cost Severance / spatial cost severance
 
-**Working definition:** the geographic subtype of Cost Severance — value extracted from an area disperses to distant consumers while costs (health, environmental, community) concentrate locally where extraction occurred. Used as **lowercase descriptive phrase** composing "spatial" modifier + Ring-1 "cost severance" term. Not capitalized as proper-noun compound (capitalized form produced jargon inflation and was retired via the earlier analysis; lowercase composition is the ratified form).
+**Working definition:** the geographic subtype of Cost Severance — value extracted from an area disperses to distant consumers while costs (health, environmental, community) concentrate locally where extraction occurred. Used as **lowercase descriptive phrase** composing "spatial" modifier + Ring-1 "cost severance" term. Not capitalized as proper-noun compound.
 
 **Status:** `CURRENT` as lowercase prose phrase (ratified 2026-04-24 by Chris Winn — un-retirement via re-examination rigor pass). Supersedes earlier `RETIRED` status from 2026-04-24 which was a Principle-#2 failure (audited the wrong phenomenon).
 
-**Term-spec version:** v1.1 (v1.0 was RETIRED status; v1.1 is CURRENT lowercase-prose-phrase after re-examination).
+**Term-spec version:** v1.1 (v1.0 was RETIRED; v1.1 is CURRENT lowercase-prose-phrase after re-examination).
 
 **Last reviewed:** 2026-04-24
 
-**History and re-examination:**
+**Why current:** Principle-#3 variant-subtype check under v2 definition PASSES — counterfactual (remove spatial dispersal of value) collapses value-capturer and cost-bearer into the same community; severance mechanism can't operate across a collapsed geography; spatial dispersal is load-bearing.
 
-The term was initially RETIRED 2026-04-24 (commit `2dc54aa`) on Principle-#3-candidate grounds, based on the author's asteroid-teleport articulation: *"Spatial Cost Severance is probably misnamed, as that was just Cost Severance that happened only if and when distance between locations vanished. So that isn't really cost severance but really an abundance cost that vanishes or appears e.g. miner can teleport instantly to/from an asteroid for work each day = totally removes a lot of the cost severance of living on an asteroid."*
+**Hybrid status (structurally load-bearing):** the proper-noun "Spatial Cost Severance" was RETIRED 2026-04-24 then UN-RETIRED same day as lowercase prose phrase via re-examination rigor pass. The original retirement was a Principle-#2 failure — the asteroid-teleport articulation audited spatial-abundance mechanics, not the v2 glossary geographic-dispersal definition. This re-examination **originated the "distinguishing gap-type" diagnostic** (later reused in Temporal CS reconsider pass): *"if removing a qualifier's condition doesn't leave other severance forms intact, the qualifier isn't a subtype qualifier."* Diagnostic remains live in framework toolkit.
 
-**The re-examination (2026-04-24) revealed this was a Principle-#2 failure.** Two distinct phenomena had been conflated:
-- The **asteroid-teleport example** described SPATIAL-ABUNDANCE MECHANICS (distance-as-abundance-condition producing abundance-costs).
-- The **v2 glossary definition** described GEOGRAPHIC DISPERSAL OF VALUE vs CONCENTRATION OF COST: *"costs concentrate where extraction happens; value disperses to distant consumers. Geographic dimension of cost severance. The 13-year life expectancy gap between McDowell County and the national average is the human face of spatial cost severance."*
+**Depends on:** Cost Severance (Ring 1 parent); "spatial" adjective; Principle-#3 variant-subtype discipline; Principle #2 (audit concept not phrase — this re-examination is a Principle-#2 recovery template).
 
-These are **two different framework elements.** The earlier retirement audited the asteroid-teleport description and concluded the phenomenon wasn't real severance — missing that the v2 definition describes a GENUINE severance subtype operating across a geographic gap.
+**Staleness triggers:** phrase drifts into capitalized usage → lowercase-discipline re-test; Cost Severance parent redefined; academic field adopts established terminology that should displace.
 
-**Principle-#3 variant-subtype check CORRECTED (re-examination pass §3):**
-- Counterfactual: remove the spatial dispersal of value (imagine all electricity consumers live near McDowell County).
-- Result: value-capturers and cost-bearers become the same community. Severance mechanism can't operate across a collapsed geography.
-- Verdict: PASSES. Spatial dispersal is load-bearing for this form of severance.
-
-**Rigor provenance:**
-- Vocabulary-footprint meta-rigor pass §13.2.c (2026-04-24, commit `46600bc`) — initial RETIRE/DEMOTE analysis.
-- Original retirement ratification (2026-04-24, commit `2dc54aa`) — based on author's asteroid-teleport description; later recognized as Principle-#2 failure (audited the wrong phenomenon).
-- **Re-examination rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_spatial_cost_severance_re_examination_v1.0.0.md` (2026-04-24, commit `c04b7d8`)** — Option B (adopt as lowercase prose phrase) ratified; reverses earlier retirement.
-- Principle-#3 check UNDER v2 DEFINITION: PASSES (spatial gap is load-bearing for this severance subtype).
-- This re-examination **originated the "distinguishing gap-type" diagnostic** later reused in the Temporal CS reconsider pass: *"if removing a qualifier's condition doesn't leave other severance forms intact, the qualifier isn't a subtype qualifier."*
-
-**Parallel to:** intergenerational cost severance (adopted 2026-04-24 commit `6e19f71`). Both are Cost Severance subtypes adopted as lowercase prose phrases. The spatial + intergenerational lowercase pair is the framework's subtype-descriptor set (Temporal was tested as potential third member via reconsider pass; FAILED Principle #3, kept retired).
-
-**Depends on:**
-- Cost Severance (Ring 1 parent concept)
-- "spatial" adjective (framework-familiar; also used in Spatial abundance)
-- Principle-#3 variant-subtype discipline
-- Principle #2 (audit concept not phrase — principle origination includes this re-examination as a Principle-#2 recovery template)
-
-**Staleness triggers:**
-- Phrase drifts into capitalized usage → lowercase-discipline re-test.
-- Cost Severance parent concept redefined.
-- Academic field adopts established terminology that should displace.
-
-**Commit trail:**
-- Meta-pass initial analysis: commit `46600bc` (2026-04-24).
-- Original retirement ratification: commit `2dc54aa` (2026-04-24).
-- Re-examination rigor pass: commit `c04b7d8` (2026-04-24).
-- Ratification of un-retirement: this commit.
-
-**Supersedes / superseded by:** v1.1 (CURRENT lowercase-prose-phrase) supersedes v1.0 (RETIRED) from 2026-04-24. Earlier retirement preserved in history above as Principle-#2 recovery template.
+**Parallel to:** intergenerational cost severance (lowercase prose phrase). Together these form the framework's subtype-descriptor pair. Temporal was tested as potential third member via reconsider pass; FAILED Principle #3, kept retired.
 
 **Notes:**
-- **Distinct from Spatial abundance.** Spatial abundance is one of the 10 abundances (framework scaffolding). Spatial cost severance is a CS-subtype-by-geographic-gap. These are different framework elements; the conflation between them caused the original Principle-#2 failure.
-- **Canonical example:** McDowell County 13-year life-expectancy gap (coal's value dispersed nationally while health + community collapse costs concentrated locally). Book prose already extensively describes this phenomenon; the lowercase phrase formalizes the subtype-handle.
-- **Style discipline (lowercase always):** restructure sentences to avoid sentence-start capitalization where possible. Mirrors intergenerational cost severance discipline. Not a capitalized proper-noun compound.
-- **Sweep targets (Phase A3):** glossary v2 → v3 sub-entry under Cost Severance; Ch 2 McDowell prose (where the phenomenon is already described) can use the phrase naturally; meta-pass §13.2.c table updated with un-retirement pointer.
+- **Distinct from Spatial abundance** (one of the 10 abundances). Spatial cost severance is a CS-subtype-by-geographic-gap. These are different framework elements; the conflation between them caused the original Principle-#2 failure.
+- **Canonical example:** McDowell County 13-year life-expectancy gap.
+- **Style discipline (lowercase always):** restructure sentences to avoid sentence-start capitalization where possible.
+
+**Rigor provenance:** Re-examination rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_spatial_cost_severance_re_examination_v1.0.0.md` (Option B ratified). Earlier retirement + un-retirement event recorded in `archive/retirements/index.md` §1.
 
 ---
 
 ### Universality Test
 
-**Working definition (prior, retired):** A framework-internal validation check — run the framework against diverse extraction contexts (terrestrial + hypothetical extraterrestrial Mars/Europa) and verify it produces reasonable answers including self-identification of boundary conditions. Complements AIT as framework's validation methodology (vs AIT's discovery methodology).
+**Status:** RETIRED / DEMOTED 2026-04-24 as capitalized named term. Concept preserved in prose as scope-claim + boundary-awareness; Tech Appendix §F Mars/Europa illustration retained without the named test.
 
-**Status:** `RETIRED / DEMOTED` as capitalized named term (ratified 2026-04-24 by Chris Winn). Concept preserved in prose as scope-claim + boundary-awareness + Tech Appendix §F Mars/Europa illustration.
+**Why:** named-test status requires the test to be EXERCISED; 0 chapter refs + no in-book exercise failed that threshold. Pairing with CIT (then AIT) is categorial — both methodologies — but NOT structural (CIT's definition does not depend on UT being named), unlike the structural Abundance-Masking ↔ CIT pairing.
 
-**Term-spec version:** v1.1 (supersedes v1.0 en-bloc demotion; individual-pass verification).
+**Staleness triggers:** book cases start exercising a repeated universality-check methodology that benefits from a name-handle; CIT restructured such that its definition becomes dependent on UT being named; framework develops a formal boundary-condition protocol warranting its own named test.
 
-**Last reviewed:** 2026-04-24
+**Notes:** Distinguishing from Abundance Masking (PROMOTED to Ring 2 in parallel re-examination): AM names an in-the-world mechanism active in every extraction case; UT names a validation methodology that isn't exercised anywhere. Different Principle-#3 outcomes despite both having pairing-with-methodology in v2.
 
-**Rigor provenance:**
-- Meta-pass §11.5 + §13.2.a en-bloc ratification (commit `d58b2cd`, 2026-04-24) — DEMOTE recommendation on "M1 of rigor protocol subsumes universality testing" grounds (rationale later corrected — see individual pass).
-- Individual re-examination pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_universality_test_re_examination_v1.0.0.md` (2026-04-24) — Option B (CONFIRM DEMOTE) with corrected rationale: named-test status requires the test to be EXERCISED; 0 chapter refs + no in-book exercise fails that threshold.
-- AIT-pairing comparison vs Abundance Masking: UT's pairing with AIT is categorial (both methodologies), NOT structural (AIT's definition doesn't depend on UT being named) — differs from AM-AIT where AIT's definition requires AM named.
-
-**Depends on (why this term was in the vocabulary):**
-- Glossary v2 carried the term as a methodology paired with AIT.
-- V2 definition's "complements AIT" language initially suggested load-bearing pairing.
-
-**Staleness triggers:**
-- Book cases start exercising a repeated universality-check methodology that benefits from a name-handle.
-- AIT is restructured such that its definition becomes dependent on UT being named.
-- Framework develops a formal boundary-condition protocol warranting its own named test.
-
-**Commit trail:**
-- Meta-pass en-bloc demotion: commit `d58b2cd`.
-- Individual re-examination pass commit: `713beb7`.
-- Ratification: this commit.
-
-**Supersedes / superseded by:** N/A — concept preserved in prose + Tech Appendix §F; only capitalized term retired.
-
-**Notes:**
-- Tech Appendix §F retains Mars/Europa passage as "scope claim + boundary-awareness illustration" without the named test.
-- Distinguishing from Abundance Masking (which PROMOTED to Ring 2 pending ratification via parallel re-examination): AM names an in-the-world mechanism active in every extraction case; UT names a validation methodology that isn't exercised anywhere. Different Principle-#3 outcomes despite both having AIT-pairing in v2.
-- Phase A3 sweep targets: glossary v2 entry removed in v3; Tech Appendix §F reframed.
+**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_universality_test_re_examination_v1.0.0.md`.
 
 ---
 
 ### Civilizational Substitutability Gap (CSG)
 
-**Working definition (prior, retired):** A derived scalar CSG(R) = S_max(R, industrial) − S_max(R, existential) — the gap between industrial-context substitutability ceiling and existential-context substitutability ceiling for a resource R. Policy rule: high-gap resources warrant strategic in-situ preservation.
+**Status:** RETIRED 2026-04-24 as capitalized named term. Concept preserved in prose as **existential substitutability gap** (renamed 2026-04-29 from "industrial-existential substitutability gap" per Insight #33). Tech Appendix §G formula retained as sub-entry under Substitutability Function; policy rule retained.
 
-**Status:** `RETIRED` as capitalized named term (ratified 2026-04-24 by Chris Winn). Concept preserved in prose as **"existential substitutability gap"** + sub-entry under Substitutability Function in glossary v3 + Tech Appendix §G formula + policy rule retained.
+**Why:** parsimony — framework doesn't name derived scalars. CSG is a DIFFERENCE between two S-evaluations (S_max(industrial) − S_max(existential)); analogous unnamed derivations include S(t) − S(t−1), max-S-over-uncertainty, S-for-rival-baselines. ARP-CSG pairing is TOPICAL not STRUCTURAL (ARP's definition doesn't depend on CSG being named) — contrasts with the structural Abundance-Masking ↔ CIT pairing.
 
-**Preserved-prose-form rename note (2026-04-29):** Initial preservation form *"industrial-existential substitutability gap"* (2026-04-24) renamed to *"existential substitutability gap"* per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-28_csg_descriptive_prose_renaming_v1.0.0.md` Candidate P verdict ratified 2026-04-29 by Chris Winn. Multi-audience matrix (12 sub-audience cells) STRONG/STRONGEST across all cells. M11 + M12 + plagiarism/copyright/legal-exposure probes all SURVIVE with disambiguation discipline. Bostrom 2002 + Bostrom 2014 + MacAskill 2022 + Ord 2020 existential-risk economics lineage citations required on first chapter introduction (Ch 7 line ~117 disambiguation footnote).
+**Notes (structurally load-bearing):**
+- Close-call retirement: 66 active refs + active pedagogical use in Ch 7/Ch 9 + ARP topical pairing. **This ratification established Working Principle #1 Corollary B** ("usage frequency alone is not a rigor argument for retention") — usage-inertia could not override the derivation-from-primitive verdict.
+- Prose form **existential substitutability gap** requires Bostrom 2002 + Bostrom 2014 + MacAskill 2022 + Ord 2020 lineage citations on first chapter introduction (per Insight #33 disambiguation discipline).
 
-**Term-spec version:** v1.0 final (retirement).
-
-**Last reviewed:** 2026-04-24
-
-**Rigor provenance:**
-- Meta-pass §11.2 + §13.2.c rigor-only analysis (commit `af2f18e`, 2026-04-24) — RETIRE on "CSG is S-at-scale" grounds.
-- Individual rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_csg_v1.0.0.md` (2026-04-24) — Option B (CONFIRM RETIRE) with corrected semantic test: CSG is specifically a DIFFERENCE between two S-evaluations (not just "S at scale"). Correction confirms (not rescues) retirement.
-- Parsimony principle: framework doesn't name derived scalars. S(t) − S(t−1), max-S-over-uncertainty, S-for-rival-baselines — none are named separately. CSG belongs to that class.
-- ARP pairing differentiator: CSG-ARP is TOPICAL pairing (ARP applies to high-CSG resources), NOT STRUCTURAL (ARP's definition doesn't depend on CSG being named). Contrasts with AM-AIT. Weaker pairing → doesn't reach Ring-2.
-- Ratification produced a ratified Principle #1 Corollary B: **"usage frequency alone is not a rigor argument for retention."** CSG had 66 active refs (close-call flagged); ratification confirmed that usage frequency cannot override the derivation-from-primitive verdict.
-
-**Depends on (why this term was in the vocabulary):**
-- Glossary v2 carried CSG as a standalone entry under policy-instruments section.
-- Active use in Ch 7 (Mars habitat, asteroid-miner) + Ch 9 (Renewable Imperative) as decision-rule shorthand.
-
-**Staleness triggers:**
-- Ch 7 / Ch 9 chapter rewrites produce prose-quality issues that would be resolved by restoring CSG as a named term.
-- A structural pairing emerges where CSG becomes load-bearing for another framework element's definition (analogous to Abundance Masking for AIT).
-- Academic field adopts "CSG" as a travel-ready term that retirement would forfeit.
-
-**Commit trail:**
-- Meta-pass §13.2.c analysis: commit `af2f18e`.
-- Individual rigor pass commit: `3ec3707`.
-- Ratification: this commit.
-
-**Supersedes / superseded by:** N/A — concept preserved in prose + Tech Appendix §G formula; only capitalized term retired. Prose replacement: "industrial-vs-existential substitutability gap" OR "industrial-existential substitutability gap" OR (for Tech Appendix mathematical contexts) simply "the difference between S_max(industrial) and S_max(existential)."
-
-**Notes:**
-- Close-call retirement: 66 active refs + active pedagogical use in Ch 7/Ch 9 + ARP pairing. Ratified as RETIRE on rigor grounds (parsimony + derivation-from-primitive) overriding usage-frequency argument. This ratification established Principle #1 Corollary B.
-- ARP (Asymmetric Regret Principle) v2 reference "Applies across all uncertainty ranges for high-CSG resources" rewrites to "Applies across all uncertainty ranges for resources with large industrial-existential substitutability gaps." Downstream sweep.
-- Phase A3 sweep targets (Stream A): Ch 7 (asteroid-miner + Mars habitat prose) + Ch 9 (Renewable Imperative) + glossary v2 → v3 removal + Tech Appendix §G retain formula as sub-entry under Substitutability Function. ~2-3 days sweep work per meta-pass estimate.
+**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor passes `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_csg_v1.0.0.md` + `..._csg_descriptive_prose_renaming_v1.0.0.md` (Insight #33).
 
 ---
 
@@ -1125,29 +864,25 @@ Tech Appendix §L footnote positions E as temporal-specialization of Pigouvian e
 
 ### Asymmetric Regret Principle (ARP) — SUPERSEDED 2026-04-24 by Asymmetric Regret Rule (ARR)
 
-**Status:** `SUPERSEDED` 2026-04-24 by Asymmetric Regret Rule (ARR) per ARP rename rigor pass (commit `b8b62e3`) ratified by Chris Winn 2026-04-24 (FINAL ratification after same-day flip from preliminary Reversibility Default ratification). The decision-theoretic CONTENT and aphorism *"We can always extract later. We can never un-extract."* preserved unchanged; the LAST WORD updated ("Principle" → "Rule") to address overclaim concern while preserving regret-theory direct-lineage in the name.
+**Status:** SUPERSEDED 2026-04-24 by Asymmetric Regret Rule (ARR). Decision-theoretic content + aphorism *"We can always extract later. We can never un-extract."* preserved unchanged; only LAST WORD updated ("Principle" → "Rule").
 
-**Why renamed:** "Principle" overclaimed (operational decision rule, not foundational ethical principle). "Rule" downgrades while preserving "Asymmetric Regret" framing — direct M6 academic pattern-match to Loomes-Sugden 1982 + Savage 1951 regret-theory tradition. Maximum-protective M6 in the name without Tech-Appendix-footnote dependency.
+**Why renamed:** "Principle" overclaimed (operational decision rule, not foundational ethical principle). "Rule" downgrades while preserving the "Asymmetric Regret" M6 direct-name-visibility to Loomes-Sugden 1982 + Savage 1951 regret-theory tradition (no Tech-Appendix-footnote dependency).
 
-**Supersession trail:** see Asymmetric Regret Rule record below for current framework element.
+**See:** Asymmetric Regret Rule (ARR) entry below for current framework element.
 
-**Working definition (prior, retained for historical reference):** Framework-specific operational decision rule — when RCV tails cannot be precisely quantified, default to the reversible option. Specialization of Savage-style minimax-regret applied to resource-extraction decisions under quantification uncertainty. Bidirectional-flip-by-context — directs extract-aggressively (Comet flyby case: access window closes) OR preserve (Europa case: incommensurable externality) depending on which action is reversible.
-
-**Phase A3 sweep targets activated by ARP rename ratification:**
-- ~20 chapter refs (Ch 7 GuidanceDoc 11 refs + Ch 7/9/10 drafts + Tech Appendix) — Tier-1 sweep per Principle #4: replace "Asymmetric Regret Principle" / "ARP" with "Reversibility Default" / "RD."
-- Older rigor passes + session handoffs — Tier-2 retirement-note headers per Principle #4.
-- Working Principle #5 (context-flipping rules earn named-rule status) — example reference updates from ARP to Reversibility Default.
-- CSG record cross-pairing reference: ARP-cited-CSG-context updates to RD-cited-CSG-context.
+**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_asymmetric_regret_principle_v1.0.0.md`.
 
 ---
 
 ### Reversibility Default (RD) — RATIFICATION REVERSED 2026-04-24 (same-day flip)
 
-**Status:** `RATIFICATION-REVERSED` 2026-04-24 same-day flip. Preliminary ratification of Reversibility Default (earlier 2026-04-24) reversed when M6 academic-rigor question surfaced post-ratification: RD required Tech Appendix footnote + Ch 7 prose + Glossary entries to make Savage / Loomes-Sugden lineage visible to reviewers; Asymmetric Regret Rule (ARR) has the lineage IN THE NAME — M6 maximum-protective without footnote dependency. Author flipped to ARR. Final ratified element is **Asymmetric Regret Rule (ARR)** per record below.
+**Status:** RATIFICATION-REVERSED 2026-04-24 (same-day flip). Preliminary ratification reversed when M6 academic-rigor question surfaced post-ratification: RD required Tech Appendix footnote + Ch 7 prose + Glossary entries to make Savage / Loomes-Sugden lineage visible; ARR has the lineage IN THE NAME (no footnote dependency). Author flipped to ARR.
 
-**Lesson captured (for ARP rename rigor pass + future similar passes):** when M5 + cross-tradition-adoption tradeoffs appear close, foreground M6 direct-name-visibility EXPLICITLY in the executive summary recommendation. The M5/M6 weighing should be visible to author at ratification time, not surfaced post-ratification.
+**Lesson captured (structurally load-bearing for future rename passes):** when M5 + cross-tradition-adoption tradeoffs appear close, foreground M6 direct-name-visibility EXPLICITLY in the executive summary recommendation. The M5/M6 weighing should be visible to author at ratification time, not surfaced post-ratification.
 
-**Preliminary working definition (preserved for provenance):** Framework-specific Ring-2 operational decision rule — when RCV tails cannot be precisely quantified, default to the option whose action is reversible. Same decision-theoretic content as Asymmetric Regret Rule (FINAL ratified name); only the name candidate differed.
+**See:** Asymmetric Regret Rule (ARR) entry below — final ratified element. Same decision-theoretic content; only the name candidate differed.
+
+**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor pass + ARP rename rigor pass.
 
 ---
 
@@ -1230,9 +965,8 @@ Tech Appendix §L footnote positions E as temporal-specialization of Pigouvian e
 - Ratification + Terms Index supersession + RD record: this commit.
 
 **Notes:**
-- Phase A3 sweep targets: Ch 7 GuidanceDoc + Ch 7/9/10 drafts (~20 refs); Tech Appendix v0.0.5 academic-anchor footnote; Glossary v3 entry rename; Working Principle #5 example-reference updates.
-- Decision-theoretic content unchanged; only name updates.
-- Same Option C' political-philosophical-accommodation discipline that resolved Restitution Bond + 10-list dissolution applies — Reversibility Default is operationally primary + cross-tradition-adoption-broad.
+- Decision-theoretic content unchanged; only the name updated (ARP → ARR).
+- Same Option C' political-philosophical-accommodation discipline that resolved Restitution Bond + 10-list dissolution applies — ARR is operationally primary + cross-tradition-adoption-broad.
 
 **Term-spec version:** v1.0 (first sanctioned spec).
 
@@ -1286,7 +1020,7 @@ Candidates: *Asymmetric Regret Principle (current)* · *Asymmetric Regret Rule* 
 
 **Working definition:** Formal quantity B in the framework's flagship equation CS = RCV − B. Represents the total dollars forced onto extractors via accountability instruments — reclamation bonds, sovereign wealth funds, carbon taxes, insurance requirements, direct liability, severance agreements, any financial mechanism that internalizes extraction costs. Under the framework's ideal B = RCV (honest accounting). Under current regimes B < RCV (accountability gap = Cost Severance = RCV − B). Extends established environmental-bonding / Pigouvian-tax lineage from project-specific or single-externality scope to full Severed Cost spectrum.
 
-**Distinguishing identity — B is the framework's REMEDIATION-side variable** *(author-specified framing 2026-04-24):* where RCV / AIT / Cost Severance / Severed Cost are **diagnostic** (they reveal, identify, name, quantify the problem), Accountability Bond is the **action-side** element. B is the dollars that actually flow onto the extractor's ledger to close (or attempt to close) the cost-severance gap. B doesn't measure severance; it REMEDIATES it. **Structurally the only remediation-side variable in the framework** — every other Ring-1/Ring-2 element works to make the gap visible; B is the element that does something about it. This is why B draws the heaviest scope-creep pressure (Open Insight #13) — action-side questions invite instrument-design depth (how specifically to raise B in case X for category Y?) that belongs to Book 2/3 not Book 1. The "Bond" metaphor reinforces the identity: a bond is POSTED (action), not MEASURED.
+**Distinguishing identity — B is the framework's REMEDIATION-side variable** *(author-specified framing 2026-04-24):* where RCV / CIT / Cost Severance / Severed Cost are **diagnostic** (they reveal, identify, name, quantify the problem), Accountability Bond is the **action-side** element. B is the dollars that actually flow onto the extractor's ledger to close (or attempt to close) the cost-severance gap. B doesn't measure severance; it REMEDIATES it. **Structurally the only remediation-side variable in the framework** — every other Ring-1/Ring-2 element works to make the gap visible; B is the element that does something about it. This is why B draws the heaviest scope-creep pressure (Open Insight #13) — action-side questions invite instrument-design depth (how specifically to raise B in case X for category Y?) that belongs to Book 2/3 not Book 1. The "Bond" metaphor reinforces the identity: a bond is POSTED (action), not MEASURED.
 
 **Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn).
 
@@ -1380,7 +1114,7 @@ Canonical Ch 5 + Tech Appendix first-use citation form drafted in rigor pass §3
 
 ### Abundance Masking
 
-**Working definition:** The mechanism by which abundance makes costs invisible to market pricing until scarcity forces them into view. Oxygen feels free because Earth's atmosphere is abundant. Ecological services feel free because ecosystems haven't collapsed yet. **Abundance Masking is the mechanism; Abundance Dimension is the dimension along which it operates** — distinct entries: masking is a process, dimension is a category (per v2 definition). Paired with AIT: masking is the process; AIT is the methodology that detects what masking hides.
+**Working definition:** The mechanism by which abundance makes costs invisible to market pricing until scarcity forces them into view. Oxygen feels free because Earth's atmosphere is abundant. Ecological services feel free because ecosystems haven't collapsed yet. **Abundance Masking is the mechanism; Abundance Dimension is the dimension along which it operates** — distinct entries: masking is a process, dimension is a category (per v2 definition). Paired with CIT: masking is the process; CIT is the methodology that detects what masking hides.
 
 **Status:** `CURRENT` at Ring 2 (ratified 2026-04-24 by Chris Winn — promoted from earlier DEMOTE-to-prose via re-examination).
 
@@ -1408,16 +1142,16 @@ The term was initially scheduled for DEMOTE-to-prose 2026-04-24 (meta-pass §13.
 
 The v2 definition makes the pairing structure explicit: *"Abundance Masking is the mechanism; Abundance Dimension is the dimension along which it operates. These are distinct entries: masking is a process, dimension is a category."*
 
-**Decisive test — "What does AIT detect?":**
-- Without Abundance Masking term: AIT's definition becomes circular or unanchored. Adversarial reader: *"What makes a cost scarcity-grounded vs not?"* The answer requires naming the phenomenon AIT is designed to detect.
-- With Abundance Masking term: *"AIT tests whether a candidate cost survives abundance inversion — i.e., whether the cost is genuinely hidden by Abundance Masking or is intrinsic to the activity regardless of scarcity."* Clean + explanatorily complete.
+**Decisive test — "What does CIT detect?":**
+- Without Abundance Masking term: CIT's definition becomes circular or unanchored. Adversarial reader: *"What makes a cost scarcity-grounded vs not?"* The answer requires naming the phenomenon CIT is designed to detect.
+- With Abundance Masking term: *"CIT tests whether a candidate cost survives commons-inversion — i.e., whether the cost is genuinely hidden by Abundance Masking or is intrinsic to the activity regardless of scarcity."* Clean + explanatorily complete.
 
 **Parallel to Cost Severance vs Severed Cost pair:** framework benefits from naming both sides of flagship mechanism-pairs:
 
 | Pair type | Left side | Right side |
 |---|---|---|
 | Mechanism + Result | Cost Severance | Severed Cost |
-| **Mechanism + Methodology** | **Abundance Masking** | **AIT** |
+| **Mechanism + Methodology** | **Abundance Masking** | **CIT** |
 | Event + Mechanism | Value Extraction | Cost Severance |
 
 **Rigor provenance:**
@@ -1426,24 +1160,24 @@ The v2 definition makes the pairing structure explicit: *"Abundance Masking is t
 - Ratification 2026-04-24 by Chris Winn — this commit.
 - **Diagnostic originated here (cross-cutting):** "structural vs topical pairing" distinction that later guided Universality Test re-examination + CSG-ARP pairing analysis. Structural pairings (Partner-A's definition requires Partner-B named) justify Ring-2 promotion; topical pairings don't.
 
-**M12 classification:** Framework-specific mechanism-name. The concept of abundance making costs invisible is adjacent to "rhetoric of abundance masks depletion" in ecological-economics literature + artificial-scarcity literature (Desai & Lemley 2022), but no established term captures the specific framework role as AIT-paired mechanism-name. **Appears novel as specific framework term.**
+**M12 classification:** Framework-specific mechanism-name. The concept of abundance making costs invisible is adjacent to "rhetoric of abundance masks depletion" in ecological-economics literature + artificial-scarcity literature (Desai & Lemley 2022), but no established term captures the specific framework role as CIT-paired mechanism-name. **Appears novel as specific framework term.**
 
 **Why Ring 2 (not Ring 1):**
-- Framework-internal mechanism-name paired with AIT (also Ring 1).
-- Not a public-adoption target. Readers encounter AM to understand AIT's object; non-readers don't adopt.
+- Framework-internal mechanism-name paired with CIT (also Ring 1).
+- Not a public-adoption target. Readers encounter AM to understand CIT's object; non-readers don't adopt.
 - Chapter usage pattern: the MECHANISM is active in every extraction case in the book (costs masked by atmospheric abundance, ecosystem-service abundance, etc. — McDowell, Deepwater, Libby, all exhibit the mechanism). Naming it at Ring 2 formalizes what's already operating.
 
 **Depends on:**
-- AIT (paired detection methodology — Ring 1)
+- CIT (paired detection methodology — Ring 1)
 - Abundances (the domain over which masking operates)
 - Cost Severance (the phenomenon that masking enables by hiding costs)
 
 **Pairs with:**
-- **AIT (structural pairing).** AIT's definition requires Abundance Masking named. Retiring AM would break AIT's definition.
+- **CIT (structural pairing).** CIT's definition requires Abundance Masking named. Retiring AM would break CIT's definition.
 - **Abundance Dimension.** Process vs category distinction per v2 definition.
 
 **Staleness triggers:**
-- AIT methodology redefined in a way that changes what it detects.
+- CIT methodology redefined in a way that changes what it detects.
 - Framework's abundance vocabulary restructured.
 
 **Commit trail:**
@@ -1456,7 +1190,7 @@ The v2 definition makes the pairing structure explicit: *"Abundance Masking is t
 **Notes:**
 - Distinct from Abundance Dimension per v2 explicit distinction (process vs category).
 - In-the-world mechanism: active in every extraction case in the book whether or not named in chapter prose. Naming formalizes what's already operating.
-- **Diagnostic origination:** this re-examination surfaced the "structural vs topical pairing" distinction that is now part of the rigor protocol's working toolkit for evaluating AIT-pairing arguments. Formalized as M12 action-ladder input via Principle #6.
+- **Diagnostic origination:** this re-examination surfaced the "structural vs topical pairing" distinction that is now part of the rigor protocol's working toolkit for evaluating CIT-pairing arguments (and analogous mechanism-methodology pairings). Formalized as M12 action-ladder input via Principle #6.
 
 ---
 
@@ -1503,7 +1237,7 @@ Framework novelty is NOT the gap-form (ubiquitous) — it is the specific decomp
 Tech Appendix §L methodological footnote positions the equation as extension of this established gap-accounting lineage with framework-specific decomposition.
 
 **Why Ring 2 (not Ring 1):**
-- Equations don't travel as adoption vocabulary the way terms do. Ring-1 adoption-targets are CS / SC / RCV / B / AIT / VE / Commons Bonds individually.
+- Equations don't travel as adoption vocabulary the way terms do. Ring-1 adoption-targets are CS / SC / RCV / B / CIT / VE / Commons Bonds individually.
 - Analogue: *F = ma* travels as vocabulary, but only AFTER Newtonian framework adoption; the framework-level terms (force, mass, acceleration) travel first. Same pattern: framework terms travel first; the equation holds them together internally.
 - The equation is the internal structural anchor — Ring 2 (internal load-bearing) appropriate.
 
@@ -1522,7 +1256,7 @@ The equation's statement "CS = RCV − B" is **framework-level prescription** (i
 - B definition (Ring 2) — full-Severed-Cost scope.
 - Substitutability Function S (Ring 2) — appears in RCV integrand via C₁.
 - Externality Tail E (Ring 2) — appears in RCV integrand.
-- Abundance Masking + AIT (Ring 2/1) — govern which costs are admitted to RCV.
+- Abundance Masking + CIT (Ring 2/1) — govern which costs are admitted to RCV.
 - Four Gates (Ring 2, pending) — admission apparatus for Cᵢ.
 
 **Pairs with:**
@@ -1702,23 +1436,11 @@ Specialized extension of commons-governance methodology (Ostrom lineage) to extr
 
 ### Abundance Inversion Test (AIT) — RETIRED
 
-**Status:** `RETIRED` (ratified 2026-04-24 by Chris Winn — superseded by Commons Inversion Test (CIT) per commons-as-structural-identity reframing). Historical references in older docs preserved per Principle #4 Tier-2 discipline (retirement-note headers; no content sweep).
+**Status:** RETIRED 2026-04-24. Superseded by **Commons Inversion Test (CIT)** per commons-as-structural-identity reframing. AIT's semantic content preserved + refined in CIT (see CIT entry above).
 
-**Working definition (prior, retired):** Framework methodology for admitting candidate costs to RCV via abundance-inversion test ("invert the current abundance condition; does the cost become visible?").
+**Why:** author insight 2026-04-24: *"AiT is really CiT showing that a commons cost exists when you imagine the current abundance of that commons not existing."* The test operates on commons (concrete shared resources), not on abstract abundance-states. CIT's framing makes the operational instruction visualizable; AIT required reader-side abstraction. Plus the two sub-forms (Commons-Absence + Commons-Consumption Inversion) became visible only after the commons-reframing.
 
-**Term-spec version:** v1.0 final (retirement).
-
-**Last reviewed:** 2026-04-24
-
-**Why retired:** Author insight 2026-04-24: *"AiT is really CiT showing that a commons cost exists when you imagine the current abundance of that commons not existing."* The test operates on commons (concrete shared resources), not on abstract abundance-states. CIT's framing makes the operational instruction visualizable; AIT's framing required reader-side abstraction. Plus the two sub-forms (Commons-Absence + Commons-Consumption Inversion) became visible only after the commons-reframing — they were obscured under "invert the abundance state" language.
-
-**Supersedes / superseded by:** Superseded by Commons Inversion Test (CIT). AIT's semantic content preserved + refined in CIT.
-
-**Rigor provenance:** see CIT record + 3 ratified rigor passes (Commons-as-Structural-Identity + CIT rename + 10-list dissolution).
-
-**Notes:**
-- Phase A3 Stream A sweep target: ~100+ active AIT refs across framework (chapters + Tech Appendix + glossary + rigor passes + case studies + decision docs) — Tier-1 sweep per Principle #4.
-- Historical docs (older rigor passes, session handoffs): Tier-2 retirement-note headers; no content sweep.
+**Full trace:** `archive/retirements/index.md` §1 + ratifying rigor pass `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cit_rename_v1.0.0.md` + Commons-as-Structural-Identity + 10-list dissolution rigor passes.
 
 ---
 
@@ -2098,6 +1820,20 @@ The framework EXTENDS Hotelling 1931 by adding a commons-side measurement to pai
 
 **Working definition:** Backward-looking accountability-instrument cluster that closes the CSD gap. Mechanisms restoring (in monetary, legal, structural, or rights-based form) what was taken from people via cost severance — restitution payments, reparations programs, welfare-state instruments (universal healthcare, social-safety-net programs, public pensions), environmental-justice damages compensation, toxic-tort litigation, class-action damages, truth-and-reconciliation processes. Pairs with CSD in two-instrument architecture.
 
+**Glossary definition (~75 words, reader-register; v1 DRAFT in Claude's voice — awaits author voice refinement during Phase 4 Glossary v4 rebuild):**
+> Backward-looking accountability instrument — restitution payments, reparations programs, welfare-state instruments (universal healthcare, public pensions), environmental-justice damages compensation, toxic-tort litigation, truth-and-reconciliation processes. *Restitution Bond (B₁)* closes the cost-severance damages gap: dollars that flow to people, communities, and ecosystems already harmed by extraction. Pairs with B₂ Foreclosure Bond (forward-looking) in the framework's two-instrument architecture. Underdeveloped territory globally; varies by welfare-state design.
+
+**Tech Appendix definition (~290 words, formal + lineage; v1 DRAFT in Claude's voice — awaits author voice refinement during Phase 3 Tech Appendix v2.0.0 rebuild):**
+> **B₁ — Restitution Bond** is the backward-looking sub-instrument in the framework's two-instrument decomposition of Accountability Bond (B = B₁ + B₂). It denotes the cluster of accountability mechanisms that close the Cost Severance Damages (CSD) gap by restoring — in monetary, legal, structural, or rights-based form — what was taken from people via realized cost severance. In the decomposed equation total CS = (CSD − B₁) + (RCV − B₂), B₁ pairs structurally with CSD: B₁ is the dollars that would discharge the realized-harm half of total severance.
+>
+> **Mechanisms in cluster.** Restitution payments; reparations programs; welfare-state instruments (universal healthcare, social-safety-net programs, public pensions); environmental-justice damages compensation; toxic-tort litigation; class-action damages; truth-and-reconciliation processes.
+>
+> **Why "Restitution" over "Reparations"** (per B₁+B₂ naming rigor pass 2026-04-24): legal-register-clear; cross-political-tradition adoption potential. "Reparations" carries political-loading that narrows framework adoption to politically-progressive audiences; "Restitution" preserves the same restoration-of-what-was-taken meaning while reaching center-right, libertarian, and politically-cautious institutional audiences who would disengage at "Reparations." Restitution-law scope is broader than damages-law (encompasses monetary + legal + structural + rights-based restoration), fitting CSD's broader scope.
+>
+> **M12 lineage.** Restitution-law tradition (general legal vocabulary). Darity & Mullen 2020 *From Here to Equality* (UNC Press) — primary reparations-economics methodology source. Bullard 1990 *Dumping in Dixie* (Westview) — environmental-justice damages cross-reference. Toxic-tort + class-action damages tradition. Truth-and-reconciliation processes (South Africa post-apartheid + analogous infrastructures). Esping-Andersen 1990 *The Three Worlds of Welfare Capitalism* (Princeton) — welfare-state design lineage.
+>
+> **Status of B₁ globally.** UNDERDEVELOPED. Restitution-and-reparations is the active scholarly territory; less politically settled than B₂; varies widely across welfare-state architectures; environmental-justice damages compensation is litigation-driven and incomplete.
+
 **Why "Restitution" over "Reparations" (per B1 + B2 naming rigor pass commit `8e6a5b2`):** legal-register-clear; cross-political-tradition adoption potential. "Reparations" carries political-loading that narrows framework adoption to politically-progressive audiences; "Restitution" preserves the same restoration-of-what-was-taken meaning while reaching center-right + libertarian + politically-cautious institutional audiences who'd disengage at "Reparations." Per Option C' political-philosophical-accommodation discipline (ratified 2026-04-24): framework accommodates political traditions rather than asserts politically-loaded commitments. Restitution-law scope is BROADER than damages-law (encompasses monetary + legal + structural + rights-based restoration); fits CSD's broader scope than narrow damages.
 
 **M12 lineage:**
@@ -2115,6 +1851,20 @@ The framework EXTENDS Hotelling 1931 by adding a commons-side measurement to pai
 #### B2 — Foreclosure Bond (Ring-2 sub-instrument)
 
 **Working definition:** Forward-looking accountability-instrument cluster that closes the RCV gap. Mechanisms internalizing resource permanent-foreclosure value — Hartwick savings (sovereign wealth funds), reclamation bonds, Environmental Impact Bonds, Pigouvian carbon taxes, cap-and-trade schemes, decommissioning bonds. Pairs with RCV in two-instrument architecture.
+
+**Glossary definition (~75 words, reader-register; v1 DRAFT in Claude's voice — awaits author voice refinement during Phase 4 Glossary v4 rebuild):**
+> Forward-looking accountability instrument — sovereign wealth funds operationalizing Hartwick's rule (Norway = canonical existing exemplar), reclamation bonds, Environmental Impact Bonds, Pigouvian carbon taxes, cap-and-trade schemes, decommissioning bonds for oil and gas. *Foreclosure Bond (B₂)* closes the residual-commons-value gap: dollars forced from extractors to internalize the permanent foreclosure of future-generation options. Term-pair coherence with Foreclosure Cost (C₁) — what the bond internalizes. Pairs with B₁ Restitution Bond (backward-looking) in the framework's two-instrument architecture.
+
+**Tech Appendix definition (~290 words, formal + lineage; v1 DRAFT in Claude's voice — awaits author voice refinement during Phase 3 Tech Appendix v2.0.0 rebuild):**
+> **B₂ — Foreclosure Bond** is the forward-looking sub-instrument in the framework's two-instrument decomposition of Accountability Bond (B = B₁ + B₂). It denotes the cluster of accountability mechanisms that close the Residual Commons Value (RCV) gap by forcing extractors to internalize the dollar quantification of permanent foreclosure imposed on future generations. In the decomposed equation total CS = (CSD − B₁) + (RCV − B₂), B₂ pairs structurally with RCV: B₂ is the dollars that would discharge the prospective-foreclosure half of total severance.
+>
+> **Mechanisms in cluster.** Hartwick savings (sovereign wealth funds — Norway's GPFG = canonical existing exemplar); reclamation bonds (SMCRA 1977 surface mining); Environmental Impact Bonds (Balboa 2016); Pigouvian carbon taxes; cap-and-trade schemes; decommissioning bonds for oil and gas (BLM 43 CFR Part 3162; BSEE 30 CFR Part 250 + 254; ~36 state plugging/abandonment bond regimes); CERCLA / RCRA financial-assurance requirements.
+>
+> **Why "Foreclosure Bond" over "Resource-Foreclosure Bond"** (per B₁+B₂ naming rigor pass 2026-04-24): term-pair coherence with Foreclosure Cost (C₁ in RCV integrand) — *"Foreclosure Cost is what's lost; Foreclosure Bond is what would internalize it."* Shorter; preserves descriptive content via framework context; M5 dinner-table strong via mortgage-foreclosure analogy (in mortgage-foreclosure, ownership permanently severed from borrower; in resource-foreclosure, future-use permanently severed from future generations).
+>
+> **M12 lineage.** Hotelling 1931 *Journal of Political Economy* — foundational resource-economics; Hotelling rent under honest accounting flows to B₂ instrument. Hartwick rule 1977 — invest resource rents in reproducible capital. Solow 1974 — intergenerational equity and exhaustible resources. OSMRE Reclamation Bonds + GAO-17-207R + Yang & Davis 2021. Balboa 2016 *Accountability of Environmental Impact Bonds*. Pigou 1920 *Economics of Welfare*.
+>
+> **Norway = canonical existing B₂ exemplar.** Refines Open Insight #14: Norway's GPFG is canonical B₂, NOT canonical aggregate B; Norwegian welfare-state is approximately B₁-for-Norwegian-citizens but does not extend to non-Norwegian populations affected by Norwegian oil's climate externalities. Phase 2 deeper-dive rigor pass 2026-04-29 ratified KEEP term + 6 alternatives rejected at Phase 2 depth (Resource-Foreclosure Bond; Future-Options Bond; Long-Horizon Bond; Intergenerational Resource Bond; Hartwick Bond; Sovereign Reserve Bond; Forward Accountability Bond).
 
 **Why "Foreclosure Bond" over "Resource-Foreclosure Bond" (per B1 + B2 naming rigor pass commit `8e6a5b2`):** **term-pair coherence with Foreclosure Cost (C₁ in RCV integrand)** — *"Foreclosure Cost is what's lost; Foreclosure Bond is what would internalize it."* Shorter; preserves descriptive content via framework context; M5 dinner-table strong via mortgage-foreclosure analogy (in mortgage-foreclosure, ownership permanently severed from borrower; in resource-foreclosure, future-use permanently severed from future generations).
 
@@ -2162,4 +1912,4 @@ The framework EXTENDS Hotelling 1931 by adding a commons-side measurement to pai
 
 ---
 
-*End of Term Provenance Index v0.1.0. Skeleton established 2026-04-24. Populated progressively as Tier A rigor work produces records.*
+*End of Term Provenance Index v1.0.0. Skeleton established 2026-04-24 (v0.1.0); populated progressively through Phase 2 + Group 1 ratifications; bumped to v1.0.0 2026-04-30 per refined Working Principle #4 (Insight #59) — current-state document with summary-level retirement traces. Full retirement traces at `archive/retirements/index.md`.*

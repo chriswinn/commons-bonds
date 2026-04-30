@@ -369,7 +369,8 @@ When a thread closes meaningful work, append a stub to v1.49.0 §5 (cross-thread
 
 | Date | Thread | What landed | Insights closed |
 |---|---|---|---|
-| (none yet) | | | |
+| 2026-04-30 | δ | Insight #9 RATIFIED (verdict (b) threaded Pattern 2 + rich internal scaffolding) + Insight #14 CLOSED-RATIFIED + Working Principle #10 NEW (Two-layer content origination discipline) + new internal-scaffolding artifact `core/methodology/decision_time_application_internal_v1.0.0.md` + §3.5 cross-thread WP#10 addendum to this handoff | #9, #14 |
+| 2026-04-30 | α | Phase α.1 batched commit — terms_index v0.1.0 → v1.0.0 (Buckets A + F + G): summary-level retirement-trace migration per refined WP#4; AIT → CIT regression cleanup; intergenerational/Temporal/Spatial CS hybrid entries condensed; B₁/B₂ Restitution Bond + Foreclosure Bond rendering fields added (Glossary def + Tech Appendix def in Claude's voice — flagged for author voice refinement during Phase α.2/α.3); vocab strategy v1.0.1 §6 + §13 light-trace migration; working principles v1.0.0 P#4 annotation marking 2026-04-30 refinement supersedes 2026-04-24 body | none directly (closes refined-WP#4 implementation pending list per v1.48.0 §5.2; UNBLOCKS Phase α.2 Tech Appendix v2.0.0 + Phase α.3 Glossary v4) |
 
 ---
 
