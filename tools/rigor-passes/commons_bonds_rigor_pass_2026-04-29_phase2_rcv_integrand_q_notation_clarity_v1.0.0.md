@@ -6,7 +6,7 @@
 
 **Scope:** Phase 2 academic-rigor depth audit on the **Q(t) notation** as it appears in U(R, t, Q(t)) inside the RCV integrand and downstream theorem statements + chapter prose. Phase 1 §7.2 + §7.16 flagged this as Phase 2 candidate #8 with rationale: *"M11: notation collision check — U(R, t, Q(t)) utility function, D(t, t₀) discount factor, S(t|t₀) substitutability; all standard. Phase 2 verification recommended on Q(t) ambiguity (quality? quantity? per chapter context disambiguates)."*
 
-**Status:** **[PROPOSED] — pending author ratification.**
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify all three enhancements** with specific author elections per §15: Q3 **comprehensive bibliography** (all 6 references); Q4 **full cross-reference scope** (3 mandatory + 5+ optional = 8+ locations including §F existential analysis + §K formula breakdowns + terms_index entries + glossary v3); Q5 **batch into Phase 3 Tech Appendix v2.0.0 rebuild** (unified with Insights #35 + #38 + #40 + #41 + #42 + #43 + #44 + #45 Tech Appendix HTML edits). Insight #46 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
 
 **Author:** Chris Winn
 
