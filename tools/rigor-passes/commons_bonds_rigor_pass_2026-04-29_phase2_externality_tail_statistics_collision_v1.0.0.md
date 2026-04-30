@@ -6,7 +6,7 @@
 
 **Scope:** Phase 2 academic-rigor depth audit on the **Externality Tail (E(R, t))** Ring-2 term — does the "tail" suffix collide with statistics-distribution-tail conventions in finance / actuarial / extreme-value theory / risk literature? Phase 1 §6.11 + §10 #3 flagged: *"Externality Tail — statistics-distribution-tail collision + suffix coherence (already deferred per Item 4.2 partly). Statistics-distribution-tail collision (Tier 2a econ readers may import distribution-tail framing; framework's E is a time-indexed function, not distribution tail). Verdict: PASS screening BUT FLAG for Phase 2 deeper dive on statistics-tail collision + suffix-convention coherence."*
 
-**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify both enhancements.** Tech Appendix HTML edit timing pending author choice on §15 Q6 (same open question as Insights #35 + #38 + #40 + #41 + #42). Insight #43 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify both enhancements.** Tech Appendix HTML edit timing pending author choice on §15 Q6 (same open question as Insights #35 + #38 + #40 + #47 + #48). Insight #49 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
 
 **Author:** Chris Winn
 
@@ -604,7 +604,7 @@ This rigor pass does NOT replace external review; it produces the substrate that
 - [Externality Tail individual rigor pass 2026-04-24](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_externality_tail_v1.0.0.md) — RATIFIED 2026-04-24; Ring-2 promotion under current naming; 4-axis distinctness from Pigouvian externality preserved; this pass extends with collision-disambiguation.
 - [Phase 2 Theorem E.4 Integral Convergence](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e4_integral_convergence_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #40); Theorem E.4 restructured premises A2 includes E polynomial-growth bound; Externality Tail disambiguation here is non-disruptive to E.4 proof structure.
 - [P2#8 RCV integrand Q(t) notation-clarity](commons_bonds_rigor_pass_2026-04-29_phase2_rcv_integrand_q_notation_clarity_v1.0.0.md) — [PROPOSED] 2026-04-29; sibling Phase 2 audit; methodology-precedent.
-- [P2#7 Scarcity multiplier formula academic-defensibility](commons_bonds_rigor_pass_2026-04-29_phase2_scarcity_multiplier_academic_defensibility_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #41); methodology-precedent.
+- [P2#7 Scarcity multiplier formula academic-defensibility](commons_bonds_rigor_pass_2026-04-29_phase2_scarcity_multiplier_academic_defensibility_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #47); methodology-precedent.
 - [P2#6 Three Ways of Counting post-rename adoption-fit](commons_bonds_rigor_pass_2026-04-29_phase2_three_ways_of_counting_adoption_fit_v1.0.0.md) — [PROPOSED] 2026-04-29; sibling Phase 2 audit.
 - [Phase 2 Foreclosure Bond housing-crisis collision](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_foreclosure_bond_housing_crisis_collision_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #38); methodology template — collision-disambiguation pattern.
 - [Phase 2 Cost Severance + Severed Cost Tier 2d](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_cost_severance_severed_cost_tier2d_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #35); methodology template.
@@ -614,7 +614,7 @@ This rigor pass does NOT replace external review; it produces the substrate that
 
 - **Phase 2 #3 Theorems E.1, E.3, E.5, Renewable Imperative academic-rigor proof-structure audit** — sibling session in progress 2026-04-29. E(R, t) appears in restructured premises A2 (RATIFIED Insight #40 Theorem E.4) and may appear in E.1/E.3/E.5 sibling theorem audits. The disambiguation enhancement here is non-disruptive to theorem proofs.
 - **P2#8 [Q(t)] RCV integrand Q(t) notation-clarity** — [PROPOSED] 2026-04-29.
-- **P2#7 [scarcity-multiplier] Scarcity multiplier formula academic-defensibility** — RATIFIED 2026-04-29 (Insight #41).
+- **P2#7 [scarcity-multiplier] Scarcity multiplier formula academic-defensibility** — RATIFIED 2026-04-29 (Insight #47).
 - **P2#6 [TWoC-adoption] Three Ways of Counting post-rename adoption-fit** — [PROPOSED] 2026-04-29.
 - **P2#4 [RCV-acronym] RCV acronym collision audit** — pending (next + final in this session's reverse-priority sweep).
 

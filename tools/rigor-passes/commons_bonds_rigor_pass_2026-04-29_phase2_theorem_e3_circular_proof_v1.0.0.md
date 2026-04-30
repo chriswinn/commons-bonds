@@ -599,7 +599,7 @@ If (a) full ratify Option β + γ:
 4. terms_index — append Phase 2 verdict entry; cross-reference to this rigor pass.
 5. Open Insights — new Insight # closed-ratified entry capturing Phase 2 #3.2 verdict.
 
-**Same open question as Insights #35 + #38 + #40 + #41 + #42 + #43 + #44 + Phase 2 #8 + Phase 2 #3.4 Tech Appendix HTML edit timing:** apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild. **Recommended:** unified batch into v2.0.0 rebuild.
+**Same open question as Insights #35 + #38 + #40 + #47 + #48 + #49 + #50 + Phase 2 #8 + Phase 2 #3.4 Tech Appendix HTML edit timing:** apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild. **Recommended:** unified batch into v2.0.0 rebuild.
 
 ### §14.6 Pre-publication external review (Insight #39)
 
@@ -623,7 +623,7 @@ This rigor pass does NOT replace external review; it produces the substrate that
 
 4. **CIT-relationship reframing language.** §13.4 + §13.5 propose specific clarifying language for Definition A.8 and E.3 statement. Author preference on phrasing — alternative options include "E.3 is the analytic foundation; CIT is the discovery methodology" vs "Theorem E.3 establishes analytically; CIT operationalizes empirically" vs current §13.4 wording.
 
-5. **Tech Appendix HTML edit timing.** Same open question as Insights #35 + #38 + #40 + #41 + #42 + #43 + #44 + Phase 2 #8 + Phase 2 #3.4: apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild?
+5. **Tech Appendix HTML edit timing.** Same open question as Insights #35 + #38 + #40 + #47 + #48 + #49 + #50 + Phase 2 #8 + Phase 2 #3.4: apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild?
 
 6. **Coordination with sibling E.1 session.** Sibling theorem-rigor session is auditing E.1 (~3 hours in at this pass start). E.1 (Structural Cost Severance) is the framework's central theorem; its restructure may produce premise-formalization patterns parallel to E.3's. Should E.3's restructure be ratified before or after E.1's? **Recommended:** ratify independently; E.3's restructure doesn't depend on E.1's audit outcome.
 
@@ -640,7 +640,7 @@ This rigor pass does NOT replace external review; it produces the substrate that
 - [Phase 2 #3.4 [E.2] Theorem E.2 categorization audit](commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e2_categorization_v1.0.0.md) — [PROPOSED] 2026-04-29; sibling theorem-audit; methodology-precedent.
 - [Phase 2 Foreclosure Bond housing-crisis collision](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_foreclosure_bond_housing_crisis_collision_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #38); methodology template.
 - [Phase 2 Cost Severance + Severed Cost Tier 2d](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_cost_severance_severed_cost_tier2d_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #35); methodology template.
-- This session's reverse-priority Phase 2 sweep (P2#8 [Q(t)] + P2#7 + P2#6 + P2#5 + P2#4) — RATIFIED Insights #41 + #42 + #43 + #44 + P2#8 [PROPOSED]; methodology-precedent for collision-disambiguation patterns (informs E.3 citation expansion via Pindyck 1978 + Dasgupta-Heal 1979 already added in P2#8).
+- This session's reverse-priority Phase 2 sweep (P2#8 [Q(t)] + P2#7 + P2#6 + P2#5 + P2#4) — RATIFIED Insights #47 + #48 + #49 + #50 + P2#8 [PROPOSED]; methodology-precedent for collision-disambiguation patterns (informs E.3 citation expansion via Pindyck 1978 + Dasgupta-Heal 1979 already added in P2#8).
 
 ### §16.2 Sibling Phase 2 candidates (concurrent + remaining)
 

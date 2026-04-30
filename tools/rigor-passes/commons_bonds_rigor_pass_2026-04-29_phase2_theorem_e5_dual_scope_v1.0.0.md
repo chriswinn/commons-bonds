@@ -10,7 +10,7 @@
 
 **Scope:** Phase 2 academic-rigor depth audit on **Theorem E.5 (Renewable Imperative)** as stated at [Tech Appendix v1.0.0 §10 lines 3288-3294](core/technical-appendix/TechnicalAppendix_v1.0.0.html). Dual-scope: vocabulary collision (rename to Substitution Dominance) + proof-structure (over-specified universal quantifiers + practical-corollary separation). Phase 1 §10 #8 + E.4 rigor pass §16.3 flagged: *"Renewable Imperative — academic-rigor proof-structure audit ... over-specified scope; scope-tightening + practical-corollary separation; ~700-900 lines"*; vocabulary collision concern surfaced 2026-04-29 by author direction (Tier 2c policy-practitioner cross-political-tradition risk).
 
-**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify Option α + β COMBINED** — rename to "Substitution Dominance" (not "Substitution Imperative"; SC8 substantive-claim accuracy weighted higher than Tier 1 + Tier 2c-climate-progressive bold-framing per multi-audience matrix scoring 8-2 in favor of Dominance) + premise enumeration P1–P4 + universal-quantifier scope-tightening + failure-mode acknowledgment + practical-corollary separation as Corollary E.5.1 + bibliography expansion. Chapter 9 title concern moot (already retitled "Pricing Honestly"). Tech Appendix HTML edit timing: BATCH into Phase 3 v2.0.0 rebuild per shared open question with Insights #35 + #38 + #40 + #41 + #42 + #43 + #44 + #45 + #46 + Phase 2 #3.2 [E.3]. Insight #47 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify Option α + β COMBINED** — rename to "Substitution Dominance" (not "Substitution Imperative"; SC8 substantive-claim accuracy weighted higher than Tier 1 + Tier 2c-climate-progressive bold-framing per multi-audience matrix scoring 8-2 in favor of Dominance) + premise enumeration P1–P4 + universal-quantifier scope-tightening + failure-mode acknowledgment + practical-corollary separation as Corollary E.5.1 + bibliography expansion. Chapter 9 title concern moot (already retitled "Pricing Honestly"). Tech Appendix HTML edit timing: BATCH into Phase 3 v2.0.0 rebuild per shared open question with Insights #35 + #38 + #40 + #47 + #48 + #49 + #50 + #51 + #52 + Phase 2 #3.2 [E.3]. Insight #53 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
 
 **Author:** Chris Winn
 
@@ -80,7 +80,7 @@ The audit tests across **two dimensions**:
 
 **ENHANCEMENT 1: Rename theorem to "Substitution Dominance"**
 
-Replace "Theorem E.5 (Renewable Imperative)" with "**Theorem E.5 (Substitution Dominance)**." Aligns with framework's Substitutability Function (S) lineage; matches concept-noun naming pattern of E.1 (Structural Cost Severance) / E.3 (Abundance Masking) / E.4 (Integral Convergence) / new E.2 (Cross-Model Convergence per Insight #45). Cross-political-tradition robust. Technically accurate to "weakly dominant" formal claim.
+Replace "Theorem E.5 (Renewable Imperative)" with "**Theorem E.5 (Substitution Dominance)**." Aligns with framework's Substitutability Function (S) lineage; matches concept-noun naming pattern of E.1 (Structural Cost Severance) / E.3 (Abundance Masking) / E.4 (Integral Convergence) / new E.2 (Cross-Model Convergence per Insight #51). Cross-political-tradition robust. Technically accurate to "weakly dominant" formal claim.
 
 **ENHANCEMENT 2: Chapter 9 title — RESOLVED (no action needed; correction per author 2026-04-29)**
 
@@ -228,7 +228,7 @@ E.5's combination (technically inaccurate name + politically-coded vocabulary + 
 
 - **Phase 2 deeper-dive on theorems E.1, E.3** — sibling rigor passes (E.1 in progress in serene-franklin-1d85a7 worktree at this pass start; E.3 [PROPOSED] per Phase 2 #3.2 in this worktree).
 - **Theorem E.4 (Integral Convergence)** — already RATIFIED Insight #40.
-- **Theorem E.2 (now Empirical Observation E.2 (Cross-Model Convergence))** — already RATIFIED Insight #45.
+- **Theorem E.2 (now Empirical Observation E.2 (Cross-Model Convergence))** — already RATIFIED Insight #51.
 - **Renewable Imperative chapter content** — Chapter 9 GuidanceDoc + downstream draft content; this audit affects only chapter title (Enhancement 2 — author decision).
 - **Cross-extraction-class case calibration** — Block 4 numerical territory.
 - **Pre-publication external review** — Insight #39 OPEN; downstream gate.
@@ -741,7 +741,7 @@ Add to bibliography (most already in framework's bibliography per other ratified
 - Hartwick, John M. 1977. "Intergenerational Equity and the Investing of Rents from Exhaustible Resources." *American Economic Review* 67(5): 972-974. — already in bibliography per Hotelling Identity §12.
 - Solow, Robert M. 1974. "Intergenerational Equity and Exhaustible Resources." *Review of Economic Studies* 41 (Symposium): 29-45. — already in bibliography per Hotelling Identity §12.
 - Weitzman, Martin L. 2001. "Gamma Discounting." *American Economic Review* 91(1): 260-271. — already in bibliography per Insight #40.
-- Dixit, Avinash K., and Robert S. Pindyck. 1994. *Investment under Uncertainty*. Princeton: Princeton University Press. — already in bibliography per real-options framing + Insight #41.
+- Dixit, Avinash K., and Robert S. Pindyck. 1994. *Investment under Uncertainty*. Princeton: Princeton University Press. — already in bibliography per real-options framing + Insight #47.
 - Stiglitz, Joseph E. 2000. *Economics of the Public Sector*, 3rd ed. New York: W.W. Norton. — likely already in bibliography; if not, add.
 - Stern, Nicholas. 2007. *The Economics of Climate Change: The Stern Review*. Cambridge: Cambridge University Press. — already in bibliography per Externality Tail M12 lineage.
 
@@ -828,7 +828,7 @@ If (a) full ratify:
 7. Open Insights — new Insight # closed-ratified entry capturing Phase 2 #3.3 verdict (number TBD).
 8. Chapter 9 title: per Enhancement 2 (Option B recommended — keep "The Renewable Imperative" as chapter title).
 
-**Same open question as Insights #35 + #38 + #40 + #41 + #42 + #43 + #44 + #45 + Phase 2 #8 + Phase 2 #3.2 [E.3] Tech Appendix HTML edit timing:** apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild. **Recommended:** unified batch into v2.0.0 rebuild.
+**Same open question as Insights #35 + #38 + #40 + #47 + #48 + #49 + #50 + #51 + Phase 2 #8 + Phase 2 #3.2 [E.3] Tech Appendix HTML edit timing:** apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild. **Recommended:** unified batch into v2.0.0 rebuild.
 
 ### §16.6 Pre-publication external review (Insight #39)
 
@@ -853,7 +853,7 @@ This rigor pass does NOT replace external review.
 
 5. **Cross-coordination with sibling E.1 + E.3 sessions.** E.1 audit in progress (sibling session); E.3 [PROPOSED] (this worktree). E.5's restructure may produce premise-enumeration patterns parallel to E.3's; combined ratification at Phase 3 v2.0.0 rebuild time recommended.
 
-6. **Phase 2 theorem-audit aggregate observation.** With E.4 RATIFIED (Insight #40), E.2 RATIFIED (Insight #45), E.3 [PROPOSED], and E.5 [PROPOSED] (this pass), four of five theorems audited at depth (E.1 still in sibling session). Pattern across audits:
+6. **Phase 2 theorem-audit aggregate observation.** With E.4 RATIFIED (Insight #40), E.2 RATIFIED (Insight #51), E.3 [PROPOSED], and E.5 [PROPOSED] (this pass), four of five theorems audited at depth (E.1 still in sibling session). Pattern across audits:
    - E.4 = formalization gaps; resolution = restructure premises + Lebesgue invocation.
    - E.2 = categorization; resolution = relabel as empirical observation.
    - E.3 = circular proof; resolution = substantive derivation + CIT-as-corollary reframing.
@@ -871,17 +871,17 @@ This rigor pass does NOT replace external review.
 
 - [Phase 1 full framework audit §10 #8](commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md) — flagged Renewable Imperative for Phase 2 academic-rigor proof-structure audit.
 - [Phase 2 Theorem E.4 Integral Convergence rigor pass §16.3](commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e4_integral_convergence_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #40); methodology template; sequencing recommendation; over-specified-scope flag for E.5.
-- [Phase 2 #3.4 [E.2] Theorem E.2 categorization audit](commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e2_categorization_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #45); methodology-precedent.
+- [Phase 2 #3.4 [E.2] Theorem E.2 categorization audit](commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e2_categorization_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #51); methodology-precedent.
 - [Phase 2 #3.2 [E.3] Theorem E.3 Abundance Masking circular-proof audit](commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e3_circular_proof_v1.0.0.md) — [PROPOSED] 2026-04-29; sibling theorem-audit; methodology-precedent for premise enumeration + theorem-corollary-relationship reframing.
 - [Phase 2 Foreclosure Bond housing-crisis collision](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_foreclosure_bond_housing_crisis_collision_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #38); vocabulary-political-collision audit pattern.
 - [Phase 2 Cost Severance + Severed Cost Tier 2d](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_cost_severance_severed_cost_tier2d_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #35); cross-political-tradition robustness pattern.
-- This session's reverse-priority Phase 2 sweep (P2#8 [Q(t)] + P2#7 + P2#6 + P2#5 + P2#4) — RATIFIED Insights #41 + #42 + #43 + #44 + P2#8 [PROPOSED].
+- This session's reverse-priority Phase 2 sweep (P2#8 [Q(t)] + P2#7 + P2#6 + P2#5 + P2#4) — RATIFIED Insights #47 + #48 + #49 + #50 + P2#8 [PROPOSED].
 
 ### §18.2 Sibling Phase 2 candidates (concurrent + remaining)
 
 - **Phase 2 #3.1 Theorem E.1 Structural Cost Severance** — sibling session in progress 2026-04-29 (~3+ hours in at this pass start; framework-central theorem; ~800-1000 lines estimated).
 - **Phase 2 #3.2 [E.3] Theorem E.3 Abundance Masking** — [PROPOSED] 2026-04-29 (this session, prior).
-- **Phase 2 #3.4 [E.2] Theorem E.2** — RATIFIED 2026-04-29 (Insight #45).
+- **Phase 2 #3.4 [E.2] Theorem E.2** — RATIFIED 2026-04-29 (Insight #51).
 - **P2#8 [Q(t)] RCV integrand notation** — [PROPOSED] sibling Phase 2 audit (this session).
 
 ### §18.3 Downstream artifacts (this pass would update on ratification)
@@ -903,7 +903,7 @@ For E.5 specifically: multi-perspective external review (welfare-economist + pol
 
 Four of five theorems audited at depth in this session + sibling session:
 - E.4 (Insight #40 RATIFIED): formalization-gaps audit.
-- E.2 (Insight #45 RATIFIED): categorization audit.
+- E.2 (Insight #51 RATIFIED): categorization audit.
 - E.3 ([PROPOSED]): circular-proof audit.
 - E.5 ([PROPOSED] this pass): dual-scope audit (vocabulary + proof-structure).
 - E.1 (sibling session in progress): TBD.

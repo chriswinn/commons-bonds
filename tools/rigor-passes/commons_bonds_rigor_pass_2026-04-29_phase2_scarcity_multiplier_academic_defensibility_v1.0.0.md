@@ -6,7 +6,7 @@
 
 **Scope:** Phase 2 academic-rigor depth audit on the **scarcity_multiplier(σ) = 1 + log(1 + σ) × Hotelling_anchor** functional form as it appears in Method 3 (Scarcity-Adjusted Option Value) at Tech Appendix v1.0.0 §10 line 866 and Method 3 sensitivity analysis 2026-04-25 §2.1. Phase 1 §7.10 flagged: *"M11 probes: log-form choice — why log(1 + σ) specifically? academic-rigor expects either functional-form derivation OR empirical calibration justification. Phase 2 audit recommended."*
 
-**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify all three enhancements + one structural correction.** Tech Appendix HTML edit timing (apply restructure to v1.0.0 now vs batch into Phase 3 v2.0.0 rebuild) — pending author choice on §15 Q6 (same open question as Insights #35 + #38 + #40 + Phase 2 #8). Insight #41 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify all three enhancements + one structural correction.** Tech Appendix HTML edit timing (apply restructure to v1.0.0 now vs batch into Phase 3 v2.0.0 rebuild) — pending author choice on §15 Q6 (same open question as Insights #35 + #38 + #40 + Phase 2 #8). Insight #47 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
 
 **Author:** Chris Winn
 

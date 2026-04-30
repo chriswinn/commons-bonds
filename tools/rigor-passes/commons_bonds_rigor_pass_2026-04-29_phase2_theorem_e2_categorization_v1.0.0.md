@@ -4,11 +4,11 @@
 **Date:** 2026-04-29
 **Protocol applied:** `tools/commons_bonds_rigor_protocol_v2.3.0.md` — academic-rigor depth audit per author direction 2026-04-29: *"the math formulas and proofs have to stand up to academic rigor or I don't have a book."* Tests applied: premise enumeration; logical derivation (does the proof sketch actually derive convergence?); edge case analysis; collision check against established multi-method-convergence + meta-analysis + diversity-of-models literature; citation discipline; falsifiability; domain of applicability; counterexample resistance; **categorization decision** (theorem vs empirical observation vs formal robustness theorem).
 
-**Author direction triggering this pass (2026-04-29 by Chris Winn):** *"Would it be possible for you to work on the other P2#3 items outside of P2#3.1 that is currently still running... Like e.g. 'Theorem E.2 Convergence of Independent Models'"* — sibling theorem-rigor session is running E.1 audit (~3 hours in at time of this pass start); reverse-priority Phase 2 sweep complete (Insights #41 + #42 + #43 + #44 ratified; P2#8 [Q(t)] [PROPOSED]); E.2 picked as parallel work because lightest of remaining theorems per E.4 rigor pass §16.3 estimate (~400-600 lines depending on Option A vs B).
+**Author direction triggering this pass (2026-04-29 by Chris Winn):** *"Would it be possible for you to work on the other P2#3 items outside of P2#3.1 that is currently still running... Like e.g. 'Theorem E.2 Convergence of Independent Models'"* — sibling theorem-rigor session is running E.1 audit (~3 hours in at time of this pass start); reverse-priority Phase 2 sweep complete (Insights #47 + #48 + #49 + #50 ratified; P2#8 [Q(t)] [PROPOSED]); E.2 picked as parallel work because lightest of remaining theorems per E.4 rigor pass §16.3 estimate (~400-600 lines depending on Option A vs B).
 
 **Scope:** Phase 2 academic-rigor depth audit on **Theorem E.2 (Convergence of Independent Models)** as stated at [Tech Appendix v1.0.0 §10 lines 3261-3267](core/technical-appendix/TechnicalAppendix_v1.0.0.html). The audit's load-bearing decision per E.4 rigor pass §16.3: **categorization** — Option A (relabel as empirical observation) vs Option B (restructure as formal robustness theorem).
 
-**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify Option A (relabel as Empirical Observation E.2 (Cross-Model Convergence))** with three concrete repair enhancements per §14. Tech Appendix HTML edit timing pending author choice on §16 Q7 (same open question as Insights #35 + #38 + #40 + #41 + #42 + #43 + #44). Insight #45 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify Option A (relabel as Empirical Observation E.2 (Cross-Model Convergence))** with three concrete repair enhancements per §14. Tech Appendix HTML edit timing pending author choice on §16 Q7 (same open question as Insights #35 + #38 + #40 + #47 + #48 + #49 + #50). Insight #51 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
 
 **Author:** Chris Winn
 
@@ -523,7 +523,7 @@ Existing references to "Theorem E.2" / "Convergence Theorem (E.2)" / "the Conver
 Recommended cross-reference cleanup: replace "Theorem" with "Empirical Observation" in references; preserve "(E.2)" numbering. E.g.:
 - Line 3234: *"consistent with the Cross-Model Convergence Empirical Observation (E.2)"* OR *"consistent with E.2 (Cross-Model Convergence)"*.
 
-This is a sweep-style edit; can be batched with Tech Appendix HTML edit timing per the shared open question across Insights #35 + #38 + #40 + #41 + #42 + #43 + #44 + Phase 2 #8.
+This is a sweep-style edit; can be batched with Tech Appendix HTML edit timing per the shared open question across Insights #35 + #38 + #40 + #47 + #48 + #49 + #50 + Phase 2 #8.
 
 ---
 
@@ -583,7 +583,7 @@ If (a) full ratify Option A:
 6. terms_index — append Phase 2 verdict entry; cross-reference to this rigor pass.
 7. Open Insights — new Insight # closed-ratified entry capturing Phase 2 #3.4 verdict (number TBD; coordinate with sibling theorem-rigor passes).
 
-**Same open question as Insights #35 + #38 + #40 + #41 + #42 + #43 + #44 + Phase 2 #8 Tech Appendix HTML edit timing:** apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild. **Recommended:** unified batch into v2.0.0 rebuild.
+**Same open question as Insights #35 + #38 + #40 + #47 + #48 + #49 + #50 + Phase 2 #8 Tech Appendix HTML edit timing:** apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild. **Recommended:** unified batch into v2.0.0 rebuild.
 
 ### §15.6 Pre-publication external review (Insight #39)
 
@@ -609,7 +609,7 @@ This rigor pass produces Claude's assessment of E.2 categorization. Per Insight 
 
 6. **Failure-mode acknowledgment depth.** §14.1 lists 3 failure modes (shared bias; small sample; case selection). Adequate scope, or should the framework be more specific about which framework-elements could produce shared bias (e.g., explicit Weitzman discount-rate cross-dependency)?
 
-7. **Tech Appendix HTML edit timing.** Same open question as Insights #35 + #38 + #40 + #41 + #42 + #43 + #44 + Phase 2 #8: apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild?
+7. **Tech Appendix HTML edit timing.** Same open question as Insights #35 + #38 + #40 + #47 + #48 + #49 + #50 + Phase 2 #8: apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild?
 
 8. **Coordination with E.1 sibling session.** Sibling theorem-rigor session is auditing E.1 (~3 hours in at this pass start). E.1's audit will likely produce restructure recommendations comparable to E.4's Insight #40. Should E.2's relabel be ratified before or after E.1's restructure to maintain coordinated theorem-set framing? **Recommended:** ratify independently; the categorization decision (Option A) doesn't depend on E.1's audit outcome.
 
@@ -623,7 +623,7 @@ This rigor pass produces Claude's assessment of E.2 categorization. Per Insight 
 - [Three Ways + RCV Formal Model rigor pass 2026-04-24](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_three_ways_rcv_formal_model_v1.0.0.md) — RATIFIED 2026-04-24 commit `1c8e4dd`; cross-model architecture (Damage Function + Real Options + RCV) ratified.
 - [Phase 2 Foreclosure Bond housing-crisis collision](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_foreclosure_bond_housing_crisis_collision_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #38); methodology template.
 - [Phase 2 Cost Severance + Severed Cost Tier 2d](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_cost_severance_severed_cost_tier2d_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #35); methodology template.
-- This session's reverse-priority Phase 2 sweep (P2#8 [Q(t)] [PROPOSED] + P2#7 [scarcity-multiplier] RATIFIED #41 + P2#6 [TWoC-adoption] RATIFIED #42 + P2#5 [ExtTail-collision] RATIFIED #43 + P2#4 [RCV-acronym] RATIFIED #44).
+- This session's reverse-priority Phase 2 sweep (P2#8 [Q(t)] [PROPOSED] + P2#7 [scarcity-multiplier] RATIFIED #47 + P2#6 [TWoC-adoption] RATIFIED #48 + P2#5 [ExtTail-collision] RATIFIED #49 + P2#4 [RCV-acronym] RATIFIED #50).
 
 ### §17.2 Sibling Phase 2 candidates (concurrent + remaining)
 

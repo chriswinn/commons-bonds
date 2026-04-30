@@ -6,7 +6,7 @@
 
 **Scope:** Phase 2 academic-rigor depth audit on the **"RCV"** acronym for Residual Commons Value as it appears across the framework. Phase 1 §5.5 + §10 #2 flagged: *"RCV acronym collision audit (RCV used in radio common variable, recreational vehicle, risk capital value contexts)."* This audit identifies the actual real-world collisions, assesses misread risk per audience tier, and recommends disambiguation discipline.
 
-**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify all three disambiguation enhancements,** with §15 Q5 Ranked-Choice Voting reorder applied (RCV-as-Ranked-Choice-Voting moves to first in disambiguation note given rising-salience trajectory). Tech Appendix HTML edit timing pending author choice on §15 Q6 (same open question as Insights #35 + #38 + #40 + #41 + #42 + #43). Insight #44 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify all three disambiguation enhancements,** with §15 Q5 Ranked-Choice Voting reorder applied (RCV-as-Ranked-Choice-Voting moves to first in disambiguation note given rising-salience trajectory). Tech Appendix HTML edit timing pending author choice on §15 Q6 (same open question as Insights #35 + #38 + #40 + #47 + #48 + #49). Insight #50 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
 
 **Author:** Chris Winn
 
@@ -165,7 +165,7 @@ This audit produces:
 
 ### §2.3 Pass/fail gate framing
 
-Per author direction 2026-04-29: pass/fail gate on academic rigor for vocabulary including acronym-collision concerns. This audit applies the same standard to "RCV" that prior audits applied to other Ring-1 / Ring-2 collision concerns (Foreclosure Bond housing-crisis collision per Insight #38; Cost Severance + Severed Cost Tier 2d concern per Insight #35; Q(t) notation collision per Phase 2 #8; Externality Tail statistics-distribution-tail collision per Insight #43).
+Per author direction 2026-04-29: pass/fail gate on academic rigor for vocabulary including acronym-collision concerns. This audit applies the same standard to "RCV" that prior audits applied to other Ring-1 / Ring-2 collision concerns (Foreclosure Bond housing-crisis collision per Insight #38; Cost Severance + Severed Cost Tier 2d concern per Insight #35; Q(t) notation collision per Phase 2 #8; Externality Tail statistics-distribution-tail collision per Insight #49).
 
 ### §2.4 What this pass does NOT cover
 
@@ -483,9 +483,9 @@ None at counterexample-resistance level. The math + definitional discipline forc
 Across the five Phase 2 audits in this session's reverse-priority sweep:
 
 - **P2#8 [Q(t)] notation-clarity:** PASS conditional on three notation-discipline enhancements; rename Q(t) → X(t) considered + rejected.
-- **P2#7 [scarcity-multiplier] academic-defensibility:** RATIFIED Insight #41 with three enhancements + one structural correction; rename / functional-form-change considered + rejected.
-- **P2#6 [TWoC-adoption] post-rename adoption-fit:** RATIFIED Insight #42 with one 2-line section-title fix.
-- **P2#5 [ExtTail-collision] statistics-distribution-tail collision:** RATIFIED Insight #43 with two disambiguation enhancements; rename considered + rejected.
+- **P2#7 [scarcity-multiplier] academic-defensibility:** RATIFIED Insight #47 with three enhancements + one structural correction; rename / functional-form-change considered + rejected.
+- **P2#6 [TWoC-adoption] post-rename adoption-fit:** RATIFIED Insight #48 with one 2-line section-title fix.
+- **P2#5 [ExtTail-collision] statistics-distribution-tail collision:** RATIFIED Insight #49 with two disambiguation enhancements; rename considered + rejected.
 - **P2#4 [RCV-acronym] acronym-collision (this audit):** PASS conditional on three disambiguation enhancements; rename foreclosed by 2026-04-24 individual rigor pass.
 
 **Pattern:** Each audit identifies real collision-risk concerns + recommends disambiguation discipline within existing terminology. The framework's vocabulary has been validated as substantively-correct at multiple levels (Phase 1 screening + 2026-04-24 individual rigor passes); Phase 2 sweep adds the academic-publication scaffolding (disambiguation notes + citations + cross-references) that brings the vocabulary to top-tier-journal readiness without rename.
@@ -588,7 +588,7 @@ If (a) full ratify:
 5. terms_index — append Phase 2 verdict entry; cross-reference to this rigor pass.
 6. Open Insights — new Insight # closed-ratified entry capturing Phase 2 #4 verdict (number TBD; coordinate with sibling Phase 2 + theorem-rigor passes).
 
-**Same open question as Insights #35 + #38 + #40 + #41 + #42 + #43 + Phase 2 #8 Tech Appendix HTML edit timing:** apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild. **Recommended:** batch all Phase 2 Tech Appendix changes into Phase 3 v2.0.0 rebuild as single coordinated update.
+**Same open question as Insights #35 + #38 + #40 + #47 + #48 + #49 + Phase 2 #8 Tech Appendix HTML edit timing:** apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild. **Recommended:** batch all Phase 2 Tech Appendix changes into Phase 3 v2.0.0 rebuild as single coordinated update.
 
 ### §14.6 Pre-publication external review (Insight #39)
 
@@ -609,13 +609,13 @@ This rigor pass does NOT replace external review; it produces the substrate that
 
 3. **First-introduction discipline placement.** Enhancement 2 currently codifies in terms_index RCV entry. Alternative: create a new Working Principle (#10?) to track alongside vocabulary-parsimony Principle #1 + retirement-trace Principle #8 + publisher-facing-scrubbed Principle #8. Trade-off: terms_index placement is local; new Working Principle elevates to framework-discipline level. Recommended: keep at terms_index entry initially; promote to Working Principle if first-introduction discipline becomes load-bearing across multiple framework artifacts.
 
-4. **Tech Appendix Definition A.6 placement.** Enhancement 1 (b) currently adds parenthetical after "RCV pairs with the Accountability Bond (B)" sentence at line 467. Alternative: dedicated "Notational disambiguation" subsection in Tech Appendix §B (parallel to potential parallel addition for Externality Tail per Phase 2 #5 Insight #43). Trade-off: parenthetical is minimal-cost; dedicated subsection is more visible.
+4. **Tech Appendix Definition A.6 placement.** Enhancement 1 (b) currently adds parenthetical after "RCV pairs with the Accountability Bond (B)" sentence at line 467. Alternative: dedicated "Notational disambiguation" subsection in Tech Appendix §B (parallel to potential parallel addition for Externality Tail per Phase 2 #5 Insight #49). Trade-off: parenthetical is minimal-cost; dedicated subsection is more visible.
 
 5. **Voting RCV (Ranked-Choice Voting) salience trajectory.** This collision is increasing in salience through 2024+; framework's planned publication window (2026-08-17 Berggruen submission + later book publication) may see it become primary among the three real-world RCV-collisions. Recommended: prioritize Ranked-Choice Voting in disambiguation note (currently listed third); reorder to first if author concurs.
 
-6. **Tech Appendix HTML edit timing.** Same open question as Insights #35 + #38 + #40 + #41 + #42 + #43 + Phase 2 #8: apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild?
+6. **Tech Appendix HTML edit timing.** Same open question as Insights #35 + #38 + #40 + #47 + #48 + #49 + Phase 2 #8: apply now to v1.0.0 vs batch into Phase 3 v2.0.0 rebuild?
 
-7. **Phase 2 reverse-priority sweep complete.** This is the final audit (P2#4) in the session's reverse-priority Phase 2 sweep (P2#8 → P2#7 → P2#6 → P2#5 → P2#4). Three audits ratified (Insights #41 + #42 + #43); two pending ratification (P2#8 + P2#4). Recommend session-handoff capture of the cross-audit pattern observation at §12 above.
+7. **Phase 2 reverse-priority sweep complete.** This is the final audit (P2#4) in the session's reverse-priority Phase 2 sweep (P2#8 → P2#7 → P2#6 → P2#5 → P2#4). Three audits ratified (Insights #47 + #48 + #49); two pending ratification (P2#8 + P2#4). Recommend session-handoff capture of the cross-audit pattern observation at §12 above.
 
 ---
 
@@ -627,9 +627,9 @@ This rigor pass does NOT replace external review; it produces the substrate that
 - [RCV individual rigor pass 2026-04-24](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_rcv_v1.0.0.md) — RATIFIED 2026-04-24 §17 Option A unconditional PASS (~730 uses across 34 files); rename foreclosed for this audit.
 - [Phase 2 Theorem E.4 Integral Convergence](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e4_integral_convergence_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #40); RCV integral form preserved in restructured E.4; this audit's enhancements are non-disruptive to E.4 proof structure.
 - [P2#8 RCV integrand Q(t) notation-clarity](commons_bonds_rigor_pass_2026-04-29_phase2_rcv_integrand_q_notation_clarity_v1.0.0.md) — [PROPOSED] sibling addressing Q(t) notation collision.
-- [P2#7 Scarcity multiplier formula academic-defensibility](commons_bonds_rigor_pass_2026-04-29_phase2_scarcity_multiplier_academic_defensibility_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #41).
-- [P2#6 Three Ways of Counting post-rename adoption-fit](commons_bonds_rigor_pass_2026-04-29_phase2_three_ways_of_counting_adoption_fit_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #42).
-- [P2#5 Externality Tail statistics-distribution-tail collision](commons_bonds_rigor_pass_2026-04-29_phase2_externality_tail_statistics_collision_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #43); methodology-precedent for vocabulary-collision audit.
+- [P2#7 Scarcity multiplier formula academic-defensibility](commons_bonds_rigor_pass_2026-04-29_phase2_scarcity_multiplier_academic_defensibility_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #47).
+- [P2#6 Three Ways of Counting post-rename adoption-fit](commons_bonds_rigor_pass_2026-04-29_phase2_three_ways_of_counting_adoption_fit_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #48).
+- [P2#5 Externality Tail statistics-distribution-tail collision](commons_bonds_rigor_pass_2026-04-29_phase2_externality_tail_statistics_collision_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #49); methodology-precedent for vocabulary-collision audit.
 - [Phase 2 Foreclosure Bond housing-crisis collision](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_foreclosure_bond_housing_crisis_collision_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #38); methodology template — collision-disambiguation pattern.
 - [Phase 2 Cost Severance + Severed Cost Tier 2d](tools/rigor-passes/commons_bonds_rigor_pass_2026-04-29_phase2_cost_severance_severed_cost_tier2d_v1.0.0.md) — RATIFIED 2026-04-29 (Insight #35); methodology template.
 - [Vocabulary strategy v1.0.1 §2 + §8 multi-audience matrix](alignment/commons_bonds_vocabulary_strategy_v1.0.1.md) — Tier-by-tier collision-exposure discipline applied here.
@@ -660,9 +660,9 @@ This audit (P2#4 [RCV-acronym]) is the final audit in the session's reverse-prio
 | P2# | Tag | Status | Insight # | Verdict |
 |---|---|---|---|---|
 | P2#8 | [Q(t)] | [PROPOSED] | TBD | PASS conditional on three notation-discipline enhancements |
-| P2#7 | [scarcity-multiplier] | RATIFIED | #41 | Full ratify three enhancements + structural correction |
-| P2#6 | [TWoC-adoption] | RATIFIED | #42 | Full ratify single 2-line section-title fix |
-| P2#5 | [ExtTail-collision] | RATIFIED | #43 | Full ratify two disambiguation enhancements |
+| P2#7 | [scarcity-multiplier] | RATIFIED | #47 | Full ratify three enhancements + structural correction |
+| P2#6 | [TWoC-adoption] | RATIFIED | #48 | Full ratify single 2-line section-title fix |
+| P2#5 | [ExtTail-collision] | RATIFIED | #49 | Full ratify two disambiguation enhancements |
 | P2#4 | [RCV-acronym] | [PROPOSED] | TBD | PASS conditional on three disambiguation enhancements |
 
 Aggregate session output: 5 Phase 2 deeper-dive rigor passes covering 5 distinct framework concerns; 3 ratified; 2 pending. Combined Tech Appendix v1.0.0 edits across all five audits + theorem session (Insights #40 + future E.1/E.3/E.5/Renewable Imperative ratifications) recommend batch-application during Phase 3 Tech Appendix v2.0.0 rebuild as coordinated framework-rigor-discipline upgrade.
