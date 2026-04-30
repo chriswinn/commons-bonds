@@ -15,6 +15,25 @@ Each entry links to the canonical rigor pass that ratified the retirement; that 
 
 ---
 
+## §0. Archive structure convention (Insight #62 ratified 2026-04-30)
+
+The project uses a **hybrid archive structure**:
+
+- **Top-level [`archive/`](../) — cross-domain retirement material + multi-book seed:**
+  - `archive/retirements/index.md` (this file) — single canonical retirement-trace index per refined WP#4
+  - `archive/decomposition/` — retired methodologies surfaced from any domain (e.g. 8-tier decomposition)
+  - `archive/_OneDayMaybe/` — Book 2 / Book 3 / satellite-essay seed material
+- **Per-domain `<domain>/archive/` — domain-specific historical predecessors kept adjacent to live work:**
+  - [`core/technical-appendix/archive/`](../../core/technical-appendix/archive/) — superseded TA versions + supplements
+  - [`manuscript/chapters/archive/`](../../manuscript/chapters/archive/) — Ch 6 supplementary drafts pending integration
+  - [`tools/archive/`](../../tools/archive/) — superseded methodology versions
+
+**Single search location for retirement provenance:** this index (§§1–3 below). Per-domain archives are *file predecessors*, not retirement records.
+
+**Verdict (c) ratified per Insight #62:** the cross-domain audit-trail need is solved by this canonical index; per-domain archives encode origin context next to live work, which Working Principle #10's "internal scaffolding can be rich" license endorses. Full consolidation (option (a)) was rejected for low marginal navigability gain vs. ~10–20 path-update cost + loss of domain-context proximity.
+
+---
+
 ## §1. Vocabulary retirements
 
 | Date | Original term | Replacement / disposition | Insight # | Rigor pass |
@@ -114,7 +133,8 @@ Each retirement event's full audit trail is in the ratifying rigor pass (cited i
 | Version | Date | Changes |
 |---|---|---|
 | v1.0 | 2026-04-30 | Initial creation per Insight #59 (Working Principle #4 refinement); populated with 16 vocabulary retirements + 2 methodology retirements + 3 file retirements. |
+| v1.1 | 2026-04-30 | §0 archive structure convention added per Insight #62 verdict (c) — hybrid (top-level cross-domain + per-domain predecessors) ratified as canonical pattern. |
 
 ---
 
-**End of Retirement Archive Index v1.0.**
+**End of Retirement Archive Index v1.1.**

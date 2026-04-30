@@ -1166,61 +1166,53 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
-### Insight #62 — Archive folder consolidation — OPEN
+### Insight #62 — Archive folder consolidation — CLOSED-RATIFIED 2026-04-30
 
 - **Raised:** 2026-04-30 by author direction during Insight #60 scaffolding cleanup pass: *"we have a few archive folders floating around the project now, we can probably consolidate all of those to one main folder now."*
-- **Status:** **OPEN; pending decision (consolidation strategy + execution timing).**
+- **Status:** **closed-ratified 2026-04-30 (Chris Winn) — verdict (c) hybrid as canonical pattern.** Top-level `archive/` for cross-domain retirement material (retirements index, retired methodologies, multi-book seed); per-domain `<domain>/archive/` for domain-specific historical predecessors kept adjacent to live work. Convention documented in [`archive/retirements/index.md`](../archive/retirements/index.md) §0 + [`AGENTS.md`](../AGENTS.md) "Archive convention" section.
 - **Category:** project-hygiene · archive-discipline · directory-structure
-- **Content:** The project currently has 4+ archive locations:
-  - `archive/` (top-level) — contains `_OneDayMaybe/` + `decomposition/` (post-Insight #55) + `retirements/` (per Insight #59)
-  - `core/technical-appendix/archive/` — contains `TechnicalAppendix_v0.0.3.html` + `TechnicalAppendix_v0.0.5_supplement.md`
-  - `manuscript/chapters/archive/` — contains `Chapter__6___SupplementaryDrafts_2026-04-24.md`
-  - `tools/archive/` — contains retired rigor protocols + old layer-tier-stress-test
-  
-  Consolidate to single canonical archive directory (likely `archive/` top-level with subdirectories preserving origin context).
-- **Decision questions:**
-  - **(a) Consolidate now to `archive/{technical-appendix,manuscript-chapters,tools}/`** — clean single-archive structure; requires ~10-20 path updates across files referencing current archive locations.
-  - **(b) Leave per-domain archives** — current state; clean within each domain context but multiple archive locations.
-  - **(c) Hybrid: top-level `archive/` for cross-domain retirements (already doing this with `archive/decomposition/` + `archive/retirements/`) + per-domain archives for domain-specific historical** — current state actually approximates this.
-- **Trade-offs:**
-  - Consolidation pro: single search location; aligned with retirement-archive-index pattern (Insight #59); cleaner active directory listings (no archive subfolders interrupting domain navigation).
-  - Consolidation con: path updates across files; loses per-domain context (origin domain encoded in subfolder name); breaks any external bookmarks to current archive paths.
-- **Implementation pending (when authorized):**
-  - Path-update sweep across all references to current archive paths
-  - `git mv` operations to consolidate
-  - README.md + tools/README.md update with new archive structure
-  - Update Routine 1 + 2 exclusion patterns
-  - Add to retirement-archive index
-- **Dependencies / Links:** Insight #55 (Notation collision audit + hygiene pass; established `archive/decomposition/` pattern); Insight #59 (Working Principle #4 refinement; established `archive/retirements/` pattern); Insight #60 (scaffolding cleanup pass; this insight surfaced during that work); Insight #61 (README maintenance; cross-related — README would need updating with new archive structure).
+- **Content:** The project had 4+ archive locations:
+  - `archive/` (top-level) — `_OneDayMaybe/` + `decomposition/` (post-Insight #55) + `retirements/` (per Insight #59)
+  - `core/technical-appendix/archive/` — superseded TA versions + supplements
+  - `manuscript/chapters/archive/` — Ch 6 supplementary drafts
+  - `tools/archive/` — retired rigor protocols + old layer-tier-stress-test
+- **Decision questions tested:**
+  - **(a) Consolidate now to `archive/{technical-appendix,manuscript-chapters,tools}/`** — REJECTED. Low marginal navigability gain vs. ~10-20 path-update cost across rigor passes + scaffolding cross-references; would have lost domain-context proximity (origin domain encoded by subfolder adjacency to live work); would have broken external bookmarks for marginal benefit.
+  - **(b) Leave per-domain archives** — REJECTED. No documented convention; status quo without ratification.
+  - **(c) Hybrid: top-level `archive/` for cross-domain + per-domain archives for domain-specific historical** — **SELECTED.** Existing layout already approximated this; ratifying the convention locks the pattern. Reinforced by Working Principle #10 (NEW 2026-04-30) which explicitly licenses rich internal-scaffolding structure; per-domain archives align with internal-scaffolding richness discipline.
+- **Why (c):**
+  1. Zero migration cost; convention is documented rather than executed.
+  2. Origin context preserved — file in `manuscript/chapters/archive/` is obviously a chapter-draft predecessor; flattened to `archive/manuscript-chapters/` it loses adjacency to live chapter directory.
+  3. Cross-domain audit-trail need already solved by canonical retirement-archive index (refined WP#4); no centralization gap to fill.
+  4. WP#10 "internal scaffolding can be rich" license endorses domain-proximity structure as design pattern, not navigability accident.
+- **Implementation applied 2026-04-30 (this commit):**
+  1. **`archive/retirements/index.md` §0 added** — archive structure convention documented as canonical pattern; v1.0 → v1.1 version bump.
+  2. **`AGENTS.md` "Archive convention" section** — same convention surfaced for AI collaborator + author orientation; rationale referenced.
+  3. **No file moves performed** — (c) is convention-only; existing file locations are now ratified-canonical.
+- **Implementation NOT pending** — (c) verdict is convention-ratification, not execution. No further work required unless (a) is reconsidered later.
+- **Dependencies / Links:** Insight #55 (notation collision audit + hygiene pass; established `archive/decomposition/` pattern); Insight #59 (Working Principle #4 refinement; established `archive/retirements/` pattern); Insight #60 (scaffolding cleanup pass; this insight surfaced during that work); Insight #61 (README maintenance; co-ratified this commit per Thread γ); Working Principle #10 (NEW 2026-04-30; reinforces verdict (c)); [`archive/retirements/index.md`](../archive/retirements/index.md) §0 (canonical convention text); [`AGENTS.md`](../AGENTS.md) (internal-orientation document carrying same convention).
 
 ---
 
-### Insight #61 — README.md comprehensive update — OPEN
+### Insight #61 — README.md comprehensive update — CLOSED-RATIFIED 2026-04-30
 
 - **Raised:** 2026-04-30 by author direction during Insight #60 scaffolding cleanup pass: *"Probably makes sense to update the README.md file in the root directory soon, let's add that to a to do list."*
-- **Status:** **OPEN; queued for soon (next session candidate).**
-- **Category:** project-hygiene · README-maintenance · publisher-prep
-- **Content:** Root README.md needs comprehensive update to reflect current project state. Partial update applied 2026-04-30 per Insight #60 (Tech Appendix v1.0.0 entry; Glossary v3 entry). Remaining work:
-  - **Top-level project status** — current canonical state across all framework artifacts (where the project IS now)
-  - **Recent ratifications integration** — Insights #35-#42 + #47-#59 ratifications visible in README's "current canonical" claims
-  - **Phase 3 + Phase 4 rebuild status** — clearly indicated as queued work
-  - **Pre-publication external review (Insight #39)** — visible in README as downstream gate
-  - **Working Principles + Vocabulary Strategy v1.0.1** — current discipline state visible
-  - **Routines 1 + 2** — automated sentinel discipline visible
-  - **Archive structure** — coordinate with Insight #62 (archive consolidation) if executed
-  - **Pending work prioritization** — clear "what's next" surface for author + collaborators
-- **Why this matters:**
-  - First-time readers (publisher; agent; external reviewer) start at README; current state must be accurate
-  - Phase 3 + Phase 4 rebuilds reference README as orientation
-  - Pre-publication external review reads README as project orientation
-- **Implementation pending (when authorized):**
-  - Comprehensive sweep through README sections
-  - Update all "v0.0.x canonical" references
-  - Update Routine + Working Principle + Vocabulary Strategy references
-  - Cross-reference retirement-archive index per refined WP#4 (Insight #59)
-  - Coordinate with Insight #62 (archive consolidation) if executed concurrently
-- **Estimated scope:** ~1-2 hours for comprehensive sweep + edit
-- **Dependencies / Links:** Insight #60 (scaffolding cleanup; partial README updates applied); Insight #62 (archive consolidation; coordinate if executed concurrently); Insight #59 (refined WP#4; README cross-references retirement-archive index); all Phase 2 + Group 1 ratifications (current canonical state to reflect).
+- **Status:** **closed-ratified 2026-04-30 (Chris Winn) — verdict (R2): split publisher-facing landing page from internal-scaffolding orientation per Working Principle #10.** README rescoped as slim publisher-facing landing page; new [`AGENTS.md`](../AGENTS.md) holds the rich internal-scaffolding orientation (canonical-state table, repository structure, working discipline, routines, retirement archive references, queued work, session workflow, operating rules, internal-vocabulary key concepts).
+- **Category:** project-hygiene · README-maintenance · publisher-prep · WP#10-application
+- **Content (mid-resolution reframe):** Initial sweep landed comprehensive README updates per the original Insight body. WP#10 ratified mid-Thread-γ (α-thread parallel ratification 2026-04-30) reclassified README as publisher-facing layer; original sweep was identified as scaffolding-voice contamination (insight numbers; WP numbers; routine sentinels; phase labels; operating rules; session workflow). Author selected verdict (R2) — split now rather than scrub-later (which is exactly what Insight #37 captures as the scrubbing-pass cost; WP#10 prevents at origination).
+- **Three response options tested:**
+  - **(R1) Land hybrid sweep as-is, defer split** — REJECTED. Defers WP#10-compliance work; would later require an Insight #37-style scrubbing pass.
+  - **(R2) Re-scope per WP#10 — split publisher-facing README from internal-scaffolding AGENTS.md** — **SELECTED.** Gets the principle right at the start; migration cost is low (most original sweep content moves cleanly to AGENTS.md); aligns Thread γ output with v1.49.0 §3.5 cross-thread discipline addendum.
+  - **(R3) Light-touch scrub of hybrid README** — REJECTED. Compromise that doesn't fully comply with WP#10; would require further passes.
+- **Implementation applied 2026-04-30 (this commit):**
+  1. **`README.md` rescoped** — slim publisher-facing landing page: project description, success criterion, three-book structure, "where to find what" reading orientation, ten dimensions, migration note, pointer to `AGENTS.md` for collaborators. Pattern 2 discipline applied: demonstrates project orientation through pointer-to-content rather than codifying internal state.
+  2. **`AGENTS.md` NEW** — canonical internal-scaffolding orientation document. Contains: current canonical state table (16+ rows), repository structure (full), archive convention (Insight #62), working discipline (10 WPs), WP#10 layer classification, what's queued, session workflow, operating rules, key conceptual foundations.
+  3. **`archive/retirements/index.md` §0 archive convention added** — co-ratified with Insight #62 verdict (c).
+- **Why this matters (post-resolution):**
+  - First-time readers (publisher; agent; external reviewer) get the framework essence + book structure + reading orientation; not internal evolution-tracking.
+  - AI collaborator + author + future-Claude get full canonical-state orientation in `AGENTS.md` without scaffolding-bleed into publisher-facing register.
+  - WP#10 prevents the hybrid-contamination Insight #37 would later have to undo.
+- **Dependencies / Links:** Insight #60 (scaffolding cleanup; partial README updates applied 2026-04-30 commit `47408e1`); Insight #62 (archive consolidation; co-ratified this commit per Thread γ); Insight #59 (refined WP#4; cross-references retirement-archive index); Working Principle #10 (NEW 2026-04-30; ratified during Thread δ; reframed Insight #61 mid-Thread-γ); Working Principle #8 (publisher-facing scrubbing; complementary to WP#10 origination discipline); v1.49.0 §3.5 (cross-thread discipline addendum); all Phase 2 + Group 1 ratifications (current canonical state preserved in `AGENTS.md`).
 
 ---
 
