@@ -1,3 +1,45 @@
+# Chapter 10 — Internal Scaffolding (Drafting Direction + Extracted Annotations)
+
+**Layer:** internal-scaffolding per Working Principle #10 (Two-layer content origination discipline). The corresponding publisher-facing Draft is `Chapter_10_CommonBonds__Draft.md`.
+
+**Consolidated 2026-04-30** by Insight #37 separation pass (Thread β.1) — folds Draft scaffolding (closing author-meta-notes block) into the existing GuidanceDoc.
+
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass.
+
+**Cross-references:**
+- `Chapter_10_CommonBonds__Draft.md` — publisher-facing prose.
+- `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 + WP#8.
+- `alignment/commons_bonds_open_insights_v1.0.0.md` — current open insights + ratification log.
+- `core/terms/terms_index.md` — current canonical vocabulary.
+
+---
+
+## Extracted Draft scaffolding (added 2026-04-30 per Insight #37 separation pass)
+
+*Absorbed from former `Chapter_10_CommonBonds__Draft.md` closing author-meta-notes block — Claude's draft-handoff notes to Chris from the original Ch 10 drafting session.*
+
+### Grandfather-at-Langley passage
+
+Written with the texture of what Chris had told in past conversations, but Chris will know what to keep and what to correct — whether his grandfather was a model maker himself, worked alongside them, which tunnels specifically, and what Chris remembers of the way people spoke about him. That passage is the emotional spine of the "honest measurement" argument; Chris's specific memories there will carry more weight than the placeholders Claude wrote.
+
+### Personal framing in opening and closing
+
+Opening and closing ("I came because I needed a place where the sentence of my life was short...") were kept slightly generalized so Chris can dial vulnerability up or down based on what he wants readers of this chapter to carry. Chapter 1 is where the full personal narrative lives; Chapter 10 echoes rather than re-tells.
+
+### Brief left-critique passage
+
+Written as the full page the original scaffold asked for — kept honest, didn't triangulate, used Chris's exact framing ("state-owned mine that severs costs is still severing costs"). May want to tune it further for tone during revision.
+
+### "First generation / last generation" passage
+
+Sitting exactly where the original scaffold put it: after the honest concession, before the title shift, before the close.
+
+### Word count (at original drafting)
+
+Came in at roughly 6,400 — middle of the 5,000–7,000 target.
+
+*[STALE 2026-04-30 — Ch 10 raw word count is now substantially above 6,400 (per current `wc -w`). Verify current target + count during pre-submission revision.]*
+
 ---
 
 # Commons Bonds

@@ -1,7 +1,20 @@
-# Chapter 8 — Guidance Document (Stub)
+# Chapter 8 — Internal Scaffolding (Drafting Direction; stub-form)
+
+**Layer:** internal-scaffolding per Working Principle #10 (Two-layer content origination discipline). The corresponding publisher-facing Draft is `Chapter__8_WhatThingsActuallyCost_Draft.md`.
+
+**Frontmatter added 2026-04-30** by Insight #37 separation pass (Thread β.1) — Ch 8 Draft prose was already clean (no scaffolding to extract). This GuidanceDoc remains a stub pending the queued full guidance-doc revision sweep.
 
 **Created:** 2026-04-22 per `commons_bonds_housekeeping_review_2026-04-22_v1_0_0.md` §11 item 14.
-**Status:** Stub pending full revision in the queued guidance-doc revision sweep (scheduled post-dimension-rename-cohort).
+
+**Status:** Stub pending full revision in the queued guidance-doc revision sweep.
+
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30 — note specifically that the existing stub references "v1.28.0 dimension-rename" (the dimensions vocabulary itself was retired/reframed; current vocabulary lives in `core/terms/terms_index.md`) and the "8-tier framework" (RETIRED 2026-04-24 per Insight #21 + #63). Sections may also reference AIT (renamed to CIT 2026-04-24); Dynastic Labor Cost (renamed to Lineage Labor Cost 2026-04-30 per Insight #56); FGC (retired); Universality Test (retired); Value Capture (retired in favor of Value Extraction); Spatial Cost Severance + Temporal Cost Severance (reframed). The "Book One Recommendation (Focused)" + "Book Two Material" content below predates Insight #24 (Book 2 references removed from Book 1, ratified 2026-04-27) — verify framing before applying. Per-section staleness audit deferred to future pass.
+
+**Cross-references:**
+- `Chapter__8_WhatThingsActuallyCost_Draft.md` — publisher-facing prose.
+- `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 + WP#8.
+- `alignment/commons_bonds_open_insights_v1.0.0.md` — current open insights + ratification log.
+- `core/terms/terms_index.md` — current canonical vocabulary.
 
 ---
 

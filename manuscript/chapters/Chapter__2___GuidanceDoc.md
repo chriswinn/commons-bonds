@@ -1,3 +1,45 @@
+# Chapter 2 — Internal Scaffolding (Drafting Direction + Extracted Annotations)
+
+**Layer:** internal-scaffolding per Working Principle #10 (Two-layer content origination discipline). This file holds the chapter's drafting direction + extracted scaffolding annotations. The corresponding publisher-facing Draft is `Chapter__2_TheMiner__Draft.md`.
+
+**Consolidated 2026-04-30** by Insight #37 separation pass (Thread β.1) — folds Draft scaffolding annotations into the existing GuidanceDoc rather than maintaining separate internal-scaffolding files per chapter.
+
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass; flag inline as encountered during drafting.
+
+**Cross-references:**
+- `Chapter__2_TheMiner__Draft.md` — publisher-facing prose.
+- `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 (Two-layer content origination discipline); WP#8 (publisher-facing scrubbed of scaffolding).
+- `alignment/commons_bonds_open_insights_v1.0.0.md` — current open insights + ratification log.
+- `core/terms/terms_index.md` — current canonical vocabulary.
+
+---
+
+## Extracted Draft scaffolding (added 2026-04-30 per Insight #37 separation pass)
+
+*Absorbed from former `Chapter__2_TheMiner__Draft.md` "## Draft Notes (for author review)" tail block. Inline `[INTERVIEW NEEDED — ...]` markers in chapter prose remain in the Draft as publisher-facing pending-prose markers (legitimate "TODO before publication" signals, not audit-trail content).*
+
+### INTERVIEW NEEDED slots — 3 total
+
+1. **Opening person** (before first statistic): Former miner, miner's widow, or McDowell County resident who stayed or left. One person with a name and a face. The chapter's emotional anchor.
+2. **The miner's voice** (in counterargument section): Someone proud of the work who can speak to the moment costs became undeniable. Dignity essential — this is not a victim portrait.
+3. **The extraction-side portrait** (end of counterarguments): Mine operator or manager who understood the costs but had no mechanism to price them. Sympathetic. No malice required. The structural argument is stronger when it doesn't need a villain.
+
+### What the Ch 2 Draft does not yet have
+
+- Specific named individuals (by design — see INTERVIEW NEEDED slots above).
+- The IPG number range (33–122x) is referenced but could be amplified once the Chapter 6 math section is finalized.
+- Within-chapter comparison case (guidance suggests contrasting a McDowell County community with slightly better outcomes due to stronger union presence or local advocacy — optional but worth considering).
+
+### What the Ch 2 Draft locks in
+
+- Cost vocabulary introduced: cost severance, severed cost, value extraction.
+- Spatial cost severance established (distance as enabling mechanism). *[STALE 2026-04-30 — Spatial Cost Severance was reframed; verify current vocabulary in `core/terms/terms_index.md` before drafting follow-on chapters that reference this.]*
+- Both counterarguments honored and addressed.
+- Carbon footnote planted for Ch 6 ("We'll return to that").
+- "Common bonds" theme planted in closing paragraphs (miner/waterman connection).
+- Tiers 1, 2a, 3, 5, 6 demonstrated concretely without being named (names land in Ch 6). *[STALE 2026-04-30 — references retired 8-tier scheme; current vocabulary is Cᵢ admission via CIT through Four Gates per Path F. Demonstration intent unchanged; vocabulary needs update during pre-submission revision.]*
+- Register 1 maintained throughout — every number serves a story.
+
 ---
 
 # Commons Bonds

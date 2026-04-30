@@ -212,30 +212,4 @@ The miner and the waterman do not know each other. The mechanism connecting them
 
 ---
 
-*End of Chapter 2 draft.*
-
----
-
-## Draft Notes (for author review)
-
-**[INTERVIEW NEEDED] slots — 3 total:**
-
-1. **Opening person** (before first statistic): Former miner, miner's widow, or McDowell County resident who stayed or left. One person with a name and a face. The chapter's emotional anchor.
-
-2. **The miner's voice** (in counterargument section): Someone proud of the work who can speak to the moment costs became undeniable. Dignity essential — this is not a victim portrait.
-
-3. **The extraction-side portrait** (end of counterarguments): Mine operator or manager who understood the costs but had no mechanism to price them. Sympathetic. No malice required. The structural argument is stronger when it doesn't need a villain.
-
-**What this draft does not yet have:**
-- Specific named individuals (by design — see above)
-- The IPG number range (33–122x) is referenced but could be amplified once the Chapter 6 math section is finalized
-- Within-chapter comparison case (guidance suggests contrasting a McDowell County community with slightly better outcomes due to stronger union presence or local advocacy — optional but worth considering)
-
-**What this draft locks in:**
-- Cost vocabulary introduced: cost severance, severed cost, value extraction
-- Spatial cost severance established (distance as enabling mechanism)
-- Both counterarguments honored and addressed
-- Carbon footnote planted for Ch6 ("We'll return to that")
-- "Common bonds" theme planted in closing paragraphs (miner/waterman connection)
-- Tiers 1, 2a, 3, 5, 6 demonstrated concretely without being named (names land in Ch6)
-- Register 1 maintained throughout — every number serves a story
+— End of Chapter 2 —

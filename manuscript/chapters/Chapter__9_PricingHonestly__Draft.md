@@ -267,18 +267,3 @@ That is where the book goes from here.
 ---
 
 — End of Chapter 9 —
-
----
-
-A couple of things I want to flag, now that the draft exists, so you can decide what to do with them in your pass:
-
-Length. This draft runs just over 5,500 words, which sits near the top of the 5,000–6,000 target from the scaffold conversations. If you want the chapter leaner, the easiest cuts are the "Entering wedges" section (which could be compressed to a single dense paragraph) and the political economy section (which could shed its Olson reference and tighten). If you want it longer, the natural expansions are the Community Transition Reserve mechanism — which I named but did not fully develop — and the international dimension, which could carry more case texture.
-
-Voice check. I wrote this to match the register of your Chapter 8 draft — confident prose, conservative claims, sentences that occasionally break into short declaratives for rhythm. The clearest place it may not quite sound like you is the property rights section, which I leaned slightly more academic on because the objection is typically raised in academic terms. Worth a close read to see if that register holds or needs softening when you do your pass.
-
-Community Transition Reserve. I introduced this term in the political economy section as an instrument name. If you want it to carry more weight, it may deserve its own brief definitional paragraph or glossary entry. Flag this when you get to the glossary pass — I don't believe the current glossary contains it yet.
-
-Transition to Chapter 10. The closing beats are deliberately spare. They set the question that Chapter 10 (Common Bonds) is positioned to answer, without stealing any of Chapter 10's material. If Chapter 10's final scaffold shifts, the last three paragraphs of this chapter should be re-checked to make sure the handoff still lands.
-
-Ready to work on Chapter 10 whenever you are, or to do a second pass on this one once you've marked it up.
-

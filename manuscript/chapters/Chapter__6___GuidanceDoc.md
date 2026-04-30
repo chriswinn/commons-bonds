@@ -1,3 +1,20 @@
+# Chapter 6 — Internal Scaffolding (Drafting Direction)
+
+**Layer:** internal-scaffolding per Working Principle #10 (Two-layer content origination discipline). The corresponding publisher-facing Draft is `Chapter__6_ThreeWaysofCounting__Draft.html` (HTML; single-line Google-Docs-export form pending Insight #21 dedicated rewrite session).
+
+**Frontmatter added 2026-04-30** by Insight #37 separation pass (Thread β.1) — Ch 6 HTML Draft has no extractable scaffolding annotations under current single-line export format. Full WP#8/WP#10 discipline application at HTML scale is queued for the Insight #21 dedicated session (Tech Appendix v2.0.0 rebuild + Ch 6 HTML full rewrite in pretty-printed semantic HTML form).
+
+**β.3 deferred:** Insight #21 supplementary-passage structural placement (~13 placements; ~5,000 words) is β.3 work and intersects α-thread Phase 3 Tech Appendix companion-passage zones. Per v1.49.0 §3.β, defer until α's Phase 3 lands OR confirm with author that Ch 6 source supplementary §6.5–§6.10 references are stable.
+
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass.
+
+**Cross-references:**
+- `Chapter__6_ThreeWaysofCounting__Draft.html` — publisher-facing prose (HTML).
+- `manuscript/chapters/archive/Chapter__6___SupplementaryDrafts_2026-04-24.md` — supplementary passages §6.5–§6.10 source for β.3 structural placement.
+- `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 + WP#8.
+- `alignment/commons_bonds_open_insights_v1.0.0.md` — Insight #21 (Tech Appendix v0.0.5 + Ch 6 HTML full-rewrite dedicated session).
+- `core/terms/terms_index.md` — current canonical vocabulary.
+
 ---
 
 # Commons Bonds

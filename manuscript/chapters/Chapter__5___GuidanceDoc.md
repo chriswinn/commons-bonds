@@ -1,3 +1,32 @@
+# Chapter 5 — Internal Scaffolding (Drafting Direction + Extracted Annotations)
+
+**Layer:** internal-scaffolding per Working Principle #10 (Two-layer content origination discipline). The corresponding publisher-facing Draft is `Chapter__5_THEACCOUNTABILITYGAP__Draft.md`.
+
+**Consolidated 2026-04-30** by Insight #37 separation pass (Thread β.1) — folds Draft scaffolding into the existing GuidanceDoc.
+
+**Pre-submission review FLAG:** Ch 5 is FLAGGED for pre-submission review (β.4 side-quest in v1.49.0 §3.β). The #37 scrub absorbed the [Target length] tail block; the deeper review (vocabulary regression checks; framework-establishment-vs-applied-advocacy register check; chapter-title rigor per Insight #22) remains queued.
+
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass; flag inline as encountered during drafting.
+
+**Cross-references:**
+- `Chapter__5_THEACCOUNTABILITYGAP__Draft.md` — publisher-facing prose.
+- `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 + WP#8.
+- `alignment/commons_bonds_open_insights_v1.0.0.md` — current open insights + ratification log.
+- `core/terms/terms_index.md` — current canonical vocabulary.
+- Insight #14 (Norway canonical exemplar; closed-ratified 2026-04-30) — Ch 5 accountability-gap framing references Norway as strongest existing example approaching B ≈ RCV.
+
+---
+
+## Extracted Draft scaffolding (added 2026-04-30 per Insight #37 separation pass)
+
+*Absorbed from former `Chapter__5_THEACCOUNTABILITYGAP__Draft.md` `[Target length: ...]` tail block.*
+
+### Target length + chapter-purpose note (extracted from Draft tail)
+
+Target length: 3,500-4,000 words. This chapter establishes the pattern across multiple domains and scales, with the Social Security case as the most numerically dramatic example. The chapter builds toward the realization that this is systematic, not accidental — setting up Chapters 6-7 for the mathematical framework and Chapter 8-9 for the solutions.
+
+*[STALE 2026-04-30 — Ch 5 actual word count is substantially above this 3,500-4,000 target; verify whether target should be revised upward (Ch 5 may be carrying scope appropriately for its place in the spine) or whether content needs trimming to original target. Pre-submission review side-quest β.4 should resolve this.]*
+
 ---
 
 # Commons Bonds

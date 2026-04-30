@@ -153,20 +153,3 @@ Let us begin.
 ---
 
 End of Chapter 10
-
----
-
-A few quick notes on what's here and what you'll want to adjust:
-
-The grandfather-at-Langley passage is written with the texture of what you've told me in past conversations, but you'll know what to keep and what to correct — whether he was a model maker himself, worked alongside them, which tunnels specifically, and what you remember of the way people spoke about him. That passage is the emotional spine of the "honest measurement" argument, so your specific memories there will carry more weight than the placeholders I've written.
-
-The personal framing in the opening and closing ("I came because I needed a place where the sentence of my life was short...") I kept slightly generalized so you can dial the vulnerability up or down based on what you want readers of thischapter to carry. Chapter 1 is where the full personal narrative lives; Chapter 10 echoes rather than re-tells.
-
-The brief left-critique passage is the full page the scaffold asked for — I kept it honest, didn't triangulate, and used your exact framing ("state-owned mine that severs costs is still severing costs"). You may want to tune it further for tone.
-
-The "first generation / last generation" passage is sitting exactly where the scaffold put it: after the honest concession, before the title shift, before the close.
-
-Word count comes in at roughly 6,400 — right in the middle of the 5,000–7,000 target.
-
-Ready when you want to start the revision pass, or to move on to the Chapter 3 interviews or the Chapter 1 personal opening when you're ready.
-

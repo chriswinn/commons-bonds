@@ -1,3 +1,17 @@
+# Chapter 7 — Internal Scaffolding (Drafting Direction)
+
+**Layer:** internal-scaffolding per Working Principle #10 (Two-layer content origination discipline). The corresponding publisher-facing Draft is `Chapter__7_OnOtherWorlds__Draft.md`.
+
+**Frontmatter added 2026-04-30** by Insight #37 separation pass (Thread β.1) — Ch 7 Draft prose was already clean (no scaffolding to extract). This GuidanceDoc retained as-is with staleness disclaimer.
+
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**, including the chapter title "(The Colony Administrator)" referenced below — actual chapter title is "On Other Worlds" per Insight #22 ratification 2026-04-26 + 04-27. Verify against current state before applying. Per-section staleness audit deferred to future pass.
+
+**Cross-references:**
+- `Chapter__7_OnOtherWorlds__Draft.md` — publisher-facing prose.
+- `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 + WP#8.
+- `alignment/commons_bonds_open_insights_v1.0.0.md` — current open insights + ratification log.
+- `core/terms/terms_index.md` — current canonical vocabulary.
+
 ---
 
 # Commons Bonds

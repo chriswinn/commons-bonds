@@ -1,3 +1,20 @@
+# Chapter 3 — Internal Scaffolding (Drafting Direction; pre-draft)
+
+**Layer:** internal-scaffolding per Working Principle #10 (Two-layer content origination discipline). The publisher-facing Draft does not yet exist (Ch 3 is undrafted; queued for the Insight #36 β.2 conversational drafting session — Ch 1 + Ch 3 together).
+
+**Frontmatter added 2026-04-30** by Insight #37 separation pass (Thread β.1).
+
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass.
+
+**Cross-references:**
+- `Chapter__3___Draft.md` — does not yet exist; will be drafted during Insight #36 β.2 session.
+- `core/methodology/decision_time_application_internal_v1.0.0.md` — Pattern 2 threading discipline + decision-time worked-example seed material (waterman story is Ch 3's Pattern 2 anchor per Insight #9 verdict 2026-04-30).
+- `alignment/commons_bonds_open_insights_v1.0.0.md` — Insight #36 (Ch 1 + Ch 3 conversational drafting); Insight #9 (Pattern 2 threading verdict ratified 2026-04-30).
+- `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 + WP#8.
+- `core/terms/terms_index.md` — current canonical vocabulary.
+
+---
+
 # Commons Bonds
 
 By Chris Winn

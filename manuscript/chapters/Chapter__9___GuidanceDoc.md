@@ -1,3 +1,41 @@
+# Chapter 9 — Internal Scaffolding (Drafting Direction + Extracted Annotations)
+
+**Layer:** internal-scaffolding per Working Principle #10 (Two-layer content origination discipline). The corresponding publisher-facing Draft is `Chapter__9_PricingHonestly__Draft.md`.
+
+**Consolidated 2026-04-30** by Insight #37 separation pass (Thread β.1) — folds Draft scaffolding (closing meta-notes block from Claude to Chris) into the existing GuidanceDoc.
+
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. The chapter title in this GuidanceDoc still reads "(The Renewable Imperative)" — the actual chapter title is "Pricing Honestly" per Insight #22 ratification 2026-04-27. Sections from earlier dates may also reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Per Insight #23: Community Transition Reserve mention in Ch 9 line 125 was integrated 2026-04-27 in Book-2-mention-free form per Insight #24 ratification. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass.
+
+**Cross-references:**
+- `Chapter__9_PricingHonestly__Draft.md` — publisher-facing prose.
+- `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 + WP#8.
+- `alignment/commons_bonds_open_insights_v1.0.0.md` — Insight #22 (Ch 9 title rename to "Pricing Honestly"); Insight #23 (CTR Book-1-vs-Book-2 boundary, ratified 2026-04-27); Insight #24 (Book 2 references removed from Book 1, ratified 2026-04-27); Insight #38 (Phase 2 Foreclosure Bond housing-crisis collision, ratified 2026-04-29 — Ch 9 bridge prose at Foreclosure Bond first-introduction; v1 DRAFT awaits author voice refinement).
+- `core/terms/terms_index.md` — current canonical vocabulary.
+
+---
+
+## Extracted Draft scaffolding (added 2026-04-30 per Insight #37 separation pass)
+
+*Absorbed from former `Chapter__9_PricingHonestly__Draft.md` closing meta-notes block (lines 273-283) — Claude's draft-handoff notes to Chris from the original Ch 9 drafting session. Preserved verbatim for author reference; some items may be stale given subsequent ratifications.*
+
+### Length
+
+Original draft ran just over 5,500 words, which sat near the top of the 5,000–6,000 target from the scaffold conversations. Easiest cuts: the "Entering wedges" section (could be compressed to a single dense paragraph) and the political economy section (could shed its Olson reference and tighten). Natural expansions: the Community Transition Reserve mechanism (named but not fully developed at original drafting) and the international dimension (could carry more case texture).
+
+*[STALE 2026-04-30 — Ch 9 raw word count is now substantially above 5,500 (per current `wc -w`); original 5K-6K target may need re-evaluation. Note also Insight #23 + #24 integration 2026-04-27 modified CTR + Book 2 references; cuts/expansions advice predates those ratifications.]*
+
+### Voice check
+
+Original draft written to match the register of the Chapter 8 draft — confident prose, conservative claims, sentences that occasionally break into short declaratives for rhythm. The property rights section was leaned slightly more academic because the objection is typically raised in academic terms. Worth a close read to see if that register holds or needs softening during pre-submission revision.
+
+### Community Transition Reserve
+
+Term was introduced in the political economy section as an instrument name. *[STALE 2026-04-30 — per Insight #23 (RATIFIED 2026-04-27), CTR mention in Ch 9 line 125 was integrated as Path 2 / Version G (D + subsidy clarification) in Book-2-mention-free form per Insight #24 ratification. Original suggestion to add a brief definitional paragraph or glossary entry partially superseded by that ratification; verify current Ch 9 line 125 + Ch 2 line 97 framing against current state before further glossary work.]*
+
+### Transition to Chapter 10
+
+The closing beats are deliberately spare. They set the question that Chapter 10 (Common Bonds) is positioned to answer, without stealing any of Chapter 10's material. If Chapter 10's final scaffold shifts, the last three paragraphs of this chapter should be re-checked to make sure the handoff still lands.
+
 ---
 
 # Commons Bonds

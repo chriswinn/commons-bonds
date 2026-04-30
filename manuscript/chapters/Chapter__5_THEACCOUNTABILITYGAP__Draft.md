@@ -212,5 +212,5 @@ That is the question the next three chapters address. Not whether cost severance
 
 ---
 
-[Target length: 3,500-4,000 words. This chapter establishes the pattern across multiple domains and scales, with the Social Security case as the most numerically dramatic example. The chapter builds toward the realization that this is systematic, not accidental — setting up Chapters 6-7 for the mathematical framework and Chapter 8-9 for the solutions.]
+— End of Chapter 5 —
 

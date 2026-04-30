@@ -1,3 +1,18 @@
+# Chapter 1 — Internal Scaffolding (Drafting Direction + Extracted Annotations)
+
+**Layer:** internal-scaffolding per Working Principle #10 (Two-layer content origination discipline). This file holds the chapter's drafting direction + extracted scaffolding annotations. The corresponding publisher-facing Draft is `Chapter__1___Draft.md`.
+
+**Consolidated 2026-04-30** by Insight #37 separation pass (Thread β.1) — absorbs former temporary `Chapter__1___Scaffolding.md` content; folds extracted Draft annotations into the existing GuidanceDoc rather than maintaining two separate internal files per chapter.
+
+**Staleness disclaimer (2026-04-30):** This file accumulates content across **2026-04-22 → 2026-04-30**. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + Insight #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass; flag inline as encountered during drafting.
+
+**Cross-references:**
+- `Chapter__1___Draft.md` — publisher-facing prose (currently ~620 publisher-facing words after #37 separation; target 5K-6K).
+- `core/methodology/decision_time_application_internal_v1.0.0.md` — Pattern 2 threading discipline + decision-time worked-example seed material (commute trade is the Ch 1 anchor per Insight #9 verdict 2026-04-30).
+- `alignment/commons_bonds_open_insights_v1.0.0.md` — Insight #36 (Ch 1 + Ch 3 conversational drafting session); Insight #9 (decision-time tooling Pattern 2 verdict ratified 2026-04-30); Insights #16, #17, #18 (CIT sub-forms / Option C' political-philosophical positioning / autonomy-as-commons placement).
+- `alignment/commons_bonds_personal_stories_candidates_v1.0.0.md` — Candidate #1 (commute-trade); Ch 1 anchor.
+- `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 (Two-layer content origination discipline); WP#8 (publisher-facing scrubbed of scaffolding).
+
 ---
 
 # Commons Bonds
@@ -272,3 +287,78 @@ The chapter's existing consent-problem passage (line 130-136) handles this well 
 - Tech Appendix v0.0.5 commons-governance lineage section
 - Personal Stories Candidate #1 (commute-trade — second Consumption-Inversion case Ch 1 may incorporate)
 - Anderson 2017 *Private Government* (bibliography §13; Ch 6 / Tech Appendix citation territory)
+
+---
+
+## Extracted Draft scaffolding (added 2026-04-30 per Insight #37 separation pass)
+
+*Absorbed from former `Chapter__1___Draft.md` scaffolding. The Draft now contains only publisher-facing prose. The structural skeleton + annotations below feed the Insight #36 conversational drafting session (Ch 1 + Ch 3).*
+
+### Status block (formerly Draft frontmatter)
+
+**STARTER DRAFT SCAFFOLD origin:** the Ch 1 Draft was created 2026-04-24 as a starter scaffold. Chris's authorial voice fills the AUTHOR ZONES below; the scaffold positions framework-relevant passages already drafted in this guidance doc (lines for the 120-hour-week passage + consent-problem passage, both currently in the publisher-facing Draft) at appropriate lift-points.
+
+**Register discipline:** Register 1 throughout Ch 1 (personal narrative; lived experience; no framework vocabulary). Framework terms (Cost Severance, RCV, CIT, Accountability Bond, the Cᵢ commons categories) are Ch 6 + Tech Appendix territory and are NOT to appear in Ch 1.
+
+**Project memory:** trauma-informed by Google Docs heredoc data-loss; structural pauses are load-bearing, not premature polish. The scaffold is intentionally light — the heavy authorial work (Chris's voice on his own life) is preserved for Chris.
+
+### AUTHOR-ZONE structural skeleton
+
+Section labels are scaffolding placeholders for the Insight #36 drafting session — chapter prose will use prose-natural section breaks (not "AUTHOR-ZONE-N" labels) when drafted.
+
+#### §AUTHOR-ZONE-1 — Opening: the wife's illness, the plane, the call (~1000-1500 words)
+
+[*AUTHOR ZONE — Chris's voice. The personal narrative spine — wife's illness, the plane, the IT career, the healthcare IT company, NASA + Johns Hopkins + NIH, the Savannah house, the paternal leave running out. Personal-cred biography also functions as cross-spectrum-access gate.*]
+
+[*Optional one-sentence forward reference: "the mechanism this book describes is older than any of the institutions in it, as Chapter 7 will show" — if Chris wants to pre-empt the anti-capitalism framing very early.*]
+
+#### §AUTHOR-ZONE-2 — The 120-hour week: what the contract did not capture
+
+[*The 120-hour-week passage already exists in the publisher-facing Draft. Chris's expansion / surrounding texture welcome during Insight #36 drafting; can incorporate 2-3 of the four story types itemized in §AUTHOR-ZONE-2 expansion list above (120+ billable hour week / wife's illness + paternal leave / consulting handoff that never happened / sales cycle that determined Thanksgiving).*]
+
+#### §AUTHOR-ZONE-3 — The consent problem in its sharpest form
+
+[*The consent-problem passage already exists in the publisher-facing Draft. Per the autonomy-as-commons treatment section above (Insight #18): the passage works across multiple political-philosophical framings because it does NOT assert which is correct. Preserve that register. Per healthcare-end-of-life integration: strengthen with brief reference to healthcare-end-of-life mechanism the family experienced.*]
+
+#### §AUTHOR-ZONE-4 — The commute trade (Personal Stories Candidate #1; paradigm Commons-Consumption Inversion case)
+
+[*Per Insight #16 (two CIT sub-forms): commute-trade is paradigm Commons-Consumption Inversion. Per Personal Stories Candidates v1.0.0 §2 Candidate #1: Chris's IT-consulting commute that traded $300/month rent for 5 hours/day of commute, costing ~1800 hours/year. AUTHOR ZONE — Chris's voice. Suggested placement: alongside or following the 120-hour-week passage.*]
+
+[*Pattern 2 anchor (per Insight #9 verdict ratified 2026-04-30 + WP#10): commute-trade is the **opening external-layer demonstration anchor for decision-time tooling**. Personal story carries decision-time framing through demonstration, NOT through methodology codification — readers extract "the framework can be used at decision-time" by watching past-self get severed from future-self's outcome. See `core/methodology/decision_time_application_internal_v1.0.0.md` §3.2 (Pattern 2) + §5 (worked-example seed material) for register discipline.*]
+
+[*Framework-connection guidance from Personal Stories Candidates §2 Candidate #1:*
+- *Audience-recognition bridge for knowledge-worker readers.*
+- *Information-asymmetric self-severance demonstration (past-self extracted value; future-self bore cost).*
+- *No-villain framing reinforced (apartment manager not malicious; pricing architecture missing).*
+- *Decision-time-tool demonstration (informal CIT + RCV at lease-signing).*]
+
+#### §AUTHOR-ZONE-5 — Demonstrating each cost type through lived experience
+
+[*Ch 1 demonstrates each cost-category through lived experience without naming the framework's terms. The demonstration order walks through what Ch 6 will later name as Cᵢ admitted via CIT through Four Gates. Chris's authorial voice carries this without invoking framework vocabulary. Recommend 4-5 of the cost categories in Ch 1; defer remaining to subsequent chapters.*]
+
+*Note: the prior "8-tier framework" enumeration in this guidance doc references the retired 8-tier scheme (RETIRED 2026-04-24 per Insight #21 + Insight #63). Current vocabulary is Cᵢ admission via CIT through Four Gates (Path F). The lived-experience demonstration intent is unchanged; the categorization vocabulary needs to be updated to current Cᵢ framing during the Insight #36 drafting session.*
+
+#### §AUTHOR-ZONE-6 — Why this matters for the book
+
+[*Ch 1 is where reader recognition happens. If the reader doesn't recognize themselves, they read the book as diagnosis of other people's problems. If they do recognize themselves, they read every subsequent chapter as continuation of their own story. Knowledge workers are the most direct route to that identification for the demographic likely to encounter the book.*]
+
+[*Target chapter length: 5,000-6,000 words total. This section is the bridge to Ch 2.*]
+
+#### §AUTHOR-ZONE-7 — Bridge to Ch 2 (the McDowell case)
+
+[*ONE McDowell County reference permissible (in the consent-problem passage); the case itself is Ch 2's work. Bridge sentence(s) only — do not preempt Ch 2.*]
+
+### Outstanding for Chris's drafting (per Insight #36 conversational drafting session)
+
+- All AUTHOR ZONES (the personal-narrative spine + selected 120-hour-week stories + commute-trade + cost-category demonstration + closing).
+- Existing-prose passages (120-hour-week + consent-problem; currently in `Chapter__1___Draft.md`) may be revised in Chris's voice; they're working drafts.
+- Healthcare-end-of-life integration (the wife's body + the parents' bodies as medical-commons demonstration) — bridge from personal narrative to framework operating at individual scale.
+- Pattern 2 threading discipline (per Insight #9 + WP#10): commute-trade carries decision-time framing through demonstration; do NOT codify a methodology in chapter prose.
+
+### What Ch 1 publisher-facing prose does NOT do (preserved register discipline)
+
+- Does not preempt Chris's authorial voice on personal narrative.
+- Does not invoke framework vocabulary (CIT, RCV, Cost Severance, Accountability Bond, etc.) — Register 1 discipline preserved.
+- Does not commit Ch 1 to the autonomy-as-commons political-philosophical claim — accommodation preserved per Option C' ratification.
+- Does not exceed scope — the framework-vocabulary work + political-philosophical acknowledgment land in Ch 6 (see `manuscript/chapters/archive/Chapter__6___SupplementaryDrafts_2026-04-24.md`).
+- Does not codify a decision-time methodology — Pattern 2 threading per WP#10.
