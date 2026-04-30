@@ -151,7 +151,7 @@ Aggregate counts below are **line counts** from `grep -nH` output (i.e. the numb
 | TA | 568 | technical-formal | "Cost Severance Damages (CSD) record + Accountability Bond v1.2 (B = B₁ + B₂) record" |
 | TA | 589 | technical-formal | "(Cost Severance equals Residual Commons Value minus Bond posting). The two instruments differ…" |
 | TA | 593 | technical-formal | "CSD — Cost Severance Damages (backward-looking):" |
-| TA | 732 | technical-formal | "consistent with the Structural Cost Severance Theorem (E.1)" |
+| TA | 732 | technical-formal | "consistent with Theorem E.1 (Structural Cost Severance)" [updated 2026-04-30 per double-Theorem cleanup; previously "Structural Cost Severance Theorem (E.1)"] |
 | TA | 1362 | cross-chapter-handle? | "Spatial abundance masks the spatial dimension of cost severance" (lowercase appears here — note: this row counts the "Cost Severance" capitalised match later in same sentence) |
 | TA | 1437 | technical-formal | "Cost Severance integral (Section K.3)" |
 | TA | 1523 | technical-formal | "If yes → cost claim is consumption-of-finite-commons (Cost Severance proper)" |

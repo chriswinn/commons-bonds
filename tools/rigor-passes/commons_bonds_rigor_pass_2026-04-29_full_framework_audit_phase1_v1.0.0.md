@@ -18,7 +18,7 @@
 - **Foreclosure Bond — housing-crisis connotation collision** (post-2008 readers strongly associate "foreclosure" with home-loss; framework's bond + foreclosure-cost meaning may collide)
 - **Externality Tail — `-Tail` suffix one-off + statistics-distribution-tail collision** (already flagged Item 4.2 deferred)
 - **Mathematical-formula notation collisions** (the variable letters CS, RCV, B, S, E overlap with established economics notation in some sub-fields; worth Phase 2 verification)
-- **Theorem E.1 Structural Cost Severance Theorem** — proof-structure audit not yet done at full academic-rigor discipline; Phase 2 candidate
+- **Theorem E.1 (Structural Cost Severance)** — proof-structure audit not yet done at full academic-rigor discipline; Phase 2 candidate
 
 ---
 
@@ -51,7 +51,7 @@ Per §preamble triggering articulation. Author wants comprehensive vocabulary + 
 - **Ring-1 ratified terms screening:** Commons Bonds, Cost Severance, Severed Cost, Cᵢ, RCV, Value Extraction, CIT (Commons Inversion Test)
 - **Ring-2 ratified terms screening:** Substitutability Function (S), Accountability Bond (B), Cost Severance Damages (CSD), Hotelling Identity, Three Ways of Counting (formerly Triangulated RCV Estimation), Abundances → Commons Categories, IPG (Intergenerational Pricing Gap), CS = RCV − B equation, Abundance Masking, ARR (Asymmetric Regret Rule), Externality Tail (E), Four Gates, Restitution Bond (B₁), Foreclosure Bond (B₂)
 - **Mathematical formulas screening:** CS = RCV − B; RCV integrand; Hotelling Identity (RCV − Hotelling rent = CS per unit); IPG = RCV / market_price; existential substitutability gap formula (S_max(industrial) − S_max(existential)); foreclosure cost C₁; substitutability function S(t|t₀); discount function D(t, t₀); externality tail E(R, t); scarcity multiplier; Method 1 / 2 / 3 Replacement Cost / Revealed Preference / Scarcity-Adjusted Option Value formulas; Total Extraction Damages = CSD + uncaptured RCV (Block 3 decomposition); CS = 0 ↔ B = RCV (ideal-state)
-- **Proofs / theorems screening:** Theorem E.1 Structural Cost Severance Theorem; Theorem E.3 Abundance Masking Theorem; Theorem E.4 Convergence Theorem (Weitzman declining-discount); IPG ≫ 1 architectural claim; Renewable Imperative theorem
+- **Proofs / theorems screening:** Theorem E.1 (Structural Cost Severance); Theorem E.3 (Abundance Masking); Theorem E.4 (Integral Convergence) (Weitzman declining-discount); IPG ≫ 1 architectural claim; Renewable Imperative theorem
 - **System-level "together" analysis:** cluster effects, suffix-convention coherence, mathematical-notation cluster, cross-political-tradition robustness across full framework
 
 ### §2.3 Phase 2 scope (proposed; pending author direction)
@@ -410,19 +410,19 @@ scarcity_multiplier(σ) = 1 + log(1 + σ) × Hotelling_anchor
 
 These warrant deeper academic-rigor audit at Phase 2; Phase 1 screening is high-level.
 
-### §8.1 Theorem E.1 Structural Cost Severance Theorem
+### §8.1 Theorem E.1 (Structural Cost Severance)
 
 - Proves CS > 0 under specified conditions.
 - **Phase 2 audit recommended:** proof-structure verification (premise enumeration; logical derivation; conclusion); academic-citation discipline (does proof rely on established theorems? are those cited?); collision-check against established cost-accounting theorems.
 - **Verdict: PASS screening pending Phase 2 academic-rigor depth audit.**
 
-### §8.2 Theorem E.3 Abundance Masking Theorem
+### §8.2 Theorem E.3 (Abundance Masking)
 
 - Proves cost-function transition behavior near scarcity thresholds (per inventory line 3302).
 - **Phase 2 audit recommended:** Hotelling rent dynamics + commodity price spike empirical citations.
 - **Verdict: PASS screening pending Phase 2.**
 
-### §8.3 Theorem E.4 Convergence Theorem (Weitzman declining-discount)
+### §8.3 Theorem E.4 (Integral Convergence) (Weitzman declining-discount)
 
 - Proves integral convergence under Weitzman 2001 declining-discount-rate.
 - **Phase 2 audit recommended:** Weitzman 2001 citation accuracy + integration-convergence proof structure.

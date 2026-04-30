@@ -77,7 +77,7 @@ E.4 is the cleanest of the 5 theorems precisely because the substance is correct
 
 [Phase 1 §8.3](commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md):
 
-> *"Theorem E.4 Convergence Theorem (Weitzman declining-discount) — Proves integral convergence under Weitzman 2001 declining-discount-rate. Phase 2 audit recommended: Weitzman 2001 citation accuracy + integration-convergence proof structure. Verdict: PASS screening pending Phase 2."*
+> *"Theorem E.4 (Integral Convergence) (Weitzman declining-discount) — Proves integral convergence under Weitzman 2001 declining-discount-rate. Phase 2 audit recommended: Weitzman 2001 citation accuracy + integration-convergence proof structure. Verdict: PASS screening pending Phase 2."* [Quote updated 2026-04-30 per double-Theorem cleanup; original Phase 1 §8.3 phrasing was "Theorem E.4 Convergence Theorem".]
 
 Phase 2 (this rigor pass) executes the screening-recommended audit at academic-rigor depth.
 

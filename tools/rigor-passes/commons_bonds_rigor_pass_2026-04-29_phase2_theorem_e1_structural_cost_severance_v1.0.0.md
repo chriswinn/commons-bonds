@@ -95,7 +95,7 @@ Replace "for all non-renewable extraction under present institutions" with "unde
 
 [Phase 1 §8.1](commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md):
 
-> *"Theorem E.1 Structural Cost Severance Theorem — Proves CS > 0 under specified conditions. Phase 2 audit recommended: proof-structure verification (premise enumeration; logical derivation; conclusion); academic-citation discipline (does proof rely on established theorems? are those cited?); collision-check against established cost-accounting theorems."*
+> *"Theorem E.1 (Structural Cost Severance) — Proves CS > 0 under specified conditions. Phase 2 audit recommended: proof-structure verification (premise enumeration; logical derivation; conclusion); academic-citation discipline (does proof rely on established theorems? are those cited?); collision-check against established cost-accounting theorems."* [Quote updated 2026-04-30 per double-Theorem cleanup; original Phase 1 §8.1 phrasing was "Theorem E.1 Structural Cost Severance Theorem".]
 
 Phase 2 (this rigor pass) executes the screening-recommended audit at academic-rigor depth.
 

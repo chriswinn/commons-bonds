@@ -209,7 +209,7 @@ Plus: CIT-relationship reframing (§13.4 + §13.5) + bibliography expansion (§1
 
 [Phase 1 full framework audit §8.2](commons_bonds_rigor_pass_2026-04-29_full_framework_audit_phase1_v1.0.0.md):
 
-> *"Theorem E.3 Abundance Masking Theorem ... PASS screening pending Phase 2 academic-rigor depth audit on circular-proof concern."*
+> *"Theorem E.3 (Abundance Masking) ... PASS screening pending Phase 2 academic-rigor depth audit on circular-proof concern."* [Quote updated 2026-04-30 per double-Theorem cleanup.]
 
 [Phase 2 Theorem E.4 Integral Convergence rigor pass §16.3](commons_bonds_rigor_pass_2026-04-29_phase2_theorem_e4_integral_convergence_v1.0.0.md):
 
