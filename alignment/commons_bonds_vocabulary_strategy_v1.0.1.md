@@ -295,7 +295,7 @@ The framework already operates under an implicit role-bearing-suffix discipline.
 
 | Mathematical role | Suffix | Examples |
 |---|---|---|
-| Input variable / Cᵢ | `-Cost` | Foreclosure Cost, Externality Tail (variant), Dynastic Labor Cost (when ratified), Lifetime Survival Cost (when ratified), Community Disruption Cost, Knowledge and Cultural Cost, Political Capture Cost |
+| Input variable / Cᵢ | `-Cost` | Foreclosure Cost, Externality Tail (variant), Lineage Labor Cost (RATIFIED 2026-04-30 per Insight #56; renamed from Dynastic Labor Cost), Lifetime Survival Cost (when ratified), Community Disruption Cost, Knowledge and Cultural Cost, Political Capture Cost |
 | Function inside RCV integrand | `-Function` | Substitutability Function (S), Discount Function (D) |
 | Primitive on equation's other side | `-Bond` | Accountability Bond (B), Restitution Bond (B₁), Foreclosure Bond (B₂) |
 | Output mechanism | `-Severance` | Cost Severance |

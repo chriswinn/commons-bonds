@@ -47,7 +47,7 @@ Year-by-year running balance model. Each year, the existing balance grows at the
 
 If the surplus payroll taxes accumulated from 1937 through 2024 had been invested in a broad U.S. equity index rather than loaned to the Treasury for general spending, the Social Security fund would today hold approximately **$110.9 trillion**. At a conservative 4% perpetual withdrawal rate, it would generate **$4.44 trillion per year** — enough to pay every current Social Security obligation three times over, with remainder sufficient to fund the entire U.S. military and all federal discretionary spending.
 
-The gap between the counterfactual fund and the actual fund is approximately $108 trillion. That is the Dynastic Labor Cost of the American working class, compounded across 88 years, extracted without pricing.
+The gap between the counterfactual fund and the actual fund is approximately $108 trillion. That is the Lineage Labor Cost of the American working class, compounded across 88 years, extracted without pricing.
 
 ## The Caveats (Honest)
 

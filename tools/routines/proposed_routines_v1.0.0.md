@@ -44,6 +44,7 @@ Patterns to check (each is a regex):
   6. "industrial-existential substitutability gap" or "\\bESG\\b" (in framework context) — RETIRED 2026-04-24 on parsimony grounds; replaced by "industrial-existential substitutability gap" lowercase prose phrase
   7. "Spatial Cost Severance" (Title Case as proper noun) — RETIRED 2026-04-24, replaced with lowercase prose phrase per Spatial CS re-examination rigor pass v1.1
   8. "\\bFGC\\b" or "Full Generational Cost" — RETIRED 2026-04-24 per tier-reframing rigor pass
+  8a. "Dynastic Labor Cost" or "Dynastic Labor" or "dynastic labor cost" or "dynastic-labor cost" — RENAMED 2026-04-30 to "Lineage Labor Cost" per Insight #56 RATIFIED (Group 1.1 class-connotation cleanup; Lineage replaces Dynastic to disambiguate from ruling-class / wealth-class connotation that distorted lived-oppression reading). Remediation hint: replace with "Lineage Labor Cost" (proper-noun) or "lineage labor cost" (lowercase prose).
   9. NOTATION COLLISION — S used as scarcity threshold (collides with substitutability function S(t)) — RENAMED to τ (tau) per Insight #42 RATIFIED 2026-04-29 (Phase 2 Theorem E.3 audit + parallel-session integration §17). Detection patterns:
      - "[Ss]carcity threshold S\\b" (S used as scarcity threshold variable)
      - "\\bS = scarcity\\b" (S being defined as scarcity threshold)

@@ -88,9 +88,9 @@ Conservative floor across four components: five hundred and fifty to five hundre
 
 ---
 
-### Dynastic Labor Cost
+### Lineage Labor Cost
 
-Now the harder components. Dynastic Labor Cost is the one the Commons Inversion Test reveals: the cost borne not by the worker but by the worker's family and the generations downstream of that family's dispersal.
+Now the harder components. Lineage Labor Cost is the one the Commons Inversion Test reveals: the cost borne not by the worker but by the worker's family and the generations downstream of that family's dispersal.
 
 A mining community that collapses by eighty percent does not take its children with it uniformly. The children who stay grow up in a food desert where the nearest grocery store is an hour away and the local school's graduation rate is among the lowest in the country. The children who leave are raised by parents whose work was physically destructive enough that many of them did not live to see grandchildren. Intergenerational wealth transmission, which in most American communities is the single largest driver of which lives are possible and which are not, becomes impossible when the family's entire asset base consists of a house in a hollow that cannot be sold.
 
@@ -156,7 +156,7 @@ Running the total at the low end of every component:
 
 - Foreclosure: $544
 
-- Dynastic Labor: $2
+- Lineage Labor: $2
 
 - Knowledge and Cultural: $1
 

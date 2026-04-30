@@ -122,7 +122,7 @@ Each term carries its own `term-spec version` independent of document versions. 
 - Lifetime Survival Cost
 - Actuarial Risk Cost
 - Mission Failure Reserve
-- Dynastic Labor Cost
+- Dynastic Labor Cost (RENAMED 2026-04-30 to Lineage Labor Cost per Insight #56 RATIFIED — class-connotation cleanup; historical 8-tier name preserved here for provenance)
 - Community Transition Reserve
 - Ecological Carrying Cost
 - Knowledge and Cultural Cost
@@ -421,7 +421,7 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 **Status:** `CURRENT` at Ring 1 (ratified 2026-04-24 by Chris Winn as part of Ring-1 synthesis batch; standalone rigor via Variable-vs-Cost pass).
 
 **Glossary definition (~75 words, reader-register):**
-> The framework's atomic unit of measurement — a specific cost term that gets summed into the framework's accounting. Each **Cᵢ** is a named cost (Direct Health Cost, Foreclosure Cost, Community Disruption Cost, Dynastic Labor Cost, etc.) that the Commons Inversion Test has identified for a specific extraction. The class is open: every extraction surfaces its own Cᵢ set; the methodology is universal, the components are case-specific.
+> The framework's atomic unit of measurement — a specific cost term that gets summed into the framework's accounting. Each **Cᵢ** is a named cost (Direct Health Cost, Foreclosure Cost, Community Disruption Cost, Lineage Labor Cost, etc.) that the Commons Inversion Test has identified for a specific extraction. The class is open: every extraction surfaces its own Cᵢ set; the methodology is universal, the components are case-specific.
 
 **Tech Appendix definition (~330 words, formal + lineage):**
 > The framework's atomic unit of measurement: an indexed cost term Cᵢ admitted to the RCV integrand under the Four Gates discipline. Each Cᵢ has units [$ · resource-unit⁻¹ · time-unit⁻¹], is identified through the Commons Inversion Test (CIT) applied to a specific extraction Context, and contributes additively to RCV via the sum-of-costs form:
@@ -430,7 +430,7 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 >
 > The Σᵢ enumerates all Cᵢ that have been admitted via the Four Gates: (1) **CIT** — the cost claim is grounded in consumption of a finite commons (verified via Commons-Absence Inversion + Commons-Consumption Inversion sub-forms); (2) **Units Consistency** — Cᵢ is expressible in the framework's standard units; (3) **Boundedness** — Cᵢ's contribution to the integral converges to a finite value under the framework's discount assumptions; (4) **Independence** — Cᵢ does not double-count what an existing term already captures.
 >
-> The class of all Cᵢ is open and extensible — CIT applied to new Contexts may surface new cost components the current framework does not enumerate. Specific named costs that have been admitted across cases include Foreclosure Cost (C₁ canonical), Externality Tail (C₂ canonical), Community Disruption Cost, Dynastic Labor Cost, Knowledge and Cultural Cost, Political Capture Cost, Temporal Displacement Cost. Each is a Cᵢ entry in the framework's accounting; each was admitted by passing the Four Gates against a specific extraction Context.
+> The class of all Cᵢ is open and extensible — CIT applied to new Contexts may surface new cost components the current framework does not enumerate. Specific named costs that have been admitted across cases include Foreclosure Cost (C₁ canonical), Externality Tail (C₂ canonical), Community Disruption Cost, **Lineage Labor Cost** (renamed from Dynastic Labor Cost per Insight #56 RATIFIED 2026-04-30), Knowledge and Cultural Cost, Political Capture Cost, Temporal Displacement Cost. Each is a Cᵢ entry in the framework's accounting; each was admitted by passing the Four Gates against a specific extraction Context.
 >
 > Style discipline: prefer specific named costs ("Black Lung Cost," "Community Transition Cost") to the class noun "cost" wherever prose allows. Use Cᵢ (indexed by i) in formal/mathematical contexts; "cost term" remains admissible where math-as-term-of-sum is being explicitly invoked.
 >
@@ -450,7 +450,7 @@ All 7 standalone rigor verdicts + cross-pairing synthesis ratified in batch 2026
 
 **Notation:** Cᵢ (indexed by i) in formal/mathematical contexts; "cost" as class noun + specific-name (e.g., "black-lung cost") in prose contexts. "Cost term" remains admissible where math-as-term-of-sum is being explicitly invoked ("each cost term Cᵢ enters the integrand").
 
-**Role:** atomic-unit-of-measurement across the framework's formula, gates, and accounting. Every named specific cost (Community Transition Cost, Dynastic Labor Cost, Political Capture Cost, etc.) is a Cᵢ.
+**Role:** atomic-unit-of-measurement across the framework's formula, gates, and accounting. Every named specific cost (Community Transition Cost, Lineage Labor Cost, Political Capture Cost, etc.) is a Cᵢ.
 
 **Depends on:**
 - Four gates (L.1–L.4 admit Cᵢ to RCV)

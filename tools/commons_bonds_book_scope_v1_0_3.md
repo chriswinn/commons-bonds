@@ -58,7 +58,7 @@ This spine is load-bearing and holds across the ten-chapter structure:
 ### 1.3 Load-bearing apparatus
 
 - **Technical Appendix** — RCV integral, convergence theorem, structural cost severance theorem, three-model convergence demonstration, eight-tier decomposition (per Decision A), **and the Abundance Inversion Test as formal methodology** (new in v1.0.0 scope).
-- **Vocabulary Glossary** — the 15 canonical terms plus four additions from the Apr 19 integration pass: Full Generational Cost, Dynastic Labor Cost, Community Transition Reserve, Political Capture Cost (see §1.5 on the last of these).
+- **Vocabulary Glossary** — the 15 canonical terms plus four additions from the Apr 19 integration pass: Full Generational Cost (RETIRED 2026-04-24 per tier-reframing rigor pass §11.2), Lineage Labor Cost (renamed from Dynastic Labor Cost per Insight #56 RATIFIED 2026-04-30), Community Transition Reserve, Political Capture Cost (see §1.5 on the last of these).
 - **Author's Note on AI** — methodological transparency about tool use.
 - **Counterargument work** woven through every chapter; no counterargument stitched in as a separate chapter.
 

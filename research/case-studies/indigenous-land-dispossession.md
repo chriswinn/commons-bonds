@@ -112,7 +112,7 @@ The externality tail is not measured in decades. It is measured in centuries. It
 
 **Is the asymmetry structural?** Yes. The asymmetry is not derived from bad actors; it is derived from the legal-and-political architecture that the dispossessing sovereign constructed. The Doctrine of Discovery was policy. The Dawes Act was legislation. The treaty-violation pattern was systematic. No individual extraction event explains the outcome; the structure does.
 
-**Tier assignment unambiguous?** Yes. The case is Tier 4 (Foreclosure — the commons is permanently unavailable); Tier 3 (Dynastic Labor — intergenerational cost borne by subsequent generations of indigenous peoples); Tier 5 (Community Transition — no transition reserve was ever established); Tier 7 (Knowledge and Culture — language + ceremonial + ecological knowledge lost); Tier 8 (Political Capture — the legal architecture was itself captured). Multi-tier activation parallels the multi-dimension activation. This is the most concentrated tier-activation case in the framework.
+**Tier assignment unambiguous?** Yes. The case is Tier 4 (Foreclosure — the commons is permanently unavailable); Tier 3 (Lineage Labor — intergenerational cost borne by subsequent generations of indigenous peoples; renamed from "Dynastic Labor" 2026-04-30 per Insight #56 RATIFIED); Tier 5 (Community Transition — no transition reserve was ever established); Tier 7 (Knowledge and Culture — language + ceremonial + ecological knowledge lost); Tier 8 (Political Capture — the legal architecture was itself captured). Multi-tier activation parallels the multi-dimension activation. This is the most concentrated tier-activation case in the framework.
 
 ### 4.2 Path 2 — shield absence
 
