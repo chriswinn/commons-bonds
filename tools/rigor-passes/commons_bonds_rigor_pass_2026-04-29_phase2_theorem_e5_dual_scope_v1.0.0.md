@@ -10,7 +10,7 @@
 
 **Scope:** Phase 2 academic-rigor depth audit on **Theorem E.5 (Renewable Imperative)** as stated at [Tech Appendix v1.0.0 §10 lines 3288-3294](core/technical-appendix/TechnicalAppendix_v1.0.0.html). Dual-scope: vocabulary collision (rename to Substitution Dominance) + proof-structure (over-specified universal quantifiers + practical-corollary separation). Phase 1 §10 #8 + E.4 rigor pass §16.3 flagged: *"Renewable Imperative — academic-rigor proof-structure audit ... over-specified scope; scope-tightening + practical-corollary separation; ~700-900 lines"*; vocabulary collision concern surfaced 2026-04-29 by author direction (Tier 2c policy-practitioner cross-political-tradition risk).
 
-**Status:** **[PROPOSED] — pending author ratification.**
+**Status:** **RATIFIED 2026-04-29 by Chris Winn — verdict (a) Full ratify Option α + β COMBINED** — rename to "Substitution Dominance" (not "Substitution Imperative"; SC8 substantive-claim accuracy weighted higher than Tier 1 + Tier 2c-climate-progressive bold-framing per multi-audience matrix scoring 8-2 in favor of Dominance) + premise enumeration P1–P4 + universal-quantifier scope-tightening + failure-mode acknowledgment + practical-corollary separation as Corollary E.5.1 + bibliography expansion. Chapter 9 title concern moot (already retitled "Pricing Honestly"). Tech Appendix HTML edit timing: BATCH into Phase 3 v2.0.0 rebuild per shared open question with Insights #35 + #38 + #40 + #41 + #42 + #43 + #44 + #45 + #46 + Phase 2 #3.2 [E.3]. Insight #47 closed-ratified entry added to `alignment/commons_bonds_open_insights_v1.0.0.md`.
 
 **Author:** Chris Winn
 
