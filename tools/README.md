@@ -62,7 +62,7 @@ Please read these files before responding:
 - commons-bonds-session-handoff-2026-04-22_v1_28_0.html
 - commons_bonds_rigor_protocol_v2.2.0.md
 - commons_bonds_guiding_constraints_v1_0_0.md
-- commons_bonds_abundance_dimensions_v1_2_0.md
+- commons_bonds_abundance_dimensions_v1_3_0.md
 - commons_bonds_rigor_pass_2026-04-22_v1_0_1.md
 ```
 

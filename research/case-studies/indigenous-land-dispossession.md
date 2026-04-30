@@ -194,7 +194,7 @@ This scoping is not passivity. It is structural humility about what a non-indige
 - `manuscript/chapters/Chapter_10___GuidanceDoc.md` — proposed primary chapter home (dedicated anchor in Ch 10).
 - `manuscript/chapters/Chapter__2_TheMiner__Draft.md` — possible secondary placement as brief anchor or framework parallel.
 - `manuscript/chapters/Chapter__3___GuidanceDoc.md` — possible tertiary placement if Ch 3 (Waterman) engages similar specific-non-substitutable-attachment material.
-- `core/dimensions/commons_bonds_abundance_dimensions_v1_2_0.md` — Kindred dimension canonical reference.
+- `core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md` — Kindred dimension canonical reference (v1.3.0; v1_2_0 was superseded; queued for absorption into Tech Appendix v2.0.0 §C.2 during Phase 3 rebuild per Insight #55).
 
 ## §7. Pre-drafting gates — critical
 

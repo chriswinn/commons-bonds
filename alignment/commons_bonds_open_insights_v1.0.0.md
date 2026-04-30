@@ -1114,6 +1114,112 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #62 — Archive folder consolidation — OPEN
+
+- **Raised:** 2026-04-30 by author direction during Insight #60 scaffolding cleanup pass: *"we have a few archive folders floating around the project now, we can probably consolidate all of those to one main folder now."*
+- **Status:** **OPEN; pending decision (consolidation strategy + execution timing).**
+- **Category:** project-hygiene · archive-discipline · directory-structure
+- **Content:** The project currently has 4+ archive locations:
+  - `archive/` (top-level) — contains `_OneDayMaybe/` + `decomposition/` (post-Insight #55) + `retirements/` (per Insight #59)
+  - `core/technical-appendix/archive/` — contains `TechnicalAppendix_v0.0.3.html` + `TechnicalAppendix_v0.0.5_supplement.md`
+  - `manuscript/chapters/archive/` — contains `Chapter__6___SupplementaryDrafts_2026-04-24.md`
+  - `tools/archive/` — contains retired rigor protocols + old layer-tier-stress-test
+  
+  Consolidate to single canonical archive directory (likely `archive/` top-level with subdirectories preserving origin context).
+- **Decision questions:**
+  - **(a) Consolidate now to `archive/{technical-appendix,manuscript-chapters,tools}/`** — clean single-archive structure; requires ~10-20 path updates across files referencing current archive locations.
+  - **(b) Leave per-domain archives** — current state; clean within each domain context but multiple archive locations.
+  - **(c) Hybrid: top-level `archive/` for cross-domain retirements (already doing this with `archive/decomposition/` + `archive/retirements/`) + per-domain archives for domain-specific historical** — current state actually approximates this.
+- **Trade-offs:**
+  - Consolidation pro: single search location; aligned with retirement-archive-index pattern (Insight #59); cleaner active directory listings (no archive subfolders interrupting domain navigation).
+  - Consolidation con: path updates across files; loses per-domain context (origin domain encoded in subfolder name); breaks any external bookmarks to current archive paths.
+- **Implementation pending (when authorized):**
+  - Path-update sweep across all references to current archive paths
+  - `git mv` operations to consolidate
+  - README.md + tools/README.md update with new archive structure
+  - Update Routine 1 + 2 exclusion patterns
+  - Add to retirement-archive index
+- **Dependencies / Links:** Insight #55 (Notation collision audit + hygiene pass; established `archive/decomposition/` pattern); Insight #59 (Working Principle #4 refinement; established `archive/retirements/` pattern); Insight #60 (scaffolding cleanup pass; this insight surfaced during that work); Insight #61 (README maintenance; cross-related — README would need updating with new archive structure).
+
+---
+
+### Insight #61 — README.md comprehensive update — OPEN
+
+- **Raised:** 2026-04-30 by author direction during Insight #60 scaffolding cleanup pass: *"Probably makes sense to update the README.md file in the root directory soon, let's add that to a to do list."*
+- **Status:** **OPEN; queued for soon (next session candidate).**
+- **Category:** project-hygiene · README-maintenance · publisher-prep
+- **Content:** Root README.md needs comprehensive update to reflect current project state. Partial update applied 2026-04-30 per Insight #60 (Tech Appendix v1.0.0 entry; Glossary v3 entry). Remaining work:
+  - **Top-level project status** — current canonical state across all framework artifacts (where the project IS now)
+  - **Recent ratifications integration** — Insights #35-#42 + #47-#59 ratifications visible in README's "current canonical" claims
+  - **Phase 3 + Phase 4 rebuild status** — clearly indicated as queued work
+  - **Pre-publication external review (Insight #39)** — visible in README as downstream gate
+  - **Working Principles + Vocabulary Strategy v1.0.1** — current discipline state visible
+  - **Routines 1 + 2** — automated sentinel discipline visible
+  - **Archive structure** — coordinate with Insight #62 (archive consolidation) if executed
+  - **Pending work prioritization** — clear "what's next" surface for author + collaborators
+- **Why this matters:**
+  - First-time readers (publisher; agent; external reviewer) start at README; current state must be accurate
+  - Phase 3 + Phase 4 rebuilds reference README as orientation
+  - Pre-publication external review reads README as project orientation
+- **Implementation pending (when authorized):**
+  - Comprehensive sweep through README sections
+  - Update all "v0.0.x canonical" references
+  - Update Routine + Working Principle + Vocabulary Strategy references
+  - Cross-reference retirement-archive index per refined WP#4 (Insight #59)
+  - Coordinate with Insight #62 (archive consolidation) if executed concurrently
+- **Estimated scope:** ~1-2 hours for comprehensive sweep + edit
+- **Dependencies / Links:** Insight #60 (scaffolding cleanup; partial README updates applied); Insight #62 (archive consolidation; coordinate if executed concurrently); Insight #59 (refined WP#4; README cross-references retirement-archive index); all Phase 2 + Group 1 ratifications (current canonical state to reflect).
+
+---
+
+### Insight #60 — Scaffolding cleanup pass: refined WP#4 application + broken-paths + stale-claims sweep — CLOSED-RATIFIED 2026-04-30
+
+- **Raised:** 2026-04-30 by author direction following Insight #59 ratification: *"(a) Insight #37 / scaffolding cleanup pass — apply refined WP#4 across active scaffolding (terms_index v1.0.0 bump; vocabulary strategy + working principles light-trace migration; broken-path + stale-claim sweep)."*
+- **Status:** **closed-ratified 2026-04-30 (Chris Winn) — applied per author direction.** Mechanical fixes applied; further refined-WP#4 application (terms_index v1.0.0 version bump; vocabulary strategy v1.0.1 §6 + §7 + §13 light-trace migration) queued for separate session. Insight #37 scaffolding-vs-publisher-facing separation pass remains OPEN for original publisher-facing-side scope.
+- **Category:** project-hygiene · scaffolding-cleanup · refined-WP#4-application · broken-paths · stale-claims · publisher-prep
+- **Content:** Mechanical scaffolding cleanup pass applying refined WP#4 (Insight #59) + fixing broken paths + correcting stale current-state claims. ~13 file edits across 11 files:
+
+**Broken-path fixes (post-iCloud-incident relocation + post-archive operations):**
+1. `tools/routines/proposed_routines_v1.0.0.md` — 4 instances of `/Users/c17n/Documents/___WorkingOn/commons-bonds` → `/Users/c17n/commons-bonds` (lines 31, 148, 254, 304; daily sentinel + weekly pre-submission audit + rigor pass tracker + open insights status sync prompts).
+2. `core/case-studies/commons_bonds_case_study_audit_v1.0.6.md` line 477 — `core/decomposition/eight-tier-v10.html` → `archive/decomposition/eight-tier-v10.html` with 8-tier RETIRED context note.
+3. `alignment/patches/pending-framework-review/README.md` line 17 — `core/decomposition/` → `archive/decomposition/` with retirement context.
+4. `core/technical-appendix/TechnicalAppendix_v1.0.0.html` line 3007 — supplement reference → `core/technical-appendix/archive/...`
+5. `core/technical-appendix/empirical_sourcing_pass_2026-04-25.md` + `method3_sensitivity_analysis_2026-04-25.md` + `block4_validation_2026-04-25.md` — supplement references → archive path (3 files).
+6. `alignment/patches/cit_positioning_consistency_audit_2026-04-25.md` — supplement references → archive path.
+
+**Stale current-state claim fixes:**
+7. Root `README.md` — Tech Appendix entry "v0.0.4 canonical" → "v1.0.0 canonical" with Phase 3 v2.0.0 rebuild note; Glossary entry "v2 canonical" → "v3 canonical" with Phase 4 v4 rebuild note.
+8. `tools/README.md` line 65 — `commons_bonds_abundance_dimensions_v1_2_0.md` → `v1_3_0.md` (file listing).
+9. `research/case-studies/indigenous-land-dispossession.md` line 197 — v1_2_0 → v1_3_0 with Phase 3 absorption note.
+10. `research/literature/bibliography.md` line 935 — Tech Appendix v0.0.2 → v1.0.0 with Insight #60 note.
+11. `core/case-studies/commons_bonds_case_study_audit_v1.0.6.md` line 1562 — Tech Appendix v0.0.3 → v1.0.0 with archive note.
+
+**Header-note additions (per refined WP#4 retention discipline):**
+12. `alignment/patches/canonical_term_regression_audit_2026-04-25.md` — header note added explaining v0.0.5 references describe historical state; current canonical is v1.0.0.
+
+**Items intentionally NOT updated (preserved per refined WP#4):**
+- `alignment/decisions/alternate-8-tier-individual-level-retired.md` — retired-decision document (filename indicates retired status); historical context preserved per WP#4 Tier 2.
+- `alignment/commons_bonds_working_principles_v1.0.0.md` line 475 — references old iCloud path in WP#9 origination story (historical context per refined WP#4).
+- `alignment/commons_bonds_open_insights_v1.0.0.md` line 509 — historical Insight reference to v0.0.5 work (preserved per WP#4 historical-context).
+- `tools/pre-submission-reviews/commons_bonds_pcr_2026-04-23_v1.1.0.md` — dated frozen-snapshot per WP#4 Tier 2.
+- Historical rigor passes — preserved per refined WP#4 (full traces in dated/ratified rigor pass files).
+- Archived files (`archive/_OneDayMaybe/`, `tools/archive/`, etc.) — preserved per WP#4 Tier 2.
+
+**Surfaces for future cleanup work (queued; NOT applied this commit):**
+- terms_index v1.0.0 version bump applies summary-level retirement traces (Insight #59 §6.2 implementation pending) — substantial work; deferred to dedicated session.
+- Vocabulary strategy v1.0.1 §6 + §7 + §13 light-trace migration (Insight #59 §6.2) — medium scope; deferred or absorbed into Insight #37.
+- Working principles body cleanup (Insight #59 §6.2) — small; some inline traces could cross-reference archive (deferred).
+
+**Insight #37 status:** remains OPEN. Insight #37's original scope is publisher-facing-side scaffolding-vs-publisher-facing separation pass + word-count recompute (chapters/glossary/Tech Appendix). Insight #60 covered scaffolding-side cleanup. Insight #37 remains OPEN for publisher-side work; coordinated with Insight #61 (README maintenance) + Insight #62 (archive consolidation).
+
+**New Insights surfaced this pass:**
+- **Insight #61 (OPEN):** README.md comprehensive update queued.
+- **Insight #62 (OPEN):** Archive folder consolidation queued.
+
+**Dependencies / Links:** Insight #59 (refined WP#4; this insight applies it); Insight #37 (scaffolding-vs-publisher-facing separation pass; remains OPEN for publisher-side scope); Insight #55 (notation collision audit + hygiene pass; established `archive/decomposition/` pattern); Insight #61 (README maintenance; new sibling); Insight #62 (archive consolidation; new sibling); Working Principle #4 (refined per Insight #59); Working Principle #8 (publisher-facing scrub; complementary).
+
+---
+
 ### Insight #59 — Working Principle #4 refinement: Tiered retirement-trace policy + retirement-archive index — CLOSED-RATIFIED 2026-04-30
 
 - **Raised:** 2026-04-30 by author direction *"Should I change the framework's discipline of keeping retirement traces in scaffolding documents?"* The question surfaced after Group 1 ratification batch + Insight #55 cleanup work, where retirement-trace volume across scaffolding docs became visible.

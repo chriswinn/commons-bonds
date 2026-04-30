@@ -28,7 +28,7 @@ Design discipline:
 **Prompt:**
 
 ```
-You are running a daily terminology-regression sentinel for the Commons Bonds book project at /Users/c17n/Documents/___WorkingOn/commons-bonds.
+You are running a daily terminology-regression sentinel for the Commons Bonds book project at /Users/c17n/commons-bonds.
 
 Run grep -rnE for retired-vocabulary patterns across:
   - manuscript/chapters/
@@ -145,7 +145,7 @@ Conclude with: "Sentinel run YYYY-MM-DD at HH:MM. Next run: tomorrow 9am ET."
 **Prompt:**
 
 ```
-You are running a weekly pre-submission readiness audit for the Commons Bonds book project at /Users/c17n/Documents/___WorkingOn/commons-bonds.
+You are running a weekly pre-submission readiness audit for the Commons Bonds book project at /Users/c17n/commons-bonds.
 
 For each manuscript/chapters/Chapter_*Draft.* file, check:
 
@@ -251,7 +251,7 @@ Audit run YYYY-MM-DD. Next run: Monday next week 8am ET.
 **Prompt:**
 
 ```
-You are running a weekly rigor pass status tracker for the Commons Bonds book project at /Users/c17n/Documents/___WorkingOn/commons-bonds.
+You are running a weekly rigor pass status tracker for the Commons Bonds book project at /Users/c17n/commons-bonds.
 
 For each file in tools/rigor-passes/:
   1. Read the **Status:** field (line near top of file)
@@ -301,7 +301,7 @@ Tracker run YYYY-MM-DD. Next run: Friday next week 5pm ET.
 **Prompt:**
 
 ```
-You are running a weekly Open Insights status sync for the Commons Bonds book project at /Users/c17n/Documents/___WorkingOn/commons-bonds.
+You are running a weekly Open Insights status sync for the Commons Bonds book project at /Users/c17n/commons-bonds.
 
 Steps:
 

@@ -16,7 +16,7 @@ The framework's correct positioning is: *CIT is the methodological filter; empir
 
 | Location | Treatment | Status |
 |---|---|---|
-| `core/technical-appendix/TechnicalAppendix_v0.0.5_supplement.md` §6.2 (Four Gates admission apparatus) | "The gates filter cost *claims* against established commons; they do not filter what counts as a *commons*" — CIT positioned as admission-filter, not as empirical falsification. | CORRECT — explicit. |
+| `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §6.2 (Four Gates admission apparatus) | "The gates filter cost *claims* against established commons; they do not filter what counts as a *commons*" — CIT positioned as admission-filter, not as empirical falsification. | CORRECT — explicit. |
 | `core/methodology/cit_examples_v1_0_0.md` §6 (Gates as a complete admission apparatus) | Gates positioned as admission apparatus for cost claims. | CORRECT — explicit. |
 | `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_three_ways_rcv_formal_model_v1.0.0.md` Block 4 | Block 4 explicitly positioned as empirical-falsifiability infrastructure separate from CIT. | CORRECT — explicit. |
 | Tech Appendix supplement §6.1.1 (level-of-claim refinement, added 2026-04-25 in this session) | New refinement integrates the level-of-claim discipline; reinforces CIT as method-level, claim-level falsification. | CORRECT — explicit. |
@@ -111,8 +111,8 @@ This single integration paragraph closes the M11 Character 18 finding cleanly. N
 ## §5. Cross-references
 
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_academic_rigor_full_test_v1.0.0.md` §4.4 — M11 Char 18 finding origin.
-- `core/technical-appendix/TechnicalAppendix_v0.0.5_supplement.md` §6.1.1 (level-of-claim refinement, 2026-04-25) — companion CIT-formal-spec refinement closing M11 Char 12.
-- `core/technical-appendix/TechnicalAppendix_v0.0.5_supplement.md` §6.2 — Four Gates admission apparatus (where CIT is correctly positioned as admission-filter).
+- `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §6.1.1 (level-of-claim refinement, 2026-04-25) — companion CIT-formal-spec refinement closing M11 Char 12.
+- `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §6.2 — Four Gates admission apparatus (where CIT is correctly positioned as admission-filter).
 - `core/methodology/cit_examples_v1_0_0.md` — seven worked CIT applications through Four Gates.
 - `tools/commons_bonds_rigor_protocol_v2.2.0.md` (now v2.4.0 per supplement §1) — M6.3 module specifies the CIT-vs-empirical layered structure.
 

@@ -14,7 +14,7 @@ If any patch's prescribed content is already fully absorbed, retire the patch. I
 
 ### Patches (canonical-file revision targets)
 
-- **`c2_scale_abstract_patch.md`** — Scale-abstract core + manifestations verbiage for Tiers 1, 2a, 3, 5, 7, 8. Tiers 1 and 8 prototyped in `core/decomposition/eight-tier-v10.html` appended section; full six-tier rollout unverified.
+- **`c2_scale_abstract_patch.md`** — Scale-abstract core + manifestations verbiage for Tiers 1, 2a, 3, 5, 7, 8. Tiers 1 and 8 prototyped in `archive/decomposition/eight-tier-v10.html` (path updated 2026-04-30 per Insight #60 scaffolding cleanup pass; previously at `core/decomposition/`; 8-tier scheme RETIRED 2026-04-24 per tier-reframing rigor pass §11.2). This patch predates the retirement; full six-tier rollout unverified + likely obsoleted by Path F + Four Gates discipline.
 
 - **`c3_mechanism_shield_patch.md`** — Mechanism (structural allocation) vs. Shield (distance) architectural distinction. Chapter 10 absorbed content this session via villain-analysis migration; glossary entries (Structural Allocation / Distance) + Tech Appendix formal Definitions unverified.
 

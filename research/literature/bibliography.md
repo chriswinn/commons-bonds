@@ -932,4 +932,4 @@ Placeholder for additions as they emerge. Candidate additions:
 - `research/literature/commons_bonds_economic_theory_reference - consider including 6.html` — scholarly-background reference doc (complementary)
 - `tools/commons_bonds_rigor_protocol_v1.3.0.md` §11 — the 25-character pressure suite (several characters map to canonical readers from this bibliography: Character 17 Ostrom successor, Character 18 Harvey/Klein reader, Character 9 tenured economics chair, etc.)
 - `research/case-studies/` — all case study files reference this bibliography for their primary-source citations
-- `core/technical-appendix/TechnicalAppendix_v0.0.2.html` — technical appendix (scholarly engagement work happens here)
+- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` — technical appendix (scholarly engagement work happens here; path updated 2026-04-30 from stale v0.0.2 reference per Insight #60 scaffolding cleanup pass)

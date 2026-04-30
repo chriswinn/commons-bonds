@@ -304,9 +304,9 @@ The 2026-08-17 Berggruen submission window readiness was flagged in v1.44.0 hand
 
 ## §7. Cross-references
 
-- `core/technical-appendix/TechnicalAppendix_v0.0.5_supplement.md` §2 (Two-Instrument Architecture) — CSD vs RCV distinction tested by §3 above.
-- `core/technical-appendix/TechnicalAppendix_v0.0.5_supplement.md` §3 (Three Ways) — methods executed by §1 + §2 above.
-- `core/technical-appendix/TechnicalAppendix_v0.0.5_supplement.md` §5 (Hotelling Identity) — provides per-case Hotelling_anchor input for Method 3.
+- `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §2 (Two-Instrument Architecture) — CSD vs RCV distinction tested by §3 above.
+- `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §3 (Three Ways) — methods executed by §1 + §2 above.
+- `core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md` §5 (Hotelling Identity) — provides per-case Hotelling_anchor input for Method 3.
 - `core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md` — analytical sensitivity findings confirmed empirically here.
 - `core/technical-appendix/empirical_sourcing_pass_2026-04-25.md` — DAC + space-economics anchors used in Method 1 calculations.
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_three_ways_rcv_formal_model_v1.0.0.md` Block 4 — the validation strategy this document executes.

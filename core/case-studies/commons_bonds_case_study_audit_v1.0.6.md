@@ -474,7 +474,7 @@ Each profile applies the v1.3.0 rigor protocol at full rigor with compressed ren
 
 ### §2.6 Social Security ($108T counterfactual)
 
-**Status:** Substantial case-study file `research/case-studies/social-security.md` (85 lines). Referenced in `core/decomposition/eight-tier-v10.html` as Tier 3 canonical. **NOT IN ANY CHAPTER DRAFT.**
+**Status:** Substantial case-study file `research/case-studies/social-security.md` (85 lines). Referenced in `archive/decomposition/eight-tier-v10.html` (path updated 2026-04-30 per Insight #60 scaffolding cleanup pass; previously at `core/decomposition/`; 8-tier scheme RETIRED 2026-04-24 per tier-reframing rigor pass §11.2; this case-study reference predates that retirement). **NOT IN ANY CHAPTER DRAFT.**
 **Book home:** **Book 1 — Ch 5 candidate** (national-financial-scale demonstration; alongside industrial cases).
 **Dimension activation (primary):** Temporal (88-year span), Political (Tier 8 fully demonstrated — 1968 unified-budget accounting mechanism + 22-year masked-deficit pattern). **Secondary:** Institutional (OASDI architecture + Treasury IOU mechanism), Autonomy (future workers no voice in past surplus-consumption decisions).
 
@@ -1559,7 +1559,7 @@ Version numbering:
 - **Pending-review queue:** `alignment/decisions/alternate-8-tier-individual-level-retired.md`, `alignment/decisions/ws12-ipg-data-table-for-reconciliation.md`, `alignment/decisions/april-19-*.md` (12 items).
 - **Pending canonical-file patches:** `alignment/patches/pending-framework-review/c2_scale_abstract_patch.md`, `c3_mechanism_shield_patch.md`, `c9_ait_canonical_positioning_patch.md`, `commons_bonds_rigor_vs_layers_triage_v1_0_0.md`, `commons_bonds_character_suite_vs_layers_triage_v1_0_0.md`.
 - **Chapter drafts:** `manuscript/chapters/Chapter__*_Draft.md` (8 drafted) + `Chapter__*___GuidanceDoc.md` (10 guidance docs).
-- **Technical Appendix:** `core/technical-appendix/TechnicalAppendix_v0.0.3.html`.
+- **Technical Appendix:** `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (path updated 2026-04-30 from stale v0.0.3 reference per Insight #60 scaffolding cleanup pass; v0.0.3 archived to `core/technical-appendix/archive/`).
 
 ---
 
