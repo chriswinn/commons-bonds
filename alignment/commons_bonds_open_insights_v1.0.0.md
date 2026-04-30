@@ -1114,10 +1114,15 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
-### Insight #55 — Framework-wide notation collision audit (one-time retroactive sweep) — OPEN
+### Insight #55 — Framework-wide notation collision audit (one-time retroactive sweep) — CLOSED-RATIFIED 2026-04-30
 
 - **Raised:** 2026-04-29 by Insight #42 Phase 2 E.3 audit + parallel-session integration §17. The S → τ collision (E.3 scarcity threshold colliding with E.4 substitutability function and Insight #33 S_max) was caught only because the cross-theorem viewing angle surfaced it; single-theorem audits would not have flagged it. Other collisions almost certainly exist that haven't been surfaced. Author direction 2026-04-29: implement four-layer notation discipline (Routine 1 prospective + Routine 2 retrospective + this Insight one-time retroactive + Vocabulary strategy v1.0.1 standing-discipline preventive).
-- **Status:** **OPEN; one-time retroactive audit; pre-publication-state work; informs Phase 3 Tech Appendix v2.0.0 rebuild.**
+- **Status:** **closed-ratified 2026-04-30 (Chris Winn) — verdict (a) Full ratify: apply all remediations + ledger additions** per `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-30_phase2_insight55_notation_collision_audit_v1.0.0.md`. Audit produced 7 findings: 3 HIGH-severity collisions (α irreversibility-vs-curvature; τ integration-variable-vs-scarcity-threshold; C cost-variable-vs-commons-territory-set); 3 MEDIUM-severity reserved-letter ledger additions (β, σ, ρ); 1 LOW-severity informational (section-namespace overlap). Hypothesis confirmed: cross-document audit surfaces collisions single-theorem audits miss.
+- **Remediations ratified:**
+  - 3 HIGH-severity renames queued for **Phase 3 Tech Appendix v2.0.0 rebuild**: (1) α → ξ for Insight #42 E.3 cost-function curvature parameter (preserves α for §M scarcity-multiplier irreversibility parameter; smaller blast radius); (2) τ → u for integration variable at line 6720 (preserves τ for global scarcity-threshold reservation; standard math dummy convention); (3) C → 𝒞 (script C) for commons-territory set at line 398 (set-vs-variable typography disambiguation per standard math convention).
+  - 3 MEDIUM-severity reserved-letter ledger additions applied 2026-04-30 to Vocabulary strategy v1.0.1 §13.2: β (risk-posture calibrator), σ (scarcity parameter), ρ (commons regeneration rate). Plus S_threshold subscript (substitutability critical value) added to subscript ledger.
+  - Vocabulary strategy v1.0.1 §13.2.1 added (section-namespace overlap informational note) + §13.2.2 added (set-valued objects use script/calligraphic typography discipline).
+  - Routine 1 daily sentinel pattern #10 reserved-letter ledger updated 2026-04-30 with all codified letters.
 - **Category:** notation-discipline · academic-rigor · cross-document-sweep · pre-publication
 - **Content:** Comprehensive sweep of all variable letters/symbols + abbreviations across the framework's apparatus to identify undisclosed notation collisions. Scope:
   - **Documents in scope:** Tech Appendix v1.0.0 HTML (all sections); terms_index.md (all entries); manuscript/chapters/Chapter_*Draft.{md,html} (all 10 chapters); core/glossary/commons_bonds_updated_glossary_v3.html.

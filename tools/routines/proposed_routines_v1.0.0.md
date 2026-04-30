@@ -50,24 +50,51 @@ Patterns to check (each is a regex):
      - "scarcity threshold .{0,30}\\bS\\b" (prose phrasing colliding S with scarcity threshold)
      - "abundance threshold .{0,30}\\bS\\b" (parallel — "abundance threshold" framing)
      Remediation hint: rename S → τ for scarcity/abundance threshold; reserve `S` and `S(t)` exclusively for substitutability function (per Insight #40 E.4 audit + framework's RCV integrand discipline).
-  10. NOTATION COLLISION (general) — new single-letter Tech Appendix variable definition that collides with reserved letters. Reserved letter ledger (per current framework usage; cross-check before introducing new variables):
-     - **S, S(t)** — substitutability function (Tech Appendix §B Definition A.2; load-bearing in RCV integrand + Theorems E.4 + E.5)
-     - **S_max** — substitutability function limit (existential substitutability gap per Insight #33)
-     - **τ (tau)** — scarcity threshold per Insight #42 (Phase 2 E.3)
+  10. NOTATION COLLISION (general) — new single-letter Tech Appendix variable definition that collides with reserved letters. Reserved letter ledger (per Vocabulary strategy v1.0.1 §13.2 codified per Insight #55 RATIFIED 2026-04-30; cross-check before introducing new variables):
+
+     **Latin single-letter variables:**
+     - **A** — abundance (Theorem E.3 domain)
      - **B, B₁, B₂** — Accountability Bond + sub-instruments (Restitution Bond + Foreclosure Bond)
      - **C, Cᵢ** — cost / i-th cost component
+     - **𝒞 (script C)** — commons-territory set (resource units R ∈ 𝒞; per Insight #55 set-vs-variable typography)
      - **CS** — Cost Severance (per equation CS = RCV − B)
      - **D, D(t, t₀)** — discount factor (Weitzman 2001 declining-rate)
      - **E, E(R, t)** — externality tail (function); also Theorem labels E.1–E.5 (context disambiguates)
-     - **R** — resource
+     - **P** — market price (Theorem E.1 + E.5)
      - **Q, Q(t)** — quality-stock per Insight #52 (RCV integrand notation)
+     - **R** — resource
+     - **S, S(t)** — substitutability function (Tech Appendix §B Definition A.2; load-bearing in RCV integrand + Theorems E.4 + E.5)
      - **U, U(R, t, Q(t))** — utility
-     - **A** — abundance (Theorem E.3 domain)
+
+     **Subscript + superscript patterns:**
+     - **S_max** — substitutability function limit (existential substitutability gap per Insight #33)
+     - **S_threshold** — critical value of S_max below which a resource is existentially critical (per §F existential substitutability gap)
+     - **t₀** — initial time (extraction time)
      - **r(s), r_∞** — discount rate (per Insight #40 Theorem E.4)
-     - **α** — scarcity-multiplier exponent / cost-function curvature parameter
+
+     **Greek letters (codified per Insight #55 RATIFIED 2026-04-30):**
+     - **α** — irreversibility parameter (§M scarcity multiplier; α ∈ [0, 1])
+     - **β** — risk-posture calibrator (§M scarcity multiplier; irreversibility_premium exponent)
+     - **ξ (xi)** — cost-function curvature parameter (Insight #42 Theorem E.3 functional form; ξ ≥ 1; renamed from α per Insight #55 to disambiguate)
      - **λ** — substitutability function exponential parameter (per Insight #40)
+     - **ρ** — commons regeneration rate (§B Definition A.1; ρ ≥ 0)
+     - **σ** — scarcity parameter (§M scarcity multiplier; commons-stock / sustainable-flow ratio)
+     - **τ (tau)** — scarcity threshold per Insight #42 (Phase 2 E.3); NOTE local-scope integration-variable usage at Tech Appendix line 6720 will be renamed to **u** during Phase 3 v2.0.0 rebuild
+
+     **Multi-letter abbreviations:**
+     - **RCV** — Residual Commons Value
+     - **CIT** — Commons Inversion Test
+     - **CSD** — Cost Severance Damages
+     - **ARR** — Asymmetric Regret Rule
+     - **IPG** — Intergenerational Pricing Gap
+     - **AIT** — RETIRED (superseded by CIT)
+     - **FGC** — RETIRED
+     - **ESG** — RETIRED in framework context
+
+     **Available unused Greek letters** (safe for future reservation): γ, δ, ε, η, θ, μ, ν, π, φ, ψ, ω; capital Greek Γ, Δ, Θ, Λ, Π, Σ, Ψ, Ω.
+
      Detection pattern: heuristic — grep for new variable-definition forms ("Let X = " or "where X is " or "X denotes ") and cross-check the X against reserved-letter ledger above. Flag any conflict.
-     Remediation hint: choose a non-reserved letter or Greek letter not already in use (e.g., σ, μ, ν, ξ, π, ρ, φ, ψ, ω; or capital Greek like Γ, Δ, Θ, Λ, Π, Σ, Ψ, Ω).
+     Remediation hint: choose from available unused list above; for set-valued objects use script/calligraphic typography (𝒞, 𝒟, 𝒮, etc.) per Insight #55 §13.2.2.
 
 Exclusions (do NOT flag):
   - core/terms/terms_index.md SUPERSEDED + RETIRED records (canonical record of retired terms)

@@ -656,6 +656,7 @@ Before introducing any new single-letter variable, multi-letter abbreviation, or
 | Pattern | Reserved use | Source |
 |---|---|---|
 | **S_max** | Substitutability function limit (existential substitutability gap) | Insight #33 |
+| **S_threshold** | Critical value of S_max below which a resource is existentially critical (per §F existential substitutability gap definition) | §F Tech Appendix; codified per Insight #55 (2026-04-30) |
 | **t₀** | Initial time (extraction time) | Tech Appendix §B |
 | **r_∞** | Long-run discount rate | Insight #40 (Theorem E.4) |
 
@@ -663,9 +664,13 @@ Before introducing any new single-letter variable, multi-letter abbreviation, or
 
 | Letter | Reserved use | Source |
 |---|---|---|
-| **α** | Scarcity-multiplier exponent / cost-function curvature parameter | Insight #42 (Theorem E.3) + Insight #47 (P2#7 scarcity multiplier) |
-| **λ** | Substitutability function exponential parameter | Insight #40 (Theorem E.4) |
-| **τ (tau)** | Scarcity threshold | Insight #42 (Theorem E.3 — renamed from S to τ to disambiguate from substitutability function S(t)) |
+| **α** | Irreversibility parameter (§M scarcity multiplier; α ∈ [0, 1]; probability commons cannot be restored once extracted) | §M Tech Appendix; codified per Insight #55 (2026-04-30) |
+| **β** | Risk-posture calibrator (§M scarcity multiplier; irreversibility_premium exponent; β = 1 default; β = 2 precaution-regime) | §M Tech Appendix; codified per Insight #55 (2026-04-30) |
+| **ξ (xi)** | Cost-function curvature parameter (Insight #42 Theorem E.3 functional form: c(A) = c₀ · (τ/(A−ξ)... with ξ ≥ 1; renamed from α per Insight #55 to disambiguate from §M α irreversibility parameter) | Insight #42 + Insight #55 (2026-04-30 rename α → ξ) |
+| **λ** | Substitutability function exponential parameter (S(t) = S_max(1 − e^{−λt})) | Insight #40 (Theorem E.4) |
+| **ρ** | Commons regeneration rate (§B Definition A.1; ρ ≥ 0; non-renewable when ρ = 0) | §B Tech Appendix; codified per Insight #55 (2026-04-30) |
+| **σ** | Scarcity parameter (§M scarcity multiplier; commons-stock / sustainable-flow ratio; scarcity_multiplier(σ) = 1 + log(1 + σ) × Hotelling_anchor) | §M Tech Appendix; codified per Insight #55 (2026-04-30) |
+| **τ (tau)** | Scarcity threshold (Insight #42 Theorem E.3 — renamed from S to τ to disambiguate from substitutability function S(t)). NOTE: also commonly appears as integration dummy variable in math conventions (per Insight #55 audit, integration variable usage at line 6720 of Tech Appendix v1.0.0 will be renamed to u during Phase 3 v2.0.0 rebuild to avoid local-vs-global-scope conflict) | Insight #42 + Insight #55 (Phase 3 rename clarification) |
 
 **Multi-letter abbreviations:**
 
@@ -680,6 +685,32 @@ Before introducing any new single-letter variable, multi-letter abbreviation, or
 | **AIT** | RETIRED — superseded by CIT | terms_index retired-records |
 | **FGC** | RETIRED | terms_index retired-records |
 | **ESG** | RETIRED in framework context (industrial-existential substitutability gap) | terms_index retired-records |
+
+### §13.2.1 Section-namespace overlap with single-letter variables (informational)
+
+Per Insight #55 audit (2026-04-30): Tech Appendix section labels (§A through §M) overlap alphabetically with single-letter variable namespace (A, B, C, D, E). This is **standard academic-economics convention** — section labels use letters; variable letters chosen for mnemonic value; context disambiguates in practice.
+
+Specifically:
+- §A. Definitions ↔ A = abundance variable (Theorem E.3)
+- §B. RCV Model ↔ B = Accountability Bond
+- §C. Commons Inversion Test Protocol ↔ C = cost variable (Cᵢ); also 𝒞 = commons-territory set (per §13.2.2)
+- §E. Theorems & Proofs ↔ E = externality tail function E(R, t); also Theorem labels E.1–E.5
+
+**This overlap is documented for completeness; no rename required.** Reader-context disambiguation is reliable: §B (section reference) vs B (variable in equation) is unambiguous in any sentence; "Section E" vs "the externality tail E" likewise.
+
+When introducing new section labels in Phase 3 Tech Appendix v2.0.0 rebuild, consult the reserved-letter ledger §13.2 for any new collisions; document any new overlap in this §13.2.1 note.
+
+### §13.2.2 Set-valued objects use script/calligraphic typography (typography discipline)
+
+Per Insight #55 audit (2026-04-30): when introducing set-valued mathematical objects (vs scalar variables), use **script/calligraphic typography** to disambiguate from variable namespace.
+
+Standard mathematical convention:
+- **𝒞 (script C)** — commons-territory set (resource units R ∈ 𝒞). Disambiguates from C = cost variable (Cᵢ).
+- **𝒟, 𝒮, 𝒰, etc.** — available script forms for future set-valued objects if needed.
+
+This convention applies to any new set-valued object introduced to the framework. Phase 3 Tech Appendix v2.0.0 rebuild applies this discipline to existing line 398 (commons-territory set rename C → 𝒞 per Insight #55 §11.4).
+
+**Pattern-match academic-economics convention:** standard textbooks (Mas-Colell-Whinston-Green; Varian; Friedman) use script typography for set-valued objects (consumption sets ℒ; choice sets 𝒞; outcome spaces 𝛺). Framework discipline aligns.
 
 ### §13.3 The discipline going forward
 

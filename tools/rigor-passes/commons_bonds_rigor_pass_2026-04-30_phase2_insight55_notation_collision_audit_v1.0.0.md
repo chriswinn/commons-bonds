@@ -19,7 +19,7 @@ Categories examined:
 4. Multi-letter abbreviations (RCV, CIT, CSD, ARR, IPG, CS; retired AIT, FGC, ESG)
 5. Section-namespace overlap (informational)
 
-**Status:** PROPOSED — Phase 2 audit complete; awaiting author ratification of verdict + recommended remediation.
+**Status:** **RATIFIED 2026-04-30 by Chris Winn — verdict (a) Full ratify: apply all remediations + ledger additions.** Implementation: ledger additions (β, σ, ρ, ξ, S_threshold) applied to Vocabulary strategy v1.0.1 §13.2 this commit; Routine 1 pattern #10 reserved-letter ledger updated this commit; 3 HIGH-severity renames (α → ξ for E.3 curvature; τ → u for integration variable; C → 𝒞 for commons-territory set) queued for Phase 3 Tech Appendix v2.0.0 rebuild scope.
 
 **Author:** Chris Winn
 
@@ -611,4 +611,4 @@ All ratified Phase 2 audits (Insights #35, #38, #40-42, #47-53) feed into Phase 
 
 ---
 
-**End of Phase 2 Insight #55 framework-wide notation collision audit v1.0.0 [PROPOSED — awaiting author ratification of §11.1 verdict + §11.3 ratification choices + §12 open questions].**
+**End of Phase 2 Insight #55 framework-wide notation collision audit v1.0.0 [RATIFIED 2026-04-30 by Chris Winn — verdict (a) Full ratify].**
