@@ -144,6 +144,33 @@ Per the project's personal-stories-drafting gate: Chris drafts under Path F (no 
 
 ---
 
+### Candidate #5 — Aftermath, caregiving, and return to work (drafted prose, incomplete)
+
+- **Captured:** 2026-05-01 by Chris Winn (live drafted-prose passage in chat). Continuation from Candidate #4 (ER-arrival passage).
+- **Status:** drafted-prose; **incomplete — ends mid-sentence at the no-villain pivot.** Closing line *"My colleagues were not indifferent."* opens the structural-mechanism reveal beat that Chris hasn't written yet. ~330 words.
+- **Story summary:** Picks up after the ER-arrival moment (Candidate #4) and walks through: the four surgeries that followed; the insurance only covering half the home-health-nurse dressing changes (the rest fell to Chris); Chris doing wound-vac and surgical-dressing care for the first time despite twenty years in Aerospace, Security & Healthcare IT; career-arc summary (co-founding a Johns Hopkins electronic-patient-registry / clinical-trial company with shares-traded-for-pay arrangement that turned out worthless absent a liquidity event; NASA Goddard Building 31; NIH 120-hour-weeks origin); the empathic-caregiving beat (*"what she needed was not a nurse. Not a technician. What she needed was someone who would not flinch... I'm intensely empathic. I knew I could give her that. So I did"*); paternal leave running out; a deal coming through ("the kind you do not say no to"); the flight to client site; the house beat (*"The house was beautiful. It was not more beautiful than my family. When I look back in the rearview mirror of time, the house isn't what I miss."*); and the unfinished no-villain pivot opening.
+- **Why it's load-bearing:**
+  - **Bridges Candidate #4 to the existing Ch 1 Draft passages.** The current Ch 1 Draft has the 120-hour-week passage (line 25) and the consent-problem passage (lines 40-44). Candidate #4 is the ER-arrival moment that precedes them. This passage is the connective tissue between the ER and the 120-hour-week — caregiving aftermath → paternal leave running out → deal → flight to client site (which is the 120-hour-week passage's setup). Sequence: Candidate #4 → Candidate #5 → existing 120-hour-week → existing consent-problem.
+  - **The accountability-instrument-arriving-from-an-unexpected-place beat at family scale.** Insurance covered half the dressing changes; Chris absorbed the other half through caregiving labor; the labor was unpriced. Framework's missing-instrument mechanism made personal.
+  - **Concrete startup-equity compensation-architecture severance demonstration.** *"I naively traded pay for company shares.. only to realize they were worthless if that company never gets sold or goes IPO."* Pattern 2 worked-example of how startup equity extracts labor while transferring risk.
+  - **Career-arc summary as cross-spectrum-credibility access-gate.** Twenty years in three industries with three concrete example beats (Hopkins, Goddard, NIH). This is the access-gate function the Ch 1 GuidanceDoc lines 36-42 + 181 names.
+  - **Opens the no-villain-just-structural argument.** The cutoff sentence is the chapter's structural-mechanism-reveal setup. Per Ch 1 GuidanceDoc lines 70-93.
+- **Potential placements:**
+  - **Ch 1 — primary.** Bridges Candidate #4 to existing 120-hour-week + consent-problem passages.
+  - **Possible Ch 5 cross-reference** — the insurance-half-coverage detail is concrete healthcare-cost-severance evidence; Ch 5 carries the system-level critique. The Ch 1 version stays personal/lived; Ch 5 could reference back.
+- **Author notes (open questions for review session):**
+  1. **Finish the cutoff sentence.** What follows *"My colleagues were not indifferent."*? The structural-mechanism reveal beat is the chapter's framework-argument opening; needs to land.
+  2. **NDA / specific-client review** — Johns Hopkins, NASA Goddard Building 31, NIH, MDLogix-shape company. Required before publication.
+  3. **Co-founded company — name MDLogix explicitly or stay generic?**
+  4. **The "intensely empathic" self-description** — register check at review (does it land or read self-congratulatory?).
+  5. **Career-arc summary length** — stays compact or expands?
+  6. **Sequence in Ch 1** — Candidate #4 → Candidate #5 → existing 120-hour-week → existing consent-problem? Or some other order?
+  7. **Two minor copy-edits**: lowercase "i" in two spots; "I had to the insurance company" fragment.
+- **Pre-drafting-gate flags:** CEO-era NDA gate (Hopkins, Goddard Building 31, NIH, MDLogix-shape) — REQUIRED before publication. Wife's-medical-privacy gate HONORED at medical-detail layer; ex-spouse consent question OPEN. No subordinate / Hampton / parents / framework-vocabulary issues in this passage.
+- **Drafting status:** drafted prose at near-publisher-facing register; INCOMPLETE — needs the no-villain reveal beat finished. Awaiting Ch 1 integration decision + NDA review + consent + completion.
+
+---
+
 ### Candidate #4 — The wife's illness — ER arrival passage (drafted prose)
 
 - **Captured:** 2026-05-01 by Chris Winn (live drafted-prose passage in chat).
@@ -173,6 +200,7 @@ Per the project's personal-stories-drafting gate: Chris drafts under Path F (no 
 | 2 | Neeraj / "Mirage" — IT mentor, visa-leverage, leverage flip | 2026-05-01 | raw-dump | `research/story-drafts/ch1_neeraj_2026-05-01.md` | Ch 1 (primary); Ch 5 + Ch 8 + Book 2 (secondary) | 6 |
 | 3 | NASA, Winnie the Pooh, side-consulting setup, becoming CEO | 2026-05-01 | raw-dump (with continuations) | `research/story-drafts/ch1_becoming-ceo_2026-05-01.md` | Ch 1 (primary); Ch 10 (grandfather thread); Ch 5 + Ch 8 + Book 2 (secondary) | 8 |
 | 4 | The wife's illness — ER arrival passage | 2026-05-01 | drafted-prose | `research/story-drafts/ch1_wife-illness-passage_2026-05-01.md` | Ch 1 (primary; pairs with existing 120-hour-week passage) | 5 |
+| 5 | Aftermath, caregiving, and return to work | 2026-05-01 | drafted-prose (incomplete; ends mid-sentence at no-villain pivot) | `research/story-drafts/ch1_aftermath-and-return-to-work_2026-05-01.md` | Ch 1 (primary; bridges Candidate #4 → existing 120-hour-week / consent-problem passages in Draft) | 7 |
 
 ---
 
