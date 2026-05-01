@@ -209,6 +209,32 @@ Per the project's personal-stories-drafting gate: Chris drafts under Path F (no 
 | 3 | NASA, Winnie the Pooh, side-consulting setup, becoming CEO | 2026-05-01 | raw-dump (with continuations) | `research/story-drafts/ch1_becoming-ceo_2026-05-01.md` | Ch 1 (primary); Ch 10 (grandfather thread); Ch 5 + Ch 8 + Book 2 (secondary) | 8 |
 | 4 | The wife's illness — ER arrival passage | 2026-05-01 | **REJECTED from Book 1 (2026-05-01)** — file retained for private archive | `research/story-drafts/ch1_wife-illness-passage_2026-05-01.md` | None (Book 1) | n/a |
 | 5 | Aftermath, caregiving, and return to work | 2026-05-01 | **PARTIAL REVISION needed (2026-05-01)** — wife-anchored sections excised; survives via son+parents anchors per Ch 1 GuidanceDoc consent-rejection rewrite plan | `research/story-drafts/ch1_aftermath-and-return-to-work_2026-05-01.md` | Ch 1 (primary; revision pending) | 7 |
+| 6 | Letter to Prof. Spencer (recommendation-letter response) | 2026-05-01 | **letter-substrate** — polished personal letter; mineable for 6 Ch 1 / Ch 10 passages | `research/story-drafts/ch1_letter-to-prof-spencer_2026-05-01.md` | Ch 1 (primary; multiple extractable passages); Ch 10 (grandfather thread); possibly own Candidate-status for NIH Children's Center beat | 5 |
+
+### Candidate #6 — Letter to Prof. Spencer (recommendation-letter response; letter-substrate)
+
+- **Captured:** 2026-05-01 by Chris Winn (sharing a previously-written letter in chat).
+- **Status:** **letter-substrate** — different stage from raw-dump (Candidates #2 + #3) and drafted-prose (Candidates #4 + #5). Polished, audience-aware personal letter Chris wrote in response to Prof. Jacqueline L. Spencer's recommendation-letter questionnaire for the VPCC nursing program. Contains six mineable passages at near-Ch-1-publisher-facing register.
+- **Story summary:** Chris's reply to Prof. Spencer's question about why he's chosen this educational path, what made him pursue this goal, why he's a stronger candidate, and something interesting about himself. The letter walks through: an opening reflection on how childhood-aspiration parroting differs from adult-arrival; the problem-solving philosophy (*"infinite number of ways to solve any given problem"*) at consultant register; the shift in definition-of-success; **the parents-aging passage** (*"My parents are visibly moving slower these days... the next flight home will be for something I can't bear to name"*); the search for grounded work that keeps him connected to community; the NASA/grandfather/Langley wind-tunnels connection; the MDLogix / Johns Hopkins patient-registry work; **the NIH Children's Center moment** (*"How do you explain to a child with cancer that the research happening around them might mean future children won't have to be sick?"*); the why-nursing thread (scientific rigor + human connection + daily problem-solving + stability); the stronger-candidate framing (4.0 GPA + VPCC SGA VP + multiple careers + intersection of tech and healthcare); and a closing self-portrait beat (*"I write poetry. It tends to explore consciousness, impermanence, and the edges of what language can actually hold."*).
+- **Why it's load-bearing for Ch 1:**
+  - **The parents-anchor passage directly satisfies the consent-rejection rewrite plan** (per Ch 1 GuidanceDoc §Consent-rejection rewrite plan landed 2026-05-01). The closing line *"the next flight home will be for something I can't bear to name"* is a candidate replacement-punchline for the existing consent-problem passage's *"you still ended up on a plane while your wife recovered from dying."*
+  - **The grandfather Langley passage answers the Ch 10 GuidanceDoc placeholder** about model-maker / wind-tunnels / specific-installation, tighter than the dictated dump in `ch1_becoming-ceo_2026-05-01.md`.
+  - **The NIH Children's Center moment is a NEW Ch 1 candidate** — healthcare-cost-severance-at-individual-scale + meaning-of-work moment + intergenerational-cost reversal demonstrated through one specific child. Pattern 2 perfect.
+  - **Voice observation (load-bearing for Ch 1 revision capability):** Chris produced this letter at near-publisher-facing register. The gap between dictated raw-dumps and the prose Ch 1 actually needs is bridgeable; the letter is proof-of-capability.
+- **Six mineable passages itemized in the raw-substrate file frontmatter** (`research/story-drafts/ch1_letter-to-prof-spencer_2026-05-01.md`):
+  1. Parents-anchor / consent-problem replacement punchline
+  2. Grandfather Langley wind-tunnels passage
+  3. NIH Children's Center moment (NEW Ch 1 candidate)
+  4. Why-nursing thread / framework-applied-to-own-life beat
+  5. Self-portrait closing line
+  6. Problem-solving philosophy (overlaps + tightens Candidate #3's becoming-CEO dump)
+- **Pre-drafting-gate flags:** CEO-era NDA territory (MDLogix + Johns Hopkins + NIH Children's Center named explicitly — REQUIRED legal counsel review before publication); Parents'-privacy gate HONORED ("visibly moving slower" register); Prof. Spencer named as recipient (anonymization decision OPEN); NIH child described abstractly (HIPAA-clean as written); wife / ex-wife NOT referenced (consistent with consent-rejection rewrite plan).
+- **Author notes (open questions for review session):**
+  1. NIH Children's Center moment — promote to its own Candidate?
+  2. Parents-anchor passage — direct lift, light revision, or full rewrite for Ch 1 prose-flow neighbors?
+  3. NDA review trigger — concrete with this letter naming all three (MDLogix / JHU / NIH) at near-publisher-facing register.
+  4. Letter-as-substrate vs letter-as-archive folder location.
+  5. Prof. Spencer recipient detail — keep / anonymize / remove from any prose that references the letter context.
 
 ---
 
