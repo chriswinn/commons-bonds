@@ -189,3 +189,61 @@ This closing reference also subtly resolves the Goal-2 success-criterion: the bo
 **Coordination with Ch 7 guidance:** Ch 7 carries the worked example at full depth (4 perspectives + 1,000-1,500 words). Ch 10 carries the closing reference at single-paragraph depth. Don't duplicate; Ch 10's invocation should assume the reader has just walked through the worked example in Ch 7 a few chapters earlier.
 
 **Path-dependency note:** if Path F (variables-not-dimensions reframing per PCR v1.0.0 §2 Path F) is adopted at PCR §8, this closing reference would frame the tool more explicitly as "the equation + the method you can apply" rather than "the framework you can apply." Until §8 is filled in, write to current framework state. (Note 2026-04-25: Path F has since been ratified and superseded by Option C' commons-as-structural-identity reframing — per `core/terms/terms_index.md` + Working Principle #6 Corollary D; this guidance doc note is preserved for provenance but the "current framework state" is now post-Option-C'.)
+
+---
+
+## Sunrise/sunset bookend architecture (added 2026-05-01) — Ch 1/Ch 10 coordination
+
+**Author direction 2026-05-01** (full plan in `Chapter__1___GuidanceDoc.md` §Sunrise/sunset bookend architecture; this section captures the Ch 10 implications):
+
+The book closes at **sunset on the boat**. Replaces the existing Ch 10 dawn-bookended structure with a dawn-to-sunset arc:
+
+| Position | Current state (existing Draft) | New direction (post-2026-05-01) |
+|---|---|---|
+| Ch 10 OPEN | Pre-dawn at Old Point Comfort, watermen going out (Draft lines 15-17) | **UNCHANGED** — already in place; pairs with Ch 1's closing sunrise (possibly the same morning per chiasm reading) |
+| Ch 10 mid-chapter | Catalog-of-cost-bearers + framework synthesis (Draft lines 19-127) | Largely unchanged; possibly absorbs the existing dawn-close material as watermen-coming-back-in beat |
+| Ch 10 CLOSE | *"With the morning coming. With the boats going out."* (Draft line 147) — single dawn moment closing | **REVISED to sunset on the boat** — day done; framework laid out; Chris-on-the-deck-reflecting-at-sunset register |
+
+**The chiasm reading (stronger architectural option to consider):**
+
+Ch 1's closing sunrise-on-the-boat and Ch 10's opening sunrise-at-Old-Point-Comfort could be **the same morning**. The book starts in the air (Ch 1 plane open at sunrise) and ends on the water (Ch 10 boat close at sunset). The reader spends:
+- Morning watching Chris arrive at the boat (Ch 1 plane → boat at dawn = Ch 10 open)
+- The day with the framework (Ch 2-9)
+- Evening with Chris reflecting on what the framework changed (Ch 10 dawn → sunset)
+
+Geographic spine: Chris's boat is in Hampton; Old Point Comfort is Hampton's harbor; the watermen visible from Chris's deck. The same morning hand-off from Ch 1 close to Ch 10 open is geographically natural.
+
+**Existing Ch 10 Draft material that supports the chiasm reading (already in place):**
+
+- **Line 17:** *"I sit on the deck of a sailboat in that quiet and watch them go. Most mornings I am there because I could not sleep, or because I did not want to. Some mornings I am there on purpose, with coffee, because it is one of the places in my life that still tells the truth."* — already establishes Chris-on-the-boat at dawn watching the watermen go.
+- **Line 31:** *"If I stand on my deck in the dark and close my eyes and imagine the continent at this hour, I can see the miner going down and the waterman going out and a woman in Baotou starting a shift..."* — already a reflective-on-the-boat passage at dawn. Pairs with the proposed Ch 1 close (same morning, same deck).
+
+These passages do NOT need to change. They establish Chris-at-dawn-on-the-deck, which is exactly the chiasm anchor.
+
+**What needs to change in Ch 10 Draft:**
+
+- **Line 147 closing prose** (*"With the morning coming. With the boats going out."*) — REVISED to sunset close. The "With the morning coming" line is currently the chapter's literal closing line; under the new architecture it would either move to a mid-chapter beat (the watermen-coming-back-in moment marking the day's transition from morning argument to evening reflection) OR be retired entirely if the prose flow doesn't need it.
+- **Lines 141-147** (the "compass" passage) — currently positioned as the chapter's dawn close. Under the new architecture this material could either remain as the closing structural passage but at sunset register (revised to "with the evening coming. with the boats coming back."), or move earlier in the chapter and let new sunset prose carry the literal close.
+- **NEW prose needed:** sunset-on-the-boat closing. Chris-on-the-deck-reflecting-at-sunset; what-the-day-has-changed register; the framework laid out, the watermen back at the dock, the Bay still itself, the question carried forward to the reader. Texture-needed from Chris.
+
+**Open question for next-session work:**
+
+How tightly does the chiasm read in the prose? Three options:
+- **Loose chiasm:** Ch 1 close and Ch 10 open are merely "morning on the boat" — temporally adjacent but not necessarily the same morning. Easier for the reader to follow; doesn't require Ch 1's dawn to literally hand off to Ch 10's dawn.
+- **Tight chiasm:** Ch 1's last line and Ch 10's first line are the same morning, with Ch 2-9 happening "across the day" or "across the years that the day represents." Stronger architecturally; harder to land without feeling labored.
+- **Implied chiasm:** The geographic spine + same-deck imagery does the work without the prose explicitly saying "this is the same morning." Reader notices on reflection. Probably the cleanest option.
+
+Author's call. Probably surfaces during prose work, not before.
+
+**What this addendum does NOT decide:**
+
+- Final prose for the Ch 10 sunset close.
+- Disposition of the existing dawn-close material (lines 141-147) — revised, relocated, or partially retired.
+- Whether the chiasm is loose / tight / implied.
+
+**Cross-references:**
+
+- `Chapter__1___GuidanceDoc.md` §Sunrise/sunset bookend architecture (added 2026-05-01) — full plan; this Ch 10 addendum is the companion.
+- Existing Ch 10 Draft lines 15-17, 19-31, 141-147 — current dawn-bookended structure that revises to dawn-to-sunset arc.
+- Author direction 2026-05-01 — *"watching the sunset from the boat as a close of the book at Chapter 10."*
+- Closing meta-notes from this GuidanceDoc (above) — Chris's earlier instinct that Ch 1 + Ch 10 share Hampton-harbor geography. The 2026-05-01 architecture extends and tightens that earlier instinct.

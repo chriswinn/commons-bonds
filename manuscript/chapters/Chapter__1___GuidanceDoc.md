@@ -516,3 +516,82 @@ Two relationships Chris can write about without third-party consent in question.
 - Ch 1 GuidanceDoc line 226 (wife's-medical-privacy gate) — gate now operates at zero — no medical-detail discipline test is run because no wife-medical material lands in publisher-facing scope.
 - Audit §9.3 nursing-rotation original-scene candidate — promoted from optional to load-bearing.
 - Candidates catalog Candidate #4 + #5 — status updates queued.
+
+### Healthcare-bridge alternatives (added 2026-05-01)
+
+**Author direction 2026-05-01:** *"Nursing-school clinical-rotations won't start until fall so I would like to explore other options but keep this as an option if all others fall flat between now and then."*
+
+The consent-rejection rewrite plan promoted nursing-rotation observations to load-bearing healthcare-end-of-life-bridge replacements for the wife's-illness anchor. With clinical rotations not starting until fall 2026, the bridge function reallocates as follows:
+
+- **PRIMARY (already on disk):** **NIH Children's Center moment** from Candidate #6 letter-substrate. *"How do you explain to a child with cancer that the research happening around them might mean future children won't have to be sick? I have never felt more humbled. I have never felt more useful."* Healthcare-mechanism-at-individual-scale + meaning-of-work + intergenerational-cost-reversal demonstrated through one specific child. Pattern 2 perfect. Already in author voice; needs scene-expansion.
+- **PRIMARY (already on disk):** **Parents-aging healthcare moments** as a subset of the parents-anchor (any moments accompanying a parent to a medical context — within parents-privacy gate at "visibly moving slower" register). Naturally extends the parents-anchor.
+- **SECONDARY (audit §9.3 line 1647):** **VPCC SGA / community-college observations** — first-in-family students navigating educational commons pressures; everyday observation from Chris's current SGA presidency. Different domain (educational rather than healthcare) but same cost-severance-at-individual-scale function. Available NOW; does NOT do the healthcare-end-of-life bridge but covers the additional-original-scene-beyond-the-plane function.
+- **POSSIBLE (uncaptured):** **Chris-as-patient observations** — moments in own healthcare where the mechanism became visible. Pure first-person; no consent issues; no HIPAA issues for Chris. Open question for Chris: anything come to mind?
+- **POSSIBLE (uncaptured):** **MDLogix / patient-registry / clinical-trial work moments** — Chris's window into specific patient cohorts via the data work at Johns Hopkins. HIPAA-bounded; possibly accessible at the right abstraction level.
+- **RESERVE (fall 2026):** **Nursing-school clinical-rotation observation** — held in reserve for fall 2026 when rotations begin; backup if other options fall flat between now and then.
+
+**Recommended primary path:** lead with NIH Children's Center moment for healthcare bridge function (already captured; just needs scene-expansion). Use VPCC SGA for the audit §9.3 additional-original-scene slot (available now). Hold clinical rotations in reserve for fall.
+
+### Sunrise/sunset bookend architecture (added 2026-05-01)
+
+**Author direction 2026-05-01:** *"I think the sun rising as I look out the window of the plane at the beginning of chapter one, then to close the chapter the sun rising over my boat both in moments of reflection could be good opening and closing moves for the chapter. Additionally that could setup watching the sunset from the boat as a close of the book at Chapter 10."*
+
+**The architectural decision (load-bearing for Ch 1 + Ch 10):**
+
+| Position | Scene | Time-of-day | What it does |
+|---|---|---|---|
+| Ch 1 OPEN | Sun rising as Chris looks out plane window | sunrise (in motion) | beginning of questioning; chapter's titular plane moment |
+| Ch 1 CLOSE | Sun rising over the boat | sunrise (grounded) | beginning of the current life; reflective bookend to the plane open |
+| Ch 10 OPEN (already present in current Draft) | Pre-dawn at Old Point Comfort, watermen going out | dawn (grounded) | beginning of the day's work; framework about to be done |
+| Ch 10 CLOSE (NEW; replaces existing dawn close) | Sunset on the boat | sunset (grounded) | day done; framework laid out; reflection on what the day changed |
+
+**The chiasm reading (stronger architectural option to consider):**
+
+Ch 1's closing sunrise-on-the-boat and Ch 10's opening sunrise-at-Old-Point-Comfort could be **the same morning**. Geographic spine: Chris's boat is in Hampton; Old Point Comfort is Hampton's harbor; the watermen going out past the breakwater are visible from Chris's deck. If the Ch 1 close hands directly to the Ch 10 open at dawn, the book becomes **a single day's reflection**:
+
+- Ch 1: in motion at dawn (plane) → grounded at dawn (boat — same morning Ch 10 opens on)
+- Ch 2–9: the framework laid out — what the day's work IS
+- Ch 10: dawn (boat, opens; watermen going out) → sunset (boat, closes; day done)
+
+The book starts in the air and ends on the water. The reader spends the morning watching Chris arrive at the boat, the day with the framework, and the evening with Chris reflecting on what the framework changed. **This same-morning reading is stronger than two-separate-mornings; supersedes the existing GuidanceDoc lines 222 coordination note** (*"Ch 1's 'I came to this harbor because...' framing + Ch 10's Old-Point-Comfort-at-dawn opening share a geographic spine. Don't repeat the same image; earn the recurrence by letting Ch 1 plant what Ch 10 pays off."*) — the "earned recurrence" register holds, and the same-morning chiasm strengthens it: not "different morning, same place" but "same morning, two vantages."
+
+**Supersedes earlier guidance:** the audit §2.3-era *"Coordinate with Ch 10 harbor opening — don't repeat the same image"* note (Ch 1 GuidanceDoc above, in audit-integration section dated 2026-04-23) is updated by this architectural decision. The image isn't avoided; it's deliberately bridged.
+
+**Implications for prose work:**
+
+- **Ch 1 OPEN (NEW prose):** sun-rising-from-plane-window scene. Chris in motion. Texture needed: flight, direction, time of day, what he's looking at, what he's thinking, what's offstage at home (now: son-in-NICU + parents-aging per consent-rejection rewrite plan). Scene-expansion of what the existing Draft's 120-hour-week passage gestures at.
+- **Ch 1 CLOSE (NEW prose):** sun-rising-on-boat scene. Chris grounded. Texture needed: morning routine on the sailboat, the harbor, the watermen visible from the deck (planting Ch 3), the moment of arrival from the consulting life to the current life. Pairs with Ch 10's existing pre-dawn-at-the-harbor opening.
+- **Ch 10 CLOSE (REVISION):** sunset on the boat. Replaces the current *"With the morning coming. With the boats going out."* dawn close. Existing dawn-close material (e.g., the "compass" passage at Ch 10 line 141) needs reworking — possibly moves earlier in the chapter as the watermen-coming-back-in beat that bridges from morning argument to evening reflection. The current Ch 10 Draft already has Chris-on-the-deck-reflecting at dawn (lines 17 + 31); the NEW prose needs Chris-on-the-deck-reflecting at sunset, with what-the-day-has-changed register.
+- **Ch 10 OPEN:** unchanged. Pre-dawn at Old Point Comfort already in place.
+
+**Existing Ch 10 material that supports the chiasm reading:**
+
+- Ch 10 line 17: *"I sit on the deck of a sailboat in that quiet and watch them go. Most mornings I am there because I could not sleep, or because I did not want to. Some mornings I am there on purpose, with coffee, because it is one of the places in my life that still tells the truth."* Already establishes Chris-on-the-boat at dawn watching the watermen go.
+- Ch 10 line 31: *"If I stand on my deck in the dark and close my eyes and imagine the continent at this hour, I can see the miner going down and the waterman going out and a woman in Baotou starting a shift..."* Already a reflective-on-the-boat passage at dawn. Pairs with the Ch 1 close (same morning, same deck).
+
+**Scene-list for the Ch 1 prose work (per author direction 2026-05-01):**
+
+The following six scenes were named by the author as Ch 1 drafting targets. Captured here to persist:
+
+1. **120-hour work week** — already drafted in `Chapter__1___Draft.md` line 25; needs revision under consent-rejection rewrite plan (drop wife clause; add son + parents). Open question for revision: was Chris's son in the NICU during this period? If so, the revised passage can fold in *"my son in a NICU bed needing human contact"* as the displacing event the contract pulled him toward the plane away from. If timeline is separate, the passage stays cleaner without braiding them.
+2. **The plane scene** — Ch 1 OPEN per the bookend architecture above. Sun rising; airborne; reflection. Texture-needed.
+3. **Sunset on the boat** — book close per the bookend architecture above (lands in Ch 10, NOT Ch 1). Texture-needed.
+4. **Father giving advice on jobs** — texture-needed: specific conversation; specific advice; where, when, what context.
+5. **Father asking if Chris would be proud of the job he did, prior to him going to look** — texture-needed: childhood chore? early job? specific moment? what was he going to look at? Values-check moment that prefigures the consent-problem passage's structural argument.
+6. **Son on chest in NICU** — *"them putting my son on my chest for hours at a time as it isn't healthy for a baby to not have human contact and just be in a bed in the NICU for weeks."* Most load-bearing of the new scenes; trauma-adjacent; deserves clear-headed work. The framework's missing-instrument mechanism made personal at family scale: institutional medical care couldn't substitute for human contact; the mechanism is the missing-something-only-people-can-give. Reframes the displacement question — the contract was pulling Chris away from a son who literally needed Chris's body in contact with him for medical reasons. **This scene may be MORE structurally important than the plane scene; the plane is the displacement-vehicle and the NICU is the displacement-payload.**
+
+Open question across the scene-list: timeline of NICU vs 120-hour-week period. Answer shapes how scenes 1, 2, and 6 braid (or stay separate) in the prose.
+
+**What this architecture does NOT decide:**
+
+- Specific texture for any of the six scenes — author-supplied during drafting sessions.
+- Whether Ch 1's open and Ch 10's open are the literal same morning in the prose, or just temporally adjacent. Could read either way; prose makes the call.
+- Final phrasing of any sun-anchored passage — author voice produces the prose; this plan fixes the architecture only.
+
+**Cross-references:**
+
+- Author direction 2026-05-01 (this conversation; sunrise/sunset bookend + same-morning chiasm + six-scene list).
+- Ch 10 GuidanceDoc — companion architectural addendum landed 2026-05-01 capturing the Ch 10 implications.
+- Existing Ch 10 Draft lines 15-31, 141, 147 — current dawn-bookended structure that will revise to dawn-to-sunset arc.
+- Consent-rejection rewrite plan (above) — son-anchor + parents-anchor decision feeds the displacement-payload texture for the plane + NICU scenes.
+- Healthcare-bridge alternatives (above) — NIH Children's Center moment + parents-aging + VPCC SGA carry the additional-original-scene functions while clinical rotations are on reserve until fall 2026.
