@@ -463,3 +463,56 @@ What this passage carries: her strength, her stoicism, her self-effacement, the 
 - Pre-drafting gate at GuidanceDoc line 226 (wife's-medical-privacy) — this craft note operationalizes that gate from the prose-craft side; the gate states what's excluded, this note states how to characterize within what's permitted.
 - Ch 5 healthcare-end-of-life canonical routing (`research/case-studies/healthcare-end-of-life.md`) — Ch 5 carries the system-level healthcare-cost-severance argument. Ch 1's medical-event passage is the personal-scale demonstration; the system-level work belongs to Ch 5. This separation also reduces the load on the Ch 1 passage.
 - Insight #14 (Norway / epistemic-humility discipline ratified 2026-04-30) — "demonstrate the affordance, don't codify it" register family. This craft note extends the same register to characterization: demonstrate her personhood through behavior, don't codify it through diagnostic catalog.
+
+### Consent-rejection rewrite plan (added 2026-05-01)
+
+**Author direction 2026-05-01:** *"let's assume a complete rejection of consent and write from that perspective. So that'll take some planning and perhaps dropping all details of her and her emergency completely."* Subsequent confirmation: displacement-anchor decision is **son-first-weeks (immediate / urgent) + parents-aging (longer-arc / lineage)** in combination. *"I was going to suggest a combination of my son's first weeks and my parents moving a little slower and standing a little more hunched over before I even read the third option."*
+
+This plan supersedes the wife's-illness craft note's specific application (above). The craft note's *discipline* (behavior-not-diagnosis; characterization through behavior + sensory anchor; lineage-anchor at Gawande / Boyer / Crosby) **transfers** to the replacement story-types. The discipline-articulation is preserved because it's independently useful for any caregiving-or-illness passage that may surface elsewhere (parents; nursing-rotation observations from Chris's clinical work).
+
+**Displacement-anchor decision (load-bearing for Ch 1's reader-recognition function):**
+
+The displacing event for the 120-hour-week / contract / flight thread is now anchored on:
+
+- **Son-first-weeks** (immediate / urgent) — the weeks the son was newest in the world; paternal-leave-running-out as the urgent-displacement event; the held-longer / could-have-been-held-differently register the existing Draft already opens.
+- **Parents-aging** (longer-arc / lineage) — moving a little slower; standing a little more hunched over each visit; lineage-cost of time-not-spent before the next visit.
+
+Two relationships Chris can write about without third-party consent in question.
+
+**Revisions triggered by this plan:**
+
+| Item | Current state | Revision needed |
+|---|---|---|
+| `Chapter__1___Draft.md` line 25 (120-hour-week passage) | *"from my wife recovering from dying, from my son who could have been held longer, from the version of my life that required me to be physically, cognitively, emotionally present"* | Drop the wife clause; lean on son + parents. Example revision (Chris's voice produces final): *"from my son who could have been held longer, from the parents who were aging more visibly each visit, from the version of my life that required me to be physically, cognitively, emotionally present."* |
+| `Chapter__1___Draft.md` lines 40-44 (consent-problem passage) | Closing punchline: *"you still ended up on a plane while your wife recovered from dying"* | Replacement candidates surfaced 2026-05-01: *"you still ended up on a plane the week your son was three weeks old"* / *"you still ended up on a plane while your son was learning what your absence meant"* / *"you still ended up on a plane during the weeks your son was newest in the world."* Author voice; final phrasing is Chris's call. |
+| `research/story-drafts/ch1_wife-illness-passage_2026-05-01.md` (Candidate #4) | drafted-prose; ER-arrival passage | **REJECTED from Book 1 publisher-facing scope.** File retained at `research/story-drafts/` for private archive; not deleted. |
+| `research/story-drafts/ch1_aftermath-and-return-to-work_2026-05-01.md` (Candidate #5) | drafted-prose with raw-dump continuation; multi-section | **PARTIAL REVISION.** Surviving sections: career-arc summary (Hopkins / NASA Goddard / NIH); deal-came-through beat; flight; house line; no-villain pivot; sales-as-vocation continuation. Excised sections: the surgeries, the wound-vac, the dressing changes, *"person who had literally died and been brought back,"* the *"what she needed was not a nurse"* passage. Replacement structural function relocates to son-first-weeks + parents-aging anchors. |
+
+**Healthcare-end-of-life bridge under the new constraint** (refines GuidanceDoc lines 187-189):
+
+- **Parents-anchor** preserved (already in the GuidanceDoc; the lineage-cost / aging-visibly-each-visit register).
+- **Nursing-rotation observation** promoted from optional-additional-original-scene candidate (per audit §9.3 line 1636 + GuidanceDoc lines 212-220) to a load-bearing healthcare-end-of-life anchor for Ch 1. Chris-as-clinical-observer rather than Chris-as-spouse. The healthcare-cost-severance mechanism made visible from the patient-care side. HIPAA-scrubbed; specific moment Chris witnessed during clinical rotation.
+- The bridge to Ch 5 healthcare-end-of-life material is preserved; the anchor shifts.
+
+**Status-update flags for catalog (`alignment/commons_bonds_personal_stories_candidates_v1.0.0.md`):**
+
+- Candidate #4 → status **REJECTED from Book 1 publisher-facing scope**. Move to §5 Rejected candidates table; full entry retained in §2 with rejection-status header for archival continuity.
+- Candidate #5 → status **PARTIAL-REVISION-NEEDED**. Surviving + excised sections delineated above.
+- §3 Drafted stories table — update Candidate #4 + #5 status fields.
+
+**What this plan does NOT decide:**
+
+- The specific son-first-weeks moment(s) Chris will write into the prose. (Author choice; surfaces during the next conversational drafting session.)
+- The specific parents-aging moment(s). (Same.)
+- The specific nursing-rotation observation. (Same.)
+- The exact phrasing of the consent-problem replacement punchline. (Same.)
+- Whether Candidate #4's raw-draft file stays in `research/story-drafts/` indefinitely or migrates to a private-archive-only location. (Author choice.)
+
+**Cross-references:**
+
+- Author direction 2026-05-01 (this conversation; consent-rejection scope decision + son+parents anchor confirmation).
+- Wife's-illness craft note above — discipline transfers; specific application removed.
+- Ch 1 GuidanceDoc lines 138-143 (story-types-worth-drafting) — son + parents already in the menu; this plan elevates them to load-bearing.
+- Ch 1 GuidanceDoc line 226 (wife's-medical-privacy gate) — gate now operates at zero — no medical-detail discipline test is run because no wife-medical material lands in publisher-facing scope.
+- Audit §9.3 nursing-rotation original-scene candidate — promoted from optional to load-bearing.
+- Candidates catalog Candidate #4 + #5 — status updates queued.

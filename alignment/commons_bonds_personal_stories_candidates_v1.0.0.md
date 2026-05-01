@@ -144,7 +144,11 @@ Per the project's personal-stories-drafting gate: Chris drafts under Path F (no 
 
 ---
 
-### Candidate #5 — Aftermath, caregiving, and return to work (drafted prose, incomplete)
+### Candidate #5 — Aftermath, caregiving, and return to work (drafted prose, incomplete) — PARTIAL REVISION (2026-05-01)
+
+**STATUS UPDATE 2026-05-01: PARTIAL REVISION NEEDED** per author direction (ex-wife consent assumed withheld). Surviving sections (career-arc summary covering Hopkins / NASA Goddard / NIH; deal-came-through beat; flight; house line; no-villain pivot; sales-as-vocation continuation) all retained. Excised sections (the surgeries; the wound-vac; the dressing changes; *"person who had literally died and been brought back"*; the *"what she needed was not a nurse"* passage) all marked for excision in revision. Replacement structural function relocates to son-first-weeks + parents-aging anchors per the consent-rejection rewrite plan in `manuscript/chapters/Chapter__1___GuidanceDoc.md`. The full original entry below preserved for archival continuity; revision happens in the next drafting session.
+
+---
 
 - **Captured:** 2026-05-01 by Chris Winn (live drafted-prose passage in chat). Continuation from Candidate #4 (ER-arrival passage).
 - **Status:** drafted-prose; **incomplete — ends mid-sentence at the no-villain pivot.** Closing line *"My colleagues were not indifferent."* opens the structural-mechanism reveal beat that Chris hasn't written yet. ~330 words.
@@ -171,7 +175,11 @@ Per the project's personal-stories-drafting gate: Chris drafts under Path F (no 
 
 ---
 
-### Candidate #4 — The wife's illness — ER arrival passage (drafted prose)
+### Candidate #4 — The wife's illness — ER arrival passage (drafted prose) — REJECTED from Book 1 (2026-05-01)
+
+**STATUS UPDATE 2026-05-01: REJECTED from Book 1 publisher-facing scope** per author direction (ex-wife consent assumed withheld). Raw-draft file retained at `research/story-drafts/ch1_wife-illness-passage_2026-05-01.md` for private archive; not deleted. Craft-discipline established by this exercise (behavior-not-diagnosis register; characterization through behavior + sensory anchor) **transfers** to the replacement story-types per the consent-rejection rewrite plan in `manuscript/chapters/Chapter__1___GuidanceDoc.md`. The full original entry below preserved for archival continuity.
+
+---
 
 - **Captured:** 2026-05-01 by Chris Winn (live drafted-prose passage in chat).
 - **Status:** drafted-prose — near-publisher-facing-ready. Different stage from Candidates #2 + #3 (which are raw stream-of-consciousness dumps); this is a tight prose passage Chris produced as a craft test of the wife's-illness craft note in the Ch 1 GuidanceDoc lines 432-465.
@@ -199,8 +207,8 @@ Per the project's personal-stories-drafting gate: Chris drafts under Path F (no 
 |---|---|---|---|---|---|---|
 | 2 | Neeraj / "Mirage" — IT mentor, visa-leverage, leverage flip | 2026-05-01 | raw-dump | `research/story-drafts/ch1_neeraj_2026-05-01.md` | Ch 1 (primary); Ch 5 + Ch 8 + Book 2 (secondary) | 6 |
 | 3 | NASA, Winnie the Pooh, side-consulting setup, becoming CEO | 2026-05-01 | raw-dump (with continuations) | `research/story-drafts/ch1_becoming-ceo_2026-05-01.md` | Ch 1 (primary); Ch 10 (grandfather thread); Ch 5 + Ch 8 + Book 2 (secondary) | 8 |
-| 4 | The wife's illness — ER arrival passage | 2026-05-01 | drafted-prose | `research/story-drafts/ch1_wife-illness-passage_2026-05-01.md` | Ch 1 (primary; pairs with existing 120-hour-week passage) | 5 |
-| 5 | Aftermath, caregiving, and return to work | 2026-05-01 | drafted-prose (incomplete; ends mid-sentence at no-villain pivot) | `research/story-drafts/ch1_aftermath-and-return-to-work_2026-05-01.md` | Ch 1 (primary; bridges Candidate #4 → existing 120-hour-week / consent-problem passages in Draft) | 7 |
+| 4 | The wife's illness — ER arrival passage | 2026-05-01 | **REJECTED from Book 1 (2026-05-01)** — file retained for private archive | `research/story-drafts/ch1_wife-illness-passage_2026-05-01.md` | None (Book 1) | n/a |
+| 5 | Aftermath, caregiving, and return to work | 2026-05-01 | **PARTIAL REVISION needed (2026-05-01)** — wife-anchored sections excised; survives via son+parents anchors per Ch 1 GuidanceDoc consent-rejection rewrite plan | `research/story-drafts/ch1_aftermath-and-return-to-work_2026-05-01.md` | Ch 1 (primary; revision pending) | 7 |
 
 ---
 
@@ -236,6 +244,16 @@ Per `project_personal_stories_drafting.md`: when 3–5 drafts exist, the testing
 ### §6.4 Privacy + consent discipline
 
 Per Ch 1 guidance §Pre-drafting gates: wife's medical privacy, parents' privacy, Hampton community observations, and CEO-era NDA restrictions apply to any personal story. Each candidate's *Author notes* field should flag relevant privacy/consent issues.
+
+**2026-05-01 update — ex-wife consent decision:** per author direction, **assume complete rejection of consent from the ex-wife**. All details of her and her medical emergency are dropped from publisher-facing scope. The displacement-anchor for Ch 1's 120-hour-week / contract / flight thread shifts to **son-first-weeks (immediate / urgent) + parents-aging (longer-arc / lineage)** in combination. Healthcare-end-of-life bridge re-anchors on parents + nursing-rotation observation (per audit §9.3). Full plan in `manuscript/chapters/Chapter__1___GuidanceDoc.md` §Consent-rejection rewrite plan. Affects Candidates #4 (REJECTED from Book 1) and #5 (PARTIAL REVISION). The wife's-illness craft note's *discipline* (behavior-not-diagnosis; characterization through behavior + sensory anchor) transfers to the replacement story-types.
+
+---
+
+## §7. Rejected candidates
+
+### Candidate #4 — The wife's illness — ER arrival passage
+
+**Rejected 2026-05-01 from Book 1 publisher-facing scope.** Reason: ex-wife consent assumed withheld per author direction. Raw-draft file retained at `research/story-drafts/ch1_wife-illness-passage_2026-05-01.md` for private archive. Craft-discipline established by the exercise transfers to replacement story-types per the consent-rejection rewrite plan. Full original entry preserved in §2 with rejection-status header.
 
 ---
 
