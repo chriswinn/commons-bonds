@@ -144,12 +144,35 @@ Per the project's personal-stories-drafting gate: Chris drafts under Path F (no 
 
 ---
 
+### Candidate #4 — The wife's illness — ER arrival passage (drafted prose)
+
+- **Captured:** 2026-05-01 by Chris Winn (live drafted-prose passage in chat).
+- **Status:** drafted-prose — near-publisher-facing-ready. Different stage from Candidates #2 + #3 (which are raw stream-of-consciousness dumps); this is a tight prose passage Chris produced as a craft test of the wife's-illness craft note in the Ch 1 GuidanceDoc lines 432-465.
+- **Story summary:** Chris took the illustrative sample passage from the Ch 1 GuidanceDoc craft note ("She walked into the ER under her own power...") and produced a ~150-word prose passage in his voice with specific texture — the five days of telling him she couldn't sleep but she was ok and not to worry; the pharmacy moment when nurses had forgotten to call in medication for what they presumed was an upset stomach; the head nurse stopping the symptom intake mid-sentence and telling him to bring her in immediately; the chatter at the visit; the nurse going silent at the monitor; the surgical team arriving; the doctor talking past her, fast, to the residents; her telling them she was fine to wait if there were emergencies. Closing line: *"she would later find out she was the emergency, she had been the emergency for days."*
+- **Why it's load-bearing:**
+  - The craft-note discipline is tested and held. The passage carries the fact-of-near-death + caregiving-displacement abstractions the pre-drafting-gate at GuidanceDoc line 226 names as structurally necessary; does NOT carry diagnosis / surgical specifics / ongoing condition the gate excludes. The reader knows she nearly died; the reader does NOT know what was wrong with her body. Gravity arrives by implication via behavior + medical-system reaction.
+  - The closing line is stronger than the craft-note sample — Chris reframed the line as her *discovery* rather than the narrator's *assertion*. She didn't know. He didn't know. The medical system had to tell them both. That structural-inversion beat is the framework's accountability-instrument-finally-arriving moment in microcosm at family scale.
+  - Pairs with the existing 120-hour-week passage in Ch 1 Draft. The 120-hour-week passage carries the *displacing* mechanism (work captures attention; attention is taken from somewhere — her recovering from dying); this passage carries the *displaced* event (what was actually happening to her during those five days). Bookend passages on the same structural mechanism.
+- **Potential placements:**
+  - **Ch 1 — primary.** Direct fit for §AUTHOR-ZONE-2 / §AUTHOR-ZONE-3 territory. Pairs structurally with the existing 120-hour-week passage already in the Draft.
+- **Author notes (open questions for review session):**
+  1. Length / scope — stays at ~150 words paired with 120-hour-week, or expands within the gate?
+  2. Placement in chapter — before / after the consent-problem passage; what neighbors it has.
+  3. Light copy-edit — minor punctuation / capitalization (e.g., "ok" → "okay"; "doctors visits" → "doctor visits"; comma placement).
+  4. **Consent question with ex-wife — INDEPENDENT of medical-detail discipline.** The gate language re: "her story is not Chris's to put on paper" still applies even to behavior-and-system-reaction prose. OPEN regardless of how cleanly the medical-detail line is honored.
+  5. The opening sentence currently echoes the craft-note sample verbatim. If Chris wants it unmistakably his, a small first-line revision would do it.
+- **Pre-drafting-gate flags:** wife's-medical-privacy gate **HONORED at the medical-detail layer**; consent-question (ex-spouse) OPEN at the meta-layer. No NDA / subordinate / Hampton / parents / framework-vocabulary issues.
+- **Drafting status:** drafted prose passage at near-publisher-facing register; awaiting Ch 1 integration decision + consent confirmation.
+
+---
+
 ## §3. Drafted stories
 
-| # | Title | Captured | Raw draft | Chapter target | Open questions count |
-|---|---|---|---|---|---|
-| 2 | Neeraj / "Mirage" — IT mentor, visa-leverage, leverage flip | 2026-05-01 | `research/story-drafts/ch1_neeraj_2026-05-01.md` | Ch 1 (primary); Ch 5 + Ch 8 + Book 2 (secondary) | 6 |
-| 3 | NASA, Winnie the Pooh, side-consulting setup, becoming CEO | 2026-05-01 | `research/story-drafts/ch1_becoming-ceo_2026-05-01.md` | Ch 1 (primary); Ch 10 (grandfather thread); Ch 5 + Ch 8 + Book 2 (secondary) | 8 |
+| # | Title | Captured | Stage | Raw / drafted | Chapter target | Open questions count |
+|---|---|---|---|---|---|---|
+| 2 | Neeraj / "Mirage" — IT mentor, visa-leverage, leverage flip | 2026-05-01 | raw-dump | `research/story-drafts/ch1_neeraj_2026-05-01.md` | Ch 1 (primary); Ch 5 + Ch 8 + Book 2 (secondary) | 6 |
+| 3 | NASA, Winnie the Pooh, side-consulting setup, becoming CEO | 2026-05-01 | raw-dump (with continuations) | `research/story-drafts/ch1_becoming-ceo_2026-05-01.md` | Ch 1 (primary); Ch 10 (grandfather thread); Ch 5 + Ch 8 + Book 2 (secondary) | 8 |
+| 4 | The wife's illness — ER arrival passage | 2026-05-01 | drafted-prose | `research/story-drafts/ch1_wife-illness-passage_2026-05-01.md` | Ch 1 (primary; pairs with existing 120-hour-week passage) | 5 |
 
 ---
 
