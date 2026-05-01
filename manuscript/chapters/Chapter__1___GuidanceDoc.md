@@ -424,3 +424,42 @@ Not prescriptive — Chris's preference governs. Default shape if no preference 
 4. **Plant the healthcare-end-of-life bridge** per existing lines 187-189 — the medical-commons mechanism operating on the wife's body and, later, the parents' bodies. Both in Chris's personal story.
 5. **Optional: the additional original scene** per existing lines 212-220 — nursing-school clinical rotation OR community-college SGA observation OR healthcare-IT institutional scene. One additional scene beyond the plane opener (per chapter-audit-v1.0.6 sociology-paper source item 3; also at audit §9.3 line 1636).
 6. **Land the closing in Chris's voice** with the bridge to Ch 2 (one McDowell County reference permissible per existing line 224 — the case itself is Ch 2's work).
+
+### Craft note — the wife's-illness passage: characterization without diagnosis
+
+*Added 2026-04-30 during β.1 deliberation on whether to expand the wife's-illness passage with diagnostic specifics (sepsis / ruptured intestine / surgical death-and-revival / ileostomy bag) to give her dimensionality on the page.*
+
+**Concern surfaced:** the existing 120-hour-week passage's reference — *"from my wife recovering from dying"* — risks flattening her into a plot device. A reader meets her only at the level of "she got sick"; her specific personhood is implied rather than rendered. The authorial instinct to give her dimensionality is right and worth honoring.
+
+**The pre-drafting gate that constrains the craft solution:** Ch 1 GuidanceDoc line 226 — *"Wife's medical privacy. Do not describe specific medical details beyond what is structurally necessary. Her story is not Chris's to put on paper. **Structurally necessary** = the fact of near-death + the fact of recovery + the caregiving-displacement pattern. **Not necessary** = diagnosis, surgical specifics, ongoing condition."* The ex-spouse status further tightens this gate, not loosens it — she did not consent to her medical specifics being on the page of a former spouse's book.
+
+**The craft distinction this note resolves:**
+
+- **Behavioral / character layer** = about her: what she *did* under the circumstances (walked into the ER under her own power; underestimated her own severity; deflected concern; held threshold). This layer makes her a specific person on the page. The gate does NOT exclude this layer.
+- **Medical / diagnostic layer** = about her body: the specific conditions, surgeries, post-op state. The gate excludes this layer.
+
+Strength of character lands through behavior in front of the right contrast. Diagnosis is the proof of severity; behavior is the portrait of the person. Good craft writes the strength and lets the gravity emerge by implication; less-good craft writes the gravity and lets the strength get implied.
+
+**Lineage anchor:** Atul Gawande, Anne Boyer (*The Undying*), Christina Crosby (*A Body, Undone*) all operate this discipline. Patients land as people through specific behavior, voice, and the way the medical system reorganizes around them. The diagnosis arrives by implication when the reader needs it; the page does not catalog it.
+
+**Sample passage at the right abstraction level (illustrative; Chris's voice will produce the actual prose):**
+
+> *She walked into the ER under her own power. She had been telling me for two days that something was wrong but that it could probably wait. The triage nurse took one look at her and stopped asking questions. By the time the surgical team arrived, the doctor was no longer talking to her — he was talking past her, fast, to the residents. She told him she was fine to wait if there were emergencies. There were no emergencies; she was the emergency. She had been the emergency for days.*
+
+What this passage carries: her strength, her stoicism, her self-effacement, the gap between her presentation and her actual state, the gravity, the moment the medical system reorganized around her. What it does NOT carry: her diagnosis, the surgical reality, the post-op state. The reader knows she nearly died. The reader knows she walked in under her own power. What the reader does not get is what was wrong with her body — that part is hers.
+
+**Secondary upside of this register:** lets readers project their own near-death-of-someone-they-love onto the scene. *"What should have killed her"* lands harder when the reader brings their own version of it to the passage than when the page hands them sepsis-and-rupture and the reader is outside the experience watching a clinical recital.
+
+**Test for β.2 drafting:** try the wife's-illness passage at this abstraction level FIRST. Read it back. Does her strength land? Does her dimensionality land?
+- If yes → gate honored without cost; passage moves forward.
+- If no → that's data; reconsider what specifically isn't landing and what could be added that stays within the gate (more behavior, more contrast, more specific moments of her voice or self-effacement), not what could be added that crosses it.
+
+**What this craft note does NOT decide:**
+
+- The Appalachian-extraction-trajectory story (her family's land grant → coal-mining absorption) is a SEPARATE story per the deliberation that produced this note. It is NOT braided into the medical-event passage. Each lives at appropriate distance from the other. The trajectory story, if told, lives in Ch 2 (enhancement) or Book 2 (seed), not interleaved with the medical scene. Reasoning: braiding instrumentalizes her near-death for a structural-claim point, the temporal arc (1760s land grant ↔ 21st-century medical event) is artificial, and adding 1760s historicity + Appalachian extraction trajectory + surgical specifics + 120-hour-week-displacement + consent-problem + healthcare-bridge into a single passage is too many threads (six+), even for masterful prose.
+
+**Cross-references:**
+
+- Pre-drafting gate at GuidanceDoc line 226 (wife's-medical-privacy) — this craft note operationalizes that gate from the prose-craft side; the gate states what's excluded, this note states how to characterize within what's permitted.
+- Ch 5 healthcare-end-of-life canonical routing (`research/case-studies/healthcare-end-of-life.md`) — Ch 5 carries the system-level healthcare-cost-severance argument. Ch 1's medical-event passage is the personal-scale demonstration; the system-level work belongs to Ch 5. This separation also reduces the load on the Ch 1 passage.
+- Insight #14 (Norway / epistemic-humility discipline ratified 2026-04-30) — "demonstrate the affordance, don't codify it" register family. This craft note extends the same register to characterization: demonstrate her personhood through behavior, don't codify it through diagnostic catalog.
