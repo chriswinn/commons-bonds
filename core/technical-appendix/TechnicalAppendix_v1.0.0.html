@@ -3236,7 +3236,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      </tr>
     </table>
     <p>
-     All four cases produce IPG &gg; 1 across all three models. The ranges overlap within one order of magnitude in every case, consistent with Theorem E.2 (Convergence of Independent Models). The carbon term dominates the Damage Function IPG for fossil fuels; the Real Options model produces systematically lower estimates because it uses market-derived volatility, which discounts long-horizon uncertainty; the RCV model produces the highest estimates because it uses the Weitzman declining discount rate, which weights long-horizon costs more heavily.
+     All four cases produce IPG &gg; 1 across all three models. The ranges overlap within one order of magnitude in every case, consistent with E.2 (Cross-Model Convergence). The carbon term dominates the Damage Function IPG for fossil fuels; the Real Options model produces systematically lower estimates because it uses market-derived volatility, which discounts long-horizon uncertainty; the RCV model produces the highest estimates because it uses the Weitzman declining discount rate, which weights long-horizon costs more heavily.
     </p>
     <h3>
      D.6 Backtesting / Implicit Pricing Rigor Dimension
@@ -3372,13 +3372,34 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      Theorem E.1b applies to non-renewable extraction (resources whose substitutability function S(t) does not approach 1 within the relevant time horizon &mdash; see Section F existential substitutability gap analysis) under contemporary institutions (defined as the set of accountability instruments in operation in the current decade across jurisdictions where the extraction occurs). Renewable extraction under sustainable management, and non-renewable extraction in hypothetical jurisdictions with comprehensive accountability instruments, are outside the theorem's domain (and would constitute falsifying counterexamples if observed empirically).
     </p>
     <p>
-     Theorem E.2 (Convergence of Independent Models)
+     Empirical Observation E.2 (Cross-Model Convergence)
     </p>
     <p>
-     Under reasonable parameter assumptions, the Damage Function approach, Real Options approach, and RCV model converge to the same order of magnitude for IPG across tested cases.
+     Across the framework's tested calibration case landscape &mdash; four empirical cases (McDowell coal; Norway oil; Deepwater Horizon; Libby vermiculite) plus two thought-experiment scenarios (asteroid mining; lunar regolith &mdash; see Section F): six cases total &mdash; the Damage Function approach, Real Options approach, and RCV model produce IPG estimates within one order of magnitude. This empirical regularity is consistent with the underlying cost severance structure being approximately characterized by all three approaches.
     </p>
     <p>
-     Proof sketch:&nbsp;All three models capture the same fundamental gap: the difference between current pricing and full social cost. They differ in how they approach that gap &mdash; from identified costs (Damage Function), from market-referenced option value (Real Options), and from substitutability-weighted integral (RCV). Because their data sources are uncorrelated (litigation records, market volatility, materials science substitutability estimates) and because they share a common target (the true social cost), systematic divergence beyond one order of magnitude would require all three to err in opposite directions simultaneously &mdash; a probability inconsistent with their demonstrated empirical behavior across six tested cases. Convergence within one order of magnitude across all four empirical cases validates the underlying cost severance structure. ∎
+     <strong>
+      Supporting argument
+     </strong>
+     (per Section D Model Independence Defense). The three approaches use uncorrelated data sources &mdash; Damage Function from documented litigation outcomes + epidemiological studies + remediation cost estimates; Real Options from market volatility data; RCV from materials-science substitutability estimates. Under these data-source-independence conditions and a common target (true social cost), correlated measurement error would not consistently produce IPG estimates within one order of magnitude across the tested case landscape (cf. Hong &amp; Page 2004 <em>PNAS</em> "Groups of diverse problem solvers can outperform groups of high-ability problem solvers"; Mosteller &amp; Tukey 1977 <em>Data Analysis and Regression</em> on multiple-estimator convergence).
+    </p>
+    <p>
+     <strong>
+      Failure modes
+     </strong>
+     (when the empirical regularity may break): (a) the three approaches share systematic bias from common framework choices (e.g., similar discount-rate framework, similar substitutability assumptions); (b) the tested case landscape is too small to surface latent divergence patterns; (c) case selection biases toward cases where convergence is expected. Future empirical work (Block 4 numerical Monte Carlo + additional case calibrations) may surface failure modes.
+    </p>
+    <p>
+     <strong>
+      Domain of applicability.
+     </strong>
+     Tested calibration case landscape per Section H. Generalization to additional resource classes, geographies, or extraction regimes requires further empirical work.
+    </p>
+    <p>
+     <strong>
+      Categorization note.
+     </strong>
+     E.2 is presented as an empirical observation rather than a theorem because its claim form is empirical regularity supported by case-evidence and data-source-independence reasoning, not derivation from primitive premises. The framework's E.1, E.3, E.4, E.5 are derivable theorems with mathematical-derivation proofs; E.2 is a categorically different claim form. Honoring the categorization difference is academic-rigor-honest.
     </p>
     <p>
      Theorem E.3 (Abundance Masking under Stock-Flow Framework)
@@ -3639,13 +3660,166 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      The knife-edge divergence is not a pathological failure of the model &mdash; it correctly reflects that permanent non-substitutable foreclosure under zero long-run discount with cumulative utility is genuinely infinite cost. A civilization that values future generations equally to the present (zero pure-time-preference) and faces permanent loss of something irreplaceable (S_max &lt; 1) with cumulative welfare stakes (&int; U = &infin;) confronts infinite expected cost. The model's divergence is the correct answer; the policy implication is "do not extract under these conditions."
     </p>
     <p>
-     Theorem E.5 (Renewable Imperative)
+     Theorem E.5 (Substitution Dominance)
     </p>
     <p>
-     For any non-renewable resource R with CS &gt; 0, renewable investment in a substitute technology S* that increases S(t) is weakly dominant over extraction from a social welfare perspective, under any discount rate, any ethical framework, and any probability estimate for S_max.
+     <strong>
+      Premises P1&ndash;P4:
+     </strong>
+    </p>
+    <ol>
+     <li>
+      <strong>
+       (P1) Cost-severance condition.
+      </strong>
+      RCV(R, t₀) &gt; P (i.e., CS &gt; 0 under the framework's primitive equation CS = RCV &minus; B with B reflecting current-regime accountability bonds at incomplete coverage; sign-determination per Theorem E.1a).
+     </li>
+     <li>
+      <strong>
+       (P2) Substitutability-improvement structural premise.
+      </strong>
+      There exists a substitute technology S* such that investment in S* shifts S(t) upward: S*(t) &gt; S(t) for all t &ge; t₀.
+     </li>
+     <li>
+      <strong>
+       (P3) Future-generation positive weight.
+      </strong>
+      The social welfare aggregation assigns positive weight to future generations: &part;SW/&part;U(t) &gt; 0 for some t &gt; t₀.
+     </li>
+     <li>
+      <strong>
+       (P4) Investment-cost opportunity-cost framing.
+      </strong>
+      Investment_cost &le; P (the resources funding substitute investment are the opportunity-cost-equivalent of extraction-revenue resources).
+     </li>
+    </ol>
+    <p>
+     <strong>
+      Statement.
+     </strong>
+     Under Premises P1&ndash;P4, for any non-renewable resource R, investment in a substitute technology S* (that increases S(t)) is weakly dominant over extraction of R from a social welfare perspective.
     </p>
     <p>
-     Proof:&nbsp;Consider the social welfare comparison between two paths: Path A: Extract R at t₀, receiving market price P. Path B: Invest equivalent resources in renewable substitute S*, delaying or foregoing extraction. Under Path B, the substitutability function S(t) shifts upward (S*(t) &gt; S(t) for all t &ge; t₀), which: (i) Reduces the foreclosure component [1&minus;S*(t)] &middot; U &lt; [1&minus;S(t)] &middot; U for all t, reducing future cost obligation. (ii) Preserves the strategic option to extract later if needed, maintaining full option value. (iii) Reduces E(R,t) by the amount of extraction deferred or avoided. Therefore: SW(Path B) &minus; SW(Path A) = &Delta;Forelosure_cost + &Delta;Option_value + &Delta;Externality_avoided &minus; (Investment_cost &minus; P). For the renewable imperative to hold, we need SW(Path B) &gt; SW(Path A), i.e.: &Delta;Forelosure_cost + &Delta;Option_value + &Delta;Externality_avoided &gt; Investment_cost &minus; P. When CS &gt; 0, we have RCV &gt; P, which means the foregone extraction value is less than the true social cost imposed by extraction. The social welfare gain from avoiding extraction (= RCV &minus; P = CS) is positive and constitutes an immediate net gain even before accounting for option value or innovation benefits. Adding positive option value and positive externality avoidance can only strengthen the inequality. Therefore SW(Path B) &gt; SW(Path A) whenever CS &gt; 0. This holds for any discount rate (because CS &gt; 0 is established under Weitzman declining rates, which are the most conservative), any ethical framework that does not assign zero weight to future generations, and any S_max &gt; 0 (because even partial substitutability makes Path B weakly better). ∎ Practical corollary: The model does not say "never extract." It says: extract from sources where RCV is lowest first. This prioritizes asteroid mining (RCV &asymp; 0) over Earth's critical mineral deposits (high existential substitutability gap, high RCV), and prioritizes renewable energy over fossil extraction (CS &rarr; &infin; as climate externalities are fully priced). The model is a navigation system, not a prohibition.
+     <strong>
+      Proof.
+     </strong>
+     Consider the social welfare comparison between two paths:
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Path A:
+      </strong>
+      Extract R at t₀, receiving market price P.
+     </li>
+     <li>
+      <strong>
+       Path B:
+      </strong>
+      Invest equivalent resources (per P4) in substitute technology S*, delaying or foregoing extraction of R.
+     </li>
+    </ul>
+    <p>
+     Under Path B (per P2), S*(t) &gt; S(t) for all t &ge; t₀, which:
+    </p>
+    <ul>
+     <li>
+      <em>
+       (i)
+      </em>
+      Reduces the foreclosure component: [1 &minus; S*(t)] &middot; U(R, t, Q(t)) &lt; [1 &minus; S(t)] &middot; U(R, t, Q(t)) for all t. &Delta;Foreclosure_cost &gt; 0 (welfare-positive change).
+     </li>
+     <li>
+      <em>
+       (ii)
+      </em>
+      Preserves the strategic option to extract later if needed, maintaining full option value (cf. Dixit &amp; Pindyck 1994 <em>Investment under Uncertainty</em>). &Delta;Option_value &gt; 0.
+     </li>
+     <li>
+      <em>
+       (iii)
+      </em>
+      Reduces the externality tail E(R, t) by the amount of extraction deferred or avoided. &Delta;Externality_avoided &gt; 0.
+     </li>
+    </ul>
+    <p>
+     Therefore: SW(Path B) &minus; SW(Path A) = &Delta;Foreclosure_cost + &Delta;Option_value + &Delta;Externality_avoided &minus; (Investment_cost &minus; P) (per P4: Investment_cost &le; P, so Investment_cost &minus; P &le; 0).
+    </p>
+    <p>
+     When P1 holds (CS &gt; 0), we have RCV &gt; P, which means the foregone extraction value is less than the true social cost imposed by extraction. By Theorem E.1a (Cost Severance Identity), the social welfare gain from avoiding extraction (= RCV &minus; P = CS) is positive (per P1) and constitutes an immediate net gain even before accounting for option value or innovation benefits. Adding positive option value and positive externality avoidance can only strengthen the inequality.
+    </p>
+    <p>
+     Therefore SW(Path B) &ge; SW(Path A) whenever P1&ndash;P4 hold (weak dominance), with strict inequality when CS &gt; 0 strictly (per P1).
+    </p>
+    <p>
+     This holds:
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Under any discount rate consistent with P1 (CS &gt; 0):
+      </strong>
+      Weitzman 2001 declining-rate framework establishes CS &gt; 0 conservatively; high constant discount rates that drive CS toward zero violate P1 and are out of scope.
+     </li>
+     <li>
+      <strong>
+       Under any ethical framework satisfying P3 (positive weight to future generations):
+      </strong>
+      pure-presentism (zero weight to future) violates P3 and is out of scope.
+     </li>
+     <li>
+      <strong>
+       Under any S_max where P2 holds (investment can improve S(t)):
+      </strong>
+      technological floors that prevent S(t)-improvement violate P2 and are out of scope.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Lineage.
+     </strong>
+     Theorem extends Hartwick 1977 <em>American Economic Review</em> sustainable-investment rule (substitute-investment-from-rents) under Weitzman 2001 <em>American Economic Review</em> declining-discount + Dixit &amp; Pindyck 1994 option-value + Solow 1974 <em>Review of Economic Studies</em> intergenerational-equity baseline. Welfare-comparison formalism follows Stiglitz 2000 <em>Economics of the Public Sector</em>. Climate-economics application precedented in Stern 2007 <em>The Economics of Climate Change: The Stern Review</em>. ∎
+    </p>
+    <p>
+     <strong>
+      Failure modes
+     </strong>
+     (when the dominance result breaks): (a) <strong>Discount-rate failure:</strong> under sufficiently high discount rate that drives CS to zero or below, P1 fails. (b) <strong>Substitutability-investment failure:</strong> if no substitute technology can meaningfully improve S(t), P2 fails. (c) <strong>Ethical-framework failure:</strong> under pure-presentism (zero weight to future generations), P3 fails. (d) <strong>Investment-cost failure:</strong> if substitute-investment is genuinely more expensive than extraction-revenue (Investment_cost &gt; P), P4 fails; weak dominance becomes a strict comparison rather than guaranteed dominance.
+    </p>
+    <p>
+     <strong>
+      Corollary E.5.1 (Optimal Extraction Sequencing).
+     </strong>
+     Under Theorem E.5's premises, when extraction is undertaken, social-welfare-optimal sequencing extracts from sources where RCV is lowest first.
+    </p>
+    <p>
+     <strong>
+      Proof of Corollary E.5.1.
+     </strong>
+     Direct application of Theorem E.5 across resource-class comparisons. Among extraction-eligible resources, those with lower RCV violate the dominance result less severely; among substitution-eligible resources, those with higher CS strengthen the dominance result.
+    </p>
+    <p>
+     The framework therefore prioritizes:
+    </p>
+    <ul>
+     <li>
+      <em>
+       (i)
+      </em>
+      Asteroid mining (RCV &asymp; 0; substitutability &asymp; 1; minimal externality tail) over Earth's critical mineral deposits (high existential substitutability gap, high RCV).
+     </li>
+     <li>
+      <em>
+       (ii)
+      </em>
+      Renewable energy investment over fossil extraction (CS &rarr; &infin; as climate externalities are fully priced under policy-completion regimes). ∎
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Interpretation note.
+     </strong>
+     The framework is a navigation system, not a prohibition. Extraction is permitted; the framework directs extraction toward low-RCV sources first.
     </p>
    </section>
    <section id="sec-11-empirical-validation">
