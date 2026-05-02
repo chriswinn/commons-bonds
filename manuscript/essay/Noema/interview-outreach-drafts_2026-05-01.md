@@ -228,7 +228,7 @@ Body:
 - **Review:** weekend (Saturday-Sunday); fill in verified email addresses; polish per Chris's voice as needed
 - **Send:** Tuesday 9-10am EST — best response-rate window for academic cold outreach. UK recipients (Mazzucato, Buller, Raworth) get 2-3pm UK arrival; still in workday. US recipients get prime morning attention.
 - **Stagger if scheduling crunch:** if 4-5 say yes within same window, can space follow-up scheduling (1 per week or so).
-- **Response tracking:** apply Gmail label `Arkives/ReOrg/3-WaitingOn/Write-a-book/InterviewOutreach` (Chris creates manually in Gmail) to all sent outreach + any responses; on-demand response-checking via MCP `search_threads` when Chris flags ready.
+- **Response tracking:** label `Arkives/ReOrg/3-WaitingOn/Write-a-book/InterviewOutreach` created manually in Gmail by Chris 2026-05-01 (MCP `create_label` failed on permissions; Chris applied workaround). Apply label to all sent outreach + responses as they arrive. **Note:** Raworth and ACLC outreach went via web contact forms rather than email (no direct email addresses findable; both organizations specified contact-form as the correct inquiry channel). Their responses (if any) will arrive in Chris's normal inbox, but there are no outbound Gmail threads for these two — response-tracking via `search_threads` will find replies if/when they come, but won't show the outbound submission. The two corresponding Gmail drafts (#4 Raworth, #13 ACLC) can be deleted in Gmail since the content went via form.
 - **Follow-up cadence:** if no response in 2-3 weeks, ONE polite follow-up; if still no response, treat as silent decline and move on.
 
 ---
@@ -240,7 +240,7 @@ Body:
 | 1 | Mariana Mazzucato | r-7666132269169772246 | **Edit needed: "Vice President" → "President"** |
 | 2 | William Darity Jr. | r877167526603270048 | **Edit needed: "Vice President" → "President"** |
 | 3 | A. Kirsten Mullen | r-2219848113721965092 | **Edit needed: "Vice President" → "President"** |
-| 4 | Kate Raworth | r-7388574328196183928 | **Edit needed: "Vice President" → "President"** |
+| 4 | Kate Raworth | r-7388574328196183928 | **SENT VIA CONTACT FORM 2026-05-01** (no direct email findable; submitted via Doughnut Economics website contact form with Chris's email + name for response). Gmail draft can be deleted. |
 | 5 | James Boyce | r-6018921102697737987 | **Edit needed: "Vice President" → "President"** |
 | 6 | Adrienne Buller | r5963226130825436875 | **Edit needed: "Vice President" → "President"** |
 | 7 | Atif Mian | r624466777242997770 | "President" — correct |
@@ -249,7 +249,7 @@ Body:
 | 10 | Mondragon Press | r1101494801808626492 | "President" — correct |
 | 11 | ~~Black Lung Association~~ | r2400845771187910954 | **DELETE in Gmail — BLA website defunct** (`blacklungassociation.org` and `blacklungcoalition.org` both inactive); replaced by drafts #13 + #14 below |
 | 12 | Naomi Klein | r8739269756860571670 | "President" — correct |
-| 13 | Appalachian Citizens' Law Center | r1098782107568756533 | "President" — correct; legal-advocacy voice (replaces BLA) |
+| 13 | Appalachian Citizens' Law Center | r1098782107568756533 | **SENT VIA CONTACT FORM 2026-05-01** (ACLC website explicitly directs interview inquiries through their contact form; submitted with Chris's email + name for response). Gmail draft can be deleted. Legal-advocacy voice; replaces BLA. |
 | 14 | National Coalition of Black Lung & Respiratory Disease Clinics, Inc. | r-3404687971087602590 | "President" — correct; community healthcare voice (complements ACLC) |
 
 **Title-correction note:** the SGA title was promoted from VP to President partway through draft creation (per author update 2026-05-01 mid-session); drafts 1-6 say "Vice President" and need editing to "President" during Gmail review. Drafts 7-12 say "President" correctly. Single keystroke edit per draft; do during the placeholder-TO replacement pass.
