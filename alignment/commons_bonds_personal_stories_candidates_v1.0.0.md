@@ -175,11 +175,17 @@ Per the project's personal-stories-drafting gate: Chris drafts under Path F (no 
 
 ---
 
-### Candidate #4 — The wife's illness — ER arrival passage (drafted prose) — REJECTED from Book 1 (2026-05-01)
+### Candidate #4 — The wife's illness — ER arrival passage — DELETED 2026-05-01
 
-**STATUS UPDATE 2026-05-01: REJECTED from Book 1 publisher-facing scope** per author direction (ex-wife consent assumed withheld). Raw-draft file retained at `research/story-drafts/ch1_wife-illness-passage_2026-05-01.md` for private archive; not deleted. Craft-discipline established by this exercise (behavior-not-diagnosis register; characterization through behavior + sensory anchor) **transfers** to the replacement story-types per the consent-rejection rewrite plan in `manuscript/chapters/Chapter__1___GuidanceDoc.md`. The full original entry below preserved for archival continuity.
+**DELETED 2026-05-01 per author direction.** Source file `research/story-drafts/ch1_wife-illness-passage_2026-05-01.md` removed from project. Author direction: *"go ahead and delete, I don't need any help remembering that particular event."* The candidate is not retained as private archive; the project does not preserve any rendering of this material going forward.
 
-**ADDITIONAL OCCURRENCE FLAGGED 2026-05-01:** the essay-form draft at `publishing/essay-drafts/draft2.md` §I lines 7-12 contains a wife's-illness opening passage (wound vac + ileostomy + heart-stopped-on-the-table + "person who literally died and been brought back" + "what she needed was not a nurse / what she needed was someone who would not flinch"). **This passage was drafted before the 2026-05-01 consent-rejection decision.** `draft2.md` is NOT yet revised under the consent-rejection rewrite plan. Disposition options: (a) revise `draft2.md` to use son-first-weeks + parents-aging anchors per the consent-rejection rewrite plan (preserves the essay's Section I but with consent-honoring replacement); (b) mark `draft2.md` as a pre-consent-rejection-revision archive (not for submission); (c) both. Decision pending — typically (a) since `draft2.md` is the active essay-revision substrate for the Noema-resubmit per `manuscript/essay/Noema/rewrite-plan_2026-05-01.md`.
+**Implications:**
+- The craft-discipline framing (behavior-not-diagnosis register; characterization through behavior + sensory anchor) was already absorbed into the consent-rejection rewrite plan in `manuscript/chapters/Chapter__1___GuidanceDoc.md` and into Insight #14 / Insight #15 / Candidate #5 partial-revision guidance — discipline preservation does NOT depend on this candidate's source file remaining in the project.
+- The §I wife's-illness opening passage in `publishing/essay-drafts/draft2.md` lines 7-12 (wound vac + ileostomy + "person who had literally died and been brought back" + "what she needed was not a nurse / what she needed was someone who would not flinch") is **also slated for deletion** during the planned draft2 break-up — not preserved as archive, not rewritten in place; replaced via the consent-rejection rewrite plan's son-first-weeks + parents-aging anchors when that drafting cycle happens.
+- **Candidate #5 source file** at `research/story-drafts/ch1_aftermath-and-return-to-work_2026-05-01.md` still contains some wife's-illness content (the surgeries; the wound-vac; the dressing changes; *"person who had literally died and been brought back"*; the *"what she needed was not a nurse"* passage) per the partial-revision flag. **Decision pending whether to delete those sections from the Candidate #5 source file** consistent with the same author direction, or to keep Candidate #5 in partial-revision-pending state until its drafting cycle.
+- The original Candidate #4 entry text (story summary; load-bearing notes; placements; author notes; gates) is intentionally NOT preserved here. Per author direction, no private archive is needed.
+
+**Provenance preserved:** the rejection decision lineage is preserved via this stub + the §6.4 update + Ch 1 GuidanceDoc consent-rejection rewrite plan + Insight #14 + Insight #15. No inline content carried forward.
 
 ---
 
@@ -361,7 +367,9 @@ Per `project_personal_stories_drafting.md`: when 3–5 drafts exist, the testing
 
 Per Ch 1 guidance §Pre-drafting gates: wife's medical privacy, parents' privacy, Hampton community observations, and CEO-era NDA restrictions apply to any personal story. Each candidate's *Author notes* field should flag relevant privacy/consent issues.
 
-**2026-05-01 update — ex-wife consent decision:** per author direction, **assume complete rejection of consent from the ex-wife**. All details of her and her medical emergency are dropped from publisher-facing scope. The displacement-anchor for Ch 1's 120-hour-week / contract / flight thread shifts to **son-first-weeks (immediate / urgent) + parents-aging (longer-arc / lineage)** in combination. Healthcare-end-of-life bridge re-anchors on parents + nursing-rotation observation (per audit §9.3). Full plan in `manuscript/chapters/Chapter__1___GuidanceDoc.md` §Consent-rejection rewrite plan. Affects Candidates #4 (REJECTED from Book 1) and #5 (PARTIAL REVISION). The wife's-illness craft note's *discipline* (behavior-not-diagnosis; characterization through behavior + sensory anchor) transfers to the replacement story-types.
+**2026-05-01 update — ex-wife consent decision:** per author direction, **assume complete rejection of consent from the ex-wife**. All details of her and her medical emergency are dropped from publisher-facing scope. The displacement-anchor for Ch 1's 120-hour-week / contract / flight thread shifts to **son-first-weeks (immediate / urgent) + parents-aging (longer-arc / lineage)** in combination. Healthcare-end-of-life bridge re-anchors on parents + nursing-rotation observation (per audit §9.3). Full plan in `manuscript/chapters/Chapter__1___GuidanceDoc.md` §Consent-rejection rewrite plan. Affects Candidates #4 (now DELETED) and #5 (PARTIAL REVISION). The wife's-illness craft note's *discipline* (behavior-not-diagnosis; characterization through behavior + sensory anchor) transfers to the replacement story-types.
+
+**2026-05-01 second update — Candidate #4 source file deleted:** per author direction (*"go ahead and delete, I don't need any help remembering that particular event"*), `research/story-drafts/ch1_wife-illness-passage_2026-05-01.md` was removed from the project. Candidate #4 is not retained as private archive. Discipline note: when source-preservation discipline (the working pattern under discussion 2026-05-01) is being applied generally — preserve originals; scrub on promotion — author override of that discipline is permitted for content the author explicitly does not want preserved at any layer. Candidate #4 is the first such case.
 
 **2026-05-01 cross-reference — `publishing/essay-drafts/draft2.md`:** the essay-form draft committed 2026-05-01 (`1421e7f`) contains pre-consent-rejection-revision wife's-illness material at §I lines 7-12. Per Candidate #4 disposition, `draft2.md` needs consent-rejection-rewrite-plan revision before Noema resubmission. The draft also surfaces three new candidates:
 - **Candidate #8** (Sailboat / liveaboard as individual-scale structural opt-out) — draft2 §VI lines 73-75 + §VII line 86 (drafted-prose at near-publisher-facing register; ready for Ch 1 + Ch 10 integration during Insight #36)
@@ -373,11 +381,11 @@ Plus existing-candidate prose renderings:
 
 ---
 
-## §7. Rejected candidates
+## §7. Rejected / deleted candidates
 
-### Candidate #4 — The wife's illness — ER arrival passage
+### Candidate #4 — The wife's illness — ER arrival passage — DELETED 2026-05-01
 
-**Rejected 2026-05-01 from Book 1 publisher-facing scope.** Reason: ex-wife consent assumed withheld per author direction. Raw-draft file retained at `research/story-drafts/ch1_wife-illness-passage_2026-05-01.md` for private archive. Craft-discipline established by the exercise transfers to replacement story-types per the consent-rejection rewrite plan. Full original entry preserved in §2 with rejection-status header.
+**Deleted 2026-05-01 per author direction.** Source file `research/story-drafts/ch1_wife-illness-passage_2026-05-01.md` removed. Author direction: *"go ahead and delete, I don't need any help remembering that particular event."* Not retained as private archive. Craft-discipline established by the exercise was already absorbed into the consent-rejection rewrite plan + Insight #14 / Insight #15 / Candidate #5 partial-revision guidance — discipline preservation does not depend on this candidate's source file. See §2 stub entry for full deletion record.
 
 ---
 
