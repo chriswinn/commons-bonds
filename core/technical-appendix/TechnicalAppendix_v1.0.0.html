@@ -3276,13 +3276,129 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      Proof:&nbsp;By construction of the Commons Inversion Test. When A &gg; S, the marginal cost of depleting A appears zero because each unit withdrawn from a very large stock has negligible price impact. As A &rarr; S, the cost function transitions from approximately linear to exponential as scarcity effects dominate &mdash; this is the standard behavior of resource cost functions near depletion thresholds, demonstrated formally by Hotelling's rent dynamics and empirically by commodity price spikes near supply constraints. The asteroid mining scenarios (Section F) demonstrate this for an extreme case: asteroid iron (A &gg; S) has RCV &asymp; 0; lunar helium-3 near the fusion-deployment threshold (A approaching S) has high existential substitutability gap. ∎
     </p>
     <p>
-     Theorem E.4 (Integral Convergence)
+     Theorem E.4 (RCV Integral Convergence under Weitzman Declining Discount)
     </p>
     <p>
-     The RCV integral converges under Weitzman (2001) declining discount rates when the substitutability function satisfies S(t) &rarr; S_max &lt; 1 or when the discount rate r(t) &rarr; r_min &gt; 0.
+     <strong>
+      Assumptions A1&ndash;A4:
+     </strong>
+    </p>
+    <ol>
+     <li>
+      <strong>
+       (A1) Utility growth.
+      </strong>
+      U: ℝ &times; [t₀, &infin;) &times; ℝ &rarr; ℝ_&ge;0 satisfies polynomial growth: &exist; U_0 &ge; 0, k &ge; 0 such that U(R, t, Q(t)) &le; U_0 &middot; (1 + t)^k for all t &ge; t₀.
+     </li>
+     <li>
+      <strong>
+       (A2) Externality growth.
+      </strong>
+      E: ℝ &times; [t₀, &infin;) &rarr; ℝ_&ge;0 satisfies polynomial growth: &exist; E_0 &ge; 0, m &ge; 0 such that E(R, t) &le; E_0 &middot; (1 + t)^m for all t &ge; t₀.
+     </li>
+     <li>
+      <strong>
+       (A3) Substitutability function.
+      </strong>
+      S: [t₀, &infin;) &rarr; [0, 1] is non-decreasing (substitutability is monotonically improving over time as substitute technologies mature). S(t) &rarr; S_max &isin; [0, 1] as t &rarr; &infin;.
+     </li>
+     <li>
+      <strong>
+       (A4) Discount factor &mdash; Weitzman 2001 declining-rate framework.
+      </strong>
+      D(t, t₀) = exp(&minus;&int;_{t₀}^t r(s) ds) where r: [t₀, &infin;) &rarr; ℝ_&ge;0 is bounded. Per Weitzman 2001, r(s) &rarr; r_&infin; &ge; 0 as s &rarr; &infin; (long-run certainty-equivalent rate).
+     </li>
+    </ol>
+    <p>
+     <strong>
+      Statement.
+     </strong>
+     Under Assumptions A1&ndash;A4, the RCV integral RCV(R, t₀) = &int;_{t₀}^&infin; {[1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t)} &middot; D(t, t₀) dt converges (is finite) when at least one of the following sufficient conditions holds:
+    </p>
+    <ul>
+     <li>
+      <strong>
+       (SC1) Positive long-run discount:
+      </strong>
+      r_&infin; &gt; 0.
+     </li>
+     <li>
+      <strong>
+       (SC2) Sufficient substitutability convergence:
+      </strong>
+      &int;_{t₀}^&infin; [1 &minus; S(t)] &middot; U(R, t, Q(t)) dt &lt; &infin; AND &int;_{t₀}^&infin; E(R, t) &middot; D(t, t₀) dt &lt; &infin;.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Knife-edge divergence corollary.
+     </strong>
+     RCV(R, t₀) = &infin; when S_max &lt; 1 AND r_&infin; = 0 AND &int;_{t₀}^&infin; [1 &minus; S_max] &middot; U(R, t, Q(t)) dt = &infin; (i.e., when permanent non-substitutable foreclosure under zero long-run discount accumulates unbounded utility-weighted cost).
     </p>
     <p>
-     Proof:&nbsp;The integrand is: f(t) = {[1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t)} &middot; D(t, t₀) For convergence we need &int;_{t₀}^&infin; f(t) dt &lt; &infin;. Case 1: S(t) &rarr; S_max = 1 (perfect substitution achieved). Then [1&minus;S(t)] &rarr; 0 exponentially (by the S(t) = S_max(1&minus;e^{&minus;&lambda;t}) parameterization), and the foreclosure component decays faster than any polynomial. The externality term E(R,t) is bounded and also decays as remediation proceeds. With any positive discount rate, the integral converges. Case 2: S(t) &rarr; S_max &lt; 1 (imperfect substitution). The foreclosure component approaches a positive floor [1&minus;S_max] &middot; U. For convergence we require the discount factor D(t,t₀) to drive this to zero. Under Weitzman declining discount rates, D(t,t₀) = exp(&minus;&int;_{t₀}^t r(s)ds) where r(s) &rarr; r_min &gt; 0. Then D(t,t₀) &rarr; 0 as t &rarr; &infin;, and because U is bounded above by a polynomial (utility does not grow faster than exponentially), the integrand goes to zero and the integral converges. Note on the knife-edge case: If S_max &lt; 1 AND r_min = 0 (pure time preference of zero for the far future) AND U grows without bound, the integral may diverge. This is not a pathological failure of the model &mdash; it correctly reflects that permanent non-substitutable foreclosure under a zero discount rate has infinite cost, which is the correct answer: permanent loss of something irreplaceable to a civilization that values the future equally to the present has infinite expected cost. ∎
+     <strong>
+      Proof.
+     </strong>
+     RCV(R, t₀) = &int;_{t₀}^&infin; f(t) dt where f(t) = {[1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t)} &middot; D(t, t₀) is non-negative under A1, A2, A3 (S(t) &isin; [0, 1] &rArr; 1 &minus; S(t) &ge; 0; U &ge; 0 by A1; E &ge; 0 by A2; D &gt; 0).
+    </p>
+    <p>
+     <strong>
+      Case (SC1):
+     </strong>
+     r_&infin; &gt; 0. Then &exist; T &ge; t₀ such that for s &ge; T, r(s) &ge; r_&infin;/2 &gt; 0. For t &ge; T:
+    </p>
+    <p>
+     D(t, t₀) = exp(&minus;&int;_{t₀}^t r(s) ds) &le; exp(&minus;&int;_T^t (r_&infin;/2) ds) &middot; exp(&minus;&int;_{t₀}^T r(s) ds) = K &middot; exp(&minus;(r_&infin;/2) &middot; (t &minus; T))
+    </p>
+    <p>
+     for constant K = exp(&minus;&int;_{t₀}^T r(s) ds). The integrand is bounded by:
+    </p>
+    <p>
+     f(t) &le; [U_0 &middot; (1 + t)^k + E_0 &middot; (1 + t)^m] &middot; K &middot; exp(&minus;(r_&infin;/2) &middot; (t &minus; T))
+    </p>
+    <p>
+     Polynomial growth dominated by exponential decay &rArr; integrand integrable on [T, &infin;). Continuous on [t₀, T] &rArr; integrable on [t₀, T]. By Lebesgue dominated convergence theorem (Royden 1988 &sect;4.4; Folland 1999 &sect;2.4), &int;_{t₀}^&infin; f(t) dt &lt; &infin;. ∎ Case SC1.
+    </p>
+    <p>
+     <strong>
+      Case (SC2):
+     </strong>
+     &int;_{t₀}^&infin; [1 &minus; S(t)] &middot; U(R, t, Q(t)) dt &lt; &infin; AND &int;_{t₀}^&infin; E(R, t) &middot; D(t, t₀) dt &lt; &infin; (the latter independent assumption since E's convergence does not depend on substitutability).
+    </p>
+    <p>
+     &int;_{t₀}^&infin; f(t) dt = &int;_{t₀}^&infin; [1 &minus; S(t)] &middot; U &middot; D dt + &int;_{t₀}^&infin; E &middot; D dt
+    </p>
+    <p>
+     Since D(t, t₀) &le; 1 (D is a decay factor), [1 &minus; S(t)] &middot; U &middot; D &le; [1 &minus; S(t)] &middot; U pointwise. By the first SC2 hypothesis, the integral of [1 &minus; S(t)] &middot; U is finite; by Lebesgue dominated convergence, the integral of [1 &minus; S(t)] &middot; U &middot; D is also finite. The second SC2 hypothesis directly gives the second integral finite. Sum is finite. ∎ Case SC2.
+    </p>
+    <p>
+     <strong>
+      Knife-edge corollary proof.
+     </strong>
+     Suppose S_max &lt; 1 and r_&infin; = 0. Then:
+    </p>
+    <ul>
+     <li>
+      1 &minus; S(t) &ge; 1 &minus; S_max &gt; 0 for all t &ge; t₀ (since S(t) &le; S_max).
+     </li>
+     <li>
+      D(t, t₀) &rarr; D_&infin; for some D_&infin; &isin; (0, 1] (under r_&infin; = 0; specifically if r(s) = 0 for s sufficiently large, D_&infin; &gt; 0; if r(s) integrable on [t₀, &infin;), D_&infin; &gt; 0).
+     </li>
+     <li>
+      Hence f(t) &ge; [1 &minus; S_max] &middot; U(R, t, Q(t)) &middot; D_&infin;.
+     </li>
+     <li>
+      If &int;_{t₀}^&infin; [1 &minus; S_max] &middot; U dt = &infin;, then &int;_{t₀}^&infin; f(t) dt &ge; D_&infin; &middot; [1 &minus; S_max] &middot; &int;_{t₀}^&infin; U dt = &infin;.
+     </li>
+    </ul>
+    <p>
+     Hence RCV(R, t₀) = &infin; under the knife-edge conditions. ∎ Corollary.
+    </p>
+    <p>
+     <strong>
+      Interpretation note.
+     </strong>
+     The knife-edge divergence is not a pathological failure of the model &mdash; it correctly reflects that permanent non-substitutable foreclosure under zero long-run discount with cumulative utility is genuinely infinite cost. A civilization that values future generations equally to the present (zero pure-time-preference) and faces permanent loss of something irreplaceable (S_max &lt; 1) with cumulative welfare stakes (&int; U = &infin;) confronts infinite expected cost. The model's divergence is the correct answer; the policy implication is "do not extract under these conditions."
     </p>
     <p>
      Theorem E.5 (Renewable Imperative)
