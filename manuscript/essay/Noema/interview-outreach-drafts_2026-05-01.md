@@ -174,17 +174,37 @@ Body:
 
 ---
 
-### 11. Black Lung Association leadership
+### 11. ~~Black Lung Association leadership~~ — REPLACED 2026-05-01
 
-**Email address (verify):** Verify via Black Lung Association website (`blacklungassociation.org` or similar); likely a leadership/contact email available there.
+**RETIRED:** the Black Lung Association website (`blacklungassociation.org`) and the Black Lung Coalition website (`blacklungcoalition.org`) are both defunct, suggesting the original organizations are inactive or dissolved. Per author research 2026-05-01, the original BLA draft (Gmail draft `r2400845771187910954`) should be deleted in Gmail; the function (community-voice on Appalachian black lung + reclamation accountability) is now covered by drafts #13 (Appalachian Citizens' Law Center; legal-advocacy voice) and #14 (National Coalition of Black Lung & Respiratory Disease Clinics; community healthcare voice). See entries below.
 
-**Subject:** Interview request — Black Lung Association as community voice in a forthcoming book on extraction, accountability, and the commons
+---
 
-**Salutation:** Dear Black Lung Association Leadership,
+### 13. Appalachian Citizens' Law Center (legal-advocacy voice; replaces BLA)
+
+**Email address (verify):** Verify via ACLC website (likely `aclc.org` or `appalachiancitizens.org`); likely an `info@` address or specific staff attorney; verify on their About / Contact page.
+
+**Subject:** Interview request — Appalachian Citizens' Law Center as legal-advocacy voice in a forthcoming book on extraction, accountability, and the commons
+
+**Salutation:** Dear Appalachian Citizens' Law Center,
 
 **Para 2 (institutional adjusted):**
 
-> My forthcoming book *Commons Bonds* features the Appalachian coal-bonding-shortfall ($3.7-6 billion across the region; West Virginia's pool bonds covering only ten percent of projected reclamation costs) as a central case study for the framework's accountability-instrument architecture. The book also engages the Black Lung Trust Fund's $4-billion-plus debt position and the broader pattern by which extractive industries have severed health-cost burdens onto coal-country residents while taxpayers absorb the legacy. I'd be grateful for ~30 minutes with someone in BLA leadership able to speak to the community voice on these dynamics — for both the book and a derivative essay (currently in development for Noema or comparable publication). If a brief interview by phone or in-person (I'm in Hampton, Virginia) is feasible, I'd welcome the opportunity.
+> ACLC's work on coal-country accountability — black lung benefits litigation, mine safety enforcement, reclamation-bond inadequacy, and the broader pattern by which extractive industries have severed health and environmental costs onto Appalachian residents — sits directly on the framework's terrain. The book features the $3.7-6 billion regional reclamation-bond shortfall as a central case study; it engages the Black Lung Trust Fund's $4-billion-plus debt position; it proposes specific reform directions (independent-assessment reclamation bonds at full projected cost; obligations surviving corporate dissolution; community legal standing with permanent litigation funding) that extend principles ACLC has been advocating for in fragmentary form. I'd be grateful for ~30 minutes with an attorney or staff member able to speak to the legal-advocacy voice on these dynamics — for both the book and the derivative essay.
+
+---
+
+### 14. National Coalition of Black Lung & Respiratory Disease Clinics, Inc. (community healthcare voice; complements ACLC)
+
+**Email address (verify):** Verify via the Coalition's website; likely an `info@` or executive-director address available there.
+
+**Subject:** Interview request — National Coalition of Black Lung & Respiratory Disease Clinics as community healthcare voice in a forthcoming book on extraction, accountability, and the commons
+
+**Salutation:** Dear Coalition Leadership,
+
+**Para 2 (institutional adjusted):**
+
+> The Coalition's work on healthcare access for black lung and respiratory disease patients — across coal communities where extractive industries severed health-cost burdens onto residents while taxpayers absorbed the legacy — sits at the patient-care end of the framework's terrain. The book features the Black Lung Trust Fund's $4-billion-plus debt position and the broader pattern of healthcare-cost severance in Appalachia (alongside parallel patterns in the Niger Delta, Baotou, and other extraction communities globally). I'd be grateful for ~30 minutes with someone in Coalition leadership able to speak to what the patient-care side of this looks like — the daily realities of clinical care for black lung patients and what the financial-architecture gap leaves uncovered. Both the book and the derivative essay would carry the perspective.
 
 ---
 
@@ -227,8 +247,10 @@ Body:
 | 8 | Amir Sufi | r6140634676384535401 | "President" — correct |
 | 9 | Gar Alperovitz | r5187862336607414880 | "President" — correct |
 | 10 | Mondragon Press | r1101494801808626492 | "President" — correct |
-| 11 | Black Lung Association | r2400845771187910954 | "President" — correct |
+| 11 | ~~Black Lung Association~~ | r2400845771187910954 | **DELETE in Gmail — BLA website defunct** (`blacklungassociation.org` and `blacklungcoalition.org` both inactive); replaced by drafts #13 + #14 below |
 | 12 | Naomi Klein | r8739269756860571670 | "President" — correct |
+| 13 | Appalachian Citizens' Law Center | r1098782107568756533 | "President" — correct; legal-advocacy voice (replaces BLA) |
+| 14 | National Coalition of Black Lung & Respiratory Disease Clinics, Inc. | r-3404687971087602590 | "President" — correct; community healthcare voice (complements ACLC) |
 
 **Title-correction note:** the SGA title was promoted from VP to President partway through draft creation (per author update 2026-05-01 mid-session); drafts 1-6 say "Vice President" and need editing to "President" during Gmail review. Drafts 7-12 say "President" correctly. Single keystroke edit per draft; do during the placeholder-TO replacement pass.
 
