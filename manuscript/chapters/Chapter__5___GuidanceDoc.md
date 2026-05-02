@@ -4,7 +4,15 @@
 
 **Consolidated 2026-04-30** by Insight #37 separation pass (Thread β.1) — folds Draft scaffolding into the existing GuidanceDoc.
 
-**Pre-submission review FLAG:** Ch 5 is FLAGGED for pre-submission review (β.4 side-quest in v1.49.0 §3.β). The #37 scrub absorbed the [Target length] tail block; the deeper review (vocabulary regression checks; framework-establishment-vs-applied-advocacy register check; chapter-title rigor per Insight #22) remains queued.
+**Pre-submission review status:** β.4 deeper-review side-quest **CLOSED 2026-05-02** by α/β cross-pollination commit (cross-thread log v1.49.0 §5). Summary of findings:
+- **Vocabulary regression + scaffolding-discipline check:** 3 surgical fixes applied.
+  - **Fix 1a (line 99):** "the chapter on the renewable imperative" → "Chapter 9 (Pricing Honestly)" (double regression: old theorem name now Substitution Dominance per Insight #53; old Ch 9 title now Pricing Honestly per Insight #22).
+  - **Fix 1b (line 201):** `Option C'` internal-scaffolding label scrubbed; discipline content preserved as "under the discipline of accommodating where alternative traditions converge on the same accountability requirement".
+  - **Fix 1c (line 163):** CTR Path-2-alignment per Insight #23 + accounting-register correction. "onto an eighty-year-old spouse as the community-transition reserve no formal alternative existed to provide" → "onto an eighty-year-old spouse absorbing the labor that no formal architecture existed to account for". Path 2 of Insight #23 ratified 2026-04-27 = "Replace CTR with structural framing only"; Ch 9 was fully cleared then but Ch 5 carried borderline residual. Reframe removes named-instrument language + corrects register from provision ("to provide") to accounting ("to account for") per framework discipline of naming/pricing rather than advocating service provision.
+- **Framework-establishment-vs-applied-advocacy register check:** PASSED. Restitution and Foreclosure Bonds section explicitly disclaims advocacy at line 207 ("framework's contribution… is not advocacy — it is accounting") + routes prescription to Ch 9; CTR-related reference at line 163 now Path-2-compliant per Fix 1c; closing line is gestural setup for Ch 6/9.
+- **Chapter-title rigor per Insight #22:** PASSED. "The Accountability Gap" was already informally pre-checked clean per Insight #22 §10 set-rigor analysis; re-verification confirms clean on Book-1-vs-Book-2 carry-over + advocacy-register drift + vocabulary regression. No change.
+- **Word-count resolution:** Per author directive ("let length follow substance vs. trying to hit arbitrary length targets"), no filler identified at 9,459 words. Substance allocation: 6 case studies + 6 counterargument-engagement subsections (4 in 2008 + 2 in Social Security) + Restitution/Foreclosure Bonds apparatus introduction (~1,800 words structural payoff naming the two-instrument response that anchors the rest of the book). All length earns its place.
+- **Cross-chapter flag (out of Ch 5 scope; for future β-thread sweep):** Ch 7 line 109 still uses capitalized `Community Transition Reserves` in policy-mechanism enumeration — Path-2-noncompliant residual from Insight #23 closure (which only covered Ch 2 + Ch 9 explicitly). Worth catching in next β-thread cross-chapter sweep.
 
 **Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass; flag inline as encountered during drafting.
 
@@ -21,11 +29,11 @@
 
 *Absorbed from former `Chapter__5_THEACCOUNTABILITYGAP__Draft.md` `[Target length: ...]` tail block.*
 
-### Target length + chapter-purpose note (extracted from Draft tail)
+### Chapter-purpose note (extracted from Draft tail)
 
-Target length: 3,500-4,000 words. This chapter establishes the pattern across multiple domains and scales, with the Social Security case as the most numerically dramatic example. The chapter builds toward the realization that this is systematic, not accidental — setting up Chapters 6-7 for the mathematical framework and Chapter 8-9 for the solutions.
+This chapter establishes the pattern across multiple domains and scales, with the Social Security case as the most numerically dramatic example. The chapter builds toward the realization that this is systematic, not accidental — setting up Chapters 6-7 for the mathematical framework and Chapter 8-9 for the solutions.
 
-*[STALE 2026-04-30 — Ch 5 actual word count is substantially above this 3,500-4,000 target; verify whether target should be revised upward (Ch 5 may be carrying scope appropriately for its place in the spine) or whether content needs trimming to original target. Pre-submission review side-quest β.4 should resolve this.]*
+**Length discipline (per author directive 2026-05-02):** Let length follow substance rather than hitting arbitrary length targets. Content that adds value to the book and helps meet the success criterion stays; filler gets cut. Editorial length adjustment is a downstream pre-submission concern, not a per-chapter target. Current word count (9,459 as of β.4 deeper-review close) reflects substance: 6 case studies + 6 counterargument-engagement subsections + two-instrument apparatus introduction.
 
 ---
 
