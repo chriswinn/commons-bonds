@@ -154,57 +154,6 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     1.0.0 (2026-04-27)
    </p>
   </header>
-  <div class="status-block">
-   <p>
-    <strong>
-     Status:
-    </strong>
-    <code>
-     CURRENT
-    </code>
-    at v1.0.0 (Scope 2 of 7 complete &mdash; TOC restructured; partial integration block reconciled into proper &sect;1&ndash;&sect;19 structural locations). Reflects post-2026-04-24 framework architecture. Provenance source-of-truth for vocabulary and term lifecycle:
-    <code>
-     core/terms/terms_index.md
-    </code>
-    .
-   </p>
-   <p>
-    <strong>
-     Scope progress (Open Insight #21 Path B):
-    </strong>
-    Scope 1 (format conversion) &checkmark; &middot; Scope 2 (TOC restructure + partial-integ reconciliation + CIT worked examples embedded) &checkmark; &middot; Scope 3 (retired-vocabulary passage rewrites) &checkmark; &middot; Scope 4 (&sect;C.4 8-tier excise + &sect;K verified clean) &checkmark; &middot; Scope 5 (Block 4 + Method 3 + DAC + space-economics + IPG-table integrated into &sect;11.1&ndash;&sect;11.7) &checkmark; &middot; Scope 6 (Phase B Ch 6 supplementary integration: Parfit &sect;5.4 + Domain Distinction &sect;6.1.2 + Methodology Defense &sect;15.1) &checkmark; &middot; Scope 7 (Ch 6 HTML rewrite) pending. Subsequent commit addresses Scope 7.
-   </p>
-   <p>
-    <strong>
-     Note on naming:
-    </strong>
-    this version does not use the term
-    <em>
-     canonical
-    </em>
-    . Per terms_index &sect;0, "canonical" was retired as truth-claim language that masked testing-dependent fragility; every framework term carries explicit status (
-    <code>
-     CURRENT
-    </code>
-    /
-    <code>
-     PENDING-RIGOR
-    </code>
-    /
-    <code>
-     UNDER-REVIEW
-    </code>
-    /
-    <code>
-     SUPERSEDED
-    </code>
-    /
-    <code>
-     RETIRED
-    </code>
-    ) and rigor provenance instead.
-   </p>
-  </div>
   <nav class="toc">
    <h2>
     Contents
@@ -302,89 +251,11 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     </li>
     <li>
      <a href="#sec-19-provenance-cross-references">
-      &sect;19. Provenance &amp;amp; Cross-References
+      &sect;19. Provenance &amp; Cross-References
      </a>
     </li>
    </ol>
   </nav>
-  <section id="preamble">
-   <p>
-    Technical Appendix &mdash; Mathematical Framework
-   </p>
-   <p>
-    By Chris Winn
-   </p>
-   <p>
-    Complete Version 0.0.5 &mdash; Updated April 24 (Tier-1 sweep: AIT&rarr;CIT + ARP&rarr;ARR + Spatial CS retired)4, 2026
-   </p>
-   <p>
-    Supersedes the truncated HTML version (commons_bonds_technical_appendix_complete.html)
-   </p>
-   <p>
-    Incorporates: Ripple Effects 2.0 Section VIII &middot; Abundance Test Formalization &middot; Full Universality Test &middot; Complete Empirical Validation &middot; Literature Engagement
-   </p>
-   <hr>
-   <p>
-    What changed from the previous version:&nbsp;The prior Technical Appendix (19 KB HTML) was missing: (1) Definition A.7&ndash;A.9; (2) the Eight-Tier FGC Decomposition; (3) Theorems on the Renewable Imperative and Integral Convergence; (4) three universality scenarios (comet flyby, Europa, exoplanet); (5) the Libby and Baotou empirical cases; (6) the Literature Engagement section &mdash; the most critical missing piece for academic credibility; and (7) the model-independence defense from Ripple Effects 2.0 Section VIII. All are included here.
-   </p>
-   <p>
-    v0.0.5 additions (2026-04-24):&nbsp;This version adds two new sections under Path F reframing. Section L (the four-gate discipline for variable addition &mdash; CIT + dimensional consistency + boundedness + independence) formally specifies what admits a candidate cost term into the RCV integrand, with worked examples per gate and a four-step application protocol. Section M (the formula generalization) presents the sum-of-costs form RCV = &int; (&Sigma; Cᵢ) &middot; D dt with convergence-preservation proof, dimensional-consistency proof, CS = RCV &minus; B preservation, and a worked derivation of the canonical two-term formula as the n = 2 special case. Dimension references in Sections A&ndash;K have been renamed per the v1.3.0 ratified cohort (Habitability, Spatial, Kindred, Ecosystem replace Atmospheric, Geographic, Demographic, Ecological). A Phase B pass will extend Section C.2 to include the three additional dimensions (Cohesion, Epistemic, Autonomy) canonical in v1.3.0.
-   </p>
-   <p>
-    Sections:&nbsp;
-    <a href="#id.li7yufrgkmqd">
-     A. Formal Definitions
-    </a>
-    &nbsp;
-    <a href="#id.80f4jr1i3ti">
-     B. RCV Model
-    </a>
-    &nbsp;
-    <a href="#id.hwgskckizobg">
-     C. Commons Inversion Test
-    </a>
-    &nbsp;
-    <a href="#id.jpp8ftygphoa">
-     D. Three-Model Convergence
-    </a>
-    &nbsp;
-    <a href="#id.xxsimd15xd3l">
-     E. Theorems & Proofs
-    </a>
-    &nbsp;
-    <a href="#id.2m34bpibuk28">
-     F. Universality Validation
-    </a>
-    &nbsp;
-    <a href="#id.eft1cgzbc4m8">
-     G. existential substitutability gap Classification
-    </a>
-    &nbsp;
-    <a href="#id.s4dekm775qm5">
-     H. Empirical Validation
-    </a>
-    &nbsp;
-    <a href="#id.gz6fo183poxv">
-     I. Literature Engagement
-    </a>
-    &nbsp;
-    <a href="#id.6t092khuoqo6">
-     J. Limitations
-    </a>
-    &nbsp;
-    <a href="#id.c65r3vgik6hd">
-     K. Mathematical Extensions
-    </a>
-    &nbsp;
-    <a href="#l-four-gates">
-     L. The Four-Gate Discipline
-    </a>
-    &nbsp;
-    <a href="#m-formula-generalization">
-     M. Formula Generalization
-    </a>
-   </p>
-  </section>
   <main>
    <section id="sec-1-foundations">
     <h2>
@@ -554,29 +425,32 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     </p>
     <ol start="1">
      <li>
-      Habitability abundance&nbsp;&rarr; reveals oxygen processing, atmospheric regulation, and radiation shielding costs
+      Habitability commons (abundant state)&nbsp;&rarr; reveals oxygen processing, atmospheric regulation, and radiation shielding costs
      </li>
      <li>
-      Spatial abundance&nbsp;&rarr; reveals spatial displacement costs: distance from home, transport, community immobility
+      Spatial commons (abundant state)&nbsp;&rarr; reveals spatial displacement costs: distance from home, transport, community immobility
      </li>
      <li>
-      Temporal abundance&nbsp;&rarr; reveals acceleration costs: compressing multi-century availability into decades
+      Temporal commons (abundant state)&nbsp;&rarr; reveals acceleration costs: compressing multi-century availability into decades
      </li>
      <li>
-      Institutional abundance&nbsp;&rarr; reveals governance costs: enforcement, accountability, honest accounting infrastructure
+      Institutional commons (abundant state)&nbsp;&rarr; reveals governance costs: enforcement, accountability, honest accounting infrastructure
      </li>
      <li>
-      Kindred abundance&nbsp;&rarr; reveals knowledge/cultural costs: transmission, continuity, community expertise below critical thresholds
+      Kindred commons (abundant state)&nbsp;&rarr; reveals knowledge/cultural costs: transmission, continuity, community expertise below critical thresholds
      </li>
      <li>
-      Ecosystem abundance&nbsp;&rarr; reveals ecosystem service costs: pollination, hydrological cycles, soil formation, waste processing
+      Ecosystem commons (abundant state)&nbsp;&rarr; reveals ecosystem service costs: pollination, hydrological cycles, soil formation, waste processing
      </li>
      <li>
-      Political abundance&nbsp;&rarr; reveals governance capture costs: the investment extraction industries make in suppressing honest accounting, regulatory enforcement, and democratic pricing of their own costs &mdash; lobbying, regulatory capture, suppression of scientific findings, institutional corrosion
+      Political commons (abundant state)&nbsp;&rarr; reveals governance capture costs: the investment extraction industries make in suppressing honest accounting, regulatory enforcement, and democratic pricing of their own costs &mdash; lobbying, regulatory capture, suppression of scientific findings, institutional corrosion
      </li>
     </ol>
     <p>
-     The test is complete when no further commons category can be identified whose removal reveals new costs. The set of all revealed costs constitutes the Full Generational Cost (FGC) of extraction.
+     Under Path F reframing, these dimensions are organizational scaffolding over commons categories CIT has surfaced across case studies &mdash; illustrative, not a closed ontological taxonomy. The v1.3.0 ratified cohort is ten commons categories (Habitability &middot; Spatial &middot; Temporal &middot; Institutional &middot; Kindred &middot; Ecosystem &middot; Political &middot; Cohesion &middot; Epistemic &middot; Autonomy); the seven enumerated above are the original cohort, with Cohesion + Epistemic + Autonomy formalized in &sect;C.2 (Phase B integration).
+    </p>
+    <p>
+     The test is complete when no further commons category can be identified whose removal reveals new costs.
     </p>
     <p>
      Definition A.9 (Existentially Critical Resource / existential substitutability gap Classification)
@@ -595,35 +469,6 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     <h2>
      &sect;2. Two-Instrument Architecture (CSD &harr; B₁; RCV &harr; B₂)
     </h2>
-    <p>
-     <strong>
-      Sources:
-     </strong>
-     partial integration &sect;2 from supplement (commit
-     <code>
-      351817c
-     </code>
-     ). Backed by CSD individual rigor pass (commit
-     <code>
-      98fc8e6
-     </code>
-     ) + B₁/B₂ decomposition rigor pass (commit
-     <code>
-      ab24a8e
-     </code>
-     ) + Three Ways + RCV Formal-Model rigor pass Block 1 (commit
-     <code>
-      1c8e4dd
-     </code>
-     ). See
-     <code>
-      core/terms/terms_index.md
-     </code>
-     Cost Severance Damages (CSD) record + Accountability Bond v1.2 (B = B₁ + B₂) record.
-    </p>
-    <p>
-     Source rigor passes: CSD ratification (commit 98fc8e6); CS = RCV &minus; B equation (commit 220914f); B₁ + B₂ decomposition + naming (commit 8e6a5b2).
-    </p>
     <h3>
      &sect;2.1 Architecture overview
     </h3>
@@ -700,10 +545,10 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <em>
       commons-governance extended to extraction
      </em>
-     (per the commons-as-structural-identity rigor pass, commit c4b09dc). Past extraction (already-realized commons-loss) is governance-relevant for restitution. Pending extraction (un-realized commons-claim) is governance-relevant for foreclosure prevention. Same equation reads each direction; same Bond aggregate (B = B₁ + B₂) discharges both.
+     . Past extraction (already-realized commons-loss) is governance-relevant for restitution. Pending extraction (un-realized commons-claim) is governance-relevant for foreclosure prevention. Same equation reads each direction; same Bond aggregate (B = B₁ + B₂) discharges both.
     </p>
     <h3>
-     &sect;2.2 CSD&ndash;RCV correlation hypothesis (Open Insight #19)
+     &sect;2.2 CSD&ndash;RCV correlation hypothesis
     </h3>
     <p>
      A current open insight (logged in
@@ -731,12 +576,6 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     <h2>
      &sect;3. RCV Quantification &mdash; Three Ways of Counting
     </h2>
-    <p>
-     <strong>
-      Sources:
-     </strong>
-     old &sect;B "The RCV Model" (B.1 Core Formula + B.2 IPG) merged with partial integration &sect;3 (Three Ways of Counting; Methods 1+2+3 + triangulation logic).
-    </p>
     <hr>
     <h3>
      B.1 Core Formula (Term-by-Term Translation)
@@ -1325,26 +1164,13 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     </p>
     <p>
      <strong>
-      Norway as canonical-existing-B₂-exemplar (per Open Insight #14):
+      Norway as canonical-existing-B₂-exemplar:
      </strong>
      Norway's GPFG operationalizes Hartwick's rule (1977) by capturing extraction rent for future-generation accounts. This is canonical existing B₂, not aggregate B &mdash; Norwegian welfare-state is approximately B₁-for-Norwegian-citizens but does not extend to non-Norwegian populations affected by Norwegian oil's climate externalities. B₁ globally is underdeveloped.
     </p>
     <h3>
      &sect;5.4 Intergenerational moral grounding (Parfit 1984; B₂ Foreclosure Bond direction)
     </h3>
-    <p>
-     <strong>
-      Source:
-     </strong>
-     <code>
-      manuscript/chapters/Chapter__6___SupplementaryDrafts_2026-04-24.md
-     </code>
-     &sect;6.5.2 (Tech Appendix companion to the Ch 6 main-text Parfit engagement at &sect;6.5.1; ~150 words; Tech Appendix &sect;F register). Closes the M6.2 GAP IDENTIFIED finding from the 2026-04-24 academic-rigor full test (commit
-     <code>
-      ae90800
-     </code>
-     ).
-    </p>
     <blockquote>
      <p>
       The framework's intergenerational moral grounding follows Parfit (1984) Part IV. Specifically: the framework adopts the impersonal-outcomes evaluation framework (the goodness-of-future-states-for-whoever-arises-in-them) rather than person-affecting evaluation (the wronging-of-specific-future-individuals). The two-instrument architecture maps onto this distinction: B₁ Restitution Bond addresses already-realized person-affecting harm (CSD; the historical extraction-portfolio); B₂ Foreclosure Bond addresses prospective impersonal-outcomes loss (forward-looking RCV; the commons not available to whatever future generations arise). Parfit's non-identity problem is not solved by the framework but is operated-within: the framework's claim is that
@@ -1366,49 +1192,13 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <em>
       Reasons and Persons
      </em>
-     . Oxford: Oxford University Press, 1984. Part IV (intergenerational moral status; non-identity problem). Added to bibliography &sect;18.9 on 2026-04-25.
-    </p>
-    <p>
-     <strong>
-      Cross-reference:
-     </strong>
-     the Ch 6 main-text companion at
-     <code>
-      manuscript/chapters/Chapter__6___SupplementaryDrafts_2026-04-24.md
-     </code>
-     &sect;6.5.1 carries the Parfit engagement at reader-facing depth (~450 words); the optional Ch 10 reflective companion at &sect;6.5.3 is queued for Phase B Ch 10 work.
+     . Oxford: Oxford University Press, 1984. Part IV (intergenerational moral status; non-identity problem).
     </p>
    </section>
    <section id="sec-6-commons-inversion-test">
     <h2>
      &sect;6. Commons Inversion Test (CIT)
     </h2>
-    <p>
-     <strong>
-      Sources:
-     </strong>
-     old &sect;C "Commons Inversion Test Protocol" (C.1&ndash;C.3; C.4 excised in Scope 4 per Open Insight #21 Q3 = (a) excise entirely + tier-reframing rigor pass &sect;11.2 &mdash; 8-tier dissolution ratified 2026-04-24) merged with partial integration &sect;6 (CIT formal spec including &sect;6.1.1 Level-of-claim specification + &sect;6.2 Four Gates admission apparatus). The &sect;6.1.2 Domain distinction (extraction-vs-coordination commons) is integrated below from supplement &sect;6.1.2. Worked examples are duplicated in &sect;6.3 (per Q5 reconsidered) from
-     <code>
-      core/methodology/cit_examples_v1_0_0.md
-     </code>
-     . Backed by CIT rename rigor pass (commit
-     <code>
-      b294c79
-     </code>
-     ) + Commons-as-Structural-Identity rigor pass (commit
-     <code>
-      c4b09dc
-     </code>
-     ) + 10-Commons-List Dissolution rigor pass (commit
-     <code>
-      e30087e
-     </code>
-     ) + tier-reframing rigor pass (commit per tier_reframing_v1.0.0). See
-     <code>
-      core/terms/terms_index.md
-     </code>
-     Commons Inversion Test (CIT) record (supersedes Abundance Inversion Test (AIT) &mdash; RETIRED).
-    </p>
     <hr>
     <h3>
     </h3>
@@ -1668,21 +1458,11 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      </strong>
      every CIT application must specify the level-of-claim before reporting the verdict. A bare "CIT passes" without level specification is methodologically incomplete.
     </p>
-    <p>
-     <strong>
-      Source of refinement:
-     </strong>
-     M11 Character 12 (graduate student) probed this distinction during the 2026-04-24 academic-rigor full test. See
-     <code>
-      tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_academic_rigor_full_test_v1.0.0.md
-     </code>
-     &sect;4.2.
-    </p>
     <h3>
      &sect;6.2 Four Gates admission apparatus
     </h3>
     <p>
-     Per the Four Gates cluster rigor pass, a commons-extraction-cost claim is admitted to the framework's CS accounting if and only if it passes all four gates:
+     A commons-extraction-cost claim is admitted to the framework's CS accounting if and only if it passes all four gates:
     </p>
     <ol>
      <li>
@@ -1781,16 +1561,6 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      </strong>
      every CIT application should specify (per &sect;6.1.1 level-of-claim discipline) whether the cost claim is named at extraction-commons level or coordination-commons level. A CIT-fail at the coordination-commons level is correct routing to Ostrom-tradition apparatus, not a framework limitation.
     </p>
-    <p>
-     <em>
-      Source of refinement:
-     </em>
-     M11 Character 17 (Ostrom-successor scholar) probed this distinction during the 2026-04-24 academic-rigor full test. See
-     <code>
-      tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_academic_rigor_full_test_v1.0.0.md
-     </code>
-     &sect;4.3.
-    </p>
     <h3>
      &sect;6.3 Worked Examples &mdash; Seven Walkthroughs (Four Gates Applied)
     </h3>
@@ -1798,11 +1568,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Note on inclusion:
      </strong>
-     these worked examples are duplicated here from
-     <code>
-      core/methodology/cit_examples_v1_0_0.md
-     </code>
-     (v1.0.0, 2026-04-24) for self-containment of this Tech Appendix as a publishable artifact. The methodology document remains source-of-truth for maintenance per Working Principle #4; when it is updated, the duplicate here is resynced. Author-directed walkthroughs by Chris Winn 2026-04-24.
+     these worked examples are included for self-containment of this Tech Appendix as a publishable artifact.
     </p>
     <p>
      <strong>
@@ -2017,7 +1783,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       <strong>
        Methodology note:
       </strong>
-      This case demonstrates Boundedness as a non-trivial gate that actively works on intergenerational/climate cases. The Norway sovereign wealth fund (per Open Insight #14) is the canonical real-world example of B (Accountability Bond) approaching RCV via commons-management instrument, even though the climate-cost integral has Boundedness-gate complexity.
+      This case demonstrates Boundedness as a non-trivial gate that actively works on intergenerational/climate cases. The Norway sovereign wealth fund is the canonical real-world example of B (Accountability Bond) approaching RCV via commons-management instrument, even though the climate-cost integral has Boundedness-gate complexity.
      </p>
      <hr>
      <h4>
@@ -2538,10 +2304,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      &sect;7. Four Gates Admission Apparatus
     </h2>
     <p>
-     <strong>
-      Sources:
-     </strong>
-     old &sect;L "Four-Gate Discipline for Variable Addition" (L.1&ndash;L.7). The four gates per cohort ratification (Insight #2 closed-ratified 2026-04-26): (1)
+     The four gates governing admission of cost terms to the framework's RCV computation: (1)
      <strong>
       CIT
      </strong>
@@ -2557,18 +2320,6 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Independence
      </strong>
-     . Old gate-name labels in this section ("the Commons Inversion Test (CIT; CAI + CCI sub-forms)" for Gate 1; "Units Consistency" for Gate 2) are pre-rename surface text pending Scope 3 sweep. Backed by Four Gates cluster rigor pass (commit
-     <code>
-      d188e6f
-     </code>
-     ) + Term Consistency Gate Rename rigor pass (2026-04-26). See
-     <code>
-      core/terms/terms_index.md
-     </code>
-     +
-     <code>
-      tools/rigor-passes/commons_bonds_rigor_pass_2026-04-26_term_consistency_gate_rename_v1.0.0.md
-     </code>
      .
     </p>
     <hr>
@@ -2977,9 +2728,8 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     </h2>
     <p>
      <strong>
-      Sources:
+      Prior-art citations:
      </strong>
-     old &sect;G.2 "The Asymmetric Regret Decision Rule" (preserved here with ARP&rarr;ARR rename markers pending Scope 3 sweep) merged with partial integration &sect;7 (ARR with full lineage acknowledgment). Prior-art citations:
      <strong>
       Savage 1951
      </strong>
@@ -3007,28 +2757,16 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Rio Declaration 1992 Principle 15
      </strong>
-     for precautionary-principle tradition. Framework's contribution: specialization with bidirectional flip-by-context + irreversibility-weighted regret-tail framing for commons-extraction decisions. Backed by ARP rename rigor pass (commit
-     <code>
-      b8b62e3
-     </code>
-     ; same-day flip from Reversibility Default &mdash; see record for details). Aphorism:
+     for precautionary-principle tradition. Framework's contribution: specialization with bidirectional flip-by-context + irreversibility-weighted regret-tail framing for commons-extraction decisions. Aphorism:
      <em>
       "We can always extract later. We can never un-extract."
      </em>
-     See
-     <code>
-      core/terms/terms_index.md
-     </code>
-     Asymmetric Regret Rule (ARR) &mdash; FINAL ratification record.
     </p>
     <h3>
      G.2 The Asymmetric Regret Decision Rule
     </h3>
     <p>
      If uncertainty about existential substitutability gap classification: default to the higher classification. Preservation cost &le; Replacement cost when no substitute exists. "We can always extract later. We can never un-extract."
-    </p>
-    <p>
-     Source rigor pass: ARP rename (commit b8b62e3 &mdash; same-day flip from initial Reversibility Default).
     </p>
     <h3>
      &sect;7.1 The rule
@@ -3083,45 +2821,6 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      </sup>
      diverges as &alpha; &rarr; 1, exactly when ARR's asymmetric-regret structure is triggered. ARR is the decision rule; Method 3 &alpha;-dominance is the estimation companion. Same structural insight at two levels.
     </p>
-    <h3>
-     &sect;7.3 Same-day-flip lesson (from rename rigor pass)
-    </h3>
-    <p>
-     Initial v0.0.4-era working name was "Reversibility Default" (RD). Same-day rigor flip on 2026-04-24 surfaced an M6 academic-rigor concern: ARR has stronger M6 direct lineage in name (regret theory is established academic terminology); RD requires footnote-dependency to surface its decision-theory lineage. ARR was selected for direct-name-visibility.
-     <strong>
-      Working Principle #5 corollary
-     </strong>
-     (added 2026-04-24): when M5 and M6 tradeoffs appear close in a naming decision, foreground M6 direct-name-visibility EXPLICITLY in the executive summary recommendation.
-    </p>
-    <div>
-     <p>
-      <strong>
-       End of Phase B partial integration of v0.0.5 supplement &sect;2&ndash;&sect;7.
-      </strong>
-     </p>
-     <p>
-      <strong>
-       Reading-discipline note:
-      </strong>
-      the supplement file (
-      <code>
-       core/technical-appendix/archive/TechnicalAppendix_v0.0.5_supplement.md
-      </code>
-      ) remains the canonical-source-of-truth pointer for cross-reference depth. Block 4 numerical execution lives at
-      <code>
-       core/technical-appendix/block4_validation_2026-04-25.md
-      </code>
-      ; sensitivity analysis at
-      <code>
-       method3_sensitivity_analysis_2026-04-25.md
-      </code>
-      ; empirical sourcing at
-      <code>
-       empirical_sourcing_pass_2026-04-25.md
-      </code>
-      .
-     </p>
-    </div>
    </section>
    <section id="sec-9-three-model-convergence">
     <h2>
@@ -3922,24 +3621,6 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     <h2>
      &sect;11. Empirical Validation Cases
     </h2>
-    <p>
-     <strong>
-      Sources:
-     </strong>
-     old &sect;H "Empirical Validation Cases." Block 4 numerical results, Method 3 sensitivity analysis, DAC three-horizon range, and IPG-table reconciliation pending integration in Scope 5 from
-     <code>
-      core/technical-appendix/block4_validation_2026-04-25.md
-     </code>
-     ,
-     <code>
-      method3_sensitivity_analysis_2026-04-25.md
-     </code>
-     , and
-     <code>
-      empirical_sourcing_pass_2026-04-25.md
-     </code>
-     .
-    </p>
     <hr>
     <p>
      The framework's backtesting across historical cases demonstrates consistent cost severance patterns and validates the three-model convergence. All four cases show IPG &gg; 1; all four show the same structural pattern (value dispersed, costs concentrated); all four involve B &asymp; 0 relative to RCV.
@@ -4365,7 +4046,7 @@ Numerical anchors below are the framework's empirical operationalization.
     </ul>
     <p>
      <strong>
-      Caveats (per Open Insight #14 epistemic-humility):
+      Caveats (epistemic-humility):
      </strong>
     </p>
     <ul>
@@ -6329,13 +6010,6 @@ boundary-awareness register (per &sect;12).
      &sect;11.7 IPG-table reconciliation (33&ndash;122&times; canonical &rarr; 50&ndash;555&times; triangulated range)
     </h3>
     <p>
-     <strong>
-      Sources:
-     </strong>
-     Block 4 McDowell coal &sect;2.5 triangulation findings + chapter-audit &sect;2.6
-IPG-table reconciliation work + &sect;16 K.4 Sensitivity Analysis Summary.
-    </p>
-    <p>
      Earlier IPG (Intergenerational Pricing Gap) reports at Ch 6 + Ch 8 + case-file canonical
 documentation cited a 33&ndash;122&times; range for the McDowell coal IPG (the ratio of true RCV to
 market-priced cost). Block 4 Three Ways calibration (&sect;11.2) produces a triangulated range
@@ -6403,22 +6077,7 @@ this finding at
      &sect;12. Boundary-Awareness Scope Claim (Mars/Europa illustrations)
     </h2>
     <p>
-     <strong>
-      Note on reframing:
-     </strong>
-     the old &sect;F was titled "boundary-awareness illustration (All Seven Scenarios)." Per the boundary-awareness check re-examination rigor pass (commit
-     <code>
-      713beb7
-     </code>
-     ; Option B CONFIRM DEMOTE), the named "boundary-awareness check" was retired/demoted as a capitalized term &mdash; named-test status requires the test to be exercised; 0 chapter refs + no in-book exercise failed that threshold.
-     <strong>
-      The concept is preserved in prose
-     </strong>
-     as scope-claim + boundary-awareness illustration without the named test. The Mars/Europa scenarios below stand as boundary-awareness illustrations of where the framework reaches and where its boundary conditions surface. Pending Scope 3 sweep to remove "boundary-awareness check" and "boundary-awareness illustration" surface text. See
-     <code>
-      core/terms/terms_index.md
-     </code>
-     boundary-awareness check record (RETIRED / DEMOTED).
+     The Mars/Europa scenarios below stand as boundary-awareness illustrations of where the framework reaches and where its boundary conditions surface.
     </p>
     <hr>
     <p>
@@ -6534,22 +6193,11 @@ this finding at
      &sect;13. Substitutability Function (S) + Industrial-Existential Substitutability Gap
     </h2>
     <p>
-     <strong>
-      Sources:
-     </strong>
-     old &sect;G "Classification System and Implementation" minus &sect;G.2 (now &sect;8 ARR). G.1 (Resource Classification by existential substitutability gap), G.3 (Insurance Cost Argument), G.4 (Four-Step Implementation Sequence). The CSG named term was retired 2026-04-24 (commit
-     <code>
-      3ec3707
-     </code>
-     ) on parsimony grounds &mdash; framework doesn't name derived scalars (CSG = S_max(industrial) &minus; S_max(existential) is a difference between two S-evaluations). Concept preserved in prose as
+     The framework does not name a derived scalar for the difference between industrial-context and existential-context substitutability ceilings (S_max(industrial) &minus; S_max(existential) is a difference between two S-evaluations, on parsimony grounds). The concept is preserved in prose as the
      <em>
       existential substitutability gap
      </em>
-     (lowercase descriptive phrase). See
-     <code>
-      core/terms/terms_index.md
-     </code>
-     Civilizational Substitutability Gap (CSG) record (RETIRED) + Substitutability Function (S) record.
+     (lowercase descriptive phrase).
     </p>
     <hr>
     <h3>
@@ -6827,7 +6475,7 @@ this finding at
      &sect;6.11.1 (~2,000 words at reader-facing depth). The Tech Appendix elaboration below carries the defenses at academic-reviewer depth: lineage citations per defense, technical specification of the rejected alternative, and cross-reference to rigor-pass-record sources. Both registers preserve the same configuration claim (the framework's contribution is the specific configuration of choices, not novelty in any single choice).
     </p>
     <p>
-     A reader who has followed the framework's apparatus this far is entitled to ask why each piece of it is the piece chosen. Each of the eight choices below was alternative-tested in dedicated rigor passes; the rejected alternative for each is specified, and the academic lineage the framework's choice extends is cited per M12 intellectual-honesty discipline (per terms_index Working Principle #6 + M12 module).
+     A reader who has followed the framework's apparatus this far is entitled to ask why each piece of it is the piece chosen. Each of the eight choices below was alternative-tested; the rejected alternative for each is specified, and the academic lineage the framework's choice extends is cited per intellectual-honesty discipline.
     </p>
     <h4>
      &sect;15.1.1 &mdash; CIT versus revealed preference
@@ -6855,28 +6503,6 @@ this finding at
       Counterfactuals
      </em>
      + subsequent philosophy-of-action literature). The framework retains revealed preference as one estimation input &mdash; Method 2 in the Three Ways triangulation (&sect;3 + &sect;11.1) &mdash; but uses it for estimation, not discrimination. Conflating discrimination and estimation produces institutionally-captured results: cost claims that should be admitted on commons-grounding grounds get filtered out because no polity has yet priced them.
-    </p>
-    <p>
-     <strong>
-      Rigor-pass record:
-     </strong>
-     CIT rename rigor pass
-     <code>
-      tools/rigor-passes/commons_bonds_rigor_pass_2026-04-24_term_cit_rename_v1.0.0.md
-     </code>
-     (commit
-     <code>
-      b294c79
-     </code>
-     ); Commons-as-Structural-Identity rigor pass
-     <code>
-      commons_bonds_rigor_pass_2026-04-24_commons_as_structural_identity_v1.0.0.md
-     </code>
-     (commit
-     <code>
-      c4b09dc
-     </code>
-     ).
     </p>
     <h4>
      &sect;15.1.2 &mdash; Two-instrument architecture (CSD + RCV) versus single-instrument
@@ -6909,36 +6535,6 @@ this finding at
      </em>
      ; Hartwick 1977 sustainable-investment rule; Solow 1974 intergenerational equity; Brennan & Schwartz 1985 commodity-investment real options). The two methodologies do not collapse into a single accounting object without losing analytical leverage. The framework specifies CSD (backward-looking; reparations-economics lineage) and RCV (forward-looking; option-value lineage) as structurally independent instruments because the accounting work each requires is different. The two instruments share the primitive equation CS = RCV &minus; B; they answer different questions on opposite sides of that equation. Total CS = (CSD &minus; B₁) + (RCV &minus; B₂), connecting the two-instrument architecture (&sect;2) with the B = B₁ + B₂ decomposition (&sect;5).
     </p>
-    <p>
-     <strong>
-      Rigor-pass record:
-     </strong>
-     Three Ways + RCV Formal-Model rigor pass Block 1
-     <code>
-      commons_bonds_rigor_pass_2026-04-24_three_ways_rcv_formal_model_v1.0.0.md
-     </code>
-     (commit
-     <code>
-      1c8e4dd
-     </code>
-     ); CSD individual rigor pass
-     <code>
-      commons_bonds_rigor_pass_2026-04-24_term_csd_v1.0.0.md
-     </code>
-     (commit
-     <code>
-      98fc8e6
-     </code>
-     ); B₁/B₂ decomposition rigor pass
-     <code>
-      commons_bonds_rigor_pass_2026-04-24_b1_b2_decomposition_v1.0.0.md
-     </code>
-     (commit
-     <code>
-      ab24a8e
-     </code>
-     ).
-    </p>
     <h4>
      &sect;15.1.3 &mdash; Triangulation (Three Ways) versus single-method
     </h4>
@@ -6956,33 +6552,11 @@ this finding at
      <strong>
       Why triangulation instead.
      </strong>
-     Each method has a strength the other two lack and a blind spot the other two illuminate. Replacement Cost prices substitution but cannot price irreplaceability &mdash; it anchors only a floor (per &sect;3 Method 1). Revealed Preference prices what one polity actually internalized but inherits that polity's institutional architecture and tradition's commitments &mdash; Norway-anchored, the methodology fails for cases without Norway-equivalent revealed-preference data (per Open Insight #14 epistemic-humility ratification). Scarcity-Adjusted Option Value prices irreversibility through the &sigma; + &alpha; + V
+     Each method has a strength the other two lack and a blind spot the other two illuminate. Replacement Cost prices substitution but cannot price irreplaceability &mdash; it anchors only a floor (per &sect;3 Method 1). Revealed Preference prices what one polity actually internalized but inherits that polity's institutional architecture and tradition's commitments &mdash; Norway-anchored, the methodology fails for cases without Norway-equivalent revealed-preference data (epistemic-humility constraint). Scarcity-Adjusted Option Value prices irreversibility through the &sigma; + &alpha; + V
      <sub>
       option
      </sub>
      parameter set but requires calibration that ranges across two orders of magnitude in plausible values (per &sect;11.4 Method 3 sensitivity analysis). Triangulation is the standard scientific-method response to estimation under uncertainty: produce three independent estimates from three independent epistemological angles; report convergence range; treat divergence as informative rather than as failure (cf. Campbell & Fiske 1959 multitrait-multimethod matrix in psychometric methodology; subsequent triangulation discipline in qualitative + quantitative research traditions). The framework's reporting discipline &mdash; every RCV estimate reports all three methods individually plus the convergence range plus identified divergence sources &mdash; is the operationalization of this commitment. No single-method RCV claim has standing in the framework's accounting.
-    </p>
-    <p>
-     <strong>
-      Rigor-pass record:
-     </strong>
-     Three Ways + RCV Formal-Model rigor pass
-     <code>
-      commons_bonds_rigor_pass_2026-04-24_three_ways_rcv_formal_model_v1.0.0.md
-     </code>
-     (commit
-     <code>
-      1c8e4dd
-     </code>
-     ); Three Ways of Counting individual rigor pass
-     <code>
-      commons_bonds_rigor_pass_2026-04-24_term_triangulated_rcv_estimation_v1.0.0.md
-     </code>
-     (commit
-     <code>
-      4f48c48
-     </code>
-     ); Block 4 worked calibrations &sect;11.1&ndash;&sect;11.2.
     </p>
     <h4>
      &sect;15.1.4 &mdash; Hotelling Identity versus Pigou-only or Hotelling-only
@@ -7011,28 +6585,6 @@ this finding at
      </em>
      . The identity does not replace Hotelling 1931 (which prices private exhaustibility correctly within its assumptions: private extractor; finite stock; private extraction-cost only) or Pigou 1920 (which prices externalities correctly within its scope). It establishes the structural relationship between them &mdash; surfacing that commons-extraction cost is precisely the residual value beyond standard Hotelling rent, when "value" is defined as RCV (forward-looking commons cost; substitutability + externality + abundance-grounded costs admitted via Four Gates). The framework's M12 citation discipline names Hotelling 1931 as foundational (Hotelling's part: rent rule for exhaustible resources) and presents the identity extension as the framework's contribution (framework's part: defining RCV as commons' true cost; recognizing Hotelling rent under honest accounting represents commons' scarcity value being appropriated; articulating the identity).
     </p>
-    <p>
-     <strong>
-      Rigor-pass record:
-     </strong>
-     Hotelling Identity individual rigor pass
-     <code>
-      commons_bonds_rigor_pass_2026-04-24_term_hotelling_identity_v1.0.0.md
-     </code>
-     (commit
-     <code>
-      5b8ff42
-     </code>
-     ); Three Ways + RCV Formal-Model rigor pass Block 3 (commit
-     <code>
-      1c8e4dd
-     </code>
-     ); see
-     <code>
-      core/terms/terms_index.md
-     </code>
-     Hotelling Identity record for the explicit attribution discipline applied throughout &sect;4.
-    </p>
     <h4>
      &sect;15.1.5 &mdash; Four Gates versus CIT alone
     </h4>
@@ -7054,7 +6606,7 @@ this finding at
      <strong>
       Units Consistency
      </strong>
-     screens for unit coherence (&sect;7); the rejected alternative was unit-flexibility, which would allow [$/ton] cost claims to aggregate with [QALYs] cost claims without commensuration discipline. The naming asymmetry between CIT (a methodological TEST; action-form name) and the other three gates (mathematical CONDITIONS; property-form names) honors a real structural asymmetry &mdash; naming uniformity would falsely conflate kinds (per Insight #2 closed-ratified 2026-04-26 Term Consistency Gate Rename rigor pass; "Dimensional Consistency" &rarr; "Units Consistency" sweep).
+     screens for unit coherence (&sect;7); the rejected alternative was unit-flexibility, which would allow [$/ton] cost claims to aggregate with [QALYs] cost claims without commensuration discipline. The naming asymmetry between CIT (a methodological TEST; action-form name) and the other three gates (mathematical CONDITIONS; property-form names) honors a real structural asymmetry &mdash; naming uniformity would falsely conflate kinds.
      <strong>
       Boundedness
      </strong>
@@ -7063,28 +6615,6 @@ this finding at
       Independence
      </strong>
      screens for non-double-counting; the rejected alternative was loose category-membership that allowed a single severance to be counted multiple times via overlapping commons categories. The configuration of all four together filters the candidate-cost-claim space against established commons in a way none of the four alone could.
-    </p>
-    <p>
-     <strong>
-      Rigor-pass record:
-     </strong>
-     Four Gates cluster rigor pass
-     <code>
-      commons_bonds_rigor_pass_2026-04-24_four_gates_cluster_v1.0.0.md
-     </code>
-     (commit
-     <code>
-      d188e6f
-     </code>
-     ); Term Consistency Gate Rename rigor pass
-     <code>
-      commons_bonds_rigor_pass_2026-04-26_term_consistency_gate_rename_v1.0.0.md
-     </code>
-     ; Path F Variable-Addability rigor pass
-     <code>
-      commons_bonds_rigor_pass_2026-04-24_path_f_variable_addability_v1.0.0.md
-     </code>
-     .
     </p>
     <h4>
      &sect;15.1.6 &mdash; Option C' (commons-as-examples) versus legislative
@@ -7163,24 +6693,6 @@ this finding at
      </em>
      surfaced across the eighteen cases examined &mdash; not an exhaustive list. The methodology (CIT + Four Gates) operates on whatever candidate commons a tradition treats as load-bearing; readers applying the framework to their own cases may surface different categories or refine these. The framework's universality is about method, not about enumeration.
     </p>
-    <p>
-     <strong>
-      Rigor-pass record:
-     </strong>
-     10-Commons-List Dissolution rigor pass
-     <code>
-      commons_bonds_rigor_pass_2026-04-24_10_commons_list_dissolution_v1.0.0.md
-     </code>
-     (commit
-     <code>
-      e30087e
-     </code>
-     ); Commons-as-Structural-Identity rigor pass (commit
-     <code>
-      c4b09dc
-     </code>
-     ); Term Abundances rigor pass (Path F variables-not-dimensions reframing).
-    </p>
     <h4>
      &sect;15.1.7 &mdash; Asymmetric Regret Rule versus Cost-Benefit Analysis
     </h4>
@@ -7222,29 +6734,7 @@ this finding at
      <em>
       Economic Journal
      </em>
-     ) developed regret-based individual decision theory; ARR specializes this for collective-decision contexts under irreversibility. The Rio Declaration 1992 Principle 15 precautionary-principle tradition is philosophically aligned but unidirectional; ARR is bidirectional flip-by-context (per Working Principle #5: context-flipping rules earn named-rule status). Method 3's &alpha;-dominance finding (&sect;11.4) is the framework's empirical evidence that the asymmetric-regret structure is not an edge case for commons-extraction; it is the dominant cross-case driver of RCV variance for Earth-bound civilization-scale extractions.
-    </p>
-    <p>
-     <strong>
-      Rigor-pass record:
-     </strong>
-     ARP rename rigor pass
-     <code>
-      commons_bonds_rigor_pass_2026-04-24_arp_rename_v1.0.0.md
-     </code>
-     (commit
-     <code>
-      b8b62e3
-     </code>
-     ; same-day flip from preliminary Reversibility Default ratification &mdash; see lesson captured at supplement &sect;7.3); Method 3 sensitivity analysis pass
-     <code>
-      core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md
-     </code>
-     ; see
-     <code>
-      core/terms/terms_index.md
-     </code>
-     Asymmetric Regret Rule (ARR) &mdash; FINAL ratification record.
+     ) developed regret-based individual decision theory; ARR specializes this for collective-decision contexts under irreversibility. The Rio Declaration 1992 Principle 15 precautionary-principle tradition is philosophically aligned but unidirectional; ARR is bidirectional flip-by-context. Method 3's &alpha;-dominance finding (&sect;11.4) is the framework's empirical evidence that the asymmetric-regret structure is not an edge case for commons-extraction; it is the dominant cross-case driver of RCV variance for Earth-bound civilization-scale extractions.
     </p>
     <h4>
      &sect;15.1.8 &mdash; CIT two sub-forms (CAI + CCI) versus single-form
@@ -7288,28 +6778,6 @@ this finding at
      </em>
      ). The two-sub-form architecture makes the routing explicit, and &sect;6.1.2 (Domain distinction: extraction commons vs. coordination commons) operationalizes the routing discipline. The &sect;6.1.1 level-of-claim specification refinement (added 2026-04-25) operates within both sub-forms.
     </p>
-    <p>
-     <strong>
-      Rigor-pass record:
-     </strong>
-     CIT rename rigor pass
-     <code>
-      commons_bonds_rigor_pass_2026-04-24_term_cit_rename_v1.0.0.md
-     </code>
-     (commit
-     <code>
-      b294c79
-     </code>
-     ); Commons-as-Structural-Identity rigor pass (commit
-     <code>
-      c4b09dc
-     </code>
-     ); academic-rigor full test (commit
-     <code>
-      ae90800
-     </code>
-     ) &mdash; M11 Char 12 (graduate student) probed &sect;6.1.1 level-of-claim discipline; M11 Char 17 (Ostrom-successor) probed &sect;6.1.2 domain distinction.
-    </p>
     <h4>
      &sect;15.1.9 &mdash; Configuration claim
     </h4>
@@ -7317,11 +6785,7 @@ this finding at
      None of these eight choices is novel as choice-architecture. Counterfactual reasoning (Lewis 1973), externality theory (Pigou 1920), exhaustible-resource economics (Hotelling 1931), reparations economics (Darity & Mullen 2020), option-value economics (Dixit & Pindyck 1994), commons-governance (Ostrom 1990), minimax-regret decision theory (Savage 1951; Loomes & Sugden 1982; Lempert et al. 2003), and political-philosophical accommodation (Anderson 2017; Pettit 1997) are all established traditions with substantial scholarly footprints.
     </p>
     <p>
-     The framework's contribution is the specific configuration in which these choices appear together, applied to commons-extraction contexts: CIT discriminates (counterfactual reasoning specialized to commons-extraction); Four Gates admit (filter-cohort with naming asymmetry honoring methodological-vs-mathematical structure); Three Ways estimate (triangulation under deep uncertainty); Two Instruments account (CSD + RCV partition the temporal structure of obligation; B = B₁ + B₂ partitions the closing instrument); Hotelling Identity bridges to standard resource economics with explicit attribution; Option C' accommodates political-philosophical diversity without legislating commons-ontology; ARR specializes asymmetric-regret discipline for commons-extinction decisions. The configuration is what does the work the framework claims to do. Each choice's rejected alternative was tested in dedicated rigor passes; each choice's lineage extension is cited per M12 intellectual-honesty discipline; the configuration as a whole is what survives extreme rigor (per Ring-1 full integrated rigor pass commit
-     <code>
-      d4c4be4
-     </code>
-     ).
+     The framework's contribution is the specific configuration in which these choices appear together, applied to commons-extraction contexts: CIT discriminates (counterfactual reasoning specialized to commons-extraction); Four Gates admit (filter-cohort with naming asymmetry honoring methodological-vs-mathematical structure); Three Ways estimate (triangulation under deep uncertainty); Two Instruments account (CSD + RCV partition the temporal structure of obligation; B = B₁ + B₂ partitions the closing instrument); Hotelling Identity bridges to standard resource economics with explicit attribution; Option C' accommodates political-philosophical diversity without legislating commons-ontology; ARR specializes asymmetric-regret discipline for commons-extinction decisions. The configuration is what does the work the framework claims to do. Each choice's rejected alternative was tested; each choice's lineage extension is cited per intellectual-honesty discipline; the configuration as a whole is what survives the framework's full integrated rigor.
     </p>
     <h3 id="sec-15-2-methodological-framing">
      &sect;15.2 &mdash; Methodological framing footnotes
@@ -7692,14 +7156,6 @@ this finding at
     <h2>
      &sect;16. Mathematical Extensions
     </h2>
-    <div class="status-block">
-     <p>
-      <strong>
-       Sources:
-      </strong>
-      old &sect;K "Mathematical Extensions" (K.1 RCV with Variable Discount Rates per Weitzman; K.2 Stock-Dependent Substitutability; K.3 spatial cost severance formalization; K.4 Sensitivity Analysis Summary). K.3 surface text rewritten to lowercase prose phrase per Spatial CS re-examination rigor pass v1.1 (Scope 3, 2026-04-27). &sect;K verified clean of tier-coupled passages in Scope 4 (2026-04-27): K.1&ndash;K.4 operate at the RCV-level mathematical layer (discount-rate specification; stock-dependent substitutability; spatial-formalization; sensitivity analysis), not the tier-grouping layer that was dissolved 2026-04-24 per the tier-reframing rigor pass &sect;11.
-     </p>
-    </div>
     <hr>
     <h3>
      K.1 RCV with Variable Discount Rates (Weitzman Specification)
@@ -8196,7 +7652,7 @@ this finding at
    </section>
    <section id="sec-19-provenance-cross-references">
     <h2>
-     &sect;19. Provenance &amp;amp; Cross-References
+     &sect;19. Provenance &amp; Cross-References
     </h2>
     <p>
      This Tech Appendix v1.0.0 references several canonical-source-of-truth files. The pointers below let readers locate full provenance, full bibliography, and full term-lifecycle records.
