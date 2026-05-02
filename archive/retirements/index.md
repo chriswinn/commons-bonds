@@ -71,7 +71,7 @@ The project uses a **hybrid archive structure**:
 | Date | Original location | Disposition | Insight # | Rigor pass / commit |
 |---|---|---|---|---|
 | 2026-04-30 | `core/decomposition/eight-tier-v10.html` | Archived → `archive/decomposition/eight-tier-v10.html` (8-tier scheme retired 2026-04-24; directory archived per Insight #55 hygiene pass) | Insight #55 (hygiene pass authorization 2026-04-30) | This commit's `dac1ab3` archive operation |
-| (deferred) | `core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md` | QUEUED for absorption into Tech Appendix v2.0.0 §C.2 during Phase 3 rebuild; directory archives at that point | Insight #55 + Phase 3 v2.0.0 rebuild | Pending |
+| 2026-05-02 | `core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md` | Content absorbed into Tech Appendix §C.2 + new §C.2.1 (per-category profiles for all 10 commons categories: Habitability · Spatial · Temporal · Institutional · Kindred · Ecosystem · Political · Cohesion · Epistemic · Autonomy); source file archived to `archive/dimensions/` with Tier-2 header-note per WP#4; `core/dimensions/` directory removed | Insight #55 + Phase α.2.7c rebuild | Phase α.2.7c batched commit (Tech Appendix v2.0.0 absorption) |
 | 2026-04-29 | `~/Documents/___WorkingOn/commons-bonds` | Project relocated to `~/commons-bonds` (escape iCloud Documents-sync corruption) | (Session handoff v1.47.0 §2.5) | Session handoff v1.47.0 |
 
 ---

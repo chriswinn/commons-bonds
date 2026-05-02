@@ -1,5 +1,7 @@
 # Commons Bonds — Commons Categories (10 examples, not canonical) — formerly "Abundance Dimensions"
 
+> **ARCHIVED 2026-05-02 (Phase α.2.7c).** Content absorbed into `core/technical-appendix/TechnicalAppendix_v2.0.0.html` §C.2 / §C.2.1 (per-category profiles). This source file remains as the historical-research-substrate record per Working Principle #4 Tier-2 discipline (header-note only; body content preserved unchanged). Current canonical state: Tech Appendix §C.2.1.
+
 **Date:** 2026-04-24
 **Version:** 1.4.0 (Tier-1 update header per Working Principle #4)
 **Status:** Current methodology reference (v1.4.0 Tier-1 update). **v1.4.0 applies Option C' commons-as-structural-identity reframing** per rigor passes `commons_bonds_rigor_pass_2026-04-24_commons_as_structural_identity_v1.0.0.md`, `..._term_cit_rename_v1.0.0.md`, and `..._10_commons_list_dissolution_v1.0.0.md` (commits `c4b09dc`, `b294c79`, `e30087e`). The 10 categories are **examples (not canonical) of commons that the framework has surfaced across cases examined to date** — political-philosophical-accommodation discipline (Option C') applies: the framework does not legislate the boundaries or completeness of "what counts as a commons"; it provides a methodology (CIT + Four Gates) for evaluating any candidate commons that surfaces in a given political-philosophical tradition. All per-dimension rich-profile content preserved from v1.3.0 as pedagogical evidence that CIT converges on reliable commons categories under specific case clusters — not as ontological commitment to these 10 specifically.
