@@ -104,7 +104,7 @@ The people who left McDowell County did not leave because they wanted to. Most o
 
 This is a real cost. It is not sentimental to call it a cost. Every dollar invested in a child's development — every year of schooling, every piano lesson, every Little League uniform, every meal cooked at seven in the morning before a shift — is an investment in a person who will eventually produce value somewhere. When that person leaves, the value they produce goes with them. The community that funded the investment gets no return.
 
-This is the dynastic dimension of cost severance: not just what was taken from the people who stayed, but what was taken from the generations who would have built what came next, if there had been something to build.
+This is the lineage dimension of cost severance: not just what was taken from the people who stayed, but what was taken from the generations who would have built what came next, if there had been something to build.
 
 ---
 
@@ -154,7 +154,7 @@ The value that came out of those mountains was not consumed in those mountains. 
 
 This is spatial cost severance: the geographic gap between where value is extracted and where costs are borne. Distance enabled ignorance, and ignorance made the accounting invisible. The consumers were not villains. Most of them would have been horrified by McDowell County if they had seen it. But they didn't see it. The transaction was structured so that they didn't have to.
 
-This geographic dimension is distinct from, but as important as, the temporal dimension — the gap between present value extraction and future cost-bearing. We will see temporal cost severance in later chapters. What McDowell County demonstrates is that you don't need centuries of delay for cost severance to operate. You just need enough distance that the people who benefit never have to look at what their benefit costs. Chapter 7 returns to distance as the structural feature the framework's logic rests on, by examining what the framework says when distance collapses.
+Spatial cost severance is distinct from, but as important as, temporal cost severance — the gap between present value extraction and future cost-bearing. We will see temporal cost severance in later chapters. What McDowell County demonstrates is that you don't need centuries of delay for cost severance to operate. You just need enough distance that the people who benefit never have to look at what their benefit costs. Chapter 7 returns to distance as the structural feature the framework's logic rests on, by examining what the framework says when distance collapses.
 
 ---
 
