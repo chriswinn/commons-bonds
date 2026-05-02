@@ -2863,7 +2863,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      Merger gate and primitiveness gate&nbsp;(applied to commons categorys in prior rigor passes) are recognized as the independence gate&rsquo;s dimensional-level application. The merger gate tests whether a proposed dimension is subsumed by an existing one; the primitiveness gate tests whether a proposed dimension is structurally irreducible. Both are cases of the general non-overlap requirement operating at a coarser granularity than variable-level independence.
     </p>
     <p>
-     Convergence analysis&nbsp;(Theorem E.1 in Section E on RCV integral convergence under Weitzman discounting) is the boundedness gate&rsquo;s canonical instance. The gate extends the theorem&rsquo;s coverage from the two-term canonical formula in Section B.1 to any finite-sum integrand that satisfies L.3&rsquo;s sufficient condition.
+     Convergence analysis&nbsp;(Theorem E.4 in Section E on RCV integral convergence under Weitzman discounting) is the boundedness gate&rsquo;s canonical instance. The gate extends the theorem&rsquo;s coverage from the two-term canonical formula in Section B.1 to any finite-sum integrand that satisfies L.3&rsquo;s sufficient condition.
     </p>
     <p>
      The canonical two-term RCV formula (Section B.1)&nbsp;remains the baseline specification for the published worked cases. The general sum-of-costs form is an extension under the four gates, formalized in Section M (Formula Generalization) below.
@@ -3246,16 +3246,125 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     </h2>
     <hr>
     <p>
-     Theorem E.1 (Structural Cost Severance)
+     Theorem E.1a (Cost Severance Identity)
     </p>
     <p>
-     For any extraction of a commons resource where market price P &lt; RCV, cost severance CS &gt; 0 occurs structurally, independent of extractor intentions.
+     <strong>
+      Assumption A1 (Cost Severance Definition):
+     </strong>
+     CS(R, t₀) = RCV(R, t₀) &minus; B(R, t₀) where R is a non-renewable resource extracted at time t₀; RCV is per-unit Residual Commons Value; B is per-unit aggregate Accountability Bond. (Per Section B.1.)
     </p>
     <p>
-     Proof:&nbsp;Given CS = RCV &minus; B and market pricing implies B &le; P (accountability bonds are bounded by what the market will support), if P &lt; RCV then B &lt; RCV, therefore CS = RCV &minus; B &gt; 0. The inequality P &lt; RCV follows from markets' structural inability to price intergenerational foreclosure &mdash; future generations cannot bid in present markets &mdash; and the incompleteness of externality pricing under existing accountability regimes. Therefore CS &gt; 0 holds for all non-renewable extraction under present institutions, independently of whether any individual extractor intends to sever costs. ∎
+     <strong>
+      Statement.
+     </strong>
+     Under Assumption A1, the sign of CS is determined by the comparison of RCV and B:
+    </p>
+    <ul>
+     <li>
+      <strong>
+       CS &gt; 0
+      </strong>
+      iff B &lt; RCV;
+     </li>
+     <li>
+      <strong>
+       CS = 0
+      </strong>
+      iff B = RCV;
+     </li>
+     <li>
+      <strong>
+       CS &lt; 0
+      </strong>
+      iff B &gt; RCV.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Proof.
+     </strong>
+     By Assumption A1, CS = RCV &minus; B. Therefore CS &gt; 0 &hArr; RCV &minus; B &gt; 0 &hArr; B &lt; RCV. Similarly for equality and inequality. ∎
     </p>
     <p>
-     Note on scope: Theorem E.1 is stated for conditions where P &lt; RCV. The theorem does not claim P &lt; RCV is a logical necessity &mdash; it is an empirical regularity explained by structural gaps in existing pricing. If future institutions implement full intergenerational foreclosure pricing, B could in principle equal or exceed RCV, making CS &le; 0. This possibility is what makes the theorem falsifiable (see Counterargument 4 engagement in Chapter 6).
+     Theorem E.1b (Structural Cost Severance under Current Institutions)
+    </p>
+    <p>
+     <strong>
+      Assumptions A2&ndash;A4:
+     </strong>
+    </p>
+    <ol>
+     <li>
+      <strong>
+       (A2) RCV is non-negative.
+      </strong>
+      RCV(R, t₀) &ge; 0 for all R, t₀ where R is non-renewable. (Empirical claim supported by Section B.1 + Section H.)
+     </li>
+     <li>
+      <strong>
+       (A3) B is non-negative.
+      </strong>
+      B(R, t₀) &ge; 0 for all R, t₀. (Definitionally; bonds cannot be negative.)
+     </li>
+     <li>
+      <strong>
+       (A4) Aggregate scope.
+      </strong>
+      RCV represents aggregate Residual Commons Value across all severed-cost components (foreclosure cost + externality tail; per Section B.1). B represents aggregate Accountability Bond across all instruments operating against R (sum of severance taxes + reclamation bonds + decommissioning bonds + carbon taxes + sovereign-wealth-fund Hartwick coverage + any other accountability instruments).
+     </li>
+    </ol>
+    <p>
+     <strong>
+      Premises P1&ndash;P3:
+     </strong>
+    </p>
+    <ol>
+     <li>
+      <strong>
+       (P1) Intergenerational market incompleteness &mdash; extension of Coase 1960.
+      </strong>
+      Markets cannot complete bargaining for intergenerational claims because future generations cannot bid in present markets. Per Coase 1960 framework: complete-bargaining requires all affected parties to participate; intergenerational extraction affects parties (future generations) who cannot participate. Therefore market pricing systematically under-internalizes intergenerational components of total cost.
+     </li>
+     <li>
+      <strong>
+       (P2) Partial externality pricing &mdash; extension of Pigou 1920.
+      </strong>
+      Existing externality-pricing instruments (Pigouvian taxes; cap-and-trade; reclamation bonds) cover specific externalities partially; comprehensive coverage of all externalities (including intergenerational) is not currently implemented in any jurisdiction. Per Pigou 1920 framework + Stern Review 2007 (climate externality incompleteness exemplar).
+     </li>
+     <li>
+      <strong>
+       (P3) Current accountability bond inadequacy &mdash; empirical.
+      </strong>
+      Across major non-renewable extraction jurisdictions in the contemporary decade, the aggregate Accountability Bond B is empirically less than the aggregate Residual Commons Value RCV. Supporting evidence: Section H validation cases (McDowell County coal; Black Lung Trust Fund deficit; EU ETS gaps; Norwegian sovereign-wealth-fund partial-coverage analysis).
+     </li>
+    </ol>
+    <p>
+     <strong>
+      Statement.
+     </strong>
+     Under Premises P1, P2, P3, for non-renewable extraction R at time t₀ in any jurisdiction observed under current institutions, aggregate B(R, t₀) &lt; aggregate RCV(R, t₀). Therefore by Theorem E.1a, CS(R, t₀) &gt; 0.
+    </p>
+    <p>
+     <strong>
+      Proof.
+     </strong>
+     By Premise P1, the intergenerational components of RCV cannot be priced through market mechanisms; therefore market-based accountability instruments do not internalize these components. By Premise P2, the externality components of RCV are partially priced through existing Pigouvian instruments; the partial coverage means that the externality components of B are strictly less than the corresponding components of RCV in aggregate. By Premise P3 (empirical), across current-institution jurisdictions, neither comprehensive intergenerational coverage nor comprehensive externality coverage is implemented; therefore aggregate B &lt; aggregate RCV.
+    </p>
+    <p>
+     By Theorem E.1a, B &lt; RCV implies CS &gt; 0. The conclusion follows: CS &gt; 0 holds for non-renewable extraction under current institutions across the jurisdictions empirically validated in Section H. ∎
+    </p>
+    <p>
+     <strong>
+      Falsifiability.
+     </strong>
+     Theorem E.1b is falsifiable by either (a) discovery of a non-renewable extraction case under current institutions where aggregate B &ge; aggregate RCV (single counterexample); or (b) empirical demonstration that across most current institutions, accountability instruments are sufficient (B &asymp; RCV) such that Premise P3 fails. Empirical evidence (Section H) addresses (b); ongoing monitoring of jurisdictional accountability instruments addresses (a).
+    </p>
+    <p>
+     <strong>
+      Domain of applicability.
+     </strong>
+     Theorem E.1b applies to non-renewable extraction (resources whose substitutability function S(t) does not approach 1 within the relevant time horizon &mdash; see Section F existential substitutability gap analysis) under contemporary institutions (defined as the set of accountability instruments in operation in the current decade across jurisdictions where the extraction occurs). Renewable extraction under sustainable management, and non-renewable extraction in hypothetical jurisdictions with comprehensive accountability instruments, are outside the theorem's domain (and would constitute falsifying counterexamples if observed empirically).
     </p>
     <p>
      Theorem E.2 (Convergence of Independent Models)
