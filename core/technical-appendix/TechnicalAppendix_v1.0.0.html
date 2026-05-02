@@ -496,7 +496,12 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      Definition A.8 (Commons Inversion Test &mdash; Methodological Protocol)
     </p>
     <p>
-     To identify hidden cost tiers in any extraction transaction, systematically strip away dimensions of abundance and observe which costs become visible at each dimension. Formally: for a cost tier Ci, commons category Aj, and scarcity threshold Sj, the cost is latent when Aj&nbsp;&gg; Sj&nbsp;and becomes visible as Aj&nbsp;&rarr; Sj. The test proceeds by hypothetically removing each commons category in sequence:
+     <em>
+      Per Theorem E.3 (Abundance Masking) at &sect;10, the abundance-masking phenomenon is established analytically from resource-economics cost-function primitives. CIT operationalizes detection of the phenomenon: stripping away dimensions of abundance and observing which cost components transition from C &asymp; 0 to C &rarr; large is the empirical signature of E.3's analytic prediction. CIT's validity as a discovery methodology follows from E.3's analytic establishment of the abundance-masking phenomenon.
+     </em>
+    </p>
+    <p>
+     To identify hidden cost components in any extraction transaction, systematically strip away dimensions of abundance and observe which costs become visible at each dimension. Formally: for a cost component Ci, commons category Aj, and scarcity threshold &tau;j, the cost is latent when Aj&nbsp;&gg; &tau;j&nbsp;and becomes visible as Aj&nbsp;&rarr; &tau;j. The test proceeds by hypothetically removing each commons category in sequence:
     </p>
     <ol start="1">
      <li>
@@ -3376,13 +3381,137 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      Proof sketch:&nbsp;All three models capture the same fundamental gap: the difference between current pricing and full social cost. They differ in how they approach that gap &mdash; from identified costs (Damage Function), from market-referenced option value (Real Options), and from substitutability-weighted integral (RCV). Because their data sources are uncorrelated (litigation records, market volatility, materials science substitutability estimates) and because they share a common target (the true social cost), systematic divergence beyond one order of magnitude would require all three to err in opposite directions simultaneously &mdash; a probability inconsistent with their demonstrated empirical behavior across six tested cases. Convergence within one order of magnitude across all four empirical cases validates the underlying cost severance structure. ∎
     </p>
     <p>
-     Theorem E.3 (Abundance Masking)
+     Theorem E.3 (Abundance Masking under Stock-Flow Framework)
     </p>
     <p>
-     For any cost tier C, abundance level A, and scarcity threshold S: if A &gg; S then C appears negligible until A approaches S, at which point C becomes visible and grows nonlinearly.
+     <strong>
+      Assumptions A1&ndash;A4:
+     </strong>
+    </p>
+    <ol>
+     <li>
+      <strong>
+       (A1) Stock-flow framework.
+      </strong>
+      The commons under analysis is a non-renewable depletable resource with abundance A(t) &isin; (0, &infin;) where A is monotonically non-increasing under continuous extraction.
+     </li>
+     <li>
+      <strong>
+       (A2) Cost-function structure.
+      </strong>
+      The cost function c: (&tau;, &infin;) &rarr; ℝ_&ge;0 is continuous, non-negative, monotonically decreasing in A, with the limit behavior:
+      <ul>
+       <li>
+        lim_{A &rarr; &infin;} c(A) = 0 (or bounded above by a small constant).
+       </li>
+       <li>
+        lim_{A &rarr; &tau;⁺} c(A) = &infin; (or grows faster than any polynomial in 1/(A &minus; &tau;)).
+       </li>
+      </ul>
+      The framework adopts (without loss of generality) the explicit functional form c(A) = c₀ &middot; (&tau;/(A &minus; &tau;))^&xi; for some &xi; &ge; 1; alternative forms with the same limit behavior are admissible.
+     </li>
+     <li>
+      <strong>
+       (A3) Standard supply-elasticity behavior.
+      </strong>
+      Supply elasticity &eta;_S(A) approaches zero as A &rarr; &tau;⁺, consistent with standard microeconomic supply theory. Equivalently, marginal extraction cost approaches the resource's reservation price near scarcity threshold.
+     </li>
+     <li>
+      <strong>
+       (A4) Domain restrictions.
+      </strong>
+      E.3 applies to non-renewable depletable commons under stock-flow framework with standard supply-elasticity. The theorem does NOT apply to:
+      <ul>
+       <li>
+        Renewable commons where regeneration &ge; extraction rate (cost-function does not exhibit the limit behavior).
+       </li>
+       <li>
+        Information / non-rivalrous commons where use does not deplete the stock.
+       </li>
+       <li>
+        Network-effect commons where cost dynamics depend on coordination effects.
+       </li>
+       <li>
+        Multi-threshold commons (separate analysis required for each transition; E.3 applies locally to each transition).
+       </li>
+      </ul>
+     </li>
+    </ol>
+    <p>
+     <strong>
+      Abstract premise framing (complementary to A1&ndash;A4):
+     </strong>
+     Assumption A2's explicit functional form realizes four abstract cost-function properties: (P1) monotonicity in abundance; (P2) abundance limit lim_{A &rarr; &infin;} c(A) = 0; (P3) convexity in scarcity ratio; (P4) nonlinear growth near scarcity threshold. The two framings are complementary: A1&ndash;A4 are concrete premises with explicit functional form realization; P1&ndash;P4 are abstract cost-function properties A2's functional form realizes.
     </p>
     <p>
-     Proof:&nbsp;By construction of the Commons Inversion Test. When A &gg; S, the marginal cost of depleting A appears zero because each unit withdrawn from a very large stock has negligible price impact. As A &rarr; S, the cost function transitions from approximately linear to exponential as scarcity effects dominate &mdash; this is the standard behavior of resource cost functions near depletion thresholds, demonstrated formally by Hotelling's rent dynamics and empirically by commodity price spikes near supply constraints. The asteroid mining scenarios (Section F) demonstrate this for an extreme case: asteroid iron (A &gg; S) has RCV &asymp; 0; lunar helium-3 near the fusion-deployment threshold (A approaching S) has high existential substitutability gap. ∎
+     <strong>
+      Notation note.
+     </strong>
+     &tau; (tau) denotes scarcity threshold throughout this theorem; &xi; (xi) denotes the cost-function curvature parameter. The substitutability function S(t) appearing in the framework's RCV integrand (Section B.1; Theorem E.4) is distinct and disjoint in usage; S_max denotes the long-run substitutability limit (existential substitutability gap; Section F).
+    </p>
+    <p>
+     <strong>
+      Statement.
+     </strong>
+     Under Assumptions A1&ndash;A4, for any non-renewable depletable commons with cost function c(A) per A2:
+    </p>
+    <ul>
+     <li>
+      <strong>
+       (i) When abundance A &gg; &tau; (scarcity threshold), cost c(A) &rarr; 0
+      </strong>
+      &mdash; cost is masked by abundance.
+     </li>
+     <li>
+      <strong>
+       (ii) As abundance A &rarr; &tau;⁺ (approaches scarcity threshold from above), cost c(A) &rarr; &infin;
+      </strong>
+      &mdash; cost becomes visible and grows nonlinearly.
+     </li>
+    </ul>
+    <p>
+     <strong>
+      Proof of (i).
+     </strong>
+     By Assumption A2, lim_{A &rarr; &infin;} c(A) = 0. Therefore for any &epsilon; &gt; 0, &exist; A_&epsilon; such that c(A) &lt; &epsilon; for A &gt; A_&epsilon;. In particular, when A is sufficiently large compared to &tau;, cost is masked by abundance to within any specified tolerance. ∎
+    </p>
+    <p>
+     <strong>
+      Proof of (ii).
+     </strong>
+     By Assumption A2, lim_{A &rarr; &tau;⁺} c(A) = &infin;. Therefore for any M &gt; 0, &exist; &delta; &gt; 0 such that c(A) &gt; M for &tau; &lt; A &lt; &tau; + &delta;. Equivalently, as abundance approaches scarcity threshold from above, cost grows without bound.
+    </p>
+    <p>
+     The functional form c(A) = c₀ &middot; (&tau;/(A &minus; &tau;))^&xi; with &xi; &ge; 1 satisfies these limit conditions explicitly. Two complementary academic lineages support the functional form:
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Commodity-economics + supply-elasticity lineage (price-discovery framing):
+      </strong>
+      By Assumption A3 (standard supply-elasticity behavior &mdash; Marshall 1890 &sect;V; modern microeconomics), the hyperbolic-type functional form is consistent with empirical commodity supply behavior near binding constraints. Hotelling 1931 rent dynamics + commodity-shock empirical patterns (Hamilton 2009 <em>Brookings Papers on Economic Activity</em>; Kilian 2009 <em>American Economic Review</em>; Pindyck 2008 <em>Energy Journal</em>) display the abundance-masking pattern in priced markets: prices rise nonlinearly as binding-constraint regimes are approached.
+     </li>
+     <li>
+      <strong>
+       Resource-economics + tipping-point lineage (biophysical/structural framing):
+      </strong>
+      Stock-dependent cost-function behavior (Pindyck 1978 <em>Journal of Political Economy</em>; Dasgupta &amp; Heal 1979 <em>Economic Theory and Exhaustible Resources</em>) provides the resource-economics foundation. Ecological tipping-point dynamics (Barnosky et al. 2012 <em>Nature</em> "Approaching a state shift in Earth's biosphere"; Lenton et al. 2008 <em>PNAS</em> "Tipping elements in the Earth's climate system") provide the same nonlinear-growth-near-threshold behavior in ecological systems.
+     </li>
+    </ul>
+    <p>
+     The two lineages are complementary: commodity-economics analyzes abundance-masking via price-discovery mechanisms; resource-economics + tipping-point analyzes it via biophysical state-shift mechanisms. Together they establish the phenomenon as both market-economics-recognizable and ecological-economics-recognizable. ∎
+    </p>
+    <p>
+     <strong>
+      Empirical illustration.
+     </strong>
+     Section F demonstrates the abundance-masking pattern across illustrative cases: asteroid iron (A &gg; &tau;) has RCV &asymp; 0; lunar helium-3 near the fusion-deployment threshold (A approaching &tau;) has high existential substitutability gap. Section H validation cases provide additional empirical support: McDowell County coal (post-peak; A &lt; &tau; regime); rare-earth minerals (China export-restriction price spikes 2010&ndash;2012); oil-shock dynamics (Hamilton 2009; Kilian 2009).
+    </p>
+    <p>
+     <strong>
+      Operational corollary.
+     </strong>
+     The Commons Inversion Test (CIT; Definition A.8) is the methodological protocol that detects the abundance-masking phenomenon established analytically here. Stripping away dimensions of abundance and observing which cost components transition from C &asymp; 0 to C &rarr; large is the empirical signature of E.3's analytic prediction. CIT's validity as a discovery methodology follows from E.3.
     </p>
     <p>
      Theorem E.4 (RCV Integral Convergence under Weitzman Declining Discount)
