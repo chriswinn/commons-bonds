@@ -62,7 +62,7 @@ Body:
 
 ### 3. A. Kirsten Mullen (Artefactual)
 
-**Email address (verify):** Verify via Artefactual website / professional contact pages; possibly approach via Darity if independent address not findable.
+**Email address (verify):** **NOT FINDABLE 2026-05-01** — Artefactual website appears to be a different organization than what Mullen started; no registered domain or direct email associated with her work surfaced in author research. **Recommended path:** route via Darity Jr. (Candidate #2). If Darity responds favorably, Chris can either request Mullen's email from him or ask Darity to forward the Mullen draft as a warm intro (much stronger framing than cold contact-form submission anyway). Hold the Mullen Gmail draft until the Darity response shapes the path.
 
 **Subject:** Interview request — your reparations-economics work + a forthcoming framework on cost severance
 
@@ -239,7 +239,7 @@ Body:
 |---|---|---|---|
 | 1 | Mariana Mazzucato | r-7666132269169772246 | **Edit needed: "Vice President" → "President"** |
 | 2 | William Darity Jr. | r877167526603270048 | **Edit needed: "Vice President" → "President"** |
-| 3 | A. Kirsten Mullen | r-2219848113721965092 | **Edit needed: "Vice President" → "President"** |
+| 3 | A. Kirsten Mullen | r-2219848113721965092 | **HOLD — no direct contact findable 2026-05-01** (Artefactual website is a different organization than Mullen's; she may not have a registered domain associated with her work). Recommended path: route via Darity Jr. (#2) — if he responds, ask for either Mullen's email or his willingness to forward the Mullen draft as a warm intro. Hold draft in Gmail; release based on Darity response. |
 | 4 | Kate Raworth | r-7388574328196183928 | **SENT VIA CONTACT FORM 2026-05-01** (no direct email findable; submitted via Doughnut Economics website contact form with Chris's email + name for response). Gmail draft can be deleted. |
 | 5 | James Boyce | r-6018921102697737987 | **Edit needed: "Vice President" → "President"** |
 | 6 | Adrienne Buller | r5963226130825436875 | **Edit needed: "Vice President" → "President"** |
