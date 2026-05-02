@@ -172,7 +172,7 @@ The healthcare commons demonstrates the cost-severance pattern at the institutio
 
 Six cases. Six industries. Four continents, two of them represented twice. Six entirely different types of extraction. The pattern is identical across all of them.
 
-An entity — a company, a generation, a political system — captures value from a resource or system that could theoretically be managed for long-term sustainability. That value capture generates costs: environmental damage, health impacts, financial obligations, the permanent foreclosure of future options. Those costs are severed from the entity that created them and transferred to parties who had minimal power to prevent the transfer: workers, communities, ecosystems, future generations.
+An entity — a company, a generation, a political system — captures value from a resource or system that could theoretically be managed for long-term sustainability. That value extraction generates costs: environmental damage, health impacts, financial obligations, the permanent foreclosure of future options. Those costs are severed from the entity that created them and transferred to parties who had minimal power to prevent the transfer: workers, communities, ecosystems, future generations.
 
 When the costs eventually materialize — when the workers get sick, when the environment collapses, when the bills come due — the original beneficiary is protected from the full reckoning by distance (geographic, temporal, legal, or political). The costs are absorbed by those who remain: the people who cannot leave, the systems that cannot relocate, the generations who inherit the mess.
 
@@ -180,7 +180,7 @@ In Libby, the costs were absorbed by a Montana town that could not move away fro
 
 The companies declare bankruptcy. The politicians leave office. The generations who made the promises pass away. The costs remain, transferred to whoever cannot escape them.
 
-This is not a failure of the system. This is the system working exactly as it has been designed to work — not by conscious intention, but by the accumulated logic of structures that reward value capture and externalize costs to those with the least power to resist. Cost severance is not an accident. It is not an unintended consequence. It is the mechanism by which every extractive economy has ever operated, and it is still operating today.
+This is not a failure of the system. This is the system working exactly as it has been designed to work — not by conscious intention, but by the accumulated logic of structures that reward value extraction and externalize costs to those with the least power to resist. Cost severance is not an accident. It is not an unintended consequence. It is the mechanism by which every extractive economy has ever operated, and it is still operating today.
 
 The question is not whether this is happening — the six cases in this chapter prove that it is. The question is what it looks like to build accountability structures that can interrupt the pattern before the costs are severed, rather than trying to recover them after the damage is done and the beneficiaries have already departed.
 
