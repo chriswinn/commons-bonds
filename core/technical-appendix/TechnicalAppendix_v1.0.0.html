@@ -222,7 +222,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     </li>
     <li>
      <a href="#sec-3-rcv-quantification">
-      &sect;3. RCV Quantification &mdash; Triangulated Estimation (Three Ways of Counting)
+      &sect;3. RCV Quantification &mdash; Three Ways of Counting
      </a>
     </li>
     <li>
@@ -395,7 +395,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      Definition A.1 (Commons Resource) &mdash; UPDATED per Ripple Effects 1.0
     </p>
     <p>
-     A resource unit R &isin; C (where C denotes commons territory) is drawn from a shared stock Q with regeneration rate &rho; &ge; 0. The framework prices extraction for all values of &rho;.
+     A resource unit R &isin; 𝒞 (where 𝒞 (script C) denotes the commons-territory set; distinguished typographically from C used as cost variable Cᵢ) is drawn from a shared stock Q with regeneration rate &rho; &ge; 0. The framework prices extraction for all values of &rho;.
     </p>
     <ul>
      <li>
@@ -449,10 +449,39 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      U(R, t, Q(t)) includes direct economic value, option value, and ecological function value.&nbsp;The ecological component is small at abundant stock levels and rises nonlinearly as Q approaches ecological thresholds, capturing keystone effects and ecosystem cascades.
     </p>
     <p>
+     <strong>
+      Notational convention (Q(t) = remaining in-situ stock at time t).
+     </strong>
+     The framework adopts Q(t) for remaining in-situ stock, with units consistent with the resource class (e.g., barrels of oil; tonnes of rare-earth ore; cubic meters of timber). The choice diverges from several adjacent conventions in the resource-economics + industrial-organization literatures, and the divergence is marked here for first-encounter disambiguation:
+    </p>
+    <ul>
+     <li>
+      <em>Hotelling 1931</em> uses q for extraction flow (rate of withdrawal); the framework's Q is the integrated stock state, not the flow.
+     </li>
+     <li>
+      <em>Pindyck 1978 Journal of Political Economy</em> uses X(t) for stock; symbol choice differs but type-equivalent to framework's Q.
+     </li>
+     <li>
+      <em>Dasgupta &amp; Heal 1979 Economic Theory and Exhaustible Resources</em> uses S(t) for stock; symbol collides with framework's S(t) = substitutability function (Definition A.2). The framework's choice of Q resolves the collision.
+     </li>
+     <li>
+      <em>Mussa &amp; Rosen 1978 Journal of Economic Theory</em> uses Q for quality-index in industrial-organization; the framework's Q is stock state, not quality dimension. Readers approaching the framework from IO conventions should read Q as quantity-stock, not quality.
+     </li>
+    </ul>
+    <p>
+     The internal mathematical apparatus enforces the framework's reading: &part;U/&part;Q &lt; 0 (utility per remaining unit increases as stock depletes; would be ill-typed under Hotelling-flow or Mussa-Rosen-quality readings) and Q-critical-threshold coupling (Q approaches ecological thresholds; would be ill-typed under flow reading). Adjacent literature: Slade &amp; Thille 2009 <em>Journal of Economic Literature</em> on natural-resource cost-function notation; Spence 1976 <em>Review of Economic Studies</em> + Tirole 1988 <em>The Theory of Industrial Organization</em> on Q-as-quality contrast.
+    </p>
+    <p>
      Definition A.4 (Externality Tail)
     </p>
     <p>
-     E(R, t) represents the externality flow at time t resulting from extraction of resource R at time t₀. This includes ongoing environmental damage, health costs, community disruption, and ecological degradation that persist beyond the extraction event. E(R, t) &ge; 0 for all t, and typically exhibits a long tail: E(R, t) &gt; 0 for many generations after extraction ceases.
+     E(R, t) represents the externality flow at time t resulting from extraction of resource R at time t₀ (per Definition A.3, Q(t) = remaining in-situ stock at time t; E is independent of Q in this formulation). This includes ongoing environmental damage, health costs, community disruption, and ecological degradation that persist beyond the extraction event. E(R, t) &ge; 0 for all t, and typically exhibits a long tail: E(R, t) &gt; 0 for many generations after extraction ceases.
+    </p>
+    <p>
+     <strong>
+      Notational disambiguation ("tail" — temporal-persistence sense, not statistics-distribution-tail).
+     </strong>
+     "Externality Tail" in this framework names the temporal-persistence dimension of an externality: damage that persists for many generations after extraction stops. The "tail" is in <em>time</em>, not in <em>probability distribution</em>. E(R, t) is a deterministic flow function, not a probability density's tail region. Readers approaching the framework from finance / actuarial / industrial-organization conventions may pattern-match "tail" to extreme-value-theory or fat-tailed distribution conventions (Mandelbrot 1963 <em>Journal of Business</em> on fat-tailed price distributions; Taleb 2007 <em>The Black Swan</em>; Embrechts, Kl&uuml;ppelberg &amp; Mikosch 1997 <em>Modelling Extremal Events</em>; Anderson 2006 <em>The Long Tail</em>); the framework's usage is distinct. The "runs on its own clock" rhetorical anchor (Section L methodological framing) reinforces the temporal-persistence reading.
     </p>
     <p>
      Definition A.5 (Social Discount Function)
@@ -464,10 +493,30 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      Definition A.6 (Residual Commons Value &mdash; Core Formula)
     </p>
     <p>
-     The RCV of resource unit R, extracted at t₀, is the present value of all foregone intergenerational utility plus all ongoing externalities:
+     The RCV of resource unit R, extracted at t₀, is the present value of all foregone intergenerational utility plus all ongoing externalities (per Definition A.3, Q(t) = remaining in-situ stock at time t):
     </p>
     <p>
      RCV(R, t₀) = &int;t₀&infin;&nbsp;{ [1 &minus; S(t | t₀)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, t₀) dt
+    </p>
+    <p>
+     <strong>
+      Acronym disambiguation (RCV first-introduction discipline).
+     </strong>
+     The framework uses RCV exclusively for Residual Commons Value as defined here. Three real-world acronym collisions are noted for first-encounter disambiguation:
+    </p>
+    <ul>
+     <li>
+      <em>Ranked-Choice Voting</em> &mdash; civic-engagement / electoral-policy usage; rising salience through 2024+ (Maine 2018; NYC 2021; Alaska 2022; multiple state initiatives). Academic anchor: Reilly 2001 <em>Democracy and Diversity: Political Engineering in the Asia-Pacific</em> (Oxford UP).
+     </li>
+     <li>
+      <em>Replacement Cost Value</em> &mdash; insurance-policy usage (vernacular in U.S. homeowner / renter / auto policies; distinguished from Actual Cash Value). Reference: Insurance Information Institute <em>Replacement Cost vs Actual Cash Value</em> consumer guide; Casualty Actuarial Society methodological texts.
+     </li>
+     <li>
+      <em>Risk Capital Value</em> &mdash; banking-regulatory usage (Basel III + FDIC capital adequacy frameworks). Reference: Basel Committee on Banking Supervision 2017 <em>Basel III: Finalising Post-Crisis Reforms</em> (Bank for International Settlements).
+     </li>
+    </ul>
+    <p>
+     None of these usages fits the integrand-and-integral form above, so internal mathematical apparatus disambiguates after first formula encounter. To close pre-equation reading-friction, the framework's discipline is to introduce the term as "Residual Commons Value (RCV)" on first appearance per chapter or major section before reusing the acronym.
     </p>
     <p>
      The integrand has two components:
@@ -680,7 +729,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
    </section>
    <section id="sec-3-rcv-quantification">
     <h2>
-     &sect;3. RCV Quantification &mdash; Triangulated Estimation (Three Ways of Counting)
+     &sect;3. RCV Quantification &mdash; Three Ways of Counting
     </h2>
     <p>
      <strong>
@@ -872,6 +921,26 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
   irreversibility_premium(&alpha;)    = 1 / (1 - &alpha;)^&beta;     where &beta; &gt; 0 calibrates risk-posture
                                                        (&beta; = 1 default; &beta; = 2 precaution-regime)
 </pre>
+    <p>
+     <strong>
+      Functional-form motivation (scarcity_multiplier).
+     </strong>
+     The log(1 + &sigma;) form is selected for four converging reasons:
+    </p>
+    <ul>
+     <li>
+      <em>Hotelling rent-path conjugate.</em> Under Hotelling 1931 rent-path dynamics, optimal extraction prices grow exponentially at the long-run interest rate; the logarithmic form is the conjugate that linearizes this exponential under integration. The Hotelling_anchor coefficient maps σ-induced multiplier growth onto the documented Hotelling-rate range (~5%/yr proxy across documented σ regimes).
+     </li>
+     <li>
+      <em>Welfare-economics log-utility lineage.</em> Atkinson 1970 <em>Journal of Economic Theory</em> ("On the Measurement of Inequality") + Cobb &amp; Douglas 1928 <em>American Economic Review</em> establish the logarithmic form as standard in welfare-economics utility-aggregation under risk + inequality contexts. The framework adopts a parallel discipline: scarcity-induced cost amplification is logarithmic in stock-depletion ratio, consistent with bounded-concavity preferences in present-value comparison.
+     </li>
+     <li>
+      <em>Bounded concavity + numerical tractability.</em> Slow-growing logarithmically; practically bounded across documented σ range; structurally unbounded as σ &rarr; &infin; (the divergence reflects the framework's commitment to finite-but-large-cost regimes near critical-stock thresholds, not a numerical pathology). Alternative asymptotic-bounded forms (e.g., σ/(1 + σ) bounded; arctan(σ) bounded) are admissible under sensitivity-robustness scoping; the cross-case α-dominance regime is preserved across all admissible concave forms (see Method 3 sensitivity analysis Block 4 numerical Monte Carlo for full verification).
+     </li>
+     <li>
+      <em>Adjacent intergenerational-equity lineage.</em> Solow 1956 <em>Quarterly Journal of Economics</em> + Bergson 1938 <em>Quarterly Journal of Economics</em> on long-horizon utility aggregation under intergenerational discounting establish the broader concave-aggregation discipline that the logarithmic form sits within.
+     </li>
+    </ul>
     <p>
      <strong>
       Sensitivity finding (cross-case dominance map; per
@@ -7609,7 +7678,7 @@ this finding at
      K.1 RCV with Variable Discount Rates (Weitzman Specification)
     </h3>
     <p>
-     RCV = &int;t₀&infin;&nbsp;{ [1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; exp(&minus;&int;t₀t&nbsp;r(&tau;)d&tau;) dt
+     RCV = &int;t₀&infin;&nbsp;{ [1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; exp(&minus;&int;t₀t&nbsp;r(u)du) dt
     </p>
     <p>
      where r(t) = r₀ &middot; e&minus;&delta;t&nbsp;+ r_min
