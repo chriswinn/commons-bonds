@@ -258,7 +258,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     </h2>
     <hr>
     <p>
-     Definition A.1 (Commons Resource) &mdash; UPDATED per Ripple Effects 1.0
+     Definition A.1 (Commons Resource)
     </p>
     <p>
      A resource unit R &isin; 𝒞 (where 𝒞 (script C) denotes the commons-territory set; distinguished typographically from C used as cost variable Cᵢ) is drawn from a shared stock Q with regeneration rate &rho; &ge; 0. The framework prices extraction for all values of &rho;.
@@ -295,7 +295,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      For computational tractability: S(t) = S_max &middot; (1 &minus; e&minus;&lambda;(t&minus;t₀)), where &lambda; &gt; 0 is the substitution rate estimated empirically per resource class. S(t) may be influenced by extraction timing &mdash; earlier extraction can slow innovation by reducing economic pressure to develop alternatives.
     </p>
     <p>
-     Definition A.3 (Stock-Dependent Utility) &mdash; UPDATED per Ripple Effects 1.0
+     Definition A.3 (Stock-Dependent Utility)
     </p>
     <p>
      U(R, t, Q(t)) represents generation t's utility from resource R being available in situ, conditional on remaining stock Q(t). U is:
@@ -632,17 +632,13 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     </p>
     <p>
      <strong>
-      Block 4 validation update (2026-04-25):
+      Block 4 validation finding:
      </strong>
-     two-case execution (Norway + McDowell) found the original inverse-correlation hypothesis NOT SUPPORTED. Reframed hypothesis:
+     two-case execution (Norway + McDowell) found the inverse-correlation hypothesis NOT SUPPORTED. Reframed hypothesis:
      <em>
       extraction-history-driven co-elevation of CSD + RCV (positive correlation as severity-signature, not independence finding).
      </em>
-     Both Norway (moderate CSD + high uncaptured RCV) and McDowell (very high CSD + very high uncaptured RCV) carry uncaptured RCV; McDowell more on both axes. The two instruments remain structurally independent (orthogonal measurements) but co-driven by extraction history. See
-     <code>
-      core/technical-appendix/block4_validation_2026-04-25.md
-     </code>
-     &sect;3 for the empirical reframing.
+     Both Norway (moderate CSD + high uncaptured RCV) and McDowell (very high CSD + very high uncaptured RCV) carry uncaptured RCV; McDowell more on both axes. The two instruments remain structurally independent (orthogonal measurements) but co-driven by extraction history.
     </p>
    </section>
    <section id="sec-3-rcv-quantification">
@@ -686,15 +682,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      IPG &gt; 1 indicates underpricing. IPG = 33 means the market price covers approximately 3% of the true intergenerational cost. All empirical cases tested (Section H) yield IPG &gg; 1, consistent with Theorem E.1 (Structural Cost Severance).
     </p>
     <p>
-     Sensitivity analysis &amp; Block 4 validation:
-     <code>
-      core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md
-     </code>
-     +
-     <code>
-      block4_validation_2026-04-25.md
-     </code>
-     .
+     Sensitivity analysis and Block 4 validation results inform the IPG estimates reported below.
     </p>
     <h3>
      &sect;3.1 Method 1 &mdash; Replacement Cost
@@ -723,11 +711,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Worked-example anchor (Habitability commons):
      </strong>
-     direct-air-capture (DAC) cost per ton CO₂ at engineering scale. Three-horizon range per
-     <code>
-      empirical_sourcing_pass_2026-04-25.md
-     </code>
-     &sect;1.3:
+     direct-air-capture (DAC) cost per ton CO₂ at engineering scale. Three-horizon range across documented engineering scenarios:
     </p>
     <ul>
      <li>
@@ -819,7 +803,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     </p>
     <p>
      <strong>
-      Formal (working specification per sensitivity analysis 2026-04-25):
+      Formal specification:
      </strong>
     </p>
     <pre>RCV_M3 = V_option &times; scarcity_multiplier(&sigma;) &times; irreversibility_premium(&alpha;)
@@ -855,11 +839,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     </ul>
     <p>
      <strong>
-      Sensitivity finding (cross-case dominance map; per
-      <code>
-       method3_sensitivity_analysis_2026-04-25.md
-      </code>
-      ):
+      Sensitivity finding (cross-case dominance map):
      </strong>
     </p>
     <table>
@@ -1002,11 +982,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     </p>
     <p>
      <strong>
-      Block 4 worked example results (per
-      <code>
-       block4_validation_2026-04-25.md
-      </code>
-      ):
+      Block 4 worked example results:
      </strong>
     </p>
     <table>
@@ -1464,7 +1440,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      The two sub-forms run in sequence: CAI first (is this commons-grounded at all?), then CCI (is this consumption-grounded?). Only claims passing both qualify as Cost Severance.
     </p>
     <h3>
-     &sect;6.1.1 Level-of-claim specification (added 2026-04-25)
+     &sect;6.1.1 Level-of-claim specification
     </h3>
     <p>
      <strong>
@@ -1586,7 +1562,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      .
     </p>
     <h4>
-     &sect;6.1.2 Domain distinction: extraction commons vs. coordination commons (from supplement, integrated 2026-04-27)
+     &sect;6.1.2 Domain distinction: extraction commons vs. coordination commons
     </h4>
     <p>
      <strong>
@@ -2342,34 +2318,6 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <p>
       Together they're a complete system. CIT is the framework's intellectual contribution; the other three are the mathematical hygiene any well-formed cost-integrand needs. Naming asymmetry (test vs. condition-properties) honors the division of intellectual labor.
      </p>
-     <hr>
-     <h4>
-      &sect;9. Maintenance + extension
-     </h4>
-     <p>
-      <strong>
-       Adding new cases:
-      </strong>
-      when a new case is researched + admitted to the framework's case library, the case-study file should include a &sect;"Four Gates walkthrough" passage applying the four gates to the case's primary cost streams. This file aggregates those passages across cases for methodology-reader convenience.
-     </p>
-     <p>
-      <strong>
-       Updating walkthroughs:
-      </strong>
-      if framework methodology updates (e.g., RCV integrand restructured; new sub-form surfaces), update the walkthroughs to reflect the change. Version-bump this file.
-     </p>
-     <p>
-      <strong>
-       Cross-references stay current:
-      </strong>
-      when rigor passes update terminology (e.g., AIT &rarr; CIT 2026-04-24), this file's vocabulary updates to match.
-     </p>
-     <hr>
-     <p>
-      <em>
-       End of CIT walkthrough examples v1.0.0. Established 2026-04-24. 7 cases captured; methodology-illustration document for framework readers + rigor infrastructure validation.
-      </em>
-     </p>
     </div>
    </section>
    <section id="sec-7-four-gates">
@@ -2918,7 +2866,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      </li>
     </ol>
     <p>
-     Model Independence Defense (from Ripple Effects 2.0, Section VIII):&nbsp;The sharpest attack on this three-model framework is that Real Options and RCV may share deep mathematical structure &mdash; both price irreversibility plus uncertainty. The defense: they package uncertainty differently. Real Options calibrates volatility from market data; RCV calibrates substitutability from engineering and materials science. These calibrations come from genuinely different data sources with uncorrelated error modes. A model that overestimates S(t) (substitutability) does not necessarily overestimate market volatility, and vice versa. The convergence therefore cannot be explained by shared error structure. The Damage Function uses a third, entirely separate data source: documented litigation outcomes, epidemiological studies, and remediation cost estimates. All three sources are uncorrelated in the sense that matters for convergence: correlated measurement error would not consistently produce IPG estimates within one order of magnitude across six tested cases.
+     Model Independence Defense.&nbsp;The sharpest attack on this three-model framework is that Real Options and RCV may share deep mathematical structure &mdash; both price irreversibility plus uncertainty. The defense: they package uncertainty differently. Real Options calibrates volatility from market data; RCV calibrates substitutability from engineering and materials science. These calibrations come from genuinely different data sources with uncorrelated error modes. A model that overestimates S(t) (substitutability) does not necessarily overestimate market volatility, and vice versa. The convergence therefore cannot be explained by shared error structure. The Damage Function uses a third, entirely separate data source: documented litigation outcomes, epidemiological studies, and remediation cost estimates. All three sources are uncorrelated in the sense that matters for convergence: correlated measurement error would not consistently produce IPG estimates within one order of magnitude across six tested cases.
     </p>
     <h3>
      D.2 Model 1: Damage Function Approach
@@ -2951,7 +2899,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      Worked example (McDowell County coal, 1960):&nbsp;Coal at $4.50/ton in 1960. Social option value calculated using: (1) volatility of coal prices over 60 years; (2) avoided externality costs using EPA social cost of carbon; (3) innovation time value (the 60 years from 1960&ndash;2020 produced solar panels at $0.03/kWh). The social option value in 1960 substantially exceeded the extraction price &mdash; meaning socially, extraction was premature. The option would have been worth more kept alive.
     </p>
     <p>
-     Ripple Effects 2.0 guidance on the structural-overlap attack:&nbsp;Acknowledge the deep mathematical connection to RCV (both price irreversibility + uncertainty) explicitly in Chapter 6. The defense &mdash; different calibration sources, uncorrelated errors &mdash; should be stated clearly, not buried. A reader who notices the structural overlap and finds it addressed honestly will trust the convergence more than one who notices it was not addressed.
+     Note on the structural-overlap attack:&nbsp;Acknowledge the deep mathematical connection to RCV (both price irreversibility + uncertainty) explicitly in Chapter 6. The defense &mdash; different calibration sources, uncorrelated errors &mdash; should be stated clearly, not buried. A reader who notices the structural overlap and finds it addressed honestly will trust the convergence more than one who notices it was not addressed.
     </p>
     <h3>
      D.4 Model 3: RCV Model
@@ -3856,14 +3804,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      &sect;11.1 Block 4 &mdash; Norway petroleum calibration (Three Ways of Counting executed)
     </h3>
     <p>
-     <strong>
-      Source:
-     </strong>
-     <code>
-      core/technical-appendix/block4_validation_2026-04-25.md
-     </code>
-     &sect;1.
-Worked execution of Methods 1+2+3 against Norway 1971&ndash;present petroleum extraction data.
+     Worked execution of Methods 1+2+3 against Norway 1971&ndash;present petroleum extraction data.
 Numerical anchors below are the framework's empirical operationalization.
     </p>
     <h4>
@@ -4008,11 +3949,7 @@ Numerical anchors below are the framework's empirical operationalization.
      <strong>
       Logic:
      </strong>
-     Method 1 prices the engineering cost to replace the substitutable component of the commons. For Norwegian oil, the substitutable component on the Habitability axis is the atmospheric CO₂-removal function the natural sinks provide for free; the engineering substitute is direct-air-capture (DAC). Per
-     <code>
-      core/technical-appendix/empirical_sourcing_pass_2026-04-25.md
-     </code>
-     &sect;1.3 three-horizon DAC range:
+     Method 1 prices the engineering cost to replace the substitutable component of the commons. For Norwegian oil, the substitutable component on the Habitability axis is the atmospheric CO₂-removal function the natural sinks provide for free; the engineering substitute is direct-air-capture (DAC). Three-horizon DAC range:
     </p>
     <ul>
      <li>
@@ -4316,14 +4253,7 @@ Numerical anchors below are the framework's empirical operationalization.
      &sect;11.2 Block 4 &mdash; Appalachian coal (McDowell County) calibration
     </h3>
     <p>
-     <strong>
-      Source:
-     </strong>
-     <code>
-      core/technical-appendix/block4_validation_2026-04-25.md
-     </code>
-     &sect;2.
-Worked execution of Methods 1+2+3 against McDowell County coal-extraction data 1900&ndash;2020.
+     Worked execution of Methods 1+2+3 against McDowell County coal-extraction data 1900&ndash;2020.
 Companion to &sect;11.1 Norway.
     </p>
     <h4>
@@ -4762,14 +4692,7 @@ Companion to &sect;11.1 Norway.
      &sect;11.3 CSD&ndash;RCV correlation hypothesis test (Open Insight #19)
     </h3>
     <p>
-     <strong>
-      Source:
-     </strong>
-     <code>
-      core/technical-appendix/block4_validation_2026-04-25.md
-     </code>
-     &sect;3.
-The two-case Norway + McDowell test surfaces an Open-Insight #19 reframing finding: CSD and RCV
+     The two-case Norway + McDowell test surfaces an Open-Insight #19 reframing finding: CSD and RCV
 do not invert as the original hypothesis assumed. They positively correlate (extraction-severity
 signature) while remaining structurally orthogonal (per Block 1 two-instrument architecture).
 Both findings are framework-coherent.
@@ -4928,13 +4851,7 @@ Both findings are framework-coherent.
      &sect;11.4 Method 3 sensitivity analysis &mdash; &alpha;-dominance finding + cross-case dominance map
     </h3>
     <p>
-     <strong>
-      Source:
-     </strong>
-     <code>
-      core/technical-appendix/method3_sensitivity_analysis_2026-04-25.md
-     </code>
-     &sect;3 + &sect;4. Sensitivity analysis of Method 3 RCV
+     Sensitivity analysis of Method 3 RCV
      <sub>
       M3
      </sub>
@@ -5279,13 +5196,7 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
      &sect;11.5 DAC three-horizon range &mdash; Method 1 Habitability commons anchor specification
     </h3>
     <p>
-     <strong>
-      Source:
-     </strong>
-     <code>
-      core/technical-appendix/empirical_sourcing_pass_2026-04-25.md
-     </code>
-     &sect;1. Operationalizes Method 1 Replacement Cost for the Habitability commons (atmospheric CO₂)
+     Operationalizes Method 1 Replacement Cost for the Habitability commons (atmospheric CO₂)
 via a three-horizon DAC cost range &mdash; present operational facilities ($600&ndash;1,200/tCO₂); 2030&ndash;2040
 projections ($150&ndash;500/tCO₂); long-run scaled-engineering targets ($100&ndash;200/tCO₂). The three-horizon
 framing replaces single-point anchors with time-bounded ranges that honor scale-up uncertainty.
@@ -5638,13 +5549,7 @@ direct-replacement cost &mdash; both inputs to RCV but at different methodologic
      &sect;11.6 Space-economics anchors &mdash; Ch 7 (asteroid miner) calibration
     </h3>
     <p>
-     <strong>
-      Source:
-     </strong>
-     <code>
-      core/technical-appendix/empirical_sourcing_pass_2026-04-25.md
-     </code>
-     &sect;2. Numerical anchors for the Ch 7 asteroid-miner thought experiment &mdash; launch costs (Earth-to-LEO,
+     Numerical anchors for the Ch 7 asteroid-miner thought experiment &mdash; launch costs (Earth-to-LEO,
 Earth-to-GTO), asteroid sample-return per gram, commercial-mining proposal estimates (cited as
 actor-stated projections, not validated), Mars surface-operations cost reference. Grounds the
 Mars/Europa thought experiments in plausible-economics terms while preserving the
@@ -6538,17 +6443,7 @@ this finding at
      &sect;15.1 Methodology Defense Consolidation &mdash; Tech Appendix companion (academic-reviewer depth)
     </h3>
     <p>
-     <strong>
-      Source:
-     </strong>
-     Ch 6 main-text companion at
-     <code>
-      manuscript/chapters/Chapter__6___SupplementaryDrafts_2026-04-24.md
-     </code>
-     &sect;6.11.1 (~2,000 words at reader-facing depth). The Tech Appendix elaboration below carries the defenses at academic-reviewer depth: lineage citations per defense, technical specification of the rejected alternative, and cross-reference to rigor-pass-record sources. Both registers preserve the same configuration claim (the framework's contribution is the specific configuration of choices, not novelty in any single choice).
-    </p>
-    <p>
-     A reader who has followed the framework's apparatus this far is entitled to ask why each piece of it is the piece chosen. Each of the eight choices below was alternative-tested; the rejected alternative for each is specified, and the academic lineage the framework's choice extends is cited per intellectual-honesty discipline.
+     A reader who has followed the framework's apparatus this far is entitled to ask why each piece of it is the piece chosen. The Ch 6 main-text companion carries this defense at reader-facing depth (~2,000 words); the Tech Appendix elaboration below carries it at academic-reviewer depth: lineage citations per defense, technical specification of the rejected alternative. Both registers preserve the same configuration claim (the framework's contribution is the specific configuration of choices, not novelty in any single choice). Each of the eight choices below was alternative-tested; the rejected alternative for each is specified, and the academic lineage the framework's choice extends is cited per intellectual-honesty discipline.
     </p>
     <h4>
      &sect;15.1.1 &mdash; CIT versus revealed preference
@@ -6822,7 +6717,7 @@ this finding at
      <strong>
       Why two sub-forms instead.
      </strong>
-     The methodological refinement that emerged through 2026-04-24 commons-as-structural-identity reframing surfaced two distinct operations the single-form had been collapsing.
+     The commons-as-structural-identity framing surfaces two distinct operations the single-form had been collapsing.
      <strong>
       Commons-Absence Inversion (CAI)
      </strong>
@@ -6849,7 +6744,7 @@ this finding at
      <em>
       Understanding Knowledge as a Commons
      </em>
-     ). The two-sub-form architecture makes the routing explicit, and &sect;6.1.2 (Domain distinction: extraction commons vs. coordination commons) operationalizes the routing discipline. The &sect;6.1.1 level-of-claim specification refinement (added 2026-04-25) operates within both sub-forms.
+     ). The two-sub-form architecture makes the routing explicit, and &sect;6.1.2 (Domain distinction: extraction commons vs. coordination commons) operationalizes the routing discipline. The &sect;6.1.1 level-of-claim specification operates within both sub-forms.
     </p>
     <h4>
      &sect;15.1.9 &mdash; Configuration claim
