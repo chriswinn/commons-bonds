@@ -1234,60 +1234,87 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      &sect;5. Accountability Bond Decomposition (B = B₁ + B₂; Restitution + Foreclosure Bonds)
     </h2>
     <p>
-     <strong>
-      Sources:
-     </strong>
-     partial integration &sect;4 (B = B₁ + B₂ decomposition + naming). Backed by B₁/B₂ decomposition rigor pass (commit
-     <code>
-      ab24a8e
-     </code>
-     ) + B₁ + B₂ naming rigor pass (commit
-     <code>
-      8e6a5b2
-     </code>
-     ). Sub-instrument names ratified 2026-04-24: B₁ = Restitution Bond (backward-looking; closes CSD); B₂ = Foreclosure Bond (forward-looking; closes RCV). See
-     <code>
-      core/terms/terms_index.md
-     </code>
-     Accountability Bond v1.2 record + B₁ Restitution Bond sub-record + B₂ Foreclosure Bond sub-record.
+     The framework's aggregate Accountability Bond B decomposes into two structurally-independent sub-instruments: a backward-looking instrument (B₁, Restitution Bond) that closes the realized-harm gap, and a forward-looking instrument (B₂, Foreclosure Bond) that closes the prospective-foreclosure gap. The decomposition refines the framework's primitive equation CS = RCV − B by partitioning total cost severance into two temporally-distinct accountability obligations:
     </p>
     <p>
-     Source rigor passes: B = B₁ + B₂ decomposition (commit ab24a8e); B₁ + B₂ naming &mdash; Restitution + Foreclosure (commit 8e6a5b2).
+     <code>
+      total CS = (CSD &minus; B₁) + (RCV &minus; B₂)
+     </code>
+    </p>
+    <p>
+     where CSD = Cost Severance Damages (already-realized commons-loss, integrated over historical extraction) and RCV = Residual Commons Value (forward-looking commons-loss claim, integrated over future foreclosure horizon). B₁ pairs structurally with CSD; B₂ pairs structurally with RCV.
     </p>
     <h3>
-     &sect;4.1 The decomposition
+     &sect;5.1 Sub-instrument formal definitions
+    </h3>
+    <h4>
+     &sect;5.1.1 &mdash; B₁ Restitution Bond
+    </h4>
+    <p>
+     <strong>
+      Definition.
+     </strong>
+     B₁ &mdash; Restitution Bond is the backward-looking sub-instrument in the framework's two-instrument decomposition of Accountability Bond (B = B₁ + B₂). It denotes the cluster of accountability mechanisms that close the Cost Severance Damages (CSD) gap by restoring &mdash; in monetary, legal, structural, or rights-based form &mdash; what was taken from people via realized cost severance. In the decomposed equation total CS = (CSD &minus; B₁) + (RCV &minus; B₂), B₁ pairs structurally with CSD: B₁ is the dollars that would discharge the realized-harm half of total severance.
+    </p>
+    <p>
+     <strong>
+      Mechanisms in cluster.
+     </strong>
+     Restitution payments; reparations programs; welfare-state instruments (universal healthcare, social-safety-net programs, public pensions); environmental-justice damages compensation; toxic-tort litigation; class-action damages; truth-and-reconciliation processes.
+    </p>
+    <p>
+     <strong>
+      Why "Restitution" over "Reparations."
+     </strong>
+     Legal-register-clear; cross-political-tradition adoption potential. "Reparations" carries political-loading that narrows framework adoption to politically-progressive audiences; "Restitution" preserves the same restoration-of-what-was-taken meaning while reaching center-right, libertarian, and politically-cautious institutional audiences who would disengage at "Reparations." Restitution-law scope is broader than damages-law (encompasses monetary + legal + structural + rights-based restoration), fitting CSD's broader scope.
+    </p>
+    <p>
+     <strong>
+      Lineage.
+     </strong>
+     Restitution-law tradition (general legal vocabulary); Darity &amp; Mullen 2020 <em>From Here to Equality</em> (UNC Press) primary reparations-economics methodology source; Bullard 1990 <em>Dumping in Dixie</em> (Westview) environmental-justice damages cross-reference; toxic-tort + class-action damages tradition; truth-and-reconciliation processes (South Africa post-apartheid + analogous infrastructures); Esping-Andersen 1990 <em>The Three Worlds of Welfare Capitalism</em> (Princeton) welfare-state design lineage; Hicks 1932 compensation principle in cross-context-translation form.
+    </p>
+    <p>
+     <strong>
+      Status of B₁ globally.
+     </strong>
+     Underdeveloped. Restitution-and-reparations is the active scholarly territory; less politically settled than B₂; varies widely across welfare-state architectures; environmental-justice damages compensation is litigation-driven and incomplete.
+    </p>
+    <h4>
+     &sect;5.1.2 &mdash; B₂ Foreclosure Bond
+    </h4>
+    <p>
+     <strong>
+      Definition.
+     </strong>
+     B₂ &mdash; Foreclosure Bond is the forward-looking sub-instrument in the framework's two-instrument decomposition of Accountability Bond (B = B₁ + B₂). It denotes the cluster of accountability mechanisms that close the Residual Commons Value (RCV) gap by forcing extractors to internalize the dollar quantification of permanent foreclosure imposed on future generations. In the decomposed equation total CS = (CSD &minus; B₁) + (RCV &minus; B₂), B₂ pairs structurally with RCV: B₂ is the dollars that would discharge the prospective-foreclosure half of total severance.
+    </p>
+    <p>
+     <strong>
+      Mechanisms in cluster.
+     </strong>
+     Hartwick savings (sovereign wealth funds &mdash; Norway's GPFG = canonical existing exemplar); reclamation bonds (SMCRA 1977 surface mining); Environmental Impact Bonds (Balboa 2016); Pigouvian carbon taxes; cap-and-trade schemes; decommissioning bonds for oil and gas (BLM 43 CFR Part 3162; BSEE 30 CFR Part 250 + 254; ~36 state plugging/abandonment bond regimes); CERCLA / RCRA financial-assurance requirements.
+    </p>
+    <p>
+     <strong>
+      Why "Foreclosure Bond" over "Resource-Foreclosure Bond."
+     </strong>
+     Term-pair coherence with Foreclosure Cost (C₁ in RCV integrand) &mdash; <em>Foreclosure Cost is what's lost; Foreclosure Bond is what would internalize it.</em> Shorter; preserves descriptive content via framework context; dinner-table-strong via mortgage-foreclosure analogy (in mortgage-foreclosure, ownership permanently severed from borrower; in resource-foreclosure, future-use permanently severed from future generations).
+    </p>
+    <p>
+     <strong>
+      Lineage.
+     </strong>
+     Hotelling 1931 <em>Journal of Political Economy</em> &mdash; foundational resource-economics; Hotelling rent under honest accounting flows to B₂ instrument. Hartwick rule 1977 &mdash; invest resource rents in reproducible capital. Solow 1974 &mdash; intergenerational equity and exhaustible resources. OSMRE Reclamation Bonds + GAO-17-207R + Yang &amp; Davis 2021. Balboa 2016 <em>Accountability of Environmental Impact Bonds</em>. Pigou 1920 <em>Economics of Welfare</em>.
+    </p>
+    <h3>
+     &sect;5.2 Naming-rigor outcome
     </h3>
     <p>
-     <code>
-      B = B₁ + B₂
-     </code>
-    </p>
-    <ul>
-     <li>
-      <strong>
-       B₁ &mdash; Restitution Bond.
-      </strong>
-      The bond posting that discharges accumulated CSD (already-realized commons-loss). Restitution-economics lineage (Darity & Mullen 2020 reparations economics; Hicks 1932 compensation principle in cross-context-translation form). Posted by extractor against historical extraction-portfolio.
-     </li>
-     <li>
-      <strong>
-       B₂ &mdash; Foreclosure Bond.
-      </strong>
-      The bond posting that discharges potential CS (forward-looking commons-loss claim). Posted against ongoing or proposed extraction. Foreclosure-cost lineage (term-pair coherent with Foreclosure Cost C₁ in 8-tier).
-     </li>
-    </ul>
-    <h3>
-     &sect;4.2 Naming-rigor outcome
-    </h3>
-    <p>
-     Earlier working labels included "Reparations Bond" for B₁. Naming-rigor pass on 2026-04-24 (commit 8e6a5b2) selected
-     <strong>
-      Restitution Bond
-     </strong>
-     over Reparations Bond for: (1) Cross-political-tradition adoption breadth ("Reparations" carries US-political-loading; "Restitution" carries broader cross-tradition adoption &mdash; legal-scholarship; civil-law; international-law; classical-philosophy); (2) Per Option C' political-philosophical-accommodation discipline; (3) Term-pair coherence (Restitution Bond + Foreclosure Bond reads as natural pair).
+     Earlier working labels included "Reparations Bond" for B₁ and "Resource-Foreclosure Bond" for B₂. Both were reviewed against alternatives (Reparations Bond vs Restitution Bond; Resource-Foreclosure Bond vs Foreclosure Bond / Future-Options Bond / Long-Horizon Bond / Intergenerational Resource Bond / Hartwick Bond / Sovereign Reserve Bond / Forward Accountability Bond) and the current names selected for: cross-political-tradition adoption breadth ("Reparations" carries US-political-loading; "Restitution" carries broader cross-tradition adoption &mdash; legal-scholarship; civil-law; international-law; classical-philosophy); term-pair coherence (Restitution Bond + Foreclosure Bond reads as natural pair); shorter form preserving descriptive content via framework context.
     </p>
     <h3>
-     &sect;4.3 Independence note
+     &sect;5.3 Independence note
     </h3>
     <p>
      B₁ and B₂ are
