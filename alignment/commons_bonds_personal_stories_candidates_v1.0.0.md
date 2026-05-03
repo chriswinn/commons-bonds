@@ -318,6 +318,18 @@ Per the project's personal-stories-drafting gate: Chris drafts under Path F (no 
 
 ---
 
+### Candidate #11 — NIH-era origin + TV station CEO-era rescue (Ch 1 substrate)
+
+- **Captured:** 2026-05-03 by Chris Winn (live keyboard-typed dump in chat).
+- **File:** `research/story-drafts/ch1_nih-and-tv-station_2026-05-03.md`
+- **Chapter target:** Ch 1 (primary). Two-beat dump combining (a) NIH-era origin / 120-hour-week pattern's first occurrence (age 22-23, Human Genome Project completion era ~2003) + the website-translation-for-multiple-audiences work + the NIH Children's Center cross-reference; (b) CEO-era TV station rescue ("years later" — 5-day deadline before dead air; new-guy-noticed-the-blinking-light diagnostic; hand-carried server part from Chicago).
+- **Story type:** Both beats demonstrate the same problem-solving-tenacity + satisfaction-in-work-itself + structural-attention-to-institutional-gaps thread. Either braid in prose or land as adjacent Ch 1 beats.
+- **Connections:** Feeds six-scene #1 (NIH-era origin background beat that establishes the pattern; existing Draft passage at age 38 is where the pattern's full cost lands). Cross-references Candidate #6 (NIH Children's Center beat already mined). Cross-references Candidate #7 (father-advice pedagogy that the NIH passage embodies — *"satisfaction in a job well done...even when you are the only person that ever sees it"*). Cross-references Candidate #3 (becoming-CEO substrate; TV-station story is separate CEO-era beat that may or may not braid).
+- **Status:** drafted-rough; awaiting Ch 1 integration decision per drafting session. Open questions: braid-vs-adjacent; NIH Children's Center incident-overlap with Candidate #6; year anchoring; TV-station sensory texture; literal-vs-figurative "didn't have time to cash paychecks"; bookend for the NIH passage.
+- **Pre-drafting-gate flags:** NIH context generally clean at chosen abstraction level; TV-station identifiability OPEN (specific market / station / year not in dump); subordinate-anonymization (Chicago server-part runner) light-fictionalization advisable; wife/family not referenced (consistent with consent-rejection plan).
+
+---
+
 ### Candidate #10 — Manufacturing-of-future-cost-bearers thread (framework-level extension) — RELOCATED 2026-05-01 to Book 2
 
 **STATUS UPDATE 2026-05-01:** This candidate is **NOT a personal-story candidate** — it is a framework-level extension that surfaced during draft2 development. Per author direction 2026-05-01 (*"move to the correct book folder for whatever the material is"*) and the Book 2 default disposition (politically-charged subject matter; abortion-specific articulation; 12-13-year-old example; double-severance pattern), the substantive content has been relocated to:
