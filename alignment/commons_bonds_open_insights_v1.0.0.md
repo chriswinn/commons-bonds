@@ -1429,6 +1429,31 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #64 — "Unpriced subsidies" as candidate framework lens (bearer-side complement to cost severance) — OPEN
+
+- **Raised:** 2026-05-04 by author
+- **Status:** **raised** — capture for later consideration; let the phrase earn its place if it surfaces naturally in additional contexts before any formal promotion.
+- **Category:** vocabulary · craft
+- **Content:** During Author's Note composition (commit `3801229`), the author edited the proposed phrase "the population the system runs on" to "**the unpriced subsidies the system runs on**." The edit sharpens the analytical claim about bearers-of-cost: it reframes the lived reality of cost-bearing as economic provision (an unpriced subsidy flowing to value-capturers) rather than as moral lament ("people are taken advantage of"). The phrase aligns with Ch 9 line 115's already-existing framing: *"subsidy in the wrong direction: bearers subsidizing extractors, communities subsidizing supply chains, the future subsidizing the present."*
+
+  Two distinct paths worth tracking:
+
+  1. **Formal vocabulary-cluster promotion.** "Unpriced subsidy" could become a named term complementary to *cost severance* (mechanism: cost cut from value) and *severed cost* (what the bearer holds). The relationship: *unpriced subsidy* = the bearer's contribution viewed from the system's accounting side — same flow as cost severance, different framing (the bearer-side view, named). This would extend the framework's named vocabulary by one term.
+
+  2. **Strategic rhetorical placement in main body** (author direction 2026-05-04): *"perhaps it or something like it should show up in the main body of the book at key points to really peel back the curtain and make the invisible, visible."* This is the path that doesn't require formal vocabulary-cluster promotion — the phrase functions as a rhetorical instrument deployed selectively at high-leverage moments. The book's whole stated mission (Ch 10 line 65: *"What it does is make visible what has been invisible"*) is exactly this work. Candidate placement points worth considering on a future review pass: Ch 5 (cost-severance mechanism naming), Ch 8 (component-by-component pricing), Ch 9 line 115 (where the wrong-direction-subsidy framing already lives), Ch 10 (closing). Selective deployment at high-leverage moments may be stronger than systematic substitution.
+
+- **Why it matters:** the framework's stated mission is to make invisible costs visible. *Cost severance* names the mechanism; *severed cost* names what the bearer holds. Neither term, on its own, makes the bearer-side flow visible AS economic provision the system depends on. "Unpriced subsidy" may be the lens that does — turning what the framework analyzes from a moral story into a structural-economic claim. If the lens earns its place, it could become a load-bearing rhetorical instrument; if it doesn't, the framework loses nothing by having flagged the candidate.
+
+- **Risk to track:** "subsidy" has a specific technical meaning in standard economics (transfer from government to producer). The framework's usage stretches the term productively — parallel to how *cost severance* stretches "severance" — but an economist reader may initially read it through the standard meaning. Worth checking whether the stretch lands cleanly when the phrase appears in main-body prose vs. only in the AI Statement / paratextual material.
+
+- **Proposed resolution:** defer formal decision (vocabulary-cluster promotion vs. selective rhetorical placement vs. neither) until the phrase has organically surfaced in additional drafting moments. Triggers for re-review: (a) Ch 1 + Ch 3 conversational drafting (Insight #36) — does the phrase appear naturally? (b) pre-publication external review (Insight #39) — does an outside reader gravitate to it or stumble over it? (c) author's own ear during the next polish cadence — does it want to surface in earlier chapters? If by any of these triggers the phrase has earned a second or third placement, schedule a focused decision pass. If it hasn't, it stays as Author's-Note-only usage.
+
+- **Dependencies / Links:** Author's Note commit `3801229` (origin context); Ch 9 line 115 (existing "subsidy in the wrong direction" framing — closest precedent in main body); Ch 10 line 65 (the book's stated mission to "make visible what has been invisible"); Insight #1 closure (vocabulary-footprint discipline — argues against gratuitous new terms); Insight #36 (Ch 1 + Ch 3 drafting — venue where phrase may organically appear); Insight #39 (pre-publication external review — secondary checkpoint).
+
+- **Todo link:** Review Open Insight #64 — *"Unpriced subsidies" lens earned-its-place check* (trigger: after next 2 main-body drafting / polish passes; or at pre-publication external-review checkpoint, whichever comes first).
+
+---
+
 ## §3. Closed insights
 
 *(Empty. Insights move here when `closed-ratified` or `closed-rejected`.)*
