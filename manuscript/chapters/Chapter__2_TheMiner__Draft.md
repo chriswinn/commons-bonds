@@ -11,7 +11,7 @@ In September of 1960, John F. Kennedy drove through McDowell County, West Virgin
 
 What Kennedy saw were children with distended bellies. Families eating surplus commodities — the first government food distribution program in American history, administered right there in the hollows of McDowell County, because there was nothing else. Men who had mined the coal that powered the cities and built the ships that won the war, now sitting idle because the machines had come and the companies had no further use for them.
 
-Kennedy was not a man given to sentiment in his public remarks. But in Canton, Ohio, the month after that West Virginia visit, he said something that has stayed with the historical record: *I do not believe any of us would like to live here.*
+Kennedy was not given to sentiment in his public remarks. But in Canton, Ohio, the month after that West Virginia visit, he said something that has stayed with the historical record: *I do not believe any of us would like to live here.*
 
 He meant it as an indictment of neglect. He was right that it was an indictment. He had the wrong defendant.
 
@@ -64,7 +64,7 @@ Twenty percent of miners in Appalachia with twenty-five or more years of tenure 
 
 The disease is also, astonishingly, resurgent. Despite decades of dust regulation, black lung rates are rising again — and rising fastest among younger miners, suggesting that the regulatory framework has not kept pace with new extraction methods. The disease that should have been in decline is instead spreading to a new generation.
 
-The Black Lung Trust Fund was established in 1969 to compensate miners and their survivors. By the time of this writing, it has distributed $44 billion in benefits. That number sounds large until you hear what comes next: the fund is $4.6 billion in debt. It has borrowed from the federal general fund almost every year since 1979. By 2050, that debt is projected to reach $15 billion.
+The Black Lung Trust Fund was established in 1969 to compensate miners and their survivors. As of this writing, it has distributed $44 billion in benefits. That number sounds large until you hear what comes next: the fund is $4.6 billion in debt. It has borrowed from the federal general fund almost every year since 1979. By 2050, that debt is projected to reach $15 billion.
 
 Forty-four billion dollars — paid to miners whose lungs turned to stone, and to the widows who watched them suffocate, and to the families who spent the last years learning to breathe around grief — and it still wasn't enough. The fund that was supposed to make the accounting honest has been running a deficit for forty-five years.
 
@@ -154,7 +154,7 @@ The value that came out of those mountains was not consumed in those mountains. 
 
 This is spatial cost severance: the geographic gap between where value is extracted and where costs are borne. Distance enabled ignorance, and ignorance made the accounting invisible. The consumers were not villains. Most of them would have been horrified by McDowell County if they had seen it. But they didn't see it. The transaction was structured so that they didn't have to.
 
-Spatial cost severance is distinct from, but as important as, temporal cost severance — the gap between present value extraction and future cost-bearing. We will see temporal cost severance in later chapters. What McDowell County demonstrates is that you don't need centuries of delay for cost severance to operate. You just need enough distance that the people who benefit never have to look at what their benefit costs. Chapter 7 returns to distance as the structural feature the framework's logic rests on, by examining what the framework says when distance collapses.
+Spatial cost severance is distinct from, but as important as, intergenerational cost severance — the gap between present value extraction and future cost-bearing. We will see intergenerational cost severance in later chapters. What McDowell County demonstrates is that you don't need centuries of delay for cost severance to operate. You just need enough distance that the people who benefit never have to look at what their benefit costs. Chapter 7 returns to distance as the structural feature the framework's logic rests on, by examining what the framework says when distance collapses.
 
 ---
 
