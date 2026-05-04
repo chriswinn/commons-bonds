@@ -1429,6 +1429,67 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #65 — Cost-severance mechanism enumeration: five-mechanism insulation replaces single-axis "distance" framing — OPEN
+
+- **Raised:** 2026-05-04 by author (originated in a parallel-session correction to a different chapter passage; surfaced here when drafting an Aeon pitch direction for Ch 7-derived material)
+- **Status:** **raised** — author has ratified the framework correction; scope of manuscript revision (which chapters absorb the change) is open and pending decision.
+- **Category:** framework-structure · vocabulary
+- **Content:** The framework's existing articulation of the cost-severance mechanism leans on **"distance"** as the central structural concept — most explicitly in Ch 7 (section heading at line 101: *"Cost severance requires distance"*; central spine at lines 103, 107, 109, 207; multi-axis enumeration at line 105: *"geographic — social — temporal — informational"*). Ch 10 lines 29–37 retell this framing extensively, with line 31 explicitly stating *"cost severance is a function of distance."* Ch 2 (lines 155–157), Ch 5 (lines 146, 174, 206), and Ch 9 (line 91) carry related framings.
+
+  **The disproof.** The single-axis "distance" framing fails on historical counterexamples that the framework must accommodate. Slavery: enslavers and enslaved often shared the same plantation, with eye-contact-distance proximity, and cost severance still operated. The pyramids: pharaoh and conscripted laborers shared the same Nile valley, the same irrigation system, the same physical proximity, and cost severance still operated. The 2008 case: bankers and underwater homeowners shared a country, a legal system, often a metro region; what severed costs was not distance but information asymmetry. In each of these cases, the severance mechanism is not geographic distance — it is power asymmetry (slavery, pyramids), information asymmetry (2008), or normative routinization (the "cost of doing business" baseline acceptance).
+
+  **The parallel-session correction.** Author's parallel-session work named three alternative mechanisms not reducible to distance:
+  - **Information asymmetry** (2008 case as exemplar — severance achieved by what the bearer doesn't know in time)
+  - **Coercion / power asymmetry** (slavery, forced labor, pyramids — severance achieved by force; bearer cannot refuse)
+  - **Normalization** ("cost of doing business" + routine subsidy — full information, severance accepted as nebulous-and-rising baseline)
+
+  **Synthesis: five-mechanism formulation.** Combining the parallel-session correction with the Ch 7 multi-axis enumeration produces a framework-level structural claim: cost severance requires **operational insulation between value-capturer and cost-bearer**, achievable via at least five distinct mechanisms:
+
+  1. **Geographic distance** (Chicago / McDowell County — the typical case)
+  2. **Temporal asymmetry** (today / 2200 — intergenerational)
+  3. **Informational asymmetry** (2008 — what the bearer doesn't know in time)
+  4. **Power asymmetry** (coercion — pharaoh / laborer; enslaver / enslaved; the bearer cannot refuse)
+  5. **Normative routinization** (full-information acceptance of "cost of doing business" — severance accepted as baseline)
+
+  On Mars, *none of these mechanisms is available* — the administrator isn't geographically distant (same habitat), temporally distant (their own children drink the water), informationally distant (closed system, observable feedback), power-distant (the administrator's family is among the cost-bearers), or normatively distanced (the baseline hasn't routinized in a 10,000-person closed system). All five collapse to zero simultaneously. *That* — not "distance compresses" — is what makes Mars the limiting case that exposes the underlying law.
+
+- **Why it matters:** The single-axis "distance" framing is disprovable by historical counterexamples a careful reader will notice (the pyramids and slavery are both prominently invoked elsewhere in the book). A reader who notices the disproof loses confidence in the framework's structural claim. The five-mechanism formulation is (a) more analytically precise — it names the actual mechanisms operating in cases the existing framing forces under one over-stretched concept; (b) more empirically grounded — each mechanism corresponds to documented cases (geographic = McDowell, temporal = intergenerational climate, informational = 2008, power = slavery/pyramids, normative = routine industrial subsidy); (c) more philosophically interesting — Mars as the case where all five collapse simultaneously is a stronger limiting-case argument than Mars as the case where "distance" alone collapses; (d) more durable across edge cases the framework will be pressure-tested against in pre-publication review (Insight #39).
+
+- **Manuscript audit findings (2026-05-04 Ch 7 audit + cross-chapter scan).** Specific spots where the existing distance-as-mechanism framing operates:
+
+  | Location | Current framing | Reframe needed |
+  |---|---|---|
+  | Ch 7 §heading line 101 | *"Cost severance requires distance"* | Reframe to operational-insulation framing |
+  | Ch 7 lines 103, 107, 109, 207 | central spine claim — "the structural precondition — distance — has been compressed to zero" | Reframe to five-mechanism collapse |
+  | Ch 7 line 105 | enumeration: geographic / social / temporal / informational (4 axes) | Upgrade: add power asymmetry + normative routinization; sharpen "social" into power-asymmetry |
+  | Ch 10 lines 29–37 | Mars-passage retelling Ch 7 spine; line 31: *"cost severance is a function of distance"* | Mirror the Ch 7 reframe |
+  | Ch 2 lines 155–157 | introduces *"spatial"* and *"intergenerational"* cost severance via distance | Probably survives — explicitly about *spatial* (one mechanism), not totalizing |
+  | Ch 5 line 174 | partial 4-axis form: *"geographic, temporal, legal, or political"* | Closer to corrected form than Ch 7; could be sharpened to add normative routinization |
+  | Ch 5 lines 146, 206 | *"scales of distance"* as structural through-line | Could be reframed to *"scales of insulation"* but workable as is |
+  | Ch 9 line 91 | invokes *"geographic distance"* specifically | Survives — invokes one specific mechanism, not totalizing |
+
+- **Proposed resolution — three scope options:**
+
+  **Option A — Ch 7 only.** Apply the five-mechanism reframe to Ch 7's spine (section header at 101 + central claims at 103, 107, 109, 207 + enumeration at 105). Other chapters left as is. Risk: reader hits a structural contradiction at Ch 10 line 31 (*"cost severance is a function of distance"*).
+
+  **Option B — Ch 7 + Ch 10 (close-pair).** Same as A, plus update Ch 10's lines 29–37 to mirror the new Ch 7 framing. Closes the most visible reader-facing contradiction. Ch 2, Ch 5, Ch 9 left as is (they're either fine in their existing forms or use distance descriptively in ways that don't break).
+
+  **Option C — Full framework cascade.** Apply the five-mechanism reframe across all chapters that use distance-as-structural-mechanism (Ch 7, Ch 10, plus sharpening passes on Ch 2 line 157, Ch 5 lines 146/174/206, Ch 9 line 91). Most thorough; biggest scope; most consistent reader experience.
+
+  My recommendation: **Option B**. Reasoning: the reader-facing contradiction at Ch 10 line 31 is the load-bearing concern; closing it with Ch 7 fixes the chapter that introduces the framework concept and the chapter that closes on it. Ch 2's spatial-cost-severance framing is fine because it's explicitly about *one* mechanism (spatial), not the totalizing claim. Ch 5 line 174 is close enough that minor sharpening could happen but isn't structurally wrong. Ch 9 line 91 invokes geographic distance specifically (not as totalizing claim), which is a valid use.
+
+  Author has not yet ratified scope as of 2026-05-04. Trigger for resolution: author selects A/B/C, then reframe lands across selected chapters.
+
+- **Implications for paratextual work.** The Aeon pitch direction (Mars / universality test cut) should reference the five-mechanism formulation, not the deprecated single-axis "distance" framing. The same applies to any future op-eds or paratextual material that invokes the structural mechanism. Pre-publication review (Insight #39) will pressure-test the framework's structural claims; this correction must land before that review or it becomes a discoverable weakness.
+
+- **Risk to track:** the term *"insulation"* (my proposed replacement for *"distance"* in the totalizing-claim sense) carries some collision risk with electrical-engineering and thermal-physics meanings. Worth checking whether the metaphor lands cleanly in main-body prose or whether a different umbrella term ("operational separation," "structural asymmetry," "insulation between value-capturer and cost-bearer") reads better. Defer to Ch 7 reframe execution for a final language call. Risk-flagged for review during the Ch 7 + (possibly) Ch 10 reframe pass.
+
+- **Dependencies / Links:** Insight #64 ("Unpriced subsidies" lens — parallel framework-vocabulary correction at the bearer's-side view); parallel session (originating context for the three-mechanism correction; specific session not linked here but referenced by author 2026-05-04); Ch 7 (primary affected chapter; section heading + spine claims need reframing); Ch 10 (close-pair; Mars-passage retelling needs to mirror); Ch 2 + Ch 5 + Ch 9 (cascade-affected; severity varies); Insight #1 closure (vocabulary-footprint discipline — the reframe doesn't add a new named term, just sharpens the existing structural claim, so doesn't violate footprint discipline); Insight #39 (pre-publication external review — this correction must land before that review).
+
+- **Todo link:** Review Open Insight #65 — *Five-mechanism reframe scope decision + Ch 7 (and possibly Ch 10) revision pass* (trigger: author selects scope A/B/C; then reframe pass executes across selected chapters).
+
+---
+
 ### Insight #64 — "Unpriced subsidies" as candidate framework lens (bearer-side complement to cost severance) — OPEN
 
 - **Raised:** 2026-05-04 by author
