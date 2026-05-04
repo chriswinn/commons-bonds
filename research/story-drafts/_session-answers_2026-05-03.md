@@ -136,8 +136,63 @@
 
 ---
 
-## E. Son-NICU scene #6
-**NOT ANSWERED THIS UPLOAD.** Defer to next session — author flagged trauma-adjacent material requires clear-headed work.
+## E. Son-NICU scene #6 — answered 2026-05-04
+
+**E1. What week of life / born at how many weeks?** *"He was supposed to have a due date in October, He was born on August 8. I'm not sure how many weeks he was at the time."*
+> **Premature; due date October; born August 8.** Roughly 6-8 weeks early. Author doesn't recall gestational-week figure.
+
+**E2. Medical reason:** *"He was premature so he was in the NICU for the better part of 2 months."*
+> **NICU stay ~2 months due to prematurity.** Abstract framing — no specific complication named; appropriate level of detail per pre-drafting gate.
+
+**E3. Routine:** *"The sessions of holding him were usually about an hour. We tried to do it once a day unless the nurses were crazy busy and just couldn't accommodate having me in the NICU while they were working on all of the other babies. In practice that turned into around 5 days a week. I recall the nurses nervously saying that it isn't good for babies to go without being held by a human, and they expressed that they try to hold all of the babies but there are so many and they are so busy it would be good for me to come and just have them set my son on my chest and let my son establish and feel the human connection. To me there was nothing more important than giving him that human connection."*
+> **NEW SUBSTRATE.** Rendering details:
+> - Hour-long sessions; ~5 days/week (target: daily; in practice limited by NICU staffing)
+> - Nurses' word: *"nervously"* — they knew the cost-gap and were uncomfortable naming it
+> - The nurses' frame: *"there are so many and they are so busy"* — institutional acknowledgment of the missing-instrument problem (not enough humans)
+> - Author's frame: *"To me there was nothing more important than giving him that human connection."* — the priority Chris held; sets up the displacement-cost the scene needs to render
+
+**E4. Alone or both parents?** *"I wasn't really alone with him by any real definition of the word. It was in a reclining chair next to his bed with the colored light in the NICU, and in a busy NICU with nurses everywhere running around handling beeps & alarms as they came up, and just rotating the various babies through feedings, baths, etc. as they kept all of the babies on the same schedule. That said my ex wife was unable to attend due to her own personal traumatic medical events that are her story to tell, not mine."*
+> **NEW SUBSTRATE.** Texture:
+> - Reclining chair next to son's bed; the colored light of the NICU; nurses everywhere; beeps and alarms; all babies on the same schedule
+> - Chris was alone with his son in the sense that mattered — the wife was not there
+> - **Author's framing of the wife's absence is exactly right per consent-rejection plan:** *"my ex wife was unable to attend due to her own personal traumatic medical events that are her story to tell, not mine."* The prose should render this exactly this way — the absence is honest and named, the reason is referenced without violating her privacy gate. **This is the model phrasing for any wife-reference in Ch 1 prose.**
+
+**E5. What did you do with your hand / eyes / thoughts?** *"One hand on his back, the other supporting his lower body in case he started squirming like he wanted to roll off. He never did. He just settled in and clearly wasn't going anywhere. I practiced single pointed meditation just counting my breaths generally a 7 or 11 count inhale and whichever number the inhale was for that session the exhale would match. And it was just me being absolutely present and fully immersed in the moment."*
+> **NEW SUBSTRATE — LOAD-BEARING TEXTURE.**
+> - **Two-handed posture:** one on back, one supporting lower body in case of squirming
+> - **The body-language observation:** *"He never did. He just settled in and clearly wasn't going anywhere."* — the son's response to the contact; unforced; non-anxious
+> - **Single-pointed meditation, breath-counting:** 7 or 11 count inhale; exhale matches inhale length for that session; absolute presence
+> - **Pattern 2 register at its purest** — Chris is rendering presence as a discipline practiced, not as a feeling described. The prose that captures this should preserve the specificity (7 or 11; inhale-matched-to-exhale) rather than abstract to "I just held him quietly." The discipline is what makes the moment count.
+
+**E6. Framework's missing-instrument mechanism — explicit or implicit?** *"There was nothing more important to me than giving him those moments of human connection. The first connection he would ever form with another human. I was pulled away when paternity leave ran out and I had to leave for potential deals with clients. I had to in order to be able to afford the house and the life that we had in Savannah, GA. The marriage didn't make it past the extreme trauma surrounding the birth of my son. The house isn't the thing I miss."*
+> **AUTHOR'S ANSWER IS THE IMPLICIT-PATH SUBSTRATE ITSELF.** Chris didn't pick "implicit" or "explicit" — he gave the LIVED ARC the prose has to render: priority (nothing more important) → displacement (paternity leave ran out, deals to close, house to afford) → consequence (marriage didn't survive) → recognition (the house isn't the thing I miss).
+> **The missing-instrument mechanism is rendered through the arc itself, not glossed.** Reader sees Chris choosing presence over career, then being pulled into career anyway, then losing the marriage and (per E7) the relationship with his son. **The framework is in the lived sequence.** No authorial gloss needed.
+> **"The house isn't the thing I miss" is a direct callback to the aftermath-substrate (Candidate #5) and to the existing Ch 1 Draft register.** Confirms the line as Ch 1 spine.
+> **Wife-reference register:** *"The marriage didn't make it past the extreme trauma surrounding the birth of my son"* — honest, brief, doesn't violate consent-rejection gate. Names the marriage's end without giving wife-content. Model phrasing.
+
+**E7. Bookend — how is your son now; anything from those weeks he carries?** *"I don't know. I have no contact with him at this time."*
+> **THIS IS THE BOOKEND THE CHAPTER MUST NAVIGATE.** Not a triumphant *"and now he's a thriving teenager"* close. Not a redemption arc. Honest:
+> - Chris held his son on his chest for hours, almost daily, for two months
+> - Chris was pulled away when paternity leave ran out
+> - The marriage didn't survive
+> - **Chris does not have contact with his son at this time.**
+> **What the prose has to do:** render the absolute presence in the NICU + the displacement + the cost made real. The reader needs to feel that Chris paid the highest possible cost — and that the framework articulates this AFTER the fact. The framework is not a redemption mechanism; it is the language for naming what was already absorbed.
+> **Pattern 2 register implication:** the prose cannot soften this. Cannot wrap it in hope. Cannot gesture at future reconciliation. The bookend has to be the truth as Chris currently lives it: *I held him absolutely. I lost him.* The framework's claim that costs are real and absorbed by specific people becomes, in this scene, the author's own life rendered as proof.
+> **This is why son-NICU is the most load-bearing scene in Ch 1.** The cost-severance the book describes was absorbed at the highest possible scale — the relationship itself.
+
+---
+
+**SUBSTRATE COMPLETE for son-NICU scene.** Ready for prose drafting whenever author is rested. **Will be most difficult passage in the book to write. Will likely also be the most load-bearing.**
+
+**Cross-references that need to link to this scene:**
+- Existing Ch 1 Draft "the house isn't the thing I miss" line — direct callback
+- Aftermath substrate (Candidate #5) — wife-content excised; the no-villain pivot beat survives
+- Plane-scene D6 reflection passage (the nested time-layers: nurses → father teaching to hunt → "best part of any trip is the journey" — the recognition that the father was speaking about *being there together*) — the plane scene is Chris reflecting on what he's losing while it's still happening; the NICU scene is the thing he's losing
+- Six-scene #1 (120-hour-week, age 38): the work that pulled Chris away from the NICU is the same work, twenty years on, in the deal-came-through period
+- Ch 8 Lineage Labor Cost — the framework's pricing of unpriced caregiving labor; the NICU scene is the moment Chris BECAME the missing instrument
+- Ch 10 line 125 closing-recognition: *"They have faces. They have names. They are specific."* — the NICU scene gives one face, one name, one specific son
+
+**Wife-content register (for entire Ch 1 going forward):** Chris's E4 + E6 phrasing is the model. *"My ex wife was unable to attend due to her own personal traumatic medical events that are her story to tell, not mine."* + *"The marriage didn't make it past the extreme trauma surrounding the birth of my son."* Both honor the wife's privacy while naming her absence and the marriage's end. **Use this register in any wife-reference in Ch 1.**
 
 ---
 
