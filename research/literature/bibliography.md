@@ -917,6 +917,26 @@ Placeholder for additions as they emerge. Candidate additions:
 
 ---
 
+## 20. Primary documents — Author's Note (family record)
+
+These two NASA patent records are cited in the Author's Note ("On Wind Tunnels and AI") to support the author's family-history claims about his grandfather's NASA Langley work. They are primary historical documents (USPTO patent record + NASA Tech Transfer disclosure), not scholarly literature engaged with by the framework, and are listed here separately to support reader verification. The grandfather filed under "L. E. Winn" rather than his given name (LaVern Edwin Winn), which complicated initial retrieval; both records were verified via patent-database searches in May 2026.
+
+### Hall, J. B., Jr., Tung, Y., & Winn, L. E. *Liquid Waste Feed System.* U.S. Patent No. 3,670,890. U.S. Patent and Trademark Office, filed 1970-01-15, issued 1972-06-20.
+
+- **Summary:** Aerospace waste-management technology for spacecraft. A pressurized liquid-waste tank feeds waste into processing equipment via an accumulator tank with position-sensitive microswitches controlling solenoid valves; the system is automatically self-regulating, maintaining optimum waste-liquid levels in processing equipment regardless of variable processing rates. Designed for crewed-spaceflight applications.
+- **Relevance:** Author's grandfather Lavern E. Winn was a co-inventor (with John B. Hall Jr. and Yi Tung); assignee NASA. Cited in the Author's Note as one of two patent records establishing his work as a NASA Langley engineer-inventor on spacecraft systems. Status: issued patent; expired 1989-06-20.
+- **Chapter relevance:** Author's Note (paratextual); Ch 10 (grandfather narrative — wind-tunnel discipline metaphor).
+- **Available at:** https://patents.google.com/patent/US3670890
+
+### Winn, L. E. *Lathe tool bit and holder for machining fiberglass materials.* NASA Case No. XLA-10470. U.S. Patent Application Serial No. 219,436. NASA Langley Research Center, filed 1972-01-20.
+
+- **Summary:** Tool holder and tool bit combination for machining resin-impregnated fiberglass cloth laminates, designed to accommodate conventional carbide-tipped round-shank router bits as the cutting medium. Provides an infinite number of cutting angles to produce true, smooth surfaces in fiberglass material with every pass; the technique can use damaged router bits that would ordinarily be discarded. Spacecraft-component fabrication technology — adjacent to the lunar module's structural and engine-cradle fiberglass components.
+- **Relevance:** Author's grandfather Lavern E. Winn was the sole inventor; assignee NASA Langley Research Center. Cited in the Author's Note as one of two patent records establishing his work in spacecraft-fabrication territory. Status: patent application filed; comprehensive search 2026-05-04 surfaced no corresponding USPTO-issued patent — the application appears not to have converted to issuance.
+- **Chapter relevance:** Author's Note (paratextual); Ch 10 (grandfather narrative).
+- **Available at:** https://ntrs.nasa.gov/citations/19720013839 (NTRS Document ID 19720013839)
+
+---
+
 ## Maintenance notes
 
 - **Adding new entries:** follow the template (citation / summary / relevance / support-or-contradict / chapter relevance / any framework-character note). Prefer consistency over exhaustiveness.
