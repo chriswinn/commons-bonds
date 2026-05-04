@@ -18,7 +18,7 @@ This book is a model. The framework I have built across ten chapters is an instr
 
 I built the model. An AI was the wind tunnel.
 
-Specifically, beginning in 2026-03 and continuing through publication, I worked extensively with Claude, an AI system made by Anthropic. The collaboration did three things I want to name clearly, because they are not the same thing.
+Specifically, beginning in March 2026 and continuing through publication, I worked extensively with Claude, an AI system made by Anthropic. The collaboration did three things I want to name clearly, because they are not the same thing.
 
 The AI ran the rigor. It executed the stress-tests an academic peer-review process would have executed for a book published through institutional channels. I do not have a faculty advisor, a writing group, or a network of economists checking the math. I have a repository of rigor-pass documents, ratification commits, and a Working Principles log — all preserved, all readable — that records what was tested, what survived, what was revised, and what was discarded. The AI was the peer review. A reader who wants to verify can read the logs. They are not hidden.
 
