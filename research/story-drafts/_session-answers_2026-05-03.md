@@ -285,6 +285,27 @@
 
 ---
 
+---
+
+## H. No-villain-pivot beat completion (added 2026-05-04)
+
+**Cutoff in Candidate #5 (`ch1_aftermath-and-return-to-work_2026-05-01.md`) is now resolved.** Original passage stopped at *"My employer was not cruel. My colleagues were not indifferent."* Author provided the structural-mechanism reveal beat that completes the no-villain pivot:
+
+> *"My employer was not cruel. My colleagues were not indifferent. I had made a career of showing people the value of whatever I was selling in IT, and how that value aligned with their needs and solved their issues. That ability to sell was valuable to the company. The company just said paternity leave was over and FMLA leave had runout so it was time to do what I was good at again, it was time to do my job. So I did."*
+
+> **WHAT THE BEAT DOES (load-bearing for chapter spine):**
+> 1. **Names Chris's specific labor value** — value-articulation / multi-audience translation in IT sales. Same Pattern 2 access-gate skill the NIH-era origin passage establishes, applied to a different domain. Reader gets concrete sense of WHAT was valuable about Chris's labor, not just "consulting" abstractly.
+> 2. **Structural-mechanism reveal:** *"The company just said paternity leave was over and FMLA leave had runout so it was time to do what I was good at again, it was time to do my job."* The company didn't conspire. The company didn't fail to value Chris. The company simply followed the institutional protocol — paternity leave ends; FMLA exhausts; back to work. **The system did exactly what it was designed to do.**
+> 3. **"So I did."** Two words. Chris's own complicity in the mechanism. Not blame-the-employer. Not (excessive) blame-the-self. Just: the architecture said do the job, and I did the job. **Pattern 2 register at its purest** — the framework's argument that the adversary is information architecture + missing pricing instrument, NOT bad actors, lands through Chris's own honest acknowledgment that he participated. The consent-problem passage's argument is grounded by this beat: Chris consented. The consent was real. The cost was real. The framework articulates what was already absorbed.
+> 4. **Sequence-bridge:** This beat hands directly to the existing 120-hour-week passage (the deal-came-through period IS *"so I did"* enacted). The chapter's structural through-line: paternity-leave-ran-out → so I did → 120-hour-weeks → consent-problem → (under the new son-anchor) the cost made visible.
+
+**Light polish flags for drafting (Claude will handle under polish-pipeline authority):**
+- *"FMLA leave had runout"* → *"FMLA leave had run out"* (grammar)
+- Middle sentences may tighten slightly while preserving the structural-mechanism reveal
+- *"So I did."* stays exactly as written — the punchline lands as-is
+
+---
+
 ## §NEXT-SESSION PRIORITIES (extracted from these answers)
 
 1. **Ask if author has the edited DRAFT 1** (A1 flag).
