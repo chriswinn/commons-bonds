@@ -55,7 +55,9 @@
 **B1. Year:** ~2010-2012.
 
 **B2. Same CEO role as Candidate #3 (becoming-CEO substrate, TV-spectrum-auction era ~2007-2010)?** *"Same Role."*
-> Confirms the TV-station rescue happened DURING the same CEO tenure as the becoming-CEO substrate. Strengthens the case that becoming-CEO + TV-station can braid in Ch 1 (or Ch 1 NIH-era origin + TV-station, with becoming-CEO substrate held for a different placement). **Decision pending: which braid — NIH+TV-station, or becoming-CEO+TV-station?**
+> Confirms the TV-station rescue happened DURING the same CEO tenure as the becoming-CEO substrate. Strengthens the case that becoming-CEO + TV-station can braid in Ch 1 (or Ch 1 NIH-era origin + TV-station, with becoming-CEO substrate held for a different placement).
+>
+> **AUTHOR DECISION 2026-05-04: BRAID locked — NIH-era origin + TV-station rescue.** Architecture call: NIH-rescue + TV-station-rescue render as one braided passage with a temporal hinge (*"years later, as a CEO..."*). Same Pattern 2 mechanism at two organizational scales (institutional accountability gap → close attention → diagnostic question → refocus → deliver) made visible through the prose parallel. **Becoming-CEO substrate (Candidate #3) held for different Ch 1 placement** — likely a separate beat, not woven into the NIH+TV braid; could carry the labor-arbitrage discovery or the Neeraj/Mirage callback independently. Drafting can now proceed on the braided NIH+TV passage as a single drafting unit.
 
 **B3. Identifiability:** Cox Cable, possibly Virginia Beach or Chesapeake VA. Author's call: *"the name/location of the cable channel isn't going to add much to the book. Certainly not enough to justify the cycles to get the clearance from them. So perhaps let's just say a station on the east coast and anonymize anything beyond that."*
 > **CONFIRMED: anonymize to "a cable TV station on the east coast"** or similar. No clearance overhead needed; substance not lost.
