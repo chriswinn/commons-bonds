@@ -228,6 +228,61 @@
 
 ---
 
+---
+
+## G. Framework-not-memoir discipline + "Pou" naming-ceremony substrate (added 2026-05-04)
+
+**G1. Author meta-reflection on what Ch 1 needs to do:** *"It isn't a memoir it's about a framework on cost severance and I think the only thing I need is to establish some level of credibility and show that I noticed value extraction and cost severance in my own life and in the world around me and wrote a framework & book to try to make the unseen seen."*
+
+> **LOAD-BEARING DISCIPLINE.** Every beat in Ch 1 must pass: *"does this serve the framework's argument that costs are unseen and the framework makes them seen, OR does this just establish credibility?"* Credibility has a budget; too much of it dilutes the framework argument. Author registered this discipline 2026-05-04 explicitly. **Apply to all Ch 1 beat-selection decisions going forward.**
+
+**G2. Drywalled-mainframe story — author's reflection:** *"the drywalled mainframe story is wild enough that long time consultants do a double take at it. But it does something well, it establishes just how much I have seen when it comes to crazy consulting engagements. Not sure if that's actually needed in this book."*
+
+> **MY READ:** The drywalled-mainframe story is biographical color, not framework-essential. It establishes *"Chris has seen weird IT"* — which doesn't help a reader who has never been in IT understand why they should care about cost severance. The TV-station rescue beat already carries the Pattern 2 demonstration (institutional accountability gap → close attention → diagnostic question → refocus → deliver) at IT-org scale. The drywall story doesn't add a framework move; it adds a striking image. Striking ≠ framework-essential. **Recommendation: CUT from Ch 1.** Save for a side-essay or hold for memoir-future. With drywall cut, the TV-station beat carries the IT-rescue work alone — which it can do.
+
+**G3. New substrate — "Pou" naming-ceremony moment:** *"We discussed my grandfather going by the name Winnie-the-pooh, or The Pooh. I never actually knew that until I was in my early 30's. But the moment was setup when I was 25-26 when my nephew was learning to talk. I vividly remember my nephew learning everyone's name and I recall when he pointed to my sister and said 'momma', then he pointed to me and said 'Uncle Chris', then he pointed to my father and mispronounced the greek word for grandfather 'Pappou' saying 'Pou'. In that moment my father just had a bit of a smile and a gleem in his eye and he nodded and said, 'Pou it is'. As I said I had never heard of my Paternal grandfathers name at that point. And it would be another 6-8 years before I heard that story."*
+
+> **NEW SUBSTRATE — REMARKABLE; KEEP.** What the scene is doing:
+> 1. **Three-generations-of-naming-through-mispronunciation.** Grandfather (called "Pooh"); father quietly accepts "Pou it is"; grandson gives the name without knowing. Lineage rendered through one accidental child's-mouth moment.
+> 2. **The father's quiet recognition.** *"Pou it is."* He didn't explain. He didn't tell Chris what was happening. He took the name and accepted that his grandson was naming him after his own father. **Pattern 2 register at family scale: don't announce; do the work; let the recognition be inherited later.** Same pattern as the grandfather sharpening drill bits silently in A4.
+> 3. **Chris's delayed recognition (6-8 years later).** **This mirrors the plane-scene D6 reflection structure exactly** — Chris realizing the meaning of a moment after the fact (D6: father saying "best part of any trip is the journey" was about being there together, not about scenery; this scene: nephew giving the name was actually echoing a family name already in lineage). **Two scenes, same Pattern 2 inheritance-through-delayed-recognition mechanism.** Strengthens the chapter's spine if both are present.
+> 4. **Greek family heritage** — Pappou. Small biographical detail; not load-bearing but not nothing.
+> 5. **The setup (age 25-26; so circa 2004-2007 given NIH years 2002-2004) → recognition (early 30s; so ~2013-2015).** Eight-year gap between the moment and Chris's understanding of what the moment was. **The chapter's whole structure of late-recognition is rendered in miniature here.**
+
+**G4. Recommendation: grandfather thread structure for Ch 1**
+> Two grandfather-related substrate-pieces now exist:
+> - Air-compressor + drill-bits scene (A4) — establishes the grandfather's quiet-doing pattern at workshop/engineering scale
+> - "Pou" naming-ceremony scene (G3) — shows the pattern's inheritance landing in the family at family/naming scale
+>
+> **Two valid arrangements:**
+> - **(a) One passage, two beats** — air-compressor establishes the pattern; "Pou" scene shows the pattern landing as inheritance. One coherent grandfather-passage doing two moves.
+> - **(b) Two adjacent passages** — air-compressor as the establishing passage; "Pou" scene as the bookend showing the inheritance arrived.
+>
+> **My recommendation: (a) one passage, two beats.** They're doing related work and braiding strengthens both. The passage's structural payload: *"My grandfather rebuilt the compressor without announcing it. My grandfather sharpened the drill bits without announcing it. Years later my nephew named my father after my grandfather without knowing it. My father said 'Pou it is.' I would not understand any of this for another decade."*
+
+**G5. Refined Ch 1 beat inventory after G1 framework-not-memoir discipline applied:**
+
+> **KEEP (framework-essential):**
+> - Plane scene OPEN (with D6 reflection passage as structural payload)
+> - Grandfather air-compressor + "Pou" naming braid (G4 option a) — Pattern 2 lineage thread + delayed-recognition structure
+> - Father-advice scenes (#4 + #5; pride-from-work-itself; meeting-room style; childhood pride-question) — Pattern 2 values-pedagogy
+> - NIH+TV-station braid (locked) — Pattern 2 mechanism at two organizational scales
+> - Existing 120-hour-week passage (revised under consent-rejection)
+> - Existing consent-problem passage (revised; parents-anchor punchline)
+> - Parents-anchor passage (mineable from Candidate #6 letter)
+> - Son-NICU scene (most load-bearing; trauma-adjacent)
+>
+> **CUT (biographical color, not framework-essential):**
+> - Drywalled-mainframe-after-flood story (G2 decision)
+>
+> **HELD (for separate Ch 1 placement, not braided into NIH+TV):**
+> - Becoming-CEO substrate (Candidate #3) — could carry labor-arbitrage discovery or Neeraj/Mirage callback as own beat
+> - Neeraj/Mirage substrate (Candidate #2) — could be its own beat or held entirely
+>
+> **Net:** Ch 1 gets tighter, not longer, with G1 discipline applied. Every beat earns its place against the framework argument.
+
+---
+
 ## §NEXT-SESSION PRIORITIES (extracted from these answers)
 
 1. **Ask if author has the edited DRAFT 1** (A1 flag).
