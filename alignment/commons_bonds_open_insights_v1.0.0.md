@@ -1432,7 +1432,7 @@ New insights automatically get added to the todo list in both states: one entry 
 ### Insight #65 — Cost-severance mechanism enumeration: five-mechanism insulation replaces single-axis "distance" framing — OPEN
 
 - **Raised:** 2026-05-04 by author (originated in a parallel-session correction to a different chapter passage; surfaced here when drafting an Aeon pitch direction for Ch 7-derived material)
-- **Status:** **raised** — author has ratified the framework correction; scope of manuscript revision (which chapters absorb the change) is open and pending decision.
+- **Status:** **under-review 2026-05-04** — author has ratified the framework correction AND ratified **Option C (full framework cascade)** as the manuscript-revision scope. Author rationale: any scope less than full cascade leaves the framework partially deprecated in places we know are wrong, which is itself an instance of the cost-severance shortcut the framework critiques (saving effort on the reviewer side at the cost of leaving readers with discoverable inconsistency). Reframe execution pending.
 - **Category:** framework-structure · vocabulary
 - **Content:** The framework's existing articulation of the cost-severance mechanism leans on **"distance"** as the central structural concept — most explicitly in Ch 7 (section heading at line 101: *"Cost severance requires distance"*; central spine at lines 103, 107, 109, 207; multi-axis enumeration at line 105: *"geographic — social — temporal — informational"*). Ch 10 lines 29–37 retell this framing extensively, with line 31 explicitly stating *"cost severance is a function of distance."* Ch 2 (lines 155–157), Ch 5 (lines 146, 174, 206), and Ch 9 (line 91) carry related framings.
 
