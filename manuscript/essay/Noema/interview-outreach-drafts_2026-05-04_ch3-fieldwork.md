@@ -131,6 +131,17 @@
 
 ---
 
+## Gmail draft IDs (created 2026-05-04 via MCP `create_draft`)
+
+| # | Recipient | Draft ID | Email used |
+|---|---|---|---|
+| 15 | Rom Lipcius | `r416633988588166471` | rom@vims.edu (verified) |
+| 16 | Roger Mann | `r2037887828564951731` | rmann@vims.edu (verify before send) |
+| 17 | Chris Moore | `r-3538594663191504372` | cmoore@cbf.org (verify before send) |
+| 18 | Allison Colden | `r-8123723791293997909` | acolden@cbf.org (verify before send) |
+
+---
+
 ## Author review checklist (before scheduling Tuesday send)
 
 1. **Verify email addresses:**
