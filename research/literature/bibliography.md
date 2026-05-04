@@ -919,7 +919,7 @@ Placeholder for additions as they emerge. Candidate additions:
 
 ## 20. Primary documents — Author's Note (family record)
 
-These two NASA patent records are cited in the Author's Note ("On Wind Tunnels and AI") to support the author's family-history claims about his grandfather's NASA Langley work. They are primary historical documents (USPTO patent record + NASA Tech Transfer disclosure), not scholarly literature engaged with by the framework, and are listed here separately to support reader verification. The grandfather filed under "L. E. Winn" rather than his given name (LaVern Edwin Winn), which complicated initial retrieval; both records were verified via patent-database searches in May 2026.
+These two NASA patent records are cited in the Author's Note ("On Wind Tunnels and AI") to support the author's family-history claims about his grandfather's NASA Langley work. They are primary historical documents (USPTO patent record + NASA Tech Transfer disclosure), not scholarly literature engaged with by the framework, and are listed here separately to support reader verification. The patent record lists him as Lavern E. Winn; he filed under the initialed form "L. E. Winn" on application paperwork, which complicated initial retrieval. Both records were verified via patent-database searches in May 2026.
 
 ### Hall, J. B., Jr., Tung, Y., & Winn, L. E. *Liquid Waste Feed System.* U.S. Patent No. 3,670,890. U.S. Patent and Trademark Office, filed 1970-01-15, issued 1972-06-20.
 
@@ -952,4 +952,4 @@ These two NASA patent records are cited in the Author's Note ("On Wind Tunnels a
 - `research/literature/commons_bonds_economic_theory_reference - consider including 6.html` — scholarly-background reference doc (complementary)
 - `tools/commons_bonds_rigor_protocol_v1.3.0.md` §11 — the 25-character pressure suite (several characters map to canonical readers from this bibliography: Character 17 Ostrom successor, Character 18 Harvey/Klein reader, Character 9 tenured economics chair, etc.)
 - `research/case-studies/` — all case study files reference this bibliography for their primary-source citations
-- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` — technical appendix (scholarly engagement work happens here; path updated 2026-04-30 from stale v0.0.2 reference per Insight #60 scaffolding cleanup pass)
+- `core/technical-appendix/TechnicalAppendix_v2.0.0.html` — technical appendix (scholarly engagement work happens here; path updated 2026-05-04 to current v2.0.0 filename per Phase α.2.7e rebuild commit `439b1e0`)
