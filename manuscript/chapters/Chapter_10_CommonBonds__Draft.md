@@ -1,9 +1,3 @@
-I have everything I need. The Chapter 10 assessment is clear: READY FOR WRITING, Pure Register 1, 5,000–7,000 words, voice only — no data, no formulas, no tables. Since the chapter is pure prose with no mathematical content, I'm delivering inline as requested.
-
-The draft below weaves together every element the scaffold and assessment flagged: the harbor opening, the miner/waterman/colony administrator recognition, cost severance as a function of distance, your grandfather at Langley, the honest concession, the "first generation / last generation" line, the brief left-critique acknowledgment, the Camus compass, and the title shift from Commons Bonds to common bonds. It's written in the voice established in your Chapter 8 draft — long, philosophical sentences that build and land — and leaves room for you to add your grandfather's specifics where only you can write them.
-
----
-
 # Commons Bonds
 
 By Chris Winn
