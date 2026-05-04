@@ -314,6 +314,38 @@
 
 ---
 
+## 7.5. Ancient / pre-modern extraction (historical universality cases)
+
+### Lehner, Mark. *The Complete Pyramids: Solving the Ancient Mysteries.* Thames & Hudson, 1997.
+
+- **Summary:** Comprehensive archaeological synthesis of pyramid construction informed by the Giza Plateau Mapping Project (1984–present). Revises the Herodotean chattel-slavery image with archaeological evidence of skilled craftsmen and conscripted rotational laborers paid in rations and medically cared for. Workers' Village finds document the labor-organization structure of the centralized pharaonic redistributive economy — the mechanism by which the Egyptian Old Kingdom extracted labor from the agricultural population without modern wage-relation or chattel-slavery framing.
+- **Relevance:** Anchor source for the Egyptian pyramids case in Ch 7's three-civilization temporal stress-test, demonstrating cost severance four and a half millennia before capitalism. Establishes that the structural mechanism (value extracted by pharaoh; cost borne by laborers whose exit was structurally foreclosed) operates independently of modern economic categories.
+- **Relationship:** **STRONG SUPPORT (primary archaeological source).**
+- **Chapter relevance:** Ch 7 (line 191 inline citation — "Mark Lehner's Giza Plateau Mapping Project").
+
+### Hawass, Zahi. *Mountains of the Pharaohs: The Untold Story of the Pyramid Builders.* Doubleday, 2006.
+
+- **Summary:** Workers' Village excavation findings; archaeological evidence on labor organization, mortality patterns, and material conditions of pyramid construction laborers at Giza. Co-anchor with Lehner for the late-twentieth-century revision of pyramid-construction labor scholarship.
+- **Relevance:** Co-anchor with Lehner for the Egyptian pyramids case in Ch 7. Together with Lehner, establishes the archaeological consensus the chapter draws on for the "conscripted rotational laborers... paid in rations, medically cared for, and properly buried" framing.
+- **Relationship:** **STRONG SUPPORT (primary archaeological source).**
+- **Chapter relevance:** Ch 7 (line 191 inline citation — "Zahi Hawass's Workers' Village excavations").
+
+### Sima Qian. *Records of the Grand Historian* (*Shiji*). c. 94 BCE. English translation: Burton Watson, *Records of the Grand Historian: Qin Dynasty* and *Han Dynasty I & II*. Columbia University Press, revised editions 1993.
+
+- **Summary:** Compiled less than a century after the Qin's fall, the *Shiji* is the foundational historiographical source for Qin Shi Huang's monumental construction projects: the initial unified Great Wall (spanning five thousand kilometers of northern frontier) and the First Emperor's mausoleum complex near modern Xi'an (of which the Terracotta Army discovered in 1974 is one fragment). Reports conscripted-laborer counts (300,000–500,000 concurrent for the Wall; ~700,000 for the mausoleum) and documents mass mortality. Sima Qian's account also captures the legalist political philosophy that organized this extraction — strict penalties for failing conscription quotas; merit-based administration; efficient production regardless of cost-bearer welfare.
+- **Relevance:** Anchor source for the Qin Dynasty case in Ch 7's three-civilization temporal stress-test, demonstrating cost severance through legalist conscription doctrine 2,200 years ago. Establishes that the mechanism (value extracted by imperial state; cost borne by labor whose exit was structurally foreclosed) operates independently of cultural lineage — Qin China and pharaonic Egypt had no contact yet ran structurally analogous extraction architectures.
+- **Relationship:** **STRONG SUPPORT (primary historiographical source).** Standard English-language translation: Burton Watson (Columbia, revised 1993). Alternative: Tsai-fa Cheng et al., *The Grand Scribe's Records* (Indiana University Press, 1994–) — multi-volume scholarly translation.
+- **Chapter relevance:** Ch 7 (line 193 inline citation — "Sima Qian's *Records of the Grand Historian*"; cited twice).
+
+### Herodotus. *Histories.* c. 440 BCE. Standard English translations: Aubrey de Sélincourt, *The Histories* (Penguin Classics, 1954; revised by John Marincola 1996); Robin Waterfield, *The Histories* (Oxford World's Classics, 1998).
+
+- **Summary:** Greek historian's account of Egypt (Book II) including pyramid construction. The Herodotean image of pyramid construction by enslaved labor under coercive conditions was the dominant scholarly view from antiquity until late-twentieth-century archaeology (Lehner, Hawass) revised it. Cited in Ch 7 not as authoritative but as the framing the modern archaeological evidence revises.
+- **Relevance:** Ch 7 references "the older Herodotean image of chattel slavery under the lash" as the framing the Lehner / Hawass evidence corrects. The reference establishes the historiographical lineage of pyramid-labor scholarship and acknowledges the prior view explicitly rather than silently superseding it.
+- **Relationship:** **HISTORIOGRAPHICAL CONTEXT (referenced indirectly; revised by §7.5 archaeological sources above).**
+- **Chapter relevance:** Ch 7 (line 191 indirect reference — "the older Herodotean image of chattel slavery under the lash").
+
+---
+
 ## 8. Housing
 
 ### Harvard Joint Center for Housing Studies. *The State of the Nation's Housing 2024.* Harvard University, 2024.
