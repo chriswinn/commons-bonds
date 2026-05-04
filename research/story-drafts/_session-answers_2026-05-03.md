@@ -196,8 +196,29 @@
 
 ---
 
-## F. Whole-chapter integration
-**NOT ANSWERED THIS UPLOAD.** Decisions on order-of-beats, son-NICU placement, and bookend confirmation deferred to next session — likely best decided AFTER more passages are drafted.
+## F. Whole-chapter integration — answered 2026-05-04 (delegation pattern)
+
+**F1. Order of beats** — *"Depends how each of them turn out. I'll defer to whatever makes the book align better with its success criteria & goals."*
+
+**F2. Son-NICU placement** — *"I'll defer to whatever makes the book align better with its success criteria & goals."*
+
+**F3. Sunrise/sunset bookend confirmation** — *"Depends how each of them turn out. I'll defer to whatever makes the book align better with its success criteria & goals."*
+
+> **DELEGATION GRANTED — with anchor.** Author has delegated F1/F2/F3 structural-integration calls to next-session-Claude, *conditional on alignment with the book's documented success criteria + goals.* This is not a blank-check delegation; it requires that the call-maker consult success criteria before deciding.
+>
+> **Next-session-Claude MUST consult, before making F1/F2/F3 calls:**
+> - **`alignment/commons_bonds_vocabulary_strategy_v1.0.1.md`** — multi-audience matrix; access-gate function; cross-spectrum credibility goals
+> - **`alignment/commons_bonds_working_principles_v1.0.0.md`** — WP#10 two-layer discipline; WP#9 worktree-isolation; other ratified principles
+> - **`tools/commons_bonds_book_scope_v1_0_3.md`** — book scope; political-charge gates; coauthor activation thresholds
+> - **Rigor-test framework** (M3 literary craft, M6 academic rigor, M9 multi-audience matrix, M11 critic-pressure) — referenced in Ch 1 GuidanceDoc line 578 sunset-on-boat rigor test
+> - **Existing chapter spine + argument architecture** — read drafted chapters 2/4/5/6/7/8/9/10 to ensure Ch 1 integration serves the book's overall through-line, not just Ch 1's local coherence
+>
+> **Decisions to make in next session, against success criteria:**
+> 1. Beat-order (F1) — likely settled by drafting each beat then testing arrangements; the author wants the order that best serves the book's spine, not the order that's locally cleanest
+> 2. Son-NICU placement (F2) — payload-after-consent-problem vs anchor-earlier; depends on whether the chapter's argument lands stronger by revealing the cost in its sharpest form AFTER the structural setup, or by anchoring the chapter against the cost from the start
+> 3. Sunrise/sunset bookend (F3) — depends on whether the Ch 10 close survives the rigor test (Ch 1 GuidanceDoc line 578 names the rigor-test framework for the sunset-on-boat candidate); if Ch 10 close changes, the Ch 1 OPEN's bookend partner changes too
+>
+> **Recommendation for next session:** don't try to settle F1/F2/F3 before drafting the remaining passages. Draft → test → arrange. The drafted prose objects will tell us more about how they want to sit together than abstract architecture-decisions can.
 
 ---
 
