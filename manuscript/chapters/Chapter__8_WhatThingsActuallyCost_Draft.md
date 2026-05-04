@@ -8,12 +8,6 @@ By Chris Winn
 
 ---
 
-## Chapter 8 (What Things Actually Cost) -- Draft v1 (Book One focused scope)
-
-\*Scope note to self: This chapter deliberately does not simulate the whole economy. It walks one extraction -- one ton of McDowell County coal -- through the framework's full cost-decomposition, delivers the intergenerational pricing gap as a specific number, and gestures at the civilizational-scale implication without attempting to simulate it. Subsequent chapters develop what the simulation would require; this chapter performs the worked example that makes those subsequent simulations meaningful.\*
-
----
-
 What if everything cost what it actually costs?
 
 Ask the question without political coding, without ideology, and the framework we've been building starts answering it before the argument even begins. Not from preference. From arithmetic. Take one extraction — any extraction, though the one we've been tracing since Chapter 2 will do — and walk it through the full accounting the previous chapters made legible. Price the health costs. Price the environmental damage. Price the community that bore the weight. Price the foreclosure carried forward to every generation that follows. Price the families dispersed, the knowledge lost, the political work required to keep the whole operation invisible, the acceleration that compressed centuries of resource use into decades. Add them together. Look at the number. Look at the price on the invoice. Notice the gap.
@@ -130,7 +124,7 @@ I'll assign one dollar per ton to this component — a floor so low it is almost
 
 ### Temporal Displacement Cost
 
-This component — revealed by the Commons Inversion Test most starkly — is the cost of \*when\*.
+This component — revealed by the Commons Inversion Test most starkly — is the cost of *when*.
 
 The coal in McDowell County had sat in the ground for hundreds of millions of years. Its extraction was compressed into roughly a century, with the bulk of the tonnage moved in the forty years after mechanization. This was not because the country needed coal at that specific rate. It was because the rate at which coal could be extracted had been increased by machinery, and because the financial structure of the industry rewarded rapid extraction over measured extraction.
 
@@ -196,7 +190,7 @@ The pattern visible in McDowell County and in the rent-burdened household scaled
 
 ---
 
-### What honest pricing does \*not\* mean
+### What honest pricing does *not* mean
 
 Three misreadings have followed this argument every time I've offered it, and I want to name them before the chapter ends.
 
