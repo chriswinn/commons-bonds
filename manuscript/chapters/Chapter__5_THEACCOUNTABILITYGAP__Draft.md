@@ -1,6 +1,3 @@
-I'll create Chapter 5 incorporating the Social Security $108 trillion case as the financial commons validation. Based on the structure and tone of your other chapters, this should be primarily narrative-driven prose with numbers woven into the stories. Let me deliver this inline:
-
----
 
 # Commons Bonds
 
