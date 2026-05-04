@@ -306,6 +306,24 @@
 
 ---
 
+## I. Grandfather verification + tool-inventor pattern (added 2026-05-04)
+
+**Identity confirmed:** **LaVern Edwin Winn Sr (1912-1987)** — Hampton, Virginia. Spelling correction from earlier substrate (was "Laverne"; correct is "LaVern"). He's documented in NASA-Langley patent records.
+
+**Confirmed patents (partial list; author finding more):**
+1. **US Patent 3,670,890 — "Liquid Waste Feed System"** (issued June 20, 1972). Inventors: LaVern E. Winn (Hampton, VA), John B. Hall Jr., Yi Tung. Assignee: NASA. Aerospace waste-management for spacecraft applications.
+2. **NASA-CASE-XLA-10470 — "Lathe tool bit and holder for machining fiberglass materials"** (filed January 20, 1972). Inventor: L. E. Winn. NASA Langley Research Center. **Specifically designed to use damaged carbide-tipped router bits "which would ordinarily be discarded"** — frugal-engineer signature mirrors the air-compressor / drill-bits stories.
+
+**Tool-inventor job pattern (author 2026-05-04):** *"He would often be assigned seemingly impossible tasks that everyone else just gave up on. He would often dig into the problem and realize he just needed a different tool to complete the work. So he would often invent them tools. Maybe something totally new, maybe something just more precise than was currently available."*
+
+> **LOAD-BEARING SUBSTRATE for the grandfather paragraph.** This is the JOB RHYTHM that explains why he had so many patents — patenting wasn't an occasional sideline, it was the structure of his work. Assigned-the-impossible-task → realize-what's-needed-is-different-tool → invent-tool. The fiberglass-machining lathe patent is the documented case study of this pattern. The air-compressor + drill-bits stories are the same engineer-disposition operating at workshop scale instead of institutional scale. **Same disposition, two contexts.** This continuity is worth surfacing in the chapter prose if the author wants the documented engineer-rhythm to land alongside the family-private workshop stories.
+
+**Prose-enhancement opportunity (proposed; author decides):** existing paragraph reads *"He had a way of solving things, my father said, that other people would just give up on, just walk past, just quit. Not that he was smarter, he just wouldn't quit putting one foot in front of the other and finding out all the ways that didn't work. So he could see the way that did work."* — a tighter version that integrates the tool-inventor rhythm: *"He had a way of solving things, my father said, that other people would just give up on, just walk past, just quit. He was the one given the impossible problem — the one nobody had cracked — and he would dig in until he realized what was actually needed wasn't more effort but a different tool. So he would invent the tool. Not that he was smarter. He just wouldn't quit putting one foot in front of the other, finding all the ways that didn't work, until he could see the way that did."*
+
+**On the lunar-lander honeycomb claim:** still not directly confirmed by surfaced patents, but the fiberglass-machining-tool patent shows him in adjacent territory (spacecraft component fabrication). Family memory's "honey-comb crumple zone" claim may be a folk-simplification of broader spacecraft-fabrication work; or may be confirmed by another patent the author has not yet found. Current prose framing ("his work at Langley on the drop tests that informed the lunar-landing program") remains defensible regardless.
+
+---
+
 ## §NEXT-SESSION PRIORITIES (extracted from these answers)
 
 1. **Ask if author has the edited DRAFT 1** (A1 flag).
