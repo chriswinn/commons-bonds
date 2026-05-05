@@ -1500,7 +1500,7 @@ New insights automatically get added to the todo list in both states: one entry 
 ### Insight #65 — Cost-severance mechanism enumeration: five-mechanism insulation replaces single-axis "distance" framing — OPEN
 
 - **Raised:** 2026-05-04 by author (originated in a parallel-session correction to a different chapter passage; surfaced here when drafting an Aeon pitch direction for Ch 7-derived material)
-- **Status:** **under-review 2026-05-04** — author has ratified the framework correction AND ratified **Option C (full framework cascade)** as the manuscript-revision scope. Author rationale: any scope less than full cascade leaves the framework partially deprecated in places we know are wrong, which is itself an instance of the cost-severance shortcut the framework critiques (saving effort on the reviewer side at the cost of leaving readers with discoverable inconsistency). Reframe execution pending.
+- **Status:** **under-review 2026-05-04** — author has ratified the framework correction AND ratified **Option C (full framework cascade)** as the manuscript-revision scope. Subsequent pressure-test work in the same session has produced **four additional ratified refinements** (see "RATIFIED REFINEMENTS 2026-05-04" subsection below) that expand the scope and sharpen the formulation: (1) sixth mechanism added (abundance masking); (2) apparatus-coherence triangle restored (Mars cases + Theorem E.3 + CIT); (3) Mars-claim sharpened from "severance impossible" to "severance impossible to hide"; (4) Mars-passage expanded to engage water *and* atmosphere as parallel abundance-masking demonstrations. Reframe execution pending.
 - **Category:** framework-structure · vocabulary
 - **Content:** The framework's existing articulation of the cost-severance mechanism leans on **"distance"** as the central structural concept — most explicitly in Ch 7 (section heading at line 101: *"Cost severance requires distance"*; central spine at lines 103, 107, 109, 207; multi-axis enumeration at line 105: *"geographic — social — temporal — informational"*). Ch 10 lines 29–37 retell this framing extensively, with line 31 explicitly stating *"cost severance is a function of distance."* Ch 2 (lines 155–157), Ch 5 (lines 146, 174, 206), and Ch 9 (line 91) carry related framings.
 
@@ -1550,7 +1550,55 @@ New insights automatically get added to the todo list in both states: one entry 
 
 - **Implications for paratextual work.** The Aeon pitch direction (Mars / universality test cut) should reference the five-mechanism formulation, not the deprecated single-axis "distance" framing. The same applies to any future op-eds or paratextual material that invokes the structural mechanism. Pre-publication review (Insight #39) will pressure-test the framework's structural claims; this correction must land before that review or it becomes a discoverable weakness.
 
-- **Risk to track:** the term *"insulation"* (my proposed replacement for *"distance"* in the totalizing-claim sense) carries some collision risk with electrical-engineering and thermal-physics meanings. Worth checking whether the metaphor lands cleanly in main-body prose or whether a different umbrella term ("operational separation," "structural asymmetry," "insulation between value-capturer and cost-bearer") reads better. Defer to Ch 7 reframe execution for a final language call. Risk-flagged for review during the Ch 7 + (possibly) Ch 10 reframe pass.
+- **Risk to track:** the term *"insulation"* (my proposed replacement for *"distance"* in the totalizing-claim sense) carries some collision risk with electrical-engineering and thermal-physics meanings. **Risk resolved 2026-05-04 via subsequent rigor pass:** umbrella term decision moot — no umbrella term coined; open framing ("common patterns we've observed") chosen instead. See "RATIFIED REFINEMENTS 2026-05-04" subsection below.
+
+---
+
+#### RATIFIED REFINEMENTS 2026-05-04 (subsequent pressure-test work)
+
+The same session that raised this Insight produced four additional pressure-test discoveries that expand and sharpen the formulation. Each is recorded here rather than spawning separate Insights because they refine the same core correction (cost-severance mechanism enumeration).
+
+**Refinement 1 — Open framing replaces closed enumeration (umbrella-term decision).**
+
+Subsequent rigor pass on candidate umbrella terms ("operational insulation," "structural asymmetry," "structural separation," etc.) produced two converging findings: (a) none of the candidates landed sufficiently to justify coining a Ring-2 term — they all read as imported jargon compared to the framework's existing accessible vocabulary; (b) more importantly, *closed enumeration creates an immune-response vulnerability* — naming a definitive list of mechanisms gives the extraction architecture a checkbox target it can systematically address with surface-level interventions and then claim the framework's structural critique no longer applies. (Ch 7's existing immune-response stress test on the Kimberley Process / fair-trade / ESG-screen / carbon-offset pattern names exactly this dynamic.)
+
+Ratified outcome: **no umbrella term coined; open framing used throughout** — *"common patterns we've observed"* / *"observed mechanisms"* / *"common forms"* — language that's analytically precise without claiming exhaustiveness. The framework's structural test is the *operational arrangement itself* (does value flow one direction while cost flows the other in a way the bearer cannot recoup?), not whether any specific named mechanism is present or absent. The mechanisms named are illustrative empirical observation, not necessary-and-sufficient conditions. Berggruen Judge restored to active pressure-test character set going forward (procedural lesson: withdrawn-submission tracks don't ablate corresponding reader-archetypes from pressure tests).
+
+**Refinement 2 — Sixth mechanism: abundance masking.**
+
+The original five-mechanism enumeration was incomplete. **Abundance masking** — costs invisible because the resource appears unlimited, so the resource isn't being priced at all (air, pre-industrial fossil fuels, aquifer water, ocean fisheries pre-collapse, atmospheric carbon-absorbing capacity, soil regenerative capacity) — is a distinct cost-hiding mechanism not reducible to the other five. It was traceable to a math/prose disconnect: the framework's mathematics already names this mechanism (Theorem E.3, "Abundance Masking under Stock-Flow Framework," functional form *c(A) = c₀·(τ/(A−τ))^ξ*), and the framework's Commons Inversion Test was built specifically to detect it, but the prose enumeration in Ch 7 omitted it.
+
+Ratified outcome: **six common patterns we've observed** — geographic distance, temporal asymmetry, informational asymmetry, power asymmetry, normative routinization, **and abundance masking**. Other mechanisms likely exist; the framework's open-framing approach (Refinement 1) accommodates further additions without re-architecture.
+
+**Refinement 3 — Apparatus-coherence triangle (Mars cases + Theorem E.3 + CIT).**
+
+Project context (originally lost to the Ch 7 read-through): the Mars/asteroid miner thought experiments were chosen specifically to illustrate abundance masking — author accepted the sci-fi-claim risk because the closed-system construction makes abundance illusion structurally impossible. The Commons Inversion Test (CIT) was developed specifically as the framework's tool for detecting whether an apparent abundance is actually hiding an unpriced cost. So the framework already has a coherent triangle around abundance masking:
+
+| Component | Function |
+|---|---|
+| Mars / asteroid miner thought experiments (Ch 7) | Pedagogical demonstration of abundance masking — closed-system construction makes the abundance illusion structurally impossible |
+| Theorem E.3 — Abundance Masking under Stock-Flow Framework (Tech Appendix) | Mathematical formalization of how perceived abundance hides scarcity |
+| CIT — Commons Inversion Test (Ch 6 + Ch 8 Four Gates) | Framework's tool for detecting whether an apparent abundance is hiding an unpriced cost |
+
+Ratified outcome: **Ch 7 cascade reframe must make the abundance-masking → Theorem E.3 → CIT connections explicit** in the Mars passage. The chapter's architectural intent was always to demonstrate the mechanism the math and the test reference; the prose hadn't been making the connections visible. Cascade must close that gap.
+
+**Refinement 4 — Mars-claim sharpened from "severance impossible" to "severance impossible to hide"; Mars passage expanded to engage water AND atmosphere.**
+
+Author's pressure-test: the original Mars-water claim that *"cost severance cannot operate when value-capturer = cost-bearer"* is overstated — the commute-lease case (Insight #66) demonstrates that severance can operate intra-personally across time, even when value-capturer = cost-bearer at the time of decision (past-self under-pricing future-self). The corrected Mars claim:
+
+> *"All five [now six] mechanisms collapse to zero on Mars; therefore severance is impossible to **hide**."*
+
+Severance is not impossible on Mars; it is impossible to obscure. The administrator who under-prices water/atmosphere for short-term gain still produces severance against future-self and future-population — but the closed feedback loop makes that severance *visible immediately*, in a way the same mechanism on Earth would conceal for years or generations.
+
+Mars-passage scope: the existing Ch 7 prose focuses on water specifically. Cascade reframe expands to engage **water AND atmosphere** as parallel abundance-masking demonstrations within the same closed-system thought experiment. Atmosphere is the cleaner illustration — air is the resource Earth-readers most paradigmatically treat as unlimited; on Mars every breath visibly costs against finite stock. The two resources are tied through the closed-system feedback loop (water + electrolysis = oxygen production; running short on water cascades into oxygen-production limits within months).
+
+Ratified outcome: **Ch 7 Mars-passage cascade engages water AND atmosphere; "impossible to hide" replaces "impossible/cannot operate" wherever the totalizing claim appears**.
+
+**Procedural note — pressure-testing IS the framework operating on its own production.**
+
+The four refinements above all emerged from author's combative-outsider pressure-tests during the same session. Each one exposed a real framework tension or missing mechanism; each correction strengthened rather than weakened the framework. The pattern is the framework's own discipline applied to itself — honest accounting of what was being structurally hidden, including in the framework's own articulation of itself. No apology is owed for surfacing context mid-session; surfacing is exactly what pressure-testing is for, and the framework gains precision each time it happens.
+
+---
 
 - **Dependencies / Links:** Insight #64 ("Unpriced subsidies" lens — parallel framework-vocabulary correction at the bearer's-side view); parallel session (originating context for the three-mechanism correction; specific session not linked here but referenced by author 2026-05-04); Ch 7 (primary affected chapter; section heading + spine claims need reframing); Ch 10 (close-pair; Mars-passage retelling needs to mirror); Ch 2 + Ch 5 + Ch 9 (cascade-affected; severity varies); Insight #1 closure (vocabulary-footprint discipline — the reframe doesn't add a new named term, just sharpens the existing structural claim, so doesn't violate footprint discipline); Insight #39 (pre-publication external review — this correction must land before that review).
 
