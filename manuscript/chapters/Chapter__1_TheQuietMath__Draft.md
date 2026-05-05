@@ -80,7 +80,7 @@ My employer was not cruel. My colleagues were not indifferent. I had built a car
 
 A free-market economist would say I made voluntary trade-offs. I will address that directly. I did. I had options a coal miner in McDowell County does not have. I had elite technical skills, multiple employers, geographic mobility, and significant compensation. And I still ended up, that morning, on a plane heading north, trying not to think about a NICU in Savannah where my son was waiting to be held by a human, while my parents — eight hundred miles north of him and a continent away from me in any way that mattered — were visibly moving slower these days.
 
-I have done the quiet math we all eventually do. If I disappear for another few years, surfacing only for weddings and Thanksgivings, the odds are growing that the next flight home will be for something I cannot bear to name. These are the years I have with them. I intend to be present for them to laugh with them. And to be here for them when there is no laughter left.
+I have done the quiet math we all eventually do. If I disappear for another few years, surfacing only for weddings and Thanksgivings, the odds are growing that the next flight home will be for something I cannot bear to name. These are the years I have with them. I intend to be present with them, to laugh with them, and to be here for them when there is no laughter left.
 
 I did not understand, at thirty-eight, on that plane, that this was the math the framework would later let me put a number on. I just knew the math was there.
 
