@@ -8,7 +8,7 @@ Now Chapter 7 (inline prose, no formulas required; markdown summary table).
 
 Imagine, for a moment, that the argument this book has been making is wrong — not in its moral framing, not in its sympathy for the communities the framework is meant to protect, but in its technical claim. The claim is that extraction is systematically underpriced because no existing framework captures the full intergenerational cost of foreclosure. Perhaps, a careful reader might say, this is a feature of the particular political economy of extraction on Earth — the specific way lobbyists and governments and industry groups have colluded to keep certain costs off the books — rather than a structural fact about how resource pricing works anywhere.
 
-If that is right, the framework is a political critique of a particular earthly arrangement. It is not a general theory of how rational agents price finite resources. And it deserves to be read as the former rather than the latter.
+If that is right, the framework is a political critique of a particular earthly arrangement. It is not a general theory of how rational agents price resources. And it deserves to be read as the former rather than the latter.
 
 There is one way to settle the question. Take the framework off Earth and see whether it still produces the answers a thoughtful planner would recognize as correct.
 
@@ -72,7 +72,7 @@ That debate has structure worth naming. The 2006 Stern Review argued for a near-
 
 Every parameter that drove the Mars administrator's decision exists on Earth. The values are different. The structure is the same. The instrument that told her to preserve Martian water is the same instrument that tells us, when applied honestly to Appalachian coal, that the resource has been severely mispriced for a century.
 
-This is the universality claim the chapter is establishing. The framework is not an Earth-specific critique. It is a general theory of pricing finite resources, tested at the limits where the parameters are stark enough to make the correct answer unambiguous, and applied on Earth where the parameters are moderate enough to have allowed centuries of systematic mispricing without anyone being forced to notice.
+This is the universality claim the chapter is establishing. The framework is not an Earth-specific critique. It is a general theory of pricing resources, tested at the limits where the parameters are stark enough to make the correct answer unambiguous, and applied on Earth where the parameters are moderate enough to have allowed centuries of systematic mispricing without anyone being forced to notice.
 
 ---
 
