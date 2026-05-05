@@ -4,6 +4,18 @@
 
 **Frontmatter added 2026-04-30** by Insight #37 separation pass (Thread β.1) — Ch 7 Draft prose was already clean (no scaffolding to extract). This GuidanceDoc retained as-is with staleness disclaimer.
 
+**[STALE-FRAMING NOTICE 2026-05-04 — DO NOT REINTRODUCE]**
+
+This GuidanceDoc predates the framework cascade applied 2026-05-04 (Insights #65 + #66; Ch 7 cascade `6747529`; Ch 10 cascade `0b09260`; Ch 5 cascade `c5f43eb`; Ch 2/9 cascade `ddd0099`). Ch 7 specifically had heavy framework-formulation work in this round; multiple stale framings appear throughout this document. **DEPRECATED** in publisher-facing manuscript prose. Future drafting sessions: do not reintroduce.
+
+- **"Distance as the structural feature" / "cost severance is a function of distance" / "cost severance requires distance"** → six common patterns observed (geographic distance + temporal asymmetry + informational asymmetry + power asymmetry + normative routinization + abundance masking); open framing throughout — never name as *"the [N] mechanisms"* in publisher-facing prose
+- **"Cost severance impossible on Mars" / "cannot operate" / "spatial cost severance is impossible"** → *"severance is impossible to hide on Mars"* (severance can still operate intra-personally across time per Insight #66 commute case; Mars eliminates the *hiding* of severance, not severance itself)
+- **"The [N] mechanisms" / closed enumeration** → *"common patterns we've observed"* open framing (closed enumeration creates immune-response checkbox attack surface)
+- **"Finite resources" as framework's domain** → *"resources"* alone (covers renewable + time + commons cases per Ch 7 domain fix `f756f71`)
+- **Mars passage focused on water alone** → engages water AND atmosphere as parallel abundance-masking demonstrations + perspective-reversal move (Mars resident visiting Earth would see free air, free water, free temperature regulation, free solar irradiance, free gravitational stability, free magnetic shielding); Earth's ambient abundance is the dominant cost-hiding apparatus on this planet, and the CIT is the tool for detecting which parts of it are actually finite-and-being-drawn-down
+
+See: `alignment/commons_bonds_open_insights_v1.0.0.md` Insights #65 + #66 + `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-04_ch1_title_candidates_v2.0.0.md` for full record.
+
 **Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**, including the chapter title "(The Colony Administrator)" referenced below — actual chapter title is "On Other Worlds" per Insight #22 ratification 2026-04-26 + 04-27. Verify against current state before applying. Per-section staleness audit deferred to future pass.
 
 **Cross-references:**

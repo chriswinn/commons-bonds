@@ -4,6 +4,17 @@
 
 **Consolidated 2026-04-30** by Insight #37 separation pass (Thread β.1) — folds Draft scaffolding annotations into the existing GuidanceDoc rather than maintaining separate internal-scaffolding files per chapter.
 
+**[STALE-FRAMING NOTICE 2026-05-04 — DO NOT REINTRODUCE]**
+
+This GuidanceDoc predates the framework cascade applied 2026-05-04 (Insights #65 + #66; Ch 7 cascade `6747529`; Ch 10 cascade `0b09260`; Ch 5 cascade `c5f43eb`; Ch 2/9 cascade `ddd0099`). The following framings appear in this document but have been **DEPRECATED** in publisher-facing manuscript prose. Future drafting sessions: do not reintroduce.
+
+- **"Distance as the structural feature" / "cost severance is a function of distance"** → six common patterns observed (geographic distance + temporal asymmetry + informational asymmetry + power asymmetry + normative routinization + abundance masking); open framing throughout — never name as *"the [N] mechanisms"* in publisher-facing prose
+- **"Cost severance impossible on Mars" / "cannot operate"** → *"severance is impossible to hide on Mars"* (severance can still operate intra-personally across time per Insight #66 commute case)
+- **"The [N] mechanisms" / closed enumeration** → *"common patterns we've observed"* open framing (closed enumeration creates immune-response checkbox attack surface)
+- **"Finite resources" as framework's domain** → *"resources"* alone (covers renewable + time + commons cases per Ch 7 domain fix `f756f71`)
+
+See: `alignment/commons_bonds_open_insights_v1.0.0.md` Insights #65 + #66 for full record. Inline STALE markers below remain valid where they appear.
+
 **Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass; flag inline as encountered during drafting.
 
 **Cross-references:**
