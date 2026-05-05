@@ -1429,6 +1429,56 @@ New insights automatically get added to the todo list in both states: one entry 
 
 ---
 
+### Insight #66 — Framework's computational claim is universal across bad-actor / no-bad-actor cases — presentation gap (self-imposed-cost case missing from manuscript) — OPEN
+
+- **Raised:** 2026-05-04 by author (surfaced via combative-outsider pressure-test using a Maryland 5hr/day commute thought experiment)
+- **Status:** **raised** — author has identified the presentation gap; manuscript-implementation decision (where to place a self-imposed-cost case) pending.
+- **Category:** presentation · framework-application · craft
+- **Content:** During a session pressure-testing the framework from a hostile-outsider perspective, author surfaced a structural critique the framework should answer cleanly:
+
+  > *"What about cases where the cost-bearer made the decision themselves? My 5hr/day Maryland commute had no evil corporation taking advantage of me — just me making a bad decision on where to live. From that perspective, the framework would just calculate the time-cost variables of the deal I was about to make and help me understand what the real cost was, without caring what entity was extracting value from whom."*
+
+  The critique is the cleanest version of the libertarian-leaning challenge a sophisticated reviewer will press: *if there's no bad actor, then the cost-bearer voluntarily accepted the deal — that's price discovery, not severance.*
+
+  **The framework's response is structurally sound.** The computational apparatus (RCV integral, Cᵢ-summation, Commons Inversion Test, four gates) operates regardless of whether there's an extracting bad-actor. It computes what's actually being paid in honestly accounted terms — full stop. The output is a number; the number is the same whether the cost-bearer is being exploited externally or accepting the transaction self-imposed without seeing the full price. The framework is a **pricing instrument first, a critique-of-bad-actors second.**
+
+  The Maryland-commute case decomposes through three of the five common patterns operating intra-personally across time:
+  - **Temporal asymmetry** — past-self made the decision; present-self and future-self bore the costs without consultation
+  - **Informational asymmetry** — past-self didn't fully compute the lifetime cost of 5hr/day across years; the cost wasn't on any invoice past-self saw
+  - **Normative routinization** — long commutes are culturally normalized in American economic life; "everyone does it"; the cost has been culturally invisibilized
+
+  The framework's response to the Maryland case is what it would be for any extraction case: compute direct cost (hours × valuation), externality tail (chronic-stress cardiovascular, sleep deficit, family-relationship strain), foreclosure cost (what those hours could have done), lineage-labor cost (the depleted vs. would-have-been version of self that arrived home). Total RCV/year of that arrangement: tens of thousands of dollars in honestly-priced terms, against a market price of (say) $20K/year saved on housing. **The framework gives the same answer it would give for coal: the real cost was many multiples of the apparent price.**
+
+  **The presentation gap.** The framework's *prose narrative* leans heavily on bad-actor framing in chapter examples (McDowell County coal vs. Chicago shareholders; Baotou villagers vs. iPhone consumers; pharaohs vs. laborers; bankers vs. underwater homeowners). A reader who's only seen those examples may come away thinking *"this framework only applies when there's an extractor exploiting a victim."* That reading is incorrect — the framework is universal — but the manuscript hasn't surfaced a case that demonstrates the universality directly.
+
+  **What this critique strengthens, not weakens.** A combative outsider's *"price-discovery, not severance"* attack can't actually defeat the framework — it just illustrates that the framework operates regardless of bad-actor presence. *Price-discovery without honest accounting is just under-priced acceptance*, and the framework's job is to make the under-pricing visible whether or not there's a counterparty doing it on purpose. The Maryland-commute case is the clean counter-illustration that proves the framework is a pricing instrument, not a prosecution.
+
+- **Why it matters:**
+  - Pre-publication external review (Insight #39) will run this critique — likely from a libertarian-leaning economist character. The framework needs a manuscript artifact that demonstrates the response cleanly.
+  - Reader-accessibility benefit: many readers' lives include self-imposed-cost cases (the commute; the over-priced city housing trade-off; the under-paid passion job; the deferred medical care to save out-of-pocket cost); a self-imposed-cost worked example makes the framework personally usable as a decision tool, not just a structural critique of someone else's behavior.
+  - Pitchability benefit: the framework's universality claim across bad-actor and no-bad-actor cases reads as more analytically serious than a framework that only operates against villains.
+  - Aeon-pitch alignment: the Mars-as-universality-test cut already partially handles this (the Mars administrator's decisions are themselves self-imposed-cost cases by structural construction). Surfacing the connection explicitly strengthens the pitch.
+
+- **Proposed resolution — four placement options:**
+
+  **Option 1 — Ch 8 worked-example expansion.** Ch 8 currently walks one ton of Appalachian coal through the framework. Add a sub-section running a self-imposed-cost case through the same accounting — possibly the Maryland commute itself, or a structurally similar scenario (the over-priced city apartment that consumed savings; the long-haul trucking job that compromised health; the multi-decade graduate-school career that foreclosed family formation; the cheap-flight tourism that compounded climate cost). The chapter title (*What Things Actually Cost*) carries this naturally — the framework's universality is more evident when the chapter shows the same accounting working across bad-actor and self-imposed cases.
+
+  **Option 2 — Ch 9 policy paragraph.** Ch 9 develops policy implications. Add a paragraph framing the framework as a personal-decision tool: *"The same accounting that prices a ton of coal honestly prices any decision in which costs are systematically under-priced — including the decisions individuals make about where to live, what work to take, what time to spend, and what health to defer."* Lighter implementation; less weight than Ch 8 expansion.
+
+  **Option 3 — Ch 7 Mars universality enhancement.** Ch 7's Mars passage is structurally already a self-imposed-cost case (the administrator's decisions affect the administrator's own family). Tightening that connection — explicitly noting that the Mars case is a self-imposed-cost demonstration — could carry the universality claim without adding a new case elsewhere. Lightest implementation.
+
+  **Option 4 — Combination.** Ch 7 surfaces the self-imposed-cost reading of the Mars passage; Ch 8 adds the worked example; Ch 9 references the universality in policy register. Most thorough; most consistent reader experience.
+
+  Author has not yet ratified placement scope as of 2026-05-04.
+
+- **Alignment with the open-framing decision (per Insight #65 + recent rigor pass).** The self-imposed-cost case actually reinforces the open-framing approach. A closed enumeration of cost-severance "conditions" implies external counterparties; open framing (*"common patterns we've observed in cases of cost severance"*) naturally accommodates patterns operating intra-personally across time. The two corrections are mutually reinforcing.
+
+- **Dependencies / Links:** Insight #65 (five-pattern enumeration with open framing — provides the mechanism vocabulary that the Maryland case decomposes through); Insight #1 closure (vocabulary discipline — no new term needed; the framework's existing apparatus handles this); Insight #39 (pre-publication review — will pressure-test the universality claim and discover the presentation gap if not addressed); Ch 7 (Mars-passage already partially handles via universality test); Ch 8 (worked-example chapter — primary placement option); Ch 9 (policy chapter — secondary placement option); Aeon pitch direction (would benefit from explicit universality claim).
+
+- **Todo link:** Review Open Insight #66 — *Manuscript-presentation decision on self-imposed-cost case (placement + scope)*.
+
+---
+
 ### Insight #65 — Cost-severance mechanism enumeration: five-mechanism insulation replaces single-axis "distance" framing — OPEN
 
 - **Raised:** 2026-05-04 by author (originated in a parallel-session correction to a different chapter passage; surfaced here when drafting an Aeon pitch direction for Ch 7-derived material)
