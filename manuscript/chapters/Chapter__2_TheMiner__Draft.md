@@ -154,7 +154,7 @@ The value that came out of those mountains was not consumed in those mountains. 
 
 This is spatial cost severance: the geographic gap between where value is extracted and where costs are borne. Distance enabled ignorance, and ignorance made the accounting invisible. The consumers were not villains. Most of them would have been horrified by McDowell County if they had seen it. But they didn't see it. The transaction was structured so that they didn't have to.
 
-Spatial cost severance is distinct from, but as important as, intergenerational cost severance — the gap between present value extraction and future cost-bearing. We will see intergenerational cost severance in later chapters. What McDowell County demonstrates is that you don't need centuries of delay for cost severance to operate. You just need enough distance that the people who benefit never have to look at what their benefit costs. Chapter 7 returns to distance as the structural feature the framework's logic rests on, by examining what the framework says when distance collapses.
+Spatial cost severance is distinct from, but as important as, intergenerational cost severance — the gap between present value extraction and future cost-bearing. We will see intergenerational cost severance in later chapters. What McDowell County demonstrates is that you don't need centuries of delay for cost severance to operate. You just need enough distance that the people who benefit never have to look at what their benefit costs. Distance is one of several arrangements that hide cost from honest accounting; Chapter 7 walks through the full set, by examining what happens when all of them collapse at once.
 
 ---
 
