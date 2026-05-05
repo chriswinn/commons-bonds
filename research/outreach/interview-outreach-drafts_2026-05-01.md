@@ -74,7 +74,9 @@ Body:
 
 ---
 
-### 4. Kate Raworth (Doughnut Economics Action Lab; Oxford / Cambridge)
+### 4. Kate Raworth (Doughnut Economics Action Lab; Oxford / Cambridge) — **DECLINED 2026-05-05** (politely, via EA)
+
+**STATUS UPDATE 2026-05-05:** Reply received from Beth Ingledew, Executive Assistant at Doughnut Economics Action Lab. Polite decline citing Kate's capacity constraints + existing commitments. Beth recommended exploring DEAL platform materials at `doughnuteconomics.org` (Amsterdam case studies + broader applications). **Implication for book:** Raworth was being engaged as Pattern 2 register exemplar; the cite itself carries the framework's positioning. The interview would have been a bonus, not essential. No structural impact. **Future action:** mine DEAL platform materials for additional Pattern 2 register substrate per Beth's pointer.
 
 **Email address (verify):** Verify via Doughnut Economics Action Lab website (`doughnuteconomics.org`); possibly via Oxford / Cambridge institutional pages.
 
