@@ -1,7 +1,21 @@
 # Aeon pitch — Commons Bonds — DRAFT 2026-05-04
 
 **Status:** First-pass draft for author review. Awaiting ratification + revisions before submission.
-**Author revision target (per 2026-05-04):** trim pitch paragraph below 300 words (consulting-world convention: word-limit overage = automatic disqualification; Aeon's "high volume of pitches" framing makes concision load-bearing). Current pitch paragraph is ~290 words — already close, but no margin; revise to leave headroom. Title also pending workshop (current placeholder "Pricing the Air"; alternatives surfaced 2026-05-04: "What Free Costs" / "The Free Things" / "Earth, Seen from Mars" / "What the Closed Habitat Knows" / "What Mars Reveals About the Cost of Earth" / "The Math Earth Doesn't Do").
+**Author revision target (per 2026-05-04):** trim pitch paragraph below 300 words (consulting-world convention: word-limit overage = automatic disqualification; Aeon's "high volume of pitches" framing makes concision load-bearing). Current pitch paragraph is ~290 words — already close, but no margin; revise to leave headroom.
+
+**Title workshop status (2026-05-04):** none of the candidates surfaced today landed for the author; continued workshop scheduled for next session (alongside Ch 3 drafting start). Candidates surfaced + brief reasoning per option, preserved for next session's continued workshop:
+
+| Candidate | Length | Reasoning |
+|---|---|---|
+| **"Pricing the Air"** *(current placeholder)* | 3 words | Direct framework-signaling; "air" is the cleanest abundance-masking case (everyone breathes; no one prices). Risk: "pricing" carries technical/economics register that could read dry. |
+| **"What Free Costs"** | 3 words | Paradoxical; captures the central insight cleanly (things treated as free have costs that aren't priced). Reusable as tagline. Risk: requires a beat to parse. |
+| **"The Free Things"** | 3 words | Aeon-style philosophical noun phrase; gentler register than "Pricing the Air." Risk: less framework-signaling. |
+| **"Earth, Seen from Mars"** | 4 words | Distinctive perspective-reversal hook; locks the thought-experiment frame. Risk: Mars-specific; may discourage non-space-leaning readers. |
+| **"What the Closed Habitat Knows"** | 5 words | Philosophical-question register; gestures at Mars indirectly. Risk: longer; "closed habitat" requires reader knowledge. |
+| **"What Mars Reveals About the Cost of Earth"** | 8 words | Explicit; tells the reader what the essay does. Risk: less elegant; spoiler-leaning. |
+| **"The Math Earth Doesn't Do"** | 5 words | Direct; punchy; framework-aligned; quotable. Risk: "math" can polarize trade audiences. |
+
+**Categories not yet workshopped (for next-session brainstorm):** action-verb gerund forms (other than "Pricing"); concrete-from-essay-content anchors (e.g., specific scene or case from Ch 7); Aeon-archive register matches (study Aeon's recent essay titles for tonal range); paradox-form variants ("What Costs Nothing" / "The Air We Don't Charge For" / etc.); single-word evocative options (rare in current set; worth exploring).
 **Submission target:** `aeon.co/pitch` portal — opens first week of each month per Aeon editor Sam Haselby's public posts.
 **Author Terms:** see `aeon-author-terms-confirmed-2026-05-04.md` if added; key references: Section 3.1 (original-work warranty); Section 3.2 (conflict-of-interest disclosure provision; venue for AI-collaboration disclosure); Section 2.1.b (5-year exclusive digital + 1-year exclusive print rights post-publication).
 **Source material:** Ch 7 *On Other Worlds* (`Chapter__7_OnOtherWorlds__Draft.md`); see also `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-04_ch1_title_candidates_v2.0.0.md` (procedural-improvement context); `alignment/commons_bonds_open_insights_v1.0.0.md` Insights #65 + #66 (framework-formulation provenance).
