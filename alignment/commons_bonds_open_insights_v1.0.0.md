@@ -1432,7 +1432,7 @@ New insights automatically get added to the todo list in both states: one entry 
 ### Insight #66 — Framework's computational claim is universal across bad-actor / no-bad-actor cases — presentation gap (self-imposed-cost case missing from manuscript) — OPEN
 
 - **Raised:** 2026-05-04 by author (surfaced via combative-outsider pressure-test using a Maryland 5hr/day commute thought experiment)
-- **Status:** **raised** — author has identified the presentation gap; manuscript-implementation decision (where to place a self-imposed-cost case) pending.
+- **Status:** **under-review 2026-05-04** — author has identified the presentation gap AND ratified placement scope as **Ch 1 plant + Ch 7 three-case parallel** (a hybrid not exactly captured by the four placement options originally drafted below; see "RATIFIED PLACEMENT" subsection). Implementation pending — Ch 1 work happens in concurrent drafting session; Ch 7 work folds into the Insight #65 framework cascade.
 - **Category:** presentation · framework-application · craft
 - **Content:** During a session pressure-testing the framework from a hostile-outsider perspective, author surfaced a structural critique the framework should answer cleanly:
 
@@ -1469,9 +1469,27 @@ New insights automatically get added to the todo list in both states: one entry 
 
   **Option 4 — Combination.** Ch 7 surfaces the self-imposed-cost reading of the Mars passage; Ch 8 adds the worked example; Ch 9 references the universality in policy register. Most thorough; most consistent reader experience.
 
-  Author has not yet ratified placement scope as of 2026-05-04.
+  Author has ratified placement as of 2026-05-04 (see "RATIFIED PLACEMENT" subsection below).
 
-- **Alignment with the open-framing decision (per Insight #65 + recent rigor pass).** The self-imposed-cost case actually reinforces the open-framing approach. A closed enumeration of cost-severance "conditions" implies external counterparties; open framing (*"common patterns we've observed in cases of cost severance"*) naturally accommodates patterns operating intra-personally across time. The two corrections are mutually reinforcing.
+- **RATIFIED PLACEMENT 2026-05-04 — Ch 1 plant + Ch 7 three-case parallel.**
+
+  **Ch 1 (plant):** Author's commute experience appears in Ch 1 as lived ordinary detail — most readers in major metropolitan areas in the US (and globally) have made or are currently making similar housing/commute trade-offs. The Ch 1 placement establishes the pre-theoretical experience: hours, road, repetition, what the time was costing in pre-framework language (relationships, sleep, attention, the version of self that arrived home). No villain framing — the framework hasn't been introduced yet at Ch 1's point in the book; this is just experience the reader recognizes. A foreshadowing line is optional but available — *"It would be years before I had the language for what that arrangement was actually costing."* Ch 1 work happens in author's concurrent drafting session.
+
+  **Ch 7 (payoff via three-case parallel):** When Ch 7 applies the framework to off-world resource scenarios, the reframe adds the commute-lease case as a third parallel alongside the existing asteroid-iron and (Ch 2/Ch 8 callback to) terrestrial-mine cases:
+
+  1. **Asteroid iron** (already in Ch 7) — abundant resource, no community, no bad actor, framework's lowest-RCV case (framework agrees with market price)
+  2. **Terrestrial coal mine in McDowell County** (callback to Ch 2 / Ch 8) — bad-actor extraction case (framework diverges substantially via geographic + informational + power patterns)
+  3. **Self-imposed commute lease** (NEW) — no bad actor, just under-priced acceptance (framework diverges substantially via temporal + informational + normative patterns operating intra-personally across time)
+
+  The three-case sequence is pedagogically clean: framework agrees with market on asteroid iron (no severance), diverges substantially on McDowell coal (severance via external mechanisms), diverges substantially on the commute lease (severance via intra-personal mechanisms). The reader sees the framework's universality on the third case because they've already accepted it on the first two. **Same instrument, no bad actor required, structural test the same.** Ch 7 work folds into the framework cascade (Insight #65) — it's an expanded edit pass to Ch 7, not separate work.
+
+  **Why this hybrid won over the originally-drafted Options 1–4:**
+  - Ch 1 plant was not an originally-listed option but emerged as the strongest narrative-architecture move (uses the book's existing pattern of lived-experience-anchors-the-chapter; lets the reader internalize the cost pre-theoretically before the framework arrives in Ch 7)
+  - Ch 7 three-case parallel (close to Option 3 in original list, but expanded) is stronger than Option 1 (Ch 8 worked-example expansion) because Ch 7's universality test is the natural home for this kind of case-comparison; Option 1 would have crowded Ch 8's coal-arithmetic worked example
+  - Ch 9 policy paragraph (Option 2) is lighter than what the universality claim deserves — better to demonstrate via worked case in Ch 7 than reference in Ch 9
+  - Combination (Option 4) was thorough but redundant given the Ch 1 + Ch 7 placement carries the load
+
+- **Alignment with the open-framing decision (per Insight #65 + recent rigor pass).** The self-imposed-cost case actually reinforces the open-framing approach. A closed enumeration of cost-severance "conditions" implies external counterparties; open framing (*"common patterns we've observed in cases of cost severance"*) naturally accommodates patterns operating intra-personally across time. The two corrections are mutually reinforcing — closed enumeration would have struggled to fit the commute-lease case cleanly; open framing handles it naturally as three of the five common patterns operating intra-personally.
 
 - **Dependencies / Links:** Insight #65 (five-pattern enumeration with open framing — provides the mechanism vocabulary that the Maryland case decomposes through); Insight #1 closure (vocabulary discipline — no new term needed; the framework's existing apparatus handles this); Insight #39 (pre-publication review — will pressure-test the universality claim and discover the presentation gap if not addressed); Ch 7 (Mars-passage already partially handles via universality test); Ch 8 (worked-example chapter — primary placement option); Ch 9 (policy chapter — secondary placement option); Aeon pitch direction (would benefit from explicit universality claim).
 
