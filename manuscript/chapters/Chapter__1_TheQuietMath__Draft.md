@@ -8,40 +8,6 @@
 
 ---
 
-
-## Chapter 1
-
-**Title ratified:** 2026-05-04 per `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-04_ch1_title_candidates_v2.0.0.md` (Candidate E winner across full 12-module rigor protocol + expanded 15-character pressure-test set; closes Insight #22 deferral for Ch 1). Author noted willingness to revise if a future publisher or agent has strong feelings against it.
-**File rename pending:** when Ch 1 moves from `research/story-drafts/` to `manuscript/chapters/`, file will rename to `Chapter__1_TheQuietMath__Draft.md` per the existing-chapters filename convention.
-**Drafted:** 2026-05-04 in collaborative session under the voice/polish-pipeline feedback (active polishing toward publish-ready prose; no preservation of raw author voice; sift + cut applied per framework-not-memoir discipline).
-
-**Length:** ~3,300 words. Substance-driven; not target-driven. Author may cut, expand, or restructure.
-
-**Architecture calls made under polish-pipeline authority:**
-
-- **Beat order (F1):** Plane OPEN → Grandfather braid → Father-advice → NIH+TV braid → 120-hour-week (revised) → No-villain pivot → Consent-problem (parents-anchor punchline) → Son-NICU → Close. Reasoning: chapter builds an argumentative arc — establishes lineage of seeing-clearly, demonstrates the framework being lived, then reveals the cost in its sharpest form.
-- **Son-NICU placement (F2):** payload-after-consent-problem (option a). Chapter builds toward the cost rather than anchoring against it from the start.
-- **Grandfather scenes (G4):** one passage, two beats — air-compressor establishes the pattern; "Pou" naming-ceremony shows the inheritance landing.
-- **NIH+TV-station:** braid with temporal hinge ("years later, as a CEO...") — locked.
-- **Drywalled-mainframe story:** cut.
-- **Becoming-CEO + Neeraj/Mirage substrates:** held for separate placement; not in this draft.
-- **A2 both/and paragraph variant:** SOFTEN selected (recommended). Trim authorial-gloss framing-sentence; let same-skill-different-valences observation carry the load.
-- **A3 "Sleep took me" variant:** "Sleep took me. By then I had stopped choosing it." (compressed-with-temporal-anchoring, variant 2). The "I had stopped choosing" beat preserved but slightly softened.
-- **Father lineage (A4):** explicit but brief, integrated into prose rather than gestured at — "He had a way of solving things, my father said, that other people would just walk past" + "My grandfather had passed it to him quietly. He passed it to me the same way."
-- **Parents-anchor punchline:** lands as the close of the consent-problem passage (Prof. Spencer letter substrate integrated as written).
-- **Wife-references:** model phrasing applied — *"the marriage did not survive the trauma of all of it"* + *"the house is not the thing I miss"* + bookend *"I don't know. I wish I knew. I have no contact with him at this time."*
-
-**What I added beyond substrate:**
-- Closing paragraph that bridges into the rest of the book (Ch 7 Mars / Ch 8 coal / Ch 9 spill references; "the framework is for the ones who come after"). Wasn't in substrate; chapter needed a forward-facing close.
-- Several transition passages between beats (e.g., the brief paragraph between the plane-scene reflection and the grandfather passage; the bridge between father-advice and the NIH origin; the meditation-passage close that hands to the bookend).
-
-**What I left for review:**
-- Section break placements (using `---`) — author may want different breaks
-- The economist/coal-miner aside in the consent-problem passage is from the existing Ch 1 GuidanceDoc and Draft; preserved here. Author may cut or expand.
-- The closing-paragraph forward-references (Mars / coal / spill) name specific Ch 7 / Ch 8 / Ch 9 territory — adjust if you'd rather keep those vague.
-
----
-
 The sun came up sometime after we cleared the cloud line. The first flights out of Savannah leave at five forty-five, and I had taken so many of them by then that I had a discipline about it: never leave the night before a meeting, because every airline delay stacks on every other delay until the crews time out and the last flights of the day go nowhere; first flights almost always leave on time, and even weather around them costs you maybe twenty minutes. I was heading north — Philadelphia or Boston, two deals that had been quiet for months and had suddenly come back to life over the same weekend. My garment bag was in the overhead. My grip was under the seat in front of me. The grip is a leather bag from the time of steam locomotives, the kind every porter knew not to reach for in your hand, because that was where you kept your money and your gun. Mine was missing both. It had been with me through fifty-eight countries. It had a laptop and a few essentials and could carry me for two weeks of meetings before laundry was a crisis.
 
 I am a daydreamer. I have always been a daydreamer. Watching the sun come up out of a plane window is one of the moments I find myself most often inside something I cannot quite see the edges of — half here, half pulled toward something that might have happened decades ago, or might be happening on the ground a few hundred miles below me, or might be something I do not yet have a name for.
@@ -93,14 +59,6 @@ That pattern I learned at the NIH would, twenty years later, cost me my marriage
 I billed over a hundred and twenty hours a week for stretches, sometimes for months at a time. There were three weeks back to back, right before a project deadline, where I billed close to a hundred and thirty-eight hours every seven days. I delivered the project early. There was a stack of paper paychecks on my desk that I had not opened. My hair grew long because I did not have time for haircuts; I started shaving my own head in the bathroom, on mute during conference calls. On the days I remembered to eat, I ordered through a drive-through window on mute during conference calls. I have a memory of waking up one morning at my desk, the laptop still open in front of me, and realizing I had fallen asleep mid-sentence typing an email — I do not remember to whom; I do not remember about what; the thing I remember is cussing at myself for not having clicked send before sleep took me, because someone had needed it before they woke up so they could keep the work going.
 
 Sleep took me. By then I had stopped choosing it.
-
-There is a specific part of a 120-hour week that does not appear in any ledger. Not the hours that were billed — those were billed accurately, at rates both parties had agreed to. What does not appear is the cognitive & emotional overhead that followed the hours home, the pattern-matching fatigue that meant I was not present even when I was physically somewhere, the compounding weight of problems that did not fit in the contract but followed me anyway. The contract captured the billable time. It did not capture what the billable time was displacing. My body was in the meeting. My attention was partitioned across whatever goes on in our lives, personal relationships, business stakeholder relationships, looming deadlines, funding runways that are getting closer by the day. That when they arrive mean the checks from the startup we are a part of start bouncing. The work captured my attention. The attention it captured was taken from somewhere — from my now ex-wife, from my son who could have been held, from the version of my life that required me to be physically, cognitively, emotionally present. What was taken was not billed. The party that took it did not pay for it. I did.
-
-A free-market economist will say you made voluntary trade-offs. Let's address this directly — and specificly I didn't have an education, but I had created options a coal miner in McDowell County does not have. I had elite technical skills, multiple employers, geographic mobility, and significant compensation. And I still ended up on a plane while my ex-wife recovered from dying, and while my son was in a NICU absent of human contact.
-
-That is the most interesting version of the consent problem in the entire book, because it rules out the easy explanation. I did not lack alternatives. I did not lack information. I was not coerced in any conventional sense. And the framework still applies, because the voluntariness of the exchange was nominal rather than real — the contract priced the billable time, not the displacement. The choice was not between mining coal and investment banking. It was between billing 120 hours and losing the income trajectory that funded the healthcare the family depended on. A choice made under those conditions is a choice, but it is not the free choice that free-market theory presupposes.
-
-This is the sharpest demonstration of the framework you can make, because it forecloses the easiest dismissal. If the framework applies to someone with my resources, it applies with greater force to people with fewer.
 
 The NIH contracts ended naturally and on good terms. The man who had been bringing me into project after project was on a golf course one weekend, talking with friends from the International Monetary Fund and the World Bank. Both had projects their teams were stuck on. He called me Monday morning. That was how I left the NIH. That was how the next decade began.
 
