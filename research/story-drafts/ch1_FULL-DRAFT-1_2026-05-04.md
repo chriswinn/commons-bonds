@@ -1,6 +1,9 @@
 ---
-# Chapter 1 — FULL DRAFT 1 (2026-05-04)
 
+## Chapter 1: The Quiet Math
+
+**Title ratified:** 2026-05-04 per `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-04_ch1_title_candidates_v2.0.0.md` (Candidate E winner across full 12-module rigor protocol + expanded 15-character pressure-test set; closes Insight #22 deferral for Ch 1). Author noted willingness to revise if a future publisher or agent has strong feelings against it.
+**File rename pending:** when Ch 1 moves from `research/story-drafts/` to `manuscript/chapters/`, file will rename to `Chapter__1_TheQuietMath__Draft.md` per the existing-chapters filename convention.
 **Drafted:** 2026-05-04 in collaborative session under the voice/polish-pipeline feedback (active polishing toward publish-ready prose; no preservation of raw author voice; sift + cut applied per framework-not-memoir discipline).
 
 **Status:** First-pass full chapter draft for author review. Awaiting reaction + revision direction.
