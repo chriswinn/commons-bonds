@@ -32,7 +32,9 @@ Body:
 
 ## Per-recipient customizations
 
-### 1. Mariana Mazzucato (UCL Institute for Innovation and Public Purpose)
+### 1. Mariana Mazzucato (UCL Institute for Innovation and Public Purpose) — **PENDING REVIEW 2026-05-06** (holding response via Office of Prof. Mazzucato)
+
+**STATUS UPDATE 2026-05-06:** Holding response received from **Adam Albrecht (Office of Prof. Mazzucato, UCL IIPP)**: *"Thank you for your message to Professor Mazzucato. We will review the request alongside other commitments and get back to you shortly."* Office address on file: 11 Montague Street, London, WC1B 5BP. No action required from us — wait for the substantive follow-up. Standard academic-EA holding-response register; this is neither acceptance nor decline. **Gatekeeper note:** Adam Albrecht is the routing path for any future correspondence; preserve his name + role in the thread. **Implications if accepted:** Mazzucato is the value-creation / value-extraction landmark cite for the framework's positioning; the framework's *cost severance* terminology is presented as a precision-add on her value-extraction vocabulary (Q from cold-outreach Para 2). Highest-leverage engagement question is whether *cost severance* adds analytical work she hasn't already covered under different vocabulary. Pattern 2 register exemplar (alongside Raworth, who declined; *Mission Economy* + *Doughnut Economics* are the two cleanest Pattern 2 demonstrations in the live literature).
 
 **Email address (verify):** Likely `m.mazzucato@ucl.ac.uk` per UCL public directory; verify on UCL IIPP page.
 

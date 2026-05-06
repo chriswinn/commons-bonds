@@ -20,9 +20,9 @@
 
 - **12 cold-outreach drafts sent 2026-05-05 morning** per `research/outreach/interview-outreach-drafts_2026-05-01.md`.
 - **Ch 3 Chesapeake fieldwork outreach sent 2026-05-05 09:00 ET** per `research/outreach/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md`.
-- **Two responses received same day:** Darity (ACCEPTED) + Raworth (DECLINED via EA Beth Ingledew).
+- **Three responses received:** Darity (ACCEPTED 2026-05-05) + Raworth (DECLINED 2026-05-05 via EA Beth Ingledew) + Mazzucato (HOLDING RESPONSE 2026-05-06 via Adam Albrecht, Office of Prof. Mazzucato, UCL IIPP — neither acceptance nor decline; "we will review the request alongside other commitments and get back to you shortly").
 - **Two replies scheduled to send 2026-05-06 08:00 ET:** Darity scheduling-reply + Colden-via-DiMarzio response.
-- **Other 9 cold-outreach recipients:** no response yet (within standard 2-3 week academic-response window).
+- **Other 8 cold-outreach recipients:** no response yet (within standard 2-3 week academic-response window).
 
 **Bibliography:** §19.5 Chesapeake fieldwork tentative sources added 2026-05-05 (Colden public record + CBF positions + Bay-restoration legislation). Phase 3 Tech Appendix v2.0.0 bibliography expansion still queued.
 
@@ -60,9 +60,13 @@
 - **§V third-anchor:** GATED on Colden interview outcome — see §2.2.
 - **Strategic position:** essay is prerequisite for literary agent path per author 2026-05-01 — *"we do need to have an essay published to be able to approach a literary agent."*
 
-### §2.5 Cold-outreach pipeline (9 awaiting response)
+### §2.5 Cold-outreach pipeline (8 awaiting response + 1 pending review)
 
-Recipients with no response as of 2026-05-06: Mariana Mazzucato (UCL/IIPP); James Boyce (UMass/PERI); Adrienne Buller (Common Wealth UK); Atif Mian (Princeton); Amir Sufi (Chicago Booth); Gar Alperovitz (Democracy Collaborative); Mondragon press relations; Appalachian Citizens' Law Center (#13); National Coalition of Black Lung & Respiratory Disease Clinics (#14). Standard academic-response window 2-3 weeks before second outreach attempt. A. Kirsten Mullen (#3) Gmail draft on hold per Candidate #3 plan; activation deferred to end of Darity interview if conversation goes well.
+**Pending review (holding response):** Mariana Mazzucato (UCL/IIPP) — 2026-05-06 holding response via Adam Albrecht (Office of Prof. Mazzucato). Wait for substantive follow-up; preserve Albrecht as routing path in any future correspondence.
+
+**Awaiting response (no signal):** James Boyce (UMass/PERI); Adrienne Buller (Common Wealth UK); Atif Mian (Princeton); Amir Sufi (Chicago Booth); Gar Alperovitz (Democracy Collaborative); Mondragon press relations; Appalachian Citizens' Law Center (#13); National Coalition of Black Lung & Respiratory Disease Clinics (#14). Standard academic-response window 2-3 weeks before second outreach attempt.
+
+**Held (not yet sent):** A. Kirsten Mullen (#3) — Gmail draft on hold per Candidate #3 plan; activation deferred to end of Darity interview if conversation goes well.
 
 ---
 
