@@ -20,7 +20,7 @@
 
 - **12 cold-outreach drafts sent 2026-05-05 morning** per `research/outreach/interview-outreach-drafts_2026-05-01.md`.
 - **Ch 3 Chesapeake fieldwork outreach sent 2026-05-05 09:00 ET** per `research/outreach/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md`.
-- **Three responses received:** Darity (ACCEPTED 2026-05-05) + Raworth (DECLINED 2026-05-05 via EA Beth Ingledew) + Mazzucato (HOLDING RESPONSE 2026-05-06 via Adam Albrecht, Office of Prof. Mazzucato, UCL IIPP — neither acceptance nor decline; "we will review the request alongside other commitments and get back to you shortly").
+- **Three responses received:** Darity (ACCEPTED 2026-05-05) + Raworth (DECLINED 2026-05-05 via EA Beth Ingledew, but **upgraded 2026-05-06** when Beth followed up offering a warm intro to the Amsterdam DEAL implementation team — the Amsterdam City Doughnut is the framework's cleanest live Pattern 2 case) + Mazzucato (HOLDING RESPONSE 2026-05-06 via Adam Albrecht, Office of Prof. Mazzucato, UCL IIPP — neither acceptance nor decline; "we will review the request alongside other commitments and get back to you shortly").
 - **Two replies scheduled to send 2026-05-06 08:00 ET:** Darity scheduling-reply + Colden-via-DiMarzio response.
 - **Other 8 cold-outreach recipients:** no response yet (within standard 2-3 week academic-response window).
 
