@@ -64,9 +64,9 @@ The response should give him what he needs to do (3) well. That means concrete c
 >
 > **Timeline.** The book is on a 2026-2027 publication arc, so the broader window is comfortable. The nearer-term cycle is an essay I'm developing for *Noema* — getting Virginia perspectives into the next four to six weeks would let those voices land in the essay as well as in the book.
 >
-> **What I'm looking for.** The book has a chapter centered on the Chesapeake fishery — the renewable-resource case in a framework that's primarily worked on extractive industries (coal, oil, etc.) elsewhere. The chapter argues that a renewable resource pushed past regenerative capacity becomes effectively non-renewable, and that watermen and the Bay itself have been carrying the institutional accountability gap for decades. Three categories of voice would help the chapter land:
+> **What I'm looking for.** The book has a chapter centered on the Chesapeake fisheries — the renewable-resource case in a framework that's primarily worked on extractive industries (coal, oil, etc.) elsewhere. The chapter argues that a renewable resource pushed past regenerative capacity becomes effectively non-renewable, and that watermen and the Bay itself have been carrying the institutional accountability gap for decades. Three categories of voice would help the chapter land:
 >
-> 1. **Working or retired Virginia watermen** — multi-generational ties to the Bay, particularly oyster and blue crab fisheries. This is the load-bearing voice. The chapter cannot land without it on the page. Tangier and the Northern Neck are on my mind, but I'd defer to whoever you'd point me at.
+> 1. **Working or retired Virginia watermen** — multi-generational ties to the Bay across whichever fisheries feel most representative (oyster, clam, blue crab, striped bass, shad, finfish). This is the load-bearing voice. The chapter cannot land without it on the page. Tangier and the Northern Neck are on my mind, and I'd be grateful if Port Isobel or any of the working-waterfront programs are appropriate routes — otherwise I'd defer to wherever you'd point me.
 > 2. **Institutional / advocacy perspective at CBF Virginia** — Chris Moore was my original outreach because of CBF VA's vantage on the working-waterfront and on policy / regulatory architecture. Whoever else at CBF VA you'd point me at would be welcome.
 > 3. **Scientific anchors** — already in cold outreach to Rom Lipcius and Roger Mann at VIMS (blue crab and oyster ecology, respectively). I'd defer to your read on whether CBF has stronger or different scientific contacts you'd point me at instead, or whether VIMS-direct is the right path for that layer.
 >
@@ -110,6 +110,23 @@ The response should give him what he needs to do (3) well. That means concrete c
 - **Not mentioning the Maryland thread (DiMarzio / Colden) at all.** RESOLVED 2026-05-06 per author direction. Timing asymmetry: our calibrated response to Val ships 08:00 ET tomorrow; Sherfinski responds today. Surfacing the Maryland thread now risks Sherfinski pinging an unanchored Val whose only reference point is the original outreach, with downstream perception cascade tanking both threads. Defer cross-thread surfacing until Val's calibrated context has landed.
 - **Not asking Sherfinski to evaluate the framework.** This is a routing conversation, not a calibration conversation. The calibration conversation is for whoever Sherfinski routes us to.
 - **Not requesting watermen introductions specifically through Sherfinski.** The three-category framing covers it without making it the entire ask.
+- **Not naming specific people (Eskridge, Everett, Shannon, Poston, Goldsborough).** Decision 2026-05-06 per the forwardability criterion: program names (Port Isobel) and species categories (oyster, clam, blue crab, striped bass, shad, finfish) help Sherfinski route AND help recipients self-identify when forwarded; specific people names *constrain* Sherfinski's routing options and make the forwarded email read pre-selected to recipients. Names get held for subsequent correspondence after Sherfinski's first routing pass surfaces who he can actually reach.
+
+---
+
+## Forwardability design criterion (decision 2026-05-06)
+
+Author flagged 2026-05-06: the email isn't just to Sherfinski; it's also to whoever Sherfinski forwards it to, who'll be reading cold with only a brief endorsement from him. The design needs to work for *both* audiences.
+
+**For Sherfinski (gatekeeper-router):** programs + species categories + regional anchors give him concrete routing inputs without constraining his judgment.
+
+**For forwarded recipients (likely watermen, possibly retired watermen, possibly CBF program staff):**
+- Self-identification trigger: species list lets a clam waterman see "clam" and know they're the right voice; striped-bass charter captain sees "striped bass" and self-identifies; etc.
+- Sufficient context: "renewable-resource case in a framework that's primarily worked on extractive industries (coal, oil, etc.) elsewhere" tells a waterman this isn't a fluff piece; the load-bearing-voice line ("the chapter cannot land without it on the page") tells them they specifically are the right voice.
+- Low-friction response decision: 30-45 minutes, phone/video/in-person, anywhere in VA from Hampton — all explicit.
+- Not academic-register-alienating: "cost severance" named once but the watermen-load-bearing line precedes it; recipient knows lived experience is what's wanted.
+
+This design criterion may inform future thread-reply drafts when comms-team gatekeepers offer to facilitate introductions (Sherfinski model; possibly DiMarzio-via-Colden if watermen introductions materialize there).
 
 ---
 
