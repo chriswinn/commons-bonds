@@ -24,7 +24,7 @@ Vocabulary used by people solving real problems. Not royalties, not prizes, not 
 
 ## Three-book structure
 
-- **Book One — *Commons Bonds*** (active, 2026–2027 target) — framework naming, non-partisan. Publication cascade: Noema (primary) → Boston Review (fallback) → The Atlantic Ideas → further venues. Parallel Berggruen Prize track, 2026-08-17 deadline (AI-free writing).
+- **Book One — *Commons Bonds*** (active, 2026–2027 target) — framework naming, non-partisan. Publication cascade: Noema (primary; original submission withdrawn 2026-05-01 + rewrite under Path B), Aeon (parallel; Mars/universality cut, pitch in author review), Boston Review (fallback) → The Atlantic Ideas → further venues. Parallel Berggruen Prize track, 2026-08-17 deadline (AI-free writing).
 - **Book Two — *The Subsidy Economy*** (notes-only, 2029+ target) — applied / policy / advocacy.
 - **Book Three — *Pricing the Final Frontier*** (notes-only) — off-Earth extraction framework extension.
 
@@ -32,11 +32,11 @@ Vocabulary used by people solving real problems. Not royalties, not prizes, not 
 
 | What you're looking for | Where it lives |
 |---|---|
-| Chapter drafts | [`manuscript/chapters/`](manuscript/chapters/) — Ch 1 + Ch 3 in progress; Ch 2, 4–10 drafted |
+| Chapter drafts | [`manuscript/chapters/`](manuscript/chapters/) — Ch 1 ("The Quiet Math") drafted 2026-05-04; Ch 2, 4–10 drafted; Ch 3 (Watermen / Chesapeake) gated on fieldwork outreach |
 | Mathematical apparatus | [`core/technical-appendix/`](core/technical-appendix/) (HTML) |
 | Glossary | [`core/glossary/`](core/glossary/) (HTML) |
-| Essays | [`manuscript/essay/Noema/`](manuscript/essay/Noema/) (submitted) · [`manuscript/essay/berggruen/`](manuscript/essay/berggruen/) (Berggruen Prize 2026; in progress) |
-| Research foundation | [`research/case-studies/`](research/case-studies/) (17 case studies) · [`research/literature/`](research/literature/) (bibliography + economic-theory reference) |
+| Essays | [`manuscript/essay/Noema/`](manuscript/essay/Noema/) (withdrawn 2026-05-01; rewrite under Path B) · [`manuscript/essay/aeon/`](manuscript/essay/aeon/) (pitch in author review; Mars/universality cut) · [`manuscript/essay/berggruen/`](manuscript/essay/berggruen/) (Berggruen Prize 2026; in progress) |
+| Research foundation | [`research/case-studies/`](research/case-studies/) (17 case studies) · [`research/literature/`](research/literature/) (bibliography incl. §19.5 Chesapeake fieldwork sources) · [`research/outreach/`](research/outreach/) (interview pipeline) |
 
 ## Ten dimensions
 
