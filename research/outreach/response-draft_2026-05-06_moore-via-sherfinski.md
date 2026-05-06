@@ -55,7 +55,7 @@ The response should give him what he needs to do (3) well. That means concrete c
 ## Draft response
 
 **To:** dsherfinski@cbf.org
-**Subject:** Re: [original-outreach subject preserved, or whatever subject Sherfinski's message uses] — see decision point #5
+**Subject:** Re: Reaching out from the Chesapeake Bay Foundation (matches Sherfinski's fresh-thread subject — confirmed 2026-05-06)
 **Salutation:** Dear David (matching his "Dear Chris" opener — per discipline-refinement 2026-05-06)
 
 > Dear David,
@@ -89,7 +89,7 @@ The response should give him what he needs to do (3) well. That means concrete c
 
 4. **AI-disclosure — not repeated.** Per the 2026-05-05 discipline (AI-disclosure first contact only). Sherfinski is reading a forwarded version of the original outreach via Moore, which contained the AI-disclosure paragraph. If he asks, address then. Recommend skip.
 
-5. **Subject line.** Sherfinski's reply may have come in on the original outreach thread (preserves continuity) or as a fresh thread. If original thread: subject is "Re: Interview request — Chesapeake Bay Foundation's Virginia work + a forthcoming book on the Chesapeake fishery and cost severance" (per `interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §17). If fresh thread: match whatever subject Sherfinski used. Author to confirm thread state from inbox.
+5. **Subject line — RESOLVED 2026-05-06: "Re: Reaching out from the Chesapeake Bay Foundation".** Author confirmed Sherfinski's reply landed as a *fresh thread* (not on the original outreach to Moore), with subject "Reaching out from the Chesapeake Bay Foundation." Match the fresh-thread subject. Note for future thread-tracking: this is a separate thread from the Moore cold-outreach (which remains pending direct response from Moore — the comms team intercepted and re-opened in a new thread).
 
 6. **Calibration framing in §"The kind of conversation."** Same register as the Colden response closing. Names *cost severance* once (framework's primary contribution). Doesn't name *residual commons value* — RCV is a layer of specificity that doesn't help Sherfinski's routing decision. Could add if author prefers. Recommend keep tight.
 
