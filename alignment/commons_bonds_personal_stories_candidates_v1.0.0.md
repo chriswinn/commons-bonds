@@ -113,11 +113,18 @@ Framework-mapping analysis lives in chapter GuidanceDocs at integration time, no
 
 ### Candidate #7 — Father scenes (work-advice + meeting-room style + childhood pride-question)
 
-- **Status:** `partial-integration` — Ch 1 opening father-driving-into-Appalachians beat integrated (line 17 area); other beats (work-advice + meeting-room style + pride-question) not yet integrated.
-- **Source:** [`research/story-drafts/ch1_father-scenes_2026-05-01.md`](../research/story-drafts/ch1_father-scenes_2026-05-01.md) — drafted-prose-rough; multiple scenes.
+- **Status:** `integrated` 2026-05-05 — all primary beats now in Ch 1.
+- **Source:** [`research/story-drafts/ch1_father-scenes_2026-05-01.md`](../research/story-drafts/ch1_father-scenes_2026-05-01.md) — drafted-prose-rough source preserved; multiple scenes.
 - **One-line summary:** Father giving work advice; childhood values-check ("would you be proud of the job you did before going to look at it") that prefigures Ch 5's consent-problem passage; meeting-room style of work attention.
-- **Placement:** Ch 1 (six-scene list #4 + #5; Ch 1 spine integration during polish).
-- **Gate flags:** none significant; father private but consent presumed (deceased per Ch 1 implication).
+- **Beat-level integration in Ch 1:**
+  - **Father driving into Appalachians for hunting** (mountains beat / "the best part of any trip is the journey") — ✅ INTEGRATED at line 21
+  - **Father's pride-question** (asking before he came to look at something) — ✅ INTEGRATED at line 43
+  - **Dig-ditches specific anchor** ("even if I decided to dig ditches for a living... I should be able to look at my work and know in my heart that no one had ever done better") — ✅ INTEGRATED at line 41 (added 2026-05-05 per author direction)
+  - **Specific childhood-chore scene** (sweeping dust under rug; sticks under shed; "wait wait wait, let us just do a quick walk through"; running back to fix; standing taller for inspection) — ✅ INTEGRATED at line 47 (added 2026-05-05 per author direction; ~210 words; sister appears as unnamed collaborator)
+  - **Father's meeting-room style** (rooms with captains and admirals; speaking just below room volume) — ✅ INTEGRATED at line 49
+  - **Three-generations-seeing-clearly lineage** (grandfather problem-solver / father problem-namer / Chris framework-articulator) — ✅ INTEGRATED at line 51 ("My grandfather had passed it to him quietly. He passed it to me the same way.")
+- **Placement:** Ch 1 (full integration as of 2026-05-05).
+- **Gate flags:** none significant; father private but consent presumed (deceased per Ch 1 implication). **Sister now appears in Ch 1 (line 47 childhood-chore scene as unnamed collaborator)** — author may want to confirm sister-consent posture for the chore-scene rendering; sister isn't named, but her presence is now in the published-facing chapter draft.
 
 ---
 
