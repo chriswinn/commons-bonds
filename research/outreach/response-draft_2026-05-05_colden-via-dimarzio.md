@@ -8,8 +8,8 @@
 
 ## Context
 
-- **Original outreach:** sent 2026-05-05 to Dr. Allison Colden (CBF Maryland Executive Director) per `interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §18.
-- **Reply received same day** from Valerie ("Val") DiMarzio, who coordinates Allison's speaking and media interviews.
+- **Original outreach:** sent 2026-05-05 at 9:00 AM ET (recipient-timezone) to Dr. Allison Colden (CBF Maryland Executive Director) per `interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §18. Three other Ch 3 fieldwork emails dispatched in the same 9:00 AM recipient-timezone window: Rom Lipcius (VIMS), Roger Mann (VIMS), Chris Moore (CBF Virginia).
+- **Reply received same day** (2026-05-05) from Valerie ("Val") DiMarzio, who coordinates Allison's speaking and media interviews. Same-day reply on a Tuesday cold-outreach is a strong engagement signal — the four-question screen is a yes-conditional-on-fit, not a soft decline.
 - **Val's role:** Maryland Communications & Media Relations Manager, Chesapeake Bay Foundation. Email: `vdimarzio@cbf.org`. Cell: 215-900-5719. Pronouns: she/her.
 - **Val's reply (verbatim):**
 

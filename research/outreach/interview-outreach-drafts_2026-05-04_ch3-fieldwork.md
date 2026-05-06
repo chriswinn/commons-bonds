@@ -4,7 +4,17 @@
 **Drafted:** 2026-05-04 by Claude per author direction.
 **Source for candidate identification:** WebSearch + WebFetch on Chesapeake Bay Foundation + Virginia Institute of Marine Science staff/faculty (2026-05-04).
 **Target send:** Tuesday 2026-05-05 morning, scheduled with the rest of the outreach pipeline (timezone-appropriate per author's location).
-**Status:** drafted; awaiting author review + email-address verification + scheduled-send.
+**Send confirmed:** 2026-05-05 at 9:00 AM in each recipient's timezone (per author confirmation 2026-05-05). All four initial emails dispatched: Lipcius (VIMS), Mann (VIMS), Moore (CBF Virginia), Colden (CBF Maryland).
+**Status:** SENT. Tracking responses below.
+
+### Response tracking
+
+| # | Recipient | Sent | Response status |
+|---|---|---|---|
+| 15 | Rom Lipcius (VIMS) | 2026-05-05 09:00 ET | — |
+| 16 | Roger Mann (VIMS) | 2026-05-05 09:00 ET | — |
+| 17 | Chris Moore (CBF VA) | 2026-05-05 09:00 ET | — |
+| 18 | Allison Colden (CBF MD) | 2026-05-05 09:00 ET | **2026-05-05 same-day reply** via Val DiMarzio (CBF MD Communications & Media Relations Manager) — four-question screen. Reply drafted at [`response-draft_2026-05-05_colden-via-dimarzio.md`](response-draft_2026-05-05_colden-via-dimarzio.md); awaiting author review. |
 
 **Register adaptation note:** these four drafts use the existing master template (see `interview-outreach-drafts_2026-05-01.md`) but with a slightly adapted Para 2 register. The Ch 5 / Ch 9 academic outreach emphasizes theoretical engagement (does my framework extend or repeat your work?). The Ch 3 fieldwork outreach emphasizes the chapter's institutional/scientific-anchor need — the framework needs the Bay's voice represented in Ch 3, and these are the people who can speak to it. Hampton-roots geography is foregrounded (not buried) — Chris's daily-visible Bay context is the access-gate for these requests.
 
