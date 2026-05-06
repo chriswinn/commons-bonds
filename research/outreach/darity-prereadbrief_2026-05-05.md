@@ -25,6 +25,10 @@
 4. **Restitution Bond as reform vehicle.** Could the Restitution Bond instrument carry any portion of the *From Here to Equality* program politically, or does the bond framing dilute the moral case the program rests on?
 5. **Reading recommendations.** What in your work — or others' — would most sharpen the framework's positioning in the literature?
 
+## On attribution
+
+I'd like to quote you in the book and in any derivative essays (a *Noema*-track essay is in development; an *Aeon*-track piece has a separate angle). Scholars handle attribution differently — some prefer freely-quotable interview answers, others prefer that interview material be paraphrased + attributed unless reviewed in advance, others ask for transcript review before any quoting. Whatever works for you, please let me know at the start of our conversation; I'll abide by it across the book and essays.
+
 ---
 
 *~30 minutes is what I'd planned for. I'll defer to whatever fits your day.*
