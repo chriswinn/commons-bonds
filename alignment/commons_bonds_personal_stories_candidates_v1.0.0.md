@@ -34,6 +34,7 @@ Framework-mapping analysis lives in chapter GuidanceDocs at integration time, no
 | `partial-integration` | Some scenes / beats absorbed into chapter prose; source file remains canonical for un-mined content. |
 | `integrated` | Source content fully absorbed into chapter prose at a specific placement. |
 | `relocated` | Moved to Book 2 / Book 3 / other location (not Book 1 publisher-facing). |
+| `out-of-book-1` | Does not fit Book 1 scope/register; source file preserved at `archive/_OneDayMaybe/personal-story-material/` for potential future essay / book use. |
 | `deleted` | Removed from project per author direction. Provenance preserved here only. |
 
 ---
@@ -48,13 +49,19 @@ Framework-mapping analysis lives in chapter GuidanceDocs at integration time, no
 
 ---
 
-### Candidate #2 — Neeraj / "Mirage" (IT mentor + leverage flip)
+### Candidate #2 — Neeraj / "Mirage" (IT mentor + leverage flip) — RELOCATED 2026-05-05 to archive/personal-story-material
 
-- **Status:** `drafted` (raw) — awaiting integration / prose-polish review.
-- **Source:** [`research/story-drafts/ch1_neeraj_2026-05-01.md`](../research/story-drafts/ch1_neeraj_2026-05-01.md)
+- **Status:** `out-of-book-1` — does not fit Ch 1's current relationship-focused register; preserved as source material for potential future essay / book use.
+- **Source:** [`archive/_OneDayMaybe/personal-story-material/neeraj-cross-class-mentor_2026-05-01.md`](../archive/_OneDayMaybe/personal-story-material/neeraj-cross-class-mentor_2026-05-01.md) — relocated 2026-05-05 from `research/story-drafts/ch1_neeraj_2026-05-01.md` per author direction (*"save the '#2 Neeraj/Mirage' material as something for a potential different book/essay as it doesn't seem to fit book 1"*).
 - **One-line summary:** First regular IT job at "Mirage"; cross-class Indian-immigrant mentor (Neeraj) who showed Chris the IT-skill ladder; visa-portability dynamic + cert-economy as rent-extraction (Book 2 seed).
-- **Placement:** Ch 1 (biographical-spine; pairs with #9 IHOP + #3 NASA-CEO arc). Inline Book 2 seed flagged.
-- **Gate flags:** Neeraj real name; consider anonymization or consent-to-name on integration. Mirage company-name identifiability — judgment call at Ch 1 polish.
+- **Verdict:** **NOT earning a Book 1 chapter slot.** Source file kept (not deleted); status `out-of-book-1` explicitly preserves for essay/future-use, not for Book 1 chapter integration.
+- **Possible alternative homes:**
+  - **Aeon pitch** — the Aeon piece (drafted; locked title "The Quiet Math" per 2026-05-04) might benefit from biographical-credibility material if a future revision pass surfaces a need for cross-class / mentor-bridge texture.
+  - **Noema rewrite (Path B)** — the post-withdrawal rewrite (per 2026-05-01 essay-withdrawal commit) needs interview material + biographical re-anchoring without ex-wife content; Neeraj could potentially serve as a cross-class biographical anchor.
+  - **Future essay seed** — preserve as source material for whatever venue surfaces (other publications; podcast appearances; future book chapters in Book 2 / Book 3 if cert-economy + visa-portability themes activate).
+  - **Book 2 (*The Subsidy Economy*) seed** — the visa-portability + cert-economy-as-rent-extraction dynamic is Book 2-flavored applied-advocacy material if/when those themes need biographical grounding.
+- **Gate flags:** Neeraj real name; consider anonymization or consent-to-name when material is used in any specific publication. Mirage company-name identifiability — judgment call at use-time.
+- **Preservation discipline:** source file remains canonical and full per WP#10 + 2026-05-04 source-preservation discipline; available for review before any new essay / book draft to see if biographical material fits.
 
 ---
 
@@ -216,6 +223,16 @@ Author direction: *"go ahead and delete, we decided not to use any part of the e
 ### §3.7 Candidate #9 deletion (2026-05-05)
 
 Author direction: *"delete '#9 IHOP origin' as it doesn't seem useful."* Following the 2026-05-05 candidate placement-and-fit analysis: Ch 1 ("The Quiet Math") chose a relationship-focused register (father / grandfather / son) that doesn't need a career-arc opening beat. Cross-spectrum-credibility function is carried by Ch 7's three-civilization temporal stress-test (Egypt + Qin + feudalism per case-study audit + Ch 1 GuidanceDoc routing) rather than by IHOP-origin biographical anchor. No source file existed (was inline in `publishing/essay-drafts/draft2.md` §VI line 66); deletion takes effect by inventory removal — the draft2.md break-up plan no longer needs to source-file-extract this beat. Third precedent for source-preservation-discipline override (after Candidates #4 + #5).
+
+### §3.8 Candidate #2 relocation (2026-05-05) — `out-of-book-1` status pattern
+
+Author direction: *"save the '#2 Neeraj/Mirage' material as something for a potential different book/essay as it doesn't seem to fit book 1."* Per the 2026-05-05 candidate placement-and-fit analysis: the Neeraj/Mirage story has biographical-credibility value but Ch 1's current relationship-focused register doesn't need it; no other Book 1 chapter scope demands it. **Preserved at full source-preservation discipline** for potential future essay / book use.
+
+Implementation:
+- Source file relocated: `research/story-drafts/ch1_neeraj_2026-05-01.md` → `archive/_OneDayMaybe/personal-story-material/neeraj-cross-class-mentor_2026-05-01.md` (file renamed to drop `ch1_` prefix; signals "not currently routed to a chapter")
+- New subdirectory created: `archive/_OneDayMaybe/personal-story-material/` with README explaining the discipline
+- New status added to candidate index legend: `out-of-book-1` (does not fit Book 1 scope/register; source file preserved for potential future use)
+- This establishes the **out-of-book-1 status pattern** distinct from `relocated` (which means moved to a specific book like Book 2 seed) — `out-of-book-1` is "preserved for any future home" without committing to a specific destination.
 
 ---
 
