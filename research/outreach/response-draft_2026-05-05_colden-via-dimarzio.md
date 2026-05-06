@@ -38,7 +38,7 @@
 >
 > Thanks for the warm reply, and please thank Dr. Colden for routing my note to you. Quick answers to your four questions:
 >
-> **1. Scientific or economic perspective?** Both — but specifically where they meet. Dr. Colden's combination of fisheries-scientist training and her current role engaging the Atlantic States Marine Fisheries Commission and the Maryland Oyster Advisory Commission sits exactly where the chapter's argument lands. The core question I'd hope to engage her on is *where Maryland's regulatory and policy architecture succeeded — or failed — to price what the Bay required to remain a Bay*. That's a science-into-institutions question, and her vantage is the one the chapter most needs.
+> **1. Scientific or economic perspective?** Both — but specifically where they meet. Dr. Colden's combination of fisheries-scientist training and her current vantage on ASMFC and the Maryland Oyster Advisory Commission sits exactly where the chapter's argument lands. Her public record — the "looming disaster" framing on striped bass, the defense of the five large-scale oyster sanctuaries, and the work on the menhaden Bay cap — is closer to the chapter's structural claim than almost anything else in the literature: that the gap between what fisheries science said the Bay could sustain and what regulatory and political processes actually permitted has been opening for decades, and that watermen and the Bay itself have absorbed the cost. The chapter doesn't need her to say something new on the empirical question; it needs her structural read on whether the cost-severance framework names something the existing fisheries-policy vocabulary doesn't, and where it overreaches or underreaches.
 >
 > **2. Connecting Bay fisheries to Soviet industrial planning.** The connection is structural, not ideological — and worth me being clear up front because the framing sounds stranger than it is. The book identifies a pattern I call *cost severance*: extracting value from a commons while transferring the costs onto people, ecosystems, and futures who didn't capture the upside. My claim is that this mechanism is *not* specific to capitalism — feudal lords did it, colonial empires did it, Soviet planners did it (the Aral Sea is the textbook case), and market economies do it now. That cross-system framing is what keeps the book non-partisan; it forecloses both the "this is just an anti-capitalist critique" dismissal and its mirror image. The Chesapeake fishery enters the book as the *renewable-resource* case — distinct from the coal, oil, and Aral cases developed earlier — demonstrating that a renewable resource pushed past regenerative capacity becomes effectively non-renewable, with the costs absorbed by watermen and the Bay itself. So Soviet planning isn't a parallel to the Bay; it's one comparison case in a longer sequence showing the pattern travels across ownership structures. The Bay chapter is about the Bay.
 >
@@ -57,21 +57,25 @@
 
 ## Author review notes / decision points
 
-1. **Aral Sea name-drop in Q2.** Load-bearing concrete example that makes "Soviet industrial planning" land as serious-and-specific rather than ideological. Strip if tonal preference dictates; paragraph works without it.
+1. **Q1 — public-record name-checks.** Q1 now references three specific Colden positions: striped bass "looming disaster" framing, defense of the five oyster sanctuaries, and the menhaden Bay cap. This was a deliberate revision (2026-05-05) after author flagged that the prior version's "what the Bay required to remain a Bay" was vibe-not-substance, and after web research confirmed Colden is heavily on record on all three positions (Congressional testimony 2023, MD legislature SB 922 oyster testimony 2024, ASMFC Nov 2017 motion for the 51,000 MT Bay cap, plus her org's public framing in *"Despite Red Flags, Striped Bass Once Again See No Action From Fisheries Managers"*). The triple-cite signals we've read her record and aren't fishing for a quote — we're asking her to engage at framework level. Decision point: keep all three, drop one, or replace one if author prefers a different anchor.
 
-2. **Q2 length.** Longest of the four answers, deliberately — Q2 is almost certainly Val's actual flag. If author prefers tighter, candidate cuts:
+2. **Aral Sea name-drop in Q2.** Load-bearing concrete example that makes "Soviet industrial planning" land as serious-and-specific rather than ideological. Strip if tonal preference dictates; paragraph works without it.
+
+3. **Q2 length.** Longest of the four answers, deliberately — Q2 is almost certainly Val's actual flag. If author prefers tighter, candidate cuts:
    - Drop the "feudal lords / colonial empires" enumeration and let "Aral Sea" carry the cross-system claim alone.
    - Drop the final sentence ("The Bay chapter is about the Bay.") — adds emphasis but the paragraph already lands the point.
 
-3. **Q3 — invitation for watermen introductions.** Consistent with original outreach §18 closing ("If a conversation isn't possible, even introductions to working or retired Maryland watermen…"). Recommend keeping; Val is exactly positioned to facilitate this even if Allison-direct doesn't materialize.
+4. **Q3 — invitation for watermen introductions.** Consistent with original outreach §18 closing ("If a conversation isn't possible, even introductions to working or retired Maryland watermen…"). Recommend keeping; Val is exactly positioned to facilitate this even if Allison-direct doesn't materialize.
 
-4. **Q4 — essay timeline.** Named "next 2-3 months" for the essay cycle. Adjust if essay timeline has shifted (Noema submission status, Berggruen 2026-08-17 deadline considerations).
+5. **Q4 — essay timeline.** Named "next 2-3 months" for the essay cycle. Adjust if essay timeline has shifted (Noema submission status, Berggruen 2026-08-17 deadline considerations).
 
-5. **Salutation.** "Dear Val" mirrors her sign-off ("Val"). Could go "Dear Ms. DiMarzio" if author prefers a more formal opener for first-contact-with-the-coordinator register.
+6. **Salutation.** "Dear Val" mirrors her sign-off ("Val"). Could go "Dear Ms. DiMarzio" if author prefers a more formal opener for first-contact-with-the-coordinator register.
 
-6. **Offer of one-pager / chapter outline.** Low-cost concession that gives Val/Allison an asynchronous decision aid. Recommend keeping.
+7. **Offer of one-pager / chapter outline.** Low-cost concession that gives Val/Allison an asynchronous decision aid. Recommend keeping.
 
-7. **AI-disclosure.** Original outreach included a paragraph disclosing AI use. Not repeated here on the assumption Val/Allison have already seen it in the original mail. If the author wants it re-surfaced (e.g., out of an abundance of caution given communications-team scrutiny), a single line can be added at the end of the message.
+8. **AI-disclosure.** Original outreach included a paragraph disclosing AI use. Not repeated here on the assumption Val/Allison have already seen it in the original mail. If the author wants it re-surfaced (e.g., out of an abundance of caution given communications-team scrutiny), a single line can be added at the end of the message.
+
+9. **Public-record check pattern — generalizable.** Author flagged 2026-05-05: before any cold outreach asking a public figure to comment on politically-sensitive territory, screen their public record first. If they're not on record, asking them to be the first one to say it is a guaranteed decline. Recommend applying this pass to Lipcius, Mann, and Moore before tomorrow's send window — particularly Moore (CBF Virginia ED, same advocacy register as Colden; should be similarly checkable) and Lipcius/Mann (academics, scientific-record check rather than political-record).
 
 ---
 
