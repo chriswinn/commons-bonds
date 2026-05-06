@@ -60,6 +60,28 @@ Body:
 
 > Your work with A. Kirsten Mullen in *From Here to Equality* is cited as the contemporary landmark of reparations economics in the framework's accountability-architecture chapter, and the Hamilton-Darity-Price-Sridharan-Tippett *Umbrellas Don't Make It Rain* methodology (matched-comparison demonstrating wealth-as-structural-variable) is foundational to the framework's *Restitution Bond* instrument. I'd want to engage your perspective specifically on whether the framework's two-instrument decomposition (Restitution Bond for backward-looking restitution; Foreclosure Bond for forward-looking accountability against ongoing extraction) reads as a useful extension of reparations-economics logic or as a vocabulary-shift that obscures more than it adds. Geographically I'm in Hampton, Virginia, so an in-person meeting at Duke would be feasible if you preferred it to phone or Zoom.
 
+**Sent reply 2026-05-05** (in response to Sandy's same-day acceptance):
+
+**Subject:** Re: Interview request — your reparations-economics work + a forthcoming framework on cost severance
+
+> Dear Professor Darity,
+>
+> Thank you so much — I'm grateful you're open to a conversation, and delighted to make it work around your schedule.
+>
+> For the week of May 10, I have these windows open (all Eastern Time):
+>
+> - **Tuesday, May 12** — available by phone (any time of day; let me know what suits you and I'll lock it in)
+> - **Wednesday, May 13** — available by phone, *or* in person at Duke if you'd prefer to meet face-to-face. I'm in Hampton, Virginia, so the drive down to Durham is straightforward and I'm happy to come to your office.
+>
+> ~30 minutes is what I'd planned for, but I'll defer to whatever fits your day.
+>
+> I'll have a one-page brief with my specific questions ready ahead of our conversation if that would be useful.
+>
+> With appreciation,
+> Chris Winn
+
+**Pre-read brief drafted:** [`darity-prereadbrief_2026-05-05.md`](darity-prereadbrief_2026-05-05.md) — one-page brief (framework summary + citation-location pointers + 5 questions) ready to send once Sandy locks in a date.
+
 ---
 
 ### 3. A. Kirsten Mullen (Artefactual)
