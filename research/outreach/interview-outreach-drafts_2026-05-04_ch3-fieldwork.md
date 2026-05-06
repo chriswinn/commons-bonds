@@ -14,7 +14,7 @@
 | 15 | Rom Lipcius (VIMS) | 2026-05-05 09:00 ET | — |
 | 16 | Roger Mann (VIMS) | 2026-05-05 09:00 ET | — |
 | 17 | Chris Moore (CBF VA) | 2026-05-05 09:00 ET | — |
-| 18 | Allison Colden (CBF MD) | 2026-05-05 09:00 ET | **2026-05-05 same-day reply** via Val DiMarzio (CBF MD Communications & Media Relations Manager) — four-question screen. Reply drafted at [`response-draft_2026-05-05_colden-via-dimarzio.md`](response-draft_2026-05-05_colden-via-dimarzio.md); awaiting author review. |
+| 18 | Allison Colden (CBF MD) | 2026-05-05 09:00 ET | **2026-05-05 same-day reply** via Val DiMarzio (CBF MD Communications & Media Relations Manager) — four-question screen. Reply drafted at [`response-draft_2026-05-05_colden-via-dimarzio.md`](response-draft_2026-05-05_colden-via-dimarzio.md); **author response SCHEDULED FOR SEND 2026-05-06 at 08:00 ET**. Question batch stashed at [`questions-draft_2026-05-05_colden-if-val-accepts.md`](questions-draft_2026-05-05_colden-if-val-accepts.md), contingent on Val accepting the offer. |
 
 **Register adaptation note:** these four drafts use the existing master template (see `interview-outreach-drafts_2026-05-01.md`) but with a slightly adapted Para 2 register. The Ch 5 / Ch 9 academic outreach emphasizes theoretical engagement (does my framework extend or repeat your work?). The Ch 3 fieldwork outreach emphasizes the chapter's institutional/scientific-anchor need — the framework needs the Bay's voice represented in Ch 3, and these are the people who can speak to it. Hampton-roots geography is foregrounded (not buried) — Chris's daily-visible Bay context is the access-gate for these requests.
 
