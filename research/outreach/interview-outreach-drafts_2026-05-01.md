@@ -100,9 +100,59 @@ Body:
 
 ---
 
-### 4. Kate Raworth (Doughnut Economics Action Lab; Oxford / Cambridge) — **DECLINED 2026-05-05** (politely, via EA)
+### 4. Kate Raworth (Doughnut Economics Action Lab; Oxford / Cambridge) — **DECLINED 2026-05-05; Amsterdam Donut intro OFFERED 2026-05-06** (via EA)
 
 **STATUS UPDATE 2026-05-05:** Reply received from Beth Ingledew, Executive Assistant at Doughnut Economics Action Lab. Polite decline citing Kate's capacity constraints + existing commitments. Beth recommended exploring DEAL platform materials at `doughnuteconomics.org` (Amsterdam case studies + broader applications). **Implication for book:** Raworth was being engaged as Pattern 2 register exemplar; the cite itself carries the framework's positioning. The interview would have been a bonus, not essential. No structural impact. **Future action:** mine DEAL platform materials for additional Pattern 2 register substrate per Beth's pointer.
+
+**STATUS UPDATE 2026-05-06:** Beth Ingledew followed up with an unsolicited offer to facilitate an introduction to the Amsterdam Donut team:
+
+> "I have an idea - let me speak with the Amsterdam Donut folks for you, hopefully they'll be able to do an interview.
+>
+> More to follow 🌸☺️
+>
+> Beth Ingledew (she/her)
+> Executive Assistant
+> Doughnut Economics Action Lab, DEAL
+> doughnuteconomics.org"
+
+**Read on the offer:** Beth is going beyond the strict EA gatekeeping role — she has decided the framework is worth helping. This is a meaningful upgrade from "decline + look at our materials" (2026-05-05) to "let me actively facilitate an introduction to the city-implementation team" (2026-05-06). The Amsterdam Donut Coalition's work (since 2020 — Amsterdam was the first major city to officially adopt the Doughnut framework as policy guidance) is one of the most concrete applied implementations of the framework, and a direct interview with the people doing the operational work there would be substantively stronger than the original Kate-Raworth-only ask. The "More to follow" + the flower/smile emojis signal that Beth will write again with concrete next steps (likely an introduction email or contact info).
+
+**Implication for book:** Amsterdam Donut interview would slot into:
+- Noema rewrite plan §VI (NEW Solutions / new-ideas section per cluster γ — currently "Mondragon + Vienna + Ecuador/Whanganui"; Amsterdam Donut is a natural addition or partial swap for Vienna at the European-municipal slot)
+- Ch 9 entering-wedges material ("Mondragon + Vienna + Chattanooga + Alaska Permanent Fund" per rewrite plan; Amsterdam Donut could join)
+- Pattern 2 register exemplar in the book overall (DEAL is in the Pattern 2 family per Insight #9; Amsterdam-as-applied-case is the strongest Pattern 2 demonstration available)
+- Decision: gated on interview outcome — same discipline as Colden / Noema §V third anchor.
+
+**Author response — drafted inline 2026-05-06:**
+
+**To:** Beth Ingledew (existing thread; reply to her latest message)
+**Subject:** Re: [existing thread subject]
+**Salutation:** see decision point #1 below
+
+> Dear Ms. Ingledew,
+>
+> Thank you — that's enormously kind, and I'd be very grateful for the introduction. Amsterdam's implementation is one of the most concrete applied cases the book engages with, and the chance to hear directly from the people doing the work there would land in both the essay and the book.
+>
+> I'll watch for any follow-up from your side. In the meantime, please let them know I'm flexible on format — phone or video work well, and I can work around their calendars.
+>
+> With gratitude,
+> Chris Winn
+
+**Decision points:**
+
+1. **Salutation — formal or informal?** Per the discipline established 2026-05-05 ("formal until they shift first"), default is **"Dear Ms. Ingledew."** Beth has signed both her messages with first name only and used emojis in the second (🌸☺️) — that's stronger informality signaling than Val DiMarzio's first-name sign-off, but still not an *explicit* invitation to downshift ("please call me Beth"). Honest read: borderline case. Conservative: stay formal. Liberal-but-defensible: shift to "Dear Beth" given the warmth she's extending and the fact that this is a thread reply (not first contact). Recommendation: **stay formal** — the discipline is clear, and "Dear Ms. Ingledew" doesn't read cold given the warm thanks language.
+
+2. **Should we propose specifics now, or wait for Beth's "more to follow"?** Beth signaled more is coming. Pre-empting with a list of available times or specific ask language would step on what she's about to send. Recommendation: keep the response brief; just confirm interest + flexibility + gratitude. Wait for her to send the introduction or contact info.
+
+3. **AI-disclosure?** Per discipline established 2026-05-05, AI-disclosure goes in cold-outreach first contact only. This is a thread reply. **No AI-disclosure.**
+
+4. **Send timing.** Same-day reply matches the Beth-warm-engagement signal. Recommendation: send 2026-05-06 within working hours, in parallel with the 08:00 ET Colden response if author prefers a single morning batch.
+
+**Send-trigger conditions:** ready-to-send pending author review of decision point #1 (formality call).
+
+---
+
+**Original outreach materials (preserved for reference):**
 
 **Email address (verify):** Verify via Doughnut Economics Action Lab website (`doughnuteconomics.org`); possibly via Oxford / Cambridge institutional pages.
 
