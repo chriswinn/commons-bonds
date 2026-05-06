@@ -949,6 +949,96 @@ Placeholder for additions as they emerge. Candidate additions:
 
 ---
 
+## 19.5. Chesapeake fieldwork — interview-prospect public record (tentative)
+
+**Status:** TENTATIVE. Sources surfaced 2026-05-05 during the public-record screen on Dr. Allison Colden (CBF Maryland Executive Director) ahead of responding to her communications coordinator's four-question screen (see `research/outreach/response-draft_2026-05-05_colden-via-dimarzio.md`). Listed here so the framework can decide later whether to leverage quotes — either as interview-substrate (if the interview proceeds) or as standalone primary-source citations (if the interview doesn't materialize but the chapter still wants Colden's on-record positions on the page). Not yet promoted to chapter endnotes.
+
+**Promotion criterion:** an entry moves out of "tentative" into a numbered section above when (a) a direct quote from it lands in Ch 3 draft, or (b) Colden's interview transcript supersedes it as the primary substrate. Until then, treat as research-tier.
+
+**Chapter relevance (all entries):** Ch 3 (Watermen / Chesapeake fishery — renewable-past-regeneration).
+
+### Allison Colden public record
+
+#### Colden, Allison, Ph.D. *Written Testimony before the U.S. House Committee on Natural Resources, Subcommittee on Water, Wildlife and Fisheries.* October 18, 2023.
+
+- **Summary:** Formal Congressional testimony in support of bipartisan Bay-restoration legislation including the SEEE Act and habitat-restoration bills. Frames Bay restoration as a long-running bipartisan effort; positions NCBO (NOAA Chesapeake Bay Office) as load-bearing institutional infrastructure.
+- **Relevance:** Establishes Colden's voice in formal Congressional record; useful as the institutional-bipartisanship anchor for Ch 3's framing of cost severance as cross-partisan rather than partisan.
+- **Status:** TENTATIVE.
+- **Available at:** https://www.congress.gov/118/meeting/house/116440/witnesses/HHRG-118-II13-Wstate-ColdenA-20231018.pdf
+
+#### Colden, Allison. *Written Testimony on Senate Bill 922 (oyster sanctuary protections), Position: UNF (Unfavorable).* Maryland General Assembly, Education, Energy, and the Environment Committee, February 27, 2024.
+
+- **Summary:** Testifies in opposition to SB 922, which would have removed protections from Maryland's oyster sanctuaries. Documents that Tangier Sound, St. Mary's River, and the Patuxent River have experienced "5 years or more of unsustainable harvest." Argues sanctuary protections are premature to remove.
+- **Relevance:** **LOAD-BEARING.** This is the testimony whose specific phrase ("5 years or more of unsustainable harvest") would directly anchor the Ch 3 argument that regulatory architecture has knowingly permitted harvest past regenerative capacity. Quotable as-is. Tangier specifically connects to the chapter's intended waterman-voice anchor (Tangier and Smith Island).
+- **Status:** TENTATIVE.
+- **Available at:** https://mgaleg.maryland.gov/cmte_testimony/2024/eee/21309_02272024_9484-288.pdf
+
+#### Chesapeake Bay Foundation. "Despite Red Flags, Striped Bass Once Again See No Action From Fisheries Managers." CBF news, 2024 (under Colden's leadership).
+
+- **Summary:** CBF organizational framing of ASMFC inaction on striped bass conservation despite scientific red flags. The headline itself frames the gap between fisheries science and regulatory action.
+- **Relevance:** **LOAD-BEARING.** The headline *is* the chapter's structural claim. Quotable as the institutional voice naming the science-vs-regulation gap from inside the policy-advocacy world. Strongest single-source evidence that Colden's organization is on record with the framework's central empirical claim.
+- **Status:** TENTATIVE.
+- **Available at:** https://www.cbf.org/news/despite-red-flags-striped-bass-once-again-see-no-action-from-fisheries-managers/
+
+#### Chesapeake Bay Foundation. "Striped Bass Fishery Plan Aims to Address Looming Crisis." CBF news, 2025.
+
+- **Summary:** CBF/Colden framing of striped bass population trajectory as a "looming crisis"; documents the policy-instrument response and remaining gaps. Quote attributed to Colden: "Maryland's striped bass surveys have made it clear — we're facing a looming disaster. Without action now, the Chesapeake Bay won't have a striped bass fishery in the future. Additional regulations will have real impacts, but they pale in comparison to the threat of continued striped bass decline. ASMFC must err on the side of conservation."
+- **Relevance:** Direct quote source for Colden's "looming disaster" framing referenced in the Q1 paragraph of the response draft. Quotable. The "ASMFC must err on the side of conservation" line is itself a precautionary-principle articulation aligning with Section 18.8 (Rio Declaration / Asymmetric Regret Rule).
+- **Status:** TENTATIVE.
+- **Available at:** https://www.cbf.org/news-media/newsroom/2025/all/striped-bass-fishery-plan-aims-to-address-looming-crisis.html
+
+#### Chesapeake Bay Foundation. "Striped Bass Continue to Struggle in Chesapeake Bay." CBF news.
+
+- **Summary:** CBF organizational framing of striped bass population struggles; supplementary to the "Looming Crisis" and "Despite Red Flags" pieces.
+- **Relevance:** Background context; less load-bearing than the two pieces above.
+- **Status:** TENTATIVE.
+- **Available at:** https://www.cbf.org/news/striped-bass-continue-to-struggle-in-chesapeake-bay/
+
+#### Mosbrucker, Kristen, et al. "Fisheries commission again holds fire on striped bass limits." *Bay Journal.*
+
+- **Summary:** Third-party (Bay Journal) reporting on ASMFC's repeated decisions not to tighten striped bass limits despite scientific concern. Includes Colden quote: "there are very few levers left to pull" beyond catch restrictions.
+- **Relevance:** Independent journalism corroborating CBF's organizational framing; useful as a non-CBF-sourced citation if the chapter wants triangulated evidence. The "very few levers left" framing is a bluntness Colden doesn't use in CBF organizational copy — quotable for chapter texture.
+- **Status:** TENTATIVE.
+- **Available at:** https://www.bayjournal.com/news/fisheries/fisheries-commission-again-holds-fire-on-striped-bass-limits/article_57128cbd-759c-4554-9110-e53a972585ae.html
+
+### Institutional / biographical context
+
+#### Chesapeake Bay Foundation. "Allison Colden Named Chesapeake Bay Foundation's Maryland Executive Director." CBF newsroom, 2023.
+
+- **Summary:** Announcement of Colden's appointment as Maryland ED in 2023; documents her path from Maryland Senior Fisheries Scientist (six years at CBF prior) into the executive role; notes her PhD (VIMS marine sciences, 2015), Knauss Marine Policy Fellowship in the U.S. House, and prior senior-manager role at Restore America's Estuaries; documents her appointments to ASMFC (Maryland legislative representative) and the Maryland Oyster Advisory Commission.
+- **Relevance:** Biographical anchor — establishes the dual scientist/policy credential the Q1 response paragraph references.
+- **Status:** TENTATIVE.
+- **Available at:** https://www.cbf.org/news-media/newsroom/2023/maryland/allison-colden-named-chesapeake-bay-foundations-maryland-executive-director.html
+
+#### Chesapeake Bay Foundation. "Allison Colden, Ph.D." CBF team page.
+
+- **Summary:** Current biographical / role page.
+- **Relevance:** Citation anchor for current role / current biographical detail.
+- **Status:** TENTATIVE.
+- **Available at:** https://www.cbf.org/team/allison-colden-ph-d/
+
+#### Maryland Department of Natural Resources. "Oyster Advisory Commission." DNR Fisheries.
+
+- **Summary:** Institutional documentation of the Maryland Oyster Advisory Commission, its membership, and its advisory role to DNR on oyster management policy.
+- **Relevance:** Institutional context for Colden's seat on the OAC; useful if Ch 3 wants to document the regulatory-advisory architecture itself rather than only Colden's voice within it.
+- **Status:** TENTATIVE.
+- **Available at:** https://dnr.maryland.gov/fisheries/Pages/mgmt-committees/oac-index.aspx
+
+### Additional public-record items surfaced (not yet retrieved in detail)
+
+The 2026-05-05 search also surfaced the following Colden public-record items, listed here as breadcrumbs for fuller engagement if Ch 3 needs them:
+
+- **SB 434 (2023) testimony** — `https://mgaleg.maryland.gov/cmte_testimony/2023/eee/15203_03012023_15310-427.pdf` (Position: FAV)
+- **SB 317 (2024) testimony** — opposed; commercial fishing authorizations / suspensions / revocations
+- **SB 53 (2025) testimony** — `https://mgaleg.maryland.gov/cmte_testimony/2025/eee/25162_02032025_92613-754.pdf` (Position: UNF)
+- **2025 ENT testimony** — `https://mgaleg.maryland.gov/cmte_testimony/2025/ent/25274_04072025_144018-427.pdf` (Position: FAV)
+- **CBF facebook video, "BTS with Allison Colden: WOW Legislative Hearing Prep"** — behind-the-scenes preparation for legislative testimony; useful for chapter texture if the chapter wants the human-process register of advocacy work.
+- **CBF Virginia / Chris Moore parallel record** — not yet screened; should be screened ahead of the Moore outreach send (per response-draft decision point #9).
+- **VIMS faculty pages for Lipcius / Mann** — public scholarly record (papers, datasets) rather than political record; different screening discipline.
+- **ASMFC menhaden Bay cap (51,000 MT, November 2017)** — Colden made the original motion; documented in CBF and third-party reporting. Source for the "menhaden Bay cap" reference in the Q1 response paragraph; consolidate citation when retrieved.
+
+---
+
 ## 20. Primary documents — Author's Note (family record)
 
 These two NASA patent records are cited in the Author's Note ("On Wind Tunnels and AI") to support the author's family-history claims about his grandfather's NASA Langley work. They are primary historical documents (USPTO patent record + NASA Tech Transfer disclosure), not scholarly literature engaged with by the framework, and are listed here separately to support reader verification. The patent record lists him as Lavern E. Winn; he filed under the initialed form "L. E. Winn" on application paperwork, which complicated initial retrieval. Both records were verified via patent-database searches in May 2026.

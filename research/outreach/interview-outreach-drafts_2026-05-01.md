@@ -32,7 +32,9 @@ Body:
 
 ## Per-recipient customizations
 
-### 1. Mariana Mazzucato (UCL Institute for Innovation and Public Purpose)
+### 1. Mariana Mazzucato (UCL Institute for Innovation and Public Purpose) — **PENDING REVIEW 2026-05-06** (holding response via Office of Prof. Mazzucato)
+
+**STATUS UPDATE 2026-05-06:** Holding response received from **Adam Albrecht (Office of Prof. Mazzucato, UCL IIPP)**: *"Thank you for your message to Professor Mazzucato. We will review the request alongside other commitments and get back to you shortly."* Office address on file: 11 Montague Street, London, WC1B 5BP. No action required from us — wait for the substantive follow-up. Standard academic-EA holding-response register; this is neither acceptance nor decline. **Gatekeeper note:** Adam Albrecht is the routing path for any future correspondence; preserve his name + role in the thread. **Implications if accepted:** Mazzucato is the value-creation / value-extraction landmark cite for the framework's positioning; the framework's *cost severance* terminology is presented as a precision-add on her value-extraction vocabulary (Q from cold-outreach Para 2). Highest-leverage engagement question is whether *cost severance* adds analytical work she hasn't already covered under different vocabulary. Pattern 2 register exemplar (alongside Raworth, who declined; *Mission Economy* + *Doughnut Economics* are the two cleanest Pattern 2 demonstrations in the live literature).
 
 **Email address (verify):** Likely `m.mazzucato@ucl.ac.uk` per UCL public directory; verify on UCL IIPP page.
 
@@ -46,7 +48,9 @@ Body:
 
 ---
 
-### 2. William Darity Jr. (Duke; Sanford School of Public Policy)
+### 2. William Darity Jr. (Duke; Sanford School of Public Policy) — **ACCEPTED 2026-05-05 · REPLY SCHEDULED 2026-05-06 08:00 ET** (scheduling in progress for week of May 10)
+
+**STATUS UPDATE 2026-05-05:** Positive reply received from Professor Darity (signs "Sandy"): *"Dear Chris Winn, I will be glad to chat. Would you please share some possible times with me next week, the week of the 10th of May? All best wishes, William Darity ('Sandy')"*. Chris's availability for the week of May 10: **phone Tuesday May 12 or Wednesday May 13; in-person at Duke feasible Wednesday May 13** (Hampton, VA → Durham, NC drive). Reply prepared offering those windows + in-person Wednesday option. **Implication for book:** Darity is the contemporary-landmark cite for reparations-economics in the accountability-architecture chapter; *Umbrellas Don't Make It Rain* methodology is foundational to the *Restitution Bond* instrument. A live conversation is high-value for two-instrument decomposition (Restitution Bond / Foreclosure Bond) validation. **Mullen path deferred (decision 2026-05-05):** Chris's call — ask Sandy for a Mullen warm intro at the end of the interview if the conversation goes well, rather than loading the scheduling reply with a second ask. Mullen Gmail draft remains held per original Candidate #3 plan; revisit after Darity interview.
 
 **Email address (verify):** Likely `william.darity@duke.edu` per Duke public directory; verify on Sanford School page.
 
@@ -57,6 +61,28 @@ Body:
 **Para 2:**
 
 > Your work with A. Kirsten Mullen in *From Here to Equality* is cited as the contemporary landmark of reparations economics in the framework's accountability-architecture chapter, and the Hamilton-Darity-Price-Sridharan-Tippett *Umbrellas Don't Make It Rain* methodology (matched-comparison demonstrating wealth-as-structural-variable) is foundational to the framework's *Restitution Bond* instrument. I'd want to engage your perspective specifically on whether the framework's two-instrument decomposition (Restitution Bond for backward-looking restitution; Foreclosure Bond for forward-looking accountability against ongoing extraction) reads as a useful extension of reparations-economics logic or as a vocabulary-shift that obscures more than it adds. Geographically I'm in Hampton, Virginia, so an in-person meeting at Duke would be feasible if you preferred it to phone or Zoom.
+
+**Sent reply — scheduled-send 2026-05-06 08:00 ET** (drafted 2026-05-05 in response to Sandy's same-day acceptance; queued for Wednesday morning send):
+
+**Subject:** Re: Interview request — your reparations-economics work + a forthcoming framework on cost severance
+
+> Dear Professor Darity,
+>
+> Thank you so much — I'm grateful you're open to a conversation, and delighted to make it work around your schedule.
+>
+> For the week of May 10, I have these windows open (all Eastern Time):
+>
+> - **Tuesday, May 12** — available by phone (any time of day; let me know what suits you and I'll lock it in)
+> - **Wednesday, May 13** — available by phone, *or* in person at Duke if you'd prefer to meet face-to-face. I'm in Hampton, Virginia, so the drive down to Durham is straightforward and I'm happy to come to your office.
+>
+> ~30 minutes is what I'd planned for, but I'll defer to whatever fits your day.
+>
+> I'll have a one-page brief with my specific questions ready ahead of our conversation if that would be useful.
+>
+> With appreciation,
+> Chris Winn
+
+**Pre-read brief drafted:** [`darity-prereadbrief_2026-05-05.md`](darity-prereadbrief_2026-05-05.md) — one-page brief (framework summary + citation-location pointers + 5 questions) ready to send once Sandy locks in a date.
 
 ---
 
@@ -74,9 +100,81 @@ Body:
 
 ---
 
-### 4. Kate Raworth (Doughnut Economics Action Lab; Oxford / Cambridge) — **DECLINED 2026-05-05** (politely, via EA)
+### 4. Kate Raworth (Doughnut Economics Action Lab; Oxford / Cambridge) — **DECLINED 2026-05-05; Amsterdam Donut intro OFFERED 2026-05-06** (via EA)
 
 **STATUS UPDATE 2026-05-05:** Reply received from Beth Ingledew, Executive Assistant at Doughnut Economics Action Lab. Polite decline citing Kate's capacity constraints + existing commitments. Beth recommended exploring DEAL platform materials at `doughnuteconomics.org` (Amsterdam case studies + broader applications). **Implication for book:** Raworth was being engaged as Pattern 2 register exemplar; the cite itself carries the framework's positioning. The interview would have been a bonus, not essential. No structural impact. **Future action:** mine DEAL platform materials for additional Pattern 2 register substrate per Beth's pointer.
+
+**Verbatim 2026-05-05 decline message:**
+
+> Dear Chris,
+>
+> Thanks for your thoughtful message and for sharing your work.
+>
+> I'm afraid Kate is completely slammed atm and unable to take on interviews or advisory conversations due to ongoing capacity constraints and existing commitments.
+>
+> Your framing and the ideas you're developing sound carefully considered, and while she won't be able to engage directly, you may find it helpful to explore existing materials from the DEAL teams platform, which cover the Doughnut framework and its applications in different contexts, including Amsterdam.
+>
+> Wishing you the best with your book and forthcoming essay.
+>
+> Warmest,
+> Beth
+>
+> Beth Ingledew (she/her)
+> Executive Assistant
+> Doughnut Economics Action Lab, DEAL
+> doughnuteconomics.org
+
+*(Contact-form auto-footer that accompanied the message: "Name: Chris Winn / Email: chriswinn@gmail.com / Sent: May 02, 2026 01:28 / Category: Press & Interviews" — the "Sent" timestamp reflects the original outreach submission via the DEAL contact form, not Beth's reply timestamp.)*
+
+**STATUS UPDATE 2026-05-06:** Beth Ingledew followed up with an unsolicited offer to facilitate an introduction to the Amsterdam Donut team:
+
+> "I have an idea - let me speak with the Amsterdam Donut folks for you, hopefully they'll be able to do an interview.
+>
+> More to follow 🌸☺️
+>
+> Beth Ingledew (she/her)
+> Executive Assistant
+> Doughnut Economics Action Lab, DEAL
+> doughnuteconomics.org"
+
+**Read on the offer:** Beth is going beyond the strict EA gatekeeping role — she has decided the framework is worth helping. This is a meaningful upgrade from "decline + look at our materials" (2026-05-05) to "let me actively facilitate an introduction to the city-implementation team" (2026-05-06). The Amsterdam Donut Coalition's work (since 2020 — Amsterdam was the first major city to officially adopt the Doughnut framework as policy guidance) is one of the most concrete applied implementations of the framework, and a direct interview with the people doing the operational work there would be substantively stronger than the original Kate-Raworth-only ask. The "More to follow" + the flower/smile emojis signal that Beth will write again with concrete next steps (likely an introduction email or contact info).
+
+**Implication for book:** Amsterdam Donut interview would slot into:
+- Noema rewrite plan §VI (NEW Solutions / new-ideas section per cluster γ — currently "Mondragon + Vienna + Ecuador/Whanganui"; Amsterdam Donut is a natural addition or partial swap for Vienna at the European-municipal slot)
+- Ch 9 entering-wedges material ("Mondragon + Vienna + Chattanooga + Alaska Permanent Fund" per rewrite plan; Amsterdam Donut could join)
+- Pattern 2 register exemplar in the book overall (DEAL is in the Pattern 2 family per Insight #9; Amsterdam-as-applied-case is the strongest Pattern 2 demonstration available)
+- Decision: gated on interview outcome — same discipline as Colden / Noema §V third anchor.
+
+**Author response — APPROVED FOR SEND 2026-05-06:**
+
+**To:** Beth Ingledew (existing thread; reply to her latest message)
+**Subject:** Re: [existing thread subject]
+**Salutation:** Dear Beth (matching her opener — see decision point #1 below)
+
+> Dear Beth,
+>
+> Thank you — that's enormously kind, and I'd be very grateful for the introduction. Amsterdam's implementation is one of the most concrete applied cases the book engages with, and the chance to hear directly from the people doing the work there would land in both the essay and the book.
+>
+> I'll watch for any follow-up from your side. In the meantime, please let them know I'm flexible on format — phone or video work well, and I can work around their calendars.
+>
+> With gratitude,
+> Chris Winn
+
+**Decision points:**
+
+1. **Salutation — RESOLVED 2026-05-06: "Dear Beth."** Author flagged that Beth's *original* (2026-05-05 decline) message opened with "Dear Chris" — that's an explicit shift to first-name register on her side, not merely self-presentation in her sign-off. Matching with "Dear Beth" is the discipline-correct call, not the liberal alternative. **Refinement to the formality discipline (established 2026-05-05):** the explicit-shift signal can come from either (a) the recipient's *opener* (e.g., "Dear Chris") OR (b) an explicit invitation ("please call me Beth"). Sign-off-only with first name (Val DiMarzio's pattern) is still self-presentation, not a shift. Opener-with-first-name (Beth's pattern) is a shift. Match the recipient's opener register on the next reply.
+
+2. **Should we propose specifics now, or wait for Beth's "more to follow"?** RESOLVED: keep brief; just confirm interest + flexibility + gratitude. Beth signaled more is coming. Pre-empting with times or specific ask language would step on her workflow.
+
+3. **AI-disclosure?** RESOLVED: no AI-disclosure (thread reply, per discipline established 2026-05-05).
+
+4. **Send timing.** Author authorized send 2026-05-06; recommend within Beth's working hours today (UK timezone) to match the warm-engagement signal. Could batch with the Colden 08:00 ET send if author prefers a single morning batch, but Beth's message arriving today suggests same-day-back is preferable to tomorrow-morning-back.
+
+**Send-trigger conditions:** APPROVED FOR SEND. Author confirmed 2026-05-06: send the response as written (with "Dear Beth" salutation).
+
+---
+
+**Original outreach materials (preserved for reference):**
 
 **Email address (verify):** Verify via Doughnut Economics Action Lab website (`doughnuteconomics.org`); possibly via Oxford / Cambridge institutional pages.
 
