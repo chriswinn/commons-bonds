@@ -123,13 +123,13 @@ Body:
 - Pattern 2 register exemplar in the book overall (DEAL is in the Pattern 2 family per Insight #9; Amsterdam-as-applied-case is the strongest Pattern 2 demonstration available)
 - Decision: gated on interview outcome — same discipline as Colden / Noema §V third anchor.
 
-**Author response — drafted inline 2026-05-06:**
+**Author response — APPROVED FOR SEND 2026-05-06:**
 
 **To:** Beth Ingledew (existing thread; reply to her latest message)
 **Subject:** Re: [existing thread subject]
-**Salutation:** see decision point #1 below
+**Salutation:** Dear Beth (matching her opener — see decision point #1 below)
 
-> Dear Ms. Ingledew,
+> Dear Beth,
 >
 > Thank you — that's enormously kind, and I'd be very grateful for the introduction. Amsterdam's implementation is one of the most concrete applied cases the book engages with, and the chance to hear directly from the people doing the work there would land in both the essay and the book.
 >
@@ -140,15 +140,15 @@ Body:
 
 **Decision points:**
 
-1. **Salutation — formal or informal?** Per the discipline established 2026-05-05 ("formal until they shift first"), default is **"Dear Ms. Ingledew."** Beth has signed both her messages with first name only and used emojis in the second (🌸☺️) — that's stronger informality signaling than Val DiMarzio's first-name sign-off, but still not an *explicit* invitation to downshift ("please call me Beth"). Honest read: borderline case. Conservative: stay formal. Liberal-but-defensible: shift to "Dear Beth" given the warmth she's extending and the fact that this is a thread reply (not first contact). Recommendation: **stay formal** — the discipline is clear, and "Dear Ms. Ingledew" doesn't read cold given the warm thanks language.
+1. **Salutation — RESOLVED 2026-05-06: "Dear Beth."** Author flagged that Beth's *original* (2026-05-05 decline) message opened with "Dear Chris" — that's an explicit shift to first-name register on her side, not merely self-presentation in her sign-off. Matching with "Dear Beth" is the discipline-correct call, not the liberal alternative. **Refinement to the formality discipline (established 2026-05-05):** the explicit-shift signal can come from either (a) the recipient's *opener* (e.g., "Dear Chris") OR (b) an explicit invitation ("please call me Beth"). Sign-off-only with first name (Val DiMarzio's pattern) is still self-presentation, not a shift. Opener-with-first-name (Beth's pattern) is a shift. Match the recipient's opener register on the next reply.
 
-2. **Should we propose specifics now, or wait for Beth's "more to follow"?** Beth signaled more is coming. Pre-empting with a list of available times or specific ask language would step on what she's about to send. Recommendation: keep the response brief; just confirm interest + flexibility + gratitude. Wait for her to send the introduction or contact info.
+2. **Should we propose specifics now, or wait for Beth's "more to follow"?** RESOLVED: keep brief; just confirm interest + flexibility + gratitude. Beth signaled more is coming. Pre-empting with times or specific ask language would step on her workflow.
 
-3. **AI-disclosure?** Per discipline established 2026-05-05, AI-disclosure goes in cold-outreach first contact only. This is a thread reply. **No AI-disclosure.**
+3. **AI-disclosure?** RESOLVED: no AI-disclosure (thread reply, per discipline established 2026-05-05).
 
-4. **Send timing.** Same-day reply matches the Beth-warm-engagement signal. Recommendation: send 2026-05-06 within working hours, in parallel with the 08:00 ET Colden response if author prefers a single morning batch.
+4. **Send timing.** Author authorized send 2026-05-06; recommend within Beth's working hours today (UK timezone) to match the warm-engagement signal. Could batch with the Colden 08:00 ET send if author prefers a single morning batch, but Beth's message arriving today suggests same-day-back is preferable to tomorrow-morning-back.
 
-**Send-trigger conditions:** ready-to-send pending author review of decision point #1 (formality call).
+**Send-trigger conditions:** APPROVED FOR SEND. Author confirmed 2026-05-06: send the response as written (with "Dear Beth" salutation).
 
 ---
 
