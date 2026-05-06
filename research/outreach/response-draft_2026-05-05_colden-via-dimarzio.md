@@ -75,7 +75,7 @@
 
 2. **If Val accepts the offer of advance questions.** RESOLVED to ready-state: 7-question batch stashed at [`questions-draft_2026-05-05_colden-if-val-accepts.md`](questions-draft_2026-05-05_colden-if-val-accepts.md), send-trigger conditions documented. Author review still open (reorder, trim Q6, RCV mention).
 
-3. **Whether to add Colden as a third Noema §V anchor.** Substantive book/essay strategy decision (not just outreach). Per `manuscript/essay/Noema/rewrite-plan_2026-05-01.md`, current ratified anchors for the rewrite are Mazzucato + Darity Jr.; Colden would be a third voice grounding the accountability-failure pattern in a renewable-resource case. Weight if added: ~150-250 words in Section V (5-7% of essay). Decision deferred to a future session.
+3. **Whether to add Colden as a third Noema §V anchor — GATED on interview outcome.** Author confirmed 2026-05-05: this decision cannot be made until we know whether the Colden interview proceeds. Per `manuscript/essay/Noema/rewrite-plan_2026-05-01.md`, current ratified anchors for the rewrite are Mazzucato + Darity Jr.; Colden would be a third voice grounding the accountability-failure pattern in a renewable-resource case. Weight if added: ~150-250 words in Section V (5-7% of essay). Sequencing: revisit only after interview-outcome state is known (interview-confirmed, interview-declined, or no-response → soft decline).
 
 ### Generalizable lessons surfaced this session
 
