@@ -104,6 +104,28 @@ Body:
 
 **STATUS UPDATE 2026-05-05:** Reply received from Beth Ingledew, Executive Assistant at Doughnut Economics Action Lab. Polite decline citing Kate's capacity constraints + existing commitments. Beth recommended exploring DEAL platform materials at `doughnuteconomics.org` (Amsterdam case studies + broader applications). **Implication for book:** Raworth was being engaged as Pattern 2 register exemplar; the cite itself carries the framework's positioning. The interview would have been a bonus, not essential. No structural impact. **Future action:** mine DEAL platform materials for additional Pattern 2 register substrate per Beth's pointer.
 
+**Verbatim 2026-05-05 decline message:**
+
+> Dear Chris,
+>
+> Thanks for your thoughtful message and for sharing your work.
+>
+> I'm afraid Kate is completely slammed atm and unable to take on interviews or advisory conversations due to ongoing capacity constraints and existing commitments.
+>
+> Your framing and the ideas you're developing sound carefully considered, and while she won't be able to engage directly, you may find it helpful to explore existing materials from the DEAL teams platform, which cover the Doughnut framework and its applications in different contexts, including Amsterdam.
+>
+> Wishing you the best with your book and forthcoming essay.
+>
+> Warmest,
+> Beth
+>
+> Beth Ingledew (she/her)
+> Executive Assistant
+> Doughnut Economics Action Lab, DEAL
+> doughnuteconomics.org
+
+*(Contact-form auto-footer that accompanied the message: "Name: Chris Winn / Email: chriswinn@gmail.com / Sent: May 02, 2026 01:28 / Category: Press & Interviews" — the "Sent" timestamp reflects the original outreach submission via the DEAL contact form, not Beth's reply timestamp.)*
+
 **STATUS UPDATE 2026-05-06:** Beth Ingledew followed up with an unsolicited offer to facilitate an introduction to the Amsterdam Donut team:
 
 > "I have an idea - let me speak with the Amsterdam Donut folks for you, hopefully they'll be able to do an interview.
