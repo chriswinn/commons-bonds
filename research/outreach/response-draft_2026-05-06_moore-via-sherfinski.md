@@ -72,8 +72,6 @@ The response should give him what he needs to do (3) well. That means concrete c
 >
 > **The kind of conversation.** Closer to a calibration conversation than a quote-mining one. The framework — I call it *cost severance* — is doing analytical work on territory CBF has been on the record about for decades; what I'd most want from a conversation is whether the framework's vocabulary names something the existing fisheries-policy vocabulary doesn't, where it overreaches or underreaches, and the lived / institutional substrate to ground the chapter. Whoever you route me to, the time-ask is ~30-45 minutes — phone, video, or in-person. I'm in Hampton, so anywhere in Virginia is straightforward.
 >
-> **One thing for context.** I have a parallel thread running on the Maryland side of CBF, so if any of that crosses your radar, you'll know what it is. The Virginia and Maryland threads are intentionally separate — different institutional vantages, complementary rather than redundant.
->
 > Happy to send a one-page framework summary or a chapter outline if either would be useful for your routing decisions. And thank you again — having someone on the inside thinking about who I should actually be talking to is more help than I knew to ask for.
 >
 > With gratitude,
@@ -87,7 +85,7 @@ The response should give him what he needs to do (3) well. That means concrete c
 
 2. **Three-category structure.** Watermen / CBF VA institutional / scientific. Each category has a concrete ask. Sherfinski can route any subset he has access to. Recommend keep all three; trim if author wants tighter.
 
-3. **Parallel-thread disclosure ("the Maryland side of CBF").** Names the thread without naming Val DiMarzio or Allison Colden specifically. Pre-empts surprise if Sherfinski talks to DiMarzio. Decision: name names or stay generic? Recommend stay generic for now — names give DiMarzio's separate handling no protection from VA-side scrutiny if it's not yet ratified by Maryland. Sherfinski can ask for specifics if he wants.
+3. **Parallel-thread disclosure — RESOLVED 2026-05-06: STRIP entirely.** Author flagged the timing asymmetry: our calibrated response to Val DiMarzio ships 08:00 ET 2026-05-07 (tomorrow); Sherfinski's response goes out today. If Sherfinski pings the Maryland side before Val sees our refined framing, Val's only reference point is the original outreach + the four-question screen she sent — and Sherfinski could end up talking to a Val whose perception isn't yet anchored. The cascade tanks both threads. **The transparency argument is only valuable when the other side has settled context to corroborate.** Right now, Maryland-side context is *in flight*, not settled. Pre-emptive transparency creates exactly the failure mode it was meant to prevent. Strip the entire "One thing for context" paragraph. If Sherfinski later discovers the MD thread (via routine CBF coordination), address then with full context. **Generalizable lesson:** before naming a parallel thread to a third party, verify that the parallel thread has already received your settled framing. If your refined response is in flight on the other side, defer cross-thread surfacing until it lands.
 
 4. **AI-disclosure — not repeated.** Per the 2026-05-05 discipline (AI-disclosure first contact only). Sherfinski is reading a forwarded version of the original outreach via Moore, which contained the AI-disclosure paragraph. If he asks, address then. Recommend skip.
 
@@ -109,7 +107,7 @@ The response should give him what he needs to do (3) well. That means concrete c
 
 - **Not defending the Soviet-planning framing.** Sherfinski didn't ask; volunteering would raise unnecessary concern.
 - **Not pitching the framework's full contribution set.** *Cost severance* named once; RCV omitted; cross-system framing absent. He doesn't need this to route.
-- **Not naming Val DiMarzio or Allison Colden.** The Maryland thread is acknowledged at category level only.
+- **Not mentioning the Maryland thread (DiMarzio / Colden) at all.** RESOLVED 2026-05-06 per author direction. Timing asymmetry: our calibrated response to Val ships 08:00 ET tomorrow; Sherfinski responds today. Surfacing the Maryland thread now risks Sherfinski pinging an unanchored Val whose only reference point is the original outreach, with downstream perception cascade tanking both threads. Defer cross-thread surfacing until Val's calibrated context has landed.
 - **Not asking Sherfinski to evaluate the framework.** This is a routing conversation, not a calibration conversation. The calibration conversation is for whoever Sherfinski routes us to.
 - **Not requesting watermen introductions specifically through Sherfinski.** The three-category framing covers it without making it the entire ask.
 
