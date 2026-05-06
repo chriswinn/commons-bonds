@@ -65,6 +65,7 @@
 - **Q2 — chapter localization / career-protection.** EXPANDED. Author flagged 2026-05-05 that any framing aligning Colden's work with Soviet/socialist patterns would be career-toxic and trigger decline. Two-sentence expansion added to wall off comparison cases from her chapter ("The comparison cases live in earlier chapters where the framework is built; the Bay chapter is the framework's renewable-resource demonstration on its own terms…"). Closing tautology preserved. A proposed alternative rewrite that named the menhaden Bay cap as a within-Bay structural parallel to the Aral Sea was rejected for the same career-protection reason — even when the structural parallel is intellectually defensible, putting it in correspondence with CBF would be operationally toxic for her.
 - **Q3 — graceful-out for routing through CBF community-engagement staff.** ADDED. Colden is a science-into-policy figure, not a community-organizer-with-watermen. The added line ("I recognize watermen relationships may sit with CBF's community-engagement or working-waterfront staff rather than with Dr. Colden personally…") gives her a low-friction path to redirect rather than feel pressured to deliver something outside her lane.
 - **Closing — calibrate-not-extract framing + offer of advance questions.** EXPANDED. Original single-line one-pager offer replaced with explicit framing of the interview as calibration rather than quote-mining, plus offer to send the specific 5–8 questions in advance. Strategic logic: Val needs a concrete artifact she can hand Allison to make a recommendation; the question-list offer is the highest-value asynchronous decision aid. Final-position emphasis on "her territory" reinforces the power dynamic — she has authority over the framework's Bay-specific calibration.
+- **AI-disclosure paragraph — not repeated.** Original outreach to Colden (sent 2026-05-05 morning) included the AI-disclosure paragraph. Author confirmed 2026-05-05 that re-disclosure in every email is not needed; the disclosure is on the thread record from the first message. Default discipline going forward: AI disclosure goes in cold-outreach first contact only, not in subsequent thread replies.
 
 ### Still open
 
@@ -74,9 +75,7 @@
 
 3. **Salutation.** "Dear Val" mirrors her sign-off ("Val"). Could go "Dear Ms. DiMarzio" if author prefers a more formal opener for first-contact-with-the-coordinator register.
 
-4. **AI-disclosure.** Original outreach included a paragraph disclosing AI use. Not repeated here on the assumption Val/Allison have already seen it in the original mail. If the author wants it re-surfaced (e.g., out of an abundance of caution given communications-team scrutiny), a single line can be added at the end of the message.
-
-5. **If Val accepts the offer of advance questions.** We will need to draft the specific 5–8 questions before sending. The Q1 framework-level engagement direction ("whether cost severance names something her existing fisheries-policy vocabulary doesn't, where it overreaches or underreaches") is the substrate; need to expand into concrete prompts that respect her time and her on-record positions.
+4. **If Val accepts the offer of advance questions.** We will need to draft the specific 5–8 questions before sending. The Q1 framework-level engagement direction ("whether cost severance names something her existing fisheries-policy vocabulary doesn't, where it overreaches or underreaches") is the substrate; need to expand into concrete prompts that respect her time and her on-record positions.
 
 ### Generalizable lessons surfaced this session
 
