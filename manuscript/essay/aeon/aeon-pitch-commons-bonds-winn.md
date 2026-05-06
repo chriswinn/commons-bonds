@@ -3,6 +3,8 @@
 **Status:** First-pass draft for author review. Awaiting ratification + revisions before submission.
 **Author revision target (per 2026-05-04):** trim pitch paragraph below 300 words (consulting-world convention: word-limit overage = automatic disqualification; Aeon's "high volume of pitches" framing makes concision load-bearing). Current pitch paragraph is ~290 words — already close, but no margin; revise to leave headroom.
 
+**Pending upstream revision (2026-05-05):** Darity interview pending (week of May 10); revisit McDowell case-walk + universality framing after.
+
 **Title workshop status (2026-05-04):** none of the candidates surfaced today landed for the author; continued workshop scheduled for next session (alongside Ch 3 drafting start). Candidates surfaced + brief reasoning per option, preserved for next session's continued workshop:
 
 | Candidate | Length | Reasoning |
