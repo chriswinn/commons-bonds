@@ -67,10 +67,23 @@ Framework-mapping analysis lives in chapter GuidanceDocs at integration time, no
 
 ### Candidate #3 — NASA / Winnie the Pooh / becoming CEO
 
-- **Status:** `partial-integration` — Ch 1 grandfather→NASA arc lightly integrated (NASA / Langley / wind-tunnel hits in Ch 1 opening). CEO-era beat not yet integrated.
+- **Status:** `partial-integration` — grandfather Pooh + NACA/NASA Langley + wind tunnels + drill bits + air compressor + Pou-nephew-naming + TV station rescue all integrated in Ch 1. Several other beats from source either out-of-scope for Ch 1 or possibly belong in different chapters (see beat-level disposition below).
 - **Source:** [`research/story-drafts/ch1_becoming-ceo_2026-05-01.md`](../research/story-drafts/ch1_becoming-ceo_2026-05-01.md) (full keyboard-typed dump + grandfather continuation).
-- **One-line summary:** Grandfather Pooh at NACA/NASA Langley wind tunnels (model-maker; patents); Chris's career arc (IHOP → coding → JHU/MDLogix → NASA contracting → NIH Children's Center → CEO). Cross-spectrum-credibility biographical thread.
-- **Placement:** Ch 1 (biographical spine — partial integration in current Ch 1 polish). Possible Ch 5 NIH-moment forward-reference.
+- **One-line summary:** Grandfather Pooh at NACA/NASA Langley wind tunnels (model-maker; patents); Chris's career arc (NASA contracting → NIH Children's Center → CEO → TV station rescue). Cross-spectrum-credibility biographical thread + grandfather-style problem-solver lineage.
+- **Beat-level disposition (per 2026-05-04/05 placement-and-fit analysis):**
+  - **Grandfather Pooh / NACA/NASA Langley / wind tunnels / patents / "drop stuff off buildings" testing / drill-bits + air-compressor story / Pou-nephew-naming** — ✅ INTEGRATED into Ch 1 (lines 27-33, 71)
+  - **TV station rescue (5-day deadline / new-guy-noticed-blinking-light / Chicago server-part runner)** — ✅ INTEGRATED into Ch 1 (lines 67-71)
+  - **Lunar-lander honeycomb specific application** — Ch 1 line 29 has the impact-zone framing in compressed form; specific lunar-lander application is LOW-value addition (~1-2 sentences of NASA-Apollo-era texture). Skip unless you want explicit Apollo anchor.
+  - **Smoking memory / emphysema death / Pall Mall chain-smoking / "bouncing on his knee in a hazy cloud"** — biographical color; doesn't add framework substance; LOW-value for Ch 1's current register. Skip.
+  - **Patent count detail (26 or 36) + drawing-apparatus → child's-toy licensing** — LOW-value; Ch 1 line 29 says "an inventor with his name in the patent record" — sufficient. Skip.
+  - **Chris's NASA day job + side-consulting nights/weekends period** — MEDIUM-value; Ch 1 jumps from NIH (line 49-63) to DC commute (line 65) without anchoring NASA day-job period; adding it would make grandfather→Chris-at-NASA lineage explicit but risks loading the biographical thread. Probably skip.
+  - **Mirage callback (Chris-as-CEO calls Neeraj for cert use)** — HIGH-value Pattern 2 demonstration BUT Ch 1's current relationship-focused register doesn't include the Neeraj relationship; #2 Neeraj is now `out-of-book-1`. The Mirage callback no longer has a Book 1 anchor. Skip Ch 1.
+  - **CEO setup-meeting / Robert's-Rules scene ("I nominate Chris Winn to be CEO")** — LOW-MEDIUM-value; biographical color; rich prose-potential but not load-bearing. Skip Ch 1 unless you want a "moment-of-becoming-CEO" anchor.
+  - **Labor-arbitrage profit revelation ($100k → $220-240k math; "begging for 3% cost-of-living while company gets automatic increases")** — HIGH-value framework-mechanism material, BUT Ch 5 (Accountability Gap) territory, NOT Ch 1. Possibly Ch 5 federal-contracting labor-markup parallel to Social Security + 2008 + healthcare cases. Flag for Ch 5 scope decision.
+  - **"Paying people what they're worth" beat (Chris-as-CEO chooses to pay people more)** — MEDIUM-value Pattern 2 moral counter-example; floats without anchor since #2 Mirage callback is `out-of-book-1`. Skip Ch 1.
+  - **Afghanistan war-zone contract sub-story (paying people quarter-million tax-free; "they could buy a house outright when they came back")** — **OUT OF SCOPE for Ch 1. Different register entirely; war-zone material; not in current Ch 1 emotional through-line. Aeon/Noema-rewrite or future-essay seed. Skip Ch 1.** *(Author direction 2026-05-05.)*
+  - **Company buyout / outvoted / sold (CEO ending arc)** — **OUT OF SCOPE for Ch 1. CEO ending-arc; biographical only; doesn't anchor framework. Skip.** *(Author direction 2026-05-05.)*
+- **Placement:** Ch 1 (integrated portions — grandfather + TV station rescue). Labor-arbitrage profit revelation flagged for possible Ch 5 scope.
 - **Gate flags:** federal-contracting + NDA discipline (Book 2 seed for cert-economy systemic angle); JHU / MDLogix identifiability (NDA review trigger); grandfather LaVern E. Winn — public record (patents); positive light only per author direction.
 
 ---
