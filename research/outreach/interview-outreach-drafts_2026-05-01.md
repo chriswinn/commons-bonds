@@ -46,7 +46,7 @@ Body:
 
 ---
 
-### 2. William Darity Jr. (Duke; Sanford School of Public Policy) — **ACCEPTED 2026-05-05** (scheduling in progress for week of May 10)
+### 2. William Darity Jr. (Duke; Sanford School of Public Policy) — **ACCEPTED 2026-05-05 · REPLY SCHEDULED 2026-05-06 08:00 ET** (scheduling in progress for week of May 10)
 
 **STATUS UPDATE 2026-05-05:** Positive reply received from Professor Darity (signs "Sandy"): *"Dear Chris Winn, I will be glad to chat. Would you please share some possible times with me next week, the week of the 10th of May? All best wishes, William Darity ('Sandy')"*. Chris's availability for the week of May 10: **phone Tuesday May 12 or Wednesday May 13; in-person at Duke feasible Wednesday May 13** (Hampton, VA → Durham, NC drive). Reply prepared offering those windows + in-person Wednesday option. **Implication for book:** Darity is the contemporary-landmark cite for reparations-economics in the accountability-architecture chapter; *Umbrellas Don't Make It Rain* methodology is foundational to the *Restitution Bond* instrument. A live conversation is high-value for two-instrument decomposition (Restitution Bond / Foreclosure Bond) validation. **Mullen path deferred (decision 2026-05-05):** Chris's call — ask Sandy for a Mullen warm intro at the end of the interview if the conversation goes well, rather than loading the scheduling reply with a second ask. Mullen Gmail draft remains held per original Candidate #3 plan; revisit after Darity interview.
 
@@ -60,7 +60,7 @@ Body:
 
 > Your work with A. Kirsten Mullen in *From Here to Equality* is cited as the contemporary landmark of reparations economics in the framework's accountability-architecture chapter, and the Hamilton-Darity-Price-Sridharan-Tippett *Umbrellas Don't Make It Rain* methodology (matched-comparison demonstrating wealth-as-structural-variable) is foundational to the framework's *Restitution Bond* instrument. I'd want to engage your perspective specifically on whether the framework's two-instrument decomposition (Restitution Bond for backward-looking restitution; Foreclosure Bond for forward-looking accountability against ongoing extraction) reads as a useful extension of reparations-economics logic or as a vocabulary-shift that obscures more than it adds. Geographically I'm in Hampton, Virginia, so an in-person meeting at Duke would be feasible if you preferred it to phone or Zoom.
 
-**Sent reply 2026-05-05** (in response to Sandy's same-day acceptance):
+**Sent reply — scheduled-send 2026-05-06 08:00 ET** (drafted 2026-05-05 in response to Sandy's same-day acceptance; queued for Wednesday morning send):
 
 **Subject:** Re: Interview request — your reparations-economics work + a forthcoming framework on cost severance
 
