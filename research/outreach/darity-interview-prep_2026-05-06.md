@@ -48,6 +48,61 @@ These match the Darity pre-read brief verbatim. Sandy will have read them in adv
 
 ---
 
+## Vocabulary discipline — Sandy's four non-negotiables and conversational handling
+
+**Why this matters:** Sandy's most insistent current public position (Aug 2025, "Freedmen Fridays") is *"stop calling everything reparations."* Walking into the live interview without absorbing the substantive (not optical) basis for that position would be a credibility-tank moment. The framework engages reparations-economics methodologically, but the Restitution Bond instrument is more general than the Black-American reparations case — getting the vocabulary discipline right at the start of the conversation prevents the rest from getting mislabeled.
+
+### The four non-negotiables
+
+Sandy's reparations definition has four pieces. Programs can fail ANY of them and still get mislabeled as reparations. The political concern (semantic erosion gives politicians cover to declare the debt settled) is *downstream* of the substantive concern (the word has analytical content).
+
+| Criterion | What it specifies | Example failure mode |
+|---|---|---|
+| **Lineage-based recipients** | WHO is owed: Black American descendants of US slavery | Baby Bonds (means-tested rather than lineage-based) |
+| **Federal payer** | WHO OWES: the US federal government | California's program (state payer) |
+| **Wealth-gap target** | HOW MUCH: $14T summary statistic of cumulative injustice | Georgetown's $400K/year fund (scale insufficient) |
+| **Direct payments to individuals** | HOW: preserves recipient agency; closes the wealth gap via transfer | HBCU funding (institutional rather than direct) |
+
+**Important:** the WHO criterion is *one of four*, not the whole concern. Programs can satisfy WHO and still fail the other three. HBCU funding goes to Black descendants — perfectly aligned at the recipient level — and Sandy still says it's not reparations because the form is institutional rather than direct payment.
+
+### The four programs Sandy rejects (quick summaries + objections)
+
+**HR 40** — Commission to Study and Develop Reparation Proposals for African Americans Act. Federal bill (introduced annually since Conyers 1989) that would establish a study commission; doesn't itself enact reparations.
+- Sandy's objection: "badly written"; appointment structure incoherent; lacks substantive directives; doesn't mandate wealth-gap-closure target; could authorize a pittance program with the "reparations" label and foreclose political space for actual reparations.
+
+**California Reparations Task Force** — 9-member task force (AB 3121, 2020) that released a final report June 2023 with 100+ recommendations including direct payments at varying amounts ($2,400 to ~$1.2M depending on harm category).
+- Sandy's objection: math doesn't work (state ~$300B budget can't fund a ~$2.4T gap); creates inequities across states; politically substitutes for federal action; wrong payer.
+- Sandy was a paid consultant *and* one of its sharpest critics.
+
+**Georgetown** — In 2019 Georgetown students voted to charge themselves $27.20/semester for GU272+ descendants; the university implemented a $400K/year Reconciliation Fund instead, going to descendant *community projects* rather than direct individual payments.
+- Sandy's objection: institutional self-redress reproduces "we owned them, we own the solution" mentality; wrong payer (institutional, not federal); wrong scale ($400K/year vs. ~$14T national debt); wrong form (community projects, not direct payments).
+
+**Harvard** — In 2022 Harvard announced a $100M commitment for research into university ties to slavery, a memorial at the slave cemetery, and descendant community outreach.
+- Sandy's objection: same as Georgetown — institutional reparations as substitution for federal action; wrong payer + wrong form + wrong scale.
+
+### Conversation-strategy moves
+
+1. **Don't call the Restitution Bond "reparations" without qualifier.** Position it as the instrument that *operationalizes backward-looking restitution in the reparations-economics lineage*, NOT as carrying reparations.
+2. **For the Black-American case specifically**: ask Sandy explicitly whether the Restitution Bond *satisfies* his four non-negotiables. Likely friction: if the framework allows non-federal issuers or non-direct disbursement, expect pushback.
+3. **For non-Black-American cases (McDowell County, Libby, Niger Delta, opioid-Appalachia)**: position the Restitution Bond as an instrument in the *lineage of* reparations-economics methodology (Umbrellas matched-comparison; CSD methodology) — but explicitly NOT calling those cases "reparations" in Sandy's strict sense. The framework is *generalizing the methodology*, not extending the term.
+4. **Acknowledge upfront** that you understand the "stop calling everything reparations" position before he has to say it. This signals you've read his current public framing and respects the discipline he's defending.
+
+### Recommended opening preamble — "set the linguistic ground rules"
+
+After Q0 (attribution preference) and before priority Q1, recommend asking:
+
+> *"Before we get into the specific framework questions — your recent work has been very clear that 'reparations' has technical content: federal payer, lineage-based eligibility, wealth-gap-closure target, direct payments. The Restitution Bond instrument we develop is in the reparations-economics methodological lineage but applies to extraction-community contexts beyond the Black-American case. How do you want me to handle the vocabulary in print so I'm not flattening 'reparations' into something it isn't, while still naming the methodological lineage clearly?"*
+
+This move lands because:
+- It demonstrates we've read his current public position (specifically the "stop calling everything reparations" framing)
+- It doesn't argue with the discipline — it accepts the substantive content
+- It gives Sandy control over the linguistic ground rules for the rest of the conversation
+- It signals careful preparation in a way that earns conversational standing for the rest of the questions
+
+If he sets specific rules ("only call it reparations if it satisfies all four non-negotiables for the Black-American case; use 'restitution' or 'restitution-bond instrument' for the broader category"), abide by them across the book and any derivative essays.
+
+---
+
 ## Follow-up questions (4) — secondary plan, if time permits
 
 Use these if priority questions land faster than expected, or if Sandy steers the conversation to territory that opens any of these naturally. Do NOT force them; the priority questions are doing the load-bearing work.
@@ -59,6 +114,8 @@ Use these if priority questions land faster than expected, or if Sandy steers th
 8. **Specific empirical case — pick one or two.** *"Of the four CSD-application cases the framework develops — McDowell County coal, Libby asbestos, Niger Delta oil, opioid-Appalachia mortality — is there one you'd push hardest on as a test case for the framework's vocabulary? And one you'd want flagged as a category of harm where the framework's vocabulary risks flattening something important?"*
 
 9. **Restitution Bond's relationship to existing reparations programs in motion.** *"There are reparations programs in motion at multiple scales right now — HR 40 nationally, California's reparations task force, university-level programs at Georgetown and Harvard, municipal programs in Evanston. Does the Restitution Bond instrument sit alongside those as architecture, ahead of them as proposed reform, or behind them as theory catching up to practice?"*
+
+10. **Disbursement form across cases (open territory).** *"I'd be curious what comes up for you when you think about disbursement-form instruments outside the Black-American slavery case. The framework engages other backward-looking-restitution contexts — extraction-community cases like McDowell County and Niger Delta, environmental-damage cases — where the harm is often collective and spans generations. The Norway sovereign wealth fund is one comparison point on the spectrum: revenues pooled, returns distributed across generations. Direct payments are at the other end. How do you think about the trade-offs there? Do your four non-negotiables generalize to those cases, or are some of them specific to the Black-American debt?"*
 
 ---
 
@@ -90,6 +147,14 @@ Brief notes on what to draw out + what to push on if Sandy gives a short answer 
 - Draw out: 2-3 specific papers/books, beyond his own work.
 - Push if shallow: "What's a piece of work you wish more people in this conversation had read?"
 - Watch for: anything that surprises us — those are the biggest research-vector unlocks.
+
+**Q10 (disbursement form across cases — only if priority Q's land fast):**
+- This is OPEN TERRITORY for Sandy — let him explore freely; don't push him toward a specific answer or a specific implementation.
+- Designed to land on terrain he hasn't extensively addressed publicly. His published direct-payment criterion is for the Black-American case; whether it generalizes is genuinely open.
+- Watch for: any concession that disbursement form is case-dependent (vs. universal) — that's high-leverage feedback for how the framework specifies case-by-case implementations.
+- Watch for: any indication that the Black-American case is sui generis (his published position) being applied specifically to disbursement form — that tells us whether the four non-negotiables travel.
+- If he says "I haven't thought about that much," follow up gently: "What instruments would you consider if asked?" — invite his intuitions even without published positions.
+- DO NOT push Norway specifically as a proposal. Norway is the comparison-point touchstone, not the question. Let him land wherever he lands.
 
 ---
 
