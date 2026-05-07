@@ -1,8 +1,8 @@
 # Internal interview prep — Professor William Darity Jr. ("Sandy")
 
 **Created:** 2026-05-06 by Claude per author direction.
-**Interview date:** week of 2026-05-10 (phone Tue May 12 or Wed May 13; in-person at Duke feasible Wed May 13).
-**Status:** READY FOR LIVE USE — not for sending to Darity. Pairs with the pre-read brief at `darity-prereadbrief_2026-05-05.md` (which IS sent to Darity) and the substantive background brief at `darity-background-brief_2026-05-06.md` (NOT sent — for author absorption before the interview).
+**Interview confirmed:** **2026-05-12 at 14:00 ET, phone, 1 hour** (Sandy: "at least an hour if needed"). Sandy's number: 919-452-3118. Author calls Sandy at the agreed time.
+**Status:** READY FOR LIVE USE — not for sending to Darity. Pairs with the pre-read brief at `darity-prereadbrief_2026-05-05.md` (READY TO SEND now that date + modality are confirmed) and the substantive background brief at `darity-background-brief_2026-05-06.md` (NOT sent — for author absorption before the interview).
 **Branch:** `claude/respond-to-valerie-inquiry-mV3Na`
 
 **READ FIRST:** the substantive background brief (`darity-background-brief_2026-05-06.md`) before working through this prep doc. The background brief's findings about Sandy's reparations program (lineage-based eligibility, $14T figure, federal-only, four non-negotiables, "stop calling everything reparations" position, HR 40 critique, California / Georgetown criticism) directly shape the talking-point notes and pivot anticipations below.
@@ -56,13 +56,14 @@ Order in the live conversation matches the pre-read brief Sandy received (Q1 →
 | **SHOULD-ASK** | **Q4** (Restitution Bond as reform vehicle); **Q2** (methodology portability); **Q5** (reading recommendations) | Ask if 30-45 min available. Q5 is cheap (2-3 min) and always lands at the close. |
 | **STRETCH** | Follow-ups Q6-Q10 | Only if priority questions land fast and time permits. Q9 is highest-leverage stretch (engages settled territory through chat-open framing); Q10 second (open territory). |
 
-**Time discipline:**
+**Time discipline (confirmed: 1 hour, phone, May 12 @ 2 PM ET):**
 
-- 30-min call: Q0 + Q0.5 + Q1 + Q3 + Q4 + Q5 — comfortable. Q2 dropped or deferred to email follow-up.
-- 45-min call: Q0 + Q0.5 + Q1-Q5 + room for one stretch question (Q9 recommended).
-- 60-min call (rare): full priority + 2-3 stretch questions.
+- **First 5 min:** Q0 (attribution) + Q0.5 (linguistic ground rules from vocabulary-discipline section above). Sandy may want a brief reorientation to the framework; have the framework-paragraph fresh in mouth.
+- **Next 35-40 min:** priority Q1-Q5 in pre-read order. Land all five comfortably with room to follow tangents.
+- **Final 15-20 min:** stretch into 2-3 follow-up questions. Recommended order: Q9 (Restitution Bond vs. existing programs — engages settled territory chat-open) → Q7 (accounting equation — open) → Q10 (disbursement form across cases — open). Q6 / Q8 if time still allows.
+- **Last 2-3 min:** close with thanks; if conversation has gone well, the Mullen warm-intro ask (per section below).
 
-**Live triage rule:** if Sandy goes deep on Q1 (uses 15+ min), defer Q2 to email follow-up; ask Q3 verbally; Q4 if time; Q5 always.
+**Live triage rule:** with 1 hour we have meaningful room. If a priority question lands deep and uses 12-15 min, that's fine — follow it. Don't rush. The MUST-ASK / SHOULD-ASK / STRETCH categorization applies if the conversation gets unexpectedly compressed (Sandy needs to leave early, etc.); under normal flow, all priority questions land.
 
 ---
 
@@ -317,7 +318,9 @@ This is for the live call, not for sending. Have these accessible without leavin
 
 ## Contingency plan — if Sandy declines to comment on the framework
 
-**The risk:** Sandy hasn't been sent the manuscript or Tech Appendix; he has only the ~430-word pre-read brief. He may legitimately decline to engage framework-specific moves on the record because he hasn't read them. This is a senior-scholar instinct (don't commit publicly to views on work you haven't deeply engaged), not a rejection of our project. We need a graceful pivot that preserves the conversation's value.
+**Probability:** lower than initially framed. Sandy has framework context from two sources before the call: (a) the original cold-outreach email described the framework's structure (cost severance + RCV; two-instrument decomposition; cross-system framing); (b) the pre-read brief expands on that with the central accounting equation, manuscript-location specifics, and Sandy's existing-vocabulary positioning. He accepted the interview with that context already on his desk. So he's not going in cold — he's going in with two written passes at the framework.
+
+**Still possible:** Sandy could decline to comment on framework-specific moves on the record because he hasn't read the *manuscript* or Tech Appendix in depth. This would be a senior-scholar instinct (don't commit publicly to views on detailed claims he hasn't fully engaged), not a rejection of the project. The contingency below remains as a graceful backup *if* it triggers.
 
 **Trigger conditions (any one of these):**
 

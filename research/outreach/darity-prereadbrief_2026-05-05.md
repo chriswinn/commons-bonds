@@ -2,7 +2,7 @@
 
 **For:** Professor William Darity Jr. ("Sandy") · Sanford School of Public Policy, Duke University
 **From:** Chris Winn · author, *Commons Bonds* (forthcoming book + Noema-bound essay)
-**Sent ahead of:** [interview date TBD — Sandy confirming date + modality for the week of 2026-05-10. Brief sends once those land.]
+**Sent ahead of:** Interview confirmed 2026-05-12 at 14:00 ET, phone, 1 hour. Brief READY TO SEND.
 **Length cap:** one page (~430 words). Designed to be readable in three minutes on a phone.
 
 ---
