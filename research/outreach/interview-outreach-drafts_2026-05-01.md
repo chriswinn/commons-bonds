@@ -48,9 +48,19 @@ Body:
 
 ---
 
-### 2. William Darity Jr. (Duke; Sanford School of Public Policy) — **ACCEPTED 2026-05-05 · REPLY SCHEDULED 2026-05-06 08:00 ET** (scheduling in progress for week of May 10)
+### 2. William Darity Jr. (Duke; Sanford School of Public Policy) — **ACCEPTED 2026-05-05 · INTERVIEW CONFIRMED 2026-05-12 @ 14:00 ET, phone, 1 hour**
 
 **STATUS UPDATE 2026-05-05:** Positive reply received from Professor Darity (signs "Sandy"): *"Dear Chris Winn, I will be glad to chat. Would you please share some possible times with me next week, the week of the 10th of May? All best wishes, William Darity ('Sandy')"*. Chris's availability for the week of May 10: **phone Tuesday May 12 or Wednesday May 13; in-person at Duke feasible Wednesday May 13** (Hampton, VA → Durham, NC drive). Reply prepared offering those windows + in-person Wednesday option. **Implication for book:** Darity is the contemporary-landmark cite for reparations-economics in the accountability-architecture chapter; *Umbrellas Don't Make It Rain* methodology is foundational to the *Restitution Bond* instrument. A live conversation is high-value for two-instrument decomposition (Restitution Bond / Foreclosure Bond) validation. **Mullen path deferred (decision 2026-05-05):** Chris's call — ask Sandy for a Mullen warm intro at the end of the interview if the conversation goes well, rather than loading the scheduling reply with a second ask. Mullen Gmail draft remains held per original Candidate #3 plan; revisit after Darity interview.
+
+**STATUS UPDATE 2026-05-06:** Sandy replied confirming interview details: *"Dear Chris Winn, No reason for you to drive to Durham. Let's chat by phone on May 12th at 2PM ET. I'm able to set aside at least an hour if needed. My number is 919 452 3118; please share yours so I will recognize it when you call. All the best, William ('Sandy')"*. Sign-off "William ('Sandy')" with parenthetical first-name invitation triggers FPD-4 register-shift to "Dear Sandy" in author replies.
+
+**Author confirmation reply SENT 2026-05-06:** *"Dear Sandy, Thank you — May 12 at 2 PM ET works perfectly. My number is (912) 944-7217. I'll send a brief pre-read ahead of the call. All best, Chris"*.
+
+**Interview prep pipeline:**
+- Pre-read brief (`darity-prereadbrief_2026-05-05.md`): READY TO SEND today (2026-05-06) as separate email from confirmation reply.
+- Reconfirmation reply: planned ~5 PM ET on Monday 2026-05-11 (night before the call); sent as a reply to the pre-read brief thread to re-surface the brief at the top of Sandy's inbox. Two-sentence format: warm acknowledgment + reconfirms time. Pattern candidate for FPD generalization (single instance for now; promote if pattern recurs across other interviews).
+- Internal interview prep doc (`darity-interview-prep_2026-05-06.md`): READY for author absorption + live-call use.
+- Substantive background brief (`darity-background-brief_2026-05-06.md`): READY for morning-of refresh.
 
 **Email address (verify):** Likely `william.darity@duke.edu` per Duke public directory; verify on Sanford School page.
 

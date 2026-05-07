@@ -335,6 +335,32 @@ The framework-CALIBRATION value is reduced if pivot is used; the framework-CONTE
 
 ---
 
+## Pre-call timing — what happens between now and May 12
+
+| Date | Action | Purpose |
+|---|---|---|
+| **2026-05-06** (today) | Confirmation reply sent to Sandy with author's phone | Sandy needs the number for caller-ID recognition |
+| **2026-05-06** (today) | Pre-read brief sent — separate email from confirmation reply | Substantive prep material; ~6 days before the call gives Sandy time to read without rushing |
+| **2026-05-11** (Mon, day before) | Reconfirmation reply on the pre-read brief thread, ~5 PM ET | Re-surfaces pre-read at top of Sandy's inbox; warm acknowledgment + reconfirms time. Two sentences max. |
+| **2026-05-12** (Tue) AM | Author re-reads substantive background brief + skims interview prep doc + framework one-paragraph | Mental refresh, not new prep |
+| **2026-05-12** 13:50 ET | Open browser tabs: pre-read, prep doc, FPD canonical articulations, attribution protocol, bibliography, Tech Appendix v1.0.0, background brief. Test recording setup. | Live-call setup ready |
+| **2026-05-12** 14:00 ET | Author calls Sandy at 919-452-3118 | Interview begins |
+
+**Reconfirmation reply (drafted, queued for ~5 PM ET on May 11):**
+
+> Dear Sandy,
+>
+> Looking forward to our call tomorrow at 2 PM ET. The pre-read brief is below for easy reference.
+>
+> All best,
+> Chris
+
+**What NOT to include in the reconfirmation:** new questions, "do you have any questions before our call?", framework restatements, anything requiring a response. The reconfirmation is a low-friction inbox-surface move, not cognitive load.
+
+**Contingency:** if Sandy replies to the pre-read with substantive engagement before May 11 (e.g., "I had a thought on Q3"), defer substantive response to the call: *"Great question — I'll bring that up first thing on Tuesday. Looking forward to the conversation."* Sandy's own engagement keeps the thread surfaced; no separate reconfirmation needed.
+
+---
+
 ## Mullen warm-intro path (post-interview, if conversation goes well)
 
 Per the Mullen-deferral decision (`interview-outreach-drafts_2026-05-01.md` candidate #3, decision 2026-05-05): don't ask in the scheduling reply; ask at the end of the live interview.
