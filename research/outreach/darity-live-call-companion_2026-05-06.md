@@ -150,6 +150,12 @@ If he wants depth: bibliography §1 (Ostrom, North, Coase, Hardin).
 
 > *"The accounting equation does that work: B = RCV is the structural condition. If B is set to RCV, posting the bond IS internalizing the cost — any rational actor stops extracting before posting. If B is set below RCV, the framework explicitly names that as cost severance — exactly the misuse pattern we're pricing. So the bond framing isn't 'license to extract'; it's the instrument by which 'license to extract' becomes legible."*
 
+### "Why bonds — and not funds, accounts, trusts, or reserves?"
+
+> *"The framework chose 'Bond' deliberately over alternatives — Account, Reserve, Fund, Trust — for three structural reasons. First, real-world precedent: reclamation bonds, environmental performance bonds, and surety bonds are existing legal instruments with a century-plus regulatory track record; the framework extends established practice rather than inventing a new vehicle. Second, legal-adoption-travel: the framework's success criterion is vocabulary adoption in regulatory contexts, and 'Bond' already lives there — lawyers and policymakers recognize the structural properties immediately. Third, role-encoding precision: 'Bond' specifies an amount posted against an obligation, returned if conditions are met, forfeited if they aren't — that matches Cost Severance equals RCV minus B cleanly. Account is too generic, Reserve implies one-sided holding, Fund implies general pooling, Trust carries fiduciary connotation but not the conditional-return structure."*
+
+If he wants depth: vocabulary strategy v1.0.1 §6.5; Tech Appendix §5 (Accountability Bond Decomposition).
+
 ### "Can I see the Tech Appendix or Chapter 6?"
 
 > *"Happy to send the Technical Appendix v1.0.0 — it's the formal apparatus where the math sits. I can also send the Chapter 6 draft if you want to engage at the prose-engaging-the-math level. Either or both, post-call."*

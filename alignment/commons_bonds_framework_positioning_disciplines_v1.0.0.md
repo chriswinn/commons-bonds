@@ -407,6 +407,14 @@ Three claims: **what Harvey/Klein did** (named the phenomenon and political cond
 
 Three claims: **what reparations economics did** (FHTE program + Umbrellas methodology) → **how the framework descends** (Restitution Bond in the lineage) → **what the framework adds** (forward-looking Foreclosure Bond + decomposition).
 
+### Why bonds (and not funds, accounts, trusts, or reserves)?
+
+> *The framework chose 'Bond' deliberately over alternatives — Account, Reserve, Fund, Trust — for three structural reasons. First, real-world precedent: reclamation bonds, environmental performance bonds, and surety bonds are existing legal instruments with a century-plus regulatory track record; the framework extends established practice rather than inventing a new vehicle. Second, legal-adoption-travel: the framework's success criterion is vocabulary adoption in regulatory contexts, and 'Bond' already lives there — lawyers and policymakers recognize the structural properties immediately. Third, role-encoding precision: 'Bond' specifies an amount posted against an obligation, returned if conditions are met, forfeited if they aren't — that matches Cost Severance equals RCV minus B cleanly. Account is too generic, Reserve implies one-sided holding, Fund implies general pooling, Trust carries fiduciary connotation but not the conditional-return structure.*
+
+Three claims: **why bonds** (real-world precedent + adoption-travel) → **what makes the structural fit work** (role-encoding precision: posted / returned / forfeited) → **why not the alternatives** (each fails a different structural test).
+
+Full rationale: `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §6.5.
+
 **Discipline note:** these articulations are the canonical versions. Per-interview prep docs (Darity, Amsterdam, Colden, Lipcius, Mann, future) should cross-reference this section rather than duplicating the language. Subject-specific pivots (e.g., the Foreclosure-Bond-license-to-extract critique handler for Darity) stay in the per-interview prep doc; lineage extensions live here.
 
 ---
