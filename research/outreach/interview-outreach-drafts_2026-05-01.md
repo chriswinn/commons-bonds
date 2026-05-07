@@ -145,7 +145,7 @@ Body:
 - Pattern 2 register exemplar in the book overall (DEAL is in the Pattern 2 family per Insight #9; Amsterdam-as-applied-case is the strongest Pattern 2 demonstration available)
 - Decision: gated on interview outcome — same discipline as Colden / Noema §V third anchor.
 
-**Author response — APPROVED FOR SEND 2026-05-06:**
+**Author response — SENT 2026-05-06:**
 
 **To:** Beth Ingledew (existing thread; reply to her latest message)
 **Subject:** Re: [existing thread subject]
@@ -170,7 +170,7 @@ Body:
 
 4. **Send timing.** Author authorized send 2026-05-06; recommend within Beth's working hours today (UK timezone) to match the warm-engagement signal. Could batch with the Colden 08:00 ET send if author prefers a single morning batch, but Beth's message arriving today suggests same-day-back is preferable to tomorrow-morning-back.
 
-**Send-trigger conditions:** APPROVED FOR SEND. Author confirmed 2026-05-06: send the response as written (with "Dear Beth" salutation).
+**Send-trigger conditions:** SENT 2026-05-06. Author confirmed sent. Awaiting Beth's "more to follow" with introduction details.
 
 ---
 
