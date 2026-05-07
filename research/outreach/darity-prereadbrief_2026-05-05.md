@@ -27,7 +27,11 @@
 
 ## On attribution
 
-I'd like to quote you in the book and in any derivative essays (a *Noema*-track essay is in development; an *Aeon*-track piece has a separate angle). Scholars handle attribution differently — some prefer freely-quotable interview answers, others prefer that interview material be paraphrased + attributed unless reviewed in advance, others ask for transcript review before any quoting. Whatever works for you, please let me know at the start of our conversation; I'll abide by it across the book and essays.
+I'd like to quote you in the book and in any derivative essays (a *Noema*-track essay is in development; an *Aeon*-track piece has a separate angle). Scholars handle attribution differently — some prefer freely-quotable interview answers, others prefer that interview material be paraphrased + attributed unless reviewed in advance, others ask for transcript review before any quoting. **I'll plan to ask about your preference as the first thing in our conversation, before any of the framework questions** — so we have clear ground rules from the start. Whatever works for you, I'll abide by it across the book and essays.
+
+---
+
+*Author / Claude internal note (not sent to Darity): this section is the pre-interview comms half of the attribution-handling discipline; the live-interview Q0 (asked verbally at the start of the call) is the second half. Reusable protocol at `research/outreach/interview-attribution-protocol_2026-05-06.md`. Live Q0 verbal phrasing in the protocol's §"Live interview" section.*
 
 ---
 
