@@ -301,6 +301,52 @@ section.contingency-sec h2 {
   padding-top: 12px;
   margin-top: 30px;
 }
+/* Glossary */
+details.glossary {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--card-bg);
+  margin: 10px 0;
+}
+details.glossary > summary {
+  padding: 12px 16px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  user-select: none;
+  border-radius: 4px;
+}
+details.glossary > summary::marker { color: var(--info); }
+details.glossary[open] > summary {
+  border-bottom: 1px solid var(--border);
+  background: #f0f4f8;
+  border-radius: 4px 4px 0 0;
+}
+details.glossary .glossary-body {
+  padding: 12px 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 24px;
+  font-size: 13px;
+}
+details.glossary .glossary-body dt {
+  font-weight: 600;
+  color: var(--info);
+  margin-top: 4px;
+}
+details.glossary .glossary-body dd {
+  margin: 0 0 8px 0;
+  padding-left: 0;
+  color: var(--text);
+  line-height: 1.4;
+}
+@media (max-width: 700px) {
+  details.glossary .glossary-body { grid-template-columns: 1fr; }
+}
+@media print {
+  details.glossary[open] > summary { background: white; }
+  details.glossary { border: none; }
+}
 /* Responsive */
 @media (max-width: 900px) {
   .page { grid-template-columns: 1fr; }
@@ -357,6 +403,7 @@ section.contingency-sec h2 {
       <li><a href="#closing" class="info">Closing block</a></li>
       <li><a href="#tiers" class="info">Three Tiers</a></li>
       <li><a href="#post-call" class="info">Post-call workflow</a></li>
+      <li><a href="#glossary" class="info">Glossary</a></li>
     </ol>
   </nav>
   <main>
@@ -444,7 +491,7 @@ section.contingency-sec h2 {
   <article class="q should" id="q2">
     <span class="label">Should-ask</span>
     <h3>Q2 — Methodology portability</h3>
-    <blockquote><p>"The CSD instrument applies the <i>Umbrellas</i> matched-comparison discipline to extraction-community contexts (McDowell County / Libby / Niger Delta / opioid-Appalachia). Does that port cleanly, or does it flatten distinctions specific to the racial wealth gap that you'd want preserved?"</p></blockquote>
+    <blockquote><p>"The Cost Severance Damages (CSD) instrument applies the <i>Umbrellas</i> matched-comparison discipline to extraction-community contexts (McDowell County / Libby / Niger Delta / opioid-Appalachia). Does that port cleanly, or does it flatten distinctions specific to the racial wealth gap that you'd want preserved?"</p></blockquote>
     <div class="talking">
       <strong>Push:</strong> "Does extraction-community methodology need a different matching variable — proximity to extraction site, generational tenure?"<br>
       <strong>Vocab-failure probe:</strong> "What word does your field use for what 'CSD' is trying to do, if any?"
@@ -454,7 +501,7 @@ section.contingency-sec h2 {
   <article class="q must" id="q3">
     <span class="label">Must-ask · load-bearing</span>
     <h3>Q3 — Vocabulary precision</h3>
-    <blockquote><p>"Does 'cost severance' add precision to what reparations economics has already named — or does it sit alongside existing vocabulary without adding analytical work?"</p></blockquote>
+    <blockquote><p>"Does 'cost severance' add precision to what reparations economics has already named — or does it sit alongside existing vocabulary without adding value?"</p></blockquote>
     <div class="talking">
       <strong>Push:</strong> "Is the work it does adding precision to <i>primitive accumulation</i> (Marx/Harvey), <i>expropriation</i> (Polanyi), or something else?"<br>
       <strong>Chat-open probe:</strong> "Is there terminology you'd use for the territory 'cost severance' is trying to name, that we should know about?"<br>
@@ -475,7 +522,7 @@ section.contingency-sec h2 {
   <article class="q must" id="q5">
     <span class="label">Must-ask · ~3 min, near close</span>
     <h3>Q5 — Reading recommendations</h3>
-    <blockquote><p>"What in your work — or others' — would most sharpen the framework's positioning in the literature?"</p></blockquote>
+    <blockquote><p>"What in your work — or others' — would most help us position the framework well in the literature?"</p></blockquote>
     <div class="talking">
       <strong>Push:</strong> "What's a piece of work you wish more people in this conversation had read?"
     </div>
@@ -680,6 +727,74 @@ section.contingency-sec h2 {
     <li><b>Mullen / network follow-up:</b> if Sandy offered a warm intro, follow up within 48 hours.</li>
     <li><b>Decision point:</b> does Sandy's input warrant adding him to the Noema essay §V as a third anchor?</li>
   </ol>
+</section>
+
+<!-- Glossary -->
+<section id="glossary">
+  <h2>Glossary</h2>
+  <details class="glossary">
+    <summary>Click to expand — alphabetical reference for framework + reparations-economics terms</summary>
+    <div class="glossary-body">
+      <dl>
+        <dt>ADOS (American Descendants of Slavery)</dt>
+        <dd>Political/identity framing for Black-American descendants of US slavery. Sandy uses adjacent but not identical framing ("Black American descendants of US slavery") to preserve the lineage criterion without the political baggage of the ADOS movement.</dd>
+
+        <dt>Cost severance</dt>
+        <dd>The structural mechanism by which value is extracted while the costs of producing it are deliberately separated and transferred to people, ecosystems, or futures who didn't capture the upside. Framework's primary contribution.</dd>
+
+        <dt>Cost Severance = RCV − B</dt>
+        <dd>Framework's central accounting equation. When B (the bonded amount posted) is below RCV (the worth foreclosed), the difference is the cost severed onto others.</dd>
+
+        <dt>Cost Severance Damages (CSD)</dt>
+        <dd>Framework's analytic instrument applying matched-comparison methodology (à la <i>Umbrellas Don't Make It Rain</i>) to extraction-community cases (McDowell County, Libby, Niger Delta, opioid-Appalachia).</dd>
+
+        <dt>Foreclosure Bond (B₂)</dt>
+        <dd>Framework's forward-looking accountability instrument — discharges harm yet to be realized. Lineage: environmental-bond and civic-republican.</dd>
+
+        <dt>Four non-negotiables (Sandy's)</dt>
+        <dd>Sandy's criteria for what counts as reparations: (1) lineage-based eligibility, (2) federal payer, (3) wealth-gap target, (4) direct payments to individuals. A program failing any of these is not reparations in his strict sense.</dd>
+
+        <dt><i>From Here to Equality</i> (FHTE)</dt>
+        <dd>Darity & Mullen 2020; the contemporary landmark of US reparations economics. Second edition with new foreword on state/local developments. Working figure: $14T (~$350K per eligible person).</dd>
+
+        <dt>HR 40</dt>
+        <dd>Federal "Commission to Study and Develop Reparation Proposals for African Americans Act"; introduced annually since Conyers 1989. Sandy rejects as "badly written" — lacks substantive directives, doesn't mandate wealth-gap-closure target.</dd>
+
+        <dt>Lineage-based reparations</dt>
+        <dd>Sandy's discipline — eligibility criterion based on descent from people enslaved in the US, plus self-identification as Black/Negro/African American on a public document for ≥12 years. Distinct from race-based.</dd>
+
+        <dt>Matched comparison</dt>
+        <dd>The <i>Umbrellas</i> methodology — comparing similarly-situated groups to isolate structural (non-individual) variables. Foundation for the wealth-as-structural-variable claim.</dd>
+
+        <dt>PERI (Political Economy Research Institute)</dt>
+        <dd>UMass Amherst institute; home of James Boyce's ecological-economics + reparations work. Carbon-dividend literature.</dd>
+
+        <dt>Renewable past regenerative capacity</dt>
+        <dd>Framework's term for renewable resources extracted faster than they can regenerate. Once across the threshold, effectively converted to non-renewable; same RCV accounting applies.</dd>
+
+        <dt>Residual Commons Value (RCV)</dt>
+        <dd>The worth permanently foreclosed when a non-renewable resource — or a renewable resource pushed past regenerative capacity — is drawn down. Framework's pricing-instrument target.</dd>
+
+        <dt>Restitution Bond (B₁)</dt>
+        <dd>Framework's backward-looking accountability instrument — discharges harm already realized. Lineage: reparations-economics.</dd>
+
+        <dt>Stratification economics</dt>
+        <dd>Sandy's field (with Hamilton, Stewart) — analyzes inequality as <i>intergroup-relational</i> rather than residual-of-individual-optimization. Disparities in intergenerational resource transfer capacity drive persistence.</dd>
+
+        <dt>Sustained-yield perpetuity (Ostrom)</dt>
+        <dd>Ostrom's commons-governance domain — the regime where institutional design can manage commons indefinitely without state or market intervention. Framework extends to non-sustained-yield contexts.</dd>
+
+        <dt>Two-instrument decomposition</dt>
+        <dd>Framework's structural move: B = B₁ + B₂. Separates backward-looking restitution (Restitution Bond) from forward-looking foreclosure (Foreclosure Bond).</dd>
+
+        <dt><i>Umbrellas Don't Make It Rain</i></dt>
+        <dd>Hamilton, Darity, Price, Sridharan & Tippett 2015. The methodological foundation for the wealth-as-structural-variable claim. Headline: median Black household headed by a college graduate holds less wealth than median white household headed by someone who dropped out of high school.</dd>
+
+        <dt>Wealth-gap target</dt>
+        <dd>$14T (~$350K per eligible person) — the summary statistic of cumulative injustice in Sandy's program. Cross-validated via the present value of unredeemed 40-acres-and-a-mule promises ($3.1T at 6% / $16.5T at 9% historic capital returns).</dd>
+      </dl>
+    </div>
+  </details>
 </section>
 
 <p class="source-note">

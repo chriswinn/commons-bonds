@@ -64,14 +64,14 @@
 
 ### Q2 — Methodology portability (SHOULD-ASK)
 
-> *"The CSD instrument applies the *Umbrellas* matched-comparison discipline to extraction-community contexts (McDowell County / Libby / Niger Delta / opioid-Appalachia). Does that port cleanly, or does it flatten distinctions specific to the racial wealth gap that you'd want preserved?"*
+> *"The Cost Severance Damages (CSD) instrument applies the *Umbrellas* matched-comparison discipline to extraction-community contexts (McDowell County / Libby / Niger Delta / opioid-Appalachia). Does that port cleanly, or does it flatten distinctions specific to the racial wealth gap that you'd want preserved?"*
 
 - **Push:** *"Does extraction-community methodology need a different matching variable — proximity to extraction site, generational tenure?"*
 - **Vocab-failure probe:** *"What word does your field use for what 'CSD' is trying to do, if any?"*
 
 ### Q3 — Vocabulary precision (MUST-ASK — load-bearing for vocabulary calibration)
 
-> *"Does 'cost severance' add precision to what reparations economics has already named — or does it sit alongside existing vocabulary without adding analytical work?"*
+> *"Does 'cost severance' add precision to what reparations economics has already named — or does it sit alongside existing vocabulary without adding value?"*
 
 - **Push:** *"Is the work it does adding precision to *primitive accumulation* (Marx/Harvey), *expropriation* (Polanyi), or something else entirely?"*
 - **Chat-open probe:** *"Is there terminology you'd use for the territory 'cost severance' is trying to name, that we should know about?"*
@@ -86,7 +86,7 @@
 
 ### Q5 — Reading recommendations (MUST-ASK; ~3 min, near end of priority block)
 
-> *"What in your work — or others' — would most sharpen the framework's positioning in the literature?"*
+> *"What in your work — or others' — would most help us position the framework well in the literature?"*
 
 - **Push:** *"What's a piece of work you wish more people in this conversation had read?"*
 
@@ -229,6 +229,32 @@ If he wants depth: bibliography §1 (Ostrom, North, Coase, Hardin).
 3. **Update tracking:** mark interview complete in `interview-outreach-drafts_2026-05-01.md` candidate #2; note any reading recs in `bibliography.md`; flag any framework-revision implications in appropriate guidance docs.
 4. **Mullen / network follow-up:** if Sandy offered a warm intro, follow up within 48 hours.
 5. **Decision point:** does Sandy's input warrant adding him to the Noema essay §V as a third anchor?
+
+---
+
+---
+
+## Glossary — alphabetical reference for framework + reparations-economics terms
+
+- **ADOS (American Descendants of Slavery)** — Political/identity framing for Black-American descendants of US slavery. Sandy uses adjacent but not identical framing ("Black American descendants of US slavery") to preserve the lineage criterion without the political baggage of the ADOS movement.
+- **Cost severance** — The structural mechanism by which value is extracted while the costs of producing it are deliberately separated and transferred to people, ecosystems, or futures who didn't capture the upside. Framework's primary contribution.
+- **Cost Severance = RCV − B** — Framework's central accounting equation. When B (the bonded amount posted) is below RCV (the worth foreclosed), the difference is the cost severed onto others.
+- **Cost Severance Damages (CSD)** — Framework's analytic instrument applying matched-comparison methodology (à la *Umbrellas Don't Make It Rain*) to extraction-community cases (McDowell County, Libby, Niger Delta, opioid-Appalachia).
+- **Foreclosure Bond (B₂)** — Framework's forward-looking accountability instrument — discharges harm yet to be realized. Lineage: environmental-bond and civic-republican.
+- **Four non-negotiables (Sandy's)** — Sandy's criteria for what counts as reparations: (1) lineage-based eligibility, (2) federal payer, (3) wealth-gap target, (4) direct payments to individuals. A program failing any of these is not reparations in his strict sense.
+- **From Here to Equality (FHTE)** — Darity & Mullen 2020; the contemporary landmark of US reparations economics. Second edition with new foreword on state/local developments. Working figure: $14T (~$350K per eligible person).
+- **HR 40** — Federal "Commission to Study and Develop Reparation Proposals for African Americans Act"; introduced annually since Conyers 1989. Sandy rejects as "badly written" — lacks substantive directives, doesn't mandate wealth-gap-closure target.
+- **Lineage-based reparations** — Sandy's discipline — eligibility criterion based on descent from people enslaved in the US, plus self-identification as Black/Negro/African American on a public document for ≥12 years. Distinct from race-based.
+- **Matched comparison** — The *Umbrellas* methodology — comparing similarly-situated groups to isolate structural (non-individual) variables. Foundation for the wealth-as-structural-variable claim.
+- **PERI (Political Economy Research Institute)** — UMass Amherst institute; home of James Boyce's ecological-economics + reparations work. Carbon-dividend literature.
+- **Renewable past regenerative capacity** — Framework's term for renewable resources extracted faster than they can regenerate. Once across the threshold, effectively converted to non-renewable; same RCV accounting applies.
+- **Residual Commons Value (RCV)** — The worth permanently foreclosed when a non-renewable resource — or a renewable resource pushed past regenerative capacity — is drawn down. Framework's pricing-instrument target.
+- **Restitution Bond (B₁)** — Framework's backward-looking accountability instrument — discharges harm already realized. Lineage: reparations-economics.
+- **Stratification economics** — Sandy's field (with Hamilton, Stewart) — analyzes inequality as *intergroup-relational* rather than residual-of-individual-optimization. Disparities in intergenerational resource transfer capacity drive persistence.
+- **Sustained-yield perpetuity (Ostrom)** — Ostrom's commons-governance domain — the regime where institutional design can manage commons indefinitely without state or market intervention. Framework extends to non-sustained-yield contexts.
+- **Two-instrument decomposition** — Framework's structural move: B = B₁ + B₂. Separates backward-looking restitution (Restitution Bond) from forward-looking foreclosure (Foreclosure Bond).
+- ***Umbrellas Don't Make It Rain*** — Hamilton, Darity, Price, Sridharan & Tippett 2015. The methodological foundation for the wealth-as-structural-variable claim. Headline: median Black household headed by a college graduate holds less wealth than median white household headed by someone who dropped out of high school.
+- **Wealth-gap target** — $14T (~$350K per eligible person) — the summary statistic of cumulative injustice in Sandy's program. Cross-validated via the present value of unredeemed 40-acres-and-a-mule promises ($3.1T at 6% / $16.5T at 9% historic capital returns).
 
 ---
 
