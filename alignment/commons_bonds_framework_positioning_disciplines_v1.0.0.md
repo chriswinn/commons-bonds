@@ -409,11 +409,52 @@ Three claims: **what reparations economics did** (FHTE program + Umbrellas metho
 
 ### Why bonds (and not funds, accounts, trusts, or reserves)?
 
+This articulation is high-priority — the question is likely to recur across many interviews (not just Darity). Full rationale captured here for canonical reference; oral-friendly version at top for live-interview drop-in.
+
+**Oral-friendly version (~140 words / ~50 seconds spoken):**
+
 > *The framework chose 'Bond' deliberately over alternatives — Account, Reserve, Fund, Trust — for three structural reasons. First, real-world precedent: reclamation bonds, environmental performance bonds, and surety bonds are existing legal instruments with a century-plus regulatory track record; the framework extends established practice rather than inventing a new vehicle. Second, legal-adoption-travel: the framework's success criterion is vocabulary adoption in regulatory contexts, and 'Bond' already lives there — lawyers and policymakers recognize the structural properties immediately. Third, role-encoding precision: 'Bond' specifies an amount posted against an obligation, returned if conditions are met, forfeited if they aren't — that matches Cost Severance equals RCV minus B cleanly. Account is too generic, Reserve implies one-sided holding, Fund implies general pooling, Trust carries fiduciary connotation but not the conditional-return structure.*
 
 Three claims: **why bonds** (real-world precedent + adoption-travel) → **what makes the structural fit work** (role-encoding precision: posted / returned / forfeited) → **why not the alternatives** (each fails a different structural test).
 
-Full rationale: `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §6.5.
+**Full rationale (5 reasons):**
+
+**1. Real-world precedent.** Reclamation bonds (mining), environmental performance bonds, surety bonds, and posting-bonds-against-future-obligation more broadly are existing legal instruments with a century-plus regulatory track record. The framework extends established practice rather than inventing a new vehicle. When the framework names *Restitution Bond* or *Foreclosure Bond*, it borrows existing structural intuition (post collateral against future obligation; forfeit if conditions not met) and applies it to the framework's specific accountability slot. This is more efficient than coining a category that has no precedent — the cognitive load on the reader is lower because the structural intuition is pre-installed.
+
+**2. Legal-adoption-travel.** The framework's success criterion (per `README.md`) is vocabulary adoption in legal, regulatory, advocacy, and academic contexts where the framework's terms would be used by people solving real problems. *Bond* already lives in those contexts. Lawyers, regulators, and policymakers recognize the term and its structural properties immediately; no translation required to migrate the framework's vocabulary into regulatory text. This is the strongest argument for `-Bond`: it survives the labor-lawyer-using-it-in-a-brief test that defines framework success.
+
+**3. Role-encoding precision.** *Bond* specifies the exact structural relationship the framework's accounting equation requires:
+
+- An amount posted against an obligation
+- Returned if conditions are met
+- Forfeited if they aren't
+
+This matches *Cost Severance = RCV − B* cleanly. B *is* a bond posting — not a fund holding, not a reserve set aside, not a trust managed for beneficiaries. The bond's structural conditionality is the mechanism by which the framework's accounting binds.
+
+**4. Alternatives explicitly tested and rejected:**
+
+| Alternative | Why rejected |
+|---|---|
+| `-Account` | Too generic. Encodes "where the money is" but not the conditional-return structure. Doesn't carry the bilateral-obligation relationship between actor and counterparty. |
+| `-Reserve` | Implies one-sided holding (a buffer set aside) rather than a bilateral obligation. Doesn't carry the conditional-return mechanism — reserves are for absorbing shocks, not for backing specific obligations that resolve to "returned" or "forfeited." |
+| `-Fund` | Implies pooling for general use rather than specific obligation. Wrong structural fit — funds disburse on programmatic decisions; bonds discharge on contractual conditions. The framework's instruments aren't pooled-and-disbursed; they're posted-and-discharged. |
+| `-Trust` | Carries fiduciary connotation (third-party manages on behalf of beneficiary) but doesn't carry the conditional-return structure. The framework's instruments aren't held *for* beneficiaries' benefit; they're held *against* future obligations and forfeit if violated. |
+
+Each alternative was evaluated against three tests: (a) does the suffix encode the conditional-return structure?; (b) does it travel cleanly into regulatory text?; (c) does it survive the cross-political-tradition robustness check? Only `-Bond` passed all three.
+
+**5. Cross-political-tradition durability.** The `-Bond` suffix is politically neutral — bonds appear in regulatory regimes across the political spectrum (mining-industry reclamation bonds in conservative resource-regulatory frameworks; environmental performance bonds in progressive ecological-protection frameworks; surety bonds in commercial-contracting frameworks of all kinds). This passes the cross-political-tradition robustness check unambiguously. *Note:* the associated proper-noun specialization can still fail this check independently — *Reparations Bond* did, which is why it was renamed *Restitution Bond* per the b1_b2_naming pass. The suffix itself is durable; the prefix carries the cross-tradition risk.
+
+**Worked instances in the framework:**
+
+- **Restitution Bond (B₁)** — backward-looking; reparations-economics + restitution-tradition lineage; Tier D engineered for D-modulation adoption-travel.
+- **Foreclosure Bond (B₂)** — forward-looking; environmental-bond + civic-republican lineage; pairs with B₁ in the two-instrument decomposition.
+
+**Cross-references for depth:**
+
+- `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §6.5 — sibling canonical home; integrates with the broader vocabulary-design discipline (Tier A/B/C/D ladder, suffix-convention table, cross-political-tradition robustness check)
+- `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §6.1 — existing suffix-convention table
+- `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` §10.3 — Restitution Bond Tier D term-specific worked example
+- `core/technical-appendix/TechnicalAppendix_v1.0.0.html` §5 — Accountability Bond Decomposition (formal definitions of B = B₁ + B₂)
 
 **Discipline note:** these articulations are the canonical versions. Per-interview prep docs (Darity, Amsterdam, Colden, Lipcius, Mann, future) should cross-reference this section rather than duplicating the language. Subject-specific pivots (e.g., the Foreclosure-Bond-license-to-extract critique handler for Darity) stay in the per-interview prep doc; lineage extensions live here.
 
