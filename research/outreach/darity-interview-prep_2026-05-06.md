@@ -1,7 +1,7 @@
 # Internal interview prep — Professor William Darity Jr. ("Sandy")
 
 **Created:** 2026-05-06 by Claude per author direction.
-**Interview confirmed:** **2026-05-12 at 14:00 ET, phone, 1 hour** (Sandy: "at least an hour if needed"). Sandy's number: 919-452-3118. Author calls Sandy at the agreed time.
+**Interview confirmed:** **2026-05-12 at 14:00 ET, phone, 1 hour** (Sandy: "at least an hour if needed"). Sandy's number: 919-452-3118. Author's number: (912) 944-7217 (shared with Sandy 2026-05-06 in confirmation reply for caller-ID recognition). Author calls Sandy at the agreed time.
 **Status:** READY FOR LIVE USE — not for sending to Darity. Pairs with the pre-read brief at `darity-prereadbrief_2026-05-05.md` (READY TO SEND now that date + modality are confirmed) and the substantive background brief at `darity-background-brief_2026-05-06.md` (NOT sent — for author absorption before the interview).
 **Branch:** `claude/respond-to-valerie-inquiry-mV3Na`
 
