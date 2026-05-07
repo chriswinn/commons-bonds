@@ -56,6 +56,7 @@ This grounds every framework-positioning discipline. Interviews exist primarily 
 | FPD-8 | Scope-explicitness ("lead them to water") | All framework-positioning paragraphs | `research/outreach/framework-scope-explicitness-discipline_2026-05-06.md` |
 | FPD-9 | Substantive background brief (subject's body of work + stances + existing domain vocabulary) | Every accepted interview, drafted EARLY (informs FPD-6) | `research/outreach/darity-background-brief_2026-05-06.md` (model) |
 | FPD-10 | Credibility-first question framing (with axis-matched structure) | All interview question design | working note in `research/outreach/darity-interview-prep_2026-05-06.md` |
+| FPD-11 | Contingency planning for live interviews | Every live interview prep doc | `research/outreach/darity-interview-prep_2026-05-06.md` §"Contingency plan" (model) |
 
 ---
 
@@ -165,16 +166,52 @@ This grounds every framework-positioning discipline. Interviews exist primarily 
 **When to apply:** Every accepted interview, regardless of seniority of subject or topic.
 
 **Structure of the internal prep doc (Darity model):**
-- Header: status, pairs-with reference, branch.
+- Header: status, pairs-with reference, branch, confirmed logistics (date / time / modality / duration).
 - Live interview Q0 attribution prompt (verbal phrasing per FPD-7).
 - Priority questions (verbatim from pre-read brief, so subject's prep matches what we ask).
+- Priority tiering (MUST-ASK / SHOULD-ASK / STRETCH) — for triage if the conversation gets compressed.
 - Follow-up questions (NOT in pre-read brief; secondary plan if priority lands fast).
-- **Three Tiers of Share** (per the Darity model — what to share freely / share post-interview if asked / never share). Pivot anticipations with ~60-second articulations ready for plausible directions the subject might take. Drawn from FPD-9 (substantive background brief) findings.
-- Talking-point notes per priority question (draw-out / push / watch-for).
-- Live-call setup (browser tabs, physical at-hand, recording setup, mental refresh checklist).
+- **Three Tiers of Share** (canonical template below) — what to share freely / share post-interview if asked / never share.
+- **Pivot anticipations** with ~60-second articulations ready for plausible directions the subject might take. Lineage articulations (Hotelling, Ostrom, Polanyi, Mazzucato, Boyce, Marx/Harvey/Klein, reparations economics) live in §"Canonical framework articulations" below — drop-in for any interview. Subject-specific pivots stay in the per-interview prep doc.
+- Talking-point notes per priority question (draw-out / push / watch-for) + chat-open probes (per FPD-10) + vocabulary-failure-surfacing probes.
+- **Live-call setup** (canonical template below) — browser tabs, physical at-hand, recording setup, mental refresh checklist.
+- **Contingency plan** (per FPD-11) — trigger conditions, verbal pivot move, framework-agnostic question bank, what-conversation-still-produces.
 - Any additional asks (e.g., warm-intro requests for adjacent contacts; per-recipient).
 - Post-interview workflow (transcribe, thank-you, tracking updates, decision points).
-- Cross-references — including to the FPD-9 substantive background brief.
+- Cross-references — including to the FPD-9 substantive background brief, FPD-7 attribution protocol, and the canonical articulations / templates in this doc.
+
+**Canonical Three Tiers of Share template:**
+
+| Tier | What | Live-interview behavior |
+|---|---|---|
+| **Tier 1 — share freely** | The framework's analytical contributions: vocabulary (e.g., *cost severance*, *RCV*), key analytical moves (e.g., the two-instrument decomposition, the accounting equation), case-walk specifics, lineage extensions (Hotelling, Ostrom, etc.). | Discuss freely in the live conversation; respond fully to questions about any of these. |
+| **Tier 2 — share post-interview if asked** | Heavy formal artifacts + chapter drafts: Technical Appendix, in-progress chapter drafts, specific case-study research notes. | Don't pre-send. If subject asks during the call: "I'd be happy to send [Tech Appendix / Ch X draft] after the call — it's a heavier artifact so I didn't want to pre-send." Send same day post-call. |
+| **Tier 3 — don't share** | Internal scaffolding (working notes, rigor passes, decision trackers, session handoffs); derivative work in flight (essay drafts in active rewriting); personal-narrative material (Author's Note / Ch 1 autobiographical content). | The framework itself is public; the *scaffolding around the framework* stays internal. |
+
+Per-interview customization: each prep doc can add a Tier 1 + Tier 2 list specific to where the subject's expertise might steer the conversation (e.g., for a fisheries-policy expert, Tier 2 might emphasize Ch 3 over Ch 5).
+
+**Canonical Live-call setup template:**
+
+*Open in browser tabs:*
+- Pre-read brief (refer to questions verbatim if needed)
+- This interview prep doc (follow-up questions, talking-point notes, three tiers, pivot anticipations, contingency plan)
+- Tech Appendix v1.0.0 (`core/technical-appendix/TechnicalAppendix_v1.0.0.html`) — accessible-but-not-script. Reference only if subject asks something specific about the math; do NOT walk through formulas verbally. Move is "I can email after the call."
+- Bibliography (`research/literature/bibliography.md`) — in case subject names a citation we need to look up.
+- Substantive background brief (FPD-9) for the specific subject — for last-second refresh on their positions.
+
+*Physical at hand:*
+- Pen + paper for note-taking (low-friction; better than typing during call).
+- Cup of water (long calls dehydrate).
+- Phone on Do Not Disturb except for the call itself.
+
+*Recording setup* (if subject's chosen attribution category is 1, 2, or 3 at Q0 — only category 4 / off-record means no recording):
+- Tested before the call (bad audio is recoverable; missing audio isn't).
+- Subject's verbal consent to recording captured at the start (after Q0 attribution preference established, before substantive questions).
+
+*Mental setup:*
+- Pre-read the substantive background brief (FPD-9) on the morning of the call (refresh, not new prep).
+- Take 10 minutes before the call to skim the framework's one-paragraph + key terms (cost severance, RCV, accounting equation, two-instrument decomposition) — so the vocabulary is fresh in mouth.
+- The pre-read brief + interview prep + background brief + framework substrate are real preparation. Trust the prep.
 
 **Sequencing:** the FPD-9 substantive background brief should be drafted *before* the FPD-6 internal prep doc is finalized — its findings (subject's reparations program, methodology, stances, recent work) inform the prep doc's pivot anticipations and talking-point notes.
 
@@ -289,6 +326,88 @@ Solar/wind/hydro fall within the framework's analytical reach via their material
 These probes specifically target vocabulary failure-mode surfacing — the highest-value outcome of any interview per the goal-alignment preamble above.
 
 **Origin moment (2026-05-06):** Author pushed back on an over-narrow first version of this discipline ("interview questions should land on territory the subject hasn't extensively addressed in published work"). Refined understanding: the credibility concern is about *naive framing*, not territory choice. We're reaching out to subjects specifically for their expertise; we want to engage settled territory — just framed to acknowledge their established position rather than asking naively. The two-part discipline (credibility-first + axis-matched) preserves both insights.
+
+**Disambiguation note (added 2026-05-06):** The phrase "failure mode" can blur three distinct concepts. Use these three terms instead when precision matters:
+
+| Term | Meaning |
+|---|---|
+| **Vocabulary fit failure** | The framework's vocabulary doesn't work in a subject's domain — it doesn't add analytical work, it competes with existing terms, or it doesn't translate. |
+| **Adoption failure** | The vocabulary, even if technically valid, doesn't get picked up by users in the field — it doesn't propagate. |
+| **Misuse failure** | The vocabulary, once adopted, gets misframed or misused — e.g., diluted into something it isn't. |
+
+Question framings should match the kind of failure being probed. Q3 of the Darity priority questions (vocabulary precision) probes *fit failure*. The "what's a word you've watched fail to land" probe probes *adoption failure*. The "what would you want the framework protected against" probe probes *misuse failure*.
+
+---
+
+## FPD-11 — Contingency planning for live interviews
+
+**The discipline:** Every live interview prep doc includes a contingency section addressing scenarios where the planned conversation flow doesn't work — most importantly, the subject declining to engage framework-specific commentary on the record. The contingency captures (a) trigger conditions, (b) a verbal pivot move that preserves the subject's standing, (c) a framework-agnostic question bank that engages their expertise without requiring framework engagement, and (d) a clear articulation of what value the interview still produces if the pivot is used.
+
+**Why:** Senior subjects sometimes decline to commit publicly to detailed views on work they haven't fully read. This is a senior-scholar instinct, not rejection of the project. Without a contingency, the decline kills the interview's value. With a contingency, the interview produces framework-CONTEXTUALIZATION value (positioning the framework alongside their work, vocabulary mapping, methodology engagement) even if framework-CALIBRATION (their pushback on specific terms) isn't possible.
+
+**When to apply:** Every live interview prep doc, regardless of how confident we are that the conversation will engage the framework directly.
+
+**Required components of the contingency section:**
+
+1. **Trigger conditions** — 3-5 specific signals to watch for (subject explicitly declines, gives surface-level answers, hedges on framework specifics, etc.)
+2. **Verbal pivot move** — exact language to say. Should acknowledge the decline gracefully, return the subject to expert-not-reviewer role, and reassure them the conversation still produces value.
+3. **Framework-agnostic question bank** — 3-5 questions that engage the subject's expertise without requiring framework engagement. These should produce direct quotes, vocabulary mapping, methodology insights, or programmatic context useful for the manuscript.
+4. **What the conversation still produces** — explicit table of what's lost vs. preserved if pivot is used. Justifies the trade.
+5. **Post-interview handling** — async-engagement options (e.g., offering Tech Appendix per Tier 2 share for written follow-up).
+
+**Origin moment (2026-05-06):** Author flagged before the Darity interview that Sandy might decline framework-specific commentary on the record because he hasn't read the manuscript or Tech Appendix in depth. Originally framed too strongly (Sandy has framework context from cold-outreach + pre-read; lower probability than initially captured). Even with low probability, the contingency stays as backup.
+
+**Origin model:** `research/outreach/darity-interview-prep_2026-05-06.md` §"Contingency plan" (the first instance — drafted as part of the Darity prep work).
+
+---
+
+## Canonical framework articulations (oral-friendly, drop-in)
+
+Reusable 3-claim oral-friendly articulations of how the framework relates to canonical intellectual lineages. Each is ~60-90 words / ~30 seconds spoken — designed for live-interview use when a subject asks "how does this add to / extend X?" These are the canonical versions; per-interview prep docs cross-reference rather than duplicate them.
+
+### Hotelling (exhaustible-resource pricing)
+
+> *Hotelling 1931 modeled scarcity rents for exhaustible resources assuming efficient pricing — the math is right. The framework's claim is that the inputs have been wrong: the scarcity rent in Hotelling's sense excludes the cost of permanent option-value foreclosure on future generations, which is what RCV names. The framework's contribution is an accounting instrument that puts intergenerational option-value-loss inside the scarcity rent rather than outside it — making Hotelling's math operate on the right inputs.*
+
+Three claims, in order: **what Hotelling did** (scarcity rents for exhaustibles) → **where it's been wrong** (not in math but in inputs — option-value-loss is excluded) → **what the framework adds** (puts option-value-loss inside the rent).
+
+### Ostrom (commons-governance through institutional design)
+
+> *Ostrom 1990 showed that commons can be governed without state or market through institutional design — but her design principles work specifically for commons that can be managed in sustained-yield perpetuity. The framework extends to commons that can't be managed that way: non-renewable resources from the start, and renewable resources pushed past regenerative capacity. The two-instrument bond architecture is what operates where sustained-yield discipline can no longer apply — accountability-by-instrument for cases where accountability-by-management isn't possible.*
+
+Three claims, in order: **what Ostrom did** (institutional-design commons-governance) → **where her work doesn't extend** (sustained-yield required) → **what the framework adds** (two-instrument bonds for non-sustained-yield contexts).
+
+### Polanyi (fictitious commodities; the deep substrate)
+
+> *Polanyi's fictitious-commodities frame in* The Great Transformation *is the deep substrate the framework builds on. The framework's observation — that certain costs should not be transactable externalities but are treated as such — is a descendant of Polanyi's "land, labor, money are not produced for market exchange" move. Cost severance is the contemporary mechanism that produces the crises Polanyi identified — the framework's contribution is naming the mechanism precisely enough that it can be priced.*
+
+Three claims: **what Polanyi did** (fictitious commodities frame) → **how the framework descends from it** (cost severance as contemporary mechanism producing Polanyi's crises) → **what the framework adds** (naming the mechanism precisely enough to be priced).
+
+### Mazzucato (value-creation / value-extraction)
+
+> *Mazzucato's distinction between value-creation and value-extraction in* The Value of Everything *is the clearest articulation of what economics has been refusing to name precisely. Cost severance is positioned as a precision-add on her value-extraction vocabulary — value-extraction is what the actor does; cost severance is what the actor does to the costs of doing it. The framework operationalizes the value-extraction frame at the transaction level by giving it a pricing instrument and a structural-mechanism vocabulary.*
+
+Three claims: **what Mazzucato did** (value-creation/extraction distinction) → **how the framework refines it** (cost severance as precision-add) → **what the framework adds** (transaction-level operationalization with pricing instrument).
+
+### Boyce (ecological economics + reparations intersection)
+
+> *Boyce at PERI works the intersection of ecological economics and reparations the framework also engages, particularly through* Economics for People and the Planet *and the carbon-dividend literature. Cost Severance Damages is presented as an analytic instrument rather than a programmatic one; Boyce's work shapes how the framework imagines those instruments in distributional terms. The framework's contribution is generalizing the methodology from carbon-specific contexts to extraction-community contexts more broadly.*
+
+Three claims: **what Boyce did** (ecological-economics + reparations + carbon-dividend) → **how the framework engages it** (CSD as analytic instrument shaped by his distributional framing) → **what the framework adds** (methodology generalization beyond carbon).
+
+### Marx / Harvey / Klein (primitive accumulation / accumulation by dispossession / shock doctrine)
+
+> *Harvey's "accumulation by dispossession" in* The New Imperialism *names the contemporary phenomenon — Marx's primitive accumulation operating now, in real time. Klein's shock doctrine names the political conditions under which it accelerates. The framework's contribution is naming the* mechanism *that produces the phenomenon Harvey describes: cost severance is the structural move by which value is extracted while costs are deliberately transferred. Harvey names what; the framework names how.*
+
+Three claims: **what Harvey/Klein did** (named the phenomenon and political conditions) → **what they didn't name** (the structural mechanism) → **what the framework adds** (cost severance as the mechanism producing the phenomenon).
+
+### Reparations economics (Darity / Mullen / Hamilton-et-al)
+
+> *The* From Here to Equality *program (Darity & Mullen 2020) is the contemporary landmark for reparations economics, with the racial-wealth-gap-as-summary-statistic methodology operationalized via Umbrellas Don't Make It Rain (Hamilton, Darity, Price, Sridharan & Tippett 2015). The framework's Restitution Bond instrument is positioned in that lineage — a precision-add on backward-looking restitution as a financial-instrument form. The framework's contribution is the two-instrument decomposition: pairing the Restitution Bond (backward-looking) with the Foreclosure Bond (forward-looking) for harm yet to be realized.*
+
+Three claims: **what reparations economics did** (FHTE program + Umbrellas methodology) → **how the framework descends** (Restitution Bond in the lineage) → **what the framework adds** (forward-looking Foreclosure Bond + decomposition).
+
+**Discipline note:** these articulations are the canonical versions. Per-interview prep docs (Darity, Amsterdam, Colden, Lipcius, Mann, future) should cross-reference this section rather than duplicating the language. Subject-specific pivots (e.g., the Foreclosure-Bond-license-to-extract critique handler for Darity) stay in the per-interview prep doc; lineage extensions live here.
 
 ---
 
