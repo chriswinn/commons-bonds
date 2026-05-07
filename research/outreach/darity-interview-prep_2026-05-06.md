@@ -50,7 +50,7 @@ These match the Darity pre-read brief verbatim. Sandy will have read them in adv
 
 Use these if priority questions land faster than expected, or if Sandy steers the conversation to territory that opens any of these naturally. Do NOT force them; the priority questions are doing the load-bearing work.
 
-6. **RCV (residual commons value) as a separate construct.** *"The framework's second contribution — residual commons value, the worth permanently foreclosed when a non-renewable resource is liquidated — sits in a gap I haven't seen any existing economic vocabulary price. Is that gap real, or is it covered under existing discount-rate / option-value treatment that economics already does? And does RCV survive contact with reparations-economics framing, or is it doing different work?"*
+6. **RCV (residual commons value) as a separate construct.** *"The framework's second contribution — residual commons value, the worth permanently foreclosed when a non-renewable resource, or a renewable resource pushed past regenerative capacity, is drawn down — sits in a gap I haven't seen any existing economic vocabulary price. Is that gap real, or is it covered under existing discount-rate / option-value treatment that economics already does? And does RCV survive contact with reparations-economics framing, or is it doing different work?"*
 
 7. **The Cost Severance accounting equation.** *"The framework's central accounting equation is Cost Severance = RCV − B, where B is the coordinated two-instrument bond posting. The thesis is that across American extraction regimes, B has been far below RCV by orders of magnitude. Does that accounting move read as a useful articulation, or does it flatten distinctions you'd want preserved between extraction regimes?"*
 
