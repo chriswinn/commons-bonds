@@ -9,6 +9,22 @@
 
 ---
 
+## What this interview is for
+
+Per `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Goal alignment": the project's success criterion is **vocabulary adoption at scale** — the framework's terms (*cost severance*, *RCV*, *Restitution Bond*, *Foreclosure Bond*, *CSD*) becoming naturalized in legal, regulatory, advocacy, and academic contexts. This interview exists primarily to **road-test the framework's vocabulary** in the reparations-economics domain, where Sandy is the contemporary landmark.
+
+What we want from this conversation, ordered by load-bearingness:
+
+1. **Vocabulary failure-mode surfacing.** Where does *cost severance* misfire when applied alongside reparations-economics vocabulary? Where does *Restitution Bond* compete with vocabulary the field already has? Sandy's pushback is the highest-value information; "this works" is nice but unactionable.
+2. **Adjacency mapping.** What vocabulary does reparations economics already use for the territory the framework's terms are trying to name?
+3. **Forwardability stress-test.** Can Sandy articulate the framework's vocabulary back to us cleanly? If yes, it travels.
+4. **Direct quotable substrate** for Ch 5 §"Restitution and Foreclosure" + Ch 6 methodology + Bibliography §18.5.
+5. **Scope-claim validation.** Does the framework's claim that the cost-severance mechanism extends naturally from reparations-economics methodology hold up when Sandy engages it?
+
+**Subject pushback is the highest-value outcome.** Confirmation moments are good; pushback moments that reveal vocabulary failure-modes we can fix before publication are *better* — that's what shifts the success criterion's probability.
+
+---
+
 ## Live interview opening — Q0 attribution
 
 **Verbal phrasing** (per `interview-attribution-protocol_2026-05-06.md` §"Live interview"):
@@ -27,6 +43,26 @@
 If Sandy is uncertain, default offer is **Category 2** (paraphrase + review before direct quotes) — common preference for academics, low manuscript-timeline burden.
 
 **Log immediately:** Sandy's chosen category, any modifications agreed during the call.
+
+---
+
+## Priority tiering — what to land if running out of time
+
+Order in the live conversation matches the pre-read brief Sandy received (Q1 → Q5). But not all questions are equally load-bearing for the success criterion. If we're running out of time, prioritize as follows:
+
+| Tier | Questions | If forced to triage |
+|---|---|---|
+| **MUST-ASK** | **Q3** (vocabulary precision); **Q1** (two-instrument decomposition) | Always land. Q3 is the most direct vocabulary-calibration test. Q1 tests whether the framework's analytical move adds work or just renames Sandy's existing vocabulary. |
+| **SHOULD-ASK** | **Q4** (Restitution Bond as reform vehicle); **Q2** (methodology portability); **Q5** (reading recommendations) | Ask if 30-45 min available. Q5 is cheap (2-3 min) and always lands at the close. |
+| **STRETCH** | Follow-ups Q6-Q10 | Only if priority questions land fast and time permits. Q9 is highest-leverage stretch (engages settled territory through chat-open framing); Q10 second (open territory). |
+
+**Time discipline:**
+
+- 30-min call: Q0 + Q0.5 + Q1 + Q3 + Q4 + Q5 — comfortable. Q2 dropped or deferred to email follow-up.
+- 45-min call: Q0 + Q0.5 + Q1-Q5 + room for one stretch question (Q9 recommended).
+- 60-min call (rare): full priority + 2-3 stretch questions.
+
+**Live triage rule:** if Sandy goes deep on Q1 (uses 15+ min), defer Q2 to email follow-up; ask Q3 verbally; Q4 if time; Q5 always.
 
 ---
 
@@ -109,11 +145,11 @@ Use these if priority questions land faster than expected, or if Sandy steers th
 
 6. **RCV (residual commons value) as a separate construct.** *"The framework's second contribution — residual commons value, the worth permanently foreclosed when a non-renewable resource, or a renewable resource pushed past regenerative capacity, is drawn down — sits in a gap I haven't seen any existing economic vocabulary price. Is that gap real, or is it covered under existing discount-rate / option-value treatment that economics already does? And does RCV survive contact with reparations-economics framing, or is it doing different work?"*
 
-7. **The Cost Severance accounting equation.** *"The framework's central accounting equation is Cost Severance = RCV − B, where B is the coordinated two-instrument bond posting. The thesis is that across American extraction regimes, B has been far below RCV by orders of magnitude. Does that accounting move read as a useful articulation, or does it flatten distinctions you'd want preserved between extraction regimes?"*
+7. **The Cost Severance accounting equation (open).** *"How do you read the Cost Severance = RCV − B accounting move? The thesis is that across American extraction regimes, B has been far below RCV by orders of magnitude. What does that articulation surface that prior reparations-economics formulations don't, and what might it elide?"*
 
 8. **Specific empirical case — pick one or two.** *"Of the four CSD-application cases the framework develops — McDowell County coal, Libby asbestos, Niger Delta oil, opioid-Appalachia mortality — is there one you'd push hardest on as a test case for the framework's vocabulary? And one you'd want flagged as a category of harm where the framework's vocabulary risks flattening something important?"*
 
-9. **Restitution Bond's relationship to existing reparations programs in motion.** *"There are reparations programs in motion at multiple scales right now — HR 40 nationally, California's reparations task force, university-level programs at Georgetown and Harvard, municipal programs in Evanston. Does the Restitution Bond instrument sit alongside those as architecture, ahead of them as proposed reform, or behind them as theory catching up to practice?"*
+9. **Restitution Bond's relationship to existing reparations programs in motion (open).** *"How do you situate the Restitution Bond instrument in relation to the reparations programs currently in motion — HR 40, California, Georgetown, Harvard, Evanston? You've been on record about specific concerns with each; the framework's instrument is more general. What's the relationship?"*
 
 10. **Disbursement form across cases (open territory).** *"I'd be curious what comes up for you when you think about disbursement-form instruments outside the Black-American slavery case. The framework engages other backward-looking-restitution contexts — extraction-community cases like McDowell County and Niger Delta, environmental-damage cases — where the harm is often collective and spans generations. The Norway sovereign wealth fund is one comparison point on the spectrum: revenues pooled, returns distributed across generations. Direct payments are at the other end. How do you think about the trade-offs there? Do your four non-negotiables generalize to those cases, or are some of them specific to the Black-American debt?"*
 
@@ -126,22 +162,30 @@ Brief notes on what to draw out + what to push on if Sandy gives a short answer 
 **Q1 (two-instrument decomposition):**
 - Draw out: whether he sees the Restitution / Foreclosure split as analytically distinct or as repackaging.
 - Push if shallow: "Are you concerned the Foreclosure Bond risks reading as a license to extract — pay the bond, extract anyway?"
-- Watch for: any concession on the split's analytical work; any pushback that "the moral case is the bond" (i.e., reduction of forward-looking accountability to a transaction).
+- **Chat-open probe (if his answer doesn't fit either side of the binary):** *"How would you characterize the decomposition in your own terms?"*
+- **Vocabulary-failure probe:** *"Is there terminology your field already uses for the backward/forward-looking distinction, where 'Restitution Bond' and 'Foreclosure Bond' compete, overlap, or substitute for what's already there?"*
+- Watch for: any concession on the split's analytical work; any pushback that "the moral case is the bond" (i.e., reduction of forward-looking accountability to a transaction); any vocabulary alternative he names — that's load-bearing for vocabulary calibration.
 
 **Q2 (methodology portability):**
 - Draw out: which extraction-community case he sees as the best test, which the worst.
 - Push if shallow: "*Umbrellas* methodology relies on matched comparisons across racial categories — does extraction-community methodology need a different matching variable (e.g., proximity to extraction site, generational tenure, etc.)?"
-- Watch for: any specific concern about flattening (his most cited concern about portability across reparations domains).
+- **Chat-open probe:** *"Where does the vocabulary stop working in this methodology-extension — where does 'matched comparison' need to become something else?"*
+- **Vocabulary-failure probe:** *"What word does your field use for what 'CSD' is trying to do, if any? If the term landed somewhere else first, what would have made it stick?"*
+- Watch for: any specific concern about flattening (his most cited concern about portability); any term he names that we haven't engaged.
 
-**Q3 (vocabulary precision):**
+**Q3 (vocabulary precision) — MUST-ASK:**
 - Draw out: a specific yes-or-no on whether *cost severance* adds work.
 - Push if shallow: "Is the work it does adding precision to *primitive accumulation* / *accumulation by dispossession* (Marx / Harvey), or to *expropriation* (Polanyi), or to something else entirely?"
-- Watch for: any vocabulary alternative he prefers — that's the highest-leverage feedback.
+- **Chat-open probe:** *"Is there terminology you'd use for the territory 'cost severance' is trying to name, that we should know about?"*
+- **Vocabulary-failure probe (load-bearing):** *"What's a word in this domain you've watched someone try to introduce that didn't land — what made it fail? What's a word that did land — what made it stick?"*
+- Watch for: any vocabulary alternative he prefers — that's the highest-leverage feedback. Any historical cases of failed vs. successful vocabulary introduction.
 
 **Q4 (Restitution Bond as reform vehicle):**
 - Draw out: political-viability assessment of the bond framing vs. direct-program framing.
 - Push if shallow: "California's reparations task force used direct-payment framing. Would the bond framing have helped or hurt that political path?"
-- Watch for: any conditional ("if the bond were structured to..."); those are the constructive critiques.
+- **Chat-open probe:** *"If the Restitution Bond instrument can't carry your program politically, what does that tell us about the vocabulary?"*
+- **Vocabulary-failure probe:** *"Is there a vocabulary move that *would* carry your program politically, where 'Restitution Bond' falls short?"*
+- Watch for: any conditional ("if the bond were structured to..."); those are the constructive critiques. Any political vocabulary that's worked elsewhere — the framework can incorporate it.
 
 **Q5 (reading recommendations):**
 - Draw out: 2-3 specific papers/books, beyond his own work.

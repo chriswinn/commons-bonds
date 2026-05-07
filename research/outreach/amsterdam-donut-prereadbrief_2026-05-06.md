@@ -19,6 +19,10 @@
 - **Chapter 9 ("entering-wedges"):** Amsterdam's implementation engaged alongside Mondragon, Vienna, Chattanooga municipal broadband, and Alaska Permanent Fund — concrete cases where the cost-severance mechanism has been *bound* by institutional structure rather than left to market self-correction.
 - **Across the book:** DEAL's approach — threading the framework through specific cases rather than codifying it as a how-to methodology — is named as one of the cleanest contemporary demonstrations of the register the framework itself operates in.
 
+## What this conversation is for
+
+The book's success criterion is **vocabulary adoption** — the framework's terms (*cost severance*, *RCV*, *Restitution Bond*, *Foreclosure Bond*) becoming useful in the domains where accountability work actually happens. This conversation is primarily a vocabulary calibration: where does the framework's language work in the operational context of Amsterdam's Doughnut implementation, where does it misfire, and what vocabulary does that work already use? Pushback on framework terms is more valuable than confirmation; "this language doesn't quite fit because..." is the highest-leverage thing you can give us, because it's what the manuscript can revise before publication.
+
 ## Questions I'd most value your view on
 
 1. **Operational calibration.** The framework distinguishes accountability-instrument architectures (where cost-binding is institutionally enforced) from values-statement commitments (where framework adoption is symbolic). Where does Amsterdam's Doughnut implementation sit on that spectrum, and where has it shifted *because of* the framework's operational discipline rather than despite it?

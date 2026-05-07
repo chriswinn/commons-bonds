@@ -5,7 +5,40 @@
 **Version:** v1.0.0 — initial canonical articulation. Eight disciplines surfaced 2026-05-05 → 2026-05-06 during the Ch 3 fieldwork outreach pipeline + Darity interview prep work.
 **Layer:** Internal scaffolding per WP#10. This document is meta-discipline, not framework content; lives at the alignment layer alongside `commons_bonds_working_principles_v1.0.0.md` and `commons_bonds_vocabulary_strategy_v1.0.1.md`.
 
-**Abbreviation:** FPD (Framework-Positioning Discipline), numbered FPD-1 through FPD-8.
+**Abbreviation:** FPD (Framework-Positioning Discipline), numbered FPD-1 through FPD-10.
+
+---
+
+## Goal alignment — what these disciplines are actually for
+
+The book's stated success criterion (per `README.md`):
+
+> *If, ten-plus years from now, a labor lawyer uses "severed cost" in a brief or in open court and the judge does not need it explained — and the author whose name is on the book never knows this happened — the book has succeeded.*
+>
+> *Vocabulary used by people solving real problems. Not royalties, not prizes, not revolution.*
+
+The framework's success is **vocabulary adoption at scale** — the framework's terms (*cost severance*, *RCV*, *Restitution Bond*, *Foreclosure Bond*, *CSD*) becoming naturalized in legal, regulatory, advocacy, and academic contexts where they would be used by people solving real problems.
+
+This grounds every framework-positioning discipline. Interviews exist primarily to **road-test the vocabulary** in the domains where it would be used — not to validate the framework academically, generate prestigious endorsements, or mine soundbites. The disciplines below serve vocabulary adoption.
+
+**What interviews are actually for, ordered by load-bearingness:**
+
+1. **Vocabulary failure-mode surfacing.** Where does the framework's vocabulary misfire in the subject's domain? Subject pushback is the highest-value information; "this works" is nice but unactionable. The framework's terms must survive contact with domain expertise before publication; otherwise they don't propagate.
+2. **Adjacency mapping.** What vocabulary does the subject's field already use for the same territory? If framework terms compete with established vocabulary, we either differentiate analytically or retire the framework term. Only domain experts can supply this map.
+3. **Forwardability stress-test.** A framework whose vocabulary doesn't survive expert conversation won't survive being forwarded by that expert to *their* network. The interview itself tests forwardability — if the subject can articulate the framework's vocabulary back to us cleanly, it travels.
+4. **Lived/institutional substrate** (the conventional purpose). Direct quotes, paraphrased positions, regulatory-architecture detail. Real but downstream of the vocabulary tests above.
+5. **Scope-claim validation.** Does the framework's claim that the same mechanism operates across extraction domains (Sandy on reparations-econ, Colden on fisheries-policy, Amsterdam on applied municipal accountability, watermen on lived working-waterfront experience) hold up when domain experts engage it?
+
+**Practical implications across the disciplines:**
+
+- FPD-5 (pre-read brief): frame the call as vocabulary-calibration, not validation. The pre-read should explicitly invite subject pushback on framework terminology.
+- FPD-6 (internal interview prep): weight pivot anticipations + talking-point probes toward vocabulary failure modes. "Where does this term fail in your work?" "What word does your field already use here?"
+- FPD-7 (attribution Q0): subject's words becoming naturalized through quoting is itself an adoption mechanism. Attribution discipline protects vocabulary uptake.
+- FPD-8 (scope-explicitness): readers must grasp framework scope the first time. Adoption requires this.
+- FPD-9 (substantive background brief): specifically capture the subject's existing domain vocabulary so we can map adjacency / competition / overlap with framework terms.
+- FPD-10 (credibility-first framing): credibility earns standing for substantive vocabulary feedback (vs. polite hedging on the framework's terms).
+
+**Subject pushback is the highest-value outcome of any interview.** A confirmation moment is good. A pushback moment that reveals a vocabulary failure-mode we can fix before publication is *better* — because that's what shifts the success criterion's probability.
 
 ---
 
@@ -21,7 +54,8 @@
 | FPD-6 | Two-artifact pair (pre-read + interview prep) | Every accepted interview | `research/outreach/darity-interview-prep_2026-05-06.md` (model) |
 | FPD-7 | Attribution protocol (Q0 + four preference categories) | Every live interview | `research/outreach/interview-attribution-protocol_2026-05-06.md` |
 | FPD-8 | Scope-explicitness ("lead them to water") | All framework-positioning paragraphs | `research/outreach/framework-scope-explicitness-discipline_2026-05-06.md` |
-| FPD-9 | Substantive background brief (subject's body of work + stances) | Every accepted interview, drafted EARLY (informs FPD-6) | `research/outreach/darity-background-brief_2026-05-06.md` (model) |
+| FPD-9 | Substantive background brief (subject's body of work + stances + existing domain vocabulary) | Every accepted interview, drafted EARLY (informs FPD-6) | `research/outreach/darity-background-brief_2026-05-06.md` (model) |
+| FPD-10 | Credibility-first question framing (with axis-matched structure) | All interview question design | working note in `research/outreach/darity-interview-prep_2026-05-06.md` |
 
 ---
 
@@ -219,6 +253,42 @@ Solar/wind/hydro fall within the framework's analytical reach via their material
 **Origin moment (2026-05-06):** Author flagged before the Darity interview: "It would be odd if I walked in to the interview not knowing the answer to [Sandy's reparations program], and yet ask him what he thinks of restitution bonds & severance bonds." The example named the failure mode the brief prevents.
 
 **Origin model:** `research/outreach/darity-background-brief_2026-05-06.md` (the first instance — created via research-agent dispatch immediately after FPD-9 was canonicalized).
+
+**Vocabulary-adoption refinement:** the brief should specifically capture the subject's existing domain vocabulary — what terms their field already uses for the territory the framework's vocabulary is trying to name. This adjacency map is essential for FPD-6's vocabulary-failure probes (asking "what does your field already call this?" is much sharper when we know the candidate answers).
+
+---
+
+## FPD-10 — Credibility-first question framing (with axis-matched structure)
+
+**The discipline:** Two sub-disciplines acting together.
+
+**(a) Credibility-first framing.** When the subject has extensively addressed the territory in print, frame questions to *acknowledge* their established position rather than asking naively. Naive framing on settled territory ("what do you think about X?" when X is the subject of the subject's published book) signals we haven't read their work and tanks conversational standing. Acknowledging-framing ("your work has been clear that X — how does that connect to Y?") earns standing for engaging their expertise on the framework's territory.
+
+**(b) Axis-matched question structure.** Match the question's structure (binary / pick-list / chat-open) to the subject's authority on the axis being asked about. Binary framing forces useful commitment when the subject is expert on the specific axis being binarized — produces clean quotes, prevents hedging. Chat-open framing invites the subject to characterize in their own terms — appropriate when the subject hasn't extensively explored the axis, or when we want to surface their independent framing rather than evaluate ours.
+
+**Why both matter:** Subjects are chosen *for* their expertise. We want to engage that expertise — most questions should engage settled territory in the subject's domain, framed to acknowledge what they've already said. The two failure modes are (1) asking naively about settled territory (credibility-tank), and (2) forcing binary commitment on open territory along axes the subject hasn't chosen (premature commitment to our framing rather than theirs).
+
+**When to apply:** Every interview question, in design and live execution.
+
+**Connection to vocabulary adoption:** Credibility earns standing for *substantive vocabulary feedback*. A subject who feels respected gives sharper pushback on framework terms — including terms that don't work in their field — because they trust we're listening. A subject who feels we haven't done our homework hedges politely, which is the worst-case outcome for vocabulary calibration.
+
+**Practical decision rule for question structure:**
+
+| Question type | Structure |
+|---|---|
+| Subject is expert on the axis; we want commitment | Binary or pick-list |
+| Subject hasn't explored the axis; we want their independent framing | Chat-open |
+| Subject IS expert AND we expect framework-specific axes they haven't engaged | Binary with chat-open probe ready: *"If your reading doesn't fit either side, how would you characterize it in your own terms?"* |
+
+**Vocabulary-calibration probes** (drop-in language for any binary or pick-list question):
+
+- *"Is there terminology your field already uses for [territory the framework names]?"*
+- *"What word in this domain have you watched someone try to introduce that didn't land — what made it fail?"*
+- *"Where does this language stop working in your work?"*
+
+These probes specifically target vocabulary failure-mode surfacing — the highest-value outcome of any interview per the goal-alignment preamble above.
+
+**Origin moment (2026-05-06):** Author pushed back on an over-narrow first version of this discipline ("interview questions should land on territory the subject hasn't extensively addressed in published work"). Refined understanding: the credibility concern is about *naive framing*, not territory choice. We're reaching out to subjects specifically for their expertise; we want to engage settled territory — just framed to acknowledge their established position rather than asking naively. The two-part discipline (credibility-first + axis-matched) preserves both insights.
 
 ---
 
