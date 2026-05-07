@@ -20,7 +20,7 @@
 
 ## Questions I'd most value your view on
 
-*I'd most value your honest read where the framework's vocabulary competes with terms reparations economics has already developed, or where it doesn't quite fit your domain. The book is in development; the conversation shapes what gets published.*
+*I'd be open to your read on where the framework's vocabulary competes with terms reparations economics has already developed, and whether it adds value. The book is in development; the conversation shapes what gets published.*
 
 1. **Two-instrument decomposition.** Does separating B into a backward-looking Restitution Bond and a forward-looking Foreclosure Bond read as a useful extension of reparations-economics logic — or as a vocabulary-shift that obscures more than it adds?
 2. **Methodology portability.** The CSD instrument applies the *Umbrellas* matched-comparison discipline to extraction-community contexts (McDowell County / Libby / Niger Delta / opioid-Appalachia). Does that port cleanly, or does it flatten distinctions specific to the racial wealth gap that you'd want preserved?

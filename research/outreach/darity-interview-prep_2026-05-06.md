@@ -315,6 +315,67 @@ This is for the live call, not for sending. Have these accessible without leavin
 
 ---
 
+## Contingency plan — if Sandy declines to comment on the framework
+
+**The risk:** Sandy hasn't been sent the manuscript or Tech Appendix; he has only the ~430-word pre-read brief. He may legitimately decline to engage framework-specific moves on the record because he hasn't read them. This is a senior-scholar instinct (don't commit publicly to views on work you haven't deeply engaged), not a rejection of our project. We need a graceful pivot that preserves the conversation's value.
+
+**Trigger conditions (any one of these):**
+
+- Sandy explicitly says he hasn't read enough of the framework to comment.
+- Sandy says he won't be on record commenting on something he hasn't read.
+- Sandy gives short / surface-level answers to framework-specific questions, suggesting he's hedging because of unfamiliarity.
+- Multiple framework-specific questions are landing flat or producing deflection.
+
+**Pivot move (verbal):**
+
+> *"That makes sense — and to be clear, I'm not asking you to comment on something you haven't read in depth. Let me ask about your work directly instead, and I'll use what I learn to position the framework better in the manuscript."*
+
+This:
+- Acknowledges his decline gracefully (preserves his standing).
+- Reframes the conversation as being about HIS work, not OUR framework (returns him to expert-not-reviewer role).
+- Reassures him that the conversation still produces value for us (without making it his service-labor).
+
+**Framework-agnostic question bank** (pick 3-5 based on what's been established already in the conversation):
+
+1. **Vocabulary policing in reparations economics.** *"Beyond 'reparations' itself, what other terms in reparations economics have you seen go through definitional fights — and what does that tell you about how vocabulary gets adopted or rejected in your field?"*
+2. **Stratification economics travel.** *"Stratification economics gives a vocabulary for cross-generational extraction grounded in racial inequality. Have you applied or seen it applied to non-racial extraction contexts? Where does the lens hold up, where does it break?"*
+3. **Forward-looking accountability instrument design.** *"If you had to design a forward-looking accountability instrument — separate from reparations — what would its design constraints be? What would distinguish a useful instrument from a dilution?"*
+4. **Reading recommendations.** *"What in reparations economics today should we be reading that we probably aren't? Beyond your own work."* (Same as priority Q5 — always works.)
+5. **State of the field.** *"Where do you see reparations economics moving in the next five years? What's the most important methodological move the field hasn't made yet?"*
+
+**Why this still produces book value (even if framework-specific calibration doesn't happen):**
+
+| Conversation element | Book destination |
+|---|---|
+| Direct Sandy quotes on his existing work | Ch 5 §"Restitution and Foreclosure" + Ch 6 Methodology cited-evidence material |
+| Vocabulary mapping (Q1 framework-agnostic) | FPD-9 adjacency mapping; informs framework positioning even without direct calibration |
+| Methodology insights (Q2 framework-agnostic) | Ch 6 substrate; CSD's relationship to Umbrellas methodology |
+| Instrument-design constraints (Q3 framework-agnostic) | Ch 9 reform-vehicle discussion; positions Restitution Bond against the constraints he names |
+| Reading recs + field-direction (Q4-Q5 framework-agnostic) | Bibliography expansion; framework positioning in literature |
+
+**The trade we accept by pivoting:**
+- LOST: framework-specific vocabulary calibration (Q1, Q3 of priority list); his pushback on specific terms.
+- PRESERVED: substantive Sandy quotes; vocabulary-mapping data (his terms, his field's debates); methodology engagement; programmatic/political context; reading recs.
+
+**Post-interview handling if pivot is used:**
+
+1. Document in the interview log that framework-specific calibration didn't happen; flag which questions remain open (vocabulary fit, accounting equation, decomposition, etc.).
+2. Send Sandy a short follow-up email post-interview offering the Tech Appendix v1.0.0 (per Tier 2 share, in the Three Tiers of Share section above) — *"If you'd like to engage the framework's specific terms in writing after reading, I'd welcome that as well. Either way, this conversation has been enormously valuable; thank you again for your time."*
+3. If Sandy engages the Tech Appendix or Ch 6 in a follow-up, framework-specific calibration can happen async (written exchange rather than live interview).
+4. Update tracking: mark interview complete; note open vocabulary-calibration questions that may need to come from another reparations-economics voice (Mullen via warm-intro; Boyce; Hamilton; etc.) if Sandy doesn't engage async.
+
+**Why we still made the right call inviting Sandy:**
+
+Even if framework-specific calibration doesn't happen, this interview still:
+- Produces direct quotable substrate for the Restitution-and-Foreclosure section + Ch 6 methodology
+- Gives us vocabulary-mapping data for FPD-9 adjacency analysis
+- Establishes a relationship for potential async engagement (he may engage the Tech Appendix later even if not on the call)
+- Earns conversational standing for any future round (e.g., post-publication thank-you with the bound book, possible blurb request)
+
+The framework-CALIBRATION value is reduced if pivot is used; the framework-CONTEXTUALIZATION value is fully preserved. That's still a net win.
+
+---
+
 ## Mullen warm-intro path (post-interview, if conversation goes well)
 
 Per the Mullen-deferral decision (`interview-outreach-drafts_2026-05-01.md` candidate #3, decision 2026-05-05): don't ask in the scheduling reply; ask at the end of the live interview.
