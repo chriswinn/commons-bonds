@@ -91,6 +91,119 @@ Brief notes on what to draw out + what to push on if Sandy gives a short answer 
 
 ---
 
+## Three tiers of share — what to give Sandy when
+
+Sandy can go many directions. We're prepared for any of them. Three tiers of share keep us calibrated:
+
+### Tier 1 — share freely (pre-read + live + post if asked)
+
+The framework's analytical contributions:
+
+- *Cost severance* vocabulary
+- *Residual Commons Value (RCV)* — covers both non-renewable resources from the start AND renewable resources pushed past regenerative capacity (per FPD-8 scope-explicitness)
+- Two-instrument decomposition (Restitution Bond B₁ + Foreclosure Bond B₂)
+- The accounting equation `Cost Severance = RCV − B`
+- *Cost Severance Damages (CSD)* methodology
+- Hotelling extension — RCV puts intergenerational option-value-loss inside the scarcity rent rather than outside it
+- Ostrom extension — commons-governance for the full extraction spectrum (non-renewable AND renewable past regen)
+- Cross-system framing (capitalism / feudalism / colonialism / Soviet planning) — the structural-not-ideological claim
+- Specific empirical case-walks (McDowell County / Libby / Niger Delta / opioid-Appalachia)
+
+These are the framework's contributions. Engaging them is the point.
+
+### Tier 2 — share post-interview if Sandy asks (do NOT pre-send)
+
+Heavy formal artifacts + chapter drafts:
+
+- **Technical Appendix v1.0.0** (current canonical; v2.0.0 rebuild queued) — `core/technical-appendix/TechnicalAppendix_v1.0.0.html`
+- **Chapter 6 (Three Ways of Counting)** draft — `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html`
+- **Chapter 5 (The Accountability Gap) §"Restitution and Foreclosure"** excerpt — relevant Darity-citing section can be excerpted on request
+- **Specific case-study research notes** — `research/case-studies/` files; can excerpt one or two if conversation goes deep on a case
+
+**How to handle if asked:** "I'd be happy to send you the Technical Appendix or the Chapter 6 draft — they're heavier artifacts so I didn't want to pre-send, but I can email after the call." Note it in the call log; send same day.
+
+### Tier 3 — don't share at all
+
+Internal scaffolding + derivative work in flight:
+
+- Working notes, rigor passes, decision trackers, session handoffs, open-insights tracker (per WP#10 internal-layer discipline)
+- Other essay drafts in flight: Noema rewrite, Aeon pitch, Berggruen submission (these are derivative artifacts in active rewriting; sharing risks scoping them prematurely)
+- Author's Note / Ch 1 personal-narrative material (autobiographical, not relevant to Sandy's engagement; also under consent-rejection rewrite plan)
+
+The framework itself is public; the *scaffolding around the framework* stays internal.
+
+---
+
+## Pivot anticipations — Sandy might go any of these directions
+
+For each, have a clean ~60-second articulation ready. Don't lead with these; respond if Sandy goes there.
+
+### Foreclosure Bond critique — "license to extract" risk
+
+If Sandy raises the concern that the Foreclosure Bond reads as "pay the bond, extract anyway":
+
+> *"The accounting equation does that work: B = RCV is the structural condition. If B is set to RCV, posting the bond IS internalizing the cost — any rational actor stops extracting before posting. If B is set below RCV, the framework explicitly names that as cost severance — exactly the failure mode we're pricing. So the bond framing isn't 'license to extract'; it's the instrument by which 'license to extract' becomes legible."*
+
+### Hotelling extension — what we add
+
+> *"Hotelling 1931 modeled exhaustible-resource extraction assuming efficient pricing of scarcity rents. The framework's claim is that extraction has been systematically mispriced — the scarcity rent in Hotelling's sense excludes the option-value-foreclosure cost, which is RCV. Hotelling's math is right; the inputs to the math have been wrong. The framework adds a pricing instrument that puts intergenerational option-value-loss inside the scarcity rent rather than outside it."*
+
+If he wants depth: bibliography §18.5 (Hotelling, Hartwick, Solow, Pearce-Atkinson, Ramsey).
+
+### Ostrom extension — what we add
+
+> *"Ostrom 1990 demonstrated that commons can be governed without state or market, given specific institutional-design conditions. Her design principles work for renewable commons that can be managed in sustained-yield perpetuity. The framework extends to extraction across the full spectrum — non-renewable resources from the start AND renewable resources pushed past regenerative capacity — where sustained-yield discipline can no longer apply. The two-instrument bond architecture is what operates where Ostrom's sustained-yield discipline can't."*
+
+If he wants depth: bibliography §1 (Ostrom, North, Coase, Hardin).
+
+### Polanyi — the deep substrate
+
+> *"Polanyi's fictitious-commodities frame in *The Great Transformation* is the deep substrate the framework builds on. The framework's observation — that certain costs should not be transactable externalities but are treated as such — is a descendant of Polanyi's 'land, labor, money are not produced for market exchange' move. Cost severance is the contemporary mechanism that produces the crises Polanyi identified."*
+
+### Mazzucato — value-creation / value-extraction
+
+> *"Mazzucato's distinction between value-creation and value-extraction in *The Value of Everything* is the clearest articulation of what economics has been refusing to name precisely. Cost severance is named as a precision-add on her value-extraction vocabulary — value-extraction is what the actor does; cost severance is what the actor does to the costs of doing it."*
+
+### Boyce — ecological economics + reparations
+
+> *"Boyce at PERI works the intersection of ecological economics and reparations the framework also engages, particularly through his *Economics for People and the Planet* and the carbon-dividend literature. Cost Severance Damages is presented as an analytic instrument rather than a programmatic one; Boyce's work shapes how the framework imagines those instruments in distributional terms."*
+
+### Tech Appendix or Chapter 6 review request
+
+If Sandy says he wants to review the formal apparatus or the math chapter:
+
+> *"Happy to send the Technical Appendix v1.0.0 — it's the formal apparatus where the math sits; v2.0.0 is in rebuild but v1.0.0 is the current canonical. I can also send the Chapter 6 draft if you want to engage at the prose-engaging-the-math level; that one's still developing, so caveat that. Either or both, post-call."*
+
+Don't try to walk through formulas verbally on a phone/video call.
+
+---
+
+## Live-call setup — what to have at hand
+
+This is for the live call, not for sending. Have these accessible without leaving the conversation:
+
+**Open in browser tabs:**
+- Darity pre-read brief (`darity-prereadbrief_2026-05-05.md`) — so we can refer to questions verbatim if needed
+- This interview prep doc — for follow-up questions, talking-point notes, the three tiers, pivot anticipations
+- Technical Appendix v1.0.0 (`core/technical-appendix/TechnicalAppendix_v1.0.0.html`) — accessible-but-not-script. Reference only if Sandy asks something specific about the math; do NOT walk through formulas verbally. If he wants depth, the move is "I can email after the call."
+- Bibliography (`research/literature/bibliography.md`) — in case Sandy names a citation we need to look up or cross-reference
+
+**Physical at hand:**
+- Pen + paper for note-taking (low-friction, distraction-free; better than typing during the call)
+- Cup of water (long calls dehydrate; clears the throat)
+- Phone on Do Not Disturb except for the call itself
+
+**Recording setup** (if Sandy's chosen attribution category is 1, 2, or 3 at Q0 — only category 4 / off-record means no recording):
+- Tested before the call (bad audio is recoverable; missing audio isn't)
+- Sandy's verbal consent to recording captured at the start (after Q0 attribution preference established, before substantive questions)
+
+**Mental setup:**
+- Pre-read Sandy's bio + recent op-eds again on the morning of the call (refresh, not new prep)
+- Take 10 minutes before the call to skim the framework one-paragraph + RCV definition + accounting equation — so the vocabulary is fresh in mouth
+- The pre-read brief + this interview prep + the framework substrate are real preparation. Sandy will know within two minutes that we've done the work. Trust the prep.
+
+---
+
 ## Mullen warm-intro path (post-interview, if conversation goes well)
 
 Per the Mullen-deferral decision (`interview-outreach-drafts_2026-05-01.md` candidate #3, decision 2026-05-05): don't ask in the scheduling reply; ask at the end of the live interview.
