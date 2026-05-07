@@ -2,8 +2,10 @@
 
 **Created:** 2026-05-06 by Claude per author direction.
 **Interview date:** week of 2026-05-10 (phone Tue May 12 or Wed May 13; in-person at Duke feasible Wed May 13).
-**Status:** READY FOR LIVE USE — not for sending to Darity. Pairs with the pre-read brief at `darity-prereadbrief_2026-05-05.md` (which IS sent to Darity).
+**Status:** READY FOR LIVE USE — not for sending to Darity. Pairs with the pre-read brief at `darity-prereadbrief_2026-05-05.md` (which IS sent to Darity) and the substantive background brief at `darity-background-brief_2026-05-06.md` (NOT sent — for author absorption before the interview).
 **Branch:** `claude/respond-to-valerie-inquiry-mV3Na`
+
+**READ FIRST:** the substantive background brief (`darity-background-brief_2026-05-06.md`) before working through this prep doc. The background brief's findings about Sandy's reparations program (lineage-based eligibility, $14T figure, federal-only, four non-negotiables, "stop calling everything reparations" position, HR 40 critique, California / Georgetown criticism) directly shape the talking-point notes and pivot anticipations below.
 
 ---
 

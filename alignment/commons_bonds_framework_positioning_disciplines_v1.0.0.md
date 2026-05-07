@@ -21,6 +21,7 @@
 | FPD-6 | Two-artifact pair (pre-read + interview prep) | Every accepted interview | `research/outreach/darity-interview-prep_2026-05-06.md` (model) |
 | FPD-7 | Attribution protocol (Q0 + four preference categories) | Every live interview | `research/outreach/interview-attribution-protocol_2026-05-06.md` |
 | FPD-8 | Scope-explicitness ("lead them to water") | All framework-positioning paragraphs | `research/outreach/framework-scope-explicitness-discipline_2026-05-06.md` |
+| FPD-9 | Substantive background brief (subject's body of work + stances) | Every accepted interview, drafted EARLY (informs FPD-6) | `research/outreach/darity-background-brief_2026-05-06.md` (model) |
 
 ---
 
@@ -134,10 +135,14 @@
 - Live interview Q0 attribution prompt (verbal phrasing per FPD-7).
 - Priority questions (verbatim from pre-read brief, so subject's prep matches what we ask).
 - Follow-up questions (NOT in pre-read brief; secondary plan if priority lands fast).
+- **Three Tiers of Share** (per the Darity model — what to share freely / share post-interview if asked / never share). Pivot anticipations with ~60-second articulations ready for plausible directions the subject might take. Drawn from FPD-9 (substantive background brief) findings.
 - Talking-point notes per priority question (draw-out / push / watch-for).
+- Live-call setup (browser tabs, physical at-hand, recording setup, mental refresh checklist).
 - Any additional asks (e.g., warm-intro requests for adjacent contacts; per-recipient).
 - Post-interview workflow (transcribe, thank-you, tracking updates, decision points).
-- Cross-references.
+- Cross-references — including to the FPD-9 substantive background brief.
+
+**Sequencing:** the FPD-9 substantive background brief should be drafted *before* the FPD-6 internal prep doc is finalized — its findings (subject's reparations program, methodology, stances, recent work) inform the prep doc's pivot anticipations and talking-point notes.
 
 **Origin:** `research/outreach/darity-interview-prep_2026-05-06.md` is the model. Companion to the Darity pre-read brief.
 
@@ -183,6 +188,37 @@ Solar/wind/hydro fall within the framework's analytical reach via their material
 **Application checklist:** see `research/outreach/framework-scope-explicitness-discipline_2026-05-06.md` §"Application checklist." Files corrected 2026-05-06: bibliography Ostrom entry, Darity pre-read brief, Amsterdam Donut pre-read brief, Darity interview prep doc Q6. Files deferred: Chesapeake case-study placeholder, Tech Appendix v1.0.0 (queued for v2.0.0 rebuild), Glossary v3 (queued for v4 rebuild), Ch 6 draft, README.
 
 **Origin moment (2026-05-06):** Author's sales-experience instinct: "regime-agnostic phrasing in proximity to non-renewable-only examples reads as effectively non-renewable framing — readers default to the more familiar interpretation, and the framework's contribution gets understated at exactly the moment we're trying to land it." Plus the renewable-energy-systems edge case: "couldn't you technically leverage the framework to price a renewable like solar or wind power?"
+
+---
+
+## FPD-9 — Substantive background brief (subject's body of work + stances)
+
+**The discipline:** Every accepted interview gets a substantive-background brief — a 1-2 page (~800-1500 word) internal document capturing the subject's body of work, stances on major issues, recent work, institutional positions, and cross-engagements relevant to the framework. Drafted EARLY in the interview-prep cycle (after acceptance, before the FPD-6 internal interview prep doc is finalized) so its findings inform the prep doc's pivot anticipations and talking-point notes.
+
+**Why:** Walking into an interview without knowing the subject's actual program / stance is a credibility-tank moment. Asking a senior scholar what they think of a framework instrument without knowing what they themselves have advocated for in the same domain is operationally embarrassing. The background brief closes that gap — and it goes deeper than the FPD-1 public-record screen, which focuses on whether the subject is on record about specific positions; the background brief covers their full body of work.
+
+**When to apply:** Every accepted interview. Drafted between FPD-5 (pre-read brief) and the augmentation phase of FPD-6 (internal prep doc with pivot anticipations and talking-point notes).
+
+**What it covers (eight categories, adjusted per recipient):**
+
+1. **Subject's program / proposals concretely** — what they advocate; specific numbers / structures / eligibility framings if applicable.
+2. **Methodology / signature work** — what their canonical paper or book actually shows; quotable empirical findings.
+3. **Stance on related instruments / policy proposals** — where they've drawn distinctions; what they support vs. oppose.
+4. **Recent work** — last 18-24 months; papers, op-eds, podcast appearances, congressional testimony.
+5. **Institutional positions and credentials** — current affiliations; recent moves; awards / recognitions worth mentioning.
+6. **Cross-engagement** — frequent collaborators; intellectual ancestors; public-conversations they've had; major contested-terrain positions.
+7. **Where the framework intersects their work** — concrete points of overlap and divergence.
+8. **Things to NOT walk in unaware of** — recent specific positions / op-eds touching the framework's territory; controversies or distinctions the author should be sensitive to; "low-hanging-fruit" knowledge gaps the subject would expect us to have closed.
+
+**Format:** structured markdown with section headers per category; 800-1500 words; inline citations as markdown links. Ends with a "Key takeaways for the live interview" section: 4-6 bullet points the author keeps in mind when engaging the subject.
+
+**Workflow integration:** background brief findings flow into the FPD-6 prep doc's pivot anticipations and talking-point notes. The brief and the prep doc are not parallel; background is upstream. Don't finalize the prep doc until the background brief has been read and absorbed.
+
+**Production note:** for senior scholars / institutional figures with substantial public records, dispatch a research agent (multi-WebSearch + WebFetch synthesis) rather than doing this manually — too many web searches to do efficiently in the main session, and the structured-synthesis output is what we need.
+
+**Origin moment (2026-05-06):** Author flagged before the Darity interview: "It would be odd if I walked in to the interview not knowing the answer to [Sandy's reparations program], and yet ask him what he thinks of restitution bonds & severance bonds." The example named the failure mode the brief prevents.
+
+**Origin model:** `research/outreach/darity-background-brief_2026-05-06.md` (the first instance — created via research-agent dispatch immediately after FPD-9 was canonicalized).
 
 ---
 
