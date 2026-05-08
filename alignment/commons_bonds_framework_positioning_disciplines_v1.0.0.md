@@ -459,7 +459,7 @@ Subject-slug: surname only for individual scholars; surname + qualifier for ambi
 | # | Subject | First artifact created | Status |
 |---|---|---|---|
 | 1 | Sandy Darity | 2026-05-05 (pre-read) | All four artifacts complete; interview 2026-05-12 @ 14:00 ET |
-| 2 | Dagan Cohen | 2026-05-08 (background brief in flight) | Background brief in production; question-screen pass next; pre-read + prep doc + live-call companion gated on Dagan accepting the interview |
+| 2 | Dagan Cohen | 2026-05-08 (background brief) | Background brief complete (`dagan-background-brief_2026-05-08.md`); question-screen pass next using brief findings; pre-read + prep doc + live-call companion gated on Dagan accepting the interview (first-contact email SENT 2026-05-08) |
 
 Future accepted interviews extend this log. The instances log makes the discipline's cumulative application visible.
 
