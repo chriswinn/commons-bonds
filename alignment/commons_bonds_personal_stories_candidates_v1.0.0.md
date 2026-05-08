@@ -232,9 +232,16 @@ Author direction: *"go ahead and delete, I don't need any help remembering that 
 
 Author direction: *"move to the correct book folder for whatever the material is."* Manufacturing-of-future-cost-bearers thread relocated to `archive/_OneDayMaybe/book-two/notes/manufacturing-of-future-cost-bearers_2026-05-01.md`. Politically-charged subject matter (abortion-specific articulation) requires Book 2 activation gates.
 
-### §3.5 draft2.md as content-mining substrate
+### §3.5 draft2.md archived (2026-05-08) — withdrawn-from-Noema essay
 
-`publishing/essay-drafts/draft2.md` (the withdrawn-from-Noema 2026-05-01 essay) currently holds drafted-prose for Candidate #8 (sailboat) + Candidate #9 (IHOP origin) inline. Source-file extraction pending per separate draft2.md break-up plan.
+`publishing/essay-drafts/draft2.md` (the withdrawn-from-Noema 2026-05-01 essay) **archived 2026-05-08** to [`archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md`](../archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md) with §I (wife's-illness opening) **EXCISED** per Candidate #4 deletion discipline. Status: historical record; not active substrate; not publisher-facing. The Noema rewrite (Path B) will start as a fresh draft, not a revision of this archive.
+
+Content extracted to other locations before archive (so the archive doesn't need to be mined):
+- Sailboat content from §VI → integrated into Ch 10 close (Candidate #8)
+- Manufacturing-of-future-cost-bearers from author-dialogue → Book 2 seed file (Candidate #10)
+- IHOP origin from §VI → DELETED per Candidate #9 disposition
+
+Other content (§II–§VII essay prose; author-Claude editing dialogue) retained in archive for historical-record integrity but NOT for active mining. Framework articulation has evolved since this submission; canonical articulations live in chapter drafts + Tech Appendix v2.0.0 + bibliography.
 
 ### §3.6 Candidate #5 deletion (2026-05-05)
 
@@ -243,6 +250,25 @@ Author direction: *"go ahead and delete, we decided not to use any part of the e
 ### §3.7 Candidate #9 deletion (2026-05-05)
 
 Author direction: *"delete '#9 IHOP origin' as it doesn't seem useful."* Following the 2026-05-05 candidate placement-and-fit analysis: Ch 1 ("The Quiet Math") chose a relationship-focused register (father / grandfather / son) that doesn't need a career-arc opening beat. Cross-spectrum-credibility function is carried by Ch 7's three-civilization temporal stress-test (Egypt + Qin + feudalism per case-study audit + Ch 1 GuidanceDoc routing) rather than by IHOP-origin biographical anchor. No source file existed (was inline in `publishing/essay-drafts/draft2.md` §VI line 66); deletion takes effect by inventory removal — the draft2.md break-up plan no longer needs to source-file-extract this beat. Third precedent for source-preservation-discipline override (after Candidates #4 + #5).
+
+### §3.11 draft2.md archived (2026-05-08)
+
+Author direction 2026-05-08: *"I think we can archive 'draft2.md' now, right?"*
+
+Confirmed all extractable content already extracted (Candidate #8 sailboat → Ch 10; Candidate #10 manufacturing-of-future-cost-bearers → Book 2 seed; Candidate #9 IHOP → deleted). Remaining content was historical-only (§II–§VII essay prose; author-Claude editing dialogue) plus the §I wife's-illness passage that needed excision per Candidate #4 deletion discipline.
+
+Implementation:
+- New subdirectory: `archive/_OneDayMaybe/withdrawn-essays/` + `README.md` documenting discipline (historical record; not active substrate; not publisher-facing; do-not-mine)
+- File moved: `publishing/essay-drafts/draft2.md` → `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md`
+- §I wife's-illness opening passage EXCISED before archive per Candidate #4 deletion discipline (wife's-illness content not retained at any layer; archive does not preserve it)
+- Archive header added documenting: status / withdrawal context / excisions / content disposition / cross-references / "do not mine" note
+- §3.5 inventory entry updated to reflect archive state
+
+Pattern established for withdrawn-essay archive discipline:
+- Withdrawn essays preserved as historical record (not active substrate)
+- Author-deleted content (per Candidate #4 / #5 discipline) excised before archive — author-deletion override applies even at archive layer
+- Archive header documents what was excised + why, plus the canonical-references that supersede the archive for active work
+- New essays / rewrites start from fresh drafts, not from withdrawn-archive revision
 
 ### §3.10 Candidate #3 batch ratifications (2026-05-08) — Scenario A + skip remaining beats + Ch 5 labor-arbitrage
 

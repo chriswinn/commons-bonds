@@ -1,15 +1,51 @@
+<!--
+================================================================================
+ARCHIVED — WITHDRAWN FROM NOEMA 2026-05-01
+
+Status:        Historical record. Not active substrate. Not publisher-facing.
+Original use:  Submitted to Noema (commons-bonds essay, 2026-05-01)
+Withdrawn:     2026-05-01 — relied heavily on ex-wife's medical trauma +
+               needed interviews to land. Planning rewrite under Path B
+               (fresh draft; biographical re-anchoring without ex-wife
+               content; interview material) — that work happens elsewhere.
+
+Excisions before archive:
+  §I (original opening, "I did not grimace...") — REMOVED 2026-05-08 per
+    Candidate #4 deletion discipline (author direction 2026-05-01:
+    "we decided not to use any part of the ex wife's story as that
+    trauma is her story to tell"). Wife's-illness content not retained
+    at any layer; archive does not preserve it.
+
+Content disposition (other than §I excision):
+  §II–§VII essay prose retained as historical record of the original
+  Noema submission's framework articulation. The current canonical
+  framework articulation lives elsewhere (terms_index, Tech Appendix
+  v2.0.0, chapter drafts); this archive is for historical reference only.
+
+  The author-Claude editing dialogue at the end of the file is internal-
+  scaffolding that ended up embedded in a publisher-facing-target file;
+  retained here for historical-record integrity. Not for active use.
+
+Cross-references:
+  - Candidate #4 deletion (2026-05-01): wife's-illness source content
+    not retained at any layer
+  - Aeon pitch ("The Mask of Abundance"; title locked 2026-05-08):
+    the active Aeon-track essay; different content from this draft
+  - Noema rewrite (Path B): future work; fresh draft, not draft2 revision
+  - Candidate #8 sailboat content from §VI: integrated into Ch 10 close
+  - Candidate #10 manufacturing-of-future-cost-bearers from author-
+    dialogue: extracted to Book 2 seed file 2026-05-01
+
+This file should not be cited, mined, or used as substrate for active
+work. The framework has evolved since this submission; the chapter drafts
++ Tech Appendix v2.0.0 + bibliography are the canonical articulations.
+================================================================================
+-->
 
 Commons Bonds
 By Chris Winn
 
-I.
-I did not grimace. Not once.
-My wife lay in our bed in Savannah with a wound vac sutured to her abdomen and an ileostomy bag she could not change herself. Her intestines had bound up during pregnancy, starved of blood, gone septic. Her heart had stopped on a hospital table and been restarted. She had, in the most literal sense, died and come back, and she was now processing the emotional reality of that while recovering from the surgery that had saved her and our son.
-The insurance company agreed to cover a home health aide for half of her dressing changes. The other half fell to me. I had never changed a surgical dressing. I had never emptied an ileostomy bag. I had spent two decades teaching myself to code, then selling enterprise software and writing proof-of-concept proposals for companies whose names people recognize — IBM, startups in cybersecurity, a healthcare IT company I co-founded that built patient registries for Johns Hopkins. None of that prepared me for this. But I looked at her — this person who had literally died and been brought back, who was processing the fact of her own death while also trying to be a mother to a newborn — and I understood what she needed. Not a nurse. Not a technician. She needed someone who would never flinch. Someone who would be her rock while she figured out how to live again in a body that had betrayed her. I could give her that. So I did.
-And then paternal leave ran out.
-A deal came through — the kind that funds the mortgage on a big house in a historic district, the kind that keeps the insurance active, the kind you do not say no to if you want to keep the life you have built. I got on a plane. I flew to a client site. I wrote proposals and ran demonstrations and did what I had spent my career learning to do, which was to be valuable enough to justify my compensation. The house in Savannah was beautiful. It was not more beautiful than my family.
-I want to be careful here, because what I am about to name is not a complaint about a bad employer. My employer was not cruel. My colleagues were not indifferent. The system that sent me to an airport while my wife recovered from death and my infant son needed his father in the house was not designed by villains. It was designed by no one at all. It simply operated the way such systems do: it captured the value I could produce, and the cost of my absence — the strain on a marriage already buckling under the weight of trauma, the hours my wife spent alone managing a wound she could barely reach, the months my son spent in a house where his father's presence was a variable determined by sales cycles — was severed from any ledger. It was not carried by anyone who had profited from my labor. It was mine alone to bear.
-I did not have the language for this then. I do now. The value was captured. The cost was severed. And the obligation — to my wife, to my son, to the version of my life that required me to be physically present — was mine alone to carry. Not because anyone chose to be cruel. Because no structure existed to make it otherwise.
+[§I — wife's-illness opening passage — EXCISED 2026-05-08 per Candidate #4 deletion discipline. See archive header above for context.]
 
 This essay is about that structure — or rather, the absence of it. It is about what happens when value is extracted from people, communities, and resources, and the costs of that extraction are cut free and left for someone else to carry. It is about a missing instrument in our economic thinking that allows this to happen at every scale, from a single family to an entire region to the planet itself. And it is about what it might look like to begin building something different.
 
