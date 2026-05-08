@@ -4,7 +4,19 @@
 
 **Consolidated 2026-04-30** by Insight #37 separation pass (Thread β.1) — folds Draft scaffolding (closing meta-notes block from Claude to Chris) into the existing GuidanceDoc.
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. The chapter title in this GuidanceDoc still reads "(The Renewable Imperative)" — the actual chapter title is "Pricing Honestly" per Insight #22 ratification 2026-04-27. Sections from earlier dates may also reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Per Insight #23: Community Transition Reserve mention in Ch 9 line 125 was integrated 2026-04-27 in Book-2-mention-free form per Insight #24 ratification. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass.
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. The chapter title in this GuidanceDoc still reads "(The Renewable Imperative)" — the actual chapter title is "Pricing Honestly" per Insight #22 ratification 2026-04-27. Sections from earlier dates may also reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Per Insight #23: Community Transition Reserve mention in Ch 9 line 125 was integrated 2026-04-27 in Book-2-mention-free form per Insight #24 ratification. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
+
+**[PER-SECTION STALENESS AUDIT 2026-05-08]**
+
+| Section | Status | Notes |
+|---|---|---|
+| § Length (extracted scaffolding) | STALE | already marked inline; word count is now substantially above 5,500 (current ~10,015); cuts/expansions advice predates Insight #23 + #24 |
+| § Voice check | CURRENT | general advice; not vocabulary-specific |
+| § Community Transition Reserve | STALE | already marked inline; per Insight #23 ratification 2026-04-27, CTR was integrated as Path 2 / Version G in Book-2-mention-free form |
+| § Transition to Chapter 10 | CURRENT | general handoff guidance |
+| § "Chapter 9 (The Renewable Imperative)" + Objections section (line ~47) | **REGRESSED** | chapter title is "Pricing Honestly" per Insight #22; the section heading reads stale framework-name |
+| § "CHAPTER 9: THE RENEWABLE IMPERATIVE" content (line ~63 onward) | **REGRESSED** | title regression; "CSG ranking" → CSG retired (renamed "existential substitutability gap" per Insight #33 ratification 2026-04-29); "Renewable Imperative" → renamed to "Substitution Dominance" per Insight #53 ratification 2026-04-29; "spatial cost severance" → retired 2026-04-24; the four-step sequence + framework references need vocabulary update |
+| § "COUNTERARGUMENT 9" section (line ~92) | **REGRESSED title** | "Renewable Imperative" → "Pricing Honestly" / "Substitution Dominance" depending on context. **Body content (the implementation-pathway-doesn't-exist objection + framework response) is CURRENT and load-bearing** — Harvey/Ostrom/Raworth/Desmond framing-changes-what-laws-become-possible argument remains canonical. |
 
 **Cross-references:**
 - `Chapter__9_PricingHonestly__Draft.md` — publisher-facing prose.

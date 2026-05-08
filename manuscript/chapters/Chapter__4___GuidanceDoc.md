@@ -4,7 +4,26 @@
 
 **Frontmatter added 2026-04-30** by Insight #37 separation pass (Thread β.1) — Ch 4 Draft prose was already clean (no scaffolding to extract). This GuidanceDoc retained as-is with staleness disclaimer.
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass; flag inline as encountered during drafting.
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
+
+**[PER-SECTION STALENESS AUDIT 2026-05-08]**
+
+| Section | Status | Notes |
+|---|---|---|
+| § Header / frontmatter / cross-references | CURRENT | Insight #14 cross-reference still load-bearing (Norway canonical exemplar; closed-ratified 2026-04-30) |
+| § "Chapter 4 (THE EXISTENCE PROOF)" + Objections section markers (line ~24-34) | CURRENT | structural marker; chapter title stable |
+| § Chapter 4 Norway-objection paragraph (line ~36) | CURRENT | "Norway had advantages McDowell County didn't" objection + response remains canonical for Ch 4 |
+| § "CHAPTER 4: THE EXISTENCE PROOF" intro (line ~40) | CURRENT | "From our conversations, what lives here:" framing still descriptive |
+| § Norway sovereign wealth fund material (line ~44) | CURRENT | data may have updated since (fund size; per-citizen figures); verify against current state but framing is right |
+| § Where Norway falls short (line ~54) | CURRENT | epistemic-humility framing aligned with Insight #14 ratification |
+| § The key analytical point (line ~62) | CURRENT | "Norway proves cost severance is a policy choice, not a natural law" remains canonical |
+| § Counterarguments woven in (line ~64) | CURRENT | objection-response framing unchanged |
+| § Comparative case within chapter — Nigeria (line ~68) | CURRENT | Norway/Nigeria contrast is in current Ch 4; aligned with Aeon-pitch prep + draft2 §IV three-civilization-triangle framing |
+| § Handling note (line ~70) | CURRENT | register guidance still applies |
+| § "1. THE BOOK NEEDS LIVING PEOPLE" (line ~94) | **PARTIALLY REGRESSED** | book-level guidance (not Ch 4 specific) absorbed into this Ch 4 doc. Some advice now superseded: outreach pipeline IS now active (Darity / Beth-Ingledew Amsterdam intro / Sherfinski / Colden — per recent commits). Coal miner / Norway interview suggestions remain valid but partially overtaken by current outreach state. Should probably MIGRATE to a book-level guidance file if not already there. |
+| § "8. THE BOOK NEEDS COMPARATIVE CASES WITHIN CHAPTERS" (line ~112) | CURRENT | Norway/Nigeria within-Ch-4 contrast point still applies; Ch 7's Egypt+Qin+feudalism three-civilization stress-test is the parallel within-chapter-comparison move |
+| § Duplicate Chapter 4 (Norway) objection paragraph (line ~122) | **DUPLICATE** | same paragraph as line ~36; redundant; could be deleted to clean up |
+| **Missing from guidance (gap, not regression):** | — | Insight #57 Intergenerational Option Value Tier B promotion (ratified 2026-04-30) names Ch 4 as the chapter that "frames the entire chapter argument via option-value reasoning." Current GuidanceDoc doesn't reference Intergenerational Option Value or Henry 1974 / Arrow-Fisher 1974 / Dixit-Pindyck 1994 lineage. Worth adding when this GuidanceDoc gets its next revision pass. |
 
 **Cross-references:**
 - `Chapter__4_THEEXISTENCEPROOF__Draft.md` — publisher-facing prose.

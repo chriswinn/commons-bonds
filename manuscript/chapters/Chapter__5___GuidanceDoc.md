@@ -14,7 +14,24 @@
 - **Word-count resolution:** Per author directive ("let length follow substance vs. trying to hit arbitrary length targets"), no filler identified at 9,459 words. Substance allocation: 6 case studies + 6 counterargument-engagement subsections (4 in 2008 + 2 in Social Security) + Restitution/Foreclosure Bonds apparatus introduction (~1,800 words structural payoff naming the two-instrument response that anchors the rest of the book). All length earns its place.
 - **Cross-chapter flag (out of Ch 5 scope; for future β-thread sweep):** Ch 7 line 109 still uses capitalized `Community Transition Reserves` in policy-mechanism enumeration — Path-2-noncompliant residual from Insight #23 closure (which only covered Ch 2 + Ch 9 explicitly). Worth catching in next β-thread cross-chapter sweep.
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass; flag inline as encountered during drafting.
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
+
+**[PER-SECTION STALENESS AUDIT 2026-05-08]**
+
+| Section | Status | Notes |
+|---|---|---|
+| § Header / β.4 review status (lines 1-15) | CURRENT | β.4 review closed 2026-05-02 with 3 surgical fixes documented; Ch 7 cross-chapter CTR flag noted |
+| § Extracted Draft scaffolding / Chapter-purpose note | CURRENT | reflects 2026-05-02 substance-drives-length discipline; 9,459-word reference matches β.4 close |
+| § "Chapter 5 (THE ACCOUNTABILITY GAP)" / Objections section headings (lines 46-58) | CURRENT | structural marker only |
+| § "CHAPTER 5: THE ACCOUNTABILITY GAP" — case list intro | CURRENT (header) | "From our conversations, what lives here:" framing still descriptive; the case-list below has one regression |
+| § Libby, Montana case (line ~68) | CURRENT | case data still in chapter (Ch 5 line ~16 onward); numerics aligned |
+| § Deepwater Horizon case (line ~80) | CURRENT | case data still in chapter (Ch 5 line ~36 onward); numerics aligned |
+| § Exxon Valdez case (line ~91) | **REGRESSED OUT** | Ch 5 currently has 6 cases (Libby + Deepwater + Baotou + 2008 + Social Security + Healthcare); Exxon Valdez was DROPPED from chapter at some point. Guidance section is historical only. |
+| § Baotou rare earths case (line ~100) | CURRENT | case data still in chapter (Ch 5 line ~56 onward); numerics aligned |
+| § Social cost of carbon section (line ~109) | **REGRESSED OUT** | SCC discussion not present in current Ch 5; data + framing absorbed elsewhere or simply dropped from chapter scope. Guidance section is historical only. |
+| § Pattern statement (line ~117) | CURRENT | still descriptive of chapter's structural argument |
+| § Counterarguments / handling notes (line ~119) | PARTIALLY REGRESSED | "None explicitly in this chapter. The cases speak for themselves" is now WRONG — current Ch 5 has 6 counterargument-engagement subsections (4 in 2008 + 2 in Social Security per β.4 review log) + Restitution/Foreclosure Bonds two-instrument section. Original guidance predates the chapter's evolution to include explicit counterargument engagement. |
+| § Missing from guidance (chapter has them; guidance doesn't reference) | — | 2008 financial crisis case + Social Security case + Healthcare commons case + Restitution/Foreclosure Bonds two-instrument section (line ~205 in Ch 5) — all integrated since this guidance was written; not reflected here |
 
 **Cross-references:**
 - `Chapter__5_THEACCOUNTABILITYGAP__Draft.md` — publisher-facing prose.
