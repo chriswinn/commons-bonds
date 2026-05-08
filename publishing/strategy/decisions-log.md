@@ -6,6 +6,27 @@
 
 ---
 
+## 2026-05-08 (later) — Recalibrate green-light rule and Wave 1 timing; correct chapter-summaries source
+
+**Decision.** Three corrections to `cascade-plan_2026-05-06.md` and `publishing/book-proposal/05_chapter-summaries.md`:
+
+1. **Chapter-summaries source corrected.** GuidanceDocs are scaffolding artifacts (WP#10 layer-classification + staleness disclaimers), not content sources for publisher-facing artifacts. The book proposal's chapter summaries pull from the drafted chapters in `manuscript/chapters/Chapter__N__*__Draft.md` — *not* from `Chapter__N___GuidanceDoc.md`. Same logic applies to overview voice samples (use chapter prose) and sample chapters (use chapter drafts directly).
+
+2. **"Two to four published derivative works at respected venues" framing dropped.** That was a generic-first-author rule of thumb, miscalibrated for this project's actual material strength: 9 of 10 chapters drafted, named-source interview pipeline already converting (Darity ACCEPTED), formal framework apparatus (RCV + Cost Severance), Pattern-2 implementation channel open (Amsterdam DEAL via Dagan). Replaced with the realistic floor: complete book proposal + ≥1 essay at editor-review stage at a top-tier venue + ≥1 substantive named-source interview recorded with quote-permission. "Under consideration at \_\_\_\_" is queryable in good faith if real and current.
+
+3. **Wave 1 agent-query target shifted from November 2026 to late July / early August 2026.** The November target was driven by the higher-bar 2-4 placements assumption. Under the lower floor — and given this author's actual drafting pace (~12K words/week sustained during book writing) — the proposal can be assembled in a 3-week focused sprint targeting late June completion, with the comp-titles section already 80% drafted and chapter summaries pulling from already-drafted chapters. ~3-month acceleration. Wave 2 shifts from Jan to Sept-Oct 2026; Wave 3 shifts from Mar 2027 to Q4 2026 / Q1 2027. Strategic frame point 5 reframed: format mix (magazines + op-eds + academic/policy) builds platform breadth across waves rather than gating Wave 1.
+
+**Context.** Author surfaced the 2-4 placements framing as miscalibrated against earlier-conversation guidance from other Claude sessions, which had suggested one placement (or one substantive submission under consideration) could suffice within the response window. Pressure-tested the math: drafting pace, comp-titles section already drafted, chapter drafts as sample-chapter source, Darity interview May 12 effectively banked — confirms the lower floor and faster timeline are realistic for this project specifically. Also clarified the source-of-truth pointer for chapter summaries (chapters, not GuidanceDocs) — the GuidanceDocs stay in place under WP#10 layer-classification with their staleness disclaimers; they are not consulted for publisher-facing content. Their archive moment is at pre-publication external review (Insight #39), not now.
+
+**Supersedes.**
+- `cascade-plan_2026-05-06.md` Context-section "two to four published derivative works at respected venues" framing.
+- `cascade-plan_2026-05-06.md` Strategic frame point 5 (format mix as Wave 1 prerequisite → ongoing build); point 6 (green-light rule recalibrated).
+- `cascade-plan_2026-05-06.md` 12-month sequence June through April 2027 (proposal sprint inserted in June; Wave 1 shifted to July-Aug; Wave 2 to Sept-Oct; Wave 3 to Q4-Q1).
+- `cascade-plan_2026-05-06.md` Verification section (3-month checkpoint added; 6-month checkpoint reframed; green-light line updated; abort/pivot Wave-2 calendar context).
+- `publishing/book-proposal/05_chapter-summaries.md` source-mapping table + drafting-rules section (GuidanceDocs → chapter drafts).
+
+---
+
 ## 2026-05-08 — Cascade plan refresh: integrate v1.52.0 + post-handoff state; resolve two open decisions
 
 **Decision.** Refresh `cascade-plan_2026-05-06.md` and `rights-register.md` to reflect canonical state per session-handoff v1.52.0 (2026-05-06) plus subsequent commits through 2026-05-08. Two `Decisions due in 2–4 weeks` items resolve out: the Aeon title and the `draft2.md` fate.

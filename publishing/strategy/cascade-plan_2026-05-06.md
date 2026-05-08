@@ -7,7 +7,7 @@
 
 ## Context
 
-The book Commons Bonds is in active drafting. The path to a trade-publisher contract goes through a literary agent, and a credible agent pitch needs a platform — for a first-time author with no prior placements, that means **two to four published derivative works at respected venues** plus a complete book proposal.
+The book Commons Bonds is in active drafting. The path to a trade-publisher contract goes through a literary agent. A credible agent query for this project needs: a complete book proposal, plus enough demonstrated editorial credibility to clear the agent's bar. For *this* author — manuscript drafted, named-source interview pipeline already converting (Darity ACCEPTED), framework with a formal apparatus — the realistic floor is **complete proposal + ≥1 essay at editor-review stage at a top-tier venue + ≥1 substantive named-source interview recorded with quote-permission**. "Under consideration at \_\_\_\_" is a queryable signal in good faith if real and current; multiple published placements are not a prerequisite.
 
 The May 1, 2026 rewrite-plan ratified "Path B" — book-first, essays paraphrase from chapters once stable. For this strategy the user has explicitly **overridden Path B in favor of parallel tracks**: Aeon (Ch 7-derived, draft ready) is not gated on Ch 1, and book + essay tracks advance simultaneously. The user has also expanded "derivative works" beyond literary/ideas magazines to include op-eds in major newspapers and academic/policy outlets — but excluded podcasts and owned channels (no Substack/newsletter).
 
@@ -45,8 +45,8 @@ The strategic constraint that stays load-bearing: **non-partisan framework posit
 2. **Rights-aware allocation.** One chapter → one venue → one frame, no double-dip. Aeon's 5-yr digital + 1-yr print exclusivity and Noema's "no overlap" rule make this enforcement, not a stylistic choice. Track in a register.
 3. **Non-partisan first, applications later.** Framework universality must be established before any specialized-application piece runs.
 4. **Length follows substance.** No chapter or essay gets padded to hit a target word count. Cuts and additions are content-driven; venue word limits are constraints to fit, not floors to reach.
-5. **Format mix demonstrates platform breadth.** Target = 2 magazine essays + 1–2 op-eds + 1 academic/policy piece by the time agent queries go out. The mix matters: agents read it as "this person can write across registers."
-6. **Agent green-light rule:** ≥2 placements live or accepted (any mix) AND book proposal complete AND ≥1 interview recorded. No earlier.
+5. **Format mix builds platform breadth over time.** Mix target — 2 magazine essays + 1–2 op-eds + 1 academic/policy piece — strengthens the package as it accumulates. It is *not* a Wave 1 prerequisite; it should be in place to support Waves 2–3 with stronger platform paragraphs than Wave 1.
+6. **Agent green-light rule (Wave 1):** complete book proposal AND ≥1 essay at editor-review stage at a top-tier venue (or already placed) AND ≥1 substantive named-source interview recorded with quote-permission. "Under consideration at \_\_\_\_" is queryable in good faith if real and current.
 
 ---
 
@@ -63,36 +63,33 @@ The strategic constraint that stays load-bearing: **non-partisan framework posit
 - **A** — Apply post-Darity revision pass to Aeon ("The Mask of Abundance") through May 13–31. **Submit first week of June** when portal opens.
 - **A** — Begin Boston Review essay from Ch 5 (Accountability Gap). Target ~4,500 words; institutional/measurement frame.
 - **A2** — Open the op-ed pipeline: keep two ~900-word drafts ready (one Norway/sovereign-wealth frame from Ch 4, one McDowell-County true-cost frame from Ch 8) so when news triggers, turnaround is 1–2 days. Project Syndicate + Bloomberg Opinion are the realistic primary targets; NYT/WaPo are stretch.
-- **B** — Continue Ch 3 drafting from scaffolding toward first full draft.
+- **B** — Continue Ch 3 drafting once Colden / Moore CBF interview material lands.
 - **C** — Berggruen first full draft.
-- **E** — Build the 25-name agent long-list in `publishing/agents/targets.md`.
+- **E** — **Proposal sprint (target completion: late June 2026, ~3-week focused effort).** Write `00_overview.md` (10–15pp), `01_market-and-audience.md`, `04_marketing-plan.md`, `05_chapter-summaries.md` (one page per chapter, sourced from drafted chapters in `manuscript/chapters/` — *not* GuidanceDocs). Tighten `02_comp-titles.md` to final 5–6 selection; refresh `03_author-platform.md` as essay placements / interviews land. Build the 25-name agent long-list in `publishing/agents/targets.md` in parallel.
 
 ### July 2026
-- **A** — Boston Review submission mid-month.
-- **A** — If Aeon rejects (median ~6–10 wk), reframe Mars piece for Noema or Public Books. Have the reframe outline ready *before* Aeon's decision arrives.
-- **B** — Ch 3 first full draft target by end of July (the remaining drafting bottleneck).
+- **A** — Boston Review submission mid-month (becomes the second under-consideration signal).
+- **A** — If Aeon rejects (median ~6–10 wk), reframe "Mask of Abundance" for Noema or Public Books. Have the reframe outline ready *before* Aeon's decision arrives.
+- **B** — Ch 3 first full draft target by end of July, contingent on Colden / Moore material.
 - **C** — Berggruen polish; **submit by Aug 5** to leave a 12-day buffer.
-- **D** — Mazzucato follow-up nudge if no reply by week 6. Darity follow-up note + thank-you with quote-confirmation request after the May meeting. Dr. Colden status check.
+- **D** — Mazzucato follow-up nudge if Albrecht-routed substantive reply hasn't landed by mid-June+6wk. Darity follow-up note + quote-confirmation request banked from the May 12 call. Dr. Colden / Moore status checks.
+- **E** — **Wave 1 agent queries (8 of 25)** — fire **late July or early August** when green-light rule met (proposal complete + ≥1 essay at editor-review at a top-tier venue + ≥1 interview recorded). Stagger to learn from responses; track in `query-tracker.md`.
 
 ### August 2026
 - **C** — **Aug 17 Berggruen deadline.** Hard.
-- **A** — Begin Noema rewrite using Path B structure. Ch 1 final; Darity interview banked May 12. **§V third-anchor decision still gated on Colden interview outcome** — finalize anchor (Mondragon / Vienna / Ecuador-Whanganui / Amsterdam DEAL) once Colden + Moore CBF tracks land.
+- **A** — Begin Noema rewrite using Path B structure once Colden interview gating resolves. **§V third-anchor decision** finalizes among Mondragon / Vienna / Ecuador-Whanganui / Amsterdam DEAL once Colden + Moore CBF tracks land.
 - **A3** — Decide academic/policy placement: recommend Real-World Economics Review (heterodox-econ, fast turnaround, no impact-factor games) for a methods-note adaptation of Ch 9's four-step framework. Brookings/PIIE briefs require institutional affiliation; hold unless a fellowship lands.
-- **B** — First proposal-grade chapter summaries (one page per chapter), drawn from `___GuidanceDoc.md` files.
+- **E** — Wave 1 closes; reflect on response rate; pull Wave 2 prep forward if green signal lands or rework query letter / platform paragraph if 0/8 returns interest.
 
 ### September–October 2026
 - **A** — Noema cold resubmit (Sept). Boston Review decision likely mid-Sept.
-- **B** — Complete book proposal: overview (10–15 pp), market, comp titles, marketing/platform, chapter summaries, two sample chapters. **Recommended samples: Ch 7 + Ch 5** (strongest finished pair).
 - **A3** — RWER methods-note submission.
-- **E** — Query letter v1; rank agent list to 25.
+- **E** — **Wave 2 agent queries (8 more)** incorporating Wave 1 feedback.
 
-### November 2026
-- **E** — **Wave 1 agent queries (8 of 25)** — only if green-light rule met (≥2 placements live or accepted, proposal complete, ≥1 interview recorded). Stagger to learn from responses.
-
-### December 2026 – April 2027
-- **A** — Third magazine essay (Atlantic Ideas or Foreign Policy) adapting Ch 9.
+### November 2026 – April 2027
+- **A** — Third magazine essay (Atlantic Ideas or Foreign Policy) adapting Ch 9; strengthens platform paragraph for Wave 3.
 - **A2** — Continue opportunistic op-ed pipeline.
-- **E** — Wave 2 (8 queries, Jan), Wave 3 (9 queries, Mar). By April expect representation offers or a clear pivot signal.
+- **E** — Wave 3 (9 queries, Q4 2026 / Q1 2027). By April 2027 expect representation offers or a clear pivot signal.
 
 ---
 
@@ -170,20 +167,27 @@ The 25-name list mix: ~60% econ/policy big-idea, ~25% narrative-nonfiction-with-
 - Aeon ("The Mask of Abundance") acknowledges receipt within 7 days of first-week-of-June submission.
 - Ch 3 makes visible substantive progress June–July (structural completeness and content coverage, not word count).
 
+**3-month checkpoint (Aug 2026):**
+- Aeon at editor-review (acknowledged) or decided.
+- Boston Review at editor-review (acknowledged) or decided.
+- Book proposal complete; circulating to beta readers if any.
+- Darity interview recorded with quote-permission; ≥1 additional interview banked (Mazzucato, Colden, Moore, or Dagan).
+- Wave 1 agent queries fired (target late July / early August).
+- Berggruen submitted (Aug 17 deadline).
+
 **6-month checkpoint (Nov 2026):**
-- ≥1 essay placed OR in final-revisions at primary venue.
-- Book proposal complete and circulating to beta readers.
-- ≥1 interview recorded.
-- Berggruen submitted (binary).
-- Agent target list fully vetted with personalization done.
+- Wave 1 closed; Wave 2 in flight or complete.
+- ≥1 essay placed OR at advanced editor-review at a top-tier venue.
+- ≥2 substantive interviews recorded.
+- Pattern emerging from agent responses (representation interest, requests for partials/fulls, or clear-pass signal indicating query letter or platform paragraph rework needed).
 
 **Abort/pivot conditions:**
 - 3 essay rejections with no requests-to-revise → reassess voice/pitch fit (not the framework).
-- 0 of 8 Wave-1 agent queries return interest → pause Wave 2; rework query letter and platform paragraph; consider a fourth essay before Wave 2.
-- Ch 3 still in scaffolding by Aug 1 → restructure proposal's chapter-summaries to lean on the seven completed chapters; treat Ch 3 + Ch 6 as work-in-progress in the proposal note.
+- 0 of 8 Wave-1 agent queries return interest → pause Wave 2 (Sept-Oct); rework query letter and platform paragraph; consider a third essay submission or a placed op-ed before Wave 2.
+- Ch 3 still gated on CBF interviews by July 1 → in the proposal, lead with Ch 7 + Ch 5 as the two samples (already recommended); flag Ch 3 as in-progress in the chapter-summaries section.
 - Berggruen missed → not fatal; redirect that essay to Noema or Public Books.
 
-**Green-light to query agents:** ≥2 placements live or accepted (any mix of magazine/op-ed/academic), ≥1 interview transcript in hand, proposal complete, Ch 7 + Ch 5 polished as samples. **November 2026 target; pushing earlier weakens the package.**
+**Green-light to query agents (Wave 1):** complete book proposal + Ch 7 + Ch 5 polished as samples + ≥1 essay at editor-review stage at a top-tier venue (or already placed) + ≥1 substantive named-source interview recorded with quote-permission. **Late July / early August 2026 target.** Earlier risks a thin proposal; later than September stales the early under-consideration signals.
 
 ---
 
@@ -235,3 +239,4 @@ The 25-name list mix: ~60% econ/policy big-idea, ~25% narrative-nonfiction-with-
 
 - **2026-05-06 (morning).** Cascade plan ratified and committed (`b19e917`). Companion files created across `publishing/strategy/`, `publishing/agents/`, `publishing/book-proposal/`, `publishing/op-eds/`.
 - **2026-05-08.** Refresh integrating session-handoff v1.52.0 + post-handoff commits through 2026-05-08: Aeon title ratified ("The Mask of Abundance"); Darity interview confirmed 2026-05-12 @ 14:00 ET; outreach pipeline state per v1.52.0; Beth → Dagan (Amsterdam DEAL) intro materialized + response sent; withdrawn-Noema essay archived; FPD v1.0.0 referenced; Candidate #2/#3 personal-story relocations reflected; mask-terminology lineage discipline added to risks. Two `Decisions due in 2–4 weeks` items resolved (`draft2.md` fate; Aeon title). See `decisions-log.md` 2026-05-08 entry for full record.
+- **2026-05-08 (later).** Recalibrated three things: (1) chapter-summaries source corrected from GuidanceDocs to drafted chapters; (2) "two to four published derivative works" framing dropped from Context — replaced with calibrated minimum (proposal complete + ≥1 essay at editor-review + ≥1 interview recorded); (3) Wave 1 agent-query target shifted from November 2026 to **late July / early August 2026**, with proposal sprint targeting late June completion. Wave 2 → Sept-Oct; Wave 3 → Q4 2026 / Q1 2027. Strategic frame points 5 + 6 updated; 3-month checkpoint added; 6-month checkpoint reframed; abort/pivot timings adjusted. See `decisions-log.md` 2026-05-08 (Recalibrate) entry.
