@@ -1059,6 +1059,45 @@ These two NASA patent records are cited in the Author's Note ("On Wind Tunnels a
 
 ---
 
+## 21. Black literary tradition — unmasking systemic harm (*Mask of Abundance* title-engagement)
+
+The framework's Aeon-pitch title — *The Mask of Abundance* — uses the construction "the mask of X" that places it structurally inside a 130-year tradition of Black literary work on masks as figures for hidden systemic harm. The framework's actual subjects of cost severance — communities near extraction sites, often historically the same communities the Dunbar tradition speaks of — perform the same kind of mask-wearing the tradition names. The choice to engage the lineage explicitly (vs. silent borrowing) was made 2026-05-08 per Aeon-pitch title rigor pass v1.0.0; engagement plan: brief acknowledgment in the Aeon essay + substantive engagement in Ch 8 (McDowell coal miner) + Ch 1 (framework's intellectual lineage). These four foundational citations establish the tradition the framework joins; contemporary extensions (Hartman, Sharpe, Coates [§18.5], Morrison, Lorde) can be added as engagement deepens.
+
+### Dunbar, Paul Laurence. "We Wear the Mask." In *Lyrics of Lowly Life.* Dodd, Mead and Company, 1896.
+
+- **Summary:** Foundational fifteen-line poem on the mask Black Americans wear to navigate white-supremacist society. The mask "grins and lies" while hiding "torn and bleeding hearts." Establishes the structural move at the center of the tradition: mask hides the pain of those harmed by systemic injustice; removing the mask reveals what the system has done to them.
+- **Relevance:** **LOAD-BEARING (title engagement, Aeon pitch).** The Aeon-pitch title *The Mask of Abundance* uses the "the mask of X" construction that this poem established in Black American literature. The framework's structural move — the mask of abundance hides the costs absorbed by extracted-from communities; removing the mask reveals who bears what — is the same kind of move Dunbar's tradition has done for over a century. Engaging the lineage explicitly is the framework's commitment per title rigor pass v1.0.0 (2026-05-08).
+- **Relationship:** **STRUCTURAL HOMAGE (lineage entry).** The framework joins the tradition rather than borrows from it: the framework's actual subjects of severance are often the same communities Dunbar's tradition speaks of (Appalachian and Black miners, communities downstream of every extraction site). Explicit acknowledgment in the work is the difference between joining and borrowing.
+- **Chapter relevance:** Ch 1 (framework intellectual lineage paragraph — to be drafted; commits the framework to the Dunbar / Du Bois / Ellison / Fanon tradition at the point where the framework's central rhetorical move first surfaces); Ch 8 (McDowell County coal miner case-walk — the miner's mask is the framework's subject; explicit threading of Dunbar tradition into the case); Aeon essay (brief in-text aside near the abundance-mask passage).
+- **Available at:** https://www.poetryfoundation.org/poems/44203/we-wear-the-mask
+- **Status:** added 2026-05-08 per Aeon-pitch title rigor pass v1.0.0 ratification.
+
+### Du Bois, W. E. B. *The Souls of Black Folk.* A. C. McClurg, 1903.
+
+- **Summary:** Foundational text in Black American thought. Introduces "double consciousness" — *"this sense of always looking at one's self through the eyes of others"* — extending the mask-as-survival-strategy from Dunbar into a more general account of how systemic injustice shapes the inner experience of those it harms. The mask in Du Bois's frame is structural, not merely performed: a doubled self that sees itself both as human and as the projection the dominant society casts.
+- **Relevance:** **SUPPORT (title-engagement lineage, Aeon pitch).** Du Bois extends the mask-tradition into a general theory of how marginalized communities experience the systems that harm them. The framework's claim — that severed costs are absorbed by communities the system makes invisible to itself — is structurally the cost-accounting analog of Du Bois's double-consciousness account.
+- **Relationship:** **LINEAGE EXTENSION (general theory of structural masking).** Where Dunbar names the survival strategy, Du Bois names the structural condition that produces it. The framework names the cost-accounting mechanism that condition operates within.
+- **Chapter relevance:** Ch 1 (intellectual lineage paragraph); Ch 8 (extraction-community case-walks); referenced as part of the engagement-tradition in the Aeon essay.
+- **Status:** added 2026-05-08 per Aeon-pitch title rigor pass v1.0.0 ratification.
+
+### Fanon, Frantz. *Black Skin, White Masks.* Translated by Charles Lam Markmann. Grove Press, 1967. Originally *Peau noire, masques blancs,* Éditions du Seuil, 1952.
+
+- **Summary:** Foundational text in postcolonial thought. Extends the mask tradition into the colonial context: the colonized subject is forced to wear the colonizer's mask — to internalize the colonizer's standards, vocabularies, judgments — to survive in the colonial system. The mask is both psychological and structural: the system requires the mask, the subject wears it to live, the wearing damages the subject in ways the colonizer cannot see and refuses to name.
+- **Relevance:** **SUPPORT (title-engagement lineage, Aeon pitch — closest theoretical kin).** Fanon extends the mask tradition into the colonial-economic register that the framework's extraction-community cases sit closest to. The framework's claim — that costs are absorbed by communities the system structures to be invisible — is the cost-accounting analog of Fanon's account of how colonial systems make the colonized's wearing of the mask economically and psychologically unavoidable.
+- **Relationship:** **LINEAGE EXTENSION (colonial-economic register; closest 20th-century formulation to the framework's mask-of-abundance).** Both Fanon's mask and the framework's mask-of-abundance name how systems of extraction force the extracted-from to absorb costs the extractors don't see.
+- **Chapter relevance:** Ch 1 (intellectual lineage paragraph); Ch 8 (extraction-community case-walks — Fanon's framing is the closest theoretical kin to McDowell coal miner case); any Niger Delta case in book (most direct Fanon-lineage extraction-community case).
+- **Status:** added 2026-05-08 per Aeon-pitch title rigor pass v1.0.0 ratification.
+
+### Ellison, Ralph. *Invisible Man.* Random House, 1952.
+
+- **Summary:** Foundational novel in Black American literature. Extends the mask-tradition into the figure of the invisible man — the narrator whom white American society refuses to see, who must wear the mask of whatever projection white observers cast onto him. The novel's central insight: invisibility is not absence; it is the active refusal of the dominant society to see what is in front of it. The mask the invisible man wears is the mask the society needs him to wear in order to maintain its own self-image.
+- **Relevance:** **SUPPORT (title-engagement lineage, Aeon pitch).** Ellison's invisible-man figure is the prose-novel companion to Dunbar's mask-poem and Du Bois's double-consciousness essay. The framework's claim — that severed costs are absorbed by communities the system structures to be invisible — connects directly: the system maintains its self-image by refusing to see who bears the costs of what it consumes.
+- **Relationship:** **LINEAGE EXTENSION (prose-novel register; long-form narrative of life under the mask).** Where Dunbar gives the survival strategy, Du Bois the structural condition, and Fanon the colonial extension, Ellison gives the long-form narrative of life under the mask — what it costs the wearer over time.
+- **Chapter relevance:** Ch 1 (intellectual lineage paragraph); referenced as part of the engagement-tradition in the Aeon essay.
+- **Status:** added 2026-05-08 per Aeon-pitch title rigor pass v1.0.0 ratification.
+
+---
+
 ## Maintenance notes
 
 - **Adding new entries:** follow the template (citation / summary / relevance / support-or-contradict / chapter relevance / any framework-character note). Prefer consistency over exhaustiveness.
