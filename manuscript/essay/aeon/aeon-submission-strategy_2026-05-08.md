@@ -8,12 +8,27 @@
 
 **Submission:** Version C — `aeon-pitch-commons-bonds-winn_VERSION-C.md`. Title: *The Mask of Abundance.* 300 words.
 
-**Submission action items:**
+**Scheduled submission time:** **At or near 00:01 AEST on Mon Jun 1, 2026** (Melbourne HQ timezone; UTC+10 in southern-hemisphere winter).
 
-- Verify Aeon's pitch portal is open (check `aeon.co/pitch` Mon Jun 1, 2026)
-- Submit Version C verbatim (including the AI-collaboration disclosure under Section 3.2 of Author Terms)
-- Log submission date + portal session in outreach record
-- Note Aeon's monthly cadence: portal closes ~Sun Jun 7, 2026
+Equivalent timestamps in other zones:
+- 14:01 UTC, Sun May 31, 2026
+- 10:01 EDT, Sun May 31, 2026
+- 07:01 PDT, Sun May 31, 2026
+
+**Strategic rationale for portal-open submission:** Aeon's pitch volume is high; submitting at portal-open puts the pitch at the top of Monday morning's queue Melbourne time, before the day's pitch volume builds. Earlier discussions (the May 2026 portal closing on schedule rather than extending due to the Philosophy Prize bandwidth pressure) suggest queue position matters.
+
+**Pre-submission action items (1-2 days before Jun 1):**
+
+- Verify Aeon's pitch portal is open: check `aeon.co/pitch`
+- Verify Aeon's submission instructions haven't changed
+- Have Version C content ready in clipboard / submission form
+- Confirm timezone alignment (AEST should be the right target; verify if anything has shifted)
+
+**Submission day action items (Mon Jun 1 ~00:01 AEST = Sun May 31 ~14:01 UTC):**
+
+- Submit Version C verbatim, including the voluntary AI-collaboration disclosure under Section 3.2 of Aeon's Author Terms
+- Log submission timestamp + portal session in outreach record
+- Take screenshot of confirmation page if available
 
 **Concurrent monitoring:**
 

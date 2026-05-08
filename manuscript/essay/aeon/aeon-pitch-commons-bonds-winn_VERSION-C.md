@@ -1,6 +1,13 @@
-# Aeon pitch — Commons Bonds — VERSION C — RATIFIED FOR JUNE 2026 SUBMISSION (2026-05-08)
+# Aeon pitch — Commons Bonds — VERSION C — READY TO SEND (ratified 2026-05-08)
 
-**Status:** **RATIFIED 2026-05-08 as the submission for the Aeon June 1-7, 2026 portal window.** Version A held as alternative if needed (canonical file: `aeon-pitch-commons-bonds-winn.md`). Version B was the developmental precursor between A and C; deleted 2026-05-08 once C was ratified (full content preserved in git history).
+**Status:** **READY TO SEND.** Ratified 2026-05-08 as the submission. **Submission scheduled at or near 00:01 AEST on Mon Jun 1, 2026** (Melbourne HQ timezone; UTC+10 in southern-hemisphere winter). Equivalent timestamps:
+- 14:01 UTC, Sun May 31, 2026
+- 10:01 EDT, Sun May 31, 2026
+- 07:01 PDT, Sun May 31, 2026
+
+Pre-submission verification: check `aeon.co/pitch` 1-2 days before to confirm portal is open and verify any updated submission instructions.
+
+Version A held as alternative if needed (canonical file: `aeon-pitch-commons-bonds-winn.md`). Version B was the developmental precursor between A and C; deleted 2026-05-08 once C was ratified (full content preserved in git history).
 
 Refinement of Version B (now deleted). Adds A's full philosophical move (*"the closed habitat is the limiting case that exposes Earth's open system"*) + universalizability tightening (*"any world"* instead of *"any of these worlds"*). Lands at exactly **300 words**.
 
