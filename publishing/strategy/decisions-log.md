@@ -6,6 +6,28 @@
 
 ---
 
+## 2026-05-08 — GuidanceDocs stay in place under WP#10; staleness audit deferred to Insight #39
+
+**Decision.** GuidanceDocs (`manuscript/chapters/Chapter__N___GuidanceDoc.md`) remain in place at their current paths. They are not archived, not deleted, and not consulted as source material for any publisher-facing artifact. Their per-section staleness audit is deferred to **Insight #39 pre-publication external review**.
+
+**Context.** Author surfaced the question 2026-05-08: most GuidanceDocs are stale because the chapters they scaffolded are mostly finished and just need polish — should they be archived?
+
+The reasoning for not archiving now:
+
+1. **They self-declare as scaffolding.** Each GuidanceDoc carries WP#10 layer-classification frontmatter ("Layer: internal-scaffolding per Working Principle #10") plus a staleness disclaimer added 2026-04-30 ("This file accumulates content across earlier dates… Sections from earlier dates may reference retired vocabulary or superseded direction. Verify against current state before applying. Per-section staleness audit deferred to future pass."). A reader who opens a GuidanceDoc cannot mistake it for current canonical content.
+
+2. **They preserve ~65 cross-references.** Per the Insight #37 separation pass (closed-ratified 2026-04-30), scaffolding extracted from chapter Drafts was consolidated *into* the existing GuidanceDocs at their existing filenames specifically to preserve cross-reference integrity. Premature archive would break the navigability of the drafting-provenance web for ambiguous gain.
+
+3. **The natural archive moment is Insight #39.** Pre-publication external review triggers the entire-book citations audit + Insight #63 focused rigor pass. That is when per-section staleness audit + per-chapter archive/retain decisions are properly batched. Doing it sooner introduces churn that the pre-publication pass would re-do anyway.
+
+**Exception (case-by-case, not a sweep).** If a particular GuidanceDoc generates real friction relative to its now-finalized chapter — confusing a reader who consults both, or carrying volume that obscures the current state — it can be moved to `archive/decomposition/` with a redirect-stub at the original path to preserve cross-reference reachability. This is a per-doc judgment call, not a project-wide cleanup.
+
+**Implications for publishing strategy.** The book proposal's chapter summaries, overview voice samples, and sample chapters all source from drafted chapters in `manuscript/chapters/Chapter__N__*__Draft.md` — never from GuidanceDocs. This is already reflected in `publishing/book-proposal/05_chapter-summaries.md` (corrected in the 2026-05-08 (later) commit `73a0b70`).
+
+**Supersedes.** Nothing — confirms status quo with explicit reasoning. Closes the open question raised in conversation.
+
+---
+
 ## 2026-05-08 (later) — Recalibrate green-light rule and Wave 1 timing; correct chapter-summaries source
 
 **Decision.** Three corrections to `cascade-plan_2026-05-06.md` and `publishing/book-proposal/05_chapter-summaries.md`:
