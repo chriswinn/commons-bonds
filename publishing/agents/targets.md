@@ -21,7 +21,7 @@
 
 | # | Agent | Agency | Recent sale (year) | Why fit | Priority (A/B/C) | Notes |
 |---|---|---|---|---|---|---|
-| 1 | TBD | TBD | TBD | TBD | TBD | TBD |
+| 1 | TBD (named-agent identification pending) | The Wylie Agency | Mariana Mazzucato (publication years per agency: TBD-verify) | Represents Mariana Mazzucato — closest comp to Commons Bonds; top-tier serious-nonfiction agency; UK + US offices | **A** | Sourced from Mazzucato's own contact page (`marianamazzucato.com/about/contact/`) 2026-05-08. Generic intake `mail@wylieagency.co.uk`; named-agent submission preferred over agency-wide queue. Wylie agents include Andrew Wylie (founder), Sarah Chalfant (US), Tracy Bohan (London), Kristina Moore, James Pullen — confirm correct named agent before submitting. Mazzucato outreach via Adam Albrecht (UCL/IIPP) currently in holding-response state; if it converts to substantive contact, the warm-route signal strengthens the query meaningfully. |
 
 ## Discipline
 
