@@ -460,6 +460,50 @@ Each alternative was evaluated against three tests: (a) does the suffix encode t
 
 ---
 
+## Canonical framework one-paragraph summary
+
+The framework's one-paragraph summary appears in every pre-read brief (per FPD-5) and is reused across any framework-positioning context where ~200 words of canonical introduction is the right length. This section is the canonical home; per-interview pre-read briefs cross-reference and may customize for recipient context per the variant patterns below.
+
+**Discipline:** when the framework's vocabulary or claims evolve, update the canonical version here first, then sync per-interview pre-read briefs that already exist or are in flight. Avoid drift between this canonical and downstream artifacts.
+
+### Default version
+
+> *Commons Bonds names a structural mechanism that operates across capitalism, feudalism, colonialism, and command economies — and across the full extraction spectrum, from non-renewable resources to renewable resources pushed past regenerative capacity. In each case, value is extracted while the costs of that extraction are deliberately severed from the entity that profited and transferred to others. Two contributions. **Cost severance** is the act that cuts profit from the cost of producing it. **Residual commons value (RCV)** is the worth permanently foreclosed when a non-renewable resource — or a renewable resource pushed past regenerative capacity — is drawn down. The framework's central accounting equation is *Cost Severance = RCV − B*, where B is a coordinated **two-instrument bond posting**: the **Restitution Bond (B₁)** discharges harm already realized (backward-looking; reparations-economics lineage), and the **Foreclosure Bond (B₂)** discharges harm yet to be realized (forward-looking; environmental-bond and civic-republican lineage). The thesis of the accountability-gap chapter is empirical: across American extraction regimes — both non-renewable extraction and renewable extraction past regenerative capacity — B is far below RCV by orders of magnitude.*
+
+### Variant patterns
+
+**Theoretical / critical-engagement variant** (used for: scholars who'd push back on framework moves — e.g., Darity, Boyce, Mazzucato, future peer-reviewer voices).
+
+- Lead: cross-system sweep (capitalism / feudalism / colonialism / command economies)
+- Close: accountability-gap empirical thesis ("B is far below RCV by orders of magnitude")
+- Use the default version as-is.
+
+**Applied-implementation variant** (used for: practitioners working from inside operational accountability frameworks — e.g., Amsterdam Donut, Mondragon, Vienna Gemeindebau, future practitioner voices).
+
+- Lead: structural-not-ideological framing — *"The framework's interest is structural rather than ideological: the same mechanism operates across capitalism, feudalism, colonialism, and command economies, which means the question isn't 'what economic system' but 'what makes accountability bind.'"*
+- Close: accountability-instrument architecture frame — *"The book's applied cases — including [recipient's case] — are studied as accountability-instrument architectures: institutional structures where the binding of cost to actor has gone past values-statement and into operational discipline."*
+- Cost severance + RCV definitions in middle.
+- Optional: omit the Restitution Bond / Foreclosure Bond decomposition + accounting equation if the recipient's primary engagement is implementation-level rather than instrument-design level (the bond-architecture detail can land in the live conversation rather than the pre-read).
+
+### Optional historical-depth customization
+
+For recipients where ancient precedent lands well — historians, religious-tradition voices, recipients where moving the reference further from 20th-century ideological battles helps — the cross-system sweep can be extended:
+
+> *...operates across capitalism, feudalism, colonialism, and command economies — predating any of them, all the way back to ancient monumental extraction (the Pyramids; Qing imperial regimes) — and across the full extraction spectrum...*
+
+Use sparingly. The canonical version is concise on purpose, and the cross-system sweep alone (capitalism + feudalism + colonialism + command economies) covers the analytical work for most recipients. The historical-depth move adds rhythmic weight but doesn't add load-bearing analytical content.
+
+### Note on the Soviet → command-economies substitution (2026-05-07)
+
+The canonical version above replaces "Soviet industrial planning" (used in the early Darity + Amsterdam pre-read drafts) with "command economies." Reasoning: politically less charged for general-readership audiences, analytically equivalent (covers the same post-capitalist non-capitalist regime category), preserves the cross-system sweep's foreclosure of "this is just an anti-capitalist critique" and "this is just a socialist critique" partisan readings. The Darity pre-read brief was sent 2026-05-06 with the original "Soviet industrial planning" language and is *not* retrofitted — Sandy is an economist who will parse the original analytically; small register difference doesn't materially affect his preparation. Future pre-read briefs use the canonical "command economies" version above.
+
+### Cross-references
+
+- `research/outreach/darity-prereadbrief_2026-05-05.md` — instance of theoretical/critical-engagement variant. Sent 2026-05-06; uses original "Soviet industrial planning" language pre-canonicalization.
+- `research/outreach/amsterdam-donut-prereadbrief_2026-05-06.md` — instance of applied-implementation variant. Synced to canonical version 2026-05-07 (template; not yet sent — awaiting Beth Ingledew's introduction to specific Amsterdam Donut team contacts).
+
+---
+
 ## How disciplines evolve
 
 **Adding new disciplines.** When a new positioning challenge surfaces (e.g., during a future interview or essay submission), capture the working artifact in `research/outreach/` first. If the discipline applies to multiple recurring contexts and the pattern stabilizes, promote to this canonical document at the next session boundary. Track the origin moment.
