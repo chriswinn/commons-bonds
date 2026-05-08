@@ -389,6 +389,21 @@ Three claims: **what Polanyi did** (fictitious commodities frame) → **how the 
 
 Three claims: **what Mazzucato did** (value-creation/extraction distinction) → **how the framework refines it** (cost severance as precision-add) → **what the framework adds** (transaction-level operationalization with pricing instrument).
 
+### Raworth / Doughnut Economics
+
+> *Doughnut Economics (Raworth 2017; Amsterdam adoption 2020 onward) operates at the economy-system level — articulating where economies should aim (the safe and just space between social foundation and ecological ceiling) and design principles for getting there. The framework I'm developing operates at the actor-transaction level — naming the structural mechanism (cost severance) by which accountability fails, and pricing what's been foreclosed (RCV). The two are complementary, not competing: a Doughnut-organized economy can still have actor-level cost-severance failures within it, particularly imported / upstream cost severance from extraction zones outside the city's borders. Doughnut tells you where to aim; Commons Bonds tells you how to bind specific accountability moments along the way — particularly the imported kind that goal-state frameworks struggle to address operationally.*
+
+Three claims: **what Doughnut does** (economy-system-level goal-state articulation) → **where the framework operates differently** (actor-transaction-level pricing instrument) → **the specific gap Commons Bonds fills for Doughnut-adopting cities** (action-level accountability binding, especially for imported/upstream cost severance).
+
+**Anchor pair for the complementarity:**
+
+- **McDowell County, West Virginia** — textbook direct cost severance (coal extracted; value flowed out; costs stayed: black lung, environmental devastation, generational poverty).
+- **Amsterdam** — explicit aspiration to prevent cost severance via Doughnut adoption; succeeds locally but vulnerable to *imported* cost severance via extraction-zone supply chains (rare earths, battery materials, construction inputs).
+
+The two cases span the framework's failure-vs-aspiration spectrum: McDowell shows where the structural mechanism operates at its starkest; Amsterdam shows where a city is trying to prevent it via system-level goal-frame, with action-level instrumentation as the live gap.
+
+**Worked example:** the framework's Foreclosure Bond architecture as a forward-looking deal-evaluation tool for cities pursuing Doughnut goals. See `research/outreach/dagan-water-deal-hypothetical_2026-05-07.md` for a full step-by-step walkthrough using an Amsterdam-style hypothetical (proposed deal leveraging water-management infrastructure that could impair crop-growing capacity). Candidate for incorporation in Ch 9 *Pricing Honestly* entering-wedges material.
+
 ### Boyce (ecological economics + reparations intersection)
 
 > *Boyce at PERI works the intersection of ecological economics and reparations the framework also engages, particularly through* Economics for People and the Planet *and the carbon-dividend literature. Cost Severance Damages is presented as an analytic instrument rather than a programmatic one; Boyce's work shapes how the framework imagines those instruments in distributional terms. The framework's contribution is generalizing the methodology from carbon-specific contexts to extraction-community contexts more broadly.*
