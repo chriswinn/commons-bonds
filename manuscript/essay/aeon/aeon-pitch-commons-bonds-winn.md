@@ -5,19 +5,9 @@
 
 **Pending upstream revision (2026-05-05):** Darity interview pending (week of May 10); revisit McDowell case-walk + universality framing after.
 
-**Title workshop status (2026-05-04):** none of the candidates surfaced today landed for the author; continued workshop scheduled for next session (alongside Ch 3 drafting start). Candidates surfaced + brief reasoning per option, preserved for next session's continued workshop:
+**Title workshop status — RATIFIED 2026-05-08:** **"The Mask of Abundance"** — ratified per title rigor pass v1.0.0 (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md`). Five candidates evaluated through full rigor pass: *The Mars Test, The Mask of Abundance, What Earth Costs, On Closed Worlds, Making Costs Visible*. Selected for: (1) strongest agent/publisher pipeline signaling — matches contemporary literary-nonfiction "X of Y" title pattern (Sandel *Tyranny of Merit*, Pistor *Code of Capital*, Mazzucato, Raworth); (2) frame-agnostic — works for Version A or any future Version-B variant; (3) threads to pitch's own signature phrasing ("the mask of abundance is removed").
 
-| Candidate | Length | Reasoning |
-|---|---|---|
-| **"Pricing the Air"** *(current placeholder)* | 3 words | Direct framework-signaling; "air" is the cleanest abundance-masking case (everyone breathes; no one prices). Risk: "pricing" carries technical/economics register that could read dry. |
-| **"What Free Costs"** | 3 words | Paradoxical; captures the central insight cleanly (things treated as free have costs that aren't priced). Reusable as tagline. Risk: requires a beat to parse. |
-| **"The Free Things"** | 3 words | Aeon-style philosophical noun phrase; gentler register than "Pricing the Air." Risk: less framework-signaling. |
-| **"Earth, Seen from Mars"** | 4 words | Distinctive perspective-reversal hook; locks the thought-experiment frame. Risk: Mars-specific; may discourage non-space-leaning readers. |
-| **"What the Closed Habitat Knows"** | 5 words | Philosophical-question register; gestures at Mars indirectly. Risk: longer; "closed habitat" requires reader knowledge. |
-| **"What Mars Reveals About the Cost of Earth"** | 8 words | Explicit; tells the reader what the essay does. Risk: less elegant; spoiler-leaning. |
-| **"The Math Earth Doesn't Do"** | 5 words | Direct; punchy; framework-aligned; quotable. Risk: "math" can polarize trade audiences. |
-
-**Categories not yet workshopped (for next-session brainstorm):** action-verb gerund forms (other than "Pricing"); concrete-from-essay-content anchors (e.g., specific scene or case from Ch 7); Aeon-archive register matches (study Aeon's recent essay titles for tonal range); paradox-form variants ("What Costs Nothing" / "The Air We Don't Charge For" / etc.); single-word evocative options (rare in current set; worth exploring).
+**Cultural-engagement commitment (load-bearing — see Darity prep):** "The Mask of X" construction puts the framework structurally inside the Dunbar / Du Bois / Ellison / Fanon lineage. Silent borrowing would risk reading as appropriation. Explicit engagement plan: **(a)** brief in-text aside in the Aeon essay near the abundance-mask passage; **(b)** substantive engagement in book Ch 8 (McDowell coal miner — the framework's subject IS the mask-wearer Dunbar named) and Ch 1 (where the framework's central rhetorical move — unmasking systemic harm to reveal who bears cost — is first surfaced, the lineage is acknowledged in a paragraph). See bibliography §21 (Black literary tradition: unmasking systemic harm — *Mask of Abundance* title-engagement) for citations. Darity live-call companion (`research/outreach/darity-live-call-companion_2026-05-06.md`) updated 2026-05-08 with prepared pivot if Sandy raises the mask-terminology question on the May 12 call.
 **Submission target:** `aeon.co/pitch` portal — opens first week of each month per Aeon editor Sam Haselby's public posts on X (verified 2026-05-06: see https://x.com/samhaselby/status/2019402170794418393 + /status/2041124005243994377). Interpretation of "first week" = the calendar week containing the 1st of the month (so months where the 1st falls late in the week get short windows; May 2026's window was Fri 5/1 – Sun 5/3, ~3 days only).
 
 **Aeon Philosophy Prize concurrent activity (May 2026 — verified 2026-05-06):** Aeon is in the judging cycle of their inaugural Philosophy Prize. Shortlist announced May 4; winner announced May 18. Mentored by Nigel Warburton + Sam Dresser (Aeon deputy editor). This consumed editorial bandwidth and likely contributed to the May portal closing on schedule rather than extending. **June 1, 2026 (Monday) expected to resume normal pattern** — Mon Jun 1 through Sun Jun 7 (full 7-day window, the longest possible). *Author not eligible for the Philosophy Prize* (PhD-in-philosophy requirement); this is context only, not a track decision.
@@ -28,7 +18,7 @@
 
 ## Working title
 
-**Pricing the Air**
+**The Mask of Abundance**
 
 ## Pitch (~282 words)
 
@@ -44,7 +34,7 @@ The central claim is that the framework is universal — a pricing framework fir
 2. The perspective reversal — what a Mars resident would see on Earth
 3. Six patterns by which costs get hidden — brief case-walks for each
 4. Cross-parameter cases — asteroid iron / McDowell coal / commute lease
-5. Why the framework is universal — pricing instrument first, critique second
+5. Why the framework is universal — pricing framework first, critique second
 6. The math applied to ambient abundance — what honest pricing reveals
 
 ## Bio
@@ -59,7 +49,7 @@ Chris Winn is a nursing student in Hampton, Virginia, and a former healthcare IT
 
 ## Composition notes (for author review; remove before submission)
 
-**Working title — "Pricing the Air":** short, philosophical, anchors immediately. Alternatives if this doesn't land: "What Mars Reveals About Earth's Hidden Costs" / "Earth, Seen from Mars" / "The Math Earth Doesn't Do."
+**Working title — "The Mask of Abundance":** ratified per title rigor pass v1.0.0 (2026-05-08). Aeon-register-pure literary noun phrase; matches contemporary literary-nonfiction "X of Y" pattern (signals where the book wants to live on the shelf — Sandel, Pistor, Mazzucato, Raworth comp territory). Threads to the pitch's own signature phrasing in para 2 ("the mask of abundance is removed"). **Cultural-engagement commitment** (Dunbar / Du Bois / Ellison / Fanon lineage) is load-bearing — see header section + bibliography §21 + Darity prep document. Strong-second alternatives if editorial feedback pushes back: "What Earth Costs" (3 words; pressure-test breadth strongest; environmental-genre-narrowing risk); "The Mars Test" (3 words; locks Mars frame; sci-fi categorization risk).
 
 **Lead choice — perspective-reversal move (Mars resident visiting Earth):** distinctive opening; matches Aeon's "unique angle" criterion. Standard direction (Earth person on Mars) is less novel.
 
