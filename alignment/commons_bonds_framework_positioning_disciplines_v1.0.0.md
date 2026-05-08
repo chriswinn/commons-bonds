@@ -163,6 +163,8 @@ The two placements convey identical *content*; the placement difference is calib
 
 **Origin:** `research/outreach/darity-prereadbrief_2026-05-05.md` is the model. `research/outreach/amsterdam-donut-prereadbrief_2026-05-06.md` is the recipient-flexible template variant.
 
+**Stack-level reference:** the pre-read brief is artifact #1 of the canonical four-artifact stack — see §"Canonical interview-prep four-artifact stack" below for the full stack contract, sequencing, and instances log.
+
 ---
 
 ## FPD-6 — Two-artifact pair (pre-read + interview prep)
@@ -227,6 +229,10 @@ Per-interview customization: each prep doc can add a Tier 1 + Tier 2 list specif
 **Sequencing:** the FPD-9 substantive background brief should be drafted *before* the FPD-6 internal prep doc is finalized — its findings (subject's reparations program, methodology, stances, recent work) inform the prep doc's pivot anticipations and talking-point notes.
 
 **Origin:** `research/outreach/darity-interview-prep_2026-05-06.md` is the model. Companion to the Darity pre-read brief.
+
+**Stack-level reference:** FPD-6 covers artifacts #3 (interview prep doc) and #4 (live-call companion) of the canonical four-artifact stack — see §"Canonical interview-prep four-artifact stack" below for the full stack contract, sequencing, build-order rules, and the live-call-companion canonical structure (12 required components).
+
+**Naming clarification:** FPD-6's title — "Two-artifact pair (pre-read + interview prep)" — predates the canonical four-artifact stack consolidation 2026-05-08. The discipline that pre-read and interview-prep are *paired* (not combined) remains correct. The stack canonicalization extends this from two to four artifacts (adding the background brief and the live-call companion as distinct artifacts) and makes the sequencing dependencies explicit.
 
 ---
 
@@ -304,6 +310,8 @@ Solar/wind/hydro fall within the framework's analytical reach via their material
 
 **Vocabulary-adoption refinement:** the brief should specifically capture the subject's existing domain vocabulary — what terms their field already uses for the territory the framework's vocabulary is trying to name. This adjacency map is essential for FPD-6's vocabulary-failure probes (asking "what does your field already call this?" is much sharper when we know the candidate answers).
 
+**Stack-level reference:** the background brief is artifact #2 of the canonical four-artifact stack — see §"Canonical interview-prep four-artifact stack" below for the full stack contract, sequencing rules (background brief is upstream of the interview prep doc), and instances log.
+
 ---
 
 ## FPD-10 — Credibility-first question framing (with axis-matched structure)
@@ -369,6 +377,102 @@ Question framings should match the kind of failure being probed. Q3 of the Darit
 **Origin moment (2026-05-06):** Author flagged before the Darity interview that Sandy might decline framework-specific commentary on the record because he hasn't read the manuscript or Tech Appendix in depth. Originally framed too strongly (Sandy has framework context from cold-outreach + pre-read; lower probability than initially captured). Even with low probability, the contingency stays as backup.
 
 **Origin model:** `research/outreach/darity-interview-prep_2026-05-06.md` §"Contingency plan" (the first instance — drafted as part of the Darity prep work).
+
+**Stack-level reference:** the contingency plan lives inside artifact #3 (interview prep doc) of the canonical four-artifact stack and appears in compressed form in artifact #4 (live-call companion) — see §"Canonical interview-prep four-artifact stack" below.
+
+---
+
+## Canonical interview-prep four-artifact stack
+
+**The discipline:** Every accepted interview produces *four* distinct artifacts. They serve different purposes, have different audiences, and have different optimal sizes. Combining or skipping any of them undermines the prep cycle.
+
+**Why a single canonical template (rather than distributed across FPD-5/-6/-9/-11):** The four-artifact stack emerged organically across the Darity prep work and was cross-referenced through FPD-5 (pre-read), FPD-6 (interview prep + the live-call companion as part of FPD-6 prose), FPD-9 (background brief), and FPD-11 (contingency plan inside the prep doc). Treating it as four separate disciplines obscured the *stack-as-a-stack* — the way the artifacts depend on each other, the order they get built, and the fact that the live-call companion is a fourth distinct artifact (consolidated from the other three for live use) rather than a sub-component of the interview prep doc. This canonical section consolidates the pattern explicitly. Each per-FPD section retains its detail; this section establishes the four-artifact contract at the stack level.
+
+### The four artifacts
+
+| # | Artifact | Filename pattern | Purpose | Audience | FPD basis | Length |
+|---|---|---|---|---|---|---|
+| 1 | **Pre-read brief** | `{subject-slug}-prereadbrief_{YYYY-MM-DD}.md` | Framework grounding + 5 priority questions; sent to subject ahead of the call | **Subject** (sent to them) | FPD-5 | ~400 words; 3-min read on a phone |
+| 2 | **Background brief** | `{subject-slug}-background-brief_{YYYY-MM-DD}.md` | 8-section public-record deep dive on subject: program, methodology, recent work, institutional positions, cross-engagement, framework intersections, things-not-to-walk-in-unaware-of. Heavy URL citation. | **Author** (absorption); never sent to subject | FPD-9 | ~800–1500 words |
+| 3 | **Interview prep doc** | `{subject-slug}-interview-prep_{YYYY-MM-DD}.md` | Internal scaffolding: goals, priority tiering (MUST/SHOULD/STRETCH), talking-point notes per question (draw-out / push / probe / watch-for), three tiers of share, pivot anticipations with ~60-second articulations, contingency plan, pre-call timing schedule, post-interview workflow | **Author** (scaffolding); never sent to subject | FPD-6 + FPD-11 | Whatever it needs to be (Darity instance: ~37K) |
+| 4 | **Live-call companion** | `{subject-slug}-live-call-companion_{YYYY-MM-DD}.md` (optionally `.html` for in-browser use during call) | Single moment-by-moment reference for live use during the call. Consolidates from artifacts 1–3 into the form needed in the moment: must-knows at top, opening (Q0 + Q0.5 if applicable), all priority/follow-up questions with push-probes inline, drop-in pivot articulations, contingency triggers + verbal pivot, closing block, glossary. No meta-discussion; no decision-points — those live in the prep doc. | **Author** (during live call); never sent to subject | FPD-6 (canonicalized at stack level here) | One artifact per call |
+
+### Sequencing — the build order matters
+
+Background brief is upstream of the prep doc; the prep doc and pre-read brief are upstream of the live-call companion.
+
+```
+1. Pre-read brief (FPD-5) ──────────► sent to subject after acceptance
+                                              │
+2. Background brief (FPD-9) ◄── research agent dispatch
+                  │
+                  ▼
+3. Interview prep doc (FPD-6 + FPD-11)
+   pivot anticipations + talking-point notes informed by background brief findings
+                  │
+                  ▼
+4. Live-call companion (FPD-6, this section)
+   consolidates 1+2+3 into single live-use artifact; built last,
+   typically in the 3-5 days before the call
+```
+
+**Build sequence rules:**
+- **Pre-read brief is sent first** — typically 5-7 days before the call; subject needs time to read without rushing.
+- **Background brief is built next** — research-agent dispatch immediately after acceptance; output informs the prep doc.
+- **Interview prep doc is finalized after the background brief** — its pivot anticipations and talking-point notes draw from background brief findings.
+- **Live-call companion is built last** — typically 2-3 days before the call; consolidates everything into the form needed in the moment.
+- **Mid-flight updates** to any artifact propagate downstream: pre-read sent → if priority questions get refined, the prep doc and live-call companion update too. Background brief surfaces a new fact → the prep doc's pivot anticipations and the live-call companion's must-knows update.
+
+### What the live-call companion specifically must contain (canonical structure)
+
+This is the artifact that gets used moment-by-moment during the live call. Its structure is load-bearing.
+
+1. **Header** — call date/time/modality/duration; subject's number; author's number; "read 5-10 min before the call" guidance.
+2. **Subject's must-knows** — 5-10 bullet points the author cannot afford to forget. Drawn from the background brief's "Things to NOT walk in unaware of" + recent-work freshest items + any high-stakes recent positions / slogans / sore spots.
+3. **Opening (~5 min)** — Q0 attribution verbal phrasing; Q0.5 linguistic-ground-rules question if vocabulary discipline matters; checkboxes / blanks for marking subject's preferences live.
+4. **Priority questions (~35-40 min)** — each question with: the verbatim ask; push-if-shallow line; chat-open probe; vocabulary-failure probe (per FPD-10).
+5. **Follow-up questions (STRETCH)** — only if priority lands fast.
+6. **Pivot articulations** — drop-in ~60-second articulations for likely directions the subject might take. Lineage pivots use the canonical articulations from §"Canonical framework articulations" below; subject-specific pivots stay in this companion artifact. Includes high-stakes pivots (anticipated questions where going sideways harms the framework's credibility).
+7. **Contingency** — triggers; verbal pivot move; framework-agnostic question bank.
+8. **Closing block (~50-58 min)** — network mapping; protective-vocabulary advice; field wisdom; warm-intro asks (if applicable); pre-publication door (light-touch).
+9. **Final 2 min — close** — thanks; commitment to send post-call artifacts; end the call.
+10. **Quick reference — Three Tiers of Share** — what to share / not share, calibrated to the subject.
+11. **Post-call workflow** — within 24 hours: transcribe, thank-you with artifacts, tracking updates, decision points.
+12. **Glossary** — alphabetical reference for framework + subject's-domain terms; defined briefly enough to be useful in the moment if a vocabulary check is needed live.
+
+**Format options:** Markdown is canonical. Optional HTML version (sticky header + sidebar TOC + color-coded priority cards + collapsible pivot articulations + click-to-expand glossary) is useful for live in-browser use during the call. The HTML is a render of the same content; the markdown remains the canonical text.
+
+### Naming convention
+
+`{subject-slug}-{artifact-type}_{YYYY-MM-DD}.{ext}`
+
+Examples:
+- `darity-prereadbrief_2026-05-05.md`
+- `darity-background-brief_2026-05-06.md`
+- `darity-interview-prep_2026-05-06.md`
+- `darity-live-call-companion_2026-05-06.md` + `.html`
+
+Subject-slug: surname only for individual scholars; surname + qualifier for ambiguous cases. Date: the date the artifact was first drafted (not the interview date).
+
+### Instances log
+
+| # | Subject | First artifact created | Status |
+|---|---|---|---|
+| 1 | Sandy Darity | 2026-05-05 (pre-read) | All four artifacts complete; interview 2026-05-12 @ 14:00 ET |
+| 2 | Dagan Cohen | 2026-05-08 (background brief in flight) | Background brief in production; question-screen pass next; pre-read + prep doc + live-call companion gated on Dagan accepting the interview |
+
+Future accepted interviews extend this log. The instances log makes the discipline's cumulative application visible.
+
+### Cross-references to per-FPD detail
+
+- **FPD-5** — pre-read brief structure, length discipline, structural template
+- **FPD-6** — interview prep doc structure, Three Tiers template, Live-call setup template (the *call-day setup checklist* — distinct from the live-call companion *artifact* canonicalized in this section)
+- **FPD-7** — Q0 attribution protocol verbal phrasing for the live-call companion's opening
+- **FPD-9** — background brief structure (8 categories + key takeaways); research-agent dispatch as production method
+- **FPD-10** — credibility-first question framing; vocabulary-failure probes embedded in live-call companion question entries
+- **FPD-11** — contingency plan structure (triggers + verbal pivot + framework-agnostic question bank); embedded in both the interview prep doc and (in compressed form) the live-call companion
+
+**Origin moment (2026-05-08):** Author observation while reviewing the Darity prep stack as model for the Dagan prep: "the four-artifact stack is a pattern that should live in the FPD canonical doc as an explicit template, not distributed across FPD-5/-6/-9/-11. Sandy was the first instance; Dagan would be the second instance applying it. Once promoted, every accepted interview gets the same four artifacts." Captured here at the stack level; per-FPD detail preserved in each FPD section.
 
 ---
 
