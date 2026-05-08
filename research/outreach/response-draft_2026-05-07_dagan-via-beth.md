@@ -1,7 +1,7 @@
 # Response draft — Dagan Cohen (Director, Amsterdam Donut Coalition)
 
 **Drafted:** 2026-05-07 by Claude per author direction.
-**Status:** DRAFT — send-ready pending author confirmation. First-contact email to Dagan via Beth Ingledew's warm intro 2026-05-07. Final phrasing pass applied 2026-05-08: Option A on the deal-evaluation tail ("price the long-term cost and bind the counterparty to it"); parenthetical Doughnut-goal summary dropped (Option 1) to avoid partial-summary friction; AI disclosure moved from body paragraph to P.S. per FPD-2 placement-by-recipient-register refinement (warm-intro register → P.S.).
+**Status:** **SENT 2026-05-08** (Friday evening, post-EOD CET — author flagged the timing as suboptimal; noted for future send-discipline calibration). First-contact email to Dagan via Beth Ingledew's warm intro 2026-05-07. Final phrasing pass applied 2026-05-08: Option A on the deal-evaluation tail ("price the long-term cost and bind the counterparty to it"); parenthetical Doughnut-goal summary dropped (Option 1) to avoid partial-summary friction; AI disclosure moved from body paragraph to P.S. per FPD-2 placement-by-recipient-register refinement (warm-intro register → P.S.).
 **Branch:** `claude/respond-to-valerie-inquiry-mV3Na`
 
 ---
@@ -25,11 +25,12 @@ Three insights from the author/Claude conversation 2026-05-07 are baked into the
 
 ---
 
-## Author response — DRAFT awaiting send
+## Author response — SENT 2026-05-08
 
 **To:** Dagan Cohen (and Beth Ingledew, on the thread)
 **Subject:** Re: [Beth's intro subject — preserves thread]
 **Salutation:** Hi Dagan (per FPD-4 — matches Beth's warm-intro register)
+**Sent text (verbatim):**
 
 > Hi Dagan,
 >
@@ -98,14 +99,21 @@ These would land in a future pre-read brief or live-call companion if Dagan acce
 
 ---
 
-## Send-trigger conditions
+## Post-send status
 
-Send when author confirms after review. Once sent:
+Sent 2026-05-08. Pending:
 
-1. Update tracking files (this file's status DRAFT → SENT; outreach pipeline log).
-2. Stand by for Dagan's response — likely either acceptance/scheduling, decline, or referral to another team member.
-3. If Dagan accepts: draft pre-read brief using the applied-implementation variant from FPD canonical framework one-paragraph + the priority questions above; stash live-call companion using the canonical structure.
-4. If Dagan declines: thank him; ask if there's another team member who'd be a better fit; close the loop with Beth.
+1. ✅ Status updated DRAFT → SENT (this file).
+2. ✅ Updated outreach pipeline / candidate-list tracking (`interview-outreach-drafts_2026-05-01.md` candidate #4) with 2026-05-07 Beth-warm-intro receipt + 2026-05-08 Dagan reply SENT.
+3. 🔲 Stand by for Dagan's response — likely acceptance/scheduling, decline, or referral to another team member.
+4. 🔲 If Dagan accepts: draft pre-read brief using the applied-implementation variant from FPD canonical framework one-paragraph + the priority questions above; stash live-call companion using the canonical structure.
+5. 🔲 If Dagan declines: thank him; ask if there's another team member who'd be a better fit; close the loop with Beth.
+
+## Send-timing observation (2026-05-08)
+
+Sent Friday evening, post-EOD in the recipient's likely timezone (Dagan is Amsterdam/CET; the message dropped into his inbox at end-of-week when he was almost certainly already off). Author flagged this as a calibration miss — better timing on first-contact warm-intro replies would target Tuesday–Thursday morning in the recipient's timezone (gives the introducer's referral momentum the most runway, and lands when the recipient is most likely to triage carefully rather than skim or defer).
+
+Not canonicalizing as an FPD discipline yet — single-instance miss; no pattern to canonicalize. If a second timing miss surfaces, worth promoting to FPD with explicit recipient-timezone send-window guidance.
 
 ## Cross-references
 

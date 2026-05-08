@@ -184,6 +184,18 @@ Body:
 
 ---
 
+**STATUS UPDATE 2026-05-07 — Beth's warm intro to Dagan Cohen received:** Beth followed through and introduced Chris to **Dagan Cohen** (Director, Amsterdam Donut Coalition; also Founder & Creative Director of CHANGENCY) on a thread that includes both Chris and Dagan. Beth's message: *"I'd like to introduce you to Dagan, copied, the Director of the Amsterdam Donut Coalition. Without knowing Dagan's capacity or availability for an interview I'll leave it to you to chat and see if you can work something out to help with your book."*
+
+**Read on Dagan:** Per public-record screen 2026-05-07, Dagan's role at the Amsterdam Donut Coalition is specifically *developing the shared narrative* — telling the Doughnut Economics story so Amsterdam citizens can imagine the city as a "donut city." Strategically high-value: his job is *literally vocabulary-translation work* — taking an economic framework and translating it into operational/civic vocabulary that gets adopted at scale. Same problem the Commons Bonds project is solving in a parallel domain.
+
+**Author response to Dagan — SENT 2026-05-08:** First-contact email drafted and sent via the existing thread (Beth on copy). See full draft + decision-point capture in `research/outreach/response-draft_2026-05-07_dagan-via-beth.md`. Key disciplines applied: McDowell-vs-Amsterdam contrast (cost severance failure case vs. cost-severance-prevention aspiration); water-deal hypothetical as concrete entering question (substantive engagement with Dagan's actual implementation work); complementarity-at-different-scales framing (Doughnut = goal-state; Commons Bonds = action-level pricing instrument); FPD-2 placement-by-recipient-register refinement (warm-intro register → AI disclosure as P.S. rather than body paragraph); FPD-4 register match ("Hi Dagan" matches Beth's "Hi Chris" warm-intro register).
+
+**Send-timing miss flagged:** Sent Friday evening post-EOD CET — author noted the timing as suboptimal (recipient likely already off for the weekend). Logged as a single-instance miss for now, not yet canonicalized as an FPD timing-discipline. If a second timing miss surfaces, promote.
+
+**Awaiting:** Dagan's response — likely acceptance/scheduling, decline, or referral to another team member.
+
+---
+
 **Original outreach materials (preserved for reference):**
 
 **Email address (verify):** Verify via Doughnut Economics Action Lab website (`doughnuteconomics.org`); possibly via Oxford / Cambridge institutional pages.
