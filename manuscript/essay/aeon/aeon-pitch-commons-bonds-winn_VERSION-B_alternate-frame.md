@@ -12,7 +12,7 @@
 
 ---
 
-## Pitch — Version B (~300 words after Para 2 sentence-3 cleanup + asteroid iron rigor fix; AT TARGET)
+## Pitch — Version B (~295 words after "commons" replaces "what stopped at the airlock" in Para 3 close; UNDER TARGET)
 
 Imagine landing at a closed habitat — Mars, the Moon, an orbital station, the analog at Devon Island or HI-SEAS. At the airlock, you are asked how you will be paying for your air. You understand viscerally, then and there, what you have been taking for granted all your life — someone else has been paying.
 
@@ -20,7 +20,7 @@ Then you come home. The abundant heat, light, water and even the air is free aga
 
 This essay walks a pricing framework through what you discover. Built outside the academy across a decade, the framework names patterns through which costs get hidden, including geographic distance, temporal asymmetry, informational asymmetry, power asymmetry, normative routinization, and abundance masking. On Earth these patterns route the costs that stopped at the airlock — to the communities downstream of every extraction site, to atmospheres a generation has not yet been born to breathe, to ecosystems that cannot send a bill. The framework is not anti-extraction. Asteroid iron, with no community or ecosystem to bear the cost: extract freely. Coal in McDowell County in 1960: severely mispriced. A self-imposed commute lease whose hours of life were never computed: same framework, no external bad actor, structural test the same.
 
-The central claim is that the framework is universal — a pricing framework first, a critique second. Most discussions of resource pricing are political. This one is structural. If the framework is right, the price tag on what stopped at the airlock is many multiples of what we have been paying as a species. The math, finally done, is what a thoughtful reader on any of these worlds — including this one — would recognize as honest accounting.
+The central claim is that the framework is universal — a pricing framework first, a critique second. Most discussions of resource pricing are political. This one is structural. If the framework is right, the price tag on commons is many multiples of what we have been paying as a species. The math, finally done, is what a thoughtful reader on any of these worlds — including this one — would recognize as honest accounting.
 
 ---
 
