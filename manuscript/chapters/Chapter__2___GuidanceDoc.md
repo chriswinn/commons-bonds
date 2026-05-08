@@ -15,7 +15,32 @@ This GuidanceDoc predates the framework cascade applied 2026-05-04 (Insights #65
 
 See: `alignment/commons_bonds_open_insights_v1.0.0.md` Insights #65 + #66 for full record. Inline STALE markers below remain valid where they appear.
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass; flag inline as encountered during drafting.
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
+
+**[PER-SECTION STALENESS AUDIT 2026-05-08]**
+
+| Section | Status | Notes |
+|---|---|---|
+| § Header / STALE-FRAMING NOTICE / staleness disclaimer / cross-references | CURRENT | already covers 2026-05-04 framework cascade (Insights #65 + #66) + retired vocabulary list |
+| § Extracted Draft scaffolding intro (line ~28) | CURRENT | descriptive metadata |
+| § INTERVIEW NEEDED slots — 3 total (line ~32) | CURRENT | outreach pipeline now active (Darity / Beth-Ingledew Amsterdam intro / Sherfinski / Colden); slot 1-3 still relevant for Ch 2 specifically |
+| § What the Ch 2 Draft does not yet have (line ~38) | PARTIALLY CURRENT | "Specific named individuals" — still true (interviews pending); "IPG number range" — verify against current Ch 6 math state; "within-chapter comparison" — still optional |
+| § What the Ch 2 Draft locks in (line ~44) | PARTIALLY REGRESSED | items already have inline [STALE 2026-04-30] markers for Spatial Cost Severance + 8-tier scheme; remaining items (cost vocabulary; counterarguments; carbon footnote; common bonds theme) still CURRENT |
+| § "Chapter 2 (The Miner)" + Objections section (line ~62) | CURRENT | structural marker; chapter title stable |
+| § "CHAPTER 2: THE MINER" — McDowell County data (line ~78) | CURRENT | historical data still load-bearing for Ch 2; numerics aligned |
+| § "$100 barrel passage" framing (line ~97) | CURRENT | introduced through McDowell County lens still aligns with Ch 2 |
+| § Black Lung Trust Fund / mine-reclamation-bond data (line ~99-115) | CURRENT | data still load-bearing for Ch 2 |
+| § Carbon cost line (line ~117) | CURRENT | "save the full SCC discussion for Chapter 6" still applies |
+| § Cost severance vocabulary introduction (line ~119) | **REGRESSED** | "Value capture as the paired mechanism" — Value Capture is RETIRED 2026-04-29 in favor of Value Extraction. Update needed. |
+| § Spatial cost severance introduced (line ~125) | **REGRESSED** | Spatial Cost Severance retired 2026-04-24; covered by STALE-FRAMING NOTICE at file head; "geographic distance" remains valid framing per Insight #65 (one of six common patterns observed) |
+| § Corrected McDowell County numbers (line ~127) | CURRENT | national-vs-local distinction still applies |
+| § Counterarguments woven in (line ~129) | CURRENT | counterargument structure still applies |
+| § How to handle the numbers (line ~135) | CURRENT | Register 1 framing aligned |
+| § "1. THE BOOK NEEDS LIVING PEOPLE" (line ~159) | **PARTIALLY REGRESSED** | book-level guidance (not Ch 2 specific); outreach pipeline now active per recent commits; should probably MIGRATE to a book-level guidance file. SAME SECTION duplicated in Ch 4 GuidanceDoc. |
+| § "8. THE BOOK NEEDS COMPARATIVE CASES WITHIN CHAPTERS" (line ~175) | CURRENT | within-chapter comparison advice still applies; SAME SECTION duplicated in Ch 4 GuidanceDoc |
+| § Chapter 2 (The Miner) objection paragraph (line ~185) | **DUPLICATE** | same paragraph as line ~74; redundant; could be deleted to clean up |
+| § COUNTERARGUMENT 2: "Cheap energy lifted billions out of poverty" (line ~189) | CURRENT | counterargument framing + response strategy still load-bearing for Ch 2's counterargument-engagement |
+| § COUNTERARGUMENT 6: "You ignore the benefits of extraction to the extraction community itself" (line ~215) | CURRENT | counterargument framing + response strategy still load-bearing |
 
 **Cross-references:**
 - `Chapter__2_TheMiner__Draft.md` — publisher-facing prose.

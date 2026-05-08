@@ -4,7 +4,35 @@
 
 **Frontmatter added 2026-04-30** by Insight #37 separation pass (Thread β.1).
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass.
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
+
+**[PER-SECTION STALENESS AUDIT 2026-05-08]**
+
+This GuidanceDoc is overall the **cleanest** of the 10 (heavily revised 2026-04-30 to support upcoming Insight #36 β.2 conversational drafting session). Most content uses current vocabulary + ratified disciplines.
+
+| Section | Status | Notes |
+|---|---|---|
+| § Header / frontmatter / cross-references | CURRENT | Insight #36 + #9 cross-references aligned with current state |
+| § "Chapter 3 (The Waterman)" + Objections section markers (line ~24-36) | CURRENT (provisional title) | "The Waterman" is provisional; final Ch 3 title TBD when chapter drafts |
+| § "CHAPTER 3: THE WATERMAN" From-our-conversations content (line ~40) | PARTIALLY CURRENT | older guidance; structural framing still applies; "miner-waterman structural parallel" + "common bonds theme planted" still load-bearing |
+| § Counterarguments handling note (line ~52) | CURRENT | "None specific to this chapter; emotional work is connection, not argumentation" still aligned with Pattern 2 register |
+| § "Expanded integration guidance (added 2026-04-23)" | CURRENT | references chapter audit v1.0.3 — verify against current canonical `core/case-studies/commons_bonds_case_study_audit_v1.0.6.md` (one inline note already flags this migration) |
+| § Integration work required (line ~62) | CURRENT | 4 items still align with current state; outreach pipeline now active for items 1-2 (Sherfinski / CBF / Beth-Ingledew Amsterdam — though Amsterdam is Doughnut-team contact, not CBF-fieldwork; CBF outreach via Sherfinski 2026-05-06) |
+| § Case-study file references (line ~73) | CURRENT | references aligned with current archive structure |
+| § Case studies NOT for Ch 3 (line ~80) | CURRENT | scope-clarification still applies |
+| § Pre-drafting gates (line ~86) | CURRENT | interview-consent protocol + Hampton-specificity + CBF/VIMS handling + watermen-community dignity all still applicable |
+| § Register notes (line ~93) | CURRENT | Pure Register 1; target length flagged with 2026-05-02 substance-drives-length caveat (5K-6K is reference, not target) |
+| § Character pressure points (line ~100) | CURRENT | C14/C17/C22/C25 character references aligned with current state |
+| § Cross-chapter tensions (line ~107) | CURRENT | Ch 3↔Ch 4 / Ch 3↔Ch 8 / Ch 3↔Ch 10 coordination still required |
+| § Cross-references (line ~113) | PARTIALLY CURRENT | inline note flags v1.0.3 → v1.0.6 audit migration (already noted); migration verified; §9.1 spec preserved at line 1572 of v1.0.6 file |
+| § Operational guidance for Insight #36 β.2 (line ~122) | CURRENT | added 2026-04-30 per Insight #37 + #9 + WP#10; uses current canonical state |
+| § Pattern 2 anchor framing (line ~126) | CURRENT | aligned with Insight #9 verdict ratified 2026-04-30 |
+| § What waterman stories must do (line ~142) | CURRENT | 6 structural-asks aligned with Pattern 2 + WP#10 + dignity register |
+| § Story types worth gathering (line ~156) | CURRENT | 6-item menu still applies |
+| § Cost-category demonstration mapping (line ~167) | CURRENT | uses current canonical Cᵢ-via-CIT-through-Four-Gates vocabulary; "Lineage Labor cost" not "Dynastic Labor cost" (current per Insight #56); "renewable-past-regeneration variant" of Foreclosure cost is Ch 3's framework-distinctive contribution |
+| § Migrated fieldwork specification (line ~180) | CURRENT | inline reproduction of §9.1 from canonical case-study audit |
+| § Conversational drafting session structure (line ~214) | CURRENT | session-shape suggestion for Insight #36 β.2 |
+| § What Ch 3 publisher-facing prose does NOT do (line ~223) | CURRENT | preserves Pattern 2 + register discipline; vocabulary references are current |
 
 **Cross-references:**
 - `Chapter__3___Draft.md` — does not yet exist; will be drafted during Insight #36 β.2 session.

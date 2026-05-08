@@ -15,7 +15,33 @@ This GuidanceDoc predates the framework cascade applied 2026-05-04 (Insights #65
 
 See: `alignment/commons_bonds_open_insights_v1.0.0.md` Insights #65 + #66 for full record.
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass.
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
+
+**[PER-SECTION STALENESS AUDIT 2026-05-08]**
+
+| Section | Status | Notes |
+|---|---|---|
+| § Header / STALE-FRAMING NOTICE / staleness disclaimer / cross-references | CURRENT | already covers 2026-05-04 framework cascade (Insights #65 + #66) + retired vocabulary list |
+| § Extracted Draft scaffolding intro (line ~28) | CURRENT | descriptive metadata |
+| § Grandfather-at-Langley passage (line ~32) | CURRENT | author-handoff note still applies; grandfather verification was completed 2026-05-04 (commit `e6b2af6` Grandfather verification + tool-inventor job-rhythm substrate); placeholders in Draft can now be replaced with verified content |
+| § Personal framing in opening and closing (line ~36) | CURRENT | Ch 1/Ch 10 echo-not-retell strategy aligned with bookend architecture (see line ~206 below) |
+| § Brief left-critique passage (line ~40) | CURRENT | still load-bearing for Ch 10 closing |
+| § "First generation / last generation" passage (line ~44) | CURRENT | structural placement still applies |
+| § Word count (at original drafting) (line ~48) | STALE | already inline-marked; current Ch 10 raw is 7,423 (well above original 6,400 + above 5K-7K range, but discipline updated to substance-drives-length 2026-05-02) |
+| § "Chapter 10 (Common Bonds)" + Objections section (line ~62) | CURRENT | structural marker; chapter title stable |
+| § "CHAPTER 10: COMMON BONDS" content (line ~82) | PARTIALLY CURRENT | "From our conversations, what lives here:" — most thematic content (title double-meaning; grandfather at Langley; honest concession; harbor close; Camus-with-compass) reflects current Ch 10. **"cost severance as a function of distance" framing (line ~90) covered by STALE-FRAMING NOTICE** — replace with "six common patterns observed" framing per Insight #65 cascade. |
+| § "We are the first generation..." passage (line ~98) | CURRENT | references "finite resources" — covered by STALE-FRAMING NOTICE; current framing is "resources" alone (covers renewable + time + commons cases per Ch 7 domain fix `f756f71`) |
+| § Counterargument woven in / Camus note / How to handle (line ~100) | CURRENT | register guidance still applies |
+| § "Theoretical development: The villain question" (line ~110) | CURRENT | extensive theoretical scaffolding from April 19 session; load-bearing for Ch 10's villain positioning + closing formulation |
+| § The villain question subsection (line ~114) | CURRENT | "villain who isn't a villain" framing remains canonical |
+| § Social Security as test case (line ~118) | CURRENT | Social Security as cost-severance-at-scale demonstration (Ch 5 has the chapter-level treatment; Ch 10 references theoretically) |
+| § Four holes stress-tested (line ~126) | CURRENT | structural-villain logic stress-test |
+| § Where the real villain is (line ~144) | CURRENT | framework's actual target articulation |
+| § Why this is not enough as a policy prescription (line ~156) | CURRENT | Pattern 2 / WP#10 demonstrate-don't-codify discipline aligned |
+| § The final location of the villain — Ch 10 closing anchor (line ~170) | CURRENT | closing-anchor articulation |
+| § How this informs Ch 10 drafting (integration notes) (line ~182) | CURRENT | integration guidance |
+| § Ch 7 multi-perspective example — closing reference (line ~192) | CURRENT | added 2026-04-23 per PCR v1.0.0 Cross-cutting Finding 3; "Path-dependency note" inline already documents Path F → Option C' progression as historical-record-only |
+| § Sunrise/sunset bookend architecture (line ~206) | CURRENT | added 2026-05-01; chiasm-reading + dawn-to-sunset architecture for Ch 1/Ch 10 coordination; Ch 10 Draft already integrates the sunset close per recent commits |
 
 **Cross-references:**
 - `Chapter_10_CommonBonds__Draft.md` — publisher-facing prose.
