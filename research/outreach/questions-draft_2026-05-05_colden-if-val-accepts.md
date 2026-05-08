@@ -26,6 +26,12 @@ This file holds the question batch ready to dispatch the moment Val replies "yes
 >
 > Thank you — here are the questions I'd plan to ask Dr. Colden, in roughly the order I'd raise them. They're written to give her room to push back on framework-level claims that misfire; she should feel free to redirect any of them.
 >
+> Before the framework questions, I'd open the conversation with a brief ground-rules question on attribution preferences:
+>
+> 0. **Attribution preference (ground rules).** *"Before we get into the framework questions, I want to ask about your preferences for how I handle our conversation in print. The book and any derivative essays — there's a Noema-track essay in development, possibly an Aeon-track piece on a separate angle — would draw on this conversation. People handle attribution differently — some prefer freely-quotable answers, some prefer paraphrase + attribution unless reviewed first, others ask for full transcript review before any quoting. Whatever works for you, I'll abide by it across the book and essays. What would you prefer?"*
+>
+> Then the substantive questions:
+>
 > 1. The framework's central vocabulary — *cost severance* and *residual commons value* — names the gap between what fisheries science said the Bay could sustain and what regulatory and political processes actually permitted. Where does that vocabulary do work your existing fisheries-policy vocabulary doesn't, and where does it overreach or underreach on Bay-specific terrain?
 >
 > 2. CBF has been on record repeatedly that ASMFC and DNR have failed to act on red flags — striped bass, oyster sanctuaries, menhaden. Is there a structural reason, outside individual decisions, why those institutions consistently produce that failure pattern? What would you point a reader at if they wanted to understand the architecture rather than the politics?
@@ -53,6 +59,7 @@ This file holds the question batch ready to dispatch the moment Val replies "yes
 
 | # | Function | Primary destination | Secondary destination |
 |---|---|---|---|
+| 0 | **Attribution ground rules — first thing asked, before any substantive question.** Per `interview-attribution-protocol_2026-05-06.md`. Ensures consent is established before any framework-level engagement. | Interview-log | Protects all subsequent quotations |
 | 1 | Framework-vocabulary calibration; opens at framework-level | Ch 3 (book) | Noema §V if she's added as third anchor |
 | 2 | Structural read on institutional-failure pattern; invites her expertise | Ch 3 (book) | Noema §V |
 | 3 | Empirical anchor for the renewable-past-regeneration threshold claim | Ch 3 (book) | — |

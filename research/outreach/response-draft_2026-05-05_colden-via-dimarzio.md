@@ -1,7 +1,7 @@
 # Response draft — Valerie DiMarzio (CBF, on behalf of Dr. Allison Colden)
 
 **Drafted:** 2026-05-05 by Claude per author direction.
-**Status:** SCHEDULED FOR SEND — 2026-05-06 at 08:00 ET. Author approved final draft 2026-05-06 after working session that resolved 9 decision points. Final state pushed to `main` at `43db144`.
+**Status:** SENT 2026-05-06. Author confirmed sent. All response-text decisions resolved. Awaiting Val DiMarzio's response (she said "more to follow" pattern not in play here — Val asked four questions; we answered them; ball is now in her court to either decline, accept, or request advance materials).
 **Branch:** `claude/respond-to-valerie-inquiry-mV3Na`
 
 ---
