@@ -12,9 +12,9 @@
 
 ---
 
-## Pitch — Version B (~328 words — pre-tightening pass; well over 300 target)
+## Pitch — Version B (~322 words after Option-2 airlock-question rewrite; tightening continues)
 
-Imagine the morning bill in a closed habitat — Mars, the Moon, an orbital station, the analog at Devon Island or HI-SEAS. They all run the same accounting. Yesterday's air. Yesterday's water in and out. Yesterday's calories. Yesterday's heat. Yesterday's cubic meter. Itemized, deducted from your earnings. Looking at the line for breathing, you understand viscerally what you have been living with all your life — someone else has been paying.
+Imagine landing at a closed habitat — Mars, the Moon, an orbital station, the analog at Devon Island or HI-SEAS. At the airlock, you are asked how you will be paying for your air. You understand viscerally, then and there, what you have been living with all your life — someone else has been paying.
 
 Then you come home. The bill doesn't arrive. The air is free again. The water is free. Light, heat, the cubic meter you occupy — all of it suddenly costless. You laugh, the first morning back, at the absurdity of it. Then you discover, slowly, that the costs are still being paid. Just not by you.
 
