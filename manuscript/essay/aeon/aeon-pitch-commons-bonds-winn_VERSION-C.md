@@ -1,13 +1,15 @@
-# Aeon pitch — Commons Bonds — VERSION C (B refined with full philosophical anchor) — 2026-05-08
+# Aeon pitch — Commons Bonds — VERSION C — RATIFIED FOR JUNE 2026 SUBMISSION (2026-05-08)
 
-**Status:** Refinement of Version B. Adds A's full philosophical move (*"the closed habitat is the limiting case that exposes Earth's open system"*) + universalizability tightening (*"any world"* instead of *"any of these worlds"*). Lands at exactly **300 words**.
+**Status:** **RATIFIED 2026-05-08 as the submission for the Aeon June 1-7, 2026 portal window.** Version A held as alternative if needed (canonical file: `aeon-pitch-commons-bonds-winn.md`). Version B was the developmental precursor between A and C; deleted 2026-05-08 once C was ratified (full content preserved in git history).
+
+Refinement of Version B (now deleted). Adds A's full philosophical move (*"the closed habitat is the limiting case that exposes Earth's open system"*) + universalizability tightening (*"any world"* instead of *"any of these worlds"*). Lands at exactly **300 words**.
 
 **Word-count context (corrected 2026-05-08):** Aeon does not publish a pitch word-limit on `aeon.co/pitch`. Haselby's specific published guidance ([APA Blog interview, 2020-12-10](https://blog.apaonline.org/2020/12/10/public-philosophy-editors-on-pitching/)): *"a simple, direct opener that states the argument followed by 200 words outlining how it will be made."* Decoded: ~230-250 words total (simple opener + 200-word outlining body). Version C at 300 is ~50 words over Haselby's specific prescription. The Para 2 + Para 3 outlining body lands at 199 words — within 1 word of Haselby's 200-word body guidance. Para 1 opener (~101 words) exceeds Haselby's "simple, direct" prescription as a deliberate rhetorical trade for the airlock-question lived-experience device. *Earlier reference to "300 words" as the target was self-imposed convention, not Haselby-derived.*
 
 **Pedigree:**
-- **Version A:** Mars admin visits Earth (canonical file: `aeon-pitch-commons-bonds-winn.md`)
-- **Version B:** Reader visits closed habitat (file: `aeon-pitch-commons-bonds-winn_VERSION-B_alternate-frame.md`)
-- **Version C (this file):** Version B + full philosophical anchor
+- **Version A:** Mars admin visits Earth (canonical file: `aeon-pitch-commons-bonds-winn.md`) — held as alternative
+- **Version B:** Reader visits closed habitat — developmental precursor between A and C; deleted 2026-05-08 (preserved in git history)
+- **Version C (this file):** Version B + full philosophical anchor — **RATIFIED for June 2026 submission**
 
 **Three differences from Version B:**
 
@@ -74,7 +76,6 @@ Plus tighter close (*"any world"* instead of *"any of these worlds"*).
 ## Cross-references
 
 - `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn.md` — Version A (Mars admin frame)
-- `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-B_alternate-frame.md` — Version B (reader-visits-habitat frame, no philosophical anchor)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md` — title rigor pass (applies to all versions)
 - `research/literature/bibliography.md` §21 — Black literary tradition citations (applies to all versions)
 - `research/outreach/darity-live-call-companion_2026-05-06.md` — mask-question pivot prepared (applies to all versions)
