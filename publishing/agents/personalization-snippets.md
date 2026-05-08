@@ -37,14 +37,15 @@
 
 ---
 
-## TBD (named-agent identification pending) — The Wylie Agency
+## Sarah Chalfant (top candidate; pending acknowledgments confirmation) — The Wylie Agency
 
-**Hook:** I'm querying The Wylie Agency because the agency represents Mariana Mazzucato, whose work is the closest comp to *Commons Bonds*. Mazzucato's value-extraction critique gestures at the pricing apparatus an honest accounting of intergenerational commons-extraction would require; *Commons Bonds* formalizes that apparatus — Cost Severance as the structural mechanism, Residual Commons Value as the pricing instrument — across coal, oil, fisheries, rare-earth, finance, pharma, and (as universality check) off-Earth extraction.
+**Hook:** I'm querying you because The Wylie Agency represents Mariana Mazzucato — whose work is the closest comp to *Commons Bonds* — and you represent Adam Tooze, who works in the same register at the intersection of macro-history and economic mechanism. Mazzucato's *The Value of Everything* names the value-extraction problem; *Commons Bonds* formalizes the apparatus that an honest pricing of extraction would require — Cost Severance as the structural mechanism, Residual Commons Value as the instrument — across coal, oil, fisheries, rare-earth, finance, pharma, and (as universality check) off-Earth extraction.
 
-**Source:** Mazzucato's own contact page (`marianamazzucato.com/about/contact/`) — author confirmed Wylie as her literary-agent representation 2026-05-08.
+**Source:** Mazzucato's representation by The Wylie Agency confirmed via her own contact page (`marianamazzucato.com/about/contact/`) 2026-05-08. Sarah Chalfant identified as top candidate via public-record check 2026-05-08 — confirmed Tooze representation (Publishers Weekly listing for *Shutdown*, Penguin 2021), senior US-side partner at Wylie for adult nonfiction.
 
 **Last verified:** 2026-05-08.
 
 **Open items before query:**
-- Identify the named agent within Wylie who handles Mazzucato's representation (Andrew Wylie / Sarah Chalfant / Tracy Bohan / Kristina Moore / James Pullen) before sending — generic intake to `mail@wylieagency.co.uk` is weaker than a named submission.
-- If Mazzucato outreach via Adam Albrecht (UCL/IIPP) converts to substantive contact / interview material, consider whether to mention that in the query (lightly, factually — never implying endorsement).
+- **Acknowledgments-page confirmation.** Verify Sarah Chalfant is Mazzucato's specific Wylie agent via *Mission Economy* (2021) or *The Value of Everything* (2018) acknowledgments. If acknowledgments name a different Wylie agent (most likely Tracy Bohan, who's the senior London-office agent), update this snippet to that agent and re-anchor the hook — Tooze is still a Wylie-side credibility signal but the direct Mazzucato adjacency would shift.
+- If Mazzucato outreach via Adam Albrecht (UCL/IIPP) converts to substantive contact or interview material, consider whether to mention it in the query (lightly, factually — never implying endorsement).
+- Generic agency intake `mail@wylieagency.co.uk` is the fallback if named-agent submission isn't accepted. Wylie generally prefers referrals or named submissions over agency queue.
