@@ -16,7 +16,7 @@
 
 Imagine landing at a closed habitat — Mars, the Moon, an orbital station, the analog at Devon Island or HI-SEAS. At the airlock, you are asked how you will be paying for your air. You understand viscerally, then and there, what you have been taking for granted all your life — someone else has been paying.
 
-Then you come home. The abundant heat, light, water and even the air is free again — all of it suddenly costless. You laugh, the first morning back, at the absurdity of it. Then you discover, slowly, that the costs are still being paid. Just not by you.
+Then you come home. The abundant heat, light, water and even the air is free again — all of it suddenly costless. That first morning back, you laugh at the absurdity of it. Then you discover, slowly, that the costs are still being paid. Just not by you.
 
 This essay walks a pricing framework through what you discover. The framework — built outside the academy across a decade of work in healthcare IT, federal research, and consulting — names common patterns through which costs get hidden in transactions, including geographic distance, temporal asymmetry, informational asymmetry, power asymmetry, normative routinization, and abundance masking. On Earth these patterns thicken the mask of abundance — routing the costs that stopped at the airlock to communities downstream of every extraction site, to atmospheres a generation has not yet been born to breathe, to ecosystems that cannot send a bill. The framework is not anti-extraction. Asteroid iron, with no community to bear the cost: extract freely. Coal in McDowell County in 1960: severely mispriced. A self-imposed commute lease whose hours of life were never computed: same framework, no external bad actor, structural test the same.
 
