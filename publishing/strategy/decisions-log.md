@@ -6,6 +6,41 @@
 
 ---
 
+## 2026-05-08 — Bibliography additions (Pistor + Christophers + Susskind); manuscript engagement queued for Ch 5 / Ch 9
+
+**Decision.** Add three entries to `research/literature/bibliography.md` §13 (Framework-adjacent) on substantive grounds, and queue the corresponding manuscript engagement work for the manuscript thread:
+
+1. **Pistor, Katharina — *The Code of Capital* (2019)** — STRONG SUPPORT (candidate; engagement pending Ch 5 / Ch 9 paragraph integration). Structural-mechanism neighbor: Pistor names the legal-coding architecture that *produces* capital from things; Commons Bonds names the cost-severance architecture that *separates* value-capture from cost-bearing.
+2. **Christophers, Brett — *The Price is Wrong* (2024)** — STRONG SUPPORT (candidate; engagement pending Ch 9 paragraph integration). Direct mechanism-level engagement with how pricing fails — the same territory Commons Bonds enters with Residual Commons Value (RCV).
+3. **Susskind, Daniel — *Growth: A Reckoning* (2024)** — SUPPORT (candidate; engagement pending Ch 9 paragraph integration). Adjacent register: Susskind takes "the costs of growth" as the explicit subject; Commons Bonds operates at the per-extraction-event mechanism level.
+
+**Cross-thread TODO (manuscript thread).** Each addition flags an engagement-depth decision and a paragraph-or-two integration in the manuscript:
+
+- **Pistor → Ch 5 (Accountability Gap)** primary; Ch 9 secondary. Most likely Ch 5, where the institutional-architecture-of-accountability frame intersects Pistor's legal-architecture-of-capital frame.
+- **Christophers → Ch 9 (Pricing Honestly)** primary; Ch 5 secondary. Ch 9 is the pricing-instrument home — natural place to mark the diagnosis-vs-prescription distinction.
+- **Susskind → Ch 9 (Pricing Honestly)** primary; Ch 1 secondary. Ch 9's policy-economy framing is the natural place to position Commons Bonds as a mechanism-specific complement to Susskind's macro reckoning.
+
+Until those engagements land, the new bibliography entries carry **"engagement pending"** status flags; the comp-titles section in the proposal is honest about candidate-pending status.
+
+**Context.** Author surfaced the comps↔bibliography gap 2026-05-08: of the 8 comps in `02_comp-titles.md`, only Mazzucato was in the bibliography (load-bearing as Ring-1 flagship "Value Extraction"); the other 7 were market-positioning instinct rather than substantive intellectual neighbors. Two corrective options: (Option 1) tighten the comp list to bibliography-anchored picks now; (Option 2) bibliography-side work first — add the substantively-relevant comps, then refine. Author chose Option 2 with the three additions explicitly named (Pistor + Christophers + Susskind). The remaining four working-list comps (Mission Economy, Sassen, Patel & Moore, Rodrik) stay in `02_comp-titles.md` as Tier 2 / Tier 3 (register-adjacent or market-signal-only).
+
+**`02_comp-titles.md` updated** to reflect the bibliography ⊆ comps relationship. New tier structure:
+- **Tier 1** — bibliography-anchored, mechanism-level neighbors (Mazzucato, Pistor, Christophers).
+- **Tier 2** — bibliography-anchored, register-adjacent (Mission Economy, Susskind).
+- **Tier 3** — market-signal candidates only, not in bibliography (Sassen, Patel & Moore, Rodrik); use sparingly with explicit "audience overlap" framing.
+- Selection-rule revised: target final-5 = Mazzucato + Pistor + Christophers + Susskind + at most one Tier 3.
+
+**Supersedes.**
+- `publishing/book-proposal/02_comp-titles.md` Tier 1 / Tier 2 structure (revised to Tier 1 / Tier 2 / Tier 3 with bibliography-anchored vs. market-signal-only distinction).
+- Selection rule rewritten around bibliography-anchored leads + at most one Tier 3 round-out.
+
+**Cross-references.**
+- `research/literature/bibliography.md` §13 — new entries inserted after Mazzucato (line 511), before §14 (line 515 pre-insertion).
+- `publishing/book-proposal/02_comp-titles.md` — bibliography ⊆ comps relationship explicit; Cross-thread dependency section added pointing back at the queued manuscript work.
+- Author's stated decision: Option 2 (bibliography-first), with Pistor + Christophers + Susskind named as the additions.
+
+---
+
 ## 2026-05-08 — GuidanceDocs stay in place under WP#10; staleness audit deferred to Insight #39
 
 **Decision.** GuidanceDocs (`manuscript/chapters/Chapter__N___GuidanceDoc.md`) remain in place at their current paths. They are not archived, not deleted, and not consulted as source material for any publisher-facing artifact. Their per-section staleness audit is deferred to **Insight #39 pre-publication external review**.
