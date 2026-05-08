@@ -16,6 +16,7 @@
 - **Jan 2026 paper** in *Explorations in Economic History* on Jim Crow violence-as-economic-control (freshest thing on his desk)
 - **California Reparations Task Force is a sore spot** — paid consultant *and* sharp critic
 - **Mullen is his wife + co-author**; minimal online presence; may decline interview
+- **MASK-TERMINOLOGY HEADS-UP (added 2026-05-08):** The Aeon pitch's working title is now **"The Mask of Abundance"** (ratified per title rigor pass v1.0.0). The construction *"the mask of X"* puts the framework structurally inside the Dunbar / Du Bois / Ellison / Fanon lineage. **Engagement plan committed:** brief acknowledgment in Aeon essay + substantive engagement in Ch 8 (McDowell coal miner) and Ch 1 (framework's intellectual lineage). If Sandy raises the mask-terminology question — likely given his standing on Black-American literary/economic tradition — pivot is below in §"Pivot articulations."
 
 ### Sandy's 4 non-negotiables for "reparations" (don't praise programs that fail any)
 
@@ -145,6 +146,28 @@ If he wants depth: bibliography §1 (Ostrom, North, Coase, Hardin).
 ### "How does this relate to Harvey / Klein / primitive accumulation?"
 
 > *"Harvey's 'accumulation by dispossession' names the contemporary phenomenon — Marx's primitive accumulation operating now, in real time. Klein's shock doctrine names the political conditions under which it accelerates. The framework's contribution is naming the *mechanism* that produces the phenomenon Harvey describes: cost severance is the structural move by which value is extracted while costs are deliberately transferred. Harvey names what; the framework names how."*
+
+### "Why are you using 'mask' / 'masking' — that's a tradition you're stepping into. Are you aware of that?"
+
+**[Most-likely Sandy question on the title; HIGH STAKES — going sideways here harms both the interview and the framework's credibility on Black-community cost-bearing.]**
+
+> *"Yes — choosing 'mask' for the title puts the framework structurally inside the Dunbar / Du Bois / Ellison / Fanon lineage. I want to engage that lineage explicitly rather than borrow the metaphor silently. The framework's actual subjects of severance — the McDowell coal miner whose lungs sound like his father's, the communities downstream of every extraction site — often ARE the communities that tradition speaks of. The same structural move (a mask hides systemic harm from the dominant gaze; removing the mask reveals who bears the cost) operates in both. The plan is explicit acknowledgment: a brief in-text aside in the Aeon essay; substantive engagement in the book — Ch 8's McDowell case explicitly threads the Dunbar tradition into the framework's account of who absorbs cost; Ch 1 names the lineage where the framework's central rhetorical move first surfaces. I would be very grateful for your guidance on whether the engagement-plan I've sketched is sufficient — or whether there are moves you'd want to see done that I haven't yet thought of."*
+
+**Posture notes (don't read aloud; internal):**
+- Lead with acknowledgment, not defense
+- Make the structural correspondence explicit (don't make Sandy do the work to see it)
+- Invite his guidance — don't claim to have resolved this perfectly
+- The framework's actual engagement with marginalized cost-bearers is your strongest evidence of non-appropriation; lean on McDowell
+
+**If Sandy pushes harder ("brief acknowledgment isn't enough — you're appropriating"):**
+
+> *"That's the question I expected most — and I want to take whatever guidance you have. The book has more space than the essay; I can move the engagement to substantive integration earlier (Ch 1 expanded; not just Ch 8) or rethink the title altogether. Would you tell me what threshold of engagement would land for you as honest engagement with the tradition vs. borrowing without credit?"*
+
+**Verbal escape valve if it gets adversarial (very low probability with Sandy specifically):**
+
+> *"I hear you. Let me sit with that — I don't want to debate it on a call where I'm asking for your time. Can I write back after thinking about your response, with whatever revisions follow from it?"*
+
+If he wants depth: bibliography §21 (Black literary tradition: unmasking systemic harm — *Mask of Abundance* title-engagement); reference Ch 1 + Ch 8 substantive-engagement commitment in the manuscript todos.
 
 ### "Foreclosure Bond — isn't that license to extract?"
 
