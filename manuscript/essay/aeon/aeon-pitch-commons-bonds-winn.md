@@ -1,7 +1,7 @@
 # Aeon pitch — Commons Bonds — DRAFT 2026-05-04
 
 **Status:** First-pass draft for author review. Awaiting ratification + revisions before submission.
-**Author revision target (per 2026-05-04):** trim pitch paragraph below 300 words (consulting-world convention: word-limit overage = automatic disqualification; Aeon's "high volume of pitches" framing makes concision load-bearing). Current pitch paragraph is ~290 words — already close, but no margin; revise to leave headroom.
+**Author revision target (per 2026-05-04):** trim pitch paragraph below 300 words. *Note:* Aeon does not publish a pitch word-limit anywhere on `aeon.co/pitch` (verified 2026-05-06 via WebSearch — only essay word ranges of 2,500–5,000 are published). The 300-word target is self-imposed: consulting-world convention + Aeon's "high volume of pitches" framing making concision load-bearing. Current pitch paragraph is ~282 words after rigor pass — well under target with headroom.
 
 **Pending upstream revision (2026-05-05):** Darity interview pending (week of May 10); revisit McDowell case-walk + universality framing after.
 
@@ -18,7 +18,9 @@
 | **"The Math Earth Doesn't Do"** | 5 words | Direct; punchy; framework-aligned; quotable. Risk: "math" can polarize trade audiences. |
 
 **Categories not yet workshopped (for next-session brainstorm):** action-verb gerund forms (other than "Pricing"); concrete-from-essay-content anchors (e.g., specific scene or case from Ch 7); Aeon-archive register matches (study Aeon's recent essay titles for tonal range); paradox-form variants ("What Costs Nothing" / "The Air We Don't Charge For" / etc.); single-word evocative options (rare in current set; worth exploring).
-**Submission target:** `aeon.co/pitch` portal — opens first week of each month per Aeon editor Sam Haselby's public posts.
+**Submission target:** `aeon.co/pitch` portal — opens first week of each month per Aeon editor Sam Haselby's public posts on X (verified 2026-05-06: see https://x.com/samhaselby/status/2019402170794418393 + /status/2041124005243994377). Interpretation of "first week" = the calendar week containing the 1st of the month (so months where the 1st falls late in the week get short windows; May 2026's window was Fri 5/1 – Sun 5/3, ~3 days only).
+
+**Aeon Philosophy Prize concurrent activity (May 2026 — verified 2026-05-06):** Aeon is in the judging cycle of their inaugural Philosophy Prize. Shortlist announced May 4; winner announced May 18. Mentored by Nigel Warburton + Sam Dresser (Aeon deputy editor). This consumed editorial bandwidth and likely contributed to the May portal closing on schedule rather than extending. **June 1, 2026 (Monday) expected to resume normal pattern** — Mon Jun 1 through Sun Jun 7 (full 7-day window, the longest possible). *Author not eligible for the Philosophy Prize* (PhD-in-philosophy requirement); this is context only, not a track decision.
 **Author Terms:** see `aeon-author-terms-confirmed-2026-05-04.md` if added; key references: Section 3.1 (original-work warranty); Section 3.2 (conflict-of-interest disclosure provision; venue for AI-collaboration disclosure); Section 2.1.b (5-year exclusive digital + 1-year exclusive print rights post-publication).
 **Source material:** Ch 7 *On Other Worlds* (`Chapter__7_OnOtherWorlds__Draft.md`); see also `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-04_ch1_title_candidates_v2.0.0.md` (procedural-improvement context); `alignment/commons_bonds_open_insights_v1.0.0.md` Insights #65 + #66 (framework-formulation provenance).
 
@@ -28,7 +30,7 @@
 
 **Pricing the Air**
 
-## Pitch (~290 words)
+## Pitch (~282 words)
 
 Imagine an administrator running a closed habitat on Mars. They must ration food, water, energy — even the air they themselves breathe. Now imagine that administrator visiting Earth. They would not see Earth's resources as we do. They would see free air. Free water falling from the sky. Free temperature regulation. Free solar irradiance. Free gravitational stability from the Moon. Free magnetic shielding against radiation. Free ultraviolet filtering. All costs that a closed habitat cannot afford to take for granted.
 
