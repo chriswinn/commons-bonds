@@ -82,11 +82,22 @@ This grounds every framework-positioning discipline. Interviews exist primarily 
 
 **Why:** First contact establishes the disclosure on the institutional record. Repeating it in every reply reads as either anxious self-disclosure or as not trusting the recipient to have read the original message. Either reads poorly. Once disclosed, the disclosure stands.
 
-**When to apply:** Cold-outreach first message gets the AI-disclosure paragraph (current standard text in outreach drafts: paragraph 5 of the master template). Subsequent thread replies skip it.
+**When to apply:** Cold-outreach first message gets the AI-disclosure paragraph. Subsequent thread replies skip it.
 
 **Edge case:** If a *new* institutional contact joins the thread (e.g., Val DiMarzio replying on Allison Colden's behalf when the original outreach was to Colden), the disclosure technically reaches them via thread continuity — they can see the original message. Don't repeat. If unsure, defer — better to skip and let the recipient ask if they want more context.
 
-**Origin moment (2026-05-05):** Author confirmed when working through the Colden-via-DiMarzio response that re-disclosure in every email is not needed.
+**Placement-by-recipient-register refinement (2026-05-08):** The disclosure's *placement within the message* should match the recipient register established by the contact mode:
+
+- **Cold first-contact (formal register):** AI disclosure goes in the message *body* — typically paragraph 5 of the master template, after framework substance and ask. The body placement signals the disclosure is a first-class component of the message; it earns weight commensurate with the formality of cold contact.
+- **Warm-intro first-contact (informal register):** AI disclosure goes as a *P.S.* after the sign-off. The warm-intro register is lighter; a body paragraph for AI disclosure can read as anxious self-disclosure or as breaking the conversational tone the introducer established. P.S. placement preserves the warm-intro register while still putting the disclosure on the institutional record.
+
+The two placements convey identical *content*; the placement difference is calibrated to the recipient's expectation of message texture. Both place the disclosure visibly enough that the recipient cannot miss it; neither buries it.
+
+**Why both forms work:** The disclosure's purpose is institutional-record establishment, not persuasion. P.S. placement does not diminish the disclosure's force on the record — every reader sees a P.S. — and it removes register-friction in warm-intro contexts where the introducer has already established trust on our behalf.
+
+**Origin moments:**
+- **2026-05-05:** Author confirmed when working through the Colden-via-DiMarzio response that re-disclosure in every email is not needed.
+- **2026-05-08:** Author moved AI disclosure from body paragraph 5 to P.S. on the Dagan-via-Beth warm-intro draft, noting it reads better that way; flagged for standardization. Captured here as the body-vs-P.S. placement refinement.
 
 ---
 

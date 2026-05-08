@@ -1,7 +1,7 @@
 # Response draft — Dagan Cohen (Director, Amsterdam Donut Coalition)
 
 **Drafted:** 2026-05-07 by Claude per author direction.
-**Status:** DRAFT — awaiting author send. First-contact email to Dagan via Beth Ingledew's warm intro 2026-05-07.
+**Status:** DRAFT — send-ready pending author confirmation. First-contact email to Dagan via Beth Ingledew's warm intro 2026-05-07. Final phrasing pass applied 2026-05-08: Option A on the deal-evaluation tail ("price the long-term cost and bind the counterparty to it"); parenthetical Doughnut-goal summary dropped (Option 1) to avoid partial-summary friction; AI disclosure moved from body paragraph to P.S. per FPD-2 placement-by-recipient-register refinement (warm-intro register → P.S.).
 **Branch:** `claude/respond-to-valerie-inquiry-mV3Na`
 
 ---
@@ -37,18 +37,18 @@ Three insights from the author/Claude conversation 2026-05-07 are baked into the
 >
 > I'm Chris Winn — a former healthcare IT executive (clients including NASA, Johns Hopkins, and NIH). I'm writing a forthcoming book called *Commons Bonds* (and a related essay in development for *Noema*) on the structural patterns of resource extraction — how costs get separated from those who profit, and what accountability looks like across generations.
 >
-> Doughnut Economics and my framework seem to operate at different scales — Doughnut articulates where economies should aim; mine focuses on actor-level accountability when extraction would impose un-priced costs. They feel complementary rather than competing. Across the book's cases: **McDowell County, West Virginia is the textbook failure** (coal extracted; black lung, environmental devastation, generational poverty stayed on the community). **Amsterdam is the opposite end** — explicitly trying to prevent that pattern via Doughnut adoption. Your work on the "Amsterdam as a donut city" narrative sits at exactly the intersection my own work needs to engage. **One concrete question:** when Amsterdam is approached with a deal that could affect water-management or food-security capacity, what tools do you use to evaluate it at the action level — to price what's being foreclosed and bind the counterparty? (Whether the complementarity framing lands or overstates is one of the things I'd want your view on.)
+> Doughnut Economics and my framework seem to operate at different scales — Doughnut articulates where economies should aim; mine focuses on actor-level accountability when extraction would impose un-priced costs. They feel complementary rather than competing. Across the book's cases: **McDowell County, West Virginia is the textbook failure** (coal extracted; black lung, environmental devastation, generational poverty stayed on the community). **Amsterdam is the opposite end** — explicitly trying to prevent that pattern via Doughnut adoption. Your work on the "Amsterdam as a donut city" narrative sits at exactly the intersection my own work needs to engage. **One concrete question:** when Amsterdam is approached with a deal that could affect water-management or food-security capacity, what tools do you use to evaluate it at the action level — to price the long-term cost and bind the counterparty to it? (Whether the complementarity framing lands or overstates is one of the things I'd want your view on.)
 >
 > I'd be grateful for ~30 minutes — phone, video, whatever fits your day. The book is in development; the conversation shapes what gets published.
->
-> To be upfront: I've used Anthropic's Claude as a research collaborator in the framework's development — for research-verification, vocabulary-workshopping, and editorial feedback. The framework, writing, and original concepts are my own. Happy to share more detail if useful.
 >
 > If a conversation works for you, I have a one-page pre-read I can send ahead. Either way — reading recommendations from your perspective would also be valuable.
 >
 > Beth, thank you again for thinking of me — I'll keep you in the loop.
 >
-> All best,
+> All the best,
 > Chris
+>
+> *P.S. To be upfront: I've used Anthropic's Claude as a research collaborator in the framework's development — for research-verification, vocabulary-workshopping, and editorial feedback. The framework, writing, and original concepts are my own. Happy to share more detail if useful.*
 
 ---
 
@@ -60,7 +60,7 @@ Three insights from the author/Claude conversation 2026-05-07 are baked into the
 
 3. **Paragraph 3 — complementarity framing applied.** Names that Doughnut and Commons Bonds operate at different scales; marks our framing as ours; invites Dagan's pushback. McDowell-vs-Amsterdam contrast is implicit (Amsterdam as the cost-severance-prevention aspirational case) rather than explicit — explicit naming might be more for the live conversation than first contact.
 
-4. **AI disclosure included** per FPD-2 (first contact for Dagan even though continuing thread with Beth).
+4. **AI disclosure included as P.S.** per FPD-2 (first contact for Dagan even though continuing thread with Beth). Placement is P.S. rather than body paragraph per the FPD-2 placement-by-recipient-register refinement (2026-05-08): warm-intro register → P.S.; cold-contact register → body paragraph. Identical content; placement calibrated to message texture.
 
 5. **Pre-read offer is conditional** — only if conversation works, rather than pre-attached. Reduces friction.
 
