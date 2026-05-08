@@ -6,7 +6,36 @@
 
 **β.3 deferred:** Insight #21 supplementary-passage structural placement (~13 placements; ~5,000 words) is β.3 work and intersects α-thread Phase 3 Tech Appendix companion-passage zones. Per v1.49.0 §3.β, defer until α's Phase 3 lands OR confirm with author that Ch 6 source supplementary §6.5–§6.10 references are stable.
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass.
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
+
+**[PER-SECTION STALENESS AUDIT 2026-05-08]**
+
+| Section | Status | Notes |
+|---|---|---|
+| § Header / β.3 deferred / staleness disclaimer / cross-references | CURRENT | Insight #21 closed-ratified 2026-05-04 (Ch 6 verification done); β.3 supplementary-passage structural placement is partially complete (per Insight #21 closure); some §6.5–§6.10 still pending integration but most of the chapter cleanup landed |
+| § "Chapter 6 (Three Ways of Counting)" + Objections section markers (line ~26-36) | CURRENT | structural marker; chapter title stable per Insight #31 ratification 2026-04-28 (Triangulated RCV Estimation → Three Ways of Counting) |
+| § "CHAPTER 6: THREE WAYS OF COUNTING" intro + Approach 1 Bottom-Up Damage Accounting (line ~40) | CURRENT | McDowell County numerics may need verification against current Tech Appendix v2.0.0 + bibliography, but framing is right |
+| § Approach 2 Real Options Model (line ~67) | CURRENT | options-pricing-extended-to-include-social-costs framing aligned with current state |
+| § Approach 3 RCV Model (line ~77) | CURRENT | "do not start with the integral" register guidance still load-bearing; foreclosure-cost + externality-tail two-component framing aligned with current Tech Appendix v2.0.0 |
+| § Substitutability function explained (line ~99) | CURRENT | "substitutability function sidesteps the discount-rate debate" framing remains canonical; Stern-Nordhaus context now in Ch 6 prose per draft2 §III + bibliography expansion |
+| § Convergence result + IPG table (line ~103) | **PARTIALLY REGRESSED** | IPG table includes **Exxon Valdez** as a case (1,200-1,900x / ~1,000x) — Ch 5 dropped Exxon Valdez; verify whether Ch 6 IPG table still includes it. If yes: still valid as backtest case. If no: table needs update. |
+| § Norway backtest (line ~119) | CURRENT | "well-managed extraction case" framing aligned with Insight #14 ratified 2026-04-30 |
+| § Counterargument 1 — "you're pricing the unpriceable" (line ~149) | CURRENT | substantive counterargument response remains canonical |
+| § Counterargument 2 — "cheap energy lifted billions out of poverty" (line ~175) | CURRENT | duplicates Ch 2 GuidanceDoc Counterargument 2 — both chapters historically held this; if currently only one chapter engages it in prose, the other is reference-only |
+| § Counterargument 3 — "property rights already solve this" (line ~201) | CURRENT | Coasean response remains load-bearing; differentiated transition timeline + capture-resistant institution framing aligned |
+| § Counterargument 4 — "model is unfalsifiable" (line ~229) | CURRENT | Yeager-and-the-sound-barrier framing still canonical; **note:** Insight #21 §6.6 supplementary passage (CIT-vs-empirical falsifiability distinction) was NOT integrated into Ch 6 HTML at the Insight #21 closure 2026-05-04 — that gap may still exist; verify Ch 6 HTML draft state |
+| § Counterargument 5 — "this is degrowth in disguise" (line ~257) | CURRENT | distinguish-GDP-from-welfare framing aligned |
+| § Counterargument 6 — "you ignore extraction-community benefits" (line ~283) | CURRENT | duplicates Ch 2 GuidanceDoc Counterargument 6 — same disposition: cross-reference, not duplication |
+| § "Phase A2 additions to Ch 6 draft — Path F reframing" (line ~310) | CURRENT | added 2026-04-24; Tech Appendix references updated to v2.0.0 in canonical state but section refers to v0.0.4 historically — that's accurate as historical record of when Phase A2 landed |
+| § Four Gates subsection — placement rationale (line ~328) | CURRENT | revision discipline still applies |
+| § Contribution subsection — cross-reference (line ~332) | CURRENT | Ch 1 ↔ Ch 6 Pigou-distinction coordination still applies |
+| § Reproducibility subsection — future-work scoping (line ~336) | CURRENT | inter-rater reliability future-work flag still applies |
+| § Cross-references at line ~340 | PARTIALLY CURRENT | references "v0.0.4, 2026-04-24" Tech Appendix Section L + M — these references are HISTORICAL (Tech Appendix v0.0.4 is now superseded by v2.0.0; archived; v2.0.0 has equivalent §L + §M material per Phase α.2 rebuild). Update to v2.0.0 references during next revision pass. |
+| § "Commons-as-structural-identity reframing in Ch 6" (line ~349) | CURRENT | added 2026-04-24 per ratified 3-pass commons-transition work |
+| § What changes in Ch 6 (line ~353) | CURRENT | AIT → CIT rename + two CIT sub-forms + 10-commons-categories-as-examples + political-philosophical acknowledgment + autonomy-as-commons treatment all reflect current canonical state |
+| § What does NOT change in Ch 6 (line ~385) | CURRENT | Norway backtest cross-reference + Insight #14 epistemic-humility alignment |
+| § Commons-governance lineage ADD to Contribution section (line ~393) | CURRENT | "AIT-method" → "CIT-method" rename + Ostrom-tradition extension framing aligned |
+| § Cross-references (line ~400) | PARTIALLY CURRENT | references Tech Appendix v0.0.5 (now superseded by v2.0.0); commits `c4b09dc` + `b294c79` + `e30087e` are historical commits; Open Insight #16, #17, #18 references — verify against current insights file (some may have moved status since 2026-04-24) |
 
 **Cross-references:**
 - `Chapter__6_ThreeWaysofCounting__Draft.html` — publisher-facing prose (HTML).
