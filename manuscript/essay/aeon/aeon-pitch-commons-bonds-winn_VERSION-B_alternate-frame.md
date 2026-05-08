@@ -6,13 +6,15 @@
 
 **Shared metadata** (title, submission target, philosophy prize note, author terms, source material, bio, AI disclosure): see Version A file. This file holds only Version-B-specific content.
 
+**Word-count target (corrected 2026-05-08):** Haselby's specific pitch guidance ([APA Blog interview, 2020-12-10](https://blog.apaonline.org/2020/12/10/public-philosophy-editors-on-pitching/)): *"a simple, direct opener that states the argument followed by 200 words outlining how it will be made."* Decoded total: ~230-250 words (opener + 200-word outlining body). Version B currently ~297 words — the Para 2 + Para 3 outlining body is ~199 words (well-aligned with Haselby's 200-word body); Para 1 opener at ~101 words exceeds Haselby's "simple, direct" prescription as a deliberate rhetorical trade for the airlock-question device. *Note: earlier reference to "300 words" as the target was self-imposed convention, not Haselby-derived.*
+
 **Working title:** *The Mask of Abundance* (same as Version A — title is frame-agnostic per title rigor pass v1.0.0)
 
 **Cultural-engagement commitment:** same as Version A — Dunbar / Du Bois / Ellison / Fanon lineage; brief acknowledgment in essay + substantive engagement in book Ch 8 + Ch 1; bibliography §21.
 
 ---
 
-## Pitch — Version B (~295 words after "commons" replaces "what stopped at the airlock" in Para 3 close; UNDER TARGET)
+## Pitch — Version B (~297 words; ~30-50 words over Haselby's specific guidance per APA Blog 2020-12-10 — Para 2+3 body matches Haselby's 200-word prescription; Para 1 opener exceeds "simple, direct" by deliberate rhetorical choice)
 
 Imagine landing at a closed habitat — Mars, the Moon, an orbital station, the analog at Devon Island or HI-SEAS. At the airlock, you are asked how you will be paying for your air. You understand viscerally, then and there, what you have been taking for granted all your life — someone else has been paying.
 

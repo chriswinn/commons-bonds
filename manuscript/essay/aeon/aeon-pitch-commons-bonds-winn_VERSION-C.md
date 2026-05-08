@@ -1,6 +1,8 @@
 # Aeon pitch — Commons Bonds — VERSION C (B refined with full philosophical anchor) — 2026-05-08
 
-**Status:** Refinement of Version B. Adds A's full philosophical move (*"the closed habitat is the limiting case that exposes Earth's open system"*) + universalizability tightening (*"any world"* instead of *"any of these worlds"*). Lands at exactly **300 words** — right at the self-imposed target with zero headroom.
+**Status:** Refinement of Version B. Adds A's full philosophical move (*"the closed habitat is the limiting case that exposes Earth's open system"*) + universalizability tightening (*"any world"* instead of *"any of these worlds"*). Lands at exactly **300 words**.
+
+**Word-count context (corrected 2026-05-08):** Aeon does not publish a pitch word-limit on `aeon.co/pitch`. Haselby's specific published guidance ([APA Blog interview, 2020-12-10](https://blog.apaonline.org/2020/12/10/public-philosophy-editors-on-pitching/)): *"a simple, direct opener that states the argument followed by 200 words outlining how it will be made."* Decoded: ~230-250 words total (simple opener + 200-word outlining body). Version C at 300 is ~50 words over Haselby's specific prescription. The Para 2 + Para 3 outlining body lands at 199 words — within 1 word of Haselby's 200-word body guidance. Para 1 opener (~101 words) exceeds Haselby's "simple, direct" prescription as a deliberate rhetorical trade for the airlock-question lived-experience device. *Earlier reference to "300 words" as the target was self-imposed convention, not Haselby-derived.*
 
 **Pedigree:**
 - **Version A:** Mars admin visits Earth (canonical file: `aeon-pitch-commons-bonds-winn.md`)
@@ -25,7 +27,7 @@
 
 ---
 
-## Pitch — Version C (~300 words — AT TARGET)
+## Pitch — Version C (~300 words; ~50 over Haselby's APA Blog 2020-12-10 specific guidance — Para 2+3 body matches Haselby's 200-word prescription; Para 1 opener exceeds "simple, direct" by deliberate rhetorical choice)
 
 Imagine landing at a closed habitat — Mars, the Moon, an orbital station, the analog at Devon Island or HI-SEAS. At the airlock, you are asked how you will be paying for your air. You understand viscerally, then and there, what you have been taking for granted all your life — someone else has been paying.
 
