@@ -10,12 +10,12 @@
 
 Ch 1 GuidanceDoc is the largest of the 10 (597 lines). Multiple recent additions (2026-04-23 → 2026-05-01) reflect current canonical state; older content has known regressions covered by the staleness disclaimer.
 
-**Important contextual note for this audit:** Ch 1 has been polished extensively since GuidanceDoc was last revised. Title is now **"The Quiet Math"** (current Ch 1 Draft); the GuidanceDoc still references "(The Plane)" as parenthetical chapter title — historical-record-only.
+**Important contextual note for this audit:** Ch 1 has been polished extensively since GuidanceDoc was last revised. Title is **"The Quiet Math"** (current Ch 1 Draft). **Title regression RESOLVED 2026-05-08** — body content updated to "Chapter 1 (The Quiet Math) [former working title: The Plane]" + "CHAPTER 1: THE QUIET MATH [former working title: THE PLANE]" so historical provenance preserved.
 
 | Section | Status | Notes |
 |---|---|---|
 | § Header / frontmatter / cross-references (lines 1-15) | CURRENT | Ch 1 cross-reference at line 10 lists ~620 publisher-facing words post-#37 — **STALE** (current Ch 1 word count is 3,797 per recent polish work; #37 separation pass updates landed pre-polish; chapter has since grown via Insight #36 conversational drafting session work + Ch 7 family-narrative additions) |
-| § "Chapter 1 (The Plane)" + Objections section markers (line ~24-28) | **REGRESSED title** | "(The Plane)" → "The Quiet Math" per chapter polish + title rigor pass; current Ch 1 Draft uses "The Quiet Math" |
+| § "Chapter 1 (The Quiet Math) [former working title: The Plane]" + Objections section markers (line ~24-28) | RESOLVED 2026-05-08 | title updated 2026-05-08 to current "The Quiet Math" with "[former working title: The Plane]" suffix preserving historical record |
 | § "CHAPTER 1: THE PLANE" — From-our-conversations content (line ~32) | PARTIALLY CURRENT | "personal story" / "transition paragraph" / "framework's origin story" framings still applicable; sailboat-in-Hampton anchor + watermen-visible-from-where-you-live framing aligned with Ch 1 + Ch 10 bookend architecture |
 | § "1. THE BOOK NEEDS LIVING PEOPLE" (line ~70) | **PARTIALLY REGRESSED** | book-level guidance (not Ch 1 specific) — outreach pipeline now active per recent commits (Darity / Beth-Ingledew Amsterdam / Sherfinski / Colden); coal miner / Norway interview suggestions remain valid but partially overtaken. SAME SECTION duplicated in Ch 4 + Ch 2 GuidanceDocs. Should probably MIGRATE to a book-level guidance file. |
 | § "2. THE BOOK NEEDS A VILLAIN WHO ISN'T A VILLAIN" (line ~88) | CURRENT | structural-critique-not-personalized-blame framing remains canonical; "Sherrena Tarver as complex person" example still applies |
@@ -60,7 +60,7 @@ By Chris Winn
 
 ---
 
-Chapter 1 (The Plane)
+Chapter 1 (The Quiet Math) [former working title: The Plane]
 
 ========
 
@@ -68,7 +68,7 @@ Chapter 1 (The Plane)
 
 ---
 
-CHAPTER 1: THE PLANE
+CHAPTER 1: THE QUIET MATH [former working title: THE PLANE]
 
 From our conversations, what lives here:
 
