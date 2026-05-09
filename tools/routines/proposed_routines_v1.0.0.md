@@ -1,376 +1,288 @@
-# Commons Bonds — Proposed Claude Code Routines
+# Commons Bonds — Routines (v2.0.0)
 
-**Version:** 1.0.0
-**Date:** 2026-04-28
-**Status:** DRAFT — pending author ratification before scheduling
+**Version:** 2.0.0
+**Date:** 2026-05-09 (revised from v1.0.0 2026-04-28)
+**Status:** RATIFIED 2026-05-09 — Routine 1' + Routine 3' + Routine 4' new; Routine 2 ratified-with-refinement; v1.0.0 Routines 1, 3, 4 deprecated/deferred per author direction
 **Author:** Chris Winn (drafting + review); routines run as scheduled remote agents
 
----
-
-## Background
-
-Per author directive 2026-04-28: explore Claude Code routines (scheduled remote agents) as a feature for the Commons Bonds project. Four routines drafted below for review. Each entry specifies: purpose, cron schedule, prompt text, and expected output format. Author ratifies (or counter-proposes) before scheduling.
-
-Design discipline:
-- Each routine is **self-contained** (the remote agent runs without context from a prior session — prompt must include all needed instructions)
-- Each routine is **sentinel-style** (catches regressions / tracks state / flags drift; produces actionable findings, not decisions)
-- Each routine has **clear output format** (brief; "all clean" when nothing to report; specific punch list when there are findings)
-- Each routine respects the **scaffolding-vs-publication** discipline (rigor-pass files contain historical-record retired-vocabulary references; these are NOT regressions and should be excluded)
+> **Filename note.** This file is named `proposed_routines_v1.0.0.md` because it was created at v1.0.0 on 2026-04-28. The v1.0.0 routine specs are recoverable from git history; the file has been rewritten in place at v2.0.0 to keep cross-references stable. Future major revisions will follow the same in-place pattern with a version bump in the header.
 
 ---
 
-## Routine 1 — Daily terminology-regression sentinel
+## Why v2.0.0 — what changed since v1.0.0
 
-**Purpose:** Catch retired-vocabulary regressions in chapter manuscripts + framework docs as they're introduced (rather than accumulating until next sweep).
+The v1.0.0 routines (drafted 2026-04-28) were calibrated for a project phase where:
+- Vocabulary churn was active (8-tier scheme retired 2026-04-24, AIT→CIT, Reparations→Restitution Bond, etc.)
+- Chapter drafts were partially-developed (Ch 1 in scaffolding; some chapters under-target)
+- Single-thread-at-a-time work was the norm
 
-**Cadence:** Daily at 9am ET. Cron: `0 9 * * *`
+By 2026-05-09 the project has shifted:
+- 9 of 10 chapters drafted post-vocabulary-stabilization (vocabulary churn near-zero)
+- Multi-branch parallel work (8+ feature branches active simultaneously)
+- Cross-thread coordination friction is the dominant friction (rescue-from-frozen-sessions pattern emerged)
+- Stale-reference accumulation across artifacts (~30 path updates in a single 2026-05-09 cleanup pass)
+
+The v2.0.0 routine set replaces low-marginal-value vocabulary-churn-era routines with high-leverage coordination-era routines, lightens others, and defers ones whose surface area no longer warrants weekly attention.
+
+---
+
+## Per-routine status changes (v1.0.0 → v2.0.0)
+
+| v1.0.0 Routine | v2.0.0 Status | Reason |
+|---|---|---|
+| 1 — Daily terminology-regression sentinel | **DEPRECATED** | Vocabulary regressions are rare post-stabilization; daily scans yield mostly empty findings. Replaced by Routine 1' (cross-thread state-snapshot). |
+| 2 — Weekly pre-submission readiness audit | **RATIFIED-with-refinement** | Lighter scope: only chapters in active polish + Ch 3; drop comprehensive notation-collision sweep (mostly stable per Insight #21 closure). See refined spec below. |
+| 3 — Weekly rigor pass status tracker | **DEFERRED** | Rigor passes accumulating slowly at current stage. Reactivate when rigor-pass volume increases. |
+| 4 — Weekly Open Insights status sync | **DEFERRED** | Insights file small enough to scan manually. Over-engineered for current state. Reactivate post-Phase 3 Tech Appendix rebuild. |
+
+## NEW routines in v2.0.0
+
+| Routine | Cadence | Purpose |
+|---|---|---|
+| **1' — Cross-thread state-snapshot** | Every other day, 3pm ET | Survey branches; flag stale references + open cross-thread TODOs; replaces Routine 1's slot |
+| **3' — Branch hygiene scan** | Weekly Friday 5pm ET | Surface branch-sprawl candidates for retirement; pre-empt the rescue-from-frozen-sessions pattern |
+| **4' — Stale-reference scan** | Weekly Sunday 8pm ET | Punch-list of broken cross-references in publishing-strategy + manuscript-essay artifacts |
+
+---
+
+## Routine 1' — Cross-thread state-snapshot
+
+**Purpose.** Every other day, surface what's changed across the project since the last snapshot — what landed on main, what's in flight on which feature branches, what stale references have accumulated, what cross-thread TODOs are open. Replaces v1.0.0 Routine 1 (daily terminology-regression sentinel) which has low marginal value post-vocabulary-stabilization.
+
+**Cadence.** Every other day at 3pm ET. Cron: `0 15 */2 * *`
 
 **Prompt:**
 
 ```
-You are running a daily terminology-regression sentinel for the Commons Bonds book project at /Users/c17n/commons-bonds.
-
-Run grep -rnE for retired-vocabulary patterns across:
-  - manuscript/chapters/
-  - core/ (excluding core/terms/terms_index.md and core/scaffolding/)
-  - research/
-
-Patterns to check (each is a regex):
-  1. "[Ee]ight[ -]?tier" — 8-tier scheme RETIRED 2026-04-24 per tier-reframing rigor pass §11
-  2. "\\bAIT\\b" or "Abundance Inversion Test" — RETIRED 2026-04-24, superseded by Commons Inversion Test (CIT) per CIT rename rigor pass commit b294c79
-  3. "[Rr]eparations [Bb]ond" — RETIRED 2026-04-24, superseded by Restitution Bond per b1_b2_naming rigor pass commit 8e6a5b2 (NOTE: "reparations economics" as academic-field reference is PRESERVED per b1_b2_naming pass §10; do not flag)
-  4. "Reversibility Default" or "\\bRD\\b" (in framework context) — RETIRED 2026-04-24 (same-day flip), superseded by Asymmetric Regret Rule (ARR)
-  5. "Asymmetric Regret Principle" or "\\bARP\\b" — RETIRED 2026-04-24, superseded by ARR per ARP rename rigor pass commit b8b62e3
-  6. "industrial-existential substitutability gap" or "\\bESG\\b" (in framework context) — RETIRED 2026-04-24 on parsimony grounds; replaced by "industrial-existential substitutability gap" lowercase prose phrase
-  7. "Spatial Cost Severance" (Title Case as proper noun) — RETIRED 2026-04-24, replaced with lowercase prose phrase per Spatial CS re-examination rigor pass v1.1
-  8. "\\bFGC\\b" or "Full Generational Cost" — RETIRED 2026-04-24 per tier-reframing rigor pass
-  8a. "Dynastic Labor Cost" or "Dynastic Labor" or "dynastic labor cost" or "dynastic-labor cost" — RENAMED 2026-04-30 to "Lineage Labor Cost" per Insight #56 RATIFIED (Group 1.1 class-connotation cleanup; Lineage replaces Dynastic to disambiguate from ruling-class / wealth-class connotation that distorted lived-oppression reading). Remediation hint: replace with "Lineage Labor Cost" (proper-noun) or "lineage labor cost" (lowercase prose).
-  9. NOTATION COLLISION — S used as scarcity threshold (collides with substitutability function S(t)) — RENAMED to τ (tau) per Insight #42 RATIFIED 2026-04-29 (Phase 2 Theorem E.3 audit + parallel-session integration §17). Detection patterns:
-     - "[Ss]carcity threshold S\\b" (S used as scarcity threshold variable)
-     - "\\bS = scarcity\\b" (S being defined as scarcity threshold)
-     - "scarcity threshold .{0,30}\\bS\\b" (prose phrasing colliding S with scarcity threshold)
-     - "abundance threshold .{0,30}\\bS\\b" (parallel — "abundance threshold" framing)
-     Remediation hint: rename S → τ for scarcity/abundance threshold; reserve `S` and `S(t)` exclusively for substitutability function (per Insight #40 E.4 audit + framework's RCV integrand discipline).
-  10. NOTATION COLLISION (general) — new single-letter Tech Appendix variable definition that collides with reserved letters. Reserved letter ledger (per Vocabulary strategy v1.0.1 §13.2 codified per Insight #55 RATIFIED 2026-04-30; cross-check before introducing new variables):
-
-     **Latin single-letter variables:**
-     - **A** — abundance (Theorem E.3 domain)
-     - **B, B₁, B₂** — Accountability Bond + sub-instruments (Restitution Bond + Foreclosure Bond)
-     - **C, Cᵢ** — cost / i-th cost component
-     - **𝒞 (script C)** — commons-territory set (resource units R ∈ 𝒞; per Insight #55 set-vs-variable typography)
-     - **CS** — Cost Severance (per equation CS = RCV − B)
-     - **D, D(t, t₀)** — discount factor (Weitzman 2001 declining-rate)
-     - **E, E(R, t)** — externality tail (function); also Theorem labels E.1–E.5 (context disambiguates)
-     - **P** — market price (Theorem E.1 + E.5)
-     - **Q, Q(t)** — quality-stock per Insight #52 (RCV integrand notation)
-     - **R** — resource
-     - **S, S(t)** — substitutability function (Tech Appendix §B Definition A.2; load-bearing in RCV integrand + Theorems E.4 + E.5)
-     - **U, U(R, t, Q(t))** — utility
-
-     **Subscript + superscript patterns:**
-     - **S_max** — substitutability function limit (existential substitutability gap per Insight #33)
-     - **S_threshold** — critical value of S_max below which a resource is existentially critical (per §F existential substitutability gap)
-     - **t₀** — initial time (extraction time)
-     - **r(s), r_∞** — discount rate (per Insight #40 Theorem E.4)
-
-     **Greek letters (codified per Insight #55 RATIFIED 2026-04-30):**
-     - **α** — irreversibility parameter (§M scarcity multiplier; α ∈ [0, 1])
-     - **β** — risk-posture calibrator (§M scarcity multiplier; irreversibility_premium exponent)
-     - **ξ (xi)** — cost-function curvature parameter (Insight #42 Theorem E.3 functional form; ξ ≥ 1; renamed from α per Insight #55 to disambiguate)
-     - **λ** — substitutability function exponential parameter (per Insight #40)
-     - **ρ** — commons regeneration rate (§B Definition A.1; ρ ≥ 0)
-     - **σ** — scarcity parameter (§M scarcity multiplier; commons-stock / sustainable-flow ratio)
-     - **τ (tau)** — scarcity threshold per Insight #42 (Phase 2 E.3); NOTE local-scope integration-variable usage at Tech Appendix line 6720 will be renamed to **u** during Phase 3 v2.0.0 rebuild
-
-     **Multi-letter abbreviations:**
-     - **RCV** — Residual Commons Value
-     - **CIT** — Commons Inversion Test
-     - **CSD** — Cost Severance Damages
-     - **ARR** — Asymmetric Regret Rule
-     - **IPG** — Intergenerational Pricing Gap
-     - **AIT** — RETIRED (superseded by CIT)
-     - **FGC** — RETIRED
-     - **ESG** — RETIRED in framework context
-
-     **Available unused Greek letters** (safe for future reservation): γ, δ, ε, η, θ, μ, ν, π, φ, ψ, ω; capital Greek Γ, Δ, Θ, Λ, Π, Σ, Ψ, Ω.
-
-     Detection pattern: heuristic — grep for new variable-definition forms ("Let X = " or "where X is " or "X denotes ") and cross-check the X against reserved-letter ledger above. Flag any conflict.
-     Remediation hint: choose from available unused list above; for set-valued objects use script/calligraphic typography (𝒞, 𝒟, 𝒮, etc.) per Insight #55 §13.2.2.
-
-Exclusions (do NOT flag):
-  - core/terms/terms_index.md SUPERSEDED + RETIRED records (canonical record of retired terms)
-  - tools/rigor-passes/* (historical-record files documenting the retirements)
-  - core/scaffolding/* (internal-process scaffolding may reference retired vocabulary as historical context)
-  - alignment/sessions/archive/* (archived session handoffs)
-  - archive/decomposition/eight-tier-v10.html (retired-archive file; relocated 2026-04-30 per Insight #55 hygiene pass)
-  - archive/* (general archive scope; retired-archive files preserved for provenance)
-  - core/glossary/commons_bonds_updated_glossary_v3.html lines flagged with "RETIRED" status indicator
-
-Output format:
-
-If zero findings: report "All clean — no retired-vocabulary regressions detected in active framework artifacts."
-
-If findings: report each as:
-  filename:line — pattern matched: <pattern>
-  context: <prose context, ~30 words around match>
-  remediation hint: <suggested replacement per established cross-chapter precedent>
-
-Limit: report up to 20 findings. If >20, summarize ("N findings; first 20 below; full report at /tmp/regression-report.txt").
-
-Conclude with: "Sentinel run YYYY-MM-DD at HH:MM. Next run: tomorrow 9am ET."
-```
-
-**Expected output (clean day):**
-> All clean — no retired-vocabulary regressions detected in active framework artifacts. Sentinel run 2026-04-29 at 09:00. Next run: tomorrow 9am ET.
-
-**Expected output (with findings):**
-> 2 findings:
-> - manuscript/chapters/Chapter__N_*.md:42 — pattern matched: `[Ee]ight[ -]?tier`
->   context: "...walks one extraction through the eight-tier accounting..."
->   remediation hint: per Ch 2/5/6/8 precedent, replace with "the framework's full cost-decomposition" or "cost-component by cost-component"
-> - core/case-studies/some-file.md:108 — pattern matched: `\\bAIT\\b`
->   context: "...the AIT methodology has surfaced this cost..."
->   remediation hint: per CIT rename rigor pass, replace with "Commons Inversion Test" or "CIT"
->
-> Sentinel run 2026-04-29 at 09:00. Next run: tomorrow 9am ET.
-
----
-
-## Routine 2 — Weekly pre-submission readiness audit
-
-**Purpose:** Catch publication-readiness blockers (model-output preamble; strikethrough editing markup; truncated paragraphs; INTERVIEW NEEDED placeholders; chapter-length tracking) before they propagate.
-
-**Cadence:** Weekly Monday 8am ET. Cron: `0 8 * * 1`
-
-**Prompt:**
-
-```
-You are running a weekly pre-submission readiness audit for the Commons Bonds book project at /Users/c17n/commons-bonds.
-
-For each manuscript/chapters/Chapter_*Draft.* file, check:
-
-1. Model-output preamble residue (publication-blocker):
-   - Pattern: lines containing "Let me connect to" / "Let me pull" / "I have the full context" / "Before writing, a few notes" within the first 30 lines of file
-   - Findings: flag specific files + line numbers
-
-2. Strikethrough editing markup (publication-blocker):
-   - Pattern: ~~text~~ markdown markup
-   - Findings: flag files + line numbers (these are author/AI editing notes, should not be in publication artifact)
-
-3. INTERVIEW NEEDED placeholders:
-   - Pattern: "[INTERVIEW NEEDED" (case-insensitive)
-   - Findings: count per chapter; ok if author-tracked but flagged as pre-submission gate
-
-4. Truncated paragraphs:
-   - Pattern: lines ending with "..." mid-paragraph (heuristic: "delivers the intergene" / "the full ext" / similar mid-word truncations)
-   - Findings: flag files + line numbers
-
-5. NOTATION COLLISION SWEEP (per Insight #55 framework-wide notation discipline, RATIFIED 2026-04-29):
-
-   Comprehensive cross-document scan for notation collisions across:
-   - core/technical-appendix/TechnicalAppendix_v*.html
-   - core/terms/terms_index.md
-   - manuscript/chapters/Chapter_*Draft.{md,html}
-   - core/glossary/commons_bonds_updated_glossary_v*.html
-
-   For each single-letter variable + multi-letter abbreviation in active use:
-   (a) Identify all distinct semantic uses across the document set.
-   (b) Flag any letter/abbreviation used for >1 distinct concept.
-   (c) Cross-check against reserved-letter ledger (Routine 1 pattern #10).
-
-   Specific patterns to scan:
-   - Single-letter variables: A, B, C, D, E, P, Q, R, S, U, plus Greek letters α, β, γ, δ, ε, η, θ, λ, μ, ν, π, ρ, σ, τ, φ, ψ, ω
-   - Multi-letter abbreviations: RCV, CIT, CSD, ARR, IPG, CS, AIT (retired), FGC (retired), ESG (retired)
-   - Subscript patterns: B₁, B₂, Cᵢ, S_max, t₀, r_∞
-
-   Output format:
-
-   For each collision detected:
-   - Letter/abbreviation: <symbol>
-   - Distinct semantic uses: <list, with file:line examples>
-   - Severity: HIGH (load-bearing in framework apparatus) / MEDIUM (used in prose only) / LOW (single-instance overlap)
-   - Remediation suggestion: <which use stays + which gets renamed; cite Insight # if already addressed>
-
-   This sweep is retrospective + cumulative; expect zero new collisions per week once Insight #55 audit is complete + Phase 3 v2.0.0 rebuild applied. Pre-completion: expect findings.
-
-6. Chapter-length tracking (per memory rule on standing chapter-length tracking):
-   - Word count per chapter file
-   - Compare to standing target ranges:
-     - Ch 1: 5,000-6,000 (currently partial draft)
-     - Ch 2: 5,000-6,000
-     - Ch 3: not yet drafted
-     - Ch 4: 5,000-6,000
-     - Ch 5: 5,000-6,000
-     - Ch 6: 6,000-8,000
-     - Ch 7: 5,000-6,000
-     - Ch 8: 5,000-6,000
-     - Ch 9: 5,000-6,000
-     - Ch 10: 5,000-7,000
-   - Flag chapters substantially above/below target with magnitude
-
-Output format:
-
-Per chapter:
-  ## Chapter N — [name]
-  - Length: X,XXX words ([STATUS] vs target Y-Z)
-  - Model-output preamble: [CLEAN | N findings: ...]
-  - Strikethrough markup: [CLEAN | N findings: ...]
-  - INTERVIEW NEEDED placeholders: [N count, line refs]
-  - Truncated paragraphs: [CLEAN | N findings: ...]
-  - Notation-collision findings (in chapter prose): [CLEAN | N findings: ...]
-  - Pre-submission status: [READY | NEEDS CLEANUP: ...]
-
-Notation-collision sweep summary (cross-document; not per-chapter):
-  - Letters/abbreviations checked: <count>
-  - Collisions detected: <count>
-  - HIGH severity: <count, list>
-  - MEDIUM severity: <count, list>
-  - LOW severity: <count, list>
-  - All known collisions (Insights #42, #50, #52) addressed: [YES | NO with diff]
-
-Closing summary:
-  Total chapters READY for submission: N of 10
-  Chapters with publication-blockers: M
-  Chapters substantially over target: K
-  Chapters substantially under target: J
-  Notation-collision status: [CLEAN | N collisions outstanding]
-
-Audit run YYYY-MM-DD. Next run: Monday next week 8am ET.
-```
-
-**Expected output:** structured punch list per chapter; can be reviewed with morning coffee.
-
----
-
-## Routine 3 — Rigor pass status tracker
-
-**Purpose:** Identify rigor passes pending ratification > 7 days; surface drift in rigor-process workflow.
-
-**Cadence:** Weekly Friday 5pm ET. Cron: `0 17 * * 5`
-
-**Prompt:**
-
-```
-You are running a weekly rigor pass status tracker for the Commons Bonds book project at /Users/c17n/commons-bonds.
-
-For each file in tools/rigor-passes/:
-  1. Read the **Status:** field (line near top of file)
-  2. Categorize as:
-     - RATIFIED: status field contains "ratified" + date
-     - PROPOSED: status field contains "PROPOSED" or "pending author ratification"
-     - REJECTED: status field contains "REJECTED" (less common)
-     - UNCLEAR: status field absent or unparseable
-
-For PROPOSED rigor passes:
-  - Read the **Date:** field
-  - Calculate days since proposal
-  - Flag any PROPOSED > 7 days old as "AWAITING RATIFICATION"
-
-Output format:
-
-## Ratified rigor passes (count): N
-- (list date + filename briefly; no detail required)
-
-## PROPOSED, awaiting ratification:
-  - filename — proposed YYYY-MM-DD (X days ago) — recommended verdict per file §1
-  - filename — proposed YYYY-MM-DD (X days ago) — recommended verdict per file §1
-  ...
-
-## UNCLEAR status (manual review needed):
-  - filename — status field unparseable
-
-Closing summary:
-  Total rigor passes: N
-  Ratified: M
-  Proposed > 7 days: K (action needed)
-  Unclear: J
-
-Tracker run YYYY-MM-DD. Next run: Friday next week 5pm ET.
-```
-
-**Expected output:** brief status summary; only "PROPOSED > 7 days" requires action.
-
----
-
-## Routine 4 — Open Insights status sync
-
-**Purpose:** Catch drift between Open Insights file (status records) and commit log / chapter prose (referenced insights). Flag any insight referenced in commits but not status-updated.
-
-**Cadence:** Weekly Friday 5pm ET (parallel to Routine 3). Cron: `5 17 * * 5` (offset 5 min from Routine 3)
-
-**Prompt:**
-
-```
-You are running a weekly Open Insights status sync for the Commons Bonds book project at /Users/c17n/commons-bonds.
+You are running a cross-thread state-snapshot for the Commons Bonds book project at /Users/c17n/commons-bonds.
 
 Steps:
 
-1. Read alignment/commons_bonds_open_insights_v1.0.0.md
-   - Extract each Insight # + current status (closed-ratified / open / etc.)
+1. Run `git fetch --all --prune` then survey:
+   - origin/main HEAD vs. previous snapshot HEAD (commits since last run, ~48h window)
+   - All `claude/*` remote branches: commits ahead of main, last commit date
+   - Identify branches stale > 7 days
 
-2. For each Insight # found:
-   a. grep recent commits (last 30 days) for "Insight #N" references
-   b. grep chapter prose / framework docs for "Insight #N" references
-   c. Compare commit/prose status implications to Open Insights file status
+2. For commits to main since last snapshot, summarize what changed in:
+   - publishing/ (publishing-strategy artifacts)
+   - manuscript/ (chapter drafts, GuidanceDocs, essays)
+   - research/ (bibliography, outreach, story-drafts)
+   - alignment/ (decisions, sessions, insights, working principles)
+   - tools/ (rigor passes, audits, routines)
 
-3. Flag drift cases:
-   - Insight referenced as "closed" in commits/prose but Open Insights file shows "open"
-   - Insight referenced as "open" in commits/prose but Open Insights file shows "closed"
-   - Insight with substantive new commits but Open Insights file unchanged > 14 days
+3. Scan for stale references in canonical living artifacts:
+   - publishing/strategy/cascade-plan_2026-05-06.md
+   - publishing/strategy/decisions-log.md
+   - publishing/strategy/rights-register.md
+   - publishing/strategy/cross-thread-todos.md
+   - manuscript/essay/Noema/rewrite-plan_2026-05-01.md
+   - manuscript/essay/Noema/noema-essay-drafting-plan_*.md
+   - manuscript/essay/aeon/aeon-submission-strategy_*.md
+   - For each markdown file path or commit hash referenced in those artifacts, verify the target exists / commit is reachable. Flag candidates whose target was renamed/moved/deleted.
+
+4. Read publishing/strategy/cross-thread-todos.md
+   - List items still in "Open" status
+   - Flag items with target-resolution date in the past (if dated)
+   - Flag items where the surfaced-by or for-thread session has been inactive > 14 days
 
 Output format:
 
-## Open Insights file status summary:
-  - Total insights: N
-  - Closed-ratified: M
-  - Open: K
-  - Other status: J
+## Cross-thread state-snapshot — YYYY-MM-DD HH:MM ET
 
-## Drift flags:
-  - Insight #X — [drift description]
-    Open Insights file: [status]
-    Recent commit/prose evidence: [evidence]
-    Action: [suggest update / verify]
+### What landed on main since last snapshot
+- (List commits with brief descriptions; group by area: publishing/manuscript/research/alignment/tools.)
+- (If zero commits: "No new commits on main since last snapshot.")
 
-(If no drift: "No drift detected — Open Insights file is in sync with commit/prose evidence.")
+### Active feature branches
+- branch-name | N commits ahead | last commit YYYY-MM-DD | scope (publishing/manuscript/etc.) | suggested fate
+- (Stale > 7 days flagged with **STALE** marker.)
 
-Sync run YYYY-MM-DD. Next run: Friday next week 5pm ET (5 min after rigor pass tracker).
+### Stale-reference findings
+- file:line — referenced path: <path> — issue: <not found / renamed to X / etc.>
+- (Limit 20 findings; report "all clean" if none.)
+
+### Open cross-thread TODOs
+- (Pull from publishing/strategy/cross-thread-todos.md "Open" section; flag overdue items.)
+
+### Recommended actions
+- (1-3 highest-priority items to address based on the above.)
+
+Snapshot run YYYY-MM-DD at HH:MM. Next run: day-after-tomorrow 3pm ET.
 ```
 
-**Expected output:** drift findings or "in sync."
+**Expected output:** ~½-page state-snapshot suitable for morning-coffee review. Picks up drift between branches before it accumulates into rescue-from-frozen-sessions territory.
 
 ---
 
-## Implementation order recommendation
+## Routine 2 (refined) — Weekly pre-submission readiness audit (lighter scope)
 
-If implementing all four:
+**Purpose.** Catch publication-readiness blockers in chapters in active polish + Ch 3 (the only undrafted chapter as of 2026-05-09). Drops the comprehensive notation-collision sweep (mostly stable post-Insight #21 closure 2026-05-04).
 
-1. **Start with Routine 1 (terminology-regression sentinel)** — highest signal-to-noise; aligns with existing memory rule; catches the bug class we hit ~6 times this restructure cycle.
+**Cadence.** Weekly Monday 8am ET. Cron: `0 8 * * 1`
 
-2. **Then Routine 2 (pre-submission readiness audit)** — catches publication-blocker pattern (Ch 9 preamble; Ch 8 scope-note truncation). Critical before submission to literary agent / publisher.
+**Refinements from v1.0.0:**
+- Scope reduced: only chapters in active polish + Ch 3 (previously: all 10 chapters every week).
+- Drop the framework-wide notation-collision sweep (Insight #21 closed; stable until Phase 3 Tech Appendix rebuild lands).
+- Length tracking softened: per "substance drives length" discipline (per session-handoff v1.51.0+), don't flag for "under target" if substance is complete; only flag for "substantially over target" with magnitude.
+- Add manuscript-completion-rate metric: % chapters READY for submission across the 10-chapter scope.
 
-3. **Routine 3 + 4 (rigor pass tracker + Open Insights sync)** — process-discipline; nice-to-have; lower priority. Can implement together when scheduling Routine 3.
-
-Phased ratification approach (run for 1-2 weeks each before adding the next) lets us see whether the cadence + output format work before building up routine surface area.
-
----
-
-## Author ratification options
-
-For each routine, author can:
-- **Ratify as proposed** — schedule with prompt + cron as drafted
-- **Ratify with modifications** — adjust prompt language, cron timing, or output format
-- **Reject** — don't schedule (and possibly remove the routine from this list)
-- **Defer** — keep in this draft; revisit later
-
-Ratification request:
-- [ ] Routine 1 (daily terminology-regression sentinel) — `0 9 * * *`
-- [ ] Routine 2 (weekly pre-submission readiness audit) — `0 8 * * 1`
-- [ ] Routine 3 (weekly rigor pass status tracker) — `0 17 * * 5`
-- [ ] Routine 4 (weekly Open Insights status sync) — `5 17 * * 5`
-
-Once ratified, schedule via Claude Code's scheduled-tasks tooling. Routine output appears as completed remote-agent runs in the routines panel; reviewable when ready.
+**Full prompt rewrite pending** — to be drafted on first ratified scheduling. Target: similar structure to v1.0.0 spec but with reduced scope per refinements above.
 
 ---
 
-*End of proposed routines v1.0.0. Draft 2026-04-28 by Claude Opus 4.7 at Chris Winn's direction. Pending author ratification before scheduling.*
+## Routine 3' — Branch hygiene scan
+
+**Purpose.** Weekly Friday afternoon scan of all `claude/*` remote branches; surface branch-sprawl candidates for retirement; pre-empt the rescue-from-frozen-sessions pattern that emerged when ~8 branches accumulated unmerged work.
+
+**Cadence.** Weekly Friday 5pm ET. Cron: `0 17 * * 5`
+
+**Prompt:**
+
+```
+You are running a weekly branch hygiene scan for the Commons Bonds book project at /Users/c17n/commons-bonds.
+
+Steps:
+
+1. `git fetch --all --prune`
+2. List all `claude/*` remote branches.
+3. For each branch:
+   - Commits ahead of origin/main
+   - Last commit date
+   - Change scope (which top-level directories touched: publishing/manuscript/research/alignment/tools)
+   - Most recent commit message subject (first line)
+4. Categorize each branch by suggested fate:
+   - **ACTIVE** — commits within last 3 days; active work in flight
+   - **HIBERNATING** — last commit 4-7 days ago; in-flight but not currently active
+   - **MERGE-AND-RETIRE** — single commit or small commit-set (≤3) ready to fast-forward to main
+   - **ABANDONED** — last commit > 14 days ago; stale; consider deletion
+
+Output format:
+
+## Branch hygiene scan — YYYY-MM-DD HH:MM ET
+
+| Branch | Commits ahead | Last commit | Scope | Subject (most recent) | Suggested fate |
+|---|---|---|---|---|---|
+| ... | ... | ... | ... | ... | ... |
+
+### Closing summary
+- Active branches: N
+- Hibernating: M
+- Merge-and-retire candidates: K (list by name)
+- Abandoned candidates: J (list by name; recommend deletion review)
+
+### Recommended actions
+- (1-3 specific moves: e.g., "Fast-forward `claude/X` to main"; "Review `claude/Y` for abandonment"; etc.)
+
+Scan run YYYY-MM-DD. Next run: Friday next week 5pm ET.
+```
+
+**Expected output:** brief table + closing summary. Friday afternoon timing aligns with end-of-week project rhythm; gives author a digest before weekend.
+
+---
+
+## Routine 4' — Stale-reference scan
+
+**Purpose.** Weekly scan for broken or outdated cross-references in publishing-strategy + manuscript-essay artifacts. Catches: file paths whose target was renamed/moved/deleted; references to versions/decisions superseded but not updated; "resolved" decisions not yet struck through; outdated Date-modified fields.
+
+**Cadence.** Weekly Sunday 8pm ET. Cron: `0 20 * * 0`
+
+**Prompt:**
+
+```
+You are running a weekly stale-reference scan for the Commons Bonds book project at /Users/c17n/commons-bonds.
+
+Targets (canonical living artifacts):
+- publishing/strategy/*.md
+- publishing/book-proposal/*.md
+- publishing/agents/*.md
+- publishing/essay-drafts/templates/*.md
+- manuscript/essay/Noema/rewrite-plan_*.md
+- manuscript/essay/Noema/noema-essay-drafting-plan_*.md
+- manuscript/essay/aeon/aeon-submission-strategy_*.md
+- manuscript/essay/aeon/aeon-essay-dunbar-aside-drafts_*.md
+- alignment/sessions/commons-bonds-session-handoff-*.md (latest only)
+- tools/routines/proposed_routines_*.md
+- research/outreach/_pipeline/*.md
+- research/outreach/_protocols/*.md
+
+Checks:
+
+1. **Broken file-path references.** Extract `[text](path/to/file)` markdown links and inline `` `path/to/file.md` `` patterns. Verify each target exists at the cited path. Flag missing.
+
+2. **Stale path references after restructure.** Specific patterns to check:
+   - `research/outreach/<subject>-<artifact>` (flat-path pattern; should now be `research/outreach/subjects/<subject>/<artifact>` post-2026-05-09 restructure)
+   - `publishing/essay-drafts/draft2.md` (archived 2026-05-08; should now be at `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md`)
+   - `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-B_alternate-frame.md` (deleted 2026-05-08; superseded by Version C)
+
+3. **Stale version references.** Check for "Version A" / "Version B" references in Aeon-context artifacts (Version C is the locked submission cut as of 2026-05-08).
+
+4. **Resolved-decision markers.** Items in "Decisions due" or "Open" sections that are actually resolved per decisions-log/git history. Cross-check against:
+   - publishing/strategy/decisions-log.md latest entries
+   - publishing/strategy/cross-thread-todos.md "Resolved" section
+
+5. **Date-modified lint.** For files with `**Date modified:**` headers, verify Date modified ≥ most recent commit touching the file (per git log). Flag if file has been modified more recently than the stated Date modified.
+
+Output format:
+
+## Stale-reference scan — YYYY-MM-DD HH:MM ET
+
+### Broken file-path references
+- file:line — referenced path: <path> — issue: not found / suggested replacement: <path>
+
+### Stale-path-after-restructure findings
+- (Punch-list of flat-path or version-B references that should be updated.)
+
+### Stale version references
+- (Aeon Version A/B references that should be Version C.)
+
+### Resolved-decision markers
+- (Items still listed as open that are actually resolved.)
+
+### Date-modified lint
+- file — last commit YYYY-MM-DD — Date modified header YYYY-MM-DD — bump needed
+
+### Closing summary
+- Total findings: N
+- High-priority (broken paths): K
+- Medium-priority (stale references): M
+- Low-priority (Date-modified lint): J
+
+Scan run YYYY-MM-DD. Next run: Sunday next week 8pm ET.
+```
+
+---
+
+## Implementation order recommendation (v2.0.0)
+
+If implementing all three new routines + refining Routine 2:
+
+1. **Routine 1' first** (cross-thread state-snapshot, every other day) — highest expected leverage; replaces deprecated Routine 1 slot. Stand up immediately.
+2. **Routine 4'** (stale-reference scan, weekly Sunday) — second-highest leverage; addresses path/reference drift. Stand up after 1 week of Routine 1' output validates the cadence.
+3. **Routine 3'** (branch hygiene scan, weekly Friday) — useful if branch sprawl continues. Stand up if the rescue-from-frozen-sessions pattern recurs.
+4. **Refine Routine 2** (lighter scope) — when convenient; full prompt rewrite needed before next Monday-morning run.
+5. Re-evaluate v1.0.0 deferred Routines (3 + 4) after Phase 3 Tech Appendix rebuild lands.
+
+---
+
+## Author ratification status (updated 2026-05-09)
+
+- [x] **Routine 1** (v1.0.0 daily terminology-regression sentinel) — **DEPRECATED** 2026-05-09
+- [x] **Routine 1'** (cross-thread state-snapshot, every other day) — **RATIFIED** 2026-05-09; scheduling pending
+- [x] **Routine 2** (weekly pre-submission readiness, refined) — **RATIFIED with refinement** 2026-05-09; full prompt rewrite pending before next scheduled run
+- [x] **Routine 3** (v1.0.0 weekly rigor pass status tracker) — **DEFERRED** 2026-05-09
+- [x] **Routine 3'** (weekly branch hygiene scan) — **RATIFIED** 2026-05-09; scheduling pending
+- [x] **Routine 4** (v1.0.0 weekly Open Insights status sync) — **DEFERRED** 2026-05-09
+- [x] **Routine 4'** (weekly stale-reference scan) — **RATIFIED** 2026-05-09; scheduling pending
+
+Once scheduling tooling is configured, routine output appears as completed remote-agent runs in the routines panel; reviewable when ready.
+
+---
+
+## Update log
+
+- **2026-04-28.** v1.0.0 drafted — four routines (daily terminology sentinel + weekly pre-submission audit + weekly rigor pass tracker + weekly Open Insights sync). Pending author ratification.
+- **2026-05-09.** v2.0.0 in-place rewrite per author direction. v1.0.0 Routine 1 deprecated; Routine 2 ratified-with-refinement; Routines 3 + 4 deferred. New routines added: 1' (cross-thread state-snapshot, every other day), 3' (weekly branch hygiene scan), 4' (weekly stale-reference scan). Companion file `publishing/strategy/cross-thread-todos.md` stood up same date.
+
+---
+
+*v2.0.0 revised 2026-05-09. v1.0.0 (2026-04-28) recoverable from git history.*
