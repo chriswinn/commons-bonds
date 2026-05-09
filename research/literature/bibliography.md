@@ -510,6 +510,30 @@
 - **Chapter relevance:** Ch 1 (first-use citation at Value Extraction introduction); Ch 6 methodology (extension positioning); Ch 9 policy-framework; Tech Appendix (literature lineage section).
 - **Rigor provenance:** Literature audit 2026-04-24 (Open Insight #10); ratification decision 2026-04-24 by Chris Winn — "cite Mazzucato + position framework as extension"; Value Extraction standalone rigor pass v1.1.0 addendum.
 
+### Pistor, Katharina. *The Code of Capital: How the Law Creates Wealth and Inequality.* Princeton University Press, 2019.
+
+- **Summary:** Capital is "coded" — produced by legal devices (property law, collateral, trust, corporate law, bankruptcy, contract). Lawyers are the architects of capital itself, choosing which assets get coded with priority rights, durability, universality, and convertibility. The book's central move shifts the explanatory burden for capital's existence from economic markets to legal infrastructure.
+- **Relevance:** Structural-mechanism neighbor. Pistor names the legal-coding architecture that *produces* capital from things; Commons Bonds names the cost-severance architecture that *separates* value-capture from cost-bearing in extraction. Both are mechanism-level arguments about how outcomes that look natural to markets are actually shaped by specific institutional architectures. **Engagement pending Ch 5 (Accountability Gap) or Ch 9 (Pricing Honestly) paragraph integration** — most likely Ch 5, where the institutional-architecture-of-accountability frame intersects most directly with Pistor's legal-architecture-of-capital frame.
+- **Relationship:** **STRONG SUPPORT (candidate, pending engagement).**
+- **Chapter relevance:** Ch 5 (institutional / legal-architecture engagement, primary candidate); Ch 9 (policy-instrument framing, secondary candidate).
+- **Status:** Added 2026-05-08 per publishing-strategy comp-titles work; engagement-depth decision queued for next manuscript-thread session.
+
+### Christophers, Brett. *The Price is Wrong: Why Capitalism Won't Save the Planet.* Verso, 2024.
+
+- **Summary:** Renewable-energy investment fails to scale at the pace climate policy assumes because of how markets price renewable returns relative to fossil-fuel returns. Christophers argues the explanatory locus is *pricing* — rate-of-return calculations, asset-manager incentives, and capital-market structure — rather than technology, denial, or political will.
+- **Relevance:** Direct mechanism-level engagement with how pricing fails — the same territory Commons Bonds enters with Residual Commons Value (RCV) and the four-step Classify → Reserve → Invest → Reassess framework. Christophers diagnoses the pricing failure in the energy-transition context; Commons Bonds attempts to construct a corrective pricing instrument (RCV) for the cost-severance pattern more generally. **Engagement pending Ch 9 (Pricing Honestly) paragraph integration** — Ch 9 is the framework's pricing-instrument home and the natural place to mark the diagnosis-vs-prescription distinction.
+- **Relationship:** **STRONG SUPPORT (candidate, pending engagement).**
+- **Chapter relevance:** Ch 9 (primary candidate — pricing-instrument context); Ch 5 (secondary, accountability-gap framing).
+- **Status:** Added 2026-05-08 per publishing-strategy comp-titles work; engagement-depth decision queued for next manuscript-thread session.
+
+### Susskind, Daniel. *Growth: A Reckoning.* Belknap Press / Harvard University Press, 2024.
+
+- **Summary:** Comprehensive accounting of the costs growth has imposed (well-being, climate, equality, meaning) alongside its successes. Frames the contemporary question as whether to keep pursuing growth as currently constituted, or to redesign for a different objective function. Recent and high-profile in the big-idea econ register.
+- **Relevance:** Adjacent register. Susskind takes "the costs of growth" as the explicit subject; Commons Bonds takes "honest accounting of those costs at the extraction-mechanism level" as the subject. Susskind's frame is more macro (the growth objective itself); Commons Bonds operates at the per-extraction-event mechanism level. **Engagement pending Ch 9 (Pricing Honestly) paragraph integration** — Ch 9's policy-economy framing is the natural place to position Commons Bonds as a mechanism-specific complement to Susskind's macro reckoning.
+- **Relationship:** **SUPPORT (candidate, pending engagement).**
+- **Chapter relevance:** Ch 9 (primary candidate — policy-economy framing); Ch 1 (secondary, the broader cost-accounting backdrop).
+- **Status:** Added 2026-05-08 per publishing-strategy comp-titles work; engagement-depth decision queued for next manuscript-thread session.
+
 ---
 
 ## 14. Chosen family and fictive kinship (Kindred dimension grounding)
