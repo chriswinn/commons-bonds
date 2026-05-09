@@ -8,6 +8,36 @@
 
 ---
 
+## 2026-05-08 (Colden unblock) — Public-record brief lands; substitution-hypothesis CONFIRMED; Noema submission accelerates
+
+**Decision.** The parallel session's Colden public-record brief landed 2026-05-08 (commits `0e83dc5` + `fffd202`; `research/outreach/colden-background-brief_2026-05-08.md` — ~11,900 words, 719 lines, ~117KB; ~150-source citation list). **Substitution-hypothesis CONFIRMED:** Ch 3 (Watermen / Chesapeake fishery) is draftable from public-record material alone, and Noema essay §V third-anchor (Chesapeake fisheries) is unblocked from the same brief. The live Colden interview becomes a bonus rather than a blocker.
+
+**Implications:**
+
+1. **Noema essay drafting unblocks materially.** Section VI third-anchor (~200w of the essay) was the second-largest blocked portion. Moves to Unblocked. Combined with Sections I–IV + Norway portion of V + Mazzucato/Mondragon portions of VI + Close, the drafted-able portion expands from ~89% (~3,300+ words) to ~95% (~3,500+ words). Only Section V's Darity reparations sub-portion (~100–200w) remains blocked, pending the May 12 interview + quote-confirmation.
+
+2. **Submission timeline accelerates.** Cascade plan A-track originally scheduled the Noema rewrite for August (gated on Colden interview + Ch 1 stable). Both gates are now satisfied earlier than expected — Ch 1 tentatively final 2026-05-04; Colden material now in hand. Realistic submission window shifts from August to **late May / early June**, possibly in parallel with or shortly after the Aeon submission (first week of June).
+
+3. **Ch 3 drafting unblocks for the manuscript thread.** Independent of Noema-essay implications: Ch 3 was the only undrafted Book 1 chapter; gated on CBF interview material. Now draftable from public-record material. Manuscript-thread coordination item — `Chapter__3___GuidanceDoc.md` is the natural place for the manuscript thread to record this unblock.
+
+4. **Moore (CBF VA) public-record prep no longer a Noema dependency.** May still proceed in the parallel session for Ch 3 dual-perspective coverage (Maryland + Virginia CBF positions), but Noema §V third-anchor is satisfied with Colden material alone.
+
+**Cross-thread context.** The 2026-05-08 (De-risk Colden + Moore) decision committed earlier today (`bfcf882`) queued the public-record prep work; the parallel session executed within the same day, lands the brief, and confirms the substitution hypothesis. The de-risk → unblock cycle ran in <12 hours — fastest cross-thread coordination loop the publishing-strategy thread has executed to date.
+
+**Updated artifacts in this commit:**
+- `manuscript/essay/Noema/noema-essay-drafting-plan_2026-05-08.md` — Section VI moved to Unblocked; Phase 3 expanded; Phase 4 shrunk; submission timeline notes updated.
+- `manuscript/essay/Noema/rewrite-plan_2026-05-01.md` REVISION 2026-05-08 — Section VI gating row updated; "What stays unchanged" third-anchor bullet rewritten as resolved.
+- `publishing/strategy/cascade-plan_2026-05-06.md` — three Colden references updated (Outreach pipeline / August A-track / Decisions due #6); update log gains 2026-05-08 (Colden unblock) entry.
+
+**Cross-references.**
+- Source brief: `research/outreach/colden-background-brief_2026-05-08.md` (commits `0e83dc5` + `fffd202`)
+- Prior decision: 2026-05-08 (De-risk Colden + Moore) entry below — established the substitution hypothesis the brief tested.
+- Methodology pattern: `research/outreach/darity-background-brief_2026-05-06.md` + Dagan/Amsterdam pre-read brief.
+
+**Supersedes.** Prior gating language across the cascade plan + rewrite plan REVISION + drafting plan that left Section VI third-anchor + Ch 3 as blocked. Previously these were "blocked on Colden interview *or* sufficient public-record material"; now resolved by the latter.
+
+---
+
 ## 2026-05-08 — De-risk Colden + Moore CBF dependency via parallel public-record prep (queued for manuscript/outreach thread)
 
 **Decision.** The Ch 3 (Watermen / Chesapeake fishery) and Noema essay §V third-anchor decision are currently single-failure-point dependencies on Colden + Moore CBF interview outcomes. To de-risk, queue parallel public-record prep work on both subjects — mirror the methodology already applied to Darity (`research/outreach/darity-background-brief_2026-05-06.md`) and Dagan (`amsterdam-donut-prereadbrief_2026-05-06.md`): build background briefs of public quotes, congressional/state-legislature testimony, op-eds, podcast appearances, and CBF press releases. Output is useful whether or not interviews land — pre-interview prep + fallback if interviews decline.

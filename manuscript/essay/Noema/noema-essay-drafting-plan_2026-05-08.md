@@ -13,7 +13,7 @@
 - Submission discipline: `noema-writing-guidelines.pdf` + `noema-model-pitch.pdf`
 - AI disclosure: `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` (Noema variant)
 
-**Cross-thread context.** A separate session is conducting Colden + Moore CBF public-record prep per the 2026-05-08 (De-risk Colden + Moore) decision. Output (research dossiers in `research/outreach/`) feeds Section VI's third-anchor decision. This drafting plan reflects the relaxed gating: third-anchor unblocks on either the live interview *or* sufficient public-record material, whichever lands first.
+**Cross-thread context.** Colden public-record brief landed 2026-05-08 (commits `0e83dc5` + `fffd202`; `research/outreach/colden-background-brief_2026-05-08.md` — ~11,900 words, 719 lines, ~150-source citation list). **Substitution-hypothesis CONFIRMED:** Ch 3 is draftable from public-record material alone, and Section VI third-anchor for the Noema essay is unblocked from the same brief. The live Colden interview is no longer a hard dependency for either artifact. Moore (CBF VA) public-record prep may still be queued in the parallel session as separate material.
 
 ---
 
@@ -26,11 +26,11 @@
 | **III — Cost made visible** (cable TV / DMV commute / age-38 "quiet math") | ~600 | **Unblocked** | Paraphrase Ch 1 second half | — |
 | **IV — Framework named (brief)** | ~400 | **Unblocked** | NEW prose: cost severance + RCV in plain language; paraphrase Ch 5 / Ch 6 framing without the math | — |
 | **V — Cross-history beat** | ~500 | **Partial** | ~300–400w Norway-as-existence-proof (paraphrase Ch 4) | ~100–200w Darity reparations material — blocked on May 12 interview + quote-confirmation |
-| **VI — Solutions cluster γ** | ~700 | **Partial** | ~400–500w Mazzucato + Mondragon anchors (paraphrase Ch 9 / Ch 10) | ~200w third-anchor (Chesapeake fisheries / Vienna / Ecuador-Whanganui / Amsterdam DEAL) — blocked on Colden interview *or* public-record prep yielding sufficient material (parallel session in flight) |
+| **VI — Solutions cluster γ** | ~700 | **Unblocked** | ~400–500w Mazzucato + Mondragon anchors (paraphrase Ch 9 / Ch 10) **+** ~200w Chesapeake fisheries third-anchor (paraphrase from `research/outreach/colden-background-brief_2026-05-08.md` — substitution-hypothesis CONFIRMED 2026-05-08) | — |
 | **Close** (vignette callback + framework-for-the-ones-who-come-after) | ~200 | **Unblocked** | Paraphrase Ch 1 closing paragraph | — |
-| **Total** | **~3,700** | — | **~3,300+ unblocked** | **~300–400 blocked** |
+| **Total** | **~3,700** | — | **~3,500+ unblocked** | **~100–200 blocked** |
 
-**Bottom line:** ~89% of the essay can be drafted right now. Two clearly-defined slot-fills wait on Darity (May 12) and Colden material (parallel session).
+**Bottom line:** ~95% of the essay can be drafted right now. Only the Darity reparations sub-portion of Section V (~100–200w) remains blocked, pending the May 12 interview + quote-confirmation. Section VI's third-anchor unblocked 2026-05-08 via the Colden public-record brief — the live interview is no longer a hard dependency.
 
 ---
 
@@ -56,13 +56,14 @@
 
 **Discipline.** Section IV is the bridge between Sections I–III's personal-narrative-as-doorway and Sections V–VI's cross-history + solutions material. Voice should ramp from memoir-adjacent into framework-adjacent without losing the reader.
 
-### Phase 3 — Norway + Mazzucato + Mondragon (the unblocked portions of V + VI)
+### Phase 3 — Norway + Mazzucato + Mondragon + Chesapeake (Section V Norway portion + all of Section VI)
 
 - **Section V Norway portion (~300–400w):** Paraphrase Ch 4 *The Existence Proof* — Norway's 1969 institutional decision; sovereign wealth fund as accountability instrument operating now.
 - **Section VI Mazzucato anchor (~150–200w):** Paraphrase Ch 9 + value-extraction critique; Mazzucato as the academic adjacency.
 - **Section VI Mondragon anchor (~250–300w):** Paraphrase Ch 9 entering-wedges; Mondragon as the multi-generational existence proof beyond Norway; ~80,000 worker-owners across 95+ cooperatives.
+- **Section VI Chesapeake third-anchor (~200w):** Paraphrase from `research/outreach/colden-background-brief_2026-05-08.md` — Chesapeake Bay restoration as renewable-past-regeneration case; Colden's public quotes from CBF press releases / congressional testimony / op-eds available without live-interview attribution; cite the public sources directly per the brief's ~150-source citation list.
 
-**Discipline.** These sections demonstrate cluster-γ architecture *operating now* in different modes. Keep voice global — multi-regional is a Noema editorial preference.
+**Discipline.** These sections demonstrate cluster-γ architecture *operating now* in different modes. Keep voice global — multi-regional is a Noema editorial preference. Chesapeake fisheries is the domestic-US anchor that pairs the European-leaning Mazzucato + Mondragon with a US Pattern-2 case.
 
 ### Pitch + cover note (drafted-able in parallel)
 
@@ -84,18 +85,11 @@ Use the Noema variant from `publishing/essay-drafts/templates/ai-disclosure-para
 
 **Fallback if Darity yields no quotable material:** Section V stays Norway-only at ~300–400 words. Essay total drops to ~3,500–3,600; still inside Noema's 2,500–4,000 band.
 
-### Section VI — Third-anchor (~200w)
+### ~~Section VI — Third-anchor~~ — UNBLOCKED 2026-05-08
 
-**Blocked on:** Colden interview *or* public-record prep yielding sufficient material on Chesapeake fisheries restoration as renewable-past-regeneration case (per 2026-05-08 de-risking decision; parallel session in flight).
+**Resolved.** Colden public-record brief landed (commits `0e83dc5` + `fffd202`; `research/outreach/colden-background-brief_2026-05-08.md` — ~11,900 words, ~150-source citation list). Substitution-hypothesis CONFIRMED — Chesapeake fisheries third-anchor is draftable from public-record material alone (CBF press releases, congressional testimony, op-eds, podcast appearances). The live Colden interview is no longer a hard dependency.
 
-**Candidates:**
-- **Chesapeake fisheries** (preferred — domestic-US anchor; geographical spread from European-leaning Mazzucato + Mondragon; ties Ch 3 material into the essay)
-- **Vienna Gemeindebau** (European municipal; ~60% of Vienna's housing; century-plus operational record)
-- **Ecuador rights-of-nature constitution (2008)** (Global South / indigenous-jurisdictional)
-- **Whanganui River legal personhood (NZ 2017)** (Global South / indigenous-jurisdictional)
-- **Amsterdam DEAL implementation team** (newcomer per Beth Ingledew → Dagan warm intro 2026-05-08; framework's cleanest live Pattern 2 case per v1.52.0)
-
-**What lands when unblocked:** ~200 words on whichever anchor's material is strongest (Colden public quotes from CBF press releases / congressional testimony / op-eds OR the live interview if it converts; falls back to Vienna or Amsterdam DEAL if Chesapeake material is thin).
+**Anchor selection (resolved):** Chesapeake fisheries — domestic-US anchor; geographical spread from European-leaning Mazzucato + Mondragon; ties Ch 3 material into the essay; rich public-record source base. Vienna / Ecuador-Whanganui / Amsterdam DEAL remain as fallback candidates if Chesapeake framing surfaces a problem during Phase 3 drafting.
 
 ---
 
@@ -105,8 +99,8 @@ Use the Noema variant from `publishing/essay-drafts/templates/ai-disclosure-para
 2. **Phase 2 — Section IV framework named.** ~400 words. NEW prose. ~½ day to 1 day.
 3. **Phase 3 — Section V Norway + Section VI Mazzucato + Mondragon.** ~750 words. Paraphrase from existing chapter material. ~1 day.
 4. **Pitch + cover note** in parallel with Phase 2–3 (or after Phase 1 once voice is locked).
-5. **Wait for unblockers** — Darity quote-confirmation post-May 12; Colden material from parallel session.
-6. **Phase 4 (when unblocked)** — slot Section V Darity portion + Section VI third anchor; final voice pass; AI disclosure drop-in.
+5. **Wait for Darity quote-confirmation** post-May 12 (Section VI third-anchor no longer blocking — resolved 2026-05-08 via Colden brief).
+6. **Phase 4 (when Darity unblocks)** — slot Section V Darity portion (~100–200w); final voice pass; AI disclosure drop-in.
 7. **Submit** — `edit@noemamag.com`; full draft (Noema's stated "best chance" preference) + pitch + AI disclosure.
 
 ---
@@ -127,13 +121,15 @@ Use the Noema variant from `publishing/essay-drafts/templates/ai-disclosure-para
 
 ## Cross-thread coordination notes
 
-- **Colden + Moore CBF public-record prep** is in flight in a separate session per the 2026-05-08 (De-risk Colden + Moore) decision. Output (research dossiers in `research/outreach/`) feeds Section VI's third-anchor decision. Material may unblock Section VI's third-anchor before the live interview lands — drafting plan accommodates either path.
-- **Darity interview** May 12 @ 14:00 ET is on-calendar; live-call companion at `research/outreach/darity-live-call-companion_2026-05-06.md` is prepped. Quote-confirmation follow-up after the call feeds Section V.
+- **Colden public-record brief** landed 2026-05-08 (commits `0e83dc5` + `fffd202`; `research/outreach/colden-background-brief_2026-05-08.md` — ~11,900 words, 719 lines, ~150-source citation list). **Substitution-hypothesis CONFIRMED** by the parallel session: Ch 3 + Section VI third-anchor are both draftable from public-record material alone. Live Colden interview is no longer a hard dependency.
+- **Moore (CBF VA) public-record prep** may still be queued separately. Not a Noema-essay dependency (Section VI third-anchor is now Chesapeake-fisheries-via-Colden material). Relevant primarily for Ch 3 if the manuscript thread wants both CBF perspectives.
+- **Darity interview** May 12 @ 14:00 ET is on-calendar; live-call companion at `research/outreach/darity-live-call-companion_2026-05-06.md` is prepped. Quote-confirmation follow-up after the call feeds Section V's Darity reparations sub-portion (the only remaining block).
 - **Aeon submission** target first week of June (separate venue, separate frame — no rights conflict with Noema). Aeon's "Mask of Abundance" Mars frame doesn't overlap with Noema's plane-scene-at-sunrise frame.
-- **Cascade plan August A-track** schedules the Noema rewrite for August. This drafting plan can run earlier — Phase 1–3 in May / early June if drafting capacity allows; Phase 4 + submission whenever Darity + Colden materials land.
+- **Cascade plan August A-track** schedules the Noema rewrite for August. This drafting plan can now run materially earlier — ~95% of the essay is drafted-able right now; Phase 4 (Darity slot-fill) lands ~late May; submission could be late May / early June rather than August. If accelerated, the Noema submission could fire in parallel with or shortly after the Aeon submission.
 
 ---
 
 ## Update log
 
 - **2026-05-08.** File created. Operational drafting plan derived from `rewrite-plan_2026-05-01.md` REVISION 2026-05-08 section. Status-by-section table foregrounds drafted-able (~3,300+ words / ~89%) vs. blocked (~300–400 words / ~11%) per the Path B + relaxed-gating model.
+- **2026-05-08 (Colden unblock).** Colden public-record brief landed (commits `0e83dc5` + `fffd202`); substitution-hypothesis CONFIRMED. Section VI third-anchor moved from "Partial / blocked" to "Unblocked"; Phase 3 now covers all of Section VI (including Chesapeake fisheries third-anchor); Phase 4 shrinks to Darity slot-fill only. Drafted-able portion expands to ~95%. Cross-thread context block + status table + drafting-order phases + cross-thread coordination notes all updated to reflect the unblock. Submission timeline accelerates: late May / early June plausible rather than August (cascade-plan A-track default).
