@@ -8,7 +8,17 @@
 
 **Status:** Stub pending full revision in the queued guidance-doc revision sweep.
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30 — note specifically that the existing stub references "v1.28.0 dimension-rename" (the dimensions vocabulary itself was retired/reframed; current vocabulary lives in `core/terms/terms_index.md`) and the "8-tier framework" (RETIRED 2026-04-24 per Insight #21 + #63). Sections may also reference AIT (renamed to CIT 2026-04-24); Dynastic Labor Cost (renamed to Lineage Labor Cost 2026-04-30 per Insight #56); FGC (retired); Universality Test (retired); Value Capture (retired in favor of Value Extraction); Spatial Cost Severance + Temporal Cost Severance (reframed). The "Book One Recommendation (Focused)" + "Book Two Material" content below predates Insight #24 (Book 2 references removed from Book 1, ratified 2026-04-27) — verify framing before applying. Per-section staleness audit deferred to future pass.
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30 — note specifically that the existing stub references "v1.28.0 dimension-rename" (the dimensions vocabulary itself was retired/reframed; current vocabulary lives in `core/terms/terms_index.md`) and the "8-tier framework" (RETIRED 2026-04-24 per Insight #21 + #63). Sections may also reference AIT (renamed to CIT 2026-04-24); Dynastic Labor Cost (renamed to Lineage Labor Cost 2026-04-30 per Insight #56); FGC (retired); Universality Test (retired); Value Capture (retired in favor of Value Extraction); Spatial Cost Severance + Temporal Cost Severance (reframed). The "Book One Recommendation (Focused)" + "Book Two Material" content below predates Insight #24 (Book 2 references removed from Book 1, ratified 2026-04-27) — verify framing before applying.
+
+**[PER-SECTION STALENESS AUDIT 2026-05-08]**
+
+| Section | Status | Notes |
+|---|---|---|
+| § Why this doc is a stub | CURRENT | descriptive; still accurate |
+| § Source 1: Chapter 8 scope from chapter assessment (2026-04-18) | HISTORICAL | explicitly dated April 2026 reference; "8 tiers" retired 2026-04-24; Decision D superseded by current Book 1/2/3 scope per Insight #24 ratification; useful as historical-record only |
+| § Source 2: Two-book trim from workstream 07 | HISTORICAL | April 19 2026 workstream reference; superseded by `tools/commons_bonds_book_scope_v1_0_3.md` + Insight #24 (Book 2 references removed from Book 1) |
+| § Current chapter draft | CURRENT | pointer only |
+| § Revision sweep scope (for when this doc is rewritten) | REGRESSED | references "v1.28.0 dimension-rename" (retired vocabulary); "8-tier framework" (RETIRED 2026-04-24 per Insight #21); "11th-dimension candidacy investigation" (closed — Path F variable-addability supersedes); Insight #37 separation pass COMPLETED 2026-04-30 for chapter Drafts (this GuidanceDoc remains a stub per its declared status, but the broader sweep is done) |
 
 **Cross-references:**
 - `Chapter__8_WhatThingsActuallyCost_Draft.md` — publisher-facing prose.

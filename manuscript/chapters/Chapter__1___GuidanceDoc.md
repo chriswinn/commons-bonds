@@ -4,7 +4,46 @@
 
 **Consolidated 2026-04-30** by Insight #37 separation pass (Thread β.1) — absorbs former temporary `Chapter__1___Scaffolding.md` content; folds extracted Draft annotations into the existing GuidanceDoc rather than maintaining two separate internal files per chapter.
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across **2026-04-22 → 2026-04-30**. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + Insight #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass; flag inline as encountered during drafting.
+**Staleness disclaimer (2026-04-30):** This file accumulates content across **2026-04-22 → 2026-04-30**. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + Insight #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
+
+**[PER-SECTION STALENESS AUDIT 2026-05-08]**
+
+Ch 1 GuidanceDoc is the largest of the 10 (597 lines). Multiple recent additions (2026-04-23 → 2026-05-01) reflect current canonical state; older content has known regressions covered by the staleness disclaimer.
+
+**Important contextual note for this audit:** Ch 1 has been polished extensively since GuidanceDoc was last revised. Title is **"The Quiet Math"** (current Ch 1 Draft). **Title regression RESOLVED 2026-05-08** — body content updated to "Chapter 1 (The Quiet Math) [former working title: The Plane]" + "CHAPTER 1: THE QUIET MATH [former working title: THE PLANE]" so historical provenance preserved.
+
+| Section | Status | Notes |
+|---|---|---|
+| § Header / frontmatter / cross-references (lines 1-15) | CURRENT | Ch 1 cross-reference at line 10 lists ~620 publisher-facing words post-#37 — **STALE** (current Ch 1 word count is 3,797 per recent polish work; #37 separation pass updates landed pre-polish; chapter has since grown via Insight #36 conversational drafting session work + Ch 7 family-narrative additions) |
+| § "Chapter 1 (The Quiet Math) [former working title: The Plane]" + Objections section markers (line ~24-28) | RESOLVED 2026-05-08 | title updated 2026-05-08 to current "The Quiet Math" with "[former working title: The Plane]" suffix preserving historical record |
+| § "CHAPTER 1: THE PLANE" — From-our-conversations content (line ~32) | PARTIALLY CURRENT | "personal story" / "transition paragraph" / "framework's origin story" framings still applicable; sailboat-in-Hampton anchor + watermen-visible-from-where-you-live framing aligned with Ch 1 + Ch 10 bookend architecture |
+| § "1. THE BOOK NEEDS LIVING PEOPLE" (line ~70) | **MIGRATED 2026-05-08** | Migrated to `_BookLevelGuidance.md` §1 as canonical home; in-file copy retained with markers per WP#10. 2026-05-08 status update there reflects outreach pipeline (Darity / Beth-Ingledew Amsterdam / Sherfinski / Colden) now active. |
+| § "2. THE BOOK NEEDS A VILLAIN WHO ISN'T A VILLAIN" (line ~88) | **MIGRATED 2026-05-08** | Migrated to `_BookLevelGuidance.md` §2 as canonical home; in-file copy retained with markers per WP#10. Content unchanged ("Sherrena Tarver as complex person" example still canonical). |
+| § "5. THE BOOK NEEDS AN ORIGIN STORY FOR THE FRAMEWORK" (line ~100) | **MIGRATED 2026-05-08** | Migrated to `_BookLevelGuidance.md` §5 as canonical home; in-file copy retained with markers per WP#10. 2026-05-08 status update there adds LaVern E. Winn (grandfather/NASA inventor) origin-story extension. |
+| § "Chapter 1 Extension — Knowledge Worker Thread" (line ~114) | PARTIALLY REGRESSED | absorbed from former `Chapter__1a__GuidanceDoc.md` 2026-04-22; "eight-tier framework" + "Lifetime Survival Cost" + "Lineage Labor Cost" / "Knowledge and Cultural Cost" enumerations references retired 8-tier scheme — current vocabulary is Cᵢ admission via CIT through Four Gates per Path F (already noted in §AUTHOR-ZONE-5 inline annotation at line 339) |
+| § Purpose + What the Extension Adds (line ~120-152) | PARTIALLY CURRENT | universality-of-mechanism framing remains canonical; the "120-hour week" passage proposed at line 132 is now in Ch 1 Draft (per recent polish) |
+| § Stories that may be worth including (line ~138-143) | PARTIALLY CURRENT | wife's-illness + paternal-leave material covered by Candidate #4 deletion + consent-rejection rewrite plan (see line ~467 below); other stories partially landed in Ch 1 polish |
+| § Integration with Eight-Tier Framework (line ~153) | **REGRESSED** | 8-tier scheme retired; current vocabulary is Cᵢ admission via CIT through Four Gates per Path F |
+| § Why This Matters for the Book (line ~166) | CURRENT | reader-recognition + knowledge-worker-route framing remains canonical |
+| § Case-study references (added 2026-04-23 per chapter audit v1.0.3) (line ~174) | PARTIALLY CURRENT | references audit v1.0.3 — verify against current canonical `core/case-studies/commons_bonds_case_study_audit_v1.0.6.md` (one inline note already flags v1.0.3 → v1.0.6 migration in similar Ch 3 GuidanceDoc); content largely valid |
+| § Additional audit-surfaced integration items (added 2026-04-23) (line ~208) | CURRENT | additional original scene / pre-drafting gates / register discipline / character pressure points all still applicable |
+| § Pre-drafting gates (line ~222) | CURRENT | wife's medical privacy / parents' privacy / Hampton community observations / CEO-era NDA all still applicable; consent-rejection rewrite plan at line ~467 supersedes wife-related gates |
+| § Forward-reference to Ch 7 multi-perspective worked example (added 2026-04-23) (line ~246) | CURRENT | Ch 7 worked example added 2026-04-23 per PCR v1.0.0 Cross-cutting Finding 3; current state aligned |
+| § "Ch 1 and the intellectual-tradition signal" (added 2026-04-24 per Phase A2 Task 8) (line ~252) | CURRENT | one-sentence tradition-signal complement to Ch 6 Contribution section |
+| § "Autonomy-as-commons treatment in Ch 1" (added 2026-04-24 per Insight #18 + Option C') (line ~264) | CURRENT | political-philosophical accommodation discipline aligned with current state |
+| § Extracted Draft scaffolding (added 2026-04-30 per Insight #37) (line ~293) | CURRENT | post-#37 metadata + AUTHOR-ZONE structural skeleton + register discipline; AUTHOR-ZONE-5 already has inline annotation at line ~339 noting 8-tier-scheme retirement |
+| § Status block / AUTHOR-ZONE structural skeleton (line ~297-349) | CURRENT | AUTHOR-ZONE-1 through -7 structural placeholders; AUTHOR-ZONE-5 inline-annotated for 8-tier → Cᵢ vocabulary update |
+| § Outstanding for Chris's drafting (line ~351) | CURRENT | most items partially or fully landed via Ch 1 polish; healthcare-end-of-life integration partially superseded by consent-rejection plan |
+| § What Ch 1 publisher-facing prose does NOT do (line ~358) | CURRENT | preserved register discipline still applicable |
+| § Operational guidance for Insight #36 β.2 (added 2026-04-30) (line ~368) | CURRENT | Pattern 2 anchor framing per Insight #9 verdict ratified 2026-04-30 |
+| § Pattern 2 anchor framing (line ~372) | CURRENT | aligned with Insight #9 verdict (b) |
+| § Pointers to existing content (line ~388) | CURRENT | navigational metadata |
+| § Cost-category demonstration mapping in current Cᵢ vocabulary (line ~399) | CURRENT | uses current canonical vocabulary; Lineage Labor cost (per Insight #56) not Dynastic |
+| § Conversational drafting session structure (line ~417) | CURRENT | session-shape suggestion still applies; Ch 1 polish has done substantial integration since |
+| § Craft note — wife's-illness passage characterization (line ~428) | **HISTORICAL** | predates Candidate #4 deletion 2026-05-01 + consent-rejection rewrite plan; behavior-not-diagnosis discipline remains canonical but the passage itself is removed from publisher-facing scope |
+| § Consent-rejection rewrite plan (added 2026-05-01) (line ~467) | CURRENT | per Candidate #4 deletion + ex-wife consent assumed withheld; replacement anchors (son-first-weeks + parents-aging) integrated into current Ch 1 polish |
+| § Healthcare-bridge alternatives (added 2026-05-01) (line ~520) | CURRENT | replacement anchors documented |
+| § Sunrise/sunset bookend architecture (added 2026-05-01) (line ~535) | PARTIALLY CURRENT | Ch 1 polish chose plane-bookend (line 11 sun-up at cloud line; line 101 "The plane was past the cloud line. The sun was up.") which **functionally replaces** the originally-planned sailboat-morning bookend. The bookend architecture works at the framework level (morning/evening) without sailboat-at-both-ends. Ch 10 close has the sunset-on-boat. Plan partially obsoleted by polish direction; sunset-on-boat → Ch 10 only, not Ch 1 morning. |
 
 **Cross-references:**
 - `Chapter__1___Draft.md` — publisher-facing prose (currently ~620 publisher-facing words after #37 separation; target 5K-6K).
@@ -21,7 +60,7 @@ By Chris Winn
 
 ---
 
-Chapter 1 (The Plane)
+Chapter 1 (The Quiet Math) [former working title: The Plane]
 
 ========
 
@@ -29,7 +68,7 @@ Chapter 1 (The Plane)
 
 ---
 
-CHAPTER 1: THE PLANE
+CHAPTER 1: THE QUIET MATH [former working title: THE PLANE]
 
 From our conversations, what lives here:
 
@@ -66,6 +105,8 @@ Examined structural, rhetorical, evidential, and strategic angles
 Let me think about this from every angle — what would make a publisher say yes, what would make a reviewer take it seriously, what would make it endure, and what would make it spread.
 
 ---
+
+**[MIGRATED 2026-05-08 to `_BookLevelGuidance.md` — three book-level sections (1 LIVING PEOPLE + 2 VILLAIN + 5 ORIGIN STORY) consolidated there as canonical home. Original text preserved below for historical reference per WP#10 internal-scaffolding discipline. When drafting Ch 1, use the migrated file as the canonical source; this in-file copy is no longer maintained.]**
 
 1. THE BOOK NEEDS LIVING PEOPLE
 
@@ -106,6 +147,8 @@ The most enduring frameworks in social science have origin stories. Ostrom's com
 Your origin story — healthcare IT executive who saw how institutions externalize costs, who chose nursing over continued consulting because of the personal cost severance he was experiencing, who lives on a sailboat in Hampton and watches watermen go out before dawn — is a compelling origin for the framework. It says: "I've been inside the machine. I've seen how it manages costs — by pushing them onto whoever can't push back. And I've experienced it personally. The framework isn't abstract theory. It's what I saw."
 
 This origin story should be woven into Chapter 1 and referenced briefly in the closing. It gives the reader a reason to trust you — not because you have credentials (though you do) but because you've lived the mechanism you're naming.
+
+**[End of migrated content — see `_BookLevelGuidance.md` for canonical version + 2026-05-08 status updates including outreach pipeline state + LaVern E. Winn (grandfather/NASA inventor) origin-story extension.]**
 
 ---
 

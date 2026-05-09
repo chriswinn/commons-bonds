@@ -1,7 +1,7 @@
-# Aeon pitch — Commons Bonds — DRAFT 2026-05-04
+# Aeon pitch — Commons Bonds — VERSION A (held as alternative; Version C is the submission)
 
-**Status:** First-pass draft for author review. Awaiting ratification + revisions before submission.
-**Author revision target (per 2026-05-04):** trim pitch paragraph below 300 words. *Note:* Aeon does not publish a pitch word-limit anywhere on `aeon.co/pitch` (verified 2026-05-06 via WebSearch — only essay word ranges of 2,500–5,000 are published). The 300-word target is self-imposed: consulting-world convention + Aeon's "high volume of pitches" framing making concision load-bearing. Current pitch paragraph is ~282 words after rigor pass — well under target with headroom.
+**Status:** **Held as alternative.** Version C (`aeon-pitch-commons-bonds-winn_VERSION-C.md`) was ratified 2026-05-08 as the submission for the June 1-7, 2026 Aeon portal window. Version A is preserved here as a fallback alternative if Version C cannot be used. Version B was the developmental precursor between A and C; deleted 2026-05-08 once C was ratified.
+**Author revision target (per 2026-05-04, corrected 2026-05-08):** Aeon does not publish a pitch word-limit on `aeon.co/pitch` (verified 2026-05-06 via WebSearch — only essay word ranges of 2,500–5,000 are published). **Most specific Haselby-published pitch guidance** ([APA Blog interview, 2020-12-10](https://blog.apaonline.org/2020/12/10/public-philosophy-editors-on-pitching/)): *"a simple, direct opener that states the argument followed by 200 words outlining how it will be made."* Decoded total: ~230-250 words (simple opener + 200-word outlining body). *Earlier sessions referenced 300 words as Haselby-derived; that was wrong — 300 was self-imposed consulting-world convention.* Current Version A pitch is ~283 words; the Para 2 + Para 3 outlining body is ~199 words (well-aligned with Haselby's 200-word body); the Para 1 opener exceeds the "simple, direct" prescription — deliberate rhetorical trade for the lead-scene device.
 
 **Pending upstream revision (2026-05-05):** Darity interview pending (week of May 10); revisit McDowell case-walk + universality framing after.
 

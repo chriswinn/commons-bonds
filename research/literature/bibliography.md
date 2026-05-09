@@ -947,6 +947,38 @@ Placeholder for additions as they emerge. Candidate additions:
 - **Robert Reich.** Various books on the political economy of inequality.
 - **Joseph Stiglitz.** *The Price of Inequality* (2012). Nobel economist making the inequality-has-costs argument at accessible register.
 
+### Pistor, Katharina. *The Code of Capital: How the Law Creates Wealth and Inequality.* Princeton University Press, 2019.
+
+- **Summary:** Foundational treatment of how law encodes capital. Pistor demonstrates that capital is not a natural asset class but a legal artifact: specific legal modules — property law, collateral law, trust law, corporate veil law, bankruptcy law, and choice-of-law clauses — encode assets as capital and protect that capital from accountability across jurisdictions. The book argues that the legal architecture systematically protects capital while externalizing costs to those without comparable legal access.
+- **Relevance:** **LOAD-BEARING (Ch 5 — Accountability Gap; legal-architecture lineage for the framework's bond-instrument apparatus).** Pistor's diagnosis of the legal modules by which capital protects itself from accountability is the legal-architecture companion to the framework's pricing analysis. Where she diagnoses the modules that encode cost severance, the framework prices what the modules sever and proposes the bond instruments that would internalize the costs. The Libby case in Ch 5 (W.R. Grace's bankruptcy-driven liability discharge; the 2009 criminal acquittal of executives despite documented contamination) is the framework's case-walk demonstration of Pistor's structural diagnosis.
+- **Relationship:** **STRONG SUPPORT (legal-architecture diagnosis complementing the framework's pricing analysis).** Pistor names the legal mechanism; the framework names the cost the mechanism severs.
+- **Chapter relevance:** Ch 5 (primary — Restitution and Foreclosure section, legal-architecture lineage paragraph applied 2026-05-08); Ch 9 (secondary — property-rights limits cross-reference applied 2026-05-08).
+- **Status:** added 2026-05-08 per author direction (comp engagement work).
+
+### Christophers, Brett. *The Price is Wrong: Why Capitalism Won't Save the Planet.* Verso, 2024.
+
+- **Summary:** Argues that markets do not and cannot price climate solutions correctly because investment is driven not by price but by profit. Renewable-energy projects do not produce the profit thresholds private investment requires absent state subsidy. The book demonstrates that significant cost reductions in solar and wind have not solved the climate-investment problem because price alone does not redirect capital — profit does, and renewable returns remain too low for the structures of contemporary financial capitalism. The implication: public ownership, public investment, and public-purpose criteria for capital allocation are required, not optional.
+- **Relevance:** **STRONG SUPPORT (Ch 9 — Pricing Honestly; political-economy-of-resistance argument; property-rights limits engagement).** Christophers' argument that "profit, not price, is what reshapes the world" sharpens the framework's claim that pricing alone is necessary but not sufficient. The framework prices residual commons value to make the subsidy-and-rent architecture visible; Christophers demonstrates why that visibility alone does not redirect investment, and what additional architectural moves (public ownership, public investment, public-purpose capital allocation) honest accounting requires.
+- **Relationship:** **STRONG SUPPORT (climate-finance critique grounding the framework's political-economy-of-resistance argument).**
+- **Chapter relevance:** Ch 9 (primary — Property rights and their limits section, climate-finance engagement applied 2026-05-08); Ch 5 (secondary — Pattern Made Visible section cross-reference applied 2026-05-08).
+- **Status:** added 2026-05-08 per author direction (comp engagement work).
+
+### Susskind, Daniel. *Growth: A Reckoning.* Allen Lane / Harvard University Press, 2024.
+
+- **Summary:** Argues that economic growth has been the implicit success-metric of modern political economy for two centuries, but growth measured in conventional GDP terms tracks neither what we value nor what we owe. Susskind's claim is that growth must be redirected — not abandoned — toward measures that capture human flourishing, ecological constraints, and intergenerational fairness. Named one of Obama's 'Favourite Books of 2024' and runner-up for the Financial Times Business Book of the Year 2024.
+- **Relevance:** **STRONG SUPPORT (Ch 9 — Pricing Honestly; growth-redirection lineage parallel to the framework's pricing-redirection).** Susskind's growth-must-be-redirected argument aligns with the framework's pricing-must-be-redirected argument. Growth-as-conventionally-measured produces what cost-severance produces: a number that says one thing while the world says another. The framework's accounting and Susskind's growth-redirection are different facets of the same task — making honest what current measurement leaves dishonest.
+- **Relationship:** **STRONG SUPPORT (parallel framework redirecting a primary economic measurement; lineage company alongside Raworth's *Doughnut Economics*).**
+- **Chapter relevance:** Ch 9 (primary — What a framework does section, lineage list with Harvey/Ostrom/Raworth/Desmond — applied 2026-05-08).
+- **Status:** added 2026-05-08 per author direction (comp engagement work).
+
+### Susskind, Daniel. *A World Without Work: Technology, Automation, and How We Should Respond.* Metropolitan Books, 2020.
+
+- **Summary:** Examines the prospect of widespread technological unemployment and the broader questions of work, meaning, and human flourishing in a world where AI and automation displace traditional labor. Argues for redistributing the gains of automation through structural mechanisms (job-shaped income; universal basic income; tax architecture; meaning-of-work institutional design).
+- **Relevance:** **SUPPORT (Ch 1 — secondary register-exemplar; framework's work-and-cost themes).** Cited in earlier register-exemplar discussions for the book's audience-frame. Susskind's contemporary engagement with work, cost, and meaning provides background to Ch 1's personal-arc material on the narrator's work-life trajectory and the costs that work absorbed.
+- **Relationship:** **SUPPORT (background register; not load-bearing for any specific argument; bibliography reference rather than in-text citation given Ch 1's personal-narrative register).**
+- **Chapter relevance:** Ch 1 (secondary — work-and-cost background; register-exemplar; intentionally not in-text-cited to preserve Ch 1's personal-narrative voice).
+- **Status:** added 2026-05-08 per author direction (comp engagement work).
+
 ---
 
 ## 19.5. Chesapeake fieldwork — interview-prospect public record (tentative)

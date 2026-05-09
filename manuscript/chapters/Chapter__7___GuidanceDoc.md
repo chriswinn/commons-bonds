@@ -16,7 +16,30 @@ This GuidanceDoc predates the framework cascade applied 2026-05-04 (Insights #65
 
 See: `alignment/commons_bonds_open_insights_v1.0.0.md` Insights #65 + #66 + `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-04_ch1_title_candidates_v2.0.0.md` for full record.
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**, including the chapter title "(The Colony Administrator)" referenced below — actual chapter title is "On Other Worlds" per Insight #22 ratification 2026-04-26 + 04-27. Verify against current state before applying. Per-section staleness audit deferred to future pass.
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**, including the chapter title "(The Colony Administrator)" referenced below — actual chapter title is "On Other Worlds" per Insight #22 ratification 2026-04-26 + 04-27. Verify against current state before applying.
+
+**[PER-SECTION STALENESS AUDIT 2026-05-08]**
+
+Ch 7 GuidanceDoc is the largest of the 10 (553 lines) and received heavy framework-formulation work in the 2026-05-04 cascade. The STALE-FRAMING NOTICE above already documents the major 2026-05-04 deprecations; this table covers per-section status across the rest of the doc.
+
+| Section | Status | Notes |
+|---|---|---|
+| § Header / STALE-FRAMING NOTICE / staleness disclaimer / cross-references (lines 1-26) | CURRENT | comprehensive 2026-05-04 cascade documentation |
+| § "Chapter 7 (The Colony Administrator)" + Objections section markers (line ~35-49) | **REGRESSED title** | "(The Colony Administrator)" → "On Other Worlds" per Insight #22 ratification 2026-04-26/27 (already noted in disclaimer); body content covered by STALE-FRAMING NOTICE |
+| § Mars thought experiment (line ~57) | PARTIALLY REGRESSED | "Mars colony of 10,000 people, 50-year supply" framing aligned with current Ch 7; **STALE-FRAMING NOTICE applies** to single-water-focus framing (Mars passage now engages water + atmosphere as parallel abundance-masking demonstrations + Earth-perspective-reversal per `f756f71`) |
+| § Pivot paragraph + universality test cross-scenario results (line ~63-83) | PARTIALLY REGRESSED | "cost severance as a function of distance" framing covered by STALE-FRAMING NOTICE — replace with six-common-patterns observed framing per Insight #65; "cost severance requires distance" → "severance is impossible to hide on Mars" framing per Insight #66; CSG ranking (line ~85) covered by Insight #33 (CSG retired → "existential substitutability gap") |
+| § 2026-04-24 Phase A3 sweep header (line ~73) | CURRENT | rename annotations (ARP → ARR; AIT → CIT) preserved as guidance-translation note; underlying decision-theoretic content unchanged |
+| § Comet flyby / Mars colony rare earths / Europa ice / Exoplanet rare earths scenarios (line ~75-83) | PARTIALLY CURRENT | scenario logic remains canonical; specific framings ("cost severance requires distance" / "Asymmetric Regret Principle" → ARR) covered by STALE-FRAMING NOTICE + 2026-04-24 sweep header |
+| § "cost severance as a function of distance" insight (line ~83) | **REGRESSED** | covered by STALE-FRAMING NOTICE — "Mars compresses distance to zero, eliminating cost severance automatically" framing replaced by "severance impossible to hide on Mars; severance can still operate intra-personally across time" per Insight #66 |
+| § CSG ranking system (line ~85) | **REGRESSED** | CSG retired per Insight #33; renamed to "existential substitutability gap" + lowercase descriptive prose |
+| § Insurance cost / appreciating reserve / asymmetric regret stated simply (line ~93-97) | CURRENT (with rename note) | argument-structure unchanged; "asymmetric regret" framing preserved with ARR rename per 2026-04-24 sweep header |
+| § Counterarguments (line ~99) | CURRENT | "Mars is a false analogy" + market-pricing-on-uninhabited-asteroid responses remain canonical |
+| § Cross-test scenario expansion (line ~107+; rare-earth-mining-on-comet-vs-planet-vs-moon) | NOT FULLY AUDITED | continues for ~400 lines through line ~500; bulk of content predates 2026-05-04 cascade; STALE-FRAMING NOTICE applies broadly; specific scenario logic likely valid; full per-paragraph audit deferred unless surfacing during chapter revision |
+| § Multi-perspective application example — asteroid mining contract scenario (line ~503) | CURRENT | added 2026-04-23 per PCR v1.0.0 Cross-cutting Finding 3; already integrated into Ch 7 chapter draft per recent commits |
+| § "8. THE BOOK NEEDS COMPARATIVE CASES WITHIN CHAPTERS" (line ~515) | **MIGRATED 2026-05-08** | Migrated to `_BookLevelGuidance.md` §8 as canonical home; in-file copy retained with markers per WP#10. Note: Ch 7's three-civilization (Egypt + Qin + feudalism) temporal stress-test is the parallel within-chapter-comparison move at historical scale. |
+| § Four perspectives breakdown (line ~511) | PARTIALLY CURRENT | uses CIT (current) per inline rename annotations; "Tier signature" references retired 8-tier scheme but each perspective's tier-mapping is preserved historically; Path-dependency note at line ~552 already documents Path F → Option C' progression + commons-categories-not-tiers update |
+| § Why all four perspectives matter together (line ~533) | CURRENT | framework-as-negotiation-instrument framing remains canonical |
+| § Register notes / cross-chapter coordination / path-dependency note (line ~537-552) | CURRENT | path-dependency note explicitly captures the 2026-04-24 sweep updates |
 
 **Cross-references:**
 - `Chapter__7_OnOtherWorlds__Draft.md` — publisher-facing prose.
@@ -490,6 +513,8 @@ The model's universality claim is not "it always disagrees with the market." It'
 
 ---
 
+**[MIGRATED 2026-05-08 to `_BookLevelGuidance.md` — book-level section §8 (WITHIN-CHAPTER COMPARISONS) consolidated there as canonical home. Original text preserved below for historical reference per WP#10 internal-scaffolding discipline. When drafting Ch 7, use the migrated file as the canonical source; this in-file copy is no longer maintained.]**
+
 8. THE BOOK NEEDS COMPARATIVE CASES WITHIN CHAPTERS, NOT JUST ACROSS CHAPTERS
 
 Right now, each chapter focuses on a single case or theme. This is clean structurally but misses opportunities for comparison that would strengthen the argument.
@@ -497,6 +522,8 @@ Right now, each chapter focuses on a single case or theme. This is clean structu
 Within Chapter 7 (The Colony Administrator), the cross-scenario testing already serves this comparative function. Keep it.
 
 These within-chapter comparisons strengthen the argument because they show the model isn't a blunt instrument that says "extraction bad." It's a sensitive instrument that says "extraction under these conditions produces this much cost severance, and extraction under different conditions produces a different amount." That sensitivity is what makes it credible.
+
+**[End of migrated content — see `_BookLevelGuidance.md` for canonical version. Note: Ch 7's three-civilization (Egypt + Qin + feudalism) temporal stress-test is the parallel within-chapter-comparison move at historical scale.]**
 
 ---
 
