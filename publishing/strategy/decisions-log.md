@@ -8,6 +8,39 @@
 
 ---
 
+## 2026-05-08 — Noema rewrite-plan revised in place; Ch 1 absorbed Phase C structural work
+
+**Decision.** Edit `manuscript/essay/Noema/rewrite-plan_2026-05-01.md` in place to add a "REVISION 2026-05-08" section above the original Phase C structure, capturing the divergence between what the 2026-05-01 plan anticipated and what Ch 1 actually became when drafted 2026-05-04 (title-rigor pass v2.0.0; tentatively final at ~3,400 words). The revision section supersedes Phase C; the original plan is preserved below in the same file as historical record.
+
+**Cross-thread context.** Discovered while answering author's question 2026-05-08 ("isn't the way the actual Chapter 1 turned out a bit different than this?"). Pressure-tested the rewrite plan against the actual Ch 1 draft. Confirmed Ch 1 absorbed: (1) three-generations lineage thread (Pooh / father / Chris); (2) Cable-TV-station rescue + DMV commute scenes; (3) Human Scale close (was Section VI in original); (4) Common Bonds + Sisyphus close (was Section VII); (5) marriage-ending material at a consent-OK level (was "drop" in original). What remains essay-specific: framework naming brief; cross-history beat; solutions cluster γ; brief close paraphrasing Ch 1's actual close.
+
+**Revised section structure (now operative):**
+
+- I (~600 words): vignette opener — paraphrase Ch 1 ¶¶1–4 (already written)
+- II (~700 words): lineage + work-formation — paraphrase Ch 1 middle (already written)
+- III (~600 words): cost made visible — paraphrase Ch 1 second half (already written)
+- IV (~400 words): framework named in plain language — NEW prose
+- V (~500 words): cross-history beat (Norway + possibly Darity reparations material) — NEW prose, gated on Darity May 12 quote-confirmation
+- VI (~700 words): solutions cluster γ — NEW prose, third-anchor still gated on Colden interview
+- Close (~200 words): vignette callback + framework-for-the-ones-who-come-after — paraphrase Ch 1 close
+
+Total ~3,700 words; inside Noema's 2,500–4,000 band.
+
+**What stays unchanged from 2026-05-01:** Path B no-overlap rule; hook decision (plane scene at sunrise); cluster γ architecture; cluster γ third-anchor gated on Colden; Darity integration into Section V; pitch model structure (hook → tension → plan → solutions → characters → differentiation); cold resubmit to `edit@noemamag.com`.
+
+**Cascade plan implications.** Cascade plan's August A-track Noema rewrite description still aligns; the section structure detail in this revision deepens but doesn't change timing or gating. No cascade-plan edit required (the rewrite plan is the canonical artifact for section-level structure).
+
+**Supersedes.** `manuscript/essay/Noema/rewrite-plan_2026-05-01.md` Phase C section structure (Sections I–VII as originally laid out). Original preserved below the REVISION section in the rewrite plan itself.
+
+**Cross-references.**
+- Ch 1 draft: `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md`
+- AI-disclosure template (committed earlier today, `9effbef`): `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` (Noema variant)
+- v1.52.0 handoff §2.4 (Noema rewrite track)
+- Colden interview thread (Ch 3 + Noema §V third-anchor gating)
+- Darity interview 2026-05-12 (Section V cross-history beat material)
+
+---
+
 ## 2026-05-08 — Bibliography additions (Pistor + Christophers + Susskind); manuscript engagement queued for Ch 5 / Ch 9
 
 **Decision.** Add three entries to `research/literature/bibliography.md` §13 (Framework-adjacent) on substantive grounds, and queue the corresponding manuscript engagement work for the manuscript thread:

@@ -1,4 +1,77 @@
-# Noema essay rewrite plan (decisions ratified 2026-05-01)
+# Noema essay rewrite plan (decisions ratified 2026-05-01; revised 2026-05-08)
+
+**Date drafted:** 2026-05-01  ·  **Date modified:** 2026-05-08
+
+---
+
+## REVISION 2026-05-08 — Ch 1 absorbed more than anticipated; this section supersedes Phase C below
+
+**Status:** Operative as of 2026-05-08. The revised section structure below is the canonical guidance for the Noema essay drafting work. The original Phase C (preserved below) is retained as historical record but superseded.
+
+### Why this revision
+
+The 2026-05-01 plan anticipated Ch 1 would supply the vignette opener (Section I) and Human Scale close (renumbered Section VI), with the bulk of the essay (Sections II–V + new Section VI solutions cluster + Section VII close) written as essay-only material. Ch 1 was drafted 2026-05-04 (title-rigor pass v2.0.0; tentatively final at ~3,400 words) and grew well past that — it became a structurally complete memoir-essay on its own, absorbing material the original plan placed in essay-only sections.
+
+### What Ch 1 absorbed (revised plan no longer needs essay-only treatment for these)
+
+- **Three-generations lineage thread** (Pooh / father / Chris) — flagged in the 2026-05-01 gap analysis as "NEW — could thread Ch 1 + Ch 10"; now load-bearing in Ch 1 (air compressor + drill bits; "would you be proud" parenting; "Pou it is" naming scene).
+- **Cable-TV-station rescue + DMV commute scenes** — not in the 2026-05-01 plan; now in Ch 1 as the institutional-architecture demonstration ("the question I happened to walk in willing to ask") and the first concrete cost-severance moment ("it would be years before I had a name for what the lease had actually cost me").
+- **Human Scale close** (was Section VI renumbered in original Phase C) — Ch 1 does this work directly: parents 800 miles north, "the next flight home will be for something I cannot bear to name," "these are the years I have with them."
+- **Common Bonds + Sisyphus close** (was Section VII in original Phase C) — Ch 1's actual closing paragraph already does this work: *"The framework in this book is how I learned to account for what happened... It is for the ones who come after. It is for the costs that are still ahead of us, that we still have a chance to see."*
+- **Marriage-ending material** — original plan said "drop marriage-ending paragraph"; Ch 1 keeps a single bare line ("The marriage did not survive the trauma of all of it. The house is not the thing I miss.") and a single bare current-state note about the son ("My son is somewhere in the world now. I don't know where..."). Both at a level the consent-rejection plan permits (no wife's-illness graphic detail). The revised plan keeps Ch 1's level rather than dropping.
+
+### What's still essay-specific (NEW prose for Noema, not in Ch 1)
+
+- Brief framework naming (cost severance + RCV in plain language, two paragraphs)
+- Cross-history beat (Norway as the existence proof; one historical case for breadth — possibly Darity-interview reparations-economics material from the May 12 call)
+- Solutions cluster γ (Mazzucato + Mondragon + third anchor — Vienna / Ecuador-Whanganui / Amsterdam DEAL / Chesapeake fisheries; third-anchor decision still gated on Colden interview)
+- Brief close (vignette callback + framework-for-the-ones-who-come-after — paraphrase Ch 1's actual close)
+
+### Revised section structure (supersedes Phase C section structure below)
+
+| Section | Source | Approx. words | Status |
+|---|---|---|---|
+| I — Vignette opener (plane / sunrise / NICU) | Paraphrase Ch 1 ¶¶1–4 | ~600 | Already written; paraphrase per Path B |
+| II — Lineage + work-formation (Pooh / father / NIH) | Paraphrase Ch 1 middle | ~700 | Already written; paraphrase per Path B |
+| III — Cost made visible (cable TV / DMV commute / age-38-on-plane "quiet math") | Paraphrase Ch 1 second half | ~600 | Already written; paraphrase per Path B |
+| IV — Framework named (cost severance + RCV in plain language, two paragraphs) | NEW; paraphrase from Ch 5 / Ch 6 framing without the math | ~400 | NEW prose — accessible naming, not technical exposition |
+| V — Cross-history beat (Norway as existence proof; one historical case for breadth) | Paraphrase Ch 4; possibly Darity-interview material | ~500 | NEW prose; gated on Darity May 12 quote-confirmation |
+| VI — Solutions cluster γ (Mazzucato + Mondragon + third anchor) | Paraphrase Ch 9 + Ch 10 + interview material | ~700 | NEW prose; third-anchor decision still gated on Colden interview outcome |
+| Close — Vignette callback + framework-for-the-ones-who-come-after | Paraphrase Ch 1 closing paragraph | ~200 | Already written; light touching |
+
+**Total: ~3,700 words.** Inside Noema's 2,500–4,000 band per `noema-writing-guidelines.pdf`.
+
+### What stays unchanged from 2026-05-01
+
+- **Path B no-overlap rule** — essay paraphrases Ch 1 prose; doesn't reuse sentences.
+- **Hook decision** — Chris-as-vignette plane scene at sunrise (Ch 1 actually opens exactly as the original plan specified).
+- **Solutions cluster γ architecture** — Mazzucato + Mondragon + third-anchor remains the right structure.
+- **Third-anchor gating on Colden interview** — Chesapeake fisheries case becomes a candidate for the third anchor if Colden converts substantively; otherwise stays among Vienna / Ecuador-Whanganui / Amsterdam DEAL.
+- **Darity-interview integration into Section V** — May 12 @ 14:00 ET call; quote-confirmation feeds Section V.
+- **AI-collaboration disclosure** — now standardized at `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` (Noema variant); place at the bottom of the cover note OR as essay footer per Noema guidelines.
+- **Pitch model structure** — hook → tension → plan → solutions → characters → differentiation per Noema model.
+- **Submission method** — cold resubmit to `edit@noemamag.com` (full draft preferred over pitch-only per Noema's stated process).
+
+### Supersedes
+
+- Phase C section structure below (Sections I–VII as originally laid out).
+- "Drop marriage-ending paragraph" guidance — Ch 1 found a consent-OK level the revised plan keeps.
+- Section II/III technical-apparatus depth — too much for Noema; revised Section IV is briefer and accessible.
+- Section IV (Norway expanded) word weight — compressed into Section V cross-history beat with Norway as one case among possibly two.
+
+### Cross-references
+
+- Ch 1 draft: `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md` (~3,400 words; tentatively final 2026-05-04)
+- AI-disclosure template: `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` (Noema variant)
+- Cascade plan: `publishing/strategy/cascade-plan_2026-05-06.md` (August A-track Noema rewrite gating)
+- v1.52.0 handoff §2.4 (Noema rewrite track; §V third-anchor gating)
+- Colden interview: `research/outreach/colden-prereadbrief_2026-05-06.md` + response thread (third-anchor gating)
+- Darity interview: 2026-05-12 @ 14:00 ET; pre-read brief at `research/outreach/darity-prereadbrief_2026-05-05.md` (Section V cross-history beat)
+- Decisions log: `publishing/strategy/decisions-log.md` 2026-05-08 (Rewrite-plan revised) entry
+
+---
+
+## Original 2026-05-01 plan (preserved as historical record; Phase C superseded by Revision above)
 
 **Status:** Plan ratified by author 2026-05-01 after Noema submission withdrawal (`withdrawal-note_2026-05-01.md`) + reading of Noema writing guidelines (`noema-writing-guidelines.pdf`).
 
