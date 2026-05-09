@@ -54,12 +54,12 @@ This protects both the subject and the manuscript: if any quote is challenged la
 
 | Interview | Status | Q0 source | Pre-interview comms | Live interview Q0 |
 |---|---|---|---|---|
-| **Darity Jr.** | ACCEPTED, week of May 12-13 | `darity-prereadbrief_2026-05-05.md` §"On attribution" | DONE — covered in pre-read brief | YES — ask at start of call |
-| **Colden (via DiMarzio)** | Awaiting Val's response | Add to `questions-draft_2026-05-05_colden-if-val-accepts.md` as Q0 | Will accompany the question batch if Val takes the offer | YES — ask at start of call |
+| **Darity Jr.** | ACCEPTED, week of May 12-13 | `research/outreach/subjects/darity/prereadbrief_2026-05-05.md` §"On attribution" | DONE — covered in pre-read brief | YES — ask at start of call |
+| **Colden (via DiMarzio)** | Awaiting Val's response | Add to `research/outreach/subjects/colden/questions-draft_2026-05-05_if-val-accepts.md` as Q0 | Will accompany the question batch if Val takes the offer | YES — ask at start of call |
 | **Amsterdam Donut** | Awaiting Beth's "more to follow" | Will be drafted with the rest of the question batch when interviewee identified | Yes, in pre-interview comms | YES — ask at start of call |
 
 ## Cross-references
 
-- `research/outreach/darity-prereadbrief_2026-05-05.md` — first instance of the attribution-handling language; the source for this protocol's prose.
-- `research/outreach/questions-draft_2026-05-05_colden-if-val-accepts.md` — Colden question batch; Q0 to be added per this protocol.
-- `research/outreach/interview-outreach-drafts_2026-05-01.md` — outreach pipeline tracking; future interview prep should reference this protocol.
+- `research/outreach/subjects/darity/prereadbrief_2026-05-05.md` — first instance of the attribution-handling language; the source for this protocol's prose.
+- `research/outreach/subjects/colden/questions-draft_2026-05-05_if-val-accepts.md` — Colden question batch; Q0 to be added per this protocol.
+- `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` — outreach pipeline tracking; future interview prep should reference this protocol.

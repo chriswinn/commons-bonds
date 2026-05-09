@@ -48,15 +48,15 @@ This grounds every framework-positioning discipline. Interviews exist primarily 
 |---|---|---|---|
 | FPD-1 | Public-record screen | Pre-cold-outreach | working note in response-draft files |
 | FPD-2 | AI-collaboration disclosure | First contact only | working note in response-draft files |
-| FPD-3 | Forwardability criterion | Any correspondence that might be forwarded | `research/outreach/response-draft_2026-05-06_moore-via-sherfinski.md` §"Forwardability design criterion" |
+| FPD-3 | Forwardability criterion | Any correspondence that might be forwarded | `research/outreach/subjects/moore/response-draft_2026-05-06_via-sherfinski.md` §"Forwardability design criterion" |
 | FPD-4 | Formality discipline | All correspondence | working note in response-draft files |
-| FPD-5 | Pre-read brief | Every accepted interview | `research/outreach/darity-prereadbrief_2026-05-05.md` (model) |
-| FPD-6 | Two-artifact pair (pre-read + interview prep) | Every accepted interview | `research/outreach/darity-interview-prep_2026-05-06.md` (model) |
-| FPD-7 | Attribution protocol (Q0 + four preference categories) | Every live interview | `research/outreach/interview-attribution-protocol_2026-05-06.md` |
-| FPD-8 | Scope-explicitness ("lead them to water") | All framework-positioning paragraphs | `research/outreach/framework-scope-explicitness-discipline_2026-05-06.md` |
-| FPD-9 | Substantive background brief (subject's body of work + stances + existing domain vocabulary) | Every accepted interview, drafted EARLY (informs FPD-6) | `research/outreach/darity-background-brief_2026-05-06.md` (model) |
-| FPD-10 | Credibility-first question framing (with axis-matched structure) | All interview question design | working note in `research/outreach/darity-interview-prep_2026-05-06.md` |
-| FPD-11 | Contingency planning for live interviews | Every live interview prep doc | `research/outreach/darity-interview-prep_2026-05-06.md` §"Contingency plan" (model) |
+| FPD-5 | Pre-read brief | Every accepted interview | `research/outreach/subjects/darity/prereadbrief_2026-05-05.md` (model) |
+| FPD-6 | Two-artifact pair (pre-read + interview prep) | Every accepted interview | `research/outreach/subjects/darity/interview-prep_2026-05-06.md` (model) |
+| FPD-7 | Attribution protocol (Q0 + four preference categories) | Every live interview | `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` |
+| FPD-8 | Scope-explicitness ("lead them to water") | All framework-positioning paragraphs | `research/outreach/_protocols/framework-scope-explicitness-discipline_2026-05-06.md` |
+| FPD-9 | Substantive background brief (subject's body of work + stances + existing domain vocabulary) | Every accepted interview, drafted EARLY (informs FPD-6) | `research/outreach/subjects/darity/background-brief_2026-05-06.md` (model) |
+| FPD-10 | Credibility-first question framing (with axis-matched structure) | All interview question design | working note in `research/outreach/subjects/darity/interview-prep_2026-05-06.md` |
+| FPD-11 | Contingency planning for live interviews | Every live interview prep doc | `research/outreach/subjects/darity/interview-prep_2026-05-06.md` §"Contingency plan" (model) |
 
 ---
 
@@ -161,7 +161,7 @@ The two placements convey identical *content*; the placement difference is calib
 
 **Length discipline:** ~400 words target. Three-minute read on a phone. Long pre-reads don't get read. If we have more substance than fits in 400 words, it goes in the internal interview-prep doc (FPD-6), not the pre-read brief.
 
-**Origin:** `research/outreach/darity-prereadbrief_2026-05-05.md` is the model. `research/outreach/amsterdam-donut-prereadbrief_2026-05-06.md` is the recipient-flexible template variant.
+**Origin:** `research/outreach/subjects/darity/prereadbrief_2026-05-05.md` is the model. `research/outreach/_templates/amsterdam-donut-prereadbrief_2026-05-06.md` is the recipient-flexible template variant.
 
 **Stack-level reference:** the pre-read brief is artifact #1 of the canonical four-artifact stack — see §"Canonical interview-prep four-artifact stack" below for the full stack contract, sequencing, and instances log.
 
@@ -228,7 +228,7 @@ Per-interview customization: each prep doc can add a Tier 1 + Tier 2 list specif
 
 **Sequencing:** the FPD-9 substantive background brief should be drafted *before* the FPD-6 internal prep doc is finalized — its findings (subject's reparations program, methodology, stances, recent work) inform the prep doc's pivot anticipations and talking-point notes.
 
-**Origin:** `research/outreach/darity-interview-prep_2026-05-06.md` is the model. Companion to the Darity pre-read brief.
+**Origin:** `research/outreach/subjects/darity/interview-prep_2026-05-06.md` is the model. Companion to the Darity pre-read brief.
 
 **Stack-level reference:** FPD-6 covers artifacts #3 (interview prep doc) and #4 (live-call companion) of the canonical four-artifact stack — see §"Canonical interview-prep four-artifact stack" below for the full stack contract, sequencing, build-order rules, and the live-call-companion canonical structure (12 required components).
 
@@ -247,7 +247,7 @@ Per-interview customization: each prep doc can add a Tier 1 + Tier 2 list specif
 
 **When to apply:** Every live interview. No exceptions.
 
-**Protocol document:** `research/outreach/interview-attribution-protocol_2026-05-06.md` — contains the four preference categories (freely quotable / paraphrase + review-before-quote / full-transcript-review / off-record), pre-interview phrasing for the FPD-5 brief, live-Q0 verbal phrasing, default-if-uncertain (Category 2), mid-interview shift handling, follow-up-correspondence handling, and documentation discipline.
+**Protocol document:** `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — contains the four preference categories (freely quotable / paraphrase + review-before-quote / full-transcript-review / off-record), pre-interview phrasing for the FPD-5 brief, live-Q0 verbal phrasing, default-if-uncertain (Category 2), mid-interview shift handling, follow-up-correspondence handling, and documentation discipline.
 
 **Origin moment (2026-05-06):** Author direction: "For each of the draft questions start with the how they want to be quoted questions that were prepared for Darity Jr. just to make sure that's covered at the very beginning of the interview...to give every impression that we are well prepared and taking this seriously."
 
@@ -271,9 +271,9 @@ Per-interview customization: each prep doc can add a Tier 1 + Tier 2 list specif
 
 **Renewable-energy-systems clarifying note:**
 
-Solar/wind/hydro fall within the framework's analytical reach via their material-extraction (non-renewable scope), ecosystem-impact (renewable-past-regen scope), and end-of-life waste-disposal components — NOT by expanding the renewable-side scope to non-depletable energy fluxes. Solar irradiance and wind kinetic energy are continuous fluxes, not stocks; there's no foreclosure mechanism for the energy itself, so RCV ≈ 0 for the energy. But the *systems* that capture this energy have material/land-use/decommissioning components that ARE in the framework's pricing scope. Full elaboration in `research/outreach/framework-scope-explicitness-discipline_2026-05-06.md` §"Framework application (broader)."
+Solar/wind/hydro fall within the framework's analytical reach via their material-extraction (non-renewable scope), ecosystem-impact (renewable-past-regen scope), and end-of-life waste-disposal components — NOT by expanding the renewable-side scope to non-depletable energy fluxes. Solar irradiance and wind kinetic energy are continuous fluxes, not stocks; there's no foreclosure mechanism for the energy itself, so RCV ≈ 0 for the energy. But the *systems* that capture this energy have material/land-use/decommissioning components that ARE in the framework's pricing scope. Full elaboration in `research/outreach/_protocols/framework-scope-explicitness-discipline_2026-05-06.md` §"Framework application (broader)."
 
-**Application checklist:** see `research/outreach/framework-scope-explicitness-discipline_2026-05-06.md` §"Application checklist." Files corrected 2026-05-06: bibliography Ostrom entry, Darity pre-read brief, Amsterdam Donut pre-read brief, Darity interview prep doc Q6. Files deferred: Chesapeake case-study placeholder, Tech Appendix v1.0.0 (queued for v2.0.0 rebuild), Glossary v3 (queued for v4 rebuild), Ch 6 draft, README.
+**Application checklist:** see `research/outreach/_protocols/framework-scope-explicitness-discipline_2026-05-06.md` §"Application checklist." Files corrected 2026-05-06: bibliography Ostrom entry, Darity pre-read brief, Amsterdam Donut pre-read brief, Darity interview prep doc Q6. Files deferred: Chesapeake case-study placeholder, Tech Appendix v1.0.0 (queued for v2.0.0 rebuild), Glossary v3 (queued for v4 rebuild), Ch 6 draft, README.
 
 **Origin moment (2026-05-06):** Author's sales-experience instinct: "regime-agnostic phrasing in proximity to non-renewable-only examples reads as effectively non-renewable framing — readers default to the more familiar interpretation, and the framework's contribution gets understated at exactly the moment we're trying to land it." Plus the renewable-energy-systems edge case: "couldn't you technically leverage the framework to price a renewable like solar or wind power?"
 
@@ -306,7 +306,7 @@ Solar/wind/hydro fall within the framework's analytical reach via their material
 
 **Origin moment (2026-05-06):** Author flagged before the Darity interview: "It would be odd if I walked in to the interview not knowing the answer to [Sandy's reparations program], and yet ask him what he thinks of restitution bonds & severance bonds." The example named the failure mode the brief prevents.
 
-**Origin model:** `research/outreach/darity-background-brief_2026-05-06.md` (the first instance — created via research-agent dispatch immediately after FPD-9 was canonicalized).
+**Origin model:** `research/outreach/subjects/darity/background-brief_2026-05-06.md` (the first instance — created via research-agent dispatch immediately after FPD-9 was canonicalized).
 
 **Vocabulary-adoption refinement:** the brief should specifically capture the subject's existing domain vocabulary — what terms their field already uses for the territory the framework's vocabulary is trying to name. This adjacency map is essential for FPD-6's vocabulary-failure probes (asking "what does your field already call this?" is much sharper when we know the candidate answers).
 
@@ -376,7 +376,7 @@ Question framings should match the kind of failure being probed. Q3 of the Darit
 
 **Origin moment (2026-05-06):** Author flagged before the Darity interview that Sandy might decline framework-specific commentary on the record because he hasn't read the manuscript or Tech Appendix in depth. Originally framed too strongly (Sandy has framework context from cold-outreach + pre-read; lower probability than initially captured). Even with low probability, the contingency stays as backup.
 
-**Origin model:** `research/outreach/darity-interview-prep_2026-05-06.md` §"Contingency plan" (the first instance — drafted as part of the Darity prep work).
+**Origin model:** `research/outreach/subjects/darity/interview-prep_2026-05-06.md` §"Contingency plan" (the first instance — drafted as part of the Darity prep work).
 
 **Stack-level reference:** the contingency plan lives inside artifact #3 (interview prep doc) of the canonical four-artifact stack and appears in compressed form in artifact #4 (live-call companion) — see §"Canonical interview-prep four-artifact stack" below.
 
@@ -442,26 +442,59 @@ This is the artifact that gets used moment-by-moment during the live call. Its s
 
 **Format options:** Markdown is canonical. Optional HTML version (sticky header + sidebar TOC + color-coded priority cards + collapsible pivot articulations + click-to-expand glossary) is useful for live in-browser use during the call. The HTML is a render of the same content; the markdown remains the canonical text.
 
+### Folder structure
+
+The outreach folder is organized into five top-level buckets:
+
+```
+research/outreach/
+├── _pipeline/                # cross-cutting outreach pipeline tracking
+├── _protocols/               # FPD working artifacts (attribution, scope-explicitness)
+├── _templates/               # reusable artifact templates
+├── subjects/                 # all per-subject material grouped here
+│   ├── {subject-slug}/       # one folder per interview subject
+│   │   ├── prereadbrief_{YYYY-MM-DD}.md
+│   │   ├── background-brief_{YYYY-MM-DD}.md
+│   │   ├── interview-prep_{YYYY-MM-DD}.md
+│   │   ├── live-call-companion_{YYYY-MM-DD}.md + .html
+│   │   └── (other per-subject artifacts: response-draft, questions-draft, worked-examples)
+│   └── {organization-slug}/  # for org-level artifacts (e.g., cbf/)
+└── archive/                  # declined / no-response / no-fit material
+```
+
+Underscore-prefixed folders (`_pipeline`, `_protocols`, `_templates`) are meta-folders that sort to the top alphabetically and are clearly separated from per-subject content.
+
 ### Naming convention
 
-`{subject-slug}-{artifact-type}_{YYYY-MM-DD}.{ext}`
+**Inside `subjects/{subject-slug}/`:** `{artifact-type}_{YYYY-MM-DD}{-qualifier?}.{ext}` — folder carries the subject; filename drops the subject prefix.
+
+**Outside subject folders (in `_pipeline/`, `_protocols/`, `_templates/`, or `archive/`):** `{descriptor}_{YYYY-MM-DD}{-qualifier?}.{ext}` — filename describes the artifact.
+
+**For cross-references in any document (manuscript, alignment, bibliography, or within outreach):** use the **full repo path** (e.g., `research/outreach/subjects/darity/prereadbrief_2026-05-05.md`) rather than bare filenames or relative paths. Full paths are unambiguous regardless of the referencing file's location and are easy to grep for.
 
 Examples:
-- `darity-prereadbrief_2026-05-05.md`
-- `darity-background-brief_2026-05-06.md`
-- `darity-interview-prep_2026-05-06.md`
-- `darity-live-call-companion_2026-05-06.md` + `.html`
+- `research/outreach/subjects/darity/prereadbrief_2026-05-05.md`
+- `research/outreach/subjects/darity/background-brief_2026-05-06.md`
+- `research/outreach/subjects/darity/interview-prep_2026-05-06.md`
+- `research/outreach/subjects/darity/live-call-companion_2026-05-06.md` + `.html`
+- `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md`
+- `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md`
+- `research/outreach/_templates/amsterdam-donut-prereadbrief_2026-05-06.md`
 
-Subject-slug: surname only for individual scholars; surname + qualifier for ambiguous cases. Date: the date the artifact was first drafted (not the interview date).
+**Subject-slug:** surname only for individual scholars (no first-name disambiguation needed unless surname-collision becomes a real problem); surname + qualifier only for ambiguous cases. Organizations use a short org-slug (e.g., `cbf`).
+
+**Date:** the date the artifact was first drafted (not the interview date).
+
+**Restructure history:** the canonical four-artifact stack pattern emerged organically across the Darity prep work (2026-05-05/06). The flat-folder layout was reorganized into the current five-bucket structure on 2026-05-09 once the four-artifact stack was canonicalized at the FPD level and the file count crossed the legibility threshold (22 files at the time of restructure; 4 active subjects).
 
 ### Instances log
 
 | # | Subject | First artifact created | Status |
 |---|---|---|---|
 | 1 | Sandy Darity | 2026-05-05 (pre-read) | All four artifacts complete; interview 2026-05-12 @ 14:00 ET |
-| 2 | Dagan Cohen | 2026-05-08 (background brief) | Background brief complete (`dagan-background-brief_2026-05-08.md`); question-screen pass next using brief findings; pre-read + prep doc + live-call companion gated on Dagan accepting the interview (first-contact email SENT 2026-05-08) |
-| 3 | Allison Colden | 2026-05-08 (background brief) | Background brief complete (`colden-background-brief_2026-05-08.md`, ~11,900 words). **Substitution-analysis verdict: public record is rich enough that Ch 3 is draftable from public-record material alone.** Live interview becomes value-add for framework-vocabulary calibration rather than load-bearing for quote-extraction. Other artifacts (pre-read brief drafted; questions-draft contingent) gated on Val DiMarzio's response to the gating reply (SENT 2026-05-06) |
-| 4 | Chris Moore | 2026-05-08 (background brief) | Background brief complete (`moore-background-brief_2026-05-08.md`, ~11,850 words). **Substitution-analysis verdict: public record is RICH; Ch 3 could be drafted at ~70-80% completeness from public record alone for VA-side material.** Recommended hybrid: begin Ch 3 drafting now from public record; treat live interview as augmentation. Long-cited "base science" quote located at primary source (VA Mercury Feb 2026). Other artifacts gated on Sherfinski's routing of the SENT response (2026-05-06) |
+| 2 | Dagan Cohen | 2026-05-08 (background brief) | Background brief complete (`research/outreach/subjects/dagan/background-brief_2026-05-08.md`); question-screen pass next using brief findings; pre-read + prep doc + live-call companion gated on Dagan accepting the interview (first-contact email SENT 2026-05-08) |
+| 3 | Allison Colden | 2026-05-08 (background brief) | Background brief complete (`research/outreach/subjects/colden/background-brief_2026-05-08.md`, ~11,900 words). **Substitution-analysis verdict: public record is rich enough that Ch 3 is draftable from public-record material alone.** Live interview becomes value-add for framework-vocabulary calibration rather than load-bearing for quote-extraction. Other artifacts (pre-read brief drafted; questions-draft contingent) gated on Val DiMarzio's response to the gating reply (SENT 2026-05-06) |
+| 4 | Chris Moore | 2026-05-08 (background brief) | Background brief complete (`research/outreach/subjects/moore/background-brief_2026-05-08.md`, ~11,850 words). **Substitution-analysis verdict: public record is RICH; Ch 3 could be drafted at ~70-80% completeness from public record alone for VA-side material.** Recommended hybrid: begin Ch 3 drafting now from public record; treat live interview as augmentation. Long-cited "base science" quote located at primary source (VA Mercury Feb 2026). Other artifacts gated on Sherfinski's routing of the SENT response (2026-05-06) |
 
 Future accepted interviews extend this log. The instances log makes the discipline's cumulative application visible.
 
@@ -519,7 +552,7 @@ Three claims: **what Doughnut does** (economy-system-level goal-state articulati
 
 The two cases span the framework's failure-vs-aspiration spectrum: McDowell shows where the structural mechanism operates at its starkest; Amsterdam shows where a city is trying to prevent it via system-level goal-frame, with action-level instrumentation as the live gap.
 
-**Worked example:** the framework's Foreclosure Bond architecture as a forward-looking deal-evaluation tool for cities pursuing Doughnut goals. See `research/outreach/dagan-water-deal-hypothetical_2026-05-07.md` for a full step-by-step walkthrough using an Amsterdam-style hypothetical (proposed deal leveraging water-management infrastructure that could impair crop-growing capacity). Candidate for incorporation in Ch 9 *Pricing Honestly* entering-wedges material.
+**Worked example:** the framework's Foreclosure Bond architecture as a forward-looking deal-evaluation tool for cities pursuing Doughnut goals. See `research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md` for a full step-by-step walkthrough using an Amsterdam-style hypothetical (proposed deal leveraging water-management infrastructure that could impair crop-growing capacity). Candidate for incorporation in Ch 9 *Pricing Honestly* entering-wedges material.
 
 ### Boyce (ecological economics + reparations intersection)
 
@@ -631,8 +664,8 @@ The canonical version above replaces "Soviet industrial planning" (used in the e
 
 ### Cross-references
 
-- `research/outreach/darity-prereadbrief_2026-05-05.md` — instance of theoretical/critical-engagement variant. Sent 2026-05-06; uses original "Soviet industrial planning" language pre-canonicalization.
-- `research/outreach/amsterdam-donut-prereadbrief_2026-05-06.md` — instance of applied-implementation variant. Synced to canonical version 2026-05-07 (template; not yet sent — awaiting Beth Ingledew's introduction to specific Amsterdam Donut team contacts).
+- `research/outreach/subjects/darity/prereadbrief_2026-05-05.md` — instance of theoretical/critical-engagement variant. Sent 2026-05-06; uses original "Soviet industrial planning" language pre-canonicalization.
+- `research/outreach/_templates/amsterdam-donut-prereadbrief_2026-05-06.md` — instance of applied-implementation variant. Synced to canonical version 2026-05-07 (template; not yet sent — awaiting Beth Ingledew's introduction to specific Amsterdam Donut team contacts).
 
 ---
 
@@ -653,9 +686,9 @@ The canonical version above replaces "Soviet industrial planning" (used in the e
 - `alignment/commons_bonds_working_principles_v1.0.0.md` — broader project disciplines (10 working principles); this document is a subset focused specifically on framework-positioning to audiences.
 - `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` — vocabulary strategy; FPD-8 (scope-explicitness) operationalizes vocabulary strategy at the positioning layer.
 - `tools/commons_bonds_book_scope_v1_0_3.md` — book scope canonical; should reflect the both-regimes-co-equal framing established by FPD-8.
-- `research/outreach/interview-attribution-protocol_2026-05-06.md` — FPD-7 detailed protocol.
-- `research/outreach/framework-scope-explicitness-discipline_2026-05-06.md` — FPD-8 detailed discipline + application checklist.
-- `research/outreach/darity-prereadbrief_2026-05-05.md` — FPD-5 model artifact.
-- `research/outreach/darity-interview-prep_2026-05-06.md` — FPD-6 model internal-prep artifact.
-- `research/outreach/response-draft_2026-05-06_moore-via-sherfinski.md` §"Forwardability design criterion" — FPD-3 origin capture.
-- `research/outreach/response-draft_2026-05-05_colden-via-dimarzio.md` "Generalizable Lessons" section — FPD-1 / FPD-2 / FPD-4 origin captures.
+- `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — FPD-7 detailed protocol.
+- `research/outreach/_protocols/framework-scope-explicitness-discipline_2026-05-06.md` — FPD-8 detailed discipline + application checklist.
+- `research/outreach/subjects/darity/prereadbrief_2026-05-05.md` — FPD-5 model artifact.
+- `research/outreach/subjects/darity/interview-prep_2026-05-06.md` — FPD-6 model internal-prep artifact.
+- `research/outreach/subjects/moore/response-draft_2026-05-06_via-sherfinski.md` §"Forwardability design criterion" — FPD-3 origin capture.
+- `research/outreach/subjects/colden/response-draft_2026-05-05_via-dimarzio.md` "Generalizable Lessons" section — FPD-1 / FPD-2 / FPD-4 origin captures.

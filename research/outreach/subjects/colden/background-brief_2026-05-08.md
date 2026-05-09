@@ -5,7 +5,7 @@
 **NOT sent to Colden.**
 **Status:** READY for author review + absorption.
 **Branch:** `claude/respond-to-valerie-inquiry-mV3Na`
-**Discipline:** Third instance of FPD-9 (Substantive background brief) per `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-9. Models structure on the Darity (`darity-background-brief_2026-05-06.md`) and Dagan (`dagan-background-brief_2026-05-08.md`) briefs, with an added §9 dedicated to substitution-analysis quote-cataloging.
+**Discipline:** Third instance of FPD-9 (Substantive background brief) per `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-9. Models structure on the Darity (`research/outreach/subjects/darity/background-brief_2026-05-06.md`) and Dagan (`research/outreach/subjects/dagan/background-brief_2026-05-08.md`) briefs, with an added §9 dedicated to substitution-analysis quote-cataloging.
 **Public-record sweep date:** 2026-05-08 (note: WebFetch returned 403 across cbf.org, marylandmatters.org, baltimorefishbowl.com, chesapeake.org, congress.gov PDFs, and bayjournal.com throughout this sweep; the brief is therefore built from WebSearch summaries supplemented by direct quote text surfaced through search-result snippets. Quotes flagged with confidence; institutional facts cross-confirmed across multiple secondary summaries. **The Maryland General Assembly's `mgaleg.maryland.gov` testimony PDFs were also 403-blocked; the testimony catalog below is therefore filename-and-position level, not full-text level.**)
 
 ---
@@ -22,7 +22,7 @@
 - **Ph.D. in Marine Sciences, Virginia Institute of Marine Science (VIMS) / William & Mary, 2015** (advised by Rom Lipcius). Dissertation on oyster reef restoration — the substantive empirical work later anchoring her policy authority on oysters ([VIMS top story 2017 on her tipping-point paper](https://www.vims.edu/newsandevents/topstories/2017/oyster_tip.php)).
 - **B.S. in Biology, University of Virginia, 2009** ([Virginia Sea Grant Knauss profile](https://vaseagrant.org/knauss-fellow-habitat-restoration-water-allison-colden/)).
 
-**Geographic / institutional positioning within CBF.** Annapolis-based (CBF Maryland HQ at the Philip Merrill Environmental Center). Maryland office is the largest of CBF's regional offices and historically the one closest to the legislative-and-fisheries-management center of gravity for the Bay (MD General Assembly, MD DNR, ASMFC seat). Colden is one of three regional EDs (Maryland, Virginia, Pennsylvania) plus a Federal Director and Hampton Roads sub-regional director. See `research/outreach/cbf-organizational-brief_2026-05-06.md` §1 for the broader org map.
+**Geographic / institutional positioning within CBF.** Annapolis-based (CBF Maryland HQ at the Philip Merrill Environmental Center). Maryland office is the largest of CBF's regional offices and historically the one closest to the legislative-and-fisheries-management center of gravity for the Bay (MD General Assembly, MD DNR, ASMFC seat). Colden is one of three regional EDs (Maryland, Virginia, Pennsylvania) plus a Federal Director and Hampton Roads sub-regional director. See `research/outreach/subjects/cbf/organizational-brief_2026-05-06.md` §1 for the broader org map.
 
 **Personal-narrative texture.** Limited public-record voice on personal background. The [Chestertown Spy interview (2023-05-29)](https://chestertownspy.org/2023/05/29/meet-the-chesapeake-bay-foundations-new-maryland-director-allison-colden/) (also republished by [Talbot Spy](https://talbotspy.org/meet-the-chesapeake-bay-foundations-new-maryland-director-allison-colden/); video on [YouTube](https://www.youtube.com/watch?v=CxlJgvK3uCQ)) is the closest thing to a profile interview, and it focuses on her Bay-policy substance (invasive blue catfish, science-into-policy translation) rather than personal narrative.
 
@@ -118,7 +118,7 @@ She is not a polemicist. Colden's public voice is **measured, technical, precaut
 
 **On the substitute motion at the ASMFC board (Oct 2025).** Colden offered *"to establish a board work group to consider and evaluate options for further precautionary management of Chesapeake Bay menhaden fisheries, including time and area closures, to be protective of piscivorous birds and fish during critical points of their life cycle"* ([ASMFC press release on the November 2025 board action](https://asmfc.org/news/press-releases/asmfc-atlantic-menhaden-board-reduces-2026-tac-by-20-and-initiates-addendum-for-chesapeake-bay-cap/)). The Nov 2025 ASMFC board ultimately reduced 2026 TAC by 20% and initiated an addendum on the Chesapeake Bay cap.
 
-**Sept 2025 Bay-pause call.** CBF formally called for a pause on industrial reduction fishing inside the Bay until the science is complete enough to ensure sustainability ([CBF "Time to Pause Menhaden Fishing in the Chesapeake Bay" — Sept 2025 blog post, 403-blocked direct fetch](https://www.cbf.org/blogs/save-the-bay/2025/09/time-to-pause-menhaden-fishing-in-the-chesapeake-bay.html); also [CBF "Virginia Could Push Pause on Industrial Menhaden Fishing"](https://www.cbf.org/news/virginia-could-push-pause-on-industrial-menhaden-fishing-in-chesapeake-bay/)). VA-side legislative bills (Sen. Marsden's SB474 menhaden science fund; Del. Carr's HB1048 pause; HB1049 observer/seasonal limits) all blocked in the 2025 and 2026 VA General Assembly sessions per `research/outreach/cbf-organizational-brief_2026-05-06.md` §5.
+**Sept 2025 Bay-pause call.** CBF formally called for a pause on industrial reduction fishing inside the Bay until the science is complete enough to ensure sustainability ([CBF "Time to Pause Menhaden Fishing in the Chesapeake Bay" — Sept 2025 blog post, 403-blocked direct fetch](https://www.cbf.org/blogs/save-the-bay/2025/09/time-to-pause-menhaden-fishing-in-the-chesapeake-bay.html); also [CBF "Virginia Could Push Pause on Industrial Menhaden Fishing"](https://www.cbf.org/news/virginia-could-push-pause-on-industrial-menhaden-fishing-in-chesapeake-bay/)). VA-side legislative bills (Sen. Marsden's SB474 menhaden science fund; Del. Carr's HB1048 pause; HB1049 observer/seasonal limits) all blocked in the 2025 and 2026 VA General Assembly sessions per `research/outreach/subjects/cbf/organizational-brief_2026-05-06.md` §5.
 
 ### 3d. Climate-fisheries intersection
 
@@ -175,7 +175,7 @@ Continuation: *"The upcoming comprehensive stock assessment, due in 2026, will g
 **CBF role specifics.** As Maryland Executive Director, Colden:
 - Oversees CBF's Maryland office (Annapolis HQ at the Philip Merrill Environmental Center, plus the Salisbury MD field office and Smith Island/Tylerton residential education center).
 - Reduces water pollution; educates policymakers; strengthens MD environmental policy ([CBF appointment press](https://www.cbf.org/news-media/newsroom/2023/maryland/allison-colden-named-chesapeake-bay-foundations-maryland-executive-director.html)).
-- Supervises the Maryland Senior Fisheries Scientist seat she previously held (current incumbent TBD per the [CBF organizational brief](research/outreach/cbf-organizational-brief_2026-05-06.md)) plus the MD office staff.
+- Supervises the Maryland Senior Fisheries Scientist seat she previously held (current incumbent TBD per the [CBF organizational brief](research/outreach/subjects/cbf/organizational-brief_2026-05-06.md)) plus the MD office staff.
 - Leads MD legislative advocacy in Annapolis — testifying, coordinating with allied orgs (Maryland LCV, Chesapeake Legal Alliance, Choose Clean Water Coalition), and shaping the CBF MD policy agenda.
 - Represents CBF in multi-state and federal-level Bay coordination work.
 
@@ -708,12 +708,12 @@ Organized by topic. Confidence rating: **[H]** = direct verbatim, multi-source c
 
 ## Cross-references
 
-- `research/outreach/cbf-organizational-brief_2026-05-06.md` — CBF organizational map (don't duplicate; refer to it).
-- `research/outreach/response-draft_2026-05-05_colden-via-dimarzio.md` — SENT response to Val DiMarzio gating Colden interview (sent 2026-05-06).
-- `research/outreach/colden-prereadbrief_2026-05-06.md` — pre-read brief drafted (to be sent if Colden accepts).
-- `research/outreach/questions-draft_2026-05-05_colden-if-val-accepts.md` — contingent question set.
-- `research/outreach/darity-background-brief_2026-05-06.md` — first instance of FPD-9; structural model.
-- `research/outreach/dagan-background-brief_2026-05-08.md` — second instance of FPD-9; structural model + 403-block precedent.
-- `research/outreach/interview-attribution-protocol_2026-05-06.md` — Q0 attribution-preference protocol.
+- `research/outreach/subjects/cbf/organizational-brief_2026-05-06.md` — CBF organizational map (don't duplicate; refer to it).
+- `research/outreach/subjects/colden/response-draft_2026-05-05_via-dimarzio.md` — SENT response to Val DiMarzio gating Colden interview (sent 2026-05-06).
+- `research/outreach/subjects/colden/prereadbrief_2026-05-06.md` — pre-read brief drafted (to be sent if Colden accepts).
+- `research/outreach/subjects/colden/questions-draft_2026-05-05_if-val-accepts.md` — contingent question set.
+- `research/outreach/subjects/darity/background-brief_2026-05-06.md` — first instance of FPD-9; structural model.
+- `research/outreach/subjects/dagan/background-brief_2026-05-08.md` — second instance of FPD-9; structural model + 403-block precedent.
+- `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — Q0 attribution-preference protocol.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-9 — discipline; §"Canonical interview-prep four-artifact stack".
 - `research/literature/bibliography.md` §19.5 — Chesapeake fieldwork tentative sources (Colden public record); this brief is the fuller successor to that section's catalog and can be used to promote entries from §19.5 to numbered chapter endnotes.

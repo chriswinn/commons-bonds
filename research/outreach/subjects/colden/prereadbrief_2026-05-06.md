@@ -4,7 +4,7 @@
 **From:** Chris Winn · author, *Commons Bonds* (forthcoming book + Noema-bound essay)
 **Sent ahead of:** [interview date — TBD; pending Val DiMarzio confirmation]
 **Length cap:** one page (~400 words). Designed to be readable in three minutes on a phone.
-**Companion artifact:** the 5–8 questions I'd plan to ask are stashed in `questions-draft_2026-05-05_colden-if-val-accepts.md`; sent alongside this brief on Val's signal.
+**Companion artifact:** the 5–8 questions I'd plan to ask are stashed in `research/outreach/subjects/colden/questions-draft_2026-05-05_if-val-accepts.md`; sent alongside this brief on Val's signal.
 
 ---
 

@@ -1,7 +1,7 @@
 # Advance interview questions — Colden (contingent on Val accepting offer)
 
 **Drafted:** 2026-05-05 by Claude per author direction.
-**Status:** READY-TO-SEND if Val DiMarzio accepts the offer of "the specific 5–8 questions I'd plan to ask" made in `response-draft_2026-05-05_colden-via-dimarzio.md`. Do not send unless Val explicitly takes us up on it.
+**Status:** READY-TO-SEND if Val DiMarzio accepts the offer of "the specific 5–8 questions I'd plan to ask" made in `research/outreach/subjects/colden/response-draft_2026-05-05_via-dimarzio.md`. Do not send unless Val explicitly takes us up on it.
 **Branch:** `claude/respond-to-valerie-inquiry-mV3Na`.
 
 ---
@@ -59,7 +59,7 @@ This file holds the question batch ready to dispatch the moment Val replies "yes
 
 | # | Function | Primary destination | Secondary destination |
 |---|---|---|---|
-| 0 | **Attribution ground rules — first thing asked, before any substantive question.** Per `interview-attribution-protocol_2026-05-06.md`. Ensures consent is established before any framework-level engagement. | Interview-log | Protects all subsequent quotations |
+| 0 | **Attribution ground rules — first thing asked, before any substantive question.** Per `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md`. Ensures consent is established before any framework-level engagement. | Interview-log | Protects all subsequent quotations |
 | 1 | Framework-vocabulary calibration; opens at framework-level | Ch 3 (book) | Noema §V if she's added as third anchor |
 | 2 | Structural read on institutional-failure pattern; invites her expertise | Ch 3 (book) | Noema §V |
 | 3 | Empirical anchor for the renewable-past-regeneration threshold claim | Ch 3 (book) | — |
@@ -122,7 +122,7 @@ If Val asks for *all three* artifacts (one-pager + outline + questions), send al
 
 ## Cross-references
 
-- `response-draft_2026-05-05_colden-via-dimarzio.md` — the response that offers the questions
-- `interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §18 — original outreach to Colden
+- `research/outreach/subjects/colden/response-draft_2026-05-05_via-dimarzio.md` — the response that offers the questions
+- `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §18 — original outreach to Colden
 - `manuscript/essay/Noema/rewrite-plan_2026-05-01.md` §Section V — where Q1, Q2, Q4, Q7 material would land if Colden is added as a third Noema anchor (decision still open per response-draft Generalizable Lessons #5)
 - `research/literature/bibliography.md` §19.5 — Colden public-record sources backing Q4 (SB 922 testimony, sanctuary defense, etc.)

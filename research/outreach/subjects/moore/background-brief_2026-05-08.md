@@ -5,7 +5,7 @@
 **NOT sent to Moore.**
 **Status:** READY for author review + absorption.
 **Branch:** `claude/respond-to-valerie-inquiry-mV3Na`
-**Discipline:** Fourth instance of FPD-9 (Substantive background brief) per `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-9 — canonical four-artifact stack. Models structure on `darity-background-brief_2026-05-06.md` and `dagan-background-brief_2026-05-08.md`; adds a §9 substitution-analysis section unique to this case.
+**Discipline:** Fourth instance of FPD-9 (Substantive background brief) per `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-9 — canonical four-artifact stack. Models structure on `research/outreach/subjects/darity/background-brief_2026-05-06.md` and `research/outreach/subjects/dagan/background-brief_2026-05-08.md`; adds a §9 substitution-analysis section unique to this case.
 **Public-record sweep date:** 2026-05-08 (note: WebFetch was 403-blocked across cbf.org, virginiamercury.com, vpm.org, whro.org, bayjournal.com, savingseafood.org, finance.yahoo.com, morningstar.com, phys.org, wtop.com throughout this sweep; the brief is therefore built from WebSearch summaries that extract page content rather than direct primary-document scrapes. Quote attributions are cross-confirmed across multiple syndication sites where possible; confidence flagged in §9 entries.)
 
 ---
@@ -14,7 +14,7 @@
 
 **Current title.** Virginia Executive Director, Chesapeake Bay Foundation. **Start date: 4 December 2023.** Replaced **Peggy Sanner** (environmental lawyer; retired August 2023). Announced by Alison Prost, then CBF VP for Environmental Protection and Restoration ([CBF press release "Chris Moore Named Chesapeake Bay Foundation Virginia Executive Director"](https://www.cbf.org/news/chris-moore-named-chesapeake-bay-foundation-virginia-executive-director/); [Peggy Sanner's prior tenure announcement, 2020](https://www.cbf.org/news-media/newsroom/2020/virginia/peggy-sanner-named-chesapeake-bay-foundation-virginia-executive-director.html)). The Sanner-to-Moore succession is a **lawyer-to-scientist** institutional shift in the VA ED role: Sanner's tenure was anchored in environmental-law / policy arc; Moore's is anchored in fisheries-ecosystem-science arc. **This is structurally important** — Moore brings the science register into a seat that previously translated the regulatory / litigation register.
 
-**Prior CBF role.** **Senior Regional Ecosystem Scientist** for ~18 years (joined CBF 2005 as Science Advocate; the Senior Regional Ecosystem Scientist title hardened over time). Cross-jurisdictional remit: covered fisheries Bay-wide (Maryland AND Virginia waters) rather than VA-only — uniquely positioning him with **institutional memory across both states' fisheries-policy arcs**. The CBF organizational brief (`cbf-organizational-brief_2026-05-06.md` §1) flagged this: "Chris Moore himself — uniquely cross-jurisdictional (covered fisheries Bay-wide for 18 years before VA ED)." This is one of the hardest-to-replicate analytical capacities at CBF.
+**Prior CBF role.** **Senior Regional Ecosystem Scientist** for ~18 years (joined CBF 2005 as Science Advocate; the Senior Regional Ecosystem Scientist title hardened over time). Cross-jurisdictional remit: covered fisheries Bay-wide (Maryland AND Virginia waters) rather than VA-only — uniquely positioning him with **institutional memory across both states' fisheries-policy arcs**. The CBF organizational brief (`research/outreach/subjects/cbf/organizational-brief_2026-05-06.md` §1) flagged this: "Chris Moore himself — uniquely cross-jurisdictional (covered fisheries Bay-wide for 18 years before VA ED)." This is one of the hardest-to-replicate analytical capacities at CBF.
 
 **Pre-CBF career path.** Working on menhaden issues since 2000 — five years before joining CBF — though the public record does not surface his specific pre-2005 employer. Implication: he came to CBF already as a domain specialist on the chapter's most VA-centric issue.
 
@@ -231,7 +231,7 @@ Cataloged in approximate chronological order; major items only.
 **VIMS / Virginia Sea Grant connections.**
 - **VIMS-led $3M three-year Bay-specific menhaden study** (2025 VA legislative effort, repeatedly blocked).
 - **SCEMFIS / UMCES / VIMS / NOAA collaboration** under the federal $2.5M funding (2025); Moore is the CBF-side bridge.
-- **Rom Lipcius (VIMS, blue crab ecology)** and **Roger Mann (VIMS, oyster ecology)** are the author's parallel cold-outreach targets per `interview-outreach-drafts_2026-05-04_ch3-fieldwork.md`; Moore is positioned to know both.
+- **Rom Lipcius (VIMS, blue crab ecology)** and **Roger Mann (VIMS, oyster ecology)** are the author's parallel cold-outreach targets per `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md`; Moore is positioned to know both.
 
 **Government / regulatory interlocutors.**
 - **Virginia Marine Resources Commission (VMRC)** — Moore is a recurring public commenter / advisory committee participant.
@@ -331,7 +331,7 @@ This is the chapter's paradigmatic case. **Moore is the right interlocutor.** Wh
     - **Sanner-to-Moore succession** (Dec 2023): noted above.
     - **Will Poston joined as Forage Campaign Manager** (winter 2025) — this is operational reinforcement on menhaden specifically.
     - **2026 General Assembly session just concluded** with all menhaden bills again blocked — Moore is in immediate-post-session retrospective mode.
-- **The CBF-Sherfinski-Moore comms architecture.** The original 2026-05-05 outreach to Moore went via cold email; CBF VA Communications & Media Relations Manager **David Sherfinski** intercepted and re-opened in a fresh thread asking for more information. The 2026-05-06 response (`response-draft_2026-05-06_moore-via-sherfinski.md`) framed three voice categories (watermen / CBF VA institutional / scientific) and time-budget (~30–45 min). **The interview is gated on Sherfinski's routing pass.** Moore may receive only a brief Sherfinski endorsement; the author's framing in the original outreach is the most context Moore will have until the call.
+- **The CBF-Sherfinski-Moore comms architecture.** The original 2026-05-05 outreach to Moore went via cold email; CBF VA Communications & Media Relations Manager **David Sherfinski** intercepted and re-opened in a fresh thread asking for more information. The 2026-05-06 response (`research/outreach/subjects/moore/response-draft_2026-05-06_via-sherfinski.md`) framed three voice categories (watermen / CBF VA institutional / scientific) and time-budget (~30–45 min). **The interview is gated on Sherfinski's routing pass.** Moore may receive only a brief Sherfinski endorsement; the author's framing in the original outreach is the most context Moore will have until the call.
 - **The Maryland-side parallel thread (DiMarzio / Colden) is in flight** — the Colden brief is being written in parallel to this one. Moore and Colden are MD/VA counterparts; they presumably coordinate; the author should know that the cross-thread context exists.
 
 ---
@@ -793,14 +793,14 @@ Specific recommendation:
 
 ## Cross-references
 
-- `research/outreach/cbf-organizational-brief_2026-05-06.md` — CBF organizational map (don't duplicate; refer to it for fisheries-staff network beyond Moore).
-- `research/outreach/response-draft_2026-05-06_moore-via-sherfinski.md` — SENT response to David Sherfinski gating Moore interview; outlines the three-voice-category framing the original outreach landed on.
-- `research/outreach/colden-background-brief_2026-05-08.md` — parallel MD-side ED brief (in parallel; cross-reference for Colden / Maryland-side institutional positioning).
-- `research/outreach/colden-prereadbrief_2026-05-06.md` — pre-read brief framework for Colden if Val DiMarzio facilitates; structurally parallel to what would be created for Moore if Sherfinski accepts.
-- `research/outreach/questions-draft_2026-05-05_colden-if-val-accepts.md` — parallel questions draft on the MD side; Moore questions can be modeled on it once interview is confirmed.
-- `research/outreach/darity-background-brief_2026-05-06.md` — first instance of FPD-9; this brief models its structure.
-- `research/outreach/dagan-background-brief_2026-05-08.md` — second instance of FPD-9; this brief models its substitution-analysis-flag pattern (the §9 + §10 structure here is novel to this brief).
-- `research/outreach/interview-attribution-protocol_2026-05-06.md` — Q0 attribution-preference protocol if Moore interview proceeds.
+- `research/outreach/subjects/cbf/organizational-brief_2026-05-06.md` — CBF organizational map (don't duplicate; refer to it for fisheries-staff network beyond Moore).
+- `research/outreach/subjects/moore/response-draft_2026-05-06_via-sherfinski.md` — SENT response to David Sherfinski gating Moore interview; outlines the three-voice-category framing the original outreach landed on.
+- `research/outreach/subjects/colden/background-brief_2026-05-08.md` — parallel MD-side ED brief (in parallel; cross-reference for Colden / Maryland-side institutional positioning).
+- `research/outreach/subjects/colden/prereadbrief_2026-05-06.md` — pre-read brief framework for Colden if Val DiMarzio facilitates; structurally parallel to what would be created for Moore if Sherfinski accepts.
+- `research/outreach/subjects/colden/questions-draft_2026-05-05_if-val-accepts.md` — parallel questions draft on the MD side; Moore questions can be modeled on it once interview is confirmed.
+- `research/outreach/subjects/darity/background-brief_2026-05-06.md` — first instance of FPD-9; this brief models its structure.
+- `research/outreach/subjects/dagan/background-brief_2026-05-08.md` — second instance of FPD-9; this brief models its substitution-analysis-flag pattern (the §9 + §10 structure here is novel to this brief).
+- `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — Q0 attribution-preference protocol if Moore interview proceeds.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-9 — the discipline this brief instantiates; canonical four-artifact stack.
 - `research/literature/bibliography.md` §19.5 — Chesapeake fieldwork tentative sources.
-- `research/outreach/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` — Ch 3 fieldwork outreach pipeline (Lipcius, Mann, Moore, Colden); response-tracking table.
+- `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` — Ch 3 fieldwork outreach pipeline (Lipcius, Mann, Moore, Colden); response-tracking table.

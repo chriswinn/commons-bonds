@@ -255,7 +255,7 @@ If he wants depth: vocabulary strategy v1.0.1 §6.5; Tech Appendix §5 (Accounta
 
 1. **Transcribe** the conversation (or write notes if not recorded). Log Sandy's attribution preference + any modifications.
 2. **Send thank-you email** with any artifacts agreed (Tech Appendix, Ch 6, etc.). Light-touch pre-publication door if not already raised.
-3. **Update tracking:** mark interview complete in `interview-outreach-drafts_2026-05-01.md` candidate #2; note any reading recs in `bibliography.md`; flag any framework-revision implications in appropriate guidance docs.
+3. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #2; note any reading recs in `bibliography.md`; flag any framework-revision implications in appropriate guidance docs.
 4. **Mullen / network follow-up:** if Sandy offered a warm intro, follow up within 48 hours.
 5. **Decision point:** does Sandy's input warrant adding him to the Noema essay §V as a third anchor?
 
@@ -287,4 +287,4 @@ If he wants depth: vocabulary strategy v1.0.1 §6.5; Tech Appendix §5 (Accounta
 
 ---
 
-*This document consolidates content from `darity-prereadbrief_2026-05-05.md` (priority Q1-Q5), `darity-interview-prep_2026-05-06.md` (follow-ups, talking points, contingency, closing block, three tiers), `darity-background-brief_2026-05-06.md` (Sandy's must-knows, four non-negotiables, programs rejected), `interview-attribution-protocol_2026-05-06.md` (Q0 verbal phrasing), and `commons_bonds_framework_positioning_disciplines_v1.0.0.md` (canonical lineage articulations). Source documents remain canonical; this is the live-call working artifact only.*
+*This document consolidates content from `research/outreach/subjects/darity/prereadbrief_2026-05-05.md` (priority Q1-Q5), `research/outreach/subjects/darity/interview-prep_2026-05-06.md` (follow-ups, talking points, contingency, closing block, three tiers), `research/outreach/subjects/darity/background-brief_2026-05-06.md` (Sandy's must-knows, four non-negotiables, programs rejected), `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` (Q0 verbal phrasing), and `commons_bonds_framework_positioning_disciplines_v1.0.0.md` (canonical lineage articulations). Source documents remain canonical; this is the live-call working artifact only.*

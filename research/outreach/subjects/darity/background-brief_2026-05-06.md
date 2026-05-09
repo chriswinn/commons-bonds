@@ -2,7 +2,7 @@
 
 **Created:** 2026-05-06 by Claude (research-agent dispatch + synthesis) per author direction.
 **For:** Author preparation ahead of the Darity interview, week of 2026-05-12. NOT sent to Darity.
-**Status:** READY for author review + absorption before the interview. Pairs with the pre-read brief (`darity-prereadbrief_2026-05-05.md`) and internal interview prep doc (`darity-interview-prep_2026-05-06.md`).
+**Status:** READY for author review + absorption before the interview. Pairs with the pre-read brief (`research/outreach/subjects/darity/prereadbrief_2026-05-05.md`) and internal interview prep doc (`research/outreach/subjects/darity/interview-prep_2026-05-06.md`).
 **Branch:** `claude/respond-to-valerie-inquiry-mV3Na`
 **Discipline:** First instance of FPD-9 (Substantive background brief) per `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-9. Future accepted interviews follow the same model.
 
@@ -161,8 +161,8 @@ This is the framework the author should expect Sandy to use to interpret McDowel
 
 ## Cross-references
 
-- `research/outreach/darity-prereadbrief_2026-05-05.md` — pre-read brief Sandy receives in advance (FPD-5).
-- `research/outreach/darity-interview-prep_2026-05-06.md` — internal interview prep doc; pivot anticipations + talking-point notes informed by this background brief (FPD-6).
-- `research/outreach/interview-attribution-protocol_2026-05-06.md` — live Q0 phrasing (FPD-7).
+- `research/outreach/subjects/darity/prereadbrief_2026-05-05.md` — pre-read brief Sandy receives in advance (FPD-5).
+- `research/outreach/subjects/darity/interview-prep_2026-05-06.md` — internal interview prep doc; pivot anticipations + talking-point notes informed by this background brief (FPD-6).
+- `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — live Q0 phrasing (FPD-7).
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-9 — the discipline this brief instantiates.
 - `research/literature/bibliography.md` §18.5 — Hotelling / Hartwick / Solow / reparations-economics anchors (where Darity + Mullen + Hamilton-et-al sit in the project bibliography).

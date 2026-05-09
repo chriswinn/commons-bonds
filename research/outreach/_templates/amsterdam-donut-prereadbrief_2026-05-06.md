@@ -5,7 +5,7 @@
 **Sent ahead of:** [interview date — TBD]
 **Length cap:** one page (~430 words). Designed to be readable in three minutes on a phone.
 
-**Status:** TEMPLATE — recipient-flexible draft. Customize the framework-paragraph "applied case" phrasing + the Where-it-sits §1 institutional-role phrasing once Beth's introduction identifies the specific recipient (Coalition organizer / city staffer / DEAL liaison — different emphasis per category). Live-Q0 attribution per `interview-attribution-protocol_2026-05-06.md`.
+**Status:** TEMPLATE — recipient-flexible draft. Customize the framework-paragraph "applied case" phrasing + the Where-it-sits §1 institutional-role phrasing once Beth's introduction identifies the specific recipient (Coalition organizer / city staffer / DEAL liaison — different emphasis per category). Live-Q0 attribution per `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md`.
 
 ---
 
@@ -41,4 +41,4 @@ I'd like to quote you in the book and in any derivative essays (a *Noema*-track 
 
 ---
 
-*Author / Claude internal note (not sent to recipient): live Q0 verbal phrasing and the four preference categories live in `research/outreach/interview-attribution-protocol_2026-05-06.md`. Customize the bracketed [Recipient name TBD] / [Title TBD] header fields, and adjust the framework-paragraph "applied case" phrasing + the Where-it-sits §1 institutional-role phrasing per recipient category once Beth's introduction surfaces the specific contact. Coalition-organizer recipient → emphasize civic-society implementation register; city-staff recipient → emphasize regulatory/budgetary architecture register; DEAL-liaison recipient → emphasize platform-and-methodology register.*
+*Author / Claude internal note (not sent to recipient): live Q0 verbal phrasing and the four preference categories live in `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md`. Customize the bracketed [Recipient name TBD] / [Title TBD] header fields, and adjust the framework-paragraph "applied case" phrasing + the Where-it-sits §1 institutional-role phrasing per recipient category once Beth's introduction surfaces the specific contact. Coalition-organizer recipient → emphasize civic-society implementation register; city-staff recipient → emphasize regulatory/budgetary architecture register; DEAL-liaison recipient → emphasize platform-and-methodology register.*

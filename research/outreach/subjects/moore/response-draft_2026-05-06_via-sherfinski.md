@@ -8,7 +8,7 @@
 
 ## Context
 
-- **Original outreach:** sent 2026-05-05 at 9:00 AM ET to Chris Moore (CBF Virginia Executive Director) per `interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §17.
+- **Original outreach:** sent 2026-05-05 at 9:00 AM ET to Chris Moore (CBF Virginia Executive Director) per `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §17.
 - **Reply received 2026-05-06** from David Sherfinski, CBF Virginia Communications & Media Relations Manager — Sherfinski is Moore's parallel-to-Val-DiMarzio comms gatekeeper (DiMarzio coordinates Allison Colden on the Maryland side; Sherfinski coordinates Moore on the Virginia side).
 - **Sherfinski's institutional position:** unlike DiMarzio's four-question framing-screen, Sherfinski's questions are *utility / routing* questions — he's asking what we need so he can route us to the right people. That's a different kind of conversation, and the response should match its shape.
 
@@ -145,7 +145,7 @@ Each of these is a potential Ch 3 voice. The strategic move is to give Sherfinsk
 
 ## Cross-references
 
-- `interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §17 (Moore original outreach)
-- `response-draft_2026-05-05_colden-via-dimarzio.md` (parallel Maryland thread; same comms-manager-as-gatekeeper structure with DiMarzio)
-- `interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` response-tracking table (this thread now logged on row #17)
+- `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §17 (Moore original outreach)
+- `research/outreach/subjects/colden/response-draft_2026-05-05_via-dimarzio.md` (parallel Maryland thread; same comms-manager-as-gatekeeper structure with DiMarzio)
+- `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` response-tracking table (this thread now logged on row #17)
 - `research/literature/bibliography.md` §19.5 (Chesapeake fieldwork tentative sources — could expand if Sherfinski-routed interviews materialize)

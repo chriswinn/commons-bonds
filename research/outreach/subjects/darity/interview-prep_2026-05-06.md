@@ -2,10 +2,10 @@
 
 **Created:** 2026-05-06 by Claude per author direction.
 **Interview confirmed:** **2026-05-12 at 14:00 ET, phone, 1 hour** (Sandy: "at least an hour if needed"). Sandy's number: 919-452-3118. Author's number: (912) 944-7217 (shared with Sandy 2026-05-06 in confirmation reply for caller-ID recognition). Author calls Sandy at the agreed time.
-**Status:** READY FOR LIVE USE — not for sending to Darity. Pairs with the pre-read brief at `darity-prereadbrief_2026-05-05.md` (READY TO SEND now that date + modality are confirmed) and the substantive background brief at `darity-background-brief_2026-05-06.md` (NOT sent — for author absorption before the interview).
+**Status:** READY FOR LIVE USE — not for sending to Darity. Pairs with the pre-read brief at `research/outreach/subjects/darity/prereadbrief_2026-05-05.md` (READY TO SEND now that date + modality are confirmed) and the substantive background brief at `research/outreach/subjects/darity/background-brief_2026-05-06.md` (NOT sent — for author absorption before the interview).
 **Branch:** `claude/respond-to-valerie-inquiry-mV3Na`
 
-**READ FIRST:** the substantive background brief (`darity-background-brief_2026-05-06.md`) before working through this prep doc. The background brief's findings about Sandy's reparations program (lineage-based eligibility, $14T figure, federal-only, four non-negotiables, "stop calling everything reparations" position, HR 40 critique, California / Georgetown criticism) directly shape the talking-point notes and pivot anticipations below.
+**READ FIRST:** the substantive background brief (`research/outreach/subjects/darity/background-brief_2026-05-06.md`) before working through this prep doc. The background brief's findings about Sandy's reparations program (lineage-based eligibility, $14T figure, federal-only, four non-negotiables, "stop calling everything reparations" position, HR 40 critique, California / Georgetown criticism) directly shape the talking-point notes and pivot anticipations below.
 
 ---
 
@@ -27,7 +27,7 @@ What we want from this conversation, ordered by load-bearingness:
 
 ## Live interview opening — Q0 attribution
 
-**Verbal phrasing** (per `interview-attribution-protocol_2026-05-06.md` §"Live interview"):
+**Verbal phrasing** (per `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` §"Live interview"):
 
 > *"Before we get into the framework questions, I want to ask about your preferences for how I handle our conversation in print. The book and any derivative essays — there's a Noema-track essay in development, possibly an Aeon-track piece on a separate angle — would draw on this conversation. Scholars handle attribution differently — some prefer freely-quotable answers, some prefer paraphrase + attribution unless reviewed first, others ask for full transcript review before any quoting. Whatever works for you, I'll abide by it across the book and essays. What would you prefer?"*
 
@@ -257,8 +257,8 @@ If Sandy wants references for the Ostrom-extension claim: bibliography §1 (Ostr
 Per the canonical Live-call setup template in `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-6.
 
 **Darity-specific browser tabs to also have open:**
-- Darity pre-read brief (`darity-prereadbrief_2026-05-05.md`)
-- Darity background brief (`darity-background-brief_2026-05-06.md`) — re-skim morning of the call
+- Darity pre-read brief (`research/outreach/subjects/darity/prereadbrief_2026-05-05.md`)
+- Darity background brief (`research/outreach/subjects/darity/background-brief_2026-05-06.md`) — re-skim morning of the call
 - This interview prep doc
 
 **Darity-specific mental refresh on the morning of May 12:**
@@ -363,7 +363,7 @@ The framework-CALIBRATION value is reduced if pivot is used; the framework-CONTE
 
 ## Mullen warm-intro path (post-interview, if conversation goes well)
 
-Per the Mullen-deferral decision (`interview-outreach-drafts_2026-05-01.md` candidate #3, decision 2026-05-05): don't ask in the scheduling reply; ask at the end of the live interview.
+Per the Mullen-deferral decision (`research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #3, decision 2026-05-05): don't ask in the scheduling reply; ask at the end of the live interview.
 
 **Verbal phrasing if conversation has gone well:**
 
@@ -377,15 +377,15 @@ If Sandy declines the warm intro, that's fine — the Mullen path was contingent
 
 1. **Within 24 hours:** transcribe the conversation (or write up notes if not recorded). Include any modifications to attribution preferences agreed during the call.
 2. **Within 48 hours:** send Sandy a thank-you email; include any clarifying follow-up questions if needed; if he asked for transcript review, send the transcript.
-3. **Update tracking:** mark interview complete in `interview-outreach-drafts_2026-05-01.md` candidate #2; update `research/literature/bibliography.md` if Sandy recommended specific reading; flag any framework-revision implications in the appropriate guidance docs.
+3. **Update tracking:** mark interview complete in `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #2; update `research/literature/bibliography.md` if Sandy recommended specific reading; flag any framework-revision implications in the appropriate guidance docs.
 4. **Decision point:** does Sandy's input warrant adding him to the Noema essay §V as a third anchor (per the parallel decision pending for Colden)? Decide based on the actual interview substance.
 
 ---
 
 ## Cross-references
 
-- `research/outreach/darity-prereadbrief_2026-05-05.md` — pre-read brief Sandy receives in advance; contains §"On attribution" pre-priming language and the 5 priority questions.
-- `research/outreach/interview-attribution-protocol_2026-05-06.md` — reusable attribution-handling protocol; live Q0 verbal phrasing.
-- `research/outreach/interview-outreach-drafts_2026-05-01.md` candidate #2 (Darity) — outreach pipeline tracking; original cold outreach + acceptance reply.
-- `research/outreach/interview-outreach-drafts_2026-05-01.md` candidate #3 (Mullen) — warm-intro path deferred to end of Darity interview.
+- `research/outreach/subjects/darity/prereadbrief_2026-05-05.md` — pre-read brief Sandy receives in advance; contains §"On attribution" pre-priming language and the 5 priority questions.
+- `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — reusable attribution-handling protocol; live Q0 verbal phrasing.
+- `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #2 (Darity) — outreach pipeline tracking; original cold outreach + acceptance reply.
+- `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #3 (Mullen) — warm-intro path deferred to end of Darity interview.
 - `research/literature/bibliography.md` §18.5 — Hotelling / Hartwick / Solow / reparations-economics anchors (where Darity + Mullen + Hamilton-et-al sit).

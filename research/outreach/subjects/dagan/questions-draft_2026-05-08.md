@@ -1,15 +1,15 @@
 # Advance interview questions — Dagan Cohen (Programme Director, Amsterdam Donut Coalition)
 
-**Drafted:** 2026-05-06 by Claude as generic-TBD; refined into Dagan-specific question set 2026-05-08 after Beth's warm intro (received 2026-05-07) and the first-contact reply was sent (2026-05-08); **public-record screen applied 2026-05-08** using `dagan-background-brief_2026-05-08.md` findings.
+**Drafted:** 2026-05-06 by Claude as generic-TBD; refined into Dagan-specific question set 2026-05-08 after Beth's warm intro (received 2026-05-07) and the first-contact reply was sent (2026-05-08); **public-record screen applied 2026-05-08** using `research/outreach/subjects/dagan/background-brief_2026-05-08.md` findings.
 **Status:** DRAFT — deploys when/if Dagan accepts the interview ask. Question set is now public-record-screened; pre-read brief customization is the remaining downstream task.
 **Branch:** `claude/respond-to-valerie-inquiry-mV3Na`
-**Discipline:** Companion to `dagan-background-brief_2026-05-08.md` (FPD-9 second instance). Per the canonical four-artifact interview-prep stack, this is a fragment of artifact #3 (interview prep doc) + content for artifact #4 (live-call companion); both will be built out fully if Dagan accepts.
+**Discipline:** Companion to `research/outreach/subjects/dagan/background-brief_2026-05-08.md` (FPD-9 second instance). Per the canonical four-artifact interview-prep stack, this is a fragment of artifact #3 (interview prep doc) + content for artifact #4 (live-call companion); both will be built out fully if Dagan accepts.
 
 ---
 
 ## Public-record screen applied 2026-05-08
 
-Per FPD-1 extension to question-design discipline (every question pre-screened against public record before deployment): each question below has been reshaped to start *where the public record runs out*. Asking obvious questions answerable from LinkedIn / DEAL / Coalition site / public talks tanks credibility and wastes a question slot. Load-bearing findings from `dagan-background-brief_2026-05-08.md` driving the reshape:
+Per FPD-1 extension to question-design discipline (every question pre-screened against public record before deployment): each question below has been reshaped to start *where the public record runs out*. Asking obvious questions answerable from LinkedIn / DEAL / Coalition site / public talks tanks credibility and wastes a question slot. Load-bearing findings from `research/outreach/subjects/dagan/background-brief_2026-05-08.md` driving the reshape:
 
 | # | Finding | Question impact |
 |---|---|---|
@@ -30,17 +30,17 @@ Per FPD-1 extension to question-design discipline (every question pre-screened a
 
 ## Context — who Dagan is + why the question set is shaped this way
 
-**Dagan Cohen** (per `dagan-background-brief_2026-05-08.md`): Programme Director, Amsterdam Donut Coalitie (ADC); core team since December 2019 founding. Also Founder + Creative Director of **CHANGENCY** (creative agency for societal change, launched March 2024). Three career chapters: visual art / Supperclub / Rietveld Academy; 20+ years advertising creative direction (Saatchi & Saatchi, Lowe, Draftfcb); seven years at What Design Can Do (WDCD, ~2016–April 2023) running the Climate Action Challenge and Make it Circular Challenge. ADC role + CHANGENCY are mutually reinforcing — CHANGENCY is the commercial vehicle for narrative-and-design-led societal change work; ADC is the live laboratory for the methodology on Amsterdam's highest-profile civic case.
+**Dagan Cohen** (per `research/outreach/subjects/dagan/background-brief_2026-05-08.md`): Programme Director, Amsterdam Donut Coalitie (ADC); core team since December 2019 founding. Also Founder + Creative Director of **CHANGENCY** (creative agency for societal change, launched March 2024). Three career chapters: visual art / Supperclub / Rietveld Academy; 20+ years advertising creative direction (Saatchi & Saatchi, Lowe, Draftfcb); seven years at What Design Can Do (WDCD, ~2016–April 2023) running the Climate Action Challenge and Make it Circular Challenge. ADC role + CHANGENCY are mutually reinforcing — CHANGENCY is the commercial vehicle for narrative-and-design-led societal change work; ADC is the live laboratory for the methodology on Amsterdam's highest-profile civic case.
 
 His specific role at the Coalition: *making the donut narrative accessible to all Amsterdammers* (his own ADC bio language). Strategically high-value as an interview subject: his job is *literally vocabulary-translation work* — taking an economic framework and translating it into operational/civic vocabulary that gets adopted at scale. The same problem Commons Bonds is solving in a parallel domain.
 
 **The question set engages Dagan at the level his work actually operates** — narrative-building, vocabulary-translation, network-layer implementation in a Doughnut-organized city. Per FPD-10 (credibility-first question framing): the questions are axis-matched — they probe territory he has spent years thinking about, framed to acknowledge what's already on the public record rather than asking naively. Per the public-record screen above: each question starts where the public record runs out.
 
 **Cross-references:**
-- `research/outreach/dagan-background-brief_2026-05-08.md` — full FPD-9 public-record sweep informing this question set.
-- `research/outreach/response-draft_2026-05-07_dagan-via-beth.md` — the SENT first-contact email (substantive opener: complementarity-at-different-scales framing + McDowell-vs-Amsterdam contrast + water-deal teaser).
-- `research/outreach/dagan-water-deal-hypothetical_2026-05-07.md` — full step-by-step framework walkthrough; substrate for MUST-ASK Q3.
-- `research/outreach/amsterdam-donut-prereadbrief_2026-05-06.md` — applied-implementation variant template; ready to customize for Dagan if he accepts.
+- `research/outreach/subjects/dagan/background-brief_2026-05-08.md` — full FPD-9 public-record sweep informing this question set.
+- `research/outreach/subjects/dagan/response-draft_2026-05-07_via-beth.md` — the SENT first-contact email (substantive opener: complementarity-at-different-scales framing + McDowell-vs-Amsterdam contrast + water-deal teaser).
+- `research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md` — full step-by-step framework walkthrough; substrate for MUST-ASK Q3.
+- `research/outreach/_templates/amsterdam-donut-prereadbrief_2026-05-06.md` — applied-implementation variant template; ready to customize for Dagan if he accepts.
 
 ---
 
@@ -94,7 +94,7 @@ Dagan will not have read or be familiar with **Commons Bonds**. Even though the 
 
 > *"A clarifying question first: the Coalition is the network layer — citizens, businesses, knowledge institutions, neighborhoods — and the City is the municipal-policy layer where formal deal-evaluation happens. Marieke van Doorninck championed the April 2020 adoption from the deputy-mayor seat; René Koop now leads the city-side circular economy work. Suppose the City of Amsterdam were approached tomorrow with a deal that would leverage water-management infrastructure in a way that could affect crop-growing capacity — a hypothetical pulled from the framework's pricing mechanics. Doughnut would flag the affected social foundation (food security) and ecological ceiling. But evaluating it at the action level — pricing what's being foreclosed, binding the counterparty, ensuring obligations survive corporate dissolution — sits one layer past the framework's named goal-state. From your network-layer vantage: what tools does the Coalition (vs. the City) actually *use* or *push for* in moments like that? Where does the implementation currently have those tools, and where is there a gap something like a Foreclosure Bond instrument might fill?"*
 
-**Why ask:** Coalition ≠ City. Asking Dagan to comment on municipal deal-evaluation directly is off-axis (FPD-10 violation); his actual ground truth is the network layer — what the Coalition does, what advocacy it carries, what pressure it surfaces. Naming van Doorninck and Koop demonstrates we've mapped the city-side actors. The framework-fit dimension is preserved; the credibility-axis is corrected. See `dagan-water-deal-hypothetical_2026-05-07.md` for the full step-by-step framework walkthrough — internal scaffolding; don't show Dagan, but be ready to walk through any of the 7 steps if he wants to interrogate the apparatus.
+**Why ask:** Coalition ≠ City. Asking Dagan to comment on municipal deal-evaluation directly is off-axis (FPD-10 violation); his actual ground truth is the network layer — what the Coalition does, what advocacy it carries, what pressure it surfaces. Naming van Doorninck and Koop demonstrates we've mapped the city-side actors. The framework-fit dimension is preserved; the credibility-axis is corrected. See `research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md` for the full step-by-step framework walkthrough — internal scaffolding; don't show Dagan, but be ready to walk through any of the 7 steps if he wants to interrogate the apparatus.
 
 #### Q4. Framework-fit calibration — does this duplicate vocabulary you already have, or fill a gap?
 
@@ -154,10 +154,10 @@ Dagan will not have read or be familiar with **Commons Bonds**. Even though the 
 
 If Dagan accepts:
 
-1. **Customize the pre-read brief** — start from `amsterdam-donut-prereadbrief_2026-05-06.md` (applied-implementation variant template); calibrate to Dagan specifically (his narrative-translation focus; CHANGENCY background; Programme Director role; ReFan as cross-domain methodological case). Send Q2 + Q3 + Q4 + Q5 (the MUST-ASK subset) embedded in the brief.
+1. **Customize the pre-read brief** — start from `research/outreach/_templates/amsterdam-donut-prereadbrief_2026-05-06.md` (applied-implementation variant template); calibrate to Dagan specifically (his narrative-translation focus; CHANGENCY background; Programme Director role; ReFan as cross-domain methodological case). Send Q2 + Q3 + Q4 + Q5 (the MUST-ASK subset) embedded in the brief.
 2. **Q1 stays as methodology articulation** — the public-record screen confirmed his methodology is the flagged gap. Possible refinement: if his acceptance reply surfaces a specific recent project he's leading (beyond ReFan / De Klerenpartij), point Q1 at that.
 3. **Q3 customization** — if Dagan's response surfaces a *real* recent Amsterdam deal-evaluation moment (not just the hypothetical), pivot Q3 to that real case if he's willing to discuss it. Real cases beat hypotheticals.
-4. **Live-call companion** — build using the Sandy-Darity live-call companion structure (`darity-live-call-companion_2026-05-06.md` + `.html`) as template per the canonical four-artifact stack §"Live-call companion canonical structure." 12 components: header / must-knows / opening / priority Qs with push-probes / follow-ups / pivot articulations (lineage canonical articulations + Dagan-specific: design-fiction pivot, narrative-translation-as-framework-success pivot, Coalition-vs-City pivot) / contingency / closing / final-2-min / Three Tiers / post-call workflow / glossary calibrated to Dagan's vocabulary-translation specialty (donut Coalition register vs. DEAL/academic register; CHANGENCY methodology vocabulary).
+4. **Live-call companion** — build using the Sandy-Darity live-call companion structure (`research/outreach/subjects/darity/live-call-companion_2026-05-06.md` + `.html`) as template per the canonical four-artifact stack §"Live-call companion canonical structure." 12 components: header / must-knows / opening / priority Qs with push-probes / follow-ups / pivot articulations (lineage canonical articulations + Dagan-specific: design-fiction pivot, narrative-translation-as-framework-success pivot, Coalition-vs-City pivot) / contingency / closing / final-2-min / Three Tiers / post-call workflow / glossary calibrated to Dagan's vocabulary-translation specialty (donut Coalition register vs. DEAL/academic register; CHANGENCY methodology vocabulary).
 
 ---
 

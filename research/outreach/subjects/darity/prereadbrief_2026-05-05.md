@@ -38,4 +38,4 @@ I'd like to quote you in the book and in any derivative essays (a *Noema*-track 
 
 ---
 
-*Author / Claude internal note (not sent to Darity): this section is the pre-interview comms half of the attribution-handling discipline; the live-interview Q0 (asked verbally at the start of the call) is the second half. Reusable protocol at `research/outreach/interview-attribution-protocol_2026-05-06.md`. Live Q0 verbal phrasing in the protocol's §"Live interview" section.*
+*Author / Claude internal note (not sent to Darity): this section is the pre-interview comms half of the attribution-handling discipline; the live-interview Q0 (asked verbally at the start of the call) is the second half. Reusable protocol at `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md`. Live Q0 verbal phrasing in the protocol's §"Live interview" section.*

@@ -94,4 +94,4 @@ The central claim is that the framework is universal — a pricing framework fir
 - `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn.md` — Version A (canonical file; full metadata, bio, AI disclosure, cross-references)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md` — title rigor pass (title applies to both versions)
 - `research/literature/bibliography.md` §21 — Black literary tradition citations (cultural-engagement commitment)
-- `research/outreach/darity-live-call-companion_2026-05-06.md` — mask-question pivot prepared (applies regardless of version)
+- `research/outreach/subjects/darity/live-call-companion_2026-05-06.md` — mask-question pivot prepared (applies regardless of version)

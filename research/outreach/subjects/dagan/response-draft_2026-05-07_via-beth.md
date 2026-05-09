@@ -79,7 +79,7 @@ These would land in a future pre-read brief or live-call companion if Dagan acce
 
 1. **McDowell-vs-Amsterdam contrast + imported cost severance.** *"McDowell County, West Virginia is the framework's textbook case of direct cost severance — coal extracted, value flowed out, costs stayed (black lung, environmental devastation, generational poverty). Amsterdam is on the opposite end — explicitly aiming to prevent cost severance via Doughnut adoption. In your implementation experience, where does the Doughnut framework actually catch cost severance moments at the action level? Where does it miss them — particularly the imported / upstream kind from extraction zones outside the city's borders?"*
 
-2. **The water-deal hypothetical (Foreclosure Bond as deal-evaluation tool).** *"Suppose Amsterdam is approached with a proposed deal that would leverage water-management infrastructure in a way that could impair crop-growing capacity. Doughnut would flag that this affects the social foundation (food security) and potentially the ecological ceiling. What tools does Doughnut give you to actually evaluate the deal at the action level — to price what's being foreclosed, to bind the counterparty to that price, to ensure obligations survive corporate dissolution? Where does the implementation currently have those tools, and where does it have a gap that something like a Foreclosure Bond instrument might fill?"* See `dagan-water-deal-hypothetical_2026-05-07.md` for full step-by-step framework walkthrough.
+2. **The water-deal hypothetical (Foreclosure Bond as deal-evaluation tool).** *"Suppose Amsterdam is approached with a proposed deal that would leverage water-management infrastructure in a way that could impair crop-growing capacity. Doughnut would flag that this affects the social foundation (food security) and potentially the ecological ceiling. What tools does Doughnut give you to actually evaluate the deal at the action level — to price what's being foreclosed, to bind the counterparty to that price, to ensure obligations survive corporate dissolution? Where does the implementation currently have those tools, and where does it have a gap that something like a Foreclosure Bond instrument might fill?"* See `research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md` for full step-by-step framework walkthrough.
 
 3. **Framework-fit calibration.** *"The framework I'm developing — cost severance as the structural mechanism, RCV as what gets foreclosed, Foreclosure Bond as the action-level pricing instrument — sits at a different scale than Doughnut. From your vantage, does it fill an action-level accountability gap your implementation has been working around, or does it duplicate vocabulary you already have?"*
 
@@ -104,7 +104,7 @@ These would land in a future pre-read brief or live-call companion if Dagan acce
 Sent 2026-05-08. Pending:
 
 1. ✅ Status updated DRAFT → SENT (this file).
-2. ✅ Updated outreach pipeline / candidate-list tracking (`interview-outreach-drafts_2026-05-01.md` candidate #4) with 2026-05-07 Beth-warm-intro receipt + 2026-05-08 Dagan reply SENT.
+2. ✅ Updated outreach pipeline / candidate-list tracking (`research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #4) with 2026-05-07 Beth-warm-intro receipt + 2026-05-08 Dagan reply SENT.
 3. 🔲 Stand by for Dagan's response — likely acceptance/scheduling, decline, or referral to another team member.
 4. 🔲 If Dagan accepts: draft pre-read brief using the applied-implementation variant from FPD canonical framework one-paragraph + the priority questions above; stash live-call companion using the canonical structure.
 5. 🔲 If Dagan declines: thank him; ask if there's another team member who'd be a better fit; close the loop with Beth.
@@ -117,8 +117,8 @@ Not canonicalizing as an FPD discipline yet — single-instance miss; no pattern
 
 ## Cross-references
 
-- `research/outreach/interview-outreach-drafts_2026-05-01.md` candidate #4 (Raworth track) — Beth's warm-intro thread; Dagan introduction logged there.
-- `research/outreach/dagan-water-deal-hypothetical_2026-05-07.md` — full step-by-step framework walkthrough of the water-deal hypothetical; substrate for priority question #2.
-- `research/outreach/amsterdam-donut-prereadbrief_2026-05-06.md` — applied-implementation variant template; ready to customize for Dagan if he accepts.
+- `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` candidate #4 (Raworth track) — Beth's warm-intro thread; Dagan introduction logged there.
+- `research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md` — full step-by-step framework walkthrough of the water-deal hypothetical; substrate for priority question #2.
+- `research/outreach/_templates/amsterdam-donut-prereadbrief_2026-05-06.md` — applied-implementation variant template; ready to customize for Dagan if he accepts.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Canonical framework articulations" → Raworth / Doughnut Economics — the canonical articulation this email's paragraph 3 derives from.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Canonical framework one-paragraph summary" → applied-implementation variant — the variant pattern this email follows.

@@ -3,9 +3,9 @@
 **Created:** 2026-05-08 by Claude (research-agent dispatch + synthesis) per author direction.
 **For:** Author preparation ahead of the Dagan Cohen interview (gated on acceptance — first-contact email **SENT 2026-05-08** via Beth Ingledew's warm-intro thread; awaiting reply).
 **NOT sent to Dagan.**
-**Status:** READY for author review + absorption. Pairs with the priority-questions draft (`questions-draft_2026-05-08_dagan-cohen.md`), the worked-example walkthrough (`dagan-water-deal-hypothetical_2026-05-07.md`), and the customizable pre-read brief (`amsterdam-donut-prereadbrief_2026-05-06.md`).
+**Status:** READY for author review + absorption. Pairs with the priority-questions draft (`research/outreach/subjects/dagan/questions-draft_2026-05-08.md`), the worked-example walkthrough (`research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md`), and the customizable pre-read brief (`research/outreach/_templates/amsterdam-donut-prereadbrief_2026-05-06.md`).
 **Branch:** `claude/respond-to-valerie-inquiry-mV3Na`
-**Discipline:** Second instance of FPD-9 (Substantive background brief) per `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-9. Models structure on the Darity brief (`darity-background-brief_2026-05-06.md`).
+**Discipline:** Second instance of FPD-9 (Substantive background brief) per `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-9. Models structure on the Darity brief (`research/outreach/subjects/darity/background-brief_2026-05-06.md`).
 **Public-record sweep date:** 2026-05-08 (note: WebFetch was 403-blocked across LinkedIn / DEAL / Jacobin / Time / OUP throughout this sweep; the brief is therefore built from WebSearch summaries rather than direct primary-document scrapes. Note this when judging confidence on specific quotes; institutional facts cross-confirmed across multiple secondary summaries.)
 
 ---
@@ -191,7 +191,7 @@ Public-record search 2026-05-08 surfaced no Dagan podcast appearances, no TEDx t
 ## 9. Where the framework intersects Dagan's work
 
 **Foreclosure Bond (forward-looking) — strongest intersection.**
-The water-deal hypothetical (`dagan-water-deal-hypothetical_2026-05-07.md`) is the worked example of where Commons Bonds' forward-looking action-level instrument fits inside an Amsterdam-Doughnut implementation. The framework supplies what the four-lens methodology *names but doesn't operationalize* — particularly on the **Global-Social** and **Global-Ecological** lenses, where Amsterdam can stay inside its local foundation/ceiling while still importing cost severance through critical-raw-materials supply chains, food imports, construction-input extraction, and battery-material upstream extraction. The Coalition's published material acknowledges the imported dependency (the Circular Strategy itself names CRM dependence) but doesn't translate it into a binding action-level instrument. **The Foreclosure Bond is structurally the missing tool.**
+The water-deal hypothetical (`research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md`) is the worked example of where Commons Bonds' forward-looking action-level instrument fits inside an Amsterdam-Doughnut implementation. The framework supplies what the four-lens methodology *names but doesn't operationalize* — particularly on the **Global-Social** and **Global-Ecological** lenses, where Amsterdam can stay inside its local foundation/ceiling while still importing cost severance through critical-raw-materials supply chains, food imports, construction-input extraction, and battery-material upstream extraction. The Coalition's published material acknowledges the imported dependency (the Circular Strategy itself names CRM dependence) but doesn't translate it into a binding action-level instrument. **The Foreclosure Bond is structurally the missing tool.**
 
 **Restitution Bond (backward-looking) — weaker intersection.**
 The Coalition's work is forward-looking by design (transition, breakthrough, regeneration); the backward-looking accountability instrument has less obvious purchase in Dagan's day-to-day. Possible angles: (a) Amsterdam's colonial past and the wealth basis of contemporary circularity capacity (Dutch East India Company / VOC heritage); (b) historical extractive relationships with present-day supplier regions. Public-record sweep 2026-05-08 did not surface Coalition material directly engaging this angle. **Probably best to leave on the shelf for the live interview unless Dagan opens the door.**
@@ -346,11 +346,11 @@ Either outcome is a good outcome. The framework's intellectual honesty depends o
 
 ## Cross-references
 
-- `research/outreach/response-draft_2026-05-07_dagan-via-beth.md` — the SENT first-contact email (substantive opener: complementarity-at-different-scales framing + McDowell-vs-Amsterdam contrast + water-deal teaser question).
-- `research/outreach/dagan-water-deal-hypothetical_2026-05-07.md` — full step-by-step framework walkthrough of the water-deal hypothetical; substrate for MUST-ASK Q3.
-- `research/outreach/questions-draft_2026-05-08_dagan-cohen.md` — full priority-questions draft (4 MUST-ASK + 3 SHOULD-ASK + 1 STRETCH + Q0/Q1/Q10).
-- `research/outreach/amsterdam-donut-prereadbrief_2026-05-06.md` — applied-implementation pre-read brief template; ready to customize for Dagan if he accepts.
-- `research/outreach/darity-background-brief_2026-05-06.md` — first instance of FPD-9; this brief models its structure.
-- `research/outreach/interview-attribution-protocol_2026-05-06.md` — Q0 attribution-preference protocol.
+- `research/outreach/subjects/dagan/response-draft_2026-05-07_via-beth.md` — the SENT first-contact email (substantive opener: complementarity-at-different-scales framing + McDowell-vs-Amsterdam contrast + water-deal teaser question).
+- `research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md` — full step-by-step framework walkthrough of the water-deal hypothetical; substrate for MUST-ASK Q3.
+- `research/outreach/subjects/dagan/questions-draft_2026-05-08.md` — full priority-questions draft (4 MUST-ASK + 3 SHOULD-ASK + 1 STRETCH + Q0/Q1/Q10).
+- `research/outreach/_templates/amsterdam-donut-prereadbrief_2026-05-06.md` — applied-implementation pre-read brief template; ready to customize for Dagan if he accepts.
+- `research/outreach/subjects/darity/background-brief_2026-05-06.md` — first instance of FPD-9; this brief models its structure.
+- `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — Q0 attribution-preference protocol.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §FPD-9 — the discipline this brief instantiates.
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` §"Canonical framework articulations" → Raworth / Doughnut Economics — the canonical articulation this brief operationalizes.

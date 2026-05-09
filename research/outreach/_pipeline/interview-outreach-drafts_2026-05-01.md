@@ -57,10 +57,10 @@ Body:
 **Author confirmation reply SENT 2026-05-06:** *"Dear Sandy, Thank you — May 12 at 2 PM ET works perfectly. My number is (912) 944-7217. I'll send a brief pre-read ahead of the call. All best, Chris"*.
 
 **Interview prep pipeline:**
-- Pre-read brief (`darity-prereadbrief_2026-05-05.md`): READY TO SEND today (2026-05-06) as separate email from confirmation reply.
+- Pre-read brief (`research/outreach/subjects/darity/prereadbrief_2026-05-05.md`): READY TO SEND today (2026-05-06) as separate email from confirmation reply.
 - Reconfirmation reply: planned ~5 PM ET on Monday 2026-05-11 (night before the call); sent as a reply to the pre-read brief thread to re-surface the brief at the top of Sandy's inbox. Two-sentence format: warm acknowledgment + reconfirms time. Pattern candidate for FPD generalization (single instance for now; promote if pattern recurs across other interviews).
-- Internal interview prep doc (`darity-interview-prep_2026-05-06.md`): READY for author absorption + live-call use.
-- Substantive background brief (`darity-background-brief_2026-05-06.md`): READY for morning-of refresh.
+- Internal interview prep doc (`research/outreach/subjects/darity/interview-prep_2026-05-06.md`): READY for author absorption + live-call use.
+- Substantive background brief (`research/outreach/subjects/darity/background-brief_2026-05-06.md`): READY for morning-of refresh.
 
 **Email address (verify):** Likely `william.darity@duke.edu` per Duke public directory; verify on Sanford School page.
 
@@ -92,7 +92,7 @@ Body:
 > With appreciation,
 > Chris Winn
 
-**Pre-read brief drafted:** [`darity-prereadbrief_2026-05-05.md`](darity-prereadbrief_2026-05-05.md) — one-page brief (framework summary + citation-location pointers + 5 questions) ready to send once Sandy locks in a date.
+**Pre-read brief drafted:** [`research/outreach/subjects/darity/prereadbrief_2026-05-05.md`](research/outreach/subjects/darity/prereadbrief_2026-05-05.md) — one-page brief (framework summary + citation-location pointers + 5 questions) ready to send once Sandy locks in a date.
 
 ---
 
@@ -188,7 +188,7 @@ Body:
 
 **Read on Dagan:** Per public-record screen 2026-05-07, Dagan's role at the Amsterdam Donut Coalition is specifically *developing the shared narrative* — telling the Doughnut Economics story so Amsterdam citizens can imagine the city as a "donut city." Strategically high-value: his job is *literally vocabulary-translation work* — taking an economic framework and translating it into operational/civic vocabulary that gets adopted at scale. Same problem the Commons Bonds project is solving in a parallel domain.
 
-**Author response to Dagan — SENT 2026-05-08:** First-contact email drafted and sent via the existing thread (Beth on copy). See full draft + decision-point capture in `research/outreach/response-draft_2026-05-07_dagan-via-beth.md`. Key disciplines applied: McDowell-vs-Amsterdam contrast (cost severance failure case vs. cost-severance-prevention aspiration); water-deal hypothetical as concrete entering question (substantive engagement with Dagan's actual implementation work); complementarity-at-different-scales framing (Doughnut = goal-state; Commons Bonds = action-level pricing instrument); FPD-2 placement-by-recipient-register refinement (warm-intro register → AI disclosure as P.S. rather than body paragraph); FPD-4 register match ("Hi Dagan" matches Beth's "Hi Chris" warm-intro register).
+**Author response to Dagan — SENT 2026-05-08:** First-contact email drafted and sent via the existing thread (Beth on copy). See full draft + decision-point capture in `research/outreach/subjects/dagan/response-draft_2026-05-07_via-beth.md`. Key disciplines applied: McDowell-vs-Amsterdam contrast (cost severance failure case vs. cost-severance-prevention aspiration); water-deal hypothetical as concrete entering question (substantive engagement with Dagan's actual implementation work); complementarity-at-different-scales framing (Doughnut = goal-state; Commons Bonds = action-level pricing instrument); FPD-2 placement-by-recipient-register refinement (warm-intro register → AI disclosure as P.S. rather than body paragraph); FPD-4 register match ("Hi Dagan" matches Beth's "Hi Chris" warm-intro register).
 
 **Send-timing miss flagged:** Sent Friday evening post-EOD CET — author noted the timing as suboptimal (recipient likely already off for the weekend). Logged as a single-instance miss for now, not yet canonicalized as an FPD timing-discipline. If a second timing miss surfaces, promote.
 

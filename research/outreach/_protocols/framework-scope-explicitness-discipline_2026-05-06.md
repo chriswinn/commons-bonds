@@ -65,9 +65,9 @@ This distinction matters because:
 | File | Issue | Status |
 |---|---|---|
 | `research/literature/bibliography.md` Ostrom entry | Listed only non-renewable examples | ✓ FIXED 2026-05-06 (both regimes named explicitly with example pairs) |
-| `research/outreach/darity-prereadbrief_2026-05-05.md` framework paragraph | RCV defined only for non-renewable | ✓ FIXED 2026-05-06 (RCV definition expanded to both regimes; accounting-equation thesis sentence expanded) |
-| `research/outreach/amsterdam-donut-prereadbrief_2026-05-06.md` framework paragraph | RCV defined only for non-renewable | ✓ FIXED 2026-05-06 (RCV definition expanded to both regimes) |
-| `research/outreach/darity-interview-prep_2026-05-06.md` follow-up Q6 | RCV phrasing mismatch with corrected pre-read | ✓ FIXED 2026-05-06 |
+| `research/outreach/subjects/darity/prereadbrief_2026-05-05.md` framework paragraph | RCV defined only for non-renewable | ✓ FIXED 2026-05-06 (RCV definition expanded to both regimes; accounting-equation thesis sentence expanded) |
+| `research/outreach/_templates/amsterdam-donut-prereadbrief_2026-05-06.md` framework paragraph | RCV defined only for non-renewable | ✓ FIXED 2026-05-06 (RCV definition expanded to both regimes) |
+| `research/outreach/subjects/darity/interview-prep_2026-05-06.md` follow-up Q6 | RCV phrasing mismatch with corrected pre-read | ✓ FIXED 2026-05-06 |
 | `research/case-studies/chesapeake-fisheries.md` | Treats renewable-past-regen as a *boundary test* of a non-renewable formula, rather than a co-equal case the framework was built to cover. Pre-Path-F framing. | ⏳ Deferred to broader manuscript review session — flagged for treatment when chesapeake case study is developed past placeholder. |
 | `core/technical-appendix/TechnicalAppendix_v1.0.0.html` (formal apparatus) | Worth a separate scope-explicitness review pass | ⏳ Deferred to v2.0.0 rebuild (already queued per AGENTS.md current state) |
 | `core/glossary/commons_bonds_updated_glossary_v3.html` (RCV / cost-severance entries) | Worth a separate scope-explicitness review pass | ⏳ Deferred to v4 rebuild (already queued) |
@@ -76,8 +76,8 @@ This distinction matters because:
 
 ## Cross-references
 
-- `research/outreach/interview-attribution-protocol_2026-05-06.md` — sibling discipline document; same family (reusable pipeline disciplines captured during outreach work).
-- Forwardability criterion (captured 2026-05-06 in `research/outreach/response-draft_2026-05-06_moore-via-sherfinski.md` §"Forwardability design criterion") — same underlying principle (don't make readers do interpretive work).
+- `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — sibling discipline document; same family (reusable pipeline disciplines captured during outreach work).
+- Forwardability criterion (captured 2026-05-06 in `research/outreach/subjects/moore/response-draft_2026-05-06_via-sherfinski.md` §"Forwardability design criterion") — same underlying principle (don't make readers do interpretive work).
 - `alignment/commons_bonds_working_principles_v1.0.0.md` — canonical working principles; this discipline is a candidate for promotion to that document if it earns the slot.
 - `alignment/commons_bonds_vocabulary_strategy_v1.0.1.md` — canonical vocabulary strategy; the scope-explicitness discipline applies most directly to the framework's vocabulary positioning.
 - `tools/commons_bonds_book_scope_v1_0_3.md` — book scope canonical; should reflect the both-regimes-co-equal framing.

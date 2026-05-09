@@ -8,7 +8,7 @@
 
 ## Context
 
-- **Original outreach:** sent 2026-05-05 at 9:00 AM ET (recipient-timezone) to Dr. Allison Colden (CBF Maryland Executive Director) per `interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §18. Three other Ch 3 fieldwork emails dispatched in the same 9:00 AM recipient-timezone window: Rom Lipcius (VIMS), Roger Mann (VIMS), Chris Moore (CBF Virginia).
+- **Original outreach:** sent 2026-05-05 at 9:00 AM ET (recipient-timezone) to Dr. Allison Colden (CBF Maryland Executive Director) per `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §18. Three other Ch 3 fieldwork emails dispatched in the same 9:00 AM recipient-timezone window: Rom Lipcius (VIMS), Roger Mann (VIMS), Chris Moore (CBF Virginia).
 - **Reply received same day** (2026-05-05) from Valerie ("Val") DiMarzio, who coordinates Allison's speaking and media interviews. Same-day reply on a Tuesday cold-outreach is a strong engagement signal — the four-question screen is a yes-conditional-on-fit, not a soft decline.
 - **Val's role:** Maryland Communications & Media Relations Manager, Chesapeake Bay Foundation. Email: `vdimarzio@cbf.org`. Cell: 215-900-5719. Pronouns: she/her.
 - **Val's reply (verbatim):**
@@ -73,7 +73,7 @@
 
 ### Still open
 
-1. **If Val accepts the offer of advance questions.** RESOLVED to ready-state: 7-question batch stashed at [`questions-draft_2026-05-05_colden-if-val-accepts.md`](questions-draft_2026-05-05_colden-if-val-accepts.md), send-trigger conditions documented. Author review of the question batch still open (reorder, trim Q6, RCV mention) — non-blocking for sending the response itself.
+1. **If Val accepts the offer of advance questions.** RESOLVED to ready-state: 7-question batch stashed at [`research/outreach/subjects/colden/questions-draft_2026-05-05_if-val-accepts.md`](research/outreach/subjects/colden/questions-draft_2026-05-05_if-val-accepts.md), send-trigger conditions documented. Author review of the question batch still open (reorder, trim Q6, RCV mention) — non-blocking for sending the response itself.
 
 2. **Whether to add Colden as a third Noema §V anchor — GATED on interview outcome.** Author confirmed 2026-05-05: this decision cannot be made until we know whether the Colden interview proceeds. Per `manuscript/essay/Noema/rewrite-plan_2026-05-01.md`, current ratified anchors for the rewrite are Mazzucato + Darity Jr.; Colden would be a third voice grounding the accountability-failure pattern in a renewable-resource case. Weight if added: ~150-250 words in Section V (5-7% of essay). Sequencing: revisit only after interview-outcome state is known (interview-confirmed, interview-declined, or no-response → soft decline).
 
@@ -90,6 +90,6 @@
 
 - [ ] Author reviews + edits draft
 - [ ] Send via Gmail (manual, or via MCP `create_draft` if author wants a pre-staged Gmail draft to review in the Gmail UI before sending)
-- [ ] Update `interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §18 with status note (mirroring Raworth-decline pattern at §4 of the 2026-05-01 file): e.g., "**RESPONSE RECEIVED 2026-05-05** via Val DiMarzio (CBF Maryland Communications). Four-question screen; reply drafted at `response-draft_2026-05-05_colden-via-dimarzio.md` and sent [date]."
+- [ ] Update `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §18 with status note (mirroring Raworth-decline pattern at §4 of the 2026-05-01 file): e.g., "**RESPONSE RECEIVED 2026-05-05** via Val DiMarzio (CBF Maryland Communications). Four-question screen; reply drafted at `research/outreach/subjects/colden/response-draft_2026-05-05_via-dimarzio.md` and sent [date]."
 - [ ] Apply Gmail label `Arkives/ReOrg/3-WaitingOn/Write-a-book/InterviewOutreach` to the thread
 - [ ] If Val responds with watermen introductions: log them as new outreach candidates in a fresh draft file
