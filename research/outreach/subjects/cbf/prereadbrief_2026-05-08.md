@@ -3,7 +3,7 @@
 **For:** [Recipient name TBD] · [Title TBD] · Chesapeake Bay Foundation
 **From:** Chris Winn · author, *Commons Bonds* (forthcoming book + Noema-bound essay)
 **Sent ahead of:** [interview date — TBD]
-**Length cap:** one page (~480 words). Designed to be readable in three minutes on a phone.
+**Length cap:** one page (~440 words). Designed to be readable in three minutes on a phone. (Pre-customization template runs longer; trimmed per recipient before sending.)
 
 **Status:** TEMPLATE — recipient-flexible. Customize the §"Where your work informs Ch 3" framing per recipient register (see *Author/Claude internal note* at bottom for staff-specific calibration). Live Q0 attribution per `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md`.
 
