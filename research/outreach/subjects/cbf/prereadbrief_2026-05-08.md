@@ -3,7 +3,7 @@
 **For:** [Recipient name TBD] · [Title TBD] · Chesapeake Bay Foundation
 **From:** Chris Winn · author, *Commons Bonds* (forthcoming book + Noema-bound essay)
 **Sent ahead of:** [interview date — TBD]
-**Length cap:** one page (~440 words). Designed to be readable in three minutes on a phone.
+**Length cap:** one page (~480 words). Designed to be readable in three minutes on a phone.
 
 **Status:** TEMPLATE — recipient-flexible. Customize the §"Where your work informs Ch 3" framing per recipient register (see *Author/Claude internal note* at bottom for staff-specific calibration). Live Q0 attribution per `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md`.
 
@@ -11,22 +11,22 @@
 
 ## The framework, in one paragraph
 
-*Commons Bonds* names a structural mechanism — *cost severance* — that separates extracted value from the costs of producing it, transferring those costs to people, ecosystems, and futures who didn't capture the upside. The framework's interest is structural rather than ideological: the same mechanism shows up across many economic systems, which means the question isn't "which economic system" but "what makes accountability bind." Two contributions. **Cost severance** names what the mechanism does. **Residual commons value (RCV)** names what it costs — the worth permanently foreclosed when a non-renewable resource is drawn down, *or when a renewable resource is pushed past regenerative capacity*. The Chesapeake — striped bass, oysters, menhaden, blue crab — is the framework's flagship case for the renewable-past-regeneration regime: a fishery that recovered once, and the question of whether the prior recovery dynamic is still available given climate, habitat, and stressor-stack changes.
+*Commons Bonds* names a structural mechanism — *cost severance* — that separates extracted value from the costs of producing it, transferring those costs to people, ecosystems, and futures who didn't capture the upside. The framework's interest is structural rather than ideological: the same mechanism shows up across many economic systems, so the question isn't "which system" but "what makes accountability bind." Two contributions. **Cost severance** names the mechanism. **Residual commons value (RCV)** names what it costs — the worth permanently foreclosed when a non-renewable resource is drawn down, *or when a renewable resource is pushed past regenerative capacity*. The Chesapeake — striped bass, oysters, menhaden, blue crab — is the framework's flagship case for the renewable-past-regeneration regime: a fishery that recovered once, and the question of whether the prior recovery dynamic is still available given climate, habitat, and stressor-stack changes.
 
 ## Where your work informs Chapter 3
 
-Chapter 3 ("Watermen / Chesapeake fishery") is the book's load-bearing case for *renewable-past-regeneration* and for what the book calls *regulatory architecture lagging the science* — a recurring pattern where the management unit (e.g., Bay caps based on historic landings; coastwide ERPs in place of Bay-specific assessment) generates decisions that don't keep up with the biology the science is showing. CBF's voice across stripers, oysters, menhaden, and blue crab — and CBF's deep working-waterfront network from Port Isobel to Smith Island to the Northern Neck — is the institutional backbone of the chapter. Your specific seat within that work is what I'd most value learning from.
+Chapter 3 is the book's load-bearing case for *renewable-past-regeneration* and for what the book calls *regulatory architecture lagging the science* — where the management unit (Bay caps from historic landings; coastwide ERPs in place of Bay-specific assessment) doesn't keep up with the biology the science is showing. CBF's voice across stripers, oysters, menhaden, and blue crab — and CBF's working-waterfront network from Port Isobel to Smith Island to the Northern Neck — is the institutional backbone of the chapter. Your seat within that work is what I'd most value learning from.
 
 ## What this conversation is for
 
-The book's success criterion is **vocabulary adoption** — its terms (*cost severance*, *RCV*, *Restitution Bond*, *Foreclosure Bond*) becoming useful where accountability work actually happens. This conversation is primarily a vocabulary calibration: where does the framework's language describe what your work already names under different vocabulary, where does it overreach, and where does it miss something Bay-specific? Pushback on framework terms is more valuable than confirmation; "this language doesn't quite fit because..." is the highest-leverage thing you can give me, because it's what the manuscript can revise before publication.
+The book's success criterion is **vocabulary adoption** — its terms (*cost severance*, *RCV*) becoming useful where accountability work actually happens. This conversation is primarily a vocabulary calibration: where does the framework's language describe what your work already names under different vocabulary, where does it overreach, and where does it miss something Bay-specific? Pushback on framework terms is more valuable than confirmation; "this language doesn't quite fit because..." is the highest-leverage thing you can give me — it's what the manuscript can revise before publication.
 
 ## Questions I'd most value your view on
 
-1. **Renewable-past-regeneration on the Bay.** Across stripers, oysters, menhaden, and blue crab — where, in your experience, has the prior recovery dynamic clearly stopped being available, where is it still available, and what's the structural difference?
-2. **Regulatory architecture vs. the biology.** Where have you seen the management unit (Bay cap from historic landings; coastwide modeling; sanctuary-vs.-public-fishery boundaries; ASMFC deferrals) most clearly fail to match the biological unit the science is describing?
-3. **Cost-bearing today.** The 2026 oyster paradox — population recovering, watermen suffering — is one articulation of a structural mismatch. Where else on the Bay does that pattern repeat, in your view?
-4. **Generations.** When you talk about *future generations* of the fishery, what specifically do you mean has been lost or is at risk of being lost, that prior cycles didn't lose?
+1. **Renewable-past-regeneration on the Bay.** Across stripers, oysters, menhaden, and blue crab — where has the prior recovery dynamic clearly stopped being available, where is it still available, and what's the structural difference?
+2. **Regulatory architecture vs. the biology.** Where has the management unit — Bay cap from historic landings, coastwide modeling, sanctuary boundaries, ASMFC deferrals — most clearly failed to match the biological unit the science is describing?
+3. **Cost-bearing today.** The 2026 oyster paradox — population recovering, watermen suffering — is one articulation of a structural mismatch. Where else on the Bay does that pattern repeat?
+4. **Generations.** When you talk about *future generations* of the fishery, what specifically has been lost or is at risk of being lost, that prior cycles didn't lose?
 5. **Voices the chapter needs.** Beyond your own, whose voice — watermen, restoration crews, captains, retired institutional memory, allied scientists, partner organizations — would most strengthen the chapter?
 
 ## On attribution
