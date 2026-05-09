@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mazzucato Interview — Live-Call Companion</title>
+<style>
+:root {
+  --must-ask: #c0392b;
+  --should-ask: #d68910;
+  --stretch: #5d6d7e;
+  --info: #1f618d;
+  --contingency: #884ea0;
+  --bg: #fefefe;
+  --card-bg: #fafafa;
+  --text: #1a1a1a;
+  --muted: #5a6c7d;
+  --border: #d5dbdb;
+  --quote-bg: #eef3f7;
+  --highlight-bg: #fff8dc;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  margin: 0;
+  padding: 0;
+}
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 0;
+}
+/* Header */
+header.top {
+  grid-column: 1 / -1;
+  background: var(--info);
+  color: white;
+  padding: 14px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid #154360;
+}
+header.top h1 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+header.top .meta {
+  font-size: 13px;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+header.top .meta b { font-weight: 700; }
+/* Sidebar nav */
+nav.toc {
+  position: sticky;
+  top: 60px;
+  align-self: start;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+  padding: 14px 8px 14px 14px;
+  border-right: 1px solid var(--border);
+  background: var(--card-bg);
+  font-size: 13px;
+}
+nav.toc h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin: 0 0 8px 0;
+}
+nav.toc ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav.toc li { margin: 0 0 4px 0; }
+nav.toc a {
+  display: block;
+  padding: 5px 8px;
+  color: var(--text);
+  text-decoration: none;
+  border-radius: 3px;
+  border-left: 3px solid transparent;
+}
+nav.toc a:hover { background: #e8eef3; }
+nav.toc a.must { border-left-color: var(--must-ask); }
+nav.toc a.should { border-left-color: var(--should-ask); }
+nav.toc a.stretch { border-left-color: var(--stretch); }
+nav.toc a.contingency { border-left-color: var(--contingency); }
+nav.toc a.info { border-left-color: var(--info); }
+/* Main content */
+main {
+  padding: 20px 28px 60px 28px;
+  min-width: 0;
+}
+section {
+  margin-bottom: 28px;
+  scroll-margin-top: 70px;
+}
+section h2 {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--border);
+}
+section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0 6px 0;
+}
+p, ul, ol { margin: 6px 0; }
+ul, ol { padding-left: 22px; }
+li { margin: 3px 0; }
+/* Quote / drop-in language */
+blockquote {
+  margin: 8px 0;
+  padding: 10px 14px;
+  background: var(--quote-bg);
+  border-left: 4px solid var(--info);
+  font-style: italic;
+  color: #2c3e50;
+  border-radius: 0 4px 4px 0;
+}
+blockquote p:first-child { margin-top: 0; }
+blockquote p:last-child { margin-bottom: 0; }
+/* Question cards */
+.q {
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--stretch);
+  border-radius: 4px;
+  padding: 12px 14px;
+  margin: 10px 0;
+  background: var(--card-bg);
+}
+.q.must { border-left-color: var(--must-ask); background: #fdf2f0; }
+.q.should { border-left-color: var(--should-ask); background: #fef6e7; }
+.q.stretch { border-left-color: var(--stretch); background: var(--card-bg); }
+.q .label {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 7px;
+  border-radius: 3px;
+  margin-right: 6px;
+  color: white;
+}
+.q.must .label { background: var(--must-ask); }
+.q.should .label { background: var(--should-ask); }
+.q.stretch .label { background: var(--stretch); }
+.q h3 {
+  display: inline;
+  font-size: 15px;
+  font-weight: 600;
+}
+.q .talking { font-size: 13px; color: var(--muted); margin-top: 8px; }
+.q .talking strong { color: var(--text); }
+/* Must-knows alert */
+.alert {
+  background: var(--highlight-bg);
+  border: 1px solid #d4a017;
+  border-left: 5px solid #d4a017;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin: 10px 0;
+}
+.alert ul { margin: 4px 0; padding-left: 20px; }
+.alert li { margin: 4px 0; }
+/* Cheatsheet boxes */
+.cheatsheet {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 10px 0;
+}
+.cheatsheet .box {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 10px 12px;
+  background: var(--card-bg);
+}
+.cheatsheet h4 {
+  font-size: 13px;
+  margin: 0 0 6px 0;
+  color: var(--info);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.cheatsheet ol, .cheatsheet ul { margin: 4px 0; padding-left: 18px; font-size: 13px; }
+.cheatsheet li { margin: 3px 0; }
+/* Pivot articulations — collapsible */
+details.pivot {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin: 6px 0;
+  background: var(--card-bg);
+}
+details.pivot.high-stakes {
+  border-color: var(--must-ask);
+  border-width: 2px;
+}
+details.pivot summary {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  user-select: none;
+  list-style-position: inside;
+}
+details.pivot.high-stakes summary {
+  background: #fdf2f0;
+  color: var(--must-ask);
+}
+details.pivot summary::marker { color: var(--info); }
+details.pivot.high-stakes summary::marker { color: var(--must-ask); }
+details.pivot[open] summary {
+  border-bottom: 1px solid var(--border);
+  background: #f0f4f8;
+}
+details.pivot.high-stakes[open] summary {
+  background: #fdf2f0;
+}
+details.pivot .body {
+  padding: 6px 14px 12px 14px;
+}
+details.pivot .body small {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 12px;
+}
+/* Contingency section */
+section.contingency-sec {
+  border: 2px dashed var(--contingency);
+  background: #f8f0fb;
+  padding: 16px 20px;
+  border-radius: 4px;
+}
+section.contingency-sec h2 {
+  border-bottom-color: var(--contingency);
+  color: #6c3483;
+}
+.trigger {
+  display: inline-block;
+  padding: 2px 8px;
+  background: var(--contingency);
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-right: 4px;
+}
+/* Three Tiers cheatsheet */
+.tiers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 10px 0;
+}
+.tiers .tier {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 10px 12px;
+  background: var(--card-bg);
+}
+.tiers .tier.t1 { border-top: 4px solid #27ae60; }
+.tiers .tier.t2 { border-top: 4px solid var(--should-ask); }
+.tiers .tier.t3 { border-top: 4px solid var(--must-ask); }
+.tiers .tier h4 {
+  font-size: 13px;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.tiers .tier.t1 h4 { color: #27ae60; }
+.tiers .tier.t2 h4 { color: var(--should-ask); }
+.tiers .tier.t3 h4 { color: var(--must-ask); }
+.tiers .tier ul { padding-left: 16px; font-size: 12px; margin: 0; }
+.tiers .tier li { margin: 2px 0; }
+/* Checkbox list for Q0 */
+.choices {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0;
+  font-size: 14px;
+}
+.choices li { margin: 4px 0; }
+.choices input[type="checkbox"] { margin-right: 6px; }
+/* Footer note */
+.source-note {
+  font-size: 12px;
+  color: var(--muted);
+  font-style: italic;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  margin-top: 30px;
+}
+/* Glossary */
+.glossary-terms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 6px;
+  margin: 12px 0;
+}
+.glossary-terms details.term {
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--card-bg);
+}
+.glossary-terms details.term > summary {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--info);
+  user-select: none;
+  list-style-position: inside;
+}
+.glossary-terms details.term > summary::marker { color: var(--info); }
+.glossary-terms details.term[open] > summary {
+  border-bottom: 1px solid var(--border);
+  background: #f0f4f8;
+  border-radius: 3px 3px 0 0;
+}
+.glossary-terms details.term .term-body {
+  padding: 8px 12px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--text);
+}
+.glossary-intro {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 6px 0 4px 0;
+  font-style: italic;
+}
+@media (max-width: 700px) {
+  .glossary-terms { grid-template-columns: 1fr; }
+}
+@media print {
+  .glossary-terms { grid-template-columns: 1fr 1fr; }
+  .glossary-terms details.term { border: 1px solid #ccc; page-break-inside: avoid; }
+  .glossary-terms details.term[open] > summary { background: white; }
+}
+/* Responsive */
+@media (max-width: 900px) {
+  .page { grid-template-columns: 1fr; }
+  nav.toc { position: static; height: auto; border-right: none; border-bottom: 1px solid var(--border); }
+  .cheatsheet, .tiers { grid-template-columns: 1fr; }
+}
+/* Print */
+@media print {
+  header.top { position: static; }
+  nav.toc { display: none; }
+  .page { grid-template-columns: 1fr; }
+  details.pivot { page-break-inside: avoid; }
+  details.pivot[open] summary { background: white; }
+  details.pivot:not([open]) { border: none; }
+  details.pivot:not([open]) summary { padding: 4px 0; }
+  details.pivot .body { padding: 4px 0; }
+  section { page-break-inside: avoid; }
+  blockquote { page-break-inside: avoid; }
+  body { font-size: 12px; }
+  .alert { background: #f9f7e8; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>Mazzucato Interview — Live-Call Companion</h1>
+  <div class="meta">
+    <span><b>Date:</b> TBD (gated on Albrecht reply)</span>
+    <span><b>Modality:</b> TBD · phone or video</span>
+    <span><b>Duration:</b> 30–45 min</span>
+    <span><b>Author calls / joins per agreed modality</b></span>
+  </div>
+</header>
+<div class="page">
+  <nav class="toc">
+    <h2>Quick navigation</h2>
+    <ol>
+      <li><a href="#must-knows" class="info">Must-knows</a></li>
+      <li><a href="#vocab-discipline" class="info">Vocabulary cheatsheet</a></li>
+      <li><a href="#works-arc" class="info">Signature works arc</a></li>
+      <li><a href="#opening" class="info">Opening (Q0, Q0.5)</a></li>
+      <li><a href="#q1" class="must">Q1 — Cost-severance precision</a></li>
+      <li><a href="#q2" class="should">Q2 — Decomp + Mission Economy</a></li>
+      <li><a href="#q3" class="should">Q3 — Pattern 2 register</a></li>
+      <li><a href="#q4" class="must">Q4 — Bonds + financialization</a></li>
+      <li><a href="#q5" class="must">Q5 — Reading recs</a></li>
+      <li><a href="#q6" class="stretch">Q6 — RCV + common-good</a></li>
+      <li><a href="#q7" class="stretch">Q7 — Common Good Economy</a></li>
+      <li><a href="#q8" class="stretch">Q8 — Big Con + cost severance</a></li>
+      <li><a href="#q9" class="stretch">Q9 — Conditionalities + Bond</a></li>
+      <li><a href="#q10" class="stretch">Q10 — Apple/iPhone</a></li>
+      <li><a href="#pivots" class="info">Pivot articulations</a></li>
+      <li><a href="#contingency" class="contingency">Contingency plan</a></li>
+      <li><a href="#closing" class="info">Closing block</a></li>
+      <li><a href="#tiers" class="info">Three Tiers</a></li>
+      <li><a href="#post-call" class="info">Post-call workflow</a></li>
+      <li><a href="#glossary" class="info">Glossary</a></li>
+    </ol>
+  </nav>
+  <main>
+
+<!-- Mazzucato's must-knows -->
+<section id="must-knows">
+  <h2>Mazzucato's must-knows — don't walk in unaware</h2>
+  <div class="alert">
+    <ul>
+      <li><b>Adam Albrecht is the gatekeeper / EA</b> — Office of Prof. Mazzucato, UCL IIPP. Preserve his name + role in any thread; thank him verbally at opening + in writing afterward. Office: <b>11 Montague Street, London, WC1B 5BP</b>.</li>
+      <li><b>IIPP is NOT UCL Economics</b> — IIPP sits in the Bartlett (built-environment / public-policy) faculty. Say "UCL IIPP" or "the Institute for Innovation and Public Purpose," NEVER "UCL Economics."</li>
+      <li><b>Pattern 2 register positioning is load-bearing</b> — <i>Mission Economy</i> + <i>Doughnut Economics</i> are the framework's two cleanest contemporary Pattern 2 exemplars. Demonstrate by voice; lead with case-specificity (McDowell, Libby, Niger Delta) before framework-naming.</li>
+      <li><b>Financialization-pushback is the most likely friction point</b> — <i>The Big Con</i> (2023) is fresh; she's been the most prominent voice critiquing consulting + financialisation for two years. Have the <b>"Why bonds (not funds / accounts / trusts / reserves)?"</b> canonical pivot at the fingertips. <b>HIGH STAKES.</b></li>
+      <li><b>Apple/iPhone cite is contested</b> — most-attacked single empirical claim in her work. <b>Don't proactively raise it.</b> If she does, follow her framing; cite <i>Entrepreneurial State</i>'s argument <i>structure</i>, not the component-by-component attribution.</li>
+      <li><b><i>Common Good Economy</i> (June 2026 UK / Sept 2026 US) is the freshest item on her desk</b> — she's in active book-completion / promotion mode. Show awareness; position framework as operationalisation-layer for common-good market-shaping.</li>
+      <li><b>Global Council for a Common Good Economy launched April 2026 in Barcelona</b> with Spanish Deputy PM Carlos Cuerpo — current institutional vehicle.</li>
+      <li><b>2025 CBE</b> — formally <b>Professor Mariana Mazzucato CBE</b> in printed reference; "Professor Mazzucato" verbal is fine.</li>
+      <li><b>Live govt roles:</b> G20 South Africa (Special Presidential Representative under Ramaphosa); G20 Brazil (Lula); UK Labour "five missions"; Scottish Council; SA Presidential Economic Advisory Council; HLAB. Awareness signals current-political-economy fluency.</li>
+      <li><b>IIPP inner circle for closing-block network mapping:</b> Carlota Perez, Rainer Kattel, Josh Ryan-Collins, Caetano Penna, Rosie Collington, Sarah Doyle.</li>
+      <li><b>Don't enter:</b> Pontifical Academy / Catholic-press controversy (atheist; pro-choice; framework gains nothing here).</li>
+      <li><b>Don't look like consulting</b> — no "deliverables," "engagement," "stakeholder optimisation," "best practice frameworks." Independent-thinker, threaded-demonstration register only.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Vocabulary cheatsheet -->
+<section id="vocab-discipline">
+  <h2>Vocabulary discipline cheatsheet</h2>
+  <div class="cheatsheet">
+    <div class="box">
+      <h4>Mazzucato's signature vocabulary (don't flatten)</h4>
+      <ul>
+        <li><b>Value extraction</b> — rent-seeking masquerading as value-creation. Distinct from <i>rent</i> (category) and <i>financialisation</i> (master mechanism).</li>
+        <li><b>Mission-driven</b> — time-bound, measurable, market-shaping toward public-purpose. NOT corporate "mission statement."</li>
+        <li><b>Market-shaping (vs. fixing)</b> — active state-led direction-setting, not market-failure correction.</li>
+        <li><b>Patient capital</b> — long-horizon public investment willing to accept early-stage risk.</li>
+        <li><b>Digital feudalism</b> — 2019 + 2025 framing for AI / platform-rent extraction.</li>
+        <li><b>Purpose-washing</b> — performative purpose-orientation without conditional-return mechanism.</li>
+        <li><b>Conditionalities</b> — Rodrik 2023 — design-principle binding state support to public-purpose criteria.</li>
+        <li><b>Common good</b> — 2026 capstone framing. NOT "public good" (Samuelson sense).</li>
+      </ul>
+    </div>
+    <div class="box" id="works-arc">
+      <h4>Signature works arc — engage by book</h4>
+      <ul>
+        <li><b>The Entrepreneurial State (2013)</b> — public R&amp;D as upstream driver of innovation; iPhone cite contested.</li>
+        <li><b>The Value of Everything (2018)</b> — value-creation vs. value-extraction. <b>Framework's anchor cite (bibliography §13).</b></li>
+        <li><b>Mission Economy (2021)</b> — seven pillars; share-risks-AND-rewards. Market-shaping vs. fixing.</li>
+        <li><b>The Big Con (2023, w/ Collington)</b> — consulting industry as structural-extractor of public-sector capacity.</li>
+        <li><b>The Common Good Economy: A New Compass (June 2026 UK / Sept 2026 US)</b> — capstone synthesis; four principles (justice, equality, sustainability, global solidarity).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Opening -->
+<section id="opening">
+  <h2>Opening (~5 min)</h2>
+
+  <h3>Q0 — Attribution preference (FIRST thing asked)</h3>
+  <blockquote>
+    <p>"Before we get into the framework questions, I want to ask about your preferences for how I handle our conversation in print. The book and any derivative essays — there's a Noema-track essay in development — would draw on this conversation. Scholars handle attribution differently — some prefer freely-quotable answers, some prefer paraphrase + attribution unless reviewed first, others ask for full transcript review before any quoting. Whatever works for you, I'll abide by it across the book and essays. What would you prefer?"</p>
+  </blockquote>
+  <p><b>Mark her preference + log immediately:</b></p>
+  <ul class="choices">
+    <li><input type="checkbox"> Freely quotable</li>
+    <li><input type="checkbox"> Paraphrase + review-before-quote</li>
+    <li><input type="checkbox"> Full transcript review</li>
+    <li><input type="checkbox"> Off-record</li>
+  </ul>
+  <p style="font-size:13px; color:var(--muted);"><b>If recording (categories 1–3):</b> capture verbal consent at start. Test before call.</p>
+
+  <h3>Verbal acknowledgment of Albrecht (woven into opening)</h3>
+  <blockquote>
+    <p>"Before we begin — please pass on my appreciation to Adam Albrecht for routing this. I want to make sure his role in the office stays acknowledged across the conversation."</p>
+  </blockquote>
+
+  <h3>Q0.5 — Linguistic ground rules (after Q0, before Q1)</h3>
+  <blockquote>
+    <p>"Before the framework questions — your work has been very clear about precision in vocabulary, particularly around 'value extraction' as distinct from 'rent-seeking' and from 'financialisation.' My framework's <i>cost severance</i> term is positioned as a precision-add on your <i>value-extraction</i> vocabulary — not a replacement. How would you like me to handle the relationship between those terms in print so I'm not flattening <i>value-extraction</i> into something it isn't, while still naming the precision-add clearly?"</p>
+  </blockquote>
+</section>
+
+<!-- Priority questions -->
+<section id="priority">
+  <h2>Priority questions (~25–30 min) — MUST: Q1, Q4, Q5 · SHOULD: Q2, Q3</h2>
+
+  <article class="q must" id="q1">
+    <span class="label">Must-ask · load-bearing · anchor cite</span>
+    <h3>Q1 — Cost-severance precision</h3>
+    <blockquote><p>"Does <i>cost severance</i> add analytical work that <i>value-extraction</i> doesn't already do — or does it sit alongside your vocabulary without earning its keep, particularly when extended from financial-rent capture to physical-resource extraction (McDowell coal; Niger Delta oil; Libby asbestos)?"</p></blockquote>
+    <div class="talking">
+      <strong>Push if shallow:</strong> "In your usage, does <i>value-extraction</i> specify the mechanism for how costs get transferred — or does it name the diagnostic outcome (rent-seeking masquerading as value-creation) without specifying mechanism?"<br>
+      <strong>Chat-open probe:</strong> "Is there terminology you'd use for the structural mechanism by which costs get transferred — separately from the diagnostic of value-extraction itself?"<br>
+      <strong>Vocab-failure probe (most important):</strong> "What's a word in this domain you've watched someone try to introduce that didn't land — what made it fail? What's a word that did land — what made it stick?"<br>
+      <strong>Don't defend preemptively.</strong> Let her press; the precision-add claim earns more from her testing it.
+    </div>
+  </article>
+
+  <article class="q should" id="q2">
+    <span class="label">Should-ask</span>
+    <h3>Q2 — Two-instrument decomposition + Mission Economy</h3>
+    <blockquote><p>"Does the Foreclosure Bond / Restitution Bond pair read as an operationalisation layer for <i>Mission Economy</i>'s 'share risks AND rewards' pillar — i.e., deal-evaluation tools inside mission-driven public-private architecture — or as a competing apparatus that pulls in a direction your framework wouldn't take?"</p></blockquote>
+    <div class="talking">
+      <strong>Push:</strong> "<i>Mission Economy</i>'s seven pillars articulate the desideratum; the bond-form is one instrumentation. Are there other instrumentations you'd put alongside or in front of bonds?"<br>
+      <strong>Chat-open probe:</strong> "How would you characterise the relationship between the two-instrument decomposition and the seven pillars in your own terms?"<br>
+      <strong>Vocab-failure probe:</strong> "Is there terminology your field already uses for the forward / backward accountability split, where 'Restitution Bond' and 'Foreclosure Bond' compete or overlap?"
+    </div>
+  </article>
+
+  <article class="q should" id="q3">
+    <span class="label">Should-ask</span>
+    <h3>Q3 — Pattern 2 register positioning</h3>
+    <blockquote><p>"The framework deliberately refuses formula-economics / codified-methodology in favor of threaded case-demonstration. Is that the right call at this stage, or premature — given the adoption-travel question at scale?"</p></blockquote>
+    <div class="talking">
+      <strong>Push:</strong> "<i>Mission Economy</i> and <i>Doughnut Economics</i> are the two cleanest contemporary Pattern 2 demonstrations. Did you make the same call deliberately, and what did you give up by making it?"<br>
+      <strong>Chat-open probe:</strong> "What do you watch for as the failure mode of a framework that refuses formula-economics — when does case-based demonstration not travel?"
+    </div>
+  </article>
+
+  <article class="q must" id="q4">
+    <span class="label">Must-ask · most likely friction point</span>
+    <h3>Q4 — Financialization + the bond architecture</h3>
+    <blockquote><p>"<i>The Big Con</i> and your broader financialisation critique: does the <i>bond</i> form risk reading as a financialised vehicle that recapitulates rentier dynamics, or does the conditional-return structure (posted / returned / forfeited) do enough work to distinguish it?"</p></blockquote>
+    <div class="talking">
+      <strong>Push:</strong> "Reclamation bonds, environmental performance bonds, and surety bonds have a century of regulatory track record. Does that adoption-travel justify the bond-form, or is it itself a financialised inheritance?"<br>
+      <strong>Chat-open probe:</strong> "If not bonds, what form does the conditional-return structure take in your design vocabulary?"<br>
+      <strong>Vocab-failure probe:</strong> "Is there a vocabulary alternative — <i>commitment instrument</i>, <i>posted obligation</i>, <i>contingent claim</i> — that would do the same structural work without the financialisation freight?"<br>
+      <strong>HIGH STAKES:</strong> if she presses, deliver the "Why bonds?" canonical pivot below cleanly. Also genuinely listen for vocabulary alternatives.
+    </div>
+  </article>
+
+  <article class="q must" id="q5">
+    <span class="label">Must-ask · ~3 min, near close</span>
+    <h3>Q5 — Reading recommendations</h3>
+    <blockquote><p>"What in your work — <i>Common Good Economy</i> in particular — or others' would most sharpen the framework's positioning?"</p></blockquote>
+    <div class="talking">
+      <strong>Push:</strong> "What's a piece of work you wish more people in this conversation had read?"<br>
+      Watch for: surprises. Carlota Perez on tech-finance cycles; Rainer Kattel on public-sector capacity; Josh Ryan-Collins on rents — all plausible.
+    </div>
+  </article>
+</section>
+
+<!-- Follow-ups -->
+<section id="followups">
+  <h2>Follow-up questions — STRETCH (only if priority lands fast)</h2>
+
+  <article class="q stretch" id="q6">
+    <span class="label">Stretch</span>
+    <h3>Q6 — RCV as pricing-primitive inside common-good market-shaping</h3>
+    <blockquote><p>"The framework's <i>Residual Commons Value</i> — the worth permanently foreclosed when a non-renewable resource, or a renewable resource pushed past regenerative capacity, is drawn down — sits in a gap I haven't seen any existing economic vocabulary price. Your 2024 Water Commission report frames water as a global common good with transboundary cost-severance; your 2025 Country Platforms paper operationalises mission-aligned green transition at the country-deal level. Does <i>RCV</i> read as a useful pricing primitive inside that common-good market-shaping framework, or does it import too much neoclassical-pricing apparatus into a framework you're deliberately keeping qualitative?"</p></blockquote>
+  </article>
+
+  <article class="q stretch" id="q7">
+    <span class="label">Stretch · open</span>
+    <h3>Q7 — Common Good Economy positioning</h3>
+    <blockquote><p>"With <i>Common Good Economy</i> landing in June, the framework's two-instrument decomposition could be positioned as one operationalisation layer inside a common-good economic architecture — pricing specific deals against their cost-severance signature. Where does that land for you — does the framework live inside the common-good frame as deal-evaluation infrastructure, or does it pull in a direction the common-good frame wouldn't go?"</p></blockquote>
+  </article>
+
+  <article class="q stretch" id="q8">
+    <span class="label">Stretch</span>
+    <h3>Q8 — Cost-severance in the consulting-industry critique</h3>
+    <blockquote><p>"<i>The Big Con</i> argues that consulting-industry rent-extraction operates by eroding public-sector capacity that the consulting industry then offers to repair. That has a cost-severance signature — the cost (capacity erosion) is severed from the entity profiting (consulting firms) and transferred to publics. Does framing this as cost-severance add work, or does <i>capacity erosion</i> already do it?"</p></blockquote>
+  </article>
+
+  <article class="q stretch" id="q9">
+    <span class="label">Stretch · open</span>
+    <h3>Q9 — Conditionalities + Foreclosure Bond</h3>
+    <blockquote><p>"Your 2023 paper with Dani Rodrik on Industrial Policy with Conditionalities, and the Oxford-AstraZeneca COVID PPP paper (IIPP WP 2025-18) taxonomising conditionalities that worked, sit very close to where the Foreclosure Bond instrument lives — both are forward-looking accountability mechanisms binding state support to public-purpose performance criteria. Where do you see <i>bond-form</i> conditionality as adding to or duplicating the conditionality-design work you've already done?"</p></blockquote>
+  </article>
+
+  <article class="q stretch" id="q10">
+    <span class="label">Stretch · ONLY if she raises it</span>
+    <h3>Q10 — Apple/iPhone — only if she raises it</h3>
+    <blockquote><p>"On the iPhone case in <i>Entrepreneurial State</i> — the framework cites the argument structure (publicly-funded upstream R&amp;D → privately-captured downstream commercialisation) rather than the specific component-by-component attribution. If you were guiding the manuscript, where's the right level of citation precision for that case?"</p></blockquote>
+  </article>
+</section>
+
+<!-- Pivot articulations -->
+<section id="pivots">
+  <h2>Pivot articulations — drop-in if Mazzucato goes there</h2>
+  <p style="font-size:13px; color:var(--muted);">Click each to expand. ~30–60 seconds spoken when delivered.</p>
+
+  <details class="pivot high-stakes">
+    <summary>"Why bonds — and not funds, accounts, trusts, or reserves?" — LOAD-BEARING / HIGH STAKES</summary>
+    <div class="body">
+      <blockquote><p>"The framework chose 'Bond' deliberately over alternatives — Account, Reserve, Fund, Trust — for three structural reasons. First, real-world precedent: reclamation bonds, environmental performance bonds, and surety bonds are existing legal instruments with a century-plus regulatory track record; the framework extends established practice rather than inventing a new vehicle. Second, legal-adoption-travel: the framework's success criterion is vocabulary adoption in regulatory contexts, and 'Bond' already lives there — lawyers and policymakers recognize the structural properties immediately. Third, role-encoding precision: 'Bond' specifies an amount posted against an obligation, returned if conditions are met, forfeited if they aren't — that matches Cost Severance equals RCV minus B cleanly. Account is too generic, Reserve implies one-sided holding, Fund implies general pooling, Trust carries fiduciary connotation but not the conditional-return structure."</p></blockquote>
+      <p style="margin-top:10px;"><b>If she pushes harder ("you're still using a financial-instrument vocabulary in a way that recapitulates the dynamic <i>Big Con</i> is critiquing"):</b></p>
+      <blockquote><p>"That's the question I expected most. The framework's bond-form is built around the discipline you're describing — the bond is an instrument-for-binding, not an instrument-for-trading. The conditional-return structure (posted / returned / forfeited) is the accountability mechanism, not a tradable claim. If the bond got tradable, it would be the consulting-industry register the framework is built to refuse. That's a real risk and one I'd want your guidance on — what threshold of conditional-return precision would you want to see to distinguish the bond-form from the financialised inheritance you're critiquing?"</p></blockquote>
+      <small><b>Posture (don't read aloud; internal):</b> Lead with the canonical three-reason articulation. Don't get defensive on the deeper push; concede the genuine risk and invite her guidance. The bond-as-instrument-for-binding-not-trading distinction is the load-bearing move. If she names a vocabulary alternative we haven't tested, log it — high-leverage feedback.<br>
+      If she wants depth: vocabulary strategy v1.0.1 §6.5; Tech Appendix §5 (Accountability Bond Decomposition).</small>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"How does this relate to your work on value-extraction?" — canonical Mazzucato articulation</summary>
+    <div class="body">
+      <blockquote><p>"Your distinction between value-creation and value-extraction in <i>The Value of Everything</i> is the clearest articulation of what economics has been refusing to name precisely. Cost severance is positioned as a precision-add on your value-extraction vocabulary — value-extraction is what the actor does; cost severance is what the actor does to the costs of doing it. The framework operationalizes the value-extraction frame at the transaction level by giving it a pricing instrument and a structural-mechanism vocabulary."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"Does the two-instrument decomposition fit Mission Economy's pillars?" — complementarity articulation</summary>
+    <div class="body">
+      <blockquote><p>"That's exactly the move the framework wants to make. <i>Mission Economy</i>'s seven pillars articulate the desideratum — 'share risks AND rewards' is the one that binds at the deal level. The Foreclosure Bond is one possible instrumentation: the bond posting at the front of a mission-aligned deal makes the share-rewards pillar bind contractually rather than rhetorically. Bonds are not the only instrumentation, but they are an instrumentation that travels into existing regulatory contexts. That's the precision-add — operationalising at the transaction level what <i>Mission Economy</i> articulates at the system level."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"Is Pattern 2 register sustainable for adoption?" — register defense</summary>
+    <div class="body">
+      <blockquote><p>"That's the question I sit with most. <i>Mission Economy</i> and <i>Doughnut Economics</i> are the two cleanest contemporary Pattern 2 demonstrations in the literature — both have travelled, both have been adopted in policy contexts (UK Labour, Amsterdam), and both refuse the consultant-deliverable register. The framework's bet is that the same register can carry vocabulary adoption without a Pattern 1 codified companion — the Tech Appendix is rigorous but it's an appendix, not the book. If the framework adopts at all, it will be the way <i>value-extraction</i> adopted: a labor lawyer using <i>cost severance</i> in a brief, a judge not needing it explained. That's the test we're optimising for."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"Common Good Economy positioning"</summary>
+    <div class="body">
+      <blockquote><p>"<i>Common Good Economy</i> lands in June — I've absorbed the Substack previews, the Christian Aid Annual Lecture, and the Global Council launch with Carlos Cuerpo. The framework's two-instrument decomposition could live inside that common-good architecture as deal-evaluation infrastructure — pricing specific deals against their cost-severance signature, with the bond-posting making the conditional-return bind. I'd want your guidance on whether that operationalisation-layer reading is the right one, or whether the framework should engage <i>Common Good Economy</i> differently."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"Apple/iPhone precision pivot — ONLY if she raises it"</summary>
+    <div class="body">
+      <blockquote><p>"On that — the framework cites the argument structure (publicly-funded upstream R&amp;D → privately-captured downstream commercialisation), not the component-by-component attribution. The structural argument has done the work; the component attribution has critique-vulnerability the structure doesn't. If there's a more precise framing you'd want the framework to use, I'd take that guidance now."</p></blockquote>
+      <small><b>Don't argue with her about the iPhone case. Her language will be more precise; follow her framing.</b></small>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"How does this add to Hotelling?"</summary>
+    <div class="body">
+      <blockquote><p>"Hotelling 1931 modeled scarcity rents for exhaustible resources assuming efficient pricing — the math is right. The framework's claim is that the inputs have been wrong: the scarcity rent in Hotelling's sense excludes the cost of permanent option-value foreclosure on future generations, which is what RCV names. The framework's contribution is an accounting instrument that puts intergenerational option-value-loss inside the scarcity rent rather than outside it — making Hotelling's math operate on the right inputs."</p></blockquote>
+      <small>If she wants depth: bibliography §18.6 (Hotelling, Hartwick, Solow, Pearce-Atkinson, Ramsey). Note: she does not engage Hotelling directly; this is the framework's own analytical move.</small>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"How does this extend Ostrom?"</summary>
+    <div class="body">
+      <blockquote><p>"Ostrom 1990 showed that commons can be governed without state or market through institutional design — but her design principles work specifically for commons that can be managed in sustained-yield perpetuity. The framework extends to commons that can't be managed that way: non-renewable resources from the start, and renewable resources pushed past regenerative capacity. The two-instrument bond architecture is what operates where sustained-yield discipline can no longer apply — accountability-by-instrument for cases where accountability-by-management isn't possible."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"Where does Polanyi sit?"</summary>
+    <div class="body">
+      <blockquote><p>"Polanyi's fictitious-commodities frame in <i>The Great Transformation</i> is the deep substrate the framework builds on. The framework's observation — that certain costs should not be transactable externalities but are treated as such — is a descendant of Polanyi's 'land, labor, money are not produced for market exchange' move. Cost severance is the contemporary mechanism that produces the crises Polanyi identified."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"How does this relate to Boyce?"</summary>
+    <div class="body">
+      <blockquote><p>"Boyce at PERI works the intersection of ecological economics and reparations the framework also engages, particularly through <i>Economics for People and the Planet</i> and the carbon-dividend literature. Cost Severance Damages is presented as an analytic instrument; Boyce's work shapes how the framework imagines those instruments in distributional terms."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"How does this relate to Harvey / Klein / primitive accumulation?"</summary>
+    <div class="body">
+      <blockquote><p>"Harvey's 'accumulation by dispossession' names the contemporary phenomenon — Marx's primitive accumulation operating now, in real time. Klein's shock doctrine names the political conditions under which it accelerates. The framework's contribution is naming the <i>mechanism</i> that produces the phenomenon Harvey describes: cost severance is the structural move by which value is extracted while costs are deliberately transferred. Harvey names what; the framework names how."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"How does this relate to reparations economics (Darity / Mullen / Hamilton-et-al)?"</summary>
+    <div class="body">
+      <blockquote><p>"The <i>From Here to Equality</i> program (Darity &amp; Mullen 2020) is the contemporary landmark for reparations economics, with the racial-wealth-gap-as-summary-statistic methodology operationalized via <i>Umbrellas Don't Make It Rain</i> (Hamilton, Darity, Price, Sridharan &amp; Tippett 2015). The framework's <i>Restitution Bond</i> instrument is positioned in that lineage — a precision-add on backward-looking restitution as a financial-instrument form. The framework's contribution is the two-instrument decomposition: pairing the Restitution Bond (backward-looking) with the Foreclosure Bond (forward-looking) for harm yet to be realized."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"How does this relate to Raworth / Doughnut Economics?"</summary>
+    <div class="body">
+      <blockquote><p>"Doughnut Economics (Raworth 2017; Amsterdam adoption 2020 onward) operates at the economy-system level — articulating where economies should aim and design principles for getting there. The framework operates at the actor-transaction level — naming the structural mechanism (cost severance) by which accountability fails, and pricing what's been foreclosed (RCV). The two are complementary, not competing: a Doughnut-organized economy can still have actor-level cost-severance failures within it, particularly imported / upstream cost severance. Doughnut tells you where to aim; Commons Bonds tells you how to bind specific accountability moments along the way."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"Foreclosure Bond — isn't that license to extract?"</summary>
+    <div class="body">
+      <blockquote><p>"The accounting equation does that work: B = RCV is the structural condition. If B is set to RCV, posting the bond IS internalizing the cost — any rational actor stops extracting before posting. If B is set below RCV, the framework explicitly names that as cost severance — exactly the misuse pattern we're pricing. So the bond framing isn't 'license to extract'; it's the instrument by which 'license to extract' becomes legible."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"Can I see the Tech Appendix or Chapter 9?"</summary>
+    <div class="body">
+      <blockquote><p>"Happy to send the Technical Appendix v1.0.0 — it's the formal apparatus where the math sits. I can also send the Chapter 9 <i>Pricing Honestly</i> draft if you want to engage at the prose-engaging-the-deal-evaluation level. Either or both, post-call."</p></blockquote>
+      <small><b>Don't try to walk through formulas verbally on a phone or video call.</b></small>
+    </div>
+  </details>
+</section>
+
+<!-- Contingency -->
+<section class="contingency-sec" id="contingency">
+  <h2>Contingency — if Mazzucato declines framework-specific commentary</h2>
+  <p>
+    <span class="trigger">Triggers</span>
+    She says she hasn't read enough; gives surface-level answers; explicitly hedges; redirects every framework question to her own books / <i>Common Good Economy</i>.
+  </p>
+
+  <h3>Verbal pivot move</h3>
+  <blockquote><p>"That makes sense — and to be clear, I'm not asking you to comment on something you haven't read in depth, particularly with the <i>Common Good Economy</i> launch ahead. Let me ask about your work directly instead, and I'll use what I learn to position the framework better in the manuscript."</p></blockquote>
+
+  <h3>Framework-agnostic question bank (pick 3–5)</h3>
+  <ol>
+    <li>"Beyond <i>value-extraction</i> itself, what other terms in your work have you watched go through definitional fights — and what does that tell you about how vocabulary gets adopted or rejected in policy-economic discourse?"</li>
+    <li>"<i>Mission Economy</i>'s seven pillars articulate the desideratum; the IIPP working paper run since 2023 has been operationalising it. Where do you see the live operationalisation gaps — what's the pillar that's hardest to bind contractually?"</li>
+    <li>"With <i>Common Good Economy</i> landing in June, what's the single most important analytical move in the book that you'd want first-time readers to absorb? What's the move you expect critics to misread first?"</li>
+    <li>"What in your IIPP circle's recent work — Carlota Perez, Rainer Kattel, Josh Ryan-Collins, Caetano Penna — should we be reading that we probably aren't?"</li>
+    <li>"The G20 / South Africa engagement, the Water Commission, the Common Good Council in Barcelona — you're operating across multiple political-economy bodies simultaneously. Where do you see the most generative live tension between the academic register and the policy register?"</li>
+  </ol>
+</section>
+
+<!-- Closing block -->
+<section id="closing">
+  <h2>Closing block (~last 5–8 min)</h2>
+
+  <h3>IIPP network referrals</h3>
+  <blockquote><p>"Before we wrap, I wanted to ask — if you're open to it, are there voices in your IIPP circle or broader network you'd point me at, particularly anyone who'd push back hardest on the framework's specific moves? I'm thinking of Carlota Perez on the tech-finance cycle, Rainer Kattel on public-sector capacity, Josh Ryan-Collins on rents — but I'd defer to your sense of who would generate the sharpest engagement. If not, I understand completely — and either way, thank you so much for this conversation."</p></blockquote>
+  <p style="font-size:13px;"><b>If she offers names:</b> ask whether she'd be willing to make a warm intro, or whether we should approach cold citing her conversation. Follow up within 48 hours.</p>
+
+  <h3>Protective vocabulary advice</h3>
+  <blockquote><p>"You've spent a career watching value-extraction vocabulary get misframed politically. What's the misuse pattern you'd want me writing against now, with the framework's terms — <i>cost severance</i>, <i>RCV</i>, <i>Restitution Bond</i>, <i>Foreclosure Bond</i>?"</p></blockquote>
+
+  <h3>Field wisdom (rapport + genuine ask)</h3>
+  <blockquote><p>"You've watched a lot of frameworks try to enter the public-purpose-economics literature over your career. What's the most common reason a young framework's vocabulary fails to land? What's a piece of advice you'd give an author who's still in development?"</p></blockquote>
+
+  <h3>Tech Appendix + Bibliography §13 offer (proactive, post-call)</h3>
+  <blockquote><p>"If the conversation surfaces things you'd want to engage at more depth in writing, I'd welcome that. The Technical Appendix v1.0.0 is the formal apparatus where the math sits — happy to send it after the call. I'd also welcome you reviewing the bibliography §13 entry where the framework names <i>The Value of Everything</i> as the load-bearing anchor cite for <i>value-extraction</i> — your refinement of the framework's positioning of your work would be invaluable. No pressure either way; the live conversation alone has been enormously valuable."</p></blockquote>
+
+  <h3>Pre-publication door (light-touch, NOT a blurb ask)</h3>
+  <blockquote><p>"If the manuscript reaches a state where you'd want to read it, I'd welcome that — and any reflection you'd want to share about it post-publication. Future correspondence routes through Adam — I'll keep the office in the loop."</p></blockquote>
+
+  <h3>Final 2 min — close</h3>
+  <ul>
+    <li>Thank Mazzucato for the time + generosity of the conversation</li>
+    <li><b>Thank Adam Albrecht again</b> by name verbally — "please pass on my thanks to Adam for routing"</li>
+    <li>"I'll send a thank-you email and any artifacts (Tech Appendix, Bibliography §13 entry, Ch 9 draft) we discussed within 24 hours, cc'ing Adam."</li>
+    <li>End the call.</li>
+  </ul>
+</section>
+
+<!-- Three Tiers -->
+<section id="tiers">
+  <h2>Three Tiers — what to share / not share</h2>
+  <div class="tiers">
+    <div class="tier t1">
+      <h4>Tier 1 — Share freely now</h4>
+      <ul>
+        <li><i>cost severance</i></li>
+        <li><i>RCV</i> (covers non-renewable AND renewable past regen)</li>
+        <li>Two-instrument decomposition</li>
+        <li>Accounting equation <i>Cost Severance = RCV − B</i></li>
+        <li><i>CSD</i> methodology</li>
+        <li>Cross-system framing</li>
+        <li>Lineage extensions (use pivot articulations)</li>
+        <li>Case-walks (McDowell / Libby / Niger Delta / Norway / Amsterdam)</li>
+        <li><b>"Why bonds?" canonical articulation</b></li>
+      </ul>
+    </div>
+    <div class="tier t2">
+      <h4>Tier 2 — Share post-call if she asks</h4>
+      <ul>
+        <li>Technical Appendix v1.0.0</li>
+        <li>Chapter 9 <i>Pricing Honestly</i> draft</li>
+        <li>Chapter 5 §"Restitution and Foreclosure" excerpt</li>
+        <li><b>Bibliography §13 entry text</b> (anchor cite for <i>Value of Everything</i>)</li>
+        <li>Case-study notes</li>
+      </ul>
+    </div>
+    <div class="tier t3">
+      <h4>Tier 3 — Don't share at all</h4>
+      <ul>
+        <li>Internal scaffolding (working notes, rigor passes)</li>
+        <li>Other essay drafts in flight (Noema, Aeon, Berggruen)</li>
+        <li>Author's Note / Ch 1 personal-narrative material</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Post-call workflow -->
+<section id="post-call">
+  <h2>Post-call workflow (within 24 hours)</h2>
+  <ol>
+    <li><b>Transcribe</b> the conversation (or write notes if not recorded). Log her attribution preference + any modifications.</li>
+    <li><b>Send thank-you email cc'ing Albrecht</b> with any artifacts agreed (Tech Appendix, Ch 9, Bibliography §13). Light-touch pre-publication door if not already raised.</li>
+    <li><b>Update tracking:</b> mark interview complete in <code>research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md</code> candidate #1; note any reading recs in <code>bibliography.md</code>; flag any framework-revision implications (particularly bibliography §13 refinements).</li>
+    <li><b>IIPP network follow-up:</b> if she offered warm intros, follow up within 48 hours.</li>
+    <li><b>Decision point:</b> does her input warrant adding her to the Noema essay §V or §VI as a third / fourth anchor?</li>
+  </ol>
+</section>
+
+<!-- Glossary -->
+<section id="glossary">
+  <h2>Glossary</h2>
+  <p class="glossary-intro">Alphabetical. Click any term to expand its definition.</p>
+  <div class="glossary-terms">
+    <details class="term"><summary>Adam Albrecht</summary><div class="term-body">EA / gatekeeper at Office of Prof. Mazzucato, UCL IIPP. Sent the 2026-05-06 holding response. Routes future correspondence. Office: 11 Montague Street, London, WC1B 5BP.</div></details>
+    <details class="term"><summary>Common good (Mazzucato 2026)</summary><div class="term-body">Her capstone framing in <i>The Common Good Economy: A New Compass</i> (June 2026 UK / Sept 2026 US). Four interdependent principles: justice, equality, sustainability, global solidarity. Distinct from "public good" (Samuelson).</div></details>
+    <details class="term"><summary>Common Good Economy, Global Council for a</summary><div class="term-body">Institutional vehicle launched April 2026 in Barcelona with Spanish Deputy PM Carlos Cuerpo; operationalises the book's framework.</div></details>
+    <details class="term"><summary>Conditionalities</summary><div class="term-body">Mazzucato + Rodrik 2023 — design-principle binding state support (procurement / IP / pricing / patient capital) to public-purpose performance criteria. Recurs across 2024–2026 IIPP papers.</div></details>
+    <details class="term"><summary>Cost severance</summary><div class="term-body">Framework's primary contribution. The structural mechanism by which value is extracted while the costs of producing it are deliberately separated and transferred. Positioned as precision-add on Mazzucato's <i>value-extraction</i>.</div></details>
+    <details class="term"><summary>Cost Severance = RCV − B</summary><div class="term-body">Framework's central accounting equation. When B (the bonded amount posted) is below RCV (the worth foreclosed), the difference is the cost severed onto others.</div></details>
+    <details class="term"><summary>Cost Severance Damages (CSD)</summary><div class="term-body">Framework's analytic instrument applying matched-comparison methodology (à la <i>Umbrellas Don't Make It Rain</i>) to extraction-community cases (McDowell County, Libby, Niger Delta, opioid-Appalachia).</div></details>
+    <details class="term"><summary>Digital feudalism</summary><div class="term-body">Mazzucato 2019 + 2025 — AI / platform-rent extraction model. Foundation for her EuroStack / public-purpose-conditionalities-on-AI advocacy.</div></details>
+    <details class="term"><summary>Entrepreneurial state</summary><div class="term-body">Mazzucato 2013 — public R&amp;D as upstream driver of innovation; risk-taking-by-state should be paid via equity / royalties / conditionalities. iPhone case is the headline (and most contested) cite.</div></details>
+    <details class="term"><summary>Foreclosure Bond (B₂)</summary><div class="term-body">Framework's forward-looking accountability instrument — discharges harm yet to be realized. Lineage: environmental-bond and civic-republican. Positioned as operationalisation-layer for <i>Mission Economy</i>'s "share risks AND rewards" pillar.</div></details>
+    <details class="term"><summary>IIPP (Institute for Innovation and Public Purpose)</summary><div class="term-body">Founded by Mazzucato 2017 within UCL Bartlett (built-environment / public-policy faculty); NOT UCL Economics. ~50 academic + research staff. Hosts MPA programme.</div></details>
+    <details class="term"><summary>Market-shaping (vs. fixing)</summary><div class="term-body">Mazzucato's <i>Mission Economy</i> slogan — active state-led direction-setting, not market-failure correction after the fact.</div></details>
+    <details class="term"><summary>Mission Economy</summary><div class="term-body">Mazzucato 2021 — seven-pillar framework for organising public-private collaboration around time-bound, measurable missions (climate, health, etc.). Apollo program as model. Now official UK Labour framing under Reeves.</div></details>
+    <details class="term"><summary>Mission Economy seven pillars</summary><div class="term-body">(1) Value: collectively created; (2) Markets: shaping not fixing; (3) Organisations: dynamic capabilities; (4) Finance: outcomes-based budgeting; (5) Distribution: sharing risks AND rewards; (6) Partnership: stakeholder-value-driven; (7) Participation: open systems / citizen co-design.</div></details>
+    <details class="term"><summary>Patient capital</summary><div class="term-body">Mazzucato — long-horizon public investment willing to accept early-stage risk and slow returns. Distinct from concessional finance / soft money.</div></details>
+    <details class="term"><summary>Pattern 2 register</summary><div class="term-body">Framework's voice. Threaded demonstration of affordances through case treatment + lineage citation rather than codified-methodology section. Deliberate refusal of formula-economics / consultant-deliverable register. <i>Mission Economy</i> + <i>Doughnut Economics</i> are the framework's two cleanest contemporary exemplars.</div></details>
+    <details class="term"><summary>Pattern 1 register</summary><div class="term-body">Codified-methodology / how-to register; consultant-shaped; what <i>The Big Con</i> attacks. The register the framework refuses.</div></details>
+    <details class="term"><summary>Purpose-washing</summary><div class="term-body">Mazzucato Substack-coined cousin of greenwashing — performative purpose-orientation without conditional-return mechanism.</div></details>
+    <details class="term"><summary>Renewable past regenerative capacity</summary><div class="term-body">Framework's term for renewable resources extracted faster than they can regenerate. Once across the threshold, effectively converted to non-renewable; same RCV accounting applies.</div></details>
+    <details class="term"><summary>Residual Commons Value (RCV)</summary><div class="term-body">The worth permanently foreclosed when a non-renewable resource — or a renewable resource pushed past regenerative capacity — is drawn down. Framework's pricing-instrument target.</div></details>
+    <details class="term"><summary>Restitution Bond (B₁)</summary><div class="term-body">Framework's backward-looking accountability instrument — discharges harm already realized. Lineage: reparations-economics + restitution-tradition.</div></details>
+    <details class="term"><summary><i>The Big Con</i></summary><div class="term-body">Mazzucato + Collington 2023 — sustained empirical attack on the global consulting industry as structural-extractor of public-sector capacity. Three solutions: disclose conflicts; rebuild internal capacity; reform contract-outcome evaluation.</div></details>
+    <details class="term"><summary><i>The Value of Everything</i></summary><div class="term-body">Mazzucato 2018 — value-creation vs. value-extraction. <b>Bibliography §13 anchor cite for the framework — Ring-1 flagship.</b> Defining quote: <i>"activities focused on moving around existing resources and outputs, and gaining disproportionately from the ensuing trade."</i></div></details>
+    <details class="term"><summary>Two-instrument decomposition</summary><div class="term-body">Framework's structural move: B = B₁ + B₂. Separates backward-looking restitution (Restitution Bond) from forward-looking foreclosure (Foreclosure Bond).</div></details>
+    <details class="term"><summary>Value extraction</summary><div class="term-body">Mazzucato 2018 — rent-seeking masquerading as value-creation; the diagnostic she developed. Distinct from <i>rent</i> (category) and from <i>financialisation</i> (master mechanism). The framework's <i>cost severance</i> is positioned as a precision-add on this term.</div></details>
+    <details class="term"><summary>Why bonds?</summary><div class="term-body">Framework canonical articulation: (1) real-world precedent (reclamation / environmental-performance / surety bonds); (2) legal-adoption-travel; (3) role-encoding precision (posted / returned / forfeited matches <i>Cost Severance = RCV − B</i>). Account too generic; Reserve one-sided; Fund pooled; Trust fiduciary-not-conditional. Highest-stakes pivot for this interview.</div></details>
+  </div>
+</section>
+
+<p class="source-note">
+  Consolidates content from <code>research/outreach/subjects/mazzucato/prereadbrief_2026-05-08.md</code> (priority Q1–Q5),
+  <code>research/outreach/subjects/mazzucato/interview-prep_2026-05-08.md</code> (follow-ups, talking points, contingency, closing block, three tiers, vocabulary discipline),
+  <code>research/outreach/subjects/mazzucato/background-brief_2026-05-08.md</code> (Mazzucato's must-knows, signature vocabulary, things-not-to-walk-in-unaware-of),
+  <code>research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md</code> (Q0 verbal phrasing), and
+  <code>commons_bonds_framework_positioning_disciplines_v1.0.0.md</code> (canonical lineage articulations + "Why bonds?" canonical). Source documents remain canonical; this is the live-call working artifact only.
+</p>
+
+  </main>
+</div>
+</body>
+</html>

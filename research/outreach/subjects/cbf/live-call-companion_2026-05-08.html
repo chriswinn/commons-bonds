@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CBF Interview — Live-Call Companion (staff-flexible)</title>
+<style>
+:root {
+  --must-ask: #c0392b;
+  --should-ask: #d68910;
+  --stretch: #5d6d7e;
+  --info: #1f618d;
+  --contingency: #884ea0;
+  --career-protect: #b03a2e;
+  --bg: #fefefe;
+  --card-bg: #fafafa;
+  --text: #1a1a1a;
+  --muted: #5a6c7d;
+  --border: #d5dbdb;
+  --quote-bg: #eef3f7;
+  --highlight-bg: #fff8dc;
+  --track-bg: #ecf3f9;
+  --track-border: #aed6f1;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  margin: 0;
+  padding: 0;
+}
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 0;
+}
+header.top {
+  grid-column: 1 / -1;
+  background: var(--info);
+  color: white;
+  padding: 14px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid #154360;
+}
+header.top h1 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+header.top .meta {
+  font-size: 13px;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+header.top .meta b { font-weight: 700; }
+nav.toc {
+  position: sticky;
+  top: 60px;
+  align-self: start;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+  padding: 14px 8px 14px 14px;
+  border-right: 1px solid var(--border);
+  background: var(--card-bg);
+  font-size: 13px;
+}
+nav.toc h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin: 0 0 8px 0;
+}
+nav.toc ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav.toc li { margin: 0 0 4px 0; }
+nav.toc a {
+  display: block;
+  padding: 5px 8px;
+  color: var(--text);
+  text-decoration: none;
+  border-radius: 3px;
+  border-left: 3px solid transparent;
+}
+nav.toc a:hover { background: #e8eef3; }
+nav.toc a.must { border-left-color: var(--must-ask); }
+nav.toc a.should { border-left-color: var(--should-ask); }
+nav.toc a.stretch { border-left-color: var(--stretch); }
+nav.toc a.contingency { border-left-color: var(--contingency); }
+nav.toc a.info { border-left-color: var(--info); }
+nav.toc a.career { border-left-color: var(--career-protect); }
+main {
+  padding: 20px 28px 60px 28px;
+  min-width: 0;
+}
+section {
+  margin-bottom: 28px;
+  scroll-margin-top: 70px;
+}
+section h2 {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--border);
+}
+section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0 6px 0;
+}
+p, ul, ol { margin: 6px 0; }
+ul, ol { padding-left: 22px; }
+li { margin: 3px 0; }
+blockquote {
+  margin: 8px 0;
+  padding: 10px 14px;
+  background: var(--quote-bg);
+  border-left: 4px solid var(--info);
+  font-style: italic;
+  color: #2c3e50;
+  border-radius: 0 4px 4px 0;
+}
+blockquote p:first-child { margin-top: 0; }
+blockquote p:last-child { margin-bottom: 0; }
+.q {
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--stretch);
+  border-radius: 4px;
+  padding: 12px 14px;
+  margin: 10px 0;
+  background: var(--card-bg);
+}
+.q.must { border-left-color: var(--must-ask); background: #fdf2f0; }
+.q.should { border-left-color: var(--should-ask); background: #fef6e7; }
+.q.stretch { border-left-color: var(--stretch); background: var(--card-bg); }
+.q .label {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 7px;
+  border-radius: 3px;
+  margin-right: 6px;
+  color: white;
+}
+.q.must .label { background: var(--must-ask); }
+.q.should .label { background: var(--should-ask); }
+.q.stretch .label { background: var(--stretch); }
+.q h3 {
+  display: inline;
+  font-size: 15px;
+  font-weight: 600;
+}
+.q .talking { font-size: 13px; color: var(--muted); margin-top: 8px; }
+.q .talking strong { color: var(--text); }
+.alert {
+  background: var(--highlight-bg);
+  border: 1px solid #d4a017;
+  border-left: 5px solid #d4a017;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin: 10px 0;
+}
+.alert.career {
+  background: #fdedec;
+  border-color: var(--career-protect);
+  border-left-color: var(--career-protect);
+}
+.alert ul { margin: 4px 0; padding-left: 20px; }
+.alert li { margin: 4px 0; }
+.alert h3 {
+  margin-top: 0;
+  color: var(--career-protect);
+}
+.cheatsheet {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 10px 0;
+}
+.cheatsheet .box {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 10px 12px;
+  background: var(--card-bg);
+}
+.cheatsheet h4 {
+  font-size: 13px;
+  margin: 0 0 6px 0;
+  color: var(--info);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.cheatsheet ol, .cheatsheet ul { margin: 4px 0; padding-left: 18px; font-size: 13px; }
+.cheatsheet li { margin: 3px 0; }
+details.pivot {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin: 6px 0;
+  background: var(--card-bg);
+}
+details.pivot summary {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  user-select: none;
+  list-style-position: inside;
+}
+details.pivot summary::marker { color: var(--info); }
+details.pivot[open] summary {
+  border-bottom: 1px solid var(--border);
+  background: #f0f4f8;
+}
+details.pivot .body {
+  padding: 6px 14px 12px 14px;
+}
+details.pivot .body small {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 12px;
+}
+section.contingency-sec {
+  border: 2px dashed var(--contingency);
+  background: #f8f0fb;
+  padding: 16px 20px;
+  border-radius: 4px;
+}
+section.contingency-sec h2 {
+  border-bottom-color: var(--contingency);
+  color: #6c3483;
+}
+.trigger {
+  display: inline-block;
+  padding: 2px 8px;
+  background: var(--contingency);
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-right: 4px;
+}
+.tiers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 10px 0;
+}
+.tiers .tier {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 10px 12px;
+  background: var(--card-bg);
+}
+.tiers .tier.t1 { border-top: 4px solid #27ae60; }
+.tiers .tier.t2 { border-top: 4px solid var(--should-ask); }
+.tiers .tier.t3 { border-top: 4px solid var(--must-ask); }
+.tiers .tier h4 {
+  font-size: 13px;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.tiers .tier.t1 h4 { color: #27ae60; }
+.tiers .tier.t2 h4 { color: var(--should-ask); }
+.tiers .tier.t3 h4 { color: var(--must-ask); }
+.tiers .tier ul { padding-left: 16px; font-size: 12px; margin: 0; }
+.tiers .tier li { margin: 2px 0; }
+.choices {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0;
+  font-size: 14px;
+}
+.choices li { margin: 4px 0; }
+.choices input[type="checkbox"] { margin-right: 6px; }
+.source-note {
+  font-size: 12px;
+  color: var(--muted);
+  font-style: italic;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  margin-top: 30px;
+}
+/* Track selector */
+.tracks {
+  background: var(--track-bg);
+  border: 1px solid var(--track-border);
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin: 12px 0;
+}
+.tracks h3 {
+  margin-top: 0;
+  color: var(--info);
+}
+.tracks ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 6px 0;
+}
+.tracks li {
+  margin: 4px 0;
+  font-size: 13px;
+  padding: 4px 0;
+  border-bottom: 1px dotted var(--border);
+}
+.tracks li:last-child { border-bottom: none; }
+.tracks .track-letter {
+  display: inline-block;
+  width: 26px;
+  height: 22px;
+  line-height: 22px;
+  background: var(--info);
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 3px;
+  margin-right: 8px;
+  font-size: 12px;
+}
+.track-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: var(--info);
+  color: white;
+  margin: 0 2px;
+  vertical-align: middle;
+}
+.track-tag.skip { background: #95a5a6; }
+.per-track {
+  background: #fbfcfd;
+  border-left: 3px solid var(--track-border);
+  padding: 8px 12px;
+  margin: 8px 0;
+  font-size: 13px;
+}
+.per-track .track-row {
+  margin: 3px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+.per-track .track-row .label-cell {
+  flex: 0 0 auto;
+}
+/* Glossary */
+.glossary-terms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 6px;
+  margin: 12px 0;
+}
+.glossary-terms details.term {
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--card-bg);
+}
+.glossary-terms details.term > summary {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--info);
+  user-select: none;
+  list-style-position: inside;
+}
+.glossary-terms details.term > summary::marker { color: var(--info); }
+.glossary-terms details.term[open] > summary {
+  border-bottom: 1px solid var(--border);
+  background: #f0f4f8;
+  border-radius: 3px 3px 0 0;
+}
+.glossary-terms details.term .term-body {
+  padding: 8px 12px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--text);
+}
+.glossary-intro {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 6px 0 4px 0;
+  font-style: italic;
+}
+.glossary-section-header {
+  grid-column: 1 / -1;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  font-weight: 700;
+  margin: 10px 0 2px 0;
+  padding-top: 6px;
+  border-top: 1px solid var(--border);
+}
+@media (max-width: 700px) {
+  .glossary-terms { grid-template-columns: 1fr; }
+}
+@media print {
+  .glossary-terms { grid-template-columns: 1fr 1fr; }
+  .glossary-terms details.term { border: 1px solid #ccc; page-break-inside: avoid; }
+  .glossary-terms details.term[open] > summary { background: white; }
+}
+@media (max-width: 900px) {
+  .page { grid-template-columns: 1fr; }
+  nav.toc { position: static; height: auto; border-right: none; border-bottom: 1px solid var(--border); }
+  .cheatsheet, .tiers { grid-template-columns: 1fr; }
+}
+@media print {
+  header.top { position: static; }
+  nav.toc { display: none; }
+  .page { grid-template-columns: 1fr; }
+  details.pivot { page-break-inside: avoid; }
+  details.pivot[open] summary { background: white; }
+  details.pivot:not([open]) { border: none; }
+  details.pivot:not([open]) summary { padding: 4px 0; }
+  details.pivot .body { padding: 4px 0; }
+  section { page-break-inside: avoid; }
+  blockquote { page-break-inside: avoid; }
+  body { font-size: 12px; }
+  .alert { background: #f9f7e8; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>CBF Interview — Live-Call Companion (staff-flexible)</h1>
+  <div class="meta">
+    <span><b>Subject:</b> [TBD]</span>
+    <span><b>Date / Modality:</b> [TBD]</span>
+    <span><b>Status:</b> Template</span>
+  </div>
+</header>
+<div class="page">
+  <nav class="toc">
+    <h2>Quick navigation</h2>
+    <ol>
+      <li><a href="#track-selector" class="info">Staff track selector</a></li>
+      <li><a href="#must-knows" class="career">CBF must-knows</a></li>
+      <li><a href="#anchor-quotes" class="info">Anchor quotes (located)</a></li>
+      <li><a href="#opening" class="info">Opening (Q0, Q0.5)</a></li>
+      <li><a href="#q1" class="must">Q1 — Renewable-past-regen</a></li>
+      <li><a href="#q2" class="must">Q2 — Architecture vs. biology</a></li>
+      <li><a href="#q3" class="should">Q3 — Cost-bearing today</a></li>
+      <li><a href="#q4" class="stretch">Q4 — Generations</a></li>
+      <li><a href="#q5" class="must">Q5 — Voices</a></li>
+      <li><a href="#followups" class="stretch">Stretch Q6–Q10</a></li>
+      <li><a href="#pivots" class="info">Pivot articulations</a></li>
+      <li><a href="#contingency" class="contingency">Contingency</a></li>
+      <li><a href="#closing" class="info">Closing block</a></li>
+      <li><a href="#tiers" class="info">Three Tiers</a></li>
+      <li><a href="#post-call" class="info">Post-call workflow</a></li>
+      <li><a href="#glossary" class="info">Glossary</a></li>
+    </ol>
+  </nav>
+  <main>
+
+<!-- Staff track selector -->
+<section id="track-selector">
+  <h2>Staff track selector — identify before the call</h2>
+  <div class="tracks">
+    <h3>Tracks (priority order for the chapter)</h3>
+    <ul>
+      <li><span class="track-letter">A</span><b>Working-waterfront / Educator</b> (Port Isobel Captain). <i>Highest-yield single track for the chapter's load-bearing watermen-voice need.</i> Listening register; experiential framing; minimize jargon.</li>
+      <li><span class="track-letter">B</span><b>Operational on-water</b> (Jackie Shannon, VA Oyster Restoration Manager). Mobile Oyster Restoration Center; Lynnhaven; oyster gardening.</li>
+      <li><span class="track-letter">C</span><b>Policy-specialist</b> (Will Poston, Forage Campaign Manager). Menhaden-focused; ASMFC architecture; Bay-cap-from-historic-landings critique; observer requirements.</li>
+      <li><span class="track-letter">D</span><b>Coalition-building</b> (Tanner Council, COA Senior Manager). Coalition voice; aquaculturist routing; wild-vs-aquaculture-vs-sanctuary tension.</li>
+      <li><span class="track-letter">E</span><b>Community-engagement</b> (Christy Everett, Hampton Roads Director). Lower Bay; Norfolk; Lynnhaven; long tenure since 2000; gateway to Lower Bay watermen.</li>
+      <li><span class="track-letter">F</span><b>Strategic / institutional</b> (Hilary Falk President/CEO; Alison Prost SVP Programs). Org-level; cross-program; federalist coordination; 2040 horizon.</li>
+      <li><span class="track-letter">G</span><b>Historical-memory</b> (Bill Goldsborough, retired CBF). 1980s collapse; original 2007 ASMFC Bay cap; cycle-comparison.</li>
+      <li><span class="track-letter">H</span><b>Gateway / orientation</b> (David Sherfinski VA Comms; Val DiMarzio MD Comms). Project-orientation only; not substantive interview.</li>
+    </ul>
+    <p style="font-size:13px; color:var(--muted); margin-top:8px;"><b>Per-track markers</b> appear inline throughout this doc as <span class="track-tag">A</span><span class="track-tag">B</span><span class="track-tag">C</span> etc. Use only the relevant track's branch.</p>
+  </div>
+</section>
+
+<!-- Must-knows -->
+<section id="must-knows">
+  <h2>CBF must-knows — don't walk in unaware</h2>
+  <div class="alert career">
+    <h3>CRITICAL career-protection guardrail</h3>
+    <p><b>NO Soviet/socialist-comparison framing anywhere.</b> Career-toxic for ANY CBF staffer (501c3 in politically heterogeneous watershed). Cross-system comparison cases stay in framework-internal scaffolding and earlier chapters. Bay chapter stands on its own Bay-specific terms. <b>Do not cite or allude to Soviet industrial planning, Aral Sea, state-socialism, or any cross-system extraction comparison in any CBF conversation.</b></p>
+  </div>
+  <div class="alert">
+    <ul>
+      <li><b>Per-staff register awareness</b> — see Staff track selector above. Register varies dramatically: from policy-specialist <span class="track-tag">C</span><span class="track-tag">G</span> to operational on-water <span class="track-tag">A</span><span class="track-tag">B</span> to community engagement <span class="track-tag">E</span> to retired institutional memory <span class="track-tag">G</span> to strategic institutional <span class="track-tag">F</span>. Mismatch is the most common error. <b>Confirm track BEFORE the call starts.</b></li>
+      <li><b>Omega Protein / menhaden volatility:</b> CBF Forage opposes; Oct 2025 Menhaden Fisheries Coalition rebuttal named Moore by name. Use Moore's calibrated <i>"industry blocks science"</i> register, not industry-as-villain register.</li>
+      <li><b>Tangier political identity:</b> Trump-supporting / climate-skeptic community; CBF maintains active Shoreline Adaptation Plan partnership framed as <i>erosion-and-shoreline</i>, not climate-rhetoric-forward. <b>Do not introduce climate-skepticism critique</b> in any Tangier-touching conversation.</li>
+      <li><b>Charter-vs-commercial:</b> Recreational (CCA Virginia) is CBF-aligned; commercial reduction-fishery workers are counter-coalition. Watermen-voice the chapter wants is wild-harvest / charter / aquaculture, NOT industrial reduction-fishery workers.</li>
+      <li><b>Substitution verdict:</b> Public record carries enough Colden + Moore quotes (~26 + ~17 catalogued) to draft Ch 3 at ~70-80% from public record alone. Live interviews shift from load-bearing to value-add — calibration + pushback rather than quote-extraction.</li>
+      <li><b>Watermen-voice routing critical path:</b> Port Isobel Captain <span class="track-tag">A</span> is single highest-yield route. Mayor Eskridge (Tangier) is highest-leverage individual VA waterman. Twin Rivers (Northern Neck — Wayne France / Ed Arnest) is likely warm-intro target. Smith Island/Tylerton is MD parallel.</li>
+      <li><b>Live correspondence threads (gateways NOT subjects):</b> David Sherfinski (VA Comms) routes Moore; Val DiMarzio (MD Comms) routes Colden. Do NOT treat as substantive interview subjects.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Anchor quotes already located -->
+<section id="anchor-quotes">
+  <h2>Anchor quotes already located in public record (don't introduce as if newly-found)</h2>
+  <div class="cheatsheet">
+    <div class="box">
+      <h4>Moore (VA ED) — VA Mercury, CBF press</h4>
+      <ul>
+        <li><i>"It's a struggle because we don't have base science to make good decisions. We have a Bay cap that's based on historic landings."</i> (Feb 2026)</li>
+        <li><i>"Striped bass will not have the same recovery they had in the 1980s."</i> (CBF press 2024)</li>
+        <li><i>"There are clear signs of peril in the Chesapeake, and menhaden are one of the connecting threads."</i> (Aug 2025)</li>
+        <li><i>"Virginia is the epicenter of both the industrial menhaden fishery and incredibly concerning warning signs."</i> (May 2025)</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h4>Colden (MD ED) — MD Matters, Bay Journal, WMRA</h4>
+      <ul>
+        <li><i>"Maryland's striped bass surveys have made it clear — we're facing a looming disaster... ASMFC must err on the side of conservation."</i> (2025)</li>
+        <li><i>"Just as we were confident in increasing the total allowable catch when the science says we should, we need to be as willing to take reductions when the science indicates that that's warranted."</i> (Oct 2025)</li>
+        <li><i>"With more than five years of below average crab numbers, it is clear that changing conditions in the Bay are undermining the current management of this important species."</i> (May 2025)</li>
+        <li><i>"Despite a growing oyster population, Maryland's watermen are feeling the pinch of extreme weather and market competition."</i> (Feb 2026 — the 2026 oyster paradox)</li>
+        <li>DNR plan <i>"cherry-picks"</i> OysterFutures recommendations. (Bay Journal)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Opening -->
+<section id="opening">
+  <h2>Opening (~5 min)</h2>
+
+  <h3>Q0 — Attribution preference (FIRST thing asked — ALL TRACKS)</h3>
+  <blockquote>
+    <p>"Before we get into the framework questions, I want to ask about your preferences for how I handle our conversation in print. The book and any derivative essays — there's a Noema-track essay in development, possibly an Aeon-track piece on a separate angle — would draw on this conversation. Practitioners and institutional voices handle attribution differently — some prefer freely-quotable answers, some prefer paraphrase + attribution unless reviewed first, others ask for full transcript review before any quoting. Whatever works for you, I'll abide by it across the book and essays. What would you prefer?"</p>
+  </blockquote>
+  <p><b>Mark subject's preference + log immediately:</b></p>
+  <ul class="choices">
+    <li><input type="checkbox"> Freely quotable</li>
+    <li><input type="checkbox"> Paraphrase + review-before-quote</li>
+    <li><input type="checkbox"> Full transcript review</li>
+    <li><input type="checkbox"> Off-record</li>
+  </ul>
+  <p style="font-size:13px; color:var(--muted);"><b>Default-if-uncertain:</b> Paraphrase + review-before-quote (Category 2). Common preference for institutional voices, especially appropriate for 501c3-staff. <b>If recording (categories 1–3):</b> capture verbal consent at start. Test before call.</p>
+
+  <h3>Q0.5 — Vocabulary ground rules <span class="track-tag">C</span><span class="track-tag">F</span><span class="track-tag">G</span> only — skip for <span class="track-tag skip">A</span><span class="track-tag skip">B</span><span class="track-tag skip">D</span><span class="track-tag skip">E</span><span class="track-tag skip">H</span></h3>
+  <blockquote>
+    <p>"Before we get into the priority questions — the book uses some specific framework vocabulary (cost severance, RCV, regenerative capacity past-threshold) that may or may not map cleanly to how CBF talks about this work. I'll use both — yours and mine — and I'd like to know during the call where they line up and where they don't. Pushback is the most useful thing you can give me."</p>
+  </blockquote>
+  <p style="font-size:13px; color:var(--muted);">For <span class="track-tag skip">A</span><span class="track-tag skip">B</span><span class="track-tag skip">D</span><span class="track-tag skip">E</span><span class="track-tag skip">H</span> tracks: skip Q0.5; framework vocabulary should land in conversation organically. Density-up-front can register as alienating in those contexts.</p>
+</section>
+
+<!-- Priority questions -->
+<section id="priority">
+  <h2>Priority questions (~25–30 min) — MUST: Q1, Q2, Q5 · SHOULD: Q3 · STRETCH: Q4</h2>
+
+  <article class="q must" id="q1">
+    <span class="label">Must-ask</span>
+    <h3>Q1 — Renewable-past-regeneration on the Bay</h3>
+    <blockquote><p>"Across stripers, oysters, menhaden, and blue crab — where, in your experience, has the prior recovery dynamic clearly stopped being available, where is it still available, and what's the structural difference?"</p></blockquote>
+    <div class="per-track">
+      <div class="track-row"><span class="label-cell"><span class="track-tag">A</span></span><span><b>Port Isobel Captain</b> — radically simplify: <i>"What have you watched change on the water that prior generations of watermen wouldn't have watched change?"</i></span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">B</span></span><span><b>Shannon</b> — lead with oysters; Lynnhaven and 10-tributary VA arc directly; <i>operational</i> signs of recovery vs. structural threshold-crossing.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">C</span></span><span><b>Poston</b> — collapse onto menhaden; lean on "Bay cap from historic landings" critique; threshold-crossed-or-tested-at.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">D</span></span><span><b>Council</b> — oysters-aquaculture-sanctuary tension; less species-threshold, more <i>which model</i> of recovery is structurally available.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">E</span></span><span><b>Everett</b> — Lower Bay species mix; she's seen multiple cycles since 2000; which species' recovery dynamic Hampton Roads has watched change.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">F</span></span><span><b>Falk / Prost</b> — cross-watershed scope; how the question shows up differently MD / VA / PA / DC.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">G</span></span><span><b>Goldsborough</b> — HIS question. Lead with 1980s collapse and ask whether contemporary stripers <i>can</i> recover the way they did then.</span></div>
+    </div>
+    <div class="talking">
+      <strong>Push if shallow:</strong> "Moore has been on the public record that 'striped bass will not have the same recovery they had in the 1980s' — does that match your read, or do you see daylight?"<br>
+      <strong>Vocab-failure probe</strong> <span class="track-tag">C</span><span class="track-tag">F</span><span class="track-tag">G</span><strong>:</strong> "What word does CBF use for the threshold I'm calling 'renewable-past-regeneration'? Or is the construct unhelpful in the work?"
+    </div>
+  </article>
+
+  <article class="q must" id="q2">
+    <span class="label">Must-ask</span>
+    <h3>Q2 — Regulatory architecture vs. the biology</h3>
+    <blockquote><p>"Where have you seen the management unit (Bay cap from historic landings; coastwide modeling; sanctuary-vs.-public-fishery boundaries; ASMFC deferrals) most clearly fail to match the biological unit the science is describing?"</p></blockquote>
+    <div class="per-track">
+      <div class="track-row"><span class="label-cell"><span class="track-tag">A</span></span><span><b>Port Isobel Captain</b> — <i>"When you watch a regulator make a decision about waters you've worked your whole life, what do they get wrong about what's actually happening out there?"</i></span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">B</span></span><span><b>Shannon</b> — MD vs. VA sanctuary-policy contrast; 2024 Virginia Beach stop-work order; OAC dynamics.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">C</span></span><span><b>Poston</b> — ASMFC ERP architecture; Maine-to-Florida modeling critique; observer coverage as missing instrument.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">D</span></span><span><b>Council</b> — COA's role threading wild-vs-aquaculture wedge that DNR proposals (PSFA 2020; SB 922 2024) keep trying to widen.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">E</span></span><span><b>Everett</b> — VMRC architecture; Lower Bay-specific dynamics; how community voices have or have not been heard in the management unit.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">F</span></span><span><b>Falk / Prost</b> — federalism layer — ASMFC vs. state; multi-state via CBC + CBWA; 2040 horizon as institutional accountability.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">G</span></span><span><b>Goldsborough</b> — 2007 original ASMFC Bay cap arc; Amendment 7; what architecture has and hasn't built since the 1980s.</span></div>
+    </div>
+    <div class="talking">
+      <strong>Push if shallow:</strong> "Colden has talked about 'cherry-picks' on the OysterFutures plan; Moore has said the Bay cap is based on historic landings rather than Bay-specific science. Same pattern? Different patterns?"<br>
+      <strong>Vocab-failure probe</strong> <span class="track-tag">C</span><span class="track-tag">F</span><span class="track-tag">G</span><strong>:</strong> "Is there terminology CBF uses for what I'm calling 'regulatory architecture lagging the science'?"
+    </div>
+  </article>
+
+  <article class="q should" id="q3">
+    <span class="label">Should-ask</span>
+    <h3>Q3 — Cost-bearing today</h3>
+    <blockquote><p>"The 2026 oyster paradox — population recovering, watermen suffering — is one articulation of a structural mismatch. Where else on the Bay does that pattern repeat, in your view?"</p></blockquote>
+    <div class="per-track">
+      <div class="track-row"><span class="label-cell"><span class="track-tag">A</span></span><span><b>Port Isobel Captain</b> — <i>"What's it cost the Tangier community to do what's been asked of you to do?"</i> Open-ended; let the answer go where it goes.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">B</span></span><span><b>Shannon</b> — watermen-vs-restoration tension; restoration crews + aquaculturists also bear costs the public-resource framing doesn't always capture.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">C</span></span><span><b>Poston</b> — Omega Protein / Reedville / VA-Bay extraction; 80% bait-fishery decline; cost-flows out (fish oil / animal feed sold globally) while costs (osprey, stripers, blue crabs, watermen) stay.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">D</span></span><span><b>Council</b> — aquaculturist-side cost-bearing — capital cycle, lease access, market competition.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">E</span></span><span><b>Everett</b> — Lower Bay community-bearing; Norfolk seafood economy; charter captain decline; Lynnhaven multi-decade story.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">F</span></span><span><b>Falk / Prost</b> — watershed-scale cost-bearing; upstream (PA agriculture, urban stormwater) vs. downstream; cost-flow across federalist axis.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">G</span></span><span><b>Goldsborough</b> — 1980s collapse cost-bearing; who carried the cost then, who during recovery, who now. Cycle-comparison.</span></div>
+    </div>
+    <div class="talking">
+      <strong>Push if shallow:</strong> "Colden has talked about watermen as 'eyes on the water' — without watermen, fewer people connecting to the Bay. Is that part of the cost too?"<br>
+      <strong>Vocab-failure probe</strong> <span class="track-tag">C</span><span class="track-tag">F</span><span class="track-tag">G</span><strong>:</strong> "I've been calling this 'cost severance' — does that name something you're already seeing, or is the framework's vocabulary off-key here?"
+    </div>
+  </article>
+
+  <article class="q stretch" id="q4">
+    <span class="label">Stretch</span>
+    <h3>Q4 — Generations</h3>
+    <blockquote><p>"When you talk about <i>future generations</i> of the fishery, what specifically do you mean has been lost or is at risk of being lost, that prior cycles didn't lose?"</p></blockquote>
+    <div class="per-track">
+      <div class="track-row"><span class="label-cell"><span class="track-tag">A</span></span><span><b>Port Isobel Captain</b> — <i>"What's different about the work your grandkids will do — or not do — on the water, vs. what you do?"</i></span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">B</span></span><span><b>Shannon</b> — oyster reefs as multi-generational living infrastructure; volunteer kids growing up gardening oysters; what they'll inherit.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">C</span></span><span><b>Poston</b> — menhaden as forage-base for whole ecosystem-cascade generationally.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">D</span></span><span><b>Council</b> — aquaculture as a generational career arc; whether COA model carries across generations.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">E</span></span><span><b>Everett</b> — Lower Bay community continuity; what Hampton Roads families have lost and may continue to.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">F</span></span><span><b>Falk / Prost</b> — CBF's institutional generational arc; 60+ years; Will Baker; Falk-era 2040 horizon.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">G</span></span><span><b>Goldsborough</b> — explicit cycle-comparison: pre-CBF / formative / collapse / recovery / now; what generation has inherited what.</span></div>
+    </div>
+    <div class="talking">
+      <strong>Push if shallow:</strong> "Moore has talked about climate change making the 1980s recovery dynamic structurally unavailable. Is that the kind of generational-loss claim you're making, or different?"
+    </div>
+  </article>
+
+  <article class="q must" id="q5">
+    <span class="label">Must-ask · ~3 min, near close · ALL tracks</span>
+    <h3>Q5 — Voices</h3>
+    <blockquote><p>"Beyond your own, whose voice — watermen, restoration crews, captains, retired institutional memory, allied scientists, partner organizations — would most strengthen the chapter?"</p></blockquote>
+    <div class="per-track">
+      <div class="track-row"><span class="label-cell"><span class="track-tag">A</span></span><span>Fellow Tangier captains; retired Tangier watermen; Smith Island/Tylerton counterparts; Mayor Eskridge framing if appropriate.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">B</span></span><span>Oyster gardeners; Mobile Oyster Restoration Center crews; Lynnhaven River NOW; Bevans / Rappahannock / Rogue aquaculturists.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">C</span></span><span>Recreational allies (CCA Virginia); ASMFC technical-committee voices; VIMS / W&amp;M / SCEMFIS researchers on federally-funded menhaden study.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">D</span></span><span>COA 110+ partners — which subset has freshest voice on aquaculture-restoration coexistence; which aquaculturists most quotable.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">E</span></span><span>Lower Bay watermen; Norfolk-area charter captains; Hampton Roads community voices; Lynnhaven River NOW.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">F</span></span><span>Watershed-scale routing — Anna Killius (CBC); Kristin Reilly (CCWC); cross-state regional EDs; allied national orgs.</span></div>
+      <div class="track-row"><span class="label-cell"><span class="track-tag">G</span></span><span>Historical-arc voices — fellow retired ASMFC veterans; biologists who lived 1980s-2000s arc; published/unpublished oral-history work.</span></div>
+    </div>
+  </article>
+</section>
+
+<!-- Stretch follow-ups -->
+<section id="followups">
+  <h2>Follow-up questions — STRETCH (only if priority lands fast)</h2>
+
+  <article class="q stretch" id="q6">
+    <span class="label">Stretch · any track</span>
+    <h3>Q6 — Cycle-comparison structurally</h3>
+    <blockquote><p>"What does the current crisis have that the prior cycle didn't — and what did the prior cycle have that we don't?"</p></blockquote>
+  </article>
+
+  <article class="q stretch" id="q7">
+    <span class="label">Stretch · <span class="track-tag">C</span><span class="track-tag">F</span><span class="track-tag">G</span></span>
+    <h3>Q7 — Accountability instruments</h3>
+    <blockquote><p>"The framework names two instruments — Restitution Bond for backward-looking and Foreclosure Bond for forward-looking. Conceptually: a bond posted against future obligation, returned if conditions are met, forfeited if they aren't. Does the conceptual structure resemble anything you'd consider plausible in Bay-management — observer coverage, science-fund posting requirements, restoration-completion bonds, anything in that family — or does the bond framing not travel into Bay vocabulary?"</p></blockquote>
+  </article>
+
+  <article class="q stretch" id="q8">
+    <span class="label">Stretch · <span class="track-tag">C</span><span class="track-tag">F</span></span>
+    <h3>Q8 — What CBF would do differently with framework vocabulary</h3>
+    <blockquote><p>"If CBF adopted the vocabulary of cost severance and RCV — even just internally — what's something CBF would name about the Bay that's currently nameless or named less precisely in the work?"</p></blockquote>
+  </article>
+
+  <article class="q stretch" id="q9">
+    <span class="label">Stretch · <span class="track-tag">A</span><span class="track-tag">E</span></span>
+    <h3>Q9 — Working-waterfront futures</h3>
+    <blockquote><p>"What would a generation-from-now Tangier / Smith Island / Northern Neck / Lower Bay community look like if the current trajectory continues? And what would it look like if the current trajectory shifted?"</p></blockquote>
+  </article>
+
+  <article class="q stretch" id="q10">
+    <span class="label">Stretch · any track if surfaced organically</span>
+    <h3>Q10 — Bipartisan / cross-political-tradition framing</h3>
+    <blockquote><p>"CBF works across watermen, regulators, industry, both political parties. What carries the conversation across that range — what vocabulary holds when others don't?"</p></blockquote>
+  </article>
+</section>
+
+<!-- Pivot articulations -->
+<section id="pivots">
+  <h2>Pivot articulations — drop-in if subject goes there</h2>
+  <p style="font-size:13px; color:var(--muted);">Click each to expand. ~30-60 seconds spoken when delivered.</p>
+
+  <h3>Lineage articulations</h3>
+
+  <details class="pivot">
+    <summary>"How does this extend Ostrom?" (most likely lineage pivot for CBF — fisheries are commons)</summary>
+    <div class="body">
+      <blockquote><p>"Ostrom 1990 showed that commons can be governed without state or market through institutional design — but her design principles work specifically for commons that can be managed in sustained-yield perpetuity. The framework extends to commons that can't be managed that way: non-renewable resources from the start, and renewable resources pushed past regenerative capacity. The two-instrument bond architecture is what operates where sustained-yield discipline can no longer apply — accountability-by-instrument for cases where accountability-by-management isn't possible."</p></blockquote>
+      <small>If they want depth: bibliography §1 (Ostrom, North, Coase, Hardin).</small>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"How does this add to Hotelling?" <span class="track-tag">C</span><span class="track-tag">F</span><span class="track-tag">G</span></summary>
+    <div class="body">
+      <blockquote><p>"Hotelling 1931 modeled scarcity rents for exhaustible resources assuming efficient pricing — the math is right. The framework's claim is that the inputs have been wrong: the scarcity rent in Hotelling's sense excludes the cost of permanent option-value foreclosure on future generations, which is what RCV names. The framework's contribution is an accounting instrument that puts intergenerational option-value-loss inside the scarcity rent rather than outside it — making Hotelling's math operate on the right inputs."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"Where does Polanyi sit?" <span class="track-tag">F</span><span class="track-tag">G</span></summary>
+    <div class="body">
+      <blockquote><p>"Polanyi's fictitious-commodities frame in <i>The Great Transformation</i> is the deep substrate the framework builds on. The framework's observation — that certain costs should not be transactable externalities but are treated as such — is a descendant of Polanyi's 'land, labor, money are not produced for market exchange' move. Cost severance is the contemporary mechanism that produces the crises Polanyi identified."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"Why bonds — and not funds, accounts, trusts, or reserves?" <span class="track-tag">C</span><span class="track-tag">F</span><span class="track-tag">G</span></summary>
+    <div class="body">
+      <blockquote><p>"The framework chose 'Bond' deliberately over alternatives. First, real-world precedent: reclamation bonds, environmental performance bonds, surety bonds are existing legal instruments with a century-plus regulatory track record. Second, legal-adoption-travel: the framework's success criterion is vocabulary adoption in regulatory contexts, and 'Bond' already lives there. Third, role-encoding precision: 'Bond' specifies an amount posted against an obligation, returned if conditions are met, forfeited if they aren't — that matches Cost Severance equals RCV minus B cleanly. Account is too generic, Reserve implies one-sided holding, Fund implies general pooling, Trust carries fiduciary connotation but not the conditional-return structure."</p></blockquote>
+    </div>
+  </details>
+
+  <h3>CBF-specific pivots</h3>
+
+  <details class="pivot">
+    <summary>Career-toxic-comparison reassurance (offer unprompted to <span class="track-tag">F</span> if exposure-concern surfaces)</summary>
+    <div class="body">
+      <blockquote><p>"To be clear: the Bay chapter stands on Bay-specific terms. The framework's broader scope — that the same structural mechanism operates across many extraction regimes — is engaged in earlier chapters (coal extraction in West Virginia; oil in the Niger Delta; reparations economics for the Black-American case). The Bay case is studied on its own terms; CBF staff voices are quoted in the Bay context, not absorbed into cross-system comparison. The chapter respects the institutional discipline CBF maintains."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>Regulatory-architecture-lagging-science (Moore's "base science" critique)</summary>
+    <div class="body">
+      <blockquote><p>"That's exactly the territory the framework's 'regulatory architecture lagging the science' thesis tries to name precisely. The Bay cap is generated by the wrong unit of analysis — historic landings rather than contemporary biological assessment. The framework's claim is that this isn't accidental or fixable by good intentions; it's a structural feature of accountability instruments built before the biology was understood. Cost severance is what happens in that gap: the difference between what the architecture prices and what the biology actually costs."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>1980s-collapse memory <span class="track-tag">G</span> especially; available to others</summary>
+    <div class="body">
+      <blockquote><p>"That's the structural question the chapter most cares about — whether the prior recovery was a function of regulatory will plus a still-resilient ecosystem, or whether the ecosystem itself has structurally changed in ways that close the prior recovery dynamic. The framework's renewable-past-regeneration construct names the second case: when the threshold is crossed, accountability-by-management isn't enough; you need accountability-by-instrument."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>Cherry-picks / symmetry-of-deference (Colden frames; available to others)</summary>
+    <div class="body">
+      <blockquote><p>"The symmetry-of-deference framing is exactly what the framework's accountability-instrument vocabulary is trying to operationalize. When the architecture defers to science only in one direction, the cost gets severed onto the next generation. The Foreclosure Bond's structural property — return if conditions met, forfeit if not — makes the symmetry binding rather than aspirational."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>Tangier political-identity handling <span class="track-tag">A</span><span class="track-tag">E</span><span class="track-tag">F</span></summary>
+    <div class="body">
+      <blockquote><p>"The chapter engages Tangier as a working-waterfront community whose generational stakes in the Bay are load-bearing for the chapter's argument. The political identity of the community isn't part of the framework's analytical move — cost-bearing is structural, not partisan. CBF's Shoreline Adaptation Plan partnership is the kind of accountability-instrument framing the chapter studies: erosion and shoreline, framed in the vocabulary the community uses."</p></blockquote>
+      <small><b>Do NOT lead with "climate change"</b> in any Tangier-connected articulation. Mirror CBF's calibrated <i>erosion-and-shoreline</i> framing.</small>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>Omega Protein political-volatility handling <span class="track-tag">C</span> especially</summary>
+    <div class="body">
+      <blockquote><p>"The framework engages the menhaden case structurally — the gap between what the Bay-cap architecture prices and what Bay-specific biology would assess. Industry naming and political dynamics are downstream of the structural claim; the chapter's argument doesn't depend on attributing motive. Moore's science-first register — 'we don't have base science to make good decisions' — is the analytically sharp framing the chapter inherits from CBF's voice."</p></blockquote>
+      <small>Mirror Moore's calibrated register (industry blocks science) rather than industry-as-villain register.</small>
+    </div>
+  </details>
+
+  <h3>Per-register pivots</h3>
+
+  <details class="pivot">
+    <summary>Aquaculturist <span class="track-tag">D</span></summary>
+    <div class="body">
+      <blockquote><p>"The framework treats aquaculture, restoration, and wild harvest as distinct accountability slots — each one binds cost differently. The 2026 oyster paradox you've described — population recovering, watermen suffering — is one place those slots come apart structurally. Cost severance is what happens when the price of a slot isn't borne by the actor who profits from it. COA's coalition-building work threads that — the partnership model is itself an accountability-instrument architecture."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>Operational on-water <span class="track-tag">B</span></summary>
+    <div class="body">
+      <blockquote><p>"What you're describing — multi-generational volunteer commitment, reef-by-reef restoration, generational continuity — is exactly the kind of accountability-by-doing the framework needs more of. The instruments the framework names (bonds, RCV) are the structural vocabulary; what you do operationally is what the bonds would protect. The chapter would benefit a lot from the operational-reality voice on what restoration actually requires."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>Watermen voice <span class="track-tag">A</span> (more posture than pivot — listening register)</summary>
+    <div class="body">
+      <blockquote><p>"Thank you. What you're describing is exactly what the chapter most needs to land — the institutional work CBF does makes sense only because the working-waterfront life makes sense. The framework's job is to put words around what you and watermen like you have always known: the cost of running an extraction system out of accountability gets paid by the next generation. Your voice would help that land in print."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>Historical-memory <span class="track-tag">G</span></summary>
+    <div class="body">
+      <blockquote><p>"The cycle you lived through is structurally what the framework most wants to understand — when does an accountability architecture rebuild after a renewable-resource collapse, and when does it not. The 2007 Bay cap was an accountability instrument; whether it's binding enough now under different climate conditions is the contemporary question Moore and others are asking. Your perspective on what the architecture had then that it may or may not have now is uniquely valuable."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>Gateway <span class="track-tag">H</span></summary>
+    <div class="body">
+      <blockquote><p>"Happy to walk through the framework at whatever depth helps you route. Two contributions: cost severance names a structural mechanism; RCV names what's foreclosed when extraction outpaces regeneration. The Bay chapter is the flagship for the renewable-past-regeneration regime. The voices most useful to the chapter are wild-harvest watermen (Tangier / Port Isobel), restoration-crew operational voices, retired institutional memory like Bill Goldsborough, and the cross-cutting policy voices CBF organizes."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"Can I see the Tech Appendix or Chapter draft?"</summary>
+    <div class="body">
+      <blockquote><p>"Happy to send the Technical Appendix v1.0.0 — it's the formal apparatus where the math sits. I can also share Ch 3 once it reaches a state where it's useful for engagement. Either or both, post-call."</p></blockquote>
+      <small><b>Don't try to walk through formulas verbally on the call.</b></small>
+    </div>
+  </details>
+</section>
+
+<!-- Contingency -->
+<section class="contingency-sec" id="contingency">
+  <h2>Contingency — if subject declines framework engagement or prefers experiential register</h2>
+  <p>
+    <span class="trigger">Triggers</span>
+    Subject says they haven't read enough or don't engage policy-economics frames; gives short / surface-level answers; wants to talk about lived experience instead; multiple framework questions land flat.
+  </p>
+
+  <h3>Verbal pivot — Type 1 (institutional/policy-specialist hedges) <span class="track-tag">C</span><span class="track-tag">F</span><span class="track-tag">G</span><span class="track-tag">H</span></h3>
+  <blockquote><p>"That makes sense — and to be clear, I'm not asking you to commit publicly to specific framework claims. Let me ask about your work directly instead, and I'll use what I learn to position the framework better in the manuscript."</p></blockquote>
+
+  <h3>Verbal pivot — Type 2 (on-water / community / working-waterfront prefers experiential) <span class="track-tag">A</span><span class="track-tag">B</span><span class="track-tag">D</span><span class="track-tag">E</span></h3>
+  <blockquote><p>"Let me set the analytical questions aside. What I most want to learn from you is what you've watched change on the water — and what feels like it's at risk. Your voice in your own words is what the chapter most needs."</p></blockquote>
+
+  <h3>Framework-agnostic question bank (pick 3–5)</h3>
+  <ol>
+    <li><span class="track-tag">A</span><span class="track-tag">B</span><span class="track-tag">D</span><span class="track-tag">E</span><span class="track-tag">G</span> "What have you watched change on the water that prior generations of watermen wouldn't have watched change?"</li>
+    <li><span class="track-tag">G</span><span class="track-tag">F</span><span class="track-tag">E</span> "Compared to the 1980s — or whatever earlier cycle you lived through — what's structurally different about the current crisis?"</li>
+    <li><span class="track-tag">B</span><span class="track-tag">D</span> "Walk me through what restoration actually takes — week to week, season to season — that the public conversation about it doesn't capture."</li>
+    <li><span class="track-tag">E</span><span class="track-tag">A</span> "What does the Bay's condition cost the communities you work with — beyond what gets measured in stock assessments?"</li>
+    <li><span class="track-tag">D</span> "What does the COA partner network see that the centralized advocacy voices miss — and where does that show up in the policy fights?"</li>
+    <li><b>ALL TRACKS</b> "Whose voice — beyond your own — would most help the chapter land its argument? And how would you suggest I reach them?"</li>
+  </ol>
+</section>
+
+<!-- Closing block -->
+<section id="closing">
+  <h2>Closing block (~50–58 min)</h2>
+
+  <h3>Network mapping — multi-staff warm-intro paths</h3>
+  <blockquote><p>"I'm trying to build a chapter that works across CBF voices — operational, institutional, historical, working-waterfront. If you'd be open to it, I'd value warm-intro suggestions for any of these:"</p></blockquote>
+  <div class="per-track">
+    <div class="track-row"><span class="label-cell"><span class="track-tag">A</span></span><span><b>Port Isobel ↔ broader Tangier:</b> other Tangier captains, retired watermen, Mayor Eskridge if it fits the relationship.</span></div>
+    <div class="track-row"><span class="label-cell"><span class="track-tag">B</span></span><span><b>Shannon ↔ Lynnhaven / aquaculturist:</b> Lynnhaven River NOW; Bevans / Rappahannock / Rogue.</span></div>
+    <div class="track-row"><span class="label-cell"><span class="track-tag">C</span></span><span><b>Poston ↔ recreational + ASMFC TC:</b> CCA Virginia; ASMFC TC voices; SCEMFIS researchers.</span></div>
+    <div class="track-row"><span class="label-cell"><span class="track-tag">D</span></span><span><b>Council ↔ COA partner subset:</b> which aquaculturists are freshest voices on coexistence.</span></div>
+    <div class="track-row"><span class="label-cell"><span class="track-tag">E</span></span><span><b>Everett ↔ Lower Bay watermen:</b> Norfolk-area charter captains; Hampton Roads community.</span></div>
+    <div class="track-row"><span class="label-cell"><span class="track-tag">F</span></span><span><b>Falk / Prost ↔ watershed-scale:</b> Anna Killius (CBC); Kristin Reilly (CCWC).</span></div>
+    <div class="track-row"><span class="label-cell"><span class="track-tag">G</span></span><span><b>Goldsborough ↔ historical-arc:</b> retired ASMFC veterans; biologists who lived 1980s-2000s.</span></div>
+  </div>
+
+  <h3>Eskridge facilitation if waterman track <span class="track-tag">A</span></h3>
+  <blockquote><p>"Mayor Eskridge has been mentioned by name as the most-leverage individual VA waterman voice — would a warm intro be possible through your relationship, or is that better routed via another path?"</p></blockquote>
+
+  <h3>Goldsborough historical-memory path (any track)</h3>
+  <blockquote><p>"Bill Goldsborough has been mentioned as the longest institutional memory at CBF on stripers and menhaden. If a warm intro is possible — alumni network, LinkedIn, anything you'd suggest — I'd be very grateful. If retired-figure routing isn't through current staff, I understand."</p></blockquote>
+
+  <h3>Northern Neck / Twin Rivers Watermen's Association (any track)</h3>
+  <blockquote><p>"I'm hoping to reach Wayne France or Ed Arnest at Twin Rivers Watermen's Association — Northern Neck voices on the Potomac restoration work. Does CBF have a working contact there? If not, I'll pursue separately."</p></blockquote>
+
+  <h3>Protective vocabulary advice (any track)</h3>
+  <blockquote><p>"You've spent a career watching Bay vocabulary get framed and reframed in different political contexts. What's the misuse pattern you'd want me writing against, with the framework's terms?"</p></blockquote>
+
+  <h3>Tech Appendix offer <span class="track-tag">C</span><span class="track-tag">F</span><span class="track-tag">G</span></h3>
+  <blockquote><p>"If the conversation surfaces things you'd want to engage at more depth in writing, I'd welcome that. The Technical Appendix v1.0.0 is the formal apparatus where the math sits — happy to send it after the call. Same with Chapter 3 once it reaches a state where it's useful. No pressure either way."</p></blockquote>
+
+  <h3>Pre-publication door (light-touch, NOT a blurb ask)</h3>
+  <blockquote><p>"If the manuscript reaches a state where you'd want to read it, I'd welcome that — and any reflection you'd want to share about it post-publication."</p></blockquote>
+
+  <h3>Final 2 min — close</h3>
+  <ul>
+    <li>Thank the subject for time + generosity.</li>
+    <li>"I'll send a thank-you email and any artifacts (Tech Appendix, etc.) we discussed within 24 hours."</li>
+    <li>End the call.</li>
+  </ul>
+</section>
+
+<!-- Three Tiers -->
+<section id="tiers">
+  <h2>Three Tiers — what to share / not share</h2>
+  <div class="tiers">
+    <div class="tier t1">
+      <h4>Tier 1 — Share freely now</h4>
+      <ul>
+        <li><i>cost severance</i></li>
+        <li><i>RCV</i> (covers BOTH non-renewable AND renewable past regen)</li>
+        <li>Two-instrument decomposition</li>
+        <li>Accounting equation</li>
+        <li><i>CSD</i> methodology</li>
+        <li>Lineage extensions (Ostrom most relevant; Hotelling/Polanyi/Mazzucato available)</li>
+        <li>Ch 3 chapter scope (renewable-past-regen as Bay flagship)</li>
+        <li>Regulatory-architecture-lagging-science thesis</li>
+        <li>Cost-bearing-paradox framing</li>
+      </ul>
+    </div>
+    <div class="tier t2">
+      <h4>Tier 2 — Share post-call if asked</h4>
+      <ul>
+        <li>Technical Appendix v1.0.0</li>
+        <li>Chapter 3 working draft (when ready)</li>
+        <li>Ch 6 (Three Ways of Counting) draft</li>
+        <li>Bibliography §19.5</li>
+        <li>Case-study notes</li>
+      </ul>
+    </div>
+    <div class="tier t3">
+      <h4>Tier 3 — Don't share at all</h4>
+      <ul>
+        <li>Internal scaffolding (FPD doc, working principles, vocabulary strategy, this companion, per-subject background briefs, response drafts)</li>
+        <li>Derivative work in flight (Noema, Aeon, Berggruen)</li>
+        <li>Author's Note / Ch 1 personal-narrative material</li>
+        <li><b>Cross-system comparison-case material (Soviet / Aral / etc.) — Tier 3 for CBF specifically; career-protection</b></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Post-call workflow -->
+<section id="post-call">
+  <h2>Post-call workflow (within 24 hours)</h2>
+  <ol>
+    <li><b>Transcribe</b> the conversation (or notes if not recorded). Log subject's attribution preference + any modifications.</li>
+    <li><b>Send thank-you email</b> with any artifacts agreed (Tech Appendix per Tier 2). Light-touch pre-publication door if not raised.</li>
+    <li><b>Update tracking:</b> mark interview complete; note reading recs in <code>bibliography.md</code> §19.5; flag framework-revision implications.</li>
+    <li><b>Network follow-up:</b> if subject offered any warm intros, follow up within 48 hours.</li>
+    <li><b>Decision points:</b>
+      <ul>
+        <li>Does subject's input warrant a per-subject background brief / interview prep stack of their own (analogous to Colden / Moore)? — for senior subjects <span class="track-tag">F</span><span class="track-tag">G</span>; not for working-waterfront.</li>
+        <li>Does subject's input warrant Noema essay §V third-anchor?</li>
+        <li>Did warm-intro paths surface any new outreach targets?</li>
+      </ul>
+    </li>
+    <li><b>Substitution-analysis update:</b> revise the per-staff calibration table in <code>interview-prep_2026-05-08.md</code> with what was learned.</li>
+  </ol>
+</section>
+
+<!-- Glossary -->
+<section id="glossary">
+  <h2>Glossary</h2>
+  <p class="glossary-intro">Alphabetical within each section. Click any term to expand its definition.</p>
+
+  <div class="glossary-terms">
+
+    <div class="glossary-section-header">Framework terms</div>
+    <details class="term"><summary>Accountability-instrument architecture</summary><div class="term-body">Institutional structures where the binding of cost to actor has gone past values-statement and into operational discipline. CBF programs (sanctuaries, observer requirements, science funds, restoration goals) sit in this category.</div></details>
+    <details class="term"><summary>Cost severance</summary><div class="term-body">The structural mechanism by which value is extracted while the costs of producing it are deliberately separated and transferred to people, ecosystems, or futures who didn't capture the upside. Framework's primary contribution.</div></details>
+    <details class="term"><summary>Cost Severance = RCV − B</summary><div class="term-body">Framework's central accounting equation. When B (the bonded amount posted) is below RCV (the worth foreclosed), the difference is the cost severed onto others.</div></details>
+    <details class="term"><summary>Cost Severance Damages (CSD)</summary><div class="term-body">Framework's analytic instrument applying matched-comparison methodology to extraction-community cases.</div></details>
+    <details class="term"><summary>Foreclosure Bond (B₂)</summary><div class="term-body">Framework's forward-looking accountability instrument — discharges harm yet to be realized. Lineage: environmental-bond and civic-republican.</div></details>
+    <details class="term"><summary>Regulatory architecture lagging the science</summary><div class="term-body">Framework's thesis: management units (Bay caps from historic landings; coastwide ERPs; sanctuary boundaries) consistently fail to match the biological unit the science describes. Cost severance is what happens in the gap.</div></details>
+    <details class="term"><summary>Renewable-past-regeneration</summary><div class="term-body">Framework's term for renewable resources extracted faster than they can regenerate. Once across the threshold, effectively converted to non-renewable; same RCV accounting applies. <b>Bay chapter's flagship case.</b></div></details>
+    <details class="term"><summary>Residual Commons Value (RCV)</summary><div class="term-body">The worth permanently foreclosed when a non-renewable resource — or a renewable resource pushed past regenerative capacity — is drawn down. Framework's pricing-instrument target.</div></details>
+    <details class="term"><summary>Restitution Bond (B₁)</summary><div class="term-body">Framework's backward-looking accountability instrument — discharges harm already realized. Lineage: reparations-economics.</div></details>
+    <details class="term"><summary>Two-instrument decomposition</summary><div class="term-body">Framework's structural move: B = B₁ + B₂. Separates backward-looking restitution from forward-looking foreclosure.</div></details>
+
+    <div class="glossary-section-header">CBF organizational structure</div>
+    <details class="term"><summary>Brock Environmental Center</summary><div class="term-body">CBF's Norfolk / Hampton Roads / Lower Bay operations base. Home of Mobile Oyster Restoration Center + oyster gardening program.</div></details>
+    <details class="term"><summary>CBF</summary><div class="term-body">Chesapeake Bay Foundation; chartered 1967; HQ Annapolis (Philip Merrill Environmental Center). Field offices: Salisbury MD; Harrisburg PA; Richmond VA; Norfolk VA; Washington DC. Residential education centers: Port Isobel (VA Tangier archipelago); Smith Island/Tylerton (MD).</div></details>
+    <details class="term"><summary>Hilary Falk</summary><div class="term-body">President &amp; CEO since Jan 2022; only the third leader in CBF history.</div></details>
+    <details class="term"><summary>Philip Merrill Environmental Center</summary><div class="term-body">CBF Annapolis HQ.</div></details>
+    <details class="term"><summary>Port Isobel</summary><div class="term-body">CBF residential education center on the Tangier archipelago (VA); 250 acres; hires Tangier captains as Captain/Educators. <b>Highest-yield single CBF program for the chapter's load-bearing watermen-voice need.</b></div></details>
+    <details class="term"><summary>Smith Island / Tylerton Center</summary><div class="term-body">CBF MD-side residential education center; parallel to Port Isobel.</div></details>
+
+    <div class="glossary-section-header">CBF programs</div>
+    <details class="term"><summary>Chesapeake Oyster Alliance (COA)</summary><div class="term-body">CBF-founded 2018; 110+ partner coalition; Tanner Council Sr. Manager.</div></details>
+    <details class="term"><summary>Hope on the Half Shell</summary><div class="term-body">CBF Feb 2024 oyster report (Moore-anchored on VA side); recommends 20 additional Bay rivers for restoration.</div></details>
+    <details class="term"><summary>Maryland Shellfish Growers Network</summary><div class="term-body">CBF + UMD Extension joint program for new and veteran shellfish growers.</div></details>
+    <details class="term"><summary>Mobile Oyster Restoration Center</summary><div class="term-body">Barge-based VA oyster restoration unit (Shannon-led).</div></details>
+    <details class="term"><summary>Save Oyster Shells</summary><div class="term-body">Restaurant-and-volunteer shell recycling, ~4,000 bushels/yr in VA.</div></details>
+    <details class="term"><summary>Tangier Island Shoreline Adaptation Plan</summary><div class="term-body">$356,500 NFWF-funded effort; CBF administering with Bayland engineering. Mayor Eskridge named municipal partner.</div></details>
+    <details class="term"><summary>Virginia Oyster Gardening Program</summary><div class="term-body">627 volunteers in 2024 raising/returning 110,000+ oysters; out of Brock Environmental Center.</div></details>
+
+    <div class="glossary-section-header">Fisheries-management vocabulary</div>
+    <details class="term"><summary>ASMFC</summary><div class="term-body">Atlantic States Marine Fisheries Commission. Coastwide management body for migratory fish (stripers, menhaden, etc.).</div></details>
+    <details class="term"><summary>The Bay cap</summary><div class="term-body">Singular, capitalized in CBF usage; refers specifically to the 51,000 MT ASMFC menhaden Chesapeake Bay cap (set Nov 2017 on Colden's original motion).</div></details>
+    <details class="term"><summary>Base science</summary><div class="term-body">Moore's term; refers to baseline biological assessment that current Bay-cap methodology lacks. <i>"It's a struggle because we don't have base science to make good decisions."</i></div></details>
+    <details class="term"><summary>CESR</summary><div class="term-body">2023 STAC report on the 40-year Bay nutrient-reduction effort.</div></details>
+    <details class="term"><summary>Chesapeake Bay Watershed Agreement</summary><div class="term-body">Multi-jurisdictional voluntary commitment; 2014 baseline; 2025 revised; 2040 horizon. Distinct from federal <i>TMDL</i> (legally enforceable EPA mechanism).</div></details>
+    <details class="term"><summary>CBP</summary><div class="term-body">Chesapeake Bay Program (federal-state partnership coordinating Bay restoration).</div></details>
+    <details class="term"><summary>Cherry-picks</summary><div class="term-body">Colden's distinctive characterization of regulatory selective implementation (DNR's OysterFutures management plan). <i>"Cherry-picks recommendations most favored by watermen while ignoring or glossing over others."</i></div></details>
+    <details class="term"><summary>ERPs (Ecological Reference Points)</summary><div class="term-body">ASMFC's 2017-2020 collaborative framework replacing single-species management with ecosystem-based modeling for menhaden (Moore was a participant).</div></details>
+    <details class="term"><summary>Foreshore-adaptation framing</summary><div class="term-body">CBF's calibrated framing for Tangier work; <i>not</i> climate-rhetoric-forward; uses <i>erosion / shoreline / adaptation</i> vocabulary politically tractable in the Tangier community.</div></details>
+    <details class="term"><summary>Industrial reduction fishery</summary><div class="term-body">Converts menhaden into fish oil + animal feed (Omega Protein / Reedville). Distinct from <i>bait fishery</i> (smaller, commercial-bait, also in VA).</div></details>
+    <details class="term"><summary>Forage fish</summary><div class="term-body">For menhaden; ecological-role framing emphasizing menhaden's role as prey base for stripers, ospreys, etc.</div></details>
+    <details class="term"><summary>Foreign-owned</summary><div class="term-body">Moore's deliberate framing on Omega Protein (Cooke Inc., Canadian parent). Pointed populist register; CBF uses it.</div></details>
+    <details class="term"><summary>OAC (MD Oyster Advisory Commission)</summary><div class="term-body">Appointed advisory body; Colden serves.</div></details>
+    <details class="term"><summary>Omega Protein</summary><div class="term-body">Reedville, VA-based industrial menhaden reduction company; ~260 employees; Cooke Inc. Canadian parent. Counter-coalition to CBF on menhaden.</div></details>
+    <details class="term"><summary>PSFA (Public Shellfish Fishery Areas)</summary><div class="term-body">MD wild-harvest areas (vs. sanctuaries vs. aquaculture leases). 2020 PSFA proposal CBF opposed (<i>"undermines the spirit of the law"</i>).</div></details>
+    <details class="term"><summary>Rockfish / striped bass</summary><div class="term-body">Both in active use; do not "correct" between them. CBF uses both interchangeably.</div></details>
+    <details class="term"><summary>Sanctuary (tributary-scale oyster restoration)</summary><div class="term-body">MD's five tributary-scale sanctuaries: Harris Creek, Little Choptank, Tred Avon, St. Mary's, Manokin (all completed 2025). VA equivalents at 10-tributary scale completing 2025: Lafayette, Piankatank, Great Wicomico, Lynnhaven, Lower York, Eastern Branch of Elizabeth + others. <b>Don't refer as "MPAs."</b></div></details>
+    <details class="term"><summary>STAC</summary><div class="term-body">Scientific and Technical Advisory Committee (CBP).</div></details>
+    <details class="term"><summary>TMDL</summary><div class="term-body">Total Maximum Daily Load; legally enforceable EPA pollution-reduction mechanism.</div></details>
+    <details class="term"><summary>VMRC</summary><div class="term-body">Virginia Marine Resources Commission. VA-state-level fisheries management.</div></details>
+
+    <div class="glossary-section-header">Per-staff distinctive vocabulary</div>
+    <details class="term"><summary>2026 oyster paradox</summary><div class="term-body">Colden articulation; population recovering, watermen suffering. Cleanest cost-severance-readable Bay articulation.</div></details>
+    <details class="term"><summary>80% bait-catch reduction</summary><div class="term-body">Moore's testimony figure; quantitative scarcity-cascade indicator downstream of industrial reduction fishery.</div></details>
+    <details class="term"><summary>Connecting threads</summary><div class="term-body">Moore's framing: menhaden as connecting thread across stripers / ospreys / blue crabs.</div></details>
+    <details class="term"><summary>Eyes on the water</summary><div class="term-body">Colden's framing on watermen's role: <i>"Without watermen, there's certainly a lot fewer eyes on the water and a lot fewer people caring passionately about the Bay."</i></div></details>
+    <details class="term"><summary>Looming disaster</summary><div class="term-body">Colden + Moore parallel framing on stripers; <i>"surveys have made it clear — we're facing a looming disaster."</i></div></details>
+    <details class="term"><summary>Maine-to-Florida modeling</summary><div class="term-body">Moore's critique of coastwide management generality vs. Bay-specific need.</div></details>
+    <details class="term"><summary>Red flags flying</summary><div class="term-body">Colden's blue crab framing.</div></details>
+    <details class="term"><summary>Symmetry-of-deference</summary><div class="term-body">Colden's methodologically precise framing: <i>"Just as we were confident in increasing TAC when science says we should, we need to be willing to take reductions when science indicates that's warranted."</i></div></details>
+  </div>
+</section>
+
+<p class="source-note">
+  Consolidates content from <code>research/outreach/subjects/cbf/prereadbrief_2026-05-08.md</code> (priority Q1–Q5),
+  <code>research/outreach/subjects/cbf/interview-prep_2026-05-08.md</code> (per-staff calibration, follow-ups, talking points, contingency, closing block, three tiers),
+  <code>research/outreach/subjects/cbf/organizational-brief_2026-05-06.md</code> (org map + watermen routing + recent positions),
+  <code>research/outreach/subjects/colden/background-brief_2026-05-08.md</code> (anchor quotes + MD-side register),
+  <code>research/outreach/subjects/moore/background-brief_2026-05-08.md</code> (anchor quotes + VA-side register),
+  <code>research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md</code> (Q0 verbal phrasing), and
+  <code>commons_bonds_framework_positioning_disciplines_v1.0.0.md</code> (canonical lineage articulations + four-artifact stack canonical structure). Source documents remain canonical; this is the live-call working artifact only.
+</p>
+
+  </main>
+</div>
+</body>
+</html>

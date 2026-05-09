@@ -18,8 +18,8 @@
 
 **Outreach pipeline (week of 2026-05-05):**
 
-- **12 cold-outreach drafts sent 2026-05-05 morning** per `research/outreach/interview-outreach-drafts_2026-05-01.md`.
-- **Ch 3 Chesapeake fieldwork outreach sent 2026-05-05 09:00 ET** per `research/outreach/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md`.
+- **12 cold-outreach drafts sent 2026-05-05 morning** per `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md`.
+- **Ch 3 Chesapeake fieldwork outreach sent 2026-05-05 09:00 ET** per `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md`.
 - **Three responses received:** Darity (ACCEPTED 2026-05-05) + Raworth (DECLINED 2026-05-05 via EA Beth Ingledew, but **upgraded 2026-05-06** when Beth followed up offering a warm intro to the Amsterdam DEAL implementation team — the Amsterdam City Doughnut is the framework's cleanest live Pattern 2 case) + Mazzucato (HOLDING RESPONSE 2026-05-06 via Adam Albrecht, Office of Prof. Mazzucato, UCL IIPP — neither acceptance nor decline; "we will review the request alongside other commitments and get back to you shortly").
 - **Two replies scheduled to send 2026-05-06 08:00 ET:** Darity scheduling-reply + Colden-via-DiMarzio response.
 - **Other 8 cold-outreach recipients:** no response yet (within standard 2-3 week academic-response window).
@@ -34,16 +34,16 @@
 
 - **Status:** ACCEPTED 2026-05-05. Sandy Darity ("Sandy") replied same-day to cold outreach: *"I will be glad to chat. Would you please share some possible times with me next week, the week of the 10th of May?"*
 - **Reply scheduled:** 2026-05-06 08:00 ET. Offers Tue May 12 or Wed May 13 by phone; Wed May 13 in-person at Duke also available (Hampton VA → Durham NC drive). Mullen warm-intro ask deferred per author decision (raise at end of interview if conversation goes well).
-- **Pre-read brief:** drafted at `research/outreach/darity-prereadbrief_2026-05-05.md`. One-page artifact — framework one-paragraph summary + citation-location pointers (Ch 5 §"Restitution and Foreclosure"; Ch 6 methodology; bibliography §18.5) + 5 focused questions (two-instrument decomposition · *Umbrellas* methodology portability · vocabulary precision · Restitution Bond as reform vehicle · reading recommendations).
+- **Pre-read brief:** drafted at `research/outreach/subjects/darity/prereadbrief_2026-05-05.md`. One-page artifact — framework one-paragraph summary + citation-location pointers (Ch 5 §"Restitution and Foreclosure"; Ch 6 methodology; bibliography §18.5) + 5 focused questions (two-instrument decomposition · *Umbrellas* methodology portability · vocabulary precision · Restitution Bond as reform vehicle · reading recommendations).
 - **Outcomes feed:** Ch 5 (two-instrument decomposition validation); Ch 6 (Umbrellas methodology portability into extraction-community contexts — McDowell County / Libby / Niger Delta / opioid-Appalachia); Noema (vocabulary precision + sharp pull-quote candidate); Aeon (silent prose-sharpening of McDowell case-walk + universality framing — no quote needed).
-- **Ratified question weighting per artifact:** see `research/outreach/interview-outreach-drafts_2026-05-01.md` Darity entry for Q1–Q5 mapping table across book / Noema / Aeon. Aeon weight is deliberately low — interview is for book + Noema, with invisible Aeon downstream benefit.
+- **Ratified question weighting per artifact:** see `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` Darity entry for Q1–Q5 mapping table across book / Noema / Aeon. Aeon weight is deliberately low — interview is for book + Noema, with invisible Aeon downstream benefit.
 - **Open loop:** once Sandy proposes a specific time, log confirmed slot on outreach entry + update brief's `[interview date — TBD]` placeholder.
 
 ### §2.2 Colden interview track (via Val DiMarzio at CBF)
 
 - **Status:** Val DiMarzio responded on behalf of Allison Colden (CBF Maryland Executive Director). Response drafted 2026-05-05 with multiple iterations through the day (Q1 rewrite per public-record check; Q2 chapter-localization; Q3 graceful-out; AI-disclosure resolved; salutation formal "Dear Ms. DiMarzio"; Aral Sea name-drop kept; institutional-architecture closing item added; Q4 = Option A — Noema-only urgency, drop Aeon claim).
 - **Response scheduled:** 2026-05-06 08:00 ET (same window as Darity reply).
-- **7-question batch stashed** in `research/outreach/questions-draft_2026-05-05_colden-if-val-accepts.md` — ready to send if Val accepts the offer for a Colden interview.
+- **7-question batch stashed** in `research/outreach/subjects/colden/questions-draft_2026-05-05_if-val-accepts.md` — ready to send if Val accepts the offer for a Colden interview.
 - **Outcomes drive:** Ch 3 drafting (currently undrafted — Watermen / Chesapeake fishery as renewable-past-regeneration case); Noema §V third-anchor decision (currently gated on this interview).
 
 ### §2.3 Aeon pitch track
@@ -141,8 +141,8 @@ Next free insight number: **#67**.
 
 **Workstream entry points:**
 
-- Darity track: `research/outreach/interview-outreach-drafts_2026-05-01.md` (entry #2) + `research/outreach/darity-prereadbrief_2026-05-05.md`
-- Colden track: `research/outreach/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` + `research/outreach/response-draft_2026-05-05_colden-via-dimarzio.md` + `research/outreach/questions-draft_2026-05-05_colden-if-val-accepts.md`
+- Darity track: `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` (entry #2) + `research/outreach/subjects/darity/prereadbrief_2026-05-05.md`
+- Colden track: `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` + `research/outreach/subjects/colden/response-draft_2026-05-05_via-dimarzio.md` + `research/outreach/subjects/colden/questions-draft_2026-05-05_if-val-accepts.md`
 - Aeon track: `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn.md`
 - Noema rewrite: `manuscript/essay/Noema/rewrite-plan_2026-05-01.md` + `manuscript/essay/Noema/withdrawal-note_2026-05-01.md`
 - Ch 1 (newly drafted): `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md` + `Chapter__1___GuidanceDoc.md` + `research/story-drafts/ch1_*` substrate files
