@@ -2,7 +2,7 @@
 
 **Version:** 2.0.0
 **Date:** 2026-05-09 (revised from v1.0.0 2026-04-28)
-**Status:** RATIFIED 2026-05-09 + SCHEDULED 2026-05-09 — Routines 1', 2 (refined), 3', 4' live as remote agents; v1.0.0 Routines 1, 3, 4 deprecated/deferred per author direction
+**Status:** RATIFIED 2026-05-09 + SCHEDULED 2026-05-09 — Routines 1', 2 (refined), 3', 4' live as remote agents on a unified 6:30am ET cadence (cron-time refresh 2026-05-09; v1.0.0 Routines 1, 3, 4 deprecated/deferred per author direction). DST-shift reminder one-shot scheduled for 2026-10-25.
 **Author:** Chris Winn (drafting + review); routines run as scheduled remote agents
 
 > **Filename note.** This file is named `proposed_routines_v1.0.0.md` because it was created at v1.0.0 on 2026-04-28. The v1.0.0 routine specs are recoverable from git history; the file has been rewritten in place at v2.0.0 to keep cross-references stable. Future major revisions will follow the same in-place pattern with a version bump in the header.
@@ -39,9 +39,9 @@ The v2.0.0 routine set replaces low-marginal-value vocabulary-churn-era routines
 
 | Routine | Cadence | Purpose |
 |---|---|---|
-| **1' — Cross-thread state-snapshot** | Every other day, 3pm ET | Survey branches; flag stale references + open cross-thread TODOs; replaces Routine 1's slot |
-| **3' — Branch hygiene scan** | Weekly Friday 5pm ET | Surface branch-sprawl candidates for retirement; pre-empt the rescue-from-frozen-sessions pattern |
-| **4' — Stale-reference scan** | Weekly Sunday 8pm ET | Punch-list of broken cross-references in publishing-strategy + manuscript-essay artifacts |
+| **1' — Cross-thread state-snapshot** | Every other day, 6:30am ET | Survey branches; flag stale references + open cross-thread TODOs; replaces Routine 1's slot |
+| **3' — Branch hygiene scan** | Weekly Friday 6:30am ET | Surface branch-sprawl candidates for retirement; pre-empt the rescue-from-frozen-sessions pattern |
+| **4' — Stale-reference scan** | Weekly Sunday 6:30am ET | Punch-list of broken cross-references in publishing-strategy + manuscript-essay artifacts |
 
 ---
 
@@ -49,7 +49,7 @@ The v2.0.0 routine set replaces low-marginal-value vocabulary-churn-era routines
 
 **Purpose.** Every other day, surface what's changed across the project since the last snapshot — what landed on main, what's in flight on which feature branches, what stale references have accumulated, what cross-thread TODOs are open. Replaces v1.0.0 Routine 1 (daily terminology-regression sentinel) which has low marginal value post-vocabulary-stabilization.
 
-**Cadence.** Every other day at 3pm ET. Cron: `0 19 */2 * *` UTC (EDT-anchored; revisit at Nov 2026 DST shift). **Live as `trig_016fusGEFZV49uaWfRXNBPTT` since 2026-05-09.**
+**Cadence.** Every other day at 6:30am ET. Cron: `30 10 */2 * *` UTC (EDT-anchored; revisit at Nov 2026 DST shift). **Live as `trig_016fusGEFZV49uaWfRXNBPTT` since 2026-05-09; cron-time refreshed to 6:30am ET later same day.**
 
 **Prompt:**
 
@@ -107,7 +107,7 @@ Output format:
 ### Recommended actions
 - (1-3 highest-priority items to address based on the above.)
 
-Snapshot run YYYY-MM-DD at HH:MM. Next run: day-after-tomorrow 3pm ET.
+Snapshot run YYYY-MM-DD at HH:MM UTC. Next run: day-after-tomorrow 6:30am ET.
 ```
 
 **Expected output:** ~½-page state-snapshot suitable for morning-coffee review. Picks up drift between branches before it accumulates into rescue-from-frozen-sessions territory.
@@ -118,7 +118,7 @@ Snapshot run YYYY-MM-DD at HH:MM. Next run: day-after-tomorrow 3pm ET.
 
 **Purpose.** Catch publication-readiness blockers in chapters in active polish + Ch 3 (the only undrafted chapter as of 2026-05-09). Drops the comprehensive notation-collision sweep (mostly stable post-Insight #21 closure 2026-05-04).
 
-**Cadence.** Weekly Monday 8am ET. Cron: `0 12 * * 1` UTC (EDT-anchored). **Live as `trig_018z7Dkcrw7R9Br25rvmCnTD` (re-purposed in-place from v1.0.0 Routine 2) since 2026-05-09.**
+**Cadence.** Weekly Monday 6:30am ET. Cron: `30 10 * * 1` UTC (EDT-anchored). **Live as `trig_018z7Dkcrw7R9Br25rvmCnTD` (re-purposed in-place from v1.0.0 Routine 2) since 2026-05-09; cron-time refreshed to 6:30am ET later same day.**
 
 **Refinements from v1.0.0:**
 - Scope reduced: only chapters in active polish + Ch 3 (previously: all 10 chapters every week). "Active polish" determined dynamically by `git log --since="14 days ago" --name-only -- 'manuscript/chapters/Chapter_*Draft.*'`.
@@ -129,7 +129,7 @@ Snapshot run YYYY-MM-DD at HH:MM. Next run: day-after-tomorrow 3pm ET.
 **Prompt (live):**
 
 ```
-Cron: 0 12 * * 1 UTC (Monday 8am ET) — v2.0.0-refined weekly pre-submission readiness audit for the Commons Bonds book project.
+Cron: 30 10 * * 1 UTC (Monday 6:30am ET) — v2.0.0-refined weekly pre-submission readiness audit for the Commons Bonds book project.
 
 The repo is checked out at the working directory. This is the v2.0.0-refined version of Routine 2 (lighter scope per author direction 2026-05-09; supersedes v1.0.0 Routine 2). See tools/routines/proposed_routines_v1.0.0.md for spec.
 
@@ -233,7 +233,7 @@ Per chapter:
 - Group B scaffolding-scrub items: X total findings across Y files
 - Manuscript-completion-rate: X%
 
-Audit run YYYY-MM-DD at HH:MM UTC. Next run: Monday next week 8am ET.
+Audit run YYYY-MM-DD at HH:MM UTC. Next run: Monday next week 6:30am ET.
 
 Context: this is v2.0.0-refined Routine 2. Scope reduced to chapters in active polish + Ch 3 (vs. all 10). Length-tracking softened per substance-drives-length discipline. Notation-collision sweep dropped per Insight #21 closure. Manuscript-completion-rate metric added.
 ```
@@ -244,7 +244,7 @@ Context: this is v2.0.0-refined Routine 2. Scope reduced to chapters in active p
 
 **Purpose.** Weekly Friday afternoon scan of all `claude/*` remote branches; surface branch-sprawl candidates for retirement; pre-empt the rescue-from-frozen-sessions pattern that emerged when ~8 branches accumulated unmerged work.
 
-**Cadence.** Weekly Friday 5pm ET. Cron: `0 21 * * 5` UTC (EDT-anchored). **Live as `trig_01AcETfMQs2kD8vyvuKK5Arw` since 2026-05-09.**
+**Cadence.** Weekly Friday 6:30am ET. Cron: `30 10 * * 5` UTC (EDT-anchored). **Live as `trig_01AcETfMQs2kD8vyvuKK5Arw` since 2026-05-09; cron-time refreshed to 6:30am ET later same day.**
 
 **Prompt:**
 
@@ -283,10 +283,10 @@ Output format:
 ### Recommended actions
 - (1-3 specific moves: e.g., "Fast-forward `claude/X` to main"; "Review `claude/Y` for abandonment"; etc.)
 
-Scan run YYYY-MM-DD. Next run: Friday next week 5pm ET.
+Scan run YYYY-MM-DD. Next run: Friday next week 6:30am ET.
 ```
 
-**Expected output:** brief table + closing summary. Friday afternoon timing aligns with end-of-week project rhythm; gives author a digest before weekend.
+**Expected output:** brief table + closing summary. Friday morning timing puts the digest in front of the author at start-of-day end-of-week (unified 6:30am ET cadence with the other routines).
 
 ---
 
@@ -294,7 +294,7 @@ Scan run YYYY-MM-DD. Next run: Friday next week 5pm ET.
 
 **Purpose.** Weekly scan for broken or outdated cross-references in publishing-strategy + manuscript-essay artifacts. Catches: file paths whose target was renamed/moved/deleted; references to versions/decisions superseded but not updated; "resolved" decisions not yet struck through; outdated Date-modified fields.
 
-**Cadence.** Weekly Sunday 8pm ET. Cron: `0 0 * * 1` UTC (EDT-anchored; Sun 8pm ET = Mon 00:00 UTC). **Live as `trig_01Puk9mHXTRUT8UWVUjptd1S` since 2026-05-09.**
+**Cadence.** Weekly Sunday 6:30am ET. Cron: `30 10 * * 0` UTC (EDT-anchored). **Live as `trig_01Puk9mHXTRUT8UWVUjptd1S` since 2026-05-09; cron-time refreshed to 6:30am ET later same day.**
 
 **Prompt:**
 
@@ -357,7 +357,7 @@ Output format:
 - Medium-priority (stale references): M
 - Low-priority (Date-modified lint): J
 
-Scan run YYYY-MM-DD. Next run: Sunday next week 8pm ET.
+Scan run YYYY-MM-DD. Next run: Sunday next week 6:30am ET.
 ```
 
 ---
@@ -388,7 +388,9 @@ Item 5 (re-evaluating deferred Routines 3 + 4 post-Phase-3) remains the open rec
 - [x] **Routine 4** (v1.0.0 weekly Open Insights status sync) — **DEFERRED** 2026-05-09
 - [x] **Routine 4'** (weekly stale-reference scan) — **RATIFIED + SCHEDULED** 2026-05-09 — `trig_01Puk9mHXTRUT8UWVUjptd1S`
 
-All four live routines run as remote agents on Anthropic cloud (environment `env_01PoHTUjJ2qNQv7D6qLjzQU1`), model `claude-sonnet-4-6`, allowed_tools `["Bash","Read","Write","Edit","Glob","Grep"]`. Cron expressions are EDT-anchored — revisit at the November 2026 DST shift. Routine output appears as completed remote-agent runs in the routines panel at https://claude.ai/code/routines.
+All four live routines run as remote agents on Anthropic cloud (environment `env_01PoHTUjJ2qNQv7D6qLjzQU1`), model `claude-sonnet-4-6`, allowed_tools `["Bash","Read","Write","Edit","Glob","Grep"]`, MCP connections cleared. Cron expressions are EDT-anchored — revisit at the November 2026 DST shift. Routine output appears as completed remote-agent runs in the routines panel at https://claude.ai/code/routines.
+
+**DST shift reminder.** A one-shot remote agent is scheduled for 2026-10-25 at 6:30am ET (`trig_01DZSC4uF8nZwLGVb2Bv3Nq5`, `run_once_at: 2026-10-25T10:30:00Z`) to compute the EST-anchored cron rebases for all four routines and write a reminder note to `tools/routines/dst-shift-reminder_2026-11.md`. The author then decides which crons (if any) to rebase before the Sunday 2026-11-01 DST shift. The reminder agent does NOT modify routines.
 
 ---
 
@@ -397,6 +399,7 @@ All four live routines run as remote agents on Anthropic cloud (environment `env
 - **2026-04-28.** v1.0.0 drafted — four routines (daily terminology sentinel + weekly pre-submission audit + weekly rigor pass tracker + weekly Open Insights sync). Pending author ratification.
 - **2026-05-09.** v2.0.0 in-place rewrite per author direction. v1.0.0 Routine 1 deprecated; Routine 2 ratified-with-refinement; Routines 3 + 4 deferred. New routines added: 1' (cross-thread state-snapshot, every other day), 3' (weekly branch hygiene scan), 4' (weekly stale-reference scan). Companion file `publishing/strategy/cross-thread-todos.md` stood up same date.
 - **2026-05-09 (later same day).** All four ratified routines (1', 2-refined, 3', 4') scheduled as live remote agents. Routine 2's existing v1.0.0 trigger re-purposed in-place with the refined prompt + new cron + MCP connections cleared. Refined Routine 2 prompt (previously "rewrite pending") drafted and inlined into this spec for traceability. v1.0.0 Routine 2 prompt remains recoverable from git history.
+- **2026-05-09 (third pass, same day).** All four routines unified to a 6:30am ET cadence (cron-time refresh per author direction): 1' every other day, 2 Mondays, 3' Fridays, 4' Sundays — all firing at 30 minutes past 10am UTC during EDT season. Auto-attached Gmail + Google Drive MCP connections stripped from Routines 1', 3', 4' (Routine 2 already cleared on initial scheduling). DST-shift reminder one-shot scheduled for 2026-10-25 6:30am ET (`trig_01DZSC4uF8nZwLGVb2Bv3Nq5`) to surface the EST-anchored cron rebase punch list one week ahead of the 2026-11-01 DST shift. Confirmed v1.0.0 Routines 3 + 4 disabled triggers are gone (HTTP 404 on get).
 
 ---
 
