@@ -1,6 +1,6 @@
 # Commons Bonds — Publishing Strategy: Derivative Works → Agent → Publisher
 
-**Date drafted:** 2026-05-06
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-08
 **Author:** Chris Winn  ·  **Book target:** 2026–2027
 
 ---
