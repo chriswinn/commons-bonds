@@ -15,7 +15,32 @@ This GuidanceDoc predates the framework cascade applied 2026-05-04 (Insights #65
 
 See: `alignment/commons_bonds_open_insights_v1.0.0.md` Insights #65 + #66 for full record. Inline STALE markers below remain valid where they appear.
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying. Per-section staleness audit deferred to future pass; flag inline as encountered during drafting.
+**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
+
+**[PER-SECTION STALENESS AUDIT 2026-05-08]**
+
+| Section | Status | Notes |
+|---|---|---|
+| § Header / STALE-FRAMING NOTICE / staleness disclaimer / cross-references | CURRENT | already covers 2026-05-04 framework cascade (Insights #65 + #66) + retired vocabulary list |
+| § Extracted Draft scaffolding intro (line ~28) | CURRENT | descriptive metadata |
+| § INTERVIEW NEEDED slots — 3 total (line ~32) | CURRENT | outreach pipeline now active (Darity / Beth-Ingledew Amsterdam intro / Sherfinski / Colden); slot 1-3 still relevant for Ch 2 specifically |
+| § What the Ch 2 Draft does not yet have (line ~38) | PARTIALLY CURRENT | "Specific named individuals" — still true (interviews pending); "IPG number range" — verify against current Ch 6 math state; "within-chapter comparison" — still optional |
+| § What the Ch 2 Draft locks in (line ~44) | PARTIALLY REGRESSED | items already have inline [STALE 2026-04-30] markers for Spatial Cost Severance + 8-tier scheme; remaining items (cost vocabulary; counterarguments; carbon footnote; common bonds theme) still CURRENT |
+| § "Chapter 2 (The Miner)" + Objections section (line ~62) | CURRENT | structural marker; chapter title stable |
+| § "CHAPTER 2: THE MINER" — McDowell County data (line ~78) | CURRENT | historical data still load-bearing for Ch 2; numerics aligned |
+| § "$100 barrel passage" framing (line ~97) | CURRENT | introduced through McDowell County lens still aligns with Ch 2 |
+| § Black Lung Trust Fund / mine-reclamation-bond data (line ~99-115) | CURRENT | data still load-bearing for Ch 2 |
+| § Carbon cost line (line ~117) | CURRENT | "save the full SCC discussion for Chapter 6" still applies |
+| § Cost severance vocabulary introduction (line ~119) | **REGRESSED** | "Value capture as the paired mechanism" — Value Capture is RETIRED 2026-04-29 in favor of Value Extraction. Update needed. |
+| § Spatial cost severance introduced (line ~125) | **REGRESSED** | Spatial Cost Severance retired 2026-04-24; covered by STALE-FRAMING NOTICE at file head; "geographic distance" remains valid framing per Insight #65 (one of six common patterns observed) |
+| § Corrected McDowell County numbers (line ~127) | CURRENT | national-vs-local distinction still applies |
+| § Counterarguments woven in (line ~129) | CURRENT | counterargument structure still applies |
+| § How to handle the numbers (line ~135) | CURRENT | Register 1 framing aligned |
+| § "1. THE BOOK NEEDS LIVING PEOPLE" (line ~159) | **MIGRATED 2026-05-08** | Migrated to `_BookLevelGuidance.md` §1 as canonical home; in-file copy retained with markers per WP#10. 2026-05-08 status update there reflects outreach pipeline now active. |
+| § "8. THE BOOK NEEDS COMPARATIVE CASES WITHIN CHAPTERS" (line ~175) | **MIGRATED 2026-05-08** | Migrated to `_BookLevelGuidance.md` §8 as canonical home; in-file copy retained with markers per WP#10. McDowell County / comparable-coal-community contrast advice still canonical. |
+| § Chapter 2 (The Miner) objection paragraph (line ~185) | **DUPLICATE** | same paragraph as line ~74; redundant; could be deleted to clean up |
+| § COUNTERARGUMENT 2: "Cheap energy lifted billions out of poverty" (line ~189) | CURRENT | counterargument framing + response strategy still load-bearing for Ch 2's counterargument-engagement |
+| § COUNTERARGUMENT 6: "You ignore the benefits of extraction to the extraction community itself" (line ~215) | CURRENT | counterargument framing + response strategy still load-bearing |
 
 **Cross-references:**
 - `Chapter__2_TheMiner__Draft.md` — publisher-facing prose.
@@ -156,6 +181,8 @@ Let me think about this from every angle — what would make a publisher say yes
 
 ---
 
+**[MIGRATED 2026-05-08 to `_BookLevelGuidance.md` — two book-level sections (1 LIVING PEOPLE + 8 WITHIN-CHAPTER COMPARISONS) consolidated there as canonical home. Original text preserved below for historical reference per WP#10 internal-scaffolding discipline. When drafting Ch 2, use the migrated file as the canonical source; this in-file copy is no longer maintained.]**
+
 1. THE BOOK NEEDS LIVING PEOPLE
 
 This is the single biggest structural weakness right now. The book has data, theory, historical cases, and mathematical frameworks. What it lacks is what made Evicted win the Pulitzer — real people whose stories the reader follows across chapters.
@@ -179,6 +206,8 @@ Right now, each chapter focuses on a single case or theme. This is clean structu
 Within Chapter 2 (The Miner), briefly contrast McDowell County with a comparable coal community that had slightly better outcomes — perhaps one with a stronger union presence, or one where a local leader fought for accountability. This shows that the mechanism operates on a spectrum and that policy choices matter within the mechanism.
 
 These within-chapter comparisons strengthen the argument because they show the model isn't a blunt instrument that says "extraction bad." It's a sensitive instrument that says "extraction under these conditions produces this much cost severance, and extraction under different conditions produces a different amount." That sensitivity is what makes it credible.
+
+**[End of migrated content — see `_BookLevelGuidance.md` for canonical version + 2026-05-08 status update on outreach pipeline.]**
 
 ---
 
