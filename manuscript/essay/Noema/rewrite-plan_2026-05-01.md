@@ -36,7 +36,7 @@ The 2026-05-01 plan anticipated Ch 1 would supply the vignette opener (Section I
 | III — Cost made visible (cable TV / DMV commute / age-38-on-plane "quiet math") | Paraphrase Ch 1 second half | ~600 | Already written; paraphrase per Path B |
 | IV — Framework named (cost severance + RCV in plain language, two paragraphs) | NEW; paraphrase from Ch 5 / Ch 6 framing without the math | ~400 | NEW prose — accessible naming, not technical exposition |
 | V — Cross-history beat (Norway as existence proof; one historical case for breadth) | Paraphrase Ch 4; possibly Darity-interview material | ~500 | NEW prose; gated on Darity May 12 quote-confirmation |
-| VI — Solutions cluster γ (Mazzucato + Mondragon + third anchor) | Paraphrase Ch 9 + Ch 10 + interview material | ~700 | NEW prose; third-anchor decision still gated on Colden interview outcome |
+| VI — Solutions cluster γ (Mazzucato + Mondragon + third anchor) | Paraphrase Ch 9 + Ch 10 + interview material | ~700 | NEW prose; third-anchor decision gated on Colden interview *or* sufficient public-record material on Chesapeake fisheries restoration (per de-risking decision 2026-05-08) |
 | Close — Vignette callback + framework-for-the-ones-who-come-after | Paraphrase Ch 1 closing paragraph | ~200 | Already written; light touching |
 
 **Total: ~3,700 words.** Inside Noema's 2,500–4,000 band per `noema-writing-guidelines.pdf`.
@@ -46,7 +46,7 @@ The 2026-05-01 plan anticipated Ch 1 would supply the vignette opener (Section I
 - **Path B no-overlap rule** — essay paraphrases Ch 1 prose; doesn't reuse sentences.
 - **Hook decision** — Chris-as-vignette plane scene at sunrise (Ch 1 actually opens exactly as the original plan specified).
 - **Solutions cluster γ architecture** — Mazzucato + Mondragon + third-anchor remains the right structure.
-- **Third-anchor gating on Colden interview** — Chesapeake fisheries case becomes a candidate for the third anchor if Colden converts substantively; otherwise stays among Vienna / Ecuador-Whanganui / Amsterdam DEAL.
+- **Third-anchor gating on Colden interview *or* sufficient public-record material** — Chesapeake fisheries case becomes a candidate for the third anchor if Colden converts substantively, OR if parallel public-record prep yields enough material on Bay restoration / Colden's published positions to seed the case without a live interview (per de-risking decision 2026-05-08; see `publishing/strategy/decisions-log.md` 2026-05-08 (De-risk Colden + Moore) entry). Otherwise the third anchor stays among Vienna / Ecuador-Whanganui / Amsterdam DEAL.
 - **Darity-interview integration into Section V** — May 12 @ 14:00 ET call; quote-confirmation feeds Section V.
 - **AI-collaboration disclosure** — now standardized at `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` (Noema variant); place at the bottom of the cover note OR as essay footer per Noema guidelines.
 - **Pitch model structure** — hook → tension → plan → solutions → characters → differentiation per Noema model.

@@ -8,6 +8,36 @@
 
 ---
 
+## 2026-05-08 — De-risk Colden + Moore CBF dependency via parallel public-record prep (queued for manuscript/outreach thread)
+
+**Decision.** The Ch 3 (Watermen / Chesapeake fishery) and Noema essay §V third-anchor decision are currently single-failure-point dependencies on Colden + Moore CBF interview outcomes. To de-risk, queue parallel public-record prep work on both subjects — mirror the methodology already applied to Darity (`research/outreach/darity-background-brief_2026-05-06.md`) and Dagan (`amsterdam-donut-prereadbrief_2026-05-06.md`): build background briefs of public quotes, congressional/state-legislature testimony, op-eds, podcast appearances, and CBF press releases. Output is useful whether or not interviews land — pre-interview prep + fallback if interviews decline.
+
+**Cross-thread coordination.** Actual research-dossier work belongs to the manuscript / outreach thread (lives in `research/outreach/`). The publishing-strategy thread captures the strategic rationale here and updates the gating language in the Noema rewrite plan REVISION + the cascade plan to reflect the relaxed dependency.
+
+**Implications:**
+- **§V third-anchor gating**: "Colden interview" → "Colden interview OR sufficient public-record material on Chesapeake fisheries restoration as renewable-past-regeneration case."
+- **Ch 3 drafting** unblocks earlier if public-record yield is sufficient — manuscript thread retains discretion on whether interview material is essential or substitutable for the chapter's narrative arc.
+- **Aeon submission (first week of June)** and **proposal sprint (late June)** are not affected — both already proceeded independently of Colden/Moore tracks.
+
+**Three scenarios this prep covers:**
+- *Both decline* → public-record material is the only material; Ch 3 + §V can still be written from it.
+- *One lands* → the other's prep covers gaps in the interview material.
+- *Both land* → prep is "redundant" but the live calls were sharper (less time spent rediscovering public material).
+
+The downside of skipping is losing Ch 3 and the Noema §V slot if both interviews decline — material risk to "arguably the whole book" per author 2026-05-08.
+
+**Time-box.** ~1 day per subject (mirror Darity background-brief scope). Total ~2 days. Recommended during the Aeon-wait window when other essay work is gated. Subjects: **Allison Colden** (CBF Maryland Executive Director); **Karen Moore** (CBF Virginia Executive Director). David Sherfinski (Moore's Reuters-journalist gatekeeper) provides cross-coverage as a secondary public-record source.
+
+**Cross-references.**
+- Methodology pattern: `research/outreach/darity-background-brief_2026-05-06.md` + `darity-interview-prep_2026-05-06.md` + `darity-live-call-companion_2026-05-06.md` (HTML+MD).
+- Amsterdam DEAL parallel: `research/outreach/amsterdam-donut-prereadbrief_2026-05-06.md`.
+- Rewrite plan §V gating relaxed in `manuscript/essay/Noema/rewrite-plan_2026-05-01.md` REVISION 2026-05-08 section (this commit).
+- Cascade plan §V references updated at three locations (Outreach pipeline + August A-track + Decisions due #6) in `publishing/strategy/cascade-plan_2026-05-06.md` (this commit).
+
+**Supersedes.** Prior gating language across the rewrite plan and cascade plan that treated Colden interview as a hard dependency for §V third-anchor and Ch 3 drafting.
+
+---
+
 ## 2026-05-08 — Noema rewrite-plan revised in place; Ch 1 absorbed Phase C structural work
 
 **Decision.** Edit `manuscript/essay/Noema/rewrite-plan_2026-05-01.md` in place to add a "REVISION 2026-05-08" section above the original Phase C structure, capturing the divergence between what the 2026-05-01 plan anticipated and what Ch 1 actually became when drafted 2026-05-04 (title-rigor pass v2.0.0; tentatively final at ~3,400 words). The revision section supersedes Phase C; the original plan is preserved below in the same file as historical record.
