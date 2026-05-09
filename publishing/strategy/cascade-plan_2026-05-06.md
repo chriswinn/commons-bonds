@@ -54,10 +54,10 @@ The strategic constraint that stays load-bearing: **non-partisan framework posit
 
 ### May 2026 (now → 5/31)
 - **A** — Aeon title ratified ("The Mask of Abundance"); Version A pitch in active polish (per-paragraph rigor cadence); Version B alternate-frame draft preserved on hand. Plan post-Darity revision pass May 13–31 covering McDowell case-walk + universality framing. Lock AI-disclosure statement.
-- **B** — Ch 1 tentatively final (drafted 2026-05-04; title-rigor pass v2.0.0 applied; sunrise-bookend with Ch 10). Ch 3 (Watermen / Chesapeake) gated on Colden + Moore CBF interviews. Story-drafts substrate now leaner (6 ch1_* files; Candidates #2/#3 beats relocated to `archive/_OneDayMaybe/personal-story-material/`).
+- **B** — Ch 1 tentatively final (drafted 2026-05-04; title-rigor pass v2.0.0 applied; sunrise-bookend with Ch 10). Ch 3 (Watermen / Chesapeake) gated on Colden + Moore CBF interviews. Story-drafts substrate now leaner (6 ch1_* files; Candidates #2/#3 beats relocated to `archive/_OneDayMaybe/personal-story-material/`). **Cross-thread item from publishing-strategy comp-titles work (2026-05-08):** Ch 5 needs a paragraph engaging Pistor (legal-architecture-of-capital ↔ institutional-architecture-of-accountability); Ch 9 needs paragraphs engaging Christophers (diagnosis-vs-prescription on pricing mechanics) and Susskind (mechanism-specific complement to macro reckoning). Required *before* the late-June proposal sprint so chapter summaries reflect the engagement. See `decisions-log.md` 2026-05-08 (Bibliography additions) entry.
 - **C** — Stand up an isolated Berggruen workflow (separate working directory, no AI tools, dated logs). Begin essay from `manuscript/essay/berggruen/` seed.
 - **D** — **Conduct Darity interview 2026-05-12 @ 14:00 ET** (phone, 1 hr; pre-read + background + live-call companion + framework-decline contingency all drafted). File transcript / notes in `research/outreach/` within 7 days; stage Mullen warm-intro ask if call goes well. Monitor for substantive Mazzucato follow-up via Albrecht; for replies from Val DiMarzio (Colden), Sherfinski (Moore), Dagan (Amsterdam DEAL); activate stashed Colden 7-question batch + Amsterdam DEAL brief on acceptance.
-- **E** — Skeletons stood up 2026-05-06 (`publishing/strategy/`, `publishing/agents/`, `publishing/book-proposal/`, `publishing/op-eds/`). Continue populating as essay placements and interviews land.
+- **E** — Skeletons stood up 2026-05-06; first concrete agent target identified 2026-05-08: **The Wylie Agency / Sarah Chalfant** (top candidate, pending acknowledgments-page confirmation on Mazzucato; runner-up Tracy Bohan). See `publishing/agents/targets.md` + `personalization-snippets.md`. `publishing/book-proposal/02_comp-titles.md` restructured 2026-05-08 around bibliography ⊆ comps relationship (Tier 1 = bibliography-anchored, mechanism-level: Mazzucato + Pistor + Christophers; Tier 2 = bibliography-anchored, register-adjacent: Mission Economy + Susskind; Tier 3 = market-signal only). Continue populating other proposal sections as essay placements and interviews land.
 
 ### June 2026
 - **A** — Apply post-Darity revision pass to Aeon ("The Mask of Abundance") through May 13–31. **Submit first week of June** when portal opens.
@@ -65,7 +65,7 @@ The strategic constraint that stays load-bearing: **non-partisan framework posit
 - **A2** — Open the op-ed pipeline: keep two ~900-word drafts ready (one Norway/sovereign-wealth frame from Ch 4, one McDowell-County true-cost frame from Ch 8) so when news triggers, turnaround is 1–2 days. Project Syndicate + Bloomberg Opinion are the realistic primary targets; NYT/WaPo are stretch.
 - **B** — Continue Ch 3 drafting once Colden / Moore CBF interview material lands.
 - **C** — Berggruen first full draft.
-- **E** — **Proposal sprint (target completion: late June 2026, ~3-week focused effort).** Write `00_overview.md` (10–15pp), `01_market-and-audience.md`, `04_marketing-plan.md`, `05_chapter-summaries.md` (one page per chapter, sourced from drafted chapters in `manuscript/chapters/` — *not* GuidanceDocs). Tighten `02_comp-titles.md` to final 5–6 selection; refresh `03_author-platform.md` as essay placements / interviews land. Build the 25-name agent long-list in `publishing/agents/targets.md` in parallel.
+- **E** — **Proposal sprint (target completion: late June 2026, ~3-week focused effort).** Write `00_overview.md` (10–15pp), `01_market-and-audience.md`, `04_marketing-plan.md`, `05_chapter-summaries.md` (one page per chapter, sourced from drafted chapters in `manuscript/chapters/` — *not* GuidanceDocs). `02_comp-titles.md` largely landed 2026-05-08 (Tier 1/2/3 + selection rule); finalize the 5–6 selection at sprint time. Refresh `03_author-platform.md` as essay placements / interviews land. Continue building the 25-name agent long-list in `publishing/agents/targets.md` (seeded 2026-05-08 with Wylie / Sarah Chalfant as the first Priority A entry).
 
 ### July 2026
 - **A** — Boston Review submission mid-month (becomes the second under-consideration signal).
@@ -148,8 +148,10 @@ The 25-name list mix: ~60% econ/policy big-idea, ~25% narrative-nonfiction-with-
 2. Confirm Boston Review as essay-2 primary (recommended over Foreign Policy).
 3. Confirm Berggruen workflow isolation protocol.
 4. Confirm sample chapters: Ch 7 + Ch 5 (recommended).
-5. Confirm green-light rule for agent queries: ≥2 placements + proposal + ≥1 interview.
+5. Confirm green-light rule for agent queries (per 2026-05-08 (later) recalibration): complete proposal + ≥1 essay at editor-review at a top-tier venue + ≥1 interview recorded.
 6. Once Colden + Moore CBF tracks resolve (~3 wk window from 2026-05-06 sends), confirm whether Amsterdam DEAL becomes the Noema §V third-anchor or stays a Mondragon/Vienna/Ecuador-Whanganui choice.
+7. **Engagement-depth decision** for each new bibliography addition (Pistor, Christophers, Susskind) — paragraph-level integration in Ch 5 / Ch 9. Required before late-June proposal sprint.
+8. **Acknowledgments-page confirmation** of Sarah Chalfant as Mazzucato's specific Wylie agent — check *Mission Economy* (2021) or *The Value of Everything* (2018) before submitting Wylie query. If a different Wylie agent is named (likely Tracy Bohan), update `publishing/agents/targets.md` + `personalization-snippets.md`.
 
 **Resolved since 2026-05-06:**
 - ~~Decide whether `draft2.md` becomes a Public Books long-essay or gets dissolved into raw material.~~ **Archived 2026-05-08 to `archive/_OneDayMaybe/withdrawn-essays/` with §I wife's-illness excised.** Not slated for any venue.
@@ -209,6 +211,16 @@ The 25-name list mix: ~60% econ/policy big-idea, ~25% narrative-nonfiction-with-
 **Framework + alignment:**
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (FPD v1.0.0)
 - `alignment/sessions/commons-bonds-session-handoff-2026-05-06_v1.52.0.md` (canonical state-snapshot)
+- `research/literature/bibliography.md` (especially §13 — comp-aligned framework-adjacent entries; Mazzucato load-bearing + Pistor/Christophers/Susskind candidate, engagement pending)
+
+**Publishing strategy + agents (this branch):**
+- `publishing/strategy/cascade-plan_2026-05-06.md` (this file)
+- `publishing/strategy/decisions-log.md`
+- `publishing/strategy/rights-register.md`
+- `publishing/book-proposal/02_comp-titles.md` (Tier 1/2/3 around bibliography ⊆ comps relationship)
+- `publishing/book-proposal/05_chapter-summaries.md` (sources from drafted chapters)
+- `publishing/agents/targets.md` (seeded with Wylie / Sarah Chalfant Priority A)
+- `publishing/agents/personalization-snippets.md`
 
 **Outreach (active):**
 - `research/outreach/darity-prereadbrief_2026-05-05.md`
@@ -240,3 +252,4 @@ The 25-name list mix: ~60% econ/policy big-idea, ~25% narrative-nonfiction-with-
 - **2026-05-06 (morning).** Cascade plan ratified and committed (`b19e917`). Companion files created across `publishing/strategy/`, `publishing/agents/`, `publishing/book-proposal/`, `publishing/op-eds/`.
 - **2026-05-08.** Refresh integrating session-handoff v1.52.0 + post-handoff commits through 2026-05-08: Aeon title ratified ("The Mask of Abundance"); Darity interview confirmed 2026-05-12 @ 14:00 ET; outreach pipeline state per v1.52.0; Beth → Dagan (Amsterdam DEAL) intro materialized + response sent; withdrawn-Noema essay archived; FPD v1.0.0 referenced; Candidate #2/#3 personal-story relocations reflected; mask-terminology lineage discipline added to risks. Two `Decisions due in 2–4 weeks` items resolved (`draft2.md` fate; Aeon title). See `decisions-log.md` 2026-05-08 entry for full record.
 - **2026-05-08 (later).** Recalibrated three things: (1) chapter-summaries source corrected from GuidanceDocs to drafted chapters; (2) "two to four published derivative works" framing dropped from Context — replaced with calibrated minimum (proposal complete + ≥1 essay at editor-review + ≥1 interview recorded); (3) Wave 1 agent-query target shifted from November 2026 to **late July / early August 2026**, with proposal sprint targeting late June completion. Wave 2 → Sept-Oct; Wave 3 → Q4 2026 / Q1 2027. Strategic frame points 5 + 6 updated; 3-month checkpoint added; 6-month checkpoint reframed; abort/pivot timings adjusted. See `decisions-log.md` 2026-05-08 (Recalibrate) entry.
+- **2026-05-08 (evening).** Four batched updates absorbing the day's downstream work: (a) **Wylie / Sarah Chalfant** identified as first concrete Priority A agent target via public-record check — added to May E-track; acknowledgments-page confirmation queued in Decisions due (#8); (b) **GuidanceDoc archive position ratified** — stay in place under WP#10 + staleness disclaimers; per-section staleness audit deferred to Insight #39 pre-publication external review; (c) **Bibliography additions** — Pistor + Christophers + Susskind added to `research/literature/bibliography.md` §13 with engagement-pending status flags; (d) **`02_comp-titles.md` restructured** around bibliography ⊆ comps relationship (Tier 1/2/3); cross-thread TODO surfaced in May B-track for Ch 5 (Pistor) + Ch 9 (Christophers + Susskind) paragraph engagement, required *before* the late-June proposal sprint so chapter summaries reflect the engagement; engagement-depth decision added to Decisions due (#7). See `decisions-log.md` 2026-05-08 entries.
