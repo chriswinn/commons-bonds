@@ -1007,7 +1007,7 @@ Placeholder for additions as they emerge. Candidate additions:
 
 ## 19.5. Chesapeake fieldwork — interview-prospect public record (tentative)
 
-**Status:** TENTATIVE. Sources surfaced 2026-05-05 during the public-record screen on Dr. Allison Colden (CBF Maryland Executive Director) ahead of responding to her communications coordinator's four-question screen (see `research/outreach/response-draft_2026-05-05_colden-via-dimarzio.md`). Listed here so the framework can decide later whether to leverage quotes — either as interview-substrate (if the interview proceeds) or as standalone primary-source citations (if the interview doesn't materialize but the chapter still wants Colden's on-record positions on the page). Not yet promoted to chapter endnotes.
+**Status:** TENTATIVE. Sources surfaced 2026-05-05 during the public-record screen on Dr. Allison Colden (CBF Maryland Executive Director) ahead of responding to her communications coordinator's four-question screen (see `research/outreach/subjects/colden/response-draft_2026-05-05_via-dimarzio.md`). Listed here so the framework can decide later whether to leverage quotes — either as interview-substrate (if the interview proceeds) or as standalone primary-source citations (if the interview doesn't materialize but the chapter still wants Colden's on-record positions on the page). Not yet promoted to chapter endnotes.
 
 **Promotion criterion:** an entry moves out of "tentative" into a numbered section above when (a) a direct quote from it lands in Ch 3 draft, or (b) Colden's interview transcript supersedes it as the primary substrate. Until then, treat as research-tier.
 

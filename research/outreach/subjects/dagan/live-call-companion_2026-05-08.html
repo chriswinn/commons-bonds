@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagan Cohen Interview — Live-Call Companion</title>
+<style>
+:root {
+  --must-ask: #c0392b;
+  --should-ask: #d68910;
+  --stretch: #5d6d7e;
+  --info: #1f618d;
+  --contingency: #884ea0;
+  --bg: #fefefe;
+  --card-bg: #fafafa;
+  --text: #1a1a1a;
+  --muted: #5a6c7d;
+  --border: #d5dbdb;
+  --quote-bg: #eef3f7;
+  --highlight-bg: #fff8dc;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  margin: 0;
+  padding: 0;
+}
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 0;
+}
+/* Header */
+header.top {
+  grid-column: 1 / -1;
+  background: var(--info);
+  color: white;
+  padding: 14px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid #154360;
+}
+header.top h1 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+header.top .meta {
+  font-size: 13px;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+header.top .meta b { font-weight: 700; }
+/* Sidebar nav */
+nav.toc {
+  position: sticky;
+  top: 60px;
+  align-self: start;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+  padding: 14px 8px 14px 14px;
+  border-right: 1px solid var(--border);
+  background: var(--card-bg);
+  font-size: 13px;
+}
+nav.toc h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin: 0 0 8px 0;
+}
+nav.toc ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav.toc li { margin: 0 0 4px 0; }
+nav.toc a {
+  display: block;
+  padding: 5px 8px;
+  color: var(--text);
+  text-decoration: none;
+  border-radius: 3px;
+  border-left: 3px solid transparent;
+}
+nav.toc a:hover { background: #e8eef3; }
+nav.toc a.must { border-left-color: var(--must-ask); }
+nav.toc a.should { border-left-color: var(--should-ask); }
+nav.toc a.stretch { border-left-color: var(--stretch); }
+nav.toc a.contingency { border-left-color: var(--contingency); }
+nav.toc a.info { border-left-color: var(--info); }
+/* Main content */
+main {
+  padding: 20px 28px 60px 28px;
+  min-width: 0;
+}
+section {
+  margin-bottom: 28px;
+  scroll-margin-top: 70px;
+}
+section h2 {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--border);
+}
+section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0 6px 0;
+}
+p, ul, ol { margin: 6px 0; }
+ul, ol { padding-left: 22px; }
+li { margin: 3px 0; }
+/* Quote / drop-in language */
+blockquote {
+  margin: 8px 0;
+  padding: 10px 14px;
+  background: var(--quote-bg);
+  border-left: 4px solid var(--info);
+  font-style: italic;
+  color: #2c3e50;
+  border-radius: 0 4px 4px 0;
+}
+blockquote p:first-child { margin-top: 0; }
+blockquote p:last-child { margin-bottom: 0; }
+/* Question cards */
+.q {
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--stretch);
+  border-radius: 4px;
+  padding: 12px 14px;
+  margin: 10px 0;
+  background: var(--card-bg);
+}
+.q.must { border-left-color: var(--must-ask); background: #fdf2f0; }
+.q.should { border-left-color: var(--should-ask); background: #fef6e7; }
+.q.stretch { border-left-color: var(--stretch); background: var(--card-bg); }
+.q .label {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 7px;
+  border-radius: 3px;
+  margin-right: 6px;
+  color: white;
+}
+.q.must .label { background: var(--must-ask); }
+.q.should .label { background: var(--should-ask); }
+.q.stretch .label { background: var(--stretch); }
+.q h3 {
+  display: inline;
+  font-size: 15px;
+  font-weight: 600;
+}
+.q .talking { font-size: 13px; color: var(--muted); margin-top: 8px; }
+.q .talking strong { color: var(--text); }
+/* Must-knows alert */
+.alert {
+  background: var(--highlight-bg);
+  border: 1px solid #d4a017;
+  border-left: 5px solid #d4a017;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin: 10px 0;
+}
+.alert ul { margin: 4px 0; padding-left: 20px; }
+.alert li { margin: 4px 0; }
+/* Cheatsheet boxes */
+.cheatsheet {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 10px 0;
+}
+.cheatsheet .box {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 10px 12px;
+  background: var(--card-bg);
+}
+.cheatsheet h4 {
+  font-size: 13px;
+  margin: 0 0 6px 0;
+  color: var(--info);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.cheatsheet ol, .cheatsheet ul { margin: 4px 0; padding-left: 18px; font-size: 13px; }
+.cheatsheet li { margin: 3px 0; }
+/* Vocabulary table */
+.vocab-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin: 10px 0;
+}
+.vocab-table th, .vocab-table td {
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+.vocab-table th {
+  background: #f0f4f8;
+  color: var(--info);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+}
+.vocab-table td:first-child { background: #fef6e7; }
+.vocab-table td:last-child { background: #eef3f7; }
+/* Pivot articulations — collapsible */
+details.pivot {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin: 6px 0;
+  background: var(--card-bg);
+}
+details.pivot summary {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  user-select: none;
+  list-style-position: inside;
+}
+details.pivot summary::marker { color: var(--info); }
+details.pivot[open] summary {
+  border-bottom: 1px solid var(--border);
+  background: #f0f4f8;
+}
+details.pivot .body {
+  padding: 6px 14px 12px 14px;
+}
+details.pivot .body small {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 12px;
+}
+/* Contingency section */
+section.contingency-sec {
+  border: 2px dashed var(--contingency);
+  background: #f8f0fb;
+  padding: 16px 20px;
+  border-radius: 4px;
+}
+section.contingency-sec h2 {
+  border-bottom-color: var(--contingency);
+  color: #6c3483;
+}
+.trigger {
+  display: inline-block;
+  padding: 2px 8px;
+  background: var(--contingency);
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-right: 4px;
+}
+/* Three Tiers cheatsheet */
+.tiers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 10px 0;
+}
+.tiers .tier {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 10px 12px;
+  background: var(--card-bg);
+}
+.tiers .tier.t1 { border-top: 4px solid #27ae60; }
+.tiers .tier.t2 { border-top: 4px solid var(--should-ask); }
+.tiers .tier.t3 { border-top: 4px solid var(--must-ask); }
+.tiers .tier h4 {
+  font-size: 13px;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.tiers .tier.t1 h4 { color: #27ae60; }
+.tiers .tier.t2 h4 { color: var(--should-ask); }
+.tiers .tier.t3 h4 { color: var(--must-ask); }
+.tiers .tier ul { padding-left: 16px; font-size: 12px; margin: 0; }
+.tiers .tier li { margin: 2px 0; }
+/* Checkbox list for Q0 */
+.choices {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0;
+  font-size: 14px;
+}
+.choices li { margin: 4px 0; }
+.choices input[type="checkbox"] { margin-right: 6px; }
+/* Footer note */
+.source-note {
+  font-size: 12px;
+  color: var(--muted);
+  font-style: italic;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  margin-top: 30px;
+}
+/* Glossary */
+.glossary-terms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 6px;
+  margin: 12px 0;
+}
+.glossary-terms details.term {
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--card-bg);
+}
+.glossary-terms details.term > summary {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--info);
+  user-select: none;
+  list-style-position: inside;
+}
+.glossary-terms details.term > summary::marker { color: var(--info); }
+.glossary-terms details.term[open] > summary {
+  border-bottom: 1px solid var(--border);
+  background: #f0f4f8;
+  border-radius: 3px 3px 0 0;
+}
+.glossary-terms details.term .term-body {
+  padding: 8px 12px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--text);
+}
+.glossary-intro {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 6px 0 4px 0;
+  font-style: italic;
+}
+@media (max-width: 700px) {
+  .glossary-terms { grid-template-columns: 1fr; }
+}
+@media print {
+  .glossary-terms { grid-template-columns: 1fr 1fr; }
+  .glossary-terms details.term { border: 1px solid #ccc; page-break-inside: avoid; }
+  .glossary-terms details.term[open] > summary { background: white; }
+}
+/* Responsive */
+@media (max-width: 900px) {
+  .page { grid-template-columns: 1fr; }
+  nav.toc { position: static; height: auto; border-right: none; border-bottom: 1px solid var(--border); }
+  .cheatsheet, .tiers { grid-template-columns: 1fr; }
+}
+/* Print */
+@media print {
+  header.top { position: static; }
+  nav.toc { display: none; }
+  .page { grid-template-columns: 1fr; }
+  details.pivot { page-break-inside: avoid; }
+  details.pivot[open] summary { background: white; }
+  details.pivot:not([open]) { border: none; }
+  details.pivot:not([open]) summary { padding: 4px 0; }
+  details.pivot .body { padding: 4px 0; }
+  section { page-break-inside: avoid; }
+  blockquote { page-break-inside: avoid; }
+  body { font-size: 12px; }
+  .alert { background: #f9f7e8; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>Dagan Cohen Interview — Live-Call Companion</h1>
+  <div class="meta">
+    <span><b>Date:</b> [TBD]</span>
+    <span><b>Modality:</b> Phone / video / in-person, ~30 min</span>
+    <span><b>Time-zone:</b> Amsterdam CET/CEST</span>
+    <span><b>Author calls Dagan</b></span>
+  </div>
+</header>
+<div class="page">
+  <nav class="toc">
+    <h2>Quick navigation</h2>
+    <ol>
+      <li><a href="#must-knows" class="info">Dagan's must-knows</a></li>
+      <li><a href="#vocab" class="info">Vocabulary cheatsheet</a></li>
+      <li><a href="#opening" class="info">Opening (Q0, Q0.5)</a></li>
+      <li><a href="#q1" class="should">Q1 — Methodology</a></li>
+      <li><a href="#q2" class="must">Q2 — 4-lens asymmetry</a></li>
+      <li><a href="#q3" class="must">Q3 — Coalition vs. City</a></li>
+      <li><a href="#q4" class="must">Q4 — Framework-fit</a></li>
+      <li><a href="#q5" class="must">Q5 — Reading recs</a></li>
+      <li><a href="#q6" class="stretch">Q6 — Wished-for vocab</a></li>
+      <li><a href="#q7" class="stretch">Q7 — Cross-city</a></li>
+      <li><a href="#q8" class="stretch">Q8 — Citizen reception</a></li>
+      <li><a href="#q9" class="stretch">Q9 — Sharpest critic</a></li>
+      <li><a href="#pivots" class="info">Pivot articulations</a></li>
+      <li><a href="#contingency" class="contingency">Contingency plan</a></li>
+      <li><a href="#closing" class="info">Closing block</a></li>
+      <li><a href="#tiers" class="info">Three Tiers</a></li>
+      <li><a href="#post-call" class="info">Post-call workflow</a></li>
+      <li><a href="#glossary" class="info">Glossary</a></li>
+    </ol>
+  </nav>
+  <main>
+
+<!-- Dagan's must-knows -->
+<section id="must-knows">
+  <h2>Dagan's must-knows — don't walk in unaware</h2>
+  <div class="alert">
+    <ul>
+      <li><b>Programme Director, ADC</b> — title hardened ~late 2024 / early 2025. <b>ADC core team since the December 2019 founding</b> (do <i>not</i> ask "when did you join?"). Co-founders include <b>Jennifer Drouin</b>; coordinator <b>Rosa Tibosch</b>.</li>
+      <li><b>Coalition &ne; City.</b> ADC = network layer (citizens, businesses, knowledge institutions). The <b>City</b> carries policy/budget/regulation — currently <b>René Koop</b> leads city-side circular work; <b>Marieke van Doorninck</b> was the deputy-mayor political champion of the April 2020 adoption. Dagan represents the <b>network layer</b>. Conflating the two is the signature outsider mistake.</li>
+      <li><b>Vocabulary: <i>donut</i> vs <i>Doughnut</i>.</b> Use <i>donut</i> for the <b>Coalition</b> (matches <i>Amsterdamse Donut Coalitie</i>); <i>Doughnut</i> for the <b>framework qua framework</b> (DEAL/academic).</li>
+      <li><b>Tone: aspirational/inclusive, not polemical.</b> Absorbs critique generously rather than counter-arguing. <b>Closer to a Mondragon-implementer interview than a Darity contest.</b> Frame questions as <i>invitations to extend his methodology</i>.</li>
+      <li><b>Framework's clearest opening: imported / upstream cost severance — the four-lens Global-Social asymmetry.</b> Doughnut <i>names</i> imported impact via the Global-Social lens; the Coalition's published <i>what-to-do</i> vocabulary on that lens reads thinner than the local-side work. Don't present as fresh — engage as if he's aware.</li>
+      <li><b><i>Droom naar doorbraak</i> — his current live rhetorical pivot.</b> "From Dream to Breakthrough" — the year-five inflection (Donut Night, 27 Jan 2025). Engaging this frame substantively lands where his attention currently sits.</li>
+      <li><b>Freshest items on his desk:</b>
+        <ul>
+          <li><b>ReFan: Reshaping the Fashion Narrative</b> (June 2025) — CHANGENCY co-led with AMFI/AUAS; 45 fashion-textile-chain participants; 98% wanted continued involvement. <b>Cite by name.</b></li>
+          <li><b><i>De Klerenpartij</i></b> (Feb 2026) — design-fiction fictional political party; extension of ReFan.</li>
+          <li><b>Donut Night Jan 2025</b> — <i>droom naar doorbraak</i> inflection conversation.</li>
+        </ul>
+      </li>
+      <li><b>Critical interlocutors he's already engaged with:</b> <b>Willem van Winden</b> (HvA — sharpest published critic; "20% pluk" / participation-concentration; "doughnut community is still predominantly white"); <b>Sophia Manolis</b> (Stanford, hosted by van Winden — most-residents-don't-know-what-Doughnut-Economics-is); <b>Cambridge Journal of Regions, Economy and Society</b>; <b>Branko Milanović + Erik Schokkaert</b>. Don't present as fresh.</li>
+      <li><b>CHANGENCY launched March 2024</b> — recent. Don't probe client roster aggressively. Tagline <i>"Let's Make Shift Happen."</i> Anchored in <b>design fiction</b> (Bleecker / Near Future Laboratory). Mission opposes <b>advisory-report register</b> in favor of <b>collectively designed visions</b>.</li>
+      <li><b>No long-form essay on his methodology in the public record.</b> His public voice is event-and-bio-shaped. Ask him to articulate the methodology in his own words.</li>
+      <li><b>Dutch language, Amsterdam time zone.</b> Bilingual EN/NL; conversation in English. Confirm CET/CEST at scheduling — Tuesday-Thursday morning Amsterdam time recommended.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Vocabulary cheatsheet -->
+<section id="vocab">
+  <h2>Vocabulary discipline cheatsheet</h2>
+  <table class="vocab-table">
+    <thead>
+      <tr>
+        <th>Coalition register (use for ADC's work)</th>
+        <th>Framework register (use for Commons Bonds)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><b>donut</b> (Dutch civic)</td><td><b>Doughnut</b> (DEAL / academic)</td></tr>
+      <tr><td><i>donutstad</i> (donut city)</td><td>cost severance</td></tr>
+      <tr><td><i>binnen de donut</i> (within the donut)</td><td>residual commons value (RCV)</td></tr>
+      <tr><td><i>donutpioniers</i></td><td>Restitution Bond (B<sub>1</sub>) / Foreclosure Bond (B<sub>2</sub>)</td></tr>
+      <tr><td><i>droom</i> + <i>doorbraak</i> (dream + breakthrough)</td><td>Cost Severance Damages (CSD)</td></tr>
+      <tr><td>change-makers; living labs</td><td>accountability-instrument architecture</td></tr>
+      <tr><td>four lenses (Local-Social / Local-Ecological / Global-Social / Global-Ecological)</td><td>imported / upstream cost severance</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:13px; color:var(--muted);"><b>Complementarity-at-different-scales claim:</b> Doughnut sets the <b>goal-state</b>; Commons Bonds operates one layer in — pricing what would be foreclosed by a specific proposed action and binding the counterparty to that price.</p>
+</section>
+
+<!-- Opening -->
+<section id="opening">
+  <h2>Opening (~5 min)</h2>
+
+  <h3>Q0 — Attribution preference (FIRST thing asked)</h3>
+  <blockquote>
+    <p>"Before we get into the framework questions, I want to ask about your preferences for how I handle our conversation in print. The book and any derivative essays — there's a Noema-track essay in development, possibly an Aeon-track piece on a separate angle — would draw on this conversation. Practitioners and institutional voices handle attribution differently — some are freely quotable, some prefer paraphrase + attribution unless reviewed first, others ask for full transcript review before any quoting. Whatever works for you, I'll abide by it across the book and essays. What would you prefer?"</p>
+  </blockquote>
+  <p><b>Mark Dagan's preference + log immediately:</b></p>
+  <ul class="choices">
+    <li><input type="checkbox"> Freely quotable</li>
+    <li><input type="checkbox"> Paraphrase + attribution; review before direct quotes</li>
+    <li><input type="checkbox"> Full transcript review before any use</li>
+    <li><input type="checkbox"> Off-record entirely</li>
+  </ul>
+  <p style="font-size:13px; color:var(--muted);"><b>Default offer if uncertain:</b> Category 2 (paraphrase + review before direct quotes). <b>If recording (categories 1–3):</b> capture verbal consent at start. Test before call.</p>
+
+  <h3>Q0.5 — Vocabulary-register handshake (after Q0, before Q1)</h3>
+  <blockquote>
+    <p>"One quick handshake before we get into the questions — your work runs on careful vocabulary. The Coalition's English uses 'donut' (matching <i>Amsterdamse Donut Coalitie</i>); DEAL/academic register uses 'doughnut.' I'll match the Coalition's <i>donut</i> when I'm referring to the Coalition's work and <i>Doughnut</i> for the framework qua framework. If at any point in the conversation you want me to handle a specific term differently — particularly anything from your own design-fiction or narrative-translation vocabulary — just flag it. I'll abide."</p>
+  </blockquote>
+</section>
+
+<!-- Priority questions -->
+<section id="priority">
+  <h2>Priority questions — MUST: Q2, Q3, Q4, Q5 · SHOULD: Q1 (opener)</h2>
+
+  <article class="q should" id="q1">
+    <span class="label">Should-ask · opener</span>
+    <h3>Q1 — Narrative-translation methodology, in your own words</h3>
+    <blockquote><p>"Your career has three clear chapters in the public record — visual art and Supperclub at the Rietveld Academy, twenty-plus years in advertising creative direction at Saatchi and Lowe, the WDCD years running the Climate Action and Make it Circular challenges, and now ADC plus CHANGENCY. The through-line in everything I've read is making complex frameworks legible at street level through narrative and design. What I haven't found in the public record is the methodology itself — your framework for the work, in your own words. Could you walk me through how you actually think about translating an economic framework like the donut into something Amsterdammers can imagine themselves inside? What does the work look like in practice — and how does ReFan: Reshaping the Fashion Narrative compare to the donut work as a methodological case where you applied the same approach to a parallel domain?"</p></blockquote>
+    <div class="talking">
+      <strong>Push if shallow:</strong> "ReFan ran a workshop in June 2025 with 45 fashion-textile-chain participants and reported 98% wanted continued involvement — what was the move that made the workshop hold them?"<br>
+      <strong>Chat-open probe:</strong> "If you had to teach someone to do this work, what would you have them practice first?"<br>
+      <strong>Vocab-failure probe:</strong> "What's a word in your own toolkit you've watched someone misuse and wished you'd named differently?"<br>
+      <strong>Watch for:</strong> his own word for the work — "narrative translation" or something else? <i>That word is the adjacency-mapping prize.</i> Design-fiction terminology (Bleecker, Near Future Laboratory).
+    </div>
+  </article>
+
+  <article class="q must" id="q2">
+    <span class="label">Must-ask · framework's cleanest opening</span>
+    <h3>Q2 — Four-lens Global-Social asymmetry: naming vs. acting on imported cost severance</h3>
+    <blockquote><p>"The Amsterdam City Doughnut report's signature methodological contribution is the four-lens framework — Local-Social, Local-Ecological, Global-Social, Global-Ecological. The Global-Social lens explicitly names the impact of Amsterdam's consumption patterns on people elsewhere: labour conditions in textile factories, mining for metals in electronics, the imported costs that aren't visible in Amsterdam's local foundation/ceiling. But reading the published Coalition material, the Global-Social lens's what-to-do vocabulary feels thinner than the work on the local lenses. Which is exactly the framework I'm developing's strongest opening: McDowell County, West Virginia is the textbook failure of direct cost severance — coal extracted, costs stayed locally. Amsterdam's work is the opposite at the local level. But the cost severance Amsterdam imports — rare earths from Niger Delta, battery materials from extraction zones, cobalt for the energy transition — is the same structural mechanism, displaced in space. Where in the Coalition's actual work is that imported / upstream cost severance most visible to you? And what's the gap between naming it through the Global-Social lens and acting on it at the city scale?"</p></blockquote>
+    <div class="talking">
+      <strong>Push if shallow:</strong> "The Amsterdam Circular Strategy itself acknowledges that no EU member state has sufficient domestic capabilities to become independent on critical raw materials. The acknowledgment is on the page; the action-level instrument to bind that imported dependency isn't. Is that gap the way you'd describe it from inside?"<br>
+      <strong>Chat-open probe:</strong> "How would you characterize what's missing — vocabulary, instruments, jurisdictional reach, will?"<br>
+      <strong>Vocab-failure probe (load-bearing):</strong> "Is there terminology your work already uses for the imported / upstream cost piece, that we should know about?"<br>
+      <strong>Watch for:</strong> any concession that the four-lens asymmetry is real (high-confidence prediction); any vocabulary alternative he names. <b>ReFan / textile-chain examples likely; if he surfaces one, follow it.</b>
+    </div>
+  </article>
+
+  <article class="q must" id="q3">
+    <span class="label">Must-ask · water-deal substrate</span>
+    <h3>Q3 — Coalition vs. City when a foreclosure-pattern deal lands</h3>
+    <blockquote><p>"A clarifying question first: the Coalition is the network layer — citizens, businesses, knowledge institutions, neighborhoods — and the City is the municipal-policy layer where formal deal-evaluation happens. Marieke van Doorninck championed the April 2020 adoption from the deputy-mayor seat; René Koop now leads the city-side circular economy work. Suppose the City of Amsterdam were approached tomorrow with a deal that would leverage water-management infrastructure in a way that could affect crop-growing capacity — a hypothetical pulled from the framework's pricing mechanics. Doughnut would flag the affected social foundation (food security) and ecological ceiling. But evaluating it at the action level — pricing what's being foreclosed, binding the counterparty, ensuring obligations survive corporate dissolution — sits one layer past the framework's named goal-state. From your network-layer vantage: what tools does the Coalition (vs. the City) actually use or push for in moments like that? Where does the implementation currently have those tools, and where is there a gap something like a Foreclosure Bond instrument might fill?"</p></blockquote>
+    <div class="talking">
+      <strong>Push if shallow:</strong> "Reclamation bonds in mining are the real-world precedent for what I'm calling a Foreclosure Bond — same structural pattern. Does the Coalition push for anything like that on the city-deal side, or is action-level binding outside the network's leverage?"<br>
+      <strong>Chat-open probe:</strong> "If a Foreclosure-Bond-style instrument existed in Amsterdam's circular policy, who in the network would have to carry it — and against what counter-pressure?"<br>
+      <strong>Vocab-failure probe:</strong> "What word does the Coalition use for the action-level binding — if anything? Or is it usually held by the City and your work is at a different layer?"<br>
+      <strong>Watch for:</strong> <b>real Amsterdam deal moments — if he surfaces one, PIVOT.</b> "Could we walk through that one specifically?" Real beats hypothetical every time. Water-deal full 7-step walkthrough is in <code>research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md</code> — internal scaffolding; don't show Dagan; ready to walk through any step if he interrogates the apparatus.
+    </div>
+  </article>
+
+  <article class="q must" id="q4">
+    <span class="label">Must-ask · load-bearing for vocabulary calibration</span>
+    <h3>Q4 — Framework-fit calibration: gap-fill or duplicate vocabulary?</h3>
+    <blockquote><p>"The framework I'm developing — cost severance as the structural mechanism, Residual Commons Value as what gets foreclosed by extraction, the Foreclosure Bond as the action-level pricing instrument — sits at a different scale than the donut. Doughnut articulates the goal-state (the safe and just space between social foundation and ecological ceiling); my framework focuses on action-level accountability when extraction would impose un-priced costs. The Coalition vocabulary I've read in the public record — donutstad, binnen de donut, donutpioniers, droom and doorbraak, change-makers, living labs — operates in a register that's aspirational and experiential. From your vantage as the person translating the donut into Amsterdam's civic vocabulary, does the framework I'm developing fill an action-level accountability gap that your implementation has been working around? Or does it duplicate vocabulary you already have under different names — particularly anything regulatory or financial that the public-facing register doesn't surface?"</p></blockquote>
+    <div class="talking">
+      <strong>Push if shallow:</strong> "Anything regulatory or financial sitting <i>underneath</i> the public-facing aspirational register — Coalition advocacy on procurement standards, supply-chain accountability frameworks, vendor due diligence — that would be the place I'd expect framework-vocabulary to compete or overlap. Is there work in that register the public material doesn't surface?"<br>
+      <strong>Chat-open probe:</strong> "Where does the framework's vocabulary stop working in your implementation — where does <i>cost severance</i> or <i>Foreclosure Bond</i> feel like the wrong word for what you're actually trying to do?"<br>
+      <strong>Vocab-failure probe:</strong> "What's a word in this domain you've watched someone try to introduce that didn't land — what made it fail? What's a word that did land — what made it stick?"<br>
+      <strong>Watch for:</strong> any vocabulary alternative he prefers — highest-leverage feedback. Historical cases of failed vs. successful vocabulary introduction.
+    </div>
+  </article>
+
+  <article class="q must" id="q5">
+    <span class="label">Must-ask · ~3 min, near close</span>
+    <h3>Q5 — Reading recommendations beyond what's already published</h3>
+    <blockquote><p>"DEAL has published Doughnut Unrolled (the four-lens methodology guides), Creating City Portraits, Doughnut Data Portraits, and the Designing the Doughnut Five Cities essay; the Coalition's public material includes the AUAS executive report (March 2023), the Donut Night five-year retrospective, and the annual Donut & Friends Festival. Beyond what's already on those public reading lists, what would you add — particularly on three things: the imported / upstream cost severance challenge; the relationship between narrative-translation work and operational policy adoption; and critical work on the Amsterdam donut implementation that you've found genuinely useful. CHANGENCY's about-page mentions design fiction as a methodological anchor — anything in that literature would be valuable too."</p></blockquote>
+    <div class="talking">
+      <strong>Push if shallow:</strong> "What's a piece of work you wish more people in this conversation had read?"<br>
+      <strong>Watch for:</strong> anything that surprises us — biggest research-vector unlocks. Design-fiction literature (Bleecker; Near Future Laboratory; speculative-design); imported / upstream cost severance (HCSS Critical Raw Materials report? something else entirely?).
+    </div>
+  </article>
+</section>
+
+<!-- Follow-ups -->
+<section id="followups">
+  <h2>Follow-up questions — STRETCH (only if priority lands fast / 45–60 min scenario)</h2>
+
+  <article class="q stretch" id="q6">
+    <span class="label">Stretch</span>
+    <h3>Q6 — Wished-for action-level vocabulary</h3>
+    <blockquote><p>"In your implementation work, are there decision-moments where the donut framework articulates the goal clearly but doesn't supply the action-level vocabulary you need? Specific moments where you've had to improvise — borrowed vocabulary from other frameworks, invented language, or just left a gap and operated by intuition — because the framework's design principles didn't translate to a specific binding move?"</p></blockquote>
+    <div class="talking">
+      <strong>Push:</strong> "Anything in the <i>droom naar doorbraak</i> framing — the year-five inflection point — where you needed action-level vocabulary the donut didn't supply?"<br>
+      <strong>Chat-open probe:</strong> "What word would you most want the next layer of vocabulary to do?"
+    </div>
+  </article>
+
+  <article class="q stretch" id="q7">
+    <span class="label">Stretch</span>
+    <h3>Q7 — Cross-Doughnut-city comparative</h3>
+    <blockquote><p>"The published comparative material covers a lot. Goodwin's Designing the Doughnut: A Story of Five Cities covered Sydney, Melbourne, Berlin, Brussels, and Amsterdam through March 2021; BrusselsDonut is led by Confluences with a 'deeply participatory' register; Copenhagen's economic department was tasked with implementation within six weeks of Amsterdam's announcement; Nanaimo voted to adopt in December 2020; Cornwall adapted the method on a two-month timeline; Berlin ran a Doughnut Pioneers Programme in 2025; Tokyo's Setagaya ward engaged DEAL tools; Cardiff and Glasgow carried Welsh and Scottish council moves; the Vermont Climate Equity Advisory Committee is a US instance. From your network-layer vantage — what's missing from those published accounts, particularly around action-level accountability? Which cities have moves Amsterdam doesn't? Which cities are doing the imported-cost-severance work that the four-lens Global-Social material under-articulates?"</p></blockquote>
+    <div class="talking">
+      <strong>Push:</strong> "Brussels' Confluences-led model with the deeply participatory register — does that model do something Amsterdam's network model doesn't?"
+    </div>
+  </article>
+
+  <article class="q stretch" id="q8">
+    <span class="label">Stretch</span>
+    <h3>Q8 — Citizen reception: when does the donut language stick at street level?</h3>
+    <blockquote><p>"Sophia Manolis (Stanford, hosted by Willem van Winden at HvA) has empirical findings on the citizen-reach gap — that the 'donut city' framing has high recognition in Amsterdam policy circles and active-citizen networks but limited penetration into ordinary residents' daily vocabulary. Van Winden has made that critique repeatedly in his published reflections. From your narrative-translation vantage — when does the language actually stick at street level, and when does it bounce off? What's the unwritten texture, beyond what Manolis and van Winden have surfaced? And how do you think about the next layer of citizen reach for the Coalition's narrative work — what's the unfinished piece of the vocabulary-adoption project?"</p></blockquote>
+    <div class="talking">
+      <strong>Push:</strong> "What's the demographic edge where the language is currently failing — what's the move that would close that gap?"<br>
+      <strong>Chat-open probe:</strong> "If the next chapter of Coalition vocabulary work were to land at street level in a way the first five years didn't, what would that look like?"
+    </div>
+  </article>
+
+  <article class="q stretch" id="q9">
+    <span class="label">Stretch · proper</span>
+    <h3>Q9 — Sharpest critic engagement: who's most useful, and who am I missing?</h3>
+    <blockquote><p>"In the published critical literature, the sharpest interlocutors I've engaged are Willem van Winden at HvA (LinkedIn pulse pieces and AUAS-cross-published critical reflections — particularly his '20% pluk' problem with the donut as municipal-policy framework), Sophia Manolis on the citizen-reach gap, the Cambridge Journal of Regions, Economy and Society capitalism-or-degrowth crossroads piece, and the broader Branko Milanović and Erik Schokkaert mainstream-economics critique. Of those, whose pushback have you found most useful — and importantly, who am I missing? Particularly anyone making the imported / upstream cost severance argument cleanly, or anyone challenging the narrative-translation work as performative rather than substantive."</p></blockquote>
+  </article>
+</section>
+
+<!-- Pivot articulations -->
+<section id="pivots">
+  <h2>Pivot articulations — drop-in if Dagan goes there</h2>
+  <p style="font-size:13px; color:var(--muted);">Click each to expand. Lead with listening; don't preempt. ~30–60 seconds spoken when delivered.</p>
+
+  <details class="pivot">
+    <summary>Raworth / Doughnut Economics (most likely lineage pivot — pre-load)</summary>
+    <div class="body">
+      <blockquote><p>"Doughnut Economics operates at the economy-system level — articulating where economies should aim (the safe and just space between social foundation and ecological ceiling) and design principles for getting there. The framework I'm developing operates at the actor-transaction level — naming the structural mechanism (cost severance) by which accountability fails, and pricing what's been foreclosed (RCV). The two are complementary, not competing: a Doughnut-organized economy can still have actor-level cost-severance failures within it, particularly imported / upstream cost severance from extraction zones outside the city's borders. Doughnut tells you where to aim; Commons Bonds tells you how to bind specific accountability moments along the way — particularly the imported kind that goal-state frameworks struggle to address operationally."</p></blockquote>
+      <small><b>Anchor pair:</b> McDowell County (textbook direct cost severance — coal extracted, value flowed out, costs stayed) ↔ Amsterdam (explicit aspiration to prevent cost severance via Doughnut adoption; succeeds locally but vulnerable to <i>imported</i> cost severance via supply chains).</small>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>Design-fiction methodology pivot (high-probability — friendly territory)</summary>
+    <div class="body">
+      <blockquote><p>"Design fiction is exactly the register I think the framework needs to enter at street level — Bleecker's Near Future Laboratory work, your Klerenpartij as a fictional political party, ReFan as a workshop that lets fashion-chain participants imagine themselves into a different narrative. The framework's vocabulary work — naming a mechanism precisely enough that it can be priced — is the analytical layer. Design fiction is the layer that lets people <i>imagine themselves inside</i> a world where the mechanism has been bound. I'd be curious whether you see those as the same work at different layers, or as two different disciplines that need to handshake."</p></blockquote>
+      <small>Positions Dagan's methodology as upstream of (and necessary to) the framework's adoption strategy. <b>Watch for</b> whether he frames the relationship the same way or has a sharper distinction.</small>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>ReFan cross-domain pivot (if Q1 surfaces it)</summary>
+    <div class="body">
+      <blockquote><p>"ReFan is the cleanest publicly-visible instance of your methodology applied to a domain — fashion / textiles — that's structurally identical to what the framework calls imported / upstream cost severance: the value lands here, the costs sit upstream in the supply chain. The Coalition's Global-Social lens names the same territory. Watching ReFan, did anything surface that you'd carry back into the donut work at the city level — particularly on the binding-the-supply-chain side that the donut's local-lens implementation doesn't reach?"</p></blockquote>
+      <small>Bridges his most-current desk work to the framework's strongest analytical opening.</small>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>Coalition-vs-City reassurance (if he raises the layer separation himself before Q3)</summary>
+    <div class="body">
+      <blockquote><p>"Right — the Coalition operates the network layer; the City carries the policy + budget + regulatory instruments. That distinction matters for the framework: the action-level binding instruments I'm developing live at the City's layer, but the <i>advocacy</i> for those instruments has to come from the Coalition's layer. I'd be interested in where you've found the network's leverage on action-level binding strongest — and where the network has had to operate by influence-without-instrument."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"Doughnut already does this" pushback</summary>
+    <div class="body">
+      <blockquote><p>"That's exactly the calibration question — is <i>cost severance</i> a precision-add on what the donut's Global-Social lens already names, or is it doing different analytical work? My current read is that the four-lens framework <i>names</i> the territory but the donut doesn't supply the operational instrument that binds a counterparty in a specific transaction — pricing, dissolution-survival, community standing. If you can point me to where the donut implementation already supplies that operational binding, that's a load-bearing piece of feedback I want to take in."</p></blockquote>
+      <small><b>Posture:</b> lean toward listening; don't argue.</small>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"How does this add to Hotelling?"</summary>
+    <div class="body">
+      <blockquote><p>"Hotelling 1931 modeled scarcity rents for exhaustible resources assuming efficient pricing — the math is right. The framework's claim is that the inputs have been wrong: the scarcity rent in Hotelling's sense excludes the cost of permanent option-value foreclosure on future generations, which is what RCV names. The framework's contribution is an accounting instrument that puts intergenerational option-value-loss inside the scarcity rent rather than outside it — making Hotelling's math operate on the right inputs."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"How does this extend Ostrom?"</summary>
+    <div class="body">
+      <blockquote><p>"Ostrom 1990 showed that commons can be governed without state or market through institutional design — but her design principles work specifically for commons that can be managed in sustained-yield perpetuity. The framework extends to commons that can't be managed that way: non-renewable resources from the start, and renewable resources pushed past regenerative capacity. The two-instrument bond architecture is what operates where sustained-yield discipline can no longer apply — accountability-by-instrument for cases where accountability-by-management isn't possible."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"Where does Polanyi sit?"</summary>
+    <div class="body">
+      <blockquote><p>"Polanyi's fictitious-commodities frame in <i>The Great Transformation</i> is the deep substrate the framework builds on. The framework's observation — that certain costs should not be transactable externalities but are treated as such — is a descendant of Polanyi's 'land, labor, money are not produced for market exchange' move. Cost severance is the contemporary mechanism that produces the crises Polanyi identified."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"How does this relate to Mazzucato?"</summary>
+    <div class="body">
+      <blockquote><p>"Mazzucato's distinction between value-creation and value-extraction in <i>The Value of Everything</i> is the clearest articulation of what economics has been refusing to name precisely. Cost severance is positioned as a precision-add on her value-extraction vocabulary — value-extraction is what the actor does; cost severance is what the actor does to the costs of doing it."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"How does this relate to Boyce?"</summary>
+    <div class="body">
+      <blockquote><p>"Boyce at PERI works the intersection of ecological economics and reparations the framework also engages, particularly through <i>Economics for People and the Planet</i> and the carbon-dividend literature. Cost Severance Damages is presented as an analytic instrument; Boyce's work shapes how the framework imagines those instruments in distributional terms."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"How does this relate to Harvey / Klein / primitive accumulation?"</summary>
+    <div class="body">
+      <blockquote><p>"Harvey's 'accumulation by dispossession' names the contemporary phenomenon — Marx's primitive accumulation operating now, in real time. Klein's shock doctrine names the political conditions under which it accelerates. The framework's contribution is naming the <i>mechanism</i> that produces the phenomenon Harvey describes: cost severance is the structural move by which value is extracted while costs are deliberately transferred. Harvey names what; the framework names how."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"How does this relate to reparations economics?"</summary>
+    <div class="body">
+      <blockquote><p>"Reparations economics — Darity &amp; Mullen, Hamilton, Boyce — supplies the methodological lineage for the Restitution Bond. Backward-looking accountability for harm already realized: that's what reparations economics has been doing rigorously for decades. The framework extends the methodology to extraction-community contexts beyond the Black-American case, while keeping the original case central to the lineage."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>Mask-tradition pivot (low probability with Dagan; capture for completeness)</summary>
+    <div class="body">
+      <blockquote><p>"The Aeon pitch's working title is 'The Mask of Abundance.' The construction puts the framework structurally inside the Dunbar / Du Bois / Ellison / Fanon lineage of unmasking systemic harm — and that's deliberate. The framework's actual subjects of severance — the McDowell coal miner whose lungs sound like his father's, the communities downstream of every extraction site — often ARE the communities that tradition speaks of. Brief acknowledgment in the Aeon essay; substantive engagement in Ch 8 (McDowell) and Ch 1 (framework's intellectual lineage). I'd welcome guidance on whether the engagement plan is sufficient."</p></blockquote>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"Why bonds and not funds / accounts / trusts / reserves?"</summary>
+    <div class="body">
+      <blockquote><p>"The framework chose 'Bond' deliberately for three structural reasons. First, real-world precedent: reclamation bonds, environmental performance bonds, surety bonds are existing legal instruments with a century-plus regulatory track record. Second, legal-adoption-travel: 'Bond' already lives in regulatory contexts — lawyers and policymakers recognize the structural properties immediately. Third, role-encoding precision: 'Bond' specifies an amount posted against an obligation, returned if conditions are met, forfeited if they aren't — that matches <i>Cost Severance = RCV − B</i> cleanly."</p></blockquote>
+      <small>Less likely with Dagan than with a regulatory-side interlocutor; capture for completeness.</small>
+    </div>
+  </details>
+
+  <details class="pivot">
+    <summary>"Can I see the Tech Appendix or Chapter 9?"</summary>
+    <div class="body">
+      <blockquote><p>"Happy to send the Technical Appendix v1.0.0 — it's the formal apparatus where the math sits; v2.0.0 is in rebuild but v1.0.0 is the current canonical. I can also send the Chapter 9 <i>Pricing Honestly</i> entering-wedges section if you want to see how Amsterdam sits alongside Mondragon, Vienna, Chattanooga, Alaska — that's still developing, so caveat that. Either or both, post-call."</p></blockquote>
+      <small><b>Don't try to walk through formulas verbally on a call.</b></small>
+    </div>
+  </details>
+</section>
+
+<!-- Contingency -->
+<section class="contingency-sec" id="contingency">
+  <h2>Contingency — if Dagan declines framework-specific commentary</h2>
+  <p style="font-size:13px;"><b>Probability: lower than for Darity</b> (Dagan's register is aspirational/inclusive; absorbs critique generously; vocabulary-translator by professional discipline). Capture for completeness.</p>
+  <p>
+    <span class="trigger">Triggers</span>
+    He says he hasn't read enough; says he won't be on record assessing a framework (Coalition speaks collectively, not individually); short/surface-level answers to multiple framework-specific questions; multiple framework-specific questions land flat or produce deflection.
+  </p>
+
+  <h3>Verbal pivot move</h3>
+  <blockquote><p>"That makes sense — and to be clear, I'm not asking you to comment on something you haven't read in depth, or to put the Coalition on a position it hasn't taken. Let me ask about your work directly instead, and I'll use what I learn to position the framework better in the manuscript."</p></blockquote>
+
+  <h3>Framework-agnostic question bank (pick 3–5)</h3>
+  <ol>
+    <li>"Your career has three chapters in the public record but no long-form essay laying out the methodology directly. Could you walk me through how you actually translate a complex framework into something Amsterdammers can imagine themselves inside? What does the work look like in practice?" (= Q1; works as anchor.)</li>
+    <li>"You've watched the <i>donut city</i> framing move from initial adoption (April 2020) through five years of network-building. What patterns have you noticed about which vocabulary sticks at street level and which bounces off?"</li>
+    <li>"The <i>droom naar doorbraak</i> framing is currently the live rhetorical pivot for ADC. What does <i>doorbraak</i> (breakthrough) look like concretely for the next chapter? What's the move that would constitute breakthrough rather than continued dreaming?"</li>
+    <li>"As you've engaged with other Doughnut-adopting cities, where has the framework translated cleanly, and where has it gotten stuck — particularly on imported / upstream impact?"</li>
+    <li>"What's on your desk right now that the framework's positioning would benefit from? Particularly anything in the design-fiction tradition CHANGENCY draws on."</li>
+  </ol>
+
+  <p style="font-size:13px; margin-top:10px;"><b>The trade we accept by pivoting:</b> LOST — framework-specific vocabulary calibration (Q4 specifically; Q2/Q3 partial); his pushback on specific framework terms. PRESERVED — substantive Dagan quotes on his methodology; vocabulary-mapping data; <i>droom naar doorbraak</i> texture; cross-Doughnut-city texture; design-fiction pointers; reading recs.</p>
+</section>
+
+<!-- Closing block -->
+<section id="closing">
+  <h2>Closing block (~50–58 min on a longer call; ~25–28 min on a 30-min call)</h2>
+
+  <h3>Network mapping — beyond the obvious names</h3>
+  <blockquote><p>"Beyond Marieke van Doorninck, René Koop, Willem van Winden, Jennifer Drouin, and Rosa Tibosch — are there other people in the Amsterdam donut ecosystem, the broader DEAL network, the BrusselsDonut team, or any of the fast-moving cities (Cornwall, Berlin, Setagaya) whose perspective you think I should also engage? Especially anyone whose pushback would push back on the picture you've painted today."</p></blockquote>
+
+  <h3>Protective-vocabulary advice</h3>
+  <blockquote><p>"You've spent five years watching donut vocabulary move into Amsterdam's civic register — what's the misuse pattern you'd want me writing against now, with the framework's terms? Anything you've watched get co-opted or hollowed out that we should be careful about with <i>cost severance</i>, <i>RCV</i>, or <i>Foreclosure Bond</i>?"</p></blockquote>
+
+  <h3>Field wisdom (rapport + genuine ask)</h3>
+  <blockquote><p>"You're the person who's actually done the vocabulary-translation work this framework needs to do for legal and regulatory adoption. What's the most common reason a young framework's vocabulary fails to land at the practitioner level? What's a piece of advice you'd give an author who's still in development?"</p></blockquote>
+
+  <h3>Pre-publication door (light-touch, NOT a blurb ask)</h3>
+  <blockquote><p>"And second — would you be willing to take a clarifying question or two by email if I run into something during the writing where I want to check my understanding? If the manuscript reaches a state where you'd want to read it, I'd welcome that — and any reflection you'd want to share about it post-publication."</p></blockquote>
+
+  <h3>Tech Appendix / Ch 9 / water-deal hypothetical offer (proactive, post-call)</h3>
+  <blockquote><p>"If the conversation surfaces things you'd want to engage at more depth in writing, I'd welcome that. The Technical Appendix v1.0.0 is the formal apparatus where the math sits — happy to send it after the call. The water-deal hypothetical we touched on has a full step-by-step walkthrough I can send if you want to interrogate the apparatus. Same with Chapter 9 if you'd want the prose engaging the Amsterdam case alongside Mondragon, Vienna, Chattanooga. No pressure either way; the live conversation alone has been enormously valuable."</p></blockquote>
+
+  <h3>Final 2 min — close</h3>
+  <ul>
+    <li>Thank Dagan for the time + generosity</li>
+    <li>"I'll send a thank-you email and any artifacts (Tech Appendix, water-deal hypothetical, Ch 9 excerpt) we discussed within 24 hours."</li>
+    <li>End the call.</li>
+  </ul>
+</section>
+
+<!-- Three Tiers -->
+<section id="tiers">
+  <h2>Three Tiers — what to share / not share</h2>
+  <div class="tiers">
+    <div class="tier t1">
+      <h4>Tier 1 — Share freely now</h4>
+      <ul>
+        <li><i>cost severance</i></li>
+        <li><i>RCV</i> (covers non-renewable AND renewable past regen)</li>
+        <li>Two-instrument decomposition (B = B<sub>1</sub> + B<sub>2</sub>)</li>
+        <li>Accounting equation <i>Cost Severance = RCV − B</i></li>
+        <li><i>CSD</i> methodology</li>
+        <li>Cross-system framing (capitalism / feudalism / colonialism / command economies)</li>
+        <li>McDowell County coal case-walk (cleanest contrast to Amsterdam)</li>
+        <li><b>Water-deal hypothetical substance</b> verbally — share the walkthrough if Q3 deepens</li>
+        <li>Lineage extensions (Hotelling / Ostrom / Polanyi / Mazzucato / Boyce / Harvey-Klein / reparations / Raworth) — use canonical articulations</li>
+        <li>Complementarity-at-different-scales framing</li>
+      </ul>
+    </div>
+    <div class="tier t2">
+      <h4>Tier 2 — Share post-call if Dagan asks</h4>
+      <ul>
+        <li>Technical Appendix v1.0.0 — <code>core/technical-appendix/TechnicalAppendix_v1.0.0.html</code> §5 Accountability Bond Decomposition</li>
+        <li>Chapter 9 <i>Pricing Honestly</i> draft excerpt — entering-wedges section</li>
+        <li><b>Water-deal hypothetical full doc</b> — <code>research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md</code> (heaviest; likely Tier-2 if Q3 deepens)</li>
+        <li>ReFan / Klerenpartij comparison frame: Ch 9 + case-study notes if Q1 deepens</li>
+        <li>Handling per FPD-6 canonical Three Tiers template</li>
+      </ul>
+    </div>
+    <div class="tier t3">
+      <h4>Tier 3 — Don't share at all</h4>
+      <ul>
+        <li>Internal scaffolding (working notes, rigor passes, decision trackers, session handoffs)</li>
+        <li>Other essay drafts in flight (Noema rewrite, Aeon, Berggruen)</li>
+        <li>The substantive background brief — internal absorption only</li>
+        <li>This live-call companion + the interview prep doc</li>
+        <li>Author's Note / Ch 1 personal-narrative material</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Post-call workflow -->
+<section id="post-call">
+  <h2>Post-call workflow (within 24 hours)</h2>
+  <ol>
+    <li><b>Transcribe</b> the conversation (Otter.ai with speaker diarization recommended) or write notes if not recorded. Log Dagan's attribution preference + any modifications.</li>
+    <li><b>Send thank-you email within 48 hours</b> with any artifacts agreed (Tech Appendix, water-deal hypothetical, Ch 9 excerpt). If transcript review was requested, send the transcript.</li>
+    <li><b>Update tracking:</b> mark interview complete in <code>research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md</code> candidate #4 (Raworth track / Beth's warm-intro thread); note any reading recs in <code>research/literature/bibliography.md</code>; flag any framework-revision implications.</li>
+    <li><b>Decision points:</b>
+      <ul>
+        <li>Does Dagan's input warrant adding him to the Noema essay §VI as an applied-implementation anchor (alongside Mondragon / Vienna / rights-of-nature)?</li>
+        <li>Did he surface a <i>real</i> Amsterdam deal-evaluation moment that should replace the water-deal hypothetical in Ch 9 entering-wedges?</li>
+        <li>Did he name design-fiction literature that should enter the bibliography or shape the framework's vocabulary-adoption strategy?</li>
+        <li>Did he name a Doughnut-implementation critic we haven't engaged (extending Q9) — particularly on imported / upstream cost severance?</li>
+      </ul>
+    </li>
+    <li><b>Network follow-up:</b> if Dagan offered warm intros (van Doorninck, Koop, van Winden, Drouin, Tibosch, BrusselsDonut, Setagaya, Cornwall), follow up within 48 hours per FPD-3.</li>
+    <li><b>Async-calibration follow-up:</b> if framework-specific calibration didn't fully happen during the call, the post-call thank-you is the place to offer Tech Appendix + water-deal hypothetical as written-engagement substrate.</li>
+  </ol>
+</section>
+
+<!-- Glossary -->
+<section id="glossary">
+  <h2>Glossary</h2>
+  <p class="glossary-intro">Alphabetical. Click any term to expand its definition.</p>
+  <div class="glossary-terms">
+    <details class="term"><summary><i>Amsterdamse Donut Coalitie</i> (ADC)</summary><div class="term-body">Amsterdam Donut Coalition. Founded December 2019; civic-network layer (citizens, businesses, knowledge institutions, neighborhoods) catalyzing implementation of the Doughnut framework adopted by the City of Amsterdam April 2020. ~1,400 members; 41 organisations; 100+ collaborative projects (UIIN July 2025). Dagan is <b>Programme Director</b> (title hardened ~late 2024 / early 2025); ADC core team since 2019 founding.</div></details>
+    <details class="term"><summary><i>Binnen de donut</i></summary><div class="term-body">Dutch: "within the donut." Coalition vocabulary for the safe-and-just space inside the Doughnut's two rings.</div></details>
+    <details class="term"><summary><i>Change-makers</i></summary><div class="term-body">Coalition vocabulary for active-citizen network participants. Aspirational/inclusive register.</div></details>
+    <details class="term"><summary>CHANGENCY</summary><div class="term-body">Dagan's creative agency for societal change, founded March 2024. Tagline: <i>"Let's Make Shift Happen."</i> Methodologically anchored in design fiction. Mission language explicitly opposes the advisory-report register in favor of collectively designed visions.</div></details>
+    <details class="term"><summary>Coalition vs. City</summary><div class="term-body">Critical distinction. <b>Coalition (ADC)</b> = network layer (civic mobilization, narrative, collaboration). <b>City of Amsterdam</b> = policy + budget + regulation (current circular-economy lead: René Koop; political champion of April 2020 adoption: former deputy mayor Marieke van Doorninck). Dagan represents the network layer, not the City. Conflating them is the signature outsider mistake.</div></details>
+    <details class="term"><summary>Cost severance</summary><div class="term-body">The structural mechanism by which value is extracted while the costs of producing it are deliberately separated and transferred to people, ecosystems, or futures who didn't capture the upside. Framework's primary contribution. Operates across capitalism, feudalism, colonialism, command economies — and across the full extraction spectrum (non-renewable + renewable past regen).</div></details>
+    <details class="term"><summary>Cost Severance = RCV − B</summary><div class="term-body">Framework's central accounting equation. When B (the bonded amount posted) is below RCV (the worth foreclosed), the difference is the cost severed onto others.</div></details>
+    <details class="term"><summary>Cost Severance Damages (CSD)</summary><div class="term-body">Framework's analytic instrument applying matched-comparison methodology (à la <i>Umbrellas Don't Make It Rain</i>) to extraction-community cases (McDowell County, Libby, Niger Delta, opioid-Appalachia).</div></details>
+    <details class="term"><summary>Design fiction</summary><div class="term-body">Speculative-design methodology (term coined by Julian Bleecker, Near Future Laboratory). Uses fictional artifacts, scenarios, or institutions to make alternative futures imaginable. CHANGENCY's methodological substrate. <i>De Klerenpartij</i> (Feb 2026) is a contemporary instance — a fictional political party as design-fiction object.</div></details>
+    <details class="term"><summary><i>Donut</i> vs <i>Doughnut</i></summary><div class="term-body">Dutch civic register uses <b>donut</b> (matching <i>Amsterdamse Donut Coalitie</i> and the Coalition's English self-styling); DEAL/academic register uses <b>Doughnut</b>. Both correct. Use <i>donut</i> for the Coalition; <i>Doughnut</i> for the framework qua framework.</div></details>
+    <details class="term"><summary><i>Donut &amp; Friends Festival</i></summary><div class="term-body">Annual ADC festival since 2021. November 2024 edition was the five-year anniversary; Dagan delivered the retrospective alongside Kate Raworth, Hans Stegeman (Triodos), Thami Schweichler (United Repair Centre), Nathalie van Loon (AmsterDOEN).</div></details>
+    <details class="term"><summary><i>Donut Night: Van droom naar doorbraak</i></summary><div class="term-body">January 27, 2025 event at Pakhuis de Zwijger; ADC's year-five inflection-point conversation. Dagan was the framing voice. ("Dream to Breakthrough.")</div></details>
+    <details class="term"><summary><i>Donutpioniers</i></summary><div class="term-body">Dutch: "donut pioneers." Coalition vocabulary for active-citizen change-makers. Recurring Pakhuis de Zwijger programme strand.</div></details>
+    <details class="term"><summary><i>Donutstad</i></summary><div class="term-body">Dutch: "donut city." The Coalition's signature public-facing framing for Amsterdam-as-Doughnut-city.</div></details>
+    <details class="term"><summary>Doughnut Economics</summary><div class="term-body">Kate Raworth's framework (2017 book); operates at economy-system level — articulating where economies should aim (the safe and just space between social foundation and ecological ceiling) and design principles for getting there. Adopted by Amsterdam April 2020 (first city in the world). <b>Complementary to Commons Bonds</b>, not competing: Doughnut sets the goal-state; Commons Bonds operates at the actor-transaction level supplying action-level pricing instruments.</div></details>
+    <details class="term"><summary><i>Droom naar doorbraak</i></summary><div class="term-body">Dutch: "from dream to breakthrough." Dagan's current live rhetorical pivot for ADC's year-five inflection. Year 5: dreaming was the first chapter; breakthrough is the next. Engaging this frame substantively lands where his attention currently sits.</div></details>
+    <details class="term"><summary>Foreclosure Bond (B<sub>2</sub>)</summary><div class="term-body">Framework's forward-looking accountability instrument — discharges harm yet to be realized. Lineage: environmental-bond and civic-republican. Real-world precedent: reclamation bonds, environmental performance bonds, surety bonds.</div></details>
+    <details class="term"><summary>Four lenses (Doughnut Unrolled)</summary><div class="term-body">Methodological signature of the Amsterdam City Doughnut. <b>Local-Social</b> (people of Amsterdam faring) · <b>Local-Ecological</b> (Amsterdam's environment) · <b>Global-Social</b> (Amsterdam's consumption affecting people elsewhere — labour conditions, mining for metals) · <b>Global-Ecological</b> (Amsterdam contributing to overshooting planetary boundaries). DEAL canonicalized April 2022 as <i>Doughnut Unrolled</i>.</div></details>
+    <details class="term"><summary>Global-Social asymmetry</summary><div class="term-body">Framework's diagnostic shorthand for the gap between the Doughnut's <i>naming</i> of imported impact (via the Global-Social lens) and the Coalition's <i>what-to-do</i> vocabulary on that lens (which reads thinner than the local-side work). The framework's clearest analytical opening with Dagan.</div></details>
+    <details class="term"><summary>Imported / upstream cost severance</summary><div class="term-body">The framework's diagnostic for cost severance displaced in space: value lands in Amsterdam, costs sit upstream in supply chains (rare earths from Niger Delta, battery materials from extraction zones, cobalt for the energy transition, textile labour). Where the framework expects to find traction with Dagan.</div></details>
+    <details class="term"><summary><i>Living labs</i></summary><div class="term-body">Coalition vocabulary for in-situ experimentation sites. Aspirational/experiential register.</div></details>
+    <details class="term"><summary>Manolis (Sophia)</summary><div class="term-body">Stanford Urban Studies &amp; Sociology undergrad; 2023 fieldwork hosted by Willem van Winden at HvA. Most-cited empirical finding: <i>the majority of Amsterdam residents did not know what Doughnut Economics was</i>. The framework's theoretical language is "inaccessible for many grassroots stakeholders and residents."</div></details>
+    <details class="term"><summary>Pakhuis de Zwijger</summary><div class="term-body">Programmatic venue partner (de facto ADC stage). Donut Night, Donut Deal Dag, Donut Pioniers, Amsterdam Donut Dag are all hosted here.</div></details>
+    <details class="term"><summary>Programme Director</summary><div class="term-body">Dagan's current ADC title (hardened ~late 2024 / early 2025). Earlier coverage: "leader," "lead," "core team."</div></details>
+    <details class="term"><summary>Raworth (Kate)</summary><div class="term-body">Author, <i>Doughnut Economics</i> (2017); co-founder DEAL; first AUAS Professor of Practice (2020); ADC's intellectual anchor. Published the 8 April 2020 launch post <i>Introducing the Amsterdam City Doughnut</i>.</div></details>
+    <details class="term"><summary>ReFan: Reshaping the Fashion Narrative</summary><div class="term-body">June 2025 workshop, Kohnstammhuis Amsterdam. CHANGENCY co-led with AMFI/AUAS (lead: José Teunissen). 45 fashion-textile-chain participants; 98% wanted continued involvement. Methodologically: same structural problem as the donut-narrative work, applied to textiles. Cross-domain methodological exemplar; cite by name.</div></details>
+    <details class="term"><summary>Renewable past regenerative capacity</summary><div class="term-body">Framework's term for renewable resources extracted faster than they can regenerate. Once across the threshold, effectively converted to non-renewable; same RCV accounting applies.</div></details>
+    <details class="term"><summary>Residual Commons Value (RCV)</summary><div class="term-body">The worth permanently foreclosed when a non-renewable resource — or a renewable resource pushed past regenerative capacity — is drawn down. Framework's pricing-instrument target.</div></details>
+    <details class="term"><summary>Restitution Bond (B<sub>1</sub>)</summary><div class="term-body">Framework's backward-looking accountability instrument — discharges harm already realized. Lineage: reparations-economics.</div></details>
+    <details class="term"><summary>Supperclub</summary><div class="term-body">Early-1990s Amsterdam "restaurant for all senses" Dagan co-founded as artistic director; staging of dinner-as-performance. First chapter of his bio arc.</div></details>
+    <details class="term"><summary>Two-instrument decomposition</summary><div class="term-body">Framework's structural move: B = B<sub>1</sub> + B<sub>2</sub>. Separates backward-looking restitution (Restitution Bond) from forward-looking foreclosure (Foreclosure Bond).</div></details>
+    <details class="term"><summary>van Doorninck (Marieke)</summary><div class="term-body">Former Amsterdam deputy mayor for sustainability and urban planning; political champion of the April 2020 Doughnut adoption. Successor on the city-side circular work: René Koop.</div></details>
+    <details class="term"><summary>van Winden (Willem)</summary><div class="term-body">HvA / Amsterdam University of Applied Sciences research professor; lead of REGENALYZE. Sharpest published critic of ADC. LinkedIn pulse pieces: <i>The Amsterdam Doughnut Coalition: some critical notes</i>; <i>Is Kate Raworth radical enough?</i>; <i>Degrowth, green growth, or just another recession?</i> Headline arguments: still substantial overshoot of planetary boundaries; "20% pluk" / participation-concentration; "doughnut community is still predominantly white"; doughnut "hardly applied to address urban social and racial inequities." Hosted Manolis.</div></details>
+    <details class="term"><summary>Water-deal hypothetical</summary><div class="term-body">Framework's worked example for the Q3 substrate: a deal that would leverage water-management infrastructure in a way that could affect crop-growing capacity. Full 7-step walkthrough at <code>research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md</code> (internal scaffolding; don't show Dagan; ready to walk through any step if he interrogates the apparatus).</div></details>
+    <details class="term"><summary>WDCD (What Design Can Do)</summary><div class="term-body">Dagan's seven-year (~2016–April 2023) programme-architect role. Led Climate Action Challenge and Make it Circular Challenge (with IKEA Foundation).</div></details>
+  </div>
+</section>
+
+<p class="source-note">
+  Consolidates content from <code>research/outreach/subjects/dagan/prereadbrief_2026-05-08.md</code> (priority Q1–Q5),
+  <code>research/outreach/subjects/dagan/interview-prep_2026-05-08.md</code> (follow-ups, talking points, contingency, closing block, three tiers, vocabulary discipline),
+  <code>research/outreach/subjects/dagan/background-brief_2026-05-08.md</code> (Dagan's must-knows, vocabulary, recent work, critical interlocutors),
+  <code>research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md</code> (Q0 verbal phrasing), and
+  <code>alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md</code> (canonical lineage articulations + applied-implementation one-paragraph variant). Source documents remain canonical; this is the live-call working artifact only.
+</p>
+
+  </main>
+</div>
+</body>
+</html>
