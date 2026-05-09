@@ -2,7 +2,7 @@
 
 **Version:** 2.0.0
 **Date:** 2026-05-09 (revised from v1.0.0 2026-04-28)
-**Status:** RATIFIED 2026-05-09 — Routine 1' + Routine 3' + Routine 4' new; Routine 2 ratified-with-refinement; v1.0.0 Routines 1, 3, 4 deprecated/deferred per author direction
+**Status:** RATIFIED 2026-05-09 + SCHEDULED 2026-05-09 — Routines 1', 2 (refined), 3', 4' live as remote agents; v1.0.0 Routines 1, 3, 4 deprecated/deferred per author direction
 **Author:** Chris Winn (drafting + review); routines run as scheduled remote agents
 
 > **Filename note.** This file is named `proposed_routines_v1.0.0.md` because it was created at v1.0.0 on 2026-04-28. The v1.0.0 routine specs are recoverable from git history; the file has been rewritten in place at v2.0.0 to keep cross-references stable. Future major revisions will follow the same in-place pattern with a version bump in the header.
@@ -49,7 +49,7 @@ The v2.0.0 routine set replaces low-marginal-value vocabulary-churn-era routines
 
 **Purpose.** Every other day, surface what's changed across the project since the last snapshot — what landed on main, what's in flight on which feature branches, what stale references have accumulated, what cross-thread TODOs are open. Replaces v1.0.0 Routine 1 (daily terminology-regression sentinel) which has low marginal value post-vocabulary-stabilization.
 
-**Cadence.** Every other day at 3pm ET. Cron: `0 15 */2 * *`
+**Cadence.** Every other day at 3pm ET. Cron: `0 19 */2 * *` UTC (EDT-anchored; revisit at Nov 2026 DST shift). **Live as `trig_016fusGEFZV49uaWfRXNBPTT` since 2026-05-09.**
 
 **Prompt:**
 
@@ -118,15 +118,125 @@ Snapshot run YYYY-MM-DD at HH:MM. Next run: day-after-tomorrow 3pm ET.
 
 **Purpose.** Catch publication-readiness blockers in chapters in active polish + Ch 3 (the only undrafted chapter as of 2026-05-09). Drops the comprehensive notation-collision sweep (mostly stable post-Insight #21 closure 2026-05-04).
 
-**Cadence.** Weekly Monday 8am ET. Cron: `0 8 * * 1`
+**Cadence.** Weekly Monday 8am ET. Cron: `0 12 * * 1` UTC (EDT-anchored). **Live as `trig_018z7Dkcrw7R9Br25rvmCnTD` (re-purposed in-place from v1.0.0 Routine 2) since 2026-05-09.**
 
 **Refinements from v1.0.0:**
-- Scope reduced: only chapters in active polish + Ch 3 (previously: all 10 chapters every week).
+- Scope reduced: only chapters in active polish + Ch 3 (previously: all 10 chapters every week). "Active polish" determined dynamically by `git log --since="14 days ago" --name-only -- 'manuscript/chapters/Chapter_*Draft.*'`.
 - Drop the framework-wide notation-collision sweep (Insight #21 closed; stable until Phase 3 Tech Appendix rebuild lands).
-- Length tracking softened: per "substance drives length" discipline (per session-handoff v1.51.0+), don't flag for "under target" if substance is complete; only flag for "substantially over target" with magnitude.
+- Length tracking softened: per "substance drives length" discipline (ratified 2026-05-02), don't flag for "under target" if substance is complete; only flag for "substantially over target" (>130% of upper bound) with magnitude.
 - Add manuscript-completion-rate metric: % chapters READY for submission across the 10-chapter scope.
 
-**Full prompt rewrite pending** — to be drafted on first ratified scheduling. Target: similar structure to v1.0.0 spec but with reduced scope per refinements above.
+**Prompt (live):**
+
+```
+Cron: 0 12 * * 1 UTC (Monday 8am ET) — v2.0.0-refined weekly pre-submission readiness audit for the Commons Bonds book project.
+
+The repo is checked out at the working directory. This is the v2.0.0-refined version of Routine 2 (lighter scope per author direction 2026-05-09; supersedes v1.0.0 Routine 2). See tools/routines/proposed_routines_v1.0.0.md for spec.
+
+=== Scope (refined) ===
+
+Audit only chapters in active polish + Chapter 3 (the only undrafted chapter as of 2026-05-09). Identify chapters in active polish by:
+- `git log --since="14 days ago" --name-only -- 'manuscript/chapters/Chapter_*Draft.*'` — any chapter file with commits in the last 14 days is "in active polish"
+- ALWAYS include Chapter 3 (Ch 3 audit covers the not-yet-drafted slot)
+
+If no chapters meet these criteria, skip Group A/B audit and go directly to the Manuscript-completion-rate section.
+
+=== Group A — Publication-blocker checks ===
+
+A1. Model-output preamble residue: Pattern within first 30 lines: "Let me connect to" / "Let me pull" / "I have the full context" / "Before writing, a few notes". Flag files + line numbers.
+
+A2. Strikethrough editing markup: Pattern ~~text~~. Flag files + line numbers.
+
+A3. INTERVIEW NEEDED placeholders: Pattern "[INTERVIEW NEEDED" (case-insensitive). Count per chapter.
+
+A4. Truncated paragraphs: Mid-paragraph truncations (heuristic: lines ending mid-word). Flag.
+
+=== Group B — Scaffolding-content patterns (per Working Principle #8) ===
+
+Per Working Principle #8 (RATIFIED 2026-04-28; alignment/commons_bonds_working_principles_v1.0.0.md), Tier 1 publisher-facing artifacts (chapter drafts, glossary, Tech Appendix) must not contain audit-trail / scaffolding content.
+
+B1. "Backed by rigor pass" — exact phrase search (case-insensitive). Flag files + line numbers + 1-line context.
+B2. "Per Insight #N" cross-references — pattern: `Per Insight #\d+`. Flag.
+B3. "Per Working Principle #N" cross-references — pattern: `Per Working Principle #\d+`. Flag.
+B4. Rigor-pass commit-hash references — pattern: backtick-wrapped 6-12 char hex hashes adjacent to "commit" / "ratified" / "rigor pass" tokens within ±10 chars. Flag.
+B5. M11 probe markers — patterns: "M11 probe" / "M11 critic-survival probe" / "M11 critic prompt" / "M11 critic". Flag.
+B6. "Per author direction" annotations — pattern: `Per author direction \d{4}-\d{2}-\d{2}`. Flag.
+B7. Author-meta-notes (HEURISTIC — flag with `?`): bracketed annotations like `[Flag this when` / `[Note to self:` / `[TODO:` / `[Note to author` / `[ratify ` / `[author:`. Use `?` flag.
+B8. Status-indicator residue (HEURISTIC — flag with `?`): `**Status:**` / `**Term-spec version:**` / `**Last reviewed:**` / `**Rigor provenance:**` patterns appearing in chapter prose.
+
+=== Out of scope — do NOT flag ===
+
+- Lineage citations on first-use (Brown Weiss 1989, Pigou 1920, Stern 2007, Nordhaus DICE, Hotelling 1931, etc.)
+- Tier B framework-specialization footnotes
+- Tech Appendix §L methodological footnotes
+- Reader-facing cross-references between chapters
+- Case-study sources / data citations
+- Footnotes that aid reader comprehension
+- Inline references to historical events / academic literature that are part of the prose
+- DROPPED FROM v1.0.0: framework-wide notation-collision sweep (Insight #21 closed 2026-05-04; stable until Phase 3 Tech Appendix rebuild lands)
+
+=== Length tracking (softened per substance-drives-length discipline) ===
+
+Per Working Principle (substance drives length, ratified 2026-05-02): do NOT flag chapters as "under target" if substance is complete. Only flag for substantially over target — and report magnitude (% over upper bound).
+
+Word count target ranges (Ch 1: 5K-6K; Ch 2: 5K-6K; Ch 4: 5K-6K; Ch 5: 5K-6K; Ch 6: 6K-8K; Ch 7: 5K-6K; Ch 8: 5K-6K; Ch 9: 5K-6K; Ch 10: 5K-7K).
+
+Report length but only mark as a length issue if word count > 130% of upper bound.
+
+=== Manuscript completion rate (NEW in v2.0.0) ===
+
+Across the full 10-chapter scope (`manuscript/chapters/Chapter_*Draft.*`):
+- Count of chapters: 10 expected
+- Count of chapters that exist as files
+- Count of chapters whose pre-submission status would be READY (no Group A/B findings; reasonable length)
+- Manuscript-completion-rate = (READY count) / 10 expressed as percentage
+
+Run a fast pre-submission status check on chapters NOT in active polish (just Group A blockers — A1, A2, A4 — skip Group B for non-active-polish chapters). This is just to compute the completion-rate metric.
+
+=== Output format ===
+
+## Refined pre-submission readiness audit — YYYY-MM-DD HH:MM UTC
+
+### Scope this run
+- Chapters in active polish: [list with last-commit dates]
+- Plus Ch 3 (always audited)
+
+### Audit findings (chapters in scope)
+
+Per chapter:
+## Chapter N — [name]
+· Length: X,XXX words [— OK | OVER by Y% (only if > 130% upper bound)]
+· A1 Model-output preamble: [CLEAN | findings]
+· A2 Strikethrough markup: [CLEAN | findings]
+· A3 INTERVIEW NEEDED: [N count]
+· A4 Truncated paragraphs: [CLEAN | findings]
+· B1 Backed by rigor pass: [CLEAN | findings]
+· B2 Per Insight #: [CLEAN | findings]
+· B3 Per Working Principle #: [CLEAN | findings]
+· B4 Rigor-pass commit-hashes: [CLEAN | findings]
+· B5 M11 probe markers: [CLEAN | findings]
+· B6 Per author direction: [CLEAN | findings]
+· B7 Author-meta-notes (heuristic): [CLEAN | findings flagged ?]
+· B8 Status-indicator residue (heuristic): [CLEAN | findings flagged ?]
+· Pre-submission status: [READY | NEEDS CLEANUP — Group A blocker | NEEDS CLEANUP — Group B scaffolding-scrub | NEEDS CLEANUP — both]
+
+### Manuscript completion rate
+- Chapters expected: 10
+- Chapters present: N
+- Chapters READY: K
+- Manuscript-completion-rate: K/10 = X%
+
+### Closing summary
+- Active-polish chapters audited: A
+- Ch 3 status: [READY | NEEDS CLEANUP — ...]
+- Group A blockers (publication stoppers): X total findings across Y files
+- Group B scaffolding-scrub items: X total findings across Y files
+- Manuscript-completion-rate: X%
+
+Audit run YYYY-MM-DD at HH:MM UTC. Next run: Monday next week 8am ET.
+
+Context: this is v2.0.0-refined Routine 2. Scope reduced to chapters in active polish + Ch 3 (vs. all 10). Length-tracking softened per substance-drives-length discipline. Notation-collision sweep dropped per Insight #21 closure. Manuscript-completion-rate metric added.
+```
 
 ---
 
@@ -134,7 +244,7 @@ Snapshot run YYYY-MM-DD at HH:MM. Next run: day-after-tomorrow 3pm ET.
 
 **Purpose.** Weekly Friday afternoon scan of all `claude/*` remote branches; surface branch-sprawl candidates for retirement; pre-empt the rescue-from-frozen-sessions pattern that emerged when ~8 branches accumulated unmerged work.
 
-**Cadence.** Weekly Friday 5pm ET. Cron: `0 17 * * 5`
+**Cadence.** Weekly Friday 5pm ET. Cron: `0 21 * * 5` UTC (EDT-anchored). **Live as `trig_01AcETfMQs2kD8vyvuKK5Arw` since 2026-05-09.**
 
 **Prompt:**
 
@@ -184,7 +294,7 @@ Scan run YYYY-MM-DD. Next run: Friday next week 5pm ET.
 
 **Purpose.** Weekly scan for broken or outdated cross-references in publishing-strategy + manuscript-essay artifacts. Catches: file paths whose target was renamed/moved/deleted; references to versions/decisions superseded but not updated; "resolved" decisions not yet struck through; outdated Date-modified fields.
 
-**Cadence.** Weekly Sunday 8pm ET. Cron: `0 20 * * 0`
+**Cadence.** Weekly Sunday 8pm ET. Cron: `0 0 * * 1` UTC (EDT-anchored; Sun 8pm ET = Mon 00:00 UTC). **Live as `trig_01Puk9mHXTRUT8UWVUjptd1S` since 2026-05-09.**
 
 **Prompt:**
 
@@ -252,9 +362,11 @@ Scan run YYYY-MM-DD. Next run: Sunday next week 8pm ET.
 
 ---
 
-## Implementation order recommendation (v2.0.0)
+## Implementation order recommendation (v2.0.0) — historical, superseded 2026-05-09
 
-If implementing all three new routines + refining Routine 2:
+The original phased-rollout recommendation (preserved below) was superseded by author choice on 2026-05-09 to schedule all four routines in parallel. First-week output across all four will validate cadences simultaneously rather than sequentially.
+
+Original phased recommendation:
 
 1. **Routine 1' first** (cross-thread state-snapshot, every other day) — highest expected leverage; replaces deprecated Routine 1 slot. Stand up immediately.
 2. **Routine 4'** (stale-reference scan, weekly Sunday) — second-highest leverage; addresses path/reference drift. Stand up after 1 week of Routine 1' output validates the cadence.
@@ -262,19 +374,21 @@ If implementing all three new routines + refining Routine 2:
 4. **Refine Routine 2** (lighter scope) — when convenient; full prompt rewrite needed before next Monday-morning run.
 5. Re-evaluate v1.0.0 deferred Routines (3 + 4) after Phase 3 Tech Appendix rebuild lands.
 
+Item 5 (re-evaluating deferred Routines 3 + 4 post-Phase-3) remains the open recommendation.
+
 ---
 
-## Author ratification status (updated 2026-05-09)
+## Author ratification + scheduling status (updated 2026-05-09)
 
 - [x] **Routine 1** (v1.0.0 daily terminology-regression sentinel) — **DEPRECATED** 2026-05-09
-- [x] **Routine 1'** (cross-thread state-snapshot, every other day) — **RATIFIED** 2026-05-09; scheduling pending
-- [x] **Routine 2** (weekly pre-submission readiness, refined) — **RATIFIED with refinement** 2026-05-09; full prompt rewrite pending before next scheduled run
+- [x] **Routine 1'** (cross-thread state-snapshot, every other day) — **RATIFIED + SCHEDULED** 2026-05-09 — `trig_016fusGEFZV49uaWfRXNBPTT`
+- [x] **Routine 2** (weekly pre-submission readiness, refined) — **RATIFIED + SCHEDULED** 2026-05-09 — `trig_018z7Dkcrw7R9Br25rvmCnTD` (re-purposed in-place from v1.0.0 Routine 2 trigger)
 - [x] **Routine 3** (v1.0.0 weekly rigor pass status tracker) — **DEFERRED** 2026-05-09
-- [x] **Routine 3'** (weekly branch hygiene scan) — **RATIFIED** 2026-05-09; scheduling pending
+- [x] **Routine 3'** (weekly branch hygiene scan) — **RATIFIED + SCHEDULED** 2026-05-09 — `trig_01AcETfMQs2kD8vyvuKK5Arw`
 - [x] **Routine 4** (v1.0.0 weekly Open Insights status sync) — **DEFERRED** 2026-05-09
-- [x] **Routine 4'** (weekly stale-reference scan) — **RATIFIED** 2026-05-09; scheduling pending
+- [x] **Routine 4'** (weekly stale-reference scan) — **RATIFIED + SCHEDULED** 2026-05-09 — `trig_01Puk9mHXTRUT8UWVUjptd1S`
 
-Once scheduling tooling is configured, routine output appears as completed remote-agent runs in the routines panel; reviewable when ready.
+All four live routines run as remote agents on Anthropic cloud (environment `env_01PoHTUjJ2qNQv7D6qLjzQU1`), model `claude-sonnet-4-6`, allowed_tools `["Bash","Read","Write","Edit","Glob","Grep"]`. Cron expressions are EDT-anchored — revisit at the November 2026 DST shift. Routine output appears as completed remote-agent runs in the routines panel at https://claude.ai/code/routines.
 
 ---
 
@@ -282,6 +396,7 @@ Once scheduling tooling is configured, routine output appears as completed remot
 
 - **2026-04-28.** v1.0.0 drafted — four routines (daily terminology sentinel + weekly pre-submission audit + weekly rigor pass tracker + weekly Open Insights sync). Pending author ratification.
 - **2026-05-09.** v2.0.0 in-place rewrite per author direction. v1.0.0 Routine 1 deprecated; Routine 2 ratified-with-refinement; Routines 3 + 4 deferred. New routines added: 1' (cross-thread state-snapshot, every other day), 3' (weekly branch hygiene scan), 4' (weekly stale-reference scan). Companion file `publishing/strategy/cross-thread-todos.md` stood up same date.
+- **2026-05-09 (later same day).** All four ratified routines (1', 2-refined, 3', 4') scheduled as live remote agents. Routine 2's existing v1.0.0 trigger re-purposed in-place with the refined prompt + new cron + MCP connections cleared. Refined Routine 2 prompt (previously "rewrite pending") drafted and inlined into this spec for traceability. v1.0.0 Routine 2 prompt remains recoverable from git history.
 
 ---
 
