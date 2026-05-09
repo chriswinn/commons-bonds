@@ -17,9 +17,9 @@ Ch 1 GuidanceDoc is the largest of the 10 (597 lines). Multiple recent additions
 | § Header / frontmatter / cross-references (lines 1-15) | CURRENT | Ch 1 cross-reference at line 10 lists ~620 publisher-facing words post-#37 — **STALE** (current Ch 1 word count is 3,797 per recent polish work; #37 separation pass updates landed pre-polish; chapter has since grown via Insight #36 conversational drafting session work + Ch 7 family-narrative additions) |
 | § "Chapter 1 (The Quiet Math) [former working title: The Plane]" + Objections section markers (line ~24-28) | RESOLVED 2026-05-08 | title updated 2026-05-08 to current "The Quiet Math" with "[former working title: The Plane]" suffix preserving historical record |
 | § "CHAPTER 1: THE PLANE" — From-our-conversations content (line ~32) | PARTIALLY CURRENT | "personal story" / "transition paragraph" / "framework's origin story" framings still applicable; sailboat-in-Hampton anchor + watermen-visible-from-where-you-live framing aligned with Ch 1 + Ch 10 bookend architecture |
-| § "1. THE BOOK NEEDS LIVING PEOPLE" (line ~70) | **PARTIALLY REGRESSED** | book-level guidance (not Ch 1 specific) — outreach pipeline now active per recent commits (Darity / Beth-Ingledew Amsterdam / Sherfinski / Colden); coal miner / Norway interview suggestions remain valid but partially overtaken. SAME SECTION duplicated in Ch 4 + Ch 2 GuidanceDocs. Should probably MIGRATE to a book-level guidance file. |
-| § "2. THE BOOK NEEDS A VILLAIN WHO ISN'T A VILLAIN" (line ~88) | CURRENT | structural-critique-not-personalized-blame framing remains canonical; "Sherrena Tarver as complex person" example still applies |
-| § "5. THE BOOK NEEDS AN ORIGIN STORY FOR THE FRAMEWORK" (line ~100) | CURRENT | origin-story framing still applicable; current Ch 1 Draft integrates much of this guidance |
+| § "1. THE BOOK NEEDS LIVING PEOPLE" (line ~70) | **MIGRATED 2026-05-08** | Migrated to `_BookLevelGuidance.md` §1 as canonical home; in-file copy retained with markers per WP#10. 2026-05-08 status update there reflects outreach pipeline (Darity / Beth-Ingledew Amsterdam / Sherfinski / Colden) now active. |
+| § "2. THE BOOK NEEDS A VILLAIN WHO ISN'T A VILLAIN" (line ~88) | **MIGRATED 2026-05-08** | Migrated to `_BookLevelGuidance.md` §2 as canonical home; in-file copy retained with markers per WP#10. Content unchanged ("Sherrena Tarver as complex person" example still canonical). |
+| § "5. THE BOOK NEEDS AN ORIGIN STORY FOR THE FRAMEWORK" (line ~100) | **MIGRATED 2026-05-08** | Migrated to `_BookLevelGuidance.md` §5 as canonical home; in-file copy retained with markers per WP#10. 2026-05-08 status update there adds LaVern E. Winn (grandfather/NASA inventor) origin-story extension. |
 | § "Chapter 1 Extension — Knowledge Worker Thread" (line ~114) | PARTIALLY REGRESSED | absorbed from former `Chapter__1a__GuidanceDoc.md` 2026-04-22; "eight-tier framework" + "Lifetime Survival Cost" + "Lineage Labor Cost" / "Knowledge and Cultural Cost" enumerations references retired 8-tier scheme — current vocabulary is Cᵢ admission via CIT through Four Gates per Path F (already noted in §AUTHOR-ZONE-5 inline annotation at line 339) |
 | § Purpose + What the Extension Adds (line ~120-152) | PARTIALLY CURRENT | universality-of-mechanism framing remains canonical; the "120-hour week" passage proposed at line 132 is now in Ch 1 Draft (per recent polish) |
 | § Stories that may be worth including (line ~138-143) | PARTIALLY CURRENT | wife's-illness + paternal-leave material covered by Candidate #4 deletion + consent-rejection rewrite plan (see line ~467 below); other stories partially landed in Ch 1 polish |
@@ -106,6 +106,8 @@ Let me think about this from every angle — what would make a publisher say yes
 
 ---
 
+**[MIGRATED 2026-05-08 to `_BookLevelGuidance.md` — three book-level sections (1 LIVING PEOPLE + 2 VILLAIN + 5 ORIGIN STORY) consolidated there as canonical home. Original text preserved below for historical reference per WP#10 internal-scaffolding discipline. When drafting Ch 1, use the migrated file as the canonical source; this in-file copy is no longer maintained.]**
+
 1. THE BOOK NEEDS LIVING PEOPLE
 
 This is the single biggest structural weakness right now. The book has data, theory, historical cases, and mathematical frameworks. What it lacks is what made Evicted win the Pulitzer — real people whose stories the reader follows across chapters.
@@ -145,6 +147,8 @@ The most enduring frameworks in social science have origin stories. Ostrom's com
 Your origin story — healthcare IT executive who saw how institutions externalize costs, who chose nursing over continued consulting because of the personal cost severance he was experiencing, who lives on a sailboat in Hampton and watches watermen go out before dawn — is a compelling origin for the framework. It says: "I've been inside the machine. I've seen how it manages costs — by pushing them onto whoever can't push back. And I've experienced it personally. The framework isn't abstract theory. It's what I saw."
 
 This origin story should be woven into Chapter 1 and referenced briefly in the closing. It gives the reader a reason to trust you — not because you have credentials (though you do) but because you've lived the mechanism you're naming.
+
+**[End of migrated content — see `_BookLevelGuidance.md` for canonical version + 2026-05-08 status updates including outreach pipeline state + LaVern E. Winn (grandfather/NASA inventor) origin-story extension.]**
 
 ---
 

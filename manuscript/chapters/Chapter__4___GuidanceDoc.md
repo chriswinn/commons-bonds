@@ -20,8 +20,8 @@
 | § Counterarguments woven in (line ~64) | CURRENT | objection-response framing unchanged |
 | § Comparative case within chapter — Nigeria (line ~68) | CURRENT | Norway/Nigeria contrast is in current Ch 4; aligned with Aeon-pitch prep + draft2 §IV three-civilization-triangle framing |
 | § Handling note (line ~70) | CURRENT | register guidance still applies |
-| § "1. THE BOOK NEEDS LIVING PEOPLE" (line ~94) | **PARTIALLY REGRESSED** | book-level guidance (not Ch 4 specific) absorbed into this Ch 4 doc. Some advice now superseded: outreach pipeline IS now active (Darity / Beth-Ingledew Amsterdam intro / Sherfinski / Colden — per recent commits). Coal miner / Norway interview suggestions remain valid but partially overtaken by current outreach state. Should probably MIGRATE to a book-level guidance file if not already there. |
-| § "8. THE BOOK NEEDS COMPARATIVE CASES WITHIN CHAPTERS" (line ~112) | CURRENT | Norway/Nigeria within-Ch-4 contrast point still applies; Ch 7's Egypt+Qin+feudalism three-civilization stress-test is the parallel within-chapter-comparison move |
+| § "1. THE BOOK NEEDS LIVING PEOPLE" (line ~94) | **MIGRATED 2026-05-08** | Migrated to `_BookLevelGuidance.md` §1 as canonical home; in-file copy retained with markers per WP#10. 2026-05-08 status update there reflects outreach pipeline now active. |
+| § "8. THE BOOK NEEDS COMPARATIVE CASES WITHIN CHAPTERS" (line ~112) | **MIGRATED 2026-05-08** | Migrated to `_BookLevelGuidance.md` §8 as canonical home; in-file copy retained with markers per WP#10. Norway/Nigeria within-Ch-4 contrast still canonical; Ch 7's Egypt+Qin+feudalism three-civilization stress-test is the parallel within-chapter-comparison move. |
 | § Duplicate Chapter 4 (Norway) objection paragraph (line ~122) | **DUPLICATE** | same paragraph as line ~36; redundant; could be deleted to clean up |
 | **Insight #57 Intergenerational Option Value reference** | RESOLVED 2026-05-08 | Body content updated 2026-05-08 with Intergenerational Option Value framing section added after the "key analytical point" passage (line ~83). Lineage citations integrated: Henry 1974 + Arrow + Fisher 1974 + Dixit + Pindyck 1994 + Howarth + Norgaard 1990 + 1992. Ch 4's specific contribution to option-value scholarship documented. Tech Appendix §L methodological footnote noted as queued for Phase 3 v2.0.0 rebuild. |
 
@@ -114,6 +114,8 @@ Let me think about this from every angle — what would make a publisher say yes
 
 ---
 
+**[MIGRATED 2026-05-08 to `_BookLevelGuidance.md` — two book-level sections (1 LIVING PEOPLE + 8 WITHIN-CHAPTER COMPARISONS) consolidated there as canonical home. Original text preserved below for historical reference per WP#10 internal-scaffolding discipline. When drafting Ch 4, use the migrated file as the canonical source; this in-file copy is no longer maintained.]**
+
 1. THE BOOK NEEDS LIVING PEOPLE
 
 This is the single biggest structural weakness right now. The book has data, theory, historical cases, and mathematical frameworks. What it lacks is what made Evicted win the Pulitzer — real people whose stories the reader follows across chapters.
@@ -139,6 +141,8 @@ Right now, each chapter focuses on a single case or theme. This is clean structu
 Within Chapter 4 (Norway), briefly contrast Norway with a petro-state that failed — Nigeria, Venezuela, or Saudi Arabia. This shows that the same resource, extracted under different institutional conditions, produces radically different cost severance outcomes. Norway's CS is small because B is large (the sovereign wealth fund captures value). Nigeria's CS is enormous because B is near zero (revenue is captured by elites, costs are borne by the Niger Delta communities). The same oil, the same market price, radically different CS. This proves the model differentiates correctly.
 
 These within-chapter comparisons strengthen the argument because they show the model isn't a blunt instrument that says "extraction bad." It's a sensitive instrument that says "extraction under these conditions produces this much cost severance, and extraction under different conditions produces a different amount." That sensitivity is what makes it credible.
+
+**[End of migrated content — see `_BookLevelGuidance.md` for canonical version.]**
 
 ---
 

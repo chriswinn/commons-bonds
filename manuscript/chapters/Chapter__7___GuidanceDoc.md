@@ -36,6 +36,7 @@ Ch 7 GuidanceDoc is the largest of the 10 (553 lines) and received heavy framewo
 | § Counterarguments (line ~99) | CURRENT | "Mars is a false analogy" + market-pricing-on-uninhabited-asteroid responses remain canonical |
 | § Cross-test scenario expansion (line ~107+; rare-earth-mining-on-comet-vs-planet-vs-moon) | NOT FULLY AUDITED | continues for ~400 lines through line ~500; bulk of content predates 2026-05-04 cascade; STALE-FRAMING NOTICE applies broadly; specific scenario logic likely valid; full per-paragraph audit deferred unless surfacing during chapter revision |
 | § Multi-perspective application example — asteroid mining contract scenario (line ~503) | CURRENT | added 2026-04-23 per PCR v1.0.0 Cross-cutting Finding 3; already integrated into Ch 7 chapter draft per recent commits |
+| § "8. THE BOOK NEEDS COMPARATIVE CASES WITHIN CHAPTERS" (line ~515) | **MIGRATED 2026-05-08** | Migrated to `_BookLevelGuidance.md` §8 as canonical home; in-file copy retained with markers per WP#10. Note: Ch 7's three-civilization (Egypt + Qin + feudalism) temporal stress-test is the parallel within-chapter-comparison move at historical scale. |
 | § Four perspectives breakdown (line ~511) | PARTIALLY CURRENT | uses CIT (current) per inline rename annotations; "Tier signature" references retired 8-tier scheme but each perspective's tier-mapping is preserved historically; Path-dependency note at line ~552 already documents Path F → Option C' progression + commons-categories-not-tiers update |
 | § Why all four perspectives matter together (line ~533) | CURRENT | framework-as-negotiation-instrument framing remains canonical |
 | § Register notes / cross-chapter coordination / path-dependency note (line ~537-552) | CURRENT | path-dependency note explicitly captures the 2026-04-24 sweep updates |
@@ -512,6 +513,8 @@ The model's universality claim is not "it always disagrees with the market." It'
 
 ---
 
+**[MIGRATED 2026-05-08 to `_BookLevelGuidance.md` — book-level section §8 (WITHIN-CHAPTER COMPARISONS) consolidated there as canonical home. Original text preserved below for historical reference per WP#10 internal-scaffolding discipline. When drafting Ch 7, use the migrated file as the canonical source; this in-file copy is no longer maintained.]**
+
 8. THE BOOK NEEDS COMPARATIVE CASES WITHIN CHAPTERS, NOT JUST ACROSS CHAPTERS
 
 Right now, each chapter focuses on a single case or theme. This is clean structurally but misses opportunities for comparison that would strengthen the argument.
@@ -519,6 +522,8 @@ Right now, each chapter focuses on a single case or theme. This is clean structu
 Within Chapter 7 (The Colony Administrator), the cross-scenario testing already serves this comparative function. Keep it.
 
 These within-chapter comparisons strengthen the argument because they show the model isn't a blunt instrument that says "extraction bad." It's a sensitive instrument that says "extraction under these conditions produces this much cost severance, and extraction under different conditions produces a different amount." That sensitivity is what makes it credible.
+
+**[End of migrated content — see `_BookLevelGuidance.md` for canonical version. Note: Ch 7's three-civilization (Egypt + Qin + feudalism) temporal stress-test is the parallel within-chapter-comparison move at historical scale.]**
 
 ---
 
