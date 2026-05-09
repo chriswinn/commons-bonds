@@ -1,5 +1,7 @@
 # Agent Targets
 
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-08
+
 **Status.** Skeleton — populate by Sept–Oct 2026 per cascade plan.
 
 **Purpose.** Ranked target list of literary agents who place trade nonfiction with academic credibility — the kind who sell to Penguin Press, FSG, Knopf, PublicAffairs, Norton, Princeton Trade, Riverhead, Metropolitan/Holt.

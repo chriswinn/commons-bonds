@@ -1,5 +1,7 @@
 # Author Platform
 
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-06
+
 **Status.** Skeleton — to be drafted as essay placements and interview wins land.
 
 **Purpose.** The honest version of the author's platform paragraph. For a first-time author with no prior placements, the credible move is: lean into outsider-credibility, list what's actually placed/recorded, name interviewees with confirmed quote-permission. Pad nothing.

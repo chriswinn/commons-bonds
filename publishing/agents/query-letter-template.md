@@ -1,5 +1,7 @@
 # Query Letter Template
 
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-06
+
 **Status.** Skeleton — finalize by Sept–Oct 2026 per cascade plan.
 
 **Purpose.** A reusable query-letter spine that agent-specific personalization (in `personalization-snippets.md`) plugs into. Single-page email; opens cold; closes with an explicit next-step ask.

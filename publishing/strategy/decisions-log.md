@@ -1,5 +1,7 @@
 # Publishing Decisions Log
 
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-08
+
 **Purpose.** Append-only record of publishing-strategy decisions — what was decided, when, and why. Mirrors the discipline in `alignment/decisions/`. Use for: venue choices, sequencing, rights questions, agent-query gating, deadline shifts.
 
 **Discipline.** Newest at top. Each entry has date, decision, context, and (when relevant) what it supersedes.

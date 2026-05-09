@@ -1,5 +1,7 @@
 # Proposal Master
 
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-06
+
 **Status.** Skeleton — assembled at proposal-completion time (target Sept–Oct 2026).
 
 **Purpose.** The single document sent to agents. Concatenates the section files in order, flowed into one continuous piece with consistent voice and pagination.

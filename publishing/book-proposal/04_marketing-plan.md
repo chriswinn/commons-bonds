@@ -1,5 +1,7 @@
 # Marketing Plan
 
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-06
+
 **Status.** Skeleton — not yet drafted. Target completion: Sept–Oct 2026, after essay-cascade results begin to land.
 
 **Purpose.** Show the publisher's marketing department a concrete launch path. Be specific; vague marketing plans get filed under "the author thinks they don't need to do this."

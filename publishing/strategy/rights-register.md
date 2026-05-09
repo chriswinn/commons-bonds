@@ -1,5 +1,7 @@
 # Essay Rights Register
 
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-08
+
 **Purpose.** Track exclusivity and overlap risk across essay submissions so no two pieces collide on prose, frame, or chapter source. Per-piece exclusivity terms (Aeon's 5-yr digital + 1-yr print, Noema's "no overlap" rule, etc.) live here, not in scattered editorial notes.
 
 **Discipline.** Append-only. One row per submission. Update status as it changes; never delete history.

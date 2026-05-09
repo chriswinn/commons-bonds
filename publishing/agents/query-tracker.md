@@ -1,14 +1,16 @@
 # Query Tracker
 
-**Status.** Skeleton — first entries land in Wave 1 (Nov 2026) per cascade plan.
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-08
+
+**Status.** Skeleton — first entries land in Wave 1 (late July / early August 2026 per cascade plan recalibration 2026-05-08).
 
 **Purpose.** One row per agent query. Discipline: log on send, update on response. The tracker is what prevents accidentally simultaneous queries to exclusivity-only agents and what surfaces patterns when 0/8 in a wave returns interest.
 
 ## Wave plan
 
-- **Wave 1 (Nov 2026)** — 8 queries. Priority-A agents.
-- **Wave 2 (Jan 2027)** — 8 queries. Priority-B agents. Incorporates Wave 1 feedback.
-- **Wave 3 (Mar 2027)** — 9 queries. Priority-C agents. Incorporates Wave 1 + 2 feedback.
+- **Wave 1 (late July / early August 2026)** — 8 queries. Priority-A agents.
+- **Wave 2 (Sept–Oct 2026)** — 8 queries. Priority-B agents. Incorporates Wave 1 feedback.
+- **Wave 3 (Q4 2026 / Q1 2027)** — 9 queries. Priority-C agents. Incorporates Wave 1 + 2 feedback.
 
 ## Tracker
 

@@ -1,5 +1,7 @@
 # Chapter Summaries
 
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-08
+
 **Status.** Skeleton — to be drafted from chapter drafts (`manuscript/chapters/Chapter__N__*__Draft.md`) during the late-June 2026 proposal sprint per cascade plan.
 
 **Purpose.** One page per chapter. Shows the agent the book's argumentative arc and demonstrates that the manuscript is real (not vaporware).

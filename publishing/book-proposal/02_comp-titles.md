@@ -1,5 +1,7 @@
 # Comp Titles
 
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-08
+
 **Status.** Working list — refine to 5–6 for the final proposal.
 
 **Purpose.** Anchor Commons Bonds in the agent's mental map. Each comp shows: there is a market for this register; how Commons Bonds is similar; how it advances the conversation.

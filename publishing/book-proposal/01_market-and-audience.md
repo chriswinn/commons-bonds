@@ -1,5 +1,7 @@
 # Market & Audience
 
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-06
+
 **Status.** Skeleton — not yet drafted. Target completion: Sept–Oct 2026.
 
 **Purpose.** Demonstrate to the agent (and through them, to the publisher's marketing/sales) that there is a paying readership for this book. Hard numbers where possible.

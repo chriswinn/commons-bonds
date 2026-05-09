@@ -1,5 +1,7 @@
 # Personalization Snippets
 
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-08
+
 **Status.** Skeleton — populate as the target list (`targets.md`) is built.
 
 **Purpose.** One snippet per target agent — the genuine, specific reason this query is going to *them*. Plugs into Paragraph 1 of `query-letter-template.md`. The point is to prevent the query letter from reading as a mass send.
