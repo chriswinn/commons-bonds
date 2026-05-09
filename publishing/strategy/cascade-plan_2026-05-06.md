@@ -1,6 +1,6 @@
 # Commons Bonds — Publishing Strategy: Derivative Works → Agent → Publisher
 
-**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-08
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-09
 **Author:** Chris Winn  ·  **Book target:** 2026–2027
 
 ---
@@ -21,19 +21,19 @@ The strategic constraint that stays load-bearing: **non-partisan framework posit
 - **Ch 2, 4, 5, 7, 8, 9, 10** drafted.
 - **Ch 6** drafted in clean semantic HTML; Insight #21 closed-ratified 2026-05-04. (Several scaffolding files still describe Ch 6 as pending rewrite — see GuidanceDoc, AGENTS.md, open-insights, v1.50.0 handoff — those need a stale-reference sweep.)
 - **Ch 3** scaffolding only — the remaining drafting bottleneck.
-- **Aeon pitch** — title ratified 2026-05-08 as **"The Mask of Abundance"** (rigor pass v1.0.0; "X of Y" pattern matching Sandel/Pistor/Mazzucato/Raworth; threads to pitch's own "mask of abundance is removed" phrasing). Cultural-engagement commitment to Dunbar/Du Bois/Ellison/Fanon lineage — explicit acknowledgment in Aeon essay + book Ch 8 + Ch 1 paragraph; bibliography §21 added; mask-terminology pivot prepared for Darity May 12 call. Version A in active polish; Version B alternate-frame draft ("reader visits closed habitat") preserved at `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-B_alternate-frame.md`. Source: Ch 7. Submission window opens first week of each month → next viable window June 1, 2026, with revision pass after Darity interview.
+- **Aeon pitch** — title ratified 2026-05-08 as **"The Mask of Abundance"** (rigor pass v1.0.0; "X of Y" pattern matching Sandel/Pistor/Mazzucato/Raworth; threads to pitch's own "mask of abundance is removed" phrasing). Cultural-engagement commitment to Dunbar/Du Bois/Ellison/Fanon lineage — explicit acknowledgment in Aeon pitch + book Ch 8 + Ch 1 paragraph; bibliography §21 added; mask-terminology pivot prepared for Darity May 12 call. **Version C ratified 2026-05-08 (commits `384b2df` + `24d2e79`) as the locked submission cut — 300 words, READY TO SEND.** Version A held as alternative; Version B deleted. Aeon's pitch-first model: submit pitch via portal; essay developed via editor collaboration if accepted (Aeon does not require a full essay at submission). Source: Ch 7. Submission window: June 1–7, 2026 portal window. Post-Darity revision May 13–31 is optional polish (Version C is locked).
 - **Noema** withdrawn 2026-05-01. Path B rewrite plan ratified same day (Chris-as-vignette plane scene; solutions cluster γ = Mazzucato + Mondragon + Vienna + Ecuador/Whanganui).
 - **Berggruen Prize** parallel track. Deadline **2026-08-17** (~14 weeks). AI-free writing required → demands a physically isolated workflow.
 - **Framework Positioning Disciplines (FPD) v1.0.0** ratified 2026-05-06 at `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` — eight canonical positioning disciplines including "Why bonds vs. funds/accounts/trusts/reserves" rationale. Feeds the book-proposal `00_overview.md` and `02_comp-titles.md` framing.
 - **Outreach pipeline (state per v1.52.0 + post-handoff updates through 2026-05-08):**
   - **William Darity Jr.** (Duke): ACCEPTED 2026-05-05; confirmed **2026-05-12 @ 14:00 ET, phone, 1 hour** (author calls Sandy). Full prep apparatus drafted: pre-read brief, background brief, internal interview-prep doc, live-call companion (HTML+MD), framework-decline contingency, mask-terminology pivot. Mullen warm-intro deferred to end-of-call.
   - **Mariana Mazzucato** (UCL/IIPP): HOLDING RESPONSE 2026-05-06 via Adam Albrecht (Office of Prof. Mazzucato). Preserve Albrecht as routing path; awaiting substantive follow-up.
-  - **Allison Colden** (CBF Maryland): response SENT 2026-05-06 via gatekeeper Val DiMarzio. **Public-record brief landed 2026-05-08** (commits `0e83dc5` + `fffd202`; `research/outreach/colden-background-brief_2026-05-08.md` — ~11,900 words, ~150-source citation list); **substitution-hypothesis CONFIRMED** — Ch 3 drafting + Noema §V third-anchor both unblocked from public-record material alone. Live interview a bonus rather than a blocker.
-  - **Karen Moore** (CBF Virginia): SENT 2026-05-06 via gatekeeper David Sherfinski. Parallel CBF track to Colden, also feeding Ch 3 Chesapeake fieldwork. CBF organizational-intelligence brief at `research/outreach/cbf-organizational-brief_2026-05-06.md`.
+  - **Allison Colden** (CBF Maryland): response SENT 2026-05-06 via gatekeeper Val DiMarzio. **Public-record brief landed 2026-05-08** (commits `0e83dc5` + `fffd202`; `research/outreach/subjects/colden/background-brief_2026-05-08.md` — ~11,900 words, ~150-source citation list); **substitution-hypothesis CONFIRMED** — Ch 3 drafting + Noema §V third-anchor both unblocked from public-record material alone. Live interview a bonus rather than a blocker. Full prep stack also stood up post-restructure: prereadbrief, interview-prep, live-call companion (HTML+MD).
+  - **Karen Moore** (CBF Virginia): SENT 2026-05-06 via gatekeeper David Sherfinski. Parallel CBF track to Colden, also feeding Ch 3 Chesapeake fieldwork. **Public-record brief landed 2026-05-08** (`research/outreach/subjects/moore/background-brief_2026-05-08.md`); substitution-analysis verdict noted (live interview value-add, not load-bearing). CBF organizational-intelligence brief at `research/outreach/subjects/cbf/organizational-brief_2026-05-06.md`. Full prep stack also stood up: prereadbrief, interview-prep, live-call companion.
   - **Amsterdam DEAL implementation team**: Beth Ingledew warm intro materialized 2026-05-08; response sent to **Dagan** (named contact). Pre-read brief + question set drafted (`amsterdam-donut-prereadbrief_2026-05-06.md` + questions-draft). Amsterdam City Doughnut is the framework's cleanest live Pattern 2 case — strongest Noema solutions-cluster-γ candidate now that the channel is open.
   - **Other 8 cold-outreach recipients** awaiting reply within standard 2–3 wk academic window: James Boyce (UMass/PERI), Adrienne Buller (Common Wealth UK), Atif Mian (Princeton), Amir Sufi (Chicago Booth), Gar Alperovitz (Democracy Collaborative), Mondragon press relations, Appalachian Citizens' Law Center, National Coalition of Black Lung & Respiratory Disease Clinics.
   - **A. Kirsten Mullen** (#3): Gmail draft on hold; activation deferred to end of Darity interview if it goes well.
-  - **Interview attribution protocol** (`research/outreach/interview-attribution-protocol_2026-05-06.md`): every interview leads with Q0 attribution-permission.
+  - **Interview attribution protocol** (`research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md`): every interview leads with Q0 attribution-permission.
 - **Withdrawn-Noema essay** archived 2026-05-08 to `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` with §I wife's-illness EXCISED per Candidate #4 discipline. Resolved — not slated for any venue; held as historical record.
 - **Consent constraint:** ex-wife withholds consent for medical-event prose; redirect to son-centered + parents-aging + sailboat anchors.
 
@@ -53,7 +53,7 @@ The strategic constraint that stays load-bearing: **non-partisan framework posit
 ## 12-month sequence
 
 ### May 2026 (now → 5/31)
-- **A** — Aeon title ratified ("The Mask of Abundance"); Version A pitch in active polish (per-paragraph rigor cadence); Version B alternate-frame draft preserved on hand. Plan post-Darity revision pass May 13–31 covering McDowell case-walk + universality framing. Lock AI-disclosure statement.
+- **A** — Aeon pitch **complete and ready to send**: Version C ratified as the locked submission cut 2026-05-08 (300 words; commits `384b2df` + `24d2e79`); Version A held as alternative; Version B deleted. Title "The Mask of Abundance" + AI-disclosure paragraph + cultural-engagement commitment all locked in. Post-Darity revision May 13–31 is *optional* polish — submit Version C as-is in the June 1–7 portal window if no upgrade material surfaces. (Aeon's pitch-first model: essay developed via editor collaboration post-acceptance.)
 - **B** — Ch 1 tentatively final (drafted 2026-05-04; title-rigor pass v2.0.0 applied; sunrise-bookend with Ch 10). Ch 3 (Watermen / Chesapeake) gated on Colden + Moore CBF interviews. Story-drafts substrate now leaner (6 ch1_* files; Candidates #2/#3 beats relocated to `archive/_OneDayMaybe/personal-story-material/`). **Cross-thread item from publishing-strategy comp-titles work (2026-05-08):** Ch 5 needs a paragraph engaging Pistor (legal-architecture-of-capital ↔ institutional-architecture-of-accountability); Ch 9 needs paragraphs engaging Christophers (diagnosis-vs-prescription on pricing mechanics) and Susskind (mechanism-specific complement to macro reckoning). Required *before* the late-June proposal sprint so chapter summaries reflect the engagement. See `decisions-log.md` 2026-05-08 (Bibliography additions) entry.
 - **C** — Stand up an isolated Berggruen workflow (separate working directory, no AI tools, dated logs). Begin essay from `manuscript/essay/berggruen/` seed.
 - **D** — **Conduct Darity interview 2026-05-12 @ 14:00 ET** (phone, 1 hr; pre-read + background + live-call companion + framework-decline contingency all drafted). File transcript / notes in `research/outreach/` within 7 days; stage Mullen warm-intro ask if call goes well. Monitor for substantive Mazzucato follow-up via Albrecht; for replies from Val DiMarzio (Colden), Sherfinski (Moore), Dagan (Amsterdam DEAL); activate stashed Colden 7-question batch + Amsterdam DEAL brief on acceptance.
@@ -77,7 +77,7 @@ The strategic constraint that stays load-bearing: **non-partisan framework posit
 
 ### August 2026
 - **C** — **Aug 17 Berggruen deadline.** Hard.
-- **A** — Begin Noema rewrite using Path B structure. **§V third-anchor RESOLVED 2026-05-08:** Chesapeake fisheries via Colden public-record brief (substitution-hypothesis CONFIRMED). Drafting plan at `manuscript/essay/Noema/noema-essay-drafting-plan_2026-05-08.md`; ~95% of essay drafted-able now (Phase 1–3); only Phase 4 (Darity reparations sub-portion of Section V) waits on May 12 interview + quote-confirmation. Submission target accelerates from August to **late May / early June** if drafting capacity allows — possibly in parallel with or shortly after the Aeon submission.
+- **A** — Begin Noema rewrite using Path B structure. **§V third-anchor RESOLVED 2026-05-08:** Chesapeake fisheries via Colden public-record brief (substitution-hypothesis CONFIRMED). **Hybrid operational approach ratified 2026-05-09** (commit `9aee18d`): Section V Darity sub-portion also draftable now via public-record quote-mining (*From Here to Equality* 2020, *Umbrellas Don't Make It Rain* 2015, *Explorations in Economic History* Jan 2026, *Freedmen Fridays* commentary). May 12 interview = upgrade opportunity, not precondition. **100% of essay drafted-able now** (drafting plan at `manuscript/essay/Noema/noema-essay-drafting-plan_2026-05-08.md`). Submission target accelerates from August to **late May / early June** if drafting capacity allows — possibly in parallel with or shortly after the Aeon submission.
 - **A3** — Decide academic/policy placement: recommend Real-World Economics Review (heterodox-econ, fast turnaround, no impact-factor games) for a methods-note adaptation of Ch 9's four-step framework. Brookings/PIIE briefs require institutional affiliation; hold unless a fellowship lands.
 - **E** — Wave 1 closes; reflect on response rate; pull Wave 2 prep forward if green signal lands or rework query letter / platform paragraph if 0/8 returns interest.
 
@@ -139,12 +139,12 @@ The 25-name list mix: ~60% econ/policy big-idea, ~25% narrative-nonfiction-with-
 - **Berggruen AI-free workflow contamination.** Any tool-assisted edit voids eligibility. Need physical isolation + dated logs.
 - **Outreach silence on Mazzucato.** Darity is already converting; Mazzucato is the remaining cold contact. No reply by week 8 → lean on Darity (+ Dr. Colden if she confirms) for the interview layer; revisit alternates (Pistor, Christophers, Tooze).
 - **Darity meeting falls through or yields no quotable material.** Mitigation: prepare a written follow-up question set the same week so even a brief or rescheduled meeting produces something usable; have Mazzucato outreach already in flight as redundancy.
-- **Ch 3 stalls.** Drafting bottleneck — gated on Colden + Moore CBF interview outcomes. Failure mode: neither CBF gatekeeper accepts → Ch 3 lacks Chesapeake fieldwork primary source. Mitigation: parallel CBF tracks (Colden via DiMarzio + Moore via Sherfinski) reduce single-point-of-failure risk.
+- ~~**Ch 3 stalls.**~~ **RESOLVED 2026-05-08** — Colden public-record brief lands Chesapeake fisheries as draftable from public-record material alone (substitution-hypothesis CONFIRMED). Moore brief (2026-05-08) provides parallel Virginia perspective. Live interviews are upgrades, not preconditions.
 - **Mask-terminology lineage discipline.** "The Mask of Abundance" carries Dunbar/Du Bois/Ellison/Fanon resonance; silent borrowing risks reading as appropriation. Mitigation: explicit acknowledgment in Aeon essay + Ch 8 + Ch 1; bibliography §21; pivot prepared for Darity if raised on May 12.
 - **Platform thinness.** No prior essays + no prior book = harder agent sell. Two placements is the floor, not the goal.
 
 **Decisions due in 2–4 weeks:**
-1. Lock Aeon Version A as the submission cut by May 31 (title is ratified; per-paragraph polish ongoing; Version B alternate kept on hand). Confirm whether Version B is reserved for a separate venue or dissolved.
+1. ~~Lock Aeon Version A as the submission cut by May 31...~~ **RESOLVED 2026-05-08** — Version C ratified as the locked submission cut (commits `384b2df` + `24d2e79`); Version A held as alternative; Version B deleted.
 2. Confirm Boston Review as essay-2 primary (recommended over Foreign Policy).
 3. Confirm Berggruen workflow isolation protocol.
 4. Confirm sample chapters: Ch 7 + Ch 5 (recommended).
@@ -186,7 +186,7 @@ The 25-name list mix: ~60% econ/policy big-idea, ~25% narrative-nonfiction-with-
 **Abort/pivot conditions:**
 - 3 essay rejections with no requests-to-revise → reassess voice/pitch fit (not the framework).
 - 0 of 8 Wave-1 agent queries return interest → pause Wave 2 (Sept-Oct); rework query letter and platform paragraph; consider a third essay submission or a placed op-ed before Wave 2.
-- Ch 3 still gated on CBF interviews by July 1 → in the proposal, lead with Ch 7 + Ch 5 as the two samples (already recommended); flag Ch 3 as in-progress in the chapter-summaries section.
+- Ch 3 not drafted by July 1 → in the proposal, lead with Ch 7 + Ch 5 as the two samples (already recommended); flag Ch 3 as in-progress in the chapter-summaries section. (Ch 3 is unblocked from CBF public-record briefs as of 2026-05-08; risk now is drafting-capacity allocation, not source-material availability.)
 - Berggruen missed → not fatal; redirect that essay to Noema or Public Books.
 
 **Green-light to query agents (Wave 1):** complete book proposal + Ch 7 + Ch 5 polished as samples + ≥1 essay at editor-review stage at a top-tier venue (or already placed) + ≥1 substantive named-source interview recorded with quote-permission. **Late July / early August 2026 target.** Earlier risks a thin proposal; later than September stales the early under-consideration signals.
@@ -202,8 +202,10 @@ The 25-name list mix: ~60% econ/policy big-idea, ~25% narrative-nonfiction-with-
 - `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html`
 
 **Essay tracks:**
-- `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn.md` (Version A — primary)
-- `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-B_alternate-frame.md` (alternate frame on hand)
+- `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` (**Version C — locked submission cut, 300w, READY TO SEND June 1–7 portal window**)
+- `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn.md` (Version A — held as alternative)
+- `manuscript/essay/aeon/aeon-submission-strategy_2026-05-08.md` (submission timing + fallback plan)
+- `manuscript/essay/aeon/aeon-essay-dunbar-aside-drafts_2026-05-08.md` (cultural-engagement drafts for post-acceptance essay-development phase)
 - `manuscript/essay/Noema/rewrite-plan_2026-05-01.md`
 - `manuscript/essay/berggruen/commons-bonds-berggruen-essay-draft.docx`
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md`
@@ -223,20 +225,43 @@ The 25-name list mix: ~60% econ/policy big-idea, ~25% narrative-nonfiction-with-
 - `publishing/agents/personalization-snippets.md`
 
 **Outreach (active):**
-- `research/outreach/darity-prereadbrief_2026-05-05.md`
-- `research/outreach/darity-background-brief_2026-05-06.md`
-- `research/outreach/darity-interview-prep_2026-05-06.md`
-- `research/outreach/darity-live-call-companion_2026-05-06.md` (+ HTML companion)
-- `research/outreach/colden-prereadbrief_2026-05-06.md`
-- `research/outreach/response-draft_2026-05-05_colden-via-dimarzio.md`
-- `research/outreach/questions-draft_2026-05-05_colden-if-val-accepts.md`
-- `research/outreach/response-draft_2026-05-06_moore-via-sherfinski.md`
-- `research/outreach/cbf-organizational-brief_2026-05-06.md`
-- `research/outreach/amsterdam-donut-prereadbrief_2026-05-06.md`
-- `research/outreach/questions-draft_2026-05-06_amsterdam-doughnut-team-tbd.md`
-- `research/outreach/interview-attribution-protocol_2026-05-06.md`
-- `research/outreach/interview-outreach-drafts_2026-05-01.md`
-- `research/outreach/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md`
+Outreach folder restructured 2026-05-09 into per-subject folders + meta-folder buckets (`research/outreach/subjects/<subject>/X` and `_pipeline/`, `_protocols/`, `_templates/`):
+
+- `research/outreach/subjects/darity/prereadbrief_2026-05-05.md`
+- `research/outreach/subjects/darity/background-brief_2026-05-06.md`
+- `research/outreach/subjects/darity/interview-prep_2026-05-06.md`
+- `research/outreach/subjects/darity/live-call-companion_2026-05-06.md` (+ HTML companion)
+- `research/outreach/subjects/colden/prereadbrief_2026-05-06.md`
+- `research/outreach/subjects/colden/background-brief_2026-05-08.md` (substitution-hypothesis CONFIRMED)
+- `research/outreach/subjects/colden/interview-prep_2026-05-08.md`
+- `research/outreach/subjects/colden/live-call-companion_2026-05-08.md`
+- `research/outreach/subjects/colden/response-draft_2026-05-05_via-dimarzio.md`
+- `research/outreach/subjects/colden/questions-draft_2026-05-05_if-val-accepts.md`
+- `research/outreach/subjects/moore/background-brief_2026-05-08.md` (substitution-analysis verdict noted)
+- `research/outreach/subjects/moore/prereadbrief_2026-05-08.md`
+- `research/outreach/subjects/moore/interview-prep_2026-05-08.md`
+- `research/outreach/subjects/moore/live-call-companion_2026-05-08.md`
+- `research/outreach/subjects/moore/response-draft_2026-05-06_via-sherfinski.md`
+- `research/outreach/subjects/cbf/organizational-brief_2026-05-06.md`
+- `research/outreach/subjects/cbf/prereadbrief_2026-05-08.md`
+- `research/outreach/subjects/cbf/interview-prep_2026-05-08.md`
+- `research/outreach/subjects/cbf/live-call-companion_2026-05-08.md`
+- `research/outreach/subjects/dagan/prereadbrief_2026-05-08.md`
+- `research/outreach/subjects/dagan/background-brief_2026-05-08.md`
+- `research/outreach/subjects/dagan/interview-prep_2026-05-08.md`
+- `research/outreach/subjects/dagan/live-call-companion_2026-05-08.md`
+- `research/outreach/subjects/dagan/questions-draft_2026-05-08.md`
+- `research/outreach/subjects/dagan/response-draft_2026-05-07_via-beth.md`
+- `research/outreach/subjects/dagan/water-deal-hypothetical_2026-05-07.md`
+- `research/outreach/subjects/mazzucato/prereadbrief_2026-05-08.md`
+- `research/outreach/subjects/mazzucato/background-brief_2026-05-08.md`
+- `research/outreach/subjects/mazzucato/interview-prep_2026-05-08.md`
+- `research/outreach/subjects/mazzucato/live-call-companion_2026-05-08.md`
+- `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md`
+- `research/outreach/_protocols/framework-scope-explicitness-discipline_2026-05-06.md`
+- `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md`
+- `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md`
+- `research/outreach/_templates/amsterdam-donut-prereadbrief_2026-05-06.md` (template)
 
 **Substrate:**
 - `research/story-drafts/` (6 ch1_* files + session-answers; reduced from 8 after Candidate #2/#3 relocations to `archive/_OneDayMaybe/personal-story-material/`)
@@ -254,4 +279,5 @@ The 25-name list mix: ~60% econ/policy big-idea, ~25% narrative-nonfiction-with-
 - **2026-05-08 (later).** Recalibrated three things: (1) chapter-summaries source corrected from GuidanceDocs to drafted chapters; (2) "two to four published derivative works" framing dropped from Context — replaced with calibrated minimum (proposal complete + ≥1 essay at editor-review + ≥1 interview recorded); (3) Wave 1 agent-query target shifted from November 2026 to **late July / early August 2026**, with proposal sprint targeting late June completion. Wave 2 → Sept-Oct; Wave 3 → Q4 2026 / Q1 2027. Strategic frame points 5 + 6 updated; 3-month checkpoint added; 6-month checkpoint reframed; abort/pivot timings adjusted. See `decisions-log.md` 2026-05-08 (Recalibrate) entry.
 - **2026-05-08 (evening).** Four batched updates absorbing the day's downstream work: (a) **Wylie / Sarah Chalfant** identified as first concrete Priority A agent target via public-record check — added to May E-track; acknowledgments-page confirmation queued in Decisions due (#8); (b) **GuidanceDoc archive position ratified** — stay in place under WP#10 + staleness disclaimers; per-section staleness audit deferred to Insight #39 pre-publication external review; (c) **Bibliography additions** — Pistor + Christophers + Susskind added to `research/literature/bibliography.md` §13 with engagement-pending status flags; (d) **`02_comp-titles.md` restructured** around bibliography ⊆ comps relationship (Tier 1/2/3); cross-thread TODO surfaced in May B-track for Ch 5 (Pistor) + Ch 9 (Christophers + Susskind) paragraph engagement, required *before* the late-June proposal sprint so chapter summaries reflect the engagement; engagement-depth decision added to Decisions due (#7). See `decisions-log.md` 2026-05-08 entries.
 - **2026-05-08 (Colden de-risk).** §V third-anchor and Ch 3 drafting gating relaxed from "Colden interview only" to "Colden interview *or* sufficient public-record material." Updated three locations: Outreach pipeline (Colden bullet), August A-track (Noema rewrite trigger), Decisions due (#6). Strategic decision: parallel public-record prep on Colden + Moore queued for the manuscript/outreach thread (mirror Darity + Dagan background-brief methodology). De-risks Ch 3 + Noema §V from a single failure point. See `decisions-log.md` 2026-05-08 (De-risk Colden + Moore) entry; rewrite plan REVISION 2026-05-08 §V gating updated correspondingly.
-- **2026-05-08 (Colden unblock).** Colden public-record brief landed (commits `0e83dc5` + `fffd202`; `research/outreach/colden-background-brief_2026-05-08.md` — ~11,900 words, 719 lines, ~150-source citation list). **Substitution-hypothesis CONFIRMED** by the parallel session: Ch 3 + Noema §V third-anchor both draftable from public-record material alone. Cascade plan updated at three locations (Outreach pipeline / August A-track / Decisions due #6) to reflect resolution. Noema submission target accelerates from August to late May / early June. Noema drafting plan at `manuscript/essay/Noema/noema-essay-drafting-plan_2026-05-08.md` updated correspondingly: Section VI third-anchor moved to Unblocked; Phase 3 expanded to cover all of Section VI; Phase 4 shrinks to Darity slot-fill only; ~95% of essay drafted-able now.
+- **2026-05-08 (Colden unblock).** Colden public-record brief landed (commits `0e83dc5` + `fffd202`; now at `research/outreach/subjects/colden/background-brief_2026-05-08.md` post-restructure — ~11,900 words, 719 lines, ~150-source citation list). **Substitution-hypothesis CONFIRMED** by the parallel session: Ch 3 + Noema §V third-anchor both draftable from public-record material alone. Cascade plan updated at three locations (Outreach pipeline / August A-track / Decisions due #6) to reflect resolution. Noema submission target accelerates from August to late May / early June. Noema drafting plan at `manuscript/essay/Noema/noema-essay-drafting-plan_2026-05-08.md` updated correspondingly: Section VI third-anchor moved to Unblocked; Phase 3 expanded to cover all of Section VI; Phase 4 shrinks to Darity slot-fill only; ~95% of essay drafted-able now.
+- **2026-05-09 (stale-reference cleanup).** Multi-artifact stale-reference cleanup pass after second main-merge: (1) **Aeon Version A/B → Version C** — Version C ratified 2026-05-08 as the locked submission cut (commits `384b2df` + `24d2e79`); Version A held as alternative; Version B deleted. Updated five locations across cascade plan (Current state Aeon line, May A-track, August A-track, Risks, Decisions due #1, Critical files Aeon block). (2) **Pitch-vs-essay terminology sharpened** for Aeon — Aeon's submission model is pitch-first (essay developed via editor collaboration post-acceptance); cascade plan now distinguishes Aeon's pitch from Noema's full-draft submission. (3) **Outreach folder restructure** (commit `16225b5`) — `research/outreach/X` paths updated to `research/outreach/subjects/<subject>/X` + meta-folder buckets `_pipeline/`, `_protocols/`, `_templates/`; Critical files outreach block fully refreshed; ~15 inline path updates across decisions-log historical entries. (4) **Noema 100% drafted-able** — hybrid operational approach ratified 2026-05-09 (commit `9aee18d`); Section V Darity sub-portion also draftable now via public-record quote-mining (*From Here to Equality*, *Umbrellas Don't Make It Rain*, *Explorations in Economic History* Jan 2026, *Freedmen Fridays*); May 12 interview = upgrade opportunity, not precondition. August A-track Noema rewrite description updated. (5) **Ch 3 unblocked** — Risks "Ch 3 stalls" struck; Abort/pivot Ch 3 wording softened. Date modified bumped 2026-05-08 → 2026-05-09.

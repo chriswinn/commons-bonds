@@ -1,6 +1,6 @@
 # Publishing Decisions Log
 
-**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-08
+**Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-09
 
 **Purpose.** Append-only record of publishing-strategy decisions — what was decided, when, and why. Mirrors the discipline in `alignment/decisions/`. Use for: venue choices, sequencing, rights questions, agent-query gating, deadline shifts.
 
@@ -8,9 +8,48 @@
 
 ---
 
+## 2026-05-09 — Stale-reference cleanup pass: Aeon Version C ratification + outreach folder restructure + Noema 100% drafted-able
+
+**Decision.** Multi-artifact stale-reference cleanup pass after second `origin/main` merge (`db11f96`). Captures four substantive state changes that landed on main while the publishing-strategy thread had been working on its own artifacts; aligns publishing/strategy/* with current canonical state.
+
+**State changes captured:**
+
+1. **Aeon pitch Version C ratified 2026-05-08** (commits `384b2df` + `24d2e79`) — Version C is the locked submission cut (300w, READY TO SEND); Version A held as alternative; Version B deleted. Aeon's pitch-first model: submit pitch via portal; essay developed via editor collaboration if accepted. Post-Darity revision May 13–31 is *optional* polish, not a precondition.
+
+2. **Outreach folder restructured** (commit `16225b5` — `claude/respond-to-valerie-inquiry-mV3Na`) — `research/outreach/X` flat paths replaced with per-subject folders + meta-folder buckets:
+   - `research/outreach/subjects/<subject>/X` for darity / colden / moore / dagan / mazzucato / cbf
+   - `research/outreach/_pipeline/X` for outreach-drafts files
+   - `research/outreach/_protocols/X` for attribution + scope-explicitness protocols
+   - `research/outreach/_templates/X` for reusable templates
+   - All path references in the cascade plan + decisions log earlier entries updated inline; new prep stacks (Mazzucato + CBF) now visible.
+
+3. **Noema 100% drafted-able** — hybrid operational approach ratified 2026-05-09 (commit `9aee18d`). Section V Darity reparations sub-portion (~100–200w) is now draftable now via public-record quote-mining: *From Here to Equality* (Darity & Mullen 2020), *Umbrellas Don't Make It Rain* (Hamilton, Darity, et al. 2015), *Explorations in Economic History* Jan 2026 paper, *Freedmen Fridays* commentary. **May 12 Darity interview = upgrade opportunity, not precondition.** Symmetry with Colden treatment locked: substitution-hypothesis applies consistently across both interview targets. Noema drafting plan moves from ~95% drafted-able → **100% drafted-able**.
+
+4. **Ch 3 unblocked** — risk + abort/pivot wording softened. Drafting bottleneck no longer source-material availability (Colden + Moore briefs cover Chesapeake fisheries restoration); now drafting-capacity allocation only.
+
+**Files updated:**
+
+- `publishing/strategy/cascade-plan_2026-05-06.md` — Current state Aeon line; outreach pipeline Colden + Moore bullets; interview-attribution protocol path; May A-track; August A-track Noema; Risks (Ch 3 stalls struck); Decisions due #1 (resolved); Abort/pivot Ch 3; Critical files Aeon block (Version C + Version A + submission strategy + Dunbar drafts) + outreach block (subjects/<subject>/ + _pipeline/ + _protocols/ + _templates/); Update log new 2026-05-09 entry.
+- `publishing/strategy/rights-register.md` — Aeon row updated (Version C ratified; Version A alt; Version B deleted; pitch-vs-essay distinction); Update log new 2026-05-09 entry.
+- `publishing/strategy/decisions-log.md` — this entry; ~5 inline outreach-path updates in earlier 2026-05-08 entries (Colden unblock, De-risk Colden + Moore); Date modified bumped 2026-05-08 → 2026-05-09.
+
+**Pitch-vs-essay terminology discipline.** Going forward, distinguish:
+- **Aeon submission** = pitch (300 words via `aeon.co/pitch` portal); essay developed post-acceptance via editor collaboration.
+- **Noema submission** = full essay draft (best chance per Noema's stated process); ~3,700 words.
+- **Boston Review submission** = ~1pp pitch via Submittable, then full essay if accepted; published essays 2,500–5,000w.
+- **Atlantic Ideas submission** = pitch in body of email; essay on assignment.
+
+**Cross-references.**
+- Source commits: `384b2df` (Version C committed), `24d2e79` (Version C READY TO SEND), `16225b5` (outreach restructure), `9aee18d` (Noema hybrid), `db11f96` (this branch's main-merge).
+- Affected-file paths consolidated in cascade plan Critical files block.
+
+**Supersedes.** Stale references in cascade plan + rights register + decisions-log earlier entries pointing at: Aeon Version A as primary; Aeon Version B alternate-frame on hand; flat `research/outreach/X` paths; "~95% drafted-able" Noema status; Ch 3 stalls / gated risks.
+
+---
+
 ## 2026-05-08 (Colden unblock) — Public-record brief lands; substitution-hypothesis CONFIRMED; Noema submission accelerates
 
-**Decision.** The parallel session's Colden public-record brief landed 2026-05-08 (commits `0e83dc5` + `fffd202`; `research/outreach/colden-background-brief_2026-05-08.md` — ~11,900 words, 719 lines, ~117KB; ~150-source citation list). **Substitution-hypothesis CONFIRMED:** Ch 3 (Watermen / Chesapeake fishery) is draftable from public-record material alone, and Noema essay §V third-anchor (Chesapeake fisheries) is unblocked from the same brief. The live Colden interview becomes a bonus rather than a blocker.
+**Decision.** The parallel session's Colden public-record brief landed 2026-05-08 (commits `0e83dc5` + `fffd202`; now at `research/outreach/subjects/colden/background-brief_2026-05-08.md` post-2026-05-09 outreach folder restructure — ~11,900 words, 719 lines, ~117KB; ~150-source citation list). **Substitution-hypothesis CONFIRMED:** Ch 3 (Watermen / Chesapeake fishery) is draftable from public-record material alone, and Noema essay §V third-anchor (Chesapeake fisheries) is unblocked from the same brief. The live Colden interview becomes a bonus rather than a blocker.
 
 **Implications:**
 
@@ -30,9 +69,9 @@
 - `publishing/strategy/cascade-plan_2026-05-06.md` — three Colden references updated (Outreach pipeline / August A-track / Decisions due #6); update log gains 2026-05-08 (Colden unblock) entry.
 
 **Cross-references.**
-- Source brief: `research/outreach/colden-background-brief_2026-05-08.md` (commits `0e83dc5` + `fffd202`)
+- Source brief: `research/outreach/subjects/colden/background-brief_2026-05-08.md` (commits `0e83dc5` + `fffd202`; path post-2026-05-09 restructure)
 - Prior decision: 2026-05-08 (De-risk Colden + Moore) entry below — established the substitution hypothesis the brief tested.
-- Methodology pattern: `research/outreach/darity-background-brief_2026-05-06.md` + Dagan/Amsterdam pre-read brief.
+- Methodology pattern: `research/outreach/subjects/darity/background-brief_2026-05-06.md` + `subjects/dagan/prereadbrief_2026-05-08.md`.
 
 **Supersedes.** Prior gating language across the cascade plan + rewrite plan REVISION + drafting plan that left Section VI third-anchor + Ch 3 as blocked. Previously these were "blocked on Colden interview *or* sufficient public-record material"; now resolved by the latter.
 
@@ -40,7 +79,7 @@
 
 ## 2026-05-08 — De-risk Colden + Moore CBF dependency via parallel public-record prep (queued for manuscript/outreach thread)
 
-**Decision.** The Ch 3 (Watermen / Chesapeake fishery) and Noema essay §V third-anchor decision are currently single-failure-point dependencies on Colden + Moore CBF interview outcomes. To de-risk, queue parallel public-record prep work on both subjects — mirror the methodology already applied to Darity (`research/outreach/darity-background-brief_2026-05-06.md`) and Dagan (`amsterdam-donut-prereadbrief_2026-05-06.md`): build background briefs of public quotes, congressional/state-legislature testimony, op-eds, podcast appearances, and CBF press releases. Output is useful whether or not interviews land — pre-interview prep + fallback if interviews decline.
+**Decision.** The Ch 3 (Watermen / Chesapeake fishery) and Noema essay §V third-anchor decision are currently single-failure-point dependencies on Colden + Moore CBF interview outcomes. To de-risk, queue parallel public-record prep work on both subjects — mirror the methodology already applied to Darity (`research/outreach/subjects/darity/background-brief_2026-05-06.md`) and Dagan (`research/outreach/subjects/dagan/prereadbrief_2026-05-08.md`): build background briefs of public quotes, congressional/state-legislature testimony, op-eds, podcast appearances, and CBF press releases. Output is useful whether or not interviews land — pre-interview prep + fallback if interviews decline.
 
 **Cross-thread coordination.** Actual research-dossier work belongs to the manuscript / outreach thread (lives in `research/outreach/`). The publishing-strategy thread captures the strategic rationale here and updates the gating language in the Noema rewrite plan REVISION + the cascade plan to reflect the relaxed dependency.
 
@@ -59,8 +98,8 @@ The downside of skipping is losing Ch 3 and the Noema §V slot if both interview
 **Time-box.** ~1 day per subject (mirror Darity background-brief scope). Total ~2 days. Recommended during the Aeon-wait window when other essay work is gated. Subjects: **Allison Colden** (CBF Maryland Executive Director); **Karen Moore** (CBF Virginia Executive Director). David Sherfinski (Moore's Reuters-journalist gatekeeper) provides cross-coverage as a secondary public-record source.
 
 **Cross-references.**
-- Methodology pattern: `research/outreach/darity-background-brief_2026-05-06.md` + `darity-interview-prep_2026-05-06.md` + `darity-live-call-companion_2026-05-06.md` (HTML+MD).
-- Amsterdam DEAL parallel: `research/outreach/amsterdam-donut-prereadbrief_2026-05-06.md`.
+- Methodology pattern: `research/outreach/subjects/darity/background-brief_2026-05-06.md` + `subjects/darity/interview-prep_2026-05-06.md` + `subjects/darity/live-call-companion_2026-05-06.md` (HTML+MD).
+- Amsterdam DEAL parallel: `research/outreach/subjects/dagan/prereadbrief_2026-05-08.md` (template at `_templates/amsterdam-donut-prereadbrief_2026-05-06.md`).
 - Rewrite plan §V gating relaxed in `manuscript/essay/Noema/rewrite-plan_2026-05-01.md` REVISION 2026-05-08 section (this commit).
 - Cascade plan §V references updated at three locations (Outreach pipeline + August A-track + Decisions due #6) in `publishing/strategy/cascade-plan_2026-05-06.md` (this commit).
 
