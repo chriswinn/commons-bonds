@@ -48,6 +48,22 @@
 - **Context:** Cascade plan currently lists Atlantic Ideas as essay-slot-3 fallback. Phenomenal World (Jain Family Institute) is more accessible without prior clips; Atlantic Ideas has more name-recognition prestige but expects established bylines. With Boston Review taking Ch 5 (essay slot 2), the slot-3 source chapter is naturally Ch 9 *Pricing Honestly*. Decision determines which venue gets the Ch 9 pitch and timing.
 - **Target resolution:** before slot-3 pitch drafting begins (target Sept-Oct 2026 per cascade plan).
 
+### 5. Boston Review essay (#2) — apply two-stage discipline v2.0 when session triggers
+
+- **Surfaced by:** PM session (2026-05-10 meta-verdict synthesis after Stage 3 verdicts landed)
+- **For-thread:** Boston Review essay session (when it fires)
+- **Status:** open
+- **Context:** Stage 3 meta-verdict ratified two-stage discipline v2.0 (subject to user confirmation) as default for long-form publisher-facing essays drafted from chapter prose. Boston Review essay is exactly that regime: ~4,500w from Ch 5. Apply Stage 1 brief with canonical factual ground truth (Amendment A); Stage 3 with three distinct passes — fact-check + voice-polish + audience-load (Amendment B). Source verdicts: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` + `..._aeon_pitch_stage3_comparison_v1.0.0.md`.
+- **Target resolution:** before Boston Review essay session fires. Update `tools/workstream-handoffs/boston-review-essay-handoff_2026-05-09.md` to reference v2.0 application rule.
+
+### 6. Aeon essay post-acceptance (#12) — apply two-stage discipline v2.0 when session triggers
+
+- **Surfaced by:** PM session (2026-05-10 meta-verdict synthesis)
+- **For-thread:** Aeon essay post-acceptance session (when it fires; conditional on Aeon accepting the pitch)
+- **Status:** open (dormant until trigger)
+- **Context:** The post-acceptance essay derives from Ch 7 — Path B contamination risk identical to the Noema test that just validated Amendment A. Stage 1 brief must include canonical Ch 7 facts (not just beats); Stage 3 must include the fact-check pass. Update `tools/workstream-handoffs/aeon-essay-post-acceptance-two-stage-handoff_2026-05-10.md` to reference v2.0 application rule.
+- **Target resolution:** before Aeon essay post-acceptance session fires (only fires if Aeon accepts the pitch).
+
 ---
 
 ## Resolved
