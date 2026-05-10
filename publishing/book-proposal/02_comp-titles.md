@@ -75,7 +75,7 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 
 **Date added:** 2026-05-10. **Status:** v0 — populated from in-repo intelligence (bibliography summaries, prior rigor passes, decisions log). Cells flagged `[verify]` need fresh web verification before deployment in query/proposal. Per `comp-titles-deep-matrix-handoff_2026-05-10.md`, web verification is a separate gate (per-comp budget ~30–60 min) requiring author greenlight before consuming session time.
 
-**Comp set selected for v0 matrix (5 lead + 3 bench).** The lead 5 align with the proposal's selection rule above (Mazzucato + Pistor + Christophers + Susskind + Patel & Moore). Bench 3 (Mazzucato *Mission Economy*, Sassen, Rodrik) carry lighter treatment for proposal-finalization optionality. **Author confirmation requested in author-facing summary before lead-5 web research begins.**
+**Comp set selected for v0 matrix (6 lead + 9 bench = 15 total).** Author ratified expansion to ~15 on 2026-05-10 to maximize agent-network and downstream-intelligence depth. **Lead 6** = Mazzucato *Value of Everything* + Pistor + Christophers + Susskind *Growth* + Patel & Moore + **Darity & Mullen** (added; mechanism strength + active May-12-Darity-interview pipeline; proposed as alternative Tier-3 round-out vs. Patel & Moore — see Lead 6 entry). **Bench 9** = Mazzucato *Mission Economy*, Sassen, Rodrik, Raworth, Hickel, Sandel, Giridharadas, Tooze, MacAskill — proposal-finalization optionality + agent-network depth. **Author confirmation requested before web-verification gate is consumed** (separate decision; ~11h budget).
 
 **Format note.** A wide markdown table renders poorly for 16 columns × 8 rows. Per-comp blocks below carry the same intelligence in a query-letter-deployable form. Convert to spreadsheet (`02b_comp-titles-matrix.csv`) at proposal-finalization time if needed.
 
@@ -267,7 +267,45 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 - Marketing plan §04: **Y (climate-trade review-outlet network).**
 - Agent target: **Conditional — pending Sam Stoloff / Frances Goldin Literary Agency confirmation.**
 
-**Notes.** The Tier-3 round-out is intentionally ONE comp, not two or three. Selecting Patel & Moore over Sassen / Rodrik per the proposal's existing selection rule (strongest single voice-range signal). If the proposal-finalization decision shifts to Sassen (more moral-framing register) or Rodrik (more non-partisan-publisher comfort), see bench entries below.
+**Notes.** The Tier-3 round-out is intentionally ONE comp, not two or three. Selecting Patel & Moore over Sassen / Rodrik per the proposal's existing selection rule (strongest single voice-range signal). **Lead 6 (Darity & Mullen) is proposed as alternative Tier-3 round-out** — see entry below. If the proposal-finalization decision shifts to Sassen (more moral-framing register) or Rodrik (more non-partisan-publisher comfort), see bench entries.
+
+---
+
+### Lead 6. William A. Darity Jr. & A. Kirsten Mullen — *From Here to Equality: Reparations for Black Americans in the Twenty-First Century* (2020; revised 2nd ed. 2022)
+
+**Bibliographic anchor.** University of North Carolina Press. Hardcover ~432 pp; 2nd-edition pb (2022) widely stocked. **Not in `research/literature/bibliography.md` as a §13 entry as of 2026-05-10** — candidate for addition given mechanism strength and active relationship pipeline.
+
+**Positioning.**
+- Shelf: history / political economy / racial justice / reparations economics; serious-trade-with-academic-rigor; UNC Press list signals scholarly-trade
+- Format & price: hc ~$30 at release; 2nd-ed pb ~$22.95
+- Cover register: scholarly-trade serious-nonfiction; UNC-Press serious-history imprint signals
+
+**Sales arc.** Strong durable backlist; widely adopted in undergraduate + graduate teaching; **the definitive contemporary reparations-economics work** (cited heavily across economics, history, public policy, and political-theory literatures). 2nd-ed (2022) updated for post-2020 reparations-policy conversation. Specific BookScan numbers `[verify]`. Sandy Darity is a recurring public-intellectual presence (testimony, lecture circuit, podcast appearances).
+
+**Agent intelligence.**
+- Agent: `[verify]` — Darity is at Duke (Samuel DuBois Cook Professor); Mullen is at University of California (Riverside / Berkeley fellowships). Trade-publishing agent identity not in repo as of 2026-05-10.
+- Acquiring editor (UNC Press): `[verify]`
+- Why it matters for Commons Bonds pipeline: **Active relationship pipeline.** Sandy Darity interview scheduled 2026-05-12 (per cross-thread-todos #2). Mullen warm-intro on hold pending Darity interview outcome. Direct author-to-author contact track — bypasses cold-pitch agent-pipeline for blurber + endorsement opportunities.
+
+**Mechanism overlap.**
+- *Similar:* Mechanism-level engagement with the cost-severance pattern at the racial-extraction layer of American political economy. Darity & Mullen don't just diagnose the historical extraction (slavery, Jim Crow, redlining, predatory lending, mass incarceration) — they **price it** and propose a specific reparations apparatus (eligibility criteria + payment structure + closing-the-wealth-gap calculation). The framework's RCV / Accountability Bond apparatus is structurally parallel: name the cost-severance, calculate the residual value, design the instrument that pays into the closing.
+- *Different:* Darity & Mullen operate at the historical-debt-to-Black-Americans level (specific case + specific population + specific reparations apparatus). Commons Bonds operates at the per-extraction-event level across cases (coal, opioids, Chesapeake, etc.) and proposes a generalized pricing instrument applicable beyond reparations. Darity & Mullen's framework is the framework's most direct precedent for "diagnose AND price AND design-the-instrument" rather than "diagnose-and-leave-policy-to-others."
+- *Operative sentence (query-letter-ready):* "Darity & Mullen price the reparations debt and design the apparatus that pays it. Commons Bonds extends that diagnose-price-instrument pattern to extraction more broadly."
+
+**Network signals.**
+- Top reviews: *The Atlantic*, *NYRB*, *Washington Post*, *Boston Review* `[verify]`
+- Notable blurbers: `[verify — Coates connection plausible given *Case for Reparations* lineage]`
+- Comp-comps: `[verify from book]`
+
+**Audience overlap with Commons Bonds.** **Tier 1 (mechanism-level), Tier 2 (audience overlap).** Same shelf as Pistor and Mazzucato for serious-political-economy readers; different shelf (racial-justice / history / reparations) for trade audience. Best mechanism-overlap comp in the matrix for the framework's "diagnose-AND-price-AND-design" posture.
+
+**Use plan.**
+- Query letter: **Conditional — strong candidate to displace Susskind or Patel & Moore** depending on which 3-comp combination the query letter lands on. The mechanism overlap is closer than Susskind's; the relationship pipeline is unique.
+- Proposal §02: **Y (substantive prose treatment).** **Proposed alternative Tier-3 round-out vs. Patel & Moore** — author's call. Both are credible; Darity & Mullen pulls more mechanism weight + relationship-pipeline weight; Patel & Moore pulls more voice-range-signal weight.
+- Marketing plan §04: **Y.** *Atlantic*, *NYRB*, *WaPo*, *Boston Review*, *American Prospect* — racial-justice / political-economy review network.
+- Agent target: **Conditional — pending agent identification + Darity interview outcome.** Direct author-introduction track is strongest pipeline regardless of agent pathway.
+
+**Notes.** Darity interview 2026-05-12 is the highest-leverage relationship event in the comp-pipeline. If the conversation goes well: (a) Mullen warm-intro activation per cross-thread-todos #2; (b) potential blurb pipeline; (c) potential agent-introduction pipeline if Darity is open to sharing his trade-publishing representation. **Bibliography §13 addition recommended** — comp-titles work surfaces this as a bibliography gap; updating §13 with a Darity & Mullen entry is a candidate for a separate bibliography-thread session (out of scope here).
 
 ---
 
@@ -313,6 +351,92 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 
 ---
 
+### Bench 4. Kate Raworth — *Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist* (2017)
+
+**Bibliographic anchor.** Chelsea Green (US) / Random House Business (UK). Hardcover ~384 pp; pb widely stocked. **Bibliography §3 entry exists** — bibliography-anchored. Already engaged via Susskind §19 entry (lineage-list company at Ch 9 §What a framework does).
+
+**Positioning + sales arc (brief).** Strong durable trade trajectory; Doughnut Economics Action Lab (DEAL) institutionalizes the framework; international foreign-rights deals; Raworth a recurring TED / lecture / Davos-adjacent presence. Specific BookScan numbers `[verify]` but trajectory is well-established.
+
+**Agent intelligence.** Agent: `[verify]` — Raworth is at Oxford / Amsterdam (DEAL); UK trade-publishing agent identity not in repo. Acquiring editor (Chelsea Green): `[verify]`. Why-it-matters: Chelsea Green is a smaller independent press; the agent route differs from the main Mazzucato/Wylie track. Useful as alternative-press option intel.
+
+**Mechanism overlap.** Framework-redirection at the macro-economic-model level (planetary boundaries + social foundation as the "doughnut"). Same lineage company as Susskind: parallel framework redirecting a primary economic measurement. Commons Bonds operates at the mechanism level Raworth's macro model leaves unspecified at the per-extraction-event scale. *Operative sentence:* "Raworth redrew the economic model. Commons Bonds prices the inside of one of its boundaries."
+
+**Use plan.** Query letter: **N (Susskind already represents this lineage)**. Proposal §02: **Y (single-sentence lineage citation alongside Susskind in the framework-redirection paragraph)**. Agent target: **Conditional — pending identification.**
+
+---
+
+### Bench 5. Jason Hickel — *Less Is More: How Degrowth Will Save the World* (2020)
+
+**Bibliographic anchor.** Cornerstone Press / Windmill Books (Penguin Random House UK; in US various imprints incl. Penguin Random House). Hardcover ~336 pp; pb widely stocked.
+
+**Positioning + sales arc (brief).** Strong left-trade trajectory; degrowth-movement flagship; Hickel a recurring podcast / lecture / public-intellectual presence. Foreign-rights deals across European markets. Sales scale strong for left-trade-political-economy register.
+
+**Agent intelligence.** Agent: `[verify]` — Hickel at LSE / ICTA-UAB; trade-publishing agent identity not in repo. Why-it-matters: degrowth-movement adjacency means Hickel's blurber + review-network overlaps with Patel & Moore + Christophers cluster. Useful for parallel-press intel.
+
+**Mechanism overlap.** Degrowth political-economy diagnosis (planetary-boundary-bounded production-and-consumption restructuring). Commons Bonds is **not** a degrowth argument — the framework is silent on growth rates and operates on the cost-severance pattern regardless of growth direction. **Differentiation matters here:** the proposal should not let Commons Bonds be miscategorized as degrowth. Useful as audience-overlap signal at proposal §02 level only with explicit "operates orthogonally to growth-rate question" framing.
+
+**Use plan.** Query letter: **N**. Proposal §02: **Conditional — only if degrowth-audience overlap is judged to outweigh mis-categorization risk.** Agent target: **Conditional.**
+
+---
+
+### Bench 6. Michael J. Sandel — *The Tyranny of Merit: What's Become of the Common Good?* (2020)
+
+**Bibliographic anchor.** Farrar, Straus and Giroux (US) / Allen Lane (UK, Penguin imprint). Hardcover ~288 pp; pb widely stocked.
+
+**Positioning + sales arc (brief).** **Massive sales arc** (Sandel = Harvard public intellectual; *Justice* course → online/TV; recurring TED / lecture / international-tour presence). One of the most commercially successful living political-philosophy authors. Foreign-rights deals across most major markets.
+
+**Agent intelligence.** Agent: `[verify]` — Sandel at Harvard; trade-publishing representation possibly Wylie or comparable top-trade agency. Acquiring editor (FSG): `[verify]`. Why-it-matters: If Sandel's agent overlaps with Mazzucato's (Wylie), it strengthens the Wylie target weight (cross-thread-todos #1). If different, it adds a distinct top-trade agent target.
+
+**Mechanism overlap.** Meritocracy-critique → values-political-economy. Commons Bonds shares the public-philosophy register at framework-moral-economy joints (Ch 1, Ch 6, Ch 9) but operates on apparatus-construction rather than philosophical critique. Tier-3 by mechanism, **Tier-1 by audience overlap** (reaches the educated-general-trade reader Commons Bonds wants).
+
+**Use plan.** Query letter: **N**. Proposal §02: **Conditional — useful as audience-reach signal in a framing paragraph rather than as mechanism comp.** Agent target: **Conditional — pending identification + Wylie-overlap check.**
+
+---
+
+### Bench 7. Anand Giridharadas — *Winners Take All: The Elite Charade of Changing the World* (2018)
+
+**Bibliographic anchor.** Knopf (Penguin Random House). Hardcover ~304 pp; pb widely stocked.
+
+**Positioning + sales arc (brief).** Strong sales arc in the post-2016 moral-trade political-economy moment; Giridharadas = NYT / *Time* / cable-news / podcast public-intellectual presence. Sales scale comparable to Sandel for the moral-economic-critique register.
+
+**Agent intelligence.** Agent: `[verify]` — Giridharadas's prior trade representation possibly Wylie or comparable. Acquiring editor (Knopf): `[verify]`. Why-it-matters: Knopf is a high-prestige imprint; Giridharadas's editor placed a politically-edged book at the top trade tier — relevant precedent for Commons Bonds' acquisition target list.
+
+**Mechanism overlap.** Moral-trade critique of philanthrocapitalism (the elite-funded change apparatus that protects elite arrangements). Commons Bonds shares the diagnostic register but operates on apparatus-construction (the framework proposes the bond instruments) rather than apparatus-critique (Giridharadas exposes the existing apparatus's failures). Tier-3 by mechanism, **Tier-1 by audience overlap** for the moral-trade register.
+
+**Use plan.** Query letter: **N**. Proposal §02: **Conditional — same use-case as Sandel (audience-reach signal).** Agent target: **Conditional.**
+
+---
+
+### Bench 8. Adam Tooze — *Crashed: How a Decade of Financial Crises Changed the World* (2018)
+
+**Bibliographic anchor.** Viking (Penguin Random House US) / Allen Lane (UK). Hardcover ~720 pp; pb widely stocked. (Tooze's *Shutdown*, 2021, is the more recent comp; *Crashed* has the longer sales arc.)
+
+**Positioning + sales arc (brief).** **Massive sales arc** for serious-political-economy-narrative-history; Tooze = the financial-crisis macro-historian; recurring *LRB* / *Foreign Affairs* / Substack (Chartbook) presence. Foreign-rights deals across major markets. Sales scale among the strongest in the matrix for serious-trade political-economy.
+
+**Agent intelligence.** Agent: `[verify]` — Tooze at Columbia; trade-publishing representation possibly Wylie (rumored across his *Crashed*, *Shutdown*, *Wages of Destruction* arc) but not verified in repo. **If Tooze IS Wylie-represented, this strengthens Wylie target weight materially** — three Wylie-listed political-economy authors (Mazzucato, Tooze, possibly Sandel) makes Wylie the dominant target by far. Acquiring editor (Viking US): `[verify]`.
+
+**Mechanism overlap.** Macro-financial-history rather than mechanism-prescriptive — Tooze diagnoses the architecture by which the 2008 crisis cascaded; Commons Bonds operates at a different level (cost-severance diagnosis + pricing instrument). Less direct than Pistor or Christophers; adjacent shelf rather than overlapping shelf. *Operative sentence:* "Tooze maps the financial-crisis architecture; Commons Bonds prices what the architecture severs."
+
+**Use plan.** Query letter: **N**. Proposal §02: **Conditional — single-sentence audience-and-shelf-signal**. Agent target: **High priority pending agent identification** (Wylie-overlap check).
+
+---
+
+### Bench 9. William MacAskill — *What We Owe the Future* (2022)
+
+**Bibliographic anchor.** Basic Books (US) / Oneworld (UK). Hardcover ~352 pp; pb available.
+
+**Positioning + sales arc (brief).** Strong sales arc on release (effective-altruism / longtermism movement promotion); **complicated reputational baggage** post-FTX collapse (Sam Bankman-Fried's EA-adjacency tarnished MacAskill's public profile through 2023–2024). Sales arc remains substantial but MacAskill citation requires careful framing in any pitch material.
+
+**Agent intelligence.** Agent: `[verify]` — MacAskill at Oxford (Global Priorities Institute); trade-publishing agent possibly Brockman Inc. given EA-adjacent author overlap, but not verified.
+
+**Mechanism overlap.** Intergenerational-ethics framing: what we owe future generations as a moral-economic claim. Parallels Commons Bonds' "what we owe the future" reading at Cohesion + Spatial + (especially) the chapter on intergenerational cost-bearing. **Reputational caveat:** MacAskill's longtermism is philosophically distinct from Commons Bonds' commons-protection-with-pricing-apparatus posture; citation must clearly differentiate.
+
+**Use plan.** Query letter: **N**. Proposal §02: **Conditional — only if intergenerational-ethics framing is judged to add value AND the framing can clearly differentiate from longtermism's reputational baggage.** Agent target: **Low priority** given EA-pipeline reputational complications.
+
+**Notes.** Of the 15 matrix entries, MacAskill carries the most reputational-framing risk. Recommend the proposal §02 omit unless author specifically wants the intergenerational-ethics-precedent signal — and even then, with explicit differentiation language.
+
+---
+
 ## Matrix-driven downstream artifacts
 
 The matrix above feeds (per `comp-titles-deep-matrix-handoff_2026-05-10.md`):
@@ -327,9 +451,13 @@ The matrix above feeds (per `comp-titles-deep-matrix-handoff_2026-05-10.md`):
 Cells flagged `[verify]` require fresh web research before deployment. **Author greenlight requested before the verification phase begins** (handoff explicitly cautions against burning research time on titles that don't make the proposal cut). Highest-value verification targets in priority order:
 
 1. **Mazzucato acknowledgments-page check** (cross-thread-todos #1) — Sarah Chalfant vs. Tracy Bohan resolution. **Highest priority.** Resolves anchor-agent target.
-2. **Pistor + Christophers + Susskind trade-agent identification** — adds 2–3 secondary agent targets to `publishing/agents/targets.md`.
-3. **Sales-arc verification for Mazzucato + Pistor + Christophers** — Susskind's Obama-list + FT-shortlist already confirmed in §19. Others need BookScan / Publishers Marketplace lookup.
-4. **Review-outlet verification per comp** — drives marketing plan §04.
-5. **Acquiring-editor identification per imprint** — drives editor-target list (downstream of agents).
+2. **Wylie-cluster verification across Tooze + Sandel + Mazzucato** — if all three are Wylie-represented, Wylie target weight escalates from "anchor" to "dominant." Single highest-leverage agent-pipeline question.
+3. **Darity & Mullen agent + acquiring-editor identification** — direct relationship-pipeline weight via 2026-05-12 interview adds urgency. Pre-interview lookup recommended.
+4. **Pistor + Christophers + Susskind trade-agent identification** — adds 2–3 secondary agent targets to `publishing/agents/targets.md`.
+5. **Sales-arc verification for Mazzucato + Pistor + Christophers + Tooze** — Susskind's Obama-list + FT-shortlist already confirmed in §19. Others need BookScan / Publishers Marketplace lookup.
+6. **Review-outlet verification per comp** — drives marketing plan §04.
+7. **Acquiring-editor identification per imprint** — drives editor-target list (downstream of agents).
 
-**Estimated effort:** Lead 5 × ~45 min = ~3.5–4 hours of session time for full verification; bench 3 lighter (~15 min each) = ~1 hour. Total: ~5 hours. **Do not consume this gate without explicit author authorization.**
+**Estimated effort:** Lead 6 × ~45 min = ~4.5h for full verification; bench 9 lighter (~15–25 min each) = ~3–4h. Total: **~8–9 hours of session time** (slightly under the handoff's 7–12h estimate for 10–15 comps). **Do not consume this gate without explicit author authorization.**
+
+**Recommended verification ordering** (if greenlit): start with priorities 1 + 2 + 3 above (~2h combined) — these resolve the highest-stakes pipeline questions. Reassess after that round before consuming the remaining ~6–7h on lower-priority cells.
