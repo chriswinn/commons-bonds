@@ -272,7 +272,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2em 0; }
      Now the formula &mdash; a summary of the plain-English argument just made:
     </p>
     <p>
-     RCV(R, tₔ) = &int; from tₔ to &infin; &nbsp;{ [1 &minus; S(t | tₔ)] &sdot; U(R, t, Q(t)) ⟯ E(R, t) } &sdot; D(t, tₔ) dt
+     RCV(R, t₀) = &int; from t₀ to &infin; &nbsp;{ [1 &minus; S(t | t₀)] &sdot; U(R, t, Q(t)) + E(R, t) } &sdot; D(t, t₀) dt
     </p>
     <p>
      The integral sign announces that we are summing contributions across all future time. The bracketed expression inside is the per-period cost: what is lost in year t, discounted back to year tₔ, weighted by how likely it is that anything in that year can substitute for the lost resource.
@@ -298,7 +298,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2em 0; }
      Cost severance is what is left after you subtract from RCV whatever accountability bond B&nbsp;has actually been posted:
     </p>
     <p>
-     CS(R, tₔ) = RCV(R, tₔ) &minus; B(R, tₔ)
+     CS = RCV &minus; B
     </p>
     <p>
      And the intergenerational pricing gap is the ratio of true cost to market price:
