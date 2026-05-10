@@ -214,6 +214,10 @@ User ratified v2.0 with all three amendments A + B + C on 2026-05-10. The discip
 - [ ] **Submit Noema essay** to `edit@noemamag.com`.
 - [ ] **Submit Aeon pitch** Mon Jun 1 ~00:01 AEST.
 
+### Recently landed (2026-05-10 PM session window)
+
+- [x] **A2 Op-ed pipeline drafts** — COMPLETE 2026-05-10 (commit `5167edd`). Three artifacts on main: canonical-facts inventory + Norway op-ed (1,016w body) + McDowell op-ed (1,024w body). Both Path-B-clean (0 verbatim from source chapters); both apparatus-clean (0 framework terms). News-peg lede slots adapt-able. Pipeline activated — ready for 1–2 day turnaround when triggers arrive. Notable: the session's own Stage 3 fact-check pass caught real drift (GPFG founding-date conflation; Bondevik-coalition timing), validating v2.0 Amendment B in practice on first run.
+
 ### Substantive backlog (no specific date — sequence based on user priority + dependencies)
 
 - [ ] **Path B audit** all 10 chapters (#8). Coordinate with #9.
