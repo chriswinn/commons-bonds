@@ -1,6 +1,6 @@
 # Workstream Handoffs
 
-**Date drafted:** 2026-05-09. Updated 2026-05-10 with five additional handoffs from the manuscript-verification + publishing-pipeline-deepening phase.
+**Date drafted:** 2026-05-09. Updated 2026-05-10 with five additional handoffs from the manuscript-verification + publishing-pipeline-deepening phase, and with Ch 3 exclusion resolved (Ch 3 drafted 2026-05-09 via commit `3a8b096`; moved to Resolved exclusions).
 
 **Purpose.** Per-workstream session handoff documents enabling fresh sessions to pick up specific workstreams from scratch without inheriting context drift. Each handoff is self-contained: a fresh session reads only the relevant handoff + the files it cross-references, and operates on a dedicated feature branch for that workstream.
 
@@ -18,7 +18,7 @@
 | Outreach pipeline | `outreach-pipeline-handoff_2026-05-09.md` | `claude/outreach-pipeline-` |
 | Book proposal | `book-proposal-handoff_2026-05-09.md` | `claude/book-proposal-sprint-` |
 | Agent prep (target list) | `agent-prep-handoff_2026-05-09.md` | `claude/agent-prep-` |
-| Manuscript completion (excluding Ch 3) | `manuscript-completion-handoff_2026-05-09.md` | `claude/manuscript-completion-` |
+| Manuscript completion | `manuscript-completion-handoff_2026-05-09.md` | `claude/manuscript-completion-` |
 
 ### Added 2026-05-10 (manuscript-verification + publishing-pipeline-deepening)
 
@@ -45,7 +45,11 @@ A separate session that coordinates across all the above workstreams — tracks 
 
 ## Excluded from these handoffs
 
-- **Ch 3 draft (Watermen / Chesapeake)** — handled via separate dedicated session per author direction. Source material: Colden + Moore public-record briefs; substitution-hypothesis CONFIRMED 2026-05-08.
+*(None currently active. See Resolved exclusions below for historical record.)*
+
+### Resolved exclusions
+
+- **Ch 3 draft (The Waterman / Chesapeake)** — RESOLVED 2026-05-09. Was handled via a separate dedicated session per author direction; drafted as `manuscript/chapters/Chapter__3_TheWaterman__Draft.md` and landed on main via commit `3a8b096`. Source material: Colden + Moore public-record briefs (substitution-hypothesis CONFIRMED 2026-05-08). Ch 3 is now part of the all-10-chapters drafted set tracked in `manuscript-completion-handoff_2026-05-09.md`.
 
 ## Cross-coordination
 

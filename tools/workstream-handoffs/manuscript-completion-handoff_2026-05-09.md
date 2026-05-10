@@ -1,14 +1,15 @@
-# Manuscript Completion (excluding Ch 3 draft) — Workstream Handoff (2026-05-09)
+# Manuscript Completion — Workstream Handoff (2026-05-09)
 
 **Date drafted:** 2026-05-09
+**Date modified:** 2026-05-10 (stale-header fix: Ch 3 drafted 2026-05-09 via commit `3a8b096`; "9 of 10 chapters" + "excluding Ch 3" framing removed)
 **Branch to create at session start:** `claude/manuscript-completion-<harness-id>` (branch from current `origin/main`)
-**Status going in:** 9 of 10 chapters drafted; Ch 5 + Ch 9 Pistor/Christophers/Susskind engagement landed (commit `d78872e`); Tech Appendix + Glossary rebuilds queued. **Ch 3 draft is excluded from this handoff** — handled in a separate dedicated session.
+**Status going in:** All 10 chapters drafted (Ch 3 landed 2026-05-09 via commit `3a8b096`); Ch 5 + Ch 9 Pistor/Christophers/Susskind engagement landed (commit `d78872e`); Tech Appendix + Glossary rebuilds queued.
 
 ---
 
 ## Workstream scope
 
-Manuscript-side work *other than* Ch 3 drafting:
+Manuscript-side work (Ch 3 drafting now complete):
 - Bibliography engagement-pending → engaged flag updates (cross-thread item #3)
 - Tech Appendix Phase 3 v2.0.0 rebuild
 - Glossary v4 rebuild
@@ -21,7 +22,7 @@ Manuscript-side work *other than* Ch 3 drafting:
 |---|---|---|
 | 1 | The Quiet Math | **Drafted 2026-05-04** (~3,400w; tentatively final; sunrise bookend with Ch 10) |
 | 2 | The Miner | Drafted (~4,957w); 3 INTERVIEW NEEDED placeholders flagged per weekly-audit-2026-04-28 |
-| **3** | **(Watermen / Chesapeake)** | **EXCLUDED from this handoff** — separate dedicated session; unblocked 2026-05-08 via Colden + Moore public-record briefs |
+| 3 | The Waterman | Drafted 2026-05-09 (commit `3a8b096`); unblocked 2026-05-08 via Colden + Moore public-record briefs |
 | 4 | The Existence Proof | Drafted (~3,975w) |
 | 5 | The Accountability Gap | Drafted (~9,574w); Pistor + Christophers paragraph engagement landed (commit `d78872e`) |
 | 6 | Three Ways of Counting | Drafted (HTML, semantic; ~75KB); Insight #21 closed 2026-05-04 |
@@ -50,7 +51,7 @@ Manuscript-side work *other than* Ch 3 drafting:
 ## Files to read first
 
 - `research/literature/bibliography.md` — especially §13 Pistor / Christophers / Susskind entries
-- `manuscript/chapters/Chapter__N_*Draft.md` — 9 drafted chapters (Ch 3 excluded from this handoff)
+- `manuscript/chapters/Chapter__N_*Draft.md` — all 10 drafted chapters (9 MD + Ch 6 HTML)
 - `manuscript/chapters/Chapter__N___GuidanceDoc.md` — internal-scaffolding files (WP#10 layer-classification + staleness disclaimers)
 - `core/technical-appendix/` — Phase 3 rebuild target
 - `core/glossary/` — Glossary v4 target
@@ -68,11 +69,10 @@ Manuscript-side work *other than* Ch 3 drafting:
 
 - **Bibliography flag updates** (cross-thread item #3) feed proposal sprint — chapter summaries cite current engagement state
 - **Ch 5 + Ch 9 paragraph engagement landed** (commit `d78872e`) — bibliography flags now stale; that's the ~1–2 hr cleanup
-- **Ch 3 drafting** (separate workstream, excluded from this handoff) — unblocked from Colden + Moore briefs; manuscript thread coordination
+- **Ch 3 drafting** — completed 2026-05-09 (commit `3a8b096`); unblocked 2026-05-08 from Colden + Moore briefs. Now part of all-10-chapters drafted set.
 
 ## Out of scope
 
-- **Ch 3 drafting** — separate dedicated session per author direction
 - Essay drafting (separate workstreams per venue)
 - Outreach (separate workstream)
 - Berggruen essay (separate workstream; AI-free)
@@ -81,8 +81,14 @@ Manuscript-side work *other than* Ch 3 drafting:
 
 - **Ch 6 GuidanceDoc + AGENTS.md + multiple session-handoffs** still carry stale "Insight #21 pending rewrite" language — Insight #21 closed 2026-05-04. Stale-reference sweep (separate from this handoff's bibliography updates) is a smaller cleanup batch.
 - **Tech Appendix Phase 3 rebuild** is ~20–30 hrs; needs dedicated session-block, not piecemeal between other work.
-- **Insight #39 pre-publication external review** triggers a large audit (entire-book citations + Insight #63 focused rigor pass) — schedule when manuscript stabilizes (post-Ch-3-draft + post-essay-cascade-progress).
+- **Insight #39 pre-publication external review** triggers a large audit (entire-book citations + Insight #63 focused rigor pass) — schedule when manuscript stabilizes (Ch 3 now drafted; pending post-essay-cascade-progress).
 
 ---
 
-*End of manuscript completion handoff. Update or supersede when state materially changes. NOTE: Ch 3 draft excluded — separate dedicated session.*
+## Update log
+
+- **2026-05-10** — Stale-header fix: Ch 3 drafted 2026-05-09 (commit `3a8b096`). Removed "(excluding Ch 3 draft)" qualifier from title; replaced "9 of 10 chapters drafted" + "Ch 3 draft is excluded" framing with "All 10 chapters drafted"; updated Ch 3 row in chapter-state table; updated workstream-scope sentence; reconciled Files-to-read-first + Cross-thread-dependencies + Out-of-scope sections. Per PM session handoff §9 todo. Source state-change commit: `3a8b096`. Fix commit: see `git log` on this file's most recent change.
+
+---
+
+*End of manuscript completion handoff. Update or supersede when state materially changes.*
