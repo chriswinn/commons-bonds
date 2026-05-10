@@ -75,6 +75,10 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 
 **Date added:** 2026-05-10. **Status:** v0 — populated from in-repo intelligence (bibliography summaries, prior rigor passes, decisions log). Cells flagged `[verify]` need fresh web verification before deployment in query/proposal. Per `comp-titles-deep-matrix-handoff_2026-05-10.md`, web verification is a separate gate (per-comp budget ~30–60 min) requiring author greenlight before consuming session time.
 
+**Verification log:**
+- **2026-05-10 Phase 1** ✓ ratified — agent-pipeline priorities 1+2+3 (Mazzucato/Wylie + Wylie-cluster Tooze/Sandel + Darity & Mullen pre-interview). Findings inlined in Lead 1 + Lead 6 + Bench 6 + Bench 8 entries with `[HIGH/MEDIUM/LOW-confirmed 2026-05-10]` markers. Falsifications: Felicity Bryan hypothesis for Susskind FALSIFIED; Sandel-on-Wylie FALSIFIED. Confirmations: Mazzucato → Wylie HIGH; Tooze → Wylie/Chalfant HIGH; Pistor & Christophers → likely no trade agent (academic-press / Verso direct).
+- **Phase 2** pending — sales-arc verification (Mazzucato + Pistor + Christophers + Tooze BookScan/PM); review-outlet network expansion; acquiring-editor identification per imprint; Mazzucato acknowledgments-page Chalfant-vs-Bohan close.
+
 **Comp set selected for v0 matrix (6 lead + 9 bench = 15 total).** Author ratified expansion to ~15 on 2026-05-10 to maximize agent-network and downstream-intelligence depth. **Lead 6** = Mazzucato *Value of Everything* + Pistor + Christophers + Susskind *Growth* + Patel & Moore + **Darity & Mullen** (added; mechanism strength + active May-12-Darity-interview pipeline; proposed as alternative Tier-3 round-out vs. Patel & Moore — see Lead 6 entry). **Bench 9** = Mazzucato *Mission Economy*, Sassen, Rodrik, Raworth, Hickel, Sandel, Giridharadas, Tooze, MacAskill — proposal-finalization optionality + agent-network depth. **Author confirmation requested before web-verification gate is consumed** (separate decision; ~11h budget).
 
 **Format note.** A wide markdown table renders poorly for 16 columns × 8 rows. Per-comp blocks below carry the same intelligence in a query-letter-deployable form. Convert to spreadsheet (`02b_comp-titles-matrix.csv`) at proposal-finalization time if needed.
@@ -93,9 +97,9 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 **Sales arc.** Established commercial trajectory in policy-trade; international foreign-rights deals; widely reviewed in serious-press; Mazzucato a recurring TED / Davos / Reith Lectures presence by 2024. Specific BookScan numbers `[verify]`. The Mazzucato readership re-buys (basis for Tier 2 *Mission Economy* listing).
 
 **Agent intelligence.**
-- Agent: **Wylie Agency** — likely Sarah Chalfant (head of Wylie's New York office) or Tracy Bohan (senior London-office agent). **Acknowledgments-page check is `cross-thread-todos` item #1 — open as of 2026-05-10.** Resolution due before Wave 1 query goes out (target late July / early August 2026).
+- Agent: **Wylie Agency [HIGH-confirmed 2026-05-10]** — Mazzucato's official site lists "The Wylie Agency" verbatim under Literary Agent (https://marianamazzucato.com/about/contact/); confirmed against Wylie's own client roster (https://www.wylieagency.com/clients.html). **Specific agent (Chalfant vs. Bohan) UNRESOLVED at HIGH** — strong inference points to **Tracy Bohan** (London office, senior nonfiction agent, handles UK-based economics-idea-book authors like Katrine Marçal and Caroline Criado Perez — closest analogues; Mazzucato is UCL-based). Sarah Chalfant (NY) is plausible but less likely given Mazzucato's UK base. **Cross-thread-todos #1 status: Wylie confirmed, Chalfant-vs-Bohan question persists** — resolution requires acknowledgments-page inspection of *Value of Everything* or *Mission Economy*.
 - Acquiring editor (US / Public Affairs): `[verify]`
-- Why it matters for Commons Bonds pipeline: Wylie / Chalfant (or Bohan) is the **anchor agent target** per `publishing/agents/targets.md`. Mazzucato representation is the load-bearing connection.
+- Why it matters for Commons Bonds pipeline: Wylie / Bohan (likely) is the **anchor agent target** per `publishing/agents/targets.md`. Mazzucato representation is the load-bearing connection. Tooze confirmation (Bench 8 below) adds a second Wylie data point — see Wylie-cluster note in Bench 8.
 
 **Mechanism overlap.**
 - *Similar:* Renames a category in the public economic vocabulary; cross-spectrum readability; trade-press accessible without academic dilution; non-partisan-publisher posture.
@@ -131,9 +135,9 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 **Sales arc.** Strong scholarly-trade trajectory; cited heavily in legal-academic and economic-sociology literatures. *Financial Times* Best Books 2019 `[verify]`. Crowned with awards `[verify exact list — Hayek-tradition recognition rumored but unverified]`. Sales numbers modest by trade standards but very strong for Princeton-University-Press list.
 
 **Agent intelligence.**
-- Agent: `[verify — Pistor is on Columbia Law faculty; her trade-publishing agent identity is not in repo intelligence as of 2026-05-10]`
+- Agent: **Likely no trade agent — direct Princeton UP relationship [MEDIUM-confidence working hypothesis, 2026-05-10].** No agent surfaces across Princeton UP page, Suhrkamp German-rights chain, or major UK/US agency rosters (Wylie, Brockman, Aevitas, Felicity Bryan all checked). Consistent with Princeton UP's typical academic-author model. Acknowledgments-page inspection required to close at HIGH.
 - Acquiring editor (Princeton UP): `[verify]`
-- Why it matters for Commons Bonds pipeline: If Pistor has a trade agent (vs. solely-academic representation), that agent is a high-value secondary target — proven track record placing legal-political-economy at trade scale.
+- Why it matters for Commons Bonds pipeline: If Pistor is academic-press-direct, she is **not a viable agent-pipeline secondary target** — the Pistor angle is purely intellectual-comp positioning, not relationship-pipeline. **Recommend deprioritizing Pistor agent investigation** until acknowledgments-page is physically inspected.
 
 **Mechanism overlap.**
 - *Similar:* Institutional / legal frame; scholarly-trade crossover; introduces a formal mechanism (legal coding via property, collateral, trust, corporate veil, bankruptcy, choice-of-law modules) to explain market outcomes that look natural. Mechanism-level argument that what looks like emergent market behavior is actually structured by specific institutional architectures.
@@ -169,9 +173,9 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 **Sales arc.** Recent (2024) — sales arc still in flight. Strong reviews in *LRB*, *Guardian*, *Jacobin*, *Phenomenal World* `[verify exact outlets]`. Verso sales scale typically modest vs. Public Affairs / Penguin but very strong for Verso politics-list. Climate-finance moment (post-IRA, ongoing energy-transition debate) is the contextual updraft.
 
 **Agent intelligence.**
-- Agent: `[verify — Christophers is at Uppsala University; trade-publishing agent identity unknown in repo as of 2026-05-10]`
+- Agent: **UNRESOLVED [2026-05-10 web check].** No agent surfaces on Verso author page, Penguin Random House author page, IJURR interview, or in UK agency public rosters (Aevitas/Toby Mundy, Felicity Bryan). Default working hypothesis: **Verso-direct, no trade agent** (consistent with Verso's typical author model). Acknowledgments-page inspection required.
 - Acquiring editor (Verso US / UK): `[verify]`
-- Why it matters: Verso route is parallel-track for Commons Bonds (left-trade option alongside the Mazzucato / Public-Affairs / Wylie main track). If Christophers' agent is identifiable + trade-versed, secondary target.
+- Why it matters: Verso route is parallel-track for Commons Bonds (left-trade option alongside the Mazzucato / Public-Affairs / Wylie main track). If Christophers is Verso-direct without an agent, then **the comp's value to our agent pipeline is intellectual-positioning only**, not relationship-pipeline. Verso-publisher-target is still in play independently.
 
 **Mechanism overlap.**
 - *Similar:* Mechanism-level engagement with how pricing fails; recent (2024) — same intellectual neighborhood, same publication moment. Direct argument that market-pricing visibility alone does not redirect capital ("profit, not price, is what reshapes the world").
@@ -207,9 +211,9 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 **Sales arc.** **Confirmed signals (per bibliography §19 entry):** Named one of Obama's 'Favourite Books of 2024'; runner-up for *Financial Times* Business Book of the Year 2024. These are the strongest sales-arc signals in the comp set — the Obama-list naming alone is a Tier-1 commercial-trajectory indicator.
 
 **Agent intelligence.**
-- Agent: `[verify — Susskind is at Oxford; UK trade-publishing agent likely Felicity Bryan Associates given Susskind family's prior representation, but not verified in repo as of 2026-05-10]`
+- Agent: **UNRESOLVED [2026-05-10 web check]. Felicity Bryan hypothesis FALSIFIED** — Daniel Susskind is not on Felicity Bryan Associates' public author list (https://felicitybryan.com/authors/). **New leading hypothesis: PFD / Caroline Michel** — brother Jamie Susskind is at PFD with Caroline Michel (https://petersfraserdunlop.com/clients/jamie-susskind/), establishing a real family-pattern signal. Daniel's contact page (https://www.danielsusskind.com/contact) lists no representation. **Confidence: LOW on PFD hypothesis** until verified via direct PFD inquiry or acknowledgments-page check.
 - Acquiring editor (Belknap-Harvard US): `[verify]`; (Allen Lane UK): `[verify]`
-- Why it matters: Susskind's agent has placed two big-idea econ titles (this + *A World Without Work*) at top imprints; if identifiable + open to new authors, high-value secondary target.
+- Why it matters: Susskind's agent has placed two big-idea econ titles (this + *A World Without Work*) at top imprints; if PFD/Michel is confirmed + open to new authors, high-value secondary target. PFD also represents a distinct agent-pipeline track from Wylie (London-based, broad public-intellectual roster). **Worth a direct PFD enquiry** as low-cost verification path.
 
 **Mechanism overlap.**
 - *Similar:* Big-idea econ register; recent; takes "the costs of growth" as explicit subject; argues for redirection rather than abandonment of the growth concept (parallel structural move to "redirect pricing rather than abandon markets").
@@ -280,12 +284,12 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 - Format & price: hc ~$30 at release; 2nd-ed pb ~$22.95
 - Cover register: scholarly-trade serious-nonfiction; UNC-Press serious-history imprint signals
 
-**Sales arc.** Strong durable backlist; widely adopted in undergraduate + graduate teaching; **the definitive contemporary reparations-economics work** (cited heavily across economics, history, public policy, and political-theory literatures). 2nd-ed (2022) updated for post-2020 reparations-policy conversation. Specific BookScan numbers `[verify]`. Sandy Darity is a recurring public-intellectual presence (testimony, lecture circuit, podcast appearances).
+**Sales arc.** Strong durable backlist; widely adopted in undergraduate + graduate teaching; **the definitive contemporary reparations-economics work** (cited heavily across economics, history, public policy, and political-theory literatures). 2nd-ed (2022) updated for post-2020 reparations-policy conversation. Specific BookScan numbers `[verify]`. Sandy Darity is a recurring public-intellectual presence (testimony, NPR interview 2020, Brookings, *Democracy Journal*, lecture circuit, multiple podcast appearances incl. PAY THE TAB). Mullen publishes regularly in *The American Prospect* (https://prospect.org/topics/kirsten-mullen/) — her primary public-engagement channel.
 
 **Agent intelligence.**
-- Agent: `[verify]` — Darity is at Duke (Samuel DuBois Cook Professor); Mullen is at University of California (Riverside / Berkeley fellowships). Trade-publishing agent identity not in repo as of 2026-05-10.
-- Acquiring editor (UNC Press): `[verify]`
-- Why it matters for Commons Bonds pipeline: **Active relationship pipeline.** Sandy Darity interview scheduled 2026-05-12 (per cross-thread-todos #2). Mullen warm-intro on hold pending Darity interview outcome. Direct author-to-author contact track — bypasses cold-pitch agent-pipeline for blurber + endorsement opportunities.
+- Agent: **Likely no trade agent — direct UNC Press relationship [LOW-confidence working hypothesis, 2026-05-10].** No agent surfaces in any public coverage, NPR / Brookings / Democracy Journal interviews, or UNC Press blog. Consistent with Duke-distinguished-professor / university-press model. **Best resolved by asking Darity directly during 2026-05-12 interview** (10-second question, unlocks the publishing pathway question cleanly).
+- Acquiring editor (UNC Press): **Brandon Proia [MEDIUM-confidence]** — senior editor on UNC Press's Justice, Power, and Politics imprint; portfolio matches the book's subject; publicly tied to Darity in UNC Press blog coverage. Direct verification recommended via 5/12 interview.
+- Why it matters for Commons Bonds pipeline: **Active relationship pipeline.** Sandy Darity interview scheduled 2026-05-12 (per cross-thread-todos #2). Mullen warm-intro on hold pending Darity interview outcome. Direct author-to-author contact track — bypasses cold-pitch agent-pipeline for blurber + endorsement opportunities. **Darity contact: william.darity@duke.edu** (Scholars@Duke profile, HIGH confidence). **Cook Center general inbox: cookcenter@duke.edu**. **Critical biographical update [2026-05-10 web check]:** Darity is now **Samuel DuBois Cook Distinguished Professor EMERITUS** of Public Policy and AAAS (also Emeritus of Economics — but still active Professor of Economics). The "emeritus" titles signal he is in a wind-down posture for the Cook Center directorship but remains scholarly-active. **Mullen contact pathway:** Mullen is **NOT primarily university-affiliated**; she is founder of **Artefactual** (arts consulting) and **Carolina Circuit Writers**, based in Durham NC area. She holds a named association with the **Lancet Commission on Reparations and Redistributive Justice** (Harvard-hosted). **No public direct contact route surfaced** — the warm path is **through Darity** (they co-present and are domestic partners; reaching one effectively reaches both).
 
 **Mechanism overlap.**
 - *Similar:* Mechanism-level engagement with the cost-severance pattern at the racial-extraction layer of American political economy. Darity & Mullen don't just diagnose the historical extraction (slavery, Jim Crow, redlining, predatory lending, mass incarceration) — they **price it** and propose a specific reparations apparatus (eligibility criteria + payment structure + closing-the-wealth-gap calculation). The framework's RCV / Accountability Bond apparatus is structurally parallel: name the cost-severance, calculate the residual value, design the instrument that pays into the closing.
@@ -293,8 +297,8 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 - *Operative sentence (query-letter-ready):* "Darity & Mullen price the reparations debt and design the apparatus that pays it. Commons Bonds extends that diagnose-price-instrument pattern to extraction more broadly."
 
 **Network signals.**
-- Top reviews: *The Atlantic*, *NYRB*, *Washington Post*, *Boston Review* `[verify]`
-- Notable blurbers: `[verify — Coates connection plausible given *Case for Reparations* lineage]`
+- Top reviews [partially verified 2026-05-10]: ***NYRB* — Shennette Garrett-Scott, "What Price Wholeness?" (Feb 11, 2021)** [HIGH] (https://www.nybooks.com/articles/2021/02/11/what-price-wholeness/); ***Kirkus Reviews* — starred review** [HIGH] (https://www.kirkusreviews.com/book-reviews/william-darity-jr/from-here-to-equality/); ***Project MUSE / Journal of African American History* — academic review (Vol 106, No 4)** [HIGH]; ***Independent Review* — hostile libertarian critique (Summer 2022)** [HIGH] (https://www.independent.org/tir/2022-summer/from-here-to-equality/). **No standalone *Atlantic*, *Boston Review*, *Dissent*, *NYT*, or *WaPo* review surfaced** — NPR did a major *interview* (2020) but not a review. The review network is narrower than initially assumed.
+- Notable blurbers [partially verified]: **Ibram X. Kendi (Boston University)** — "Simply put: The best historical, conceptual, and empirical case for reparations for Black Americans." [HIGH-confidence; appears across Amazon, UNC Press, multiple bookseller pages]. **No Ta-Nehisi Coates blurb surfaced** in any search — **notable absence given the *Case for Reparations* lineage; could be deliberate non-blurb or simply not surfaced in retail metadata** [worth tactful question to Darity 5/12 — there may be a backstory informing reparations-discourse politics]. Other blurbers (Cornel West, Robin D. G. Kelley, Henry Louis Gates Jr.) — **not surfaced** in retail/publisher metadata. UNRESOLVED for the rest.
 - Comp-comps: `[verify from book]`
 
 **Audience overlap with Commons Bonds.** **Tier 1 (mechanism-level), Tier 2 (audience overlap).** Same shelf as Pistor and Mazzucato for serious-political-economy readers; different shelf (racial-justice / history / reparations) for trade audience. Best mechanism-overlap comp in the matrix for the framework's "diagnose-AND-price-AND-design" posture.
@@ -306,6 +310,18 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 - Agent target: **Conditional — pending agent identification + Darity interview outcome.** Direct author-introduction track is strongest pipeline regardless of agent pathway.
 
 **Notes.** Darity interview 2026-05-12 is the highest-leverage relationship event in the comp-pipeline. If the conversation goes well: (a) Mullen warm-intro activation per cross-thread-todos #2; (b) potential blurb pipeline; (c) potential agent-introduction pipeline if Darity is open to sharing his trade-publishing representation. **Bibliography §13 addition recommended** — comp-titles work surfaces this as a bibliography gap; updating §13 with a Darity & Mullen entry is a candidate for a separate bibliography-thread session (out of scope here).
+
+**Pre-interview leverage flags [2026-05-10 verification phase output] — three time-sensitive items for the 2026-05-12 conversation:**
+
+1. **Darity is now "Emeritus" on his named-chair lines** (Cook Distinguished Professor Emeritus). Significant biographical update — late-career posture means he is **more available** for outside conversation but may be **more selective** about new commitments. Treat the conversation as one with someone managing his last decade of public influence carefully.
+
+2. **Two ten-second questions to ask Darity directly** (both unlock publishing-pipeline intelligence cleanly + demonstrate the author is thinking seriously about his own publishing path):
+   - "Was Brandon Proia your editor on *From Here to Equality*?"
+   - "Do you have a trade agent or did you go direct to UNC?"
+
+3. **Tactful Coates-blurb question** — the absence of any Ta-Nehisi Coates blurb despite the *Case for Reparations* lineage is worth a careful question; there may be a reparations-discourse-politics backstory that informs how Commons Bonds positions itself in adjacent territory.
+
+**Mullen-specific:** Mullen is the primary non-academic author voice, publishes through *The American Prospect* as her main outlet, and has no university home. She is reachable **only through Darity / Artefactual** — there is no Duke directory shortcut. If the comp-titles pipeline needs Mullen specifically (e.g., for a folklorist/independent-scholar perspective), the ask should go through Darity.
 
 ---
 
@@ -385,7 +401,7 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 
 **Positioning + sales arc (brief).** **Massive sales arc** (Sandel = Harvard public intellectual; *Justice* course → online/TV; recurring TED / lecture / international-tour presence). One of the most commercially successful living political-philosophy authors. Foreign-rights deals across most major markets.
 
-**Agent intelligence.** Agent: `[verify]` — Sandel at Harvard; trade-publishing representation possibly Wylie or comparable top-trade agency. Acquiring editor (FSG): `[verify]`. Why-it-matters: If Sandel's agent overlaps with Mazzucato's (Wylie), it strengthens the Wylie target weight (cross-thread-todos #1). If different, it adds a distinct top-trade agent target.
+**Agent intelligence.** Agent: **NOT Wylie [HIGH-confirmed 2026-05-10]** — Sandel does not appear on Wylie Agency's client list (verified verbatim against https://www.wylieagency.com/clients.html). Actual agent **UNRESOLVED** — plausible candidates for Harvard-academic-crossover representation are Tina Bennett (Bennett Literary) or Esther Newberg (ICM/CAA) but unconfirmed. FSG-academic-crossover lane is its own pipeline. Acquiring editor (FSG): `[verify]`. Why-it-matters: Sandel does **not** strengthen the Wylie cluster (3-of-3 hypothesis falsified). His agent (when identified) would add a distinct top-trade agent-pipeline target on the FSG-academic lane.
 
 **Mechanism overlap.** Meritocracy-critique → values-political-economy. Commons Bonds shares the public-philosophy register at framework-moral-economy joints (Ch 1, Ch 6, Ch 9) but operates on apparatus-construction rather than philosophical critique. Tier-3 by mechanism, **Tier-1 by audience overlap** (reaches the educated-general-trade reader Commons Bonds wants).
 
@@ -413,7 +429,9 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 
 **Positioning + sales arc (brief).** **Massive sales arc** for serious-political-economy-narrative-history; Tooze = the financial-crisis macro-historian; recurring *LRB* / *Foreign Affairs* / Substack (Chartbook) presence. Foreign-rights deals across major markets. Sales scale among the strongest in the matrix for serious-trade political-economy.
 
-**Agent intelligence.** Agent: `[verify]` — Tooze at Columbia; trade-publishing representation possibly Wylie (rumored across his *Crashed*, *Shutdown*, *Wages of Destruction* arc) but not verified in repo. **If Tooze IS Wylie-represented, this strengthens Wylie target weight materially** — three Wylie-listed political-economy authors (Mazzucato, Tooze, possibly Sandel) makes Wylie the dominant target by far. Acquiring editor (Viking US): `[verify]`.
+**Agent intelligence.** Agent: **Wylie Agency — Sarah Chalfant + Andrew Wylie [HIGH-confirmed 2026-05-10]**. Wylie client list (https://www.wylieagency.com/clients.html) lists Adam Tooze; Tooze's bio at https://adamtooze.com/bio/ confirms Sarah Chalfant + Andrew Wylie as his agents. **Wylie cluster is now 2/3 confirmed (Mazzucato + Tooze; Sandel excluded)** — Wylie target weight escalates from "anchor" to **"strong anchor"** (not "dominant" as the 3/3 hypothesis would have warranted). Acquiring editor (Viking US): `[verify]`.
+
+**Wylie-cluster strategic note.** Two confirmed Wylie political-economy authors (Mazzucato — UK-based, likely Bohan; Tooze — US-based, confirmed Chalfant) means the Wylie pitch can lean on **either UK lane (Bohan) or US lane (Chalfant)**. Recommend Bohan-first pitch via Mazzucato analogue (UK-based academic-public-intellectual on big-econ register) with Chalfant as backup-lane via Tooze analogue (academic political-economy at trade scale). This dual-lane confirmation is a material upgrade to the agent-pipeline strategy.
 
 **Mechanism overlap.** Macro-financial-history rather than mechanism-prescriptive — Tooze diagnoses the architecture by which the 2008 crisis cascaded; Commons Bonds operates at a different level (cost-severance diagnosis + pricing instrument). Less direct than Pistor or Christophers; adjacent shelf rather than overlapping shelf. *Operative sentence:* "Tooze maps the financial-crisis architecture; Commons Bonds prices what the architecture severs."
 
