@@ -32,7 +32,7 @@ What follows is conservative throughout. Where estimates have a range, I use the
 
 ### Direct Health Cost
 
-Begin with the lungs. Black lung is the most completely documented externality coal has ever produced, because the damage is specific, attributable, and federally tracked. The Black Lung Disability Trust Fund has distributed over forty-four billion dollars to disabled miners and their widows since its creation. It has never collected enough revenue to cover its obligations. Its debt stood at four and a half billion dollars in 2021 and is projected to exceed fifteen billion by 2050. When a coal company files for bankruptcy, its liability transfers to the taxpayer, which is to say, to everyone not currently extracting coal.
+Begin with the lungs. Black lung is the most completely documented externality coal has ever produced — federally tracked, specifically attributable, and severally accumulated onto the public ledger when coal-company bankruptcies discharge the original liability. Chapter 2 walks the Black Lung Disability Trust Fund's funding gap, debt trajectory, and mechanism of severance in detail. The per-ton arithmetic for purposes of this chapter is the headline number: roughly eighty cents per ton allocated against the national coal tonnage produced since the Fund's 1969 establishment.
 
 That's before the other direct health costs: the excess cardiovascular mortality from particulate exposure, the increased rates of respiratory illness in mining communities whose children were never in the mine, the cancer rates near coal processing facilities, and the medical costs of populations whose life expectancy diverges from the national average by more than a decade.
 
