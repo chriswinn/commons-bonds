@@ -1,6 +1,6 @@
 # Cross-thread TODOs
 
-**Date drafted:** 2026-05-09  ·  **Date modified:** 2026-05-09
+**Date drafted:** 2026-05-09  ·  **Date modified:** 2026-05-10
 
 **Purpose.** Single living source-of-truth for items where one thread surfaces work that another thread needs to act on. Reduces lookup cost — currently these items are scattered across decisions-log entries, commit messages, and cascade-plan notes, and risk being lost between threads.
 
@@ -18,10 +18,11 @@
 ### 1. Acknowledgments-page check: Sarah Chalfant ↔ Mazzucato
 
 - **Surfaced by:** publishing-strategy thread (2026-05-08 agent-prep work; cascade plan Decisions due #8; commit `406e522`)
-- **For-thread:** any thread/session with access to Mazzucato's books or Publishers Marketplace deal records
-- **Status:** open
-- **Context:** Sarah Chalfant identified as top Wylie-agent candidate via public-record check 2026-05-08. Acknowledgments-page confirmation of her Mazzucato representation hasn't been done. Check *Mission Economy* (2021) or *The Value of Everything* (2018) acknowledgments pages — Mazzucato almost certainly thanks her agent by name. If a different agent is named (likely Tracy Bohan, the senior London-office agent), update `publishing/agents/targets.md` + `publishing/agents/personalization-snippets.md` accordingly.
-- **Target resolution:** before any Wylie query goes out (Wave 1, target late July / early August 2026). Soft target: prior to proposal sprint completion (late June 2026).
+- **For-thread:** any thread/session with access to *Mission Economy* (2021) physical book or Publishers Marketplace deal records
+- **Status:** partially-progressed (2026-05-10) — *Value of Everything* check completed and did NOT resolve; *Mission Economy* check still pending; resolution paths broadened
+- **Context:** Sarah Chalfant identified as top Wylie-agent candidate via public-record check 2026-05-08. Acknowledgments-page check 2026-05-10 read *The Value of Everything* (2018) Acknowledgments in full from the Penguin/Allen Lane edition PDF: **no literary agent is named at all**. Editor Tom Penn at Penguin is thanked, along with copy editor Michael Prest, academic readers, IIPP staff, and family — but no agent. The original premise "Mazzucato almost certainly thanks her agent by name" is partially falsified — academic authors often omit agents from acknowledgments. *Mission Economy* (2021) Acknowledgments not yet accessible online (Perlego TOC confirms section exists but text behind paywall; archive.org / Scribd searches turned up no full-text PDF). Mazzucato's own contact page (`marianamazzucato.com/about/contact/`) lists "The Wylie Agency" generically with an Executive Assistant, no individual agent named. The Wylie clients page lists Mazzucato but provides no individual-agent attribution.
+- **Resolution paths remaining:** (a) physical-book check of *Mission Economy* Acknowledgments — most efficient if a copy is reachable; (b) Publishers Marketplace deal-record subscription lookup for *The Value of Everything* (PublicAffairs 2018) or *Mission Economy* (Harper Business 2021) — deal records typically name the selling agent; (c) direct query via Mazzucato/IIPP network if the Adam Albrecht warm-thread converts to substantive contact. If none of these resolve before Wave 1, fall back to generic agency intake `mail@wylieagency.co.uk` (degraded path but workable).
+- **Target resolution:** before any Wylie query goes out (Wave 1, target late July / early August 2026). Soft target: prior to proposal sprint completion (late June 2026). If still unresolved by then, plan for generic-intake submission.
 
 ### 2. Mullen warm-intro activation post-Darity
 
@@ -64,3 +65,4 @@
 ## Update log
 
 - **2026-05-09.** File created. Four open items captured: Sarah Chalfant acknowledgments-page check; Mullen warm-intro activation post-Darity; bibliography engagement-pending flag updates; Atlantic Ideas vs. Phenomenal World slot-3 decision. Five resolved items logged from 2026-05-08 through 2026-05-09.
+- **2026-05-10.** Item #1 (Sarah Chalfant acknowledgments check) updated: status moved open → partially-progressed. *Value of Everything* (2018) Acknowledgments read in full — no agent named, partially falsifying the original "agent thanked by name" assumption. *Mission Economy* check + Publishers Marketplace lookup remain outstanding. Resolution paths broadened; generic-intake fallback explicitly contemplated.
