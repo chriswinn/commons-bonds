@@ -1,0 +1,271 @@
+# Project Management Session — Handoff (2026-05-10)
+
+**Date drafted:** 2026-05-10
+**Branch to create at session start:** `claude/pm-session-<harness-id>` (branch from current `origin/main`)
+**Session type:** **Parallel coordination session.** Runs alongside the user's per-workstream sessions. Does NOT execute workstream tasks; tracks state, surfaces dependencies, manages the todo list, flags deadlines, routes work between sessions.
+
+---
+
+## 0. Mission of the PM session
+
+You are the PM coordination session. Your job is to keep the *Commons Bonds* project's many parallel workstreams legible to the author. The author opens and closes individual sessions for specific workstreams (Path B audit, comp-titles deep matrix, agent prep, etc.) and uses this session as the central tracker.
+
+**You execute:**
+- Status updates after the user reports completing work in another session
+- Todo-list management (add / reorder / complete / clean up stale items)
+- Deadline tracking and alerts
+- Workstream sequencing recommendations ("what should I do next?")
+- Dependency surfacing ("X is blocked on Y; do Y first")
+- Cross-thread coordination (what one workstream needs from another)
+- Periodic ground-truth verification (file counts, git log, workstream state) — see `feedback_verify_stale_memory_claims.md`
+
+**You do NOT execute:**
+- Actual workstream work (drafting, auditing, editing). Those live in their dedicated handoffs.
+- Content decisions (those need user input).
+- Submissions (those happen in dedicated sessions per submission strategy).
+- Memory updates beyond status corrections (substantive memory work happens in topical sessions).
+
+When the user asks "what's next?" — synthesize from this dashboard + their recent activity + upcoming deadlines.
+When the user reports finishing a task — update this file's status, mark the todo complete, surface what unblocks.
+When the user wants to add a task — capture, prioritize, flag dependencies.
+
+---
+
+## 1. Read order
+
+1. THIS file (you are here).
+2. `tools/workstream-handoffs/README.md` — the index of all workstream handoffs.
+3. The two staleness-aware memory entries: `feedback_verify_stale_memory_claims.md` and `project_book1_state_2026-05-10.md`.
+4. `publishing/strategy/cross-thread-todos.md` — items requiring another thread's action.
+5. `publishing/strategy/cascade-plan_2026-05-06.md` — strategic cascade state.
+6. `publishing/strategy/decisions-log.md` — strategic decisions history.
+
+You do NOT need to read the individual workstream handoffs unless the user asks for details on a specific one. Index-level knowledge is enough for coordination.
+
+---
+
+## 2. Current phase summary (as of 2026-05-10)
+
+The project is in the **manuscript-verification + publishing-pipeline-deepening + parallel-essay-submissions** phase. Drafting phase complete (10 chapters + AuthorsNote drafted).
+
+Three work streams are active simultaneously:
+
+- **Manuscript verification** — making sure chapters meet success criteria. Triggered by Path B discovery on 2026-05-10 (Noema essay had ~14 verbatim sentences from Ch 1; same dynamic plausibly exists across chapter pairs).
+- **Publishing pipeline** — book proposal + agent target list + comp-titles deep matrix. Late-June 2026 proposal-sprint target; late-July / early-August Wave 1 agent queries.
+- **Essay submissions** — Aeon pitch (Mon Jun 1 portal); Noema essay (late May / early June); Boston Review pitch + essay (TBD); Berggruen Prize essay (deadline 2026-08-17, AI-free).
+
+Plus a meta-experiment in flight: **two-stage drafting discipline test** (Stage 2 fresh sessions for Noema essay + Aeon pitch pending; Stage 3 comparison after).
+
+---
+
+## 3. Workstream dashboard
+
+| # | Workstream | Handoff | Status | Next action | Blocker | Owner |
+|---|---|---|---|---|---|---|
+| 1 | **Aeon pitch submission** | [aeon-submission-handoff](aeon-submission-handoff_2026-05-09.md) | READY TO SEND. Version C ratified 2026-05-08. | Submit Mon Jun 1 ~00:01 AEST. | None — awaiting submission date. | User (manual portal submission) |
+| 2 | **Boston Review essay** | [boston-review-essay-handoff](boston-review-essay-handoff_2026-05-09.md) | Pitch + essay not yet drafted. Source Ch 5 ready. | Draft pitch (~1pp) + essay (~4,500w from Ch 5). | None blocking — workstream-ready. | Fresh session needed |
+| 3 | **Berggruen Prize essay** | [berggruen-track-handoff](berggruen-track-handoff_2026-05-09.md) | **AI-free required.** Deadline 2026-08-17. Soft target 2026-08-05. | Author drafts outside any AI-assisted session. | AI-free constraint. | User (manual writing) |
+| 4 | **Outreach pipeline** | [outreach-pipeline-handoff](outreach-pipeline-handoff_2026-05-09.md) | 6 subjects in flight. Darity confirmed Mon May 12 14:00 ET. | Conduct Darity interview May 12; post-call synthesis ~5%. Mazzucato follow-up via Adam Albrecht. | Awaiting Mazzucato substantive reply; awaiting other cold-outreach replies. | User (interviews) + future session (synthesis) |
+| 5 | **Book proposal** | [book-proposal-handoff](book-proposal-handoff_2026-05-09.md) | Skeletons stood up; comp-titles substantive (~80%); bio polished. | Late-June 2026 sprint (~3-week focused effort). | Comp-titles deep matrix work (#11) feeds this. | Fresh session for sprint |
+| 6 | **Agent prep / target list** | [agent-prep-handoff](agent-prep-handoff_2026-05-09.md) | 1/25 populated (Sarah Chalfant / Wylie). Template + tracker + snippets seeded. | Populate 7 more Priority A targets. Wave 1 late July / early Aug 2026. | Comp-titles deep matrix (#11) feeds agent intelligence. | Fresh session (research-heavy) |
+| 7 | **Manuscript completion** | [manuscript-completion-handoff](manuscript-completion-handoff_2026-05-09.md) | **STALE HEADER** — says "9 of 10 chapters; excluding Ch 3" but Ch 3 was drafted by 2026-05-10. All 10 chapters now exist. Bibliography flag-updates + Tech Appendix v2.0.0 + Glossary v4 still pending. | Update handoff header. Then continue bibliography flag-updates + appendix/glossary rebuild. | None blocking; workstream-ready. | Fresh session |
+| 8 | **Path B audit cross-chapter** | [path-b-audit-cross-chapter-handoff](path-b-audit-cross-chapter-handoff_2026-05-10.md) | NEW 2026-05-10. Triggered by Noema essay finding (~14 verbatim sentences from Ch 1). | Audit chapter pairs starting with Ch 5+Ch 6, Ch 5+Ch 9, Ch 2+Ch 3+Ch 8. | None blocking — workstream-ready. Coordinate with #9. | Fresh session |
+| 9 | **Apparatus register decision sweep** | [apparatus-register-sweep-handoff](apparatus-register-sweep-handoff_2026-05-10.md) | NEW 2026-05-10. cluster-γ, RCV, ARR, IPG, etc. → trade body / appendix / dropped. | Build apparatus inventory; ratify decisions per item; apply across chapters. | None blocking — workstream-ready. Coordinate with #8. | Fresh session |
+| 10 | **Cross-chapter consistency audit** | [cross-chapter-consistency-handoff](cross-chapter-consistency-handoff_2026-05-10.md) | NEW 2026-05-10. Terminology / numbers / cross-refs / citations. | Build canonical-terms inventory; scan for drift. | None blocking; lower-priority than #8/#9. | Fresh session |
+| 11 | **Comp-titles deep matrix** | [comp-titles-deep-matrix-handoff](comp-titles-deep-matrix-handoff_2026-05-10.md) | NEW 2026-05-10. Augments existing `02_comp-titles.md`. | Confirm comp set with user; populate matrix per comp. | None blocking — workstream-ready. Feeds #5 and #6. | Fresh session (web research) |
+| 12 | **Aeon essay (post-acceptance, two-stage)** | [aeon-essay-post-acceptance-two-stage-handoff](aeon-essay-post-acceptance-two-stage-handoff_2026-05-10.md) | **CONDITIONAL — DORMANT.** | Fires only after Aeon accepts the pitch (#1) AND Stage 3 of two-stage experiment returns. | Aeon acceptance + Stage 3 verdict. | Future session post-trigger |
+
+---
+
+## 4. Special-case fresh-session handoffs (one-shot, not workstreams)
+
+These drive single fresh-session tasks for the two-stage drafting discipline experiment. Each produces a single artifact and stops.
+
+| Task | Handoff | Status | Output |
+|---|---|---|---|
+| **Stage 2 — Noema essay (Essay B)** | [noema-session-handoff_2026-05-10](../../manuscript/essay/Noema/noema-session-handoff_2026-05-10.md) | PENDING — fresh session not yet triggered. | `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md` |
+| **Stage 2 — Aeon pitch (Pitch B)** | [aeon-session-handoff_2026-05-10](../../manuscript/essay/aeon/aeon-session-handoff_2026-05-10.md) | PENDING — fresh session not yet triggered. | `manuscript/essay/aeon/aeon-pitch-fresh-session_2026-05-10.md` |
+| **Stage 3 — comparison + verdict** | (no handoff yet — to be created after Stage 2 outputs land) | DORMANT — depends on Stage 2 outputs. | Comparison artifact + ratified/modified/abandoned methodology verdict |
+
+---
+
+## 5. Submission timeline + deadline calendar
+
+Sorted by date.
+
+| Date | Event | Workstream | Action required |
+|---|---|---|---|
+| **Mon May 12 2026 14:00 ET** | Darity interview (phone, 1 hr) | #4 Outreach | User conducts interview; PM session prompts post-call synthesis |
+| **Late May / early June 2026** | Noema essay submission (`edit@noemamag.com`) | #2 + Stage 2/3 experiment | Whichever of Essay A or Essay B wins Stage 3 comparison gets submitted |
+| **Mon Jun 1 2026 ~00:01 AEST = Sun May 31 14:01 UTC** | Aeon pitch portal submission | #1 Aeon pitch | User submits Version C verbatim via aeon.co/pitch |
+| **Jun–Aug 2026** | Aeon response window (4–8 wk) | #1 / #12 | Monitor inbox; if accepted, trigger #12 |
+| **Late June 2026** | Book proposal sprint target (3-week focused effort) | #5 Book proposal | Fresh session for sprint |
+| **Late July / early August 2026** | Agent Wave 1 (8 Priority A queries) | #6 Agent prep | After comp-titles matrix complete + book proposal substantive |
+| **Tue Aug 5 2026** | Soft target Berggruen Prize submission | #3 Berggruen | User drafts manually (AI-free) |
+| **Sun Aug 17 2026** | Hard deadline Berggruen Prize | #3 Berggruen | Submit if not already submitted |
+| **Sept–Oct 2026** | Agent Wave 2 (8 Priority B) | #6 Agent prep | After Wave 1 outcomes |
+| **Q4 2026 / Q1 2027** | Agent Wave 3 (9 Priority C) | #6 Agent prep | After Wave 2 outcomes |
+
+Critical near-term sequence (next 30 days):
+1. **May 11–12:** Darity interview prep / call. Post-call synthesis (~5% of remaining weekly budget).
+2. **May 12–25:** Stage 2 fresh sessions (Noema essay + Aeon pitch). Stage 3 comparison.
+3. **May 25–31:** Submit whichever Noema essay wins Stage 3. Final pre-submission verification of Aeon pitch.
+4. **Sun May 31 14:01 UTC:** Aeon pitch submission.
+
+---
+
+## 6. Cross-thread coordination
+
+Items where one workstream needs something from another. Update as cross-thread items resolve.
+
+| Item | Producer | Consumer | Status |
+|---|---|---|---|
+| Comp-titles deep matrix | #11 Comp-titles | #5 Book proposal §02; #6 Agent prep target list; #5 §04 marketing plan | Pending — start when ready |
+| Path B + apparatus findings | #8 Path B audit + #9 Apparatus sweep | #2 Boston Review essay (Ch 5 source); #12 Aeon essay (Ch 7 source); future essays | Pending — start when ready |
+| Bibliography engagement-pending → engaged flag updates | #7 Manuscript completion | All future essays + #5 book proposal | In progress per `manuscript-completion-handoff_2026-05-09.md` cross-thread item #3 |
+| Stage 3 methodology verdict | Stage 3 comparison session | Determines whether two-stage discipline becomes default for #2, #12, future essays, and #5 cover letter | Pending — depends on Stage 2 outputs |
+| Darity interview material | #4 Outreach | #2 Boston Review essay (potentially); #5 book proposal author-platform §03 (interview-placement table) | Will land May 12 evening; synthesize day-of or next day |
+| Author-bio updates as essays place / interviews land | #4 + essay submissions | #5 Book proposal §03 author platform | Continuous; update as events happen |
+
+---
+
+## 7. Two-stage drafting discipline experiment status
+
+The methodology experiment is the meta-workstream. Track separately.
+
+| Stage | Status | Artifact |
+|---|---|---|
+| **Stage 1 (pre-draft, both tests)** | COMPLETE 2026-05-10 | Noema: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`. Aeon: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`. |
+| **Stage 2 (fresh-session draft, Noema)** | PENDING — fresh session not yet triggered | Will produce `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md` |
+| **Stage 2 (fresh-session draft, Aeon pitch)** | PENDING — fresh session not yet triggered | Will produce `manuscript/essay/aeon/aeon-pitch-fresh-session_2026-05-10.md` |
+| **Stage 3 (comparison)** | DORMANT — depends on Stage 2 outputs | Will produce comparison rigor pass + methodology verdict (validate / modify / falsify) |
+
+**Verdict matrix** (per Stage 1 brief §10):
+
+| Noema test | Aeon test | Interpretation |
+|---|---|---|
+| B wins | B wins | **Strong validation.** Discipline becomes default. |
+| B wins | A wins | Long-form / weak-control benefits; short / strong-control doesn't. Diagnose. |
+| A wins | B wins | Inverse — surprising. Diagnose. |
+| A wins | A wins | **Falsified.** Reconsider whether to keep the framework. |
+| Mixed | Mixed | Most likely outcome. **Partial validation.** Codify v2.0 framework. |
+
+---
+
+## 8. Outreach pipeline detail
+
+Per `outreach-pipeline-handoff_2026-05-09.md`. Update as responses land.
+
+| Subject | Affiliation | Status | Date | Notes |
+|---|---|---|---|---|
+| **William ("Sandy") Darity Jr.** | Duke | INTERVIEW CONFIRMED | Mon May 12 14:00 ET (1 hr phone) | Full prep stack ready. Substitution-hypothesis-applied draft of Section V already exists; interview is upgrade opportunity. |
+| **Mariana Mazzucato** | UCL/IIPP | HOLDING via Adam Albrecht | Held since 2026-05-06 | Awaiting substantive follow-up. Not blocking any submission. |
+| **Allison Colden** | CBF Maryland | RESPONSE SENT via Val DiMarzio | 2026-05-06 | Public-record brief landed 2026-05-08. **Substitution-hypothesis CONFIRMED.** Live interview not load-bearing. |
+| **Karen Moore** | CBF Virginia | RESPONSE SENT via David Sherfinski | 2026-05-06 | Public-record brief landed 2026-05-08. Live interview not load-bearing. |
+| **Boyce, Buller, Mian, Sufi, Alperovitz, Mondragon, Klein, Coalition of Clinics, Raworth, ACLC, Lipcius, Mann** | Various | Cold-outreach sent | 2026-05-05 | Standard 2–3 wk academic-response window. Some replies may have landed since 2026-05-09 — verify before quoting. |
+
+---
+
+## 9. Active todo list (synthesized from all workstreams + experiments + memory)
+
+Sorted by urgency. **The PM session maintains this list.** Update as items complete or new items surface.
+
+### This week (by Sun May 17)
+
+- [ ] **Trigger Stage 2 fresh session for Noema essay** (Essay B). Prep complete.
+- [ ] **Trigger Stage 2 fresh session for Aeon pitch** (Pitch B). Prep complete.
+- [ ] **Conduct Darity interview** Mon May 12 14:00 ET.
+- [ ] **Post-Darity synthesis** (~5% of remaining weekly budget). Capture insights for #2 Boston Review essay + #5 book proposal author platform + Section V upgrade decision.
+- [ ] **Run Stage 3 comparison** for both methodology tests after Stage 2 outputs land.
+- [ ] **Decide which Noema essay (A or B) to submit** based on Stage 3 verdict.
+
+### Next 2–3 weeks (by Fri May 31)
+
+- [ ] **Final pre-submission verification of Aeon Version C** (1–2 days before Jun 1).
+- [ ] **Submit Noema essay** to `edit@noemamag.com`.
+- [ ] **Submit Aeon pitch** Mon Jun 1 ~00:01 AEST.
+
+### Substantive backlog (no specific date — sequence based on user priority + dependencies)
+
+- [ ] **Path B audit** all 10 chapters (#8). Coordinate with #9.
+- [ ] **Apparatus register decision sweep** (#9). Coordinate with #8.
+- [ ] **Cross-chapter consistency audit** (#10). Lower priority.
+- [ ] **Comp-titles deep matrix v0** (#11). Foundational for #5 + #6.
+- [ ] **Update manuscript-completion-handoff** to remove the stale "9 of 10 chapters; excluding Ch 3" header (Ch 3 is now drafted; all 10 exist).
+- [ ] **Bibliography engagement-pending → engaged flag updates** (#7 cross-thread item #3).
+- [ ] **Tech Appendix Phase 3 v2.0.0 rebuild** (#7 queued).
+- [ ] **Glossary v4 rebuild** (#7 queued, coordinate with #9).
+- [ ] **Boston Review pitch + essay drafting** (#2). Trigger after Stage 3 verdict — apply two-stage discipline if validated.
+
+### Late summer (by mid-August)
+
+- [ ] **Berggruen Prize essay** drafting (#3). User-only, AI-free. Soft target 2026-08-05; hard deadline 2026-08-17.
+- [ ] **Book proposal sprint** (#5). Late June 2026 target.
+
+### Conditional / dormant
+
+- [ ] **#12 Aeon essay (post-acceptance two-stage)** — fires only if Aeon accepts the pitch.
+- [ ] **Phat's signed consent** (per `feedback_named_subject_consent.md`) — restore name in essays if/when signed before submission.
+- [ ] **Biggie courtesy-notify-surviving-family-if-reachable** before any essay using his name publishes.
+
+---
+
+## 10. How to handle common user prompts
+
+The user will likely come to you with questions like these. Suggested responses:
+
+- **"What should I do next?"** → Cross-reference §3 (status) + §5 (deadlines) + §9 (todos). Recommend the highest-leverage unblocked item that fits the user's available time/energy.
+- **"I just finished X."** → Mark the todo complete in §9. Update the workstream's status in §3. Surface what unblocks (§6 cross-thread).
+- **"What's blocked?"** → §3 column "Blocker." Filter on items with non-empty blockers.
+- **"What's overdue?"** → §5, items with past dates that aren't marked complete.
+- **"How is the methodology experiment going?"** → §7. Surface what stage we're at.
+- **"What does workstream X need?"** → Read the workstream's handoff (linked in §3). Summarize: read order, deliverables, first actions.
+- **"Add a todo: ..."** → Insert into §9 at appropriate priority. If it's substantive enough to warrant its own workstream, propose creating a new handoff.
+- **"Status update on the budget / token usage"** → User's Anthropic weekly budget tracker is external; you can ask the user to report state and reflect it back.
+
+When you don't know — say so. Verify before asserting (per `feedback_verify_stale_memory_claims.md`).
+
+---
+
+## 11. Updating this handoff
+
+This file IS the PM session's working memory. Update it as state changes:
+
+- When a workstream's status changes (e.g., #1 from "ready to send" → "submitted"), update §3.
+- When a deadline passes, archive it (move to a "history" section at the bottom or delete) and update §5.
+- When a todo completes, mark it `[x]` in §9 (for short-term retention) or remove it (for cleanup).
+- When new workstreams emerge, add to §3 + create their handoff in `tools/workstream-handoffs/` per existing pattern.
+- When stale claims are surfaced (per `feedback_verify_stale_memory_claims.md`), correct in place.
+
+**Periodic full-file refresh:** every ~7–14 days, or after any significant phase shift, write a successor file (`pm-session-handoff_<NEW-DATE>.md`) that supersedes this one. Update the workstream-handoffs README.md to point to the latest. Delete or archive the predecessor.
+
+---
+
+## 12. Reference inventory
+
+**This handoff's index files:**
+- `tools/workstream-handoffs/README.md` — workstream handoff index
+- `publishing/strategy/cross-thread-todos.md`
+- `publishing/strategy/cascade-plan_2026-05-06.md`
+- `publishing/strategy/decisions-log.md`
+
+**Memory entries (read MEMORY.md for full index):**
+- `project_book1_state_2026-05-10.md` — current project state snapshot
+- `feedback_audience_aware_drafting_discipline.md` — two-stage rule
+- `feedback_named_subject_consent.md` — naming discipline (Biggie / Phat's)
+- `feedback_voice_polish_pipeline.md` — dump → sift → polish
+- `feedback_substance_drives_length.md` — no arbitrary word targets
+- `feedback_verify_stale_memory_claims.md` — verification discipline (added 2026-05-10)
+- `feedback_two_layer_content_discipline.md` — internal-vs-external content origination
+
+**Workstream handoffs (full index in §3 above):**
+- 7 from 2026-05-09 + 5 from 2026-05-10. See `tools/workstream-handoffs/README.md`.
+
+**Two-stage discipline experiment artifacts:**
+- Stage 1 briefs: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_*_pre_draft_audience_structure_v1.0.0.md`
+- Stage 2 handoffs: `manuscript/essay/Noema/noema-session-handoff_2026-05-10.md` + `manuscript/essay/aeon/aeon-session-handoff_2026-05-10.md`
+- Stage 3 protocol: embedded in Stage 1 brief §10/§11 of each test
+
+---
+
+*End of PM session handoff. Update in place as state evolves; write successor file ~weekly.*
