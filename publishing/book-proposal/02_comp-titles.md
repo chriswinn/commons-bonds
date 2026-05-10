@@ -312,7 +312,7 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 
 **Notes.** Darity interview 2026-05-12 is the highest-leverage relationship event in the comp-pipeline. If the conversation goes well: (a) Mullen warm-intro activation per cross-thread-todos #2; (b) potential blurb pipeline; (c) potential agent-introduction pipeline if Darity is open to sharing his trade-publishing representation. **Bibliography §13 addition recommended** — comp-titles work surfaces this as a bibliography gap; updating §13 with a Darity & Mullen entry is a candidate for a separate bibliography-thread session (out of scope here).
 
-**Pre-interview leverage flags [2026-05-10 verification phase output] — three time-sensitive items for the 2026-05-12 conversation:**
+**Pre-interview leverage flags [2026-05-10 verification phase output] — four time-sensitive items for the 2026-05-12 conversation:**
 
 1. **Darity is now "Emeritus" on his named-chair lines** (Cook Distinguished Professor Emeritus). Significant biographical update — late-career posture means he is **more available** for outside conversation but may be **more selective** about new commitments. Treat the conversation as one with someone managing his last decade of public influence carefully.
 
@@ -322,7 +322,14 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 
 3. **Tactful Coates-blurb question** — the absence of any Ta-Nehisi Coates blurb despite the *Case for Reparations* lineage is worth a careful question; there may be a reparations-discourse-politics backstory that informs how Commons Bonds positions itself in adjacent territory.
 
-**Mullen-specific:** Mullen is the primary non-academic author voice, publishes through *The American Prospect* as her main outlet, and has no university home. She is reachable **only through Darity / Artefactual** — there is no Duke directory shortcut. If the comp-titles pipeline needs Mullen specifically (e.g., for a folklorist/independent-scholar perspective), the ask should go through Darity.
+4. **Warm-intro discovery ask — open-question pattern (revised approach 2026-05-10).** The original outreach plan was a binary "Mullen warm-intro activation if Darity-conversation-goes-well." Phase 1 verification surfaced that Mullen has withdrawn from academic affiliation onto a smaller trade-book-amplification surface (Artefactual + American Prospect + Lancet Commission) — she's publicly active but not the highest-leverage warm-intro target in Darity's network. **Revised pattern:** late in the conversation, after framework discussion has done its work, ask a single open question — *"Who in your network do you think would find this framework interesting?"* — and let Darity surface candidates from his own read of the framework's reception. Don't pre-name anyone; he knows his network's appetites better than we do, and he'll surface people he can credibly warm-intro vs. names he can't. **If he turns the question back ("who do you have in mind?"), have prioritized backups ready** (full templates in `publishing/agents/post-darity-warm-intro-templates_2026-05-10.md`):
+   - **Lead candidate: Ibram X. Kendi** — already blurbed FHTE, so an established blurb-asking relationship with Darity. Highest trade-platform amplification with already-precedented warm-intro path.
+   - **Strong secondary: Cook Center colleagues** (open — let Darity name; Trevon Logan, Lisa Cook are plausible) — closest day-to-day collaborators.
+   - **Wildcard: Henry Louis Gates Jr.** — only if conversation invites Harvard / PBS-network discussion; institutional weight; don't lead.
+   - **Implicit (don't lead): Mullen** — comes up naturally if the relationship deepens; folklorist/independent-scholar voice is unique but trade-amplification is modest. If Darity surfaces her himself, activate the Mullen variation.
+   - **NOT on the backup list: Coates** — the FHTE-blurb absence is a real signal that the relationship may be cool; use the tactful Coates-blurb-question (#3 above) to learn more, but don't ask Darity to facilitate a Coates intro until the underlying dynamic is understood.
+
+**Cross-thread-todos #2 reframed accordingly** (2026-05-10): "Mullen warm-intro activation post-Darity" → "Post-Darity warm-intro discovery." Mullen-specific Gmail draft replaced with template-set covering Mullen + Kendi + Cook-Center-colleague + Gates so whichever person Darity surfaces, the warm-intro can activate within ~5 minutes post-call without a multi-day drafting delay.
 
 ---
 
