@@ -140,7 +140,7 @@ I'll assign this component two dollars per ton. Again, conservative, almost cert
 
 ### The sum
 
-The framework's Cᵢ-summation discipline (RCV = ∫ (Σ Cᵢ) · D dt per the Tech Appendix's sum-of-costs general form) sums these admitted components across the relevant time horizon; the per-ton arithmetic this chapter performs is the time-snapshot version of that integral, applied to a single extraction.
+The framework sums each admitted cost component across the relevant time horizon; the per-ton arithmetic this chapter performs is the time-snapshot version of that summation, applied to a single extraction. The Tech Appendix carries the formal integral for readers who want it.
 
 Running the total at the low end of every component:
 
