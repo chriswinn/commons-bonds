@@ -211,7 +211,7 @@ User ratified v2.0 with all three amendments A + B + C on 2026-05-10. The discip
 ### Next 2–3 weeks (by Fri May 31)
 
 - [ ] **Final pre-submission verification of Aeon Version C** (1–2 days before Jun 1).
-- [ ] **Submit Noema essay** to `edit@noemamag.com`.
+- [ ] **Submit Noema essay** to `edit@noemamag.com`. Gated on USER ACTION 1 + 2 above (Phat's consent decision applied to line 136).
 - [ ] **Submit Aeon pitch** Mon Jun 1 ~00:01 AEST.
 
 ### Recently landed (2026-05-10 PM session window)
@@ -222,7 +222,15 @@ User ratified v2.0 with all three amendments A + B + C on 2026-05-10. The discip
 - [x] **Apparatus register Item 1 — Ch 8 inline integral removed from trade prose** — COMPLETE 2026-05-10 (`d1f6e2d`). Plain-English summation + Tech Appendix cross-reference preserved. Surgical fix, no collateral damage.
 - [x] **Apparatus register Item 2 — Ch 6 formula lead-in tightened** — COMPLETE 2026-05-10 (`baf3776`). Defensive 35-word lead-in compressed to "a summary of the plain-English argument just made". Formula block + term translation kept (Ch 6 = methodology chapter, earns apparatus).
 - [x] **Apparatus register Item 3 — Ch 6 keep CS/IPG shorthand identities; fix subscript + encoding** — COMPLETE 2026-05-10 (`39a8416`). Apparatus bundle continues per-item.
-- [x] **Noema Essay B Stage 3 polish session** — COMPLETE 2026-05-10 (commit `44c66b6`). All 6 fact-fixes per verdict §6.1 + 2 voice improvements per §6.2 + §6.2.8 bundling-synthesis import applied. Verified directly: Pou/Pappou canonical scene replaces Tidewater backstory; air-compressor scene reconstructed; cursing-at-self reverted; bundling sentence in Section VI; locked Section I closing paragraph verbatim. Path B residual ~3–4 verbatim sentences (unchanged from pre-polish). Body word count 4,930w. **⚠ Phat's consent status: UNVERIFIED in session — anonymized as drafted; author must verify consent before send.**
+- [x] **Noema Essay B Stage 3 polish session** — COMPLETE 2026-05-10 (commit `44c66b6`). All 6 fact-fixes per verdict §6.1 + 2 voice improvements per §6.2 + §6.2.8 bundling-synthesis import applied. Verified directly: Pou/Pappou canonical scene replaces Tidewater backstory; air-compressor scene reconstructed; cursing-at-self reverted; bundling sentence in Section VI; locked Section I closing paragraph verbatim. Path B residual ~3–4 verbatim sentences (unchanged from pre-polish). Body word count 4,930w.
+
+### User actions gating Noema submission
+
+- [ ] **USER ACTION 1 — Reach out to Phat (or Phat's family if Phat unavailable) for signed consent to use his name in publisher-facing prose.** Per `feedback_named_subject_consent.md`, living named subjects must be anonymized until signed.
+- [ ] **USER ACTION 2 (after Action 1 resolves) — Apply consent decision to Essay B at line 136 of `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`.** Current anonymized text reads: *"a crabber and fisherman my father had known since he was small."* Decision branches:
+  - If consent **signed** → restore Phat's actual name (replace the anonymized phrasing with the named version).
+  - If consent **not signed / declined / unreachable** → leave anonymization as-drafted; no edit required.
+  - Either decision unblocks the Noema submission.
 
 ### Substantive backlog (no specific date — sequence based on user priority + dependencies)
 
