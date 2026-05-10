@@ -1,7 +1,7 @@
 # Permission to use your name in my book and essays
 
 **Author:** Chris Winn
-**Subject:** [PHAT'S FULL LEGAL NAME], known to family and friends as [PHAT'S NICKNAME AS HE PREFERS TO BE INTRODUCED IN PRINT]
+**Subject:** [PHAT'S FULL LEGAL NAME], who introduces himself as Phat — the short form of his given name, the same name he uses in his business (Phat Automotive)
 **Date prepared:** 2026-05-10
 **Date signed:** ____________________
 
@@ -33,7 +33,7 @@ If you sign this document for the materials I show you today, the consent covers
 
 You are consenting to:
 
-- The use of your actual name (in whatever form you choose — full name, first name only, nickname, or whatever feels right to you) in the specific passages I show you today.
+- The use of your actual name (in whatever form you choose — your full given name, the short form Phat you already use in person and in your business, with or without the Vietnamese diacritic if you prefer it, or whatever else feels right to you) in the specific passages I show you today.
 - The publication of those passages in the venues described above.
 - The author and the publisher to use those passages, with your name in them, in materials promoting the book and the essays.
 

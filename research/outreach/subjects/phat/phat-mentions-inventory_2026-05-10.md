@@ -1,7 +1,7 @@
 # Phat — mentions inventory across the Commons Bonds project
 
 **Date created:** 2026-05-10
-**Subject:** Phat (referred to in source materials by the nickname "Phat" / "Phat's"; full legal name to be filled in by author)
+**Subject:** Phat (the short form of his given name he uses in person and in commerce — the business he owns is "Phat Automotive" — analogous to Chris / Christopher; full given name and full legal name to be filled in by the author. The "Phat's" with an apostrophe that appears in some source materials is a transcription artifact from the author's voice-memo dump; the actual name has no apostrophe.)
 **Purpose:** Complete catalog of every place Phat appears across the project, distinguishing internal-scaffolding files (where his actual nickname appears) from publisher-facing prose (where he is currently anonymized). This inventory is the basis for (a) the author's edit checklist if signed consent lands and (b) the preview package the author shows Phat as part of the consent conversation.
 **Companion artifacts in this folder:**
 - `phat-consent-document_2026-05-10.md` — the signable consent document.
@@ -123,9 +123,9 @@ If Phat signs the consent document for the materials shown to him, the author ma
 
 **Suggested named version (preserves Stage-3-polished prose; introduces Phat by name on first reference):**
 
-> There was also a man called [PHAT'S NICKNAME OR NAME AS PHAT PREFERS TO BE INTRODUCED IN PRINT] — a crabber and fisherman my father had known since he was small. He lived through the Virginia closure of the commercial shad fishery.
+> There was also a man called [PHAT — full given name or short form, his choice; with or without Vietnamese diacritic if he prefers it] — a crabber and fisherman my father had known since he was small. He lived through the Virginia closure of the commercial shad fishery.
 
-(Pattern matches Biggie's introduction at line 135: *"There was a man called Biggie — an oysterman..."* Keeps cadence symmetric across the two figures.)
+(Pattern matches Biggie's introduction at line 135: *"There was a man called Biggie — an oysterman..."* Keeps cadence symmetric across the two figures. Note: the "called" framing fits a nickname like Biggie; for Phat — a given-name short form, not a nickname — the author may prefer *"There was also Phat, a crabber and fisherman..."* or similar. Decide at the conversation, in consultation with Phat.)
 
 The remaining sentences in line 137 do not require change; "He still wakes between two and three..." continues unchanged.
 

@@ -106,6 +106,21 @@ Practical things to have figured out before the conversation:
 - **The "materials shown to you on [DATE]" field** filled in by the author at the time of the conversation, not in advance. Bring a pen for this too.
 - **A way to take a photograph of the signed document** before you leave (phone camera is fine). If the original signed document gets lost in the mail or in a desk drawer, the photograph is the backup record.
 
+### Where Phat is reachable
+
+Publicly listed business contact for Phat's mechanic shop, confirmed via internet search 2026-05-10:
+
+- **Phat Automotive**
+- 410 W Pembroke Ave, Hampton, VA 23669
+- +1 (757) 224-2798
+
+The shop is the natural place for the conversation if Phat is comfortable having it there — it's where he is during the day, it's familiar ground, and the consent ask is itself about a relationship the shop is part of (the business name being his name in print already). The author will know better than this guide whether the shop is the right venue versus, e.g., his home, a meal somewhere, or another setting Phat would prefer. Use judgment.
+
+A note on the name: "Phat" is the short form of his given name, not a nickname — he is of Asian descent (likely Vietnamese given the spelling; "Phát" with the acute diacritic is a common Vietnamese given name meaning *flourishing* or *prosperous*). The relationship "Phat" : "[full given name]" is structurally analogous to "Chris" : "Christopher" — a routine conversational shortening, not a nickname imposed from outside. This matters for two reasons:
+
+- The consent document was originally drafted with nickname-framing language; that has been corrected as of this revision but is worth being aware of in the conversation. The form he uses in his shop ("Phat") is the form he has already chosen for public-facing commerce.
+- **Ask him directly how he wants the name to appear in print.** Options to put on the table: the short form *Phat*; his full given name without diacritic; his full given name with the Vietnamese diacritic *Phát*; his full legal name as spelled on his identification. He chooses. Note his preference on the consent document materials-shown line so the printed essay matches.
+
 ---
 
 ## 4. Verify Phat's status before initiating
