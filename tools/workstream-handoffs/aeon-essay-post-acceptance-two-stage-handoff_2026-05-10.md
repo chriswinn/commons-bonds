@@ -1,8 +1,40 @@
 # Aeon Essay (Post-Acceptance) — Two-Stage Drafting — Workstream Handoff (2026-05-10)
 
-**Date drafted:** 2026-05-10
+**Date drafted:** 2026-05-10 · **v2.0 drafting-discipline application appended 2026-05-10**
 **Branch to create at session start:** `claude/aeon-essay-drafting-<harness-id>` (branch from current `origin/main`)
-**Status going in:** **CONDITIONAL — fires only after Aeon accepts the pitch.** Pitch (Version C, *The Mask of Abundance*) submission scheduled for Mon Jun 1, 2026. Acceptance window is 4–8 weeks per `aeon-submission-strategy_2026-05-08.md`. **If acceptance lands, this handoff drives essay drafting using the validated two-stage discipline** (assuming Stage 3 of the Noema/Aeon-pitch experiment validates the discipline).
+**Status going in:** **CONDITIONAL — fires only after Aeon accepts the pitch.** Pitch (Version C, *The Mask of Abundance*) submission scheduled for Mon Jun 1, 2026. Acceptance window is 4–8 weeks per `aeon-submission-strategy_2026-05-08.md`. The two-stage drafting discipline has been ratified at v2.0 as of 2026-05-10 (per Noema + Aeon Stage 3 verdicts). When trigger fires, apply v2.0.
+
+---
+
+## ★ v2.0 two-stage drafting discipline applies to this workstream (2026-05-10)
+
+The two-stage audience-aware drafting discipline ratified at v2.0 on 2026-05-10 is the **default methodology for the post-acceptance essay**. When the trigger condition fires (Aeon accepts the pitch), the prep + fresh sessions must apply v2.0 in full. Authoritative reference: `feedback_audience_aware_drafting_discipline.md` (memory). Empirical basis: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` and `..._aeon_pitch_stage3_comparison_v1.0.0.md`.
+
+**Regime fit.** This workstream is a long-form (~3,000–4,500w; aim for the Aeon middle of ~3,500w) publisher-facing essay derived from Ch 7 *On Other Worlds* + Ch 8 *What Things Actually Cost* (McDowell case-walk) + Ch 1 *The Quiet Math* (commute case + personal/memoir register). The v2.0 domain-of-applicability rule clauses fire as follows:
+
+- **(a) Path B contamination risk applies — and it is identical in structure to the Noema test that just validated Amendment A.** The essay derives from chapters that contain the exact pitch material plus extension. Drafting from those chapters as source text reproduces the Noema-essay-A failure pattern: ~17–22 verbatim sentences + ~14 high-echo paragraphs. The audience-blind Stage 2 protects against this — Pitch B passed Path B audit cleanly under the same preemptive policy. Path B preemptive policy is mandatory: do NOT open Ch 7, Ch 8, Ch 1, or any pitch version (A / B / C) as source text in Stage 2.
+- **(b) Apparatus tripwire risk applies.** The source chapters contain framework apparatus (cluster-γ, RCV, ARR, IPG, etc. as relevant) that Aeon's literary-philosophical general readership does not tolerate. The Stage 1 brief's apparatus exclusion list must hold through Stage 2. The Aeon pitch Stage 1 brief at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` is the template; the essay's brief extends it.
+- **(c) No strong iterated control exists for the essay.** Unlike the pitch (which had a ratified Version C control that the Aeon Stage 3 verdict showed beat audience-blind drafting decisively), the post-acceptance essay has not been drafted before. There is nothing to iterate against. Audience-blind Stage 2 from a Stage 1 brief is the right shape — the Aeon pitch result does NOT contradict applying v2.0 here, because that result was about strong-control short-form material; this is no-control long-form material.
+
+All three clauses fire — apply v2.0, no exceptions.
+
+**Amendment A — Stage 1 must include canonical factual ground truth, not just beats.** The Noema test's 5+ factual drift points (Pou/Pooh nickname etymology rewritten with invented Tidewater-accent provenance; predawn-Appalachian drives reframed as Navy commute rather than hunting trips; "fifteen audiences" reframed; "responsible for 45 people" misframed; cussing scene direction inverted; air-compressor anecdote compressed to one-sentence summary) all came from a Stage 1 brief that supplied beats but not canonical truth. **Stage 1 enrichment with canonical Ch 7 + Ch 8 + Ch 1 facts is mandatory, not optional.** The Stage 1 brief for this essay must include named places, dated events, scene specifics, scope numbers, direction-of-action of pivotal scenes — anything from the source chapters that the audience-blind Stage 2 drafter would otherwise improvise from imagination.
+
+**Required v2.0 actions for the prep + fresh sessions when trigger fires:**
+
+1. **Build the Stage 1 brief in the prep session, with canonical factual ground truth included.** Save as `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_aeon_essay_pre_draft_audience_structure_v1.0.0.md`. Mirror the Aeon-pitch Stage 1 brief structure but extend for essay-length: Aeon editorial-brain map (Haselby/Dresser; literary-philosophical / thought-experiment-tolerant; Mulgan/Sandel/MacAskill register); 14-character audience pressure-test set adapted from the pitch's; structure (likely 5–8 sections); voice register; apparatus exclusion list; Dunbar/Du Bois/Ellison/Fanon engagement plan (one of the existing aside variants at `manuscript/essay/aeon/aeon-essay-dunbar-aside-drafts_2026-05-08.md` lands in the essay body — pick which); **canonical factual ground truth section** covering Ch 7 closed-habitat thought-experiment specifics, Ch 8 McDowell case specifics (dates, facts, named subjects, scene-roles), and Ch 1 commute-case specifics (the 1,300-hour math, the named scenes, the directional facts the Noema Essay B got wrong if any reappear here).
+2. **Build the Stage 2 fresh-session handoff doc.** Save as `manuscript/essay/aeon/aeon-essay-session-handoff_<DATE>.md`. Mirror `manuscript/essay/aeon/aeon-session-handoff_2026-05-10.md` (the pitch's Stage 2 handoff). Make Path B preemptive policy explicit: do NOT open Ch 7, Ch 8, Ch 1, or any pitch version. Work only from the Stage 1 brief.
+3. **Trigger fresh-session Stage 2 audience-blind flow draft.** Output: `manuscript/essay/aeon/aeon-essay-fresh-session_<DATE>.md`.
+4. **Run Stage 3 as three distinct passes (per Amendment B), in this order:**
+   - **(a) Fact-check pass.** Audit the draft against the Stage 1 brief's canonical factual ground truth. Spot-fix factual drift by generating fresh prose from brief anchors — do NOT paste from Ch 7 / Ch 8 / Ch 1 (re-introduces Path B contamination). The fact-check pass is the designed counterweight to Stage 2's audience-blind freedom; the Noema test showed this is load-bearing.
+   - **(b) Voice-polish pass.** Catch expository flatness, meta-commentary, rule-of-three LLM tics (the Aeon Stage 3 verdict §1.6 itemizes the LLM-tic patterns to watch for — "Someone hauled in the lithium. Someone metered the water…" / "The river is free. So is the soil. So, somehow, is the air." / triplet-noun lists like "people, places, and futures"), em-dash crutches, hedge phrases, and any "stolen hours"-class diction that contradicts adjacent argument structure.
+   - **(c) Audience-load pass.** Audit against the Aeon-essay-specific audience pressure-test set built at Stage 1. Save as `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_aeon_essay_audience_load_v1.0.0.md`.
+
+   Three distinct passes. Bundling is the failure mode v2.0 prohibits.
+5. **Editor-collaboration phase, then final polish + AI disclosure.** Aeon's post-acceptance back-and-forth with the editor follows Stage 3; treat editor edits as a separate phase, not as part of Stage 3.
+6. **Path B preemptive policy throughout.** No source-chapter or pitch-version prose in front of any drafting session. Any sentence that reads as a source-chapter echo at Stage 3 fact-check gets rewritten freshly.
+
+**Cross-references.** v2.0 memory: `feedback_audience_aware_drafting_discipline.md`. Noema Stage 3 verdict (per-test basis for Amendments A + B; itemizes the factual-drift catalog this essay's Stage 1 brief must preempt): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` §3.8 + §6.1 + §7. Aeon Stage 3 verdict (per-test basis for Amendment C; confirms the regime distinction): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md` §5–§6.
 
 ---
 
