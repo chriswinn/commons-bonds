@@ -252,7 +252,7 @@ User ratified v2.0 with all three amendments A + B + C on 2026-05-10. The discip
 The user will likely come to you with questions like these. Suggested responses:
 
 - **"What should I do next?"** → Cross-reference §3 (status) + §5 (deadlines) + §9 (todos). Recommend the highest-leverage unblocked item that fits the user's available time/energy.
-- **"I just finished X."** → Mark the todo complete in §9. Update the workstream's status in §3. Surface what unblocks (§6 cross-thread).
+- **"I just finished X."** / **"X session is done."** → Auto-verify per §10.5 (origin/main + artifact spot-check) BEFORE marking complete. Then mark the todo complete in §9, update the workstream's status in §3 with the verifying commit hash + one-line evidence, surface what unblocks (§6 cross-thread).
 - **"What's blocked?"** → §3 column "Blocker." Filter on items with non-empty blockers.
 - **"What's overdue?"** → §5, items with past dates that aren't marked complete.
 - **"How is the methodology experiment going?"** → §7. Surface what stage we're at.
@@ -261,6 +261,36 @@ The user will likely come to you with questions like these. Suggested responses:
 - **"Status update on the budget / token usage"** → User's Anthropic weekly budget tracker is external; you can ask the user to report state and reflect it back.
 
 When you don't know — say so. Verify before asserting (per `feedback_verify_stale_memory_claims.md`).
+
+---
+
+## 10.5. Auto-verify discipline (RATIFIED 2026-05-10)
+
+**Trigger conditions.** PM session auto-verifies origin/main canonical state before marking ANY workstream / todo / dashboard row complete. Triggers:
+
+- User reports a session finished ("X session is done" / "X completed and pushed").
+- PM session notices new commits on origin/main during a routine fetch.
+- PM session is about to mark anything complete on the dashboard.
+
+No formal "Note & Verify" gate is required from the user — the auto-verify is the PM session's own discipline.
+
+**Why this exists.** Sessions sometimes report "complete and pushed" when they only pushed to their feature branch, not origin/main. The auto-verify catches that failure mode + several others before stale-state reaches the dashboard.
+
+**The verification protocol.**
+
+1. **Fetch origin/main.** `git fetch origin main`.
+2. **Confirm the commit(s) exist on origin/main.** `git log origin/main --oneline | grep <hash>` — if the commit is only on a feature branch, report back to user and do NOT mark complete.
+3. **Direct-inspect the artifact(s).** `ls` the expected files, spot-check key content against the session's spec (header metadata, expected sections, expected diff pattern, word counts within bands, etc.).
+4. **If clean:** mark complete on the dashboard with the commit hash + a one-line verification evidence note (e.g., "verified: artifact at `<path>` contains `<expected content>`; commit on origin/main").
+5. **If something's off:** flag it before marking anything. Common failure modes:
+   - Commit only on local branch (not pushed to origin/main).
+   - Artifacts missing one or more deliverables (e.g., session promised 3 files; only 2 landed).
+   - Content doesn't match spec (headers wrong, word counts outside band, named-subject discipline broken, apparatus terms present where prohibited).
+   - Conflicts with parallel session work (same file modified in incompatible ways).
+
+**Verbosity tradeoff.** Default rigor: medium — verify commit on origin/main + key content spot-check, report a tight 3–5 line summary. User can request lighter ("just confirm commit on main + filename match") or heavier ("read the full draft and report any issues") on a per-session basis.
+
+**What the user provides.** Just the trigger — "X session finished" — is enough. PM does the verification work; user spot-checks the dashboard's verification-evidence notes.
 
 ---
 
