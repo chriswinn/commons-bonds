@@ -252,6 +252,8 @@ User ratified v2.0 with all three amendments A + B + C on 2026-05-10. The discip
 - [x] **Proposal §05 chapter summaries — COMPLETE** 2026-05-11 (`733ba8e`). All 10 chapters covered; ~514w per chapter (5,137w total); drafting notes section appended. Pre-work for late-June book-proposal sprint landed.
 - [x] **Path B audit documentation patch — Ch 2 ↔ Ch 3 + Ch 3 ↔ Ch 8 priority pair** — COMPLETE 2026-05-11 (`9c189b3`). Fills the documentation gap in the Path B audit final-deliverable doc; Ch 2/Ch 3 priority pair coverage was always done but not previously written up.
 - [x] **Stale-reference sweep — central equation + Ch 7 illustrative-not-exhaustive** — COMPLETE 2026-05-11 (`42e8644`). Cleanup commit.
+- [x] **Narrow-sweep flagship-term defense paragraphs RATIFIED + INSERTED into chapters** — COMPLETE 2026-05-11. All 4 verdicts (a) INCLUDE as-is. Commits: Ch 2 Cost Severance (`8e61cd1`); Ch 5 Restitution + Foreclosure Bond (`caa987e`); Ch 6 Residual Commons Value (`1f3ad9c`). Results doc appended with ratification record (`28efce3`).
+- [x] **Widened flagship-terms-defense sweep — COMPLETE 2026-05-11** (`34dd5b6`). 7 widened terms audited: 4 GAP CONFIRMED + INCLUDE (CIT, ARR, Externality Tail, Abundance Masking); 3 NO GAP (Hotelling Identity, Cᵢ component set, three-method-convergence-for-RCV). Cumulative narrow + widened: 8/11 GAP + INCLUDE. 4 new draft defense paragraphs + audience-load rigor passes await author ratification.
 - [x] **Noema Essay B Stage 3 polish session** — COMPLETE 2026-05-10 (commit `44c66b6`). All 6 fact-fixes per verdict §6.1 + 2 voice improvements per §6.2 + §6.2.8 bundling-synthesis import applied. Verified directly: Pou/Pappou canonical scene replaces Tidewater backstory; air-compressor scene reconstructed; cursing-at-self reverted; bundling sentence in Section VI; locked Section I closing paragraph verbatim. Path B residual ~3–4 verbatim sentences (unchanged from pre-polish). Body word count 4,930w.
 
 ### User actions gating Noema submission
@@ -269,9 +271,10 @@ User ratified v2.0 with all three amendments A + B + C on 2026-05-10. The discip
 - [ ] **Cross-chapter consistency audit** (#10). **UNBLOCKED 2026-05-11** by #8 + #9 finishing.
 - [x] **Comp-titles deep matrix v0** (#11). **COMPLETE 2026-05-10** (4 commits).
 - [ ] **Comp-titles deep matrix v0 Phase 2** (#14). Just-in-time verification deferred work; future session.
-- [x] **Flagship-equation terminology defense sweep (narrow)** (#13). **COMPLETE 2026-05-11** (`f0cebe5`). 4/4 GAP CONFIRMED + WIDENING RECOMMENDED. **USER RATIFICATION needed on (a) the 4 draft defense paragraphs for chapter insertion AND (b) the widening recommendation.**
-- [ ] **Tech Appendix numbering reconciliation + chapter cross-reference re-validation** (#15). **UNBLOCKED 2026-05-11**. Layman-lookup discipline (named content + precise reference) book-wide standard via this workstream.
-- [ ] **Widened flagship-terms-defense sweep** (NEW, gated on author ratification of widening) — CIT, ARR, Hotelling Identity, Externality Tail, Abundance Masking, Cᵢ component set, three-method-convergence-for-RCV.
+- [x] **Flagship-equation terminology defense sweep (narrow)** (#13). **COMPLETE 2026-05-11** (`f0cebe5`). 4/4 narrow drafts ratified + inserted into chapters (Ch 2 / Ch 5×2 / Ch 6).
+- [ ] **Tech Appendix numbering reconciliation + chapter cross-reference re-validation** (#15). UNBLOCKED 2026-05-11. **IN FLIGHT on branch `claude/appendix-numbering-reconciliation-focused-heyrovsky-bc1016`** (no commits on main yet).
+- [x] **Widened flagship-terms-defense sweep** — COMPLETE 2026-05-11 (`34dd5b6`). 4/7 GAP CONFIRMED. **USER RATIFICATION needed on the 4 widened drafts (CIT, ARR, Externality Tail, Abundance Masking) for chapter insertion.**
+- [ ] **Cross-chapter consistency audit** (#10). UNBLOCKED 2026-05-11. **IN FLIGHT on branch `claude/cross-chapter-consistency-affectionate-brahmagupta-5db5f7`** (no commits on main yet).
 - [x] **Update manuscript-completion-handoff** to remove the stale "9 of 10 chapters; excluding Ch 3" header. **DONE 2026-05-10** (commit `5cd2c15`); Ch 3 row + title + status line + workstream scope + README "Excluded" → "Resolved exclusions" all updated cleanly.
 - [ ] **Bibliography engagement-pending → engaged flag updates** (#7 cross-thread item #3).
 - [ ] **Tech Appendix Phase 3 v2.0.0 rebuild** (#7 queued).
