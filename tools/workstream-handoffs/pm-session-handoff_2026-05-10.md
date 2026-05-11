@@ -249,6 +249,9 @@ User ratified v2.0 with all three amendments A + B + C on 2026-05-10. The discip
 - [x] **#13 Flagship-equation terminology defense sweep (narrow) — COMPLETE** 2026-05-11 (`f0cebe5`). **4/4 GAP CONFIRMED + WIDENING RECOMMENDED.** 4 draft defense paragraphs + 4 audience-load rigor passes landed; all 4 awaiting author ratification for chapter insertion.
 - [x] **#10 Cross-chapter consistency audit — UNBLOCKED** by #8 + #9 finishing.
 - [x] **Interview-attribution protocol v2 codification session — COMPLETE** 2026-05-11 (`998166f`). Recording-consent + jurisdiction-aware + EU/UK GDPR layers + post-interview correspondence template-set. Time-sensitive deadline met (before 2026-05-13 post-Darity workflow).
+- [x] **Proposal §05 chapter summaries — COMPLETE** 2026-05-11 (`733ba8e`). All 10 chapters covered; ~514w per chapter (5,137w total); drafting notes section appended. Pre-work for late-June book-proposal sprint landed.
+- [x] **Path B audit documentation patch — Ch 2 ↔ Ch 3 + Ch 3 ↔ Ch 8 priority pair** — COMPLETE 2026-05-11 (`9c189b3`). Fills the documentation gap in the Path B audit final-deliverable doc; Ch 2/Ch 3 priority pair coverage was always done but not previously written up.
+- [x] **Stale-reference sweep — central equation + Ch 7 illustrative-not-exhaustive** — COMPLETE 2026-05-11 (`42e8644`). Cleanup commit.
 - [x] **Noema Essay B Stage 3 polish session** — COMPLETE 2026-05-10 (commit `44c66b6`). All 6 fact-fixes per verdict §6.1 + 2 voice improvements per §6.2 + §6.2.8 bundling-synthesis import applied. Verified directly: Pou/Pappou canonical scene replaces Tidewater backstory; air-compressor scene reconstructed; cursing-at-self reverted; bundling sentence in Section VI; locked Section I closing paragraph verbatim. Path B residual ~3–4 verbatim sentences (unchanged from pre-polish). Body word count 4,930w.
 
 ### User actions gating Noema submission
