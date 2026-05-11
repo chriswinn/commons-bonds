@@ -1,7 +1,7 @@
 # Cost Severance Defense Paragraph — Draft v1.0.0
 
 **Date:** 2026-05-11
-**Status:** Stage 2 audience-blind draft + Stage 3 three-pass rigor (inline). Awaiting author ratification.
+**Status:** **RATIFIED 2026-05-11 — verdict (a)** (INCLUDE as-is). Paragraph inserted into Ch 2 between line 139 and line 141 (now at line 141 with subsequent prose shifted accordingly). See "Ratification record" at bottom of file for accepted final version.
 **Branch:** `claude/flagship-terms-defense-sweep-angry-swanson-4193a5`
 
 ---
@@ -124,3 +124,21 @@ The transition holds. The new paragraph closes by pointing forward at the bond i
 - No multi-paragraph essay; single body paragraph per the spec.
 - No arbitrary word-count target hit; substance-driven (~290 words; could trim to ~240 if author judges the cadence differently — flagging for author judgment).
 - No paraphrase of Ch 2 lines 131–139 (Path B preemptive policy); the paragraph generates fresh prose that argues the name-choice the existing prose only assumes.
+
+---
+
+## Ratification record (2026-05-11)
+
+**Author verdict:** (a) — INCLUDE as-is.
+
+**Ratification trail:**
+- Stage 2 audience-blind draft drafted 2026-05-11.
+- Stage 3 three-pass audit (fact-check, voice-polish, audience-load) run inline above.
+- Full include-vs-exclude audience-load comparison run against 20-character book-audience pressure-test set in [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_cost_severance_defense_paragraph_include_vs_exclude_audience_load_v1.0.0.md](../rigor-passes/commons_bonds_rigor_pass_2026-05-11_cost_severance_defense_paragraph_include_vs_exclude_audience_load_v1.0.0.md). Verdict: 16 of 20 INCLUDE; 4 NEUTRAL; 0 EXCLUDE.
+- Author ratified verdict (a) 2026-05-11.
+
+**Ratified final paragraph** (inserted verbatim into Ch 2):
+
+> The framework's choice of *cost severance* as the name for the mechanism this book has been documenting is a deliberate one. Other names were available — *externality*, *displacement*, *transfer*, *appropriation* — and each fails to carry the specific structural feature severance names. *Externality* names a cost that falls outside the transaction; it does not name who the cost falls on, or that someone specific is now carrying it, or that an architecture for accounting the carrying is missing. *Displacement* names that the cost has moved; it does not name that it was cut loose from a value-capturing party who declined to absorb it. *Transfer* names an active routing; what severance describes is what happens when no routing exists. *Appropriation* moralizes a structural mechanism into an actor's intent; the framework's diagnosis is that cost severance operates regardless of any specific party's intent, by the architecture of extraction-without-accountability. Severance names what the others do not. The word carries a borrowed payment-architecture: in employment, when an employer terminates a worker, severance pay discharges the residual obligation the employment relation has produced. The employer pays the worker for the cut tie. The framework's term applies the same logic to commons extraction — the same cut-tie structure — and surfaces what the prior names obscure: that the architecture of payment for cost severance is missing. Mariana Mazzucato names value-extraction's diagnosis; David Harvey names accumulation by dispossession; the framework adopts a third sister-term that points directly at the absent payment-instrument the other two leave the reader to imagine. Naming the missing architecture is what makes the bond proposing it possible.
+
+**Insertion site:** `manuscript/chapters/Chapter__2_TheMiner__Draft.md` — between the line ending *"...or fisheries in the Chesapeake Bay."* and the line beginning *"The phrase 'value extraction' carries an established lineage worth naming once at the moment we adopt it."*
