@@ -74,6 +74,8 @@ Plus a meta-experiment **complete** as of 2026-05-10: **two-stage drafting disci
 | 10 | **Cross-chapter consistency audit** | [cross-chapter-consistency-handoff](cross-chapter-consistency-handoff_2026-05-10.md) | NEW 2026-05-10. Terminology / numbers / cross-refs / citations. | Build canonical-terms inventory; scan for drift. | None blocking; lower-priority than #8/#9. | Fresh session |
 | 11 | **Comp-titles deep matrix** | [comp-titles-deep-matrix-handoff](comp-titles-deep-matrix-handoff_2026-05-10.md) | **COMPLETE 2026-05-10** (commits `519bbce` + `4860530` + `18a49af` + `d64a9ab`). 6 lead + 9 bench (15 total) with full per-comp matrix; Phase 1 web verification on Wylie cluster + Darity & Mullen pre-interview; Chalfant cross-thread reconciliation embedded. | Feeds book-proposal sprint (#5) §02 + agent target list (#6) per use-plan column of each entry. | None — completed. | — |
 | 12 | **Aeon essay (post-acceptance, two-stage)** | [aeon-essay-post-acceptance-two-stage-handoff](aeon-essay-post-acceptance-two-stage-handoff_2026-05-10.md) | **CONDITIONAL — DORMANT.** Stage 3 verdict landed 2026-05-10. **Cross-thread:** when this fires, apply discipline v2.0 (RATIFIED 2026-05-10) — Stage 1 enrichment with canonical Ch 7 facts required since the essay derives from Ch 7 (Path B risk identical to the Noema test). | Fires only after Aeon accepts the pitch (#1). | Aeon acceptance only (Stage 3 verdict no longer a blocker). | Future session post-trigger |
+| 13 | **Flagship-equation terminology defense sweep (narrow)** | [flagship-terms-defense-sweep-handoff](flagship-terms-defense-sweep-handoff_2026-05-11.md) | NEW 2026-05-11. Triggered by bond-defense work (commits `f5f905e` → `1c83753`) surfacing a generalizable gap pattern: foundational framework choices asserted but never defended in body prose. Narrow first over 4 terms (CS / RCV / Restitution Bond / Foreclosure Bond) before any widening. | Gap-audit per term; draft + 3-pass rigor pass for confirmed gaps; widening recommendation. | None blocking — workstream-ready. Complementary to #9 (apparatus = jargon decisions; this = "keep these names + justify them"). | Fresh session (paste-text drafted by PM) |
+| 14 | **Comp-titles deep matrix v0 Phase 2** | [comp-titles-deep-matrix-phase-2-handoff](comp-titles-deep-matrix-phase-2-handoff_2026-05-11.md) | NEW 2026-05-11 (commit `38dbc15`). Phase 1 v0 landed 2026-05-10 (#11 marked complete); Phase 2 is the just-in-time deferred verification work (specific BookScan numbers, blurb verification across full comp set, etc. — items marked `[verify]` in v0). | Resume verification on per-comp `[verify]` flags. | None blocking. | Future session |
 
 ---
 
@@ -221,7 +223,21 @@ User ratified v2.0 with all three amendments A + B + C on 2026-05-10. The discip
 - [x] **Bibliography §13 engagement-flag updates (cross-thread #3)** — COMPLETE 2026-05-10 (bundled into `519bbce`). Pistor / Christophers / Susskind (Growth) + Susskind (A World Without Work) all updated from "engagement pending" → specific section references with word counts. Cross-thread-todos item #3 ready to move to Resolved.
 - [x] **Apparatus register Item 1 — Ch 8 inline integral removed from trade prose** — COMPLETE 2026-05-10 (`d1f6e2d`). Plain-English summation + Tech Appendix cross-reference preserved. Surgical fix, no collateral damage.
 - [x] **Apparatus register Item 2 — Ch 6 formula lead-in tightened** — COMPLETE 2026-05-10 (`baf3776`). Defensive 35-word lead-in compressed to "a summary of the plain-English argument just made". Formula block + term translation kept (Ch 6 = methodology chapter, earns apparatus).
-- [x] **Apparatus register Item 3 — Ch 6 keep CS/IPG shorthand identities; fix subscript + encoding** — COMPLETE 2026-05-10 (`39a8416`). Apparatus bundle continues per-item.
+- [x] **Apparatus register Item 3 — Ch 6 keep CS/IPG shorthand identities; fix subscript + encoding** — COMPLETE 2026-05-10 (`39a8416`).
+- [x] **Apparatus register Item 4 — Ch 5 Deepwater B / RCV ≈ 0.40 symbol rewrite** — COMPLETE 2026-05-10 (`4d012fb`).
+- [x] **Apparatus register Item 5 — Ch 5 Restitution/Foreclosure Bond names; drop B₁/B₂ subscripts** — COMPLETE 2026-05-10 (`19e91d1`).
+- [x] **Apparatus register Item 6 — CSD acronym + residual B/B₁/B₂ subscript cleanup** — COMPLETE 2026-05-10 (`547346a`).
+- [x] **Apparatus register Item 7 — Ch 6 CIT acronym expanded → Commons Inversion Test** — COMPLETE 2026-05-11 (`4f32743`).
+- [x] **Apparatus register Item 8 — Ch 6 Hotelling Identity polish (Option C)** — COMPLETE 2026-05-11 (`067f5a1`).
+- [x] **Path B fix — Ch 5 ↔ Ch 6 Restitution Lineage clone resolved** — COMPLETE 2026-05-11 (`5643f70`).
+- [x] **Path B fix — Ch 2 ↔ Ch 6 ↔ Ch 8 Black Lung Trust Fund three-way echo resolved** — COMPLETE 2026-05-11 (`71146da`).
+- [x] **Ch 3 — Fox Hill / Biggie / Phat integration + register pass + VMRC date correction** — COMPLETE 2026-05-11 (`b5692f1`).
+- [x] **Phat consent package (inventory + document + process guide; Ch 3 extension; name framing + shop contact)** — COMPLETE 2026-05-11 (commits `585d535` + `721c094` + `9aee0af`). Package ready for user to take to Phat.
+- [x] **Bibliography §13 — Darity & Mullen *From Here to Equality* entry added** — COMPLETE 2026-05-11 (`629a25e`).
+- [x] **Post-Darity warm-intro discovery reframe + template-set (4 candidates: Kendi lead, Cook Center colleagues, Gates wildcard, Mullen implicit secondary)** — COMPLETE 2026-05-11 (`e24251a`). Cross-thread #2 reframed.
+- [x] **Sandy post-interview template — v2 protocol layers + warm-intro reframe** — COMPLETE 2026-05-11 (`cd094bb`). Refines the initial template per cross-thread #7 + #2.
+- [x] **Why-bonds umbrella-term justification paragraph (Ch 5 insertion)** — COMPLETE 2026-05-11 (commits `f5f905e` + `47bd6d4` + `2c8138f` + `1c83753`). Bond-defense methodology established; mirrored in workstream #13.
+- [x] **Comp-titles Phase 2 handoff stood up** — COMPLETE 2026-05-11 (`38dbc15`). Just-in-time verification deferred work; workstream #14.
 - [x] **Noema Essay B Stage 3 polish session** — COMPLETE 2026-05-10 (commit `44c66b6`). All 6 fact-fixes per verdict §6.1 + 2 voice improvements per §6.2 + §6.2.8 bundling-synthesis import applied. Verified directly: Pou/Pappou canonical scene replaces Tidewater backstory; air-compressor scene reconstructed; cursing-at-self reverted; bundling sentence in Section VI; locked Section I closing paragraph verbatim. Path B residual ~3–4 verbatim sentences (unchanged from pre-polish). Body word count 4,930w.
 
 ### User actions gating Noema submission
@@ -234,10 +250,12 @@ User ratified v2.0 with all three amendments A + B + C on 2026-05-10. The discip
 
 ### Substantive backlog (no specific date — sequence based on user priority + dependencies)
 
-- [ ] **Path B audit** all 10 chapters (#8). Coordinate with #9.
-- [ ] **Apparatus register decision sweep** (#9). Coordinate with #8.
-- [ ] **Cross-chapter consistency audit** (#10). Lower priority.
-- [ ] **Comp-titles deep matrix v0** (#11). Foundational for #5 + #6.
+- [ ] **Path B audit cross-chapter** (#8) — IN FLIGHT, substantive progress (2 fixes landed: Ch 5↔Ch 6 Restitution Lineage; Ch 2↔Ch 6↔Ch 8 Black Lung). Priority pairs Ch 5↔Ch 9 + Ch 1↔Ch 10 not yet addressed. Bundle branch still live.
+- [ ] **Apparatus register decision sweep** (#9) — IN FLIGHT, substantive progress (8 items landed; Ch 5, Ch 6, Ch 8 covered). Ch 9 + Tech Appendix coverage gaps. No standalone inventory file produced yet. Bundle branch still live.
+- [ ] **Cross-chapter consistency audit** (#10). Lower priority. Blocked on #8/#9.
+- [x] **Comp-titles deep matrix v0** (#11). **COMPLETE 2026-05-10** (4 commits).
+- [ ] **Comp-titles deep matrix v0 Phase 2** (#14). Just-in-time verification deferred work; future session.
+- [ ] **Flagship-equation terminology defense sweep (narrow)** (#13). Paste-text drafted; workstream-ready.
 - [x] **Update manuscript-completion-handoff** to remove the stale "9 of 10 chapters; excluding Ch 3" header. **DONE 2026-05-10** (commit `5cd2c15`); Ch 3 row + title + status line + workstream scope + README "Excluded" → "Resolved exclusions" all updated cleanly.
 - [ ] **Bibliography engagement-pending → engaged flag updates** (#7 cross-thread item #3).
 - [ ] **Tech Appendix Phase 3 v2.0.0 rebuild** (#7 queued).

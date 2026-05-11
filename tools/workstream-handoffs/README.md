@@ -30,6 +30,13 @@
 | Comp-titles deep matrix v0 | `comp-titles-deep-matrix-handoff_2026-05-10.md` | `claude/comp-titles-deep-matrix-` |
 | Aeon essay (post-acceptance, two-stage) — CONDITIONAL | `aeon-essay-post-acceptance-two-stage-handoff_2026-05-10.md` | `claude/aeon-essay-drafting-` |
 
+### Added 2026-05-11 (terminology-defense sweep + comp-titles Phase 2)
+
+| Workstream | Handoff file | Recommended branch prefix |
+|---|---|---|
+| Flagship-equation terminology defense sweep (narrow) | `flagship-terms-defense-sweep-handoff_2026-05-11.md` | `claude/flagship-terms-defense-sweep-` |
+| Comp-titles deep matrix v0 Phase 2 (just-in-time verification deferred) | `comp-titles-deep-matrix-phase-2-handoff_2026-05-11.md` | `claude/comp-titles-deep-matrix-phase-2-` |
+
 ### Special-case fresh-session handoffs (not workstream-handoffs; one-shot driving Stage-2 drafting)
 
 These are stored elsewhere because they target a specific fresh-session task (Stage 2 of the two-stage discipline experiment) rather than a long-running workstream:
