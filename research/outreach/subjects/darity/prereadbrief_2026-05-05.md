@@ -39,3 +39,10 @@ I'd like to quote you in the book and in any derivative essays (a *Noema*-track 
 ---
 
 *Author / Claude internal note (not sent to Darity): this section is the pre-interview comms half of the attribution-handling discipline; the live-interview Q0 (asked verbally at the start of the call) is the second half. Reusable protocol at `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md`. Live Q0 verbal phrasing in the protocol's §"Live interview" section.*
+
+---
+
+## Update Log
+
+- **2026-05-05.** Brief drafted ahead of Darity 2026-05-12 interview ask.
+- **2026-05-10.** No content change to this brief. The interview-attribution protocol expanded to v2 on 2026-05-10 (adding Q0(a) recording-consent layer, jurisdiction-aware variants, and EU/UK pre-interview privacy-notice layer for non-US subjects). Sandy's 2026-05-12 interview is **grandfathered under v1 of the protocol** — the brief had already been sent under v1 framing, and the cross-NC/VA jurisdiction is one-party / one-party so the v1 attribution-only Q0 was sufficient on its own. The audio-recording consent will still be asked verbally at the start of the call as a matter of practice (and so the verbal yes is on tape regardless). Future Darity correspondence (if any) and any second interview will operate under v2. Post-call confirmation email to be drafted from `research/outreach/subjects/darity/post-interview-confirmation-email_template_2026-05-10.md` (US one-party jurisdiction variant of the master template).

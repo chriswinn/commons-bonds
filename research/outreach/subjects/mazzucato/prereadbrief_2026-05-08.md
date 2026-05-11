@@ -28,9 +28,13 @@
 4. **Financialization + the bond architecture.** *The Big Con* and your broader financialisation critique: does the *bond* form risk reading as a financialised vehicle that recapitulates rentier dynamics, or does the conditional-return structure (posted / returned / forfeited) do enough work to distinguish it?
 5. **Reading recommendations.** What in your work — *Common Good Economy* in particular — or others' would most sharpen the framework's positioning?
 
-## On attribution
+## On attribution and on the recording itself
 
 I'd like to quote you in the book and in any derivative essays (a *Noema*-track essay is in development). Scholars handle attribution differently — some prefer freely-quotable interview answers, others prefer paraphrase + attribution unless reviewed in advance, others ask for transcript review before any quoting. **I'll plan to ask about your preference as the first thing in our conversation, before any of the framework questions** — so we have clear ground rules from the start. Whatever works for you, I'll abide by it across the book and essays.
+
+I'd also like to make a working audio recording of the conversation so I can quote and paraphrase you accurately when I write. **I'll ask explicitly for your verbal consent to record at the very start of the call, before we get into anything substantive** — and I'll honor whichever way you answer.
+
+Because you're based in the UK, I'm sending a short data-protection note separately, ahead of the call, covering how I'll handle the audio, the transcript, and our correspondence under UK GDPR + the Data Protection Act 2018 (Article 85 journalism / literary exemption invoked). The note is plain-language, not legalese — partly a courtesy, partly because UK GDPR asks me to share it in writing. The note is informational; the verbal recording-consent and attribution-preference questions at the start of the call are still where the actual ground rules get set.
 
 ---
 
@@ -38,4 +42,4 @@ I'd like to quote you in the book and in any derivative essays (a *Noema*-track 
 
 ---
 
-*Author / Claude internal note (not sent): pre-interview comms half of the attribution-handling discipline; live-interview Q0 (asked verbally at the start of the call) is the second half. Reusable protocol at `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md`.*
+*Author / Claude internal note (not sent): this brief is the pre-interview comms instance for Mazzucato under the v2 interview-attribution + consent protocol. Three protocol layers apply: (1) Q0(a) recording-consent verbal yes/no at start of call; (2) Q0(b) attribution-preference Category 1–4 selection at start of call; (3) GDPR / UK GDPR pre-interview privacy notice sent in advance per `research/outreach/_protocols/pre-interview-privacy-notice-eu-uk_2026-05-10.md` (UK subject; UK GDPR + DPA 2018; Article 85 journalism / literary exemption invoked). Reusable protocol at `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` (v2 from 2026-05-10). Post-call confirmation email to be drafted from `research/outreach/subjects/mazzucato/post-interview-confirmation-email_template_2026-05-10.md` (EU/UK jurisdiction variant of the master template).*

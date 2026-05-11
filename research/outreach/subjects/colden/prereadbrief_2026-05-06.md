@@ -21,10 +21,16 @@
 
 The 5–8 questions I'd plan to ask are in the companion document. In short: they open at framework level (does *cost severance* vocabulary do work that fisheries-policy vocabulary doesn't, and where does it overreach or underreach on Bay-specific terrain?), move to your structural read on the institutional-failure pattern (ASMFC / DNR), drop to specific empirical anchors (which species crossed the regenerative threshold and which are still reversible?), engage your public record on sanctuaries, open the human/community layer (does the chapter's read on watermen describe accurately what's happened?), widen to the Maryland-Virginia jurisdictional divide, and close with an explicit invitation to correct framework misfires.
 
-## On attribution
+## On attribution and on the recording itself
 
 I'd like to quote you in the book and in any derivative *Noema*-track essay (a separate *Aeon*-track essay covers different terrain and wouldn't draw on this interview). Scholars handle attribution differently — some prefer freely-quotable interview answers, others prefer that interview material be paraphrased + attributed unless reviewed in advance, others ask for transcript review before any quoting. Whatever works for you, please let me know at the start of our conversation; I'll abide by it across the book and essay.
+
+I'd also like to make a working audio recording of the conversation so I can quote and paraphrase you accurately when I write. Maryland is an all-party-consent jurisdiction for call recording, so I'll ask for your explicit verbal yes at the very start of the call before any substantive content is on tape, and I'll record my own consent on the file as well. If you'd rather we proceed without a recording, that's fine — I'll switch to hand-notes only.
 
 ---
 
 *~30 minutes is what I'd planned for. I'll defer to whatever fits your day.*
+
+---
+
+*Author / Claude internal note (not sent to Colden): this brief is the pre-interview comms instance for Colden under the v2 interview-attribution + consent protocol. Two protocol layers apply: (1) Q0(a) recording-consent verbal yes/no at start of call — **legal floor under MD two-party-consent** (Md. Cts. & Jud. Proc. §10-402); cross-jurisdictional (MD ↔ VA), default-to-stricter rule applies, so explicit consent on tape from both sides is required, not optional. (2) Q0(b) attribution-preference Category 1–4 selection at start of call. Layer 3 (EU/UK privacy notice) does NOT apply (US subject). Reusable protocol at `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` (v2 from 2026-05-10). Post-call confirmation email to be drafted from `research/outreach/subjects/colden/post-interview-confirmation-email_template_2026-05-10.md` (US two-party jurisdiction variant of the master template; references the Val DiMarzio gatekeeper routing).*

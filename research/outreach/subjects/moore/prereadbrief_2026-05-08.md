@@ -25,10 +25,16 @@
 4. **Watermen-voice routing.** The chapter cannot land without working / retired Virginia watermen on the page. Beyond what Sherfinski may already be routing, who would you point me at — Tangier captains, Northern Neck wild-harvest, oyster aquaculture operators?
 5. **Reading recommendations.** What in your work — or others' — would most sharpen the chapter's positioning?
 
-## On attribution
+## On attribution and on the recording itself
 
 I'd like to quote you in the book and in any derivative *Noema*-track essay. Scholars and practitioners handle attribution differently — some prefer freely-quotable interview answers, some prefer paraphrase + attribution unless reviewed in advance, others ask for transcript review before any quoting. I'll plan to ask about your preference at the start of our conversation; whatever works for you, I'll abide by it across the book and any essay.
+
+I'd also like to make a working audio recording of the conversation so I can quote and paraphrase you accurately when I write. Both ends of the call are in Virginia, which is a one-party-consent jurisdiction, so the recording is lawful on my own consent — but I'll still ask for your explicit verbal yes at the very start of the call as a matter of practice, and I'll honor whichever way you answer.
 
 ---
 
 *~30 minutes is what I'd planned for, phone / video / in-person — I'm in Hampton, so anywhere in Virginia is straightforward. I'll defer to whatever fits your day.*
+
+---
+
+*Author / Claude internal note (not sent to Moore): this brief is the pre-interview comms instance for Moore under the v2 interview-attribution + consent protocol. Two protocol layers apply: (1) Q0(a) recording-consent verbal yes/no at start of call — **best-practice under VA one-party-consent** (Va. Code §19.2-62; both ends in VA, so single-jurisdiction simple case); verbal yes on tape still recorded for clean documentation. (2) Q0(b) attribution-preference Category 1–4 selection at start of call. Layer 3 (EU/UK privacy notice) does NOT apply (US subject). Reusable protocol at `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` (v2 from 2026-05-10). Post-call confirmation email to be drafted from `research/outreach/subjects/moore/post-interview-confirmation-email_template_2026-05-10.md` (US one-party jurisdiction variant of the master template; references the David Sherfinski gatekeeper routing).*
