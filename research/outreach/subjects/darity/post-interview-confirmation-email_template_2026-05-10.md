@@ -3,9 +3,9 @@
 **Created:** 2026-05-10 (PM session)
 **Purpose:** Template for the post-interview confirmation email to Sandy Darity. Adapt placeholders after the May 12 14:00 ET call. Send within 1–3 days post-call.
 
-**Why send this:** The interview-attribution-protocol's verbal Q0 + audio recording is sufficient consent on its own. This email is a belt-and-suspenders move — creates a written paper trail that paraphrases the verbal record, gives Sandy a chance to refine, and is the kind of documentation publishing-house permissions teams will appreciate when the trade contract phase arrives. Costs ~10–15 minutes of writing; reduces friction later.
+**Why send this:** The interview-attribution-protocol's verbal Q0 + audio recording is sufficient consent on its own. The post-interview email is a belt-and-suspenders move that the v2 protocol now standardizes — a written paper trail that paraphrases the verbal record, confirms the recording-handling and applicable-law layers, gives Sandy a chance to refine, and supplies the kind of documentation publishing-house permissions teams will appreciate when the trade contract phase arrives. Costs ~15 minutes of writing; reduces friction later.
 
-**Scope of this template:** Confirms attribution preferences + any specific quotes the author plans to highlight + publication scope + Mullen warm-intro disposition. Does NOT do a full transcript review (that's a separate Category-3 ask if Sandy chose Category 3).
+**Scope of this template (v2-aligned):** Confirms five things in writing — (1) attribution preference plus any specific quotes the author plans to highlight, (2) recording-handling, (3) applicable-law / jurisdiction, (4) publication scope, and (5) warm-intro indications surfaced in the conversation. Layer (3) is brief for Sandy: NC (his end) and VA (author's end) are both single-party-consent jurisdictions for telephone recording, and **no EU/UK privacy-notice attachment applies** — the third v2 layer is N/A here, included only as a placeholder for non-US subjects when this template is generalized. Layer (5) supersedes the older Mullen-specific framing; the full 4-candidate activation pipeline lives at [`publishing/agents/post-darity-warm-intro-templates_2026-05-10.md`](../../../../publishing/agents/post-darity-warm-intro-templates_2026-05-10.md). Does NOT do a full transcript review (that's a separate Category-3 deliverable if Sandy chose Category 3).
 
 ---
 
@@ -16,7 +16,7 @@
 
 Sandy,
 
-Thank you again for the conversation on Monday. [Optional: one specific personal grace note — something he said that landed for you, or a connection you made that matters. Keep it brief and genuine. Avoid flattery; aim for "this was a real exchange."]
+Thank you again for our conversation Tuesday afternoon. [Optional: one specific personal grace note — something he said that landed for you, or a connection you made that matters. Keep it brief and genuine. Avoid flattery; aim for "this was a real exchange."]
 
 I want to put a few things from our call into writing — partly so you have a record of what we agreed to, partly because the trade publisher I'll eventually contract with will likely appreciate the documentation when their permissions team takes a look down the road.
 
@@ -34,6 +34,10 @@ I'll abide by that across the book *Commons Bonds* and any derivative essays. Sp
 
 [IF CATEGORY 4 — off-record entirely:] *Our conversation will inform the framework but won't be cited in the book or essays. Your name won't appear as a source. I appreciate the time and the substance regardless; the conversation has already shaped my thinking.*
 
+**On the recording.** As we noted at the start of the call, our conversation was audio-recorded with your verbal consent. The file sits on my own working devices — not a cloud service — and is used only to produce an accurate working transcript for the materials above. Once your attribution review (if any) and the relevant manuscript work are complete, I'll delete the audio and let you know here that it's done. If you'd prefer it gone sooner, say the word and I'll delete it now.
+
+**On applicable law.** The call took place under single-party-consent recording rules on both ends (you in North Carolina, me in Virginia), so the attribution and recording handling laid out above will govern accordingly. If your institution or anyone on your side would prefer an additional written form for permissions records, tell me what's wanted and I'll provide it.
+
 **On publication scope.** The materials drawing on our conversation will likely include:
 
 - **The book** *Commons Bonds* — trade publisher TBD, target publication 2026–2027.
@@ -43,11 +47,18 @@ I'll abide by that across the book *Commons Bonds* and any derivative essays. Sp
 
 If a future use surfaces that's substantially different from this scope, I'll loop back to you before publishing.
 
-**On A. Kirsten Mullen.** [ADAPT TO HOW THE CONVERSATION WENT:]
+**On warm-intro indications.** Late in our conversation I asked who in your network you thought would find this framework interesting. [ADAPT IN 1–3 SENTENCES TO WHAT SANDY ACTUALLY SURFACED — name the candidate(s) he raised, quote or paraphrase the framing he used, and acknowledge any nuance about who is or isn't a good fit right now. If he demurred or the question landed without specifics, say that plainly and note you'll revisit only if and when it makes sense.]
 
-[IF SANDY SIGNALED OPENNESS to facilitating an introduction:] *You mentioned [PARAPHRASE THE OPENING HE OFFERED]. I'd value the chance to talk with Kirsten about [her work in The American Prospect / the Lancet Commission / her broader writing — whichever angle Sandy framed most warmly]. Whenever it works for both of you, I'd appreciate a warm-intro email; I can take it from there.*
+Rather than guess at next steps, I've drafted short forwarding notes (for you to send) and direct-email versions (only if you'd rather I write directly) for the candidates likeliest to come up given your network. The checklist below is meant to be easy to mark up — please check, annotate, strike, or replace anything:
 
-[IF SANDY DEMURRED OR THE TOPIC DIDN'T SURFACE NATURALLY:] *No follow-up needed on that front from this end. If at any point Kirsten and I should connect for the project, I'd welcome the introduction; otherwise I won't press it.*
+- [ ] **Ibram X. Kendi** *(lead candidate — he blurbed* From Here to Equality *)* — happy to send you a short forwarding note for your approval first.
+- [ ] **Cook Center colleague:** _______________________ *(name a specific person if one came up)* — same handling.
+- [ ] **Henry Louis Gates Jr.** *(only if the Harvard / PBS / Hutchins-network angle came up in our call)* — same handling.
+- [ ] **A. Kirsten Mullen** *(only if she came up naturally; not the lead)* — same handling.
+- [ ] **Someone else you named:** _______________________ — same handling.
+- [ ] **No warm-intro path right now** — happy to leave it; I'll revisit only if it surfaces naturally.
+
+I won't write to anyone on this list until you've given me a green light (or forwarded yourself); if any of these are wrong for any reason, just strike them.
 
 **On staying in touch.** I'll send the relevant Noema-essay material to you per the attribution preference we agreed to, ahead of submission. If anything I send doesn't sit right, please tell me — either by email or by phone if it's easier. I'd rather rework prose than have anything go to print that you'd want different.
 
@@ -61,15 +72,17 @@ Chris
 ## Notes for the author
 
 - Customize aggressively. This is a template, not a form letter. The grace notes and the substantive feedback line are what make it read as personal correspondence rather than legal paperwork. If you can't think of one, ask a friend who was there in spirit.
-- Send within 1–3 days of the call while it's still fresh in both your minds.
+- Send within 1–3 days of the call while it's still fresh in both your minds (target window for this instance: 2026-05-13 to 2026-05-15).
 - If Sandy chose Category 2 or 3 verbally but you're unsure exactly which, lean toward Category 2 in the email and ask him to confirm or clarify in his reply. He gets to choose; don't lock him into something tighter than what he said.
-- Keep your records: file Sandy's reply at `research/outreach/subjects/darity/post-interview-correspondence_<DATE>.md` along with a note on the chosen category for the project's interview-attribution log.
-- Update the PM dashboard's Darity-related todos (interview conducted; post-call synthesis; Mullen warm-intro activated/declined) once the email is sent and Sandy replies.
+- For the warm-intro section, fill in only the candidates who actually came up — don't pre-populate names Sandy didn't surface. The checklist is a low-friction surface for him to refine, not a menu of asks. The full forwarding-note and direct-email templates for each candidate live at [`publishing/agents/post-darity-warm-intro-templates_2026-05-10.md`](../../../../publishing/agents/post-darity-warm-intro-templates_2026-05-10.md); send the (A) forwarding variant for Sandy's approval first, never the (B) direct variant before Sandy has cleared the introduction.
+- Keep your records: file Sandy's reply at `research/outreach/subjects/darity/post-interview-correspondence_<DATE>.md` along with a note on the chosen attribution category, the recording-handling agreement, and any warm-intro outcomes for the project's interview-attribution log.
+- Update the PM dashboard's Darity-related todos (interview conducted; post-call synthesis; warm-intro candidates activated/declined) once the email is sent and Sandy replies.
 
 ## When this template should be revised
 
 - After Sandy's reply, if he asks for changes — capture his refinements and update this template's annotations so future interviews benefit from what you learn.
-- After the publishing-protocol-update session lands (separate workstream — see `cross-thread-todos.md` item TBD), this template may need to add jurisdictional / GDPR language for non-US subjects. For Sandy specifically (NC, US), no such additions needed.
+- When generalizing this template for non-US subjects, the EU/UK privacy-notice layer needs to be added (currently N/A for Sandy because both ends of the call were US single-party-consent jurisdictions). The recording-handling and applicable-law sections are already v2-aligned and need only their jurisdiction strings updated per subject.
+- If post-Darity outcomes change the warm-intro candidate set (e.g., new candidate becomes lead, Kendi declines, etc.), update both the checklist here and the underlying template-set at `publishing/agents/post-darity-warm-intro-templates_2026-05-10.md` in lockstep.
 
 ---
 
