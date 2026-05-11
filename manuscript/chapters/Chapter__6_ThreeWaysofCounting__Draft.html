@@ -275,14 +275,14 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2em 0; }
      RCV(R, t₀) = &int; from t₀ to &infin; &nbsp;{ [1 &minus; S(t | t₀)] &sdot; U(R, t, Q(t)) + E(R, t) } &sdot; D(t, t₀) dt
     </p>
     <p>
-     The integral sign announces that we are summing contributions across all future time. The bracketed expression inside is the per-period cost: what is lost in year t, discounted back to year tₔ, weighted by how likely it is that anything in that year can substitute for the lost resource.
+     The integral sign announces that we are summing contributions across all future time. The bracketed expression inside is the per-period cost: what is lost in year t, discounted back to year t₀, weighted by how likely it is that anything in that year can substitute for the lost resource.
     </p>
     <p>
      Translate term by term:
     </p>
     <ul>
      <li>
-      [1 &minus; S(t | tₔ)]&nbsp;is the probability that no adequate substitute exists at time t, given that extraction occurred at tₔ. If S =&nbsp;1 (perfect substitute exists), this term is zero and the foreclosure cost vanishes for that period. If S =&nbsp;0 (no substitute), this term is 1 and the full foreclosure cost counts.
+      [1 &minus; S(t | t₀)]&nbsp;is the probability that no adequate substitute exists at time t, given that extraction occurred at t₀. If S =&nbsp;1 (perfect substitute exists), this term is zero and the foreclosure cost vanishes for that period. If S =&nbsp;0 (no substitute), this term is 1 and the full foreclosure cost counts.
      </li>
      <li>
       U(R, t, Q(t))&nbsp;is the utility future generation t&nbsp;derives from having one unit of R&nbsp;available in situ, given the remaining stock Q&nbsp;at time t. As stock depletes, U rises because each remaining unit becomes more valuable.
@@ -291,7 +291,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2em 0; }
       E(R, t)&nbsp;is the externality flow at time t: ongoing health damage, remediation costs, climate damage, community disruption. This term runs independently of substitutability and independently of the resource having been extracted to depletion.
      </li>
      <li>
-      D(t, tₔ)&nbsp;is the social discount factor, following Weitzman&rsquo;s declining-rate framework: under uncertainty about the long-horizon discount rate, the certainty-equivalent rate declines toward the lowest plausible rate. This is a technical move but a principled one: it converts an unresolvable philosophical question (what is the correct discount rate?) into a treatable empirical one (given uncertainty, what is the certainty-equivalent?).
+      D(t, t₀)&nbsp;is the social discount factor, following Weitzman&rsquo;s declining-rate framework: under uncertainty about the long-horizon discount rate, the certainty-equivalent rate declines toward the lowest plausible rate. This is a technical move but a principled one: it converts an unresolvable philosophical question (what is the correct discount rate?) into a treatable empirical one (given uncertainty, what is the certainty-equivalent?).
      </li>
     </ul>
     <p>
