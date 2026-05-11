@@ -73,6 +73,15 @@
 - **Context:** The post-acceptance essay derives from Ch 7 — Path B contamination risk identical to the Noema test that just validated Amendment A. Stage 1 brief must include canonical Ch 7 facts (not just beats); Stage 3 must include the fact-check pass. Update `tools/workstream-handoffs/aeon-essay-post-acceptance-two-stage-handoff_2026-05-10.md` to reference v2.0 application rule.
 - **Target resolution:** before Aeon essay post-acceptance session fires (only fires if Aeon accepts the pitch).
 
+### 8. Comp-titles deep matrix — Phase 2 web verification (just-in-time before Wave 1)
+
+- **Surfaced by:** comp-titles deep matrix workstream (2026-05-11 session-end handoff)
+- **For-thread:** comp-titles deep matrix Phase 2 session (when it fires)
+- **Status:** open (dormant until trigger; **suggested fire date early-to-mid July 2026**, i.e., 2-3 weeks before Wave 1 query Wave goes out)
+- **Context:** Phase 1 verification (2026-05-10) closed the load-bearing agent-pipeline questions: Mazzucato/Wylie anchor confirmed; Tooze/Wylie/Chalfant confirmed; Sandel-on-Wylie falsified; Felicity-Bryan/Susskind falsified; Pistor + Christophers likely no-trade-agent. Phase 2 remaining cells are **matrix polish for deployment** — acquiring-editor IDs at 4 lead imprints (Public Affairs / Princeton UP / Verso / Belknap-Harvard), Sandel agent ID (FSG lane), sales-arc verification (Mazzucato + Pistor + Christophers + Tooze), Chalfant-vs-Bohan close (if cross-thread-todos #1 hasn't resolved by then), review-outlet network expansion for marketing plan §04. **Why deferred:** just-in-time intel beats ahead-of-time intel for fast-moving fields like editor identities + sales arcs + reviewer-of-record. Wave 1 query target is late July / early August 2026 — researching now means data partially decays before deployment. Full handoff at `tools/workstream-handoffs/comp-titles-deep-matrix-phase-2-handoff_2026-05-11.md`.
+- **Budget at trigger time:** ~5-6h if all cells still open; **collapses to ~2-3h if parallel sessions close Priorities 4 + 5 + some of 1** before trigger fires.
+- **Target resolution:** before Wave 1 query goes out (target late July / early August 2026). Hard prerequisite for marketing plan §04 deployment if §04 hasn't been deepened by parallel sessions in the meantime.
+
 ---
 
 ## Resolved
