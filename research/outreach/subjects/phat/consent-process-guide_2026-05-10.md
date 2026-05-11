@@ -5,6 +5,7 @@
 **Companion artifacts in this folder:**
 - `phat-mentions-inventory_2026-05-10.md` — the catalog of every place Phat appears, anonymized or named.
 - `phat-consent-document_2026-05-10.md` — the signable consent document.
+- `ch3-preview-package_2026-05-10.md` — the Chapter 3 excerpt (Fox Hill + Biggie + Phat sections) to be shown to Phat alongside the *Noema* Section VI excerpt. Print the "Phat-facing content" pages from that file.
 
 ---
 
@@ -30,7 +31,11 @@ The preview package is what Phat reads before signing. Keep it small. The whole 
    - **How to highlight:** mark line 137 (the paragraph beginning "There was also a crabber and fisherman...") so Phat sees immediately which paragraph is about him.
    - **Show the diff.** On a separate page, paste both the current anonymized version of line 137 and the proposed named version (per `phat-mentions-inventory_2026-05-10.md` Edit 1). Side by side, so he can see exactly what would change if he signs.
 
-2. **Excerpt #2 — none required as of 2026-05-10.** The mentions inventory verifies that Phat does not appear in any chapter of the manuscript, in any op-ed, or in any other publisher-facing essay. The *Noema* Section VI is the only publisher-facing prose containing material about him. (If the author adds Phat to a future chapter or essay before the consent conversation happens, regenerate the inventory and add the new excerpt to the packet.)
+2. **Excerpt #2 — Chapter 3 of the book *Commons Bonds*.** The Fox Hill establishing block + the Biggie portrait + the Phat portrait, with a side-by-side comparison showing the disclaimer sentences that would be removed if Phat signs.
+   - **Source file:** `research/outreach/subjects/phat/ch3-preview-package_2026-05-10.md` (the Phat-facing pages within this file are the printable excerpt).
+   - **Approximate length:** 2,100 words. Reading time about 12-15 minutes.
+   - **Why these three sections together rather than just the Phat portrait:** Phat sees the framing he sits within. Section 1 establishes the Fox Hill community (his community). Section 2 introduces the man called Biggie (the figure he is being shown alongside; the chapter's register applied to a deceased man known to the author's father). Section 3 is about him.
+   - **How to highlight:** the Phat-facing content marks Section 3 explicitly with "[ABOUT YOU]" and includes a final comparison page showing current vs. proposed-if-signed prose.
 
 3. **A one-page project framing.** A single-page plain-English description of what the book is, why you are writing it, and why Phat is in it. Two or three short paragraphs. Something like:
 
@@ -46,12 +51,13 @@ The preview package is what Phat reads before signing. Keep it small. The whole 
 
 ### Total packet length
 
-About 12 pages, generously formatted, single-sided. Phat can read it in a single sitting at a kitchen table. He can take it home if he wants to think before signing. Both are fine.
+About 18-22 pages, generously formatted, single-sided. The Noema Section VI excerpt is about 4 pages; the Chapter 3 excerpt is about 8-10 pages; the project framing is 1 page; the consent document is 5-6 pages (two copies). Phat can read it in a single sitting at a kitchen table, though it is a longer read than the original Noema-only packet — call it 25-35 minutes of reading time including the diffs. He can take it home if he wants to think before signing. Both are fine.
 
 ### What stays out of the packet
 
 - The rest of the *Noema* essay (the 4,000-plus words about NIH, Norway, Mondragon, the Darity wealth-gap section). If Phat asks, the author can describe these verbally or send the full essay separately. Default: do not lead with it.
-- The book chapters. Phat is not in them.
+- The rest of Chapter 3 (the analytical material about rockfish, blue crabs, menhaden, the watershed, the recovery paradox, Norway as comparison). Phat does not appear in any of that material. If he asks, the author can describe it verbally.
+- The other book chapters (Ch 1, Ch 2, Ch 4-10). Phat does not appear in any of them.
 - The mentions inventory and this process guide. These are author-facing working files. Phat does not need them.
 - The primary-source oral-history dump (`research/story-drafts/ch3_fox-hill-watermen-biggie-phats_2026-05-09.md`). That file contains internal-use detail about the author's father's recollections, sift notes, framework intersections — none of which is part of what Phat is being asked to consent to.
 
@@ -138,17 +144,20 @@ If Phat is alive but has had a major change of circumstances (illness, loss of c
 ### If Phat signs
 
 1. **File the signed consent.** Take a photo or scan the signed document. Save the file at `research/outreach/subjects/phat/signed-consent_<YYYY-MM-DD>.md` (a markdown file with the photo embedded, or a PDF or image file at the same path). Filing the consent is the trigger for everything else.
-2. **Apply the three edits to the *Noema* essay** per `phat-mentions-inventory_2026-05-10.md` "If consent signed — exact edit list." (Body line 137 + frontmatter line 9 + frontmatter line 4.)
-3. **Update PM dashboard §9** (`tools/workstream-handoffs/pm-session-handoff_2026-05-10.md`) — mark USER ACTION 1 + 2 complete with the signing date and a one-line evidence note pointing at the signed-consent file.
-4. **Update the named-subject-consent memory** (`/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_named_subject_consent.md`) — add a status note in the Why or How-to-apply section recording that Phat's consent landed on [DATE], so future sessions don't re-anonymize him.
-5. **Submit the *Noema* essay** to `edit@noemamag.com` per the submission window (late May / early June 2026).
+2. **Capture his print-form preference** for his name (full given name / short form *Phat* / with or without Vietnamese diacritic / full legal name as on ID). Note it on the signed-consent file. This is the form that gets applied to all edits in step 3 and step 4.
+3. **Apply the three edits to the *Noema* essay** per `phat-mentions-inventory_2026-05-10.md` "If consent signed — exact edit list" Edits 1-3. (Body line 137 + frontmatter line 9 + frontmatter line 4.)
+4. **Apply the two edits to Chapter 3** per the same inventory file, Edits 4-5. (HTML flag at line 131 + paragraph swaps at lines 132 and 140. Paragraphs 2-4 of the Phat portrait do not require change.)
+5. **Update PM dashboard §9** (`tools/workstream-handoffs/pm-session-handoff_2026-05-10.md`) — mark USER ACTION 1 + 2 complete with the signing date and a one-line evidence note pointing at the signed-consent file.
+6. **Update the named-subject-consent memory** (`/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_named_subject_consent.md`) — add a status note in the Why or How-to-apply section recording that Phat's consent landed on [DATE], so future sessions don't re-anonymize him.
+7. **Submit the *Noema* essay** to `edit@noemamag.com` per the submission window (late May / early June 2026).
 
 ### If Phat declines
 
 1. **Note the declination.** A short markdown note at `research/outreach/subjects/phat/declination-note_<YYYY-MM-DD>.md`. One paragraph: when, where, what was said, what the author committed to going forward (most likely: continue anonymizing in all publisher-facing prose; respect the decision in any future work).
 2. **No edits required to the *Noema* essay.** It is already submission-ready in its anonymized form.
-3. **Update PM dashboard §9** — mark USER ACTION 1 + 2 resolved-as-anonymized with the date.
-4. **Submit the *Noema* essay.** Same window.
+3. **Anonymize the Chapter 3 portrait** per `phat-mentions-inventory_2026-05-10.md` "If consent declined / unreachable — Ch 3 needs anonymization." The portrait at lines 132-140 is currently named-pending-consent; it needs to come off the name and the identifying business details to match the *Noema* essay's anonymization pattern. Recipe is in the inventory.
+4. **Update PM dashboard §9** — mark USER ACTION 1 + 2 resolved-as-anonymized with the date.
+5. **Submit the *Noema* essay.** Same window.
 
 ### If Phat asks for changes before signing
 
@@ -159,8 +168,9 @@ If Phat is alive but has had a major change of circumstances (illness, loss of c
 
 ### If Phat wants to think about it and the author has not heard back by the deadline
 
-1. **Submit the *Noema* essay anonymized.** The submission window is the binding constraint; do not delay submission past it. If consent lands later, the named version can be restored in a future printing or in the corresponding book chapter.
-2. **Keep the line of communication open.** Phat may decide later. Do not treat the deadline-pass as a no.
+1. **Submit the *Noema* essay anonymized.** The submission window is the binding constraint; do not delay submission past it. If consent lands later, the named version can be restored in a future printing.
+2. **Leave the Chapter 3 portrait in its current named-pending-consent state.** The book is not on the same submission window as the essay; the chapter can wait for Phat's decision. The consent-pending HTML flag at line 131 and the disclaimer prose in the portrait are the chapter's interim posture — clean to leave in place until Phat decides one way or the other.
+3. **Keep the line of communication open.** Phat may decide later. Do not treat the deadline-pass as a no.
 
 ---
 
@@ -178,7 +188,7 @@ This is out of scope for the consent conversation itself. Do not introduce money
 
 Before walking out the door:
 
-- [ ] Print the preview packet (project framing + Section VI excerpt + diff page). About 12 pages.
+- [ ] Print the preview packet (project framing + *Noema* Section VI excerpt + *Noema* diff page + Chapter 3 excerpt + Chapter 3 diff page). About 18-22 pages.
 - [ ] Print two copies of the consent document. Fill in the author's contact info, the date prepared, and confirm the materials-shown line is left blank for fill-in at the time of conversation.
 - [ ] Bring a pen.
 - [ ] Confirm Phat is alive and reachable (per §4 above).

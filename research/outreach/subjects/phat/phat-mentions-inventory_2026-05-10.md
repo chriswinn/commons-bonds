@@ -11,18 +11,19 @@
 
 ## Counts
 
-- **Publisher-facing prose where Phat appears anonymized:** **1 location** (one paragraph in one essay).
-- **Publisher-facing prose where Phat appears named:** **0 locations.**
-- **Internal-scaffolding files where Phat's nickname appears:** **multiple** (primary-source dump + several superseded Noema-essay version snapshots + session handoffs + memory file). These do not gate consent.
-- **Total publisher-facing edits required if consent is signed:** **3 small edits in 1 file** (Noema essay frontmatter status line + frontmatter named-subject-policy line + Section VI body line 137).
+- **Publisher-facing prose where Phat appears anonymized:** **1 location** (one paragraph in the *Noema* essay, Section VI line 137).
+- **Publisher-facing prose where Phat appears named-pending-consent:** **1 location** (Chapter 3, *Commons Bonds*, lines 132-140 — the Phat portrait, named throughout with author disclaimers acknowledging consent has not yet been collected).
+- **Publisher-facing prose where Phat appears named-with-signed-consent:** **0 locations** (the standing publisher-facing state until signed consent is collected).
+- **Internal-scaffolding files where Phat appears:** **multiple** (primary-source dump + several superseded Noema-essay version snapshots + session handoffs + memory file). These do not gate consent.
+- **Total publisher-facing edits required if consent is signed:** **3 small edits in 1 file (Noema essay)** plus **2 paragraph swaps in 1 file (Ch 3)**.
 
 ---
 
-## Note on a stale claim
+## Update — Ch 3 added 2026-05-10
 
-The framing for this consent-package session asserted that "Phat is also referenced in the Ch 3 manuscript draft." Verification (`grep -rn "Phat\|crabber\|Fox Hill\|Biggie" manuscript/chapters/`) returned **no matches** in any chapter file (Ch 1 through Ch 10, AuthorsNote, Dedication, _BookLevelGuidance, all GuidanceDocs). Per `tools/workstream-handoffs/README.md` (Resolved exclusions), Ch 3 was drafted on 2026-05-09 from the Colden + Moore public-record briefs, not from the Phat oral-history dump. The retired-waterman composite figure appearing at Chapter__3_TheWaterman__Draft.md:60 (worked through the 1985 striped-bass moratorium) is a generic Bay-waterman composite, not a Phat-specific scene; Phat's biography (1990-era shad closure → mechanic-shop second job) does not match that composite.
+A prior version of this inventory asserted that Phat did not appear in any chapter manuscript. That was true as of the inventory's original drafting on 2026-05-10 (morning). It is no longer true as of the integration committed on the same day (commit `b5692f1`), which added Fox Hill / Biggie / Phat material to Chapter 3 (The Waterman) per the 2026-05-09 ratified consent posture (Phat: named-pending-consent; Biggie: named with courtesy-notify-surviving-family).
 
-**Implication for the consent preview package:** the author does not need to send Phat a Ch 3 excerpt. The full preview package is one Section VI excerpt from one essay. This is much smaller than the framing assumed and can be delivered as a one-page printout.
+**Implication for the consent preview package:** the author now needs to show Phat both the *Noema* Section VI excerpt **and** the Chapter 3 excerpt at the consent conversation. The Ch 3 excerpt is documented at `research/outreach/subjects/phat/ch3-preview-package_2026-05-10.md` and is approximately 2,100 words (about 12-15 minutes reading time). The consent document covers both excerpts as a single ask; Phat signs once.
 
 ---
 
@@ -64,9 +65,37 @@ The framing for this consent-package session asserted that "Phat is also referen
 
 ---
 
+### Appearance 2 — Chapter 3, *Commons Bonds* (named-pending-consent)
+
+| Field | Value |
+|---|---|
+| **File** | `manuscript/chapters/Chapter__3_TheWaterman__Draft.md` |
+| **Line numbers** | The Phat portrait runs lines **132-140** (5 paragraphs). The chapter also contains a Biggie portrait (lines 47-51) and the broader Fox Hill establishing block (lines 18-26) that Phat's portrait is part of. |
+| **Classification** | Publisher-facing. Draft state — chapter is on a development arc, not yet submission-ready as a finished chapter. |
+| **Current state** | Named-pending-consent. Phat is named throughout the portrait, with two author-disclaimer sentences in the intro paragraph and the closing paragraph acknowledging that consent has not yet been collected. |
+| **Target venue** | Trade-book publication via *Commons Bonds*. Timeline: drafting through 2026; book submission to publisher TBD. |
+
+**The Phat portrait, current consent-pending state (lines 132-140 verbatim):**
+
+> There is a man I will call Phat, which is the short form of his given name, and I have not yet asked him whether he wants to be called something else in a book. Phat is alive. He is a large man, not tall, who has been on the Bay since he was a boy. He is from the same Fox Hill world Biggie was from, and his work and his life have unfolded in the next stretch of the same arc.
+>
+> Phat is a crabber and a fisherman, and he has been one all his working life. The water near Fox Hill and Poquoson is the water he has always known. What he has watched, across his decades on it, is that the math for a man like him has changed. The catches have come back thinner. The costs of fuel and gear and the slip have moved in the other direction. The species he came up working are not all of them still running. None of these are observations particular to Phat; they are the conditions every man still working this water has had to absorb in his own way. What is particular to Phat is what he has done with the absorption.
+>
+> He still gets up at two or three in the morning. He still goes out and pulls his crab pots. He runs them the way he ran them when he was younger, except the math at the end of the day is different now than it was then. So he comes back to the dock by mid-morning. He hoses down the boat. He goes to the mechanic shop he owns, on the Peninsula, where his name is on the sign and his crab pots are stacked behind the locked fence in the back lot, behind the cars he is working on for customers. He works the shop until five or six in the evening. What he calls this is between him and the people who know him. What it does, in any case, is the work that keeps the family math balancing and the boat in the slip and the license current and the presence on the water continuing.
+>
+> Phat did not quit the water. He could not. He has spent decades building, on his own time and his own dime, the second economy that has allowed him to not quit it. The accounting that made the older men's lives possible — the accounting in which the crab and the boat and the long days were enough — does not work for him. He has filled the gap with the only thing he had left to fill it with: more of himself.
+>
+> I have not asked Phat what he would say about all this, and the chapter does not have his answer to put on this page. What I can guess, from watching him and from knowing the men around him, is that if asked over a beer at the end of a long day he would say he is glad to still be on the water and that he is grateful for the shop. The accounting this book is trying to make visible is not, necessarily, the accounting Phat would put on himself. It is what the surrounding economy has been accepting from Phat, and from many men like Phat up and down this Bay, in exchange for a continued supply of the seafood the surrounding economy has not stopped wanting.
+
+**Consent-pending HTML flag (line 131):**
+
+> `<!-- consent-pending; anonymize at publication if declined -->`
+
+---
+
 ### Other publisher-facing material — verified clean
 
-- **Manuscript chapters Ch 1 – Ch 10:** zero matches for `Phat`, `crabber`, `Fox Hill`, `Biggie`. Phat does not appear in any chapter draft.
+- **Manuscript chapters Ch 1, Ch 2, Ch 4 – Ch 10:** zero matches for `Phat`, `crabber`, `Fox Hill`, `Biggie` (verified before Ch 3 integration; Ch 3 itself is now an appearance, documented above).
 - **AuthorsNote (`_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md`), Dedication (`_Dedication.md`), _BookLevelGuidance:** zero matches.
 - **Op-eds (`publishing/op-eds/norway-sovereign-wealth-op-ed_2026-05-10.md`, `mcdowell-county-true-cost-op-ed_2026-05-10.md`):** zero matches.
 - **Aeon pitch (`manuscript/essay/aeon/aeon-pitch-fresh-session_2026-05-10.md`):** Phat is not part of the pitch material; no anonymized or named reference.
@@ -149,11 +178,51 @@ The remaining sentences in line 137 do not require change; "He still wakes betwe
 
 > status: Stage 3 polish applied per Noema Stage 3 verdict (commit a9b627c) §6.1 (six surgical fact-fixes) + §6.2 (two voice improvements + bundling-synthesis import). Submission-ready. Phat's signed consent on file (see `research/outreach/subjects/phat/signed-consent_<DATE>.md`).
 
+### Edit 4 — Ch 3 line 131: drop the consent-pending HTML flag
+
+**Current:**
+
+> `<!-- consent-pending; anonymize at publication if declined -->`
+
+**Suggested updated version:**
+
+> `<!-- named per signed consent <DATE>; consent on file at research/outreach/subjects/phat/signed-consent_<DATE>.md -->`
+
+### Edit 5 — Ch 3 lines 132 + 140: paragraph swaps removing the consent-pending disclaimers
+
+**Paragraph 1 (current, line 132 — consent-pending):**
+
+> There is a man I will call Phat, which is the short form of his given name, and I have not yet asked him whether he wants to be called something else in a book. Phat is alive. He is a large man, not tall, who has been on the Bay since he was a boy. He is from the same Fox Hill world Biggie was from, and his work and his life have unfolded in the next stretch of the same arc.
+
+**Paragraph 1 (suggested named-with-consent version):**
+
+> Phat is one of the watermen my father knew when my father was a boy on Fox Hill. He is a large man, not tall, who has been on the Bay since he was a boy himself. He is from the same Fox Hill world Biggie was from, and his work and his life have unfolded in the next stretch of the same arc.
+
+**Paragraph 5 (current, line 140 — consent-pending):**
+
+> I have not asked Phat what he would say about all this, and the chapter does not have his answer to put on this page. What I can guess, from watching him and from knowing the men around him, is that if asked over a beer at the end of a long day he would say he is glad to still be on the water and that he is grateful for the shop. The accounting this book is trying to make visible is not, necessarily, the accounting Phat would put on himself. It is what the surrounding economy has been accepting from Phat, and from many men like Phat up and down this Bay, in exchange for a continued supply of the seafood the surrounding economy has not stopped wanting.
+
+**Paragraph 5 (suggested named-with-consent version):**
+
+> He is glad to still be on the water. He is grateful for the shop. Those things are true alongside what this chapter has been counting — what the surrounding economy has been accepting from Phat, and from many men like Phat up and down this Bay, in exchange for a continued supply of the seafood it has not stopped wanting.
+
+Paragraphs 2, 3, 4 (lines 134, 136, 138) do not require change. The Fox Hill establishing block (lines 18-26) and the Biggie portrait (lines 47-51) do not require change. The print-form Phat chooses for his name (full given name / short form / with or without Vietnamese diacritic) gets applied across all in-chapter and in-essay uses at the time of edit-application.
+
 ---
 
-## "If consent declined / unreachable" — no edits required
+## "If consent declined / unreachable" — Ch 3 needs anonymization
 
-The current Noema essay state already encodes the safe default. No prose changes are required if Phat declines, takes time to think and the submission window passes, or is unreachable. The author may want to update PM dashboard §9 USER ACTION 1 + 2 to mark the items resolved-as-anonymized for traceability, but the essay itself is already submission-ready as-drafted.
+The Noema essay's current state encodes the safe default and requires no prose changes if Phat declines. The Chapter 3 portrait, however, is currently named-pending-consent — if consent is declined, the Ch 3 portrait would need to be anonymized to match the Noema treatment's pattern (name dropped, identifying business details dropped, rhythm rendered in generic terms).
+
+**Ch 3 anonymization recipe (if declined):**
+
+- Drop "Phat" as the name throughout the portrait (lines 132-140). The name is used in paragraphs 1, 2, 4, and 5.
+- Replace introductory framing with a generic description, matching the Noema pattern: *"There is also a crabber and a fisherman my father knew when my father was a boy on Fox Hill, who has been on the Bay since he was a boy himself..."*
+- Drop the identifying business details in paragraph 3: remove "on the Peninsula, where his name is on the sign and his crab pots are stacked behind the locked fence in the back lot, behind the cars he is working on for customers." Replace with generic: *"He goes to his mechanic's shop, where he works on cars until evening."*
+- Drop the closing paragraph's specific affirmations ("He is glad to still be on the water. He is grateful for the shop.") — these are author-attributed-to-Phat statements that without consent are speculation.
+- Net effect: portrait survives as a generic-archetypal figure (still framework-load-bearing for the second-economy-on-his-own-time argument) but loses the specific-person anchor.
+
+The author may want to update PM dashboard §9 USER ACTION 1 + 2 to mark the items resolved-as-anonymized for traceability.
 
 ---
 
@@ -161,11 +230,12 @@ The current Noema essay state already encodes the safe default. No prose changes
 
 Per the companion `consent-process-guide_2026-05-10.md`, the preview package the author shows Phat is small and readable in one sitting:
 
-1. **The full Section VI Fox Hill coda from the Noema essay** — lines 130–142 of `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`. Approximately 600 words. Readable in 5–10 minutes. This is the only publisher-facing prose where Phat appears.
-2. **The proposed named replacement at line 137** — a one-paragraph diff showing what changes if Phat signs.
-3. **A one-paragraph project framing** — what the essay is, where it will appear, why Phat is in it.
+1. **The full Section VI Fox Hill coda from the Noema essay** — lines 130–142 of `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`. Approximately 600 words. Readable in 5–10 minutes.
+2. **The Chapter 3 excerpt from the book** — Fox Hill establishing block + Biggie portrait + Phat portrait, with a side-by-side diff showing what changes if Phat signs. Approximately 2,100 words. Readable in 12–15 minutes. Documented in `ch3-preview-package_2026-05-10.md` in this folder; print pages from "Phat-facing content begins here" forward.
+3. **The proposed named replacement at Noema essay line 137** — a one-paragraph diff showing what changes if Phat signs. Documented in this inventory's Edit 1 section above.
+4. **A one-paragraph project framing** — what the book and essays are, where they will appear, why Phat is in them. Documented in `consent-process-guide_2026-05-10.md` §1 item 3.
 
-The author does not need to send Phat the rest of the essay (the 4,000-plus words about NIH, Norway, Mondragon, Mazzucato, Darity) unless Phat asks to see it. The consent is for the Section VI material; the rest is context the author can describe verbally if Phat wants to know.
+The author does not need to send Phat the rest of the *Noema* essay (the 4,000-plus words about NIH, Norway, Mondragon, Mazzucato, Darity) or the rest of Chapter 3 (the analytical material about rockfish, blue crabs, menhaden, the watershed, the recovery paradox, and Norway). The consent is for the specific Fox Hill / Biggie / Phat passages in both pieces; the rest is context the author can describe verbally if Phat wants to know.
 
 ---
 
