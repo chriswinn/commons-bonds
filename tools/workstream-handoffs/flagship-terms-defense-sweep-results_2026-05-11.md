@@ -10,7 +10,7 @@
 
 ## Executive summary
 
-**All four terms returned GAP CONFIRMED. All four audience-load rigor passes returned INCLUDE.**
+**All four terms returned GAP CONFIRMED. All four audience-load rigor passes returned INCLUDE. Author ratified all four paragraphs + widening recommendation 2026-05-11. All four paragraphs inserted into chapter files in commits `8c8bcec` (Ch 2 — Cost Severance), `8b72ec2` (Ch 5 — Restitution + Foreclosure), `32b2ca4` (Ch 6 — RCV). Widening recommendation ratified; widened sweep executed by parallel workstream (commit `34dd5b6`) producing 4/7 GAP CONFIRMED + INCLUDE and 3 NO GAP across CIT / ARR / Hotelling Identity / Externality Tail / Abundance Masking / Cᵢ component set / three-method-convergence-for-RCV — see [tools/workstream-handoffs/flagship-terms-defense-sweep-results-widened_2026-05-11.md](flagship-terms-defense-sweep-results-widened_2026-05-11.md).**
 
 | Term | Gap audit | Audience-load tally (INCLUDE / NEUTRAL / EXCLUDE) | Drafting artifact | Rigor pass artifact | Recommended placement |
 |---|---|---|---|---|---|
@@ -191,4 +191,31 @@ Verified before assertion:
 
 ---
 
-*End of narrow-sweep results v1.0.0.*
+## Ratification record (2026-05-11)
+
+**Author verdict (narrow sweep):** All four paragraphs ratified at default verdict (a) — INCLUDE as-is. Widening recommendation ratified.
+
+**Per-term insertion commits:**
+
+| Term | Commit | Chapter | Insertion site |
+|---|---|---|---|
+| Cost Severance | `8c8bcec` | Ch 2 | Between vocabulary-subsection close (*"...or fisheries in the Chesapeake Bay."*) and Mazzucato value-extraction lineage paragraph open. |
+| Restitution Bond | `8b72ec2` (paired with Foreclosure Bond) | Ch 5 | Between the ratified why-bonds paragraph close and the existing Restitution Bond lineage paragraph open. |
+| Foreclosure Bond | `8b72ec2` (paired with Restitution Bond) | Ch 5 | Between the existing Pistor-lineage paragraph close and the existing Foreclosure Bond lineage paragraph open. |
+| Residual Commons Value | `32b2ca4` | Ch 6 | Between the Pigou+Ostrom traditions-extension paragraph and the "Three additions, each consequential" paragraph (cleaner natural slot than the originally-recommended span between line 724 and line 733, which had four intervening paragraphs). HTML `<p>` wrapping + `<em>` italics tags consistent with chapter convention. |
+
+**Draft artifacts updated with ratification records** mirroring the why-bonds paragraph pattern (lines 130–151 of `tools/drafts/why-bonds-paragraph_2026-05-11_v1.0.0.md`): verdict, ratification trail, ratified final paragraph (verbatim), insertion site. All four artifacts now read RATIFIED 2026-05-11.
+
+**Widening recommendation ratified:** PM session stood up the widened workstream covering the seven candidate terms (CIT / ARR / Hotelling Identity / Externality Tail / Abundance Masking / Cᵢ component set / three-method-convergence-for-RCV) per workstream brief §99–112. Widened sweep executed (commit `34dd5b6`) producing:
+
+- **4 GAP CONFIRMED + INCLUDE:** CIT (Commons Inversion Test), ARR (Asymmetric Regret Rule), Externality Tail, Abundance Masking — drafts and rigor passes deposited in `tools/drafts/` and `tools/rigor-passes/`.
+- **3 NO GAP:** Hotelling Identity, Cᵢ component set, three-method-convergence-for-RCV — existing body-prose treatment determined sufficient against the 20-character pressure-test set.
+- **Widened-sweep summary:** [tools/workstream-handoffs/flagship-terms-defense-sweep-results-widened_2026-05-11.md](flagship-terms-defense-sweep-results-widened_2026-05-11.md).
+
+**Net narrow + widened tallies across 11 terms:** 8 GAP CONFIRMED + INCLUDE → 8 defense paragraphs (4 inserted in this workstream's narrow sweep; 4 produced + pending author ratification in widened sweep). 3 NO GAP.
+
+**Per WP#9:** all narrow-sweep chapter-insertion commits landed on `origin/main` via `git push origin HEAD:main` per ratified-chunk discipline. Worktree-isolation maintained throughout.
+
+---
+
+*End of narrow-sweep results v1.0.0 (ratification record appended 2026-05-11).*
