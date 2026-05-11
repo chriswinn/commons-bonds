@@ -39,6 +39,15 @@
 - **Status:** open
 - **Context:** Cascade plan currently lists Atlantic Ideas as essay-slot-3 fallback. Phenomenal World (Jain Family Institute) is more accessible without prior clips; Atlantic Ideas has more name-recognition prestige but expects established bylines. With Boston Review taking Ch 5 (essay slot 2), the slot-3 source chapter is naturally Ch 9 *Pricing Honestly*. Decision determines which venue gets the Ch 9 pitch and timing.
 - **Target resolution:** before slot-3 pitch drafting begins (target Sept-Oct 2026 per cascade plan).
+- **2026-05-11 update:** Cross-thread item #4 may be implicitly resolved by the $100 Barrel essay workstream (see `tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`). PM session recommends Phenomenal World as primary venue for the derivative essay; firing the workstream to PW de facto resolves the Atlantic Ideas vs. PW slot-3 decision. Author go/no-go pending.
+
+### 9. Ch 2 GuidanceDoc retains stale "$100 barrel passage" references (Insight #37 family)
+
+- **Surfaced by:** Cross-chapter consistency audit workstream (#10), 2026-05-11
+- **For-thread:** Insight #37 follow-up (GuidanceDoc → Draft staleness Batch-D); separate from cross-chapter consistency #10's main scope
+- **Status:** open
+- **Context:** `manuscript/chapters/Chapter__2___GuidanceDoc.md` lines 31, 122, 214 reference the "$100 barrel passage at line ~97" of Ch 2 as if it's CURRENT. PM session verified 2026-05-11: Ch 2 body has NO such passage; the pivot to McDowell-coal framing was deliberate; the GuidanceDoc just didn't get updated to reflect the pivot. Worth a small standalone fix-session or bundled into a future GuidanceDoc Batch-D pass.
+- **Target resolution:** before Phase 3 pre-publication review (Insight #39); no hard date.
 
 ### 7. Interview-attribution protocol gaps for international + multi-jurisdiction subjects
 
