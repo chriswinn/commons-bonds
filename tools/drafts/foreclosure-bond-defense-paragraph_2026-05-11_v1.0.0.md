@@ -1,7 +1,7 @@
 # Foreclosure Bond Defense Paragraph — Draft v1.0.0
 
 **Date:** 2026-05-11
-**Status:** Stage 2 audience-blind draft + Stage 3 three-pass rigor (inline). Awaiting author ratification.
+**Status:** **RATIFIED 2026-05-11 — verdict (a)** (INCLUDE as-is). Paragraph inserted into Ch 5 between the Pistor-lineage paragraph close and the existing Foreclosure Bond lineage paragraph. See "Ratification record" at bottom of file for accepted final version.
 **Branch:** `claude/flagship-terms-defense-sweep-angry-swanson-4193a5`
 
 ---
@@ -135,3 +135,21 @@ The transition holds. The new paragraph closes at the cousin-association-is-the-
 - No discussion of how the bond is sized or operationalized — that is methodology (Ch 6) and policy economy (Ch 9), not name-defense.
 - No engagement with the magnitude question (current bond levels far below RCV) — the existing Ch 5 line 206 already does that work; the proposed paragraph stays scoped to the name-defense.
 - No claim of equivalence between the 2008 foreclosure wave and the framework's commons-foreclosure mechanism — the cousin-relation is structural, not magnitude-equivalent; the paragraph names the structural similarity without flattening the racial-economic specificity of 2008.
+
+---
+
+## Ratification record (2026-05-11)
+
+**Author verdict:** (a) — INCLUDE as-is.
+
+**Ratification trail:**
+- Stage 2 audience-blind draft drafted 2026-05-11.
+- Stage 3 three-pass audit (fact-check, voice-polish, audience-load) run inline above.
+- Full include-vs-exclude audience-load comparison run against 20-character book-audience pressure-test set in [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_foreclosure_bond_defense_paragraph_include_vs_exclude_audience_load_v1.0.0.md](../rigor-passes/commons_bonds_rigor_pass_2026-05-11_foreclosure_bond_defense_paragraph_include_vs_exclude_audience_load_v1.0.0.md). Verdict: 17 of 20 INCLUDE; 3 NEUTRAL; 0 EXCLUDE. **Seven ✓✓✓ verdicts** — highest count among the four narrow-sweep paragraphs; closes the mortgage-misroute risk for Tier-3 accessibility audiences (working-class + Black + first-gen + McDowell) plus Tier-1 gating (literary agent + acquisitions editor) plus Tier-2 specialist (environmental-bond).
+- Author ratified verdict (a) 2026-05-11.
+
+**Ratified final paragraph** (inserted verbatim into Ch 5):
+
+> A reader meeting *Foreclosure Bond* for the first time will hear the second word first, and most readers will hear it through the 2008 housing crisis — the wave of mortgage foreclosures that took primary assets out of household balance sheets across the country, with disproportionate concentration in Black and working-class communities. The framework names that association as continuity, not coincidence. Foreclosure derives from the Old French *forclore* — to bar from — and the mortgage-foreclosure event is one institutional context where the bar-from mechanism operates: a household is barred from continued access to a primary asset by a legal architecture that allows the bar-from to occur at scale. The framework names a structurally cousin instrument: future generations are barred from continued access to commons-options — habitable atmosphere, intact ecosystems, reserves of irreplaceable materials — by a legal-and-economic architecture that allows the bar-from to occur across time. Same mechanism. Different substrate. The Foreclosure Bond is the accountability instrument the framework proposes against the second bar-from. Alternative names were available and each fails for a specific reason. *Future-Generations Bond* loses the bar-from structural feature and reads as soft-philanthropic. *Sustainability Bond* has been co-opted by ESG-finance markets where the term has lost specificity. *Reclamation Bond* is already an established term in the Surface Mining Control and Reclamation Act regime the framework cites as part of the Foreclosure Bond's lineage, but reclamation names the act of restoring a site after extraction — a subset of what the Foreclosure Bond covers, not the umbrella. *Conservation Bond* preserves the resource without naming the bar-from-future-options structural feature. *Intergenerational Bond* describes the temporal direction without naming the mechanism. *Foreclosure Bond* names the mechanism the others describe; the cousin-association the reader brings to the term is the right cousin to bring.
+
+**Insertion site:** `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` — between the line ending *"...the framework prices what the modules sever."* (close of the existing Pistor-lineage paragraph) and the line beginning *"The Foreclosure Bond operates in adjacent but distinct territory."* (open of the existing Foreclosure Bond lineage paragraph).

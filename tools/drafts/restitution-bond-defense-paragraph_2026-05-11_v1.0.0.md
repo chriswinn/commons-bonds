@@ -1,7 +1,7 @@
 # Restitution Bond Defense Paragraph — Draft v1.0.0
 
 **Date:** 2026-05-11
-**Status:** Stage 2 audience-blind draft + Stage 3 three-pass rigor (inline). Awaiting author ratification.
+**Status:** **RATIFIED 2026-05-11 — verdict (a)** (INCLUDE as-is). Paragraph inserted into Ch 5 between the line-192 why-bonds paragraph and the line-194 Restitution Bond lineage paragraph. See "Ratification record" at bottom of file for accepted final version.
 **Branch:** `claude/flagship-terms-defense-sweep-angry-swanson-4193a5`
 
 ---
@@ -133,3 +133,21 @@ The transition holds. The new paragraph closes at the joining-not-translating fr
 - No paraphrase of Ch 1 (Path B preemptive policy); the paragraph generates fresh prose that argues a name-choice neither Ch 1 nor any other chapter has engaged.
 - No discussion of CSD (Cost Severance Damages) measurement — that is the methodology's content, not the bond's name-defense.
 - No engagement with the political-feasibility question — the existing Ch 5 line 208 already does that work; the proposed paragraph stays scoped to the name-defense.
+
+---
+
+## Ratification record (2026-05-11)
+
+**Author verdict:** (a) — INCLUDE as-is.
+
+**Ratification trail:**
+- Stage 2 audience-blind draft drafted 2026-05-11.
+- Stage 3 three-pass audit (fact-check, voice-polish, audience-load) run inline above.
+- Full include-vs-exclude audience-load comparison run against 20-character book-audience pressure-test set in [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_restitution_bond_defense_paragraph_include_vs_exclude_audience_load_v1.0.0.md](../rigor-passes/commons_bonds_rigor_pass_2026-05-11_restitution_bond_defense_paragraph_include_vs_exclude_audience_load_v1.0.0.md). Verdict: 15 of 20 INCLUDE; 5 NEUTRAL; 0 EXCLUDE. Two ✓✓✓ verdicts at the highest-stakes audiences (reparations-economics specialist + Black readers in Coates lineage).
+- Author ratified verdict (a) 2026-05-11.
+
+**Ratified final paragraph** (inserted verbatim into Ch 5):
+
+> A reader engaging the framework's *Restitution Bond* alongside the chapter's lineage prose will notice an asymmetry the prose has not yet engaged: the bond is named *Restitution*, the tradition that grounds the methodology is named *Reparations*. The asymmetry is intentional and warrants the explanation. *Restitution* is the older legal-and-philosophical term for the obligation to restore what was taken — restitutio in integrum, restoration to the prior condition or its monetary equivalent — and the framework needs an umbrella broad enough to cover the full field of cost-severance contexts the bond will be posted against. The Coates-Darity-Mullen-Hamilton-Conley reparations tradition is the framework's primary informing source; its methodology and rhetorical architecture are how the framework knows what it knows about backward-looking accountability. But *Reparations Bond* would narrow the umbrella to one historically-specific application and would make the methodology's portability to environmental restitution (Libby asbestos), to occupational-disease restitution (the black lung trust fund), to community-restitution (McDowell), and to ecosystem-restitution (the Niger Delta) read as analogical extension rather than as direct instrument-application. The narrower alternatives fail differently. *Restoration Bond* presupposes physical restorability that many cost-severance harms — lives lost, ecosystems extinguished, communities dispersed — do not allow. *Indemnification Bond* routes through a third-party insurance register the framework does not operate in. *Damages Bond* collapses the bond instrument into the measurement instrument the framework already names separately. *Restitution Bond* covers what the alternatives cannot, while leaving room for the reparations tradition to retain its specific historical claim. The framework joins the tradition rather than translating it; the bond's name marks the joining at the instrument level while the methodology, in its core moves, learns from where the tradition has already done the work.
+
+**Insertion site:** `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` — between the line ending *"...The framework uses the term in continuity with these traditions, and in the meaning they have long built into it."* (close of the ratified why-bonds paragraph) and the line beginning *"The Restitution Bond operates within an established academic and legal lineage."* (open of the existing Restitution Bond lineage paragraph).
