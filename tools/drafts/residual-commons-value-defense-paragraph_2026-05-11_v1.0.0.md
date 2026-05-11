@@ -1,7 +1,7 @@
 # Residual Commons Value Defense Paragraph — Draft v1.0.0
 
 **Date:** 2026-05-11
-**Status:** Stage 2 audience-blind draft + Stage 3 three-pass rigor (inline). Awaiting author ratification.
+**Status:** **RATIFIED 2026-05-11 — verdict (a)** (INCLUDE as-is). Paragraph inserted into Ch 6 between the Pigou+Ostrom traditions-extension paragraph and the "Three additions, each consequential" paragraph (the cleanest natural slot; the originally-recommended span between line 724 and line 733 contained four intervening paragraphs). See "Ratification record" at bottom of file for accepted final version.
 **Branch:** `claude/flagship-terms-defense-sweep-angry-swanson-4193a5`
 
 ---
@@ -127,3 +127,23 @@ The transition holds. The new paragraph closes at the conceptual convergence; th
 - No arbitrary word-count target hit; substance-driven (~310 words; could trim to ~250 if author judges the cadence differently).
 - No paraphrase of Ch 4 line 47 or Ch 6 line 724/733 (Path B preemptive policy); the paragraph generates fresh prose that argues the name-choice the existing prose only assumes.
 - No discussion of the three estimation methods or Commons Inversion Test sub-forms — those are the methodology's content, not the term's name-defense.
+
+---
+
+## Ratification record (2026-05-11)
+
+**Author verdict:** (a) — INCLUDE as-is.
+
+**Ratification trail:**
+- Stage 2 audience-blind draft drafted 2026-05-11.
+- Stage 3 three-pass audit (fact-check, voice-polish, audience-load) run inline above.
+- Full include-vs-exclude audience-load comparison run against 20-character book-audience pressure-test set in [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_residual_commons_value_defense_paragraph_include_vs_exclude_audience_load_v1.0.0.md](../rigor-passes/commons_bonds_rigor_pass_2026-05-11_residual_commons_value_defense_paragraph_include_vs_exclude_audience_load_v1.0.0.md). Verdict: 13 of 20 INCLUDE; 7 NEUTRAL; 0 EXCLUDE. Five ✓✓✓ verdicts at the framework's most academically-load-bearing audiences (Mazzucato/Raworth + welfare-economics reviewer + Berggruen judge + Ostrom-successor + environmental-bond specialist).
+- Author ratified verdict (a) 2026-05-11.
+
+**Insertion-site refinement at ratification time:** The originally-recommended placement span "between line 724 and line 733" contained four intervening paragraphs ("Three additions, each consequential" + the Substitutability-weighting paragraph). The natural slot was AFTER the Pigou+Ostrom paragraph (line 725 `</p>`) and BEFORE the "Three additions" paragraph (line 726 `<p>`) — the reader reads: framework extends two traditions → here is what the framework's central quantification term means in those traditions' registers → three additions enumerated. Structural flow holds.
+
+**Ratified final paragraph** (inserted verbatim into Ch 6, with HTML `<p>` wrapping consistent with chapter convention; italics rendered via `<em>` tags):
+
+> The framework's name for what extraction takes from the commons-side — *Residual Commons Value* — assembles three loaded sub-choices, and each carries a tradition the term means to honor rather than a coinage the framework invented. *Residual* is the resource-economics word for what is left after standard accounting has priced what standard accounting prices. John Hartwick's 1977 rule for sustainable extraction worked the residual side of exhaustible-resource economics: the rents that accrue to extraction are owed forward as residual obligations to future generations. The framework's residual is in that family — it is what remains to be priced after market revenue and standard externality-accounting have done their work, not a substitute for either. *Commons* is the institutional-form word, and the framework uses it in Elinor Ostrom's specific sense: a commons is a resource governed by — or extracted from — a community of users with a structural relation to the resource. Alternatives were available. *Resource* would have been generic; *public good* would have implied non-rivalrous and non-excludable, which the commons-under-extraction precisely is not; *natural capital* would have collapsed the institutional question into a financial-asset register the framework specifically avoids. *Value* is the third deliberate choice. Mariana Mazzucato distinguishes value created from value extracted; the framework's value is what the commons creates over time for the parties who depend on it — a value extraction takes without paying for. Cost would have inverted the sign and routed through the cost-bearer side of the ledger; wealth would have collapsed into commodity-finance vocabulary; worth would have been too qualitative to dollar-denominate. The three components converge: what is left after standard accounting (Hartwick), priced from the commons-side rather than the extractor-side (Ostrom), in the value-as-created register that names what extraction has been taking without paying (Mazzucato). The term is the convergence.
+
+**Insertion site:** `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html` — between the `</p>` closing the Pigou+Ostrom traditions-extension paragraph (formerly line 725) and the `<p>` opening the "Three additions, each consequential" paragraph (formerly line 726).
