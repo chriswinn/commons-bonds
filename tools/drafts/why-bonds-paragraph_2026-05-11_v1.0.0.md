@@ -1,7 +1,7 @@
 # Why-Bonds Justification Paragraph — Draft v1.0.0
 
 **Date:** 2026-05-11
-**Status:** Drafted; awaiting author ratification of (a) prose and (b) placement before insertion into any chapter file.
+**Status:** **RATIFIED 2026-05-11 — verdict (c)** (INCLUDE with both Tier-B soft spots tightened). Paragraph inserted into Ch 5 between line 190 and line 192. See "Ratification record" at bottom of file for accepted final version.
 **Branch:** `claude/why-bonds-paragraph-laughing-hertz-43da69`
 
 ---
@@ -124,3 +124,27 @@ The transition holds. The new paragraph asserts traditions converge on the instr
 - No acronyms beyond what Ch 5's surrounding prose already establishes (SMCRA spelled out in full on first surfacing per the body-prose register the chapter already uses).
 - Not a multi-paragraph essay; single body paragraph per the spec.
 - No arbitrary word-count target hit; substance-driven (~240 words; could trim to ~200 or extend to ~280 if author judges the cadence differently — flagging for author judgment).
+
+---
+
+## Ratification record (2026-05-11)
+
+**Author verdict:** (c) — INCLUDE with both Tier-B soft spots tightened.
+
+**Ratification trail:**
+- Stage 2 audience-blind draft drafted 2026-05-11.
+- Stage 3 three-pass audit (fact-check, voice-polish, audience-load) run inline above.
+- Full include-vs-exclude audience-load comparison run against 20-character book-audience pressure-test set in `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_why_bonds_paragraph_include_vs_exclude_audience_load_v1.0.0.md`. Verdict: 17 of 20 INCLUDE; 3 NEUTRAL; 0 EXCLUDE.
+- Author ratified verdict (c) 2026-05-11.
+
+**Ratified tweaks (Tier-B soft spots tightened):**
+
+1. **First operation** — *"posted before the full harm has materialized"* → **"posted before the full cost has been borne"**. Covers both Restitution Bond direction (backward-looking harm, forward-flowing cost) and Foreclosure Bond direction (forward-looking harm + cost) without compromise. Closes the residual ⚠ flag from the environmental-bond / sovereign-wealth specialist character (Probe F in the rigor pass).
+
+2. **Closing line** — *"The framework borrows the term in good faith and uses it to mean what it has always meant."* → **"The framework uses the term in continuity with these traditions."** Removes the defensive-aware register of "good faith" that was the residual ⚠ flag for the reparations-economics specialist (#8) + Black readers in Coates lineage (#15). Closer reads as joining-a-tradition rather than borrowing-with-permission.
+
+**Ratified final paragraph:**
+
+> The framework's choice of *bond* as the umbrella term across its accountability instruments is deliberate. Other terms were available — *tax*, *fee*, *fund* — and each was rejected for a specific structural reason. Taxes are paid at the moment of transaction, against general revenue, with no architecture for matching a posted dollar amount to a specific future obligation. Fees license activity rather than discharge harm. Funds aggregate without discharging. A bond, by contrast, performs three operations the framework requires simultaneously: it is posted before the full cost has been borne, it carries forward across the long tail of the cost it is meant to cover, and it discharges — observably, by a specific dollar figure — against a specific liability when the obligation comes due. The reclamation bonds mining companies post under the Surface Mining Control and Reclamation Act do this. The decommissioning bonds oil-and-gas operators post against well closure do this. The sovereign wealth fund Norway built against its petroleum extraction does this on a national scale. The reparations economics Darity and Mullen developed treats the obligation as a documented historical debt — bond-like in structure if not yet in name. The civic-republican tradition Pettit and Skinner recovered names a standing obligation against future generations that bond posting is the natural accounting form for. The traditions converge on the instrument. The framework uses the term in continuity with these traditions.
+
+**Insertion site:** `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` — between the line ending *"Cost Severance equals Residual Commons Value minus Bond posting."* and the line beginning *"The Restitution Bond operates within an established academic and legal lineage."*
