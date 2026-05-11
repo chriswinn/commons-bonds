@@ -278,7 +278,7 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 
 ### Lead 6. William A. Darity Jr. & A. Kirsten Mullen — *From Here to Equality: Reparations for Black Americans in the Twenty-First Century* (2020; revised 2nd ed. 2022)
 
-**Bibliographic anchor.** University of North Carolina Press. Hardcover ~432 pp; 2nd-edition pb (2022) widely stocked. **Not in `research/literature/bibliography.md` as a §13 entry as of 2026-05-10** — candidate for addition given mechanism strength and active relationship pipeline.
+**Bibliographic anchor.** University of North Carolina Press. Hardcover ~432 pp; 2nd-edition pb (2022) widely stocked. **Bibliography §13 entry added 2026-05-11** per author ratification (closes the gap surfaced by this matrix's Phase 1 verification). Manuscript-engagement decision (Ch 5 primary / Ch 9 secondary candidate) remains queued pending Darity interview 2026-05-12 outcome.
 
 **Positioning.**
 - Shelf: history / political economy / racial justice / reparations economics; serious-trade-with-academic-rigor; UNC Press list signals scholarly-trade
@@ -310,7 +310,7 @@ Until those engagements are written, the comp-list reads honestly as "candidates
 - Marketing plan §04: **Y.** *Atlantic*, *NYRB*, *WaPo*, *Boston Review*, *American Prospect* — racial-justice / political-economy review network.
 - Agent target: **Conditional — pending agent identification + Darity interview outcome.** Direct author-introduction track is strongest pipeline regardless of agent pathway.
 
-**Notes.** Darity interview 2026-05-12 is the highest-leverage relationship event in the comp-pipeline. If the conversation goes well: (a) Mullen warm-intro activation per cross-thread-todos #2; (b) potential blurb pipeline; (c) potential agent-introduction pipeline if Darity is open to sharing his trade-publishing representation. **Bibliography §13 addition recommended** — comp-titles work surfaces this as a bibliography gap; updating §13 with a Darity & Mullen entry is a candidate for a separate bibliography-thread session (out of scope here).
+**Notes.** Darity interview 2026-05-12 is the highest-leverage relationship event in the comp-pipeline. If the conversation goes well: (a) post-Darity warm-intro discovery activation per cross-thread-todos #2 (template-set in `publishing/agents/post-darity-warm-intro-templates_2026-05-10.md`); (b) potential blurb pipeline; (c) potential agent-introduction pipeline if Darity is open to sharing his trade-publishing representation. **Bibliography §13 entry added 2026-05-11** — comp-titles workstream landed the addition; manuscript-engagement decision (Ch 5 primary / Ch 9 secondary candidate) queued pending interview outcome and proposal-finalization Tier-3-round-out decision (Patel & Moore vs. Darity & Mullen).
 
 **Pre-interview leverage flags [2026-05-10 verification phase output] — four time-sensitive items for the 2026-05-12 conversation:**
 
