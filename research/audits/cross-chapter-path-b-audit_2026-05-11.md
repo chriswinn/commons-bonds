@@ -59,6 +59,28 @@
 
 ---
 
+### ✅ Ch 2 ↔ Ch 3 — Chesapeake / watermen preview-then-full — **VERIFIED CLEAN**
+
+**Finding inspected:** Ch 2 closes with a section "What McDowell County and the Chesapeake Have in Common" ([line 201–215](../../manuscript/chapters/Chapter__2_TheMiner__Draft.md:201)) that introduces the Chesapeake watermen at length before Ch 3 (the dedicated Waterman chapter) treats them.
+
+**Investigation:**
+- Ch 2 line 201–215 is a ~250-word preview section establishing thematic parallel: McDowell miners → Chesapeake watermen; mechanism is structurally the same (value disperses, costs concentrate) even though specifics differ
+- Ch 2 explicitly closes with chapter-end pivot pointing forward: *"The miner and the waterman do not know each other. The mechanism connecting them has no name in ordinary speech. One of the purposes of this book is to give it one."*
+- Ch 3 is the full Waterman chapter (~192 lines) — substantive treatment with independent prose
+- Verbatim sentence-level scan across Chesapeake / watermen / oysters / blue crabs / Bay vocabulary found ZERO verbatim duplications between Ch 2's preview and Ch 3's full treatment
+
+**Verdict:** Architecturally clean — same preview-then-full pattern as Ch 5↔Ch 9 Sweden. Ch 2's preview is by-design narrative architecture; Ch 3 carries the substantive load. No Path B contamination.
+
+**No edit needed.**
+
+### ✅ Ch 3 ↔ Ch 8 — no overlap surface — **VERIFIED CLEAN**
+
+**Finding inspected:** Ch 3 (Waterman / Chesapeake fishery) and Ch 8 (per-ton coal walkthrough) have minimal topical overlap. The grep surfaced "shad" in Ch 8 line 93 as a candidate — but on inspection it's a false positive (the word appears as part of "shades" in the Dunbar quote "*shades our eyes*", not the shad fish).
+
+**Verdict:** No Path B surface. The two chapters operate in different extraction-case domains (fishery vs coal); cross-chapter contamination is structurally implausible.
+
+**No edit needed.**
+
 ### ✅ Ch 5 ↔ Ch 9 — Sweden / Saltsjöbaden / 1930s banking crisis — **VERIFIED CLEAN**
 
 **Finding inspected:** Ch 5 line 96 mentions Sweden's 1930s response as a brief comparative observation; Ch 9 lines 117-123 develops the Sweden case at length within the broader Nordic objection treatment.
