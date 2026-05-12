@@ -4,7 +4,7 @@
 **Date:** 2026-05-11
 **Scope:** Pass 1 of the v2.0 three-pass discipline (fact-check only). Pass 2 (voice-polish) and Pass 3 (audience-load) deferred to subsequent fires per author's per-prompt scoping.
 **Mode:** Audit-existing-prose (no Stage 1 brief; per Stage-3 template §"Audit-existing-prose mode", the existing prose is treated as canonical for §6-equivalent first-person memoir claims; Pass 1 verifies externally-verifiable claims + cross-chapter / cross-artifact consistency).
-**Status:** **RATIFIED 2026-05-12.** F-1 Option A + F-2 Option C applied (Phase C, same-session). F-3 / F-4 declined by author (defensible-as-is). §4 workstream-handoff amendment landed 2026-05-12 (commit `ee60d96`). §2 author-internal verification pass deferred to separate session. IDRF/LLRF biographical anchor dropped 2026-05-12 (author judgment — detail doesn't earn its preservation cost; not routed to AuthorsNote or elsewhere).
+**Status:** **RATIFIED 2026-05-12.** F-1 Option A + F-2 Option C + F-5 + F-6 (incl. optional add-on) applied (Phase C, same-session). F-3 / F-4 declined by author (defensible-as-is). §4 workstream-handoff amendment landed 2026-05-12 (commit `ee60d96`). §2 author-internal verification pass in progress — surfaced F-5 + F-6 from DMV-commute claims; 58 countries + 120/138-hour weeks + DMV-commute ($300 + 48 min) verified; remaining claims pending. IDRF/LLRF biographical anchor dropped 2026-05-12 (author judgment — detail doesn't earn its preservation cost; not routed to AuthorsNote or elsewhere).
 
 ---
 
@@ -101,6 +101,43 @@ Ch 1 has the pairing (model-maker + inventor) but lacks the qualifier ("a title 
 **Severity:** LOW. Accurate as-is. Could be sharpened to "over a hundred and twenty years" or anchored to a specific lineage moment, but the loose framing fits memoir register.
 
 **Optional spot-fix:** None recommended; the loose framing is appropriate for the memoir register and avoids burying the moment in citation.
+
+---
+
+### §1.5 Findings surfaced from §2 author-internal verification pass (added 2026-05-12)
+
+The §2 verification pass — by design — is a verification *loop*, not just a checklist: claims that look memoir-internal sometimes turn out to carry externally-verifiable detail that the original Pass 1 didn't catch. These findings emerged during the author's in-conversation verification of §2 claims on 2026-05-12. Severity-classified per the same scale as §1.1–§1.3.
+
+#### F-5 — 2.5hr commute mode misframed (MEDIUM)
+
+**Line 69 (chapter, pre-fix):**
+> "The first day I drove it during work hours took me two and a half hours each way. Plus fifty dollars for parking."
+>
+> [...three sentences later...]
+>
+> "Five days a week, fifty-two weeks a year, five hours a day in the car."
+
+**Canonical truth (per author verification 2026-05-12).** The 2.5-hour work-hour commute was multimodal — drive to the subway lot + park + train into the city — not pure driving. The night-time test (48 minutes, full drive) was misleading vs. the work-hour reality *precisely because the mode had to change*; that's a sharper story than the pure-drive framing implies.
+
+**Severity:** MEDIUM. The "drove it during work hours" framing misleads about mode. The structural cost argument (5 hours/day → 1,300 hours/year) survives, but the detail is wrong. Cascading: "five hours a day in the car" is also inaccurate once multimodal is admitted.
+
+**Spot-fix (ratified 2026-05-12, applied same-session):**
+- "drove it during work hours" → "commuted during work hours"
+- Insert multimodal beat: "— drive to the subway, park, ride the train into the city"
+- Cascade: "five hours a day in the car" → "five hours a day commuting" (internal consistency)
+
+#### F-6 — $50 parking is modern-day figure, not era-appropriate (MEDIUM)
+
+**Line 69 (chapter, pre-fix):**
+> "Plus fifty dollars for parking."
+
+**Canonical truth (per author verification 2026-05-12).** The $50/day parking figure is current as of 2026, not the rate during the original DMV-commute period. Era-appropriate figure was ~$40. Author also frequently parked in alleys and absorbed occasional parking tickets as net-cheaper than legitimate daily parking.
+
+**Severity:** MEDIUM. Per-era accuracy matters in a passage building a quantitative cost argument; a fact-checker would flag the era-anomaly.
+
+**Spot-fix (ratified 2026-05-12, applied same-session):**
+- "fifty dollars" → "forty dollars"
+- Optional add-on (ratified by author): append "— though I learned quickly that parking in alleys and absorbing the occasional ticket came out cheaper". Memoir texture; echoes the book's hidden-cost theme (gaming asymmetric pricing structures); compact one-sentence addition.
 
 ---
 
@@ -229,4 +266,4 @@ Author should fire Pass 2 + Pass 3 sessions to complete the three-pass disciplin
 
 ---
 
-*End of Ch 1 Stage-3 Pass 1 (Fact-Check) rigor pass — RATIFIED 2026-05-12. F-1 Option A + F-2 Option C applied; F-3 / F-4 declined.*
+*End of Ch 1 Stage-3 Pass 1 (Fact-Check) rigor pass — RATIFIED 2026-05-12. F-1 + F-2 + F-5 + F-6 applied (incl. F-6 optional add-on); F-3 / F-4 declined.*
