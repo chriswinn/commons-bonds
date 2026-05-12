@@ -4,7 +4,7 @@
 **Date:** 2026-05-11
 **Scope:** Pass 1 of the v2.0 three-pass discipline (fact-check only). Pass 2 (voice-polish) and Pass 3 (audience-load) deferred to subsequent fires per author's per-prompt scoping.
 **Mode:** Audit-existing-prose (no Stage 1 brief; per Stage-3 template §"Audit-existing-prose mode", the existing prose is treated as canonical for §6-equivalent first-person memoir claims; Pass 1 verifies externally-verifiable claims + cross-chapter / cross-artifact consistency).
-**Status:** **RATIFIED 2026-05-12.** F-1 Option A + F-2 Option C + F-5 + F-6 (incl. optional add-on) + F-7 + F-8 (warmer alternative) + F-9 (complete version) applied (Phase C, same-session). F-3 / F-4 declined by author (defensible-as-is). §4 workstream-handoff amendment landed 2026-05-12 (commit `ee60d96`). §2 author-internal verification pass in progress — surfaced F-5 + F-6 from DMV-commute claims + F-7 from NIH-project-arithmetic claim + F-8 + F-9 from NICU attendance claim; 58 countries + 120/138-hour weeks at NIH + DMV-commute (all 4 numbers) + NIH-project-arithmetic (verified-via-fuzz; legal-counsel disclosure clearance pending per GuidanceDoc CEO-era NDA gate) + NICU dates (all 4 sub-claims; F-8 applied for visit/hold-session conflation + F-9 applied for presence-texture beat) verified; cable-TV details + plane-scene age 38 pending. IDRF/LLRF biographical anchor dropped 2026-05-12. Merant Collage / Serina Collage (project's content-management tool) held out of chapter prose per author 2026-05-12 (disclosure-surface-area minimization; vendor naming routes through legal counsel per GuidanceDoc gate).
+**Status:** **RATIFIED 2026-05-12.** F-1 Option A + F-2 Option C + F-5 + F-6 (incl. optional add-on) + F-7 + F-8 (warmer alternative) + F-9 (complete version) + F-10 + F-11 + F-12 (fuller version, folds in F-13) applied (Phase C, same-session). F-3 / F-4 declined by author (defensible-as-is). §4 workstream-handoff amendment landed 2026-05-12 (commit `ee60d96`). **§2 author-internal verification pass COMPLETE 2026-05-12** — surfaced F-5 + F-6 from DMV-commute claims + F-7 from NIH-project-arithmetic claim + F-8 + F-9 from NICU attendance claim + F-10 + F-11 + F-12 from cable-TV details; 58 countries + 120/138-hour weeks at NIH + DMV-commute (all 4 numbers) + NIH-project-arithmetic (verified-via-fuzz; legal-counsel disclosure clearance pending per GuidanceDoc CEO-era NDA gate) + NICU dates (all 4 sub-claims; F-8 + F-9 applied) + plane-scene age 38 (line 61 cross-couple verified-consistent — divorce-end timeline tracks 'twenty years later' framing) + cable-TV details (all 5 sub-claims; F-10 + F-11 + F-12 applied) verified. IDRF/LLRF biographical anchor dropped 2026-05-12. Merant Collage / Serina Collage (NIH-era content-management tool) + Grass Valley (cable-TV-era broadcasting-company vendor) held out of chapter prose per author 2026-05-12 (disclosure-surface-area minimization; vendor naming routes through legal counsel per GuidanceDoc gate).
 
 ---
 
@@ -227,6 +227,62 @@ Changes:
 - Initial F-9 proposal used "feeding him if I showed up at feeding time" which read as random arrival. Author corrected: scheduling was deliberate; visits were timed to the NICU's care rhythm. Replaced with "feeding him at feeding time" + the intentional-scheduling clause.
 - Tight version (~70 words, intentionality implicit) considered; complete version (~90 words actual, both reasons named) selected by author for the structural-argument-clarity it provides.
 
+#### F-10 — cable-TV timing fuzz (LOW)
+
+**Line 71 (chapter, pre-fix):**
+> "They had reached me five days before they would have run dead air on every commercial break for the rest of the week."
+
+**Canonical truth (per author verification 2026-05-12).** The "five days" framing was author's conservative rounding — playing safe with the timeline. Actual: 7-9 days of commercials loaded; station called the author with six days remaining; possibly 24hr approval-delay before author arrived; 3-day fix at the station; ~48-hour buffer at completion.
+
+**Severity:** LOW. The "five days" was a deliberate conservative choice — not factually wrong, within the real range. Tightening to "six days" matches the firm recall AND sharpens the dead-air tension.
+
+**Spot-fix (ratified 2026-05-12, applied same-session):**
+- "five days" → "six days"
+
+#### F-11 — server age overstated (MEDIUM)
+
+**Line 73 (chapter, pre-fix):**
+> "The server was a fifteen-year-old machine from a famous broadcasting company."
+
+**Canonical truth (per author verification 2026-05-12).** Server was a Grass Valley video upload server running Windows NT (Microsoft EOL 2004-2006). Server vintage: late 90s / early 2000s. Year of the rescue: ~2010-2012. Math: server was ~10-14 years old at the time, most likely 10-12.
+
+**Severity:** MEDIUM. Chapter overstated by 2-5 years. Same memoir-fuzz-vs-records dynamic as F-7 — author memory vs. precise records; fuzz to memoir-defensible range is the right disposition.
+
+**Spot-fix (ratified 2026-05-12, applied same-session):**
+- "fifteen-year-old" → "decade-old"
+- "Decade-old" sits in the 10-14-year range honestly; no word-count change; preserves cadence.
+
+**Tool-name disposition (related, separate):** Grass Valley (broadcasting-company vendor) held OUT of chapter prose per author 2026-05-12. Same disposition as Merant Collage / Serina Collage (F-7) — disclosure-surface-area minimization; vendor naming routes through legal counsel per GuidanceDoc CEO-era NDA gate. Vendor name retained as verification anchor in author's memory; not published-prose material. The chapter's "famous broadcasting company" framing verifies as accurate (Grass Valley is genuinely famous in broadcasting circles).
+
+#### F-12 — cable-TV multi-nap texture beat, folds in F-13 (MEDIUM)
+
+**Line 73 (chapter, pre-fix — post-F-10/F-11):**
+> "...They put me on the phone with a warehouse worker in Chicago who said he would get on a plane if I bought him a roundtrip ticket and put cash in his hand. We were back up in three days."
+
+**Canonical truth (per author verification 2026-05-12).** The pre-fix prose jumps from the warehouse-worker arrangement directly to "back up in three days," compressing several wait phases into zero space. Author articulated the actual rescue arc across the verification exchange:
+
+- After exhausting own search calls, the broadcasting company took over the warehouse search (took a few hours)
+- During the search, author slept ~3.5 hours on the production suite floor under the mixing board
+- Broadcasting company called back with the find (Chicago area)
+- Author then in a variety of meetings with the TV station begging for funds to acquire the specific part + arrange hand-carry delivery
+- Two distinct approval meetings: first meeting → station deliberated ~1hr → 30-40 min nap; higher-ups meeting → discussed ~1hr → 30-40 min nap
+- Part flown + driven to them, more sleep during transit
+- 3-day total at station, ~48hr buffer at completion
+
+**Severity:** MEDIUM. Pre-fix prose compresses the rescue's structural texture entirely. Post-fix beat lands: (a) the multi-phase wait structure that defined the rescue, (b) the CEO-in-trenches reality (mixing-board floor), (c) the deteriorating-sleep-as-deadline-approaches cadence (long crash → short naps), and (d) the institutional friction (the meetings needed to release funds for the station's own rescue). Pairs with line 75's reflection ("I had no special knowledge in either case. I just was not afraid.") — strengthens the chapter's "willingness to work the seams" argument by showing what that willingness actually looked like.
+
+**Spot-fix (ratified 2026-05-12, fuller version applied same-session):**
+
+After:
+> "...They put me on the phone with a warehouse worker in Chicago who said he would get on a plane if I bought him a roundtrip ticket and put cash in his hand. Across the warehouse search, the meetings to release the funds, and the part's flight in, I slept in stretches on the production suite floor under the mixing board — three and a half hours, then half an hour at a time. We were back up in three days."
+
+Net add: ~65 words. The "three and a half hours, then half an hour at a time" cadence does the exhaustion work without an explicit 36-hours-awake anchor (which was in an earlier proposal version, dropped here as redundant). Folds F-13 (TV-station funding-begging meetings) in via "the meetings to release the funds" phrase — no separate F-13 finding needed.
+
+**Proposal trajectory recorded (multi-iteration corrections):**
+- Initial F-12 proposal: "Between approvals — for the search, for the spend, for the delivery — I slept on the production suite floor, under the mixing board." Author rejected: triplet structure mapped non-existent stages; the TV-station approval meetings came AFTER the search, not as a parallel triplet.
+- Second proposal (over-correction): single 3.5-hour nap during the broadcasting company's search, with 36-hour-awake anchor. Author rejected: the multi-nap reality across multiple phases was closer to the original framing.
+- Final proposal (ratified): three-phase wait structure (search / meetings / transit) with multi-nap reality captured via specific durations (3.5 hours, then half an hour at a time). Two pre-application corrections caught in conversation iteration before chapter prose was touched.
+
 ---
 
 ### §1.4 Externally-verifiable claims — confirmed accurate (no fix needed)
@@ -354,4 +410,4 @@ Author should fire Pass 2 + Pass 3 sessions to complete the three-pass disciplin
 
 ---
 
-*End of Ch 1 Stage-3 Pass 1 (Fact-Check) rigor pass — RATIFIED 2026-05-12. F-1 + F-2 + F-5 + F-6 + F-7 + F-8 + F-9 applied (incl. F-6 optional add-on, F-8 warmer alternative, F-9 complete version); F-3 / F-4 declined.*
+*End of Ch 1 Stage-3 Pass 1 (Fact-Check) rigor pass — RATIFIED 2026-05-12. F-1 + F-2 + F-5 + F-6 + F-7 + F-8 + F-9 + F-10 + F-11 + F-12 (folds in F-13) applied (incl. F-6 optional add-on, F-8 warmer alternative, F-9 complete version, F-12 fuller version); F-3 / F-4 declined. §2 author-internal verification pass COMPLETE.*
