@@ -36,8 +36,10 @@
 |---|---|---|
 | Flagship-equation terminology defense sweep (narrow) | `flagship-terms-defense-sweep-handoff_2026-05-11.md` | `claude/flagship-terms-defense-sweep-` |
 | Comp-titles deep matrix v0 Phase 2 (just-in-time verification deferred) | `comp-titles-deep-matrix-phase-2-handoff_2026-05-11.md` | `claude/comp-titles-deep-matrix-phase-2-` |
-| Tech Appendix numbering reconciliation + chapter cross-reference re-validation (COMPLETE — Phases 1–4 landed on main 2026-05-11) | `appendix-numbering-reconciliation-handoff_2026-05-11.md` | `claude/appendix-numbering-reconciliation-` |
+| Tech Appendix numbering reconciliation + chapter cross-reference re-validation (COMPLETE — Phases 1–5 landed on main 2026-05-11) | `appendix-numbering-reconciliation-handoff_2026-05-11.md` | `claude/appendix-numbering-reconciliation-` |
 | Publishing pipeline (markdown → .docx + HTML → PDF for publisher-ready artifacts) | `publishing-pipeline-handoff_2026-05-11.md` | `claude/publishing-pipeline-` |
+| Tech Appendix Scheme-4 cleanup (locally-restarted h4/h5 §-numbering inside §6.6 + §11.5–§11.11) | `appendix-scheme-4-cleanup-handoff_2026-05-11.md` | `claude/appendix-scheme-4-cleanup-` |
+| Ch 6 HTML → markdown conversion (eliminate hybrid-format anomaly) | `ch6-html-to-markdown-conversion-handoff_2026-05-11.md` | `claude/ch6-html-to-markdown-` |
 | $100 Barrel essay (derivative from withdrawn Noema §III) | `100-barrel-essay-handoff_2026-05-11.md` | `claude/100-barrel-essay-` |
 
 ### Special-case fresh-session handoffs (not workstream-handoffs; one-shot driving Stage-2 drafting)
