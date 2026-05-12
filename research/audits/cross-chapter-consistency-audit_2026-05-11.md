@@ -1,8 +1,14 @@
 # Cross-Chapter Consistency — Drift-Findings Audit — 2026-05-11
 
-**Status:** Phase 2 output of the cross-chapter consistency audit workstream (parent handoff: `tools/workstream-handoffs/cross-chapter-consistency-handoff_2026-05-10.md`). Companion to the canonical-terms inventory at `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md`.
+**Status:** ✅ **COMPLETE — all 10 findings ratified 2026-05-11; all 5 batches landed on `main`.** Companion to the canonical-terms inventory at `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md`. Parent handoff: `tools/workstream-handoffs/cross-chapter-consistency-handoff_2026-05-10.md`.
 
-**Pending author ratification.** This audit lists drift findings with proposed canonical choices. No chapter prose has been edited. Each finding is gated on Phase 3 author ratification before Phase 4 application per the handoff's methodology.
+**Final state:**
+- Batch 1 (high-severity stale cross-references: X-1, X-2, X-3) — commit `b645806`
+- Batch 2 (numerical drift: N-1, N-2) — commit `9695b67`
+- Batch 3 (formatting: X-4, F-1) — commit `93dd2c4`
+- Batch 4 (Glossary terminology + citation: T-1, T-2, C-2) — commit `c3b0cc9`
+- Batch 5 (citation verification: C-1) — VERIFIED CLEAN; no edit needed (both Pistor in Ch 5 line 200 and Christophers in Ch 9 line 149 are substantively engaged at depth, >200 words each)
+- Inventory + audit artifact commit (Phases 1+2) — commit `46b175b`
 
 **Methodology applied:** Per-pair grep scans across canonical framework terms, retired terms, named cases, recurring statistics, cross-reference patterns, citation patterns, italicization patterns, voice. Surfaced findings clustered by audit dimension; per finding: current state, proposed canonical choice, severity, scope of edit needed.
 
@@ -358,35 +364,47 @@ Spot-checked Ch 1 (grandfather scenes — past tense throughout); Ch 3 (waterman
 
 ---
 
-## Ratification gate
+## Ratification record (closed 2026-05-11)
 
-Per the handoff's Phase 3 methodology, this audit's findings require author ratification before Phase 4 application. Author decisions needed per finding:
+All 10 findings ratified 2026-05-11. Resolution per item:
 
-1. **X-1 (Ch 6 line 748):** Confirm Ch 5 attribution + confirm $65 vs $65–70 range.
-2. **X-2 (Ch 6 line 745):** Confirm "this chapter's bottom-up walkthrough" phrasing or alternative.
-3. **X-3 (Ch 8 line 71):** Option A (remove) or Option B (replace with valid Ch 2 anchor) or Option C (other)?
-4. **X-4 (Ch 5 line 92):** Confirm capitalization fix.
-5. **N-1 (Ch 6 line 537):** Option A ($1.9T standardization) or Option B (refresh both to 2026 figure) or Option C (keep distinct)?
-6. **N-2 (Ch 5 line 206):** "$4.6 billion" vs "approaching five billion" vs current prose?
-7. **T-1 + T-2 (Value Extraction + Severed Cost):** Option A (Title-case framework terms) or Option B (lowercase prose phrases)?
-8. **C-1 (Pistor/Christophers):** Approve verification spot-read?
-9. **C-2 (Stern Review date):** "2006" or "2007" canonical?
-10. **F-1 (Ch 10 ending + spot-check Ch 1/6/8):** Approve standardization?
+1. ✅ **X-1 (Ch 6 line 748):** Ratified — Ch 5 attribution + $65 billion (dropped $70 upper bound). Applied in Batch 1 (commit `b645806`).
+2. ✅ **X-2 (Ch 6 line 745):** Ratified — "those Chapter 2 named qualitatively and this chapter's bottom-up walkthrough priced at $5 to $15 per ton". Applied in Batch 1.
+3. ✅ **X-3 (Ch 8 line 71):** Ratified — REPLACE phrasing (not remove). Author-ratified specific text: "cost-walkthrough that lands multiple orders of magnitude above the price coal actually sold for". Regression context: 2026-04-27 Ch 8 restructure rigor pass had flagged "$100 barrel passage" as retired vocabulary at this exact line; cleanup did not propagate. Batch 1 completes the 14-days-late propagation. The original oil → coal pivot was deliberate (oil $100/barrel walkthrough survives in the withdrawn Noema essay `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` Section III — recoverable as derivative-essay material; PM session has stood up workstream #16 to explore venue alignment per commit `d84b54b`).
+4. ✅ **X-4 (Ch 5 line 92):** Ratified — capitalize "chapter 9" → "Chapter 9". Applied in Batch 3 (commit `93dd2c4`).
+5. ✅ **N-1 (Ch 6 line 537):** Ratified — Option A ($1.9T standardization to Ch 4 canonical). Applied in Batch 2 (commit `9695b67`).
+6. ✅ **N-2 (Ch 5 line 210):** Ratified — "four and a half billion dollars in debt" (prose-form preserving Ch 5's voice; restores specificity to match Ch 2's $4.6B canonical). Applied in Batch 2.
+7. ✅ **T-1 + T-2 (Value Extraction + Severed Cost):** Ratified — Option B (lowercase prose phrases). Glossary v4 headers downcased + "(lowercase prose phrase)" annotation added, paralleling existing entries for `intergenerational cost severance` and `spatial cost severance`. No chapter prose changes. Applied in Batch 4 (commit `c3b0cc9`).
+8. ✅ **C-1 (Pistor/Christophers):** Verified clean — both engagements are substantively at depth (>200 words each). Ch 5 line 200 has full Pistor *The Code of Capital* engagement with legal-modules thesis + Libby case application. Ch 9 line 149 has full Christophers *The Price is Wrong* engagement with profit-not-price thesis + framework's structural-response synthesis. Both mutual "engaged at depth in Chapter X" cross-claims are accurate. NO EDIT NEEDED.
+9. ✅ **C-2 (Stern Review date):** Ratified — standardize to 2006. Glossary v4 two instances (lines 169, 206 in lineage notes for Externality Tail + Residual Commons Value entries) updated to "Stern Review 2006". Applied in Batch 4.
+10. ✅ **F-1 (Ch 10 ending + spot-check):** Ratified — Ch 10 line 149 "End of Chapter 10" → "— End of Chapter 10 —". Applied in Batch 3. Spot-verify finding: Ch 1, Ch 6, Ch 8 have NO chapter-end marker at all (they end on narrative/argumentative beat) — likely intentional minority pattern; flagged in Batch 3 commit message for author awareness, not modified.
 
----
+## Flagged for separate workstream
 
-## Application protocol (Phase 4)
+**Ch 2 GuidanceDoc staleness — `$100 barrel passage` references.** [Chapter__2___GuidanceDoc.md:31,122,214](manuscript/chapters/Chapter__2___GuidanceDoc.md:31) still references "$100 barrel passage" as if Ch 2 currently has it. Surfaced during X-3 regression sweep. PM session has picked this up as cross-thread #9 per commit `d84b54b`.
 
-Per the handoff + WP#9: commit per ratified chunk; merge per ratified chunk via `git push origin HEAD:main`. Suggested batching:
+**$100 barrel derivative-essay potential.** PM session has stood up workstream #16 (commit `d84b54b`) to evaluate venue alignment for an oil-framed standalone essay. Source material at `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` Section III "The $100 Barrel". Current gas-price spike is the news peg.
 
-- **Batch 1 (high-severity cross-references):** X-1 + X-2 + X-3 → one commit (3 fixes in Ch 6 + Ch 8)
-- **Batch 2 (numerical drift):** N-1 + N-2 → one commit (2 fixes in Ch 5 + Ch 6)
-- **Batch 3 (formatting):** X-4 + F-1 → one commit (Ch 5 + Ch 10)
-- **Batch 4 (glossary + terminology):** T-1 + T-2 + C-2 → one commit (Glossary v4 → v4.1)
-- **Batch 5 (citation verification, if needed):** C-1 → one commit (only if verification surfaces a fix)
-
-Each batch: PM session auto-verification per §10.5.
+**Ch 1/6/8 no-chapter-end-marker pattern.** Spot-verify revealed three chapters lack the em-dashed end-marker that six other chapters use. Likely intentional (narrative-beat closing for Ch 1's plane scene; methodology closing for Ch 6; forward-pivot to Ch 9/10 for Ch 8). Author awareness item; not modified.
 
 ---
 
-*End of audit.*
+## Phase 4 application record (closed 2026-05-11)
+
+Per the handoff + WP#9: committed per ratified chunk; merged per ratified chunk via `git push origin HEAD:main`. Final batch landings:
+
+- ✅ **Batch 1 (high-severity cross-references):** X-1 + X-2 + X-3 — commit `b645806` on main
+- ✅ **Batch 2 (numerical drift):** N-1 + N-2 — commit `9695b67` on main
+- ✅ **Batch 3 (formatting):** X-4 + F-1 — commit `93dd2c4` on main
+- ✅ **Batch 4 (glossary + citation):** T-1 + T-2 + C-2 — commit `c3b0cc9` on main
+- ✅ **Batch 5 (citation verification):** C-1 — VERIFIED CLEAN; no edit needed
+
+Total: 5 chapter-prose edits (Ch 5 ×2, Ch 6 ×3, Ch 8 ×1, Ch 10 ×1 = 7 across 4 chapters) + 4 Glossary edits + 0 verification edits = **9 edits across 5 files**.
+
+Workstream complete. Standing references on main:
+- `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md` — canonical-terms inventory
+- `research/audits/cross-chapter-consistency-audit_2026-05-11.md` — this document
+
+---
+
+*End of audit. Workstream closed 2026-05-11.*
