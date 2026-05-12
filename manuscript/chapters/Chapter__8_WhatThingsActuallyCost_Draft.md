@@ -68,7 +68,7 @@ Running total across the first three components: eight to twenty-two dollars per
 
 ### Foreclosure Cost
 
-This is the cost component Chapter 2 named through the $100 barrel passage and Chapter 6 formalized through the residual commons value integral. It is also the component that, for fossil fuels, dominates every other.
+This is the cost component Chapter 2 named through the cost-walkthrough that lands multiple orders of magnitude above the price coal actually sold for and Chapter 6 formalized through the residual commons value integral. It is also the component that, for fossil fuels, dominates every other.
 
 One ton of coal, when burned, releases approximately 2.86 tons of carbon dioxide into the atmosphere. The EPA's most recent estimate of the social cost of carbon — the economic damage caused by each ton of CO₂ released, anchored to the Rennert et al. 2022 *Nature* meta-analysis that grounded the 2023 EPA update — is one hundred and ninety dollars. The arithmetic is not subtle. The climate cost of burning one ton of coal, at the currently published federal estimate, is approximately five hundred and forty-four dollars.
 
