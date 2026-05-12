@@ -4,7 +4,7 @@
 **Date:** 2026-05-11
 **Scope:** Pass 1 of the v2.0 three-pass discipline (fact-check only). Pass 2 (voice-polish) and Pass 3 (audience-load) deferred to subsequent fires per author's per-prompt scoping.
 **Mode:** Audit-existing-prose (no Stage 1 brief; per Stage-3 template §"Audit-existing-prose mode", the existing prose is treated as canonical for §6-equivalent first-person memoir claims; Pass 1 verifies externally-verifiable claims + cross-chapter / cross-artifact consistency).
-**Status:** **RATIFIED 2026-05-12.** F-1 Option A + F-2 Option C + F-5 + F-6 (incl. optional add-on) + F-7 applied (Phase C, same-session). F-3 / F-4 declined by author (defensible-as-is). §4 workstream-handoff amendment landed 2026-05-12 (commit `ee60d96`). §2 author-internal verification pass in progress — surfaced F-5 + F-6 from DMV-commute claims + F-7 from NIH-project-arithmetic claim; 58 countries + 120/138-hour weeks at NIH + DMV-commute (all 4 numbers) + NIH-project-arithmetic (verified-via-fuzz; legal-counsel disclosure clearance pending per GuidanceDoc CEO-era NDA gate) verified; NICU dates + cable-TV details + plane-scene age 38 pending. IDRF/LLRF biographical anchor dropped 2026-05-12. Merant Collage / Serina Collage (project's content-management tool) held out of chapter prose per author 2026-05-12 (disclosure-surface-area minimization; vendor naming routes through legal counsel per GuidanceDoc gate).
+**Status:** **RATIFIED 2026-05-12.** F-1 Option A + F-2 Option C + F-5 + F-6 (incl. optional add-on) + F-7 + F-8 (warmer alternative) applied (Phase C, same-session). F-3 / F-4 declined by author (defensible-as-is). §4 workstream-handoff amendment landed 2026-05-12 (commit `ee60d96`). §2 author-internal verification pass in progress — surfaced F-5 + F-6 from DMV-commute claims + F-7 from NIH-project-arithmetic claim + F-8 from NICU attendance claim; 58 countries + 120/138-hour weeks at NIH + DMV-commute (all 4 numbers) + NIH-project-arithmetic (verified-via-fuzz; legal-counsel disclosure clearance pending per GuidanceDoc CEO-era NDA gate) + NICU dates (all 4 sub-claims; F-8 applied for visit/hold-session conflation) verified; cable-TV details + plane-scene age 38 pending. IDRF/LLRF biographical anchor dropped 2026-05-12. Merant Collage / Serina Collage (project's content-management tool) held out of chapter prose per author 2026-05-12 (disclosure-surface-area minimization; vendor naming routes through legal counsel per GuidanceDoc gate).
 
 ---
 
@@ -168,6 +168,31 @@ Memoir cadence preserved.
 
 **Tool-name disposition (related, separate):** Merant Collage / Serina Collage (the content-management suite the project used) deliberately NOT added to chapter prose per author 2026-05-12. Rationale: chapter describes the work (translating research across 15 audiences) without naming the tool; adding a vendor name expands the disclosure surface area unnecessarily; per GuidanceDoc CEO-era NDA gate, vendor naming routes through legal counsel. Tool name retained in author's memory as verification anchor; not published-prose-material.
 
+#### F-8 — NICU attendance conflates visit-frequency with hold-session frequency (MEDIUM)
+
+**Line 17 (chapter, pre-fix):**
+> "I tried to be there every day. In practice it was about five days out of seven; some days the nurses were too busy to have me in the room."
+
+**Canonical truth (per author verification 2026-05-12).** The chapter prose conflated two different things into one number:
+- **Visiting the NICU:** nearly every day (~7/7) — author was almost always there.
+- **Chair-and-hold sessions:** 2-3 days/week — gated by nurse bandwidth (nurses had to be slow enough to set up the chair and bring the baby over).
+
+The "five days out of seven" was an inarticulate fusion. Visit frequency was higher than 5/7; hold-session frequency was lower (2-3/7). The single number captured neither cleanly.
+
+**Severity:** MEDIUM. Conflation + minor quantitative drift in a passage that's the chapter's framework-origin emotional anchor. A careful reader could parse "5/7" as either visit-frequency or hold-frequency and form a partially-wrong impression. Also: the fix *strengthens* the chapter's larger argument — the prose's softened version had been undercounting both directions (visits up; hold sessions down).
+
+**Spot-fix (ratified 2026-05-12, warmer-alternative applied same-session):**
+
+After:
+> "I tried to be there every day, and I almost always was. But getting a chair and lying back with him on my chest needed the nurses to be slow enough to set it up, and that was only two or three days out of seven."
+
+Three changes:
+- "I tried to be there every day" preserved (visit intent).
+- "and I almost always was" added — clarifies visiting was near-daily (matches author's recall).
+- Hold-session frequency separately quantified at 2-3/7 with nurse-bandwidth causal account ("getting a chair and lying back with him on my chest needed the nurses to be slow enough to set it up").
+
+**Process note — retraction recorded.** A prior draft of this spot-fix proposed adding "other days the deals would not wait" as a work-pull acknowledgment, and proposed a "pattern note" framing F-7 + F-8 as twin quantitative overstatements. Both retracted after author clarification: the visit/hold gap was nurse-bandwidth, not work-pull (the work-pull theme is properly developed at lines 81 and 97 — no need to prefigure at line 17); and F-7 (NIH arithmetic — clean overstatement) and F-8 (NICU attendance — conflation + minor overstatement) turned out to be different error types, not the same pattern. Recorded so the rigor-pass artifact captures both the proposal trajectory and the corrections.
+
 ---
 
 ### §1.4 Externally-verifiable claims — confirmed accurate (no fix needed)
@@ -295,4 +320,4 @@ Author should fire Pass 2 + Pass 3 sessions to complete the three-pass disciplin
 
 ---
 
-*End of Ch 1 Stage-3 Pass 1 (Fact-Check) rigor pass — RATIFIED 2026-05-12. F-1 + F-2 + F-5 + F-6 + F-7 applied (incl. F-6 optional add-on); F-3 / F-4 declined.*
+*End of Ch 1 Stage-3 Pass 1 (Fact-Check) rigor pass — RATIFIED 2026-05-12. F-1 + F-2 + F-5 + F-6 + F-7 + F-8 applied (incl. F-6 optional add-on, F-8 warmer alternative); F-3 / F-4 declined.*
