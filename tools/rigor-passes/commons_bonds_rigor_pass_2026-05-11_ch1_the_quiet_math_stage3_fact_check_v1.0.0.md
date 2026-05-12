@@ -4,7 +4,7 @@
 **Date:** 2026-05-11
 **Scope:** Pass 1 of the v2.0 three-pass discipline (fact-check only). Pass 2 (voice-polish) and Pass 3 (audience-load) deferred to subsequent fires per author's per-prompt scoping.
 **Mode:** Audit-existing-prose (no Stage 1 brief; per Stage-3 template §"Audit-existing-prose mode", the existing prose is treated as canonical for §6-equivalent first-person memoir claims; Pass 1 verifies externally-verifiable claims + cross-chapter / cross-artifact consistency).
-**Status:** **PROPOSED — pending author ratification.** STOP at recommendations; no chapter edits applied.
+**Status:** **RATIFIED 2026-05-12.** F-1 Option A applied (Phase C, same-session). F-2 / F-3 / F-4 declined by author (defensible-as-is). §4 workstream-handoff amendment + §2 author-internal verification pass deferred to separate sessions.
 
 ---
 
@@ -229,4 +229,4 @@ Author should fire Pass 2 + Pass 3 sessions to complete the three-pass disciplin
 
 ---
 
-*End of Ch 1 Stage-3 Pass 1 (Fact-Check) rigor pass — PROPOSED, pending author ratification of recommended spot-fixes.*
+*End of Ch 1 Stage-3 Pass 1 (Fact-Check) rigor pass — RATIFIED 2026-05-12. F-1 Option A applied; F-2 / F-3 / F-4 declined.*
