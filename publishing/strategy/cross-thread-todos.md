@@ -1,6 +1,6 @@
 # Cross-thread TODOs
 
-**Date drafted:** 2026-05-09  ·  **Date modified:** 2026-05-10
+**Date drafted:** 2026-05-09  ·  **Date modified:** 2026-05-11
 
 **Purpose.** Single living source-of-truth for items where one thread surfaces work that another thread needs to act on. Reduces lookup cost — currently these items are scattered across decisions-log entries, commit messages, and cascade-plan notes, and risk being lost between threads.
 
@@ -82,6 +82,20 @@
 - **Context:** The post-acceptance essay derives from Ch 7 — Path B contamination risk identical to the Noema test that just validated Amendment A. Stage 1 brief must include canonical Ch 7 facts (not just beats); Stage 3 must include the fact-check pass. Update `tools/workstream-handoffs/aeon-essay-post-acceptance-two-stage-handoff_2026-05-10.md` to reference v2.0 application rule.
 - **Target resolution:** before Aeon essay post-acceptance session fires (only fires if Aeon accepts the pitch).
 
+### 10. PM Session — verify apparatus-stability checkpoint for $100 Barrel essay workstream fire (#16)
+
+- **Surfaced by:** Q1 GO/NO-GO rigor pass on $100 Barrel essay workstream (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md`), 2026-05-11
+- **For-thread:** PM Session (next scheduled run)
+- **Status:** open — gate to Q2 sequencing of $100 Barrel essay workstream (#16)
+- **Context:** Q1 verdict ratified CONDITIONAL by author 2026-05-11. Two conditions for workstream fire: (1) Stage 1 brief embeds non-partisan framing discipline (carries forward into drafting once Condition 2 passes); (2) apparatus-stability checkpoint passed. Sub-items 2a + 2d already met today (Ch 6 RCV three-component name-defense `1f3ad9c`; flagship-terms widened sweep `34dd5b6`). Sub-items 2b + 2c need PM Session verification:
+  - **2b — Tech Appendix Phase 3 rebuild status.** Verify whether RCV's formal-apparatus definition is publication-stable in the Tech Appendix or in flight. If stable → green-light. If in flight → defer fire until appendix work crystallizes RCV's formal framing OR author confirms RCV framing is publication-stable for PW print.
+  - **2c — Appendix numbering reconciliation cross-thread status.** Verify whether reconciliation work is closed or in flight. If closed → green-light. If in flight → coordinate with appendix work before fire.
+- **Decision logic at PM Session report-back:**
+  - Both 2b + 2c stable → Q2 sequencing GO; fire workstream within 2–3 weeks (week of 2026-05-18 to early June per workstream handoff timing).
+  - Either 2b or 2c in flight → defer fire 2–4 weeks until apparatus stabilizes; re-test on next PM Session pass.
+  - Both in flight + no clear stabilization timeline → escalate to author for re-scope decision (post-book PW essay vs. workstream withdrawal).
+- **Target resolution:** next PM Session pass (typically 6:30am ET daily per routines v2.0.0 cadence, commit `22e1d13`).
+
 ### 8. Comp-titles deep matrix — Phase 2 web verification (just-in-time before Wave 1)
 
 - **Surfaced by:** comp-titles deep matrix workstream (2026-05-11 session-end handoff)
@@ -115,3 +129,4 @@
 - **2026-05-10.** Two-stage drafting discipline v2.0 codification session landed. Items #5 (Boston Review v2.0 application) and #6 (Aeon post-acceptance v2.0 application) created and resolved in the same atomic commit — both workstream handoffs updated with v2.0-application sections per the ratified Amendments A (Stage 1 canonical factual ground truth, not just beats), B (three distinct Stage 3 passes — fact-check, voice-polish, audience-load), and C (domain-of-applicability rule). Empirical basis: Noema Stage 3 verdict (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md`, commit `a9b627c`) drove Amendments A + B; Aeon Pitch Stage 3 verdict (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`, commit `db4798e`) drove Amendment C. Memory entry `feedback_audience_aware_drafting_discipline.md` updated v1.0 → v2.0; MEMORY.md index updated. Items #5 and #6 are tracked here as resolved (not previously open) because they are coordination markers for downstream sessions to discover that the two workstream handoffs now embed v2.0 as default — they are not future work to-do.
 - **2026-05-10.** Item #3 (bibliography §13 engagement-pending flag updates) RESOLVED — bundled into the comp-titles deep matrix v0 session (commit `519bbce`). Pistor / Christophers / Susskind (Growth) + Susskind (A World Without Work) flags all updated from "engagement pending" → specific section references with word counts. Verified by PM session 2026-05-10 via direct grep against `research/literature/bibliography.md` §13.
 - **2026-05-10.** Item #7 (interview-attribution protocol gaps for international + multi-jurisdiction subjects) ADDED. Surfaced by PM session in response to user question about whether different protocols apply for interview subjects in different states / countries / under GDPR. Three jurisdictional layers inventoried (US recording-consent law; GDPR/UK GDPR; defamation/publishing law). Operational session paste-text drafted by PM 2026-05-10; lawyer-consultation milestone surfaced separately for cascade plan addition before Wave 1.
+- **2026-05-11.** Item #10 ADDED. Q1 GO/NO-GO rigor pass on $100 Barrel essay workstream (#16) ratified CONDITIONAL by author. Two conditions for fire; conditions 2a + 2d already met today; conditions 2b (Tech Appendix Phase 3 rebuild status) + 2c (appendix numbering reconciliation status) queued for PM Session verification. Gate to Q2 sequencing of workstream #16.
