@@ -4,7 +4,7 @@
 **Date:** 2026-05-11
 **Scope:** Pass 1 of the v2.0 three-pass discipline (fact-check only). Pass 2 (voice-polish) and Pass 3 (audience-load) deferred to subsequent fires per author's per-prompt scoping.
 **Mode:** Audit-existing-prose (no Stage 1 brief; per Stage-3 template §"Audit-existing-prose mode", the existing prose is treated as canonical for §6-equivalent first-person memoir claims; Pass 1 verifies externally-verifiable claims + cross-chapter / cross-artifact consistency).
-**Status:** **RATIFIED 2026-05-12.** F-1 Option A + F-2 Option C + F-5 + F-6 (incl. optional add-on) applied (Phase C, same-session). F-3 / F-4 declined by author (defensible-as-is). §4 workstream-handoff amendment landed 2026-05-12 (commit `ee60d96`). §2 author-internal verification pass in progress — surfaced F-5 + F-6 from DMV-commute claims; 58 countries + 120/138-hour weeks + DMV-commute ($300 + 48 min) verified; remaining claims pending. IDRF/LLRF biographical anchor dropped 2026-05-12 (author judgment — detail doesn't earn its preservation cost; not routed to AuthorsNote or elsewhere).
+**Status:** **RATIFIED 2026-05-12.** F-1 Option A + F-2 Option C + F-5 + F-6 (incl. optional add-on) + F-7 applied (Phase C, same-session). F-3 / F-4 declined by author (defensible-as-is). §4 workstream-handoff amendment landed 2026-05-12 (commit `ee60d96`). §2 author-internal verification pass in progress — surfaced F-5 + F-6 from DMV-commute claims + F-7 from NIH-project-arithmetic claim; 58 countries + 120/138-hour weeks at NIH + DMV-commute (all 4 numbers) + NIH-project-arithmetic (verified-via-fuzz; legal-counsel disclosure clearance pending per GuidanceDoc CEO-era NDA gate) verified; NICU dates + cable-TV details + plane-scene age 38 pending. IDRF/LLRF biographical anchor dropped 2026-05-12. Merant Collage / Serina Collage (project's content-management tool) held out of chapter prose per author 2026-05-12 (disclosure-surface-area minimization; vendor naming routes through legal counsel per GuidanceDoc gate).
 
 ---
 
@@ -139,6 +139,35 @@ The §2 verification pass — by design — is a verification *loop*, not just a
 - "fifty dollars" → "forty dollars"
 - Optional add-on (ratified by author): append "— though I learned quickly that parking in alleys and absorbing the occasional ticket came out cheaper". Memoir texture; echoes the book's hidden-cost theme (gaming asymmetric pricing structures); compact one-sentence addition.
 
+#### F-7 — NIH project arithmetic conflicts with author recall (MEDIUM)
+
+**Line 57 (chapter, pre-fix):**
+> "It had been planned for a team of forty-five people, one year, one million dollars. By the time I arrived it was at two and a half million and a year past due, and the team's plan was to ask for another year, another two million dollars, and more people."
+
+**Canonical truth (per author verification 2026-05-12).** Author's current recall conflicts with the chapter prose on three of four quantitative claims:
+
+| Claim | Pre-fix | Author recall |
+|---|---|---|
+| Team size | "forty-five people" | "43 or 65 — can't recall precisely" |
+| Time overrun | "a year past due" | ✓ matches ("12 months past due") |
+| Cost figure | "at two and a half million" (= $1.5M over $1M plan) | "$500k over budget" (= $1.5M total spent) |
+| Renewal ask | "another two million dollars" | "another million dollars" |
+
+The chapter currently overstates the dollar overrun by ~$1M and the renewal ask by ~$1M. The story arc (project a mess, author cuts scope, proof of concept in 3 months) survives; the quantitative texture is drift.
+
+**Severity:** MEDIUM. Concrete quantitative claims in a memoir building a cost-overrun argument; author's current recall contradicts the prose; without records to settle, memoir-register fuzz is the right disposition.
+
+**Spot-fix (ratified 2026-05-12, applied same-session):**
+- "forty-five people" → "more than forty people" (covers 43/65 uncertainty honestly; no false precision)
+- "two and a half million" → "a million and a half" (matches $500k-over-$1M-plan recall)
+- "another two million dollars" → "another million dollars" (matches $1M renewal-ask recall)
+
+Memoir cadence preserved.
+
+**Downstream disposition:** the NIH-project-arithmetic claim flips from "pending" to "verified-via-fuzz" in the §2 verification table. Per the GuidanceDoc CEO-era NDA review gate ([Chapter__1___GuidanceDoc.md:267](../../manuscript/chapters/Chapter__1___GuidanceDoc.md:267)), the passage as-fixed needs legal-counsel disclosure clearance before publisher submission. F-7 fix reduces the disclosure-surface area (less specific numbers, less attackable on accuracy grounds) and should ease legal-counsel review.
+
+**Tool-name disposition (related, separate):** Merant Collage / Serina Collage (the content-management suite the project used) deliberately NOT added to chapter prose per author 2026-05-12. Rationale: chapter describes the work (translating research across 15 audiences) without naming the tool; adding a vendor name expands the disclosure surface area unnecessarily; per GuidanceDoc CEO-era NDA gate, vendor naming routes through legal counsel. Tool name retained in author's memory as verification anchor; not published-prose-material.
+
 ---
 
 ### §1.4 Externally-verifiable claims — confirmed accurate (no fix needed)
@@ -266,4 +295,4 @@ Author should fire Pass 2 + Pass 3 sessions to complete the three-pass disciplin
 
 ---
 
-*End of Ch 1 Stage-3 Pass 1 (Fact-Check) rigor pass — RATIFIED 2026-05-12. F-1 + F-2 + F-5 + F-6 applied (incl. F-6 optional add-on); F-3 / F-4 declined.*
+*End of Ch 1 Stage-3 Pass 1 (Fact-Check) rigor pass — RATIFIED 2026-05-12. F-1 + F-2 + F-5 + F-6 + F-7 applied (incl. F-6 optional add-on); F-3 / F-4 declined.*
