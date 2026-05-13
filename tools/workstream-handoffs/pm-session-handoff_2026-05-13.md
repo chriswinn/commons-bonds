@@ -47,7 +47,7 @@ You do NOT need to read the individual workstream handoffs unless the user asks 
 
 | When | Action |
 |---|---|
-| **TODAY Wed May 13 14:00 ET** | **Darity interview** (user conducts; 1hr phone). |
+| **TODAY Wed May 13 14:30 ET** | **Darity interview** (user conducts; 1hr phone). Rescheduled from 14:00 at Darity's request 2026-05-13 AM; reschedule-confirmation reply sent. |
 | **Tonight or Thu May 14** | **Post-Darity synthesis** (~5% weekly budget). Feeds #2 Boston Review + #5 author platform + warm-intro discovery decision. |
 | **Thu May 14 – Sat May 16** | **Send Sandy post-interview confirmation email** per [v2 template](research/outreach/subjects/sandy/post-interview-email-template_v2_2026-05-11.md) with warm-intro reframe based on what Darity surfaced. |
 | **This week** | **Ratify Ch 1 Pass 2** `6fb6510` → apply voice-polish spot-fixes → fire Ch 1 Pass 3. Start firing Ch 2/3/4 remaining passes. |
@@ -152,7 +152,7 @@ Cross-thread #11 (endnote/citation sweep) accumulating: Ch 2 = 9M+1L; Ch 4 = 5M+
 Merged deadline calendar + todos. Sorted forward in time.
 
 ### Today (Wed May 13)
-- **14:00 ET** — Darity interview (user conducts; 1 hr phone)
+- **14:30 ET** — Darity interview (user conducts; 1 hr phone) — rescheduled from 14:00 at Darity's request; reschedule-confirmation reply sent
 - **Tonight or Thu May 14** — Post-Darity synthesis (~5% weekly budget); feeds #2 + #5 + warm-intro discovery decision
 
 ### This week (by Sun May 17)
@@ -333,7 +333,7 @@ Per `outreach-pipeline-handoff_2026-05-09.md`. Update as responses land.
 
 | Subject | Affiliation | Status | Date | Notes |
 |---|---|---|---|---|
-| **William ("Sandy") Darity Jr.** | Duke | **INTERVIEW TODAY** | Wed May 13 14:00 ET (1 hr phone) | Full prep stack ready. Substitution-hypothesis-applied draft of Section V already exists. Post-call: send confirmation email per v2 template May 14–16; surface warm-intro discovery (Kendi / Cook Center / Gates / Mullen implicit). |
+| **William ("Sandy") Darity Jr.** | Duke | **INTERVIEW TODAY** | Wed May 13 14:30 ET (1 hr phone) — rescheduled from 14:00 at Darity's request 2026-05-13 AM | Full prep stack ready. Substitution-hypothesis-applied draft of Section V already exists. Reschedule-confirmation reply sent 2026-05-13 (declined to offer pre-call primer — relationship-stage discipline: senior subject who self-disclosed prep gap gets trusted to prep, not inserted-upon). Post-call: send confirmation email per v2 template May 14–16; surface warm-intro discovery (Kendi / Cook Center / Gates / Mullen implicit). |
 | **Mariana Mazzucato** | UCL/IIPP | HOLDING via Adam Albrecht | Held since 2026-05-06 | Awaiting substantive follow-up. Not blocking. |
 | **Allison Colden** | CBF Maryland | RESPONSE SENT via Val DiMarzio (consolidated) | 2026-05-13 (scheduled-send Wed May 20 8am EDT) | Public-record brief landed 2026-05-08. Substitution-hypothesis CONFIRMED. Pre-publication citation-verification packet pre-staged (`15c6b0f`). |
 | **Karen Moore** | CBF Virginia | RESPONSE SENT via David Sherfinski (consolidated) | 2026-05-13 (scheduled-send Wed May 20 8am EDT) | Public-record brief landed 2026-05-08. |
