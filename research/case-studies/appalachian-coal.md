@@ -9,23 +9,23 @@
 
 ## The case in brief
 
-McDowell County, West Virginia, at its 1950 peak was home to nearly 100,000 people and sat atop some of the richest metallurgical coal seams in the world. That coal armed World War II and powered the industrialization that built modern America. By 2020, McDowell County's population had collapsed to under 20,000. Male life expectancy is 63.5 years, against a national average of 76.5 — a 13-year gap. The drug death rate runs at 141 per 100,000, ten times the national average. Median household income is $28,235. The county ranks 55th of 55 West Virginia counties in health outcomes.
+McDowell County, West Virginia, at its 1950 peak was home to nearly 100,000 people and sat atop some of the richest metallurgical coal seams in the world. That coal armed World War II and powered the industrialization that built modern America. By 2020, McDowell County's population had collapsed to under 20,000. Male life expectancy is 63.5 years, against a national male average of 76.5 — a 13-year gap. The drug death rate runs at 141 per 100,000, ten times the national average. Median household income is $28,235. The county ranks 55th of 55 West Virginia counties in health outcomes.
 
 The total cost of McDowell County coal — black lung, reclamation liability, community transition collapse, intergenerational workforce dispersion — ran between 33 and 122 times what the coal actually sold for. The coal was not slightly underpriced. It was underpriced by an order of magnitude, and the difference was paid by the people who had the least ability to refuse.
 
 ## Historical anchor — JFK's 1960 visit
 
-In September of 1960, John F. Kennedy drove through McDowell County, West Virginia, and what he saw changed the direction of his campaign. He had come to win a primary in a state he was expected to lose. What he found instead was something that didn't fit the story America was telling about itself that year — the story of postwar prosperity, of a country that had beaten the Depression and then the Axis and was now growing its way toward something permanent and good.
+In May of 1960, John F. Kennedy drove through McDowell County, West Virginia, and what he saw changed the direction of his campaign. He had come to win a primary in a state he was expected to lose. What he found instead was something that didn't fit the story America was telling about itself that year — the story of postwar prosperity, of a country that had beaten the Depression and then the Axis and was now growing its way toward something permanent and good.
 
-What Kennedy saw were children with distended bellies. Families eating surplus commodities — the first government food distribution program in American history, administered right there in the hollows of McDowell County, because there was nothing else. Men who had mined the coal that powered the cities and built the ships that won the war, now sitting idle because the machines had come and the companies had no further use for them.
+What Kennedy saw were children with distended bellies. Families eating surplus commodities — distributed right there in the hollows of McDowell County, because there was nothing else. Men who had mined the coal that powered the cities and built the ships that won the war, now sitting idle because the machines had come and the companies had no further use for them.
 
-Kennedy was not a man given to sentiment in his public remarks. But in Canton, Ohio, the month after that West Virginia visit, he said something that has stayed with the historical record: *I do not believe any of us would like to live here.*
+Kennedy was not a man given to sentiment in his public remarks. But four months later, in Canton, Ohio, he came back to what he had seen: *McDowell County mines more coal than it ever has in its history, and there are more people getting surplus food packages in McDowell County than any county in the United States.*
 
 He meant it as an indictment of neglect. He was right that it was an indictment. He had the wrong defendant.
 
 ## What McDowell County was
 
-At its peak, in 1950, McDowell County was home to nearly 100,000 people. The towns had names — Welch, Keystone, Kimball, War — and the towns had everything towns are supposed to have: department stores, theaters, hotels, newspapers, a civic life. The county sat on top of some of the richest metallurgical coal seams in the world, the kind of coal that made steel hard enough to build the Brooklyn Bridge, the Empire State Building, the aircraft carriers that turned the Pacific war. During World War II, McDowell County coal didn't just heat homes. It armed a civilization.
+At its peak, in 1950, McDowell County was home to nearly 100,000 people. The towns had names — Welch, Keystone, Kimball, War — and the towns had everything towns are supposed to have: department stores, theaters, hotels, newspapers, a civic life. The county sat on top of some of the richest metallurgical coal seams in the world, the kind of coal that made steel hard enough to build the Golden Gate Bridge, the Empire State Building, the aircraft carriers that turned the Pacific war. During World War II, McDowell County coal didn't just heat homes. It armed a civilization.
 
 The people who mined it were proud of that. This matters. The argument that follows is not that those people were wrong to be proud, or that the work they did was ignoble, or that they should have chosen something else. The argument is about accounting — about who paid for what, and who didn't, and what the ledger looks like when you add up all the columns.
 
@@ -39,12 +39,12 @@ The population began to drain. Not all at once — slowly, then faster, then in 
 
 ## Current state (2024 data)
 
-- Male life expectancy: 63.5 years (vs. 76.5 national) — 13-year gap
+- Male life expectancy: 63.5 years (vs. 76.5 U.S. male average) — 13-year gap
 - Drug death rate: 141 per 100,000 — 10× national average
 - Poverty rate: 37.6%
 - Median household income: $28,235
 - County health ranking: 55th of 55 West Virginia counties
-- First food stamps in American history were issued here; current data suggests the county may need them again
+- First food stamps under the modern program were issued here; current data suggests the county may need them again
 
 Thirteen years is not a gap you can close with better personal choices or a more optimistic attitude. It is a structural outcome. It is what happens to bodies when costs accumulate over generations without relief.
 
