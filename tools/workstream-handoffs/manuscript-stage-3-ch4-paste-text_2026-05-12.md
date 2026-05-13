@@ -1,4 +1,8 @@
-# Manuscript Stage-3 Phase A — Ch 4 paste-text (ready to fire)
+# Manuscript Stage-3 Phase A — Ch 4 paste-text (SUPERSEDED 2026-05-13)
+
+> **⚠ SUPERSEDED.** Ch 4 Stage-3 Phase A Pass 1 (fact-check) landed via parallel session on origin/main as commit `e67b8b8` (2026-05-12) — 0 CRITICAL, 0 HIGH, 5 MEDIUM (ratified + applied same-session), 3 LOW. The two specific drifts this paste-text flagged for verification — GPFG founding-date conflation (1990 vs 2006 rename) and Bondevik-coalition sequencing — were NOT replicated in Ch 4 (op-ed pipeline Stage-3 catch at commit `5167edd` did not regress). Phase A artifact at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-12_ch4_existence_proof_stage3_fact_check_v1.0.0.md`.
+>
+> File retained as historical audit-trail: documents the Ch 4 paste-text drafted during the Ch 2 Phase A session on 2026-05-12 but never fired (the parallel Ch 4 session used direct invocation rather than this paste-text). The audit emphases proved well-calibrated to the actual landmines, but they were already implicit in the workstream handoff per-chapter table — this artifact added marginal value over the workstream handoff itself. **Do not fire** — Ch 4 Phase A Pass 1 is already complete.
 
 **Date drafted:** 2026-05-12
 **Workstream:** Manuscript Stage-3 Rigor Pass (PM dashboard #20)
