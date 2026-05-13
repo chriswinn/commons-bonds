@@ -1,7 +1,7 @@
 # Advance interview questions — Colden (contingent on Val accepting offer)
 
 **Drafted:** 2026-05-05 by Claude per author direction.
-**Status:** READY-TO-SEND if Val DiMarzio accepts the offer of "the specific 5–8 questions I'd plan to ask" made in `research/outreach/subjects/colden/response-draft_2026-05-05_via-dimarzio.md`. Do not send unless Val explicitly takes us up on it.
+**Status:** TRIGGER FIRED 2026-05-13. Val DiMarzio accepted the offer of advance materials in her 2026-05-13 reply ("You mentioned having an outline and some potential questions you could share with us? That would be super helpful…") and consolidated MD + VA gatekeeper threads by adding David Sherfinski. Question set is being shipped as part of the consolidated response drafted at `research/outreach/subjects/cbf/response-draft_2026-05-13_consolidated-thread.md` — adapted from this draft (all 7 questions preserved; Q0 attribution held for live-call ground-rules per author decision; "Dear Ms. DiMarzio" updated to "Dear Val and David" per consolidated-audience register).
 **Branch:** `claude/respond-to-valerie-inquiry-mV3Na`.
 
 ---
