@@ -47,6 +47,57 @@ Not interpretation — just flagging elements a future drafting session may want
 
 ---
 
+## Reception strategy notes (for AI Statement drafting)
+
+**Provenance:** PM session 2026-05-13 strategic-framing discussion. Author's load-bearing concern: the AI Statement's disclosure choices could affect "the weight & effectiveness of the book as it starts circulating." Captured here as input for the future AI Statement drafting session; the recommendations below are PM-session analysis, not author position — author should weigh, accept, or reject as part of drafting.
+
+### The core tradeoff
+
+More disclosure invites some skeptical readers to discount the work; less disclosure risks larger credibility damage if the book is read as concealing or downplaying methodology. **PM read:** for *this book specifically*, under-disclosure carries the bigger reputational risk.
+
+### Three reasons under-disclosure is the bigger risk here
+
+1. **Thesis-coherence.** The book argues that costs should be visible, not concealed. Concealing or softening the process cost (AI collaboration) while arguing for material cost-visibility is an internal inconsistency careful readers will notice — and may use against the work.
+2. **Detection forensics.** AI-pattern detection is good and improving. If the AI Statement undersells the actual scope of involvement and a reviewer detects the gap, the damage from "stated vs. detected" inconsistency is larger than the damage from honest specificity in the first place.
+3. **Aging.** The cultural conversation about AI in serious nonfiction is moving fast. Books that were specific and honest about methodology in 2026–27 will look prescient. Books that were vague or evasive will look dated within a few years.
+
+### The decision isn't "how much" — it's "where on each axis"
+
+| Axis | PM recommendation | Why |
+|---|---|---|
+| **Scope** | Specific (origin story + workflow) | Specificity is more credible than abstraction. Vague "I used AI" reads as CYA. |
+| **Tone** | Matter-of-fact | Not defensive, not apologetic, not pro-AI advocacy. Same register as the rest of the book. |
+| **Length** | Substantial but not bloated (rough range: 1,000–2,500w; longer if integrated as methodological prologue) | Long enough to do the work; short enough that it doesn't compete with the argument. |
+| **Placement** | Front matter, foregrounded | Reader knows before investing. Honest with their attention. Don't bury in end matter. |
+| **Reflexivity** | Substantial | What to trust at face value, what to verify, AI failure modes (hallucination, complexity flattening, citation errors), where authorial accountability sits. *This is what distinguishes a serious AI Statement from a CYA disclosure.* |
+| **Aesthetic** | Integral, not appendix | The book is about making invisible things visible. The AI Statement is one of those invisible things made visible. Frame it as part of the argument, not a footnote to it. |
+
+### Audience segmentation
+
+- **Hostile-skeptical readers** will discount AI-touched work regardless of disclosure quality. The book is heterodox; that audience will resist on substance anyway. Disclosure choices don't move them.
+- **Indifferent readers** don't care about methodology either way. The argument either works or it doesn't.
+- **Curious-engaged readers** — the most important segment for the book's argumentative weight — weight honesty as credibility, not as weakness. They gain through transparency, not despite it.
+- **Pre-emptively-defensive readers** become MORE skeptical if they discover AI involvement mid-read; LESS skeptical if it's foregrounded honestly upfront.
+
+**The hostile-skeptical audience is mostly fixed; the curious-engaged audience is gainable, and the path to gaining them runs through transparency.**
+
+### Framing that earns credibility back
+
+The framing matters as much as the content. A draft register to consider — confident, not apologetic:
+
+> *"I worked with AI as a research collaborator because the literature I needed to traverse was vast and the calculations I needed to run were beyond what one person could do unaided. That's transparency about a real research methodology, not weakness."*
+
+The book's posture should not be "I'm sorry I used AI." It should be "Here is what this collaboration was, what role it played, and what I want you to know so you can evaluate the argument with the methodology in view."
+
+### Open strategic questions for the drafting session
+
+- Should the AI Statement be reviewed by trusted readers BEFORE the book ships, to test reception across audience segments? (Pre-publication beta-read framing.)
+- Does the AI Statement get its own venue beyond the book — a companion essay, an Aeon/Noema piece, a Substack post — that addresses the methodology in a longer-form public conversation? This could absorb reception pressure that would otherwise land on the book itself.
+- How does the AI Statement interact with quote-back consent protocols for named subjects? (Subjects who consented to be quoted before AI methodology was disclosed to them deserve a chance to reconsider with that context — though for Darity specifically, AI use was disclosed at first contact, so that consent loop is intact.)
+- Is there value in making the methodology *demonstrable* — e.g., publishing a single representative session transcript as an appendix or companion artifact — so curious readers can see what AI collaboration on this project actually looked like rather than having to imagine it?
+
+---
+
 ## Capture discipline notes
 
 - Origin-narrative material like this rarely survives the gap between thought and final draft if not captured at the moment. Worth re-reading and adding to as more of the project's history surfaces.
