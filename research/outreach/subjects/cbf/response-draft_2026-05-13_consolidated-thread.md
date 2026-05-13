@@ -109,9 +109,17 @@
 >
 > ---
 >
+> **One ask that holds regardless of the ED routing decision**
+>
+> The chapter spans several Bay communities, and alongside the routing decision on Allison or Chris: any institutional routes you see to working or retired watermen — Tangier captains, Northern Neck wild-harvest, oyster aquaculture operators, working-waterfront programs generally — would carry weight for the chapter. I'd defer entirely to whatever you'd point me at.
+>
+> ---
+>
 > **A few more practical notes**
 >
 > What I'm hoping for in either conversation is closer to a calibration conversation than a quote-mining one — room for the interviewee to push back on framework-level claims that don't fit, and to shape how a forthcoming book represents their territory. The time-ask is ~30 minutes per conversation, with substitutions on any of the questions welcome. Phone, video, or in-person — I'm in Hampton, so anywhere on the Bay is straightforward.
+>
+> On attribution: I'd like to quote each of them in the book and in a derivative *Noema*-track essay, and people handle attribution very differently — some prefer freely-quotable answers, some prefer paraphrase + attribution with the chance to review direct quotes, others prefer transcript review before any quoting. I'll ask each of them at the start of any conversation we have, and abide by whatever works for them across the book and essay. Nothing to decide now.
 >
 > If a one-page framework summary would help your routing decisions alongside the above, I'm happy to send it. Otherwise, the chapter outline + questions above are the most direct version of what I'd be asking either of them to engage with.
 >
@@ -129,24 +137,26 @@
 - **Package format:** inline, two distinct question sets. Allison's (7 questions) preserves the calibration from the existing draft. Chris's (5 questions) preserves the calibration from his pre-read brief.
 - **Salutation:** "Dear Val and David." Mirrors David's "Dear Chris" register and Val's repeated "Val" sign-off.
 - **Outline scope:** 7-bullet structural sketch included.
+- **Attribution paragraph — ADDED to §"A few more practical notes" (per 2026-05-13 author ratification).** Surfaces the attribution-options menu (freely quotable / paraphrase + review / transcript review) as discipline-signaling, *not* as a pre-commitment ask. Closing "Nothing to decide now" defuses any read as a gating condition. Strategic value: earns trust at the gate by demonstrating the author has thought carefully about the politics of quoting CBF leadership — which mirrors the consent discipline already operating in the Fox Hill / Phat consent track at the community level. Risk it avoids: forcing Val/David to ask Allison/Chris to pre-commit on quote terms before agreeing to interview, which could have catastrophized as "decline interview AND decline quote authorization." Q0 attribution-preference still asked live at the start of each interview; the email surfaces the discipline without asking anyone to lock in.
+- **Watermen-routing blurb — ADDED (softened) between Chris's question set and §"A few more practical notes" (per 2026-05-13 author ratification + Phat/Biggie material review).** Original draft considered an "irreducible voice need" framing; softened after reviewing `research/story-drafts/ch3_fox-hill-watermen-biggie-phats_2026-05-09.md`. Phat (named-pending-consent) and Biggie (named, deceased) already supply the Fox Hill / Hampton-Lower-Bay primary-source watermen anchor for the chapter — CBF-routed watermen are *complement, not necessity*. Final framing names the ask as additive to the ED routing decision without claiming chapter-irreducibility, omits "cannot land without" language, and stays geographically open (Tangier / Northern Neck / aquaculture / working-waterfront programs generally) without naming specific people (Eskridge, Twin Rivers leadership, Port Isobel staff, etc. — those still held for subsequent correspondence after the primary routing decision). Does NOT disclose Fox Hill material — that's author's personal-roots ground, not CBF-comms-gatekeeper material. Note: the softer urgency is appropriate ONLY while the Phat consent track is on path; if Phat declines consent or can't be reached before the Noema late-May / early-June window, the watermen-routing ask to CBF re-escalates in urgency on subsequent correspondence.
 
 ### Still open for author review
 
-1. **Q0 attribution-preference question — deliberately omitted from the email.** The questions-draft file included a Q0 attribution-preference question. That question is a *live-call ground-rules* item, not a routing-decision item. Including it in this email would mix two different conversations. Recommend keeping it out and asking live at the start of each interview. If author wants to surface it now, simplest add: a short line in §"A few more practical notes" — *"On attribution, I'll ask at the start of each conversation what each of them prefers — freely quotable, paraphrase + review, transcript review before any quoting — and abide by it across the book and any derivative essay."* Author preference TBD.
+1. **Soviet / cross-system framing — deliberately omitted entirely.** Val's original Q2 in her 2026-05-05 message asked about "connecting Bay fisheries to Soviet industrial planning"; the 2026-05-06 response addressed it at length. Now that the offered materials are landing, repeating the cross-system framing in front of two CBF EDs would re-introduce the career-protection risk for no benefit. The Bay-specific frame the prereadbriefs use ("renewable-past-regeneration") is sufficient. Recommend keep omitted.
 
-2. **Soviet / cross-system framing — deliberately omitted entirely.** Val's original Q2 in her 2026-05-05 message asked about "connecting Bay fisheries to Soviet industrial planning"; the 2026-05-06 response addressed it at length. Now that the offered materials are landing, repeating the cross-system framing in front of two CBF EDs would re-introduce the career-protection risk for no benefit. The Bay-specific frame the prereadbriefs use ("renewable-past-regeneration") is sufficient. Recommend keep omitted.
+2. **Framework one-pager offer — kept light.** Closing offers the one-page framework summary if it would help. Doesn't push it (Val didn't ask for it; she asked for outline + questions). Author may want to either (a) drop the offer entirely or (b) attach the one-pager up front. Recommend keep light-touch as drafted.
 
-3. **Framework one-pager offer — kept light.** Closing offers the one-page framework summary if it would help. Doesn't push it (Val didn't ask for it; she asked for outline + questions). Author may want to either (a) drop the offer entirely or (b) attach the one-pager up front. Recommend keep light-touch as drafted.
+3. **Q4 in Chris's set — Sherfinski-acknowledgment.** Modified the original prereadbrief wording from "Beyond what Sherfinski may already be routing" to "Beyond what you and David might already be considering" — since David is now reading the email directly, the original third-person phrasing would have read oddly. Recommend keep.
 
-4. **Q4 in Chris's set — Sherfinski-acknowledgment.** Modified the original prereadbrief wording from "Beyond what Sherfinski may already be routing" to "Beyond what you and David might already be considering" — since David is now reading the email directly, the original third-person phrasing would have read oddly. Recommend keep.
+4. **Allison's question set — keep all 7 or trim?** The Colden questions-draft author notes flagged Q6 (MD-VA divide) as the cuttable one if the author wants a tighter 6-question ask. With David now on chain, Q6 has additional resonance (David's vantage on the VA side of the same jurisdictional question). Recommend keep all 7.
 
-5. **Allison's question set — keep all 7 or trim?** The Colden questions-draft author notes flagged Q6 (MD-VA divide) as the cuttable one if the author wants a tighter 6-question ask. With David now on chain, Q6 has additional resonance (David's vantage on the VA side of the same jurisdictional question). Recommend keep all 7.
+5. **Chris's question set — keep 5 priority only, or add stretch follow-ups?** Moore's interview-prep doc has stretch follow-ups (Q6-Q10) covering accountability-instrument register, personal arc, etc. Stretch questions are for live-conversation depth, not routing decisions. Recommend keep at 5.
 
-6. **Chris's question set — keep 5 priority only, or add stretch follow-ups?** Moore's interview-prep doc has stretch follow-ups (Q6-Q10) covering accountability-instrument register, personal arc, etc. Stretch questions are for live-conversation depth, not routing decisions. Recommend keep at 5.
+6. **Tone of opener.** "Consolidating the thread does make this easier, and David, glad to be on chain with you here as well" — warm but not effusive. Alternative: "Thanks, Val, and David — good to be on chain with you both" (tighter). Author preference TBD.
 
-7. **Tone of opener.** "Consolidating the thread does make this easier, and David, glad to be on chain with you here as well" — warm but not effusive. Alternative: "Thanks, Val, and David — good to be on chain with you both" (tighter). Author preference TBD.
+7. **Send timing.** Today's date is 2026-05-13. Val's reply landed today. Same-day response (within today's working hours) matches her engagement signal. Recommend send today after author review.
 
-8. **Send timing.** Today's date is 2026-05-13. Val's reply landed today. Same-day response (within today's working hours) matches her engagement signal. Recommend send today after author review.
+8. **Phat consent visit — operational dependency flagged.** Not affected by this email but materially affects the watermen-routing-blurb soft-framing decision. If Phat declines consent or can't be reached before the Noema late-May / early-June submission window, the watermen-routing ask to CBF re-escalates. Author should track the Phat consent visit as its own near-term action item; document collected at `research/outreach/subjects/phat/phat-consent-document_2026-05-10.md`, ready to print.
 
 ---
 
