@@ -1,5 +1,7 @@
 # Project Management Session — Handoff (2026-05-10)
 
+> **SUPERSEDED 2026-05-13** by [`pm-session-handoff_2026-05-13.md`](pm-session-handoff_2026-05-13.md). This file covers the 2026-05-10 → 2026-05-13 session window. Retained as audit-trail; fresh PM sessions should orient against the successor.
+
 **Date drafted:** 2026-05-10
 **Branch to create at session start:** `claude/pm-session-<harness-id>` (branch from current `origin/main`)
 **Session type:** **Parallel coordination session.** Runs alongside the user's per-workstream sessions. Does NOT execute workstream tasks; tracks state, surfaces dependencies, manages the todo list, flags deadlines, routes work between sessions.
