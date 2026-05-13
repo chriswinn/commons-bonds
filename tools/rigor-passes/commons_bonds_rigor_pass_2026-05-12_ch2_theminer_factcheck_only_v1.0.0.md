@@ -522,4 +522,46 @@ Either restores Ostrom-path register without rewriting the section's substance.
 
 ---
 
-*Phase A artifact rev. 2026-05-12 (Pass 1 fact-check + verification addendum + Pass 2 voice-polish complete; Pass 3 audience-load pending). C-4 spot-fix Phase C-β landed in commit `3dcb15d`. Pass 2 spot-fix queue (V-1 through V-7) ready for author ratification before Phase C-γ session fires.*
+*Phase A artifact rev. 2026-05-12 (Pass 1 fact-check + verification addendum + Pass 2 voice-polish complete; Pass 3 audience-load pending). C-4 spot-fix Phase C-β landed in commit `3dcb15d` (original session SHA; rebased to `5bc6edb` after parallel-session reconciliation). Pass 2 spot-fix queue (V-1 through V-7) ready for author ratification before Phase C-γ session fires.*
+
+---
+
+## Phase C-γ — APPLIED 2026-05-13
+
+Author ratified all proposed Pass 2 spot-fixes (V-1 through V-7 + V-10; V-8 + V-9 left-as-is per recommendation). Phase C-γ application landed same-session per WP#9 worktree workflow.
+
+**Spot-fixes applied (8 total):**
+
+| # | Line | Edit |
+|---|---|---|
+| V-1 (HIGH) | 141 | Removed the Mazzucato/Harvey sister-term trio sentence ("Mariana Mazzucato names value-extraction's diagnosis; David Harvey names accumulation by dispossession; the framework adopts a third sister-term...") from the Cost Severance defense paragraph close. Defense paragraph now ends at "Naming the missing architecture is what makes the bond proposing it possible." Lines 143 + 147 own the Mazzucato + Harvey lineage development they were drafted to handle (Option B per recommendation). |
+| V-2 (MEDIUM) + H-2 (Pass 1 HIGH) | 41 | Stat-dump pacing fix + drug-death ratio time-alignment: "ten times the national average" → "roughly five times the national average"; combined "$28,235. The county ranks" → "$28,235, and the county ranks"; "in McDowell County. The latest" → "here. The latest". |
+| V-3 (MEDIUM) | 24, 55, 205 | Three meta-commentary lines cut: "This matters." (line 24); "Let's walk through it." (line 55); "Before we leave McDowell County, there is something worth planting." (line 205). Lines 49, 131, 153 retained per recommendation (each does load-bearing work). |
+| V-4 (MEDIUM) | 177, 179 | Two long counterargument paragraphs broken at natural argumentative joints. Line 177 (cheap-energy) broken into three paragraphs (concession + reframe / compensation argument / structural problem + consent + information asymmetry). Line 179 (agency) broken into four paragraphs (concede agency / constrained choice / information asymmetry / contemporary generalization). Argument density preserved; paragraph breaks at natural joints. |
+| V-5 (MEDIUM) | 209 | Schematic Chesapeake-vs-coal parallel collapsed: three "X is Y rather than Z" sentences → single em-dash list ("a renewable resource rather than a finite one, ecological costs rather than occupational, water rather than tunnels"). |
+| V-6 (MEDIUM) | 65 | "astonishingly" hedge cut: "The disease is also, astonishingly, resurgent." → "The disease is also resurgent." |
+| V-7 (MEDIUM) | 97 | Externality tail gloss added: parenthetical "(the long-tail downstream costs that persist after extraction ends)" inserted at first manuscript-reading-order appearance of the term. |
+| V-10 (LOW) | 159 | Ostrom-path register fix: "Chapter 7 walks through the full set" → "Chapter 7 walks through more of them". Restores open-illustrative framing per `feedback_audit_open_illustrative_default.md`. |
+
+**Left as-is (per recommendation):**
+
+- V-8 (LOW) Line 137 — "It is" four-in-a-row anaphora. Earned rhetorical climax.
+- V-9 (LOW) Line 111 — section-title meta-commentary "The one sentence we will return to." Deliberate cross-chapter scaffolding (carbon footnote planted for Ch 6).
+
+**Case-study propagation:**
+
+`research/case-studies/appalachian-coal.md`:
+- H-2 ratio update at lines 12 + 43 + 151 ("10× national" or "ten times the national" → "roughly 5×" / "roughly five times")
+- V-3 partial: "This matters." cut from line 30
+- V-6: "astonishingly" cut from line 57
+
+`research/case-studies/opioid-extraction-appalachia.md`:
+- H-2 ratio update at lines 15 + 50
+
+Other voice-polish edits (V-1 + V-4 + V-5 + V-7 + V-10) are Ch 2-specific (case studies have different section structure / don't carry that prose).
+
+**Phase C-γ verdict:** APPLIED. All ratified spot-fixes landed in Ch 2 + case-study propagations. Pass 3 (audience-load) remains the only outstanding Phase A work for Ch 2.
+
+---
+
+*Phase A artifact rev. 2026-05-13 (Pass 1 + Pass 2 complete + Phase C-α + Phase C-β + Phase C-γ all applied; Pass 3 audience-load remains pending). Ready for filename rename to `..._stage3_three_pass_v1.0.0.md` when Pass 3 lands and the full three-pass artifact is complete.*
