@@ -292,9 +292,17 @@ Phase C application — single atomic chunk applied 2026-05-12 in same session p
 4. ✅ **MEDIUM-4 (Cross-corpus, NOT Ch 4):** Ratified — case-study brief [research/case-studies/alaska-permanent-fund.md](research/case-studies/alaska-permanent-fund.md) §2 updated to anchor 1976 as canonical (operational 1977); cross-chapter consistency inventory [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md) Alaska row updated with 1976 canonical lock + Ch 4 reference site added. Ch 4 unchanged per recommendation. Applied.
 5. ✅ **MEDIUM-5 (Ch 4 line 101):** Ratified — Bismarck-Germany sentence tightened to anchor "1889 Old Age and Disability Insurance system" + "post-WWI hyperinflation of the early 1920s" (Option A: date-tightened). Applied.
 
-LOW items (unratified — author judgment held):
-- LOW-1 (Ekofisk Dec 22/23/24): HOLD per canonical-facts inventory; awareness only.
-- LOW-2 (Time-sensitive figures): deferred to pre-publication refresh.
-- LOW-3 (Equinor 2018 rename): coupled to MEDIUM-1 in original recommendation but NOT explicitly ratified by author; held pending decision. Adding "renamed in 2018" to the Equinor parenthetical at Ch 4 line 23 would complete the corporate-rename anchoring symmetry now that MEDIUM-1 has landed; flagged for author follow-up.
+LOW items (initial state — see follow-up below):
+- LOW-1 (Ekofisk Dec 22/23/24): initially HOLD; subsequently ratified for canonical-facts-inventory footnote (see follow-up).
+- LOW-2 (Time-sensitive figures): deferred to pre-publication refresh; recommendation is to extend the cross-chapter consistency inventory at next revision rather than create a new file.
+- LOW-3 (Equinor 2018 rename): coupled to MEDIUM-1 in original recommendation; subsequently ratified after MEDIUM-1 landed and made the Equinor-parenthetical asymmetry visible (see follow-up).
 
-**Phase C complete for Ch 4 Pass 1 ratifications.** Pass 2 (Voice-polish) + Pass 3 (Audience-load) still required for full Phase A completion of this chapter.
+**LOW-1 + LOW-3 ratified follow-up (2026-05-13):**
+
+After MEDIUM landed and the LOW items were re-evaluated, author ratified LOW-1 + LOW-3 (LOW-2 held per recommendation). Applied as small follow-up commit:
+
+- ✅ **LOW-3 (Ch 4 line 23):** Equinor parenthetical updated to "(formerly Statoil, the national oil company, renamed in 2018)". Completes the corporate/institutional-rename anchoring symmetry alongside MEDIUM-1's GPFG 2006 anchor.
+- ✅ **LOW-1 (canonical-facts inventory line 19):** Source-variation footnote added at [_inventory_norway-mcdowell-canonical-facts_2026-05-10.md:19](publishing/op-eds/_inventory_norway-mcdowell-canonical-facts_2026-05-10.md:19) documenting Phillips Dec 22 / NPD Dec 23 / Equinor Dec 24 source split, with "three days before Christmas" locked as corpus phrasing. Pure internal scaffolding (per WP#10); prevents future Stage-3 sessions from re-litigating.
+- ⏸ **LOW-2 (time-sensitive figures):** held; recommendation is to extend the cross-chapter consistency inventory at next revision rather than create a new pre-publication-refresh file.
+
+**Phase C complete for Ch 4 Pass 1 ratifications (5 MEDIUM + 2 LOW applied).** Pass 2 (Voice-polish) + Pass 3 (Audience-load) still required for full Phase A completion of this chapter.

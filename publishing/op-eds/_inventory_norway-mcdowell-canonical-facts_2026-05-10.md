@@ -17,6 +17,7 @@ The op-eds argue these concepts in plain language. The named apparatus belongs i
 
 ### The discovery + the institution
 - **1969**, three days before Christmas: Phillips Petroleum's drill in the North Sea on Norwegian Block 2/4 strikes oil. The well becomes **Ekofisk** — one of the largest petroleum reservoirs in the industrialized world.
+  - *Source-variation note (added 2026-05-13 per Ch 4 Pass 1 LOW-1):* Discovery date varies by source — Phillips Petroleum internal records cite Dec 22; the Norwegian Petroleum Directorate cites Dec 23; Equinor's official corporate history cites Dec 24 / Christmas Eve. **"Three days before Christmas" (Dec 22) is the locked corpus phrasing**, consistent with the Phillips internal date. Future Stage-3 sessions: do not re-litigate; flag only if Norwegian-source-precision becomes load-bearing for a specific publishing context.
 - Norway at the time: population under **4 million**; cold Atlantic fishing economy on the margin of Europe.
 - Early **1970s** White Paper begins the institutional design.
 - **Government Petroleum Fund** formally established **1990**.
