@@ -105,7 +105,7 @@
 | **SCC anchor (per ton CO₂)** | $190 (EPA 2023 + Rennert et al. 2022) | Ch 8 line 73 | Ch 6 line 745 ("$190/ton CO₂"). **Consistent.** |
 | **Coal carbon-tail per ton** | ~$544 (1 ton coal → 2.86 tons CO₂ × $190) | Ch 8 line 73 | Ch 8 only. **No drift.** |
 | **Annual global severed cost (fossil + non-fossil)** | $10–15 trillion | Ch 8 line 213, 215; Ch 9 line 107 | **Consistent.** |
-| **Alaska Permanent Fund** | ~$80 billion; 25% of mineral royalty; since 1976; dividend since 1982 ($1,300–$1,700 recent) | Ch 9 line 115 | Ch 9 only. **No drift.** |
+| **Alaska Permanent Fund** | ~$80 billion; 25% of mineral royalty; **constitutionally established 1976** (operational 1977); dividend program since 1982 ($1,300–$1,700 recent). Canonical year for cross-corpus references: **1976** (locked 2026-05-12 per Ch 4 Pass 1 MEDIUM-4). | Ch 4 line 9 (existence-proof contrast — "established the same year" as Alberta 1976); Ch 9 line 115 | **Consistent after 2026-05-12 lock.** |
 | **Lakota / Black Hills compensation in escrow** | >$2 billion (refused for 45 years) | Ch 10 line 69 | Ch 10 only. **No drift.** |
 | **Mondragon cooperatives + workers** | >95 cooperatives; ~80,000 workers; since 1956 | Ch 9 line 203 | Ch 9 only. **No drift.** |
 | **Vienna Gemeindebau** | ~60% of population in social housing; >200,000 apartments; since 1919 | Ch 9 line 205 | Ch 9 only. **No drift.** |

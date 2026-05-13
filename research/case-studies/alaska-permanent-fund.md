@@ -19,7 +19,7 @@ For Book 1's reachable-horizon function (per the sociology-paper source item 5),
 
 The Alaska Constitution, Article VIII §2 declared Alaska's natural resources the property of the state. The 1968 Prudhoe Bay oil discovery — the largest oil field in North America at the time — produced a massive state revenue windfall. Alaska's experience of the 1970s was instructive: Alaska received a $900M lease-bonus payment in 1969 alone, spent most of it within a few years, and had little to show. The second extraction cycle was coming; the state had to decide what to do with it.
 
-Governor Jay Hammond, a Republican, proposed a constitutional amendment that would place 25% of all mineral royalties into a fund that could not be spent on current expenses. In November 1976, Alaska's voters approved the amendment by a roughly 75%-25% margin. The Permanent Fund was established in 1977. The Permanent Fund Dividend Program — direct annual distribution to each Alaska resident from the fund's earnings — was added in 1982.
+Governor Jay Hammond, a Republican, proposed a constitutional amendment that would place 25% of all mineral royalties into a fund that could not be spent on current expenses. In November 1976, Alaska's voters approved the amendment by a roughly 75%-25% margin. The Permanent Fund was thereby constitutionally established in 1976, becoming operational the following year. The Permanent Fund Dividend Program — direct annual distribution to each Alaska resident from the fund's earnings — was added in 1982. **Canonical year for cross-corpus references: 1976** (locked 2026-05-12 per Ch 4 Pass 1 fact-check, MEDIUM-4).
 
 The structure is simple:
 
