@@ -475,3 +475,29 @@ When the send action lands, this section will be updated from FINALIZED FOR SEND
 ---
 
 *End of Sandy-send disposition section. Pass 3 PROPOSED doc state: FINALIZED FOR SEND, send held pending packet completion + cover email. Pass 3 verdict ratified by action; Phase-C-δ empty. Ch 5 three-pass rigor cycle closed.*
+
+---
+
+## Post-finalization cascade follow-up (2026-05-14) — TA v2.1.0 §11.6 alignment
+
+**Trigger.** TA Phase C Track 4 (commit `eaf4c19`) refreshed the §11.6 McDowell anchor table's Black Lung Trust Fund row from "$4.6B current debt" to "$5.1B outstanding debt as of September 2024 (per DOL OWCP)" per the authoritative-source verification round documented at [tools/rigor-passes/tech_appendix_verification_round_2026-05-14.md](tools/rigor-passes/tech_appendix_verification_round_2026-05-14.md) §B-8 (commit `f6922da`). Phase-C session cross-reference sanity grep surfaced Ch 5:226 as carrying the stale $4.6B figure.
+
+**Edit applied.** Line 226 inner clause refreshed:
+- **Was:** *"the program's Trust Fund is currently four point six billion dollars in debt"*
+- **Now:** *"the program's Trust Fund carries roughly five point one billion dollars in outstanding debt as of September 2024"*
+
+Word-form preserved to match chapter narrative register; *"is currently"* → *"carries roughly ... as of September 2024"* anchors the figure to its DOL OWCP vintage (the verification round flagged *"currently"* as risking re-staleness without an explicit temporal anchor); *"in debt"* → *"in outstanding debt"* for DOL accounting terminology accuracy. Authoritative source: U.S. DOL OWCP + CRS R45261.
+
+**Derivative .docx regenerated.** [research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.docx](research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.docx) regenerated from the post-cascade chapter source via the same pandoc pipeline (US Letter + Garamond reference docx). Verified post-regen: new figure ("five point one billion") + September-2024 temporal anchor + "outstanding debt" terminology all landed; stale "four point six billion" absent.
+
+**Cross-chapter consistency.**
+- TA v2.1.0 §11.6 McDowell anchor table row: cites $5.1B as of September 2024 per DOL OWCP — matches.
+- Ch 6:21 cites Black Lung distributions date-anchored to 2009 ("~$44 billion in distributions through 2009 (GAO/CRS)") — internally coherent; unchanged.
+- TA verification round §B-8: source-attributes $5.1B figure to DOL OWCP / CRS R45261 / industry-press reporting.
+- Sister Ch 6 follow-up (3 convergence-table cells in Ch 6:160 + Ch 6:161): parallel chapter-side cleanup; handled in its own Ch 6 session per chapter isolation.
+
+**Updated disposition state.** Ch 5 source: post-cascade-followup state, 237 lines (no line-count change; in-line spot-fix only). Source commit hash updates with this commit. The chapter is now in full cross-reference alignment with TA v2.1.0 for Sandy-Darity-send-packet readiness. FINALIZED FOR SEND disposition unchanged — send action still held pending Ch 6 Pass-3 + TA Pass-3 / send-readiness + cover email review.
+
+---
+
+*End of post-finalization cascade follow-up section. Pass 3 PROPOSED doc state: FINALIZED FOR SEND (TA v2.1.0 cross-reference-aligned). Cascade applied 2026-05-14.*
