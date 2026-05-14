@@ -1038,4 +1038,171 @@ Per synthesis routing — surface to other workstreams:
 
 **Status: 3 new SHOULD-FIX + 1 new MEDIUM + 1 new LOW added; all 5 awaiting author ratification. Pre-Sandy-send gating for MI-3 + SI-1 + SI-2 per synthesis doc routing.**
 
-**[PROPOSED, awaits ratification]**
+---
+
+# Amendment D (2026-05-14) — Full ratification + Phase C-α working brief
+
+**Trigger:** Author ratified all remaining PROPOSED items in a single batch ("ratify all as proposed"), 2026-05-14. All recommended resolution paths applied per author judgment. Phase C-α now has full ratified scope.
+
+## Ratification record
+
+| Finding | Pre-ratification | Ratified resolution | Status |
+|---|---|---|---|
+| MUST-FIX-1 (B.2) | Ratified Amendment A | M1/M2/M3 walkthrough sub-section inside Approach 3 | **RATIFIED** |
+| MUST-FIX-2 | Ratified Amendment A | Rebuild convergence table as M1/M2/M3 per-case columns | **RATIFIED** |
+| SHOULD-FIX-1 | Ratified Amendment A | Anchor Ch 5 line 214 informal labels to canonical M1/M2/M3 names (joint with Ch 5 Pass 1) | **RATIFIED** |
+| SHOULD-FIX-2 | Ratified Amendment A | Auto-resolves with MUST-FIX-2 table rebuild | **RATIFIED** |
+| SHOULD-FIX-3 (coal-CO₂) | PROPOSED | **Option A** — Use EPA short-ton factor 2.32; recompute downstream: $544 → ~$441; bottom-up totals $550–$570 → ~$449–$464; recompute convergence-table IPG cells accordingly | **RATIFIED** |
+| SHOULD-FIX-4 (IEA/IPCC) | PROPOSED | **Option B** — Separate IEA citation ($230–$600 scaled-up) from IPCC AR6 WG3 (optimistic floor); verify IPCC AR6 WG3 $100 floor as part of Phase C-α; fall back to Option A (drop $100 floor entirely) if verification fails | **RATIFIED with verification step** |
+| SHOULD-FIX-5 (MI-3 Ostrom) | PROPOSED | Extend Ch 6 Ostrom-positioning passage at lines 227–233 with heterogeneous-stakeholder break-point paragraph | **RATIFIED** |
+| SHOULD-FIX-6 (SI-1 future-profitability asymmetry) | PROPOSED | Insert Sandy's exact framing paragraph at the start of the M1/M2/M3 walkthrough sub-section (bundles with MUST-FIX-1 B.2) | **RATIFIED** |
+| SHOULD-FIX-7 (SI-2 longevity gap) | PROPOSED | Expand Ch 6 line 25 with Darity longevity-gap lineage paragraph + bibliography expansion (Darity longevity-gap paper TBD) | **RATIFIED** |
+| MEDIUM-1 (Smax wording) | PROPOSED | Replace "Smax that may be less than one" with "asymptotic limit S(∞\|t₀) ≤ 1" | **RATIFIED** |
+| MEDIUM-3 (rounding tolerance) | DEFER-ACCEPTABLE | Moot once SHOULD-FIX-3 lands (figures recompute to ~$449–$464 anyway) | **MOOT** |
+| MEDIUM-4 (5 TA hyperlinks) | PROPOSED | Add hyperlinks at TA §3, §5.5, §9, §13, §6; verify §5.5 anchor name against just-landed TA work before applying | **RATIFIED with verification step** |
+| MEDIUM-5 (Libby disclosure) | PROPOSED | Add long-tail-cost disclosure clause to the $5–$8B figure at line 33 | **RATIFIED** |
+| MEDIUM-6 (Norway refresh) | PROPOSED | Update $1.9T → ~$2.2T (early 2025 NBIM) at line 177 | **RATIFIED** |
+| MEDIUM-7 (Black Lung date-anchor) | PROPOSED | "$44 billion through 2009" date-anchor at line 21 | **RATIFIED** |
+| MEDIUM-8 (Stratos status) | PROPOSED | "in commissioning with phased ramp through mid-2026" replaces "in construction at the time of writing" at line 47 | **RATIFIED** |
+| MEDIUM-9 (Climeworks Orca cost) | PROPOSED | "approximately $1,000+ per ton at first-of-a-kind operational scale" with Mammoth/Gen-3 trajectory cited separately at line 47 | **RATIFIED** |
+| MEDIUM-10 (SI-3 Sen capabilities) | PROPOSED (conditional Ch 6 vs Ch 10) | **Ch 6 placement** — after line 224 at end of "What Is Owed" section | **RATIFIED — Ch 6 placement** |
+| LOW-2 (Exxon Valdez disclosure) | PROPOSED | Extend line-149 one-event disclosure to Exxon Valdez | **RATIFIED** |
+| LOW-5 (SCC acronym) | PROPOSED | Spell out "social cost of carbon (SCC)" at line 35 first use | **RATIFIED** |
+| LOW-6 (cross-thread #9 GuidanceDoc + terms_index staleness) | PROPOSED for surfacing | Surface to PM dashboard for systematic sweep — **NOT Phase C-α** | **SURFACED** |
+| LOW-7 (C-3 stratification economics tie) | PROPOSED | Add stratification-economics lineage footnote/inline at the MI-3 break-point paragraph | **RATIFIED** |
+
+**All findings disposed.** 20 items in Phase C-α working scope; 1 item (cross-thread #9) routed separately; 1 item (MEDIUM-3) moot via cascading recompute.
+
+---
+
+## Phase C-α working brief — ordered by Ch 6 edit location
+
+This is the working scope for the Phase C-α session. Edits ordered by line-of-occurrence in [Chapter__6_ThreeWaysofCounting__Draft.md](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md) for clean session flow. Companion edits in Ch 5 and bibliography surfaced separately.
+
+### §A. Bottom-Up Damage Accounting section (lines 17–51)
+
+1. **Line 21 — Black Lung date-anchor (MEDIUM-7):** Replace "$44 billion in distributions" with "approximately $44 billion in distributions through 2009 (GAO/CRS)" or equivalent date-anchor wording.
+
+2. **Line 25 — Darity longevity-gap lineage (SHOULD-FIX-7):** Insert paragraph connecting McDowell's 13-year gap to Darity's longevity-gap research. Draft text in Amendment C (above); bibliography expansion required (Darity longevity-gap paper TBD).
+
+3. **Line 29 — Coal-to-CO₂ ratio + downstream recompute (SHOULD-FIX-3 Option A):**
+   - Replace "roughly 2.86 tons of CO₂" with "approximately 2.32 tons of CO₂ (EPA emission factor for bituminous coal at short-ton accounting)"
+   - Recompute "$190 × 2.86 = $544" → "$190 × 2.32 = $441 per ton coal"
+   - Line 31: Recompute "Include carbon, and the bottom-up total rises to $550–570 per ton" → "$449–$464 per ton" (or "$450–$465" rounded)
+   - Verify against EPA emission factor sheet; cite if footnoted
+
+4. **Line 33 — Libby long-tail disclosure clause (MEDIUM-5):** Replace "$5 to $8 billion in asbestos-related illness costs, environmental remediation, and community destruction" with "$5 to $8 billion in **direct settlements (~$0.3B), federal cleanup spending (~$0.6B+), and the long-tail of asbestos-related illness costs across thousands of cases, environmental remediation extending into future decades, and community destruction**" — preserves IPG figure; discloses what's in the aggregate.
+
+5. **Line 33 — Exxon Valdez one-event disclosure (LOW-2):** Extend the line-149 disclosure pattern to Exxon Valdez. Either inline at line 33 or at the convergence-table caption near line 146 alongside the Deepwater Horizon disclosure.
+
+6. **Line 35 — SCC acronym spell-out (LOW-5):** Replace first-use "the SCC" with "the social cost of carbon (SCC)" — body uses spelled-out form throughout otherwise.
+
+7. **Line 47 — DAC cost passages (SHOULD-FIX-4 + MEDIUM-8 + MEDIUM-9):**
+   - **MEDIUM-9 Climeworks Orca:** Replace "$600 to $1,000 per ton" with "approximately $1,000 or more per ton at first-of-a-kind operational scale"
+   - **MEDIUM-9 Climeworks Mammoth/Gen-3 trajectory:** Add separate clause citing Mammoth/Gen-3 cost-reduction trajectory toward $400–$600 by 2030 per Climeworks corporate disclosures
+   - **MEDIUM-8 Stratos status:** Replace "in construction at the time of writing, targeting commissioning within the next two years" with "in commissioning at the time of writing with phased ramp to full capacity through mid-2026"
+   - **SHOULD-FIX-4 IEA/IPCC attribution split (Option B):** Replace "The International Energy Agency's *Direct Air Capture 2022* review and the IPCC's AR6 Working Group III place the achievable cost by mid-century in the one-hundred-to-three-hundred-dollar range under optimistic deployment scenarios" with:
+     - "The International Energy Agency's *Direct Air Capture 2022* review places the achievable cost at scaled-up operation in the $230-to-$600 range, depending on energy-source assumptions. The IPCC's AR6 Working Group III, under more optimistic learning-curve and policy-support scenarios, projects mid-century costs as low as $100-$300 per ton."
+   - **Verification step required before applying:** Verify IPCC AR6 WG3 supports $100 floor under optimistic scenarios. If verification fails, fall back to Option A: tighten the entire range to $230–$600 and drop the IPCC $100 floor.
+
+### §B. RCV apparatus section (lines 77–131)
+
+8. **~Line 97 — TA §3 hyperlink (MEDIUM-4):** Add at the formula introduction: "(formal articulation in [Technical Appendix §3 — RCV Quantification — Three Ways of Counting](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-3-rcv-quantification))"
+
+9. **Line 128 — Smax wording (MEDIUM-1):** Replace "approaches some maximum Smax that may be less than one" with "approaches some asymptotic limit S(∞|t₀) ≤ 1"
+
+10. **~Line 131 — TA §13 hyperlink (MEDIUM-4):** Add at end of Substitutability Function section: "(formal specification in [Technical Appendix §13 — Substitutability Function and Gap](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-13-substitutability-function-and-gap))"
+
+### §C. M1/M2/M3 walkthrough sub-section (NEW — lands inside Approach 3, ~line 116)
+
+11. **MUST-FIX-1 B.2 walkthrough (~600–900w) — opens with SHOULD-FIX-6 (SI-1) framing:** Insert new sub-section "The Three Ways of Counting Inside RCV" (or similar) between line 116 (formula introduction close) and line 120 (Substitutability Function section opening). Sub-section structure:
+
+    a. **Opening paragraph (SHOULD-FIX-6 — SI-1 framing):** Markets price future profitability via asset prices; markets do not price future harms; the three methods are the substitute for the missing market mechanism on the harms side. Draft text in Amendment C (above).
+    b. **Method 1 — Replacement Cost:** Walk McDowell coal via DAC anchor ($310–$1,800/ton per TA §3.6 Block 4); cite TA §3.3.
+    c. **Method 2 — Revealed Preference:** Walk McDowell coal via Norway-anchored revealed-preference (~$8–$88/ton per TA §3.6 Block 4); cite TA §3.4.
+    d. **Method 3 — Scarcity-Adjusted Option Value:** Walk McDowell coal via Dixit-Pindyck option-value with scarcity + irreversibility weighting ($420–$13,100/ton; mid $2,500 per TA §3.6 Block 4); cite TA §3.5; flag α-dominance regime per TA §3.5 sensitivity table.
+    e. **Bridge to backward direction:** Connect to Ch 5 line 214 backward-direction application (canonical names per SHOULD-FIX-1 anchoring); cite TA §5.5 for the bidirectional structural property.
+
+### §D. Convergence table + caption (lines 134–157)
+
+12. **~Line 138 — TA §9 hyperlink (MEDIUM-4):** Add at convergence introduction: "(formalized in [Technical Appendix §9 — Three-Model Convergence](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-9-three-model-convergence))"
+
+13. **Line 142 — Convergence-table rebuild (MUST-FIX-2):** Replace 2-column table (Damage-Function IPG | RCV Model IPG) with 3-column M1/M2/M3 per-case columns. Source numerics per TA §3.6 Block 4 for McDowell + Norway; derive Deepwater Horizon / Libby / Exxon Valdez from TA §3.3–§3.5 method specifications + Ch 5 per-case prose. Mark cells N/A with footnote where Method 3 (option-value) does not cleanly apply for one-event spill cases.
+
+14. **Line 149 — Method-attribution caption (auto-resolved with table rebuild):** Existing line-149 disclosure passage now reads as the table's methodological caption rather than damage-control disclosure.
+
+### §E. Norway backtest (line 177)
+
+15. **Line 177 — Norway GPFG value refresh (MEDIUM-6):** Update "$1.9 trillion" → "approximately $2.2 trillion (early 2025 NBIM)" or "approximately $2 trillion" rounded.
+
+### §F. What Is Owed section (line ~224)
+
+16. **After line 224 — Sen capabilities defense paragraph (MEDIUM-10):** Insert Sen + capabilities methodological-defense paragraph at end of "What Is Owed" section. Draft text in Amendment C (above); bibliography expansion likely (Sen *Development as Freedom* 1999; possibly Sen + Nussbaum *Quality of Life* 1993; Nussbaum *Creating Capabilities* 2011).
+
+### §G. Two Kinds of Commons section (lines 227–233)
+
+17. **After line 233 — MI-3 Ostrom homogeneity-of-interest break-point paragraph (SHOULD-FIX-5):** Insert second break-point paragraph (heterogeneous-stakeholder commons) extending the existing Ostrom-positioning. Draft text in Amendment C (above).
+
+18. **At MI-3 break-point paragraph — C-3 stratification-economics tie (LOW-7):** Add footnote or inline lineage citation tying the MI-3 critique to stratification economics (Darity, Hamilton, and collaborators). Draft text in Amendment C (above). Verification note: synthesis premise that "framework already cites stratification economics in Ch 5 + Ch 6" was incorrect — this is a fresh-citation addition, not extension.
+
+### §H. Four Gates section (lines 235–263)
+
+19. **~Line 251 — TA §6 hyperlink (MEDIUM-4):** Add at CIT defense passage: "(see [Technical Appendix §6 — Commons Inversion Test](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-6-commons-inversion-test))"
+
+20. **~Line 263 — TA §5.5 hyperlink (MEDIUM-4):** Add at apparatus-introduction reference (parallel to existing §7 + §17 hyperlinks): "(bidirectional applicability in [Technical Appendix §5.5](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-5-5-bidirectionality))" — **anchor name verification required:** confirm exact anchor ID against just-landed TA §5.5 work (commit 013abd4b / d54bdfa) before adding.
+
+## Companion edits (NOT Ch 6 body, but Phase C-α scope)
+
+### §I. Ch 5 line 214 — canonical-name anchoring (SHOULD-FIX-1; joint with Ch 5 Pass 1)
+
+Anchor Ch 5 line 214 informal labels to canonical M1/M2/M3 names. Replace:
+
+> "substitution cost becomes remediation cost; revealed restraint becomes revealed restitution; forward option value becomes the option value extinguished at the time of past extraction"
+
+with:
+
+> "**Method 1 — Replacement Cost** (here: remediation cost rather than substitute-engineering cost); **Method 2 — Revealed Preference** (here: revealed restitution rather than revealed restraint); **Method 3 — Scarcity-Adjusted Option Value** (here: the option value extinguished at the time of past extraction, evaluable from what we know now)"
+
+This is the joint resolution with Ch 5 Pass 1 SHOULD-FIX-1 (commit a2d2d3f finding). Both Ch 5 and Ch 6 land their respective sides in the same Phase C-α session.
+
+### §J. Bibliography expansion
+
+- **Darity longevity-gap paper** (SHOULD-FIX-7) — find specific recent paper/talk; add to bibliography §13 (reparations economics).
+- **Sen capabilities citations** (MEDIUM-10) — Sen *Development as Freedom* 1999; possibly Sen + Nussbaum *Quality of Life* 1993; Nussbaum *Creating Capabilities* 2011. Add to bibliography appropriate section (philosophical / methodological).
+- **Stratification economics citations** (LOW-7) — if Phase C-α adds inline lineage rather than footnote, cite specific Darity/Hamilton stratification-economics works already in bibliography §13.
+
+## Verification steps required during Phase C-α (before applying specific items)
+
+1. **IPCC AR6 WG3 $100 mid-century DAC floor** (SHOULD-FIX-4) — verify IPCC AR6 WG3 actually supports the $100 floor under optimistic scenarios. If not, fall back to Option A (drop $100 floor).
+2. **TA §5.5 anchor name** (MEDIUM-4 hyperlink) — confirm exact anchor ID in just-landed TA §5.5 work (commit 013abd4b / d54bdfa) before adding the Ch 6 hyperlink.
+3. **EPA bituminous-coal short-ton emission factor** (SHOULD-FIX-3) — verify exact EPA factor at canonical citation; the audit cited "approximately 2.32 mt CO₂ per short ton" (93.28 kg CO₂/mmBtu × ~25 mmBtu/short ton). Confirm exact figure for the chapter citation.
+
+## Not in Phase C-α scope (surfaced separately)
+
+- **Cross-thread #9 systematic-staleness sweep** — Ch 6 GuidanceDoc + Ch 2 GuidanceDoc + terms_index "Three Ways of Counting" entry + other reference-file entries with accumulated post-review canonicalization drift. PM-dashboard workstream.
+- **Cross-thread #11 citation accumulation** — Ch 6 contribution = 1M + 28L (Sandy + Darity longevity-gap addition + Sen + stratification-economics additions during Phase C-α push the L count up). Citation-pipeline workstream.
+- **C-1 + C-2** — Fogel & Engerman / Du Bois → comp-titles + bibliography workstreams.
+- **MEDIUM-3 (rounding tolerance $550–$570 vs $552–$566)** — moot once SHOULD-FIX-3 lands; figures recompute to ~$449–$464 anyway.
+
+## Status after Amendment D
+
+**All Pass 1 findings dispositioned.** Ch 6 Pass 1 fact-check (with math-check overlay + corpus-canonical-naming verification + authoritative-source verification + Darity-synthesis-incorporation gap closure) is **COMPLETE AT PASS 1 LEVEL**.
+
+Next phase: **Phase C-α single-session spot-fix application** per the ordered working brief above. After Phase C-α lands and is verified, Pass 2 (voice-polish) + Pass 3 (audience-load) fire. Then Sandy Darity send packet (Ch 5 + Ch 6 + TA) ships.
+
+| Severity | Count | Status |
+|---|---|---|
+| MUST-FIX | 2 | All RATIFIED for Phase C-α |
+| SHOULD-FIX | 7 | All RATIFIED for Phase C-α (2 with verification steps) |
+| MEDIUM | 10 | 9 RATIFIED for Phase C-α; 1 (MED-3) moot |
+| LOW | 6 | 5 RATIFIED for Phase C-α; 1 (LOW-6) routed to cross-thread #9 |
+| Cross-thread #9 | 1 | Surfaced to PM dashboard |
+| Cross-thread #11 | 1 | Surfaced to citation pipeline |
+
+**20 items in Phase C-α working scope.** Single coordinated session per [feedback_pm_dashboard_structure.md](/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_pm_dashboard_structure.md) critical-path discipline.
+
+---
+
+*End of Amendment D 2026-05-14 — full ratification + Phase C-α working brief.*
+
+**Status: PASS 1 COMPLETE. Phase C-α ready to fire. Pass 2 + Pass 3 + Sandy send downstream of Phase C-α landing.**
