@@ -1,9 +1,9 @@
-# Ch 10 — Bidirectional-Reach Paragraph Insertion (PROPOSED, awaits ratification)
+# Ch 10 — Bidirectional-Reach Paragraph Insertion (RATIFIED)
 
 **Date:** 2026-05-13
-**Branch:** claude/ch10-insertion-placement-e8e927
+**Branch:** claude/ch10-insertion-placement-e8e927 (merged via fast-forward to main as commit `8b7ac89`)
 **Scope:** Placement-only task. Insertion paragraph provided verbatim by author via PM session 2026-05-13. Light-touch polish evaluated but defaulted to original-verbatim — see Polish Evaluation (§5).
-**Status:** PROPOSED on feature branch; not merged to main pending author ratification.
+**Status:** RATIFIED 2026-05-13. Insertion + findings doc merged to main as `8b7ac89`; original-verbatim wording + Candidate A placement (after Ch 10 line 63, before `---` at line 65) accepted as-applied.
 
 ---
 
@@ -189,13 +189,10 @@ The inserted paragraph (bold above) lands as a coda to section 4's affordances e
 
 ---
 
-## 8. Ratification request
+## 8. Ratification outcome
 
-Author to ratify one of:
+**Ratified 2026-05-13** as Option 1: original-verbatim paragraph, Candidate A placement (after Ch 10 line 63, before `---` at line 65). Fast-forwarded to main as `8b7ac89`.
 
-1. **PROPOSED as applied** (original-verbatim paragraph, placement after Ch 10 line 63 before `---` at line 65). → Fast-forward to main per Working Principle #9.
-2. **PROPOSED with minor adjustments** (e.g., capitalize "Four Gates" within the inserted paragraph for Ch 10 local consistency; or strengthen "noted" → "set out"). → Apply edit on feature branch, then fast-forward.
-3. **Different placement** (Candidate B or C from §3). → Apply on feature branch, then fast-forward.
-4. **Reject / defer** (revisit when Ch 10 enters Stage-3 Pass 1). → Discard branch.
+Optional surface-level polish items from §5 (capitalize "Four Gates" for Ch 10 local consistency; strengthen "noted" → "set out") were **not adopted at ratification**. Per §7, the capitalization inconsistency at Ch 10 line 61 vs. the inserted paragraph remains surfaced for resolution during Ch 10's Stage-3 Pass 2 voice-polish, where the full-chapter pass can make a uniform capitalization decision.
 
 — end of findings note —
