@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-13
 **Branch:** `claude/ch10-insertion-placement-lucid-pike-cbf748`
-**Status:** RATIFIED 2026-05-13 — author ratified all four decision points (§9): Candidate B placement; §-reference correction (§5.5) → (§5); both capitalizations (Four Gates; Three Ways of Counting). Polished version (§7) applied via follow-up commit; fast-forwarded to main per WP#9.
+**Status:** RATIFIED 2026-05-13 (placement only) — author ratified all four decision points from §9. Placement (Candidate B) applied as ratified. Polish points 2–4 SUPERSEDED by parallel-session evidence landed on main between session start and ratification (see §11 below); reverted to verbatim. Push to main awaits re-ratification on the supersession.
 **Scope:** Placement task only. Insertion paragraph wording provided verbatim by author. Cross-reference verification (Scope 3) + light-touch polish evaluation (Scope 4.5) executed; commit applies VERBATIM at recommended location pending ratification of polish + fact-corrections.
 
 ---
@@ -194,3 +194,33 @@ The PROPOSED commit applies the paragraph VERBATIM at Candidate B placement. Rat
 ## 10. Discipline note
 
 This insertion is publisher-facing prose with author-provided wording. v2.0 two-stage drafting discipline is NOT applied (placement task, not drafting task). Voice-polish discipline (per `feedback_voice_polish_pipeline.md`) is applied at light-touch only — author voice on the paragraph is preserved verbatim in the commit; polish surfaces in this findings note for ratification. Stage-3 Pass 1 fact-check on the rest of Ch 10 is OUT of scope for this session and remains pending per #20 status.
+
+---
+
+## 11. Supersession note (added 2026-05-13 post-ratification)
+
+Between session start and ratification, parallel sessions landed substantial work on `origin/main` that invalidates polish points 2–4 from §9:
+
+**Relevant commits landed:**
+- `ccaac20` — Ch 5: added explicit backward-application section (16 lines) using identical phrasing to the Ch 10 inserted paragraph: *"The framework's apparatus, the four gates and the three ways of counting, does that work."* — **lowercase**.
+- `be334f5`, `8ed36ac`, `013abd4`, `d54bdfa` — TA Approach B: added §5.5 ("Bidirectional application of the framework apparatus"), §1.7 ↔ §5.5 cross-reference, §17.5 bidirectional preservation corollary. The §5.5 reference is now canonical.
+- TA line 472: *"is given in §5 (decomposition) and §5.5 (bidirectional application of the framework apparatus)"* — both §5 and §5.5 are valid references; §5.5 is the more precise pointer for "the bidirectional application of the framework apparatus" (which is what the inserted paragraph claims the TA "formalizes").
+
+**Polish supersession:**
+
+| Polish point (§6) | Pre-ratification recommendation | Post-supersession state |
+|---|---|---|
+| `(§5.5)` → `(§5)` | RECOMMENDED (§5.5 didn't exist) | **REVERTED.** §5.5 now exists and is the more precise pointer (TA line 1319; cross-ref at TA line 472). Original verbatim `(§5.5)` is canonical. |
+| `four gates` → `Four Gates` | RECOMMENDED (Ch 10 line 61 capitalizes) | **REVERTED.** New Ch 5 prose (commit `ccaac20`) uses lowercase `four gates` in IDENTICAL phrasing to the inserted paragraph. Author's revealed preference for this construct in chapter prose is lowercase. |
+| `three ways of counting` → `Three Ways of Counting` | RECOMMENDED (Ch 6 chapter title) | **REVERTED.** New Ch 5 prose (commit `ccaac20`) uses lowercase `three ways of counting` in IDENTICAL phrasing. Author's revealed preference in chapter prose is lowercase. |
+
+**Discipline applied:** per `feedback_audit_recent_active_review_default.md` — trust the more recent active-review record over the older reference-file entry. The new Ch 5 prose (committed 2026-05-13 20:00 ET, after this session's findings note was drafted) is the more recent canonical evidence and supersedes my earlier polish recommendation.
+
+**State after rebase + revert:**
+- Ch 10 insertion at Candidate B placement: VERBATIM (lowercase + §5.5)
+- Ch 5 expanded backward-application prose: present (from `ccaac20`)
+- TA §5.5: present (from Approach B commits)
+
+The Ch 10 insertion now sits naturally in the broader bidirectionality apparatus the parallel sessions built. The two pieces of prose are complementary, not duplicative: Ch 5 does the substantive backward-application work; Ch 10 is the closing-chapter meta-reflection that names bidirectionality and points the reader to "the book that comes after this one."
+
+**Awaits re-ratification before push to main:** the user ratified my best-judgment recommendations; those recommendations are now stale. Surfacing for re-confirmation.
