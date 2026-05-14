@@ -1425,3 +1425,76 @@ After Phase C-β + Pass 2 + Pass 3 land, Ch 6 + Ch 5 + TA are at Sandy-send read
 *End of Amendment E 2026-05-14 — Post-Phase-C-α cascade-cleanup + authoritative-source verification.*
 
 **Status: 2 new SHOULD-FIX + 2 new MEDIUM added; all 4 awaiting author ratification. Phase C-β scope drafted (SHOULD-FIX-8 + SHOULD-FIX-9 + MEDIUM-12). MEDIUM-11 cross-corpus items routed to Ch 8 + TA PM workstreams.**
+
+---
+
+## Ratification + Phase C-β execution (2026-05-14)
+
+**Trigger:** Author ratified Amendment E in single batch ("ratify as recommended"), 2026-05-14. Recommended path applied: Phase C-β single-coordinated-commit before Pass 2 fires.
+
+### Ratification record
+
+| Finding | Pre-ratification | Ratified resolution | Status |
+|---|---|---|---|
+| SHOULD-FIX-8 (Ch 6 line 310 intra-chapter cascade miss) | PROPOSED | One-line replacement: "around $550 per ton of coal" → "around $449 to $464 per ton of coal" | **RATIFIED — APPLIED Phase C-β** |
+| SHOULD-FIX-9 (Convergence-table Deepwater + Libby + Exxon M1/M2 verification) | PROPOSED | Deepwater M1 + M2 revised per authoritative-source data; Libby cells confirmed with explicit Grace settlement breakdown; Exxon M1 tightened to ~$2.3B + M2 to ~$1.9B per 1991 settlement record. Caption updated with NOAA/DOJ/EPA/Montana DOJ/EVOSTC source attribution. | **RATIFIED — APPLIED Phase C-β** |
+| MEDIUM-11 (Cross-corpus stale-cascade: Ch 8 + TA + block4_validation) | PROPOSED — routed | Routed to Ch 8 PM workstream (Ch 8 Pass 1 not yet fired) + TA PM workstream (TA Pass 1 not yet fired). block4_validation file flagged for author judgment (historical-at-validation-time vs refresh). | **ROUTED — NOT Phase C-β scope** |
+| MEDIUM-12 (Climeworks Gen-3 net-removal-vs-capture clarification) | PROPOSED — defer-acceptable | Inline clarification added: "$400–$600 per ton net-removal cost" with capture-only target ($250–$350) disclosed; Carbon Removal Summit attribution added. | **RATIFIED — APPLIED Phase C-β** |
+
+**All Amendment-E findings disposed.** 3 items applied in Phase C-β single commit; 1 item (MEDIUM-11) routed cross-chapter.
+
+### Phase C-β edits applied
+
+1. **SHOULD-FIX-8 — Ch 6 line 310 cascade fix:**
+   - "lands around $550 per ton of coal" → "lands around $449 to $464 per ton of coal"
+   - Intra-chapter arithmetic consistency with §A-3/A-4 recomputed bottom-up total now preserved across the full chapter.
+
+2. **SHOULD-FIX-9 — Convergence-table M1 / M2 cell revisions:**
+   - **Deepwater Horizon:** M1 "~$15–$20B" → "~$22B engineering + ecological restoration (BP response ~$14B + NRDA $8.8B per 2016 Consent Decree)"; M2 "~$30–$40B" → "~$20–$25B settlements + damages paid (CWA $5.5B + DOJ criminal $4.5B + class-action economic ~$10–$15B)"
+   - **Libby, Montana:** M1 attribution refined to explicit "~$0.6B EPA Superfund cleanup spending + ongoing remediation; long-tail illness-cost flow $4–$7B"; M2 expanded to "~$0.3B W.R. Grace settlements ($250M 2008 EPA + $18.5M 2023 NRDA + $5.1M 2008 DEQ)"
+   - **Exxon Valdez:** M1 "~$2–$4B" → "~$2.3B cleanup + ecological restoration (Exxon $2.2B + NRDA ~$100M per 1991 settlement)"; M2 "~$1–$2B" → "~$1.9B settlements + damages paid (1991 civil $900M + private claims ~$507M + punitive $507M + criminal $25M)"
+   - Caption updated to reference NOAA Office of Response and Restoration + DOJ + 2016 BP Consent Decree + EPA Libby Superfund Site + Montana DOJ + Exxon Valdez Oil Spill Trustee Council as authoritative public sources.
+
+3. **MEDIUM-12 — Climeworks net-removal clarification:**
+   - "toward four hundred to six hundred dollars per ton by 2030" → "toward four hundred to six hundred dollars per ton net-removal cost by 2030 — the capture-only target is two hundred fifty to three hundred fifty dollars per ton — under the corporate cost-reduction trajectory the company disclosed at its June 2024 Carbon Removal Summit in Zurich."
+   - Net-removal-vs-capture-only distinction made transparent for technical-reader scrutiny; Climeworks's June 2024 public-disclosure event attributed.
+
+### MEDIUM-11 cross-corpus routing disposition
+
+The four cross-corpus stale-cascade locations are surfaced to their respective workstreams without Ch 6 Pass 1 retrofitting:
+
+| Location | Routing | Status |
+|---|---|---|
+| [Chapter__8_WhatThingsActuallyCost_Draft.md:73](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:73) ("approximately 2.86 tons" + "$544") | Ch 8 PM workstream; flag as known-fix-pending for eventual Ch 8 Pass 1 audit | **ROUTED** |
+| [TechnicalAppendix_v2.0.0.html:2808](core/technical-appendix/TechnicalAppendix_v2.0.0.html:2808) (Gate 4 worked example "$190/ton CO2 × 2.86 tons CO2 per ton coal") | TA PM workstream; flag as known-fix-pending for eventual TA Pass 1 audit | **ROUTED** |
+| [TechnicalAppendix_v2.0.0.html:4465](core/technical-appendix/TechnicalAppendix_v2.0.0.html:4465) (§11 case file "~2.86 tons CO₂ per ton coal") | TA PM workstream; same disposition | **ROUTED** |
+| [core/technical-appendix/block4_validation_2026-04-25.md:114](core/technical-appendix/block4_validation_2026-04-25.md:114) (validation record "~2.86 tons CO₂ per ton coal") | Author judgment between (a) update in-place with refresh note, (b) preserve historical-at-validation-time with caveat footnote, (c) leave as-is | **AUTHOR JUDGMENT — flagged for PM dashboard** |
+
+### Status after Amendment E ratification + Phase C-β application
+
+| Severity | After Amendment D | After Amendment E (PROPOSED) | After Amendment E ratification + Phase C-β APPLIED |
+|---|---|---|---|
+| MUST-FIX | 2 (Phase C-α applied) | 2 (Phase C-α applied) | 2 (Phase C-α applied) |
+| SHOULD-FIX | 7 (Phase C-α applied) | 9 (7 Phase C-α applied + 2 new PROPOSED) | **9 (7 Phase C-α applied + 2 Phase C-β applied)** |
+| MEDIUM | 10 (9 applied; 1 moot) | 12 (9 applied; 1 moot; 2 new PROPOSED) | **12 (10 applied; 1 moot; 1 routed)** |
+| LOW | 6 (5 applied; 1 surfaced) | 6 | 6 |
+| Cross-thread | 2 (surfaced) | 2 (surfaced) | **3 (2 surfaced + 1 new for MEDIUM-11)** |
+
+**Pass 1 + Phase C-α + Phase C-β COMPLETE for Ch 6.** All findings disposed: 17 of 20+ items applied to Ch 6 directly; 3 items routed cross-chapter/cross-workstream; 1 item (MEDIUM-3 rounding tolerance) moot via SHOULD-FIX-3 cascade.
+
+### Sandy Darity send-packet readiness
+
+Ch 6 numerical-integrity surface is now at Sandy-send readiness:
+- McDowell + Norway figures: TA §3.6 Block 4 verbatim (authoritative)
+- Deepwater + Libby + Exxon figures: cross-referenced against NOAA/DOJ/EPA/Montana DOJ/EVOSTC public records (authoritative)
+- Coal-CO₂ cascade: EPA AP-42 §1.1 emission factor + EIA heat content (authoritative); applied consistently across §A-3, §A-4, §D-2, and Contribution section
+- DAC cost trajectory: IEA *Direct Air Capture 2022* + IPCC AR6 WG3 Chapter 12 + Climeworks June 2024 public disclosure (authoritative)
+- Bibliography: Himmelstein/Darity 2022 (JAMA Network Open) + Sen + Nussbaum (1993 + 2011) added per Amendment D ratification
+
+Pass 2 (voice-polish) + Pass 3 (audience-load) downstream of this commit; Sandy send packet (Ch 5 + Ch 6 + TA) ships after Pass 2 + Pass 3 land.
+
+---
+
+*End of Amendment E ratification + Phase C-β execution 2026-05-14.*
+
+**Status: AMENDMENT E RATIFIED. Phase C-β APPLIED. Pass 2 + Pass 3 + Sandy send downstream.**
