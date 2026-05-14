@@ -292,4 +292,72 @@ The following judgment calls from Phase C and the MEDIUM-11 cascade were **ratif
 
 ---
 
-*End of Tech Appendix verification round 2026-05-14. PROPOSED, awaits ratification. Mirrors the Ch 5 Amendment 2 + Ch 6 Amendment B pattern of authoritative-source verification verdicts against primary public sources.*
+## §I. Sandy-review-prep disposition (2026-05-14)
+
+**Trigger.** Author directive (2026-05-14, this session): "*Mark this version of the TA as prepped for Sandy to review, and note the open items in case he has questions on them, and so we can revisit them prior to publishing regardless.*"
+
+**Action.** TA v2.1.0 marked as prepped-for-review in the document status block (visible to the reviewer). Derivative artifacts generated for the Sandy-Darity packet at [`research/outreach/subjects/darity/`](../../research/outreach/subjects/darity/):
+
+- `Technical_Appendix_Commons_Bonds_v2.1.0_2026-05-14.docx` — pandoc-converted from the canonical HTML; ~126 KB; editable Word format
+- `Technical_Appendix_Commons_Bonds_v2.1.0_2026-05-14.pdf` — LibreOffice-converted from the .docx; ~1.1 MB; ~100 pages letter size
+
+Both files committed alongside the prepped-for-review HTML edits in this session's final commit. Pattern matches the Ch 5 Sandy-packet derivative (`Chapter_5_The_Accountability_Gap_2026-05-14.docx` at the same folder location, committed `8a37754`).
+
+### Open items deferred — pre-publication revisit tracking
+
+These items are visible to Sandy in the TA HTML status block (so he can ask if curious) and tracked here for pre-publication revisit regardless of whether Sandy probes them:
+
+#### I-1. F-7 Norway cumulative oil/gas split — exact-percentage hardening
+
+- **Current state in TA v2.1.0:** 50/50 working assumption per "Norwegian Offshore Directorate cumulative-historical-average framing" (§11.5 anchor table + §11.5 §1.1 cumulative-emissions calc).
+- **Defensibility:** verified in §C above against four qualitative-evidence anchors (gas ~51.5% in 2024; gas ~50% in 2025; "more gas than oil" over the last decade; "1985–2005 oil dominant").
+- **Hardening path:** download [Norwegian Offshore Directorate production-figures CSV](https://www.sodir.no/en/whats-new/news/production-figures/) (annual production by product type 1971–2024); sum oil-side (oil + condensate + NGL) and gas-side in Sm³ o.e.; compute exact cumulative percentage; update the §11.5 anchor row + the F-7 weighted-factor calc (line ~4068) + the cumulative-emissions cell.
+- **Magnitude:** any plausible refinement (50/50 → up to 55/45 oil-heavier) shifts cumulative emissions by ~2%, well within M1/M2/M3 method-range resolution.
+- **Estimated effort:** ~15 min.
+- **Disposition for revisit:** apply in pre-publication refresh sweep regardless of whether Sandy probes. Even if defensible, the exact figure is preferable to a working assumption in a published artifact.
+
+#### I-2. Pass 2 typography sweep (F-11 + F-12 + F-14 + F-17)
+
+- **Status of F-13 (plural typo "commons categorys"):** RESOLVED by Scheme-4 cleanup (commit `2c880bc`); verified zero occurrences in TA v2.1.0.
+- **Status of F-15 (§11.x.y sub-numbering collision):** APPARENTLY RESOLVED by Scheme-4 cleanup; local-restart §-notation stripped from §11.5–§11.11.
+- **F-11 (logarithm-base ambiguity):** `log(1 + σ)` formulas in §3.5, §11.5 §1.4, §11.6 §2.4. Numerical worked examples verify natural-log usage (e.g., §11.5 §1.4 "log(101) ≈ 4.6" = ln(101) = 4.615). Fix: specify as `ln(1 + σ)` explicitly. Estimated effort: 5 min (find-replace).
+- **F-12 (P symbol overload — Hotelling rent vs market price):** §3.2 IPG = RCV / P + §10.5 P1 + §4 Hotelling Identity. No actual collision; §14.1 paragraph could clarify P-evolution-under-Hotelling vs P at extraction time. Estimated effort: 5 min (one paragraph addendum).
+- **F-14 (seven-vs-ten dimensions presentation in §6.2/§6.3 vs §1.10):** §6.2 prefatory note already honestly acknowledges the v0.0.5-vs-v1.3.0 cohort mismatch. Fix: extend §6.2/§6.3 to all ten dimensions, or restructure the v0.0.5/v1.3.0 distinction. Estimated effort: ~30 min.
+- **F-17 (register/capitalization of "existential substitutability gap"):** §1.9 specifies the §13 lowercase-descriptive register; surface presentations elsewhere drift. Fix: find-replace to align all instances to lowercase. Estimated effort: 5 min.
+- **Disposition for revisit:** queue as a single coordinated Pass 2 typography commit pre-publication. Total estimated effort: ~45 min. None Sandy-blocking; all cosmetic.
+
+#### I-3. Pass 3 pedagogical scaffolding for cross-domain reader
+
+- **Sequencing rationale:** by design post-external-review. The reviewer's response is what informs the scaffolding adjustments.
+- **Specific targets identified in Pass 1 doc §"Out-of-scope notes":**
+  - §5.4 Parfit-grounding paragraph reader-load for a stratification economist (does the impersonal-outcomes vs person-affecting distinction land?)
+  - §10.5 substitution-dominance framing for an audience used to reparations-economics (does the welfare-comparison algebra map cleanly onto reparations + restitution discourse?)
+  - §15.1.2 two-instrument architecture rationale for a Darity-Mullen reader (the §15.1.2 paragraph is the load-bearing Darity-facing prose — needs deliberate sequencing once Sandy's response surfaces specific resonance/friction points)
+  - MI-1 typology paragraph wording in §5.1.1 may need refinement if Sandy pushes on the Restitution-Bond-as-operationalizing-restitution-component framing
+- **Disposition for revisit:** fire as a post-Sandy-response workstream. Apply scoped to whatever Sandy surfaces in his read.
+
+#### I-4. TA's own Pass 1 full audit cadence (future runs)
+
+- **Already applied in v2.1.0 (substantive Pass 1 findings from the 2026-05-13 math/proof audit):** F-2 (Theorem 10.5 P1 equivocation) + F-3 (Theorem 10.1a A1 cross-reference) + F-6 (McDowell DAC band re-labeling) + F-8 (Theorem 10.3 statement-proof bridge) + F-9 (§6.4.2 sub-numbering renumber to §6.6) + F-10 (Theorem 10.4 SC2 proof tightening) + F-18 (Theorem 10.4 knife-edge corollary hypothesis strengthening) + F-19 (§16.3 Spatial Cost Severance formula restatement) + Theorem 10.1b symmetric-application addendum + F-7 (Norway gas-emissions Path A units correction) + §11 calibration updates + MEDIUM-11 coal-CO₂ short-ton-accounting cascade + bibliography expansion + verification-round refresh.
+- **Future audit-cycle workstreams (separate from this session):**
+  - Pass 2 typography sweep re-verification (overlaps with I-2 above)
+  - Pass 3 audience-load re-verification (overlaps with I-3 above)
+  - Potential Pass 1 re-audit on extended scope (post-publication scope adjustments; e.g., if scope of empirical-cases set expands, or if Three Ways methodology adds a fourth method)
+- **Disposition for revisit:** queue as appropriate workstreams when scope changes warrant. No current-state deficiency.
+
+### Pre-publication revisit consolidation
+
+Items I-1 through I-4 can be re-surfaced as a single pre-publication-refresh todo list when the manuscript moves to publisher-ready state:
+
+| Item | Estimated effort | Trigger |
+|---|---|---|
+| I-1 F-7 exact split | ~15 min | Pre-publication refresh (regardless of Sandy probe) |
+| I-2 Pass 2 typography sweep | ~45 min | Pre-publication refresh (regardless of Sandy probe) |
+| I-3 Pass 3 pedagogical scaffolding | Variable; scoped to Sandy response | Post-Sandy-response |
+| I-4 Future audit cadence | Variable; scoped to scope changes | When scope expands |
+
+Total pre-publication refresh effort for I-1 + I-2 (Sandy-response-independent items): ~60 min as a single coordinated session.
+
+---
+
+*End of §I Sandy-review-prep disposition (2026-05-14). End of Tech Appendix verification round 2026-05-14. PROPOSED, awaits ratification. Mirrors the Ch 5 Amendment 2 + Ch 6 Amendment B pattern of authoritative-source verification verdicts against primary public sources, plus a Sandy-review-prep disposition appendage for pre-publication item-tracking transparency.*
