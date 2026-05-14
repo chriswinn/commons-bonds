@@ -4,7 +4,7 @@
 **Workstream:** #20 Manuscript Stage-3 Rigor Pass — Phase B — Ch 5 — Pass 3 (audience-load)
 **Chapter:** 5 — *The Accountability Gap*
 **File audited:** [Chapter__5_THEACCOUNTABILITYGAP__Draft.md](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md) — **237 lines** (post-Phase-C-β-follow-up state verified 2026-05-14 against origin/main `d2ee178`)
-**Status:** **PROPOSED — awaits author ratification. Phase C-δ applies after ratification.**
+**Status:** **RATIFIED 2026-05-14** — author ratified as-proposed via PM session. Aggregate verdict (§6.3): 9 INCLUDE / 0 EXCLUDE; READY TO SUBMIT AS-IS; no Phase C-δ spot-fixes required. Phase C-δ placeholder closed empty. Ch 5's three-pass rigor cycle (Pass 1 + Pass 2 + Pass 3) is complete. Filename retains `_PROPOSED.md` suffix per the Pass 1 / Pass 2 convention; ratification state is canonical via this header + PM handoff §6 + git history.
 **Mode:** Audit-existing-prose, Pass 3 (audience-load) per v2.0 Amendment B + canonical [Stage-3 template](tools/drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3: Audience-load".
 **Pass scope:** Pass 3 (audience-load) only. Pass 1 ratified + Phase C-α applied (commit `da26bdc`); Pass 2 ratified + Phase C-β + Phase-C-β follow-up applied (commits `d68d92e` + `7cbb9c1` + `d2ee178`). Pass 3 is the final pre-send rigor pass before the Sandy Darity send packet ships.
 **Hard constraint observed:** No fixes applied to chapter file. Phase C-δ (post-ratification) applies recommended edits.
