@@ -1,0 +1,628 @@
+# Stage-3 Rigor Pass — Chapter 5 (The Accountability Gap) — Pass 1: Fact-check [PROPOSED]
+
+**Date:** 2026-05-13
+**Workstream:** #20 Manuscript Stage-3 Rigor Pass — Phase A (per-chapter audits)
+**Chapter:** 5 — *The Accountability Gap*
+**File audited:** [Chapter__5_THEACCOUNTABILITYGAP__Draft.md](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md)
+**Word count:** ~9,574w (per workstream handoff; verified line count 238)
+**Pass scope:** Pass 1 (Fact-check) only. Pass 2 (Voice-polish) and Pass 3 (Audience-load) NOT run in this session — per workstream phasing.
+**Hard constraint observed:** No spot-fixes applied to chapter file. Phase C session (post-author-ratification) applies recommended edits.
+**Status:** **PROPOSED — awaits author ratification.**
+
+---
+
+## Why this pass matters now
+
+Ch 5 is the Boston Review essay (#2) source chapter and is being sent to Sandy Darity with Ch 6 + Tech Appendix post-2026-05-13 interview. Sandy is a labor economist who knows Social Security economics, reparations economics, and the wealth-gap methodology cold. He will read carefully and challenge what looks loose. The fact-check bar for this chapter is therefore higher than the standard per-chapter Phase A bar.
+
+Ch 5 also just received a new content addition — the **"Restitution and Foreclosure: Two Directions of Accountability"** section (lines 184–230) — that has never been through any rigor pass. The new section establishes the framework's bidirectional application (forward to forecast-pricing; backward to historical-restitution-pricing) and is the chapter's load-bearing connection to the Coates/Darity-Mullen/Hamilton/Conley reparations-economics lineage. Extra scrutiny applied per the workstream handoff §"new 4-gates + 3-ways application section."
+
+---
+
+## Canonical sources consulted
+
+1. [research/case-studies/libby-vermiculite.md](research/case-studies/libby-vermiculite.md) — case-study brief (copied verbatim from Ch 5 per brief's own §"Status"; consistency-check, not independent verification).
+2. [research/case-studies/deepwater-horizon.md](research/case-studies/deepwater-horizon.md) — case-study brief (copied verbatim from Ch 5 per brief's own §"Status"; consistency-check).
+3. [research/case-studies/social-security.md](research/case-studies/social-security.md) — case-study brief (independent content; primary check for $108T claim).
+4. [research/case-studies/2008-financial-crisis.md](research/case-studies/2008-financial-crisis.md) — case-study brief (independent content; primary check for TARP/Fed-facility/foreclosure numbers).
+5. [research/case-studies/healthcare-end-of-life.md](research/case-studies/healthcare-end-of-life.md) — case-study brief (independent content; primary check for GoFundMe/Butler claims).
+6. [research/literature/bibliography.md](research/literature/bibliography.md) §13 — framework-adjacent literature (Coates 2014, Darity & Mullen 2020, Hamilton et al. 2015, Conley 1999, Pistor 2019, Christophers 2024, Hacker 2006, Butler 2010, Gawande 2014, Hartwick 1977, Parfit 1984, Pettit 1997, Mazzucato 2018, Ostrom 1990).
+7. [manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html) — canonical introduction of the four gates + the three approaches + Method 1/2/3.
+8. [core/technical-appendix/TechnicalAppendix_v2.0.0.html](core/technical-appendix/TechnicalAppendix_v2.0.0.html) — canonical Method names (Method 1: Replacement Cost; Method 2: Revealed Preference; Method 3: Scarcity-Adjusted Option Value) + §5 Accountability Bond Decomposition + numbering scheme post-#15 reconciliation (Scheme-4 cleanup #19 in flight in parallel).
+9. [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md) — apparatus register canonical decisions.
+10. [manuscript/chapters/Chapter_10_CommonBonds__Draft.md](manuscript/chapters/Chapter_10_CommonBonds__Draft.md) — verified for cross-reference compatibility with the new Ch 5 reverse-direction passage (Ch 10 insertion-placement session in flight).
+
+---
+
+## Summary verdict
+
+| Severity | Count | Disposition |
+|---|---|---|
+| MUST-FIX | 2 | Resolve before Darity send; both are Sandy-Darity-sensitive |
+| SHOULD-FIX | 1 | Vocabulary alignment with Ch 6 canonical |
+| MEDIUM | 5 | Spot-fix recommended (author-ratify) |
+| LOW | 5 | Verification flags / pre-publication refresh |
+| CITATION-LATER | — | See cross-thread #11 contribution block below |
+
+**Aggregate verdict:** **READY AFTER SPOT-FIXES** for Pass 1. Two MUST-FIX findings (F-1 broken TA cross-reference + F-2 Social Security $108T misattribution) are gating for Sandy Darity send — both will be caught immediately by a fact-checker or by Sandy himself on first read. One SHOULD-FIX (F-3 reverse-direction Method-name vocabulary) is a coherence finding for the new Restitution-and-Foreclosure section. The MEDIUM findings are precision-tightening; LOW findings flag time-sensitive figures for pre-publication refresh.
+
+**Critical positive findings:** the new "Restitution and Foreclosure" section's named-subject discipline holds (no consent issues); the Coates/Darity-Mullen/Hamilton/Conley/Pistor/Pettit/Skinner lineage prose is consistent with the bibliography's framework-engagement records; the apparatus regression check returns clean; Ch 5's reverse-direction claim at lines 210–214 ("The same apparatus runs in reverse") is well-established for the in-flight Ch 10 insertion-placement session to reference safely.
+
+---
+
+## Findings
+
+### MUST-FIX-1 (CRITICAL): Broken cross-reference — Technical Appendix §5.5 does not exist
+
+**Location:** [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:224](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:224)
+
+**Chapter text:**
+> "This is by design. The book demonstrates the framework forward; the backward application is structurally identical methodology, carried in formal articulation in the Technical Appendix (§5.5)."
+
+**Canonical truth (TA v2.0.0 post-#15 reconciliation):** The Technical Appendix's §5 ("Accountability Bond Decomposition") has subsections §5.1 (Sub-instrument formal definitions), §5.1.1 (B₁ Restitution Bond), §5.1.2 (B₂ Foreclosure Bond), §5.2 (Naming-rigor outcome), §5.3 (Independence note), and §5.4 (Intergenerational moral grounding — Parfit 1984; B₂ Foreclosure Bond direction). **There is no §5.5.** The TA's full subsection inventory under §5 ends at §5.4.
+
+The "backward application is structurally identical methodology" claim — pricing already-realized historical extraction harm (slavery, coerced labor, indigenous dispossession, colonial extraction, occupational disease) through the framework's apparatus — does not have a single dedicated section in the current TA. The closest content is distributed across:
+- §5.1.1 (B₁ Restitution Bond — the backward-looking instrument, with reparations-economics lineage)
+- §11 (Empirical Validation — case-by-case cost-decomposition demonstrations)
+- §14 (Literature Engagement — reparations-economics + civic-republican lineage)
+- §15 (Limitations — methodological scope claim)
+
+**Why this is MUST-FIX-1:** The §5.5 pointer is a load-bearing cross-reference. A reader following the lineage Ch 5 has just established (Coates → Darity & Mullen → Hamilton → Conley) will turn to TA §5.5 expecting formal articulation of the backward application and will find a section that does not exist. Sandy Darity is highly likely to look up this reference. A broken cross-reference to the most-load-bearing section pointer in the chapter's lineage-engagement passage is the kind of error that erodes trust on first read.
+
+**Recommended spot-fix:** Three options, author judgment which to apply:
+
+- **Option A (target the existing closest section):** Replace `(§5.5)` with `(§5.1.1 — B₁ Restitution Bond; reparations-economics lineage)` — this is the closest existing TA section by content match.
+- **Option B (multi-section pointer):** Replace `(§5.5)` with `(see TA §5.1.1 — B₁ Restitution Bond; TA §11 — case-by-case demonstrations; TA §14 — reparations-economics literature engagement)` — more rigorous routing for a reader following the lineage.
+- **Option C (defer to #19 Scheme-4 cleanup):** Coordinate with the in-flight #19 TA Scheme-4 cleanup session: if §5.5 is being added (a "Backward Application" section), the cross-reference becomes correct after #19 lands. Author judgment: does the TA actually need a §5.5 added for backward application, or is the right move to point Ch 5 at the existing closest section?
+
+**Severity rationale:** MUST-FIX (CRITICAL-equivalent) because (a) the cross-reference is broken in the current TA, (b) the pointer is load-bearing for the chapter's reparations-economics lineage passage, (c) Sandy Darity will look it up.
+
+**Cross-session flag:** Coordinate with **#19 TA Scheme-4 cleanup session** before applying. If #19 is adding a §5.5 ("Backward Application"), Option C applies and no Ch 5 edit is needed once #19 lands. If #19 is not adding §5.5, apply Option A or B in Ch 5 Phase C.
+
+---
+
+### MUST-FIX-2 (CRITICAL): "$108 trillion" misattributed as Social Security unfunded liability
+
+**Location:** [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:112](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:112) and following
+
+**Chapter text (line 112):**
+> "The severed cost sits in that gap. The current unfunded liability — the difference between what Social Security has promised and what it can actually pay — stands at one hundred and eight trillion dollars, measured over a seventy-five-year projection window."
+
+**Canonical truth:**
+
+The $108T figure has two distinct meanings in the corpus, and Ch 5 conflates them:
+
+1. **What the case-study brief actually defines $108T as** ([research/case-studies/social-security.md:48-50, 59](research/case-studies/social-security.md:48)): The **counterfactual opportunity cost** of having held Social Security trust-fund surpluses in special-issue Treasuries rather than investing them in a broad U.S. equity index over 88 years. The brief computes: ~$110.9T (counterfactual equity-invested fund) − actual trust-fund balance ≈ $108T. The brief explicitly labels this the **"Lineage Labor Cost of the American working class, compounded across 88 years, extracted without pricing."** This is an **opportunity-cost / foregone-investment-return** figure.
+
+2. **What Ch 5 line 112 claims $108T is:** The Social Security **unfunded liability** measured over a 75-year projection window. This is a standard Trustees-Report term of art with a specific actuarial meaning: the present-value gap between scheduled benefits and scheduled revenues over the 75-year valuation horizon. Per the **2024 Social Security Trustees Report**, the 75-year unfunded obligation (open-group) is approximately **$25 trillion**; the infinite-horizon unfunded obligation is approximately **$70 trillion**. **Neither is $108 trillion.**
+
+The case-study brief is itself inconsistent on this point — line 98 of the brief casually refers to "the Ch. 5 draft's Social Security case ($108T unfunded liability)" using the unfunded-liability framing, while lines 50 and 59 unambiguously define $108T as the foregone-investment counterfactual. The brief was drafted to support Ch 5's existing prose; the prose has propagated to the brief; the underlying actuarial categorization is wrong in both.
+
+**Why this is MUST-FIX-2:** Sandy Darity, as a labor economist, knows Social Security actuarial vocabulary cold. "75-year unfunded liability" is a Trustees-Report term of art with a specific number attached (≈$25T in current reports). The $108T figure cannot bear that label without misrepresenting what it is. The figure is also the chapter's most numerically-arresting Social Security claim and gets repeated through the scaling-claims that follow (line 114: "roughly three times the entire current federal debt... more than four times the annual gross domestic product... approximately three hundred thousand dollars for every person in the country"). If $108T is recategorized, those downstream comparisons all need to be re-evaluated.
+
+**Recommended spot-fix:** Two options, author judgment which to apply:
+
+- **Option A (preserve the $108T figure; correct the framing):** Recategorize $108T as the *foregone-investment opportunity cost* the case-study brief actually defines. Sample rewrite:
+
+  > "The severed cost sits in that gap. The Social Security trust-fund surpluses accumulated from 1937 onward were held in special-issue Treasury obligations rather than invested as productive sovereign capital. The opportunity cost — the gap between what the fund holds today and what it would have held if those surpluses had been invested in a broad U.S. equity index across the same window — is approximately one hundred and eight trillion dollars. That is the compounded foregone return on eighty-eight years of working-class payroll-tax contributions, extracted from the architecture by the Treasury-IOU mechanism that the surpluses were routed through."
+
+  This requires reframing the chapter's downstream Social Security argument around the architectural-choice critique the case-study brief actually develops (Norway-style sovereign-fund investment vs. U.S. Treasury-IOU mechanism), and tying the $108T number to that critique rather than to "unfunded liability."
+
+- **Option B (preserve the unfunded-liability framing; correct the figure):** Replace $108T with the Trustees-canonical figure. Sample rewrite:
+
+  > "The current unfunded liability — the difference between what Social Security has promised and what it can actually pay — stands at approximately twenty-five trillion dollars over the seventy-five-year projection window the Trustees evaluate, with the infinite-horizon obligation reaching roughly seventy trillion dollars. The figure represents promises that current retirees and near-retirees will receive as promised, but that will ultimately be paid by future taxpayers who had no voice in creating those obligations."
+
+  This requires updating the downstream scaling comparisons at line 114 (a $25T figure is ~1x annual U.S. GDP, ~$75K per capita — not "more than four times GDP" and not "three hundred thousand per person").
+
+**Author judgment is required here.** The case-study brief itself favors Option A interpretation (the foregone-investment counterfactual is the brief's analytical innovation); Ch 5's existing prose has been positioned as Option B (unfunded-liability framing). Option A preserves the $108T figure that gives the chapter its rhetorical force; Option B preserves the actuarial accuracy at the cost of dropping the figure. Both are defensible. The current text is the one combination that doesn't work — using the $108T figure under the unfunded-liability label is the specific misattribution.
+
+**Severity rationale:** MUST-FIX (CRITICAL-equivalent) because (a) the actuarial misattribution is concrete and would be caught by any economist reviewing the chapter, (b) the figure is load-bearing for the chapter's "civilizational scale" claim, (c) Sandy Darity will catch it.
+
+---
+
+### SHOULD-FIX-1 (HIGH): Reverse-direction Method-name vocabulary mismatch with Ch 6 / TA canonical naming
+
+**Location:** [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:214](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:214)
+
+**Chapter text:**
+> "They yield to the same four gates. They triangulate through the same three methods, applied backward: substitution cost becomes remediation cost; revealed restraint becomes revealed restitution; forward option value becomes the option value extinguished at the time of past extraction, evaluable from what we know now."
+
+**Canonical truth:** Ch 6 and TA v2.0.0 §3 establish canonical naming for the three RCV-estimation methods:
+
+| Ch 5 informal label | Canonical Ch 6 / TA naming | TA §-anchor |
+|---|---|---|
+| "substitution cost" | **Method 1: Replacement Cost** | TA §3.3 |
+| "revealed restraint" | **Method 2: Revealed Preference** | TA §3.4 |
+| "forward option value" | **Method 3: Scarcity-Adjusted Option Value** | TA §3.5 |
+
+Two distinct problems with the Ch 5 vocabulary:
+
+(a) **Naming mismatch.** None of the three informal labels in Ch 5 line 214 carry the canonical Ch 6 / TA name. A reader who arrives at Ch 6's "Method 1 — Replacement Cost" or TA §3.3 will not necessarily connect that to Ch 5's "substitution cost." The reverse-direction passage's load-bearing claim — that the same three methods apply backward — fails if the reader cannot identify which three methods the passage is referencing.
+
+(b) **"Revealed restraint" is a novel coinage.** The phrase "revealed restraint" appears nowhere else in the corpus (verified via grep across `manuscript/chapters/` and `core/technical-appendix/`). The canonical Method 2 is "Revealed Preference" — a standard term of art in welfare economics referring to choices observed in markets or institutional architectures. "Revealed restraint" is a semantic shift: where "revealed preference" reads what a polity / market priced as a measure, "revealed restraint" reads what a polity / market *did not take* (active forbearance) as a measure. The connotative shift may be intentional for the Norway-style application — Norway's not-extracting-everything-immediately *is* a form of revealed restraint — but the term is not introduced anywhere, not defined, and not connected to the canonical "Revealed Preference" name. The new coinage at this point in the manuscript reads as either (i) a Ch 5–specific paraphrase of Method 2, in which case it should anchor to the canonical name, or (ii) a new framework concept, in which case it requires the standard name-defense treatment that the other flagship terms have received.
+
+**Why this is SHOULD-FIX-1:** The new Restitution-and-Foreclosure section is the chapter's most-load-bearing apparatus passage. Sandy Darity, reading carefully, will follow the "same three methods applied backward" claim into Ch 6 and TA looking for the methods being referenced. He will find Method 1 (Replacement Cost), Method 2 (Revealed Preference), Method 3 (Scarcity-Adjusted Option Value). The Ch 5 → Ch 6 / TA mapping is not transparent. The "revealed restraint" novel coinage compounds the problem.
+
+The Ostrom-path open/illustrative reading default (per [feedback_audit_open_illustrative_default.md](/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audit_open_illustrative_default.md)) does *not* apply here: Ch 5's claim is closure-style ("the same three methods... they triangulate through the same three methods"), not illustrative. The closure-reading does require canonical-name alignment.
+
+**Recommended spot-fix:** Two options:
+
+- **Option A (anchor informal labels to canonical names — minimal-edit):** Add a one-clause anchor when the informal labels first appear. Sample rewrite:
+
+  > "They yield to the same four gates. They triangulate through the same three methods (Replacement Cost, Revealed Preference, and Scarcity-Adjusted Option Value, as Chapter 6 develops), applied backward: replacement cost becomes remediation cost; revealed preference becomes revealed restitution; scarcity-adjusted option value becomes the option value extinguished at the time of past extraction, evaluable from what we know now."
+
+  This keeps Ch 5's reverse-direction prose move (forward-X becomes backward-Y) but anchors each forward-X to the canonical Ch 6 / TA name.
+
+- **Option B (preserve informal labels; add forward pointer to Ch 6 + TA):** Keep "substitution cost / revealed restraint / forward option value" as informal Ch 5 labels but add an explicit pointer:
+
+  > "...the same three methods (Chapter 6 §"Approach 3 — The RCV Model" and Technical Appendix §3 establish these as Methods 1, 2, and 3 — Replacement Cost, Revealed Preference, and Scarcity-Adjusted Option Value), applied backward..."
+
+  This is more prose-heavy but preserves Ch 5's existing language. Option B is harder to read but easier to apply without restructuring the passage.
+
+If Option A is applied, also drop "revealed restraint" everywhere (replace with "revealed preference"). If Option B is applied, leave "revealed restraint" but flag for Pass 2 voice-polish to evaluate whether the novel coinage earns its semantic shift.
+
+**Severity rationale:** SHOULD-FIX (HIGH-equivalent) because (a) the vocabulary mismatch with canonical naming is concrete and a careful reader will notice, (b) the "revealed restraint" novel coinage is unanchored, (c) the closure-style claim ("the same three methods") forecloses the Ostrom-path illustrative reading that would otherwise grant slack. Not MUST-FIX because Sandy Darity is more likely to flag the substantive backward-application claim than the specific Method-naming convention.
+
+**Cross-session flag:** If Phase C applies the fix, coordinate with the **Ch 6 conversion (#18)** session — Ch 6 currently lives at [Chapter__6_ThreeWaysofCounting__Draft.html](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html); a §-style cross-reference from Ch 5 should match whatever anchor scheme Ch 6 carries in its converted form.
+
+---
+
+### MEDIUM-1: "$150 billion" CBO total-economic-losses estimate for Deepwater Horizon — unanchored attribution
+
+**Location:** [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:46](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:46)
+
+**Chapter text:**
+> "The Congressional Budget Office estimated total economic losses — including losses that no court could assign to any single responsible party — at over one hundred and fifty billion dollars."
+
+**Canonical truth:** No specific Congressional Budget Office publication has been identified that reports a $150 billion total-economic-losses figure for Deepwater Horizon. The CBO did publish multiple reports on offshore-drilling fiscal impacts and on BP's settlement payments, but the $150B aggregate-loss attribution to CBO is not directly verifiable from the corpus or from the case-study brief at [research/case-studies/deepwater-horizon.md](research/case-studies/deepwater-horizon.md). The case-study brief uses the same $150B figure (line 32) without independent citation — the brief was extracted from Ch 5 verbatim.
+
+The $150B figure is consistent in order-of-magnitude with several aggregate estimates that exist in the literature (Restore the Gulf Coast Act analyses; Department of the Interior NRDA-process aggregates; academic publications such as Sumaila et al. 2012; insurance-industry estimates from Munich Re). But the specific attribution to CBO is the question. A fact-checker will look for the specific CBO publication and may not find it.
+
+**Why this is MEDIUM-1:** The figure is load-bearing for the chapter's "40 percent cost recovery ratio" calculation that immediately follows (line 48: "BP's sixty billion dollars in penalties against one hundred and fifty billion dollars in total costs yields a cost recovery ratio of forty percent"). If CBO is the wrong attribution, the calculation still holds but the citation needs a different anchor.
+
+**Recommended spot-fix:** Two options:
+
+- **Option A (find the actual source):** Verify whether a specific CBO publication carries the $150B figure. If yes, add an endnote. If no (i.e., the attribution is wrong), retarget to whatever source actually carries the figure (likely an aggregate of multiple academic + insurance + government estimates).
+- **Option B (hedge the attribution):** Replace "The Congressional Budget Office estimated" with a more general framing such as "Aggregate estimates from academic, insurance-industry, and federal sources place total economic losses at over one hundred and fifty billion dollars" — and add the specific sources at endnote-finalization time (cross-thread #11).
+
+**Severity rationale:** MEDIUM not HIGH because the underlying claim (DWH total economic losses ~$150B) is order-of-magnitude defensible against multiple aggregate sources; MEDIUM not LOW because the specific CBO attribution is concrete and may be wrong.
+
+---
+
+### MEDIUM-2: "4.3 million gallons worth of fish and shellfish" — unit error for marine mortality
+
+**Location:** [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:46](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:46)
+
+**Chapter text:**
+> "The National Oceanic and Atmospheric Administration estimated that the spill killed 4.3 million gallons worth of fish and shellfish that would have supported Gulf fisheries for years."
+
+**Canonical truth:** Fish and shellfish mortality is not measured in gallons. NOAA's Deepwater Horizon Natural Resource Damage Assessment (NRDA) reports marine-organism mortality in:
+- Biomass (pounds or metric tons of fish lost)
+- Organism counts (individual fish, shellfish, birds, sea turtles, marine mammals)
+- Habitat-equivalent acreage lost
+
+The "4.3 million gallons" figure does not correspond to a standard NOAA unit. The intended figure may be:
+- A mistranscription of the NOAA estimate of 4.3 million animals killed (the figure that appears in some popular-press coverage)
+- A mistranscription of NOAA's "4.3 million pounds of seafood" estimate (which appears in some commercial-fisheries-loss analyses)
+- A confusion with the "4.9 million barrels of oil" spill volume figure (Ch 5 line 38 — correctly stated)
+- A separate metric from one of NOAA's deepwater-fisheries assessments
+
+**Why this is MEDIUM-2:** The "gallons" unit for fish is biologically and bureaucratically wrong. A reader who looks up the NOAA NRDA report (publicly available) will not find a "4.3 million gallons of fish" figure and will flag the citation. Sandy Darity is less likely to flag this than the Social Security claim, but a Gulf-ecosystems specialist (or any environmental-science-literate reader) will.
+
+**Recommended spot-fix:** Verify the actual NOAA figure and unit. Options:
+- "killed approximately 4.3 million pounds of commercially-valuable fish and shellfish"
+- "killed marine organisms estimated by NOAA at 4.3 million individuals across fish, shellfish, and migratory species"
+- A different figure from NOAA's NRDA Final Programmatic Damage Assessment (2016)
+
+**Severity rationale:** MEDIUM not HIGH because the underlying claim (substantial Gulf marine mortality from the spill) is correct; the unit specification is the error. Easy to fix once the right NOAA figure is identified.
+
+---
+
+### MEDIUM-3: Social Security depletion-year benefit rate — 77% vs. 81%/79%/83% (Trustees Report year)
+
+**Location:** [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:110](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:110)
+
+**Chapter text:**
+> "What happens in 2034 is not a mystery. Unless Congress acts, Social Security will only be able to pay seventy-seven percent of promised benefits."
+
+**Canonical truth:**
+- Case-study brief ([research/case-studies/social-security.md:19](research/case-studies/social-security.md:19)) says **"about 81%"** at depletion.
+- **2024 Social Security Trustees Report:** OASI alone depleted 2033 → 79% scheduled benefits payable; DI Trust Fund well-funded; OASDI combined depletion 2035 → 83% payable.
+- The **77% figure** is closer to older Trustees Reports (pre-2020) or to longer-horizon projections.
+
+There is internal corpus inconsistency:
+- Ch 5: 77% by 2034
+- Case-study brief: 81% by 2034
+- Current canonical (2024 Trustees Report): 79% (OASI) or 83% (OASDI combined) by 2033 / 2035
+
+**Why this is MEDIUM-3:** The chapter's central Social Security argument doesn't depend on the specific percentage — but the figure is concrete, citable, and inconsistent with both the case-study brief and the most recent Trustees Report. A fact-checker will flag it.
+
+**Recommended spot-fix:** Update to current Trustees-canonical figure. Options:
+- "...Social Security will only be able to pay seventy-nine percent of promised benefits..." (OASI; conservative, matches 2024 Trustees OASI projection)
+- "...Social Security will only be able to pay between seventy-nine and eighty-three percent of promised benefits, depending on whether the OASI and Disability Insurance trust funds are combined..." (preserves precision)
+- Per the verify-stale-memory-claims discipline, this figure will need re-verification at pre-publication refresh (each annual Trustees Report shifts it).
+
+**Severity rationale:** MEDIUM because the figure is concrete and inconsistent with the brief; not HIGH because the chapter's structural finding does not turn on the specific percentage.
+
+**Cross-corpus follow-on:** The 77% / 81% discrepancy between Ch 5 and the case-study brief should be resolved in the cross-chapter consistency inventory at [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md). Add a row for Social Security depletion-year benefit rate with the canonical figure locked at one of the Trustees-canonical numbers.
+
+---
+
+### MEDIUM-4: "$25 million" BP-Mexico settlement date — year may be 2014 not 2017
+
+**Location:** [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:50](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:50)
+
+**Chapter text:**
+> "BP's settlement with the Mexican federal government in 2017 totaled approximately twenty-five million dollars — three orders of magnitude smaller than the U.S. settlements for comparable per-mile-of-coastline damage."
+
+**Canonical truth:** The BP-Mexico settlement amount (~$25.5M) is well-documented, but the **year** appears to have been earlier than 2017. Public reporting at the time of the settlement placed it in 2014 — when Mexico's Attorney General's Office and BP reached the settlement covering damages to Mexican Gulf coastlines from the Macondo spill. There may be a subsequent 2017 supplementary agreement or a final-disbursement date that justifies the 2017 reference, but the primary settlement year per accessible public reporting is 2014.
+
+**Why this is MEDIUM-4:** The specific year is concrete and falsifiable. A fact-checker will look up the settlement date. The chapter's structural finding (international architectural asymmetry produces three-orders-of-magnitude smaller settlements for Mexican claimants vs. American claimants) does not depend on the specific year, but the year should be correct.
+
+**Recommended spot-fix:** Verify the actual settlement year and correct if needed. Options:
+- "BP's settlement with the Mexican federal government in 2014 totaled approximately twenty-five million dollars..."
+- Or, if there is a 2017 supplementary agreement: "BP's series of settlements with the Mexican federal government, finalized in 2017, totaled approximately twenty-five million dollars..."
+
+**Severity rationale:** MEDIUM because the figure is concrete and date-specific; the structural argument doesn't depend on the year but the citation should be correct.
+
+---
+
+### MEDIUM-5: "Four gates" referenced without canonical names anchored
+
+**Location:** [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:210-218](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:210) (cluster across new section)
+
+**Chapter text (line 210):**
+> "The framework's apparatus, the four gates and the three ways of counting, does that work."
+
+(Repeated at lines 212, 214; the cluster invokes "the four gates" without specifying which four.)
+
+**Canonical truth (Ch 6 + TA §7):**
+- Gate 1: **Commons Inversion Test** (with two sub-forms: Commons-Absence Inversion + Commons-Consumption Inversion)
+- Gate 2: **Units Consistency** (dimensional consistency)
+- Gate 3: **Boundedness** (finite-bound requirement)
+- Gate 4: **Independence** (no double-counting across overlapping commons categories)
+
+Per the apparatus register decision ([tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md)), the four gates are introduced canonically in Ch 6 (the methodology chapter), and chapter prose before Ch 6 can reference "the four gates" without expanding individual names — Ch 5 has been operating under that discipline.
+
+**Why this is MEDIUM-5 (not LOW):** Ch 5's new Restitution-and-Foreclosure section is making a claim that requires the reader to bridge between forward-direction application (which Ch 5 has demonstrated via the six accountability-gap cases that precede the section) and backward-direction application (which the section introduces). The "four gates" reference is load-bearing for the bridge: the reader needs to know that the gates filter cost-admission identically in both directions. Ch 5 invokes the gates four times in the cluster without anchoring to Ch 6 or providing a forward-pointer ("the four gates Chapter 6 develops..."). This is consistent with the apparatus register decision, but the specific point at which the gates are invoked in a load-bearing way for a backward-direction claim is the natural place to add a forward-pointer for first-time readers.
+
+**Recommended spot-fix (author judgment):** Two options:
+
+- **Option A (no edit; defer to apparatus register discipline):** Hold per the existing register decision — Ch 5 may reference "the four gates" without expanding names. Defensible.
+- **Option B (add forward-pointer once):** At first invocation (line 210), add a parenthetical pointer: "...the four gates and the three ways of counting (Chapter 6 develops each formally)..." — provides the reader navigation without expanding individual names.
+
+**Severity rationale:** MEDIUM because the reverse-direction passage's load-bearing structure benefits from anchoring; not HIGH because the apparatus-register discipline already permits this register. Sandy Darity will probably not flag this on its own — but combined with SHOULD-FIX-1 (Method-name mismatch), the navigation issue compounds. If SHOULD-FIX-1 is ratified with Option A (anchor informal labels to canonical names), this finding may be partially absorbed into that fix.
+
+---
+
+### LOW-1: "more than four times the annual gross domestic product" — depends on MUST-FIX-2 resolution
+
+**Location:** [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:114](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:114)
+
+**Chapter text:**
+> "To understand the scale: one hundred and eight trillion dollars is roughly three times the entire current federal debt. It is more than four times the annual gross domestic product of the United States. It represents approximately three hundred thousand dollars for every person in the country..."
+
+**Canonical truth (assuming $108T figure is preserved per MUST-FIX-2 Option A):**
+- $108T ÷ ~$28T current U.S. GDP ≈ 3.86x → "more than four times" is slightly overstated; "nearly four times" is more accurate.
+- $108T ÷ ~$36T current federal debt ≈ 3x → "roughly three times" is accurate.
+- $108T ÷ ~335M U.S. population ≈ $322K → "approximately three hundred thousand dollars per person" is accurate.
+
+If MUST-FIX-2 is resolved via Option B (replacing $108T with the Trustees-canonical $25T or $70T figure), all three scaling comparisons need to be recalculated and rewritten.
+
+**Why this is LOW-1:** Dependent finding — the resolution of MUST-FIX-2 cascades through these comparisons. If $108T is preserved (Option A), only the "more than four times" comparison needs a small adjustment ("nearly four times" or "approaching four times"). If $108T is replaced (Option B), all three need full recalculation.
+
+**Recommended action:** Resolve MUST-FIX-2 first, then apply downstream corrections per the resolution path.
+
+**Severity rationale:** LOW because the comparisons follow from MUST-FIX-2; not a standalone finding.
+
+---
+
+### LOW-2: GoFundMe 25-fold growth + Igra et al. 2021 citation implicit
+
+**Location:** [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:154](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:154)
+
+**Chapter text:**
+> "Between 2011 and 2020, the annual number of US medical fundraising campaigns on the platform GoFundMe grew twenty-five-fold. By 2020, more than a third of all GoFundMe campaigns were for medical expenses; between 2016 and 2020, 438,000 such campaigns raised over two billion dollars from 21.7 million donations. Only twelve percent reached their funding goals. Sixteen percent received no donations at all."
+
+**Canonical truth:** The figures are consistent with **Igra, Kenworthy, Luchsinger, and Robinson (2021)**, *"Crowdfunding as a Response to COVID-19: Increasing Inequities at a Time of Crisis,"* *American Journal of Public Health* (and related Igra et al. publications on GoFundMe medical-fundraising). The 438,000 / $2B / 21.7M / 12% figures match the Igra et al. data. The case-study brief confirms most figures but doesn't explicitly state the "16%-no-donations" and "25-fold growth" numbers.
+
+**Why this is LOW-2:** All figures track Igra et al. 2021 in the academic literature. Chapter does not cite the specific paper. This is normal trade-press treatment — flag for cross-thread #11 endnote-finalization sweep.
+
+**Recommended action:** No spot-fix in Phase C. Add Igra et al. 2021 to the endnote sweep at cross-thread #11. Verify the "25-fold growth" and "16%-no-donations" figures against the specific Igra et al. paper at endnote-finalization time.
+
+**Severity rationale:** LOW because the figures are accurate and the citation gap is normal for trade-press; defer to endnote sweep.
+
+---
+
+### LOW-3: Mishel & Bivens EPI citation — no specific paper anchored
+
+**Location:** [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:158](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:158)
+
+**Chapter text:**
+> "Lawrence Mishel and Josh Bivens at the Economic Policy Institute have documented that the median U.S. wage tracked roughly with productivity growth from the late 1940s through the early 1970s, then decoupled — productivity continued to rise; the median wage stagnated in real terms for the next half century."
+
+**Canonical truth:** The productivity-pay decoupling finding is the canonical EPI Productivity-Pay Gap analysis, updated annually. The bibliography ([research/literature/bibliography.md:184](research/literature/bibliography.md:184)) carries Mishel & Bivens, *Identifying the Policy Levers Generating Wage Suppression and Wage Inequality* (EPI, 2021). The specific decoupling claim is also documented in Mishel et al., *Raising America's Pay* (EPI, 2015), and in the State of Working America series.
+
+**Why this is LOW-3:** Ch 5 attributes to EPI without specifying which paper. Defensible loose for trade prose. Could be tightened with a specific endnote citation.
+
+**Recommended action:** No spot-fix in Phase C. Add to endnote sweep at cross-thread #11. Specify which Mishel & Bivens paper (likely the most recent productivity-pay-gap update) at endnote-finalization time.
+
+**Severity rationale:** LOW because the underlying claim is well-supported by the EPI series; citation tightening is endnote-sweep work.
+
+---
+
+### LOW-4: Time-sensitive figures — pre-publication refresh required
+
+**Locations:**
+- [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:108](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:108) — Social Security trust fund depletion year 2034 (will shift in subsequent Trustees Reports)
+- [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:110](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:110) — depletion-year benefit rate (cross-reference MEDIUM-3)
+- [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:112](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:112) — $108T figure (cross-reference MUST-FIX-2)
+- [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:114](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:114) — scaling comparisons (cross-reference LOW-1)
+- [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:82](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:82) — Fed emergency lending $16T peak (defensible loose; GAO 2011 audit; aggregate measure)
+- [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:82](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:82) — 10 million foreclosures 2008-2012 (defensible loose; multiple aggregates land in 7-12M range)
+
+**Why this is LOW-4:** These figures are accurate per current canonical sources but each will need re-verification at pre-publication refresh (the Trustees Reports update annually; macroeconomic aggregates shift). Add to the cross-chapter consistency inventory's pre-publication-refresh checklist.
+
+**Recommended action:** No Phase C fix. Coordinate with the cross-chapter consistency inventory's recurring-stat row maintenance ([tools/audits/cross-chapter-consistency-inventory_2026-05-11.md](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md)).
+
+**Severity rationale:** LOW because the figures are accurate now; flagged for verification at copyedit.
+
+---
+
+### LOW-5: Baotou rare-earth annual revenue figure — no independent brief verification
+
+**Location:** [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:62](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:62)
+
+**Chapter text:**
+> "China's rare earth industry generates an estimated ten to twelve billion dollars in annual revenue, with Baotou facilities accounting for roughly half of that total."
+
+**Canonical truth:** Unlike Libby, Deepwater Horizon, Social Security, and the 2008 crisis, there is no dedicated case-study brief for Baotou in [research/case-studies/](research/case-studies/). The "10-12 billion annual revenue" figure is broadly consistent with industry aggregates (USGS Mineral Commodity Summaries; trade-press estimates) but Ch 5 is the corpus's source-of-truth for this figure with no independent verification path.
+
+**Why this is LOW-5:** The figure is order-of-magnitude defensible against multiple industry aggregates. Sandy Darity is less likely to flag rare-earth industry figures than Social Security or DWH figures. Flag for endnote-sweep verification.
+
+**Recommended action:** No Phase C fix. Add Baotou rare-earth source citation to the cross-thread #11 endnote sweep. Consider adding a dedicated Baotou case-study brief at [research/case-studies/baotou-rare-earths.md](research/case-studies/baotou-rare-earths.md) in a future pass (the absence is asymmetric — the other four major Ch 5 cases have dedicated briefs).
+
+**Severity rationale:** LOW because the figure is defensible and Baotou is not the chapter's most-load-bearing case for the Darity send.
+
+---
+
+## Items verified — no findings (positive verifications)
+
+The following claims were verified against canonical sources and require no spot-fix.
+
+### Libby (lines 16-32)
+| Claim | Location | Verification |
+|---|---|---|
+| W.R. Grace 1963-1990 (27 years) | Ch 5:18 | ✓ per [libby-vermiculite.md:12](research/case-studies/libby-vermiculite.md:12) |
+| ~80% world vermiculite | Ch 5:18 | ✓ per brief |
+| ~$100M lifetime revenue | Ch 5:18 | ✓ per brief |
+| 35M American homes (Zonolite) | Ch 5:18 | ✓ per brief |
+| Grace knew from 1963; mined 27 more years | Ch 5:22-24 | ✓ per brief |
+| 400+ deaths; 3,000 diagnosed | Ch 5:26 | ✓ per brief |
+| 40-80x national average asbestosis mortality | Ch 5:26 | ✓ per brief |
+| EPA public-health-emergency declaration (first ever for man-made disaster) | Ch 5:26 | ✓ per brief |
+| Documented costs exceed $4B; 40-to-1 ratio | Ch 5:28 | ✓ per brief |
+| W.R. Grace bankruptcy 2001 | Ch 5:30 | ✓ per brief |
+| 2005 DOJ indictment | Ch 5:32 | ✓ per brief + public-record DOJ press release |
+| 2009 acquittal after 13-week trial | Ch 5:32 | ✓ per brief + public-record court records |
+
+### Deepwater Horizon (lines 36-50)
+| Claim | Location | Verification |
+|---|---|---|
+| April 20, 2010 | Ch 5:38 | ✓ per [deepwater-horizon.md:12](research/case-studies/deepwater-horizon.md:12) |
+| 11 workers killed; 4.9M barrels; 87 days | Ch 5:38 | ✓ per brief |
+| BP "nightmare" geology (own engineers) | Ch 5:38 | ✓ per brief |
+| ~$60B BP Gulf revenue 5 years preceding | Ch 5:40 | ✓ per brief |
+| Macondo well projected 40-60M barrels, $3-4B at 2010 prices | Ch 5:40 | ✓ per brief |
+| $21B federal/state fines + $20B compensation fund | Ch 5:44 | ✓ per brief |
+| Total documented cost ~$65B | Ch 5:44 | ✓ per brief |
+| Tourism losses >$7B over 3 years | Ch 5:46 | ✓ per brief |
+| Property values down ~$12B | Ch 5:46 | ✓ per brief |
+
+### 2008 Financial Crisis (lines 74-96)
+| Claim | Location | Verification |
+|---|---|---|
+| 1978 Congressional creation of 401(k) | Ch 5:78 | ✓ per [2008-financial-crisis.md:30](research/case-studies/2008-financial-crisis.md:30) (1978 Revenue Act) |
+| TARP $700B | Ch 5:82 | ✓ per brief |
+| Fed emergency lending exceeded $16T at peak (per GAO 2011 audit) | Ch 5:82 | ✓ per brief |
+| ~10M American households foreclosed 2008-2012 | Ch 5:82 | ✓ per brief |
+| HAMP small fraction of eligible; GAO documented failures | Ch 5:82 | ✓ per brief |
+| FCIC 2011 conclusion (human action and inaction, not forces beyond control) | Ch 5:84 | ✓ per public-record FCIC final report |
+| Subprime origination commission structure / broker-disclosure gap | Ch 5:86 | ✓ per brief + CFPB enforcement record |
+| Dodd-Frank 2010 (CFPB, FSOC, Volcker Rule) | Ch 5:92 | ✓ per public record |
+| Volcker Rule relaxation 2018-2019 | Ch 5:92 | ✓ per public-record regulatory history |
+| Sweden 1930s response: 1931 devaluation, 1933 Riksbank, 1934-37 public works, 1938 Saltsjöbaden | Ch 5:96 | ✓ per Kindleberger 1973 + Eichengreen 1992 |
+
+### Social Security (lines 102-146)
+| Claim | Location | Verification |
+|---|---|---|
+| Designed 1935; pay-as-you-go architecture | Ch 5:106 | ✓ per [social-security.md](research/case-studies/social-security.md) |
+| Surpluses invested in special-issue Treasury bonds | Ch 5:106 | ✓ per brief |
+| Trust fund will be depleted 2034 (combined OASDI; date varies by report year) | Ch 5:108 | ✓ per brief |
+| 1983 Greenspan Commission intent (surpluses fund baby boom retirement) | Ch 5:130 | ✓ per brief + public-record Greenspan Commission report |
+| Bipartisan Policy Center, Concord Coalition, Simpson-Bowles, Domenici-Rivlin adjustment packages | Ch 5:138 | ✓ per public-record commission reports |
+| Norway GPFG contrast (Ch 4 cross-reference) | Ch 5:124 | ✓ per Ch 4 + Ch 4 Pass 1 fact-check |
+
+### Healthcare (lines 152-164)
+| Claim | Location | Verification |
+|---|---|---|
+| 2016-2020: 438,000 GoFundMe medical campaigns; $2B; 21.7M donations; 12% met goals | Ch 5:154 | ✓ per [healthcare-end-of-life.md:26](research/case-studies/healthcare-end-of-life.md:26) |
+| GoFundMe CEO acknowledgment platform not designed as healthcare financing | Ch 5:154 | ✓ per brief |
+| Racial disparity in campaign success (Ly & Soman 2020 JMR) | Ch 5:156 | ✓ per brief |
+| Butler's father pacemaker: $54 office visit, $461 implant, ~$12K hospital flat fee, ~$6K device manufacturer | Ch 5:160 | ✓ per brief; Butler 2010 NYT Magazine |
+| Butler's father 5+ years cognitive decline; 80-year-old wife (Butler's mother) 80-hour caregiving weeks | Ch 5:160 | ✓ per brief; Butler 2010 |
+| Gawande *Being Mortal* (2014) systemic-pattern extension | Ch 5:162 | ✓ per [bibliography.md:216](research/literature/bibliography.md:216) |
+| Hacker *The Great Risk Shift* (2006) | Ch 5:158 | ✓ per bibliography line 139 |
+
+### Restitution and Foreclosure section (lines 184-230)
+| Claim | Location | Verification |
+|---|---|---|
+| Coates *Case for Reparations* Atlantic 2014 | Ch 5:196 | ✓ per [bibliography.md:830](research/literature/bibliography.md:830) |
+| Darity & Mullen *From Here to Equality* UNC Press 2020 | Ch 5:198 | ✓ per bibliography line 821 |
+| Hamilton et al. *Umbrellas Don't Make It Rain* 2015 | Ch 5:198 | ✓ per bibliography line 839 |
+| Conley *Being Black, Living in the Red* 1999 | Ch 5:198 | ✓ per bibliography line 848 |
+| Pistor *The Code of Capital* Princeton UP 2019 | Ch 5:200 | ✓ per bibliography line 513 |
+| Hartwick rule 1977 | Ch 5:204 | ✓ per bibliography line 863 |
+| Parfit 1984 intergenerational impersonal-outcomes framework | Ch 5:204 | ✓ per bibliography (Parfit *Reasons and Persons* OUP 1984) |
+| Pettit *Republicanism* OUP 1997 | Ch 5:206 | ✓ per bibliography line 923 |
+| Skinner *Liberty Before Liberalism* CUP 1998 | Ch 5:206 | ✓ per public-record bibliography |
+| Christophers *The Price is Wrong* Verso 2024 | Ch 5:182 | ✓ per bibliography line 521 |
+| Black Lung Trust Fund: $44B paid out over half a century; ~$4.5B in debt | Ch 5:226 | ✓ per public-record DOL Black Lung Disability Trust Fund history |
+| Restitution Bond + Foreclosure Bond name-defense work (commit `caa987e`) integrated into the section | Ch 5:192-208 | ✓ per workstream handoff |
+| Reverse-direction claim ("the same apparatus runs in reverse") | Ch 5:212-214 | ✓ established; Ch 10 insertion-placement session can safely reference |
+
+---
+
+## Apparatus regression check (per Phase A hard constraints)
+
+Verified that Ch 5 does **NOT** introduce framework apparatus terms that were ratified to drop from publisher-facing prose, per [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md).
+
+Apparatus terms appearing in Ch 5 prose (all permitted in this analytical chapter per the apparatus register):
+- "cost severance" — permitted lowercase prose phrase; appears throughout the six cases + the synthesis sections at the correct register
+- "accountability bond" / "B" — permitted; the Restitution Bond + Foreclosure Bond decomposition is introduced canonically in the new section
+- "residual commons value" — permitted lowercase prose; used appropriately at lines 190, 226
+- "Cost Severance Damages (CSD)" — used at line 196 with full expansion on first use; correct register
+- "Restitution Bond" + "Foreclosure Bond" — introduced canonically in the new section; capitalized treatment matches the name-defense paragraphs
+
+**One apparatus item flagged for SHOULD-FIX-1 above:** "revealed restraint" (line 214) is a novel coinage that does not appear in the apparatus register or in Ch 6 / TA canonical naming. It should either be replaced with "revealed preference" (the canonical Method 2 name) or treated as a new term requiring name-defense.
+
+**No other apparatus regression detected.**
+
+---
+
+## Path B contamination check
+
+Verified Ch 5 does NOT carry verbatim-clone passages from other chapters. The case-study briefs at [libby-vermiculite.md](research/case-studies/libby-vermiculite.md) and [deepwater-horizon.md](research/case-studies/deepwater-horizon.md) are *copied from Ch 5* (per their 2026-04-22 housekeeping notes), so identity-text overlap with those files is expected and correct (Ch 5 is the source). No detectable text-clones from Ch 6, Ch 8, or Ch 9. The Ch 5 ↔ Ch 6 Restitution Lineage Path B fix landed via commit `5643f70` and the post-fix prose holds clean.
+
+---
+
+## Named-subject consent check
+
+Per [feedback_named_subject_consent.md](/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_named_subject_consent.md):
+
+| Named subject | Status | Disposition |
+|---|---|---|
+| Katy Butler (journalist) | Living, public figure, on-record reporting | ✓ Named with courtesy-notify recommended; named-subject-consent NOT required per public-record exception (Butler's reporting on her father is itself a public published work). |
+| Butler's father | Deceased (Butler 2010 NYT Magazine and 2013 book are written as memoir of his death) | ✓ Named via Butler's published account; deceased per Butler's own writing. Courtesy-notify Katy Butler family at pre-publication. |
+| Butler's mother | Living (named indirectly as "eighty-year-old mother" without first name; named only via Butler's published account) | ✓ Named anonymously in Ch 5; full identity in Butler's published work. No named-subject-consent issue at Ch 5 prose level. |
+| W.R. Grace executives (seven indicted 2005, acquitted 2009) | On-record federal prosecution + acquittal | ✓ Per public-officials-quoted-from-on-record-speech analog; named in indictment + court record. Defensible; no consent required. |
+| Ta-Nehisi Coates | Living public intellectual; named in scholarly capacity | ✓ No consent required for academic citation; standard scholarly naming. |
+| William Darity Jr., A. Kirsten Mullen, Darrick Hamilton, Anne E. Price, Vishnu Sridharan, Rebecca Tippett, Dalton Conley, Katharina Pistor, Brett Christophers, Philip Pettit, Quentin Skinner, Derek Parfit (deceased), Michael Sandel, Mariana Mazzucato, Lawrence Mishel, Josh Bivens, Atul Gawande, Jacob Hacker | All academics / public intellectuals; named in scholarly citation capacity | ✓ Standard academic citation; no consent required. |
+| Charles Kindleberger, Barry Eichengreen | Cited as established comparative-banking-crisis-literature sources | ✓ No consent issue. |
+| Specific politicians named obliquely (TARP / Dodd-Frank context) — no individual politicians named in Ch 5 prose | — | ✓ N/A |
+| Norway PMs (Stoltenberg, Bondevik, Solberg, Støre — Ch 4 cross-reference territory; not named in Ch 5) | — | ✓ N/A in Ch 5 |
+| Indigenous-land-dispossession victims (referenced collectively at line 222) | Collective historical-record reference | ✓ Collective naming consistent with reparations-economics conventional usage. No consent issue. |
+
+**No named-subject-consent issues in Ch 5 prose.** All named subjects are public figures, academics cited in scholarly capacity, or named through their own published work. Courtesy-notify Katy Butler family at pre-publication (treat as deceased-subject courtesy-notify per the named-subject memory, since the section depends on Butler's published memoir of her father's death).
+
+---
+
+## Cross-thread #11 contribution block (endnote/citation finalization sweep)
+
+Per the workstream handoff Pass 1 scope item 7, citation-tightening findings from this audit feed into cross-thread #11. Ch 5 contribution:
+
+**Major citations introduced or referenced in Ch 5 needing endnote-finalization at #11:**
+
+| # | Citation | Location | Type |
+|---|---|---|---|
+| M-1 | Coates 2014 *The Case for Reparations* Atlantic | Ch 5:196 | Inline citation; needs endnote at #11 |
+| M-2 | Darity & Mullen 2020 *From Here to Equality* UNC Press | Ch 5:198, 216, 218, 224 | Inline citation; needs endnote at #11 |
+| M-3 | Hamilton et al. 2015 *Umbrellas Don't Make It Rain* | Ch 5:198 | Inline citation; needs endnote at #11 |
+| M-4 | Conley 1999 *Being Black, Living in the Red* | Ch 5:198 | Inline citation; needs endnote at #11 |
+| M-5 | Pistor 2019 *The Code of Capital* Princeton UP | Ch 5:200 | Inline citation; needs endnote at #11 |
+| M-6 | Christophers 2024 *The Price is Wrong* Verso | Ch 5:182 | Inline citation; needs endnote at #11 |
+| M-7 | Hartwick 1977 (intergenerational equity / Hartwick rule) | Ch 5:204 | Lineage reference; needs endnote at #11 |
+| M-8 | Parfit 1984 *Reasons and Persons* (intergenerational impersonal-outcomes) | Ch 5:204 | Inline citation; needs endnote at #11 |
+| M-9 | Pettit 1997 *Republicanism* OUP | Ch 5:206 | Inline citation; needs endnote at #11 |
+| M-10 | Skinner 1998 *Liberty Before Liberalism* CUP | Ch 5:206 | Inline citation; needs endnote at #11 |
+| M-11 | Hacker 2006 *The Great Risk Shift* | Ch 5:158 | Inline citation; needs endnote at #11 |
+| M-12 | Butler 2010 *What Broke My Father's Heart* NYT Magazine + Butler 2013 *Knocking on Heaven's Door* Scribner | Ch 5:160 | Inline citation; needs endnote at #11 |
+| M-13 | Gawande 2014 *Being Mortal* Metropolitan Books | Ch 5:162 | Inline citation; needs endnote at #11 |
+| M-14 | Kindleberger 1973 + Eichengreen 1992 (Sweden 1930s response comparative literature) | Ch 5:96 | Lineage reference; needs endnote at #11 |
+| M-15 | Surface Mining Control and Reclamation Act (reclamation-bond lineage) | Ch 5:192, 202 | Statutory citation; needs endnote at #11 |
+| M-16 | Mishel & Bivens (EPI productivity-pay-gap series; canonical anchor TBD at #11 — current bibliography entry is 2021 paper) | Ch 5:158 | Lineage citation; needs endnote at #11 |
+
+**Minor citations / source-anchors needed at #11:**
+
+| # | Source / claim | Location |
+|---|---|---|
+| L-1 | EPA Libby public-health-emergency declaration (first man-made disaster) | Ch 5:26 |
+| L-2 | 2005 DOJ Libby indictment; 2009 acquittal court records | Ch 5:32 |
+| L-3 | Oil Pollution Act of 1990 (DWH litigation framework) | Ch 5:50 |
+| L-4 | UNEP 2011 *Environmental Assessment of Ogoniland* (cross-Ch 4 reference territory) | Ch 5 — N/A; flagged for Ch 4 Pass 1 |
+| L-5 | Igra et al. 2021 (GoFundMe AJPH paper) | Ch 5:154 |
+| L-6 | Ly & Soman 2020 (racial-disparity in crowdfunding; JMR) | Ch 5:156 |
+| L-7 | Consumer Financial Protection Bureau post-crisis enforcement record | Ch 5:86 |
+| L-8 | Financial Crisis Inquiry Commission 2011 final report | Ch 5:84 |
+| L-9 | Government Accountability Office TARP retrospectives + CBO TARP lifetime-cost reviews | Ch 5:90 |
+| L-10 | Bipartisan Policy Center / Concord Coalition / Simpson-Bowles / Domenici-Rivlin adjustment-package reports | Ch 5:138 |
+| L-11 | Department of Labor Black Lung Disability Trust Fund history ($44B paid; $4.5B debt) | Ch 5:226 |
+| L-12 | Sumaila et al. 2012 (DWH economic-loss aggregate; if used to replace CBO attribution per MEDIUM-1) | Ch 5:46 |
+| L-13 | NOAA *Final Programmatic Damage Assessment* (DWH NRDA; for marine-mortality unit correction per MEDIUM-2) | Ch 5:46 |
+| L-14 | 2024 Social Security Trustees Report (for benefit-rate update per MEDIUM-3 + figure resolution per MUST-FIX-2) | Ch 5:108-112 |
+
+**Cross-thread #11 summary: Ch 5 contributes 16 Major + 14 Low / Minor items to the endnote-finalization sweep, with MEDIUM-1 + MEDIUM-2 + MEDIUM-3 + MUST-FIX-2 cross-cutting between fact-check resolution and endnote-finalization.**
+
+---
+
+## Flags for parallel sessions
+
+### #19 TA Scheme-4 cleanup session
+- **MUST-FIX-1 (Ch 5:224 broken §5.5 cross-reference) coordination:** Determine whether #19 is adding a TA §5.5 ("Backward Application"). If yes, MUST-FIX-1 resolves automatically when #19 lands. If no, Ch 5 Phase C applies Option A or B per MUST-FIX-1 recommended spot-fix.
+
+### Ch 10 insertion-placement session
+- **Ch 5 reverse-direction claim verification (positive):** Ch 5 lines 210-214 establish that "the same apparatus runs in reverse" — Ch 10's planned insertion claiming "Chapter 5 noted" the reverse direction can safely reference Ch 5 in current state. No gap.
+- **Vocabulary coordination:** If Ch 10's insertion uses the canonical Method names (Replacement Cost / Revealed Preference / Scarcity-Adjusted Option Value), Ch 5 SHOULD-FIX-1 resolution should align with Ch 10's vocabulary to maintain manuscript consistency. Coordinate at Phase C application.
+
+### Ch 6 conversion (#18)
+- **SHOULD-FIX-1 anchor-pointer coordination:** If Ch 5 Phase C applies Option A or B per SHOULD-FIX-1, the cross-reference to Ch 6 "Approach 3 — The RCV Model" needs a stable anchor scheme. Coordinate with whatever §-anchor or chapter-section convention #18 produces.
+
+### Cross-chapter consistency inventory ([tools/audits/cross-chapter-consistency-inventory_2026-05-11.md](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md))
+- **MEDIUM-3 cross-corpus follow-on:** Add a recurring-stat row for "Social Security depletion-year benefit rate" with the canonical figure locked at one of the Trustees-canonical numbers (79% OASI 2033 / 83% OASDI combined 2035 per 2024 Trustees Report). Ch 5 currently says 77%; case-study brief says 81%; both should align.
+- **MUST-FIX-2 cross-corpus follow-on:** If MUST-FIX-2 is resolved via Option A (preserve $108T, recategorize as opportunity cost), add a recurring-stat row clarifying "$108T" as the foregone-investment-return counterfactual (NOT the actuarial unfunded liability).
+
+### Cross-thread #11 (endnote / citation finalization sweep)
+- Per the contribution block above: Ch 5 contributes 16 Major + 14 Low/Minor citation items.
+
+### Ch 5 Pass 2 (Voice-polish) + Pass 3 (Audience-load)
+- Both still required to complete Phase A coverage of Ch 5.
+- **Specific Pass 2 flag:** "revealed restraint" novel coinage (per SHOULD-FIX-1) is a Pass 2 voice-polish question if SHOULD-FIX-1 Option B is applied (preserving the informal labels).
+- **Specific Pass 3 flag:** Sandy Darity is an explicit Tier-1 audience for this chapter; the audience-load pass should pressure-test Ch 5 specifically against the Darity-as-reader character.
+
+---
+
+## Recommendations to PM session + author
+
+**For author ratification (Phase C inputs) — gating for Sandy Darity send:**
+
+1. **MUST-FIX-1 — Broken TA §5.5 cross-reference (Ch 5:224).** Recommend **Option A** (retarget to existing closest section §5.1.1) unless #19 is adding §5.5, in which case Option C (defer to #19).
+2. **MUST-FIX-2 — Social Security $108T misattribution (Ch 5:112).** Author judgment between Option A (preserve $108T, recategorize as opportunity cost) and Option B (replace with Trustees-canonical figure). Recommend **Option A** — preserves the chapter's most rhetorically arresting Social Security number while aligning the categorization with what the case-study brief actually develops as the analytical innovation. Option B is also defensible but costs the chapter its scale claim.
+
+**For author ratification (Phase C inputs) — high-priority for Sandy Darity send:**
+
+3. **SHOULD-FIX-1 — Reverse-direction Method-name vocabulary mismatch (Ch 5:214).** Recommend **Option A** (anchor informal labels to canonical Method names + drop "revealed restraint" → "revealed preference"). Option B is also acceptable but adds prose volume.
+
+**For author ratification (Phase C inputs) — MEDIUM tier:**
+
+4. **MEDIUM-1 — $150B CBO attribution (Ch 5:46).** Recommend Option B (hedge to general aggregate-source framing) unless author can verify specific CBO publication.
+5. **MEDIUM-2 — "4.3M gallons of fish" unit error (Ch 5:46).** Recommend RATIFY: verify actual NOAA figure + unit; correct.
+6. **MEDIUM-3 — 77% benefit rate (Ch 5:110).** Recommend update to current Trustees figure (79% OASI / 83% OASDI). Cross-corpus follow-on at consistency inventory.
+7. **MEDIUM-4 — $25M Mexico settlement year (Ch 5:50).** Verify actual year (likely 2014 not 2017); correct.
+8. **MEDIUM-5 — "Four gates" anchor (Ch 5:210).** Author judgment between Option A (no edit; existing apparatus discipline) and Option B (one-clause forward-pointer). Couple to SHOULD-FIX-1 resolution.
+
+**For author ratification (Phase C inputs) — LOW tier:**
+
+9. **LOW-1 — Scaling comparisons (Ch 5:114).** Cascade dependent on MUST-FIX-2 resolution.
+10. **LOW-2 to LOW-5 — Citation tightening + Baotou source.** Defer to cross-thread #11 endnote sweep.
+
+**For PM session:**
+
+- Pass 2 (Voice-polish) and Pass 3 (Audience-load) for Ch 5 still required to complete Phase A coverage.
+- Coordinate MUST-FIX-1 with #19 TA Scheme-4 cleanup session before Ch 5 Phase C fires.
+- Coordinate SHOULD-FIX-1 vocabulary with Ch 10 insertion-placement session for manuscript-wide reverse-direction vocabulary consistency.
+- Add MEDIUM-3 to cross-chapter consistency inventory as a recurring-stat row.
+- After MUST-FIX-1 + MUST-FIX-2 + SHOULD-FIX-1 are ratified and applied: Ch 5 is ready to send to Sandy Darity alongside Ch 6 + Tech Appendix.
+
+---
+
+*End of Pass 1 (Fact-check) for Chapter 5. PROPOSED; awaits author ratification. Pass 2 (Voice-polish) + Pass 3 (Audience-load) deliverables to be produced in subsequent sessions per workstream #20 phasing.*
