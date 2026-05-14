@@ -868,3 +868,54 @@ Reading the synthesis doc fully surfaced additional items §B.4 missed:
 ---
 
 *End of §B.7 (2026-05-14). Amendment 2 §§B.1–B.6 substance not touched by this correction. §B.4 SI-1 framing superseded by §B.7.1 + §B.7.2 disposition.*
+
+---
+
+## Phase C-α status (2026-05-14)
+
+**Status:** APPLIED. Doc moves from PROPOSED-pending-Phase-C to PROPOSED-Phase-C-α-applied. Author had ratified all recommended Phase C-α options in the parent session ("ratify all as recommended") before this session opened.
+
+### What was applied
+
+- **MUST-FIX-2 ($108T misattribution at Ch 5:112) — Option A applied.** Line 112 replaced with the foregone-investment-opportunity-cost framing per recommended-rewrite text. Downstream scaling claim at Ch 5:114 adjusted: "more than four times the annual gross domestic product" → "nearly four times the annual gross domestic product" (per LOW-1 cascade; $108T / ~$28T GDP ≈ 3.86×). "Three times the federal debt" and "three hundred thousand per person" comparisons preserved.
+- **MEDIUM-4 (BP-Mexico settlement year at Ch 5:50) — applied.** "2017" → "2018" per BuzzFeed News investigation (settlement filed Feb 15, 2018). Other "2017" reference at Ch 5:92 (CFPB post-2017 weakening) preserved per scope.
+- **N-3 (foreclosure measure at Ch 5:82) — applied.** "lost their homes to foreclosure" → "received foreclosure filings... with roughly five million resulting in completed foreclosure" per recommended-rewrite text. Distinguishes CoreLogic completion measure from RealtyTrac filings measure.
+- **MEDIUM-2 (NOAA "4.3M gallons of fish" at Ch 5:46) — applied.** Replaced with NOAA NRDA Final PDARP 2016 canonical biological-magnitude ranges (4–8 billion oysters; 2–5 trillion newly hatched fish; tens of thousands of birds and sea turtles).
+- **MEDIUM-3 (Social Security depletion year at Ch 5:108 + Ch 5:110) — Option (a) applied.** "2034" → "2033" at lines 108 + 110 (OASI alone framing per 2024 Trustees Report). "Seventy-seven percent" preserved (canonical for OASI alone). Line 138 "2034" reference preserved per Phase C-α scoping (flagged for Pass 2 voice-polish — see Judgment Calls below).
+- **MEDIUM-1A + N-1 + N-2 + MEDIUM-5 integrated forward-pointer edit — applied at two insertion points:**
+  - Ch 5:210 expanded to: "The framework's apparatus — the four gates and the three ways of counting (Technical Appendix §5.5 develops both directions of the apparatus formally; Chapter 6 develops each) — does that work." (covers MEDIUM-1A + N-1 + MEDIUM-5).
+  - Ch 5:220 expanded: appended forward-pointer to TA §1.10 with Darity personal-communication attribution (covers N-2).
+
+### Files touched
+
+- `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` — load-bearing edits at lines 46, 50, 82, 108, 110, 112, 114, 210, 220.
+- `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md` — Section 3 rows updated/added for Social Security depletion year + benefit rate (OASI vs OASDI pairings), $108T figure recategorization (opportunity cost vs actuarial unfunded liability), BP-Mexico settlement (year + source), and 2008 foreclosure measure (filings vs completed).
+- `tools/rigor-passes/commons_bonds_ch5_stage_3_pass_1_fact_check_2026-05-13_PROPOSED.md` — this Phase C-α status section appended.
+
+### Commit hash
+
+Single integrated commit; hash captured at commit time. See `git log --oneline` for the canonical reference (look for "Ch 5 Phase C-α — spot-fixes applied" message).
+
+### Judgment calls / soft observations (not fixes)
+
+- **Line 138 "2034" preserved.** The task brief explicitly scoped the year replacement to lines 108 + 110 only. This creates a minor internal inconsistency (108/110 say 2033; 138 says 2034). The line-138 sentence is in a counter-argument's framing ("the trust fund will run out in 2034"), which softens the inconsistency, but a Pass 2 voice-polish sweep should reconcile it.
+- **Line 46 NOAA prose carries duplicate "estimated".** The recommended-rewrite text begins with "killed an estimated 4 to 8 billion oysters..." while the existing sentence opens with "The National Oceanic and Atmospheric Administration estimated that the spill killed an estimated...". Per the task brief's "Do NOT improvise prose" directive, the recommended-rewrite text was applied verbatim. Pass 2 voice-polish should drop one of the two "estimated" tokens.
+- **Line 82 "larger than Ohio" antecedent shifted.** Previously anchored to ~10M foreclosures; now anchors to ~5M completed-foreclosure clause. Ohio's population ~11.8M; the comparison reads less crisp under the rewrite. Pass 2 voice-polish should evaluate whether to re-target the comparison or drop it.
+- **Lines 116–124 still carry prose tuned to the unfunded-liability framing.** Surrounding paragraph language at Ch 5:116, 118, 120, 122, 124 references "obligations transferred to future generations", "costs severed from generations who created them", etc. — wording originally anchored to MUST-FIX-2's unfunded-liability framing. The new opportunity-cost framing at line 112 makes the surrounding prose slightly less tight; the conceptual coherence still holds (the mechanism that generated the foregone-investment cost is still the political-incentive-to-expand-benefits-without-funding pattern, and line 134 already treats the Treasury-IOU mechanism separately from the obligation-generation mechanism). Pass 2 voice-polish should evaluate whether to tighten the paragraph cluster around the new line-112 framing.
+- **Line 220 carries a near-duplicate phrase.** The new sentence begins with "The Technical Appendix's scope-of-applicability boundary at §1.10 names the variable explicitly..." while the preceding sentence in the same paragraph already says "The framework reaches coerced cases through their legacy effects". The new sentence then repeats "the framework reaches coerced cases through legacy-effects pricing". Per the task brief's "Do NOT improvise prose" directive, the recommended-rewrite text was applied verbatim. Pass 2 voice-polish should tighten.
+
+### What remains for post-send
+
+- **LOW findings (LOW-1 through LOW-5)** — pre-publication-refresh / endnote-sweep territory; not Phase C-α scope. (Note: LOW-1's scaling-comparison cascade was partially absorbed in this pass via the line-114 "nearly four times" tightening; remaining LOW-1 work, if any, is residual.)
+- **N-4 + N-5 + N-6** — pre-publication-refresh / endnote-sweep territory; not Phase C-α scope.
+- **Cross-thread #11** — Ch 5 contributes 16 Major + 14 Low/Minor items to the endnote-finalization sweep; separate workstream.
+- **Pass 2 (voice-polish)** — separate workstream; should also evaluate the five Judgment Calls above.
+- **Pass 3 (audience-load)** — separate workstream; final pass before send.
+
+### Sandy-send-packet readiness
+
+With Phase C-α applied, Ch 5 is at Sandy-Darity-send-packet readiness (alongside Ch 6 + Tech Appendix). The single MUST-FIX-2 gating finding is closed; all MEDIUM and N items in the Sandy-send-gating set are closed. Pass 2 + Pass 3 are recommended before send if scheduling permits but are not gating per the original-doc + amendment dispositions.
+
+---
+
+*End of Phase C-α status (2026-05-14). Doc status: PROPOSED-Phase-C-α-applied; awaits ratification at the doc-level (underlying options are author-ratified).*
