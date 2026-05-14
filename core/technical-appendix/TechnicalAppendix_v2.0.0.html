@@ -1711,9 +1711,9 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      </em>
      .
     </p>
-    <h4>
-     &sect;6.4.2 &mdash; Domain distinction: extraction commons vs. coordination commons
-    </h4>
+    <h3>
+     &sect;6.6 &mdash; Domain distinction: extraction commons vs. coordination commons
+    </h3>
     <p>
      <strong>
       Discipline:
@@ -1761,7 +1761,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      every CIT application should specify (per &sect;6.4.1 level-of-claim discipline) whether the cost claim is named at extraction-commons level or coordination-commons level. A CIT-fail at the coordination-commons level is correct routing to Ostrom-tradition apparatus, not a framework limitation.
     </p>
     <h3>
-     &sect;6.6 &mdash; Worked Examples: Seven Walkthroughs (Four Gates Applied)
+     &sect;6.7 &mdash; Worked Examples: Seven Walkthroughs (Four Gates Applied)
     </h3>
     <p>
      <strong>
@@ -3217,7 +3217,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Assumption A1 (Cost Severance Definition):
      </strong>
-     CS(R, t₀) = RCV(R, t₀) &minus; B(R, t₀) where R is a non-renewable resource extracted at time t₀; RCV is per-unit Residual Commons Value; B is per-unit aggregate Accountability Bond. (Per &sect;3.1.)
+     CS(R, t₀) = RCV(R, t₀) &minus; B(R, t₀) where R is a non-renewable resource extracted at time t₀; RCV is per-unit Residual Commons Value; B is per-unit aggregate Accountability Bond. (Per Definition 1.7 / &sect;1.7.)
     </p>
     <p>
      <strong>
@@ -3439,9 +3439,9 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     <ul>
      <li>
       <strong>
-       (i) When abundance A &gg; &tau; (scarcity threshold), cost c(A) &rarr; 0
+       (i) As abundance A &rarr; &infin;, cost c(A) &rarr; 0; equivalently, for any &epsilon; &gt; 0 there exists A_&epsilon; such that c(A) &lt; &epsilon; for A &gt; A_&epsilon;
       </strong>
-      &mdash; cost is masked by abundance.
+      &mdash; cost is masked by abundance to within any specified tolerance once abundance is sufficiently large relative to scarcity threshold.
      </li>
      <li>
       <strong>
@@ -3552,7 +3552,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Knife-edge divergence corollary.
      </strong>
-     RCV(R, t₀) = &infin; when S_max &lt; 1 AND r_&infin; = 0 AND &int;_{t₀}^&infin; [1 &minus; S_max] &middot; U(R, t, Q(t)) dt = &infin; (i.e., when permanent non-substitutable foreclosure under zero long-run discount accumulates unbounded utility-weighted cost).
+     RCV(R, t₀) = &infin; when S_max &lt; 1 AND &int;_{t₀}^&infin; r(s) ds &lt; &infin; AND &int;_{t₀}^&infin; [1 &minus; S_max] &middot; U(R, t, Q(t)) dt = &infin;. The summable-decay hypothesis &int; r(s) ds &lt; &infin; is strictly stronger than r_&infin; = 0; it guarantees D_&infin; = exp(&minus;&int;_{t₀}^&infin; r(s) ds) &gt; 0 (required for the lower bound used in the proof). Explicit cases satisfying the strengthened hypothesis include r(s) = 0 for s sufficiently large and r(s) integrable on [t₀, &infin;); the hypothesis excludes slow-decaying r such as r(s) = 1/s where r_&infin; = 0 but &int; r(s) ds = &infin; and D_&infin; = 0. Under the strengthened hypotheses, permanent non-substitutable foreclosure under summable discount-rate decay accumulates unbounded utility-weighted cost.
     </p>
     <p>
      <strong>
@@ -3588,20 +3588,20 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      &int;_{t₀}^&infin; f(t) dt = &int;_{t₀}^&infin; [1 &minus; S(t)] &middot; U &middot; D dt + &int;_{t₀}^&infin; E &middot; D dt
     </p>
     <p>
-     Since D(t, t₀) &le; 1 (D is a decay factor), [1 &minus; S(t)] &middot; U &middot; D &le; [1 &minus; S(t)] &middot; U pointwise. By the first SC2 hypothesis, the integral of [1 &minus; S(t)] &middot; U is finite; by Lebesgue dominated convergence, the integral of [1 &minus; S(t)] &middot; U &middot; D is also finite. The second SC2 hypothesis directly gives the second integral finite. Sum is finite. ∎ Case SC2.
+     Since D(t, t₀) &le; 1 (D is a decay factor), [1 &minus; S(t)] &middot; U &middot; D &le; [1 &minus; S(t)] &middot; U pointwise. By monotonicity of the Lebesgue integral for non-negative integrands and the pointwise bound, &int;_{t₀}^&infin; [1 &minus; S(t)] &middot; U &middot; D dt &le; &int;_{t₀}^&infin; [1 &minus; S(t)] &middot; U dt &lt; &infin; by the first SC2 hypothesis. The second SC2 hypothesis directly gives the second integral finite. Sum is finite. ∎ Case SC2.
     </p>
     <p>
      <strong>
       Knife-edge corollary proof.
      </strong>
-     Suppose S_max &lt; 1 and r_&infin; = 0. Then:
+     Suppose S_max &lt; 1 and &int;_{t₀}^&infin; r(s) ds &lt; &infin;. Then:
     </p>
     <ul>
      <li>
       1 &minus; S(t) &ge; 1 &minus; S_max &gt; 0 for all t &ge; t₀ (since S(t) &le; S_max).
      </li>
      <li>
-      D(t, t₀) &rarr; D_&infin; for some D_&infin; &isin; (0, 1] (under r_&infin; = 0; specifically if r(s) = 0 for s sufficiently large, D_&infin; &gt; 0; if r(s) integrable on [t₀, &infin;), D_&infin; &gt; 0).
+      D(t, t₀) &rarr; D_&infin; = exp(&minus;&int;_{t₀}^&infin; r(s) ds) &gt; 0 (from the summable-decay hypothesis &int; r(s) ds &lt; &infin;; this is strictly stronger than r_&infin; = 0 alone, which permits slow-decaying r such as r(s) = 1/s where D_&infin; = 0).
      </li>
      <li>
       Hence f(t) &ge; [1 &minus; S_max] &middot; U(R, t, Q(t)) &middot; D_&infin;.
@@ -4540,21 +4540,49 @@ Companion to &sect;11.5 Norway.
     </h5>
     <p>
      <strong>
-      Habitability commons (atmospheric component):
+      Habitability commons (atmospheric component) &mdash; per &sect;3.3 canonical DAC bands:
      </strong>
     </p>
     <ul>
      <li>
-      1.7B tons CO₂ &times; $300&ndash;600/ton DAC at-scale =
       <strong>
-       $510B &ndash; $1.02T atmospheric replacement cost
+       Conservative DAC ($600&ndash;$1,000/ton CO₂; first-of-a-kind, Climeworks Orca/Mammoth):
       </strong>
-      (cumulative).
+      1.7B tons CO₂ &times; $600&ndash;$1,000/ton =
+      <strong>
+       $1.02T&ndash;$1.7T atmospheric replacement cost
+      </strong>
+      (cumulative); per-ton coal $1.02T / 600M tons =
+      <strong>
+       $1,700&ndash;$2,833/ton coal
+      </strong>
+      .
      </li>
      <li>
-      Per-ton coal: $510B / 600M tons =
       <strong>
-       $850&ndash;$1,700/ton coal at conservative DAC; $283&ndash;$1,700/ton at optimistic DAC
+       At-scale DAC ($300&ndash;$600/ton CO₂; commercial within next decade):
+      </strong>
+      1.7B tons CO₂ &times; $300&ndash;$600/ton =
+      <strong>
+       $510B&ndash;$1.02T atmospheric replacement cost
+      </strong>
+      ; per-ton coal
+      <strong>
+       $850&ndash;$1,700/ton coal
+      </strong>
+      .
+     </li>
+     <li>
+      <strong>
+       Optimistic 2050 DAC ($100&ndash;$300/ton CO₂; nth-of-a-kind, IEA / IPCC AR6 / US National Academies):
+      </strong>
+      1.7B tons CO₂ &times; $100&ndash;$300/ton =
+      <strong>
+       $170B&ndash;$510B atmospheric replacement cost
+      </strong>
+      ; per-ton coal
+      <strong>
+       $283&ndash;$850/ton coal
       </strong>
       .
      </li>
@@ -4588,10 +4616,10 @@ Companion to &sect;11.5 Norway.
     </ul>
     <p>
      <strong>
-      Method 1 anchor for McDowell coal (combined Habitability + Ecosystem + Cohesion floors):
+      Method 1 anchor for McDowell coal (combined Habitability + Ecosystem + Cohesion floors), per &sect;3.3 canonical DAC bands:
      </strong>
      <strong>
-      ~$880&ndash;$1,800/ton coal at conservative DAC; ~$310&ndash;$1,800/ton at optimistic DAC.
+      ~$1,729&ndash;$2,925/ton coal at conservative DAC ($600&ndash;$1,000/ton CO₂); ~$879&ndash;$1,792/ton at at-scale DAC ($300&ndash;$600/ton CO₂); ~$312&ndash;$942/ton at optimistic 2050 DAC ($100&ndash;$300/ton CO₂).
      </strong>
     </p>
     <h5>
@@ -4744,7 +4772,7 @@ Companion to &sect;11.5 Norway.
         </strong>
        </td>
        <td>
-        ~$310&ndash;$1,800 (DAC-horizon-dependent)
+        ~$312&ndash;$2,925 (DAC-horizon-dependent, per &sect;3.3 canonical bands: $312&ndash;$942 optimistic 2050; $879&ndash;$1,792 at-scale; $1,729&ndash;$2,925 conservative)
        </td>
        <td>
         Engineering-substitute floors for substitutable components
@@ -6870,7 +6898,7 @@ is not framework-imprecision but time-horizon-attribution discipline.
      <em>
       Understanding Knowledge as a Commons
      </em>
-     ). The two-sub-form architecture makes the routing explicit, and &sect;6.4.2 (Domain distinction: extraction commons vs. coordination commons) operationalizes the routing discipline. The &sect;6.4.1 level-of-claim specification operates within both sub-forms.
+     ). The two-sub-form architecture makes the routing explicit, and &sect;6.6 (Domain distinction: extraction commons vs. coordination commons) operationalizes the routing discipline. The &sect;6.4.1 level-of-claim specification operates within both sub-forms.
     </p>
     <h4>
      &sect;15.1.9 &mdash; Configuration claim
@@ -7279,13 +7307,13 @@ is not framework-imprecision but time-horizon-attribution discipline.
      &sect;16.3 &mdash; Spatial cost severance formalization
     </h3>
     <p>
-     SCS = &int;extraction region&nbsp;&int;time&nbsp;C(x, t) dx dt &minus; &int;consumption region&nbsp;&int;time&nbsp;B(x, t) dx dt
+     SCS = &int;<sub>E&setminus;K</sub>&nbsp;&int;<sub>time</sub>&nbsp;C(x, t) dx dt
     </p>
     <p>
-     where x represents geographic location, C(x,t) is cost burden at location x and time t, B(x,t) is benefit received at location x and time t
+     where x represents geographic location, E is the extraction region, K is the consumption region (lettered K to avoid collision with the cost function C(x,t)), and C(x,t) is the cost burden at location x and time t. Where value-received-at-location appears in expanded forms or extensions, the framework denotes it V(x,t) &mdash; a distinct symbol from the framework's Accountability Bond B used elsewhere.
     </p>
     <p>
-     Spatial cost severance measures the geographic mismatch between where costs fall and where benefits go. When the extraction region and the consumption region coincide (Mars colony mining its own rare earths; Norway's sovereign wealth fund), SCS &rarr; 0. When they are geographically separated (Appalachian coal, Baotou rare earths, Niger Delta oil), SCS &gt; 0 and scales with the distance and power differential between the two regions.
+     Spatial cost severance measures the cost borne in the extraction region outside the consumption region. When the extraction region is contained within the consumption region (E &sube; K; Mars colony mining its own rare earths; Norway's sovereign wealth fund returning extraction rent to the Norwegian polity that bears extraction's domestic costs), SCS = 0 because no cost falls outside the value-receiving region. When E and K are geographically separated (Appalachian coal, Baotou rare earths, Niger Delta oil), SCS &gt; 0 and scales with the cost density in the non-overlapping region E&setminus;K.
     </p>
     <p>
      This formalization explains why cost severance produces systematic geographic inequality: extraction communities absorb environmental, health, and economic disruption costs while consuming communities receive energy and materials at artificially low prices. The 13-year life expectancy gap between McDowell County and the national average is the human face of SCS.
