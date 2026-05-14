@@ -754,3 +754,68 @@ Per author's per-pass serial cadence + v2.0 Amendment B distinct-pass discipline
 ---
 
 *End of Ch 5 Stage-3 Pass 2 (Voice-Polish) rigor pass — pending author ratification of recommended spot-fixes. Phase C-β applies after ratification (paralleling Ch 1 Pass 2 commit `0b78449` → Phase C-γ commit `fa08c10`). Pass 3 (Audience-load) is a separate session.*
+
+---
+
+## Phase C-β status (2026-05-14)
+
+**Status:** APPLIED. Doc moves from PROPOSED-pending-Phase-C-β to PROPOSED-Phase-C-β-applied. Author ratified "all as recommended" in the parent session before this commit.
+
+### What was applied
+
+All 16 ratified findings (5 MUST-FIX + 5 SHOULD-FIX + 6 MEDIUM) applied as single integrated commit. The 7 LOW findings held as-is per the Pass 2 recommendation.
+
+- **F-V1 (MUST-FIX, line 86 inverted info-asymmetry sentence) — applied.** Single-word swap: subject and object of the *"X had information the Y did not"* clause reversed. Line 86 now reads *"the value-extracting party had information the cost-bearing party did not, and the information structure was structurally adversarial"* — aligned with the surrounding paragraph's argument.
+- **F-V2 (MUST-FIX, line 122 missing article before "Ponzi scheme") — applied.** Single-character insertion of *"a"* between *"is not"* and *"Ponzi scheme"*.
+- **F-V3 (MUST-FIX, line 82 "larger than Ohio" antecedent break) — Option A applied.** Em-dash appositive *"— a population larger than Ohio, displaced in under five years."* replaced with *"— more households than there are in the entire state of Pennsylvania, foreclosed in under five years."* Comparison now lands mathematically against the post-Phase-C-α completed-foreclosure measure (~5M completed foreclosures vs Pennsylvania's ~5.7M households).
+- **F-V4 (MUST-FIX, line 138 "2034" residual) — applied.** Single-character fix: *"it will run out in 2034"* → *"it will run out in 2033"*. Line 138 now aligned with the post-Phase-C-α OASI pairing at lines 108 + 110.
+- **F-V5 (MUST-FIX, lines 116–124 prose-flow tightening) — Option B applied (paragraph-level tightening across 116, 118, 120, 122).** Four sentence-level rewrites applied verbatim per recommendation:
+  - Line 116: *"The cost of paying for those promises was severed…"* → *"The foregone-investment cost the Treasury-IOU routing produced was severed…"*
+  - Line 118 closing: *"the affected community is every future American taxpayer"* → *"the affected community is the working-class payroll-tax contributors whose surpluses failed to compound, plus every future American taxpayer who will absorb the resulting funding gap"*
+  - Line 120: *"The bill was transferred…system that promises more than it can deliver…honoring promises they did not make…"* → *"The foregone compounding was transferred…system whose surpluses were routed through the Treasury-IOU mechanism instead of into productive sovereign capital…absorbing the resulting funding gap themselves…"*
+  - Line 122 third sentence: *"One hundred and eight trillion dollars in costs, severed from the generations who created them…"* → *"One hundred and eight trillion dollars in foregone return, extracted from the architecture by the routing choice that earlier generations made and transferred to generations who had no say in making it."*
+- **F-V6 (SHOULD-FIX, line 46 duplicate "estimated") — applied.** *"killed an estimated 4 to 8 billion oysters"* → *"killed 4 to 8 billion oysters"*. NOAA attribution at the sentence's head carries the hedge for the entire clause.
+- **F-V7 (SHOULD-FIX, line 46 CBO $150B attribution) — applied.** Final sentence of the NOAA paragraph replaced with multi-source aggregate framing per recommended-rewrite text.
+- **F-V8 (SHOULD-FIX, line 82 "$16T at peak" cumulative reframe) — applied.** *"exceeded sixteen trillion dollars at peak."* → *"exceeded sixteen trillion dollars in cumulative emergency loans across the crisis (per the GAO's 2011 audit)."* See Judgment Calls below — line 90 carries a second instance Pass 2 missed.
+- **F-V9 (SHOULD-FIX, line 220 near-duplicate phrasing) — applied.** Sentence-level reorganization per recommended-rewrite text; load-bearing TA §1.10 forward-pointer + Darity personal-communication attribution preserved at the paragraph's close.
+- **F-V10 (SHOULD-FIX, line 50 "B postings" apparatus residue) — applied.** *"structurally different B postings"* → *"structurally different bond postings"*. Aligned with chapter-wide named-flagship-term discipline.
+- **F-V11 (MEDIUM, line 156 "significantly less" repetition) — applied.** First instance: *"significantly less"* → *"substantially less"*; second instance preserved.
+- **F-V12 (MEDIUM, line 214 "off world" hyphenation) — applied.** *"off world colony"* → *"off-world colony"*. Aligned with line 230's existing *"off-Earth extraction"* usage.
+- **F-V13 (MEDIUM, "most vulnerable stretches of life" 3-instance repetition) — Option B applied (revise line 164 only).** Line 164 closing rewritten to vary the bookend phrasing; lines 10 + 152 preserved as structural-cue uses.
+- **F-V14 (MEDIUM, line 50 "framework's accounting" close repetition) — applied.** Second instance dropped: *"a feature the framework's accounting makes visible"* → *"a feature the accounting makes visible"*. Definite article carries the reference back.
+- **F-V15 (MEDIUM, line 210 em-dash density at TA cross-reference) — Option A applied.** Sentence split into two: the main *"The framework's apparatus — the four gates and the three ways of counting — does that work."* + the follow-up *"The Technical Appendix §5.5 develops both directions formally; Chapter 6 develops each."* Embedded parenthetical eliminated; reader-flow restored.
+- **F-V16 (MEDIUM, line 214 parallel-paragraph chiasmus density) — Option A applied (minimum touch).** Second paragraph's mirror sentence varied: *"costs of the autonomy commons become visible that the abundance had masked"* → *"the costs of the autonomy commons surface that the abundance had hidden"*. Parallel structure preserved; verbatim cadence-repeat broken.
+
+### Files touched
+
+- `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` — 19 individual line-level edits across 16 findings, applied verbatim per recommended-rewrite text. Line count preserved at 237 (single-line-per-paragraph format; F-V15's sentence split is contained within line 210). Key line anchors verified post-edit: 46, 50, 82, 86, 90 (see Judgment Calls), 108, 110, 112, 116, 118, 120, 122, 124, 138, 156, 164, 210, 212, 214, 220.
+- `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md` — Section 3 entries updated: (a) Fed-emergency-lending row reframed from "at peak" to "cumulative-vs-peak framing" with Ch 5 line 82 post-Phase-C-β citation + DRIFT-FLAGGED note for the unresolved line-90 instance; (b) Social Security OASI depletion-year row updated to list lines 108 + 110 + 138 (all aligned at 2033); (c) Social Security $108T-foregone-investment-opportunity-cost row updated to cite lines 112–124 (Phase C-β surrounding-paragraph tightening) instead of 112–114 only.
+- `tools/rigor-passes/commons_bonds_ch5_stage_3_pass_2_voice_polish_2026-05-14_PROPOSED.md` — this Phase C-β status section appended.
+
+### Commit hash
+
+Single integrated commit; hash captured at commit time. See `git log --oneline` for the canonical reference (look for "Ch 5 Phase C-β — Pass 2 voice-polish spot-fixes applied" message).
+
+### Judgment calls / soft observations (not fixes)
+
+- **⚠ Line 90 carries a second "$16T at peak" instance Pass 2 missed.** Phase C-β's F-V8 application at line 82 ("cumulative emergency loans across the crisis (per the GAO's 2011 audit)") has now exposed an internal inconsistency: line 90's third-pushback paragraph still reads *"The Federal Reserve's facilities at peak — the sixteen-trillion-dollar figure that emerged through congressional request — were repaid in nominal terms…"* The "at peak" framing here carries the same N-5 inaccuracy F-V8 corrected at line 82 (peak outstanding was ~$1T; the $16T is cumulative). Per the established Phase-C scope discipline (apply only what was ratified; flag forward for separate ratification), this instance was NOT corrected in Phase C-β. Recommended follow-up spot-fix (for separate ratification): replace *"The Federal Reserve's facilities at peak — the sixteen-trillion-dollar figure that emerged through congressional request — were repaid in nominal terms"* with *"The Federal Reserve's cumulative emergency lending — the sixteen-trillion-dollar figure that emerged through congressional request — was repaid in nominal terms"*. Both Pass 1 and Pass 2 missed this instance; the cross-chapter inventory's prior "Ch 5 line 82 (only)" claim was inaccurate. Pass 3 (audience-load) session should not pick this up; it is a fact-check / consistency-check item belonging to a Pass-1 follow-up.
+
+- **The $44B Black Lung total-payout figure at line 226 was not independently verified during Pass 2.** Pass 2 §10 flagged this for Pass-1 follow-up disposition if author opts for pre-send verification; otherwise defer to pre-publication copyedit refresh. Phase C-β did not touch line 226.
+
+- **The chapter's section-break rhythm + counter-argument paragraph density** were both flagged for Pass 3 (audience-load) at Pass 2 §9. Phase C-β did not modify section-break placement or counter-argument structure.
+
+### What remains for post-send
+
+- **Line 90 "$16T at peak" residual** — separate ratification recommended; small spot-fix (~30sec to apply once ratified).
+- **LOW findings (F-V17 through F-V23)** — all held as substantively-earned cadence patterns per Pass 2 recommendation. Author may revisit individual items if Pass 3 audience-load surfaces specific concerns.
+- **Pass 3 (audience-load)** — separate workstream; final pre-send rigor pass. Pass 2 §9 listed 7 items as Pass-3-input.
+- **Pre-publication copyedit refresh / endnote sweep (cross-thread #11)** — Ch 5 contributes 16 Major + 14 Low/Minor items; separate workstream.
+- **Black Lung debt ($4.5B vs current ~$6.5B) + Kenworthy & Igra cite-form (line 154)** — pre-publication-refresh territory; not Phase C-β scope.
+
+### Sandy-send-packet readiness
+
+With Phase C-β applied (16 of 16 ratified Pass-2 findings landed; 7 LOW findings held; 1 line-90 residual flagged for follow-up), Ch 5 reaches Sandy-Darity-send-packet voice-polish readiness alongside the fact-check readiness Phase C-α delivered. The line-90 residual is the only outstanding internal-consistency item; severity is approximately equivalent to the line-138 residual Phase C-α intentionally scoped forward to Pass 2 (single-instance phrase-replacement to align with corrected primary instance). Pass 3 (audience-load) remains the recommended pre-send rigor pass per per-pass serial cadence.
+
+---
+
+*End of Phase C-β status section. Pass 2 PROPOSED doc state: Phase C-β applied. Pass 3 (audience-load) deferred to subsequent session.*
