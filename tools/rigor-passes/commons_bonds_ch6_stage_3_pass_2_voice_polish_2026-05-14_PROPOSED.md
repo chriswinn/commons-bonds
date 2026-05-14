@@ -1155,3 +1155,32 @@ Pass 3 (audience-load) remains the recommended pre-send rigor pass per per-pass 
 ---
 
 *End of Phase C-γ status section. Pass 2 PROPOSED doc state: Phase C-γ applied. Pass 3 (audience-load) deferred to subsequent session.*
+
+---
+
+## Phase C-γ follow-up — LOW-findings ratification round (2026-05-14)
+
+**Trigger.** Author requested a walkthrough of each LOW finding with recommendations, then ratified the five unambiguous holds.
+
+### Ratified-held (explicit author ratification, locked for Pass 2 purposes)
+
+The following five LOW findings are author-ratified as held; no further Pass-2 consideration:
+
+- **F-V20 (chapter-opening "A mechanism..." declarative-three at line 9)** — Held. The escalation (anecdote → pattern → structural claim) is the chapter's argumentative arc compressed into three sentences; cutting any one collapses the argument.
+- **F-V21 (SCC political-volatility double-triplet at line 35)** — Held. First triplet is substantive empirical content (specific administrations + specific dollar figures); second triplet is the rhetorical contrast that makes the political-volatility-vs-physical-constancy claim land.
+- **F-V22 (four-fold "Price the X" anaphora at line 23)** — Held. The anaphora *performs* the bottom-up-enumeration step the methodology defines; the methodology-as-prose-rhythm is the rhetorical move.
+- **F-V24 ("Norway is the canonical anchor for the method" at line 128)** — Held. The grammatical sense of *canonical anchor* (= standard reference example) is distinct from the Ostrom-path-rejected sense of *canonical list* (= exhaustive closure claim). Author ratification implicitly rejects the optional Phase-C-γ-recommendation swap to *"primary anchor"*; the *"canonical"* phrasing stands.
+- **F-V25 (four-fold "not the X" emotional beat at line 224)** — Held. The escalation by intimacy (displacement → spouse → son → autonomy-supporting infrastructure) is the chapter's hardest emotional-load passage; touching it would gut the chapter's most-load-bearing personal-scale scene.
+
+### Remain Pass-3-flagged (not ratified-held; pending audience-load disposition)
+
+- **F-V23 (externality-tail name-defense paragraph at line 91)** — Pass-2-held + Pass-3-flagged. Pass-3 audience-load testing will determine whether the ~330w name-defense paragraph + cumulative name-defense pattern (with F-V26) warrants compression of the rejected-alternative enumeration. Concrete Pass-3 input: the *Weitzman 2009 fat-tail* anchor + *aftermath* / *trail* rejections are load-bearing; the *legacy* / *long-run* / *persistent* rejections could compress to a tighter parenthetical if cumulative-load testing surfaces concerns.
+- **F-V26 (four-name-defense-paragraph cumulative pattern at lines 91, 280, 302, 334)** — Pass-2-held + Pass-3-flagged. Pass-3 audience-load testing will evaluate whether ~1,200–1,600w of cumulative name-defense prose across the chapter reads as substantive methodological-rigor or as template-repetition-fatigue. Concrete Pass-3 input: the Asymmetric Regret Rule name-defense at line 334 is the most-compressible (sits in the "What the Chapter Leaves for Later" section as a forward-pointer to TA §8; most weight could move to TA); the externality-tail / Commons Inversion Test / RCV name-defenses are more chapter-load-bearing.
+
+### Net LOW disposition
+
+5 of 7 LOW findings explicitly author-ratified as held for Pass 2 purposes. 2 of 7 (F-V23 + F-V26) remain Pass-3-flagged for cumulative-audience-load testing; both are the same question at different scopes (individual name-defense + cumulative pattern). Pass 3 (audience-load) session will dispose of these as part of its work.
+
+---
+
+*End of LOW-findings ratification follow-up (2026-05-14). Pass 2 PROPOSED doc state: Phase C-γ applied + LOW-findings ratification round complete. Pass 3 (audience-load) is the next session in the chain.*
