@@ -527,6 +527,126 @@ Phase C-α spot-fix application is a separate ratification cycle and should coor
 
 ---
 
-*End of Pass 1 — Fact-check + math-check overlay.*
+*End of Pass 1 — Fact-check + math-check overlay (initial).*
 
-**[PROPOSED, awaits ratification]**
+---
+
+# Amendment 2026-05-13 — corpus-canonical reading correction + MUST-FIX ratifications
+
+**Trigger:** Author flagged that my initial MUST-FIX-1 recommendation (hybrid Option A+C — rename TA §3 + disambiguate Ch 6) had not been verified against the wider corpus's canonicalization of "Three Ways of Counting." A subsequent grep across `core/terms/`, `alignment/`, `tools/audits/`, `tools/drafts/`, `tools/rigor-passes/`, `publishing/`, and `research/outreach/` revealed that the canonical reading was already well-established and that the initial recommendation would have broken it.
+
+## Corpus-canonical reading (verified 2026-05-13)
+
+**"Three Ways of Counting" = Method 1 Replacement Cost + Method 2 Revealed Preference + Method 3 Scarcity-Adjusted Option Value. Direction-agnostic: runs forward as RCV calculation, backward as CSD calculation.**
+
+Confirmed across:
+
+| Source | Date | Confirms |
+|---|---|---|
+| **TA §3 (current title in v2.0.0)** | current | "RCV Quantification — Three Ways of Counting"; body walks M1/M2/M3 |
+| **TA §5.5 bidirectionality proposal** (commit 013abd4b) | 2026-05-13 | "Three Ways of Counting triangulation (§3) — is direction-agnostic in its formal statement"; M1/M2/M3 forward/backward mapping with named exemplars (Norway GPFG forward; Darity & Mullen 2020 + Holocaust reparations + 1988 Civil Liberties Act + Black Lung Trust Fund + South African TRC backward) |
+| **TA Pass 1 math audit** | 2026-05-13 | "the apparatus (CIT + Four Gates + Three Ways of Counting) is direction-agnostic in its formal statement: the same methodology applies forward (RCV) and backward (CSD)" |
+| **Insight #31 RATIFIED** | 2026-04-28 | Established the rename: "Triangulated RCV Estimation" RETIRED; "Three Ways of Counting" promoted to primary methodology name for M1+M2+M3 |
+| **Insight #48 RATIFIED** | 2026-04-29 | Post-rename adoption-fit verification; TA §3 section-title set to "RCV Quantification — Three Ways of Counting" |
+| **cross-chapter-consistency-inventory** | 2026-05-11 | Three Ways of Counting canonically = "Method 1 Replacement Cost; Method 2 Revealed Preference; Method 3 Scarcity-Adjusted Option Value" |
+| **Four flagship-term defense paragraphs** (RCV, CIT, ARR, externality-tail) | 2026-05-11 | All reference Ch 6 as "Three Ways of Counting" methodology chapter |
+| **Ch 10 bidirectional-reach insertion** (commit 8b7ac89) | 2026-05-13 | Line 65: "The four gates and the three ways of counting have been applied in this book to one direction: forward... The same apparatus runs in reverse, as Chapter 5 noted and as the Technical Appendix formalizes (§5.5). The framework is bidirectional by construction." |
+| **Ch 5 lines 210 + 214** | current | "the four gates and the three ways of counting" (line 210); informal labels for backward direction map to M1/M2/M3 (line 214; Ch 5 Pass 1 SHOULD-FIX-1 flags for canonical-name anchoring) |
+| **Darity post-interview synthesis** | 2026-05-13 | "Ch 6 (Three Ways of Counting) Ostrom-extension section" |
+
+**terms_index entry (lines 1708–1794) confirms the same core definition but is itself stale on:** internal contradiction between rename-ratified record (line 1714) and pre-rename "both forms ratified" residue (lines 1778–1781); references retired TA v0.0.5 (lines 1763, 1776, 1783); describes CSD as "different methodology" (line 1773) — contradicts today's TA §5.5; no mention of bidirectionality. Cross-thread #9-class staleness (see addendum below). Core M1/M2/M3 definition survives in independent active-review sources.
+
+## Outlier identified
+
+**Ch 6 body is the lone outlier** against the corpus-canonical reading. The chapter title is correctly canonical; the body presents three Approaches (Bottom-Up Damage Accounting / Real Options / RCV Model) at the apparatus-comparison level, not the canonical Three Ways of Counting (M1/M2/M3 inside RCV).
+
+## MUST-FIX-1 — ratified resolution: Option B.2
+
+**Initial recommendation (hybrid A+C):** SUPERSEDED. Would have broken the canonicalization established across Insight #31 + #48 + TA §3 + TA §5.5 + cross-chapter-consistency-inventory + 4 flagship-term defenses + Ch 10 insertion + Ch 5.
+
+**RATIFIED 2026-05-13 (Chris Winn): Option B.2** — keep Ch 6's outer pedagogical scaffolding (three Approaches as cross-validation triangle); add an explicit Method 1 / Method 2 / Method 3 sub-section inside Approach 3 (RCV Model) that walks the canonical Three Ways of Counting with worked examples per case.
+
+**Why B.2 over B.1 (full restructure):** B.2 preserves the chapter's existing pedagogical movement (Bottom-Up → Real Options → RCV) that gives the convergence claim its independent-foundations credit; lands the canonical Three Ways where readers expect them (inside the RCV apparatus, where they live in the framework); uses the chapter's own line 49 acknowledgment ("Approach 3's RCV Method 1") as the natural bridge.
+
+**Phase C-α scope for B.2:**
+- New sub-section inside Approach 3 (RCV Model) — title proposal: "The Three Ways of Counting Inside RCV" or "Triangulating the RCV — Method 1, Method 2, Method 3" — placed after the formula introduction (line 116) and before the Substitutability Function section (line 120). ~600–900w.
+- Method 1 (Replacement Cost): walk McDowell coal via DAC anchor ($310–$1,800/ton per TA §3.6 Block 4); cite TA §3.3.
+- Method 2 (Revealed Preference): walk McDowell coal via Norway-anchored revealed-preference (~$8–$88/ton per TA §3.6 Block 4); cite TA §3.4.
+- Method 3 (Scarcity-Adjusted Option Value): walk McDowell coal via Dixit-Pindyck option-value with scarcity + irreversibility weighting ($420–$13,100/ton; mid $2,500 per TA §3.6 Block 4); cite TA §3.5; flag α-dominance regime per TA §3.5 sensitivity table.
+- Connect the M1/M2/M3 walkthrough to the chapter's existing line 49 ("Approach 3's RCV Method 1") and to Ch 5's backward-direction application (line 214 informal labels resolve to canonical M1/M2/M3 names).
+- Add forward-reference: "(formal articulation in Technical Appendix [§3 RCV Quantification — Three Ways of Counting](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-3-rcv-quantification); bidirectional applicability in [§5.5](../../core/technical-appendix/TechnicalAppendix_v2.0.0.html#sec-5-5-bidirectionality))" — verify anchor name for §5.5 against just-landed TA work.
+
+## MUST-FIX-2 — ratified resolution: rebuild convergence table as M1/M2/M3 columns per case
+
+**Initial recommendation (Option B — reframe as 2 quantitative + 1 directional):** SUPERSEDED by the B.2 ratification above. Once the M1/M2/M3 walkthrough lands inside Approach 3, the convergence table reframes naturally at the method level rather than the apparatus-comparison level.
+
+**RATIFIED 2026-05-13 (Chris Winn): rebuild convergence table as M1/M2/M3 per case.**
+
+**Phase C-α scope for MUST-FIX-2:**
+- Replace the current 2-column table (Damage-Function IPG | RCV Model IPG) with a 3-column table (Method 1 IPG | Method 2 IPG | Method 3 IPG) plus Direction.
+- Per-case numerics for McDowell coal + Norway oil are already available in TA §3.6 Block 4 ($310–$1,800 / $8–$88 / $420–$13,100 mid $2,500 for McDowell; $300–$650 / $50 / $70–$1,000 mid $280 per BOE for Norway).
+- Per-case numerics for Deepwater Horizon, Libby, Exxon Valdez: derive following TA §3.3–§3.5 method specifications + the per-case-prose figures already in Ch 5 (Libby cost-to-revenue 40×; Deepwater 40% recovery ratio; Exxon Valdez documented cleanup vs spilled product). Where Method 3 (option-value framing) does not cleanly apply for one-event spill cases (Deepwater, Exxon), mark the cell as N/A with footnote — same one-event-vs-extraction-lifetime distinction already disclosed at line 149.
+- Preserve the body's existing line-149 method-attribution disclosure passage — it now reads as the table's caption / methodological note rather than as a damage-control disclosure.
+- Bottom-Up Damage Accounting (formerly the "Damage-Function" column) absorbs into Method 1 (which is the canonical Replacement-Cost / substitution-side estimate) and into the E term of Method 3 (where the SCC-anchored carbon externality lives in the RCV integrand) — the body prose at lines 17–51 remains as preliminary "what enters the E term" walkthrough.
+
+## Knock-on resolutions
+
+**SHOULD-FIX-1 (forward↔backward apparatus consistency):** auto-resolves via the corpus-canonical-name anchoring. Apply jointly with Ch 5 Pass 1 SHOULD-FIX-1 in a single Phase C-α session: Ch 5 line 214's informal labels ("substitution cost / revealed restraint / forward option value") become canonical M1/M2/M3 names ("Method 1 Replacement Cost (here: remediation cost) / Method 2 Revealed Preference (here: revealed restitution) / Method 3 Scarcity-Adjusted Option Value (here: extinguished option value)"). This makes the bidirectionality claim run through the same three constructs in both directions.
+
+**SHOULD-FIX-2 (McDowell IPG bounds):** auto-resolves with the table rebuild. M1/M2/M3 per-case columns replace the "Damage-Function IPG 5–133×" wide-bracket range; the new columns are method-anchored to TA §3.6 Block 4 figures, eliminating the GuidanceDoc-derived stale upper bound. The SCC-bracket framing migrates to a footnote explaining the E term's SCC sensitivity inside Method 3.
+
+**MEDIUM-1 (Smax variable):** still applies; minor wording fix during Phase C-α. Not affected by B.2 ratification.
+
+**MEDIUM-2 (Approach 2 no per-case numerics):** auto-resolves with the table rebuild. Approach 2 (Real Options) is recovered as Method 3's theoretical foundation — its empirical contribution shows up in the Method 3 column.
+
+**MEDIUM-3 (rounding-tolerance $550–$570 vs $552–$566):** still applies; defer to Phase C-α discretion (was already classified as defer-acceptable).
+
+**MEDIUM-4 (missing TA hyperlinks):** now expands to **five** hyperlink targets — TA §3 (added during M1/M2/M3 walkthrough), TA §5.5 (added per Ch 10 line 65's matching reference + the TA §5.5 proposal's own flag for Ch 6 forward-reference), TA §9 Three-Model Convergence (per convergence-table context), TA §13 Substitutability Function and Gap (per Substitutability Function section), TA §6 Commons Inversion Test (per CIT defense passage). Apply all five together during Phase C-α.
+
+**LOW-1 through LOW-5:** unchanged from initial Pass 1.
+
+## Cross-thread #9 contribution — addendum
+
+In addition to the Ch 6 GuidanceDoc staleness findings (LOW-6 in the initial Pass 1), the corpus-verification sweep surfaced an additional cross-thread #9 finding:
+
+**terms_index entry "Three Ways of Counting" (lines 1708–1794) is internally stale on 5 specific points:**
+1. Internal contradiction between line 1714 (Insight #31 rename ratified 2026-04-28) and lines 1778–1781 (pre-rename "both forms ratified" residue, dated 2026-04-24) — the older paragraph wasn't deleted when the rename ratified.
+2. References retired TA v0.0.5 at lines 1763, 1776, 1783 — current TA is v2.0.0.
+3. Line 1773 describes CSD pairing as "different methodology — reparations economics rather than triangulated" — directly contradicts today's TA §5.5 + Pass 1 math audit, both of which establish CSD as the same Three Ways of Counting applied backward.
+4. Bidirectionality structural property absent from the entry — TA §5.5 (today) canonicalizes it.
+5. "Last reviewed: 2026-04-24" (line 1732) — 19 days old; predates Insights #31 + #48, TA §5.5, and the bidirectionality work.
+
+The core M1/M2/M3 definition itself is consistent with other canonical sources; the staleness is on contextual + cross-reference + structural-property elements. **Surface for cross-thread #9 systematic-staleness sweep alongside Ch 6 GuidanceDoc, Ch 2 GuidanceDoc, and any other reference-file entries that have accumulated post-review canonicalization decisions.**
+
+## Status after amendment
+
+| Finding | Pre-amendment | Post-amendment |
+|---|---|---|
+| MUST-FIX-1 | PROPOSED (hybrid A+C recommended) | **RATIFIED — Option B.2** |
+| MUST-FIX-2 | PROPOSED (Option B recommended) | **RATIFIED — rebuild table as M1/M2/M3 columns per case** |
+| SHOULD-FIX-1 | PROPOSED | RATIFIED via canonical-name anchoring (jointly with Ch 5 Pass 1 SHOULD-FIX-1) |
+| SHOULD-FIX-2 | PROPOSED | Auto-resolves with MUST-FIX-2; awaits Phase C-α |
+| MEDIUM-1 | PROPOSED | Still PROPOSED — awaits author ratification |
+| MEDIUM-2 | PROPOSED | Auto-resolves with MUST-FIX-2; awaits Phase C-α |
+| MEDIUM-3 | PROPOSED | Still PROPOSED — defer-acceptable per initial recommendation |
+| MEDIUM-4 | PROPOSED | Still PROPOSED — expanded to 5 hyperlinks; awaits author ratification |
+| LOW-1 through LOW-6 | PROPOSED | Unchanged — pre-publication / cross-thread surfacing |
+| terms_index staleness (NEW) | — | Surfaced for cross-thread #9 |
+
+## Phase C-α scope (ratified items)
+
+Single coordinated Phase C-α session applies:
+1. Ch 6: insert M1/M2/M3 walkthrough sub-section inside Approach 3 + rebuild convergence table as M1/M2/M3 per-case columns.
+2. Ch 5 line 214: anchor informal labels to canonical M1/M2/M3 names (jointly with Ch 5 Pass 1 SHOULD-FIX-1).
+3. Ch 6: add 5 TA cross-reference hyperlinks (§3, §5.5, §9, §13, §6).
+4. Ch 6: preserve existing line-149 method-attribution disclosure as caption / footnote for the rebuilt table.
+
+Phase C-α coordinates with:
+- Ch 10 bidirectional-reach insertion (already landed at commit 8b7ac89; canonical-naming alignment now established by Ch 5 + Ch 10 + Ch 6 post-Phase-C-α).
+- TA §5.5 anchor name (just-landed; verify exact anchor ID against the TA commit before adding Ch 6 hyperlink).
+
+---
+
+*End of Amendment 2026-05-13.*
+
+**Status: RATIFIED for MUST-FIX-1 (B.2) + MUST-FIX-2 + SHOULD-FIX-1 + SHOULD-FIX-2. Other findings remain PROPOSED.**
