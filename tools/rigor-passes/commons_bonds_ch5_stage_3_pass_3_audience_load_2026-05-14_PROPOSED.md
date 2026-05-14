@@ -488,7 +488,11 @@ When the send action lands, this section will be updated from FINALIZED FOR SEND
 
 Word-form preserved to match chapter narrative register; *"is currently"* → *"carries roughly ... as of September 2024"* anchors the figure to its DOL OWCP vintage (the verification round flagged *"currently"* as risking re-staleness without an explicit temporal anchor); *"in debt"* → *"in outstanding debt"* for DOL accounting terminology accuracy. Authoritative source: U.S. DOL OWCP + CRS R45261.
 
-**Derivative .docx regenerated.** [research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.docx](research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.docx) regenerated from the post-cascade chapter source via the same pandoc pipeline (US Letter + Garamond reference docx). Verified post-regen: new figure ("five point one billion") + September-2024 temporal anchor + "outstanding debt" terminology all landed; stale "four point six billion" absent.
+**Derivative artifacts regenerated.**
+- **.docx:** [research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.docx](research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.docx) regenerated from the post-cascade chapter source via the same pandoc pipeline (US Letter + Garamond reference docx).
+- **.pdf:** [research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.pdf](research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.pdf) generated from the regenerated .docx via LibreOffice (`soffice --headless --convert-to pdf`); 22 pages; US Letter (612×792 pts). Added as a stable-view second send artifact alongside the .docx (.docx for marginalia / tracked-changes; .pdf for cross-device stable view).
+
+Both verified post-regen: new figure ("five point one billion") + September-2024 temporal anchor + "outstanding debt" terminology all landed; stale "four point six billion" absent.
 
 **Cross-chapter consistency.**
 - TA v2.1.0 §11.6 McDowell anchor table row: cites $5.1B as of September 2024 per DOL OWCP — matches.
