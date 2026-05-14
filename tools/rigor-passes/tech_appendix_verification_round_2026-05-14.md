@@ -296,16 +296,18 @@ The following judgment calls from Phase C and the MEDIUM-11 cascade were **ratif
 
 **Trigger.** Author directive (2026-05-14, this session): "*Mark this version of the TA as prepped for Sandy to review, and note the open items in case he has questions on them, and so we can revisit them prior to publishing regardless.*"
 
-**Action.** TA v2.1.0 marked as prepped-for-review in the document status block (visible to the reviewer). Derivative artifacts generated for the Sandy-Darity packet at [`research/outreach/subjects/darity/`](../../research/outreach/subjects/darity/):
+**Action.** TA v2.1.0 marked as prepped-for-review through generation of the Sandy-Darity packet derivatives. Derivative artifacts generated at [`research/outreach/subjects/darity/`](../../research/outreach/subjects/darity/):
 
-- `Technical_Appendix_Commons_Bonds_v2.1.0_2026-05-14.docx` — pandoc-converted from the canonical HTML; ~126 KB; editable Word format
-- `Technical_Appendix_Commons_Bonds_v2.1.0_2026-05-14.pdf` — LibreOffice-converted from the .docx; ~1.1 MB; ~100 pages letter size
+- `Technical_Appendix_Commons_Bonds_2026-05-14.docx` — pandoc-converted from the canonical HTML; ~126 KB; editable Word format
+- `Technical_Appendix_Commons_Bonds_2026-05-14.pdf` — LibreOffice-converted from the .docx; ~1.1 MB; ~100 pages letter size
 
-Both files committed alongside the prepped-for-review HTML edits in this session's final commit. Pattern matches the Ch 5 Sandy-packet derivative (`Chapter_5_The_Accountability_Gap_2026-05-14.docx` at the same folder location, committed `8a37754`).
+Filename pattern matches the Ch 5 Sandy-packet derivative (`Chapter_5_The_Accountability_Gap_2026-05-14.docx` at the same folder location, committed `8a37754`) — date-stamped, no version suffix per WP#10 internal-scaffolding discipline (version numbering is internal-tracking, not reviewer-facing).
+
+**WP#10 mid-session correction.** An intra-session draft added a Sandy-visible status block to the canonical HTML enumerating these deferred items + the v2.0.0→v2.1.0 change history (commit `409f15b`). Author caught this as a WP#10 regression: version changes and pre-publication-refresh scaffolding are internal-only and should not be visible in external-publisher-facing artifacts. The status block + `.version` paragraph + version suffix in the `<title>` tag have been stripped from the canonical HTML; only the title + byline remain in the document header (clean academic-paper convention). Derivatives regenerated against the cleaned HTML; PDF metadata title cleanly reads "Technical Appendix — Commons Bonds" with no version suffix. The deferred-items tracking has been retained in this file (§I below) as internal pre-publication-revisit-cadence content only.
 
 ### Open items deferred — pre-publication revisit tracking
 
-These items are visible to Sandy in the TA HTML status block (so he can ask if curious) and tracked here for pre-publication revisit regardless of whether Sandy probes them:
+These items are tracked here as internal pre-publication-refresh-cadence content. They are *not* surfaced in the Sandy-facing TA artifacts per WP#10 discipline. If the external reviewer surfaces any of them in their response, the disposition + hardening-path detail below answers the question; otherwise the items are applied as a single coordinated pre-publication-refresh session pre-shipping.
 
 #### I-1. F-7 Norway cumulative oil/gas split — exact-percentage hardening
 
