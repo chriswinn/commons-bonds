@@ -48,8 +48,8 @@ You do NOT need to read the individual workstream handoffs unless the user asks 
 | When | Action |
 |---|---|
 | **Wed May 13** | **Darity interview COMPLETE.** Synthesis commit `3e39061` surfaced MI-1, MI-2, MI-3, SI-1, SI-2, SI-3, C-1, C-2, C-3. **APPLIED:** MI-1 + MI-2 into Ch 5 + TA. **PENDING for Ch 6:** MI-3 (Ostrom homogeneity) + SI-1 sharpening (market-priced-profitability-vs-unpriced-harms framing) + SI-2 (longevity gap as legacy-effect pricing) + C-3 (stratification economics tie). **PENDING for Ch 6 or Ch 10:** SI-3 (Sen). **Cross-thread:** C-1 (Fogel-Engerman two-volume model → #14 comp-titles), C-2 (Du Bois → bibliography). |
-| **NEXT FIRES (parallel)** | **(a) Ch 5 Phase C-α** (pre-Sandy-send) — single integrated commit per Ch 5 Pass 1 doc Amendment 2 (MUST-FIX-2 + MEDIUM-4 + N-3 + MEDIUM-2 + MEDIUM-3 + integrated MEDIUM-1A pointer). ~75–90min. **(b) Ch 6 Pass 1 Amendment + Phase C-α** — add Darity-synthesis-incorporation findings (MI-3 + SI-1 sharpening + SI-2 + C-3 + SI-3 disposition) to existing Ch 6 Pass 1 doc; apply alongside existing Ch 6 MUST-FIX/SHOULD-FIX scope. ~60–90min. Both gate Sandy send packet. |
-| **Thu May 14 – Sat May 16** | **Send Sandy post-interview confirmation email** per [v2 template](research/outreach/subjects/sandy/post-interview-email-template_v2_2026-05-11.md) with warm-intro reframe + Sandy-send packet (Ch 5 + Ch 6 + TA) ships after both Phase C-α sessions land. |
+| **Thu May 14** | **Darity packet SENT.** Cover email + Ch 5 + Ch 6 + Technical Appendix shipped to Sandy mid-travel — see [packet-send-cover-email_2026-05-14.md](../../research/outreach/subjects/darity/packet-send-cover-email_2026-05-14.md). Author cleared the Ch 6 Pass-3 + TA Pass-3 gate by traveling-day decision. **Open for next PM session:** reconcile what state of Ch 6 / TA actually shipped vs. the Pass-3 plan; if deltas exist, surface in synthesis doc Section 2 and decide whether a follow-up "minor revisions since send" note to Sandy is warranted. |
+| **NEXT FIRES (parallel)** | **(a) Ch 5 Phase C-α** — single integrated commit per Ch 5 Pass 1 doc Amendment 2 (MUST-FIX-2 + MEDIUM-4 + N-3 + MEDIUM-2 + MEDIUM-3 + integrated MEDIUM-1A pointer). ~75–90min. Was pre-Sandy-send gating; **now post-send polish** — still load-bearing for the Ch 5 stabilization that downstream apparatus passes need. **(b) Ch 6 Pass 1 Amendment + Phase C-α** — Darity-synthesis-incorporation findings (MI-3 + SI-1 sharpening + SI-2 + C-3 + SI-3 disposition) into the Ch 6 Pass 1 doc + Phase C-α commit. ~60–90min. Was gating Sandy send; **now post-send catch-up** — Sandy sees the pre-Amendment Ch 6, so future revision notes from him may or may not overlap with these items. |
 | **This week** | **Ratify Ch 1 Pass 2** `6fb6510` → apply voice-polish spot-fixes → fire Ch 1 Pass 3. Continue firing Ch 2/3/4 + Ch 5/6 remaining passes. |
 | **Wed May 20 8:00 EDT** | **CBF consolidated response auto-sends** (Gmail scheduled-send). No action required. |
 
@@ -153,14 +153,17 @@ Cross-thread #11 (endnote/citation sweep) accumulating: Ch 2 = 9M+1L; Ch 4 = 5M+
 
 Merged deadline calendar + todos. Sorted forward in time.
 
-### Today (Wed May 13)
+### Wed May 13
 - [x] **14:30 ET** — Darity interview COMPLETE (synthesis `3e39061` surfaced MI-1 + MI-2 + SI-1; MI-1 + MI-2 incorporated; SI-1 absence flagged for author check)
 - [x] Ch 5 Pass 1 PROPOSED with 2 amendments (`d872776` + Amendment 2 this session)
 - [x] Ch 6 Pass 1 PROPOSED with amendment (`f117831`)
-- **Tonight or Thu May 14** — SI-1 disposition check (queued for Ch 6/Ch 9 or needs Ch 5 landing paragraph?) + Ch 5 Phase C-α single integrated commit
+
+### Today (Thu May 14) — author traveling
+- [x] **Darity packet SENT** — Ch 5 + Ch 6 + Technical Appendix shipped to Sandy with cover email at [packet-send-cover-email_2026-05-14.md](../../research/outreach/subjects/darity/packet-send-cover-email_2026-05-14.md). Author cleared Pass-3 gate by traveling-day decision.
+- **Open** — SI-1 disposition check (queued for Ch 6/Ch 9 or needs Ch 5 landing paragraph?) + Ch 5 Phase C-α single integrated commit (now post-send polish) + Ch 6 Pass 1 Amendment / Phase C-α (post-send catch-up)
+- **Open** — Reconcile what state of Ch 6 / TA actually shipped to Sandy vs. the Pass-3 plan; if deltas exist, decide on follow-up "minor revisions since send" note
 
 ### This week (by Sun May 17)
-- **Thu May 14 – Sat May 16** — Send Sandy confirmation email per v2 template; apply warm-intro reframe based on what Darity surfaced
 - **Ratify Ch 1 Pass 2** `6fb6510` → apply voice-polish spot-fixes
 - **Trigger Ch 1 Pass 3 + Ch 2 Pass 3 + Ch 3 Pass 2/3 + Ch 4 Pass 2/3** (paste-text gen from PM)
 - **Fire Chs 5–10 Phase A** as bandwidth permits — critical path bottleneck
@@ -337,7 +340,7 @@ Per `outreach-pipeline-handoff_2026-05-09.md`. Update as responses land.
 
 | Subject | Affiliation | Status | Date | Notes |
 |---|---|---|---|---|
-| **William ("Sandy") Darity Jr.** | Duke | **INTERVIEW COMPLETE** | Wed May 13 14:30 ET (1 hr phone) | Interview conducted. Synthesis commit `3e39061` surfaced MI-1 (Restitution sits inside Darity-Mullen reparations typology) + MI-2 (coercion vector methodologically unresolved; legacy-effects pathway is framework's reach) + SI-1 (future profitability priced; future harms not — Sandy's deepest single-line case). MI-1 + MI-2 incorporated into Ch 5 + TA via Approach B (commits `70dce3f` + downstream). **SI-1 absence flagged in Ch 5 Pass 1 Amendment 2 — needs author check: queued for Ch 6/Ch 9 or fell through synthesis incorporation?** Next steps: Ch 5 Phase C-α → send confirmation email per v2 template May 14–16 → Sandy send packet (Ch 5 + Ch 6 + TA) ships after Ch 5 Phase C-α + SI-1 disposition resolved. Warm-intro discovery (Kendi / Cook Center / Gates / Mullen implicit) — review interview transcript for surfaced contacts. |
+| **William ("Sandy") Darity Jr.** | Duke | **PACKET SENT 2026-05-14** | Wed May 13 14:30 ET interview + Thu May 14 packet send | Interview conducted Wed. Synthesis commit `3e39061` surfaced MI-1 / MI-2 / MI-3 / SI-1 / SI-2 / SI-3 / C-1 / C-2 / C-3. MI-1 + MI-2 incorporated into Ch 5 + TA via Approach B (`70dce3f` + downstream). **Thu May 14 — Sandy packet (Ch 5 + Ch 6 + Technical Appendix) SENT** with cover email at [packet-send-cover-email_2026-05-14.md](../../research/outreach/subjects/darity/packet-send-cover-email_2026-05-14.md). Author cleared Ch 6 Pass-3 + TA Pass-3 gate by traveling-day decision. **Open follow-ups:** (1) reconcile what shipped vs. Pass-3 plan in synthesis doc Section 2; (2) Ch 5 Phase C-α + Ch 6 Pass 1 Amendment now become post-send polish rather than gating items; (3) SI-1 disposition still queued (Ch 6 or Ch 9? fell through synthesis incorporation?); (4) Reply-handling protocol per cover-email §"What to do with Sandy's reply" — including line-220 attribution clearance into synthesis Section 2 + warm-intro template activation (`publishing/agents/post-darity-warm-intro-templates_2026-05-10.md` Variant A) if a candidate is named. |
 | **Mariana Mazzucato** | UCL/IIPP | HOLDING via Adam Albrecht | Held since 2026-05-06 | Awaiting substantive follow-up. Not blocking. |
 | **Allison Colden** | CBF Maryland | RESPONSE SENT via Val DiMarzio (consolidated) | 2026-05-13 (scheduled-send Wed May 20 8am EDT) | Public-record brief landed 2026-05-08. Substitution-hypothesis CONFIRMED. Pre-publication citation-verification packet pre-staged (`15c6b0f`). |
 | **Karen Moore** | CBF Virginia | RESPONSE SENT via David Sherfinski (consolidated) | 2026-05-13 (scheduled-send Wed May 20 8am EDT) | Public-record brief landed 2026-05-08. |

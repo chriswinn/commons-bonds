@@ -1,8 +1,8 @@
 # Packet-send cover email — Darity Jr. (Ch 5 + Ch 6 + TA packet)
 
-**Status:** DRAFT 2026-05-14. Author reviews + adjusts before sending. Send action is held pending Ch 6 Pass-3 + TA Pass-3 / send-readiness disposition.
+**Status:** SENT 2026-05-14. Packet shipped to Sandy with three attachments per the body below: Chapter 5 (*The Accountability Gap*), Chapter 6 (*Three Ways of Counting*), and the Technical Appendix. Author-confirmed send mid-travel. The `DRAFT_` filename prefix was retired on send; this file is the as-sent record. Any author-side line edits between draft state and send live in the author's outbox, not back-ported here — flag if a delta needs reconciling against the synthesis doc.
 
-**Send target window:** When Ch 6 + TA close-read send-ready. Per the prior commitment to Sandy in [post-interview-confirmation-email_2026-05-13.md](research/outreach/subjects/darity/post-interview-confirmation-email_2026-05-13.md): *"within the next 1–2 weeks"* from 2026-05-13 → target ≤ 2026-05-27, soft window. Earlier is better while the conversation context is fresh on both ends.
+**Send target window (historical):** Originally gated on Ch 6 Pass-3 + TA Pass-3 / send-readiness disposition. **Gating disposition at send:** author cleared the gate by traveling-day decision to ship while the conversation context is fresh on both ends and within the *"1–2 weeks"* commitment from the 2026-05-13 post-interview email. **Open for next PM session:** verify what Ch 6 + TA state actually shipped against the Pass-3 plan in `pm-session-handoff_2026-05-13.md` §2 / §6, and reconcile any deltas in `post-interview-synthesis_2026-05-13.md` Section 2.
 
 **Adapted from:** [post-interview-confirmation-email_2026-05-13.md](research/outreach/subjects/darity/post-interview-confirmation-email_2026-05-13.md) voice + structural pattern. This is the substantive follow-through on that email's commitment to send the Tech Appendix + Ch 6 for review. Ch 5 is added beyond the original commitment because it carries the reparations-economics lineage section + the line-220 personal-communication citation that Sandy needs to clear under his Q0 tier-S attribution preference.
 
