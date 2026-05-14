@@ -1080,3 +1080,78 @@ Per author's per-pass serial cadence + v2.0 Amendment B distinct-pass discipline
 ---
 
 *End of Ch 6 Stage-3 Pass 2 (Voice-Polish) rigor pass — pending author ratification of recommended spot-fixes. Phase C-γ applies after ratification (paralleling Ch 5 Pass 2 commit `dd3c684` → Phase C-β commit `c35cb03`). Pass 3 (Audience-load) is a separate session.*
+
+---
+
+## Phase C-γ status (2026-05-14)
+
+**Status:** APPLIED. Doc moves from PROPOSED-pending-Phase-C-γ to PROPOSED-Phase-C-γ-applied. Author ratified "all as recommended" in the parent session before this commit.
+
+### What was applied
+
+All 19 ratified findings (3 MUST-FIX + 5 SHOULD-FIX + 11 MEDIUM per §11.1 line-by-line count) applied as a single integrated commit. The 7 LOW findings held as-is per the Pass 2 recommendation.
+
+- **F-V1 (MUST-FIX, line 282 "commons categorys" typo) — applied.** Single-character fix: *"categorys"* → *"categories"*. Post-edit line: 288 (line-number shift of +6 from F-V14 paragraph split).
+- **F-V2 (MUST-FIX, gate-name internal inconsistency) — Option B applied instead of recommended Option A; TA verification at Phase-C-γ application time inverted the recommendation.** TA §7.2 heading and TA §17.4 + multiple in-text references (TA lines 1689, 1808, 1852, 1904, 1954, 2023, 2112, 2188, 2273, 2330, 2536, 6732, 6744, 7553) all use title-case *"Units Consistency"* as the canonical gate name; the lower-case *"dimensional consistency"* phrasings in TA (lines 2467, 2509, 2882, 7496) refer to what the gate *tests* rather than to the gate's name. The Pass 1 §"Critical positive findings" claim that TA §7 + §17 match the chapter's line 278 *"dimensional consistency"* form was inaccurate — the chapter line 278 used the lower-case test-description form where the canonical naming form applies. **Applied:** line 278 *"The second gate is dimensional consistency."* → *"The second gate is Units Consistency."* Line 284 *"fails Units Consistency"* preserved unchanged (already canonical). Post-edit line: 284. Per `feedback_verify_stale_memory_claims.md` + `feedback_audit_recent_active_review_default.md` — the TA was updated more recently than Pass 1's recommendation and is canonical-source; the disposition trusts the more recent canonical evidence.
+- **F-V3 (MUST-FIX, line 244 "Right-wing critics" register) — Option A applied.** Single-word cut: *"Right-wing critics who ask 'why give value to future generations?'"* → *"Critics who ask 'why give value to future generations?'"* Preserves the Parfit-domain / Sen-domain rhetorical move + the framework's capabilities-based answer + the methodological-defense register. Post-edit line: 250.
+- **F-V4 (SHOULD-FIX, SI-1 paragraph DCF redundancy) — Option A applied.** Two sentences consolidated to one: *"Markets do have a mechanism for pricing future profitability — discounted-cash-flow analysis aggregated through equity and debt markets, which produces asset prices that implicitly price expected future returns. Every financial-asset price embeds an expectation about future returns; the mechanism is implicit but real."* → *"Markets do have a mechanism for pricing future profitability — discounted-cash-flow analysis aggregated through equity and debt markets, embedded in every asset price as an implicit expectation about future returns. The mechanism is implicit but real."* SI-1 framing's three load-bearing sentences (markets-do-have / markets-do-not-have / three-methods-as-substitute) preserved verbatim. Post-edit line: 124.
+- **F-V5 (SHOULD-FIX, lines 45/49 "answer different questions" phrase-repeat) — Option A applied.** Line 49 paragraph consolidated: dropped *"One distinction matters here."* opener (expository-flatness); semicolon-merged the SCC + DAC sentences; dropped the *"The two numbers appear together when the convergence table compares approaches, but they answer different questions."* sentence (verbatim repeat from line 45). The Rennert and colleagues 2022 anchor + the Approach-3-Method-1 + Approach-1 cross-references + the conflation-warning close are preserved. Line 45's brief introduction of the distinction held. Post-edit line: 49.
+- **F-V6 (SHOULD-FIX, line 47 Climeworks net-removal parenthetical) — Option A applied.** Climeworks Mammoth sentence split into two sentences: the primary net-removal-cost sentence (with the Zurich June 2024 Carbon Removal Summit source-citation) + a follow-up sentence carrying the capture-only sub-target. Both cost ranges + the source-citation preserved. Post-edit line: 47.
+- **F-V7 (SHOULD-FIX, line 168 convergence-caption "+" notation) — Option A applied.** Six *"+"* tokens replaced with comma-and Oxford-comma lists in the Deepwater + Libby source-citation case-groups; the Exxon Valdez case-group preserved verbatim (already used *"and"*). All seven authoritative-source citations preserved verbatim. Inline placement maintained. Post-edit line: 168.
+- **F-V8 (SHOULD-FIX, line 208 "18 cases" number-form) — applied.** Single-token swap: *"18 cases"* → *"eighteen cases"*. Aligns with lines 212 + 226 (now 218 + 232 post-edit) spelled-out form. Post-edit line: 214.
+- **F-V9 (MEDIUM, line 25 "legacy-effect pricing variant" phrasing) — Option A applied.** *"McDowell County's thirteen-year gap is the same kind of legacy-effect pricing variant, applied to coal-extraction-affected populations rather than to racially-stratified populations."* → *"McDowell County's thirteen-year gap is a legacy-effect pricing application of the same methodology, calibrated to coal-extraction-affected populations rather than to racially-stratified populations."* Aligns with chapter-elsewhere *"specialization" / "application"* discipline; preserves the methodology-attributive voice. Post-edit line: 25.
+- **F-V10 (MEDIUM, line 126 M1 em-dash density) — Option A applied.** M1 closing sentence split into two sentences: *"The limit is that Method 1 anchors only the substitutable component of the commons function; it underprices irreplaceable commons — direct air capture engineers atmospheric CO₂ removal but does not replace foreclosed petroleum hydrocarbons or restore destroyed communities — and is treated as a floor for that reason."* → *"The limit is that Method 1 anchors only the substitutable component of the commons function; it underprices irreplaceable commons. Direct air capture engineers atmospheric CO₂ removal but does not replace foreclosed petroleum hydrocarbons or restore destroyed communities, and Method 1 is treated as a floor for that reason."* Post-edit line: 126.
+- **F-V11 (MEDIUM, line 128 M2 triple "actual") — Option A applied.** *"an actual polity has actually paid for an actual instance"* → *"a real polity has actually paid for a real instance"*. Triple-repeat collapsed to single *"actually"*. Post-edit line: 128.
+- **F-V12 (MEDIUM, line 130 M3 five-hyphen compound) — Option A applied.** *"For coal-extraction-as-commons-extinction-class regimes"* → *"For regimes where coal extraction operates as a commons-extinction event"*. Unpacks five-hyphen compound to a *"where X operates as Y"* clause. Post-edit line: 130.
+- **F-V13 (MEDIUM, line 132 "per-context calibration" phrase-repeat) — Option A applied.** Line 132 close: *"The methodology is direction-agnostic; the per-context calibration is what differs."* → *"The methodology is direction-agnostic; the calibration adjusts per case."* Line 25 close preserved (*"The methodology travels; the per-context calibration is what differs."*). Post-edit line: 132.
+- **F-V14 (MEDIUM, line 170 numerical-validation paragraph density) — Option A applied.** Single ~250w paragraph split into 4 paragraphs (summary + McDowell + Libby + Deepwater). Adds 3 paragraph-break + 3 blank-line separators = +6 line count to the chapter. Original line 170 → new lines 170, 172, 174, 176. Substance preserved verbatim across the split.
+- **F-V15 (MEDIUM, line 172 "discipline this surfaces:" expository register) — Option A applied.** Dropped the opener phrase: *"The discipline this surfaces: every cost-severance figure carries…"* → *"Every cost-severance figure carries…"* Substance preserved. Post-edit line: 178 (the discipline-paragraph is now the 5th paragraph in the validation-section sequence following F-V14's split).
+- **F-V16 (MEDIUM, line 140 SCC numerical-anchor repeat with line 35) — Option A applied.** *"One administration says $42 per ton CO₂; the next says $3; the next says $190."* → *"Different administrations have set the social cost of carbon at $3, $42, and $190 across the last decade."* Same three values; varied syntactic form; less verbatim with line 35's three-fold. Post-edit line: 140.
+- **F-V17 (MEDIUM, line 196 "B is very large" apparatus residue) — Option A drop-tail variant applied.** *"The fund is an enormous accountability bond — B is very large."* → *"The fund is an enormous accountability bond."* The substantive claim (bond is large) was already carried by *"enormous accountability bond"*; the *"B is very large"* tail was redundant + apparatus-residue. Drop-tail is cleaner than the variant-A *"the bond is very large"* (which would be redundant with *"enormous"*). Post-edit line: 204. Line 198 *"CS is small, but positive"* held as-is per the F-V17 cross-pass flag (compact equation-variable use in a result-statement context, where compact-form is standard apparatus discipline; that use sits in a different register from the line 196 plain-language paragraph).
+- **F-V18 (MEDIUM, lines 218 + 222 heavy compounds) — Option A applied at both locations.** Line 218: *"politically-traditionally contested"* → *"politically and traditionally contested"*. Line 222: *"whatever-autonomy-supporting-infrastructure"* → *"whatever autonomy-supporting infrastructure"* (drop leading *"whatever-"* hyphen). Post-edit lines: 224 and 228.
+- **F-V19 (MEDIUM, line 256 stratification-economics-style compound) — Option A applied.** *"stratification-economics-style intergroup-relational analysis"* → *"stratification-economics analysis of intergroup relationships"*. Reduces six hyphens to two; preserves the methodological-extension claim + the Darity / Hamilton / collaborators inline citation. Post-edit line: 262.
+
+### LOW findings — all held as-is
+
+Per Pass 2 §7 recommendation and author ratification, the 7 LOW findings (F-V20 through F-V26) were not modified:
+- F-V20: Line 9 *"A mechanism..."* declarative-three (chapter-spine claim)
+- F-V21: Line 35 SCC political-volatility double-triplet (substantively earned)
+- F-V22: Line 23 four-fold *"Price the X"* anaphora (cost-component enumeration)
+- F-V23: Line 91 externality-tail name-defense (chapter pattern)
+- F-V24: Line 128 *"canonical anchor"* Ostrom-path soft check
+- F-V25: Line 224 four-fold *"not the X"* emotional beat (Ch 1 autonomy-commons paragraph)
+- F-V26: Four-name-defense-paragraph pattern (lines 91, 274, 296, 328 — post-edit 91, 280, 302, 334)
+
+### Files touched
+
+- `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md` — 19 individual edits across 19 findings, applied verbatim per recommended-rewrite text (with F-V2 Option B applied instead of recommended Option A per TA verification). Line count post-edit: **338** (was 332; +6 from F-V14 paragraph split). Key line anchors verified post-edit: 25, 47, 49, 124, 126, 128, 130, 132, 140, 168, 170-178 (F-V14 split block), 204, 214, 224, 228, 250, 262, 284, 288.
+- `tools/rigor-passes/commons_bonds_ch6_stage_3_pass_2_voice_polish_2026-05-14_PROPOSED.md` — this Phase C-γ status section appended.
+
+### Commit hash
+
+Single integrated commit; hash captured at commit time. See `git log --oneline` for the canonical reference (look for `"[Ch 6 Pass 2 voice-polish APPLIED]"` in the commit message).
+
+### Judgment calls / soft observations (not fixes)
+
+- **F-V2 disposition inversion.** As noted above, the recommended Option A was inverted to Option B based on TA verification at Phase-C-γ application time. The TA canonical-form is title-case *"Units Consistency"* across all major references; Ch 6's line 278 was the outlier using descriptive lower-case form. Phase C-γ corrected line 278 to match canonical. This is the standard cross-pass-flag discipline working as intended: the Pass 2 recommendation included a verification step, and Phase C-γ applied that verification before committing.
+
+- **Line 21 Black Lung Trust Fund $44B attribution.** Per Pass 2 §10, the line 21 reference to *"The Black Lung Disability Trust Fund's approximately $44 billion in distributions through 2009 (GAO/CRS)"* carries the cross-chapter DRIFT FLAG from Ch 5 Phase-C-β follow-up (which reframed the parallel Ch 5 line 226 to *"federal Black Lung Benefits Program"*). Phase C-γ did NOT touch line 21 per the established Phase-C scope discipline (apply only what was ratified for Pass 2; flag forward for separate ratification). Recommended follow-up (separate ratification, paralleling Ch 5's Phase-C-β follow-up): apply the same Program-vs-Trust-Fund reframe at Ch 6 line 21. The cross-chapter inventory DRIFT FLAG remains until applied.
+
+- **Pass 3 (audience-load) input items at §9 above** — Phase C-γ did not touch any of the 8 audience-load items flagged at §9. Pass 3 picks those up.
+
+### What remains for post-send / next session
+
+- **Ch 6 Pass 3 (audience-load)** — separate workstream; final pre-send rigor pass. Pass 2 §9 listed 8 items as Pass-3-input including the M1/M2/M3 walkthrough cumulative reader-load, the four-name-defense-paragraph cumulative pattern, the convergence-table caption inline-vs-footnote question, the Two Kinds of Commons section Ostrom-tradition resonance test, and the counter-argument paragraph structure at lines 180–188.
+- **Ch 6 line 21 Black Lung $44B Trust Fund → federal Program reframe** — separate cross-chapter consistency workstream; paralleling Ch 5 Phase-C-β follow-up commits `7cbb9c1` + `d2ee178`. Not Sandy-send-gating for Ch 6 alone but should land before the broader Sandy review of multi-chapter material.
+- **LOW findings (F-V20 through F-V26)** — all held as substantively-earned cadence patterns per Pass 2 recommendation. Author may revisit individual items if Pass 3 audience-load surfaces specific concerns.
+- **Pre-publication copyedit refresh / endnote sweep (cross-thread #11)** — Ch 6 contributes its Pass 1 inventory items; separate workstream.
+
+### Sandy-send-packet readiness
+
+With Phase C-γ applied (19 of 19 ratified Pass-2 findings landed; 7 LOW findings held), Ch 6 reaches Sandy-Darity-send-packet voice-polish readiness alongside the fact-check + math-check readiness Phase C-α + Phase C-β delivered. The SI-1 framing in the M1/M2/M3 walkthrough opener — Sandy's "deepest single-line case" surface — survives Phase C-γ with the three load-bearing sentences (markets-do-have / markets-do-not-have / three-methods-as-substitute) intact. The convergence-table caption + DAC parenthetical + Sen capabilities defense + MI-3 Ostrom break-point + Darity longevity-gap lineage — the five new Phase-C surfaces — all read in their intended methodological-defense / methodological-attributive registers post-polish. The line 21 Black Lung cross-chapter DRIFT FLAG is the only outstanding item; severity is approximately equivalent to Ch 5's line 90 *"$16T at peak"* residual that Phase-C-β-follow-up later cleared (single-instance phrase-replacement to align with corrected primary instance).
+
+Pass 3 (audience-load) remains the recommended pre-send rigor pass per per-pass serial cadence.
+
+---
+
+*End of Phase C-γ status section. Pass 2 PROPOSED doc state: Phase C-γ applied. Pass 3 (audience-load) deferred to subsequent session.*
