@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-13
 **Branch:** `claude/ch10-insertion-placement-lucid-pike-cbf748`
-**Status:** PROPOSED — awaits author ratification
+**Status:** RATIFIED 2026-05-13 — author ratified all four decision points (§9): Candidate B placement; §-reference correction (§5.5) → (§5); both capitalizations (Four Gates; Three Ways of Counting). Polished version (§7) applied via follow-up commit; fast-forwarded to main per WP#9.
 **Scope:** Placement task only. Insertion paragraph wording provided verbatim by author. Cross-reference verification (Scope 3) + light-touch polish evaluation (Scope 4.5) executed; commit applies VERBATIM at recommended location pending ratification of polish + fact-corrections.
 
 ---

@@ -76,7 +76,7 @@ One specific objection deserves engagement before this section closes, even at c
 
 ---
 
-The four gates and the three ways of counting have been applied in this book to one direction: forward, the foreclosure of futures by extractions still to come. The same apparatus runs in reverse, as Chapter 5 noted and as the Technical Appendix formalizes (§5.5). The book that comes after this one — or the book by some other author with the right tools — will price what is owed for the extractions that already happened, the legacy effects whose abundance-masking has only just begun to fail. The framework is bidirectional by construction. The choice to demonstrate it forward was a choice of pacing, not of reach.
+The Four Gates and the Three Ways of Counting have been applied in this book to one direction: forward, the foreclosure of futures by extractions still to come. The same apparatus runs in reverse, as Chapter 5 noted and as the Technical Appendix formalizes (§5). The book that comes after this one — or the book by some other author with the right tools — will price what is owed for the extractions that already happened, the legacy effects whose abundance-masking has only just begun to fail. The framework is bidirectional by construction. The choice to demonstrate it forward was a choice of pacing, not of reach.
 
 ---
 
