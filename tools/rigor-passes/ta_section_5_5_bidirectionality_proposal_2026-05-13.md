@@ -131,17 +131,28 @@ The parallel-session workstream (commits `be334f5` + `8ed36ac`) was running appr
 
 ## §9. Verdict + deliverables
 
-**Verdict.** §5.5 is substantively complete. The originating Ch 5:224 promise is satisfied. No further §5.5 commit is recommended; this session does NOT produce a duplicate §5.5 draft.
+**Initial verdict (before author enhancement request).** §5.5 substantively complete. The originating Ch 5:224 promise satisfied. No further §5.5 commit recommended; this session did NOT produce a duplicate §5.5 draft.
 
-**Deliverables produced by this session:**
-- This findings note: `tools/rigor-passes/ta_section_5_5_bidirectionality_proposal_2026-05-13.md` (PROPOSED, awaits ratification of §6 coordination flag).
+**Author follow-up request (2026-05-13, same session).** Author asked: *"add any additional value that you can to what the parallel session wrote, can you update section 5.5 to make it better?"* — explicit request to extend the parallel-session §5.5 with value-adds identified during the assessment in §5 + §6 above.
 
-**Deliverables NOT produced (and rationale):**
-- ~~PROPOSED commit adding §5.5 to TechnicalAppendix_v2.0.0.html~~ — would duplicate parallel-session work landed via `be334f5`. Not produced.
-- ~~TOC annotation update for §5~~ — already landed via `02b264d` and WP#10 cleanup commits. Not produced.
+**Enhancements applied (this session, second commit).** Four surgical additions landed against the parallel-session §5.5:
 
-**Author action requested:**
-- Ratify §6 residual coordination flag: Option (i) no-action [recommended default] / (ii) §5.4 expansion / (iii) new §5.6 sibling. If (ii) or (iii) ratified, fire a follow-up session.
+| # | Addition | Placement | Source of value-add |
+|---|---|---|---|
+| 1 | **Four Gates direction-agnosticism (gate-by-gate)** strong-tagged paragraph | After Backward application paragraph, before Total CS decomposed | §5 assessment table flagged "Four Gates: single sentence" in existing §5.5; new paragraph articulates Gate 1 (CIT scarcity-grounding), Gate 2 (Units), Gate 3 (Boundedness — the operational asymmetry: backward integration bounded by construction at analysis time; Gate 3 trivially satisfied for backward Cᵢ), Gate 4 (Independence) individually. Also removes the now-redundant single-sentence Four Gates claim from inside the Backward application paragraph. |
+| 2 | **Epistemic asymmetry across directions** strong-tagged paragraph | After Four Gates paragraph, before Total CS decomposed | §5 assessment flagged "Domain of applicability — epistemic asymmetry: ⚠ Partial" in existing §5.5; new paragraph names epistemic asymmetry explicitly as a structural feature, distinguishes backward Cᵢ (empirically anchored: longevity-gap years, wealth-gap dollars, production-record extraction-portfolio) from forward Cᵢ (modeled counterfactual: U, E, S(t) trajectory), and articulates the different sensitivity-analysis disciplines each direction is subject to. |
+| 3 | **Sibling-section structure (§5.3 / §5.5)** strong-tagged paragraph | After Example backward variables bulleted list, before Book 1 scope discipline | §5 assessment flagged no §5.3 cross-reference; new paragraph frames §5.3 (structural independence) and §5.5 (structural symmetry) as sibling consequences of the B = B₁ + B₂ decomposition. |
+| 4 | **Coordination note (B₁-direction moral grounding)** strong-tagged paragraph | After Book 1 scope discipline paragraph, before closing </section> | §6 above flagged the §5.4 B₂-only / B₁-companion question with Options (i)/(ii)/(iii); new in-section coordination note moves the flag from this findings doc *into §5.5 itself*, logging the question for subsequent revision without prescribing the resolution. This is Option (i) "no-action / log in-section" applied as the operational answer; Options (ii) §5.4 expansion and (iii) new §5.6 sibling remain available for future-session ratification if the in-section logging proves insufficient. |
+
+**Aggregate verdict after enhancements.** §5.5 now carries: (a) bidirectionality structural claim; (b) Forward / Backward / Total-CS framing; (c) gate-by-gate Four Gates articulation; (d) explicitly-named epistemic asymmetry; (e) Three Ways of Counting forward/backward mapping with named exemplars; (f) example backward variables (racial wealth gap, longevity gap, coercion vector, Indigenous etc.); (g) sibling-section structure framing §5.3 ↔ §5.5; (h) Book 1 scope discipline; (i) in-section coordination note for the §5.4 B₁-companion question.
+
+**Deliverables produced by this session (final):**
+- This findings note (commit `013abd4`): `tools/rigor-passes/ta_section_5_5_bidirectionality_proposal_2026-05-13.md` (PROPOSED).
+- §5.5 enhancements applied to `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (this commit): four surgical additions per table above (PROPOSED).
+
+**Author action requested (residual, post-enhancements):**
+- Ratify the in-section B₁-companion coordination note as the operational resolution (Option (i) "log in-section"). If preferred, ratify Option (ii) §5.4 expansion or Option (iii) new §5.6 sibling for a follow-up session.
+- Optional: ratify the four §5.5 enhancements en bloc, or call out any of the four for revision/revert.
 
 ---
 
