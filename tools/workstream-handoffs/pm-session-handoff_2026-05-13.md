@@ -47,17 +47,18 @@ You do NOT need to read the individual workstream handoffs unless the user asks 
 
 | When | Action |
 |---|---|
-| **TODAY Wed May 13 14:30 ET** | **Darity interview** (user conducts; 1hr phone). Rescheduled from 14:00 at Darity's request 2026-05-13 AM; reschedule-confirmation reply sent. |
-| **Tonight or Thu May 14** | **Post-Darity synthesis** (~5% weekly budget). Feeds #2 Boston Review + #5 author platform + warm-intro discovery decision. |
-| **Thu May 14 – Sat May 16** | **Send Sandy post-interview confirmation email** per [v2 template](research/outreach/subjects/sandy/post-interview-email-template_v2_2026-05-11.md) with warm-intro reframe based on what Darity surfaced. |
-| **This week** | **Ratify Ch 1 Pass 2** `6fb6510` → apply voice-polish spot-fixes → fire Ch 1 Pass 3. Start firing Ch 2/3/4 remaining passes. |
+| **Wed May 13 (earlier today)** | **Darity interview COMPLETE.** Synthesis commit `3e39061` surfaced MI-1 + MI-2 + SI-1; MI-1 + MI-2 incorporated into Ch 5 + TA. **SI-1 ("future profitability priced; future harms not") absence flagged** — verify whether queued for Ch 6/Ch 9 or fell through synthesis incorporation. |
+| **Tonight or Thu May 14** | **Post-Darity synthesis follow-on** — propagate any residual SI-1 incorporation if needed. Feeds #2 Boston Review + #5 author platform + warm-intro discovery decision. |
+| **NEXT FIRE** | **Ch 5 Phase C-α** (pre-Sandy-send) — single integrated commit applying MUST-FIX-2 + MEDIUM-4 + N-3 + MEDIUM-2 + MEDIUM-3 + integrated MEDIUM-1A pointer per Ch 5 Pass 1 doc Amendment 2. ~75–90min. Required before Sandy send packet ships. |
+| **Thu May 14 – Sat May 16** | **Send Sandy post-interview confirmation email** per [v2 template](research/outreach/subjects/sandy/post-interview-email-template_v2_2026-05-11.md) with warm-intro reframe based on what Darity surfaced + Sandy-send packet (Ch 5 + Ch 6 + TA) staged after Ch 5 Phase C-α lands. |
+| **This week** | **Ratify Ch 1 Pass 2** `6fb6510` → apply voice-polish spot-fixes → fire Ch 1 Pass 3. Continue firing Ch 2/3/4 + Ch 5/6 remaining passes. |
 | **Wed May 20 8:00 EDT** | **CBF consolidated response auto-sends** (Gmail scheduled-send). No action required. |
 
 ---
 
 ## 3. Critical path bottleneck
 
-**#20 Stage-3 Rigor Pass Chs 5–10 → unblocks → #5 Book proposal sprint (late June) → unblocks → #6 Agent Wave 1 (late July).** Also gates Apparatus Phase A (§6). Chs 5–10 have not yet started Phase A. This single chain drives roughly half the dashboard's "blocked / gated" items. Treat any Chs 5–10 Phase A firing as high-leverage.
+**#20 Stage-3 Rigor Pass Chs 5–10 → unblocks → #5 Book proposal sprint (late June) → unblocks → #6 Agent Wave 1 (late July).** Also gates Apparatus Phase A (§6). **Ch 5 Pass 1 PROPOSED with 2 amendments (`d872776` + Amendment 2 pending push). Ch 6 Pass 1 PROPOSED with amendment (`f117831`). Chs 7–10 Phase A not yet started.** This chain drives roughly half the dashboard's "blocked / gated" items. **Immediate critical-path priority: Ch 5 Phase C-α (single integrated commit) before Sandy send.** Treat any Chs 7–10 Phase A firing as high-leverage in parallel.
 
 ---
 
@@ -119,9 +120,11 @@ Priority within bucket: **HIGH** = time-pressured or gates large downstream casc
 | **2** | COMPLETE | COMPLETE | pending — paste-text drafted | 14 applied (C-α/β `5bc6edb` + C-γ `fa08c10`) | **Fire Pass 3** (audience-load) |
 | **3** | LANDED `2f76e37` (Colden naming + Norway fund-age) | pending | pending | — | **Fire Pass 2** (voice-polish) — paste-text gen from PM |
 | **4** | COMPLETE | pending | pending | 5 MEDIUM + 2 LOW (`e67b8b8` + `8f792ee`) | **Fire Pass 2** (voice-polish) — paste-text gen from PM |
-| **5–10** | not started | — | — | — | **Fire Phase A Pass 1** (parallel sessions, paced) — critical path |
+| **5** | **PROPOSED + 2 AMENDMENTS** `a2d2d3f` + `d872776` + Amendment 2 (this session's push); 1 MUST-FIX + 7 MEDIUM + 10 LOW + SI-1 absence flag | pending | pending | none yet | **Fire Phase C-α** (single integrated commit; pre-Sandy-send gating: MUST-FIX-2 + MEDIUM-4 + N-3 + MEDIUM-2 + MEDIUM-3 + integrated MEDIUM-1A pointer + N-1 + N-2 + MEDIUM-5 fold; resolve SI-1 disposition first) |
+| **6** | **PROPOSED + AMENDMENT** `f117831` (B.2 + MUST-FIX-2 ratified + canonical-reading correction) | pending | pending | partial — see Ch 6 doc | **Apply ratified spot-fixes** → fire Pass 2 |
+| **7–10** | not started | — | — | — | **Fire Phase A Pass 1** (parallel sessions, paced) — critical path |
 
-Cross-thread #11 (endnote/citation sweep) accumulating: Ch 2 = 9M+1L; Ch 4 = 5M+3L. Soft target after Phase B; hard target before late-July Wave 1.
+Cross-thread #11 (endnote/citation sweep) accumulating: Ch 2 = 9M+1L; Ch 4 = 5M+3L; **Ch 5 = 16M + 14L + N-6 citation-form sharpening (Kenworthy & Igra 2022, not Igra et al. 2021)**. Soft target after Phase B; hard target before late-July Wave 1.
 
 ---
 
@@ -152,8 +155,10 @@ Cross-thread #11 (endnote/citation sweep) accumulating: Ch 2 = 9M+1L; Ch 4 = 5M+
 Merged deadline calendar + todos. Sorted forward in time.
 
 ### Today (Wed May 13)
-- **14:30 ET** — Darity interview (user conducts; 1 hr phone) — rescheduled from 14:00 at Darity's request; reschedule-confirmation reply sent
-- **Tonight or Thu May 14** — Post-Darity synthesis (~5% weekly budget); feeds #2 + #5 + warm-intro discovery decision
+- [x] **14:30 ET** — Darity interview COMPLETE (synthesis `3e39061` surfaced MI-1 + MI-2 + SI-1; MI-1 + MI-2 incorporated; SI-1 absence flagged for author check)
+- [x] Ch 5 Pass 1 PROPOSED with 2 amendments (`d872776` + Amendment 2 this session)
+- [x] Ch 6 Pass 1 PROPOSED with amendment (`f117831`)
+- **Tonight or Thu May 14** — SI-1 disposition check (queued for Ch 6/Ch 9 or needs Ch 5 landing paragraph?) + Ch 5 Phase C-α single integrated commit
 
 ### This week (by Sun May 17)
 - **Thu May 14 – Sat May 16** — Send Sandy confirmation email per v2 template; apply warm-intro reframe based on what Darity surfaced
@@ -333,7 +338,7 @@ Per `outreach-pipeline-handoff_2026-05-09.md`. Update as responses land.
 
 | Subject | Affiliation | Status | Date | Notes |
 |---|---|---|---|---|
-| **William ("Sandy") Darity Jr.** | Duke | **INTERVIEW TODAY** | Wed May 13 14:30 ET (1 hr phone) — rescheduled from 14:00 at Darity's request 2026-05-13 AM | Full prep stack ready. Substitution-hypothesis-applied draft of Section V already exists. Reschedule-confirmation reply sent 2026-05-13 (declined to offer pre-call primer — relationship-stage discipline: senior subject who self-disclosed prep gap gets trusted to prep, not inserted-upon). Post-call: send confirmation email per v2 template May 14–16; surface warm-intro discovery (Kendi / Cook Center / Gates / Mullen implicit). |
+| **William ("Sandy") Darity Jr.** | Duke | **INTERVIEW COMPLETE** | Wed May 13 14:30 ET (1 hr phone) | Interview conducted. Synthesis commit `3e39061` surfaced MI-1 (Restitution sits inside Darity-Mullen reparations typology) + MI-2 (coercion vector methodologically unresolved; legacy-effects pathway is framework's reach) + SI-1 (future profitability priced; future harms not — Sandy's deepest single-line case). MI-1 + MI-2 incorporated into Ch 5 + TA via Approach B (commits `70dce3f` + downstream). **SI-1 absence flagged in Ch 5 Pass 1 Amendment 2 — needs author check: queued for Ch 6/Ch 9 or fell through synthesis incorporation?** Next steps: Ch 5 Phase C-α → send confirmation email per v2 template May 14–16 → Sandy send packet (Ch 5 + Ch 6 + TA) ships after Ch 5 Phase C-α + SI-1 disposition resolved. Warm-intro discovery (Kendi / Cook Center / Gates / Mullen implicit) — review interview transcript for surfaced contacts. |
 | **Mariana Mazzucato** | UCL/IIPP | HOLDING via Adam Albrecht | Held since 2026-05-06 | Awaiting substantive follow-up. Not blocking. |
 | **Allison Colden** | CBF Maryland | RESPONSE SENT via Val DiMarzio (consolidated) | 2026-05-13 (scheduled-send Wed May 20 8am EDT) | Public-record brief landed 2026-05-08. Substitution-hypothesis CONFIRMED. Pre-publication citation-verification packet pre-staged (`15c6b0f`). |
 | **Karen Moore** | CBF Virginia | RESPONSE SENT via David Sherfinski (consolidated) | 2026-05-13 (scheduled-send Wed May 20 8am EDT) | Public-record brief landed 2026-05-08. |
