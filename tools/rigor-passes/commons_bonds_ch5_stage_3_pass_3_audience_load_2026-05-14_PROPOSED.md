@@ -437,3 +437,32 @@ Per author's per-pass serial cadence + v2.0 Amendment B distinct-pass discipline
 ---
 
 *End of Ch 5 Stage-3 Pass 3 (Audience-Load) rigor pass — pending author ratification. Phase C-δ applies after ratification (in this case: ratification-only — no Pass-3-required spot-fixes to apply). With Pass 3 ratified, Ch 5 closes its three-pass rigor cycle and is Sandy-Darity-send-packet-ready.*
+
+---
+
+## Sandy-send disposition (2026-05-14)
+
+**Status:** SENT TO SANDY. Pass 3 was de-facto ratified by action — the author scanned the derivative .docx formatting + ruled it "looks good" + authorized the send.
+
+### What was sent
+
+- **File:** [research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.docx](research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.docx)
+- **Source:** [manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md) at origin/main `a6a531b` (post-Phase-C-β-follow-up state; 237 lines).
+- **Conversion pipeline:** pandoc 3.9.0.2 + custom reference docx ([tmp/reference_letter_garamond.docx](tmp/reference_letter_garamond.docx)) forcing US Letter + Garamond body font.
+- **Format settings:** US Letter; 1″ margins; Garamond 12pt body; pandoc-default styled headings (H1/H2/H3); italics preserved on all book + journal titles; smart quotes preserved.
+- **Page count rendered:** 22 (per LibreOffice 25 PDF preview).
+
+### Pass-3-required Phase-C-δ spot-fixes
+
+**None.** Pass 3 verdict was READY TO SUBMIT AS-IS (9 INCLUDE / 0 NEUTRAL / 0 EXCLUDE; no Tier-1 EXCLUDE). Phase C-δ is therefore empty for Ch 5.
+
+### What remains for the broader Sandy-send packet
+
+Sandy receives Ch 5 alone in this round; the full multi-chapter Sandy review packet (Ch 5 + Ch 6 + Tech Appendix) requires Ch 6 + TA Pass-3 to land per §7.1. Cross-thread items per §7:
+- **Ch 6 parallel three-pass rigor cycle** — Pass 1 + Pass 2 in flight per origin/main `e714973`; Pass 3 pending.
+- **TA Pass-3 audience-load** — disposition open per §7.1.
+- **Cross-chapter $44B Program-vs-Trust-Fund DRIFT FLAG at Ch 2 / Ch 6 / Ch 8** — separate cross-chapter consistency-sweep workstream.
+
+---
+
+*End of Sandy-send disposition section. Pass 3 PROPOSED doc state: SENT TO SANDY. Pass 3 verdict ratified by action; Phase-C-δ empty. Ch 5 three-pass rigor cycle closed.*
