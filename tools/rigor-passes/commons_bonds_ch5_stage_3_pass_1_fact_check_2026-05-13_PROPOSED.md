@@ -820,3 +820,51 @@ After Phase C-α lands and the Sandy packet ships, the post-send queue (Pass 2 v
 ---
 
 *End of Amendment 2 (2026-05-13). Original Pass 1 + Amendment 1 remain authoritative for the audit substance not touched here; Amendment 2 captures verification verdicts against authoritative public sources + new findings (N-3, N-4, N-5, N-6) + the SI-1 post-interview-state absence flag.*
+
+---
+
+## §B.7 (2026-05-14) — Correction to SI-1 framing + broader Darity-synthesis-incorporation gap
+
+**Trigger.** Author verification surfaced that the prior §B.4 SI-1 framing was overstated. A direct grep across `manuscript/`, `core/`, `tools/`, `research/`, `publishing/` for "future harm" found one chapter-prose occurrence at [Chapter__9_PricingHonestly__Draft.md:65](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:65) — *"Renewable substitution research is the only expenditure that simultaneously reduces present harm, future harm, and future need."* This is **not** the SI-1 framing (substitution-research-reduces-harm context, unrelated to Sandy's market-priced-profitability-vs-unpriced-harms measurement asymmetry).
+
+The deeper correction came from re-reading the Darity post-interview synthesis doc itself: [research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md:274](research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md:274) explicitly states *"Ch 6 already does some of this; should be sharpened to Sandy's exact framing."* The §B.4 framing ("NOT FOUND") overstated the absence — the underlying asymmetry concept is in Ch 6 ([Chapter__6_ThreeWaysofCounting__Draft.md:89](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:89) externality tail "currently unpriced by markets"; [Chapter__6_ThreeWaysofCounting__Draft.md:231](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:231) "asymmetry between value-capture and cost-bearing is structural, not contingent"). What's missing is **Sandy's exact-framing sharpening** of that material, not the concept itself.
+
+### §B.7.1 Full Darity-synthesis-incorporation status (corrected)
+
+Reading the synthesis doc fully surfaced additional items §B.4 missed:
+
+| ID | Item | Synthesis-stated destination | Status (2026-05-14) | Severity |
+|---|---|---|---|---|
+| MI-1 | Restitution-vocabulary decision (Darity-Mullen typology nesting) | Ch 5 + TA | ✅ APPLIED ([Ch 5:218](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:218) + [TA §5.1.1 line 1241](core/technical-appendix/TechnicalAppendix_v2.0.0.html)) | — |
+| MI-2 | Coercion-vector scope-acknowledgment + legacy-effects pathway | Ch 5 + TA | ✅ APPLIED ([Ch 5:220](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:220) + [TA §1.10 line 596](core/technical-appendix/TechnicalAppendix_v2.0.0.html)) | — |
+| **MI-3** | **Ostrom homogeneity-of-interest break-point (heterogeneous-stakeholder commons)** | **Ch 6 Ostrom-extension + FPD doc + TA §E.3** | ❌ **PENDING** — Ch 6 + FPD doc + TA all silent on heterogeneous-stakeholder break-point | **Should-fix for Sandy send** |
+| **SI-1** | Future-profitability-vs-future-harms asymmetry sharpening to Sandy's exact framing | **Ch 6 (existing material to sharpen)** | ⚠️ **PARTIALLY PRESENT** ([Ch 6:89 + Ch 6:231](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md)) — concept in place; Sandy's specific framing ("market-priced future profitability vs unpriced future harms") not yet sharpened in | **Should-fix for Sandy send** |
+| **SI-2** | Longevity gap as legacy-effect pricing (Darity's recent work) | **Ch 6 methodology + bibliography** | ❌ **PENDING** — Ch 6 references McDowell 13-year longevity gap but does not engage Darity's longevity-gap work as legacy-effect-pricing methodology | **Should-fix for Sandy send** |
+| **SI-3** | Sen on social welfare functions + capabilities (for right-wing pushback) | **Ch 6 or Ch 10 + bibliography** | ❌ **PENDING** — Sen not engaged in Ch 6 or Ch 10 corpus per grep | Medium (defense-against-critique value; could land post-send if necessary) |
+| C-1 | Fogel & Engerman *Time on the Cross* two-volume publishing-structure model | Comp-titles deep matrix / agent-prep (#14 / #6) | ❌ pending — cross-thread, not chapter-prose | Low; publishing-strategy track |
+| C-2 | Du Bois *Black Reconstruction* bibliography expansion | Bibliography | ❌ pending — bibliography track | Low; bibliography track |
+| **C-3** | **Stratification economics homogeneity-of-interest critique as cross-disciplinary tie** | **Ch 6 footnote + TA line** | ❌ **PENDING** — Ch 6 mentions stratification economics in MI-2 context but not the Ostrom-cross-disciplinary tie Sandy surfaced | Low (small footnote / TA line) |
+
+### §B.7.2 Where the synthesis-incorporation gap lives
+
+**Ch 5: nothing additional needed** beyond MI-1 + MI-2 already applied. Ch 5 Phase C-α scope unchanged from §B.6.
+
+**Ch 6 carries the bulk of the residual Darity-synthesis-incorporation gap.** MI-3 + SI-1 sharpening + SI-2 + C-3 all target Ch 6. SI-3 targets Ch 6 OR Ch 10 (author judgment).
+
+**Cross-thread**: C-1 + C-2 are not chapter-prose items; route to comp-titles (#14) and bibliography respectively.
+
+### §B.7.3 Revised aggregate state-of-pre-send disposition
+
+**Ch 5 status (this doc's primary scope):** unchanged from Amendment 2 §B.5. 1 MUST-FIX + 7 MEDIUM + 10 LOW + 16M/14L citation items + 0 OPEN FLAGS (SI-1 cleared from Ch 5 scope; it's a Ch 6 sharpening, not a Ch 5 absence).
+
+**Ch 6 status (cross-session flag):** 4 PENDING Darity-synthesis items (MI-3, SI-1 sharpening, SI-2, C-3) + 1 conditional (SI-3, Ch 6 or Ch 10). Recommended landing as a Pass 1 amendment to the parallel Ch 6 session's existing doc ([commons_bonds_ch6_stage_3_pass_1_fact_check_2026-05-13_PROPOSED.md](tools/rigor-passes/commons_bonds_ch6_stage_3_pass_1_fact_check_2026-05-13_PROPOSED.md)).
+
+**Sandy-send packet timeline:** Ch 5 Phase C-α + Ch 6 Phase C-α (covering existing Ch 6 findings + the new Darity-synthesis-incorporation items) need to both land before the packet ships. Recommend parallel execution — neither blocks the other.
+
+### §B.7.4 Errata note
+
+§B.4 of Amendment 2 (2026-05-13) said SI-1 was "NOT FOUND in Ch 5 or TA per grep across both files." That grep was correct as scoped (Ch 5 + TA), but the framing missed that the synthesis doc itself routed SI-1 to Ch 6 (not Ch 5 or TA). The "NOT FOUND" verdict for Ch 5 + TA stands; the "absence" framing across the whole project was overstated. Concept is in Ch 6; Sandy's exact-framing sharpening is what's pending.
+
+---
+
+*End of §B.7 (2026-05-14). Amendment 2 §§B.1–B.6 substance not touched by this correction. §B.4 SI-1 framing superseded by §B.7.1 + §B.7.2 disposition.*
