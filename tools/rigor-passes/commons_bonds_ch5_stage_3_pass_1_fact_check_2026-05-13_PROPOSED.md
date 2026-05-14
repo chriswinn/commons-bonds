@@ -7,7 +7,7 @@
 **Word count:** ~9,574w (per workstream handoff; verified line count 238)
 **Pass scope:** Pass 1 (Fact-check) only. Pass 2 (Voice-polish) and Pass 3 (Audience-load) NOT run in this session — per workstream phasing.
 **Hard constraint observed:** No spot-fixes applied to chapter file. Phase C session (post-author-ratification) applies recommended edits.
-**Status:** **PROPOSED — awaits author ratification.**
+**Status:** **PROPOSED — awaits author ratification. Amended 2026-05-13 — see Amendment block at end-of-doc for state-of-findings refresh against project changes after the original doc landed.**
 
 ---
 
@@ -625,4 +625,102 @@ Per the workstream handoff Pass 1 scope item 7, citation-tightening findings fro
 
 ---
 
-*End of Pass 1 (Fact-check) for Chapter 5. PROPOSED; awaits author ratification. Pass 2 (Voice-polish) + Pass 3 (Audience-load) deliverables to be produced in subsequent sessions per workstream #20 phasing.*
+*End of Pass 1 (Fact-check) for Chapter 5 (original draft). PROPOSED; awaits author ratification. Pass 2 (Voice-polish) + Pass 3 (Audience-load) deliverables to be produced in subsequent sessions per workstream #20 phasing.*
+
+---
+
+## Amendment 2026-05-13 — TA §5.5 landing + state-of-findings refresh
+
+**Trigger.** Author re-fired Ch 5 Stage-3 Phase A Pass 1 noting that the original doc (commit `a2d2d3f`) was written before substantive project changes landed. This amendment refreshes finding-by-finding status against current `origin/main` state and corrects an errata in the original doc.
+
+### §A.1 Scope of project changes since original doc
+
+`git diff --stat a2d2d3f..HEAD` confirms the project changes since the original Pass 1 doc landed are TA-scoped only. Ch 5 prose, all case-study briefs in [research/case-studies/](research/case-studies/), and the bibliography are **byte-identical** to their state at original-pass time. Concretely:
+
+| File | Change | Relevance to Ch 5 Pass 1 |
+|---|---|---|
+| [core/technical-appendix/TechnicalAppendix_v2.0.0.html](core/technical-appendix/TechnicalAppendix_v2.0.0.html) | +256 lines net across commits `c1b4f88` → `d54bdfa` (HTML hygiene + math audit + Approach B + bidirectional reach + §5.5 enhancements + WP#10 scaffolding cleanup §§2-17) | **High** — TA §5.5 now exists; §1.7 ↔ §5.5 cross-ref added; §17.5 bidirectional-preservation corollary added; §1.10 Autonomy commons gained "Scope-of-applicability boundary at extreme-scarcity end" paragraph |
+| [tools/rigor-passes/tech_appendix_rigor_pass_2026-05-13_pass_1_math_audit.md](tools/rigor-passes/tech_appendix_rigor_pass_2026-05-13_pass_1_math_audit.md) | NEW file, 148 lines | Parallel-session Pass 1 on the TA; F-1 through F-19 are TA-internal findings; F-1 (CS = RCV − B vs total CS) is explicitly TA-internal per the math audit's own §"Verdict by Pass 1 scope item §7", not a Ch 5 issue |
+| [tools/rigor-passes/ta_section_5_5_bidirectionality_proposal_2026-05-13.md](tools/rigor-passes/ta_section_5_5_bidirectionality_proposal_2026-05-13.md) | NEW file, 159 lines | Findings note from parallel session that landed TA §5.5; logs the §5.4 B₁-direction moral-grounding companion question for future ratification |
+
+No Ch 5 prose changes. No case-study brief changes. No bibliography changes. **The Ch 5 prose audited by the original doc is the Ch 5 prose currently on `origin/main`.**
+
+### §A.2 State-of-findings refresh
+
+| Finding ID | Original status | Post-amendment status | Reason for change |
+|---|---|---|---|
+| **MUST-FIX-1** (broken TA §5.5 cross-reference at Ch 5:224) | MUST-FIX (CRITICAL) | **RESOLVED** | TA §5.5 "Bidirectional application of the framework apparatus" landed via commits `be334f5` (Approach B bidirectional-reach articulation) + `8ed36ac` (§1.7 ↔ §5.5 cross-reference + §17.5 corollary) + `d54bdfa` (Four Gates gate-by-gate + Epistemic asymmetry + Sibling-section + B₁-companion flag). The Ch 5:224 prose-side promise — "the backward application is structurally identical methodology, carried in formal articulation in the Technical Appendix (§5.5)" — is now substantively delivered. **No Ch 5 spot-fix required.** Resolution path is therefore Option C as originally proposed (defer to #19 / parallel-session work). |
+| **MUST-FIX-2** ($108T misattribution as Social Security unfunded liability at Ch 5:112) | MUST-FIX (CRITICAL) | **UNCHANGED — STILL GATING** | Ch 5:112 prose is byte-identical to original-pass state. Sandy Darity will still catch this. Author judgment between Option A (preserve $108T, recategorize as foregone-investment opportunity cost) and Option B (replace with Trustees-canonical figure ≈$25T/$70T) remains the live decision. **Recommended Option A** stands per original-doc reasoning. |
+| **SHOULD-FIX-1** (Method-name vocabulary mismatch + "revealed restraint" novel coinage at Ch 5:214) | SHOULD-FIX (HIGH) | **PARTIALLY SUPERSEDED — DOWNGRADED to MEDIUM** | The original finding had two parts. **(a) "Revealed restraint" is a novel coinage with no canonical anchor.** This empirical premise was incorrect even at original-pass time: the grep ("'revealed restraint' appears nowhere else in the corpus") missed [TechnicalAppendix_v2.0.0.html:1031](core/technical-appendix/TechnicalAppendix_v2.0.0.html#L1031) — TA §3 Three Ways of Counting carries the canonical informal-descriptor mapping "M1 prices *substitution*; M2 prices *revealed restraint*; M3 prices *option-bearing scarcity*". TA §5.5 (line 1334) further codifies this for both directions: "Method 1 prices substitution forward... and remediation/compensation backward. Method 2 prices revealed restraint forward... and revealed restitution backward. Method 3 prices scarcity-adjusted option value forward... and the same option value extinguished at the time of past extraction backward." Ch 5:214's mapping — "substitution cost → remediation cost; revealed restraint → revealed restitution; forward option value → option value extinguished at the time of past extraction" — now matches TA §5.5 line 1334 **verbatim in vocabulary**. The novel-coinage concern is dismissed; "revealed restraint" is canonical informal-descriptor for M2 across TA §3 and TA §5.5. **(b) Ch 5:214's mapping does not anchor the informal descriptors to canonical Method-1/2/3 names (Replacement Cost / Revealed Preference / Scarcity-Adjusted Option Value).** This concern remains valid but is a lighter-touch tightening, not a vocabulary-mismatch finding. A reader navigating Ch 5 → TA §3 / §5.5 may want a one-clause bridge naming Methods 1/2/3 alongside the informal descriptors. **Revised disposition: MEDIUM-1A (formerly SHOULD-FIX-1).** Two options remain: Option A (anchor informal labels to canonical Method names + add Ch 6 / TA §5.5 forward-pointer) or Option B (preserve current prose; add a single forward-pointer). |
+| **MEDIUM-1** ($150B CBO attribution for DWH at Ch 5:46) | MEDIUM | **UNCHANGED** | Ch 5 prose unchanged. DWH case-study brief unchanged. Recommendation stands. |
+| **MEDIUM-2** ("4.3M gallons of fish" unit error at Ch 5:46) | MEDIUM | **UNCHANGED** | Ch 5 prose unchanged. Recommendation stands. |
+| **MEDIUM-3** (77% benefit rate at Ch 5:110) | MEDIUM | **UNCHANGED** | Ch 5 prose unchanged. 2024 Trustees Report figures unchanged. Recommendation stands. Cross-corpus follow-on at consistency inventory still required. |
+| **MEDIUM-4** ($25M Mexico settlement year 2017 vs 2014 at Ch 5:50) | MEDIUM | **UNCHANGED** | Ch 5 prose unchanged. Recommendation stands. |
+| **MEDIUM-5** ("Four gates" anchor in new reverse-direction section) | MEDIUM | **UNCHANGED but with stronger forward-pointer target now available** | TA §5.5 now carries an explicit "Four Gates direction-agnosticism (gate-by-gate)" paragraph (gate-1 CIT, gate-2 Units, gate-3 Boundedness, gate-4 Independence — with direction-asymmetry analysis at gate 3). Phase C Option B (forward-pointer in Ch 5) now has a richer target: "...the four gates and the three ways of counting (TA §5.5 develops each gate's direction-agnosticism and the methods' forward/backward mapping; Chapter 6 develops both formally)..." instead of pointing only at Ch 6. Author judgment between original Option A (no edit) and Option B (forward-pointer) is unchanged; the appeal of Option B strengthens marginally. |
+| **LOW-1** through **LOW-5** | LOW | **UNCHANGED** | All five LOW findings reference Ch 5 prose or external time-sensitive figures, none of which changed. |
+
+### §A.3 Prior-doc errata
+
+While refreshing the audit against current project state, one errata in the original doc surfaced:
+
+**Errata-1.** The original doc references Ch 6 as `Chapter__6_ThreeWaysofCounting__Draft.html` at three locations: §"Canonical sources consulted" item 7 (line 30); SHOULD-FIX-1 cross-session flag (line 166); and a stray reference. `git ls-tree a2d2d3f manuscript/chapters/` confirms Ch 6 was already `.md` at `a2d2d3f` (blob `2721173bc23b6ca283a226ea091e0e657572e440`). The original doc's `.html` references were incorrect at the time of writing. The conversion #18 workstream the original doc anticipated had already landed before the original pass fired. **No Ch 5 substantive impact** — the verifications using Ch 6 still hold (the same canonical Method-1/2/3 naming exists in the `.md` version). Errata flagged for completeness; recommend `.md` filename corrections in any future republication of this Pass 1 doc.
+
+### §A.4 New findings surfaced by amendment-refresh
+
+Two LOW-tier optional findings emerged from the refreshed cross-reference landscape. Neither is gating for Sandy Darity send.
+
+**N-1 (LOW): Optional inline forward-pointer at Ch 5:212 to TA §5.5.** Ch 5:212 carries the load-bearing structural claim: "The same apparatus runs in reverse." The §5.5 cross-reference is currently at Ch 5:224 (twelve lines later). With TA §5.5 now substantively existing, Ch 5:212 is the natural point to forward-pointer the structural-claim's formal articulation. Optional reader-navigation tightening. Author judgment whether to add at Phase C.
+
+**N-2 (LOW): Optional cross-reference at Ch 5:220 (coercion vector) to TA §1.10.** Ch 5:220 introduces the framework's coercion-vector analytical boundary: "Some backward variables sit at the framework's analytical boundary rather than inside it. The coercion vector itself — what should be assigned to coerced labor as a cost dimension..." TA §1.10 now carries a "Scope-of-applicability boundary at the extreme-scarcity end" paragraph (added via commit `70dce3f` per the TA Approach B work) that directly engages this point — and was specifically informed by Darity (personal communication, May 2026). Ch 5:220 currently anchors only to the field's methodological state, not to TA's named-boundary paragraph. Optional cross-reference tightening. Author judgment whether to add at Phase C. Particularly relevant for the Sandy send: the TA §1.10 paragraph cites Darity's personal communication, which Ch 5 could echo if author wants the Darity acknowledgment in the chapter prose.
+
+### §A.5 Revised aggregate verdict
+
+| Severity | Original count | Post-amendment count | Disposition |
+|---|---|---|---|
+| MUST-FIX | 2 | **1** (MUST-FIX-2 only) | Sandy-gating; one item ratifiable as either Option A or Option B per original-doc |
+| SHOULD-FIX | 1 | **0** (downgraded to MEDIUM-1A) | Vocabulary-tightening rather than mismatch |
+| MEDIUM | 5 | **6** (MEDIUM-1 through MEDIUM-5 + MEDIUM-1A from SHOULD-FIX-1 demotion) | Phase C spot-fix scope |
+| LOW | 5 | **7** (LOW-1 through LOW-5 + N-1 + N-2) | Optional / verification-flag |
+| CITATION-LATER | 16M + 14L | **16M + 14L** (unchanged) | Cross-thread #11 |
+
+**Aggregate verdict post-amendment: READY AFTER ONE MUST-FIX + AUTHOR-JUDGMENT MEDIUM SPOT-FIXES.** The chapter is materially closer to Sandy-Darity-send readiness than the original-pass verdict indicated. The single remaining gating finding (MUST-FIX-2: $108T misattribution) is concrete, both-resolution-paths-defensible, and applicable in a Phase C session of <1h scope.
+
+### §A.6 Updated cross-session flag matrix
+
+| Session / Workstream | Original flag | Post-amendment flag |
+|---|---|---|
+| **#19 TA Scheme-4 cleanup** | Coordinate MUST-FIX-1 §5.5 resolution | **No coordination needed.** TA §5.5 already landed via parallel workstream (commits `be334f5` + `8ed36ac` + `d54bdfa`), not via #19. #19's scope remains independent. |
+| **Ch 10 insertion-placement** | Verify reverse-direction claim compatibility | **Status remains: positive.** Ch 5:210-214 still establishes "the same apparatus runs in reverse" cleanly; Ch 10 insertion-placement work proceeds independently. |
+| **Ch 6 conversion (#18)** | Coordinate §-anchor scheme for SHOULD-FIX-1 cross-ref | **Resolved.** Per Errata-1 above, Ch 6 was already `.md` at original-pass time. Phase C cross-reference application uses `.md` chapter-section convention. |
+| **Cross-chapter consistency inventory** | Add MEDIUM-3 + MUST-FIX-2 recurring-stat rows | **Unchanged.** Both finding-anchored rows still warranted. |
+| **Cross-thread #11 endnote sweep** | 16M + 14L items | **Unchanged.** Counts preserved. |
+| **Ch 5 Pass 2 (Voice-polish) + Pass 3 (Audience-load)** | Both required to complete Phase A | **Unchanged.** Pass 2 voice-polish should also verify Ch 5:214's vocabulary mapping reads cleanly against the now-canonical TA §5.5 register (no longer a "novel coinage" concern; the question is prose flow only). |
+
+### §A.7 Phase C application sequencing (revised)
+
+Original doc proposed Tier-1 MUST-FIX-1 + MUST-FIX-2 + SHOULD-FIX-1 as the Sandy-send gating set. Post-amendment:
+
+**Phase C Tier 1 (Sandy-send gating; ~30-60min):**
+- **MUST-FIX-2** ($108T misattribution at Ch 5:112) — author ratifies Option A or Option B; apply.
+- **MEDIUM-1A** (Ch 5:214 vocabulary tightening, formerly SHOULD-FIX-1) — author ratifies Option A or Option B; apply.
+
+**Phase C Tier 2 (precision-tightening; ~30-60min, parallelizable):**
+- **MEDIUM-1** ($150B CBO attribution at Ch 5:46)
+- **MEDIUM-2** (NOAA gallons unit error at Ch 5:46)
+- **MEDIUM-3** (77% benefit rate at Ch 5:110)
+- **MEDIUM-4** ($25M Mexico settlement year at Ch 5:50)
+- **MEDIUM-5** (Four gates anchor at Ch 5:210; now richer forward-pointer target available via TA §5.5)
+
+**Phase C Tier 3 (optional reader-navigation; ~15-30min):**
+- **N-1** (inline forward-pointer Ch 5:212 → TA §5.5)
+- **N-2** (coercion-vector cross-reference Ch 5:220 → TA §1.10)
+
+**Out of Phase C (cross-thread):**
+- **LOW-1 through LOW-5** — pre-publication refresh + endnote sweep at #11.
+- **16M + 14L citation items** — endnote sweep at #11.
+
+After Phase C Tier 1 + Tier 2 lands and author ratifies, Ch 5 is ready to send to Sandy Darity alongside Ch 6 + Tech Appendix.
+
+---
+
+*End of Amendment 2026-05-13. Original Pass 1 findings (above the Amendment line) remain authoritative for the audit substance; this Amendment captures state-of-findings updates following TA §5.5 landing + ancillary TA changes since the original doc.*
