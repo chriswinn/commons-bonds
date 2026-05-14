@@ -650,3 +650,190 @@ Phase C-α coordinates with:
 *End of Amendment 2026-05-13.*
 
 **Status: RATIFIED for MUST-FIX-1 (B.2) + MUST-FIX-2 + SHOULD-FIX-1 + SHOULD-FIX-2. Other findings remain PROPOSED.**
+
+---
+
+# Amendment 2026-05-13 (B) — Authoritative-source verification of questioned numbers (LOW-1)
+
+**Trigger:** Author requested authoritative-source web verification for all numbers flagged as time-sensitive in LOW-1. This amendment resolves LOW-1 with per-figure verification status against current public sources (NBIM, EPA, IEA, GAO, NOAA, DOJ, CDC, CRS, Climeworks, 1PointFive corporate disclosures, peer-reviewed sources, Wikipedia/IHME for established historical figures).
+
+## Summary verdict
+
+| Status | Count | Items |
+|---|---|---|
+| **VERIFIED** | 9 | EPA SCC $190; Stern Review 1.4%; Nordhaus 4%; SCC history Obama/Trump (within rounding); Biden SCC $190; Appalachian reclamation bond shortfall $3.7–6B; McDowell 13-year life-expectancy gap; Deepwater Horizon $4.25B revenue + $65–70B costs; Exxon Valdez $5.5M product math |
+| **VERIFIED-DATED** | 2 | Black Lung Trust Fund $44B (2009-vintage; current ~$50B); Climeworks/Stratos operational status (in commissioning, not construction) |
+| **STALE — needs refresh** | 2 | Norway GPFG ($1.9T → ~$2.2T); Stratos "in construction at the time of writing" (now in commissioning/ramp) |
+| **POSSIBLY-INCORRECT — needs fact-check or rewording** | 2 | IEA $100 lower bound for mid-century DAC (IEA 2022 actually cites $230 floor; the $100 attribution to IEA is not supported); coal-to-CO2 ratio 2.86 (high vs EPA's 2.325 short-ton or ~2.4–2.6 metric-ton convention) |
+| **VERIFIED-MATH BUT DISCLOSURE-GAP** | 1 | Libby $5–8B costs (settlement-anchored figures much lower; $5–8B is long-tail framing that should be disclosed) |
+
+## Per-figure verification details
+
+### VERIFIED ✓
+
+**EPA SCC $190/ton at 2% rate** ([Ch 6 lines 29, 41, 49](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:29)).
+EPA's November 2023 *Report on the Social Cost of Greenhouse Gases* estimates social cost of one 2020 metric ton CO₂ at $190 using the 2.0% near-term Ramsey discount rate. ✓ Exact match.
+
+**Stern Review 1.4% discount rate** ([Ch 6 line 124](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:124)).
+Stern Review's SDR = 1.4%, derived from pure-time-preference 0.1% + growth 1.3%. ✓ Exact match.
+
+**Nordhaus ~4% discount rate** ([Ch 6 line 124](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:124)).
+Nordhaus's preferred DICE model simulations use ~4.3%. ✓ Match within rounding.
+
+**SCC history: Obama $42, Trump $1–7, Biden $190** ([Ch 6 lines 35, 41](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:35)).
+- Obama IWG: $43 (2013 update); $52 (2020 update). Ch 6's $42 is closer to 2013-dollar version at 3% rate; defensible.
+- Trump 2019 EPA: $1–$8 range. Ch 6's $7 upper bound is within range (depends on discount rate cited).
+- Biden EPA: $190 ✓.
+- All defensible with rounding.
+
+**Appalachian reclamation bond shortfall $3.7–$6 billion** ([Ch 6 line 23](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:23)).
+Appalachian Voices analysis: "$3.7 to $6 billion problem." ✓ Exact match.
+
+**McDowell County 13-year life-expectancy gap** ([Ch 6 line 25](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:25)).
+2013 IHME data: McDowell male life expectancy 63.5 vs national 76.5 → 13.0-year gap. Female gap ~10 years. The 13-year figure is the canonically-cited male-specific gap from 2013. Currently ~12-13 years per 2019–2021 data. ✓ Defensible; note male-specific.
+
+**Deepwater Horizon $4.25B revenue + $65–70B total costs** ([Ch 6 line 33](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:33)).
+- Macondo well projected reserves: 50M+ barrels (Wikipedia/Offshore Technology). At 2010 wholesale crude ~$85/bbl, projected revenue ~$4.25B. ✓ Match.
+- BP total cost as of 2018: >$65 billion (BP final estimate $61.6B; cleanup + charges + penalties accumulating to $65B+). ✓ Match.
+
+**Exxon Valdez $5.5M product math** ([Ch 6 line 33](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:33)).
+11 million gallons × ~$0.50/gallon (1989 wholesale crude) ≈ $5.5M. ✓ Math checks. Total costs estimated at $7B (Exxon paid $2B cleanup + $1.8B restoration + $900M civil settlement); higher estimates cite $7–10B with full ecological damages. IPG range 1,200–1,900× confirmed via division. ✓
+
+### VERIFIED-DATED ⚠
+
+**Black Lung Disability Trust Fund $44 billion distributions** ([Ch 6 line 21](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:21)).
+**Source verification (CRS R45261; GAO):** "By 2009, the federal Black Lung Disability Trust Fund had distributed over $44 billion in benefits"; more recent data: $45B+ since 1970. FY2017 annual benefits ~$184M. Cumulative debt FY2021: $4.6B.
+
+The $44B figure is a **2009-vintage snapshot**. Current cumulative (through ~2024) is likely $48–$52B given annual benefits ~$150–$200M for 15 additional years.
+
+**Recommended spot-fix during Phase C-α:** Update to current figure: "The Black Lung Disability Trust Fund's roughly $50 billion in distributions through 2024..." OR add date-anchor: "$44 billion in distributions through 2009..."
+
+### STALE — needs refresh
+
+**Norway GPFG ~$1.9 trillion** ([Ch 6 line 177](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:177)).
+**Source verification (NBIM 2025–2026; CNBC):** End of 2025 GPFG value = NOK 21,268 billion ≈ **$2.2 trillion USD** (April 2025), up from ~$2.08T end of 2024. 2025 annual return +15.1% / $247B.
+
+Ch 6's $1.9T figure is stale by ~$300B (~15% understated). 
+
+**Recommended spot-fix during Phase C-α:** Update to "approximately $2 trillion" or "roughly $2.2 trillion (early 2025)." The qualitative argument is unchanged; the figure refresh is housekeeping.
+
+**Stratos / 1PointFive "in construction at the time of writing"** ([Ch 6 line 47](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:47)).
+**Source verification (1PointFive corporate; Carbon Herald):** Trains 1 and 2 completed December 2024; operations expected late 2025; phased ramp to full capacity by mid-2026. Cost reported ~$400–$500/ton currently; DOE target <$100/ton.
+
+Ch 6's "in construction at the time of writing, and targeting commissioning within the next two years" framing is now stale — Stratos is in commissioning/ramp-up.
+
+**Recommended spot-fix during Phase C-α:** Update framing to "Stratos, in commissioning at the time of writing with phased ramp to full capacity through mid-2026, is reported at $400–$500/ton current operating cost and targeting reduced unit cost as the facility scales." Adjusts the time-sensitive framing while preserving the trajectory argument.
+
+### POSSIBLY-INCORRECT — needs fact-check or rewording
+
+**IEA / IPCC mid-century DAC "$100–$300 range"** ([Ch 6 line 47](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:47)).
+**Source verification (IEA *Direct Air Capture 2022*):** IEA estimates "operational costs of direct air capture should get to between $230 and $630 per metric ton of CO₂ once scaled up." First-of-a-kind DACCS projects $400–$700 (PV) or $350–$550 (cheap renewables).
+
+Ch 6's $100 lower bound is **more optimistic than IEA's $230 floor** and attributes the range to IEA + IPCC AR6 WG3 jointly. The $100–$300 range may originate from IPCC AR6 WG3 optimistic-deployment scenarios specifically (not verified directly in this audit), but the IEA citation does not support a $100 lower bound.
+
+**Two resolution options for Phase C-α:**
+- **Option A (tighten the range to authoritative):** "The International Energy Agency's *Direct Air Capture 2022* review and the IPCC's AR6 Working Group III place the achievable cost by mid-century in the **$230-to-$600** range under scaled-up deployment scenarios..."
+- **Option B (cite IPCC specifically for optimistic floor):** "The IPCC's AR6 Working Group III, under optimistic learning-curve assumptions, projects mid-century cost in the $100-$300 range; IEA's *Direct Air Capture 2022* review estimates a less optimistic floor of $230 at scaled-up operation." This separates the sources rather than conflating them.
+
+Option B preserves the chapter's "optimistic deployment scenarios" framing while accurately attributing.
+
+**Recommended:** Option B (separate the source attributions). Author judgment as to whether to verify IPCC AR6 WG3 floor directly before applying.
+
+**Coal-to-CO₂ ratio 2.86 tons CO₂ per ton bituminous coal** ([Ch 6 line 29](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:29)).
+**Source verification (EPA emission factors 1.1):** Default CO₂ emission factor for bituminous coal: 93.28 kg CO₂/mmBtu × ~25 mmBtu/short ton ≈ 2,325 kg CO₂/short ton = **2.325 metric tons CO₂ per short ton bituminous coal**. For metric-ton coal accounting at ~70–78% carbon content: 2.57–2.86 metric tons CO₂ per metric ton coal.
+
+Ch 6's 2.86 figure is at the **upper end** of plausibility, achievable with high-carbon-content bituminous in metric-ton accounting. EPA's canonical 2.325 figure is for short-tons; converting to metric-ton coal at high-carbon-content yields ~2.86. The discrepancy is unit-convention plus coal-grade assumption.
+
+**Downstream sensitivity:**
+- At 2.325 × $190 = $442/ton coal (rather than $544)
+- At 2.86 × $190 = $544/ton coal (current Ch 6 figure)
+- Difference: $100/ton coal
+
+The bottom-up totals shift from $550–$570/ton (current) to ~$448–$464/ton (at 2.325 ratio) — still substantially exceeds the $4.50 market price; the chapter's qualitative "carbon term dominates" finding survives.
+
+**Two resolution options for Phase C-α:**
+- **Option A (use EPA short-ton factor explicitly):** Replace "roughly 2.86 tons of CO₂" with "approximately 2.32 tons of CO₂ (EPA bituminous-coal emission factor)" and recompute downstream: $190 × 2.32 ≈ $441/ton coal; with-carbon total ~$449–$463/ton.
+- **Option B (preserve 2.86; add metric-ton-coal + high-carbon-content disclosure):** Replace with "roughly 2.86 tons of CO₂ per metric ton of high-carbon-content bituminous coal (EPA's short-ton emission factor implies ~2.32 tons CO₂ per short ton; the metric-ton high-carbon convention used here is at the upper end of bituminous-grade carbon-content)."
+
+Option A is cleaner and uses canonical EPA conventions; Option B preserves the existing figure but adds explanatory disclosure. Author judgment.
+
+### VERIFIED-MATH BUT DISCLOSURE-GAP
+
+**Libby ~$100M revenue + $5–$8B costs (40–82× IPG)** ([Ch 6 line 33](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:33)).
+**Source verification (DOJ; EPA Superfund):** W.R. Grace settlements: $54.5M (2003) + $250M (2008 — largest in Superfund history) + $18.5M (2023 natural resource). Federal cleanup spending: >$600M. EPA Superfund site activity ongoing.
+
+Direct settlement + cleanup figures sum to ~$0.9–$1.0B — significantly less than Ch 6's $5–$8B.
+
+The $5–$8B framing necessarily includes **long-tail costs not yet realized in settlements:**
+- Medical care for 400+ deaths + 3,000+ illnesses across multi-decade lifetimes
+- Lifetime mesothelioma/asbestosis treatment + long-tail tail
+- Property value collapse + community destruction
+- Ecological remediation extending into future decades
+
+These are real costs the framework's externality-tail apparatus correctly captures (the chapter's E term + the framework's RCV integrand over time). But the $5–$8B figure is not a direct settlement or cleanup-cost citation; it's an aggregate long-tail estimate.
+
+**Recommended spot-fix during Phase C-α:** Add a disclosure clause: "Libby, Montana: around $100 million in lifetime mine revenue against $5 to $8 billion in **direct settlements (~$0.3B) plus federal cleanup spending (~$0.6B+) plus the long-tail of asbestos-related illness costs across thousands of cases, environmental remediation extending into future decades, and community destruction**. An IPG of 55 to 82 times."
+
+This preserves the IPG figure while disclosing what's in the $5–$8B aggregate. Matches the externality-tail apparatus the chapter is demonstrating.
+
+## Resolution and findings doc status updates
+
+| Pre-amendment finding | Status after verification |
+|---|---|
+| LOW-1: Norway GPFG ~$1.9T | **PROMOTED to MEDIUM (date-refresh) — pre-publication update needed; $2.2T current** |
+| LOW-1: EPA SCC $190 | **VERIFIED — close LOW** |
+| LOW-1: DAC Climeworks $600–$1,000 | **PROMOTED to MEDIUM — $600 lower bound aggressive; actual Orca FOAK $1,000+** |
+| LOW-1: DAC Stratos $300–$600 + "in construction" | **PROMOTED to MEDIUM — status framing stale; cost range defensible** |
+| LOW-1: DAC IEA/IPCC $100–$300 | **PROMOTED to SHOULD-FIX — IEA citation does not support $100 floor; separate IEA from IPCC AR6 WG3 attribution** |
+| LOW-1: Black Lung $44B | **PROMOTED to MEDIUM (date-refresh) — vintage 2009; current ~$50B** |
+| LOW-1: McDowell 13-year gap | **VERIFIED — close LOW** |
+| (new) Coal-to-CO₂ 2.86 | **NEW SHOULD-FIX — high vs EPA's 2.325 short-ton; needs unit-convention disclosure** |
+| (new) Libby $5–$8B framing | **NEW MEDIUM — needs long-tail-cost disclosure clause** |
+
+## Net new findings
+
+- **NEW SHOULD-FIX-3 (HIGH):** Coal-to-CO₂ ratio 2.86 — author decision between Option A (use EPA short-ton factor explicitly; recompute downstream) or Option B (preserve figure with disclosure of metric-ton + high-carbon convention).
+- **NEW SHOULD-FIX-4 (HIGH):** IEA citation does not support $100 mid-century DAC floor — author decision between Option A (tighten range to IEA/IPCC authoritative bounds $230–$600) or Option B (separate IEA from IPCC AR6 WG3 attribution; IPCC carries the optimistic floor).
+- **NEW MEDIUM-5:** Libby $5–$8B costs — add long-tail-cost disclosure clause to make the externality-tail apparatus the figure rests on visible.
+- **NEW MEDIUM-6:** Norway GPFG $1.9T → ~$2.2T (date-refresh).
+- **NEW MEDIUM-7:** Black Lung Trust Fund $44B → ~$50B (date-refresh or date-anchor).
+- **NEW MEDIUM-8:** Stratos "in construction" → "in commissioning with phased ramp to full capacity through mid-2026" (status-refresh).
+- **NEW MEDIUM-9:** Climeworks Orca $600 lower bound — actual FOAK reported ~$1,000+; revise to "$1,000+ per ton at first-of-a-kind operational scale" with the Mammoth/Generation-3 cost-reduction trajectory cited separately.
+
+## Phase C-α scope additions
+
+The Phase C-α session should additionally apply:
+- Coal-to-CO₂ figure decision (SHOULD-FIX-3).
+- IEA/IPCC attribution decision (SHOULD-FIX-4).
+- Libby $5–$8B disclosure clause (MEDIUM-5).
+- Norway GPFG figure refresh (MEDIUM-6).
+- Black Lung Trust Fund figure refresh (MEDIUM-7).
+- Stratos status refresh (MEDIUM-8).
+- Climeworks Orca cost band correction (MEDIUM-9).
+
+These figure-level fixes can apply jointly with the B.2 + MUST-FIX-2 structural fixes in a single Phase C-α session, since they touch adjacent prose passages.
+
+## Authoritative source citations
+
+For Phase C-α reference, the following sources should be cited if any of the figures are footnoted at chapter level:
+
+- [EPA, *Report on the Social Cost of Greenhouse Gases* (November 2023)](https://www.epa.gov/system/files/documents/2023-12/epa_scghg_2023_report_final.pdf)
+- [IEA, *Direct Air Capture 2022*](https://www.iea.org/reports/direct-air-capture-2022)
+- [NBIM, "The fund's value"](https://www.nbim.no/en/investments/the-funds-value/)
+- [CRS Report R45261, "The Black Lung Program, the Black Lung Disability Trust Fund, and the Excise Tax on Coal"](https://www.congress.gov/crs-product/R45261)
+- [NOAA, "Deepwater Horizon oil spill settlements: Where the money went"](https://www.noaa.gov/explainers/deepwater-horizon-oil-spill-settlements-where-money-went)
+- [DOJ, W.R. Grace asbestos cleanup settlements (2003, 2008)](https://www.justice.gov/archive/opa/pr/2008/March/08_enrd_194.html)
+- [EPA Superfund — Libby Asbestos Site Profile](https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0801744)
+- [Stern Review (Wikipedia summary) — 1.4% SDR composition](https://en.wikipedia.org/wiki/Stern_Review)
+- [Barrage & Nordhaus, "Policies, Projections, and the Social Cost of Carbon: Results from the DICE-2023 Model" (NBER)](https://www.nber.org/papers/w31112)
+- [Appalachian Voices, coal-mine reclamation bonding analysis](https://appvoices.org/coal-impacts/current-mine-reclamation/)
+- [CDC + IHME County Profiles — McDowell County WV](https://www.healthdata.org/sites/default/files/files/county_profiles/US/2015/County_Report_McDowell_County_West_Virginia.pdf)
+- [1PointFive Stratos project page](https://www.1pointfive.com/projects/ector-county-tx)
+- [Climeworks Mammoth plant page](https://climeworks.com/plant-mammoth)
+- [EPA Bituminous Coal Combustion Emission Factors](https://www.epa.gov/sites/default/files/2020-09/documents/1.1_bituminous_and_subbituminous_coal_combustion.pdf)
+
+---
+
+*End of Amendment 2026-05-13 (B) — authoritative-source verification of questioned numbers.*
+
+**Status: LOW-1 RESOLVED. 2 new SHOULD-FIX + 5 new MEDIUM findings added; all 7 awaiting author ratification.**
