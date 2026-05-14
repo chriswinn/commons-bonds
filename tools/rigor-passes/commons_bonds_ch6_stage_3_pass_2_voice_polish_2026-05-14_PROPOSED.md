@@ -1184,3 +1184,60 @@ The following five LOW findings are author-ratified as held; no further Pass-2 c
 ---
 
 *End of LOW-findings ratification follow-up (2026-05-14). Pass 2 PROPOSED doc state: Phase C-γ applied + LOW-findings ratification round complete. Pass 3 (audience-load) is the next session in the chain.*
+
+---
+
+## Phase C-δ — LOW-findings tighten round (2026-05-14)
+
+**Trigger.** Author returned after the LOW-findings ratification round and directed three additional edits, overriding the prior round's hold dispositions for F-V23, F-V24, and F-V26:
+
+1. **F-V23 tighten as recommended** (was held for Pass 2 + Pass-3-flagged)
+2. **F-V24 swap to "primary anchor"** (was ratified-held in the prior round; this round overrides the ratification)
+3. **F-V26 tighten "Asymmetric Regret Rule" as proposed** (was held for Pass 2 + Pass-3-flagged)
+
+The author's prior ratification of F-V24 as held is explicitly overridden by this round. The two Pass-3-flagged items (F-V23 + F-V26) are now Pass-2-disposed at the chapter level rather than deferred to Pass 3; F-V23's cumulative-pattern question + F-V26's cross-paragraph-template question remain Pass-3 inputs at the cumulative-load scope (see §11.3 below).
+
+### What was applied
+
+- **F-V23 (externality-tail name-defense paragraph at line 91) — tighten as recommended.** Original ~330w paragraph compressed to ~280w. The five-rejection walkthrough (legacy / aftermath / trail / long-run / persistent) reorganized: *aftermath* + *trail* preserved in full form (each names a distinct structural error the framework rejects); *legacy* + *long-run* + *persistent* folded into a single tighter compound sentence as "three weaker alternatives." Net cut: ~50 words. The Weitzman 2009 fat-tail anchor + the statistical-tail metaphor explanation + the bond-forward-posting architectural claim all preserved verbatim. Post-edit line: 91 (unchanged).
+
+- **F-V24 ("Norway is the canonical anchor for the method" at line 128) — swap applied.** Single-word swap: *"canonical anchor"* → *"primary anchor"*. Overrides the prior ratification of F-V24 as held; resolves the soft Ostrom-path-memory tripwire (*"canonical"* in body prose). The grammatical sense (= standard reference example) is preserved by *"primary"*. Post-edit line: 128 (unchanged).
+
+- **F-V26 (Asymmetric Regret Rule name-defense at line 334) — tighten as proposed.** Original ~330w paragraph compressed to ~155w. Load-bearing distinctions preserved in compact form:
+  - The *regret* (rather than *risk*) distinction — kept in single sentence anchored to Savage 1951.
+  - The *asymmetric* (rather than *one-sided*) distinction — kept in single sentence anchored to the unbounded-vs-bounded structural feature.
+  - The framework-joins-regret-tradition closing — preserved verbatim.
+  - Dropped/moved-to-TA-implicit: the *fusion breakthrough / substitute material / unanticipated technological transition* concrete examples (rhetorical illustration); the *epistemically dishonest* color phrase; the *Asymmetric risk rule* alternative-name rejection; the *Irreversibility-weighted decision rule* alternative-name rejection; the detailed Savage 1951 minimax-regret mechanism walkthrough. The cross-reference to TA §8 in the preceding paragraph (line 332) carries the formal specification; the compressed name-defense relies on that pre-existing pointer.
+  - Net cut: ~175 words. Post-edit line: 334 (unchanged).
+
+### Cumulative compression across Phase C-δ
+
+| Finding | Pre-edit words | Post-edit words | Cut |
+|---|---|---|---|
+| F-V23 (externality-tail name-defense) | ~330 | ~280 | ~50 |
+| F-V24 (Norway anchor swap) | 14 (one phrase) | 14 (single word swap) | 0 |
+| F-V26 (Asymmetric Regret Rule name-defense) | ~330 | ~155 | ~175 |
+| **Total** | **~674** | **~449** | **~225** |
+
+~225-word net reduction concentrated in name-defense overhead. No load-bearing methodological substance affected; the Weitzman 2009 + Savage 1951 + unbounded-vs-bounded-regret + bond-forward-posting anchors all preserved.
+
+### Cross-pass status
+
+- **Pass-3 audience-load scope for name-defense pattern (F-V26 cumulative across four name-defense paragraphs).** The chapter retains four name-defense paragraphs post-Phase-C-δ: externality tail at line 91 (~280w post-tighten); Commons Inversion Test at line 280 (~330w, unchanged); Residual Commons Value at line 302 (~360w, unchanged); Asymmetric Regret Rule at line 334 (~155w post-tighten). Cumulative name-defense prose: ~1,125w (down from ~1,350w pre-Phase-C-δ). Pass 3 may still evaluate whether further compression of the two unchanged name-defenses (Commons Inversion Test + Residual Commons Value) is warranted under cumulative-audience-load testing.
+
+- **F-V24 ratification override.** The prior Phase-C-γ-follow-up LOW-findings ratification round (commit `ccd87f1`) ratified F-V24 as held. This Phase C-δ round overrides that ratification at the author's direction. The ratification record above remains as a documented prior-disposition; the override is documented here. Future reference: F-V24 was held in the LOW-findings ratification round on the same day, then swapped in the LOW-findings tighten round, both at author direction.
+
+### Files touched (Phase C-δ)
+
+- `manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md` — three line-level edits: line 91 (F-V23 compression), line 128 (F-V24 word-swap), line 334 (F-V26 compression). Line count unchanged at 338 (paragraph-internal compressions; no paragraph-break additions or removals). Word count: ~225-word net reduction.
+- `tools/rigor-passes/commons_bonds_ch6_stage_3_pass_2_voice_polish_2026-05-14_PROPOSED.md` — this Phase C-δ status section appended.
+
+### Sandy-send-packet readiness (updated)
+
+With Phase C-γ + Phase-C-γ-follow-up + Phase C-δ applied, Ch 6 reaches Sandy-send-packet voice-polish readiness with additional Pass-3-scope compression already landed at the chapter level. The two name-defense paragraphs the LOW-findings round identified as compressible (F-V23 externality-tail + F-V26 Asymmetric Regret Rule) are now tightened; the remaining two (Commons Inversion Test + Residual Commons Value at lines 280 + 302) stay at their pre-Pass-2 form pending Pass-3 audience-load testing.
+
+The line 21 Black Lung Trust Fund → federal Program reframe remains the only outstanding cross-chapter-consistency item.
+
+---
+
+*End of Phase C-δ LOW-findings tighten round (2026-05-14). Pass 2 PROPOSED doc state: Phase C-γ + Phase-C-γ-follow-up + Phase C-δ applied. Pass 3 (audience-load) is the next session in the chain.*
