@@ -120,17 +120,26 @@
 ### Sen, Amartya. *Development as Freedom.* Knopf, 1999.
 
 - **Summary:** Capabilities approach to development economics — freedom is the ability to pursue the life one has reason to value, not merely GDP or income.
-- **Relevance:** Philosophical grounding for the consent-under-constraint framing the rigor protocol v1.2.1 added as a shield type. The "miners chose that work" counterargument handling in `appalachian-coal.md` is operating in Sen's capabilities territory.
+- **Relevance:** Philosophical grounding for the consent-under-constraint framing the rigor protocol v1.2.1 added as a shield type. The "miners chose that work" counterargument handling in `appalachian-coal.md` is operating in Sen's capabilities territory. Also serves as the second philosophical grounding (complementary to Parfit's impersonal-outcomes evaluation) for the framework's intergenerational-pricing claim: where Parfit answers *whether* future generations have moral standing, Sen answers *how* their standing should be valued — in terms of the capabilities the framework's accounting can preserve or extinguish. The framework's RCV calculation is, in Sen's vocabulary, a measurement of the capability set extraction forecloses on whoever-the-future-people-turn-out-to-be.
 - **Relationship:** **SUPPORT.**
-- **Chapter relevance:** Ch 2 counterargument handling; Ch 9 policy architecture.
+- **Chapter relevance:** Ch 2 counterargument handling; Ch 6 (What Is Owed — Sen capabilities defense paragraph paired with Parfit grounding; Ch 6 Pass 1 MEDIUM-10 ratified 2026-05-14); Ch 9 policy architecture.
 - **Nobel Memorial Prize in Economic Sciences, 1998.**
+
+### Sen, Amartya, and Martha Nussbaum, eds. *The Quality of Life.* Oxford University Press, 1993.
+
+- **Summary:** Edited volume from the WIDER-sponsored conference on capabilities-based approaches to assessing quality of life. Contributions from Sen, Nussbaum, Bernard Williams, G.A. Cohen, Charles Taylor, and others. Establishes the capabilities framework as a multi-disciplinary methodological program rather than a single-author position.
+- **Relevance:** **SUPPORT (capabilities-framework methodology grounding).** Companion to Sen 1999 and Nussbaum 2011; provides the multi-author methodological lineage for the framework's Sen-grounded valuation of capabilities the framework's accounting can preserve or extinguish.
+- **Relationship:** **SUPPORT (methodological foundation).**
+- **Chapter relevance:** Ch 6 (What Is Owed — Sen capabilities defense paragraph; Ch 6 Pass 1 MEDIUM-10 ratified 2026-05-14).
+- **Rigor provenance:** Added 2026-05-14 per Ch 6 Pass 1 Phase C-α MEDIUM-10 ratification (Amendment D) — Sen capabilities defense paragraph engages the capabilities-framework methodology established jointly by Sen and Nussbaum.
+- **Status:** ratified 2026-05-14.
 
 ### Nussbaum, Martha. *Creating Capabilities: The Human Development Approach.* Harvard University Press, 2011.
 
 - **Summary:** Extends Sen's capabilities approach with a specific list of central human capabilities.
-- **Relevance:** Philosophical companion to Sen; together, Sen+Nussbaum provide the ethical-framework grounding for what honest accounting of extraction should capture.
+- **Relevance:** Philosophical companion to Sen; together, Sen+Nussbaum provide the ethical-framework grounding for what honest accounting of extraction should capture. Specifically operationalized in the framework's Ch 6 Sen capabilities defense paragraph: the framework's RCV is a measurement of the capability set extraction forecloses on whoever-the-future-people-turn-out-to-be, and Nussbaum's specific-capabilities-list operationalizes what the framework's accounting is preserving or extinguishing.
 - **Relationship:** **SUPPORT.**
-- **Chapter relevance:** Ch 10 (closing ethical-architecture); methodology.
+- **Chapter relevance:** Ch 6 (What Is Owed — Sen capabilities defense paragraph; Ch 6 Pass 1 MEDIUM-10 ratified 2026-05-14); Ch 10 (closing ethical-architecture); methodology.
 
 ---
 
@@ -853,6 +862,15 @@ Added 2026-04-24 per Three Ways + RCV Formal-Model rigor pass ratification (Chri
 - **Chapter relevance:** Ch 5 (accountability gap — extraction-community wealth-as-structural-variable framing); Tech Appendix CSD methodology footnote.
 - **Rigor provenance:** Added 2026-04-26 per author direction (Phase B Tier-A reparations-economics adjacent literature additions); foundational lineage for Darity & Mullen 2020 + Hamilton et al. 2015.
 - **Status:** ratified 2026-04-26.
+
+### Himmelstein, Kathryn E. W., Jourdyn A. Lawrence, Jaquelyn L. Jahn, Joniqua N. Ceasar, Michelle Morse, Mary T. Bassett, Bram P. Wispelwey, William A. Darity Jr., and Atheendar S. Venkataramani. "Association Between Racial Wealth Inequities and Racial Disparities in Longevity Among US Adults and Role of Reparations Payments, 1992 to 2018." *JAMA Network Open* 5, no. 11 (2022): e2240519. https://doi.org/10.1001/jamanetworkopen.2022.40519
+
+- **Summary:** Cohort study (7,339 Black + 26,162 White middle-aged US adults, 1992–2018) demonstrating that differences in survival are largely mediated by differences in household wealth; simulations show that reparations payments aimed at closing the racial wealth gap could reduce the four-year median longevity gap to approximately 1.4 years (and to zero in models that exclude income and educational attainment). Co-authored by William A. Darity Jr.; the paper is the canonical empirical anchor for the longevity-gap-as-legacy-effect pricing the framework cites in Ch 6.
+- **Relevance:** **SUPPORT (Darity longevity-gap lineage for CSD methodology).** Empirical companion to Darity & Mullen 2020's reparations-economics methodology. The framework's Ch 6 line-25 expansion engages this paper as the methodological lineage McDowell County's thirteen-year life-expectancy gap inherits — both are legacy-effect pricing of cost-severance harm, computed via matched-comparison demography; the methodology travels with per-context calibration differing.
+- **Relationship:** **SUPPORT (Darity longevity-gap empirical anchor).**
+- **Chapter relevance:** Ch 6 (line 25 — Darity longevity-gap lineage paragraph; Ch 6 Pass 1 SHOULD-FIX-7 ratified 2026-05-14); Tech Appendix CSD methodology footnote; Ch 5 line 216 (existing Darity & Mullen citation paired with this empirical anchor).
+- **Rigor provenance:** Added 2026-05-14 per Ch 6 Pass 1 Phase C-α SHOULD-FIX-7 ratification (Amendment D); identified per Darity post-interview synthesis 2026-05-13 routing for the longevity-gap lineage citation.
+- **Status:** ratified 2026-05-14.
 
 ---
 
