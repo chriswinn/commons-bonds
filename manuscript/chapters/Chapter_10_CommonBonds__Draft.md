@@ -76,6 +76,10 @@ One specific objection deserves engagement before this section closes, even at c
 
 ---
 
+The four gates and the three ways of counting have been applied in this book to one direction: forward, the foreclosure of futures by extractions still to come. The same apparatus runs in reverse, as Chapter 5 noted and as the Technical Appendix formalizes (§5.5). The book that comes after this one — or the book by some other author with the right tools — will price what is owed for the extractions that already happened, the legacy effects whose abundance-masking has only just begun to fail. The framework is bidirectional by construction. The choice to demonstrate it forward was a choice of pacing, not of reach.
+
+---
+
 There is one objection I have been waiting to answer until here, and I have been waiting because it is the objection I find most serious and because the people who make it are, in a real sense, my allies.
 
 The objection, made carefully, is that this book does not go far enough. That honest pricing of extraction, strategic reserves, accountability bonds, and universal floors will not save us from a system that is, by its internal logic, driven to extract until there is nothing left. That the critique I am making is a reformist critique, compatible with a capitalism that will swallow it, accommodate it, and continue. That the framework can be adopted by a carbon-neutral multinational and used to justify continued extraction at a slightly slower rate, which is not, in the end, a break from the logic of extraction. That what is needed is not a better price but a different relationship to the resource in the first place.
