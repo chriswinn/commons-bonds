@@ -819,3 +819,49 @@ With Phase C-β applied (16 of 16 ratified Pass-2 findings landed; 7 LOW finding
 ---
 
 *End of Phase C-β status section. Pass 2 PROPOSED doc state: Phase C-β applied. Pass 3 (audience-load) deferred to subsequent session.*
+
+---
+
+## Phase C-β follow-up — authoritative-source verification round (2026-05-14)
+
+**Trigger.** Author directed an authoritative-source verification round against questioned numbers in the session. The round surfaced three items requiring follow-up corrections beyond the original Phase C-β scope:
+
+### What was applied (verification round + author-ratified follow-up)
+
+1. **F-V3 grammar tightening (commit `7cbb9c1`)** — Pennsylvania confirmed at ~5.36M households (2020 Census / 2024 ACS), exposing parse ambiguity in the original Phase C-β Option A application. Single-word swap *"foreclosed"* → *"affected"* removes the ambiguity by attaching the comparison unambiguously to the 10M-households-affected scale (10M > 5.36M PA holds comfortably).
+
+2. **Line 90 "$16T at peak" residual cleared** — Phase-C-β's F-V8 application at line 82 had exposed an internal-inconsistency residual at line 90 ("The Federal Reserve's facilities at peak — the sixteen-trillion-dollar figure"). Author-ratified fix applied: *"The Federal Reserve's cumulative emergency lending — the sixteen-trillion-dollar figure that emerged through congressional request — was repaid in nominal terms…"* Subject-verb agreement also corrected (*"facilities…were repaid"* → *"lending…was repaid"*).
+
+3. **Line 226 Black Lung Trust Fund debt + Program reframe (combined edit)** — Two corrections in one sentence:
+   - **$4.5B debt → $4.6B (CRS R45261 FY2021 anchor)**: *"four and a half billion dollars in debt"* → *"four point six billion dollars in debt"*. The Pass 1 §B.3 N-4 claim of "~$6.5B current" was not substantiated by the verification round (which surfaced $4.6B end FY2021 + ~$5B in 2022 as the most recent verifiable figures). The N-4 ~$6.5B claim is retired.
+   - **$44B Trust-Fund-only → federal Black Lung Benefits Program-wide reframe**: *"The Black Lung Trust Fund has paid out forty-four billion dollars across half a century"* → *"The federal Black Lung Benefits Program has paid out forty-four billion dollars across half a century"*, plus *"is currently four and a half billion dollars in debt"* → *"the program's Trust Fund is currently four point six billion dollars in debt"*. The verification round established that recent BLDTF annual benefit payments (FY2017 $184M; FY2023 $308M; FY2021–FY2025 expected total ~$1.1B) imply Trust-Fund-only cumulative of ~$10–20B, not $44B. The $44B figure is most defensible as the broader federal Black Lung Benefits Program total (Part B SSA-administered general-revenue 1970–1981 + Part C Trust-Fund-administered 1978–present). The reframe preserves the $44B figure under its most-defensible attribution while breaking out the Trust Fund's debt as a substructure of the Program.
+
+### Files touched (Phase C-β follow-up)
+
+- `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` — three additional line-level edits: line 82 (F-V3 grammar tightening, applied in commit `7cbb9c1`); line 90 ($16T at peak → cumulative emergency lending + subject-verb agreement); line 226 (Black Lung Trust Fund → federal Black Lung Benefits Program reframe + $4.5B → $4.6B debt update).
+- `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md` — three rows updated: (a) Fed-emergency-lending row's DRIFT FLAG cleared, both Ch 5 line 82 + line 90 now noted as consistent post-Phase-C-β-follow-up; (b) BLTF distributions row reframed to "Black Lung Benefits Program total distributions" with cross-chapter DRIFT FLAG for Ch 2/Ch 6/Ch 8 still using Trust-Fund-only framing; (c) BLTF debt row updated to "$4.6B FY2021 (CRS R45261)" with Pass 1 N-4 "~$6.5B current" claim retired.
+- `tools/rigor-passes/commons_bonds_ch5_stage_3_pass_2_voice_polish_2026-05-14_PROPOSED.md` — this Phase C-β follow-up status section appended.
+
+### Verification round verdicts (recorded for cross-thread reference)
+
+- **Pennsylvania households**: 5,361,724 (2020 Census / 2024 ACS) per [Census Reporter](http://censusreporter.org/profiles/04000US42-pennsylvania/).
+- **Ohio households**: 4,929,322 (2024 ACS 1-year) per [Census Reporter](http://censusreporter.org/profiles/04000US39-ohio/). (Not used in chapter prose; recorded for reference.)
+- **BLDTF debt history**: $10.5B peak 2008 → $6.2B end FY2009 (post-restructuring) → $4.3B 2018 → $4.6B end FY2021 (CRS R45261) → ~$5B 2022 (per Just Transition Fund summary). FY2024/2025 not pinned down in publicly accessible sources within the verification round; DOL CBJ-2025 PDF returned 403.
+- **BLDTF recent annual benefit payments**: $184M (FY2017) → $308M (FY2023) → ~$220M/year expected FY2021–FY2025.
+- **$44B Black Lung total cumulative**: NOT verified as Trust-Fund-only. Plausibly Program-wide (Part B + Part C, 1970–present); requires DOL OWCP primary-source verification to confirm definitively. Ch 5 prose now attributes to the broader Program; if a future Sandy-feedback round or primary-source verification reveals the figure is materially different from $44B Program-wide, the spot-fix is straightforward.
+
+### Cross-chapter consistency follow-up (NEW DRIFT)
+
+The Ch 5 reframe creates a new cross-chapter inconsistency: Ch 2 line 67 + Ch 6 line 148 + Ch 8 line 35 still attribute $44B to "the Black Lung Trust Fund" (or similar Trust-Fund-only phrasing). Recommended: apply the same Program-vs-Trust-Fund reframe in those chapters' subsequent Phase-C cycles. The cross-chapter inventory now carries the DRIFT FLAG for tracking. **Not Phase-C-β follow-up scope; flagged forward for cross-chapter consistency-sweep workstream.**
+
+### Sandy-send-packet readiness (updated)
+
+With Phase C-β + Phase-C-β follow-up applied, Ch 5 reaches Sandy-Darity-send-packet readiness at the fact-check + voice-polish dimensions both. The remaining items are:
+- **Pass 3 (audience-load)** for Ch 5 — separate workstream; final pre-send rigor pass.
+- **Cross-chapter Ch 2 + Ch 6 + Ch 8 $44B Program-vs-Trust-Fund reframe** — separate cross-chapter consistency workstream; not Sandy-send-gating for Ch 5 alone but should land before the broader Sandy review of multi-chapter material.
+- **N-6 Kenworthy & Igra cite-form** — endnote sweep (cross-thread #11).
+- **Pre-publication refresh** (LOW findings, etc.) — standard pipeline.
+
+---
+
+*End of Phase C-β follow-up status section (2026-05-14). Pass 2 PROPOSED doc state: Phase C-β + Phase-C-β follow-up applied. Pass 3 (audience-load) deferred to subsequent session.*
