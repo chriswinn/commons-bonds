@@ -157,8 +157,8 @@ Apply the inner three methods — Replacement Cost, Revealed Preference, Scarcit
 
 | Case | Market Price | M1 — Replacement Cost | M2 — Revealed Preference | M3 — Scarcity-Adjusted Option Value | Direction |
 | --- | --- | --- | --- | --- | --- |
-| McDowell County coal | $4.50/ton (1960 mine-mouth) | $310–$1,800/ton | $8–$88/ton | $420–$13,100/ton; mid $2,500 | CS > 0 |
-| Norway petroleum | ~$50/BOE rent captured | $300–$650/BOE | $50/BOE | $70–$1,000/BOE; mid $280 | CS > 0 |
+| McDowell County coal | $4.50/ton (1960 mine-mouth) | $261–$2,412/ton | $8–$88/ton | $420–$13,100/ton; mid $2,500 | CS > 0 |
+| Norway petroleum | ~$48/BOE rent captured | $161–$422/BOE | $48/BOE | $70–$1,000/BOE; mid $280 | CS > 0 |
 | Deepwater Horizon | $4.25B Macondo revenue | ~$22B engineering + ecological restoration (BP response ~$14B + NRDA $8.8B per 2016 Consent Decree) | ~$20–$25B settlements + damages paid (CWA $5.5B + DOJ criminal $4.5B + class-action economic ~$10–$15B) | N/A† | CS > 0 |
 | Libby, Montana | ~$100M lifetime revenue | ~$0.6B EPA Superfund cleanup spending + ongoing remediation; long-tail illness-cost flow $4–$7B | ~$0.3B W.R. Grace settlements ($250M 2008 EPA + $18.5M 2023 NRDA + $5.1M 2008 DEQ) | N/A† | CS > 0 |
 | Exxon Valdez | $5.5M product spilled | ~$2.3B cleanup + ecological restoration (Exxon $2.2B + NRDA ~$100M per 1991 settlement) | ~$1.9B settlements + damages paid (1991 civil $900M + private claims ~$507M + punitive $507M + criminal $25M) | N/A† | CS > 0 |
