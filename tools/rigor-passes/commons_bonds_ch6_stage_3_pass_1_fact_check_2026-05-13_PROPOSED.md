@@ -837,3 +837,205 @@ For Phase C-α reference, the following sources should be cited if any of the fi
 *End of Amendment 2026-05-13 (B) — authoritative-source verification of questioned numbers.*
 
 **Status: LOW-1 RESOLVED. 2 new SHOULD-FIX + 5 new MEDIUM findings added; all 7 awaiting author ratification.**
+
+---
+
+# Amendment C (2026-05-14) — Darity-synthesis-incorporation gap (pre-Sandy-send)
+
+**Trigger:** Cross-session handoff from Ch 5 Pass 1 audit (commit b390a46 §B.7, 2026-05-14, on origin/main) surfaced that this Ch 6 Pass 1 doc (current state through Amendment B at commit a2f39ca) does not cover the post-interview Darity-synthesis incorporation gap. Five items from the synthesis doc ([research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md](research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md)) target Ch 6 (or Ch 6 / Ch 10) and are pre-Sandy-send gating.
+
+**Context.** Sandy Darity interview conducted Wed 2026-05-13 14:30 ET. Synthesis commit 3e39061 surfaced MI-1 through C-3 (9 items). MI-1 + MI-2 already incorporated into Ch 5 + TA via Approach B (commits 70dce3f + downstream). The 5 items below target Ch 6 (or Ch 6 / Ch 10) and remain PENDING. Sandy named SI-1 his "deepest single-line case for the framework's measurement work" — non-trivial absence pre-send. Ch 6 + Ch 5 + TA ship as the Sandy send packet after both chapters' Phase C-α lands.
+
+**Scope of this amendment.** Content-incorporation findings rather than fact-check-strict findings; surfaced as PROPOSED at the severities the synthesis routing specifies, applied during Phase C-α (combined session with existing structural + number-level fixes per Amendments A + B).
+
+## Findings
+
+### NEW SHOULD-FIX-5 (HIGH): Ostrom homogeneity-of-interest break-point — missing second break-point in Ostrom-positioning passage
+
+**Location:** [Chapter__6_ThreeWaysofCounting__Draft.md:227–233](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:227)
+
+**Synthesis source ([darity post-interview-synthesis:260–266](research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md:260)):** Sandy's add-on critique of Ostrom (full quote):
+> *"another issue with Ostrom is, I think she's assuming homogeneity of interest in using the commons across what she's calling the community. But suppose the community is divided on ethnic grounds or racial grounds, and have conflicting views about what should be done with the commons, then I don't think that her view provides a solution to the problem."*
+
+**Current Ch 6 state:** The chapter's "Two Kinds of Commons" passage (lines 227–233) identifies non-sustained-yield commons (extraction commons where value-capture and cost-bearing are asymmetric) as the break-point where Ostrom's design principles do not apply. Verified by grep: no current Ch 6 reference to "homogeneity" / "heterogeneous-stakeholder" / "ethnic" / "racial" division of the commons community. Sandy's second break-point — **heterogeneous-stakeholder commons** — is absent.
+
+**Framework consequence:** Sandy's critique adds a second structural break-point to the framework's existing Ostrom-positioning. Ostrom's eight design principles presume a community of shared-stakeholders with substantially-aligned use-preferences; where the community is divided on ethnic / racial / class lines and carries conflicting preferences, the Ostrom apparatus does not produce a solution. This is a substantive extension of the framework's claim of necessity — the framework now occupies a second adjacency to Ostrom (heterogeneous-stakeholder commons) alongside the first (extraction commons / non-sustained-yield).
+
+**Why this is SHOULD-FIX:** Sandy is the canonical authority on this critique. He will recognize the absence on first read; the framework's Ostrom-positioning passage is exactly where he will look for it. Adding the second break-point also strengthens the framework's structural argument, not just its Sandy-facing presentation — the chapter's downstream "Each method does work the other can't" claim (line 233) becomes more defensible when both break-points are named.
+
+**Recommended fix during Phase C-α:** Extend the Ostrom-positioning passage at lines 227–233 with a second break-point paragraph. Draft for author review:
+
+> "A second break-point Ostrom's framework does not address is the heterogeneous-stakeholder commons: where a community drawing from a shared commons is divided on ethnic, racial, class, or other grounds, and carries conflicting use-preferences for the commons itself. Ostrom's eight design principles presume substantially-aligned stakeholders capable of negotiating governance institutions; when the stakeholders are structurally divided, the design principles do not produce a solution because the problem is not solely coordination-of-mutually-acceptable-use but contestation over what acceptable use is. This framework's apparatus reaches such commons because the Commons Inversion Test operates on the commons-extraction relationship rather than on the stakeholder-coordination relationship; the cost severance the framework prices is the cost of extraction *from* the commons by extracting parties structurally outside the commons-bearing community, and this cost is measurable whether the cost-bearing community is internally aligned or divided."
+
+**Synthesis-stated destination:** Ch 6 (Three Ways of Counting) Ostrom-extension section + canonical Ostrom-pivot articulation in [alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md](alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md) + TA §E.3. The Ch 6 application is the gating item for the Sandy send; the FPD doc + TA §E.3 are downstream secondary applications (separate workstreams).
+
+**Severity rationale:** SHOULD-FIX (HIGH-equivalent) because (a) Sandy is the canonical authority on this critique, (b) absence is visible on first read of the Ostrom-positioning passage, (c) addition strengthens framework's structural argument (not just Sandy-facing presentation).
+
+---
+
+### NEW SHOULD-FIX-6 (HIGH): Market-priced future profitability vs unpriced future harms — Sandy's exact framing missing as the "cleanest single-line case for the measurement work"
+
+**Location:** [Chapter__6_ThreeWaysofCounting__Draft.md:89](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:89) and [Chapter__6_ThreeWaysofCounting__Draft.md:231](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:231) (the two adjacent passages where the underlying concept is in place)
+
+**Synthesis source ([darity post-interview-synthesis:270–274](research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md:270)):** Sandy's observation:
+> *"those kinds of forecasts are, not forecast of harms per se, but forecast of future profitability. So [it's] built into the prices of financial assets in a given moment, at least implicitly. But you don't have a market mechanism for trying to gauge the predictions of future harms."*
+
+The synthesis doc explicitly identifies Sandy's framing as "the cleanest single-line case for the framework's measurement work" (synthesis:274) and routes it to Ch 6 for sharpening.
+
+**Current Ch 6 state:** The underlying concept is in place at two adjacent passages:
+- Line 89: "These ongoing costs are real, measurable, and currently unpriced by markets."
+- Line 231: "The asymmetry between value-capture and cost-bearing is structural, not contingent. The cost the framework prices is the severance enabled by that asymmetry."
+
+But the **specific asymmetry Sandy names — markets-price-future-profitability vs markets-don't-price-future-harms — is not stated in those terms.** The chapter has the structural-asymmetry argument; the chapter does not have the financial-asset-pricing asymmetry argument as its mirror. Verified by grep: no current Ch 6 reference to "future profitability" / "asset prices" / "financial assets" in this context.
+
+**Framework consequence:** Sandy's framing is sharper than the chapter's current framing because it points to a specific institutional asymmetry the framework's three-ways-of-counting fills. Markets *do* have a mechanism for pricing future profitability — discounted-cash-flow analysis aggregated through equity and debt markets, which produces asset prices that implicitly price expected future returns. Markets *do not* have an equivalent mechanism for pricing future harms — there is no aggregating institution producing a comparable price signal for the externality tail, the foreclosure cost, or the long-tail damage of cost severance. The framework's three estimation methods (Replacement Cost / Revealed Preference / Scarcity-Adjusted Option Value) are the substitute for the missing market mechanism on the harms side.
+
+**Why this is SHOULD-FIX:** Sandy named this his "cleanest single-line case." The chapter ships to him without that exact framing in those terms — a missed opportunity. The framing is also rhetorically efficient: it gives the chapter a single sentence that summarizes the entire measurement-work claim in vocabulary Sandy's field (financial economics) already speaks.
+
+**Recommended fix during Phase C-α:** Insert a paragraph at the externality-tail / structural-asymmetry passage (after line 91, before line 93; or at the end of "Two Kinds of Commons" near line 233) that lifts Sandy's framing. Draft for author review:
+
+> "The asymmetry the framework's three estimation methods address is not symmetric across the time horizon. Markets have a mechanism — discounted-cash-flow analysis aggregated through equity and debt pricing — for pricing future profitability. That mechanism is implicit but real: every financial asset price embeds an expectation about future returns. Markets do not have an equivalent mechanism for pricing future harms. There is no aggregating institution producing a comparable price signal for the externality tail, for foreclosure cost, or for the long-tail damage of cost severance. The three estimation methods (Replacement Cost, Revealed Preference, Scarcity-Adjusted Option Value) are the framework's substitute for the missing market mechanism on the harms side. That is the measurement work — to give the harm side a comparable price signal to the one the asset side already has, so that the asymmetry between priced future profitability and unpriced future harms is no longer the institutional default."
+
+**Synthesis-stated destination:** Ch 6 methodology / externality-tail passage. Author may want to position the paragraph specifically — three candidate locations: (a) after line 91's externality-tail name-defense; (b) at the end of "Two Kinds of Commons" near line 233; (c) at the start of the M1/M2/M3 walkthrough sub-section landing under MUST-FIX-1 B.2. Recommend (c) — the paragraph sets up exactly what the three methods are doing, and lands the Sandy-framing immediately before the inner-three walkthrough does the work.
+
+**Severity rationale:** SHOULD-FIX (HIGH-equivalent) because (a) Sandy explicitly named this his cleanest single-line case for the measurement work, (b) the framing is rhetorically efficient and grounds the M1/M2/M3 walkthrough, (c) the current chapter has the structural-asymmetry argument but not the financial-asset-pricing asymmetry mirror, and the mirror is what makes the measurement-work claim land for Sandy's field.
+
+---
+
+### NEW SHOULD-FIX-7 (HIGH): Longevity gap as legacy-effect pricing — Darity research lineage not connected to McDowell 13-year gap
+
+**Location:** [Chapter__6_ThreeWaysofCounting__Draft.md:25](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:25)
+
+**Synthesis source ([darity post-interview-synthesis:276–278](research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md:276)):** Sandy mentioned recent work pricing the 6–7 year Black-vs-white US longevity gap as legacy-effect pricing. The synthesis doc explicitly routes Ch 6 methodology engagement: "both as anchor for the framework's legacy-effects-pricing move and as a citation tie to Sandy's current research direction. Find the recent paper / talk and add to bibliography."
+
+**Current Ch 6 state:** Line 25 carries the McDowell County 13-year life-expectancy gap (verified canonical per Amendment B figure-verification; matches 2013 IHME data for male-specific gap). Verified by grep: no current Ch 6 reference to "Darity longevity" / "legacy-effect pricing" / "6-7 year gap" / "Black-vs-white longevity." The connection between McDowell's 13-year gap and Darity's longevity-gap research is structural (both are legacy-effect pricing of cost-severance harm) but not named.
+
+**Framework consequence:** Darity's longevity-gap pricing work is the methodological lineage McDowell's 13-year longevity gap inherits. The framework's measurement of McDowell's legacy effect (13 years) uses the same matched-comparison methodology Hamilton/Darity/Mullen developed for wealth-gap and longevity-gap research. Naming the connection (a) grounds the McDowell figure in established methodological lineage rather than presenting it as a freestanding claim, (b) ties the framework explicitly to Sandy's current research direction (which strengthens the framework's reparations-economics engagement), (c) extends the framework's bidirectional apparatus claim — McDowell's longevity gap is a backward-direction CSD computation; the methodology is the same Darity uses.
+
+**Why this is SHOULD-FIX:** The connection is structurally present in the framework but not named in the chapter. Sandy reading Ch 6 will note the McDowell longevity-gap citation and may or may not recognize the methodological connection to his own work; making the connection explicit ensures he sees the framework's positioning. The bibliographic citation also opens a downstream tie-to-Sandy that the publishing pipeline can build on.
+
+**Recommended fix during Phase C-α:** Add a short paragraph (or expanded sentence) at line 25 connecting McDowell's 13-year gap to Darity's longevity-gap legacy-effects work. Draft for author review:
+
+> "The 13-year life-expectancy gap is a *legacy-effect* — a measurable consequence of cost-severance harm that persists across cohorts. The methodology for pricing legacy effects of this kind has been developed most rigorously by William Darity Jr. and collaborators in their work on the Black-vs-white longevity gap (a 6-to-7-year average gap in the United States), which prices the gap as a legacy effect of structural extraction across generations. McDowell County's 13-year gap is the same kind of legacy-effect pricing variant, applied to coal-extraction-affected populations rather than to racially-stratified populations. The methodology travels; the per-context calibration is what differs."
+
+**Bibliography requirement:** Find Sandy's specific recent paper/talk on the longevity-gap pricing and add to bibliography §13 (reparations economics). Cross-thread #11 contribution: 1L (Darity longevity-gap paper TBD).
+
+**Synthesis-stated destination:** Ch 6 methodology section (line 25 expansion) + bibliography expansion. The Ch 5 paired companion fix is the existing Ch 5 line 216 passage which already cites Darity & Mullen on the longevity gap framework — Ch 5's coverage establishes the methodology; Ch 6's gap is the chapter-specific application not anchoring to it.
+
+**Severity rationale:** SHOULD-FIX (HIGH-equivalent) because (a) the methodological lineage is present in the framework but not named in the chapter, (b) Sandy will read the McDowell citation looking for the methodological tie to his own work, (c) the addition is small (one paragraph) and high-value.
+
+---
+
+### NEW MEDIUM-10 (conditional location): Sen on social welfare functions + capabilities — right-wing-pushback defense
+
+**Location:** [Chapter__6_ThreeWaysofCounting__Draft.md:193](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md:193) (current Sen + Nussbaum single-sentence reference)
+
+**Synthesis source ([darity post-interview-synthesis:280–282](research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md:280)):** "Sen's framework gives the framework a defense against the 'why give value to future generations?' right-wing critique. Engage in Ch 6 or Ch 10. Bibliography expansion likely."
+
+**Current Ch 6 state:** Line 193 contains the only Sen reference in Ch 6: "Sen and Nussbaum elaborated ten central capabilities" — an illustrative-register parallel to Ostrom-eight + Rawls-primary-goods, not a methodological engagement.
+
+**Framework consequence:** Sen's social-welfare-function framework provides a defense the framework currently does not carry: the philosophical grounding for valuing future generations against the right-wing critique ("why give value to future generations?"). The framework's existing Parfit-grounded non-identity-problem engagement (lines 213–221) is one defense; Sen's capability framework is a second, complementary defense. The Sandy synthesis flags Sen specifically for the right-wing-pushback case-class.
+
+**Conditional location — Ch 6 vs Ch 10:** Author judgment required.
+- **Argument for Ch 6 (methodology):** Technical defense-of-methodology fits Ch 6's apparatus framing. The right-wing critique ("why value future generations?") is a methodological objection the chapter already engages via Parfit; Sen engagement would extend that section. Sen + Parfit together carry the philosophical grounding for the framework's intergenerational-pricing claim.
+- **Argument for Ch 10 (politico-philosophical close):** Right-wing-pushback engagement reads more naturally in Ch 10's closing register, where the chapter explicitly addresses the "this is just degrowth in disguise" / "you're constraining the economy" critique-class. Sen engagement here grounds the chapter's "the framework does not take a position on what kind of economy we should have" passage (lines 81–87).
+
+**Recommended fix during Phase C-α:**
+
+- **If Ch 6:** Add a short paragraph at the end of the Parfit-grounded "What Is Owed" section (after line 224) that brings in Sen. Draft for author review:
+
+  > "A second philosophical grounding the framework operates within — complementary to Parfit's impersonal-outcomes evaluation — is Amartya Sen's capability-and-social-welfare-function framework. Where Parfit answers the question of *whether* future generations have moral standing, Sen answers the question of *how* their standing should be valued: in terms of capabilities the framework's accounting can preserve or extinguish. The framework's Residual Commons Value calculation is, in Sen's vocabulary, a measurement of the capability set extraction forecloses on whoever-the-future-people-turn-out-to-be. Right-wing critics who ask 'why give value to future generations?' are asking a Parfit-domain question; the framework's answer is *because they will have capabilities that present extraction will or will not constrain*, and Sen's framework names the capabilities and the valuation methodology that grounds the framework's pricing."
+
+- **If Ch 10:** Surface a cross-session flag to the Ch 10 workstream rather than applying in Ch 6. Recommend coordinating with the just-landed Ch 10 bidirectional-reach insertion (commit 8b7ac89) and the in-flight Ch 10 work.
+
+**Recommend Ch 6 placement** (Argument for Ch 6 above) — the chapter's methodology framing already carries the Parfit engagement; adding Sen as a complementary methodology-defense reads as continuation, not detour. Sen's capability framework also resonates with the chapter's existing illustrative-register list at line 193 (Sen + Nussbaum + Rawls); upgrading from single-sentence illustrative reference to methodological engagement is natural.
+
+**Could land post-Sandy-send if necessary** per the synthesis routing — Sen engagement is not as gating as MI-3 / SI-1 / SI-2.
+
+**Synthesis-stated destination:** Ch 6 or Ch 10 (author judgment). Bibliography expansion likely (Sen *Development as Freedom* 1999; possibly Sen + Nussbaum *Quality of Life* 1993; Nussbaum *Creating Capabilities* 2011).
+
+**Severity rationale:** MEDIUM (conditional location) because (a) the defense is structurally complementary to Parfit (the chapter has the Parfit defense; Sen extends), (b) the placement is conditional on author judgment between Ch 6 and Ch 10, (c) per synthesis routing this can land post-Sandy-send if necessary — not gating.
+
+---
+
+### NEW LOW-7: Stratification economics — cross-disciplinary tie to MI-3 Ostrom-critique
+
+**Location:** New addition — Ch 6 currently does not reference stratification economics anywhere.
+
+**Synthesis source ([darity post-interview-synthesis:294–296](research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md:294)):** "Sandy framed the racial-wealth-gap-as-public-policy claim as 'the kind of argument that [stratification economics] argument [makes]' — i.e., his field. The framework already cites stratification economics in Ch 5 + Ch 6; Sandy's Ostrom-critique implicitly extends the stratification-economics analytical apparatus to commons-governance debates. Worth a small Ch 6 footnote / Tech Appendix line."
+
+**Verification finding (verified during this amendment):** The synthesis's premise that "the framework already cites stratification economics in Ch 5 + Ch 6" is **not currently accurate.** Corpus grep across `manuscript/chapters/` returns zero hits for "stratification" in any chapter draft (Ch 5 or Ch 6). The only corpus references to "stratification economics" are in `research/outreach/subjects/darity/` documents (background-brief, prereadbrief, post-interview-synthesis). The synthesis routing therefore needs adjustment: this is a **fresh-citation addition**, not an extension of an existing citation.
+
+**Framework consequence:** Stratification economics — the analytical framework Sandy named as his own field — provides cross-disciplinary lineage for the MI-3 Ostrom-critique. Stratification economics specifically analyzes intergroup-relational dynamics where structural-extraction operates through hierarchical group-divisions (race, class, ethnicity); the framework's MI-3 extension of Ostrom to heterogeneous-stakeholder commons is structurally an application of stratification-economics-style analysis to commons-governance contexts. Naming the connection (a) credits Sandy's field-naming, (b) ties the framework's commons-governance extension to an existing analytical tradition, (c) opens a downstream methodological engagement the publishing pipeline can build on.
+
+**Recommended fix during Phase C-α:** Small footnote or single-line addition tying the MI-3 Ostrom-critique to stratification economics. Could land in Ch 6 at the heterogeneous-stakeholder break-point paragraph (SHOULD-FIX-5) or in the TA §E.3 paragraph the synthesis flags. Draft for author review:
+
+> "[Footnote or inline at the MI-3 break-point paragraph]: This second break-point connects the framework to the analytical apparatus of stratification economics (Darity, Hamilton, and collaborators), which analyzes structural-extraction operating through hierarchical group-divisions (race, class, ethnicity). The framework's commons-governance extension applies stratification-economics-style intergroup-relational analysis to commons that are simultaneously contested across stakeholder-group lines and being extracted from by structural outsiders."
+
+**Synthesis-stated destination:** Small Ch 6 footnote / Tech Appendix line. Lower-priority than MI-3 itself but lands naturally as MI-3's lineage citation.
+
+**Severity rationale:** LOW because (a) the addition is small (footnote or single line), (b) the underlying MI-3 addition is the load-bearing item; stratification-economics tie is a lineage credit on top, (c) the synthesis premise that the framework "already cites" stratification economics was incorrect — actual state is fresh-citation addition.
+
+---
+
+## Status after Amendment C
+
+| Finding | Pre-amendment | Post-amendment |
+|---|---|---|
+| MUST-FIX-1 + MUST-FIX-2 (Amendment A) | RATIFIED | RATIFIED — unchanged |
+| SHOULD-FIX-1 + SHOULD-FIX-2 (Amendment A) | RATIFIED | RATIFIED — unchanged |
+| SHOULD-FIX-3 (coal-CO₂; Amendment B) | PROPOSED | PROPOSED — unchanged |
+| SHOULD-FIX-4 (IEA/IPCC; Amendment B) | PROPOSED | PROPOSED — unchanged |
+| **NEW SHOULD-FIX-5 (Ostrom homogeneity-of-interest; MI-3)** | — | **PROPOSED** |
+| **NEW SHOULD-FIX-6 (Market-priced future profitability asymmetry; SI-1)** | — | **PROPOSED** |
+| **NEW SHOULD-FIX-7 (Longevity gap as legacy-effect pricing; SI-2)** | — | **PROPOSED** |
+| MEDIUM-1 (Smax wording) | PROPOSED | PROPOSED |
+| MEDIUM-3 (rounding) | DEFER-ACCEPTABLE | DEFER-ACCEPTABLE (moot if SHOULD-FIX-3 lands) |
+| MEDIUM-4 (5 TA hyperlinks) | PROPOSED | PROPOSED |
+| MEDIUM-5 through MEDIUM-9 (Amendment B figure-fixes) | PROPOSED | PROPOSED |
+| **NEW MEDIUM-10 (Sen on social welfare + capabilities; SI-3)** | — | **PROPOSED (conditional Ch 6 vs Ch 10)** |
+| LOW-1 (Amendment B resolved) | RESOLVED | RESOLVED |
+| LOW-2 through LOW-6 | PROPOSED / informational | unchanged |
+| **NEW LOW-7 (Stratification economics tie; C-3)** | — | **PROPOSED** |
+
+## Aggregate severity counts (full doc post-Amendment C)
+
+| Severity | Initial Pass 1 | After Amendment A | After Amendment B | After Amendment C |
+|---|---|---|---|---|
+| MUST-FIX | 2 | 2 (ratified) | 2 (ratified) | 2 (ratified) |
+| SHOULD-FIX | 2 | 2 (ratified) | 4 (2 ratified + 2 new) | **7 (2 ratified + 5 new — 3 fresh)** |
+| MEDIUM | 4 | 4 | 9 | **10 (1 new)** |
+| LOW | 6 | 6 | 6 (LOW-1 resolved → 5) | **6 (1 new + LOW-1 resolved)** |
+| Cross-thread #9 | 1 | 1 | 1 | 1 |
+
+## Phase C-α scope addition (Amendment C items)
+
+The Phase C-α session should additionally apply, jointly with the existing Amendment A + B scope:
+
+1. **MI-3 Ostrom homogeneity-of-interest break-point paragraph** at Ch 6 lines 227–233 (SHOULD-FIX-5).
+2. **SI-1 market-priced future profitability asymmetry paragraph** at the start of the M1/M2/M3 walkthrough sub-section landing under MUST-FIX-1 B.2 (SHOULD-FIX-6). Recommended placement bundles cleanly with the B.2 work.
+3. **SI-2 Darity longevity-gap lineage paragraph** at Ch 6 line 25 + bibliography expansion (SHOULD-FIX-7).
+4. **SI-3 Sen capabilities defense paragraph** at the end of "What Is Owed" section after line 224 (MEDIUM-10) — *if author judgment selects Ch 6 placement; otherwise surface to Ch 10 cross-session flag*.
+5. **C-3 stratification-economics lineage footnote/inline** at the MI-3 break-point paragraph (LOW-7).
+
+Net additional Phase C-α prose: ~4 paragraphs + 1 footnote + 1 bibliography addition. All adjacent to or co-located with the existing Phase C-α scope; single coordinated session remains viable.
+
+## Cross-thread items NOT folded into Ch 6 Pass 1
+
+Per synthesis routing — surface to other workstreams:
+- **C-1 (Fogel & Engerman *Time on the Cross* two-volume publishing model):** comp-titles deep matrix workstream (#14) / agent-prep workstream (#6).
+- **C-2 (Du Bois *Black Reconstruction* bibliography expansion):** bibliography workstream.
+
+## Coordination
+
+- **Ch 5 Pass 1 §B.7** (the cross-session flag that triggered this amendment) and this Amendment C are now consistent. Ch 5 + Ch 6 Pass 1 docs both surface the Darity-synthesis-incorporation gap at the severities the synthesis routing specifies.
+- **PM dashboard refresh** (commit 964448687, on origin/main) captures the full Darity-synthesis-incorporation status. This amendment is downstream of that PM refresh.
+- **Phase C-α timing:** the 5 Amendment C items + the 2 SHOULD-FIX + 5 MEDIUM Amendment B items + the 4 ratified MUST/SHOULD-FIX Amendment A items all touch the same chapter and land in a single coordinated Phase C-α session. No additional dependency-resolution required.
+
+---
+
+*End of Amendment C 2026-05-14 — Darity-synthesis-incorporation gap.*
+
+**Status: 3 new SHOULD-FIX + 1 new MEDIUM + 1 new LOW added; all 5 awaiting author ratification. Pre-Sandy-send gating for MI-3 + SI-1 + SI-2 per synthesis doc routing.**
+
+**[PROPOSED, awaits ratification]**
