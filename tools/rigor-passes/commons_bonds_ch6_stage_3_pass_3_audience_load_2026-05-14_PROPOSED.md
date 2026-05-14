@@ -489,3 +489,41 @@ Per author's per-pass serial cadence + v2.0 Amendment B distinct-pass discipline
 ---
 
 *End of Ch 6 Stage-3 Pass 3 (Audience-Load) rigor pass — pending author ratification. Phase C-ε applies after ratification if any Tier-B-optional items are ratified-in (otherwise Phase C-ε is empty + Pass 3 ratification closes the three-pass rigor cycle for Ch 6).*
+
+---
+
+## Sandy-send disposition (2026-05-14)
+
+**Status:** PREPPED FOR SANDY DARITY REVIEW. Pass 3 ratified by action; the three Tier-B-optional items (§5 Items i + vii + viii) ruled hold-as-is by action; Phase C-ε is therefore empty for Ch 6. The cross-chapter line 21 Black Lung Trust Fund → federal Program reframe (DRIFT FLAG from Ch 5 Phase-C-β follow-up) was applied in commit `5569600` before this packet-prep step, resolving the only outstanding cross-chapter consistency item for Ch 6's Sandy-review readiness.
+
+### What is finalized
+
+- **Derivative .docx (finalized):** [research/outreach/subjects/darity/Chapter_6_Three_Ways_of_Counting_2026-05-14.docx](research/outreach/subjects/darity/Chapter_6_Three_Ways_of_Counting_2026-05-14.docx)
+- **Derivative .pdf (finalized):** [research/outreach/subjects/darity/Chapter_6_Three_Ways_of_Counting_2026-05-14.pdf](research/outreach/subjects/darity/Chapter_6_Three_Ways_of_Counting_2026-05-14.pdf)
+- **Source:** [manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md](manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md) at origin/main `5569600` (post-Pass-3-PROPOSED + post-line-21-Black-Lung-reframe state; 338 lines).
+- **Conversion pipeline:** pandoc 3.9.0.2 (markdown → docx) + LibreOffice 26.2.3.2 headless (docx → pdf). The `--reference-doc` for the pandoc step is the Ch 5 Sandy-send derivative .docx ([research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.docx](research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.docx)), which carries the canonical Garamond + US Letter + 1″ margin styles inherited from the original `tmp/reference_letter_garamond.docx` reference (untracked local artifact, regenerable per Ch 5 Pass 3 PROPOSED doc's send-disposition section).
+- **Format settings (verified post-conversion):** US Letter (612 × 792 pts = 8.5″ × 11″); 1″ margins on all four sides (1440 twips = 1 inch); Garamond body font (verified in `word/styles.xml`); pandoc-default styled headings (H1/H2/H3); italics preserved on all book + journal titles; smart quotes preserved (`framework's`, not `framework's`); em-dashes preserved.
+- **Page count rendered:** 26 (per LibreOffice PDF export; verified via `pdfinfo`).
+
+### Pass-3-required Phase-C-ε spot-fixes
+
+**None.** Pass 3 verdict was READY TO SUBMIT AS-IS (7 INCLUDE / 0 NEUTRAL / 0 EXCLUDE; no Tier-1 EXCLUDE). The three Tier-B-optional items (§5 Items i + vii + viii) were author-discretion items and are now hold-as-is by action. Phase C-ε is therefore empty for Ch 6; the chapter ships at the post-line-21-reframe state.
+
+### What gates the actual Sandy send
+
+Sandy receives Ch 6 as part of a packet (Ch 5 + Ch 6 + Tech Appendix), per the 2026-05-13 confirmation email's commitment to send "the Technical Appendix and Chapter 6 within 1–2 weeks." Per the Ch 5 Pass 3 PROPOSED doc's send-disposition section, the send is held pending:
+
+1. **Ch 6 packet-readiness** — ✓ closed by this commit (derivative .docx + .pdf finalized; Pass 3 verdict ratified by action; line 21 reframe applied).
+2. **TA Pass-3 disposition / readiness for academic close-read send** — TA Sandy-packet prep already landed in origin/main commits `409f15b` ("TA v2.1.0 PREPPED FOR SANDY DARITY REVIEW") + `71fb076` (WP#10 regression cleanup). TA artifacts at [research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.docx](research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.docx) + [research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.pdf](research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.pdf).
+3. **Packet-send cover email** — draft pending at [research/outreach/subjects/darity/packet-send-cover-email_DRAFT_2026-05-14.md](research/outreach/subjects/darity/packet-send-cover-email_DRAFT_2026-05-14.md) per Ch 5 Pass 3 PROPOSED doc.
+
+When the send action lands, this section will be updated from PREPPED FOR SANDY DARITY REVIEW to SENT with the send-date timestamp.
+
+### Cross-thread items
+
+- **Cross-chapter $44B Program-vs-Trust-Fund DRIFT FLAG at Ch 2 / Ch 8** — the Ch 6 occurrence (line 21) was resolved by commit `5569600`. The Ch 2 line 67 + Ch 8 line 35 occurrences remain (per Ch 5 Phase-C-β-follow-up DRIFT FLAG); these are separate cross-chapter consistency-sweep workstream items, not packet-send-gating for Ch 6 alone but should land before broader multi-chapter Sandy review.
+- **Reference docx regeneration.** The `tmp/reference_letter_garamond.docx` referenced in Ch 5's Pass 3 send-disposition section is an untracked local artifact not present at session start. The Ch 6 .docx was generated using the Ch 5 Sandy-send .docx as the `--reference-doc` (which inherits the same Garamond + US Letter + 1″ margin styles by transitive style-inheritance). For future chapter Sandy-prep steps, either path works: (a) regenerate `tmp/reference_letter_garamond.docx` from a fresh Garamond + US Letter template; (b) use any prior chapter Sandy-send .docx as the reference. Both paths produce identical output styling.
+
+---
+
+*End of Sandy-send disposition section. Pass 3 PROPOSED doc state: PREPPED FOR SANDY DARITY REVIEW. Pass 3 verdict ratified by action; Phase-C-ε empty; line 21 Black Lung reframe applied; Ch 6 three-pass rigor cycle closed.*
