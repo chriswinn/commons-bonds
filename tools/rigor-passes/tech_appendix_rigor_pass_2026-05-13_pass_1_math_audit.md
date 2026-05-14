@@ -10,7 +10,9 @@
 
 ## Summary
 
-Two MUST-FIX findings (both definitional/proof-logic at the framework's central equation); eight SHOULD-FIX findings (mix of cross-reference targets, internal-consistency, numerical-labeling, and proof-bridge tightness); seven LOW findings (cosmetic numbering and notation, punted to Pass 2 typography sweep).
+**Original draft 2026-05-13:** Two MUST-FIX findings (both definitional/proof-logic at the framework's central equation); eight SHOULD-FIX findings (mix of cross-reference targets, internal-consistency, numerical-labeling, and proof-bridge tightness); seven LOW findings (cosmetic numbering and notation, punted to Pass 2 typography sweep).
+
+**Post-Amendment 2026-05-13 (Approach B ratified; see Amendment section at end):** Three MUST-FIX (F-1 substantially applied in commits `70dce3f` + `fc7808a`; F-2 + new F-18 pending Phase C); seven SHOULD-FIX (F-4 closed by `fc7808a`; F-5 downgraded to LOW; new F-19 added; F-3, F-6, F-7, F-8, F-9, F-10 pending Phase C); eight LOW (F-5 added; F-11 through F-17 unchanged).
 
 The Tech Appendix's mathematical apparatus is largely sound. Theorems 10.1a, 10.3, 10.4 (proofs of both sufficient-condition cases + knife-edge corollary), and the §17 sum-of-costs generalization are correctly derived. The Norway Method-3 numerical worked example (§11.5) computes correctly. The four-gates apparatus (§7) is internally coherent.
 
@@ -41,6 +43,8 @@ Cross-references from Ch 6 prose to Tech Appendix anchors (#sec-7-four-gates, #s
 | F-15 | Sub-numbering inconsistency within §11 deep calibrations | LOW (Pass 2) | §11.5 (Norway) uses sub-headings "§1.1", "§1.2", ... ; §11.6 (McDowell) uses "§2.1", "§2.2", ... ; §11.7 (CSD-RCV correlation) uses "§3.1", "§3.2", ... ; §11.8 (Method 3 sensitivity) uses "§3.1" (collision with §11.7 §3.1 sub-heading) | Each §11.x deep-calibration block uses internal-counter numbering (§1.1, §2.1, etc.) rather than the outer-block-anchored (§11.5.1, §11.6.1, etc.). This creates cross-reference ambiguity: a reference to "§3.1" inside §11.7 collides with "§3.1" inside §11.8 (both exist; both label different sub-headings). | Renumber all §11.x.y sub-headings with the full outer-block prefix (§11.5.1, §11.5.2, ..., §11.6.1, ..., §11.7.1, ..., §11.8.1, ...). Punt to Pass 2 typography sweep + cross-reference audit. |
 | F-16 | §3.1 cross-reference target ambiguity | LOW (Pass 2) | §10.1a A1 references "(Per §3.1)"; §10.4 Statement uses the §3.1 integrand directly; §17.6 "two-term formula from §3.1" | "§3.1" in the Tech Appendix is "Core Formula (Term-by-Term Translation)". §3.1 contains the RCV integrand restatement (line 711) but does NOT contain CS = RCV − B (which is in §1.7). The "§3.1" cross-reference target is therefore correct for the RCV integrand but wrong for the CS equation. This is the root cause of F-3. | Resolved if F-3 is applied. Punt residual to Pass 2 cross-reference audit. |
 | F-17 | "existential substitutability gap" register/capitalization | LOW (Pass 2) | §1.9 Definition 1.9 ("existential substitutability gap"); §13 ("Industrial-Existential Substitutability Gap"); §13.1 ("existential substitutability gap"); §3.5 "high existential substitutability gap resources" | The term appears with mixed capitalization (sometimes "existential substitutability gap" lowercase, sometimes "Industrial-Existential Substitutability Gap" mixed-case). §1.9 specifies the formula `existential substitutability gap(R) = S_max(industrial) − S_max(existential)` and §13 lead-in says "framework does not name a derived scalar... concept is preserved in prose as the *existential substitutability gap* (lowercase descriptive phrase)". The §13 register decision is clear; surface presentations elsewhere drift. | Pass 2 typography: align all instances to the §13-ratified lowercase descriptive phrase. No math impact. |
+| F-18 | Theorem 10.4 knife-edge corollary proof gap | **MUST-FIX** | §10.4 Theorem 10.4 knife-edge divergence corollary (post-Case SC2 proof) | Corollary states `RCV = ∞` when (a) `S_max < 1`, (b) `r_∞ = 0`, (c) `∫_{t₀}^∞ [1−S_max]·U dt = ∞`. Proof bounds `f(t) ≥ [1−S_max]·U·D_∞` and requires `D_∞ > 0` to conclude `∫ f dt = ∞`. But `D_∞ > 0` does NOT follow from `r_∞ = 0` alone. Counterexample: `r(s) = 1/s` gives `r(s) → 0` as `s → ∞` (so `r_∞ = 0`), but `∫_{t₀}^∞ r(s) ds = ln(∞) − ln(t₀) = ∞`, so `D(t, t₀) = exp(−ln(t/t₀)) = t₀/t → 0` and `D_∞ = 0`. The proof's parenthetical acknowledges this loosely ("specifically if r(s) = 0 for s sufficiently large, D_∞ > 0; if r(s) integrable on [t₀, ∞), D_∞ > 0") but the corollary's stated hypothesis doesn't restrict to those cases. As stated, the corollary is provably false for slow-decaying r. | Two valid fixes: (a) **Tighten hypothesis (b)** from `r_∞ = 0` to `∫_{t₀}^∞ r(s) ds < ∞` (which guarantees `D_∞ > 0`). Note this is strictly stronger than `r_∞ = 0`. (b) **Rework the proof** to bound the discounted integral `∫ [1−S_max]·U·D dt` directly without invoking `D_∞`. In the `r(s) = 1/s` case: `∫ [1−S_max]·U·(t₀/t) dt` — if `U` is bounded below by positive constant `U_min`, this is `[1−S_max]·U_min·t₀·∫(1/t)dt = ∞`. Direct-bound proof handles slower-decay cases the `D_∞ > 0` approach misses. Recommend (a) for proof economy; (b) for strongest result. |
+| F-19 | §16.3 Spatial Cost Severance formula doesn't yield claimed property | SHOULD-FIX | §16.3 Spatial cost severance formalization | Stated formula: `SCS = ∫_E C(x,t) dx dt − ∫_C B(x,t) dx dt` (E = extraction region; C = consumption region; C(x,t) = cost-borne-at-location; B(x,t) = benefit-received-at-location). Stated property: *"When the extraction region and the consumption region coincide (Mars colony mining its own rare earths; Norway's sovereign wealth fund), SCS → 0."* This doesn't follow from the formula. If E = C as regions, the formula reduces to `∫_E [C(x,t) − B(x,t)] dx dt`, which equals 0 only if `C(x,t) = B(x,t)` pointwise — a far stronger condition than "regions coincide." Additional issue: B(x,t) used for "benefit" collides notationally with Accountability Bond B used everywhere else in the framework. | Restate formula to yield the claimed property. Candidates: (a) `SCS = ∫_{E∖C} C(x,t) dx dt` — cost incurred in extraction region outside consumption region; yields SCS = 0 when E ⊆ C. (b) `SCS = ∫_E C(x,t) dx dt − ∫_{E∩C} B(x,t) dx dt` — total cost in E minus benefits-realized-in-overlap. Or soften the claim: "SCS approaches 0 in the limit where local benefits offset local costs at each location within the shared region." Independently: rename "benefit" variable to avoid Accountability-Bond-B collision (e.g., `V(x,t)` for value or `Y(x,t)` for yield-at-location). |
 
 ---
 
@@ -82,4 +86,63 @@ If author ratifies all findings:
 
 ---
 
-*End of Pass 1 findings. PROPOSED, awaits ratification. Phase C application is a separate session per #20 discipline.*
+*End of Pass 1 findings (original draft 2026-05-13). PROPOSED, awaits ratification. Phase C application is a separate session per #20 discipline.*
+
+---
+
+## Amendment 2026-05-13 — Approach B ratification + status update
+
+Following Pass 1's commit `ab9fa22`, three substantive conversational threads ran during the session and were applied to the Tech Appendix in subsequent commits.
+
+### Context
+
+1. **Cost Severance canonical form clarification.** Author confirmed during session: `total CS = (CSD − B₁) + (RCV − B₂)` is the canonical algebraic form; `CS = RCV − B` (§1.7) is the high-level shorthand used throughout chapter prose and forward-pricing empirical work. The §5 decomposition is structural; the §1.7 shorthand is operative for Book 1's forward computations. The two forms coincide when `(CSD − B₁) ≈ 0` or in pure forward-looking analysis bracketing backward damages.
+
+2. **Bidirectional methodology framing.** Discussion surfaced that the framework's apparatus (CIT + Four Gates + Three Ways of Counting) is direction-agnostic in its formal statement: the same methodology applies forward (RCV) and backward (CSD). Book 1's *empirical scope* is forward; the framework's *reach* is bidirectional. Approach B was ratified (rigor test against 20-character audience pressure-test set scored Approach B as the strongest trade-press-safe balance with substantive reparations-economics + Tier-3 cultural-resonance engagement). Tech Appendix gets a bidirectional articulation (new §5.5); chapter prose gets ~620w in Ch 5 §"Restitution and Foreclosure" + ~100w Ch 10 summary echo; no empirical recomputation of §11 cases needed.
+
+3. **Darity post-interview synthesis incorporation.** Synthesis `3e39061` (parent of this branch) surfaced MI-1 (Restitution sits inside Darity-Mullen reparations typology, not alongside-and-distinct), MI-2 (coercion vector methodologically unresolved in the reparations-economics field; legacy-effect pricing pathway is the framework's reach for coerced-extraction cases), and SI-1 (future profitability priced; future harms not — Sandy's deepest single-line case for the framework's measurement work). MI-1 and MI-2 incorporated into Tech Appendix in commit `70dce3f`.
+
+### What's been applied
+
+**Commit `70dce3f` — Approach B + Darity MI-1/MI-2 incorporation:**
+- **§1.10 Autonomy commons.** New "Scope-of-applicability boundary at the extreme-scarcity end" paragraph names the coercion vector as sui-generis to the framework's information-asymmetry primary case-class. Per MI-2.
+- **§5.1.1 Restitution Bond.** New positioning paragraph defers to Darity-Mullen 2020 *From Here to Equality* reparations typology (3 components: acknowledgment-and-atonement; redress with sub-types symbolic / material restitution; closure). The framework's Restitution Bond (B₁) is positioned as operationalizing the restitution-as-redress component within Darity-Mullen's reparations framework, extended to the broader case-class. Per MI-1.
+- **§5.5 Bidirectional application.** New section articulates that the framework's apparatus is direction-agnostic; Book 1 scopes to forward-pricing empirically; backward application is structurally identical methodology and is the scope of subsequent work. Air-vs-freedom abundance-masking parallel anchored to Theorem 10.3. Three Ways forward/backward operationalizations specified. Example backward variables cited (racial wealth gap; longevity gap; coercion vector; Indigenous dispossession; cultural-knowledge severance; intergenerational trauma) with explicit non-computation in Book 1.
+- **TOC §5 annotation** updated.
+
+**Commit `fc7808a` — §1.7 ↔ §5.5 cross-reference + §17.5 bidirectional preservation:**
+- **§1.7 Definition 1.7.** Forward-pointer paragraph added after the `CS = RCV − B` formula. Names the canonical bidirectional articulation with pointers to §5 + §5.5; documents the two-forms-coincide condition.
+- **§17.5.** New "Corollary — bidirectional preservation" added after the existing directional-monotonicity + published-result-preservation corollaries. States that the sum-of-costs generalization applies independently to each integrand (backward CSD-side and forward RCV-side) and the directional-monotonicity corollary operates symmetrically on both. **Closes F-4.**
+
+### Revised severity / scope per finding (post-Approach-B)
+
+- **F-1 (definitional collision).** Reframed: §1.7's `CS = RCV − B` and §5's decomposed form coexist as different-scope statements (forward shorthand vs. full bidirectional articulation), not as algebraically-conflicting definitions. **Substantially applied** in commits `70dce3f` + `fc7808a`; remaining work is Theorem 10.1a A1 cross-reference fix (F-3 territory) + Theorem 10.1b symmetric-application addendum (Phase C Tier 2 scope).
+- **F-4 (§17.5 silent on §5 decomposition).** **Closed by commit `fc7808a`.**
+- **F-5 (§11.5 Norway empirical recomputation).** **Downgraded from SHOULD-FIX to LOW.** Under Approach B, Book 1's §11 empirical figures stay forward-only as computed; no CSD-side numerical revision required. The bidirectional articulation in §5.5 contextualizes the §11 cases as forward-pricing illustrations within the broader bidirectional apparatus. Optional clarifying-label addition in each §11.x deep-calibration block ("forward-pricing per §1.7 shorthand; backward-side computation outside Book 1 scope per §5.5") — could be added but not blocking.
+- **F-7 (Norway gas-emissions correction).** Unchanged severity (SHOULD-FIX). Now isolated to forward Method 1 atmospheric floor correction (independent of F-5's CSD framing). Still needs Norway oil-vs-gas production-split research before applying. Sequenced after research lands. Doesn't block Phase C Tier 1.
+
+### NEW findings surfaced during this session
+
+- **F-18 (Theorem 10.4 knife-edge corollary proof gap).** Added to findings table above. **MUST-FIX.** Provably-false-as-stated for slow-decaying `r`. Two valid fixes specified.
+- **F-19 (§16.3 SCS formula doesn't yield claimed property).** Added to findings table above. **SHOULD-FIX.** Formula needs restatement or claim softening. Notation collision (B for benefit vs. B for Accountability Bond) flagged for independent fix.
+
+### Phase C scope (post-amendment)
+
+- **Tier 1 (low-risk spot-fixes; parallel-safe; fire as single commit):** F-3, F-6, F-8, F-9, F-10, F-18, F-19.
+- **Tier 2 (paired commit; definitional consistency under Approach B):** F-1 residual (Theorem 10.1a A1 cross-reference fix is folded into F-3; Theorem 10.1b symmetric-application one-paragraph addendum) + F-2 (Theorem 10.5 proof equivocation cleanup).
+- **Tier 3 (dropped — Approach B obviates).** Was substantive §11 empirical recomputation; now LOW per F-5 revision.
+- **Tier 4 (Pass 3 pedagogical scaffolding scope; post-Sandy-engagement).** General cross-domain reader scaffolding; Sandy-anchored example-variable citations sharpened against his written response; possible MI-1 typology paragraph wording refinement if Sandy pushes on phrasing.
+- **F-7 (Norway gas-emissions correction).** Sequenced after Norway oil/gas production-split research lands. Single commit when ready.
+- **F-11 through F-17.** Pass 2 typography sweep (separate workstream).
+
+### Tech Appendix branch readiness
+
+After this amendment commit + Tier 1 + Tier 2 Phase C session, the Tech Appendix is in clean state for Sandy packet ship per his 1–2 week commitment to read Tech Appendix + Ch 6.
+
+### Manuscript paste-text status
+
+Ch 5 §"Restitution and Foreclosure" paste-text (~620w) and Ch 10 summary echo (~100w) delivered in session transcript. Not pushed in this branch per WP#9 + Path B contamination discipline; author applies chapter edits manually on a separate manuscript-edit branch.
+
+---
+
+*End of Amendment 2026-05-13. Original Pass 1 findings (above the Amendment line) remain authoritative for the math-audit substance; this Amendment captures applied-scope-and-status updates following Approach B ratification.*
