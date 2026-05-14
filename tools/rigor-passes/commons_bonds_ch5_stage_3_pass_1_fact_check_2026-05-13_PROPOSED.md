@@ -7,7 +7,7 @@
 **Word count:** ~9,574w (per workstream handoff; verified line count 238)
 **Pass scope:** Pass 1 (Fact-check) only. Pass 2 (Voice-polish) and Pass 3 (Audience-load) NOT run in this session — per workstream phasing.
 **Hard constraint observed:** No spot-fixes applied to chapter file. Phase C session (post-author-ratification) applies recommended edits.
-**Status:** **PROPOSED — awaits author ratification. Amended 2026-05-13 — see Amendment block at end-of-doc for state-of-findings refresh against project changes after the original doc landed.**
+**Status:** **PROPOSED — awaits author ratification. Amended TWICE 2026-05-13 — Amendment 1 (TA §5.5 landing + state refresh) + Amendment 2 (authoritative-source verification verdicts + SI-1 absence flag). See Amendment blocks at end-of-doc.**
 
 ---
 
@@ -723,4 +723,100 @@ After Phase C Tier 1 + Tier 2 lands and author ratifies, Ch 5 is ready to send t
 
 ---
 
-*End of Amendment 2026-05-13. Original Pass 1 findings (above the Amendment line) remain authoritative for the audit substance; this Amendment captures state-of-findings updates following TA §5.5 landing + ancillary TA changes since the original doc.*
+*End of Amendment 1 (2026-05-13). Original Pass 1 findings remain authoritative for the audit substance; Amendment 1 captures state-of-findings updates following TA §5.5 landing + ancillary TA changes since the original doc.*
+
+---
+
+## Amendment 2 (2026-05-13) — Authoritative-source verification verdicts
+
+**Trigger.** Author re-fired with the directive: *"do a search and try to verify all questioned numbers against authoritative website public numbers."* Web-verification ran against questioned figures from the original Pass 1 (MUST-FIX-2, MEDIUM-1 through MEDIUM-5, LOW-4 cluster) + opportunistic checks on adjacent figures (Black Lung Trust Fund, GoFundMe citation, foreclosure aggregates, Fed lending framing). This amendment captures verification verdicts + new findings surfaced by the verification + the Sandy-interview-already-happened state correction.
+
+### §B.1 Authoritative sources consulted (verification round)
+
+- **Social Security**: [SSA 2024 Trustees Report — Infinite Horizon](https://www.ssa.gov/oact/tr/2024/VI_F_infinite.html), [SSA Trustees Summary](https://www.ssa.gov/oact/trsum/), [CBPP analysis of 2024 Trustees Report](https://www.cbpp.org/research/social-security/what-the-2024-trustees-report-shows-about-social-security), [CRFB analysis of 2024 Trustees Report](https://www.crfb.org/papers/analysis-2024-social-security-trustees-report), [Congress.gov SS 2024 Selected Findings IF12663](https://www.congress.gov/crs-product/IF12663), [American Academy of Actuaries Highlights of the 2024 Trustees Report](https://actuary.org/wp-content/uploads/2024/07/IssueBrief_2024_SS_TrusteesReport.pdf).
+- **Deepwater Horizon**: [NOAA Office of Response & Restoration — Assessing the Impacts](https://response.restoration.noaa.gov/about/media/assessing-impacts-deepwater-horizon.html), [NOAA Final PDARP 2016 repository](https://repository.library.noaa.gov/view/noaa/18084), [NOAA DWH Settlements Where the Money Went](https://www.noaa.gov/explainers/deepwater-horizon-oil-spill-settlements-where-money-went), [Wikipedia Economic effects of DWH](https://en.wikipedia.org/wiki/Economic_effects_of_the_Deepwater_Horizon_oil_spill), [BuzzFeed News BP-Mexico $25M settlement (2018) investigation](https://www.buzzfeednews.com/article/nathanieljanowitz/bp-mexico-deepwater-horizon-oil).
+- **Federal Reserve emergency lending**: [GAO-11-696](https://www.gao.gov/products/gao-11-696), [CRS R44185 Federal Reserve Emergency Lending](https://www.congress.gov/crs-product/R44185).
+- **Foreclosures**: [CoreLogic Foreclosure Crisis Report 2017 via ALTA](https://www.alta.org/file/CoreLogic-Foreclosure-Report).
+- **Black Lung Trust Fund**: [CRS R45261 Black Lung Program and Trust Fund](https://www.congress.gov/crs-product/R45261).
+- **GoFundMe medical fundraising**: [Kenworthy & Igra AJPH 2022 PubMed](https://pubmed.ncbi.nlm.nih.gov/35113726/).
+
+### §B.2 State-of-findings refresh post-verification
+
+| Finding ID | Pre-verification status | Post-verification verdict | Authoritative source basis |
+|---|---|---|---|
+| **MUST-FIX-2** ($108T misattribution at Ch 5:112) | UNCHANGED (still Sandy-gating) | **CONFIRMED WRONG with stronger external evidence** | 2024 Trustees Report: 75-year unfunded obligation ~$23.8T–$25.4T; infinite-horizon ~$62.8T–$65.9T. Neither matches $108T. SS+Medicare combined 75-year shortfall ~$78T (also not $108T). The $108T figure cannot be reconciled to any canonical Trustees publication as "unfunded liability." Recommended Option A (recategorize as foregone-investment opportunity cost per the case-study brief) is strongly supported by external evidence. |
+| **MEDIUM-3** (depletion year + benefit rate at Ch 5:108-110) | "77% outdated; should be 79% or 83%" | **PARTIALLY CORRECTED: 77% IS canonical; depletion YEAR is what needs update** | 2024 Trustees Report: OASI alone depleted **2033**, **77% payable** at depletion; OASDI combined depleted **2035**, **83% payable** at depletion. Ch 5's "77%" matches OASI canonical exactly. Ch 5's "2034" is the 2023 Trustees Report's old OASDI-combined date (now superseded). **Revised fix**: change "2034" → "2033" (preserve 77%, OASI framing — minimum edit) OR pair "2035" with "83%" (OASDI combined framing — larger edit). |
+| **MEDIUM-4** (BP-Mexico settlement year at Ch 5:50) | "2017 likely wrong; possibly 2014" | **CORRECT YEAR IS 2018** | BuzzFeed News investigation: settlement officially filed in US court **February 15, 2018**; "more than eight years after the Deepwater Horizon disaster." Both Ch 5's "2017" and the prior pass's speculative "2014" are wrong. Settlement amount $25.5M (Ch 5's "approximately $25M" accurate). |
+| **MEDIUM-2** (NOAA "4.3 million gallons of fish") | "Unit error; verify NOAA figure" | **CONFIRMED WRONG on both unit AND magnitude** | NOAA NRDA Final PDARP 2016 canonical: 4–8.3 **BILLION** harvestable oysters lost; 2–5 **TRILLION** newly hatched fish killed; 51K–84K birds; 56K–166K small juvenile sea turtles. Ch 5's "4.3 million gallons" matches no NOAA-canonical unit or magnitude. Recommended replacement: "killed an estimated 4 to 8 billion oysters and 2 to 5 trillion newly hatched fish, along with tens of thousands of birds and sea turtles." |
+| **MEDIUM-1** ($150B CBO total economic losses for DWH) | "Attribution unverifiable" | **CONFIRMED unverifiable** | No CBO publication identified carrying $150B total-economic-losses figure for DWH. Aggregate verifiable: tourism ~$23B over 3 years (US Travel Association); fishing ~$2.5B; BP cumulative costs ~$65B+ (Wikipedia summary). The $150B is order-of-magnitude-defensible from multi-source aggregates but the CBO attribution is unsupportable. Option B (hedge attribution) stands. |
+| MUST-FIX-1 (TA §5.5 broken cross-ref) | RESOLVED (Amendment 1) | UNCHANGED — still resolved | TA §5.5 landed; no action required. |
+| MEDIUM-1A (Ch 5:214 vocab) | DOWNGRADED from SHOULD-FIX-1 (Amendment 1) | UNCHANGED — light forward-pointer recommendation stands | Light forward-pointer fix; fold with N-1 + N-2 + MEDIUM-5 in integrated edit. |
+| MEDIUM-5 (Four gates anchor) | UNCHANGED with stronger forward-pointer target | UNCHANGED | Fold with MEDIUM-1A + N-1. |
+| LOW-1 through LOW-5 | UNCHANGED | UNCHANGED | Pre-publication refresh territory; defer to copyedit. |
+
+### §B.3 New findings surfaced by verification round
+
+**N-3 (NEW; MEDIUM): "10 million American households lost their homes to foreclosure between 2008 and 2012" overstates the completed-foreclosure measure.**
+- Location: [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:82](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:82)
+- Authoritative: CoreLogic — ~**5 million completed foreclosures** Sept 2008 – Mar 2014; ~4.8M by Dec 2013. RealtyTrac cumulative filings for 2008–2012 closer to ~11M. The two are different measures.
+- Ch 5's "10M households lost their homes" reads as completed-foreclosure framing (which is ~5M, half the stated figure) but is more consistent with filings cumulative.
+- **Recommended fix**: *"approximately ten million American households received foreclosure filings between 2008 and 2012, with roughly five million resulting in completed foreclosure"* — preserves the chapter's scale framing while distinguishing the two measures.
+- **Severity rationale**: MEDIUM (promote from LOW). Sandy will know CoreLogic numbers — he engages displacement/household-wealth-loss methodology. The 2x overstatement on the completed-foreclosure measure is concrete and falsifiable.
+
+**N-4 (NEW; LOW): Black Lung Trust Fund debt $4.5B is stale (current ~$6.5B).**
+- Location: [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:226](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:226)
+- Authoritative: CRS R45261 — cumulative debt $4.6B at end FY2021. More recent (2024–2025) reporting places debt ~$6.5B.
+- **Recommended action**: defer to pre-publication copyedit refresh. Add to cross-chapter consistency inventory's recurring-stat list.
+
+**N-5 (NEW; LOW): "Fed emergency lending exceeded sixteen trillion dollars at peak" mis-frames the GAO 2011 figure.**
+- Location: [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:82](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:82)
+- Authoritative: GAO-11-696 + CRS R44185 — the $16T is **cumulative sum of all loans** across the crisis (regardless of term), not peak outstanding balance. Peak outstanding loans were ~$1T in late 2008; Bloomberg's $7.77T included guarantees + commitments.
+- Ch 5's "at peak" is technically misleading. Sandy may flag the framing.
+- **Recommended fix**: replace "exceeded sixteen trillion dollars at peak" with "exceeded sixteen trillion dollars in cumulative emergency loans (per GAO 2011 audit)" or similar.
+
+**N-6 (NEW; LOW): Igra/Kenworthy citation should be Kenworthy & Igra 2022, not Igra et al. 2021.**
+- Location: [Chapter__5_THEACCOUNTABILITYGAP__Draft.md:154](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:154) (implicit citation per cross-thread #11 contribution block)
+- Authoritative: Kenworthy & Igra, *Medical Crowdfunding and Disparities in Health Care Access in the United States, 2016–2020*, **AJPH March 2022** (Vol 112, Issue 3). Lead author is Kenworthy (UW Bothell Nursing/Health Studies); Igra is second author (UW Seattle Sociology).
+- All figures verified accurate (437,596 campaigns 2016–2020; $2B+; 21.7M donations; 12% met goals; 16% no donations).
+- **Recommended action**: defer to cross-thread #11 endnote sweep. Cite as Kenworthy & Igra 2022.
+
+### §B.4 SI-1 absence flag (post-Sandy-interview state)
+
+Sandy-interview synthesis (commit `3e39061` per the §5.5 proposal doc) surfaced three load-bearing items:
+- **MI-1** (Restitution sits inside Darity-Mullen reparations typology, not alongside-and-distinct) — verified present in Ch 5:218 + TA §5.1.1.
+- **MI-2** (coercion vector methodologically unresolved in reparations-economics field; legacy-effects pathway is the framework's reach) — verified present in Ch 5:220 + TA §1.10.
+- **SI-1** ("future profitability priced; future harms not — Sandy's deepest single-line case for the framework's measurement work") — **NOT FOUND in Ch 5 or TA** per grep across both files for "future profit", "future harm", "profitabil", "profit.*priced", "harms.*not".
+
+The SI-1 absence is **not a Pass 1 fact-check finding** (Pass 1 audits Ch 5's existing prose against canonical sources; it does not audit interview-synthesis incorporation). It is surfaced here for author judgment because:
+- Sandy named SI-1 his deepest single-line case during the interview.
+- The Sandy-send packet (Ch 5 + Ch 6 + TA) should arguably reflect that input.
+- SI-1 may have been intentionally scoped to Ch 6 (methodology) or Ch 9 (policy economy) — needs verification in those chapters.
+- Alternatively, SI-1 may have fallen through the synthesis-incorporation step — needs a brief landing paragraph in Ch 5, Ch 6, or both before send.
+
+**Author action required**: determine whether SI-1 has a home in Ch 6, Ch 9, or elsewhere. If yes, no action. If no, recommend brief landing paragraph before Sandy send (~50–150 words).
+
+### §B.5 Revised aggregate verdict (post-verification)
+
+| Severity | Amendment 1 count | Amendment 2 count | Disposition |
+|---|---|---|---|
+| MUST-FIX | 1 (MUST-FIX-2) | **1** (MUST-FIX-2, reinforced) | Sandy-send-gating |
+| MEDIUM | 6 | **7** (added N-3) | Phase C-α gating + Tier 2 cleanup |
+| LOW | 7 (N-1 + N-2) | **10** (added N-4 + N-5 + N-6) | Pre-publication refresh / endnote sweep |
+| CITATION-LATER | 16M + 14L | **16M + 14L** (Kenworthy & Igra cite-form sharpened) | Cross-thread #11 |
+| OPEN FLAG | — | **1** (SI-1 absence) | Author judgment pending |
+
+**Sandy-send-gating set (Phase C-α Tier 1)**: MUST-FIX-2 ($108T → opportunity-cost reframe) + MEDIUM-4 (2018 correction) + N-3 (foreclosure measure tightening) + MEDIUM-2 (NOAA biological-magnitude rewrite) + MEDIUM-3 (depletion year 2034 → 2033 OASI) + MEDIUM-1A integrated forward-pointer (folding N-1 + N-2 + MEDIUM-5).
+
+**Tier 2 cleanup (pre-send if time; post-send if not)**: MEDIUM-1 (CBO hedge) + N-5 ($16T framing).
+
+**Pre-publication refresh / endnote sweep (Tier 3, post-send)**: LOW-1 through LOW-5 + N-4 (Black Lung debt) + N-6 (Kenworthy & Igra cite-form) + 16M + 14L citation items.
+
+### §B.6 Phase C-α application sequencing (FINAL — supersedes Amendment 1 sequencing)
+
+After Amendment 2's verification round, Phase C-α should fire as a single integrated commit covering the Tier-1 gating set above. Estimated scope: ~75–90min for the integrated spot-fix application + cross-chapter consistency inventory rows + cross-thread #11 row updates. Phase C-α's deliverable is Ch 5 ready for the Sandy send packet.
+
+After Phase C-α lands and the Sandy packet ships, the post-send queue (Pass 2 voice-polish + Pass 3 audience-load + Tier 2 cleanup + pre-publication refresh) proceeds per the standard Phase A→B→C cadence.
+
+---
+
+*End of Amendment 2 (2026-05-13). Original Pass 1 + Amendment 1 remain authoritative for the audit substance not touched here; Amendment 2 captures verification verdicts against authoritative public sources + new findings (N-3, N-4, N-5, N-6) + the SI-1 post-interview-state absence flag.*
