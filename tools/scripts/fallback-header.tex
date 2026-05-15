@@ -1,0 +1,16 @@
+% xelatex fallback-font header for sandbox chapter builds.
+% EB Garamond 12-Bold lacks U+2014 (em-dash); EB Garamond lacks U+2248 (≈) in all
+% weights. Map those codepoints to DejaVu Serif (which has all three weights + full
+% coverage) so they render as glyphs rather than tofu boxes. The surrounding font
+% context is otherwise preserved — only the listed codepoints route through the
+% fallback font.
+
+\usepackage{newunicodechar}
+\newfontfamily\fallbackfont{DejaVu Serif}
+\newfontfamily\fallbackfontbold{DejaVu Serif}[BoldFont={DejaVu Serif Bold}]
+
+% em-dash (U+2014): EB Garamond 12-Bold lacks the glyph
+\newunicodechar{—}{{\fallbackfont—}}
+
+% approximately-equals (U+2248): EB Garamond Regular + Bold both lack the glyph
+\newunicodechar{≈}{{\fallbackfont≈}}
