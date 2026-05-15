@@ -17,42 +17,45 @@
 ## Email
 
 **To:** william.darity@duke.edu
-**Subject:** A short follow-up — three citation forms for your eyes, and two small TA revisions
+**Subject:** Citation-form ratification + three close-paraphrase paragraphs + revised TA attached
 
 Sandy,
 
-A short follow-up to the packet I sent on Thursday. In going back over the three pieces with the Q0 understanding from our call in mind, I found three paragraphs that are closer to direct paraphrase of our conversation than I had registered when I wrote them. Rather than guess at whether each needs the personal-communication citation form — and rather than wait for you to surface them in your reading — I'd rather raise all three together now and let you say.
+A short follow-up to the packet I sent on Thursday. Three things landed for me after the packet went out, and I'd rather raise them together now than have any surface for the first time in your reading.
 
-The first is one I already cited under that form. I want your eyes on whether the language is what you'd want.
+**First: a citation-form decision I'm asking you to ratify.** The shipped packet used the academic *"personal communication, May 2026"* convention. On reflection, that form fits informal-correspondence sourcing but undersells the call — it was a structured, prepared, recorded interview, not a passing email exchange. I've converted all instances to:
 
-**Ch 5, in the Restitution-and-Foreclosure section (line 220 of the working draft):**
+- *In-text:* `(Darity 2026)` parenthetical; or `Darity (2026)` narrative; or `(informed by Darity 2026)` where the framework's claim extends beyond what you said.
+- *Bibliography (Technical Appendix §18):* `Darity, William A., Jr. Interview by Christopher Winn. May 13, 2026. Recording on file with author.`
 
-> Some backward variables sit at the framework's analytical boundary rather than inside it. The coercion vector itself — what should be assigned to coerced labor as a cost dimension, distinct from coerced labor's legacy effects — remains methodologically unresolved in the reparations-economics field. […] The direct pricing of the coercion vector remains an open question, acknowledged outside the book's empirical scope; the Technical Appendix's scope-of-applicability boundary at §1.10 names the variable explicitly *(informed by Darity, personal communication, May 2026)*.
+The form parallels how the book cites Parfit 1984, Sen 1985 / 1999, Darity & Mullen 2020, and the other published-work entries. If you'd prefer different language — back to *"personal communication"*; or *"interview with author"*; or footnote-style; or anything else — please say and I'll convert all instances.
 
-If *"informed by Darity, personal communication, May 2026"* is the form you'd want, I'll leave it as is. If you'd prefer different language — *per Darity, personal communication, 2026-05-13 interview*; or *informed by William Darity Jr., personal communication, May 2026*; or anything else — please redline and I'll defer.
+**Second: three close-paraphrase paragraphs.** Going back over the packet with the Q0 understanding in mind, I found three paragraphs that are closer to direct paraphrase of our conversation than I had registered when I wrote them. One was already cited in the shipped Ch 5 (and is now under the new form); the other two are uncited in the shipped Ch 6 and I'd like to know whether you want them attributed.
 
-The other two paragraphs are uncited at the moment. They both came out of the call and read to me, in re-reading them, as close paraphrases of how you said them — close enough that I think they warrant the same review-before-use treatment as the line above.
+**Ch 5 line 220** (Restitution-and-Foreclosure section — the scope-acknowledgment of the coercion-vector pricing question) — already cited, asking you to ratify the new form:
 
-**Ch 6, in the Three Ways of Counting section (line 124 of the working draft) — the profitability-vs-harms asymmetry you named on the call:**
+> …the Technical Appendix's scope-of-applicability boundary at §1.10 names the variable explicitly *(informed by Darity 2026)*.
 
-> Markets do have a mechanism for pricing future profitability — discounted-cash-flow analysis aggregated through equity and debt markets, embedded in every asset price as an implicit expectation about future returns. The mechanism is implicit but real. Markets do not have an equivalent mechanism for pricing future harms. No aggregating institution produces a comparable price signal for the externality tail, for foreclosure cost, or for the long-tail damage of cost severance.
+**Ch 6 line 124** (Three Ways of Counting section — the profitability-vs-harms asymmetry you named on the call) — uncited; proposed attribution at end of paragraph:
 
-I should also flag a small inaccuracy in the cover email I sent on Thursday — I described this framing as *"in progress."* That wasn't quite right at send-time; the paragraph above had landed in the chapter the night before I sent the packet, as part of a post-call edit round. If you'd want it cited, the natural place is at the end of the paragraph after *"long-tail damage of cost severance."* If you'd rather it not carry an attribution, or you'd want different language than the Ch-5 form, please say.
+> Markets do have a mechanism for pricing future profitability — discounted-cash-flow analysis aggregated through equity and debt markets, embedded in every asset price as an implicit expectation about future returns. The mechanism is implicit but real. Markets do not have an equivalent mechanism for pricing future harms. No aggregating institution produces a comparable price signal for the externality tail, for foreclosure cost, or for the long-tail damage of cost severance *(Darity 2026)*.
 
-**Ch 6, in the Two Kinds of Commons section (line 262 of the working draft) — the Ostrom homogeneity-of-interest break-point you raised:**
+I should also flag a small inaccuracy in Thursday's cover email — I described this framing as *"in progress."* That wasn't quite right at send-time; the paragraph above had landed in the chapter the night before I sent the packet, as part of a post-call edit round.
 
-> A second break-point Ostrom's framework does not address is the heterogeneous-stakeholder commons: where a community drawing from a shared commons is divided on ethnic, racial, class, or other grounds, and carries conflicting use-preferences for the commons itself. Ostrom's eight design principles presume substantially-aligned stakeholders capable of negotiating governance institutions; when the stakeholders are structurally divided, the design principles do not produce a solution because the problem is not solely coordination-of-mutually-acceptable-use but contestation over what acceptable use is. […] This second break-point connects the framework to the analytical apparatus of stratification economics (Darity, Hamilton, and collaborators), which analyzes structural-extraction operating through hierarchical group-divisions of race, class, and ethnicity.
+**Ch 6 line 262** (Two Kinds of Commons section — the Ostrom heterogeneous-stakeholder break-point you raised) — uncited; proposed attribution at end of paragraph:
 
-Same question as the second paragraph. If the framing reads to you as close-enough paraphrase to warrant the citation form, I'll add it; if you'd rather it not carry one, or you'd want different language, I'll defer.
+> A second break-point Ostrom's framework does not address is the heterogeneous-stakeholder commons… This second break-point connects the framework to the analytical apparatus of stratification economics (Darity, Hamilton, and collaborators), which analyzes structural-extraction operating through hierarchical group-divisions of race, class, and ethnicity *(Darity 2026)*.
 
-**Two small revisions to the Technical Appendix since I sent it Thursday.** Both pick up structural questions our conversation surfaced that the chapter prose was carrying but the TA's formal apparatus hadn't caught up to. Paragraph-level additions, not structural reorganization:
+For both Ch 6 paragraphs: if the framing reads to you as close-enough paraphrase to warrant the attribution, I'll add it; if you'd rather it not carry one, I'll defer.
 
-- **§1.10** now carries a heterogeneous-stakeholder-commons scope-of-applicability paragraph parallel to the coercion-vector treatment you already saw, under the same *(informed by Darity, personal communication, May 2026)* citation form, naming stratification economics (Darity, Hamilton, and collaborators) as the analytical apparatus the framework connects to at that scope edge.
-- **§5.4** now pairs Parfit and Sen as the framework's two-pronged philosophical grounding — Parfit grounding the standing question (already in the section), Sen 1985 / 1999 grounding the valuation question. The pairing came from your pointer to Sen on the call. The Residual Commons Value is, in Sen's vocabulary, a measurement of the capability set extraction forecloses.
+**Third: two small Technical Appendix revisions** I made since Thursday — both pick up structural questions our conversation surfaced that the TA's formal apparatus hadn't caught up to. **I've attached the revised TA derivatives** (`Technical_Appendix_Commons_Bonds_with-citations_2026-05-14.docx` + `.pdf`) so you can read the new language in context rather than have me quote it inline. Two paragraph-level additions, both carrying the new *(Darity 2026)* citation form:
 
-If you'd like the revised TA, I can send the new derivatives. Otherwise the changes will be in the next version that goes to any other reader — no need to re-read what you have on account of these.
+- **TA §1.10** now carries a heterogeneous-stakeholder-commons scope-of-applicability paragraph parallel to the coercion-vector treatment you already saw — names stratification economics (Darity, Hamilton, and collaborators) as the analytical apparatus the framework connects to at that scope edge. This is the formal-apparatus mirror of the Ch 6 line 262 prose above.
+- **TA §5.4** now pairs Parfit and Sen as the framework's two-pronged philosophical grounding — Parfit grounding the standing question (already in the section), Sen 1985 / 1999 grounding the valuation question. The Residual Commons Value is, in Sen's vocabulary, a measurement of the capability set extraction forecloses on whoever-the-future-people-turn-out-to-be. The pairing came from your pointer to Sen on the call; it carries the *(Darity 2026)* attribution at the end of the paragraph.
 
-No deadline, no hurry. If a one-line *"all four read as fine, citation form acceptable"* fits your schedule, that closes everything. If you'd prefer to redline particular phrases, redline freely. If anything else has surfaced since you started reading, that's welcome too.
+The revised TA derivatives also include the new §18 bibliography entry shown above. No structural reorganization, no changes to case-study computations or apparatus — paragraph-level additions only.
+
+No deadline, no hurry. The cleanest reply, if it fits your schedule, is a one-line *"citation form is fine, all five read as fine, no changes needed"* — that closes everything in one round. If you'd rather redline the form itself or particular phrases, redline freely. If anything else has surfaced in your reading since Thursday, that's welcome too.
 
 Thank you again for the time you're putting into this.
 
