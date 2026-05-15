@@ -53,7 +53,7 @@ For both Ch 6 paragraphs: if the framing reads to you as close-enough paraphrase
 - **TA §1.10** now carries a heterogeneous-stakeholder-commons scope-of-applicability paragraph parallel to the coercion-vector treatment you already saw — names stratification economics (Darity, Hamilton, and collaborators) as the analytical apparatus the framework connects to at that scope edge. This is the formal-apparatus mirror of the Ch 6 line 262 prose above.
 - **TA §5.4** now pairs Parfit and Sen as the framework's two-pronged philosophical grounding — Parfit grounding the standing question (already in the section), Sen 1985 / 1999 grounding the valuation question. The Residual Commons Value is, in Sen's vocabulary, a measurement of the capability set extraction forecloses on whoever-the-future-people-turn-out-to-be. The pairing came from your pointer to Sen on the call; it carries the *(Darity 2026)* attribution at the end of the paragraph.
 
-**Fourth: a §5.2 sentence correction.** Want to flag this one explicitly because it corrects something you saw in Thursday's packet, not just a new addition. The §5.2 paragraph (Restitution Bond / Darity-Mullen typology positioning) carried this sentence on Thursday:
+**Fourth: a §5.1.1 sentence correction.** Want to flag this one explicitly because it corrects something you saw in Thursday's packet, not just a new addition. The Darity-Mullen typology positioning paragraph inside §5.1.1 (B₁ Restitution Bond) carried this sentence on Thursday:
 
 > *"Darity (personal communication, May 2026) explicitly approved the framework's use of 'reparations' terminology for non-Black-American extraction cases provided the calculations do not underestimate what is due; the framework's Method 1 + Method 2 + Method 3 triangulation discipline (§3) is the framework's structural pledge against underestimation."*
 
@@ -65,7 +65,7 @@ The structural-pledge sentence is unchanged from Thursday. The first sentence is
 
 The revised TA derivatives also include the new §18 bibliography entry shown above. No structural reorganization, no changes to case-study computations or apparatus.
 
-No deadline, no hurry. The cleanest reply, if it fits your schedule, is a one-line *"citation form is fine, all paragraphs read as fine, §5.2 rewrite is accurate"* — that closes everything in one round. If you'd rather redline the form itself or particular phrases, redline freely. If anything else has surfaced in your reading since Thursday, that's welcome too.
+No deadline, no hurry. The cleanest reply, if it fits your schedule, is a one-line *"citation form is fine, all paragraphs read as fine, §5.1.1 rewrite is accurate"* — that closes everything in one round. If you'd rather redline the form itself or particular phrases, redline freely. If anything else has surfaced in your reading since Thursday, that's welcome too.
 
 Thank you again for the time you're putting into this.
 
