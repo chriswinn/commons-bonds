@@ -62,7 +62,7 @@ Twenty percent of miners in Appalachia with twenty-five or more years of tenure 
 
 The disease is also resurgent. Despite decades of dust regulation, black lung rates are rising again — and rising fastest among younger miners, suggesting that the regulatory framework has not kept pace with new extraction methods. The disease that should have been in decline is instead spreading to a new generation.
 
-The Black Lung Trust Fund was established in 1969 to compensate miners and their survivors. As of this writing, it has distributed $44 billion in benefits. That number sounds large until you hear what comes next: the fund is $4.6 billion in debt. It has borrowed from the federal general fund almost every year since 1979. By 2050, that debt is projected to reach $15 billion.
+The federal Black Lung Benefits Program was established in 1969 to compensate miners and their survivors. As of this writing, the Program has distributed $44 billion in benefits. That number sounds large until you hear what comes next: the Program's Trust Fund is $4.6 billion in debt. It has borrowed from the federal general fund almost every year since 1979. By 2050, that debt is projected to reach $15 billion.
 
 Forty-four billion dollars — paid to miners whose lungs turned to stone, and to the widows who watched them suffocate, and to the families who spent the last years learning to breathe around grief — and it still wasn't enough. The fund that was supposed to make the accounting honest has been running a deficit for forty-five years.
 
