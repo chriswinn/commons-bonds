@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Commons Bonds — Mobile Dashboard 2026-05-15 · v1.45.1</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 0.75em 0.9em 4em; line-height: 1.55; color: #222; background: #f9f7f4; font-size: 16px; }
+  h1 { font-size: 1.35em; border-bottom: 2px solid #333; padding-bottom: 0.25em; margin: 0.2em 0 0.2em; line-height: 1.25; }
+  h2 { font-size: 1.08em; margin-top: 1.4em; border-bottom: 1px solid #bbb; padding-bottom: 0.15em; }
+  h3 { font-size: 0.98em; margin-top: 1em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.82em; margin-bottom: 1em; }
+  p, li { font-size: 0.95em; }
+  .delta        { background: #fff6e0; border: 2px solid #cc7700; padding: 0.7em 0.9em; margin: 1em 0; border-radius: 4px; }
+  .delta h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; font-size: 1.05em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.6em 0.85em; margin: 0.9em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.6em 0.85em; margin: 0.9em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.6em 0.85em; margin: 0.9em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.6em 0.85em; margin: 0.9em 0; }
+  .workstream   { background: #f4f0fa; border: 2px solid #6a4c9c; padding: 0.7em 0.9em; margin: 1em 0; border-radius: 4px; }
+  .workstream h2 { border-bottom: 1px solid #6a4c9c; color: #4a2c7c; margin-top: 0; font-size: 1.05em; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.88em; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; word-break: break-all; }
+  ul, ol { padding-left: 1.2em; }
+  li { margin-bottom: 0.3em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .gated    { color: #466; font-weight: 600; }
+  .tag      { display: inline-block; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; margin-right: 0.3em; vertical-align: 0.05em; }
+  .tag.parallel  { background: #e4f0e8; color: #1a6a3a; }
+  .tag.sequenced { background: #eef4f8; color: #355; }
+  .tag.gated     { background: #fef9ec; color: #876003; }
+  .tag.new       { background: #f0e6ff; color: #4a2c7c; }
+  .item { margin: 0.6em 0; padding: 0.55em 0.7em; background: #fff; border: 1px solid #ddd; border-radius: 4px; }
+  .item .title { font-weight: 600; font-size: 0.95em; }
+  .item .scope { font-size: 0.88em; color: #444; margin-top: 0.25em; }
+  .item .effort { font-size: 0.82em; color: #666; margin-top: 0.25em; font-style: italic; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Mobile Dashboard</h1>
+<p class="meta"><strong>2026-05-15 · v1.45.1</strong> (delta on v1.45.0) · Single change since v1.45.0: CBF gatekeeper-call request landed from Val DiMarzio + David Sherfinski.</p>
+
+<div class="delta">
+<h2>What's new since v1.45.0</h2>
+<p><span class="tag new">NEW</span> <strong>CBF — Val DiMarzio reply received 2026-05-15.</strong> Reply on the consolidated CBF thread (Val MD + David VA, the two Comms managers gatekeeping Allison Colden + Chris Moore). Val: <em>"we are not economists and are still trying to wrap our heads around some of these concepts and determine if Chris and Allison are best suited to speak on them. We wondered if you'd have time for a short call with just David and I next week so we can get a clearer picture on things?"</em></p>
+<p><strong>Read:</strong> positive engagement signal, not a soft decline. Gatekeeper-coordination call (not an interview) — framework-translation pass on <em>cost severance</em> + <em>residual commons value</em> before they pass the package to either ED.</p>
+<p><strong>Captured:</strong> <code>research/outreach/subjects/cbf/inbound_2026-05-15_val-call-request.md</code> (commit <code>77e4bdb</code>). Pipeline tracker §17–§18 updated.</p>
+</div>
+
+<h2>Top of mind — next ~7 days</h2>
+
+<div class="watch">
+<h3>Author actions queued</h3>
+<ul>
+  <li><span class="pending">PENDING</span> <strong>Draft response to Val + David</strong> on the CBF thread proposing 2–3 call windows next week (2026-05-18 → 2026-05-22). Reply-All; "Dear Val and David" salutation register; phone or Zoom; ~30 min. Decision still open on whether to pre-send a one-page framework summary or rely on the live call for the translation pass — leaning <em>no pre-send</em> (gives them a person to ask, not another document).</li>
+  <li><span class="pending">PENDING</span> <strong>Prepare for the gatekeeper call.</strong> Brief call-prep doc once a time is set: plain-language gloss on <em>cost severance</em> + <em>RCV</em> with Bay-specific examples; the "Allison vs. Chris" decision frame; watermen-routing ask (held light); discipline notes (omit Soviet / cross-system framing).</li>
+</ul>
+</div>
+
+<div class="status">
+<h3>Live / gated items</h3>
+<ul>
+  <li><span class="gated">GATED</span> <strong>Sandy Darity reply</strong> on the 2026-05-15 citations email. Three branches: one-line ratification → close loop; redlines → apply + regen derivatives; silence past ~2 weeks → polite check-in.</li>
+  <li><span class="done">DONE</span> Darity packet sent (2026-05-14); citations follow-up sent (2026-05-15); <code>with-citations_2026-05-14</code> derivatives canonical and immutable post-send.</li>
+  <li><span class="done">DONE</span> Ch 6 three-pass rigor cycle closed (Phase C-ε disposition, <code>83431ab</code>). Tier-B item (viii) α-dominance phrase-swap flagged for publisher-signal revisit.</li>
+</ul>
+</div>
+
+<div class="workstream">
+<h2>Workstream candidates — current spin-up posture</h2>
+
+<h3>Parallel-runnable (no dependencies)</h3>
+
+<div class="item">
+<div class="title">Cross-chapter $44B Program-vs-Trust-Fund DRIFT FLAG sweep</div>
+<div class="scope">Ch 2 line 67 + Ch 8 line 35 still carry the old Black Lung Trust Fund framing; Ch 5 + Ch 6 already corrected to the federal Program framing.</div>
+<div class="effort">Small (2 line-edits + verification). Mobile-friendly.</div>
+</div>
+
+<div class="item">
+<div class="title">Outreach packets — remaining 5 subjects <span class="tag new">CBF moved</span></div>
+<div class="scope">Folders for <code>biggie</code>, <code>colden</code>, <code>dagan</code>, <code>mazzucato</code>, <code>moore</code>, <code>phat</code> remain packet-assembly-runnable. CBF is no longer in this bucket — it's moved to <em>active gatekeeper-call dialogue</em> above. Pick subjects in order their substantive readiness allows.</div>
+<div class="effort">Per subject: ~1 session given current build pipeline. Mobile-friendly.</div>
+</div>
+
+<div class="item">
+<div class="title">Chapter rigor passes for Ch 1, 2, 3, 4, 7, 8, 9, 10</div>
+<div class="scope">Eight chapter drafts have not yet received the three-pass cycle (fact-check + voice-polish + audience-load) that Ch 5 + Ch 6 received. Priority order determined by next outreach send-prep or Berggruen-window readiness.</div>
+<div class="effort">Per chapter: ~3 sessions. Pass 1 laptop-friendly; Passes 2 + 3 mobile-friendly.</div>
+</div>
+
+<h3>Sequenced (waits for something to settle)</h3>
+
+<div class="item">
+<div class="title">build-derivatives.sh baseline ↔ alt convergence</div>
+<div class="scope">Sequenced after canonical script stabilizes (Chrome-headless / @page CSS / STIX math fallback work converging). <code>build-derivatives.sh</code> + <code>build-derivatives-alt.sh</code> coexist; converge to one with <code>-H</code> flag folded in once stable.</div>
+</div>
+
+<div class="item">
+<div class="title">Glossary consolidation (v2/v3/v4 → canonical)</div>
+<div class="scope">Sequenced after term-state stabilizes — probably post-Berggruen window or post-chapter-rigor cycles. Not pre-Sandy-send work.</div>
+</div>
+
+<h3>Trigger-gated (waits for external signal)</h3>
+
+<div class="item">
+<div class="title"><span class="tag new">UPDATED</span> CBF gatekeeper call — schedule + prep</div>
+<div class="scope">Trigger: Val + David's response to the call-window proposal. Author drafts response with windows → call gets scheduled → call-prep doc fires → call happens → post-call: route to Allison and/or Chris with whatever framework-translation calibration the call established.</div>
+</div>
+
+<div class="item">
+<div class="title">Sandy Darity reply — citation-form ratification or redline round</div>
+<div class="scope">Trigger: Sandy responds to citations email. (a) one-line ratify → close loop; (b) redlines → apply + regen derivatives + log as post-send revision; (c) silence past ~2 weeks → polite check-in.</div>
+</div>
+
+<div class="item">
+<div class="title">Ch 6 Tier-B item (viii) — α-dominance phrase-swap at line 130</div>
+<div class="scope">Trigger: any publisher / trade-press editor / academic-econ reviewer flagging α-notation as a layman friction point. Apply <em>"α-dominance regime"</em> → <em>"irreversibility-dominant regime"</em> in Ch 6 prose; α stays in TA §3.5 for the formal-apparatus track.</div>
+</div>
+
+<div class="item">
+<div class="title">Post-Sandy substantive revisions to Ch 5 / Ch 6 / TA</div>
+<div class="scope">Trigger: Sandy's reply includes content-level feedback beyond citation form. Output: small spot-fixes + derivative regen, or a fresh rigor-pass round if structural.</div>
+</div>
+</div>
+
+<h2>Active outreach pipeline (one-line per subject)</h2>
+
+<div class="status">
+<ul>
+  <li><strong>Darity (Duke):</strong> Packet sent 2026-05-14; citations follow-up sent 2026-05-15. Awaiting reply.</li>
+  <li><strong>CBF — Val DiMarzio + David Sherfinski (Comms / gatekeepers):</strong> <span class="new">Gatekeeper-call request 2026-05-15 — response to draft + schedule.</span></li>
+  <li><strong>Colden (CBF MD ED):</strong> Awaiting CBF gatekeeper-call outcome to route. Pre-publication citation-verification packet pre-staged.</li>
+  <li><strong>Moore (CBF VA ED):</strong> Awaiting CBF gatekeeper-call outcome to route.</li>
+  <li><strong>Mazzucato (UCL/IIPP):</strong> Holding via Adam Albrecht since 2026-05-06.</li>
+  <li><strong>Biggie (Ch 3 deceased subject family):</strong> Process guide pre-staged 2026-05-13; pending user-decision.</li>
+  <li><strong>Phat (Ch 3 living named subject):</strong> Consent document ready to print; consent visit pending. Gates Noema submission.</li>
+  <li><strong>Lipcius / Mann (VIMS), Boyce, Buller, Mian, Sufi, Alperovitz, Mondragon, Klein, Raworth, ACLC, Coalition of Clinics:</strong> Cold-outreach sent 2026-05-05; standard 2–3 week window.</li>
+</ul>
+</div>
+
+<h2>Resume-at pointer</h2>
+
+<div class="resume">
+<p><strong>Highest-leverage next move when cadence opens:</strong> draft the CBF reply with 2–3 call windows for next week. Lower-friction than waiting for Sandy's reply; closes a live loop with a near-term win (gatekeeper call → ED routing decision → Ch 3 calibration material).</p>
+<p><strong>If CBF call gets scheduled before reply window opens for Sandy:</strong> prep the call-prep doc as the focused mobile task. Plain-language gloss on <em>cost severance</em> + <em>RCV</em>, Bay-specific anchors (menhaden Bay-cap; renewable-past-regenerative-capacity threshold), Allison-vs-Chris decision frame.</p>
+<p><strong>If both gated:</strong> cross-chapter $44B DRIFT FLAG sweep is the smallest-scope known-good move; Ch 7 (<em>On Other Worlds</em>) Pass 1 fact-check is the natural next chapter for the three-pass cycle.</p>
+</div>
+
+<p class="meta">Predecessor: <code>commons-bonds-session-handoff-2026-05-15_v1.45.0.html</code>. v1.45.1 is a single-delta refresh; the full v1.45.0 state remains the canonical Sandy-outreach + build-pipeline + Ch 6 closure record.</p>
+
+</body>
+</html>
