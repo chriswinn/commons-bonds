@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Commons Bonds — Session Handoff 2026-05-15 · v1.45.0</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 2em auto; padding: 0 1.25em 4em; line-height: 1.65; color: #222; background: #f9f7f4; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #bbb; padding-bottom: 0.2em; }
+  h3 { font-size: 1em; margin-top: 1.5em; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .status       { background: #eaf6ec; border-left: 3px solid #2a7a3c; padding: 0.75em 1em; margin: 1em 0; }
+  .resume       { background: #eef4f8; border-left: 3px solid #466; padding: 0.75em 1em; margin: 1em 0; }
+  .watch        { background: #fdecea; border-left: 3px solid #b33; padding: 0.75em 1em; margin: 1em 0; }
+  .info         { background: #fef9ec; border-left: 3px solid #b8860b; padding: 0.75em 1em; margin: 1em 0; }
+  .decision     { background: #f3e8ff; border-left: 4px solid #7a3ea1; padding: 1em 1.2em; margin: 1em 0; }
+  .operating    { background: #e4f0e8; border-left: 4px solid #1a6a3a; padding: 1em 1.2em; margin: 1em 0; }
+  .milestone    { background: #e8f2fa; border-left: 4px solid #2a5a8c; padding: 1em 1.2em; margin: 1em 0; }
+  .top-priority { background: #ffeecc; border: 2px solid #cc7700; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .top-priority h2 { border-bottom: 1px solid #cc7700; color: #8a4a00; margin-top: 0; }
+  .author-task  { background: #fff0f5; border: 2px solid #c04080; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .author-task h2 { border-bottom: 1px solid #c04080; color: #80305a; margin-top: 0; }
+  .snippet      { background: #f0ede8; border: 1px dashed #888; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .snippet h2 { border-bottom: 1px solid #888; color: #333; margin-top: 0; }
+  .workstream   { background: #f4f0fa; border: 2px solid #6a4c9c; padding: 1em 1.2em; margin: 1.25em 0; border-radius: 4px; }
+  .workstream h2 { border-bottom: 1px solid #6a4c9c; color: #4a2c7c; margin-top: 0; }
+  code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; font-family: monospace; }
+  pre { background: #f6f6f6; padding: 0.75em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.85em; line-height: 1.4; font-family: monospace; white-space: pre-wrap; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin-bottom: 0.35em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.88em; }
+  th, td { border: 1px solid #ccc; padding: 5px 9px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 0.9em; }
+  .done     { color: #1a6a2a; font-weight: 600; }
+  .pending  { color: #a2260b; font-weight: 600; }
+  .hold     { color: #cc7700; font-weight: 600; }
+  .new      { color: #6a4c9c; font-weight: 600; }
+  .gated    { color: #466; font-weight: 600; }
+  .version  { font-family: monospace; color: #888; }
+  .tag      { display: inline-block; padding: 1px 7px; border-radius: 3px; font-size: 0.78em; font-weight: 600; font-family: monospace; margin-right: 0.4em; }
+  .tag.parallel  { background: #e4f0e8; color: #1a6a3a; }
+  .tag.sequenced { background: #eef4f8; color: #355; }
+  .tag.gated     { background: #fef9ec; color: #876003; }
+</style>
+</head>
+<body>
+
+<h1>Commons Bonds — Session Handoff 2026-05-15 · v1.45.0</h1>
+<p class="meta"><strong>Date:</strong> 2026-05-15 · <strong>Version:</strong> 1.45.0 (supersedes v1.44.0 dated 2026-04-24; three-week gap, ~40 intervening commits captured in git history + rigor-pass files) · <strong>Phase:</strong> Darity outreach packet <span class="done">SENT</span> · Citations follow-up email <span class="done">SENT</span> · Ch 6 three-pass rigor cycle <span class="done">CLOSED</span> · Build pipeline iteration <span class="hold">CONVERGING</span> · <strong>Next:</strong> Sandy reply (gated) + workstream candidates listed below</p>
+
+<div class="top-priority">
+<h2>v1.45.0 = v1.44.0 + Darity packet shipped + citations follow-up sent + mobile-session infrastructure work + Ch 6 cycle closure</h2>
+<p>v1.44.0 (2026-04-24) captured the M12 sweep + academic-rigor full-test state. The three-week interval since has been dominated by the <strong>Sandy Darity outreach packet</strong> — 2026-05-13 interview, packet prep (Ch 5 + Ch 6 + TA in <code>research/outreach/subjects/darity/</code> with reviewer-facing scaffolding stripped), 2026-05-14 packet send, and 2026-05-15 follow-up <em>"citations email"</em> ratifying citation form + landing three new Ch 6 attributions + three TA additions (§1.10 + §5.4 + §5.1.1 rewrite). Tonight's mobile session captured the citations-email TA edits, the Darity packet artifact regeneration in the <code>with-citations_2026-05-14</code> filename convention, the build-pipeline infrastructure iteration that surfaced through that work, and the Ch 6 Phase C-ε disposition closing all three Tier-B-optional items.</p>
+<p>The intervening 2026-04-25 → 2026-05-14 work (Ch 5 + Ch 6 rigor cycles, TA v2.1.0 prep, M12 follow-through) is documented in commit history and the rigor-pass files; this handoff captures the Sandy-outreach milestone state + tonight's session + forward workstreams without re-litigating that earlier substrate.</p>
+</div>
+
+<h2>What landed tonight (2026-05-15 mobile session)</h2>
+
+<div class="milestone">
+<h3>Technical Appendix edits (citations-email content)</h3>
+
+<table>
+  <tr><th>Section</th><th>Change</th><th>Commit</th></tr>
+  <tr><td><strong>§1.10</strong></td><td>Heterogeneous-stakeholder-commons scope-of-applicability paragraph added; names stratification economics (Darity, Hamilton, and collaborators) as the analytical apparatus at that scope edge; parallels the existing coercion-vector treatment. Formal-apparatus mirror of Ch 6 line 262 prose.</td><td><code>6d28f4e</code></td></tr>
+  <tr><td><strong>§5.4</strong></td><td>Parfit + Sen pairing as framework's two-pronged philosophical grounding. Parfit grounds the standing question (already present); Sen 1985 / 1999 now grounds the valuation question. RCV described in Sen's vocabulary as measurement of the capability set extraction forecloses. Carries <em>(Darity 2026)</em> attribution.</td><td><code>6d28f4e</code></td></tr>
+  <tr><td><strong>§5.1.1 sentence rewrite</strong></td><td>Variant A landing: replaces the Thursday-packet sentence (which mis-stated framework vocabulary <em>and</em> inverted the conversational dynamic from the call) with one that just records what Darity actually noted about the calculations across the broader case-class. Structural-pledge sentence preserved.</td><td><code>7599c41</code> + <code>769938a</code></td></tr>
+  <tr><td><strong>§5.2 Naming outcome</strong></td><td>Rewritten from a 100-word run-on into a short lead-in + three labeled criterion paragraphs (cross-political-tradition adoption breadth; term-pair coherence; descriptive content preserved via framework context). Cross-references §5.1.2 for the B₂-specific rationale.</td><td><code>b469079</code></td></tr>
+  <tr><td><strong>§3.5 spec-block clip fix</strong></td><td><code>@media print</code> rule for <code>&lt;pre&gt;</code> blocks: <code>font-size: 0.78em</code> + <code>white-space: pre-wrap</code> + <code>word-break: break-word</code>. Fixes right-edge clipping of the Method-3 Formal-specification block in PDF output (~100-char source line previously past page bounds). Verified via <code>pdftotext</code>; all four previously-clipped phrases present.</td><td><code>4cc49df</code></td></tr>
+  <tr><td><strong>§18 bibliography</strong></td><td>Darity-interview entry per Chicago author-date interview form: <em>Darity, William A., Jr. Interview by Christopher Winn. May 13, 2026. Recording on file with author.</em> Cite-form swap propagated through all uses; replaces "personal communication, May 2026" form from Thursday packet.</td><td><code>f6d6281</code></td></tr>
+</table>
+</div>
+
+<div class="status">
+<h3>Darity packet — canonical send-state lock-in</h3>
+<p>All six <code>with-citations_2026-05-14</code> artifacts in <code>research/outreach/subjects/darity/</code> are the <strong>canonical sent-to-Sandy bytes</strong> as of the 2026-05-15 citations follow-up email:</p>
+<ul>
+  <li><code>Chapter_5_The_Accountability_Gap_with-citations_2026-05-14.docx</code> + <code>.pdf</code></li>
+  <li><code>Chapter_6_Three_Ways_of_Counting_with-citations_2026-05-14.docx</code> + <code>.pdf</code></li>
+  <li><code>Technical_Appendix_Commons_Bonds_with-citations_2026-05-14.docx</code> + <code>.pdf</code></li>
+</ul>
+<p>The (non-<code>with-citations</code>) Thursday-packet artifacts remain in the folder for lineage. The cover email is <code>packet-send-cover-email_2026-05-14.md</code>; the citations email is the proactive-q0 follow-up that landed 2026-05-15 (text quoted in PM thread).</p>
+<p><strong>Naming convention promotion:</strong> any future edits to these files <em>must</em> use a different filename (e.g. a <code>post-send-revision-YYYY-MM-DD</code> suffix) so the canonical Sandy-bytes pointer doesn't drift. Treat the <code>with-citations_2026-05-14</code> set as immutable post-send.</p>
+</div>
+
+<div class="milestone">
+<h3>Build pipeline iterations (multiple converging threads)</h3>
+<p>The Darity packet drove substantial build-pipeline work as rendering defects surfaced and got fixed in sequence:</p>
+<ol>
+  <li><strong>HTML → PDF engine swap:</strong> wkhtmltopdf (commits <code>1e984b9</code> + initial regenerations) → preferred-Chrome-headless with wkhtmltopdf fallback (commit <code>cf24f57</code>). Root cause: wkhtmltopdf 0.12.6's patched Qt 5.5 font loader cannot enumerate macOS TrueType Collections (.ttc); Georgia/Times/Charter silently substituted with Helvetica, Plane-1 chars (𝒞 U+1D49E) fall to <code>.LastResort</code> tofu. Chrome uses the platform-native font stack and matches in-browser render exactly.</li>
+  <li><strong>EB Garamond glyph-coverage workaround:</strong> chapter PDFs initially rendered em-dashes in bold contexts and ≈ as tofu boxes (EB Garamond 12-Bold lacks U+2014; all weights lack U+2248). Fix: <code>tools/scripts/fallback-header.tex</code> with <code>fontspec</code> + <code>newunicodechar</code> mapping the two codepoints to DejaVu Serif (commit <code>d238f2c</code>). Surrounding font context preserved for everything else.</li>
+  <li><strong>Alt-script as comparison vehicle:</strong> <code>tools/scripts/build-derivatives-alt.sh</code> (commit <code>e183953</code>) wires the fallback-header in automatically with a <code>-H</code> toggle. Coexists with the baseline <code>build-derivatives.sh</code>; convergence to a single canonical script is open work (see workstream candidates below).</li>
+  <li><strong>Documentation:</strong> <code>tools/scripts/README.md</code> created (commit <code>6f5a19c</code>) + defect-triage section added (commit <code>c4eb93c</code>). README now carries the defect → pipeline mapping: HTML→PDF defects route to CSS / wkhtmltopdf-or-Chrome layer; MD→PDF defects route to xelatex font coverage / header overrides; any-source→DOCX defects route to <code>reference.docx</code> styles.</li>
+  <li><strong>.gitignore:</strong> <code>missfont.log</code> ignored (commit <code>8caeed3</code>) so xelatex's transient build artifacts don't pollute the working tree.</li>
+</ol>
+</div>
+
+<div class="status">
+<h3>Ch 6 three-pass rigor cycle — closed</h3>
+<p>Phase C-ε disposition recorded (commit <code>83431ab</code>): all three Tier-B-optional items from Pass 3 §5 reviewed explicitly post-send and held as-is. Pass 1 + Amendments B–E + Phase C-α + Phase C-β + Pass 2 + Phase C-γ + Phase-C-γ-follow-up + Phase C-δ + cascade-followup + Pass 3 + Phase C-ε all dispositioned. Chapter source unchanged at 338 lines, post-line-21-Black-Lung-reframe state (<code>5569600</code>). No outstanding chapter-internal rigor-pass work remains.</p>
+<p><strong>Tier-B item (viii) carries a publisher-signal flag</strong> — the α-dominance → "irreversibility-dominant" phrase-swap at line 130 is held but to be revisited if any future publisher / trade-press editor / academic-econ reviewer flags α-notation as a layman/trade-press friction point. Tracked in workstream candidates below.</p>
+</div>
+
+<div class="workstream">
+<h2>Workstream candidates — open TODO items framed for spin-up</h2>
+<p>The open work below is grouped by spin-up posture (<span class="tag parallel">parallel</span> = independently runnable today; <span class="tag sequenced">sequenced</span> = depends on another item settling first; <span class="tag gated">gated</span> = waits for an external trigger). Each item names its workstream scope so future sessions can pick the right one when the cadence opens.</p>
+
+<h3>Parallel-runnable (no dependencies; pick when cadence opens)</h3>
+<table>
+  <tr><th>Workstream</th><th>Scope</th><th>Effort / surface</th></tr>
+  <tr>
+    <td><strong>Cross-chapter $44B Program-vs-Trust-Fund DRIFT FLAG</strong></td>
+    <td>Ch 2 line 67 + Ch 8 line 35 still refer to the Black Lung Trust Fund in the old framing; Ch 5 + Ch 6 already corrected to the federal Program framing. Per Ch 6 Phase C-ε note: separate cross-chapter consistency-sweep workstream, not gated to any individual chapter's rigor cycle. Should land before broader multi-chapter review.</td>
+    <td>Small (2 line-level edits + verification across chapters). Mobile-friendly markdown work.</td>
+  </tr>
+  <tr>
+    <td><strong>Outreach packet for remaining 6 subjects</strong></td>
+    <td>Folders exist for <code>biggie</code>, <code>cbf</code>, <code>colden</code>, <code>dagan</code>, <code>mazzucato</code>, <code>moore</code>, <code>phat</code>. Each is independently scopable; the Darity packet machinery (cover-email DRAFT → reviewer-facing artifact strip → packet send → proactive citation follow-up) is now reusable as a template. Pick subjects in the order their substantive readiness allows.</td>
+    <td>Per subject: ~1 session for packet assembly given current build pipeline. Mobile-friendly.</td>
+  </tr>
+  <tr>
+    <td><strong>Chapter rigor passes for Ch 1, 2, 3, 4, 7, 8, 9, 10</strong></td>
+    <td>Eight chapter drafts in <code>manuscript/chapters/</code> have not yet received the three-pass cycle (fact-check + voice-polish + audience-load) that Ch 5 + Ch 6 received. Each is independently scopable. Priority order to be determined by which chapter is next for outreach send-prep or for Berggruen-window readiness.</td>
+    <td>Per chapter: 3 passes × ~1 session each = ~3 sessions. Pass 1 (fact-check) is moderately laptop-friendly (needs source-checking); Passes 2 + 3 are mobile-friendly markdown work.</td>
+  </tr>
+</table>
+
+<h3>Sequenced (waits for another item to settle)</h3>
+<table>
+  <tr><th>Workstream</th><th>Sequenced after</th><th>Scope</th></tr>
+  <tr>
+    <td><strong>build-derivatives.sh baseline ↔ alt convergence</strong></td>
+    <td>Author's parallel iteration on the baseline script stabilizing</td>
+    <td><code>build-derivatives.sh</code> (canonical) and <code>build-derivatives-alt.sh</code> (Claude-tuned, auto-includes <code>fallback-header.tex</code>) currently coexist. Once the canonical script settles (after the Chrome-headless / @page CSS / STIX math fallback work converges to a stable state), the two scripts should converge to one canonical script with the alt's <code>-H</code> flag folded in. Until then, alt is the comparison vehicle.</td>
+  </tr>
+  <tr>
+    <td><strong>Glossary consolidation (v2/v3/v4 → canonical)</strong></td>
+    <td>Final term-state stabilization (probably post-Berggruen window or post-Ch-1–10 rigor cycle)</td>
+    <td><code>core/glossary/</code> carries <code>commons_bonds_updated_glossary_v2.html</code> + <code>_v3.html</code> + <code>_v4.html</code>. The three-version state is iteration-driven; consolidating to one canonical version should follow once term-set is stable across all chapters + TA. Not pre-Sandy-send work.</td>
+  </tr>
+</table>
+
+<h3>Trigger-gated (waits for external signal)</h3>
+<table>
+  <tr><th>Workstream</th><th>Trigger</th><th>Scope</th></tr>
+  <tr>
+    <td><strong>Sandy reply — citation-form ratification or redline round</strong></td>
+    <td>Sandy responds to citations email</td>
+    <td>The citations email closes with: <em>"the cleanest reply, if it fits your schedule, is a one-line 'citation form is fine, all paragraphs read as fine, §5.1.1 rewrite is accurate' — that closes everything in one round. If you'd rather redline the form itself or particular phrases, redline freely."</em> Three branches: (a) one-line ratification → close the loop with thanks, mark Darity packet thread complete; (b) redlines on form or specific phrases → apply per Sandy's preference + regenerate derivatives + record in Pass-3 doc as post-send revision round; (c) silence past 2-week mark → polite check-in.</td>
+  </tr>
+  <tr>
+    <td><strong>Ch 6 Tier-B item (viii) — α-dominance phrase-swap at line 130</strong></td>
+    <td>Any publisher / trade-press editor / Sandel-tradition reviewer / academic-econ reviewer feedback flagging α-notation as a layman/trade-press friction point</td>
+    <td>Apply the one-phrase swap (<em>"α-dominance regime"</em> → <em>"irreversibility-dominant regime"</em>) at that point rather than speculatively. α stays in TA §3.5 for academic readers tracking the formal-apparatus thread. Recorded in Ch 6 Pass 3 Phase C-ε disposition; future-session entry point is to grep "publisher-signal flag" in that file.</td>
+  </tr>
+  <tr>
+    <td><strong>Post-Sandy revisions to Ch 5 / Ch 6 / TA</strong></td>
+    <td>Sandy redlines or follow-up substantive feedback</td>
+    <td>If Sandy's response includes content-level feedback beyond citation form (e.g. methodological concerns, additional readings, framing suggestions), it triggers an evaluation round per chapter. Output: either small spot-fixes applied + derivative regeneration, or a fresh rigor-pass round if the feedback is structural.</td>
+  </tr>
+</table>
+</div>
+
+<h2>Cumulative state at session end</h2>
+
+<div class="status">
+<h3>Sandy Darity outreach thread</h3>
+<ul>
+  <li><strong>2026-05-13:</strong> Interview conducted; recording on file with author.</li>
+  <li><strong>2026-05-14:</strong> Initial packet shipped — cover email + Ch 5 + Ch 6 + TA derivatives (reviewer-facing scaffolding stripped per WP#10 regression cleanup).</li>
+  <li><strong>2026-05-15:</strong> Citations follow-up email — citation-form decision (Chicago author-date interview form replacing personal-communication form), three new Ch 6 attributions (lines 124 + 262 + the pre-existing line 220 cite-form swap), three TA changes (§1.10 + §5.4 + §5.1.1 rewrite). Revised TA <code>.docx</code> + <code>.pdf</code> attached.</li>
+  <li><strong>Open:</strong> Sandy's reply (gated; see workstream candidates).</li>
+</ul>
+</div>
+
+<div class="status">
+<h3>Framework readiness summary</h3>
+<ul>
+  <li><strong>Chapters 5 + 6:</strong> Three-pass rigor cycle <span class="done">CLOSED</span>. <code>with-citations_2026-05-14</code> derivatives are canonical sent-to-Sandy bytes.</li>
+  <li><strong>Chapters 1–4, 7–10:</strong> <span class="pending">PENDING</span> — three-pass rigor cycle not yet applied. See workstream candidates.</li>
+  <li><strong>Technical Appendix:</strong> Math audit (2026-05-13) + verification round (2026-05-14) complete; tonight's citations-email edits applied; <code>with-citations_2026-05-14</code> derivatives canonical. v2.1.0 prep landed pre-tonight (<code>409f15b</code>).</li>
+  <li><strong>Build pipeline:</strong> Chrome-headless preferred for HTML→PDF; pandoc+xelatex for MD→PDF; pandoc + reference.docx for any-source→DOCX. <code>fallback-header.tex</code> handles EB Garamond glyph gaps. Baseline ↔ alt script convergence open.</li>
+  <li><strong>Berggruen window (2026-08-17):</strong> framework is methodologically-pressure-tested in rigor-record form; submission-readiness gated by remaining chapter rigor cycles (1–4, 7–10) + any Block 4 validation work + post-Sandy substantive revisions if applicable.</li>
+</ul>
+</div>
+
+<h2>Commit log (tonight's session, post-v1.44.0 mobile-session subset)</h2>
+
+<table>
+  <tr><th>Commit</th><th>Scope</th></tr>
+  <tr><td><code>83431ab</code></td><td>Ch 6 Pass 3: Phase C-ε disposition recorded (Tier-B-optional items HELD; α-dominance flagged for publisher-signal revisit)</td></tr>
+  <tr><td><code>c4eb93c</code></td><td>tools/scripts/README.md: defect-triage section + alt-script and fallback-header inventory entries</td></tr>
+  <tr><td><code>e183953</code></td><td>tools/scripts/build-derivatives-alt.sh: alt-version with -H fallback-header flag for side-by-side comparison</td></tr>
+  <tr><td><code>d238f2c</code></td><td>Ch 5 + Ch 6 PDF: fix tofu-box rendering of em-dashes and ≈ in EB Garamond builds via fallback-header.tex</td></tr>
+  <tr><td><code>8caeed3</code></td><td>.gitignore: ignore xelatex's missfont.log build artifact</td></tr>
+  <tr><td><code>e6ddf92</code></td><td>Darity packet: regenerate Ch 5 + Ch 6 + TA with-citations derivatives from current sources</td></tr>
+  <tr><td><code>6f5a19c</code></td><td>tools/scripts/README.md: command-line usage docs for build-derivatives.sh</td></tr>
+  <tr><td><code>4cc49df</code></td><td>TA: @media print rule for &lt;pre&gt; blocks (§3.5 spec-block right-edge clip fix in PDF)</td></tr>
+  <tr><td><code>1e984b9</code></td><td>build-derivatives.sh: HTML → PDF via wkhtmltopdf (CSS-preserving); document why</td></tr>
+  <tr><td><code>b469079</code></td><td>TA §5.2 "Naming outcome": rewrite for prose coherence; correct §5.2/§5.1.1 mislabel in Darity outreach DRAFT</td></tr>
+  <tr><td><code>769938a</code></td><td>TA §5.2 sentence: revise to Variant A (interview-register, broader-case-class framing)</td></tr>
+  <tr><td><code>7599c41</code></td><td>TA §5.2 sentence rewrite: correct misstatement on framework vocabulary</td></tr>
+  <tr><td><code>8c7bf59</code></td><td>generate TA with-citations derivatives for Sandy Q0 review</td></tr>
+  <tr><td><code>f6d6281</code></td><td>convert Darity citation form: personal-communication → Chicago author-date interview</td></tr>
+  <tr><td><code>a5ef643</code></td><td>draft proactive Q0 tier-S citation outreach to Sandy</td></tr>
+  <tr><td><code>6d28f4e</code></td><td>TA — apply Darity post-interview MI-3 + SI-3 incorporations to §1.10 + §5.4</td></tr>
+  <tr><td><code>0a9040d</code></td><td>document tools/scripts/ subfolder in tools/README.md</td></tr>
+  <tr><td><code>f0f1ace</code></td><td>add build-derivatives.sh + reference.docx style template</td></tr>
+</table>
+
+<p class="meta">Author parallel-iteration commits on the laptop (<code>cf24f57</code> Chrome-headless preferred; <code>3208619</code> MAIN_FONT EB Garamond; <code>f6eb827</code> + <code>26aa725</code> formatting WIP scaffolding) interleaved with the mobile-session commits above and were merged into the feature branch as they landed. All commits now on <code>main</code>.</p>
+
+<h2>Operating discipline status</h2>
+
+<div class="operating">
+<ul>
+  <li><strong>Math files stay <code>.html</code>.</strong> Tech Appendix v2.0.0.html is canonical source; <code>.docx</code> + <code>.pdf</code> are derived artifacts only.</li>
+  <li><strong>Privacy rule active.</strong> Personal financial specifics scrubbed from external-facing outputs by default. (Citations email contained personal-anchor references; those are intended outreach context, not unscrubbed.)</li>
+  <li><strong>Never write to Google Drive.</strong> All Drive uploads remain manual on author's side.</li>
+  <li><strong>Worktree writes + merges + pushes:</strong> validated workflow continues; main branch is current at <code>83431ab</code> as of session end.</li>
+  <li><strong>Hard rules:</strong> <code>/Noema/</code> and <code>/Berggruen Institute - Essay/</code> Drive folders never touched; Drive files never renamed.</li>
+  <li><strong>Naming convention:</strong> <code>with-citations_2026-05-14</code> Darity artifacts treated as immutable post-send. Future revisions must use distinct filenames.</li>
+</ul>
+</div>
+
+<h2>Source-of-truth pointer</h2>
+
+<div class="resume">
+<p>Resume at: <strong>Sandy's reply</strong> (when it arrives — branch on one-line ratification vs redlines) <em>or</em> one of the parallel-runnable workstream candidates if Sandy's reply is delayed and the cadence favors forward motion. Recommended pickup order for parallel work if Sandy reply is pending:</p>
+<ol>
+  <li><strong>Cross-chapter $44B DRIFT FLAG</strong> (Ch 2 line 67 + Ch 8 line 35) — smallest scope, closes a known consistency gap.</li>
+  <li><strong>Chapter 7 (<em>On Other Worlds</em>) Pass 1 fact-check</strong> — natural next chapter after Ch 5/6 for the three-pass cycle.</li>
+  <li><strong>Other-subject outreach packet</strong> — if a substantive readiness check identifies one as send-ready.</li>
+</ol>
+<p>Session-start upload set per <code>tools/README.md</code>: <code>claude_prefs.md</code> + <code>commons_bonds_rigor_protocol_v2.2.0.md</code> + <code>commons_bonds_guiding_constraints_v1_0_0.md</code> + <code>commons_bonds_abundance_dimensions_v1_3_0.md</code> + <code>commons_bonds_book_scope_v1_0_3.md</code> + this handoff + the most recent rigor pass record.</p>
+</div>
+
+</body>
+</html>
