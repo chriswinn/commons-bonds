@@ -5,7 +5,9 @@ Command-line utilities and any binary assets they depend on. Run from the repo r
 | File | Purpose |
 |---|---|
 | `build-derivatives.sh` | Generate standardized `.docx` + `.pdf` derivatives from `.md` and `.html` sources |
+| `build-derivatives-alt.sh` | Alt-version of the above with `-H HEADER_TEX` flag for auto-including a xelatex fallback-font header on `.md` → PDF builds. Side-by-side comparison artifact while the canonical script is iterating. |
 | `reference.docx` | Canonical .docx style template (Garamond 12pt, US Letter, 1" margins, soft-gray h2/h3 accent). pandoc reads its styles section automatically. Originally a copy of the Ch 6 packet-send `.docx`. |
+| `fallback-header.tex` | xelatex header snippet (fontspec + `\newunicodechar`) mapping codepoints that EB Garamond doesn't cover (U+2014 em-dash in bolded weight, U+2248 `≈`) to DejaVu Serif. Used by `build-derivatives-alt.sh`; can be passed manually to `build-derivatives.sh` via pandoc's `--include-in-header`. |
 
 ---
 
@@ -104,6 +106,18 @@ The default reference is `tools/scripts/reference.docx`, located via repo root (
 **PDF content clipped on the right (HTML sources)** — wkhtmltopdf has no scroll affordance, so any HTML element with `overflow-x: auto; white-space: pre` (typically `<pre>` blocks) will silently drop content past the page edge. Fix at the source: add an `@media print` rule that applies `white-space: pre-wrap` and/or reduces font-size. (The Commons Bonds TA stylesheet already does this.)
 
 **Reference docx not found** — script falls back to pandoc defaults silently if the file at the `-r` path (or the default `tools/scripts/reference.docx`) doesn't exist. Run with `-v` to see the resolved reference path.
+
+### Diagnosing rendering issues
+
+When a reviewer flags a rendering defect in a delivered artifact — tofu glyphs, clipped content, broken styling, wrong font weight — the input extension and output format together tell you which pipeline produced it, which narrows where to look:
+
+| Defect surfaces in… | Pipeline that produced it | Where to investigate |
+|---|---|---|
+| `.html` source → `.pdf` | `wkhtmltopdf` (WebKit) | The HTML source's CSS — `@media print` rules, `overflow-x`, font fallback chains, page-break behavior. wkhtmltopdf renders what a browser would render; if it looks wrong in the PDF it'll look wrong in a browser too. Open the `.html` source in Chrome with print preview as a quick reproduction. |
+| `.md` source → `.pdf` | `pandoc` + `xelatex` | The active font's Unicode coverage and any LaTeX header overrides. xelatex emits `[WARNING] Missing character: ...` lines on stderr for every missing glyph — those are load-bearing, not noise. Fix path: add a `--include-in-header` snippet (see `fallback-header.tex` for the pattern) or swap MAIN_FONT in the script. xelatex doesn't preserve CSS — only the LaTeX variables the script sets. |
+| Any source → `.docx` | `pandoc` + `reference.docx` | The reference docx itself (`tools/scripts/reference.docx`). Open it in Word/LibreOffice and modify the underlying style definitions; pandoc inherits whatever's there. CSS in the HTML source is ignored on the DOCX path — only the reference docx's styles section applies. |
+
+First-line triage when a reviewer flags an issue: ask **which document** (chooses pipeline) and **which page** (locates source line). The fix lands in one place, not three.
 
 ### Verifying the toolchain end-to-end
 
