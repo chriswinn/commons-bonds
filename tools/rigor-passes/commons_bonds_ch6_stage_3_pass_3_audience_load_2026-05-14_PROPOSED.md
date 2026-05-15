@@ -527,3 +527,39 @@ When the send action lands, this section will be updated from PREPPED FOR SANDY 
 ---
 
 *End of Sandy-send disposition section. Pass 3 PROPOSED doc state: PREPPED FOR SANDY DARITY REVIEW. Pass 3 verdict ratified by action; Phase-C-ε empty; line 21 Black Lung reframe applied; Ch 6 three-pass rigor cycle closed.*
+
+---
+
+## Phase C-ε disposition (2026-05-15)
+
+**Status:** CLOSED EMPTY (post-Sandy-send affirmation). All three Tier-B-optional items reviewed explicitly in mobile session 2026-05-15; held as-is. Chapter source file unchanged.
+
+This section records the post-Sandy-send affirmative review of the three Tier-B-optional items the original Pass 3 verdict held under audit-recommendation. The Sandy packet (Ch 5 + Ch 6 + TA, `with-citations_2026-05-14` derivatives) shipped 2026-05-14; the post-send follow-up email (citations email) landed 2026-05-15 with citation-form decisions, three new attributions for Ch 6 lines 124 + 262, and three TA changes (§1.10 + §5.4 + §5.1.1 rewrite). With the packet out the door, the open question of whether the three Tier-B-optional items should be ruled-in or held was reopened for explicit author review rather than left at the audit's default-hold.
+
+### Item (i) — Name-defense compression at lines 280 + 302 — **HELD**
+
+Author agreed with audit verdict. Sandy + Berggruen + academic-econ reviewer all read per-paragraph methodological-rigor as positive (the Lewis-counterfactual lineage at line 280; the Hartwick/Ostrom/Mazzucato triple-lineage at line 302 — the framework's most visible "knows what tradition each word comes from" passages). Phase C-δ already absorbed the most-compressible apparatus-overhead at lines 91 + 334 (F-V23 + F-V26, ~225w cumulative cut). Further compression at 280 + 302 would touch substantive lineage-naming for marginal cumulative-load relief. Tier-1 weight outweighs Tier-2 trade-press-editor compression-pull.
+
+### Item (vii) — Convergence-table caption inline vs. footnote — **HELD**
+
+Author agreed with audit verdict. Inline source-attribution at line 168 caption serves Sandy (methodological-transparency at table level) + academic-econ reviewer (clear provenance) + Berggruen (Mazzucato/Pistor inline pattern). Moving to footnotes would clean the caption but distribute provenance across body + footnote layers, a different methodological-transparency posture that doesn't fit the framework's "show your work at the point of claim" discipline. Not recommended absent specific trade-press-publisher preference.
+
+### Item (viii) — α-dominance plain-English unpacking at line 130 — **HELD with publisher-signal flag**
+
+Author held under audit recommendation, but with explicit reservation: this is the one Tier-B item the author could be persuaded either way on. The α-notation does minimal work in chapter body (single occurrence at line 130; chapter never references α again outside that parenthetical; inline definition explains the regime regardless of which symbol names it). Compression cost is one phrase-swap (*"α-dominance regime"* → *"irreversibility-dominant regime"*) with α retained in TA §3.5 for academic readers tracking the formal-apparatus thread.
+
+**Disposition:** Held as-is in the current state. **Revisit trigger:** any future publisher / trade-press editor / Sandel-tradition reviewer / academic-econ reviewer feedback that flags the α-notation specifically as a layman/trade-press friction point. Apply the phrase-swap at that point rather than speculatively. Sandy + Berggruen-Prize-track readers are unlikely to flag it (their characters were the Tier-1 holds in the audit), so the more probable surfacing channel is trade-press publisher review when that channel opens.
+
+### Cross-pass cadence note
+
+Ch 6's three-pass rigor cycle (Pass 1 + Amendments B–E + Phase C-α + Phase C-β + Pass 2 + Phase C-γ + Phase-C-γ-follow-up + Phase C-δ + cascade-followup + Pass 3 + Phase C-ε) is fully closed. Chapter source file state: 338 lines at the post-line-21-Black-Lung-reframe state (commit `5569600`). No outstanding chapter-internal rigor-pass work remains. The only remaining cross-chapter consistency item is the Ch 2 line 67 + Ch 8 line 35 $44B Program-vs-Trust-Fund DRIFT FLAG, which is a separate cross-chapter consistency-sweep workstream and not gated to Ch 6's rigor-pass cycle.
+
+### Files touched (Phase C-ε)
+
+- `tools/rigor-passes/commons_bonds_ch6_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md` — this Phase C-ε disposition section appended.
+
+No chapter source edits. No derivative regeneration needed (the `with-citations_2026-05-14` Ch 6 .docx + .pdf that shipped to Sandy in the citations email are the Phase-C-ε-affirmed state).
+
+---
+
+*End of Phase C-ε disposition (2026-05-15). Pass 3 doc state: ratified, applied (empty), Phase-C-ε closed empty, all Tier-B-optional items dispositioned. Ch 6 three-pass rigor cycle: closed.*
