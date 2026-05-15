@@ -2,7 +2,7 @@
 
 **Workstream:** #20 Manuscript Stage-3 Rigor Pass — Phase A — Ch 1 — Pass 2 (voice-polish)
 **Date drafted:** 2026-05-13
-**Status:** pending author ratification of recommended spot-fixes
+**Status:** RATIFIED + APPLIED 2026-05-15 (Phase C spot-fix session) — 9 voice-polish spot-fixes applied + 1 Pass-1 fact-check follow-up applied + 12 findings ratified HOLD. See §11 disposition log below.
 **Mode:** Audit-existing-prose (post-spot-fix chapter is the baseline; v2.0 Amendment B voice-polish discipline as a distinct pass from Pass 1 fact-check and Pass 3 audience-load)
 **Source chapter:** `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md` — **111 lines** (post-spot-fix state verified 2026-05-13 against branch `claude/manuscript-stage-3-ch1-pass2-dreamy-jepsen-f17cdf`, branched from origin/main at `e67b8b8`).
 
@@ -511,4 +511,44 @@ Per author's per-prompt scoping + v2.0 Amendment B distinct-pass discipline:
 
 ---
 
-*End of Ch 1 Stage-3 Pass 2 (Voice-Polish) rigor pass — pending author ratification of recommended spot-fixes. Pass 3 (audience-load) is a separate session.*
+## §11. Disposition log (2026-05-15 Phase C session)
+
+Per-prompt sequential ratification session conducted 2026-05-15. All 21 findings dispositioned in a single session against the chapter source. Findings ratified APPLY were applied to `Chapter__1_TheQuietMath__Draft.md` in the same commit as this disposition-log update. One Pass-1 fact-check follow-up surfaced during the session and was applied alongside (line 53 "proven" drop — see below).
+
+### Applied (9 voice-polish + 1 Pass-1 fact-check)
+
+| Finding | Severity | Option | Disposition |
+|---|---|---|---|
+| **F-V1** | HIGH | A (cut) | Line 35 *"There are not many people like that anymore."* cut entirely. §2-closer load now carried by line 33's Pou-nickname-passing beat + the §-break. |
+| **F-V2** | HIGH | v7-with-refinements (custom) | Line 55 block (5 sentences from *"Fifteen different audiences..."* through *"...worth not sleeping for."*) replaced with 4-sentence revision: *"The fifteen audiences spanned from other researchers who would take the new findings and run with them, to the children with those diseases themselves. We were not telling sick children we had a cure — we were explaining to them that people were trying to help, and that the work might one day mean a different future for children like them. A child's smile when she understood that meant something. Those smiles are why I stopped sleeping."* — drops LLM-formula recursion + cadence-triplet; restores audience-breadth + future-generations bridge (Ch-1 plant for framework's intergenerational arc); roots witness-frame in author memory rather than generalized inspirational-prose. |
+| **F-V4** | MEDIUM | B (compress appositive) | Line 29 *"NACA — the agency that became NASA in 1958, when Eisenhower signed the act — at NASA Langley"* → *"NACA — the agency that became NASA in 1958 — at NASA Langley"*. Drops em-dash count in §2 from 3 to 2 (when combined with line 29's preserved *"a title he was proud of"* pair). Eisenhower-signed-the-act detail held for AuthorsNote if wanted. |
+| **F-V6** | MEDIUM | A (collapse 1–2) | Line 47 *"He was a naval architect, a civil servant, employed by the Navy. He held a high clearance and traveled on a political passport."* → *"He was a naval architect, a civil servant employed by the Navy who held a high clearance and traveled on a political passport."* Four-anaphora opening reduced to three; sentence-length varies (long-short-short) across the three. |
+| **F-V8** | MEDIUM | A + C (two sub-fixes) | Line 69 paragraph: (A) *"Washington D.C./Maryland/Virginia area — the DMV"* → *"...area. The DMV"*; (C) *"two and a half hours each way — drive to the subway"* → *"...each way: drive to the subway"*. Drops em-dash count in that paragraph from 4 to 2. Sentence-2's em-dash and sentence-4's em-dash held as defensible parenthetical work. |
+| **F-V9** | MEDIUM | Author-proposed ellipsis-version | Line 69 *"Time enough to pick up a hobby, to fall in love, to fall out of love."* → *"Time enough to fall in love. …Time enough to fall out of love."* Drops "pick up a hobby" beat; preserves the relational angle AND the marriage-foreshadow via ellipsis-pause that breaks the chiastic SNAP. Four-times anaphora reads as deliberate-pacing rather than tic. Sentence-initial ellipsis flagged as typographically unusual; held as deliberate memoir-cadence. |
+| **F-V10** | MEDIUM | A (cut tautological closer) | Line 83 *"There was no villain in it. The architecture was the architecture."* → *"There was no villain in it."* Substantive cost-absorption thesis-pivot engaged in next paragraph (line 85 free-market-economist address); paragraph doesn't need the tautological closer to land. |
+| **F-V12** | MEDIUM | C (concrete verb-phrase) | Line 97 *"The house in Savannah had to keep being possible."* → *"The house in Savannah had to keep its lights on."* Drops awkward gerund; matches verb-economy of sentences 1–2 ("close" / "be paid"); preserves parallel triplet structure. |
+| **F-V13** | MEDIUM | A (drop "at this time"; shift to "We") | Line 101 *"I have no contact with him at this time."* → *"We have no contact."* Drops bureaucratic register-break; shifts to mutual silence (more truthful than agency-on-"I"); preserves emotional-restraint cadence by ending on two-word punch. |
+| **Pass-1 follow-up** | — | (Pass-1 fact-check surfaced during F-V2 disposition) | Line 53 *"I built the websites that took their proven research"* → *"I built the websites that took their research"* — "proven" inaccurate (research is not "proven" until peer review completes, which is the very function being named in the next clause). Small Pass-1 fact-check correction; author-internal-verifiable. |
+
+### Held (12 — 4 MEDIUM substantively-earned + all 7 LOW + F-V11 revised after author clarification)
+
+| Finding | Severity | Reason |
+|---|---|---|
+| **F-V3** | MEDIUM | Line 21 "He would" triplet — defensible memoir-rhythm; the third sentence carries the chapter-load-bearing journey-aphorism reread under three temporal lights in the same paragraph. |
+| **F-V5** | MEDIUM | Line 43 "He did not force me to answer. He did not need to. The question did the work." — framework-precursor cadence; triplet tightens to load-bearing closer. |
+| **F-V7** | MEDIUM | Line 47 "He never raised his voice..." — cadence-enacts-content; "raised → normal → below" escalation IS the lean-in the paragraph describes. |
+| **F-V11** | MEDIUM | Line 87 mortality-meditation chiastic coda — held per author clarification 2026-05-15: substance (commitment to be present + to laugh + to be there at the end) accurately captures lived sequence. Author originally realized that continued IT-contract-leaving would lead to "coming back for something I cannot bear to name"; the chiastic coda is the commitment that followed that realization. Substantive load justifies the cadence flag. |
+| **F-V14** | MEDIUM | Line 103 framework-naming declarative-three — first explicit handoff from memoir to framework; negation-negation-affirmation cadence enacts quiet-math discipline; success criterion (vocabulary adoption) hinges on definitional moments like this one. |
+| **F-V15–F-V21** | LOW | All 7 LOW findings held per Pass-2 default (style preferences; cadence-enacts-content; structurally load-bearing as bookends or within-sentence patterns). |
+
+### Phase C application
+
+All 10 changes applied to `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md` in the same commit that records this disposition log. Chapter line count reduced from 111 to 109 (net 2-line reduction from F-V1 cut + F-V10 tautological-closer drop). No cross-chapter cascade required — none of the F-V findings touch terminology or framework-spine claims that propagate.
+
+### Pass 3 readiness
+
+Per workstream #20 Phase A discipline (Pass-1 → spot-fix → Pass-2 → spot-fix → Pass-3 → spot-fix per chapter, serial cadence): Ch 1 Pass 3 (audience-load) is the next session for this chapter. Pass-2-surfaced audience-load concerns flagged at §6 above carry forward to that session, plus the new §85 *"I will address that directly. I did."* meta-register edge that warrants Pass-3 audience-load disposition.
+
+---
+
+*End of Ch 1 Stage-3 Pass 2 (Voice-Polish) rigor pass — RATIFIED + APPLIED 2026-05-15. Pass 3 (audience-load) is the next session for this chapter.*

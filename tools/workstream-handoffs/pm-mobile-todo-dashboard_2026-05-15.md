@@ -29,8 +29,8 @@ These are the *only* gates on the Noema submission. Each is user-action; PM sess
 
 | # | Action | Mobile-effort | Notes |
 |---|---|---|---|
-| **4** | **Ratify Ch 1 Pass 2** (`6fb6510`) — read the proposal, decide yes/no/conditional. | ~15min read. | Unblocks Ch 1 Pass 3 trigger. |
-| **5** | **Apply Ch 1 voice-polish spot-fixes** post-ratification. | Small markdown edits. | Sequenced after #4. |
+| ~~**4**~~ | ~~**Ratify Ch 1 Pass 2**~~ **DONE 2026-05-15** — 21 findings dispositioned in PM session: 9 voice-polish spot-fixes (F-V1, F-V2 v7-refined, F-V4 B, F-V6 A, F-V8 A+C, F-V9 author-ellipsis, F-V10 A, F-V12 C, F-V13 A) APPLY + 1 Pass-1 fact-check (line 53 "proven" drop) APPLY + 12 findings HOLD. Pass-2 rigor file `commons_bonds_rigor_pass_2026-05-13_ch1_the_quiet_math_stage3_voice_polish_v1.0.0.md` updated with §11 disposition log. | — |
+| ~~**5**~~ | ~~**Apply Ch 1 voice-polish spot-fixes**~~ **DONE 2026-05-15** — all 10 changes applied to `Chapter__1_TheQuietMath__Draft.md` in same commit as Pass-2 disposition log. Chapter net 2 lines shorter (111 → 109). **Unblocks Ch 1 Pass 3** (audience-load) — next session for this chapter. | — |
 | ~~**6**~~ | ~~**$44B Program-vs-Trust-Fund DRIFT FLAG**~~ **DONE 2026-05-15** — Ch 2 line 65 + Ch 8 lines 35 + 39 corrected to match Ch 5 line 226 / Ch 6 line 21 canonical pattern (Program is umbrella; Trust Fund is within-Program funding mechanism that carries the debt). Ch 2 lines 87 + 133 left as-is (defensible — Trust Fund deficit is a Trust Fund attribute). **Open sibling:** Ch 2 GuidanceDoc line 160 carries the same drift ("The Trust Fund has distributed $44 billion") + lines 32 / 124 / 130 reference; route into cross-thread #9 (GuidanceDoc stale-refs sweep). | — |
 | **7** | **Generate paste-text for Ch 2 Pass 3** (audience-load) — fresh-session ready. | Template at [`tools/drafting-templates/`](../drafting-templates/). | Author then fires fresh laptop session. |
 | **8** | **Generate paste-text for Ch 3 Pass 2** (voice-polish). | Template at `tools/drafting-templates/`. | Sequenced after Pass 1 `2f76e37` landed. |
