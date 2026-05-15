@@ -39,7 +39,7 @@ Superseded versions of canonical methodology docs — older book scope versions,
 
 ### `tools/scripts/`
 
-CLI utilities and any binary style templates they depend on. Currently: `build-derivatives.sh` (generates standardized .docx + .pdf from .md / .html sources via pandoc) and `reference.docx` (the canonical .docx style template — originally a copy of the Ch 6 packet-send file; pandoc inherits its styles automatically). Not uploaded at session start; run from the command line. See the script's `-h` for usage.
+CLI utilities and any binary style templates they depend on. Currently: `build-derivatives.sh` (generates standardized .docx + .pdf from .md / .html sources; routes HTML→PDF through wkhtmltopdf to preserve CSS, MD→PDF through pandoc+xelatex for book-style typography) and `reference.docx` (the canonical .docx style template — originally a copy of the Ch 6 packet-send file; pandoc inherits its styles automatically). Not uploaded at session start; run from the command line. See `tools/scripts/README.md` for full command-line usage, prerequisites, flags, and troubleshooting (or `build-derivatives.sh -h` for inline help).
 
 ---
 
