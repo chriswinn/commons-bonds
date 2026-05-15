@@ -18,7 +18,7 @@
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 body {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: Georgia, 'Times New Roman', 'STIX Two Math', STIXGeneral, serif;
   font-size: 16px;
   line-height: 1.6;
   color: var(--ink);
@@ -144,6 +144,7 @@ th, td {
 th { background: var(--accent-bg); font-weight: bold; }
 hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
 .formula { font-family: 'Cambria Math', 'Times New Roman', serif; font-style: italic; }
+@page { size: letter; margin: 1in; }
 @media print {
   pre {
     font-size: 0.78em;
