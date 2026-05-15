@@ -74,7 +74,7 @@ set -euo pipefail
 
 # ── Style configuration ───────────────────────────────────────────────────────
 # xelatex path (used for .md → PDF)
-MAIN_FONT="Garamond"
+MAIN_FONT="EB Garamond"
 FONT_SIZE="12pt"
 PAPER_SIZE="letter"
 MARGIN="1in"
