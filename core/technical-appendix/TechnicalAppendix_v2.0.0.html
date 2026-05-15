@@ -144,6 +144,13 @@ th, td {
 th { background: var(--accent-bg); font-weight: bold; }
 hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
 .formula { font-family: 'Cambria Math', 'Times New Roman', serif; font-style: italic; }
+@media print {
+  pre {
+    font-size: 0.78em;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+}
   </style>
  </head>
  <body>
