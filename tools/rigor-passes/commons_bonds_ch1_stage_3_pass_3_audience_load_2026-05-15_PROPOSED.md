@@ -455,6 +455,14 @@ The nine-character set built in §3 is Ch-1-specific (book-opener-calibrated; no
 
 Pass 3 surfaces no new entries for [`tools/audits/cross-chapter-consistency-inventory_2026-05-11.md`](../audits/cross-chapter-consistency-inventory_2026-05-11.md). Pass 1 + Pass 2 already captured the cross-chapter named-subject + apparatus-stage + numerical-anchor cross-references; Pass 3 reaffirms ✓ across all.
 
+### §7.6 Pre-publication editor/publisher review queue (Ch 1)
+
+One Tier-B optional item deferred from Phase C-ζ to pre-publication editor/publisher review (per author 2026-05-15):
+
+- **Item (iv) — Line 103 Black-American-writing-engagement appositive-pair.** Should the chapter-opener loose framing be sharpened to body-prose-name the canonical lineage anchors? Proposed insertion: *"The work of naming what hides behind a mask — Dunbar's mask, Du Bois's veil — is older than this book."* Two appositives; ~6 added words; named-anchor count in the paragraph 0 → 2. Pass 1 F-4 held loose framing as memoir-register-defensible; Pass 3 Tier-3 Black-Studies-resonance-reader read-alone scenario softly flags. Author's *mask* framing originated from IT-security usage; the chapter-opener pervasively-Black-American-writing-tradition lineage was honored explicitly *because* the word is so pervasive in that tradition that not naming the lineage would risk reading as appropriation. The unresolved question is whether body-prose naming of one or two specific lineage moments sharpens the honoring or whether the loose framing better serves memoir-opener register. An editor/publisher's read at pre-pub review is the right disposition mechanism. See §10 disposition log for full author-intent context.
+
+If/when a dedicated pre-publication-review tracking doc lands in the repo, this item should be migrated there from §10 + §7.6.
+
 ---
 
 ## §8. What this pass did NOT do
@@ -503,11 +511,13 @@ Author ratified the Pass 3 recommendation in the same session as the Pass 3 PROP
 |---|---|---|---|
 | **Item (i)** | Tier-B optional (recommended) | A (cut throat-clear) | Line 83 *"A free-market economist would say I made voluntary trade-offs. I will address that directly. I did. I had options a coal miner in McDowell County does not have."* → *"A free-market economist would say I made voluntary trade-offs. I did. I had options a coal miner in McDowell County does not have."* — drops the *"I will address that directly."* sentence entirely; *"I did"* now follows immediately from the free-market-economist's hypothetical. The substantive engagement does the work; the meta-frame absorbed into the direct grant. Resolves the trade-press editor + center-right reader cross-flag from §4 #1 + §4 #3. |
 
-### Held (1 Tier-B optional)
+### Deferred to pre-publication editor/publisher review (1 Tier-B optional)
 
 | Item | Reason |
 |---|---|
-| **Item (iv)** | Line 103 Black American writing engagement — Tier-B optional appositive-pair (*"Dunbar's mask, Du Bois's veil"*) offered but not author-ratified in this session. Pass 1 F-4 hold-disposition (memoir-register-defensible loose framing; the multi-chapter lineage-engagement carries citation-density at Ch 5 + Ch 8 analytical-register depth) remains in force. Tier-3 Black-Studies-resonance reader verdict stays at ✓ INCLUDE; chapter-read-alone scenario remains a soft residual concern addressable by author at a future Phase-C touch if reconsidered. |
+| **Item (iv)** | Line 103 Black American writing engagement — Tier-B optional appositive-pair (*"Dunbar's mask, Du Bois's veil"*) offered but **deferred to pre-publication editor/publisher review** per author 2026-05-15. Pass 1 F-4 hold-disposition (memoir-register-defensible loose framing; the multi-chapter lineage-engagement carries citation-density at Ch 5 + Ch 8 analytical-register depth) remains in force as the working state; the decision is genuinely close and the author wants an editor/publisher's read on it at pre-pub-review time rather than ruling in or out now. Tier-3 Black-Studies-resonance reader verdict stays at ✓ INCLUDE under the held state; would tip to ✓✓ INCLUDE if pre-pub review rules in the appositives. |
+
+**Author intent context (recorded 2026-05-15 for pre-pub-review handoff).** The "mask" framing in the author's original conception came from the IT-security world (the everyday IT-security usage of *mask* as the move of hiding what is actually happening behind a presented surface — credential masking, packet masking, etc.). The word is also pervasive in Black American writing (Dunbar 1896 + Du Bois's adjacent *veil* construct 1903 + the broader twentieth-century lineage). The author's chapter-opener framing honors the Black-American-writing lineage explicitly — *"Black American writing has carried that work for over a century"* — precisely because the word is so pervasive in that tradition that not naming the lineage would risk reading as appropriation. The open question for pre-pub editor/publisher review is whether body-prose naming of one or two specific lineage moments (Dunbar's mask + Du Bois's veil) would sharpen the honoring, or whether the loose framing better serves memoir-opener register + lets the analytical chapters (Ch 5 + Ch 8) carry the citation-density. The author can argue either way; the call is the kind of register-question an editor/publisher is well-positioned to settle.
 
 ### Phase C-ζ application
 
