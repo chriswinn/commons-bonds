@@ -4,7 +4,7 @@
 **Workstream:** #20 Manuscript Stage-3 Rigor Pass — Phase A — Ch 1 — Pass 3 (audience-load)
 **Chapter:** 1 — *The Quiet Math*
 **File audited:** [`manuscript/chapters/Chapter__1_TheQuietMath__Draft.md`](../../manuscript/chapters/Chapter__1_TheQuietMath__Draft.md) — **109 lines** (post-Pass-2-applied state verified 2026-05-15 against origin/main `7b4aa92`).
-**Status:** PROPOSED — pending author ratification. Phase C-ζ (or whichever Phase-C letter is next per Ch 1's history) applies any spot-fixes after ratification.
+**Status:** RATIFIED + APPLIED 2026-05-15 — Item (i) ratified (Option A) + applied to chapter file in same session as Pass 3 disposition; Item (iv) Tier-B optional held pending separate author judgment. See §10 disposition log below. Filename retains `_PROPOSED.md` suffix per the Ch 5 / Ch 6 Pass 3 convention; ratification state is canonical via this header + §10 + git history.
 **Mode:** Audit-existing-prose, Pass 3 (audience-load) per v2.0 Amendment B + canonical [Stage-3 template](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3: Audience-load".
 **Pass scope:** Pass 3 (audience-load) only. Pass 1 ratified + Phase C applied (commits `a29f3f4` / `6594107` / `008ac3f` / `4a03f2f` / `cfb08ce` / `99e17fe` / `fb1595b` / `13faa0f`); Pass 2 ratified + Phase C applied (commit `7b4aa92`). Pass 3 is the final rigor pass in workstream #20's Phase-A serial cadence for this chapter; when ratified, Ch 1's three-pass cycle closes (matching Ch 5 + Ch 6 status).
 **Hard constraint observed:** No fixes applied to chapter file. Phase C-ζ (post-ratification) applies recommended edits.
@@ -489,4 +489,40 @@ Per author's per-pass serial cadence + v2.0 Amendment B distinct-pass discipline
 
 ---
 
-*End of Ch 1 Stage-3 Pass 3 (Audience-Load) rigor pass — pending author ratification. Phase C-ζ applies after ratification (at most two Tier-B optional spot-fixes to apply; both at author judgment). With Pass 3 ratified, Ch 1 closes its three-pass rigor cycle, matching Ch 5 + Ch 6 status.*
+*End of Ch 1 Stage-3 Pass 3 (Audience-Load) rigor pass — RATIFIED + APPLIED 2026-05-15. With Pass 3 ratified, Ch 1 closes its three-pass rigor cycle, matching Ch 5 + Ch 6 status.*
+
+---
+
+## §10. Disposition log (2026-05-15 Phase C-ζ session, same-session ratification)
+
+Author ratified the Pass 3 recommendation in the same session as the Pass 3 PROPOSED disposition. Item (i) ratified Option A + applied to chapter file; Item (iv) Tier-B optional held pending separate author judgment (Pass 1 F-4 hold-disposition remains in force absent author override).
+
+### Applied (1 spot-fix)
+
+| Item | Severity | Option | Disposition |
+|---|---|---|---|
+| **Item (i)** | Tier-B optional (recommended) | A (cut throat-clear) | Line 83 *"A free-market economist would say I made voluntary trade-offs. I will address that directly. I did. I had options a coal miner in McDowell County does not have."* → *"A free-market economist would say I made voluntary trade-offs. I did. I had options a coal miner in McDowell County does not have."* — drops the *"I will address that directly."* sentence entirely; *"I did"* now follows immediately from the free-market-economist's hypothetical. The substantive engagement does the work; the meta-frame absorbed into the direct grant. Resolves the trade-press editor + center-right reader cross-flag from §4 #1 + §4 #3. |
+
+### Held (1 Tier-B optional)
+
+| Item | Reason |
+|---|---|
+| **Item (iv)** | Line 103 Black American writing engagement — Tier-B optional appositive-pair (*"Dunbar's mask, Du Bois's veil"*) offered but not author-ratified in this session. Pass 1 F-4 hold-disposition (memoir-register-defensible loose framing; the multi-chapter lineage-engagement carries citation-density at Ch 5 + Ch 8 analytical-register depth) remains in force. Tier-3 Black-Studies-resonance reader verdict stays at ✓ INCLUDE; chapter-read-alone scenario remains a soft residual concern addressable by author at a future Phase-C touch if reconsidered. |
+
+### Phase C-ζ application
+
+One change applied to `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md` in the same commit that records this disposition log. Chapter line count holds at 109 (the spot-fix is sentence-level within line 83; no line-count change). No cross-chapter cascade required — the meta-register-edge fix is local to Ch 1's free-market-economist-direct-address paragraph.
+
+### Pass 3 ratification → three-pass cycle closure
+
+With Item (i) ratified + applied and Item (iv) held under Pass 1 F-4's prior disposition, Ch 1's Pass 3 (audience-load) cycle closes. Combined with Pass 1 ratified + applied (Phase C; commits `a29f3f4` / `6594107` / `008ac3f` / `4a03f2f` / `cfb08ce` / `99e17fe` / `fb1595b` / `13faa0f`) and Pass 2 ratified + applied (commit `7b4aa92`), **Ch 1's three-pass rigor cycle is CLOSED**, matching Ch 5 + Ch 6 status. Workstream #20 Phase A serial cadence for Ch 1: COMPLETE.
+
+### Cross-thread items
+
+- **Cross-chapter consistency inventory.** No new entries required from this disposition; the Pass-3 spot-fix is local to a single sentence in Ch 1's free-market-economist-address paragraph and does not touch terminology, framework-spine claims, or cross-chapter recurring-stat material.
+- **Workstream #20 Phase A per-chapter table.** Ch 1 row updates: Pass 1 ✓ · Pass 2 ✓ · Pass 3 ✓ (RATIFIED + APPLIED). Three-pass cycle CLOSED.
+- **Phase B candidates.** Per workstream handoff, remaining Phase A chapters (Ch 2 + Ch 3 + Ch 7 + Ch 8 + Ch 9 + Ch 10 — whichever are not yet through their three-pass cycles) become the next per-chapter Phase A targets. Ch 1 + Ch 5 + Ch 6 closure narrows the workstream's remaining Phase A surface.
+
+---
+
+*End of Ch 1 Stage-3 Pass 3 (Audience-Load) rigor pass — RATIFIED + APPLIED 2026-05-15. Three-pass rigor cycle for Ch 1 is CLOSED.*
