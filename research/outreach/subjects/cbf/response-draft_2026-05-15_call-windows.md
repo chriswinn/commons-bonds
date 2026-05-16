@@ -27,7 +27,7 @@ Val and David asked for a short call before passing the 2026-05-13 package on to
 >
 > A short call with you both is the right shape for this. Three things I'd want to ask about:
 >
-> - **Routing.** If a full interview with Allison or Chris works with their schedules, that would be great. If not, I'd be just as open to getting their input on how we speak about the Chesapeake Bay's seafood industries repeatedly fishing species past the point of renewability, effectively turning what was a renewable resource into a non-renewable one — and that fishing communities and the Bay's ecosystem have absorbed the cost. Or anything in between — you know their bandwidth and what would actually be useful.
+> - **Routing.** If a full interview with Allison or Chris works with their schedules, that would be great. If not, I'd be just as open to getting their input on how we speak about the Chesapeake Bay's seafood industries repeatedly fishing species past the point of renewability, effectively turning what was a renewable resource into a non-renewable one — and that fishing communities and the Bay's ecosystem have absorbed the cost.
 > - **Watermen routes.** The part of the chapter the public record can't fill in is the watermen voice — working or retired watermen whose families have worked the Bay for generations and had their livelihood affected by overfishing. Any introduction would be valuable on its own, with or without any conversation with Allison or Chris following.
 > - **Updates.** Anywhere Allison's or Chris's thinking has shifted since their published material — places where the public record might be out of date, or where they'd frame something differently now than they did a year or two ago.
 >
