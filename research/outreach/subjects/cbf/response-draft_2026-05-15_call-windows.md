@@ -1,7 +1,7 @@
 # Response draft — Val DiMarzio + David Sherfinski (call-window proposal)
 
-**Drafted:** 2026-05-15 by Claude per author direction. **Revised through v6** (2026-05-15) after author flagged the framework-translation pose as still mismatched against Val's stated "we are not economists" anxiety.
-**Status:** v6 READY TO SEND — reframed from framework-translation call to expertise-respecting routing/calibration call; plain-language throughout; author-confirmed availability windows embedded; sending via Reply-All on Val's 2026-05-15 message.
+**Drafted:** 2026-05-15 by Claude per author direction. **Revised through v6.1** (2026-05-15) after author flagged the framework-translation pose as still mismatched against Val's stated "we are not economists" anxiety; v6.1 trims the deflating Routing-bullet close.
+**Status:** **FINALIZED 2026-05-15.** Scheduled-send via Gmail for **Monday May 18, 2026, 8:00 AM ET**, Reply-All on Val DiMarzio's 2026-05-15 message (`vdimarzio@cbf.org` + `dsherfinski@cbf.org`).
 **Branch:** `claude/schedule-call-val-david-jjQvD`
 **Send trigger:** Val DiMarzio's 2026-05-15 reply requesting a short gatekeeper-coordination call with just her and David next week. Inbound captured at [`research/outreach/subjects/cbf/inbound_2026-05-15_val-call-request.md`](inbound_2026-05-15_val-call-request.md).
 
@@ -85,11 +85,11 @@ v1 framed the call as a live framework-translation pass — *"easiest if I do th
 
 ## Suggested post-send actions
 
-- [ ] Author sends via Reply-All on Val's 2026-05-15 message (or Gmail scheduled-send if author prefers a specific delivery time)
-- [ ] Update [`inbound_2026-05-15_val-call-request.md`](inbound_2026-05-15_val-call-request.md) status from "INBOUND CAPTURED" to "RESPONSE SENT [date]"
-- [ ] Update pipeline tracker [`research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md`](../../_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md) §17–§18 with send status
-- [ ] On Val/David response selecting a window: log the chosen time + create call-prep doc at `research/outreach/subjects/cbf/call-prep_<DATE>.md`
-- [ ] Preserve Gmail label `Arkives/ReOrg/3-WaitingOn/Write-a-book/InterviewOutreach` on the thread
+- [x] **Gmail scheduled-send set for Mon May 18, 2026, 8:00 AM ET** (Reply-All on Val's 2026-05-15 message). Fires automatically; no further author action required for send.
+- [ ] Once scheduled-send fires Mon May 18 8:00 AM ET, update [`inbound_2026-05-15_val-call-request.md`](inbound_2026-05-15_val-call-request.md) status from "RESPONSE FINALIZED + SCHEDULED" to "RESPONSE SENT 2026-05-18 08:00 ET".
+- [ ] Update pipeline tracker [`research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md`](../../_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md) §17–§18 post-send.
+- [ ] On Val/David response selecting a window: log the chosen time + create call-prep doc at `research/outreach/subjects/cbf/call-prep_<DATE>.md`.
+- [ ] Preserve Gmail label `Arkives/ReOrg/3-WaitingOn/Write-a-book/InterviewOutreach` on the thread.
 
 ---
 

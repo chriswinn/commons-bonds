@@ -1,7 +1,7 @@
 # Inbound — Val DiMarzio reply on 2026-05-15 (call request)
 
 **Captured:** 2026-05-15 by Claude per author direction.
-**Status:** RESPONSE DRAFTED 2026-05-15 with author-confirmed call windows (Mon May 18 12:00/16:00 ET + Thu May 21 11:00/14:00 ET) at [`response-draft_2026-05-15_call-windows.md`](response-draft_2026-05-15_call-windows.md); send pending author tap-to-send.
+**Status:** RESPONSE FINALIZED + SCHEDULED — v6.1 response at [`response-draft_2026-05-15_call-windows.md`](response-draft_2026-05-15_call-windows.md) carries author-confirmed call windows (Mon May 18 12:00/16:00 ET + Thu May 21 11:00/14:00 ET); **Gmail scheduled-send set for Mon May 18, 2026, 8:00 AM ET** (Reply-All).
 **Branch:** `claude/schedule-call-val-david-jjQvD`
 **Thread:** CBF consolidated thread (Val DiMarzio + David Sherfinski). Continues from [`research/outreach/subjects/cbf/response-draft_2026-05-13_consolidated-thread.md`](research/outreach/subjects/cbf/response-draft_2026-05-13_consolidated-thread.md) (sent 2026-05-13: framework one-paragraph + Ch 3 outline + Allison-tailored question set + Chris-Moore-tailored question set).
 
