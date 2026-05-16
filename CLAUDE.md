@@ -10,18 +10,27 @@ Each workstream operates on a dedicated feature branch
 canonical branch-discipline reference.
 
 **Merge-to-main default (established 2026-05-16 by author
-direction).** Sessions that complete *author-ratified content
-changes* — Phase C spot-fix application sessions, chapter-text
-edits ratified by the author before the session begins, and
-similar work where the author has explicitly approved the change
-set ahead of the session — autonomously fast-forward merge their
-feature branch into `main` and push `origin/main` at session
-close, instead of stopping at the feature branch.
+direction; extended to rigor-pass artifacts 2026-05-16).**
+Sessions that complete *author-ratified content changes* — Phase C
+spot-fix application sessions, chapter-text edits ratified by the
+author before the session begins, and similar work where the
+author has explicitly approved the change set ahead of the
+session — autonomously fast-forward merge their feature branch
+into `main` and push `origin/main` at session close, instead of
+stopping at the feature branch.
 
-Sessions that produce *PROPOSED artifacts awaiting ratification*
-(e.g., Stage-3 rigor-pass artifacts at any of the three passes;
-Stage-2 audience-blind drafts; audit findings prior to author
-disposition) and *direct content edits without prior author
+Rigor-pass artifacts (Stage-3 fact-check / voice-polish /
+audience-load passes at any of the three passes; Stage-2
+audience-blind drafts; audit findings prior to author
+disposition) **also autonomously fast-forward merge to `main` at
+session close.** Rationale: these artifacts are internal
+scaffolding that propose spot-fixes rather than apply them; the
+chapter file under audit is unchanged, so merging the rigor-pass
+artifact to `main` does not commit any content change ahead of
+author ratification. Author ratification still gates Phase C
+spot-fix application (which is a separate session).
+
+Sessions producing *direct content edits without prior author
 ratification* continue to stop at feature branch and wait for
 explicit author merge.
 
