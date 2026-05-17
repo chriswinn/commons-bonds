@@ -6,8 +6,59 @@ Command-line utilities and any binary assets they depend on. Run from the repo r
 |---|---|
 | `build-derivatives.sh` | Generate standardized `.docx` + `.pdf` derivatives from `.md` and `.html` sources |
 | `build-derivatives-alt.sh` | Alt-version of the above with `-H HEADER_TEX` flag for auto-including a xelatex fallback-font header on `.md` → PDF builds. Side-by-side comparison artifact while the canonical script is iterating. |
+| `check-corpus-invariants.sh` | Invariant-gate corpus-hygiene scan (scaffolding + regressed-pattern registries). Per pipeline doctrine §2 in [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md). See `--help` for usage. |
+| `install-pre-commit-hook.sh` | Install the corpus-invariants pre-commit hook into `.git/hooks/pre-commit`. Run once per repo clone. |
 | `reference.docx` | Canonical .docx style template (Garamond 12pt, US Letter, 1" margins, soft-gray h2/h3 accent). pandoc reads its styles section automatically. Originally a copy of the Ch 6 packet-send `.docx`. |
 | `fallback-header.tex` | xelatex header snippet (fontspec + `\newunicodechar`) mapping codepoints that EB Garamond doesn't cover (U+2014 em-dash in bolded weight, U+2248 `≈`) to DejaVu Serif. Used by `build-derivatives-alt.sh`; can be passed manually to `build-derivatives.sh` via pandoc's `--include-in-header`. |
+
+---
+
+## `check-corpus-invariants.sh`
+
+Invariant-gate corpus-hygiene scan per the pipeline doctrine. Reads two YAML registries (`tools/quality-gates/scaffolding-patterns.yaml` + `tools/quality-gates/regressed-patterns.yaml`), greps against the in-scope corpus (chapter drafts + AuthorsNote + Dedication + essay-drafts + op-eds), exits non-zero on HIGH-severity match.
+
+### Quick start
+
+```bash
+# Full scan (default: all severities)
+tools/scripts/check-corpus-invariants.sh --verbose
+
+# HIGH-severity only (block mode)
+tools/scripts/check-corpus-invariants.sh --severity HIGH
+
+# HIGH + MEDIUM (review mode)
+tools/scripts/check-corpus-invariants.sh --severity HIGH+MEDIUM --no-fail
+
+# Scoped to a single chapter
+tools/scripts/check-corpus-invariants.sh --scope manuscript/chapters/Chapter__1_TheQuietMath__Draft.md
+
+# Staged files only (used by pre-commit hook)
+tools/scripts/check-corpus-invariants.sh --staged --severity HIGH
+```
+
+### Allowlist mechanism
+
+Each pattern entry in the YAML registries supports a `allowlist:` list of `file: + line: + rationale:` tuples for known-legitimate substantive uses (e.g., `pressure-test` as a legitimate substantive verb in Ch 9 line 165; `settlement-ratified` in Ch 5 line 48).
+
+### CI integration
+
+The `.github/workflows/corpus-invariants.yml` workflow runs the scan on push (HIGH-severity gate) + pull request (HIGH + MEDIUM with PR report artifact upload).
+
+### Registry expansion
+
+Per pipeline doctrine §2.2, the regressed-pattern registry is incrementally populated by per-chapter retrofit workstreams. Initial seed entries live at the YAML; retrofit workstreams add ~80-120 expected total entries.
+
+---
+
+## `install-pre-commit-hook.sh`
+
+Installs the corpus-invariants pre-commit hook. Run once per repo clone.
+
+```bash
+tools/scripts/install-pre-commit-hook.sh
+```
+
+The hook runs HIGH-severity invariant scans against staged files and refuses commit on HIGH match. To temporarily bypass for legitimate exceptions, use `git commit --no-verify` — but per CLAUDE.md, do NOT bypass hooks without explicit author direction.
 
 ---
 

@@ -1,0 +1,392 @@
+# Scaffolding-Patterns Registry — invariant-gate corpus-hygiene scan
+#
+# Detects placeholders + drafting-template scaffolding + process-scaffolding
+# vocabulary that should never appear in publisher-facing prose.
+#
+# Used by tools/scripts/check-corpus-invariants.sh per pipeline doctrine §2.1.
+# Schema version 1.0.0; do not change schema without coordinating across
+# script + all registry consumers.
+
+schema_version: "1.0.0"
+last_updated: "2026-05-17"
+registry_type: "scaffolding"
+
+# Severity tiers:
+#   HIGH    — block: commit / stage transition refused; author must resolve.
+#   MEDIUM  — flag: surface for review; do not block.
+#   LOW     — informational: log only.
+#
+# Pattern types:
+#   string  — literal substring match
+#   regex   — POSIX extended regex
+#   word    — whole-word match (regex with word boundaries auto-applied)
+
+patterns:
+
+  # ===== Category 1: Drafting placeholders =====
+
+  - id: scaffold-todo
+    pattern: 'TODO'
+    type: word
+    severity: HIGH
+    category: drafting-placeholder
+    description: TODO placeholder; never in publisher-facing prose
+    allowlist: []
+
+  - id: scaffold-tk
+    pattern: 'TK'
+    type: word
+    severity: HIGH
+    category: drafting-placeholder
+    description: TK (to-come) placeholder used by editorial-pipeline drafters
+    allowlist: []
+
+  - id: scaffold-fixme
+    pattern: 'FIXME'
+    type: word
+    severity: HIGH
+    category: drafting-placeholder
+    description: FIXME placeholder
+    allowlist: []
+
+  - id: scaffold-xxx
+    pattern: 'XXX'
+    type: word
+    severity: HIGH
+    category: drafting-placeholder
+    description: XXX placeholder
+    allowlist: []
+
+  - id: scaffold-bracket-placeholder
+    pattern: '\[(PLACEHOLDER|INSERT|TBD|DRAFT|BRACKET)[^]]*\]'
+    type: regex
+    severity: HIGH
+    category: drafting-placeholder
+    description: Bracket-placeholder pattern (e.g., [PLACEHOLDER X], [INSERT Y], [TBD])
+    allowlist: []
+
+  - id: scaffold-lorem-ipsum
+    pattern: 'lorem ipsum'
+    type: string
+    severity: HIGH
+    category: drafting-placeholder
+    description: Lorem ipsum placeholder text
+    allowlist: []
+
+  # ===== Category 2: Drafting-template scaffolding =====
+
+  - id: scaffold-let-me-explain
+    pattern: 'Let me explain'
+    type: string
+    severity: MEDIUM
+    category: drafting-template-scaffolding
+    description: Meta-commentary scaffolding common in AI-drafted prose
+    allowlist: []
+
+  - id: scaffold-in-this-section
+    pattern: 'In this section'
+    type: string
+    severity: MEDIUM
+    category: drafting-template-scaffolding
+    description: Drafting-template scaffolding rarely appropriate in published prose
+    allowlist: []
+
+  - id: scaffold-plain-definition-is
+    pattern: 'The plain definition is'
+    type: string
+    severity: MEDIUM
+    category: drafting-template-scaffolding
+    description: Expository-flatness pattern; reads as drafter cueing reader
+    allowlist: []
+
+  - id: scaffold-here-is-what-i-think
+    pattern: 'Here is what I think'
+    type: string
+    severity: MEDIUM
+    category: drafting-template-scaffolding
+    description: Expository-flatness pattern
+    allowlist: []
+
+  - id: scaffold-the-argument-is-simple
+    pattern: 'The argument is simple'
+    type: string
+    severity: MEDIUM
+    category: drafting-template-scaffolding
+    description: Expository-flatness pattern
+    allowlist: []
+
+  - id: scaffold-let-me-be-clear
+    pattern: 'Let me be clear'
+    type: string
+    severity: MEDIUM
+    category: drafting-template-scaffolding
+    description: Meta-commentary scaffolding
+    allowlist: []
+
+  - id: scaffold-what-i-mean-to-say
+    pattern: 'What I mean to say'
+    type: string
+    severity: MEDIUM
+    category: drafting-template-scaffolding
+    description: Meta-commentary scaffolding
+    allowlist: []
+
+  - id: scaffold-that-is-the-whole-sentence
+    pattern: 'That is the whole sentence'
+    type: string
+    severity: HIGH
+    category: drafting-template-scaffolding
+    description: Meta-commentary tic explicitly flagged in Pass 2 voice-polish inventory
+    allowlist: []
+
+  # ===== Category 3: Process-scaffolding vocabulary =====
+  # Process terms used during drafting / audit cycles that should never
+  # appear in publisher-facing chapter prose. These leak from rigor-pass
+  # artifacts + workstream-handoffs into chapter files via copy-paste.
+
+  - id: scaffold-option-letter
+    pattern: '\bOption [A-Z]\b'
+    type: regex
+    severity: HIGH
+    category: process-scaffolding
+    description: "Process token 'Option [A-Z]' from rigor-pass spot-fix-selection menus"
+    allowlist: []
+
+  - id: scaffold-ratified
+    pattern: '\bratified\b'
+    type: regex
+    severity: MEDIUM
+    category: process-scaffolding
+    description: Process token from author-ratification workflow
+    allowlist:
+      - file: "manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md"
+        line: 48
+        rationale: "legitimate substantive use — 'settlement-ratified empirical magnitude'"
+
+  - id: scaffold-phase-c
+    pattern: '\bPhase C[-\s]'
+    type: regex
+    severity: HIGH
+    category: process-scaffolding
+    description: "Process token 'Phase C-*' from spot-fix-application phase naming"
+    allowlist: []
+
+  - id: scaffold-fv-tic
+    pattern: '\bF-V[0-9]+\b'
+    type: regex
+    severity: HIGH
+    category: process-scaffolding
+    description: "Process token 'F-V[N]' from Pass 2 voice-polish finding numbering"
+    allowlist: []
+
+  - id: scaffold-include-glyph
+    pattern: '✓✓✓?'
+    type: regex
+    severity: HIGH
+    category: process-scaffolding
+    description: INCLUDE-glyph verdict used in audience-load passes
+    allowlist: []
+
+  - id: scaffold-exclude-glyph
+    pattern: '⚠⚠⚠?'
+    type: regex
+    severity: HIGH
+    category: process-scaffolding
+    description: EXCLUDE-glyph verdict used in audience-load passes
+    allowlist: []
+
+  - id: scaffold-include-token
+    pattern: '\bINCLUDE\b'
+    type: regex
+    severity: HIGH
+    category: process-scaffolding
+    description: INCLUDE verdict token (all-caps) from audience-load passes
+    allowlist: []
+
+  - id: scaffold-exclude-token
+    pattern: '\bEXCLUDE\b'
+    type: regex
+    severity: HIGH
+    category: process-scaffolding
+    description: EXCLUDE verdict token (all-caps) from audience-load passes
+    allowlist: []
+
+  - id: scaffold-tier-letter
+    pattern: '\bTier [123]\b'
+    type: regex
+    severity: MEDIUM
+    category: process-scaffolding
+    description: "Process token 'Tier 1/2/3' from audience pressure-test set construction"
+    allowlist: []
+
+  - id: scaffold-pass-numbering
+    pattern: '\bPass [0-9]\.[0-9]'
+    type: regex
+    severity: HIGH
+    category: process-scaffolding
+    description: "Process token 'Pass X.Y' from Stage 3 four-pass rigor audit"
+    allowlist: []
+
+  - id: scaffold-stage-numbering
+    pattern: '\bStage [0-5][a-c]?\b'
+    type: regex
+    severity: MEDIUM
+    category: process-scaffolding
+    description: "Process token 'Stage [0-5][a-c]?' from pipeline-doctrine stage naming"
+    allowlist: []
+
+  - id: scaffold-proposed-tag
+    pattern: '\bPROPOSED\b'
+    type: regex
+    severity: MEDIUM
+    category: process-scaffolding
+    description: "Process token 'PROPOSED' from rigor-pass status tags"
+    allowlist: []
+
+  - id: scaffold-canonical-facts-inventory
+    pattern: 'canonical[- ]facts inventory'
+    type: regex
+    severity: MEDIUM
+    category: process-scaffolding
+    description: Process scaffolding from Stage 1 brief vocabulary
+    allowlist: []
+
+  - id: scaffold-thread-pull-synthesis
+    pattern: 'thread-pull synthesis'
+    type: string
+    severity: MEDIUM
+    category: process-scaffolding
+    description: Process token from Pass 3.4 robustness diagnostic
+    allowlist: []
+
+  # ===== Category 4: Meta-commentary tics =====
+
+  - id: scaffold-i-will-argue-that
+    pattern: 'I will argue that'
+    type: string
+    severity: MEDIUM
+    category: meta-commentary-tic
+    description: Hedge-phrase scaffolding common in AI-drafted prose
+    allowlist: []
+
+  - id: scaffold-it-seems-likely-that
+    pattern: 'It seems likely that'
+    type: string
+    severity: MEDIUM
+    category: meta-commentary-tic
+    description: Hedge-phrase scaffolding
+    allowlist: []
+
+  - id: scaffold-as-i-have-argued
+    pattern: 'As I have argued'
+    type: string
+    severity: LOW
+    category: meta-commentary-tic
+    description: Reflexive-back-reference scaffolding
+    allowlist: []
+
+  # ===== Category 5: AI-drafter sign-off / preamble residue =====
+
+  - id: scaffold-as-an-ai
+    pattern: 'As an AI'
+    type: string
+    severity: HIGH
+    category: ai-drafter-residue
+    description: AI-drafter self-identification preamble
+    allowlist: []
+
+  - id: scaffold-i-am-an-ai
+    pattern: 'I am an AI'
+    type: string
+    severity: HIGH
+    category: ai-drafter-residue
+    description: AI-drafter self-identification preamble
+    allowlist: []
+
+  - id: scaffold-i-cannot-actually
+    pattern: 'I cannot actually'
+    type: string
+    severity: HIGH
+    category: ai-drafter-residue
+    description: AI-drafter capability-disclaimer scaffolding
+    allowlist: []
+
+  # ===== Category 6: Rigor-pass artifact filename leakage =====
+
+  - id: scaffold-rigor-pass-filename
+    pattern: 'commons_bonds_rigor_pass_'
+    type: string
+    severity: HIGH
+    category: filename-leakage
+    description: Rigor-pass artifact filename leaked into prose
+    allowlist: []
+
+  - id: scaffold-stage-template-filename
+    pattern: 'stage-[1-5].*\.md'
+    type: regex
+    severity: HIGH
+    category: filename-leakage
+    description: Drafting-template filename leaked into prose
+    allowlist: []
+
+  # ===== Category 7: Workstream-handoff vocabulary =====
+
+  - id: scaffold-workstream-handoff
+    pattern: 'workstream handoff'
+    type: string
+    severity: MEDIUM
+    category: workstream-vocabulary
+    description: Workstream-process token unlikely to appear in publisher-facing prose
+    allowlist: []
+
+  - id: scaffold-pm-session
+    pattern: 'PM session'
+    type: string
+    severity: MEDIUM
+    category: workstream-vocabulary
+    description: Workstream-process token (project-management session)
+    allowlist: []
+
+  - id: scaffold-cross-thread-todo
+    pattern: 'cross-thread-todo'
+    type: string
+    severity: MEDIUM
+    category: workstream-vocabulary
+    description: Workstream-process token
+    allowlist: []
+
+# ===== Scope configuration =====
+#
+# By default, scaffolding scan runs against:
+#   manuscript/chapters/Chapter_*Draft*.md
+#   manuscript/chapters/_AUTHORSNOTE*.md
+#   manuscript/chapters/_BookLevelGuidance.md
+#   manuscript/chapters/_Dedication.md
+#   publishing/essay-drafts/**/*.md (excluding archive)
+#   publishing/op-eds/**/*.md
+#
+# Excluded from scan (these intentionally contain process vocabulary):
+#   tools/**/*.md
+#   alignment/**/*.md
+#   publishing/strategy/**/*.md
+#   archive/**/*.md
+
+scope:
+  include:
+    - "manuscript/chapters/Chapter_*Draft*.md"
+    - "manuscript/chapters/_AUTHORSNOTE*.md"
+    - "manuscript/chapters/_Dedication.md"
+    - "publishing/essay-drafts/**/*.md"
+    - "publishing/op-eds/**/*.md"
+  exclude:
+    - "tools/**/*.md"
+    - "alignment/**/*.md"
+    - "publishing/strategy/**/*.md"
+    - "archive/**/*.md"
+    - "**/*GuidanceDoc*.md"
+    - "manuscript/chapters/_BookLevelGuidance.md"
+    - "publishing/**/templates/**/*.md"
+    - "publishing/**/_inventory_*.md"
+    - "publishing/**/archive/**/*.md"
+
+# End of scaffolding-patterns.yaml

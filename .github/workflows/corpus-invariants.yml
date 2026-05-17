@@ -1,0 +1,61 @@
+name: corpus-invariants
+
+# Invariant-gate scan per pipeline doctrine §2.4
+# (tools/commons_bonds_pipeline_doctrine_v1.0.0.md).
+#
+# Runs the scaffolding + regressed-pattern scans against the corpus on:
+#   - every push (to verify no HIGH match landed)
+#   - every pull request (to surface MEDIUM-severity findings for review)
+#
+# Behavior:
+#   push: HIGH-severity scan only; exit non-zero on HIGH match (block)
+#   pull_request: HIGH + MEDIUM scan; HIGH blocks; MEDIUM is reported as
+#                 commentary; LOW logged only.
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+    branches: ['main']
+
+jobs:
+  invariant-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Verify registries present
+        run: |
+          test -f tools/quality-gates/scaffolding-patterns.yaml \
+            || (echo "::error::scaffolding-patterns.yaml missing"; exit 2)
+          test -f tools/quality-gates/regressed-patterns.yaml \
+            || (echo "::error::regressed-patterns.yaml missing"; exit 2)
+          test -x tools/scripts/check-corpus-invariants.sh \
+            || (echo "::error::check-corpus-invariants.sh missing or not executable"; exit 2)
+
+      - name: Run invariant-gate scan (HIGH severity)
+        id: high-scan
+        run: |
+          tools/scripts/check-corpus-invariants.sh --verbose --severity HIGH
+
+      - name: Run review scan (HIGH + MEDIUM) — PR only
+        if: github.event_name == 'pull_request'
+        run: |
+          tools/scripts/check-corpus-invariants.sh --verbose --severity HIGH+MEDIUM --no-fail \
+            | tee invariant-scan-report.txt
+          if grep -q '^\[MEDIUM\]' invariant-scan-report.txt 2>/dev/null; then
+            echo ""
+            echo "::warning::MEDIUM-severity findings present; review before merge."
+          fi
+
+      - name: Upload scan report (PR only)
+        if: github.event_name == 'pull_request' && always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: invariant-scan-report
+          path: invariant-scan-report.txt
+          if-no-files-found: ignore
+          retention-days: 14
