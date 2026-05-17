@@ -107,7 +107,9 @@ Output artifact: `tools/rigor-passes/<chapter-slug>_stage3_pass_3_4_robustness_<
 
 ### §3.7 Stage 4 render + character-integrity audit (always fires)
 
-Per Stage 4 doctrine. Run `tools/scripts/build-derivatives.sh` (or build-derivatives-alt.sh for math-heavy chapters that need fallback-header for em-dash/≈ coverage). Audit derivative outputs against source per §2.2 (character diff) + §2.3 (formula integrity, if math content) + §2.4 (tables) + §2.5 (figures) + §2.6 (layout integrity).
+> **⚠ BLOCKER — canonical-pipeline decision pending.** Stage 4 audits should not fire until the render-pipeline-standardization workstream completes ([`render-pipeline-standardization-handoff_2026-05-17.md`](render-pipeline-standardization-handoff_2026-05-17.md)). Author 2026-05-17 observed mobile-device renders are better than the laptop `build-derivatives.sh` pipeline; canonical-pipeline decision is pending comparison-render + author ratification. Stage 4 audit baselines must use the ratified canonical pipeline. PM session sequences retrofit Stage 4 sub-steps AFTER the standardization workstream lands on main.
+
+Per Stage 4 doctrine. Run the **canonical pipeline** (per render-pipeline-standardization workstream's ratified decision — laptop `build-derivatives.sh` / `build-derivatives-alt.sh`, mobile-pipeline-specific workflow, or both per Option C). Audit derivative outputs against source per §2.2 (character diff) + §2.3 (formula integrity, if math content) + §2.4 (tables) + §2.5 (figures) + §2.6 (layout integrity).
 
 Capture xelatex stderr to build log + grep for `Missing character` warnings (load-bearing per Stage 4 §3.3 discipline). Output artifact: `tools/rigor-passes/<chapter-slug>_stage_4_render_audit_<date>.md`.
 

@@ -131,6 +131,17 @@ Stage 4 catches render-failure patterns; Stage 1b establishes the conventions th
 
 ### §3.3 Font convention
 
+> **⚠ CANONICAL-PIPELINE QUESTION OPEN (as of 2026-05-17).** Author observation 2026-05-17: mobile-device document conversions render better than the laptop-side `tools/scripts/build-derivatives.sh` toolchain. The canonical-pipeline decision is **pending** the render-pipeline-standardization workstream — see [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md). Until that workstream resolves with author ratification, the convention below is **DEFAULT BUT NOT-YET-RATIFIED canonical**.
+>
+> **Retrofit Stage 4 audits should NOT fire** against this default canonical until the standardization workstream completes. The workstream blocks retrofit Stage 4 sub-steps.
+>
+> Resolution options under that workstream:
+> - **Option A** — laptop pipeline tuned to mobile's render quality; convention below remains canonical (with whatever tuning).
+> - **Option B** — mobile pipeline becomes canonical; convention below documents the secondary-check / fallback laptop pipeline.
+> - **Option C** — dual-pipeline discipline; both pipelines canonical with comparison-as-audit.
+
+Default-canonical conventions (subject to the canonical-pipeline decision above):
+
 - EB Garamond as primary body font; math font with matching Greek-letter + operator coverage.
 - For PDF: xelatex with EB Garamond + a math-font with U+2212 / U+2248 / Greek-letter coverage.
 - For HTML / docx: same font stack with web-safe fallbacks documented.
