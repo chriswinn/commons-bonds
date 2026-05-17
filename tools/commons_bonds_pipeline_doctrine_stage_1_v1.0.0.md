@@ -19,6 +19,8 @@ Stage 1 is the **ready-to-draft gate**: everything Stage 2 needs to draft withou
 
 All three substeps complete before Stage 2 fires. Bookend sign-offs at Stage-1-complete: academic-rigor + prose-quality (per pipeline doctrine §6.1).
 
+**Change-cascade routing target.** Per pipeline doctrine §3 change-cascade routing table, Stage 1 is the routing target for: new fact discoveries (→ 1b canonical-facts inventory update); new audience characters (→ 1b pressure-test set update); bibliography commitments landing (→ 1c coherence-check update); spot-fix applications (→ 1c light coherence re-check); cross-chapter workstream touches (→ 1c for each affected chapter); source-file changes (→ 1a invariant scans, automatic via pre-commit hook). Each cascade event runs the affected sub-step(s) + then re-fires the downstream passes per the routing rules.
+
 ---
 
 ## §1. Stage 1a — Corpus-hygiene invariant gate
@@ -34,8 +36,8 @@ Two scans (per pipeline doctrine §2):
 
 ### §1.2 What Stage 1a is NOT
 
-- Stage 1a is **not** a full Pass 2 voice-polish. Pass 2 fires at Stage 3.2 against the Stage 2 draft. Stage 1a is the pre-flight invariant check that catches scaffolding leakage + already-known regressed patterns.
-- Stage 1a is **not** a fact-check. Fact-check is Pass 3.1 (Stage 3) against the Stage 2 draft. Stage 1a verifies the source content is free of scaffolding tokens, not the truth-content of claims.
+- Stage 1a is **not** a full voice-polish pass. Pass 3.2 voice-polish fires at Stage 3 against the Stage 2 draft. Stage 1a is the pre-flight invariant check that catches scaffolding leakage + already-known regressed patterns.
+- Stage 1a is **not** a fact-check. Pass 3.1 fact-check fires at Stage 3 against the Stage 2 draft. Stage 1a verifies the source content is free of scaffolding tokens, not the truth-content of claims.
 
 ### §1.3 Procedure
 

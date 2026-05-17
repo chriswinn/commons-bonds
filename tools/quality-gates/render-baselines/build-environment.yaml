@@ -1,0 +1,46 @@
+# Build Environment — Render Baseline (placeholder)
+#
+# Per pipeline doctrine Stage 4 §2.1 + §3.3, this file records the
+# known-good build-environment versions that Stage 4 render-integrity
+# audits verify against.
+#
+# Update this file when the publishing-pipeline scripts run cleanly with
+# a new toolchain version (e.g., after a pandoc upgrade is verified
+# against all chapters); per Stage 4 doctrine, any change here triggers
+# Stage 4 re-run for affected artifacts.
+#
+# Schema: opaque YAML key-value; consumers (Stage 4 audit sessions) read
+# the values + verify the local environment matches.
+
+build_environment:
+  # Last verified: PLACEHOLDER — populate at first Stage 4 audit run.
+  last_verified: ""
+  last_verified_commit: ""
+
+  # Toolchain versions
+  pandoc_version: ""           # e.g., "3.1.11"
+  xelatex_version: ""          # e.g., "TeX Live 2024"
+  chrome_version: ""           # e.g., "Chrome 131.0.6778.85"
+  libreoffice_version: ""      # e.g., "24.2.5"
+
+  # Fonts (per Stage 4 doctrine §3.3 font convention)
+  fonts:
+    primary_body: "EB Garamond"  # canonical body font
+    primary_body_verified: ""    # version-stamp string when verified
+    math_font: ""                # math font with U+2212 / U+2248 / Greek coverage
+    math_font_verified: ""
+
+  # Publishing-pipeline scripts (canonical)
+  scripts:
+    canonical: "tools/scripts/build-derivatives.sh"
+    alt: "tools/scripts/build-derivatives-alt.sh"
+    fallback_header: "tools/scripts/fallback-header.tex"
+    reference_docx: "tools/scripts/reference.docx"
+
+  # Notes
+  notes: |
+    PLACEHOLDER FILE. Populate at the first Stage 4 audit run per Stage 4
+    doctrine §2.1 procedure step 2. Subsequent updates are commit-tracked
+    per the change-cascade routing rule for publishing-pipeline-script
+    changes (any change here triggers Stage 4 re-run for affected
+    artifacts).
