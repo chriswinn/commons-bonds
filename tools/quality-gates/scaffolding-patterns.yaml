@@ -68,7 +68,16 @@ patterns:
       Caught Ch 2 lines 30 + 161 + 166 ([INTERVIEW NEEDED — ...]
       placeholders awaiting source-interview material) during 2026-05-17
       registry expansion.
-    allowlist: []
+    allowlist:
+      - file: "manuscript/chapters/Chapter__2_TheMiner__Draft.md"
+        line: 30
+        rationale: "TRACKED — pending Ch 2 retrofit disposition per ch2-pipeline-retrofit-handoff_2026-05-17.md §3 'Interview-pending placeholders' option (a/b/c). [INTERVIEW NEEDED — Opening person] awaiting interview material (likely Colden / cold-outreach response). Resolve at Ch 2 retrofit; remove this allowlist entry in the same commit that resolves the placeholder."
+      - file: "manuscript/chapters/Chapter__2_TheMiner__Draft.md"
+        line: 161
+        rationale: "TRACKED — pending Ch 2 retrofit disposition. [INTERVIEW NEEDED — The miner's voice] awaiting interview material. Resolve at Ch 2 retrofit."
+      - file: "manuscript/chapters/Chapter__2_TheMiner__Draft.md"
+        line: 166
+        rationale: "TRACKED — pending Ch 2 retrofit disposition. [INTERVIEW NEEDED — The extraction-side portrait] awaiting interview material. Resolve at Ch 2 retrofit."
 
   - id: scaffold-lorem-ipsum
     pattern: 'lorem ipsum'
