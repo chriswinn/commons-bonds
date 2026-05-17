@@ -58,11 +58,16 @@ patterns:
     allowlist: []
 
   - id: scaffold-bracket-placeholder
-    pattern: '\[(PLACEHOLDER|INSERT|TBD|DRAFT|BRACKET)[^]]*\]'
+    pattern: '\[(PLACEHOLDER|INSERT|TBD|DRAFT|BRACKET|INTERVIEW NEEDED|INTERVIEW|NEEDED|TODO|REVISIT|VERIFY|CONFIRM|CHECK|UPDATE)[^]]{0,80}\]'
     type: regex
     severity: HIGH
     category: drafting-placeholder
-    description: Bracket-placeholder pattern (e.g., [PLACEHOLDER X], [INSERT Y], [TBD])
+    description: |
+      Bracket-placeholder pattern (e.g., [PLACEHOLDER X], [INSERT Y],
+      [TBD], [INTERVIEW NEEDED — ...], [REVISIT after Colden], etc.).
+      Caught Ch 2 lines 30 + 161 + 166 ([INTERVIEW NEEDED — ...]
+      placeholders awaiting source-interview material) during 2026-05-17
+      registry expansion.
     allowlist: []
 
   - id: scaffold-lorem-ipsum

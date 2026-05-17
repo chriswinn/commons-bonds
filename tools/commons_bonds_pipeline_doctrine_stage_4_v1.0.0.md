@@ -134,6 +134,27 @@ Stage 4 catches render-failure patterns; Stage 1b establishes the conventions th
 - EB Garamond as primary body font; math font with matching Greek-letter + operator coverage.
 - For PDF: xelatex with EB Garamond + a math-font with U+2212 / U+2248 / Greek-letter coverage.
 - For HTML / docx: same font stack with web-safe fallbacks documented.
+- For HTML → PDF path: prefer Chrome headless over wkhtmltopdf (per commit `cf24f57`). wkhtmltopdf 0.12.6's patched Qt 5.5 font loader cannot enumerate macOS TrueType Collections (.ttc), producing Helvetica substitution + .LastResort tofu for Plane-1 chars. Chrome uses the platform-native font stack + per-character CSS fallback.
+
+#### Known EB Garamond coverage gaps + fallback-header mitigation
+
+Per commit `d238f2c` (Ch 5 + Ch 6 tofu-box fix, 2026-05-15):
+
+- **EB Garamond 12-Bold lacks U+2014 (em-dash).** Em-dashes inside bold spans — section headers, `**bolded run-in subheads**` like `**Method 1 — Replacement Cost**` — render as tofu boxes in `.md` → PDF builds without a fallback header.
+- **EB Garamond Regular + Bold both lack U+2248 (≈).** Any approximation symbol in markdown sources destined for `.md` → PDF render fails the same way.
+- **Greek letter α (U+03B1) is covered** in EB Garamond Regular. (No fix needed for Greek-letter coverage.)
+
+Mitigation: `tools/scripts/fallback-header.tex` maps the missing codepoints to DejaVu Serif. Build via `tools/scripts/build-derivatives-alt.sh` (auto-includes the header) OR pass `--include-in-header=tools/scripts/fallback-header.tex` to pandoc on the canonical script. Adding new fallback codepoints: edit `fallback-header.tex` with additional `\newunicodechar{X}{{\fallbackfont X}}` entries.
+
+#### xelatex warning-verification discipline
+
+xelatex emits `[WARNING] Missing character: There is no — (U+2014) in font EB Garamond 12 Bold` (or similar) to stderr for every uncovered glyph. **These warnings are load-bearing — not noise.** Any Stage 4 audit on a `.md` → PDF build must:
+
+1. Capture stderr from the build (`pandoc ... 2>&1 | tee build.log`).
+2. Grep for `Missing character` in the build log.
+3. Any match is a HIGH-severity finding: either add the codepoint to `fallback-header.tex` and re-build, or change MAIN_FONT for the affected weight.
+
+Verifying PDF text via `pdftotext` is **insufficient** — the Unicode codepoint is recorded correctly in the PDF text stream even when the glyph is tofu in the rendered page. Visual page inspection + the xelatex warning log are the load-bearing signals.
 
 ### §3.4 Baseline render test (Stage 1b)
 
