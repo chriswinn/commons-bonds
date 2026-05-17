@@ -44,7 +44,7 @@ patterns:
       scan for this exact phrase. Flagged in Ch 1 F-V1 at line 35.
     origin:
       pass: "Ch 1 Pass 2 voice-polish (F-V1)"
-      commit: "TBD-Phase-C-Ch1-F-V1"
+      commit: "7b4aa92"
       ratified: "2026-05-15"
     allowlist: []
 
@@ -59,7 +59,7 @@ patterns:
       through formulaic repetition. Flagged in Ch 1 F-V2 at line 55.
     origin:
       pass: "Ch 1 Pass 2 voice-polish (F-V2)"
-      commit: "TBD-Phase-C-Ch1-F-V2"
+      commit: "7b4aa92"
       ratified: "2026-05-15"
     allowlist: []
 
@@ -75,7 +75,7 @@ patterns:
       pattern itself flagged for new occurrences elsewhere).
     origin:
       pass: "Ch 1 Pass 2 voice-polish (F-V3)"
-      commit: "TBD-Phase-C-Ch1-F-V3"
+      commit: "7b4aa92"
       ratified: "2026-05-15"
     allowlist: []
 
@@ -91,7 +91,7 @@ patterns:
       flags as em-dash crutch pattern.
     origin:
       pass: "Ch 1 Pass 2 voice-polish (F-V4, F-V8)"
-      commit: "TBD-Phase-C-Ch1-F-V4-V8"
+      commit: "7b4aa92"
       ratified: "2026-05-15"
     allowlist:
       - file: "manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md"
@@ -110,7 +110,7 @@ patterns:
       framework-precursor-question moment).
     origin:
       pass: "Ch 1 Pass 2 voice-polish (F-V5)"
-      commit: "TBD-Phase-C-Ch1-F-V5"
+      commit: "7b4aa92"
       ratified: "2026-05-15"
     allowlist: []
 
@@ -124,7 +124,7 @@ patterns:
       Flagged in Ch 1 F-V6 at line 47 (paragraph opening cadence-burden).
     origin:
       pass: "Ch 1 Pass 2 voice-polish (F-V6)"
-      commit: "TBD-Phase-C-Ch1-F-V6"
+      commit: "7b4aa92"
       ratified: "2026-05-15"
     allowlist: []
 
