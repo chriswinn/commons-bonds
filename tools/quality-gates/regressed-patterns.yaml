@@ -19,10 +19,13 @@ registry_type: "regressed"
 #   named-llm-tic       — patterns named in the Pass 2 voice-polish inventory
 #   nostalgia-tic       — sentimentality patterns flagged in Pass 2 inventory
 #   cadence-repetition  — three-beat-rhythm patterns flagged in Pass 2 inventory
+#   register-break      — register-shift patterns (bureaucratic / political-flag)
+#   drafting-template-scaffolding — expository scaffolding inadvertently kept
 #   deprecated-term     — terminology superseded by canonical naming decision
 #   render-failure      — patterns that fail through the publishing pipeline
 #   gate-decision-banned — patterns banned by explicit gate decision (e.g., NDA)
-#   consistency-canon   — cross-chapter consistency commitments
+#   consistency-canon   — cross-chapter consistency commitments (numerical
+#                         anchors; canonical attributions; canonical framings)
 #
 # Severity tiers same as scaffolding-patterns.yaml.
 
@@ -128,12 +131,422 @@ patterns:
       ratified: "2026-05-15"
     allowlist: []
 
+  - id: regressed-tidy-parallel-time-enough-to
+    pattern: 'Time enough to [a-z]+[^.]*\. Time enough to'
+    type: regex
+    severity: MEDIUM
+    category: named-llm-tic
+    description: |
+      Tidy-parallel "Time enough to X. Time enough to Y. Time enough to Z"
+      triplet structure. Flagged in Ch 1 F-V9 at line 69; resolved via
+      author-proposed ellipsis-version preserving four-times anaphora as
+      deliberate-pacing. New occurrences flag for review.
+    origin:
+      pass: "Ch 1 Pass 2 voice-polish (F-V9)"
+      commit: "7b4aa92"
+      ratified: "2026-05-15"
+    allowlist:
+      - file: "manuscript/chapters/Chapter__1_TheQuietMath__Draft.md"
+        line: 67
+        rationale: "deliberate four-times anaphora with ellipsis-pause; author-ratified Phase C disposition (post-F-V1/V10 cuts shifted line 69 → 67)"
+
+  - id: regressed-tautological-x-was-x
+    pattern: 'The [a-z]+ was the [a-z]+\.'
+    type: regex
+    severity: HIGH
+    category: named-llm-tic
+    description: |
+      Tautological X-was-X closer pattern (e.g., "The architecture was the
+      architecture"). LLM-tic reaching for profundity through circularity;
+      meta-commentary register edge. Flagged in Ch 1 F-V10 at line 83;
+      resolved by cut. Trade-press editors scanning for tics catch this
+      cadence reliably.
+    origin:
+      pass: "Ch 1 Pass 2 voice-polish (F-V10)"
+      commit: "7b4aa92"
+      ratified: "2026-05-15"
+    allowlist: []
+
+  - id: regressed-bureaucratic-at-this-time
+    pattern: '\bat this time\b'
+    type: regex
+    severity: MEDIUM
+    category: named-llm-tic
+    description: |
+      Bureaucratic / status-report register phrase ("at this time"). Reads
+      as courtroom / HR phrasing; register-break in memoir or essay prose.
+      Flagged in Ch 1 F-V13 at line 101; resolved by drop + subject shift
+      ("I have no contact with him at this time" → "We have no contact").
+    origin:
+      pass: "Ch 1 Pass 2 voice-polish (F-V13)"
+      commit: "7b4aa92"
+      ratified: "2026-05-15"
+    allowlist: []
+
+  - id: regressed-declarative-three-negation-affirmation
+    pattern: 'It (does not|is not) [^.]+\. It (is not|does not) [^.]+\. It is'
+    type: regex
+    severity: MEDIUM
+    category: named-llm-tic
+    description: |
+      Declarative-three-in-a-row with negation-negation-affirmation cadence
+      ("It does not X. It is not Y. It is Z."). Rhetorically powerful but
+      LLM-detectable. Flagged in Ch 1 F-V14 at line 103 (framework-naming);
+      held as substantively-earned at definitional moments; flagged for
+      review at new occurrences elsewhere. New occurrences surfaced by
+      this registry's expansion at Ch 2 line 61 (black-lung statistical-
+      regularity) + Ch 2 line 207 (cost-severance-pattern declaration) +
+      Ch 10 line 17 (book-closing naming moment); all real diagnostic
+      signal for retrofit Pass 2 disposition.
+    origin:
+      pass: "Ch 1 Pass 2 voice-polish (F-V14)"
+      commit: "7b4aa92"
+      ratified: "2026-05-15"
+    allowlist:
+      - file: "manuscript/chapters/Chapter__1_TheQuietMath__Draft.md"
+        line: 101
+        rationale: "framework-naming moment (F-V14 held); negation-negation-affirmation rhetorically earned per Phase C disposition (post-F-V1/V10 cuts shifted line 103 → 101)"
+
+  # ===========================================================
+  # Category 2: Named LLM tics (from Ch 5 + Ch 6 Pass 2 voice-polish)
+  # Origin: tools/rigor-passes/commons_bonds_ch5_stage_3_pass_2_voice_polish_2026-05-14_PROPOSED.md
+  #         tools/rigor-passes/commons_bonds_ch6_stage_3_pass_2_voice_polish_2026-05-14_PROPOSED.md
+  # ===========================================================
+
+  - id: regressed-duplicate-adjacent-estimated
+    pattern: 'estimated [^.]{1,30} an estimated'
+    type: regex
+    severity: HIGH
+    category: named-llm-tic
+    description: |
+      Duplicate "estimated" tokens within close proximity. Common LLM-prose
+      pattern where the attribution hedges twice. Flagged in Ch 5 F-V6 at
+      line 46 (NOAA biological-magnitude rewrite). Fix: drop the second
+      "an estimated"; let the upstream attribution carry the hedge.
+    origin:
+      pass: "Ch 5 Pass 2 voice-polish (F-V6)"
+      commit: "(Phase C-β for Ch 5; verify when applied)"
+    allowlist: []
+
+  - id: regressed-political-coalition-tag-critics
+    pattern: '\b(Right-wing|Left-wing|Liberal|Conservative) critics\b'
+    type: regex
+    severity: MEDIUM
+    category: register-break
+    description: |
+      Political-coalition tagging of critics ("Right-wing critics who ask…").
+      Reads as political-flag rather than analytical-engagement; narrows
+      audience-relevance to partisan target rather than analytical-question-
+      class. Flagged in Ch 6 F-V3 at line 244 (Sen capabilities defense);
+      resolved by dropping the coalition-tag while preserving the
+      analytical move.
+    origin:
+      pass: "Ch 6 Pass 2 voice-polish (F-V3)"
+      commit: "(Phase C-γ for Ch 6; verify when applied)"
+    allowlist: []
+
+  - id: regressed-near-duplicate-they-answer-different-questions
+    pattern: 'they answer different questions'
+    type: string
+    severity: MEDIUM
+    category: named-llm-tic
+    description: |
+      Verbatim phrase-repeat candidate ("they answer different questions").
+      Flagged in Ch 6 F-V5 as appearing twice within ~50-word window at
+      lines 45 + 49 (damage-side vs substitution-side carbon distinction).
+      Resolved by consolidation. New occurrences flag for review.
+    origin:
+      pass: "Ch 6 Pass 2 voice-polish (F-V5)"
+      commit: "(Phase C-γ for Ch 6; verify when applied)"
+    allowlist:
+      - file: "manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.md"
+        line: 45
+        rationale: "first use of damage-vs-substitution distinction; held per Phase C-γ Option A consolidation (line 49 verbatim-repeat dropped)"
+
+  - id: regressed-expository-flatness-one-distinction-matters
+    pattern: 'One distinction matters here'
+    type: string
+    severity: MEDIUM
+    category: drafting-template-scaffolding
+    description: |
+      Expository-flatness opener ("One distinction matters here") flagged
+      in Ch 6 F-V5 at line 49. Reads as drafter cueing reader rather than
+      integrating the distinction into the prose's natural flow.
+    origin:
+      pass: "Ch 6 Pass 2 voice-polish (F-V5)"
+      commit: "(Phase C-γ for Ch 6; verify when applied)"
+    allowlist: []
+
+  # ===========================================================
+  # Category 3: Cross-chapter consistency commitments (canonical numerical anchors)
+  # Origin: tools/rigor-passes/commons_bonds_ch5_stage_3_pass_1_fact_check_2026-05-13_PROPOSED.md
+  #         commit cacb82d (Ch 2 + Ch 8: correct $44B Program-vs-Trust-Fund drift)
+  # ===========================================================
+
+  - id: regressed-consistency-oasi-trust-fund-year
+    pattern: '\btrust fund [^.]{0,50}(2034|2035)\b'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      OASI Trust Fund exhaustion year canonical commitment. Per 2024
+      Trustees Report: OASI alone exhausts 2033 (77% benefit ratio);
+      OASDI-combined exhausts 2035 (83% benefit ratio). The chapter's
+      canonical framing is OASI-alone per Ch 5 Phase C-α; new mentions
+      should use 2033 unless explicitly switching to OASDI-combined
+      framing (which requires the 77% → 83% cascade). Flagged Ch 5 F-V4
+      at line 138 as internal-inconsistency.
+    origin:
+      pass: "Ch 5 Pass 1 fact-check MEDIUM-3 + Pass 2 F-V4 (line 138)"
+      commit: "Ch 5 Phase C-α (verify)"
+    allowlist: []
+
+  - id: regressed-consistency-deepwater-cbo-attribution
+    pattern: 'Congressional Budget Office [^.]{0,80}(one hundred and fifty|150) billion'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      CBO $150B Deepwater Horizon attribution is unsupportable. No CBO
+      publication carries a $150B total-economic-losses figure for
+      Deepwater Horizon. The aggregate is multi-source-defensible (US
+      Travel Association + fishing + BP cumulative costs) but not CBO-
+      attributable. Flagged Ch 5 F-V7 at line 46; resolved by
+      multi-source aggregate framing.
+    origin:
+      pass: "Ch 5 Pass 2 voice-polish (F-V7) + Pass 1 MEDIUM-1"
+      commit: "Ch 5 Phase C-β (verify)"
+    allowlist: []
+
+  - id: regressed-consistency-fed-emergency-lending-at-peak
+    pattern: '(sixteen trillion|16T|\$16 ?trillion)[^.]{0,30}at peak'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      The $16T Federal Reserve emergency-lending figure (GAO 2011) is the
+      cumulative sum of all loans across the crisis, NOT the peak
+      outstanding balance. Peak outstanding was ~$1T late 2008; Bloomberg's
+      $7.77T figure included guarantees + commitments. "At peak" framing is
+      mis-attribution. Flagged Ch 5 F-V8 at line 82; resolved by
+      "cumulative emergency loans across the crisis (per GAO 2011 audit)".
+    origin:
+      pass: "Ch 5 Pass 2 voice-polish (F-V8) + Pass 1 N-5"
+      commit: "Ch 5 Phase C-β (verify)"
+    allowlist: []
+
+  - id: regressed-consistency-44b-trust-fund-framing
+    pattern: '\$44 ?[Bb]illion\b'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: |
+      $44B figure canonical context per Ch 5 / Ch 6 reference: this is a
+      Trust Fund figure, not a Program figure. Per commit cacb82d, Ch 2 +
+      Ch 8 corrected from Program-framing drift to Trust-Fund-framing
+      canonical. New occurrences should reference Trust Fund (not Program)
+      unless cross-chapter consistency-inventory updates the canonical
+      framing.
+    origin:
+      pass: "Cross-chapter consistency commitment"
+      commit: "cacb82d (Ch 2 + Ch 8 correction)"
+    allowlist: []
+
+  # ===========================================================
+  # Category 4: Plural-noun + grammar typos surfaced at pass-2 (corpus-wide watch)
+  # ===========================================================
+
+  - id: regressed-typo-categorys
+    pattern: '\bcategorys\b'
+    type: regex
+    severity: HIGH
+    category: named-llm-tic
+    description: |
+      Plural-noun typo "categorys" should be "categories". Flagged in
+      Ch 6 F-V1 at line 282 inside the four-gates apparatus core.
+    origin:
+      pass: "Ch 6 Pass 2 voice-polish (F-V1)"
+      commit: "(Phase C-γ for Ch 6; verify when applied)"
+    allowlist: []
+
+  - id: regressed-typo-not-ponzi-scheme
+    pattern: '\bnot Ponzi scheme\b'
+    type: regex
+    severity: HIGH
+    category: named-llm-tic
+    description: |
+      Missing article: "is not Ponzi scheme" should be "is not a Ponzi
+      scheme". Flagged in Ch 5 F-V2 at line 122 (Social Security rebuttal).
+    origin:
+      pass: "Ch 5 Pass 2 voice-polish (F-V2)"
+      commit: "Ch 5 Phase C-β (verify)"
+    allowlist: []
+
+  # ===========================================================
+  # Category 5: Technical Appendix math + numerical-anchor consistency
+  # Origin: tools/rigor-passes/tech_appendix_rigor_pass_2026-05-13_pass_1_math_audit.md
+  #         tools/rigor-passes/tech_appendix_verification_round_2026-05-14.md
+  # All canonical figures verified against primary public sources
+  # (USGS / EPA / EIA / NBIM / SSB / GAO / CRS) in the 2026-05-14 round.
+  # ===========================================================
+
+  - id: regressed-ta-natural-gas-co2-units-error
+    pattern: '2\.?7 ?[Tt] ?CO[₂2] per BOE'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Natural-gas CO₂ per BOE-equivalent units error. The canonical figure
+      is **0.307 t CO₂/BOE-equivalent** (per EIA: 52.91 kg CO₂/mmBtu ×
+      5.8 mmBtu/BOE). The "2.7 t CO₂ per BOE" figure was a units error
+      conflating "t CO₂ per ton CH₄" (correct: 2.75) with BOE basis.
+      Flagged in TA Pass 1 F-7; resolved via Phase C Track 3 Path A units
+      correction (commit d1410d9).
+    origin:
+      pass: "TA Pass 1 F-7"
+      commit: "d1410d9 (Phase C Track 3)"
+    allowlist: []
+
+  - id: regressed-ta-coal-co2-old-factor
+    pattern: '\b2\.86 ?mt CO[₂2] ?(per|/) ?(short )?ton'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Bituminous coal CO₂ emission factor canonical commitment. Canonical
+      figure is **2.32 mt CO₂/short ton bituminous coal** (per EPA AP-42
+      §1.1: 93.28 kg CO₂/mmBtu × 24.93 mmBtu/short-ton EIA bituminous
+      heat content). The prior 2.86 figure was a sub-bituminous metric-
+      tonne wrong-basis. Flagged in Ch 6 Pass 1 MEDIUM-11; cascaded
+      through TA + Ch 6 + relevant op-eds in commits 45eb6e3 + downstream.
+    origin:
+      pass: "Ch 6 Pass 1 Amendment E MEDIUM-11; TA verification round 2026-05-14"
+      commit: "45eb6e3"
+    allowlist: []
+
+  - id: regressed-ta-gpfg-per-citizen-old-range
+    pattern: '\$380[KkBb]?[-–][\$]?400[KkBb]'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: |
+      GPFG per-citizen share canonical range refresh. Old: $380K-$400K
+      (5.5M population estimate). Current canonical: **$356K-$391K**
+      ($2.0T end-2025 / 5.62M SSB population to $2.2T 2025 peak / 5.62M).
+      Per TA verification round 2026-05-14 anchor B-3.
+    origin:
+      pass: "TA verification round 2026-05-14 (anchor B-3)"
+      commit: "aec033c"
+    allowlist: []
+
+  - id: regressed-ta-norway-cumulative-production-old
+    pattern: '8\.7 ?[Bb]illion (Sm³|m³|cubic ?metres?) (oil )?(o\.e\.|equivalents?)'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: |
+      Norway cumulative oil + gas production canonical refresh. Old:
+      8.7B Sm³ o.e. Current canonical: **8.9B Sm³ o.e.** (per
+      norskpetroleum.no resource-accounts page; 56% of recoverable
+      resources). Per TA verification round 2026-05-14 anchor B-1.
+    origin:
+      pass: "TA verification round 2026-05-14 (anchor B-1)"
+      commit: "aec033c"
+    allowlist: []
+
+  - id: regressed-ta-bayan-obo-old-single-point
+    pattern: 'Bayan Obo[^.]{0,50}(~|approximately|about) ?37%'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: |
+      Bayan Obo share of global REE reserves canonical refresh. Old:
+      ~37% (single-point). Current canonical: **~37–40%** (range;
+      USGS-derivable ~39% from "China 48.9% × Bayan Obo ~80% of China";
+      Wikipedia "more than 40%"). Per TA verification round 2026-05-14
+      anchor B-10.
+    origin:
+      pass: "TA verification round 2026-05-14 (anchor B-10)"
+      commit: "aec033c"
+    allowlist: []
+
+  - id: regressed-ta-cs-cross-reference-wrong-section
+    pattern: 'CS ?=? ?RCV ?[−-] ?B[^.]{0,60}\(Per §3\.1'
+    type: regex
+    severity: HIGH
+    category: consistency-canon
+    description: |
+      Cross-reference target ambiguity. `CS = RCV − B` is defined in
+      **§1.7** (Definition 1.7), not §3.1. §3.1 holds the RCV integrand,
+      not the CS equation. Flagged in TA Pass 1 F-3 + F-16; resolved
+      via Phase C Track 1 cross-reference cleanup (commit 0f62704).
+      New occurrences are likely paste-introduced regressions.
+    origin:
+      pass: "TA Pass 1 F-3 + F-16"
+      commit: "0f62704 (Phase C Track 1)"
+    allowlist: []
+
+  - id: regressed-ta-log-base-ambiguous
+    pattern: '\\?log\(1 ?\+ ?σ\)'
+    type: regex
+    severity: LOW
+    category: consistency-canon
+    description: |
+      Logarithm-base ambiguity. The scarcity-multiplier formula uses
+      natural-log in worked computations; canonical form should specify
+      `ln(1 + σ)` explicitly (not `log(1 + σ)`). Flagged in TA Pass 1
+      F-11 (LOW; punted to Pass 2 typography sweep).
+    origin:
+      pass: "TA Pass 1 F-11"
+      commit: "(pending pre-publication Pass 2 typography sweep)"
+    allowlist: []
+
+  - id: regressed-ta-existential-substitutability-gap-capitalization
+    pattern: 'Existential Substitutability Gap'
+    type: string
+    severity: LOW
+    category: consistency-canon
+    description: |
+      "existential substitutability gap" register canonical commitment.
+      Per TA §13 canonical decision: lowercase descriptive phrase
+      (not capitalized term). Title-case "Existential Substitutability
+      Gap" should appear only as a literal section heading (§13 title);
+      body-text and definitions use lowercase. Flagged in TA Pass 1 F-17
+      (LOW; punted to Pass 2 typography).
+    origin:
+      pass: "TA Pass 1 F-17"
+      commit: "(pending pre-publication Pass 2 typography sweep)"
+    allowlist:
+      - file: "core/technical-appendix/TechnicalAppendix_v2.0.0.html"
+        line: 0
+        rationale: "TA §13 section-heading literal title use is canonical; LOW-severity flag is for body-text drift not heading-text"
+
+  - id: regressed-ta-black-lung-old-debt-figure
+    pattern: '\$4\.[0-9] ?[Bb]illion[^.]{0,40}([Bb]lack ?[Ll]ung|[Tt]rust ?[Ff]und)'
+    type: regex
+    severity: MEDIUM
+    category: consistency-canon
+    description: |
+      Black Lung Disability Trust Fund outstanding debt canonical refresh.
+      Old: $4.5B or $4.6B (older snapshots). Current canonical: **$5.1B
+      as of September 2024** (per CRS R45261; DOL OWCP; corroborated by
+      insurance-industry reporting). Per TA verification round 2026-05-14
+      anchor B-8.
+    origin:
+      pass: "TA verification round 2026-05-14 (anchor B-8)"
+      commit: "(canonical via verification round; pre-publication refresh)"
+    allowlist:
+      - file: "publishing/op-eds/mcdowell-county-true-cost-op-ed_2026-05-10.md"
+        line: 29
+        rationale: "op-ed cites 2021 snapshot ($4.5B) — accurate as a historical-point reference; pre-publication update would refresh to $5.1B Sept 2024 if the op-ed is republished"
+
   # F-V9 through F-V21 entries — placeholder for retrofit registry expansion.
   # Per pipeline doctrine §2.2, the regressed-pattern registry is incrementally
   # populated as rigor-pass artifacts are processed. The above entries are the
-  # canonical seed from the Ch 1 Pass 2 voice-polish artifact; F-V9 through
-  # F-V21 + Ch 5 + Ch 6 + Tech Appendix pattern-class extractions land via
-  # per-chapter retrofit workstreams (per ratified decision #9).
+  # canonical seed from the Ch 1 + Ch 5 + Ch 6 Pass 2 voice-polish artifacts;
+  # additional Ch 5 + Ch 6 + Ch 4 + Tech Appendix + Ch 7-10 pattern-class
+  # extractions land via per-chapter retrofit workstreams (per ratified
+  # decision #9).
 
   # ===========================================================
   # Category 2: Connective-tissue clichés (from Pass 2 inventory)
