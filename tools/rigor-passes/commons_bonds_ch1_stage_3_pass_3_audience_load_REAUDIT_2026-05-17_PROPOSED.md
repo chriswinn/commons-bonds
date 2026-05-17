@@ -1,15 +1,27 @@
-# Stage-3 Rigor Pass — Chapter 1 (The Quiet Math) — Pass 3 FULL-RIGOR REAUDIT (Audience-load, 20-character set) [PROPOSED]
+# Stage-3 Rigor Pass — Chapter 1 (The Quiet Math) — Pass 3 FULL-RIGOR REAUDIT v3 (Audience-load + Adversarial-detractor coverage, 40-character set) [PROPOSED]
 
-**Date:** 2026-05-17
-**Workstream:** #20 Manuscript Stage-3 Rigor Pass — Phase A — Ch 1 — Pass 3 FULL-RIGOR REAUDIT (audience-load)
+**Date:** 2026-05-17 (expanded same-day, v1 → v2 → v3)
+**Workstream:** #20 Manuscript Stage-3 Rigor Pass — Phase A — Ch 1 — Pass 3 FULL-RIGOR REAUDIT v3 (audience-load + adversarial-detractor coverage)
 **Chapter:** 1 — *The Quiet Math*
 **File audited:** [`manuscript/chapters/Chapter__1_TheQuietMath__Draft.md`](../../manuscript/chapters/Chapter__1_TheQuietMath__Draft.md) — **109 lines** (post-applied state at origin/main `54709e7`; verified 2026-05-17).
-**Status:** PROPOSED — pending author ratification. Subordinate to the original Pass 3 PROPOSED doc; supplements rather than supersedes that artifact's audit (which captured the 2026-05-15 baseline + Phase-C-ζ disposition log through the line-29 rewrite + Item (i) + Item (iv) applications).
-**Mode:** Full-rigor re-audit (Pass 3 audience-load) per author 2026-05-17 directive — re-fire on the post-applied chapter state against **all audiences** (20-character comprehensive set) with explicit attention to (a) publishing-pipeline characters that were not in the original Pass 3 set, (b) right-slanted-audience concern about the Item (iv) Dunbar/Du Bois appositive, and (c) cultural-resonance + accessibility characters the original 9-character book-opener calibration did not exhaust.
-**Pass scope:** Pass 3 audience-load re-verdict only — full 20-character comprehensive set (original Pass 3 §3 nine characters + three publishing-pipeline characters + eight additional Tier-2/Tier-3 characters covering pipeline-strengthening, cultural-resonance, and accessibility). Pass 1 + Pass 2 not re-run; line-29 paragraph rewrite + Item (i) + Item (iv) treated as the audit baseline.
-**Character-set size justification.** Per [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) §"Quick-start: defaults by piece type" — magazine essay (3,000-5,000w) target is 16 characters; trade-book chapter at this length + role (book opener earning trust into 9 analytical chapters + bibliography commits + venue derivative pipeline) warrants the upper end (20 characters) for full-rigor audit.
+**Status:** PROPOSED — pending author ratification. Subordinate to the original Pass 3 PROPOSED doc; supplements rather than supersedes that artifact's audit.
+**Mode:** Full-rigor re-audit (Pass 3 audience-load) per author 2026-05-17 directive, **expanded twice same-day** per author follow-ups.
+
+**Author directive trail.**
+- v1 (12 chars, original REAUDIT prompt): *"rerun the full rigor test now that we added two things. As the Dubois and Weber reference specifically makes me wonder if I lose right slanted audiences in the first chapter. But way more important are end readers, literary agent, publishers, as well as the various venue editors that will consider this when they review derivative works for publication."*
+- v2 expansion (20 chars, "all audiences"): *"Run chapter 1 through full rigor against all audiences."*
+- v2 → v2.5 expansion (30 chars, practitioner-coverage rebalance): *"the characters while high in number slant towards black studies, immigrant, reparations, etc. characters. And we need to also make sure that people who write policy, economists, lawyers, donut economic teams, etc. and the rest of the target end readers who will need to accept this book for it to achieve its success criteria are all rated as accepting each chapter and the book as a whole."*
+- v2.5 → v3 expansion (40 chars, adversarial-detractor coverage): *"I'm totally ok with dramatically expanding the number of characters in this moment. The number 20 was semi-arbitrary as we were running a bunch earlier. But now we really need to be sure the chapter stands as is. So include detractors, even oil / coal paid economists looking to poke holes in the book or pull a thread to unwind it."*
+
+**v1 → v2.5 expansion rationale.** v1 20-char set under-weighted practitioner / policy / professional readers (~30% practitioner-leaning) relative to cultural-resonance + identity-anchor characters (~30%). Author flagged the composition: book's success criteria require professional + policy + economist + lawyer + Doughnut-team + foundation + sustainable-finance + business-press end-reader audiences all returning INCLUDE. v2.5 adds 10 practitioner-focused characters (2 Tier-1; 5 Tier-2; 3 Tier-3). 30-char composition: practitioner/policy/professional 16 (53%); cultural-resonance/identity-anchor 6 (20%); other (literary, accessibility, publishing-pipeline, general readers) 8 (27%).
+
+**v2.5 → v3 expansion rationale.** v2.5 30-char set tested *acceptance*: do target audiences return INCLUDE? v3 adds 10 adversarial / industry-funded / detractor characters to test *robustness*: do hostile readers find threads that would let them unwind the chapter? This is a different and more demanding test. Adversarial characters are NOT expected to return INCLUDE — they are selected for hostile read. The question is: **which threads do they find, and are those threads load-bearing chapter claims (where the chapter must hold its ground) or procedural/cosmetic flags (where spot-fixes could disarm the attack)?**
+
+**v3 final composition (40 chars):** acceptance-test characters 30 (75%) + adversarial / detractor-test characters 10 (25%). Practitioner-coverage: 16 acceptance + 8 adversarial = 24 practitioner reads (60%). The set now exhausts the recognized adoption audience + the hostile-reception audience that will scrutinize the book if it reaches mainstream attention.
+
+**Pass scope:** Pass 3 audience-load re-verdict only — full 40-character comprehensive set including adversarial coverage. Pass 1 + Pass 2 not re-run; line-29 paragraph rewrite + Item (i) + Item (iv) treated as the audit baseline.
 **Hard constraint observed:** No new fixes applied to chapter file. If this re-audit surfaces new spot-fix recommendations, a separate Phase-C session would apply them after author ratification.
-**Branch:** `claude/ch1-pass3-audience-load-CSEal` (working on origin/main `54709e7`).
+**Branch:** `claude/ch1-pass3-audience-load-CSEal` (working on origin/main `0ed8a68` after v1 commit).
 
 ---
 
@@ -90,6 +102,50 @@ This re-audit therefore runs the full nine-character pressure-test set at the po
 19. **Contemplative-tradition / spiritual reader** (Buddhist meditation practitioner; Quaker / silent-tradition Christian; mindfulness-practice reader; secular-contemplative reader). Tier 3 — cultural-resonance; the chapter's NICU single-pointed-meditation passage at line 91 (*"I counted my breaths, seven on the inhale or eleven on the inhale… There was no other place I was. There was no other thing I was doing"*) + the chapter's mortality-meditation register at line 85 + the framework-not-redemption explicit framing at line 101 all engage contemplative-register territory.
 
 20. **Tech-industry / engineering-management reader** (former CTO / CIO / engineering-VP / IT-systems-engineer; cable-TV-station-rescue + NIH-projects scenes are recognizable territory). Tier 3 — authenticity check; reads the chapter's NIH-era (lines 51-65) + cable-TV-station-rescue (lines 69-73) + CEO-era (line 69) scenes for whether the tech-industry burnout culture + the inherit-undocumented-systems realities + the engineering-management-of-large-deals scenes ring true.
+
+**Ten practitioner / policy / professional characters added per author v2.5 expansion (the audiences gating professional adoption + commercial / policy success criteria):**
+
+21. **Doughnut Economics Action Lab (DEAL) / Kate-Raworth-team member.** Tier 1 (gating; direct comp-team peer). DEAL operates in the most-directly-comparable framework-team space the book sits in conversation with; Raworth's own memoir-opener pattern is the closest comp for this chapter; team members read for tradition-companionship signals + analytical-rigor signals + whether the book's commons-pricing approach is compatible with their planetary-boundaries + social-foundation framework architecture.
+
+22. **Bloomberg / FT / Economist-subscriber business-and-economics end reader.** Tier 1 (gating; broad-trade end-reader for the book's commercial success). Distinct from layman-but-engaged (#2) which is the Mazzucato/Raworth-cluster intellectual; this is the financially-literate informed-but-not-academic-economist reader who picks up business-press analytical books at the airport bookstore. Reads for analytical-rigor signals + actionable framework-promise + absence of disqualifying political-coding.
+
+23. **Mainstream / Coasean economist (devil's advocate).** Tier 2 (pipeline-strengthening). Orthodox-econ reader who'll push hardest on the externalities framing; reads cost-severance as either alternative-to-Coasean (which they'll critique) or as Coasean-extension (which they may grant). At Ch 1 the chapter doesn't engage Coase directly; this reader is in wait-and-see mode for the analytical chapters.
+
+24. **Hayekian / Austrian-school economist (knowledge-problem reader).** Tier 2. Reads the framework's structural-architecture analysis through Hayekian distributed-knowledge lens. The chapter's line 73 *"The institutional architecture did not include — could not include — the question I happened to walk in willing to ask"* is structurally Hayekian (knowledge-problem observation). Likely positive read; framework's distributed-knowledge grounding is Hayekian-compatible.
+
+25. **Ecological-economics reader (Herman Daly / Steady-State / Donella Meadows lineage).** Tier 2. Framework's commons-pricing engagement sits directly adjacent to ecological-economics tradition; reads chapter as memoir-opener-of-the-framework-book that will engage commons-pricing at the analytical-register depth this tradition expects.
+
+26. **Corporate / regulatory / fiduciary-duty lawyer** (CSR / ESG / corporate-governance lawyer cluster). Tier 2. Reads the framework's bond-instruments as potential legal architecture; reads Ch 1 for signals about how the book will frame the bond instruments' enforceability + their relationship to existing fiduciary-duty doctrine.
+
+27. **Constitutional / administrative-law scholar.** Tier 2. Reads the architecture-not-blame frame against admin-law's accountability-without-fault doctrines (strict liability; system-design-accountability); reads Ch 1 for whether the framework will engage admin-law concepts respectfully.
+
+28. **Policy think-tank fellow** (composite across spectrum: Brookings / Urban Institute / AEI / Cato / RFF / Manhattan Institute). Tier 3. Reads chapter as work-product-sample for the policy-paper-writer audience. Different subgroups react differently to Item (iv) at line 103 + the chapter's structural framing; aggregate INCLUDE because the chapter's framework-promise is sound + the structural moves earn good faith across most subgroups.
+
+29. **ESG / sustainable-finance practitioner** (Larry-Fink-letter-era institutional investor; Bloomberg ESG analyst; Morningstar Sustainability rater). Tier 3. Reads chapter for whether the framework will give them analytical tools for cost-severance accounting in portfolio construction; reads line 105 architecture-naming as promise of structural-accounting tools.
+
+30. **Foundation / philanthropy program officer** (Ford / Hewlett / Robert Wood Johnson / Mott / etc.). Tier 3. Reads chapter for whether the framework will be funder-adoptable + whether the book's evidence-architecture + scope-discipline are credible for grant-eligible work.
+
+**Ten adversarial / detractor characters added per author v3 expansion (the audiences who will TRY to unwind the chapter; selected for hostile read; verdict-floor is EXCLUDE; the test is which threads they find):**
+
+31. **Industry-funded energy economist** (Heritage Foundation energy fellow / Manhattan Institute energy fellow / Texas Public Policy Foundation / American Petroleum Institute economist / National Mining Association economist). Tier-A adversarial. Reads chapter for threads to weaponize against framework's threat to fossil-fuel-industry economics. Predisposed-hostile by financial-incentive.
+
+32. **Industry-funded health economist** (pharma-industry-affiliated; tobacco-industry-funded-research-historical-analog). Tier-A adversarial. Reads cost-severance framework as threat to pharma cost-shifting accounting; predisposed-hostile.
+
+33. **Public-choice theorist** (Buchanan / Tullock / Virginia school tradition). Tier-A adversarial-intellectual. Reads line 81 no-villain framing as skipping rent-seeking analysis (Public Choice argument: institutions don't "design themselves" — actors with rent-seeking incentives design them; the chapter's no-villain frame either masks the rent-seekers or denies they exist).
+
+34. **Pure-libertarian / Rothbardian reader** (Mises Institute / FEE / Cato-libertarian-wing). Tier-A adversarial-ideological. Reads framework as expanded-state-power proposal cloaked in scholarly language; reads the framework's bond instruments as necessarily-state-enforced regulatory architecture; predisposed-hostile.
+
+35. **Climate / energy-realist reader** (shale-cluster; AEI energy fellow; Manhattan Institute energy fellow; *RealClearEnergy* reader). Tier-A adversarial-energy. Reads commons-pricing framing of fossil-fuel externalities as policy-attack vector; predisposed-hostile on framework's commons-pricing premise.
+
+36. **Reactionary intellectual reader** (*National Review* / *National Affairs* / *American Affairs* reader; Niall Ferguson / Bret Stephens / Ross Douthat-cluster). Tier-A adversarial-cultural. Reads Item (iv) Dunbar/Du Bois + line 81 no-villain framing + line 105 architecture-naming as Frankfurt-school-adjacent / left-coded scholarship; predisposed-suspicious.
+
+37. **Trade-press hostile reviewer** (NYT / WSJ / *The Atlantic* / *The New Republic* book-reviewer assigned with adversarial intent). Tier-A adversarial-commercial. Would write a hostile review of the book if assigned; reads Ch 1 looking for threads to amplify.
+
+38. **Wall Street Journal editorial-board reader / business-press conservative.** Tier-A adversarial-business-press. Reads Ch 1 for "this book is a threat to business interests" signals; reads framework-promise + no-villain framing as preparation for business-blame regulation.
+
+39. **Tort-reform / fiduciary-protection lawyer** (defense-bar; corporate-counsel cluster). Tier-A adversarial-legal. Reads bond-instruments mentioned in framework-promise as litigation-amplification threat; reads chapter for signals about enforcement-mechanism aggressiveness.
+
+40. **Tabloid / populist-skeptic reader** (NY Post / Daily Mail / Fox News op-ed-page reader). Tier-A adversarial-populist. Reads memoir-substrate as celebrity-style legitimation-cover for policy-advocacy; reads line 11 fifty-eight-countries + line 99 no-contact-son for populist character-attack ammunition.
 
 ---
 
@@ -412,9 +468,249 @@ Aggregate verdict for character #12: **✓✓ INCLUDE** (dominated by the venues
 
 ---
 
+### Practitioner / policy / professional characters added (v2.5 expansion)
+
+#### 21. Doughnut Economics Action Lab (DEAL) / Raworth-team member — Tier 1
+
+**Reads for.** Tradition-companionship signals; whether the framework's commons-pricing architecture is compatible with DEAL's planetary-boundaries + social-foundation framework; whether the memoir-opener pattern matches the Raworth's-doughnut-as-personal-discovery template DEAL recognizes.
+
+**Lands.** The chapter's memoir-opener-into-framework structure mirrors Raworth's *Doughnut Economics* opening; the apparatus-free chapter-opener register matches DEAL trade-press communication norms; the framework-promise scope-discipline at line 101 (*"not a redemption mechanism. It is an honest accounting"*) matches DEAL's analytical-rigor-without-utopianism positioning. Item (iv) Dunbar/Du Bois engagement reads as cross-tradition intellectual-history attribution which DEAL values (Raworth herself cites widely across traditions). Line 105 commons-pricing-promise signals direct conversation with DEAL's intellectual territory.
+
+**Verdict: ✓✓✓ INCLUDE.** Direct comp-team peer; chapter lands at full strength for the team most directly companionate with the book's commons-pricing project.
+
+---
+
+#### 22. Bloomberg / FT / Economist-subscriber business end reader — Tier 1
+
+**Reads for.** Analytical-rigor signals; actionable framework-promise; absence of disqualifying political-coding; whether the framework will give analytical tools usable in professional contexts.
+
+**Lands.** Personal-stakes credibility (the author has lived the cost-severance pattern; not just theorized about it) — this reader values practitioner-grounded analytical work. Framework-promise scoped honestly at line 87 + line 101. No partisan disqualifiers in body prose; the line 81 no-villain framing + line 83 right-of-center audience-management work + framework-as-accounting-not-advocacy explicit scope all signal the framework will operate at analytical-tool-not-political-program register.
+
+**Flags.** Item (iv) Dunbar/Du Bois at line 103 may register as left-of-center literary-tradition signal; this reader is more pragma-tic than ideologically-coded, so the discount is mild.
+
+**Verdict: ✓✓ INCLUDE.** Chapter delivers analytical-rigor signals + actionable framework-promise + practitioner-grounded credibility; the line 103 mild discount doesn't disqualify.
+
+---
+
+#### 23. Mainstream / Coasean economist (devil's advocate) — Tier 2
+
+**Reads for.** Whether the framework's cost-severance theory is alternative-to-Coasean (which they'll critique) or Coasean-extension (which they may grant); whether Ch 1 reveals the framework's exact relationship to transaction-cost analysis.
+
+**Lands.** Chapter doesn't engage Coase directly; line 81 no-villain framing + line 83 free-market-economist direct-address signal the chapter will take Coasean objections seriously in analytical chapters; framework-promise at line 101 is scope-disciplined (accounting, not advocacy).
+
+**Flags.** Chapter's structural-architecture framing reads as system-design-accountability rather than as transaction-cost-bargaining; this reader will press hard on whether cost-severance ISN'T just unpriced-externality + property-rights-architecture problem solvable via Coasean bargaining mechanisms. Wait-and-see at Ch 1; verdict reserved for analytical chapters.
+
+**Verdict: ✓ INCLUDE.** Chapter holds at single-INCLUDE; this reader keeps reading but reserves judgment for Ch 4 + Ch 6 + Ch 9 where the framework will need to engage Coase + transaction-cost theory directly.
+
+---
+
+#### 24. Hayekian / Austrian-school economist (knowledge-problem reader) — Tier 2
+
+**Reads for.** Distributed-knowledge analysis; whether the framework's structural-architecture frame is compatible with Hayekian price-system-as-knowledge-aggregation.
+
+**Lands.** Line 73 *"The institutional architecture did not include — could not include — the question I happened to walk in willing to ask"* is structurally Hayekian — it's a knowledge-problem observation about institutions failing to aggregate distributed knowledge. The chapter's framing-discipline (architecture + question-not-included + work-at-the-seams) is Hayekian-compatible. Line 81 no-villain framing also Hayekian-compatible (no central designer; institutions emerged through path-dependence).
+
+**Flags.** This reader will press on whether the framework's commons-pricing apparatus operates AT the price-system level (Hayekian-compatible: extending price-system to include externalities) or DESPITE the price-system (Hayekian-objection: imposing planned-accounting where spontaneous-order should operate). Wait-and-see for Ch 4 + Ch 9.
+
+**Verdict: ✓✓ INCLUDE.** Chapter's distributed-knowledge framing at line 73 is genuinely Hayekian-resonant; this reader reads chapter as compatible foundation.
+
+---
+
+#### 25. Ecological-economics reader (Daly / Meadows-lineage) — Tier 2
+
+**Reads for.** Whether the framework's commons-pricing engagement sits in conversation with ecological-economics tradition (steady-state economics; biophysical limits; throughput-not-GDP); whether Ch 1 signals the book will engage the tradition respectfully.
+
+**Lands.** Line 105 architecture-clearly-enough-to-name + commons-pricing-promise is directly adjacent to ecological-economics conceptual territory. Framework-promise scope-discipline at line 101 + framework-as-honest-accounting register matches ecological-economics analytical-rigor-without-policy-prescription positioning. Item (iv) Dunbar/Du Bois lineage-engagement signals cross-tradition intellectual-history fluency which ecological-economics values (Daly himself cited Kapp + Polanyi + Mill across traditions).
+
+**Verdict: ✓✓ INCLUDE.** Chapter promises engagement with ecological-economics conceptual territory at analytical-register depth; this reader keeps reading with confidence.
+
+---
+
+#### 26. Corporate / regulatory / fiduciary-duty lawyer — Tier 2
+
+**Reads for.** Whether the framework's bond-instruments can operate as legal architecture; whether the chapter signals how aggressive the bond-instruments' enforcement-mechanism proposals will be.
+
+**Lands.** Framework-promise scope-disciplined at line 101 (*"not a redemption mechanism. It is an honest accounting"*) signals methodology-promise, not litigation-architecture-claim; this reader parses this as appropriate scope. Line 81 no-villain framing signals the book operates at architecture-not-individual-accountability level which is admin-law-compatible.
+
+**Flags.** Bond-instruments mentioned in book-level promise will require this reader to track Ch 5 + Ch 6 + Ch 9 + Tech Appendix for enforceability + fiduciary-duty implications.
+
+**Verdict: ✓✓ INCLUDE.** Chapter signals scope-disciplined framework-promise; this reader keeps reading.
+
+---
+
+#### 27. Constitutional / administrative-law scholar — Tier 2
+
+**Reads for.** Whether the architecture-not-blame frame is compatible with admin-law's accountability-without-fault doctrines.
+
+**Lands.** Line 81 no-villain framing is structurally compatible with admin-law's strict-liability + system-design-accountability + state-action doctrines; the chapter's framing-discipline (system-doing-what-system-was-designed-to-do) is recognizable as administrative-law's standard structural-accountability analysis.
+
+**Verdict: ✓✓ INCLUDE.** Chapter establishes admin-law-compatible foundation.
+
+---
+
+#### 28. Policy think-tank fellow (composite across spectrum) — Tier 3
+
+**Reads for.** Whether the framework will be usable as policy-paper-writing input.
+
+**Lands.** Framework-promise scoped honestly + analytical-rigor signals + memoir-substrate credibility.
+
+**Flags.** Item (iv) Dunbar/Du Bois may register differently across subgroups: Brookings / Urban Institute / RFF fellows read as cross-tradition scholarly attribution; AEI / Cato / Manhattan Institute / Heritage fellows may read as left-coded positioning (consistent with center-right reader discount at character #3).
+
+**Verdict: ✓✓ INCLUDE** (left-center-policy-fellow subgroups); **✓ INCLUDE** (right-leaning-policy-fellow subgroup). **Aggregate: ✓✓ INCLUDE.**
+
+---
+
+#### 29. ESG / sustainable-finance practitioner — Tier 3
+
+**Reads for.** Whether the framework will give analytical tools for cost-severance accounting in portfolio construction.
+
+**Lands.** Line 105 architecture-naming + framework-promise signals structural-accounting tools; the book's commons-pricing engagement is directly relevant to ESG materiality + Scope-4 (Avoided Emissions) accounting + portfolio-stewardship analysis.
+
+**Verdict: ✓✓ INCLUDE.** Chapter signals direct relevance to sustainable-finance practitioner toolkit.
+
+---
+
+#### 30. Foundation / philanthropy program officer — Tier 3
+
+**Reads for.** Whether the framework will be funder-adoptable; whether the book's evidence-architecture is credible for grant-eligible work.
+
+**Lands.** Personal-stakes credibility + framework-promise scope-discipline + memoir-substrate-into-framework move are all funder-recognized signals. The chapter's no-villain framing + accounting-not-advocacy scope make the framework adoptable by foundations of various political alignments.
+
+**Verdict: ✓✓ INCLUDE.** Chapter delivers funder-adoptable signal.
+
+---
+
+### Adversarial / detractor characters added (v3 expansion — robustness test)
+
+Note on verdict scale for adversarial characters: the adversarial-test verdict scale runs from **⚠ EXCLUDE** (would push back but the chapter holds against the push-back; thread is acknowledged) → **⚠⚠ EXCLUDE** (would actively reject; finds load-bearing thread; chapter's structural moves don't disarm) → **⚠⚠⚠ EXCLUDE** (would weaponize the chapter against itself; finds chapter-disqualifying thread). The aggregate-robustness verdict is determined by whether adversarial readers find COMMON load-bearing threads (= real chapter vulnerability) or scattered procedural threads (= robust chapter with isolated cosmetic-flag exposure).
+
+#### 31. Industry-funded energy economist (oil/coal-paid) — Tier-A adversarial
+
+**Thread sought.** Direct threats to fossil-fuel-industry economics; framework's commons-pricing as policy-attack vector.
+
+**Threads found at Ch 1.**
+- Line 105 architecture-clearly-enough-to-name + commons-pricing-promise → "Preparation for fossil-fuel-externality regulation"
+- Line 81 no-villain framing → reads as "patronizing rhetoric to mask villain-attribution that comes later in the book"
+- Line 87 *"the math the framework would later let me put a number on"* → "Preparation for cost-pricing-by-regulation"
+
+**Verdict: ⚠⚠ EXCLUDE.** Predisposed-hostile by financial-incentive; finds load-bearing chapter threads (the framework-promise itself is what they're attacking; not procedural flags). Chapter does not try to land this reader; not a chapter-vulnerability concern.
+
+---
+
+#### 32. Industry-funded health economist — Tier-A adversarial
+
+**Thread sought.** Threats to pharma cost-shifting accounting.
+
+**Threads found at Ch 1.**
+- Same framework-promise threads as #31, applied to pharma externalities.
+- Line 53 NIH-era passage about *"a marker for a rare genetic issue"* + *"a child living with that genetic issue"* → "Preparation for pharma cost-pricing in rare-disease space."
+
+**Verdict: ⚠⚠ EXCLUDE.** Same structural read as #31; load-bearing framework-promise threads.
+
+---
+
+#### 33. Public-choice theorist (Buchanan / Tullock tradition) — Tier-A adversarial-intellectual
+
+**Thread sought.** Whether the no-villain framing masks or skips rent-seeking analysis (the Public Choice critique).
+
+**Threads found at Ch 1.**
+- **Line 81 no-villain framing** is the THE central thread. Public Choice argument: institutions don't "design themselves" — actors with rent-seeking incentives design them. The chapter's *"The system did exactly what the system was designed to do. There was no villain in it"* either (a) masks the rent-seekers who designed the system, or (b) denies that rent-seekers exist. Both readings let this critic attack the framework as analytically-incomplete.
+- This is an INTELLECTUALLY-SERIOUS thread — not just predisposed hostility. The chapter's no-villain framing IS a deliberate move that brackets the rent-seeking question, which Public Choice would argue cannot be bracketed.
+
+**Verdict: ⚠ EXCLUDE.** Intellectually-rejected at Ch 1; would push hard on this. **This is a real thread the chapter has, and the book will need to engage it directly somewhere (likely Ch 5 + Ch 9 + Tech Appendix).** Not a Ch 1 spot-fix concern (the no-villain framing is doing important load-bearing work for other audiences; weakening it to placate Public Choice would hurt several Tier-1/Tier-2 verdicts). But author should note that Public Choice critique IS the strongest intellectual-detractor thread Ch 1 surfaces; the analytical chapters need to handle it.
+
+---
+
+#### 34. Pure-libertarian / Rothbardian reader (Mises Institute / FEE / Cato-libertarian-wing) — Tier-A adversarial-ideological
+
+**Thread sought.** Framework as expanded-state-power proposal.
+
+**Threads found at Ch 1.**
+- Framework's bond-instruments are necessarily state-enforced (or near-equivalents).
+- Line 105 architecture-clearly-enough-to-name implies state-level architecture-analysis as foundation for policy.
+- Line 101 framework-as-accounting-not-advocacy mitigates partially but doesn't address libertarian-categorical-objection.
+
+**Verdict: ⚠⚠ EXCLUDE.** Predisposed-ideological; finds load-bearing threads; not the chapter's audience. Chapter does not need to try to land this reader.
+
+---
+
+#### 35. Climate / energy-realist reader (shale-cluster) — Tier-A adversarial-energy
+
+**Thread sought.** Commons-pricing for fossil-fuel externalities as policy-attack vector.
+
+**Threads found at Ch 1.** Same as #31 + #34.
+
+**Verdict: ⚠⚠ EXCLUDE.** Predisposed-hostile on commons-pricing premise.
+
+---
+
+#### 36. Reactionary intellectual reader (National Review / National Affairs / American Affairs / Niall-Ferguson / Bret-Stephens-cluster) — Tier-A adversarial-cultural
+
+**Thread sought.** Frankfurt-school-adjacent or left-coded scholarship signals.
+
+**Threads found at Ch 1.**
+- **Item (iv) Dunbar/Du Bois at line 103** — the most-cited thread this reader pulls. Du Bois engagement at chapter-opener position reads as ideological-positioning signal to this reader specifically. (Same thread the center-right reader at #3 surfaces but pulled harder.)
+- Line 81 no-villain framing combined with line 105 architecture-naming reads as "structural-injustice-of-architecture" framing which this reader codes as Frankfurt-school / critical-theory-adjacent.
+- Line 83 free-market-economist direct-address — reads as strawman framing rather than as genuine engagement.
+
+**Verdict: ⚠ EXCLUDE.** One-tier-softer than predisposed-ideological adversaries; the chapter's structural moves at lines 81 + 83 + 87 + 101 earn some grudging respect; reader acknowledges the framework's scope-discipline but still flags the lineage-engagement + structural-architecture-frame as left-coded scholarship. **Item (iv) is the thread MOST OFTEN PULLED across the adversarial set** — already flagged as center-right discount at character #3.
+
+---
+
+#### 37. Trade-press hostile reviewer — Tier-A adversarial-commercial
+
+**Thread sought.** Material to amplify in a hostile review for NYT / WSJ / Atlantic / New Republic.
+
+**Threads found at Ch 1.**
+- Memoir-substrate-as-cynical-legitimation framing: would write the review as "personal tragedy deployed as legitimation for advocacy-book."
+- Item (iv) Dunbar/Du Bois — ideological-positioning angle.
+- Line 99 no-contact-son disclosure — would weaponize: "the author can't even maintain his own family relationships; how can he tell us about cost severance?"
+- Line 11 fifty-eight-countries detail — cosmopolitan-elite framing.
+
+**Verdict: ⚠ EXCLUDE.** Reviewer assigned with adversarial intent will write hostile review regardless of chapter quality — that's the assignment. The threads they amplify (memoir-as-legitimation; identity-coding; estrangement-as-character-attack; cosmopolitan-elite) are all DERIVED from the chapter's chosen material rather than from chapter-flaws; chapter doesn't have ways to disarm a hostile reviewer assignment. The mitigation is not chapter-level (it's review-cycle level — supportive reviews from non-hostile venues offset).
+
+---
+
+#### 38. Wall Street Journal editorial-board reader / business-press conservative — Tier-A adversarial-business-press
+
+**Thread sought.** "This book threatens business interests" signals.
+
+**Threads found at Ch 1.**
+- Line 81 no-villain framing + framework-promise = "business-blame framework arriving disguised as accounting."
+- Line 105 architecture-naming + commons-pricing-promise = "preparation for business-regulation through cost-pricing imposition."
+
+**Verdict: ⚠ EXCLUDE.** Predisposed-suspicious of structural-economic-critique framing; finds load-bearing framework-promise threads; chapter doesn't try to disarm this reader (would conflict with the framework's substantive work).
+
+---
+
+#### 39. Tort-reform / fiduciary-protection lawyer (defense-bar / corporate-counsel) — Tier-A adversarial-legal
+
+**Thread sought.** Litigation-amplification or fiduciary-breach-architecture concerns.
+
+**Threads found at Ch 1.**
+- Bond-instruments mentioned in framework-promise → litigation-amplification concern.
+- Line 73 institutional-architecture-could-not-include-the-question → could be read as preparation for breach-of-duty arguments (institutions had constructive knowledge they should have asked the question).
+
+**Verdict: ⚠ EXCLUDE.** Predisposed-cautious-to-hostile on litigation-architecture implications; chapter signals at line 101 that framework operates at accounting-not-litigation register but this reader will keep tracking for Ch 5 + Ch 9.
+
+---
+
+#### 40. Tabloid / populist-skeptic reader (NY Post / Daily Mail / Fox News op-ed-page) — Tier-A adversarial-populist
+
+**Thread sought.** Material for populist character-attack on the author + the book.
+
+**Threads found at Ch 1.**
+- Line 11 *"fifty-eight countries I have traveled to as of this writing"* — "cosmopolitan elite slumming as concerned-citizen"; "author has more passports than the people he claims to write for."
+- Line 99 no-contact-son disclosure — "if you can't keep your own family together, why should we listen to you about cost-accounting?"
+- General memoir-substrate — "tear-jerker manipulation to sell policy book."
+
+**Verdict: ⚠ EXCLUDE.** Predisposed-populist-hostile; reads memoir-substrate as elite-legitimation; chapter doesn't have ways to disarm tabloid populist read (the cosmopolitan-experience IS real biographical material; the no-contact-son IS real; the framework-policy work IS the substantive content). Mitigation is reception-cycle level (populist hostile attention is bounded; doesn't gate the book's commercial / policy / adoption success criteria except in worst-case-amplification scenarios).
+
+---
+
 ## §5. Aggregate re-audit verdict
 
-### §5.1 Per-character tally — full 20-character set
+### §5.1 Per-character tally — full 40-character set
 
 | Tier | # | Audience | Original (Pass 3) | Full-rigor re-audit |
 |---|---|---|---|---|
@@ -439,34 +735,101 @@ Aggregate verdict for character #12: **✓✓ INCLUDE** (dominated by the venues
 | 3 | **19** | Contemplative-tradition / spiritual reader [NEW] | — | **✓✓✓ INCLUDE** |
 | 3 | **20** | Tech-industry / engineering-management reader [NEW] | — | **✓✓✓ INCLUDE** |
 
-**Full-rigor re-audit tally:** 20 INCLUDE / 0 NEUTRAL / 0 EXCLUDE. Distribution: 7 ✓✓✓ INCLUDE; 12 ✓✓ INCLUDE; 1 ✓ INCLUDE.
+**Practitioner / policy / professional characters added (v2.5 expansion, chars 21-30):**
 
-**Tier 1 (gating; 5 characters):** 1 ✓✓✓ + 3 ✓✓ + 1 ✓; no EXCLUDE. Book-trade-press-positioning + book-deal-gating threshold met.
+| Tier | # | Audience | Verdict |
+|---|---|---|---|
+| 1 | 21 | Doughnut Economics Action Lab / Raworth-team member | **✓✓✓ INCLUDE** |
+| 1 | 22 | Bloomberg/FT/Economist-subscriber business end reader | **✓✓ INCLUDE** |
+| 2 | 23 | Mainstream / Coasean economist (devil's advocate) | **✓ INCLUDE** |
+| 2 | 24 | Hayekian / Austrian-school economist (knowledge-problem) | **✓✓ INCLUDE** |
+| 2 | 25 | Ecological-economics reader (Daly / Meadows) | **✓✓ INCLUDE** |
+| 2 | 26 | Corporate / regulatory / fiduciary-duty lawyer | **✓✓ INCLUDE** |
+| 2 | 27 | Constitutional / administrative-law scholar | **✓✓ INCLUDE** |
+| 3 | 28 | Policy think-tank fellow (composite across spectrum) | **✓✓ INCLUDE** |
+| 3 | 29 | ESG / sustainable-finance practitioner | **✓✓ INCLUDE** |
+| 3 | 30 | Foundation / philanthropy program officer | **✓✓ INCLUDE** |
 
-**Tier 2 (pipeline-strengthening; 6 characters):** 2 ✓✓✓ + 4 ✓✓; no EXCLUDE.
+**Adversarial / detractor characters added (v3 expansion, chars 31-40):**
 
-**Tier 3 (cultural-resonance + accessibility; 9 characters):** 4 ✓✓✓ + 5 ✓✓; no EXCLUDE.
+| Tier | # | Audience | Verdict |
+|---|---|---|---|
+| A | 31 | Industry-funded energy economist (oil/coal-paid) | **⚠⚠ EXCLUDE** |
+| A | 32 | Industry-funded health economist (pharma/tobacco-historical) | **⚠⚠ EXCLUDE** |
+| A | 33 | Public-choice theorist (Buchanan / Tullock) | **⚠ EXCLUDE** (intellectually-serious thread) |
+| A | 34 | Pure-libertarian / Rothbardian reader | **⚠⚠ EXCLUDE** |
+| A | 35 | Climate / energy-realist (shale-cluster) | **⚠⚠ EXCLUDE** |
+| A | 36 | Reactionary intellectual reader (NR / NA / AA / Ferguson) | **⚠ EXCLUDE** |
+| A | 37 | Trade-press hostile reviewer | **⚠ EXCLUDE** |
+| A | 38 | WSJ editorial-board / business-press conservative | **⚠ EXCLUDE** |
+| A | 39 | Tort-reform / fiduciary-protection lawyer | **⚠ EXCLUDE** |
+| A | 40 | Tabloid / populist-skeptic reader | **⚠ EXCLUDE** |
+
+**Full-rigor re-audit tally (40-char set):**
+- **Acceptance test (chars 1-30): 30 INCLUDE / 0 NEUTRAL / 0 EXCLUDE.** Distribution: 8 ✓✓✓ INCLUDE; 20 ✓✓ INCLUDE; 2 ✓ INCLUDE. All target audiences gating the book's commercial + policy + adoption success criteria return INCLUDE.
+- **Adversarial-detractor test (chars 31-40): 0 INCLUDE / 0 NEUTRAL / 10 EXCLUDE (4 ⚠⚠; 6 ⚠).** As expected (adversarial characters were SELECTED for hostile read). The diagnostic value is in §5.3 thread-pull synthesis.
+
+**Tier-level breakdown (acceptance test only):**
+- Tier 1 (gating; 7 characters incl. 2 from v2.5): 1 ✓✓✓ + 5 ✓✓ + 1 ✓; no EXCLUDE.
+- Tier 2 (pipeline-strengthening; 11 characters incl. 5 from v2.5): 2 ✓✓✓ + 8 ✓✓ + 1 ✓; no EXCLUDE.
+- Tier 3 (cultural-resonance + accessibility + practitioner; 12 characters incl. 3 from v2.5): 4 ✓✓✓ + 7 ✓✓ + 1 ✓; no EXCLUDE (aggregate; some subgroup ✓ within #28 policy think-tank composite).
 
 ### §5.2 Delta summary
 
-**Net deltas vs original Pass 3 (9-character set → 20-character full-rigor set):**
+**Net deltas vs original Pass 3 (9-character set → 40-character v3 set):**
 - **3 characters lifted from baseline** (left-policy reader ✓✓→✓✓✓; reparations-economics ✓✓→✓✓✓; Black-Studies-resonance ✓→✓✓).
-- **1 character softened from baseline** (center-right reader ✓✓→✓; the author's explicitly-flagged concern).
-- **11 new characters added at INCLUDE** (3 publishing-pipeline + 2 Tier-2-additions + 6 Tier-3-additions; 3 at ✓✓✓ and 8 at ✓✓).
-- **5 characters unchanged from baseline.**
+- **1 character softened from baseline** (center-right reader ✓✓→✓; the author's first explicitly-flagged concern).
+- **21 new acceptance-test characters added at INCLUDE** (3 publishing-pipeline + 2 Tier-2 + 6 Tier-3 + 10 practitioner; 4 at ✓✓✓, 15 at ✓✓, 2 at ✓).
+- **10 new adversarial-detractor characters added at EXCLUDE** (as expected for hostile-read selection; verdicts cluster ⚠ to ⚠⚠; no ⚠⚠⚠ disqualifying threads found).
+- **5 baseline characters unchanged.**
 
-**Highest-uplift new findings from the eight additional full-rigor characters:**
-- **Parent / caregiver reader (✓✓✓ INCLUDE)** — chapter's central personal stakes hold at full strength under the highest authenticity-sensitivity register; NICU + aging-parent + estranged-child rendering reads as substantively-earned + restrained + analytically-routed rather than wound-display.
-- **Contemplative-tradition / spiritual reader (✓✓✓ INCLUDE)** — single-pointed-meditation specificity at line 91 + mortality-meditation restraint at line 85 + framework-not-redemption explicit refusal-of-soteriology at line 101 all land cleanly; contemplative-tradition reader reads the chapter as authentic practice-language rather than as decorative-spirituality.
-- **Tech-industry / engineering-management reader (✓✓✓ INCLUDE)** — every NIH-era + cable-TV-rescue + senior-engineering-leader-observation beat rings true to lived experience; the inherit-undocumented-systems framing at line 69 + the grandfather-bridge skill-attribution at line 73 are recognized as the canonical analytical-moves this reader's career generates.
+### §5.3 Adversarial thread-pull synthesis (the central diagnostic from v3 expansion)
 
-**Lowest-confidence verdict in the full set:** Tier 1 #3 (center-right policy reader) at ✓ INCLUDE — the only ✓-grade verdict in the audit; flagged for author judgment per §6.1.
+The adversarial-test verdict is not pass/fail on individual characters (all 10 EXCLUDE; expected). The diagnostic value is in **which threads the 10 adversarial characters collectively find at Ch 1**, and whether those threads are (a) load-bearing chapter claims (chapter must hold its ground) or (b) procedural / cosmetic flags (spot-fixes could disarm).
 
-### §5.3 Aggregate re-audit verdict
+**Threads found, ranked by adversarial-character pull-frequency:**
 
-**READY TO SUBMIT AS-IS (with one soft author-judgment item).**
+| Thread | Pulled by adversarial chars | Type | Recommendation |
+|---|---|---|---|
+| **Line 105 architecture-naming + line 87 framework-promise + line 101 framework-as-honest-accounting** = the chapter's central framework-promise | 31, 32, 34, 35, 38, 39 (6 chars) | Load-bearing chapter claim (the framework promise IS the chapter's central work) | Chapter must hold; this is what the book is FOR. Cannot disarm without removing the chapter's purpose. |
+| **Line 81 no-villain framing** | 31, 33, 36, 38, 40 (5 chars; different pulls per char) | Load-bearing chapter claim (structural-rather-than-blame is doing major work for several Tier-1/2 acceptance audiences: anti-capital, left-policy, structural-critique, civic-republican) | Chapter must hold. **But: Public Choice critique (#33) is the most intellectually-serious thread; the book's analytical chapters need to engage rent-seeking analysis directly somewhere (likely Ch 5 + Ch 9 + Tech Appendix).** Ch 1 spot-fix not warranted (would damage acceptance verdicts); cross-chapter handoff flag for Phase B / future revision. |
+| **Item (iv) Dunbar/Du Bois at line 103** | 36, 37 (2 chars) | Already-flagged center-right discount at acceptance-test char #3 | Already-known thread; recommendation per §4 #3 is hold-as-applied (bibliography commitment + Tier-3 Black-Studies-resonance uplift outweigh; Option B alternative phrasings available if author chooses further softening). |
+| **Personal-stakes (NICU son at line 17; aging parents at line 83; no-contact son at line 99)** | 37, 40 (2 chars) | Chapter's substantive personal-cost material; load-bearing for several acceptance-test characters (parent/caregiver reader at ✓✓✓; layman-but-engaged at ✓✓✓; literary reader at ✓✓✓) | Chapter must hold. Adversarial pull (memoir-as-exploitation; estrangement-as-character-attack) cannot be disarmed without removing the chapter's emotional-stakes substrate which is doing major load-bearing work. |
+| **Line 11 cosmopolitan-elite signals (fifty-eight-countries detail; leather-grip "from the time of steam locomotives")** | 40 (1 char) | First-impression weight; biographical specificity | Already-passed acceptance-test check at literary reader (#7) + trade-press editor (#1); adversarial pull is populist character-attack scope, not chapter-flaw. |
+| **Line 83 free-market-economist direct-address as strawman** | 36 (1 char) | Already-tested acceptance audience-management work; reactionary intellectual reader (#36) reads as strawman | Acceptance-test char #3 (center-right) reads as substantive engagement; #36's strawman reading is more ideologically-motivated than analytically-grounded. Hold as-applied. |
 
-The post-applied chapter state holds at INCLUDE across all 20 characters in the full-rigor set. No EXCLUDE; no NEUTRAL. The Tier 1 gating threshold is met (no Tier-1 EXCLUDE; 5/5 Tier-1 characters return INCLUDE). The aggregate INCLUDE distribution is stronger than the original Pass 3 baseline (7 ✓✓✓ vs original 2 ✓✓✓; 12 ✓✓ vs original 6 ✓✓; 1 ✓ vs original 1 ✓; 0 NEUTRAL vs original 0 NEUTRAL).
+**Synthesis: the chapter is ROBUST against adversarial reads.** The threads adversarial readers find are (a) load-bearing chapter claims the book IS making, and (b) one already-flagged Item (iv) procedural thread already absorbed by the chapter's structural moves. No NEW chapter-vulnerability surfaces from the v3 adversarial test that wasn't already known from the v1-v2.5 acceptance test.
+
+**One specifically-actionable observation: the Public Choice rent-seeking critique at #33.** This is the strongest intellectually-serious adversarial thread; the book's analytical chapters need to engage rent-seeking analysis somewhere (likely Ch 5 + Ch 9 + Tech Appendix). Not a Ch 1 spot-fix concern — the no-villain framing is doing important load-bearing work for other audiences at Ch 1; weakening it to placate Public Choice would damage several Tier-1/Tier-2 acceptance verdicts. But it's a cross-chapter handoff: Phase B (whole-book audit per workstream #20) should verify rent-seeking-engagement coverage in the analytical chapters.
+
+**Industry-funded adversarial reads (#31, #32, #35) are not chapter-disarmable.** These readers are predisposed-hostile by financial-incentive; the chapter's framework-promise IS the threat to their funders. The chapter does not try to land these readers + cannot land them without abandoning the book's purpose. Mitigation is reception-cycle level (supportive reception from non-hostile venues offsets industry-funded hostility; this is a normal cost of doing structural-economic-critique work).
+
+**Hostile reviewer (#37) and populist tabloid (#40) reads are derived from chapter's chosen material rather than from chapter-flaws.** Chapter cannot disarm; mitigation is also reception-cycle level.
+
+**Highest-uplift new findings from the eight additional full-rigor characters (v2 expansion):**
+- **Parent / caregiver reader (✓✓✓ INCLUDE)** — chapter's central personal stakes hold at full strength under the highest authenticity-sensitivity register.
+- **Contemplative-tradition / spiritual reader (✓✓✓ INCLUDE)** — single-pointed-meditation specificity + mortality-meditation restraint + framework-not-redemption all land cleanly.
+- **Tech-industry / engineering-management reader (✓✓✓ INCLUDE)** — every NIH-era + cable-TV-rescue + senior-engineering-leader-observation beat rings true.
+
+**Highest-uplift new findings from the ten practitioner characters (v2.5 expansion):**
+- **DEAL / Raworth-team member (✓✓✓ INCLUDE)** — direct comp-team peer; chapter lands at full strength for the team most directly companionate with the book's commons-pricing project.
+- **Hayekian / Austrian economist (✓✓ INCLUDE)** — line 73 distributed-knowledge framing is genuinely Hayekian-resonant; this reader reads chapter as compatible foundation.
+- **Ecological-economics reader (✓✓ INCLUDE)** — commons-pricing-promise sits in direct conversation with this tradition's analytical territory.
+
+**Lowest-confidence acceptance verdicts** (the ✓ INCLUDE characters): center-right reader (#3) + Coasean economist (#23). Both reserve judgment for analytical chapters (which is appropriate at Ch 1). Both still INCLUDE; neither EXCLUDE.
+
+### §5.4 Aggregate re-audit verdict (acceptance test + robustness test)
+
+**READY TO SUBMIT AS-IS — with one cross-chapter handoff flag (Public Choice engagement) + one soft author-judgment item already documented (line-103 alternative phrasings).**
+
+**Acceptance test (chars 1-30):** The post-applied chapter state holds at **30 INCLUDE / 0 NEUTRAL / 0 EXCLUDE** across the full 30-character acceptance audience. All Tier-1 gating characters return INCLUDE (7/7); no Tier-1 EXCLUDE; book's commercial + policy + adoption success-criteria audiences all return INCLUDE. The INCLUDE distribution is substantially stronger than the original Pass 3 baseline (8 ✓✓✓ vs original 2 ✓✓✓; 20 ✓✓ vs original 6 ✓✓; 2 ✓ vs original 1 ✓).
+
+**Robustness test (chars 31-40 adversarial):** 10/10 EXCLUDE as expected (adversarial characters are selected for hostile read). **No ⚠⚠⚠ disqualifying threads found.** The threads pulled by adversarial characters cluster into:
+- Load-bearing chapter claims the book IS making (framework-promise; no-villain framing; personal-stakes; structural-architecture-analysis) — chapter must hold; cannot disarm without removing chapter's purpose.
+- Already-flagged Item (iv) procedural thread — already absorbed by structural moves; no new vulnerability.
+- One cross-chapter handoff flag: **Public Choice rent-seeking critique (#33) is the most intellectually-serious adversarial thread**; analytical chapters (likely Ch 5 + Ch 9 + Tech Appendix) need to engage rent-seeking analysis directly. Not a Ch 1 spot-fix concern.
+
+**Industry-funded + ideological-pre-committed + hostile-reviewer + populist adversarial reads are not chapter-disarmable** — these are predisposed-hostile audiences whose hostility is grounded in financial-incentive / pre-commitment rather than in chapter-flaws. Mitigation is reception-cycle level (supportive reception from non-hostile audiences offsets), not chapter-level. This is the normal cost of doing structural-economic-critique work + publishing it commercially.
 
 The **center-right reader light discount** (✓✓ → ✓ INCLUDE) is the principal change from baseline + is the author's explicitly-flagged concern. It is real but bounded:
 - The chapter still holds the center-right reader at INCLUDE through the close (not EXCLUDE).
@@ -562,4 +925,4 @@ Cross-artifact coherence is now stronger than before. Pre-pub editor/publisher r
 
 ---
 
-*End of Ch 1 Stage-3 Pass 3 FULL-RIGOR REAUDIT (Audience-Load, 20-character set) — pending author ratification. Re-audit verdict: READY TO SUBMIT AS-IS with one soft author-judgment item (§4 #3 Option B alternative phrasing for line 103, if the author wants to further soften the center-right discount; recommendation is Option A — hold both edits + accept the discount). Full 20-character set returns 20 INCLUDE / 0 NEUTRAL / 0 EXCLUDE.*
+*End of Ch 1 Stage-3 Pass 3 FULL-RIGOR REAUDIT v3 (Audience-Load + Adversarial-detractor coverage, 40-character set) — pending author ratification. Re-audit verdict: READY TO SUBMIT AS-IS with two cross-chapter / author-judgment flags (Public Choice rent-seeking engagement → cross-chapter handoff for analytical chapters; line-103 Option B alternative phrasings → already-documented soft author-judgment item; recommendation is hold-as-applied). Full 40-character set: 30 INCLUDE / 0 NEUTRAL / 10 EXCLUDE-as-expected (adversarial test surfaces 0 ⚠⚠⚠ disqualifying threads; thread-pull synthesis at §5.3 confirms chapter robustness).*
