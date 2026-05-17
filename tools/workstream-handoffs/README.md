@@ -45,11 +45,12 @@
 | $100 Barrel essay (derivative from withdrawn Noema §III) | `100-barrel-essay-handoff_2026-05-11.md` | `claude/100-barrel-essay-` |
 | Manuscript Stage-3 Rigor Pass (per-chapter + whole-book three-pass audit; 10+ parallel sessions paced over 2–3 weeks) | `manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` | `claude/manuscript-stage-3-` |
 
-### Added 2026-05-17 (cross-chapter coherence work surfaced via Stage-3 rigor passes)
+### Added 2026-05-17 (cross-chapter coherence work surfaced via Stage-3 rigor passes + pipeline-revision)
 
 | Workstream | Handoff file | Recommended branch prefix |
 |---|---|---|
 | Cross-chapter rent-seeking engagement (Public Choice complementarity) — surfaced by Ch 1 Pass 3 REAUDIT v3 adversarial test; four touches across Ch 5 + Ch 9 + Tech Appendix + Ch 8 + bibliography expansion | `cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md` | `claude/rent-seeking-engagement-` |
+| Pipeline-revision (drafting + fact-check + voice-polish + audience-load + rendering + sign-off pipeline doctrine — comprehensive revision) — surfaced by 2026-05-17 pipeline-revision brainstorm in Ch 1 Pass 3 REAUDIT v3 closing window; produces full doctrine cluster (Stage 0→5 architecture + invariant-gate infrastructure + content-type-aware sub-protocols + YAML registries + check-corpus-invariants script + pre-pub-review-queue template); 3 of 11 decisions ratified (YAML format; retrofit-all-chapters; external-reviewer policy); 8 pending author ratification before session fires; all chapters retrofit through new pipeline post-completion (per ratified decision #9) | `pipeline-revision-handoff_2026-05-17.md` | `claude/pipeline-revision-` |
 
 ### Special-case fresh-session handoffs (not workstream-handoffs; one-shot driving Stage-2 drafting)
 
