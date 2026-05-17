@@ -100,7 +100,7 @@ My son is somewhere in the world now. I don't know where. I wish I knew. We have
 
 I did not have the words to describe what was happening then. I do now. The framework in this book is how I learned to account for what happened. It does not undo it. It is not a redemption mechanism. It is an honest accounting.
 
-The work of naming what hides behind a mask is older than this book. Black American writing has carried that work for over a century. The framework extends the move into the pricing of commons. The pricing is new; the move is old.
+The work of naming what hides behind a mask — Dunbar's mask, Du Bois's veil — is older than this book. Black American writing has carried that work for over a century. The framework extends the move into the pricing of commons. The pricing is new; the move is old.
 
 It is a way of seeing the architecture clearly enough to name what is being absorbed by which people, and a way of asking — at last, after the fact — whether the people absorbing the cost were the people who agreed to absorb it. The chapters that follow walk through it carefully, at different scales, against different cases. None of it brings my son back. None of it is meant to. The framework is for the ones who come after. It is for the costs that are still ahead of us, that we still have a chance to see.
 
