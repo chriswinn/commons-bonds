@@ -60,20 +60,23 @@ Per ratified decision #9 (2026-05-17 brainstorm), all chapters run through the n
 
 Retrofit workstreams spin up per chapter (parallelizable). PM session sequences after doctrine cluster lands on `main`.
 
-| Chapter | Retrofit scope | Recommended branch prefix |
-|---|---|---|
-| Ch 1 (The Quiet Math) | 1a + 1c + 3.4 (already done; REAUDIT v3 PROPOSED) + 4 + 5 | `claude/ch1-pipeline-retrofit-` |
-| Ch 2 (The Miner) | 1a + 1c + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch2-pipeline-retrofit-` |
-| Ch 3 (The Waterman) | Full new pipeline application (Phase A not yet entered) | `claude/ch3-pipeline-retrofit-` |
-| Ch 4 (The Existence Proof) | 1a + 1c + 3.1 verify + 3.2 verify + 3.3 + 3.4 + 4 + 5 | `claude/ch4-pipeline-retrofit-` |
-| Ch 5 (The Accountability Gap) | 1a + 1c + 3.4 + 4 + 5 | `claude/ch5-pipeline-retrofit-` |
-| Ch 6 (Three Ways of Counting) | 1a + 1c + 3.4 + 4 + 5 | `claude/ch6-pipeline-retrofit-` |
-| Ch 7 (On Other Worlds) | 1a + 1c + 3.1 verify + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch7-pipeline-retrofit-` |
-| Ch 8 (What Things Actually Cost) | 1a + 1c + 3.1 verify + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch8-pipeline-retrofit-` |
-| Ch 9 (Pricing Honestly) | 1a + 1c + 3.1 verify + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch9-pipeline-retrofit-` |
-| Ch 10 (Common Bonds) | 1a + 1c + 3.1 verify + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch10-pipeline-retrofit-` |
-| Tech Appendix | 1a + 1c + 3.4 + 4 (highest stakes math-content) + 5 (academic-rigor sign-off most consequential) | `claude/ta-pipeline-retrofit-` |
-| AuthorsNote | Full new pipeline application (likely abbreviated paratextual register) | `claude/authorsnote-pipeline-retrofit-` |
+| Chapter | Retrofit scope | Recommended branch prefix | Per-chapter handoff stub |
+|---|---|---|---|
+| Ch 1 (The Quiet Math) | 1a + 1c + 3.4 (already done; REAUDIT v3 PROPOSED) + 4 + 5 | `claude/ch1-pipeline-retrofit-` | [`ch1-pipeline-retrofit-handoff_2026-05-17.md`](ch1-pipeline-retrofit-handoff_2026-05-17.md) |
+| Ch 2 (The Miner) | 1a + 1c + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch2-pipeline-retrofit-` | [`ch2-pipeline-retrofit-handoff_2026-05-17.md`](ch2-pipeline-retrofit-handoff_2026-05-17.md) |
+| Ch 3 (The Waterman) | Full new pipeline application (Phase A not yet entered) | `claude/ch3-pipeline-retrofit-` | [`ch3-pipeline-retrofit-handoff_2026-05-17.md`](ch3-pipeline-retrofit-handoff_2026-05-17.md) |
+| Ch 4 (The Existence Proof) | 1a + 1c + 3.1 verify + 3.2 verify + 3.3 + 3.4 + 4 + 5 | `claude/ch4-pipeline-retrofit-` | [`ch4-pipeline-retrofit-handoff_2026-05-17.md`](ch4-pipeline-retrofit-handoff_2026-05-17.md) |
+| Ch 5 (The Accountability Gap) | 1a + 1c + 3.4 + 4 + 5 | `claude/ch5-pipeline-retrofit-` | [`ch5-pipeline-retrofit-handoff_2026-05-17.md`](ch5-pipeline-retrofit-handoff_2026-05-17.md) |
+| Ch 6 (Three Ways of Counting) | 1a + 1c + 3.4 + 4 + 5 | `claude/ch6-pipeline-retrofit-` | [`ch6-pipeline-retrofit-handoff_2026-05-17.md`](ch6-pipeline-retrofit-handoff_2026-05-17.md) |
+| Ch 7 (On Other Worlds) | 1a + 1c + 3.1 verify + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch7-pipeline-retrofit-` | [`ch7-pipeline-retrofit-handoff_2026-05-17.md`](ch7-pipeline-retrofit-handoff_2026-05-17.md) |
+| Ch 8 (What Things Actually Cost) | 1a + 1c + 3.1 verify + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch8-pipeline-retrofit-` | [`ch8-pipeline-retrofit-handoff_2026-05-17.md`](ch8-pipeline-retrofit-handoff_2026-05-17.md) |
+| Ch 9 (Pricing Honestly) | 1a + 1c + 3.1 verify + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch9-pipeline-retrofit-` | [`ch9-pipeline-retrofit-handoff_2026-05-17.md`](ch9-pipeline-retrofit-handoff_2026-05-17.md) |
+| Ch 10 (Common Bonds) | 1a + 1c + 3.1 verify + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch10-pipeline-retrofit-` | [`ch10-pipeline-retrofit-handoff_2026-05-17.md`](ch10-pipeline-retrofit-handoff_2026-05-17.md) |
+| Tech Appendix | 1a + 1c + 3.4 + 4 (highest stakes math-content) + 5 (academic-rigor sign-off most consequential) | `claude/ta-pipeline-retrofit-` | [`ta-pipeline-retrofit-handoff_2026-05-17.md`](ta-pipeline-retrofit-handoff_2026-05-17.md) |
+| AuthorsNote | Full new pipeline application (likely abbreviated paratextual register) | `claude/authorsnote-pipeline-retrofit-` | [`authorsnote-pipeline-retrofit-handoff_2026-05-17.md`](authorsnote-pipeline-retrofit-handoff_2026-05-17.md) |
+| Dedication (conditional) | Minimal-scope: 1a + 1c + 3.1 + 3.2 + 4 + 5. **Blocked until dedication text finalized.** | `claude/dedication-pipeline-retrofit-` | [`dedication-pipeline-retrofit-handoff_2026-05-17.md`](dedication-pipeline-retrofit-handoff_2026-05-17.md) |
+
+Each per-chapter handoff stub scopes the per-chapter work (which sub-steps fire + why); the canonical procedure lives in the shared template [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md). Future Claude sessions read the relevant stub + the template + the canonical doctrine to pick up a retrofit workstream from scratch.
 
 ### Special-case fresh-session handoffs (not workstream-handoffs; one-shot driving Stage-2 drafting)
 
