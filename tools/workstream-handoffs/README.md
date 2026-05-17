@@ -6,6 +6,8 @@
 
 **Branch discipline.** Each workstream gets a dedicated feature branch. A fresh session opens with `git checkout -b claude/<workstream>-<harness-id>` from a current `origin/main` after `git fetch`. Per-workstream branches reduce cross-contamination + make rescue / merge-to-main cleaner.
 
+**Pipeline doctrine.** All publisher-facing prose moves through the canonical six-stage pipeline codified at [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) (v1.0.0 ratified 2026-05-17). Workstream sessions producing rigor-pass artifacts or content edits must respect the change-cascade routing rules in that doctrine + the cross-chapter workstream lifecycle codified there.
+
 **Merge-to-main default (established 2026-05-16 by author direction).** Sessions that complete *author-ratified content changes* — Phase C spot-fix application sessions, chapter-text edits ratified by the author before the session begins, and similar work where the author has explicitly approved the change set ahead of the session — autonomously fast-forward merge their feature branch into `main` and push `origin/main` at session close, instead of stopping at the feature branch. Sessions that produce *PROPOSED artifacts awaiting ratification* (e.g., Stage-3 rigor-pass artifacts at any of the three passes; Stage-2 audience-blind drafts; audit findings prior to author disposition) and *direct content edits without prior author ratification* continue to stop at feature branch and wait for explicit author merge. Never force-push `main`; never amend a commit already on `origin/main`.
 
 ## Handoffs
@@ -50,7 +52,28 @@
 | Workstream | Handoff file | Recommended branch prefix |
 |---|---|---|
 | Cross-chapter rent-seeking engagement (Public Choice complementarity) — surfaced by Ch 1 Pass 3 REAUDIT v3 adversarial test; four touches across Ch 5 + Ch 9 + Tech Appendix + Ch 8 + bibliography expansion | `cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md` | `claude/rent-seeking-engagement-` |
-| Pipeline-revision (drafting + fact-check + voice-polish + audience-load + rendering + sign-off pipeline doctrine — comprehensive revision) — surfaced by 2026-05-17 pipeline-revision brainstorm in Ch 1 Pass 3 REAUDIT v3 closing window; produces full doctrine cluster (Stage 0→5 architecture + invariant-gate infrastructure + content-type-aware sub-protocols + YAML registries + check-corpus-invariants script + pre-pub-review-queue template); 3 of 11 decisions ratified (YAML format; retrofit-all-chapters; external-reviewer policy); 8 pending author ratification before session fires; all chapters retrofit through new pipeline post-completion (per ratified decision #9) | `pipeline-revision-handoff_2026-05-17.md` | `claude/pipeline-revision-` |
+| Pipeline-revision (drafting + fact-check + voice-polish + audience-load + rendering + sign-off pipeline doctrine — comprehensive revision) — **COMPLETED 2026-05-17.** Produced the full doctrine cluster (Stage 0→5 architecture in [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) + per-stage docs + invariant-gate infrastructure + YAML registries + check-corpus-invariants script + pre-pub-review-queue template). All 11 decisions ratified at session start. All chapters retrofit through new pipeline per ratified decision #9 — see "Pipeline-doctrine retrofit workstreams" section below. | `pipeline-revision-handoff_2026-05-17.md` | `claude/pipeline-revision-` |
+
+### Pipeline-doctrine retrofit workstreams (post-2026-05-17 pipeline-revision)
+
+Per ratified decision #9 (2026-05-17 brainstorm), all chapters run through the new pipeline once the doctrine cluster lands on `main`. The retrofit workstreams below apply the new-to-the-pipeline elements (Stage 1a invariant scan + Stage 1c cross-artifact coherence + Pass 3.4 audience-load robustness + Stage 4 render-integrity + Stage 5 sign-off + pre-pub review queue) to existing chapters. Per-chapter retrofit scope is detailed in [`pipeline-revision-handoff_2026-05-17.md`](pipeline-revision-handoff_2026-05-17.md) §6.2.
+
+Retrofit workstreams spin up per chapter (parallelizable). PM session sequences after doctrine cluster lands on `main`.
+
+| Chapter | Retrofit scope | Recommended branch prefix |
+|---|---|---|
+| Ch 1 (The Quiet Math) | 1a + 1c + 3.4 (already done; REAUDIT v3 PROPOSED) + 4 + 5 | `claude/ch1-pipeline-retrofit-` |
+| Ch 2 (The Miner) | 1a + 1c + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch2-pipeline-retrofit-` |
+| Ch 3 (The Waterman) | Full new pipeline application (Phase A not yet entered) | `claude/ch3-pipeline-retrofit-` |
+| Ch 4 (The Existence Proof) | 1a + 1c + 3.1 verify + 3.2 verify + 3.3 + 3.4 + 4 + 5 | `claude/ch4-pipeline-retrofit-` |
+| Ch 5 (The Accountability Gap) | 1a + 1c + 3.4 + 4 + 5 | `claude/ch5-pipeline-retrofit-` |
+| Ch 6 (Three Ways of Counting) | 1a + 1c + 3.4 + 4 + 5 | `claude/ch6-pipeline-retrofit-` |
+| Ch 7 (On Other Worlds) | 1a + 1c + 3.1 verify + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch7-pipeline-retrofit-` |
+| Ch 8 (What Things Actually Cost) | 1a + 1c + 3.1 verify + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch8-pipeline-retrofit-` |
+| Ch 9 (Pricing Honestly) | 1a + 1c + 3.1 verify + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch9-pipeline-retrofit-` |
+| Ch 10 (Common Bonds) | 1a + 1c + 3.1 verify + 3.2 + 3.3 + 3.4 + 4 + 5 | `claude/ch10-pipeline-retrofit-` |
+| Tech Appendix | 1a + 1c + 3.4 + 4 (highest stakes math-content) + 5 (academic-rigor sign-off most consequential) | `claude/ta-pipeline-retrofit-` |
+| AuthorsNote | Full new pipeline application (likely abbreviated paratextual register) | `claude/authorsnote-pipeline-retrofit-` |
 
 ### Special-case fresh-session handoffs (not workstream-handoffs; one-shot driving Stage-2 drafting)
 

@@ -1,0 +1,238 @@
+# Pipeline Doctrine — Stage 4 (v1.0.0)
+
+**Date drafted:** 2026-05-17
+**Status:** PROPOSED — pending author ratification at session close.
+**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](commons_bonds_pipeline_doctrine_v1.0.0.md) §1
+**Relates to existing publishing pipeline:** [`tools/scripts/build-derivatives.sh`](scripts/build-derivatives.sh) (markdown → .docx + HTML + PDF via pandoc + xelatex + Chrome-headless + LibreOffice).
+
+---
+
+## §0. Purpose
+
+Stage 4 is the **render + character-integrity audit**: verify that rendered output (markdown → .docx + HTML + PDF) matches the source content byte-for-byte at the character level + that math formulas + tables + figures render correctly without artifact corruption.
+
+Specific friction Stage 4 resolves (per pipeline-revision handoff §0):
+
+- Tofu-box em-dash / approx-symbol rendering issues (commit `d238f2c` Ch 5 + Ch 6 fix).
+- Chrome-vs-wkhtmltopdf rendering divergence (commit `cf24f57`).
+- EB Garamond font-family naming for cross-platform render consistency (commit `3208619`).
+- Author's lived-experience math-formula corruption: minus-into-box rendering at NIH-era publications + later publishing experience; well-known categorical failure for math-heavy artifacts.
+- Subscript / superscript stripping in font-fallback paths.
+- Greek-letter substitution under inadequate font coverage.
+
+Stage 4 catches these before pre-publication sign-off (Stage 5). Without Stage 4 as a doctrine-level audit, these issues surface ad-hoc at publishing time — too late for clean disposition.
+
+---
+
+## §1. When Stage 4 fires
+
+After Stage 3 closes (all four passes complete + spot-fixes applied + author ratified), before Stage 5 sign-off.
+
+For retrofit cycles: after Pass 3.4 (audience-load robustness) completes; Stage 4 fires on the retrofit-targeted derivative outputs.
+
+Stage 4 also fires whenever the publishing pipeline scripts change (e.g., font swap; pandoc version upgrade; CSS edit). Change-cascade routing: any source-file change → Stage 1a (pre-commit); any **publishing-pipeline-script** change → Stage 4 re-run for all affected artifacts.
+
+---
+
+## §2. Procedure
+
+### §2.1 Pre-render verification
+
+1. Source artifact at the version that closed Stage 3 (post-spot-fix; author-ratified).
+2. Verify build environment is current:
+   - Pandoc version match against the known-good version stored in `tools/quality-gates/render-baselines/build-environment.yaml`.
+   - xelatex availability + LaTeX package set match.
+   - Chrome / LibreOffice binary version match.
+   - Fonts: EB Garamond + math font set installed + version-matched.
+3. Run `tools/scripts/build-derivatives.sh` against the source artifact.
+4. Produce three derivative outputs: `.docx`, `.html`, `.pdf`.
+
+### §2.2 Source-vs-rendered character diff
+
+For each derivative output:
+
+1. Extract text content (e.g., `pdftotext` for PDF; `pandoc -t plain` for docx + html).
+2. Diff against the source markdown's text content (after stripping markdown syntax tokens).
+3. Flag any character-level divergence:
+   - Tofu-box `□` / replacement glyph U+FFFD `�` / question-mark substitution `?` for missing characters.
+   - Em-dash / en-dash / hyphen-minus drift (`—` rendered as `–` or `-`).
+   - Approximation symbol drift (`≈` rendered as `□` or `?` or `~`).
+   - Greek-letter drift (e.g., `α` rendered as `a`).
+   - Subscript / superscript stripping (`x_i` rendered as `xi`).
+   - Currency / typographic-symbol drift (`$` → `£` is real for some fonts).
+
+### §2.3 Formula-integrity audit (math content)
+
+For each math span (inline + display):
+
+1. Extract the source formula text (LaTeX source for display math; markdown-embedded for inline).
+2. Render the formula in isolation through the pipeline.
+3. Compare rendered formula against canonical-formula inventory in Stage 1b brief.
+4. Flag any divergence:
+   - Minus-sign rendering as box / minus-into-box.
+   - Subscript / superscript misalignment.
+   - Bracket / parenthesis font-fallback issues.
+   - Operator-spacing drift (e.g., `\cdot` rendering as `.` due to font-fallback).
+   - Greek-letter substitution.
+   - Integral / sum / product symbol corruption.
+
+For the Tech Appendix specifically: every formula audited. For Ch 6 + Ch 9: every display math span audited; inline math sampled at 100% if length permits, otherwise sampled at the ratio that gives 99% confidence in formula-integrity.
+
+### §2.4 Table-rendering audit
+
+For each table:
+
+1. Extract rendered table content.
+2. Verify:
+   - Cell alignment matches source.
+   - No cell truncation (wide tables that overflow page boundaries).
+   - Header rows render as expected (bold + borders per stylesheet).
+   - Cell-content character-level integrity (per §2.2).
+
+### §2.5 Figure-rendering audit
+
+For each figure:
+
+1. Verify image source file present + resolves cleanly.
+2. Verify rendered image:
+   - No crop / no resolution-loss vs source.
+   - Caption renders correctly.
+   - Alt-text fires (HTML output).
+   - Figure-numbering matches cross-references.
+
+### §2.6 Layout-integrity audit
+
+1. Page-break behavior: no orphaned headers; no widow lines; no header / caption split from content.
+2. Cross-references resolve: every `[Chapter X §Y]` / figure-number / table-number reference resolves to a real target.
+3. Footnotes render correctly: numbering matches source; footnote text not truncated.
+4. Table of contents (if generated) matches source structure.
+
+---
+
+## §3. Render-safety conventions (set at Stage 1b for math content)
+
+Stage 4 catches render-failure patterns; Stage 1b establishes the conventions that prevent them. Specifically, for math content, Stage 1b brief should specify:
+
+### §3.1 Character conventions
+
+- Use `—` (em-dash U+2014) and `–` (en-dash U+2013) deliberately; avoid hyphen-minus `-` for parenthetical extension.
+- Use `≈` (U+2248) for approximation; verify font coverage in Stage 1b baseline render test.
+- Use `·` (U+00B7) for multiplication where typographically appropriate; avoid `*` in body prose.
+- Use proper Greek letters (`α` `β` `γ` … not `a` `b` `c` italicized).
+- Use proper minus sign `−` (U+2212) for math expressions; reserve hyphen-minus `-` for word-internal hyphenation.
+
+### §3.2 Formula conventions
+
+- Display math always wrapped in `$$ … $$` or `\[ … \]` (per source-format preference).
+- Inline math wrapped in `$ … $`.
+- Subscripts always braced when multi-character (`x_{ij}` not `x_ij`).
+- Avoid mixing inline-and-display in the same paragraph where layout-flow risks orphaned single-symbol-on-a-line.
+- Operators: prefer `\cdot` for multiplication in formulas; `+` `-` direct for addition / subtraction.
+
+### §3.3 Font convention
+
+- EB Garamond as primary body font; math font with matching Greek-letter + operator coverage.
+- For PDF: xelatex with EB Garamond + a math-font with U+2212 / U+2248 / Greek-letter coverage.
+- For HTML / docx: same font stack with web-safe fallbacks documented.
+
+### §3.4 Baseline render test (Stage 1b)
+
+Before Stage 2 drafts, run a tiny baseline render test with:
+- One paragraph of prose containing em-dash + en-dash + approx-symbol.
+- One display math span using `−` + Greek letter + subscript + operator.
+- One inline math span similar.
+
+Verify all three render cleanly through all three derivative outputs. Record the test artifact at `tools/quality-gates/render-baselines/<scope-slug>_stage1b_baseline_<date>.md`.
+
+If the baseline test fails: resolve the publishing-pipeline issue **before** drafting begins. Drafting against a known-bad render baseline produces work that has to be re-rendered after fix; cheaper to fix upstream.
+
+---
+
+## §4. Stage 4 verdict + spot-fix protocol
+
+### §4.1 Verdict scale
+
+- **CLEAN.** No HIGH-severity render-failure findings. MEDIUM findings may exist; each disposed.
+- **MEDIUM HOLD.** No HIGH; ≥1 MEDIUM held with rationale (e.g., "Greek-letter font-fallback in HTML output is acceptable for current stage of publication; pre-publication review queue flags for publisher's typesetter").
+- **HIGH BLOCK.** ≥1 HIGH-severity finding; cannot proceed to Stage 5.
+
+### §4.2 Severity scale
+
+- **HIGH** — rendered output is incorrect (claims something different from source; produces tofu-box or replacement glyph; formula misrenders such that reader sees wrong content).
+- **MEDIUM** — rendered output is suboptimal but still correct (e.g., en-dash where em-dash intended; spacing-tight Greek letter).
+- **LOW** — cosmetic preference (e.g., font-weight subtle drift).
+
+### §4.3 Spot-fix protocol
+
+Stage 4 findings route to spot-fixes in three places:
+
+1. **Source-level fix.** Edit source markdown to use render-safe convention (e.g., replace `~` with `≈`). Re-render + re-audit.
+2. **Pipeline-script fix.** Edit `tools/scripts/build-derivatives.sh` (or its dependencies — pandoc args, xelatex template, CSS) to handle the pattern correctly. Cascade: this change triggers Stage 4 re-run for **all** affected artifacts (change-cascade routing rule).
+3. **Convention update.** If a new render-failure pattern surfaces (one not in current registry), add to `tools/quality-gates/regressed-patterns.yaml` (render-failure category) + add convention to §3 above. Cascade: update Stage 1b baseline render test to include the new pattern.
+
+---
+
+## §5. Output artifact format
+
+```
+# Stage 4 Render + Character-Integrity Audit — [SCOPE]
+
+**Date:** [YYYY-MM-DD]
+**Scope:** [path/to/artifact]
+**Stage 3 close commit:** [short-sha]
+**Build environment:** [pandoc version + xelatex version + Chrome version + font versions]
+
+## §1. Pre-render verification
+[Build environment check results]
+
+## §2. Source-vs-rendered character diff
+[Per derivative output: findings table with line + source-text + rendered-text + severity]
+
+## §3. Formula-integrity audit (if math content)
+[Per formula: source + rendered + verdict + severity]
+
+## §4. Table-rendering audit
+[Per table: source + rendered + verdict + severity]
+
+## §5. Figure-rendering audit
+[Per figure: source + rendered + verdict + severity]
+
+## §6. Layout-integrity audit
+[Findings table]
+
+## §7. Spot-fix recommendations
+[Per finding: spot-fix type (source / pipeline / convention) + recommended edit + cascade implications]
+
+## §8. Verdict
+
+CLEAN / MEDIUM HOLD / HIGH BLOCK
+
+## §9. Pre-publication review queue flags (carry forward to Stage 5)
+
+[Per finding to flag: what publisher's typesetter / external reviewer should re-verify]
+```
+
+Artifact path: `tools/rigor-passes/<chapter-slug>_stage_4_render_audit_<date>.md`.
+
+---
+
+## §6. Retrofit-mode notes
+
+For chapters already through prior pipeline cycles:
+
+- Stage 4 fires on the retrofit-targeted derivative outputs.
+- Particular attention to math-heavy chapters (Ch 6 + Ch 9 + Tech Appendix) given pre-existing tofu-box history (commit `d238f2c` Ch 5 + Ch 6 em-dash / ≈ fix is the canonical example of a render-failure that surfaced post-cycle and required spot-fix).
+- Retrofit Stage 4 verdict is typically CLEAN given the pipeline-script fixes already on main; the audit confirms cleanness rather than discovering new patterns.
+
+---
+
+## §7. Hard constraints
+
+- Stage 4 must complete before Stage 5 sign-off.
+- HIGH-severity findings block proceeding to Stage 5.
+- Pipeline-script changes trigger Stage 4 re-run for affected artifacts (change-cascade routing).
+- Render baselines (`tools/quality-gates/render-baselines/`) are commit-tracked; the build environment is a doctrine-level commitment, not a per-session assumption.
+
+---
+
+*End of Stage 4 doctrine.*
