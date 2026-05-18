@@ -95,20 +95,31 @@ build_environment:
 #   research/outreach/subjects/darity/Chapter_6_Three_Ways_of_Counting_2026-05-14.{docx,pdf}
 #   research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.{docx,pdf}
 #
-# Byte-level match table (this session's renders vs Sandy packet):
+# Byte-level match table (this session's renders vs Sandy packet
+# CANONICAL with-citations artifacts from commit e6ddf92, 2026-05-15):
 #   Ch 5 docx: 38,573 vs 38,494 (~exact)
-#   Ch 5 pdf:  121,523 vs 121,516 (with-citations variant; ✓ exact)
+#   Ch 5 pdf:  121,523 vs 121,516 (✓ exact)
 #   Ch 6 docx: 44,477 vs 44,402 (~exact)
-#   Ch 6 pdf:  143,832 vs 143,831 (with-citations variant; ✓ exact)
+#   Ch 6 pdf:  143,832 vs 143,831 (✓ exact)
 #   TA docx:   129,517 vs 129,517 (✓ exact)
-#   TA pdf:    613,750 (wkhtmltopdf) vs 1,138,875 (Chrome — Sandy original)
+#   TA pdf:    613,750 vs 582,982 (~5% delta; both wkhtmltopdf;
+#              likely minor bibliography/layout difference)
+#
+# Note on TA PDF engine: per the e6ddf92 commit message, the Sandy
+# packet TA PDF was rendered with **wkhtmltopdf** (NOT Chrome).
+# Earlier framing in this file conflated Chrome-vs-wkhtmltopdf with
+# laptop-vs-remote-container; correction 2026-05-17: the Sandy packet's
+# HTML→PDF path was wkhtmltopdf at e6ddf92 time. Chrome-preferred
+# (commit cf24f57) landed 39 minutes AFTER e6ddf92 — for future
+# renders, not for the Sandy packet itself.
 #
 # Conclusion: markdown-side renders reproduce Sandy pipeline at byte
-# level; HTML-side TA PDF differs because Chrome unavailable in this
-# container. For Stage 4 canonical-pipeline decision per
-# render-pipeline-standardization-handoff_2026-05-17.md §3.4, the
-# TA PDF rendering engine (Chrome vs wkhtmltopdf) is the open
-# question for HTML→PDF specifically.
+# level; TA PDF reproduces Sandy pipeline within ~5% (same engine
+# class — wkhtmltopdf — different versions / configurations explain
+# the minor delta). The earlier "Chrome was canonical for Sandy"
+# framing was wrong; the Sandy packet was 100% pandoc + xelatex +
+# wkhtmltopdf + reference.docx + EB Garamond per e6ddf92's documented
+# pipeline.
 
 notes: |
   POPULATED 2026-05-17 from the standardization-workstream
@@ -135,26 +146,31 @@ notes: |
      fallback (this container's Chrome unavailable); canonical
      Chrome-rendered TA PDF reference is the Sandy packet's.
 
-  OPEN FOLLOW-UPS (do not block ratification; tracked for resolution):
-    1. Chrome non-snap binary availability in future remote-container
-       sessions — needed to reproduce the Sandy packet TA PDF rendering
-       path (1.14MB Chrome-rendered) for future TA refreshes. The
-       2026-05-17 container blocked snap (snapd unavailable) + direct
-       .deb download (network policy 403). Likely solution: container
-       setup script that installs Chrome at session start, OR document
-       canonical Chrome version + treat snap-failure as known issue
-       requiring container-config remediation.
+  OPEN FOLLOW-UPS (do not block; tracked for resolution):
+    1. Reproducibility of past remote-container renders is incomplete
+       — what e6ddf92's commit message captured was the rendering-
+       architecture (pandoc + xelatex + wkhtmltopdf + EB Garamond)
+       but NOT the specific tool versions (pandoc version, xelatex
+       version, wkhtmltopdf version) nor the container OS / image.
+       The 2026-05-17 build-environment.yaml is the FIRST capture of
+       those specifics; future sessions can match this stamp for
+       canonical-pipeline reproduction.
     2. build-derivatives.sh pandoc invocation: add `-f
        markdown-yaml_metadata_block` default for pandoc 3.x
        compatibility (chapter sources' `---` separator otherwise
        parses as YAML metadata block, fails on "By Chris Winn" alias).
-    3. The wkhtmltopdf TA PDF render in this container's 2026-05-17
-       pre-render (tools/scripts/comparison-renders/ta_2026-05-17_9ffad4e/
-       remote-container/TechnicalAppendix_v2.0.0.pdf, 614KB) is NOT
-       canonical — it's a fallback because Chrome was unavailable.
-       Canonical TA PDF is the Sandy packet one (1.14MB) at
-       research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.pdf
-       until Chrome reproducibility resolves.
+       The e6ddf92 session may have used pandoc 2.x which didn't have
+       this issue; recording the workaround as a build-derivatives.sh
+       improvement candidate for the laptop-tuning rounds.
+    3. Chrome non-snap binary availability in future remote-container
+       sessions — for the cf24f57 Chrome-preferred path (post-Sandy-
+       packet update). The 2026-05-17 container blocked snap (snapd
+       unavailable) + direct .deb download (network policy 403). Per
+       the canonical-pipeline-decision-pending framing, this only
+       matters if future canonical decision adopts Chrome over
+       wkhtmltopdf for HTML→PDF. For matching the Sandy-packet
+       baseline as currently understood (wkhtmltopdf), no Chrome
+       dependency.
 
   Per change-cascade routing rule for publishing-pipeline-script
   changes (Stage 4 doctrine §3.3): any future toolchain update
