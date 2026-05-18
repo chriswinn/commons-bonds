@@ -1,0 +1,232 @@
+---
+name: Pipeline doctrine — single unified pipeline for publisher-facing prose (v3.0)
+description: Six-stage pipeline (Stages 0-5) with four-pass Stage 3 + continuous invariant-gate scans + change-cascade routing + cross-chapter workstream lifecycle. Extends v2.0 Amendment B. v3.0 ratified 2026-05-17; canonical full doctrine at tools/commons_bonds_pipeline_doctrine_v1.0.0.md in commons-bonds repo.
+type: feedback
+originSessionId: 6a97b0f9-c18b-4992-8bf6-b2bbf9c60acf
+---
+**Canonical full content:** `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`
+**Layer:** scan-friendly summary; this file is the cross-session discipline pointer. Update the canonical artifact when content changes; sync this summary via `tools/memory-updates/` spec for substantive amendments.
+
+# feedback_audience_aware_drafting_discipline (v3.0)
+
+**Date:** 2026-05-17
+**Supersedes:** v2.0 Amendment B (2026-05-10 + 2026-05-13)
+**Canonical full doctrine:** `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` in
+the commons-bonds repo. This memory entry is the scan-friendly summary; the
+doctrine artifact carries the full architecture.
+
+## Summary
+
+Publisher-facing prose moves through a single unified pipeline with six stages
+and continuous invariant-gate scans:
+
+- **Stage 0:** author conception / topic decision.
+- **Stage 1:** ready-to-draft gate (three sub-steps).
+  - **1a:** corpus-hygiene invariant gate (scaffolding scan + regressed-pattern
+    scan via `tools/scripts/check-corpus-invariants.sh`).
+  - **1b:** canonical fact-ground + audience-aware structure + render-safe
+    convention (existing Stage 1 template).
+  - **1c:** cross-artifact coherence check (bibliography + AuthorsNote +
+    sibling-chapter + rigor-pass coherence).
+- **Stage 2:** audience-blind drafting (existing).
+- **Stage 3:** four-pass rigor audit.
+  - **3.1:** fact-check (per v2.0).
+  - **3.2:** voice-polish (per v2.0).
+  - **3.3:** audience-load acceptance (target audiences; INCLUDE / EXCLUDE
+    verdict per character).
+  - **3.4:** audience-load robustness (adversarial / detractor characters;
+    thread-pull synthesis verdict; NEW in v3.0).
+- **Stage 4:** render + character-integrity audit (NEW in v3.0).
+- **Stage 5:** academic-rigor + prose-quality sign-off bookend + pre-publication
+  review queue artifact (NEW in v3.0).
+
+Per-prompt serial cadence enforced (each pass fires in its own prompt; author
+ratifies + spot-fixes apply before next pass fires).
+
+## Bookend sign-offs
+
+Both academic-rigor AND prose-quality sign-offs at BOTH Stage 1 AND Stage 5.
+Stage 1 verifies the ready-to-draft brief; Stage 5 verifies no drift through
+the pipeline + generates the pre-publication review queue artifact.
+
+## Change-cascade routing
+
+Any change routes back to the appropriate prior stage. Specific rules:
+- New fact → Stage 1b → re-fire Pass 3.1 + 3.2 + 3.3 (+ 3.4 if material).
+- New audience character → Stage 1b → re-fire Pass 3.3 (+ 3.4 if adversarial).
+- Bibliography commitment → Stage 1c → affected chapter's Pass 3.3 (light)
+  re-fire.
+- Spot-fix applied → Stage 1c (light) → Pass 3.3 (light) re-fire.
+- Cross-chapter workstream → Stage 1c for all affected chapters → each
+  chapter's Pass 3.3 (light) re-fire.
+- Any source-file change → Stage 1a invariant scan (automatic via pre-commit
+  hook).
+
+## Single-pipeline architecture
+
+Math + prose + tables + figures all go through the same pipeline. Content-type-
+aware sub-protocols at each stage handle type-specific work. No parallel
+pipelines for math vs prose.
+
+## Cross-chapter workstream lifecycle
+
+Workstreams touching multiple chapters get a first-class six-step lifecycle:
+surfaces → PM ratifies + spins up → single feature branch applies cross-chapter
+touches → each touched chapter auto-triggers Stage 1c + Pass 3.3 light re-fire
+→ workstream closes only after all re-fires complete clean → cross-thread-todos
++ workstream-handoff archived.
+
+## Pre-publication review queue
+
+Mandatory hand-off artifact at Stage 5. Goes to publisher / agent / editor with
+the manuscript-submission package. Contents: what has been internally verified
++ what has NOT been externally verified + recommended external reviewer types
++ highest-priority sections for external review if publisher budget is limited.
+Transparent quality-control disclosure rather than overclaiming-verification
+posture.
+
+## Invariant-gate infrastructure
+
+Two continuous scans (pre-commit + every stage transition + CI):
+- **Scaffolding scan** — `tools/quality-gates/scaffolding-patterns.yaml` —
+  placeholders (`TODO`, `TK`); drafting-template scaffolding; process-scaffolding
+  vocabulary (`Option A`-`Z`, `ratified`, `Phase C-*`, `F-V*`, INCLUDE/EXCLUDE
+  glyphs); meta-commentary tics.
+- **Regressed-pattern scan** — `tools/quality-gates/regressed-patterns.yaml` —
+  patterns previously fixed by rigor passes; deprecated terminology; gate-decision-
+  banned patterns (vendor names per CEO-era NDA); render-failure patterns.
+
+Both registries severity-tiered (HIGH = block; MEDIUM = flag; LOW =
+informational) with per-file allowlist support.
+
+Implementation: `tools/scripts/check-corpus-invariants.sh`.
+
+## What v3.0 changes from v2.0 Amendment B
+
+- Three passes → four passes (Pass 3 split into 3.3 acceptance + 3.4
+  robustness).
+- Stage 1 single-step → three sub-steps (1a invariant gate + 1b substantive
+  + 1c cross-artifact coherence).
+- New: Stage 4 render + character-integrity audit.
+- New: Stage 5 bookend sign-off + pre-publication review queue artifact.
+- New: change-cascade routing protocol codified.
+- New: cross-chapter workstream lifecycle codified.
+- New: continuous invariant-gate infrastructure (scaffolding + regressed-
+  pattern scans).
+- v2.0 Amendment B's three-pass discipline + per-prompt serial cadence is
+  preserved as the core of Stage 3.
+
+## Empirical anchors
+
+- v2.0 Amendment B empirical validation: op-ed pipeline session
+  (commit 5167edd, 2026-05-10) ran its own three-pass Stage 3; fact-check
+  pass caught two real factual drifts (GPFG founding-date conflation +
+  Bondevik-coalition timing) that audience-load alone would have missed.
+- v3.0 empirical validation: Ch 1 Pass 3 REAUDIT v3 (2026-05-17,
+  `tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`)
+  ran the 40-character full-rigor + adversarial set; adversarial test
+  surfaced the Public Choice rent-seeking-engagement thread that became a
+  cross-chapter workstream (would have been missed by acceptance-only).
+- Stage 4 friction-anchors: tofu-box em-dash / ≈ rendering issues
+  (Ch 5 + Ch 6, commit `d238f2c`); Chrome-vs-wkhtmltopdf rendering
+  divergence (commit `cf24f57`); EB Garamond font-family naming
+  (commit `3208619`); author's lived-experience math-formula corruption
+  at NIH-era publications.
+
+## Discipline carry-forward from v2.0 (unchanged in v3.0)
+
+- Each pass produces its own findings list.
+- Per-prompt serial cadence: each pass fires in its own prompt; author
+  ratifies + spot-fixes apply before next pass fires.
+- Pass 3.3 acceptance verdict is per-character INCLUDE / EXCLUDE.
+- Pass 3.4 robustness verdict is thread-pull synthesis (NOT pass/fail per
+  character).
+- Stage 3 audit; remediation is separate.
+- Hard constraints: never force-push main; never amend a commit on
+  origin/main; never skip hooks without explicit author direction.
+
+## Where to read more
+
+- Full doctrine: `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`
+- Stage 1: `tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`
+- Stage 4: `tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`
+- Stage 5: `tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`
+- Stage 3 template (revised): `tools/drafting-templates/stage-3-three-pass-rigor-audit.md`
+- Audience pressure-test construction (revised): `tools/drafting-templates/audience-pressure-test-construction.md`
+
+---
+
+## Historical record — v2.0 Amendment B empirical anchoring (preserved as audit-trail)
+
+The detailed narrative below is preserved from the v2.0 Amendment B memory entry
+(ratified 2026-05-10) as audit-trail. v3.0 extends rather than supersedes the
+underlying three-pass discipline, so the empirical grounding remains live.
+
+**v2.0 ratification context (2026-05-10).** v2.0 ratified after the parallel
+Noema essay + Aeon pitch Stage 3 per-test verdicts (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md`
+and `..._aeon_pitch_stage3_comparison_v1.0.0.md`).
+
+**Noema test — audience-blind validation + drift-discovery anchoring Amendment A
++ Amendment B fact-check pass.** Validated audience-blind Stage 2 decisively on
+Path B compliance: verbatim Ch 1 sentences dropped from ~17–22 (Essay A, drafted
+from Ch 1) to ~3–4 (Essay B, drafted audience-blind from a Stage 1 brief), and
+structural close-paraphrase paragraphs dropped from ~14 to 0. The Stage 1
+apparatus prohibition held through audience-blind drafting (the "cluster-γ"
+tripwire never reached Essay B). BUT Stage 2 introduced 5+ factual drift points
+and 1 structural omission in Essay B — Pou/Pooh nickname etymology rewritten
+with an invented Tidewater-accent provenance; predawn-Appalachian drives
+reframed as a Navy commute rather than hunting trips; "fifteen audiences"
+reframed from reader-audiences to meeting-audiences; "responsible for 45
+people" misframed as direct management rather than original-scope-before-cutback;
+cussing scene direction inverted from cursing-at-self to cursing-at-recipient;
+air-compressor anecdote compressed to a one-sentence summary rather than
+reconstructed as a scene. These drove Amendment A (Stage 1 must supply
+canonical factual ground truth, not just beats) and Amendment B's fact-check
+pass at Stage 3. The voice-polish pass (Amendment B) is empirically grounded
+in Essay B's expository flatness and meta-commentary patterns ("The plain
+definition is this:" / "That is the whole sentence.") that pass-1 drafting
+with Ch 1 prose in front of the drafter had previously caught.
+
+**Aeon test — short-form-with-strong-iterated-control inverse anchoring
+Amendment C (domain-of-applicability rule).** Produced the inverse result: the
+carefully-iterated A→B→C control (Version C) decisively beat the
+audience-blind Pitch B across substantive criteria including editor 3-second
+read, ¶1 hook, ¶3 universalizability close, voice register / LLM-tic
+avoidance, and the audience-load matrix (A wins 7 of 14 audiences; B wins 1
+slightly). Pitch B passed Path B audit cleanly (a methodology win for the
+discipline regardless of aesthetic outcome), but its substantive losses —
+salutation hedge, manifest-scene diffusion of the airlock device, "stolen
+hours" diction contradicting the no-villain example, three rule-of-three
+LLM-tic exposures — outweighed its strengths against a strong iterated
+control on short-form material. This drove Amendment C: the discipline's
+payoff is concentrated on long-form publisher-facing material derived from
+source prose with apparatus tripwire risk and without a strong iterated
+control. Short-form material with a strong iterated control is a regime
+where careful iteration may suffice.
+
+**Net validation framing.** The Noema verdict showed the discipline produced
+a submittable draft on the first try where the prior approach (Path-B-contaminated
+Essay A) did not — net validation for the regime where domain-of-applicability
+clauses (a)/(b)/(c) all fire. v2.0 codified the regime where the discipline
+was the default and the regime where it was untested. v3.0 extends this
+discipline with the additional stages described above; the v2.0 regime
+specification remains live within Stage 3's four-pass architecture.
+
+**v2.0 application targets (carry-forward).** Boston Review essay (long-form
+derived from Ch 5; clauses a + b + c all fire — see
+`tools/workstream-handoffs/boston-review-essay-handoff_2026-05-09.md`); Aeon
+post-acceptance essay (long-form derived from Ch 7 + Ch 8 + Ch 1; clauses a
++ b + c all fire — see
+`tools/workstream-handoffs/aeon-essay-post-acceptance-two-stage-handoff_2026-05-10.md`);
+future long-form publisher-facing essays drafted without a strong iterated
+control (Atlantic, Harper's, NYRB, Phenomenal World).
+
+**v2.0 exclusions (carry-forward).** Short-form material with a strong
+iterated control (the Aeon pitch Version C is the empirical reference — the
+discipline did not beat careful iteration there). Treat short-form material
+with no iterated control as untested; default to careful iteration and switch
+to the discipline if iteration isn't converging. Internal scaffolding
+documents (CLAUDE.md additions, session handoffs, source-material dumps in
+`research/story-drafts/`) remain out of scope per the two-layer content
+origination discipline (WP#10) — Stage 1 audience analysis is overhead for
+internal-content work.

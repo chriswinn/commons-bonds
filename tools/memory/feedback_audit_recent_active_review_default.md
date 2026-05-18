@@ -1,0 +1,17 @@
+---
+name: Default to more recent active-review record over older reference-file entry
+description: When auditing and finding a conflict between an active-review record (per-section audit, rigor pass, ratification decision) and a reference-file entry (terms index, bibliography, glossary), default to trusting the more recent active-review unless you can positively verify the reference file is the canonical source-of-truth AND was updated after the audit
+type: feedback
+originSessionId: 3bc38a20-c3bf-4d41-bc59-c2551acbf535
+---
+When checking a claim against repo state and finding a conflict between an active-review record (per-section audit, focused rigor pass, ratification decision, weekly audit) and a reference-file entry (terms_index.md, bibliography.md, glossary, MEMORY.md), default to trusting the more recent active-review record. Treat the older reference-file entry as questionable — possibly not yet propagated, possibly out of date — until you can positively verify (a) the reference file IS the canonical source-of-truth for the disputed claim AND (b) the reference file was updated after the active-review record AND (c) that update specifically addressed the disputed claim rather than being an unrelated edit. Check modification dates on both; check whether any intervening review has moved the state again.
+
+**Why:** This session (2026-05-12) made the error during a Ch 2 Stage-3 Phase A audit. I found a conflict between the 2026-04-24 terms_index lowercase-current entry for "spatial cost severance" and a 2026-05-08 Ch 2 GuidanceDoc per-section staleness audit flagging the same section as REGRESSED. My default was to trust the older reference-file entry (terms_index) and dismiss the more recent audit as stale — without verifying either. Correct default would have been the reverse: trust the more recent active-review (the audit) and raise the older reference-file record as questionable. Author called this out directly: "why would you not raise that vs. assume the almost 1 month old item is out of date?" Active-review records are higher-signal because someone deliberately reviewed X for purpose Y; reference files accumulate state but may not propagate every recent decision (and a recent reference-file touch may have been for an unrelated edit, not the disputed claim).
+
+**How to apply:**
+- Stage-3 fact-check passes when verifying claims against canonical sources.
+- Cross-chapter consistency audits, apparatus-register checks, vocabulary-state checks.
+- When you find a conflict, explicitly check three things: (1) modification date of the active-review record, (2) modification date of the reference file, (3) whether the reference file's most-recent touch actually addressed the disputed claim or was an unrelated edit. If the reference-file's last touch was unrelated to the disputed claim, the active-review record still wins.
+- Corollary: reference files DO win when the active-review record is the older of the two AND the reference file was touched AFTER the audit specifically to update that claim. But the default direction is reversed from my pre-2026-05-12 instinct.
+- Companion to `feedback_verify_stale_memory_claims.md` (which covers reading time-sensitive claims from memory) — this entry covers resolving conflicts during audit between two repo records.
+- Companion to `feedback_audit_open_illustrative_default.md` (audit-side application of Ostrom-path open-illustrative reading) — both entries are 2026-05-12 audit-discipline lessons surfaced by the same Ch 2 session.

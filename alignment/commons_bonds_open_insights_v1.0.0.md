@@ -1629,6 +1629,24 @@ The four refinements above all emerged from author's combative-outsider pressure
 
 - **Todo link:** Review Open Insight #64 — *"Unpriced subsidies" lens earned-its-place check* (trigger: after next 2 main-body drafting / polish passes; or at pre-publication external-review checkpoint, whichever comes first).
 
+### Insight #67 — Multi-machine memory sync discipline candidate WP amendment — OPEN
+
+**Surfaced:** 2026-05-17 (memory-migration audit proposal §5 OQ7).
+
+**Question:** If author edits `tools/memory/<file>` locally during a session,
+repo and local-memory can drift. Should the working-principles doc codify
+"repo copy at `tools/memory/<file>` is canonical; local-memory edits ratified
+into repo via `tools/memory-updates/` spec or direct edit at session close"
+as an amendment to WP#9 + WP#10?
+
+**Disposition pending:** defer codification until drift-incident data
+accumulates. WP#9 + branch discipline handle 90% of the case (repo edits go
+through feature branches); the residual gap is local-only memory writes the
+author makes in flight, which is currently rare.
+
+**Next action:** observe drift incidents over the next 30-60 days; revisit
+codification decision when ≥1 concrete incident surfaces.
+
 ---
 
 ## §3. Closed insights

@@ -50,8 +50,27 @@ for the canonical Pass-2 artifact format model.
 ### Named-subject consent
 
 Confirmed individuals only; see
-`feedback_named_subject_consent.md` memory. Named subjects with
-historical-record status (deceased; matter of public record) do
-not require consent gating. Living named subjects require
+`tools/memory/feedback_named_subject_consent.md`. Named subjects
+with historical-record status (deceased; matter of public record)
+do not require consent gating. Living named subjects require
 explicit author confirmation before naming in publisher-facing
 prose.
+
+## Project memory (cross-session discipline)
+
+The project's cross-session discipline registry lives at
+[`tools/memory/`](tools/memory/) (index at
+[`tools/memory/README.md`](tools/memory/README.md)). Selective always-load
+files:
+
+@tools/memory/feedback_audience_aware_drafting_discipline.md
+@tools/memory/feedback_named_subject_consent.md
+@tools/memory/feedback_verify_stale_memory_claims.md
+
+Remaining files in `tools/memory/` are situational; load when relevant via
+the README index.
+
+The local `~/.claude/projects/-Users-c17n-commons-bonds/memory/` directory
+remains the default laptop-session memory layer. `tools/memory/` is the
+in-repo mirror so mobile sessions + future collaborators can read the
+discipline registry from the repo.
