@@ -229,7 +229,29 @@ moved to local archive.
 
 ---
 
-## §6. References
+## §7. Ratified decisions — 2026-05-17
+
+All 8 open questions in §5 and the EDGE / KEEP-LOCAL flags in §2 were ratified by the author on 2026-05-17 via direct ratification of the recommendations as proposed ("ratify all as recommended and proposed"). Resolved positions, captured here as the spec for the apply session at [`tools/workstream-handoffs/memory-migration-apply-handoff_2026-05-17.md`](workstream-handoffs/memory-migration-apply-handoff_2026-05-17.md):
+
+1. **Migration table (§2 top-line):** APPROVED. 14 MIGRATE + 1 KEEP-LOCAL (SENSITIVE) + 1 ARCHIVE + 1 EDGE-treated-as-MIGRATE → 15 files into `tools/memory/`.
+2. **`@import` strategy (§5 OQ1):** **SELECTIVE `@import`** (option b). Three always-load files:
+   - `tools/memory/feedback_audience_aware_drafting_discipline.md`
+   - `tools/memory/feedback_named_subject_consent.md`
+   - `tools/memory/feedback_verify_stale_memory_claims.md`
+
+   Remaining 12 files (11 standard + 1 EDGE) discoverable via `tools/memory/README.md`; not auto-imported.
+3. **`feedback_git_workflow.md` (§2 EDGE / §5 OQ4):** **MIGRATE.** Operational nuance (iCloud-incident anchor, active-push expectation, pre-push reconciliation) stays in `tools/memory/`; WP#9 doc unchanged.
+4. **`project_authors_grandfather_nasa_inventor.md` (§2 / §5 OQ5):** **KEEP-LOCAL** (SENSITIVE family-folk-memory layer). Existing repo coverage in `manuscript/chapters/_BookLevelGuidance.md` for the retrieval-key discipline is sufficient; no migration.
+5. **Canonical-pointer headers (§5 OQ2):** **YES**, apply uniformly per v3.0 audience-aware pattern. Each migrated file with doctrine-side canonical gets a `**Canonical full content:** <repo path>` header inserted between YAML frontmatter and H1.
+6. **Local `MEMORY.md` (§5 OQ6):** **ANNOTATE** (option c). Migrated entries get `[mirrored at tools/memory/<file>]` annotation appended; structure unchanged. ARCHIVE entry for `project_book1_state_2026-05-10.md` removed from index; KEEP-LOCAL entry for `project_authors_grandfather_nasa_inventor.md` unchanged.
+7. **Initial-migration `tools/memory-updates/` specs (§5 OQ3):** **NO.** Reserve `tools/memory-updates/` for substantive content updates (v2.0 → v3.0-style). Initial migration provenance lives in this audit + git diff at apply time.
+8. **Multi-machine sync as WP amendment (§5 OQ7):** **DEFER.** Flag as candidate working-principle amendment in `alignment/commons_bonds_open_insights_v1.0.0.md` (next-free insight number — verify at apply time per AGENTS.md staleness); no codification yet.
+
+Apply-session handoff at [`tools/workstream-handoffs/memory-migration-apply-handoff_2026-05-17.md`](workstream-handoffs/memory-migration-apply-handoff_2026-05-17.md) operationalizes these decisions into the 8-step ordered task list. Apply session should re-quote these decisions at session opening for ground-truth pinning.
+
+---
+
+## §8. References
 
 - Originating mobile-session brainstorm (paste only; no artifact in repo; framing block at top of this session).
 - `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` §8 — hybrid versioning per ratified decision #8 (the model this audit applies more broadly).
@@ -241,4 +263,4 @@ moved to local archive.
 
 ---
 
-*End of memory migration proposal — PROPOSED 2026-05-17. Propose-only; no migration applied. Stop at this artifact; report verdicts to author for ratification.*
+*End of memory migration proposal — PROPOSED 2026-05-17 + RATIFIED 2026-05-17 (§7). Propose-only; no migration applied in this session. Apply session fires from [`tools/workstream-handoffs/memory-migration-apply-handoff_2026-05-17.md`](workstream-handoffs/memory-migration-apply-handoff_2026-05-17.md).*
