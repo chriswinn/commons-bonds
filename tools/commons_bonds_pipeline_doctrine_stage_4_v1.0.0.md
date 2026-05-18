@@ -131,13 +131,13 @@ Stage 4 catches render-failure patterns; Stage 1b establishes the conventions th
 
 ### §3.3 Font convention
 
-> **⚠ CANONICAL-PIPELINE QUESTION OPEN (as of 2026-05-17).** Author observation 2026-05-17: mobile-device document conversions render better than the laptop-side `tools/scripts/build-derivatives.sh` toolchain. The canonical-pipeline decision is **pending** the render-pipeline-standardization workstream — see [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md). Until that workstream resolves with author ratification, the convention below is **DEFAULT BUT NOT-YET-RATIFIED canonical**.
+> **⚠ CANONICAL-PIPELINE QUESTION OPEN (as of 2026-05-17).** Author observation 2026-05-17: remote-container document conversions render better than the laptop-side `tools/scripts/build-derivatives.sh` toolchain. The canonical-pipeline decision is **pending** the render-pipeline-standardization workstream — see [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md). Until that workstream resolves with author ratification, the convention below is **DEFAULT BUT NOT-YET-RATIFIED canonical**.
 >
-> **Sequencing per author direction 2026-05-17: parallel-with-retrofits, NOT serial-before-retrofits.** The standardization workstream fires in parallel with the first 4 retrofit workstreams (Ch 1 + Ch 5 + Ch 6 + TA), which span the corpus's render-difficulty spectrum and serve as the comparison-render test bed. Each of those 4 retrofit sessions runs Stage 4 via BOTH pipelines (laptop + mobile-per-§3.1) without ratifying a Stage 4 verdict yet. After all 4 comparisons accumulate, author ratifies the canonical-pipeline decision; Stage 4 verdicts for the 4 first-retrofit chapters then batch-ratify; the remaining 9 retrofits proceed using the ratified canonical pipeline.
+> **Sequencing per author direction 2026-05-17: parallel-with-retrofits, NOT serial-before-retrofits.** The standardization workstream fires in parallel with the first 4 retrofit workstreams (Ch 1 + Ch 5 + Ch 6 + TA), which span the corpus's render-difficulty spectrum and serve as the comparison-render test bed. Each of those 4 retrofit sessions runs Stage 4 via BOTH pipelines (laptop + remote-container-per-§3.1) without ratifying a Stage 4 verdict yet. After all 4 comparisons accumulate, author ratifies the canonical-pipeline decision; Stage 4 verdicts for the 4 first-retrofit chapters then batch-ratify; the remaining 9 retrofits proceed using the ratified canonical pipeline.
 >
 > Resolution options under that workstream:
-> - **Option A** — laptop pipeline tuned to mobile's render quality; convention below remains canonical (with whatever tuning).
-> - **Option B** — mobile pipeline becomes canonical; convention below documents the secondary-check / fallback laptop pipeline.
+> - **Option A** — laptop pipeline tuned to remote-container's render quality; convention below remains canonical (with whatever tuning).
+> - **Option B** — remote-container pipeline becomes canonical; convention below documents the secondary-check / fallback laptop pipeline.
 > - **Option C** — dual-pipeline discipline; both pipelines canonical with comparison-as-audit.
 
 Default-canonical conventions (subject to the canonical-pipeline decision above):

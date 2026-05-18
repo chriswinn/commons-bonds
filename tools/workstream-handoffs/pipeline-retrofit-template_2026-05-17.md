@@ -110,17 +110,17 @@ Output artifact: `tools/rigor-passes/<chapter-slug>_stage3_pass_3_4_robustness_<
 > **⚠ CANONICAL-PIPELINE — sequencing differs for the first 4 retrofits vs the remaining 9.** Author direction 2026-05-17: the render-pipeline-standardization workstream ([`render-pipeline-standardization-handoff_2026-05-17.md`](render-pipeline-standardization-handoff_2026-05-17.md)) fires **in parallel with** the first 4 retrofits (Ch 1 + Ch 5 + Ch 6 + TA), using them as the comparison-render test bed. Sequencing:
 >
 > **First 4 retrofits (Ch 1, Ch 5, Ch 6, TA):**
-> - Render Stage 4 via BOTH pipelines (laptop `build-derivatives-alt.sh` + the mobile pipeline per standardization-workstream §3.1).
+> - Render Stage 4 via BOTH pipelines (laptop `build-derivatives-alt.sh` + the remote-container pipeline per standardization-workstream §3.1).
 > - Capture per-chapter comparison artifact at `tools/rigor-passes/render_pipeline_comparison_<chapter-slug>_<date>.md`.
 > - Do NOT ratify Stage 4 verdict yet — mark as **PROPOSED-pending-canonical-decision**.
 > - Stage 5 sign-off deferred until Stage 4 verdict ratifies.
 > - Do NOT tune the pipeline mid-comparison (discipline-trap; tuning Ch 1 → Ch 5 contaminates the moving-baseline question; render → diagnose → defer-decision → next chapter).
 >
 > **Remaining 9 retrofits (Ch 2, Ch 3, Ch 4, Ch 7, Ch 8, Ch 9, Ch 10, AuthorsNote, Dedication-conditional):**
-> - Use the ratified canonical pipeline (Option A: tuned laptop; Option B: mobile-canonical; Option C: dual-pipeline) per the standardization workstream's §3.4 ratified decision.
+> - Use the ratified canonical pipeline (Option A: tuned laptop; Option B: remote-container-canonical; Option C: dual-pipeline) per the standardization workstream's §3.4 ratified decision.
 > - Stage 4 verdicts ratify normally.
 
-Per Stage 4 doctrine. Run the **canonical pipeline** (per render-pipeline-standardization workstream's ratified decision — laptop `build-derivatives.sh` / `build-derivatives-alt.sh`, mobile-pipeline-specific workflow, or both per Option C). Audit derivative outputs against source per §2.2 (character diff) + §2.3 (formula integrity, if math content) + §2.4 (tables) + §2.5 (figures) + §2.6 (layout integrity).
+Per Stage 4 doctrine. Run the **canonical pipeline** (per render-pipeline-standardization workstream's ratified decision — laptop `build-derivatives.sh` / `build-derivatives-alt.sh`, remote-container-pipeline-specific workflow, or both per Option C). Audit derivative outputs against source per §2.2 (character diff) + §2.3 (formula integrity, if math content) + §2.4 (tables) + §2.5 (figures) + §2.6 (layout integrity).
 
 Capture xelatex stderr to build log + grep for `Missing character` warnings (load-bearing per Stage 4 §3.3 discipline). Output artifact: `tools/rigor-passes/<chapter-slug>_stage_4_render_audit_<date>.md`.
 

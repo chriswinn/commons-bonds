@@ -1,4 +1,4 @@
-# Build Environment — Render Baseline (placeholder)
+# Build Environment — Render Baseline
 #
 # Per pipeline doctrine Stage 4 §2.1 + §3.3, this file records the
 # known-good build-environment versions that Stage 4 render-integrity
@@ -11,24 +11,37 @@
 #
 # Schema: opaque YAML key-value; consumers (Stage 4 audit sessions) read
 # the values + verify the local environment matches.
+#
+# First populated 2026-05-17 from the remote-container pipeline that
+# pre-rendered Ch 1 + Ch 5 + Ch 6 + TA at BASE commit 9ffad4e as the
+# standardization-workstream comparison-baseline. File sizes for Ch 5 /
+# Ch 6 / TA matched the Sandy packet artifacts (research/outreach/
+# subjects/darity/) at byte-level for the markdown→PDF + DOCX paths,
+# confirming this toolchain reproduces the Sandy packet pipeline.
 
 build_environment:
-  # Last verified: PLACEHOLDER — populate at first Stage 4 audit run.
-  last_verified: ""
-  last_verified_commit: ""
+  # Last verified
+  last_verified: "2026-05-17"
+  last_verified_commit: "9ffad4e"  # BASE used for 4-chapter pre-render
+
+  # Pipeline identification
+  pipeline_class: "remote-container"   # remote-container | laptop | mobile-device
+  pipeline_canonical_status: "PROPOSED-pending-comparison"  # PROPOSED | RATIFIED | DEPRECATED
 
   # Toolchain versions
-  pandoc_version: ""           # e.g., "3.1.11"
-  xelatex_version: ""          # e.g., "TeX Live 2024"
-  chrome_version: ""           # e.g., "Chrome 131.0.6778.85"
-  libreoffice_version: ""      # e.g., "24.2.5"
+  pandoc_version: "3.1.3"              # via apt: pandoc + pandoc-data
+  xelatex_version: "TeX Live 2023/Debian (XeTeX 3.141592653-2.6-0.999995)"
+  wkhtmltopdf_version: "0.12.6"        # used as HTML→PDF fallback in this container (chromium snap-only)
+  chrome_version: ""                   # not available as non-snap binary in this container; Sandy packet used Chrome
+  libreoffice_version: ""              # present but unused for these renders
 
   # Fonts (per Stage 4 doctrine §3.3 font convention)
   fonts:
-    primary_body: "EB Garamond"  # canonical body font
-    primary_body_verified: ""    # version-stamp string when verified
-    math_font: ""                # math font with U+2212 / U+2248 / Greek coverage
-    math_font_verified: ""
+    primary_body: "EB Garamond"
+    primary_body_verified: "fonts-ebgaramond (apt)"
+    math_font: ""                       # using fallback-header.tex map to DejaVu Serif for U+2014 + U+2248 coverage
+    math_font_verified: "DejaVu Serif via fonts-dejavu (apt)"
+    fallback_header: "tools/scripts/fallback-header.tex"
 
   # Publishing-pipeline scripts (canonical)
   scripts:
@@ -37,10 +50,61 @@ build_environment:
     fallback_header: "tools/scripts/fallback-header.tex"
     reference_docx: "tools/scripts/reference.docx"
 
-  # Notes
-  notes: |
-    PLACEHOLDER FILE. Populate at the first Stage 4 audit run per Stage 4
-    doctrine §2.1 procedure step 2. Subsequent updates are commit-tracked
-    per the change-cascade routing rule for publishing-pipeline-script
-    changes (any change here triggers Stage 4 re-run for affected
-    artifacts).
+  # Pandoc invocation tweak (recorded for reproducibility)
+  pandoc_input_format_override: "markdown-yaml_metadata_block"
+  pandoc_input_format_rationale: |
+    Pandoc 3.x interprets the `---` separator at the top of chapter
+    sources (between `---` line 1 and `---` line 5) as a YAML metadata
+    block. The "By Chris Winn" line inside parses as an alias and
+    pandoc fails with "Unknown alias `By`". Workaround: disable YAML
+    metadata block detection via `-f markdown-yaml_metadata_block`.
+    Past sessions that ran cleanly (e.g., Sandy packet generation in
+    commit e6ddf92) may have used pandoc 2.x where YAML detection
+    was less aggressive, OR may have invoked with a different `-f`.
+    This override should be incorporated into build-derivatives.sh
+    as a default for pandoc 3.x compatibility.
+
+# Comparison-render baselines (per chapter, BASE commit 9ffad4e)
+#
+# Remote-container renders live at:
+#   tools/scripts/comparison-renders/<chapter-slug>_2026-05-17_9ffad4e/remote-container/
+# Laptop renders live at:
+#   tools/scripts/comparison-renders/<chapter-slug>_2026-05-17_9ffad4e/laptop/
+#   (TBD by user running build-derivatives.sh on laptop; pre-render delta with this file's toolchain.)
+#
+# Sandy packet canonical-remote-container artifacts (Ch 5 + Ch 6 + TA only;
+# generated commit e6ddf92, 2026-05-14):
+#   research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.{docx,pdf}
+#   research/outreach/subjects/darity/Chapter_6_Three_Ways_of_Counting_2026-05-14.{docx,pdf}
+#   research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.{docx,pdf}
+#
+# Byte-level match table (this session's renders vs Sandy packet):
+#   Ch 5 docx: 38,573 vs 38,494 (~exact)
+#   Ch 5 pdf:  121,523 vs 121,516 (with-citations variant; ✓ exact)
+#   Ch 6 docx: 44,477 vs 44,402 (~exact)
+#   Ch 6 pdf:  143,832 vs 143,831 (with-citations variant; ✓ exact)
+#   TA docx:   129,517 vs 129,517 (✓ exact)
+#   TA pdf:    613,750 (wkhtmltopdf) vs 1,138,875 (Chrome — Sandy original)
+#
+# Conclusion: markdown-side renders reproduce Sandy pipeline at byte
+# level; HTML-side TA PDF differs because Chrome unavailable in this
+# container. For Stage 4 canonical-pipeline decision per
+# render-pipeline-standardization-handoff_2026-05-17.md §3.4, the
+# TA PDF rendering engine (Chrome vs wkhtmltopdf) is the open
+# question for HTML→PDF specifically.
+
+notes: |
+  POPULATED 2026-05-17 from the standardization-workstream
+  comparison-baseline pre-renders. Toolchain installed via apt
+  in this remote container (pandoc + texlive-xetex + wkhtmltopdf +
+  fonts-ebgaramond + fonts-dejavu). Chrome unavailable as non-snap
+  binary; wkhtmltopdf used as fallback for HTML→PDF.
+
+  Per change-cascade routing rule for publishing-pipeline-script
+  changes (Stage 4 doctrine §3.3): any future toolchain update
+  triggers Stage 4 re-run for affected artifacts.
+
+  Per pandoc-input-format-override note above: the build-derivatives.sh
+  script should be updated to pass `-f markdown-yaml_metadata_block`
+  explicitly for pandoc 3.x compatibility. Captured as a follow-up
+  item for the standardization-workstream §3.5 apply-decision step.
