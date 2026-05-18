@@ -1,0 +1,3 @@
+[build-derivatives] Using reference docx: /Users/c17n/commons-bonds/.claude/worktrees/thirsty-euclid-f8ee37/tools/scripts/reference.docx
+[build-derivatives]   pandoc → tools/scripts/comparison-renders/ch1_2026-05-17_9ffad4e/laptop-build-derivatives//Chapter__1_TheQuietMath__Draft.docx
+[build-derivatives]   pandoc → tools/scripts/comparison-renders/ch1_2026-05-17_9ffad4e/laptop-build-derivatives//Chapter__1_TheQuietMath__Draft.pdf

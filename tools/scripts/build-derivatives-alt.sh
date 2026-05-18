@@ -162,7 +162,13 @@ if [[ ",${FORMATS}," == *",pdf,"* ]]; then
 fi
 
 # ── Pandoc arg builders ───────────────────────────────────────────────────────
-docx_args=()
+# Disable YAML-metadata-block detection — pandoc 3.x parses the chapter
+# sources' top-of-file `---` separator as a YAML metadata block, which
+# fails on the "By Chris Winn" line as an undefined alias. Matches
+# build-derivatives.sh.
+pandoc_format_args=(--from=markdown-yaml_metadata_block)
+
+docx_args=("${pandoc_format_args[@]}")
 if [ -n "$REFERENCE_DOCX" ]; then
   docx_args+=(--reference-doc="$REFERENCE_DOCX")
   log "Using reference docx: $REFERENCE_DOCX"
@@ -171,6 +177,7 @@ else
 fi
 
 pdf_pandoc_args=(
+  "${pandoc_format_args[@]}"
   --pdf-engine=xelatex
   --variable=mainfont:"$MAIN_FONT"
   --variable=fontsize:"$FONT_SIZE"

@@ -185,7 +185,17 @@ if [[ ",${FORMATS}," == *",pdf,"* ]]; then
 fi
 
 # ── Pandoc arg builders ───────────────────────────────────────────────────────
-docx_args=()
+# Disable YAML-metadata-block detection — pandoc 3.x parses the chapter
+# sources' top-of-file `---` separator as a YAML metadata block, which
+# fails on the "By Chris Winn" line as an undefined alias. The
+# remote-container baseline pre-renders (2026-05-17, BASE 9ffad4e) used
+# this same override at session-time; landing it here brings the laptop
+# pipeline up to parse-time parity with the remote-container baseline.
+# See tools/quality-gates/render-baselines/build-environment.yaml lines
+# 70-82 + 158 for the original documentation of this fix.
+pandoc_format_args=(--from=markdown-yaml_metadata_block)
+
+docx_args=("${pandoc_format_args[@]}")
 if [ -n "$REFERENCE_DOCX" ]; then
   docx_args+=(--reference-doc="$REFERENCE_DOCX")
   log "Using reference docx: $REFERENCE_DOCX"
@@ -195,6 +205,7 @@ fi
 
 # pandoc+xelatex args (used for .md → PDF only)
 pdf_pandoc_args=(
+  "${pandoc_format_args[@]}"
   --pdf-engine=xelatex
   --variable=mainfont:"$MAIN_FONT"
   --variable=fontsize:"$FONT_SIZE"
