@@ -1,8 +1,7 @@
----
 # Commons Bonds
 *By Chris Winn*
 
----
+
 
 ## Chapter 1: The Quiet Math
 
