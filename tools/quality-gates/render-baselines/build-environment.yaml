@@ -60,10 +60,18 @@ build_environment:
     math_font_verified: "DejaVu Serif via fonts-dejavu (apt)"
     fallback_header: "tools/scripts/fallback-header.tex"
 
-  # Publishing-pipeline scripts (canonical)
+  # Publishing-pipeline scripts (canonical-pending)
   scripts:
-    canonical: "tools/scripts/build-derivatives.sh"
-    alt: "tools/scripts/build-derivatives-alt.sh"
+    # Per author direction 2026-05-17: canonical script between
+    # build-derivatives.sh and build-derivatives-alt.sh NOT YET
+    # RATIFIED. Both scripts run during each first-4-retrofit Stage 4
+    # dual-render to surface which (or which tuned variant) is the
+    # right canonical going forward.
+    canonical_pending: true
+    candidate_a: "tools/scripts/build-derivatives.sh"
+    candidate_a_notes: "canonical-in-repo; default MAIN_FONT=Garamond (commercial macOS-system); HTML→PDF prefers Chrome headless per cf24f57"
+    candidate_b: "tools/scripts/build-derivatives-alt.sh"
+    candidate_b_notes: "Claude-tuned alt per e183953; default MAIN_FONT=EB Garamond (matches sandbox); .md→PDF includes fallback-header.tex for EB Garamond's U+2014-bold + U+2248 gaps via DejaVu Serif"
     fallback_header: "tools/scripts/fallback-header.tex"
     reference_docx: "tools/scripts/reference.docx"
 
