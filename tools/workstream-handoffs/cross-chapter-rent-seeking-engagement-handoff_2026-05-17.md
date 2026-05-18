@@ -2,7 +2,8 @@
 
 **Date drafted:** 2026-05-17
 **Workstream:** Cross-chapter rent-seeking engagement (Public Choice tradition compatibility)
-**Status:** **PROPOSED** — awaiting PM session spinup. Origin: Ch 1 Pass 3 REAUDIT v3 (40-character full-rigor audit with adversarial coverage). Surfaced as the most intellectually-serious adversarial thread in the audit's §5.3 thread-pull synthesis.
+**Status:** **RATIFIED 2026-05-18** by PM session. §5 draft content already applied to main via commit `a1e54d9` (2026-05-17, author direct push). Workstream-spinup ratification flips PROPOSED → RATIFIED. Cross-chapter touches landed at: Ch 5 line 184 (Architecture and rent-seeking section), Ch 9 line 133 (Public Choice complementary accounting section), Tech Appendix §1.10 line 608 (Scope: complementarity paragraph), Ch 8 line 123 (Political Capture Cost touch). **Residual follow-on items deferred to separate sessions** (see §9 Ratification log below).
+**Origin context:** Ch 1 Pass 3 REAUDIT v3 (40-character full-rigor audit with adversarial coverage). Surfaced as the most intellectually-serious adversarial thread in the audit's §5.3 thread-pull synthesis.
 **Recommended branch prefix:** `claude/rent-seeking-engagement-`
 **Recommended sequencing:** spin up after Ch 5 + Ch 9 each complete their three-pass rigor cycles (per workstream #20 Phase A); this workstream applies a focused cross-chapter touch rather than a from-scratch chapter draft.
 **Origin commit:** `76ca8a6` (Ch 1 Pass 3 REAUDIT v3 PROPOSED) — see [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](../rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) §4 character #33 + §5.3 thread-pull synthesis.
@@ -232,4 +233,33 @@ Probably no insertion needed; Ch 6 develops cost-counting methodology, which is 
 
 ---
 
-*End of cross-chapter rent-seeking engagement workstream handoff — PROPOSED 2026-05-17. Awaiting PM session spinup ratification.*
+---
+
+## §9. Ratification log
+
+**Ratified 2026-05-18** by PM session (handoff `pm-session-handoff_2026-05-18.md` §5.1 IN FLIGHT row + §8 Decisions pending closure).
+
+**State of work at ratification:**
+
+- ✅ **Four cross-chapter touches APPLIED** via commit `a1e54d9` (2026-05-17, author direct push, stopped at feature-branch-equivalent then merged to main):
+  - Ch 5 line 184 — "Architecture and rent-seeking: who shaped the system?" section
+  - Ch 9 line 133 — "Public Choice and the framework: complementary accounting" section
+  - Tech Appendix §1.10 line 608 — "Scope: complementarity with Public Choice / rent-seeking analysis" paragraph
+  - Ch 8 line 123 — brief touch within Political Capture Cost section
+- ✅ All four touches verified present on origin/main 2026-05-18 (PM session spot-check).
+
+**Residual follow-on items (flagged for separate sessions; not gating this workstream's ratification):**
+
+1. **Per-chapter mini-rigor-pass verification** (per §6 step 4) — each touched chapter (Ch 5, Ch 8, Ch 9, TA) gets a focused verification read confirming the insertion lands cleanly + doesn't trip the chapter's audience-load verdicts. Ch 5 + TA already at three-pass-cycle-CLOSED state pre-touch; mini-pass is light. Ch 8 + Ch 9 have Pass 1 PROPOSED only; their forthcoming Pass 2/3 cycles will absorb the rent-seeking-section verification as standard pass scope. **Disposition: route into Ch 8 + Ch 9 Pass 2/3 cycles when those fire; no standalone session needed.**
+
+2. **Bibliography additions** (per §7 open question 3) — Buchanan & Tullock 1962, Tullock 1967, Mueller 2003 likely belong in bibliography as a new "Public Choice / political-economy tradition" section. **Disposition: route into bibliography Phase A workstream (§7 Apparatus); fold alongside the Darity C-2 Du Bois addition.**
+
+3. **Ch 1 Pass 3 REAUDIT v3 doc update** (per §7 open question 5 + §8 cross-thread coherence) — the REAUDIT doc's §5.3 thread-pull synthesis should be updated to record that the rent-seeking engagement thread is RESOLVED. **Disposition: minor doc-state update; can land as a small standalone commit or fold into the next Ch 1 dashboard touch.**
+
+4. **Cross-thread-todos entry** (per §6 step 5 + §8) — add an entry to `publishing/strategy/cross-thread-todos.md` flagging the engagement landed + pointing at this ratification log. **Disposition: small PM-session task; can land in the next dashboard refresh.**
+
+**Standing reference:** this workstream's §5 draft content + §6 sequencing logic + §7 open questions remain as the canonical reference if any of the four touches needs to be revisited or re-engaged (e.g., if Sandy or another reviewer surfaces a follow-up critique of the engagement).
+
+---
+
+*End of cross-chapter rent-seeking engagement workstream handoff — RATIFIED 2026-05-18.*
