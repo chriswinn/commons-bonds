@@ -131,14 +131,18 @@ Stage 4 catches render-failure patterns; Stage 1b establishes the conventions th
 
 ### §3.3 Font convention
 
-> **⚠ CANONICAL-PIPELINE QUESTION OPEN (as of 2026-05-17).** Author observation 2026-05-17: remote-container document conversions render better than the laptop-side `tools/scripts/build-derivatives.sh` toolchain. The canonical-pipeline decision is **pending** the render-pipeline-standardization workstream — see [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md). Until that workstream resolves with author ratification, the convention below is **DEFAULT BUT NOT-YET-RATIFIED canonical**.
+> **⚠ CANONICAL-PIPELINE QUESTION OPEN (as of 2026-05-17).** Past renders via the laptop `build-derivatives.sh` pipeline have had more render-failure findings (em-dash-in-bold tofu; ≈ coverage; Greek letter / math formula issues) than past renders via the remote-container pipeline that produced the Sandy packet artifacts (`research/outreach/subjects/darity/`, commit `e6ddf92` 2026-05-14). The author had a Chrome-rendering effort in progress on the laptop pipeline at the time of the Sandy packet send and had spent significant time tuning it. **The retrofit Stage-4 dual-render work IS the resumption of that laptop-pipeline-improvement effort** — the explicit intent is to give the laptop pipeline another shot at matching or beating the remote-container pipeline before any canonical-pipeline ratification.
 >
-> **Sequencing per author direction 2026-05-17: parallel-with-retrofits, NOT serial-before-retrofits.** The standardization workstream fires in parallel with the first 4 retrofit workstreams (Ch 1 + Ch 5 + Ch 6 + TA), which span the corpus's render-difficulty spectrum and serve as the comparison-render test bed. Each of those 4 retrofit sessions runs Stage 4 via BOTH pipelines (laptop + remote-container-per-§3.1) without ratifying a Stage 4 verdict yet. After all 4 comparisons accumulate, author ratifies the canonical-pipeline decision; Stage 4 verdicts for the 4 first-retrofit chapters then batch-ratify; the remaining 9 retrofits proceed using the ratified canonical pipeline.
+> Until that tuning effort completes + author ratifies, the convention below is **DEFAULT BUT NOT-YET-RATIFIED canonical**. The remote-container pipeline serves as the *baseline to match* during the laptop-improvement work, not as the pre-decided canonical.
 >
-> Resolution options under that workstream:
-> - **Option A** — laptop pipeline tuned to remote-container's render quality; convention below remains canonical (with whatever tuning).
-> - **Option B** — remote-container pipeline becomes canonical; convention below documents the secondary-check / fallback laptop pipeline.
+> **Sequencing per author direction 2026-05-17: parallel-with-retrofits.** The standardization workstream fires in parallel with the first 4 retrofit workstreams (Ch 1 + Ch 5 + Ch 6 + TA). Each of those 4 retrofit sessions runs Stage 4 via BOTH pipelines (laptop `build-derivatives-alt.sh` + remote-container-per-§3.1) without ratifying a Stage 4 verdict yet. The laptop pipeline gets tuning attention each round — author iterates on what's tunable (fonts, fallback-header entries, pandoc invocation, Chrome configuration, CSS for HTML→PDF, etc.) — to see whether the laptop pipeline can be brought up to or past the remote-container baseline.
+>
+> After all 4 comparisons accumulate + tuning rounds plateau, author ratifies one of:
+> - **Option A** — laptop pipeline tuned successfully to match-or-exceed remote-container; laptop becomes canonical (the in-repo / version-pinnable / reproducible-by-anyone option).
+> - **Option B** — laptop pipeline cannot be tuned to match remote-container within reasonable effort; remote-container becomes canonical; laptop relegated to secondary-check.
 > - **Option C** — dual-pipeline discipline; both pipelines canonical with comparison-as-audit.
+>
+> **2026-05-17 pre-render data point (remote-container pipeline, BASE `9ffad4e`):** at [`tools/scripts/comparison-renders/`](../scripts/comparison-renders/). Byte-level match with Sandy packet for markdown-side renders (.docx + .md→.pdf via pandoc + xelatex + EB Garamond + fallback-header). TA PDF in that pre-render directory is wkhtmltopdf-fallback (614KB; this container's Chrome was snap-only); canonical Chrome-rendered TA PDF is the Sandy packet's 1.14MB version at `research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.pdf`.
 
 Default-canonical conventions (subject to the canonical-pipeline decision above):
 

@@ -111,8 +111,9 @@ Output artifact: `tools/rigor-passes/<chapter-slug>_stage3_pass_3_4_robustness_<
 >
 > **First 4 retrofits (Ch 1, Ch 5, Ch 6, TA):**
 > - Render Stage 4 via BOTH pipelines (laptop `build-derivatives-alt.sh` + the remote-container pipeline per standardization-workstream §3.1).
-> - Capture per-chapter comparison artifact at `tools/rigor-passes/render_pipeline_comparison_<chapter-slug>_<date>.md`.
-> - Do NOT ratify Stage 4 verdict yet — mark as **PROPOSED-pending-canonical-decision**.
+> - **The laptop-side dual-render IS the active laptop-pipeline-tuning effort.** Per author direction 2026-05-17 late-session, the retrofit Stage-4 work is explicitly the moment to resume the laptop-pipeline-improvement effort (Chrome render was in progress; hours invested at the time of the Sandy packet send). Each round, tune what's tunable on the laptop side (fonts, fallback-header entries, pandoc invocation, Chrome configuration, CSS for HTML→PDF) to bring the laptop pipeline closer to the remote-container baseline.
+> - Capture per-chapter comparison artifact at `tools/rigor-passes/render_pipeline_comparison_<chapter-slug>_<date>.md`. Each artifact should record both the differences vs the remote-container baseline AND the laptop-tuning actions attempted that round + their effect.
+> - Do NOT ratify Stage 4 verdict yet — mark as **PROPOSED-pending-canonical-decision**. Canonical decision (Option A tuned-laptop / B remote-container-canonical / C dual-discipline) comes after tuning rounds plateau.
 > - Stage 5 sign-off deferred until Stage 4 verdict ratifies.
 > - Do NOT tune the pipeline mid-comparison (discipline-trap; tuning Ch 1 → Ch 5 contaminates the moving-baseline question; render → diagnose → defer-decision → next chapter).
 >

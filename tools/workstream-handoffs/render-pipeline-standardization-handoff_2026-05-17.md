@@ -2,7 +2,7 @@
 
 **Date drafted:** 2026-05-17
 **Branch prefix:** `claude/render-pipeline-standardization-`
-**Status:** PROPOSED — awaiting comparison-render results + author's canonical-pipeline decision.
+**Status:** PROPOSED — comparison-render baseline in hand from remote-container pre-renders (2026-05-17, BASE `9ffad4e`); awaiting laptop-pipeline-tuning runs during the first 4 retrofit sessions + author's canonical-pipeline decision after tuning rounds plateau. The retrofit Stage-4 dual-render work IS the resumption of the author's laptop-pipeline-improvement effort (Chrome render in progress, hours invested at the time of the Sandy packet send); explicit intent is to give the laptop pipeline another shot at matching or beating the remote-container baseline before any canonical ratification.
 **Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) (Stage 4 §3.3 marks canonical-pipeline question as OPEN pending this workstream)
 **Companion / predecessor:** [`publishing-pipeline-handoff_2026-05-11.md`](publishing-pipeline-handoff_2026-05-11.md) (built the original `tools/scripts/build-derivatives.sh` toolchain).
 **Origin trigger:** Author observation 2026-05-17: document conversions performed via remote-container Claude Code sessions are rendering better than the current laptop-side `build-derivatives.sh` toolchain. (Earlier draft of this handoff used the term "remote-container pipeline" — corrected 2026-05-17 late-session after author clarification: the better-rendering output came from past remote-container sessions, specifically the Sandy packet artifacts at `research/outreach/subjects/darity/` generated in commit `e6ddf92`, not from the user's remote-container session.)
