@@ -90,7 +90,9 @@ These are stored elsewhere because they target a specific fresh-session task (St
 
 A separate session that coordinates across all the above workstreams — tracks state, manages todos, surfaces dependencies, alerts to deadlines. Runs in parallel with topical sessions.
 
-- **`pm-session-handoff_2026-05-13.md`** — **CURRENT PM session handoff.** Fresh PM sessions orient against this file.
+- **`pm-session-handoff_2026-05-18.md`** — **CURRENT PM session handoff.** Fresh PM sessions orient against this file.
+- `pm-mobile-todo-dashboard_2026-05-15.md` — mobile-scope cut of the current dashboard (companion artifact; may need refresh post-2026-05-18 to reflect Chs 7-10 Pass 1 ratification queue + new pipeline retrofit handoffs).
+- `pm-session-handoff_2026-05-13.md` — superseded 2026-05-18; retained as audit-trail for the 2026-05-13 → 2026-05-17 session window (Darity packet send + Chs 5/6 cycles closed + Chs 7-10 Pass 1 fired + pipeline doctrine v1.0.0).
 - `pm-session-handoff_2026-05-10.md` — superseded 2026-05-13; retained as audit-trail for the 2026-05-10 → 2026-05-13 session window.
 
 ## Excluded from these handoffs

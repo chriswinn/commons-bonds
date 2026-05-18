@@ -1,5 +1,7 @@
 # Project Management Session — Handoff (2026-05-13, v2.0 dashboard structure)
 
+> **⚠️ SUPERSEDED 2026-05-18 by [`pm-session-handoff_2026-05-18.md`](pm-session-handoff_2026-05-18.md).** This file is retained as historical record of the 2026-05-13 → 2026-05-17 window (Darity interview + packet send + Ch 5/6 cycles closed + Ch 1 Pass 2 ratified + Chs 7/8/9/10 Pass 1 fired + pipeline doctrine v1.0.0 + memory migration). Do NOT use this file for current orientation — read the successor.
+
 **Date drafted:** 2026-05-13 (originally drafted; restructured 2026-05-13 to v2.0 dashboard structure — see `feedback_pm_dashboard_structure.md`)
 **Branch to create at session start:** `claude/pm-session-<harness-id>` (branch from current `origin/main` after `git fetch`)
 **Session type:** **Parallel coordination session.** Runs alongside the user's per-workstream sessions. Does NOT execute workstream tasks; tracks state, surfaces dependencies, manages the todo list, flags deadlines, routes work between sessions.
