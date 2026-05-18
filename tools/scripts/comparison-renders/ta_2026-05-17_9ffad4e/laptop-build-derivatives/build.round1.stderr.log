@@ -1,0 +1,315 @@
+[build-derivatives] Using reference docx: /Users/c17n/commons-bonds/.claude/worktrees/ecstatic-shannon-a17b5c/tools/scripts/reference.docx
+[build-derivatives]   pandoc → tools/scripts/comparison-renders/ta_2026-05-17_9ffad4e/laptop-build-derivatives//TechnicalAppendix_v2.0.0.docx
+[WARNING] Div at core/technical-appendix/TechnicalAppendix_v2.0.0.html line 1823 column 5 unclosed at core/technical-appendix/TechnicalAppendix_v2.0.0.html line 8047 column 1, closing implicitly.
+[WARNING] Div at core/technical-appendix/TechnicalAppendix_v2.0.0.html line 175 column 6 unclosed at core/technical-appendix/TechnicalAppendix_v2.0.0.html line 8047 column 1, closing implicitly.
+[WARNING] Could not convert TeX math 2,400/ton; IPG ~50&times; (2025, rendering as TeX:
+  2,400/ton; IPG ~50&times; (2025
+                    ^
+  unexpected '&'
+  expecting "\\bangle", "\\brace", "\\brack", "\\choose", "\\displaystyle", "\\textstyle", "\\scriptstyle", "\\scriptscriptstyle", "{", "\\operatorname", letter, digit, ".", "!", "'", "''", "'''", "''''", "*", "+", ",", "-", ".", "/", ":", ":=", ";", "<", "=", ">", "?", "@", "~", "_", "^", "'", "\\left", "\\lVert", "\\", "\\hyperref" or end of input
+[WARNING] Could not convert TeX math 190/ton CO2&nbsp;&times; 2.32 tons CO2&nbsp;per ton coal &mdash; EPA emission factor for bituminous coal at short-ton accounting, per EPA AP-42 &sect;1.1), Ccarbon&nbsp;double-counts. Resolution options: (a) redefine E to exclude carbon (narrowing its scope to non-carbon environmental externalities) and admit Ccarbon&nbsp;separately; (b) retain aggregated E and reject Ccarbon&nbsp;as redundant. Either resolution preserves framework consistency. The choice is a reporting-granularity preference, not a structural requirement.
+    </p>
+    <h3>
+     &sect;7.5 &mdash; Gate-Application Protocol
+    </h3>
+    <p>
+     The four gates are applied in the following operational sequence for any candidate Ci. The sequence is chosen for efficiency of rejection, not definitional priority; a candidate must pass all four gates in any order to be admitted.
+    </p>
+    <p>
+     Step 1 &mdash; CIT.&nbsp;Specify the abundance counterfactual. Evaluate whether Ci&nbsp;reduces to zero (or to an intrinsic-activity cost) under abundance. If yes, proceed to Step 2. If no, reject; optionally re-propose under an alternative counterfactual specification.
+    </p>
+    <p>
+     Step 2 &mdash; Dimensional.&nbsp;Verify the candidate&rsquo;s units match [, rendering as TeX:
+  190/ton CO2&nbsp;&times; 2.32 tons CO2&n
+             ^
+  unexpected '&'
+  expecting "\\bangle", "\\brace", "\\brack", "\\choose", "\\displaystyle", "\\textstyle", "\\scriptstyle", "\\scriptscriptstyle", "{", "\\operatorname", letter, digit, ".", "!", "'", "''", "'''", "''''", "*", "+", ",", "-", ".", "/", ":", ":=", ";", "<", "=", ">", "?", "@", "~", "_", "^", "'", "\\left", "\\lVert", "\\", "\\hyperref" or end of input
+[WARNING] Could not convert TeX math 15 per ton of coal per year during the transition window, approximately 1990&ndash;2050. Units: [, rendering as TeX:
+   approximately 1990&ndash;2050. Units: [
+                     ^
+  unexpected '&'
+  expecting "\\bangle", "\\brace", "\\brack", "\\choose", "\\displaystyle", "\\textstyle", "\\scriptstyle", "\\scriptscriptstyle", "{", "\\operatorname", letter, digit, ".", "!", "'", "''", "'''", "''''", "*", "+", ",", "-", ".", "/", ":", ":=", ";", "<", "=", ">", "?", "@", "~", "_", "^", "'", "\\left", "\\lVert", "\\", "\\hyperref" or end of input
+[WARNING] Could not convert TeX math 4.50 you were paid." The measurement does not replace the political analysis; it gives it a number.
+    </p>
+   </section>
+   <section id="sec-15-limitations">
+    <h2>
+     &sect;15. Limitations and Boundary Conditions
+    </h2>
+    <hr>
+    <ol start="1">
+     <li>
+      Substitutability Function Estimation:&nbsp;S(t) requires empirical input from materials science, energy engineering, and industrial ecology. Current estimates carry &plusmn;30&ndash;50% uncertainty in S_max for most resource classes. This uncertainty is reflected in the IPG ranges; the model is presented as a range estimator, not a point estimator.
+     </li>
+     <li>
+      Strategic Behavior:&nbsp;Extractors will attempt to game S(t) estimates (by exaggerating substitutability) and will engage in jurisdiction shopping (extracting where B is lowest). The model predicts this behavior and argues for international coordination as the structural response &mdash; not because coordination is easy, but because CS scales with the distance between extraction and governance.
+     </li>
+     <li>
+      Cross-Resource Interactions:&nbsp;Portfolio effects &mdash; rare earth extraction enabling solar panel manufacturing enabling coal displacement &mdash; require additional modeling beyond per-resource RCV. The model treats resources independently as a first approximation; a full portfolio analysis is a significant further research program.
+     </li>
+     <li>
+      Incommensurable Externalities:&nbsp;The Europa case (Scenario 6) identifies the boundary: the framework cannot price externalities that involve potential destruction of an independent biosphere. Where externalities are incommensurable with human utility scales, the model correctly reports its own limit and defaults to the Asymmetric Regret Rule.
+     </li>
+     <li>
+      Technological Discontinuities:&nbsp;The substitutability function assumes gradual, monotonic improvement in substitutes. A sudden technological breakthrough (e.g., room-temperature superconductivity eliminating rare earth demand) would shift S(t) discontinuously. The model's sensitivity analysis shows that even large positive discontinuities in S(t) do not reverse the CS &gt; 0 finding for resources already extracted &mdash; the externality tail continues regardless.
+     </li>
+     <li>
+      Discount Rate Uncertainty:&nbsp;The IPG is sensitive to discount rate assumptions. This is a feature, not a bug &mdash; it honestly reflects that how much we weight future generations is a normative choice, not a technical one. The Weitzman result provides the theoretically grounded solution: use declining rates. The sensitivity analysis showing CS &gt; 0 across all plausible rates (from the Nordhaus 5.5% to the Stern 1.4%) demonstrates the finding is robust.
+     </li>
+    </ol>
+    <h3>
+     &sect;15.1 Methodology Defense Consolidation &mdash; Tech Appendix companion (academic-reviewer depth)
+    </h3>
+    <p>
+     A reader who has followed the framework's apparatus this far is entitled to ask why each piece of it is the piece chosen. The Ch 6 main-text companion carries this defense at reader-facing depth (~2,000 words); the Tech Appendix elaboration below carries it at academic-reviewer depth: lineage citations per defense, technical specification of the rejected alternative. Both registers preserve the same configuration claim (the framework's contribution is the specific configuration of choices, not novelty in any single choice). Each of the eight choices below was alternative-tested; the rejected alternative for each is specified, and the academic lineage the framework's choice extends is cited per intellectual-honesty discipline.
+    </p>
+    <h4>
+     &sect;15.1.1 &mdash; CIT versus revealed preference
+    </h4>
+    <p>
+     <strong>
+      Rejected alternative &mdash; Revealed preference as discrimination gate.
+     </strong>
+     The first available alternative for filtering candidate cost claims was revealed preference: read what polities, markets, or established institutions have already paid as a measure of what a commons is worth. Lineage: Samuelson 1948 (revealed-preference axioms in consumer theory); Hicks 1939
+     <em>
+      Value and Capital
+     </em>
+     ; subsequent revealed-preference econometrics (cf. Bockstael & McConnell 2007
+     <em>
+      Environmental and Resource Valuation with Revealed Preferences
+     </em>
+     ). The methodology is empirically grounded: data exist, valuation procedures are established, and contingent-valuation literature has refined the techniques over decades.
+    </p>
+    <p>
+     <strong>
+      Why CIT instead.
+     </strong>
+     Revealed preference is institutionally captured: it reveals what current institutional architectures have priced, not what the underlying commons is worth absent that architecture. Norway's revealed-preference per-barrel value reveals what Norwegian institutional architecture captured (per &sect;11.5 Norway calibration); it does not reveal what the atmospheric externality from combusting Norwegian oil costs the populations bearing it. CIT, by contrast, runs an institutional-architecture-independent counterfactual (Lewis 1973
+     <em>
+      Counterfactuals
+     </em>
+     + subsequent philosophy-of-action literature). The framework retains revealed preference as one estimation input &mdash; Method 2 in the Three Ways triangulation (&sect;3 + &sect;11.5) &mdash; but uses it for estimation, not discrimination. Conflating discrimination and estimation produces institutionally-captured results: cost claims that should be admitted on commons-grounding grounds get filtered out because no polity has yet priced them.
+    </p>
+    <h4>
+     &sect;15.1.2 &mdash; Two-instrument architecture (CSD + RCV) versus single-instrument
+    </h4>
+    <p>
+     <strong>
+      Rejected alternative &mdash; Single Cost Severance accounting object.
+     </strong>
+     A simpler framework would have specified one CS measurement: backward-looking and forward-looking together, undifferentiated. Standard environmental-economics frameworks (Pigou 1920
+     <em>
+      Economics of Welfare
+     </em>
+     ; Coase 1960 "The Problem of Social Cost"; subsequent damage-function literature including Nordhaus DICE) operate roughly this way &mdash; externality is one accounting object, with discounting handling the temporal-structure question implicitly through rate choice.
+    </p>
+    <p>
+     <strong>
+      Why two instruments instead.
+     </strong>
+     Past extraction harms specific people whose cost-bearing is empirically documented; the methodology for pricing this is reparations economics (Darity & Mullen 2020
+     <em>
+      From Here to Equality
+     </em>
+     ; Bullard 1990
+     <em>
+      Dumping in Dixie
+     </em>
+     ; Chetty et al. intergenerational-mobility econometrics; toxic-tort + class-action damages tradition; truth-and-reconciliation processes including South Africa post-apartheid). Future extraction forecloses options for people whose moral standing is real but whose specific identities are not knowable in advance; the methodology for pricing this is option-value economics (Dixit & Pindyck 1994
+     <em>
+      Investment under Uncertainty
+     </em>
+     ; Hartwick 1977 sustainable-investment rule; Solow 1974 intergenerational equity; Brennan & Schwartz 1985 commodity-investment real options). The two methodologies do not collapse into a single accounting object without losing analytical leverage. The framework specifies CSD (backward-looking; reparations-economics lineage) and RCV (forward-looking; option-value lineage) as structurally independent instruments because the accounting work each requires is different. The two instruments share the central equation CS = RCV &minus; B; they answer different questions on opposite sides of that equation. Total CS = (CSD &minus; B₁) + (RCV &minus; B₂), connecting the two-instrument architecture (&sect;2) with the B = B₁ + B₂ decomposition (&sect;5).
+    </p>
+    <h4>
+     &sect;15.1.3 &mdash; Triangulation (Three Ways) versus single-method
+    </h4>
+    <p>
+     <strong>
+      Rejected alternative &mdash; Single estimation method for RCV.
+     </strong>
+     A single estimation method for Residual Commons Value would have been simpler to teach, simpler to implement, and simpler to defend. Each of the three methods has standing as a primary estimation methodology in its tradition: Replacement Cost (Costanza 1997
+     <em>
+      Nature
+     </em>
+     ecosystem-services valuation; standard regulatory cost-benefit analysis; eminent-domain takings law); Revealed Preference (Hartwick 1977; Solow 1974; subsequent revealed-preference resource economics); Real-Options Scarcity-Adjusted Value (Dixit & Pindyck 1994; Brennan & Schwartz 1985; Black-Scholes 1973 option-pricing foundation; subsequent applications to natural-resource extraction).
+    </p>
+    <p>
+     <strong>
+      Why triangulation instead.
+     </strong>
+     Each method has a strength the other two lack and a blind spot the other two illuminate. Replacement Cost prices substitution but cannot price irreplaceability &mdash; it anchors only a floor (per &sect;3 Method 1). Revealed Preference prices what one polity actually internalized but inherits that polity's institutional architecture and tradition's commitments &mdash; Norway-anchored, the methodology fails for cases without Norway-equivalent revealed-preference data (epistemic-humility constraint). Scarcity-Adjusted Option Value prices irreversibility through the &sigma; + &alpha; + V
+     <sub>
+      option
+     </sub>
+     parameter set but requires calibration that ranges across two orders of magnitude in plausible values (per &sect;11.8 Method 3 sensitivity analysis). Triangulation is the standard scientific-method response to estimation under uncertainty: produce three independent estimates from three independent epistemological angles; report convergence range; treat divergence as informative rather than as failure (cf. Campbell & Fiske 1959 multitrait-multimethod matrix in psychometric methodology; subsequent triangulation discipline in qualitative + quantitative research traditions). The framework's reporting discipline &mdash; every RCV estimate reports all three methods individually plus the convergence range plus identified divergence sources &mdash; is the operationalization of this commitment. No single-method RCV claim has standing in the framework's accounting.
+    </p>
+    <h4>
+     &sect;15.1.4 &mdash; Hotelling Identity versus Pigou-only or Hotelling-only
+    </h4>
+    <p>
+     <strong>
+      Rejected alternatives &mdash; Pigou alone or Hotelling alone.
+     </strong>
+     Two adjacent traditions had standing claims to the territory the Hotelling Identity occupies. Pigou (1920,
+     <em>
+      The Economics of Welfare
+     </em>
+     ) priced costs imposed on third parties through pricing instruments &mdash; the externality framework. Hotelling (1931, "The Economics of Exhaustible Resources,"
+     <em>
+      Journal of Political Economy
+     </em>
+     39(2): 137&ndash;175) priced the rent rule for private extraction of finite resources &mdash; Hotelling rent equals the price minus the marginal extraction cost, rising at the rate of interest under competitive extraction equilibrium. Each tradition does what it does well within its scope.
+    </p>
+    <p>
+     <strong>
+      Why the Hotelling Identity instead.
+     </strong>
+     Neither tradition alone prices what commons-extraction actually costs when both extraction-rent dynamics and externality-on-cost-bearers operate simultaneously. Pigou-only treats the resource-rent component as private revenue and prices only the externality tail; Hotelling-only prices the rent rule and stops short of the externality. The Hotelling Identity is the framework's bridge:
+     <em>
+      RCV &minus; Hotelling rent = CS per unit
+     </em>
+     . The identity does not replace Hotelling 1931 (which prices private exhaustibility correctly within its assumptions: private extractor; finite stock; private extraction-cost only) or Pigou 1920 (which prices externalities correctly within its scope). It establishes the structural relationship between them &mdash; surfacing that commons-extraction cost is precisely the residual value beyond standard Hotelling rent, when "value" is defined as RCV (forward-looking commons cost; substitutability + externality + abundance-grounded costs admitted via Four Gates). The framework cites Hotelling 1931 as foundational (Hotelling's part: rent rule for exhaustible resources) and presents the identity extension as the framework's contribution (framework's part: defining RCV as commons' true cost; recognizing Hotelling rent under honest accounting represents commons' scarcity value being appropriated; articulating the identity).
+    </p>
+    <h4>
+     &sect;15.1.5 &mdash; Four Gates versus CIT alone
+    </h4>
+    <p>
+     <strong>
+      Rejected alternative &mdash; CIT as sole admission gate.
+     </strong>
+     CIT is necessary for the framework's accounting but not sufficient. A framework that ran CIT alone would admit cost claims that are commons-grounded but unit-incoherent (a claim that mixes monetary, physical, and qualitative units fails Units Consistency); finite-bounded but double-counted (a claim that prices a single harm both as Habitability and as Ecosystem inflates the aggregate via Independence violation); or independent but unit-inconsistent. The aggregate Cost Severance accounting depends on the gates being run together.
+    </p>
+    <p>
+     <strong>
+      Why Four Gates instead.
+     </strong>
+     Each gate does work the others can't.
+     <strong>
+      CIT
+     </strong>
+     screens for commons-grounding (&sect;6); the rejected alternative was unfiltered admission, which would treat any cost as commons-grounded and dissolve the framework's discriminating function.
+     <strong>
+      Units Consistency
+     </strong>
+     screens for unit coherence (&sect;7); the rejected alternative was unit-flexibility, which would allow [, rendering as TeX:
+  4.50 you were paid." The measurement doe
+                     ^
+  unexpected '"'
+  expecting "\\bangle", "\\brace", "\\brack", "\\choose", "\\displaystyle", "\\textstyle", "\\scriptstyle", "\\scriptscriptstyle", "{", "\\operatorname", letter, digit, ".", "!", "'", "''", "'''", "''''", "*", "+", ",", "-", ".", "/", ":", ":=", ";", "<", "=", ">", "?", "@", "~", "_", "^", "'", "\\left", "\\lVert", "\\", "\\hyperref" or end of input
+[WARNING] Could not convert TeX math 300+ (damage function)
+     </p>
+    </td>
+    <td>
+     <p>
+  &plusmn;60%
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <p>
+  Externality tail length
+     </p>
+    </td>
+    <td>
+     <p>
+  200 years
+     </p>
+    </td>
+    <td>
+     <p>
+  100 years
+     </p>
+    </td>
+    <td>
+     <p>
+  Indefinite
+     </p>
+    </td>
+    <td>
+     <p>
+  &plusmn;15%
+     </p>
+    </td>
+   </tr>
+  </table>
+  <p>
+   Robustness finding:&nbsp;CS &gt; 0 across all parameter combinations tested. Even under the most conservative assumptions (high discount rate, high S_max, low SCC, short externality tail), the McDowell County IPG &ge; 5&times; &mdash; the market price covers at most 20% of the true cost. The central finding is robust to parameter uncertainty; only the magnitude varies.
+  </p>
+  </section>
+  <section id="sec-17-formula-generalization">
+  <h2>
+   &sect;17. Formula Generalization &mdash; Sum-of-Costs Form
+  </h2>
+  <hr>
+  <h3>
+   &sect;17.1 &mdash; Overview
+  </h3>
+  <p>
+   &sect;7 specifies the four gates governing admission of cost terms to the RCV integrand. This section presents the corresponding mathematical generalization of the RCV formula &mdash; the sum-of-costs form &mdash; and derives the properties (convergence, dimensional consistency, CS = RCV &minus; B preservation) that must hold for the generalization to be sound. The generalization is the extension that makes the framework generative: new variables can be admitted as the four gates reveal them, without destabilizing the mathematical architecture. The two-term RCV formula of &sect;3.1 is recovered as the n = 2 special case of the general form.
+  </p>
+  <h3>
+   &sect;17.2 &mdash; The Generalization: Formal Statement
+  </h3>
+  <p>
+   The two-term RCV formula (&sect;3.1):
+  </p>
+  <p>
+   RCV(R, t0) = &int;t₀&infin;&nbsp;{ [1 &minus; S(t | t0)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; D(t, t0) dt
+  </p>
+  <p>
+   is replaced by the general sum-of-costs form:
+  </p>
+  <p>
+   RCV(R, t0, Context) = &int;t₀&infin;&nbsp;{ &Sigma;i=1n&nbsp;Ci(R, t, Context) } &middot; D(t, t0) dt
+  </p>
+  <p>
+   where:
+  </p>
+  <p>
+   &bull; n is the number of cost terms admitted into the integrand under the current Context;
+  </p>
+  <p>
+   &bull; each Ci&nbsp;has passed the four gates (&sect;7.1-&sect;7.4) under stated specifications;
+  </p>
+  <p>
+   &bull; Context encodes the specific extraction situation (who captures value, who bears cost, what scarcity operates, what substitutability landscape exists, what externality profile, what community relationships are affected);
+  </p>
+  <p>
+   &bull; D(t, t0) is the declining-rate discount factor per &sect;16.1.
+  </p>
+  <p>
+   The two-term form is recovered as the special case n = 2 with C1(R, t, Context) = [1 &minus; S(t | t0)] &middot; U(R, t, Q(t)) (foreclosure) and C2(R, t, Context) = E(R, t) (externality tail). This equivalence is worked explicitly in &sect;17.6 below.
+  </p>
+  <h3>
+   &sect;17.3 &mdash; Convergence Preservation
+  </h3>
+  <p>
+   Claim.&nbsp;If each Ci&nbsp;satisfies the boundedness gate (Gate 3, &sect;7.3) individually under the stated discount factor, and n is finite, then the sum-of-costs integral converges.
+  </p>
+  <p>
+   Proof.&nbsp;The integrand is a finite sum of functions, each of which yields a convergent integral under D by Gate 3 (&sect;7.3). By linearity of integration:
+  </p>
+  <p>
+   &int;t₀&infin;&nbsp;&Sigma;i=1n&nbsp;Ci(R, t, Context) &middot; D(t, t0) dt = &Sigma;i=1n&nbsp;&int;t₀&infin;&nbsp;Ci(R, t, Context) &middot; D(t, t0) dt
+  </p>
+  <p>
+   Each term on the right is finite (Gate 3 passes individually). A finite sum of finite terms is finite. The integral of the sum converges. Q.E.D.
+  </p>
+  <p>
+   Remark on countable sums.&nbsp;For countably many Ci&nbsp;(a theoretical extension), uniform convergence of the partial sums plus absolute convergence of the sum of integrals is required. In practice, n is bounded by the empirical scope of CIT-discoverable variables in a given Context (observed bound &le; ~20 across 18 case studies). Countable-sum extensions are not required for the framework&rsquo;s current applied scope. Future research may address formal boundedness of n as a function of Context complexity; the current framework operates under empirical finiteness.
+  </p>
+  <p>
+   Interchange of sum and integral.&nbsp;For finite sums, interchange is unconditional. For countable sums, the interchange requires a dominating function by the dominated convergence theorem or a monotone structure by the monotone convergence theorem. In the framework&rsquo;s applied scope (finite n), no dominating function is needed; the interchange is a standard result.
+  </p>
+  <h3>
+   &sect;17.4 &mdash; Units Consistency
+  </h3>
+  <p>
+   Claim.&nbsp;If each Ci&nbsp;satisfies the dimensional gate (Gate 2, &sect;7.2) (units [, rendering as TeX:
+  &plusmn;60%
+  ^
+  unexpected '&'
+  expecting "\\bangle", "\\brace", "\\brack", "\\choose", "\\displaystyle", "\\textstyle", "\\scriptstyle", "\\scriptscriptstyle", "{", "\\operatorname", letter, digit, ".", "!", "'", "''", "'''", "''''", "*", "+", ",", "-", ".", "/", ":", ":=", ";", "<", "=", ">", "?", "@", "~", "_", "^", "'", "\\left", "\\lVert", "\\", "\\hyperref" or end of input
+[build-derivatives]   chrome → tools/scripts/comparison-renders/ta_2026-05-17_9ffad4e/laptop-build-derivatives//TechnicalAppendix_v2.0.0.pdf
