@@ -23,8 +23,8 @@ Sub-steps to fire this session:
 | 3.2 verify | NO | Pass 2 RATIFIED + APPLIED (commit `7b4aa92`). |
 | 3.3 acceptance | NO | Pass 3 acceptance ratified per REAUDIT v3 (40-character set covered both acceptance + robustness in single artifact). |
 | 3.4 robustness | NO | Already done as part of REAUDIT v3 (10-char adversarial set + thread-pull synthesis §5.3). Reference artifact: `tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`. |
-| 4 render-integrity | YES | First Stage 4 audit against Ch 1 derivatives. |
-| 5 sign-off + pre-pub queue | YES | First Stage 5 sign-off + pre-publication review queue artifact for Ch 1. |
+| 4 render-integrity | YES — **DUAL-RENDER (comparison-mode)** | Ch 1 is the **first** of 4 chapters firing in parallel with the render-pipeline-standardization workstream. Render via BOTH pipelines (laptop `build-derivatives-alt.sh` + mobile-per-standardization-workstream-§3.1). Capture per-chapter comparison artifact. Stage 4 verdict = **PROPOSED-pending-canonical-decision** (batch-ratifies after standardization workstream §3.4 author decision). Do NOT tune the pipeline mid-comparison. |
+| 5 sign-off + pre-pub queue | DEFERRED | Stage 5 deferred until Stage 4 verdict ratifies (post canonical-pipeline decision). Pre-publication review queue artifact drafted PROPOSED at retrofit session close; ratifies in batch with Stage 4. |
 
 Effectively this is the lightest retrofit in the set: 1a + 1c + 4 + 5 only (3.4 already complete).
 
@@ -57,4 +57,4 @@ Effectively this is the lightest retrofit in the set: 1a + 1c + 4 + 5 only (3.4 
 
 ---
 
-*End of Ch 1 pipeline-retrofit handoff. PROPOSED 2026-05-17. Lightest retrofit in the set; can run anytime after PM session sequences.*
+*End of Ch 1 pipeline-retrofit handoff. PROPOSED 2026-05-17. Lightest retrofit in the set; fires **FIRST** of the 4 standardization-comparison-bed retrofits (Ch 1 → Ch 5 → Ch 6 → TA). Stage 4 verdict batch-ratifies post canonical-pipeline decision per [`render-pipeline-standardization-handoff_2026-05-17.md`](render-pipeline-standardization-handoff_2026-05-17.md).*

@@ -23,8 +23,8 @@ Sub-steps to fire this session:
 | 3.2 verify | NO | Pass 2 PROPOSED at commit `dd3c684`; Phase C-β applied at `c35cb03`. Includes F-V1 inverted-logic + F-V2 "not Ponzi scheme" article + F-V3 Ohio-comparison rebuild + F-V4 line 138 OASI-2033 alignment + F-V5 116-124 opportunity-cost framing + F-V6/V7 NOAA + CBO + F-V8 GAO 2011 cumulative-not-peak + F-V9 coerced-cases legacy-effects. |
 | 3.3 acceptance | NO | Original Pass 3 acceptance ratified per Pre-Phase-C work. Adversarial test was not run under pre-v3.0 framing. |
 | 3.4 robustness | YES — fresh | First Pass 3.4 robustness test (adversarial set). Highest-priority retrofit element for Ch 5. Anticipate Public Choice + libertarian + WSJ-business-press + tort-reform-lawyer adversarial reads on the 2008-rescue-asymmetry + Social-Security-as-cost-severance arguments. |
-| 4 render-integrity | YES | Verify $108T / $4.6B / dollar-figure renderings; em-dash density passages at lines 116-124 (opportunity-cost framing); Method 1/2/3 bolded section heads at line 214 (em-dash in bold; needs fallback-header for .md → PDF). |
-| 5 sign-off + pre-pub queue | YES | Recommend external reviewer types: labor-economics reviewer (Darity-Mullen tradition); financial-system / Federal-Reserve emergency-lending scholar; reparations-economics methodologist. |
+| 4 render-integrity | YES — **DUAL-RENDER (comparison-mode)** | Ch 5 is the **second** of 4 chapters firing in parallel with the render-pipeline-standardization workstream. Render via BOTH pipelines (laptop `build-derivatives-alt.sh` + mobile-per-standardization-workstream-§3.1); test specifically: $108T / $4.6B dollar-figure renderings; em-dash density at lines 116-124 (opportunity-cost framing); Method 1/2/3 bolded section heads at line 214 (em-dash in bold). Capture per-chapter comparison artifact. Stage 4 verdict = **PROPOSED-pending-canonical-decision**. Do NOT tune the pipeline mid-comparison. |
+| 5 sign-off + pre-pub queue | DEFERRED | Stage 5 deferred until Stage 4 verdict ratifies (post canonical-pipeline decision). Pre-pub queue drafted PROPOSED with recommended external reviewer types: labor-economics reviewer (Darity-Mullen tradition); financial-system / Federal-Reserve emergency-lending scholar; reparations-economics methodologist. Ratifies in batch with Stage 4. |
 
 ---
 
@@ -61,4 +61,4 @@ Sub-steps to fire this session:
 
 ---
 
-*End of Ch 5 pipeline-retrofit handoff. PROPOSED 2026-05-17. Lightest-of-the-already-closed-cycle retrofits: 1a + 1c + 3.4 + 4 + 5.*
+*End of Ch 5 pipeline-retrofit handoff. PROPOSED 2026-05-17. Lightest-of-the-already-closed-cycle retrofits + **SECOND** of the 4 standardization-comparison-bed retrofits (Ch 1 → Ch 5 → Ch 6 → TA). Stage 4 verdict batch-ratifies post canonical-pipeline decision per [`render-pipeline-standardization-handoff_2026-05-17.md`](render-pipeline-standardization-handoff_2026-05-17.md). Sequence AFTER cross-chapter rent-seeking workstream lands.*
