@@ -1180,6 +1180,36 @@ The framework's Aeon-pitch title — *The Mask of Abundance* — uses the constr
 
 ---
 
+## 22. Public Choice / political-economy tradition (rent-seeking analysis grounding)
+
+The framework engages the Public Choice tradition explicitly as a complementary analytical apparatus to the framework's cost-accounting work. Where the framework identifies who bore the cost of a given commons extraction, Public Choice identifies who shaped the institutional architecture that distributed the cost the way it did. Both questions matter; the framework focuses on the first and positions the second as the domain Public Choice analysis is calibrated for. These entries ground the engagements in Ch 5 (architecture-and-rent-seeking cross-case section), Ch 9 (Public Choice and the framework dedicated section), Ch 8 (McDowell coalfield rent-seeking touch), and Tech Appendix §1.10 (scope-of-applicability boundary statement on complementarity with Public Choice). Added 2026-05-17 per cross-chapter rent-seeking-engagement workstream (cross-thread-todos #13).
+
+### Buchanan, James M., and Gordon Tullock. *The Calculus of Consent: Logical Foundations of Constitutional Democracy.* University of Michigan Press, 1962.
+
+- **Summary:** Foundational text of the Public Choice / Virginia-school tradition. Applies economic analysis to constitutional and political decision-making, treating politicians, bureaucrats, voters, and lobbyists as rational self-interested agents rather than neutral public servants. Establishes the methodological framework that subsequent rent-seeking analysis is built on. Buchanan received the 1986 Nobel Prize in Economics for this body of work.
+- **Relevance:** **SUPPORT (cross-tradition complementarity, Ch 5 + Ch 9 + Ch 8 + Tech Appendix).** Public Choice is the analytical tradition the framework explicitly engages as complementary at the architecture-shaping level — institutions do not emerge as neutral architectures; they are designed through political processes in which actors with concentrated interests compete against actors with diffuse interests. The framework's cost-accounting work identifies who bore the cost; Public Choice identifies who shaped the institutional architecture that produced the distribution.
+- **Relationship:** **LINEAGE PARTNER (architecture-shaping analytical apparatus the framework operates alongside).** Read alongside reparations-economics (Coates / Darity / Mullen / Hamilton / Conley per §18.5) and stratification economics (Darity / Hamilton per Tech Appendix §1.10) as the actor-identification side of the framework's complementary-apparatus cluster. Where reparations economics does both kinds of work at once for the racial wealth gap, Public Choice does the architecture-shaping work cleanly for cases where the political-coalition record is on the books.
+- **Chapter relevance:** Ch 5 (architecture-and-rent-seeking cross-case section — Libby + Deepwater + 2008 + Healthcare + McDowell rent-seeking actor histories); Ch 9 (Public Choice and the framework dedicated section); Ch 8 (McDowell coalfield rent-seeking touch); Tech Appendix §1.10 (scope-of-applicability boundary statement).
+- **Status:** added 2026-05-17 per cross-chapter rent-seeking-engagement workstream.
+
+### Tullock, Gordon. "The Welfare Costs of Tariffs, Monopolies, and Theft." *Western Economic Journal* 5, no. 3 (1967): 224–232.
+
+- **Summary:** The paper that established rent-seeking as a named economic concept. Tullock observes that the real welfare cost of monopolies and tariffs is not just the deadweight loss in the affected market but also the resources expended by actors competing to obtain (or defend) the privilege itself — lobbying expenditure, political mobilization, regulatory-capture investment. The lobbying expenditure IS the rent-seeking cost: economically wasteful but rational from the rent-seeker's perspective. Subsequent literature (Krueger 1974) gave the phenomenon its now-canonical name.
+- **Relevance:** **SUPPORT (rent-seeking concept origination, Ch 5 + Ch 9).** Tullock's paper is the foundational citation for the rent-seeking concept the framework engages as the architecture-shaping side of cost-severance analysis. The framework's claim that institutional architectures were shaped by specific actors with specific interests, who deployed resources to shape them, rests on the rent-seeking apparatus Tullock established.
+- **Relationship:** **LINEAGE PARTNER (concept-originating citation).** Pairs with Buchanan & Tullock 1962 as the two foundational Public Choice citations the framework engages.
+- **Chapter relevance:** Ch 5 + Ch 9 (Public Choice engagement sections); Tech Appendix §1.10 (scope-of-applicability boundary statement).
+- **Status:** added 2026-05-17 per cross-chapter rent-seeking-engagement workstream.
+
+### Mueller, Dennis C. *Public Choice III.* Cambridge University Press, 2003.
+
+- **Summary:** Comprehensive contemporary survey and synthesis of the Public Choice tradition, integrating six decades of analytical development since *The Calculus of Consent*. Covers voting theory, rent-seeking, regulatory capture, bureaucratic behavior, interest-group competition, constitutional political economy, and the empirical literature on each. The standard graduate-level reference for the field's current state.
+- **Relevance:** **SUPPORT (current-state reference, Tech Appendix).** Provides the contemporary-synthesis citation for readers who want to engage the field's current state beyond the foundational 1960s texts. Cited in Tech Appendix §1.10 scope-of-applicability statement as the modern successor reference.
+- **Relationship:** **LINEAGE EXTENSION (six-decade synthesis of the tradition Buchanan and Tullock founded).** Complementary to Buchanan & Tullock 1962 and Tullock 1967; provides the bridge from foundational texts to current-state literature for readers needing the field's contemporary apparatus.
+- **Chapter relevance:** Tech Appendix §1.10 (scope-of-applicability boundary statement, modern successor reference); recommended as reading for Public Choice readers seeking the field's current state alongside the framework's engagement.
+- **Status:** added 2026-05-17 per cross-chapter rent-seeking-engagement workstream.
+
+---
+
 ## Maintenance notes
 
 - **Adding new entries:** follow the template (citation / summary / relevance / support-or-contradict / chapter relevance / any framework-character note). Prefer consistency over exhaustiveness.

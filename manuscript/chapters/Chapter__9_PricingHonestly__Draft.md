@@ -130,6 +130,22 @@ Neither of these moves is decisive on its own. Both of them, combined with the e
 
 ---
 
+### Public Choice and the framework: complementary accounting
+
+The framework's central question is who bears the cost. A complementary question — equally serious, equally tractable — is who shaped the architecture that distributed the cost the way it did. The Public Choice tradition, founded by James M. Buchanan and Gordon Tullock at Virginia and developed over six decades by their successors, has built rigorous tools for that second question. The framework operates alongside it, not against it.
+
+Public Choice begins from a methodological move that resists the temptation to treat institutions as neutral architectures. Institutions do not emerge by themselves. They are designed through political processes in which actors with concentrated interests compete against actors with diffuse interests. The Family and Medical Leave Act of 1993 — to take one example near the chapters that opened this book — was not authored by a deliberative committee balancing employer and employee interests in some impartial weighing. It was authored through a legislative fight in which business lobbies actively opposed paid leave and successfully pushed the final architecture toward twelve weeks of unpaid leave. That outcome is the residue of rent-seeking: lobbying expenditure deployed by actors with concentrated stakes to shape an institutional architecture that distributes cost asymmetrically. The architecture is not impersonal. Someone shaped it, and the shaping is on the public record.
+
+The framework this book develops focuses on the side of the architecture that absorbs the cost. Public Choice focuses on the side that shaped the architecture. Each is incomplete without the other. The framework's claim that "the system did exactly what the system was designed to do" is true; Public Choice adds the necessary follow-on — *and someone designed it, and we can identify them*. The framework's commons-pricing apparatus identifies the magnitudes; rent-seeking analysis identifies the actors. Read together, the two traditions describe the same architecture from two angles. Read apart, each is partial.
+
+Some cases the framework treats are sharper for rent-seeking analysis than others. Where extractors and cost-bearers are distinct populations — a corporate operator and a downstream community; a financial-services industry and a mortgage-distressed household; an industry trade association and a worker — the rent-seeking analytical chain runs cleanly. The framework's cost-bearing-party identification gives Public Choice's actor-identification something concrete to apply to. Where extractors and cost-bearers overlap — as with global electronics consumers who are both demand-side beneficiaries of rare-earth mining and eventual absorbers of the supply-chain externalities — the rent-seeking framing blurs and the framework's structural-accounting framing carries the analytic weight that rent-seeking cannot easily isolate. The book is honest about both kinds of case, and treats neither as the default.
+
+The framework is therefore not a Public Choice book, and does not aim to be. It is also not a structural-mystification book that treats institutions as impersonal forces no one shaped. It is a cost-accounting book that names what is absorbed and by whom, and that points to where the architecture-shaping analysis lives when readers want to ask the next question. Buchanan and Tullock built the apparatus for that next question; this book recommends reading them alongside it.
+
+The practical implication for readers in the policy-economy traditions Public Choice has shaped — readers at AEI, Cato, the Mercatus Center, George Mason economics, and the broader policy-think-tank cluster influenced by Virginia-school analysis — is that the framework here is a foundation their apparatus can use, not a competitor for the analytical space they already occupy. The framework supplies the magnitudes; their apparatus supplies the actor accountability. Both are needed; neither is sufficient alone.
+
+---
+
 ### Property rights, and their limits
 
 The most intellectually serious objection to anything like this framework comes from the property rights tradition, and it deserves an honest hearing before the chapter closes.
