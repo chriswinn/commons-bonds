@@ -1,0 +1,132 @@
+name: render-verify
+
+# Render-toolchain canonical-pipeline drift catcher per workstream handoff
+# §4.5 (tools/workstream-handoffs/render-toolchain-containerization-handoff_2026-05-18.md).
+#
+# Builds the Docker image (cached when the Dockerfile + installer are
+# unchanged), renders the small fixture at tools/scripts/render-verify-
+# fixtures/fixture.md, and asserts:
+#   (1) xelatex emits no "Missing character" warnings — per Stage 4
+#       doctrine §3.3, those are load-bearing signals of font-coverage
+#       regressions, NOT noise to ignore.
+#   (2) Extracted PDF text matches the checked-in expected text — catches
+#       structural regressions (lost paragraphs; mangled tables; etc.).
+#   (3) Extracted DOCX text matches the checked-in expected text.
+#
+# Triggers on PRs that touch any of the render-toolchain-defining files:
+# the installer, the Dockerfile, the build-derivatives scripts, the
+# fallback-header, or the build-environment stamp. Other PRs skip — no
+# point spending a ~10-minute Docker-on-amd64 build for unrelated changes.
+
+on:
+  pull_request:
+    paths:
+      - 'tools/scripts/install-render-toolchain.sh'
+      - 'tools/scripts/Dockerfile.render'
+      - 'tools/scripts/build-derivatives.sh'
+      - 'tools/scripts/build-derivatives-alt.sh'
+      - 'tools/scripts/fallback-header.tex'
+      - 'tools/scripts/reference.docx'
+      - 'tools/scripts/render-verify-fixtures/**'
+      - 'tools/quality-gates/render-baselines/build-environment.yaml'
+      - '.github/workflows/render-verify.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'tools/scripts/install-render-toolchain.sh'
+      - 'tools/scripts/Dockerfile.render'
+      - 'tools/scripts/build-derivatives.sh'
+      - 'tools/scripts/build-derivatives-alt.sh'
+      - 'tools/scripts/fallback-header.tex'
+      - 'tools/scripts/reference.docx'
+      - 'tools/scripts/render-verify-fixtures/**'
+      - 'tools/quality-gates/render-baselines/build-environment.yaml'
+
+jobs:
+  render-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx (with layer caching)
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build canonical render image (cached)
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: tools/scripts/Dockerfile.render
+          tags: commons-bonds-render:ci
+          load: true
+          # GitHub Actions cache survives across runs while the
+          # Dockerfile + installer are unchanged.
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+          # Linux runners are already amd64; no Rosetta / QEMU overhead.
+          platforms: linux/amd64
+
+      - name: Verify toolchain (--check) inside image
+        run: |
+          docker run --rm commons-bonds-render:ci
+
+      - name: Render fixture inside image
+        run: |
+          mkdir -p render-output
+          docker run --rm \
+            -v "${{ github.workspace }}:/work" \
+            -w /work \
+            -e SOURCE_DATE_EPOCH=1700000000 \
+            commons-bonds-render:ci \
+            bash -c 'tools/scripts/build-derivatives-alt.sh -v \
+              -o render-output \
+              tools/scripts/render-verify-fixtures/fixture.md 2> render-output/xelatex-stderr.log'
+          ls -la render-output/
+
+      - name: Fail on xelatex "Missing character" warnings
+        run: |
+          if grep -F "Missing character" render-output/xelatex-stderr.log; then
+            echo "::error::xelatex reported missing-character warnings — font-coverage regression."
+            echo "::error::See Stage 4 doctrine §3.3 — these are load-bearing signals, not noise."
+            exit 1
+          fi
+          echo "No Missing-character warnings — font coverage clean."
+
+      - name: Diff extracted PDF text against expected
+        run: |
+          docker run --rm \
+            -v "${{ github.workspace }}:/work" \
+            -w /work \
+            commons-bonds-render:ci \
+            pdftotext -layout render-output/fixture.pdf render-output/fixture.pdf.txt
+          if ! diff -u tools/scripts/render-verify-fixtures/expected/fixture.pdf.txt render-output/fixture.pdf.txt; then
+            echo "::error::Extracted PDF text drifted from checked-in baseline."
+            echo "::error::If this is intentional (toolchain advance), regenerate the baseline via:"
+            echo "::error::  tools/scripts/render-verify-fixtures/regenerate-expected.sh"
+            exit 1
+          fi
+
+      - name: Diff extracted DOCX text against expected
+        run: |
+          docker run --rm \
+            -v "${{ github.workspace }}:/work" \
+            -w /work \
+            commons-bonds-render:ci \
+            pandoc -f docx -t plain render-output/fixture.docx -o render-output/fixture.docx.txt
+          if ! diff -u tools/scripts/render-verify-fixtures/expected/fixture.docx.txt render-output/fixture.docx.txt; then
+            echo "::error::Extracted DOCX text drifted from checked-in baseline."
+            echo "::error::If this is intentional (toolchain advance), regenerate the baseline."
+            exit 1
+          fi
+
+      - name: Upload render artifacts on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: render-verify-output
+          path: render-output/
+          if-no-files-found: ignore
+          retention-days: 14

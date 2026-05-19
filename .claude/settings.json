@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "_comment": "Per tools/workstream-handoffs/render-toolchain-containerization-handoff_2026-05-18.md §4.4 + tools/scripts/README.md, the SessionStart hook below installs the canonical render toolchain in Anthropic remote-container sessions (gated on CLAUDE_CODE_REMOTE=true; local laptop sessions use Docker via Colima instead). The recommended primary mechanism is to configure tools/scripts/install-render-toolchain.sh as the environment's web-UI setup script — that benefits from env-cache snapshots and avoids per-session install latency. This hook is a belt-and-suspenders fallback for cases where the UI setup script is not yet configured.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/tools/scripts/session-start-render-toolchain.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
