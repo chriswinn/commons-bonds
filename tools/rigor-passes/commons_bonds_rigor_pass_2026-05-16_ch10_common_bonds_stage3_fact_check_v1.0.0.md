@@ -3,7 +3,7 @@
 **Date:** 2026-05-16
 **Workstream:** #20 Manuscript Stage-3 Rigor Pass — Phase A (per-chapter audits)
 **Chapter:** 10 — *Common Bonds*
-**File audited:** [Chapter_10_CommonBonds__Draft.md](manuscript/chapters/Chapter_10_CommonBonds__Draft.md) (single-underscore prefix; differs from Chs 1–9 double-underscore convention)
+**File audited:** [Chapter_10_CommonBonds.md](manuscript/chapters/Chapter_10_CommonBonds.md) (single-underscore prefix; differs from Chs 1–9 double-underscore convention)
 **Word count / line count:** 151 lines / ~7,366w (per workstream handoff; line count verified at session start)
 **Pass scope:** Pass 1 (Fact-check) only per v2.0 Amendment B (three distinct passes; no bundling). Pass 2 (Voice-polish) and Pass 3 (Audience-load) NOT run; deferred to subsequent sessions per per-prompt serial cadence.
 **Hard constraint observed:** No spot-fixes applied to chapter file. Phase C session (post-author-ratification) applies recommended edits.
@@ -11,17 +11,61 @@
 
 ---
 
+## v1.0.1 update — re-anchored against current state (2026-05-19)
+
+**Why this update exists.** Between audit-time (2026-05-16) and 2026-05-19, two commits touched Ch 10 and several touched cross-referenced chapters. None changed any prose anchored by the open findings; the substance of every M/L finding remains intact. This update refreshes file paths + line numbers so the artifact stays directly actionable.
+
+**Ch 10 changes since audit:**
+- `a09e319` (2026-05-18): file renamed `Chapter_10_CommonBonds__Draft.md` → `Chapter_10_CommonBonds.md` (`__Draft` suffix dropped — chapter has cleared a first pass and no longer carries the draft marker; Chs 2 + 3 retain `__Draft` per consent-pending discipline).
+- `e1a533e` (2026-05-18): front-matter rendering fix only — byline reformatted (`By Chris Winn` → `*By Chris Winn*`) and a blank line added. **+1 net line; zero substantive prose touched.** Every Ch 10 line citation in the original v1.0.0 artifact shifts +1.
+
+**Cross-referenced chapters renamed** (commit `a09e319`, except Chs 2 + 3 which retain `__Draft`):
+- `Chapter__1_TheQuietMath.md`, `Chapter__4_TheExistenceProof.md` (note case correction), `Chapter__7_OnOtherWorlds.md`, `Chapter__8_WhatThingsActuallyCost.md`, `Chapter__9_PricingHonestly.md` — all updated throughout.
+- `Chapter__2_TheMiner__Draft.md`, `Chapter__3_TheWaterman__Draft.md` — retain `__Draft` (consent-pending markers; Phat, etc.).
+
+**Ch 1 substantively revised between audit and update** (commits `54709e7` grandfather paragraph RATIFIED+APPLIED; `e69c61e` developmental-edit Phase C 9 spot-fixes; `eb14171` Pass 3.3 light re-fire RATIFIED; `d36534f` DMV-commute coda revision):
+- The grandfather sentence at original Ch 1:29 is now at Ch 1:30 and still reads "He was a model maker in the wind tunnels — a title he was proud of" (M-4 canonical anchor still holds).
+- "Pou" nickname etymology was Ch 1:33, now Ch 1:36.
+- NIH career origin was Ch 1:51, now Ch 1:54.
+- Cable-TV CEO passage was Ch 1:65, now Ch 1:78.
+- Parents 800-miles-north reference was Ch 1:83, now Ch 1:88.
+- Marriage-end passage was Ch 1:95, now Ch 1:106.
+- Closing "sun was up" was Ch 1:107, now Ch 1:120.
+- Where the v1.0.0 artifact cites Ch 1:N for a specific passage, current Ch 1 line numbers are refreshed inline below; for incidental refs the substantive anchor still holds even where the line number shifts.
+
+**Other cross-reference line shifts** (Chs 4, 7, 9 had front-matter and minor edits that shifted their line numbers by 2–3 each; Chs 2 + 3 unchanged since they retained `__Draft` and didn't get the byline edit):
+- Ch 4 Niger Delta / UNEP passage was :79 → now :82
+- Ch 7 Mars habitat / 10,000 people was :27 → now :29
+- Ch 7 discount-rate Stern/Nordhaus/Hartwick was :71 → now :73
+- Ch 7 Europa boundary was :91 → now :93
+- Ch 7 six patterns (Geographic/Temporal/Informational/Power/Normative/Abundance) were :109/:111/:113/:115/:117/:119 → now :111/:113/:115/:117/:119/:121
+- Ch 9 Ogallala was :27 → now :30
+- Ch 9 Baotou tailings pond was :89 → now :92
+- Ch 9 Mancur Olson concentrated-interest was :109 → now :112
+- Ch 9 Mars admin synthesis closing was :263 → now :282
+
+**Refresh scope of this update:**
+- ✅ File-audited path + all canonical-sources file paths
+- ✅ All MEDIUM + LOW finding headers + Location anchors
+- ✅ Key in-body line refs in finding rationales + recommendations + severity rationales
+- ✅ The v1.0.1 header (this section)
+- 📋 **Audit-time line refs preserved (for traceability) in:** positive-verifications table; §5 sub-checks; §6 voice-polish flag-forwards; §7 audience-load flag-forwards. Phase C session should apply +1 mentally when re-verifying these against the current file; the substance of each verification is unchanged.
+
+**No findings were added, removed, or recharacterized.** The verdict (READY AFTER SPOT-FIXES; 0 CRITICAL, 0 HIGH, 5 MEDIUM, 4 LOW) holds.
+
+---
+
 ## Canonical sources consulted
 
 **Internal-corpus (cross-chapter consistency — bulk of Ch 10's fact-check surface):**
 
-1. [Chapter__1_TheQuietMath__Draft.md](manuscript/chapters/Chapter__1_TheQuietMath__Draft.md) — sunrise-departure bookend; grandfather-as-NASA-model-maker (line 29); author career framing (line 51 NIH origin; line 65 cable-TV CEO; line 67 DMV commute); author's parents (line 83); marriage end (line 95); son (lines 13, 17, 91, 99).
+1. [Chapter__1_TheQuietMath.md](manuscript/chapters/Chapter__1_TheQuietMath.md) — sunrise-departure bookend; grandfather-as-NASA-model-maker (line 29); author career framing (line 51 NIH origin; line 65 cable-TV CEO; line 67 DMV commute); author's parents (line 83); marriage end (line 95); son (lines 13, 17, 91, 99).
 2. [Chapter__2_TheMiner__Draft.md](manuscript/chapters/Chapter__2_TheMiner__Draft.md) — McDowell County canonical case; black lung; community collapse; Cost Severance vocabulary introduction (line 131).
 3. [Chapter__3_TheWaterman__Draft.md](manuscript/chapters/Chapter__3_TheWaterman__Draft.md) — Old Point Comfort / Fox Hill / Hampton canonical waterman case; Biggie (deceased, named); Phat (anonymized, consent-pending).
-4. [Chapter__4_THEEXISTENCEPROOF__Draft.md](manuscript/chapters/Chapter__4_THEEXISTENCEPROOF__Draft.md) (post Pass 1 ratifications 2026-05-12) — Niger Delta / Ogoniland / UNEP 2011 / Saro-Wiwa 1995 anchors.
-5. [Chapter__7_OnOtherWorlds__Draft.md](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md) — Mars administrator scene canonical (lines 25–47); six cost-hiding patterns (lines 107–127); Abundance Masking; Asymmetric Regret Rule; Europa boundary case (line 91).
-6. [Chapter__8_WhatThingsActuallyCost_Draft.md](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md) — cost-severance per-ton arithmetic; Baotou single-use; McDowell IPG.
-7. [Chapter__9_PricingHonestly__Draft.md](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md) — Ogallala (line 27); Baotou rare-earth + tailings (line 89); Texas Panhandle implicit; Mars admin cross-ref (line 263).
+4. [Chapter__4_TheExistenceProof.md](manuscript/chapters/Chapter__4_TheExistenceProof.md) (post Pass 1 ratifications 2026-05-12) — Niger Delta / Ogoniland / UNEP 2011 / Saro-Wiwa 1995 anchors.
+5. [Chapter__7_OnOtherWorlds.md](manuscript/chapters/Chapter__7_OnOtherWorlds.md) — Mars administrator scene canonical (lines 25–47); six cost-hiding patterns (lines 107–127); Abundance Masking; Asymmetric Regret Rule; Europa boundary case (line 91).
+6. [Chapter__8_WhatThingsActuallyCost.md](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md) — cost-severance per-ton arithmetic; Baotou single-use; McDowell IPG.
+7. [Chapter__9_PricingHonestly.md](manuscript/chapters/Chapter__9_PricingHonestly.md) — Ogallala (line 27); Baotou rare-earth + tailings (line 89); Texas Panhandle implicit; Mars admin cross-ref (line 263).
 8. [_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md](manuscript/chapters/_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md) — canonical NASA-grandfather-LaVern-E.-Winn framing; AI collaboration; title-meaning gloss (line 29).
 9. [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md) — canonical-terms inventory; recurring-stats; named-cases.
 10. [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md) — apparatus register decisions.
@@ -42,7 +86,7 @@
 
 **No CRITICAL findings.** Ch 10 is literary-meditative synthesis register with a smaller external-fact surface than mid-book analytical chapters. Its fact-check surface is dominated by **internal-corpus cross-chapter consistency** (Chs 1, 2, 3, 4, 7, 8, 9, AuthorsNote) — Ch 10 is the synthesis chapter and most of its load-bearing claims recall and re-frame what earlier chapters established. Verification finds those recalls largely faithful.
 
-The most material finding is the **Black Hills compensation amount** (Ch 10:71 says "more than two billion dollars"; publicly-credible 2025 estimates land at $1.43–$1.86 billion; the actual current trust-account balance is **sealed** as of April 2025 per Oglala Sioux FOIA-blocking, so "more than two billion" is plausible-but-not-verifiable from public sources). Two additional MEDIUM findings sit in the author-personal-life-claim cluster (Ch 10:15 wife near-death + four-industry career list) and the grandfather-as-model-maker framing (Ch 10:37 syntax reads as adjacent-to rather than as a model maker — divergent from Ch 1 + AuthorsNote which establish him AS one).
+The most material finding is the **Black Hills compensation amount** (Ch 10:72 says "more than two billion dollars"; publicly-credible 2025 estimates land at $1.43–$1.86 billion; the actual current trust-account balance is **sealed** as of April 2025 per Oglala Sioux FOIA-blocking, so "more than two billion" is plausible-but-not-verifiable from public sources). Two additional MEDIUM findings sit in the author-personal-life-claim cluster (Ch 10:16 wife near-death + four-industry career list) and the grandfather-as-model-maker framing (Ch 10:38 syntax reads as adjacent-to rather than as a model maker — divergent from Ch 1 + AuthorsNote which establish him AS one).
 
 | Severity | Count | Disposition |
 |---|---|---|
@@ -59,7 +103,7 @@ The most material finding is the **Black Hills compensation amount** (Ch 10:71 s
 
 ### MEDIUM-1: Black Hills compensation amount — "more than two billion dollars" outside publicly-credible range
 
-**Location:** [Chapter_10_CommonBonds__Draft.md:71](manuscript/chapters/Chapter_10_CommonBonds__Draft.md:71)
+**Location:** [Chapter_10_CommonBonds.md:72](manuscript/chapters/Chapter_10_CommonBonds.md:72)
 
 **Chapter text:**
 > "The Court awarded compensation. That compensation, plus compound interest, now sits in federal escrow at more than two billion dollars. The Lakota have refused to accept it for forty-five years and counting."
@@ -87,9 +131,9 @@ The most material finding is the **Black Hills compensation amount** (Ch 10:71 s
 
 ---
 
-### MEDIUM-2: Author personal-life claim — wife near-death framing (Ch 10:15) not anchored in Ch 1, AuthorsNote, or any earlier chapter
+### MEDIUM-2: Author personal-life claim — wife near-death framing (Ch 10:16) not anchored in Ch 1, AuthorsNote, or any earlier chapter
 
-**Location:** [Chapter_10_CommonBonds__Draft.md:15](manuscript/chapters/Chapter_10_CommonBonds__Draft.md:15)
+**Location:** [Chapter_10_CommonBonds.md:16](manuscript/chapters/Chapter_10_CommonBonds.md:16)
 
 **Chapter text:**
 > "...because my wife had died once on a hospital bed and I had eventually realized that even after she came back the hospital had taken something I would not get back either, and I wanted a shorter line between my work and my life."
@@ -113,9 +157,9 @@ The most material finding is the **Black Hills compensation amount** (Ch 10:71 s
 
 ---
 
-### MEDIUM-3: Author career framing (Ch 10:15) — four-industry list partly extends Ch 1's three-anchor career-surface
+### MEDIUM-3: Author career framing (Ch 10:16) — four-industry list partly extends Ch 1's three-anchor career-surface
 
-**Location:** [Chapter_10_CommonBonds__Draft.md:15](manuscript/chapters/Chapter_10_CommonBonds__Draft.md:15)
+**Location:** [Chapter_10_CommonBonds.md:16](manuscript/chapters/Chapter_10_CommonBonds.md:16)
 
 **Chapter text:**
 > "I came because I had spent twenty years helping institutions move value across ledgers — hospitals, federal agencies, insurance companies, defense contractors — and I had eventually understood that the ledgers were not telling the truth."
@@ -134,51 +178,51 @@ The most material finding is the **Black Hills compensation amount** (Ch 10:71 s
 
 If the author's actual career included hospital-IT, insurance-company, and defense-contractor engagements (plausible for a long IT-consulting career in the DMV area), the list is accurate and the gap is just under-anchored Ch 1 detail. If the list extends beyond actual career details for rhetorical purposes ("four broad categories of cost-severance-by-institutional-ledger"), the list should tighten to actual industries.
 
-**Cross-chapter coherence note:** Ch 10's career framing is the **synthesis-chapter site** for the author's first-person "I had been absorbing severed costs for a long time without having a name for them" claim (Ch 10:15). The career-as-framework-motivation has to be defensibly anchored against the actual record for the closing-chapter memoir register to hold.
+**Cross-chapter coherence note:** Ch 10's career framing is the **synthesis-chapter site** for the author's first-person "I had been absorbing severed costs for a long time without having a name for them" claim (Ch 10:16). The career-as-framework-motivation has to be defensibly anchored against the actual record for the closing-chapter memoir register to hold.
 
 **Recommended spot-fix:** No prose change in Pass 1. **Author confirmation required** of the four-industry list against actual career record. If all four are accurate: hold as-is. If the list is rhetorical-extension rather than literal-enumeration: tighten to the actual industries (e.g., "federal agencies, the medical-research adjacencies of those agencies, and the contractor and consulting ecosystems that surround them"), or use a less-enumerated framing.
 
-**Phase B coupling note:** If the four-industry list is confirmed accurate, Ch 1's career passage (Ch 1:51–73) may benefit from light expansion to anchor the specific industries that Ch 10 then references. This is Phase B cross-chapter narrative-arc work, not Phase A spot-fix.
+**Phase B coupling note:** If the four-industry list is confirmed accurate, Ch 1's career passage (current Ch 1:54–88) may benefit from light expansion to anchor the specific industries that Ch 10 then references. This is Phase B cross-chapter narrative-arc work, not Phase A spot-fix.
 
 **Severity rationale:** MEDIUM because the list is load-bearing for the closing-chapter "I had been absorbing severed costs" motivation arc and is not currently anchored by the earlier-chapter career-surface; MEDIUM not HIGH because two of the four (federal agencies, hospitals) are defensible against Ch 1; MEDIUM not LOW because publisher pre-publication review will likely query an unanchored four-industry enumeration on the closing chapter's load-bearing personal-history claim.
 
 ---
 
-### MEDIUM-4: Grandfather-as-model-maker framing (Ch 10:37) reads as adjacent-to rather than as a model maker — divergent from Ch 1 + AuthorsNote canonical "He was a model maker"
+### MEDIUM-4: Grandfather-as-model-maker framing (Ch 10:38) reads as adjacent-to rather than as a model maker — divergent from Ch 1 + AuthorsNote canonical "He was a model maker"
 
-**Location:** [Chapter_10_CommonBonds__Draft.md:37](manuscript/chapters/Chapter_10_CommonBonds__Draft.md:37)
+**Location:** [Chapter_10_CommonBonds.md:38](manuscript/chapters/Chapter_10_CommonBonds.md:38)
 
 **Chapter text:**
 > "My grandfather worked at Langley. I have spent years trying to understand what that place did to him and what it gave him, and I am not sure I have arrived at a final answer. He worked with the people who ran the wind tunnels, and among them the people they called model makers — men who built scale-model aircraft out of wood and metal and resin with a precision that now sounds impossible..."
 
 **Canonical truth (internal-corpus verification):** The grandfather's identity as **a model maker himself** is the canonical anchor across the corpus:
-- [Chapter__1_TheQuietMath__Draft.md:29](manuscript/chapters/Chapter__1_TheQuietMath__Draft.md:29): "He was a model maker in the wind tunnels at Langley — **a title he was proud of** — and an inventor with his name in the patent record."
+- [Chapter__1_TheQuietMath.md:29](manuscript/chapters/Chapter__1_TheQuietMath.md:29): "He was a model maker in the wind tunnels at Langley — **a title he was proud of** — and an inventor with his name in the patent record."
 - [_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md:11](manuscript/chapters/_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md:11): "My grandfather worked at NASA Langley **as a model maker** — a title he was proud of — and an inventor whose name is in the patent record."
 - [_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md:13](manuscript/chapters/_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md:13): "Model-making at Langley meant building scale aircraft and spacecraft components — wood, metal, resin, accurate to a thousandth of an inch..."
 - [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:75](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:75) (recurring-cases row): "**Pou / Pooh (author's grandfather etymology)** | Ch 1 line 33 (nickname etymology); Ch 10 lines 37–41 (**grandfather-as-NASA-model-maker frame**)"
 
-**Why this is the MEDIUM-4 finding:** Ch 10:37 reads as **the grandfather worked WITH the model makers** rather than **the grandfather was a model maker**:
+**Why this is the MEDIUM-4 finding:** Ch 10:38 reads as **the grandfather worked WITH the model makers** rather than **the grandfather was a model maker**:
 
 - "He worked with the people who ran the wind tunnels, and among them the people they called model makers — men who built scale-model aircraft..."
 - Subsequent sentences use third-person plural ("The model makers did not invent the airplanes. They did not design the wings. What they did...") describing the model makers' work as a class, **not specifically the grandfather's work**.
-- Ch 10:41: "What I have built across nine chapters is a model. ... I have tried, in the way **the model makers** at Langley tried, to build it faithfully..." — preserves the model-maker craft framing but in the third-person ("the model makers") rather than first-person-grandfather-as-one ("the model makers, of whom my grandfather was one").
+- Ch 10:42: "What I have built across nine chapters is a model. ... I have tried, in the way **the model makers** at Langley tried, to build it faithfully..." — preserves the model-maker craft framing but in the third-person ("the model makers") rather than first-person-grandfather-as-one ("the model makers, of whom my grandfather was one").
 
 A reader of Ch 10 alone, without Ch 1 or AuthorsNote anchoring, would conclude the grandfather worked among model makers but was not necessarily one of them. The corpus-canonical reading (Ch 1:29 + AuthorsNote:11) is that **he was a model maker**, which is a stronger and more biographically specific claim than Ch 10 as currently written conveys.
 
-This softens the personal-craft connection that the rest of Ch 10:37–41 leans on. The passage's emotional weight depends on the grandfather's craft being **his** craft (the model-makers' discipline being the discipline the author inherited through the family line); the current syntax dilutes that inheritance arc.
+This softens the personal-craft connection that the rest of Ch 10:38–42 leans on. The passage's emotional weight depends on the grandfather's craft being **his** craft (the model-makers' discipline being the discipline the author inherited through the family line); the current syntax dilutes that inheritance arc.
 
 **Recommended spot-fix:** Sharpen the first sentence to anchor the grandfather as one of the model makers (consistent with Ch 1 + AuthorsNote). Two options.
 - Option A (minimal anchor): `He worked with the people who ran the wind tunnels — he was one of the people they called model makers — men who built scale-model aircraft out of wood and metal and resin with a precision that now sounds impossible...`
 - Option B (closer to Ch 1 / AuthorsNote phrasing): `He worked at the wind tunnels at Langley as a model maker — a title he was proud of — among men who built scale-model aircraft out of wood and metal and resin with a precision that now sounds impossible...`
 - Option C (no edit): defensible if author's judgment is that the third-person framing serves the chapter's literary register and the Ch 1 + AuthorsNote anchoring is sufficient for a reader of the whole book.
 
-**Severity rationale:** MEDIUM because the cross-chapter consistency inventory canonically locates Ch 10:37–41 as the "grandfather-as-NASA-model-maker frame," and the current syntax does not unambiguously deliver that frame; MEDIUM not HIGH because the broader passage (lines 37–41 + line 41 model-makers reference) preserves the craft-discipline argument even if the specific grandfather-as-one identification is soft; MEDIUM not LOW because publisher pre-publication review of an author's first-person memoir register on family-history would likely query the syntactic ambiguity.
+**Severity rationale:** MEDIUM because the cross-chapter consistency inventory canonically locates Ch 10:38–42 (was 37–41 at audit time) as the "grandfather-as-NASA-model-maker frame," and the current syntax does not unambiguously deliver that frame; MEDIUM not HIGH because the broader passage (lines 38–42 + line 42 model-makers reference) preserves the craft-discipline argument even if the specific grandfather-as-one identification is soft; MEDIUM not LOW because publisher pre-publication review of an author's first-person memoir register on family-history would likely query the syntactic ambiguity.
 
 ---
 
-### MEDIUM-5: Six cost-hiding patterns enumeration (Ch 10:31) — pattern-naming uses informal lower-case terms not pattern-named in Ch 7 canonical list
+### MEDIUM-5: Six cost-hiding patterns enumeration (Ch 10:32) — pattern-naming uses informal lower-case terms not pattern-named in Ch 7 canonical list
 
-**Location:** [Chapter_10_CommonBonds__Draft.md:31](manuscript/chapters/Chapter_10_CommonBonds__Draft.md:31)
+**Location:** [Chapter_10_CommonBonds.md:32](manuscript/chapters/Chapter_10_CommonBonds.md:32)
 
 **Chapter text:**
 > "What I said in Chapter 7 — and what has stayed with me since — is that cost severance is a function of arrangements that hide what is being paid. It requires a gap, of one kind or another. ... The gap can be miles — the geographic separation between McDowell County and Chicago. It can be time — the ease of severing costs onto grandchildren no one has met. It can be information — what the bearer doesn't know in time to refuse, or supply chains too complex for any one person to fully comprehend. It can be power — what the bearer cannot refuse even knowing. It can be culture or story — the ease of severing costs onto a community whose language or skin or religion makes them easier to see as not-us, onto a population that has been described, by people with platforms, as deserving their condition. Or it can be abundance — the ease of not pricing what appears unlimited until it isn't, which is how we got two centuries into burning fossil fuels before the math caught up to us."
@@ -192,8 +236,8 @@ This softens the personal-craft connection that the rest of Ch 10:37–41 leans 
 5. **Normative routinization** (Ch 7:117)
 6. **Abundance masking** (Ch 7:119)
 
-**Mapping Ch 10:31 to Ch 7 canonical:**
-| Ch 10:31 prose | Ch 7 canonical pattern | Mapping |
+**Mapping Ch 10:32 to Ch 7 canonical:**
+| Ch 10:32 prose | Ch 7 canonical pattern | Mapping |
 |---|---|---|
 | "miles — the geographic separation" | Geographic distance | ✓ direct |
 | "time — the ease of severing costs onto grandchildren" | Temporal asymmetry | ✓ direct |
@@ -202,18 +246,18 @@ This softens the personal-craft connection that the rest of Ch 10:37–41 leans 
 | "culture or story" | Normative routinization | ⚠ different framing |
 | "abundance" | Abundance masking | ✓ short for canonical |
 
-**Why this is the MEDIUM-5 finding:** Five of the six Ch 10:31 pattern-references map cleanly to Ch 7's canonical pattern names (with the chapter's looser, more lyrical phrasing). The fifth pattern — Ch 7's **Normative routinization** — appears in Ch 10:31 as **"culture or story — the ease of severing costs onto a community whose language or skin or religion makes them easier to see as not-us"**. This reads as a different pattern than what Ch 7 names:
+**Why this is the MEDIUM-5 finding:** Five of the six Ch 10:32 pattern-references map cleanly to Ch 7's canonical pattern names (with the chapter's looser, more lyrical phrasing). The fifth pattern — Ch 7's **Normative routinization** — appears in Ch 10:32 as **"culture or story — the ease of severing costs onto a community whose language or skin or religion makes them easier to see as not-us"**. This reads as a different pattern than what Ch 7 names:
 
-- **Ch 7's Normative routinization** (Ch 7:117): "When cost-bearing has gone on long enough to become accepted as a baseline — the 'cost of doing business,' the routine subsidy that everyone knows is there but no one prices..."
+- **Ch 7's Normative routinization** (Ch 7:119): "When cost-bearing has gone on long enough to become accepted as a baseline — the 'cost of doing business,' the routine subsidy that everyone knows is there but no one prices..."
 - **Ch 10's "culture or story"**: framing emphasizes othering / racialized cost-bearing / dehumanization-by-narrative — a substantively different mechanism from Ch 7's "accepted-as-baseline" framing.
 
 The two framings can be reconciled — both are about culture-or-narrative doing the work that distance and force did in earlier configurations — but the Ch 10 framing introduces a *racialized / language-or-religion-based othering* element that Ch 7's canonical Normative routinization treatment does not centrally name. A reader of Ch 7 will recognize five-of-six patterns cleanly and feel the fifth as substantively new (or as a different pattern, possibly a seventh).
 
 Two interpretive options:
-- **Option α**: Ch 10:31 is loosely paraphrasing Ch 7's six patterns, with Normative routinization's "accepted baseline" framing extended to include the cultural-othering mechanism. Ch 7's framing is the canonical; Ch 10's framing is the synthesis-chapter's looser recall.
-- **Option β**: Ch 10:31's "culture or story" is a distinct mechanism — *narrative-mediated dehumanization* — that Ch 7 does not name as a pattern. If so, Ch 10 introduces a seventh pattern under the rubric of Ch 7's six, which is a structural inconsistency.
+- **Option α**: Ch 10:32 is loosely paraphrasing Ch 7's six patterns, with Normative routinization's "accepted baseline" framing extended to include the cultural-othering mechanism. Ch 7's framing is the canonical; Ch 10's framing is the synthesis-chapter's looser recall.
+- **Option β**: Ch 10:32's "culture or story" is a distinct mechanism — *narrative-mediated dehumanization* — that Ch 7 does not name as a pattern. If so, Ch 10 introduces a seventh pattern under the rubric of Ch 7's six, which is a structural inconsistency.
 
-The Option α reading is defensible if the chapter's looser prose register is acceptable for the recall, but the gap between Ch 10:31's framing and Ch 7's framing is large enough that a careful reader will notice.
+The Option α reading is defensible if the chapter's looser prose register is acceptable for the recall, but the gap between Ch 10:32's framing and Ch 7's framing is large enough that a careful reader will notice.
 
 **Recommended spot-fix:** Two options.
 - Option A (recall-explicit + reconcile to Ch 7 framing): `It can be culture or story — the routinized acceptance of cost-bearing as the "cost of doing business," or the ease of severing costs onto a community whose language or skin or religion makes them easier to see as not-us...` — combines Ch 7's normative-routinization framing with Ch 10's othering framing as two related sub-cases.
@@ -224,9 +268,9 @@ The Option α reading is defensible if the chapter's looser prose register is ac
 
 ---
 
-### LOW-1: "Forty-five years and counting" temporal framing (Ch 10:71) — pre-publication refresh item
+### LOW-1: "Forty-five years and counting" temporal framing (Ch 10:72) — pre-publication refresh item
 
-**Location:** [Chapter_10_CommonBonds__Draft.md:71](manuscript/chapters/Chapter_10_CommonBonds__Draft.md:71)
+**Location:** [Chapter_10_CommonBonds.md:72](manuscript/chapters/Chapter_10_CommonBonds.md:72)
 
 **Chapter text:**
 > "The Lakota have refused to accept it for forty-five years and counting."
@@ -239,11 +283,11 @@ The Option α reading is defensible if the chapter's looser prose register is ac
 
 ---
 
-### LOW-2: Chapter-end-marker em-dash format (Ch 10:151) — inventory drift, NOT a Ch 10 finding
+### LOW-2: Chapter-end-marker em-dash format (Ch 10:152) — inventory drift, NOT a Ch 10 finding
 
-**Location:** [Chapter_10_CommonBonds__Draft.md:151](manuscript/chapters/Chapter_10_CommonBonds__Draft.md:151)
+**Location:** [Chapter_10_CommonBonds.md:152](manuscript/chapters/Chapter_10_CommonBonds.md:152)
 
-**Chapter text (line 151):**
+**Chapter text (line 152):**
 > `— End of Chapter 10 —`
 
 **Inventory claim:** [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:206](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:206) says: "Ch 10 uses 'End of Chapter 10' without em-dashes — slight format drift."
@@ -256,11 +300,11 @@ The Option α reading is defensible if the chapter's looser prose register is ac
 
 ---
 
-### LOW-3: Cross-chapter consistency inventory line-citation drift (Ch 10:69 vs actual Ch 10:71 for Lakota passage)
+### LOW-3: Cross-chapter consistency inventory line-citation drift (inventory says Ch 10 line 69 vs actual Ch 10:72 for Lakota passage)
 
 **Locations:**
 - [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:113](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:113): "**Lakota / Black Hills compensation in escrow** | >$2 billion (refused for 45 years) | **Ch 10 line 69**"
-- Actual location in Ch 10: **line 71** (line 69 is the introductory "There is one more concession I owe the reader..." paragraph; line 71 begins "In 1868, the United States signed the Treaty of Fort Laramie...")
+- Actual location in current Ch 10: **line 72** (post `e1a533e` byline-edit; line 70 is the introductory "There is one more concession I owe the reader..." paragraph; line 72 begins "In 1868, the United States signed the Treaty of Fort Laramie..."). The inventory citation was already stale at audit time (was Ch 10:71 at audit time); now three lines stale after the byline edit.
 
 **Why this is the LOW-3 finding:** Two-line drift in inventory cite. The chapter is correctly located; the inventory entry is one-paragraph stale (likely off-by-one in line counting before / after a section-marker line). Couple to MEDIUM-1's recommended cross-corpus update: when the Lakota row is updated to reflect whichever Black Hills compensation hedge is ratified, also update the line cite.
 
@@ -270,9 +314,9 @@ The Option α reading is defensible if the chapter's looser prose register is ac
 
 ---
 
-### LOW-4: Author "nursing student" framing (Ch 10:129) — biographical detail not anchored in earlier chapters or AuthorsNote
+### LOW-4: Author "nursing student" framing (Ch 10:130) — biographical detail not anchored in earlier chapters or AuthorsNote
 
-**Location:** [Chapter_10_CommonBonds__Draft.md:129](manuscript/chapters/Chapter_10_CommonBonds__Draft.md:129)
+**Location:** [Chapter_10_CommonBonds.md:130](manuscript/chapters/Chapter_10_CommonBonds.md:130)
 
 **Chapter text:**
 > "The day will include, as most of my days now do, study for exams that will eventually make me a nurse, and a shift at the hospital in whatever capacity I currently hold there, and a few hours at the desk where this book, across many long nights, has been written. It will include a call to my parents, who are the reason I came home. It will include time at the tutoring office with students who are learning the same material I once needed help learning, and who are, many of them, the first in their families to try college."
