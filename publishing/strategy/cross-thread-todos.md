@@ -36,10 +36,11 @@
 
 - **Surfaced by:** publishing-strategy thread (2026-05-09 venue-survey work)
 - **For-thread:** publishing-strategy thread (decision required from author)
-- **Status:** open
+- **Status:** **RESOLVED 2026-05-19 — BOTH FIRE in parallel (not vs).**
 - **Context:** Cascade plan currently lists Atlantic Ideas as essay-slot-3 fallback. Phenomenal World (Jain Family Institute) is more accessible without prior clips; Atlantic Ideas has more name-recognition prestige but expects established bylines. With Boston Review taking Ch 5 (essay slot 2), the slot-3 source chapter is naturally Ch 9 *Pricing Honestly*. Decision determines which venue gets the Ch 9 pitch and timing.
 - **Target resolution:** before slot-3 pitch drafting begins (target Sept-Oct 2026 per cascade plan).
 - **2026-05-11 update:** Cross-thread item #4 may be implicitly resolved by the $100 Barrel essay workstream (see `tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`). PM session recommends Phenomenal World as primary venue for the derivative essay; firing the workstream to PW de facto resolves the Atlantic Ideas vs. PW slot-3 decision. Author go/no-go pending.
+- **2026-05-19 RESOLUTION:** Author kicked off **both** workstreams in parallel — $100 Barrel essay → Phenomenal World (withdrawn-Noema §III material) AND Atlantic Ideas (Ch 9 *Pricing Honestly*–derived per cascade plan §"Ch 9" row). No slot-3 conflict: PW takes the $100 Barrel derivative; Atlantic Ideas takes the Ch 9 mechanism/policy frame. PM paste-text generated for both. Atlantic Ideas workstream needs a fresh handoff doc (pre-existing handoff did not exist); paste-text instructs the fresh session to draft `tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md` as its first deliverable.
 
 ### 9. Ch 2 GuidanceDoc retains stale "$100 barrel passage" references (Insight #37 family)
 

@@ -81,7 +81,7 @@ Priority within bucket: **HIGH** = time-pressured or gates large downstream casc
 
 | # | Pri | Workstream | Status | Next action |
 |---|---|---|---|---|
-| **20** | **HIGH** | Manuscript Stage-3 Rigor Pass | Chs 5+6 CLOSED 2026-05-14. **Ch 1 Pass 2 RATIFIED 2026-05-15 + Pass 3 PROPOSED with reaudits + developmental-edit (Pass 3.5) RATIFIED + applied 2026-05-18 + DMV-commute coda applied 2026-05-19 + Pass 3.3 light re-fire PROPOSED 2026-05-19** (`9c88cdd`). Ch 4 Pass 2 PROPOSED 2026-05-15. Chs 7+8+9+10 Pass 1 PROPOSED 2026-05-16. See per-chapter detail §6. [handoff](manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) | Ratify Pass 1 findings for Chs 7/8/9/10 + apply Phase C-α; ratify Ch 1 Pass 3.3 light re-fire; ratify residual Ch 1 Pass 3 items; ratify Ch 4 Pass 2 + apply. |
+| **20** | **HIGH** | Manuscript Stage-3 Rigor Pass | **Chs 1 + 5 + 6 Stage-3 cycles all CLOSED** (Ch 1 closed 2026-05-19 via Pass 3.3 light re-fire RATIFIED `eb14171`; Chs 5+6 closed 2026-05-14). Ch 4 Pass 2 PROPOSED 2026-05-15. Chs 7+8+9+10 Pass 1 PROPOSED 2026-05-16. See per-chapter detail §6. [handoff](manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) | Ratify Pass 1 findings for Chs 7/8/9/10 + apply Phase C-α; ratify Ch 4 Pass 2 + apply. Chs 1/5/6 now move to Stage 4 + Stage 5. |
 | **NEW** | **HIGH** | **Developmental-edit (Pass 3.5) workstream class** (per-chapter; whole-chapter-scale restoration-of-richness) | **Ch 1 RATIFIED + applied 2026-05-18** — 9 spot-fixes (`e69c61e`) + §11 disposition log (`1f5c6ad`) + DMV-commute coda 2026-05-19 (`d36534f`). Codified into pipeline doctrine via **Amendment B** as Pass 3.5 (`316073e`). Chs 2–10 + AuthorsNote pending. [handoff](developmental-edit-workstream-handoff_2026-05-18.md) | Fire **Ch 2 developmental-edit** session next (one per session per branch discipline). |
 | **4** | MED | Outreach pipeline | Sandy packet SENT 2026-05-14; proactive Q0 citation-questions follow-up SENT 2026-05-15. **CBF v6.1 VERIFIED SENT Mon May 18** (`7141634`); original Val+David consolidated response auto-sends Wed May 20 8am EDT (`b200664`). Colden citation-verify packet pre-staged (`15c6b0f`) — user-action. Biggie process guide pre-staged (`164b9e2`). [handoff](outreach-pipeline-handoff_2026-05-09.md) | Monitor inbox for Sandy reply (window opens Thu May 21); verify Wed May 20 8am consolidated send fires; user-action send Colden packet. |
 | ~~NEW~~ | — | ~~**Pipeline doctrine v1.0.0 retrofits**~~ | **PARTIALLY APPLIED 2026-05-18.** Ch 1 (`3582823`) + Ch 5 (`782e6c9`) + Ch 6 (`5e08642`) + TA (`eb636c6`) retrofits fired (Stage 1a + 1c + Pass 3.4 + Stage 4 triple-render). TA rent-seeking-amendment retrofit also landed (`1e4d242`). **Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication retrofits remain queued.** Render-pipeline-standardization workstream resolved via canonical-pipeline ratification (`b3f4af5`). | Fire remaining 9 retrofits as bandwidth permits; can run in parallel with Phase C-α + developmental-edit fires. |
@@ -134,6 +134,10 @@ Priority within bucket: **HIGH** = time-pressured or gates large downstream casc
 - **Remote-container SessionStart hook + CI render-verify workflow** 2026-05-19 (`6ebda00`)
 - **Render-toolchain canonical-pipeline RATIFIED + render-output policy** 2026-05-19 (`b3f4af5`)
 - **docker-render.sh convenience wrapper** 2026-05-19 (`7e88701`)
+- **Ch 1 Pass 3.3 light re-fire RATIFIED** 2026-05-19 (`eb14171`) — verdict: READY-TO-SUBMIT HOLDS WITH CONFIDENCE-LEVEL STRENGTHENING; Ch 1 Stage-3 five-pass cycle now fully CLOSED
+- **Darity cross-thread C-2 (Du Bois → bibliography) RATIFIED** by author 2026-05-19 — queue for next bibliography apparatus session
+- **Darity cross-thread C-1 (Fogel-Engerman two-volume model → comp-titles) DECLINED** by author 2026-05-19 — out of bibliography scope
+- **Decision: Chs 2/3 retain `__Draft` suffix = INTENTIONAL** (2026-05-19) — they may need rewrite depending on consent outcomes; keep `__Draft` until Stage-3 closure
 
 Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Apparatus register, #10 Cross-chapter consistency, #11 Comp-titles v0, #13 Flagship terms defense, #15 TA numbering reconciliation.
 
@@ -145,7 +149,7 @@ Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Appar
 
 | Ch | Pass 1 (fact-check) | Pass 2 (voice-polish) | Pass 3 (audience-load) | Phase C spot-fixes | **Next action** |
 |---|---|---|---|---|---|
-| **1** | ✅ COMPLETE | ✅ **RATIFIED + APPLIED 2026-05-15** (`7b4aa92`; 10 spot-fixes) | PROPOSED `43f2b7a` + REAUDIT v3 `76ca8a6` (40-character adversarial); items (i) `013415f` + (iv) `f692164` RATIFIED + APPLIED; line 29 grandfather paragraph applied `54709e7`; item (iv) actually deferred to pre-pub `ea94684`. **Pass 3.3 light re-fire PROPOSED 2026-05-19** (`9c88cdd`) — post-developmental-edit + post-§11.5 acceptance re-confirmation. | Pass 2 spot-fixes complete + **Pass 3.5 developmental-edit RATIFIED + 9 spot-fixes applied 2026-05-18** (`e69c61e`) + **DMV-commute coda applied 2026-05-19** (`d36534f`) | **Ratify Pass 3.3 light re-fire disposition** (`9c88cdd`); ratify remaining Pass 3 REAUDIT items past i + iv; Phase C-γ if needed; then Stage-3 closed for Ch 1 |
+| **1** | ✅ COMPLETE | ✅ RATIFIED + APPLIED 2026-05-15 (`7b4aa92`; 10 spot-fixes) | ✅ REAUDIT v3 `76ca8a6` items (i) + (iv) APPLIED (`013415f` + `f692164`); item (iv) actually deferred to pre-pub `ea94684`; line 29 grandfather paragraph applied `54709e7`. **Pass 3.3 light re-fire RATIFIED 2026-05-19** (`eb14171`) — verdict: READY-TO-SUBMIT HOLDS WITH CONFIDENCE-LEVEL STRENGTHENING (40-char: 30 INCLUDE / 0 EXCLUDE; 9 confidence uplifts; 0 discounts; §11.5 chiastic-ellipsis reads as authorial craft). | Pass 3.5 developmental-edit RATIFIED + 9 spot-fixes applied 2026-05-18 (`e69c61e`) + DMV-commute coda 2026-05-19 (`d36534f`) | **✅ Stage-3 five-pass cycle CLOSED 2026-05-19.** Remaining for Ch 1: Stage 4 render + character-integrity audit; Stage 5 sign-off + pre-pub review queue artifact (per pipeline doctrine §4 + §5). |
 | **2** | ✅ COMPLETE | ✅ COMPLETE | not started — paste-text drafted | 14 applied | **Fire Pass 3** (paste-text from PM) |
 | **3** | ✅ LANDED `2f76e37` | not started | not started | — | **Fire Pass 2** (paste-text from PM) |
 | **4** | ✅ COMPLETE | PROPOSED 2026-05-15 (`3174cc8`) | not started | 5 MEDIUM + 2 LOW (`e67b8b8` + `8f792ee`) | **Ratify Pass 2** + apply spot-fixes |
@@ -182,8 +186,8 @@ Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Appar
 - ~~**Cross-chapter rent-seeking engagement edits.**~~ **RESOLVED 2026-05-18.** Workstream RATIFIED; four touches applied via `a1e54d9`. Residuals deferred per ratification-log §9.
 - ~~**Render-pipeline-standardization canonical-pipeline choice.**~~ **RESOLVED 2026-05-19** (`b3f4af5`). Canonical pipeline ratified; render-output policy in place; docker-render.sh convenience wrapper landed.
 - **NEW: Developmental-edit (Pass 3.5) per-chapter fire order for Chs 2–10 + AuthorsNote.** Ch 1 ratified + applied 2026-05-18; pipeline doctrine Amendment B codified Pass 3.5 (`316073e`). Per handoff: one chapter per session per branch discipline. Open question: fire Ch 2 next (sequential), or interleave with Phase C-α applications for Chs 7–10 (which are Stage-3 Pass 1's still PROPOSED)? PM recommendation: **fire Ch 2 dev-edit next** as natural follow-on; Phase C-α applications for Chs 7–10 are independent and can run in parallel.
-- **NEW: Ch 1 Pass 3.3 light re-fire disposition** (`9c88cdd`, PROPOSED 2026-05-19). Post-developmental-edit + post-§11.5 acceptance re-confirmation. Needs ratify-or-defer call before Ch 1 Stage-3 fully closes.
-- **NEW: Chapter file rename completeness.** Chs 2 + 3 retain `__Draft` suffix while Chs 1/4/5/6/7/8/9/10 dropped it (`a09e319`). Intentional (since Chs 2/3 trail on Pass 2/3 cycles) or oversight? Worth a confirm so future file references are predictable.
+- ~~**Ch 1 Pass 3.3 light re-fire disposition.**~~ **RESOLVED-RATIFIED 2026-05-19** (`eb14171`). Verdict held: READY-TO-SUBMIT WITH CONFIDENCE-LEVEL STRENGTHENING. Ch 1 Stage-3 five-pass cycle now fully CLOSED.
+- ~~**Chapter file rename completeness.**~~ **RESOLVED-INTENTIONAL 2026-05-19.** Author confirmed Chs 2/3 retain `__Draft` because they may need rewrite depending on consent outcomes (Phat / Biggie); pattern is "drop `__Draft` only on Stage-3 closure."
 - **Phat consent escalation.** Action 1 has been open ≥ 6 days. Worth setting a self-imposed forcing deadline (e.g., **Fri May 22**) — either Phat outreach happens or anonymized version is accepted as final. Don't let it drift indefinitely.
 - **Sandy reply triage protocol.** Reply window opens Thu May 21 (1 week post-send). If no acknowledgment by then, soft check-in. If reply lands earlier, follow P2 #12 triage in mobile dashboard.
 - **TA per-chapter call-site audit timing.** Now that v2.1.0 is published + per-chapter Pass 1's are all PROPOSED, the TA call-site audit can fold into Phase C-α applications for Chs 7–10 rather than waiting for a separate Apparatus Phase A run.
@@ -202,10 +206,13 @@ Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Appar
 - [x] Ch 1 developmental-edit review RATIFIED + 9 spot-fixes applied (`1f5c6ad` + `e69c61e`)
 
 ### TODAY Tue May 19
+- [x] **Ch 1 Pass 3.3 light re-fire RATIFIED** (`eb14171`) — Stage-3 five-pass cycle CLOSED for Ch 1
+- [x] **Darity C-2 (Du Bois → bibliography) RATIFIED** — queue for next bibliography session
+- [x] **Darity C-1 (Fogel-Engerman → comp-titles) DECLINED** — out of bibliography scope
+- [x] **Chapter rename pattern confirmed INTENTIONAL** — Chs 2/3 retain `__Draft` pending Stage-3 closure
 - [ ] Triage Chs 7/8/9/10 Pass 1 findings (start with Ch 8's 4 HIGH items)
-- [ ] Ratify Ch 1 Pass 3.3 light re-fire (`9c88cdd`, PROPOSED 2026-05-19)
-- [ ] Ratify residual Ch 1 Pass 3 items if any past i + iv remain PROPOSED in REAUDIT v3
 - [ ] Decide Ch 2 developmental-edit fire timing (recommend: fire next)
+- [ ] Generate paste-text for Boston Review essay + $100 Barrel essay → PW + Atlantic Ideas essay (delivered to author in chat)
 
 ### Tomorrow Wed May 20
 - **8:00 AM EDT** — original CBF consolidated response auto-sends (`b200664`). Verify it fires.
@@ -251,8 +258,8 @@ Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Appar
 - Render-pipeline-standardization completion (blocks Stage 4 audits)
 - Cross-thread #9 — Ch 2 GuidanceDoc stale "$100 barrel passage" refs (sibling on $44B drift; route via #9)
 - Apparatus Phase A per-chapter rolling fires
-- **Darity cross-thread C-1** Fogel-Engerman two-volume model → #14 comp-titles
-- **Darity cross-thread C-2** Du Bois → bibliography
+- ~~**Darity cross-thread C-1** Fogel-Engerman two-volume model → #14 comp-titles~~ **DECLINED by author 2026-05-19** — does not belong in bibliography
+- **Darity cross-thread C-2** Du Bois → bibliography — **RATIFIED by author 2026-05-19**; apply at next bibliography apparatus session
 - Cross-chapter rent-seeking engagement ratification + apply
 
 ### Dormant / conditional
@@ -273,7 +280,7 @@ Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Appar
 |---|---|---|---|---|
 | 1 | Acknowledgments check: Chalfant ↔ Mazzucato | Outreach / verification | #6 Wave 1 | Partial — `Value of Everything` read (no agent named); `Mission Economy` pending. Chalfant-check worktree state per session-handoff inventory. |
 | 2 | Post-Darity warm-intro discovery | #4 Outreach | #6 Agent prep | **RESOLVED via synthesis** (`3e39061`). Findings folded into agent prep target intelligence. |
-| 4 | Atlantic Ideas vs. PW slot-3 venue | Publishing strategy | Future essay slot-3 | Open — may resolve via #16 → PW |
+| 4 | Atlantic Ideas vs. PW slot-3 venue | Publishing strategy | Future essay slot-3 | **RESOLVED 2026-05-19 — BOTH FIRE.** Author kicked off $100 Barrel → PW + Atlantic Ideas (Ch 9-derived) in parallel; no slot-3 conflict. |
 | 5 | Boston Review v2.0 application | PM meta-verdict | #2 session | RESOLVED 2026-05-10 |
 | 6 | Aeon post-acceptance v2.0 application | PM meta-verdict | #12 session | RESOLVED 2026-05-10 |
 | 7 | Interview-attribution protocol jurisdictional gaps | PM session | Protocol-update + publishing-lawyer | Protocol v2 COMPLETE (`998166f`); lawyer consult target by late June |
