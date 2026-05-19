@@ -187,25 +187,31 @@ fi
 # ── Pandoc arg builders ───────────────────────────────────────────────────────
 # Disable YAML-metadata-block detection — pandoc 3.x parses the chapter
 # sources' top-of-file `---` separator as a YAML metadata block, which
-# fails on the "By Chris Winn" line as an undefined alias. The
-# remote-container baseline pre-renders (2026-05-17, BASE 9ffad4e) used
-# this same override at session-time; landing it here brings the laptop
-# pipeline up to parse-time parity with the remote-container baseline.
-# See tools/quality-gates/render-baselines/build-environment.yaml lines
-# 70-82 + 158 for the original documentation of this fix.
-pandoc_format_args=(--from=markdown-yaml_metadata_block)
+# F-RP-TA-01 fix (2026-05-18): pandoc input-format override is CONDITIONAL
+# on input file extension. For .md/.markdown sources, pandoc 3.x's default
+# reader parses the chapter sources' `---` separator as a YAML metadata
+# block, fails on the "By Chris Winn" line as an undefined alias — the
+# override is required. For .html/.htm sources, pandoc auto-detects HTML
+# correctly + this override would corrupt parsing (echoes HTML tags as
+# literal text + fails to decode entities + breaks TOC structure). The
+# original unconditional override (landed during Ch 1 retrofit) was
+# correct for .md but broke TA docx generation (~8% content loss per
+# tools/rigor-passes/render_pipeline_comparison_ta_2026-05-18.md F-RP-TA-01).
+# Per-input conditional resolves the regression.
+# See tools/quality-gates/render-baselines/build-environment.yaml for the
+# canonical toolchain stamp + this fix's reproducibility implications.
 
-docx_args=("${pandoc_format_args[@]}")
+docx_args_base=()
 if [ -n "$REFERENCE_DOCX" ]; then
-  docx_args+=(--reference-doc="$REFERENCE_DOCX")
+  docx_args_base+=(--reference-doc="$REFERENCE_DOCX")
   log "Using reference docx: $REFERENCE_DOCX"
 else
   log "No reference docx found at default path; using pandoc defaults for .docx."
 fi
 
-# pandoc+xelatex args (used for .md → PDF only)
-pdf_pandoc_args=(
-  "${pandoc_format_args[@]}"
+# pandoc+xelatex args (used for .md → PDF only). The pandoc_format_args
+# get prepended per-input inside the loop based on file extension.
+pdf_pandoc_args_base=(
   --pdf-engine=xelatex
   --variable=mainfont:"$MAIN_FONT"
   --variable=fontsize:"$FONT_SIZE"
@@ -214,7 +220,7 @@ pdf_pandoc_args=(
   --variable=colorlinks:true
   --variable=pagestyle:plain
 )
-[ -n "$LINE_STRETCH" ] && pdf_pandoc_args+=(--variable=linestretch:"$LINE_STRETCH")
+[ -n "$LINE_STRETCH" ] && pdf_pandoc_args_base+=(--variable=linestretch:"$LINE_STRETCH")
 
 # wkhtmltopdf args (fallback for .html → PDF)
 pdf_wkhtml_args=(
@@ -253,6 +259,16 @@ for input in "$@"; do
   fi
   stem="$(basename "${input%.*}")"
   ext_lower="$(echo "${input##*.}" | tr '[:upper:]' '[:lower:]')"
+
+  # F-RP-TA-01 fix: pandoc input-format override conditional on extension.
+  # See block above (script-init comment) for full rationale.
+  if [[ "$ext_lower" == "md" || "$ext_lower" == "markdown" ]]; then
+    pandoc_format_args=(--from=markdown-yaml_metadata_block)
+  else
+    pandoc_format_args=()
+  fi
+  docx_args=("${pandoc_format_args[@]}" "${docx_args_base[@]}")
+  pdf_pandoc_args=("${pandoc_format_args[@]}" "${pdf_pandoc_args_base[@]}")
 
   echo "→ $input"
 
