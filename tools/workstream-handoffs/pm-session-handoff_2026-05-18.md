@@ -29,7 +29,7 @@ You are the PM coordination session. Your job is to keep the *Commons Bonds* pro
    - `feedback_audience_aware_drafting_discipline.md` — v2.0 two-stage discipline
    - `feedback_verify_stale_memory_claims.md` — staleness
    - `feedback_audit_recent_active_review_default.md` + `feedback_audit_open_illustrative_default.md`
-   - `project_book1_state_2026-05-18.md` — refreshed 2026-05-18 (supersedes `_2026-05-10.md`); still verify time-sensitive claims per stale-memory discipline
+   - `project_book1_state_2026-05-19.md` — refreshed 2026-05-19 (supersedes `_2026-05-18.md` + `_2026-05-10.md`); still verify time-sensitive claims per stale-memory discipline
 5. `publishing/strategy/cross-thread-todos.md`
 6. `publishing/strategy/cascade-plan_2026-05-06.md` + `publishing/strategy/decisions-log.md`
 7. `CLAUDE.md` — canonical workflow doctrine; merge-to-main default extended to rigor-pass artifacts (`abccb43` + `3d52a0e`)
