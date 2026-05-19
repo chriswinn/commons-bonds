@@ -1,20 +1,38 @@
 # Stage-3 Rigor Pass — Chapter 9 (Pricing Honestly) — Pass 1: Fact-check
 
-**Date:** 2026-05-16
+**Date:** 2026-05-16 (refreshed 2026-05-19 post-rent-seeking-engagement insertion)
 **Workstream:** #20 Manuscript Stage-3 Rigor Pass — Phase A (per-chapter audits)
 **Chapter:** 9 — *Pricing Honestly*
-**File audited:** [Chapter__9_PricingHonestly__Draft.md](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md)
-**Word count:** ~10,178w (per workstream handoff); **273 lines confirmed at session start.**
+**File audited:** [Chapter__9_PricingHonestly.md](manuscript/chapters/Chapter__9_PricingHonestly.md) (renamed from `Chapter__9_PricingHonestly__Draft.md` per commit `a09e319` 2026-05-18)
+**Word count:** ~10,178w original draft + ~580w Public Choice insertion (commit `a1e54d9` ratified by `bc02767` 2026-05-18); **292 lines confirmed at refresh.**
 **Pass scope:** Pass 1 (Fact-check) only. Pass 2 (Voice-polish) and Pass 3 (Audience-load) NOT run in this session — per v2.0 Amendment B (three distinct passes, not bundled). Voice + audience concerns surfaced during Pass 1 flagged forward in §6 / §7.
 **Hard constraint observed:** No spot-fixes applied to chapter file. Phase C session (post-author-ratification) applies recommended edits.
 **Mode:** Audit-existing-prose (per `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` §"Audit-existing-prose mode") — no Stage 1 brief exists for Ch 9; chapter file IS the prose under audit; fact-checks verify against external canonical sources + cross-chapter consistency inventory.
 
 ---
 
+## §0 — Refresh note (2026-05-19)
+
+This artifact was originally written 2026-05-16 against `Chapter__9_PricingHonestly__Draft.md` at 273 lines. Three commits subsequently touched Ch 9:
+
+1. `a1e54d9` (2026-05-17, ratified by `bc02767` 2026-05-18) — Cross-chapter rent-seeking engagement workstream inserted a new "Public Choice and the framework: complementary accounting" section between political-economy-of-resistance and property-rights-and-their-limits. Net +16 lines.
+2. `a09e319` (2026-05-18) — File renamed: `Chapter__9_PricingHonestly__Draft.md` → `Chapter__9_PricingHonestly.md`.
+3. `e1a533e` (2026-05-18) — Front-matter edit added italicized byline + horizontal-rule separator. Net +3 lines.
+
+Refresh actions applied to this artifact:
+- All chapter-file path references updated to current filename.
+- All line-number references in finding headers + bodies updated to current chapter state. Shift pattern: **+3 lines** for findings located before old-line-131 (the "---" separator after "Neither of these moves is decisive"); **+19 lines** for findings located after that separator.
+- Public Choice insertion (current Ch 9:134–148) audited as new content; one new LOW finding (LOW-5) added + positive verifications added to the items-verified table.
+- §8.1 findings tally and §8.3 Phase C disposition recommendation updated.
+
+Original findings (HIGH-1 through LOW-4 + CC-1, CC-2) preserved with substance unchanged; only location-references updated.
+
+---
+
 ## Canonical sources consulted
 
-1. [Chapter 8 — What Things Actually Cost](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md) — cross-chapter consistency baseline for $500-$600/ton coal arithmetic.
-2. [Chapter 5 — The Accountability Gap](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md) — Pistor canonical citation site (line 200; ~155w engagement).
+1. [Chapter 8 — What Things Actually Cost](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md) — cross-chapter consistency baseline for $500-$600/ton coal arithmetic.
+2. [Chapter 5 — The Accountability Gap](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP.md) — Pistor canonical citation site (~155w engagement).
 3. [research/literature/bibliography.md](research/literature/bibliography.md) §13 (lines 522, 530, 538) and §19 (lines 1000, 1008, 1016) — Pistor / Christophers / Susskind canonical entries.
 4. [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md) — canonical-terms, named-cases, recurring-stats inventory.
 5. [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md) — apparatus register canonical decisions.
@@ -44,17 +62,19 @@
 
 ## Summary verdict
 
-**No CRITICAL findings.** Six HIGH findings — resource-policy / international-policy specifics that a knowledgeable reader (resource economist, EU-policy analyst, deep-sea-mining specialist, monetary historian) would query. Six MEDIUM findings (precision / scope refinements). Four LOW findings (time-sensitive figures + editorial framing). Two cross-corpus consistency flags.
+**No CRITICAL findings.** Six HIGH findings — resource-policy / international-policy specifics that a knowledgeable reader (resource economist, EU-policy analyst, deep-sea-mining specialist, monetary historian) would query. Six MEDIUM findings (precision / scope refinements). Five LOW findings (time-sensitive figures + editorial framing + Public-Choice-school institutional history). Two cross-corpus consistency flags.
 
 | Severity | Count | Disposition |
 |---|---|---|
 | CRITICAL | 0 | — |
 | HIGH | 6 | Spot-fix recommended (author-ratify); each is a specific factual or scope claim that a knowledgeable reader would challenge |
 | MEDIUM | 6 | Spot-fix recommended (author-ratify); precision tightening |
-| LOW | 4 | Verification flags / pre-publication refresh / editorial framing — author judgment |
+| LOW | 5 | Verification flags / pre-publication refresh / editorial framing / Public-Choice-school Nutter elision — author judgment |
 | Cross-corpus | 2 | Bibliography internal disagreement (Susskind US publisher) + cross-chapter $500-$600/ton↔Ch 8 $558 floor reconciliation |
 
-**Aggregate Pass-1 verdict:** **READY AFTER SPOT-FIXES.** No claim in the chapter is factually wrong in the publisher-pre-publication-blocking sense (i.e., zero CRITICAL). But Ch 9's policy-architecture density (CRMA + ISA + Mountain Pass + Sweden + Vienna + Mondragon) carries more verifiable date / scope / institutional-detail claims than any other manuscript chapter, and the audit surfaces six HIGH findings where a specialist reader would catch precision gaps in fact-bearing claims. Recommend Phase C application of HIGH + MEDIUM findings before Pass 2 (Voice-polish) and Pass 3 (Audience-load) sessions, since several of the precision tightenings will affect voice / cadence of the prose under audit in Pass 2.
+**Aggregate Pass-1 verdict:** **READY AFTER SPOT-FIXES.** No claim in the chapter is factually wrong in the publisher-pre-publication-blocking sense (i.e., zero CRITICAL). But Ch 9's policy-architecture density (CRMA + ISA + Mountain Pass + Sweden + Vienna + Mondragon + Public Choice school) carries more verifiable date / scope / institutional-detail claims than any other manuscript chapter, and the audit surfaces six HIGH findings where a specialist reader would catch precision gaps in fact-bearing claims. Recommend Phase C application of HIGH + MEDIUM findings before Pass 2 (Voice-polish) and Pass 3 (Audience-load) sessions, since several of the precision tightenings will affect voice / cadence of the prose under audit in Pass 2.
+
+The Public Choice insertion (current Ch 9:134–148, landed via rent-seeking-engagement workstream commits `a1e54d9` → `bc02767`) audits cleanly at this Pass: zero HIGH or MEDIUM findings, one LOW (Buchanan/Tullock/Nutter co-founding elision). FMLA 1993 + 12 weeks unpaid + business-lobby opposition + Calculus of Consent 1962 attribution + AEI/Cato/Mercatus/GMU institutional cluster all verify against canonical sources.
 
 ---
 
@@ -62,7 +82,7 @@
 
 ### HIGH-1: EU Critical Raw Materials Act — "thirty-four materials as strategically critical" conflates 34 *critical* with 17 *strategic*; "enacted in 2023" is loose
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:211](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:211)
+**Location:** [Chapter__9_PricingHonestly.md:230](manuscript/chapters/Chapter__9_PricingHonestly.md:230)
 
 **Chapter text:**
 > "The European Union enacted the Critical Raw Materials Act in 2023, formally classifying thirty-four materials as strategically critical and requiring stockpile-and-alternative-sourcing programs."
@@ -87,7 +107,7 @@
 
 ### HIGH-2: International Seabed Authority "established under UNCLOS in 1982" — UNCLOS signed 1982; ISA established 1994
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:213](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:213)
+**Location:** [Chapter__9_PricingHonestly.md:232](manuscript/chapters/Chapter__9_PricingHonestly.md:232)
 
 **Chapter text:**
 > "The International Seabed Authority, established under UNCLOS in 1982, has issued exploration contracts since 2014 and is currently negotiating the commercial-mining code that would authorize extraction."
@@ -115,7 +135,7 @@ Any deep-sea-mining policy analyst — and the chapter is *explicitly* engaging 
 
 ### HIGH-3: Mountain Pass / MP Materials acquisition timeline — "acquisition in 2018" misattributes a 2017 acquisition + 2018 operations restart
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:211](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:211)
+**Location:** [Chapter__9_PricingHonestly.md:230](manuscript/chapters/Chapter__9_PricingHonestly.md:230)
 
 **Chapter text:**
 > "The United States restored Mountain Pass mine production through MP Materials' acquisition in 2018, recovering domestic supply capacity that had been lost to consolidation in the 2000s."
@@ -148,7 +168,7 @@ The chapter's claim has two issues:
 
 ### HIGH-4: Sweden "1933 currency devaluation" — Sweden left the gold standard September 1931
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:123](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:123)
+**Location:** [Chapter__9_PricingHonestly.md:126](manuscript/chapters/Chapter__9_PricingHonestly.md:126)
 
 **Chapter text:**
 > "Sweden's response to the 1929-1932 financial crisis combined bank rescue with substantive household relief: a 1933 currency devaluation that reduced real debt burdens; mortgage-modification programs that wrote down nominal mortgage debt for households unable to service it; public-works employment programs that absorbed unemployed labor at wages maintaining household solvency; and the 1938 Saltsjöbaden Agreement framework..."
@@ -171,7 +191,7 @@ The chapter's claim has two issues:
 
 ### HIGH-5: Vienna Gemeindebau financing — Wohnbauförderungsbeitrag is post-WWII; original Red Vienna financing was Wohnbausteuer + Luxury Tax
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:205](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:205)
+**Location:** [Chapter__9_PricingHonestly.md:224](manuscript/chapters/Chapter__9_PricingHonestly.md:224)
 
 **Chapter text:**
 > "The program was initiated in 1919 by the Red Vienna government, it survived an interwar fascist coup and Nazi occupation, and it has been maintained across every administration and every government that has governed Vienna since the Second World War... The system is funded through a one-percent payroll contribution — the Wohnbauförderungsbeitrag — combined with tenant rents and subsidized federal loans, and it has sustained itself through a century of use."
@@ -194,7 +214,7 @@ The chapter's claim has two issues:
 
 ### HIGH-6: Helium-3 framing — "abundant in lunar regolith" oversells the resource; "terrestrial reserves of helium in general" conflates He-3 and He-4
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:27](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:27)
+**Location:** [Chapter__9_PricingHonestly.md:30](manuscript/chapters/Chapter__9_PricingHonestly.md:30)
 
 **Chapter text:**
 > "Helium-3, should fusion reactors ever run on it, is effectively absent from Earth's atmosphere and abundant in lunar regolith, which means terrestrial reserves of helium in general are a resource we may want our descendants to still have access to."
@@ -215,12 +235,12 @@ The chapter's claim has two issues:
 
 ---
 
-### MEDIUM-1: Cross-chapter consistency — $500-$600/ton range (Ch 9:9) vs. Ch 8 floor of $558 vs. Ch 9:113 "$550" point estimate
+### MEDIUM-1: Cross-chapter consistency — $500-$600/ton range (Ch 9:12) vs. Ch 8 floor of $558 vs. Ch 9:116 "$550" point estimate
 
 **Locations:**
-- [Chapter__9_PricingHonestly__Draft.md:9](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:9) — "somewhere between five hundred and six hundred dollars when every severed cost was priced honestly"
-- [Chapter__9_PricingHonestly__Draft.md:113](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:113) — "extracted $550 per ton of value in unpriced damage while selling the coal for $40"
-- [Chapter__8_WhatThingsActuallyCost_Draft.md:163](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:163) — "Total: $558 per ton"
+- [Chapter__9_PricingHonestly.md:12](manuscript/chapters/Chapter__9_PricingHonestly.md:12) — "somewhere between five hundred and six hundred dollars when every severed cost was priced honestly"
+- [Chapter__9_PricingHonestly.md:116](manuscript/chapters/Chapter__9_PricingHonestly.md:116) — "extracted $550 per ton of value in unpriced damage while selling the coal for $40"
+- [Chapter__8_WhatThingsActuallyCost.md](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md) — "Total: $558 per ton" (line ref to be verified post-Ch-8-rename)
 
 **Canonical truth (cross-chapter consistency inventory + Ch 8 arithmetic):**
 - Ch 8's per-ton McDowell coal arithmetic (line 145-163) sums to **$558 per ton** at low-end of every component.
@@ -242,7 +262,7 @@ The chapter's claim has two issues:
 
 ### MEDIUM-2: Rare earth elements "magnetic and optical properties" — broadly correct but simplification
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:27](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:27)
+**Location:** [Chapter__9_PricingHonestly.md:30](manuscript/chapters/Chapter__9_PricingHonestly.md:30)
 
 **Chapter text:**
 > "Rare earth elements — the seventeen metals whose magnetic and optical properties underwrite nearly every piece of advanced electronics — are geologically concentrated in a small number of deposits, chemically difficult to substitute, and required for technologies humanity has not yet invented but will almost certainly need."
@@ -270,7 +290,7 @@ The chapter's claim has two issues:
 
 ### MEDIUM-3: Mondragon pay ratio "six to nine" — sources show 3:1 to 9:1 range, averaging 5:1
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:203](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:203)
+**Location:** [Chapter__9_PricingHonestly.md:222](manuscript/chapters/Chapter__9_PricingHonestly.md:222)
 
 **Chapter text:**
 > "The cooperatives operate under an internal pay ratio cap — the highest compensation in most cooperatives is limited to roughly six to nine times the lowest — and reinvest a substantial portion of surplus in a shared federation bank and technological institute that function as collective capital."
@@ -291,7 +311,7 @@ The chapter's claim has two issues:
 
 ### MEDIUM-4: CCZ polymetallic nodules — "containing cobalt, nickel, manganese, and rare-earth elements" overstates REE content
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:213](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:213)
+**Location:** [Chapter__9_PricingHonestly.md:232](manuscript/chapters/Chapter__9_PricingHonestly.md:232)
 
 **Chapter text:**
 > "The Clarion-Clipperton Zone in the eastern Pacific Ocean — a four-and-a-half-million-square-kilometer international-waters area — holds the largest known accessible deposits of polymetallic nodules containing cobalt, nickel, manganese, and rare-earth elements."
@@ -313,7 +333,7 @@ The chapter's claim has two issues:
 
 ### MEDIUM-5: CBAM "introduced in staged form beginning in 2023 and fully operational in 2026"
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:95](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:95)
+**Location:** [Chapter__9_PricingHonestly.md:98](manuscript/chapters/Chapter__9_PricingHonestly.md:98)
 
 **Chapter text:**
 > "The European Union's Carbon Border Adjustment Mechanism, introduced in staged form beginning in 2023 and fully operational in 2026, is a partial version of exactly this idea for carbon alone."
@@ -339,7 +359,7 @@ The chapter framing "introduced in staged form beginning in 2023 and fully opera
 
 ### MEDIUM-6: "Lost to consolidation in the 2000s" framing for Mountain Pass closure (already partly covered by HIGH-3)
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:211](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:211)
+**Location:** [Chapter__9_PricingHonestly.md:230](manuscript/chapters/Chapter__9_PricingHonestly.md:230)
 
 **Chapter text (excerpt):**
 > "...recovering domestic supply capacity that had been lost to consolidation in the 2000s."
@@ -361,7 +381,7 @@ The chapter framing "introduced in staged form beginning in 2023 and fully opera
 
 ### LOW-1: Alaska PFD recent dividend "$1,300-$1,700 range" — 2024 ✓ but 2025 dropped to $1,000
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:115](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:115)
+**Location:** [Chapter__9_PricingHonestly.md:118](manuscript/chapters/Chapter__9_PricingHonestly.md:118)
 
 **Chapter text:**
 > "Alaska's Permanent Fund operates a domestic version at state scale: since 1976 the state has captured 25 percent of mineral royalty income and invested it as an irrevocable constitutional trust, which now holds roughly $80 billion and has distributed an annual dividend to every resident since 1982, most recently in the $1,300–$1,700 range."
@@ -386,7 +406,7 @@ The chapter framing "introduced in staged form beginning in 2023 and fully opera
 
 ### LOW-2: Norway "over fifty years" framing — defensible from Ekofisk discovery (1969); imprecise from fund (1990)
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:197](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:197)
+**Location:** [Chapter__9_PricingHonestly.md:216](manuscript/chapters/Chapter__9_PricingHonestly.md:216)
 
 **Chapter text:**
 > "Norway has demonstrated, over fifty years, that it is politically possible to sustain the discipline required to capture resource rents and preserve them for intergenerational equity."
@@ -411,7 +431,7 @@ The "over fifty years" framing is defensible if anchored to Norway's resource-re
 
 ### LOW-3: Sweden 1992 "recovered most of the deployed capital within five years" — sources say "at least half"
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:123](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:123)
+**Location:** [Chapter__9_PricingHonestly.md:126](manuscript/chapters/Chapter__9_PricingHonestly.md:126)
 
 **Chapter text:**
 > "The 1992 Swedish banking crisis itself, when several major Swedish banks collapsed and required government recapitalization, was managed through an explicit bank-rescue-plus-household-protection architecture that drew directly from the lessons of 1932-1937; the recapitalization captured equity in the rescued banks, recovered most of the deployed capital within five years, and combined with countercyclical fiscal policy that maintained household consumption through the recession."
@@ -433,7 +453,7 @@ The "over fifty years" framing is defensible if anchored to Norway's resource-re
 
 ### LOW-4: EU ETS "nearly destroyed by lobbying" during 2008 financial crisis
 
-**Location:** [Chapter__9_PricingHonestly__Draft.md:233](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:233)
+**Location:** [Chapter__9_PricingHonestly.md:252](manuscript/chapters/Chapter__9_PricingHonestly.md:252)
 
 **Chapter text:**
 > "The most ambitious implementation — the EU Emissions Trading System — covers a portion of emissions, is riddled with exemptions, and was nearly destroyed by lobbying during the 2008 financial crisis."
@@ -456,6 +476,34 @@ The "over fifty years" framing is defensible if anchored to Norway's resource-re
 
 ---
 
+### LOW-5: Public Choice "founded by James M. Buchanan and Gordon Tullock at Virginia" — elides G. Warren Nutter's co-founding role
+
+**Location:** [Chapter__9_PricingHonestly.md:138](manuscript/chapters/Chapter__9_PricingHonestly.md:138)
+
+**Chapter text:**
+> "The Public Choice tradition, founded by James M. Buchanan and Gordon Tullock at Virginia and developed over six decades by their successors, has built rigorous tools for that second question."
+
+**Canonical truth (web-verified):**
+- The Thomas Jefferson Center for Studies in Political Economy at the University of Virginia was co-founded by **James M. Buchanan and G. Warren Nutter in 1957**, not by Buchanan + Tullock.
+- Gordon Tullock arrived at the Thomas Jefferson Center as a **postdoctoral fellow in 1958**, with Buchanan's help.
+- *The Calculus of Consent* (1962, Michigan UP) — the founding text of Public Choice as a formal field — was co-authored by **Buchanan + Tullock**.
+- The Virginia school later moved to Virginia Polytechnic Institute (VPI / Virginia Tech) in 1969, where Buchanan + Tullock co-founded the Center for Study of Public Choice.
+- The Center moved to George Mason University in 1983.
+- "Founded by Buchanan and Tullock" is the common popular-press attribution and is broadly defensible — they are the two figures most strongly identified with Public Choice as a scholarly tradition — but a specialist (Virginia-school historian, public-choice scholar, GMU economics professor) will note Nutter's co-founding role at the Thomas Jefferson Center.
+- "Six decades by their successors": 1957 (TJC founding) → 2026 = 69 years; 1962 (*Calculus of Consent*) → 2026 = 64 years. "Six decades" is a loose round number — closer to 6.5-7 decades — but defensible for trade-press level.
+- "At Virginia": defensibly ambiguous — UVA (1957-1968) where the school was founded, then VPI/Va Tech (1969-1983), then GMU (1983-present, also in Virginia). All in Virginia. Defensible.
+
+**Why this is the LOW-5 finding:** The chapter's downstream argument (Public Choice as a tradition with rigorous tools complementary to the framework) survives regardless. The Nutter elision is a precision detail that does not affect the substance. But a Cato / Mercatus / GMU-affiliated reader — exactly the kind of reader the section is courting — will know Nutter's role and notice the elision.
+
+**Recommended action:**
+- Option A (no change): defensible at trade-press level; "Buchanan and Tullock" is the standard popular-press attribution.
+- Option B (acknowledgment hedge): "founded by James M. Buchanan, Gordon Tullock, and their Virginia colleagues" — preserves prose flow without naming Nutter specifically.
+- Option C (precision): "founded by James M. Buchanan and G. Warren Nutter at the University of Virginia in 1957, with Gordon Tullock co-developing the field shortly thereafter" — full precision but breaks prose cadence.
+
+**Severity rationale:** LOW because the underlying attribution (Buchanan + Tullock as Public Choice founders) is the standard popular-press framing and is broadly defensible; the Nutter elision is the kind of detail Public Choice specialists will note but most readers won't track.
+
+---
+
 ## Items verified — no findings (positive verifications)
 
 The following claims were verified against canonical sources and require no spot-fix. Listed here so the author can see the audit coverage.
@@ -473,7 +521,7 @@ The following claims were verified against canonical sources and require no spot
 | Christophers, *The Price is Wrong: Why Capitalism Won't Save the Planet* (2024) — title + year + author | Ch 9:149, biblio §13 line 530 + §19 line 1008 | ✓ per Verso 12 March 2024 |
 | Christophers argument attribution: "profit, not price, is what reshapes the world" | Ch 9:149 | ✓ matches canonical argument |
 | Pistor, *The Code of Capital* (2019) — title + year + author + publisher | Ch 9:147, biblio §13 line 522 + §19 line 1000 | ✓ per Princeton UP 28 May 2019 |
-| Pistor "engaged at depth in Chapter 5" claim | Ch 9:147 | ✓ Ch 5 line 200 contains ~155w substantive engagement |
+| Pistor "engaged at depth in Chapter 5" claim | Ch 9:166 | ✓ Ch 5 contains ~155w substantive engagement |
 | Pistor argument attribution: "property rights are themselves legal modules designed within a system that systematically encodes capital while leaving costs externalized" | Ch 9:147 | ✓ matches canonical argument |
 | Mancur Olson described concentrated-vs-diffuse dynamic in 1965 | Ch 9:109 | ✓ *The Logic of Collective Action*, Harvard UP 1965 |
 | Harvey "accumulation by dispossession" | Ch 9:241 | ✓ per *The New Imperialism* (2003) |
@@ -506,8 +554,12 @@ The following claims were verified against canonical sources and require no spot
 | NEPA 1970 | Ch 9:221 | ✓ Signed January 1, 1970 |
 | EU ETS started ~2005 | Ch 9:233 (implicit) | ✓ Phase 1 began 1 January 2005 |
 | Annual global severed cost ($10-15T) | Ch 9:107 | ✓ per Ch 8:213 + cross-chapter inventory line 111 |
-| Four-step framework naming (Classify → Reserve → Invest → Reassess) | Ch 9:15 + section headers | ✓ consistent throughout Ch 9; matches canonical naming in `core/chapters/commons_bonds_chapter_audit_v1.0.6.md` |
+| Four-step framework naming (Classify → Reserve → Invest → Reassess) | Ch 9:18 + section headers | ✓ consistent throughout Ch 9; matches canonical naming in `core/chapters/commons_bonds_chapter_audit_v1.0.6.md` |
 | Existential substitutability gap (lowercase prose phrase) | Ch 9 (multiple) | ✓ consistent lowercase usage per cross-chapter inventory line 46 |
+| FMLA signed Feb 5, 1993; 12 weeks unpaid leave | Ch 9:140 (Public Choice insertion) | ✓ per US Department of Labor + Wikipedia + Federal Register |
+| Chamber of Commerce + business lobbies opposed FMLA + opposed paid version; final bill provided unpaid leave | Ch 9:140 (Public Choice insertion) | ✓ per Family Values @ Work + OAH historical record + Newsweek |
+| Buchanan & Tullock 1962, *The Calculus of Consent: Logical Foundations of Constitutional Democracy*, University of Michigan Press — founding Public Choice text | Ch 9:146 (Public Choice insertion, implicit) | ✓ per Wikipedia + Britannica + Cambridge Core review (note: bibliography update in commit `a1e54d9` added explicit entry to biblio §22) |
+| AEI / Cato / Mercatus Center / George Mason economics — institutional cluster | Ch 9:148 (Public Choice insertion) | ✓ Cato (founded 1977; libertarian-Public-Choice-adjacent), Mercatus (founded 1980 at GMU; directly Public Choice-influenced), GMU economics (Buchanan moved there 1983), AEI (founded 1938; broader center-right but houses some Public-Choice-influenced work). AEI is the loosest fit in the cluster; the other three are tight Public Choice institutional homes. Defensible at trade-press level; not flagged as separate finding. |
 
 ---
 
@@ -587,9 +639,9 @@ No living-private subjects named. Place names (Mondragon, Vienna, Chattanooga, B
 ### Flag CC-2: McDowell coal per-ton floor — add to cross-chapter inventory
 
 **Locations:**
-- [Chapter__8_WhatThingsActuallyCost_Draft.md:163](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:163) — $558 floor (canonical sum-of-components).
-- [Chapter__9_PricingHonestly__Draft.md:9](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:9) — $500-$600 bracketing range.
-- [Chapter__9_PricingHonestly__Draft.md:113](manuscript/chapters/Chapter__9_PricingHonestly__Draft.md:113) — $550 point estimate.
+- [Chapter__8_WhatThingsActuallyCost.md](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md) — $558 floor (canonical sum-of-components; line ref to be verified post-Ch-8-rename).
+- [Chapter__9_PricingHonestly.md:12](manuscript/chapters/Chapter__9_PricingHonestly.md:12) — $500-$600 bracketing range.
+- [Chapter__9_PricingHonestly.md:116](manuscript/chapters/Chapter__9_PricingHonestly.md:116) — $550 point estimate.
 
 **Issue:** The cross-chapter consistency inventory `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md` §3 currently has a row for "Coal carbon-tail per ton" ($544 per Ch 8 line 73) but no row for the per-ton total floor figure that Ch 9 references twice. Recommend adding a row.
 
@@ -605,7 +657,9 @@ Out of scope for this Pass 1 fact-check; flagged for cross-chapter consistency i
 Items belonging to voice-polish scope, surfaced during Pass 1 but **NOT scored here**. Pass 2 session will address.
 
 - **Hyphenation discipline for "low/high-existential substitutability gap" compound adjective.** Ch 9 uses partial hyphenation (between "low/high" and "existential" only). Voice-polish question: should the three-word compound be fully hyphenated when used as adjective ("low-existential-substitutability-gap resources"), or is partial hyphenation defensible per the cross-chapter inventory lowercase-prose-phrase rule (line 46)? Recommend Pass 2 establish a consistent rule.
-- **"Existential substitutability gap-driven reserve" (Ch 9:81)** — terminal hyphen visual register check.
+- **"Existential substitutability gap-driven reserve" (Ch 9:84)** — terminal hyphen visual register check.
+- **Public Choice section voice register (Ch 9:134–148).** New section inserted via rent-seeking-engagement workstream; Pass 2 check: does the register match Ch 9's policy-economy voice or does the new section read as a different voice? The commit message claimed "insertions land cleanly in destination chapter voice registers" — Pass 2 verifies.
+- **Buchanan/Tullock framing in body prose.** Section uses italics on the closing aphorism (*"and someone designed it, and we can identify them"*) — Pass 2 check: italics discipline consistent with rest of chapter?
 - **Policy-recommendation register consistency.** Ch 9's voice shifts between policy-architecture description (Steps 1-4 + International Dimension + Entering Wedges) and political-economy critique (Political Economy of Resistance + Property Rights + Nordic Objection). Pass 2 check: does the register remain consistent, or does the voice shift between policy-analyst and political-economist tones?
 - **Multi-resource enumeration cadence.** Ch 9:27 enumerates rare earths + PGMs + helium-3 + phosphorus + fossil aquifers in a single paragraph. Pass 2 check: is the enumeration rhythmic / does it land for the reader, or does it list-fatigue?
 - **Scholarly-citation prose-density.** Ch 9 cites Susskind, Christophers, Pistor, Coase, Ostrom, Adam Smith, Olson, Harvey, Ostrom (again), Raworth, Desmond, Mian & Sufi within ~15 paragraphs. Pass 2 check: is the citation density supporting the argument, or does it create scholar-name-density fatigue?
@@ -625,8 +679,9 @@ Audience pressure-test character set to apply in Pass 3 session for Ch 9 specifi
 - **Tier-3 Global-South reader.** Does the Morocco / Western Sahara phosphate framing handle the geopolitical context (Western Sahara political dispute; Polisario Front; Sahrawi self-determination question; OCP / Phosboucraa colonial-resource-extraction history) appropriately, or does it read as North-centric resource-mineralogy?
 - **Tier-3 EU-policy reader.** Does the Ch 9:95 CBAM treatment + Ch 9:211 CRMA treatment land for a reader who works in EU trade or critical-materials policy? (HIGH-1 finding is one signal that the policy-detail precision needs tightening before this audience.)
 - **Tier-3 deep-sea-mining policy reader.** Does the Ch 9:213-217 CCZ treatment land for a reader engaged with the live ISA negotiation? (HIGH-2 finding is one signal that the institutional-detail precision needs tightening before this audience.)
-- **Tier-3 American center-right policy reader (Nordic-objection target).** Does the Ch 9:155-171 Nordic-objection treatment + Ch 9:173-187 "what the eleven-cent difference buys" passage land for a reader who carries the Nordic-objection as default, or does it read as preaching to the converted? (This is the highest-stakes audience-load question for Ch 9.)
+- **Tier-3 American center-right policy reader (Nordic-objection target).** Does the Ch 9:174-190 Nordic-objection treatment + Ch 9:192-206 "what the eleven-cent difference buys" passage land for a reader who carries the Nordic-objection as default, or does it read as preaching to the converted? (This is the highest-stakes audience-load question for Ch 9.)
 - **Tier-3 Vienna / Austrian-policy reader.** HIGH-5 (Wohnbauförderungsbeitrag) signals precision-tightening needed before this audience.
+- **Tier-2 / Tier-3 Public Choice / Virginia-school reader.** New section (Ch 9:134-148) explicitly addresses this audience ("readers at AEI, Cato, the Mercatus Center, George Mason economics, and the broader policy-think-tank cluster influenced by Virginia-school analysis"). Pass 3 check: does the section read as scholarly engagement or as cursory? Does the framework-as-complement framing land, or read as condescending? Does the Buchanan/Tullock attribution (LOW-5) hold for this audience? This is a NEW Tier-2 audience the chapter is courting; Pass 3 will need to score it specifically.
 
 ---
 
@@ -639,7 +694,7 @@ Audience pressure-test character set to apply in Pass 3 session for Ch 9 specifi
 | CRITICAL | 0 | — |
 | HIGH | 6 | HIGH-1 (CRMA 34/17 + 2023/2024); HIGH-2 (ISA 1982/1994 + 2014/2001); HIGH-3 (MP Materials 2018 + consolidation); HIGH-4 (Sweden 1933/1931); HIGH-5 (Vienna Wohnbauförderungsbeitrag); HIGH-6 (He-3 abundant + terrestrial helium conflation) |
 | MEDIUM | 6 | MEDIUM-1 ($500-$600/$550 cross-Ch 8 reconcile); MEDIUM-2 (REE magnetic+optical); MEDIUM-3 (Mondragon 6-9 vs 3-9); MEDIUM-4 (CCZ Cu vs REE); MEDIUM-5 (CBAM 2026 fully operational); MEDIUM-6 (Mountain Pass "consolidation") |
-| LOW | 4 | LOW-1 (Alaska PFD $1,000); LOW-2 (Norway 50 years); LOW-3 (Sweden 1992 recovery rate); LOW-4 (ETS "destroyed by lobbying") |
+| LOW | 5 | LOW-1 (Alaska PFD $1,000); LOW-2 (Norway 50 years); LOW-3 (Sweden 1992 recovery rate); LOW-4 (ETS "destroyed by lobbying"); LOW-5 (Public Choice Buchanan/Tullock/Nutter elision) |
 | Cross-corpus | 2 | CC-1 (Susskind US publisher bibliography); CC-2 (McDowell per-ton floor inventory addition) |
 
 ### §8.2 Aggregate Pass-1 verdict
@@ -654,20 +709,20 @@ Audience pressure-test character set to apply in Pass 3 session for Ch 9 specifi
 
 ### §8.3 Phase-C disposition recommendation
 
-**Sequenced Phase C application** (recommended order if author ratifies all HIGH + MEDIUM):
+**Sequenced Phase C application** (recommended order if author ratifies all HIGH + MEDIUM; line numbers refreshed 2026-05-19):
 
-1. **HIGH-1** (Ch 9:211) — EU CRMA 34/17 + date.
-2. **HIGH-2** (Ch 9:213) — ISA dates + contract issuance year.
-3. **HIGH-3** (Ch 9:211, paired with MEDIUM-6) — Mountain Pass 2017/2018 + closure cause.
-4. **HIGH-4** (Ch 9:123) — Sweden 1931 (not 1933).
-5. **HIGH-5** (Ch 9:205) — Vienna Wohnbausteuer (Red Vienna) vs. Wohnbauförderungsbeitrag (post-WWII).
-6. **HIGH-6** (Ch 9:27) — He-3 lunar regolith precision + terrestrial-helium separation.
-7. **MEDIUM-1** (Ch 9:113 paired with cross-chapter inventory CC-2) — McDowell per-ton consistency.
-8. **MEDIUM-2** (Ch 9:27) — REE magnetic+optical+catalytic.
-9. **MEDIUM-3** (Ch 9:203) — Mondragon pay ratio 3-9 range.
-10. **MEDIUM-4** (Ch 9:213) — CCZ Cu (not REE) in primary metals list.
-11. **MEDIUM-5** (Ch 9:95) — CBAM "definitive phase from 2026" (not "fully operational").
-12. **LOW** items — author judgment; defer LOW-1 to pre-publication refresh.
+1. **HIGH-1** (Ch 9:230) — EU CRMA 34/17 + date.
+2. **HIGH-2** (Ch 9:232) — ISA dates + contract issuance year.
+3. **HIGH-3** (Ch 9:230, paired with MEDIUM-6) — Mountain Pass 2017/2018 + closure cause.
+4. **HIGH-4** (Ch 9:126) — Sweden 1931 (not 1933).
+5. **HIGH-5** (Ch 9:224) — Vienna Wohnbausteuer (Red Vienna) vs. Wohnbauförderungsbeitrag (post-WWII).
+6. **HIGH-6** (Ch 9:30) — He-3 lunar regolith precision + terrestrial-helium separation.
+7. **MEDIUM-1** (Ch 9:116 paired with cross-chapter inventory CC-2) — McDowell per-ton consistency.
+8. **MEDIUM-2** (Ch 9:30) — REE magnetic+optical+catalytic.
+9. **MEDIUM-3** (Ch 9:222) — Mondragon pay ratio 3-9 range.
+10. **MEDIUM-4** (Ch 9:232) — CCZ Cu (not REE) in primary metals list.
+11. **MEDIUM-5** (Ch 9:98) — CBAM "definitive phase from 2026" (not "fully operational").
+12. **LOW** items — author judgment; defer LOW-1 to pre-publication refresh; LOW-5 (Public Choice Nutter) is no-change recommended.
 13. **CC-1** (Susskind US publisher) — separate bibliography-consolidation task.
 14. **CC-2** (McDowell per-ton inventory row) — next cross-chapter inventory maintenance cycle.
 
@@ -683,8 +738,9 @@ After Phase C application of HIGH + MEDIUM findings: schedule Pass 2 (Voice-poli
 2. **All 6 MEDIUM findings** — recommend RATIFY at author's discretion; precision tightening across resource specifics + cross-chapter consistency.
 3. **LOW-1 (Alaska PFD)** — defer to pre-publication refresh per cross-chapter inventory line 247 re-trigger criterion.
 4. **LOW-2 / LOW-3 / LOW-4** — author judgment; defensible at trade-press level as-is.
-5. **CC-1** — flag for separate bibliography-consolidation task; out of Ch 9 scope.
-6. **CC-2** — flag for next cross-chapter inventory maintenance cycle.
+5. **LOW-5 (Public Choice Buchanan/Tullock/Nutter)** — recommend HOLD (no change); standard popular-press attribution is broadly defensible.
+6. **CC-1** — flag for separate bibliography-consolidation task; out of Ch 9 scope.
+7. **CC-2** — flag for next cross-chapter inventory maintenance cycle.
 
 **For PM session:**
 
