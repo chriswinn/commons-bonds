@@ -107,11 +107,11 @@ Engine-level character-integrity audit:
 
 **Finding ID:** F-RP-TA-02
 **Severity:** **HIGH** for canonical-pipeline-decision-purposes; **MEDIUM** for current shipping fidelity (Sandy packet already shipped; baseline has same issue)
-**Description:** The HTML source carries `𝒞` U+1D49E (mathematical script capital C) at one occurrence in §1.1: *"A resource unit R ∈ 𝒞 (where 𝒞 (script C) denotes the commons-territory set; distinguished from…)"*. **Only the Chrome HTML→PDF path renders this character correctly.** Both wkhtmltopdf paths (baseline Qt 5.15.13 AND laptop Qt 4.8.7) substitute the character with a tofu glyph (`.LastResort` fallback per macOS-side or `??` per Linux-side; in pdftotext extract the baseline shows the character missing entirely, laptop wkhtmltopdf shows `��` U+FFFD pair).
+**Description:** The HTML source carries `𝒞` U+1D49E (mathematical script capital C) at one occurrence in §1.1: *"A resource unit R ∈ 𝒞 (where 𝒞 (script C) denotes the commons-territory set; distinguished from…)"*. **CORRECTED per §13 author visual review:** Chrome (laptop-build-derivatives) RENDERS the character correctly; wkhtmltopdf Qt 5.15.13 (remote-container baseline) also RENDERS the character correctly (the original `pdftotext`-based inference here was wrong — extraction failure ≠ visual render failure; the baseline encodes `𝒞` in a custom font subset whose codepoint mapping doesn't survive text extraction); wkhtmltopdf Qt 4.8.7 (laptop-build-derivatives-alt; Homebrew macOS) FAILS, substituting tofu (`��` U+FFFD pair in pdftotext extract). Root cause of the laptop wkhtmltopdf failure: Qt 4.8.7's font-loader limitation on macOS .ttc-bundled fonts per `cf24f57` doctrine §3.3; remote-container Qt 5.15.13 reaches apt-installed Debian fonts that include U+1D49E coverage. See §13 for the corrected hierarchy.
 
 This is **direct empirical confirmation of commit `cf24f57`'s Stage 4 doctrine §3.3 documentation**: *"Chrome uses the platform-native font stack + per-character CSS fallback. wkhtmltopdf 0.12.6's patched Qt 5.5 font loader cannot enumerate macOS TrueType Collections (.ttc), producing Helvetica substitution + .LastResort tofu for Plane-1 chars."* The same Qt limitation applies on the Linux-container side too (likely with a different fallback policy; baseline pdftotext shows the character absent rather than U+FFFD).
 
-**Recommended canonical-pipeline implication:** Chrome HTML→PDF (currently in `build-derivatives.sh`) is the **only** pipeline that correctly renders Plane-1 mathematical alphanumeric symbols. wkhtmltopdf (used by `build-derivatives-alt.sh` AND the remote-container baseline) is **structurally incapable** of rendering Plane-1 chars on the macOS .ttc-font-stack. **This finding rules out Option B canonical-baseline-as-remote-container without additional adjustments** — the baseline produces a tofu at the framework's load-bearing apparatus-prose location.
+**Recommended canonical-pipeline implication (CORRECTED per §13 author visual review):** Chrome HTML→PDF (currently in `build-derivatives.sh`) renders Plane-1 mathematical alphanumeric symbols correctly. The remote-container's wkhtmltopdf Qt 5.15.13 ALSO renders them correctly (the apt-installed Debian font stack reaches U+1D49E coverage that Qt 5.15.13 enumerates). Only the LAPTOP wkhtmltopdf path (`build-derivatives-alt.sh` running Qt 4.8.7 from macOS Homebrew) is structurally incapable of rendering Plane-1 chars on the macOS .ttc-font-stack. **This finding does NOT rule out Option B (remote-container as canonical)** — the baseline renders correctly at the framework's load-bearing apparatus-prose location. It DOES rule out the laptop wkhtmltopdf path for HTML→PDF on macOS specifically.
 
 ### §3.4 Finding F-RP-TA-03 — laptop wkhtmltopdf Qt 4.8.7 vs baseline Qt 5.15.13
 
@@ -157,7 +157,7 @@ Despite the line-count drift, all three PDFs carry **content-identical prose** a
 - **Minus-sign (U+2212; `&minus;`):** preserved cleanly (102-103 occurrences).
 - **Greek letters (α, β, γ, σ, ε, Σ, μ, etc.):** preserved cleanly in all three PDFs (no visible substitution in pdftotext extracts).
 - **Subscripts / superscripts (`<sub>`, `<sup>`):** preserved cleanly via HTML rendering in all three.
-- **Plane-1 math chars (`𝒞` U+1D49E):** ⚠ **ONLY Chrome renders correctly.** Both wkhtmltopdf paths fail (per F-RP-TA-02).
+- **Plane-1 math chars (`𝒞` U+1D49E):** Chrome (laptop) RENDERS correctly; wkhtmltopdf Qt 5.15.13 (remote-container) RENDERS correctly; wkhtmltopdf Qt 4.8.7 (laptop-alt) FAILS (tofu). Only the laptop wkhtmltopdf path fails per F-RP-TA-02 — see §13 for the corrected hierarchy + §13.1 for the `pdftotext`-vs-visual correction.
 
 ---
 
@@ -215,7 +215,7 @@ The Ch 1 retrofit data + TA retrofit data together show that the architectural d
 - **F-RP-TA-04 (MEDIUM):** TA-source HTML-hygiene spot-fix (close `<div>` at lines 175 + 1823 explicitly). Pass 2 typography sweep candidate.
 - **No Plane-1-char fix needed at source-side** — Chrome already renders `𝒞` correctly; the canonical pipeline (Chrome HTML→PDF) handles it.
 
-**Option B (adopt remote-container as canonical)** is RULED OUT by F-RP-TA-02 — the baseline carries the Plane-1 char failure on the load-bearing apparatus prose (§1.1 commons-territory-set notation).
+**Option B (adopt remote-container as canonical)** is **VIABLE per §13 author visual review correction.** The remote-container wkhtmltopdf Qt 5.15.13 renders Plane-1 char `𝒞` correctly at §1.1. (The original §10 framing here that "Option B is RULED OUT by F-RP-TA-02" was based on a `pdftotext`-extraction inference that turned out to be wrong — see §13.1 for the full correction.) Option B is a substantive canonical choice the author can ratify; the residual question for Option B is CSS-fidelity vs Chrome's Skia/PDF per F-RP-TA-05 (not directly tested at this Stage 4 since the 2026-05-17 baseline-render container did not have Chrome available as a non-snap binary).
 
 **Option C (dual-discipline)** is acceptable as transitional posture during the merged-canonical-script development, but the merged-canonical-script per §8.2 is the cleaner long-term posture.
 
@@ -230,12 +230,13 @@ The Ch 1 retrofit data + TA retrofit data together show that the architectural d
 - **Recommended fix:** conditional `--from=markdown-yaml_metadata_block` (apply for `.md` only; not for `.html`). **DO NOT APPLY this session per "do NOT tune pipeline mid-comparison" discipline.** Fix lands as part of canonical-pipeline ratification step (§3.5 of standardization handoff).
 - **Cascade:** triggers Stage 4 re-run for TA + any future HTML-source artifacts after fix lands. Ch 5 + Ch 6 retrofits (when they fire) will NOT hit this regression because their sources are `.md`.
 
-### §9.2 F-RP-TA-02 — HIGH-severity Plane-1 char render failure (wkhtmltopdf paths)
+### §9.2 F-RP-TA-02 — Plane-1 char render failure (CORRECTED per §13 author visual review; laptop wkhtmltopdf Qt 4.8.7 ONLY)
 
-- **Severity:** HIGH for canonical-decision-purposes (rules out wkhtmltopdf as canonical for HTML→PDF); MEDIUM for current shipping (Sandy packet already shipped; baseline has same issue).
-- **Affected:** remote-container baseline + laptop-build-derivatives-alt (both wkhtmltopdf).
-- **Root cause:** wkhtmltopdf Qt-WebKit font-loader limitation per `cf24f57` doctrine §3.3.
-- **Recommended disposition:** canonical pipeline for HTML→PDF = Chrome (per `cf24f57` doctrine §3.3 + this Stage 4 empirical confirmation). No source-side fix needed.
+- **Severity:** MEDIUM for canonical-pipeline-decision-purposes (rules out laptop wkhtmltopdf Qt 4.8.7 specifically; does NOT rule out remote-container wkhtmltopdf Qt 5.15.13 or any Chrome path); LOW for current shipping (Sandy packet uses remote-container; renders correctly).
+- **Affected:** laptop-build-derivatives-alt (wkhtmltopdf Qt 4.8.7 Homebrew macOS) only.
+- **Not affected (per §13 visual correction):** remote-container baseline wkhtmltopdf Qt 5.15.13 renders correctly; Chrome (laptop build-derivatives.sh) renders correctly.
+- **Root cause:** Qt 4.8.7 font-loader cannot enumerate macOS-bundled .ttc fonts with Plane-1 coverage per `cf24f57` doctrine §3.3. Qt 5.15.13 in the apt-installed remote-container reaches apt-installed Debian fonts with U+1D49E coverage.
+- **Recommended disposition:** for HTML→PDF on the laptop side, route through Chrome (build-derivatives.sh) only — do not use wkhtmltopdf on macOS. The remote-container's Qt 5.15.13 wkhtmltopdf is also viable; canonical-pipeline choice is Option A (Chrome) vs Option B (remote-container) per author preference. No source-side fix needed.
 
 ### §9.3 F-RP-TA-03 — MEDIUM-severity laptop Qt 4.8.7 vs baseline Qt 5.15.13
 
@@ -317,4 +318,68 @@ Per Stage 4 doctrine §"Pre-publication review queue flags (carry forward to Sta
 
 ---
 
-*End of TA render-pipeline comparison. PROPOSED 2026-05-18. **TA is the cumulative-diagnosis tipping point** for the canonical-pipeline decision per handoff stub §1 row 4. The Plane-1-char `𝒞` test + the F-RP-TA-01 docx-regression test together inform the canonical decision. Stage 4 verdict batch-ratifies after canonical-pipeline decision (Option A recommended per §10 with the F-RP-TA-01 fix applied + merged-canonical-script consolidation per §8.2).*
+*End of TA render-pipeline comparison. PROPOSED 2026-05-18. **TA is the cumulative-diagnosis tipping point** for the canonical-pipeline decision per handoff stub §1 row 4. The Plane-1-char `𝒞` test + the F-RP-TA-01 docx-regression test together inform the canonical decision. Stage 4 verdict batch-ratifies after canonical-pipeline decision (Option A and Option B both viable for HTML→PDF per §13 visual review correction; F-RP-TA-01 fix still required regardless).*
+
+---
+
+## §13. Visual review findings (2026-05-18; author-provided)
+
+This section captures the author's direct visual inspection of the three TA PDF renders + the laptop docx outputs, correcting a `pdftotext`-extraction-based inference in §3.3 that misread the remote-container baseline's behavior on the Plane-1 char `𝒞` test.
+
+### TA
+
+- **Plane-1 char `𝒞` at §1.1:**
+  - Chrome (laptop-build-derivatives): **RENDERED**
+  - wkhtmltopdf alt (laptop-build-derivatives-alt): **TOFU**
+  - wkhtmltopdf baseline (remote-container): **RENDERED**
+- **docx HTML-tag leakage (F-RP-TA-01 visual confirmation):** **CONFIRMED.** Both laptop docx files contain raw HTML tags + entities echoed as literal text per the §3.1 finding.
+- **Any other visual surprises:** `build-derivatives.sh` .pdf rendering included more visual formatting than the other laptop build script (`build-derivatives-alt.sh`). Chrome's Skia/PDF preserves more of the source HTML/CSS's visual formatting fidelity than wkhtmltopdf 0.12.6 Qt 4.8.7's WebKit renderer does — captured as new finding F-RP-TA-05 below.
+
+### §13.1 Correction to F-RP-TA-02 ("Plane-1 char fails in baseline + laptop wkhtmltopdf")
+
+**Original F-RP-TA-02 framing (§3.3 of this artifact):** based on `pdftotext` extraction yielding 0 occurrences of `𝒞` in the baseline PDF, F-RP-TA-02 inferred the baseline wkhtmltopdf-Qt-5.15.13 path also fails to render `𝒞` (matching the documented `cf24f57` doctrine §3.3 Qt-loader limitation).
+
+**Author visual inspection (2026-05-18, post-Stage-4-artifact):** the baseline PDF **does** render `𝒞` correctly at §1.1. The `pdftotext` extraction failure was inferential evidence pointing the wrong direction — the glyph renders visually in the baseline PDF but is encoded such that `pdftotext` cannot extract it back as `𝒞`. Likely cause: the remote-container's apt-installed font stack (`fonts-ebgaramond` + `fonts-dejavu` + possibly STIX or other math-coverage fonts available in the Debian/apt environment) includes a font with U+1D49E coverage that Qt 5.15.13 enumerates correctly; the laptop's wkhtmltopdf Qt 4.8.7 cannot enumerate the macOS .ttc-bundled fonts that carry Plane-1 coverage on macOS, producing the tofu.
+
+**Revised F-RP-TA-02 hierarchy (corrected; supersedes §3.3 ordering):**
+
+| Pipeline | Plane-1 `𝒞` render | Notes |
+|---|---|---|
+| Chrome (laptop build-derivatives.sh) | **RENDERED** ✓ | platform-native font stack + CSS fallback per `cf24f57` |
+| wkhtmltopdf Qt 5.15.13 (remote-container baseline) | **RENDERED** ✓ | apt-installed Debian font stack enumerates U+1D49E correctly |
+| wkhtmltopdf Qt 4.8.7 (laptop-build-derivatives-alt; Homebrew macOS) | **TOFU** ✗ | macOS .ttc-loader limitation per `cf24f57`; Qt 4.8.7 cannot reach macOS-bundled Plane-1 fonts |
+
+**Corrected implication for canonical-pipeline decision:** the Plane-1 char `𝒞` test does NOT rule out Option B (adopt remote-container as canonical). Option B is now viable. The test rules out only the **laptop wkhtmltopdf path** specifically (which is `build-derivatives-alt.sh`'s HTML→PDF route on macOS); both Chrome (laptop) and wkhtmltopdf (remote-container) pass the test.
+
+### §13.2 F-RP-TA-05 (NEW from §13 finding) — CSS / visual-formatting fidelity
+
+**Finding ID:** F-RP-TA-05
+**Severity:** MEDIUM
+**Description:** Author's visual inspection 2026-05-18 reports that `build-derivatives.sh` (Chrome HTML→PDF) renders **more visual formatting** than `build-derivatives-alt.sh` (wkhtmltopdf Qt 4.8.7 HTML→PDF). Specifically: Chrome's Skia/PDF engine preserves more of the source HTML's CSS-driven typography + layout + run-in heading + table-styling + emphasis-styling than the laptop wkhtmltopdf's Qt 4.8.7 WebKit renderer does. The 2.5× file-size delta (Chrome 1,565 KB vs laptop wkhtmltopdf 585 KB; §2.1) is partly font-embedding overhead (Chrome embeds richer subsets) and partly preserved-styling-and-vector-graphics overhead.
+
+**Root cause:** Chrome 148.0.0.0 uses a modern (2026) Blink-rendering engine with current CSS spec compliance; wkhtmltopdf 0.12.6 was last updated upstream in January 2023 + uses Qt-WebKit (Qt 4.8.7 frozen long before that). The fidelity gap is structural-engine-vintage drift, not configurable via flags.
+
+**Implication for canonical-pipeline decision:** strengthens Option A recommendation (Chrome HTML→PDF as canonical for laptop side). Also relevant for Option B comparison: the remote-container Qt 5.15.13 is newer than laptop Qt 4.8.7; whether Qt 5.15.13 reaches Chrome-level CSS-fidelity is a separate visual-inspection question (not tested in this Stage 4 since remote-container Chrome was unavailable in the 2026-05-17 baseline-render container per [`build-environment.yaml`](../quality-gates/render-baselines/build-environment.yaml) line 56; the baseline used wkhtmltopdf as fallback).
+
+**Disposition:** carry-forward as canonical-pipeline-decision input. If author chooses Option A: Chrome HTML→PDF as canonical, F-RP-TA-05 confirmed-pass. If author chooses Option B: remote-container as canonical, recommend a follow-up Chrome-availability fix in the remote-container setup to surface Chrome-vs-Qt-5.15.13 CSS-fidelity comparison.
+
+### §13.3 Revised §10 verdict implications
+
+The revised canonical-pipeline picture for HTML→PDF specifically (post §13 visual review correction):
+
+- **Chrome (laptop build-derivatives.sh):** RENDERS Plane-1 char + RENDERS more visual formatting (per §13 finding) → strongest HTML→PDF option for the laptop side.
+- **wkhtmltopdf Qt 5.15.13 (remote-container baseline):** RENDERS Plane-1 char + visual-formatting fidelity vs Chrome NOT directly tested at this Stage 4 → strong HTML→PDF option for the remote-container side; canonical-pipeline-decision-grade if Option B chosen.
+- **wkhtmltopdf Qt 4.8.7 (laptop build-derivatives-alt.sh):** TOFU at Plane-1 char + reduced visual formatting per F-RP-TA-05 → **NOT VIABLE** for HTML→PDF on macOS.
+
+**Updated canonical-pipeline-decision matrix:**
+- **Option A (laptop canonical):** route HTML→PDF through Chrome only; do not use wkhtmltopdf on macOS. Per F-RP-TA-01 fix (conditional `--from`), the docx path also works.
+- **Option B (remote-container canonical):** route HTML→PDF through Qt 5.15.13 wkhtmltopdf (current baseline) OR install Chrome in the remote-container for parity with laptop-Chrome fidelity. Per F-RP-TA-01 fix, the docx path also works.
+- **Option C (dual-pipeline discipline):** both laptop-Chrome AND remote-container-wkhtmltopdf are viable per §13 data; the dual rendering would be canonical-pass at both pipelines for HTML→PDF and would surface only the F-RP-TA-05 visual-formatting-fidelity question for author preference.
+
+The hierarchy makes Option A or Option B both viable; Option C is now meaningful (would have been less so if baseline failed Plane-1 test). Author chooses based on reproducibility-vs-fidelity tradeoff weight per standardization handoff §3.4 / §6.
+
+### §13.4 Implication for the §10 main verdict (preserved as written; revised here per §13)
+
+§10's claim that "Option B is RULED OUT by F-RP-TA-02" is **CORRECTED to NOT RULED OUT** per the §13 visual inspection. The recommendation in §10 toward Option A still stands as a recommendation (Chrome HTML→PDF + F-RP-TA-01 fix + canonical-script merger), but Option B is now a substantive alternative the author can choose (with the reproducibility-vs-fidelity tradeoff). Option C is also substantively viable.
+
+**Author ratification path:** §13 author visual data ratifies in batch with the §10 Stage 4 verdict + Stage 5 sign-off per CLAUDE.md merge-to-main default for rigor-pass artifacts. The §10 verdict's "Option B RULED OUT" framing is corrected per §13.4; the rest of §10 stands.
