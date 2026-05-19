@@ -1,6 +1,6 @@
 # $100 Barrel Essay — Pre-Draft Audience-Aware Structure Pass v1.0.0 — 2026-05-19
 
-**Status:** Stage 1 deliverable under the v2.0 audience-aware drafting discipline (`feedback_audience_aware_drafting_discipline.md`; ratified 2026-05-10). Drives a Stage 2 audience-blind flow draft session. STOPS at the brief — no prose drafted in this artifact.
+**Status:** RATIFIED 2026-05-19 (see §15 below). Stage 1 deliverable under the v2.0 audience-aware drafting discipline (`feedback_audience_aware_drafting_discipline.md`; ratified 2026-05-10). Drives a Stage 2 audience-blind flow draft session. STOPS at the brief — no prose drafted in this artifact.
 
 **Workstream:** $100 Barrel essay (Workstream #16); derivative essay from withdrawn-Noema §III for Phenomenal World submission. Handoff: [`tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`](../workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md).
 
@@ -422,4 +422,18 @@ Per-prompt serial cadence per v2.0 Amendment B (preserved in v3.0). Each pass fi
 
 ---
 
-*End of Stage 1 deliverable. PROPOSED brief autonomously fast-forwards to main per CLAUDE.md rigor-pass-artifact merge-to-main default at session close. Awaiting author ratification before Stage 2 session fires.*
+---
+
+## 15. Ratification record
+
+**2026-05-19 — Author ratified Stage 1 brief.** Stage 2 cleared to fire. Author direction: "ratify, push to main and then give me text to copy and paste for stage 2 session."
+
+Q1 GO/NO-GO/CONDITIONAL rigor pass conditions verified at ratification:
+- **Condition 1 (non-partisan framing discipline)** — embedded throughout the brief: Tier 1 character #3 (center-right policy reader) installed as gating audience with dispositive non-partisan-framing test; Marx-as-scholarly-inventory disarming move embedded in §III lineage map; Rawls-as-one-of-several-convergent-frames disarming move embedded in §IV with Sandel + Parfit cross-references; Stern-Nordhaus-axis-exit disarming move embedded in §V; honest-accounting register runs THROUGH §III + §IV + §V + §VI, not only at close.
+- **Condition 2 (apparatus-stability checkpoint)** — verified by PM Session 2026-05-19 ahead of this session firing.
+
+Stage 2 session fires next per author direction. Stage 2 paste-text provided to author at session close.
+
+---
+
+*End of Stage 1 deliverable. RATIFIED brief landed on `main` 2026-05-19 (commit `5cf5913`). Ratification update follows via merge-to-main per CLAUDE.md default.*
