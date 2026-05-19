@@ -372,7 +372,7 @@ patterns:
 # ===== Scope configuration =====
 #
 # By default, scaffolding scan runs against:
-#   manuscript/chapters/Chapter_*Draft*.md
+#   manuscript/chapters/Chapter_*.md
 #   manuscript/chapters/_AUTHORSNOTE*.md
 #   manuscript/chapters/_BookLevelGuidance.md
 #   manuscript/chapters/_Dedication.md
@@ -387,7 +387,7 @@ patterns:
 
 scope:
   include:
-    - "manuscript/chapters/Chapter_*Draft*.md"
+    - "manuscript/chapters/Chapter_*.md"
     - "manuscript/chapters/_AUTHORSNOTE*.md"
     - "manuscript/chapters/_Dedication.md"
     - "publishing/essay-drafts/**/*.md"

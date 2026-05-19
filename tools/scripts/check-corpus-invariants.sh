@@ -3,7 +3,7 @@
 # check-corpus-invariants.sh — invariant-gate corpus-hygiene scan
 #
 # Runs scaffolding-pattern scan + regressed-pattern scan against scope
-# (default: manuscript/chapters/Chapter_*Draft*.md + AuthorsNote +
+# (default: manuscript/chapters/Chapter_*.md + AuthorsNote +
 # essay-drafts + op-eds). Exits non-zero on HIGH-severity match.
 # Reports MEDIUM-severity findings for review. LOW logged only.
 #
@@ -214,9 +214,10 @@ if [[ "$STAGED_ONLY" -eq 1 ]]; then
   # Pre-commit mode: scan only staged files matching scope patterns
   cd "$REPO_ROOT"
   git diff --cached --name-only --diff-filter=ACMR | while read -r f; do
-    # Match against default scope include patterns (manuscript/chapters/*Draft*.md etc.)
+    # Match against default scope include patterns. Keep in sync with the
+    # default-scope ls block below + the YAML scope:include lists.
     case "$f" in
-      manuscript/chapters/*Draft*.md) echo "$f" ;;
+      manuscript/chapters/Chapter_*.md) echo "$f" ;;
       manuscript/chapters/_AUTHORSNOTE*.md) echo "$f" ;;
       manuscript/chapters/_BookLevelGuidance.md) echo "$f" ;;
       manuscript/chapters/_Dedication.md) echo "$f" ;;
@@ -240,7 +241,7 @@ else
   # Hardcoded here to match the YAML; if YAML scope changes, update here too.
   cd "$REPO_ROOT"
   {
-    ls manuscript/chapters/Chapter_*Draft*.md 2>/dev/null || true
+    ls manuscript/chapters/Chapter_*.md 2>/dev/null || true
     ls manuscript/chapters/_AUTHORSNOTE*.md 2>/dev/null || true
     ls manuscript/chapters/_Dedication.md 2>/dev/null || true
     find publishing/essay-drafts -type f -name '*.md' 2>/dev/null \

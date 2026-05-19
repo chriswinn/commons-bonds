@@ -737,7 +737,7 @@ patterns:
 
 scope:
   include:
-    - "manuscript/chapters/Chapter_*Draft*.md"
+    - "manuscript/chapters/Chapter_*.md"
     - "manuscript/chapters/_AUTHORSNOTE*.md"
     - "manuscript/chapters/_Dedication.md"
     - "publishing/essay-drafts/**/*.md"
