@@ -115,7 +115,11 @@ For retrofit context: Pass 3.5 fires per-chapter, EXPLICITLY GATED (not auto-fir
 
 Light Pass 3.3 (acceptance) re-fire recommended after Phase C application of any ratified Pass 3.5 spot-fixes. Pass 3.4 re-fire NOT routinely warranted.
 
-Output artifact: `tools/rigor-passes/<chapter-slug>_developmental_edit_review_<date>.md`.
+**Per Amendment C (ratified 2026-05-19):** Pass 3.5 follows the interactive ratification protocol per pipeline doctrine §3.7. Per-finding format MUST include Options + Recommendation + Reasoning. Two-session workflow: (1) discovery session produces PROPOSED artifact + auto-merges to main; (2) interactive ratification + application session walks through findings + applies ratified spot-fixes to chapter source in the same combined session.
+
+Output artifact (discovery session): `tools/rigor-passes/<chapter-slug>_developmental_edit_review_<date>.md`.
+
+Output artifacts (interactive ratification + application session): §"Disposition log" appended to the same artifact + chapter source changes committed to main.
 
 ### §3.7 🚪 Stage 4 render + character-integrity audit (explicit-gate; fires at pre-external-review send + pre-publication + on author "build it now" trigger + any publishing-pipeline-script change)
 

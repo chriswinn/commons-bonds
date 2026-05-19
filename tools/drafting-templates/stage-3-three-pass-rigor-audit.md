@@ -1,8 +1,10 @@
-# Stage 3 — Five-Pass Rigor Audit (Template, v3.1)
+# Stage 3 — Five-Pass Rigor Audit (Template, v3.1 + Amendment C)
 
 **Purpose.** Post-draft rigor on a Stage 2 audience-blind flow draft (or an existing piece of prose). Five distinct passes — fact-check + voice-polish + audience-load acceptance + audience-load robustness + developmental-edit — each catching what the others miss.
 
 **v3.1 framing per pipeline-doctrine v1.0.0 Amendment B (ratified 2026-05-18):** Stage 3 extends from four-pass to five-pass with the addition of **Pass 3.5 developmental-edit** at whole-chapter scale. Pass 3.5 catches emotional-arc continuity + scene-anchor density + cumulative-LLM-cadence residue that per-paragraph Pass 3.2 cannot. Filename `stage-3-three-pass-rigor-audit.md` is canonical for cross-reference stability (historical: v2.0 was three-pass; v3.0 four-pass; v3.1 five-pass).
+
+**Amendment C addendum (ratified 2026-05-19):** prose-modifying passes (Pass 3.1 / Pass 3.2 / Pass 3.5) MUST produce per-finding artifacts with the §3.7.2 required format (Options + Recommendation + Reasoning). Ratification is INTERACTIVE — a follow-up session walks author through each finding with options + recommendation + reasoning + applies ratified spot-fixes to chapter source in the same combined session. See pipeline-doctrine v1.0.0 §3.7 for the full codification.
 
 **When to use.** Required for any publisher-facing prose >~500w before submission. Lighter version (single audience-load pass) acceptable for in-book defense paragraphs.
 

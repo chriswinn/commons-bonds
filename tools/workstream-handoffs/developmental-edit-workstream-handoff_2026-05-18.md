@@ -219,43 +219,71 @@ Per CLAUDE.md rigor-pass artifact discipline + the merge-to-main
 default for rigor-pass artifacts:
 
 ### §3.1 Per-chapter session (this workflow applies to each of the
-11 per-chapter sessions)
+11 per-chapter sessions) — UPDATED 2026-05-19 per pipeline-doctrine
+v1.0.0 Amendment C (interactive ratification protocol)
 
-1. **Session begins.** Branch from current origin/main as
+**Two-session workflow per chapter (replaces the three-step pre-
+Amendment-C pattern):**
+
+**Session 1 — Discovery:**
+
+1. Branch from current origin/main as
    `claude/ch<N>-developmental-edit-<harness-id>`. Read the chapter
    end-to-end at whole-chapter scale + the prior Pass 1 / Pass 2 /
    Pass 3.3 / Pass 3.4 artifacts + AuthorsNote + relevant raw-substrate
    dumps in `research/story-drafts/`.
 
-2. **Session produces PROPOSED artifact.** At
+2. Surface findings per Amendment C §3.7.2 per-finding format
+   (Finding ID + Severity + Location + Diagnosis + **Options** +
+   **Recommendation** + **Reasoning** + initial Author disposition: TBD).
+
+3. Produce PROPOSED artifact at
    `tools/rigor-passes/ch<N>_developmental_edit_review_<date>.md`.
-   Format per the Ch 1 template established 2026-05-18.
 
-3. **Session closes.** PROPOSED artifact autonomously fast-forward
-   merges to main per CLAUDE.md merge-to-main default for rigor-pass
-   artifacts (internal scaffolding; proposes spot-fixes; chapter file
-   unchanged in this session).
+4. PROPOSED artifact autonomously fast-forward merges to main per
+   CLAUDE.md rigor-pass merge default (chapter source untouched
+   in this session).
 
-4. **Author ratifies separately.** Author reviews PROPOSED artifact +
-   ratifies which proposed rewrites apply (option-selection per
-   finding + apply / hold disposition).
+**Session 2 — Interactive ratification + application (combined per
+Amendment C §3.7.6):**
 
-5. **Phase C spot-fix application session.** Separate session applies
-   ratified rewrites to chapter file. Disposition log captured at
-   §11 of the original PROPOSED artifact (mirroring the Pass 2
-   disposition-log pattern). Phase C application autonomously fast-
-   forward merges to main per CLAUDE.md merge-to-main default for
-   author-ratified content changes.
+5. Branch from current origin/main as
+   `claude/ch<N>-developmental-edit-ratify-apply-<harness-id>`. Read
+   the PROPOSED artifact from session 1 + the chapter source.
 
-6. **Light Pass 3.3 re-fire recommended.** After Phase C application,
-   light Pass 3.3 (acceptance) re-fire to confirm cumulative
-   acceptance verdicts hold across the affected character-set. Pass
-   3.4 (robustness) re-fire NOT routinely warranted; can be added
-   on author trigger.
+6. Walk author through each finding per Amendment C §3.7.4 format:
+   present Options + Recommendation + Reasoning → author selects
+   A/B/C/hold/other/defer → capture disposition + author rationale.
 
-7. **PM-session-handoff queues next chapter.** Next chapter's
-   developmental-edit session enters the queue per the §1.3
-   sequencing plan.
+7. **Apply ratified spot-fixes to chapter source in the same
+   session.** Each APPLY disposition produces a chapter-source
+   change; commit with the disposition log update.
+
+8. Append §"Disposition log (YYYY-MM-DD interactive ratification +
+   application session)" to the PROPOSED artifact with the
+   Amendment C §3.7.5 table format (Finding / Severity / Selected
+   option / Disposition / Author rationale / Commit short-sha).
+
+9. Both updates auto-merge to main per CLAUDE.md author-ratified
+   content-change merge default.
+
+10. **Light Pass 3.3 re-fire recommended.** After application,
+    light Pass 3.3 (acceptance) re-fire to confirm cumulative
+    acceptance verdicts hold across the affected character-set.
+    Pass 3.4 (robustness) re-fire NOT routinely warranted; can be
+    added on author trigger.
+
+11. **PM-session-handoff queues next chapter.** Next chapter's
+    developmental-edit session enters the queue per the §1.3
+    sequencing plan.
+
+**Pre-Amendment-C ratifications stay valid.** Ch 1 dev-edit
+ratification at commit `1f5c6ad` 2026-05-18 ("as recommended and
+proposed") remains valid — those dispositions are author-ratified
+per the prior workflow. **However, per Amendment C §3.7.7
+retroactive scope rule: Ch 1's Phase C application (not yet fired)
+follows Amendment C interactive protocol** — author sees each
+restoration applied in context as it lands.
 
 ### §3.2 Cross-chapter developmental-coherence session (fires once;
 after all 11 per-chapter sessions complete)

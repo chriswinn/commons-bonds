@@ -205,6 +205,136 @@ Cross-chapter empirical grounding still proceeds via the developmental-edit work
 
 `feedback_audience_aware_drafting_discipline.md` becomes **v3.1.0** (was v3.0 base + Amendment A inline). The v3.1.0 entry summarizes Pass 3.5 ratification + points to this Amendment B for the full codification. Memory-update spec at `tools/memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md` should be revised to capture the v3.1.0 framing.
 
+### §3.7 Amendment C — Interactive Ratification Protocol for Prose-Modifying Passes (Ratified 2026-05-19)
+
+**Author ratification 2026-05-19:** the existing rigor-pass artifact lifecycle (PROPOSED commit auto-merges to main; author ratifies externally; Phase C application applies ratified dispositions) does not adequately ensure prose-modifying dispositions receive deliberate author engagement. Amendment C codifies an **interactive ratification protocol** that walks author through each finding with options + recommendation + reasoning before any prose change is applied to chapter source.
+
+**§3.7.1 Scope**
+
+Amendment C applies to any pass or session that proposes PROSE CHANGES:
+
+- Pass 3.1 fact-check (factual corrections modify prose)
+- Pass 3.2 voice-polish (cuts / edits modify prose)
+- Pass 3.5 developmental-edit (restorations modify prose)
+- Phase C application sessions for any of the above (now functionally redefined as interactive ratification + application combined per §3.7.6)
+- Cross-chapter workstreams that propose prose touches (e.g., rent-seeking-engagement; spatial / temporal cross-chapter cascades)
+- Stage 1c coherence-check spot-fixes when they propose new prose (rare; usually 1c just verifies existing prose realizes commitments, but when a bibliography commitment lands mid-cycle, 1c may propose new prose)
+
+Amendment C does NOT apply to:
+
+- Stage 1a invariant scan (no prose mod)
+- Pass 3.3 audience-load acceptance + Pass 3.4 audience-load robustness (verification passes; surface findings as character-verdicts; don't directly propose prose — when their findings recommend a prose spot-fix, the spot-fix routes through Amendment C as a Stage 3 sub-action)
+- Stage 4 render-integrity audit (audit only)
+- Stage 5 sign-off + pre-pub queue (artifact generation; no prose mod)
+
+**§3.7.2 Per-finding format requirements (mandatory for Amendment-C-scoped artifacts)**
+
+Each finding in a prose-modifying-pass artifact MUST include:
+
+| Field | Description |
+|---|---|
+| Finding ID | e.g., `F-DE-Ch1-3` (pass-letter + chapter-number + sequence) |
+| Severity | HIGH / MEDIUM / LOW |
+| Location | line number + verbatim current text |
+| Diagnosis | what's wrong / flat / incorrect / lost-richness |
+| **Options** | A / B / C / hold-as-is — concrete alternative prose or actions |
+| **Recommendation** | Which option Claude recommends + why |
+| **Reasoning** | Cross-pass + cross-character + cross-chapter considerations that informed the recommendation |
+| Author disposition | Initially: TBD pending ratification; updated post-ratification with selected option + rationale |
+
+The Options + Recommendation + Reasoning fields are LOAD-BEARING for Amendment C — they're what the interactive ratification session walks through.
+
+**§3.7.3 Two-session workflow (post-Amendment-C)**
+
+Per author ratification 2026-05-19 (separate discovery from ratification; combine ratification with application):
+
+1. **Discovery session** (Stage 3 pass: 3.1, 3.2, or 3.5):
+   - Reads chapter source + prior-pass artifacts + relevant context.
+   - Surfaces findings per the §3.7.2 per-finding format requirements.
+   - Produces PROPOSED artifact (e.g., `tools/rigor-passes/ch<N>_<pass>_review_<date>.md`).
+   - Auto-merges to main per CLAUDE.md rigor-pass merge default.
+
+2. **Interactive ratification + application session** (combined; redefined Phase C under Amendment C):
+   - Reads PROPOSED artifact from session 1.
+   - Walks author through each finding per the §3.7.4 format.
+   - For each finding: author selects A / B / C / hold-as-is / other-prose / defer.
+   - **Applies ratified spot-fixes to chapter source IN THE SAME SESSION** (combined).
+   - Commits both updates in one or more commits: §"Disposition log" appended to the PROPOSED artifact + chapter source changes from applied spot-fixes.
+   - Auto-merges to main per CLAUDE.md author-ratified content-change merge default.
+
+This replaces the prior three-step pattern (Discovery → Author-external-review → Phase C application). Under Amendment C: two sessions per pass per chapter.
+
+**§3.7.4 Interactive ratification session format**
+
+Per-finding walkthrough:
+
+```
+Finding [ID] ([SEVERITY]) at line [N]: "[verbatim current text]"
+
+Diagnosis: [summary]
+
+Options:
+  A. [concrete option A]
+  B. [concrete option B]
+  C. [concrete option C]
+  D. hold-as-is
+
+Recommendation: [letter] — [why]
+
+Reasoning: [cross-pass + cross-character + cross-chapter considerations;
+trade-offs across other options]
+
+→ Author: ?
+```
+
+Author responses:
+
+- `A` / `B` / `C` — apply the selected option
+- `hold` or `D` — no change to chapter source for this finding
+- `other: [prose]` — apply author-provided prose instead
+- `defer` — leave undecided; revisit in a future session
+
+Capture each disposition + any additional author rationale in the §"Disposition log" of the PROPOSED artifact.
+
+**§3.7.5 Disposition log format**
+
+Appended to the PROPOSED artifact under a new §"§X. Disposition log (YYYY-MM-DD interactive ratification + application session)":
+
+| Finding | Severity | Selected option | Disposition | Author rationale | Commit |
+|---|---|---|---|---|---|
+| F-XXX-1 | HIGH | A | APPLY | "Recommendation matches; restoration aligns with framework-naming intent." | `<short-sha>` |
+| F-XXX-2 | MEDIUM | hold | HOLD | "Substantive register hold; cadence works as drafted." | — |
+| F-XXX-3 | LOW | Other | APPLY (modified) | "Used B's structure with sensory detail per discussion." | `<short-sha>` |
+
+Each APPLY disposition cites the commit short-sha that applied the spot-fix. HOLD dispositions have no commit (no chapter source change).
+
+**§3.7.6 Why combine ratification with application (vs separate)**
+
+Author direction 2026-05-19: **combined**. Rationale:
+
+- **Immediate feedback loop.** Author sees ratified spot-fix applied in context immediately; can correct if the application reveals a subtle issue the walkthrough didn't surface.
+- **One session, one commit-batch.** Faster than two-session pattern; preserves cadence-momentum.
+- **Pause-and-defer safety.** If a finding turns out to need more thought during the walkthrough, author can `defer` it; session continues with other findings; deferred findings revisit in a future session.
+
+The separate-sessions pattern (ratification commits disposition log; Phase C application later applies spot-fixes) is RESERVED for edge cases where the author wants explicit review of the disposition log before any chapter source changes (e.g., heavy structural revisions where author wants to validate the disposition set as a whole before any application).
+
+**§3.7.7 Retroactive scope**
+
+Pre-Amendment-C ratifications remain valid (e.g., Ch 1 developmental-edit review ratified "as recommended and proposed" per commit `1f5c6ad` 2026-05-18 — this dispositioning is author-ratified per the prior workflow). However, per author direction 2026-05-19: **Ch 1 dev-edit's Phase C application (not yet fired) follows Amendment C interactive protocol** — author sees each restoration applied in context as it lands, even though dispositions are already ratified.
+
+Net retroactive scope rule: if dispositions are ratified but application has not yet fired, the application session follows Amendment C interactive protocol. If both ratification + application are pre-Amendment-C, those stay archived as pre-Amendment-C work.
+
+**§3.7.8 Token-economy positioning**
+
+| Session type | Approx Claude tokens (chapter-scale) |
+|---|---|
+| Discovery session (Pass 3.1 / 3.2 / 3.5) | 50,000-80,000 (whole-chapter context + prior-pass artifacts + finding-extraction + per-finding drafting) |
+| Interactive ratification + application session (combined; new under Amendment C) | 10,000-25,000 (read PROPOSED artifact + per-finding walkthrough + apply ratified spot-fixes) |
+| Separate ratification-only session (edge case; for the §3.7.6 reserved pattern) | 5,000-15,000 |
+| Separate Phase C application-only session (edge case) | 5,000-15,000 |
+
+Net Amendment C overhead: ~10-15% increase per pass per chapter vs prior pattern. Disposition-quality gain is significant — every finding receives deliberate author engagement before any prose change lands.
+
 ---
 
 ## §4. Single-pipeline architecture (not parallel pipelines)
