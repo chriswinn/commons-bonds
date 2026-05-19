@@ -2,5 +2,29 @@
 **/.claude
 **/.chriswinn
 
+# Project-root .claude/settings.json is committed (SessionStart hook installing the
+# canonical render toolchain in remote-container sessions per tools/scripts/README.md).
+# Other .claude/ content (transcripts, caches, local plugins) stays ignored.
+!/.claude/
+/.claude/*
+!/.claude/settings.json
+
+# Render-output policy (ratified 2026-05-19; see tools/scripts/README.md
+# "Render-output policy"). Renders are derived artifacts; markdown sources are
+# the source of truth. Globally ignore *.docx + *.pdf; allowlist the committed-
+# evidence locations (per-recipient outreach packets, per-venue essay/book
+# submissions, the canonical style template, and CI render-verify fixtures).
+*.docx
+*.pdf
+!research/outreach/subjects/**/*.docx
+!research/outreach/subjects/**/*.pdf
+!research/submissions/**/*.docx
+!research/submissions/**/*.pdf
+!manuscript/essay/**/*.docx
+!manuscript/essay/**/*.pdf
+!tools/scripts/render-verify-fixtures/expected/**/*.docx
+!tools/scripts/render-verify-fixtures/expected/**/*.pdf
+!tools/scripts/reference.docx
+
 # xelatex build artifact — created when fonts/glyphs are missing during build-derivatives.sh runs
 missfont.log

@@ -4,12 +4,16 @@ Command-line utilities and any binary assets they depend on. Run from the repo r
 
 | File | Purpose |
 |---|---|
-| `build-derivatives.sh` | Generate standardized `.docx` + `.pdf` derivatives from `.md` and `.html` sources |
-| `build-derivatives-alt.sh` | Alt-version of the above with `-H HEADER_TEX` flag for auto-including a xelatex fallback-font header on `.md` → PDF builds. Side-by-side comparison artifact while the canonical script is iterating. |
+| `install-render-toolchain.sh` | Canonical apt-based render-toolchain installer (Ubuntu/Debian 24.04). Idempotent; supports `--check` verification and `--capture-stamp` modes. Consumed by `Dockerfile.render` (laptop + CI) and by the `.claude/settings.json` SessionStart hook (remote-container). |
+| `Dockerfile.render` | Canonical render image — `FROM --platform=linux/amd64 ubuntu:24.04` + run the installer. Mirrors the remote-container workflow (no Chrome; wkhtmltopdf is canonical for HTML→PDF). |
+| `session-start-render-toolchain.sh` | SessionStart hook wrapper invoked by `.claude/settings.json`. Gates on `CLAUDE_CODE_REMOTE=true`; fast no-op when the toolchain is already present. |
+| `build-derivatives.sh` | Generate standardized `.docx` + `.pdf` derivatives from `.md` and `.html` sources. Laptop-native default (commercial Garamond + Chrome-preferred). Not the canonical Docker pipeline. |
+| `build-derivatives-alt.sh` | Canonical script inside Docker + the remote-container. Defaults to `MAIN_FONT="EB Garamond"`; auto-includes `fallback-header.tex` on `.md` → PDF builds. |
 | `check-corpus-invariants.sh` | Invariant-gate corpus-hygiene scan (scaffolding + regressed-pattern registries). Per pipeline doctrine §2 in [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md). See `--help` for usage. |
 | `install-pre-commit-hook.sh` | Install the corpus-invariants pre-commit hook into `.git/hooks/pre-commit`. Run once per repo clone. |
 | `reference.docx` | Canonical .docx style template (Garamond 12pt, US Letter, 1" margins, soft-gray h2/h3 accent). pandoc reads its styles section automatically. Originally a copy of the Ch 6 packet-send `.docx`. |
 | `fallback-header.tex` | xelatex header snippet (fontspec + `\newunicodechar`) mapping codepoints that EB Garamond doesn't cover (U+2014 em-dash in bolded weight, U+2248 `≈`) to DejaVu Serif. Used by `build-derivatives-alt.sh`; can be passed manually to `build-derivatives.sh` via pandoc's `--include-in-header`. |
+| `render-verify-fixtures/` | Small known-good fixture + expected outputs for CI render-verification (`.github/workflows/render-verify.yml`). |
 
 ---
 
@@ -182,3 +186,182 @@ mkdir -p /tmp/check && \
 ```
 
 You should see `TechnicalAppendix_v2.0.0.docx` (~130 KB) and `TechnicalAppendix_v2.0.0.pdf` (~580 KB), plus log lines confirming which reference docx and which PDF engine were used.
+
+---
+
+## Render-output policy
+
+Ratified 2026-05-19. Renders (`.docx` + `.pdf`) are **derived artifacts** — markdown sources stay the source of truth. The discipline:
+
+| Where renders live | Committed? | When |
+|---|---|---|
+| Per-recipient outreach packets — `research/outreach/subjects/<name>/<artifact>_<date>.{docx,pdf}` | Yes | When the file ships to a named recipient (e.g., the Sandy/Darity packet 2026-05-14). The exact bytes that went out are committed as evidence-of-delivery. |
+| Per-venue submission packets — `research/submissions/<venue>/<artifact>_<date>.{docx,pdf}` | Yes | When shipping to a publisher / agent / book reviewer. (Create the dir on first use.) |
+| Per-venue essay submissions — `manuscript/essay/<venue>/<artifact>.{docx,pdf}` | Yes | When the file goes to an editor at that venue. |
+| CI render-verify expected outputs — `tools/scripts/render-verify-fixtures/expected/*.{docx,pdf}` | Yes | Tracked as the byte-stable comparison baseline. |
+| Canonical style template — `tools/scripts/reference.docx` | Yes | Pandoc's `--reference-doc=` target. |
+| Stage 4 audit renders (in-session verification) | No | Render to `/tmp` (or any throwaway dir), audit, discard. The audit findings list goes to `tools/rigor-passes/`; the render itself doesn't need committing. |
+| Author proofing renders (read on screen, mark up locally) | No | Render to wherever convenient; don't commit. |
+
+`.gitignore` enforces this: `*.docx` and `*.pdf` are globally ignored, with explicit allowlist entries for the committed-evidence locations above. A render written alongside a chapter source (e.g., `manuscript/chapters/Chapter__5_*.docx`) won't be committed by accident.
+
+When a new venue ships its first render, add the dir to the `.gitignore` allowlist if it's outside the existing patterns.
+
+---
+
+## Render-toolchain canonical pipeline (Docker via Colima)
+
+Per pipeline doctrine Stage 4 §3.3 + the render-toolchain-containerization workstream ([`render-toolchain-containerization-handoff_2026-05-18.md`](../workstream-handoffs/render-toolchain-containerization-handoff_2026-05-18.md)), the canonical render pipeline is apt-installed pandoc + xelatex + wkhtmltopdf + EB Garamond + DejaVu Serif on Ubuntu 24.04. One installer ([`install-render-toolchain.sh`](install-render-toolchain.sh)) is consumed by three contexts:
+
+- **Laptop** via Docker (Colima runtime). This README's primary path.
+- **Remote-container** via `.claude/settings.json` SessionStart hook OR the Anthropic-web-UI setup script.
+- **CI** via the [`render-verify.yml`](../../.github/workflows/render-verify.yml) workflow.
+
+### Install Colima + docker on macOS
+
+Colima is the canonical Docker runtime (fully open-source). Docker Desktop is only an alternative if you already have it. On Apple Silicon (M-series), QEMU emulates x86_64 to match the remote-container architecture — about a 5-second overhead per render.
+
+```bash
+brew install colima docker qemu lima-additional-guestagents
+colima start --arch x86_64 --cpu 4 --memory 4
+```
+
+Verify:
+
+```bash
+docker version            # client + server should both report a version
+colima status             # should show "arch: x86_64" and "runtime: docker"
+```
+
+Stop / restart later:
+
+```bash
+colima stop
+colima start              # re-uses the saved instance
+```
+
+### Build the canonical image
+
+From the repo root:
+
+```bash
+docker build --platform=linux/amd64 -t commons-bonds-render \
+  -f tools/scripts/Dockerfile.render .
+```
+
+The first build can take ~10 minutes on Apple Silicon (texlive packages under QEMU). Subsequent builds are seconds when nothing in `tools/scripts/install-render-toolchain.sh` or `tools/scripts/Dockerfile.render` changed.
+
+Verify the toolchain in the image:
+
+```bash
+docker run --rm commons-bonds-render             # runs --check, prints ✓/✗ for each component
+```
+
+### Render a chapter via Docker
+
+Inside Docker, the canonical script is `build-derivatives-alt.sh` (defaults to EB Garamond + auto-includes the fallback header — exactly the remote-container's discipline):
+
+```bash
+# .md → .docx + .pdf (alongside the source)
+docker run --rm --platform=linux/amd64 \
+  -v "$(pwd):/work" -w /work \
+  commons-bonds-render \
+  tools/scripts/build-derivatives-alt.sh \
+    manuscript/chapters/Chapter__1_TheQuietMath__Draft.md
+
+# Output into a specific directory
+docker run --rm --platform=linux/amd64 \
+  -v "$(pwd):/work" -w /work \
+  commons-bonds-render \
+  tools/scripts/build-derivatives-alt.sh \
+    -o some/output/dir \
+    manuscript/chapters/Chapter__1_TheQuietMath__Draft.md
+
+# HTML source → PDF via wkhtmltopdf (Chrome is not installed inside Docker)
+docker run --rm --platform=linux/amd64 \
+  -v "$(pwd):/work" -w /work \
+  commons-bonds-render \
+  tools/scripts/build-derivatives-alt.sh \
+    core/technical-appendix/TechnicalAppendix_v2.0.0.html
+```
+
+If invoking `build-derivatives.sh` inside Docker is needed for any reason, pass `MAIN_FONT="EB Garamond"` via env-var — its default of `Garamond` (commercial macOS-system) isn't apt-installed.
+
+### Why not run apt-installed pandoc directly on macOS?
+
+The canonical pipeline targets Ubuntu 24.04. macOS Homebrew offers different pandoc / xelatex / wkhtmltopdf versions, different default fonts, and different fontconfig behavior. Output diverges from the remote-container's. Docker (or Colima) is the way to get the canonical-pipeline output on a laptop.
+
+---
+
+## Local environment verification
+
+The installer's `--check` mode reports whether the canonical toolchain is present without installing anything. Use it as a pre-flight check before retrofit Stage 4 sessions on a fresh remote-container, or as a sanity check inside Docker:
+
+```bash
+# Inside Docker
+docker run --rm commons-bonds-render
+
+# Inside a remote-container session (after install)
+tools/scripts/install-render-toolchain.sh --check
+```
+
+A clean check looks like:
+
+```
+[install-render-toolchain --check] verifying canonical toolchain...
+  ✓ pandoc on PATH
+  ✓ xelatex on PATH
+  ✓ wkhtmltopdf on PATH
+  ✓ fc-list on PATH
+  ✓ pdftotext on PATH
+  ℹ pandoc:      3.1.3
+  ℹ xelatex:     XeTeX 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex)
+  ℹ wkhtmltopdf: 0.12.6
+[install-render-toolchain --check] verifying fonts...
+  ✓ EB Garamond present
+  ✓ DejaVu Serif present
+[install-render-toolchain --check] CLEAN.
+```
+
+Anything other than `CLEAN.` is a setup problem — either the installer hasn't run yet (run it without `--check`), or something is wrong with apt's package resolution.
+
+---
+
+## Updating the canonical when the toolchain advances
+
+When Ubuntu 24.04's apt advances (pandoc, xelatex, wkhtmltopdf, or font versions), the canonical stamp at [`tools/quality-gates/render-baselines/build-environment.yaml`](../quality-gates/render-baselines/build-environment.yaml) needs to be re-anchored. Procedure:
+
+1. Build a fresh image (no Docker layer cache):
+   ```bash
+   docker build --platform=linux/amd64 --no-cache \
+     -t commons-bonds-render -f tools/scripts/Dockerfile.render .
+   ```
+
+2. Capture the new stamp:
+   ```bash
+   docker run --rm commons-bonds-render \
+     /tmp/install-render-toolchain.sh --capture-stamp
+   ```
+
+3. Re-render the canonical Stage 4 baselines + verify outputs are still acceptable (per change-cascade routing — any toolchain change re-fires Stage 4 for affected artifacts).
+
+4. Update the `pandoc_version` + `xelatex_version` + `wkhtmltopdf_version` fields in `build-environment.yaml`. Bump `last_verified` to today's date. Commit.
+
+5. Re-render the CI fixture (`tools/scripts/render-verify-fixtures/`) under the new toolchain and update the checked-in expected outputs.
+
+---
+
+## Reference: Claude Code on web setup-script mechanism
+
+Per the [Claude Code on web docs](https://code.claude.com/docs/en/claude-code-on-the-web), there are **two** ways to install the canonical toolchain in a remote-container session:
+
+| Mechanism | Where it lives | Pros | Cons |
+|---|---|---|---|
+| **Cloud-environment setup script** (recommended) | Anthropic web UI per-environment | Cached via environment snapshot — subsequent sessions start with the toolchain already present | UI-only; not in the repo; one-time configuration step per environment |
+| **SessionStart hook** (fallback) | [`.claude/settings.json`](../../.claude/settings.json) — committed to repo | Carries with the repo; no UI configuration needed | Runs on every session start; not cached across sessions (the wrapper's `--check` fast-path mitigates this when the toolchain is already present) |
+
+For the **recommended primary mechanism**, paste the contents of [`install-render-toolchain.sh`](install-render-toolchain.sh) (or simply `bash -c '"$CLAUDE_PROJECT_DIR"/tools/scripts/install-render-toolchain.sh'`) into the **Setup script** field of the cloud-environment configuration dialog. The script runs as root on Ubuntu 24.04 — no `sudo` prefix needed. Anthropic snapshots the filesystem after a successful run; subsequent sessions in that environment start with the toolchain already on disk.
+
+The **fallback SessionStart hook** at [`.claude/settings.json`](../../.claude/settings.json) is wired up automatically — no configuration required. It gates on `CLAUDE_CODE_REMOTE=true` so it only fires in cloud sessions, and uses `--check` as a fast-path skip when the toolchain is already present.
+
+Replacing the cloud session's base image with `Dockerfile.render` is **not yet supported** by Claude Code on the web (per the docs). The Docker image is for laptop renders + CI; the remote-container uses the installer directly on top of Anthropic's provided base image.

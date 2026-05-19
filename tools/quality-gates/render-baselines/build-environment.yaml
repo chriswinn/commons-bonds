@@ -25,25 +25,32 @@ build_environment:
   last_verified_commit: "9ffad4e"  # BASE used for 4-chapter pre-render
 
   # Pipeline identification
-  pipeline_class: "remote-container"   # remote-container | laptop | mobile-device
-  pipeline_canonical_status: "PROPOSED — comparison baseline; canonical decision pending laptop-tuning rounds"
+  pipeline_class: "docker-or-remote-container"   # docker (laptop via Colima) + remote-container (Anthropic cloud) share one canonical toolchain
+  pipeline_canonical_status: "RATIFIED 2026-05-18 — Docker (laptop via Colima) + remote-container share one canonical toolchain via tools/scripts/install-render-toolchain.sh"
   canonical_decision_status: |
     Past renders via the laptop build-derivatives.sh pipeline had
     more render-failure findings than past remote-container renders
     (the Sandy packet artifacts at research/outreach/subjects/darity/
-    being the best-rendering reference). Author had a Chrome-render
-    effort in progress on the laptop pipeline at the time of the
-    Sandy packet send (hours invested). The retrofit Stage-4 dual-
-    render work IS the resumption of that laptop-pipeline-improvement
-    effort; the explicit intent is to give the laptop pipeline
-    another shot at matching or beating the remote-container baseline
-    before any canonical-pipeline ratification.
+    being the best-rendering reference).
 
-    This file documents the remote-container pipeline's toolchain so
-    the laptop pipeline can target an explicit baseline during the
-    tuning rounds. Canonical-pipeline ratification (Option A vs B
-    vs C) is deferred to after the 4 retrofit sessions' Stage-4 dual-
-    render comparisons + tuning rounds plateau.
+    Per 2026-05-18 author direction + the render-toolchain-
+    containerization workstream (see tools/workstream-handoffs/
+    render-toolchain-containerization-handoff_2026-05-18.md): the
+    canonical pipeline is now apt-installed pandoc + xelatex +
+    wkhtmltopdf + EB Garamond + DejaVu Serif on Ubuntu 24.04,
+    consumed identically by Docker (laptop) and the remote-container
+    (Anthropic cloud session). Chrome is NOT in the canonical
+    toolchain — wkhtmltopdf is canonical for HTML→PDF per the Sandy
+    packet (e6ddf92).
+
+    Reproducibility: any context that runs tools/scripts/
+    install-render-toolchain.sh ends up with this toolchain; --check
+    mode verifies presence; --capture-stamp mode emits the actually-
+    installed versions for stamp-update.
+
+    Laptop-native commercial-Garamond + Chrome-preferred rendering
+    remains a separate context for cases where laptop-native output
+    is wanted; it is NOT the canonical-pipeline output.
 
   # Toolchain versions
   pandoc_version: "3.1.3"              # via apt: pandoc + pandoc-data
@@ -60,20 +67,46 @@ build_environment:
     math_font_verified: "DejaVu Serif via fonts-dejavu (apt)"
     fallback_header: "tools/scripts/fallback-header.tex"
 
-  # Publishing-pipeline scripts (canonical-pending)
+  # Publishing-pipeline scripts (canonical pinned 2026-05-18)
   scripts:
-    # Per author direction 2026-05-17: canonical script between
-    # build-derivatives.sh and build-derivatives-alt.sh NOT YET
-    # RATIFIED. Both scripts run during each first-4-retrofit Stage 4
-    # dual-render to surface which (or which tuned variant) is the
-    # right canonical going forward.
-    canonical_pending: true
-    candidate_a: "tools/scripts/build-derivatives.sh"
-    candidate_a_notes: "canonical-in-repo; default MAIN_FONT=Garamond (commercial macOS-system); HTML→PDF prefers Chrome headless per cf24f57"
-    candidate_b: "tools/scripts/build-derivatives-alt.sh"
-    candidate_b_notes: "Claude-tuned alt per e183953; default MAIN_FONT=EB Garamond (matches sandbox); .md→PDF includes fallback-header.tex for EB Garamond's U+2014-bold + U+2248 gaps via DejaVu Serif"
+    canonical_pending: false
+    canonical_for_docker_and_remote_container: "tools/scripts/build-derivatives-alt.sh"
+    canonical_notes: |
+      Inside Docker (laptop via Colima) + the remote-container,
+      build-derivatives-alt.sh is canonical: defaults to
+      MAIN_FONT="EB Garamond" (matches the apt-installed font) and
+      auto-includes fallback-header.tex for EB Garamond's U+2014-bold
+      + U+2248 coverage gaps via DejaVu Serif. wkhtmltopdf is the
+      HTML→PDF engine since Chrome is intentionally not installed in
+      the canonical Docker image.
+    laptop_native: "tools/scripts/build-derivatives.sh"
+    laptop_native_notes: |
+      build-derivatives.sh stays in repo as the laptop-native script
+      (commercial-Garamond + Chrome-preferred). Produces different
+      output than the canonical Docker pipeline; useful for cases
+      where laptop-native rendering is explicitly wanted. Not the
+      canonical-pipeline output.
     fallback_header: "tools/scripts/fallback-header.tex"
     reference_docx: "tools/scripts/reference.docx"
+
+  # Docker recipe (canonical containerized pipeline, ratified 2026-05-18)
+  docker_recipe:
+    dockerfile: "tools/scripts/Dockerfile.render"
+    installer: "tools/scripts/install-render-toolchain.sh"
+    base_image: "ubuntu:24.04"
+    platform: "linux/amd64"   # strict; Rosetta or QEMU on Apple Silicon (~5 sec/render)
+    chrome_installed: false   # intentional — mirrors remote-container; see workstream handoff §0
+    session_start_hook: ".claude/settings.json (SessionStart hook gated on CLAUDE_CODE_REMOTE=true)"
+    laptop_runtime: "Colima — brew install colima docker qemu lima-additional-guestagents; colima start --arch x86_64 --cpu 4 --memory 4"
+    notes: |
+      Per workstream handoff §4.3 + Stage 4 doctrine §3.3: Docker
+      mirrors the remote-container workflow (NOT the laptop-native
+      workflow). Strict --platform=linux/amd64 ensures byte-level
+      reproducibility against remote-container (which is x86_64).
+      The remote-container session uses install-render-toolchain.sh
+      via the .claude/settings.json SessionStart hook OR via the
+      Anthropic cloud-environment-UI setup script (recommended for
+      faster session start due to environment caching).
 
   # Pandoc invocation tweak (recorded for reproducibility)
   pandoc_input_format_override: "markdown-yaml_metadata_block"
@@ -89,70 +122,37 @@ build_environment:
     This override should be incorporated into build-derivatives.sh
     as a default for pandoc 3.x compatibility.
 
-# Comparison-render baselines (per chapter, BASE commit 9ffad4e)
+# Canonical-pipeline reference artifacts (Sandy packet)
 #
-# Remote-container renders live at:
-#   tools/scripts/comparison-renders/<chapter-slug>_2026-05-17_9ffad4e/remote-container/
-# Laptop renders live at:
-#   tools/scripts/comparison-renders/<chapter-slug>_2026-05-17_9ffad4e/laptop/
-#   (TBD by user running build-derivatives.sh on laptop; pre-render delta with this file's toolchain.)
+# The Sandy packet (delivered to William Darity Jr. 2026-05-14 at commit
+# e6ddf92) is the canonical style-and-byte reference for the apt-installed
+# pipeline. Files at:
+#   research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_with-citations_2026-05-14.{docx,pdf}
+#   research/outreach/subjects/darity/Chapter_6_Three_Ways_of_Counting_with-citations_2026-05-14.{docx,pdf}
+#   research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_with-citations_2026-05-14.{docx,pdf}
 #
-# Sandy packet canonical-remote-container artifacts (Ch 5 + Ch 6 + TA only;
-# generated commit e6ddf92, 2026-05-14):
-#   research/outreach/subjects/darity/Chapter_5_The_Accountability_Gap_2026-05-14.{docx,pdf}
-#   research/outreach/subjects/darity/Chapter_6_Three_Ways_of_Counting_2026-05-14.{docx,pdf}
-#   research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.{docx,pdf}
-#
-# Byte-level match table (this session's renders vs Sandy packet
-# CANONICAL with-citations artifacts from commit e6ddf92, 2026-05-15):
-#   Ch 5 docx: 38,573 vs 38,494 (~exact)
-#   Ch 5 pdf:  121,523 vs 121,516 (✓ exact)
-#   Ch 6 docx: 44,477 vs 44,402 (~exact)
-#   Ch 6 pdf:  143,832 vs 143,831 (✓ exact)
-#   TA docx:   129,517 vs 129,517 (✓ exact)
-#   TA pdf:    613,750 vs 582,982 (~5% delta; both wkhtmltopdf;
-#              likely minor bibliography/layout difference)
-#
-# Note on TA PDF engine: per the e6ddf92 commit message, the Sandy
-# packet TA PDF was rendered with **wkhtmltopdf** (NOT Chrome).
-# Earlier framing in this file conflated Chrome-vs-wkhtmltopdf with
-# laptop-vs-remote-container; correction 2026-05-17: the Sandy packet's
-# HTML→PDF path was wkhtmltopdf at e6ddf92 time. Chrome-preferred
-# (commit cf24f57) landed 39 minutes AFTER e6ddf92 — for future
-# renders, not for the Sandy packet itself.
-#
-# Conclusion: markdown-side renders reproduce Sandy pipeline at byte
-# level; TA PDF reproduces Sandy pipeline within ~5% (same engine
-# class — wkhtmltopdf — different versions / configurations explain
-# the minor delta). The earlier "Chrome was canonical for Sandy"
-# framing was wrong; the Sandy packet was 100% pandoc + xelatex +
-# wkhtmltopdf + reference.docx + EB Garamond per e6ddf92's documented
-# pipeline.
+# Per the 2026-05-18 render-toolchain-containerization workstream's verification:
+# Docker (Colima, --platform=linux/amd64) render of Ch 5/Ch 6 source at 9ffad4e
+# produces .docx byte-exact against the comparison-baseline (Sandy with-citations
+# docx within zip-metadata-timestamp tolerance) and .pdf within engine-version
+# delta for HTML→PDF (TA PDF: same wkhtmltopdf class; minor configuration delta).
+# Sandy's HTML→PDF path was wkhtmltopdf (not Chrome) per e6ddf92 — the
+# canonical Docker pipeline does NOT install Chrome.
 
 notes: |
-  POPULATED 2026-05-17 from the standardization-workstream
-  comparison-baseline pre-renders. Toolchain installed via apt
-  in this remote container (pandoc + texlive-xetex + wkhtmltopdf +
-  fonts-ebgaramond + fonts-dejavu).
+  CANONICAL-PIPELINE RATIFIED 2026-05-18 (render-toolchain-containerization
+  workstream): apt-installed pandoc + xelatex + wkhtmltopdf + EB Garamond +
+  DejaVu Serif on Ubuntu 24.04. Same toolchain consumed identically by Docker
+  (laptop via Colima) and the Anthropic remote-container. Single source of
+  truth: tools/scripts/install-render-toolchain.sh + tools/scripts/Dockerfile.render.
 
-  CANONICAL-PIPELINE DECISION PENDING (as of 2026-05-17): the remote-
-  container pipeline is the BASELINE TO MATCH during laptop-pipeline-
-  tuning rounds across the 4 first-retrofit chapters. Author resumes
-  laptop-pipeline-improvement effort (Chrome render was in progress;
-  hours invested at time of Sandy packet send) during the retrofit
-  Stage-4 dual-render comparisons. Canonical ratification (Option A
-  tune laptop / Option B adopt remote-container / Option C dual-
-  discipline) deferred to after tuning rounds plateau.
+  Reference renders (Sandy packet, canonical style baseline):
+   - research/outreach/subjects/darity/ for Ch 5 + Ch 6 + TA (with-citations
+     variants are the canonical-style reference per 2026-05-18 author direction).
 
-  Reference renders for the comparison baseline (remote-container
-  pipeline):
-   - Sandy packet artifacts (Chrome-rendered) at
-     research/outreach/subjects/darity/ for Ch 5 + Ch 6 + TA.
-   - 2026-05-17 pre-renders at
-     tools/scripts/comparison-renders/<chapter>_2026-05-17_9ffad4e/remote-container/
-     for Ch 1 + Ch 5 + Ch 6 + TA. TA PDF in that dir is wkhtmltopdf-
-     fallback (this container's Chrome unavailable); canonical
-     Chrome-rendered TA PDF reference is the Sandy packet's.
+  Earlier draft-time A/B comparison artifacts at tools/scripts/comparison-renders/
+  were removed 2026-05-19 once the canonical pipeline decision rendered the
+  laptop-vs-remote-container A/B work moot.
 
   OPEN FOLLOW-UPS (do not block; tracked for resolution):
     1. Reproducibility of past remote-container renders is incomplete
