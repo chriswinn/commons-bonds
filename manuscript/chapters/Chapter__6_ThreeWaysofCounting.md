@@ -1,4 +1,7 @@
 # Commons Bonds
+*By Chris Winn*
+
+
 
 ## Chapter 6: Three Ways of Counting
 

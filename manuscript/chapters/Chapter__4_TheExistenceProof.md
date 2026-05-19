@@ -1,8 +1,11 @@
 # Commons Bonds
+*By Chris Winn*
 
-By Chris Winn
+
 
 ## Chapter 4: The Existence Proof
+
+---
 
 In 1969, three days before Christmas, a drill bit in the North Sea struck oil on a Norwegian concession called Block 2/4. The well would become Ekofisk. Within a year it was clear that Norway — a country of fewer than four million people, a cold Atlantic fishing economy on the margin of Europe — had found itself sitting on one of the largest petroleum reservoirs in the industrialized world.
 

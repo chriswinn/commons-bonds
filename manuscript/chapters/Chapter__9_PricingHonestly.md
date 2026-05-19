@@ -1,8 +1,11 @@
 # Commons Bonds
+*By Chris Winn*
 
-By Chris Winn
+
 
 ## Chapter 9: Pricing Honestly
+
+---
 
 Chapter 8 put a number on the invoice.
 

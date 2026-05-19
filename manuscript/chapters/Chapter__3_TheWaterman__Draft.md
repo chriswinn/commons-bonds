@@ -1,7 +1,7 @@
 # Commons Bonds
 *By Chris Winn*
 
----
+
 
 ## Chapter 3: The Waterman
 

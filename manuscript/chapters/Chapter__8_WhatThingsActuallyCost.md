@@ -1,8 +1,7 @@
----
-
 # Commons Bonds
+*By Chris Winn*
 
-By Chris Winn
+
 
 ## Chapter 8: What Things Actually Cost
 

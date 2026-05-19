@@ -1,7 +1,7 @@
 # Commons Bonds
 *By Chris Winn*
 
----
+
 
 ## Chapter 2: The Miner
 

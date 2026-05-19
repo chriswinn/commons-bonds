@@ -1,10 +1,12 @@
----
+# Commons Bonds
+*By Chris Winn*
 
-Now Chapter 7 (inline prose, no formulas required; markdown summary table).
 
----
+
 
 ## Chapter 7: On Other Worlds
+
+---
 
 Imagine, for a moment, that the argument this book has been making is wrong — not in its moral framing, not in its sympathy for the communities the framework is meant to protect, but in its technical claim. The claim is that extraction is systematically underpriced because no existing framework captures the full intergenerational cost of foreclosure. Perhaps, a careful reader might say, this is a feature of the particular political economy of extraction on Earth — the specific way lobbyists and governments and industry groups have colluded to keep certain costs off the books — rather than a structural fact about how resource pricing works anywhere.
 

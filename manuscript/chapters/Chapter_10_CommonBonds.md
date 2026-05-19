@@ -1,6 +1,7 @@
 # Commons Bonds
+*By Chris Winn*
 
-By Chris Winn
+
 
 ## Chapter 10: Common Bonds
 
