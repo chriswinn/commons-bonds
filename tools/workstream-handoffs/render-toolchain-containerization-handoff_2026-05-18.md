@@ -12,6 +12,16 @@
 
 ## §0. Background — how this surfaced
 
+**Critical framing per author direction 2026-05-18 (late-session clarification):** the Docker container is a **mirror of the remote-container workflow**, NOT the laptop-native workflow. The remote-container workflow produced the Sandy packet artifacts the author considers best-rendering for the corpus; the laptop-native workflow (with commercial Garamond + Chrome-preferred HTML→PDF) is a separate, parallel rendering context with different defaults. The Docker context's purpose is to give every machine (laptop, future-author, collaborators) access to the remote-container's rendering quality without depending on Anthropic's cloud session lifecycle.
+
+This means:
+
+- **Inside Docker:** canonical invocation uses `build-derivatives-alt.sh` (defaults to `EB Garamond` + `fallback-header.tex`-included for .md→.pdf — matches the remote-container's mainfont + fallback discipline). The build-derivatives.sh canonical-in-repo script remains, but inside Docker its `MAIN_FONT="Garamond"` (commercial macOS-system) default falls back to xelatex's default font since commercial Garamond isn't apt-installed; pass `MAIN_FONT="EB Garamond"` via env-var if invoking that script in Docker is needed.
+- **Inside Docker:** Chrome is intentionally NOT installed. `build-derivatives.sh`'s "prefer Chrome; fall back to wkhtmltopdf" logic naturally selects wkhtmltopdf, which IS the remote-container canonical engine for HTML→PDF (per `e6ddf92` Sandy packet pipeline; not Chrome — the `cf24f57` Chrome-preferred update landed 39 minutes AFTER Sandy packet generation and applies only to native-laptop contexts).
+- **Laptop-native** (outside Docker) remains a separate rendering context with commercial Garamond + Chrome preference; produces different output than Docker; author uses for specific cases where laptop-native rendering is preferred.
+
+---
+
 The 2026-05-17 standardization workstream surfaced two reproducibility weaknesses:
 
 1. **Past remote-container sessions documented their toolchain partially.** Commit `e6ddf92` (Sandy packet, 2026-05-15) documented the rendering ARCHITECTURE (pandoc + xelatex + wkhtmltopdf + reference.docx + EB Garamond) but NOT specific versions (pandoc 2.x vs 3.x; xelatex from which TeX Live; wkhtmltopdf 0.12.6 with which Qt). Each new remote-container session apt-installs the toolchain fresh + version drift across sessions is possible.
@@ -109,7 +119,7 @@ Required behavior:
 
 ### §4.3 The Dockerfile — `Dockerfile.render`
 
-Lean. ~10-15 lines:
+Lean. ~10-15 lines. **Deliberately does NOT install Chrome** — the Docker context mirrors the remote-container workflow, where HTML→PDF uses wkhtmltopdf per the Sandy packet pipeline (`e6ddf92`).
 
 ```dockerfile
 FROM --platform=linux/amd64 ubuntu:24.04
@@ -118,7 +128,7 @@ COPY tools/scripts/install-render-toolchain.sh /tmp/
 COPY tools/scripts/fallback-header.tex /tmp/
 COPY tools/scripts/reference.docx /tmp/
 RUN /tmp/install-render-toolchain.sh
-# Optional: COPY in build-derivatives.sh + entrypoint for direct render invocation
+# Optional: COPY in build-derivatives-alt.sh + entrypoint for direct render invocation
 ```
 
 Build:
@@ -126,16 +136,26 @@ Build:
 docker build -t commons-bonds-render -f tools/scripts/Dockerfile.render .
 ```
 
-Run a render:
+Run a render (canonical = `build-derivatives-alt.sh` because it defaults to EB Garamond + includes fallback-header.tex, matching the remote-container's discipline):
+
 ```bash
 docker run --rm \
   -v $(pwd):/work \
   -w /work \
   commons-bonds-render \
-  tools/scripts/build-derivatives.sh manuscript/chapters/Chapter__1_TheQuietMath__Draft.md
+  tools/scripts/build-derivatives-alt.sh manuscript/chapters/Chapter__1_TheQuietMath__Draft.md
+```
+
+For HTML sources (TA), the same script handles it — wkhtmltopdf is automatically used since Chrome isn't installed; the script's "prefer Chrome; fall back to wkhtmltopdf" routing engages wkhtmltopdf cleanly in the Docker context:
+
+```bash
+docker run --rm -v $(pwd):/work -w /work commons-bonds-render \
+  tools/scripts/build-derivatives-alt.sh core/technical-appendix/TechnicalAppendix_v2.0.0.html
 ```
 
 Architecture pinning: `--platform=linux/amd64` ensures byte-level output reproducibility between local Docker + remote-container (which is x86_64). On Apple Silicon, runs under Rosetta with negligible CPU overhead (~5 seconds per render).
+
+**Why `build-derivatives-alt.sh` and not `build-derivatives.sh` inside Docker:** `build-derivatives.sh` defaults to `MAIN_FONT="Garamond"` (commercial macOS-system Garamond) — not installed in apt; xelatex would fall back to its default font, producing different output than the remote-container's `EB Garamond`-rendered Sandy packet baseline. `build-derivatives-alt.sh` defaults to `EB Garamond` + auto-includes fallback-header.tex — exactly the remote-container workflow. If invoking `build-derivatives.sh` inside Docker is needed for any reason, pass `MAIN_FONT="EB Garamond"` explicitly via env-var.
 
 ### §4.4 Remote-container setup hook
 
