@@ -1,0 +1,46 @@
+# Dockerfile.render — canonical render toolchain for commons-bonds.
+#
+# Mirrors the remote-container workflow (Anthropic cloud session): apt-installed
+# pandoc + xelatex + wkhtmltopdf + EB Garamond + DejaVu Serif on Ubuntu 24.04.
+# Chrome is intentionally NOT installed — see workstream handoff §0 + §4.3.
+#
+# Architecture pinning is strict: --platform=linux/amd64 ensures byte-level
+# reproducibility against the remote-container baseline (which is x86_64).
+# On Apple Silicon the build / run executes under Rosetta or QEMU emulation
+# (~5 second overhead per render).
+#
+# Build:
+#   docker build --platform=linux/amd64 -t commons-bonds-render -f tools/scripts/Dockerfile.render .
+#
+# Render a chapter (canonical = build-derivatives-alt.sh because it defaults
+# to EB Garamond + includes fallback-header.tex):
+#   docker run --rm \
+#     --platform=linux/amd64 \
+#     -v "$(pwd):/work" -w /work \
+#     commons-bonds-render \
+#     tools/scripts/build-derivatives-alt.sh manuscript/chapters/Chapter__1_TheQuietMath__Draft.md
+#
+# See tools/scripts/README.md for the Colima setup + full invocation guide.
+
+FROM --platform=linux/amd64 ubuntu:24.04
+
+WORKDIR /work
+
+# Avoid tzdata + similar interactive prompts during apt-get install.
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Copy the canonical installer + the fallback-header + reference-docx that
+# build-derivatives-alt.sh depends on. The installer is the single source of
+# truth for the apt package set; this image is just "Ubuntu 24.04 + run the
+# canonical installer."
+COPY tools/scripts/install-render-toolchain.sh /tmp/install-render-toolchain.sh
+COPY tools/scripts/fallback-header.tex /tmp/fallback-header.tex
+COPY tools/scripts/reference.docx /tmp/reference.docx
+
+RUN chmod +x /tmp/install-render-toolchain.sh && \
+    /tmp/install-render-toolchain.sh && \
+    rm -rf /var/lib/apt/lists/*
+
+# Default command surfaces the installer's --check mode so `docker run --rm
+# commons-bonds-render` reports a healthy environment without args.
+CMD ["/tmp/install-render-toolchain.sh", "--check"]

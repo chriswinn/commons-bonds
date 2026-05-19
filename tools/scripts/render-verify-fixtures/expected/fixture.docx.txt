@@ -1,0 +1,28 @@
+Render-Verify Fixture
+
+By Test Harness
+
+This is a small known-good fixture exercising the codepoints that EB
+Garamond historically struggled with — the em-dash inside bolded run-in
+subheads like this — Method 1, and the approximation symbol such as
+CS ≈ 0.
+
+A canonical Greek letter: α. A canonical minus sign in math:  − 1.
+
+Section heading
+
+A second paragraph to exercise heading rendering. Plain prose with no
+math.
+
+Method 2 — Replacement Cost. A bolded run-in subhead exercising the
+em-dash-in-bold gap.
+
+  -----------------------------------------------------------------------
+  Column A                            Column B
+  ----------------------------------- -----------------------------------
+  1                                   one
+
+  2                                   two
+  -----------------------------------------------------------------------
+
+A trailing paragraph to verify table-cap rendering.
