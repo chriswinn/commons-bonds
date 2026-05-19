@@ -3,8 +3,9 @@
 **Date:** 2026-05-16
 **Workstream:** #20 Manuscript Stage-3 Rigor Pass — Phase A (per-chapter audits)
 **Chapter:** 8 — *What Things Actually Cost*
-**File audited:** [Chapter__8_WhatThingsActuallyCost_Draft.md](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md)
-**Line count:** 242 lines (per `wc -l`, verified at session start)
+**File audited:** [Chapter__8_WhatThingsActuallyCost.md](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md)
+**Line count at audit (commit `7141634` base):** 242 lines (per `wc -l`).
+**Line count post-audit (current `origin/main`):** 243 lines (chapter underwent file rename + front-matter rendering fix + new RATIFIED rent-seeking paragraph at line 122 between audit + Phase C planning — see §12 Update note).
 **Pass scope:** Pass 1 (Fact-check) only per v2.0 Amendment B discipline. Pass 2 (Voice-polish) + Pass 3 (Audience-load) deferred to subsequent sessions per per-prompt serial cadence.
 **Mode:** Audit-existing-prose (no Stage 1 brief for Ch 8 — chapter file IS the prose under audit; fact-checks verify against external canonical sources, cross-chapter consistency inventory, apparatus register, and bibliography).
 **Hard constraint observed:** No spot-fixes applied to chapter file. Phase C session (post-author-ratification) applies recommended edits.
@@ -68,7 +69,7 @@ The $44B Program-vs-Trust-Fund fix per commit `cacb82d` (2026-05-15) is **intact
 
 ### HIGH-1: Kennedy "stood near a mine in 1960" — scene-anchor unsupported by primary record; diverges from Ch 2 canonical framing
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:25](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:25)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:25](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:25)
 
 **Chapter text:**
 > "Return to McDowell County. Return to **the mine Kennedy stood near in 1960**, to the county that produced more coal than any other in the United States while its residents queued for surplus food."
@@ -88,7 +89,7 @@ The $44B Program-vs-Trust-Fund fix per commit `cacb82d` (2026-05-15) is **intact
 
 ### HIGH-2: U.S. Steel Gary mine closure year — 1990 in Ch 8 vs 1986 per canonical sources + Ch 2 "late 1980s"
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:59](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:59)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:59](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:59)
 
 **Chapter text:**
 > "The U.S. Steel mine closure **in 1990** dropped personal income in the county by two-thirds in a single year."
@@ -108,7 +109,7 @@ The $44B Program-vs-Trust-Fund fix per commit `cacb82d` (2026-05-15) is **intact
 
 ### HIGH-3: IPG range "four and a hundred and twenty" — diverges from canonical 33–122× lock per Ch 2 + Ch 6 + cross-chapter inventory
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:167](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:167)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:167](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:167)
 
 **Chapter text:**
 > "The Intergenerational Pricing Gap — the ratio of honest price to market price — for McDowell County coal, at the low end of every component, is somewhere **between four and a hundred and twenty**. The range is wide because the market price varies by era. The floor is high because the carbon term dominates anything the market has ever paid for a ton of coal."
@@ -134,7 +135,7 @@ Both are arithmetically valid IPG framings, but they're not directly comparable,
 
 ### HIGH-4: McDowell drug-death-rate national multiplier — "close to ten times" diverges from Ch 2's "five times" for same 141/100K figure
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:59](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:59)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:59](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:59)
 
 **Chapter text:**
 > "In 2015, the county recorded the highest drug-induced death rate of any county in America — one hundred forty-one per hundred thousand, **close to ten times the national rate**."
@@ -161,7 +162,7 @@ Both multipliers are mathematically defensible against their respective national
 
 ### MEDIUM-1: Dunbar quoted text — punctuation + capitalization deviate from canonical poem
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:93](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:93)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:93](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:93)
 
 **Chapter text:**
 > "Paul Laurence Dunbar wrote *We Wear the Mask* in 1896: *we wear the mask that grins and lies, it hides our cheeks and shades our eyes; this debt we pay to human guile.*"
@@ -192,7 +193,7 @@ The chapter compresses the poem's first three lines into an inline italicized qu
 
 ### MEDIUM-2: Rennert et al. 2022 *Nature* "meta-analysis" mischaracterized — is integrated estimate, not meta-analysis
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:73](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:73)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:73](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:73)
 
 **Chapter text:**
 > "The EPA's most recent estimate of the social cost of carbon — the economic damage caused by each ton of CO₂ released, anchored to the Rennert et al. 2022 *Nature* **meta-analysis** that grounded the 2023 EPA update — is one hundred and ninety dollars."
@@ -212,7 +213,7 @@ The chapter compresses the poem's first three lines into an inline italicized qu
 
 ### MEDIUM-3: Internal $0.80/ton arithmetic inconsistency — line 35 says "since 1969" denominator; line 39 says "1960 to 2020" denominator; same per-ton figure
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:35](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:35) + [Chapter__8_WhatThingsActuallyCost_Draft.md:39](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:39)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:35](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:35) + [Chapter__8_WhatThingsActuallyCost.md:39](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:39)
 
 **Chapter text — line 35:**
 > "The per-ton arithmetic for purposes of this chapter is the headline number: roughly **eighty cents per ton** allocated against the national coal tonnage produced **since the Program's 1969 establishment**."
@@ -241,7 +242,7 @@ This is consistent with Ch 6 line 21's framing of "approximately $44 billion in 
 
 ### MEDIUM-4: Running-total range $8–$22 (line 65) uses high-end community figure ($15) the chapter explicitly rejected ($5 chosen)
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:63](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:63) + [Chapter__8_WhatThingsActuallyCost_Draft.md:65](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:65)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:63](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:63) + [Chapter__8_WhatThingsActuallyCost.md:65](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:65)
 
 **Chapter text — line 63:**
 > "Economists who study regional collapse have methodologies for pricing this; the figures they produce for sustained regional decline sit in the range of **five to fifteen dollars per ton** of extracted coal when allocated to the extraction that drove the collapse. **I'll use the low end. Five dollars per ton.**"
@@ -264,7 +265,7 @@ This is consistent with Ch 6 line 21's framing of "approximately $44 billion in 
 
 ### MEDIUM-5: "Ten million foreclosures" at line 191 — does not distinguish filings (RealtyTrac ~10M) vs completed (CoreLogic ~5M) per cross-chapter inventory canonical
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:191](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:191)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:191](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:191)
 
 **Chapter text:**
 > "The housing-bubble collapse destroyed approximately eleven trillion dollars in U.S. household wealth and triggered roughly **ten million foreclosures** over the following five years."
@@ -286,7 +287,7 @@ Ch 8 line 191 uses "ten million foreclosures" without specifying filings-vs-comp
 
 ### MEDIUM-6: $4.50/ton 1960 coal price — defensibly approximate but national figure is $4.71; Appalachian-specific not anchored
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:25](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:25)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:25](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:25)
 
 **Chapter text:**
 > "A ton of coal sold at the mine mouth that year for **roughly $4.50**."
@@ -306,7 +307,7 @@ Ch 8 line 191 uses "ten million foreclosures" without specifying filings-vs-comp
 
 ### MEDIUM-7: SMCRA acreage "633,000 acres" — Sierra Club source says "nearly a million acres" nationwide; chapter does not clarify scope
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:49](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:49)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:49](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:49)
 
 **Chapter text:**
 > "Across Appalachia, the reclamation bonds coal companies were required to post under the 1977 Surface Mining Control and Reclamation Act currently fall between three and a half and six billion dollars short of the documented remediation need. **Six hundred thirty-three thousand acres are awaiting cleanup.** The available bonds total three point eight billion against cleanup costs estimated at seven and a half to nine point eight billion. The gap — four to six billion — is the severed cost sitting in the federal ledger in plain sight, waiting for a funding source that the law assumed would exist and doesn't."
@@ -328,7 +329,7 @@ The dollar figures match the Sierra Club source within the chapter's tighter ran
 
 ### MEDIUM-8: "$140 today" coal price — defensible at the high end of recent metallurgical / premium grades but not at all current
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:75](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:75) + [Chapter__8_WhatThingsActuallyCost_Draft.md:165](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:165)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:75](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:75) + [Chapter__8_WhatThingsActuallyCost.md:165](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:165)
 
 **Chapter text — line 75:**
 > "Against a market price that has oscillated between **four dollars and a hundred and forty dollars** over the life of the industry."
@@ -356,7 +357,7 @@ The "$40 to $140 today, depending on grade" range covers most US thermal + lower
 
 ### LOW-1: Du Bois / Ellison / Fanon — no specific work + year cited at line 93 engagement
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:93](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:93)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:93](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:93)
 
 **Chapter text:**
 > "Dunbar named the strategy of survival. **Du Bois named the structural condition that required it. Fanon extended the analysis into the colonial-economic register the framework's extraction-community cases sit closest to. Ellison gave the long-form narrative of life under the mask.** The framework adds the cost-accounting mechanism by which the mask remains structurally necessary."
@@ -380,7 +381,7 @@ The "$40 to $140 today, depending on grade" range covers most US thermal + lower
 
 ### LOW-2: Dunbar 1895 vs 1896 — defensible per *Lyrics of Lowly Life* publication; poem was written 1895
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:93](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:93)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:93](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:93)
 
 **Chapter text:**
 > "Paul Laurence Dunbar wrote *We Wear the Mask* in **1896**"
@@ -397,7 +398,7 @@ The "$40 to $140 today, depending on grade" range covers most US thermal + lower
 
 ### LOW-3: Exxon Valdez "eleven million gallons that reached the sound" — phrasing slip (the spill occurred *in* the sound)
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:173](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:173)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:173](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:173)
 
 **Chapter text:**
 > "The Exxon Valdez spill, measured against the market value of **the eleven million gallons that reached the sound**, produced an IPG that defies simple calculation only because the recovery was never completed."
@@ -414,7 +415,7 @@ The "$40 to $140 today, depending on grade" range covers most US thermal + lower
 
 ### LOW-4: SCC trajectory — Obama "$42 per ton through EO 12866 implementation" — compressed framing
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:119](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:119)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:119](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:119)
 
 **Chapter text:**
 > "Under the Obama administration it was set at **forty-two dollars per ton through Executive Order 12866 implementation**, anchored to global-scope externality calculation."
@@ -431,7 +432,7 @@ The "$40 to $140 today, depending on grade" range covers most US thermal + lower
 
 ### LOW-5: 2024 Harvard JCHS — specific market lists (SF/NY/Boston/Seattle vs Atlanta/Phoenix/Houston/Charlotte) — illustrative; not directly citable to JCHS report
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:185](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:185)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:185](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:185)
 
 **Chapter text:**
 > "The 2024 Harvard JCHS report documents the rise in cost-burdened share simultaneously in supply-restricted markets (**San Francisco, New York, Boston, Seattle**) and in markets where supply has expanded substantially relative to baseline (**Atlanta, Phoenix, Houston, Charlotte**)."
@@ -449,10 +450,10 @@ The "$40 to $140 today, depending on grade" range covers most US thermal + lower
 ### LOW-6: Time-sensitive figures — pre-publication refresh required
 
 **Locations:**
-- [Chapter__8_WhatThingsActuallyCost_Draft.md:59](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:59) — McDowell 2022 median income $28,235; poverty rate 37.6%; 16th-poorest US ranking.
-- [Chapter__8_WhatThingsActuallyCost_Draft.md:73](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:73) — SCC $190 (EPA 2023 RIA, year-2020 emissions vintage; rises to $204 by 2023, $230 by 2030).
-- [Chapter__8_WhatThingsActuallyCost_Draft.md:75](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:75) + line 165 — coal market price $40–$140 today.
-- [Chapter__8_WhatThingsActuallyCost_Draft.md:187](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:187) — DOJ RealPage investigation "since 2022" (settlement filed November 2025; investigation has matured into settlement).
+- [Chapter__8_WhatThingsActuallyCost.md:59](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:59) — McDowell 2022 median income $28,235; poverty rate 37.6%; 16th-poorest US ranking.
+- [Chapter__8_WhatThingsActuallyCost.md:73](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:73) — SCC $190 (EPA 2023 RIA, year-2020 emissions vintage; rises to $204 by 2023, $230 by 2030).
+- [Chapter__8_WhatThingsActuallyCost.md:75](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:75) + line 165 — coal market price $40–$140 today.
+- [Chapter__8_WhatThingsActuallyCost.md:187](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:187) — DOJ RealPage investigation "since 2022" (settlement filed November 2025; investigation has matured into settlement).
 
 **Canonical truth (as of May 2026):** All accurate as of session date. McDowell County figures are 2022 Census; SCC $190 is EPA 2023 RIA central; coal prices fluctuate; DOJ RealPage moved from investigation (Nov 2022) to antitrust complaint (2024) to proposed settlement (Nov 2025).
 
@@ -466,7 +467,7 @@ The "$40 to $140 today, depending on grade" range covers most US thermal + lower
 
 ### LOW-7: Fort McKay First Nation — Treaty 8 attribution not directly confirmed in primary-search results (well-documented elsewhere)
 
-**Location:** [Chapter__8_WhatThingsActuallyCost_Draft.md:177](manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:177)
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:177](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:177)
 
 **Chapter text:**
 > "The Athabasca Chipewyan First Nation, Mikisew Cree First Nation, and **Fort McKay First Nation**, whose traditional territories under Treaty 8 of 1899 sit above and beside the bitumen deposits, have documented elevated cancer rates in downstream communities, contaminated traditional-food sources, and consultation-and-consent failures the Canadian courts have engaged repeatedly without resolving the structural arrangement."
@@ -696,4 +697,117 @@ Audience pressure-test characters for Pass 3 future session. Pass 1 surfaced no 
 
 ---
 
-*End of Pass 1 (Fact-check) for Chapter 8. Pass 2 + Pass 3 deliverables to be produced in subsequent sessions per workstream #20 phasing.*
+*End of Pass 1 (Fact-check) base artifact (audit-time state at commit `210b02c`).*
+
+---
+
+## §12. Update note — post-audit Ch 8 state changes (2026-05-19)
+
+Three commits landed on `origin/main` between Pass 1 audit completion (commit `210b02c`, 2026-05-16) and Phase C planning (2026-05-19). All findings in §3 + verifications in §4 remain valid against the audited content; only line numbers + file path require remapping for Phase C application. One small new fact-check note added at LOW severity.
+
+### §12.1 Commits affecting Ch 8
+
+| Commit | Date | Effect |
+|---|---|---|
+| `a1e54d9` → `bc02767` | 2026-05-17 PROPOSED → 2026-05-18 RATIFIED | **NEW paragraph at line 122** inside §Political Capture Cost, inserted between former line 121 (lobbying-spend paragraph) and former line 123 ($1/ton assignment). Cross-chapter rent-seeking engagement workstream (Public Choice complementarity). RATIFIED + APPLIED. |
+| `a09e319` | 2026-05-18 | **File rename:** `Chapter__8_WhatThingsActuallyCost_Draft.md` → `Chapter__8_WhatThingsActuallyCost.md` (corpus-wide `__Draft` suffix drop). |
+| `e1a533e` | 2026-05-18 | **Front-matter rendering fix:** removed leading `---` separator + restructured byline. Net -1 line offset for lines above the rent-seeking insertion. |
+
+Artifact file-path references updated globally (replace_all `Chapter__8_WhatThingsActuallyCost_Draft.md` → `Chapter__8_WhatThingsActuallyCost.md`). All other §3 / §4 / §5 / §6 / §11 line refs retained at audit-time values — apply the §12.2 shift table for current-state line numbers.
+
+### §12.2 Line-number shift table — audit-time → current `origin/main`
+
+Apply this table when Phase C session locates each finding's edit point. (Alternative: Phase C session `grep`s for the canonical anchor strings — safer against further drift.)
+
+| Finding | Audit line(s) | Current line(s) |
+|---|---|---|
+| HIGH-1 (Kennedy "stood near a mine") | 25 | **24** |
+| HIGH-2 (U.S. Steel 1990) | 59 | **58** |
+| HIGH-3 (IPG "4 and 120") | 167 | **168** |
+| HIGH-4 (drug-rate "close to ten times") | 59 | **58** |
+| MEDIUM-1 (Dunbar quote punctuation) | 93 | **92** |
+| MEDIUM-2 (Rennert "meta-analysis") | 73 | **72** |
+| MEDIUM-3 ($0.80/ton denominator inconsistency) | 35, 39 | **34, 38** |
+| MEDIUM-4 ($8–$22 running total) | 63, 65 | **62, 64** |
+| MEDIUM-5 (foreclosures filings vs completed) | 191 | **192** |
+| MEDIUM-6 ($4.50 vs $4.71) | 25 | **24** |
+| MEDIUM-7 (SMCRA 633K acres) | 49 | **48** |
+| MEDIUM-8 ($140 today coal price) | 75, 165 | **74, 166** |
+| LOW-1 (Du Bois / Ellison / Fanon citation asymmetry) | 93 | **92** |
+| LOW-2 (Dunbar 1895 vs 1896) | 93 | **92** |
+| LOW-3 (Valdez "reached the sound") | 173 | **174** |
+| LOW-4 (SCC "through EO 12866") | 119 | **118** (was above rent-seeking insertion; -1 only) |
+| LOW-5 (JCHS market lists) | 185 | **186** |
+
+**Shift heuristic:**
+- Audit-time lines 1–120 (above the rent-seeking insertion) shift by **−1** (front-matter fix only).
+- Audit-time line 121 (lobbying-spend paragraph end) shifts to current line **120**.
+- Audit-time lines 123+ shift by **+1** (net of −1 front-matter and +2 rent-seeking insertion).
+
+### §12.3 NEW content fact-check coverage — line 122 rent-seeking paragraph
+
+Per the rent-seeking workstream's own routing (`bc02767` §9 Ratification log): *"Ch 8 + Ch 9 have Pass 1 PROPOSED only; their forthcoming Pass 2/3 cycles will absorb the rent-seeking-section verification as standard pass scope. Disposition: route into Ch 8 + Ch 9 Pass 2/3 cycles when those fire; no standalone session needed."* The mini-rigor-pass for this paragraph was deferred to Pass 2/3.
+
+Quick fact-check pass on the new paragraph (current line 122) is added here as a courtesy delta so it doesn't get lost between Pass 1 and Pass 2/3 sessions:
+
+**New paragraph text (current line 122):**
+> "The architecture that produced McDowell County's specific form of post-extraction collapse was not impersonal. It was shaped, generation after generation, by coal-industry political-economic actors — operators, absentee-mineral-rights holders, industry trade associations — whose lobbying expenditure at the West Virginia statehouse and at successive federal regulatory bodies is a multi-generational matter of public record. The cost-bearing-party analysis the framework performs (who absorbed what; over what timeframe; against what counterfactual) operates on top of an architecture that specific identifiable actors shaped. The reparations-economics tradition (Coates, Darity, Mullen, Hamilton, Conley) does both kinds of work at once for the racial wealth gap. The Public Choice tradition (Buchanan, Tullock) does the architecture-shaping work cleanly for cases where the political-coalition record is on the books. Both readings illuminate McDowell. The framework's apparatus contributes the cost-bearing magnitudes; both adjacent traditions contribute the actor-and-coalition analysis the framework does not attempt."
+
+**Fact-check verifications:**
+
+| Claim | Verification |
+|---|---|
+| Coal-industry political-economic actor categories (operators, absentee-mineral-rights holders, industry trade associations) shaped the architecture generation after generation | ✓ Well-documented in WV historiography (Ronald Eller, Ronald Lewis, John Alexander Williams); West Virginia Coal Association lobbying record well-documented since early 20th c. |
+| Lobbying expenditure at WV statehouse + federal regulatory bodies is a "multi-generational matter of public record" | ✓ Defensible general claim; documented in WV state Ethics Commission filings + federal LDA lobbying disclosures + UMW historical records. |
+| Coates → reparations-economics | ✓ Per [research/literature/bibliography.md §18.5](research/literature/bibliography.md) line 178 — Coates 2014 *The Case for Reparations* (Atlantic). |
+| Darity & Mullen → reparations-economics | ✓ Per bibliography line 179 — Darity & Mullen 2020 *From Here to Equality*. |
+| Hamilton → reparations-economics | ✓ Per bibliography line 848 — Hamilton, Darity, Price, Sridharan, Tippett 2015 *Umbrellas Don't Make It Rain*. |
+| Conley → reparations-economics | ⚠ See LOW-8 below — defensibly close but slightly looser grouping than the other four. |
+| Buchanan, Tullock → Public Choice | ✓ Per bibliography §22 line 1187 — Buchanan & Tullock 1962 *The Calculus of Consent*; entries added in same commit (`a1e54d9`). |
+| Buchanan Nobel 1986 (implicit in §22 bibliography characterization) | ✓ James M. Buchanan, 1986 Nobel Prize in Economic Sciences. |
+| Apparatus discipline preserved (no Greek letters, no integrals, no Cᵢ-class regressions introduced) | ✓ Verified via `grep` on current chapter file. |
+| Named-subject consent preserved (Buchanan deceased 2013; Tullock deceased 2014; others living-academic named in published-work capacity) | ✓ All living named subjects are academics named in their professional / published-author capacity per the standard discipline in §7. No new consent issues. |
+| Cross-chapter consistency with parallel Ch 5 / Ch 9 / TA insertions | ✓ Per `bc02767` workstream-level RATIFICATION + per the cross-chapter rent-seeking-engagement-handoff documentation. |
+| Path B contamination | ✓ No verbatim clone of Ch 5 / Ch 9 / TA insertions — each chapter's insertion is voice-matched to that chapter's register per `a1e54d9` commit message. |
+| Voice-register match to chapter's first-person conversational voice | ✓ Confirmed in `a1e54d9` commit's verification reads ("Ch 8 touch register-matched to chapter's first-person conversational voice"). |
+
+### §12.4 NEW LOW finding from §12.3 coverage
+
+#### LOW-8: Dalton Conley grouping with core reparations-economics figures — defensibly close but slightly loose
+
+**Location:** [Chapter__8_WhatThingsActuallyCost.md:122](manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md:122)
+
+**Chapter text:**
+> "The reparations-economics tradition (Coates, Darity, Mullen, Hamilton, **Conley**) does both kinds of work at once for the racial wealth gap."
+
+**Canonical truth:** Dalton Conley's *Being Black, Living in the Red: Race, Wealth, and Social Policy in America* (University of California Press, 1999; 10th-anniversary edition 2010) is foundational wealth-inequality sociology — extensively documenting the racial wealth gap + intergenerational wealth transmission mechanisms — and is reparations-adjacent in the sense that it grounds the empirical basis on which reparations-economics builds. But Conley is a sociologist (Princeton; later NYU) whose work classes more centrally with stratification economics + wealth-inequality sociology than with reparations-economics-proper (which is typically anchored at Coates / Darity / Mullen / Hamilton + closer kin like Sandy Darity collaborators). The chapter's bibliography §22 line 1191 itself characterizes the grouping as "reparations-economics (Coates / Darity / Mullen / Hamilton / Conley per §18.5)" — so the corpus is internally consistent in including Conley, but a specialist (stratification economist; reparations-economics scholar) may flag the grouping as taxonomically loose.
+
+**Why this is the LOW-8 finding:** Defensible-but-loose taxonomic grouping. The corpus is internally consistent (bibliography + chapter both use the same 5-name grouping); the only question is whether a specialist reader would query Conley's inclusion alongside the four core reparations-economics figures. Not a publisher-fact-checker stopper.
+
+**Recommended action:** **HOLD** per the rent-seeking workstream's stated routing — the mini-rigor-pass for the rent-seeking paragraph was explicitly deferred to Pass 2/3, and this LOW finding is exactly the kind of voice-polish / audience-load question that Pass 2/3 sessions are calibrated for. If Pass 2/3 doesn't surface it, leave the grouping as-is per corpus internal consistency. Optional pre-Pass-2 action: consider dropping Conley to "(Coates, Darity, Mullen, Hamilton)" and adding Conley to the §18.5 bibliography stratification-economics adjacency instead — but this is author judgment, not a fact-check requirement.
+
+**Severity rationale:** LOW because the grouping is internally consistent across corpus (bibliography + chapter); LOW because the underlying claim (Conley's wealth-inequality work is reparations-adjacent) is defensible; not MEDIUM because no specific factual claim is wrong.
+
+### §12.5 Updated findings tally (post §12.4 addition)
+
+| Severity | Count | Items |
+|---|---|---|
+| CRITICAL | 0 | — |
+| HIGH | 4 | unchanged from §8.1 |
+| MEDIUM | 8 | unchanged from §8.1 |
+| LOW | **8** (was 7) | §8.1 LOW-1 through LOW-7 + new LOW-8 (Conley grouping) |
+
+**Aggregate verdict unchanged: READY AFTER SPOT-FIXES.**
+
+### §12.6 Phase C session prompt — required updates
+
+When Phase C application session spins up:
+
+1. **Use current file path:** `manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` (no `_Draft` suffix).
+2. **Use current line numbers** per §12.2 shift table, OR (safer against further drift) `grep` for canonical anchor strings + Edit-tool unique-context matches.
+3. **Acknowledge new line 122 paragraph exists** — Phase C should NOT inadvertently disrupt the rent-seeking content unless explicitly applying LOW-8 disposition. The recommended HOLD on LOW-8 means Phase C leaves line 122 untouched.
+4. **HIGH + MEDIUM dispositions all preserved** as recommended in §8.3 and §11.
+
+---
+
+*End of Pass 1 (Fact-check) for Chapter 8 — base artifact + §12 update note. Pass 2 + Pass 3 deliverables to be produced in subsequent sessions per workstream #20 phasing; rent-seeking paragraph mini-rigor-pass absorbed into Pass 2/3 per `bc02767` routing.*
