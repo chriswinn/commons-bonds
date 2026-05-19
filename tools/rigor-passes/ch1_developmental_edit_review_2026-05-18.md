@@ -1790,12 +1790,145 @@ phrasing.
 
 ---
 
+### §11.5 Author-revisit (2026-05-19) — F-DE-Ch1-7 partial reversal
+
+Revisit session conducted 2026-05-19 on feature branch
+`claude/ch1-dmv-coda-revisit-laughing-raman-8b4564` (branched from
+`origin/main` at `e69c61e`).
+
+The author flagged the F-DE-Ch1-7 Option A application in conversation
+after the corpus-invariant-scope-fix session surfaced (as a side
+finding) that the "Time enough to" four-times anaphora had been removed
+from Ch 1 in the Phase C application. Author's account: the four-times
+anaphora *with the chiastic pause before the fourth* was a deliberate
+authorial rhetorical move (the pause is what delivers the marriage-
+foreshadow), not incidental ornamentation on top of the thirteen-
+hundred-hours math. The §F-DE-Ch1-7 finding had treated the chiastic
+pause as part of the density-cluster to reduce rather than as the
+load-bearing move the cluster was justifying.
+
+Additional consideration surfaced in the revisit discussion: the
+sentence *"I would never make that mistake again."* (the line
+immediately following the chiastic landing in the pre-Phase-C
+arrangement) carries an antecedent-ambiguity hazard once the chiastic
+pivot is present. The nearer antecedent of *"that mistake"* becomes
+the chiasmus (*"fall in love → fall out of love"*) rather than the
+intended antecedent (the lease). With the chiasmus restored as the
+load-bearing pivot, retaining that sentence would quietly characterize
+the marriage as a mistake — almost certainly not the author's intent.
+The Phase C Option A application had unintentionally avoided this
+hazard by flattening the chiasmus; the revisit removes the sentence
+explicitly.
+
+#### Author disposition (ratified 2026-05-19)
+
+- **F-DE-Ch1-7 Option A reversed.** Serial-list rendering at line 72
+  dropped.
+- **Four-times anaphora + chiastic ellipsis restored** with one verb
+  refinement: *"play an instrument"* → *"learn a musical instrument"*.
+  Rationale: deepens verb-level parallelism with *"learn a language"*
+  (verb-level anaphora stacked atop sentence-initial anaphora); aligns
+  with the thirteen-hundred-hours time-investment frame ("learn"
+  consumes the hours the paragraph is counting; "play" reads as
+  leisure-activity).
+- **Structural breathing room added.** Paragraph break before
+  *"Five days a week, fifty-two weeks a year, five hours a day
+  commuting…"* separates commute-narration from reckoning. Paragraph
+  break after *"…Time enough to fall out of love."* lets the chiastic
+  landing register before the closing coda. Result: three paragraphs
+  bracketing the math+anaphora as its own beat (setup → reckoning →
+  deferral).
+- **Antecedent-ambiguity sentence dropped.** *"I would never make
+  that mistake again."* removed (resolves the *"that mistake"* →
+  chiasmus-antecedent slip).
+
+#### Per-finding application detail
+
+| Finding | Pre-revisit line | Post-revisit lines | Change applied |
+|---|---|---|---|
+| **F-DE-Ch1-7-rev** | line 72 (single paragraph trailing portion) | lines 72 + 74 + 76 (three paragraphs) | (1) Replace serial-list (*"Years I would never get back. Years that should have been time to learn a language, to play an instrument, to fall in love and stay there."*) with restored four-times anaphora + chiastic ellipsis (*"Time enough to learn a language. Time enough to learn a musical instrument. Time enough to fall in love. …Time enough to fall out of love."*); (2) verb change *"play an instrument"* → *"learn a musical instrument"*; (3) paragraph break inserted before *"Five days a week, fifty-two weeks a year…"*; (4) paragraph break inserted after *"…Time enough to fall out of love."*; (5) sentence *"I would never make that mistake again."* dropped. Net +4 lines in chapter (paragraph splits + dropped sentence). |
+
+#### Cross-pass impact
+
+- **Pass 1 fact-check.** No factual content changed. Thirteen-hundred-
+  hours math preserved verbatim. Marriage-foreshadow now delivered via
+  chiastic ellipsis rather than via *"stay there"*; underlying factual
+  claim (the lease cost the author the marriage) is preserved
+  identically. No fact-check re-fire required.
+
+- **Pass 2 voice-polish (commit `7b4aa92` and prior).** F-V9
+  (sentence-initial ellipsis) was held by the author in Pass 2 as
+  *"typographically unusual; held as deliberate memoir-cadence"*; the
+  Phase C Option A application had resolved F-V9 as byproduct (per
+  §11.2's F-DE-Ch1-11 entry). The 2026-05-19 revisit reinstates F-V9's
+  prior author-held disposition explicitly. F-V8 (DMV-paragraph em-
+  dash compression + colon-pivot fix) unaffected.
+
+- **Pass 3.3 audience-load REAUDIT v3.** Trade-press editor (#1) +
+  literary (#7) verdicts: the cumulative-LLM-cadence concern raised in
+  §F-DE-Ch1-7's *"Severity rationale"* (the four-times anaphora + chiasmus
+  + sentence-initial ellipsis as the chapter's most-conspicuous
+  remaining LLM-cadence) is partially-but-not-fully addressed by the
+  structural breathing room. Author judgment is that the chiastic
+  pause is distinctively-human authorial-craft (LLMs over-produce
+  three-times anaphoras without chiastic reversal; the sentence-initial
+  ellipsis is a paralinguistic mark that requires authorial intent to
+  deploy), and that the remedy for cumulative density is breathing
+  room around the move rather than surgery on the move itself. Light
+  Pass 3.3 acceptance re-fire (already recommended per §11.3 step 7
+  + §11.4 closing) should confirm this judgment holds across the
+  30-character set.
+
+- **F-DE-Ch1-11 (LOW) — status reversed.** §11.2 had marked F-DE-Ch1-11
+  ("sentence-initial ellipsis") as RESOLVED-as-byproduct of F-DE-Ch1-7
+  Option A. With F-DE-Ch1-7 Option A reversed, the sentence-initial
+  ellipsis returns; F-DE-Ch1-11's "resolved" status is reversed. The
+  ellipsis is now held as deliberate memoir-cadence per F-V9's prior
+  disposition + author 2026-05-19 reaffirmation. No further action
+  on F-DE-Ch1-11.
+
+- **Invariant-gate allowlist refresh (out-of-scope for this commit).**
+  The restored four-times anaphora will match the
+  `regressed-tidy-parallel-time-enough-to` registry pattern at the
+  new chapter line once the corpus-invariant-scope-fix work
+  (claude/laughing-raman-8b4564) lands on main. The existing
+  allowlist entry at `tools/quality-gates/regressed-patterns.yaml:149`
+  references the pre-rename filename + the pre-Phase-C line number
+  (`Chapter__1_TheQuietMath__Draft.md:67`) and is doubly stale; it
+  will need its file:line key refreshed + rationale updated to reference
+  this §11.5 revisit. Tracked as a follow-up against the
+  corpus-invariant-scope-fix workstream's allowlist-staleness review.
+
+#### Doctrine compliance
+
+- **Branch discipline (CLAUDE.md / `tools/workstream-handoffs/README.md`).**
+  Feature branch `claude/ch1-dmv-coda-revisit-laughing-raman-8b4564`
+  branched from `origin/main` at `e69c61e`. Single commit contains the
+  chapter-file edit + this §11.5 update.
+- **Merge-to-main default (CLAUDE.md author-ratified-content-change
+  class).** Author-ratified content revisit; autonomous fast-forward
+  merge to main + push origin main at session close.
+- **Three-pass rigor discipline.** Downstream revisit of a previously-
+  ratified finding based on new author input; no Stage-3 rigor pass
+  re-run during this session.
+- **Named-subject consent.** No new naming introduced. Marriage
+  partner remains un-named (referenced only via the chiastic
+  *"…fall out of love"* + the closing-coda *"the lease had actually
+  cost me"*). Consent discipline preserved.
+
+---
+
 *End of Ch 1 developmental-edit review — RATIFIED 2026-05-18 per §11
 (author "ratify as recommended and proposed"); APPLIED 2026-05-18
-per §11.4 (Phase C session against `manuscript/chapters/Chapter__1_TheQuietMath.md`).
-Recommended follow-up per §11.3 step 7: light Pass 3.3 (acceptance)
-re-fire as a separate session to confirm cumulative acceptance verdicts
-hold across the 30-character set. Pass 3.4 (robustness) re-fire NOT
-routinely warranted. Per CLAUDE.md author-ratified-content-change
-merge-to-main default, this Phase C application fast-forward merges
-to main + pushes origin main at session close.*
+per §11.4 (Phase C session against
+`manuscript/chapters/Chapter__1_TheQuietMath.md`); F-DE-Ch1-7 PARTIALLY
+REVERSED 2026-05-19 per §11.5 (author-revisit session). Recommended
+follow-up per §11.3 step 7: light Pass 3.3 (acceptance) re-fire as a
+separate session to confirm cumulative acceptance verdicts hold across
+the 30-character set; the §11.5 revisit additionally surfaces a
+distinct rhetorical-craft-vs-LLM-cadence judgment that Pass 3.3
+acceptance should re-test. Pass 3.4 (robustness) re-fire NOT routinely
+warranted. Per CLAUDE.md author-ratified-content-change merge-to-main
+default, both the Phase C application (2026-05-18) and the §11.5
+revisit (2026-05-19) fast-forward merge to main + push origin main at
+their respective session closes.*
