@@ -3,8 +3,8 @@
 **Date:** 2026-05-16
 **Workstream:** #20 Manuscript Stage-3 Rigor Pass — Phase A (per-chapter audits)
 **Chapter:** 7 — *On Other Worlds*
-**File audited:** [Chapter__7_OnOtherWorlds__Draft.md](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md)
-**Word count:** 248 lines / ~8,537w (per workstream handoff line 69; line count verified at session start)
+**File audited:** [Chapter__7_OnOtherWorlds.md](manuscript/chapters/Chapter__7_OnOtherWorlds.md)
+**Word count:** 250 lines / ~8,537w (front-matter render fix per commit e1a533e added 2 lines; handoff target ~248) (per workstream handoff line 69; line count verified at session start)
 **Pass scope:** Pass 1 (Fact-check) only per v2.0 Amendment B per-prompt serial cadence. Pass 2 (Voice-polish) and Pass 3 (Audience-load) NOT run in this session — fired in subsequent sessions.
 **Mode:** Audit-existing-prose (no Stage 1 brief exists for Ch 7; fact-checks verify against external canonical sources + cross-chapter consistency inventory + apparatus register decisions).
 **Hard constraint observed:** No spot-fixes applied to chapter file. Phase C session (post-author-ratification) applies recommended edits.
@@ -59,7 +59,7 @@
 
 ### HIGH-1: Mars mission chronology out-of-order — Mars 3 placed AFTER Viking I/II
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:17](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:17)
+**Location:** [Chapter__7_OnOtherWorlds.md:19](manuscript/chapters/Chapter__7_OnOtherWorlds.md:19)
 
 **Chapter text:**
 > "Mars is used here because it is the off-world body human civilization has been actively trying to reach for half a century — Viking I and II, Mars 3, Pathfinder, Spirit and Opportunity, Phoenix, Curiosity, InSight, Perseverance, with sample return and crewed proposals on the active near-term agenda..."
@@ -99,7 +99,7 @@ near-term agenda...
 
 ### MEDIUM-1: Sima Qian "less than a century after the Qin's fall" — cross-corpus chronology error
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:213](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:213)
+**Location:** [Chapter__7_OnOtherWorlds.md:215](manuscript/chapters/Chapter__7_OnOtherWorlds.md:215)
 
 **Chapter text:**
 > "Sima Qian's *Records of the Grand Historian*, compiled less than a century after the Qin's fall, reports that the Wall was built by three to five hundred thousand concurrent conscripted laborers..."
@@ -126,7 +126,7 @@ Author judgment between A/B/C; whichever lands, mirror in bibliography §13 line
 
 ### MEDIUM-2: Hawass "Workers' Village" attribution — conflates two distinct excavations
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:211](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:211)
+**Location:** [Chapter__7_OnOtherWorlds.md:213](manuscript/chapters/Chapter__7_OnOtherWorlds.md:213)
 
 **Chapter text:**
 > "The archaeological consensus that emerged from Mark Lehner's Giza Plateau Mapping Project and Zahi Hawass's Workers' Village excavations has substantially revised the older Herodotean image of chattel slavery under the lash..."
@@ -154,7 +154,7 @@ Author judgment between A/B/C; mirror in bibliography §13 if A or B is ratified
 
 ### MEDIUM-3: Sun timeline "red-giant phase that fully engulfs the planet roughly 5 billion years out"
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:195](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:195)
+**Location:** [Chapter__7_OnOtherWorlds.md:197](manuscript/chapters/Chapter__7_OnOtherWorlds.md:197)
 
 **Chapter text:**
 > "The Sun's main-sequence luminosity is increasing on a timescale that mainstream solar-physics models project will make Earth uninhabitable for biological civilizations on the order of 500 million to 1 billion years from now — well before the red-giant phase that fully engulfs the planet roughly 5 billion years out."
@@ -185,7 +185,7 @@ Option A is most conservative (smallest prose change); Option C is most defensib
 
 ### MEDIUM-4: "Sample return and crewed proposals on the active near-term agenda" — stale as of May 2026
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:17](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:17)
+**Location:** [Chapter__7_OnOtherWorlds.md:19](manuscript/chapters/Chapter__7_OnOtherWorlds.md:19)
 
 **Chapter text:**
 > "Mars is used here because it is the off-world body human civilization has been actively trying to reach for half a century — [...mission list...] — with sample return and crewed proposals on the active near-term agenda — which means the parameter ranges for resource extraction in Martian regolith are partly observable rather than entirely speculative."
@@ -205,7 +205,7 @@ Option A is most conservative (smallest prose change); Option C is most defensib
 
 ### MEDIUM-5: "Vulcan Centaur and New Glenn entering service" — stale as of May 2026
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:239](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:239)
+**Location:** [Chapter__7_OnOtherWorlds.md:241](manuscript/chapters/Chapter__7_OnOtherWorlds.md:241)
 
 **Chapter text:**
 > "Current Earth-launch infrastructure has reduced the cost of getting a kilogram into low-Earth-orbit by roughly an order of magnitude over the past fifteen years, from the Space Shuttle era's approximately thirty thousand dollars per kilogram down to the current commercial-launch baseline of roughly two thousand to five thousand dollars per kilogram (Falcon 9 and Falcon Heavy operating; Vulcan Centaur and New Glenn entering service)."
@@ -228,7 +228,7 @@ Both vehicles have flown multiple times and reached orbit. "Entering service" wa
 
 ### MEDIUM-6: Egyptian pyramids "built, over a period of roughly a century" — closer to ~70 years
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:211](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:211)
+**Location:** [Chapter__7_OnOtherWorlds.md:213](manuscript/chapters/Chapter__7_OnOtherWorlds.md:213)
 
 **Chapter text:**
 > "The pyramids at Giza were built, over a period of roughly a century in the Egyptian Old Kingdom around 2500 BCE, by a workforce of skilled craftsmen and conscripted rotational laborers..."
@@ -256,7 +256,7 @@ Option A is most precise; Option B preserves the existing prose rhythm with loos
 
 ### MEDIUM-7: Mars-habitat arithmetic — "reduce her habitat's remaining water supply by two-thirds" doesn't match 50→20 year transition
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:31](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:31)
+**Location:** [Chapter__7_OnOtherWorlds.md:33](manuscript/chapters/Chapter__7_OnOtherWorlds.md:33)
 
 **Chapter text (lines 27, 31 together):**
 > Line 27: "At current consumption — drinking, agriculture, oxygen production through electrolysis, industrial processing — the deposits represent roughly a fifty-year supply. [...] It would also reduce the habitat's remaining water supply to something closer to a twenty-year horizon."
@@ -280,7 +280,7 @@ Option A is the smallest prose change. Option C preserves the "two-thirds" frami
 
 ### MEDIUM-8: Aeon Version C pitch near-verbatim overlap — "structural test the same" + "self-imposed commute lease"
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:99](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:99); [Chapter__7_OnOtherWorlds__Draft.md:101](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:101)
+**Location:** [Chapter__7_OnOtherWorlds.md:101](manuscript/chapters/Chapter__7_OnOtherWorlds.md:101); [Chapter__7_OnOtherWorlds.md:103](manuscript/chapters/Chapter__7_OnOtherWorlds.md:103)
 
 **Chapter text (lines 99-101):**
 > "A self-imposed commute lease on Earth. [...] The framework computes the case the same way it computes asteroid iron and McDowell coal: [...] Four mechanisms operating intra-personally across time. The framework's Commons Inversion Test, applied at decision time, would have surfaced the actual price of the lease before signing. **Same instrument; no bad actor required; structural test the same.**"
@@ -327,7 +327,7 @@ The risk vector for the PITCH (the Sun May 31 14:01 UTC fire) is essentially zer
 
 ### LOW-1: Mars per-kg cost — "two and a half million dollars apiece" on low end of range
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:241](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:241)
+**Location:** [Chapter__7_OnOtherWorlds.md:243](manuscript/chapters/Chapter__7_OnOtherWorlds.md:243)
 
 **Chapter text:**
 > "The Curiosity, Perseverance, and InSight missions delivered about a kilogram of operational hardware to the Martian surface for approximately two and a half million dollars apiece, dominated by interplanetary cruise and entry-descent-landing infrastructure rather than per-kilogram launch from Earth."
@@ -352,7 +352,7 @@ The chapter's "approximately two and a half million dollars apiece" is on the LO
 
 ### LOW-2: Space Shuttle "approximately thirty thousand dollars per kilogram" — mid-range, but contested
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:239](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:239)
+**Location:** [Chapter__7_OnOtherWorlds.md:241](manuscript/chapters/Chapter__7_OnOtherWorlds.md:241)
 
 **Chapter text:**
 > "...from the Space Shuttle era's approximately thirty thousand dollars per kilogram down to the current commercial-launch baseline of roughly two thousand to five thousand dollars per kilogram..."
@@ -372,7 +372,7 @@ The chapter's "approximately thirty thousand dollars per kilogram" sits within t
 
 ### LOW-3: Lunar helium-3 "roughly a million tons" — on low end of canonical range
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:85](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:85)
+**Location:** [Chapter__7_OnOtherWorlds.md:87](manuscript/chapters/Chapter__7_OnOtherWorlds.md:87)
 
 **Chapter text:**
 > "Stock is very large (the Moon's regolith contains roughly a million tons)..."
@@ -395,7 +395,7 @@ The chapter's "approximately thirty thousand dollars per kilogram" sits within t
 
 ### LOW-4: Ogallala aquifer "1940s when central-pivot irrigation began drawing from it" — loose history
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:121](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:121)
+**Location:** [Chapter__7_OnOtherWorlds.md:123](manuscript/chapters/Chapter__7_OnOtherWorlds.md:123)
 
 **Chapter text (verbatim, line 121 within the Abundance Masking defense paragraph):**
 > "...the Ogallala aquifer was abundant in the 1940s when central-pivot irrigation began drawing from it."
@@ -416,7 +416,7 @@ The chapter's "in the 1940s when central-pivot irrigation began drawing from it"
 
 ### LOW-5: Pyramids "around 2500 BCE" — at the END of the construction period
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:211](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:211)
+**Location:** [Chapter__7_OnOtherWorlds.md:213](manuscript/chapters/Chapter__7_OnOtherWorlds.md:213)
 
 **Chapter text:**
 > "The pyramids at Giza were built, over a period of roughly a century in the Egyptian Old Kingdom around 2500 BCE..."
@@ -431,7 +431,7 @@ The chapter's "in the 1940s when central-pivot irrigation began drawing from it"
 
 ### LOW-6: Asteroid-mining cost projections "five to seven orders of magnitude below current science-mission economics"
 
-**Location:** [Chapter__7_OnOtherWorlds__Draft.md:241](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:241)
+**Location:** [Chapter__7_OnOtherWorlds.md:243](manuscript/chapters/Chapter__7_OnOtherWorlds.md:243)
 
 **Chapter text:**
 > "The asteroid-mining commercial proposals in the literature (the Keck Institute Asteroid Retrieval Mission Study of 2012; pre-acquisition projections from Planetary Resources and Deep Space Industries) target costs per kilogram extracted that are five to seven orders of magnitude below current science-mission economics. Those projections are actor-stated targets, not validated operational figures."
@@ -460,42 +460,42 @@ The following claims were verified against canonical sources and require no spot
 
 | Claim | Location | Verification |
 |---|---|---|
-| Mars 3 was a Soviet mission (1971) | Ch 7:17 | ✓ Mars 3 launched May 28, 1971; first soft landing on Mars Dec 2, 1971 |
-| Viking I and II NASA missions | Ch 7:17 | ✓ both 1975 launches; 1976 landings; NASA |
-| Pathfinder NASA mission (1996/1997) | Ch 7:17 | ✓ launched Dec 4, 1996; landed July 4, 1997 |
-| Spirit and Opportunity paired NASA missions (2003/2004) | Ch 7:17 | ✓ paired but distinct: Spirit launched June 10, landed Jan 4, 2004; Opportunity launched July 7, landed Jan 25, 2004 |
-| Phoenix NASA mission (2007/2008) | Ch 7:17 | ✓ launched Aug 4, 2007; landed May 25, 2008 |
-| Curiosity NASA mission (2011/2012) | Ch 7:17 | ✓ launched Nov 26, 2011; landed Aug 6, 2012 |
-| InSight NASA mission (2018/2018) | Ch 7:17 | ✓ launched May 5, 2018; landed Nov 26, 2018 |
-| Perseverance NASA mission (2020/2021) | Ch 7:17 | ✓ launched July 30, 2020; landed Feb 18, 2021 |
-| "Half a century" Mars exploration framing | Ch 7:17 | ✓ Mars 3 1971 → 2026 = 55 years |
-| Stern Review ~1.4% discount rate vs. Nordhaus DICE ~4% | Ch 7:71 | ✓ Stern social discount rate 1.4%; Nordhaus DICE 4.3% (chapter's "roughly 1.4 percent versus 4 percent" defensible round) |
-| Hartwick 1977 rule citation | Ch 7:71 | ✓ Hartwick *AER* 67:972-974, 1977; "rents from exhaustible-resource extraction should be invested in reproducible capital sufficient to leave future generations no worse off" substantively accurate |
-| Mars subsurface water ice extensively confirmed | Ch 7:39, 85 (implicit) | ✓ MRO/SHARAD + Phoenix + Curiosity + Perseverance findings widely document |
-| Asteroid iron composition implication (M-type asteroids ~80-90% Fe) | Ch 7:83 | ✓ qualitative claim ("abundant... iron from other asteroids") supported |
-| Europa subsurface ocean | Ch 7:91 | ✓ Galileo magnetometer data + Hubble plume observations infer subsurface ocean; chapter's "if one exists" hedge is appropriate (still inferred, not confirmed direct sampling) |
-| Bostrom 2002 existential-risk concept origination | Ch 7:139 | ✓ "Existential Risks" *Journal of Evolution and Technology* 9(1):1-31 (2002) |
-| Bostrom 2014 *Superintelligence* | Ch 7:139 | ✓ published 2014 (Oxford UP) |
-| MacAskill 2022 *What We Owe the Future* | Ch 7:139 | ✓ published 2022 (Basic Books) |
-| Ord 2020 *The Precipice* | Ch 7:139 | ✓ *The Precipice: Existential Risk and the Future of Humanity*, Bloomsbury 2020 (per bibliography line 755) |
-| Existential substitutability gap canonical lineage citation | Ch 7:139 | ✓ Bostrom 2002 + Bostrom 2014 + MacAskill 2022 + Ord 2020 lineage present per terms_index requirement (line 683 "Prose form existential substitutability gap requires...") |
-| Pyramids at Giza Old Kingdom Fourth Dynasty | Ch 7:211 | ✓ Fourth Dynasty c. 2613-2494 BCE |
-| Pyramids built by paid laborers, not slaves (archaeological consensus revising Herodotean image) | Ch 7:211 | ✓ Lehner/Hawass excavations both contribute; "paid in rations, medically cared for, and properly buried" substantively accurate |
-| Qin Shi Huang unified warring states | Ch 7:213 | ✓ unification 221 BCE |
-| Qin Wall ~5,000 km of northern frontier | Ch 7:213 | ✓ Qin-era wall stretched Lintao to Liaodong, ~5,000 km |
-| Sima Qian *Shiji* reports 300,000-500,000 concurrent wall laborers + ~700,000 mausoleum conscripts | Ch 7:213 | ✓ matches Sima Qian's accounts |
-| Terracotta Army discovered 1974 | Ch 7:213 | ✓ discovered March 29, 1974 near Lintong, Xi'an |
-| Qin dynasty collapsed within four years of First Emperor's death | Ch 7:213 | ✓ First Emperor d. 210 BCE; Qin fell 206 BCE = 4 years |
-| Sima Qian as foundational early source on Qin extraction | Ch 7:213 | ✓ Shiji standard source |
-| Feudal lords + serfs cost-extraction pattern | Ch 7:215 | ✓ standard medieval economic history |
-| Kimberley Process certification critique | Ch 7:219 | ✓ standard critique well-documented (narrow definition; enforcement gaps; consumer premium retained by certification infrastructure rather than miners) |
-| Theorem 10.3 (Abundance Masking) Tech Appendix cross-reference | Ch 7:119 | ✓ matches current canonical Tech Appendix numbering (TA line 3416) |
-| Falcon 9 commercial launch baseline $2K-$5K/kg | Ch 7:239 | ✓ Falcon 9 ~$2,720-$2,940/kg per recent published cost-per-launch / payload analyses; Falcon Heavy ~$1,500/kg |
-| SpaceX Starship as plausible-but-not-yet-validated next-decade reduction | Ch 7:239 | ✓ Starship development status as of May 2026 supports "plausible-but-not-yet-validated" framing |
-| Keck Institute Asteroid Retrieval Mission Study 2012 | Ch 7:241 | ✓ April 2012, Keck Institute for Space Studies |
-| Planetary Resources + Deep Space Industries pre-acquisition status | Ch 7:241 | ✓ both companies acquired (PR 2018; DSI 2019); pre-acquisition projections are the relevant historical reference |
-| Earth's habitability timeline ~500M-1B years (chapter's conservative range) | Ch 7:195 | ✓ within canonical 600M-2.1B year range for moist-greenhouse onset / water-based life loss |
-| Sun main-sequence increase methodology | Ch 7:195 | ✓ Sun luminosity increases ~10% per billion years; main-sequence hydrogen depletion in ~5 Gyr (red-giant entry) |
+| Mars 3 was a Soviet mission (1971) | Ch 7:19 | ✓ Mars 3 launched May 28, 1971; first soft landing on Mars Dec 2, 1971 |
+| Viking I and II NASA missions | Ch 7:19 | ✓ both 1975 launches; 1976 landings; NASA |
+| Pathfinder NASA mission (1996/1997) | Ch 7:19 | ✓ launched Dec 4, 1996; landed July 4, 1997 |
+| Spirit and Opportunity paired NASA missions (2003/2004) | Ch 7:19 | ✓ paired but distinct: Spirit launched June 10, landed Jan 4, 2004; Opportunity launched July 7, landed Jan 25, 2004 |
+| Phoenix NASA mission (2007/2008) | Ch 7:19 | ✓ launched Aug 4, 2007; landed May 25, 2008 |
+| Curiosity NASA mission (2011/2012) | Ch 7:19 | ✓ launched Nov 26, 2011; landed Aug 6, 2012 |
+| InSight NASA mission (2018/2018) | Ch 7:19 | ✓ launched May 5, 2018; landed Nov 26, 2018 |
+| Perseverance NASA mission (2020/2021) | Ch 7:19 | ✓ launched July 30, 2020; landed Feb 18, 2021 |
+| "Half a century" Mars exploration framing | Ch 7:19 | ✓ Mars 3 1971 → 2026 = 55 years |
+| Stern Review ~1.4% discount rate vs. Nordhaus DICE ~4% | Ch 7:73 | ✓ Stern social discount rate 1.4%; Nordhaus DICE 4.3% (chapter's "roughly 1.4 percent versus 4 percent" defensible round) |
+| Hartwick 1977 rule citation | Ch 7:73 | ✓ Hartwick *AER* 67:972-974, 1977; "rents from exhaustible-resource extraction should be invested in reproducible capital sufficient to leave future generations no worse off" substantively accurate |
+| Mars subsurface water ice extensively confirmed | Ch 7:41, 85 (implicit) | ✓ MRO/SHARAD + Phoenix + Curiosity + Perseverance findings widely document |
+| Asteroid iron composition implication (M-type asteroids ~80-90% Fe) | Ch 7:85 | ✓ qualitative claim ("abundant... iron from other asteroids") supported |
+| Europa subsurface ocean | Ch 7:93 | ✓ Galileo magnetometer data + Hubble plume observations infer subsurface ocean; chapter's "if one exists" hedge is appropriate (still inferred, not confirmed direct sampling) |
+| Bostrom 2002 existential-risk concept origination | Ch 7:141 | ✓ "Existential Risks" *Journal of Evolution and Technology* 9(1):1-31 (2002) |
+| Bostrom 2014 *Superintelligence* | Ch 7:141 | ✓ published 2014 (Oxford UP) |
+| MacAskill 2022 *What We Owe the Future* | Ch 7:141 | ✓ published 2022 (Basic Books) |
+| Ord 2020 *The Precipice* | Ch 7:141 | ✓ *The Precipice: Existential Risk and the Future of Humanity*, Bloomsbury 2020 (per bibliography line 755) |
+| Existential substitutability gap canonical lineage citation | Ch 7:141 | ✓ Bostrom 2002 + Bostrom 2014 + MacAskill 2022 + Ord 2020 lineage present per terms_index requirement (line 683 "Prose form existential substitutability gap requires...") |
+| Pyramids at Giza Old Kingdom Fourth Dynasty | Ch 7:213 | ✓ Fourth Dynasty c. 2613-2494 BCE |
+| Pyramids built by paid laborers, not slaves (archaeological consensus revising Herodotean image) | Ch 7:213 | ✓ Lehner/Hawass excavations both contribute; "paid in rations, medically cared for, and properly buried" substantively accurate |
+| Qin Shi Huang unified warring states | Ch 7:215 | ✓ unification 221 BCE |
+| Qin Wall ~5,000 km of northern frontier | Ch 7:215 | ✓ Qin-era wall stretched Lintao to Liaodong, ~5,000 km |
+| Sima Qian *Shiji* reports 300,000-500,000 concurrent wall laborers + ~700,000 mausoleum conscripts | Ch 7:215 | ✓ matches Sima Qian's accounts |
+| Terracotta Army discovered 1974 | Ch 7:215 | ✓ discovered March 29, 1974 near Lintong, Xi'an |
+| Qin dynasty collapsed within four years of First Emperor's death | Ch 7:215 | ✓ First Emperor d. 210 BCE; Qin fell 206 BCE = 4 years |
+| Sima Qian as foundational early source on Qin extraction | Ch 7:215 | ✓ Shiji standard source |
+| Feudal lords + serfs cost-extraction pattern | Ch 7:217 | ✓ standard medieval economic history |
+| Kimberley Process certification critique | Ch 7:221 | ✓ standard critique well-documented (narrow definition; enforcement gaps; consumer premium retained by certification infrastructure rather than miners) |
+| Theorem 10.3 (Abundance Masking) Tech Appendix cross-reference | Ch 7:121 | ✓ matches current canonical Tech Appendix numbering (TA line 3416) |
+| Falcon 9 commercial launch baseline $2K-$5K/kg | Ch 7:241 | ✓ Falcon 9 ~$2,720-$2,940/kg per recent published cost-per-launch / payload analyses; Falcon Heavy ~$1,500/kg |
+| SpaceX Starship as plausible-but-not-yet-validated next-decade reduction | Ch 7:241 | ✓ Starship development status as of May 2026 supports "plausible-but-not-yet-validated" framing |
+| Keck Institute Asteroid Retrieval Mission Study 2012 | Ch 7:243 | ✓ April 2012, Keck Institute for Space Studies |
+| Planetary Resources + Deep Space Industries pre-acquisition status | Ch 7:243 | ✓ both companies acquired (PR 2018; DSI 2019); pre-acquisition projections are the relevant historical reference |
+| Earth's habitability timeline ~500M-1B years (chapter's conservative range) | Ch 7:197 | ✓ within canonical 600M-2.1B year range for moist-greenhouse onset / water-based life loss |
+| Sun main-sequence increase methodology | Ch 7:197 | ✓ Sun luminosity increases ~10% per billion years; main-sequence hydrogen depletion in ~5 Gyr (red-giant entry) |
 
 ---
 
@@ -505,14 +505,14 @@ Verified Ch 7 does NOT introduce formal apparatus terms that the apparatus regis
 
 Apparatus terms appearing in Ch 7 prose (all permitted per the apparatus register):
 
-- **"cost severance"** — permitted lowercase prose phrase per Insight #61 / register decisions; appears appropriately as plain-language framework reference (Ch 7:13, 21, 65, 73, etc.).
-- **"residual commons value (RCV)"** — permitted lowercase prose + RCV acronym in formal table contexts (Ch 7:33, 45, 83, 163). Per Item 14: Sandel hybrid pattern — acronym retained in formulas/table headers; full-name expansion appropriate at first introduction.
-- **"Substitutability Function S"** — permitted at formal definition site (Ch 7:137). Per Item 14 register.
+- **"cost severance"** — permitted lowercase prose phrase per Insight #61 / register decisions; appears appropriately as plain-language framework reference (Ch 7:15, 21, 65, 73, etc.).
+- **"residual commons value (RCV)"** — permitted lowercase prose + RCV acronym in formal table contexts (Ch 7:35, 45, 83, 163). Per Item 14: Sandel hybrid pattern — acronym retained in formulas/table headers; full-name expansion appropriate at first introduction.
+- **"Substitutability Function S"** — permitted at formal definition site (Ch 7:139). Per Item 14 register.
 - **"Commons Inversion Test"** — full name used consistently in Ch 7 body prose (3 occurrences at lines 99, 119, 125 + 127). No "CIT" acronym in Ch 7 body. ✓ per Item 7 ratification ("Drop CIT acronym everywhere in chapter prose; expand to Commons Inversion Test").
-- **"Asymmetric Regret Rule"** — full name used at Ch 7:85, 91; lowercase paraphrase "asymmetric regret" at 89, 167. No "ARR" acronym in body prose. ✓ per Item 12.
-- **"Abundance Masking"** — defined inline at Ch 7:119 (sixth pattern enumeration) + extended defense paragraph at Ch 7:121 (inserted per commit `2a7c336`). Register: capitalized-flagship-term at definition + defense sites; lowercase plain-prose paraphrase ("abundance masking") used in continuing prose (Ch 7:121, 125 etc.). Per Insight #57 Tier B promotion + apparatus register Item 10 (Theorem E.3 named-content cross-reference).
-- **"existential substitutability gap"** — introduced at Ch 7:137 with lineage citation at Ch 7:139 (Bostrom 2002 + Bostrom 2014 + MacAskill 2022 + Ord 2020). ✓ satisfies terms_index line 683 requirement ("Prose form existential substitutability gap requires Bostrom 2002 + Bostrom 2014 + MacAskill 2022 + Ord 2020 lineage citations on first chapter introduction per Insight #33 disambiguation discipline").
-- **Six cost-hiding patterns (Ostrom-path framing)** — Ch 7:107 carries the ratified Ostrom-path framing (per commit `b1c17d8`, Item 15): explicit "illustrative, not exhaustive" + lineage citation (Ostrom's eight design principles, Sen's ten capabilities, Rawls's primary goods) + open-list affordance. ✓ register correct; bolded pattern names retained; "The first / The second / …" enumeration markers absent per Item 15 light-de-formalize. Each pattern (Geographic distance, Temporal asymmetry, Informational asymmetry, Power asymmetry, Normative routinization, Abundance masking) appears with **bold** marker for back-reference navigation. ✓
+- **"Asymmetric Regret Rule"** — full name used at Ch 7:87, 91; lowercase paraphrase "asymmetric regret" at 89, 167. No "ARR" acronym in body prose. ✓ per Item 12.
+- **"Abundance Masking"** — defined inline at Ch 7:121 (sixth pattern enumeration) + extended defense paragraph at Ch 7:123 (inserted per commit `2a7c336`). Register: capitalized-flagship-term at definition + defense sites; lowercase plain-prose paraphrase ("abundance masking") used in continuing prose (Ch 7:123, 125 etc.). Per Insight #57 Tier B promotion + apparatus register Item 10 (Theorem E.3 named-content cross-reference).
+- **"existential substitutability gap"** — introduced at Ch 7:139 with lineage citation at Ch 7:141 (Bostrom 2002 + Bostrom 2014 + MacAskill 2022 + Ord 2020). ✓ satisfies terms_index line 683 requirement ("Prose form existential substitutability gap requires Bostrom 2002 + Bostrom 2014 + MacAskill 2022 + Ord 2020 lineage citations on first chapter introduction per Insight #33 disambiguation discipline").
+- **Six cost-hiding patterns (Ostrom-path framing)** — Ch 7:109 carries the ratified Ostrom-path framing (per commit `b1c17d8`, Item 15): explicit "illustrative, not exhaustive" + lineage citation (Ostrom's eight design principles, Sen's ten capabilities, Rawls's primary goods) + open-list affordance. ✓ register correct; bolded pattern names retained; "The first / The second / …" enumeration markers absent per Item 15 light-de-formalize. Each pattern (Geographic distance, Temporal asymmetry, Informational asymmetry, Power asymmetry, Normative routinization, Abundance masking) appears with **bold** marker for back-reference navigation. ✓
 
 **No apparatus regression detected.** Ch 7 satisfies all relevant apparatus register decisions ratified through 2026-05-11.
 
@@ -526,9 +526,9 @@ Apparatus terms appearing in Ch 7 prose (all permitted per the apparatus registe
 Verified Ch 7 does NOT carry verbatim-clone passages from other chapters per [research/audits/cross-chapter-path-b-audit_2026-05-11.md](research/audits/cross-chapter-path-b-audit_2026-05-11.md) baseline.
 
 Spot-checks performed:
-- **"structural test the same"** — appears in BOTH [Ch 7:99](manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md:99) AND [Aeon Version C](manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md). Cross-corpus near-verbatim overlap with the Aeon pitch (treated under MEDIUM-8; not Path B per se because the Aeon pitch is the essay-track artifact, not another book chapter).
+- **"structural test the same"** — appears in BOTH [Ch 7:101](manuscript/chapters/Chapter__7_OnOtherWorlds.md:101) AND [Aeon Version C](manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md). Cross-corpus near-verbatim overlap with the Aeon pitch (treated under MEDIUM-8; not Path B per se because the Aeon pitch is the essay-track artifact, not another book chapter).
 - **"self-imposed commute lease"** — same finding as above; both files.
-- **McDowell County coal references** — Ch 7:73, 109, 127 reference the Ch 2 canonical case ("McDowell County" + "Appalachian coal") as cross-references, not as verbatim clones. Per [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:56](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:56), Ch 2 is canonical with 32 hits; Ch 7's incidental references are appropriate cross-chapter pointers.
+- **McDowell County coal references** — Ch 7:75, 109, 127 reference the Ch 2 canonical case ("McDowell County" + "Appalachian coal") as cross-references, not as verbatim clones. Per [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:56](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:56), Ch 2 is canonical with 32 hits; Ch 7's incidental references are appropriate cross-chapter pointers.
 - **Six-pattern enumeration overlap with Ch 6** — Ch 7's six patterns are the canonical framework apparatus; Ch 6 enumerates ten categories with the same Ostrom-path framing (per Item 15). Both are intentional uses of the same framework apparatus; not Path B clones.
 - **Mars colony references** — Ch 7 is canonical (30 hits per inventory line 69); Ch 3, Ch 6, Ch 9, Ch 10 carry 1-2 cross-references each. No verbatim clones in priority-pair sweep.
 - **Europa reference** — Ch 7 canonical (3 hits per inventory line 70); Ch 9 line 215 has explicit cross-reference for CCZ analogue, Ch 10 (2×). Cross-references; not clones.
@@ -544,24 +544,24 @@ Ch 7 vs. Ch 8 + Ch 4 pairs were NOT priority-audited in the cross-chapter Path B
 Ch 7 contains no living named individuals in the cost-bearing or interview-subject sense. The chapter's named characters are:
 
 **Thought-experiment composites (no consent issue):**
-- Mars habitat administrator (composite; female-pronoun usage at Ch 7:29).
+- Mars habitat administrator (composite; female-pronoun usage at Ch 7:31).
 - Trading consortium representative (implicit; not named).
 - Commute-lease tenant (generic person in suburban Maryland; not named).
 
 **Historical figures (deceased; historical-record status):**
-- Qin Shi Huang (Ch 7:213) — deceased 210 BCE; named with historical-record status. No consent issue per [feedback_named_subject_consent.md](/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_named_subject_consent.md) historical-record exception.
-- Sima Qian (Ch 7:213) — deceased c. 86 BCE; named with historical-record status.
-- Herodotus (Ch 7:211, implicit via "Herodotean image") — deceased ~425 BCE.
+- Qin Shi Huang (Ch 7:215) — deceased 210 BCE; named with historical-record status. No consent issue per [feedback_named_subject_consent.md](/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_named_subject_consent.md) historical-record exception.
+- Sima Qian (Ch 7:215) — deceased c. 86 BCE; named with historical-record status.
+- Herodotus (Ch 7:213, implicit via "Herodotean image") — deceased ~425 BCE.
 
 **Living scholars / officials (named via published academic work; standard scholarly citation practice):**
-- **Mark Lehner** (Ch 7:211) — Egyptologist, AERA director; named via published archaeological project. Standard academic citation; no consent issue per the Ch 4 Pass 1 model's treatment of named Norwegian PMs ("named in their official capacity as office-holders; standard journalistic practice; no consent issue").
-- **Zahi Hawass** (Ch 7:211) — Egyptologist, former Egyptian Minister of State for Antiquities; named via published excavation work. Standard academic citation.
-- **Nick Bostrom** (Ch 7:139) — Oxford philosopher; named via Bostrom 2002 + Bostrom 2014. Standard academic citation.
-- **William MacAskill** (Ch 7:139) — Oxford philosopher; named via MacAskill 2022 *What We Owe the Future*.
-- **Toby Ord** (Ch 7:139) — Oxford philosopher; named via Ord 2020 *The Precipice*.
-- **Nicholas Stern (Lord Stern of Brentford)** (Ch 7:71) — economist; named via Stern Review 2006.
-- **William Nordhaus** (Ch 7:71) — Nobel-laureate economist; named via DICE model.
-- **John Hartwick** (Ch 7:71) — economist; named via Hartwick 1977.
+- **Mark Lehner** (Ch 7:213) — Egyptologist, AERA director; named via published archaeological project. Standard academic citation; no consent issue per the Ch 4 Pass 1 model's treatment of named Norwegian PMs ("named in their official capacity as office-holders; standard journalistic practice; no consent issue").
+- **Zahi Hawass** (Ch 7:213) — Egyptologist, former Egyptian Minister of State for Antiquities; named via published excavation work. Standard academic citation.
+- **Nick Bostrom** (Ch 7:141) — Oxford philosopher; named via Bostrom 2002 + Bostrom 2014. Standard academic citation.
+- **William MacAskill** (Ch 7:141) — Oxford philosopher; named via MacAskill 2022 *What We Owe the Future*.
+- **Toby Ord** (Ch 7:141) — Oxford philosopher; named via Ord 2020 *The Precipice*.
+- **Nicholas Stern (Lord Stern of Brentford)** (Ch 7:73) — economist; named via Stern Review 2006.
+- **William Nordhaus** (Ch 7:73) — Nobel-laureate economist; named via DICE model.
+- **John Hartwick** (Ch 7:73) — economist; named via Hartwick 1977.
 
 All living scholars named via on-record published academic work — same status as Ch 4's treatment of Pistor / Christophers / Mazzucato / Coates / Darity-Mullen / Hamilton etc. per [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-12_ch4_existence_proof_stage3_fact_check_v1.0.0.md](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-12_ch4_existence_proof_stage3_fact_check_v1.0.0.md) §"Named-subject consent check".
 
@@ -575,9 +575,9 @@ All living scholars named via on-record published academic work — same status 
 
 1. **HIGH-1 — Mars mission chronology re-order.** Recommend RATIFY: single-edit fix; moves Mars 3 to head of enumeration. Critical to resolve before publisher pre-publication review.
 
-2. **MEDIUM-1 — Sima Qian "less than a century after Qin's fall."** Recommend RATIFY Option A or B. Pair the fix across Ch 7:213 + bibliography §13 line 344. Cross-corpus disposition required.
+2. **MEDIUM-1 — Sima Qian "less than a century after Qin's fall."** Recommend RATIFY Option A or B. Pair the fix across Ch 7:215 + bibliography §13 line 344. Cross-corpus disposition required.
 
-3. **MEDIUM-2 — Hawass "Workers' Village" attribution.** Recommend RATIFY Option A (`workers' cemetery excavations`). Pair across Ch 7:211 + bibliography §13 line 340 if ratified.
+3. **MEDIUM-2 — Hawass "Workers' Village" attribution.** Recommend RATIFY Option A (`workers' cemetery excavations`). Pair across Ch 7:213 + bibliography §13 line 340 if ratified.
 
 4. **MEDIUM-3 — Sun-engulfment timeline.** Recommend RATIFY Option C (`well before the Sun exits its main sequence, roughly 5 billion years out`) — smallest prose change + sidesteps engulfment specificity. Option A acceptable alternative.
 
@@ -668,25 +668,25 @@ No structural-revision finding (no STRUCTURAL REVISION NEEDED disposition). The 
 Sequenced for Phase C application:
 
 **First — HIGH (gates publisher review):**
-1. HIGH-1 (Ch 7:17 Mars chronology re-order) — single-edit fix; resolves before any publisher-facing transmission.
+1. HIGH-1 (Ch 7:19 Mars chronology re-order) — single-edit fix; resolves before any publisher-facing transmission.
 
 **Second — MEDIUM (cluster into single Phase C session):**
-2. MEDIUM-1 (Ch 7:213 Sima Qian century) + bibliography §13 line 344 paired fix.
-3. MEDIUM-2 (Ch 7:211 Hawass workers' cemetery) + bibliography §13 line 340 paired fix.
-4. MEDIUM-3 (Ch 7:195 Sun timeline conflation).
-5. MEDIUM-4 (Ch 7:17 MSR stale framing).
-6. MEDIUM-5 (Ch 7:239 Vulcan/New Glenn stale framing).
-7. MEDIUM-6 (Ch 7:211 pyramids construction span) — paired with LOW-5.
-8. MEDIUM-7 (Ch 7:31 Mars-habitat arithmetic).
+2. MEDIUM-1 (Ch 7:215 Sima Qian century) + bibliography §13 line 344 paired fix.
+3. MEDIUM-2 (Ch 7:213 Hawass workers' cemetery) + bibliography §13 line 340 paired fix.
+4. MEDIUM-3 (Ch 7:197 Sun timeline conflation).
+5. MEDIUM-4 (Ch 7:19 MSR stale framing).
+6. MEDIUM-5 (Ch 7:241 Vulcan/New Glenn stale framing).
+7. MEDIUM-6 (Ch 7:213 pyramids construction span) — paired with LOW-5.
+8. MEDIUM-7 (Ch 7:33 Mars-habitat arithmetic).
 9. MEDIUM-8 (Aeon overlap) — Option A (no change; flag for awareness). **Time-sensitive disposition before Sun May 31 14:01 UTC Aeon fire window.**
 
 **Third — LOW (deferrable to pre-publication refresh; couple where indicated):**
-10. LOW-1 (Ch 7:241 Mars per-kg) — author judgment, defensible as-is.
-11. LOW-2 (Ch 7:239 Shuttle baseline) — hold as-is.
-12. LOW-3 (Ch 7:85 lunar He-3) — defensible as-is.
-13. LOW-4 (Ch 7:121 Ogallala history) — hold as-is.
-14. LOW-5 (Ch 7:211 pyramids time-anchor) — couple to MEDIUM-6.
-15. LOW-6 (Ch 7:241 asteroid-mining orders) — defensible as-is via existing qualifier.
+10. LOW-1 (Ch 7:243 Mars per-kg) — author judgment, defensible as-is.
+11. LOW-2 (Ch 7:241 Shuttle baseline) — hold as-is.
+12. LOW-3 (Ch 7:87 lunar He-3) — defensible as-is.
+13. LOW-4 (Ch 7:123 Ogallala history) — hold as-is.
+14. LOW-5 (Ch 7:213 pyramids time-anchor) — couple to MEDIUM-6.
+15. LOW-6 (Ch 7:243 asteroid-mining orders) — defensible as-is via existing qualifier.
 
 **Cross-corpus follow-on tasks (NOT in Ch 7's Phase C scope, but flagged for PM session):**
 - Bibliography §13 fixes paired with MEDIUM-1 + MEDIUM-2.
