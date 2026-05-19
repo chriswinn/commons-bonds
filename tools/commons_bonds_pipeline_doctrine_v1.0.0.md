@@ -36,7 +36,7 @@ Specific frictions the doctrine resolves (surfaced by the Ch 1 Pass 3 REAUDIT v3
 | **0** | Author conception / topic decision | [`tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`](drafting-templates/stage-0-publishing-strategy-rigor-test.md) |
 | **1** | Ready-to-draft gate (three sub-steps: 1a invariant + 1b structure + 1c coherence) | [`tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) + [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](drafting-templates/stage-1-audience-aware-structure-pass.md) + [`tools/drafting-templates/audience-pressure-test-construction.md`](drafting-templates/audience-pressure-test-construction.md) |
 | **2** | Audience-blind drafting | [`tools/drafting-templates/stage-2-audience-blind-flow-draft.md`](drafting-templates/stage-2-audience-blind-flow-draft.md) |
-| **3** | Four-pass rigor audit (3.1 fact-check + 3.2 voice-polish + 3.3 audience-load acceptance + 3.4 audience-load robustness) | [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](drafting-templates/stage-3-three-pass-rigor-audit.md) (v3.0 codification of the four-pass split) |
+| **3** | **Five-pass rigor audit** (3.1 fact-check + 3.2 voice-polish + 3.3 audience-load acceptance + 3.4 audience-load robustness + **3.5 developmental-edit per Amendment B 2026-05-18**) | [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](drafting-templates/stage-3-three-pass-rigor-audit.md) (v3.0 four-pass split + v3.1 Amendment B Pass 3.5 codification) |
 | **4** | Render + character-integrity audit | [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) |
 | **5** | Academic-rigor + prose-quality sign-off bookend + pre-publication review queue artifact | [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md) |
 
@@ -126,6 +126,7 @@ Implementation: [`tools/scripts/check-corpus-invariants.sh`](scripts/check-corpu
 | **Stage 5 (sign-off + pre-pub review queue)** | Pre-external-review send; pre-publication; before any external-reviewer engagement | Stage 5 generates the pre-publication review queue artifact (mandatory deliverable per pipeline doctrine §7); only valuable at distribution-readiness gates. |
 | **Pass 3.3 (audience-load acceptance)** | New audience character added (Stage 1b update); venue change (artifact retargets to different publication); pre-external-review send; pre-publication | Per-character audience-load test is heavy (15-25 acceptance characters scored). Spot-fixes rarely shift acceptance verdicts; batching at venue-change / pre-publication gates avoids redundant re-fires. |
 | **Pass 3.4 (audience-load robustness)** | New adversarial character added; cross-chapter workstream affects the chapter (post-merge batched re-fire); pre-publication for any artifact with adversarial-exposure risk | Adversarial-set thread-pull synthesis is the heaviest pass; only fires at venue-change / pre-publication / cross-chapter-cascade gates. |
+| **Pass 3.5 (developmental-edit)** — *added by Amendment B 2026-05-18* | Per-chapter, after Pass 3.1 + 3.2 + 3.3 + 3.4 ratify-and-apply complete; before pre-publication; on author "developmental read-through" trigger | Whole-chapter scale; restoration-of-richness lens; catches emotional-arc continuity + scene-anchor density + sensory-detail restoration + voice-flow continuity + cumulative-LLM-cadence residue + reader-engagement at analytical pivots. Heavy (~50K-80K tokens per chapter); only valuable at chapter-level distribution-readiness gates. Light Pass 3.3 re-fire recommended after Phase C application of any ratified Pass 3.5 spot-fixes. |
 | **Cross-chapter workstream cascade light re-fire (Stage 1c + Pass 3.3-light)** | After cross-chapter touches land on main (batched per pipeline doctrine §5 step 4) | Heavy when applied per-chapter immediately on every cross-chapter touch; cheap when batched at workstream close. |
 | **External-reviewer finding integration** | When the finding lands; gated on author disposition | Heavy work routing back through multiple stages; only fires when the finding warrants it. |
 
@@ -151,6 +152,7 @@ The two-class cascade reflects an underlying token-economy observation:
 | Pass 3.2 voice-polish | 5,000-15,000 (similar scope to 3.1) |
 | Pass 3.3 acceptance (15-25 characters) | 20,000-60,000 (per-character simulation + verdict + finding-extraction) |
 | Pass 3.4 robustness (5-10 adversarial characters) | 15,000-40,000 (adversarial-character simulation + thread-pull synthesis) |
+| **Pass 3.5 developmental-edit** *(added Amendment B)* | **50,000-80,000 (whole-chapter context + 3-4 prior rigor-pass artifacts + AuthorsNote + raw-substrate dumps + reasoning + per-finding restoration drafts + whole-chapter synthesis)** |
 | Stage 4 (render-integrity audit, via Docker render) | 500-3,000 (Docker render is ~0 tokens; audit work is text-extract + diff + finding-extraction) |
 | Stage 5 sign-off + pre-pub review queue generation | 3,000-10,000 (artifact-generation work) |
 
@@ -159,6 +161,49 @@ The automatic-on-edit cascade (Pass 3.1 + Pass 3.2 + Stage 1c-light) totals ~10K
 ### §3.5 Backward-compatibility with v1.0.0-original cascade
 
 Prior cascade rules (where Pass 3.3 / 3.4 / Stage 4 were folded into automatic cascade) are now Amendment-A-superseded but archived for audit-trail. Sessions that fired heavy cascades prior to 2026-05-18 remain valid; new sessions fire per Amendment A.
+
+### §3.6 Amendment B — Pass 3.5 developmental-edit ratification (2026-05-18)
+
+**Author ratification 2026-05-18: Pass 3.5 (developmental-edit) is codified as the fifth pass within Stage 3, per Option (a) of the developmental-edit workstream handoff §2.2.** Stage 3 is now a **five-pass** rigor audit: 3.1 fact-check → 3.2 voice-polish → 3.3 audience-load acceptance → 3.4 audience-load robustness → **3.5 developmental-edit**.
+
+**§3.6.1 What Pass 3.5 catches that 3.1-3.4 cannot:**
+
+| Pass | Scale | Catches | Misses |
+|---|---|---|---|
+| 3.1 fact-check | Per-fact | Factual drift; source-citation accuracy | Whole-chapter narrative arc |
+| 3.2 voice-polish | Per-paragraph | LLM tics (named-inventory matches) | Cumulative effect of multiple tic-fixes; clipped-after-cutting feel |
+| 3.3 acceptance | Per-character (per-audience) | Whether target audiences INCLUDE | Whether the chapter HOLDS reader attention through analytically-loaded passages |
+| 3.4 robustness | Per-adversarial-character | Hostile-read thread-pull synthesis | Same as 3.3 — character-set tests rather than experience-of-reading |
+| **3.5 developmental-edit** | **Whole-chapter** | **Emotional-arc continuity; scene-anchor density; sensory-detail restoration; voice-flow continuity; cumulative-LLM-cadence residue; reader-engagement at analytical pivots** | **Cross-chapter narrative arc (handled by separate cross-chapter developmental-coherence workstream)** |
+
+**§3.6.2 Pass 3.5 remediation polarity is RESTORATION, not cutting.**
+
+Empirically grounded by the Ch 1 PROPOSED + RATIFIED developmental-edit review (`tools/rigor-passes/ch1_developmental_edit_review_2026-05-18.md`) §5.1 cumulative diagnosis: *"Pass 2's chiseling produced a clipped feel in several places that the developmental-edit lens reads as flatness-by-omission. The remedy is targeted RESTORATION (scene-anchor re-entry; both/and reveal breath; framework-close breath; specificity-restoration; faithfulness-of-the-model lineage paragraph), not further cutting."*
+
+This is the methodological-clarity argument for Pass 3.5's separation from Pass 3.2 (Option (a) over folding-into-3.2): Pass 3.2 cuts; Pass 3.5 restores. Different polarities; folding would lose the discipline each polarity needs.
+
+**§3.6.3 Pass 3.5 cadence within Stage 3.**
+
+Per-prompt serial cadence extends: 3.1 → 3.2 → 3.3 → 3.4 → 3.5. Pass 3.5 fires AFTER 3.1-3.4 have ratify-and-applied because empirically the flatness only surfaces post-3.2's chiseling — the cumulative effect of 3.2's correct cuts is what 3.5 catches. Pass 3.5 may also surface findings about 3.2's apply/hold dispositions (e.g., Ch 1 F-DE-Ch1-5: "F-V2's spot-fix genericized the 'particular look on a child's face' specificity"); these route back as a 3.2-reconsider follow-up if needed.
+
+**§3.6.4 Pass 3.5 explicit-gate firing per Amendment A.**
+
+Pass 3.5 is an explicit-gate cascade item per §3.2:
+- Fires per-chapter, after Pass 3.1 + 3.2 + 3.3 + 3.4 ratify-and-apply complete.
+- Fires before pre-publication (the developmental edit is gate-relevant to publication readiness).
+- Does NOT fire on every prose edit (~50K-80K tokens per chapter; only valuable at chapter-level distribution-readiness gates).
+- Light Pass 3.3 re-fire recommended after Phase C application of ratified Pass 3.5 spot-fixes (confirms acceptance verdicts hold; cumulative restoration may shift acceptance for some characters).
+- Pass 3.4 re-fire NOT routinely warranted (restorations strengthen rather than weaken adversarial robustness; thread-pull surface unchanged).
+
+**§3.6.5 Empirical-grounding posture.**
+
+Author ratified Amendment B on the Ch 1 single-chapter empirical basis. The developmental-edit workstream handoff §2.3 recommended waiting for all 10 chapters + AuthorsNote before codification; author ratified early on the methodological-clarity argument + the Ch 1 finding-distribution (3 HIGH + 7 MEDIUM + 3 LOW; HIGH findings clustered around recurring patterns).
+
+Cross-chapter empirical grounding still proceeds via the developmental-edit workstream (Ch 2 → Ch 10 + AuthorsNote per-chapter sessions). If cross-chapter data surfaces material refinements to Pass 3.5's scope / cadence / finding-format, those land as future amendments (Amendment C, etc.) without disturbing the codification of Pass 3.5 as a fifth pass.
+
+**§3.6.6 Memory entry version bump.**
+
+`feedback_audience_aware_drafting_discipline.md` becomes **v3.1.0** (was v3.0 base + Amendment A inline). The v3.1.0 entry summarizes Pass 3.5 ratification + points to this Amendment B for the full codification. Memory-update spec at `tools/memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md` should be revised to capture the v3.1.0 framing.
 
 ---
 

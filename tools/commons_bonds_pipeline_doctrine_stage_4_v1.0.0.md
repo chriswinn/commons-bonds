@@ -40,9 +40,9 @@ Stage 4 does **NOT** auto-fire on:
 - Pass 3.1 / Pass 3.2 findings dispositions (those auto-fire per §3.1 of the canonical doctrine; Stage 4 stays gated).
 - Stage 1c coherence-check updates (those route to ⚡ automatic cascade per §3.1; Stage 4 stays gated).
 
-After Stage 3 closes (all four passes complete + spot-fixes applied + author ratified), Stage 4 fires before Stage 5 sign-off.
+After Stage 3 closes (all five passes complete + spot-fixes applied + author ratified — per v1.0.0 Amendment B 2026-05-18, Stage 3 is a **five-pass** rigor audit including Pass 3.5 developmental-edit), Stage 4 fires before Stage 5 sign-off.
 
-For retrofit cycles: after Pass 3.4 (audience-load robustness) completes; Stage 4 fires on the retrofit-targeted derivative outputs.
+For retrofit cycles: after Pass 3.5 (developmental-edit) completes; Stage 4 fires on the retrofit-targeted derivative outputs.
 
 ---
 

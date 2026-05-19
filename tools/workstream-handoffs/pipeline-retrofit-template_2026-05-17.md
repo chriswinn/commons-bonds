@@ -107,6 +107,16 @@ Final robustness verdict: ROBUST / CONDITIONALLY ROBUST / REQUIRES STRUCTURAL EN
 
 Output artifact: `tools/rigor-passes/<chapter-slug>_stage3_pass_3_4_robustness_<date>.md`.
 
+### §3.6b 🚪 Pass 3.5 developmental-edit (explicit-gate; fires per-chapter after Pass 3.1-3.4 ratify-and-apply complete; pre-publication; on author "developmental read-through" trigger) — added by pipeline-doctrine v1.0.0 Amendment B 2026-05-18
+
+Per pipeline doctrine §3.6 (Amendment B). Whole-chapter scale; restoration-of-richness lens; catches what per-paragraph + per-character passes miss (emotional-arc continuity + scene-anchor density + sensory-detail restoration + voice-flow continuity + cumulative-LLM-cadence residue + reader-engagement at analytical pivots).
+
+For retrofit context: Pass 3.5 fires per-chapter, EXPLICITLY GATED (not auto-fire on retrofit). Author triggers via the developmental-edit workstream (`tools/workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md`); per-chapter sessions sequence Ch 1 → Ch 2 → ... → Ch 10 → AuthorsNote (Dedication skipped).
+
+Light Pass 3.3 (acceptance) re-fire recommended after Phase C application of any ratified Pass 3.5 spot-fixes. Pass 3.4 re-fire NOT routinely warranted.
+
+Output artifact: `tools/rigor-passes/<chapter-slug>_developmental_edit_review_<date>.md`.
+
 ### §3.7 🚪 Stage 4 render + character-integrity audit (explicit-gate; fires at pre-external-review send + pre-publication + on author "build it now" trigger + any publishing-pipeline-script change)
 
 > **⚠ CANONICAL-PIPELINE — sequencing differs for the first 4 retrofits vs the remaining 9.** Author direction 2026-05-17: the render-pipeline-standardization workstream ([`render-pipeline-standardization-handoff_2026-05-17.md`](render-pipeline-standardization-handoff_2026-05-17.md)) fires **in parallel with** the first 4 retrofits (Ch 1 + Ch 5 + Ch 6 + TA), using them as the comparison-render test bed. Sequencing:

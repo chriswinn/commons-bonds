@@ -1,6 +1,8 @@
-# Stage 3 — Four-Pass Rigor Audit (Template, v3.0)
+# Stage 3 — Five-Pass Rigor Audit (Template, v3.1)
 
-**Purpose.** Post-draft rigor on a Stage 2 audience-blind flow draft (or an existing piece of prose). Four distinct passes — fact-check + voice-polish + audience-load acceptance + audience-load robustness — each catching what the others miss.
+**Purpose.** Post-draft rigor on a Stage 2 audience-blind flow draft (or an existing piece of prose). Five distinct passes — fact-check + voice-polish + audience-load acceptance + audience-load robustness + developmental-edit — each catching what the others miss.
+
+**v3.1 framing per pipeline-doctrine v1.0.0 Amendment B (ratified 2026-05-18):** Stage 3 extends from four-pass to five-pass with the addition of **Pass 3.5 developmental-edit** at whole-chapter scale. Pass 3.5 catches emotional-arc continuity + scene-anchor density + cumulative-LLM-cadence residue that per-paragraph Pass 3.2 cannot. Filename `stage-3-three-pass-rigor-audit.md` is canonical for cross-reference stability (historical: v2.0 was three-pass; v3.0 four-pass; v3.1 five-pass).
 
 **When to use.** Required for any publisher-facing prose >~500w before submission. Lighter version (single audience-load pass) acceptable for in-book defense paragraphs.
 
@@ -273,9 +275,88 @@ these as additional pressure-test characters in the audience-load
 pass. If any condition fails: flag as ⚠⚠⚠ and propose specific
 remediation.
 
+== Pass 3.5: Developmental-edit (whole-chapter restoration lens) ==
+
+Per v1.0.0 Amendment B (ratified 2026-05-18). Fires AFTER Pass 3.1
++ 3.2 + 3.3 + 3.4 have ratified-and-applied. Operates at
+whole-chapter scale; catches what per-paragraph + per-character
+passes miss.
+
+What Pass 3.5 catches:
+
+- **Emotional-arc continuity** — does the chapter's emotional
+  trajectory build + land, or does it flatten at structural pivots?
+- **Scene-anchor density** — are scene-anchors (sensory detail,
+  spatial grounding, temporal anchoring) dense enough to carry the
+  analytical load without losing the reader?
+- **Sensory-detail restoration** — what specific images / sounds /
+  textures were cut during Pass 3.2 chiseling that the
+  whole-chapter read shows as needed restoration?
+- **Voice-flow continuity** — does the prose's memoir / essay /
+  analytical register hold across the chapter without breaks?
+- **Cumulative-LLM-cadence residue** — Pass 3.2 caught individual
+  tics, but did the CUMULATIVE effect of multiple tic-fixes produce
+  flatness even though each fix was individually justified?
+- **Reader-engagement at analytical pivots** — at the chapter's
+  most analytically-loaded passages, does the reader's attention
+  plausibly slip? (Cross-reference with Pass 3.3 acceptance-character
+  expectations.)
+
+**Remediation polarity: RESTORATION, not cutting.** Pass 3.5
+findings recommend ADDING prose (scene-anchors, sensory detail,
+breath, restoration of cut richness, faithfulness-of-the-model
+lineage paragraphs, both/and reveal breath at pivots) — NOT further
+compression. This is the methodological-clarity argument for Pass
+3.5's separation from Pass 3.2: opposite polarities; folding would
+lose the discipline each polarity needs.
+
+Per-finding format (mirrors Pass 3.2 voice-polish artifact structure):
+
+- **Finding ID:** F-DE-Ch<N>-K
+- **Severity:** HIGH (significant emotional-arc breakage; cumulative
+  flatness reaches gate-level severity); MEDIUM (noticeable flatness
+  at specific section); LOW (style preference / restoration option)
+- **Location:** line number + verbatim current text
+- **Diagnosis:** what specifically reads as flat / compressed /
+  lost-richness
+- **Proposed rewrite:** specific prose; same canonical-facts + same
+  consent gates + same named-subject discipline
+- **Cross-pass flag:** whether the rewrite affects any prior Pass 1
+  / Pass 2 / Pass 3 finding's disposition (should be rare since this
+  is whole-chapter scale; surfaces when a prior Pass 3.2
+  ratified-as-applied cut over-corrected at the whole-chapter scale)
+
+Whole-chapter synthesis at end of artifact:
+
+- **Cumulative diagnosis** — what produced the flatness? Over-
+  compression? Held findings that should have applied? Applied
+  findings that over-corrected?
+- **Cumulative recommendation** — apply N rewrites; restore K
+  paragraphs of cut richness; structural pacing adjustment.
+- **Token-economy note** per Amendment A: Pass 3.5 is heavy (~50K-80K
+  tokens per chapter session); fires per-chapter pre-publication, not
+  on every prose edit.
+- **Cross-chapter cascade flag** — if any rewrite would affect
+  cross-chapter pacing or callback resonance, flag for the
+  cross-chapter-developmental-coherence workstream (separate;
+  fires after all per-chapter developmental edits land).
+
+**Output artifact:** `tools/rigor-passes/ch<N>_developmental_edit_review_<date>.md`.
+
+**Phase C workflow:** PROPOSED at session close; author ratifies via
+separate session; Phase C application applies ratified rewrites to
+chapter source; light Pass 3.3 (acceptance) re-fire recommended
+after Phase C application; Pass 3.4 re-fire not routinely warranted.
+
+**Canonical example:** Ch 1 developmental-edit review at
+`tools/rigor-passes/ch1_developmental_edit_review_2026-05-18.md`
+(first session of the workstream class; 3 HIGH + 7 MEDIUM + 3 LOW
+findings; §5.1 cumulative diagnosis is the canonical format for the
+whole-chapter synthesis).
+
 == Verdict synthesis ==
 
-Four verdicts (one per pass):
+Five verdicts (one per pass):
 
 - **Pass 3.1 fact-check verdict** — total findings by severity;
   CRITICAL findings must be resolved before submission.
@@ -287,25 +368,34 @@ Four verdicts (one per pass):
 - **Pass 3.4 audience-load robustness verdict** — thread-pull
   synthesis + ROBUST / CONDITIONALLY ROBUST / REQUIRES STRUCTURAL
   ENGAGEMENT verdict.
+- **Pass 3.5 developmental-edit verdict** — cumulative diagnosis
+  (over-compression / held-findings-should-have-applied / applied-
+  findings-over-corrected); minimum-restoration set + medium-
+  priority set + author-discretionary set; cross-chapter cascade
+  flag.
 
 Aggregate verdict:
 - **READY TO SUBMIT AS-IS** — Pass 3.1 returns 0 CRITICAL; Pass 3.2
   returns 0 HIGH; Pass 3.3 returns net INCLUDE with no Tier-1
-  EXCLUDE; Pass 3.4 returns ROBUST or CONDITIONALLY ROBUST.
+  EXCLUDE; Pass 3.4 returns ROBUST or CONDITIONALLY ROBUST; Pass
+  3.5 returns 0 HIGH (or HIGH findings ratified-and-applied).
 - **READY AFTER SPOT-FIXES** — specific spot-fixes itemized; piece
-  flips to submit-ready once applied.
+  flips to submit-ready once applied (across all five passes).
 - **STRUCTURAL REVISION NEEDED** — findings cannot be addressed by
   spot-fixes; recommend re-firing Stage 2 with amended Stage 1
   brief, OR (for Pass 3.4 REQUIRES STRUCTURAL ENGAGEMENT) spin up a
-  cross-chapter workstream per pipeline doctrine §5.
+  cross-chapter workstream per pipeline doctrine §5, OR (for Pass
+  3.5 cross-chapter cascade flags) queue the cross-chapter
+  developmental-coherence workstream.
 
 == Output ==
 
-Four artifacts (or one combined):
+Five artifacts (or one combined):
 1. tools/rigor-passes/commons_bonds_rigor_pass_[DATE]_[SLUG]_stage3_pass_3_1_fact_check_v1.0.0.md
 2. tools/rigor-passes/commons_bonds_rigor_pass_[DATE]_[SLUG]_stage3_pass_3_2_voice_polish_v1.0.0.md
 3. tools/rigor-passes/commons_bonds_rigor_pass_[DATE]_[SLUG]_stage3_pass_3_3_audience_load_acceptance_v1.0.0.md
 4. tools/rigor-passes/commons_bonds_rigor_pass_[DATE]_[SLUG]_stage3_pass_3_4_audience_load_robustness_v1.0.0.md
+5. tools/rigor-passes/[SLUG]_developmental_edit_review_[DATE].md
 
 Or, bundled (only when scale + scope justify):
 - tools/rigor-passes/commons_bonds_rigor_pass_[DATE]_[SLUG]_stage3_four_pass_v1.0.0.md

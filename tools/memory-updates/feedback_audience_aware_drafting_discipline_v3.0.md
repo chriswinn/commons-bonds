@@ -1,10 +1,13 @@
-# Memory Update Spec — `feedback_audience_aware_drafting_discipline.md` v2.0 → v3.0 (+ Amendment A 2026-05-18)
+# Memory Update Spec — `feedback_audience_aware_drafting_discipline.md` v2.0 → v3.0 → **v3.1.0** (Amendment B Pass 3.5)
 
-**Date drafted:** 2026-05-17 (v3.0 base); 2026-05-18 Amendment A added (selective stage-firing).
-**Status:** v3.0 base PROPOSED + author-applied 2026-05-17; Amendment A PROPOSED 2026-05-18.
+**Date drafted:** 2026-05-17 (v3.0 base); 2026-05-18 Amendment A (selective stage-firing) + Amendment B (Pass 3.5 developmental-edit ratification) added.
+**Status:** v3.0 base PROPOSED + author-applied 2026-05-17; Amendment A + Amendment B BOTH ratified 2026-05-18. **Memory entry version: v3.1.0.**
+
 **Amendment A in one line:** the v3.0 cascade is now two-class — automatic-on-edit (Pass 3.1 + Pass 3.2 + Stage 1c-light; fires on every prose edit) vs explicit-gate (Pass 3.3 + Pass 3.4 + Stage 4 + Stage 5; fires only on author trigger at pre-external-review send + pre-publication + venue-change). Rationale: token-economy — heavy passes only fire when value justifies the cost.
 
-**Apply Amendment A to local memory:** append the §"Amendment A — Selective stage-firing (2026-05-18)" block from `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` §3 to the local memory file's v3.0 entry, or replace the entire v3.0 cascade section with the new two-class cascade from §3 of the canonical doctrine. Memory file remains a scan-friendly summary; canonical doctrine carries the full architecture.
+**Amendment B in one line:** Stage 3 extends from four-pass to **five-pass** with the addition of **Pass 3.5 developmental-edit** at whole-chapter scale. Pass 3.5 catches emotional-arc continuity + scene-anchor density + sensory-detail restoration + voice-flow continuity + cumulative-LLM-cadence residue + reader-engagement at analytical pivots — all of which per-paragraph Pass 3.2 + per-character Pass 3.3/3.4 cannot catch by design. Remediation polarity is RESTORATION, not cutting (Pass 3.2 cuts; Pass 3.5 restores; the polarity-difference is the methodological-clarity argument for separation). Pass 3.5 is explicit-gate per Amendment A — fires per-chapter after Pass 3.1-3.4 ratify-and-apply; pre-publication; not on every prose edit. Empirically grounded by Ch 1 developmental-edit review (`tools/rigor-passes/ch1_developmental_edit_review_2026-05-18.md`); cross-chapter empirical grounding via the developmental-edit workstream continues for Ch 2 → Ch 10 + AuthorsNote.
+
+**Apply Amendments A + B to local memory:** v3.1.0 memory entry should append BOTH "Amendment A" and "Amendment B" blocks from `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` §3.1-3.4 + §3.6 respectively, OR replace the v3.0-original cascade section with the new two-class five-pass framework. Memory file remains a scan-friendly summary; canonical doctrine carries the full architecture.
 
 ---
 **Origin:** Pipeline-revision workstream (handoff at [`tools/workstream-handoffs/pipeline-revision-handoff_2026-05-17.md`](../workstream-handoffs/pipeline-revision-handoff_2026-05-17.md)).
