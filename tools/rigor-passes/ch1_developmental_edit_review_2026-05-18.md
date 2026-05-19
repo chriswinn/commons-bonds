@@ -1644,13 +1644,158 @@ discipline. Recommended Phase C session brief:
 
 ### §11.4 Phase C application log
 
-*To be appended by Phase C session at chapter-file application time.*
+Phase C session conducted 2026-05-18 on feature branch
+`claude/ch1-phase-c-developmental-edit-goofy-swanson-86aa0b` (branched
+from `origin/main` at `1f5c6ad`). All 9 ratified APPLY findings (10
+discrete chapter edits — F-DE-Ch1-1 + F-DE-Ch1-3 each produce two
+edits per their multi-option ratifications) applied to
+`manuscript/chapters/Chapter__1_TheQuietMath.md` in the same commit
+as this disposition-log update. Chapter line count: pre-application
+108 lines → post-application 118 lines (net +10 lines; within §5.2's
+estimated 10–20 new-lines-net range).
+
+#### Per-finding application detail
+
+| Finding | Option | Pre-app line | Post-app line | Change applied |
+|---|---|---|---|---|
+| **F-DE-Ch1-9** | A | line 10 | line 10 | Cut third detail-sentence (*"It had a laptop and a few essentials and could carry me for two weeks of meetings before laundry was a crisis."*). Opening paragraph now ends at *"…fifty-eight countries I have traveled to as of this writing."* Net −1 sentence inside paragraph (no paragraph delta). |
+| **F-DE-Ch1-10** | A | line 16 | lines 16 + 18 | Re-paragraph at *"There was nothing more important to me than giving him that."* First paragraph closes at *"…let him feel that connection."* (line 16); second paragraph opens at *"There was nothing more important to me than giving him that."* (line 18). No new prose; paragraph boundary added at schedule-matching pivot. Net +2 lines (paragraph split). |
+| **F-DE-Ch1-2** | A | between line 28 and line 30 | line 32 | Inserted faithfulness-of-the-model paragraph (*"What he did in the wind tunnels was build the world in miniature — wood, metal, resin, scale aircraft and spacecraft components accurate to a thousandth of an inch. The tunnel would tell the truth about a full-size design that did not yet exist, but only if the model had been built faithfully enough for the truth to come through. His patents extended the same discipline beyond the tunnel. The discipline was specific. His work had to function in spaceflight, where the cost of being wrong is borne by people who cannot recover from the error."*) between wind-tunnels mention paragraph and air-compressor anecdote paragraph. Net +2 lines. |
+| **F-DE-Ch1-4** | A | line 33 (end) | line 36 (end) | Appended observational closer (*"The boy was small. He did not know what he had given my father back."*) to the Pou-nickname-passing paragraph at §2-close, after the existing closing sentence *"I would not know that for another six or eight years."* Closer kept inside the same paragraph (consistent with "observational closer" = last sentence(s) of the section's closing paragraph). No paragraph delta. |
+| **F-DE-Ch1-5** | B | line 52 (end) | line 56 (end) | Replaced last two sentences of fifteen-audiences paragraph (*"A child's smile when she understood that meant something. Those smiles are why I stopped sleeping."*) with the specificity-restored version (*"There is a particular look on a child's face when she understands that one day a child might not have to be sick the way she has been sick. That look is why I stopped sleeping."*). F-V2 (Pass 2) structure preserved at the rest of the paragraph; only the last two sentences restructured. No paragraph delta. |
+| **F-DE-Ch1-3 Option A** | A | between line 58 and line 60 | new `---` at line 64 | Inserted §-break (`---`) between both/and reveal paragraph (line 62 post-application; *"That pattern I learned at the NIH would…"*) and 138-hour-week texture paragraph (line 66 post-application). Net +2 lines (§-break + surrounding blank lines). |
+| **F-DE-Ch1-7** | A | line 66 | line 72 | Replaced four-times anaphora + chiastic ellipsis (*"The math without looking at a calculator: thirteen hundred hours. Time enough to learn a language. Time enough to play an instrument. Time enough to fall in love. …Time enough to fall out of love."*) with concrete-detail-of-what-was-lost serial-list (*"Thirteen hundred hours. Years I would never get back. Years that should have been time to learn a language, to play an instrument, to fall in love and stay there."*). Marriage-foreshadow preserved via *"and stay there"*; sentence-initial ellipsis removed (resolves F-DE-Ch1-11 as byproduct per §11.2). No paragraph delta. |
+| **F-DE-Ch1-3 Option C** | C (via F-DE-Ch1-8 Option A draft) | line 68 | line 74 | Inserted sensory beat after first sentence of cable-TV-station-rescue paragraph (*"The parking lot was empty under the sodium lights; the building was lit from inside, the production suite running on schedule because the commercials in the queue still had three more days before they ran out."*). Net +1 sentence inside paragraph; no paragraph delta. |
+| **F-DE-Ch1-1 Option A** | A | between line 82 and line 84 | line 90 | Inserted cabin sensory-beat paragraph between free-market-economist paragraph (line 88 post-application) and quiet-math paragraph (line 92 post-application). Paragraph constructed from the five sensory beats listed verbatim in §F-DE-Ch1-1 Option A (wing-tilt-as-plane-banked; second-cup-of-coffee-the-flight-attendant-set-down; morning-light-moved-across-seatback-opposite; unopened-email-on-laptop-screen; grip-still-wedged-under-the-seat) — one sentence per listed beat, 5 sentences total, matching §F-DE-Ch1-1's "3–5 sentences" guideline. Net +2 lines. |
+| **F-DE-Ch1-1 Option B** | B | line 84 | line 92 | Replaced authorial-declaration quiet-math paragraph (*"I have done the quiet math we all eventually do. If I disappear for another few years, surfacing only for weddings and Thanksgivings, the odds are growing that the next flight home will be for something I cannot bear to name. These are the years I have with them. I intend to be present with them, to laugh with them, and to be here for them when there is no laughter left."*) with verbatim inner-monologue draft from §F-DE-Ch1-1 Option B (*"I was doing the math in my head. If I disappeared for another few years — five years; ten — surfacing only for weddings and Thanksgivings, the odds were growing that the next flight home would be for something I could not bear to name. These were the years. I would be present. I would laugh with them. I would be there when there was no laughter left."*). Tense shifted to past throughout for inner-monologue-in-scene register. No paragraph delta. |
+| **F-DE-Ch1-6** | B | between line 98 and line 100 | new `---` at line 108 | Inserted §-break (`---`) between no-contact disclosure paragraph (line 106 post-application; *"My son is somewhere in the world now. I don't know where. I wish I knew. We have no contact."*) and framework-naming paragraph (line 110 post-application; *"I did not have the words to describe what was happening then. I do now…"*). No-contact disclosure now stands alone as its own §-block. Net +2 lines (§-break + surrounding blank lines). |
+
+#### Surrounding-prose preservation verification
+
+Each Edit operation was bracketed by sufficient surrounding prose to
+guarantee unique match. No surrounding-prose drift detected against
+the artifact's per-finding drafts; no improvisation of alternative
+phrasings. F-DE-Ch1-1 Option A required minimal assembly-of-listed-
+beats (Option A names five specific sensory beats but does not
+arrange them into a verbatim sentence sequence); per §F-DE-Ch1-1
+Option A's "3–5 sentences inserted between current paragraph 3 +
+current paragraph 4 of §4" framing, one sentence per listed beat
+was used (5 sentences total, in the order listed in Option A), each
+drawing its noun phrase directly from the artifact's enumeration.
+This is construction-from-the-proposed-beats rather than alternative-
+phrasing.
+
+#### Cross-pass impact confirmation
+
+- **Pass 1 fact-check (commit `cfb08ce` and prior).** No new facts
+  introduced. F-DE-Ch1-2's faithfulness-of-the-model paragraph draws
+  exclusively from AuthorsNote line 13 + bibliography §20 NASA patent
+  record (per the cross-pass flag at §F-DE-Ch1-2). NASA Langley +
+  wind-tunnels + thousandth-of-an-inch accuracy + spaceflight-cost-
+  cannot-recover-from-error claims all verified in AuthorsNote.
+  F-DE-Ch1-3 Option C's parking-lot / sodium-lights / production-suite
+  sensory beat is author-internal-verifiable (no externally-verifiable
+  claim). F-DE-Ch1-1 Option A's cabin-sensory paragraph is
+  author-internal-verifiable. F-DE-Ch1-1 Option B preserves the
+  factual content of the original quiet-math paragraph (years; flight-
+  home; weddings/Thanksgivings; intent-to-be-present) and re-tenses
+  the verbs to past inner-monologue register without altering the
+  named-content. No fact-check re-fire required.
+
+- **Pass 2 voice-polish (commit at filename `commons_bonds_rigor_pass_2026-05-13_ch1_the_quiet_math_stage3_voice_polish_v1.0.0.md`).**
+  F-V2 (Pass 2's fifteen-audiences restructure at line 56 post-app)
+  partially superseded at the last-two-sentences by F-DE-Ch1-5 Option B
+  (specificity restoration); F-V2's first 5 sentences of the paragraph
+  preserved unchanged. F-V8 (Pass 2's DMV-paragraph em-dash compression
+  + colon-pivot fix) preserved unchanged within F-DE-Ch1-7's
+  replacement scope. F-V9 (Pass 2's sentence-initial ellipsis) removed
+  by F-DE-Ch1-7 application (RESOLVED per §11.2). F-V11 (Pass 2's
+  held mortality-meditation chiastic coda) replaced by F-DE-Ch1-1
+  Option B's inner-monologue rewrite (the chiastic coda is preserved
+  in spirit — "I would be there when there was no laughter left" —
+  but the four-times "I intend / to laugh / to be here / when there
+  is no laughter left" structure is replaced by 3-line monosyllable
+  cadence). F-V13 (Pass 2's *"We have no contact."*) preserved unchanged.
+  No Pass-2 re-fire required.
+
+- **Pass 3.3 audience-load REAUDIT v3 (commit `9bbc88e` and prior).**
+  No new factual claims; no new framework concepts; named-subject
+  consent discipline unchanged (son still anonymized; father still
+  un-named; grandfather still intimate-nickname-only "Pooh" in chapter;
+  register-split with AuthorsNote preserved; sister + nephew
+  un-named; coal-miner-in-McDowell-County reference-mode preserved;
+  Dunbar / Du Bois lineage-commitment unchanged). Per §F-DE-Ch1-1
+  cross-pass flag, Pass 3.3 center-right adversarial #36 strawman-
+  framing read is lightly reduced by the cabin-anchor restoration
+  without changing aggregate INCLUDE verdict. Per §F-DE-Ch1-2 cross-
+  pass flag, Pass 3.3 contemplative-tradition (#19) + tech-industry
+  (#20) + literary (#7) verdicts lightly strengthened by grandfather-
+  as-faithful-measurer texture restoration. Per §F-DE-Ch1-6 cross-pass
+  flag, Pass 3.3 parent/caregiver (#16) + literary (#7) +
+  Black-Studies-resonance (#8) verdicts lightly strengthened by
+  breath-around-no-contact-disclosure restoration without re-
+  triggering center-right (#3) discount. Light Pass 3.3 acceptance
+  re-fire recommended per §11.3 step 7 as separate session to confirm
+  cumulative acceptance verdicts hold across the 30-character set.
+
+- **Pass 3.4 audience-load robustness (Pass 3.3 REAUDIT v3 §6.5).**
+  Public Choice / rent-seeking-engagement adversarial thread
+  surfaced at adversarial #36 was a Ch 1 → cross-chapter workstream
+  finding NOT addressable inside Ch 1 (per §6.5's cross-chapter cascade
+  flag); developmental-edit pass did not change anything that affects
+  the Public Choice cross-chapter workstream's status. Pass 3.4
+  re-fire NOT routinely warranted per §11.3 step 7.
+
+- **Named-subject consent discipline (`feedback_named_subject_consent.md`).**
+  No new naming introduced. Son: still anonymized (no first name; "my
+  son" throughout). Father: still anonymized ("my father"). Grandfather:
+  still anonymized in chapter body ("my grandfather" / "Pooh"
+  intimate-nickname-only); formal name (L. E. Winn) remains in
+  AuthorsNote only per the chapter / AuthorsNote register-split.
+  Sister + nephew: still anonymized. Cable-TV-station personnel +
+  warehouse worker: still anonymized. NIH colleagues + IMF/World Bank
+  contacts: still anonymized. Place names (Savannah; NASA Langley
+  Hampton, VA; Washington D.C.; Appalachians; East Coast; Chicago;
+  McDowell County): unchanged. Consent-discipline preserved.
+
+- **Canonical-facts inventory (per Pass 1 fact-check + Stage 1c
+  cross-artifact coherence).** Unchanged. NACA → NASA 1958 transition;
+  thirteen-hundred-hours math; 138-hour-week stretches; NICU + Savannah
+  + August-vs-October birth-due-date pairing; Human Genome Project
+  completion-during-tenure timing; fifteen-audiences scope; cable-TV-
+  station decade-old-machine + three-day rescue; Dunbar's mask /
+  Du Bois's veil intellectual-history lineage — all preserved verbatim
+  or via faithful paraphrase. No factual drift introduced by
+  developmental-edit application.
+
+#### Doctrine compliance
+
+- **Branch discipline (CLAUDE.md / `tools/workstream-handoffs/README.md`).**
+  Feature branch `claude/ch1-phase-c-developmental-edit-goofy-swanson-86aa0b`
+  branched from `origin/main` at `1f5c6ad`. Single commit contains both
+  chapter-file edits + this §11.4 update.
+- **Merge-to-main default (CLAUDE.md Phase C spot-fix application
+  session class).** Author-ratified content change session; autonomous
+  fast-forward merge to main + push origin main at session close.
+- **Three-pass rigor discipline (CLAUDE.md v2.0 Amendment B / v3.0
+  Stage 3).** This Phase C session is downstream-application of the
+  developmental-edit review's ratified findings; no Stage-3 rigor pass
+  was re-run during this session per §11.3 step 7 + framing-prompt
+  hard-constraint.
+- **Token-economy (pipeline doctrine Amendment A; this artifact §5.3).**
+  Application-only session; substantially lighter token-load than the
+  developmental-edit pass itself (chapter + artifact §§11.1–11.3 +
+  per-finding §§2–4 drafts in context; no whole-chapter cross-pass
+  re-reasoning).
 
 ---
 
 *End of Ch 1 developmental-edit review — RATIFIED 2026-05-18 per §11
-(author "ratify as recommended and proposed"); awaiting Phase C
-application in a separate session per framing-prompt branch discipline.
-Per CLAUDE.md rigor-pass artifact discipline + author-ratified-content-
-change merge-to-main default, this disposition-log update autonomously
-fast-forward merges to main at session close.*
+(author "ratify as recommended and proposed"); APPLIED 2026-05-18
+per §11.4 (Phase C session against `manuscript/chapters/Chapter__1_TheQuietMath.md`).
+Recommended follow-up per §11.3 step 7: light Pass 3.3 (acceptance)
+re-fire as a separate session to confirm cumulative acceptance verdicts
+hold across the 30-character set. Pass 3.4 (robustness) re-fire NOT
+routinely warranted. Per CLAUDE.md author-ratified-content-change
+merge-to-main default, this Phase C application fast-forward merges
+to main + pushes origin main at session close.*
