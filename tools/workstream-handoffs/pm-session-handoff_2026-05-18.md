@@ -29,7 +29,7 @@ You are the PM coordination session. Your job is to keep the *Commons Bonds* pro
    - `feedback_audience_aware_drafting_discipline.md` — v2.0 two-stage discipline
    - `feedback_verify_stale_memory_claims.md` — staleness
    - `feedback_audit_recent_active_review_default.md` + `feedback_audit_open_illustrative_default.md`
-   - `project_book1_state_2026-05-10.md` — **now 8 days old; treat all time-sensitive claims as stale**
+   - `project_book1_state_2026-05-18.md` — refreshed 2026-05-18 (supersedes `_2026-05-10.md`); still verify time-sensitive claims per stale-memory discipline
 5. `publishing/strategy/cross-thread-todos.md`
 6. `publishing/strategy/cascade-plan_2026-05-06.md` + `publishing/strategy/decisions-log.md`
 7. `CLAUDE.md` — canonical workflow doctrine; merge-to-main default extended to rigor-pass artifacts (`abccb43` + `3d52a0e`)
@@ -43,18 +43,21 @@ You do NOT need to read individual workstream handoffs unless drilling into one.
 
 | When | Action |
 |---|---|
-| **TODAY Mon May 18 8:00 AM ET** | **CBF reply v6.1 auto-sends** (Gmail scheduled-send, `7141634`). Call-windows reply to Val DiMarzio (gatekeeper). No action — automatic. Verify it left outbox by mid-morning. |
-| **Mon May 18 — Tue May 19** | **Triage Chs 7/8/9/10 Pass 1 findings.** All four chapters now have PROPOSED Pass 1 docs (`ff9a89a`/`210b02c`/`9720da0`/`c85c41d`). **Ch 8 = 4 HIGH / 8 MEDIUM / 7 LOW; READY AFTER SPOT-FIXES.** Need ratification cycles + Phase C-α applications for each. Also: ratify residual **Ch 1 Pass 3** items (items i + iv applied; check what's still PROPOSED in REAUDIT v3 `76ca8a6`) and **Ch 4 Pass 2** PROPOSED `3174cc8`. |
-| **Wed May 20 8:00 AM EDT** | **CBF consolidated response auto-sends** (`b200664`) — distinct from v6.1; this is the original Val + David consolidated response. No action — automatic. Verify both fired correctly. |
-| **This week (by Sun May 24)** | Fire **Ch 2 Pass 3** + **Ch 3 Pass 2** + **Ch 3 Pass 3** + **Ch 4 Pass 3** (paste-text gen from PM). Continue Phase C-α applications on Chs 7/8/9/10 as ratifications land. **Sandy reply window opens Thu May 21** (1 week post-send) — soft check-in only if no acknowledgment by then. |
+| ~~Mon May 18 8:00 AM ET — CBF reply v6.1 auto-sends (`7141634`)~~ | **VERIFIED SENT by author 2026-05-18.** |
+| **TODAY Tue May 19** | Triage **Chs 7/8/9/10 Pass 1** findings; ratify residual **Ch 1 Pass 3** items in REAUDIT v3 `76ca8a6`; ratify **Ch 4 Pass 2** PROPOSED `3174cc8`. **NEW:** ratify-or-defer disposition on **Ch 1 Pass 3.3 light re-fire** PROPOSED 2026-05-19 (`9c88cdd`) — post-developmental-edit acceptance re-confirmation. Queue **Ch 2 developmental-edit** session (Ch 1 cycle complete; see §5.1). |
+| **Tomorrow Wed May 20 8:00 AM EDT** | **CBF consolidated response auto-sends** (`b200664`) — distinct from v6.1; original Val + David consolidated response. No action — automatic. Verify it fires correctly. |
+| **Thu May 21** | **Sandy reply window opens** (1 week post-packet-send). Soft check-in only if no acknowledgment by then. |
+| **This week (by Sun May 24)** | Fire **Ch 2 Pass 3** + **Ch 3 Pass 2** + **Ch 3 Pass 3** + **Ch 4 Pass 3** (paste-text gen from PM). Continue Phase C-α applications on Chs 7/8/9/10 as ratifications land. Continue pipeline retrofits (Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication remain pending; Chs 1/5/6/TA fired 2026-05-18). Fire **Ch 2 developmental-edit** session. Decide Phat consent escalation deadline (recommend Fri May 22). |
 
 ---
 
 ## 3. Critical path bottleneck
 
-**Critical path is now the Phase C-α applications for Chs 7/8/9/10** + the residual Pass 2/3 cycles for Chs 1/2/3/4. Sandy send is complete; Pass 1's are all fired across the manuscript; what gates the book proposal sprint (late June) is now the application + Pass 2/3 cadence catching up. Apparatus Phase A (Bibliography / Glossary / TA per-chapter call-site verification) still gated on chapter-level Stage-3 completion — but most chapters are now far enough along that this gate is becoming visible.
+**Critical path is the Phase C-α applications for Chs 7/8/9/10** + the residual Pass 2/3 cycles for Chs 1/2/3/4 + the new **developmental-edit (Pass 3.5) workstream** across Chs 2–10 + AuthorsNote (Ch 1 already RATIFIED + applied 2026-05-18 — see §5.1). Sandy send is complete; Pass 1's all fired manuscript-wide; what gates the book proposal sprint (late June) is the application + Pass 2/3 cadence catching up, plus the new Pass 3.5 layer now folded into Stage 3 per Pipeline doctrine Amendment B (`316073e`).
 
-**New parallel critical-path candidate: pipeline doctrine retrofits** (11 handoffs landed 2026-05-17; see §7 Apparatus + §8 Decisions pending). Those retrofits are infrastructure rather than content, but they gate Stage 4 audits per the doctrine.
+**Infrastructure now mostly resolved.** Render-toolchain canonical pipeline RATIFIED 2026-05-19 (`b3f4af5`); render-output policy in place; docker-render.sh convenience wrapper landed (`7e88701`); CI render-verify workflow active (`6ebda00`). **Stage 4 audits unblocked.** Pipeline retrofits for Ch 1 + Ch 5 + Ch 6 + TA fired 2026-05-18; Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication retrofits still queued.
+
+Apparatus Phase A (Bibliography / Glossary / TA per-chapter call-site verification) still gated on chapter-level Stage-3 completion — most chapters now far enough along that this gate is becoming visible.
 
 ---
 
@@ -78,10 +81,12 @@ Priority within bucket: **HIGH** = time-pressured or gates large downstream casc
 
 | # | Pri | Workstream | Status | Next action |
 |---|---|---|---|---|
-| **20** | **HIGH** | Manuscript Stage-3 Rigor Pass | Chs 5+6 CLOSED 2026-05-14. Ch 1 Pass 2 RATIFIED 2026-05-15 + Pass 3 PROPOSED with reaudits. Ch 4 Pass 2 PROPOSED 2026-05-15. **Chs 7+8+9+10 Pass 1 PROPOSED 2026-05-16.** See per-chapter detail §6. [handoff](manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) | Ratify Pass 1 findings for Chs 7/8/9/10 + apply Phase C-α; ratify residual Ch 1 Pass 3 items; ratify Ch 4 Pass 2 + apply. |
-| **4** | MED | Outreach pipeline | Sandy packet SENT 2026-05-14; proactive Q0 citation-questions follow-up SENT 2026-05-15. CBF v6.1 scheduled-send TODAY 8am ET (`7141634`); original Val+David consolidated response auto-sends Wed May 20 8am EDT (`b200664`). Colden citation-verify packet pre-staged (`15c6b0f`) — user-action. Biggie process guide pre-staged (`164b9e2`). [handoff](outreach-pipeline-handoff_2026-05-09.md) | Monitor inbox for Sandy reply (window opens Thu May 21); verify CBF auto-sends fire; user-action send Colden packet. |
-| **NEW** | MED | **Pipeline doctrine v1.0.0 retrofits** (per-chapter + TA + AuthorsNote + Dedication) | 11 retrofit handoffs landed 2026-05-17 (`a7c38e2` + `7c1aa57`). Render-pipeline-standardization workstream blocks Stage 4 audits (`3678ca2`). Pre-renders via remote-container pipeline for Ch 1 + 5 + 6 + TA landed (`27252f1`). Sandy-packet engine attribution corrected to wkhtmltopdf (`c0c4ae2`). | Fire retrofits per pipeline-revision handoff sequencing. Coordinate with #20 — retrofits shouldn't collide with Phase C applications. |
-| ~~NEW~~ | — | ~~**Cross-chapter rent-seeking engagement** (Public Choice complementarity)~~ | **RATIFIED 2026-05-18.** Four cross-chapter touches APPLIED via `a1e54d9` (Ch 5 line 184 + Ch 9 line 133 + TA §1.10 line 608 + Ch 8 line 123). Residual follow-on items (per-chapter mini-rigor-pass verification + bibliography Buchanan/Tullock additions + Ch 1 REAUDIT v3 doc state-update + cross-thread-todos entry) deferred to separate sessions per ratification-log §9 of handoff. | Verification reads will be absorbed into Ch 8 + Ch 9 Pass 2/3 cycles; bibliography additions fold into Phase A. |
+| **20** | **HIGH** | Manuscript Stage-3 Rigor Pass | Chs 5+6 CLOSED 2026-05-14. **Ch 1 Pass 2 RATIFIED 2026-05-15 + Pass 3 PROPOSED with reaudits + developmental-edit (Pass 3.5) RATIFIED + applied 2026-05-18 + DMV-commute coda applied 2026-05-19 + Pass 3.3 light re-fire PROPOSED 2026-05-19** (`9c88cdd`). Ch 4 Pass 2 PROPOSED 2026-05-15. Chs 7+8+9+10 Pass 1 PROPOSED 2026-05-16. See per-chapter detail §6. [handoff](manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) | Ratify Pass 1 findings for Chs 7/8/9/10 + apply Phase C-α; ratify Ch 1 Pass 3.3 light re-fire; ratify residual Ch 1 Pass 3 items; ratify Ch 4 Pass 2 + apply. |
+| **NEW** | **HIGH** | **Developmental-edit (Pass 3.5) workstream class** (per-chapter; whole-chapter-scale restoration-of-richness) | **Ch 1 RATIFIED + applied 2026-05-18** — 9 spot-fixes (`e69c61e`) + §11 disposition log (`1f5c6ad`) + DMV-commute coda 2026-05-19 (`d36534f`). Codified into pipeline doctrine via **Amendment B** as Pass 3.5 (`316073e`). Chs 2–10 + AuthorsNote pending. [handoff](developmental-edit-workstream-handoff_2026-05-18.md) | Fire **Ch 2 developmental-edit** session next (one per session per branch discipline). |
+| **4** | MED | Outreach pipeline | Sandy packet SENT 2026-05-14; proactive Q0 citation-questions follow-up SENT 2026-05-15. **CBF v6.1 VERIFIED SENT Mon May 18** (`7141634`); original Val+David consolidated response auto-sends Wed May 20 8am EDT (`b200664`). Colden citation-verify packet pre-staged (`15c6b0f`) — user-action. Biggie process guide pre-staged (`164b9e2`). [handoff](outreach-pipeline-handoff_2026-05-09.md) | Monitor inbox for Sandy reply (window opens Thu May 21); verify Wed May 20 8am consolidated send fires; user-action send Colden packet. |
+| ~~NEW~~ | — | ~~**Pipeline doctrine v1.0.0 retrofits**~~ | **PARTIALLY APPLIED 2026-05-18.** Ch 1 (`3582823`) + Ch 5 (`782e6c9`) + Ch 6 (`5e08642`) + TA (`eb636c6`) retrofits fired (Stage 1a + 1c + Pass 3.4 + Stage 4 triple-render). TA rent-seeking-amendment retrofit also landed (`1e4d242`). **Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication retrofits remain queued.** Render-pipeline-standardization workstream resolved via canonical-pipeline ratification (`b3f4af5`). | Fire remaining 9 retrofits as bandwidth permits; can run in parallel with Phase C-α + developmental-edit fires. |
+| ~~NEW~~ | — | ~~**Render-toolchain canonical pipeline**~~ | **RATIFIED 2026-05-19** (`b3f4af5`). Canonical installer + Dockerfile + CI fixture (`b7e784a`); Remote-container SessionStart hook + CI render-verify workflow (`6ebda00`); docker-render.sh convenience wrapper (`7e88701`). Stage 4 audits unblocked. Render-output policy in place. | Operational. Containerization workstream class continues via [`render-toolchain-containerization-handoff_2026-05-18.md`](render-toolchain-containerization-handoff_2026-05-18.md). |
+| ~~NEW~~ | — | ~~**Cross-chapter rent-seeking engagement**~~ | **RATIFIED 2026-05-18.** Four touches APPLIED via `a1e54d9`. Residual follow-ons (mini-rigor-passes, bibliography Buchanan/Tullock, Ch 1 REAUDIT v3 doc state-update, cross-thread-todos entry) deferred per ratification-log §9 of handoff. | Verification reads absorbed into Ch 8+9 Pass 2/3 cycles; bibliography additions fold into Phase A. |
 
 ### 5.2 READY TO FIRE
 
@@ -116,7 +121,19 @@ Priority within bucket: **HIGH** = time-pressured or gates large downstream casc
 - **$44B Program-vs-Trust-Fund canonical drift correction** across Ch 2 + Ch 8 (`cacb82d`)
 - **Pipeline doctrine v1.0.0 cluster + invariant-gate infrastructure** (`3e31d9d` + `935633e` + `ed5f6cf`)
 - **Memory migration audit + apply** 2026-05-17 (`d11f67a` + `d197449` + `b62c2f1`) — memory entries mirrored at `tools/memory/`
-- **CBF outreach v6 → v6.1 finalized + scheduled-send Mon May 18** (`7141634`)
+- **CBF outreach v6 → v6.1 VERIFIED SENT Mon May 18 8am ET** (`7141634`)
+- **Cross-chapter rent-seeking engagement workstream RATIFIED + applied** 2026-05-18 (`bc02767` + `a1e54d9`)
+- **Pipeline doctrine v1.0.0 Amendment A — selective stage-firing RATIFIED** 2026-05-18 (`f049c0d`)
+- **Pipeline-doctrine retrofits Ch 1 + Ch 5 + Ch 6 + TA fired** 2026-05-18 (`3582823` + `782e6c9` + `5e08642` + `eb636c6` + `1e4d242` rent-seeking amendment)
+- **Chapter file rename** — all chapters except 2/3 dropped `__Draft` suffix 2026-05-18 (`a09e319`); Chs 2+3 retain pending Stage-3 completion
+- **Chapter first-couple-lines render fix** across all chapters 2026-05-18 (`e1a533e`)
+- **Ch 1 developmental-edit review RATIFIED + Phase C applied** 2026-05-18 (`1f5c6ad` disposition log + `e69c61e` 9 spot-fixes) + **DMV-commute coda** 2026-05-19 (`d36534f`)
+- **Pipeline doctrine v1.0.0 Amendment B — Pass 3.5 developmental-edit RATIFIED** 2026-05-19 (`316073e`)
+- **Pipeline doctrine v1.0.0 Amendment C — Interactive Ratification Protocol RATIFIED** 2026-05-19 (`9e68496`)
+- **Canonical render-toolchain installer + Dockerfile + CI fixture** 2026-05-19 (`b7e784a`)
+- **Remote-container SessionStart hook + CI render-verify workflow** 2026-05-19 (`6ebda00`)
+- **Render-toolchain canonical-pipeline RATIFIED + render-output policy** 2026-05-19 (`b3f4af5`)
+- **docker-render.sh convenience wrapper** 2026-05-19 (`7e88701`)
 
 Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Apparatus register, #10 Cross-chapter consistency, #11 Comp-titles v0, #13 Flagship terms defense, #15 TA numbering reconciliation.
 
@@ -128,7 +145,7 @@ Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Appar
 
 | Ch | Pass 1 (fact-check) | Pass 2 (voice-polish) | Pass 3 (audience-load) | Phase C spot-fixes | **Next action** |
 |---|---|---|---|---|---|
-| **1** | ✅ COMPLETE | ✅ **RATIFIED + APPLIED 2026-05-15** (`7b4aa92`; 10 spot-fixes) | PROPOSED `43f2b7a` + REAUDIT v3 `76ca8a6` (40-character adversarial); items (i) `013415f` + (iv) `f692164` RATIFIED + APPLIED; line 29 grandfather paragraph applied `54709e7`; item (iv) actually deferred to pre-pub `ea94684` | Pass 2 spot-fixes complete | **Ratify remaining Pass 3 REAUDIT items** (check what's still PROPOSED past i + iv); Phase C-γ if needed; then Stage-3 closed for Ch 1 |
+| **1** | ✅ COMPLETE | ✅ **RATIFIED + APPLIED 2026-05-15** (`7b4aa92`; 10 spot-fixes) | PROPOSED `43f2b7a` + REAUDIT v3 `76ca8a6` (40-character adversarial); items (i) `013415f` + (iv) `f692164` RATIFIED + APPLIED; line 29 grandfather paragraph applied `54709e7`; item (iv) actually deferred to pre-pub `ea94684`. **Pass 3.3 light re-fire PROPOSED 2026-05-19** (`9c88cdd`) — post-developmental-edit + post-§11.5 acceptance re-confirmation. | Pass 2 spot-fixes complete + **Pass 3.5 developmental-edit RATIFIED + 9 spot-fixes applied 2026-05-18** (`e69c61e`) + **DMV-commute coda applied 2026-05-19** (`d36534f`) | **Ratify Pass 3.3 light re-fire disposition** (`9c88cdd`); ratify remaining Pass 3 REAUDIT items past i + iv; Phase C-γ if needed; then Stage-3 closed for Ch 1 |
 | **2** | ✅ COMPLETE | ✅ COMPLETE | not started — paste-text drafted | 14 applied | **Fire Pass 3** (paste-text from PM) |
 | **3** | ✅ LANDED `2f76e37` | not started | not started | — | **Fire Pass 2** (paste-text from PM) |
 | **4** | ✅ COMPLETE | PROPOSED 2026-05-15 (`3174cc8`) | not started | 5 MEDIUM + 2 LOW (`e67b8b8` + `8f792ee`) | **Ratify Pass 2** + apply spot-fixes |
@@ -153,42 +170,57 @@ Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Appar
 | **AI Statement** | LOW | Single pass | n/a | Current artifact: `manuscript/chapters/_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md`. Source material at `research/process-narrative/origin-story_2026-05-13.md` (with reception-strategy notes). Pipeline doctrine retrofit handoff at `authorsnote-pipeline-retrofit-handoff_2026-05-17.md`. | Anytime; no gates. |
 | **Dedication** | LOW | Single pass | n/a | At `manuscript/chapters/_Dedication.md` — state TBD; needs verification (P3 #15 mobile-todo). Pipeline doctrine retrofit handoff at `dedication-pipeline-retrofit-handoff_2026-05-17.md`. | Anytime; no gates. |
 
-**Pipeline doctrine retrofits (NEW workstream cluster — 2026-05-17):**
+**Pipeline doctrine retrofits (workstream cluster — 2026-05-17; in-progress):**
 
-11 retrofit handoffs at `tools/workstream-handoffs/ch{1-10}-pipeline-retrofit-handoff_2026-05-17.md` + `ta-pipeline-retrofit-handoff_2026-05-17.md` + `authorsnote-pipeline-retrofit-handoff_2026-05-17.md` + `dedication-pipeline-retrofit-handoff_2026-05-17.md` + `pipeline-retrofit-template_2026-05-17.md`. Plus `render-pipeline-standardization-handoff_2026-05-17.md` (blocks Stage 4 audits) and `pipeline-revision-handoff_2026-05-17.md` + `pipeline-revision-session-close_2026-05-17.md`. **Author should decide sequencing relative to in-flight #20 work** — see §8 Decisions pending.
+11 retrofit handoffs at `tools/workstream-handoffs/ch{1-10}-pipeline-retrofit-handoff_2026-05-17.md` + `ta-pipeline-retrofit-handoff_2026-05-17.md` + `authorsnote-pipeline-retrofit-handoff_2026-05-17.md` + `dedication-pipeline-retrofit-handoff_2026-05-17.md` + `pipeline-retrofit-template_2026-05-17.md`. **Fired so far (2026-05-18):** Ch 1 (`3582823`) + Ch 5 (`782e6c9`) + Ch 6 (`5e08642`) + TA (`eb636c6`) + TA rent-seeking-amendment (`1e4d242`). **Remaining (9):** Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication. Render-pipeline-standardization workstream RESOLVED via canonical-pipeline ratification 2026-05-19 (`b3f4af5`); Stage 4 audits now unblocked.
 
 ---
 
 ## 8. Decisions pending
 
-- **Pipeline retrofit sequencing.** 11 retrofit handoffs are stood up. They're infrastructure (alignment with pipeline doctrine v1.0.0), not content. Question: fire them in parallel with Phase C-α applications for Chs 7–10, OR sequence after #20 stabilizes? PM recommendation: **fire pipeline retrofits in batches paced by render-pipeline-standardization completion** — that workstream blocks Stage 4 audits per its handoff, so it sequences first. Retrofits can then run in parallel with Phase C application as long as branch isolation holds.
-- ~~**Cross-chapter rent-seeking engagement edits.**~~ **RESOLVED 2026-05-18** — workstream RATIFIED by PM session; four touches already applied via `a1e54d9`. Residual items (mini-rigor-passes, Buchanan/Tullock bibliography, Ch 1 REAUDIT v3 doc state-update, cross-thread-todos entry) deferred to separate sessions per ratification-log §9 of [`cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md).
-- **Phat consent escalation.** Action 1 has been open ≥ 5 days. Worth setting a self-imposed forcing deadline (e.g., Fri May 22) — either Phat outreach happens or anonymized version is accepted as final. Don't let it drift indefinitely.
+- ~~**Pipeline retrofit sequencing.**~~ **IN MOTION 2026-05-18** — 5 retrofits fired (Ch 1 + Ch 5 + Ch 6 + TA + TA rent-seeking amendment); 9 remain (Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication). Render-pipeline-standardization gate cleared via canonical-pipeline ratification 2026-05-19 (`b3f4af5`).
+- ~~**Cross-chapter rent-seeking engagement edits.**~~ **RESOLVED 2026-05-18.** Workstream RATIFIED; four touches applied via `a1e54d9`. Residuals deferred per ratification-log §9.
+- ~~**Render-pipeline-standardization canonical-pipeline choice.**~~ **RESOLVED 2026-05-19** (`b3f4af5`). Canonical pipeline ratified; render-output policy in place; docker-render.sh convenience wrapper landed.
+- **NEW: Developmental-edit (Pass 3.5) per-chapter fire order for Chs 2–10 + AuthorsNote.** Ch 1 ratified + applied 2026-05-18; pipeline doctrine Amendment B codified Pass 3.5 (`316073e`). Per handoff: one chapter per session per branch discipline. Open question: fire Ch 2 next (sequential), or interleave with Phase C-α applications for Chs 7–10 (which are Stage-3 Pass 1's still PROPOSED)? PM recommendation: **fire Ch 2 dev-edit next** as natural follow-on; Phase C-α applications for Chs 7–10 are independent and can run in parallel.
+- **NEW: Ch 1 Pass 3.3 light re-fire disposition** (`9c88cdd`, PROPOSED 2026-05-19). Post-developmental-edit + post-§11.5 acceptance re-confirmation. Needs ratify-or-defer call before Ch 1 Stage-3 fully closes.
+- **NEW: Chapter file rename completeness.** Chs 2 + 3 retain `__Draft` suffix while Chs 1/4/5/6/7/8/9/10 dropped it (`a09e319`). Intentional (since Chs 2/3 trail on Pass 2/3 cycles) or oversight? Worth a confirm so future file references are predictable.
+- **Phat consent escalation.** Action 1 has been open ≥ 6 days. Worth setting a self-imposed forcing deadline (e.g., **Fri May 22**) — either Phat outreach happens or anonymized version is accepted as final. Don't let it drift indefinitely.
 - **Sandy reply triage protocol.** Reply window opens Thu May 21 (1 week post-send). If no acknowledgment by then, soft check-in. If reply lands earlier, follow P2 #12 triage in mobile dashboard.
-- **TA per-chapter call-site audit timing.** Now that v2.1.0 is published + per-chapter Pass 1's are all PROPOSED, the TA call-site audit can be folded into Phase C-α applications for Chs 7–10 (catch TA references during the fix-up cycle) rather than waiting for a separate Apparatus Phase A run.
+- **TA per-chapter call-site audit timing.** Now that v2.1.0 is published + per-chapter Pass 1's are all PROPOSED, the TA call-site audit can fold into Phase C-α applications for Chs 7–10 rather than waiting for a separate Apparatus Phase A run.
 - **Boston Review essay fire.** Ch 5 source chapter now stable. Worth scheduling Boston Review pitch + essay drafting before #16 ($100 Barrel) Session 2 since it has the more direct chapter→essay path. Either order works; just be explicit about which fires when.
 
 ---
 
 ## 9. Date-anchored action list
 
-### TODAY Mon May 18
-- [ ] **8:00 AM ET** — CBF reply v6.1 auto-sends (`7141634`). Verify outbox by mid-morning.
-- Triage Chs 7/8/9/10 Pass 1 findings (start with Ch 8's 4 HIGH items)
-- Ratify residual Ch 1 Pass 3 items if any past i + iv remain PROPOSED in REAUDIT v3
+### Mon May 18 — COMPLETED
+- [x] **8:00 AM ET** — CBF reply v6.1 auto-sent (`7141634`). **VERIFIED SENT by author.**
+- [x] Cross-chapter rent-seeking engagement workstream RATIFIED + applied (`bc02767` + `a1e54d9`)
+- [x] Pipeline doctrine Amendment A RATIFIED (`f049c0d`)
+- [x] Pipeline retrofits Ch 1 + 5 + 6 + TA fired (`3582823` + `782e6c9` + `5e08642` + `eb636c6` + `1e4d242`)
+- [x] Chapter file rename — Chs 1/4/5/6/7/8/9/10 dropped `__Draft` (`a09e319`); Chs 2/3 retained
+- [x] Ch 1 developmental-edit review RATIFIED + 9 spot-fixes applied (`1f5c6ad` + `e69c61e`)
 
-### Tue May 19 — Wed May 20
-- **Wed May 20 8:00 AM EDT** — original CBF consolidated response auto-sends (`b200664`)
+### TODAY Tue May 19
+- [ ] Triage Chs 7/8/9/10 Pass 1 findings (start with Ch 8's 4 HIGH items)
+- [ ] Ratify Ch 1 Pass 3.3 light re-fire (`9c88cdd`, PROPOSED 2026-05-19)
+- [ ] Ratify residual Ch 1 Pass 3 items if any past i + iv remain PROPOSED in REAUDIT v3
+- [ ] Decide Ch 2 developmental-edit fire timing (recommend: fire next)
+
+### Tomorrow Wed May 20
+- **8:00 AM EDT** — original CBF consolidated response auto-sends (`b200664`). Verify it fires.
 - Continue Chs 7/8/9/10 ratification + Phase C-α apply
 - Ratify Ch 4 Pass 2 + apply spot-fixes
 - Decide Phat consent escalation deadline (recommend Fri May 22)
 
 ### This week (by Sun May 24)
 - **Thu May 21** — Sandy reply window opens (1 week post-send); soft check-in only if silence
+- Fire **Ch 2 developmental-edit** session (next in workstream class)
 - Fire **Ch 2 Pass 3** (paste-text from PM)
 - Fire **Ch 3 Pass 2** + **Ch 3 Pass 3** (paste-text from PM)
 - Fire **Ch 4 Pass 3** (after Ch 4 Pass 2 spot-fixes apply)
 - Continue Chs 7/8/9/10 cycles toward Pass 2 trigger
+- Continue remaining pipeline retrofits (9 of 14 remain: Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication)
 
 ### Fri May 29
 - **Aeon Version C pre-submission verify** — final read-through (~20min)
@@ -260,15 +292,18 @@ Full inventory: `publishing/strategy/cross-thread-todos.md`.
 
 ## 11. PM session freshness — when to wrap and start fresh
 
-**This PM session has been running 2026-05-13 → 2026-05-18 (5 calendar days; over 75 commits landed).** Multiple phase-shift triggers fired:
+**This dashboard has been running 2026-05-13 → 2026-05-19 (6 calendar days; ~90+ commits landed; 2 successor PM sessions inherited from this file).** Phase-shift triggers fired:
 - ✅ Major event: Darity interview + synthesis + packet send
 - ✅ Major event: Sandy citations follow-up
-- ✅ Major chapter completions: Ch 5 + Ch 6 cycles CLOSED; Ch 1 Pass 2 applied
-- ✅ Major infrastructure: Pipeline doctrine v1.0.0 + invariant gates + 11 retrofit handoffs
+- ✅ Major chapter completions: Ch 5 + Ch 6 cycles CLOSED; Ch 1 Pass 2 applied; Ch 1 developmental-edit RATIFIED + applied; Ch 1 DMV-commute coda applied
+- ✅ Major infrastructure: Pipeline doctrine v1.0.0 + Amendments A/B/C + invariant gates + 14 retrofit handoffs (5 fired)
+- ✅ Major infrastructure: Render-toolchain canonical pipeline RATIFIED; CI render-verify workflow live
+- ✅ Major doctrinal: developmental-edit (Pass 3.5) workstream class proposed + first session RATIFIED + codified into Stage 3
 - ✅ Major event: Memory migration applied (mirroring to `tools/memory/`)
 - ✅ All Chs 7/8/9/10 Pass 1 fired
+- ✅ Chapter file rename (Chs 1/4–10 dropped `__Draft`; Chs 2/3 retain)
 
-**Strong recommendation: wrap this PM session and start a fresh one** orienting against this handoff. The next session's natural focus: Phase C-α applications for Chs 7/8/9/10 + pipeline retrofit sequencing + Sandy reply triage when it lands + Aeon submission countdown (Sun May 31).
+**Strong recommendation: wrap this PM session and start a fresh one** orienting against this handoff. The next session's natural focus: Phase C-α applications for Chs 7/8/9/10 + Ch 2–10 developmental-edit fires + remaining 9 pipeline retrofits + Sandy reply triage when it lands + Aeon submission countdown (Sun May 31).
 
 Per protocol on wrap:
 1. ✅ Successor file written (this file).
@@ -340,11 +375,18 @@ v2.0 amendments A + B + C in force. Memory: `feedback_audience_aware_drafting_di
 
 ---
 
-## 17. Pipeline doctrine v1.0.0 — RATIFIED 2026-05-17
+## 17. Pipeline doctrine v1.0.0 — RATIFIED 2026-05-17 + Amendments A/B/C
 
-`tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + stage docs (`stage_1`, `stage_4`, `stage_5`). Invariant-gate infrastructure: `.github/workflows/corpus-invariants.yml` + `tools/scripts/check-corpus-invariants.sh` + `tools/scripts/install-pre-commit-hook.sh` + `tools/quality-gates/` (regressed-patterns.yaml, scaffolding-patterns.yaml, render-baselines/build-environment.yaml). Render pipeline at `tools/scripts/build-derivatives.sh` + `-alt.sh`.
+**Base doctrine** (`3e31d9d` + `935633e` + `ed5f6cf`): `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + stage docs (`stage_1`, `stage_4`, `stage_5`). Invariant-gate infrastructure: `.github/workflows/corpus-invariants.yml` + `tools/scripts/check-corpus-invariants.sh` + `tools/scripts/install-pre-commit-hook.sh` + `tools/quality-gates/` (regressed-patterns.yaml, scaffolding-patterns.yaml, render-baselines/build-environment.yaml).
 
-11 retrofit handoffs stood up 2026-05-17 (one per chapter + TA + AuthorsNote + Dedication). Render-pipeline-standardization workstream blocks Stage 4 audits. Sequencing decision pending (§8).
+**Amendments ratified since base doctrine:**
+- **Amendment A — selective stage-firing** (`f049c0d`, 2026-05-18). Stages fire only when triggers fire; token-economy note in per-pass artifacts.
+- **Amendment B — Pass 3.5 developmental-edit codified** (`316073e`, 2026-05-19). Per-chapter whole-chapter-scale developmental-edit review folded into Stage 3 as Pass 3.5. Catches what per-paragraph Pass 3.2 voice-polish misses (emotional arc, scene-anchor density, sensory-detail restoration, reader engagement at analytical pivots).
+- **Amendment C — Interactive Ratification Protocol** (`9e68496`, 2026-05-19). Standard for author-Claude ratification cadence within rigor-pass sessions.
+
+**Render-toolchain canonical pipeline RATIFIED** 2026-05-19 (`b3f4af5`). Canonical installer + Dockerfile + CI fixture (`b7e784a`); Remote-container SessionStart hook + CI render-verify workflow (`6ebda00`); docker-render.sh convenience wrapper (`7e88701`). Stage 4 audits now unblocked. Older laptop scripts (`build-derivatives.sh` / `-alt.sh`) superseded by canonical Docker pipeline.
+
+**Retrofit progress:** 5 of 14 retrofits fired 2026-05-18 (Ch 1, Ch 5, Ch 6, TA, TA rent-seeking-amendment). 9 remain: Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication.
 
 ---
 
@@ -353,7 +395,7 @@ v2.0 amendments A + B + C in force. Memory: `feedback_audience_aware_drafting_di
 | Subject | Affiliation | Status | Date | Notes |
 |---|---|---|---|---|
 | **William ("Sandy") Darity Jr.** | Duke | **PACKET SENT + Q0 follow-up SENT** | 2026-05-14 + 2026-05-15 | Awaiting response. Reply window opens Thu May 21. |
-| **Val DiMarzio + David Sherfinski (CBF)** | CBF MD + VA | **Multiple scheduled-sends in flight** | Mon May 18 8am (v6.1) + Wed May 20 8am (consolidated) | Two distinct sends. Val gatekeeper-call request inbound 2026-05-15; v6.1 reply (`7141634`) addresses that. |
+| **Val DiMarzio + David Sherfinski (CBF)** | CBF MD + VA | **v6.1 VERIFIED SENT Mon May 18 8am ET**; consolidated send due Wed May 20 8am EDT | Mon May 18 8am (v6.1 sent) + Wed May 20 8am (consolidated pending) | v6.1 (`7141634`) addressed Val gatekeeper-call request inbound 2026-05-15. Consolidated response (`b200664`) is the original Val + David scheduled-send. |
 | **Mariana Mazzucato** | UCL/IIPP | HOLDING via Adam Albrecht | Held since 2026-05-06 | Not blocking. |
 | **Allison Colden** | CBF MD | Pre-pub citation-verify packet pre-staged | `15c6b0f` | User-action to send. |
 | **Karen Moore** | CBF VA | Public-record brief landed | 2026-05-08 | — |
@@ -383,11 +425,15 @@ This file IS the PM session's working memory. Update in place as state changes. 
 **Memory entries** (now mirrored at `tools/memory/` per `b62c2f1`):
 - See `tools/memory/README.md` + `tools/memory/ARCHIVE.md` for full index
 
-**Pipeline doctrine artifacts (NEW 2026-05-17):**
+**Pipeline doctrine artifacts (2026-05-17 base + Amendments A/B/C through 2026-05-19):**
 - `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + stage docs
 - `tools/quality-gates/` registries
-- `tools/scripts/` (build-derivatives + check-corpus-invariants + install-pre-commit-hook)
-- `.github/workflows/corpus-invariants.yml`
+- `tools/scripts/` (check-corpus-invariants + install-pre-commit-hook + session-start-render-toolchain + render-verify-fixtures/)
+- `.github/workflows/corpus-invariants.yml` + render-verify workflow
+- `tools/workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md` (Pass 3.5 workstream class)
+- `tools/workstream-handoffs/render-toolchain-containerization-handoff_2026-05-18.md`
+- `tools/rigor-passes/ch1_developmental_edit_review_2026-05-18.md` (first Pass 3.5 session)
+- Canonical render-toolchain: Dockerfile + installer + docker-render.sh convenience wrapper
 
 **Recent rigor-pass + Sandy-packet artifacts:**
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-{13,15,16}_*.md` (Pass 1's for Chs 7–10; Pass 2 for Ch 1 + Ch 4; reaudits)
