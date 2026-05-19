@@ -1,7 +1,12 @@
-# Memory Update Spec — `feedback_audience_aware_drafting_discipline.md` v2.0 → v3.0
+# Memory Update Spec — `feedback_audience_aware_drafting_discipline.md` v2.0 → v3.0 (+ Amendment A 2026-05-18)
 
-**Date drafted:** 2026-05-17
-**Status:** PROPOSED — pending author application to local memory at session close.
+**Date drafted:** 2026-05-17 (v3.0 base); 2026-05-18 Amendment A added (selective stage-firing).
+**Status:** v3.0 base PROPOSED + author-applied 2026-05-17; Amendment A PROPOSED 2026-05-18.
+**Amendment A in one line:** the v3.0 cascade is now two-class — automatic-on-edit (Pass 3.1 + Pass 3.2 + Stage 1c-light; fires on every prose edit) vs explicit-gate (Pass 3.3 + Pass 3.4 + Stage 4 + Stage 5; fires only on author trigger at pre-external-review send + pre-publication + venue-change). Rationale: token-economy — heavy passes only fire when value justifies the cost.
+
+**Apply Amendment A to local memory:** append the §"Amendment A — Selective stage-firing (2026-05-18)" block from `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` §3 to the local memory file's v3.0 entry, or replace the entire v3.0 cascade section with the new two-class cascade from §3 of the canonical doctrine. Memory file remains a scan-friendly summary; canonical doctrine carries the full architecture.
+
+---
 **Origin:** Pipeline-revision workstream (handoff at [`tools/workstream-handoffs/pipeline-revision-handoff_2026-05-17.md`](../workstream-handoffs/pipeline-revision-handoff_2026-05-17.md)).
 **Versioning approach:** hybrid per ratified decision #8 — this memory entry stays scan-friendly (summary + pointer); the full doctrine lives in `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`.
 **Applies to local memory file:** `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md`

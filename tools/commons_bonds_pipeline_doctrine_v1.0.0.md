@@ -100,20 +100,65 @@ Implementation: [`tools/scripts/check-corpus-invariants.sh`](scripts/check-corpu
 
 ## §3. Change-cascade routing protocol
 
-**Any change of any type routes back to the appropriate prior stage.** Explicit routing rules:
+> **AMENDMENT A — Selective stage-firing (ratified 2026-05-18).** Original v1.0.0 cascade treated all stages as equally auto-firing on every relevant change. **Per author direction 2026-05-18, the cascade is now two-class:** automatic-on-edit (cheap-when-needed; fires on every prose edit) vs explicit-gate (expensive-or-out-of-scope-for-routine-edits; fires only on explicit author trigger at specific gates). The token-economy rationale: with the render-toolchain-containerization workstream landed (Docker on laptop or remote-container), Stage 4 renders cost ~0 Claude tokens because they happen outside of Claude sessions; the cascade should reflect that Stage 4 is cheap to defer and only needs to fire at author-specified gates rather than as part of automatic cascade after every prose edit. Pass 3.3 + Pass 3.4 (audience-load) are similarly heavy enough that automatic re-firing on every spot-fix is wasteful — they fire on venue-changes, audience-set-changes, or pre-publication, not on every cascade.
 
-| Change type | Routes back to | Then re-fires |
+**Two cascade classes:**
+
+### §3.1 Automatic-on-edit cascade (cheap; fires on every relevant change)
+
+| Change type | Routes back to | Then auto-fires |
 |---|---|---|
-| New fact discovered (interview; family conversation; external verification) | Stage 1b canonical-facts inventory update | Pass 3.1 fact-check for affected scope + Pass 3.2 voice-polish for affected prose + Pass 3.3 audience-load acceptance + (if claim-level material change) Pass 3.4 robustness |
-| New audience character identified | Stage 1b audience pressure-test set update | Pass 3.3 audience-load acceptance + (if adversarial character) Pass 3.4 robustness |
-| Bibliography commitment lands | Stage 1c cross-artifact coherence update | Affected chapter's Pass 3.3 audience-load (light) re-fire |
-| Spot-fix applied (any phase / any pass) | Stage 1c cross-artifact coherence (light) | Pass 3.3 audience-load (light) re-fire — verify verdicts didn't shift |
-| Cross-chapter workstream applies content to multiple chapters | Stage 1c cross-artifact coherence for all affected chapters | Each affected chapter's Pass 3.3 audience-load (light) re-fire |
-| Render-failure pattern surfaces | Stage 1a (registry update) + Stage 4 audit protocol amendment | Stage 4 re-run for affected chapter |
-| External-reviewer finding lands | Stage 1c cross-artifact coherence + Stage 5 sign-off re-fire | Affected stages per finding scope |
 | Any source-file change (pre-commit) | Stage 1a invariant-gate scans (automatic) | Commit refused on HIGH match; otherwise proceeds |
+| New fact discovered (interview; family conversation; external verification) | Stage 1b canonical-facts inventory update | Pass 3.1 fact-check for affected scope + Pass 3.2 voice-polish for affected prose |
+| New audience character identified | Stage 1b audience pressure-test set update | (Pass 3.3 / 3.4 explicit-gate per §3.2) |
+| Bibliography commitment lands | Stage 1c cross-artifact coherence update | (Pass 3.3 explicit-gate per §3.2) |
+| Spot-fix applied (any phase / any pass) | Stage 1c cross-artifact coherence (light) | (No automatic re-fire of audience-load; per §3.2 explicit-gate) |
+| Cross-chapter workstream applies content to multiple chapters | Stage 1c cross-artifact coherence for all affected chapters (automatic) | (Pass 3.3 light re-fire per §3.2 explicit-gate, batched at workstream close) |
+| Render-failure pattern surfaces (in source) | Stage 1a (registry update) | (Stage 4 re-run per §3.2 explicit-gate) |
+
+**Net effect:** every prose edit auto-fires Pass 3.1 + Pass 3.2 (the value-added prose rigor); cheap-enough Claude-token cost is justified by the quality return.
+
+### §3.2 Explicit-gate cascade (heavy; fires only on author trigger at specific gates)
+
+| Stage / Pass | Fires when | Reason for gating |
+|---|---|---|
+| **Stage 4 (render-integrity audit)** | Pre-external-review send (e.g., before shipping a chapter to a peer reviewer / publisher / agent); pre-publication; on author "build it now" trigger; any publishing-pipeline-script change | Render is ~0 Claude tokens (happens via Docker locally or remote-container), but the audit work (text-extract, character-diff, layout-check, formula-integrity) is heavy + only needs to fire when an artifact actually ships. |
+| **Stage 5 (sign-off + pre-pub review queue)** | Pre-external-review send; pre-publication; before any external-reviewer engagement | Stage 5 generates the pre-publication review queue artifact (mandatory deliverable per pipeline doctrine §7); only valuable at distribution-readiness gates. |
+| **Pass 3.3 (audience-load acceptance)** | New audience character added (Stage 1b update); venue change (artifact retargets to different publication); pre-external-review send; pre-publication | Per-character audience-load test is heavy (15-25 acceptance characters scored). Spot-fixes rarely shift acceptance verdicts; batching at venue-change / pre-publication gates avoids redundant re-fires. |
+| **Pass 3.4 (audience-load robustness)** | New adversarial character added; cross-chapter workstream affects the chapter (post-merge batched re-fire); pre-publication for any artifact with adversarial-exposure risk | Adversarial-set thread-pull synthesis is the heaviest pass; only fires at venue-change / pre-publication / cross-chapter-cascade gates. |
+| **Cross-chapter workstream cascade light re-fire (Stage 1c + Pass 3.3-light)** | After cross-chapter touches land on main (batched per pipeline doctrine §5 step 4) | Heavy when applied per-chapter immediately on every cross-chapter touch; cheap when batched at workstream close. |
+| **External-reviewer finding integration** | When the finding lands; gated on author disposition | Heavy work routing back through multiple stages; only fires when the finding warrants it. |
+
+**Author trigger forms:**
+- Explicit instruction in a session: *"Fire Stage 4 audit for Ch 5"* or *"Run pre-publication Stage 5 sign-off"* or *"Re-run Pass 3.3 for Ch 6 — venue changed to Phenomenal World."*
+- PM-session-handoff entry routing the trigger to a fresh session.
+- Pre-publication gating: a chapter approaching submission readiness automatically queues all four explicit-gate items (Stage 4 + Stage 5 + Pass 3.3 + Pass 3.4) as a pre-pub-readiness batch.
+
+### §3.3 Light re-fire definition
 
 **Light re-fire** means: re-test only the specific characters / facts / sections affected by the change, not the full pass. Full re-fire only when the change is structural or invalidates the prior pass's assumptions.
+
+### §3.4 Token-economy rationale
+
+The two-class cascade reflects an underlying token-economy observation:
+
+| Work item | Approx Claude tokens per fire (chapter-scale) |
+|---|---|
+| Stage 1a invariant scan (script-driven) | <100 (just running `check-corpus-invariants.sh`) |
+| Stage 1b update (canonical-facts inventory / audience-set update) | 500-2000 (depends on scope of update) |
+| Stage 1c coherence check | 500-3000 (depends on cross-artifact scope) |
+| Pass 3.1 fact-check | 5,000-15,000 (chapter content into context + reasoning + finding-extraction) |
+| Pass 3.2 voice-polish | 5,000-15,000 (similar scope to 3.1) |
+| Pass 3.3 acceptance (15-25 characters) | 20,000-60,000 (per-character simulation + verdict + finding-extraction) |
+| Pass 3.4 robustness (5-10 adversarial characters) | 15,000-40,000 (adversarial-character simulation + thread-pull synthesis) |
+| Stage 4 (render-integrity audit, via Docker render) | 500-3,000 (Docker render is ~0 tokens; audit work is text-extract + diff + finding-extraction) |
+| Stage 5 sign-off + pre-pub review queue generation | 3,000-10,000 (artifact-generation work) |
+
+The automatic-on-edit cascade (Pass 3.1 + Pass 3.2 + Stage 1c-light) totals ~10K-30K tokens per prose-edit event — justified by the value-added prose rigor. The explicit-gate cascade (Pass 3.3 + Pass 3.4 + Stage 4 + Stage 5) totals 40K-110K tokens per pre-publication batch — appropriate cost amortized over many prose edits, not paid per spot-fix.
+
+### §3.5 Backward-compatibility with v1.0.0-original cascade
+
+Prior cascade rules (where Pass 3.3 / 3.4 / Stage 4 were folded into automatic cascade) are now Amendment-A-superseded but archived for audit-trail. Sessions that fired heavy cascades prior to 2026-05-18 remain valid; new sessions fire per Amendment A.
 
 ---
 

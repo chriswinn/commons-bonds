@@ -19,9 +19,16 @@ The pre-publication review queue is the mandatory hand-off artifact that surface
 
 ## §1. When Stage 5 fires
 
-After Stage 4 (render + character-integrity audit) closes with verdict CLEAN or MEDIUM HOLD. (HIGH BLOCK at Stage 4 blocks Stage 5.)
+**Per v1.0.0 Amendment A (selective stage-firing, ratified 2026-05-18): Stage 5 is an EXPLICIT-GATE pass — fires only at pre-external-review send + pre-publication, NOT on automatic cascade after every prose edit.**
 
-Stage 5 also fires when an external-reviewer finding lands post-publication; the change-cascade routing routes the finding back through prior stages, and Stage 5 re-fires once the upstream changes settle.
+Stage 5 fires at:
+- **Pre-external-review send** — before shipping to a peer reviewer / publisher / agent.
+- **Pre-publication** — before final-venue publication; the mandatory pre-publication review queue artifact is generated here.
+- **External-reviewer finding lands post-publication** — change-cascade routing routes the finding back through prior stages; Stage 5 re-fires once upstream changes settle.
+
+Stage 5 does NOT auto-fire on prose edits, spot-fix applications, or routine retrofit work. The pre-publication review queue artifact (mandatory per pipeline doctrine §7) is the deliverable that gates Stage 5's firing — it only has meaningful content when an artifact is approaching distribution-readiness.
+
+After Stage 4 (render + character-integrity audit) closes with verdict CLEAN or MEDIUM HOLD. (HIGH BLOCK at Stage 4 blocks Stage 5.)
 
 ---
 

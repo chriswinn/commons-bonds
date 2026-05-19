@@ -52,7 +52,9 @@ Per CLAUDE.md merge-to-main default: retrofit sessions producing rigor-pass arti
 
 The per-chapter handoff stub specifies which sub-steps fire. For each in-scope sub-step:
 
-### §3.1 Stage 1a invariant-gate scan (always fires)
+> **Selective stage-firing per v1.0.0 Amendment A (2026-05-18).** Retrofit sub-steps are now classified as **automatic-on-edit cascade** (fire on every retrofit session) vs **explicit-gate cascade** (fire only on explicit author trigger, typically pre-external-review or pre-publication). Markers below: ⚡ = automatic-on-edit; 🚪 = explicit-gate. For first-cycle retrofits + standardization-comparison-bed retrofits, ALL sub-steps fire regardless of class (the retrofit itself is an explicit-gate trigger for the heavy passes). For subsequent maintenance retrofits + spot-fix follow-ups, only ⚡ sub-steps fire automatically; 🚪 sub-steps fire only when the author explicitly triggers them per §3 of the canonical doctrine.
+
+### §3.1 ⚡ Stage 1a invariant-gate scan (always fires)
 
 ```bash
 tools/scripts/check-corpus-invariants.sh --scope manuscript/chapters/<chapter-file> --verbose
@@ -60,7 +62,7 @@ tools/scripts/check-corpus-invariants.sh --scope manuscript/chapters/<chapter-fi
 
 Resolve any HIGH-severity findings (block proceeding). Review MEDIUM findings; either address or add to YAML registry allowlist with rationale. Record clean-baseline verification artifact at `tools/quality-gates/clean-baselines/<chapter-slug>_stage1a_<date>.md`.
 
-### §3.2 Stage 1c cross-artifact coherence check (always fires)
+### §3.2 ⚡ Stage 1c cross-artifact coherence check (always fires)
 
 Per Stage 1 doctrine §3.2:
 
@@ -72,19 +74,19 @@ Per Stage 1 doctrine §3.2:
 
 For each item: verify the chapter realizes the commitment / honors the framing / honors the prior finding's disposition. Record coherence verification artifact at `tools/quality-gates/coherence-checks/<chapter-slug>_stage1c_<date>.md`.
 
-### §3.3 Pass 3.1 verify (if in retrofit scope)
+### §3.3 ⚡ Pass 3.1 verify (if in retrofit scope)
 
 For chapters that had Pass 1 PROPOSED but not yet RATIFIED + APPLIED: re-verify the Pass 1 findings against current chapter state. Output a brief "Pass 3.1 verify" artifact at `tools/rigor-passes/<chapter-slug>_stage3_pass_3_1_verify_<date>.md`. Confirms findings still valid or notes which have been superseded by other edits.
 
-### §3.4 Pass 3.2 verify or fresh (if in retrofit scope)
+### §3.4 ⚡ Pass 3.2 verify or fresh (if in retrofit scope)
 
 Per Stage 3 template (v3.0). If Pass 2 PROPOSED but not yet RATIFIED + APPLIED: verify. Otherwise fresh Pass 3.2 voice-polish against current chapter state.
 
-### §3.5 Pass 3.3 acceptance (if in retrofit scope)
+### §3.5 🚪 Pass 3.3 acceptance (explicit-gate; fires at first-cycle retrofit + venue-change + pre-publication)
 
 Per Stage 3 template (v3.0) + audience-pressure-test-construction (v3.0). Build acceptance-test character set per the per-chapter venue + scope. Score per character; produce include-vs-exclude verdict.
 
-### §3.6 Pass 3.4 robustness (always fires for retrofit)
+### §3.6 🚪 Pass 3.4 robustness (explicit-gate; fires at first-cycle retrofit + adversarial-set change + cross-chapter-cascade batch + pre-publication)
 
 Per Stage 3 template (v3.0) §"Pass 3.4: Audience-load (robustness)" + audience-pressure-test-construction (v3.0) §3 (adversarial / detractor character types) + §3.4 (thread-pull synthesis canonical diagnostic format model).
 
@@ -105,7 +107,7 @@ Final robustness verdict: ROBUST / CONDITIONALLY ROBUST / REQUIRES STRUCTURAL EN
 
 Output artifact: `tools/rigor-passes/<chapter-slug>_stage3_pass_3_4_robustness_<date>.md`.
 
-### §3.7 Stage 4 render + character-integrity audit (always fires; sequencing depends on chapter position)
+### §3.7 🚪 Stage 4 render + character-integrity audit (explicit-gate; fires at pre-external-review send + pre-publication + on author "build it now" trigger + any publishing-pipeline-script change)
 
 > **⚠ CANONICAL-PIPELINE — sequencing differs for the first 4 retrofits vs the remaining 9.** Author direction 2026-05-17: the render-pipeline-standardization workstream ([`render-pipeline-standardization-handoff_2026-05-17.md`](render-pipeline-standardization-handoff_2026-05-17.md)) fires **in parallel with** the first 4 retrofits (Ch 1 + Ch 5 + Ch 6 + TA), using them as the comparison-render test bed. Sequencing:
 >
@@ -129,7 +131,7 @@ Per Stage 4 doctrine. Run the **canonical pipeline** (per render-pipeline-standa
 
 Capture xelatex stderr to build log + grep for `Missing character` warnings (load-bearing per Stage 4 §3.3 discipline). Output artifact: `tools/rigor-passes/<chapter-slug>_stage_4_render_audit_<date>.md`.
 
-### §3.8 Stage 5 sign-off + pre-pub review queue (always fires)
+### §3.8 🚪 Stage 5 sign-off + pre-pub review queue (explicit-gate; fires at pre-external-review send + pre-publication)
 
 Per Stage 5 doctrine. Verify academic-rigor + prose-quality sign-offs (no drift through pipeline; cross-artifact coherence maintained; all Pass-3 findings resolved or held with rationale; Stage 4 verdict CLEAN or MEDIUM HOLD).
 

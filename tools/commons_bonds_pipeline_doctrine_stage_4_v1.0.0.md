@@ -26,11 +26,23 @@ Stage 4 catches these before pre-publication sign-off (Stage 5). Without Stage 4
 
 ## §1. When Stage 4 fires
 
-After Stage 3 closes (all four passes complete + spot-fixes applied + author ratified), before Stage 5 sign-off.
+**Per v1.0.0 Amendment A (selective stage-firing, ratified 2026-05-18): Stage 4 is an EXPLICIT-GATE pass — fires only on author trigger, NOT on automatic cascade after every prose edit.**
+
+Stage 4 fires at:
+- **Pre-external-review send** — before any chapter / TA / essay artifact ships to a peer reviewer / Sandy / publisher / agent.
+- **Pre-publication** — before the artifact ships to the final publication venue.
+- **On author "build it now" trigger** — explicit instruction like *"Fire Stage 4 audit for Ch 5"* in a session, or PM-session-handoff entry routing the trigger.
+- **Any publishing-pipeline-script change** — change-cascade routing: change to `build-derivatives.sh` / `build-derivatives-alt.sh` / `install-render-toolchain.sh` / `Dockerfile.render` / `fallback-header.tex` / `reference.docx` → Stage 4 re-run for all affected artifacts.
+- **For first-cycle retrofits** — fires as part of the retrofit (the retrofit itself IS an explicit-gate trigger).
+
+Stage 4 does **NOT** auto-fire on:
+- Prose edits / spot-fix applications (the render itself is ~0 Claude tokens via Docker / remote-container, but the audit work is heavy + only valuable at distribution-readiness; spot-fix applications batch their Stage 4 deferral until pre-publication).
+- Pass 3.1 / Pass 3.2 findings dispositions (those auto-fire per §3.1 of the canonical doctrine; Stage 4 stays gated).
+- Stage 1c coherence-check updates (those route to ⚡ automatic cascade per §3.1; Stage 4 stays gated).
+
+After Stage 3 closes (all four passes complete + spot-fixes applied + author ratified), Stage 4 fires before Stage 5 sign-off.
 
 For retrofit cycles: after Pass 3.4 (audience-load robustness) completes; Stage 4 fires on the retrofit-targeted derivative outputs.
-
-Stage 4 also fires whenever the publishing pipeline scripts change (e.g., font swap; pandoc version upgrade; CSS edit). Change-cascade routing: any source-file change → Stage 1a (pre-commit); any **publishing-pipeline-script** change → Stage 4 re-run for all affected artifacts.
 
 ---
 
