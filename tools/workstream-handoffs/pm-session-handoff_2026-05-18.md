@@ -45,7 +45,7 @@ You do NOT need to read individual workstream handoffs unless drilling into one.
 |---|---|
 | ~~Mon May 18 8:00 AM ET — CBF v6.1 + consolidated response both auto-send (`7141634` + `b200664`)~~ | **BOTH VERIFIED SENT by author Mon May 18 8am ET** — advance materials + call-windows in Val/David's inbox since Monday. |
 | **TODAY Tue May 19** | Triage **Chs 7/8/9/10 Pass 1** findings; ratify residual **Ch 1 Pass 3** items in REAUDIT v3 `76ca8a6`; ratify **Ch 4 Pass 2** PROPOSED `3174cc8`. Queue **Ch 2 developmental-edit** session (Ch 1 cycle complete; see §5.1). |
-| **🆕 Thu May 21 — 2:00 PM (ET, presumed) — CBF MEETING CONFIRMED** | **Three-person video call: Chris + Val DiMarzio + David Sherfinski** ("would work best for us" — confirmed joint attendance 2026-05-19). Microsoft Teams; **Val sending Teams link separately**. Val + David have had advance materials (outline + questions) since Mon May 18 — should be prepped. **Prep scope spans both MD (Colden) and VA (Moore) sides** — David's presence means VA-side oyster-policy + Moore-thread material is in scope, not just MD/Colden. Pre-staged materials at `research/outreach/subjects/cbf/{interview-prep,live-call-companion,organizational-brief}_*.md` — review with dual-state scope in mind. Watch inbox + calendar. Same day Sandy reply window opens — CBF meeting is the day's anchor. |
+| **🆕 Thu May 21 — 2:00 PM (ET, presumed) — CBF MEETING LOCKED** | **Three-person video call: Chris + Val DiMarzio + David Sherfinski.** Microsoft Teams; **Teams link RECEIVED 2026-05-19** (in author's inbox; add to calendar). Val + David have had advance materials since Mon May 18 — should arrive prepped. **Prep scope spans both MD (Colden) and VA (Moore) sides.** Pre-staged materials at `research/outreach/subjects/cbf/{interview-prep,live-call-companion,organizational-brief}_*.md` — review with dual-state scope in mind. Same day Sandy reply window opens — CBF meeting is the day's anchor. |
 | **This week (by Sun May 24)** | Fire **Ch 2 Pass 3** + **Ch 3 Pass 2** + **Ch 3 Pass 3** + **Ch 4 Pass 3** (paste-text gen from PM). Continue Phase C-α applications on Chs 7/8/9/10 as ratifications land. Continue pipeline retrofits (Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication remain pending; Chs 1/5/6/TA fired 2026-05-18). Fire **Ch 2 developmental-edit** session. Decide Phat consent escalation deadline (recommend Fri May 22). |
 
 ---
@@ -220,7 +220,7 @@ Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Appar
 - Decide Phat consent escalation deadline (recommend Fri May 22)
 
 ### 🆕 Thu May 21
-- **2:00 PM ET — CBF Microsoft Teams meeting** — three-person (Chris + Val + David). Block calendar. Watch for Teams link from Val. Prep: review `research/outreach/subjects/cbf/{interview-prep,live-call-companion,organizational-brief}_*.md` with dual-state scope (MD-Colden + VA-Moore).
+- **2:00 PM ET — CBF Microsoft Teams meeting** — three-person (Chris + Val + David). **Teams link received Tue May 19; add to calendar.** Prep: review `research/outreach/subjects/cbf/{interview-prep,live-call-companion,organizational-brief}_*.md` with dual-state scope (MD-Colden + VA-Moore).
 - Sandy reply window opens (1 week post-packet); soft check-in only if silent.
 
 ### This week (by Sun May 24)
