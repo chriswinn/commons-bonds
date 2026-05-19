@@ -6,6 +6,7 @@ Command-line utilities and any binary assets they depend on. Run from the repo r
 |---|---|
 | `install-render-toolchain.sh` | Canonical apt-based render-toolchain installer (Ubuntu/Debian 24.04). Idempotent; supports `--check` verification and `--capture-stamp` modes. Consumed by `Dockerfile.render` (laptop + CI) and by the `.claude/settings.json` SessionStart hook (remote-container). |
 | `Dockerfile.render` | Canonical render image — `FROM --platform=linux/amd64 ubuntu:24.04` + run the installer. Mirrors the remote-container workflow (no Chrome; wkhtmltopdf is canonical for HTML→PDF). |
+| `docker-render.sh` | Convenience wrapper around `docker run … commons-bonds-render … build-derivatives-alt.sh`. Pre-flights Colima + the image; bind-mounts repo root + `$HOME`; pass-through for all `build-derivatives-alt.sh` flags. Recommended primary invocation path for laptop renders. |
 | `session-start-render-toolchain.sh` | SessionStart hook wrapper invoked by `.claude/settings.json`. Gates on `CLAUDE_CODE_REMOTE=true`; fast no-op when the toolchain is already present. |
 | `build-derivatives.sh` | Generate standardized `.docx` + `.pdf` derivatives from `.md` and `.html` sources. Laptop-native default (commercial Garamond + Chrome-preferred). Not the canonical Docker pipeline. |
 | `build-derivatives-alt.sh` | Canonical script inside Docker + the remote-container. Defaults to `MAIN_FONT="EB Garamond"`; auto-includes `fallback-header.tex` on `.md` → PDF builds. |
@@ -259,33 +260,51 @@ docker run --rm commons-bonds-render             # runs --check, prints ✓/✗ 
 
 ### Render a chapter via Docker
 
-Inside Docker, the canonical script is `build-derivatives-alt.sh` (defaults to EB Garamond + auto-includes the fallback header — exactly the remote-container's discipline):
+Use the wrapper script `tools/scripts/docker-render.sh` — a transparent passthrough to `build-derivatives-alt.sh` inside the canonical image, with `--platform=linux/amd64` + repo-root bind-mount already set. It pre-flights Colima + the image being present, so failures surface as actionable errors rather than silent misbehavior.
 
 ```bash
-# .md → .docx + .pdf (alongside the source)
-docker run --rm --platform=linux/amd64 \
-  -v "$(pwd):/work" -w /work \
-  commons-bonds-render \
-  tools/scripts/build-derivatives-alt.sh \
-    manuscript/chapters/Chapter__1_TheQuietMath__Draft.md
+# .md → .docx + .pdf (alongside the source; gitignored per the render-output policy)
+tools/scripts/docker-render.sh \
+  manuscript/chapters/Chapter__1_TheQuietMath.md
 
-# Output into a specific directory
-docker run --rm --platform=linux/amd64 \
-  -v "$(pwd):/work" -w /work \
-  commons-bonds-render \
-  tools/scripts/build-derivatives-alt.sh \
-    -o some/output/dir \
-    manuscript/chapters/Chapter__1_TheQuietMath__Draft.md
+# Output to an ephemeral $HOME-side dir for proofing
+tools/scripts/docker-render.sh -o ~/proof \
+  manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP.md
 
-# HTML source → PDF via wkhtmltopdf (Chrome is not installed inside Docker)
-docker run --rm --platform=linux/amd64 \
-  -v "$(pwd):/work" -w /work \
-  commons-bonds-render \
-  tools/scripts/build-derivatives-alt.sh \
-    core/technical-appendix/TechnicalAppendix_v2.0.0.html
+# Output straight into a committed-evidence dir for a delivery
+tools/scripts/docker-render.sh -o research/outreach/subjects/colden \
+  manuscript/chapters/Chapter__3_TheWaterman.md
+
+# Multiple files at once
+tools/scripts/docker-render.sh \
+  manuscript/chapters/Chapter__5_*.md \
+  manuscript/chapters/Chapter__6_*.md \
+  core/technical-appendix/TechnicalAppendix_v2.0.0.html
+
+# Skip PDFs
+tools/scripts/docker-render.sh -f docx \
+  manuscript/chapters/Chapter__1_TheQuietMath.md
 ```
 
-If invoking `build-derivatives.sh` inside Docker is needed for any reason, pass `MAIN_FONT="EB Garamond"` via env-var — its default of `Garamond` (commercial macOS-system) isn't apt-installed.
+Output-path constraint: `-o` must be repo-relative or under `$HOME`. Colima only bind-mounts `$HOME` into the container by default; the wrapper adds the repo root. Absolute paths outside both areas (e.g., `/tmp` on macOS) are rejected up-front with a fix-it hint, rather than letting the bytes silently die when the `--rm` container exits.
+
+All flags + positional args pass through to `build-derivatives-alt.sh`. See `tools/scripts/build-derivatives-alt.sh -h` for the full inventory.
+
+If invoking `build-derivatives.sh` (the laptop-native variant) inside Docker is ever needed, pass `MAIN_FONT="EB Garamond"` via env-var — its default of `Garamond` (commercial macOS-system) isn't apt-installed.
+
+#### What the wrapper does under the hood
+
+For debugging or one-off use without the wrapper, here is the raw invocation:
+
+```bash
+docker run --rm --platform=linux/amd64 \
+  -v "$(pwd):/work" -v "$HOME:$HOME" -w /work \
+  commons-bonds-render \
+  tools/scripts/build-derivatives-alt.sh \
+    manuscript/chapters/Chapter__1_TheQuietMath.md
+```
+
+(The `-v "$HOME:$HOME"` mount is what makes `-o ~/proof`-style paths work.)
 
 ### Why not run apt-installed pandoc directly on macOS?
 
