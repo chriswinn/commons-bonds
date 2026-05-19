@@ -11,8 +11,12 @@ per-paragraph passes have applied)
 **Status:** PROPOSED — pending author ratification. Subordinate to the
 Stage-3 four-pass artifacts for Ch 1; this review supplements rather than
 supersedes any prior pass.
-**File audited:** [`manuscript/chapters/Chapter__1_TheQuietMath__Draft.md`](../../manuscript/chapters/Chapter__1_TheQuietMath__Draft.md)
-— **108 lines** (state verified 2026-05-18 against origin/main `f049c0d`).
+**File audited:** [`manuscript/chapters/Chapter__1_TheQuietMath.md`](../../manuscript/chapters/Chapter__1_TheQuietMath.md)
+— **108 lines** (state verified 2026-05-18 against origin/main `f049c0d`
+at audit time; chapter file subsequently renamed at origin/main `a09e319`
+2026-05-18 — *"dropping the Draft name for all Chapters"* — content
+unchanged; only the `__Draft` suffix was removed. All line references in
+this artifact remain valid against the renamed file.)
 **Branch:** `claude/ch1-developmental-edit-wonderful-elgamal-5f91d8`
 (branched from origin/main `f049c0d`).
 **Author observation driving this pass (2026-05-18):** Ch 1's prose
@@ -28,9 +32,11 @@ findings only; Phase C spot-fix application is a separate session.
 
 ## §0. Source artifacts read
 
-1. [`manuscript/chapters/Chapter__1_TheQuietMath__Draft.md`](../../manuscript/chapters/Chapter__1_TheQuietMath__Draft.md)
+1. [`manuscript/chapters/Chapter__1_TheQuietMath.md`](../../manuscript/chapters/Chapter__1_TheQuietMath.md)
    — 108 lines; the chapter under review (read end-to-end at whole-chapter
-   scale).
+   scale). NOTE: read at audit time as `Chapter__1_TheQuietMath__Draft.md`;
+   subsequently renamed at origin/main `a09e319` 2026-05-18 (content
+   unchanged; `__Draft` suffix removed).
 2. [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
    §3 Amendment A — selective stage-firing (this workstream is an
    explicit-gate firing similar to Pass 3.3 / 3.4 but at developmental-editing
@@ -1460,7 +1466,9 @@ for the workstream definition + doctrine-amendment candidate capture
 
 Per the session brief's hard constraints:
 
-- **Did NOT edit `Chapter__1_TheQuietMath__Draft.md`.** PROPOSED
+- **Did NOT edit `Chapter__1_TheQuietMath.md`** (chapter was named
+  `Chapter__1_TheQuietMath__Draft.md` at audit time; subsequently
+  renamed at origin/main `a09e319`). PROPOSED
   findings only; Phase C spot-fix application is a separate session
   after author ratification.
 - **Did NOT re-run Pass 1 (fact-check), Pass 2 (voice-polish), Pass
@@ -1490,7 +1498,11 @@ Per the session brief's hard constraints:
 
 ## §8. Hard constraints honored
 
-- ✓ Did NOT apply edits to `Chapter__1_TheQuietMath__Draft.md`.
+- ✓ Did NOT apply edits to the chapter file (named
+  `Chapter__1_TheQuietMath__Draft.md` at audit time; subsequently renamed
+  to `Chapter__1_TheQuietMath.md` at origin/main `a09e319` 2026-05-18 —
+  rename is an upstream change; this artifact's findings and line
+  references remain valid against the renamed file).
 - ✓ Did NOT contradict canonical-facts inventory (per Pass 1 fact-
   check artifact + AuthorsNote register-split context).
 - ✓ Did NOT contact named subjects.
@@ -1556,7 +1568,89 @@ this Ch 1 session closes.
 
 ---
 
-*End of Ch 1 developmental-edit review — PROPOSED 2026-05-18. Author
-ratifies which proposed rewrites apply via separate Phase C session.
-Per CLAUDE.md rigor-pass artifact discipline, this artifact
-autonomously fast-forward merges to main at session close.*
+## §11. Disposition log (ratified 2026-05-18; awaiting Phase C application)
+
+Per-prompt ratification 2026-05-18: author ratified "as recommended and
+proposed" per §5.2 of this artifact. Dispositions captured below for
+Phase C session pickup. **Phase C spot-fix application is a separate
+session per framing-prompt branch discipline + CLAUDE.md merge-to-main
+default for author-ratified content changes.** Chapter source file
+remains UNCHANGED in this disposition-log update; Phase C session
+applies.
+
+### §11.1 Ratified APPLY (9 findings)
+
+| Finding | Severity | Option | Source of option | Disposition |
+|---|---|---|---|---|
+| **F-DE-Ch1-1** | HIGH | **C (A+B combined)** | §5.2 minimum-restoration set | Re-anchor §4 in plane-cabin (Option A — sensory-beat paragraph inserted between current line 82 free-market-economist paragraph and current line 84 quiet-math paragraph) + convert quiet-math paragraph to inner-monologue register (Option B). Use Option C drafts as proposed in §F-DE-Ch1-1 prose. |
+| **F-DE-Ch1-2** | HIGH | **A** | §5.2 minimum-restoration set | Add faithfulness-of-the-model paragraph between current line 28 (wind-tunnels + patent-record mention) and current line 30 (air-compressor anecdote). Use Option A draft as proposed in §F-DE-Ch1-2 prose. |
+| **F-DE-Ch1-3** | HIGH | **A + C** | §5.2 minimum-restoration set | (A) Give the both/and reveal at current line 58 its breath: insert §-break (`---`) between current line 58 (both/and reveal paragraph) and current line 60 (138-hour-week texture paragraph). (C) Add one sensory beat to cable-TV-station rescue opening at current line 68 — use the F-DE-Ch1-8 Option A concrete draft as the sensory beat (parking lot under sodium lights; building lit from inside; production suite running on schedule because the commercials in the queue still had three more days). |
+| **F-DE-Ch1-4** | MEDIUM | **A** | §5.2 medium-priority set | Add observational closer at §2-close (after current line 33's *"I would not know that for another six or eight years."*): *"The boy was small. He did not know what he had given my father back."* |
+| **F-DE-Ch1-5** | MEDIUM | **B** | §5.2 medium-priority set | Light specificity re-restoration within F-V2 structure: replace the last two sentences of current line 52 (*"A child's smile when she understood that meant something. Those smiles are why I stopped sleeping."*) with: *"There is a particular look on a child's face when she understands that one day a child might not have to be sick the way she has been sick. That look is why I stopped sleeping."* |
+| **F-DE-Ch1-6** | MEDIUM | **B** | §5.2 medium-priority set | Add §-break (`---`) after no-contact disclosure paragraph (current line 98) and before framework-naming paragraph (current line 100), making the no-contact disclosure its own §-block. |
+| **F-DE-Ch1-7** | MEDIUM | **A** | §5.2 author-discretionary set; recommended A or B per author judgment — A selected as the more substantive restoration consistent with the "restoration not further cutting" framing | Replace the DMV-commute "Time enough to" four-times structure + chiastic ellipsis at current line 66 with concrete-detail-of-what-was-lost rendering per Option A draft: *"…Five days a week, fifty-two weeks a year, five hours a day commuting. Thirteen hundred hours. Years I would never get back. Years that should have been time to learn a language, to play an instrument, to fall in love and stay there. I would never make that mistake again. It would be years before I had a name for what the lease had actually cost me."* |
+| **F-DE-Ch1-9** | MEDIUM | **A** | §5.2 author-discretionary set; recommended A or C per author judgment — A selected as cleaner trim | Cut the third detail-sentence of the opening paragraph at current line 10 (*"It had a laptop and a few essentials and could carry me for two weeks of meetings before laundry was a crisis."*). Opening paragraph ends at *"…fifty-eight countries I have traveled to as of this writing."* |
+| **F-DE-Ch1-10** | MEDIUM | **A** | §5.2 author-discretionary set | Re-paragraph the opening NICU paragraph at current line 16 at the schedule-matching pivot: split the paragraph at *"There was nothing more important to me than giving him that."* First paragraph ends at *"…let him feel that connection."* New paragraph begins at *"There was nothing more important to me than giving him that."* |
+
+### §11.2 Subsumed / no discrete action (4 findings)
+
+| Finding | Disposition |
+|---|---|
+| **F-DE-Ch1-8** | **SUBSUMED** by F-DE-Ch1-3 Option C (cable-TV-station sensory beat captured there; F-DE-Ch1-8's Option A draft is the concrete sensory beat applied via F-DE-Ch1-3 Option C). |
+| **F-DE-Ch1-11** | **RESOLVED as byproduct** of F-DE-Ch1-7 Option A application (the sentence-initial ellipsis at current line 66 is removed when the DMV-commute coda is restructured). |
+| **F-DE-Ch1-12** | **META-OBSERVATION**; subsumed by the cumulative effect of HIGH + MEDIUM findings collectively. No discrete action required. |
+| **F-DE-Ch1-13** | **HOLD** per finding-level recommendation — closing bookend at current lines 106-108 (*"The plane was past the cloud line. The sun was up. The day was beginning. I had work to do."*) preserved as-is. Cadence is content-enactive + structurally load-bearing as plane-bookend mirroring lines 10-11's opening. |
+
+### §11.3 Phase C session marching orders
+
+The Phase C session is a **separate session** per framing-prompt branch
+discipline. Recommended Phase C session brief:
+
+1. **Branch.** `git fetch origin && git checkout -b
+   claude/ch1-phase-c-developmental-edit-<harness-id> origin/main`.
+
+2. **Read.** (a) This artifact (`tools/rigor-passes/ch1_developmental_edit_review_2026-05-18.md`)
+   §§2–4 (per-finding prose with proposed restoration drafts) + §11
+   (this disposition log). (b) `manuscript/chapters/Chapter__1_TheQuietMath.md`
+   end-to-end to verify line numbers against §11 line references (chapter
+   was renamed at origin/main `a09e319` 2026-05-18 from
+   `Chapter__1_TheQuietMath__Draft.md` — content unchanged but the
+   filename references in the artifact's body §§2–4 still say
+   `__Draft.md`; Phase C must verify line-by-line against the renamed
+   file before applying).
+
+3. **Apply.** The 9 ratified spot-fixes per §11.1 disposition table.
+   Apply via Edit tool, verifying each edit preserves surrounding prose
+   exactly. Preserve named-subject consent discipline + canonical-facts
+   inventory unchanged (no new naming; no factual drift).
+
+4. **Append §11.4 Phase C application log.** Mirror Pass 2 §11 disposition-
+   log Phase-C-application-section pattern: per-finding verification
+   (which exact lines changed; chapter line count delta pre/post; cross-
+   pass impact confirmation).
+
+5. **Single commit.** Both chapter-file changes + §11.4 update in one
+   commit. Commit message references this disposition log + §11.1 by
+   finding ID.
+
+6. **Merge.** Per CLAUDE.md merge-to-main default for author-ratified
+   content changes: autonomously fast-forward merge to main at session
+   close + push origin main.
+
+7. **Recommended follow-up (separate session).** Light Pass 3.3
+   (acceptance) re-fire to confirm cumulative acceptance verdicts hold
+   across the 30-character set. Pass 3.4 (robustness) re-fire NOT
+   routinely warranted; can be added on author trigger.
+
+### §11.4 Phase C application log
+
+*To be appended by Phase C session at chapter-file application time.*
+
+---
+
+*End of Ch 1 developmental-edit review — RATIFIED 2026-05-18 per §11
+(author "ratify as recommended and proposed"); awaiting Phase C
+application in a separate session per framing-prompt branch discipline.
+Per CLAUDE.md rigor-pass artifact discipline + author-ratified-content-
+change merge-to-main default, this disposition-log update autonomously
+fast-forward merges to main at session close.*
