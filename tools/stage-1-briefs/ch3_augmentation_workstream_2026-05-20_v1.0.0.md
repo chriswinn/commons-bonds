@@ -3,9 +3,9 @@
 **Date:** 2026-05-20
 **Author:** Claude (Opus 4.7 1M ctx), session
 `claude/frosty-northcutt-48ce94`
-**Status:** PROPOSAL — pending author ratification at session close.
-Ratified brief gates Stage 2 audience-blind drafting of the 11
-augmentation landings in a follow-up session.
+**Status:** RATIFIED 2026-05-20 by author. Stage 2 audience-blind
+drafting of the 11 augmentation landings cleared to fire in a
+follow-up session per §11.
 **Scope:** Stage 1 ready-to-draft gate per pipeline-doctrine v1.0.0
 ([`tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md))
 for the Ch 3 augmentation workstream — landing 11 named
