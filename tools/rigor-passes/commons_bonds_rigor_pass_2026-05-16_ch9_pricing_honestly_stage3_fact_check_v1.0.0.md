@@ -751,3 +751,40 @@ After Phase C application of HIGH + MEDIUM findings: schedule Pass 2 (Voice-poli
 ---
 
 *End of Pass 1 (Fact-check) for Chapter 9. Pass 2 (Voice-polish) + Pass 3 (Audience-load) deliverables to be produced in subsequent sessions per workstream #20 phasing.*
+
+---
+
+## Ratification record (closed 2026-05-19)
+
+Author ratification (2026-05-19 same-session, post-walkthrough):
+
+**6 HIGH findings — all RATIFIED as recommended:**
+1. ✅ **HIGH-1 (Ch 9:230):** RATIFIED — Option B (CRMA precision on date + 34 critical / 17 strategic designation). Applied.
+2. ✅ **HIGH-2 (Ch 9:232):** RATIFIED — Option B (ISA "established in 1994 under UNCLOS, has issued exploration contracts since 2001"). Applied.
+3. ✅ **HIGH-3 + MEDIUM-6 paired (Ch 9:230):** RATIFIED — Option A (MP Materials' 2017 acquisition + 2018 operations restart; environmental closure 2002 + 2015 Molycorp bankruptcy as closure cause). Applied.
+4. ✅ **HIGH-4 (Ch 9:126):** RATIFIED — Option B (Sweden 1931 gold-standard departure, not 1933). Applied with parallel cadence preservation across the enumeration ("the 1931 departure ... mortgage-modification programs wrote down ... public-works employment programs absorbed ... and the 1938 Saltsjöbaden Agreement framework institutionalized ...").
+5. ✅ **HIGH-5 (Ch 9:224):** RATIFIED — Option A (Vienna Wohnbausteuer + Luxury Tax in Red Vienna period; Wohnbauförderungsbeitrag since 1949). Applied; preserves the framework's "sustained across multiple financing regimes" framing.
+6. ✅ **HIGH-6 (Ch 9:30):** RATIFIED — Option B (He-3 lunar regolith parts-per-billion precision + terrestrial He-4 separation). Applied.
+
+**6 MEDIUM findings — 5 ratified as recommended, 1 deviated:**
+7. ✅ **MEDIUM-1 (Ch 9:116):** RATIFIED — Option A (`approximately $550 per ton`); paired with CC-2 cross-chapter inventory row. Applied.
+8. ✅ **MEDIUM-2 (Ch 9:30):** RATIFIED — Option B (REE compressed generality: "unique chemical and physical properties"). Applied.
+9. ✅ **MEDIUM-3 (Ch 9:222):** RATIFIED — Option A (Mondragon "ranges from three to nine times the lowest, averaging around five"). Applied.
+10. ✅ **MEDIUM-4 (Ch 9:232):** RATIFIED — Option A (CCZ canonical four-metal list: manganese, nickel, copper, cobalt). Applied.
+11. ✅ **MEDIUM-5 (Ch 9:98):** RATIFIED — **Option B** (deviation from my Option C recommendation; author selected B for symmetric precision with HIGH-1 CRMA treatment): "in transitional operation since 2023 and entering its definitive phase in 2026". Applied. Author reasoning aligns with the counter-argument I noted in my recommendation — holding CBAM at popular-press compression while tightening CRMA created asymmetric treatment of two EU instruments; B fixes the asymmetry without committing to phase-in detail through 2034.
+12. ✅ **MEDIUM-6 (Ch 9:230):** RATIFIED — bundled with HIGH-3 Option A; Mountain Pass "consolidation" framing replaced by "environmental closure in 2002 and the 2015 bankruptcy" mechanism. Applied.
+
+**5 LOW findings:**
+13. ⏸ **LOW-1 (Ch 9:118):** Author judgment HELD per recommendation Option C — defer to pre-publication refresh once 2026 PFD is announced (Alaska 2025 $1,000 was budget-politics exception, not architecture). Cross-chapter inventory line 112 also flagged for joint refresh.
+14. ⏸ **LOW-2 (Ch 9:216):** HELD per recommendation Option C (Norway "over fifty years" gestures correctly at multi-stage discipline arc: 1969 discovery → 1990 fund → 2001 fiscal rule).
+15. ✅ **LOW-3 (Ch 9:126):** RATIFIED — Option A (Sweden 1992 "recovered a substantial portion of the deployed capital over the subsequent decade"). Applied; paired with HIGH-4 in same paragraph.
+16. ⏸ **LOW-4 (Ch 9:252):** HELD per recommendation Option B (EU ETS "nearly destroyed by lobbying" — rhetorical compression serves the chapter; specialist readers will know what's being gestured at).
+17. ⏸ **LOW-5 (Ch 9:138):** HELD per recommendation Option A (Public Choice "Buchanan and Tullock at Virginia" — standard popular-press attribution; Buchanan + Tullock are the two figures most strongly identified with the school; Nutter co-founding role at Thomas Jefferson Center is specialist-detail).
+
+**2 Cross-corpus findings — both RATIFIED as recommended:**
+18. ✅ **CC-1 (bibliography §13 + §19 Susskind entries):** RATIFIED — Option B (dual-imprint format: "Allen Lane (UK) / Belknap Press of Harvard University Press (US), 2024"). Applied to both bibliography entries; preserves dual-edition reality + clarifies the Ch 9 UK-title usage.
+19. ✅ **CC-2 (cross-chapter consistency inventory §3 new row):** RATIFIED — Option A (added McDowell coal per-ton total floor row: $558 Ch 8 canonical / $500-$600 Ch 9:12 bracket / approximately $550 Ch 9:116 rhetorical anchor). Applied; closes the cross-chapter relationship for future audits.
+
+**Phase C application summary:** 12 prose edits applied to `manuscript/chapters/Chapter__9_PricingHonestly.md` (touching ~10 distinct paragraphs); 2 bibliography entry updates applied to `research/literature/bibliography.md` §13 + §19 Susskind entries; 1 new row added to `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md` §3 Recurring statistics. Single atomic commit per CLAUDE.md author-ratified-content-changes merge-to-main discipline.
+
+**Phase A status for Ch 9 Pass 1:** CLOSED. Pass 2 (Voice-polish) + Pass 3 (Audience-load) still required to complete Phase A coverage of this chapter; schedule per per-prompt serial cadence. The Public Choice insertion's voice-polish + audience-load coverage will be picked up by those subsequent passes per the change-cascade routing the rent-seeking-engagement commit set up.

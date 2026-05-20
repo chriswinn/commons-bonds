@@ -535,7 +535,7 @@
 - **Chapter relevance:** Ch 9 (primary — Property rights and their limits §, applied 2026-05-08 commit `d78872e`); Ch 5 (secondary — Pattern Made Visible § cross-reference, applied 2026-05-08 commit `d78872e`).
 - **Status:** Added 2026-05-08 per publishing-strategy comp-titles work; engagement landed 2026-05-08 (commit `d78872e`); §13 flag updated 2026-05-10.
 
-### Susskind, Daniel. *Growth: A Reckoning.* Belknap Press / Harvard University Press, 2024.
+### Susskind, Daniel. *Growth: A Reckoning.* Allen Lane (UK) / Belknap Press of Harvard University Press (US), 2024.
 
 - **Summary:** Comprehensive accounting of the costs growth has imposed (well-being, climate, equality, meaning) alongside its successes. Frames the contemporary question as whether to keep pursuing growth as currently constituted, or to redesign for a different objective function. Recent and high-profile in the big-idea econ register.
 - **Relevance:** Adjacent register. Susskind takes "the costs of growth" as the explicit subject; Commons Bonds takes "honest accounting of those costs at the extraction-mechanism level" as the subject. Susskind's frame is more macro (the growth objective itself); Commons Bonds operates at the per-extraction-event mechanism level. **Engaged Ch 9 §What a framework does (primary) — Susskind named in lineage list with Harvey/Ostrom/Raworth/Desmond as a parallel framework redirecting a primary economic measurement (growth-as-conventionally-measured produces what cost-severance produces: a number that says one thing while the world says another). Ch 1 (secondary) — background register-exemplar for work-and-cost themes; intentionally not in-text-cited to preserve Ch 1's personal-narrative voice (treated as bibliography reference rather than citation).** Engagement landed via commit `d78872e` (2026-05-08).
@@ -1013,7 +1013,7 @@ Placeholder for additions as they emerge. Candidate additions:
 - **Chapter relevance:** Ch 9 (primary — Property rights and their limits section, climate-finance engagement applied 2026-05-08); Ch 5 (secondary — Pattern Made Visible section cross-reference applied 2026-05-08).
 - **Status:** added 2026-05-08 per author direction (comp engagement work).
 
-### Susskind, Daniel. *Growth: A Reckoning.* Allen Lane / Harvard University Press, 2024.
+### Susskind, Daniel. *Growth: A Reckoning.* Allen Lane (UK) / Belknap Press of Harvard University Press (US), 2024.
 
 - **Summary:** Argues that economic growth has been the implicit success-metric of modern political economy for two centuries, but growth measured in conventional GDP terms tracks neither what we value nor what we owe. Susskind's claim is that growth must be redirected — not abandoned — toward measures that capture human flourishing, ecological constraints, and intergenerational fairness. Named one of Obama's 'Favourite Books of 2024' and runner-up for the Financial Times Business Book of the Year 2024.
 - **Relevance:** **STRONG SUPPORT (Ch 9 — Pricing Honestly; growth-redirection lineage parallel to the framework's pricing-redirection).** Susskind's growth-must-be-redirected argument aligns with the framework's pricing-must-be-redirected argument. Growth-as-conventionally-measured produces what cost-severance produces: a number that says one thing while the world says another. The framework's accounting and Susskind's growth-redirection are different facets of the same task — making honest what current measurement leaves dishonest.
