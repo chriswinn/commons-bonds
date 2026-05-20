@@ -187,6 +187,36 @@ The categories below cover the questions Val + David are most likely to ask. Pra
 
 > *"You have the substantive work already. What the framework offers is shorthand that travels. 'Cost severance' as one vocabulary across menhaden + stripers + oysters + watermen. 'Regulatory architecture lagging the science' as one diagnosis across ASMFC, DNR, VMRC, the Bay cap. If the vocabulary catches on at the analytical-trade-press level, you've got a way to make the structural argument once rather than re-arguing the structural pattern case by case."*
 
+#### A5. "What's your actual goal here?" / "What does success look like?" 🟢 LOAD-BEARING · HONEST
+
+**The over-selling vs. under-selling answer.** Principled long-arc articulation; immediate ask bounded. Deploy when they ask explicitly about goals, OR after the Translation Pass lands and the conversation is going well at ~15-20 min mark. NOT for the opening; NOT as direct "So what?" response (that's A1); needs ~75 sec to land properly.
+
+**Verbatim response sketch (~75 sec):**
+
+> *"I want to be honest about what I'd consider success with this work — not what I'd promise, but what would make the project meaningful to me decades from now. Two pictures:*
+>
+> *A lawyer somewhere — maybe 13 or 15 years from now — is in a courtroom arguing about extraction-community injustice, and they use the words 'cost severance' or 'residual commons value' without having to explain them. The judge follows. Opposing counsel doesn't object to the vocabulary. The terms have become legible enough that the structural argument lands on its own. And I never find out about that — the vocabulary did the work after the book had stopped being a book and become just terms people use.*
+>
+> *Or — an individual or somebody making decisions for many people is facing a hard choice that affects a community they're responsible for, and they have a way to ask 'what's the true cost vs. the benefit to that community?' — not just the supply-and-demand answer but the structural-accounting answer. Because there's vocabulary for it now, and a methodology, and a way to think about what's being severed and what's being foreclosed.*
+>
+> *That's the long-arc success — vocabulary that becomes infrastructure invisible to its users. The kind of thing CBF has been quietly building for the Bay for sixty years. The book's contribution is to put a vocabulary on the structural pattern so the kind of honest accounting CBF advocates for the Bay can travel to other contexts and other audiences.*
+>
+> *What I'm asking from you specifically is much more bounded — just the calibration conversation to make sure the vocabulary lands right against the actual work you do. Everything else is downstream of doing that well."*
+
+**Why this answer works (overselling/undersell balance):**
+- **Articulates the actual long-arc goal** — vocabulary becomes infrastructure invisible to its users. Saying it out loud reads as principled, not promotional.
+- **Disclaims credit** — "I never find out about that" distinguishes principled long-arc from activist self-positioning. The author is NOT the protagonist of the impact arc; the vocabulary is.
+- **Bounds the immediate ask** — naming success *decades from now* implicitly clarifies that the ask from CBF *right now* is much more modest. The asymmetry IS the un-ask move.
+- **Anchors in CBF's existing work** — credits 60 years of CBF "quietly building" the Bay-level version of what the framework tries to extend.
+- **Concrete examples** — lawyer + decision-maker. Not abstract "change the conversation" claims.
+- **Stays in DESCRIPTIVE-vision mode**, not PREDICTIVE-impact mode. Critical for David's journalist ear — "this is what would make it meaningful to me" reads honest; "this is what this book will accomplish" reads pitched.
+
+**When to deploy:** they ask explicitly ("what's your actual goal?" / "what do you hope happens?" / "what does success look like?"); OR after Translation Pass lands well and ~15-20 min in; OR if David tests for grandiosity vs honesty — this is the honest answer he's testing for.
+
+**When NOT to deploy:** in opening (too heavy); as direct "So what?" response (use A1); if meeting is rushed (~75 sec needs attention); if they've signaled declining routing.
+
+---
+
 ### Category B — Project-status / legitimacy questions
 
 #### B1. "Have you got a publisher?"
