@@ -1,10 +1,29 @@
 # Aeon Pitch Version C — Stage 3 Pass 3.1 Fact-Check Rigor Pass v1.0.0 — 2026-05-19
 
-**Status:** PROPOSED. Stage 3 Pass 3.1 (fact-check) on the Aeon pitch
-Version C ahead of the Sun May 31 14:01 UTC submission window (= Mon Jun 1
-~00:01 AEST). Per the per-prompt serial cadence of v3.0 Stage 3 discipline,
-this artifact stops at recommendations; author ratifies before any Phase C-α
-spot-fixes are applied; Pass 3.2 (voice-polish) fires in a subsequent session.
+**Status:** **RATIFIED + APPLIED 2026-05-20** (interactive ratification per
+v3.1 Amendment C, ratified 2026-05-19). Stage 3 Pass 3.1 (fact-check) on the
+Aeon pitch Version C ahead of the Sun May 31 14:01 UTC submission window (=
+Mon Jun 1 ~00:01 AEST).
+
+**Author dispositions (2026-05-20):**
+- **F-FC-AeonC-1:** RATIFIED. Zero-word-cost correction applied in this
+  session — *"the analog at Devon Island or HI-SEAS"* → *"an analog like
+  Devon Island or HI-SEAS"*. Version C preserves 300w total. See §2.1 +
+  Phase C-α application note at §5.4.
+- **F-FC-AeonC-2:** CLOSED. Author affirmed zero academic affiliation across
+  the framework-building decade; *"Built outside the academy across a decade"*
+  is literally accurate; no fix needed. See §2.2.
+- **§4.1 Stage 1 brief-internal flag (Berggruen 2024):** VERIFIED + PATCHED.
+  Web-search verification confirmed Mazzucato has not won the Berggruen Prize.
+  Stage 1 brief §1 Tier 2 #5 patched in this session: *"Mazzucato won 2024"*
+  → *"Sandel won 2025; Raworth, Mazzucato, etc. in the broader comp cluster."*
+  See §4.1 verification record + Phase C-α application note at §5.4.
+
+**Cross-pass cadence (Decision 4):** Pass 3.2 (voice-polish) fires next in
+its own session; Pass 3.3 (acceptance) + Pass 3.4 (robustness) bundled into
+one subsequent session per author ratification, given the prior 2026-05-10
+comparison already substantively scored Version C against the 14-audience
+set.
 
 **Audit target.** `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 — ratified 2026-05-08 as the locked submission cut; iterated A→B→C control
@@ -93,6 +112,9 @@ are gating issues flagged separately at §3 below.
   - **Pass 3.4 (audience-load robustness):** unaffected — adversarial
     characters (industry-funded; Public-Choice; ideologically-opposed) do not
     weaponize this line.
+- **Disposition (2026-05-20):** **RATIFIED + APPLIED.** Preferred zero-word-
+  cost correction applied to `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+  Para 1 in this combined ratification session. Word count preserved at 300w.
 
 ### F-FC-AeonC-2 [LOW] — "Built outside the academy across a decade"
 
@@ -140,6 +162,12 @@ are gating issues flagged separately at §3 below.
     imprecision but unlikely to weaponize it (the bio's clarifying context
     is paratextual to the pitch). LOW-severity adversarial flag, not a
     structural thread.
+- **Disposition (2026-05-20):** **CLOSED.** Author affirmed zero academic
+  affiliation across the framework-building decade (no adjunct, executive-
+  education, research-affiliate, or visiting appointments held during the
+  consulting / healthcare-IT-executive decade). *"Built outside the academy
+  across a decade"* is literally accurate; phrasing stands. No Version C
+  source file change required.
 
 ---
 
@@ -216,17 +244,52 @@ even if the claim happens to be correct).
 Stage-1-brief repair. Two paraphrase-tightening candidates (F-FC-AeonC-1,
 F-FC-AeonC-2) are author-discretionary; neither blocks submission.
 
-### 4.1 Stage 1 brief-internal flag (informational; not Version C gating)
+### 4.1 Stage 1 brief-internal flag (Berggruen 2024 attribution) — VERIFIED + PATCHED 2026-05-20
 
-Stage 1 brief §1 Tier 2 states *"Mazzucato won 2024"* (Berggruen Prize). This
-claim is in the Stage 1 brief but **not in Version C's submitted body**; it
-does not gate Version C's submission. Flagging only for the Stage 1 brief's
-future re-fire — if the Berggruen Prize 2024 winner is mis-attributed, the
-brief should be corrected for any downstream artifacts that draw on it (the
-Mazzucato comp-cluster claim is non-load-bearing for the pitch, but
-load-bearing for future literary-agent / acquisitions-editor pitches that
-might cite the comp set). No action required for the May 31 submission;
-recommend verification at the next Stage 1 brief touch.
+**Original Stage 1 brief claim (§1 Tier 2 #5, line 26):** *"Mazzucato won
+2024"* (Berggruen Prize).
+
+**Verification (2026-05-20, three web-search queries):**
+
+1. *"Berggruen Prize 2024 winner philosophy culture"* — surfaced Michael
+   Sandel (described in search summary as 2024 winner / "ninth Berggruen
+   Prize Laureate"; Harvard Crimson source dated 2025-10-16).
+2. *"Berggruen Prize 2024 laureate announced philosophy culture million"* —
+   surfaced full laureate roster: Charles Taylor (2016), Onora O'Neill
+   (2017), Martha C. Nussbaum (2018), Ruth Bader Ginsburg (2019), Paul
+   Farmer (2020), Peter Singer (2021), Kojin Karatani (2022), Patricia Hill
+   Collins (2023), Michael Sandel (2025 — confirmed). 2024 main prize not
+   surfaced in canonical sources (Berggruen Institute launched a separate
+   $25K essay competition in 2024; main $1M prize attribution for 2024 not
+   confirmable from search results).
+3. *"Mariana Mazzucato Berggruen Prize winner"* — confirmed Mazzucato has
+   not won the Berggruen Prize. Mazzucato's prize record: 2014 New Statesman
+   SPERI Prize, 2015 Hans-Matthöfer-Preis, 2018 Leontief Prize, 2019 Madame
+   de Staël Prize, 2020 John von Neumann Award. No Berggruen attribution.
+
+**Verdict:** Stage 1 brief claim *"Mazzucato won 2024"* is **factually
+wrong**. Mazzucato has not won the Berggruen Prize. Sandel — already in
+Stage 1 §3 comp titles cluster — is the verified recent Berggruen laureate
+(2025).
+
+**Patch applied 2026-05-20** to Stage 1 brief §1 Tier 2 #5:
+- **Before:** *"Berggruen Prize judge — the book's longer-arc destination.
+  Mazzucato won 2024; Raworth, Sandel, etc."*
+- **After:** *"Berggruen Prize judge — the book's longer-arc destination.
+  Sandel won 2025; Raworth, Mazzucato, etc. in the broader comp cluster.
+  (Corrected 2026-05-20 per Pass 3.1 §4.1 verification — earlier 'Mazzucato
+  won 2024' attribution was wrong; Mazzucato has not won the Berggruen
+  Prize. Confirmed roster via web search: …2022 Karatani, 2023 Patricia
+  Hill Collins, 2024 main prize not surfaced in canonical sources, 2025
+  Michael Sandel.)"*
+
+**Cross-artifact cascade flag:** the original *"Mazzucato won 2024"*
+attribution may have propagated to other Stage 1 briefs derived from this
+template (Boston Review, Atlantic Ideas, $100 Barrel, Noema). Stage 1c
+cross-artifact coherence check (per pipeline doctrine §3) recommended at
+next PM dashboard refresh to scan sibling briefs for the same drift and
+patch consistently. Non-blocking for Version C submission; non-blocking for
+the Mon Jun 1 portal window.
 
 ---
 
@@ -273,22 +336,53 @@ If both fixes apply at their preferred forms, total word count remains 300w
 (F-FC-AeonC-1 is zero-word-cost; F-FC-AeonC-2's outcome depends on author
 affirmation). Hard cap 320w is uncontested.
 
-### 5.3 Cross-pass routing
+### 5.3 Phase C-α application record (2026-05-20)
 
-Per v3.0 per-prompt serial cadence:
+**Combined interactive ratification session per v3.1 Amendment C.** Author
+walked through five decisions (two F-findings + Berggruen verification +
+cross-pass cadence + same-session-vs-defer); ratifications applied in this
+session.
 
-- **Pass 3.2 (voice-polish)** fires next in a separate session after author
-  ratifies these findings. Note for Pass 3.2: the singular-verb agreement
-  question in Para 1 ("heat, light, water and even the air *is* free again")
-  is grammar/cadence territory and explicitly out-of-scope for Pass 3.1;
-  flagged here for Pass 3.2 consideration without forming a Pass 3.1 finding.
-- **Pass 3.3 (audience-load acceptance)** fires after Pass 3.2 ratification.
-- **Pass 3.4 (audience-load robustness)** fires after Pass 3.3 ratification.
+| Item | Disposition | Source file edit | Net effect |
+|---|---|---|---|
+| F-FC-AeonC-1 | RATIFIED | `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` Para 1: *"the analog at"* → *"an analog like"* | 300w preserved |
+| F-FC-AeonC-2 | CLOSED (author affirmation) | None | No edit |
+| §4.1 Berggruen-2024 flag | VERIFIED + PATCHED | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` §1 Tier 2 #5: *"Mazzucato won 2024"* → *"Sandel won 2025; Raworth, Mazzucato, etc. in the broader comp cluster"* + 2026-05-20 correction-note | Stage 1 brief now factually accurate |
 
-The pre-submission verification window (Fri May 29) accommodates this cadence
-provided Pass 3.2 spot-fix ratification (if any) lands no later than Wed May
-27; Pass 3.3 + 3.4 can fire compressed if needed given Version C's strong
-prior comparison result.
+Word count check (post-Phase-C-α): Version C body = 300w (Para 1 = 101w
+preserved; Para 2 = 130w preserved; Para 3 = 69w preserved). Hard cap 320w
+uncontested. Haselby's 200w outlining-body guidance still matches at 199w
+(Para 2 + Para 3 unchanged). Stage 1 target landing preserved.
+
+### 5.4 Cross-pass routing (post-ratification) — Decision 4 RATIFIED
+
+Author ratified the **compressed cadence** (Decision 4 option b):
+
+- **Pass 3.2 (voice-polish)** — fires next in its own separate session
+  against the post-Phase-C-α Version C (with F-FC-AeonC-1 applied). Note
+  carry-forward: the singular-verb-with-compound-subject question in Para 1
+  (*"heat, light, water and even the air **is** free again"*) is
+  grammar/cadence territory and explicitly out-of-scope for Pass 3.1;
+  flagged here for Pass 3.2 consideration without forming a Pass 3.1
+  finding.
+- **Pass 3.3 (acceptance) + Pass 3.4 (robustness)** — bundled into one
+  subsequent session after Pass 3.2 ratification. Bundling rationale: the
+  prior 2026-05-10 Stage 3 comparison artifact (§1.15 audience-load matrix)
+  substantively scored Version C against the 14-audience set on the
+  acceptance axis already; Pass 3.4's v3.0 adversarial-set discipline
+  post-dates that comparison and is the only genuine new pass-work. For a
+  300w pitch, bundling acceptance + robustness in one session preserves the
+  v3.0 distinction (different character sets, different verdict scales)
+  without the cadence-overhead appropriate to chapter-scale work.
+- **Pass 3.5 (developmental-edit)** — not applicable to a 300w pitch (per
+  Stage 3 template "Audit-existing-prose mode" — developmental-edit is a
+  chapter-scale pass).
+
+**Timeline coordination.** Pre-submission verification scheduled Fri May 29
+(=2026-05-29). Compressed cadence accommodates that target:
+- Pass 3.2 spot-fix ratification target: Mon May 25 (=2026-05-25).
+- Bundled Pass 3.3 + 3.4 verdict target: Wed May 27 (=2026-05-27).
+- Pre-submission verify Fri May 29; submission Sun May 31 14:01 UTC.
 
 ---
 
@@ -306,9 +400,10 @@ prior comparison result.
 
 ### Verdict
 
-**GO** for Mon Jun 1 2026 ~00:01 AEST submission.
+**GO** for Mon Jun 1 2026 ~00:01 AEST submission. **Reaffirmed post-Phase-
+C-α 2026-05-20.**
 
-Rationale:
+Rationale (pre-ratification):
 - Zero HIGH-severity drift; nothing the Aeon editor would catch on first-
   pass screen-read.
 - Zero MEDIUM-severity drift; nothing a fact-checker would catch in pre-
@@ -321,45 +416,64 @@ Rationale:
 - Zero unresolved canonical-truth gaps requiring Stage 1 brief Amendment-A
   repair.
 
+**Post-ratification update (2026-05-20):**
+- F-FC-AeonC-1 RATIFIED + APPLIED: Version C Para 1 now reads *"an analog
+  like Devon Island or HI-SEAS"*; 300w preserved.
+- F-FC-AeonC-2 CLOSED: author affirmation confirms phrasing literally
+  accurate.
+- Stage 1 brief §4.1 Berggruen attribution VERIFIED + PATCHED (Mazzucato →
+  Sandel/2025); cascade-flag noted for sibling Stage 1 briefs at next PM
+  refresh.
+- Net residual exposure on Pass 3.1 axis: **zero**.
+
 **No conditional gates.** GO is unconditional on the Pass 3.1 axis. Pass 3.2
-(voice-polish) and Pass 3.3 + 3.4 (audience-load acceptance + robustness)
-remain pending per the per-prompt serial cadence; their findings will gate
-submission separately if they surface HIGH-severity issues.
+(voice-polish) and bundled Pass 3.3 + 3.4 (audience-load acceptance +
+robustness) remain pending per the ratified compressed cadence; their
+findings will gate submission separately if they surface HIGH-severity
+issues.
 
 ---
 
-## 7. Stop point
+## 7. Stop point — RATIFIED + APPLIED 2026-05-20
 
-Per v3.0 Stage 3 discipline + Stage 3 template hard-constraints:
+This session executed the combined interactive ratification per v3.1
+Amendment C (ratified 2026-05-19). Author walked through five decisions
+inline; ratifications applied in-session; spot-fix + Stage 1 brief patch
+committed and fast-forward merged to `main` per CLAUDE.md ratified-content
+merge-to-main default.
 
-- Pass 3.1 is an AUDIT, not a remediation. No spot-fixes applied to
-  `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` in this
-  session.
-- Phase C-α application of any ratified spot-fixes is a separate session,
-  fires only after author ratification.
-- Pass 3.2 (voice-polish) fires in its own subsequent session after Phase
-  C-α (if any) lands; not bundled.
-- This artifact autonomously fast-forward merges to `main` at session close
-  per CLAUDE.md rigor-pass-artifact merge-to-main default (rigor-pass
-  artifact proposes; does not modify source).
+**Author dispositions (recap):**
 
-**Author ratification required next.** Options:
+- **F-FC-AeonC-1:** RATIFIED + APPLIED — Version C Para 1 patched to
+  *"an analog like Devon Island or HI-SEAS"*; 300w preserved.
+- **F-FC-AeonC-2:** CLOSED — author affirmed zero academic affiliation
+  across framework-building decade; *"Built outside the academy across a
+  decade"* literally accurate; phrasing stands.
+- **§4.1 Berggruen flag:** VERIFIED + PATCHED — Stage 1 brief §1 Tier 2 #5
+  corrected to *"Sandel won 2025"* with traceable correction-note;
+  cross-artifact cascade flag noted for sibling Stage 1 briefs at next PM
+  refresh.
+- **Cross-pass cadence (Decision 4):** RATIFIED — Pass 3.2 next in its own
+  session; Pass 3.3 + 3.4 bundled into one subsequent session per the
+  compressed-cadence rationale at §5.4.
+- **Same-session ratification (Decision 5):** RATIFIED — Amendment C
+  combined interactive ratification pattern used.
 
-- **Ratify both findings + apply both preferred corrections** (subject to
-  F-FC-AeonC-2 author-affirmation gate).
-- **Ratify F-FC-AeonC-1 only** (zero-word-cost fix); close F-FC-AeonC-2 with
-  author-affirmation that phrasing stands.
-- **Close both without applying** (current Version C reads as fact-ready
-  already; LOW findings are upgrades, not requirements).
+**What fires next:**
 
-Any of the three options preserves the GO verdict for Mon Jun 1 submission.
+- **Pass 3.2 (voice-polish)** — own session; target ratification by Mon
+  May 25 (=2026-05-25).
+- **Bundled Pass 3.3 + 3.4 (acceptance + robustness)** — own session;
+  target verdict by Wed May 27 (=2026-05-27).
+- **Pre-submission verification** — Fri May 29 (=2026-05-29).
+- **Aeon portal submission** — Sun May 31 14:01 UTC (= Mon Jun 1 ~00:01 AEST).
 
 ---
 
 ## 8. Cross-references
 
-- Audit target: `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
-- Stage 1 brief (canonical-truth audit baseline): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
+- Audit target (post-patch): `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+- Stage 1 brief (post-patch; canonical-truth audit baseline): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
 - Prior Stage 3 comparison verdict (A wins; submit C as-is): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`
 - Aeon submission workstream handoff: `tools/workstream-handoffs/aeon-submission-handoff_2026-05-09.md`
 - Stage 3 template (Pass 3.1 protocol): `tools/drafting-templates/stage-3-three-pass-rigor-audit.md`
@@ -369,4 +483,4 @@ Any of the three options preserves the GO verdict for Mon Jun 1 submission.
 
 ---
 
-*End of Pass 3.1 (fact-check) rigor pass — PROPOSED.*
+*End of Pass 3.1 (fact-check) rigor pass — RATIFIED + APPLIED 2026-05-20.*

@@ -23,7 +23,7 @@ The "control" (Pitch A) is the ratified Version C at `manuscript/essay/aeon/aeon
 4. **Acquisitions editor (trade press)** — same: category placement; one-sentence pitch; bookstore-buyer hook.
 
 **Tier 2 — pipeline-strengthening:**
-5. **Berggruen Prize judge** — the book's longer-arc destination. Mazzucato won 2024; Raworth, Sandel, etc.
+5. **Berggruen Prize judge** — the book's longer-arc destination. Sandel won 2025; Raworth, Mazzucato, etc. in the broader comp cluster. (Corrected 2026-05-20 per Pass 3.1 §4.1 verification — earlier "Mazzucato won 2024" attribution was wrong; Mazzucato has not won the Berggruen Prize. Confirmed roster via web search: …2022 Karatani, 2023 Patricia Hill Collins, 2024 main prize not surfaced in canonical sources, 2025 Michael Sandel.)
 6. **Aeon Philosophy Prize judges** (Warburton + Dresser) — concurrent prize cycle; thought-experiment + philosophical-rigor register signals.
 7. **Mazzucato/Raworth-cluster reader** — has read the comps; testing for serious-membership signals.
 8. **Coasean economist** — establishment-econ skeptic; tests the "voluntary trade-offs" defense and the universalizability claim.
