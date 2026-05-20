@@ -148,13 +148,20 @@ The categories below cover the questions Val + David are most likely to ask. Pra
 
 ### Category A — The "so what" / time-investment questions
 
-#### A1. "So what?" (or its softer version: *"Help us understand what this framework actually offers."*)
+#### A1. "So what?" / "What's the compelling reason for us to engage with this?" 🟢 LOAD-BEARING
 
-**Core articulation:** Cost severance puts a single structural name on what CBF documents constantly case by case.
+**Reframed as: what happens if they do nothing?** The compelling-reason-to-act answer names CBF's status-quo cost (the absence of a unified vocabulary) and the framework's operational offer (vocabulary that does structural work, making their existing advocacy easier and more legible).
 
 **Verbatim response sketch (~45 sec):**
 
-> *"The framework's contribution is putting a single structural name on what CBF has been documenting case by case for decades. Omega Protein extracts menhaden value; costs go to ospreys, stripers, blue crabs, and watermen. Upstream agriculture pollutes; downstream Bay-side communities pay. Historic over-harvesting; present-day watermen can't make a living. CBF's been making this case species by species. 'Cost severance' is the structural vocabulary for the pattern across cases. The 'so what' is that if the vocabulary catches on, your testimony and op-eds and CBF reports gain a clean shorthand for what you've been arguing piecemeal."*
+> *"Honest answer — what happens if you don't engage with this work is you keep doing exactly what you've been doing: making the structural case about the Bay's extraction-past-renewable threshold case by case, in your own vocabulary, persuading audiences one species at a time. That works — you've been doing it for decades — but it's harder than it needs to be. What the framework offers you operationally is a single vocabulary: 'cost severance' as the structural mechanism — what gets pulled out and who pays the bill — and 'RCV' as the measure of what gets permanently foreclosed when a renewable resource gets pushed past regeneration. That vocabulary does the structural work for you. The conversation about why the Bay's renewable-resource collapse matters becomes a vocabulary-rich conversation instead of a case-by-case build. You currently have to construct the structural argument every time; the framework would give you language to make that conversation easier — and travel further."*
+
+**Why this answer lands:**
+- **Names their status-quo cost** (case-by-case argument-building) — the *"compelling reason to act"* sales framing.
+- **Doesn't oversell** — explicitly acknowledges CBF's existing approach works and has worked for decades.
+- **Operational, not abstract** — frames the framework's offer as making their existing work easier, not replacing it.
+- **Honors the translation-pass posture** — uses the two terms (cost severance + RCV) Val flagged as the comprehension gap.
+- **Travel further** is sales-language Val + David will both recognize — communications professionals know vocabulary-travel is the whole game.
 
 #### A2. "Why should we spend time on this call?"
 

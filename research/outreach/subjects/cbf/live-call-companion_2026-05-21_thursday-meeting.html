@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CBF Thursday Meeting — Live-Call Companion (2026-05-21)</title>
+<style>
+:root {
+  --must-ask: #c0392b;
+  --should-ask: #d68910;
+  --load-bearing: #2e86ab;
+  --stretch: #5d6d7e;
+  --info: #1f618d;
+  --contingency: #884ea0;
+  --bg: #fefefe;
+  --card-bg: #fafafa;
+  --text: #1a1a1a;
+  --muted: #5a6c7d;
+  --border: #d5dbdb;
+  --quote-bg: #eef3f7;
+  --highlight-bg: #fff8dc;
+  --val-color: #1e8449;
+  --david-color: #af601a;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  margin: 0;
+  padding: 0;
+}
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 0;
+}
+/* Header */
+header.top {
+  grid-column: 1 / -1;
+  background: var(--info);
+  color: white;
+  padding: 14px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid #154360;
+}
+header.top h1 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+header.top .meta {
+  font-size: 13px;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+header.top .meta b { font-weight: 700; }
+header.top .quick {
+  background: rgba(255,255,255,0.15);
+  padding: 4px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid rgba(255,255,255,0.3);
+  color: white;
+  font-size: 12px;
+}
+/* Sidebar nav */
+nav.toc {
+  position: sticky;
+  top: 60px;
+  align-self: start;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+  padding: 14px 8px 14px 14px;
+  border-right: 1px solid var(--border);
+  background: var(--card-bg);
+  font-size: 13px;
+}
+nav.toc h2 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin: 14px 0 6px 0;
+}
+nav.toc h2:first-of-type { margin-top: 0; }
+nav.toc ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav.toc li { margin: 0 0 4px 0; }
+nav.toc a {
+  display: block;
+  padding: 5px 8px;
+  color: var(--text);
+  text-decoration: none;
+  border-radius: 3px;
+  border-left: 3px solid transparent;
+  font-size: 12.5px;
+  line-height: 1.35;
+}
+nav.toc a:hover { background: #e8eef3; }
+nav.toc a.must { border-left-color: var(--must-ask); }
+nav.toc a.should { border-left-color: var(--should-ask); }
+nav.toc a.load { border-left-color: var(--load-bearing); }
+nav.toc a.info { border-left-color: var(--info); }
+nav.toc a.contingency { border-left-color: var(--contingency); }
+nav.toc a.stretch { border-left-color: var(--stretch); }
+nav.toc .legend {
+  font-size: 11px;
+  color: var(--muted);
+  padding: 6px 4px;
+  border-top: 1px solid var(--border);
+  margin-top: 10px;
+}
+nav.toc .legend .swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 4px;
+  vertical-align: middle;
+  border-radius: 1px;
+}
+nav.toc .legend div { margin: 2px 0; }
+/* Main content */
+main {
+  padding: 20px 28px 60px 28px;
+  min-width: 0;
+}
+section {
+  margin-bottom: 28px;
+  scroll-margin-top: 70px;
+}
+section h2 {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--border);
+}
+section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0 6px 0;
+}
+section p, section ul, section ol { margin: 6px 0; }
+ul, ol { padding-left: 22px; }
+li { margin: 3px 0; }
+/* Quote / verbatim drop-in */
+blockquote {
+  margin: 8px 0;
+  padding: 10px 14px;
+  background: var(--quote-bg);
+  border-left: 4px solid var(--info);
+  font-style: italic;
+  color: #2c3e50;
+  border-radius: 0 4px 4px 0;
+}
+blockquote p:first-child { margin-top: 0; }
+blockquote p:last-child { margin-bottom: 0; }
+/* Question cards */
+.q {
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--stretch);
+  border-radius: 4px;
+  margin: 10px 0;
+  background: var(--card-bg);
+  overflow: hidden;
+}
+.q.must { border-left-color: var(--must-ask); background: #fdf2f0; }
+.q.should { border-left-color: var(--should-ask); background: #fef6e7; }
+.q.load { border-left-color: var(--load-bearing); background: #eaf3f8; }
+.q.stretch { border-left-color: var(--stretch); background: var(--card-bg); }
+.q > details > summary {
+  padding: 12px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  user-select: none;
+  list-style-position: inside;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.q > details > summary::-webkit-details-marker { display: none; }
+.q > details > summary::before {
+  content: "▶";
+  color: var(--muted);
+  font-size: 10px;
+  display: inline-block;
+  margin-right: 4px;
+  transition: transform 0.15s ease;
+}
+.q > details[open] > summary::before {
+  transform: rotate(90deg);
+}
+.q .label {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 7px;
+  border-radius: 3px;
+  margin-right: 6px;
+  color: white;
+}
+.q.must .label { background: var(--must-ask); }
+.q.should .label { background: var(--should-ask); }
+.q.load .label { background: var(--load-bearing); }
+.q.stretch .label { background: var(--stretch); }
+.q > details > .body {
+  padding: 4px 14px 14px 14px;
+  border-top: 1px solid var(--border);
+  background: white;
+}
+.q .meta-line { font-size: 12.5px; color: var(--muted); margin: 6px 0; }
+.q .meta-line strong { color: var(--text); }
+.q .why {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #f4f6f7;
+  border-radius: 3px;
+  font-size: 13px;
+}
+.q .why strong { color: var(--text); }
+.q .why ul { margin: 4px 0; padding-left: 18px; }
+/* Section-style collapsible */
+details.section-collapse {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--card-bg);
+  margin: 6px 0;
+}
+details.section-collapse > summary {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  user-select: none;
+  list-style-position: inside;
+}
+details.section-collapse > summary::marker { color: var(--info); }
+details.section-collapse[open] > summary {
+  border-bottom: 1px solid var(--border);
+  background: #f0f4f8;
+}
+details.section-collapse > .body {
+  padding: 10px 16px 14px 16px;
+}
+/* Must-knows alert */
+.alert {
+  background: var(--highlight-bg);
+  border: 1px solid #d4a017;
+  border-left: 5px solid #d4a017;
+  border-radius: 4px;
+  padding: 14px 16px;
+  margin: 12px 0;
+}
+.alert h3 { margin-top: 0; }
+.alert ul { margin: 4px 0; padding-left: 20px; }
+.alert li { margin: 5px 0; }
+.alert blockquote { margin: 8px 0; }
+/* Person card */
+.person {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 14px 18px;
+  margin: 10px 0;
+  background: var(--card-bg);
+}
+.person.val { border-left: 5px solid var(--val-color); }
+.person.david { border-left: 5px solid var(--david-color); }
+.person h3 {
+  margin: 0 0 6px 0;
+}
+.person h3 .role {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--muted);
+  margin-left: 8px;
+}
+.person dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 4px 14px;
+  margin: 6px 0;
+  font-size: 13.5px;
+}
+.person dt {
+  font-weight: 600;
+  color: var(--muted);
+}
+.person dd {
+  margin: 0;
+}
+.person .verbatim-bio {
+  background: var(--quote-bg);
+  padding: 8px 12px;
+  border-left: 3px solid var(--info);
+  margin: 8px 0;
+  font-style: italic;
+  font-size: 13px;
+}
+/* Pivot articulations — collapsible */
+details.pivot {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin: 6px 0;
+  background: var(--card-bg);
+}
+details.pivot summary {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  user-select: none;
+  list-style-position: inside;
+}
+details.pivot summary::marker { color: var(--info); }
+details.pivot[open] summary {
+  border-bottom: 1px solid var(--border);
+  background: #f0f4f8;
+}
+details.pivot .body {
+  padding: 8px 14px 14px 14px;
+}
+details.pivot .body small {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 12px;
+}
+/* Contingency section */
+section.contingency-sec {
+  border: 2px dashed var(--contingency);
+  background: #f8f0fb;
+  padding: 16px 20px;
+  border-radius: 4px;
+}
+section.contingency-sec h2 {
+  border-bottom-color: var(--contingency);
+  color: #6c3483;
+}
+/* Glossary */
+.glossary-terms {
+  display: grid;
+  gap: 6px;
+}
+.glossary-terms details.term {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--card-bg);
+}
+.glossary-terms details.term > summary {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  user-select: none;
+  list-style-position: inside;
+}
+.glossary-terms details.term > summary::marker { color: var(--info); }
+.glossary-terms details.term[open] > summary {
+  border-bottom: 1px solid var(--border);
+  background: #f0f4f8;
+}
+.glossary-terms details.term .term-body {
+  padding: 8px 16px 14px 16px;
+  font-size: 13.5px;
+}
+/* Guardrails table */
+table.guardrails {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0;
+  font-size: 13.5px;
+}
+table.guardrails th, table.guardrails td {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  text-align: left;
+}
+table.guardrails th {
+  background: #f4f6f7;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+table.guardrails td.topic { font-weight: 700; color: var(--must-ask); width: 30%; }
+/* Flow table */
+table.flow {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0;
+  font-size: 13.5px;
+}
+table.flow th, table.flow td {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+table.flow th {
+  background: #f4f6f7;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+table.flow td.time { white-space: nowrap; font-weight: 600; color: var(--info); width: 18%; }
+table.flow td.block { font-weight: 600; width: 28%; }
+/* Cheatsheet boxes */
+.cheatsheet {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 10px 0;
+}
+.cheatsheet .box {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 10px 14px;
+  background: var(--card-bg);
+}
+.cheatsheet h4 {
+  font-size: 12px;
+  margin: 0 0 8px 0;
+  color: var(--info);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.cheatsheet ol, .cheatsheet ul { margin: 4px 0; padding-left: 18px; font-size: 13px; }
+.cheatsheet li { margin: 3px 0; }
+/* Final 60 sec */
+.final60 {
+  background: #fef6e7;
+  border: 2px solid var(--should-ask);
+  border-radius: 4px;
+  padding: 14px 18px;
+  margin: 12px 0;
+}
+.final60 ol { padding-left: 22px; }
+.final60 ol li { margin: 6px 0; }
+/* Translation pass — emphasized */
+.translation {
+  background: #eaf3f8;
+  border: 2px solid var(--load-bearing);
+  border-radius: 4px;
+  padding: 16px 18px;
+  margin: 12px 0;
+}
+.translation h3 {
+  color: var(--load-bearing);
+  margin-top: 12px;
+}
+.translation h3:first-child { margin-top: 0; }
+.translation blockquote {
+  background: white;
+  border-left: 4px solid var(--load-bearing);
+}
+/* Expand-all / collapse-all controls */
+.controls {
+  margin: 10px 0 14px 0;
+  font-size: 12.5px;
+}
+.controls button {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  padding: 4px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12.5px;
+  margin-right: 6px;
+  color: var(--text);
+}
+.controls button:hover { background: #e8eef3; }
+/* Mobile */
+@media (max-width: 800px) {
+  .page { grid-template-columns: 1fr; }
+  nav.toc {
+    position: relative;
+    height: auto;
+    top: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+  }
+  main { padding: 16px 14px 50px 14px; }
+}
+/* Print */
+@media print {
+  body { background: white; font-size: 11px; }
+  header.top { position: static; }
+  nav.toc { display: none; }
+  .page { display: block; max-width: 100%; }
+  main { padding: 0; }
+  details { page-break-inside: avoid; }
+  details:not([open]) > summary { background: white !important; }
+  .q { page-break-inside: avoid; }
+  blockquote { page-break-inside: avoid; }
+  .controls { display: none; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<header class="top">
+  <div>
+    <h1>CBF Thursday Meeting — Live-Call Companion</h1>
+    <div class="meta">
+      <span><b>Thu May 21, 2026 · 2:00 PM ET</b></span>
+      <span>Microsoft Teams · 3-person video</span>
+      <span>Chris + Val + David</span>
+      <span><b>Gateway / routing meeting</b></span>
+    </div>
+  </div>
+  <div>
+    <button class="quick" onclick="document.querySelectorAll('details').forEach(d=>d.open=true);">Expand all</button>
+    <button class="quick" onclick="document.querySelectorAll('details').forEach(d=>d.open=false);">Collapse all</button>
+  </div>
+</header>
+
+<nav class="toc">
+  <h2>Pre-call</h2>
+  <ol>
+    <li><a href="#must-knows" class="must">Must-knows (Val's framing)</a></li>
+    <li><a href="#about-val">About Val</a></li>
+    <li><a href="#about-david">About David</a></li>
+    <li><a href="#about-cbf">About CBF</a></li>
+  </ol>
+  <h2>During the call</h2>
+  <ol>
+    <li><a href="#opening" class="info">Opening (verbatim)</a></li>
+    <li><a href="#translation" class="load">🌟 Translation pass</a></li>
+  </ol>
+  <h2>Q&amp;A — by priority</h2>
+  <ol>
+    <li><a href="#must-ask" class="must">MUST-ASK questions</a></li>
+    <li><a href="#should-ask" class="should">SHOULD-ASK questions</a></li>
+    <li><a href="#load-bearing" class="load">LOAD-BEARING content</a></li>
+    <li><a href="#stretch" class="stretch">STRETCH questions</a></li>
+    <li><a href="#routing" class="must">Routing (meeting's central business)</a></li>
+    <li><a href="#journalism" class="must">D's journalism-mindset Qs</a></li>
+  </ol>
+  <h2>Drop-ins + safety</h2>
+  <ol>
+    <li><a href="#pivots">Pivot articulations</a></li>
+    <li><a href="#contingency" class="contingency">Contingency</a></li>
+    <li><a href="#guardrails" class="must">Hard guardrails</a></li>
+  </ol>
+  <h2>Wrap + reference</h2>
+  <ol>
+    <li><a href="#flow">30-min flow</a></li>
+    <li><a href="#closing">Closing block</a></li>
+    <li><a href="#workflow">Post-call workflow</a></li>
+    <li><a href="#tiers">Three Tiers of Share</a></li>
+    <li><a href="#glossary">Glossary</a></li>
+    <li><a href="#final60" class="should">⏱ Final 60 seconds</a></li>
+  </ol>
+  <div class="legend">
+    <div><span class="swatch" style="background:#c0392b"></span>MUST-ASK / hard guardrail</div>
+    <div><span class="swatch" style="background:#d68910"></span>SHOULD-ASK / pre-call</div>
+    <div><span class="swatch" style="background:#2e86ab"></span>LOAD-BEARING content</div>
+    <div><span class="swatch" style="background:#5d6d7e"></span>STRETCH / lower priority</div>
+    <div><span class="swatch" style="background:#884ea0"></span>Contingency</div>
+  </div>
+</nav>
+
+<main>
+
+<section id="must-knows">
+<h2>Must-knows (don't walk in unaware)</h2>
+
+<div class="alert">
+  <h3>🟢 The load-bearing one — Val's own framing</h3>
+  <p>Val's verbatim 2026-05-15 message (<a href="inbound_2026-05-15_val-call-request.md"><code>inbound_2026-05-15_val-call-request.md</code></a>):</p>
+  <blockquote>
+    "You'll have to figure us — we are not economists and are still trying to wrap our heads around some of these concepts and determine if Chris and Allison are best suited to speak on them. We wondered if you'd have time for a short call with just David and I next week so we can get a clearer picture on things?"
+  </blockquote>
+  <p><strong>This is a TRANSLATION PASS invitation, not a framework defense.</strong> Three implications:</p>
+  <ol>
+    <li><strong>They've named a comprehension gap on cost severance + RCV.</strong> They want plain-language Bay-grounded examples, not the formal framework register. Don't lead with the framework one-paragraph; lead with the two-term translation in plain English.</li>
+    <li><strong>Their gatekeeping criterion = project legibility.</strong> Can they understand the framework well enough to confidently re-present it to Colden and Moore? That's their threshold. If they walk out of this call able to explain "cost severance is X and RCV is Y" to their EDs in their own words, they'll route.</li>
+    <li><strong>"We are not economists" is the listening posture they're using to invite you to teach.</strong> Don't condescend; don't over-academic. Use everyday language + concrete Bay examples; only deploy formal vocabulary if they invite it.</li>
+  </ol>
+</div>
+
+<details class="section-collapse" open>
+<summary>Other must-knows</summary>
+<div class="body">
+<ul>
+  <li><strong>NOT a substantive interview.</strong> Q0 attribution does NOT apply (Val + David are gatekeepers, not subjects). No Q1-Q5 framework-vocabulary-calibration set.</li>
+  <li><strong>Three-person video call.</strong> Chris + Val + David. ~30 min.</li>
+  <li><strong>Both have read the advance materials since Mon May 18</strong> — framework one-paragraph + Ch 3 outline + 7-question Colden set + 5-question Moore set + attribution-options paragraph + watermen-routing soft ask. <strong>Treat them as informed but vocabulary-uncertain.</strong></li>
+  <li><strong>Val's voice register:</strong> warm-informal-self-deprecating ("Hi Chris"; "You'll have to figure us"; "Thanks!"). MD-side; routes Colden.</li>
+  <li><strong>David's voice register:</strong> more formal opener ("Dear Chris"). VA-side; routes Moore. Likely listens more in joint meetings.</li>
+  <li><strong>Joint intake posture confirmed.</strong> Val's "David and I"; both on the call together; CBF Communications is coordinating internally across MD + VA before booking either ED.</li>
+  <li><strong>Geographic and political range:</strong> PA agriculture, urban Baltimore/DC/Norfolk, conservative Eastern Shore, Tangier (Trump-supporting), Northern Neck (mixed). CBF must work with everyone. <strong>Career-protection sensitivity is real.</strong></li>
+  <li><strong>The framework's broader scope is INTERNAL SCAFFOLDING for them.</strong> Bay-specific terms only in this conversation.</li>
+</ul>
+</div>
+</details>
+</section>
+
+<section id="about-val">
+<h2>About Val DiMarzio</h2>
+<div class="person val">
+  <h3>Valerie ("Val") DiMarzio <span class="role">— CBF Maryland Communications &amp; Media Relations Manager</span></h3>
+  <div class="verbatim-bio">
+    "Valerie DiMarzio joined CBF as the Maryland communications and media relations manager in 2023. Prior to this role, she supported communications efforts at various environmental nonprofits including The Conservation Fund, the National Cherry Blossom Festival, and the Accokeek Foundation at Piscataway National Park. Valerie is an avid nature lover who enjoys hiking with her dog, fishing, and wildlife photography. She also loves reading and writing and has a bachelor's degree from the University of Maryland. Valerie is based out of CBF's Annapolis office and lives in Rockville, Maryland." — <a href="https://www.cbf.org/team/valerie-dimarzio/">cbf.org/team/valerie-dimarzio</a>
+  </div>
+  <dl>
+    <dt>Tenure</dt><dd>Joined CBF 2023 (~2 years; hired the year after Falk took over as President &amp; CEO)</dd>
+    <dt>Prior</dt><dd>The Conservation Fund · National Cherry Blossom Festival · Accokeek Foundation at Piscataway National Park. <strong>Environmental-nonprofit comms career; not a journalist; not an economist; not a fisheries scientist.</strong></dd>
+    <dt>Education</dt><dd>University of Maryland B.A.</dd>
+    <dt>Wheelhouse</dt><dd>Environmental-nonprofit mission communication. Knows how cause messages travel.</dd>
+    <dt>Location</dt><dd>CBF Annapolis HQ office · Rockville, MD</dd>
+    <dt>Contact</dt><dd><code>vdimarzio@cbf.org</code> · 443-482-2023</dd>
+    <dt>Personal</dt><dd>Hiking (with dog), recreational fishing, wildlife photography, reading + writing</dd>
+  </dl>
+  <p><strong>What she likely cares about:</strong> project legibility (can she confidently re-present this to Allison?); whether the framework's vocabulary helps OR competes with CBF's existing mission-communication work; institutional discipline; routing accuracy; her own credibility within CBF leadership.</p>
+  <p><strong>What she wants from this meeting:</strong> translate cost severance + RCV into language she can carry to Colden; confirm the project's substantive fit; route to Colden if it makes sense.</p>
+  <p><strong>Posture:</strong> warm, informed gatekeeper. Genuinely self-deprecating about her economics background. Has engaged once on a substantive framing question (the Soviet/cross-system thread); will likely test for follow-through on disciplined-Bay-scope commitments. <strong>Treat her as an interlocutor whose goodwill is on offer + whose comprehension is what you're working to build.</strong></p>
+</div>
+</section>
+
+<section id="about-david">
+<h2>About David Sherfinski</h2>
+<div class="person david">
+  <h3>David Sherfinski <span class="role">— CBF Virginia Communications &amp; Media Relations Manager</span></h3>
+  <p><strong>Source:</strong> <a href="https://www.cbf.org/team/david-sherfinski/">cbf.org/team/david-sherfinski</a> (fetched 2026-05-19).</p>
+
+  <div class="alert" style="margin: 12px 0;">
+    <h3 style="margin-top:0;">🟢 LOAD-BEARING: David is an ex-journalist</h3>
+    <ul>
+      <li><strong>Reporter for the Thomson Reuters Foundation</strong> covering <strong>climate change and environmental stories.</strong> Multi-year prior experience as a working environmental journalist with the trade-press / wire-service register.</li>
+      <li><strong>Multi-year reporter in the Washington, D.C. area covering local government, Congress, and the White House.</strong></li>
+    </ul>
+    <p><strong>What this means for the meeting:</strong> he's a sophisticated read on what a trade-press analytical book looks like. He's done the reporter side of the table. He'll evaluate the project against professional journalism standards for sourcing, attribution, fact-check process, manuscript discipline. <strong>The Q0 attribution menu will land naturally with him</strong> — he knows what those modes look like operationally. <strong>He's the harder audience to fool but the easier audience to convince</strong> if the project is what it says it is.</p>
+  </div>
+
+  <dl>
+    <dt>Prior career</dt><dd>Thomson Reuters Foundation reporter (climate + environmental) · DC area reporter (local govt / Congress / White House)</dd>
+    <dt>Location</dt><dd>CBF Richmond office · Chesterfield County, VA</dd>
+    <dt>Contact</dt><dd><code>dsherfinski@cbf.org</code> · 202-603-2932 <em>(kept his DC-area number — signals continued DC professional network)</em></dd>
+    <dt>Personal</dt><dd>Hiking, parks-and-outdoors, golf, wife + two children</dd>
+  </dl>
+  <p><strong>What he likely cares about:</strong> project legibility for his ED Moore; journalism-grade sourcing + attribution discipline; VA-specific framing questions (Tangier political identity; Omega Protein industry-friction; rural Northern Neck politics; Hampton Roads community engagement); whether the book's positioning fits the trade-press analytical-book register he knows from prior coverage.</p>
+  <p><strong>What he wants from this meeting:</strong> the VA-side translation pass; verification that the project meets journalism-grade discipline standards; route to Moore if it makes sense.</p>
+  <p><strong>Posture:</strong> more formal opener register than Val; likely listens more than Val in joint meetings. <strong>Engage him by name periodically to invite read-out</strong> — <em>"David, does that track with how you're hearing it?"</em> / <em>"David, anything from the VA side I should be ready for?"</em> He'll have substantive things to say but may not volunteer them in a Val-led conversation if not invited.</p>
+</div>
+</section>
+
+<section id="about-cbf">
+<h2>About CBF — 60-second org reference</h2>
+<details class="section-collapse">
+<summary>Quick CBF org-brief reference</summary>
+<div class="body">
+<ul>
+  <li><strong>Founded:</strong> 1967. Headquartered in Annapolis, MD (Philip Merrill Environmental Center). Field offices in Salisbury MD, Harrisburg PA, Richmond VA, Norfolk VA (Brock Environmental Center, Hampton Roads), Washington DC. Residential education centers at Port Isobel (Tangier) and Smith Island/Tylerton (MD).</li>
+  <li><strong>President &amp; CEO:</strong> Hilary Harp Falk (since January 2022; third leader in CBF's history).</li>
+  <li><strong>Regional EDs:</strong> Allison Colden (MD; the person Val routes to). Chris Moore (VA; the person David routes to). Julia Krall (PA). Keisha Sedlacek (Federal/DC). Christy Everett (Hampton Roads; sub-regional under Moore).</li>
+  <li><strong>Mission:</strong> protect + restore the Chesapeake Bay through advocacy, science, education, restoration.</li>
+  <li><strong>Recent advocacy (2024-2026):</strong> menhaden pause inside the Bay (CBF backed VA SB474 + HB1048 + HB1049 — all blocked 2025-2026 VA General Assembly sessions); striped bass 14% coastwide reduction (ASMFC deferred Oct 2025; CBF disappointed); oyster sanctuary expansion (Baltimore Oyster Partnership 5M oyster goal 2025); EPA climate-litigation co-plaintiff; MD Chesapeake Bay Legacy Act (signed 2025).</li>
+  <li><strong>Full org-brief:</strong> <a href="organizational-brief_2026-05-06.md"><code>organizational-brief_2026-05-06.md</code></a>.</li>
+</ul>
+</div>
+</details>
+</section>
+
+<section id="opening">
+<h2>Opening (~3-5 min) — REFRAMED FOR TRANSLATION PASS</h2>
+
+<p>Acknowledge Val's framing explicitly. She invited this as a translation conversation; honor that with the opener.</p>
+
+<h3>Verbatim opener (~30 sec)</h3>
+<blockquote>
+  "Val, David — thanks so much for making time today. Val, the framing in your last note was really helpful — let me lead with the translation rather than the framework jargon. The two concepts that you flagged needing to wrap your heads around — cost severance and RCV — let me walk through them in plain English with Bay examples first. If the more formal version is useful afterward, I can do that too, but it's probably easier to start concrete and add the formal structure on top of that. Sound okay?"
+</blockquote>
+
+<p>This does three things:</p>
+<ol>
+  <li>Names Val's "wrap our heads around" + "not economists" framing without quoting her back to herself awkwardly.</li>
+  <li>Signals that you're choosing concrete-first, formal-later — the right posture for them.</li>
+  <li>Asks permission before launching, which lets them redirect if they had a different opening in mind.</li>
+</ol>
+
+<h3>Author background (very brief; only if asked OR if natural; ~30 sec)</h3>
+<blockquote>
+  "Quick context first — I'm based in Hampton, so the Lower Bay is the personal anchor. Engineering background; ran a research-operations group at NIH earlier in my career. The book project's been about three years; manuscript is drafted; we're in rigor audit plus outreach for Chapter 3 specifically. Cool — so cost severance and RCV."
+</blockquote>
+
+<details class="section-collapse">
+<summary>RESERVE: framework one-paragraph (deploy only if formal version requested or right moment ~15 min in)</summary>
+<div class="body">
+<blockquote>
+  "Commons Bonds names a structural mechanism operating across the full extraction spectrum — from non-renewable resources like coal and oil elsewhere in the book to renewable resources pushed past regenerative capacity, with the Chesapeake fisheries as the flagship case. In each case, value gets extracted while the costs are deliberately severed from the entity that profited and transferred to others — communities, ecosystems, future generations. Two contributions. Cost severance is the structural act that cuts profit from the cost of producing it. Residual commons value — RCV — is the worth permanently foreclosed when a renewable resource is pushed past regenerative capacity, or a non-renewable resource is drawn down. The book's renewable-past-regeneration chapter — Chapter 3 — argues the Bay is a regulatory architecture that has consistently lagged the science, with the menhaden Bay-cap question and the contemporary striped-bass crisis as the load-bearing cases."
+</blockquote>
+<p>This is the version that went in the consolidated send Mon May 18. Val has read it; that's why she asked for the translation pass. <strong>Lead with translation; reserve this for "okay, now give me the formal version" moments.</strong></p>
+</div>
+</details>
+</section>
+
+<section id="translation">
+<h2>🌟 Translation pass — cost severance + RCV in plain Bay language</h2>
+
+<div class="translation">
+<p>The two terms Val flagged. ~3-4 minutes total when delivered live. <strong>This is the call's central deliverable.</strong></p>
+
+<h3>Cost severance — plain language</h3>
+<blockquote>
+  "Cost severance is what happens when somebody pulls value out of a place — fish, oil, coal, the work of a community — and the bill for that value gets handed to somebody else. The fisher gets paid; the ospreys don't. The coal company books the profit; McDowell County pays the medical bills. The framework's contribution is naming that pattern with one word so it can be talked about as a single structural phenomenon rather than re-explained case by case."
+</blockquote>
+
+<h3>Cost severance — Bay-specific (lands hardest with Val + David)</h3>
+<blockquote>
+  "On the Bay, take menhaden. Omega Protein pulls menhaden value out of the Bay by the boatload — the profit goes to investors. The cost gets paid by the ospreys who lost their food, the stripers who lost theirs, the blue crabs that lost theirs, the watermen who used to make a living catching the things that used to eat menhaden. The fish came out; the bill stayed. That's cost severance. CBF's been making that case species by species for years — 'cost severance' is the structural word for the pattern across the cases. Same mechanism on oysters, on stripers, on blue crab."
+</blockquote>
+
+<h3>RCV — plain language</h3>
+<blockquote>
+  "RCV — residual commons value — is what gets lost permanently when a resource gets pushed past the point where it can recover. Coal is a one-time-draw resource; once you pull it out, that wealth is gone. But the Bay's fisheries have always been renewable, in principle. The framework's claim is that some of the Bay's renewable fisheries have crossed a threshold — they've been pushed past their capacity to regenerate at the level they used to. When that happens, the renewable resource starts behaving more like a non-renewable one. RCV is the word for that loss — the worth permanently foreclosed."
+</blockquote>
+
+<h3>RCV — Bay-specific (lands hardest)</h3>
+<blockquote>
+  "Chris Moore is on the public record saying striped bass 'will not have the same recovery they had in the 1980s.' That's the question RCV asks. The 1980s recovery happened because the ecosystem still had the capacity to come back. The question now is: has that capacity been spent? If it has, the fishery isn't simply 'overfished' — it's permanently changed. RCV is the framework's word for what that permanent change costs. Chapter 3's central argument is that the Bay's fisheries — some of them — have crossed that threshold. Moore's stripers claim is the load-bearing case."
+</blockquote>
+
+<h3>The two concepts together — why they're separate words</h3>
+<blockquote>
+  "The reason they're separate words is that they answer different questions. Cost severance answers 'who paid the bill?' — the structural mechanism of cost-shifting. RCV answers 'what's the bill?' — the size of what got lost when extraction outran regeneration. You need both to do the accounting honestly. Cost severance without RCV is a critique that can't quantify; RCV without cost severance is a measurement without an actor. Together they're the accounting tools the chapter argues the Bay needs."
+</blockquote>
+</div>
+</section>
+
+<section id="must-ask">
+<h2>MUST-ASK questions — the ones I MUST be ready for</h2>
+<p class="meta-line">These are stump questions Val + David are most likely to ask. Verbatim sketches calibrated for ~30-60 sec each.</p>
+
+<article class="q must" id="q-so-what">
+<details>
+<summary><span class="label">MUST · LOAD-BEARING</span> "So what?" / "What's the compelling reason for us to engage?"</summary>
+<div class="body">
+<p class="meta-line"><strong>Reframed as: what happens if they do nothing?</strong> The compelling-reason-to-act answer names CBF's status-quo cost (no unified vocabulary) and the framework's operational offer (vocabulary that does structural work, making their existing advocacy easier and more legible).</p>
+<blockquote>
+  "Honest answer — what happens if you don't engage with this work is you keep doing exactly what you've been doing: making the structural case about the Bay's extraction-past-renewable threshold case by case, in your own vocabulary, persuading audiences one species at a time. That works — you've been doing it for decades — but it's harder than it needs to be. What the framework offers you operationally is a single vocabulary: 'cost severance' as the structural mechanism — what gets pulled out and who pays the bill — and 'RCV' as the measure of what gets permanently foreclosed when a renewable resource gets pushed past regeneration. That vocabulary does the structural work for you. The conversation about why the Bay's renewable-resource collapse matters becomes a vocabulary-rich conversation instead of a case-by-case build. You currently have to construct the structural argument every time; the framework would give you language to make that conversation easier — and travel further."
+</blockquote>
+<div class="why">
+<strong>Why this answer lands:</strong>
+<ul>
+  <li><strong>Names their status-quo cost</strong> (case-by-case argument-building) — the <em>"compelling reason to act"</em> sales framing.</li>
+  <li><strong>Doesn't oversell</strong> — explicitly acknowledges CBF's existing approach works and has worked for decades.</li>
+  <li><strong>Operational, not abstract</strong> — frames the framework's offer as making their existing work easier, not replacing it.</li>
+  <li><strong>Honors the translation-pass posture</strong> — uses the two terms (cost severance + RCV) Val flagged as the comprehension gap.</li>
+  <li><strong>"Travel further"</strong> is sales-language Val + David will both recognize — communications professionals know vocabulary-travel is the whole game.</li>
+</ul>
+</div>
+</div>
+</details>
+</article>
+
+<article class="q must" id="q-why-call">
+<details>
+<summary><span class="label">MUST</span> "Why should we spend time on this call?"</summary>
+<div class="body">
+<p class="meta-line"><strong>Core articulation:</strong> external vocabulary amplification + CBF voices cited with attribution they control + framework respects CBF discipline.</p>
+<blockquote>
+  "Honestly — three reasons. One, the book + national essays in flight reach audiences CBF can't reach directly. Two, your voices get cited with whatever attribution mode you choose at the start of each interview; full control. Three, the framework's been disciplined to Bay-specific terms in everything I send your way — the broader cross-system scope stays in other chapters; CBF's working relationships across the watershed aren't put at risk. Beyond that — if it doesn't work for you after this call, it doesn't work. No hard feelings."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q must" id="q-relevant">
+<details>
+<summary><span class="label">MUST · LOAD-BEARING</span> "How is this relevant to our work?"</summary>
+<div class="body">
+<p class="meta-line"><strong>Core articulation:</strong> Four direct alignments — cost severance documents what CBF documents; RCV captures Moore's "structurally different now"; reg-arch-lagging-biology = Moore's Bay-cap critique; bond architecture mirrors sanctuaries + targets.</p>
+<blockquote>
+  "Four direct alignments. First — 'cost severance' names what CBF documents constantly across menhaden, stripers, oysters, blue crab, watermen livelihoods. Second — 'RCV' captures Chris Moore's articulation that 'striped bass will not have the same recovery they had in the 1980s' — the framework gives you a way to talk about that structurally rather than as one-off observation. Third — 'regulatory architecture lagging the science' is exactly Moore's 'Bay cap based on historic landings' critique — it names that pattern as structural, not as fixable by good intentions. Fourth — the two-instrument bond architecture mirrors CBF's own advocacy tools: sanctuaries operate as Foreclosure Bonds; Watershed Agreement 2040 targets operate as Restitution Bonds. The framework gives those instruments analytical names."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q must" id="q-publisher">
+<details>
+<summary><span class="label">MUST</span> "Have you got a publisher?"</summary>
+<div class="body">
+<blockquote>
+  "Not yet contracted. Trade press tier targets — Knopf, FSG, PublicAffairs, Penguin Press, Belknap-Harvard kind of cluster. The book proposal sprint is late June; the first wave of agent queries fires late July or early August. I'm building the proposal and the author platform in parallel with the manuscript's rigor cycle. So nothing's contracted yet, but the work is at the readiness level where it makes sense to start that conversation."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q must" id="q-who-else">
+<details>
+<summary><span class="label">MUST</span> "Who else have you spoken with?"</summary>
+<div class="body">
+<blockquote>
+  "On the substantive interview side: Sandy Darity at Duke is the completed one — that was a reparations-economics calibration conversation for the book's framework lineage. With CBF, the substantive interviews would be Colden and/or Moore depending on what you both think makes sense. I've also reached out to Rom Lipcius and Roger Mann at VIMS for the Bay-science academic side of Ch 3 — those threads are open but I haven't heard back. Beyond that there's a slate of cold-outreach to economists working on extraction and reparations themes — Boyce, Mian, Sufi, Alperovitz, Klein, Raworth — most still pending. The pacing's deliberate; I'm not trying to interview everyone, just enough voices to calibrate the framework's vocabulary against working practitioners."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q must" id="q-fact-check">
+<details>
+<summary><span class="label">MUST · D-mindset</span> "What's your fact-check process?" (David specifically)</summary>
+<div class="body">
+<p class="meta-line"><strong>Context:</strong> David's journalism background means he'll evaluate this against professional standards.</p>
+<blockquote>
+  "Five-pass rigor audit per chapter, in serial cadence. Pass one is fact-check against canonical ground truth — that's a structured inventory of every load-bearing factual claim, traced to source. Pass two is voice-polish for tics + register. Pass three is audience-load — running the chapter against ~30 reader-characters to test whether the audiences I'm trying to land actually land. Pass four is adversarial-robustness — same thing but with hostile readers, finding thread-pull patterns. Pass five is developmental-edit at whole-chapter scale. Each pass produces a finding artifact; the author ratifies findings; spot-fixes apply; then the next pass fires. For external review beyond what I do: per-subject pre-publication review of any quoted material attributed to them — that's the attribution menu I sent. Beyond that, there's a pre-publication review queue artifact I hand to the publisher with the manuscript flagging what's been internally verified vs. what would benefit from external review."
+</blockquote>
+<p class="meta-line"><strong>If asked about who reviews internally:</strong> <em>"AI-assisted analytical-rigor pipeline; full disclosure paragraph available. Final authorial responsibility mine. Not journalism's editor-of-record model — closer to academic peer-review-style structured audit, adapted for trade-press analytical-book material."</em></p>
+</div>
+</details>
+</article>
+</section>
+
+<section id="routing">
+<h2>Routing questions — the meeting's central business</h2>
+<p class="meta-line">These are the questions whose answers determine whether the meeting succeeds operationally.</p>
+
+<article class="q must" id="q-which-ed">
+<details open>
+<summary><span class="label">MUST · LOAD-BEARING</span> "Do you want Allison only, Chris only, or both?"</summary>
+<div class="body">
+<p class="meta-line"><strong>Recommendation: both, in series, ~30 min each.</strong></p>
+<blockquote>
+  "My honest preference is both — in series. Allison and Chris have distinct calibration angles. Allison's record on stripers, sanctuary architecture, the symmetry-of-deference framing — that's MD-side fisheries policy through a fisheries-scientist register. Chris's record on menhaden, the 1980s-recovery-not-replicable thesis, the Bay-cap-from-historic-landings critique — that's VA-side ecosystem science through an ED register. Both rich enough to warrant separate ~30-min conversations. But I'd absolutely defer to your read on whether either one feels like a stretch or whether one of them in particular fits better."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q must" id="q-ed-fit">
+<details>
+<summary><span class="label">MUST</span> "What part of the chapter is each ED best suited for?"</summary>
+<div class="body">
+<blockquote>
+  "Allison — stripers + oyster sanctuary architecture + the symmetry-of-deference framing (her line that we need to be as willing to take reductions as to grant increases). Chris — menhaden + the 1980s-recovery-not-replicable thesis + the Bay-cap-from-historic-landings architectural critique. Both calibrate the framework's vocabulary against their work; both ground specific Bay-management cases the chapter engages."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q should" id="q-other-voices">
+<details>
+<summary><span class="label">SHOULD</span> "Are there other CBF voices you'd want?"</summary>
+<div class="body">
+<p class="meta-line"><strong>Be receptive; don't pre-name unless they open the door.</strong></p>
+<blockquote>
+  "Beyond the EDs — if they have a moment for it, Will Poston on menhaden specifically would deepen the chapter's strongest single case. Bill Goldsborough's historical perspective on the 1980s arc would be uniquely valuable, but I'd pursue that through separate channels rather than asking you to facilitate. Beyond that, I'd defer entirely to whatever you'd point me at."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q should" id="q-watermen">
+<details>
+<summary><span class="label">SHOULD</span> "What watermen are you looking for?"</summary>
+<div class="body">
+<blockquote>
+  "Geographically open. Tangier captains, Northern Neck wild-harvest, oyster aquaculture operators, working-waterfront program staff — any routes you see make sense. The chapter spans several Bay communities; whatever introductions you'd point me at would carry weight."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q should" id="q-port-isobel">
+<details>
+<summary><span class="label">SHOULD</span> "Have you considered Port Isobel?"</summary>
+<div class="body">
+<blockquote>
+  "Yes — would love an introduction if you'd facilitate. The Port Isobel program is exactly the kind of working-waterfront educator-captain voice the chapter needs."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q stretch" id="q-watermen-specific">
+<details>
+<summary><span class="label">STRETCH</span> "Do you have specific watermen in mind already?"</summary>
+<div class="body">
+<blockquote>
+  "I have some community ties through Fox Hill that may carry — but those are personal-roots ground and I'd want to keep them separate from the CBF-routed conversations. The chapter spans multiple Bay communities; CBF-routed watermen would complement what the Fox Hill thread already gives me."
+</blockquote>
+</div>
+</details>
+</article>
+</section>
+
+<section id="journalism">
+<h2>D's journalism-mindset questions (David specifically)</h2>
+<p class="meta-line"><strong>Context:</strong> David's prior career as a Thomson Reuters Foundation climate/environmental reporter + multi-year DC reporter means he'll evaluate this through professional journalism standards. Be ready for these.</p>
+
+<article class="q must" id="q-journalist-bg">
+<details>
+<summary><span class="label">MUST · D-mindset</span> "Have you been a journalist? What's your prior writing?"</summary>
+<div class="body">
+<blockquote>
+  "Not a journalist. Engineering by training; ran research operations at NIH; that's the management + structural-accounting side of the substrate. The book project is my first sustained long-form prose work at this scale. So this is trade-press analytical-book material, not journalism — comp-shelf is Mazzucato / Pistor / Klein / Sandel / Raworth rather than reporter-byline work."
+</blockquote>
+<p class="meta-line"><strong>If David flags concern about a non-journalist approaching their EDs:</strong> <em>"Fair question — my work is closer to a researcher writing a public-facing book than to a reporter on assignment. The conversation discipline is researcher-to-practitioner: calibration questions, mutual vocabulary work, attribution mode chosen by interviewee, pre-publication review for any quoted material. Not extracting quotes for a piece."</em></p>
+</div>
+</details>
+</article>
+
+<article class="q should" id="q-citations">
+<details>
+<summary><span class="label">SHOULD · D-mindset</span> "What citations / source material are you working with for Ch 3?"</summary>
+<div class="body">
+<blockquote>
+  "For Ch 3 — Colden's public record across stripers, oyster sanctuaries, menhaden, ASMFC testimony (about 26 catalogued items already). Moore's public record across menhaden, Bay-cap critique, the 1980s-recovery-not-replicable framing (about 17 items catalogued). CBF organizational documents — Bay Cap-from-historic-landings advocacy; the federal-disaster-declaration request; the litigation portfolio; STAC's 2023 CESR report; the menhaden-pause campaign. VIMS science where relevant — Lipcius + Mann + their teams. Federal sources — ASMFC stock assessments; NOAA Bay Office data. Place-specific source material from working-waterfront communities. The chapter's drawing from substantively rich public-record material; interview calibration adds vocabulary fit and color, not core empirical substrate."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q should" id="q-quote-standard">
+<details>
+<summary><span class="label">SHOULD · D-mindset</span> "Are you using direct quotes, paraphrase, or both? What's your standard?"</summary>
+<div class="body">
+<blockquote>
+  "Both. For most material, paraphrased attribution — the standard 'Moore has argued that...' / 'Colden's testimony on the OAC noted that...' Direct quotes when the specific phrasing is load-bearing — Moore's 'we don't have base science to make good decisions' lands harder verbatim. The attribution menu I sent puts each interviewee in control of the mode their material is quoted under — freely-quotable, paraphrase-with-review, or transcript-review-before-quoting. CBF leadership's professionally-constrained position is exactly why the menu is there."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q should" id="q-ai-disclosure">
+<details>
+<summary><span class="label">SHOULD · D-mindset</span> "What's your AI-disclosure paragraph?"</summary>
+<div class="body">
+<blockquote>
+  "Standard cover-letter paragraph. AI-assisted across the analytical-rigor pipeline + research substrate + drafting support; final authorial responsibility mine; transparent about the level of assistance. The book's not ghost-written; it's not AI-generated text under a human byline. The work flow is: I make every substantive call, AI assists with rigor passes + research summarization + draft iteration, I take responsibility for every published word. Happy to forward the disclosure paragraph if you'd like the exact phrasing."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q stretch" id="q-vs-journalism">
+<details>
+<summary><span class="label">STRETCH · D-mindset</span> "How does this differ from a journalist's profile of CBF's work?"</summary>
+<div class="body">
+<blockquote>
+  "Different scope, different time-horizon, different deliverable. A journalist profile of CBF's work would be 1,500-3,000 words, on a news peg, sourced from interviews + organizational documents, written for a daily/weekly publication. This is a 5,000-6,000-word chapter in a 10-chapter analytical book, published 2027-2028 if it places, sourced from public record + small set of calibration conversations, written for an analytical-trade-press audience. The work the chapter does is structural-pattern analysis with the Bay as flagship case — different unit of analysis from a profile."
+</blockquote>
+</div>
+</details>
+</article>
+</section>
+
+<section id="should-ask">
+<h2>SHOULD-ASK questions — secondary, be ready</h2>
+
+<article class="q should" id="q-what-offers">
+<details>
+<summary><span class="label">SHOULD</span> "What does this framework offer that we don't already have?"</summary>
+<div class="body">
+<blockquote>
+  "You have the substantive work already. What the framework offers is shorthand that travels. 'Cost severance' as one vocabulary across menhaden + stripers + oysters + watermen. 'Regulatory architecture lagging the science' as one diagnosis across ASMFC, DNR, VMRC, the Bay cap. If the vocabulary catches on at the analytical-trade-press level, you've got a way to make the structural argument once rather than re-arguing the structural pattern case by case."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q should" id="q-timeline">
+<details>
+<summary><span class="label">SHOULD</span> "What's the timeline?"</summary>
+<div class="body">
+<blockquote>
+  "Manuscript draft is complete; current phase is rigor cycle plus outreach for chapter-specific calibration. Book proposal sprint late June. Agent queries late July / early August. Publication probably 2027 or 2028 depending on which house picks it up. The Noema essay derived from chapters 1 + 3 + 10 is going out late May / early June separately."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q should" id="q-background">
+<details>
+<summary><span class="label">SHOULD</span> "Tell us about your background."</summary>
+<div class="body">
+<blockquote>
+  "I grew up in Hampton — Lower Bay personal anchor. Engineering by training. Earlier in my career I ran research operations at NIH, which is where the management-of-large-deals + structural-cost-bearing material in the book came from. The book's been about three years in development. The Bay is the most personally familiar of the framework's flagship cases — I've watched the waters my dad's generation fished and my grandfather's generation fished change in specific ways. That's the experiential anchor for the renewable-past-regeneration chapter."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q should" id="q-academic">
+<details>
+<summary><span class="label">SHOULD</span> "Is this academic, journalism, or something else?"</summary>
+<div class="body">
+<blockquote>
+  "Trade-press analytical book — the comp-shelf is Mazzucato's <em>Mission Economy</em>, Raworth's <em>Doughnut Economics</em>, Pistor's <em>Code of Capital</em>, Klein's <em>Doppelganger</em>, Sandel's <em>What Money Can't Buy</em>. Memoir-substrate opener; analytical chapters at depth; framework with formal apparatus in a tech appendix at the back for the analytical reader. Neither pure journalism nor pure academic; the trade-press analytical-book register."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q should" id="q-chapter-review">
+<details>
+<summary><span class="label">SHOULD</span> "Will we see the chapter before publication?"</summary>
+<div class="body">
+<blockquote>
+  "Per the attribution menu I sent — each of you at CBF, if you're interviewed, can choose your preferred mode at the start of the conversation. The standard practitioner default is 'paraphrase plus review-before-direct-quote' — which means you'd see the manuscript draft of any direct quote before it's locked in. Other options are freely-quotable or full-transcript-review-first. Whatever you'd want."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q should" id="q-political-stance">
+<details>
+<summary><span class="label">SHOULD</span> "Will the chapter take a political stance?"</summary>
+<div class="body">
+<blockquote>
+  "No — accounting, not advocacy. The framework's explicit framing at the chapter close is that it's not a redemption mechanism, it's an honest accounting. The chapter takes ASMFC, DNR, VMRC management decisions seriously without partisan framing. Federal politics shows up only in the generic 'federal cuts elevating state-level leverage' register that Moore and Colden themselves use."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q should" id="q-tangier-omega">
+<details>
+<summary><span class="label">SHOULD</span> "How do you handle controversial figures (Eskridge on Tangier; Omega Protein)?"</summary>
+<div class="body">
+<blockquote>
+  "Calibrated CBF register, both. On Tangier — the chapter engages it as a working-waterfront community whose generational stakes in the Bay are load-bearing. CBF's Shoreline Adaptation Plan partnership is the kind of accountability-instrument the chapter studies. The framing is erosion-and-shoreline, not climate-rhetoric-forward — mirrors how CBF has held that partnership. On Omega — mirrors Moore's register. Science-gap, observer coverage, Bay-specific assessment. Not industry-villainy. The chapter doesn't depend on motive attribution; the structural claim stands on the gap between what the Bay-cap architecture prices and what Bay-specific biology would assess."
+</blockquote>
+</div>
+</details>
+</article>
+</section>
+
+<section id="stretch">
+<h2>STRETCH questions — lower priority but ready if asked</h2>
+
+<article class="q stretch" id="q-funded">
+<details>
+<summary><span class="label">STRETCH</span> "Has anyone funded this work?"</summary>
+<div class="body">
+<blockquote>
+  "Self-funded. No institutional backing, no advance, no grants. That's a feature, not a bug — the framework doesn't have anyone's policy agenda baked in. The only reason it exists is that I wrote it."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q stretch" id="q-agent">
+<details>
+<summary><span class="label">STRETCH</span> "Who's your agent?"</summary>
+<div class="body">
+<blockquote>
+  "Working on representation — Wylie, Bohan, Chalfant tier as the targets given comp-shelf placement. Wave 1 agent queries fire late July / early August. Nothing's signed."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q stretch" id="q-why-fish">
+<details>
+<summary><span class="label">STRETCH</span> "Why fisheries specifically?"</summary>
+<div class="body">
+<blockquote>
+  "The framework's flagship case for one of its two regimes — renewable-past-regeneration. Non-renewable extraction has a different story; renewable extraction that crosses the threshold becomes effectively non-renewable, and the Bay is the place I know best where that's happened. Moore's claim that the 1980s recovery dynamic isn't available now is structurally the question the chapter most cares about."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q stretch" id="q-audience">
+<details>
+<summary><span class="label">STRETCH</span> "What's the audience for the book?"</summary>
+<div class="body">
+<blockquote>
+  "Trade-press dual register — engaged layman + specialist. The memoir-and-framework openers earn the engaged layman; the analytical chapters and the technical appendix give the specialist somewhere to land. Same chapter has to work for both — that's the discipline."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q stretch" id="q-chapter-size">
+<details>
+<summary><span class="label">STRETCH</span> "How big is the chapter on the Bay?"</summary>
+<div class="body">
+<blockquote>
+  "Chapter 3 is targeting 5,000-6,000 words. Watermen-led storytelling chapter, not a fisheries-policy chapter — the framework runs underneath and lands briefly at the closing tie-back. Most of the chapter is people and place. The analytical work lives in later chapters."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q stretch" id="q-watermen-env-tension">
+<details>
+<summary><span class="label">STRETCH</span> "How do you handle the watermen-vs-environmentalist tension?"</summary>
+<div class="body">
+<blockquote>
+  "Both bear costs of accountability failure. The chapter doesn't pose them as adversaries of restoration work. Watermen are protagonists of Ch 3. CBF's restoration crews + sanctuaries + oyster gardeners are also bearing costs the public-resource framing doesn't capture cleanly. The framework's accountability vocabulary engages both sides; the architecture is what fails, not the people in the architecture."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q stretch" id="q-race-indigenous">
+<details>
+<summary><span class="label">STRETCH</span> "What about race / Indigenous / treaty-rights framing?"</summary>
+<div class="body">
+<blockquote>
+  "Ch 3 engages the Bay's renewable-past-regeneration story through working-waterfront communities. The race + Indigenous + treaty-rights material the framework engages substantively lives in other chapters with their own substantive engagement. Not part of Ch 3's analytical move."
+</blockquote>
+</div>
+</details>
+</article>
+
+<article class="q stretch" id="q-logistics">
+<details>
+<summary><span class="label">STRETCH</span> Practical logistics (time / format / when)</summary>
+<div class="body">
+<dl style="display:grid; grid-template-columns: max-content 1fr; gap: 6px 14px; margin: 4px 0;">
+<dt><strong>How long?</strong></dt><dd>~30 minutes ideal; flexible to whatever fits each ED's day.</dd>
+<dt><strong>Phone, video, in-person?</strong></dt><dd>All open. Phone fine; video works; in-person workable — I'm in Hampton, anywhere on the Bay is straightforward.</dd>
+<dt><strong>When?</strong></dt><dd>Soft target ~2 weeks out. Whatever fits their calendars. No hard deadline.</dd>
+</dl>
+</div>
+</details>
+</article>
+</section>
+
+<section id="load-bearing">
+<h2>🌟 LOAD-BEARING content — must deliver during the call</h2>
+
+<div class="cheatsheet">
+  <div class="box">
+    <h4>1. The translation pass</h4>
+    <p>Cost severance + RCV in plain Bay language. ~3-4 min. <a href="#translation">Section above</a>. <strong>The central deliverable per Val's 5/15 framing.</strong></p>
+  </div>
+  <div class="box">
+    <h4>2. The compelling reason to act</h4>
+    <p>Q "So what?" answer (<a href="#q-so-what">A1</a>). What happens if they do nothing = status-quo case-by-case argument-building.</p>
+  </div>
+  <div class="box">
+    <h4>3. The four direct alignments</h4>
+    <p>Cost severance / RCV / regulatory arch lagging biology / two-instrument bond architecture. <a href="#q-relevant">Q "relevant"</a>.</p>
+  </div>
+  <div class="box">
+    <h4>4. The hard guardrails</h4>
+    <p>NO Soviet / Tangier-via-erosion / Omega-via-science-gap / NO Fox-Hill-names / listening-register. <a href="#guardrails">Guardrails table</a>.</p>
+  </div>
+  <div class="box">
+    <h4>5. The opening verbatim</h4>
+    <p><a href="#opening">Translation-pass invitation opener.</a> Lead with concrete, not framework jargon.</p>
+  </div>
+  <div class="box">
+    <h4>6. The routing recommendation</h4>
+    <p>Both EDs (Colden + Moore) in series, ~30 min each. <a href="#q-which-ed">Q "which ED"</a>.</p>
+  </div>
+</div>
+</section>
+
+<section id="pivots">
+<h2>Pivot articulations — drop-in if they go there</h2>
+<p class="meta-line">Click any pivot to expand the verbatim drop-in.</p>
+
+<details class="pivot">
+<summary>"Why 'cost severance' specifically?"</summary>
+<div class="body">
+<blockquote>
+  "It names a structural mechanism distinct from 'externality' — which is descriptive and static — and from 'displacement' — which is geographical. Cost severance is the deliberate act of cutting profit from the cost of producing it. It operates across non-renewable and renewable-past-regeneration extraction equally. The vocabulary's contribution is that single-word handle for what CBF has been documenting case by case."
+</blockquote>
+</div>
+</details>
+
+<details class="pivot">
+<summary>"How is this different from existing fisheries economics?"</summary>
+<div class="body">
+<blockquote>
+  "Fisheries economics has rich rent-extraction and collapse-and-recovery vocabulary. The framework adds two things. One — the structural cost-bearing question, who pays when accountability fails? Two — the two-instrument bond architecture for thinking about what binds accountability rather than just naming when it didn't."
+</blockquote>
+</div>
+</details>
+
+<details class="pivot">
+<summary>"Where does the framework overreach on Bay terrain?"</summary>
+<div class="body">
+<blockquote>
+  "Honest answer — the chapter argues renewable-past-regeneration as a regime; not every Bay species has crossed that threshold. Moore's 'stripers won't have the same recovery' is the load-bearing claim. Whether that's structural-foreclosure or still-reversible is exactly what the conversation is trying to test. Pushback on which Bay species the framework can fairly call 'renewable-past-regeneration' is the most useful thing I could get."
+</blockquote>
+</div>
+</details>
+
+<details class="pivot">
+<summary>"How is this different from political-economy critique?"</summary>
+<div class="body">
+<blockquote>
+  "Political-economy critique typically names the actors; the framework's analytical move is to name the structural mechanism without making the analysis depend on motive-attribution. The accountability instruments — Restitution Bond, Foreclosure Bond — are the framework's contribution beyond critique. Calling out 'who profited' isn't novel; specifying 'what structurally would bind them to the cost' is."
+</blockquote>
+</div>
+</details>
+
+<details class="pivot">
+<summary>"What's your relationship to Darity / Mazzucato / Raworth?"</summary>
+<div class="body">
+<blockquote>
+  "Methodological inheritance, not co-membership. Darity's <em>From Here to Equality</em> gave me the operational form of a debt-instrument addressing intergenerational injustice; the Restitution Bond extends that operational form to other extraction-community contexts. Mazzucato's value-creation vocabulary is comp-shelf-adjacent — same trade-press analytical-book register, different substantive target. Raworth's planetary-boundaries + social-foundation work shares the structural-accounting commitment but with different operational tools."
+</blockquote>
+</div>
+</details>
+
+<details class="pivot">
+<summary>"How are you handling Eskridge / Tangier political identity?"</summary>
+<div class="body">
+<blockquote>
+  "As a working-waterfront community whose generational stakes in the Bay are load-bearing for the chapter. Cost-bearing is structural, not partisan. CBF's Shoreline Adaptation Plan partnership is the kind of accountability-instrument the chapter studies — erosion-and-shoreline framing, mirroring how CBF has held the partnership. The political identity of cost-bearers is not part of the analytical move."
+</blockquote>
+</div>
+</details>
+
+<details class="pivot">
+<summary>"Industry villainy on Omega Protein?"</summary>
+<div class="body">
+<blockquote>
+  "Mirror Moore's register — industry blocks science, not industry-as-villain. The framework engages structurally: the gap between what the Bay-cap architecture prices and what Bay-specific biology would assess. The chapter's argument doesn't depend on motive attribution. Moore's science-first register — 'we don't have base science to make good decisions' — is the analytically sharp framing the chapter inherits."
+</blockquote>
+</div>
+</details>
+
+<details class="pivot">
+<summary>"What's your AI-disclosure paragraph?"</summary>
+<div class="body">
+<blockquote>
+  "Standard cover-letter paragraph. AI-assisted analytical-rigor pipeline plus research substrate plus drafting support; final authorial responsibility mine; transparent about the level of assistance. Happy to forward if you'd like to see it."
+</blockquote>
+</div>
+</details>
+</section>
+
+<section id="contingency" class="contingency-sec">
+<h2>Contingency — if the meeting goes sideways</h2>
+
+<details class="pivot">
+<summary>If Val or David surfaces a concern with the framework's broader scope</summary>
+<div class="body">
+<blockquote>
+  "To be clear — the Bay chapter stands on Bay-specific terms. The framework's broader scope is engaged in earlier chapters with their own substantive material. The Bay case is studied on its own terms; CBF voices are quoted in the Bay context, not absorbed into cross-system comparison."
+</blockquote>
+</div>
+</details>
+
+<details class="pivot">
+<summary>If they push on Soviet / cross-system framing from Val's original 2026-05-05 question</summary>
+<div class="body">
+<blockquote>
+  "Right — Val raised that originally and we engaged at length 2026-05-06. The book's broader cross-system scope lives in earlier chapters; the Bay chapter is studied on its own terms. The cross-system material was internal scaffolding then, and it stays internal scaffolding now."
+</blockquote>
+</div>
+</details>
+
+<details class="pivot">
+<summary>If they decline routing entirely</summary>
+<div class="body">
+<blockquote>
+  "Completely understood. Thank you for taking the time today — the conversation has been substantively useful for me regardless of routing outcome. If there are specific concerns I could address that would shift the routing decision, I'd welcome them. If not, I'll respect that and continue with the chapter as currently scoped."
+</blockquote>
+</div>
+</details>
+
+<details class="pivot">
+<summary>If they request more time / more materials before deciding</summary>
+<div class="body">
+<blockquote>
+  "Of course. What would help? I can send the AI-disclosure paragraph, a one-page framework summary, the relevant tech-appendix sections, the bibliography for Ch 3, or whatever would help you make the routing decision well."
+</blockquote>
+</div>
+</details>
+</section>
+
+<section id="guardrails">
+<h2>Hard guardrails — re-read 10 min before call</h2>
+<table class="guardrails">
+<thead><tr><th>Topic</th><th>Discipline</th></tr></thead>
+<tbody>
+<tr><td class="topic">Soviet / cross-system framing</td><td>DO NOT introduce</td></tr>
+<tr><td class="topic">Tangier political identity</td><td>Erosion-and-shoreline only; NOT climate-rhetoric</td></tr>
+<tr><td class="topic">Omega Protein / industry villainy</td><td>Science-gap framing; NOT industry-villain</td></tr>
+<tr><td class="topic">Federal politics</td><td>Generic "federal cuts" only; NOT partisan</td></tr>
+<tr><td class="topic">Race / Indigenous / treaty rights</td><td>Probe gently if at all; NOT lead with</td></tr>
+<tr><td class="topic">Vocabulary</td><td>Rockfish ↔ striped bass both OK; sanctuaries (not MPAs); Bay cap (CBF capitalized); CESR is 2023</td></tr>
+<tr><td class="topic">Fox Hill / Phat / Biggie</td><td>DO NOT disclose names. Acknowledge Hampton ties only.</td></tr>
+<tr><td class="topic">Lecturing</td><td>NO. Listening register. Brief answers. Invite their pushback.</td></tr>
+<tr><td class="topic">Pre-committing CBF leadership review</td><td>DO NOT promise org-level pre-pub review. Q0 attribution menu is at individual-interviewee level.</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="flow">
+<h2>Suggested 30-min flow</h2>
+<table class="flow">
+<thead><tr><th>Time</th><th>Block</th><th>Purpose</th></tr></thead>
+<tbody>
+<tr><td class="time">0-2 min</td><td class="block">Opening + thanks</td><td>Warmth; acknowledge thread consolidation work</td></tr>
+<tr><td class="time">2-3 min</td><td class="block">Brief author background</td><td>~30 sec; Hampton-anchored; engineering + NIH-era management</td></tr>
+<tr><td class="time">3-8 min</td><td class="block">🌟 Translation pass</td><td>Cost severance + RCV in plain Bay language. Central deliverable per Val's 5/15 framing.</td></tr>
+<tr><td class="time">8-22 min</td><td class="block">Their questions + routing</td><td>Listen. Let them lead. Respond per §"MUST-ASK" / "SHOULD-ASK." If formal version requested, deploy from §"Opening" reserve.</td></tr>
+<tr><td class="time">22-26 min</td><td class="block">Watermen-routing soft ask</td><td>Cover Port Isobel + Tangier + Northern Neck + aquaculturists</td></tr>
+<tr><td class="time">26-28 min</td><td class="block">Practical logistics</td><td>Time per interview (~30 min); format (any); timing (~2 weeks out)</td></tr>
+<tr><td class="time">28-30 min</td><td class="block">Close</td><td>Thank-you; commitment to follow-up via email</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="closing">
+<h2>Closing block (~2 min)</h2>
+<blockquote>
+  "Thank you both — this has been substantively useful. Whatever you confirm on routing, I'll follow up by email with each interviewee directly, with a pre-read brief calibrated to their register. If anything surfaces after this call that would shift your read, please flag it — I'd rather know now than after a pre-read brief has gone out. Otherwise: looking forward to next steps. And Val, David — appreciate you both."
+</blockquote>
+</section>
+
+<section id="workflow">
+<h2>Post-call workflow (within 24 hours)</h2>
+<ul>
+  <li>Same-day thank-you reply (~3 sentences); confirm routing in writing</li>
+  <li>If routing landed: trigger pre-read brief send to confirmed ED(s) — customize per their register (<a href="prereadbrief_2026-05-08.md"><code>prereadbrief_2026-05-08.md</code></a> template)</li>
+  <li>If watermen-routing surfaced names/programs: log in <code>research/outreach/_pipeline/</code></li>
+  <li>If Port Isobel routing accepted: separate thread to Port Isobel Captain</li>
+  <li>Update <code>interview-outreach-drafts_2026-05-04_ch3-fieldwork.md</code> §17 + §18 with meeting outcomes</li>
+  <li>Update PM dashboard §18 with confirmed routing</li>
+</ul>
+</section>
+
+<section id="tiers">
+<h2>Three Tiers of Share — CBF gateway-meeting instantiation</h2>
+<div class="cheatsheet">
+  <div class="box">
+    <h4>Tier 1 — share freely</h4>
+    <ul>
+      <li>Framework one-paragraph</li>
+      <li>Chapter outline (already sent)</li>
+      <li>Four direct alignments (§ relevant)</li>
+      <li>Chapter's broad shape</li>
+      <li>Author background</li>
+      <li>Project timeline</li>
+      <li>Comp-shelf placement</li>
+    </ul>
+  </div>
+  <div class="box">
+    <h4>Tier 2 — share post-meeting if requested</h4>
+    <ul>
+      <li>AI-disclosure paragraph</li>
+      <li>One-page framework summary</li>
+      <li>Tech Appendix sections (renewable-past-regen)</li>
+      <li>Bibliography Ch 3 section</li>
+      <li>Per-ED pre-read briefs (after routing)</li>
+    </ul>
+  </div>
+  <div class="box">
+    <h4>Tier 3 — do NOT share</h4>
+    <ul>
+      <li>This prep doc + meeting-prep brief</li>
+      <li>Per-ED background briefs</li>
+      <li>Audience-pressure-test character set</li>
+      <li>Cross-system framing in other chapters</li>
+      <li>Other chapter drafts not directly Bay</li>
+    </ul>
+  </div>
+</div>
+</section>
+
+<section id="glossary">
+<h2>Glossary — key terms for the call</h2>
+<div class="glossary-terms">
+
+<details class="term">
+<summary>Cost severance</summary>
+<div class="term-body">
+The structural mechanism the framework names: when value gets extracted from a place (fish, oil, coal, the labor of a community) and the bill for that value gets handed to somebody else (ecosystems, communities, future generations). Distinct from "externality" (descriptive/static) and "displacement" (geographical). Operates across non-renewable AND renewable-past-regeneration extraction.
+</div>
+</details>
+
+<details class="term">
+<summary>RCV — Residual Commons Value</summary>
+<div class="term-body">
+The worth permanently foreclosed when a renewable resource is pushed past regenerative capacity, OR when a non-renewable resource is drawn down. On the Bay specifically: what gets lost when a fishery crosses the threshold from "renewable" to "behaving like non-renewable." Moore's "striped bass will not have the same recovery they had in the 1980s" is the load-bearing example.
+</div>
+</details>
+
+<details class="term">
+<summary>Renewable-past-regeneration</summary>
+<div class="term-body">
+The framework's name for the regime where a renewable resource has been pushed past the capacity to recover at the level it used to. The book's Chapter 3 argues the Bay is the flagship case for this regime — some Bay fisheries have crossed that threshold.
+</div>
+</details>
+
+<details class="term">
+<summary>Foreclosure Bond</summary>
+<div class="term-body">
+The forward-looking accountability instrument in the framework's two-instrument decomposition. Operates as a structural commitment that binds future extraction to its cost. <strong>Mirrors CBF's oyster sanctuaries operationally</strong> — protected against extraction; symmetry binding.
+</div>
+</details>
+
+<details class="term">
+<summary>Restitution Bond</summary>
+<div class="term-body">
+The backward-looking accountability instrument in the framework's two-instrument decomposition. Operates as a structural commitment that addresses prior extraction (the intergenerational debt). <strong>Mirrors CBF's Watershed Agreement 2040 targets operationally</strong> — accountability toward future state.
+</div>
+</details>
+
+<details class="term">
+<summary>Regulatory architecture lagging the science</summary>
+<div class="term-body">
+The framework's structural diagnosis of the gap between what the management unit (Bay cap from historic landings; coastwide ERPs in place of Bay-specific assessment) prices and what current biology assesses. <strong>Names what Moore has been arguing case-by-case</strong> with his "Bay cap based on historic landings" critique.
+</div>
+</details>
+
+<details class="term">
+<summary>The Bay cap</summary>
+<div class="term-body">
+CBF-internal capitalized term — refers specifically to the ASMFC 51,000 MT menhaden cap. Not generic; never refer to as "MPA" or use generically. The structural critique (cap based on historic landings rather than Bay-specific biology) is one of CBF's most consistent advocacy positions.
+</div>
+</details>
+
+<details class="term">
+<summary>ASMFC</summary>
+<div class="term-body">
+Atlantic States Marine Fisheries Commission — the coastwide interstate fisheries-management body. CBF has consistently argued ASMFC defers in ways that delay Bay-specific action (Oct 2025 striped bass deferral; menhaden cap based on historic landings; etc.).
+</div>
+</details>
+
+<details class="term">
+<summary>DNR</summary>
+<div class="term-body">
+Maryland Department of Natural Resources — state-level fisheries management on the MD side. Coordinates with ASMFC + the Oyster Advisory Commission. Colden testifies regularly.
+</div>
+</details>
+
+<details class="term">
+<summary>VMRC</summary>
+<div class="term-body">
+Virginia Marine Resources Commission — state-level fisheries management on the VA side. Coordinates with ASMFC + the Northern Neck commercial-fishery interests. Moore engages regularly.
+</div>
+</details>
+
+<details class="term">
+<summary>CESR (2023)</summary>
+<div class="term-body">
+Chesapeake Bay Scientific and Technical Advisory Committee (STAC) report from 2023. Comprehensive Evaluation of System Response — a science-side framing CBF cites frequently. Always cite as 2023.
+</div>
+</details>
+
+<details class="term">
+<summary>Chesapeake Bay Watershed Agreement</summary>
+<div class="term-body">
+Multi-jurisdictional voluntary agreement; 2014 original / 2025 revised / 2040 horizon. Distinct from federal TMDL. The framework treats the 2040 horizon as operationally analogous to a Restitution Bond architecture.
+</div>
+</details>
+
+<details class="term">
+<summary>OAC — Oyster Advisory Commission</summary>
+<div class="term-body">
+Maryland Oyster Advisory Commission — Colden has a seat. Symmetry-of-deference framing (her line) is one of CBF's strongest analytical contributions: regulators should be as willing to reduce harvest when science indicates as they are to increase it.
+</div>
+</details>
+
+<details class="term">
+<summary>Pass 3.1 - 3.5 (rigor pipeline)</summary>
+<div class="term-body">
+The five-pass Stage-3 rigor audit each chapter goes through. 3.1 fact-check / 3.2 voice-polish / 3.3 audience-load acceptance / 3.4 audience-load robustness / 3.5 developmental-edit. <strong>Relevant when David asks about fact-check process.</strong>
+</div>
+</details>
+
+<details class="term">
+<summary>Q0 attribution menu</summary>
+<div class="term-body">
+The four-option attribution discipline applied at the start of every substantive interview: freely-quotable / paraphrase + attribution unless reviewed first / full transcript review before quoting / off-record. <strong>Does NOT apply to this gateway meeting</strong> (Val + David are gatekeepers, not subjects).
+</div>
+</details>
+
+<details class="term">
+<summary>Port Isobel</summary>
+<div class="term-body">
+CBF's residential environmental education center on the Tangier archipelago. Hires Tangier captains as Captain/Educators. <strong>The single highest-yield CBF program for Ch 3's watermen-voice need.</strong>
+</div>
+</details>
+
+<details class="term">
+<summary>STAC</summary>
+<div class="term-body">
+Chesapeake Bay Scientific and Technical Advisory Committee — the science-advisory body that produced the 2023 CESR report. Cross-jurisdictional; provides science basis CBF cites in advocacy.
+</div>
+</details>
+
+<details class="term">
+<summary>Symmetry-of-deference</summary>
+<div class="term-body">
+Colden's framing — regulators should be as willing to take fishing-effort reductions when the science indicates as they are to grant increases. The framework's Foreclosure Bond instrument is designed to operationalize this symmetry as binding rather than aspirational.
+</div>
+</details>
+
+</div>
+</section>
+
+<section id="final60">
+<h2>⏱ Final 60 seconds before the call</h2>
+<div class="final60">
+<ol>
+  <li><strong>Re-read the TRANSLATION PASS section aloud once.</strong> Cost severance + RCV in plain language with Bay examples. That's the call's central deliverable per Val's 5/15 framing.</li>
+  <li><strong>Re-read the opener verbatim once.</strong> "Val, David — thanks so much for making time today. Val, the framing in your last note was really helpful — let me lead with the translation rather than the framework jargon..."</li>
+  <li><strong>Re-scan hard guardrails.</strong> Don't lecture; don't introduce cross-system; mirror their political-register; don't disclose Fox Hill names.</li>
+  <li><strong>Two posture resets:</strong>
+    <ul>
+      <li><strong>Val:</strong> non-economist by background; environmental-nonprofit comms career; warm + self-deprecating + wants comprehension she can carry to Colden. <strong>You're teaching with patience + Bay examples.</strong></li>
+      <li><strong>David:</strong> <strong>ex-Reuters Foundation climate/environmental reporter + multi-year DC political reporter.</strong> He's done the journalist side of the table. He'll evaluate the project against professional journalism standards. <strong>Don't oversell; meet him at his professional eye.</strong> Engage him by name periodically — <em>"David, does that track with how you're hearing it?"</em> He's the harder audience to fool but the easier audience to convince if the project is what it says it is.</li>
+    </ul>
+  </li>
+  <li><strong>Camera + mic check.</strong> Lighting reasonable; mic close; background non-distracting.</li>
+  <li><strong>Have this doc open in one tab. Have the meeting-prep brief open in another.</strong></li>
+</ol>
+</div>
+</section>
+
+</main>
+</div>
+
+</body>
+</html>
