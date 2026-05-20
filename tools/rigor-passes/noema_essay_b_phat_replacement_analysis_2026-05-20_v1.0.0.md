@@ -2,7 +2,7 @@
 artifact: Noema Essay B — step-back replacement analysis for the anonymized-Phat passage (Section VI Fox Hill paragraph; body line 137)
 version: v1.0.0
 date: 2026-05-20
-status: PROPOSE-ONLY — author ratifies; follow-up session applies if ratified
+status: RATIFIED 2026-05-20 by author — KEEP ANONYMIZED + SUBMIT NOW (§4 verdict accepted). No replacement applied; Essay B body line 137 retains the anonymized baseline. No follow-up application session needed. Noema submission gate is unblocked.
 upstream-decisions:
   - Phat anonymization RATIFIED 2026-05-20 by author (worked example in `tools/memory/feedback_named_subject_consent.md`).
   - Frontmatter cleanup applied this session (commit on `claude/gracious-blackburn-ce2fb0`).
