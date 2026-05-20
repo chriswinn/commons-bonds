@@ -46,7 +46,7 @@ You do NOT need to read individual workstream handoffs unless drilling into one.
 | ~~Mon May 18 8:00 AM ET — CBF v6.1 + consolidated response both auto-send (`7141634` + `b200664`)~~ | **BOTH VERIFIED SENT by author Mon May 18 8am ET** — advance materials + call-windows in Val/David's inbox since Monday. |
 | **TODAY Tue May 19** | Triage **Chs 7/8/9/10 Pass 1** findings; ratify residual **Ch 1 Pass 3** items in REAUDIT v3 `76ca8a6`; ratify **Ch 4 Pass 2** PROPOSED `3174cc8`. Queue **Ch 2 developmental-edit** session (Ch 1 cycle complete; see §5.1). |
 | **🆕 Thu May 21 — 2:00 PM (ET, presumed) — CBF MEETING LOCKED** | **Three-person video call: Chris + Val DiMarzio + David Sherfinski.** Microsoft Teams; **Teams link RECEIVED 2026-05-19** (in author's inbox; add to calendar). Val + David have had advance materials since Mon May 18 — should arrive prepped. **Prep scope spans both MD (Colden) and VA (Moore) sides.** Pre-staged materials at `research/outreach/subjects/cbf/{interview-prep,live-call-companion,organizational-brief}_*.md` — review with dual-state scope in mind. Same day Sandy reply window opens — CBF meeting is the day's anchor. |
-| **This week (by Sun May 24)** | Fire **Ch 2 Pass 3** + **Ch 3 Pass 2** + **Ch 3 Pass 3** + **Ch 4 Pass 3** (paste-text gen from PM). Continue Phase C-α applications on Chs 7/8/9/10 as ratifications land. Continue pipeline retrofits (Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication remain pending; Chs 1/5/6/TA fired 2026-05-18). Fire **Ch 2 developmental-edit** session. Decide Phat consent escalation deadline (recommend Fri May 22). |
+| **This week (by Sun May 24)** | Fire **Ch 2 Pass 3** + **Ch 3 Pass 2** + **Ch 3 Pass 3** + **Ch 4 Pass 3** (paste-text gen from PM). Continue Phase C-α applications on Chs 7/8/9/10 as ratifications land. Continue pipeline retrofits (Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication remain pending; Chs 1/5/6/TA fired 2026-05-18). Fire **Ch 2 developmental-edit** session. ~~Decide Phat consent escalation deadline~~ — **RESOLVED 2026-05-20: anonymization ratified.** |
 
 ---
 
@@ -62,13 +62,16 @@ Apparatus Phase A (Bibliography / Glossary / TA per-chapter call-site verificati
 
 ## 4. USER ACTIONS gating Noema submission
 
-Still open from 2026-05-13. These remain the *only* gates on Noema submission and are uniquely user-action.
+~~Three open USER ACTIONS from 2026-05-13~~ → **🟢 PHAT ANONYMIZATION RATIFIED 2026-05-20** per author direction. The Noema submission gate now clears as a metadata-decision. Two operational follow-ons remain:
 
-- [ ] **Action 1 — Phat consent outreach** (or Phat's family if Phat unavailable). Package ready at `research/outreach/subjects/phat/` per commits `585d535` + `721c094` + `9aee0af`. Living named subjects must be anonymized until signed.
-- [ ] **Action 2 — Apply consent decision to Essay B line 136** of [noema-essay-fresh-session-draft_2026-05-10.md](manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md).
-- [ ] **Action 3 — Apply same to Ch 3** in [Chapter__3_TheWaterman__Draft.md](manuscript/chapters/Chapter__3_TheWaterman__Draft.md).
+- [ ] **Apply anonymization to Essay B line 136** of [noema-essay-fresh-session-draft_2026-05-10.md](manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md). Small content edit; user-action or dedicated session.
+- [ ] **Apply anonymization to Ch 3 v1 draft** in [Chapter__3_TheWaterman__Draft.md](manuscript/chapters/Chapter__3_TheWaterman__Draft.md) before Stage 2 v2 drafting fires. Same edit pattern; lives in Ch 3 revision workstream.
 
-These have been open ≥ 5 days. Worth deciding this week whether to escalate (e.g., a deadline-self-imposed forcing function — "I will reach out by Fri May 22 or accept the anonymized version") rather than letting it drift further.
+**Phat consent pursuit MOVES TO relationship-pace, not publishing-gate.** Per `feedback_named_subject_consent.md` discipline: anonymization is the safe default; substantive material preserved; name restores in future printings if consent lands later. Outreach package at `research/outreach/subjects/phat/` (`585d535` + `721c094` + `9aee0af`) remains available for whenever the author chooses to use it; no submission timeline pressure.
+
+**Biggie (deceased Fox Hill waterman; ~30+ years deceased) remains named with courtesy-notify-family discipline.** Unchanged.
+
+Noema submission now gated only on the two small content-edits above + author's drafting bandwidth.
 
 ---
 
@@ -188,7 +191,7 @@ Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Appar
 - **NEW: Developmental-edit (Pass 3.5) per-chapter fire order for Chs 2–10 + AuthorsNote.** Ch 1 ratified + applied 2026-05-18; pipeline doctrine Amendment B codified Pass 3.5 (`316073e`). Per handoff: one chapter per session per branch discipline. Open question: fire Ch 2 next (sequential), or interleave with Phase C-α applications for Chs 7–10 (which are Stage-3 Pass 1's still PROPOSED)? PM recommendation: **fire Ch 2 dev-edit next** as natural follow-on; Phase C-α applications for Chs 7–10 are independent and can run in parallel.
 - ~~**Ch 1 Pass 3.3 light re-fire disposition.**~~ **RESOLVED-RATIFIED 2026-05-19** (`eb14171`). Verdict held: READY-TO-SUBMIT WITH CONFIDENCE-LEVEL STRENGTHENING. Ch 1 Stage-3 five-pass cycle now fully CLOSED.
 - ~~**Chapter file rename completeness.**~~ **RESOLVED-INTENTIONAL 2026-05-19.** Author confirmed Chs 2/3 retain `__Draft` because they may need rewrite depending on consent outcomes (Phat / Biggie); pattern is "drop `__Draft` only on Stage-3 closure."
-- **Phat consent escalation.** Action 1 has been open ≥ 6 days. Worth setting a self-imposed forcing deadline (e.g., **Fri May 22**) — either Phat outreach happens or anonymized version is accepted as final. Don't let it drift indefinitely.
+- ~~**Phat consent escalation.**~~ **RESOLVED 2026-05-20 — author ratified anonymization** per `feedback_named_subject_consent.md` discipline. Substantive material preserved; name restores in future printings if consent lands. Consent pursuit moves to relationship-pace, not publishing-gate. Two content-edits remain (Essay B line 136 + Ch 3 v1 draft) — see §4.
 - **Sandy reply triage protocol.** Reply window opens Thu May 21 (1 week post-send). If no acknowledgment by then, soft check-in. If reply lands earlier, follow P2 #12 triage in mobile dashboard.
 - **TA per-chapter call-site audit timing.** Now that v2.1.0 is published + per-chapter Pass 1's are all PROPOSED, the TA call-site audit can fold into Phase C-α applications for Chs 7–10 rather than waiting for a separate Apparatus Phase A run.
 - **Boston Review essay fire.** Ch 5 source chapter now stable. Worth scheduling Boston Review pitch + essay drafting before #16 ($100 Barrel) Session 2 since it has the more direct chapter→essay path. Either order works; just be explicit about which fires when.
@@ -217,7 +220,7 @@ Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Appar
 ### Tomorrow Wed May 20
 - Continue Chs 7/8/9/10 ratification + Phase C-α apply
 - Ratify Ch 4 Pass 2 + apply spot-fixes
-- Decide Phat consent escalation deadline (recommend Fri May 22)
+- ~~Decide Phat consent escalation deadline~~ — **RESOLVED 2026-05-20:** anonymization ratified; consent pursuit at relationship-pace
 
 ### 🆕 Thu May 21
 - **2:00 PM ET — CBF Microsoft Teams meeting** — three-person (Chris + Val + David). **Teams link received Tue May 19; add to calendar.** Prep: review `research/outreach/subjects/cbf/{interview-prep,live-call-companion,organizational-brief}_*.md` with dual-state scope (MD-Colden + VA-Moore).
