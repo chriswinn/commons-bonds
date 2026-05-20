@@ -374,3 +374,68 @@ No living-private named subjects detected. No consent issue.
 ---
 
 *End of Pass 3 audience-load rigor pass. After this artifact lands on main: STOP. Report back to PM session + author per workstream branch discipline.*
+
+---
+
+## Ratification + pivot — 2026-05-20
+
+Author-PM session 2026-05-20 ratified the following decisions emerging from the Pass 3 walk-through (this is the rev-record of MT-4 + placeholder #3 disposition; supersedes the audit's original "Pipeline-dependent, not spot-fixable" recommendation):
+
+### Decision A — Pivot placeholders #1 + #2 to published-record substitution strategy
+
+**RATIFIED.** Ch 2 placeholders #1 (line 30, opening person) + #2 (line 161, miner's voice) will be resolved via published-record fair-use quotation rather than original outreach-pipeline interviews. Strategy mirrors the Chesapeake material's named-public-figure approach (Allison Colden + Karen Moore = CBF officials in public-record positions). Per named-subject consent memory's public-record exception (2026-05-12): journalism subjects in published reporting are in the public record and can be re-quoted fair-use without re-consenting.
+
+**Source targets ratified:**
+- Chris Hamby, "Breathless and Burdened" series (Center for Public Integrity, 2013; Pulitzer-finalist) — for placeholder #1 (named miners + widows + claims-denial subjects). Candidates: Gary Fox (Boone County, died 2009; lead-narrative subject), Steve Day, Norman "Junior" Eldridge, other named subjects.
+- Howard Berkes / Ohio Valley ReSource (NPR) black-lung resurgence coverage 2016–2018 — for placeholder #2 (modern-register voices on younger-miner resurgence; aligns directly with Ch 2 line 63).
+- University of Kentucky Louie B. Nunn Center for Oral History, Appalachian Coal Industry Oral History Project — for placeholder #2 (dignity register; deep on-record interviews). McDowell-specific preferred; broader Appalachian acceptable.
+
+**Operational rules:**
+- Verbatim attribution required; cite specific article / archive / film + date.
+- Quote at fair-use length (50–200w per source).
+- Courtesy-notify deceased subjects' families per discipline (Gary Fox died 2009; courtesy-notify family is the standard).
+- Endnote / citation-finalization sweep captures the citation (same workstream slot as Ch 2's Pass 1 M-1 through M-9).
+- Living subjects in published-record fair-use frame = no consent needed, but single-sentence courtesy email to journalist who originated the reporting is good practice.
+
+### Decision B — Cut placeholder #3 (extraction-side portrait)
+
+**RATIFIED.** Line 166 placeholder (the sympathetic mine-operator/manager portrait) will be removed. The "Mechanism, Not the Motive" section (lines 173–193) already carries the structural-not-personal thesis without a named industry human. The placeholder was aspirational rather than load-bearing scaffolding.
+
+**Phase C-δ instruction:** when applying placeholder #1 + #2 substitutions, also delete the placeholder block at line 166 (`[INTERVIEW NEEDED — The extraction-side portrait]` + the italicized brief that follows it) entirely. No substitution prose required. Section flow runs from end-of-"Distance" section directly to "The Mechanism, Not the Motive" subsection header.
+
+### Decision C — Fire Phase C-δ research session
+
+**FIRED 2026-05-20.** Research-only session launched in parallel via fresh worktree to pull candidate quotes from the three ratified sources. Scope:
+- 5–8 Hamby candidates
+- 5–8 Berkes candidates
+- 3–5 Nunn Center candidates
+- 2–3 optional Marshall / WV State Archives / Mine Wars Museum candidates
+- Hard constraint: verbatim quotes only; no invented or paraphrased content.
+
+Research artifact target path: `research/case-studies/appalachian-coal_published-voice-substitution-candidates_2026-05-20.md`.
+
+After research artifact lands on main + author reviews + picks substitution candidates → Phase C-δ application session fires to apply substitutions to chapter. Phase C-δ application is a SEPARATE session from this research session.
+
+### Decision D — MT-1 (line 189 "asset-class consolidation") status
+
+**OPEN.** Not ratified in this session; pending author choice (Option A leave-as-is / Option B compact rephrase / Option C maximally neutral per the Pass 3 walk-through). LOW severity; verdict holds at ✓✓ on center-right policy reader either way. Decision held for next PM-session pass or bundled with Phase C-δ.
+
+### Updated Phase A status
+
+**Ch 2 Phase A — STILL COMPLETE on audience-load verdict.** The pivot to published-record substitution does NOT reopen Pass 3 (verdict was READY AS-IS). The substitutions are quality-elevating spot-fixes that flip Tier-3 coal-miner / black-lung-sufferer verdict ✓ → ✓✓; they are not required for ship-readiness.
+
+**Cumulative Ch 2 Phase C session count post-Decision C:**
+- Phase C-α: 5 fact-check spot-fixes (commit `5bc6edb` partial; C-1 + C-2 + C-3 + H-1 + H-3)
+- Phase C-β: 1 fact-check spot-fix (commit `3dcb15d`, rebased into `5bc6edb`; C-4 Canton verbatim)
+- Phase C-γ: 8 voice-polish spot-fixes (commit `fa08c10`)
+- Phase C-δ (pending): placeholder #1 + #2 substitution + placeholder #3 deletion + (optional) MT-1 phrasing tweak
+
+**Wave 1 agent queries (late July / early August 2026) — Ch 2 sample-chapter readiness path:**
+1. Phase C-δ research artifact lands (this session in flight)
+2. Author reviews candidate quotes; picks substitutions
+3. Phase C-δ application session fires; substitutions land
+4. Ch 2 ships as ready sample chapter for agent / publisher requests
+
+---
+
+*Ratification + pivot rev. 2026-05-20. Research session in flight; Phase C-δ application pending author candidate-selection.*
