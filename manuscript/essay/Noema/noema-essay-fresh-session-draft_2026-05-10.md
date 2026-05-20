@@ -1,12 +1,12 @@
 ---
 artifact: Noema essay (Essay B) — Stage 3 polished, submission-ready
 date: 2026-05-10
-status: Stage 3 polish applied per Noema Stage 3 verdict (commit a9b627c) §6.1 (six surgical fact-fixes) + §6.2 (two voice improvements + bundling-synthesis import). Submission-ready pending Phat's-consent verification + locked Section I closing paragraph spot-check (passed in this session).
+status: Stage 3 polish applied per Noema Stage 3 verdict (commit a9b627c) §6.1 (six surgical fact-fixes) + §6.2 (two voice improvements + bundling-synthesis import). Submission-ready. Phat anonymization ratified 2026-05-20 by author; locked Section I closing paragraph spot-check passed in the Stage 3 polish session.
 input-stage1: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md` (Stage 1 brief).
 input-stage3-verdict: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` (per-test verdict + fix list).
 path-b-policy: No sentence-level reuse from `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md`. Stage 3 polish generated fresh prose for each fact-fix from canonical-fact anchors only; Ch 1 prose paragraphs were not imported. Path B residual count maintained at ~3–4 verbatim sentences (refrains + father's direct quote), 0 high-echo paragraphs.
 locked-section-i-closing: verbatim from Stage 1 §7.1 (re-verified this session).
-named-subject-policy: Biggie named (deceased 30+ yrs; courtesy-notify-family-if-reachable pre-submission); Phat's anonymized as "a crabber and fisherman my father had known since he was small" — restore name only if signed consent received before submission (verify with author).
+named-subject-policy: Biggie named (deceased 30+ yrs; courtesy-notify-family-if-reachable pre-submission); Phat anonymized as "a crabber and fisherman my father had known since he was small" per named-subject consent discipline (anonymization RATIFIED 2026-05-20 by author as the working-draft baseline; consent pursuit continues at relationship-pace, not publishing-gate; name restorable in a future printing if consent lands; outreach package retained at `research/outreach/subjects/phat/`).
 word-count-body: see commit message for Stage 3 word count. Stage 1 brief 4,000w hard ceiling and 4,200w flag threshold retained from Stage 2; substance-drives-length retained at Stage 3 (no cut-to-fit).
 ---
 
