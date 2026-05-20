@@ -37,23 +37,37 @@ Val's verbatim 2026-05-15 message (`inbound_2026-05-15_val-call-request.md`):
 
 ---
 
-## About Val DiMarzio (CBF MD Communications)
+## About Val DiMarzio (CBF Maryland Communications & Media Relations Manager)
 
-- **Role:** Communications professional for CBF's Maryland operation. Gateway for media + outside-author access to MD-side leadership (Colden, MD program staff). Email: `vdimarzio@cbf.org`.
+**Source:** [`https://www.cbf.org/team/valerie-dimarzio/`](https://www.cbf.org/team/valerie-dimarzio/) (fetched 2026-05-19).
+
+**Verbatim bio:** *"Valerie DiMarzio joined CBF as the Maryland communications and media relations manager in 2023. Prior to this role, she supported communications efforts at various environmental nonprofits including The Conservation Fund, the National Cherry Blossom Festival, and the Accokeek Foundation at Piscataway National Park. Valerie is an avid nature lover who enjoys hiking with her dog, fishing, and wildlife photography. She also loves reading and writing and has a bachelor's degree from the University of Maryland. Valerie is based out of CBF's Annapolis office and lives in Rockville, Maryland."*
+
+- **Title:** Maryland Communications & Media Relations Manager. Joined CBF 2023 (~2 years tenure; hired the year after Falk took over as President & CEO).
+- **Background:** environmental-nonprofit communications career — The Conservation Fund (national land-conservation org); National Cherry Blossom Festival (DC-area events / public-facing); Accokeek Foundation at Piscataway National Park (small environmental-and-cultural-heritage nonprofit). **Not a journalist by background; not a fisheries scientist or economist by background.** University of Maryland B.A.
+- **Wheelhouse:** environmental-nonprofit mission communication. She knows how environmental-cause messages travel; she's gatekeeping in part to ensure CBF's voice + reputation are well-served by external author projects.
+- **Location:** CBF Annapolis HQ office; lives Rockville, MD. Phone `443-482-2023`. Email `vdimarzio@cbf.org`.
+- **Personal:** hiker, fisher (recreational), wildlife photographer, reader + writer. Anchored in MD nature-engagement personally; not a remote-from-the-resource professional.
 - **Active threads with us:** First reply 2026-05-05 included a Q2 on "connecting Bay fisheries to Soviet industrial planning" (we engaged at length 2026-05-06, then disciplined the framing out going forward; do NOT re-introduce). Consolidated MD + VA threads 2026-05-13 (request for outline + advance question sets to inform routing). Self-framed as non-economist + asked for the gatekeeper call 2026-05-15. Confirmed Thu 2pm 2026-05-19. Sent Teams link 2026-05-19.
-- **What she likely cares about:** institutional discipline (CBF can't be put in political crossfire); routing accuracy (matching the right CBF voice to the right project); project legibility (can she confidently re-present this to Allison?); whether the project respects CBF's working relationships across the watershed; her own credibility within CBF leadership.
-- **What she wants from this meeting:** translate cost severance + RCV into language she can carry to Colden; confirm the project's substantive fit; route to Colden if it makes sense; flag any CBF-internal concerns about substantive framing.
-- **Posture:** warm, informed gatekeeper. Self-deprecating about her economics background. Has engaged substantively once already (Soviet/cross-system thread); will likely test for follow-through on disciplined-Bay-scope commitments. **Treat her as an interlocutor whose goodwill is on offer + whose comprehension is what you're working to build.**
+- **What she likely cares about:** project legibility (can she confidently re-present this to Allison?); CBF's mission-communication advantage (does this work AMPLIFY CBF's voice or compete with it?); institutional discipline; routing accuracy; her own credibility within CBF leadership.
+- **What she wants from this meeting:** translate cost severance + RCV into language she can carry to Colden; confirm the project's substantive fit; route to Colden if it makes sense.
+- **Posture:** warm, informed gatekeeper. Genuinely self-deprecating about her economics background ("we are not economists"). Has engaged substantively once already (Soviet/cross-system thread); will likely test for follow-through on disciplined-Bay-scope commitments. **Treat her as an interlocutor whose goodwill is on offer + whose comprehension is what you're working to build.**
 
-## About David Sherfinski (CBF VA Communications)
+## About David Sherfinski (CBF Virginia Communications & Media Relations Manager)
 
-- **Role:** Communications professional for CBF's Virginia operation. Gateway for VA-side leadership (Moore, VA program staff including Poston, Shannon, Council, Everett, Port Isobel program). Email: `dsherfinski@cbf.org`.
+**Source:** [`https://www.cbf.org/team/david-sherfinski/`](https://www.cbf.org/team/david-sherfinski/) (fetched 2026-05-19).
+
+- **Title:** Virginia Communications & Media Relations Manager.
+- **🟢 LOAD-BEARING: David is an ex-journalist.** His prior career:
+  - **Reporter for the Thomson Reuters Foundation** covering **climate change and environmental stories.** This is significant — it means he has multi-year prior experience as a working environmental journalist with the trade-press / wire-service register.
+  - **Multi-year reporter in the Washington, D.C. area covering local government, Congress, and the White House.** (Almost certainly the Washington Times byline candidate the prior research-agent attempt couldn't confirm.) He's a DC-veteran political reporter before he was an environmental journalist before he was at CBF.
+- **What this means for the meeting:** he's a sophisticated read on what a trade-press analytical book looks like. He's done the reporter side of the table; he'll evaluate this against professional journalism standards for sourcing, attribution, fact-check process, manuscript discipline. **The Q0 attribution menu will land naturally with him** — he knows what those modes look like operationally. He may ask journalist-mindset questions (see Category C of Expected Questions). He'll have a finely-tuned ear for whether the framework's pitch is credible-trade-press-substantive vs. academic-jargon-overreach vs. activist-overclaiming. **He's the harder audience to fool but the easier audience to convince if the project is what it says it is.**
+- **Location:** CBF Richmond office; lives Chesterfield County, VA. Phone `202-603-2932` (kept his DC-area number — signals continued DC professional network). Email `dsherfinski@cbf.org`.
+- **Personal:** hiker, parks-and-outdoors, golf, wife + two children. Anchored personally in Chesterfield (suburban Richmond / James River watershed).
 - **Active thread with us:** Initial cold-outreach 2026-05-04 to Moore via Sherfinski-as-gateway. First reply 2026-05-06 from David offering routing assistance with a formal opener ("Dear Chris"). Consolidated into Val's MD-side thread 2026-05-13.
-- **What he likely cares about:** same gatekeeping concerns as Val (institutional discipline; routing accuracy; project legibility for his own ED Moore); plus VA-specific concerns (Tangier political identity; Omega Protein industry-friction; rural Northern Neck politics; Hampton Roads community engagement).
-- **What he wants from this meeting:** the VA-side translation pass; confirm the project's VA-side fit; route to Moore if it makes sense; flag VA-specific framing questions (Tangier handling, menhaden register).
-- **Posture:** slightly more formal opener register than Val; assume he'll listen more than Val in the joint meeting (Val opened the thread; David was added in). Don't read formality as caution — opening register is just opening register. May be quieter in the call; address him by name to invite his read-out periodically.
-
-> **Background research note (2026-05-19):** A parallel research agent attempted LinkedIn / prior-career / bylined-work research on both subjects and was blocked by web-tool restrictions. No external biographical detail surfaced beyond what's in the email register and the CBF org-brief. The hypothesis that "Sherfinski" suggests a prior journalism background (Reuters / Washington Times byline candidate) was unverified. Author may wish to do a manual LinkedIn pass before the call if 5 minutes is available.
+- **What he likely cares about:** project legibility for Moore (his ED); journalism-grade sourcing + attribution discipline (his prior-career standards); VA-specific framing questions (Tangier political identity; Omega Protein industry-friction; rural Northern Neck politics; Hampton Roads community engagement); whether the book's positioning fits the trade-press analytical-book register he knows from prior coverage.
+- **What he wants from this meeting:** the VA-side translation pass; verification that the project meets journalism-grade discipline standards; confirm the project's VA-side fit; route to Moore if it makes sense.
+- **Posture:** more formal opener register than Val; likely listens more than Val in joint meetings (Val opened the thread; David was added in). **Engage him by name periodically to invite read-out** — *"David, does that track with how you're hearing it?"* / *"David, anything from the VA side I should be ready for?"* He'll have substantive things to say but may not volunteer them in a Val-led conversation if not invited.
 
 ## About CBF (60-second org reference)
 
@@ -278,6 +292,52 @@ The categories below cover the questions Val + David are most likely to ask. Pra
 
 > *"Structural discipline. There's a five-pass rigor audit each chapter goes through; the first pass is fact-check against canonical ground truth. Any fact you correct during conversation routes into that pass for re-verification before the chapter ships. The standard convention is: 'paraphrase plus review-before-quote' means you'd see the quoted material before publication — including any factual claim attributed to you."*
 
+---
+
+### Category D+ — Journalism-mindset questions David specifically may raise
+
+**Context:** David's prior career as a Thomson Reuters Foundation climate/environmental reporter + multi-year DC reporter (local government / Congress / White House) means he'll evaluate this through professional journalism standards. Be ready for these.
+
+#### D+1. "What's your fact-check process?" / "Who's reviewing the manuscript?"
+
+**Verbatim response sketch (~45 sec):**
+
+> *"Five-pass rigor audit per chapter, in serial cadence. Pass one is fact-check against canonical ground truth — that's a structured inventory of every load-bearing factual claim, traced to source. Pass two is voice-polish for tics + register. Pass three is audience-load — running the chapter against ~30 reader-characters to test whether the audiences I'm trying to land actually land. Pass four is adversarial-robustness — same thing but with hostile readers, finding thread-pull patterns. Pass five is developmental-edit at whole-chapter scale. Each pass produces a finding artifact; the author ratifies findings; spot-fixes apply; then the next pass fires. For external review beyond what I do: per-subject pre-publication review of any quoted material attributed to them — that's the attribution menu I sent. Beyond that, there's a pre-publication review queue artifact I hand to the publisher with the manuscript flagging what's been internally verified vs. what would benefit from external review."*
+
+**If asked about who reviews internally:** *"AI-assisted analytical-rigor pipeline; full disclosure paragraph available. Final authorial responsibility mine. Not journalism's editor-of-record model — closer to academic peer-review-style structured audit, adapted for trade-press analytical-book material."*
+
+#### D+2. "Have you been a journalist? What's your prior writing?"
+
+**Verbatim response sketch (~30 sec):**
+
+> *"Not a journalist. Engineering by training; ran research operations at NIH; that's the management + structural-accounting side of the substrate. The book project is my first sustained long-form prose work at this scale. So this is trade-press analytical-book material, not journalism — comp-shelf is Mazzucato / Pistor / Klein / Sandel / Raworth rather than reporter-byline work."*
+
+**If David flags concern about a non-journalist approaching their EDs:** *"Fair question — my work is closer to a researcher writing a public-facing book than to a reporter on assignment. The conversation discipline is researcher-to-practitioner: calibration questions, mutual vocabulary work, attribution mode chosen by interviewee, pre-publication review for any quoted material. Not extracting quotes for a piece."*
+
+#### D+3. "What citations / source material are you working with for Ch 3?"
+
+**Verbatim response sketch (~30 sec):**
+
+> *"For Ch 3 — Colden's public record across stripers, oyster sanctuaries, menhaden, ASMFC testimony (about 26 catalogued items already). Moore's public record across menhaden, Bay-cap critique, the 1980s-recovery-not-replicable framing (about 17 items catalogued). CBF organizational documents — Bay Cap-from-historic-landings advocacy; the federal-disaster-declaration request; the litigation portfolio; STAC's 2023 CESR report; the menhaden-pause campaign. VIMS science where relevant — Lipcius + Mann + their teams. Federal sources — ASMFC stock assessments; NOAA Bay Office data. Place-specific source material from working-waterfront communities. The chapter's drawing from substantively rich public-record material; interview calibration adds vocabulary fit and color, not core empirical substrate."*
+
+#### D+4. "Are you using direct quotes, paraphrase, or both? What's your standard?"
+
+**Verbatim response sketch (~30 sec):**
+
+> *"Both. For most material, paraphrased attribution — the standard 'Moore has argued that...' / 'Colden's testimony on the OAC noted that...' Direct quotes when the specific phrasing is load-bearing — Moore's 'we don't have base science to make good decisions' lands harder verbatim. The attribution menu I sent puts each interviewee in control of the mode their material is quoted under — freely-quotable, paraphrase-with-review, or transcript-review-before-quoting. CBF leadership's professionally-constrained position is exactly why the menu is there."*
+
+#### D+5. "What's your AI-disclosure paragraph?"
+
+**Verbatim response sketch (~30 sec):**
+
+> *"Standard cover-letter paragraph. AI-assisted across the analytical-rigor pipeline + research substrate + drafting support; final authorial responsibility mine; transparent about the level of assistance. The book's not ghost-written; it's not AI-generated text under a human byline. The work flow is: I make every substantive call, AI assists with rigor passes + research summarization + draft iteration, I take responsibility for every published word. Happy to forward the disclosure paragraph if you'd like the exact phrasing."*
+
+#### D+6. "How does this differ from a journalist's profile of CBF's work?"
+
+**Verbatim response sketch (~30 sec):**
+
+> *"Different scope, different time-horizon, different deliverable. A journalist profile of CBF's work would be 1,500-3,000 words, on a news peg, sourced from interviews + organizational documents, written for a daily/weekly publication. This is a 5,000-6,000-word chapter in a 10-chapter analytical book, published 2027-2028 if it places, sourced from public record + small set of calibration conversations, written for an analytical-trade-press audience. The work the chapter does is structural-pattern analysis with the Bay as flagship case — different unit of analysis from a profile."*
+
 ### Category E — Routing-specific (the meeting's central business)
 
 #### E1. "Based on what you sent, do you want Allison only, Chris only, or both?"
@@ -454,7 +514,9 @@ The categories below cover the questions Val + David are most likely to ask. Pra
 1. **Re-read the TRANSLATION PASS section aloud once.** Cost severance + RCV in plain language with Bay examples. That's the call's central deliverable per Val's 5/15 framing.
 2. **Re-read the opener verbatim once.** "Val, David — thanks so much for making time today. Val, the framing in your last note was really helpful — let me lead with the translation rather than the framework jargon..."
 3. **Re-scan hard guardrails.** Don't lecture; don't introduce cross-system; mirror their political-register; don't disclose Fox Hill names.
-4. **Posture reset.** They're not cold and not adversarial. Val has self-framed as a non-economist asking you to translate. You're teaching with patience + Bay examples, not defending under interrogation. Treat the call as collegial; treat their comprehension as the deliverable.
+4. **Two posture resets:**
+   - **Val:** non-economist by background; environmental-nonprofit comms career; warm + self-deprecating + wants comprehension she can carry to Colden. **You're teaching with patience + Bay examples.**
+   - **David:** **ex-Reuters Foundation climate/environmental reporter + multi-year DC political reporter.** He's done the journalist side of the table. He'll evaluate the project against professional journalism standards for sourcing, attribution, fact-check process. **Don't oversell; do meet him at his professional eye.** Engage him by name periodically — *"David, does that track with how you're hearing it?"* He's the harder audience to fool but the easier audience to convince if the project is what it says it is.
 5. **Camera + mic check.** Lighting reasonable; mic close; background non-distracting.
 6. **Have this doc open in one tab. Have the meeting-prep brief open in another.**
 
