@@ -2,7 +2,7 @@
 
 **Workstream:** #20 Manuscript Stage-3 Rigor Pass — Phase A — Ch 9 — Pass 2 (voice-polish)
 **Date drafted:** 2026-05-19
-**Status:** PROPOSED. Awaiting author ratification before Phase C spot-fix application session.
+**Status:** RATIFIED + APPLIED 2026-05-21 (Phase C spot-fix session) — 13 voice-polish spot-fixes applied + Reading C v3 substantive rewrite of Public Choice section (134–148) + 8 findings ratified HOLD. See §11 disposition log below.
 **Mode:** Audit-existing-prose (post-Pass-1-Phase-C chapter is the baseline; v2.0 Amendment B voice-polish discipline as a distinct pass from Pass 1 fact-check and Pass 3 audience-load).
 **Source chapter:** `manuscript/chapters/Chapter__9_PricingHonestly.md` — **292 lines** (post-Pass-1-Phase-C state verified 2026-05-19 against worktree branch `claude/brave-cohen-33c03b`, branched from origin/main at `198e5f8`).
 
@@ -689,4 +689,61 @@ Per author's per-prompt scoping + v2.0 Amendment B distinct-pass discipline:
 
 ---
 
-*End of Ch 9 Stage-3 Pass 2 (Voice-Polish) rigor pass — PROPOSED 2026-05-19. Awaiting author ratification before Phase C spot-fix application. Pass 3 (audience-load) is the next session for this chapter after Phase C application.*
+---
+
+## §11. Disposition log (2026-05-21 Phase C session)
+
+Per-prompt sequential ratification session conducted 2026-05-21. All 21 findings dispositioned in a single interactive session against the chapter source. Findings ratified APPLY were applied to `manuscript/chapters/Chapter__9_PricingHonestly.md` in the same commit as this disposition-log update. Reading C v3 substantive rewrite of Public Choice section (134–148) emerged from the F-V8 walkthrough after author challenged the "complementary accounting" framing and requested an audience-load test of three readings (A current complementary / B substantive asymmetry / C hybrid asymmetric-within-mutual-citation); audience-load test settled on Reading C, then iterated through two further refinements (mechanism/consequence → extraction/ledger after author flagged "consequence" smuggles moralism into the impartial-accounting frame; honest → complete after author flagged "honest" carries the same moralism). Final ratified form: "Public Choice and the framework: rent-seeking under a complete ledger" + six-paragraph body emphasizing the framework as both measurement tool and decision tool.
+
+### Applied (13 voice-polish + Reading C v3 substantive rewrite)
+
+| Finding | Severity | Option | Disposition |
+|---|---|---|---|
+| **F-V1** | HIGH | A (italicize all three) | Restored italics on three book titles: *The Wealth of Nations* (line 170), *Doughnut Economics* (line 264), *Evicted* (line 266). Restores chapter-wide italicization discipline. |
+| **F-V2** | HIGH | A (full hyphenation rule) | Applied full-hyphenation rule to ~17 adjective-form instances across the chapter (lines 26, 32, 34, 36, 38 ×3, 46, 54 [+ ranking-instance caught during application], 68, 80 ×2, 82, 164, 166, 228, 234, 236, 252). Line 38's first instance ("low, medium, high existential substitutability gap") held as bin-naming noun-form per §9 noun-vs-adjective discipline. Noun-form uses at lines 70, 100, 270 unchanged. |
+| **F-V3** | HIGH | B (recast as preposition phrase) | Line 84: *"The existential substitutability gap-driven reserve is that framework."* → *"The reserve driven by the existential substitutability gap is that framework."* Eliminates the terminal-hyphen visual awkwardness; preserves noun-phrase lowercase form. |
+| **F-V6** | MEDIUM | A (vary subject sentence 3) | Line 52: *"It appreciates as the non-reserved stock depletes."* → *"The reserve appreciates as the non-reserved stock depletes."* Breaks the five-pronoun anaphoric chain at sentence 3; lighter-touch than original Option B recommendation. |
+| **F-V7** | MEDIUM | A (compress to one sentence) | Line 68: *"No other investment class does all three at once. Not infrastructure. Not defense. Not even education, though education compounds with all of them."* → *"No other investment class does all three at once — not infrastructure, not defense, not even education (though education compounds with all of them)."* Drops the named declarative-three coda; preserves comparative-investment-class substance. |
+| **F-V8** | MEDIUM | **SUPERSEDED by Reading C v3** | Original declarative-three close at line 146 (*"The framework is therefore not a Public Choice book... It is also not... It is a cost-accounting book..."*) does not survive the Reading C v3 substantive rewrite of the section. F-V8 resolved by the rewrite. |
+| **F-V9** | MEDIUM | A (add `---` separator) | Added `---` horizontal-rule separator before *"### What the eleven-cent difference actually buys"* subsection. Restores chapter's 12-of-12 structural break-rhythm consistency. |
+| **F-V10** | MEDIUM | B (preserve count digits; spell percentage) | Line 200: *"25-40 percent"* → *"twenty-five to forty percent"*. Preserves 250,000 study-count precision; aligns percentage with surrounding paragraph's spelled-out convention. |
+| **F-V12** | MEDIUM | C (compress to colon-list) | Line 272: *"And it needs to point, honestly, at the entering wedges: the carbon pricing regimes that already exist, the sovereign wealth funds that already exist..."* → *"And it needs to point, honestly, at the entering wedges that already exist: carbon pricing regimes, sovereign wealth funds, reclamation bonds, critical minerals stockpiles, environmental impact assessments, border carbon adjustments."* Drops the six-fold anaphora; preserves all six wedges; substantive payoff lands via colon-list structure. |
+| **F-V13** | MEDIUM | B (clean line 264; hold line 254) | Line 264: dropped *", to my knowledge,"* hedge. Line 254's *"the most honest answer I know how to give"* held — preserved as the chapter's deliberate first-person rhetorical-pivot moment. |
+| **F-V14** | MEDIUM | A (parenthetical at first occurrence) | Line 72: first RCV use expanded with parenthetical *"the lowest residual commons value (RCV) source first"*. Preserves Sandel-hybrid case-walk discipline for instances 2 and 3. Reader-courtesy first-introduction. |
+| **F-V17** | LOW | A (drop hyphen) | Line 222 (EPB Chattanooga): *"municipally-owned"* → *"municipally owned"*. Aligns with Chicago/AP style-guide convention (adverbs ending in -ly don't hyphenate with adjectives). Line 226's Vienna instance was already unhyphenated. |
+| **F-V18** | LOW | A (italicize) | Line 198: *"Mirror Mirror"* → *"*Mirror Mirror*"*. Aligns with academic convention for named report-series titles per inventory §7 italicization spirit. |
+| **F-V20** | LOW | A (drop "stated plainly") | Line 72: *"This is what pricing honestly demands, stated plainly."* → *"This is what pricing honestly demands."* Drops the named-adjacent meta-tell; substance carries without the framing-flag. Bundled with F-V14 line 72 fix. |
+| **Reading C v3** | — | Substantive rewrite | Section 134–148 rewritten in full. New header *"Public Choice and the framework: rent-seeking under a complete ledger"* (was *"complementary accounting"*); six-paragraph body reframes the framework-Public Choice relationship as asymmetric (Public Choice = extractor's reasoning under conditions of incomplete cost-visibility; framework = the complete ledger that changes what the extractor is reasoning about). Paragraph 3 reframed around *"is a number"* anaphora replacing prior *"is not deadweight loss"* — enacts the impartial-ledger move without smuggling moralism. Paragraph 4 names framework as both measurement tool AND decision tool. Paragraph 6 closing aphorism reframed: *"Someone designed it, and we can identify them"* (Public Choice idiom) → *"the ledger then shows what they designed has been costing, and to whom"* (framework idiom). Italicized aphorism convention preserved. |
+
+### Held (8 findings — 4 MEDIUM substantively-earned + 4 LOW pattern-enacts-content or style-preference)
+
+| Finding | Severity | Reason |
+|---|---|---|
+| **F-V4** | MEDIUM | Multi-resource enumeration at line 30 — substance-drives-length governs; Phase C three days ago deliberately deepened this paragraph (HIGH-6 + MEDIUM-2 in Pass 1 ratification); syntactic-shape variance already breaks strict-list rhythm; Pass 3 audience-load test is the better diagnostic for list-fatigue. |
+| **F-V5** | MEDIUM | Three-sentence resource-stability anaphora at line 48 — pattern enacts content; the platinum/REE/helium trio is the substantive payoff for the in-situ-storage argument; *"Nothing else."* fragment provides rhythm-break. |
+| **F-V11** | MEDIUM | Five-fold *"cannot work [X]"* anaphora at line 226 — rhetorical-emphasis device for the Chattanooga/Mondragon/Vienna case-bank payoff; within-one-sentence form softens the named pattern; *"In each case, it does"* coda is the cadence-snap. |
+| **F-V15** | MEDIUM | Chapter-wide em-dash density — substance-drives-length governs; em-dashes carry the case-anchoring load (BP/Baotou/Bayan Obo/Niger Delta/etc.); no single instance is the named crutch; expository-policy register makes heavier em-dash use defensible. |
+| **F-V16** | LOW | Closing rollcall five-element anaphora at line 282 — substantively earned; cross-chapter character-set echo is the chapter's closing rhetorical move + book-wide cost-severance archive callback; sentence-length variance on the fifth breaks strict-parallel. |
+| **F-V19** | LOW | *"The arithmetic of the political economy is simple."* at line 110 — single instance; named pattern is the colon-form not the period-form; substantive content carries the load. |
+| **F-V21** | LOW | Four-fold *"[X] crosses property lines"* anaphora at line 162 — pattern enacts content; transboundary externality IS structurally repetitive across externality types; Baotou sentence is the rhythm-break. |
+
+### Phase C application summary
+
+13 voice-polish spot-fixes + Reading C v3 substantive rewrite of section 134–148 applied to `manuscript/chapters/Chapter__9_PricingHonestly.md` in the same commit that records this disposition log. Chapter line count: 292 → 294 (net +2 lines: F-V9 separator addition +2 lines, F-V12 compression −1 line, Reading C v3 rewrite +1 line net, F-V7 compression −2 lines, F-V13 hedge removal 0 net, other edits 0 net).
+
+### Cross-chapter cascade flagged
+
+Reading C v3 substantive rewrite of the Public Choice section touches the framing the cross-chapter rent-seeking-engagement workstream inserted (commits `a1e54d9` → `bc02767`, 2026-05-17 → 2026-05-18). Specifically: [Ch 8:122](../manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md:122) carries a parallel rent-seeking paragraph from the same workstream. Per pipeline-doctrine v1.0.0 §3 change-cascade routing, that paragraph should be checked for coherence with the new Reading C framing (Public Choice = extractor's reasoning under incomplete cost-visibility; framework = the complete ledger that changes what the extractor reasons about; framework as both measurement and decision tool). Flagged for separate Ch 8 Stage 1c coherence-check session — not blocking this Phase C application. Recommend adding to cross-thread-todos for follow-up.
+
+### Pass 3 readiness
+
+Per workstream #20 Phase A discipline (Pass-1 → spot-fix → Pass-2 → spot-fix → Pass-3 → spot-fix per chapter, serial cadence): Ch 9 Pass 3 (audience-load) is the next session for this chapter. The Pass-2-surfaced audience-load concerns flagged at §6 above carry forward to that session, with these specific Reading-C-rewrite-related additions:
+
+- Pass 3 should run the 40-character full-rigor + adversarial audience-load test on the Reading C v3 Public Choice section (134–148). The informal audience-load test conducted during ratification settled on Reading C, but the formal Pass 3 character-set + thread-pull synthesis is the canonical diagnostic.
+- Pass 3 should test whether the *"is a number"* four-fold anaphora in para 3 of the rewrite lands as substantive impartial-ledger move or as named declarative-three pattern (cousin of F-V7 + F-V21 which were resolved differently in this Pass 2 disposition).
+- Pass 3 should test the qualified-INCLUDE landing for Tier-2/3 libertarian Public Choice (Cato / Mercatus / GMU) readers — the audience-load test predicted qualified-INCLUDE (not strong-INCLUDE) for this audience under Reading C; Pass 3 will confirm or update that prediction.
+- Cross-chapter cascade flag (Ch 8 rent-seeking paragraph coherence) should be resolved before Pass 3 fires to avoid cross-chapter drift in the audience-load read.
+
+---
+
+*End of Ch 9 Stage-3 Pass 2 (Voice-Polish) rigor pass — RATIFIED + APPLIED 2026-05-21. Pass 3 (audience-load) is the next session for this chapter.*
