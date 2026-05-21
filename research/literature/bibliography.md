@@ -1121,6 +1121,106 @@ The 2026-05-05 search also surfaced the following Colden public-record items, li
 
 ---
 
+## 19.6. Chesapeake fieldwork — public-record voices (post-petition expansion)
+
+**Status:** APPLIED. Sources surfaced 2026-05-18 through 2026-05-20 during the Ch 3 augmentation workstream Stage 1 brief construction (commit `b8806fa`) and Stage 2 audience-blind drafting (commit `9a7cc7e`); see `tools/stage-1-briefs/ch3_augmentation_workstream_2026-05-20_v1.0.0.md`. Each entry below grounds one or more verbatim quotes or canonical numerical anchors that landed in Ch 3 v2 prose at Stage 2 RATIFIED + APPLIED 2026-05-20.
+
+**Separation from §19.5.** §19.5 holds research-tier-tentative Colden interview-prospect material — sources screened in advance of an outreach the chapter has not yet relied on. §19.6 holds promotion-tier-applied augmentation sources — published journalism, regulatory record, and book sources whose quotes are already on the chapter page. The two registers have different evidentiary discipline (research-tier vs. promotion-tier) and different forward-disposition (research breadcrumbs vs. fact-check anchors), so they sit in separate sections.
+
+**Promotion criterion.** All §19.6 entries are already promoted. Each carries an APPLIED status, a chapter-line citation, and the verbatim text whose accuracy Stage 3 Pass 3.1 fact-check verifies against the URL.
+
+**Chapter relevance (all entries):** Ch 3 (Watermen / Chesapeake fishery — renewable-past-regeneration).
+
+**Named-subject consent posture (all entries):** Each named voice qualifies under the public-record exception per `tools/memory/feedback_named_subject_consent.md` — elected officials quoted from on-record speech, petitioners on regulatory record, or published-journalism interviewees. Courtesy notification before publication is the discipline (not consent). See Stage 1 brief §8 hard constraints.
+
+### Published journalism
+
+#### Sherfinski, David. "As Sea Levels Rise, Can Chesapeake Bay's Tangier Island Survive?" *Thomson Reuters Foundation / Context,* April 2022.
+
+- **Summary:** Long-form Tangier Island feature carrying interview material from mayor James "Ooker" Eskridge and from Cameron Evans, then a Tangier native studying at Virginia Wesleyan. Frames the climate-and-erosion arithmetic facing the island in terms its inhabitants use rather than in terms outside observers use.
+- **Relevance:** **LOAD-BEARING.** Provides the verbatim Eskridge quote (*"We're talking about saving a culture, the people, (a) way of life — the whole package."*) preferred for Ch 3's Tangier section per Stage 1 brief §8 hard-constraint on climate-rhetoric framing — the 2022 "saving a culture" framing carries the cultural-survival stakes more cleanly than Eskridge's 2017 sea-level-rise political-register quote. Also provides the Cameron Evans next-generation voice (*"If you can't save an island a mile and a half long, how are you going to save the East Coast?"*) for the chapter's discouragement-of-the-sons section.
+- **Status:** APPLIED at commit `9a7cc7e`.
+- **Grounds:** L9 James "Ooker" Eskridge cultural-survival voice at line 154; L7 Cameron Evans next-generation voice at line 178.
+- **Available at:** https://www.context.news/climate-risks/as-sea-levels-rise-can-chesapeake-bays-tangier-island-survive
+
+#### Fletcher, Kenneth R. "Tangier Island and the Way of the Watermen." *Smithsonian Magazine,* March 2009.
+
+- **Summary:** Long-form Tangier feature from the late-2000s carrying interview material from Cook Cannon, a former Tangier waterman then at the Chesapeake Bay Foundation, and from CBF fisheries scientist Bill Goldsborough. Documents the 140-to-65 working-watermen contraction on Tangier across the 2003-to-2009 window.
+- **Relevance:** **LOAD-BEARING.** Provides the verbatim Cook Cannon quote (*"I could cry to think about what's going to happen to Tangier"*) for Ch 3's Tangier section and the verbatim Goldsborough quote (*"Our objective is to try to restore the health of bay and aquatic life so that it can support viable fisheries [...]. We see that task taking place over a longer term [...]. But the watermen don't have the luxury of the long term. They are concerned about making their next boat payment."*) anchoring the institutional-time-scale-vs-watermen-time-scale asymmetry the 1985 rockfish moratorium section turns on.
+- **Status:** APPLIED at commit `9a7cc7e`.
+- **Grounds:** L10 Bill Goldsborough 1985 rockfish institutional-memory voice at line 81; L8 Cook Cannon cultural-survival voice at line 154.
+- **Available at:** https://www.smithsonianmag.com/science-nature/tangier-island-and-the-way-of-the-watermen-117890294/
+
+#### Wheeler, Timothy, and Jeremy Cox. "Amid oyster bounty, Chesapeake Bay watermen suffer dismal harvest." *Maryland Matters / Bay Journal,* April 27, 2026.
+
+- **Summary:** Co-bylined investigative piece (Bay Journal origination; Maryland Matters / Southern Maryland Chronicle syndication) documenting the 2025-to-2026 paradox of recovering oyster populations alongside collapsing watermen livelihoods. Carries on-record interview material from J.C. Hudgins (Virginia Watermen's Association president; Piankatank River waterman), Mitch Tarnowski (Maryland DNR oyster reef survey lead), Jason Ruth (owner, Harris Seafood Co., Grasonville MD), and U.S. Representative Andy Harris (R-MD); also runs the photograph of Pat Whewell culling oysters in Broad Creek aboard Lonnie Gowe's boat alongside Chumley Fisher and Chet Schwartz.
+- **Relevance:** **LOAD-BEARING.** Single largest source for the chapter's augmentation landings — four direct named-voice quotes plus the Tilghman Island working-waterfront photographic record. The piece's framing (recovering population, collapsing harvest economics, bipartisan-resilience register from Rep. Harris) maps directly onto Ch 3's paradox-of-recovery section.
+- **Status:** APPLIED at commit `9a7cc7e`.
+- **Grounds:** L1 J.C. Hudgins kitchen-table-economics voice at line 65 (*"You're lucky if you can put $150 in your pocket per day [...]"*); L2 Mitch Tarnowski twelve-word-chapter-thesis voice at line 186 (*"There are plenty of oysters out there [...]. They're just not being harvested."*); L3 Jason Ruth market-collapse named voice at line 190 (60-year nationwide shucked-oyster-sector decline); L11 Andy Harris bipartisan-structural-framing voice at line 178 (*"Our watermen are pretty resilient [...]"*); L12 Pat Whewell + Tilghman Island working-waterfront named presence at line 158.
+- **Available at:** https://southernmarylandchronicle.com/2026/04/27/amid-oyster-bounty-chesapeake-bay-watermen-suffer-dismal-harvest-2/
+
+#### Willis, Adam. "Chesapeake blue crabs are disappearing. The reason remains a mystery." *The Banner,* May 12, 2026.
+
+- **Summary:** Investigative piece on the long-arc decline of Chesapeake blue crab populations, documenting the 2025 winter dredge survey at approximately 238 million crabs (the second-lowest level since the survey began in 1990) and the sixth consecutive year of below-average numbers. Engages multiple researchers and watermen on the unresolved causal question.
+- **Relevance:** Canonical-fact anchor for Ch 3's blue crab section. Grounds the 2025 dredge-survey numerical anchor, the sixth-consecutive-year framing, and the long-arc structural-decline arc the chapter relies on. The chapter does not source a Banner-attributed verbatim quote; the piece grounds the numerical anchors and the structural framing.
+- **Status:** APPLIED at commit `9a7cc7e`.
+- **Grounds:** Canonical-fact anchor for the blue crab section (lines 93–99) — the 2025 dredge-survey number, the sixth-consecutive-year framing, and the structural-decline arc.
+- **Available at:** https://www.thebanner.com/community/climate-environment/chesapeake-bay-blue-crab-decline-E5CV5LURHNB23JLFNK4ZQTHCGE/
+
+#### Hafner, Katherine. "Menhaden board cuts amount harvesters can catch along the Atlantic next year." *WHRO,* October 29, 2025.
+
+- **Summary:** Reporting on the Atlantic States Marine Fisheries Commission's October 2025 menhaden-cap decision. Carries on-record interview material from Genny Nesslage (associate research professor, University of Maryland Center for Environmental Science) and from Rob Latour (Virginia Institute of Marine Science menhaden researcher); documents the 51,000-metric-ton Bay-specific cap originally set in 2006, and the Virginia Institute of Marine Science's 2023 $3 million proposal for a Bay-specific menhaden study that the Virginia General Assembly declined to fund.
+- **Relevance:** **LOAD-BEARING.** Provides the verbatim Nesslage quote (*"We don't know the abundance of menhaden in the bay at any given time relative to the coast."*) and the verbatim Latour quote (*"We have no data to really do this in a meaningful way, from a biological perspective."*) anchoring the science-gap voice in the chapter's menhaden section. Also grounds the Ch 3 v1-to-v2 date correction for the Bay cap's original establishment (v1 carried "2017"; the establishment year per Hafner is 2006). Stage 2 applied that correction.
+- **Status:** APPLIED at commit `9a7cc7e`.
+- **Grounds:** L5 Genny Nesslage menhaden-science-gap voice at line 113; L6 Rob Latour menhaden-cap-on-industry-record critique at line 113; 2006 Bay-cap-establishment date correction at line 111; VIMS $3 million Bay-study-proposal anchor at line 113.
+- **Available at:** https://www.whro.org/environment/2025-10-29/menhaden-board-cuts-amount-harvesters-can-catch-along-the-atlantic-next-year
+
+#### Winegrad, Gerald. "Chesapeake restoration collapsing on altar of political expediency." *Bay Journal,* October 4, 2024.
+
+- **Summary:** Opinion / forum piece from a former Maryland state senator and longtime Bay-restoration advocate, documenting the 2022 unimpaired-waters statistic (28.1 percent Bay-wide vs. 26.5 percent baseline in 1985 — minimal forty-year progress) and the long-arc declines across seven Maryland commercial fisheries (27-to-91 percent drops since 2012). Frames the Chesapeake Bay Program's forty-year effort as falling short of the political will required.
+- **Relevance:** Canonical-fact anchor for Ch 3's Chesapeake Bay Program / forty-year-cleanup section. Grounds the chapter's framing of the Program's science-advisory-committee review (*"the cleanup is not on track to meet its goals"*) and the structural claim that the agricultural sector has not done what the science required, because the political weight of the upstream agricultural economy exceeded the political weight of the downstream fishery economy. The chapter does not source a Winegrad-attributed verbatim quote; the piece grounds the analytical posture and the numerical anchors.
+- **Status:** APPLIED at commit `9a7cc7e`.
+- **Grounds:** Canonical-fact anchor for the Chesapeake Bay Program section (lines 125–129) — the forty-year-cleanup not-on-track framing, the political-will-vs-agricultural-weight asymmetry, and the unimpaired-waters / commercial-fisheries decline anchors.
+- **Available at:** https://www.bayjournal.com/opinion/forum/chesapeake-restoration-collapsing-on-altar-of-political-expediency/article_c10b6860-8193-11ef-860c-dfacdaaaa228.html
+
+#### Meinhardt, Mickie. "Chronicling The End Times on Tangier Island." *The Bitter Southerner.*
+
+- **Summary:** Long-form feature on Tangier Island's slow contraction, drawing on field-reporting interviews with Tangier residents including Cook Cannon. The sermon-register voice — Cannon's deep-faith Tangier framing — carries through the piece.
+- **Relevance:** Corroborating source for the L8 Cook Cannon cultural-survival voice. Provides independent attestation of Cannon's sermon-register framing of Tangier's contraction, parallel to but distinct from the *Smithsonian Magazine* piece (§19.6 G3). The chapter sources the verbatim Cannon quote from G3; G9 corroborates the voice's broader on-record posture across venues.
+- **Status:** APPLIED at commit `9a7cc7e` (cited as corroboration; primary verbatim sourcing for Cannon at G3).
+- **Grounds:** Corroboration for L8 Cook Cannon cultural-survival voice at line 154.
+- **Available at:** https://bittersoutherner.com/chronicling-the-end-times-on-tangier-island
+
+### Regulatory record
+
+#### O'Connor, Tonya. *Petition for Rulemaking to Establish a Temporary Moratorium on Chesapeake Bay Menhaden Reduction Fishing.* Filed with the Virginia Marine Resources Commission, December 31, 2025.
+
+- **Summary:** A 349-page petition filed by a Virginia resident asking the Virginia Marine Resources Commission to declare a temporary moratorium on the Bay's menhaden reduction fishery until Bay-specific science is produced. Documents that VMRC *"did not have — and still does not have — a Bay-wide estimate of menhaden biomass, age structure, spatial distribution, recruitment trends, or localized depletion risk."* Grounds the legal posture in Virginia's public-trust doctrine, citing *Commonwealth v. City of Newport News,* 158 Va. 521 (1932); *Taylor v. Commonwealth,* 102 Va. 759 (1904); and *Bradford v. Nature Conservancy,* 224 Va. 181 (1982). VMRC held a hearing on April 21, 2026, and received 1,266 public comments; the decision is pending.
+- **Relevance:** **LOAD-BEARING.** Provides the L4 regulatory-record voice in Ch 3's menhaden section — a working citizen on the formal record naming the data gap in the language the regulator itself uses. Grounds the public-trust doctrine citations that anchor the petition's legal posture (named-in-passing parenthetical grounding per Stage 1 brief §6.5; the chapter does not develop the doctrine analytically). The 1,266 public-comment count anchors the chapter's framing of the public response.
+- **Status:** APPLIED at commit `9a7cc7e`. Named-subject consent posture: public-record petitioner; courtesy-notification discipline applies. See Stage 1 brief §8.
+- **Grounds:** L4 Tonya O'Connor regulatory-record voice at line 119; VMRC petition data-gap framing, public-trust doctrine citations (*Commonwealth v. City of Newport News;* *Taylor v. Commonwealth;* *Bradford v. Nature Conservancy*), 1,266 public-comment count, April 21, 2026 hearing date.
+- **Available at:** https://mrc.virginia.gov/Notices/2026/Menhaden-Moratorium-Petition.pdf
+
+### Books and book journalism
+
+#### Swift, Earl. *Chesapeake Requiem: A Year with the Watermen of Vanishing Tangier Island.* Dey Street Books / HarperCollins, 2018.
+
+- **Summary:** Book-length narrative of a year spent with Tangier watermen, including Cook Cannon and Mayor James "Ooker" Eskridge among other named subjects. Documents the island's daily working life, the erosion-and-relocation arithmetic, and the cultural-survival stakes named by the inhabitants themselves.
+- **Relevance:** Corroborating source for the L8 Cook Cannon and L9 Eskridge voices. Provides extended on-the-record context for both subjects whose verbatim quotes the chapter sources from §19.6 G1 (Sherfinski) and §19.6 G3 (Fletcher / Smithsonian). The book grounds the chapter's framing of Tangier as a place its inhabitants are actively choosing to fight for, in the language they use among themselves.
+- **Status:** APPLIED at commit `9a7cc7e` (cited as corroboration; primary verbatim sourcing for Cannon at G3 and for Eskridge at G1).
+- **Grounds:** Corroboration for L8 Cook Cannon and L9 James "Ooker" Eskridge cultural-survival voices at lines 152–154.
+- **Available at:** Book — no URL. ISBN 978-0-06-266140-1.
+
+#### Unger, David J. Book review of *Chesapeake Requiem,* by Earl Swift. *Undark,* August 31, 2018.
+
+- **Summary:** Book review of Earl Swift's *Chesapeake Requiem* (§19.6 G2) in *Undark.* Cites Mayor Eskridge's 2017 town-hall exchange with then-former Vice President Al Gore on sea-level rise alongside Eskridge's erosion-and-shoreline framing.
+- **Relevance:** Corroborator for the Eskridge voice — independent attestation of Eskridge's on-record framing across multiple venues. Ch 3 defaults to the 2022 *"saving a culture"* quote from §19.6 G1 over Eskridge's 2017 sea-level-rise political-register quote per Stage 1 brief §8 hard-constraint on climate-rhetoric framing for Tangier (erosion-and-shoreline only). §19.6 G10 grounds the alternative public-record framing the chapter declined to quote, so the framing choice itself is documented rather than implicit.
+- **Status:** APPLIED at commit `9a7cc7e` (cited as corroboration for the framing choice; no verbatim quote sourced from G10).
+- **Grounds:** Corroborator for L9 James "Ooker" Eskridge voice at line 154; documents the Stage 1 brief §8 climate-rhetoric framing choice.
+- **Available at:** https://undark.org/2018/08/31/book-review-swift-chesapeake-requiem/
+
+---
+
 ## 20. Primary documents — Author's Note (family record)
 
 These two NASA patent records are cited in the Author's Note ("On Wind Tunnels and AI") to support the author's family-history claims about his grandfather's NASA Langley work. They are primary historical documents (USPTO patent record + NASA Tech Transfer disclosure), not scholarly literature engaged with by the framework, and are listed here separately to support reader verification. The patent record lists him as Lavern E. Winn; he filed under the initialed form "L. E. Winn" on application paperwork, which complicated initial retrieval. Both records were verified via patent-database searches in May 2026.
