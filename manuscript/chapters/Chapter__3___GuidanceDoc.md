@@ -3,7 +3,7 @@
 **Layer:** internal-scaffolding per Working Principle #10 (Two-layer content origination discipline).
 
 **Status as of 2026-05-20:**
-- Chapter 3 draft EXISTS at [`Chapter__3_TheWaterman__Draft.md`](Chapter__3_TheWaterman__Draft.md) — Pass 1 PROPOSED `2f76e37`. Pass 2 + Pass 3 not yet fired.
+- Chapter 3 draft EXISTS at [`Chapter__3_TheWaterman.md`](Chapter__3_TheWaterman.md) — Pass 1 PROPOSED `2f76e37`. Pass 2 + Pass 3 not yet fired.
 - **Substantive revision in flight.** Per author direction 2026-05-20, new research material (Tonya O'Connor 2025-12-31 VMRC petition + WHRO Oct 2025 + Maryland Matters Apr 2026 + Banner May 2026 + Smithsonian 2009 + Sherfinski 2022 + Earl Swift's *Chesapeake Requiem* + supporting sources) is being incorporated into Ch 3.
 - **Substance-drives-length rule explicitly applied.** Per `feedback_substance_drives_length.md` (ratified 2026-05-02). The prior "5,000-6,000 words" target is REMOVED. If material earns its place, it stays. Realistic expectation: 8,000-12,000 words.
 
@@ -90,7 +90,7 @@ The sequence — science gap → VIMS offers study → General Assembly refuses 
 
 Per `feedback_audience_aware_drafting_discipline.md` v2.0:
 
-- **The Stage 2 audience-blind drafting session does NOT open the existing Ch 3 draft** ([`Chapter__3_TheWaterman__Draft.md`](Chapter__3_TheWaterman__Draft.md)). Path B contamination (verbatim sentence reuse) is the failure mode being prevented.
+- **The Stage 2 audience-blind drafting session does NOT open the existing Ch 3 draft** ([`Chapter__3_TheWaterman.md`](Chapter__3_TheWaterman.md)). Path B contamination (verbatim sentence reuse) is the failure mode being prevented.
 - The Stage 2 session works only from the Stage 1 brief artifact's beats + canonical facts + structural anchors.
 - The Stage 1 brief itself MAY read the existing draft (Stage 1 is research/synthesis, not drafting).
 - Any sentence in the Stage 2 v2 draft that reads as a Ch 3 v1 echo at Stage 3 fact-check gets rewritten freshly, not pasted from v1.
@@ -184,7 +184,7 @@ Before the Stage 2 audience-blind drafting session fires:
 - [`../../tools/memory/feedback_substance_drives_length.md`](../../tools/memory/feedback_substance_drives_length.md) — substance-drives-length rule.
 - [`../../research/outreach/subjects/cbf/live-call-companion_2026-05-21_thursday-meeting.html`](../../research/outreach/subjects/cbf/live-call-companion_2026-05-21_thursday-meeting.html) — full voices catalogue + meeting prep.
 - [`../../tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../../tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) — cross-chapter rent-seeking engagement (Ch 5 + Ch 8 + Ch 9 + TA).
-- [`Chapter__3_TheWaterman__Draft.md`](Chapter__3_TheWaterman__Draft.md) — existing Ch 3 v1 draft (Pass 1 PROPOSED `2f76e37`).
+- [`Chapter__3_TheWaterman.md`](Chapter__3_TheWaterman.md) — existing Ch 3 v1 draft (Pass 1 PROPOSED `2f76e37`).
 - [`archive/Chapter__3___GuidanceDoc.md`](archive/Chapter__3___GuidanceDoc.md) — superseded archive copy (audit trail).
 - [`../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-XX_ch3_thewaterman_factcheck.md`](../../tools/rigor-passes/) — Ch 3 Pass 1 PROPOSED `2f76e37` artifact (verify exact filename).
 
