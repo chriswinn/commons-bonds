@@ -1,6 +1,6 @@
 # Noema Essay — Pass 3.1 Fact-Check Rigor Pass v1.0.0 — 2026-05-19
 
-**Status:** PROPOSED. Pass 3.1 fact-check artifact for Essay B (audience-blind Stage 2 draft of 2026-05-10, post §6.1/§6.2 spot-fixes per Stage 3 comparison verdict). Author ratification + Phase C application is a separate session.
+**Status:** RATIFIED + APPLIED 2026-05-21. Pass 3.1 fact-check artifact for Essay B (audience-blind Stage 2 draft of 2026-05-10, post §6.1/§6.2 spot-fixes per Stage 3 comparison verdict). Interactive ratification session (Amendment C cadence) walked author through each finding 2026-05-21; all 11 net-new findings + 2 ATG items + 6 CTG brief-repair items ratified and applied in the same session. See §9 (Ratification + Application record) for per-finding disposition.
 
 **Audit target:** [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) (Essay B in current state — header asserts §6.1 six surgical fact-fixes + §6.2 voice improvements + bundling-synthesis import have been applied).
 
@@ -10,7 +10,9 @@
 
 **Methodology:** Section-by-section audit against Stage 1 brief §7 canonical-truth section. Findings split into two streams: (a) re-flag if any §6.1 spot-fix is NOT applied (preserves original F-id from Stage 3 comparison §3.8); (b) net-new findings (F-FC-Noema-K numbering). External-citation verifications performed for HIGH-severity calls (Norway fiscal rule, *Umbrellas Don't Make It Rain* author order, A. Kirsten Mullen professional identity).
 
-**Hard constraint:** PROPOSED only. No spot-fixes applied to the essay file. Phase C application is a separate session post-author-ratification.
+**Hard constraint at original PROPOSED time:** No spot-fixes applied to the essay file. Phase C application is a separate session post-author-ratification.
+
+**Update 2026-05-21:** Amendment C interactive ratification session combined ratification + Phase C application in a single session. All ratified spot-fixes have been applied to the essay file ([manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md)) AND to the Stage 1 brief ([commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) §7). See §9 below.
 
 ---
 
@@ -480,4 +482,77 @@ This pass surfaced **six** canonical-truth-gap items at the Stage 1 brief level 
 
 ---
 
-*End of Pass 3.1 fact-check artifact. PROPOSED status. STOP. Author ratification + Phase C application is a separate session. Pass 3.2 voice-polish fires after Phase C application per v3.0 per-prompt serial cadence.*
+---
+
+## 9. Ratification + Application record (Amendment C interactive session, 2026-05-21)
+
+Per Amendment C interactive ratification cadence (ratified 2026-05-19; codified in [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md)): ratification + Phase C application combined into a single session. Author walked through each finding; chosen option + ratification noted below.
+
+### 9.1 Per-finding ratification
+
+| Finding | Severity | Author decision | Applied to essay? | Applied to brief (CTG)? |
+|---|---|---|---|---|
+| F-FC-Noema-1 (Norway fiscal-rule rate-history) | HIGH | Option A — insert rate-change history | ✅ line 99 | ✅ §7.4 (CTG-1) |
+| F-FC-Noema-2 (Mullen folklorist attribution) | HIGH | Option A — paired-discipline naming | ✅ line 103 | n/a (not in brief) |
+| F-FC-Noema-3 (Hamilton lead-author order) | HIGH | Option A — restore canonical order | ✅ line 105 | n/a (already correct in brief §7.4) |
+| F-FC-Noema-4 (Pharma $13→$273) | HIGH | Option A — replace with Daraprim ($13.50 → $750) | ✅ line 115 | ✅ §7.5 (CTG-2) |
+| F-FC-Noema-5 (Shad-as-river-herring) | MEDIUM | Option A — drop "river herring" | ✅ line 131 | ✅ §7.3 (CTG-3) |
+| F-FC-Noema-6 (Mondragon worker count) | MEDIUM | Option A — update to ~70K | ✅ line 125 | ✅ §7.5 (CTG-4) |
+| F-FC-Noema-7 (Fox Hill distance) | MEDIUM | Option A — "less than ten miles" | ✅ line 134 | ✅ §7.2 (CTG-5) |
+| F-FC-Noema-8 (Pacemaker $54 reimbursement) | MEDIUM | Option A — update to ~$86 (CPT 99497, 2024) | ✅ line 119 | ✅ §7.5 (CTG-6) |
+| F-FC-Noema-10 (Menhaden Bay-vs-coastwide cap) | MEDIUM | Option A — "Bay-specific cap" | ✅ line 131 | n/a (not in brief at this granularity) |
+| F-FC-Noema-9 (Norway fund value $1.9T) | LOW | Option A — verify at submission window; no essay change now | ⏸ flagged for submission-window re-verification | n/a |
+| F-FC-Noema-11 (math precision 33→45) | LOW | Author-modified — drop "every calendar year I was alive" + the 33/45 aphorism; replace with "every calendar year I worked there" | ✅ line 63 | n/a |
+| ATG-1 (NICU specifics) | author-confirm | Option B — author corrected: not feeding tube (IV + breathing + monitors); not two time zones (NE vs West Coast, not 2 zones); NICU bed not bassinet; add blue light | ✅ lines 21 (sentence 4) + line 21 (sentence 5: "bassinet" → "NICU bed") | n/a |
+| ATG-2 (NIH project granular figures) | author-confirm | Option A — canonical; retain. Author flagged willingness to soften on editor pushback. | (no change) | n/a |
+| CTG-1 through CTG-6 (Stage 1 brief Amendment A repairs) | brief-level | Option A — repair brief in same session | n/a | ✅ all six applied to brief §7 |
+
+### 9.2 Author-supplied correction detail (ATG-1)
+
+ATG-1 author correction (verbatim from ratification session):
+- "feeding tube" → INCORRECT. Author recollection: IV line + respiratory/breathing line + variety of monitoring lines and hoses.
+- "six days old" → CORRECT (specific moment-in-time anchor; son was in NICU for 2.5–3 months total but six days old at the plane scene).
+- "two time zones away" → INCORRECT. Author had deals in NE USA and West Coast; neither is two time zones from Savannah. Replaced with "in another part of the country."
+- "clear plastic bassinet" → INCORRECT terminology. NICU beds are not called bassinets. Replaced with "NICU bed" (in the line 21 follow-up sentence too). Author additionally noted a blue light (phototherapy lamp) was also part of the setup; ratified Option B retained the heat-lamp + blue-light pairing.
+
+Applied verbatim text (line 21):
+> He was in a neonatal intensive care unit in another part of the country, threaded with monitors and breathing lines, under a heat lamp and a blue light.
+
+Plus secondary repair (line 21, follow-up sentence): "beside the bassinet" → "beside the NICU bed."
+
+### 9.3 Author-modified correction detail (F-FC-Noema-11)
+
+Original line 63 second-half sentences:
+> I was doing three years of normal work for every calendar year I was alive. I was thirty-three. The math said I was forty-five.
+
+Replaced verbatim with:
+> I was doing three years of normal work for every calendar year I worked there.
+
+Trade-off accepted: drops the blurb-worthy aphorism in exchange for tighter math (avoids the implicit "extra-work-years on top of chronological age" calculation that required reconstruction). The closing-paragraph "I write this for my son" line carries the essay's blurb-worthy emotional landing; the 33→45 aphorism was not load-bearing for that.
+
+### 9.4 Submission-readiness verdict (post-application)
+
+**READY FOR Pass 3.2 voice-polish per v3.0 per-prompt serial cadence.** Pass 3.1 spot-fixes ratified + applied; no CRITICAL findings remained at PROPOSED time; all HIGH + MEDIUM findings now disposed. F-FC-Noema-9 (Norway fund value) flagged for submission-window re-verification.
+
+**Submission-window coordination preserved:** Noema submission still gated on Phat consent per `tools/memory/feedback_named_subject_consent.md` discipline (anonymization is the working-draft baseline; consent pursuit continues at relationship-pace; name restorable in future printing if consent lands). Anonymization in current essay file is ratified 2026-05-20.
+
+**Next step:** Pass 3.2 voice-polish fires in a separate session (per v3.0 per-prompt serial cadence). Then Pass 3.3 acceptance + Pass 3.4 robustness. Then Pass 3.5 developmental-edit (whole-essay restoration lens). Then Stage 4 render + Stage 5 sign-off bookend.
+
+### 9.5 Stage 1 brief repair completeness
+
+Six CTG canonical-truth-gap items applied to [commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md):
+
+| CTG | Brief §-anchor | Status |
+|---|---|---|
+| CTG-1 (Norway fiscal-rule rate-history) | §7.4 | ✅ Repaired |
+| CTG-2 (Daraprim case substitution) | §7.5 | ✅ Repaired |
+| CTG-3 (shad-not-river-herring) | §7.3 | ✅ Repaired (with taxonomic-correction note) |
+| CTG-4 (Mondragon ~70K not ~80K) | §7.5 | ✅ Repaired (with historical-peak note) |
+| CTG-5 (Fox Hill distance) | §7.2 | ✅ Repaired |
+| CTG-6 (pacemaker reimbursement) | §7.5 | ✅ Repaired (with CPT 99497 + year citation) |
+
+Future essays drafting from this brief (the four parallel Stage 1 briefs landed mid-session 2026-05-19: Aeon Version C, Boston Review, Atlantic Ideas, $100 Barrel) will inherit the repaired §7 canonical-truth section. The parallel briefs themselves may have inherited the original gaps if their drafting referenced this Noema brief — a separate audit pass against those four briefs is queued.
+
+---
+
+*End of Pass 3.1 fact-check artifact. RATIFIED + APPLIED 2026-05-21. Pass 3.2 voice-polish fires next per v3.0 per-prompt serial cadence.*
