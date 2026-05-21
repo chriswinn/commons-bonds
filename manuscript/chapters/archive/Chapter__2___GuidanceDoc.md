@@ -1,6 +1,6 @@
 # Chapter 2 — Internal Scaffolding (Drafting Direction + Extracted Annotations)
 
-**Layer:** internal-scaffolding per Working Principle #10 (Two-layer content origination discipline). This file holds the chapter's drafting direction + extracted scaffolding annotations. The corresponding publisher-facing Draft is `Chapter__2_TheMiner__Draft.md`.
+**Layer:** internal-scaffolding per Working Principle #10 (Two-layer content origination discipline). This file holds the chapter's drafting direction + extracted scaffolding annotations. The corresponding publisher-facing Draft is `Chapter__2_TheMiner.md`.
 
 **Consolidated 2026-04-30** by Insight #37 separation pass (Thread β.1) — folds Draft scaffolding annotations into the existing GuidanceDoc rather than maintaining separate internal-scaffolding files per chapter.
 
@@ -43,7 +43,7 @@ See: `alignment/commons_bonds_open_insights_v1.0.0.md` Insights #65 + #66 for fu
 | § COUNTERARGUMENT 6: "You ignore the benefits of extraction to the extraction community itself" (line ~215) | CURRENT | counterargument framing + response strategy still load-bearing |
 
 **Cross-references:**
-- `Chapter__2_TheMiner__Draft.md` — publisher-facing prose.
+- `Chapter__2_TheMiner.md` — publisher-facing prose.
 - `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 (Two-layer content origination discipline); WP#8 (publisher-facing scrubbed of scaffolding).
 - `alignment/commons_bonds_open_insights_v1.0.0.md` — current open insights + ratification log.
 - `core/terms/terms_index.md` — current canonical vocabulary.
@@ -52,7 +52,7 @@ See: `alignment/commons_bonds_open_insights_v1.0.0.md` Insights #65 + #66 for fu
 
 ## Extracted Draft scaffolding (added 2026-04-30 per Insight #37 separation pass)
 
-*Absorbed from former `Chapter__2_TheMiner__Draft.md` "## Draft Notes (for author review)" tail block. Inline `[INTERVIEW NEEDED — ...]` markers in chapter prose remain in the Draft as publisher-facing pending-prose markers (legitimate "TODO before publication" signals, not audit-trail content).*
+*Absorbed from former `Chapter__2_TheMiner.md` "## Draft Notes (for author review)" tail block. Inline `[INTERVIEW NEEDED — ...]` markers in chapter prose remain in the Draft as publisher-facing pending-prose markers (legitimate "TODO before publication" signals, not audit-trail content).*
 
 ### INTERVIEW NEEDED slots — 3 total
 

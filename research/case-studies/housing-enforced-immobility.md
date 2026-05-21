@@ -87,6 +87,6 @@ The "miners chose" counterargument is vulnerable to this third level because it 
 - `research/case-studies/2008-financial-crisis.md` — the acute form of this case's chronic pattern (foreclosure wave)
 - `research/case-studies/norway-swf.md` — the policy-alternative architecture (Norwegian model shows that resource rents can be captured collectively; this case asks where the equivalent instrument for housing-market rents would live)
 - `archive/Consider Including/commons_bonds_new_material_from_sociology_chat - consider including 4.html` — source material (§3)
-- `manuscript/chapters/Chapter__2_TheMiner__Draft.md` — candidate chapter home for this content
+- `manuscript/chapters/Chapter__2_TheMiner.md` — candidate chapter home for this content
 - `manuscript/chapters/Chapter__3___GuidanceDoc.md` — the Waterman chapter (alternate candidate home; similar enforced-immobility mechanism at a water-dependent scale)
 - `manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md` — alternate candidate home (as instance of housing-market cost severance)

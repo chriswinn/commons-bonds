@@ -1,6 +1,6 @@
 # Case Study: Appalachian Coal — McDowell County, West Virginia
 
-**Created:** 2026-04-22 (copied from `manuscript/chapters/Chapter__2_TheMiner__Draft.md` per housekeeping review item 16a follow-up)
+**Created:** 2026-04-22 (copied from `manuscript/chapters/Chapter__2_TheMiner.md` per housekeeping review item 16a follow-up)
 **Book home:** Chapter 2, *The Miner*
 **Status:** Case content copied verbatim from Ch 2 draft. Expansion notes at bottom flag depth topics (scrip economics, Hillbilly Elegy cross-reference, opioid pandemic connection, industry-accountability cases) that Chris has flagged as discussed-but-not-yet-integrated.
 **Related cases:** `norway-swf.md` (the direct contrast — same extraction mechanism, different institutional architecture). `libby-vermiculite.md` (similar company-town / bankruptcy-to-escape-liabilities pattern).
@@ -158,7 +158,7 @@ Cost severance is not a story about villains. It is a story about an instrument 
 
 ## Cross-references
 
-- `manuscript/chapters/Chapter__2_TheMiner__Draft.md` — source chapter (this content lives there in the main draft)
+- `manuscript/chapters/Chapter__2_TheMiner.md` — source chapter (this content lives there in the main draft)
 - `research/case-studies/norway-swf.md` — the direct contrast case (same mechanism, different institutional architecture)
 - `research/case-studies/libby-vermiculite.md` — similar company-town-to-bankruptcy pattern
 - `archive/_One Day Maybe/Counter-Vance/counter_vance_research_notes - consider including 5.html` — healthcare-extraction research (relevant to the opioid-pandemic-as-second-extraction expansion above)

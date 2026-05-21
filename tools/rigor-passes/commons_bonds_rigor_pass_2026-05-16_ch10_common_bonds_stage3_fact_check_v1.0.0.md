@@ -21,7 +21,7 @@
 
 **Cross-referenced chapters renamed** (commit `a09e319`, except Chs 2 + 3 which retain `__Draft`):
 - `Chapter__1_TheQuietMath.md`, `Chapter__4_TheExistenceProof.md` (note case correction), `Chapter__7_OnOtherWorlds.md`, `Chapter__8_WhatThingsActuallyCost.md`, `Chapter__9_PricingHonestly.md` — all updated throughout.
-- `Chapter__2_TheMiner__Draft.md`, `Chapter__3_TheWaterman__Draft.md` — retain `__Draft` (consent-pending markers; Phat, etc.).
+- `Chapter__2_TheMiner.md`, `Chapter__3_TheWaterman__Draft.md` — retain `__Draft` (consent-pending markers; Phat, etc.).
 
 **Ch 1 substantively revised between audit and update** (commits `54709e7` grandfather paragraph RATIFIED+APPLIED; `e69c61e` developmental-edit Phase C 9 spot-fixes; `eb14171` Pass 3.3 light re-fire RATIFIED; `d36534f` DMV-commute coda revision):
 - The grandfather sentence at original Ch 1:29 is now at Ch 1:30 and still reads "He was a model maker in the wind tunnels — a title he was proud of" (M-4 canonical anchor still holds).
@@ -60,7 +60,7 @@
 **Internal-corpus (cross-chapter consistency — bulk of Ch 10's fact-check surface):**
 
 1. [Chapter__1_TheQuietMath.md](manuscript/chapters/Chapter__1_TheQuietMath.md) — sunrise-departure bookend; grandfather-as-NASA-model-maker (line 29); author career framing (line 51 NIH origin; line 65 cable-TV CEO; line 67 DMV commute); author's parents (line 83); marriage end (line 95); son (lines 13, 17, 91, 99).
-2. [Chapter__2_TheMiner__Draft.md](manuscript/chapters/Chapter__2_TheMiner__Draft.md) — McDowell County canonical case; black lung; community collapse; Cost Severance vocabulary introduction (line 131).
+2. [Chapter__2_TheMiner.md](manuscript/chapters/Chapter__2_TheMiner.md) — McDowell County canonical case; black lung; community collapse; Cost Severance vocabulary introduction (line 131).
 3. [Chapter__3_TheWaterman__Draft.md](manuscript/chapters/Chapter__3_TheWaterman__Draft.md) — Old Point Comfort / Fox Hill / Hampton canonical waterman case; Biggie (deceased, named); Phat (anonymized, consent-pending).
 4. [Chapter__4_TheExistenceProof.md](manuscript/chapters/Chapter__4_TheExistenceProof.md) (post Pass 1 ratifications 2026-05-12) — Niger Delta / Ogoniland / UNEP 2011 / Saro-Wiwa 1995 anchors.
 5. [Chapter__7_OnOtherWorlds.md](manuscript/chapters/Chapter__7_OnOtherWorlds.md) — Mars administrator scene canonical (lines 25–47); six cost-hiding patterns (lines 107–127); Abundance Masking; Asymmetric Regret Rule; Europa boundary case (line 91).

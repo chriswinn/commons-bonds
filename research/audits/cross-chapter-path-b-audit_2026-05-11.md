@@ -61,7 +61,7 @@
 
 ### ✅ Ch 2 ↔ Ch 3 — Chesapeake / watermen preview-then-full — **VERIFIED CLEAN**
 
-**Finding inspected:** Ch 2 closes with a section "What McDowell County and the Chesapeake Have in Common" ([line 201–215](../../manuscript/chapters/Chapter__2_TheMiner__Draft.md:201)) that introduces the Chesapeake watermen at length before Ch 3 (the dedicated Waterman chapter) treats them.
+**Finding inspected:** Ch 2 closes with a section "What McDowell County and the Chesapeake Have in Common" ([line 201–215](../../manuscript/chapters/Chapter__2_TheMiner.md:201)) that introduces the Chesapeake watermen at length before Ch 3 (the dedicated Waterman chapter) treats them.
 
 **Investigation:**
 - Ch 2 line 201–215 is a ~250-word preview section establishing thematic parallel: McDowell miners → Chesapeake watermen; mechanism is structurally the same (value disperses, costs concentrate) even though specifics differ

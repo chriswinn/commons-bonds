@@ -102,4 +102,4 @@ Vance's own book inadvertently supports the structural argument. Near its conclu
 - `research/case-studies/2008-financial-crisis.md` — demonstrates the accountability-escape mechanism at national-financial scale
 - `archive/Consider Including/commons_bonds_new_material_from_sociology_chat - consider including 4.html` — source material (§4)
 - `archive/_One Day Maybe/Counter-Vance/counter_vance_research_notes - consider including 5.html` — healthcare-extraction research (potentially has additional opioid-distribution-pipeline content)
-- `manuscript/chapters/Chapter__2_TheMiner__Draft.md` — the chapter that currently does *not* have this content but should, per the sociology-paper source's suggested placement
+- `manuscript/chapters/Chapter__2_TheMiner.md` — the chapter that currently does *not* have this content but should, per the sociology-paper source's suggested placement

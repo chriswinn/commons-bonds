@@ -300,7 +300,7 @@ All courtesy-notifications can be batched via single email to (a) Jessica Lilly 
 
 ## Cross-references
 
-- **Ch 2 file:** [`manuscript/chapters/Chapter__2_TheMiner__Draft.md`](../../manuscript/chapters/Chapter__2_TheMiner__Draft.md) — placeholders at lines 30 + 161 + 166 (#166 to be cut per Decision B).
+- **Ch 2 file:** [`manuscript/chapters/Chapter__2_TheMiner.md`](../../manuscript/chapters/Chapter__2_TheMiner.md) — placeholders at lines 30 + 161 + 166 (#166 to be cut per Decision B).
 - **Pass 3 rigor pass + Ratification rev 2026-05-20:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-13_ch2_the_miner_stage3_audience_load_v1.0.0.md`](../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-13_ch2_the_miner_stage3_audience_load_v1.0.0.md) — Decisions A/B/C + MT-4 (Tier-3 coal-miner verdict ✓ → ✓✓ flip-condition).
 - **Pass 1 + Pass 2 artifact:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-12_ch2_theminer_factcheck_only_v1.0.0.md`](../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-12_ch2_theminer_factcheck_only_v1.0.0.md) — 14 prior spot-fixes context.
 - **Ch 2 case-study brief:** [`research/case-studies/appalachian-coal.md`](appalachian-coal.md) — verbatim source for chapter; pre-substitution candidate-integration sweep target.

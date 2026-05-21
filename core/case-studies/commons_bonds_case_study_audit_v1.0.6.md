@@ -171,7 +171,7 @@ Each profile applies the v1.3.0 rigor protocol at full rigor with compressed ren
 
 ### §2.1 Appalachian coal — McDowell County, West Virginia
 
-**Status:** Canonical draft in `manuscript/chapters/Chapter__2_TheMiner__Draft.md` (253 lines). Case-study file `research/case-studies/appalachian-coal.md` (165 lines) holds the draft content plus expansion notes for depth topics.
+**Status:** Canonical draft in `manuscript/chapters/Chapter__2_TheMiner.md` (253 lines). Case-study file `research/case-studies/appalachian-coal.md` (165 lines) holds the draft content plus expansion notes for depth topics.
 **Book home:** Book 1 — Ch 2 anchor.
 **Dimension activation (primary):** Habitability (black lung), Spatial (distance-enabled ignorance), Temporal (intergenerational collapse), Institutional (company-town), Kindred (family workforce + children dispersed), Ecosystem (acid mine drainage), Political (regulatory capture), Cohesion (community collapse), Epistemic (black lung concealment), Autonomy (constrained consent). **Densest multi-dimension activation in the framework — all 10 dimensions load-bearing.**
 

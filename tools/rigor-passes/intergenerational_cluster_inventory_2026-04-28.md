@@ -21,7 +21,7 @@
 | File label | Path |
 |---|---|
 | Ch1 draft | manuscript/chapters/Chapter__1___Draft.md |
-| Ch2 draft | manuscript/chapters/Chapter__2_TheMiner__Draft.md |
+| Ch2 draft | manuscript/chapters/Chapter__2_TheMiner.md |
 | Ch4 draft | manuscript/chapters/Chapter__4_THEEXISTENCEPROOF__Draft.md |
 | Ch5 draft | manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md |
 | Ch6 HTML | manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html |

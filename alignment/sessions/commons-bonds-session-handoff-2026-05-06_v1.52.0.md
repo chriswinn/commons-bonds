@@ -75,7 +75,7 @@
 | Ch | Title | Status | File |
 |---|---|---|---|
 | 1 | The Quiet Math | **Drafted 2026-05-04** + title ratified per `commons_bonds_rigor_pass_2026-05-04_ch1_title_candidates_v2.0.0.md`. Framework-felt-not-named discipline applied; consent-rejection plan applied (wife details dropped); sunrise bookend with Ch 10. ~25 line-level revisions during drafting + cleanup. | `Chapter__1_TheQuietMath__Draft.md` |
-| 2 | The Miner | Drafted; Phase 1 framework audit applied; Insight #65 cascade (open-framing across "distance" usages) partially applied. | `Chapter__2_TheMiner__Draft.md` |
+| 2 | The Miner | Drafted; Phase 1 framework audit applied; Insight #65 cascade (open-framing across "distance" usages) partially applied. | `Chapter__2_TheMiner.md` |
 | 3 | (Watermen / Chesapeake) | **UNDRAFTED.** Gated on Chesapeake fieldwork outreach (Colden interview pending). Bibliography §19.5 Chesapeake sources captured 2026-05-05. | (no draft) |
 | 4 | The Existence Proof | Drafted; argument-spine depends on Intergenerational Option Value (Insight #57 promoted Tier B). | `Chapter__4_THEEXISTENCEPROOF__Draft.md` |
 | 5 | The Accountability Gap | Drafted; "Restitution and Foreclosure: Two Directions of Accountability" section is the framework's Restitution Bond / Foreclosure Bond home; Darity-Mullen + *Umbrellas* cited as contemporary landmark of reparations-economics. | `Chapter__5_THEACCOUNTABILITYGAP__Draft.md` |

@@ -4,7 +4,7 @@
 **Workstream:** Manuscript Stage-3 Rigor Pass (PM dashboard #20)
 **Phase:** A — per-chapter Stage-3 audit, Ch 2
 **Scope of this artifact:** Pass 1 (fact-check) + Pass 2 (voice-polish), fired same session 2026-05-12. Pass 3 (audience-load) deferred to a follow-up session. Filename retains `_factcheck_only_` slug for git-history continuity; when Pass 3 lands, the artifact will be renamed to `..._stage3_three_pass_v1.0.0.md` per workstream convention.
-**File audited:** `manuscript/chapters/Chapter__2_TheMiner__Draft.md` (217 lines, ~5,000w target)
+**File audited:** `manuscript/chapters/Chapter__2_TheMiner.md` (217 lines, ~5,000w target)
 **Canonical sources cross-referenced:**
 - `research/literature/bibliography.md` §1, §2, §10, §13 (Harvey 2003, Mazzucato 2018, Keefe 2021, Case & Deaton 2020, Blackley et al. 2018, GAO reclamation reports)
 - `research/case-studies/appalachian-coal.md` (Ch 2's case-study brief — verbatim source for much of the chapter prose)
@@ -238,7 +238,7 @@ The chapter's argument, structure, and apparatus are intact. Findings cluster in
 
 ## Cross-references
 
-- `manuscript/chapters/Chapter__2_TheMiner__Draft.md` — chapter under audit
+- `manuscript/chapters/Chapter__2_TheMiner.md` — chapter under audit
 - `manuscript/chapters/Chapter__2___GuidanceDoc.md` — internal-scaffolding guidance (per-section staleness audit 2026-05-08)
 - `research/case-studies/appalachian-coal.md` — verbatim-source case study (propagation target)
 - `research/case-studies/opioid-extraction-appalachia.md` — opioid-section brief

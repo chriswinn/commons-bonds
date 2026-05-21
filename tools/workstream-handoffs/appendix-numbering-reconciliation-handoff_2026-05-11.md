@@ -66,7 +66,7 @@ Rename sections / cross-references in the Tech Appendix to the canonical scheme.
 
 Scan all chapter files for appendix cross-references:
 - `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md`
-- `manuscript/chapters/Chapter__2_TheMiner__Draft.md`
+- `manuscript/chapters/Chapter__2_TheMiner.md`
 - `manuscript/chapters/Chapter__3_TheWaterman__Draft.md`
 - `manuscript/chapters/Chapter__4_THEEXISTENCEPROOF__Draft.md`
 - `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md`

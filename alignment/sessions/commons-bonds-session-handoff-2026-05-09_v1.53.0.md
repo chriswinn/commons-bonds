@@ -71,7 +71,7 @@ Per author direction 2026-05-09: each workstream gets a fresh dedicated session 
 | Ch | Title | Status | File | Length |
 |---|---|---|---|---|
 | 1 | The Quiet Math | **Drafted 2026-05-04**; tentatively final (sunrise bookend with Ch 10; consent-rejection plan applied; framework-felt-not-named discipline applied) | `Chapter__1_TheQuietMath__Draft.md` | ~3,400w |
-| 2 | The Miner | Drafted; Phase 1 framework audit applied; 3 INTERVIEW NEEDED placeholders flagged per weekly-audit-2026-04-28 | `Chapter__2_TheMiner__Draft.md` | ~4,957w |
+| 2 | The Miner | Drafted; Phase 1 framework audit applied; 3 INTERVIEW NEEDED placeholders flagged per weekly-audit-2026-04-28 | `Chapter__2_TheMiner.md` | ~4,957w |
 | 3 | The Waterman | **Drafted 2026-05-09** (commit `3a8b096`); from public-record material per substitution-hypothesis | `Chapter__3_TheWaterman__Draft.md` | ~192 lines |
 | 4 | The Existence Proof | Drafted; Norway sovereign-wealth-fund case load-bearing | `Chapter__4_THEEXISTENCEPROOF__Draft.md` | ~3,975w |
 | 5 | The Accountability Gap | Drafted; "Restitution and Foreclosure" two-instrument decomposition load-bearing; Pistor + Christophers paragraph engagement landed 2026-05-08 (`d78872e`) | `Chapter__5_THEACCOUNTABILITYGAP__Draft.md` | ~9,574w |

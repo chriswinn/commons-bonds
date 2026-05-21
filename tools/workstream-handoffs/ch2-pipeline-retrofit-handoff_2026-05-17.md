@@ -2,7 +2,7 @@
 
 **Date drafted:** 2026-05-17
 **Branch prefix:** `claude/ch2-pipeline-retrofit-`
-**Chapter:** Ch 2 — *The Miner* (`manuscript/chapters/Chapter__2_TheMiner__Draft.md`)
+**Chapter:** Ch 2 — *The Miner* (`manuscript/chapters/Chapter__2_TheMiner.md`)
 **Status going in:** Pass 1 RATIFIED + APPLIED 2026-05-12. Pass 2 + Pass 3 not yet run under pre-v3.0 framing.
 **Template:** [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
 **Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)

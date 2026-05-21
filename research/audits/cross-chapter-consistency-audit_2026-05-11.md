@@ -146,7 +146,7 @@ Spot-checked the following:
 ### 🟡 N-2: BLTF debt — Ch 5 rounds "4.6 billion" down to "over four billion"
 
 **Current state:**
-- [Ch 2 line 67](manuscript/chapters/Chapter__2_TheMiner__Draft.md:67) (canonical site per Path B Fix 2): "*the fund is $4.6 billion in debt*"
+- [Ch 2 line 67](manuscript/chapters/Chapter__2_TheMiner.md:67) (canonical site per Path B Fix 2): "*the fund is $4.6 billion in debt*"
 - [Ch 5 line 206](manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md:206): "*currently over four billion dollars in debt*"
 
 **Problem:** Ch 5's "over four billion" is technically true (4.6 is over 4) but rounds away the specificity Ch 2 establishes as canonical. Mild inconsistency.
@@ -197,7 +197,7 @@ Verified consistent. Ch 5's additional "$16 trillion Fed peak" figure is Ch 5-sc
 **Current state:**
 - Glossary v4 entry: "Value Extraction" (Title-case framework term)
 - Glossary definition body: "*value extraction is the causal event*" (lowercase within the entry's own definition)
-- [Ch 2 line 137](manuscript/chapters/Chapter__2_TheMiner__Draft.md:137): "*The paired mechanism is **value extraction***" (lowercase bold)
+- [Ch 2 line 137](manuscript/chapters/Chapter__2_TheMiner.md:137): "*The paired mechanism is **value extraction***" (lowercase bold)
 - [Ch 10 line 85](manuscript/chapters/Chapter_10_CommonBonds__Draft.md:85): "*value extraction and cost bearing are separated*" (lowercase prose)
 
 **Question:** Is "value extraction" a Title-case framework term (paralleling "Cost Severance") or a lowercase prose phrase (paralleling "intergenerational cost severance")?

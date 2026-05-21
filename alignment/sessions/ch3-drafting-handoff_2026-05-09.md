@@ -60,7 +60,7 @@ Source for full operational frame: `manuscript/essay/Noema/noema-essay-drafting-
 ## §3. Required reading (in order; lean — substitution-hypothesis-tested)
 
 1. **`manuscript/chapters/Chapter__3___GuidanceDoc.md`** — full read. Canonical structural guidance. Pure Register 1; 2-4 watermen at depth; Hampton-specificity discipline; renewable-past-regeneration as Ch 3's distinctive framework contribution; closing tie-back; Norway bridge.
-2. **`manuscript/chapters/Chapter__2_TheMiner__Draft.md`** — full read. Structural sibling; sets the register bar.
+2. **`manuscript/chapters/Chapter__2_TheMiner.md`** — full read. Structural sibling; sets the register bar.
 3. **`manuscript/chapters/Chapter__3_TheWaterman__Draft.md`** (the 7K-word v1 from prior session) — read end-to-end if iterating; skim if restarting.
 4. **`research/outreach/subjects/colden/background-brief_2026-05-08.md`** — **skim, don't fully read** — pull what you need: oyster collapse statistics; striped bass + menhaden + crab regulatory battles; CBF positions; named watermen quotes (mine via grep); specific years and events.
 5. **`alignment/commons_bonds_personal_stories_candidates_v1.0.0.md`** — grep for "Hampton" / "Bay" / "harbor" / "waterman" / "Old Point Comfort" / "Fort Monroe" / "dockmaster" / "sailboat" — Chris's documented first-person material.

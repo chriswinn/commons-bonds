@@ -261,7 +261,7 @@ To §17 (Externality theory and climate cost):
 
 Chapter drafts (substantive content changes):
 - manuscript/chapters/Chapter__1___Draft.md (no changes this session)
-- manuscript/chapters/Chapter__2_TheMiner__Draft.md (Q1 additions + CTR Version G)
+- manuscript/chapters/Chapter__2_TheMiner.md (Q1 additions + CTR Version G)
 - manuscript/chapters/Chapter__4_THEEXISTENCEPROOF__Draft.md (no changes this session — completed earlier)
 - manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md (Insight #24 line 209 substitution)
 - manuscript/chapters/Chapter__6_ThreeWaysofCounting__Draft.html (no changes this session)

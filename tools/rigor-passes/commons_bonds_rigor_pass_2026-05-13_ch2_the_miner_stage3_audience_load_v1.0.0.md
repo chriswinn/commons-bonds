@@ -5,7 +5,7 @@
 **Status:** pending author ratification of recommended micro-tweaks (none required for verdict; chapter is READY AS-IS on audience-load)
 **Workstream:** Manuscript Stage-3 Rigor Pass (PM dashboard #20)
 **Phase:** A — per-chapter Stage-3 audit, Ch 2, Pass 3 only
-**File audited:** `manuscript/chapters/Chapter__2_TheMiner__Draft.md` — current post-Phase-C-γ state, **223 lines / ~5,263 words** (verified `wc` on the post-spot-fix file; word-count target ~5,000w — on-target).
+**File audited:** `manuscript/chapters/Chapter__2_TheMiner.md` — current post-Phase-C-γ state, **223 lines / ~5,263 words** (verified `wc` on the post-spot-fix file; word-count target ~5,000w — on-target).
 **Branch:** `claude/manuscript-stage-3-ch2-pass3-exciting-heyrovsky-327780`
 
 ---
@@ -349,7 +349,7 @@ No living-private named subjects detected. No consent issue.
 
 ## Cross-references
 
-- **Chapter under audit:** [`manuscript/chapters/Chapter__2_TheMiner__Draft.md`](../../manuscript/chapters/Chapter__2_TheMiner__Draft.md) — current post-Phase-C-γ state (223 lines / ~5,263w).
+- **Chapter under audit:** [`manuscript/chapters/Chapter__2_TheMiner.md`](../../manuscript/chapters/Chapter__2_TheMiner.md) — current post-Phase-C-γ state (223 lines / ~5,263w).
 - **Pass 1 + Pass 2 artifact:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-12_ch2_theminer_factcheck_only_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-12_ch2_theminer_factcheck_only_v1.0.0.md).
 - **Phase C spot-fix commits:** `5bc6edb` (Phase C-α + C-β: C-1 + C-2 + C-3 + C-4 + H-1 + H-3 = 6 fact-check spot-fixes); `fa08c10` (Phase C-γ: V-1 + V-2/H-2 + V-3 + V-4 + V-5 + V-6 + V-7 + V-10 = 8 voice-polish spot-fixes). Cumulative 14 spot-fixes applied.
 - **Cost Severance defense paragraph:** commit `8e61cd1` (ratified 2026-05-11; tightened in Pass 2 V-1 spot-fix per `fa08c10`).
