@@ -38,7 +38,7 @@ The population began to drain. Not all at once — slowly, then faster, then in 
 
 What remained was this: a male life expectancy of 63.5 years, against a national male average of 76.5. Thirteen years. Not a gap you can close with better personal choices or a more optimistic attitude. Thirteen years is a structural outcome. It is what happens to bodies when costs accumulate over generations without relief.
 
-The drug death rate in McDowell County runs at 141 per 100,000 — roughly five times the national average. The poverty rate is 37.6 percent. Median household income is $28,235, and the county ranks 55th of 55 West Virginia counties in health outcomes. The first food stamps under the modern program were issued here. The latest data suggests the county may need them again.
+The drug death rate in McDowell County runs at 141 per 100,000 — close to ten times the 2015 national rate of roughly sixteen per hundred thousand. The poverty rate is 37.6 percent. Median household income is $28,235, and the county ranks 55th of 55 West Virginia counties in health outcomes. The first food stamps under the modern program were issued here. The latest data suggests the county may need them again.
 
 These numbers are real. But numbers are not the argument. Numbers are what the argument explains.
 
