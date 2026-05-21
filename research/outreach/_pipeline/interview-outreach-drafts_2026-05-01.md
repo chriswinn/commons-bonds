@@ -56,6 +56,20 @@ Body:
 > University College London (UCL)
 > 11 Montague Street, London, WC1B 5BP
 
+**ACKNOWLEDGMENT REPLY SENT 2026-05-21:** Gracious close-out sent to Adam Albrecht on the same thread. Preserves the relationship + leaves the door open for a post-publication courtesy copy via his office. No further action expected.
+
+**Verbatim 2026-05-21 acknowledgment-reply (sent):**
+
+> Dear Adam,
+>
+> Thank you for the prompt and gracious response, and please pass along my thanks to Prof. Mazzucato for considering the request. Completely understood — I know the demands on her time are extraordinary, and I'm grateful her office has been so courteous throughout.
+>
+> Her work has already shaped how I think about the territory the book is mapping; the chapters will carry that lineage in their citations. If there's ever a moment in the future when an exchange might be welcome — perhaps once the book is in hand — I'd be glad to send a copy via your office.
+>
+> With appreciation, and best wishes to you and to Prof. Mazzucato.
+>
+> Chris Winn
+
 **STATUS UPDATE 2026-05-06 (historical; superseded by 2026-05-21):** Holding response received from Adam Albrecht: *"Thank you for your message to Professor Mazzucato. We will review the request alongside other commitments and get back to you shortly."* Standard academic-EA holding-response register; neither acceptance nor decline.
 
 **Email address (verify):** Likely `m.mazzucato@ucl.ac.uk` per UCL public directory; verify on UCL IIPP page.
