@@ -238,7 +238,7 @@ patterns:
     type: regex
     severity: HIGH
     category: process-scaffolding
-    description: "Process token 'Pass X.Y' from Stage 3 four-pass rigor audit"
+    description: "Process token 'Pass X.Y' from Stage 3 five-pass rigor audit"
     allowlist: []
 
   - id: scaffold-stage-numbering

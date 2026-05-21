@@ -1,6 +1,6 @@
 ---
-name: Pipeline doctrine — single unified pipeline for publisher-facing prose (v3.0)
-description: Six-stage pipeline (Stages 0-5) with four-pass Stage 3 + continuous invariant-gate scans + change-cascade routing + cross-chapter workstream lifecycle. Extends v2.0 Amendment B. v3.0 ratified 2026-05-17; canonical full doctrine at tools/commons_bonds_pipeline_doctrine_v1.0.0.md in commons-bonds repo.
+name: Pipeline doctrine — single unified pipeline for publisher-facing prose (v3.1)
+description: Six-stage pipeline (Stages 0-5) with five-pass Stage 3 (Amendment B 2026-05-18 added Pass 3.5 developmental-edit) + two-class cascade (Amendment A 2026-05-18 — automatic-on-edit vs explicit-gate) + continuous invariant-gate scans + change-cascade routing + cross-chapter workstream lifecycle. Extends v3.0 (2026-05-17) → v2.0 Amendment B. Canonical full doctrine at tools/commons_bonds_pipeline_doctrine_v1.0.0.md in commons-bonds repo.
 type: feedback
 originSessionId: 6a97b0f9-c18b-4992-8bf6-b2bbf9c60acf
 ---
@@ -29,19 +29,42 @@ and continuous invariant-gate scans:
   - **1c:** cross-artifact coherence check (bibliography + AuthorsNote +
     sibling-chapter + rigor-pass coherence).
 - **Stage 2:** audience-blind drafting (existing).
-- **Stage 3:** four-pass rigor audit.
+- **Stage 3:** five-pass rigor audit.
   - **3.1:** fact-check (per v2.0).
   - **3.2:** voice-polish (per v2.0).
   - **3.3:** audience-load acceptance (target audiences; INCLUDE / EXCLUDE
     verdict per character).
   - **3.4:** audience-load robustness (adversarial / detractor characters;
     thread-pull synthesis verdict; NEW in v3.0).
+  - **3.5:** developmental-edit (whole-chapter restoration-of-richness lens;
+    catches emotional-arc continuity + scene-anchor density + sensory-detail
+    restoration + voice-flow continuity + cumulative-LLM-cadence residue +
+    reader-engagement at analytical pivots; restoration polarity, NOT cutting;
+    NEW in v3.1 Amendment B 2026-05-18).
 - **Stage 4:** render + character-integrity audit (NEW in v3.0).
 - **Stage 5:** academic-rigor + prose-quality sign-off bookend + pre-publication
   review queue artifact (NEW in v3.0).
 
 Per-prompt serial cadence enforced (each pass fires in its own prompt; author
 ratifies + spot-fixes apply before next pass fires).
+
+**Amendment A two-class cascade (ratified 2026-05-18 — load-bearing for
+per-session pipeline routing):**
+
+- **Automatic-on-edit cascade** (cheap; fires on every prose edit): Pass 3.1
+  fact-check + Pass 3.2 voice-polish + Stage 1c-light cross-artifact coherence.
+  ~10K-30K tokens per prose-edit event; justified by value-added prose rigor.
+- **Explicit-gate cascade** (heavy; fires only on author trigger at specific
+  gates — venue change, pre-publication, cross-chapter workstream close,
+  author "build it now" / "developmental read-through"): Pass 3.3 acceptance +
+  Pass 3.4 robustness + Pass 3.5 developmental-edit + Stage 4 render-audit +
+  Stage 5 sign-off + pre-pub queue. 40K-160K tokens per pre-pub batch;
+  amortized over many prose edits rather than paid per spot-fix.
+
+Token-economy rationale: render-toolchain containerization (Docker / remote-
+container) drove Stage 4 Claude-token cost to ~0; the cascade reflects that
+heavy passes should only fire when an artifact actually approaches a
+distribution-readiness gate.
 
 ## Bookend sign-offs
 
@@ -115,6 +138,38 @@ Implementation: `tools/scripts/check-corpus-invariants.sh`.
   pattern scans).
 - v2.0 Amendment B's three-pass discipline + per-prompt serial cadence is
   preserved as the core of Stage 3.
+
+## What v3.1 adds beyond v3.0 (Amendments A + B, ratified 2026-05-18)
+
+- **Amendment A — Two-class cascade.** Original v3.0 cascade treated all
+  stages as equally auto-firing on every relevant change. Amendment A splits
+  the cascade into automatic-on-edit (Pass 3.1 + Pass 3.2 + Stage 1c-light;
+  fires on every prose edit) vs explicit-gate (Pass 3.3 + Pass 3.4 + Pass 3.5
+  + Stage 4 + Stage 5; fires only on author trigger at specific gates —
+  venue change, pre-publication, cross-chapter workstream close, author
+  "build it now" / "developmental read-through"). Token-economy rationale:
+  render-toolchain containerization (Docker / remote-container) drove
+  Stage 4 Claude-token cost to ~0, freeing the cascade to defer heavy passes
+  until distribution-readiness gates rather than per-spot-fix.
+- **Amendment B — Pass 3.5 developmental-edit codified.** Four passes → five
+  passes. Pass 3.5 fires per-chapter AFTER Pass 3.1 + 3.2 + 3.3 + 3.4
+  ratify-and-apply complete; restoration polarity (3.2 cuts, 3.5 restores —
+  different polarities; folding would lose the discipline each needs);
+  whole-chapter scale; ~50K-80K tokens per chapter; explicit-gate per §3.2.
+  Empirically grounded by Ch 1 developmental-edit review 2026-05-18
+  (3 HIGH + 7 MEDIUM + 3 LOW findings; HIGH findings clustered around
+  recurring patterns — scene-anchor restoration, sensory-detail restoration,
+  both/and reveal breath, framework-close breath, faithfulness-of-the-model
+  lineage). Light Pass 3.3 re-fire recommended after Phase C application of
+  ratified Pass 3.5 spot-fixes; Pass 3.4 re-fire NOT routinely warranted
+  (restorations strengthen rather than weaken adversarial robustness).
+- Per-prompt serial cadence extends: 3.1 → 3.2 → 3.3 → 3.4 → 3.5 (each pass
+  in its own prompt; author ratifies + spot-fixes apply before next pass
+  fires).
+- Pass 3.5 is also Amendment-C-scoped (Interactive Ratification Protocol for
+  prose-modifying passes, ratified 2026-05-19): per-finding format must
+  include Options + Recommendation + Reasoning; ratification + application
+  combine in one session.
 
 ## Empirical anchors
 
@@ -210,7 +265,7 @@ Essay A) did not — net validation for the regime where domain-of-applicability
 clauses (a)/(b)/(c) all fire. v2.0 codified the regime where the discipline
 was the default and the regime where it was untested. v3.0 extends this
 discipline with the additional stages described above; the v2.0 regime
-specification remains live within Stage 3's four-pass architecture.
+specification remains live within Stage 3's five-pass architecture.
 
 **v2.0 application targets (carry-forward).** Boston Review essay (long-form
 derived from Ch 5; clauses a + b + c all fire — see

@@ -16,7 +16,7 @@ Templates are organized by the v2.0 discipline's stages. Not every drafting task
 | `stage-0-publishing-strategy-rigor-test.md` | Substantial publisher-facing derivative work that hasn't been ratified yet. Decides go/no-go + sequencing against book-success criteria BEFORE any drafting begins. |
 | `stage-1-audience-aware-structure-pass.md` | Pre-draft brief building: audience pressure-test + canonical-facts inventory + structural decisions + voice register + carry-forward inventory. **Required for any publisher-facing drafting.** |
 | `stage-2-audience-blind-flow-draft.md` | Fresh-session audience-blind drafting from the Stage 1 brief. **Required for any publisher-facing prose >~500w** that derives from chapter/source prose (Path B preemptive policy). |
-| `stage-3-three-pass-rigor-audit.md` | Post-draft rigor — three distinct passes: fact-check + voice-polish + audience-load. **Required for any publisher-facing prose >~500w** before submission. |
+| `stage-3-three-pass-rigor-audit.md` | Post-draft rigor — five distinct passes per v3.1 Amendment B (2026-05-18): fact-check + voice-polish + audience-load acceptance + audience-load robustness + developmental-edit. **Required for any publisher-facing prose >~500w** before submission. (Filename preserved across v2.0/v3.0/v3.1 evolution for cross-reference stability.) |
 | `audience-pressure-test-construction.md` | Guide for building the 20-character pressure-test set adapted per venue. Reference from Stage 1 templates. |
 
 ---
@@ -65,7 +65,7 @@ What are you drafting?
 │
 ├── Manuscript revision / polish (existing chapter prose)
 │   → Skip Stage 0 + Stage 1 + Stage 2 entirely. This is a Stage-3-
-│     style three-pass audit applied to existing prose.
+│     style five-pass audit applied to existing prose.
 │   → Use Stage 3 template only; specify "audit-existing-prose"
 │     mode.
 │
@@ -100,7 +100,7 @@ The v2.0 discipline is the **maximum-rigor** path. For lower-stakes work, scale 
 
 ## Picking the right rigor tests
 
-Rigor tests beyond the v2.0 three-pass Stage 3:
+Rigor tests beyond the v3.1 five-pass Stage 3:
 
 | Test | When to apply |
 |---|---|
