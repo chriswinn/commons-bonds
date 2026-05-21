@@ -694,4 +694,49 @@ Sequenced for Phase C application:
 
 ---
 
+## Ratification record (closed 2026-05-20)
+
+Author ratification of all 15 findings + 2 cross-corpus follow-ons completed 2026-05-20 via interactive disposition walkthrough.
+
+### Findings ratified for Phase C-α application
+
+| ID | Disposition | Edit |
+|---|---|---|
+| HIGH-1 | Option A | Ch 7:19 — re-order: `Mars 3, Viking I and II, Pathfinder, Spirit and Opportunity, Phoenix, Curiosity, InSight, Perseverance` |
+| MEDIUM-1 | Option A (paired) | Ch 7:215 + bibliography §13:344 — `less than a century after the Qin's fall` → `approximately a century after the Qin's fall` |
+| MEDIUM-2 | Option A (paired) | Ch 7:213 + bibliography §13:340 — `Zahi Hawass's Workers' Village excavations` → `Zahi Hawass's workers' cemetery excavations` |
+| MEDIUM-3 | Option B | Ch 7:197 — `roughly 5 billion years out` → `roughly 7.5 billion years out` (keep engulfment framing; correct number per Schröder & Smith 2008) |
+| MEDIUM-4 | Custom (compound) | Ch 7:19 — (a) `on the active near-term agenda` → `discussed for years` (resolves MSR-cancellation staleness with timeless framing); (b) `are partly observable` → `are extensively measured` (strengthens empirical anchor on instrument data: CheMin/SAM/PIXL/SHARAD/RIMFAX) |
+| MEDIUM-5 | Option A | Ch 7:241 — `entering service` → `now operational` |
+| MEDIUM-6 | Option A | Ch 7:213 — `over a period of roughly a century in the Egyptian Old Kingdom around 2500 BCE` → `over a period of roughly seventy years in the Egyptian Old Kingdom around 2550 BCE` (also closes LOW-5) |
+| MEDIUM-7 | Option A | Ch 7:33 — `by two-thirds` → `by sixty percent` (reconciles 50yr→20yr arithmetic) |
+| MEDIUM-8 | Option A | No change to Ch 7. Recorded as **considered + held** pre-Aeon Sun May 31 14:01 UTC fire window. Rationale: pitch retains distinctive scene-anchors (airlock-air; Devon Island / HI-SEAS; "Just not by you"; "any world") that Ch 7 does not pre-empt; thunder-stealing risk vector for pitch fire essentially zero given unpublished manuscript; verbatim phrases ARE the framework's canonical apparatus (varying in chapter to differ from pitch would force more substantive artifact to adopt non-canonical phrasing). |
+
+### LOW cluster ratified
+
+All LOW findings held as-is per recommendation; deferred to pre-publication refresh checklist:
+- LOW-1 (Ch 7:243 Mars per-kg "$2.5M apiece") — defensible round-figure
+- LOW-2 (Ch 7:241 Shuttle "$30K/kg" baseline) — defensible mid-range
+- LOW-3 (Ch 7:87 lunar He-3 "roughly a million tons") — defensible lower bound
+- LOW-4 (Ch 7:123 Ogallala "1940s") — defensible decade-scale
+- LOW-5 — **closed via MEDIUM-6** (time-anchor resolved in same edit)
+- LOW-6 (Ch 7:243 asteroid-mining "five to seven orders") — defensible via existing "actor-stated targets, not validated operational figures" qualifier
+
+### Cross-corpus ratified
+
+- **CC-1: PAIRED** — bibliography §13:340 (Hawass) + §13:344 (Sima Qian) edits applied in same Phase C session as Ch 7 spot-fixes. Single atomic commit prevents cross-corpus drift.
+- **CC-2: FLAGGED FOR PM SESSION** — Ch 9 Pass 1 / Phase C session to verify "existential substitutability gap" lineage-citation discipline (terms_index line 683 requirement) at Ch 9's introduction of the term. Not blocking Ch 7 Phase C.
+
+### Phase C-α scope
+
+~7 file edits across:
+- `manuscript/chapters/Chapter__7_OnOtherWorlds.md` — 6 spot-fixes at lines 19, 33, 197, 213, 215, 241
+- `research/literature/bibliography.md` — 2 paired edits at §13:340 + §13:344
+
+Plus consistency housekeeping on bibliography §13 chapter-line references (191/193 → current state) to match the post-rename + post-front-matter-render-fix line numbers.
+
+Phase C-α session applies as single atomic commit; autonomously fast-forward merges to main per CLAUDE.md author-ratified-content-changes discipline.
+
+---
+
 *End of Pass 1 (Fact-check) for Chapter 7. Pass 2 (Voice-polish) + Pass 3 (Audience-load) deliverables to be produced in subsequent sessions per workstream #20 phasing + v2.0 Amendment B per-prompt serial cadence.*
