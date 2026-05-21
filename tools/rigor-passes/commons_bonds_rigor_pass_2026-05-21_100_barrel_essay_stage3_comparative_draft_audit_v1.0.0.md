@@ -444,7 +444,7 @@ The trade-publisher track historically weights both — Mazzucato's *Project Syn
 
 ### 8.2 Recommended routing
 
-**Recommend: Draft A proceeds to Stage 3 four-pass rigor.** The canonical-path draft on `origin/main` (commit `74953b9`) is the better candidate. Draft B (variant-fbc623, on feature branch `claude/100-barrel-essay-stage-2-fbc623`) does not advance to Stage 3 unless author wants to apply the heavy spot-fix work identified in §6 thread-pull synthesis (make embedded disarming moves explicit-meta + add Hotelling reference) — and even then, the result would be Draft A's structural choices applied to Draft B's prose, which is not obviously better than Draft A.
+**Recommend: Draft A proceeds to Stage 3 five-pass rigor** (per v3.1 Amendment B 2026-05-18 codification of Pass 3.5 developmental-edit; Stage 1 brief §12 reflects the pre-Amendment-B four-pass framing and should be read with the five-pass correction applied). The canonical-path draft on `origin/main` (commit `74953b9`) is the better candidate. Draft B (variant-fbc623, on feature branch `claude/100-barrel-essay-stage-2-fbc623`) does not advance to Stage 3 unless author wants to apply the heavy spot-fix work identified in §6 thread-pull synthesis (make embedded disarming moves explicit-meta + add Hotelling reference) — and even then, the result would be Draft A's structural choices applied to Draft B's prose, which is not obviously better than Draft A.
 
 **Draft B disposition options:**
 - **Archive** under `archive/_OneDayMaybe/100-barrel-essay-variants/100-barrel-essay-draft_2026-05-19_v1.0.0_variant-fbc623.md` as comparative reference for future audience-aware drafting discipline empirical-anchor work.
@@ -477,12 +477,13 @@ Items to verify against canonical-facts inventory at Stage 1 brief §7 + bibliog
 
 ### 8.5 Stage 3 session sequencing
 
-Per Stage 1 brief §12 + v2.0 Amendment B per-prompt serial cadence (preserved in v3.0): each pass fires in its own session; author ratifies + spot-fixes apply before next pass fires.
+Per the canonical pipeline doctrine (`tools/commons_bonds_pipeline_doctrine_v1.0.0.md` §3.6 Amendment B 2026-05-18) + v2.0 Amendment B per-prompt serial cadence (preserved in v3.0 / v3.1): Stage 3 is a **five-pass** rigor audit. Each pass fires in its own session; author ratifies + spot-fixes apply before next pass fires. (Stage 1 brief §12 references the pre-Amendment-B four-pass framing — read with this five-pass correction applied.)
 
 1. **Pass 3.1 fact-check** — next session. Output: `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_100_barrel_essay_stage3_fact_check_v1.0.0.md`. Apply §8.4 verifications.
 2. **Pass 3.2 voice-polish** — after author ratifies Pass 3.1 spot-fixes. Output: `..._stage3_voice_polish_v1.0.0.md`. Apply §8.3 candidates.
 3. **Pass 3.3 audience-load acceptance** — after Pass 3.2 spot-fixes applied. **This artifact already executes Pass 3.3 across both drafts.** A re-fire after spot-fixes is a light re-verification rather than a full re-run; output naming: `..._stage3_audience_load_acceptance_v1.0.0.md` (re-fire) or treat this artifact as the canonical Pass 3.3 record and skip the re-fire if spot-fixes are register-level only.
 4. **Pass 3.4 audience-load robustness** — after Pass 3.3 re-verification. **This artifact already executes Pass 3.4 thread-pull synthesis across both drafts.** Same treatment as Pass 3.3: this artifact can serve as the canonical Pass 3.4 record unless Stage 3 spot-fixes change the robustness reading materially.
+5. **Pass 3.5 developmental-edit** — after Pass 3.1–3.4 ratify-and-apply complete; before submission. Output: `..._stage3_developmental_edit_v1.0.0.md`. Per doctrine §3.6.1–§3.6.3: whole-essay scale; restoration-of-richness lens (not cutting); catches emotional-arc continuity + scene-anchor density + sensory-detail restoration + voice-flow continuity + cumulative-LLM-cadence residue + reader-engagement at analytical pivots. Pass 3.5 remediation polarity is **restoration**, not cutting (the methodological reason it doesn't fold into Pass 3.2). Fires AFTER 3.1–3.4 because the flatness 3.5 catches only surfaces post-3.2's chiseling. Heavy session (the per-chapter doctrine spec is 50,000–80,000 tokens; the essay is shorter than a chapter so the session should be lighter but still substantial). Light Pass 3.3 re-fire recommended after Phase C application of any ratified Pass 3.5 spot-fixes. Pass 3.5 may also surface findings about 3.2's apply/hold dispositions that route back as a 3.2-reconsider follow-up.
 
 ### 8.6 Cross-chapter handoff acknowledged
 
@@ -506,7 +507,9 @@ Per Stage 1 brief §12 + v2.0 Amendment B per-prompt serial cadence (preserved i
 
 ## 10. Ratification record
 
-**2026-05-21 — PROPOSED.** Comparative Stage 3 Pass 3.3 + Pass 3.4 + book-strategy strategic-lens audit. Author scope-ratified option (b) full 18+5 character set at full depth. Single artifact. Recommended routing: Draft A → Stage 3 four-pass rigor; Draft B → archive or hold.
+**2026-05-21 — PROPOSED.** Comparative Stage 3 Pass 3.3 + Pass 3.4 + book-strategy strategic-lens audit. Author scope-ratified option (b) full 18+5 character set at full depth. Single artifact. Recommended routing: Draft A → Stage 3 five-pass rigor (per v3.1 Amendment B 2026-05-18); Draft B → archive or hold.
+
+**2026-05-21 — Five-pass correction.** Original draft of this artifact referenced "four-pass rigor" inheriting from Stage 1 brief §12. Author flagged that Stage 3 is five passes per Amendment B 2026-05-18 (Pass 3.5 developmental-edit codified). §8.5 + §8.2 + cover status corrected; Pass 3.5 sequencing added. Stage 1 brief §12 itself remains as authored (the brief is on `main` ratified 2026-05-19 commit `53db177`); a separate sync session can update the brief if needed, but the live discipline reference for this workstream is now this artifact's §8.5.
 
 Awaiting author ratification of:
 1. **Headline finding** (§8.1): Draft A is the better essay + better book-strategy choice.
