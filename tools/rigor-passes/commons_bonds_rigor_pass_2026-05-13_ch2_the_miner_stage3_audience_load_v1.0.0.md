@@ -439,3 +439,70 @@ After research artifact lands on main + author reviews + picks substitution cand
 ---
 
 *Ratification + pivot rev. 2026-05-20. Research session in flight; Phase C-δ application pending author candidate-selection.*
+
+---
+
+## Phase C-δ — APPLIED 2026-05-21
+
+Author ratified Decision A substitution candidates 2026-05-21:
+- Placeholder #1: Robert Bailey Jr. (top candidate per research artifact)
+- Placeholder #2: Ted Latusek (top candidate per research artifact)
+- MT-1 (line 189 phrasing): held for separate decision
+- Berkes NPR retry: skipped (Hamby cluster sufficient)
+
+Phase C-δ application landed same-session per WP#9 worktree workflow.
+
+**Spot-fixes applied (3 total):**
+
+| # | Line (post-edit) | Edit |
+|---|---|---|
+| C-δ-1 | 30–36 | Replaced `[INTERVIEW NEEDED — Opening person]` placeholder block (was lines 30–31) with ~220w Robert Bailey substitution prose. Anchored on verbatim quotes from WVPB (Jessica Lilly, 2014 + Feb 15 2019 final interview) + WKYUFM obituary cluster (May 6 2019). Includes McDowell County anchor + 36-year mining career + "It's almost like drowning" / "Most laws have been written with blood" / "I don't want the things I went through just to drop" quotes. Closes with "Everything that follows in this chapter is an accounting of what happened to him." per placeholder brief's structural role. |
+| C-δ-2 | 166–170 | Replaced `[INTERVIEW NEEDED — The miner's voice]` placeholder block (was lines 161–162) with ~220w Ted Latusek substitution prose. Anchored on verbatim quotes from Hamby's "As experts recognize new form of black lung..." (Center for Public Integrity, Nov 1 2013). Includes pride-of-craft beat ("outmined the other crews two to one"), 19-year benefits-fight context, and the loyalty-betrayal cluster ("I was loyal to the company, but the loyalty wasn't there for me. I felt like somebody just put a knife in my gut..."). |
+| C-δ-3 | (deleted) | Deleted `[INTERVIEW NEEDED — The extraction-side portrait]` placeholder block + one redundant `---` separator entirely (was lines 165–170 in pre-edit numbering). Section flow now runs Latusek substitution prose → `---` separator → "### The Mechanism, Not the Motive" heading cleanly. |
+
+**Chapter state post-Phase-C-δ:**
+
+- Lines: 226 (was 223 pre-Phase-C-δ; net +3 lines despite substantial named-voice additions because placeholders were themselves wordy)
+- Words: 5,367 (was 5,263; net +104w)
+- INTERVIEW NEEDED placeholders: **0 remaining** (was 3 pre-Phase-C-δ)
+
+**Named subjects newly introduced in Ch 2 prose (per courtesy-notify discipline):**
+
+- **Robert Bailey Jr.** — deceased March 2019; **courtesy-notify Bailey family** before final publication via WVPB / Jessica Lilly editorial contact.
+- **Ted Latusek** — living as of 2013 Hamby article; **verify current living-status before final publication.** If living, courtesy-email to Hamby (now at *NYT*) + (if reachable) Latusek himself; if deceased, courtesy-notify family.
+- **Jessica Lilly** (WVPB / Inside Appalachia journalist) — named as quote source; living + public-figure (journalist); public-record exception applies; no courtesy-notify required for journalist attribution.
+- **Chris Hamby** (Center for Public Integrity journalist; now at *NYT*) — named as quote source; living + public-figure (journalist); public-record exception; no courtesy-notify required.
+
+**Endnote / citation-finalization sweep targets (carried forward):**
+
+- WVPB, Jessica Lilly, "Black Lung Patient Fights for Miner Benefits in His Final Days," April 19, 2019. URL: https://www.wvpublic.org/news/2019-04-19/black-lung-patient-fights-for-miner-benefits-in-his-final-days
+- WKYUFM, "Remembering A Coal Miner Who Stood Up For Those With Black Lung," May 6, 2019. URL: https://www.wkyufm.org/health/2019-05-06/remembering-a-coal-miner-who-stood-up-for-those-with-black-lung
+- Chris Hamby, "As experts recognize new form of black lung, coal industry follows familiar pattern of denial," Center for Public Integrity, November 1, 2013. URL: https://publicintegrity.org/environment/breathless-and-burdened/as-experts-recognize-new-form-of-black-lung-coal-industry-follows-familiar-pattern-of-denial/
+
+**Verification items carried forward to endnote sweep (per research artifact):**
+
+- Bailey 2014 WVPB original URL returned 404; quotes captured via 2019 follow-up + WKYUFM obituary cross-reference. Sweep should verify quotes against any other archived source for the 2014 original (try Wayback Machine).
+- Bailey transplant chronology relative to Feb 15 2019 interview is somewhat compressed in sources; substitution prose avoids specifying interview-to-transplant timing precisely to stay within verified facts. Sweep can refine if more granular timeline surfaces.
+- Latusek living-status verification (last confirmed 2013).
+
+**Tier-3 audience-load verdict flip:**
+
+Per Pass 3 §Tier 3 #12 (coal miner / black-lung sufferer): "✓ rather than ✓✓ due to missing miner-voice; chapter argues ABOUT them in places rather than WITH them. The placeholders signal the author knows; the gap is real until interviews land." Phase C-δ closes this gap with Bailey + Latusek named voices in body prose. **Verdict flips ✓ → ✓✓** per the audit's stated flip-condition. Tier-3 character #11 (McDowell County resident) verdict also slightly strengthens given the Bailey McDowell-anchor (was ✓✓; remains ✓✓ but with stronger evidence).
+
+**Aggregate post-Phase-C-δ Pass 3 verdict:**
+
+- 19/20 INCLUDE + 1/20 NEUTRAL + 0/20 EXCLUDE (was 19 INCLUDE / 1 NEUTRAL / 0 EXCLUDE pre-Phase-C-δ; one ✓ → ✓✓ flip on character #12 strengthens but doesn't change directional verdict).
+- READY AS-IS verdict holds; chapter is now publication-ready for sample-chapter requests.
+
+**Phase A — DONE-DONE.** Cumulative Ch 2 Phase C spot-fix count: **17** (5 in C-α + 1 in C-β + 8 in C-γ + 3 in C-δ).
+
+**Outstanding for Ch 2:**
+
+- **MT-1 (line 189 "asset-class consolidation" phrasing):** OPEN; held for separate decision per Decision D. LOW severity; verdict holds without ratification.
+- **Courtesy-notify pipeline:** trigger before publication (not before sample-chapter submission). Batched email to (a) Jessica Lilly at WVPB for Bailey family + (b) Chris Hamby's current editorial channel for Day/Fox/Bolling/Barr/Carroll families.
+- **Endnote / citation-finalization sweep:** Pass 1 M-1 through M-9 + Phase C-δ new citations. Whole-manuscript scope; cross-thread workstream.
+- **Optional Berkes NPR retry:** skipped per Decision (Hamby cluster sufficient); deferred to whole-manuscript Phase B or endnote sweep if needed.
+
+---
+
+*Phase C-δ application rev. 2026-05-21. Ch 2 Phase A is now DONE-DONE; sample-chapter ready for Wave 1 agent-query cascade pending courtesy-notify pipeline + endnote sweep at publication-time.*

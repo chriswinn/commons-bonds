@@ -27,8 +27,13 @@ The value that came out of McDowell County's mountains dispersed across a contin
 
 ---
 
-> **[INTERVIEW NEEDED — Opening person]**
-> *Ideal: A former miner or miner's family member from McDowell County — someone whose specific story can anchor the chapter. Could be a miner's widow who watched her husband's lungs fail. Could be a person who stayed when everyone else left, or who left and carries the leaving. The chapter needs one person with a name and a face before the first statistic appears. Everything that follows should feel like it's explaining what happened to that person.*
+Robert Bailey spent thirty-six years underground. He started in McDowell County and finished in Boone County after McDowell's mines closed and he had nowhere else to go. He described what black lung did to him in five words: *"It's almost like drowning."*
+
+He needed a double lung transplant. His employer had declared bankruptcy by then; the legal obligation to pay for it had dissolved with the corporate shell. The federal Black Lung Disability Trust Fund covered the cost instead. Twenty-eight days after his final interview with West Virginia Public Broadcasting in February 2019, Bailey was dead — of a cancer brought on, in part, by the anti-rejection medications that had been keeping the transplanted lungs alive.
+
+He had testified twice before Congress about the backlog of black lung claims still awaiting evaluation. What he wanted from those appearances was simple. *"Most laws across the nation, most laws have been written with blood,"* he told the Inside Appalachia host, Jessica Lilly. *"I don't want the things I went through just to drop and no knowledge to be gained, no people to be helped."*
+
+Everything that follows in this chapter is an accounting of what happened to him.
 
 ---
 
@@ -158,13 +163,11 @@ Spatial cost severance is distinct from, but as important as, intergenerational 
 
 ---
 
-> **[INTERVIEW NEEDED — The miner's voice]**
-> *This is where a real person's words need to land. Ideally someone who was proud of the work and says so clearly — who does not want pity and should not receive any — but who can also speak to the moment when the costs became undeniable. Could be a retired miner. Could be someone living with black lung. Could be a miner's child who watched the disease progress. The argument is strongest when the human dignity is in the room alongside the structural critique. These two things should feel like they belong together, not like one negates the other.*
+Ted Latusek worked for Consol Energy in northern West Virginia. His crew, he liked to point out, outmined the other crews two to one. *"A lot of times, you couldn't see your hand in front of your face,"* he told Chris Hamby of the Center for Public Integrity in 2013. *"It felt like somebody had put a bag over my face."*
 
----
+By that point he had been fighting for federal black lung benefits for nineteen years. Each time he won at an administrative stage, Consol's lawyers appealed. *"My goal in life was to outlive Consol,"* he told Hamby. *"I thought that I had. And then it goes to the Fourth Circuit Court, and they take it all away from me."*
 
-> **[INTERVIEW NEEDED — The extraction-side portrait]**
-> *The chapter also needs someone from the industry side whose portrait is sympathetic rather than villainous — consistent with the book's argument that the problem is structural, not personal. Ideal candidate: a mine operator or manager who understood the externalities but had no mechanism to price them. Someone who, if you asked them whether the community deserved better, would say yes — but who could explain why the economics made better impossible within the existing accounting framework. The absence of malice in this portrait is important. The mechanism does not require bad actors. That is exactly the point.*
+*"I was loyal to the company, but the loyalty wasn't there for me,"* he said. *"I felt like somebody just put a knife in my gut. I told my wife: 'I can take the lung disease because a lot of that's my problem. I went in that mine and ate that dust and knew better. I should have known better, but I thought I was invincible. But I always thought Consol would take care of me.'"*
 
 ---
 
