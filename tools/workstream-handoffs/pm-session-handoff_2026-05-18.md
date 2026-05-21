@@ -43,16 +43,17 @@ You do NOT need to read individual workstream handoffs unless drilling into one.
 
 | When | Action |
 |---|---|
-| ~~Mon May 18 8:00 AM ET — CBF v6.1 + consolidated response both auto-send (`7141634` + `b200664`)~~ | **BOTH VERIFIED SENT by author Mon May 18 8am ET** — advance materials + call-windows in Val/David's inbox since Monday. |
-| **TODAY Tue May 19** | Triage **Chs 7/8/9/10 Pass 1** findings; ratify residual **Ch 1 Pass 3** items in REAUDIT v3 `76ca8a6`; ratify **Ch 4 Pass 2** PROPOSED `3174cc8`. Queue **Ch 2 developmental-edit** session (Ch 1 cycle complete; see §5.1). |
-| **🆕 Thu May 21 — 2:00 PM (ET, presumed) — CBF MEETING LOCKED** | **Three-person video call: Chris + Val DiMarzio + David Sherfinski.** Microsoft Teams; **Teams link RECEIVED 2026-05-19** (in author's inbox; add to calendar). Val + David have had advance materials since Mon May 18 — should arrive prepped. **Prep scope spans both MD (Colden) and VA (Moore) sides.** Pre-staged materials at `research/outreach/subjects/cbf/{interview-prep,live-call-companion,organizational-brief}_*.md` — review with dual-state scope in mind. Same day Sandy reply window opens — CBF meeting is the day's anchor. |
-| **This week (by Sun May 24)** | Fire **Ch 2 Pass 3** + **Ch 3 Pass 2** + **Ch 3 Pass 3** + **Ch 4 Pass 3** (paste-text gen from PM). Continue Phase C-α applications on Chs 7/8/9/10 as ratifications land. Continue pipeline retrofits (Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication remain pending; Chs 1/5/6/TA fired 2026-05-18). Fire **Ch 2 developmental-edit** session. ~~Decide Phat consent escalation deadline~~ — **RESOLVED 2026-05-20: anonymization ratified.** |
+| ~~Mon May 18 8am ET — CBF v6.1 auto-send~~ | DONE — both VERIFIED SENT |
+| ~~Tue May 19 + Wed May 20~~ | DONE — Phat anonymization RATIFIED + applied across Ch 3 v1 + Noema Essay B; Ch 3 augmentation Stage 1 brief RATIFIED + Stage 2 landed (11 named voices); Aeon Pass 3.1 RATIFIED + applied; Ch 7 Pass 1 RATIFIED + Phase C applied; Ch 8 Pass 1 Phase C applied; Ch 9 Pass 1 Phase C applied; live-call-companion refreshed; cross-corpus IPG construction RATIFIED |
+| **🔴 TODAY Thu May 21** | **(1) 2:00 PM ET — CBF MEETING** (Microsoft Teams; Chris + Val + David; Teams link in inbox). Prep at [`research/outreach/subjects/cbf/live-call-companion_2026-05-21_thursday-meeting.html`](../../research/outreach/subjects/cbf/live-call-companion_2026-05-21_thursday-meeting.html) — refreshed 2026-05-20 (`bb61fa1`). **(2) Sandy reply window opens** (1 week post-packet; soft check-in only if silence). **(3) Ratification queue is the day's other anchor** — 8 PROPOSED rigor-pass artifacts await disposition; see §5.1 + §6. |
+| **This week (by Sun May 24)** | Work through the ratification queue: Ch 6 Pass 3.5 dev-edit; Ch 3 v1 step-back KEEP/REPLACE; Ch 3 Pass 3.2; Ch 4 Pass 2; Ch 7 Pass 2; Ch 9 Pass 2; Aeon Pass 3.2; Noema Pass 3.1 (apply spot-fixes then SUBMIT). Continue Chs 8/10 toward Pass 2 trigger. Continue pipeline retrofits (Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication still pending). |
+| **Sun May 31** | **Aeon Version C submission** (14:01 UTC = Mon Jun 1 ~00:01 AEST). Pre-submission verify Fri May 29. |
 
 ---
 
 ## 3. Critical path bottleneck
 
-**Critical path is the Phase C-α applications for Chs 7/8/9/10** + the residual Pass 2/3 cycles for Chs 1/2/3/4 + the new **developmental-edit (Pass 3.5) workstream** across Chs 2–10 + AuthorsNote (Ch 1 already RATIFIED + applied 2026-05-18 — see §5.1). Sandy send is complete; Pass 1's all fired manuscript-wide; what gates the book proposal sprint (late June) is the application + Pass 2/3 cadence catching up, plus the new Pass 3.5 layer now folded into Stage 3 per Pipeline doctrine Amendment B (`316073e`).
+**Critical path is now THE RATIFICATION QUEUE.** Most chapter rigor cycles are in flight; what gates progress is author disposition on the ~9 PROPOSED artifacts (Ch 6 Pass 3.5; Ch 3 Pass 3.2 + v1 step-back; Ch 4 Pass 2; Ch 7 Pass 2; Ch 9 Pass 2; Ch 10 Pass 1; Aeon Pass 3.2; Noema Pass 3.1). Each ratification unlocks a Phase C spot-fix application; cumulative cadence is what gates the book proposal sprint (late June) and the Aeon deadline (Sun May 31).
 
 **Infrastructure now mostly resolved.** Render-toolchain canonical pipeline RATIFIED 2026-05-19 (`b3f4af5`); render-output policy in place; docker-render.sh convenience wrapper landed (`7e88701`); CI render-verify workflow active (`6ebda00`). **Stage 4 audits unblocked.** Pipeline retrofits for Ch 1 + Ch 5 + Ch 6 + TA fired 2026-05-18; Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication retrofits still queued.
 
@@ -60,18 +61,17 @@ Apparatus Phase A (Bibliography / Glossary / TA per-chapter call-site verificati
 
 ---
 
-## 4. USER ACTIONS gating Noema submission
+## 4. USER ACTIONS
 
-~~Three open USER ACTIONS from 2026-05-13~~ → **🟢 PHAT ANONYMIZATION RATIFIED 2026-05-20** per author direction. The Noema submission gate now clears as a metadata-decision. Two operational follow-ons remain:
+~~Three USER ACTIONS gating Noema (2026-05-13)~~ → ~~Two anonymization edits (2026-05-20)~~ → **🟢 NOEMA SUBMISSION CLEARED 2026-05-21.**
 
-- [ ] **Apply anonymization to Essay B line 136** of [noema-essay-fresh-session-draft_2026-05-10.md](manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md). Small content edit; user-action or dedicated session.
-- [ ] **Apply anonymization to Ch 3 v1 draft** in [Chapter__3_TheWaterman__Draft.md](manuscript/chapters/Chapter__3_TheWaterman__Draft.md) before Stage 2 v2 drafting fires. Same edit pattern; lives in Ch 3 revision workstream.
+- [x] **Phat anonymization RATIFIED 2026-05-20** (`12caa26`) — applied across Ch 3 v1 (`8a55395`) + Noema Essay B (`2815433`) + memory + tracking artifacts.
+- [x] **Noema Essay B step-back replacement-analysis RATIFIED 2026-05-21** — verdict **KEEP anonymized + SUBMIT NOW** (`3e17ef7`).
+- [ ] **Open: Apply Noema Pass 3.1 fact-check spot-fixes** (PROPOSED `b7fbc92`) → then submit. The fact-check artifact is the last gate before the essay leaves the building.
+- [ ] **Open: Ch 3 v1 step-back replacement-analysis** PROPOSED `8e3bf25` — disposition pending (KEEP anonymized vs REPLACE with named public-record subject). Not a publishing gate (Ch 3 is book-track, not essay-track) but feeds Stage 2 v2 drafting.
+- [ ] **Open: Send Colden citation-verify packet** (pre-staged `15c6b0f`; user-action; timing flexible).
 
-**Phat consent pursuit MOVES TO relationship-pace, not publishing-gate.** Per `feedback_named_subject_consent.md` discipline: anonymization is the safe default; substantive material preserved; name restores in future printings if consent lands later. Outreach package at `research/outreach/subjects/phat/` (`585d535` + `721c094` + `9aee0af`) remains available for whenever the author chooses to use it; no submission timeline pressure.
-
-**Biggie (deceased Fox Hill waterman; ~30+ years deceased) remains named with courtesy-notify-family discipline.** Unchanged.
-
-Noema submission now gated only on the two small content-edits above + author's drafting bandwidth.
+**Phat consent pursuit at relationship-pace; no publishing-timeline pressure.** Outreach package at `research/outreach/subjects/phat/` remains available; name restores in future printings if consent lands. **Biggie** remains named with courtesy-notify-family discipline.
 
 ---
 
@@ -83,9 +83,10 @@ Priority within bucket: **HIGH** = time-pressured or gates large downstream casc
 
 | # | Pri | Workstream | Status | Next action |
 |---|---|---|---|---|
-| **20** | **HIGH** | Manuscript Stage-3 Rigor Pass | **Chs 1 + 5 + 6 Stage-3 cycles all CLOSED** (Ch 1 closed 2026-05-19 via Pass 3.3 light re-fire RATIFIED `eb14171`; Chs 5+6 closed 2026-05-14). Ch 4 Pass 2 PROPOSED 2026-05-15. Chs 7+8+9+10 Pass 1 PROPOSED 2026-05-16. See per-chapter detail §6. [handoff](manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) | Ratify Pass 1 findings for Chs 7/8/9/10 + apply Phase C-α; ratify Ch 4 Pass 2 + apply. Chs 1/5/6 now move to Stage 4 + Stage 5. |
-| **NEW** | **HIGH** | **Developmental-edit (Pass 3.5) workstream class** (per-chapter; whole-chapter-scale restoration-of-richness) | **Ch 1 RATIFIED + applied 2026-05-18** — 9 spot-fixes (`e69c61e`) + §11 disposition log (`1f5c6ad`) + DMV-commute coda 2026-05-19 (`d36534f`). Codified into pipeline doctrine via **Amendment B** as Pass 3.5 (`316073e`). Chs 2–10 + AuthorsNote pending. [handoff](developmental-edit-workstream-handoff_2026-05-18.md) | Fire **Ch 2 developmental-edit** session next (one per session per branch discipline). |
-| **4** | **HIGH** | Outreach pipeline | Sandy packet SENT 2026-05-14; proactive Q0 citation-questions follow-up SENT 2026-05-15. **Both CBF sends VERIFIED SENT Mon May 18 8am ET — v6.1 call-windows (`7141634`) + consolidated advance materials (`b200664`).** **🆕 Val DiMarzio responded 2026-05-19 confirming Thu May 21 2pm meeting** (Microsoft Teams; three-person — Chris + Val + David; Teams link forthcoming from Val). Colden citation-verify packet pre-staged (`15c6b0f`) — user-action. Biggie process guide pre-staged (`164b9e2`). [handoff](outreach-pipeline-handoff_2026-05-09.md) | Block Thu May 21 2pm calendar + prep CBF meeting (dual-state scope: MD + VA). Monitor inbox for Teams link + Sandy reply (window opens Thu). |
+| **20** | **HIGH** | Manuscript Stage-3 Rigor Pass | **Chs 1 + 5 + 6 four-pass cycles CLOSED.** Ch 6 Pass 3.5 PROPOSED 2026-05-20 (`838a3f2`) — ratification pending. Ch 2 Pass 3 ratification rev landed (`f4ee16b` — pivot placeholders to published-record; cut #3). Ch 3 Pass 3.2 PROPOSED 2026-05-20 (`1d9c5ad`). Ch 4 Pass 2 PROPOSED `3174cc8` still awaiting ratification. Ch 7 Pass 1 RATIFIED + Phase C applied (`4987e59`, `4948dbb`); Pass 2 PROPOSED (`6f54514`). Ch 8 Pass 1 Phase C applied (`5fe6af6`). Ch 9 Pass 1 Phase C applied (`4c8bc02`); Pass 2 PROPOSED (`e68b505`). Ch 10 Pass 1 v1.0.1 refresh (`e026d5f`) still PROPOSED. See per-chapter detail §6. [handoff](manuscript-stage-3-rigor-pass-handoff_2026-05-11.md) | **Work the ratification queue** (8+ PROPOSED items). Apply spot-fixes as ratifications land. |
+| **NEW** | **HIGH** | **Developmental-edit (Pass 3.5) workstream class** | **Ch 1 RATIFIED + applied 2026-05-18.** **Ch 6 PROPOSED 2026-05-20** (`838a3f2`) — first non-Ch-1 chapter; ratification pending. Codified via Amendment B (`316073e`). Chs 2/3/4/5/7-10 + AuthorsNote pending. [handoff](developmental-edit-workstream-handoff_2026-05-18.md) | **Ratify Ch 6 Pass 3.5 + apply.** Then queue next chapter (PM rec: Ch 5 next since cycle CLOSED; or Ch 2 per original sequence). |
+| **NEW** | **HIGH** | **Ch 3 augmentation workstream** (post-petition voice-inventory integration) | **Stage 1 brief RATIFIED 2026-05-20** (`b8806fa`); **Stage 2 LANDED 2026-05-20** (`9a7cc7e` — 11 named voices placed across 9 chapter locations). Bay-cap chronology fact-check spot-fix bundled (`6785646`). G1-G10 bibliography scribe pass complete (`134b888` — Stage 1c HOLD resolved). | Ch 3 now ready for full Stage 3 four-pass cycle. Pass 3.2 already PROPOSED — see Workstream 20 row. |
+| **4** | **HIGH** | Outreach pipeline | Sandy packet SENT 2026-05-14; CBF advance materials SENT Mon May 18; **CBF meeting TODAY 2pm ET** (Teams link in inbox). Live-call-companion refreshed 2026-05-20 (`bb61fa1`). Colden citation-verify packet pre-staged. Biggie process guide pre-staged. [handoff](outreach-pipeline-handoff_2026-05-09.md) | **EXECUTE CBF meeting at 2pm.** Sandy reply window opens today — soft check-in only if silence by EOD. |
 | ~~NEW~~ | — | ~~**Pipeline doctrine v1.0.0 retrofits**~~ | **PARTIALLY APPLIED 2026-05-18.** Ch 1 (`3582823`) + Ch 5 (`782e6c9`) + Ch 6 (`5e08642`) + TA (`eb636c6`) retrofits fired (Stage 1a + 1c + Pass 3.4 + Stage 4 triple-render). TA rent-seeking-amendment retrofit also landed (`1e4d242`). **Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication retrofits remain queued.** Render-pipeline-standardization workstream resolved via canonical-pipeline ratification (`b3f4af5`). | Fire remaining 9 retrofits as bandwidth permits; can run in parallel with Phase C-α + developmental-edit fires. |
 | ~~NEW~~ | — | ~~**Render-toolchain canonical pipeline**~~ | **RATIFIED 2026-05-19** (`b3f4af5`). Canonical installer + Dockerfile + CI fixture (`b7e784a`); Remote-container SessionStart hook + CI render-verify workflow (`6ebda00`); docker-render.sh convenience wrapper (`7e88701`). Stage 4 audits unblocked. Render-output policy in place. | Operational. Containerization workstream class continues via [`render-toolchain-containerization-handoff_2026-05-18.md`](render-toolchain-containerization-handoff_2026-05-18.md). |
 | ~~NEW~~ | — | ~~**Cross-chapter rent-seeking engagement**~~ | **RATIFIED 2026-05-18.** Four touches APPLIED via `a1e54d9`. Residual follow-ons (mini-rigor-passes, bibliography Buchanan/Tullock, Ch 1 REAUDIT v3 doc state-update, cross-thread-todos entry) deferred per ratification-log §9 of handoff. | Verification reads absorbed into Ch 8+9 Pass 2/3 cycles; bibliography additions fold into Phase A. |
@@ -94,10 +95,11 @@ Priority within bucket: **HIGH** = time-pressured or gates large downstream casc
 
 | # | Pri | Workstream | Status | Fire window |
 |---|---|---|---|---|
-| **1** | **HIGH** | Aeon pitch | Version C ratified 2026-05-08; Stage 3 verdict 2026-05-10 confirmed. [handoff](aeon-submission-handoff_2026-05-09.md) | **Sun May 31 14:01 UTC** (= Mon Jun 1 ~00:01 AEST). Pre-submission verify by Fri May 29. |
-| **2** | MED | Boston Review essay | UNBLOCKED 2026-05-10. **Source chapter (Ch 5) now stable** — three-pass cycle CLOSED. [handoff](boston-review-essay-handoff_2026-05-09.md) | Draft pitch (~1pp) + essay (~4,500w from Ch 5). When bandwidth permits. |
-| **16** | MED | $100 Barrel essay → Phenomenal World | Q1 verdict GO (`b7fd20f`). Condition 1 (non-partisan framing) carries forward. [handoff](100-barrel-essay-handoff_2026-05-11.md) | Fire Session 2 — Stage 1 audience-aware brief w/ Condition 1 embedded. |
-| **14** | MED | Comp-titles deep matrix Phase 2 | Just-in-time verification deferred from #11. [handoff](comp-titles-deep-matrix-phase-2-handoff_2026-05-11.md) | Early-to-mid July 2026 (2–3wk before Wave 1). |
+| **🟢 NOEMA** | **HIGH** | Noema essay | Phat anonymization applied (`2815433`); replacement-analysis RATIFIED KEEP+SUBMIT (`3e17ef7`); **Pass 3.1 fact-check PROPOSED `b7fbc92`** — last gate. | Apply Pass 3.1 spot-fixes → submit. No external deadline; submit when fact-check applies. |
+| **1** | **HIGH** | Aeon pitch | Version C Pass 3.1 RATIFIED + APPLIED 2026-05-20 (`8b2ae31`); §4.1 cascade scan executed (`3e54015`); **Pass 3.2 voice-polish PROPOSED 2026-05-21 (`c722bb6`)**. [handoff](aeon-submission-handoff_2026-05-09.md) | Ratify Pass 3.2 + apply. **Submit Sun May 31 14:01 UTC**; pre-submission verify by Fri May 29. |
+| **16** | MED | $100 Barrel essay → Phenomenal World | **Stage 1 brief RATIFIED 2026-05-19** (`53db177`); **Stage 2 audience-blind flow draft LANDED 2026-05-19** (`74953b9`). [handoff](100-barrel-essay-handoff_2026-05-11.md) | Fire Stage 3 four-pass cycle when bandwidth permits. |
+| **2** | MED | Boston Review essay | UNBLOCKED 2026-05-10. **Source chapter (Ch 5) stable** — three-pass cycle CLOSED. [handoff](boston-review-essay-handoff_2026-05-09.md) | Draft pitch + essay (~4,500w from Ch 5). When bandwidth permits. |
+| **14** | MED | Comp-titles deep matrix Phase 2 | Just-in-time verification deferred from #11. | Early-to-mid July 2026 (2–3wk before Wave 1). |
 
 ### 5.3 WAITING / BLOCKED / DORMANT
 
@@ -142,6 +144,28 @@ Priority within bucket: **HIGH** = time-pressured or gates large downstream casc
 - **Darity cross-thread C-1 (Fogel-Engerman two-volume model → comp-titles) DECLINED** by author 2026-05-19 — out of bibliography scope
 - **Decision: Chs 2/3 retain `__Draft` suffix = INTENTIONAL** (2026-05-19) — they may need rewrite depending on consent outcomes; keep `__Draft` until Stage-3 closure
 
+**Batch added 2026-05-19 / 05-20 / 05-21:**
+
+- **Phat anonymization RATIFIED + applied across artifacts** (`12caa26`) + Ch 3 v1 (`8a55395`) + Noema Essay B (`2815433`); memory mirrors + tracking artifacts updated
+- **Ch 3 v1 Phat-anonymization replacement-analysis PROPOSED** (`8e3bf25`; propose-only) — awaiting ratification
+- **Noema Essay B Part B replacement analysis PROPOSED → RATIFIED** verdict **KEEP anonymized + SUBMIT NOW** (`0662408` + `3e17ef7`)
+- **Ch 3 augmentation workstream**: Stage 1 brief PROPOSED → RATIFIED (`7628fe1` + `b8806fa`); Stage 2 LANDED (`9a7cc7e` — 11 named voices across 9 chapter locations); Bay-cap chronology fact-check bundled (`6785646`); G1-G10 bibliography scribe pass (`134b888`) — Stage 1c HOLD resolved
+- **Ch 3 Pass 3.2 voice-polish PROPOSED** 2026-05-20 (`1d9c5ad`)
+- **Ch 6 Pass 3.5 developmental-edit PROPOSED** 2026-05-20 (`838a3f2`) — first non-Ch-1 chapter in the dev-edit workstream class
+- **Ch 7 Pass 1 RATIFIED + Phase C-α applied** 2026-05-20 (`4948dbb` ratification record + `4987e59` 7 spot-fixes); **Pass 2 PROPOSED** 2026-05-21 (`6f54514`)
+- **Ch 8 Pass 1 Phase C applied** 2026-05-21 (`5fe6af6` — 16 Ch 8 + 1 Ch 2 + 1 Ch 6 + 5 inventory rows)
+- **Ch 9 Pass 1 Phase C applied** (`4c8bc02` — 12 prose + 2 cross-corpus); **Pass 2 PROPOSED** (`e68b505`)
+- **Ch 10 Pass 1 v1.0.1 refresh** (`e026d5f`) — re-anchored against current state
+- **Ch 2 Pass 3 ratification rev landed** (`f4ee16b` — pivot placeholders #1+#2 to published-record; cut #3); Phase C-δ research inventory (`f5c4b71`)
+- **Aeon pitch Version C**: Pass 3.1 PROPOSED → RATIFIED + APPLIED (`0142107` + `8b2ae31`); §4.1 cascade scan EXECUTED + 4 artifacts patched (`3e54015`); Pass 3.2 voice-polish PROPOSED (`c722bb6`)
+- **Noema essay Pass 3.1 fact-check PROPOSED** 2026-05-19 (`b7fbc92`)
+- **$100 Barrel essay → Phenomenal World**: Stage 1 brief PROPOSED → RATIFIED (`5cf5913` + `53db177`); Stage 2 audience-blind flow draft LANDED (`74953b9`)
+- **Cross-corpus IPG canonical-construction artifact RATIFIED** (Option D — `f3def8a` + `57575b1`) — Ch 8 Pass 1 HIGH-3 follow-on resolved
+- **Memory mirrors + scaffolding desc synced to Stage 3 five-pass** (`0be3a86`) — v3.1 Amendment B doctrine update reflected in mirrors
+- **CBF live-call-companion refreshed** 2026-05-20 (`bb61fa1`) — post-Phat-ratification + post-petition-expansion posture
+- **TA pre-pub queue note**: §1.1 Definition 1.1 notation legibility flagged for Sandy/publisher trigger (`9e2ef55`)
+- **Ch 7 + Ch 8 Pass 1 artifact refreshes** for path + line-number drift post-rename (`e21b50a` + `dbef561`)
+
 Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Apparatus register, #10 Cross-chapter consistency, #11 Comp-titles v0, #13 Flagship terms defense, #15 TA numbering reconciliation.
 
 **Retired:** #7 Manuscript completion (substance migrated to §7 Apparatus 2026-05-13).
@@ -150,18 +174,20 @@ Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Appar
 
 ## 6. #20 Stage-3 Rigor Pass — per-chapter detail
 
-| Ch | Pass 1 (fact-check) | Pass 2 (voice-polish) | Pass 3 (audience-load) | Phase C spot-fixes | **Next action** |
+| Ch | Pass 1 | Pass 2 | Pass 3 | Pass 3.5 | **Next action (priority)** |
 |---|---|---|---|---|---|
-| **1** | ✅ COMPLETE | ✅ RATIFIED + APPLIED 2026-05-15 (`7b4aa92`; 10 spot-fixes) | ✅ REAUDIT v3 `76ca8a6` items (i) + (iv) APPLIED (`013415f` + `f692164`); item (iv) actually deferred to pre-pub `ea94684`; line 29 grandfather paragraph applied `54709e7`. **Pass 3.3 light re-fire RATIFIED 2026-05-19** (`eb14171`) — verdict: READY-TO-SUBMIT HOLDS WITH CONFIDENCE-LEVEL STRENGTHENING (40-char: 30 INCLUDE / 0 EXCLUDE; 9 confidence uplifts; 0 discounts; §11.5 chiastic-ellipsis reads as authorial craft). | Pass 3.5 developmental-edit RATIFIED + 9 spot-fixes applied 2026-05-18 (`e69c61e`) + DMV-commute coda 2026-05-19 (`d36534f`) | **✅ Stage-3 five-pass cycle CLOSED 2026-05-19.** Remaining for Ch 1: Stage 4 render + character-integrity audit; Stage 5 sign-off + pre-pub review queue artifact (per pipeline doctrine §4 + §5). |
-| **2** | ✅ COMPLETE | ✅ COMPLETE | not started — paste-text drafted | 14 applied | **Fire Pass 3** (paste-text from PM) |
-| **3** | ✅ LANDED `2f76e37` | not started | not started | — | **Fire Pass 2** (paste-text from PM) |
-| **4** | ✅ COMPLETE | PROPOSED 2026-05-15 (`3174cc8`) | not started | 5 MEDIUM + 2 LOW (`e67b8b8` + `8f792ee`) | **Ratify Pass 2** + apply spot-fixes |
-| **5** | ✅ CLOSED 2026-05-14 | ✅ CLOSED 2026-05-14 | ✅ CLOSED 2026-05-14 — RATIFIED as-proposed (READY TO SUBMIT AS-IS) | all applied through C-β-followup | **Cycle CLOSED.** No further work unless Sandy reply surfaces revisions. |
-| **6** | ✅ CLOSED 2026-05-14 (with Amendments B/C/D/E) | ✅ CLOSED 2026-05-14 (through C-δ + cascade convergence-table refresh) | ✅ CLOSED 2026-05-14 — RATIFIED as-proposed (Tier-B-optional held) + Phase C-ε disposition recorded (`83431ab`) | all applied; α-dominance phrase-swap held as conditional trigger | **Cycle CLOSED.** α-dominance swap fires if any reviewer flags α-notation. |
-| **7** | PROPOSED 2026-05-16 (`ff9a89a`) — rigor pass artifact at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-16_ch7_on_other_worlds_stage3_fact_check_v1.0.0.md` | — | — | — | **Ratify Pass 1 findings + apply Phase C-α** |
-| **8** | PROPOSED 2026-05-16 (`210b02c`) — **4 HIGH / 8 MEDIUM / 7 LOW; READY AFTER SPOT-FIXES**; artifact at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-16_ch8_what_things_actually_cost_stage3_fact_check_v1.0.0.md` | — | — | $44B drift correction landed (`cacb82d`) | **Ratify Pass 1 (especially 4 HIGH) + apply Phase C-α** |
-| **9** | PROPOSED 2026-05-16 (`9720da0`) — rigor pass artifact at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-16_ch9_pricing_honestly_stage3_fact_check_v1.0.0.md` | — | — | — | **Ratify Pass 1 + apply Phase C-α** |
-| **10** | PROPOSED 2026-05-16 (`c85c41d`) — rigor pass artifact at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-16_ch10_common_bonds_stage3_fact_check_v1.0.0.md` | — | — | bidirectional-reach insertion already ratified (`376eb3c`) | **Ratify Pass 1 + apply Phase C-α** |
+| **1** | ✅ | ✅ | ✅ | ✅ APPLIED | **✅ Stage-3 CLOSED 2026-05-19.** Remaining: Stage 4 + Stage 5 sign-off + pre-pub review queue artifact. |
+| **2** | ✅ | ✅ | ✅ Pass 3 ratification rev `f4ee16b` (placeholders → published) | — | Apply Pass 3 rev + close cycle; queue Pass 3.5 |
+| **3** | ✅ LANDED `2f76e37` + Bay-cap chronology spot-fix `6785646` + augmentation Stage 2 (`9a7cc7e`) + G1-G10 bib `134b888` + Phat anonymization `8a55395` | **🔴 PROPOSED `1d9c5ad`** 2026-05-20 | — | — | **Ratify Pass 3.2 + apply; ratify v1 step-back KEEP/REPLACE `8e3bf25`; fire Pass 3 (audience-load)** |
+| **4** | ✅ | **🔴 PROPOSED `3174cc8`** | — | — | **Ratify Pass 2 + apply spot-fixes (5M + 2L already in)** |
+| **5** | ✅ | ✅ | ✅ | — | Cycle CLOSED. Queue Pass 3.5. No further work unless Sandy reply surfaces revisions. |
+| **6** | ✅ | ✅ | ✅ + Pass 3.4 retrofit `5e08642` | **🔴 PROPOSED `838a3f2`** 2026-05-20 | **Ratify Pass 3.5 + apply Phase C** (first non-Ch-1 dev-edit) |
+| **7** | ✅ RATIFIED + Phase C applied (`4948dbb` + `4987e59` 7 spot-fixes) | **🔴 PROPOSED `6f54514`** 2026-05-21 | — | — | **Ratify Pass 2 + apply; fire Pass 3** |
+| **8** | ✅ Phase C applied (`5fe6af6` — 16 Ch 8 edits + cross-corpus IPG canonical-construction `57575b1`); $44B drift fixed | — | — | — | **Fire Pass 2** |
+| **9** | ✅ Phase C applied (`4c8bc02` — 12 prose + 2 cross-corpus) | **🔴 PROPOSED `e68b505`** | — | — | **Ratify Pass 2 + apply; fire Pass 3** |
+| **10** | **🔴 PROPOSED `c85c41d`** (v1.0.1 refresh `e026d5f`) | — | — | — | **Ratify Pass 1 + apply Phase C-α**; bidirectional-reach already in (`376eb3c`) |
+
+**🔴 ratification queue this week:** Ch 6 Pass 3.5 + Ch 3 Pass 3.2 + Ch 3 v1 step-back + Ch 4 Pass 2 + Ch 7 Pass 2 + Ch 9 Pass 2 + Ch 10 Pass 1 + Aeon Pass 3.2 + Noema Pass 3.1 = **9 PROPOSED artifacts awaiting disposition.**
 
 **Cross-thread #11 (endnote/citation sweep)** accumulating: Ch 2 = 9M+1L; Ch 4 = 5M+3L; Ch 5 = 16M + 14L + N-6 citation-form sharpening; Ch 6 substantial; Chs 7/8/9/10 contributions land with their Phase C applications. Hard target before late-July Wave 1.
 
@@ -188,13 +214,16 @@ Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Appar
 - ~~**Pipeline retrofit sequencing.**~~ **IN MOTION 2026-05-18** — 5 retrofits fired (Ch 1 + Ch 5 + Ch 6 + TA + TA rent-seeking amendment); 9 remain (Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication). Render-pipeline-standardization gate cleared via canonical-pipeline ratification 2026-05-19 (`b3f4af5`).
 - ~~**Cross-chapter rent-seeking engagement edits.**~~ **RESOLVED 2026-05-18.** Workstream RATIFIED; four touches applied via `a1e54d9`. Residuals deferred per ratification-log §9.
 - ~~**Render-pipeline-standardization canonical-pipeline choice.**~~ **RESOLVED 2026-05-19** (`b3f4af5`). Canonical pipeline ratified; render-output policy in place; docker-render.sh convenience wrapper landed.
-- **NEW: Developmental-edit (Pass 3.5) per-chapter fire order for Chs 2–10 + AuthorsNote.** Ch 1 ratified + applied 2026-05-18; pipeline doctrine Amendment B codified Pass 3.5 (`316073e`). Per handoff: one chapter per session per branch discipline. Open question: fire Ch 2 next (sequential), or interleave with Phase C-α applications for Chs 7–10 (which are Stage-3 Pass 1's still PROPOSED)? PM recommendation: **fire Ch 2 dev-edit next** as natural follow-on; Phase C-α applications for Chs 7–10 are independent and can run in parallel.
+- ~~**Developmental-edit (Pass 3.5) per-chapter fire order**~~ — **IN MOTION:** Ch 6 Pass 3.5 PROPOSED 2026-05-20 (`838a3f2`) ahead of Ch 2 (out of original sequence; consistent with workstream-class flexibility). Ratify + apply, then next: PM rec is now Ch 5 (cycle CLOSED) or Ch 2 (PM's original rec; deferred while Ch 6 fired ahead).
 - ~~**Ch 1 Pass 3.3 light re-fire disposition.**~~ **RESOLVED-RATIFIED 2026-05-19** (`eb14171`). Verdict held: READY-TO-SUBMIT WITH CONFIDENCE-LEVEL STRENGTHENING. Ch 1 Stage-3 five-pass cycle now fully CLOSED.
 - ~~**Chapter file rename completeness.**~~ **RESOLVED-INTENTIONAL 2026-05-19.** Author confirmed Chs 2/3 retain `__Draft` because they may need rewrite depending on consent outcomes (Phat / Biggie); pattern is "drop `__Draft` only on Stage-3 closure."
 - ~~**Phat consent escalation.**~~ **RESOLVED 2026-05-20 — author ratified anonymization** per `feedback_named_subject_consent.md` discipline. Substantive material preserved; name restores in future printings if consent lands. Consent pursuit moves to relationship-pace, not publishing-gate. Two content-edits remain (Essay B line 136 + Ch 3 v1 draft) — see §4.
-- **Sandy reply triage protocol.** Reply window opens Thu May 21 (1 week post-send). If no acknowledgment by then, soft check-in. If reply lands earlier, follow P2 #12 triage in mobile dashboard.
-- **TA per-chapter call-site audit timing.** Now that v2.1.0 is published + per-chapter Pass 1's are all PROPOSED, the TA call-site audit can fold into Phase C-α applications for Chs 7–10 rather than waiting for a separate Apparatus Phase A run.
-- **Boston Review essay fire.** Ch 5 source chapter now stable. Worth scheduling Boston Review pitch + essay drafting before #16 ($100 Barrel) Session 2 since it has the more direct chapter→essay path. Either order works; just be explicit about which fires when.
+- **Sandy reply triage protocol.** Reply window OPENS TODAY (Thu May 21). Soft check-in only if EOD silence. If reply lands, follow P2 #12 triage in mobile dashboard.
+- **NEW: Ch 3 v1 Phat-anonymization step-back disposition** (`8e3bf25` PROPOSED 2026-05-20). KEEP anonymized in-place vs REPLACE with named public-record subject. Noema verdict was KEEP — same logic likely applies to Ch 3, but author ratification needed.
+- **NEW: Noema submission posture** — Pass 3.1 fact-check spot-fixes (`b7fbc92`) apply first, then submit? Or submit at-state? KEEP+SUBMIT verdict (`3e17ef7`) implies apply-then-submit; confirm before firing.
+- **NEW: Stage 5 (academic-rigor + prose-quality sign-off + pre-pub review queue artifact) template.** Ch 1 is the first chapter to reach this gate (five-pass cycle CLOSED 2026-05-19). No chapter has run Stage 5 yet; first chapter through needs to also build the template. Defer or schedule?
+- **TA per-chapter call-site audit timing.** TA call-site audit can fold into Phase C applications for Chs 7-10 (now mostly underway) rather than waiting for a separate Apparatus Phase A run.
+- **Boston Review essay fire.** Ch 5 source chapter stable. Worth scheduling Boston Review pitch + essay drafting in late May / early June after Aeon submission and Noema clears.
 
 ---
 
@@ -208,32 +237,38 @@ Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Appar
 - [x] Chapter file rename — Chs 1/4/5/6/7/8/9/10 dropped `__Draft` (`a09e319`); Chs 2/3 retained
 - [x] Ch 1 developmental-edit review RATIFIED + 9 spot-fixes applied (`1f5c6ad` + `e69c61e`)
 
-### TODAY Tue May 19
-- [x] **Ch 1 Pass 3.3 light re-fire RATIFIED** (`eb14171`) — Stage-3 five-pass cycle CLOSED for Ch 1
-- [x] **Darity C-2 (Du Bois → bibliography) RATIFIED** — queue for next bibliography session
-- [x] **Darity C-1 (Fogel-Engerman → comp-titles) DECLINED** — out of bibliography scope
-- [x] **Chapter rename pattern confirmed INTENTIONAL** — Chs 2/3 retain `__Draft` pending Stage-3 closure
-- [ ] Triage Chs 7/8/9/10 Pass 1 findings (start with Ch 8's 4 HIGH items)
-- [ ] Decide Ch 2 developmental-edit fire timing (recommend: fire next)
-- [ ] Generate paste-text for Boston Review essay + $100 Barrel essay → PW + Atlantic Ideas essay (delivered to author in chat)
+### Tue May 19 — DONE
+- [x] Ch 1 Pass 3.3 light re-fire RATIFIED (`eb14171`) — Stage-3 five-pass cycle CLOSED for Ch 1
+- [x] Darity C-2 (Du Bois → bibliography) RATIFIED; Darity C-1 DECLINED
+- [x] $100 Barrel Stage 1 brief PROPOSED + RATIFIED (`5cf5913` + `53db177`); Stage 2 LANDED (`74953b9`)
+- [x] Ch 9 Pass 1 Phase C applied (`4c8bc02`)
+- [x] Noema essay Pass 3.1 fact-check PROPOSED (`b7fbc92`)
+- [x] Aeon pitch Pass 3.1 PROPOSED (`0142107`)
 
-### Tomorrow Wed May 20
-- Continue Chs 7/8/9/10 ratification + Phase C-α apply
-- Ratify Ch 4 Pass 2 + apply spot-fixes
-- ~~Decide Phat consent escalation deadline~~ — **RESOLVED 2026-05-20:** anonymization ratified; consent pursuit at relationship-pace
+### Wed May 20 — DONE
+- [x] **Phat anonymization RATIFIED + applied across all artifacts** (`12caa26` + `8a55395` + `2815433`)
+- [x] **Ch 3 augmentation workstream Stage 1 RATIFIED + Stage 2 LANDED** (`b8806fa` + `9a7cc7e` — 11 named voices); Bay-cap chronology fix (`6785646`); G1-G10 bibliography (`134b888`)
+- [x] **Ch 3 Pass 3.2 voice-polish PROPOSED** (`1d9c5ad`)
+- [x] **Ch 6 Pass 3.5 developmental-edit PROPOSED** (`838a3f2`)
+- [x] **Ch 7 Pass 1 RATIFIED + Phase C applied** (`4948dbb` + `4987e59`)
+- [x] **Aeon pitch Pass 3.1 RATIFIED + APPLIED + §4.1 cascade** (`8b2ae31` + `3e54015`)
+- [x] **Replacement analyses PROPOSED for Ch 3 v1 + Noema** (`8e3bf25` + `0662408`)
+- [x] **CBF live-call-companion refreshed** for today's meeting (`bb61fa1`)
 
-### 🆕 Thu May 21
-- **2:00 PM ET — CBF Microsoft Teams meeting** — three-person (Chris + Val + David). **Teams link received Tue May 19; add to calendar.** Prep: review `research/outreach/subjects/cbf/{interview-prep,live-call-companion,organizational-brief}_*.md` with dual-state scope (MD-Colden + VA-Moore).
-- Sandy reply window opens (1 week post-packet); soft check-in only if silent.
+### 🔴 TODAY Thu May 21
+- [x] **Noema Essay B step-back RATIFIED — KEEP + SUBMIT** (`3e17ef7`)
+- [x] Cross-corpus IPG canonical-construction RATIFIED (`57575b1`); Ch 8 Pass 1 Phase C applied (`5fe6af6`)
+- [x] Ch 7 Pass 2 voice-polish PROPOSED (`6f54514`)
+- [x] Aeon Pass 3.2 voice-polish PROPOSED (`c722bb6`)
+- [ ] **🔴 2:00 PM ET — CBF Microsoft Teams meeting** (three-person; Teams link in inbox). Prep at [`live-call-companion_2026-05-21_thursday-meeting.html`](../../research/outreach/subjects/cbf/live-call-companion_2026-05-21_thursday-meeting.html).
+- [ ] **Sandy reply window opens** — soft check-in only if EOD silence.
+- [ ] **Begin ratification queue** (9 PROPOSED items — see §6): start with whichever you have head-space for; recommend Ch 6 Pass 3.5 first (newest, isolated chapter; sets dev-edit cadence) or Ch 3 v1 step-back (smallest decision; clears the Ch 3 path).
 
 ### This week (by Sun May 24)
-- **Thu May 21** — Sandy reply window opens (1 week post-send); soft check-in only if silence
-- Fire **Ch 2 developmental-edit** session (next in workstream class)
-- Fire **Ch 2 Pass 3** (paste-text from PM)
-- Fire **Ch 3 Pass 2** + **Ch 3 Pass 3** (paste-text from PM)
-- Fire **Ch 4 Pass 3** (after Ch 4 Pass 2 spot-fixes apply)
-- Continue Chs 7/8/9/10 cycles toward Pass 2 trigger
-- Continue remaining pipeline retrofits (9 of 14 remain: Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication)
+- Work through ratification queue (see §6) — 9 PROPOSED items
+- Apply Noema Pass 3.1 spot-fixes → **SUBMIT NOEMA**
+- Continue pipeline retrofits (Chs 2/3/4/7/8/9/10 + AuthorsNote + Dedication still pending)
+- Queue next Pass 3.5 dev-edit fire (recommend Ch 5 — CLOSED cycle, clean precedent)
 
 ### Fri May 29
 - **Aeon Version C pre-submission verify** — final read-through (~20min)
