@@ -2,7 +2,7 @@
 
 **Workstream:** Ch 3 v2 augmentation cascade — Stage 3 Pass 3.2 (voice-polish; automatic-on-edit cascade per Amendment A).
 **Date drafted:** 2026-05-20
-**Status:** PROPOSED — author ratification pending. Per Amendment C (2026-05-19), ratification is INTERACTIVE; a follow-up session walks author through each finding with Options + Recommendation + Reasoning + applies ratified spot-fixes to chapter source in the same combined session.
+**Status:** RATIFIED + APPLIED 2026-05-21 (Phase C interactive ratification + application session per Amendment C). 13 voice-polish spot-fixes applied + 6 findings ratified HOLD + 1 NEW finding (F-V21 chapter-wide em-dash audit) surfaced from author feedback and routed to a separate follow-up session. See §12 disposition log below.
 **Mode:** Audit-existing-prose (post–Stage 2 augmentation + post–bibliography G1–G10 chapter is the baseline; Amendment A automatic-on-edit cascade triggered by Stage 2 prose addition + bibliography landing).
 **Source chapter:** `manuscript/chapters/Chapter__3_TheWaterman__Draft.md` — **244 lines** (post-Stage-2 augmented state; verified 2026-05-20 against `origin/main` at `6785646`).
 
@@ -684,4 +684,60 @@ Per author's per-prompt scoping + Amendment A two-class cascade + v3.1 distinct-
 
 ---
 
-*End of Ch 3 Stage-3 Pass 3.2 (Voice-Polish) rigor pass — PROPOSED 2026-05-20. Author ratifies via interactive session per Amendment C; ratified spot-fixes apply in the same session. Pass 3.1 fact-check fires in a separate session (independent per Amendment A automatic-on-edit cascade). Pass 3.3 / 3.4 / 3.5 fire on author trigger at explicit-gate per Amendment A.*
+*End of Ch 3 Stage-3 Pass 3.2 (Voice-Polish) rigor pass — RATIFIED + APPLIED 2026-05-21. F-V21 chapter-wide em-dash audit routed to a separate follow-up session. Pass 3.1 fact-check fires in a separate session (independent per Amendment A automatic-on-edit cascade). Pass 3.3 / 3.4 / 3.5 fire on author trigger at explicit-gate per Amendment A.*
+
+---
+
+## §12. Disposition log (2026-05-21 Phase C interactive ratification session)
+
+Per Amendment C, interactive ratification session conducted 2026-05-21. All 20 findings (F-V1–F-V20) dispositioned against the chapter source plus 1 NEW finding (F-V21) surfaced from author feedback during the session. Findings ratified APPLY were applied to `Chapter__3_TheWaterman__Draft.md` in the same commit as this disposition-log update. NEW feedback memory written: `tools/memory/feedback_em_dash_overuse.md` (em-dashes as Claude-prose crutch; calibrate critically; ratified 2026-05-21).
+
+### Applied (13 voice-polish spot-fixes)
+
+| Finding | Severity | Option | Disposition |
+|---|---|---|---|
+| **F-V1** | HIGH | A (drop meta-frame) | Line 194 *"This is the structural risk: that the very people whose attention..."* → *"The very people whose attention..."* Drops the verbatim named-inventory meta-commentary tic; substantive clause stands on its own; "two sides of the ledger" closer already supplies the structural-pivot signal. |
+| **F-V2** | HIGH | A (full variance across 9 landings) | Nine attribution-frames varied + "to a reporter for [outlet]" mediation chain stripped: L65 Hudgins *"has put the math in his own words. […] he has told a reporter for Maryland Matters"* → *"has done the math out loud. […] he told Maryland Matters"*; L81 Goldsborough *"has put the institutional time-scale to a reporter for Smithsonian Magazine"* → *"told Smithsonian Magazine how the institutional time-scale looks from inside the science"*; L113 Nesslage *"has put it plainly to a reporter for WHRO"* → *"said it plainly to WHRO"*; L113 Latour *"has said it in his own terms in the same piece"* → *"said it more bluntly to the same outlet"*; L154 Eskridge *"has named the stakes to a reporter for the Thomson Reuters Foundation"* → *"told the Thomson Reuters Foundation what was at stake"*; L154 Cannon *"has put it more plainly to a reporter for Smithsonian Magazine"* → *"told Smithsonian Magazine what the prospect looked like from inside the island"*; L178 Evans *"has put the question to a reporter for the Thomson Reuters Foundation in her own words"* → *"named the question for the Thomson Reuters Foundation in her own words"*; L186 Tarnowski *"has put the paradox in twelve words. […] he has told a reporter for Maryland Matters"* → *"summed the paradox up in twelve words. […] he told Maryland Matters"*; L190 Ruth *"has put the longer arc on the same paper's record"* → *"told the same paper how the longer arc looks from inside an oyster house"*. Andy Harris's existing *"has framed the same arithmetic from the other side of the aisle"* at L178 preserved as canonical variance model. |
+| **F-V3** | MEDIUM | Custom (smoother prose; no em-dashes) | Line 38 *"Take some — leave the rest — let the rest spawn — come back next year."* → *"Take some, leave the rest to spawn, and come back next year."* Drops em-dash count from 3 to 0; folds redundancy ("leave the rest" + "let the rest spawn" → "leave the rest to spawn"); preserves imperative-discipline rhythm with smoother prose. Stage 1a M2 audit-trail closed. **Note:** original Pass 3.2 recommendation was PRESERVE-AS-IS based on Ch 1 F-V7 cadence-enactive precedent; author overrode with broader feedback ("em-dashes seem to be turning into a bit of a crutch for you"), which ratified `feedback_em_dash_overuse.md` as a new discipline memory. |
+| **F-V4** | MEDIUM | A-no-em-dash (drop two anchors; smoother prose) | Line 170 six-fold "He may" anaphora reduced to four anchors; sentences 2 + 4 anchor-dropped: *"He may say something about how..."* → *"Something about how the work is hard and the money is uncertain and the regulations are unpredictable."*; *"He may tell you that he tried to discourage him and the son went anyway, because..."* → *"Some sons go anyway. The son does it because it is what he knows and what his grandfather did, and the choice is the son's."* Preserves hesitating-conditional voice; no em-dashes introduced. |
+| **F-V5** | MEDIUM | D (restructure for smoother flow) | Line 226 five-fold "They [verb]" Norway anaphora collapsed: *"They built an instrument. They wrote the rules in such a way that the value coming out of the seabed was held in trust for the people of the country and for the generations not yet born. They set up a fund. They imposed limits on what could be drawn. They have, against more pressure than is usually acknowledged, kept the fund intact for more than thirty years."* → *"They built an instrument: rules that held the value coming out of the seabed in trust for the people of the country and for the generations not yet born, a fund with limits on what could be drawn. They have, against more pressure than is usually acknowledged, kept the fund intact for more than thirty years."* Two sentences instead of five; anaphora pattern eliminated. |
+| **F-V6** | MEDIUM | A (trim two highest-density meta-commentary) | Line 182 *"that I want to set down carefully because it is the most precise illustration the Bay has produced of what this book is trying to name."* → *"that is worth setting down carefully because it is the most precise illustration the Bay has produced of the cost-severance pattern this book is tracking."* + Line 192 *"Pause on this for a moment. The population is recovering. The watermen are in disaster."* → *"The population is recovering. The watermen are in disaster."* Drops two highest-density direct-reader-address tics; chapter-pivot moves at lines 168 + 200 + 234 preserved. |
+| **F-V7** | MEDIUM | A (anchor variance + em-dash strip in sentence 3) | Line 57 six-fold "They say" anaphora reduced to four anchors + em-dashes dropped: sentence 3 *"They say that when they were small they could stand in the bow on a calm summer day off the mouth of the Poquoson River and see the bottom — actually see it, see the grass and the crabs walking through the grass — and that this is not something a child can do anymore..."* → *"They remember when they were small they could stand in the bow on a calm summer day off the mouth of the Poquoson River and see the bottom, actually see it, see the grass and the crabs walking through the grass, and that this is not something a child can do anymore..."*; sentence 5 *"They say the smell at the dock has changed..."* → *"They notice the smell at the dock has changed..."* |
+| **F-V8** | MEDIUM | A (remove italics; render in regular prose) | Line 99 italic composite-quotation block stripped of italics: *"They say what they see. They aren't where they used to be. They aren't running when they used to run. The bigger ones are gone. We aren't catching what we used to catch."* (italics removed from the four-sentence composite-voice stretch). Trade-press convention preserved (italics = named verbatim only). |
+| **F-V11** | MEDIUM | A (vary third anchor; resolve X-is-X) | Line 206 *"The thought is the same thought the men in McDowell County had been thinking..."* → *"It is the same thought the men in McDowell County had been thinking..."* Drops the third "The thought is" anchor + resolves the X-is-X tautological doubling in one move. Lines 204's two "The thought is" anchors preserved as load-bearing recognition-rhythm. |
+| **F-V12** | MEDIUM | A (trim line 228 direct-reader-address) | Line 228 *"the most important question that someone who has read this far is entitled to ask, which is whether the alternative is even possible."* → *"the most important question, whether the alternative is even possible."* Drops the most editor-flagged direct-reader-address phrase. Lines 168 + 234 chapter-pivot moves preserved. |
+| **F-V19** | LOW → ratified | D (rephrase the closer) | Line 115 *"The watermen know the asymmetry. The ospreys know it, in the way ospreys know things."* → *"The watermen know the asymmetry. The ospreys feel it."* Drops the twee "in the way ospreys know things" flourish (author flagged 2026-05-21 as "ridiculous"); preserves the watermen → ecology cost-bearing move; ties back to line 109's failing-fledgling osprey observation. Recategorized from LOW-hold to ratified-apply mid-session. |
+
+### Held (6 findings — 4 MEDIUM substantively-earned + remaining 7 LOW)
+
+| Finding | Severity | Reason |
+|---|---|---|
+| **F-V9** | MEDIUM | Line 36 declarative-three negation-cadence ("It is not a fluctuation. It is not bad luck. It is not the weather.") — defensible as cadence-enactive rhetorical-dismissal-triplet; sets up the three-waves mechanism narrative. Ch 1 F-V14 precedent (same class) held. |
+| **F-V10** | MEDIUM | Line 164 declarative-three at McDowell callback ("The accent is different. The work is different. The pattern is not.") — cadence-enacts-content; cross-chapter callback structurally load-bearing. Ch 1 F-V14 precedent held. |
+| **F-V13** | LOW | Lines 53+172 "motion/knowledge is dying" cross-section verbatim refrain — deliberate within-chapter callback. |
+| **F-V14** | LOW | Lines 57+131 "in a way that does not feel like life" refrain — watermen's voice → author's voice same observation; structurally load-bearing. |
+| **F-V15** | LOW | Line 32 fragment-pair "Not in some places, not in some seasons. Everywhere. Every season." — emphatic cadence-punctuation. |
+| **F-V16** | LOW | Line 103 menhaden reveal-build "It is small. It is oily. It is silver." — dramatic-reveal-build into species naming; cf. Ch 1 F-V21 precedent. |
+| **F-V17** | LOW | Lines 238+240 chapter-close bookend declarative-cadence — bookend to line 10 opening. |
+| **F-V18** | LOW | Line 200 three-stage thinning enumeration "first in the margins, then in the center, then in the structure" — substantive enumeration; cf. Ch 1 F-V16 precedent. |
+| **F-V20** | LOW | Single-sentence standalone-paragraph pivots at lines 14, 91, 121, 216 — section-break pivots. |
+
+### NEW finding surfaced from author feedback (1)
+
+| Finding | Severity | Disposition |
+|---|---|---|
+| **F-V21** | MEDIUM | NEW — surfaced 2026-05-21 from author feedback ("em-dashes seem to be turning into a bit of a crutch for you. Try writing this without any of them."). ~21 authorial-prose em-dash instances remain in the chapter beyond F-V3's line 38 fix (excluding em-dashes inside source quotations + Phat-anonymization passage [LOCKED] + canonical Biggie passage [LOCKED]). Four candidate-classes identified (long parentheticals, short appositive pairs, list-introducers, Stage 2 augmentation em-dashes). Disposition: spawn separate focused em-dash reduction session. Surfaced + routed via spawn_task during this Phase C session. Ch 3 chapter-wide em-dash audit to fire in follow-up session. |
+
+### Phase C application
+
+13 changes (12 voice-polish spot-fixes + 1 LOW recategorized-and-applied F-V19) applied to `manuscript/chapters/Chapter__3_TheWaterman__Draft.md` in the same commit that records this disposition log. Chapter line count preserved (net 0 line change across all 13 edits; 18 lines modified). NEW feedback memory `tools/memory/feedback_em_dash_overuse.md` + MEMORY.md index pointer added in the same commit (mirrored to `~/.claude/projects/-Users-c17n-commons-bonds/memory/`).
+
+No cross-chapter cascade required — none of the F-V findings touch terminology or framework-spine claims that propagate.
+
+### Pass 3.3 / 3.4 / 3.5 readiness
+
+Per Amendment A two-class cascade: Pass 3.3 / 3.4 / 3.5 are explicit-gate; do NOT fire as automatic follow-on. Pass-3.2-surfaced audience-load concerns flagged at §6 carry forward to those sessions if/when explicit-gate fires (venue-change / audience-set-change / cross-chapter cascade / pre-publication). F-V21 chapter-wide em-dash audit (the follow-up session) operates within Pass 3.2 discipline, not a new pass class.
+
+---
+
+*End of disposition log — RATIFIED + APPLIED 2026-05-21 Phase C session.*
