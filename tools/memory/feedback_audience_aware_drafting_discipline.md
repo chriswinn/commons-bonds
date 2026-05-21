@@ -182,6 +182,29 @@ Implementation: `tools/scripts/check-corpus-invariants.sh`.
   ran the 40-character full-rigor + adversarial set; adversarial test
   surfaced the Public Choice rent-seeking-engagement thread that became a
   cross-chapter workstream (would have been missed by acceptance-only).
+- v3.0 Condition-1-execution-choice anchor: $100 Barrel parallel-Stage-2-drafts
+  comparative audit (2026-05-21,
+  `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`)
+  ran the full 18-character acceptance + 5-character adversarial set across
+  two parallel Stage 2 drafts of the same brief. Both drafts were
+  Stage-1-brief-compliant. The differential was **execution choice**:
+  Draft A's explicit-meta Condition-1-disarming moves ("Note the move I have
+  just made... I am not endorsing his political program"; "I want to name
+  what I am doing here"; "Readers who find Rawls unpersuasive should ask
+  themselves whether they find Sandel and Parfit equally unpersuasive") vs
+  Draft B's embedded-disarming-in-flowing-prose. The Tier 1 dispositive
+  Condition 1 audience (center-right policy reader) + the adversarial A4
+  reactionary intellectual reader both passed Draft A on skim-read with
+  ✓✓✓ but passed Draft B only on close-read (⚠ skim-read risk). Discipline
+  carry-forward: when a Stage 1 brief specifies a Condition-1-style
+  non-partisan-framing-discipline dispositive audience, **explicit-meta
+  disarming moves should be flagged as the recommended Stage 2 execution
+  choice** rather than left to Stage 2 prose discretion. The discipline
+  produced two parallel brief-compliant drafts (Draft B archived at
+  `archive/_OneDayMaybe/100-barrel-essay-variants/100-barrel-essay-draft_2026-05-19_v1.0.0_variant-fbc623.md`)
+  precisely because the Stage 1 brief did not flag this — useful evidence
+  that Stage 1 brief templates should add this flag for future briefs with
+  dispositive non-partisan audiences.
 - Stage 4 friction-anchors: tofu-box em-dash / ≈ rendering issues
   (Ch 5 + Ch 6, commit `d238f2c`); Chrome-vs-wkhtmltopdf rendering
   divergence (commit `cf24f57`); EB Garamond font-family naming
