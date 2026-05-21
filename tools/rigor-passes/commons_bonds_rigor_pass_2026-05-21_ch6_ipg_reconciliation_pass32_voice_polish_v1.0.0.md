@@ -159,27 +159,34 @@ Single Ch 6 spot-fix (lines 175 + 177); two atomic edits in one Phase C commit.
 
 ## §6. Ratification record
 
-**Author ratification:** **PROPOSED 2026-05-21** by Pass 3.2 cascade follow-on session. Awaits explicit author ratification before Phase C application.
+**Author ratification:** **RATIFIED 2026-05-21** by author direct ratification ("as recommended"). Phase C application authorized in the same session per CLAUDE.md author-ratified-content-change merge-to-main default.
 
 **Disposition (F-V1 — Em-dash overuse):**
 
 - Option A (commas — line 177 reads choppy): [ ]
-- Option B (parentheses; chapter-convention-aligned) — **recommended**: [ ]
+- Option B (parentheses; chapter-convention-aligned) — **recommended**: [x] **RATIFIED**
 - Option C (restructure): [ ]
 - Option D (keep em-dashes): [ ]
 - Other / custom (specify): [ ]
 
-**Cross-chapter consequence list ratified as written (§4 — none):** [ ] Yes / [ ] No (specify edits)
+**Cross-chapter consequence list ratified as written (§4 — none):** [x] **Yes — no cross-chapter touches required.**
 
 **Phase C bundling decision:**
 
-- Apply F-V1 Option B as standalone single-atomic Phase C commit — **recommended**: [ ]
+- Apply F-V1 Option B as standalone single-atomic Phase C commit — **recommended**: [x] **RATIFIED standalone**
 - Defer until a future full Ch 6 Pass 3.2 session (would catch this + likely other chapter-wide em-dash drift): [ ]
 - Other (specify): [ ]
 
+**Phase C application record (2026-05-21, same session as ratification):**
+
+- Ch 6 line 175 em-dash pair (source attribution) → parentheses, per §2.3 Option B verbatim proposed prose.
+- Ch 6 line 177 em-dash pair (Method 1 descriptor apposition) → parentheses, per §2.3 Option B verbatim proposed prose.
+- Net Ch 6 change: 4 em-dashes removed; 2 parens pairs added; ~6 character net change; no line-count shift (file remains 343 lines).
+- Both edits applied in a single atomic Phase C commit; per CLAUDE.md author-ratified-content-change default the session fast-forwards to `origin/main` at session close.
+
 **Notes:**
 
-The full Ch 6 chapter contains 83 em-dashes across 343 lines; a future full Ch 6 Pass 3.2 (chapter-wide scope) will likely surface broader em-dash drift beyond this spot finding. This Pass 3.2 cascade follow-on addresses only the newly-added prose per the v3.1 Amendment A automatic-on-edit cascade scope. Whether to defer the spot-fix until a chapter-wide pass (vs apply now as the smallest possible fix on the newest prose) is a Phase C bundling decision under the author's ratification.
+The full Ch 6 chapter contains 83 em-dashes across 343 lines; a future full Ch 6 Pass 3.2 (chapter-wide scope) will likely surface broader em-dash drift beyond this spot finding. This Pass 3.2 cascade follow-on addresses only the newly-added prose per the v3.1 Amendment A automatic-on-edit cascade scope; the chapter-wide em-dash drift remains for a future full Ch 6 Pass 3.2 session.
 
 ---
 
