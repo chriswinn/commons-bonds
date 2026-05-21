@@ -32,9 +32,31 @@ Body:
 
 ## Per-recipient customizations
 
-### 1. Mariana Mazzucato (UCL Institute for Innovation and Public Purpose) — **PENDING REVIEW 2026-05-06** (holding response via Office of Prof. Mazzucato)
+### 1. Mariana Mazzucato (UCL Institute for Innovation and Public Purpose) — **DECLINED 2026-05-21** (via Adam Albrecht, Office of Prof. Mazzucato, UCL IIPP)
 
-**STATUS UPDATE 2026-05-06:** Holding response received from **Adam Albrecht (Office of Prof. Mazzucato, UCL IIPP)**: *"Thank you for your message to Professor Mazzucato. We will review the request alongside other commitments and get back to you shortly."* Office address on file: 11 Montague Street, London, WC1B 5BP. No action required from us — wait for the substantive follow-up. Standard academic-EA holding-response register; this is neither acceptance nor decline. **Gatekeeper note:** Adam Albrecht is the routing path for any future correspondence; preserve his name + role in the thread. **Implications if accepted:** Mazzucato is the value-creation / value-extraction landmark cite for the framework's positioning; the framework's *cost severance* terminology is presented as a precision-add on her value-extraction vocabulary (Q from cold-outreach Para 2). Highest-leverage engagement question is whether *cost severance* adds analytical work she hasn't already covered under different vocabulary. Pattern 2 register exemplar (alongside Raworth, who declined; *Mission Economy* + *Doughnut Economics* are the two cleanest Pattern 2 demonstrations in the live literature).
+**STATUS UPDATE 2026-05-21:** Substantive decline received from Adam Albrecht: *"Prof. Mazzucato was grateful to receive the request but, with regret, she is not able to accept due to existing work commitments at this stage."* Polite standard academic-EA decline register; door not closed for the future ("at this stage"). **Implication for book:** Mazzucato's published work (*The Value of Everything*, *Mission Economy*) remains the Pattern 2 register landmark cite — citation discipline is unaffected (published work is citable under standard journalism + fair-use). The substitution-hypothesis upgrade path (live conversation → vocabulary-precision read on whether *cost severance* adds analytical work beyond *value extraction*) closes. **Cross-thread #1 (Chalfant ↔ Mazzucato Wylie-agent ID) loses resolution path (c)** — fall back to (a) physical-book check of *Mission Economy* Acknowledgments + (b) Publishers Marketplace deal-record lookup. **Gatekeeper note:** Adam Albrecht remains the routing path for any future correspondence (e.g., post-publication book-send); preserve his name + role in the thread. Office address on file: 11 Montague Street, London, WC1B 5BP. **Pattern 2 register exemplar status preserved** alongside Raworth (who also declined via Beth Ingledew); *Mission Economy* + *Doughnut Economics* remain the two cleanest Pattern 2 demonstrations in the live literature.
+
+**Verbatim 2026-05-21 decline message:**
+
+> Dear Chris Winn,
+>
+> Thank you again for your request to Prof Mariana Mazzucato.
+>
+> Prof. Mazzucato was grateful to receive the request but, with regret, she is not able to accept due to existing work commitments at this stage.
+>
+> We wish you all the best,
+>
+> Kind regards
+>
+> Adam
+>
+> Adam Albrecht
+> Office of Prof. Mariana Mazzucato
+> UCL Institute for Innovation and Public Purpose (IIPP)
+> University College London (UCL)
+> 11 Montague Street, London, WC1B 5BP
+
+**STATUS UPDATE 2026-05-06 (historical; superseded by 2026-05-21):** Holding response received from Adam Albrecht: *"Thank you for your message to Professor Mazzucato. We will review the request alongside other commitments and get back to you shortly."* Standard academic-EA holding-response register; neither acceptance nor decline.
 
 **Email address (verify):** Likely `m.mazzucato@ucl.ac.uk` per UCL public directory; verify on UCL IIPP page.
 
