@@ -4,8 +4,8 @@
 **Chapter:** Ch 8, *What Things Actually Cost*
 **Cascade source:** MED-3 ($0.80/ton → $1–$1.50/ton range-based R1) + MED-6 ($4.50 → "four to five dollars" hedge); both applied per Ch 8 Pass 1 Phase C
 **Date drafted:** 2026-05-21
-**Date modified:** 2026-05-21
-**Status:** **PROPOSED** (artifact-only; author ratification gates Phase C application)
+**Date modified:** 2026-05-21 (ratification record added §4.5)
+**Status:** **RATIFIED** (author ratification recorded in §4.5 below; Phase C application is a separate session, ratified to fire next session)
 **Parent audit:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-16_ch8_what_things_actually_cost_stage3_fact_check_v1.0.0.md`](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-16_ch8_what_things_actually_cost_stage3_fact_check_v1.0.0.md)
 **Parent application commit:** [`5fe6af6`](https://github.com/) — *Ch 8 Pass 1 Phase C — 16 ratified Ch 8 edits + 1 Ch 2 + 1 Ch 6 + 5 inventory rows* (2026-05-21)
 **Workstream:** Manuscript Stage-3 Rigor Pass (PM dashboard #20)
@@ -356,9 +356,9 @@ OR (alternative compact form):
 
 | Site | Line | Issue | Recommended option | Author ratifies? |
 |---|---|---|---|---|
-| **Site 1** | 40 | "four-fifty" residual + "roughly as much" stretched claim | **Option 1A** — mirror "four to five dollars" + "most of what" hedge | ☐ |
-| **Site 2** | 52 | "already above" claim contradicted at floor case | **Option 2A** — "brings . . . up to" / "comparable to" hedge | ☐ |
-| **Site 3** | 166 | "$4.50 in 1960" verbatim residual at climactic IPG | **Option 3A** — spelled-out "four to five dollars" matching lines 24 + 40 | ☐ |
+| **Site 1** | 40 | "four-fifty" residual + "roughly as much" stretched claim | **Option 1A** — mirror "four to five dollars" + "most of what" hedge | ✓ **RATIFIED 2026-05-21** — Option 1A |
+| **Site 2** | 52 | "already above" claim contradicted at floor case | **Option 2A** — "brings . . . up to" / "comparable to" hedge | ✓ **RATIFIED 2026-05-21** — Option 2A |
+| **Site 3** | 166 | "$4.50 in 1960" verbatim residual at climactic IPG | **Option 3A** — spelled-out "four to five dollars" matching lines 24 + 40 | ✓ **RATIFIED 2026-05-21** — Option 3A |
 
 ### §4.2 Post-application arithmetic-consistency table
 
@@ -393,6 +393,20 @@ The MED-3 + MED-6 originating cascade has already propagated to Ch 6 line 24 (ME
 | Regressed-pattern scan (deprecated terminology, vendor names per CEO-era NDA) | ✓ None introduced |
 | Numerical-coherence with the chapter's "low-end discipline" | ✓ All three edits preserve or strengthen low-end / floor framing |
 | Voice register (chapter's first-person conversational + spelled-out 1960-price) | ✓ Options 1A + 2A + 3A all preserve register |
+
+### §4.5 Ratification record (2026-05-21)
+
+Author ratified all three §4.1 cascade options + the §3.4.A line 238 bundling + the §5 Phase C timing decision in a live interactive ratification session per the Amendment-C Interactive Ratification Protocol. Decisions recorded below as the canonical input to the Phase C application session.
+
+| Decision | Ratified outcome | Notes |
+|---|---|---|
+| **Site 1 (line 40)** | **Option 1A** — `"four-fifty"` → `"four to five dollars"` + `"returns roughly as much as"` → `"already returns most of what"` | Minimum-disturbance mechanical hedge; preserves three-declarative structure; reads cleanly across full $2–$4 vs $4–$5 range. |
+| **Site 2 (line 52)** | **Option 2A** — `"already places . . . at three to seven dollars — already above the 1960 market price"` → `"already brings the national severed cost up to the 1960 market price — at three to seven dollars per ton, comparable to what the coal cleared for at the mine mouth"` | Approximate hedge replaces contradicted strict-inequality; preserves cumulative-build narrative; "brings . . . up to" + "comparable to" hold across full $3–$7 sum vs $4–$5 market range. |
+| **Site 3 (line 166)** | **Option 3A** — `"market price of $4.50 in 1960"` → `"1960 market price of four to five dollars"` | Spelled-out body-prose register matching lines 24 + 40 + 238; intra-line register-asymmetry with `$40 to $140 today` reference-data preserved deliberately. |
+| **§3.4.A Line 238 bundling** | **Bundle into Site 3 Phase C application** (option i) — `"four-dollar-and-fifty-cent invoice"` → `"four-to-five-dollar invoice"` (preserve `"invoice"` diction; do NOT swap to `"mine-mouth price"` form) | One-touch mechanical mirror; Phase C session opens the prose neighborhood anyway. Closing-paragraph diction "invoice" preserved per author judgment. |
+| **§5 Phase C timing** | **Fire next session** | Three intra-chapter edits + one bundled closing-paragraph touch; no cross-chapter cascade; ratification context fresh; no scheduling dependency. |
+
+**Phase C application count (updated):** 4 ratified edits at lines 40 + 52 + 166 + 238 (the line 238 edit is a coupled spot-fix per §3.4.A bundling ratification; treat as a fourth ratified site for application purposes). All four edits land inside Ch 8 only; no cross-chapter consequence.
 
 ---
 
@@ -519,4 +533,4 @@ Parent audit §9 (Pass 2 voice-polish future-session input) flagged the "numeric
 
 ---
 
-*End of Ch 8 MED-3 + MED-6 cascade-reconciliation artifact — PROPOSED. Author ratification of §4.1 table gates Phase C application; Phase C is a separate session.*
+*End of Ch 8 MED-3 + MED-6 cascade-reconciliation artifact — **RATIFIED 2026-05-21** (see §4.5). Phase C application of the four ratified edits (Sites 1 + 2 + 3 + Line 238) fires in a separate next session.*
