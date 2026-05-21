@@ -273,31 +273,33 @@ For posterity / future-audit reference: **Ch 2 line 121 remains the canonical ho
 
 ## §7. Ratification record
 
-*Placeholder — author fills in post-decision.*
-
-**Author ratification:** [PENDING]
+**Author ratification:** **RATIFIED 2026-05-21** by author direct ratification in the parent Ch 8 Pass 1 walkthrough session.
 
 **Disposition:**
 - Option A (canonical alignment): [ ]
 - Option B (dual-construction transparency): [ ]
 - Option C (full corpus update): [ ]
-- Option D (canonical headline + today-prices follow-up) — **recommended**: [ ]
+- Option D (canonical headline + today-prices follow-up) — **recommended**: [x] **RATIFIED**
 - Other / custom (specify): [ ]
 
-**Cross-chapter consequence list ratified as written:** [ ] Yes [ ] No (note variations below)
+**Cross-chapter consequence list ratified as written:** [x] Yes — three Ch 8 prose changes (lines 168, 74, 212) + cross-chapter inventory line 89 annotation, per §5. No Ch 2 or Ch 6 prose changes for the canonical-construction decision.
 
 **Phase C bundling decision:**
-- Apply HIGH-3 as standalone single-atomic Phase C commit: [ ]
-- Bundle HIGH-3 with HIGH-4 (no shared touch surface; same Phase C session): [ ]
-- Bundle HIGH-3 with MED-3 (Ch 6 file already opening for $0.80/ton reconciliation; opportunity to annotate Ch 6 IPG drift): [ ]
+- Apply HIGH-3 as standalone single-atomic Phase C commit: [x] **RATIFIED standalone**
+- Bundle HIGH-3 with HIGH-4 (no shared touch surface; same Phase C session): [ ] (no bundle; can run in same Phase C session as HIGH-4 + other Ch 8 fixes but no shared file)
+- Bundle HIGH-3 with MED-3 (Ch 6 file already opening for $0.80/ton reconciliation; opportunity to annotate Ch 6 IPG drift): [ ] (no bundle; Ch 6 IPG drift deferred per below)
 - Other (specify): [ ]
 
 **Ch 6 in-chapter IPG drift (line 175 "fifty times" + line 249 "IPG of 33" + missing "per-case 33–122×" reconciliation):**
-- Defer to dedicated Ch 6 methodology-reconciliation session: [ ]
+- Defer to dedicated Ch 6 methodology-reconciliation session: [x] **RATIFIED defer**
 - Bundle with MED-3 Phase C if Ch 6 file is opening: [ ]
 - Other (specify): [ ]
 
 **Notes:**
+
+The Ch 6 in-chapter IPG drift surfaced in §5.4 + §6.2 is a separate finding that belongs to a dedicated Ch 6 methodology-reconciliation session. It is not bundled with MED-3's Ch 6 touch (which is opening Ch 6 for the $0.80/ton denominator reconciliation only, not for IPG methodology audit). The finding is captured in this artifact for cross-thread-todos / future-Ch-6-audit awareness.
+
+Phase C application of HIGH-3's ratified Option D will be sequenced into the Ch 8 Pass 1 Phase C application session prompt (separate session; drafted next).
 
 ---
 
