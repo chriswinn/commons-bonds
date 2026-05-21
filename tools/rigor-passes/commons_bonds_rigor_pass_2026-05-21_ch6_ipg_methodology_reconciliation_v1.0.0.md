@@ -269,7 +269,7 @@ The proposed prose replaces only line 175 + adds one paragraph between lines 175
 
 **Proposed verbatim replacement** (post Phase C application of Finding 1 Option B):
 
-> | **McDowell IPG range** | 33–122× canonical (floor 33; the McDowell-coal compression) + 50–555× triangulated (Methods 1+2+3 with α-dominance at multi-generational time scale); per Tech Appendix §11.11 the two ranges differ in time-horizon attribution and both correctly describe McDowell's IPG | Ch 2 line 121 | Ch 8 line 168 carries the canonical 33–122× framing as headline + today-prices follow-up ("even at today's $40–$140 prices, the carbon term alone exceeds market by ≥4×"; structural-finding beat). Ch 6 line 175 carries the triangulated 50–555× range with explicit canonical-vs-triangulated reconciliation paragraph (post Ch 6 IPG methodology-reconciliation Phase C, 2026-05-XX) cross-referencing Tech Appendix §11.11. Ch 6 line 249 carries the Parfit-anchor "IPG of 33 (the McDowell-coal compression)" as floor-anchor of the canonical range. **Consistent** across Ch 2 + Ch 6 + Ch 8 + Tech Appendix; the two ranges (canonical 33–122× + triangulated 50–555×) are coherent under Tech Appendix §11.11's time-horizon-attribution reconciliation, now surfaced in Ch 6's running prose. |
+> | **McDowell IPG range** | 33–122× canonical (floor 33; the McDowell-coal compression) + 50–555× triangulated (Methods 1+2+3 with α-dominance at multi-generational time scale); per Tech Appendix §11.11 the two ranges differ in time-horizon attribution and both correctly describe McDowell's IPG | Ch 2 line 121 | Ch 8 line 168 carries the canonical 33–122× framing as headline + today-prices follow-up ("even at today's $40–$140 prices, the carbon term alone exceeds market by ≥4×"; structural-finding beat). Ch 6 line 175 carries the triangulated 50–555× range with explicit canonical-vs-triangulated reconciliation paragraph (post Ch 6 IPG methodology-reconciliation Phase C, 2026-05-XX) cross-referencing Tech Appendix §11.11. Ch 6 line 251 carries the Parfit-anchor "IPG of 33 (the McDowell-coal compression)" as floor-anchor of the canonical range (post-Phase-C line number; was line 249 pre-Phase-C, shifted by +2 lines due to the new reconciliation paragraph at line 175). **Consistent** across Ch 2 + Ch 6 + Ch 8 + Tech Appendix; the two ranges (canonical 33–122× + triangulated 50–555×) are coherent under Tech Appendix §11.11's time-horizon-attribution reconciliation, now surfaced in Ch 6's running prose. |
 
 **Net inventory change:** the canonical-lock cell expands from "33–122× (floor 33; Ch 6 compression 33)" to the dual-range "33–122× canonical + 50–555× triangulated" framing with the time-horizon-attribution reconciliation noted; the per-chapter-consistency cell is rewritten to reflect that the Ch 6 reconciliation is now explicit in the manuscript (the "⚠ Ch 6 line-reference drift flagged" warning is removed because the gap is closed by the Phase C spot-fix); the canonical-home cell is unchanged (Ch 2 line 121 remains canonical home).
 
@@ -307,50 +307,57 @@ The recommended Phase C work is a single atomic commit touching two files (plus 
 
 ## §7. Ratification record
 
-**Author ratification:** **PROPOSED 2026-05-21** by methodology-reconciliation session author. Awaits explicit author ratification before Phase C application.
+**Author ratification:** **RATIFIED 2026-05-21** by author direct ratification ("as recommended"). Phase C application authorized in the same session per CLAUDE.md author-ratified-content-change merge-to-main default.
 
 **Disposition (Finding 1 — Ch 6 line 175 lacks explicit canonical reconciliation):**
 
 - Option A (light cross-reference): [ ]
-- Option B (full reconciliation paragraph) — **recommended**: [ ]
+- Option B (full reconciliation paragraph) — **recommended**: [x] **RATIFIED**
 - Option C (lead-with-canonical restructure): [ ]
 - Other / custom (specify): [ ]
 
 **Disposition (Finding 2 — Ch 6 line 249 Parfit anchor framing):**
 
-- Option A (no change; conditional on F1 ratified) — **recommended**: [ ]
+- Option A (no change; conditional on F1 ratified) — **recommended**: [x] **RATIFIED**
 - Option B (range-with-floor restatement): [ ]
 - Option C (light cross-reference; fallback if F1 not ratified): [ ]
 - Other / custom (specify): [ ]
 
 **Disposition (Finding 3 — Ch 6 line 34 implicit Method-1 IPG range):**
 
-- Option A (no change) — **recommended**: [ ]
+- Option A (no change) — **recommended**: [x] **RATIFIED**
 - Option B (light disambiguation phrase): [ ]
 - Option C (rewrite to anchor on canonical 33–122): [ ]
 - Other / custom (specify): [ ]
 
 **Disposition (Finding 4 — missing "per-case 33–122×" reconciliation prose):**
 
-- Option A (subsume into F1's spot-fix) — **recommended**: [ ]
+- Option A (subsume into F1's spot-fix) — **recommended**: [x] **RATIFIED**
 - Option B (separate Ch 6 reconciliation paragraph elsewhere): [ ]
 - Option C (no action; trust cross-chapter inventory annotation): [ ]
 - Other / custom (specify): [ ]
 
-**Cross-chapter consequence list ratified as written (§5):** [ ] Yes / [ ] No (specify edits)
+**Cross-chapter consequence list ratified as written (§5):** [x] **Yes — Ch 6 line 175 replacement + new paragraph; cross-chapter inventory line 89 update; Tech Appendix §11.11 anchor addition.**
 
 **Phase C bundling decision:**
 
-- Apply F1 Option B as standalone single-atomic Phase C commit — **recommended**: [ ]
+- Apply F1 Option B as standalone single-atomic Phase C commit — **recommended**: [x] **RATIFIED standalone**
 - Bundle with a future Ch 6 Pass 1 / 2 / 3 audit session: [ ]
 - Other (specify): [ ]
 
 **Tech Appendix §11.11 anchor touch:**
 
-- Add `id="sec-11-11-ipg-reconciliation"` to the §11.11 heading in same Phase C touch — **recommended (if anchor not already present)**: [ ]
+- Add `id="sec-11-11-ipg-reconciliation"` to the §11.11 heading in same Phase C touch — **recommended (if anchor not already present)**: [x] **RATIFIED + APPLIED** (verified §11.11 carried no anchor at Phase C session start; closest existing parent anchor was `sec-11-empirical-validation` at line 3845; anchor added directly to the §11.11 `<h3>` at HTML line 6199)
 - Use parent-section anchor + text-fragment hint in Ch 6 cross-reference link: [ ]
 - Verify anchor existence at Phase C session start; defer decision: [ ]
 - Other (specify): [ ]
+
+**Phase C application record (2026-05-21, same session as ratification):**
+
+- Ch 6 line 175 replacement + new reconciliation paragraph applied per §5.1 verbatim proposed prose.
+- Cross-chapter inventory line 89 updated per §5.4 verbatim proposed prose; Ch 6 line-reference drift warning removed.
+- Tech Appendix §11.11 anchor `id="sec-11-11-ipg-reconciliation"` added to the `<h3>` heading at HTML line 6199.
+- All four changes applied in a single atomic Phase C commit; per CLAUDE.md author-ratified-content-change default the session fast-forwards to `origin/main` at session close.
 
 **Notes:**
 
