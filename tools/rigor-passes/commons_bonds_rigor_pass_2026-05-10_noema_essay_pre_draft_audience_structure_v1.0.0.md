@@ -54,8 +54,8 @@ What hurts Noema submissions specifically (vs. Aeon):
 
 Read these before drafting if Stage 2 needs voice/register references — but DO NOT paraphrase them:
 
-- **Mariana Mazzucato — *The Value of Everything* (2018) and *Mission Economy* (2021).** Berggruen Prize 2024. Direct comp.
-- **Kate Raworth — *Doughnut Economics* (2017).** Berggruen Prize related. Direct comp.
+- **Mariana Mazzucato — *The Value of Everything* (2018) and *Mission Economy* (2021).** Direct comp. (Earlier "Berggruen Prize 2024" attribution was wrong — Mazzucato has not won the Berggruen Prize; corrected 2026-05-20 per Aeon Pass 3.1 §4.1 cascade scan.)
+- **Kate Raworth — *Doughnut Economics* (2017).** Direct comp. (Earlier "Berggruen Prize related" framing was implicit-misattribution — Raworth has not won the Berggruen Prize; corrected 2026-05-20 per Aeon Pass 3.1 §4.1 cascade scan.)
 - **Michael Sandel — *The Tyranny of Merit* (2020).** Trade-press public philosophy. The "X of Y" title shape and the memoir-meets-policy register.
 - **Katharina Pistor — *The Code of Capital* (2019).** Institutional-design-of-property-rights register; legal scholar but writes for trade.
 - **Anand Giridharadas — *Winners Take All* (2018).** The architecture-functioning-as-designed register.

@@ -19,7 +19,7 @@
 
 ### Tier 2 — pipeline-strengthening audiences
 
-5. **Berggruen Prize judge** — cross-disciplinary, normatively engaged, institutional-redesign register. Mazzucato (2024) recent winner.
+5. **Berggruen Prize judge** — cross-disciplinary, normatively engaged, institutional-redesign register. Sandel (2025) recent winner; Patricia Hill Collins (2023). (Earlier "Mazzucato (2024) recent winner" attribution was wrong — Mazzucato has not won the Berggruen Prize; corrected 2026-05-20 per Aeon Pass 3.1 §4.1 cascade scan.)
 6. **Ostrom-successor / institutional-analyst** — commons-management literacy; institutional-design fluency.
 7. **Coasean / mainstream-econ skeptic** — establishment-econ skeptic; the "voluntary trade-offs" / "why-not-Pigouvian-tax" objection reader.
 8. **Reparations-economics specialist** — Darity-Mullen / Hamilton / Conley lineage.

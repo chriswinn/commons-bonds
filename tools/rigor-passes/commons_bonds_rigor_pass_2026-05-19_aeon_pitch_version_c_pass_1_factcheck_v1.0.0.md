@@ -15,9 +15,16 @@ Mon Jun 1 ~00:01 AEST).
   is literally accurate; no fix needed. See §2.2.
 - **§4.1 Stage 1 brief-internal flag (Berggruen 2024):** VERIFIED + PATCHED.
   Web-search verification confirmed Mazzucato has not won the Berggruen Prize.
-  Stage 1 brief §1 Tier 2 #5 patched in this session: *"Mazzucato won 2024"*
-  → *"Sandel won 2025; Raworth, Mazzucato, etc. in the broader comp cluster."*
-  See §4.1 verification record + Phase C-α application note at §5.4.
+  Aeon Stage 1 brief §1 Tier 2 #5 patched in this session: *"Mazzucato won
+  2024"* → *"Sandel won 2025; Raworth, Mazzucato, etc. in the broader comp
+  cluster."*
+- **§4.1 cross-artifact cascade scan:** EXECUTED + 4 ADDITIONAL ARTIFACTS
+  PATCHED. Cascade scan completed in this session per ratified follow-up
+  decision (not deferred to next PM refresh). Boston Review + $100 Barrel
+  Stage 1 briefs scanned CLEAN; Atlantic Ideas Stage 1 brief + Noema Stage 1
+  brief + Noema audience-load (2026-05-09) + Why-bonds paragraph
+  audience-load (2026-05-11) patched with correction-notes. Cascade flag
+  CLOSED. See §4.1 cascade-scan record + Phase C-α application note at §5.4.
 
 **Cross-pass cadence (Decision 4):** Pass 3.2 (voice-polish) fires next in
 its own session; Pass 3.3 (acceptance) + Pass 3.4 (robustness) bundled into
@@ -283,13 +290,44 @@ Stage 1 §3 comp titles cluster — is the verified recent Berggruen laureate
   Hill Collins, 2024 main prize not surfaced in canonical sources, 2025
   Michael Sandel.)"*
 
-**Cross-artifact cascade flag:** the original *"Mazzucato won 2024"*
-attribution may have propagated to other Stage 1 briefs derived from this
-template (Boston Review, Atlantic Ideas, $100 Barrel, Noema). Stage 1c
-cross-artifact coherence check (per pipeline doctrine §3) recommended at
-next PM dashboard refresh to scan sibling briefs for the same drift and
-patch consistently. Non-blocking for Version C submission; non-blocking for
-the Mon Jun 1 portal window.
+**Cross-artifact cascade scan — COMPLETED 2026-05-20** (executed in this
+session per ratified Decision 2 of the interactive ratification walk-through).
+Stage 1c cross-artifact coherence check (per pipeline doctrine §3) scoped
+broader than the original four-sibling-Stage-1-brief target to all
+rigor-pass artifacts mentioning Mazzucato + Berggruen jointly.
+
+**Cascade-scope sibling Stage 1 briefs scanned (4):**
+
+| Brief | File | Status |
+|---|---|---|
+| Boston Review | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md` | **CLEAN** (no Mazzucato-Berggruen attribution; Mazzucato mentioned as comp without prize claim) |
+| Atlantic Ideas | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md` | **CONTAMINATED + PATCHED** at line 71: *"Berggruen Prize 2024"* removed with correction-note |
+| $100 Barrel | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md` | **CLEAN** (Mazzucato mentioned as comp without prize claim) |
+| Noema (Stage 1) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md` | **CONTAMINATED + PATCHED** at lines 57–58: *"Berggruen Prize 2024"* (Mazzucato) + *"Berggruen Prize related"* (Raworth) both removed with correction-notes |
+
+**Out-of-scope artifacts ALSO PATCHED** (older audience-load passes
+surfaced by broader grep; not in original cascade-flag scope but contain
+the same factual error — patched in this session for corpus-hygiene
+completeness rather than deferred):
+
+| Artifact | File | Status |
+|---|---|---|
+| Noema audience-load (2026-05-09) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md` | **PATCHED** at lines 7, 26, 334: three separate Berggruen-attribution errors corrected (Mazzucato + Raworth + Habermas all incorrectly listed as winners; verified roster substituted) |
+| Why-bonds paragraph audience-load (2026-05-11) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_why_bonds_paragraph_include_vs_exclude_audience_load_v1.0.0.md` | **PATCHED** at line 22: *"Mazzucato (2024) recent winner"* → *"Sandel (2025) recent winner"* with correction-note |
+
+**Other Mazzucato-near-Berggruen mentions** scanned (10 additional files
+surfaced by the corpus-wide grep) **read as non-contamination on inspection**
+(comp-cluster references that do not assert prize attribution; e.g.,
+*"Berggruen-track register"*, *"Berggruen-adjacent comp shelf"*,
+*"Mazzucato/Raworth-cluster reader"* — these reference the discourse
+proximity correctly without claiming either won the prize). No patch
+required for these.
+
+**Net cascade-scan result:** 4 contaminated artifacts patched (2 within
+original cascade-flag scope; 2 additional surfaced by broader grep). No
+remaining propagation of the *"Mazzucato won [Berggruen Prize] 2024"*
+factual error in the corpus outside documented correction-notes.
+Cascade flag CLOSED in this session.
 
 ---
 
@@ -347,7 +385,8 @@ session.
 |---|---|---|---|
 | F-FC-AeonC-1 | RATIFIED | `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` Para 1: *"the analog at"* → *"an analog like"* | 300w preserved |
 | F-FC-AeonC-2 | CLOSED (author affirmation) | None | No edit |
-| §4.1 Berggruen-2024 flag | VERIFIED + PATCHED | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` §1 Tier 2 #5: *"Mazzucato won 2024"* → *"Sandel won 2025; Raworth, Mazzucato, etc. in the broader comp cluster"* + 2026-05-20 correction-note | Stage 1 brief now factually accurate |
+| §4.1 Berggruen-2024 flag (Aeon Stage 1 brief) | VERIFIED + PATCHED | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` §1 Tier 2 #5: *"Mazzucato won 2024"* → *"Sandel won 2025; Raworth, Mazzucato, etc. in the broader comp cluster"* + 2026-05-20 correction-note | Stage 1 brief now factually accurate |
+| §4.1 cascade scan (4 additional contaminated artifacts) | EXECUTED + PATCHED | 4 files patched with correction-notes (Atlantic Ideas Stage 1 brief line 71; Noema Stage 1 brief lines 57–58; Noema audience-load 2026-05-09 lines 7, 26, 334; Why-bonds paragraph audience-load 2026-05-11 line 22) | Corpus-wide factual-attribution drift closed |
 
 Word count check (post-Phase-C-α): Version C body = 300w (Para 1 = 101w
 preserved; Para 2 = 130w preserved; Para 3 = 69w preserved). Hard cap 320w

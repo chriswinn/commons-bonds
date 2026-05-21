@@ -68,7 +68,7 @@
 
 Read these before drafting if Stage 2 needs voice/register references — but DO NOT paraphrase them:
 
-- **Mariana Mazzucato — *The Value of Everything* (2018) and *Mission Economy* (2021).** Berggruen Prize 2024. Closest thematic match. Value-creation vs. value-extraction reads cleanly against cost-severance vs. honest-pricing.
+- **Mariana Mazzucato — *The Value of Everything* (2018) and *Mission Economy* (2021).** Closest thematic match. Value-creation vs. value-extraction reads cleanly against cost-severance vs. honest-pricing. (Earlier "Berggruen Prize 2024" attribution was wrong — Mazzucato has not won the Berggruen Prize; corrected 2026-05-20 per Aeon Pass 3.1 §4.1 cascade scan. Confirmed roster: …2023 Patricia Hill Collins / 2024 main prize not surfaced in canonical sources / 2025 Michael Sandel.)
 - **Brett Christophers — *The Price is Wrong: Why Capitalism Won't Save the Planet* (2024).** Direct comp on the pricing-mechanism diagnosis side. The essay's response: pricing the residual commons value makes the subsidy-and-rent architecture visible; what to do next is the question Christophers names and the framework's structural shape (rent-capture + community-designation + life-cycle-matched disbursement) addresses.
 - **Katharina Pistor — *The Code of Capital* (2019).** Institutional-design-of-property-rights register; legal scholar but writes for trade. The framework reads property rights as legal modules within a system that systematically encodes capital while externalizing costs.
 - **Daniel Susskind — *Growth: A Reckoning* (2024).** Growth-redirection as parallel move to pricing-redirection. Both diagnose conventional-measurement-as-dishonest; both propose redirection rather than abandonment.

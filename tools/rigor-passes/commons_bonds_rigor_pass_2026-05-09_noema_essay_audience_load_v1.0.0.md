@@ -4,7 +4,7 @@
 
 **Methodology:** Adapted from the Aeon title rigor pass (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md`), with Noema-specific differences:
 - Noema editorial brain is Berggruen-Institute-adjacent / policy-engaged / internationalist / reportage-driven / named-sources-required; lower jargon tolerance than Aeon. Demands a three-register weave (memoir + history/theory + reportage), not the two-register (memoir + thought-experiment) that Aeon tolerates.
-- Berggruen Prize judge is elevated to a Tier-2 audience (not optional). Mazzucato + Raworth are recent winners; that prize is the book's longer-arc destination.
+- Berggruen Prize judge is elevated to a Tier-2 audience (not optional); the prize is the book's longer-arc destination. (Earlier claim that "Mazzucato + Raworth are recent winners" was wrong — neither has won the Berggruen Prize; corrected 2026-05-20 per Aeon Pass 3.1 §4.1 cascade scan. Verified recent winners: 2023 Patricia Hill Collins / 2025 Michael Sandel.)
 - Mazzucato/Raworth-cluster reader added — this character is dense in Noema's actual readership.
 - Chesapeake regional reader added — Section VI names enough specific Bay-region people, places, and institutions that local readers will recognize the material; tonal-fidelity check.
 
@@ -23,7 +23,7 @@
 
 **Tier 2 — pipeline-strengthening audiences:**
 
-5. **Berggruen Prize judge** — cross-disciplinary, normatively engaged, accessible-rigorous, institutional-redesign register. Prior winners: Habermas, Charles Taylor, Onora O'Neill, Patricia Hill Collins, Mazzucato (2024), Raworth.
+5. **Berggruen Prize judge** — cross-disciplinary, normatively engaged, accessible-rigorous, institutional-redesign register. Verified prior winners: Charles Taylor (2016), Onora O'Neill (2017), Martha Nussbaum (2018), Ruth Bader Ginsburg (2019), Paul Farmer (2020), Peter Singer (2021), Kojin Karatani (2022), Patricia Hill Collins (2023), Michael Sandel (2025). (Earlier roster listing "Habermas, …, Mazzucato (2024), Raworth" was wrong — Habermas, Mazzucato, and Raworth have not won the Berggruen Prize; corrected 2026-05-20 per Aeon Pass 3.1 §4.1 cascade scan.)
 6. **Mazzucato/Raworth-cluster reader** — has read the comps; testing for serious-membership signals.
 7. **Ostrom-successor / institutional-analyst** — commons-management literacy; tests for design-principles fluency.
 8. **Coasean economist** — establishment-econ skeptic; the obvious-objection reader; tests the "voluntary trade-offs" defense.
@@ -331,7 +331,7 @@ Symbol shorthand in pressure-test breadth: ✓✓✓ (essential) / ✓✓ (stron
 **6.2 Mazzucato (financier / pharma / PE)**
 - *Function:* Authority-anchor + value-extraction concept.
 - *Editor / Reader / Agent / Publisher:* ✓✓✓ Mazzucato is essential currency. *Mission Economy* and *The Value of Everything* are exactly the shelf this book wants.
-- *Berggruen judge:* ✓✓✓ Mazzucato won the prize 2024. Citing her precisely places the book in the right cluster.
+- *Berggruen judge:* ✓✓✓ The Mazzucato citation places the book in the Berggruen-adjacent comp cluster (Mazzucato is a shelf-mate of recent Berggruen laureates including Sandel; earlier claim that "Mazzucato won the prize 2024" was wrong — Mazzucato has not won the Berggruen Prize — but the comp-cluster signaling stands without the prize-attribution; corrected 2026-05-20 per Aeon Pass 3.1 §4.1 cascade scan).
 - *Duplicate weight?* The three examples (financier / pharma / PE) is the duplication. Two would do.
 - **Verdict: Compress.** (Pass-1 already dropped PE.)
 
