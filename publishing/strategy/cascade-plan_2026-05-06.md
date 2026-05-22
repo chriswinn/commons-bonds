@@ -3,6 +3,39 @@
 **Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-10
 **Author:** Chris Winn  ·  **Book target:** 2026–2027
 
+> **⚠ STALENESS WARNING (added 2026-05-21).** This cascade plan was last
+> meaningfully updated 2026-05-10 — before the entire book reached drafted
+> state + before v3.0 → v3.1 pipeline doctrine adoption + before the
+> 2026-05-21 cross-thread-todos comprehensive staleness refresh + before
+> the current state of essay pipeline (Aeon Stage 3 complete, Noema Pass
+> 3.1 ratified, $100 Barrel Stage 2 + comparative Pass 3.3+3.4 done,
+> Boston Review Stage 1 complete, Atlantic Ideas Stage 1 brief v1.1.0
+> ratified).
+>
+> **Many specific items in this document are out-of-date.** Per-section
+> staleness is uneven — strategic frame + venue allocation table + comp
+> titles + agent profile remain largely valid; current-state inventory +
+> month-by-month sequencing + outreach pipeline + decisions-due lists are
+> substantially stale.
+>
+> **For June 2026 submission cadence:** see the focused successor artifact
+> [`publishing/strategy/june-2026-submission-schedule.md`](june-2026-submission-schedule.md)
+> (drafted 2026-05-21) — refreshed against current essay-pipeline state +
+> v3.1 doctrine + per-batch readiness gates.
+>
+> **For cross-thread-todos current state:** see
+> [`publishing/strategy/cross-thread-todos.md`](cross-thread-todos.md)
+> (2026-05-21 comprehensive refresh; commit `419f916` + `0113bc0` +
+> `545eede`).
+>
+> **Full cascade-plan refresh is queued for a separate PM session** —
+> scope includes: refreshed current state inventory (book-complete + all
+> chapter-pipeline state), refreshed month-by-month sequencing (Jun 2026
+> – Apr 2027), v3.1 pipeline-doctrine integration, Darity post-interview
+> framework-revision implications (cross-thread-todos #15 MI-1/MI-2/MI-3 +
+> SI cluster routing), updated outreach pipeline, resolved decisions-due
+> sweep.
+
 ---
 
 ## Context
