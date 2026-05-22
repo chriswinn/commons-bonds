@@ -1,12 +1,20 @@
-# Atlantic Ideas Essay — Pre-Draft Audience-and-Structure Rigor Pass v1.0.0 — 2026-05-19
+# Atlantic Ideas Essay — Pre-Draft Audience-and-Structure Rigor Pass v1.1.0 — 2026-05-19 (refresh 2026-05-21)
 
-**Status:** Stage 1 deliverable for the v2.0 two-stage audience-aware drafting discipline (ratified 2026-05-10). Drives a fresh-session Stage 2 audience-blind flow draft of the Atlantic Ideas essay derived from Ch 9 *Pricing Honestly*. Stage 3 three-pass rigor (fact-check + voice-polish + audience-load) fires on the Stage 2 output. Workstream handoff at [`tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md`](../workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md).
+**Status:** Stage 1 deliverable. **v1.1.0 refresh (2026-05-21)** brings the brief to canonical-doctrine parity per cross-thread #14 partially-resolved status + author ratification of D1–D7 brief-update items. Drives a fresh-session Stage 2 audience-blind flow draft of the Atlantic Ideas essay derived from Ch 9 *Pricing Honestly*. Stage 3 **five-pass** rigor (3.1 fact-check + 3.2 voice-polish + 3.3 audience-load acceptance + 3.4 audience-load robustness + 3.5 developmental-edit) fires on the Stage 2 output, followed by Stage 4 render + character-integrity audit + Stage 5 academic-rigor + prose-quality sign-off bookend with pre-publication review queue artifact. Workstream handoff at [`tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md`](../workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md). Foreign Policy alternate reframe outline (fires only on Atlantic Ideas decline) at [`tools/workstream-handoffs/foreign-policy-alternate-outline_2026-05-21.md`](../workstream-handoffs/foreign-policy-alternate-outline_2026-05-21.md).
 
-**Methodology:** Adapted from `commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md` (long-form Stage 1 model) and `commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` (short-form Stage 1 model). The Atlantic Ideas essay is a long-form (~3,500–4,500w) piece with a separate concise email-body pitch (~250–400w), so this brief covers both deliverables — the long-form essay is the primary, the pitch derives from it after the Stage 2 draft lands.
+**v1.1.0 changelog (2026-05-21):**
+- **Doctrine refresh v2.0 → v3.1** — Stage 3 elevated to five-pass per Amendment B 2026-05-18 (Pass 3.5 developmental-edit codification); Stage 4 render + character-integrity audit + Stage 5 sign-off bookend + pre-publication review queue artifact added per pipeline doctrine v1.0.0 2026-05-17; Stage 1 1a/1b/1c sub-step framing noted (this brief functions as 1b substantive with light 1c cross-artifact coherence; 1a invariant-gate is corpus-wide and handled by `tools/scripts/check-corpus-invariants.sh`).
+- **§7.1 Ch 8 cascade dependency flagged** — McDowell coal hook range ($500–600) depends in part on Ch 8 coal-CO₂ short-ton figure ($544 currently; ~$441 post-cascade). Cross-thread #12 still open at Ch 8 line 72 as of 2026-05-21 verification; range may shift to ~$400–500 floor pending cascade closure.
+- **§7.4 Tier W Darity discipline added** — per Darity post-interview synthesis 2026-05-13 §2 attribution preference. Tier W (written work) freely quotable; Tier S (interview material) review-required. This essay uses Tier W only; no batch-review-with-Sandy workflow needed.
+- **§7.4 Sandy longevity-gap recent work added** as optional Tier W citation candidate (per cross-thread #15 SI-2).
+- **§14 Public Choice hard constraint replaced** — cross-thread #13 (rent-seeking-engagement) RATIFIED + APPLIED 2026-05-18 (commit `bc02767`). Constraint rationale updated from "do not load-bear on unratified content" to length-budget + audience-load convergence on light-touch engagement.
+- **§16 cross-references refreshed** — #4 / #5 / #6 / #7 (operational) / #13 moved to cross-thread Resolved 2026-05-21; #14 partially-resolved; #15 new (Darity framework-revision); Foreign Policy alternate outline added.
 
-**Why this exists:** Cross-thread item #4 (Atlantic Ideas vs. Phenomenal World slot-3 decision) was RESOLVED 2026-05-19 by author direction — *both fire in parallel.* Phenomenal World takes the $100 Barrel derivative essay; Atlantic Ideas takes the Ch 9 mechanism / policy frame per cascade-plan venue allocation. There was no pre-existing handoff for Atlantic Ideas; the PM session drafted both this brief and the handoff in parallel on 2026-05-19 as the first deliverables of the workstream.
+**Methodology:** Adapted from `commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md` (long-form Stage 1 model) and `commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` (short-form Stage 1 model), with v1.1.0 refresh modeled on the Boston Review Stage 1b brief v1.0.1 v3.1-doctrine application (commit `755e758`). The Atlantic Ideas essay is a long-form (~3,500–4,500w) piece with a separate concise email-body pitch (~250–400w), so this brief covers both deliverables — the long-form essay is the primary, the pitch derives from it after the Stage 2 draft lands.
 
-**v2.0 domain-of-applicability confirmation:** Long-form publisher-facing essay derived from Ch 9 prose, with apparatus-tripwire risk + Path B contamination risk + no strong iterated control. Clauses (a) + (b) + (c) all fire — v2.0 applies, no exceptions. See workstream handoff §"v2.0 two-stage drafting discipline applies to this workstream" for full clause analysis.
+**Why this exists:** Cross-thread item #4 (Atlantic Ideas vs. Phenomenal World slot-3 decision) was RESOLVED 2026-05-19 by author direction — *both fire in parallel.* Phenomenal World takes the $100 Barrel derivative essay; Atlantic Ideas takes the Ch 9 mechanism / policy frame per cascade-plan venue allocation. There was no pre-existing handoff for Atlantic Ideas; the PM session drafted both this brief and the handoff in parallel on 2026-05-19 as the first deliverables of the workstream. v1.1.0 refresh applies brief-update items D1–D7 ratified by author 2026-05-21 after PM session surfaced doctrinal + content drift since 2026-05-19 drafting.
+
+**v3.1 domain-of-applicability confirmation:** Long-form publisher-facing essay derived from Ch 9 prose, with apparatus-tripwire risk + Path B contamination risk + no strong iterated control. Clauses (a) + (b) + (c) all fire — v3.1 applies, no exceptions. See workstream handoff §"v2.0 two-stage drafting discipline applies to this workstream" for full clause analysis (note: handoff header still reads "v2.0" — handoff itself is not refreshed in this commit; reference resolves via doctrine version-history at `feedback_audience_aware_drafting_discipline.md` v2.0 → v3.1).
 
 ---
 
@@ -167,7 +175,7 @@ For each Ch 9 term, specify replacement-with-translation or omission:
 ### 7.1 McDowell County coal arithmetic
 
 - Ch 8-derivation: one ton of McDowell County coal sold at mine mouth in **1960** for **$4.50**; honest cost (when every severed cost is priced) **$500–$600/ton** (floor-estimate, cost-component-by-cost-component).
-- Source: Ch 8 derivation. **Note:** Ch 8 Pass 1 has not yet fired; the figures depend on Ch 8 figures that may shift in Ch 8 Pass 1 closure. See cross-thread #12 (Ch 8 line 73 coal-CO₂ cascade) for related figures. If Ch 8 Pass 1 lands between Stage 1 ratification and Stage 2 fire, resync the Ch 8-derived figures here.
+- Source: Ch 8 derivation. **Status as of 2026-05-21 verification:** Ch 8 Pass 1 Phase C applied 2026-05-20 (commit `5fe6af6`, 16 ratified edits), BUT cross-thread #12 coal-CO₂ short-ton-accounting cascade was NOT among the 16 edits. Ch 8 line 72 still reads "approximately 2.86 tons of carbon dioxide" / "approximately five hundred and forty-four dollars" (pre-cascade); Ch 6 canonical is 2.32 t CO₂/short ton / $441/ton coal externality. **Implication for this essay's hook:** the $500–600 range carries Ch 8's pre-cascade $544 carbon-externality component. When cross-thread #12 closes (Ch 8 line 72 corrects to ~2.32 t / $441), the Ch 9 hook range may shift to a **~$400–500 floor**. Stage 2 audience-blind draft should use the current $500–600 range from Ch 9 line 12; Stage 3 Pass 3.1 fact-check must verify the hook figure against then-current Ch 8 + Ch 9 state and apply spot-fix if the cascade has landed.
 
 ### 7.2 Resource economics + classification
 
@@ -203,6 +211,8 @@ For each Ch 9 term, specify replacement-with-translation or omission:
   - **1933–1937:** Mortgage-modification programs wrote down nominal mortgage debt for distressed households; public-works employment programs absorbed unemployed labor.
   - **1938:** Saltsjöbaden Agreement institutionalized labor-employer wage-bargaining at consumption-maintaining level. Survived World War II, 1973 oil shock, 1992 Swedish banking crisis, into present.
   - **1992 Swedish banking crisis:** Several major Swedish banks collapsed; government recapitalization captured equity; recovered most deployed capital within five years; combined with countercyclical fiscal policy maintaining household consumption.
+- **William Darity, Jr. + A. Kirsten Mullen — *From Here to Equality* (2020):** cumulative wealth deficit between Black and white US households accounting for slavery, sharecropping, redlining, convict leasing, discriminatory homeownership policy, educational/employment exclusion. **~$14 trillion** figure. Functions in the essay as historical-counterpart to GPFG's prospective-accountability accounting — same accountability-bond logic prices both. **Tier W attribution status — freely quotable from written work, even out of context per Darity 2026-05-13 interview Q0 response** (`research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md` §2). This essay uses Tier W only (no Tier S interview material); no batch-review-with-Sandy workflow required for Atlantic Ideas submission. Stage 2 cites the book by title + year; Stage 3 Pass 3.1 fact-check verifies the ~$14T figure against the book's specific number.
+- **Optional Tier W citation candidate (per cross-thread #15 SI-2):** Sandy Darity's recent work pricing the Black-white US longevity gap (~6–7 years average) as a legacy-effect pricing variant. Pairs cleanly with McDowell County's 13-year longevity gap (cross-corpus reference; lives in Ch 6 + Ch 8 material) if the essay finds space. Do NOT load-bear on this citation — the specific paper / talk reference is not yet pinned (per Darity synthesis §9). Stage 2 may reference the longevity-gap-as-legacy-effect-pricing concept without quoting Sandy directly; Stage 3 fact-check verifies the 6–7 year figure against published BLS / CDC / NCHS data + pins the specific Darity reference if reachable.
 
 ### 7.5 Property rights tradition
 
@@ -328,17 +338,17 @@ The pitch is a separate deliverable from the essay, produced *after* the Stage 2
 
 ---
 
-## 13. Stage 3 protocol (what comes after Stage 2)
+## 13. Stage 3 protocol — five passes (v3.1 doctrine, Amendment B ratified 2026-05-18)
 
-Per v2.0 Amendment B — three distinct passes, three distinct prompts, per-prompt serial cadence:
+Per pipeline doctrine v1.0.0 + Amendment B 2026-05-18 — **five distinct passes**, five distinct prompts, per-prompt serial cadence. Author ratifies + spot-fixes apply between passes per Amendment C per-finding interactive ratification format. Replaces v1.0.0 brief's three-pass Stage 3 (v2.0 Amendment B). Canonical reference: `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`.
 
 ### Pass 3.1 — Fact-check
 
 - Audit the Stage 2 draft against the §7 canonical-facts inventory.
 - For each factual claim in the draft: verify against §7; spot-fix any drift.
 - **Path B discipline:** spot-fix by generating fresh prose from §7 anchors — do NOT paste from Ch 9 (re-introduces contamination).
-- **Coordination:** if Ch 9 Stage-3 closure has produced revised figures (Public Choice section / eleven-cent figures / Mondragon / Vienna / Chattanooga numbers / Mian + Sufi citation re-verification) between Stage 1 brief ratification and Stage 3 fire, **resync §7 first** before Pass 3.1 fires.
-- **Output:** `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_atlantic_ideas_essay_factcheck_v1.0.0.md` (per-finding M-cluster format per Ch 2 Phase A precedent).
+- **Coordination:** if Ch 9 Stage-3 closure has produced revised figures (Mondragon / Vienna / Chattanooga numbers / Mian + Sufi citation re-verification / Norway-Alaska figures / CBAM phase status / CCZ negotiations state) OR if cross-thread #12 has closed (Ch 8 coal-CO₂ cascade affecting McDowell hook $500–600 range — see §7.1) between Stage 1 brief ratification and Stage 3 fire, **resync §7 first** before Pass 3.1 fires.
+- **Output:** `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_atlantic_ideas_essay_factcheck_v1.0.0.md` (per-finding M-cluster format per Ch 2 Phase A precedent + Amendment C interactive ratification format).
 
 ### Pass 3.2 — Voice-polish
 
@@ -349,18 +359,69 @@ Per v2.0 Amendment B — three distinct passes, three distinct prompts, per-prom
 - Audit subhead policy compliance + title-stability + voice-register fidelity to §5.
 - **Output:** `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_atlantic_ideas_essay_voice_polish_v1.0.0.md`.
 
-### Pass 3.3 — Audience-load
+### Pass 3.3 — Audience-load acceptance
 
 - Audit against the §1 audience pressure-test set (17 characters across three tiers).
 - Per-character INCLUDE / EXCLUDE verdict.
 - **Critical gating verdicts:** Tier 1 (Atlantic Ideas editor + Atlantic Ideas reader + literary agent + acquisitions editor) must all INCLUDE. If any Tier 1 character returns EXCLUDE, the essay needs substantive revision before submission.
-- **Critical pipeline verdict:** Tier 2 center-right policy reader (character #5). Non-partisan framing discipline test; if EXCLUDE, substantive revision required.
+- **Critical pipeline verdict:** Tier 2 center-right policy reader cluster (Public-Choice-tradition successor + free-market-environmentalist per author-ratified two-character split). Non-partisan framing discipline test; if either EXCLUDE, substantive revision required.
 - **Tier 3 verdicts:** accessibility check; if any Tier 3 character returns EXCLUDE, identify whether revision can recover accessibility without losing substance.
-- **Output:** `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_atlantic_ideas_essay_audience_load_v1.0.0.md`.
+- **Output:** `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_atlantic_ideas_essay_audience_load_acceptance_v1.0.0.md`.
 
-### Optional Pass 3.4 — Audience-load robustness (if v3.0 ratifies before Stage 3 fires)
+### Pass 3.4 — Audience-load robustness (adversarial / detractor set)
 
-Per pipeline-revision workstream (cross-thread #14) — if v3.0 ratifies between Stage 1 brief ratification and Stage 3 fire, fold Pass 3.4 (audience-load robustness with adversarial / detractor character set) into the Stage 3 cycle. Detractor characters for this essay: Public-Choice-tradition theorist (Buchanan / Tullock / Virginia-school) reading the framework for analytical-completeness gaps; free-market-environmentalist (Anderson + Leal *Free Market Environmentalism* register) reading the property-rights-and-their-limits section for steelman fidelity; degrowth advocate (Hickel *Less Is More* register) reading the renewable-substitution + space-access investment register for growth-blindness; Coasean economist reading the externality framing for transaction-cost dismissal.
+Per Amendment B + pipeline doctrine v1.0.0 §"Stage 3 four-pass" — adversarial test surfaces issues the acceptance set misses. Empirical anchor: Ch 1 Pass 3 REAUDIT v3 2026-05-17 surfaced the Public-Choice rent-seeking thread that became cross-thread #13 — would have been missed by acceptance-only.
+
+Detractor characters for this essay (ratified per D14 of prior decision walkthrough):
+- **Public-Choice-tradition theorist** (Buchanan / Tullock / Virginia-school) reading the framework for analytical-completeness gaps. Cross-thread #13 now ratified, so the essay's light-touch engagement (per §14) should hold; this character tests whether the light-touch lands or feels evasive.
+- **Free-market-environmentalist** (Anderson + Leal *Free Market Environmentalism* register) reading the property-rights-and-their-limits compression for steelman fidelity. Property-rights section drops in this essay; the compression should not strawman the tradition.
+- **Degrowth advocate** (Hickel *Less Is More* register) reading the renewable-substitution + alternative-supply-sources (§IV Invest) for growth-blindness. The framework's posture is mechanism-and-arithmetic, not growth-positive or growth-negative; this character tests whether §IV reads as growth-blind.
+- **Coasean economist** reading the externality framing for transaction-cost dismissal. The property-rights compression should engage rather than dismiss Coase's bargaining-in-absence-of-transaction-costs argument.
+
+Output is thread-pull synthesis (NOT per-character pass/fail). Identifies any adversarial threads that surface real cross-chapter or framework-revision issues. If a thread pulls hard enough to warrant cross-chapter work (analog of cross-thread #13), spin up as separate workstream per pipeline doctrine §5 cross-chapter workstream lifecycle.
+
+**Output:** `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_atlantic_ideas_essay_audience_load_robustness_v1.0.0.md`.
+
+### Pass 3.5 — Developmental-edit
+
+Per Amendment B 2026-05-18 (Pass 3.5 codification) — developmental-edit pass focused on argument architecture, paragraph-level transitions, section-level coherence, hook-to-close arc integrity, and overall essay readability. Not a fact-check (Pass 3.1) and not a sentence-level voice pass (Pass 3.2); the architectural read.
+
+Focus items for this essay:
+- **¶1 hook earns ¶2.** Does the McDowell coal arithmetic land hard enough to earn the four-step mechanism preview?
+- **§II → §III → §IV → §V transitions.** Does each section earn the next? Classify → Reserve → Invest → Border should compound argumentatively, not stack as separate set-pieces.
+- **§VI political-economy of resistance load-balancing.** Olson + US 2008 vs. Sweden 1932 + Darity & Mullen is a dense section; does the load distribute, or does the Sweden contrast eat the US 2008 weight?
+- **§VII entering-wedges cluster discipline.** Mondragon + Vienna + Chattanooga + Norway + Alaska + CBAM + reclamation bonds + NEPA EIA + CCZ is a lot; does the cluster compound or does it become a list?
+- **Close arc-completion.** Does the closing paragraph close the argument the hook opened? McDowell coal arithmetic → vocabulary-and-instrument close needs to feel earned, not stapled.
+
+**Output:** `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_atlantic_ideas_essay_developmental_edit_v1.0.0.md`.
+
+---
+
+## 13a. Stage 4 — Render + character-integrity audit
+
+Per pipeline doctrine v1.0.0 Stage 4 (`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`). After Stage 3 five-pass closes, render the essay to its submission-format outputs (Word doc + PDF for Atlantic email submission; markdown source as canonical) and audit for character-integrity issues — em-dash rendering; ≈ / ± rendering; Unicode em-dashes vs. ASCII hyphens; quote-mark consistency (curly vs. straight); accented characters (Mondragon's Arizmendiarrieta; Saltsjöbaden; Baotou); section-break rendering.
+
+Atlantic Ideas-specific render targets:
+- **Markdown source** — canonical at `manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_<DATE>.md` post-Stage-3 edits applied.
+- **Word document** — for email submission attachment; verify em-dashes + accents + quote marks render cleanly in Word's default theme.
+- **PDF** — backup format; verify same.
+
+**Output:** Stage 4 audit log appended to the essay's final-state markdown source as a `<!-- Stage 4 audit -->` footer comment, OR separate `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_atlantic_ideas_essay_stage_4_render_audit_v1.0.0.md` if findings warrant.
+
+---
+
+## 13b. Stage 5 — Academic-rigor + prose-quality sign-off bookend + pre-publication review queue
+
+Per pipeline doctrine v1.0.0 Stage 5 (`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`). After Stage 4 closes, bookend sign-off verifies no drift through the pipeline from Stage 1 brief assumptions. Two sign-offs:
+- **Academic-rigor sign-off** — verifies facts, citations, named-tradition engagement, comp-titles cluster fluency all held through Stage 3 → Stage 4 transitions.
+- **Prose-quality sign-off** — verifies voice register from §5 + apparatus exclusion from §6 held through Stage 3 → Stage 4 transitions.
+
+**Pre-publication review queue artifact** generated at Stage 5 for the essay's pre-submission package:
+- What has been internally verified (Stage 3 five-pass + Stage 4 render audit).
+- What has NOT been externally verified (e.g., specific Darity longevity-gap citation if Tier W reference not pinned at Stage 3 fact-check; Ideas section editor identity if just-in-time verification failed).
+- Recommended editor-side fact-checker focus areas if Atlantic Ideas accepts and assigns one (highest-priority: Mian + Sufi welfare-calculation figures; Mondragon / Vienna / Chattanooga / Norway / Alaska numbers; CBAM Phase II 2026 operational status verification).
+
+**Output:** `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_atlantic_ideas_essay_stage_5_signoff_v1.0.0.md` + pre-publication review queue inline section.
 
 ---
 
@@ -372,24 +433,64 @@ Per pipeline-revision workstream (cross-thread #14) — if v3.0 ratifies between
 - **Non-partisan framing discipline** — load-bearing per cascade plan §"Context"; the center-right policy reader is an explicit pressure-test character.
 - **No new framework concepts** — existing framework terms carry forward in translation only; do not invent new ones.
 - **Substance drives length** — no padding; no cutting to fit; per §10.
-- **Ch 9 Stage-3 coordination** — if Ch 9 produces material spot-fixes mid-workstream, resync this brief's §7 canonical-facts inventory before Stage 2 / Stage 3 fires.
-- **Rent-seeking-engagement workstream coordination** — Ch 9 Public Choice section is PROPOSED but unratified at brief-drafting time; this essay's Public Choice engagement is light-touch (one paragraph; cite Buchanan & Tullock once) and does NOT load-bear on cross-thread #13 ratification status.
+- **Ch 9 Stage-3 coordination** — Ch 9 Pass 1 Phase C applied 2026-05-19 (commit `4c8bc02`); Pass 2 Phase C applied 2026-05-20 (commit `78a26c2`). If Ch 9 Pass 3 / 3.5 fires mid-workstream and produces material spot-fixes, resync this brief's §7 canonical-facts inventory before Stage 2 / Stage 3 fires.
+- **Ch 8 coal-CO₂ cascade dependency** — McDowell coal hook range ($500–600) in §7.1 depends in part on Ch 8 line 72 carbon-externality figure ($544 currently; ~$441 post-cascade per Ch 6 canonical). Cross-thread #12 still open as of 2026-05-21. Stage 3 Pass 3.1 fact-check verifies essay hook against then-current Ch 8 state.
+- **Public Choice engagement — light-touch per length-budget + audience-load rationale.** Cross-thread #13 rent-seeking-engagement workstream RATIFIED + APPLIED 2026-05-18 (commit `bc02767`); Ch 9 Public Choice section is now ratified content. The essay's engagement remains light-touch (one paragraph in §VI; cite Buchanan & Tullock once; one sentence on complementary tools) NOT for ratification-status reasons — those are gone — but because (a) Atlantic Ideas at ~4,000w cannot carry a full complementarity treatment; (b) the center-right policy reader cluster pressure-test (Tier 2 split into Public-Choice-tradition successor + free-market-environmentalist per author ratification) is satisfied by light-touch + the framework's non-partisan posture; (c) deeper engagement doesn't move the audience-load needle and competes with §VI's load-bearing US 2008 vs. Sweden 1932 contrast.
+- **Darity material — Tier W only.** Per Darity 2026-05-13 interview Q0 attribution preference (`research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md` §2): Tier W (written work) freely quotable, even out of context; Tier S (interview material) requires paraphrase + review-before-quote (Category 2). This essay uses Tier W only — Darity & Mullen *From Here to Equality* (2020) cited in §VI Political Economy of Resistance as historical-counterpart to GPFG prospective-accountability. No Tier S quotes; no batch-review-with-Sandy workflow required for Atlantic Ideas submission. (Optional Tier W citation: Sandy's recent longevity-gap pricing work per §7.4 — do not load-bear; pin reference at Stage 3 fact-check if reachable.)
+- **Cross-thread #15 framework-revision findings — not load-bearing for this essay.** Darity interview surfaced MI-1 (Restitution Bond positioning inside FHTE typology) + MI-2 (coercion vector unpriced; slavery sui generis to information-asymmetry frame) + MI-3 (Ostrom homogeneity-of-interest break-point) + SI cluster + C cluster. Atlantic Ideas frame is mechanism/policy; reparations-typology engagement is BR's slot (Ch 5 / accountability-gap frame), not this essay's. Apparatus exclusion (§6) drops "Restitution Bond" by name anyway, so MI-1 is moot here. SI-2 (longevity-gap pricing) carried forward as optional citation candidate in §7.4.
 
 ---
 
-## 15. Stage 0 (publishing-strategy) — not run
+## 15. Stage 0 (publishing-strategy) — not run; Stage 1 sub-step framing (1a / 1b / 1c) per v3.1 doctrine
 
-No Stage 0 publishing-strategy rigor pass fired for this workstream prior to Stage 1 brief drafting. The cascade plan's Ch 9 row already allocates Atlantic Ideas (or Foreign Policy alternate) as primary venue; cross-thread #4 resolution 2026-05-19 ratified dual-fire with Phenomenal World. Treat the existing venue allocation as Stage 0 equivalent.
+**Stage 0 — not run.** No Stage 0 publishing-strategy rigor pass fired for this workstream prior to Stage 1 brief drafting. The cascade plan's Ch 9 row already allocates Atlantic Ideas (or Foreign Policy alternate) as primary venue; cross-thread #4 resolution 2026-05-19 ratified dual-fire with Phenomenal World. Treat the existing venue allocation as Stage 0 equivalent.
 
-If a Stage 0 pass is fired retrospectively (e.g., to surface a venue-fit concern or a non-partisan-framing gap not yet captured), update this brief's §1 audience pressure-test set + §14 hard constraints accordingly.
+If a Stage 0 pass is fired retrospectively (e.g., to surface a venue-fit concern or a non-partisan-framing gap not yet captured), update this brief's §1 audience pressure-test set + §14 hard constraints accordingly. The Boston Review workstream's Stage 0 rigor pass (commit `419f916`) is the canonical Stage 0 model for the essay-cluster going forward.
+
+**Stage 1 — three sub-steps per pipeline doctrine v1.0.0 §"Stage 1" (`tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`):**
+
+- **1a — invariant-gate scan (scaffolding + regressed-pattern).** Corpus-wide automated scan via `tools/scripts/check-corpus-invariants.sh` using `tools/quality-gates/scaffolding-patterns.yaml` + `tools/quality-gates/regressed-patterns.yaml`. NOT specific to this brief; pre-commit hook coverage ensures the brief itself doesn't carry scaffolding leakage. Verified clean at v1.1.0 commit time (no process-scaffolding vocabulary in body prose; "Pass 1" / "Phase C" / "Stage 3" references are properly contextualized as protocol references, not regressed-pattern leakage).
+- **1b — substantive (this brief).** The bulk of §§1–14 above functions as the v3.1 Stage 1b substantive pre-draft work: audience pressure-test set, editorial-brain map, comp-titles cluster, structural decisions, voice register, apparatus exclusion list, canonical-facts inventory, Path B preemptive policy, hard constraints. This is the load-bearing artifact Stage 2 reads.
+- **1c — cross-artifact coherence check.** Light-touch coherence verification across sibling briefs + chapter + bibliography + workstream handoffs:
+  - **vs. BR Stage 1b brief v1.0.1** — both use v3.1 doctrine; both apply five-pass Stage 3 + Stage 4 + Stage 5; both use Tier W / Tier S Darity attribution discipline. ✅ Coherent.
+  - **vs. $100 Barrel Stage 1 brief (RATIFIED 2026-05-19 commit `53db177`)** — different source material (withdrawn-Noema §III + Ch 8 thread vs. Ch 9 for this brief); different venue (PW vs. Atlantic Ideas); different essay length (3,500–4,500w PW vs. 3,500–4,500w Atlantic). ✅ No conflict; parallel-fire partner per cross-thread #4 resolution.
+  - **vs. Aeon pitch (Version C, Pass 3.1 RATIFIED 2026-05-20)** — different source material (Ch 7 Mars frame vs. Ch 9 mechanism frame); no rights conflict; no audience overlap. ✅ Coherent.
+  - **vs. Noema essay (Pass 3.1 RATIFIED 2026-05-21)** — different source material (Ch 1 + Ch 10 memoir+synthesis vs. Ch 9 mechanism frame); different audience set; Phat anonymization ratified across both essays. ✅ Coherent.
+  - **vs. Foreign Policy alternate outline (2026-05-21)** — same source chapter (Ch 9) but different cut (international-dimension spine vs. four-step-mechanism spine); fires only on Atlantic Ideas decline. ✅ Coherent.
+  - **vs. cross-chapter rent-seeking-engagement workstream (RATIFIED + APPLIED 2026-05-18 commit `bc02767`)** — Ch 9 Public Choice section now ratified content; brief §14 updated to reflect; engagement remains light-touch per length-budget. ✅ Coherent.
+  - **vs. bibliography state** — §3 comp-titles cluster references Darity & Mullen + Mazzucato + Pistor + Christophers + Susskind + Olson + Mian + Sufi + Buchanan + Tullock + Ostrom + Raworth + Coase + Smith. Bibliography §13 (comp-aligned) + §22 (Public Choice / political-economy, added 2026-05-18) + §18.5 (reparations economics, includes Darity & Mullen) all cover these citations. ✅ Coherent.
 
 ---
 
-## 16. Cross-references
+## 16. Cross-references (v1.1.0 refresh 2026-05-21)
 
 - **Workstream handoff:** `tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md`
-- **Source chapter:** `manuscript/chapters/Chapter__9_PricingHonestly.md` (Pass 1 PROPOSED at commit `9720da0`)
-- **v2.0 discipline memory:** `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md` (mirrored at `tools/memory/feedback_audience_aware_drafting_discipline.md`)
+- **Foreign Policy alternate reframe outline (NEW 2026-05-21):** `tools/workstream-handoffs/foreign-policy-alternate-outline_2026-05-21.md`
+- **Source chapter:** `manuscript/chapters/Chapter__9_PricingHonestly.md` — **Pass 1 Phase C RATIFIED + APPLIED 2026-05-19 (commit `4c8bc02`); Pass 2 Phase C RATIFIED + APPLIED 2026-05-20 (commit `78a26c2`)** — sequencing gate "wait for Ch 9 Pass 2" satisfied.
+- **v3.1 discipline memory:** `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md` (mirrored at `tools/memory/feedback_audience_aware_drafting_discipline.md`) — v3.0 base + Amendment A; per cross-thread #14 partially-resolved, the memory file is 2+ days stale of canonical doctrine (Pass 3.5 + Amendment C codifications had not yet been synced to memory at the time of last update). **Authoritative canonical doctrine** lives at the pipeline doctrine artifacts below:
+- **v3.1 canonical doctrine artifacts:**
+  - `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` — full pipeline architecture
+  - `tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md` — Stage 1 1a/1b/1c sub-step framing
+  - `tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md` — Stage 4 render + character-integrity audit
+  - `tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md` — Stage 5 sign-off bookend + pre-publication review queue artifact
+- **Cross-thread state (per `publishing/strategy/cross-thread-todos.md` 2026-05-21 refresh):**
+  - **#4 RESOLVED** 2026-05-19 (Atlantic Ideas vs. PW dual-fire; this workstream is the Atlantic Ideas arm).
+  - **#5 + #6 RESOLVED** with v2.0 → v3.1 supersession noted.
+  - **#7 operational portion RESOLVED**; user-action lawyer-consultation milestone open.
+  - **#10 partially resolved** ($100 Barrel workstream fired 2026-05-19; apparatus-stability checkpoint sub-items 2b + 2c verification status open per cross-thread file).
+  - **#12 OPEN** — Ch 8 line 72 coal-CO₂ short-ton cascade still pending; affects §7.1 hook range.
+  - **#13 RESOLVED** + APPLIED 2026-05-18 commit `bc02767` (rent-seeking-engagement; Ch 9 Public Choice section now ratified content; brief §14 updated).
+  - **#14 partially resolved** (pipeline doctrine v1.0.0 ratified; Amendments B + C ratified; per-chapter retrofits in flight; memory-file refresh pending).
+  - **#15 NEW** (Darity framework-revision findings; MI-1 / MI-2 / MI-3 + SI cluster + C cluster — none load-bearing for this essay per §14).
+- **Canonical Stage 1 examples:**
+  - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md` (long-form model — v2.0 era; structural reference)
+  - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` (short-form model — v2.0 era; structural reference)
+  - **Boston Review Stage 1b brief v1.0.1** (commit `755e758`) — v3.1 doctrine application model; this brief's v1.1.0 refresh mirrors BR's structure
+- **Darity interview material:**
+  - `research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md` — §2 attribution preference (Tier W / Tier S split); §9 bibliography expansion recommendations; §10 framework-revision findings; §12 warm-intro question disposition
+  - `research/outreach/subjects/darity/background-brief_2026-05-06.md` — pre-interview anchor; carries forward as Tier W context
+- **Ch 2 + Ch 3 named-source state (per author note 2026-05-21):** Ch 2 + Ch 3 lost `__Draft` suffix; consent workstream closed; Ch 3 augmentation Stage 2 landed 11 named voices across 9 chapter locations; Phat anonymization RATIFIED + APPLIED 2026-05-20 across Ch 3 + Noema Essay B + tracking artifacts. **Not load-bearing for this essay** — Atlantic Ideas frame is Ch 9 mechanism/policy; Ch 2 + Ch 3 voices are McDowell + Chesapeake material that lives in Ch 2 / Ch 3 / BR essay / Noema essay territory.
+- **Original v2.0 discipline reference (historical):** v2.0 ratified 2026-05-10 (Amendments A + B + C); superseded by v3.1 doctrine 2026-05-17 → 2026-05-19. v2.0 framing in earlier brief sections + workstream handoff is preserved as historical record; downstream sessions apply v3.1.
 - **Canonical Stage 1 examples:**
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md` (long-form model)
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` (short-form model)
@@ -409,4 +510,4 @@ If a Stage 0 pass is fired retrospectively (e.g., to surface a venue-fit concern
 
 ---
 
-*End of Atlantic Ideas essay Stage 1 pre-draft brief v1.0.0. PROPOSED; awaiting author ratification before Stage 2 session fires. Per CLAUDE.md merge-to-main defaults for rigor-pass artifacts (extended 2026-05-16), this brief autonomously fast-forwards to `main` at session close. Author ratification still gates Stage 2 fire.*
+*End of Atlantic Ideas essay Stage 1 pre-draft brief v1.1.0 (refresh 2026-05-21). RATIFIED 2026-05-21 by author — D1–D7 brief-update items all applied per "ratify all as recommended" direction. Per CLAUDE.md merge-to-main defaults for rigor-pass artifacts (extended 2026-05-16), this brief autonomously fast-forwards to `main` at session close. **Stage 2 audience-blind flow draft session can fire as soon as PM session drafts the Stage 2 paste-text** — no further author ratification required for Stage 2 fire (all gates resolved).*
