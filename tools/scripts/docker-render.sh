@@ -47,9 +47,29 @@
 
 set -euo pipefail
 
-# Resolve repo root.
-if ! repo_root="$(git rev-parse --show-toplevel 2>/dev/null)"; then
-  echo "Error: not inside a git repository. Run from somewhere under the commons-bonds repo tree." >&2
+# Resolve repo root from the script's own real location — robust to symlinks
+# (e.g., when this script is symlinked from ~/.local/bin/docker-render) and
+# independent of the user's cwd. Earlier versions used `git rev-parse
+# --show-toplevel` which broke under both of those — from outside a git
+# checkout it errored "not a git repository," and from inside a different
+# repo it picked the wrong repo's root.
+script="${BASH_SOURCE[0]}"
+while [ -L "$script" ]; do
+  link_target="$(readlink "$script")"
+  case "$link_target" in
+    /*) script="$link_target" ;;
+    *) script="$(cd "$(dirname "$script")" && pwd -P)/$link_target" ;;
+  esac
+done
+script_dir="$(cd "$(dirname "$script")" && pwd -P)"
+# Canonical layout: tools/scripts/docker-render.sh — repo root is two levels up.
+repo_root="$(cd "$script_dir/../.." && pwd -P)"
+
+if [ ! -f "$repo_root/tools/scripts/build-derivatives-alt.sh" ]; then
+  echo "Error: cannot find tools/scripts/build-derivatives-alt.sh under '$repo_root'." >&2
+  echo "  This script must live at <repo-root>/tools/scripts/docker-render.sh (symlinks are fine)." >&2
+  echo "  If you symlinked docker-render.sh, double-check the symlink target points into the" >&2
+  echo "  commons-bonds repo's tools/scripts/ dir." >&2
   exit 1
 fi
 
