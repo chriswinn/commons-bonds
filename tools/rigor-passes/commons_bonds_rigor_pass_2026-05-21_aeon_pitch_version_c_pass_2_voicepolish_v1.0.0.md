@@ -1,12 +1,18 @@
 # Aeon Pitch Version C — Stage 3 Pass 3.2 Voice-Polish Rigor Pass v1.0.0 — 2026-05-21
 
-**Status:** **PROPOSED.** Stage 3 Pass 3.2 (voice-polish) on the Aeon pitch
-Version C, post-Phase-C-α from Pass 3.1 (ratified + applied 2026-05-20;
-Para 1 now reads *"an analog like Devon Island or HI-SEAS"*). Per-prompt
-serial cadence per v2.0 Amendment B; this artifact fires next in the
-ratified compressed cadence per Pass 3.1 §5.4. Awaiting author interactive
-ratification per v3.1 Amendment C; Phase C-β application is a separate
-session.
+**Status:** **RATIFIED + APPLIED 2026-05-21.** Stage 3 Pass 3.2 (voice-polish)
+on the Aeon pitch Version C, post-Phase-C-α from Pass 3.1 (ratified + applied
+2026-05-20; Para 1 now reads *"an analog like Devon Island or HI-SEAS"*).
+Per-prompt serial cadence per v2.0 Amendment B; this artifact fired in the
+ratified compressed cadence per Pass 3.1 §5.4. Phase C-β interactive
+ratification + source-file application combined per v3.1 Amendment C; see
+§10 disposition log for the author-walked decisions.
+
+**Post-Phase-C-β state.** Body 297w (was 300w); em-dash count 4 chars / 3 usages
+(was 6 chars / 5 usages); Haselby outlining-body 196w (within 4w of 200w
+guidance). All ratified spot-fixes applied to
+`manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` in
+ratification session.
 
 **Audit target.** `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 (300w post-Phase-C-α; ratified 2026-05-08 as the locked submission cut;
@@ -884,47 +890,41 @@ they surface HIGH-severity issues.
 
 ---
 
-## §8. Stop point — PROPOSED 2026-05-21
+## §8. Stop point — RATIFIED + APPLIED 2026-05-21
 
-This session produced the Pass 3.2 voice-polish artifact as PROPOSED.
-Phase C-β application is a separate interactive ratification session
-per v3.1 Amendment C — author walks through each finding's Options +
-Recommendation + Reasoning; ratifications applied to source file in the
-combined ratification session.
+This artifact PROPOSED 2026-05-21 (initial Pass 3.2 audit session); Phase
+C-β interactive ratification + source-file application executed same day
+per v3.1 Amendment C combined-session protocol. Author walked through all
+7 findings; ratifications applied to source pitch file
+`manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` in the
+ratification session. See §10 for the disposition log.
 
-**Author dispositions needed (recap):**
+**Author dispositions (ratified 2026-05-21 — recap; full table at §10):**
 
-- **F-V-AeonC-1 (singular-verb carry-forward, MEDIUM):** Pass 3.1 §5.4
-  explicit carry-forward; recommend Option A (hold as-is); author
-  ratification closes the carry-forward.
-- **F-V-AeonC-2 (em-dash density, MEDIUM):** recommend Option E (B + C
-  combined — convert usage #4 to colon + usage #3 to period+fragment);
-  drops body em-dash count 6 → 4 characters.
-- **F-V-AeonC-3 (three-case parallel, MEDIUM):** recommend Option A
-  (hold as-is); substantively earned per Stage 1 §7.6.
-- **F-V-AeonC-4 (tautological-echo coda, LOW):** recommend Option B
-  (drop the third clause); cleans the echo; secondary effect addresses
-  F-V-AeonC-3 partially.
-- **F-V-AeonC-5 (stage-direction phrasing, LOW):** recommend Option A
-  (hold as-is); per comparison §1.11 settled finding.
-- **F-V-AeonC-6 (*"Then"* anaphora, LOW):** recommend Option A (hold
-  as-is); substantively earned.
-- **F-V-AeonC-7 (anchor-sentence italics, LOW):** recommend Option A
-  (hold as-is); per comparison §1.5 trivial.
+- **F-V-AeonC-1:** RATIFIED Option A (hold) — Pass 3.1 §5.4 carry-forward CLOSED.
+- **F-V-AeonC-2:** RATIFIED Option E (B + C combined) — em-dash count 6 → 4 chars.
+- **F-V-AeonC-3:** RATIFIED Option A (hold) — substantively earned per Stage 1 §7.6.
+- **F-V-AeonC-4:** RATIFIED Option B (drop third clause) — *"structural test the same"* dropped; -4w.
+- **F-V-AeonC-5:** RATIFIED **V3 author-initiated content revision** — *"a critique"* → *"an analytical lens"*; +1w; F-V-AeonC-2 Option E em-dash → colon for usage #4 absorbed into this edit. Stage 1 §7.4 canonical phrasing updates accordingly.
+- **F-V-AeonC-6:** RATIFIED Option A (hold) — substantively earned.
+- **F-V-AeonC-7:** RATIFIED Option A (hold) — comparison §1.5 settled.
 
 **What fires next:**
 
-- **Phase C-β application session** (interactive ratification +
-  source-file edits) — target Mon May 25 (=2026-05-25).
 - **Bundled Pass 3.3 + 3.4 (acceptance + robustness)** — separate
-  session after Phase C-β; target verdict Wed May 27 (=2026-05-27).
+  session per the ratified compressed cadence; target verdict Wed May 27
+  (=2026-05-27). Must absorb F-V-AeonC-5 V3 revision (universal-close
+  phrasing change) — see §10.1 cross-pass routing.
+- **Stage 1 §7.4 brief patch** — non-blocking; next PM refresh; correction-
+  note discipline per Pass 3.1 §4.1 cascade model.
 - **Pre-submission verification** — Fri May 29 (=2026-05-29).
 - **Aeon portal submission** — Sun May 31 14:01 UTC (= Mon Jun 1
   ~00:01 AEST).
 
-This artifact autonomously fast-forwards to `main` at session close per
-CLAUDE.md rigor-pass-artifact merge-to-main default. No source-file
-edits applied to the pitch in this session per Pass 3.2 hard constraint.
+This artifact + source-file edits autonomously fast-forward to `main` at
+session close per CLAUDE.md ratified-content + rigor-pass-artifact
+merge-to-main default (Phase C-β = author-ratified content change per
+v3.1 Amendment C interactive ratification protocol).
 
 ---
 
@@ -944,4 +944,98 @@ edits applied to the pitch in this session per Pass 3.2 hard constraint.
 
 ---
 
-*End of Pass 3.2 (voice-polish) rigor pass — PROPOSED 2026-05-21.*
+*End of Pass 3.2 (voice-polish) rigor pass — RATIFIED + APPLIED 2026-05-21.*
+
+---
+
+## §10. Phase C-β application record (2026-05-21)
+
+**Combined interactive ratification session per v3.1 Amendment C.** Author
+walked through seven findings; ratifications applied in this session to the
+source pitch file. One finding (F-V-AeonC-5) ratified an author-initiated
+content revision beyond the original Options list — substituting *"an
+analytical lens"* for *"a critique"*; documented below with cross-pass
+routing implications.
+
+| Item | Disposition | Source file edit | Net effect |
+|---|---|---|---|
+| F-V-AeonC-1 (singular-verb carry-forward, MEDIUM) | RATIFIED Option A (hold) | None | Pass 3.1 §5.4 carry-forward CLOSED; 300w preserved at this step |
+| F-V-AeonC-2 (em-dash density, MEDIUM) | RATIFIED Option E (B + C combined) | `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` line 43 (Para 2): *"is free again — all of it suddenly costless."* → *"is free again. All of it suddenly costless."* + line 47 (Para 4) em-dash → colon for usage #4 (absorbed into F-V-AeonC-5 edit below) | Body em-dash count 6 → 4 chars / 5 → 3 usages; 300w preserved |
+| F-V-AeonC-3 (three-case parallel, MEDIUM) | RATIFIED Option A (hold) | None | Substantively earned per Stage 1 §7.6; 300w preserved |
+| F-V-AeonC-4 (tautological-echo coda, LOW) | RATIFIED Option B (drop third clause) | `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` line 45 (Para 3, case 3): *"…hours of life were never computed: same framework, no external bad actor, structural test the same."* → *"…hours of life were never computed: same framework, no external bad actor."* | Tautological echo cleaned; word count 300w → 296w |
+| F-V-AeonC-5 (stage-direction phrasing, LOW) | RATIFIED **V3 author-initiated content revision** (substitute *"an analytical lens"* for *"a critique"*) + F-V-AeonC-2 Option E em-dash → colon for usage #4 (absorbed) | `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` line 47 (Para 4): *"The central claim is that the framework is universal — a pricing framework first, a critique second."* → *"The central claim is that the framework is universal: a pricing framework first, an analytical lens second."* | Stage 1 §7.4 canonical phrasing revised: *"pricing framework first, critique second"* → *"pricing framework first, analytical lens second"*; word count 296w → 297w; em-dash count drops by 1 (absorbed F-V-AeonC-2 Option E usage #4) |
+| F-V-AeonC-6 (*"Then"* anaphora, LOW) | RATIFIED Option A (hold) | None | Substantively earned; 297w preserved |
+| F-V-AeonC-7 (anchor-sentence italics, LOW) | RATIFIED Option A (hold) | None | Comparison §1.5 settled; 297w preserved |
+| Source-file auxiliary updates | APPLIED | `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` lines 14, 39, 53–58, 69, 79: word-count breakdown table (300 → 297; Para 2 130 → 126; Para 3 69 → 70); A-vs-B-vs-C comparison table Version C word-count row; Haselby outlining-body figure (199w → 196w; "within 1 word" → "within 4 words"); section-title 300w reference; closing summary line | Auxiliary metadata aligned to post-Pass-3.2 state |
+
+**Word-count check (post-Phase-C-β):**
+
+| Metric | Pre-Pass-3.2 | Predicted by §6.2 | Actual post-Phase-C-β |
+|---|---|---|---|
+| Body word count | 300w | 296w (recommended-only) | **297w** (F-V-AeonC-5 V3 author revision added +1w over §6.2 prediction) |
+| Em-dash characters (body) | 6 | 4 | **4** ✓ |
+| Em-dash usages (body) | 5 | 3 | **3** ✓ |
+| Sentence count (body) | 17 | 18 | **18** ✓ (line 43 split) |
+| Stage 1 §10 target range (270–300w) | ✓ at upper bound | ✓ inside | **✓ comfortably inside** |
+| Stage 1 §10 hard cap (320w) | ✓ uncontested | ✓ uncontested | **✓ uncontested** |
+| Haselby APA Blog 2020-12-10 200w outlining-body | 199w | 195w (within 5w) | **196w (within 4w)** ✓ |
+
+Post-Phase-C-β state preserves all load-bearing substance + Stage 1
+canonical content + Pass 3.1 §5.4 carry-forward closure + Mulgan / Sandel /
+MacAskill register. The F-V-AeonC-5 V3 author revision is a Stage 1 §7.4
+canonical-phrasing update (see §10.1 cross-pass routing below).
+
+### §10.1 Cross-pass routing post-Phase-C-β
+
+**Bundled Pass 3.3 + 3.4 (acceptance + robustness)** — fires next per Pass
+3.1 §5.4-ratified compressed cadence; target verdict Wed May 27
+(=2026-05-27). Material the next session must absorb:
+
+- **F-V-AeonC-5 V3 author revision (Stage 1 §7.4 canonical-phrasing update).**
+  Universal-close phrasing changed from *"pricing framework first, critique
+  second"* → *"pricing framework first, an analytical lens second."* Pass 3.3
+  acceptance: re-test Mulgan/Sandel/Mazzucato cluster reads (cluster-fit may
+  be marginally weaker — "analytical lens" reads more neutral, less
+  cluster-aligned than "critique"). Pass 3.4 robustness: re-test Public
+  Choice / Coasean adversarial probe (the "hiding your politics" probe may
+  land slightly differently — *"analytical lens"* sidesteps the explicit
+  critique-acknowledgment that defused the probe under prior phrasing;
+  partially compensated by V3's analytical positioning, which sits closer
+  to author's architectural intuition than V0's critique acknowledgment).
+- **F-V-AeonC-2 Option E em-dash reductions (4 → 3 usages, 6 → 4 chars).**
+  Pass 3.3 / 3.4 unaffected — em-dash density is editor / copyeditor
+  surface, not audience-load surface.
+- **F-V-AeonC-4 Option B drop of third clause.** Pass 3.4: Public Choice /
+  Coasean adversarial reader may probe the commute-lease case's *"no
+  external bad actor"* coda for hidden external actors (employer, housing
+  market, transit regime); the probe targets substance, not the dropped
+  third clause. Holds.
+
+**Stage 1 §7.4 brief patch needed.** Stage 1 brief
+`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
+§7.4 canonical phrasing should be updated at next PM refresh to reflect
+V3 revision (*"critique second"* → *"analytical lens second"*) with
+correction-note traceability per the Pass 3.1 §4.1 cascade discipline.
+Non-blocking for submission.
+
+**Pass 3.5 (developmental-edit)** — not applicable to a 300w pitch per
+Stage 3 template "Audit-existing-prose mode."
+
+### §10.2 Timeline coordination check (post-Phase-C-β)
+
+- Pass 3.2 ratification + Phase C-β application: **2026-05-21 (executed
+  same day as PROPOSED artifact).** Original target Mon May 25
+  (=2026-05-25) was 4 days out; executed 4 days ahead of target.
+- Bundled Pass 3.3 + 3.4 verdict: Wed May 27 (=2026-05-27). [On-target;
+  4 days runway preserved.]
+- Pre-submission verification: Fri May 29 (=2026-05-29). [On-target.]
+- Aeon portal submission: Sun May 31 14:01 UTC (= Mon Jun 1 ~00:01
+  AEST). [On-target.]
+
+Don't-slip status: **CLEAR.** Pass 3.2 Phase C-β executed ahead of
+target; downstream cadence runway preserved.
+
+---
+
+*End of Pass 3.2 (voice-polish) rigor pass §10 Phase C-β application
+record — RATIFIED + APPLIED 2026-05-21.*
