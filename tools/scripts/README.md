@@ -260,30 +260,37 @@ docker run --rm commons-bonds-render             # runs --check, prints ✓/✗ 
 
 ### Render a chapter via Docker
 
-Use the wrapper script `tools/scripts/docker-render.sh` — a transparent passthrough to `build-derivatives-alt.sh` inside the canonical image, with `--platform=linux/amd64` + repo-root bind-mount already set. It pre-flights Colima + the image being present, so failures surface as actionable errors rather than silent misbehavior.
+Use the wrapper script `tools/scripts/docker-render.sh` — a transparent passthrough to `build-derivatives-alt.sh` inside the canonical image, with `--platform=linux/amd64` + repo-root bind-mount already set. It pre-flights Colima + the image being present, so failures surface as actionable errors rather than silent misbehavior. The wrapper honors your current working directory: bare filenames + cwd-relative globs work the same as any local tool.
+
+Symlinking into your PATH is supported:
 
 ```bash
-# .md → .docx + .pdf (alongside the source; gitignored per the render-output policy)
-tools/scripts/docker-render.sh \
-  manuscript/chapters/Chapter__1_TheQuietMath.md
+ln -s "$(pwd)/tools/scripts/docker-render.sh" ~/.local/bin/docker-render
+```
 
-# Output to an ephemeral $HOME-side dir for proofing
-tools/scripts/docker-render.sh -o ~/proof \
-  manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP.md
+From there, the examples assume `docker-render` is on your PATH. Use `tools/scripts/docker-render.sh` if you prefer to invoke it directly.
 
-# Output straight into a committed-evidence dir for a delivery
-tools/scripts/docker-render.sh -o research/outreach/subjects/colden \
-  manuscript/chapters/Chapter__3_TheWaterman.md
+```bash
+# From the repo root, repo-relative path:
+docker-render manuscript/chapters/Chapter__1_TheQuietMath.md
 
-# Multiple files at once
-tools/scripts/docker-render.sh \
-  manuscript/chapters/Chapter__5_*.md \
-  manuscript/chapters/Chapter__6_*.md \
-  core/technical-appendix/TechnicalAppendix_v2.0.0.html
+# From inside manuscript/chapters/, bare filename + cwd-relative glob:
+cd manuscript/chapters/
+docker-render Chapter__1_TheQuietMath.md
+docker-render Chapter__*.md                  # render every chapter at once
+docker-render -f pdf Chapter__*.md           # PDFs only, all chapters, for the weekend annotation pass
 
-# Skip PDFs
-tools/scripts/docker-render.sh -f docx \
-  manuscript/chapters/Chapter__1_TheQuietMath.md
+# Output to an ephemeral $HOME-side dir for proofing:
+docker-render -o ~/proof Chapter__5_*.md
+
+# Output into a committed-evidence dir for a delivery (Colden-style):
+docker-render -o ../../research/outreach/subjects/colden Chapter__3_TheWaterman.md
+
+# Multiple files / mixed types at once (TA HTML is included here):
+docker-render \
+  Chapter__5_*.md \
+  Chapter__6_*.md \
+  ../../core/technical-appendix/TechnicalAppendix_v2.0.0.html
 ```
 
 Output-path constraint: `-o` must be repo-relative or under `$HOME`. Colima only bind-mounts `$HOME` into the container by default; the wrapper adds the repo root. Absolute paths outside both areas (e.g., `/tmp` on macOS) are rejected up-front with a fix-it hint, rather than letting the bytes silently die when the `--rm` container exits.
@@ -294,17 +301,17 @@ If invoking `build-derivatives.sh` (the laptop-native variant) inside Docker is 
 
 #### What the wrapper does under the hood
 
-For debugging or one-off use without the wrapper, here is the raw invocation:
+For debugging or one-off use without the wrapper, here is the raw invocation (assuming cwd is the repo root):
 
 ```bash
 docker run --rm --platform=linux/amd64 \
   -v "$(pwd):/work" -v "$HOME:$HOME" -w /work \
   commons-bonds-render \
-  tools/scripts/build-derivatives-alt.sh \
+  /work/tools/scripts/build-derivatives-alt.sh \
     manuscript/chapters/Chapter__1_TheQuietMath.md
 ```
 
-(The `-v "$HOME:$HOME"` mount is what makes `-o ~/proof`-style paths work.)
+The wrapper additionally translates your host cwd to the corresponding container path before setting `-w`, so a bare filename invoked from inside `manuscript/chapters/` resolves correctly. The `-v "$HOME:$HOME"` mount is what makes `-o ~/proof`-style paths work.
 
 ### Why not run apt-installed pandoc directly on macOS?
 
