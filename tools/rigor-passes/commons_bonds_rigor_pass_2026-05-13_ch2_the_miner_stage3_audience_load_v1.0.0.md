@@ -506,3 +506,37 @@ Per Pass 3 §Tier 3 #12 (coal miner / black-lung sufferer): "✓ rather than ✓
 ---
 
 *Phase C-δ application rev. 2026-05-21. Ch 2 Phase A is now DONE-DONE; sample-chapter ready for Wave 1 agent-query cascade pending courtesy-notify pipeline + endnote sweep at publication-time.*
+
+---
+
+## Phase C-ε — MT-1 APPLIED 2026-05-21 (first-round review close-out)
+
+Author ratified MT-1 (line 189 / now line 192 "asset-class consolidation" phrasing) 2026-05-21 — Option B compact rephrase per Pass 3 walk-through. Single-spot-fix application landed same-session.
+
+**Spot-fix applied (1):**
+
+| # | Line | Edit |
+|---|---|---|
+| MT-1 | 192 | "the asset-class consolidation captures the surplus that would have funded relocation" → "the consolidation of rental housing into asset-class portfolios captures the surplus that would have funded relocation". Grounds the heterodox-econ shorthand in concrete housing-market mechanism; passes center-right policy reader pressure-test cleaner without losing analytical-precision payload. |
+
+**Tier 3 character #18 (center-right policy reader)** verdict: ✓✓ → ✓✓ (no flip; verdict already passed; MT-1 strengthens the verdict's evidence base).
+
+**Cumulative Ch 2 Phase C spot-fix count post-MT-1: 18** (5 C-α + 1 C-β + 8 C-γ + 3 C-δ + 1 C-ε).
+
+---
+
+## First-round review status — CLOSED 2026-05-21
+
+**Ch 2 is DONE for the first round of review and polish.** All Phase A passes complete (Pass 1 fact-check + Pass 2 voice-polish + Pass 3 audience-load); all author-ratified spot-fix candidates applied (18 cumulative); named voices substituted via published-record pivot (Robert Bailey + Ted Latusek); `__Draft` suffix dropped; chapter renamed to `Chapter__2_TheMiner.md`. Pass 3 verdict READY AS-IS holds.
+
+**Deferred to pre-publication / cross-thread workstreams (not first-round-blocking):**
+- Courtesy-notify pipeline (Bailey + Day + Fox families) — via WVPB / Hamby editorial channels.
+- Endnote / citation-finalization sweep — whole-manuscript scope.
+- Phase B whole-book audit — waits for all 10 Phase A complete.
+- Wave 1 agent-query sample-chapter selection — late July / early August 2026 per cascade plan.
+- Optional Berkes NPR retry — quality polish; deferred (Hamby cluster sufficient).
+- Pass 3.5 developmental-edit — if added to Ch 2 in a future cycle per Amendment B 5-pass evolution; not in first-round scope.
+
+---
+
+*First-round review CLOSED 2026-05-21. Ch 2 no longer has an active next-step at the chapter level; awaits cross-thread workstreams + Phase B + Wave 1 cascade triggers.*
