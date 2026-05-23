@@ -1,6 +1,6 @@
 # $100 Barrel Essay — Pass 3.3 Audience-Load Acceptance LIGHT Re-Verification v1.0.0 — 2026-05-23
 
-**Status:** PROPOSED. Pass 3.3 light re-verification artifact firing after Pass 3.2 RATIFIED + APPLIED (commit `8b2614a` 2026-05-23). Tests whether the 6 Phase C spot-fixes shift any of the 18-character acceptance verdicts that the comparative draft audit (`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md` §§2–4) established as canonical for Draft A.
+**Status:** RATIFIED 2026-05-23 (author confirmed PASS verdict; both audit-trail flag dispositions accepted as HOLDS; no Phase C application required since Pass 3.3 light is a verification pass not a prose-modifying pass). Pass 3.3 light re-verification artifact firing after Pass 3.2 RATIFIED + APPLIED (commit `8b2614a` 2026-05-23). Tests whether the 6 Phase C spot-fixes shift any of the 18-character acceptance verdicts that the comparative draft audit (`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md` §§2–4) established as canonical for Draft A.
 
 **Audit target:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md) (4,145w post-Pass-3.2-Phase-C; on `main` commit `8b2614a`).
 
@@ -221,12 +221,12 @@ Per Q1 rigor pass §6 + Stage 1 brief §9 + comparative draft audit §1: Conditi
 
 **2026-05-23 — PROPOSED.** Pass 3.3 audience-load acceptance LIGHT re-verification artifact for $100 Barrel Draft A (post-Pass-3.2-Phase-C). PASS verdict — INCLUDE across all 18 characters; Condition 1 dispositive test on Tier 1 #3 center-right policy reader HOLDS at INCLUDE (conservative ✓✓; confident ✓✓✓; either way well above ship-block threshold).
 
-Awaiting author ratification of:
-1. **Aggregate PASS verdict** (no character-verdict shifts that drop below INCLUDE).
-2. **Audit-trail flag #1 disposition** (F-VP-Barrel-2 "even so" drop): HOLDS on #3. Voice-polish improvement; no retrofit required.
-3. **Audit-trail flag #2 disposition** (F-VP-Barrel-4 Option D throat-clearing drop): HOLDS on #3 with possible margin reduction. Substantive first-person methodological language carries meta-load. No retrofit required; "Notice the move." backup available if external review later flags.
-4. **No Phase C application required.** Pass 3.3 light is a verification pass, not a prose-modifying pass.
-5. **Next session:** Pass 3.4 robustness light re-verification.
+**2026-05-23 — RATIFIED.** Author confirmed:
+1. ✅ **Aggregate PASS verdict** accepted — INCLUDE across all 18 characters; no verdict-shift below INCLUDE.
+2. ✅ **Audit-trail flag #1 disposition** (F-VP-Barrel-2 "even so" drop): HOLDS on #3 accepted. No retrofit applied.
+3. ✅ **Audit-trail flag #2 disposition** (F-VP-Barrel-4 Option D throat-clearing drop): HOLDS on #3 with possible margin reduction accepted. No retrofit applied. "Notice the move." backup remains available if Pass 3.4 robustness or external review later flags it.
+4. ✅ **No Phase C application required** — verification pass only; essay file unchanged.
+5. ✅ **Next session:** Pass 3.4 robustness light re-verification fired in same session per author direction (in-session interactive ratification continued).
 
 **Hard constraints adherence:**
 - [x] No spot-fixes applied to the essay file.
