@@ -2,9 +2,9 @@
 
 **Author:** Chris Winn
 **Date created:** 2026-05-21
-**Status:** Stage 3 Pass 3.1 Phase C-α + Phase C-β applied 2026-05-21 (4 ratified fact-check spot-fixes from Pass 3.1 artifact). Stage 3 five-pass rigor in progress: Pass 3.1 RATIFIED + APPLIED; Pass 3.2 voice-polish next.
+**Status:** Stage 3 Pass 3.1 Phase C-α + Phase C-β applied 2026-05-21 (4 ratified fact-check spot-fixes from Pass 3.1 artifact); one interactive Pass 3.2 sentence-craft spot-fix applied 2026-05-23 (§III close revision, ratified live; supersedes Pass 3.2 PROPOSED finding F-VP-Barrel-3). Stage 3 five-pass rigor in progress: Pass 3.1 RATIFIED + APPLIED; Pass 3.2 voice-polish remaining findings pending ratification.
 **Target venue:** *Phenomenal World* (Jain Family Institute)
-**Body word count (excluding header):** 4,088 words
+**Body word count (excluding header):** 4,159 words (post-2026-05-23 §III interactive spot-fix; was 4,088)
 **Stage 1 brief:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`
 **Pass 3.1 fact-check artifact:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md`
 **Comparative draft audit:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`
@@ -16,6 +16,9 @@
 - F-FC-Barrel-4 (MEDIUM) — Pump-price hook §I directional claim VERIFIED via EIA Weekly Retail Gasoline ($4.49/gal 2026-05-18 vs $3.17/gal 2025-05-18; +$1.32/gal YoY; "crept up again... past where it sat last year" supported). No prose change.
 - F-FC-Barrel-5 (LOW) — Per-citizen figure recalculated $340K → "approaching four hundred thousand dollars" per NBIM/Norway population (~$2.16T / 5.55M ≈ $390K+).
 - CTG-1 (Stage 1 brief §7.2 Amendment A repair) — DEFERRED to separate brief-repair workstream batched with Noema CTG-1 per Decision 4 Option (b).
+
+**Interactive Pass 3.2 sentence-craft spot-fix (2026-05-23):**
+- §III close (line 116) — REVISED. OLD: "Four traditions: Marx, Ostrom, Daly, Hartwick. Each working on adjacent territory. Each contributing a real piece of the problem. Each leaving the piece that survives them all unbuilt. The piece is the worth of what was permanently foreclosed." NEW: expanded to ~110w version naming what each tradition addressed (who labors / who governs the commons / who lives inside the biosphere / who inherits what is left), then naming the orthodox model's gap (supply and demand at the moment of sale; permanent foreclosure not present; future generation not seated at the table) and closing on the cost-severance image ("the bill comes due in their lifetimes rather than ours"). Workshopped interactively; ratified by author 2026-05-23. **SUPERSEDES Pass 3.2 PROPOSED finding F-VP-Barrel-3** (the prior recommendation to flatten "Each X-ing" rule-of-three to a comma-joined parallel-clause is moot; the rule-of-three is removed and the passage is materially expanded). The new passage tees up §IV ("question of obligation across time") via the "not seated at the table" image. Net body word-count delta: +~70w (4,088 → ~4,158). Open follow-up: 2 em-dashes (appositions) in the new passage are punctuation-substitutable with a colon + dropped apposition; flagged for author review.
 
 ---
 
@@ -113,7 +116,7 @@ This is Hartwick's rule. Norway, more than any other country, has operationalize
 
 What Hartwick gives us is a rule about revenue. Reinvest the revenue from extraction, and consumption is preserved. What Hartwick does not give us — does not claim to give us — is a price for what was extracted as such. The hundred-dollar barrel was paid for; the revenue was reinvested; consumption flows forward. But the barrel is still gone. The hundred dollars captures present transaction value. It does not capture the worth of the barrel's permanent absence from the geological record of the planet. Hartwick is the closest the canon gets, and Hartwick stops at the revenue.
 
-Four traditions: Marx, Ostrom, Daly, Hartwick. Each working on adjacent territory. Each contributing a real piece of the problem. Each leaving the piece that survives them all unbuilt. The piece is the worth of what was permanently foreclosed.
+Four traditions: Marx, Ostrom, Daly, Hartwick. Each addressed part of what economics is for — who labors, who governs the commons, who lives inside the biosphere, who inherits what is left. None priced permanent foreclosure. And neither does the everyday model the rest of us reason inside — supply and demand at the moment of sale. Supply and demand clears the transaction between the parties present at it. Permanent foreclosure is not present at the moment of sale; the generation that pays for it is not seated at the table. The price clears without them. The decision gets made. The bill comes due in their lifetimes rather than ours.
 
 ## IV. Rawls Across Time
 
