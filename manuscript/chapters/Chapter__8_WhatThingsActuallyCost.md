@@ -69,15 +69,15 @@ Running total across the first three components: roughly eight dollars per ton �
 
 This is the cost component Chapter 2 named through the cost-walkthrough that lands multiple orders of magnitude above the price coal actually sold for and Chapter 6 formalized through the residual commons value integral. It is also the component that, for fossil fuels, dominates every other.
 
-One ton of coal, when burned, releases approximately 2.86 tons of carbon dioxide into the atmosphere. The EPA's most recent estimate of the social cost of carbon — the economic damage caused by each ton of CO₂ released, anchored to the Rennert et al. 2022 *Nature* integrated estimate that grounded the 2023 EPA update — is one hundred and ninety dollars. The arithmetic is not subtle. The climate cost of burning one ton of coal, at the currently published federal estimate, is approximately five hundred and forty-four dollars.
+One ton of coal, when burned, releases approximately 2.6 metric tons of carbon dioxide into the atmosphere (the EPA AP-42 §1.1 bituminous-coal combustion factor of 93.28 kg CO₂ per mmBtu, applied to McDowell County's production-weighted Pocahontas-seam heat content of roughly 28 mmBtu per short ton, yields 2.61 metric tons CO₂ per short ton coal; this is the McDowell-specific calibration of the framework figure Chapter 6 introduced under the national-bituminous-average heat content, which yields 2.32 metric tons CO₂ per short ton). The EPA's most recent estimate of the social cost of carbon — the economic damage caused by each ton of CO₂ released, anchored to the Rennert et al. 2022 *Nature* integrated estimate that grounded the 2023 EPA update — is one hundred and ninety dollars per metric ton. The arithmetic is not subtle. The climate cost of burning one ton of McDowell County coal, at the currently published federal estimate, is approximately five hundred and ten dollars.
 
-Five hundred and forty-four dollars. Against a market price that has oscillated between four dollars and a hundred and forty dollars over the life of the industry. The carbon term alone — before any of the other seven components are added — exceeds every era's market price for a ton of coal, by a factor running from roughly four against today's market peak to more than a hundred against the 1960 mine-mouth.
+Five hundred and ten dollars. Against a market price that has oscillated between four dollars and a hundred and forty dollars over the life of the industry. The carbon term alone — before any of the other seven components are added — exceeds every era's market price for a ton of coal, by a factor running from roughly three against today's market peak to more than a hundred against the 1960 mine-mouth.
 
 Add to that the option-value foreclosure not captured by the carbon number: every future metallurgical application that cannot be served by a non-existent substitute, every future chemical feedstock application, every use case we cannot yet imagine for a carbon resource whose existing stock is being burned for electricity in a world where electricity can now be generated from sources that don't require combustion at all.
 
-The foreclosure component, for coal burned in any era after viable renewable substitutes existed, is a minimum of five hundred and forty-four dollars per ton — and that is before option value, before ecosystem service losses from atmospheric warming, before the climate-induced mortality and migration costs that the social cost of carbon understates.
+The foreclosure component, for coal burned in any era after viable renewable substitutes existed, is a minimum of five hundred and ten dollars per ton — and that is before option value, before ecosystem service losses from atmospheric warming, before the climate-induced mortality and migration costs that the social cost of carbon understates.
 
-Conservative floor across four components: five hundred and fifty to five hundred and seventy dollars per ton.
+Conservative floor across four components: five hundred and eighteen to five hundred and thirty-two dollars per ton.
 
 ---
 
@@ -151,7 +151,7 @@ Running the total at the low end of every component:
 
 - Community Disruption: $5
 
-- Foreclosure: $544
+- Foreclosure: $510
 
 - Lineage Labor: $2
 
@@ -161,11 +161,11 @@ Running the total at the low end of every component:
 
 - Temporal Displacement: $2
 
-Total: $558 per ton.
+Total: $524 per ton.
 
 Against a 1960 market price of four to five dollars. Against a market price of $40 to $140 today, depending on grade. Against every price coal has ever sold for.
 
-The Intergenerational Pricing Gap — the ratio of honest price to market price — for McDowell County coal sits somewhere between thirty-three and one hundred and twenty-two times the 1960 sale price, depending on which cost categories the accounting admits and which social cost of carbon anchor it uses. Even at today's higher market prices ($40 to $140 per ton depending on grade), the carbon term alone exceeds the market price by a factor of at least four. The structural finding holds across every era the industry has operated: the honest cost of a ton of McDowell County coal has always exceeded what the market paid for it, often by more than two orders of magnitude.
+The Intergenerational Pricing Gap — the ratio of honest price to market price — for McDowell County coal sits somewhere between thirty-three and one hundred and twenty-two times the 1960 sale price, depending on which cost categories the accounting admits and which social cost of carbon anchor it uses. Even at today's higher market prices ($40 to $140 per ton depending on grade), the carbon term alone exceeds the market price by a factor of at least three. The structural finding holds across every era the industry has operated: the honest cost of a ton of McDowell County coal has always exceeded what the market paid for it, often by more than two orders of magnitude.
 
 ---
 
@@ -235,7 +235,7 @@ This book's job is to make the invisible visible. Chapter 1 through Chapter 8 ha
 
 These questions presuppose the framework this book establishes. Their pursuit belongs to policy-makers, scholars, communities, and political coalitions who carry the framework's vocabulary into specific implementation contexts. The framework cannot do that work itself. What honest accounting at civilizational scale would reveal — when it is performed by those who do that work, in time and on terms not legislated by these pages — is not a catastrophe but a better, more stable, more resilient economy with a floor beneath it.
 
-For now, what this chapter gives the reader is the one worked example: a ton of coal, priced honestly, at a floor of roughly five hundred and fifty-eight dollars. The gap between that number and the four-to-five-dollar invoice is the severed cost. The invoice is what McDowell County was paid. The severed cost is what McDowell County bore.
+For now, what this chapter gives the reader is the one worked example: a ton of coal, priced honestly, at a floor of roughly five hundred and twenty-four dollars. The gap between that number and the four-to-five-dollar invoice is the severed cost. The invoice is what McDowell County was paid. The severed cost is what McDowell County bore.
 
 The next two chapters return to what that means, for McDowell County, for the waterman, for the reader's own life, and for the century ahead.
 

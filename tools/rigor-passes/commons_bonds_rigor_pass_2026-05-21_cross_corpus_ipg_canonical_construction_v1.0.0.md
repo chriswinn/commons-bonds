@@ -258,6 +258,8 @@ Three Ch 8 touches + one inventory annotation. Apply in a single atomic Phase C 
 
 No Ch 2 or Ch 6 prose changes required for this decision. Single-file-plus-inventory atomic commit; lowest Phase C application risk.
 
+**Post-reconciliation annotation (added 2026-05-23):** The Ch 8 worked-example honest-cost floor moved from $558 → $524 per the 2026-05-22 coal-CO₂ methodology reconciliation (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_ch6_ch8_ta_coal_co2_short_ton_methodology_reconciliation_v1.0.0.md`, §6.1 Option C ratified 2026-05-23 — McDowell-specific Pocahontas-seam basis). The 33–122× canonical lock is unaffected: $524 / $4.50 = 116×, which lands inside the canonical range. The Ch 8 prose changes at lines 168, 74, 212 ratified in this artifact's §5.1 remain canonical; the underlying floor figure that anchors the carbon-tail-dominance arithmetic at lines 74 + 168 retreats from "at least four" to "at least three" per the reconciliation's coupling note (computation: $510/$140 = 3.64×, conservative rounding to "at least three").
+
 ### §6.2. Bundling opportunities
 
 The parent audit cross-references two other findings whose Phase C application may bundle with this one:
