@@ -503,3 +503,43 @@ Pass 2 (Voice-polish) + Pass 3 (Audience-load) still required for full Phase A c
 ---
 
 *End of Pass 1 (Fact-check) for Chapter 10. Pass 2 (Voice-polish) + Pass 3 (Audience-load) deliverables to be produced in subsequent sessions per workstream #20 phasing.*
+
+---
+
+## Ratification record (open; updated 2026-05-21)
+
+Per-finding ratifications + applied edits, recorded as they close. Updated incrementally as the in-session conversation works through each open item.
+
+### M-4 — RATIFIED + APPLIED 2026-05-21
+
+**Author ratification:** Option D (refined hybrid) — with "**work**" replacing "title" in the parenthetical, after close-reading discussion of "title" vs "job" vs "work."
+
+**Rationale (author-surfaced):** "Title" carries white-collar / corporate-ladder connotation that miscolors the portrait of the grandfather — a man with a brilliant mind and calloused hands who built elegant solutions to hard problems. "Job" carries some of the same HR-flavor. "Work" sits in the humble craft-identity register the grandfather actually inhabited, and resonates with the chapter's own opening leitmotif ("the sound of men going to work" — Ch 10:10).
+
+**Cross-corpus scope (author-ratified):** The portrait-fit reasoning applies equally to Ch 1:30 + AuthorsNote:11 (the other two sites where "a title he was proud of" appears). Sweep all three sites for corpus consistency.
+
+**Phase C application — applied 2026-05-21 in same session per CLAUDE.md merge-to-main discipline (author-ratified content changes autonomously fast-forward to main):**
+
+1. ✅ **Chapter_10_CommonBonds.md:38** — replaced "He worked with the people who ran the wind tunnels, and among them the people they called model makers — men who built scale-model aircraft..." with "He worked in the wind tunnels as a model maker — work he was proud of — building scale-model aircraft out of wood and metal and resin with a precision that now sounds impossible, so that when the models were put into the tunnel the air moving around them would tell the truth about the full-size aircraft that did not yet exist." Applied. *(Anchors grandfather AS a model maker per M-4 fix; preserves materials + precision detail load-bearing for downstream :40 + :42; uses "work" per author-surfaced portrait-fit reasoning; drops redundant "at Langley" already established by prior sentence.)*
+
+2. ✅ **Chapter_10_CommonBonds.md:40** — replaced "The job he did required a kind of honesty..." with "What he did required a kind of honesty..." Applied. *(Adjacent cleanup coupled to M-4; removes "job" HR-flavor from the paragraph for portrait-fit consistency; avoids tripling "work" repetition in the same paragraph since :40 already has "grandfather's work" and "the work itself.")*
+
+3. ✅ **Chapter__1_TheQuietMath.md:30** — replaced "He was a model maker in the wind tunnels — a title he was proud of — and an inventor with his name in the patent record." with "He was a model maker in the wind tunnels — work he was proud of — and an inventor with his name in the patent record." Applied. *(Cross-chapter sweep for corpus consistency on the canonical model-maker phrase; matches author-surfaced portrait-fit reasoning.)*
+
+4. ✅ **_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md:11** — replaced "My grandfather worked at NASA Langley as a model maker — a title he was proud of — and an inventor whose name is in the patent record." with "My grandfather worked at NASA Langley as a model maker — work he was proud of — and an inventor whose name is in the patent record." Applied. *(Same sweep; corpus consistency.)*
+
+**Cross-chapter coherence verified post-application:** All three "model maker — work he was proud of" sites now coordinate. M-4's original divergence (Ch 10's softer syntax vs Ch 1 + AuthorsNote's stronger "He was a model maker" anchor) resolved — Ch 10:38 now anchors him AS a model maker explicitly. Inventory row at line 75 ("Pou / Pooh (author's grandfather etymology)") will need a refresh at next cross-chapter consistency-inventory revision (line numbers were already stale before this edit; portrait-fit phrase change is one more inventory housekeeping item).
+
+---
+
+### Open items pending ratification (as of 2026-05-21)
+
+- **M-1** (Black Hills compensation amount) — Author ratified Option A ("more than one and a half billion") on first walkthrough. **Application pending**; couples to L-1.
+- **M-5** (six cost-hiding patterns framing) — Author ratified Option A (combined sub-cases) on first walkthrough. **Application pending.**
+- **L-2** (chapter-end-marker inventory drift) — Inventory housekeeping; application at next inventory revision.
+- **L-3** (Lakota row inventory line-cite) — Inventory housekeeping; couple to M-1.
+- **M-2** (wife near-death) — Author flagged for prose review (clunky/flat); accuracy confirmation also pending. **Deferred to Pass 2 voice-polish bundle.**
+- **M-3** (four-industry career list) — Same: prose review + accuracy confirmation. **Deferred to Pass 2.**
+- **L-4** (nursing-student framing) — Same: prose review + accuracy confirmation. **Deferred to Pass 2.**
+- **L-1** (forty-five years temporal currency) — Author flagged temporal-currency principle (year-counted figures stale every year except publication). My recommendation: "for more than four decades" (couples to M-1). **Awaiting author response.**
+- **Ch 10:22 "roughly my age"** — Open question: flag as LOW-5, defer to Pass 2, or leave alone. **Awaiting author response.**

@@ -8,7 +8,7 @@ By Chris Winn
 
 ## Author's Note: On Wind Tunnels and AI
 
-My grandfather worked at NASA Langley as a model maker — a title he was proud of — and an inventor whose name is in the patent record. He filed under L. E. Winn — family and colleagues called him only Pooh.
+My grandfather worked at NASA Langley as a model maker — work he was proud of — and an inventor whose name is in the patent record. He filed under L. E. Winn — family and colleagues called him only Pooh.
 
 Model-making at Langley meant building scale aircraft and spacecraft components — wood, metal, resin, accurate to a thousandth of an inch — so the wind tunnel would tell the truth about full-size designs that did not yet exist. His patented work extended the same discipline beyond the tunnel: a tool bit for machining the resin-impregnated fiberglass laminates that went into spacecraft components, a zero-gravity liquid-waste feed system for crewed missions. The territory fed the lunar program. The discipline was specific. His tools and systems had to work in spaceflight, where reality is unforgiving and the cost of being wrong is borne by people who cannot recover from the error.
 
