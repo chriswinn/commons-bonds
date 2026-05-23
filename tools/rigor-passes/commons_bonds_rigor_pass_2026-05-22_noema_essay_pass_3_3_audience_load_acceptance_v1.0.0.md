@@ -2,7 +2,7 @@
 
 **Workstream:** Noema essay submission pipeline — Pass 3.3 (audience-load acceptance)
 **Date drafted:** 2026-05-22
-**Status:** PROPOSED. Pass 3.3 produces character-verdicts; no prose modification. Per pipeline doctrine v1.0.0 §3.7.1, Pass 3.3 is OUT of Amendment C scope (verification pass; doesn't directly propose prose — when findings recommend a spot-fix, that routes through Amendment C as a separate Stage 3 sub-action).
+**Status:** RATIFIED 2026-05-22. Pass 3.3 produces character-verdicts; no prose modification. Per pipeline doctrine v1.0.0 §3.7.1, Pass 3.3 is OUT of Amendment C scope (verification pass; doesn't directly propose prose — when findings recommend a spot-fix, that routes through Amendment C as a separate Stage 3 sub-action). Zero EXCLUDE / zero spot-fix routing; ratification closes the Pass 3.3 cycle with no follow-on Amendment C session needed. See §9 ratification record.
 **Mode:** Audit-existing-prose (post-Pass-3.2-application essay state is the audit baseline).
 **Source essay:** [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) — **149 lines** (post-Pass-3.2-application state; commit `98b8274` 2026-05-22; verified against `origin/main`).
 
@@ -586,4 +586,19 @@ Per pipeline doctrine §3.7.1 + v3.1 per-prompt serial cadence:
 
 ---
 
-*End of Pass 3.3 audience-load acceptance artifact (PROPOSED). Auto-merges to main per CLAUDE.md rigor-pass-artifact default. Pass 3.4 audience-load robustness fires next per v3.1 per-prompt serial cadence (separate session).*
+## §9. Author ratification record (2026-05-22)
+
+Author ratified Pass 3.3 verdict 2026-05-22 during Pass-3.5-gating decision session. Ratification covers:
+
+- **Aggregate verdict accepted: 14/14 INCLUDE; READY TO SUBMIT (acceptance test).** No EXCLUDE; no spot-fix routing to Amendment C.
+- **Per-character verdicts accepted as recorded.** The two ✓ INCLUDE verdicts (Coasean economist #8 + Indigenous readers #10) accepted as honest analytical-scope limits not actionable at essay-scope.
+- **Carry-forward items accepted for Stage 5 / book-scope:**
+  - Indigenous-frame engagement gap (character #10) → book-scope opportunity (BOOK-side Bay chapter or AuthorsNote + `research/literature/working-notes` engagement); not Pass 3.5 scope.
+  - F-V-Noema-14 cumulative em-dash + cumulative-cadence-stack flag → Pass 3.5 carry-forward (confirmed pre-Pass-3.5 carry).
+  - F-FC-Noema-9 Norway fund value submission-window re-verification → submission-window-gated.
+
+**Ratification closes Pass 3.3 cycle.** Pass 3.4 audience-load robustness verdict (PROPOSED 2026-05-22) ratified in same session. Pass 3.5 developmental-edit fires next per v3.1 per-prompt serial cadence (separate session; Amendment C scope).
+
+---
+
+*End of Pass 3.3 audience-load acceptance artifact. RATIFIED 2026-05-22. Pass 3.5 developmental-edit fires next per v3.1 per-prompt serial cadence (Amendment C scope; restoration-polarity whole-essay lens).*

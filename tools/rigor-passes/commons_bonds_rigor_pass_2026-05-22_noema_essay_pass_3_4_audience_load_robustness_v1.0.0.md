@@ -2,7 +2,7 @@
 
 **Workstream:** Noema essay submission pipeline — Pass 3.4 (audience-load robustness)
 **Date drafted:** 2026-05-22
-**Status:** PROPOSED. Pass 3.4 produces thread-pull-synthesis + robustness verdict; no prose modification. Per pipeline doctrine v1.0.0 §3.7.1, Pass 3.4 is OUT of Amendment C scope (verification pass; doesn't directly propose prose).
+**Status:** RATIFIED 2026-05-22. Pass 3.4 produces thread-pull-synthesis + robustness verdict; no prose modification. Per pipeline doctrine v1.0.0 §3.7.1, Pass 3.4 is OUT of Amendment C scope (verification pass; doesn't directly propose prose). CONDITIONALLY ROBUST verdict ratified; 5 pre-publication review queue acknowledgments accepted as carry-forward to Stage 5 sign-off bookend. See §9 ratification record.
 **Mode:** Audit-existing-prose (post-Pass-3.2-application essay state is the audit baseline; same baseline as Pass 3.3).
 **Source essay:** [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) — **149 lines** (post-Pass-3.2-application state; commit `98b8274` 2026-05-22).
 
@@ -342,4 +342,24 @@ Per pipeline doctrine §3.7.1 + v3.1 per-prompt serial cadence:
 
 ---
 
-*End of Pass 3.4 audience-load robustness artifact (PROPOSED). Auto-merges to main per CLAUDE.md rigor-pass-artifact default. Pass 3.5 developmental-edit fires at explicit-gate per v3.1 Amendment A (pre-publication trigger / venue change / cross-chapter workstream close / author "build it now" / "developmental read-through"). Stage 5 sign-off bookend at submission-gate.*
+## §9. Author ratification record (2026-05-22)
+
+Author ratified Pass 3.4 verdict 2026-05-22 during Pass-3.5-gating decision session. Ratification covers:
+
+- **Aggregate verdict accepted: CONDITIONALLY ROBUST.** No structural revision needed at essay-scope; no cross-chapter workstream spin-up needed (Public Choice rent-seeking-engagement already RESOLVED at Ch 1 REAUDIT §5.3 cross-chapter workstream per book-side carry).
+- **Thread-pull synthesis accepted as recorded.** Eight threads identified: 5 load-bearing essay claims (chapter holds via structural moves at lines 65 / 69 / 87 / 147 + Section IV not-to-scold disclaimer); 2 mixed; 3 procedural / mixed.
+- **Five pre-publication review queue acknowledgments accepted as carry-forward to Stage 5:**
+  1. Rent-seeking-analysis gap (T1) — essay-scope-deferred; book-side covers via Ch 5 / Ch 9 / Tech Appendix / Ch 8 / Bibliography §22.
+  2. Norway-oil-irony (T3b) — essay's frame is fiscal-rule-discipline-as-architecture, not petroleum-extraction-as-model.
+  3. Healthcare cost-severance outlier-vs-systemic question (T2) — Daraprim verified outlier per Pass 3.1; book-side healthcare cost-severance treatment engages industry-typical-vs-outlier question.
+  4. Mondragon's complications (T7) — essay's "not perfect / is operating" framing is essay-scope-appropriate; book-side treats limitations at depth.
+  5. Bay species climate-attribution (T5) — Colden quote verbatim public-record; reporting discipline faithful to source.
+- **Industry-funded adversarial reads (A2 / A3 / A4) accepted as not-chapter-disarmable.** Reception-cycle mitigation via comp-cluster review network handles residual.
+
+**Stage 5 readiness reaffirmed:** Pass 3.4 CONDITIONALLY ROBUST + Pass 3.3 14/14 INCLUDE + Pass 3.2 + Pass 3.1 RATIFIED + APPLIED = essay on track for Stage 5 sign-off bookend at submission-gate.
+
+**Ratification closes Pass 3.4 cycle.** Pass 3.5 developmental-edit fires next per author's explicit-gate trigger (per v3.1 Amendment A — pre-publication trigger).
+
+---
+
+*End of Pass 3.4 audience-load robustness artifact. RATIFIED 2026-05-22. Pass 3.5 developmental-edit fires next per v3.1 per-prompt serial cadence + Amendment A explicit-gate (author "build it now" / pre-publication trigger). Stage 5 sign-off bookend at submission-gate after Pass 3.5 settles.*
