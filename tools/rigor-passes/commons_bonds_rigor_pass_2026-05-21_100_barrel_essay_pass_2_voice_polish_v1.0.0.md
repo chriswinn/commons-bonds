@@ -1,6 +1,12 @@
 # $100 Barrel Essay — Pass 3.2 Voice-Polish Rigor Pass v1.0.0 — 2026-05-21
 
-**Status:** PROPOSED. Pass 3.2 voice-polish artifact for Draft A (post Pass 3.1 Phase C application; commit `cf5db97` 2026-05-21). Author ratification + Phase C application is a separate session per v3.1 per-prompt serial cadence.
+**Status:** PROPOSED (Amendment A applied 2026-05-23). Pass 3.2 voice-polish artifact for Draft A (post Pass 3.1 Phase C application; commit `cf5db97` 2026-05-21). Author ratification + Phase C application is a separate session per v3.1 per-prompt serial cadence.
+
+**Amendment A — 2026-05-23.** Two updates in one batch:
+1. **F-VP-Barrel-3 SUPERSEDED** by interactive sentence-craft spot-fix at essay commit `6a3da83` (on `main` 2026-05-23). The §III close passage has been materially expanded (from ~40w "Each X-ing" rule-of-three to ~110w four-domain decomposition + orthodox-model gap + cost-severance close); the original F-VP-Barrel-3 recommendation (flatten "Each X-ing" to comma-joined clause) is moot. See §1 F-VP-Barrel-3 for the canonical record + supersession marker.
+2. **F-VP-Barrel-7 ADDED** — two em-dash appositions in the newly-applied §III passage flagged for follow-up punctuation tightening (colon + dropped apposition). Author queued this as F-VP-Barrel-7 at apply-time for standard Phase C ratification alongside other Pass 3.2 items. See §1 F-VP-Barrel-7.
+
+Active-findings count post-Amendment-A: 1 HIGH + 3 MEDIUM + 2 LOW (= 6 active; F-VP-Barrel-3 retained in document but not counted in active totals).
 
 **Audit target:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md) (Draft A; 4,088w post-Pass-3.1-Phase-C; on `main` commit `cf5db97`).
 
@@ -95,7 +101,9 @@ Proposed:
 
 ---
 
-### F-VP-Barrel-3 — §III close rule-of-three "Each X-ing" pattern — MEDIUM
+### F-VP-Barrel-3 — §III close rule-of-three "Each X-ing" pattern — MEDIUM — **SUPERSEDED 2026-05-23**
+
+**Supersession marker (Amendment A):** This finding is **MOOT** as of essay commit `6a3da83` (on `main` 2026-05-23). The §III close passage at line 116 was interactively workshopped with the author and replaced with a materially expanded ~110w passage that does not contain the "Each X-ing" rule-of-three this finding targeted. The new passage is logged in the essay file's header under "Interactive Pass 3.2 sentence-craft spot-fix (2026-05-23)." The follow-up em-dash question raised by the new passage is captured as **F-VP-Barrel-7** (see below). The original F-VP-Barrel-3 finding is preserved verbatim below for audit-trail completeness.
 
 **Location:** §III closing summary (line 116).
 
@@ -187,6 +195,32 @@ Proposed:
 
 ---
 
+### F-VP-Barrel-7 — §III close (post-2026-05-23-spot-fix) em-dash appositions — MEDIUM
+
+**Location:** §III closing passage (line 116; revised 2026-05-23 commit `6a3da83`). Added per Amendment A 2026-05-23 as follow-up to the interactive sentence-craft spot-fix that superseded F-VP-Barrel-3.
+
+**Verbatim current text (post-spot-fix):**
+> Four traditions: Marx, Ostrom, Daly, Hartwick. Each addressed part of what economics is for — who labors, who governs the commons, who lives inside the biosphere, who inherits what is left. None priced permanent foreclosure. And neither does the everyday model the rest of us reason inside — supply and demand at the moment of sale. Supply and demand clears the transaction between the parties present at it. Permanent foreclosure is not present at the moment of sale; the generation that pays for it is not seated at the table. The price clears without them. The decision gets made. The bill comes due in their lifetimes rather than ours.
+
+**Finding:** Two em-dashes in a single newly-applied passage, both performing apposition:
+1. "what economics is for — who labors, who governs the commons, who lives inside the biosphere, who inherits what is left" — introduces a four-domain list defining the antecedent phrase. Substitutable with a colon (more rigorous punctuation for introducing a defining list at the PW house-style register).
+2. "the everyday model the rest of us reason inside — supply and demand at the moment of sale" — names the antecedent ("the everyday model") via inline apposition. The next sentence ("Supply and demand clears the transaction between the parties present at it") names supply-and-demand explicitly, making the apposition redundant.
+
+Stage 1 brief §5 flags "em-dash crutches" with the "not X — instead Y" cadence as the canonical bad pattern. These two are NOT that pattern — they are appositions — but the spot-fix raised the body em-dash count from ~13 to ~15 across ~4,159w (~1 per 277w). Borderline; tightenable.
+
+**Proposed correction (verbatim replacement prose):**
+> Four traditions: Marx, Ostrom, Daly, Hartwick. Each addressed part of what economics is for: who labors, who governs the commons, who lives inside the biosphere, who inherits what is left. None priced permanent foreclosure. And neither does the everyday model the rest of us reason inside. Supply and demand clears the transaction between the parties present at it. Permanent foreclosure is not present at the moment of sale; the generation that pays for it is not seated at the table. The price clears without them. The decision gets made. The bill comes due in their lifetimes rather than ours.
+
+(Em-dash #1 → colon. Em-dash #2 → dropped; the naming-apposition is redundant because the next sentence already names supply-and-demand. Net change: -2 em-dashes; ~-7 words; body word count 4,159w → ~4,152w. Zero substantive content change.)
+
+**Alternative correction (preserve em-dashes; no change):** Leave the passage verbatim. The em-dashes are appositions, not "not X — instead Y" crutches, so they technically pass the Stage 1 brief §5 test. The cumulative body em-dash density (~1 per 277w) is borderline but within reasonable PW-essay range. Pass 3.2 original audit found 11 em-dashes pre-spot-fix and judged them clean; the spot-fix added 2, bringing the count to ~13 in the §III-revised body (the §2 Verified-clean bullet has been updated under Amendment A to reflect the new count). Author disposition.
+
+**Cross-pass impact:** No Pass 3.1 fact-check impact. No Pass 3.3 acceptance impact (passage's analytical content is identical either way; the dispositive Tier 1 #3 center-right policy reader test is unaffected by punctuation choice). No Pass 3.4 robustness impact (Condition 1 disarming + structural cost-severance move both preserved verbatim under either correction). No Pass 3.5 developmental-edit conflict — em-dash-to-colon swap is pure punctuation chiseling, not a content collapse that Pass 3.5 would want to restore.
+
+**Context:** F-VP-Barrel-7 is a follow-up to the 2026-05-23 interactive Pass 3.2 spot-fix (essay commit `6a3da83`) that superseded F-VP-Barrel-3. The em-dashes in the newly-applied passage were flagged to the author at apply-time and queued (per author direction) for standard Phase C ratification alongside the other Pass 3.2 items. Phase C-β grouping recommended.
+
+---
+
 ## 2. Verified clean (no findings; logged for completeness)
 
 The following Stage 1 brief §5 LLM-tic patterns were scanned and **not found** in Draft A:
@@ -195,7 +229,7 @@ The following Stage 1 brief §5 LLM-tic patterns were scanned and **not found** 
 - ✅ "I want to be clear…" / "Let me be specific…" throat-clearing — only F-VP-Barrel-4's "I want to name what I am doing here" (flagged separately).
 - ✅ Nostalgia register ("There are not many people like that anymore") — NONE.
 - ✅ Sermonic register ("What is at stake here is…") — NONE.
-- ✅ Em-dash crutches ("not X — instead, Y") — NONE. Em-dashes appear 11 times across the body; all are parenthetical use (PW house-style normal); no "not X — instead Y" cadence.
+- ⚠️ Em-dash crutches ("not X — instead, Y") — NONE of the canonical "not X — instead Y" cadence found in the body. **However (Amendment A 2026-05-23):** the 2026-05-23 interactive §III spot-fix (essay commit `6a3da83`) added 2 em-dash appositions to the §III closing passage, raising the body em-dash count from ~11 (pre-spot-fix; Pass 3.2 original-audit count) to ~13 across 4,159w (~1 per 320w; borderline but within PW-essay range). The 2 new appositions are flagged under **F-VP-Barrel-7** as a follow-up tightening item (colon + dropped apposition; -2 em-dashes if applied). The remaining ~11 em-dashes are parenthetical / apposition usage and remain verified clean as non-crutch. No "not X — instead Y" cadence anywhere in the body, before or after spot-fix.
 - ✅ §VI "constitutional in a way nothing else has been" — flagged in comparative audit §8.3 as the most-quotable line; **preserved verbatim** in Draft A line 166 ("...the principle that the resource's revenue belongs to the future rather than to the present has been treated as constitutional in a way nothing else has."). Voice-polish discipline is to leave this alone; verified clean.
 - ✅ Locked register-anchors per Stage 1 brief §8 — preserved verbatim in §VI ¶7 (line 174): "What I am calling for, then, is not revolution. I do not think revolution solves this." and the "not a left-wing argument. It is not a right-wing argument. It is a principle of honest dealing" framing.
 - ✅ Sentence-length variance — adequate. Mix of 4–6 word punches ("The price is for the present.", "Nigeria did not.", "The choice is the thing.") and 25–35 word longer-analytical sentences (Stern paragraph, Hartwick paragraph). Read-aloud test passes.
@@ -209,8 +243,9 @@ The following Stage 1 brief §5 LLM-tic patterns were scanned and **not found** 
 | Severity | Count | Findings |
 |---|---|---|
 | HIGH | 1 | F-VP-Barrel-1 ("It is not X. It is Y." cadence over-density, 6 instances → 3 post-fix) |
-| MEDIUM | 3 | F-VP-Barrel-2 (§II three-fold "may" triplet); F-VP-Barrel-3 (§III close "Each X-ing" rule-of-three); F-VP-Barrel-4 (§IV "I want to name what I am doing here" softening per comparative audit §8.3) |
+| MEDIUM | 3 active | F-VP-Barrel-2 (§II three-fold "may" triplet); F-VP-Barrel-4 (§IV "I want to name what I am doing here" softening per comparative audit §8.3); F-VP-Barrel-7 (§III post-spot-fix em-dash appositions → colon + dropped apposition; Amendment A 2026-05-23) |
 | LOW | 2 | F-VP-Barrel-5 (§I Hotelling gloss compression per comparative audit §8.3); F-VP-Barrel-6 ("the work of decades" refrain — Option (a) preserve recommended) |
+| SUPERSEDED | 1 | F-VP-Barrel-3 (§III close "Each X-ing" rule-of-three) — MOOT per Amendment A 2026-05-23; superseded by interactive sentence-craft spot-fix at essay commit `6a3da83` |
 
 ### 3.2 Phase C-α (HIGH; load-bearing)
 
@@ -220,7 +255,8 @@ The following Stage 1 brief §5 LLM-tic patterns were scanned and **not found** 
 
 2. **F-VP-Barrel-4** — §IV "I want to name what I am doing here" → "Notice the move." Preserves Condition 1 disarming visibility; softens throat-clearing register.
 3. **F-VP-Barrel-2** — §II three-fold "may" parallel → two-clause + one-standalone.
-4. **F-VP-Barrel-3** — §III close "Each X-ing" rule-of-three → comma-joined parallel-clause sentence.
+4. ~~**F-VP-Barrel-3**~~ — **SUPERSEDED 2026-05-23** by interactive sentence-craft spot-fix at essay commit `6a3da83`. No Phase C-β application required.
+5. **F-VP-Barrel-7** (Amendment A 2026-05-23) — §III post-spot-fix passage em-dash appositions → colon for em-dash #1 + drop redundant apposition for em-dash #2. Pure punctuation chiseling; -2 em-dashes; ~-7 words.
 
 ### 3.4 Phase C-γ (LOW; optional sharpening)
 
@@ -233,10 +269,11 @@ The following Stage 1 brief §5 LLM-tic patterns were scanned and **not found** 
 |---|---|---|---|---|
 | F-VP-Barrel-1 | No | Marginal lift (Tier 3 #16 working-class reader; #18 first-gen reader; less academic cadence) | No | No |
 | F-VP-Barrel-2 | No | Marginal lift (Tier 1 #1 PW editorial; Tier 3 #18 first-gen) | No | No |
-| F-VP-Barrel-3 | No | Same as #2 | No | No |
+| ~~F-VP-Barrel-3~~ | SUPERSEDED 2026-05-23 — see F-VP-Barrel-7 + §III spot-fix commit `6a3da83` | — | — | — |
 | F-VP-Barrel-4 | No | Preserved Condition 1 + softened throat-clearing — net positive across Tier 1 + Tier 3 | Preserved A4 disarming | No |
 | F-VP-Barrel-5 | No | Marginal lift (Tier 3 #18 first-gen) | No | No |
 | F-VP-Barrel-6 | No | Negligible (Option a default) | No | No |
+| F-VP-Barrel-7 (Amendment A 2026-05-23) | No | Negligible (passage's analytical content identical either way) | No (Condition 1 disarming + cost-severance close preserved verbatim) | No (punctuation chiseling, not content collapse) |
 
 **No Pass 3.1 fact-check impact across any finding.** All corrections are voice-craft surgical; no factual claims touched.
 
@@ -264,15 +301,16 @@ Pass 3.2 voice-polish applied per template §"Audit-existing-prose mode." Each s
 
 ### 4.2 Polarity discipline observed
 
-Per pipeline doctrine §3.6.2 — Pass 3.2 polarity is **chiseling (cuts / collapses / softens)**, not restoration. All six findings are reduction-type:
+Per pipeline doctrine §3.6.2 — Pass 3.2 polarity is **chiseling (cuts / collapses / softens)**, not restoration. All findings are reduction-type:
 - F-VP-Barrel-1 collapses 3 cadence instances
 - F-VP-Barrel-2 collapses 1 triplet
-- F-VP-Barrel-3 collapses 1 triplet
+- ~~F-VP-Barrel-3~~ — SUPERSEDED 2026-05-23 (the 2026-05-23 interactive spot-fix did remove the rule-of-three, but the supersession-replacement is net-expansion, not reduction; that expansion is logged separately in the essay file header and does not alter Pass 3.2's overall reduction polarity since it was workshopped outside the rigor-pass framework).
 - F-VP-Barrel-4 softens 1 throat-clearing instance
 - F-VP-Barrel-5 compresses 1 parenthetical (2 words)
 - F-VP-Barrel-6 author-disposition (recommended preserve; no cut)
+- F-VP-Barrel-7 (Amendment A 2026-05-23) — punctuation chiseling: -2 em-dashes; ~-7 words
 
-Net word-count impact post-Phase-C: estimated -25 to -35 words (4,088w → ~4,055w). Within target window.
+Net word-count impact post-Phase-C (excluding the §III interactive spot-fix, which is logged separately at +71w): estimated -32 to -42 words from active findings (4,159w post-§III-spot-fix → ~4,117–4,127w post-Phase-C). Within Stage 1 brief §10 target window (3,500–4,500w).
 
 ### 4.3 Condition 1 protection preserved across voice-polish
 
@@ -288,12 +326,13 @@ Per Stage 1 brief §8 locked elements:
 
 ### 4.5 Stage 1 brief §5 LLM-tic list — verified incidence
 
-This pass surfaced findings on three LLM-tic categories enumerated in Stage 1 brief §5:
-- ✅ Rule-of-three triplets — F-VP-Barrel-2 (§II three-fold "may"), F-VP-Barrel-3 (§III close "Each X-ing")
+This pass surfaced findings on four LLM-tic categories enumerated in Stage 1 brief §5 (one of them added under Amendment A 2026-05-23):
+- ✅ Rule-of-three triplets — F-VP-Barrel-2 (§II three-fold "may"); ~~F-VP-Barrel-3~~ (§III close "Each X-ing" — SUPERSEDED 2026-05-23 by interactive §III spot-fix)
 - ✅ "It is not X. It is Y." reversal cadence — F-VP-Barrel-1 (6 instances; collapse 3)
 - ✅ Throat-clearing — F-VP-Barrel-4 ("I want to name what I am doing here")
+- ⚠️ Em-dash appositions (Amendment A 2026-05-23) — F-VP-Barrel-7 (§III post-spot-fix passage; 2 em-dashes → colon + dropped apposition). NOT the canonical "not X — instead Y" crutch cadence, but a borderline density-elevation surfaced by the 2026-05-23 spot-fix.
 
-The other Stage 1 brief §5 categories (em-dash crutches; "in short / ultimately / fundamentally"; nostalgia; sermonic register) were scanned and verified clean (see §2 Verified clean).
+The other Stage 1 brief §5 categories ("in short / ultimately / fundamentally"; nostalgia; sermonic register) were scanned and verified clean (see §2 Verified clean).
 
 ---
 
@@ -342,11 +381,17 @@ The other Stage 1 brief §5 categories (em-dash crutches; "in short / ultimately
 Awaiting author ratification of:
 1. **F-VP-Barrel-1 three sub-corrections** (cadence collapse — §III ¶2 + §V ¶7 first + §VI ¶3).
 2. **F-VP-Barrel-2 correction** (§II three-fold "may" parallel collapse).
-3. **F-VP-Barrel-3 correction option selection** (moderate comma-joined vs aggressive two-sentence collapse).
+3. ~~F-VP-Barrel-3~~ — **SUPERSEDED 2026-05-23** (interactive sentence-craft spot-fix at essay commit `6a3da83`). No ratification required.
 4. **F-VP-Barrel-4 correction option selection** ("Notice the move." recommended vs substantive-disclaimer alternative).
 5. **F-VP-Barrel-5 disposition** (apply or hold).
 6. **F-VP-Barrel-6 option selection** (Option (a) preserve recommended / (b) vary §VI / (c) vary §Close).
-7. **Phase C session** spin-up after ratification.
+7. **F-VP-Barrel-7 disposition** (Amendment A 2026-05-23 — apply colon + dropped apposition, OR preserve em-dashes as-is per "alternative correction").
+8. **Phase C session** spin-up after ratification.
+
+**Amendment A 2026-05-23 ratification record:**
+- Pass 3.2 PROPOSED → Pass 3.2 PROPOSED (Amendment A applied) — no Phase C application yet.
+- F-VP-Barrel-3 superseded by author-ratified interactive §III sentence-craft spot-fix (essay commit `6a3da83`); Pass 3.2 artifact updated to mark SUPERSEDED while preserving the original finding for audit-trail completeness.
+- F-VP-Barrel-7 added as follow-up to the spot-fix; queued for standard Phase C ratification per author direction.
 
 ---
 
