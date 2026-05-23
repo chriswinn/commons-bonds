@@ -644,4 +644,59 @@ Per author's per-prompt scoping + v2.0 Amendment B distinct-pass discipline:
 
 ---
 
-*End of Ch 7 Stage-3 Pass 2 (Voice-Polish) rigor pass — PROPOSED 2026-05-21. Awaiting author ratification before Phase C-β spot-fix application. Pass 3 (audience-load) is the next session for this chapter after Phase C-β application.*
+## §11. Ratification record (closed 2026-05-21)
+
+Author ratification of all 17 numbered findings + 2 §5.3 apparatus-form questions completed 2026-05-21 via interactive disposition walkthrough ("ratify all as recommended"). All 19 decisions ratified per Pass-2 recommendations.
+
+### §11.1 Findings ratified for Phase C-β application (5 chapter edits)
+
+| ID | Disposition | Edit summary |
+|---|---|---|
+| §5.3 Abundance Masking | **Option C** (compromise) | Ch 7:121 — change bolded definition heading `**Abundance masking.**` → `**Abundance Masking.**` (Title-case framework term per terms_index). Theorem 10.3 (Abundance Masking) cross-reference at Ch 7:121 **UNCHANGED** per session hard constraint (already Title-case + matches current Tech Appendix v2.0.0 numbering). Line 123 italicized lowercase `*abundance masking*` term-defense uses + lines 125, 129, 131 continuing-prose plain lowercase paraphrases all **UNCHANGED** (italics-for-term-emphasis + continuing-prose lowercase paraphrase contexts preserved). Net: single bolded-heading capitalization touch at line 121. |
+| §5.3 RCV first-occurrence | **Option A** | Ch 7:85 — add parenthetical `(RCV)` at first spelled-out occurrence: `…residual commons value approaches the market price…` → `…residual commons value (RCV) approaches the market price…`. Reader-courtesy first-introduction; preserves Sandel-hybrid case-walk discipline (Item 14) for subsequent acronym uses at lines 85 "lowest-RCV", 87 "low-RCV", 165 table header. |
+| F-V2 | **Option B** | Ch 7:21 — compress first three "It works on X" sentences to one compound: `It works on Mars. It works on asteroids. It works on comets.` → `It works on Mars, on asteroids, on comets.` (preserves extended fourth sentence `It works, with honest limits that the framework itself names, on worlds whose biospheres we do not fully understand.`). Drops four-fold anaphoric drumbeat at chapter-opening claim-site; preserves substantive scenario enumeration via comma-serial three-place. |
+| F-V11 | **Option B** | Ch 7:229 — compress sentences 3–4 of the five-sentence "It [verb]" framework-summary anaphora to one compound: `It agrees with market pricing where market pricing is correct. It diverges where market pricing is wrong.` → `It agrees with market pricing where market pricing is correct, and diverges where market pricing is wrong.` Drops to four anaphoric "It"s; preserves substantive five-behavior recap; direct Ch 9 F-V6 calibration. |
+| F-V17 | **Option B** | Ch 7:195 — recast awkward demonstrative-anaphora: `The objection is one this book takes seriously. It is also one the methodological literature took up long ago and answered.` → `The objection is one this book takes seriously, and one the methodological literature took up long ago and answered.` Single-sentence compound; drops awkward "It is also one" anaphora; preserves substantive transition into frictionless-plane defense. |
+
+### §11.2 Findings ratified as HOLD (no edit; substance-drives-length + cadence-as-content governs)
+
+| ID | Disposition | Rationale |
+|---|---|---|
+| F-V3 | **Hold (Option A)** | Line 45 five-fold "The X is Y" framework-recap — substantively earned cumulative-extremes payoff; the four-component framework-recap is the section's analytical anchor. |
+| F-V4 | **Hold (Option A)** | Lines 57–63 four-paragraph "Increase/Decrease the X" parameter-walk — cadence-as-content; the parallel form enacts the framework's structural-uniformity claim. |
+| F-V5 | **Hold (Option A)** | Lines 65 + 67 paired "Extract freely" / "Extract only with extreme accountability" closers — paired mirror-rhetoric is the parameter-convergence/divergence demonstration. |
+| F-V6 | **Hold (Option A)** | Lines 87 + 89 paired three-element scenario closers — cross-paragraph paired-opposite-cadence is rhetorically earned. |
+| F-V7 | **Hold (Option A)** | Line 127 seven-fold "Free X" anaphora — substantively earned ambient-abundance enumeration; length-variance softens the strict cadence; each element names a distinct cost-hiding apparatus. |
+| F-V8 | **Hold (Option A)** | Line 131 six-fold "by collapsing X through Y" within-em-dash-pair anaphora — within-one-sentence form softens the named pattern; substantively earned policy-implication demonstration. |
+| F-V9 | **Hold (Option A)** | Line 217 three-sentence "The lord called it…" rule-of-three — comparative-historical demonstration earns the cadence; the "function is identical" follow-on frames as substantive payoff. |
+| F-V10 | **Hold (Option A)** | Line 219 five-fold "X is/was Y delivery vehicle" anaphora — substantively earned five-system comparative demonstration; cadence enacts the "mechanism finds whatever economic system" claim. |
+| F-V12 | **Hold (Option A)** | Line 235 three-imperative chapter-closer — direct Ch 1 F-V14 cousin (held in Ch 1 Phase C); chapter-closing rhetorical-pivot earns the named pattern. |
+| F-V13 | **Hold (Option A)** | Em-dash density cumulative pattern — direct Ch 9 F-V15 calibration; substance-drives-length; appositive-clarification discipline; no single instance is the named connective-tissue crutch. |
+| F-V14 | **Hold** | Reader-engagement device frequency (four instances) — deliberate chapter-architectural dialogic structure; each instance launches a substantive objection-and-response pair. |
+| F-V15 | **Hold (Option A)** | Line 37 "substitutability function" lowercase vs Title-case at line 139 — defensible plain-prose first-mention (line 37) vs formal-apparatus introduction (line 139) context distinction. |
+| F-V16 | **Hold** | Three "This is [thing]" expository near-tells (lines 77, 99, 175) — chapter-spine pivot moments; substantive transition work; none match verbatim named expository-flatness pattern. |
+| F-V18 | **Hold** | Within-sentence rule-of-three / serial enumerations chapter-wide — structurally different from cross-sentence declarative-three-in-a-row; each instance carries substantive enumeration value. |
+
+### §11.3 Phase C-β scope
+
+**5 prose edits to `manuscript/chapters/Chapter__7_OnOtherWorlds.md`** at lines:
+- **21** — F-V2 Option B (compress first three "It works on X" sentences to compound)
+- **85** — §5.3 RCV first-occurrence Option A (add `(RCV)` parenthetical)
+- **121** — §5.3 Abundance Masking Option C (Title-case bolded definition heading only; Theorem cross-reference unchanged per session hard constraint)
+- **195** — F-V17 Option B (recast awkward demonstrative-anaphora to compound sentence)
+- **229** — F-V11 Option B (compress sentences 3–4 of five-fold "It [verb]" to one compound)
+
+**Hard constraints carried into Phase C-β:**
+- Theorem 10.3 (Abundance Masking) cross-reference at Ch 7:121 must NOT be modified (matches current Tech Appendix v2.0.0 canonical numbering).
+- Aeon-overlap held passage at Ch 7:101 must NOT be modified (per MEDIUM-8 hold pre-Sun May 31 14:01 UTC fire window); none of the 5 ratified edits touch line 101.
+- Pass-1 fact-check post-Phase-C-α edits at lines 19, 33, 197, 213, 215, 241 must not be regressed; the 5 ratified Phase-C-β edits touch lines 21, 85, 121, 195, 229 — no overlap with Pass-1 edit lines.
+
+**Cross-corpus / paired edits:** None. No bibliography or Tech Appendix paired edits in scope. The §5.3 RCV parenthetical at line 85 is intra-chapter only (apparatus register Item 14 Sandel-hybrid does not require cross-chapter coordination on first-introduction parentheticals).
+
+Phase C-β session applies as single atomic commit; autonomously fast-forward merges to `main` per CLAUDE.md author-ratified-content-changes discipline.
+
+**After Phase C-β application: Pass 3 (audience-load) is the next session for Ch 7.** Pass-2-surfaced audience-load concerns at §6 + Pass-1 §7 audience-character set inventory are the canonical Pass-3 starting points.
+
+---
+
+*End of Ch 7 Stage-3 Pass 2 (Voice-Polish) rigor pass — RATIFIED 2026-05-21. Phase C-β spot-fix application is the next session for this chapter (5 prose edits at lines 21, 85, 121, 195, 229). Pass 3 (audience-load) follows after Phase C-β application.*
