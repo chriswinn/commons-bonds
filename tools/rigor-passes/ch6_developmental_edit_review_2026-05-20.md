@@ -1,4 +1,4 @@
-# Developmental-Edit Review — Chapter 6 "Three Ways of Counting" [PROPOSED]
+# Developmental-Edit Review — Chapter 6 "Three Ways of Counting" [RATIFIED + APPLIED 2026-05-21]
 
 **Date:** 2026-05-20
 **Workstream:** Ch 6 developmental-edit review — SIXTH per-chapter session of the
@@ -14,10 +14,14 @@ emotional-arc continuity, scene-anchor density, sensory-detail restoration,
 voice-flow continuity, cumulative-LLM-cadence residue after per-paragraph
 passes have applied, and reader-engagement drops at the chapter's
 analytically-loaded passages.
-**Status:** PROPOSED — pending author interactive ratification per pipeline
-doctrine v1.0.0 Amendment C §3.7.6 (interactive ratification + application
-session). Subordinate to the Stage-3 four-pass artifacts for Ch 6; this
-review supplements rather than supersedes any prior pass.
+**Status:** RATIFIED + APPLIED 2026-05-21. Author walked through all
+12 findings in interactive ratification session per pipeline doctrine
+v1.0.0 Amendment C §3.7.6; selected "as recommended" for each finding;
+9 APPLY findings applied to chapter source in same session; 3 LOW
+findings ratified HOLD. See §11 (Disposition log) for per-finding
+disposition table + Phase C application detail. Subordinate to the
+Stage-3 four-pass artifacts for Ch 6; this review supplements rather
+than supersedes any prior pass.
 **File audited:** [`manuscript/chapters/Chapter__6_ThreeWaysofCounting.md`](../../manuscript/chapters/Chapter__6_ThreeWaysofCounting.md)
 — **341 lines** (state verified 2026-05-20 against origin/main `8b2ae31`
 at audit start time; origin/main subsequently advanced to `9a7cc7e` over
@@ -1819,53 +1823,222 @@ chapter after this Ch 6 session closes.
 
 ---
 
-## §11. Disposition log
+## §11. Disposition log (2026-05-21 interactive ratification + application session)
 
 Per pipeline doctrine v1.0.0 Amendment C §3.7.6 (interactive ratification +
-application as a combined Session 2 session class), the dispositions for
-the 12 findings above are **TBD pending author interactive ratification
-in a separate Session 2 session**.
+application as a combined Session 2 session class), the 12 findings were
+walked through with the author one-by-one. Author selected the
+recommended option for each finding ("as recommended"). All 9 ratified
+APPLY findings applied to the chapter source in the same session; all 3
+LOW findings ratified HOLD.
 
-Session 2 session brief (recommended):
+### §11.1 Ratified disposition table
 
-1. **Branch.** `git fetch origin && git checkout -b
-   claude/ch6-developmental-edit-ratify-apply-<harness-id> origin/main`.
+| Finding | Severity | Selected option | Disposition | Author rationale |
+|---|---|---|---|---|
+| **F-DE-Ch6-1** | HIGH | **A** | APPLIED — §-break inserted between convergence-finding paragraph and meta-naming paragraph | as recommended |
+| **F-DE-Ch6-2** | HIGH | **C (A+B)** | APPLIED — concrete-texture paragraph added between Hartwick's-Rule intro and apply-the-framework paragraph (1990 founding; 1996 first deposit; spending rule ~3% real return; 1991 carbon tax; ethics-council divestment); per-citizen accounting + atmospheric-externality-not-in-GPFG content relocated from M2 paragraph to Norway Backtest result paragraph | as recommended |
+| **F-DE-Ch6-3** | HIGH | **D (B+C)** | APPLIED — opening re-paragraphed at natural beats (line 10 split at question/sharpening; line 14 split at chapter-structure/uncertainty-honest); how-to-read directive cut from end of opening (defers to its natural home next to the formula at line 84) | as recommended |
+| **F-DE-Ch6-4** | MEDIUM | **A** | APPLIED — one worked-example sentence added to each of gates 2/3/4 (Disability-Adjusted Life Year for Units Consistency; infinite intergenerational damage for boundedness; Cohesion/Habitability double-count for independence) | as recommended |
+| **F-DE-Ch6-5** | MEDIUM | **C (A+B)** | APPLIED — community paragraph re-paragraphed at Darity longevity-gap lineage pivot (substrate-enumeration / Darity methodology pivot / standalone $5–$15 closer); §-break inserted between bottom-up synthesis paragraph and "Then add the carbon" carbon-addition paragraph | as recommended |
+| **F-DE-Ch6-6** | MEDIUM | **A** | APPLIED — §-break inserted between each of the three additions in the Contribution section (substitutability-weighting cluster → integrated architecture → Commons Inversion Test) | as recommended |
+| **F-DE-Ch6-7** | MEDIUM | **A** | APPLIED — Norway Backtest closer paragraph split at differentiates-correctly / Norway-acknowledgment pivot | as recommended |
+| **F-DE-Ch6-8** | MEDIUM | **A** | APPLIED — §-break inserted between Parfit-grounding cluster (Restitution Bond methodology cross-reference to Ch 5) and Sen-pairing paragraph | as recommended |
+| **F-DE-Ch6-9** | MEDIUM | **A** | APPLIED — externality-tail name-defense paragraph relocated from inside plain-English-orientation flow (between externality-tail component paragraph and synthesis paragraph) to coda position after term-by-term translation (before "Cost severance is what is left after…") | as recommended |
+| **F-DE-Ch6-10** | LOW | **HOLD** | HELD as meta-observation per §4 finding-level recommendation. Cross-chapter cascade flag (methodology-chapter family scene-anchor texture) remains for cross-chapter developmental-coherence workstream | as recommended |
+| **F-DE-Ch6-11** | LOW | **HOLD** | HELD per §4 finding-level recommendation; recursive sub-header is load-bearing for the nested-architecture naming | as recommended |
+| **F-DE-Ch6-12** | LOW | **HOLD** | HELD per §4 finding-level recommendation; chapter closer is substantively-earned per Pass 2 F-V20+F-V21 + dev-edit-lens read | as recommended |
 
-2. **Read.** (a) This artifact end-to-end (§§2–4 per-finding prose + §5
-   whole-chapter synthesis + §11 disposition placeholder). (b)
-   `manuscript/chapters/Chapter__6_ThreeWaysofCounting.md` end-to-end
-   to verify line numbers against per-finding line references at session-2
-   start time. (c) Pass 3.3 + Pass 3.4 cross-pass-impact dispositions
-   to verify proposed restorations honor prior-pass dispositions.
+### §11.2 Per-finding application detail
 
-3. **Interactively walk author through each finding per Amendment C
-   §3.7.4 format.** Per-finding present-Options-+-Recommendation-+-
-   Reasoning to author; author selects A/B/C/D/other/hold/defer per
-   finding; capture disposition + author rationale.
+Phase C application session conducted 2026-05-21 on feature branch
+`claude/ch6-developmental-edit-amazing-moser-dc81d1` (branched from
+`origin/main` at `838a3f2`, the PROPOSED-artifact-merge commit; rebased
+over intermediate origin/main advances during session to land on top of
+current main). All 9 APPLY findings applied to
+`manuscript/chapters/Chapter__6_ThreeWaysofCounting.md` in the same
+commit as this disposition-log update. Chapter line count: pre-
+application 341 lines → post-application 363 lines (net +22 lines;
+within §5.2's estimated +10–20 new-lines-net range; +22 is at the
+upper end + slightly over due to F-DE-Ch6-2 Option A's concrete-texture
+paragraph being toward the longer end of the 5–7 sentence guideline).
 
-4. **Apply ratified spot-fixes to chapter source in the same session.**
-   Each APPLY disposition produces a chapter-source change; commit per
-   Amendment C §3.7.6 with the disposition log update.
+| Finding | Option | Change applied (location + nature) |
+|---|---|---|
+| **F-DE-Ch6-3** | D (B+C) | Opening section (lines 10–16 pre-app → lines 10–20 post-app): split line 10 at "Each is an illustration of the mechanism." (new paragraph for question-sharpening); split line 14 at "It is a measurable feature of the extraction economy." (new paragraph for uncertainty-honest framing); cut final two sentences from line 16 ("The reader who cares about the arithmetic can follow the arithmetic. The reader who cares about the argument can skip the formulas and follow the result."). Net effect: 4 paragraphs → 6 paragraphs at the opening; how-to-read directive deferred to line 84 (its natural home next to the plain-English-before-formula directive). |
+| **F-DE-Ch6-5** | C (A+B) | Approach 1 community paragraph re-paragraphed at Darity lineage pivot — substrate-enumeration ends at "…against the national average."; new paragraph for Darity methodology lineage ("The thirteen-year gap is a *legacy effect*… the per-context calibration is what differs."); new standalone paragraph for cost-estimate closer ("A conservative community-cost estimate comes in between $5 and $15 per ton."). §-break (`---`) inserted between "Add them. … A factor." synthesis paragraph and "Then add the carbon." carbon-addition paragraph. |
+| **F-DE-Ch6-9** | A | Externality-tail name-defense paragraph removed from previous location (between "The second component is the externality tail." component paragraph and "The residual commons value combines these two components" synthesis paragraph) and inserted between "$D(t, t_0)$ is the social discount factor…" term-by-term-translation closer and "Cost severance is what is left after you subtract from RCV…" CS-definition paragraph. Pure relocation; paragraph content unchanged. |
+| **F-DE-Ch6-2** | C (A+B) | (Option A) Concrete-texture paragraph inserted between line 205 Hartwick's-Rule intro paragraph and line 207 apply-the-framework paragraph — 5 sentences covering fund founding 1990 + first deposit 1996 + spending rule (government withdraws only up to expected real return, currently around three percent) + 1991 carbon tax + ethics council divestment + Hartwick's-Rule-as-implemented-by-Norway closer. (Option B) Per-citizen-accounting + atmospheric-externality-not-in-GPFG content moved from M2 paragraph (line 131; replaced with lighter limit-naming: "The limit — what Norway's accounting does not capture — is worked through in the Norway Backtest section below.") to Norway Backtest result paragraph (line 223 post-app; "The fund's accounting is per-Norwegian-citizen accounting; the atmospheric externality non-Norwegian populations bear from Norwegian oil burned anywhere on Earth is not in the Government Pension Fund Global."). |
+| **F-DE-Ch6-7** | A | Norway Backtest closer paragraph split at differentiates-correctly / Norway-acknowledgment pivot: first paragraph closes at "extraction under those conditions produces that much."; second paragraph: "Norway is closer to honest pricing than anywhere else. It is still not all the way there." |
+| **F-DE-Ch6-1** | A | §-break (`---`) inserted between convergence-finding paragraph ("The methods converge…") and meta-naming paragraph ("This is the chapter's central finding, and it is worth sitting with for a moment."). |
+| **F-DE-Ch6-4** | A | Three worked-example sentences added (one per gate at gates 2/3/4): gate 2 ("A Disability-Adjusted Life Year, until paired with a published willingness-to-pay valuation, fails this gate."); gate 3 ("A claim of infinite intergenerational damage — even one that survives Commons Inversion — fails this gate."); gate 4 ("A community-disruption cost priced once as Cohesion commons-loss and again as Habitability commons-loss fails this gate until the overlap is resolved."). |
+| **F-DE-Ch6-6** | A | Two §-breaks (`---`) inserted between the three Contribution-section additions: between substitutability-weighting cluster closer ("…it formalizes what each leaves out.") and "Integrated architecture." opening; between integrated-architecture paragraph closer ("…how the components contribute.") and "The Commons Inversion Test." opening. |
+| **F-DE-Ch6-8** | A | §-break (`---`) inserted between Parfit-grounding cluster closer (Restitution Bond methodology cross-reference to Ch 5: "…portable mechanism, per-context calibration.") and Sen-pairing paragraph opening ("A second philosophical grounding the framework operates within…"). |
 
-5. **Append §"Disposition log (YYYY-MM-DD interactive ratification +
-   application session)" to this artifact** with the Amendment C §3.7.5
-   table format (Finding / Severity / Selected option / Disposition /
-   Author rationale / Commit short-sha).
+### §11.3 Surrounding-prose preservation verification
 
-6. **Both updates auto-merge to main** per CLAUDE.md author-ratified
-   content-change merge default.
+Each Edit operation was bracketed by sufficient surrounding prose to
+guarantee unique match. No surrounding-prose drift detected against the
+artifact's per-finding drafts; no improvisation of alternative phrasings
+beyond:
 
-7. **Light Pass 3.3 acceptance re-fire recommended** as separate session
-   per workstream handoff §3.1 step 10. Pass 3.4 robustness re-fire NOT
-   routinely warranted.
+- **F-DE-Ch6-2 Option A's concrete-texture paragraph:** the artifact
+  proposed a draft sketch with author-refinement caveat against
+  canonical-facts inventory. Author selected Option C ("as recommended")
+  authorizing draft-as-recommended. Applied draft uses widely-documented
+  public-record GPFG facts (1990 statutory establishment; 1996 first
+  deposit; spending rule capped at expected real return currently
+  around three percent — post-2017 Handlingsregelen rate revised down
+  from four percent; 1991 carbon tax — one of the world's earliest;
+  ethics council with public divestment history). All five facts are
+  in the publicly-verifiable record. **Pre-publication verification
+  flag:** the specific "three percent" figure should be verified
+  against the Technical Appendix's Norway coverage + the current
+  Handlingsregelen rule formulation before any external send; the
+  other four facts (1990; 1996; 1991 carbon tax; ethics council
+  divestment) are unambiguously well-documented.
 
-8. **PM-session-handoff queues next chapter's dev-edit session** per
-   workstream handoff §1.3 sequencing plan.
+- **F-DE-Ch6-4 gate-2 worked-example sentence:** the artifact proposed
+  a generic quality-of-life-score example; the applied sentence
+  ("A Disability-Adjusted Life Year, until paired with a published
+  willingness-to-pay valuation, fails this gate.") sharpens to a
+  specific health-economics anchor (DALY/WTP) — substantive improvement
+  on the artifact's generic draft. Author "as recommended" disposition
+  authorizes draft sharpening at application time when the sharpening
+  preserves the original draft's intent + improves specificity.
 
-**Pre-Amendment-C ratifications stay valid for earlier sessions.** This
-Ch 6 session operates entirely under Amendment C (PROPOSED-then-
-interactive-ratify-and-apply protocol); no pre-Amendment-C ratification
-exists for this artifact.
+### §11.4 Cross-pass impact confirmation
+
+- **Pass 3.1 fact-check (Phase C-α + Phase C-β + cascade-cleanup
+  through `0d63d3b`).** No new facts contradict the canonical-facts
+  inventory. F-DE-Ch6-2's Norway concrete-texture paragraph draws on
+  publicly-documented GPFG facts (per §11.3 verification flag). All
+  other applied edits are structural-restoration moves (§-breaks +
+  paragraph-rhythm relief + paragraph relocation + worked-example
+  sentences with author-internal-verifiable framing). The Pass 1
+  Phase-C-cascade-cleanup line-21 Black Lung Trust Fund → federal
+  Program reframe (commit `5569600`) + the Ch 8 Pass 1 Phase C
+  line-28 per-ton-allocation recalibration ("between one and one and
+  a half dollars per ton" replacing "roughly eighty cents per ton";
+  commit `5fe6af6`) both preserved. No fact-check re-fire required.
+
+- **Pass 3.2 voice-polish (Phase C-γ + Phase C-δ + cascade-followup
+  through `bfafe47` + `ccd87f1` + `e927e74`).** No per-paragraph
+  tic-fix re-litigated. F-V20 (declarative-three) + F-V21 (SCC
+  political-volatility triple) + F-V22 (Price-the-X anaphora) + F-V23
+  (externality-tail name-defense compression — F-DE-Ch6-9 relocates
+  but does not re-touch the content) + F-V24 (Norway "primary anchor"
+  swap) + F-V25 (knowledge-worker four-fold) + F-V26 (Asymmetric
+  Regret Rule compression) all preserved. F-V11 (M2 paragraph triple
+  "actual") — F-DE-Ch6-2 Option B's M2 limit-naming replacement
+  ("The limit — what Norway's accounting does not capture — is worked
+  through in the Norway Backtest section below.") does not re-introduce
+  the triple "actual" pattern; verified clean. F-V5 (verbatim phrase
+  "they answer different questions" at lines 58 + 263) — held as Pass 2
+  disposition; my Phase C application did not touch either occurrence;
+  the regressed-pattern scanner correctly continues to flag it as a
+  Pass-2-held pre-existing pattern. No Pass-2 re-fire required.
+
+- **Pass 3.3 audience-load (verdict 7 INCLUDE / 0 EXCLUDE; Phase C-ε
+  CLOSED EMPTY).** No new factual claims; no new framework concepts;
+  named-subject consent discipline unchanged. Per F-DE-Ch6-2 + F-DE-Ch6-5
+  cross-pass flags: restorations lightly strengthen Sandy-tradition-econ
+  reviewer (#1) + Berggruen (#2) + academic-econ reviewer (#3) +
+  Sandel-tradition trade-press editor (#4) + layman (#5) verdicts
+  without changing aggregate INCLUDE verdicts. Per F-DE-Ch6-3 +
+  F-DE-Ch6-5 + F-DE-Ch6-8 + F-DE-Ch6-9 cross-pass flags: re-paragraph
+  + §-break + relocation moves relieve cumulative apparatus-load that
+  layman (#5) verdict flagged as principal concern. Light Pass 3.3
+  acceptance re-fire recommended per workstream handoff §3.1 step 10
+  as separate session to confirm cumulative acceptance verdicts hold
+  across the 7-character set.
+
+- **Pass 3.4 audience-load robustness (verdict CONDITIONALLY ROBUST
+  against 10-character adversarial set; closed via pipeline retrofit
+  `5e08642`).** SI-1 framing in M1/M2/M3 walkthrough opener preserved
+  verbatim per hard constraint. F-DE-Ch6-2's Norway Backtest restoration
+  strengthens chapter's response to parameter-rigging (Chicago #5) +
+  business-blame (WSJ #7) + universal-CS>0 (multiple #4/#5/#7/#10)
+  adversarial threads — the differentiates-correctly demonstration now
+  carries concrete-texture grounding the prior rendering lacked.
+  F-DE-Ch6-1's convergence-finding §-break does not change the
+  finding's substance; thread-pull surface unchanged. No new adversarial
+  thread surfaced by the restorations. **Pass 3.4 re-fire NOT
+  warranted** — restorations strengthen rather than weaken adversarial
+  robustness.
+
+- **Stage 4 render-integrity (closed via pipeline retrofit `5e08642`).**
+  No render-side concerns introduced. The applied edits use existing
+  paragraph-break + §-break + inline-text patterns consistent with the
+  chapter's already-rendered state.
+
+- **Named-subject consent discipline.** No anonymized subjects in this
+  chapter; named figures remain public-record academics + authors per
+  Pass 3.2 §8.7. Consent discipline preserved.
+
+- **Canonical-facts inventory.** All applied edits either (a) draw on
+  publicly-verifiable facts (F-DE-Ch6-2 GPFG specifics) or (b) operate
+  at the structural-restoration level (paragraph-breaks; §-breaks;
+  relocations; worked-example sentences with framework-internal
+  framing). The "three percent" Norway spending-rule figure carries a
+  §11.3 pre-publication verification flag against the Technical
+  Appendix's Norway coverage + the current Handlingsregelen rule
+  formulation; the other four facts in F-DE-Ch6-2's Option A paragraph
+  are unambiguously documented.
+
+### §11.5 Doctrine compliance
+
+- **Branch discipline (CLAUDE.md / `tools/workstream-handoffs/README.md`).**
+  Single feature branch
+  `claude/ch6-developmental-edit-amazing-moser-dc81d1` carried both
+  the PROPOSED-artifact commit (2026-05-20) and this Phase C
+  application (2026-05-21) per the dev-edit workstream class's
+  one-branch-per-chapter discipline (Ch 1 dev-edit precedent used
+  two separate branches for Session 1 + Session 2; Ch 6 used a single
+  branch). Author-ratified content-change merge-to-main default
+  applies to this Phase C commit.
+
+- **Merge-to-main default (CLAUDE.md author-ratified-content-change
+  class).** Author-ratified content change session (interactive
+  Amendment-C ratification + application); autonomous fast-forward
+  merge to main + push origin main at session close.
+
+- **Five-pass rigor discipline (pipeline doctrine v1.0.0 Amendment B
+  ratified 2026-05-18).** This Phase C session is downstream-application
+  of the developmental-edit review's ratified findings; no Stage-3
+  rigor pass was re-run during this session per workstream handoff
+  §3.1 step 10. Light Pass 3.3 re-fire recommended as separate
+  session.
+
+- **Amendment C interactive ratification protocol (ratified
+  2026-05-19).** Per-finding format honored (Options + Recommendation
+  + Reasoning presented to author; author selected option per finding;
+  disposition + rationale captured in §11.1 table). Ratification +
+  application combined in same session per Amendment C §3.7.6.
+
+- **Token-economy (pipeline doctrine Amendment A; this artifact §5.3).**
+  Application session lighter token-load than the developmental-edit
+  pass itself (chapter + artifact §§2–4 per-finding drafts in context;
+  no whole-chapter cross-pass re-reasoning). Per-chapter dev-edit
+  workstream-class total token-cost (PROPOSED + Phase C combined)
+  tracks the workstream handoff §1.5 estimate of ~50K–80K tokens per
+  chapter.
+
+### §11.6 Recommended follow-up
+
+1. **Light Pass 3.3 acceptance re-fire** (per workstream handoff §3.1
+   step 10) as separate session to confirm cumulative acceptance
+   verdicts hold across the 7-character set post-restoration.
+2. **Pre-publication verification flag** (per §11.3): verify the
+   "three percent" Norway spending-rule figure in F-DE-Ch6-2 Option
+   A's applied paragraph against the Technical Appendix's Norway
+   coverage + the current Handlingsregelen rule formulation before
+   any external send.
+3. **PM-session-handoff queues Ch 2 (or next-in-sequence) dev-edit
+   session** per workstream handoff §1.3 per-chapter sequencing plan.
+4. **Pass 3.4 robustness re-fire NOT routinely warranted** per
+   workstream handoff §3.1 step 10 — restorations strengthen
+   adversarial robustness; thread-pull surface unchanged.
 
 ---
 
