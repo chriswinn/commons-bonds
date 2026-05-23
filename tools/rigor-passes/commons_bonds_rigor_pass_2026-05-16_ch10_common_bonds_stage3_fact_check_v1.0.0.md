@@ -532,14 +532,46 @@ Per-finding ratifications + applied edits, recorded as they close. Updated incre
 
 ---
 
-### Open items pending ratification (as of 2026-05-21)
+### M-1 + L-1 — RATIFIED + APPLIED 2026-05-23 (coupled edit, same sentence)
 
-- **M-1** (Black Hills compensation amount) — Author ratified Option A ("more than one and a half billion") on first walkthrough. **Application pending**; couples to L-1.
-- **M-5** (six cost-hiding patterns framing) — Author ratified Option A (combined sub-cases) on first walkthrough. **Application pending.**
-- **L-2** (chapter-end-marker inventory drift) — Inventory housekeeping; application at next inventory revision.
-- **L-3** (Lakota row inventory line-cite) — Inventory housekeeping; couple to M-1.
-- **M-2** (wife near-death) — Author flagged for prose review (clunky/flat); accuracy confirmation also pending. **Deferred to Pass 2 voice-polish bundle.**
-- **M-3** (four-industry career list) — Same: prose review + accuracy confirmation. **Deferred to Pass 2.**
-- **L-4** (nursing-student framing) — Same: prose review + accuracy confirmation. **Deferred to Pass 2.**
-- **L-1** (forty-five years temporal currency) — Author flagged temporal-currency principle (year-counted figures stale every year except publication). My recommendation: "for more than four decades" (couples to M-1). **Awaiting author response.**
-- **Ch 10:22 "roughly my age"** — Open question: flag as LOW-5, defer to Pass 2, or leave alone. **Awaiting author response.**
+**Author ratification:**
+- **M-1:** Option A — hedge "more than two billion dollars" → "more than one and a half billion dollars" (publicly-credible 2025 range is $1.43–$1.86B; actual trust-account balance sealed per Oglala Sioux FOIA-blocking April 2025; the hedge lands inside the citable range without sacrificing the structural argument).
+- **L-1:** Option A — replace "for forty-five years and counting" → "for more than four decades and counting" (temporal-currency hedge per author-surfaced principle that year-counted figures are stale every year except publication year; "more than four decades" preserves magnitude + durable through ~2030; "and counting" retained for active-continuing-stance signal).
+
+**Phase C application — applied 2026-05-23 in same session per CLAUDE.md merge-to-main discipline:**
+
+5. ✅ **Chapter_10_CommonBonds.md:72** (single coupled touch) — replaced "now sits in federal escrow at more than two billion dollars. The Lakota have refused to accept it for forty-five years and counting." with "now sits in federal escrow at more than one and a half billion dollars. The Lakota have refused to accept it for more than four decades and counting." Applied.
+
+---
+
+### M-5 — RATIFIED + APPLIED 2026-05-23
+
+**Author ratification:** Option A — combine Ch 7's canonical Normative routinization framing with Ch 10's racialized-othering framing as two related sub-cases under "culture or story." Preserves Ch 7's six-pattern structural integrity (the corpus is locked on the six bolded patterns per apparatus register Item 15) while honoring Ch 10's literary register.
+
+**Phase C application — applied 2026-05-23 in same session per CLAUDE.md merge-to-main discipline:**
+
+6. ✅ **Chapter_10_CommonBonds.md:32** — inside the six-gap enumeration paragraph, expanded the fifth pattern from "It can be culture or story — the ease of severing costs onto a community whose language or skin or religion makes them easier to see as not-us, onto a population that has been described, by people with platforms, as deserving their condition." to "It can be culture or story — **the routinized acceptance of cost-bearing as the 'cost of doing business,' or** the ease of severing costs onto a community whose language or skin or religion makes them easier to see as not-us, onto a population that has been described, by people with platforms, as deserving their condition." Applied. *(Adds Ch 7's canonical Normative routinization framing as the first sub-case under "culture or story," with the existing racialized-othering framing as the second sub-case. Minimal-prose-addition; preserves the existing sentence + all downstream rhythm; closes the M-5 gap with Ch 7's canonical six-pattern list.)*
+
+**Cross-chapter coherence verified post-application:** Ch 10:32's six-gap enumeration now maps one-to-one with Ch 7:111–121 canonical patterns:
+- miles → Geographic distance ✓
+- time → Temporal asymmetry ✓
+- information → Informational asymmetry ✓
+- power → Power asymmetry ✓
+- culture or story → **Normative routinization** (the new "cost of doing business" sub-case) AND racialized-othering extension ✓ (the M-5 fix)
+- abundance → Abundance masking ✓
+
+---
+
+### Open items pending ratification (as of 2026-05-23)
+
+**Inventory housekeeping (deferred to next inventory revision):**
+- **L-2** (chapter-end-marker inventory drift) — Remove the stale "Ch 10 uses 'End of Chapter 10' without em-dashes" claim from `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:206` at next inventory revision. Chapter is correct; inventory needs the update.
+- **L-3** (Lakota row inventory line-cite) — Update `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:113` Lakota row: line cite "Ch 10 line 69" → current "Ch 10 line 72"; canonical dollar figure ">$2 billion" → ">$1.5 billion" (matches the M-1 ratified hedge); refused-duration "45 years" → "more than four decades" (matches L-1). All inventory housekeeping; couple to next inventory-revision pass.
+
+**Voice-polish bundle (deferred to Pass 2):**
+- **M-2** (wife near-death) — Author flagged for prose review (clunky/flat paragraph); accuracy confirmation also pending. Deferred to Pass 2 voice-polish bundle where the rewrite can be done as one move with the surrounding paragraph.
+- **M-3** (four-industry career list) — Same paragraph (Ch 10:16); same Pass 2 bundle.
+- **L-4** (nursing-student framing) — Same: prose review + accuracy confirmation. Pass 2 bundle.
+
+**Open conversation items (this session):**
+- **Ch 10:22 "roughly my age"** — Open question: flag as LOW-5 (temporal-currency principle applied to author's own age — even more brittle than L-1's "forty-five years" since it shifts every year of the author's life), defer to Pass 2, or leave alone. **Awaiting author response.**
