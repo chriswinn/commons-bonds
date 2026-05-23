@@ -267,7 +267,7 @@ Per Amendment A: load-bearing protection against Stage 2 factual drift. The Noem
 
 ### 7.9 Supporting empirical anchors
 
-- **Black Lung Benefits Program:** $44B paid out across half a century. ~$5.1B Trust Fund outstanding debt as of September 2024.
+- **Black Lung Benefits Program:** $44B paid out across half a century. ~$5.1B Trust Fund outstanding debt as of September 2024. **Funding mechanism (added 2026-05-23 per Pass 3.1 F-3.1-4):** the program is supported largely by a coal-extraction excise tax (Internal Revenue Code §4121; per DOL annual Trust Fund reports) — the value-extracting side is structurally tagged for the cost-bearing side. The ~$5.1B outstanding Trust Fund debt is financed by general taxation rather than by the coal-extraction value the program was designed to track; the structural-contrast argument turns on this asymmetry between intended-design (extraction-tagged) and actual-financing (general-revenue-absorbing).
 - **Reclamation-bonds shortfall:** Reclamation bonds posted by mining companies cover $4–6B less than the actual reclamation cost.
 - **Social Security intergenerational obligation:** No Foreclosure Bond against it; cost is structurally guaranteed to be borne by whichever generation is in working age when the obligation matures.
 
