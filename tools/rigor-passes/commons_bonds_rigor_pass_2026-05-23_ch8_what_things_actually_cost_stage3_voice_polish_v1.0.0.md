@@ -4,7 +4,7 @@
 **Date drafted:** 2026-05-23
 **Status:** PROPOSED. Awaiting author ratification before Phase C-β spot-fix application session.
 **Mode:** Audit-existing-prose (post-Pass-1 Phase-C-α + residual-hedge-alignment chapter is the baseline; v2.0 Amendment B voice-polish discipline as a distinct pass from Pass 1 fact-check and Pass 3 audience-load).
-**Source chapter:** `manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` — **243 lines** (post-Phase-C state verified 2026-05-23 against feature branch `claude/ch8-pass2-voice-polish-ad1947d16476c939c`, branched from `origin/main` at `713fbe1`).
+**Source chapter:** `manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` — **243 lines** (post-Phase-C + post-cascade-reconciliation `9befb92` state verified 2026-05-23 against feature branch `claude/ch8-pass2-voice-polish-ad1947d16476c939c`, branched from `origin/main` at `b31ee2d`).
 
 **Pass 1 cross-reference:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-16_ch8_what_things_actually_cost_stage3_fact_check_v1.0.0.md` — RATIFIED + APPLIED via commit `5fe6af6` (Phase C — 16 Ch 8 edits + cross-chapter consequences) + commit `275b75a` (MED-6 Phase C-β follow-through — 2 residual hedge-alignment fixes). All HIGH-1 through HIGH-4 + MED-1 through MED-8 + LOW-1 + LOW-3 RATIFIED + APPLIED; remaining LOW findings held for pre-publication refresh. Pass 1 fact-check now functionally closed.
 
@@ -37,12 +37,13 @@
 15. Memory: `feedback_substance_drives_length.md` (no padding; no cutting to fit; cadence-enacts-content can earn the LLM-pattern flag).
 16. Memory: `feedback_named_subject_consent.md` (named-subject discipline — confirmed clean for Ch 8 in Pass 1 §7; no Pass-2 voice-polish moves touch consent).
 17. Memory: `feedback_dual_audience_test.md` (layman + specialist; substance-drives-length).
-18. Memory: `feedback_verify_stale_memory_claims.md` (verification discipline — chapter line count + cited commits verified against current `origin/main`: 243 lines confirmed; `5fe6af6` + `275b75a` + `cbef9bd` + `bc02767` + `a1e54d9` + `57575b1` all resolve on `origin/main`).
+18. Memory: `feedback_verify_stale_memory_claims.md` (verification discipline — chapter line count + cited commits verified against current `origin/main`: 243 lines confirmed; `5fe6af6` + `275b75a` + `cbef9bd` + `bc02767` + `a1e54d9` + `57575b1` + `9befb92` (Ch 8 MED-3 + MED-6 cascade reconciliation Phase C) all resolve on `origin/main`).
 
-**Verification at session start (verify-stale-memory-claims discipline):**
-- `git fetch origin main` → fetched cleanly; current `origin/main` HEAD `57575b1` (cross-corpus IPG canonical-construction ratification record).
-- `wc -l manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` → 243 lines ✓ matches Pass 1 §1 line-count update.
-- All findings below cite line numbers verified via `grep` against the current chapter file (post-`5fe6af6` + post-`275b75a` state); audit-time Pass 1 line numbers have been remapped against current state per §12.2 shift table in the Pass 1 artifact.
+**Verification at session start + mid-session re-verification (verify-stale-memory-claims discipline):**
+- Session start: `git fetch origin main` → fetched cleanly; `origin/main` HEAD at that point was `57575b1`.
+- Mid-session: additional commits landed on `origin/main` while Pass 2 was being drafted, including `9befb92` (Ch 8 MED-3 + MED-6 cascade reconciliation Phase C; 4 ratified spot-fixes at lines 40, 52, 166, 238). Feature branch was rebased onto current `origin/main` HEAD `b31ee2d`; F-V6 line 40 + line 166 verbatim quotations + Option B/C proposed rewrites were updated to reflect the post-`9befb92` cascade-reconciliation Phase C text.
+- `wc -l manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` → 243 lines ✓ unchanged by `9befb92` (cascade-reconciliation was in-place word-substitution; no line-count delta).
+- All findings below cite line numbers verified via `grep` against the current chapter file (post-`9befb92` cascade-reconciliation state).
 
 ---
 
@@ -244,9 +245,9 @@ But: eight headers in strict-parallel cadence across a single chapter is the nam
 
 **Three instances** at section-conclusion synthesizing moments:
 
-- **Line 40:** *"**Two to four dollars. Against a market price of four to five dollars in 1960. Direct health alone — the most documented component — returns roughly as much as the coal sold for.**"*
+- **Line 40:** *"**Two to four dollars. Against a market price of four to five dollars in 1960. Direct health alone — the most documented component — already returns most of what the coal sold for.**"* (post-cascade-reconciliation `9befb92`).
 - **Line 74:** *"**Five hundred and forty-four dollars. Against a market price that has oscillated between four dollars and a hundred and forty dollars over the life of the industry.** The carbon term alone — before any of the other seven components are added — exceeds every era's market price for a ton of coal, by a factor running from roughly four against today's market peak to more than a hundred against the 1960 mine-mouth."*
-- **Line 166:** *"Total: $558 per ton. **Against a market price of four to five dollars in 1960. Against a market price of $40 to $140 today, depending on grade. Against every price coal has ever sold for.**"*
+- **Line 166:** *"Total: $558 per ton. **Against a 1960 market price of four to five dollars. Against a market price of $40 to $140 today, depending on grade. Against every price coal has ever sold for.**"* (post-cascade-reconciliation `9befb92`).
 
 **Why this flags.** Three section-conclusion sites use the same numerical-rhetorical-pivot cadence: *"[Number/total]. Against [market-price comparison]. [Conclusion]."* The pattern is the chapter's signature analytical-pivot move (compare honest cost against market price; name the gap). Pass 1 §9 flagged line 40's instance specifically as a Pass-2 candidate.
 
@@ -259,8 +260,8 @@ The line 166 instance is the most concentrated: three "Against [market price]" a
 **Recommended spot-fix (author selects one option):**
 
 - **A. Hold as-is.** Substantively earned numerical-pivot cadence at each site; the comparison-against-market-price IS the chapter's load-bearing analytical move; substance-drives-length governs. Calibrated as chapter-signature analytical-pivot rather than as LLM-cadence reach.
-- **B. Vary the line 166 instance only (the highest-density of the three).** Convert the three "Against [market price]" anaphoric sentences to a single compound sentence. *"Total: $558 per ton. Against a market price of four to five dollars in 1960, $40 to $140 today depending on grade — against every price coal has ever sold for."* Drops three sentences to one (with em-dash pivot to "against every price"); preserves the substantive claim; drops the three-fold anaphoric drumbeat at the chapter's headline-figure moment. **CAUTION:** uses one em-dash; the em-dash here is the rhetorical-pivot punch (the universalizing "every price" turn), which is the named justified use. Reduces F-V3 chapter-wide em-dash count by 0 (line 166 currently has no em-dashes, so this adds 1).
-- **C. Vary the line 166 instance, no em-dash version.** *"Total: $558 per ton. Against a market price of four to five dollars in 1960, $40 to $140 today depending on grade, and against every price coal has ever sold for."* Single sentence with comma-serial; drops the three-fold pattern; no em-dash introduced. Less rhetorical punch than Option B but cleaner em-dash discipline.
+- **B. Vary the line 166 instance only (the highest-density of the three).** Convert the three "Against [market price]" anaphoric sentences to a single compound sentence. *"Total: $558 per ton. Against a 1960 market price of four to five dollars, $40 to $140 today depending on grade — against every price coal has ever sold for."* Drops three sentences to one (with em-dash pivot to "against every price"); preserves the substantive claim; drops the three-fold anaphoric drumbeat at the chapter's headline-figure moment. **CAUTION:** uses one em-dash; the em-dash here is the rhetorical-pivot punch (the universalizing "every price" turn), which is the named justified use. Reduces F-V3 chapter-wide em-dash count by 0 (line 166 currently has no em-dashes, so this adds 1).
+- **C. Vary the line 166 instance, no em-dash version.** *"Total: $558 per ton. Against a 1960 market price of four to five dollars, $40 to $140 today depending on grade, and against every price coal has ever sold for."* Single sentence with comma-serial; drops the three-fold pattern; no em-dash introduced. Less rhetorical punch than Option B but cleaner em-dash discipline.
 - **D. Vary line 40 OR line 74 to break the chapter-wide pattern.** Hold line 166 (the headline-figure moment); vary one of the two earlier instances (line 40 OR line 74) to break the cross-section pattern at chapter scale. Sample: line 40 *"That figure — two to four dollars per ton — already approaches the four-to-five-dollar market price the coal cleared at in 1960. Direct health alone, the most documented component, returns roughly as much as the coal sold for."* Drops the strict numerical-pivot cadence at line 40 while preserving lines 74 + 166 as the load-bearing instances. **CAUTION:** uses two em-dashes; defensible parenthetical-pair work but contributes to F-V3 em-dash count.
 
 **Recommendation:** Option C (vary line 166 only, no em-dash). Lightest-touch fix targeting the highest-density instance (the three-fold "Against [market price]" cluster); honors em-dash discipline; preserves the chapter-signature numerical-pivot cadence at lines 40 + 74 where it's load-bearing without compounding to chapter-headline three-fold. Option A is defensible if author calibrates the chapter-signature cadence as analytically load-bearing.
@@ -797,7 +798,7 @@ For author ratification, in recommended sequence (lowest-risk to highest):
 - ✓ Did NOT propose new framework concepts.
 - ✓ Verified chapter line count (243 lines, 2026-05-23) via `wc -l`.
 - ✓ Verified all cited commits exist on `origin/main`: `5fe6af6` (Phase C application), `275b75a` (residual hedge-alignment), `cbef9bd` (Stage 1c Phase C cross-chapter cascade), `bc02767` (rent-seeking ratification), `a1e54d9` (rent-seeking proposal), `57575b1` (cross-corpus IPG canonical-construction artifact), `d1f6e2d` (Item 1 inline integral strip), `cacb82d` ($44B Program-vs-Trust-Fund correction).
-- ✓ Built feature branch `claude/ch8-pass2-voice-polish-ad1947d16476c939c` from current `origin/main` (`713fbe1`; rebased to current HEAD mid-session per fresh origin/main fetches) per CLAUDE.md branch discipline.
+- ✓ Built feature branch `claude/ch8-pass2-voice-polish-ad1947d16476c939c` from `origin/main`; rebased to current HEAD `b31ee2d` mid-session per fresh `origin/main` fetches (including `9befb92` Ch 8 cascade-reconciliation Phase C that landed mid-session) per CLAUDE.md branch discipline.
 - ✓ Em-dash discipline ratified 2026-05-21 (Ch 3 Pass 3.2 F-V3) loaded as load-bearing; F-V3 calibration explicit per discipline guidance.
 - ✓ Substrate-critical-editorial-input discipline applied (per memory entry ratified 2026-05-21) — chapter's existing prose audited as substrate; improvements surfaced before any application.
 - ✓ All findings cite line numbers verified via `grep` against current chapter file state (post-Phase-C + post-Phase-C-β + post-rent-seeking-insertion + post-cross-corpus-IPG-ratification).
