@@ -4,7 +4,7 @@
 **Pass:** Stage 1c (cross-artifact coherence check) per pipeline doctrine v1.0.0 §3.1
 **Scope:** Ch 8 rent-seeking paragraph (line 122) checked against Ch 9 Reading C v3 framing (lines 134–148)
 **Trigger:** Cross-chapter cascade flagged at Ch 9 Pass 2 (Voice-Polish) §11 disposition log (commit `78a26c2`, 2026-05-21)
-**Status:** PROPOSED — author ratifies via separate Phase C session
+**Status:** RATIFIED + APPLIED 2026-05-21 (Phase C). Option A spot-fix applied to Ch 8:122. D-2 + D-3 deferred to separate sessions. See §8 ratification record.
 **Branch:** `worktree-agent-a185e66fbbb404582` (feature branch from `aa04a4a`; auto-merges to main per CLAUDE.md rigor-pass merge default)
 
 ---
@@ -286,4 +286,31 @@ Author decisions needed (post-session):
 
 ---
 
-*End of Stage 1c coherence-check artifact — Ch 8:122 rent-seeking paragraph vs Ch 9 Reading C v3 (134–148). PROPOSED 2026-05-21. Author ratifies via separate Phase C session.*
+---
+
+## §8. Ratification record (closed 2026-05-21)
+
+Author ratification 2026-05-21 (same-day after the agent-produced PROPOSED artifact landed on main at `7f7eef9`).
+
+**D-1 — Ch 8:122 spot-fix:** ✅ **Option A RATIFIED + APPLIED.** Light-touch reframe: replaces the symmetric "*does both kinds of work at once*" + "*does the architecture-shaping work cleanly*" verb-frames with asymmetric "*supplies the vocabulary for*" parallels; replaces the symmetric closing summary (*"Both readings illuminate McDowell. The framework's apparatus contributes the cost-bearing magnitudes; both adjacent traditions contribute the actor-and-coalition analysis the framework does not attempt."*) with the asymmetric framework-supplies-the-ledger close + explicit Ch 9 forward-reference. All named subjects preserved (Coates, Darity, Mullen, Hamilton, Conley, Buchanan, Tullock + coal-industry actor types). McDowell-specific load-bearing detail (thirteen-year life-expectancy gap) preserved via direct numerical anchor. Applied in same commit as this disposition log.
+
+**D-2 — Book-wide *honest* → *complete* sweep:** ⏸ DEFERRED. Pending separate Stage 1c book-wide coherence-sweep session. Chapter title *Pricing Honestly* + book-spine "honest accounting" uses likely earn their keep for non-apparatus reasons; sweep should target only apparatus-describing positions where *"complete"* is the sharper accounting term. Not blocking this Phase C application.
+
+**D-3 — Ch 5 + Technical Appendix §1.10 sibling coherence checks:** ⏸ DEFERRED. Same cross-chapter rent-seeking-engagement workstream (commits `a1e54d9` → `bc02767`) inserted parallel content in Ch 5 + TA §1.10 under the older symmetric framing. Separate Stage 1c sessions warranted; queue for follow-up. Cross-thread-todos addition recommended.
+
+**D-4 — Ch 9 Pass 3 sequencing:** ✅ RATIFIED — Pass 3 sequenced *after* Ch 8 spot-fix lands. Ch 8 Option A application (this Phase C session) resolves the cross-chapter drift that would otherwise risk Pass 3.4 adversarial-set surfacing the inconsistency. Pass 3 can now fire on Ch 9 with cross-chapter coherence restored (modulo D-3 sibling checks, which are out of Pass 3's direct sightline but still queued).
+
+### Phase C application summary
+
+1 paragraph-level spot-fix applied to `manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` line 122 (the *Political Capture Cost* component paragraph). Chapter line count unchanged. Cross-chapter coherence between Ch 8:122 and Ch 9:134–148 restored: framework-vs-Public-Choice asymmetric framing now consistent across both chapters. Forward-reference *"Chapter 9 develops the framework-Public-Choice relationship at greater length"* establishes Ch 9 as the canonical-development site (per the natural per-ton-arithmetic-vs-policy-architecture chapter division).
+
+### Cross-chapter cascade still pending
+
+- D-2 (book-wide *honest*→*complete* sweep)
+- D-3 (Ch 5 + TA §1.10 sibling coherence checks)
+
+Both deferred to separate sessions; flagged for cross-thread-todos.
+
+---
+
+*End of Stage 1c coherence-check artifact — Ch 8:122 rent-seeking paragraph vs Ch 9 Reading C v3 (134–148). RATIFIED + APPLIED 2026-05-21 (Option A). Ch 9 Pass 3 (audience-load) is the next session for the workstream.*
