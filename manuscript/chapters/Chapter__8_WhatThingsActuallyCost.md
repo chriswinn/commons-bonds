@@ -37,7 +37,7 @@ That's before the other direct health costs: the excess cardiovascular mortality
 
 Allocated against total United States coal production since the Program's 1969 establishment, the Program alone yields between one and one and a half dollars per ton. Adding Medicare and Medicaid costs shifted to the public ledger, uncompensated care, and the private medical bills of miners whose employers bankrupted before obligations matured, a conservative figure sits between two and four dollars per ton at the national level.
 
-Two to four dollars. Against a market price of four to five dollars in 1960. Direct health alone — the most documented component — returns roughly as much as the coal sold for.
+Two to four dollars. Against a market price of four to five dollars in 1960. Direct health alone — the most documented component — already returns most of what the coal sold for.
 
 ---
 
@@ -49,7 +49,7 @@ Across Appalachia, the reclamation bonds coal companies were required to post un
 
 Added to that: the sixty thousand Appalachian cancer cases linked to mountaintop removal mining, the long-tail ecosystem service losses from streams buried under valley fill, the soil contamination in communities downstream of processing facilities, and the atmospheric mercury deposited from coal combustion that now shows up in fish as far away as the North Atlantic.
 
-Conservatively allocated per ton: one to three dollars. Which, added to direct health, already places the national severed cost at three to seven dollars — already above the 1960 market price, before any foreclosure pricing at all.
+Conservatively allocated per ton: one to three dollars. Which, added to direct health, already brings the national severed cost up to the 1960 market price — at three to seven dollars per ton, comparable to what the coal cleared for at the mine mouth — before any foreclosure pricing at all.
 
 ---
 
@@ -163,7 +163,7 @@ Running the total at the low end of every component:
 
 Total: $558 per ton.
 
-Against a market price of four to five dollars in 1960. Against a market price of $40 to $140 today, depending on grade. Against every price coal has ever sold for.
+Against a 1960 market price of four to five dollars. Against a market price of $40 to $140 today, depending on grade. Against every price coal has ever sold for.
 
 The Intergenerational Pricing Gap — the ratio of honest price to market price — for McDowell County coal sits somewhere between thirty-three and one hundred and twenty-two times the 1960 sale price, depending on which cost categories the accounting admits and which social cost of carbon anchor it uses. Even at today's higher market prices ($40 to $140 per ton depending on grade), the carbon term alone exceeds the market price by a factor of at least four. The structural finding holds across every era the industry has operated: the honest cost of a ton of McDowell County coal has always exceeded what the market paid for it, often by more than two orders of magnitude.
 
@@ -235,7 +235,7 @@ This book's job is to make the invisible visible. Chapter 1 through Chapter 8 ha
 
 These questions presuppose the framework this book establishes. Their pursuit belongs to policy-makers, scholars, communities, and political coalitions who carry the framework's vocabulary into specific implementation contexts. The framework cannot do that work itself. What honest accounting at civilizational scale would reveal — when it is performed by those who do that work, in time and on terms not legislated by these pages — is not a catastrophe but a better, more stable, more resilient economy with a floor beneath it.
 
-For now, what this chapter gives the reader is the one worked example: a ton of coal, priced honestly, at a floor of roughly five hundred and fifty-eight dollars. The gap between that number and the four-dollar-and-fifty-cent invoice is the severed cost. The invoice is what McDowell County was paid. The severed cost is what McDowell County bore.
+For now, what this chapter gives the reader is the one worked example: a ton of coal, priced honestly, at a floor of roughly five hundred and fifty-eight dollars. The gap between that number and the four-to-five-dollar invoice is the severed cost. The invoice is what McDowell County was paid. The severed cost is what McDowell County bore.
 
 The next two chapters return to what that means, for McDowell County, for the waterman, for the reader's own life, and for the century ahead.
 
