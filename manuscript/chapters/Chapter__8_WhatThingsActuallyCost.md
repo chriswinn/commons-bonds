@@ -37,7 +37,7 @@ That's before the other direct health costs: the excess cardiovascular mortality
 
 Allocated against total United States coal production since the Program's 1969 establishment, the Program alone yields between one and one and a half dollars per ton. Adding Medicare and Medicaid costs shifted to the public ledger, uncompensated care, and the private medical bills of miners whose employers bankrupted before obligations matured, a conservative figure sits between two and four dollars per ton at the national level.
 
-Two to four dollars. Against a market price of four-fifty in 1960. Direct health alone — the most documented component — returns roughly as much as the coal sold for.
+Two to four dollars. Against a market price of four to five dollars in 1960. Direct health alone — the most documented component — returns roughly as much as the coal sold for.
 
 ---
 
@@ -163,7 +163,7 @@ Running the total at the low end of every component:
 
 Total: $558 per ton.
 
-Against a market price of $4.50 in 1960. Against a market price of $40 to $140 today, depending on grade. Against every price coal has ever sold for.
+Against a market price of four to five dollars in 1960. Against a market price of $40 to $140 today, depending on grade. Against every price coal has ever sold for.
 
 The Intergenerational Pricing Gap — the ratio of honest price to market price — for McDowell County coal sits somewhere between thirty-three and one hundred and twenty-two times the 1960 sale price, depending on which cost categories the accounting admits and which social cost of carbon anchor it uses. Even at today's higher market prices ($40 to $140 per ton depending on grade), the carbon term alone exceeds the market price by a factor of at least four. The structural finding holds across every era the industry has operated: the honest cost of a ton of McDowell County coal has always exceeded what the market paid for it, often by more than two orders of magnitude.
 
