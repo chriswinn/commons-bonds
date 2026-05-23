@@ -1,12 +1,33 @@
 # $100 Barrel Essay — Pass 3.2 Voice-Polish Rigor Pass v1.0.0 — 2026-05-21
 
-**Status:** PROPOSED (Amendment A applied 2026-05-23). Pass 3.2 voice-polish artifact for Draft A (post Pass 3.1 Phase C application; commit `cf5db97` 2026-05-21). Author ratification + Phase C application is a separate session per v3.1 per-prompt serial cadence.
+**Status:** RATIFIED + APPLIED (Amendment A + Amendment B applied 2026-05-23). Pass 3.2 voice-polish artifact for Draft A (post Pass 3.1 Phase C application; commit `cf5db97` 2026-05-21). All 6 active findings ratified + applied in interactive Phase C session 2026-05-23.
 
 **Amendment A — 2026-05-23.** Two updates in one batch:
 1. **F-VP-Barrel-3 SUPERSEDED** by interactive sentence-craft spot-fix at essay commit `6a3da83` (on `main` 2026-05-23). The §III close passage has been materially expanded (from ~40w "Each X-ing" rule-of-three to ~110w four-domain decomposition + orthodox-model gap + cost-severance close); the original F-VP-Barrel-3 recommendation (flatten "Each X-ing" to comma-joined clause) is moot. See §1 F-VP-Barrel-3 for the canonical record + supersession marker.
 2. **F-VP-Barrel-7 ADDED** — two em-dash appositions in the newly-applied §III passage flagged for follow-up punctuation tightening (colon + dropped apposition). Author queued this as F-VP-Barrel-7 at apply-time for standard Phase C ratification alongside other Pass 3.2 items. See §1 F-VP-Barrel-7.
 
-Active-findings count post-Amendment-A: 1 HIGH + 3 MEDIUM + 2 LOW (= 6 active; F-VP-Barrel-3 retained in document but not counted in active totals).
+**Amendment B — 2026-05-23. RATIFICATION + APPLICATION.** All 6 active findings interactively ratified + applied per v3.1 Amendment C Interactive Ratification Protocol. Phase C application recorded in essay file header (`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`). Per-finding dispositions:
+
+| Finding | Severity | Disposition | Net delta |
+|---|---|---|---|
+| F-VP-Barrel-1 | HIGH | Option A on all 3 sub-corrections (1.1A + 1.2A + 1.3A); 3 cadence instances collapsed; 3 instances preserved per locked-instance discipline | -9w |
+| F-VP-Barrel-2 | MEDIUM | **Author-modified Option A**: "But it is, even so, an assumption." → "But it is just an assumption." ("even so" concession-bridge dropped per author; logged as Pass 3.3 light-re-verification audit-trail flag) | +3w |
+| ~~F-VP-Barrel-3~~ | ~~MEDIUM~~ | SUPERSEDED 2026-05-23 (interactive §III spot-fix at essay commit `6a3da83`) | n/a |
+| F-VP-Barrel-4 | MEDIUM | **Option D** (drop throat-clearing entirely; not Option A "Notice the move" as Pass 3.2 originally recommended). Condition 1 explicit-meta moves reduced from 4 → 3 (logged as Pass 3.3 light-re-verification audit-trail flag) | -8w |
+| F-VP-Barrel-5 | LOW | Option A as recommended (compress "on a non-renewable resource that the owner" → "an owner") | -5w |
+| F-VP-Barrel-6 | LOW | **Option (a) refrain preserved + Option D-2 new bridge sentence in §Close ¶1** (scope expanded beyond original 3-option set). New sentence: "It has made something currently invisible, visible." | +7w |
+| F-VP-Barrel-7 | MEDIUM (Amendment A) | **Option B asymmetric fix** (em-dash #1 → colon; em-dash #2 preserved; not Option A "both fixes" as Pass 3.2 originally recommended). Honest disclosure: claude revised opening recommendation mid-session after closer re-read identified em-dash #1 and em-dash #2 as different grammar roles | 0w; -1 em-dash |
+| **NET** | | | **-12w** (estimated; actual measurement -14w) |
+
+Body word count: 4,159w (post-§III-spot-fix) → 4,145w (post-Pass-3.2-Phase-C). Within Stage 1 brief §10 window (3,500–4,500w).
+
+Three findings where the applied disposition differs from Pass 3.2's original recommendation:
+- **F-VP-Barrel-2** — author modified the first-sentence phrasing ("just an assumption" instead of "even so, an assumption") for punchier voice register.
+- **F-VP-Barrel-4** — Option D chosen instead of Option A. The substantive first-person methodological language in the remaining sentence ("I am using Rawls as one frame among several") was judged sufficient explicit-meta signaling without a dedicated meta-flag sentence; the comparative draft audit's empirical anchor (Draft B's zero-explicit-meta failure) was qualitatively different from this 4 → 3 reduction.
+- **F-VP-Barrel-7** — Option B chosen instead of Option A. Em-dash #2's apposition was identified mid-session as doing legitimate apposition-naming-noun-phrase work (where em-dash is the correct punctuation) rather than crutch-cadence work; asymmetric fix preserves it.
+- **F-VP-Barrel-6** — scope expanded: the original 3-option set covered refrain disposition only; author added a new bridge sentence (Option D-2) in §Close ¶1 not in any of the original 3 options.
+
+Active-findings count post-Amendment-B: 0 (all 6 active findings APPLIED; F-VP-Barrel-3 SUPERSEDED).
 
 **Audit target:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md) (Draft A; 4,088w post-Pass-3.1-Phase-C; on `main` commit `cf5db97`).
 
@@ -378,19 +399,30 @@ The other Stage 1 brief §5 categories ("in short / ultimately / fundamentally";
 
 **2026-05-21 — PROPOSED.** Pass 3.2 voice-polish artifact for $100 Barrel Draft A (post-Pass-3.1-Phase-C). 1 HIGH + 3 MEDIUM + 2 LOW findings. No Pass 3.1 fact-check impact across any finding. Phase C-α (HIGH; 3 sub-corrections) + Phase C-β (3 MEDIUM corrections) + optional Phase C-γ (0–2 LOW corrections) — all surgical at the sentence/clause level. Net word-count impact ~ -25 to -35 words (4,088w → ~4,055w; within Stage 1 brief §10 window).
 
-Awaiting author ratification of:
-1. **F-VP-Barrel-1 three sub-corrections** (cadence collapse — §III ¶2 + §V ¶7 first + §VI ¶3).
-2. **F-VP-Barrel-2 correction** (§II three-fold "may" parallel collapse).
-3. ~~F-VP-Barrel-3~~ — **SUPERSEDED 2026-05-23** (interactive sentence-craft spot-fix at essay commit `6a3da83`). No ratification required.
-4. **F-VP-Barrel-4 correction option selection** ("Notice the move." recommended vs substantive-disclaimer alternative).
-5. **F-VP-Barrel-5 disposition** (apply or hold).
-6. **F-VP-Barrel-6 option selection** (Option (a) preserve recommended / (b) vary §VI / (c) vary §Close).
-7. **F-VP-Barrel-7 disposition** (Amendment A 2026-05-23 — apply colon + dropped apposition, OR preserve em-dashes as-is per "alternative correction").
-8. **Phase C session** spin-up after ratification.
+~~Awaiting author ratification of:~~ ALL FINDINGS RATIFIED + APPLIED 2026-05-23 per Amendment B (see top of artifact). Per-finding dispositions logged in Amendment B table; original finding-by-finding ratification queue (preserved below for audit-trail completeness) is closed.
+
+1. ✅ **F-VP-Barrel-1 three sub-corrections** — ALL APPLIED 2026-05-23. Option A on 1.1 + 1.2 + 1.3.
+2. ✅ **F-VP-Barrel-2 correction** — APPLIED 2026-05-23 with author modification ("just an assumption" instead of "even so, an assumption").
+3. ~~F-VP-Barrel-3~~ — SUPERSEDED 2026-05-23 (interactive §III spot-fix at essay commit `6a3da83`). No ratification required.
+4. ✅ **F-VP-Barrel-4 correction option selection** — APPLIED 2026-05-23 as **Option D (drop entirely)**; Pass 3.2 had recommended Option A ("Notice the move."); author chose more disciplined drop after editorial discussion of explicit-meta-coverage tradeoff.
+5. ✅ **F-VP-Barrel-5 disposition** — APPLIED 2026-05-23 as recommended (Option A).
+6. ✅ **F-VP-Barrel-6 option selection** — APPLIED 2026-05-23 as **Option (a) preserve refrain + new D-2 bridge sentence** ("It has made something currently invisible, visible.") in §Close ¶1. Scope expanded beyond original 3-option set.
+7. ✅ **F-VP-Barrel-7 disposition** — APPLIED 2026-05-23 as **Option B (asymmetric fix)**; Pass 3.2 Amendment A had recommended Option A (both em-dashes fixed); claude revised recommendation mid-session after closer re-read of em-dash grammar roles.
+8. ✅ **Phase C session** — completed in same session as ratification per v3.1 Amendment C Interactive Ratification Protocol. Single commit per atomic Phase C standard.
 
 **Amendment A 2026-05-23 ratification record:**
 - Pass 3.2 PROPOSED → Pass 3.2 PROPOSED (Amendment A applied) — no Phase C application yet.
 - F-VP-Barrel-3 superseded by author-ratified interactive §III sentence-craft spot-fix (essay commit `6a3da83`); Pass 3.2 artifact updated to mark SUPERSEDED while preserving the original finding for audit-trail completeness.
+
+**Amendment B 2026-05-23 ratification + application record:**
+- Pass 3.2 PROPOSED (Amendment A applied) → **Pass 3.2 RATIFIED + APPLIED (Amendment B applied)**.
+- All 6 active findings ratified + applied in single interactive Phase C session per v3.1 Amendment C Interactive Ratification Protocol.
+- Per-finding dispositions logged in Amendment B table at top of artifact.
+- Phase C application committed to essay file (`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`) in same session; artifact + essay updates batched into single commit per atomic Phase C standard.
+- Body word count: 4,159w (post-§III-spot-fix) → 4,145w (post-Pass-3.2-Phase-C). Stage 1 brief §10 window: 3,500–4,500w. Comfortably within.
+- Next session: Pass 3.3 acceptance light re-verification per Pass 3.2 §3.5 cross-pass impact analysis. Two audit-trail flags for Pass 3.3 light re-verification:
+  - F-VP-Barrel-2 modification: "even so" concession-bridge dropped per author; one-word retrofit available if Tier 1 #3 read flags it.
+  - F-VP-Barrel-4 Option D: Condition 1 explicit-meta coverage 4 → 3 moves; substantive first-person methodological language in §IV ¶4 opening sentence carries the meta-load; "Notice the move." retrofit available if Pass 3.3 light flags the §IV entry point.
 - F-VP-Barrel-7 added as follow-up to the spot-fix; queued for standard Phase C ratification per author direction.
 
 ---
