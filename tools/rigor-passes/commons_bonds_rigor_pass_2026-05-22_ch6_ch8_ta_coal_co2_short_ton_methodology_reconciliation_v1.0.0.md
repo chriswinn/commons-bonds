@@ -1,9 +1,10 @@
 # Commons Bonds — Ch 6 / Ch 8 / TA Coal-CO₂ Short-Ton Methodology Reconciliation
 
 **Pass type:** Stage 1c cross-artifact coherence + methodology reconciliation (artifact-only; PROPOSED).
-**Date:** 2026-05-22.
+**Date:** 2026-05-22 (PROPOSED); ratified 2026-05-23 (recommended bundle).
 **Author:** Claude.
-**Status:** **PROPOSED.** Ratification gates Phase C application sessions downstream.
+**Status:** **RATIFIED — recommended bundle (§6.1 Option C + §6.2 Option C
++ §6.3 Option A).** Phase C application pending (separate session).
 **Branch:** `claude/ch6-ch8-ta-coal-co2-methodology-reconciliation-stage1c`.
 **Parent workstream:** Manuscript Stage-3 Rigor Pass (PM dashboard #20); routed via cross-thread #12 in [`publishing/strategy/cross-thread-todos.md`](../../publishing/strategy/cross-thread-todos.md#12-ch-8-line-73-coal-co-short-ton-accounting-cascade--pre-existing-finding-for-ch-8-pass-1).
 
@@ -1039,18 +1040,45 @@ audit / PM-session triage:
 
 ---
 
-## §10 — Ratification record (placeholder)
-
-Author ratification of §6.1 + §6.2 + §6.3 options to be recorded here.
+## §10 — Ratification record
 
 | Finding | Option ratified | Date | Notes |
 |---|---|---|---|
-| §6.1 Heat content basis | _PENDING_ | | |
-| §6.2 Cascade direction | _PENDING_ | | |
-| §6.3 IPG canonical lock | _PENDING_ | | |
+| §6.1 Heat content basis | **Option C** (hybrid: framework-introduction stays national-average; McDowell-specific contexts use McDowell-specific basis with footnote) | 2026-05-23 | Author ratified the recommended bundle as a unit. |
+| §6.2 Cascade direction | **Option C** (hybrid cascade matched to §6.1 Option C) | 2026-05-23 | Couples to §6.1 Option C; cascade touches per §7.2 Step 2a–2i. |
+| §6.3 IPG canonical lock | **Option A** (preserve the 33–122× lock; light annotation only) | 2026-05-23 | $524 → 116× lands inside the canonical range; no re-derivation. |
+
+**Resulting corpus state after Phase C application:**
+
+- Ch 8 McDowell-specific carbon-tail = **$510 / short ton coal**; Ch 8
+  honest-cost floor = **$524 / short ton coal** (= $2 + $1 + $5 + $510 + $2
+  + $1 + $1 + $2).
+- TA §11.1 + TA §11.6 cascade to McDowell-specific basis (2.61 mt CO₂/short
+  ton; $510 carbon-tail). TA §1.7 line 2916 retires stale "$550–$570/ton"
+  reference (drift cleanup).
+- Ch 6 line 42 + line 44 + TA §7.4 line 2859 preserve national-bituminous-
+  average basis ($441 / 2.32 mt) in framework-introduction register; Ch 6
+  line 343 (Pigouvian McDowell paragraph) cascades to McDowell-specific
+  ($510 / 2.61 mt) with footnote at Ch 6 line 42 cross-referencing the
+  basis-distinction.
+- Ch 9:12 + Ch 9:116 preserved (Option C's $524 within rounding tolerance
+  of current "$500–$600" + "approximately $550").
+- Cross-chapter consistency inventory rows 111 + 112 update to reflect
+  basis-varies-by-chapter-role disclosure.
+- HIGH-3 cross-corpus IPG canonical-construction artifact gets a light §5
+  annotation noting Ch 8 worked-example floor moved from $558 → $524; the
+  33–122× canonical lock is robust to the move and not re-derived.
+- Ch 8 line 168 + line 74 "at least four" wording retreats to "at least
+  three" per coupling note in §5.1 ($510/$140 = 3.64×, conservative
+  rounding to "at least three").
+- Cross-thread #12 status updates to RESOLVED with cascade-commit reference
+  upon Phase C application completion.
+
+**Phase C application paste-text** drafted separately for downstream
+session fire; sequencing per §7.2.
 
 ---
 
 *End of artifact. Stage 1c cross-artifact coherence + methodology
-reconciliation; PROPOSED state; ratification gates Phase C application
-sessions downstream.*
+reconciliation; RATIFIED recommended bundle; Phase C application pending
+downstream.*
