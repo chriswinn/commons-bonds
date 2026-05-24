@@ -1,7 +1,7 @@
-# Stage-3 Rigor Pass — Atlantic Ideas essay — Pass 3.1: Fact-check [PROPOSED]
+# Stage-3 Rigor Pass — Atlantic Ideas essay — Pass 3.1: Fact-check [RATIFIED]
 
-**Date:** 2026-05-23
-**Status:** PROPOSED — awaits interactive ratification (v3.1 Amendment C).
+**Date:** 2026-05-23 (PROPOSED); 2026-05-24 (RATIFIED via interactive author walk-through).
+**Status:** **RATIFIED** — per v3.1 Amendment C interactive ratification. All 20 findings dispositioned by author 2026-05-24 (see §3.5 Ratification record below). Spot-fix APPLICATION is a separate Phase C session per author direction (see §3.5 + §4 protocol notes).
 **Pass type:** Stage 3 Pass 3.1 — Fact-check (first of five passes per v3.1 doctrine).
 **Workstream:** Atlantic Ideas essay (Ch 9 → Atlantic Ideas cascade per [`publishing/strategy/cascade-plan_2026-05-06.md`](../../publishing/strategy/cascade-plan_2026-05-06.md)).
 **Artifact audited:** [`manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md) (Stage 2 audience-blind flow draft + author-ratified four-traditions diagnostic insertion; main HEAD `74f8c6c` at audit-fire time, current main `5f875a6` post coal-CO₂ cascade Phase C application).
@@ -700,15 +700,76 @@ Essay currently at 4,275w. Post-Pass-3.1 spot-fix range: **~4,309w to ~4,322w**.
 
 ---
 
+## §3.5. Ratification record (2026-05-24)
+
+Author walked through each finding interactively in PM session 2026-05-24. Per-finding dispositions captured below. **Spot-fix APPLICATION deferred to a separate Phase C session per author direction** — this ratification session captured decisions but did not apply edits to the essay source, the brief, or the bibliography. Reasons (per author signal during interactive walk): cleaner separation between ratification and application; author wants to review spot-fixes in a dedicated application session before they touch source files.
+
+### Per-finding ratification disposition
+
+| Finding | Severity | Option ratified | Spot-fix description |
+|---|---|---|---|
+| F-3.1-1 | HIGH | **(a)** | McDowell hook lower bound: "$500" → "$520" (`five hundred` → `five hundred and twenty`). Aligns with post-cascade Ch 8 floor ($518–$532 / $524 total). |
+| F-3.1-2 | LOW | **(a)** | Resync no-drift positive verification; no action. |
+| F-3.1-3 | LOW | **(a)** | No prose change to four-traditions ¶. Marx added to bibliography.md §2 Political economy of extraction. Hartwick "None priced permanent foreclosure" compression CARRY-FORWARD to Pass 3.4 robustness Hartwick-aware detractor thread-pull test. |
+| F-3.1-4 | HIGH | **(a)** | Norway GPFG: "$1.9T / $340K per citizen" → "$2T / $390K per citizen" (per Norges Bank Investment Management May 2026). |
+| F-3.1-5 | HIGH | **(a)** | Alaska PFD: "most recently in the thirteen-to-seventeen-hundred-dollar range" → "most recently one thousand dollars, with the dividend across the past several years ranging from one thousand to one thousand seven hundred." |
+| F-3.1-6 + F-3.1-7 (paired) | MEDIUM | **(c-restructure)** | Mondragon: "about ninety-five worker-owned cooperatives employing roughly eighty thousand workers" → "about eighty cooperatives in the Basque region and across Spain, plus a growing international footprint, employing roughly seventy thousand workers in total." |
+| F-3.1-8 | MEDIUM | **(a)** | Alaska assets: "about eighty billion dollars" → "about eighty-five billion dollars." |
+| F-3.1-9 | MEDIUM CARRY-FORWARD | **(b)** | Mian-Sufi: "by a factor of three to four" → "by a factor on the order of three- to four-fold." Soft-anchor hedge survives fact-checker cross-check; author Mian-Sufi primary-text check added as pre-Pass-3.2 task (separate from default Stage 5 carry-forward). |
+| F-3.1-10 | MEDIUM CARRY-FORWARD | **(a)** | Baotou: "seven square miles of radioactive slurry" → "approximately five square miles of radioactive slurry." |
+| F-3.1-11 | MEDIUM | **(b)** | US 2008: "produced about ten million foreclosures" → "produced about ten million foreclosure filings." |
+| F-3.1-12 | LOW | leave-as-is | Mondragon pay ratio "six or nine to one" — defensible as current-or-historical phrasing; no change. |
+| F-3.1-13 | LOW | **(a)** | Carbon pricing: "over seventy jurisdictions" → "over eighty jurisdictions"; "roughly a quarter of global greenhouse emissions" → "nearly thirty percent of global greenhouse emissions." |
+| F-3.1-14 | LOW | leave-as-is | Wohnbauförderungsbeitrag "1 percent" — historical anchor; no change (rate rises to 1.5% effective 2026 but not load-bearing). |
+| F-3.1-15 | LOW | leave-as-is | Vienna apartments "more than 200K" — true against either municipal-only (~220K) or total social-housing (~420K) figures; no change. |
+| F-3.1-16 | LOW | leave-as-is | Chattanooga EPB "2010" — standard secondary-source citation; no change. |
+| F-3.1-17 | LOW | leave-as-is | Norway GPFG "established in 1990 (renamed in 2006)" — act-vs-first-deposit compression acceptable for Atlantic Ideas register; no change. |
+| F-3.1-18 | LOW | **(a)** | McDowell hook: "the silica dust that scarred the miner's lungs" → "the coal and silica dust that scarred the miner's lungs." |
+| F-3.1-19 | LOW | positive verification | CBAM "fully operational in 2026" — confirmed. |
+| F-3.1-20 | LOW | positive verification | Four-traditions Marx/Ostrom/Daly/Hartwick attribution accuracy — all confirmed. |
+| F-3.1-21 | LOW | positive verification | Darity & Mullen $14T — confirmed against 2023+ public-record figures. |
+| F-3.1-22 | LOW | positive verification | Apparatus-exclusion-list sweep — CLEAN. |
+
+### Brief amendments + bibliography housekeeping disposition
+
+| Item | Disposition |
+|---|---|
+| Brief §7.1 post-cascade McDowell refresh | **APPROVED** for combined housekeeping batch — brief becomes v1.1.4. |
+| Brief §7.6 Norway / Alaska / Mondragon figure refresh | **APPROVED** for combined housekeeping batch. |
+| Brief §7.3 carbon pricing + Baotou tailings refresh | **APPROVED** for combined housekeeping batch. |
+| Bibliography `research/literature/bibliography.md` Marx, *Capital* Vol I (1867) entry | **APPROVED** — added to §2 Political economy of extraction (more thematically natural than the originally proposed §13 Framework-adjacent; sits in Harvey/Klein/Piketty/Polanyi lineage). |
+
+### Stage 5 pre-publication review queue carry-forwards
+
+| Item | Disposition |
+|---|---|
+| F-3.1-9 Mian-Sufi primary-text verification | **(b) Upgraded to pre-Pass-3.2 task**: author Mian-Sufi primary-text check before Pass 3.2 fires (in addition to default Stage 5 editor-side fact-checker focus area). |
+| F-3.1-10 Baotou tailings size primary source | Stage 5 pre-publication review queue (recommended editor-side fact-checker focus area). |
+| F-3.1-4 / 5 / 6 / 7 / 8 / 13 figure-currency rechecks | Stage 5 pre-publication review queue if Atlantic Ideas decision lands >60 days post-Pass-3.1; figures move. |
+
+### Estimated word-count delta on application
+
+Per-finding word-deltas (recap from §3 above): F-3.1-1 +2w; F-3.1-3 0; F-3.1-4 0; F-3.1-5 +12w; F-3.1-6+7 +14w; F-3.1-8 0; F-3.1-9 +3w; F-3.1-10 0; F-3.1-11 +1w; F-3.1-13 0; F-3.1-18 +2w. **Net delta: +34w.** Essay 4,275w → ~4,310w. Within brief §10 substance-drives-length tolerance.
+
+### Path B compliance at ratification
+
+Ratification session opened only this artifact, the essay file (for spot-fix-text reference only — no Ch 9 / sibling essay reads), the bibliography (for Marx entry placement), and the brief (for amendment placement). Application session is expected to maintain the same Path B discipline.
+
+### Phase C application — separate session
+
+Spot-fix application to [`manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md) + brief amendments + Marx bibliography entry fire as a separate Phase C session under PM-session control. Per CLAUDE.md merge-to-main defaults (extended 2026-05-16): Phase C spot-fix application sessions are author-ratified-content-change category — they autonomously fast-forward merge to main at session close. PM session drafts the application paste-text from the §3.5 ratification record above.
+
+---
+
 ## §4. Interactive ratification protocol (per v3.1 Amendment C)
 
-This artifact is **PROPOSED**. Per v3.1 Amendment C (ratified 2026-05-19; updated 2026-05-21 in Boston Review brief v1.0.1 §13 + Atlantic Ideas brief v1.1.0 §13.1), prose-modifying passes (3.1 / 3.2 / 3.5) follow per-finding artifact format with Options + Recommendation + Reasoning. Ratification is **INTERACTIVE** — a follow-up session walks the author through each finding with options + recommendation + reasoning, applies ratified spot-fixes to source in the same combined session.
+**RATIFIED 2026-05-24** per v3.1 Amendment C (ratified 2026-05-19; updated 2026-05-21 in Boston Review brief v1.0.1 §13 + Atlantic Ideas brief v1.1.0 §13.1). Prose-modifying passes (3.1 / 3.2 / 3.5) follow per-finding artifact format with Options + Recommendation + Reasoning. Author interactive walk-through 2026-05-24 captured per-finding dispositions in §3.5 above.
 
-**Per-finding ratification expected at the interactive session:**
+**Application path:** Per author direction at the ratification session, spot-fix APPLICATION deferred to a separate Phase C session. Reasoning: cleaner separation between ratification (this session, decisions only) and application (next session, source edits) — gives author opportunity to review the assembled spot-fix bundle before it touches the essay file, brief, or bibliography.
 
-For each F-3.1-N finding, author selects Option (a) / (b) / (c) / (d) — or supplies an alternative. The session then applies ratified spot-fixes to [`manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md) directly on a fresh Phase C feature branch. Brief amendments + bibliography addition fire as same-session housekeeping per §3 above.
+**Per-finding ratification record:** see §3.5 above.
 
-**No Path B violations expected at ratification:** all spot-fixes generate fresh prose from §7 anchors (or §7-amended anchors) or close inline through number substitution; no paste-from-Ch-9 or sibling-essay-paste moves required.
+**No Path B violations expected at application:** all spot-fixes generate fresh prose from §7 anchors (or §7-amended anchors) or close inline through number substitution; no paste-from-Ch-9 or sibling-essay-paste moves required. The application session should use the §3.5 ratification record as its source-of-truth for what to apply.
 
 ---
 
@@ -725,4 +786,4 @@ After Pass 3.1 interactive ratification + Phase C spot-fix application + brief /
 
 ---
 
-*End of Stage 3 Pass 3.1 fact-check rigor pass artifact for Atlantic Ideas essay — PROPOSED 2026-05-23. Awaits interactive ratification per v3.1 Amendment C.*
+*End of Stage 3 Pass 3.1 fact-check rigor pass artifact for Atlantic Ideas essay — PROPOSED 2026-05-23 / **RATIFIED 2026-05-24** per v3.1 Amendment C interactive walk-through. Per-finding ratification record at §3.5. Phase C application fires as separate session per author direction.*
