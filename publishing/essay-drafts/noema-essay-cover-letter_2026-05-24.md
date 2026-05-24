@@ -8,7 +8,7 @@
 **Bio source:** [`publishing/book-proposal/03_author-platform.md`](../book-proposal/03_author-platform.md) Medium (~85w) variant verbatim — designated per the variant table as the Noema-cover-note bio. Placements section unchanged since 2026-05-09; no "Recent essays in [venue]" clause to integrate.
 **AI-disclosure source:** [`publishing/essay-drafts/templates/ai-disclosure-paragraph.md`](templates/ai-disclosure-paragraph.md) Noema variant verbatim (per the template's per-venue table for Noema — Noema's editorial guidelines require disclosure; framing drops "proactively" since Noema does ask).
 **Path B compliance:** `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md` was NOT opened during this session. Cover-letter content drawn from the post-Stage-5 essay state, the Stage 1 brief, the bio document, the AI-disclosure template, and the Stage 5 sign-off only.
-**Status:** PROPOSED. Author ratification of personalization sentences (paragraphs 2-4) gates Noema submission portal upload.
+**Status:** RATIFIED 2026-05-24. Author ratified the 6-paragraph body + medium bio + Noema AI-disclosure variant + salutation + sign-off as drafted. Noema submission portal upload now gated only on submission-window author actions (Stage 4 render verification; Norway fund value re-verification; Phat consent-status check; Biggie + Colden + Moore courtesy-notifications). See §"Ratification record" at end.
 ---
 
 # Cover letter — submission-ready body
@@ -57,16 +57,44 @@ Chris Winn
 
 ---
 
-# Author-input items requiring ratification before submission
+# Author-input items — ratification status
 
-Per Decision #13 session brief, the following items in the cover letter body require explicit author ratification before Noema submission portal upload:
+Per Decision #13 session brief, the following items in the cover letter body required explicit author ratification before Noema submission portal upload. **All 5 items ratified 2026-05-24 as drafted.** Ratification status:
 
-1. **Personalization paragraphs 2-4** (essay framing + Mazzucato/Mondragon/Black-literary positioning + cascade coordination). Drafted per Stage 1 brief §2 Noema editorial brain map ("What Noema editors want: three-register weave; named living sources; internationalist scope; cultural-engagement seriousness"); author may revise framing emphasis, add specific recent-Noema-essay references, or adjust comp-shelf alignment if preferred. Current draft mirrors BR cover letter structure (commit `d7fe933`) with Noema-specific framing throughout.
-2. **Medium bio paragraph** (paragraph 5; verbatim from `publishing/book-proposal/03_author-platform.md` ~85w Medium variant). Author should verify nursing-student status at Virginia Peninsula Community College remains current; verify former-healthcare-IT-executive framing remains current; verify "lives aboard a sailboat in Hampton" geographic detail remains current.
-3. **AI-disclosure paragraph** (paragraph 6; verbatim from `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` Noema variant). Author should re-verify against current Noema editorial AI-guidelines at submission-window (per submission checklist item 3); if Noema's template has shifted, update phrasing.
-4. **Salutation** (currently "Dear Editors,"). Discipline: no specific editor names pinned per session's no-pin-discipline. If Noema portal exposes a current masthead requiring specific salutation, update before submit (per submission checklist item 1).
-5. **Sign-off** (currently "Best, Chris Winn"). Author may revise sign-off register if preferred.
+1. **Personalization paragraphs 2-4** (essay framing + Mazzucato/Mondragon/Black-literary positioning + cascade coordination). **RATIFIED as drafted.** Drafted per Stage 1 brief §2 Noema editorial brain map ("What Noema editors want: three-register weave; named living sources; internationalist scope; cultural-engagement seriousness"); mirrors BR cover letter structure (commit `d7fe933`) with Noema-specific framing throughout.
+2. **Medium bio paragraph** (paragraph 5; verbatim from `publishing/book-proposal/03_author-platform.md` ~85w Medium variant). **RATIFIED as drafted.** Verbatim-from-source per author-platform bio discipline. Current-status verification (nursing-student status at VPCC; former-healthcare-IT-executive framing; "lives aboard a sailboat in Hampton" geographic detail) deferred to submission-window per author bandwidth.
+3. **AI-disclosure paragraph** (paragraph 6; verbatim from `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` Noema variant). **RATIFIED as drafted.** Re-verification against current Noema editorial AI-guidelines deferred to submission-window per submission-checklist item 3.
+4. **Salutation** (currently "Dear Editors,"). **RATIFIED as drafted.** Discipline: no specific editor names pinned per session's no-pin-discipline. If Noema portal exposes a current masthead requiring specific salutation, update at submission-window per submission-checklist item 1.
+5. **Sign-off** (currently "Best, Chris Winn"). **RATIFIED as drafted.**
 
 ---
 
-*End of Decision #13 deliverable. Per CLAUDE.md rigor-pass-artifact merge-to-main default + author "fire that session" direction 2026-05-24, this cover-letter artifact autonomously fast-forwards to main at session close. Noema submission portal upload is the author action gated on submission-checklist items 1-7 above + author-input-ratification items 1-5 above; this session does not perform the upload.*
+# Ratification record (2026-05-24)
+
+Author ratified cover letter 2026-05-24 with single-word ratification ("ratify cover letter"). All 5 author-input items ratified as drafted; cover letter status moved from PROPOSED to RATIFIED.
+
+**Ratified as drafted (essay-scope content):**
+
+- 6-paragraph cover-letter body (~590w within 450-600w envelope)
+- Medium bio (verbatim from `publishing/book-proposal/03_author-platform.md` ~85w Medium variant)
+- Noema AI-disclosure variant (verbatim from `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` per per-venue table for Noema)
+- Salutation ("Dear Editors,") + sign-off ("Best, Chris Winn")
+
+**Carry-forward to submission-window (author actions; not ratification-gating):**
+
+1. **Stage 4 essay-scale render audit** — verify Noema submission portal preview renders em-dashes, italics, curly-quotes, section subheads, no scaffolding leakage
+2. **Norway fund value re-verification** — verify current GPFG value (~$1.9T as of essay drafting 2026-05-10) at submission-window; update essay line 97 + cover letter §1 if material drift
+3. **Phat consent-status check** — verify whether consent landed since 2026-05-20 anonymization ratification; if so, swap name back at essay line 137; if not, submit anonymized
+4. **Biggie courtesy-notification** — good-faith effort to identify and notify reachable surviving family before submission per named-subject consent discipline (deceased 30+ years)
+5. **Colden + Moore courtesy-notification** — send to subjects or CBF communications coordinator with verbatim quotes attributed to them (essay line 131); ask for citation-accuracy verification only (not consent gating); courtesy timing pre-submission per public-record-exception practice
+6. **Re-verify Noema AI-disclosure phrasing against current Noema editorial guidelines** at submission-window
+7. **Re-verify medium bio current-status** (nursing-student status; healthcare-IT-executive framing; sailboat-in-Hampton geographic detail)
+8. **Re-verify Boston Review essay submission status** (cascade-coordination soft-clip phrasing in §4 cover letter — "queued for Boston Review's Submittable portal" may update to "currently under consideration" if BR lands first)
+9. **Re-verify Aeon pitch submission status** (June 1-7 portal window cascade-coordination)
+10. **Update `publishing/book-proposal/03_author-platform.md` Soft Clips table** post-submission with date + venue + title + status
+
+**No further author ratification gates remain before submission.** Submission portal upload is the author action; this session does not perform the upload.
+
+---
+
+*End of Decision #13 deliverable. RATIFIED 2026-05-24. Per CLAUDE.md rigor-pass-artifact merge-to-main default + author "fire that session" direction 2026-05-24 + author "ratify cover letter" direction 2026-05-24, this cover-letter artifact autonomously fast-forwards to main at session close. Noema submission portal upload is the author action gated on submission-window items 1-10 above; this session does not perform the upload.*
