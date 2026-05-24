@@ -1,7 +1,7 @@
 # Stage-3 Rigor Pass — Boston Review essay — Pass 3.1: Fact-check [PROPOSED]
 
 **Date:** 2026-05-23
-**Status:** PROPOSED — awaits interactive ratification (v3.1 Amendment C).
+**Status:** **RATIFIED + APPLIED 2026-05-23** via author "continue" + "ratify as recommended" signals. All 5 spot-fixes applied to draft + brief §7.9 amendment landed in commit `fda6500`. Header ratification flag added via author "(A)" signal 2026-05-23 (file-header hygiene pass). (Originally PROPOSED 2026-05-21 in commit `1402369`; v3.1 Amendment C interactive ratification cycle complete.)
 **Pass type:** Stage 3 Pass 3.1 — Fact-check (first of five passes per v3.1 doctrine).
 **Workstream:** Boston Review essay (Ch 5 → BR cascade allocation per `publishing/strategy/cascade-plan_2026-05-06.md`).
 **Artifact audited:** [`manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md) (Stage 2 audience-blind flow draft, PROPOSED 2026-05-21, branch `claude/boston-review-essay-stage-2-fresh-draft-clever-sinoussi-440b42`, commit `02c6a19`).

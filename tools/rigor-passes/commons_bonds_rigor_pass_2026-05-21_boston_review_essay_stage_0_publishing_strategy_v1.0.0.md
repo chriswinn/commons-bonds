@@ -1,6 +1,6 @@
 # Boston Review Essay — Stage 0 Publishing-Strategy Rigor Pass v1.0.0 — 2026-05-21
 
-**Status:** PROPOSED, pending author ratification. Per CLAUDE.md rigor-pass-artifact merge-to-main default, autonomously fast-forwards to `main` at session close.
+**Status:** **RATIFIED 2026-05-21** via author "ratify and go" signal. Q1 GO verdict + Q2 QUEUE-FOR-LATER sequencing operative; triggered Stage 1c cross-artifact coherence check → Stage 1 bookend sign-off → Stage 2 audience-blind flow draft cascade. Header re-ratification flag confirmed via author "(A)" signal 2026-05-23 (file-header hygiene pass). (Originally PROPOSED 2026-05-21 in commit `419f916`.)
 
 **Scope (fuller Stage 0 per BR brief Decision #15):** Q1 GO/NO-GO verdict + Q2 sequencing verdict + FPD v1.0.0 non-partisan-framing re-confirm + venue allocation against current state + rights-conflict updates since 2026-05-06 + comp-titles validation against current bibliography + Berggruen-Aeon-Noema cascade coordination check + cross-thread-todos refresh + agent-pipeline alignment with Wave-1 late-July/early-August 2026 target.
 

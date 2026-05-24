@@ -1,7 +1,7 @@
 # Stage-3 Rigor Pass — Boston Review essay — Pass 3.5: Developmental-edit [PROPOSED]
 
 **Date:** 2026-05-23
-**Status:** PROPOSED — awaits interactive ratification (v3.1 Amendment C).
+**Status:** **RATIFIED + APPLIED 2026-05-23** via author "ratify as recommended" signal. All 6 ratified restorations applied to draft (F-3.5-12 §I scene-anchor; F-3.5-5 §III concrete-image; F-3.5-3 Mexico→Pistor; F-3.5-2 four-traditions; F-3.5-1 Norway pivot-breath; F-3.5-4 Pettit distinction); F-3.5-6 C-12 implementation-register HELD per recommendation. Net +354w (4,499w → 4,853w; within §11 5,000w ceiling). Landed in commit `18d8f56`. Path B cross-essay extension held (Aeon-verbatim Entry #1 NOT pasted; 0 Marx/Ostrom/Daly in BR essay). Acceptance lifts confirmed by light Pass 3.3 re-fire (commit `404222f`). Header ratification flag added via author "(A)" signal 2026-05-23 (file-header hygiene pass). (Originally PROPOSED 2026-05-23 in commit `8639faa`.)
 **Pass type:** Stage 3 Pass 3.5 — Developmental-edit (fifth of five passes per v3.1 doctrine; restoration polarity).
 **Workstream:** Boston Review essay (Ch 5 → BR cascade allocation per `publishing/strategy/cascade-plan_2026-05-06.md`).
 **Artifact audited:** [`manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md) (Stage 2 audience-blind flow draft, POST-Pass-3.1-applied + POST-Pass-3.2-applied state; commits `fda6500` + `b31ee2d`; Pass 3.3 PASS at 16/16 INCLUDE; Pass 3.4 did NOT fire per Decision #7 (C-12 returned ✓ INCLUDE ≥ NEUTRAL)). Word count: ~4,499w.

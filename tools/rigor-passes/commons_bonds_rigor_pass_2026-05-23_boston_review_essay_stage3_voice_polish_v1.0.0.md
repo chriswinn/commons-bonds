@@ -1,7 +1,7 @@
 # Stage-3 Rigor Pass — Boston Review essay — Pass 3.2: Voice-polish [PROPOSED]
 
 **Date:** 2026-05-23
-**Status:** PROPOSED — awaits interactive ratification (v3.1 Amendment C).
+**Status:** **RATIFIED + APPLIED 2026-05-23** via author "as recommended" signal. All 9 ratified spot-fixes + 2 consistency-completion drops applied to draft, landed in commit `b31ee2d`. Pass 3.5 forward-pointers (F-3.2-3 + F-3.2-14) carried + resolved at Pass 3.5 (commit `18d8f56`). Header ratification flag added via author "(A)" signal 2026-05-23 (file-header hygiene pass). (Originally PROPOSED 2026-05-23 in commit `7cd4444`; v3.1 Amendment C interactive ratification cycle complete.)
 **Pass type:** Stage 3 Pass 3.2 — Voice-polish (second of five passes per v3.1 doctrine).
 **Workstream:** Boston Review essay (Ch 5 → BR cascade allocation per `publishing/strategy/cascade-plan_2026-05-06.md`).
 **Artifact audited:** [`manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md) (Stage 2 audience-blind flow draft, POST-Pass-3.1-spot-fix-application state, ratified 2026-05-23 per commit `fda6500`).

@@ -1,7 +1,7 @@
 # Stage-3 Rigor Pass — Boston Review essay — Pass 3.3 LIGHT RE-FIRE (post-Pass-3.5-applied) [PROPOSED]
 
 **Date:** 2026-05-23
-**Status:** PROPOSED — awaits author verdict-level ratification. Light re-fire is acceptance scoring; not prose-modifying; no Amendment-C per-finding format required.
+**Status:** **RATIFIED 2026-05-23 — PASS verdict accepted.** 5/5 forecast Pass-3.5-restoration lifts landed (C-1 + C-2 + C-6 + C-7 → ✓✓✓; C-15 ✓ → ✓✓); C-12 holds at ✓ INCLUDE (Pass 3.4 opt-in trigger continues to not fire); 0 downgrades. Strongest acceptance verdict pattern observed: 5 ✓✓✓ + 10 ✓✓ + 1 ✓ / 0 NEUTRAL / 0 EXCLUDE across all 16 characters. Verdict-level acceptance (no prose modification). Header ratification flag added via author "(A)" signal 2026-05-23 (file-header hygiene pass). (Originally PROPOSED 2026-05-23 in commit `404222f`.)
 **Pass type:** Stage 3 Pass 3.3 — Audience-load acceptance, **LIGHT RE-FIRE** after Pass 3.5 ratify-and-applied (per parent doctrine §3.6.4 cascade-routing protocol).
 **Workstream:** Boston Review essay (Ch 5 → BR cascade allocation per `publishing/strategy/cascade-plan_2026-05-06.md`).
 **Artifact audited:** [`manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md) (Stage 2 audience-blind flow draft, POST-Pass-3.5-applied state; commit `18d8f56`). Word count: ~4,853w.
