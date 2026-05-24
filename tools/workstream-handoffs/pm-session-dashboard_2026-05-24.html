@@ -213,6 +213,7 @@
     <li><a href="#chapters">7. Book chapters dashboard</a></li>
     <li><a href="#other">8. Other workstreams</a></li>
     <li><a href="#dates">9. Date-anchored action list</a></li>
+    <li><a href="#parallel-sessions">9b. Parallel session inventory</a></li>
     <li><a href="#suggestions">10. Suggestions</a></li>
   </ul>
 </div>
@@ -651,6 +652,51 @@
 <div class="pri-low">
   <strong>Opportunistic — any time during June</strong>
   <ul><li>Op-ed cascade (Norway sovereign-wealth + McDowell true-cost) — fire on news-peg</li></ul>
+</div>
+
+<h2 id="parallel-sessions">9b. Parallel session inventory</h2>
+
+<div class="callout">
+  <strong>Why this section exists.</strong> At ~21 parallel sessions open simultaneously (author observation 2026-05-24), the PM session needs an explicit tracker. Per <code>tools/memory/feedback_parallel_session_ratification_cadence.md</code> (canonical pattern ratified 2026-05-24): cognitive switching ceiling is the binding constraint; this table makes 20+ parallel sessions navigable.
+  <br><br>
+  <strong>Refresh cadence at ~21 sessions:</strong> daily during sprint mode; otherwise every 2–3 days. Scrape standardized end-of-session one-liner from each session's last commit + direct check-in via <code>tools/drafting-templates/existing-session-checkin-paste-text.md</code> for ambiguous cases.
+</div>
+
+<h3>Status marker key</h3>
+<ul>
+  <li>🔴 <strong>AUTHOR DECISION REQUIRED</strong> — author must ratify / decide / answer</li>
+  <li>🟡 <strong>SUB-SESSION NEEDED</strong> — current session paused; author must fire named sub-session</li>
+  <li>🟢 <strong>NEXT STAGE READY</strong> — current pass/stage complete; author confirms to advance</li>
+  <li>🔵 <strong>ESCALATION</strong> — structural issue surfaced; needs author discussion</li>
+  <li>⏳ <strong>CLAUDE-ACTION IN PROGRESS</strong> — session working autonomously</li>
+  <li>🟣 <strong>AWAITING EXTERNAL</strong> — blocked on external (editor reply; Sandy feedback)</li>
+  <li>✅ <strong>SESSION COMPLETE</strong> — closed; commit hash logged</li>
+</ul>
+
+<h3>Session inventory (populate at next PM refresh)</h3>
+
+<table>
+  <thead>
+    <tr><th>Session (branch)</th><th>Workstream / current pass</th><th>Pending state</th><th>Awaiting</th><th>Parent</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="6"><em>21 rows to be populated at next PM refresh — see <code>tools/drafting-templates/existing-session-checkin-paste-text.md</code> for the paste-text that surfaces per-session state. Refresh after pasting the check-in into each session and collecting their state responses.</em></td></tr>
+  </tbody>
+</table>
+
+<h3>Sub-session lineage (parent → child)</h3>
+
+<table>
+  <thead>
+    <tr><th>Parent session</th><th>Child session</th><th>Spawn trigger</th><th>Resume marker</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="4"><em>To be populated at next PM refresh as sub-session relationships are discovered via check-ins.</em></td></tr>
+  </tbody>
+</table>
+
+<div class="callout">
+  <strong>Cognitive-saturation signal.</strong> If accept-recommendation rate falls below ~60% sustained across multiple sessions: switch from sprint → sustained → blocked mode per <code>tools/memory/feedback_parallel_session_ratification_cadence.md</code> §"Cognitive sustainability."
 </div>
 
 <h2 id="suggestions">10. Suggestions (added per author request 2026-05-24)</h2>

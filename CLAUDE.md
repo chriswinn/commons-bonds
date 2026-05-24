@@ -10,29 +10,79 @@ Each workstream operates on a dedicated feature branch
 canonical branch-discipline reference.
 
 **Merge-to-main default (established 2026-05-16 by author
-direction; extended to rigor-pass artifacts 2026-05-16).**
-Sessions that complete *author-ratified content changes* — Phase C
-spot-fix application sessions, chapter-text edits ratified by the
-author before the session begins, and similar work where the
-author has explicitly approved the change set ahead of the
-session — autonomously fast-forward merge their feature branch
-into `main` and push `origin/main` at session close, instead of
-stopping at the feature branch.
+direction; extended to rigor-pass artifacts 2026-05-16; extended
+to all internal scaffolding 2026-05-24).**
 
-Rigor-pass artifacts (Stage-3 fact-check / voice-polish /
-audience-load passes at any of the three passes; Stage-2
-audience-blind drafts; audit findings prior to author
-disposition) **also autonomously fast-forward merge to `main` at
-session close.** Rationale: these artifacts are internal
-scaffolding that propose spot-fixes rather than apply them; the
-chapter file under audit is unchanged, so merging the rigor-pass
-artifact to `main` does not commit any content change ahead of
-author ratification. Author ratification still gates Phase C
-spot-fix application (which is a separate session).
+The boundary that matters: **end-user-facing prose** vs.
+**internal scaffolding**.
 
-Sessions producing *direct content edits without prior author
-ratification* continue to stop at feature branch and wait for
-explicit author merge.
+**End-user-facing prose** (changes require author ratification
+BEFORE merge to main):
+
+- `manuscript/chapters/` — book chapter prose
+- `manuscript/essay/` — derivative-essay prose (Aeon, Noema, BR,
+  PW, Atlantic Ideas, Wave 2 candidates, etc.)
+- `publishing/op-eds/` — op-ed canonical drafts (news-peg
+  activation variants in dated sibling files are derivatives)
+- `publishing/book-proposal/` — proposal prose (agent/editor-
+  facing)
+- Outreach packet content that will be sent to subjects (Sandy,
+  Colden, CBF, etc.)
+- Cover letters / pitch emails attached to submissions
+- Anything that goes out the door to anyone other than the author
+
+Apply changes to these files via Phase C application sessions
+where the author is present + ratifying. Until author ratifies,
+these files DO NOT update on origin/main.
+
+**Internal scaffolding** (all autonomously fast-forward merges
+to main at session close):
+
+- `tools/rigor-passes/` — rigor-pass artifacts at any stage
+  (PROPOSED, RATIFIED, decision artifacts, audit findings)
+- `tools/workstream-handoffs/` — PM dashboards, workstream
+  handoffs, paste-text bundles, kick-off scaffolds
+- `tools/memory/` — memory entries (feedback, reference,
+  project)
+- `tools/drafting-templates/` — templates, scaffolds, generic
+  drafting-trigger paste-texts
+- `tools/quality-gates/`, `tools/scripts/`, `tools/audits/` —
+  pipeline infrastructure
+- `publishing/strategy/` — cascade plans, decisions logs,
+  cross-thread-todos, submission schedules
+- `research/` — research notes, outreach packet DRAFTS (before
+  send), background briefs, literature notes
+- `alignment/` — working principles, framework positioning
+  documents
+- `archive/` — historical record
+- README files, documentation, `CLAUDE.md` itself
+- Anything that only the author will ever see
+
+Rationale (extended 2026-05-24): the risk of losing work by
+forgetting to push is bigger than the risk of pushing premature
+internal scaffolding to main, since only the author sees
+internal scaffolding and any issue can be iterated again. The
+irreversibility (and reputational stake) lives at the end-user-
+facing-prose boundary — once shipped, you cannot easily un-ship.
+Internal scaffolding is iterable indefinitely; main is the
+durable record of where the scaffolding currently sits.
+
+**Per-session protocol:** at session close, the session
+classifies its commits and auto-merges the internal-scaffolding
+commits to main. End-user-facing prose commits stay on the
+feature branch until the author ratifies and explicitly merges.
+
+**Active-push expectation (from 2026-05-10).** As ratified
+chunks complete, push them promptly — don't accumulate ratified
+work on the feature branch waiting for explicit "push now."
+Default behavior is push-on-chunk-completion.
+
+**Pre-push reconciliation pattern.** Before fast-forwarding to
+main, `git fetch origin main` and `git rebase origin/main` to
+inherit any parallel-session work. If a parallel session
+resolved or contradicts something in the chunk being pushed,
+add a small reconciliation commit so what lands on main is
+consistent. Then push.
 
 Hard constraints (recurring): never force-push `main`; never
 amend a commit already on `origin/main`; never skip hooks

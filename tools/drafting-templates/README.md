@@ -83,6 +83,26 @@ DO:
     format if this is a prose-modifying pass: for each finding,
     present Options + Recommendation + Reasoning; author ratifies
     in-session
+  - Present findings/decisions ONE AT A TIME. Track the full
+    findings list internally (organized by severity HIGH → MED →
+    LOW). Show the author exactly ONE finding at a time in
+    canonical format (Problem / Options / Recommendation /
+    Reasoning). Wait for author disposition before showing the
+    next. NEVER dump a full findings inventory in a single output
+    — that breaks the parallel-session-hop cadence the author
+    uses to work multiple rigor sessions concurrently. (See
+    tools/memory/feedback_parallel_session_ratification_cadence.md.)
+  - Severity-strict ordering: HIGH → MED → LOW; never interleave.
+  - Use STANDARDIZED STATUS MARKERS in any output where the author
+    needs to act, decide, or move stages:
+      🔴 AUTHOR DECISION REQUIRED: [what specifically; brief]
+      🟡 SUB-SESSION NEEDED: [what to fire; paste-text source or inline]
+      🟢 NEXT STAGE READY: [what stage; what to confirm to advance]
+      🔵 ESCALATION: [structural issue worth discussion before continuing]
+  - End the session with a standardized one-line state summary:
+    STATE: [PROPOSED|APPLIED|RATIFIED]; NEXT: [author-action-required|
+    sub-session-fires|automatic]; AWAITING: [author-ratification|
+    sub-session-X|external-X]
   - Verify all time-sensitive claims against current state (per
     feedback_verify_stale_memory_claims.md)
   - Apply Path B audit if drafting from chapter source

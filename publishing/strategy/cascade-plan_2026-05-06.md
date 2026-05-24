@@ -3,7 +3,16 @@
 **Date drafted:** 2026-05-06  ·  **Date modified:** 2026-05-10
 **Author:** Chris Winn  ·  **Book target:** 2026–2027
 
-> **⚠ STALENESS WARNING (added 2026-05-21).** This cascade plan was last
+> **🛑 SUPERSEDED 2026-05-24 (PROPOSED) by [`cascade-plan_v2_2026-05-24.md`](cascade-plan_v2_2026-05-24.md).**
+> This file is retained as historical record only. New canonical strategy
+> artifact: `publishing/strategy/cascade-plan_v2_2026-05-24.md` (PROPOSED;
+> pending author ratification per Wave 2 Stage 0 batch ratification
+> sequence at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md`).
+> Once cascade plan v2 ratifies, this file becomes purely-historical and
+> the staleness-warning content below is no longer load-bearing for the
+> current pipeline.
+>
+> **⚠ STALENESS WARNING (added 2026-05-21; preserved as audit trail).** This cascade plan was last
 > meaningfully updated 2026-05-10 — before the entire book reached drafted
 > state + before v3.0 → v3.1 pipeline doctrine adoption + before the
 > 2026-05-21 cross-thread-todos comprehensive staleness refresh + before

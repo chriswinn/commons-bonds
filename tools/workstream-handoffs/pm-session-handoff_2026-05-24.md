@@ -274,6 +274,43 @@ Plus the 4 essay-side ratifications already in §4. **Total: ~9 ratifications ac
 
 ---
 
+## 10b. Parallel session inventory
+
+**Why this section exists.** At ~21 parallel sessions open simultaneously (author observation 2026-05-24), the PM session needs an explicit tracker for cross-session state. Per [`../memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md) (canonical pattern ratified 2026-05-24): cognitive switching ceiling is the binding constraint; this table is the meta-tracker that makes 20+ parallel sessions navigable.
+
+**Refresh cadence at current session count (~21):** daily during sprint mode; otherwise every 2–3 days. Refresh by scraping the standardized end-of-session one-liner from each session's last commit + checking pending-decision state via direct session check-in if needed.
+
+**Status marker key:**
+- 🔴 AUTHOR DECISION REQUIRED — author must ratify / decide / answer before session continues
+- 🟡 SUB-SESSION NEEDED — current session paused; author must fire named sub-session
+- 🟢 NEXT STAGE READY — current pass/stage complete; author confirms to advance OR fire next stage
+- 🔵 ESCALATION — structural issue surfaced; needs author discussion
+- ⏳ CLAUDE-ACTION IN PROGRESS — session working autonomously; no author action needed
+- 🟣 AWAITING EXTERNAL — blocked on external response (editor reply; Sandy feedback; etc.)
+- ✅ SESSION COMPLETE — closed; commit hash logged
+
+**Inventory template (populate by hand or via PM session refresh after the next major phase shift):**
+
+| Session (branch) | Workstream / current pass | Pending state | Awaiting | Parent | Notes |
+|---|---|---|---|---|---|
+| `claude/<workstream>-<harness>` | e.g., Ch 9 Pass 3.4 audience-load robustness | 🔴 AUTHOR DECISION on F-AL4-Ch9-3 | author-ratification | — | Pass 3.4 verdict bundle PROPOSED `f47dd1c` |
+| `claude/<workstream>-<harness>` | e.g., Ch 6 Pass 3.3 light re-fire | ⏳ CLAUDE-ACTION (drafting) | claude-action | — | Post-Pass-3.5 light re-fire |
+| `claude/<workstream>-<harness>` | e.g., $100 Barrel Stage 5 sign-off | ✅ SESSION COMPLETE | — | — | RATIFIED 2026-05-24 (`0266525`); next action = author submits |
+| ... (21 rows for current state — populate at next PM refresh) | ... | ... | ... | ... | ... |
+
+**Sub-session lineage tracking (when a parent session spawns children):**
+
+| Parent session | Child session | Trigger | Resume marker |
+|---|---|---|---|
+| e.g., `claude/atlantic-ideas-stage1-<h1>` | `claude/atlantic-ideas-stage2-<h2>` | "fire fresh session to minimize LLM tics for Stage 2 audience-blind draft" | Stage 2 draft PROPOSED at `manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_<DATE>.md` |
+| ... | ... | ... | ... |
+
+**Cognitive-saturation signal.** If accept-recommendation rate falls below ~60% sustained across multiple sessions: switch from sprint → sustained → blocked mode per [`../memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md) §"Cognitive sustainability."
+
+**How to bring an existing session onto the new convention.** Paste-text at [`../drafting-templates/existing-session-checkin-paste-text.md`](../drafting-templates/existing-session-checkin-paste-text.md). Drop into each open session you want upgraded; the session returns a current-state check using the standardized markers above.
+
+---
+
 ## 11. Suggestions the author may want to consider (added per request 2026-05-24)
 
 Items the author asked PM to surface if relevant:
