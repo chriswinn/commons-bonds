@@ -1,6 +1,6 @@
 # $100 Barrel Essay — Pass 3.3 Audience-Load Acceptance LIGHT RE-FIRE v1.0.0 — 2026-05-24
 
-**Status:** PROPOSED. Pass 3.3 light RE-FIRE artifact firing after Pass 3.5 RATIFIED + APPLIED 2026-05-24 (commit `5f33bdd`). Tests whether the 6 Pass 3.5 Phase C restoration spot-fixes shift any of the 18-character acceptance verdicts that the prior Pass 3.3 light (`commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_3_audience_load_acceptance_light_v1.0.0.md` RATIFIED 2026-05-23) established as the canonical post-Pass-3.2 baseline. Per Pass 3.5 §3.6 carry-forward recommendation.
+**Status:** RATIFIED 2026-05-24 (author confirmed PASS verdict; Tier 1 #3 unambiguous ✓✓✓; flag #2 closed by F-DE-Barrel-3; Tier 3 #16 + #18 lifts confirmed; no retrofit required). Pass 3.3 light RE-FIRE artifact firing after Pass 3.5 RATIFIED + APPLIED 2026-05-24 (commit `5f33bdd`). Tests whether the 6 Pass 3.5 Phase C restoration spot-fixes shift any of the 18-character acceptance verdicts that the prior Pass 3.3 light (`commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_3_audience_load_acceptance_light_v1.0.0.md` RATIFIED 2026-05-23) established as the canonical post-Pass-3.2 baseline. Per Pass 3.5 §3.6 carry-forward recommendation.
 
 **Audit target:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md) (4,248w post-Pass-3.5-Phase-C; on `main` commit `5f33bdd`).
 
