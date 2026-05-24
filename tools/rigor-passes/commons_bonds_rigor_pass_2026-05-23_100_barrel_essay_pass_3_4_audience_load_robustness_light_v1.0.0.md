@@ -1,6 +1,6 @@
 # $100 Barrel Essay — Pass 3.4 Audience-Load Robustness LIGHT Re-Verification v1.0.0 — 2026-05-23
 
-**Status:** PROPOSED. Pass 3.4 light re-verification artifact firing after Pass 3.3 RATIFIED 2026-05-23 (commit `a1702e9`). Tests whether the 6 Phase C spot-fixes shift the comparative draft audit's Pass 3.4 thread-pull synthesis verdict (Draft A — ROBUST). Per Pass 3.2 §3.5: Phase C is register-level only; no Pass 3.4 robustness impact projected.
+**Status:** RATIFIED 2026-05-23 (author confirmed ROBUST verdict; A4 investigation accepted; no Phase C application required). Pass 3.4 light re-verification artifact firing after Pass 3.3 RATIFIED 2026-05-23 (commit `a1702e9`). Tests whether the 6 Phase C spot-fixes shift the comparative draft audit's Pass 3.4 thread-pull synthesis verdict (Draft A — ROBUST). Per Pass 3.2 §3.5: Phase C is register-level only; no Pass 3.4 robustness impact projected.
 
 **Audit target:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md) (4,145w post-Pass-3.2-Phase-C; on `main` commit `a1702e9`).
 
@@ -203,11 +203,11 @@ A2 Public Choice routes to cross-chapter rent-seeking-engagement workstream (Ch 
 
 **2026-05-23 — PROPOSED.** Pass 3.4 audience-load robustness LIGHT re-verification artifact for $100 Barrel Draft A (post-Pass-3.2-Phase-C; post-Pass-3.3-light-RATIFIED). ROBUST verdict — thread-pull synthesis HOLDS from comparative draft audit baseline; no adversarial thread compounds into structural problem.
 
-Awaiting author ratification of:
-1. **Aggregate ROBUST verdict** (no adversarial-defense-surface degradation).
-2. **A4 reactionary intellectual reader investigation** (the Condition 1 second-venue critical case): HOLDS ROBUST. All 4 comparative-audit-cited A4-defense moves preserved verbatim post-Phase-C. The Pass 3.3 light's §IV ¶4 skim-read flag does NOT extend to A4 because A4 defense is anchored at different sites (§III ¶3 + §IV close + §V ¶7 + §VI ¶7), all preserved.
-3. **No Phase C application required.** Pass 3.4 light is a verification pass, not a prose-modifying pass.
-4. **Next session:** Pass 3.5 developmental-edit (whole-essay restoration polarity per v3.1 Amendment B; per pipeline doctrine §3.6.3 fires AFTER Pass 3.2 chiseling because the flatness it catches only surfaces post-cuts).
+**2026-05-23 — RATIFIED.** Author confirmed:
+1. ✅ **Aggregate ROBUST verdict** accepted — no adversarial-defense-surface degradation.
+2. ✅ **A4 reactionary intellectual reader investigation** accepted — HOLDS ROBUST. All 4 comparative-audit-cited A4-defense moves preserved verbatim post-Phase-C. The Pass 3.3 light's §IV ¶4 skim-read flag confirmed NOT to extend to A4.
+3. ✅ **No Phase C application required** — verification pass only; essay file unchanged.
+4. ✅ **Next session:** Pass 3.5 developmental-edit (whole-essay restoration polarity per v3.1 Amendment B), fired in same session per author direction.
 
 **Hard constraints adherence:**
 - [x] No spot-fixes applied to the essay file.
