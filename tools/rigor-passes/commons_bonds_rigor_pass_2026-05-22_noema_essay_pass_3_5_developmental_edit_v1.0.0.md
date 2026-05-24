@@ -488,22 +488,51 @@ Per pipeline doctrine §3.7.1 + v3.1 Amendment B + per-prompt serial cadence:
 
 ---
 
-## §9. Disposition log (to be filled by Phase C interactive ratification + application session)
+## §9. Disposition log (2026-05-22 interactive ratification + application session)
 
-*Placeholder for §9. Disposition log* — to be populated by the Phase C interactive ratification + application session per Amendment C §3.7.5.
-
-Per-finding format (mirrors Pass 3.2 §10):
+Per Amendment C §3.7.3 interactive ratification + Phase C application cadence (ratified 2026-05-19): ratification + application combined into a single session. Author elected "as recommended" batch-ratification of all 5 restorations + accepted both LOW HOLD dispositions.
 
 | Finding | Severity | Author decision | Applied to essay? | Notes |
 |---|---|---|---|---|
-| F-DE-Noema-1 (line 89 Section IV → V bridge) | HIGH | TBD | TBD | Plane-cabin sensory re-entry restoration; canonical-fact-grounded per locked Section I paragraph imagery |
-| F-DE-Noema-2 (line 131 Bay species block) | HIGH | TBD | TBD | Paragraph-break restoration; pure white-space; no prose added |
-| F-DE-Noema-3 (line 39 grandfather patents) | MEDIUM | TBD | TBD | Patent-detail restoration; canonical-fact-grounded per author research |
-| F-DE-Noema-4 (line 145 plane-bookend close) | MEDIUM | TBD | TBD | Sensory-anchor symmetry with Section I opener |
-| F-DE-Noema-5 (line 147 Fanon + Ellison restoration) | MEDIUM | TBD | TBD | **OVERRIDES F-V-Noema-12 B per Amendment B restoration-polarity rule** |
-| F-DE-Noema-6 (cumulative em-dash density) | LOW | HOLD (recommended) | (no change) | F-V-Noema-14 carry-forward resolved at HOLD |
-| F-DE-Noema-7 (cumulative-cadence-stack) | LOW | HOLD (recommended) | (no change) | Pass 3.2 §6 carry-forward resolved at HOLD |
+| F-DE-Noema-1 (line 89 Section IV → V bridge) | HIGH | Option A (as recommended) | ✅ line 89 | Applied wording: *"I did not have a name for any of this when I was on the plane. The cabin had not gone anywhere. The leather grip was still in the overhead. The recliner beside the NICU bed was still empty. I just did not have the words yet."* Plane-cabin sensory re-entry restored between Section IV closing bridge and Section V opening; callbacks to Section I opener (leather grip line 17 + 29) + locked Section I closing paragraph (NICU bed + recliner line 31) without modifying locked paragraph. ~30 added words; no em-dashes; emotional-arc landing restored at essay's most-load-bearing analytical-resolution-to-existence-proofs pivot. |
+| F-DE-Noema-2 (line 131 Bay species block) | HIGH | Option A (as recommended) | ✅ line 131 | Applied: paragraph-break inserted after Moore's *"...based on historic landings."* quote. First paragraph: estuary scale + striped bass + recruitment + Colden quote + Moore quote + menhaden cap + Moore base-science quote. Second paragraph: shad disappearance + oyster disaster declaration. Pure white-space restoration; zero prose added; zero fact-claim altered. Natural pivot from active-fishery-governance to collapsed/disaster-status-fisheries is now visible. |
+| F-DE-Noema-3 (line 39 grandfather patents) | MEDIUM | Option B (as recommended; semicolon-merge no em-dash) | ✅ line 39 | Applied wording: *"He had two patents in his name. One was for a liquid waste feed system; the other was for a lathe that made fiberglass-laminate parts. He never talked about them at the dinner table."* Patent-detail restoration concretizes the abstract "two patents" claim at the lineage-foundation moment; rhymes with the air-compressor + lathe imagery at line 41. Canonical-fact-grounded per author memory note (LaVern E. Winn; 2 patents identified 2026-05-04). Semicolon merge avoids cumulative em-dash density addition per F-V-Noema-14 awareness. |
+| F-DE-Noema-4 (line 145 plane-bookend close) | MEDIUM | Option A (as recommended) | ✅ line 145 | Applied wording: *"By the time I came back to the cabin the plane was over weather. The sun was higher than the cloud floor. The leather grip was where I had left it. The coffee in the galley still smelled like coffee. I was still inside the architecture..."* Two sensory-anchor callback sentences added (leather grip + cabin coffee per Section I opener lines 17 + 29). Plane-bookend sensory-symmetry restored. ~14 added words; no em-dashes; redemption-arc tension preserved methodologically. |
+| F-DE-Noema-5 (line 147 Fanon + Ellison restoration) | MEDIUM | Option A (as recommended) | ✅ line 147 | Applied wording: *"Paul Laurence Dunbar wrote the* mask that grins and lies. *W. E. B. Du Bois wrote about the veil. Frantz Fanon named the colonial city's two zones. Ralph Ellison made the unseen man visible at full daylight. The lineage is long and unbroken. The pricing of commons is new. The move is old."* Fanon + Ellison restored to standalone sentences with verb-variance (*wrote the / wrote about / named / made-visible*); four-times-anaphora cadence-tic broken via verb-variance; equal sentence-weight across all four lineage authors restored. **F-V-Noema-12 B disposition OVERRIDDEN per Amendment B's restoration-polarity-supersedes-chiseling-polarity-at-Pass-3.5-gate rule** — first documented Pass 3.5 → Pass 3.2 override in Noema essay pipeline. |
+| F-DE-Noema-6 (cumulative em-dash density) | LOW | HOLD (as recommended) | (no change) | F-V-Noema-14 carry-forward resolved at HOLD. Whole-essay-scale read confirms each em-dash carries locally-defensible work; cumulative density at whole-essay-scale reads as stylistic-distinction not cadence-flatness. |
+| F-DE-Noema-7 (cumulative-cadence-stack) | LOW | HOLD (as recommended) | (no change) | Pass 3.2 §6 carry-forward resolved at HOLD. Sentence-length variance well-distributed; held findings preserve substantively-earned cadence-content; ratified spot-fixes cleared editor-detectable patterns without over-correcting. |
+
+### §9.1 Session-close summary
+
+**Dispositions complete:** 7 findings ratified across the interactive ratification + Phase C application session.
+
+| Disposition category | Count | Findings |
+|---|---|---|
+| Applied (restoration landed in essay) | 5 | F-DE-Noema-1 (A), F-DE-Noema-2 (A), F-DE-Noema-3 (B), F-DE-Noema-4 (A), F-DE-Noema-5 (A) |
+| Held (no change to essay; carry-forwards resolved at HOLD) | 2 | F-DE-Noema-6, F-DE-Noema-7 |
+| Pass 3.2 dispositions overridden per Amendment B | 1 | F-V-Noema-12 B (overridden by F-DE-Noema-5 A — Fanon + Ellison restored to standalone sentences) |
+
+**Net essay state change.** 5 restorations applied. Essay length increase: from 149 lines to ~151 lines (+2 lines net from F-DE-Noema-2 paragraph-break; F-DE-Noema-1 / 3 / 4 / 5 add prose within existing paragraphs without line-count change). Word-count increase: ~95-100 added words across 5 restoration sites (4 sentences ~30 words at F-DE-Noema-1; 2 sentences ~14 words at F-DE-Noema-4; 1 sentence ~15 words at F-DE-Noema-3; F-DE-Noema-5 net ~3 words added; F-DE-Noema-2 zero added).
+
+**Cross-pass impact resolved:**
+
+- **Pass 3.1 fact-check** — no factual claim altered. F-DE-Noema-3 patent-detail restoration is canonical-fact-grounded per author research (LaVern E. Winn 2 patents identified 2026-05-04; not fabricated). F-FC-Noema-9 Norway fund value submission-window re-verification remains independently flagged.
+- **Pass 3.2 voice-polish** — F-V-Noema-12 B disposition OVERRIDDEN by F-DE-Noema-5 A per Amendment B restoration-polarity rule. F-V-Noema-14 (cumulative em-dash) + cumulative-cadence-stack flags resolved at HOLD (F-DE-Noema-6 + F-DE-Noema-7). All other Pass 3.2 dispositions preserved.
+- **Pass 3.3 acceptance** — light re-fire RECOMMENDED. Expected impact:
+  - Character #9 (Black-Studies-resonance reader) uplift from ✓✓ → ✓✓✓ INCLUDE via F-DE-Noema-5 equal-weighting restoration
+  - Character #1 (Noema editorial brain) marginal strengthening via F-DE-Noema-1 + F-DE-Noema-2 + F-DE-Noema-4 cumulative emotional-arc + reportage-readability + bookend-symmetry restorations
+  - Characters #11 (Chesapeake regional reader) + #13 (working-class reader) + #14 (first-gen immigrant) marginal strengthening via F-DE-Noema-2 paragraph-break + F-DE-Noema-3 patent-detail concrete anchoring
+  - Other characters: no expected change
+- **Pass 3.4 robustness** — re-fire NOT routinely warranted. Restorations strengthen rather than weaken adversarial robustness; thread-pull synthesis unchanged. 5 pre-pub queue acknowledgments from Pass 3.4 §9 ratification accepted as Stage 5 carry-forward.
+
+**Submission-readiness verdict (post-application):**
+
+**READY FOR Pass 3.3 light re-fire** per v3.1 per-prompt serial cadence. Pass 3.5 restorations ratified + applied; no HIGH findings remain unresolved at session close (F-DE-Noema-1 + F-DE-Noema-2 ratified-applied); all MEDIUM + LOW findings dispositioned. Stage-1-§7.1-locked Section I closing paragraph (line 31) preserved verbatim.
+
+**Submission-window coordination preserved:** Phat anonymization ratified working-draft baseline 2026-05-20; Biggie courtesy-notify + Colden + Moore courtesy-notification + F-FC-Noema-9 Norway fund value re-verification all carry forward to submission-gate.
+
+**Next step:** Pass 3.3 light re-fire fires next per author direction. Then Stage 4 render + character-integrity audit (author offline). Then Stage 5 sign-off bookend + pre-publication review queue artifact (incorporating Pass 3.4's 5 pre-pub queue acknowledgments) + cover letter + bio + AI disclosure (with venue clarification on Decision #13 BR-vs-Noema reference).
 
 ---
 
-*End of Pass 3.5 developmental-edit artifact (PROPOSED). Auto-merges to main per CLAUDE.md rigor-pass-artifact default. Author interactive ratification + Phase C application combined per Amendment C §3.7.3 (ratified 2026-05-19). After Pass 3.5 application: Pass 3.3 light re-fire recommended; Stage 4 render + character-integrity audit; Stage 5 sign-off bookend + pre-publication review queue + cover-letter session.*
+*End of Pass 3.5 developmental-edit artifact. RATIFIED + APPLIED 2026-05-22 via Amendment C §3.7.3 interactive ratification + Phase C application combined session. Pass 3.3 light re-fire fires next per v3.1 per-prompt serial cadence; Stage 4 render handled by author offline; Stage 5 sign-off bookend + cover letter co-located after Stage 4.*
