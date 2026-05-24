@@ -8,7 +8,7 @@
 **Bio source:** [`publishing/book-proposal/03_author-platform.md`](../book-proposal/03_author-platform.md) Medium (~85w) variant verbatim; Placements section unchanged since 2026-05-09 — no "Recent essays in [venue]" clause to integrate.
 **AI-disclosure source:** [`publishing/essay-drafts/templates/ai-disclosure-paragraph.md`](templates/ai-disclosure-paragraph.md) Generic variant verbatim (per the template's per-venue table for Boston Review).
 **Path B compliance:** `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` was NOT opened during this session. Cover-letter content drawn from the post-Stage-5 essay state, the Stage 1 brief, the bio document, and the AI-disclosure template only.
-**Status:** PROPOSED. Author ratification gates Submittable upload.
+**Status:** **RATIFIED 2026-05-23** via author "ratify all as recommended" signal (extends Path A file-header hygiene pass). Three ratified calls: (1) "Dear Editors," salutation HELD as conservative default per paste-text spec (no pinned editor names); (2) Aeon parallel-submission mention HELD per cover-letter author signal (active-pipeline signaling reads strong for BR editorial brain; no rights conflict per rights register); (3) Status header updated PROPOSED → RATIFIED for hygiene parity with 9-artifact Path A pass. Cover letter is **submission-ready**; Submittable upload remains user action gated on Stage 4 offline render review per Stage 5 sign-off §10. (Originally PROPOSED 2026-05-23 in commit `d7fe933`.)
 ---
 
 # Cover letter — submission-ready body
