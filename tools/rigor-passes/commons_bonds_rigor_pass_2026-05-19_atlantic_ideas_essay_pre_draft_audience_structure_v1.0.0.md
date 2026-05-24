@@ -1,6 +1,12 @@
-# Atlantic Ideas Essay — Pre-Draft Audience-and-Structure Rigor Pass v1.1.0 — 2026-05-19 (refresh 2026-05-21)
+# Atlantic Ideas Essay — Pre-Draft Audience-and-Structure Rigor Pass v1.1.4 — 2026-05-19 (refresh 2026-05-21; §7 figure-currency amendments 2026-05-24)
 
-**Status:** Stage 1 deliverable. **v1.1.0 refresh (2026-05-21)** brings the brief to canonical-doctrine parity per cross-thread #14 partially-resolved status + author ratification of D1–D7 brief-update items. Drives a fresh-session Stage 2 audience-blind flow draft of the Atlantic Ideas essay derived from Ch 9 *Pricing Honestly*. Stage 3 **five-pass** rigor (3.1 fact-check + 3.2 voice-polish + 3.3 audience-load acceptance + 3.4 audience-load robustness + 3.5 developmental-edit) fires on the Stage 2 output, followed by Stage 4 render + character-integrity audit + Stage 5 academic-rigor + prose-quality sign-off bookend with pre-publication review queue artifact. Workstream handoff at [`tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md`](../workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md). Foreign Policy alternate reframe outline (fires only on Atlantic Ideas decline) at [`tools/workstream-handoffs/foreign-policy-alternate-outline_2026-05-21.md`](../workstream-handoffs/foreign-policy-alternate-outline_2026-05-21.md).
+**Status:** Stage 1 deliverable. **v1.1.4 figure-currency refresh (2026-05-24)** applies four §7 amendments ratified at Pass 3.1 interactive ratification session 2026-05-24: §7.1 post-cascade McDowell floor; §7.6 Norway / Alaska / Mondragon current figures; §7.3 carbon pricing + Baotou tailings size; bibliography Marx entry added (separate housekeeping). **v1.1.0 refresh (2026-05-21)** brought the brief to canonical-doctrine parity per cross-thread #14 partially-resolved status + author ratification of D1–D7 brief-update items. Drives a fresh-session Stage 2 audience-blind flow draft of the Atlantic Ideas essay derived from Ch 9 *Pricing Honestly*. Stage 3 **five-pass** rigor (3.1 fact-check + 3.2 voice-polish + 3.3 audience-load acceptance + 3.4 audience-load robustness + 3.5 developmental-edit) fires on the Stage 2 output, followed by Stage 4 render + character-integrity audit + Stage 5 academic-rigor + prose-quality sign-off bookend with pre-publication review queue artifact. **Pass 3.1 fact-check RATIFIED + APPLIED 2026-05-24** ([`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md)). Workstream handoff at [`tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md`](../workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md). Foreign Policy alternate reframe outline (fires only on Atlantic Ideas decline) at [`tools/workstream-handoffs/foreign-policy-alternate-outline_2026-05-21.md`](../workstream-handoffs/foreign-policy-alternate-outline_2026-05-21.md).
+
+**v1.1.4 changelog (2026-05-24, Pass 3.1 figure-currency amendments):**
+- **§7.1 amendment** — Ch 8 coal-CO₂ cascade RATIFIED + APPLIED 2026-05-23 (commits `89c56e6` + `5f875a6`). Cross-thread #12 now RESOLVED. Ch 8 post-cascade state: conservative floor across four components = **$518–$532/ton**; total = **$524/ton**; carbon-tail alone = **$510/ton**. Essay hook range tightened from "$500–$600" to "$520–$600" to align lower bound with Ch 8 floor (cascade went the opposite direction from this brief's v1.1.0 anticipated drift to ~$400–500 floor — preserved McDowell-specific basis instead).
+- **§7.6 amendments** — Norway GPFG: "~$1.9T / ~$340K per citizen" → "~$2T / ~$390K per citizen" (per Norges Bank Investment Management May 2026). Alaska Permanent Fund: most-recent dividend = $1,000 (2025; announced Sept 2025) with multi-year range $1,000–$1,702 (2023: $1,312; 2024: $1,702 incl Energy Relief); assets ~$83–86B (essay uses ~$85B). Mondragon: "~95 cooperatives / ~80K workers" → "~81 cooperatives in Spain + growing international footprint (260 incl international) / ~70,085 workers (2024 figure)." Vienna Wohnbauförderungsbeitrag note: rate rises 1% → 1.5% effective 2026; historical 1% anchor retained in essay as load-bearing structural reference.
+- **§7.3 amendments** — Carbon pricing scope refreshed per World Bank *State and Trends of Carbon Pricing 2025*: "~70 jurisdictions / ~25% global emissions" → "80 instruments / ~28% global emissions." Baotou tailings note: brief's "seven square miles" canonical figure not confirmed via WebSearch-accessible primary sources (Weather Channel + ScienceDirect peer-reviewed gamma-ray survey + CorpWatch all report ~12 km² ≈ 4.6 sq mi for the Weikuang Dam impoundment); essay updated to "approximately five square miles"; brief carries note as CARRY-FORWARD pending Stage 5 pre-publication review queue.
+- **Bibliography housekeeping** — Marx, *Capital: A Critique of Political Economy* Volume I (1867) entry added to [`research/literature/bibliography.md`](../../research/literature/bibliography.md) §2 Political economy of extraction (alphabetical placement between Klein and Piketty). Four-traditions diagnostic insertion at essay §I now load-bears on this bibliography entry.
 
 **v1.1.0 changelog (2026-05-21):**
 - **Doctrine refresh v2.0 → v3.1** — Stage 3 elevated to five-pass per Amendment B 2026-05-18 (Pass 3.5 developmental-edit codification); Stage 4 render + character-integrity audit + Stage 5 sign-off bookend + pre-publication review queue artifact added per pipeline doctrine v1.0.0 2026-05-17; Stage 1 1a/1b/1c sub-step framing noted (this brief functions as 1b substantive with light 1c cross-artifact coherence; 1a invariant-gate is corpus-wide and handled by `tools/scripts/check-corpus-invariants.sh`).
@@ -174,8 +180,9 @@ For each Ch 9 term, specify replacement-with-translation or omission:
 
 ### 7.1 McDowell County coal arithmetic
 
-- Ch 8-derivation: one ton of McDowell County coal sold at mine mouth in **1960** for **$4.50**; honest cost (when every severed cost is priced) **$500–$600/ton** (floor-estimate, cost-component-by-cost-component).
-- Source: Ch 8 derivation. **Status as of 2026-05-21 verification:** Ch 8 Pass 1 Phase C applied 2026-05-20 (commit `5fe6af6`, 16 ratified edits), BUT cross-thread #12 coal-CO₂ short-ton-accounting cascade was NOT among the 16 edits. Ch 8 line 72 still reads "approximately 2.86 tons of carbon dioxide" / "approximately five hundred and forty-four dollars" (pre-cascade); Ch 6 canonical is 2.32 t CO₂/short ton / $441/ton coal externality. **Implication for this essay's hook:** the $500–600 range carries Ch 8's pre-cascade $544 carbon-externality component. When cross-thread #12 closes (Ch 8 line 72 corrects to ~2.32 t / $441), the Ch 9 hook range may shift to a **~$400–500 floor**. Stage 2 audience-blind draft should use the current $500–600 range from Ch 9 line 12; Stage 3 Pass 3.1 fact-check must verify the hook figure against then-current Ch 8 + Ch 9 state and apply spot-fix if the cascade has landed.
+- Ch 8-derivation: one ton of McDowell County coal sold at mine mouth in **1960** for **$4.50**; honest cost (when every severed cost is priced) **$520–$600/ton** (post-cascade floor-estimate, cost-component-by-cost-component).
+- **v1.1.4 status (2026-05-24, post-cascade):** Ch 8 coal-CO₂ short-ton methodology reconciliation RATIFIED 2026-05-23 (commit `89c56e6`) + APPLIED via Phase C session (commit `5f875a6`); cross-thread #12 now RESOLVED. Current Ch 8 state: line 72 climate cost = **~$510/ton** (McDowell-specific 2.61 mt CO₂/short ton × $190 SCC, per cascade §6.1 Option C hybrid heat-content basis); line 80 conservative floor across four components = **$518–$532/ton**; line 164 total = **$524/ton**. Essay hook spot-fixed at Pass 3.1 Phase C from "$500–$600" to "$520–$600" to align lower bound with Ch 8 floor. Two-orders-of-magnitude framing preserved ($4.50 → $520 ≈ 116×, within 33–122× IPG canonical lock).
+- **v1.1.0 status (2026-05-21 — preserved as historical record):** Ch 8 Pass 1 Phase C applied 2026-05-20 (commit `5fe6af6`, 16 ratified edits), BUT cross-thread #12 coal-CO₂ short-ton-accounting cascade was NOT among the 16 edits. Ch 8 line 72 then read "approximately 2.86 tons of carbon dioxide" / "approximately five hundred and forty-four dollars" (pre-cascade); Ch 6 canonical was 2.32 t CO₂/short ton / $441/ton coal externality. The v1.1.0 brief anticipated the Ch 9 hook range might shift to a ~$400–500 floor when the cascade closed. The RATIFIED cascade went the opposite direction — preserved McDowell-specific basis at the floor's load-bearing-detail level (cascade §6.1 Option C hybrid heat-content) rather than collapsing to the framework-introduction Ch 6 figure. The $520–$600 essay range reflects the actual post-cascade Ch 8 state.
 
 ### 7.2 Resource economics + classification
 
@@ -190,11 +197,11 @@ For each Ch 9 term, specify replacement-with-translation or omission:
 
 ### 7.3 International dimension / border adjustment
 
-- **Baotou tailings pond:** seven square miles of radioactive slurry; Inner Mongolia; rare-earth processing waste.
+- **Baotou tailings pond:** **v1.1.4 status (2026-05-24):** brief's "seven square miles" canonical figure not confirmed via WebSearch-accessible primary sources at Pass 3.1 fact-check (Weather Channel + ScienceDirect peer-reviewed gamma-ray survey + CorpWatch all report ~12 km² ≈ **4.6 sq mi** for the Weikuang Dam impoundment). Essay spot-fixed at Pass 3.1 Phase C from "seven square miles" to "approximately five square miles." Brief carries this as CARRY-FORWARD to Stage 5 pre-publication review queue (recommended editor-side fact-checker focus area); if author surfaces a primary source for the "seven square miles" figure (e.g., a Baogang Steel + Rare Earth complex annual report or specific peer-reviewed measurement of the broader complex footprint), the essay precision can restore. Inner Mongolia; rare-earth processing waste.
 - **Niger Delta:** fifty years of oil spillage; thousands of square kilometers of mangrove + farmland uninhabitable.
 - **Democratic Republic of Congo cobalt:** ~40,000 children worked in artisanal mines (at peak; recent reform efforts ongoing).
-- **EU Carbon Border Adjustment Mechanism (CBAM):** introduced in staged form beginning **2023**; **fully operational 2026**. Partial-implementation precedent for substitutability-gap-scaled border adjustment.
-- **Carbon pricing scope (2025):** >70 jurisdictions; ~25% global greenhouse emissions covered.
+- **EU Carbon Border Adjustment Mechanism (CBAM):** introduced in staged form beginning **2023**; **fully operational 2026** (entered compliance phase 1 January 2026 per EU Taxation and Customs Union 2026-01-14). Partial-implementation precedent for substitutability-gap-scaled border adjustment.
+- **Carbon pricing scope (v1.1.4, World Bank *State and Trends of Carbon Pricing 2025*):** **80 carbon-pricing instruments**; **~28% global greenhouse emissions** covered (43 carbon taxes + 37 ETSs). v1.0 brief carried ">70 jurisdictions / ~25%" — refresh per Pass 3.1 fact-check.
 
 ### 7.4 Political economy of resistance
 
@@ -224,30 +231,29 @@ For each Ch 9 term, specify replacement-with-translation or omission:
 
 - **Norway Government Pension Fund Global (GPFG, formerly Government Petroleum Fund 1990):**
   - Founded **1990** (renamed GPFG 2006); origin **1969 Ekofisk discovery**.
-  - Total assets **~$1.9 trillion** (verify current figure at fact-check; Ch 9 carries $1.9T).
-  - **~$340,000 per Norwegian citizen** (verify at fact-check).
+  - **v1.1.4 (2026-05-24, Norges Bank Investment Management):** Total assets **~$2 trillion** (crossed $2T in 2025; was ~$1.9T at v1.1.0); **~$390,000 per Norwegian citizen** (was ~$340K at v1.1.0). Figures move quarterly; Stage 5 pre-publication review queue should re-verify at submission time if Atlantic Ideas decision lands >60 days post-Pass-3.1.
   - **2001 fiscal rule:** annual spending capped at **~3% of returns**; capital itself inviolate.
   - Rents captured through state licenses + taxation + direct ownership of state operating company; invested outside Norway to avoid distorting domestic economy.
 - **Alaska Permanent Fund:**
   - Established **1976**.
   - **25% of mineral royalty income** captured as irrevocable constitutional trust.
-  - **~$80 billion** current value (verify; Ch 9 carries ~$80B).
-  - Annual dividend **since 1982**, most recent **$1,300–$1,700 range** (verify; Ch 9 carries this range).
+  - **v1.1.4 (2026-05-24, APFC):** ~**$83–86 billion** current assets (essay uses ~$85B; was ~$80B at v1.1.0).
+  - Annual dividend **since 1982**. **v1.1.4 (2026-05-24, Alaska Department of Revenue):** Most-recent dividend = **$1,000** (2025; announced 2025-09-22; first payments 2025-10-02); multi-year range 2023–2025 = **$1,000–$1,702** (2023: $1,312; 2024: $1,702 incl Energy Relief Payment; 2025: $1,000). v1.0 brief carried "$1,300–$1,700 range" — refresh per Pass 3.1 fact-check (2025 dividend fell substantially below v1.0 range).
 - **Chattanooga EPB municipal fiber network:**
   - Launched **2010**; municipally-owned electric utility (EPB).
   - Gigabit service city-wide; up to **25 Gbps** for those who need it.
   - Sued by **Comcast**; Tennessee state legislature passed laws limiting EPB's expansion beyond its electric territory.
 - **Mondragon Corporation:**
   - Founded **1956** by Father **José María Arizmendiarrieta**; Basque region, northern Spain.
-  - **~95 worker-owned cooperatives**; **~80,000 workers**.
-  - Pay ratio capped institutionally — historically near 3:1; widening in largest industrial cooperatives to **6–9:1**. (Fortune 500 comparison ~300:1.)
+  - **v1.1.4 (2026-05-24, Mondragon 2024 annual report + Wikipedia):** ~**81 self-governing worker-owned cooperatives in Spain** (260 incl international affiliates across 35 countries); ~**70,085 workers (2024)** (Basque Country 30,660 + elsewhere in Spain 29,340 + abroad ~10K); v1.0 brief carried "~95 / ~80K" — refresh per Pass 3.1 fact-check.
+  - Pay ratio capped institutionally — historically near 3:1; widening in largest industrial cooperatives to **6–9:1** (current organizational cap: 6:1; 9:1 figure historical / largest-industrial; average ~5:1 across cooperatives). Fortune 500 comparison: ~300:1 (CSMonitor reports 344:1).
   - **Caja Laboral** federation bank: founded **1959**.
   - **2013 Fagor** (flagship appliance manufacturer) bankruptcy; workers absorbed into other cooperatives; federation survived.
 - **Vienna Gemeindebau / cooperative housing:**
   - **~60% of Vienna's population** in municipal or non-profit cooperative housing.
-  - **>200,000 apartments** built and maintained by the city.
+  - **>200,000 apartments** built and maintained by the city (Wikipedia: ~220,000 municipal Gemeindebau flats + ~200,000 subsidised cooperative non-profit dwellings = ~420,000 total social housing units).
   - Founded **1919 Red Vienna**; survived interwar fascist coup + Nazi occupation + every subsequent administration.
-  - Funded through **1% payroll Wohnbauförderungsbeitrag** + tenant rents + subsidized federal loans.
+  - Funded through **1% payroll Wohnbauförderungsbeitrag** (historical and through-2025 rate) + tenant rents + subsidized federal loans. **v1.1.4 note:** rate rises 1% → **1.5% effective January 2026** (austerity-context Vienna policy package); essay retains historical 1% anchor as load-bearing structural reference (the structural argument is the dedicated payroll contribution, not the precise rate).
 
 ### 7.7 Tax-wedge / healthcare-financing structural observation (one paragraph if §VII can carry; otherwise omit)
 
