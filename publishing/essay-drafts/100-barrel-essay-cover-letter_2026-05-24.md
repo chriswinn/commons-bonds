@@ -9,7 +9,7 @@
 **AI-disclosure source:** [`publishing/essay-drafts/templates/ai-disclosure-paragraph.md`](templates/ai-disclosure-paragraph.md) Generic variant verbatim (per the template's per-venue table for Phenomenal World: "Generic variant; bottom of cover note; high intellectual register; the honest-accounting meta-move particularly resonant").
 **Submission method:** Email to **[email protected]** (PW's stated submission process per WebSearch verification 2026-05-24 — "a few paragraphs on your idea and your background"; open and rolling; no portal).
 **Path B compliance:** `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` was NOT opened during this session. Cover-letter content drawn from the post-Stage-5 essay state, the Stage 1 brief, the bio document, the AI-disclosure template, and the Stage 5 sign-off only.
-**Status:** PROPOSED. Author ratification of personalization paragraphs gates email send to PW.
+**Status:** RATIFIED 2026-05-24. Author "(ratify cover letter)" signal 2026-05-24 confirmed all 7 author-input items as drafted (personalization paragraphs 2–5; bio; AI-disclosure phrasing; subject line; salutation; sign-off; attachment/paste decision deferred to send-time). Cover-letter ratification gates Stage 4 author-offline rendering review + email send to [email protected]. (Originally PROPOSED 2026-05-24 in commit `99278eb`.)
 
 ---
 
@@ -64,23 +64,23 @@ Chris Winn
 
 ---
 
-# Author-input items requiring ratification before email send
+# Author-input items — RATIFICATION RECORD
 
-Per Decision #13-equivalent session brief, the following items in the cover letter body require explicit author ratification before PW email send:
+Per Decision #13-equivalent session brief, the following items in the cover letter body required explicit author ratification before PW email send. **All ratified 2026-05-24 per author "(ratify cover letter)" signal.**
 
-1. **Personalization paragraphs 2-5** (essay framing + lineage-map walk + Stern-Nordhaus axis-exit + Norway/Nigeria architecture-fix + cascade coordination). Drafted per Stage 1 brief §2 PW editorial brain map ("What PW editors want: heterodox-econ-and-political-economy register; named intellectual lineage with attribution; concrete cases with verifiable facts; cross-domain reach; architecture-fix register") + the essay's actual post-Pass-3.5 content. Author may revise framing emphasis, adjust which lineage figures are named in the cover note, or sharpen the Stern-Nordhaus axis-exit claim if preferred.
+1. ✅ **Personalization paragraphs 2-5** (essay framing + lineage-map walk + Stern-Nordhaus axis-exit + Norway/Nigeria architecture-fix + cascade coordination) — RATIFIED as drafted. Drafted per Stage 1 brief §2 PW editorial brain map ("What PW editors want: heterodox-econ-and-political-economy register; named intellectual lineage with attribution; concrete cases with verifiable facts; cross-domain reach; architecture-fix register") + the essay's actual post-Pass-3.5 content.
 
-2. **Medium bio paragraph** (paragraph 6; verbatim from `publishing/book-proposal/03_author-platform.md` ~85w Medium variant). Author should verify nursing-student status at Virginia Peninsula Community College remains current; verify former-healthcare-IT-executive framing remains current; verify "lives aboard a sailboat in Hampton" geographic detail remains current.
+2. ✅ **Medium bio paragraph** (paragraph 6; verbatim from `publishing/book-proposal/03_author-platform.md` ~85w Medium variant) — RATIFIED as drafted.
 
-3. **AI-disclosure paragraph** (paragraph 7; verbatim from `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` Generic variant). Per the template's per-venue notes for PW: "Generic; bottom of cover note; high intellectual register; the honest-accounting meta-move particularly resonant." No PW-specific guideline shift expected (PW does not have a portal-imposed AI-disclosure requirement). Author may verify against any PW-specific update since 2026-05-08 template ratification.
+3. ✅ **AI-disclosure paragraph** (paragraph 7; verbatim from `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` Generic variant) — RATIFIED as drafted. Per template's per-venue notes for PW: "Generic; bottom of cover note; high intellectual register; the honest-accounting meta-move particularly resonant."
 
-4. **Subject line** (currently "Submission: *The $100 Barrel* (4,250 words) — Chris Winn"). Convention for cold-email PW submission; author may revise if preferred. Avoid excessive cleverness; the "Submission: [title] (Xw) — [name]" pattern is standard for PW's email-based intake.
+4. ✅ **Subject line** ("Submission: *The $100 Barrel* (4,250 words) — Chris Winn") — RATIFIED as drafted.
 
-5. **Salutation** (currently "Dear Editors,"). Discipline: no specific editor names pinned per session's no-pin-discipline. PW's editorial brain is small (Jain Family Institute team; Carrie Battan / Jay Caspian Kang / Alex Press / Sarah Jaffe-adjacent network as recent contributors); if author has a direct editorial contact at PW or PW's masthead exposes a current submissions editor, the salutation may be updated.
+5. ✅ **Salutation** ("Dear Editors,") — RATIFIED as drafted. No specific editor names pinned per session's no-pin-discipline.
 
-6. **Sign-off** (currently "Best, Chris Winn"). Author may revise sign-off register if preferred.
+6. ✅ **Sign-off** ("Best, Chris Winn") — RATIFIED as drafted.
 
-7. **Essay attachment / paste decision** (per submission checklist item 2). Author chooses attached PDF / .docx vs. plain-text paste vs. cloud-link share; verifies rendering accordingly.
+7. ⏳ **Essay attachment / paste decision** — DEFERRED to send-time author action. Author chooses attached PDF / .docx vs. plain-text paste vs. cloud-link share at email-send time + verifies rendering per submission checklist item 2 (Stage 4 offline rendering review).
 
 ---
 
