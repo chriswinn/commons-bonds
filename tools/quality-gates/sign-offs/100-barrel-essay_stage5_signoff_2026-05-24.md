@@ -1,7 +1,7 @@
 # $100 Barrel Essay — Stage 5 Bookend Pre-Submission Sign-Off
 
 **Date:** 2026-05-24
-**Status:** PROPOSED. Stage 5 academic-rigor + prose-quality bookend pre-submission sign-off per Stage 1 brief §11 + pipeline doctrine §3.6 + v3.1 Amendment B.
+**Status:** RATIFIED 2026-05-24 — READY-TO-SUBMIT. Author "(ratify Stage 5 sign-off)" signal 2026-05-24 confirmed READY-TO-SUBMIT verdict. Stage 5 ratification gates cover-letter / pitch-email session (separate session per Decision #13 pattern) + author-offline Stage 4 rendering review + email send to [email protected]. (Originally PROPOSED 2026-05-24 in commit `63edc0b`.)
 **Stage:** Stage 5 bookend pre-submission sign-off (the symmetric pair to Stage 1 ready-to-draft ratification).
 **Artifact under sign-off:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md) — POST-Stage-3-cycle state; 4,248w; commit `b853f42` HEAD.
 **Workstream:** $100 Barrel essay (withdrawn-Noema §III derivative → Phenomenal World per cross-thread-todos #4 resolution; cascade-plan slot 3 batch).
