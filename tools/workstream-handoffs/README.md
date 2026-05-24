@@ -96,8 +96,9 @@ These are stored elsewhere because they target a specific fresh-session task (St
 
 A separate session that coordinates across all the above workstreams — tracks state, manages todos, surfaces dependencies, alerts to deadlines. Runs in parallel with topical sessions.
 
-- **`pm-session-handoff_2026-05-18.md`** — **CURRENT PM session handoff.** Fresh PM sessions orient against this file.
-- `pm-mobile-todo-dashboard_2026-05-15.md` — mobile-scope cut of the current dashboard (companion artifact; may need refresh post-2026-05-18 to reflect Chs 7-10 Pass 1 ratification queue + new pipeline retrofit handoffs).
+- **`pm-session-handoff_2026-05-24.md`** — **CURRENT PM session handoff.** Fresh PM sessions orient against this file. Adds two new dashboards (essays/op-eds + chapters) and a parallel-submission strategic call (recommendation: fire all four ready essays in next 7 days).
+- `pm-session-handoff_2026-05-18.md` — superseded 2026-05-24; retained as audit-trail for the 2026-05-18 → 2026-05-23 session window (refresh `aa04a4a` 2026-05-21 captured Phat anonymization + Ch 3 augmentation + Aeon Pass 3.1 + Chs 7/8/9 Phase C applications).
+- `pm-mobile-todo-dashboard_2026-05-15.md` — mobile-scope cut of the current dashboard (companion artifact; STALE; refresh after the 2026-05-24 submission sprint closes).
 - `pm-session-handoff_2026-05-13.md` — superseded 2026-05-18; retained as audit-trail for the 2026-05-13 → 2026-05-17 session window (Darity packet send + Chs 5/6 cycles closed + Chs 7-10 Pass 1 fired + pipeline doctrine v1.0.0).
 - `pm-session-handoff_2026-05-10.md` — superseded 2026-05-13; retained as audit-trail for the 2026-05-10 → 2026-05-13 session window.
 

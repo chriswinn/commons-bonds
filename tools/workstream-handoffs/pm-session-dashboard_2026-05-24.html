@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Commons Bonds — PM Dashboard 2026-05-24</title>
+<style>
+  :root {
+    --bg: #fafaf7;
+    --ink: #1a1a1a;
+    --muted: #666;
+    --line: #ddd6c8;
+    --paper: #fff;
+    --accent: #8b3a2f;
+    --hi-bg: #fff4ed;
+    --hi-border: #d4633b;
+    --med-bg: #fffbeb;
+    --med-border: #d4a13b;
+    --low-bg: #f3f6ef;
+    --low-border: #7a9968;
+    --done-bg: #eef4ec;
+    --done-border: #6a8a5e;
+    --prop-bg: #fff0ee;
+    --prop-ink: #a02c1f;
+    --rat-bg: #ecf2e8;
+    --rat-ink: #3a6b2c;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.5;
+    margin: 0;
+    padding: 2rem 1rem;
+  }
+  .wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: var(--paper);
+    padding: 2.5rem 2.5rem;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  h1 {
+    font-size: 1.75rem;
+    margin: 0 0 0.25rem;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 0.5rem;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+    margin: 2.5rem 0 0.75rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--line);
+  }
+  h2:first-of-type { margin-top: 0; }
+  h3 {
+    font-size: 1.05rem;
+    margin: 1.5rem 0 0.5rem;
+    color: var(--accent);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.75rem 0 1rem;
+    font-size: 0.9rem;
+  }
+  th {
+    background: #f0ece2;
+    text-align: left;
+    padding: 0.5rem 0.6rem;
+    font-weight: 600;
+    border-bottom: 2px solid var(--line);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  td {
+    padding: 0.55rem 0.6rem;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  tr:hover td { background: #faf8f2; }
+  .pri-high {
+    background: var(--hi-bg);
+    border-left: 4px solid var(--hi-border);
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0 3px 3px 0;
+  }
+  .pri-med {
+    background: var(--med-bg);
+    border-left: 4px solid var(--med-border);
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0 3px 3px 0;
+  }
+  .pri-low {
+    background: var(--low-bg);
+    border-left: 4px solid var(--low-border);
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0 3px 3px 0;
+  }
+  .pri-done {
+    background: var(--done-bg);
+    border-left: 4px solid var(--done-border);
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0 3px 3px 0;
+    opacity: 0.85;
+  }
+  .badge {
+    display: inline-block;
+    padding: 0.1rem 0.45rem;
+    border-radius: 3px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin-right: 0.3rem;
+  }
+  .badge-proposed { background: var(--prop-bg); color: var(--prop-ink); }
+  .badge-ratified { background: var(--rat-bg); color: var(--rat-ink); }
+  .badge-hi { background: var(--hi-border); color: white; }
+  .badge-med { background: var(--med-border); color: white; }
+  .badge-low { background: var(--low-border); color: white; }
+  .badge-done { background: var(--done-border); color: white; }
+  .check { color: var(--rat-ink); font-weight: 700; }
+  .pending { color: var(--muted); }
+  .urgent { color: var(--prop-ink); font-weight: 700; }
+  code {
+    background: #f0ece2;
+    padding: 0.05rem 0.3rem;
+    border-radius: 2px;
+    font-size: 0.85em;
+    font-family: "SF Mono", Monaco, Menlo, Consolas, monospace;
+  }
+  ul, ol { margin: 0.4rem 0 0.75rem 1.5rem; padding: 0; }
+  li { margin-bottom: 0.3rem; }
+  .toc {
+    background: #f3f0e6;
+    padding: 1rem 1.25rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+  .toc strong { display: block; margin-bottom: 0.3rem; }
+  .toc ul { columns: 2; column-gap: 2rem; margin: 0; }
+  .toc li { list-style: none; padding-left: 0; }
+  .toc a { color: var(--accent); text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+  .callout {
+    background: #fffaf0;
+    border: 1px solid var(--med-border);
+    padding: 1rem 1.25rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+  }
+  .callout-strong {
+    background: #fff4ed;
+    border: 2px solid var(--hi-border);
+    padding: 1rem 1.25rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+  }
+  .callout-strong .title {
+    font-weight: 700;
+    color: var(--hi-border);
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+  }
+  .footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  @media print {
+    body { background: white; padding: 0; }
+    .wrap { border: 0; box-shadow: none; padding: 1rem; }
+    .toc { break-after: avoid; }
+    h2 { break-after: avoid; }
+    tr { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Commons Bonds — PM Dashboard</h1>
+<div class="subtitle">
+  <strong>2026-05-24 (Sun)</strong> · supersedes <code>pm-session-handoff_2026-05-18.md</code> · companion to <code>publishing/strategy/june-2026-submission-schedule.md</code>
+  · <em>State reflects <code>origin/main</code> as of session start.</em>
+</div>
+
+<div class="toc">
+  <strong>Contents</strong>
+  <ul>
+    <li><a href="#top72">1. Next 72 hours</a></li>
+    <li><a href="#critpath">2. Critical path bottleneck</a></li>
+    <li><a href="#useractions">3. User actions queue</a></li>
+    <li><a href="#strategy">4. Strategic call — submit in parallel?</a></li>
+    <li><a href="#essays">5. Essays + op-eds dashboard</a></li>
+    <li><a href="#skipped">6. Skipped / parked venues</a></li>
+    <li><a href="#chapters">7. Book chapters dashboard</a></li>
+    <li><a href="#other">8. Other workstreams</a></li>
+    <li><a href="#dates">9. Date-anchored action list</a></li>
+    <li><a href="#suggestions">10. Suggestions</a></li>
+  </ul>
+</div>
+
+<h2 id="top72">1. Next 72 hours — TOP OF MIND</h2>
+
+<div class="callout-strong">
+  <div class="title">Headline</div>
+  <strong>Four essays are at or near submission-ready.</strong> The bottleneck is author ratification cadence on five PROPOSED artifacts (3 essay-side + 2 chapter-side gating those essays). Clear the queue this week → fire all four essays between Mon May 25 – Sat May 31 → satisfy agent-pitch platform criterion <em>and</em> keep the pipeline full deep into July.
+</div>
+
+<table>
+  <thead>
+    <tr><th style="width:13%">When</th><th style="width:55%">Action</th><th>Gate cleared</th></tr>
+  </thead>
+  <tbody>
+    <tr style="background: var(--hi-bg)">
+      <td><strong class="urgent">🔴 TODAY Sun May 24</strong></td>
+      <td>Ratify <strong>$100 Barrel cover letter</strong> PROPOSED 2026-05-24 (<code>99278eb</code>) — Stage 5 sign-off already RATIFIED (<code>0266525</code> READY-TO-SUBMIT). <em>One ratification away from submission.</em></td>
+      <td>Unblocks $100 Barrel → PW</td>
+    </tr>
+    <tr style="background: var(--hi-bg)">
+      <td><strong class="urgent">🔴 TODAY Sun May 24</strong></td>
+      <td>Ratify <strong>Noema Pass 3.3 LIGHT RE-FIRE</strong> (<code>30a9515</code> — verdict: 14/14 INCLUDE, 1 uplift, strengthened) + <strong>Noema Stage 5 + cover letter</strong> (<code>2e3a051</code>). <em>Three ratifications bundled.</em></td>
+      <td>Unblocks Noema</td>
+    </tr>
+    <tr style="background: var(--med-bg)">
+      <td><strong>🟡 Mon May 25 / Tue May 26</strong></td>
+      <td>SUBMIT <strong>Boston Review</strong> — Stage 5 RATIFIED 2026-05-23 (<code>d34214d</code>) + cover letter RATIFIED 2026-05-24 (<code>a57532c</code>). <span class="check">All gates clear; ready to fire.</span></td>
+      <td>BR enters editor-review</td>
+    </tr>
+    <tr style="background: var(--med-bg)">
+      <td><strong>🟡 Mon May 25 / Tue May 26</strong></td>
+      <td>SUBMIT <strong>$100 Barrel → Phenomenal World</strong> (after cover-letter ratification today).</td>
+      <td>PW enters editor-review</td>
+    </tr>
+    <tr style="background: var(--med-bg)">
+      <td><strong>🟡 Wed May 27 / Thu May 28</strong></td>
+      <td>SUBMIT <strong>Noema</strong> (after today's three ratifications).</td>
+      <td>Noema enters editor-review</td>
+    </tr>
+    <tr style="background: var(--hi-bg)">
+      <td><strong class="urgent">🔴 Fri May 29</strong></td>
+      <td><strong>Aeon pre-submission verify</strong> (portal check + clipboard prep + timezone confirm).</td>
+      <td>Aeon readiness</td>
+    </tr>
+    <tr style="background: var(--hi-bg)">
+      <td><strong class="urgent">🔴 Sat May 31 14:01 UTC</strong></td>
+      <td>SUBMIT <strong>Aeon Pitch Version C</strong> (= Sun Jun 1 ~00:01 AEST). <strong>HARD deadline.</strong></td>
+      <td>Aeon enters editor-review</td>
+    </tr>
+    <tr>
+      <td>Background</td>
+      <td>Ratify Ch 9 Pass 3.3 + 3.4 (<code>a6b7df5</code> + <code>f47dd1c</code>); ratify Ch 8 Pass 2 (<code>d95f1fb</code>); apply Ch 7 Pass 2 Phase C-β (<code>e29d5ae</code> already on main).</td>
+      <td>Chapter Stage-3 progress</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="critpath">2. Critical path bottleneck</h2>
+
+<div class="callout">
+  <strong>Bottleneck = author ratification bandwidth</strong> for the submission queue. 5 PROPOSED artifacts gate 4 submissions; each is short-cycle (Pipeline Doctrine Amendment C — Interactive Ratification). Rate limit: ~2 interactive ratifications/day sustainably. <strong>5 across 2–3 days is tight but doable.</strong> Cover-letter ratifications are lightest (~10 min each); the Pass 3.3 light re-fire read is one verdict check (~15 min).
+  <br><br>
+  <strong>Secondary:</strong> Atlantic Ideas is 2–3 weeks behind (Pass 3.1 PROPOSED 2026-05-23 with 20 findings; needs Pass 3.2 + 3.3 + 3.4 + 3.5 + Stage 5). Realistic submission late June / early July.
+  <br><br>
+  <strong>Tertiary:</strong> Berggruen Prize (AI-free; hard 2026-08-17). Drops one June essay batch if hours go heavy in late May / early June.
+</div>
+
+<h2 id="useractions">3. USER ACTIONS gating submissions</h2>
+
+<table>
+  <thead><tr><th>#</th><th>Item</th><th>Gate</th><th>Effort</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td><strong>Ratify $100 Barrel cover letter</strong> (<code>99278eb</code>)</td><td>Submit $100 Barrel → PW</td><td>~10 min</td></tr>
+    <tr><td>2</td><td><strong>Ratify Noema Pass 3.3 LIGHT RE-FIRE</strong> (<code>30a9515</code>)</td><td>Confirm strengthened verdict</td><td>~15 min</td></tr>
+    <tr><td>3</td><td><strong>Ratify Noema Stage 5 + cover letter</strong> (<code>2e3a051</code>)</td><td>Submit Noema</td><td>~30 min combined</td></tr>
+    <tr><td>4</td><td>SUBMIT Boston Review</td><td>BR enters review</td><td>~20 min portal</td></tr>
+    <tr><td>5</td><td>SUBMIT $100 Barrel → PW</td><td>PW enters review</td><td>~20 min portal</td></tr>
+    <tr><td>6</td><td>SUBMIT Noema</td><td>Noema enters review</td><td>~20 min portal</td></tr>
+    <tr><td>7</td><td>Aeon pre-submission verify Fri May 29</td><td>Submission readiness</td><td>~20 min</td></tr>
+    <tr><td>8</td><td>SUBMIT Aeon Sat May 31 14:01 UTC</td><td>Aeon enters review</td><td>~10 min portal</td></tr>
+    <tr><td>9</td><td>Send Colden citation-verify packet (pre-staged <code>15c6b0f</code>)</td><td>Ch 5 + Ch 6 + TA cite confirmations</td><td>~15 min</td></tr>
+  </tbody>
+</table>
+
+<div class="callout"><strong>Total user time for the submission sprint:</strong> ~3 hours across the next 7 days. Realistic.</div>
+
+<h2 id="strategy">4. Strategic call — submit more than 2 in parallel?</h2>
+
+<div class="callout-strong">
+  <div class="title">Recommendation</div>
+  <strong>YES — submit all four essays that are ready (or near-ready) within the next 7 days. Do NOT artificially delay.</strong>
+</div>
+
+<h3>Reasoning</h3>
+<ul>
+  <li><strong>Response windows are 4–8 weeks; rapid submission KEEPS the pipeline fuller, not emptier.</strong> Aeon ~8wk · Noema 4–6wk · BR 6–8wk · PW variable · Atlantic 4–6wk. If you submit Mon May 25 – Sat May 31 (4 essays): first acknowledgments early June; first decisions late June–late July; last decisions mid-August. <strong>Through Wave 1 agent-query window (late July / early August), 3–4 essays are still under review.</strong> Spacing out ~1/week would NOT meaningfully extend "under review" status — the long tail of response windows already covers Wave 1.</li>
+  <li><strong>Different essays at different venues are NOT simultaneous-submissions.</strong> Simultaneous-submission policies prohibit the same piece to multiple venues; they don't constrain different pieces in parallel.</li>
+  <li><strong>The agent-pitch platform-paragraph floor is "≥1 essay at editor-review at a top-tier venue"</strong> per decisions-log 2026-05-08. Four essays under review is well above floor and reads as legitimately <em>active</em>, not as drawn-out. Holding ready essays in the drawer when the criterion is already met would read as risk-aversion or over-engineering — neither helps the pitch.</li>
+  <li><strong>Rate-limiting factor is YOUR ratification bandwidth, not external constraint.</strong> ~2 interactive ratifications/day sustainably; 5 across 2–3 days clears the gate.</li>
+</ul>
+
+<h3>Priority order (next 7 days)</h3>
+<table>
+  <thead><tr><th>Rank</th><th>Essay</th><th>Why this priority</th><th>Action by</th></tr></thead>
+  <tbody>
+    <tr style="background: var(--hi-bg)"><td><strong>1</strong></td><td>Aeon Pitch</td><td>Hard external deadline Sat May 31 14:01 UTC</td><td>Sat May 31</td></tr>
+    <tr style="background: var(--med-bg)"><td><strong>2</strong></td><td>Boston Review</td><td>All gates clear today; zero ratification cost</td><td>Mon May 25</td></tr>
+    <tr style="background: var(--med-bg)"><td><strong>3</strong></td><td>$100 Barrel → Phenomenal World</td><td>One ratification away (cover letter)</td><td>Tue May 26</td></tr>
+    <tr style="background: var(--med-bg)"><td><strong>4</strong></td><td>Noema</td><td>Three ratifications bundled; largest ratification load</td><td>Wed May 27 / Thu May 28</td></tr>
+    <tr><td>5</td><td>Atlantic Ideas</td><td>Needs full Stage 3 cycle (~14–21 days)</td><td>Late June / early July</td></tr>
+  </tbody>
+</table>
+
+<h3>Counter-considerations</h3>
+<ul>
+  <li><strong>If Aeon accepts mid-July,</strong> post-acceptance essay-development workstream activates (~4wk). Heavy author commitment — but submitting fewer essays in May/June does NOT reduce this risk (Aeon-acceptance probability is independent of throughput on other venues).</li>
+  <li><strong>If a venue rejects quickly,</strong> next-venue-down decision (cascade-plan §"Backup paths") fires faster. Feature, not bug.</li>
+  <li><strong>If Darity post-interview citation feedback (cross-thread #2) materially affects Ch 5,</strong> that cascades to Boston Review essay Stage 1c → Pass 3.3 light re-fire. Probability currently low; if it happens, BR can be paused or amended in-flight.</li>
+</ul>
+
+<h2 id="essays">5. Dashboard A — Derivative essays + op-eds</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th><th>Piece</th><th>Venue</th><th>Source</th><th>Stage</th><th>Status</th><th>Submit by</th><th>Hard deadline</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background: var(--hi-bg)">
+      <td>1</td>
+      <td><strong>Aeon Pitch</strong> <em>(The Mask of Abundance; 297w)</em></td>
+      <td>Aeon</td>
+      <td>Ch 7</td>
+      <td>Stage 3 COMPLETE</td>
+      <td><span class="badge badge-ratified">LOCKED</span></td>
+      <td><strong>Sat May 31</strong></td>
+      <td class="urgent">Sat May 31 14:01 UTC</td>
+    </tr>
+    <tr style="background: var(--med-bg)">
+      <td>2</td>
+      <td><strong>Boston Review</strong> <em>(~4,500w)</em></td>
+      <td>Boston Review / n+1 alt</td>
+      <td>Ch 5</td>
+      <td>Stage 5 ✓ + cover letter ✓</td>
+      <td><span class="badge badge-ratified">READY NOW</span></td>
+      <td><strong>Mon May 25</strong></td>
+      <td>—</td>
+    </tr>
+    <tr style="background: var(--med-bg)">
+      <td>3</td>
+      <td><strong>$100 Barrel</strong> <em>(~3,500–4,500w)</em></td>
+      <td>Phenomenal World</td>
+      <td>withdrawn-Noema §III rework</td>
+      <td>Stage 5 ✓; cover letter <span class="badge badge-proposed">PROPOSED</span></td>
+      <td>1 ratification</td>
+      <td><strong>Tue May 26</strong></td>
+      <td>—</td>
+    </tr>
+    <tr style="background: var(--med-bg)">
+      <td>4</td>
+      <td><strong>Noema</strong> <em>(~4,500w; Path B Chris-as-vignette + cluster γ)</em></td>
+      <td>Noema</td>
+      <td>Ch 1 + Ch 10 + cluster γ</td>
+      <td>Pass 3.5 ✓; Pass 3.3 LR + Stage 5 + cover letter <span class="badge badge-proposed">PROPOSED</span></td>
+      <td>3 ratifications</td>
+      <td><strong>Wed/Thu May 27–28</strong></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><strong>Atlantic Ideas</strong> <em>(4,000–5,500w)</em></td>
+      <td>Atlantic Ideas / Foreign Policy alt</td>
+      <td>Ch 9 <em>Pricing Honestly</em></td>
+      <td>Pass 3.1 <span class="badge badge-proposed">PROPOSED</span> (20 findings)</td>
+      <td>Mid-pipeline</td>
+      <td>Late June / early July</td>
+      <td>—</td>
+    </tr>
+    <tr style="background: var(--low-bg)">
+      <td>6a</td>
+      <td>Op-ed: <strong>Norway sovereign-wealth</strong> <em>(~900w)</em></td>
+      <td>FT Opinion / Bloomberg Opinion / Project Syndicate / NYT / WaPo / Guardian</td>
+      <td>Ch 4</td>
+      <td>Drafted; Stage 3 ✓; pipeline-ready</td>
+      <td><span class="badge badge-ratified">PIPELINE-READY</span></td>
+      <td>Opportunistic — fire on news-peg</td>
+      <td>—</td>
+    </tr>
+    <tr style="background: var(--low-bg)">
+      <td>6b</td>
+      <td>Op-ed: <strong>McDowell true-cost</strong> <em>(~900w)</em></td>
+      <td>FT Opinion / Bloomberg Opinion / Project Syndicate / NYT / WaPo / Guardian</td>
+      <td>Ch 8</td>
+      <td>Drafted; Stage 3 ✓; pipeline-ready</td>
+      <td><span class="badge badge-ratified">PIPELINE-READY</span></td>
+      <td>Opportunistic — fire on news-peg</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td><strong>Berggruen Prize</strong></td>
+      <td>Berggruen Prize</td>
+      <td>Free brief</td>
+      <td>Separate AI-free track</td>
+      <td>Parallel</td>
+      <td>Not for June</td>
+      <td>Soft 2026-08-05 / hard <strong>2026-08-17</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="skipped">6. Skipped / parked venues (previously identified)</h2>
+
+<table>
+  <thead><tr><th>Venue</th><th>Identified for</th><th>Why parked</th><th>Re-fire trigger</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Real-World Economics Review</strong></td><td>Methods-note adaptation of Ch 9 four-step framework (cascade-plan A3)</td><td>Heterodox-econ niche; smaller platform contribution; no fellowship yet</td><td>If fellowship lands; if Atlantic declines + Ch 9 needs salvage venue</td></tr>
+    <tr><td><strong>Brookings / PIIE briefs</strong></td><td>Policy outlet for Ch 9 (cascade-plan A3)</td><td>Requires institutional affiliation</td><td>Conditional on fellowship</td></tr>
+    <tr><td><strong>Project Syndicate</strong></td><td>Op-ed primary alt with Bloomberg (cascade-plan A2)</td><td>Bloomberg/FT now leading; PS is real alt, not first-line</td><td>Fold into op-ed cascade as 2nd-tier alt</td></tr>
+    <tr><td><strong>NYT / WaPo / Guardian Long Read</strong></td><td>Op-ed stretch (cascade-plan A2)</td><td>Realistic primary is FT/Bloomberg</td><td>Strong news-peg only</td></tr>
+    <tr><td><strong>Public Books</strong></td><td>Considered for withdrawn-Noema draft2.md</td><td>Archived 2026-05-08 — not slated for any venue</td><td>None</td></tr>
+    <tr><td><strong>n+1</strong></td><td>Alt for Boston Review (Ch 5)</td><td>BR now in-pipeline; n+1 = backup if BR declines</td><td>BR rejection-routing</td></tr>
+    <tr><td><strong>Harper's / NYRB / Foreign Affairs</strong></td><td>Future long-form venues</td><td>Out-of-current-cycle; would draw from Ch 2/Ch 3/Ch 10</td><td>Post–June 2026; Wave 2 / Wave 3 supplements</td></tr>
+  </tbody>
+</table>
+
+<div class="callout"><strong>PM recommendation:</strong> No re-fire needed in next 60 days. Active pipeline (5 long-form + 2 op-eds + Berggruen parallel) is at capacity given author ratification bandwidth.</div>
+
+<h2 id="chapters">7. Dashboard B — Book chapters + manuscript artifacts</h2>
+
+<table>
+  <thead>
+    <tr><th>Ch</th><th>P 1</th><th>P 2</th><th>P 3.3</th><th>P 3.4</th><th>P 3.5</th><th>St 4</th><th>St 5</th><th>Next action</th></tr>
+  </thead>
+  <tbody>
+    <tr style="background: var(--med-bg)">
+      <td><strong>1</strong></td>
+      <td><span class="check">✅</span></td><td><span class="check">✅</span></td><td><span class="check">✅</span></td><td><span class="check">✅</span></td><td><span class="check">✅</span></td>
+      <td><span class="pending">⏳</span></td><td><span class="pending">⏳</span></td>
+      <td><strong>HIGH</strong> · Queue Stage 4 + build Stage 5 template</td>
+    </tr>
+    <tr>
+      <td><strong>2</strong></td>
+      <td><span class="check">✅</span></td><td><span class="check">✅</span></td><td><span class="check">✅</span> rev</td><td>—</td><td><span class="pending">⏳</span></td>
+      <td><span class="pending">⏳</span></td><td><span class="pending">⏳</span></td>
+      <td>MED · Queue Pass 3.4 + 3.5; retrofit pending</td>
+    </tr>
+    <tr>
+      <td><strong>3</strong></td>
+      <td><span class="check">✅</span> + augment (11 named voices)</td>
+      <td><span class="check">✅</span> Phase C</td>
+      <td>—</td><td>—</td><td><span class="pending">⏳</span></td>
+      <td><span class="pending">⏳</span></td><td><span class="pending">⏳</span></td>
+      <td>MED · Fire Pass 3.3 + 3.4</td>
+    </tr>
+    <tr style="background: var(--med-bg)">
+      <td><strong>4</strong></td>
+      <td><span class="check">✅</span></td>
+      <td><span class="badge badge-proposed">PROPOSED</span> <code>3174cc8</code></td>
+      <td>—</td><td>—</td><td><span class="pending">⏳</span></td>
+      <td><span class="pending">⏳</span></td><td><span class="pending">⏳</span></td>
+      <td>MED · <strong>Ratify Pass 2 + apply</strong></td>
+    </tr>
+    <tr>
+      <td><strong>5</strong></td>
+      <td><span class="check">✅</span></td><td><span class="check">✅</span></td><td><span class="check">✅</span></td><td>—</td><td><span class="pending">⏳</span></td>
+      <td><span class="pending">⏳</span></td><td><span class="pending">⏳</span></td>
+      <td>MED · Source for BR (stable); queue Pass 3.4 + 3.5</td>
+    </tr>
+    <tr style="background: var(--med-bg)">
+      <td><strong>6</strong></td>
+      <td><span class="check">✅</span></td><td><span class="check">✅</span> + IPG recon</td><td><span class="check">✅</span></td><td><span class="check">✅</span></td><td><span class="check">✅</span></td>
+      <td><span class="pending">⏳</span></td><td><span class="pending">⏳</span></td>
+      <td><strong>HIGH</strong> · Queue Stage 4 + Stage 5 (2nd through full 5-pass)</td>
+    </tr>
+    <tr>
+      <td><strong>7</strong></td>
+      <td><span class="check">✅</span> + Phase C-α</td>
+      <td><span class="check">✅</span> RATIFIED + Phase C-β on main</td>
+      <td>—</td><td>—</td><td><span class="pending">⏳</span></td>
+      <td><span class="pending">⏳</span></td><td><span class="pending">⏳</span></td>
+      <td>MED · Fire Pass 3.3 + 3.4</td>
+    </tr>
+    <tr style="background: var(--med-bg)">
+      <td><strong>8</strong></td>
+      <td><span class="check">✅</span> + cascade recon</td>
+      <td><span class="badge badge-proposed">PROPOSED</span> 2026-05-23</td>
+      <td>—</td><td>—</td><td><span class="pending">⏳</span></td>
+      <td><span class="pending">⏳</span></td><td><span class="pending">⏳</span></td>
+      <td>MED · <strong>Ratify Pass 2 + apply</strong></td>
+    </tr>
+    <tr style="background: var(--hi-bg)">
+      <td><strong>9</strong></td>
+      <td><span class="check">✅</span> + Phase C</td>
+      <td><span class="check">✅</span> Phase C</td>
+      <td><span class="badge badge-proposed">PROPOSED</span> <code>a6b7df5</code></td>
+      <td><span class="badge badge-proposed">PROPOSED</span> <code>f47dd1c</code></td>
+      <td><span class="pending">⏳</span></td>
+      <td><span class="pending">⏳</span></td><td><span class="pending">⏳</span></td>
+      <td><strong>HIGH</strong> · <strong>Ratify Pass 3.3 + 3.4 + apply</strong>; source for Atlantic Ideas</td>
+    </tr>
+    <tr>
+      <td><strong>10</strong></td>
+      <td><span class="badge badge-proposed">v1.0.1</span> residual findings</td>
+      <td>—</td><td>—</td><td>—</td><td><span class="pending">⏳</span></td>
+      <td><span class="pending">⏳</span></td><td><span class="pending">⏳</span></td>
+      <td>MED · Close residual Pass 1 + fire Pass 2</td>
+    </tr>
+    <tr style="background: var(--low-bg)">
+      <td><strong>TA</strong> v2.1.0</td>
+      <td><span class="check">✅</span></td><td><span class="check">✅</span></td><td><span class="check">✅</span></td><td><span class="check">✅</span></td><td>—</td>
+      <td><span class="pending">⏳</span> render-verify</td>
+      <td><span class="pending">⏳</span></td>
+      <td>LOW · Per-chapter call-site audit folds into Chs 7–10 Phase C</td>
+    </tr>
+    <tr style="background: var(--low-bg)">
+      <td><strong>AuthorsNote</strong></td>
+      <td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>
+      <td><span class="pending">⏳</span></td><td><span class="pending">⏳</span></td>
+      <td>LOW · Pipeline-retrofit pending</td>
+    </tr>
+    <tr style="background: var(--low-bg)">
+      <td><strong>Dedication</strong></td>
+      <td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>
+      <td><span class="pending">⏳</span></td><td><span class="pending">⏳</span></td>
+      <td>LOW · Pipeline-retrofit pending; skips Pass 3.5</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Ratification queue this week (chapter-side)</h3>
+<ul>
+  <li>Ch 4 Pass 2 (<code>3174cc8</code>) · Ch 8 Pass 2 (<code>d95f1fb</code>) · Ch 9 Pass 3.3 (<code>a6b7df5</code>) · Ch 9 Pass 3.4 (<code>f47dd1c</code>) · Ch 10 Pass 1 residuals</li>
+  <li>Plus 4 essay-side ratifications (§3). <strong>Total ~9 ratifications across 5–7 days = doable at ~2/day.</strong></li>
+</ul>
+
+<h2 id="other">8. Other workstreams + standing capabilities</h2>
+
+<table>
+  <thead><tr><th>#</th><th>Workstream</th><th>State</th><th>Next action</th></tr></thead>
+  <tbody>
+    <tr><td>4</td><td>Outreach pipeline</td><td>CBF meeting Thu May 21 (status TBD); Sandy reply window OPEN since 2026-05-21; Mazzucato DECLINED 2026-05-21</td><td>Send Colden citation-verify packet; Sandy soft check-in if no reply</td></tr>
+    <tr><td>5</td><td>Book proposal</td><td>Gated on Chs 7–10 (Passes 2+3); late-June sprint target</td><td>Fires after Chs 7–10 Stage-3 closure</td></tr>
+    <tr><td>6</td><td>Agent prep / target list</td><td>Gated on #5 + #14 + ≥1 essay at editor-review (now imminent)</td><td>Wave 1 late Jul / early Aug; 1/25 populated</td></tr>
+    <tr><td>14</td><td>Comp-titles deep matrix Phase 2</td><td>Just-in-time verification deferred</td><td>Early-to-mid July (2–3wk before Wave 1)</td></tr>
+    <tr><td>17</td><td>Publishing pipeline</td><td>Operational; standing capability</td><td>Operational</td></tr>
+  </tbody>
+</table>
+
+<h2 id="dates">9. Date-anchored action list</h2>
+
+<div class="pri-high">
+  <strong>🔴 TODAY Sun May 24</strong>
+  <ul>
+    <li>Ratify $100 Barrel cover letter (<code>99278eb</code>)</li>
+    <li>Ratify Noema Pass 3.3 LIGHT RE-FIRE (<code>30a9515</code>) + Stage 5 + cover letter (<code>2e3a051</code>)</li>
+    <li><em>(Optional)</em> Soft check-in to Sandy if silence by EOD (day 3+ of reply window)</li>
+  </ul>
+</div>
+
+<div class="pri-med">
+  <strong>Mon May 25</strong>
+  <ul>
+    <li>SUBMIT Boston Review (all gates clear)</li>
+    <li>Begin chapter ratifications (Ch 4 Pass 2 + Ch 8 Pass 2)</li>
+  </ul>
+</div>
+
+<div class="pri-med">
+  <strong>Tue May 26</strong>
+  <ul>
+    <li>SUBMIT $100 Barrel → Phenomenal World (after cover-letter ratified)</li>
+    <li>Ratify Ch 9 Pass 3.3 + 3.4 → apply Phase C</li>
+  </ul>
+</div>
+
+<div class="pri-med">
+  <strong>Wed May 27 / Thu May 28</strong>
+  <ul>
+    <li>SUBMIT Noema (after 3 ratifications cleared)</li>
+    <li>Continue chapter ratifications / Phase C applications</li>
+  </ul>
+</div>
+
+<div class="pri-high">
+  <strong>🔴 Fri May 29</strong>
+  <ul><li>Aeon pre-submission verify (portal + clipboard + timezone)</li></ul>
+</div>
+
+<div class="pri-high">
+  <strong>🔴 Sat May 31 14:01 UTC (= Sun Jun 1 ~00:01 AEST)</strong>
+  <ul><li>SUBMIT Aeon Pitch Version C via <code>aeon.co/pitch</code></li></ul>
+</div>
+
+<div class="pri-med">
+  <strong>Week of Jun 1</strong>
+  <ul>
+    <li>Atlantic Ideas Stage 3 work (Pass 3.1 ratification → Phase C → Pass 3.2)</li>
+    <li>Continue chapter Stage-3 cycles (Chs 4/8/9/10)</li>
+  </ul>
+</div>
+
+<div class="pri-med">
+  <strong>Mid-June / Late June</strong>
+  <ul>
+    <li>Atlantic Ideas Stage 3 completes</li>
+    <li>Book proposal sprint kicks off (gated on Chs 7–10)</li>
+    <li>Publishing-lawyer consultation (user-action)</li>
+    <li>Berggruen Prize parallel-track first draft</li>
+  </ul>
+</div>
+
+<div class="pri-med">
+  <strong>Late June / early July</strong>
+  <ul>
+    <li>SUBMIT Atlantic Ideas (or Foreign Policy alt reframe if declined)</li>
+    <li>Comp-titles Phase 2 verification</li>
+  </ul>
+</div>
+
+<div class="pri-high">
+  <strong>🔴 Late Jul / early Aug — Wave 1 agent queries</strong>
+  <ul>
+    <li>8 Priority A — gated on #5 + #14 + multiple essays in editor-review</li>
+    <li>Berggruen Prize soft deadline 2026-08-05</li>
+  </ul>
+</div>
+
+<div class="pri-high">
+  <strong>🔴 Sun Aug 17 — Berggruen Prize hard deadline</strong>
+</div>
+
+<div class="pri-low">
+  <strong>Opportunistic — any time during June</strong>
+  <ul><li>Op-ed cascade (Norway sovereign-wealth + McDowell true-cost) — fire on news-peg</li></ul>
+</div>
+
+<h2 id="suggestions">10. Suggestions (added per author request 2026-05-24)</h2>
+
+<ol>
+  <li><strong>Build <code>publishing/submissions-log.md</code> ledger NOW.</strong> June schedule §"Submission-tracking discipline" describes the per-submission fields but no log file exists. With 4 submissions firing in 7 days, this should be in place. ~30 min to template + populate.</li>
+  <li><strong>Set Aeon Sat May 31 14:01 UTC as a calendar event NOW</strong> with reminders Fri May 29 morning (verify) + Sat May 31 13:00 UTC (1 hr prior). Silent deadline-passing is the highest-cost queue mistake.</li>
+  <li><strong>Decide Berggruen calendar blocks for June</strong> — Berggruen + essay-collab work compete for author hours. Allocate explicitly so neither slips.</li>
+  <li><strong>Pre-stage op-ed news-peg watch.</strong> Subscribe to small alert set (GPFG announcements, coal-industry news, EPA/Treasury SCC, energy-policy). 1–2 day turnaround needs fast response. ~10 min setup.</li>
+  <li><strong>Schedule publishing/entertainment lawyer consult for late June</strong> — before Wave 1. Target 1–2 hrs. User-action.</li>
+  <li><strong>Fire Stage 4 + Stage 5 for Ch 1 in next 10 days.</strong> Ch 1 is the only chapter at full-5-pass closure; Ch 6 just joined. Both ready for Stage 4 + Stage 5. The first chapter through Stage 5 builds the template; doing it on Ch 1 while you're already in submission-mode means Ch 6 + future chapters have a clean precedent.</li>
+</ol>
+
+<div class="footer">
+  <strong>Source artifact (canonical markdown):</strong> <code>tools/workstream-handoffs/pm-session-handoff_2026-05-24.md</code><br>
+  <strong>Predecessor (superseded):</strong> <code>tools/workstream-handoffs/pm-session-handoff_2026-05-18.md</code><br>
+  <strong>Companion (June cadence detail):</strong> <code>publishing/strategy/june-2026-submission-schedule.md</code><br>
+  <em>End of PM dashboard — refresh after submission sprint closes (~Sun Jun 1) or on phase-shift event.</em>
+</div>
+
+</div>
+</body>
+</html>

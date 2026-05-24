@@ -1,5 +1,7 @@
 # Project Management Session — Handoff (2026-05-18, v2.0 dashboard structure)
 
+> **🟡 SUPERSEDED 2026-05-24 by [`pm-session-handoff_2026-05-24.md`](pm-session-handoff_2026-05-24.md).** Retained as audit-trail for the 2026-05-18 → 2026-05-23 session window (refresh `aa04a4a` 2026-05-21 captured Phat anonymization + Ch 3 augmentation + Aeon Pass 3.1 + Chs 7/8/9 Phase C applications).
+
 **Date drafted:** 2026-05-18 (Mon). Supersedes `pm-session-handoff_2026-05-13.md` (which covered the 2026-05-13 → 2026-05-17 window via in-place updates).
 **Companion artifact:** `pm-mobile-todo-dashboard_2026-05-15.md` — mobile-scope cut. Refresh after major in-flight items land.
 **Branch to create at session start:** `claude/pm-session-<harness-id>` (branch from current `origin/main` after `git fetch`).
