@@ -1,6 +1,26 @@
 # $100 Barrel Essay — Pass 3.5 Developmental-Edit (Restoration Polarity) v1.0.0 — 2026-05-23
 
-**Status:** PROPOSED. Pass 3.5 developmental-edit artifact firing after Pass 3.4 RATIFIED 2026-05-23 (commit `63e149a`). Whole-essay restoration-polarity audit per v3.1 Amendment B + pipeline doctrine §3.6.3. Polarity is restoration (adds back richness, scenes, sensory detail), NOT cutting; restoration findings ratify-and-apply per Amendment C Interactive Ratification Protocol.
+**Status:** RATIFIED + APPLIED 2026-05-24 (Amendment A applied; all 6 findings interactively ratified + Phase C-α/β applied to essay file). Pass 3.5 developmental-edit artifact fired after Pass 3.4 RATIFIED 2026-05-23 (commit `63e149a`). Whole-essay restoration-polarity audit per v3.1 Amendment B + pipeline doctrine §3.6.3. Polarity is restoration (adds back richness, scenes, sensory detail), NOT cutting.
+
+**Amendment A — 2026-05-24. RATIFICATION + APPLICATION.** All 6 findings interactively ratified + applied per v3.1 Amendment C Interactive Ratification Protocol. Per-finding dispositions:
+
+| Finding | Severity | Disposition | Net delta |
+|---|---|---|---|
+| F-DE-Barrel-1 | MEDIUM | Option A as recommended (3-figure scene-anchor) | +24w |
+| F-DE-Barrel-2 | MEDIUM | Option A as recommended (Sandel signature-example anchor) | +28w |
+| F-DE-Barrel-3 | MEDIUM | Option A as recommended ("That is Rawls applied across time." bridge); **directly resolves Pass 3.3 light flag #2** | +5w |
+| F-DE-Barrel-4 | LOW | **Option B author-selected** (2-example + analytical close; not Pass 3.5's Option A 3-example recommendation). Author preferred conservative-on-rule-of-three reading + the analytical-close sentence ("system that consumes faster than it regenerates eventually breaks") which generalizes the two examples up to a principle | +20w |
+| F-DE-Barrel-5 | LOW | Option A as recommended (Nordhaus methodological-position framing); marginal Tier 1 #3 + A5 lift | +21w |
+| F-DE-Barrel-6 | LOW | Option A as recommended (verb texture variance: looked at / showed / framed / proved a rule for / asked / fought about) | -8w |
+| **NET** | | | **+90w** |
+
+Body word count: 4,145w (post-Pass-3.2-Phase-C) → 4,248w (post-Pass-3.5-Phase-C). Within Stage 1 brief §10 window (3,500–4,500w).
+
+One finding where applied disposition differs from Pass 3.5's original recommendation transparently logged: F-DE-Barrel-4 (Option B selected over recommended Option A). Reasoning recorded in §3 Synthesis updates below.
+
+Phase C application committed to essay file (`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`) in same session; artifact + essay updates batched into single commit per atomic Phase C standard.
+
+Active-findings count post-Amendment-A: 0 (all 6 findings APPLIED).
 
 **Audit target:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md) (4,145w post-Pass-3.2-Phase-C + post-Pass-3.3-light-RATIFIED + post-Pass-3.4-light-RATIFIED; on `main` commit `63e149a`).
 
@@ -390,14 +410,23 @@ Per pipeline doctrine: Pass 3.5 should not introduce findings that worsen Pass 3
 
 **2026-05-23 — PROPOSED.** Pass 3.5 developmental-edit (restoration polarity) artifact for $100 Barrel Draft A (post-Pass-3.1-Phase-C, post-Pass-3.2-Phase-C, post-Pass-3.3-light-RATIFIED, post-Pass-3.4-light-RATIFIED). 0 HIGH + 3 MEDIUM + 3 LOW = 6 findings. All findings are restoration-type per Pass 3.5 polarity discipline.
 
-Awaiting author ratification of:
-1. **F-DE-Barrel-1 disposition** (§II thirty-years-of-people scene-anchor): proposed correction (3-figure anchor; +24w) vs alternative correction (single-figure anchor; +23w) vs reject.
-2. **F-DE-Barrel-2 disposition** (Sandel paragraph project-description anchor): proposed correction (+28w with two Sandel signature examples) vs alternative correction (+5w, restructured single example) vs reject.
-3. **F-DE-Barrel-3 disposition** (§IV ¶4 entry-point scene-bridge; addresses Pass 3.3 light flag #2): proposed correction (Option A, 5-word bridge "That is Rawls applied across time.") vs Option B (13-word bridge) vs Option C (no change).
-4. **F-DE-Barrel-4 disposition** (Daly throughput concrete-example anchor; LOW): apply / hold / alternative (2-example version vs 3-example version).
-5. **F-DE-Barrel-5 disposition** (Nordhaus symmetric methodological framing; LOW): apply / hold.
-6. **F-DE-Barrel-6 disposition** (§Close rule-of-six texture variance; LOW): apply / hold (defensible either way).
-7. **Phase C application session** spin-up after ratification per v3.1 Amendment C Interactive Ratification Protocol.
+~~Awaiting author ratification of:~~ ALL FINDINGS RATIFIED + APPLIED 2026-05-24 per Amendment A (see top of artifact). Original finding-by-finding ratification queue (preserved below for audit-trail completeness) is closed.
+
+1. ✅ **F-DE-Barrel-1 disposition** — APPLIED 2026-05-24 as Option A (3-figure scene-anchor).
+2. ✅ **F-DE-Barrel-2 disposition** — APPLIED 2026-05-24 as Option A (Sandel signature-example anchor).
+3. ✅ **F-DE-Barrel-3 disposition** — APPLIED 2026-05-24 as Option A ("That is Rawls applied across time."). Resolves Pass 3.3 light flag #2.
+4. ✅ **F-DE-Barrel-4 disposition** — APPLIED 2026-05-24 as **Option B** (author selected over Pass 3.5's Option A recommendation; 2-example + analytical-close version avoids rule-of-three concern + the analytical close generalizes examples up to principle).
+5. ✅ **F-DE-Barrel-5 disposition** — APPLIED 2026-05-24 as Option A as recommended.
+6. ✅ **F-DE-Barrel-6 disposition** — APPLIED 2026-05-24 as Option A as recommended (verb texture variance).
+7. ✅ **Phase C application session** — completed in same session as ratification per v3.1 Amendment C Interactive Ratification Protocol. Single commit per atomic Phase C standard.
+
+**Amendment A 2026-05-24 ratification + application record:**
+- Pass 3.5 PROPOSED → **Pass 3.5 RATIFIED + APPLIED (Amendment A applied)**.
+- All 6 findings ratified + applied in single interactive Phase C session.
+- One departure from Pass 3.5's original recommendation logged transparently: F-DE-Barrel-4 (Option B author-selected over recommended Option A).
+- Per-finding dispositions logged in Amendment A table at top of artifact.
+- Body word count: 4,145w (post-Pass-3.2-Phase-C) → 4,248w (post-Pass-3.5-Phase-C). Within Stage 1 brief §10 window.
+- Next session: per author direction, Pass 3.3 light re-fire recommended but optional; user handling Stage 4 (render + character-integrity audit) offline; Stage 5 sign-off bookend + pre-publication review queue queued after Stage 4 completion.
 
 **Hard-constraints adherence:**
 - [x] No spot-fixes applied to the essay file in this session.
