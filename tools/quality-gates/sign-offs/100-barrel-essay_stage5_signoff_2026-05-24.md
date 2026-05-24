@@ -16,10 +16,11 @@ This sign-off fires after a clean Stage 3 cycle (all five passes ratify-and-appl
 
 ---
 
-## §1. Stage 3 cycle status
+## §1. Stage 2 + Stage 3 cycle status
 
-| Pass | Date | Verdict | Disposition | Commit |
+| Gate | Date | Verdict | Disposition | Commit |
 |---|---|---|---|---|
+| Stage 2 Draft A | 2026-05-21 | RATIFIED (selected via comparative draft audit) | Parallel Stage 2 experiment fired two audience-blind flow drafts (Draft A on canonical path; Draft B on harness `fbc623`); comparative draft audit ran full 18-character acceptance set + 5-character adversarial set; Draft A won decisive verdict on Tier 1 #3 dispositive Condition 1 test (✓✓✓ Draft A vs ✓ Draft B with ⚠ skim-read risk); author ratified routing Draft A → Stage 3 four-pass rigor; Draft B archived to `archive/_OneDayMaybe/100-barrel-essay-variants/100-barrel-essay-draft_2026-05-19_v1.0.0_variant-fbc623.md`. Empirical anchor for v3.0 "Condition-1-execution-choice" discipline-memo entry. | `74953b9` (Draft A drafted) + `095dd46` (ratification + routing) |
 | Pass 3.1 fact-check | 2026-05-21 | CONDITIONAL → RESOLVED | 4 spot-fixes applied (Norway fiscal rule 4%→3% history; Norway fund size $1.9T→$2T+; Niger Delta decade-count; per-citizen figure recalculated) + 1 verification confirmed (pump-price hook EIA-verified) | `cf5db97` |
 | Interactive §III sentence-craft spot-fix | 2026-05-23 | RATIFIED + APPLIED | §III close materially expanded from "Each X-ing" rule-of-three (~40w) to four-domain decomposition + orthodox-model gap + cost-severance close (~110w); SUPERSEDES Pass 3.2 PROPOSED finding F-VP-Barrel-3 | `6a3da83` |
 | Pass 3.2 voice-polish | 2026-05-23 | RATIFIED + APPLIED | 6 active findings ratified + applied (F-VP-Barrel-1 HIGH 3-sub-corrections; F-VP-Barrel-2 §II "even so"→"just"; F-VP-Barrel-4 Option D throat-clearing drop; F-VP-Barrel-5 Hotelling gloss; F-VP-Barrel-6 §Close refrain preserved + bridge sentence; F-VP-Barrel-7 §III em-dash #1→colon asymmetric fix) | `8b2614a` |
@@ -28,7 +29,7 @@ This sign-off fires after a clean Stage 3 cycle (all five passes ratify-and-appl
 | Pass 3.5 developmental-edit | 2026-05-24 | RATIFIED + APPLIED | 0 HIGH + 3 MEDIUM + 3 LOW = 6 restorations applied (F-DE-Barrel-1 §II 3-figure anchor; F-DE-Barrel-2 Sandel signature examples; F-DE-Barrel-3 §IV ¶4 scene-bridge resolves Pass 3.3 light flag #2; F-DE-Barrel-4 Daly throughput 2-example + analytical close; F-DE-Barrel-5 Nordhaus symmetric methodological framing; F-DE-Barrel-6 §Close verb texture variance) | `5f33bdd` |
 | Light Pass 3.3 re-fire | 2026-05-24 | PASS strengthened | Tier 1 #3 reaches unambiguous ✓✓✓; Pass 3.2 audit-trail flag #2 CLOSED by F-DE-Barrel-3; Tier 3 #16 + #18 lifted ✓→✓✓; aggregate 12 ✓✓✓ + 6 ✓✓ + 0 ✓ + 0 ⚠ | `b853f42` |
 
-**Stage 3 cycle COMPLETE.** All five passes ratify-and-applied. Light Pass 3.3 re-fire confirmed acceptance discipline strengthens against restoration. No outstanding Stage-3-scope findings.
+**Stage 2 + Stage 3 cycle COMPLETE.** Stage 2 Draft A RATIFIED via comparative audit + author selection 2026-05-21. All five Stage 3 passes ratify-and-applied 2026-05-21 through 2026-05-24. Light Pass 3.3 re-fire confirmed acceptance discipline strengthens against restoration. No outstanding Stage-2 or Stage-3-scope findings.
 
 ---
 
