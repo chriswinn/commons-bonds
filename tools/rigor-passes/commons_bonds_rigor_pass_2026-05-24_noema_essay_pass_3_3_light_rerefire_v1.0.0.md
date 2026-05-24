@@ -2,7 +2,7 @@
 
 **Workstream:** Noema essay submission pipeline — Pass 3.3 light re-fire (delta-verification post-Pass-3.5-application)
 **Date drafted:** 2026-05-24
-**Status:** PROPOSED. Delta-focused verification pass per Pass 3.5 §6.5 recommendation. Per pipeline doctrine v1.0.0 §3.7.1, Pass 3.3 is OUT of Amendment C scope (verification pass; doesn't directly propose prose). PROPOSED artifact auto-merges to main per CLAUDE.md rigor-pass-artifact default.
+**Status:** RATIFIED 2026-05-24. Delta-focused verification pass per Pass 3.5 §6.5 recommendation. Per pipeline doctrine v1.0.0 §3.7.1, Pass 3.3 is OUT of Amendment C scope (verification pass; doesn't directly propose prose). Aggregate verdict (14/14 INCLUDE preserved + strengthened; 1 uplift; 0 regressions) accepted. See §7 author ratification record.
 **Mode:** Audit-existing-prose (post-Pass-3.5-application essay state is the audit baseline).
 **Source essay:** [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) — **151 lines** (post-Pass-3.5-application state; commit `01067a1` 2026-05-22; verified against `origin/main`).
 
@@ -273,4 +273,17 @@ The Noema essay is **submission-ready at acceptance-test level** for the Stage 5
 
 ---
 
-*End of Pass 3.3 light re-fire artifact (PROPOSED). Auto-merges to main per CLAUDE.md rigor-pass-artifact default. Stage 4 render + character-integrity audit fires next (handled by author offline). Stage 5 sign-off bookend + pre-publication review queue + cover letter session fires after Stage 4 returns clean.*
+## §7. Author ratification record (2026-05-24)
+
+Author ratified Pass 3.3 light re-fire 2026-05-24 alongside Noema Stage 5 sign-off bookend ratification. Ratification covers:
+
+- **Aggregate verdict accepted: READY TO SUBMIT (acceptance test) — REAFFIRMED + STRENGTHENED.** 14/14 INCLUDE preserved + strengthened; distribution shifts toward stronger end (5 ✓✓✓ + 7 ✓✓ + 2 ✓ vs baseline 4 + 8 + 2).
+- **Principal expected delta verified:** character #9 (Black-Studies-resonance reader) uplift ✓✓ → ✓✓✓ INCLUDE via F-DE-Noema-5 (Fanon + Ellison standalone-sentence restoration with verb-variance; F-V-Noema-12 B override per Amendment B). Pass 3.5 §6.2 prediction empirically confirmed.
+- **Per-character delta verdicts accepted as recorded.** Six characters soft-positive within band (no scale change but cleaner read); seven characters unchanged; zero regressions; zero surprises.
+- **Pass 3.4 re-fire NOT routinely warranted** (per Pass 3.5 §6.5; restorations strengthen rather than weaken adversarial robustness; thread-pull synthesis unchanged) — accepted.
+
+**Ratification closes Pass 3.3 light re-fire cycle.** Noema essay Stage 3 cycle is now fully complete (Pass 3.1 + 3.2 + 3.3 + 3.4 + 3.5 + 3.3 light re-fire all ratified). Stage 5 sign-off bookend ratified in same session.
+
+---
+
+*End of Pass 3.3 light re-fire artifact. RATIFIED 2026-05-24. Stage 3 cycle complete. Stage 4 render + character-integrity audit handled by author offline. Stage 5 sign-off bookend ratified in same session; cover letter ratified earlier same day (commit `ca6ba07`).*

@@ -1,7 +1,7 @@
 # Noema Essay — Stage 5 Bookend Pre-Submission Sign-Off
 
 **Date:** 2026-05-24
-**Status:** PROPOSED (READY-TO-SUBMIT verdict pending author ratification)
+**Status:** RATIFIED 2026-05-24 (READY-TO-SUBMIT verdict accepted; submission portal upload gated only on §9 author-action submission-window items). See §12 author ratification record.
 **Stage:** Stage 5 bookend pre-submission sign-off per pipeline doctrine v1.0.0 §6 + Stage 1 brief §1 bookend pair
 **Artifact under sign-off:** [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) — POST-Stage-3-cycle state; 151 lines / ~3,800–4,000w; commit `30a9515` HEAD on origin/main as of 2026-05-24.
 **Workstream:** Noema essay (Essay B; audience-blind two-stage drafting discipline experiment per `tools/memory/feedback_audience_aware_drafting_discipline.md` v3.1)
@@ -234,4 +234,33 @@ After submission:
 
 ---
 
-*End of Stage 5 bookend pre-submission sign-off. Per CLAUDE.md rigor-pass-artifact merge-to-main default, this Stage 5 sign-off artifact autonomously fast-forwards to main at session close. Cover letter (Decision #13 deliverable) co-located in same session; awaits author ratification of personalization sentences before Submittable upload. Submission is the author action gated on §9 items 1-6.*
+## §12. Author ratification record (2026-05-24)
+
+Author ratified Stage 5 bookend pre-submission sign-off 2026-05-24 alongside Pass 3.3 light re-fire ratification + cover letter ratification (earlier same day; commit `ca6ba07`). Ratification covers:
+
+- **Aggregate verdict accepted: READY-TO-SUBMIT.** All Stage 3 sign-offs PASS; all Stage 1 brief hard constraints met; named-tradition attribution discipline holds; named-subject consent discipline holds; AI-disclosure transparency ready; pre-publication review queue equivalent generated at §7.
+- **All sub-section sign-offs accepted as recorded:** §2 academic-rigor PASS; §3 prose-quality PASS (3.1 voice register; 3.2 apparatus exclusion; 3.3 audience-load acceptance; 3.4 audience-load robustness); §4 Path B compliance PASS; §5 named-subject consent discipline PASS; §6 AI-disclosure transparency PASS.
+- **§7 pre-publication review queue equivalent accepted** (5 Pass 3.4 acknowledgments + 5 additional essay-scale items). Highest-priority sections for external review documented (§VI Bay species block; §IV cost-severance definition + §V Norway treatment; §VI Mondragon treatment).
+- **§9 author actions accepted as carry-forward to submission-window** (Stage 4 render audit; cover letter ratification — completed `ca6ba07`; Norway fund value re-verification; Phat consent-status check; Biggie courtesy-notification; Colden + Moore courtesy-notification; Noema submission portal upload).
+
+**Ratification closes Noema essay pipeline at Stage 5.** No further author ratification gates remain before submission. Submission portal upload is the author action gated on §9 items 1 (Stage 4 render) + 3-7 (submission-window items); cover letter ratification (§9 item 2) completed 2026-05-24 commit `ca6ba07`.
+
+**Pipeline-coherence verification at Stage 5 close:**
+
+| Stage / Pass | Date | Status | Commit |
+|---|---|---|---|
+| Stage 1 brief (ratified) | 2026-05-10 (+ §7 repairs 2026-05-21) | RATIFIED | (multiple) |
+| Pass 3.1 fact-check | 2026-05-21 | RATIFIED + APPLIED | `5dc3a02` |
+| Pass 3.2 voice-polish | 2026-05-22 | RATIFIED + APPLIED | `98b8274` |
+| Pass 3.3 audience-load acceptance (first-fire) | 2026-05-22 | RATIFIED | `c14a65a` + `6d134af` |
+| Pass 3.4 audience-load robustness | 2026-05-22 | RATIFIED | `35307ba` + `6d134af` |
+| Pass 3.5 developmental-edit | 2026-05-22 | RATIFIED + APPLIED | `01067a1` |
+| Pass 3.3 light re-fire | 2026-05-24 | RATIFIED (this session) | `30a9515` + this commit |
+| Stage 5 sign-off bookend | 2026-05-24 | RATIFIED (this session) | `2e3a051` + this commit |
+| Cover letter (Decision #13) | 2026-05-24 | RATIFIED | `ca6ba07` |
+
+**Stage 4 render audit (essay-scale):** carried forward to author offline review per session direction.
+
+---
+
+*End of Stage 5 bookend pre-submission sign-off. RATIFIED 2026-05-24. Noema essay Stage 1 → Stage 5 pipeline COMPLETE. Per CLAUDE.md author-ratified content-change merge-to-main default, ratification update autonomously fast-forwards to main at session close. Submission portal upload is the author action gated on §9 submission-window items (Stage 4 render verification + Norway value re-verification + Phat consent-status + Biggie + Colden + Moore courtesy-notifications); this session does not perform the upload.*
