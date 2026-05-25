@@ -1,111 +1,21 @@
-# The $100 Barrel
-
-**Author:** Chris Winn
+---
+**Stage 2 deliverable — $100 Barrel essay audience-blind flow draft (post-Stage-3 ratified state)**
 **Date created:** 2026-05-21
-**Status:** Stage 3 five-pass rigor COMPLETE. Pass 3.1 fact-check RATIFIED + APPLIED 2026-05-21 (4 spot-fixes); Pass 3.2 voice-polish RATIFIED + APPLIED 2026-05-23 (interactive sentence-craft spot-fix + Phase C-α/β/γ; 6 active findings); Pass 3.3 acceptance light RATIFIED 2026-05-23 (PASS, INCLUDE × 18, 0 ⚠); Pass 3.4 robustness light RATIFIED 2026-05-23 (ROBUST); **Pass 3.5 developmental-edit RATIFIED + APPLIED 2026-05-24 (6 restoration spot-fixes)**. Pass 3.3 light re-fire recommended per Pass 3.5 §3.6 carry-forward (confirms restorations don't shift verdicts; verifies F-DE-Barrel-3 resolves Pass 3.3 light flag #2). Stage 4 render + character-integrity audit + Stage 5 academic-rigor + prose-quality sign-off bookend + pre-publication review queue remaining.
-**Target venue:** *Phenomenal World* (Jain Family Institute)
-**Body word count (excluding header):** 4,248 words (post-Pass-3.5-Phase-C; was 4,145 post-Pass-3.2-Phase-C; was 4,159 post-§III-spot-fix; was 4,088 post-Pass-3.1). Within Stage 1 brief §10 window (3,500–4,500w).
-**Stage 1 brief:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`
-**Pass 3.1 fact-check artifact:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md`
-**Comparative draft audit:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`
-
-**Phase C application record (2026-05-21):**
-- F-FC-Barrel-1 (HIGH) — Norway fiscal rule 4%→3% history APPLIED (§VI ¶2). Verbatim correction per Pass 3.1 §F-FC-Barrel-1.
-- F-FC-Barrel-2 (MEDIUM) — Norway fund size updated $1.9T → $2T+ per NBIM live verification (21,268B NOK end-2025 ≈ $2.0–2.16T USD at current exchange).
-- F-FC-Barrel-3 (MEDIUM, Option a) — Niger Delta decade-count tightened "five decades" → "more than half a century". Production figure "more than thirty billion barrels" preserved.
-- F-FC-Barrel-4 (MEDIUM) — Pump-price hook §I directional claim VERIFIED via EIA Weekly Retail Gasoline ($4.49/gal 2026-05-18 vs $3.17/gal 2025-05-18; +$1.32/gal YoY; "crept up again... past where it sat last year" supported). No prose change.
-- F-FC-Barrel-5 (LOW) — Per-citizen figure recalculated $340K → "approaching four hundred thousand dollars" per NBIM/Norway population (~$2.16T / 5.55M ≈ $390K+).
-- CTG-1 (Stage 1 brief §7.2 Amendment A repair) — DEFERRED to separate brief-repair workstream batched with Noema CTG-1 per Decision 4 Option (b).
-
-**Interactive Pass 3.2 sentence-craft spot-fix (2026-05-23, commit `6a3da83`) — SUPERSEDES F-VP-Barrel-3:**
-- §III close (line 119) — REVISED. OLD: "Four traditions: Marx, Ostrom, Daly, Hartwick. Each working on adjacent territory. Each contributing a real piece of the problem. Each leaving the piece that survives them all unbuilt. The piece is the worth of what was permanently foreclosed." NEW: expanded to ~110w version naming what each tradition addressed (who labors / who governs the commons / who lives inside the biosphere / who inherits what is left), then naming the orthodox model's gap (supply and demand at the moment of sale; permanent foreclosure not present; future generation not seated at the table) and closing on the cost-severance image ("the bill comes due in their lifetimes rather than ours"). Workshopped interactively; ratified by author 2026-05-23. **SUPERSEDES Pass 3.2 PROPOSED finding F-VP-Barrel-3** (the prior recommendation to flatten "Each X-ing" rule-of-three to a comma-joined parallel-clause is moot; the rule-of-three is removed and the passage is materially expanded). The new passage tees up §IV ("question of obligation across time") via the "not seated at the table" image. Net body word-count delta from spot-fix alone: +71w (4,088 → 4,159). Em-dash follow-up flagged in this spot-fix was queued as Pass 3.2 F-VP-Barrel-7 (applied below under Phase C-β).
-
-**Pass 3.2 Phase C application record (2026-05-23) — RATIFIED + APPLIED:**
-
-*Phase C-α (HIGH):*
-- F-VP-Barrel-1 (HIGH; "It is not X. It is Y." cadence over-density) — Option A on all 3 sub-corrections APPLIED:
-  - **1.1 §III ¶2 (line 101):** "That absence is not a labor cost. It is not a capitalist's profit. It is the resource itself" → "That absence is neither a labor cost nor a capitalist's profit. It is the resource itself" (-4w)
-  - **1.2 §V ¶7 first cadence (line 157):** "is not a fourth position on the discount rate. It is a structural observation that the underpricing it identifies survives" → "is not a fourth position on the discount rate but a structural observation: the underpricing it identifies survives" (-2w)
-  - **1.3 §VI ¶3 (line 169):** "The point worth noticing is not the size of the fund. The point is that no Norwegian government of any political color has unwound the rule." → "What is worth noticing is not the fund's size but that no Norwegian government of any political color has unwound the rule." (-3w)
-  - 3 instances preserved (locked register-anchor §VI ¶7 + Condition 1 Marx disarming §III ¶3 + dispositive Stern-Nordhaus second cadence §V ¶7).
-
-*Phase C-β (MEDIUM):*
-- F-VP-Barrel-2 (MEDIUM; §II three-fold "may" parallel) — Author-modified version of Option A APPLIED: "But it is, even so, an assumption. It is not a guarantee. The substitution may not arrive in time. The substitute may be inferior in ways that matter." → "But it is just an assumption. It is not a guarantee. The substitution may not arrive in time, or the substitute that arrives may be inferior in ways that matter." (+3w; "even so" dropped per author; triplet collapsed to comma-joined first-two + standalone third per Pass 3.2 Option A). Audit-trail flag: "even so" concession-bridge dropped; fallback if Pass 3.3 light flags is one-word retrofit.
-- F-VP-Barrel-4 (MEDIUM; §IV "I want to name what I am doing here" throat-clearing) — Option D (drop entirely) APPLIED: §IV ¶4 (line 129) first sentence dropped; paragraph now opens "I am using Rawls as one frame among several..." (-8w). Condition 1 explicit-meta moves reduced from 4 → 3 (§III ¶3 Marx + §IV close Sandel-Parfit + §V ¶7 Stern-Nordhaus axis-exit preserved). Audit-trail flag for Pass 3.3 light re-verification: skim-read protection at §IV ¶4 entry point now relies on substantive first-person methodological language rather than dedicated meta-flag.
-- F-VP-Barrel-7 (MEDIUM, Amendment A 2026-05-23; §III close em-dash appositions) — Option B (asymmetric fix) APPLIED: em-dash #1 → colon at "Each addressed part of what economics is for: who labors..." (was em-dash). Em-dash #2 ("the everyday model the rest of us reason inside — supply and demand at the moment of sale") preserved verbatim per asymmetric-fix discipline. Net: 0w; -1 em-dash. Body em-dash count: ~15 → ~14.
-
-*Phase C-γ (LOW):*
-- F-VP-Barrel-5 (LOW; §I Hotelling rent gloss compression) — Option A APPLIED: "the scarcity premium on a non-renewable resource that the owner gives up by extracting today rather than tomorrow" → "the scarcity premium an owner gives up by extracting today rather than tomorrow" (-5w).
-- F-VP-Barrel-6 (LOW; "work of decades, not paragraphs" refrain) — Option (a) preserve refrain + new D-2 bridge sentence APPLIED: §VI ¶2 refrain unchanged. §Close ¶1 (line 181) gets new sentence between "It has not closed it." and "The hard work of producing..." — added sentence: "It has made something currently invisible, visible." (+7w).
-
-*Phase C net word-count delta:* -12w (estimated -9w; actual measurement -14w due to fine-grained word counting on collapsed phrases).
-
-*Condition 1 declaration update (lines 57–58):* §IV bullet updated to reflect F-VP-Barrel-4 drop (first-person methodological-substantive replaces explicit-meta naming move; throat-clearing prefix gone). §V bullet updated to reflect F-VP-Barrel-1.2 first-cadence collapse (single sentence with "but ... :" structure; dispositive second cadence preserved verbatim).
-
-*Pass 3.3 / 3.4 / 3.5 carry-forward:* Per Pass 3.2 §3.5 cross-pass impact table — all spot-fixes are register-level voice-craft; no Pass 3.1 fact-check impact; Pass 3.3 acceptance verdict from comparative draft audit holds as canonical (light re-verification only); Pass 3.4 robustness verdict similarly; Pass 3.5 developmental-edit fires as next-after-3.3-light + 3.4-light per v3.1 doctrine.
-
-**Pass 3.3 acceptance light re-verification (2026-05-23) — RATIFIED:** PASS verdict. INCLUDE × 18; 0 ⚠ flags. Condition 1 dispositive test (Tier 1 #3 center-right policy reader): HOLDS at INCLUDE; conservative ✓✓ / confident ✓✓✓; well above ⚠⚠ ship-block threshold. Two Pass 3.2 audit-trail flags HOLD on Tier 1 #3 (F-VP-Barrel-2 "even so" drop + F-VP-Barrel-4 Option D throat-clearing drop). Artifact: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_3_audience_load_acceptance_light_v1.0.0.md`.
-
-**Pass 3.4 robustness light re-verification (2026-05-23) — RATIFIED:** ROBUST verdict. Thread-pull synthesis HOLDS from comparative draft audit baseline. Critical A4 (reactionary intellectual reader; Condition 1 second venue) investigation: HOLDS ROBUST — all 4 comparative-audit-cited A4-defense moves preserved verbatim post-Phase-C (§III ¶3 Marx disarming + §IV close Sandel-Parfit + §V ¶7 axis-exit + §VI ¶7 honest-dealing register-anchor). Pass 3.3 light's §IV ¶4 flag confirmed NOT to extend to A4. Artifact: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_4_audience_load_robustness_light_v1.0.0.md`.
-
-**Pass 3.5 developmental-edit Phase C application record (2026-05-24) — RATIFIED + APPLIED:**
-
-Phase C-α + Phase C-β interactively ratified + applied per v3.1 Amendment C Interactive Ratification Protocol. 6 restoration spot-fixes applied (0 HIGH + 3 MEDIUM + 3 LOW from Pass 3.5 PROPOSED):
-
-- **F-DE-Barrel-1 (MEDIUM, Option A)** — §II ¶6 (line ~117): 3-figure scene-anchor inserted to anchor "thirty years of people" abstraction. Added phrase: "the child born in 2055, the grandparent who outlives the resource by a decade, the working family that loses the input their livelihood depends on." Net: +24w. Restoration polarity: makes faceless intergenerational-cost claim visible as specific people.
-- **F-DE-Barrel-2 (MEDIUM, Option A)** — §IV Sandel paragraph (line ~153): Sandel signature-example anchor inserted between project-description and territory-claim. Added sentence: "Sandel's signature examples — the paid kidney donor, the wealthy parent who pays for the priority school admission slot — work because the pricing changes what the thing is, not just who can have it." Net: +28w. Restoration polarity: anchors abstract project-description with concrete examples.
-- **F-DE-Barrel-3 (MEDIUM, Option A)** — §IV ¶4 entry-point: 5-word scene-bridge added. New opening sentence: "That is Rawls applied across time." Net: +5w. **Directly addresses Pass 3.3 light audit-trail flag #2** (§IV ¶4 entry-point voice-mode shift after Pass 3.2 F-VP-Barrel-4 Option D drop). Back-reference scene-bridge that is NOT throat-clearing; names the move §IV ¶3 just performed before transitioning to outside-the-veil meta-commentary. "Notice the move." backup retrofit Pass 3.3 light reserved is now unnecessary.
-- **F-DE-Barrel-4 (LOW, Option B — author selected over Pass 3.5's Option A recommendation)** — §III ¶7 Daly paragraph (line ~133): 2-example concrete-throughput anchor + analytical close. Added: "A fishery taken faster than it regrows; an atmosphere given more carbon than it can absorb. The system that consumes faster than it regenerates eventually breaks." Net: +20w. Restoration polarity: brings Daly to same concrete-anchor register as Marx/Ostrom/Hartwick in §III lineage map. Author chose 2-example version (avoids rule-of-three) over Pass 3.5's 3-example proposal; the analytical-close sentence ("system that consumes faster than it regenerates eventually breaks") was an editorial improvement over the proposed 3-example version because it generalizes the two examples up to a principle.
-- **F-DE-Barrel-5 (LOW, Option A)** — §V ¶3 Nordhaus paragraph (line ~171): methodological-position framing added. Replaced "on the grounds that the rate should reflect observed market rates of return on capital" with "on the grounds that a credible cost-benefit analysis must reflect the rate at which the economy actually trades present for future — observed market rates of return on capital, not a rate chosen on first principles." Net: +21w. Symmetrizes §V Stern-Nordhaus engagement (Stern had moral-position framing; Nordhaus now has methodological-position framing). Marginal Pass 3.3 Tier 1 #3 lift + Pass 3.4 A5 orthodox-econ-reader lift.
-- **F-DE-Barrel-6 (LOW, Option A)** — §Close ¶3 (line ~209): rule-of-six "X looked at Y" parallel structure replaced with varied-verb recap. Verbs: "looked at / showed / framed / proved a rule for / asked / fought about" — each tuned to the tradition's mode of inquiry (Marx observed; Ostrom demonstrated empirically; Daly framed; Hartwick theorem-proved; the philosophers asked; the climate economists publicly fought). Net: -8w. Restoration polarity: texture-variance (NOT chiseling) — the parallel-cadence-residue concern from Pass 3.5 §3.1 addressed; recap function preserved at the sentence-content level; characterization work added through verb choice.
-
-*Phase C net word-count delta:* +90w (4,145w post-Pass-3.2-Phase-C → 4,248w post-Pass-3.5-Phase-C). Within Stage 1 brief §10 window. Two findings where applied disposition differs from Pass 3.5 PROPOSED recommendation transparently flagged (F-DE-Barrel-4 Option B vs proposed Option A; F-DE-Barrel-6 application of Option A on a polarity-boundary finding).
-
-*Pass 3.3 light re-fire recommendation:* per Pass 3.5 §3.6 carry-forward — light re-fire after Phase C application confirms restorations don't shift verdicts and verifies F-DE-Barrel-3 resolves the §IV ¶4 entry-point flag. Pass 3.4 light re-fire NOT routinely warranted (restorations strengthen rather than weaken adversarial robustness); the F-DE-Barrel-5 Nordhaus methodological framing addition marginally lifts A5 robustness if anything.
-
-*Remaining pre-submission work:* Pass 3.3 light re-fire (optional; 1 session) + Stage 4 render + character-integrity audit (user handling offline) + Stage 5 academic-rigor + prose-quality sign-off bookend + pre-publication review queue (1 session).
-
+**Date final-ratified:** 2026-05-24 (Stage 5 sign-off RATIFIED — READY-TO-SUBMIT)
+**Branch:** `claude/100-barrel-essay-stage-2-fbc623`
+**Source brief:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md` (RATIFIED 2026-05-19)
+**Stage 0 verdict:** CONDITIONAL → RESOLVED per `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md`
+**Comparative draft audit:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md` (Draft A selected; Draft B archived per commit `095dd46`)
+**Path B compliance:** Drafted audience-blind from Stage 1 brief §7 canonical-facts inventory. `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` was not opened during any pipeline session.
+**Stage 3 five-pass cycle:** COMPLETE (Pass 3.1 + 3.2 + 3.3 light + 3.4 light + 3.5 + Pass 3.3 light re-fire all RATIFIED 2026-05-21 → 2026-05-24). See per-pass artifacts in `tools/rigor-passes/` and Stage 5 sign-off §1 cycle status table.
+**Stage 5 sign-off:** `tools/quality-gates/sign-offs/100-barrel-essay_stage5_signoff_2026-05-24.md` (RATIFIED 2026-05-24 — READY-TO-SUBMIT).
+**Cover letter:** `publishing/essay-drafts/100-barrel-essay-cover-letter_2026-05-24.md` (RATIFIED 2026-05-24).
+**Target venue:** *Phenomenal World* (Jain Family Institute). Submission method: email pitch + essay to [email protected] (open and rolling).
+**Body word count:** 4,248 words (Stage 1 brief §10 window 3,500–4,500w).
+**Status:** RATIFIED — READY-TO-SUBMIT.
 ---
 
-## Path B audit declaration
-
-- Verbatim sentences from withdrawn-Noema §III present in body: **0**.
-- The Stage 2 session did not read source §III prose paragraphs. All prose generated fresh from Stage 1 brief §4 structural decisions + §7 canonical-facts inventory + brief's locked-element register-anchors (§8). Source consulted for nothing in this session; no narrow fact-check fallback was needed beyond Stage 1 brief §7.
-
-## Apparatus check declaration
-
-- Greek letters / subscripts / integrals / formulas in body prose: **0**.
-- Framework-apparatus acronyms in body prose: **0**.
-- Non-framework standard acronyms in body prose (PW house-style normal): **DICE** (used once and immediately spelled out as "Dynamic Integrated Climate-Economy" — Nordhaus's model name, not framework apparatus); **UK** (used once, in "UK Treasury"); **U.S.** (used twice, both as currency qualifier "U.S. dollars"). All other organizational and policy terms spelled out as full words (United Nations Environment Programme; Nigerian National Petroleum Corporation; gross domestic product; Government Petroleum Fund; Government Pension Fund Global; Nobel Memorial Prize in Economic Sciences).
-- Lowercase plain-language framework phrases (italicized as phrases, never as acronyms): *residual commons value* appears 4 times (§I closing line, §IV's framework-naming move where the gap is defined as the figure that would survive the veil, §V close where the framework is distinguished from the climate-damage line of analysis, Close section where the framework is named as the load-bearing piece the lineage left unbuilt — all four italicized); *cost severance* appears 1 time (§VI Nigeria paragraph, italicized at the inline-definition move). No acronym form ("RCV", "CS") appears anywhere.
-- Framework apparatus excluded: no "RCV" / "CS" / "B" / "B₁" / "B₂" / Foreclosure Bond / Restitution Bond / Accountability Bond / CIT / ARR / Externality Tail / Abundance Masking / Cᵢ / cost-component vocabulary / "Three Ways of Counting" / "Four Gates" / "10-dimension structure" appears anywhere in the body. The "CS = RCV − B" equation does not appear; the Hartwick Identity formal apparatus does not appear; no S, E, IPG variables.
-
-## Carry-forward verifications (canonical facts cited; cross-reference to Stage 1 brief §7)
-
-- **Hartwick 1977** (§III): *American Economic Review* 67(5): 972–974; "Intergenerational Equity and the Investing of Rents from Exhaustible Resources"; reinvest-the-rents principle; Norway as canonical application. Per Stage 1 brief §7.1.
-- **Norway** (§VI): 1969 Ekofisk (Block 2/4, North Sea, three days before Christmas); 1990 Government Petroleum Fund → renamed Government Pension Fund Global 2006; 2001 fiscal rule (~3% expected real return; capital inviolate) adopted under Stoltenberg I (Labour); held through Bondevik II (center-right coalition) / Stoltenberg II (Labour) / Solberg (Conservative-led coalition) / Støre (Labour-Centre). Fund holds >$1.9T; ~$340K per Norwegian citizen. Per Stage 1 brief §7.2.
-- **Stern Review** (§V): independent review for UK Government, October 2006; published Cambridge UP 2007; 700 pages; "the greatest and widest-ranging market failure ever seen"; ~1% of global GDP per annum; ~1.4% discount rate; ~$360/ton social-cost-of-carbon recommendation. Per Stage 1 brief §7.3.
-- **Nordhaus DICE** (§V): Dynamic Integrated Climate-Economy model; 2018 Nobel; ~4.3% discount rate in early iterations; ~$35/ton SCC in same comparison frame. Per Stage 1 brief §7.4.
-- **Discount-rate illustration** (§V): at Stern's 1.4%, $100 a century out ≈ $24.90 today; at Nordhaus's 4.3%, ≈ $1.48 today. Per Stage 1 brief §7.4.
-- **Weitzman 2009** (§V): *Review of Economics and Statistics* 91(1): 1–19; "On Modeling and Interpreting the Economics of Catastrophic Climate Change"; fat-tail damages. Per Stage 1 brief §7.5.
-- **Ostrom 1990** (§III): *Governing the Commons*, Cambridge UP; 2009 Nobel; eight design principles for renewable common-pool resource governance. Per Stage 1 brief §7.6.
-- **Daly 1977** (§III): *Steady-State Economics*, W.H. Freeman (rev. Island Press 1991); biosphere as supersystem; throughput-and-stocks framing; deceased 2022. Per Stage 1 brief §7.7.
-- **Rawls 1971** (§IV): *A Theory of Justice*, Harvard UP; veil of ignorance. Per Stage 1 brief §7.8.
-- **Sandel 2012** (§IV): *What Money Can't Buy: The Moral Limits of Markets*, FSG. Per Stage 1 brief §7.9.
-- **Parfit 1984** (§IV): *Reasons and Persons*, Oxford UP; population-ethics; non-identity problem; deceased 2017. Per Stage 1 brief §7.9.
-- **Marx 1867** (§III): *Capital, Volume I*; surplus-value-of-labor theory; locus of critique = labor exploitation; positioned as scholarly inventory in lineage map per Condition 1 disarming move. Per Stage 1 brief §7.10.
-- **Nigeria** (§VI): Niger Delta extraction since 1950s; Shell / Chevron / ExxonMobil / Total joint-venture structure with NNPC; Ogoni 1990s; Saro-Wiwa execution 1995; Commonwealth suspension; UNEP 2011 Ogoniland environmental assessment (~$1B initial capitalization estimate; 25–30 years projected restoration). Per Stage 1 brief §7.12.
-
-## Condition 1 declaration (per-section accounting of non-partisan disarming-moves)
-
-- **§III — Marx-as-scholarly-inventory:** Explicit disarming-move sentence at the end of the Marx paragraph: "Note the move I have just made. I have placed Marx in the lineage map as one tradition among several. I am not endorsing his political program. I am noting where his analytical apparatus does and does not reach. The same discipline applies to the figures who come next." Marx is positioned as historical positioning of a competing economic school's contribution and gap, not as authorial ideological commitment.
-- **§IV — Rawls-as-one-of-several-convergent-frames:** First-person methodological-substantive naming: "I am using Rawls as one frame among several that produce the same intuition. Other traditions converge on the same point." (Throat-clearing "I want to name what I am doing here" prefix dropped under Phase C-β / F-VP-Barrel-4 Option D, 2026-05-23; the remaining sentence carries the methodological substance + multiplicity-disarming directly without the meta-flag.) Sandel (*What Money Can't Buy*, FSG 2012) and Parfit (*Reasons and Persons*, Oxford 1984) named immediately as convergent frames. Closing sentence: "Readers who find Rawls unpersuasive should ask themselves whether they find Sandel and Parfit equally unpersuasive. The intuition that compounds across all three is what the essay relies on."
-- **§V — Stern-Nordhaus-axis-exit:** Explicit positioning at the section's close: "The framework I am sketching is not a fourth position on the discount rate but a structural observation: the underpricing it identifies survives even Stern's already-low rate. The argument is not that Stern is right and Nordhaus is wrong. The argument is that the climate-damage line of analysis, however it resolves its discount-rate question, does not address the line item this essay has been about." (Per Phase C-α / F-VP-Barrel-1.2: first cadence collapsed from two sentences to one with "but ... :" structure; dispositive Stern-Nordhaus-axis-exit second cadence preserved verbatim per locked-instance discipline.)
-- **§VI — Honest-accounting register + cross-spectrum political durability:** Norway's 2001 fiscal rule named as constitutional in a way nothing else in Norwegian economic policy has been; explicit listing of Stoltenberg I (Labour); Bondevik II (center-right coalition); Stoltenberg II (Labour); Solberg (Conservative-led coalition); Støre (Labour-Centre) — every government across the political spectrum has honored the rule. Architecture-fix-not-political-program close (Stage 1 brief §8 register-anchor preserved): "What I am calling for, then, is not revolution. I do not think revolution solves this. The principle that whoever creates a cost should bear it — and that the cost of permanent foreclosure runs to the people who come next — is not a left-wing argument. It is not a right-wing argument. It is a principle of honest dealing."
-
-The honest-accounting register runs THROUGH §III + §IV + §V + §VI rather than appearing only at the close. The close is the crystallization, not the introduction.
-
----
+# The $100 Barrel
 
 ## I. The Barrel
 
