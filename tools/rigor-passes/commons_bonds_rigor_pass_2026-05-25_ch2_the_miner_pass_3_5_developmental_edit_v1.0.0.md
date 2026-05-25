@@ -4,7 +4,7 @@
 **Workstream:** Manuscript Stage-3 Rigor Pass (PM dashboard); Ch 2 explicit-gate cascade — closing pass (Pass 3.5) per Amendment B v3.1 five-pass discipline + Amendment A two-class cascade.
 **Chapter file:** [`manuscript/chapters/Chapter__2_TheMiner.md`](../../manuscript/chapters/Chapter__2_TheMiner.md) — current post-Phase-C-ε state, **226 lines / ~5,367 words** (verified `wc -l` 2026-05-25).
 **Discipline:** v3.1 Amendment B 5-pass + Amendment A two-class cascade + Amendment C Interactive Ratification Protocol (per-finding format includes Options + Recommendation + Reasoning + author-revisit flag). Pass 3.5 fires per per-prompt serial cadence after Pass 3.4 ratify (3.1 → 3.2 → 3.3 → 3.4 → 3.5).
-**Mode:** audit-existing-prose (does NOT apply spot-fixes). PROPOSED artifact; Phase C application is a separate session post-author-ratification.
+**Mode:** audit-existing-prose (does NOT apply spot-fixes). **RATIFIED 2026-05-25** (author ratified all items as-recommended); Phase C-ζ application bundled in same commit per established pattern. See §Ratification + Phase C-ζ application log at end of artifact.
 **Polarity discipline:** Pass 3.5 is **restoration polarity** — add / restore / unfold / re-anchor where compression has flattened. Pass 3.2 voice-polish was cutting polarity; folding the two would lose the discipline each needs.
 **Format model:** [Ch 1 developmental-edit review 2026-05-18](ch1_developmental_edit_review_2026-05-18.md) — first session of the developmental-editing workstream class (3 HIGH + 7 MEDIUM + 3 LOW; READY-AFTER-RESTORATION; §11 disposition log model). Supplementary essay-class precedents: [$100 Barrel Pass 3.5](commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_5_developmental_edit_v1.0.0.md); [Noema Pass 3.5](commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_5_developmental_edit_v1.0.0.md); [BR Pass 3.5](commons_bonds_rigor_pass_2026-05-23_boston_review_essay_stage3_developmental_edit_v1.0.0.md).
 **Status:** **PROPOSED** — pending author ratification per Amendment C Interactive Ratification Protocol.
@@ -681,3 +681,71 @@ Awaiting author ratification of:
 ---
 
 *End of Ch 2 Stage-3 Pass 3.5 (Developmental-Edit) rigor pass — PROPOSED 2026-05-25. Aggregate verdict MEDIUM RESTORATION RECOMMENDED; 1 HIGH (F-DE-Ch2-1 T8 institutional-lineage) + 3 MEDIUM (F-DE-Ch2-2 §-break + F-DE-Ch2-3 Distance bilateral-observation + F-DE-Ch2-4 §-break) + 3 LOW (F-DE-Ch2-5 + F-DE-Ch2-6 + F-DE-Ch2-7 mostly hold-as-is) + 2 author-revisit (F-DE-Ch2-8 + F-DE-Ch2-9). Phase C session is the queued next session for Ch 2 per Amendment C Interactive Ratification Protocol after author ratification. After this artifact lands on main: STOP. Report back to PM session + author per workstream branch discipline + rigor-pass artifact auto-merge-to-main discipline (per `CLAUDE.md` §"rigor-pass artifacts also autonomously fast-forward merge to main at session close").*
+
+---
+
+## Ratification + Phase C-ζ application log — 2026-05-25
+
+Author ratified all Pass 3.5 items as-recommended 2026-05-25. Phase C-ζ application bundled in same session per Amendment C Interactive Ratification Protocol (ratification + application combine when feasible).
+
+### Spot-fixes APPLIED (3 of 9 findings)
+
+| # | Severity | Edit applied |
+|---|---|---|
+| **F-DE-Ch2-4** | MEDIUM | §-break (`---`) inserted between Cost Severance defense paragraph (now line 144) close + Mazzucato lineage paragraph (now line 148) open. Creates two structural sub-sections within Vocabulary section: (1) define + four-alternatives-rejection; (2) outward-facing lineage acknowledgment. |
+| **F-DE-Ch2-2** | MEDIUM | §-break (`---`) inserted between information-asymmetry pivot (now line 186) close + miner-agency paragraph (now line 190) open. Creates two structural sub-sections within Mechanism-Not-Motive section: (1) Not villains / not industrialization-was-mistake / constrained choices / information asymmetry; (2) Miner agency + institutional lineage + accounting-system-incapable close. |
+| **F-DE-Ch2-1** | HIGH | **Option A applied** (Yablonski named). ~60-word institutional-lineage sentence inserted within miner-agency paragraph at line 190 between "they won many of those fights" and "The miners had agency": "The United Mine Workers built that fight across a century; the Black Lung Association's 1968 wildcat strike across West Virginia won the state's pneumoconiosis statute and accelerated the federal Black Lung Benefits Program the next year; Miners for Democracy took back the union after the Yablonski murder. The regulatory architecture this chapter has been describing exists because miners built it." |
+
+### Findings DEFERRED
+
+| # | Severity | Reason |
+|---|---|---|
+| **F-DE-Ch2-3** | MEDIUM | Deferred pending F-DE-Ch2-8 author-revisit (Distance-restoration upgrade window — author may have richer bilateral-observation substrate from Tidewater/Hampton/Norfolk/Fox-Hill than agent's default Pittsburgh-steelworker construction). Re-fires when author revisits. |
+
+### Findings HELD (leave-as-is per agent recommendation)
+
+| # | Severity | Decision |
+|---|---|---|
+| F-DE-Ch2-5 | LOW | Hold (JFK rule-of-three works as-is) |
+| F-DE-Ch2-6 | LOW | Hold (Bailey-callback discipline; explicit name-return risks instrumentalization per agent reasoning) |
+| F-DE-Ch2-7 | LOW | Hold (combustion-tail forward-flag is author-discretionary; defer until author trigger) |
+
+### Author-revisit candidates QUEUED (not first-round-blocking)
+
+| # | What |
+|---|---|
+| **F-DE-Ch2-8** | Distance-restoration upgrade window — author voice/judgment work; pairs with F-DE-Ch2-3 deferral above. Author session at own cadence. |
+| **F-DE-Ch2-9** | Author judgment on line-36 Bailey-promise / chapter-close relationship. Agent recommendation was Option A (leave-as-is per F-DE-Ch2-6). Author may select Option B (explicit name-return at close) if preferred. |
+
+### Chapter delta from Phase C-ζ minimum-restoration set
+
+- Lines: 226 → 230 (+4)
+- Words: 5,367 → 5,434 (+67)
+- Substance-drives-length honored (HIGH finding's ~60-word addition + 2 single-character §-break additions = ~67-word delta).
+
+### Named subjects newly introduced in Ch 2 prose (consent discipline carry-forward)
+
+- **Joseph "Jock" Yablonski** (named at line 190 via "the Yablonski murder" reference). Status: deceased 1969 (assassinated as UMWA reform candidate). Public-record reform-movement context; named-subject consent memory's deceased + public-record exception applies. **Add to courtesy-notify pipeline list: Yablonski family courtesy-notify pre-publication if reachable.**
+- **United Mine Workers (UMWA)** + **Black Lung Association** + **Miners for Democracy** — institutional actors, public-record references; no individual-consent discipline applies.
+
+### Cross-character verdict-impact projection
+
+Per F-DE-Ch2-1 + F-DE-Ch2-2 + F-DE-Ch2-4 application, the following Pass 3.3 verdict uplifts are now plausible (require Pass 3.3 LIGHT RE-FIRE to confirm):
+
+- Tier 1 #1 trade-publisher editor: ✓✓ → ✓✓✓ candidate (F-DE-Ch2-4 §-break addresses lineage-paragraph-density holdback)
+- Tier 1 #2 literary agent: ✓✓ → ✓✓✓ candidate (same reasoning)
+- Tier 3 #13 working-class without family lineage: ✓ → ✓✓ candidate (F-DE-Ch2-4 §-break addresses friction-point)
+- Tier 3 #14 first-gen reader: ✓ → ✓✓ candidate (same reasoning)
+- Tier 3 #15 Appalachian regional reader: ✓✓ → ✓✓✓ candidate (F-DE-Ch2-1 honors UMWA + Black Lung Association as regional self-narrative anchor)
+
+Pass 3.3 LIGHT RE-FIRE post-application is queued as next session per established post-Phase-C verdict-confirmation pattern.
+
+### Side-flag carryforwards from Pass 3.5 audit
+
+- Pass 3.4 re-fire NOT routinely warranted (restoration polarity strengthens rather than weakens adversarial robustness).
+- F-DE-Ch2-8 (Distance-restoration upgrade window) → potential Stage 1c sibling-coherence-check route for Ch 2 ↔ Ch 3 ↔ Ch 7 ↔ Ch 8 bilateral-cost-severance treatment (per Pass 3.4 §6.1 carryforward).
+- Bailey + Latusek voices unchanged; named-subject discipline already covered by existing courtesy-notify pipeline (Bailey family via WVPB / Lilly).
+
+---
+
+*Ratification + Phase C-ζ application rev. 2026-05-25. Pass 3.5 developmental-edit minimum-restoration set APPLIED; Distance bilateral-observation deferred pending author-revisit; LOW + author-revisit items HELD. Pass 3.3 LIGHT RE-FIRE post-application queued as next session. Ch 2 explicit-gate cascade: 4 of 5 Pass 3 sub-passes complete (3.1 + 3.2 + 3.3 + 3.4 + minimum-restoration Phase C-ζ from 3.5).*
