@@ -2,7 +2,7 @@
 
 **Date drafted:** 2026-05-24 (Sun)
 **Pass type:** Stage 0 publishing-strategy rigor test for a NEW candidate surfaced 2026-05-24 during PM-session walkthrough of the Wave 2 derivative batch. Per `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md` + canonical worked examples ($100 Barrel 2026-05-11; Boston Review 2026-05-21; Wave 2 batch 2026-05-24).
-**Status:** **PROPOSED — author ratification required per interactive ratification protocol** (Amendment C). NOT YET RATIFIED. Author was not present in the run that produced this artifact.
+**Status:** **RATIFIED 2026-05-24** via author "ratify as proposed" signal. Q1 CONDITIONAL → tilts GO with three conditions (NR-1 non-partisan-framing discipline + NR-2 critique-register guidance Register A only + NR-3 reading-depth-deepening sub-workstream) operative. Q2 WAVE 2 TIMING (Q4 2026 submission, Oct–Nov) ratified per PM recommendation; reviewed-book final set = 4-book primary (Mazzucato + Pistor + Christophers + Susskind; no Tier-3 round-out default; Patel & Moore optional 5th at Stage 1 if arc benefits). NYRB cascade chain = NYRB → LARB → Public Books. Venue-collision-with-Ch-8 contingency: defaults to PM-recommended Path D-α (NYRB OPEN for this candidate); D-β contingency = this candidate to NYRB + Ch 8 to NYT Magazine. See §13 ratification record below for triggered downstream actions. (Originally PROPOSED 2026-05-24 in commit `f6b2e8f`.)
 **Scope:** Single candidate — multi-book NYRB review-essay reviewing Mazzucato *Value of Everything* (2018) · Pistor *Code of Capital* (2019) · Christophers *The Price Is Wrong* (2024) · Susskind *Growth: A Reckoning* (2024), with optional Tier-3 round-out (Sassen *Expulsions* OR Patel & Moore *A History of the World in Seven Cheap Things*). The framework operates as **plain-prose analytical scaffolding** throughout — NEVER named as "the framework" or surfaced via formal apparatus terms. Target reveal ≤8%.
 **Output:** Q1 GO/NO-GO/CONDITIONAL verdict + Q2 sequencing + reviewed-book final-set recommendation + Wave 1 vs Wave 2 classification + NYRB cascade chain + venue-collision-with-Ch-8 contingency. Stops at verdict; does NOT begin Stage 1 brief work.
 
@@ -440,4 +440,49 @@ SEQUENCING DISCIPLINE: This Stage 0 fires per author interactive ratification pr
 
 ---
 
-*End of NYRB multi-book review-essay Stage 0 publishing-strategy rigor pass v1.0.0. PROPOSED 2026-05-24. Per `CLAUDE.md` rigor-pass-artifact merge-to-main default, autonomously fast-forwards to main at session close.*
+*End of NYRB multi-book review-essay Stage 0 publishing-strategy rigor pass v1.0.0. RATIFIED 2026-05-24. Per `CLAUDE.md` rigor-pass-artifact merge-to-main default, autonomously fast-forwards to main at session close.*
+
+---
+
+## 13. Author ratification record
+
+**2026-05-24 — Author ratified as proposed.** Single-signal ratification ("ratify as proposed") covers the full PROPOSED disposition set:
+
+| Item | RATIFIED disposition |
+|---|---|
+| Q1 verdict | **CONDITIONAL → tilts GO with three conditions** (NR-1 + NR-2 + NR-3) |
+| Q2 sequencing | **WAVE 2 TIMING (Q4 2026 submission)** — PM-recommended path; NOT Wave 1 reclassification |
+| Reviewed-book final set | **4-book primary** (Mazzucato + Pistor + Christophers + Susskind); no Tier-3 round-out default; Patel & Moore optional 5th decided at Stage 1 brief based on arc needs |
+| NYRB cascade chain | **NYRB → LARB → Public Books** |
+| Venue-collision-with-Ch-8 contingency | Default = if Ch 8 W2.4 Path D-α (PM-recommended defer) ratifies, NYRB venue is OPEN. If D-β rescope ratifies, default resolution = this candidate to NYRB, Ch 8 W2.4 re-routes to NYT Magazine stretch alt. Author confirms or reverses at Ch 8 path-ratification time |
+| Stage 1 brief firing date | **~Wed Jun 17 – Fri Jun 19, 2026** (target window; PM coordinates with submission sprint closure + Atlantic Ideas Stage 3 mid-cycle clearance + Wave 2 W2.2 Ch 2 brief spacing) |
+| Reading-depth-deepening sub-workstream window | **Jun 17 – Sep 1, 2026** (~22–36h focused author reading at ~3h/wk; cross-double-benefit with cross-thread-todo #8 Phase 2) |
+| Stage 2 draft firing date | **~Sep 7–10, 2026** (after reading-depth-deepening completes + after Berggruen Aug 17 deadline clears + after Wave 1 agent queries fire) |
+| Stage 3 cadence target | **Sep 10 – Sep 30, 2026** (~3 weeks for five-pass cycle per Amendment C interactive ratification) |
+| Stage 4 + Stage 5 + cover letter | **Oct 1 – Oct 7, 2026** |
+| Submission window | **Oct 8 – Nov 15, 2026** |
+
+### Triggered downstream actions (PM-session pickup)
+
+🔴 **DSA-1 — Cascade plan v2 amendment.** `publishing/strategy/cascade-plan_v2_2026-05-24.md` requires a small amendment to add this candidate as a 4th Wave 2 entry (W2.5 — NYRB multi-book review-essay) alongside W2.1 + W2.2 + W2.3 (and W2.4 Ch 8 deferred per Path D-α / awaiting ratification). PM session absorbs at next cascade plan v2 ratification pass.
+
+🔴 **DSA-2 — Ch 8 path ratification gates Stage 1 brief firing.** Author must ratify Ch 8 W2.4 path (D-α / D-β / D-γ) per Wave 2 batch artifact ratification cadence BEFORE this candidate's Stage 1 brief fires (~Jun 17–19). PM tracks the dependency.
+
+🔴 **DSA-3 — Reading-depth-deepening sub-workstream scheduled.** Calendar-block target: Jun 17 – Sep 1, 2026; ~3h/wk; arc-mapping notes captured at `research/comp-titles/{author}-arc-notes_<DATE>.md` (or wherever cross-thread-todo #8 Phase 2 outputs land — PM coordinates location). Cross-double-benefit with Phase 2 (early-to-mid July).
+
+🔴 **DSA-4 — Sibling NYRB candidate Stage 0 sessions adjust posture.** Christophers single-book review Stage 0 (fires next per author 2026-05-24 plan) inherits soft dependency on this candidate's NYRB-venue posture: NYRB venue is now COMMITTED to this multi-book candidate (Wave 2 timing); Christophers single-book Stage 0 should evaluate against LARB / Public Books / post-publication-defer as primary candidates rather than NYRB. Chesapeake Requiem review Stage 0 (fires last) has lower NYRB-venue dependency (different book; different subject domain) but should similarly factor NYRB-saturation into venue posture.
+
+🟢 **DSA-5 — Stage 1 brief kick-off paste-text generation.** When Stage 1 brief firing date approaches (~Jun 17–19), PM generates the kick-off paste-text per `tools/drafting-templates/stage-1-audience-aware-structure-pass.md` with mandatory Conditions NR-1 + NR-2 + NR-3 embedded in the "Pre-fire conditions / brief specification" section. Conditions verbatim per §5 above.
+
+### Updated STATE marker
+
+```
+STATE: RATIFIED
+NEXT: PM-session absorbs DSA-1 (cascade plan v2 amendment) + DSA-3 (reading-depth-deepening calendar block) + DSA-4 (sibling Stage 0 NYRB-posture inheritance). Stage 1 brief fires ~Jun 17–19 gated on Ch 8 path ratification (DSA-2).
+AWAITING: Ch 8 W2.4 path ratification (per Wave 2 batch artifact ratification cadence) + cascade plan v2 amendment + author calendar block for reading-depth-deepening sub-workstream
+SEQUENCING DISCIPLINE: Ch 8 path ratifies → cascade plan v2 amendment lands → reading-depth-deepening sub-workstream begins ~Jun 17 → Stage 1 brief fires ~Jun 17–19 → reading-depth-deepening completes ~Sep 1 → Stage 2 fires ~Sep 7–10 → Stage 3 five-pass cycle Sep 10–30 → Stage 4 + 5 + cover letter Oct 1–7 → submission Oct 8 – Nov 15
+```
+
+---
+
+*Ratification record appended 2026-05-24. End of §13.*
