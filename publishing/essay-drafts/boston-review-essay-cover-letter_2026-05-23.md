@@ -1,18 +1,3 @@
----
-**Boston Review essay cover letter — Decision #13 deliverable**
-**Date:** 2026-05-23
-**Branch:** `claude/boston-review-essay-cover-letter-clever-sinoussi-440b42`
-**Essay under cover:** [`manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md) (4,853w; commit `5552eab` HEAD on main)
-**Stage 5 sign-off:** [`tools/quality-gates/sign-offs/boston-review-essay_stage5_signoff_2026-05-23.md`](../../tools/quality-gates/sign-offs/boston-review-essay_stage5_signoff_2026-05-23.md) (READY-TO-SUBMIT verdict)
-**Stage 1 brief:** BR pre-draft audience-and-structure rigor pass v1.0.1 (file dated 2026-05-19; brief ratified through interactive walkthrough 2026-05-21; located in `tools/rigor-passes/`)
-**Bio source:** [`publishing/book-proposal/03_author-platform.md`](../book-proposal/03_author-platform.md) Medium (~85w) variant verbatim; Placements section unchanged since 2026-05-09 — no "Recent essays in [venue]" clause to integrate.
-**AI-disclosure source:** [`publishing/essay-drafts/templates/ai-disclosure-paragraph.md`](templates/ai-disclosure-paragraph.md) Generic variant verbatim (per the template's per-venue table for Boston Review).
-**Path B compliance:** `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` was NOT opened during this session. Cover-letter content drawn from the post-Stage-5 essay state, the Stage 1 brief, the bio document, and the AI-disclosure template only.
-**Status:** **RATIFIED 2026-05-23** via author "ratify all as recommended" signal (extends Path A file-header hygiene pass). Three ratified calls: (1) "Dear Editors," salutation HELD as conservative default per paste-text spec (no pinned editor names); (2) Aeon parallel-submission mention HELD per cover-letter author signal (active-pipeline signaling reads strong for BR editorial brain; no rights conflict per rights register); (3) Status header updated PROPOSED → RATIFIED for hygiene parity with 9-artifact Path A pass. Cover letter is **submission-ready**; Submittable upload remains user action gated on Stage 4 offline render review per Stage 5 sign-off §10. (Originally PROPOSED 2026-05-23 in commit `d7fe933`.)
----
-
-# Cover letter — submission-ready body
-
 Dear Editors,
 
 Please consider *The Accountability Gap*, a 4,850-word essay submitted to Boston Review's Essays & Book Reviews stream. The piece draws from my forthcoming book *Commons Bonds* and works in the civic-republican / institutional-measurement register the magazine has anchored, with named-tradition attribution and a constructive proposal grounded in measurement rather than in posture.
@@ -34,7 +19,18 @@ Chris Winn
 
 ---
 
-# Submission checklist (pre-Submittable upload — author actions)
+<!--
+============================================================================
+INTERNAL TRACKING — NOT FOR SUBMITTABLE
+============================================================================
+
+Everything below this line is internal scaffolding for pipeline tracking
++ submission housekeeping. The cover letter content for Submittable upload
+ends at "Best, Chris Winn" above. Do not include the sections below in any
+publisher-facing artifact.
+-->
+
+## Submission checklist (pre-Submittable upload — author actions)
 
 1. **Verify Boston Review Submittable submission requirements have not changed.** Confirm file-format expectations (likely `.docx` or pasted plain-text in the cover-letter field; essay body uploaded as a separate document), word-count constraints, and cover-letter-field expectations against `bostonreview.submittable.com/submit` Essays & Book Reviews stream. If BR's submission portal exposes a current masthead before submit, cross-check the salutation. The current generic "Dear Editors," form is deliberate per the session's no-pin-specific-editor-names discipline.
 2. **Verify essay rendering in Submittable preview** (Stage 4 author-offline review per Stage 5 sign-off §10 Author Action 1). Specifically verify: em-dashes render as `—` rather than as tofu boxes or hyphen sequences; italics render on book titles + foreign-loan-word *forclore*; curly-quotes render cleanly; section subheads (`## I. Libby` etc.) render at the intended heading level; no internal-pipeline scaffolding vocabulary leaked through (apparatus terms; rigor-pass process-vocabulary; finding-identifier glyphs; bracketed placeholders). Pre-render invariant-gate scan has been performed in-pipeline; the Submittable preview is the final visual confirmation.
@@ -44,4 +40,17 @@ Chris Winn
 
 ---
 
-*End of Decision #13 deliverable. Per CLAUDE.md rigor-pass-artifact merge-to-main default, this cover-letter artifact autonomously fast-forwards to main at session close. Submission via Submittable is the author action gated on items 1-2 of the submission checklist above; this session does not perform the upload.*
+## Pipeline tracking metadata
+
+- **Artifact:** Boston Review essay cover letter — Decision #13 deliverable
+- **Date:** 2026-05-23
+- **Status:** **RATIFIED 2026-05-23** via author "ratify all as recommended" signal (extends Path A file-header hygiene pass). Three ratified calls: (1) "Dear Editors," salutation HELD as conservative default per paste-text spec (no pinned editor names); (2) Aeon parallel-submission mention HELD per cover-letter author signal; (3) Status header updated PROPOSED → RATIFIED for hygiene parity with 9-artifact Path A pass. Originally PROPOSED 2026-05-23 in commit `d7fe933`; scaffolding-relocation hygiene pass via author "still 19 or 20 lines of scaffolding at the beginning of the file" signal 2026-05-24.
+- **Essay under cover:** [`manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md) (4,853w; commit `404222f` HEAD on `main`)
+- **Stage 5 sign-off:** [`tools/quality-gates/sign-offs/boston-review-essay_stage5_signoff_2026-05-23.md`](../../tools/quality-gates/sign-offs/boston-review-essay_stage5_signoff_2026-05-23.md) (READY-TO-SUBMIT verdict RATIFIED)
+- **Stage 1 brief:** BR pre-draft audience-and-structure rigor pass v1.0.1 (file dated 2026-05-19; brief ratified through interactive walkthrough 2026-05-21; located in `tools/rigor-passes/`)
+- **Bio source:** [`publishing/book-proposal/03_author-platform.md`](../book-proposal/03_author-platform.md) Medium (~85w) variant verbatim
+- **AI-disclosure source:** [`publishing/essay-drafts/templates/ai-disclosure-paragraph.md`](templates/ai-disclosure-paragraph.md) Generic variant verbatim (per per-venue table for Boston Review)
+- **Path B compliance:** `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` was NOT opened during cover-letter assembly. Content drawn from post-Stage-5 essay state, Stage 1 brief, bio document, and AI-disclosure template only.
+- **Submittable destination:** `bostonreview.submittable.com/submit` Essays & Book Reviews stream
+
+*End of internal tracking. Submission via Submittable is the author action gated on items 1-2 of the submission checklist above.*
