@@ -1,6 +1,6 @@
 # Ch 2 (The Miner) — Pass 3.3 Audience-Load Acceptance LIGHT RE-FIRE v1.0.0 — 2026-05-24
 
-**Status:** PROPOSED 2026-05-24 (pending author ratification). Light re-fire of the 20-character target-audience acceptance set against the current post-Phase-C-δ + post-Phase-C-ε chapter state. Closing Pass 3.3 acceptance pass for Ch 2's first-round review cycle.
+**Status:** **RATIFIED 2026-05-24** (author ratified as recommended; Tier 3 #11 ✓✓ → ✓✓✓ uplift accepted per agent's proposed Option A). Light re-fire of the 20-character target-audience acceptance set against the current post-Phase-C-δ + post-Phase-C-ε chapter state. **Closing Pass 3.3 acceptance pass for Ch 2's first-round review cycle.**
 
 **Audit target:** [`manuscript/chapters/Chapter__2_TheMiner.md`](../../manuscript/chapters/Chapter__2_TheMiner.md) — current post-Phase-C-ε state, **226 lines / ~5,367 words** (verified `wc -l` on the worktree file). File renamed from `Chapter__2_TheMiner__Draft.md` to `Chapter__2_TheMiner.md` 2026-05-21 (commit `4d860e8`) on first-round-review close.
 
@@ -271,3 +271,29 @@ Awaiting author ratification of:
 ---
 
 *End of Pass 3.3 audience-load acceptance LIGHT RE-FIRE artifact. After this artifact lands on main: STOP. Report back to PM session + author per workstream branch discipline.*
+
+---
+
+## Ratification — 2026-05-24
+
+Author ratified the proposed artifact as-recommended 2026-05-24:
+
+- **Tier 3 #11 McDowell County resident:** RATIFIED uplift ✓✓ → ✓✓✓ per agent's Option A (Bailey McDowell-anchor materially restructures rhetorical anchor; chapter lands decisively for resident reader).
+- **Tier 3 #12 Coal miner / black-lung sufferer:** RATIFIED uplift ✓ → ✓✓ per original audit's stated flip-condition (Bailey + Latusek substitutions close the "argues ABOUT rather than WITH" gap).
+- **All other 18 verdicts:** RATIFIED hold (9 strengthened-evidence + 9 unchanged).
+- **All side-flags CLEAN — RATIFIED.**
+- **Phase C action:** RECORD-ONLY (no chapter-text changes required; corroborates first-round close).
+
+**Final aggregate post-ratification:** ✓✓✓ × 2 + ✓✓ × 14 + ✓ × 4 + NEUTRAL × 1 + EXCLUDE × 0 = **19/20 INCLUDE; 1 NEUTRAL; 0 EXCLUDE.** READY AS-IS holds at higher confidence.
+
+**Pass 3.3 acceptance — CLOSED for Ch 2's first-round review.**
+
+Outstanding (per Amendment A two-class cascade explicit-gate):
+- Pass 3.4 audience-load robustness — queued for next explicit-gate trigger
+- Pass 3.5 developmental-edit — queued for next explicit-gate trigger
+- Stage 4 render-audit — author does offline per 2026-05-24 instruction
+- Stage 5 bookend pre-submission sign-off — gate-triggered (pre-pub / venue change / cross-chapter workstream close / Wave 1 cascade)
+
+---
+
+*Ratification rev. 2026-05-24. Ch 2 first-round review cycle now formally closed via Amendment B Pass 3.3 acceptance LIGHT RE-FIRE ratification; same disposition as Phase-C-ε first-round-close artifact corroborated by audience-load re-evaluation.*
