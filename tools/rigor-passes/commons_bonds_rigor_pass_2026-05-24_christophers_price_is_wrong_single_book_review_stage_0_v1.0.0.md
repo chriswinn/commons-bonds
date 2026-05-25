@@ -2,7 +2,7 @@
 
 **Date drafted:** 2026-05-24 (Sun)
 **Pass type:** Stage 0 publishing-strategy rigor test for a NEW candidate surfaced 2026-05-24 during PM-session walkthrough of the Wave 2 derivative batch. Second of three NYRB review-essay Stage 0 sessions the author flagged. Per `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md` + canonical worked examples ($100 Barrel 2026-05-11; Boston Review 2026-05-21; Wave 2 batch 2026-05-24; multi-book NYRB review-essay 2026-05-24 sibling).
-**Status:** **PROPOSED — author ratification required per Interactive Ratification Protocol (Amendment C).** NOT YET RATIFIED.
+**Status:** **RATIFIED 2026-05-25** via author "ratify as recommended. Park until after book is released" signal in response to PM master-criterion re-survey. **Q1 final disposition: NO-GO for Wave 2 + PARK for Wave 3 (re-evaluation trigger: after book is released).** Reverses prior PROPOSED disposition (CONDITIONAL → tilts GO with four conditions + Wave 3 PM-recommended) after author surfaced that the prior disposition gave too much weight to "(g) HELPS strong for Wave 3" without testing against the master criterion — the Wave 3 yield is contingent on the book actually publishing, which is what the book-success criteria are trying to enable. See §13 ratification record below. (Originally PROPOSED 2026-05-24 in commit `064f2c2`.)
 **Scope:** Single candidate — Brett Christophers' *The Price Is Wrong: Why Capitalism Won't Save the Planet* (Verso, 2024) deep review-essay (~4,000–8,000 words), using cost-severance + foreclosure-cost framework as analytical lens in **PLAIN PROSE**. Christophers' core argument (renewable-energy capitalism systematically misprices the social cost of carbon and undercompensates the externality-bearers) maps cleanly onto the framework's cost-severance reading. The framework operates as **plain-prose analytical scaffolding** throughout — NEVER named as "the framework" or surfaced via formal apparatus terms ("Cost Severance" proper-noun, RCV, CIT, Four Gates, Cᵢ, Three Ways of Counting all excluded). Target reveal ≤8% (concept-only).
 **Output:** Q1 GO / NO-GO / CONDITIONAL verdict + Q2 sequencing + NYRB triple-collision contingency matrix + alt-venue cascade chain. Stops at verdict; does NOT begin Stage 1 brief work.
 
@@ -269,7 +269,59 @@ Adding +15–25h for incremental Christophers-corpus depth-reading after sibling
 
 ## 5. Q1 verdict — Does publishing this help or hurt the book?
 
-**VERDICT: CONDITIONAL → tilts GO with four conditions AND a strong PM recommendation to DEFER to Wave 3 (post-publication) rather than fire as Wave 2.**
+**VERDICT (RATIFIED 2026-05-25): NO-GO for Wave 2 + PARK for Wave 3 (re-evaluation trigger: after book is released).**
+
+**Master-criterion re-survey (the disposition-driver).** The original PROPOSED disposition (CONDITIONAL → tilts GO with four conditions + Wave 3 PM-recommended) carried a "(g) HELPS strong for Wave 3" tilt that gave too much weight to the strategic-portfolio cell distinctness without testing against the four book-success criteria. Author surfaced the gap; re-survey:
+
+| Book-success criterion | THIS candidate's contribution |
+|---|---|
+| **#1 — Agent representation by Wave 1 (late Jul / early Aug 2026)** | **ZERO contribution.** Even the Wave 2 override path submits Oct–Nov 2026, AFTER Wave 1 queries fire. Wave 3 PM-recommended path lands Dec 2027 – Q1 2028 (post-Wave-1-and-Wave-2). |
+| **#2 — Trade-publisher contract (2026–2027)** | **ZERO contribution.** Wave 3 timing places submission AFTER the contract target window — by definition cannot influence what it postdates. |
+| **#3 — Launch positioning + reviews + sales preserving non-partisan framework positioning** | **MIXED — leans NEGATIVE.** The "HELPS" hypothesis is conditional on (a) the book actually being contracted AND (b) launching ~Q2 2027 AND (c) Wave 3 timing aligning AND (d) Condition C-3 holding tight on Christophers-blurber-relations. Meanwhile the cumulative-portfolio reveal trajectory (§3.3) tips into the 57–67% effective band — a real cost to launch positioning that materializes regardless of (a)–(d). |
+| **#4 — Framework Positioning Disciplines / vocabulary adoption at scale** | **LIMITED, possibly NEGATIVE.** Apparatus-exclusion + ≤8% reveal means no framework-vocabulary surface; plain-prose-corrective-vocabulary at depth risks lookalike-without-credit reveal slippage that could actually *slow* adoption-at-scale by associating the analytical moves with non-framework attribution. |
+
+Across the four book-success criteria, THIS candidate's contribution ranges from ZERO (#1, #2) to MIXED-leans-NEGATIVE (#3) to LIMITED-possibly-NEGATIVE (#4). The "(g) HELPS strong for Wave 3" tilt was strong **relative to other strategic-portfolio cells**, not strong **against the book-success master criterion**. A disposition that's "strong" only if the thing it's trying to support has already succeeded is circular reasoning.
+
+**What the sibling already does that THIS candidate would (mostly) duplicate:**
+- Comp-titles pre-validation for proposal §02 Christophers entry — sibling's one-of-four engagement is sufficient for agent + editor pre-validation; the marginal proposal-§02 yield of THIS candidate is real but modest.
+- Christophers-blurber path preservation — sibling's Register A discipline already protects the blurb path; THIS candidate would add Christophers-blurber-strengthening yield only if Register A holds doubly tight, with concentrated single-author engagement risk.
+- Christophers reading-depth — sibling's reading-deepening sub-workstream (~6–10h Christophers share) already captures the core arc-mapping; the incremental ~15–25h for this candidate is single-purpose work that has no other home.
+
+**No work loss from PARK disposition.** The reading-depth-deepening sub-workstream (sibling's NR-3) already captures the core Christophers arc-mapping. Comp-titles deep matrix Phase 2 (#8 cross-thread) absorbs sales-arc + editor-ID work. The "supporting" work for this candidate happens regardless of whether the candidate ever fires.
+
+### Per-dimension scorecard (preserved for record)
+
+| Dimension | Tilt | Disposition under RATIFIED verdict |
+|---|---|---|
+| (a) Thunder-stealing vs authority-building | **AMBIGUOUS → leans HURTS-MODERATE on reveal trajectory; HELPS-MODERATE on authority-building** | Reveal-trajectory cost concrete; authority-building yield contingent on Wave 3 fire actually firing |
+| (b) Political coding vs register-positioning | **CONDITIONAL → HELPS** under prior disposition | Moot under PARK |
+| (c) Press-cycle exhaustion vs pre-warming | **HELPS at LARB / Public Books / PW long-form; HURTS at NYRB** | Moot under PARK |
+| (d) Framework-positioning lock-in vs stress-test ratification | **HELPS modest-to-strong** | Moot under PARK; sibling captures the meaningful yield |
+| (e) Blurb-network alienation vs attraction | **CONDITIONAL → HELPS** under prior disposition | Moot under PARK; sibling Register A discipline protects blurber path |
+| (f) Source-material self-sufficiency (PASS GATE) | **GATE FAILS for Wave 2; passes for Wave 3 with dedicated reading** | Confirms Wave 2 NO-GO; PARK avoids committing the ~15–25h incremental reading until trigger fires |
+| (g) Strategic portfolio value | **HELPS modest for Wave 2; HELPS strong for Wave 3** | "Strong" only against intra-portfolio comparison, NOT against master criterion |
+| (h) Cumulative audience-coverage vs concentration | **MIXED — leans HURTS-MODERATE on cumulative trajectory** | Reveal-trajectory cost concrete |
+
+### PARK disposition (RATIFIED)
+
+The candidate is **PARKED**, not withdrawn. Cascade plan v2 §7 (Future Wave 3 candidate outlook) absorbs the candidate as a CONDITIONAL Wave 3 candidate gated on three triggers (ALL must fire to un-park):
+
+- **Trigger T-1 — Book contracted.** Trade-publisher contract signed (book-success criterion #2 met).
+- **Trigger T-2 — Launch window confirmed.** Book launch date confirmed Q2 2027 or later, with sufficient lead-time (~6–9 months) to support a Wave 3 review-essay cycle.
+- **Trigger T-3 — Sibling NYRB multi-book essay positive reception.** Sibling lands at NYRB or at a cascade-chain venue (LARB / Public Books) with positive reception; reviewer-network signals favor adding a second Christophers-engaging piece to the launch portfolio.
+
+If ALL three triggers fire, fire a **fresh Stage 0 re-test** at that time (do not auto-promote PARK → GO — the re-test verifies that book-success criteria at re-evaluation time still favor the candidate). If ANY trigger fails by ~12 months post-book-release, formally withdraw (move from PARK to WITHDRAWN).
+
+### Conditions (prior C-1 / C-2 / C-3 / C-4) — preserved for record
+
+The four prior conditions remain on file as the **brief specifications THAT WOULD APPLY** if the candidate un-parks via the re-test trigger. They do NOT currently gate any active work because no active work is in flight:
+
+- **C-1** — Non-partisan framing discipline (mirrors $100 Barrel / BR / sibling NR-1).
+- **C-2** — Venue routes off NYRB (sibling occupies).
+- **C-3** — Critique-register Register A (tighter than sibling NR-2; single-author engagement concentrates risk).
+- **C-4** — Reading-depth-deepening extended beyond sibling's allocation.
+
+If re-evaluation Stage 0 fires post-publication, brief specifications inherit these conditions verbatim as a starting point (subject to that Stage 0's own findings).
 
 Net direction across dimensions:
 
@@ -303,9 +355,13 @@ Net direction across dimensions:
 
 ## 6. Q2 verdict — Sequencing + Wave 2 vs Wave 3 classification
 
-### Wave 2 vs Wave 3 classification
+**Q2 final disposition (RATIFIED 2026-05-25): DEFER INDEFINITELY (PARK) — no Stage 1 brief fires unless / until re-evaluation Stage 0 fires post-book-release.**
 
-**PM-recommended classification: WAVE 3 TIMING (post-publication, Q2 2027 onward), NOT Wave 2.**
+The original PROPOSED Q2 sequencing (Wave 3 PM-recommended; Wave 2 author-override path documented) is now **moot for active pipeline planning**. The cadence math + verdict-rationale preserved below for record + as the structural reference IF re-evaluation Stage 0 fires and routes to fire.
+
+### Wave 2 vs Wave 3 classification (preserved for record under PARK disposition)
+
+**Original PROPOSED classification: WAVE 3 TIMING (post-publication, Q2 2027 onward), NOT Wave 2.** Now superseded by PARK disposition (no firing on any timing path until trigger-set fires + re-evaluation Stage 0 ratifies).
 
 **Cadence math (calibrated against empirical anchors):**
 
@@ -448,6 +504,20 @@ Three different venues; three different timing windows; cumulative cascade-plan 
 
 ## 10. Recommended next actions
 
+**Under RATIFIED disposition (NO-GO Wave 2 + PARK Wave 3):**
+
+1. **No Stage 1 brief fires.** No Stage 2 fires. No reading-depth-deepening sub-workstream fires for this candidate (sibling's NR-3 sub-workstream remains in flight on the sibling's own schedule).
+2. **Cascade plan v2 amendment — DSA-PARK.** `publishing/strategy/cascade-plan_v2_2026-05-24.md` §7 (Future Wave 3 candidate outlook) needs an entry adding this candidate as a CONDITIONAL Wave 3 candidate gated on triggers T-1 + T-2 + T-3 (per §5 PARK disposition). PM session absorbs at next cascade plan v2 ratification pass. **Mirror entry NOT needed in §3 Wave 2 table** (candidate is NO-GO for Wave 2).
+3. **Cross-thread-todos entry — DSA-TRIGGER.** Add a new cross-thread item: "Christophers single-book review — re-evaluation trigger monitor. Fires when T-1 (book contracted) + T-2 (launch window confirmed Q2 2027 or later) + T-3 (sibling NYRB essay positive reception) ALL hold. Action: fire fresh Stage 0 re-test. Hard-withdraw if any trigger fails by ~12 months post-book-release."
+4. **Sibling NYRB multi-book essay carries forward UNCHANGED.** Sibling Stage 0 ratification (commit `d1d3ce5`) + Wave 2 timing + four-book primary set + cascade chain NYRB → LARB → Public Books all remain operative. This candidate's PARK does not affect sibling's pipeline.
+5. **Third NYRB candidate Stage 0 (Chesapeake Requiem) proceeds independently.** Chesapeake Requiem Stage 0 session fires next per author 2026-05-24 plan; its venue routing is independent of THIS candidate (Christophers is the only shared subject between THIS and sibling; Chesapeake Requiem reviews Earl Swift, a different author).
+
+**Subsequent prior-disposition next-action lists (PROPOSED CONDITIONAL → GO with conditions + Wave 3 timing; PROPOSED override Wave 2 timing; PROPOSED NO-GO) preserved below for record but SUPERSEDED by the RATIFIED PARK disposition above.**
+
+---
+
+### Prior-disposition next actions (SUPERSEDED — preserved for record)
+
 **If author ratifies this Stage 0 verdict as PROPOSED → GO with four conditions + Wave 3 timing:**
 
 1. **Author ratifies sibling Stage 0 + cascade plan v2 amendment.** Cascade plan v2 amendment to add THIS candidate as a Wave 3 candidate (per cascade plan v2 §7 Future Wave 3 candidate outlook table) once author ratifies. Sibling §13 ratification record already covers sibling-side cascade plan v2 amendment.
@@ -472,10 +542,10 @@ Three different venues; three different timing windows; cumulative cascade-plan 
 ## 11. STATE marker (for next-session resumption)
 
 ```
-STATE: PROPOSED
-NEXT: author-action-required (Q1 GO/NO-GO/CONDITIONAL ratification + Q2 Wave 2 vs Wave 3 timing decision + NYRB triple-collision contingency confirmation + alt-venue cascade chain confirmation)
-AWAITING: author-ratification
-SEQUENCING DISCIPLINE: This Stage 0 fires per author interactive ratification protocol (Amendment C). PM-recommended: GO with four conditions (C-1 + C-2 + C-3 + C-4) + Wave 3 timing (post-publication, Q2 2027 onward; PW long-form / LARB primary). If author overrides to Wave 2: cognitive-saturation monitoring active; Stage 1 brief fires ~late Jun 2026 after sibling Stage 1 brief lands; venue cascade routes off NYRB regardless of timing path.
+STATE: RATIFIED — PARKED
+NEXT: PM-session absorbs DSA-PARK (cascade plan v2 §7 amendment to add candidate as CONDITIONAL Wave 3 candidate gated on triggers T-1 + T-2 + T-3) + DSA-TRIGGER (cross-thread-todos entry for trigger monitor). No Stage 1 brief fires. No reading-depth-deepening sub-workstream fires for this candidate.
+AWAITING: PARK trigger-set fires (book contracted + launch window confirmed Q2 2027 or later + sibling NYRB essay positive reception). Hard-withdraw if any trigger fails by ~12 months post-book-release.
+SEQUENCING DISCIPLINE: When ALL three triggers fire, fire fresh Stage 0 re-test (do NOT auto-promote PARK → GO). If re-test ratifies GO, Stage 1 brief inherits Conditions C-1 + C-2 + C-3 + C-4 as starting-point specification.
 ```
 
 ---
@@ -525,4 +595,55 @@ SEQUENCING DISCIPLINE: This Stage 0 fires per author interactive ratification pr
 
 ---
 
-*End of Christophers *Price Is Wrong* single-book deep review-essay Stage 0 publishing-strategy rigor pass v1.0.0. PROPOSED 2026-05-24. Per `CLAUDE.md` rigor-pass-artifact merge-to-main default, autonomously fast-forwards to main at session close.*
+*End of Christophers *Price Is Wrong* single-book deep review-essay Stage 0 publishing-strategy rigor pass v1.0.0. **RATIFIED 2026-05-25 — PARKED.** Per `CLAUDE.md` rigor-pass-artifact merge-to-main default, autonomously fast-forwards to main at session close.*
+
+---
+
+## 13. Author ratification record
+
+**2026-05-25 — Author ratified revised PM disposition as recommended.** Author signal: *"ratify as recommended. Park until after book is released"* in response to PM master-criterion re-survey (the PM session re-engaged after author pushback that the original PROPOSED disposition did not score high enough against book-success criteria to justify the workstream).
+
+### How the ratification unfolded
+
+1. **PROPOSED disposition (2026-05-24).** PM artifact PROPOSED CONDITIONAL → tilts GO with four conditions (C-1 + C-2 + C-3 + C-4) + Wave 3 PM-recommended timing. Push to main as commit `064f2c2`.
+2. **Author pushback (2026-05-25).** Author surfaced that the disposition did not actually score well against the book-success master criterion — the prior scorecard's per-dimension tilts and the "(g) HELPS strong for Wave 3" framing carried weight that did not survive testing against criteria #1–#4.
+3. **PM master-criterion re-survey.** PM re-engaged honestly: across the four book-success criteria, THIS candidate's contribution is ZERO (#1, #2), MIXED-leans-NEGATIVE (#3), and LIMITED-possibly-NEGATIVE (#4). The "(g) HELPS strong" tilt was strong relative to intra-portfolio cells, not strong against the master criterion. A disposition "strong" only if the thing it's trying to support has already succeeded is circular.
+4. **Revised PM recommendation (2026-05-25).** NO-GO for Wave 2 + PARK for Wave 3 (re-evaluation trigger: after book is released). Cascade plan v2 §7 absorbs as CONDITIONAL Wave 3 candidate gated on three triggers; sibling reading-deepening already captures the supporting work; no work loss from PARK.
+5. **Author ratification.** "ratify as recommended. Park until after book is released" — short, decisive, captures the disposition as PM recommended.
+
+### Ratified disposition (full)
+
+| Item | RATIFIED disposition |
+|---|---|
+| Q1 verdict | **NO-GO for Wave 2 + PARK for Wave 3** (re-evaluation trigger: after book is released) |
+| Wave 2 timing | **NO-GO** — bandwidth saturation + cumulative-portfolio reveal trajectory + zero contribution to book-success criteria #1 / #2 + venue-collision regardless of routing |
+| Wave 3 timing | **PARK** — cascade plan v2 §7 absorbs as CONDITIONAL Wave 3 candidate. Three triggers (ALL must fire): T-1 book contracted + T-2 launch window confirmed Q2 2027 or later + T-3 sibling NYRB essay positive reception |
+| Conditions C-1 + C-2 + C-3 + C-4 | **Preserved on file** as brief specifications that WOULD apply IF the candidate un-parks via fresh Stage 0 re-test. Currently moot — no active work in flight |
+| NYRB venue posture | **UNCHANGED** — sibling NYRB multi-book essay occupies NYRB on Wave 2 timing per its own RATIFIED Stage 0. Bilateral collision risk avoided by THIS candidate's NO-GO + PARK disposition |
+| Alt-venue cascade chain (PW long-form → LARB → Public Books → n+1) | **Preserved on file** as cascade chain that would apply IF re-evaluation Stage 0 ratifies fire post-publication. Currently moot |
+| Hard-withdraw trigger | **~12 months post-book-release.** If any of T-1 + T-2 + T-3 fails to fire by ~12 months post-book-release, formally withdraw candidate (move PARK → WITHDRAWN). PM session monitors via cross-thread-todos entry |
+
+### Triggered downstream actions (PM-session pickup)
+
+🔴 **DSA-PARK — Cascade plan v2 §7 amendment.** `publishing/strategy/cascade-plan_v2_2026-05-24.md` §7 (Future Wave 3 candidate outlook) requires an entry adding the candidate as a CONDITIONAL Wave 3 candidate gated on T-1 + T-2 + T-3. PM session absorbs at next cascade plan v2 ratification pass.
+
+🔴 **DSA-TRIGGER — Cross-thread-todos new entry.** `publishing/strategy/cross-thread-todos.md` Open section requires a new item: "Christophers single-book review — re-evaluation trigger monitor. Fires when T-1 (book contracted) + T-2 (launch window confirmed Q2 2027 or later) + T-3 (sibling NYRB essay positive reception) ALL hold. Action: fire fresh Stage 0 re-test. Hard-withdraw if any trigger fails by ~12 months post-book-release."
+
+🟢 **DSA-SIBLING — Sibling NYRB multi-book essay carries forward UNCHANGED.** Sibling Stage 0 ratification (commit `d1d3ce5`) + Wave 2 timing + four-book primary set + cascade chain NYRB → LARB → Public Books remain operative. THIS candidate's PARK has no effect on sibling's pipeline. Sibling's reading-deepening sub-workstream (Jun 17 – Sep 1, 2026) absorbs all Christophers reading work this candidate would otherwise have required.
+
+🟢 **DSA-CHESAPEAKE — Third NYRB candidate Stage 0 (Chesapeake Requiem) proceeds independently.** Chesapeake Requiem Stage 0 session fires next per author 2026-05-24 plan; its venue routing is independent of THIS candidate.
+
+🟢 **DSA-RECONCILIATION — No reconciliation work required.** No Stage 1 brief was fired. No reading-depth sub-workstream was committed. No cascade plan v2 §3 Wave 2 table needs amendment (candidate is NO-GO for Wave 2, never added). Only the §7 outlook table needs the new CONDITIONAL Wave 3 entry per DSA-PARK.
+
+### Updated STATE marker
+
+```
+STATE: RATIFIED — PARKED
+NEXT: PM-session absorbs DSA-PARK (cascade plan v2 §7 amendment) + DSA-TRIGGER (cross-thread-todos trigger monitor). No active work fires.
+AWAITING: PARK trigger-set fires post-book-release (T-1 + T-2 + T-3 all hold) → re-evaluation Stage 0 fires. Hard-withdraw if any trigger fails by ~12 months post-release.
+SEQUENCING DISCIPLINE: PARK is the terminal state of this Stage 0 artifact. Re-evaluation requires a NEW Stage 0 artifact dated at the trigger-fire time, not amendment of this artifact. This artifact remains canonical record of the 2026-05-24/25 disposition.
+```
+
+---
+
+*Ratification record appended 2026-05-25. End of §13.*
