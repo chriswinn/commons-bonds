@@ -444,3 +444,59 @@ Per framing's hard constraints + v3.0 Amendment B per-prompt serial cadence:
 ---
 
 *End of Ch 9 Stage-3 Pass 3.4 (Audience-Load Robustness) rigor pass — PROPOSED 2026-05-23. Aggregate verdict CONDITIONALLY ROBUST; no required Phase C spot-fixes; T3 (MacLean acknowledgment) optional per Pass 3.3 Character 15 Option A — author judgment. T1 + T2 + T4 + T5 + T6 + T7 hold-as-is with pre-pub-review-queue acknowledgment per §6.4. T8 reception-cycle mitigation only. T7 → Ch 10 Pass 3.4 forward-flag for cross-chapter pressure-test. Pass 3.5 (developmental-edit) is the next session for this chapter per per-prompt serial cadence after Pass 3.4 ratification.*
+
+---
+
+## §10. Disposition log (2026-05-25 Phase C session)
+
+**Author ratification 2026-05-25 (same session as this artifact's verdict reading):**
+
+> "ratify Pass 3.3 Character 15 Option A as recommended; fire the Stage 1c D-3 deferred sibling-coherence-check"
+
+### §10.1 T3 (MacLean acknowledgment) — RATIFIED + APPLIED (Option A2 consolidated)
+
+Author selected Pass 3.4 §7.3 **Option A2** (consolidated cross-chapter MacLean-acknowledgment across Ch 5 + Ch 9 + TA §1.10 sites) over Option A1 (Ch-9-only). Selection inferred from the bundled instruction to "fire the Stage 1c D-3 deferred sibling-coherence-check" alongside the Char 15 Option A ratification — D-3 firing is the cross-chapter routing path Option A2 requires.
+
+**Phase C application (this commit):**
+
+| Site | Pre-application closing | Post-application addition | Voice register adaptation |
+|---|---|---|---|
+| **Ch 9 line 144** | *"should read Buchanan and Tullock alongside this book."* | + *"The rent-seeking analytical vocabulary survives many readings of Buchanan's broader political project, and this book draws on the vocabulary rather than endorsing the project."* | None — canonical Char 15 Option A form. |
+| **Ch 5 line 202** | *"should read Buchanan and Tullock and their successors in parallel."* | + same canonical sentence | None — fits Ch 5's expository-policy register. |
+| **TA §1.10 line 610** | *"...as a foundation their apparatus can apply to, not as an alternative to their apparatus."* | + *"...this **Appendix** draws on the vocabulary rather than endorsing the project."* | *"this book"* → *"this Appendix"* (single-word adaptation for TA self-reference register). |
+
+**Thread disposition update:** T3 was classified as **procedural / cosmetic flag** in §3 thread-pull synthesis; spot-fixable without damaging acceptance verdicts. D-3a consolidated application closes T3 across all three Public-Choice-engagement sites. Pass 3.4 Char 2 (MacLean-sympathetic) ⚠⚠ EXCLUDE verdict would shift toward ⚠ EXCLUDE on adversarial re-read post-application (push-back but chapter holds against push-back).
+
+### §10.2 Other threads (T1, T2, T4, T5, T6, T7, T8) — HOLD as ratified per §7.3
+
+All non-T3 threads ratified at the Pass 3.4 §7.3 default (HOLD with pre-pub-review-queue acknowledgment per §6.4). Author's ratification scope was narrowly Char 15 Option A; T1 + T2 + T4 + T5 + T6 + T7 + T8 dispositions unchanged. T7 → Ch 10 Pass 3.4 forward-flag remains for future-session input.
+
+### §10.3 D-3 firing scope
+
+Author's "fire the Stage 1c D-3 deferred sibling-coherence-check" instruction fired the deferred Stage 1c check at two scopes:
+
+- **D-3a (MacLean consolidation, NEW from Pass 3.4 §5.2 scope expansion)** — APPLIED in this session via §10.1 above.
+- **D-3b (symmetric-vs-asymmetric framing alignment, original Stage 1c §6.2 IF-2 + IF-3 scope from 2026-05-21)** — fired as audit; finds Ch 5 line 202 ⚠⚠ INCOHERENT + TA §1.10 line 610 ⚠ DRIFT against Reading C v3 / Ch 8:122 Option A canonical form. Proposed Options A / B / C documented per site in companion D-3 artifact; PROPOSED state; awaits author ratification before Phase C application.
+
+D-3 firing artifact: [`tools/rigor-passes/commons_bonds_stage_1c_coherence_check_2026-05-25_ch5_ta_public_choice_sibling_v1.0.0.md`](commons_bonds_stage_1c_coherence_check_2026-05-25_ch5_ta_public_choice_sibling_v1.0.0.md) (produced in this same commit).
+
+### §10.4 Pass 3.4 verdict closure
+
+Pass 3.4 verdict CONDITIONALLY ROBUST holds with T3 disarmed via D-3a application. The only optional spot-fix Pass 3.4 surfaced is now applied + consolidated; no further Pass 3.4 Phase C action required from author. The pre-publication review queue items (§6.4 T1 + T2 + T4 + T5 + T6 + T7 + T8 acknowledgments) remain as Stage 5 sign-off input.
+
+**Pass 3.4 ratified state:** CLOSED as of this Phase C session. Per-prompt serial cadence advances to:
+- **Next Pass 3.5 (developmental-edit) for Ch 9** — can fire per Pass 3.4 §7.4 readiness, after D-3b ratification + application (or after author ratifies D-3b deferral).
+- **Cross-chapter cascade follow-ups:** D-3b ratification + Pass 3.3 light re-fire (across Ch 5 + Ch 9 + TA post-D-3b) recommended consolidated session per D-3 artifact §5.4.
+
+### §10.5 What this Phase C session did NOT do
+
+- Did NOT apply D-3b options to Ch 5 line 202 or TA §1.10 line 610 — PROPOSED state; awaits separate author ratification per per-prompt serial cadence.
+- Did NOT fire Pass 3.3 light re-fire — flagged for separate session per D-3 artifact §5.4; recommended consolidated with D-3b post-ratification.
+- Did NOT fire Pass 3.5 (developmental-edit) for Ch 9 — separate session per per-prompt serial cadence.
+- Did NOT address T7 (hard-left thread) Ch 10 forward-flag — routes per Pass 3.4 §6.1 to Ch 10's Pass 3.4 future-session.
+- Did NOT re-litigate Reading C v3 Ch 9 framing or Ch 8:122 Option A — canonical references.
+- Did NOT contact named subjects.
+
+---
+
+*End of Pass 3.4 disposition log — Phase C 2026-05-25. T3 RATIFIED via Char 15 Option A + APPLIED (consolidated across Ch 5 + Ch 9 + TA §1.10). D-3a CLOSED; D-3b PROPOSED for separate ratification. Pass 3.4 verdict CONDITIONALLY ROBUST holds; per-prompt serial cadence advances toward Pass 3.5 (after D-3b sequencing).*
