@@ -194,9 +194,24 @@ for arg in "$@"; do
       new_args+=("$arg")
       ;;
     *)
-      # Positional: an input file. Must exist; must be under a bind-mount.
+      # Positional: an input file. Must exist; must be a regular file (not a
+      # directory); must be under a bind-mount.
       if [ ! -e "$arg" ]; then
         echo "Error: input file '$arg' not found (resolved from cwd: $(pwd -P))." >&2
+        exit 1
+      fi
+      if [ -d "$arg" ]; then
+        # Common mistake: user forgot the -o flag and passed an output dir as
+        # a positional arg. build-derivatives-alt.sh would then try to render
+        # the directory as if it were a markdown file, fail silently inside
+        # the container, and exit non-zero. Catch it host-side with a clear hint.
+        echo "Error: '$arg' is a directory, but positional arguments must be input files." >&2
+        echo "  Did you mean to set the output directory? Use -o:" >&2
+        echo "      docker-render -o '$arg' <input-file> [<input-file> ...]" >&2
+        exit 1
+      fi
+      if [ ! -f "$arg" ]; then
+        echo "Error: input '$arg' exists but is not a regular file." >&2
         exit 1
       fi
       abs="$(abs_path_of "$arg")"
