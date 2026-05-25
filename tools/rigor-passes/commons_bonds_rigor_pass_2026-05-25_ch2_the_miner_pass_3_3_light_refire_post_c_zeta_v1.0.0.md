@@ -1,6 +1,6 @@
 # Ch 2 (The Miner) — Pass 3.3 Audience-Load Acceptance LIGHT RE-FIRE (post-Phase-C-ζ confirmation) v1.0.0 — 2026-05-25
 
-**Status:** **PROPOSED 2026-05-25** (pending author ratification). Post-Phase-C-ζ confirmation pass — verifies the cross-character verdict-impact projection recorded in the Pass 3.5 ratification + Phase C-ζ application log (commit `c1d9ae3` 2026-05-25). **Closing-after-Pass-3.5 confirmation pass** under Amendment B v3.1 five-pass discipline; no chapter-text spot-fixes applied.
+**Status:** **RATIFIED 2026-05-25** (author ratified Option A — agent's recommended audit call accepted; 5 uplifts confirmed: Tier 1 #1 + #2 to ✓✓✓, Tier 3 #13 + #14 to ✓✓, Tier 3 #15 to ✓✓✓; 3 consolidations confirmed; 0 downlifts). Post-Phase-C-ζ confirmation pass — verifies the cross-character verdict-impact projection recorded in the Pass 3.5 ratification + Phase C-ζ application log (commit `c1d9ae3` 2026-05-25). **Closing-after-Pass-3.5 confirmation pass** under Amendment B v3.1 five-pass discipline; no chapter-text spot-fixes applied. **Stage 4 render-audit ratified as author-managed-offline** per author 2026-05-24 instruction (render pipeline session; no agent involvement).
 
 **Audit target:** [`manuscript/chapters/Chapter__2_TheMiner.md`](../../manuscript/chapters/Chapter__2_TheMiner.md) — current post-Phase-C-ζ state, **230 lines / ~5,434 words** (verified `wc -l -w` 2026-05-25).
 
