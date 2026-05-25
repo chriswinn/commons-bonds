@@ -38,9 +38,9 @@ When the user wants to add a task — capture, prioritize, flag dependencies.
 1. THIS file (you are here).
 2. `tools/workstream-handoffs/README.md` — the index of all workstream handoffs.
 3. The two staleness-aware memory entries: `feedback_verify_stale_memory_claims.md` and `project_book1_state_2026-05-10.md`.
-4. `publishing/strategy/cross-thread-todos.md` — items requiring another thread's action.
-5. `publishing/strategy/cascade-plan_2026-05-06.md` — strategic cascade state.
-6. `publishing/strategy/decisions-log.md` — strategic decisions history.
+4. `publishing/essays/_pipeline/cross-thread-todos.md` — items requiring another thread's action.
+5. `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — strategic cascade state.
+6. `publishing/essays/_pipeline/decisions-log.md` — strategic decisions history.
 
 You do NOT need to read the individual workstream handoffs unless the user asks for details on a specific one. Index-level knowledge is enough for coordination.
 
@@ -93,8 +93,8 @@ These drive single fresh-session tasks for the two-stage drafting discipline exp
 
 | Task | Handoff | Status | Output |
 |---|---|---|---|
-| **Stage 2 — Noema essay (Essay B)** | [noema-session-handoff_2026-05-10](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) | **COMPLETE 2026-05-10**. | `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md` |
-| **Stage 2 — Aeon pitch (Pitch B)** | [aeon-session-handoff_2026-05-10](../../manuscript/essay/aeon/aeon-pitch-fresh-session_2026-05-10.md) | **COMPLETE 2026-05-10**. | `manuscript/essay/aeon/aeon-pitch-fresh-session_2026-05-10.md` |
+| **Stage 2 — Noema essay (Essay B)** | [noema-session-handoff_2026-05-10](../../publishing/essays/noema-commons-bonds/essay.md) | **COMPLETE 2026-05-10**. | `publishing/essays/noema-commons-bonds/essay.md` |
+| **Stage 2 — Aeon pitch (Pitch B)** | [aeon-session-handoff_2026-05-10](../../publishing/essays/aeon-mask-of-abundance/essay.md) | **COMPLETE 2026-05-10**. | `publishing/essays/aeon-mask-of-abundance/essay.md` |
 | **Stage 3 — Noema comparison** | n/a (PM-paste-driven session) | **COMPLETE 2026-05-10. Verdict: B WINS, mixed.** Submit Essay B with surgical Stage 3 polish (5 factual fixes + 2 voice improvements). | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` |
 | **Stage 3 — Aeon pitch comparison** | n/a (PM-paste-driven session) | **COMPLETE 2026-05-10. Verdict: A WINS, decisive.** Submit Version C verbatim Mon Jun 1; no fusion. | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md` |
 | **Meta-verdict synthesis (PM session)** | this file §7 | **COMPLETE 2026-05-10. Partial validation, refined regime:** discipline = default for long-form publisher-facing essays (~3,000+w) drafted from chapter prose; not for short-form pitches against iterated controls. | Recorded in §7 below + as new application-rule todo for substantive memory codification. |
@@ -150,8 +150,8 @@ The methodology experiment is the meta-workstream. Track separately.
 | Stage | Status | Artifact |
 |---|---|---|
 | **Stage 1 (pre-draft, both tests)** | COMPLETE 2026-05-10 | Noema: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`. Aeon: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`. |
-| **Stage 2 (fresh-session draft, Noema)** | **COMPLETE 2026-05-10** | `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md` |
-| **Stage 2 (fresh-session draft, Aeon pitch)** | **COMPLETE 2026-05-10** | `manuscript/essay/aeon/aeon-pitch-fresh-session_2026-05-10.md` |
+| **Stage 2 (fresh-session draft, Noema)** | **COMPLETE 2026-05-10** | `publishing/essays/noema-commons-bonds/essay.md` |
+| **Stage 2 (fresh-session draft, Aeon pitch)** | **COMPLETE 2026-05-10** | `publishing/essays/aeon-mask-of-abundance/essay.md` |
 | **Stage 3 (comparison)** | **COMPLETE 2026-05-10**. Per-test verdicts: Noema **B WINS, mixed**; Aeon **A WINS, decisive**. | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` + `..._aeon_pitch_stage3_comparison_v1.0.0.md` |
 | **Meta-verdict (PM session synthesis)** | **COMPLETE 2026-05-10**. Per the verdict matrix entry "B wins / A wins" → "Long-form / weak-control benefits; short / strong-control doesn't." **Partial validation, refined regime:** discipline = default for long-form publisher-facing essays (~3,000+w) drafted from chapter prose; not default for short-form pitches against iterated controls. Untested for short-form material with no iterated control. | Recorded inline below + memory codification queued as separate topical-session todo. |
 | **Methodology v2.0 ratification (user)** | **RATIFIED 2026-05-10.** Amendments A + B + C accepted: Stage 1 canonical-facts enrichment; Stage 3 split into fact-check + voice-polish + audience-load passes; domain-of-applicability rule. | Memory codification + cross-thread handoff updates queued as topical session (paste-text drafted by PM session). |
@@ -190,8 +190,8 @@ Sorted by urgency. **The PM session maintains this list.** Update as items compl
 
 - [x] **Trigger Stage 2 fresh session for Noema essay** (Essay B). Triggered + completed 2026-05-10.
 - [x] **Trigger Stage 2 fresh session for Aeon pitch** (Pitch B). Triggered + completed 2026-05-10.
-- [x] **Receive Stage 2 Noema artifact** at `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`. ✓
-- [x] **Receive Stage 2 Aeon-pitch artifact** at `manuscript/essay/aeon/aeon-pitch-fresh-session_2026-05-10.md`. ✓
+- [x] **Receive Stage 2 Noema artifact** at `publishing/essays/noema-commons-bonds/essay.md`. ✓
+- [x] **Receive Stage 2 Aeon-pitch artifact** at `publishing/essays/aeon-mask-of-abundance/essay.md`. ✓
 - [x] **Run Stage 3 comparison** for both methodology tests. ✓ Both verdicts landed 2026-05-10.
 - [x] **Decide which Noema essay (A or B) to submit** based on Stage 3 verdict. ✓ **Decision: submit Essay B** (post-surgical-Stage-3-polish).
 - [ ] **Trigger Noema Essay B Stage 3 polish session.** Surgical spot-fixes; spot-fix-only, no Path B reintroduction. **The 6 fixes per Noema Stage 3 verdict §6.1:**
@@ -267,7 +267,7 @@ User ratified v2.0 with all three amendments A + B + C on 2026-05-10. The discip
 ### User actions gating Noema submission
 
 - [ ] **USER ACTION 1 — Reach out to Phat (or Phat's family if Phat unavailable) for signed consent to use his name in publisher-facing prose.** Per `feedback_named_subject_consent.md`, living named subjects must be anonymized until signed.
-- [ ] **USER ACTION 2 (after Action 1 resolves) — Apply consent decision to Essay B at line 136 of `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`.** Current anonymized text reads: *"a crabber and fisherman my father had known since he was small."* Decision branches:
+- [ ] **USER ACTION 2 (after Action 1 resolves) — Apply consent decision to Essay B at line 136 of `publishing/essays/noema-commons-bonds/essay.md`.** Current anonymized text reads: *"a crabber and fisherman my father had known since he was small."* Decision branches:
   - If consent **signed** → restore Phat's actual name (replace the anonymized phrasing with the named version).
   - If consent **not signed / declined / unreachable** → leave anonymization as-drafted; no edit required.
   - Either decision unblocks the Noema submission.
@@ -368,9 +368,9 @@ This file IS the PM session's working memory. Update it as state changes:
 
 **This handoff's index files:**
 - `tools/workstream-handoffs/README.md` — workstream handoff index
-- `publishing/strategy/cross-thread-todos.md`
-- `publishing/strategy/cascade-plan_2026-05-06.md`
-- `publishing/strategy/decisions-log.md`
+- `publishing/essays/_pipeline/cross-thread-todos.md`
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- `publishing/essays/_pipeline/decisions-log.md`
 
 **Memory entries (read MEMORY.md for full index):**
 - `project_book1_state_2026-05-10.md` — current project state snapshot
@@ -386,7 +386,7 @@ This file IS the PM session's working memory. Update it as state changes:
 
 **Two-stage discipline experiment artifacts:**
 - Stage 1 briefs: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_*_pre_draft_audience_structure_v1.0.0.md`
-- Stage 2 handoffs: `manuscript/essay/Noema/noema-session-handoff_2026-05-10.md` + `manuscript/essay/aeon/aeon-session-handoff_2026-05-10.md`
+- Stage 2 handoffs: `publishing/essays/noema-commons-bonds/_archive/session-handoffs/noema-session-handoff_2026-05-10.md` + `publishing/essays/aeon-mask-of-abundance/_archive/session-handoffs/aeon-session-handoff_2026-05-10.md`
 - Stage 3 protocol: embedded in Stage 1 brief §10/§11 of each test
 
 ---

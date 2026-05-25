@@ -23,7 +23,7 @@ All three clauses fire — apply v2.0, no exceptions.
 **Required v2.0 actions for fresh sessions opening this workstream:**
 
 1. **Build a Stage 1 brief before any prose drafting.** Save as `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md` (PM session drafted alongside this handoff 2026-05-19; ratification pending). The brief must include: Atlantic Ideas editorial-brain map (mechanism / policy / argument-and-analysis frame; submission-by-email model; ~3,000–5,000w typical band; no dedicated Ideas section editor publicly listed as of 2026-05-19 verification — pre-submission verification required); Atlantic-Ideas-specific 14–18-character audience pressure-test set tilted toward policy-influencer / Atlantic subscriber base / institutional-design-mechanism reader / center-right policy reader; structural anchors from Ch 9 (Classify→Reserve→Invest→Reassess as the natural spine; ¶1 hook candidates; closing-paragraph candidates; avoid loading on Pass-1-Phase-C-pending content); **apparatus exclusion list** (every Ch 9 internal term Atlantic Ideas general readership won't tolerate, marked for replacement-with-translation or omission); **canonical factual ground truth (Amendment A)** — Ch 9-derived names, dates, figures, scene-roles, direction-of-action; Path B preemptive policy statement.
-2. **Trigger a fresh-session Stage 2 audience-blind flow draft.** Path B preemptive policy: do NOT open Ch 9, prior pitches, or any other source text. Work only from the Stage 1 brief. Output: `manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_<DATE>.md` (create the folder).
+2. **Trigger a fresh-session Stage 2 audience-blind flow draft.** Path B preemptive policy: do NOT open Ch 9, prior pitches, or any other source text. Work only from the Stage 1 brief. Output: `publishing/essays/atlantic-ideas-pricing-honestly/atlantic-ideas-essay-fresh-session-draft_<DATE>.md` (create the folder).
 3. **Run Stage 3 as three distinct passes (per Amendment B), in this order:**
    - **(a) Fact-check pass.** Audit the draft against the Stage 1 brief's canonical factual ground truth. Spot-fix factual drift by generating fresh prose from brief anchors — do NOT paste from Ch 9 (re-introduces Path B contamination).
    - **(b) Voice-polish pass.** Catch expository flatness, meta-commentary ("The plain definition is this:" / "That is the whole sentence." patterns), rule-of-three LLM tics, em-dash crutches, hedge phrases.
@@ -51,7 +51,7 @@ Draft an Atlantic Ideas pitch (concise pitch in the body of an email — see §"
 
 **Complete:**
 - Source chapter (Ch 9 *Pricing Honestly*) — drafted, ~6,000 words; Pass 1 PROPOSED at commit `9720da0` (2026-05-16). Ch 9 carries dense engagement with Pistor (*The Code of Capital* 2019), Christophers (*The Price is Wrong* 2024), Susskind (*Growth: A Reckoning* 2024); the four-step Classify→Reserve→Invest→Reassess argumentative spine; the international-dimension / border-adjustment section; the Mancur Olson political-economy-of-resistance frame paired with Sweden 1932 vs. US 2008 contrast; the Public Choice complementary-accounting section (added by 2026-05-17 cross-chapter rent-seeking-engagement workstream — PROPOSED but not yet ratified); the property-rights-and-their-limits section; the Nordic-objection section; the eleven-cent-tax-wedge structural observation; the Mondragon / Vienna / Chattanooga entering-wedges reachable-horizon cluster; the Clarion-Clipperton Zone live-case study; and the "what a framework does" Harvey/Ostrom/Raworth/Desmond/Susskind close.
-- AI disclosure template (generic variant) at `publishing/essay-drafts/templates/ai-disclosure-paragraph.md`.
+- AI disclosure template (generic variant) at `publishing/essays/_shared/templates/ai-disclosure-paragraph.md`.
 - Author bio (medium ~85w version) at `publishing/book-proposal/03_author-platform.md`.
 - v2.0 discipline ratified 2026-05-10 + canonical Stage 1 / Stage 2 / Stage 3 templates.
 
@@ -65,7 +65,7 @@ Draft an Atlantic Ideas pitch (concise pitch in the body of an email — see §"
 ## Next moves
 
 1. **PM session ratifies Stage 1 brief.** Author reads brief; ratifies or returns with notes. Brief is `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`.
-2. **Stage 2 audience-blind flow draft session.** PM drafts paste-text only after Stage 1 ratification. Output: `manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_<DATE>.md`. Path B preemptive policy holds — no Ch 9 prose in front.
+2. **Stage 2 audience-blind flow draft session.** PM drafts paste-text only after Stage 1 ratification. Output: `publishing/essays/atlantic-ideas-pricing-honestly/atlantic-ideas-essay-fresh-session-draft_<DATE>.md`. Path B preemptive policy holds — no Ch 9 prose in front.
 3. **Stage 3 three-pass rigor.** Fact-check → voice-polish → audience-load, three distinct passes, three distinct prompts, per-prompt serial cadence per v2.0 Amendment B + per `tools/drafting-templates/stage-3-three-pass-rigor-audit.md`.
 4. **Pitch drafting.** Concise pitch (~250–400 words, email-body length) framed around the essay's argument and substance — NOT a topics list. Demonstrates the writing voice. Drafted after the essay reaches Stage 2 so the pitch can quote / reference the essay's actual moves.
 5. **Cover-email assembly.** Brief intro + medium bio (`03_author-platform.md`) + AI disclosure (generic variant). Section editor's name in salutation if pre-submission verification surfaces one; otherwise generic salutation.
@@ -77,11 +77,11 @@ Draft an Atlantic Ideas pitch (concise pitch in the body of an email — see §"
 - `manuscript/chapters/Chapter__9_PricingHonestly.md` — source chapter (~6,000w; **Pass 1 PROPOSED only; treat as draft-stable but unratified for derivative-essay purposes**)
 - `tools/rigor-passes/commons_bonds_ch9_stage_3_pass_1_*` (if landed by session-fire time — Pass 1 PROPOSED at commit `9720da0`; subsequent passes may shift specific facts/figures Stage 1 brief carries forward; check for cascade implications)
 - `tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md` — Ch 9 Public Choice section provenance; rent-seeking-engagement workstream is in-flight (feature branch `claude/rent-seeking-engagement-c9b34b`); if not yet ratified at essay-drafting time, treat Ch 9's Public Choice section as unstable scaffolding and do NOT load-bear the essay on it
-- `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` — generic variant for Atlantic
+- `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` — generic variant for Atlantic
 - `publishing/book-proposal/03_author-platform.md` — medium bio paragraph
-- `publishing/strategy/cascade-plan_2026-05-06.md` — Atlantic Ideas / Foreign Policy timing + venue allocation (Ch 9 row)
-- `publishing/strategy/cross-thread-todos.md` — item #4 (RESOLVED 2026-05-19 — both fire)
-- `publishing/strategy/rights-register.md` — confirm no Aeon / Boston Review / Noema / PW rights conflict with Ch 9 frame (different source chapter, different angle; new row to be added when this workstream lands a submission)
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — Atlantic Ideas / Foreign Policy timing + venue allocation (Ch 9 row)
+- `publishing/essays/_pipeline/cross-thread-todos.md` — item #4 (RESOLVED 2026-05-19 — both fire)
+- `publishing/essays/_pipeline/rights-register.md` — confirm no Aeon / Boston Review / Noema / PW rights conflict with Ch 9 frame (different source chapter, different angle; new row to be added when this workstream lands a submission)
 - `tools/workstream-handoffs/boston-review-essay-handoff_2026-05-09.md` — sibling workstream model
 - `tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md` — sibling workstream model (parallel-fire partner per cross-thread #4 resolution)
 - `tools/drafting-templates/stage-1-audience-aware-structure-pass.md` — Stage 1 template
@@ -167,9 +167,9 @@ No source-chapter conflict; no venue conflict; no rights conflict; no audience c
 ## Reference files
 
 - **Source material:** `manuscript/chapters/Chapter__9_PricingHonestly.md` (Pass 1 PROPOSED at commit `9720da0`; treat as draft-stable but unratified for derivative-essay purposes)
-- **Cascade plan venue allocation:** `publishing/strategy/cascade-plan_2026-05-06.md` (Ch 9 row of Venue Allocation table)
-- **Cross-thread item #4 (RESOLVED 2026-05-19 — dual fire):** `publishing/strategy/cross-thread-todos.md`
-- **Rights register:** `publishing/strategy/rights-register.md` (new row to add when essay lands a submission)
+- **Cascade plan venue allocation:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (Ch 9 row of Venue Allocation table)
+- **Cross-thread item #4 (RESOLVED 2026-05-19 — dual fire):** `publishing/essays/_pipeline/cross-thread-todos.md`
+- **Rights register:** `publishing/essays/_pipeline/rights-register.md` (new row to add when essay lands a submission)
 - **v2.0 discipline memory:** `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md` (mirrored at `tools/memory/feedback_audience_aware_drafting_discipline.md`)
 - **Bond-defense + flagship-term model artifacts** (apparatus-translation methodology):
   - `tools/drafts/why-bonds-paragraph_2026-05-11_v1.0.0.md`

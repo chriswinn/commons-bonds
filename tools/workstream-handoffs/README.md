@@ -89,8 +89,8 @@ Each per-chapter handoff stub scopes the per-chapter work (which sub-steps fire 
 
 These are stored elsewhere because they target a specific fresh-session task (Stage 2 of the two-stage discipline experiment) rather than a long-running workstream:
 
-- `manuscript/essay/Noema/noema-session-handoff_2026-05-10.md` — drives Stage 2 fresh draft of Noema essay (Essay B in the experiment).
-- `manuscript/essay/aeon/aeon-session-handoff_2026-05-10.md` — drives Stage 2 fresh draft of Aeon pitch (Pitch B in the experiment).
+- `publishing/essays/noema-commons-bonds/_archive/session-handoffs/noema-session-handoff_2026-05-10.md` — drives Stage 2 fresh draft of Noema essay (Essay B in the experiment).
+- `publishing/essays/aeon-mask-of-abundance/_archive/session-handoffs/aeon-session-handoff_2026-05-10.md` — drives Stage 2 fresh draft of Aeon pitch (Pitch B in the experiment).
 
 ### Project-management coordination session
 
@@ -113,7 +113,7 @@ A separate session that coordinates across all the above workstreams — tracks 
 ## Cross-coordination
 
 All workstreams should consult:
-- `publishing/strategy/cross-thread-todos.md` — items requiring another thread's action
-- `publishing/strategy/cascade-plan_2026-05-06.md` — cascade state + decisions due
-- `publishing/strategy/decisions-log.md` — strategic decisions history
+- `publishing/essays/_pipeline/cross-thread-todos.md` — items requiring another thread's action
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — cascade state + decisions due
+- `publishing/essays/_pipeline/decisions-log.md` — strategic decisions history
 - Routine 1' (cross-thread state-snapshot, every other day) will surface drift across workstreams once scheduled (per `tools/routines/proposed_routines_v1.0.0.md` v2.0.0)

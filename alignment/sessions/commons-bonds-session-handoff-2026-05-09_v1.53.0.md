@@ -34,13 +34,13 @@
 - `research/outreach/_templates/` — reusable templates
 
 **Publishing-strategy artifacts** stood up 2026-05-06 → 2026-05-09 across:
-- `publishing/strategy/cascade-plan_2026-05-06.md` — 12-month cascade strategy + decisions due + risks + verification + critical files (latest version on `claude/plan-publishing-strategy-9Yubv` branch)
-- `publishing/strategy/decisions-log.md` — append-only strategic-decisions history (latest on feature branch)
-- `publishing/strategy/rights-register.md` — per-essay rights / exclusivity / overlap tracking (latest on feature branch)
-- `publishing/strategy/cross-thread-todos.md` — single living source-of-truth for cross-thread coordination items (on feature branch; not yet on main)
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — 12-month cascade strategy + decisions due + risks + verification + critical files (latest version on `claude/plan-publishing-strategy-9Yubv` branch)
+- `publishing/essays/_pipeline/decisions-log.md` — append-only strategic-decisions history (latest on feature branch)
+- `publishing/essays/_pipeline/rights-register.md` — per-essay rights / exclusivity / overlap tracking (latest on feature branch)
+- `publishing/essays/_pipeline/cross-thread-todos.md` — single living source-of-truth for cross-thread coordination items (on feature branch; not yet on main)
 - `publishing/book-proposal/*.md` — seven section files (skeletons + comp-titles substantive + bio polished)
 - `publishing/agents/*.md` — 25-target list (1/25 populated: Sarah Chalfant / Wylie Agency Priority A); query-letter template; query-tracker; personalization-snippets (1/25)
-- `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` — Aeon master + Noema variant + generic
+- `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` — Aeon master + Noema variant + generic
 - `tools/routines/proposed_routines_v1.0.0.md` — **v2.0.0** ratified 2026-05-09: Routine 1' (cross-thread state-snapshot, every other day) + Routine 2 refined + Routine 3' (branch hygiene, weekly Friday) + Routine 4' (stale-reference scan, weekly Sunday); v1.0.0 Routines 1, 3, 4 deprecated/deferred
 - `tools/workstream-handoffs/` — seven mini per-workstream handoffs + README (on feature branch; not yet on main)
 
@@ -61,7 +61,7 @@ Per author direction 2026-05-09: each workstream gets a fresh dedicated session 
 | Manuscript completion (excluding Ch 3) | `manuscript-completion-handoff_2026-05-09.md` | `claude/manuscript-completion-` | Bibliography flag updates queued; Tech Appendix v2.0.0 + Glossary v4 rebuilds queued |
 
 **Handled separately (no handoff in `tools/workstream-handoffs/`):**
-- **Noema essay drafting** — `manuscript/essay/Noema/noema-essay-drafting-plan_2026-05-08.md` is the operational drafting plan; `rewrite-plan_2026-05-01.md` REVISION 2026-05-08 is the canonical structure; 100% drafted-able under hybrid operational approach (commit `9aee18d`).
+- **Noema essay drafting** — `publishing/essays/noema-commons-bonds/_archive/planning/noema-essay-drafting-plan_2026-05-08.md` is the operational drafting plan; `rewrite-plan_2026-05-01.md` REVISION 2026-05-08 is the canonical structure; 100% drafted-able under hybrid operational approach (commit `9aee18d`).
 - **Ch 3 drafting** — `alignment/sessions/ch3-drafting-handoff_2026-05-09.md` was the mini-handoff (Ch 3 has since been drafted; PR #2 lands the draft on main).
 
 ---
@@ -162,7 +162,7 @@ Per author direction 2026-05-09: each workstream gets a fresh dedicated session 
   - Boston Review = ~1pp pitch via Submittable, full essay if accepted
   - Atlantic Ideas = pitch in body of email, essay on assignment
 - **Routine v2.0.0 ratified 2026-05-09:** Routine 1' (cross-thread state-snapshot, every other day) + Routine 2 refined + Routine 3' (branch hygiene, weekly Friday) + Routine 4' (stale-reference scan, weekly Sunday). v1.0.0 Routine 1 deprecated; Routines 3 + 4 deferred. Scheduling pending.
-- **Never touch `manuscript/essay/berggruen/`** via AI tools (AI-free competition); coordination only.
+- **Never touch `publishing/essays/berggruen-prize-2026/`** via AI tools (AI-free competition); coordination only.
 
 ---
 
@@ -173,9 +173,9 @@ Per author direction 2026-05-09, fresh sessions:
 1. **Branch from current `origin/main`** with a per-workstream branch name. Per-workstream prefixes documented in `tools/workstream-handoffs/README.md`.
 2. **Read only the relevant workstream handoff** at `tools/workstream-handoffs/<workstream>-handoff_2026-05-09.md` + this session-handoff (v1.53.0 once landed on main).
 3. **Cross-coordination via:**
-   - `publishing/strategy/cross-thread-todos.md` — items requiring other threads' action
-   - `publishing/strategy/cascade-plan_2026-05-06.md` — cascade state + decisions due
-   - `publishing/strategy/decisions-log.md` — strategic-decisions history
+   - `publishing/essays/_pipeline/cross-thread-todos.md` — items requiring other threads' action
+   - `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — cascade state + decisions due
+   - `publishing/essays/_pipeline/decisions-log.md` — strategic-decisions history
    - Routine 1' state-snapshot (every other day) once scheduled
 4. **Operate within workstream scope.** Out-of-scope items either go to `cross-thread-todos.md` or are deferred.
 5. **End-of-session discipline:** push the branch; surface any cross-thread items in the todos doc; update Date modified on any artifacts touched.
@@ -195,18 +195,18 @@ Per author direction 2026-05-09, fresh sessions:
 **Workstream entry points (post-PR consolidation):**
 
 - All seven workstreams: `tools/workstream-handoffs/<workstream>-handoff_2026-05-09.md` (currently on `claude/plan-publishing-strategy-9Yubv`; pending PR to main)
-- Noema essay drafting: `manuscript/essay/Noema/noema-essay-drafting-plan_2026-05-08.md` + `rewrite-plan_2026-05-01.md`
+- Noema essay drafting: `publishing/essays/noema-commons-bonds/_archive/planning/noema-essay-drafting-plan_2026-05-08.md` + `rewrite-plan_2026-05-01.md`
 - Ch 3 drafting: `alignment/sessions/ch3-drafting-handoff_2026-05-09.md` (PR #2 pending; Ch 3 already drafted)
 
 **Publishing-strategy artifacts:**
 
-- `publishing/strategy/cascade-plan_2026-05-06.md`
-- `publishing/strategy/decisions-log.md`
-- `publishing/strategy/rights-register.md`
-- `publishing/strategy/cross-thread-todos.md` (NEW 2026-05-09; pending PR consolidation)
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- `publishing/essays/_pipeline/decisions-log.md`
+- `publishing/essays/_pipeline/rights-register.md`
+- `publishing/essays/_pipeline/cross-thread-todos.md` (NEW 2026-05-09; pending PR consolidation)
 - `publishing/book-proposal/*.md` (seven section files + sample-chapters placeholder + master assembly spec)
 - `publishing/agents/*.md` (targets, query-letter-template, query-tracker, personalization-snippets)
-- `publishing/essay-drafts/templates/ai-disclosure-paragraph.md`
+- `publishing/essays/_shared/templates/ai-disclosure-paragraph.md`
 
 **Tools:**
 

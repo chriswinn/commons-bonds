@@ -131,7 +131,7 @@ Framework-mapping analysis lives in chapter GuidanceDocs at integration time, no
 ### Candidate #8 — Sailboat / liveaboard as individual-scale structural opt-out
 
 - **Status:** `partial-integration` — Ch 10 close integrated (Sisyphus / boulder / Camus / sailboat / Hampton / harbor — all hits in Ch 10 prose). Ch 1 morning bookend not yet integrated.
-- **Source:** Inline in `publishing/essay-drafts/draft2.md` §VI lines 73-75 (sailboat passage) + §VII line 86-90 (Camus close). Source file extraction pending per draft2.md break-up plan.
+- **Source:** Inline in `publishing/essays/draft2.md` §VI lines 73-75 (sailboat passage) + §VII line 86-90 (Camus close). Source file extraction pending per draft2.md break-up plan.
 - **One-line summary:** Sailboat at Hampton marina as Pattern 2 demonstration of individual-scale structural opt-out; tiny-home/intentional-downsizing connection; honest caveat preserved (individual opt-outs don't change structural problem).
 - **Placement:** Ch 1 close (morning beat — bookend) + Ch 10 close (sunset/Camus beat — already integrated).
 - **Gate flags:** none significant; Hampton-community observation gate per Ch 1 GuidanceDoc applies if specific neighbors / fellow liveaboards get named.
@@ -141,7 +141,7 @@ Framework-mapping analysis lives in chapter GuidanceDocs at integration time, no
 ### Candidate #9 — IHOP origin — DELETED 2026-05-05
 
 - **Status:** `deleted` — candidate did not earn its place in Book 1; not extracted to a source file before deletion.
-- **Source:** N/A. Original inline location: `publishing/essay-drafts/draft2.md` §VI line 66 (will not be extracted; draft2.md break-up plan no longer needs to source-file-extract this beat).
+- **Source:** N/A. Original inline location: `publishing/essays/draft2.md` §VI line 66 (will not be extracted; draft2.md break-up plan no longer needs to source-file-extract this beat).
 - **Author direction (2026-05-05):** *"delete '#9 IHOP origin' as it doesn't seem useful."* Per the 2026-05-05 candidate placement-and-fit analysis: Ch 1 ("The Quiet Math") chose a relationship-focused register (father / grandfather / son) that doesn't need a career-arc opening beat. Cross-spectrum-credibility function is carried by Ch 7's three-civilization temporal stress-test (Egypt + Qin + feudalism per case-study audit + Ch 1 GuidanceDoc routing) rather than by IHOP-origin biographical anchor.
 - **Provenance:** the deletion decision lineage is preserved via this stub + §3.7 decision-history entry.
 
@@ -234,7 +234,7 @@ Author direction: *"move to the correct book folder for whatever the material is
 
 ### §3.5 draft2.md archived (2026-05-08) — withdrawn-from-Noema essay
 
-`publishing/essay-drafts/draft2.md` (the withdrawn-from-Noema 2026-05-01 essay) **archived 2026-05-08** to [`archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md`](../archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md) with §I (wife's-illness opening) **EXCISED** per Candidate #4 deletion discipline. Status: historical record; not active substrate; not publisher-facing. The Noema rewrite (Path B) will start as a fresh draft, not a revision of this archive.
+`publishing/essays/draft2.md` (the withdrawn-from-Noema 2026-05-01 essay) **archived 2026-05-08** to [`archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md`](../archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md) with §I (wife's-illness opening) **EXCISED** per Candidate #4 deletion discipline. Status: historical record; not active substrate; not publisher-facing. The Noema rewrite (Path B) will start as a fresh draft, not a revision of this archive.
 
 Content extracted to other locations before archive (so the archive doesn't need to be mined):
 - Sailboat content from §VI → integrated into Ch 10 close (Candidate #8)
@@ -249,7 +249,7 @@ Author direction: *"go ahead and delete, we decided not to use any part of the e
 
 ### §3.7 Candidate #9 deletion (2026-05-05)
 
-Author direction: *"delete '#9 IHOP origin' as it doesn't seem useful."* Following the 2026-05-05 candidate placement-and-fit analysis: Ch 1 ("The Quiet Math") chose a relationship-focused register (father / grandfather / son) that doesn't need a career-arc opening beat. Cross-spectrum-credibility function is carried by Ch 7's three-civilization temporal stress-test (Egypt + Qin + feudalism per case-study audit + Ch 1 GuidanceDoc routing) rather than by IHOP-origin biographical anchor. No source file existed (was inline in `publishing/essay-drafts/draft2.md` §VI line 66); deletion takes effect by inventory removal — the draft2.md break-up plan no longer needs to source-file-extract this beat. Third precedent for source-preservation-discipline override (after Candidates #4 + #5).
+Author direction: *"delete '#9 IHOP origin' as it doesn't seem useful."* Following the 2026-05-05 candidate placement-and-fit analysis: Ch 1 ("The Quiet Math") chose a relationship-focused register (father / grandfather / son) that doesn't need a career-arc opening beat. Cross-spectrum-credibility function is carried by Ch 7's three-civilization temporal stress-test (Egypt + Qin + feudalism per case-study audit + Ch 1 GuidanceDoc routing) rather than by IHOP-origin biographical anchor. No source file existed (was inline in `publishing/essays/draft2.md` §VI line 66); deletion takes effect by inventory removal — the draft2.md break-up plan no longer needs to source-file-extract this beat. Third precedent for source-preservation-discipline override (after Candidates #4 + #5).
 
 ### §3.11 draft2.md archived (2026-05-08)
 
@@ -259,7 +259,7 @@ Confirmed all extractable content already extracted (Candidate #8 sailboat → C
 
 Implementation:
 - New subdirectory: `archive/_OneDayMaybe/withdrawn-essays/` + `README.md` documenting discipline (historical record; not active substrate; not publisher-facing; do-not-mine)
-- File moved: `publishing/essay-drafts/draft2.md` → `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md`
+- File moved: `publishing/essays/draft2.md` → `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md`
 - §I wife's-illness opening passage EXCISED before archive per Candidate #4 deletion discipline (wife's-illness content not retained at any layer; archive does not preserve it)
 - Archive header added documenting: status / withdrawal context / excisions / content disposition / cross-references / "do not mine" note
 - §3.5 inventory entry updated to reflect archive state

@@ -124,5 +124,5 @@ If Val asks for *all three* artifacts (one-pager + outline + questions), send al
 
 - `research/outreach/subjects/colden/response-draft_2026-05-05_via-dimarzio.md` — the response that offers the questions
 - `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` §18 — original outreach to Colden
-- `manuscript/essay/Noema/rewrite-plan_2026-05-01.md` §Section V — where Q1, Q2, Q4, Q7 material would land if Colden is added as a third Noema anchor (decision still open per response-draft Generalizable Lessons #5)
+- `publishing/essays/noema-commons-bonds/_archive/planning/rewrite-plan_2026-05-01.md` §Section V — where Q1, Q2, Q4, Q7 material would land if Colden is added as a third Noema anchor (decision still open per response-draft Generalizable Lessons #5)
 - `research/literature/bibliography.md` §19.5 — Colden public-record sources backing Q4 (SB 922 testimony, sanctuary defense, etc.)

@@ -12,7 +12,7 @@
 
 Three converging pressures argue for reorg-now-not-later:
 
-1. **Submission-package fragmentation has reached editor-confusion threshold.** Current state requires 4-5 directories to find "everything about Noema submission" — `manuscript/essay/Noema/` (essay text + 14 historical drafts + reference PDFs + planning docs) + `publishing/essay-drafts/` (misnamed: holds cover letters not drafts) + `tools/quality-gates/sign-offs/` (Stage 5 sign-off) + `tools/rigor-passes/` (rigor-pass artifacts) + `publishing/strategy/` (cascade plan + decisions log + rights register). The author's "where is the essay?" question 2026-05-24 was a real-time symptom.
+1. **Submission-package fragmentation has reached editor-confusion threshold.** Current state requires 4-5 directories to find "everything about Noema submission" — `manuscript/essay/Noema/` (essay text + 14 historical drafts + reference PDFs + planning docs) + `publishing/essays/` (misnamed: holds cover letters not drafts) + `tools/quality-gates/sign-offs/` (Stage 5 sign-off) + `tools/rigor-passes/` (rigor-pass artifacts) + `publishing/essays/_pipeline/` (cascade plan + decisions log + rights register). The author's "where is the essay?" question 2026-05-24 was a real-time symptom.
 2. **Portfolio about to scale 2x in essays and ~50x in agents.** Current ~5 active essay pipelines → ~10 with 4-5 incoming. Current 1 agency identified → 50-100 typical for first-book trade-press placement. The reorg cost grows quadratically with portfolio size if deferred (more migrations against more in-flight work).
 3. **A working architecture already exists at `research/outreach/subjects/`.** 8 per-subject directories (`colden/`, `darity/`, `phat/`, `dagan/`, `biggie/`, `cbf/`, `mazzucato/`, `moore/`) + cross-cutting `_pipeline/` + `_protocols/` + `_templates/` + `archive/` subdirs. Proven at scale; the reorg extends this pattern to essays + op-eds + agent-outreach instead of inventing a new one.
 
@@ -27,10 +27,10 @@ The reorg's principal design move is: **organize by what kind of artifact, then 
 3. `CLAUDE.md` 2026-05-24 amendment ("end-user-facing prose vs. internal scaffolding" merge-to-main boundary).
 4. `research/outreach/subjects/colden/` (sample per-subject directory; working pattern reference).
 5. `research/outreach/_pipeline/` + `_protocols/` + `_templates/` + `archive/` (cross-cutting subdirs working pattern).
-6. `publishing/essay-drafts/boston-review-essay-cover-letter_2026-05-23.md` (cover letter format model).
-7. `tools/quality-gates/sign-offs/boston-review-essay_stage5_signoff_2026-05-23.md` (Stage 5 sign-off format model).
+6. `publishing/essays/boston-review-accountability-gap/cover-letter.md` (cover letter format model).
+7. `publishing/essays/boston-review-accountability-gap/stage-5-signoff.md` (Stage 5 sign-off format model).
 8. `publishing/agents/{personalization-snippets,post-darity-warm-intro-templates,query-letter-template,query-tracker,targets}.md` (current flat agent-pipeline state; 5 files).
-9. `publishing/strategy/{cascade-plan,decisions-log,rights-register,june-2026-submission-schedule,cross-thread-todos}.md` (cross-essay strategy artifacts).
+9. `publishing/essays/_pipeline/{cascade-plan,decisions-log,rights-register,june-2026-submission-schedule,cross-thread-todos}.md` (cross-essay strategy artifacts).
 
 **No prior reorg artifact exists** — this is the first comprehensive audit + move-list session for the publishing pipeline.
 
@@ -66,15 +66,15 @@ Each follows the same structure:
 ```
 publishing/
 ├── README.md                                  ← NEW — pipeline overview + conventions
-├── essays/                                    ← RENAMED from publishing/essay-drafts/
+├── essays/                                    ← RENAMED from publishing/essays/
 │   ├── README.md
 │   ├── _shared/
 │   │   ├── templates/
-│   │   │   ├── ai-disclosure-paragraph.md   ← MOVED from publishing/essay-drafts/templates/
+│   │   │   ├── ai-disclosure-paragraph.md   ← MOVED from publishing/essays/templates/
 │   │   │   └── cover-letter-template.md     ← NEW (extracted from BR cover letter pattern)
 │   │   ├── personalization-snippets.md      ← NEW (essay-side; agent-side has its own at publishing/agents/_shared/)
 │   │   └── README.md
-│   ├── _pipeline/                             ← MOVED from publishing/strategy/ (essay-relevant subset)
+│   ├── _pipeline/                             ← MOVED from publishing/essays/_pipeline/ (essay-relevant subset)
 │   │   ├── cascade-plan_2026-05-06.md
 │   │   ├── cascade-plan_v2_2026-05-24.md
 │   │   ├── june-2026-submission-schedule.md
@@ -82,7 +82,7 @@ publishing/
 │   │   ├── rights-register.md
 │   │   ├── cross-thread-todos.md
 │   │   └── weekly-audits/
-│   │       └── 2026-04-28.md                ← MOVED from publishing/weekly-audit-2026-04-28.md
+│   │       └── 2026-04-28.md                ← MOVED from publishing/essays/_pipeline/weekly-audits/2026-04-28.md
 │   ├── _archive/                              ← retired essay packages
 │   ├── noema-commons-bonds/                   ← per-essay package
 │   │   ├── README.md
@@ -169,8 +169,8 @@ research/outreach/                             ← UNCHANGED (already the workin
 | Essay submission packages | scattered across 4-5 dirs | `publishing/essays/<venue>/` | **MAJOR** |
 | Op-ed packages | flat in `publishing/op-eds/` | per-op-ed dirs in `publishing/op-eds/<slug>/` | **MODERATE** |
 | Literary agent outreach | flat in `publishing/agents/` | per-agent dirs in `publishing/agents/<agent-slug>/` | **MAJOR** (anticipates 50-100 scale) |
-| Cross-essay strategy | `publishing/strategy/` | `publishing/essays/_pipeline/` | **LIGHT** (rename + relocate) |
-| Cover letters + templates | `publishing/essay-drafts/` (misnamed) | `publishing/essays/<venue>/cover-letter.md` + `publishing/essays/_shared/` | **MODERATE** |
+| Cross-essay strategy | `publishing/essays/_pipeline/` | `publishing/essays/_pipeline/` | **LIGHT** (rename + relocate) |
+| Cover letters + templates | `publishing/essays/` (misnamed) | `publishing/essays/<venue>/cover-letter.md` + `publishing/essays/_shared/` | **MODERATE** |
 | Stage 5 sign-offs | `tools/quality-gates/sign-offs/` | Decision Q1: stay OR move per-essay | **DECISION PENDING** |
 | Rigor-pass artifacts | `tools/rigor-passes/` | UNCHANGED | (none) |
 | Book proposal | `publishing/book-proposal/` | UNCHANGED | (none) |
@@ -222,7 +222,7 @@ research/outreach/                             ← UNCHANGED (already the workin
 **`manuscript/essay/berggruen/` (1 file):**
 - `commons-bonds-berggruen-essay-draft.docx` ← binary; drafting state TBD
 
-### §3.2 publishing/essay-drafts/ — 5 files (misnamed; contains cover letters + templates)
+### §3.2 publishing/essays/ — 5 files (misnamed; contains cover letters + templates)
 
 - `noema-essay-cover-letter_2026-05-24.md` ← RATIFIED 2026-05-24
 - `boston-review-essay-cover-letter_2026-05-23.md` ← RATIFIED 2026-05-24
@@ -245,7 +245,7 @@ research/outreach/                             ← UNCHANGED (already the workin
 - `personalization-snippets.md` ← personalization templates
 - `post-darity-warm-intro-templates_2026-05-10.md` ← Darity-interview-derived warm intro templates
 
-### §3.5 publishing/strategy/ — 6 files (cross-essay strategy)
+### §3.5 publishing/essays/_pipeline/ — 6 files (cross-essay strategy)
 
 - `cascade-plan_2026-05-06.md` ← canonical cascade plan
 - `cascade-plan_v2_2026-05-24.md` ← v2 cascade plan
@@ -278,61 +278,61 @@ research/outreach/                             ← UNCHANGED (already the workin
 
 | Source | Destination |
 |---|---|
-| `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md` | `publishing/essays/noema-commons-bonds/essay.md` |
-| `publishing/essay-drafts/noema-essay-cover-letter_2026-05-24.md` | `publishing/essays/noema-commons-bonds/cover-letter.md` |
-| `tools/quality-gates/sign-offs/noema-essay_stage5_signoff_2026-05-24.md` | **Q1 decision:** `publishing/essays/noema-commons-bonds/stage-5-signoff.md` OR stay at current location |
-| `manuscript/essay/Noema/noema-essay-pre-pass1_2026-05-09.md` | `publishing/essays/noema-commons-bonds/_archive/pre-pass1-drafts/noema-essay-pre-pass1_2026-05-09.md` |
-| `manuscript/essay/Noema/noema-essay-post-pass1_2026-05-09.md` | `publishing/essays/noema-commons-bonds/_archive/pre-pass1-drafts/noema-essay-post-pass1_2026-05-09.md` |
-| `manuscript/essay/Noema/noema-essay-fresh-draft_named_2026-05-09.md` | `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-fresh-draft_named_2026-05-09.md` |
-| `manuscript/essay/Noema/noema-essay-fresh-draft_anonymized_2026-05-09.md` | `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-fresh-draft_anonymized_2026-05-09.md` |
-| `manuscript/essay/Noema/noema-essay-draft_2026-05-09.md` | `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-draft_2026-05-09.md` |
-| `manuscript/essay/Noema/noema-commons-bonds-chriswinn_withdrawn_draft.md` | `publishing/essays/noema-commons-bonds/_archive/withdrawn-2026-05-01/noema-commons-bonds-chriswinn_withdrawn_draft.md` |
-| `manuscript/essay/Noema/withdrawal-note_2026-05-01.md` | `publishing/essays/noema-commons-bonds/_archive/withdrawn-2026-05-01/withdrawal-note_2026-05-01.md` |
-| `manuscript/essay/Noema/noema-essay-drafting-plan_2026-05-08.md` | `publishing/essays/noema-commons-bonds/_archive/planning/noema-essay-drafting-plan_2026-05-08.md` |
-| `manuscript/essay/Noema/rewrite-plan_2026-05-01.md` | `publishing/essays/noema-commons-bonds/_archive/planning/rewrite-plan_2026-05-01.md` |
-| `manuscript/essay/Noema/noema-session-handoff_2026-05-09.md` | `publishing/essays/noema-commons-bonds/_archive/session-handoffs/noema-session-handoff_2026-05-09.md` |
-| `manuscript/essay/Noema/noema-session-handoff_2026-05-10.md` | `publishing/essays/noema-commons-bonds/_archive/session-handoffs/noema-session-handoff_2026-05-10.md` |
-| `manuscript/essay/Noema/noema-writing-guidelines.pdf` | `publishing/essays/noema-commons-bonds/_archive/reference/noema-writing-guidelines.pdf` |
-| `manuscript/essay/Noema/noema-model-pitch.pdf` | `publishing/essays/noema-commons-bonds/_archive/reference/noema-model-pitch.pdf` |
-| `manuscript/essay/Noema/noema-pitch-commons-bonds-winn.docx` | `publishing/essays/noema-commons-bonds/_archive/reference/noema-pitch-commons-bonds-winn.docx` |
+| `publishing/essays/noema-commons-bonds/essay.md` | `publishing/essays/noema-commons-bonds/essay.md` |
+| `publishing/essays/noema-commons-bonds/cover-letter.md` | `publishing/essays/noema-commons-bonds/cover-letter.md` |
+| `publishing/essays/noema-commons-bonds/stage-5-signoff.md` | **Q1 decision:** `publishing/essays/noema-commons-bonds/stage-5-signoff.md` OR stay at current location |
+| `publishing/essays/noema-commons-bonds/_archive/pre-pass1-drafts/noema-essay-pre-pass1_2026-05-09.md` | `publishing/essays/noema-commons-bonds/_archive/pre-pass1-drafts/noema-essay-pre-pass1_2026-05-09.md` |
+| `publishing/essays/noema-commons-bonds/_archive/pre-pass1-drafts/noema-essay-post-pass1_2026-05-09.md` | `publishing/essays/noema-commons-bonds/_archive/pre-pass1-drafts/noema-essay-post-pass1_2026-05-09.md` |
+| `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-fresh-draft_named_2026-05-09.md` | `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-fresh-draft_named_2026-05-09.md` |
+| `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-fresh-draft_anonymized_2026-05-09.md` | `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-fresh-draft_anonymized_2026-05-09.md` |
+| `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-draft_2026-05-09.md` | `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-draft_2026-05-09.md` |
+| `publishing/essays/noema-commons-bonds/_archive/withdrawn-2026-05-01/noema-commons-bonds-chriswinn_withdrawn_draft.md` | `publishing/essays/noema-commons-bonds/_archive/withdrawn-2026-05-01/noema-commons-bonds-chriswinn_withdrawn_draft.md` |
+| `publishing/essays/noema-commons-bonds/_archive/withdrawn-2026-05-01/withdrawal-note_2026-05-01.md` | `publishing/essays/noema-commons-bonds/_archive/withdrawn-2026-05-01/withdrawal-note_2026-05-01.md` |
+| `publishing/essays/noema-commons-bonds/_archive/planning/noema-essay-drafting-plan_2026-05-08.md` | `publishing/essays/noema-commons-bonds/_archive/planning/noema-essay-drafting-plan_2026-05-08.md` |
+| `publishing/essays/noema-commons-bonds/_archive/planning/rewrite-plan_2026-05-01.md` | `publishing/essays/noema-commons-bonds/_archive/planning/rewrite-plan_2026-05-01.md` |
+| `publishing/essays/noema-commons-bonds/_archive/session-handoffs/noema-session-handoff_2026-05-09.md` | `publishing/essays/noema-commons-bonds/_archive/session-handoffs/noema-session-handoff_2026-05-09.md` |
+| `publishing/essays/noema-commons-bonds/_archive/session-handoffs/noema-session-handoff_2026-05-10.md` | `publishing/essays/noema-commons-bonds/_archive/session-handoffs/noema-session-handoff_2026-05-10.md` |
+| `publishing/essays/noema-commons-bonds/_archive/reference/noema-writing-guidelines.pdf` | `publishing/essays/noema-commons-bonds/_archive/reference/noema-writing-guidelines.pdf` |
+| `publishing/essays/noema-commons-bonds/_archive/reference/noema-model-pitch.pdf` | `publishing/essays/noema-commons-bonds/_archive/reference/noema-model-pitch.pdf` |
+| `publishing/essays/noema-commons-bonds/_archive/reference/noema-pitch-commons-bonds-winn.docx` | `publishing/essays/noema-commons-bonds/_archive/reference/noema-pitch-commons-bonds-winn.docx` |
 
 ### §4.2 Boston Review essay package
 
 | Source | Destination |
 |---|---|
-| `manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md` | `publishing/essays/boston-review-accountability-gap/essay.md` |
-| `publishing/essay-drafts/boston-review-essay-cover-letter_2026-05-23.md` | `publishing/essays/boston-review-accountability-gap/cover-letter.md` |
-| `tools/quality-gates/sign-offs/boston-review-essay_stage5_signoff_2026-05-23.md` | **Q1 decision** |
+| `publishing/essays/boston-review-accountability-gap/essay.md` | `publishing/essays/boston-review-accountability-gap/essay.md` |
+| `publishing/essays/boston-review-accountability-gap/cover-letter.md` | `publishing/essays/boston-review-accountability-gap/cover-letter.md` |
+| `publishing/essays/boston-review-accountability-gap/stage-5-signoff.md` | **Q1 decision** |
 
 ### §4.3 Aeon essay package
 
 | Source | Destination |
 |---|---|
-| `manuscript/essay/aeon/aeon-pitch-fresh-session_2026-05-10.md` | `publishing/essays/aeon-mask-of-abundance/essay.md` |
-| `manuscript/essay/aeon/aeon-submission-day-package_2026-05-31.md` | `publishing/essays/aeon-mask-of-abundance/submission-day-package_2026-05-31.md` |
-| `manuscript/essay/aeon/aeon-essay-carry-forward-inventory.md` | `publishing/essays/aeon-mask-of-abundance/carry-forward-inventory.md` |
-| `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn.md` | `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn.md` |
-| `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` | `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` |
-| `manuscript/essay/aeon/aeon-essay-dunbar-aside-drafts_2026-05-08.md` | `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-essay-dunbar-aside-drafts_2026-05-08.md` |
-| `manuscript/essay/aeon/aeon-submission-strategy_2026-05-08.md` | `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-submission-strategy_2026-05-08.md` |
-| `manuscript/essay/aeon/aeon-session-handoff_2026-05-10.md` | `publishing/essays/aeon-mask-of-abundance/_archive/session-handoffs/aeon-session-handoff_2026-05-10.md` |
-| (no Aeon cover letter in publishing/essay-drafts/) | (none) |
+| `publishing/essays/aeon-mask-of-abundance/essay.md` | `publishing/essays/aeon-mask-of-abundance/essay.md` |
+| `publishing/essays/aeon-mask-of-abundance/submission-day-package_2026-05-31.md` | `publishing/essays/aeon-mask-of-abundance/submission-day-package_2026-05-31.md` |
+| `publishing/essays/aeon-mask-of-abundance/carry-forward-inventory.md` | `publishing/essays/aeon-mask-of-abundance/carry-forward-inventory.md` |
+| `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn.md` | `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn.md` |
+| `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` | `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` |
+| `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-essay-dunbar-aside-drafts_2026-05-08.md` | `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-essay-dunbar-aside-drafts_2026-05-08.md` |
+| `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-submission-strategy_2026-05-08.md` | `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-submission-strategy_2026-05-08.md` |
+| `publishing/essays/aeon-mask-of-abundance/_archive/session-handoffs/aeon-session-handoff_2026-05-10.md` | `publishing/essays/aeon-mask-of-abundance/_archive/session-handoffs/aeon-session-handoff_2026-05-10.md` |
+| (no Aeon cover letter in publishing/essays/) | (none) |
 | (no Aeon Stage 5 sign-off in tools/quality-gates/sign-offs/) | (none — pitch model, not full-essay submission) |
 
 ### §4.4 $100 Barrel essay package
 
 | Source | Destination |
 |---|---|
-| `manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md` | `publishing/essays/100-barrel/essay.md` |
-| `publishing/essay-drafts/100-barrel-essay-cover-letter_2026-05-24.md` | `publishing/essays/100-barrel/cover-letter.md` |
-| `publishing/essay-drafts/100-barrel-essay-passage.html` | `publishing/essays/100-barrel/passage.html` |
-| `tools/quality-gates/sign-offs/100-barrel-essay_stage5_signoff_2026-05-24.md` | **Q1 decision** |
+| `publishing/essays/100-barrel/essay.md` | `publishing/essays/100-barrel/essay.md` |
+| `publishing/essays/100-barrel/cover-letter.md` | `publishing/essays/100-barrel/cover-letter.md` |
+| `publishing/essays/100-barrel/passage.html` | `publishing/essays/100-barrel/passage.html` |
+| `publishing/essays/100-barrel/stage-5-signoff.md` | **Q1 decision** |
 
 ### §4.5 Atlantic Ideas essay package
 
 | Source | Destination |
 |---|---|
-| `manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md` | `publishing/essays/atlantic-ideas-<slug>/essay.md` (slug determined at package creation) |
+| `publishing/essays/atlantic-ideas-pricing-honestly/essay.md` | `publishing/essays/atlantic-ideas-<slug>/essay.md` (slug determined at package creation) |
 
 **Note:** Atlantic Ideas essay has no cover letter yet + no Stage 5 sign-off; the essay is mid-pipeline. New package directory created at move-time.
 
@@ -340,7 +340,7 @@ research/outreach/                             ← UNCHANGED (already the workin
 
 | Source | Destination |
 |---|---|
-| `manuscript/essay/berggruen/commons-bonds-berggruen-essay-draft.docx` | `publishing/essays/berggruen-<slug>/_archive/reference/commons-bonds-berggruen-essay-draft.docx` (or essay.docx; slug determined at package creation) |
+| `publishing/essays/berggruen-prize-2026/_archive/reference/commons-bonds-berggruen-essay-draft.docx` | `publishing/essays/berggruen-<slug>/_archive/reference/commons-bonds-berggruen-essay-draft.docx` (or essay.docx; slug determined at package creation) |
 
 **Note:** Berggruen submission is a hard-deadline 2026-08-17 prize submission per cascade plan; format is `.docx` (binary); the file may be either a current draft or a reference, depending on Berggruen-essay-workstream state. To verify at Session 2 application.
 
@@ -348,41 +348,41 @@ research/outreach/                             ← UNCHANGED (already the workin
 
 | Source | Destination |
 |---|---|
-| `publishing/op-eds/mcdowell-county-true-cost-op-ed_2026-05-10.md` | `publishing/op-eds/mcdowell-county-true-cost/op-ed.md` |
-| `publishing/op-eds/norway-sovereign-wealth-op-ed_2026-05-10.md` | `publishing/op-eds/norway-sovereign-wealth/op-ed.md` |
-| `publishing/op-eds/_inventory_norway-mcdowell-canonical-facts_2026-05-10.md` | **DECISION:** stays at `publishing/op-eds/_shared/canonical-facts/norway-mcdowell-inventory_2026-05-10.md` (shared across both op-eds) OR duplicated into each op-ed dir. Recommend: shared (one source of truth). |
+| `publishing/op-eds/mcdowell-county-true-cost/op-ed.md` | `publishing/op-eds/mcdowell-county-true-cost/op-ed.md` |
+| `publishing/op-eds/norway-sovereign-wealth/op-ed.md` | `publishing/op-eds/norway-sovereign-wealth/op-ed.md` |
+| `publishing/op-eds/_shared/canonical-facts/norway-mcdowell-inventory_2026-05-10.md` | **DECISION:** stays at `publishing/op-eds/_shared/canonical-facts/norway-mcdowell-inventory_2026-05-10.md` (shared across both op-eds) OR duplicated into each op-ed dir. Recommend: shared (one source of truth). |
 
 ### §4.8 Cross-essay strategy moves
 
 | Source | Destination |
 |---|---|
-| `publishing/strategy/cascade-plan_2026-05-06.md` | `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` |
-| `publishing/strategy/cascade-plan_v2_2026-05-24.md` | `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md` |
-| `publishing/strategy/june-2026-submission-schedule.md` | `publishing/essays/_pipeline/june-2026-submission-schedule.md` |
-| `publishing/strategy/decisions-log.md` | `publishing/essays/_pipeline/decisions-log.md` |
-| `publishing/strategy/rights-register.md` | `publishing/essays/_pipeline/rights-register.md` |
-| `publishing/strategy/cross-thread-todos.md` | `publishing/essays/_pipeline/cross-thread-todos.md` |
-| `publishing/weekly-audit-2026-04-28.md` | `publishing/essays/_pipeline/weekly-audits/2026-04-28.md` |
+| `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` | `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` |
+| `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md` | `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md` |
+| `publishing/essays/_pipeline/june-2026-submission-schedule.md` | `publishing/essays/_pipeline/june-2026-submission-schedule.md` |
+| `publishing/essays/_pipeline/decisions-log.md` | `publishing/essays/_pipeline/decisions-log.md` |
+| `publishing/essays/_pipeline/rights-register.md` | `publishing/essays/_pipeline/rights-register.md` |
+| `publishing/essays/_pipeline/cross-thread-todos.md` | `publishing/essays/_pipeline/cross-thread-todos.md` |
+| `publishing/essays/_pipeline/weekly-audits/2026-04-28.md` | `publishing/essays/_pipeline/weekly-audits/2026-04-28.md` |
 
-**Note:** `publishing/strategy/` directory is **deleted** after these moves complete.
+**Note:** `publishing/essays/_pipeline/` directory is **deleted** after these moves complete.
 
 ### §4.9 Cover-letter template moves
 
 | Source | Destination |
 |---|---|
-| `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` | `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` |
+| `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` | `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` |
 
-**Note:** `publishing/essay-drafts/` directory is **deleted** after all moves complete (cover letters move per §4.1-4.4; template moves per above; the misnamed directory is retired).
+**Note:** `publishing/essays/` directory is **deleted** after all moves complete (cover letters move per §4.1-4.4; template moves per above; the misnamed directory is retired).
 
 ### §4.10 Agent-pipeline scale-up (current 5 files; target architecture for 50-100)
 
 | Source | Destination |
 |---|---|
-| `publishing/agents/query-letter-template.md` | `publishing/agents/_shared/templates/query-letter-template.md` |
-| `publishing/agents/personalization-snippets.md` | `publishing/agents/_shared/personalization-snippets.md` |
-| `publishing/agents/post-darity-warm-intro-templates_2026-05-10.md` | `publishing/agents/_shared/post-darity-warm-intro-templates_2026-05-10.md` |
-| `publishing/agents/query-tracker.md` | `publishing/agents/_pipeline/query-tracker.md` |
-| `publishing/agents/targets.md` | `publishing/agents/_pipeline/targets.md` |
+| `publishing/agents/_shared/templates/query-letter-template.md` | `publishing/agents/_shared/templates/query-letter-template.md` |
+| `publishing/agents/_shared/personalization-snippets.md` | `publishing/agents/_shared/personalization-snippets.md` |
+| `publishing/agents/_shared/post-darity-warm-intro-templates_2026-05-10.md` | `publishing/agents/_shared/post-darity-warm-intro-templates_2026-05-10.md` |
+| `publishing/agents/_pipeline/query-tracker.md` | `publishing/agents/_pipeline/query-tracker.md` |
+| `publishing/agents/_pipeline/targets.md` | `publishing/agents/_pipeline/targets.md` |
 
 **Note:** No per-agent directories exist yet — those get created by the upcoming agent-search PM session under the new architecture.
 
@@ -397,8 +397,8 @@ research/outreach/                             ← UNCHANGED (already the workin
 | Atlantic Ideas essay | 1 move | New: `publishing/essays/atlantic-ideas-<slug>/` |
 | Berggruen essay | 1 move | New: `publishing/essays/berggruen-<slug>/` |
 | Op-eds | 3 moves | New: `publishing/op-eds/mcdowell-county-true-cost/` + `publishing/op-eds/norway-sovereign-wealth/` + `_shared/` |
-| Cross-essay strategy | 7 moves | Delete: `publishing/strategy/`; Create: `publishing/essays/_pipeline/` |
-| Cover-letter templates | 1 move | Delete: `publishing/essay-drafts/` |
+| Cross-essay strategy | 7 moves | Delete: `publishing/essays/_pipeline/`; Create: `publishing/essays/_pipeline/` |
+| Cover-letter templates | 1 move | Delete: `publishing/essays/` |
 | Agent-pipeline reorg | 5 moves | Create: `publishing/agents/_shared/` + `_pipeline/` + `_protocols/` + `_archive/` |
 | Q1-pending (Stage 5 sign-offs) | 0-3 moves | DECISION PENDING |
 
@@ -422,8 +422,8 @@ research/outreach/                             ← UNCHANGED (already the workin
 | `manuscript/essay/boston-review/` | 11 | `publishing/essays/boston-review-accountability-gap/` |
 | `manuscript/essay/atlantic-ideas/` | 6 | `publishing/essays/atlantic-ideas-<slug>/` |
 | `manuscript/essay/berggruen/` | 6 | `publishing/essays/berggruen-<slug>/` |
-| `publishing/essay-drafts/` | ~20 | `publishing/essays/<venue>/cover-letter.md` OR `publishing/essays/_shared/` |
-| `publishing/strategy/` | ~20 | `publishing/essays/_pipeline/` |
+| `publishing/essays/` | ~20 | `publishing/essays/<venue>/cover-letter.md` OR `publishing/essays/_shared/` |
+| `publishing/essays/_pipeline/` | ~20 | `publishing/essays/_pipeline/` |
 | `publishing/op-eds/<file>.md` | ~12 | `publishing/op-eds/<slug>/op-ed.md` |
 | `publishing/agents/<file>` | ~15 | `publishing/agents/_shared/` OR `_pipeline/` per file |
 | `tools/quality-gates/sign-offs/` | ~14 | (Q1 decision: stay or move per-essay) |
@@ -941,7 +941,7 @@ CLAUDE.md (lines 23-51 grep results) references several paths that move:
 >   activation variants in dated sibling files are derivatives)
 > - `publishing/book-proposal/` — proposal prose (agent/editor-
 >   facing)
-> - `publishing/strategy/` — cascade plans, decisions logs, ...
+> - `publishing/essays/_pipeline/` — cascade plans, decisions logs, ...
 
 ### §10.2 Proposed CLAUDE.md amendments
 

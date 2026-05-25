@@ -360,7 +360,7 @@ The apparatus-core that distinguishes the book from the essay portfolio stays in
 
 **Stage 2 session — Audience-Blind Flow Draft.**
 
-- Output file path: `manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md` (create the folder `manuscript/essay/100-barrel/`).
+- Output file path: `publishing/essays/100-barrel/essay.md` (create the folder `publishing/essays/100-barrel/`).
 - Stage 2 does NOT read source §III's prose paragraphs. Stage 2 reads this Stage 1 brief + the canonical facts inventory in §7 + the bibliography entries for the named authors (`research/literature/bibliography.md`).
 - If a fact-question surfaces during drafting: narrow fact-check against §7 canonical-facts inventory only; if the answer is not in §7, narrow fact-check against the bibliography entry; only as a last resort, narrow fact-check against source §III for a specific fact (a date, a number, a name) — and even then, do NOT read surrounding source prose paragraphs.
 - Branch discipline: Stage 2 session opens fresh feature branch from current origin/main per `tools/workstream-handoffs/README.md`. PROPOSED draft autonomously fast-forwards to main per CLAUDE.md rigor-pass-artifact merge-to-main default at session close. STOP after drafting; do not run Stage 3 in Stage 2 session.
@@ -417,8 +417,8 @@ Per-prompt serial cadence per v2.0 Amendment B (preserved in v3.0). Each pass fi
 - **Named-subject consent discipline:** [`tools/memory/feedback_named_subject_consent.md`](../memory/feedback_named_subject_consent.md)
 - **Bibliography (canonical-facts grounding):** `research/literature/bibliography.md` (Hartwick, Stern, Nordhaus, Ostrom, Daly, Rawls, Hotelling, Solow, Ramsey, Weitzman entries)
 - **Norway canonical-facts grounding:** [`manuscript/chapters/Chapter__4_TheArchitectureItself__Draft.md`](../../manuscript/chapters/Chapter__4_TheArchitectureItself__Draft.md) (Ekofisk-1969 + 1990-fund + 2001-fiscal-rule + cross-coalition durability passages)
-- **Cascade plan venue allocation:** [`publishing/strategy/cascade-plan_2026-05-06.md`](../../publishing/strategy/cascade-plan_2026-05-06.md)
-- **Cross-thread item #4 (Atlantic Ideas vs. PW):** [`publishing/strategy/cross-thread-todos.md`](../../publishing/strategy/cross-thread-todos.md)
+- **Cascade plan venue allocation:** [`publishing/essays/_pipeline/cascade-plan_2026-05-06.md`](../../publishing/essays/_pipeline/cascade-plan_2026-05-06.md)
+- **Cross-thread item #4 (Atlantic Ideas vs. PW):** [`publishing/essays/_pipeline/cross-thread-todos.md`](../../publishing/essays/_pipeline/cross-thread-todos.md)
 
 ---
 

@@ -23,7 +23,7 @@ You are running **Stage 2 of the v3.1 audience-aware drafting discipline** for t
 - `manuscript/chapters/Chapter__9_PricingHonestly.md` — the source chapter. This is the file Path B preemptive policy is designed against. Drafting with Ch 9 prose in front reproduces the Noema-Essay-A failure pattern (~14 verbatim sentences + 9 high-echo paragraphs). Do not open it.
 - `manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` — Ch 8 supplies the McDowell coal arithmetic derivation that grounds the essay's hook. The Stage 1 brief §7.1 carries the canonical numbers; you do not need to read Ch 8.
 - Any prior Atlantic Ideas essay draft (none exists at this writing; if one appears, do not open).
-- Sibling essay drafts — `manuscript/essay/Noema/*` (different frame; Noema is Ch 1 + Ch 10 memoir+synthesis), `manuscript/essay/100-barrel/*` (different frame; PW essay is withdrawn-Noema §III + Ch 8 thread oil thought-experiment), `manuscript/essay/aeon/*` (different frame; Aeon is Ch 7 Mars closed-habitat), `manuscript/essay/boston-review/*` (different frame; BR is Ch 5 accountability gap). Do not open any of these — same author voice + adjacent content creates Path B contamination risk across the essay-cluster.
+- Sibling essay drafts — `publishing/essays/noema-commons-bonds/*` (different frame; Noema is Ch 1 + Ch 10 memoir+synthesis), `publishing/essays/100-barrel/*` (different frame; PW essay is withdrawn-Noema §III + Ch 8 thread oil thought-experiment), `publishing/essays/aeon-mask-of-abundance/*` (different frame; Aeon is Ch 7 Mars closed-habitat), `publishing/essays/boston-review-accountability-gap/*` (different frame; BR is Ch 5 accountability gap). Do not open any of these — same author voice + adjacent content creates Path B contamination risk across the essay-cluster.
 
 You may glance at any of these files for **narrow fact verification** (a single date, a number, a name not in §7) if absolutely necessary — but do not read their prose paragraphs and attempt to "rephrase them differently." That move fails Path B audits. Generate fresh prose from beats, scenes, and concrete details supplied in the Stage 1 brief's §7 canonical-facts inventory.
 
@@ -45,7 +45,7 @@ You may glance at any of these files for **narrow fact verification** (a single 
 
 Produce **Atlantic Ideas essay — Stage 2 audience-blind flow draft** — a ~3,800–4,200 word essay for The Atlantic's Ideas section, derived from Ch 9 *Pricing Honestly*'s four-step Classify→Reserve→Invest→Reassess mechanism.
 
-- **Output file path:** `manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md` (create the `manuscript/essay/atlantic-ideas/` folder if it doesn't exist).
+- **Output file path:** `publishing/essays/atlantic-ideas-pricing-honestly/essay.md` (create the `publishing/essays/atlantic-ideas-pricing-honestly/` folder if it doesn't exist).
 - **Target submission window:** late June 2026 (under-consideration signal landed before agent Wave 1 fires late July / early August 2026).
 - **Target length:** ~3,800–4,200 words body. **Hard ceiling: 5,000 words** (per Atlantic web-submission norm verified 2026-05-19).
 - **Venue:** The Atlantic — Ideas section. Submission by email to `submissions@theatlantic.com` with `Subject: Ideas pitch — [title]`. Argument / analysis / commentary register; NOT op-ed; NOT reporting; NOT memoir-led.
@@ -139,7 +139,7 @@ None. No Stage 0 pass fired; cascade-plan venue allocation + cross-thread #4 dua
 
 Single atomic commit on a fresh feature branch:
 
-- **File:** `manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md` (create the `manuscript/essay/atlantic-ideas/` folder if it doesn't exist).
+- **File:** `publishing/essays/atlantic-ideas-pricing-honestly/essay.md` (create the `publishing/essays/atlantic-ideas-pricing-honestly/` folder if it doesn't exist).
 - **Header on the output file** (YAML or Markdown frontmatter):
   - Title (working): "Pricing Honestly" or whatever the draft's actual moves earn
   - Author: Chris Winn

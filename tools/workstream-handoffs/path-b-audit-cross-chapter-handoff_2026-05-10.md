@@ -94,7 +94,7 @@ Concrete steps per chapter pair (10 chapters → 45 unique pairs; not all need f
 - Tech Appendix (location varies; check `manuscript/` and `tools/` directories)
 - `feedback_audience_aware_drafting_discipline.md` (memory)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md` (the audit framework + Noema-essay findings)
-- `manuscript/essay/Noema/noema-essay-pre-pass1_2026-05-09.md` and `noema-essay-post-pass1_2026-05-09.md` (Path B's worst-case effects on essay quality, useful as reference for severity calibration)
+- `publishing/essays/noema-commons-bonds/_archive/pre-pass1-drafts/noema-essay-pre-pass1_2026-05-09.md` and `noema-essay-post-pass1_2026-05-09.md` (Path B's worst-case effects on essay quality, useful as reference for severity calibration)
 
 ---
 

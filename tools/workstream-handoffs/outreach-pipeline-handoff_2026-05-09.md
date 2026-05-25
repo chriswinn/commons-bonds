@@ -26,7 +26,7 @@ Manage interview outreach for chapter sources + Noema solutions cluster + book p
 ## Next moves
 
 1. **Conduct Darity interview 2026-05-12 @ 14:00 ET** (phone, 1 hr; author calls Sandy at his number per live-call companion). File transcript / notes within 7 days; obtain quote-confirmation.
-2. **Decide Mullen activation post-call** (cross-thread item #2 in `publishing/strategy/cross-thread-todos.md`) — based on Darity's reception.
+2. **Decide Mullen activation post-call** (cross-thread item #2 in `publishing/essays/_pipeline/cross-thread-todos.md`) — based on Darity's reception.
 3. **Mazzucato follow-up nudge** if no substantive reply by mid-June (~6 wk past holding response 2026-05-06).
 4. **Monitor Colden / Moore / Dagan replies** within 3 wk academic-response window from send.
 5. **Second-attempt outreaches** if 8 cold contacts still silent past 2026-05-19.
@@ -40,7 +40,7 @@ Manage interview outreach for chapter sources + Noema solutions cluster + book p
 - `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` — Ch 3 fieldwork
 - `research/outreach/_protocols/interview-attribution-protocol_2026-05-06.md` — Q0 discipline (every interview)
 - `research/outreach/_protocols/framework-scope-explicitness-discipline_2026-05-06.md`
-- `publishing/strategy/cross-thread-todos.md` — open items 2 (Mullen) + 3 (bibliography flags)
+- `publishing/essays/_pipeline/cross-thread-todos.md` — open items 2 (Mullen) + 3 (bibliography flags)
 
 ## Constraints / disciplines
 

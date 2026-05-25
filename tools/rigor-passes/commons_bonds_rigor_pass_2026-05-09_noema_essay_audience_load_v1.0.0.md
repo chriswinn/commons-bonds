@@ -1,6 +1,6 @@
 # Noema Essay — Audience-Load Rigor Pass v1.0.0 — 2026-05-09
 
-**Status:** Framework ratified 2026-05-09. Applied to pre-pass-1 essay (`manuscript/essay/Noema/noema-essay-pre-pass1_2026-05-09.md`).
+**Status:** Framework ratified 2026-05-09. Applied to pre-pass-1 essay (`publishing/essays/noema-commons-bonds/_archive/pre-pass1-drafts/noema-essay-pre-pass1_2026-05-09.md`).
 
 **Methodology:** Adapted from the Aeon title rigor pass (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md`), with Noema-specific differences:
 - Noema editorial brain is Berggruen-Institute-adjacent / policy-engaged / internationalist / reportage-driven / named-sources-required; lower jargon tolerance than Aeon. Demands a three-register weave (memoir + history/theory + reportage), not the two-register (memoir + thought-experiment) that Aeon tolerates.

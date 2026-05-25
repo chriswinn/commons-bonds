@@ -35,5 +35,5 @@ The Commons Bonds essay submitted to Noema and subsequently withdrawn 2026-05-01
 - Candidate #4 deletion (2026-05-01) — `alignment/commons_bonds_personal_stories_candidates_v1.0.0.md` §3.4
 - WP#8 — publisher-facing artifacts scrubbed of scaffolding/audit-trail content
 - WP#10 — Two-layer content origination discipline
-- Aeon pitch — `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn.md` (active Aeon-track essay; different content; locked title "The Mask of Abundance" 2026-05-08)
+- Aeon pitch — `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn.md` (active Aeon-track essay; different content; locked title "The Mask of Abundance" 2026-05-08)
 - Insight #13 — Book-scope creep monitoring

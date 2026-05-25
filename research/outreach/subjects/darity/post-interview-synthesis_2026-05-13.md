@@ -329,7 +329,7 @@ The structured vocabulary-failure probe ("what's a word that landed in your fiel
 
 2. **Follow-up exchange** when Sandy responds to the Tech Appendix + Ch 6 send. If he engages substantively, the natural moment to ask the field-mapping question is in that reply chain — by then he'll have read the framework and can speak to which voices in his network the framework would benefit from engagement with.
 
-**Backup-ask template-set at `publishing/agents/post-darity-warm-intro-templates_2026-05-10.md`** remains the activation source if Sandy surfaces names in the async exchange.
+**Backup-ask template-set at `publishing/agents/_shared/post-darity-warm-intro-templates_2026-05-10.md`** remains the activation source if Sandy surfaces names in the async exchange.
 
 ---
 
@@ -389,9 +389,9 @@ Key adaptations from the template at `post-interview-confirmation-email_template
 
 | File | Update needed | Why |
 |---|---|---|
-| `publishing/strategy/cross-thread-todos.md` | **Item #2** — status update to "Darity interview complete; warm-intro question NOT asked during call; recovery via thank-you email + async exchange after Tech Appendix + Ch 6 send. No names surfaced. Item remains open." | Closes the active state but does not resolve the item. |
-| `publishing/strategy/cross-thread-todos.md` | **Item #11 (endnote / citation sweep)** — add Du Bois *Black Reconstruction* + Sen *capabilities + social welfare functions* corpus + Sandy's longevity-gap work as bibliography expansion items to track. | Bibliography accumulation. |
-| `publishing/strategy/cross-thread-todos.md` | **Possibly a new item** — "Sandy's restitution-inside-reparations correction → framework vocabulary decision (Option 1/2/3 per MI-1 above)" + "Sandy's coercion-vector observation → framework scope-acknowledgment (per MI-2)" + "Sandy's homogeneity-of-interest Ostrom critique → canonical Ostrom-pivot articulation update (per MI-3)." | Three new MUST-INCORPORATE items need tracking. |
+| `publishing/essays/_pipeline/cross-thread-todos.md` | **Item #2** — status update to "Darity interview complete; warm-intro question NOT asked during call; recovery via thank-you email + async exchange after Tech Appendix + Ch 6 send. No names surfaced. Item remains open." | Closes the active state but does not resolve the item. |
+| `publishing/essays/_pipeline/cross-thread-todos.md` | **Item #11 (endnote / citation sweep)** — add Du Bois *Black Reconstruction* + Sen *capabilities + social welfare functions* corpus + Sandy's longevity-gap work as bibliography expansion items to track. | Bibliography accumulation. |
+| `publishing/essays/_pipeline/cross-thread-todos.md` | **Possibly a new item** — "Sandy's restitution-inside-reparations correction → framework vocabulary decision (Option 1/2/3 per MI-1 above)" + "Sandy's coercion-vector observation → framework scope-acknowledgment (per MI-2)" + "Sandy's homogeneity-of-interest Ostrom critique → canonical Ostrom-pivot articulation update (per MI-3)." | Three new MUST-INCORPORATE items need tracking. |
 | `tools/workstream-handoffs/outreach-pipeline-handoff_2026-05-09.md` | **Darity row** — status "INTERVIEW CONFIRMED 2026-05-12" → "INTERVIEW CONDUCTED 2026-05-13 14:30 ET; synthesis at `post-interview-synthesis_2026-05-13.md`; thank-you email queued; awaiting Sandy's response to Tech Appendix + Ch 6 send (committed 1–2 weeks)." | Routine status update. |
 | `tools/workstream-handoffs/outreach-pipeline-handoff_2026-05-09.md` | **Mullen row** — clarify activation status (held; no warm-intro from Sandy in the call; activation deferred to async exchange or never). | Item #2 cross-thread sync. |
 | `research/literature/bibliography.md` | **§18.5 (reparations economics)** — add Du Bois *Black Reconstruction* with engagement-pending flag + Sandy's longevity-gap paper(s) with engagement-pending flag. | Reading recs from the call. |

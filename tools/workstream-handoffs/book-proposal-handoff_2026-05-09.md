@@ -39,8 +39,8 @@ Assemble the agent-facing book proposal — overview + market + comp titles + au
 - `publishing/book-proposal/*.md` (all 7 sections + assembly spec)
 - `publishing/book-proposal/06_sample-chapters/.gitkeep` (placeholder)
 - `manuscript/chapters/Chapter__N_*Draft.md` (source for chapter summaries; Ch 7 + Ch 5 for samples)
-- `publishing/strategy/cascade-plan_2026-05-06.md` (Decisions due section + sprint timing)
-- `publishing/strategy/cross-thread-todos.md` (item #3: bibliography flag updates as engagement-pending → engaged)
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (Decisions due section + sprint timing)
+- `publishing/essays/_pipeline/cross-thread-todos.md` (item #3: bibliography flag updates as engagement-pending → engaged)
 - `research/literature/bibliography.md` (§13 comp-title entries with engagement notes)
 
 ## Constraints / disciplines

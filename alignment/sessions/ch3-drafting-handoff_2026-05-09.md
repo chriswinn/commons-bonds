@@ -53,7 +53,7 @@ This is the discipline that unblocked Ch 3 in the first place. **Critical:** it 
   ```
 - Post-interview (Colden if/when it lands; Darity already May 12), evaluate flagged passages for upgrade-vs-hold per the same two-position decision used in the Noema plan.
 
-Source for full operational frame: `manuscript/essay/Noema/noema-essay-drafting-plan_2026-05-08.md` §HYBRID OPERATIONAL APPROACH.
+Source for full operational frame: `publishing/essays/noema-commons-bonds/_archive/planning/noema-essay-drafting-plan_2026-05-08.md` §HYBRID OPERATIONAL APPROACH.
 
 ---
 
@@ -117,7 +117,7 @@ These are NOT blocking Ch 3 itself but worth knowing about:
 ## §8. Cross-references
 
 - `manuscript/chapters/Chapter__3___GuidanceDoc.md` — canonical structural guidance
-- `manuscript/essay/Noema/noema-essay-drafting-plan_2026-05-08.md` §HYBRID OPERATIONAL APPROACH — the substitution-hypothesis discipline
+- `publishing/essays/noema-commons-bonds/_archive/planning/noema-essay-drafting-plan_2026-05-08.md` §HYBRID OPERATIONAL APPROACH — the substitution-hypothesis discipline
 - `alignment/sessions/commons-bonds-session-handoff-2026-05-06_v1.52.0.md` — broader v1.52.0 multi-thread state-snapshot
 - `AGENTS.md` — current canonical state table (10-of-10-chapters-drafted reflected per prior session's commit)
 - `archive/retirements/index.md` — retired vocabulary list

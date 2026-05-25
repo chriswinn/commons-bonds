@@ -78,7 +78,7 @@ What hurts BR submissions specifically:
 
 - **No op-eds.** BR explicitly refuses op-ed-style pieces (short-form, news-pegged, advocacy-focused).
 - **No unsolicited personal essays.** BR explicitly refuses memoir / personal-essay register. The Ch 1 plane / NICU / father material is structurally excluded. Third-person throughout; no first-person memoir; institutional-measurement voice without lived-experience anchoring.
-- **No previously published work** (including Substack / blog). Verify at submission: no Ch 5 prose has been published; Aeon (Ch 7) is a different chapter and different frame; Noema (Ch 1 + Ch 10) is a different chapter and different frame. Confirmed in `publishing/strategy/rights-register.md`.
+- **No previously published work** (including Substack / blog). Verify at submission: no Ch 5 prose has been published; Aeon (Ch 7) is a different chapter and different frame; Noema (Ch 1 + Ch 10) is a different chapter and different frame. Confirmed in `publishing/essays/_pipeline/rights-register.md`.
 - **Apparatus jargon.** Greek letters, subscripts, formal three-component breakdowns, "cluster-γ," "CSD," "RCV," "Commons Inversion Test," "Hotelling Identity," "the four gates," "the three ways of counting" — all out (see §8).
 - **Authorial-defensive register.** Long preemptive-rebuttal-of-objections passages from Ch 5 (the four 2008 objections; the two Social Security objections) need substantial compression. BR essays engage one or two principal objections briefly rather than enumerating four.
 - **Throat-clearing and meta-commentary.** "The framework's response is..." / "What the framework names is..." / "The framework's choice of *bond* as the umbrella term is deliberate..." — all read as meta-commentary on the argument rather than the argument itself. Stage 2 should drop these tics.
@@ -142,10 +142,10 @@ The Stage 2 fresh session's source material is:
 
 - This Stage 1b brief (audience set + structure + voice register + canonical facts + length budget)
 - The carry-forward inventory (§7 below — the canonical factual ground truth per Amendment A)
-- `publishing/strategy/cascade-plan_2026-05-06.md` (venue allocation context)
-- `publishing/strategy/rights-register.md` (no-overlap verification with Aeon Ch 7 + Noema Ch 1 + Ch 10)
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (venue allocation context)
+- `publishing/essays/_pipeline/rights-register.md` (no-overlap verification with Aeon Ch 7 + Noema Ch 1 + Ch 10)
 - `publishing/book-proposal/03_author-platform.md` (medium bio paragraph for cover letter)
-- `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` (generic variant for BR)
+- `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` (generic variant for BR)
 - The Path B preemptive policy itself
 - Stage 1c cross-artifact coherence verification artifact (produced as separate session per Audit H2; available to Stage 2 once Stage 1 sign-off lands)
 
@@ -323,7 +323,7 @@ Per Amendment A: load-bearing protection against Stage 2 factual drift. The Noem
 - **Restitution / Reparations asymmetry handled visibly** (per Decision #11 — 2-3 sentences inline in §V).
 - **No named-subject consent issues in scope.** All Ch 5 cases clear the public-record exception.
 - **Substance drives length.** Target ~4,500w body (per Decision #8); ceiling ~5,000w per BR; no padding; no cutting to fit.
-- **AI-collaboration disclosure.** Generic variant per `publishing/essay-drafts/templates/ai-disclosure-paragraph.md`; placement at bottom of cover letter (drafted in Stage 4 separate session per Decision #13).
+- **AI-collaboration disclosure.** Generic variant per `publishing/essays/_shared/templates/ai-disclosure-paragraph.md`; placement at bottom of cover letter (drafted in Stage 4 separate session per Decision #13).
 
 ---
 
@@ -341,7 +341,7 @@ Per Amendment A: load-bearing protection against Stage 2 factual drift. The Noem
 
 After Stage 1 sign-off lands (1a + 1c + sign-off artifact + fuller Stage 0 all complete), fire a fresh Stage 2 audience-blind flow-draft session with the following instructions:
 
-- **Output file:** `manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_<DATE>.md`
+- **Output file:** `publishing/essays/boston-review-accountability-gap/essay.md`
 - **Branch:** fresh `claude/boston-review-essay-stage-2-draft-<harness-id>` from current `origin/main` per `tools/workstream-handoffs/README.md`.
 - **Source material:** this Stage 1b brief; the canonical-facts inventory in §7; the publishing/strategy + publishing/book-proposal context for cover-letter material; the Stage 1c coherence-check artifact. **DO NOT open `manuscript/chapters/Chapter__5_TheAccountabilityGap.md`** as a source text.
 - **What to do if a fact-question surfaces during drafting:** narrow fact-check against §7 canonical-facts inventory only; do not re-open Ch 5 prose. If a fact is not in §7 and is load-bearing for the essay, flag in the draft (`[fact-check needed: ...]`) and Pass 3.1 will resolve.
@@ -375,7 +375,7 @@ After Pass 3.5 applies, recommended light Pass 3.3 re-fire (per parent doctrine 
 
 **Stage 4 — Render + character-integrity audit (per Audit M5; essay-scale adaptation).** Fires post-Stage 3 (after 3.5 + light 3.3 re-fire). Essay-scale procedure: paste Stage 3-ratified essay into Submittable's preview; verify em-dash + italics + curly-quote rendering; verify no scaffolding tokens leaked through; verify bulleted-list rendering if any. ~10-minute task before submit. Chapter-scale Stage 4 (Chrome / wkhtmltopdf render; tofu-box em-dash audit; EB Garamond font-family) doesn't directly apply; the lens (catch render-failure patterns before they reach the editor) does. No formal output artifact required for essay-scale; verification log appended to the cover-letter draft session.
 
-**Stage 5 — Bookend pre-submission sign-off + AI-disclosure transparency (per Audit M6; essay-scale adaptation).** Fires explicit-gate at pre-Submittable submission. Essay-scale procedure: produce a light Stage 5 sign-off artifact at `tools/quality-gates/sign-offs/boston-review-essay_stage5_signoff_<date>.md` carrying academic-rigor + prose-quality verification (per parent doctrine §6.2 checklist). **Pre-publication review queue artifact deferred to book-submission workstream** where it's properly scoped (book proposal package handoff to publisher / agent / editor); for the essay, the AI-disclosure paragraph (`publishing/essay-drafts/templates/ai-disclosure-paragraph.md` generic variant) carries the equivalent transparency function at essay scale. Author ratifies Stage 5 sign-off before Submittable submit fires.
+**Stage 5 — Bookend pre-submission sign-off + AI-disclosure transparency (per Audit M6; essay-scale adaptation).** Fires explicit-gate at pre-Submittable submission. Essay-scale procedure: produce a light Stage 5 sign-off artifact at `publishing/essays/boston-review-accountability-gap/stage-5-signoff.md` carrying academic-rigor + prose-quality verification (per parent doctrine §6.2 checklist). **Pre-publication review queue artifact deferred to book-submission workstream** where it's properly scoped (book proposal package handoff to publisher / agent / editor); for the essay, the AI-disclosure paragraph (`publishing/essays/_shared/templates/ai-disclosure-paragraph.md` generic variant) carries the equivalent transparency function at essay scale. Author ratifies Stage 5 sign-off before Submittable submit fires.
 
 ---
 

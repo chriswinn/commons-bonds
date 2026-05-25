@@ -6,7 +6,7 @@
 1. **F-VP-Barrel-3 SUPERSEDED** by interactive sentence-craft spot-fix at essay commit `6a3da83` (on `main` 2026-05-23). The §III close passage has been materially expanded (from ~40w "Each X-ing" rule-of-three to ~110w four-domain decomposition + orthodox-model gap + cost-severance close); the original F-VP-Barrel-3 recommendation (flatten "Each X-ing" to comma-joined clause) is moot. See §1 F-VP-Barrel-3 for the canonical record + supersession marker.
 2. **F-VP-Barrel-7 ADDED** — two em-dash appositions in the newly-applied §III passage flagged for follow-up punctuation tightening (colon + dropped apposition). Author queued this as F-VP-Barrel-7 at apply-time for standard Phase C ratification alongside other Pass 3.2 items. See §1 F-VP-Barrel-7.
 
-**Amendment B — 2026-05-23. RATIFICATION + APPLICATION.** All 6 active findings interactively ratified + applied per v3.1 Amendment C Interactive Ratification Protocol. Phase C application recorded in essay file header (`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`). Per-finding dispositions:
+**Amendment B — 2026-05-23. RATIFICATION + APPLICATION.** All 6 active findings interactively ratified + applied per v3.1 Amendment C Interactive Ratification Protocol. Phase C application recorded in essay file header (`publishing/essays/100-barrel/essay.md`). Per-finding dispositions:
 
 | Finding | Severity | Disposition | Net delta |
 |---|---|---|---|
@@ -29,7 +29,7 @@ Three findings where the applied disposition differs from Pass 3.2's original re
 
 Active-findings count post-Amendment-B: 0 (all 6 active findings APPLIED; F-VP-Barrel-3 SUPERSEDED).
 
-**Audit target:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md) (Draft A; 4,088w post-Pass-3.1-Phase-C; on `main` commit `cf5db97`).
+**Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (Draft A; 4,088w post-Pass-3.1-Phase-C; on `main` commit `cf5db97`).
 
 **Source of truth for voice register:** Stage 1 brief [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md) §5 (voice register) + §8 (locked elements). Comparative draft audit [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md) §8.3 supplied three voice-polish candidates as input.
 
@@ -386,7 +386,7 @@ The other Stage 1 brief §5 categories ("in short / ultimately / fundamentally";
 
 ## 7. Cross-references
 
-- **Audit target:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md) (4,088w post-Pass-3.1-Phase-C)
+- **Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (4,088w post-Pass-3.1-Phase-C)
 - **Stage 1 brief (voice register source of truth):** [`commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md) §5 + §8
 - **Prior pass (Pass 3.1 fact-check + Phase C):** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md); Phase C application commit `cf5db97`
 - **Comparative draft audit (input):** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md) §8.3
@@ -418,7 +418,7 @@ The other Stage 1 brief §5 categories ("in short / ultimately / fundamentally";
 - Pass 3.2 PROPOSED (Amendment A applied) → **Pass 3.2 RATIFIED + APPLIED (Amendment B applied)**.
 - All 6 active findings ratified + applied in single interactive Phase C session per v3.1 Amendment C Interactive Ratification Protocol.
 - Per-finding dispositions logged in Amendment B table at top of artifact.
-- Phase C application committed to essay file (`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`) in same session; artifact + essay updates batched into single commit per atomic Phase C standard.
+- Phase C application committed to essay file (`publishing/essays/100-barrel/essay.md`) in same session; artifact + essay updates batched into single commit per atomic Phase C standard.
 - Body word count: 4,159w (post-§III-spot-fix) → 4,145w (post-Pass-3.2-Phase-C). Stage 1 brief §10 window: 3,500–4,500w. Comfortably within.
 - Next session: Pass 3.3 acceptance light re-verification per Pass 3.2 §3.5 cross-pass impact analysis. Two audit-trail flags for Pass 3.3 light re-verification:
   - F-VP-Barrel-2 modification: "even so" concession-bridge dropped per author; one-word retrofit available if Tier 1 #3 read flags it.

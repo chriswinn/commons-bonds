@@ -41,13 +41,13 @@ Realistic earliest Wave 1: late July / early August 2026 (post proposal sprint +
 
 ## Files to read first
 
-- `publishing/agents/targets.md` (1/25 current; add to it)
-- `publishing/agents/query-letter-template.md` (template structure)
-- `publishing/agents/query-tracker.md` (wave plan + status discipline)
-- `publishing/agents/personalization-snippets.md` (Sarah Chalfant snippet as the model)
+- `publishing/agents/_pipeline/targets.md` (1/25 current; add to it)
+- `publishing/agents/_shared/templates/query-letter-template.md` (template structure)
+- `publishing/agents/_pipeline/query-tracker.md` (wave plan + status discipline)
+- `publishing/agents/_shared/personalization-snippets.md` (Sarah Chalfant snippet as the model)
 - `publishing/book-proposal/02_comp-titles.md` (comp authors → agent leads via acknowledgments-page mining)
-- `publishing/strategy/cross-thread-todos.md` (item #1: Chalfant acknowledgments check)
-- `publishing/strategy/cascade-plan_2026-05-06.md` (Wave 1 timing + green-light rule)
+- `publishing/essays/_pipeline/cross-thread-todos.md` (item #1: Chalfant acknowledgments check)
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (Wave 1 timing + green-light rule)
 
 ## Constraints / disciplines
 

@@ -53,7 +53,7 @@ Also: comp-titles work needs to be **fact-checked against current state of the p
 2. **Per comp, populate the matrix.** Web research for each: publisher, agent, editor, reviews, blurbs. Cross-reference against `research/literature/bibliography.md` for citation entries already verified.
 3. **Rank for query-letter use.** Most query letters use 2–3 comps; pick the strongest 3.
 4. **Rank for proposal use.** The proposal's §02 supports 5–8 comps with substantive prose treatment.
-5. **Rank for agent-target prioritization.** The matrix's "Agent" column drives the `publishing/agents/targets.md` populating effort.
+5. **Rank for agent-target prioritization.** The matrix's "Agent" column drives the `publishing/agents/_pipeline/targets.md` populating effort.
 
 **Per-comp budget:** ~30–60 minutes of web research + matrix population. **Total estimated effort:** ~10–15 comps × ~45 min = 7–12 hours of session time.
 
@@ -62,7 +62,7 @@ Also: comp-titles work needs to be **fact-checked against current state of the p
 ## Current state
 
 - `publishing/book-proposal/02_comp-titles.md` — substantive (Tier 1/2/3; selection rule). ~80% of final per `book-proposal-handoff_2026-05-09.md`. **Does NOT have the deep matrix.** That's what this workstream produces.
-- `publishing/agents/targets.md` — 1/25 populated (Sarah Chalfant / Wylie). The agent column of the comp matrix feeds this.
+- `publishing/agents/_pipeline/targets.md` — 1/25 populated (Sarah Chalfant / Wylie). The agent column of the comp matrix feeds this.
 - `research/literature/bibliography.md` — verified citations for some but not all comp titles.
 - Across rigor passes — comps named in Aeon title rigor pass, Noema audience-load pass, Aeon Stage 1 brief, Noema Stage 1 brief. Compile the union for the matrix.
 
@@ -72,9 +72,9 @@ Also: comp-titles work needs to be **fact-checked against current state of the p
 
 1. **`publishing/book-proposal/02a_comp-titles-deep-matrix.md`** — the matrix as a markdown table or CSV-style list. Standing reference, kept current.
 2. **Updated `02_comp-titles.md`** — prose section uses the matrix's intelligence.
-3. **Updated `publishing/agents/targets.md`** — agent intelligence from the comp matrix's "Agent" column populates target list with informed priority rankings.
+3. **Updated `publishing/agents/_pipeline/targets.md`** — agent intelligence from the comp matrix's "Agent" column populates target list with informed priority rankings.
 4. **Updated `publishing/book-proposal/04_marketing-plan.md`** — review-outlet intelligence from the matrix's "Reviews" column populates the marketing plan.
-5. **Cross-references** to the matrix from `publishing/book-proposal/proposal-master.md` and `publishing/agents/query-letter-template.md`.
+5. **Cross-references** to the matrix from `publishing/book-proposal/proposal-master.md` and `publishing/agents/_shared/templates/query-letter-template.md`.
 
 ---
 
@@ -108,8 +108,8 @@ Also: comp-titles work needs to be **fact-checked against current state of the p
 - `publishing/book-proposal/02_comp-titles.md`
 - `publishing/book-proposal/proposal-master.md`
 - `publishing/book-proposal/04_marketing-plan.md`
-- `publishing/agents/targets.md`
-- `publishing/agents/query-letter-template.md`
+- `publishing/agents/_pipeline/targets.md`
+- `publishing/agents/_shared/templates/query-letter-template.md`
 - `research/literature/bibliography.md`
 - `tools/workstream-handoffs/book-proposal-handoff_2026-05-09.md` (overlapping workstream)
 - `tools/workstream-handoffs/agent-prep-handoff_2026-05-09.md` (downstream consumer of agent intelligence)

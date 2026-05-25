@@ -4,7 +4,7 @@
 **Date drafted:** 2026-05-22
 **Status:** PROPOSED. Pass 3.5 is within Amendment C scope per pipeline doctrine §3.7.1 (prose-modifying pass). PROPOSED artifact auto-merges to main per CLAUDE.md rigor-pass-artifact default; author interactive ratification + Phase C application combined session is the next step.
 **Mode:** Audit-existing-prose (post-Pass-3.2-application essay state is the audit baseline; same baseline as Pass 3.3 + Pass 3.4).
-**Source essay:** [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) — **149 lines** (post-Pass-3.2-application state; commit `6d134af` 2026-05-22 carries Pass 3.3 + 3.4 RATIFIED).
+**Source essay:** [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) — **149 lines** (post-Pass-3.2-application state; commit `6d134af` 2026-05-22 carries Pass 3.3 + 3.4 RATIFIED).
 
 **Pass 3.1 cross-reference:** RATIFIED + APPLIED 2026-05-21 (13 fact-check spot-fixes).
 **Pass 3.2 cross-reference:** RATIFIED + APPLIED 2026-05-22 (9 spot-fixes + 1 author-initiated edit; F-V-Noema-14 cumulative em-dash + cumulative-cadence-stack carry-forward).
@@ -56,7 +56,7 @@ The developmental-edit lens is the closest thing the pipeline has to a trade-pre
 
 ## §2. Source artifacts read
 
-1. [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) (post-Pass-3.2-application state; 149 lines; commit `6d134af`)
+1. [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) (post-Pass-3.2-application state; 149 lines; commit `6d134af`)
 2. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) (Stage 1 brief — §7 canonical-facts inventory; §5 voice register; §7.1 locked Section I closing paragraph)
 3. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md) (Pass 3.1 — fact-anchor baseline; canonical-fact-ground reference)
 4. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md) (Pass 3.2 — voice-polish baseline; §6 cumulative-cadence-stack + §10 disposition log; what was cut during chiseling)

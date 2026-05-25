@@ -35,13 +35,13 @@ the verdict; do NOT begin Stage 1 brief work.
 
 1. THIS paste (the framing).
 2. [WORKSTREAM HANDOFF PATH] (the workstream handoff PM session stood up).
-3. publishing/strategy/cascade-plan_2026-05-06.md — especially
+3. publishing/essays/_pipeline/cascade-plan_2026-05-06.md — especially
    §Strategic frame, §Venue allocation, §Risks + open decisions.
-4. publishing/strategy/decisions-log.md — recent decisions about
+4. publishing/essays/_pipeline/decisions-log.md — recent decisions about
    pipeline + venue allocation.
-5. publishing/strategy/rights-register.md (if exists) — what's
+5. publishing/essays/_pipeline/rights-register.md (if exists) — what's
    rights-encumbered.
-6. publishing/strategy/cross-thread-todos.md — open coordination items.
+6. publishing/essays/_pipeline/cross-thread-todos.md — open coordination items.
 7. [SOURCE MATERIAL PATH] (the source material the piece draws on).
 8. alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md
    (Framework Positioning Disciplines v1.0.0 — what's locked).

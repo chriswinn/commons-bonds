@@ -58,7 +58,7 @@ Produce a single ~3,500–4,500w derivative essay for Phenomenal World submissio
 ## Per-deliverable specs
 
 - **Stage 1 brief** at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`. PW-specific audience pressure-test set; structural decisions; voice register; canonical factual ground truth; carry-forward inventory from withdrawn-Noema §III.
-- **Stage 2 draft** at `manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-11_v1.0.0.md` (create the folder).
+- **Stage 2 draft** at `publishing/essays/100-barrel/100-barrel-essay-draft_2026-05-11_v1.0.0.md` (create the folder).
 - **Stage 3 audience-load rigor pass** at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_include_vs_exclude_audience_load_v1.0.0.md`.
 
 ---
@@ -110,8 +110,8 @@ Concrete suggested sequence:
 ## Reference files
 
 - **Source material:** `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` §III (line 67 onward)
-- **Cascade plan venue allocation:** `publishing/strategy/cascade-plan_2026-05-06.md`
-- **Cross-thread item #4 (Atlantic Ideas vs. PW):** `publishing/strategy/cross-thread-todos.md`
+- **Cascade plan venue allocation:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- **Cross-thread item #4 (Atlantic Ideas vs. PW):** `publishing/essays/_pipeline/cross-thread-todos.md`
 - **v2.0 discipline memory:** `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md`
 - **Bond-defense + flagship-term model artifacts** (mirror methodology):
   - `tools/drafts/why-bonds-paragraph_2026-05-11_v1.0.0.md`

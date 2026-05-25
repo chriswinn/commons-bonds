@@ -4,7 +4,7 @@
 **Date drafted:** 2026-05-24
 **Status:** RATIFIED 2026-05-24. Delta-focused verification pass per Pass 3.5 §6.5 recommendation. Per pipeline doctrine v1.0.0 §3.7.1, Pass 3.3 is OUT of Amendment C scope (verification pass; doesn't directly propose prose). Aggregate verdict (14/14 INCLUDE preserved + strengthened; 1 uplift; 0 regressions) accepted. See §7 author ratification record.
 **Mode:** Audit-existing-prose (post-Pass-3.5-application essay state is the audit baseline).
-**Source essay:** [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) — **151 lines** (post-Pass-3.5-application state; commit `01067a1` 2026-05-22; verified against `origin/main`).
+**Source essay:** [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) — **151 lines** (post-Pass-3.5-application state; commit `01067a1` 2026-05-22; verified against `origin/main`).
 
 **Pass 3.3 baseline cross-reference:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md) — RATIFIED 2026-05-22; 14/14 INCLUDE; READY TO SUBMIT (acceptance test). Light re-fire measures deltas from this baseline produced by Pass 3.5 restoration application.
 
@@ -28,7 +28,7 @@ This light re-fire verifies those predictions empirically against the post-Pass-
 
 ## §1. Source artifacts read
 
-1. [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) (post-Pass-3.5-application state; 151 lines; commit `01067a1`)
+1. [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) (post-Pass-3.5-application state; 151 lines; commit `01067a1`)
 2. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md) (Pass 3.3 baseline; RATIFIED 2026-05-22)
 3. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_5_developmental_edit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_5_developmental_edit_v1.0.0.md) (Pass 3.5 disposition log + restoration content; RATIFIED + APPLIED 2026-05-22)
 4. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) §1 14-character acceptance-test character set

@@ -2,7 +2,7 @@
 
 **Status:** RATIFIED + APPLIED 2026-05-21. Pass 3.1 fact-check artifact for Essay B (audience-blind Stage 2 draft of 2026-05-10, post §6.1/§6.2 spot-fixes per Stage 3 comparison verdict). Interactive ratification session (Amendment C cadence) walked author through each finding 2026-05-21; all 11 net-new findings + 2 ATG items + 6 CTG brief-repair items ratified and applied in the same session. See §9 (Ratification + Application record) for per-finding disposition.
 
-**Audit target:** [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) (Essay B in current state — header asserts §6.1 six surgical fact-fixes + §6.2 voice improvements + bundling-synthesis import have been applied).
+**Audit target:** [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) (Essay B in current state — header asserts §6.1 six surgical fact-fixes + §6.2 voice improvements + bundling-synthesis import have been applied).
 
 **Source of truth:** Stage 1 brief [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) §7 canonical-facts inventory (Amendment A canonical-truth section). Per v2.0 Path B preemptive policy, Ch 1 / Ch 3 / Ch 10 are NOT source-of-truth — they are themselves derivative; the Stage 1 brief is the single canonical baseline.
 
@@ -12,7 +12,7 @@
 
 **Hard constraint at original PROPOSED time:** No spot-fixes applied to the essay file. Phase C application is a separate session post-author-ratification.
 
-**Update 2026-05-21:** Amendment C interactive ratification session combined ratification + Phase C application in a single session. All ratified spot-fixes have been applied to the essay file ([manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md)) AND to the Stage 1 brief ([commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) §7). See §9 below.
+**Update 2026-05-21:** Amendment C interactive ratification session combined ratification + Phase C application in a single session. All ratified spot-fixes have been applied to the essay file ([publishing/essays/noema-commons-bonds/essay.md](../../publishing/essays/noema-commons-bonds/essay.md)) AND to the Stage 1 brief ([commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) §7). See §9 below.
 
 ---
 

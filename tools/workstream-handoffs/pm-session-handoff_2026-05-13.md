@@ -37,9 +37,9 @@ You are the PM coordination session. Your job is to keep the *Commons Bonds* pro
 1. THIS file (you are here) — read §2–§6 first for at-a-glance orientation; §7+ as you dive into specifics.
 2. `tools/workstream-handoffs/README.md` — the index of all workstream handoffs.
 3. The staleness-aware memory entries: `feedback_verify_stale_memory_claims.md`, `feedback_audit_recent_active_review_default.md`, `feedback_audit_open_illustrative_default.md`, `feedback_pm_dashboard_structure.md`, `project_book1_state_2026-05-10.md`.
-4. `publishing/strategy/cross-thread-todos.md` — items requiring another thread's action.
-5. `publishing/strategy/cascade-plan_2026-05-06.md` — strategic cascade state.
-6. `publishing/strategy/decisions-log.md` — strategic decisions history.
+4. `publishing/essays/_pipeline/cross-thread-todos.md` — items requiring another thread's action.
+5. `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — strategic cascade state.
+6. `publishing/essays/_pipeline/decisions-log.md` — strategic decisions history.
 
 You do NOT need to read the individual workstream handoffs unless the user asks for details on a specific one. Index-level knowledge is enough for coordination.
 
@@ -68,7 +68,7 @@ You do NOT need to read the individual workstream handoffs unless the user asks 
 These are uniquely user-action items (no Claude session fires them). Surfaced top-level because they are the *only* gates on a near-term submission.
 
 - [ ] **Action 1 — Phat consent outreach** (or Phat's family if Phat unavailable). Package ready at `research/outreach/subjects/phat/` per commits `585d535` + `721c094` + `9aee0af`. Per `feedback_named_subject_consent.md`, living named subjects must be anonymized until signed.
-- [ ] **Action 2 — Apply consent decision to Essay B line 136** of [noema-essay-fresh-session-draft_2026-05-10.md](manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md). Current anonymized text: *"a crabber and fisherman my father had known since he was small."* Signed → restore Phat's actual name. Not-signed/declined/unreachable → keep anonymization. Either decision unblocks Noema submission.
+- [ ] **Action 2 — Apply consent decision to Essay B line 136** of [noema-essay-fresh-session-draft_2026-05-10.md](publishing/essays/noema-commons-bonds/essay.md). Current anonymized text: *"a crabber and fisherman my father had known since he was small."* Signed → restore Phat's actual name. Not-signed/declined/unreachable → keep anonymization. Either decision unblocks Noema submission.
 - [ ] **Action 3 — Apply same to Ch 3** in [Chapter__3_TheWaterman__Draft.md](manuscript/chapters/Chapter__3_TheWaterman__Draft.md).
 
 ---
@@ -233,7 +233,7 @@ Merged deadline calendar + todos. Sorted forward in time.
 | 11 | Endnote / citation-finalization sweep | Per-chapter #20 audits | Coordinated endnote sweep | Open — accumulating; Ch 2 = 9M+1L, Ch 4 = 5M+3L; hard target before Wave 1 |
 | — | Author-bio updates as essays place | #4 + essay submissions | #5 author platform | Continuous |
 
-Full inventory: `publishing/strategy/cross-thread-todos.md`.
+Full inventory: `publishing/essays/_pipeline/cross-thread-todos.md`.
 
 ---
 
@@ -346,7 +346,7 @@ Per `outreach-pipeline-handoff_2026-05-09.md`. Update as responses land.
 
 | Subject | Affiliation | Status | Date | Notes |
 |---|---|---|---|---|
-| **William ("Sandy") Darity Jr.** | Duke | **PACKET SENT 2026-05-14; ALL SYNTHESIS ITEMS RESOLVED; PROACTIVE Q0 OUTREACH QUEUED** | Wed May 13 14:30 ET interview + Thu May 14 packet send + proactive Q0 note queued for this week | Interview conducted Wed. Synthesis commit `3e39061` surfaced MI-1 / MI-2 / MI-3 / SI-1 / SI-2 / SI-3 / C-1 / C-2 / C-3. **All manuscript-scope items RESOLVED + VERIFIED 2026-05-14:** MI-1 + MI-2 (Ch 5 + TA via `70dce3f` + downstream); SI-1 Ch 6 line 124 (`6a5ee42`); MI-3 Ch 6 lines 256/262; SI-2 Ch 6 line 25; C-3 Ch 6 line 262; SI-3 Ch 6 line 250. **Cross-thread items queued on owning workstreams (see §9 Backlog):** C-1 → #14 comp-titles (Fogel-Engerman two-volume model as comp candidate); C-2 → bibliography Phase A (Du Bois). **Thu May 14 — packet (Ch 5 + Ch 6 + TA) SENT** with cover email at [packet-send-cover-email_2026-05-14.md](../../research/outreach/subjects/darity/packet-send-cover-email_2026-05-14.md). Pass 3 ratified as-proposed for both chapters; cycles CLOSED. **Active follow-ups:** (1) **PROACTIVE Q0 citation note to Sandy this week** (author decision logged 2026-05-14 — option (a) selected from cover-email reply-handling list): three paragraphs requiring personal-communication citation clearance under Sandy's Q0 tier-S protocol — Ch 5 line 220 (already cited; needs his ratification of language), Ch 6 line 124 (SI-1 profitability-vs-harms asymmetry), Ch 6 line 262 (MI-3 Ostrom homogeneity break-point). Draft at `research/outreach/subjects/darity/proactive-q0-citation-questions_<DATE>.md` (DRAFT-first); send sooner-rather-than-later (earlier saves Sandy from a two-pass read-then-clear cycle). (2) Optional TA scope/grounding verification (~30min) to confirm TA mirrors Ch 6 MI-3 + SI-3 additions; if either missing → bundle the resulting "minor revisions" note into the Q0 outreach (one combined Sandy email rather than two). (3) Warm-intro template activation (`publishing/agents/post-darity-warm-intro-templates_2026-05-10.md` Variant A) if Sandy names a candidate in his reply (still wait-and-see for this one — not pushing twice). |
+| **William ("Sandy") Darity Jr.** | Duke | **PACKET SENT 2026-05-14; ALL SYNTHESIS ITEMS RESOLVED; PROACTIVE Q0 OUTREACH QUEUED** | Wed May 13 14:30 ET interview + Thu May 14 packet send + proactive Q0 note queued for this week | Interview conducted Wed. Synthesis commit `3e39061` surfaced MI-1 / MI-2 / MI-3 / SI-1 / SI-2 / SI-3 / C-1 / C-2 / C-3. **All manuscript-scope items RESOLVED + VERIFIED 2026-05-14:** MI-1 + MI-2 (Ch 5 + TA via `70dce3f` + downstream); SI-1 Ch 6 line 124 (`6a5ee42`); MI-3 Ch 6 lines 256/262; SI-2 Ch 6 line 25; C-3 Ch 6 line 262; SI-3 Ch 6 line 250. **Cross-thread items queued on owning workstreams (see §9 Backlog):** C-1 → #14 comp-titles (Fogel-Engerman two-volume model as comp candidate); C-2 → bibliography Phase A (Du Bois). **Thu May 14 — packet (Ch 5 + Ch 6 + TA) SENT** with cover email at [packet-send-cover-email_2026-05-14.md](../../research/outreach/subjects/darity/packet-send-cover-email_2026-05-14.md). Pass 3 ratified as-proposed for both chapters; cycles CLOSED. **Active follow-ups:** (1) **PROACTIVE Q0 citation note to Sandy this week** (author decision logged 2026-05-14 — option (a) selected from cover-email reply-handling list): three paragraphs requiring personal-communication citation clearance under Sandy's Q0 tier-S protocol — Ch 5 line 220 (already cited; needs his ratification of language), Ch 6 line 124 (SI-1 profitability-vs-harms asymmetry), Ch 6 line 262 (MI-3 Ostrom homogeneity break-point). Draft at `research/outreach/subjects/darity/proactive-q0-citation-questions_<DATE>.md` (DRAFT-first); send sooner-rather-than-later (earlier saves Sandy from a two-pass read-then-clear cycle). (2) Optional TA scope/grounding verification (~30min) to confirm TA mirrors Ch 6 MI-3 + SI-3 additions; if either missing → bundle the resulting "minor revisions" note into the Q0 outreach (one combined Sandy email rather than two). (3) Warm-intro template activation (`publishing/agents/_shared/post-darity-warm-intro-templates_2026-05-10.md` Variant A) if Sandy names a candidate in his reply (still wait-and-see for this one — not pushing twice). |
 | **Mariana Mazzucato** | UCL/IIPP | HOLDING via Adam Albrecht | Held since 2026-05-06 | Awaiting substantive follow-up. Not blocking. |
 | **Allison Colden** | CBF Maryland | RESPONSE SENT via Val DiMarzio (consolidated) | 2026-05-13 (scheduled-send Wed May 20 8am EDT) | Public-record brief landed 2026-05-08. Substitution-hypothesis CONFIRMED. Pre-publication citation-verification packet pre-staged (`15c6b0f`). |
 | **Karen Moore** | CBF Virginia | RESPONSE SENT via David Sherfinski (consolidated) | 2026-05-13 (scheduled-send Wed May 20 8am EDT) | Public-record brief landed 2026-05-08. |
@@ -377,9 +377,9 @@ This file IS the PM session's working memory. Update it as state changes:
 
 **Index files:**
 - `tools/workstream-handoffs/README.md` — workstream handoff index
-- `publishing/strategy/cross-thread-todos.md`
-- `publishing/strategy/cascade-plan_2026-05-06.md`
-- `publishing/strategy/decisions-log.md`
+- `publishing/essays/_pipeline/cross-thread-todos.md`
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- `publishing/essays/_pipeline/decisions-log.md`
 
 **Memory entries (read MEMORY.md for full index):**
 - `feedback_pm_dashboard_structure.md` — v2.0 dashboard structure (this file's structure)

@@ -18,11 +18,11 @@ Body word count: 4,145w (post-Pass-3.2-Phase-C) → 4,248w (post-Pass-3.5-Phase-
 
 One finding where applied disposition differs from Pass 3.5's original recommendation transparently logged: F-DE-Barrel-4 (Option B selected over recommended Option A). Reasoning recorded in §3 Synthesis updates below.
 
-Phase C application committed to essay file (`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`) in same session; artifact + essay updates batched into single commit per atomic Phase C standard.
+Phase C application committed to essay file (`publishing/essays/100-barrel/essay.md`) in same session; artifact + essay updates batched into single commit per atomic Phase C standard.
 
 Active-findings count post-Amendment-A: 0 (all 6 findings APPLIED).
 
-**Audit target:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md) (4,145w post-Pass-3.2-Phase-C + post-Pass-3.3-light-RATIFIED + post-Pass-3.4-light-RATIFIED; on `main` commit `63e149a`).
+**Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (4,145w post-Pass-3.2-Phase-C + post-Pass-3.3-light-RATIFIED + post-Pass-3.4-light-RATIFIED; on `main` commit `63e149a`).
 
 **Source of truth for restoration discipline:** v3.1 Amendment B per [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) + Ch 1 developmental-edit empirical anchor (2026-05-18; 3 HIGH + 7 MEDIUM + 3 LOW findings on a ~9,000w chapter).
 
@@ -402,7 +402,7 @@ Per pipeline doctrine: Pass 3.5 should not introduce findings that worsen Pass 3
 - **v3.1 Amendment B (restoration polarity discipline):** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md).
 - **Pipeline doctrine (Pass 3.5 spec):** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6.2 + §3.6.3.
 - **Ch 1 developmental-edit empirical anchor (2026-05-18):** drives v3.1 Amendment B; finding-density calibration source.
-- **Audit target:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md) (4,145w; on `main` commit `63e149a`).
+- **Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (4,145w; on `main` commit `63e149a`).
 
 ---
 

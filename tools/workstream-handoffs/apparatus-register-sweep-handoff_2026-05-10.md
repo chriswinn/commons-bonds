@@ -105,7 +105,7 @@ Without a project-wide register decision, every essay extraction (Noema, Aeon, B
 - Glossary (location varies; check `manuscript/`)
 - `feedback_two_layer_content_discipline.md` (memory)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md` (Noema apparatus findings)
-- `manuscript/essay/Noema/noema-essay-fresh-draft_named_2026-05-09.md` (working examples of plain-language framings of cost severance, RCV, cluster-γ that already passed audience-load rigor)
+- `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-fresh-draft_named_2026-05-09.md` (working examples of plain-language framings of cost severance, RCV, cluster-γ that already passed audience-load rigor)
 
 ---
 

@@ -104,7 +104,7 @@ The author ratified the recommended bundle from the parent reconciliation artifa
 
 > Post-reconciliation annotation (added 2026-05-23): The Ch 8 worked-example honest-cost floor moved from $558 → $524 per the 2026-05-22 coal-CO₂ methodology reconciliation (…). The 33–122× canonical lock is unaffected: $524 / $4.50 = 116×, which lands inside the canonical range. The Ch 8 prose changes at lines 168, 74, 212 ratified in this artifact's §5.1 remain canonical; the underlying floor figure that anchors the carbon-tail-dominance arithmetic at lines 74 + 168 retreats from "at least four" to "at least three" per the reconciliation's coupling note.
 
-### §2.7 — Cross-thread #12 (`publishing/strategy/cross-thread-todos.md`)
+### §2.7 — Cross-thread #12 (`publishing/essays/_pipeline/cross-thread-todos.md`)
 
 Status: open → **RESOLVED**. See §5 below for full closure record.
 
@@ -150,7 +150,7 @@ The following items surfaced during application but are out-of-scope per the par
 
 ## §5 — Cross-thread #12 closure
 
-**Resolution applied at `publishing/strategy/cross-thread-todos.md`:**
+**Resolution applied at `publishing/essays/_pipeline/cross-thread-todos.md`:**
 - Cross-thread #12 ("Ch 8 line 73 coal-CO₂ short-ton-accounting cascade") moved from Open section → Resolved table.
 - Resolution text: "RESOLVED 2026-05-23 via Phase C application of ratified bundle from `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_ch6_ch8_ta_coal_co2_short_ton_methodology_reconciliation_v1.0.0.md` (§6.1 Option C + §6.2 Option C + §6.3 Option A). Phase C application artifact + commit SHA recorded in update log."
 - Update-log entry added with this artifact's commit SHA.

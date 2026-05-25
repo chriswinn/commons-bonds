@@ -33,7 +33,7 @@ A prior version of this inventory asserted that Phat did not appear in any chapt
 
 | Field | Value |
 |---|---|
-| **File** | `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md` |
+| **File** | `publishing/essays/noema-commons-bonds/essay.md` |
 | **Line numbers** | Body line **137** (the prose paragraph). Frontmatter line **9** (named-subject-policy declaration). Frontmatter line **4** (status line referencing "Phat's-consent verification"). |
 | **Classification** | Publisher-facing. Stage-3-polished, submission-ready (gated on consent decision per PM dashboard §9 USER ACTION 1 + 2). |
 | **Current state** | Anonymized. Phat is not named. |
@@ -97,8 +97,8 @@ A prior version of this inventory asserted that Phat did not appear in any chapt
 
 - **Manuscript chapters Ch 1, Ch 2, Ch 4 – Ch 10:** zero matches for `Phat`, `crabber`, `Fox Hill`, `Biggie` (verified before Ch 3 integration; Ch 3 itself is now an appearance, documented above).
 - **AuthorsNote (`_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md`), Dedication (`_Dedication.md`), _BookLevelGuidance:** zero matches.
-- **Op-eds (`publishing/op-eds/norway-sovereign-wealth-op-ed_2026-05-10.md`, `mcdowell-county-true-cost-op-ed_2026-05-10.md`):** zero matches.
-- **Aeon pitch (`manuscript/essay/aeon/aeon-pitch-fresh-session_2026-05-10.md`):** Phat is not part of the pitch material; no anonymized or named reference.
+- **Op-eds (`publishing/op-eds/norway-sovereign-wealth/op-ed.md`, `publishing/op-eds/mcdowell-county-true-cost/op-ed.md`):** zero matches.
+- **Aeon pitch (`publishing/essays/aeon-mask-of-abundance/essay.md`):** Phat is not part of the pitch material; no anonymized or named reference.
 - **Boston Review essay:** not yet drafted (per PM dashboard §3 row #2). Source chapter is Ch 5; Phat is not a Ch 5 figure.
 
 ---
@@ -122,16 +122,16 @@ These are pre-Stage-3 snapshots retained for traceability. None is the submissio
 
 | File | State | Phat reference |
 |---|---|---|
-| `manuscript/essay/Noema/noema-essay-pre-pass1_2026-05-09.md` | NAMED variant, pre-pass-1 snapshot | Lines 140 + 142 — Phat named ("Biggie and Phat's both made their living on the water"; "Phat's was a crabber and a fisherman..."). |
-| `manuscript/essay/Noema/noema-essay-post-pass1_2026-05-09.md` | NAMED variant, post-pass-1 snapshot | Lines 128 + 130 — Phat named (same prose pattern). |
-| `manuscript/essay/Noema/noema-essay-fresh-draft_named_2026-05-09.md` | NAMED variant, version snapshot | Lines 121 + 123 — Phat named. |
-| `manuscript/essay/Noema/noema-essay-fresh-draft_anonymized_2026-05-09.md` | ANONYMIZED variant, version snapshot | Phat referred to as "a crabber and a fisherman my father had known since he was small." |
+| `publishing/essays/noema-commons-bonds/_archive/pre-pass1-drafts/noema-essay-pre-pass1_2026-05-09.md` | NAMED variant, pre-pass-1 snapshot | Lines 140 + 142 — Phat named ("Biggie and Phat's both made their living on the water"; "Phat's was a crabber and a fisherman..."). |
+| `publishing/essays/noema-commons-bonds/_archive/pre-pass1-drafts/noema-essay-post-pass1_2026-05-09.md` | NAMED variant, post-pass-1 snapshot | Lines 128 + 130 — Phat named (same prose pattern). |
+| `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-fresh-draft_named_2026-05-09.md` | NAMED variant, version snapshot | Lines 121 + 123 — Phat named. |
+| `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-fresh-draft_anonymized_2026-05-09.md` | ANONYMIZED variant, version snapshot | Phat referred to as "a crabber and a fisherman my father had known since he was small." |
 
 ### Session handoffs and project-management files
 
 | File | Reference |
 |---|---|
-| `manuscript/essay/Noema/noema-session-handoff_2026-05-10.md` | Lines 37, 80, 134 — handoff documentation for Stage 2 fresh session; cites the consent policy and the anonymized phrasing. |
+| `publishing/essays/noema-commons-bonds/_archive/session-handoffs/noema-session-handoff_2026-05-10.md` | Lines 37, 80, 134 — handoff documentation for Stage 2 fresh session; cites the consent policy and the anonymized phrasing. |
 | `tools/workstream-handoffs/pm-session-handoff_2026-05-10.md` | §9 USER ACTION 1 + 2 — codifies the consent step as gating Noema submission. |
 | `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_named_subject_consent.md` | The discipline file ratified 2026-05-09. Names Phat in the **Why:** paragraph as part of the case that produced the rule. |
 | `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/MEMORY.md` | Index entry pointing to the discipline file. |
@@ -230,7 +230,7 @@ The author may want to update PM dashboard §9 USER ACTION 1 + 2 to mark the ite
 
 Per the companion `consent-process-guide_2026-05-10.md`, the preview package the author shows Phat is small and readable in one sitting:
 
-1. **The full Section VI Fox Hill coda from the Noema essay** — lines 130–142 of `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`. Approximately 600 words. Readable in 5–10 minutes.
+1. **The full Section VI Fox Hill coda from the Noema essay** — lines 130–142 of `publishing/essays/noema-commons-bonds/essay.md`. Approximately 600 words. Readable in 5–10 minutes.
 2. **The Chapter 3 excerpt from the book** — Fox Hill establishing block + Biggie portrait + Phat portrait, with a side-by-side diff showing what changes if Phat signs. Approximately 2,100 words. Readable in 12–15 minutes. Documented in `ch3-preview-package_2026-05-10.md` in this folder; print pages from "Phat-facing content begins here" forward.
 3. **The proposed named replacement at Noema essay line 137** — a one-paragraph diff showing what changes if Phat signs. Documented in this inventory's Edit 1 section above.
 4. **A one-paragraph project framing** — what the book and essays are, where they will appear, why Phat is in them. Documented in `consent-process-guide_2026-05-10.md` §1 item 3.

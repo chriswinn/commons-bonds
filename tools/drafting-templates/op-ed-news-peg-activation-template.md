@@ -11,7 +11,7 @@ Each activation prompt below is a self-contained paste-text for a fresh Claude s
 
 ## Op-ed A — Norway sovereign-wealth ("What Norway Proves About Resource Wealth")
 
-**Source draft:** `publishing/op-eds/norway-sovereign-wealth-op-ed_2026-05-10.md`
+**Source draft:** `publishing/op-eds/norway-sovereign-wealth/op-ed.md`
 **Body word count:** 1,016 → target ~750–900 (Project Syndicate / Bloomberg primary) or hold ~900–1,000 (NYT / WaPo / Guardian stretch). Trim candidates pre-identified in source draft.
 **Source chapter:** Ch 4 — *The Existence Proof* (Norway as institutional design vs. petrostate default)
 
@@ -46,9 +46,9 @@ Target word band:
 Your task in this session, in order:
 
 1. READ:
-   - publishing/op-eds/norway-sovereign-wealth-op-ed_2026-05-10.md
+   - publishing/op-eds/norway-sovereign-wealth/op-ed.md
      (canonical draft; ~1,016 words body)
-   - publishing/op-eds/_inventory_norway-mcdowell-canonical-facts_2026-05-10.md
+   - publishing/op-eds/_shared/canonical-facts/norway-mcdowell-inventory_2026-05-10.md
      (canonical facts inventory — DO NOT DRIFT)
    - tools/memory/feedback_audience_aware_drafting_discipline.md
      (v3.1 discipline; this is a short-form pipeline-ready activation,
@@ -112,7 +112,7 @@ Your task in this session, in order:
 DO NOT submit. Author submits via portal.
 DO NOT modify the canonical 2026-05-10 source draft. Save the
 activated version as a sibling file with date suffix:
-publishing/op-eds/norway-sovereign-wealth-op-ed_<YYYY-MM-DD>_
+publishing/op-eds/norway-sovereign-wealth/news-peg-variant_<YYYY-MM-DD>_
 activated_<news-peg-shortname>.md
 
 Per CLAUDE.md merge-to-main default: this is a propose-only
@@ -124,7 +124,7 @@ branch; do not auto-merge to main.
 
 ## Op-ed B — McDowell County true-cost ("What a Ton of Coal Actually Cost")
 
-**Source draft:** `publishing/op-eds/mcdowell-county-true-cost-op-ed_2026-05-10.md`
+**Source draft:** `publishing/op-eds/mcdowell-county-true-cost/op-ed.md`
 **Body word count:** 1,024 → target ~750–900 (PS/Bloomberg) or hold ~900–1,000 (NYT/WaPo/Guardian)
 **Source chapter:** Ch 8 — *What Things Actually Cost* (full-cost accounting; coal-McDowell case)
 
@@ -162,9 +162,9 @@ Target word band:
 Your task in this session, in order:
 
 1. READ:
-   - publishing/op-eds/mcdowell-county-true-cost-op-ed_2026-05-10.md
+   - publishing/op-eds/mcdowell-county-true-cost/op-ed.md
      (canonical draft; ~1,024 words body)
-   - publishing/op-eds/_inventory_norway-mcdowell-canonical-facts_2026-05-10.md
+   - publishing/op-eds/_shared/canonical-facts/norway-mcdowell-inventory_2026-05-10.md
      (canonical facts inventory — DO NOT DRIFT; this op-ed's
      numbers MUST match this inventory)
    - manuscript/chapters/Chapter__8_*.md (for Path B verification)
@@ -240,7 +240,7 @@ Your task in this session, in order:
 DO NOT submit. Author submits via portal.
 DO NOT modify the canonical 2026-05-10 source draft. Save the
 activated version as a sibling file with date suffix:
-publishing/op-eds/mcdowell-county-true-cost-op-ed_<YYYY-MM-DD>_
+publishing/op-eds/mcdowell-county-true-cost/news-peg-variant_<YYYY-MM-DD>_
 activated_<news-peg-shortname>.md
 
 Per CLAUDE.md merge-to-main default: this is a propose-only

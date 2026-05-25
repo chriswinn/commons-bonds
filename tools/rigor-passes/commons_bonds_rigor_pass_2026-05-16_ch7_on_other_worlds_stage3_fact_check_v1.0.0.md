@@ -33,7 +33,7 @@
 18. [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md) — Mars colony canonical row (line 69); Europa/deep-sea biosphere row (line 70).
 19. [tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md](tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md) — Item 15 (Ostrom-path light-de-formalize; commit `b1c17d8`); Item 10 (Theorem cross-reference named-content; commit `16876a1`); Abundance Masking defense paragraph insertion (commit `2a7c336`).
 20. [core/terms/terms_index.md](core/terms/terms_index.md) — Abundance Masking canonical register; existential substitutability gap canonical lineage requirement (line 683).
-21. [manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md](manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md) — Aeon pitch v300w, ratified for Sun May 31 14:01 UTC submission.
+21. [publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md](publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md) — Aeon pitch v300w, ratified for Sun May 31 14:01 UTC submission.
 22. [core/technical-appendix/TechnicalAppendix_v2.0.0.html](core/technical-appendix/TechnicalAppendix_v2.0.0.html) — Theorem 10.3 (Abundance Masking) at TA line 3416; current canonical numbering.
 
 ---
@@ -285,7 +285,7 @@ Option A is the smallest prose change. Option C preserves the "two-thirds" frami
 **Chapter text (lines 99-101):**
 > "A self-imposed commute lease on Earth. [...] The framework computes the case the same way it computes asteroid iron and McDowell coal: [...] Four mechanisms operating intra-personally across time. The framework's Commons Inversion Test, applied at decision time, would have surfaced the actual price of the lease before signing. **Same instrument; no bad actor required; structural test the same.**"
 
-**Aeon Version C text (Para 3, [manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md:45](manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md:45)):**
+**Aeon Version C text (Para 3, [publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md:45](publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md:45)):**
 > "The framework is not anti-extraction. Asteroid iron, with no community or ecosystem to bear the cost: extract freely. Coal in McDowell County in 1960: severely mispriced. **A self-imposed commute lease whose hours of life were never computed: same framework, no external bad actor, structural test the same.**"
 
 **Near-verbatim overlap:**
@@ -526,7 +526,7 @@ Apparatus terms appearing in Ch 7 prose (all permitted per the apparatus registe
 Verified Ch 7 does NOT carry verbatim-clone passages from other chapters per [research/audits/cross-chapter-path-b-audit_2026-05-11.md](research/audits/cross-chapter-path-b-audit_2026-05-11.md) baseline.
 
 Spot-checks performed:
-- **"structural test the same"** — appears in BOTH [Ch 7:101](manuscript/chapters/Chapter__7_OnOtherWorlds.md:101) AND [Aeon Version C](manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md). Cross-corpus near-verbatim overlap with the Aeon pitch (treated under MEDIUM-8; not Path B per se because the Aeon pitch is the essay-track artifact, not another book chapter).
+- **"structural test the same"** — appears in BOTH [Ch 7:101](manuscript/chapters/Chapter__7_OnOtherWorlds.md:101) AND [Aeon Version C](publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md). Cross-corpus near-verbatim overlap with the Aeon pitch (treated under MEDIUM-8; not Path B per se because the Aeon pitch is the essay-track artifact, not another book chapter).
 - **"self-imposed commute lease"** — same finding as above; both files.
 - **McDowell County coal references** — Ch 7:75, 109, 127 reference the Ch 2 canonical case ("McDowell County" + "Appalachian coal") as cross-references, not as verbatim clones. Per [tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:56](tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:56), Ch 2 is canonical with 32 hits; Ch 7's incidental references are appropriate cross-chapter pointers.
 - **Six-pattern enumeration overlap with Ch 6** — Ch 7's six patterns are the canonical framework apparatus; Ch 6 enumerates ten categories with the same Ostrom-path framing (per Item 15). Both are intentional uses of the same framework apparatus; not Path B clones.

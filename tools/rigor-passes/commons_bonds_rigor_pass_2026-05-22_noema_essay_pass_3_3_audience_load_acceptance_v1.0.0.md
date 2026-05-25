@@ -4,7 +4,7 @@
 **Date drafted:** 2026-05-22
 **Status:** RATIFIED 2026-05-22. Pass 3.3 produces character-verdicts; no prose modification. Per pipeline doctrine v1.0.0 §3.7.1, Pass 3.3 is OUT of Amendment C scope (verification pass; doesn't directly propose prose — when findings recommend a spot-fix, that routes through Amendment C as a separate Stage 3 sub-action). Zero EXCLUDE / zero spot-fix routing; ratification closes the Pass 3.3 cycle with no follow-on Amendment C session needed. See §9 ratification record.
 **Mode:** Audit-existing-prose (post-Pass-3.2-application essay state is the audit baseline).
-**Source essay:** [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) — **149 lines** (post-Pass-3.2-application state; commit `98b8274` 2026-05-22; verified against `origin/main`).
+**Source essay:** [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) — **149 lines** (post-Pass-3.2-application state; commit `98b8274` 2026-05-22; verified against `origin/main`).
 
 **Pass 3.1 cross-reference:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md) — RATIFIED + APPLIED 2026-05-21 (13 fact-check spot-fixes applied; F-FC-Noema-9 Norway fund value submission-window re-verification flagged separately).
 
@@ -32,7 +32,7 @@ The Pass 3.2 ratification session (2026-05-22) applied 9 ratified spot-fixes + 1
 
 ## §1. Source artifacts read
 
-1. [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) (post-Pass-3.2-application state; 149 lines; commit `98b8274`)
+1. [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) (post-Pass-3.2-application state; 149 lines; commit `98b8274`)
 2. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) (Stage 1 brief — §1 14-character acceptance-test character set; §2 Noema editorial brain map; §5 voice register)
 3. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md) (Pass 3.1 — RATIFIED + APPLIED 2026-05-21; context for fact-anchor verification)
 4. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md) (Pass 3.2 — RATIFIED + APPLIED 2026-05-22; context for voice-polish deltas)

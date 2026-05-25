@@ -27,10 +27,10 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 
 - `tools/workstream-handoffs/boston-review-essay-handoff_2026-05-09.md`
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md` (v1.0.1)
-- `publishing/strategy/cascade-plan_2026-05-06.md`
-- `publishing/strategy/decisions-log.md` (entries through 2026-05-09; later activity tracked via git log)
-- `publishing/strategy/rights-register.md`
-- `publishing/strategy/cross-thread-todos.md` (through 2026-05-17 update entry)
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- `publishing/essays/_pipeline/decisions-log.md` (entries through 2026-05-09; later activity tracked via git log)
+- `publishing/essays/_pipeline/rights-register.md`
+- `publishing/essays/_pipeline/cross-thread-todos.md` (through 2026-05-17 update entry)
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (FPD-1 through FPD-11)
 - `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` (Stage 1a clean baseline 2026-05-18 + supplemental scan 2026-05-21 confirm CLEAN)
 - Git log: `git log --oneline main` for activity since 2026-05-06 (verified rent-seeking engagement workstream RATIFIED + APPLIED 2026-05-18 commit `bc02767`; Aeon Version C ratified `384b2df` + `24d2e79`; pipeline doctrine v3.0 → v3.1 ratifications `2026-05-17` → `2026-05-19`)

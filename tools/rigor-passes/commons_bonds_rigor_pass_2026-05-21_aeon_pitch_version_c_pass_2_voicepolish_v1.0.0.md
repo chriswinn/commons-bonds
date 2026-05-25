@@ -11,10 +11,10 @@ ratification + source-file application combined per v3.1 Amendment C; see
 **Post-Phase-C-β state.** Body 297w (was 300w); em-dash count 4 chars / 3 usages
 (was 6 chars / 5 usages); Haselby outlining-body 196w (within 4w of 200w
 guidance). All ratified spot-fixes applied to
-`manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` in
+`publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` in
 ratification session.
 
-**Audit target.** `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+**Audit target.** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 (300w post-Phase-C-α; ratified 2026-05-08 as the locked submission cut;
 iterated A→B→C control that beat audience-blind Pitch B at Stage 3
 comparison per `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`).
@@ -45,7 +45,7 @@ not applicable to a 300w pitch.
 
 ## §0. Source artifacts read
 
-1. `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` — audit
+1. `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` — audit
    target (post-Phase-C-α; 300w; Para 1 *"an analog like Devon Island or
    HI-SEAS"*).
 2. `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` §"Pass 3.2:
@@ -896,7 +896,7 @@ This artifact PROPOSED 2026-05-21 (initial Pass 3.2 audit session); Phase
 C-β interactive ratification + source-file application executed same day
 per v3.1 Amendment C combined-session protocol. Author walked through all
 7 findings; ratifications applied to source pitch file
-`manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` in the
+`publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` in the
 ratification session. See §10 for the disposition log.
 
 **Author dispositions (ratified 2026-05-21 — recap; full table at §10):**
@@ -930,7 +930,7 @@ v3.1 Amendment C interactive ratification protocol).
 
 ## §9. Cross-references
 
-- Audit target (post-Phase-C-α; pre-Pass-3.2): `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+- Audit target (post-Phase-C-α; pre-Pass-3.2): `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 - Pass 3.1 (fact-check) ratified artifact: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_aeon_pitch_version_c_pass_1_factcheck_v1.0.0.md`
 - Stage 1 brief (post-Pass-3.1-§4.1 patch): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
 - Prior Stage 3 comparison (A wins; submit C as-is): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`
@@ -960,13 +960,13 @@ routing implications.
 | Item | Disposition | Source file edit | Net effect |
 |---|---|---|---|
 | F-V-AeonC-1 (singular-verb carry-forward, MEDIUM) | RATIFIED Option A (hold) | None | Pass 3.1 §5.4 carry-forward CLOSED; 300w preserved at this step |
-| F-V-AeonC-2 (em-dash density, MEDIUM) | RATIFIED Option E (B + C combined) | `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` line 43 (Para 2): *"is free again — all of it suddenly costless."* → *"is free again. All of it suddenly costless."* + line 47 (Para 4) em-dash → colon for usage #4 (absorbed into F-V-AeonC-5 edit below) | Body em-dash count 6 → 4 chars / 5 → 3 usages; 300w preserved |
+| F-V-AeonC-2 (em-dash density, MEDIUM) | RATIFIED Option E (B + C combined) | `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` line 43 (Para 2): *"is free again — all of it suddenly costless."* → *"is free again. All of it suddenly costless."* + line 47 (Para 4) em-dash → colon for usage #4 (absorbed into F-V-AeonC-5 edit below) | Body em-dash count 6 → 4 chars / 5 → 3 usages; 300w preserved |
 | F-V-AeonC-3 (three-case parallel, MEDIUM) | RATIFIED Option A (hold) | None | Substantively earned per Stage 1 §7.6; 300w preserved |
-| F-V-AeonC-4 (tautological-echo coda, LOW) | RATIFIED Option B (drop third clause) | `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` line 45 (Para 3, case 3): *"…hours of life were never computed: same framework, no external bad actor, structural test the same."* → *"…hours of life were never computed: same framework, no external bad actor."* | Tautological echo cleaned; word count 300w → 296w |
-| F-V-AeonC-5 (stage-direction phrasing, LOW) | RATIFIED **V3 author-initiated content revision** (substitute *"an analytical lens"* for *"a critique"*) + F-V-AeonC-2 Option E em-dash → colon for usage #4 (absorbed) | `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` line 47 (Para 4): *"The central claim is that the framework is universal — a pricing framework first, a critique second."* → *"The central claim is that the framework is universal: a pricing framework first, an analytical lens second."* | Stage 1 §7.4 canonical phrasing revised: *"pricing framework first, critique second"* → *"pricing framework first, analytical lens second"*; word count 296w → 297w; em-dash count drops by 1 (absorbed F-V-AeonC-2 Option E usage #4) |
+| F-V-AeonC-4 (tautological-echo coda, LOW) | RATIFIED Option B (drop third clause) | `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` line 45 (Para 3, case 3): *"…hours of life were never computed: same framework, no external bad actor, structural test the same."* → *"…hours of life were never computed: same framework, no external bad actor."* | Tautological echo cleaned; word count 300w → 296w |
+| F-V-AeonC-5 (stage-direction phrasing, LOW) | RATIFIED **V3 author-initiated content revision** (substitute *"an analytical lens"* for *"a critique"*) + F-V-AeonC-2 Option E em-dash → colon for usage #4 (absorbed) | `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` line 47 (Para 4): *"The central claim is that the framework is universal — a pricing framework first, a critique second."* → *"The central claim is that the framework is universal: a pricing framework first, an analytical lens second."* | Stage 1 §7.4 canonical phrasing revised: *"pricing framework first, critique second"* → *"pricing framework first, analytical lens second"*; word count 296w → 297w; em-dash count drops by 1 (absorbed F-V-AeonC-2 Option E usage #4) |
 | F-V-AeonC-6 (*"Then"* anaphora, LOW) | RATIFIED Option A (hold) | None | Substantively earned; 297w preserved |
 | F-V-AeonC-7 (anchor-sentence italics, LOW) | RATIFIED Option A (hold) | None | Comparison §1.5 settled; 297w preserved |
-| Source-file auxiliary updates | APPLIED | `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` lines 14, 39, 53–58, 69, 79: word-count breakdown table (300 → 297; Para 2 130 → 126; Para 3 69 → 70); A-vs-B-vs-C comparison table Version C word-count row; Haselby outlining-body figure (199w → 196w; "within 1 word" → "within 4 words"); section-title 300w reference; closing summary line | Auxiliary metadata aligned to post-Pass-3.2 state |
+| Source-file auxiliary updates | APPLIED | `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` lines 14, 39, 53–58, 69, 79: word-count breakdown table (300 → 297; Para 2 130 → 126; Para 3 69 → 70); A-vs-B-vs-C comparison table Version C word-count row; Haselby outlining-body figure (199w → 196w; "within 1 word" → "within 4 words"); section-title 300w reference; closing summary line | Auxiliary metadata aligned to post-Pass-3.2 state |
 
 **Word-count check (post-Phase-C-β):**
 

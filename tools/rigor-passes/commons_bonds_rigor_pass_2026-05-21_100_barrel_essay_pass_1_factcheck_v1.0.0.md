@@ -2,7 +2,7 @@
 
 **Status:** PROPOSED. Pass 3.1 fact-check artifact for Draft A (canonical-path Stage 2 audience-blind flow draft, ratified routing to Stage 3 by author 2026-05-21 per comparative draft audit verdict). Author ratification + Phase C application is a separate session per v3.0 per-prompt serial cadence (preserved in v3.1).
 
-**Audit target:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md) (Draft A; 4,078w; on `main` commit `74953b9` 2026-05-21).
+**Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (Draft A; 4,078w; on `main` commit `74953b9` 2026-05-21).
 
 **Source of truth:** Stage 1 brief [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md) §7 canonical-facts inventory + [`research/literature/bibliography.md`](../../research/literature/bibliography.md). Per v2.0 Path B preemptive policy, withdrawn-Noema §III is NOT source-of-truth — the Stage 1 brief §7 is the single canonical baseline. Per v3.1 / Amendment B 2026-05-18, Stage 3 is a five-pass discipline (3.1 fact-check → 3.2 voice-polish → 3.3 audience-load acceptance → 3.4 audience-load robustness → 3.5 developmental-edit); this artifact is Pass 3.1.
 
@@ -304,7 +304,7 @@ This pass surfaced **one** Stage 1 brief CTG (CTG-1, Norway fiscal-rule history)
 
 ## 7. Cross-references
 
-- **Audit target:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md)
+- **Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md)
 - **Stage 1 brief (source of truth):** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md)
 - **Prior pass (comparative draft audit):** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md)
 - **Sibling Pass 3.1 (Noema; format precedent + parallel CTG-1):** [`commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md)

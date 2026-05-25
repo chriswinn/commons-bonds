@@ -2,7 +2,7 @@
 
 **Status:** RATIFIED 2026-05-23 (author confirmed PASS verdict; both audit-trail flag dispositions accepted as HOLDS; no Phase C application required since Pass 3.3 light is a verification pass not a prose-modifying pass). Pass 3.3 light re-verification artifact firing after Pass 3.2 RATIFIED + APPLIED (commit `8b2614a` 2026-05-23). Tests whether the 6 Phase C spot-fixes shift any of the 18-character acceptance verdicts that the comparative draft audit (`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md` §§2–4) established as canonical for Draft A.
 
-**Audit target:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md) (4,145w post-Pass-3.2-Phase-C; on `main` commit `8b2614a`).
+**Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (4,145w post-Pass-3.2-Phase-C; on `main` commit `8b2614a`).
 
 **Baseline (canonical):** Comparative draft audit Pass 3.3 Draft A verdicts:
 - Tier 1 (5 chars): #1 PW editorial ✓✓✓ + #2 PW reader ✓✓✓ + **#3 center-right policy reader (DISPOSITIVE) ✓✓✓** + #4 literary agent ✓✓ + #5 trade acquisitions ✓✓✓
@@ -213,7 +213,7 @@ Per Q1 rigor pass §6 + Stage 1 brief §9 + comparative draft audit §1: Conditi
 - **Stage 1 brief (audience source of truth):** [`commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md) §1 (18-character acceptance set) + §9 (Condition 1 dispositive test).
 - **v3.1 discipline reference:** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)
 - **Pipeline doctrine (Pass 3.3 spec):** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6.3
-- **Audit target:** [`manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md`](../../manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md) (4,145w; on `main` commit `8b2614a`)
+- **Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (4,145w; on `main` commit `8b2614a`)
 
 ---
 

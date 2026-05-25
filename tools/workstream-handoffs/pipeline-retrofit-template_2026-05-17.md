@@ -204,7 +204,7 @@ Retrofit workstreams are **parallelizable across chapters**. PM session sequence
 ## §7. Cross-thread items
 
 After retrofit session merges to main:
-- Add retrofit verdict summary to `publishing/strategy/cross-thread-todos.md` (or wherever the cross-thread tracking lives at that time).
+- Add retrofit verdict summary to `publishing/essays/_pipeline/cross-thread-todos.md` (or wherever the cross-thread tracking lives at that time).
 - If Pass 3.4 surfaces a cross-chapter handoff: PM session drafts the cross-chapter workstream handoff per pipeline doctrine §5.
 - If Stage 4 surfaces a render-failure pattern not in the registry: add to `tools/quality-gates/regressed-patterns.yaml` (render-failure category).
 - If Stage 5 pre-publication review queue surfaces a recommended-external-reviewer that's worth adding to the publisher / agent pitch tracker: PM session captures.

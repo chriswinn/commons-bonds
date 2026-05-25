@@ -3,8 +3,8 @@
 **Date:** 2026-05-23
 **Status:** **RATIFIED + APPLIED 2026-05-23** via author "as recommended" signal. All 9 ratified spot-fixes + 2 consistency-completion drops applied to draft, landed in commit `b31ee2d`. Pass 3.5 forward-pointers (F-3.2-3 + F-3.2-14) carried + resolved at Pass 3.5 (commit `18d8f56`). Header ratification flag added via author "(A)" signal 2026-05-23 (file-header hygiene pass). (Originally PROPOSED 2026-05-23 in commit `7cd4444`; v3.1 Amendment C interactive ratification cycle complete.)
 **Pass type:** Stage 3 Pass 3.2 — Voice-polish (second of five passes per v3.1 doctrine).
-**Workstream:** Boston Review essay (Ch 5 → BR cascade allocation per `publishing/strategy/cascade-plan_2026-05-06.md`).
-**Artifact audited:** [`manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md) (Stage 2 audience-blind flow draft, POST-Pass-3.1-spot-fix-application state, ratified 2026-05-23 per commit `fda6500`).
+**Workstream:** Boston Review essay (Ch 5 → BR cascade allocation per `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`).
+**Artifact audited:** [`publishing/essays/boston-review-accountability-gap/essay.md`](../../publishing/essays/boston-review-accountability-gap/essay.md) (Stage 2 audience-blind flow draft, POST-Pass-3.1-spot-fix-application state, ratified 2026-05-23 per commit `fda6500`).
 **Stage 1 brief (canonical voice register source):** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md) (v1.0.1, ratified 2026-05-21; §7.9 amended 2026-05-23). §5 voice register + §8 apparatus exclusion + §13 Stage 3 protocol are load-bearing.
 **Methodology anchor:** v3.1 audience-aware drafting discipline (Stage 3 Pass 3.2 per parent doctrine; v3.1 Amendment C interactive-ratification per-finding format with Options + Recommendation + Reasoning). Polarity: **CUT** (opposite to Pass 3.5's RESTORATION polarity).
 **Path B compliance confirmation:** `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` was **NOT opened** during this Pass 3.2 audit session. Voice-polish calibration is grounded in Stage 1 brief §5 voice register + §8 apparatus exclusion list + the draft surface itself. No Ch 5 prose has been pasted into any proposed spot-fix in this artifact; all spot-fix prose is freshly generated from the brief's register.
@@ -27,7 +27,7 @@ One content-addition consideration surfaces: the four-traditions / supply-and-de
 
 1. THIS framing-paste (Pass 3.2 framing).
 2. Stage 1 brief [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md) — read in full; §5 voice register + §8 apparatus exclusion list + §13 Stage 3 protocol are load-bearing for this pass.
-3. Stage 2 audience-blind draft (POST-Pass-3.1-spot-fix-applied) [`manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md) — read in full (109 lines).
+3. Stage 2 audience-blind draft (POST-Pass-3.1-spot-fix-applied) [`publishing/essays/boston-review-accountability-gap/essay.md`](../../publishing/essays/boston-review-accountability-gap/essay.md) — read in full (109 lines).
 4. Pass 3.1 fact-check artifact [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage3_fact_check_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage3_fact_check_v1.0.0.md) — context only (status RESOLVED via commit `fda6500`).
 5. Stage 1c coherence verification [`tools/quality-gates/coherence-checks/boston-review-essay-workstream_stage1c_2026-05-21.md`](../../tools/quality-gates/coherence-checks/boston-review-essay-workstream_stage1c_2026-05-21.md) — context only.
 6. Format reference (NOT a prose source): [`tools/rigor-passes/commons_bonds_ch5_stage_3_pass_2_voice_polish_2026-05-14_PROPOSED.md`](commons_bonds_ch5_stage_3_pass_2_voice_polish_2026-05-14_PROPOSED.md) — Ch 5 Pass 3.2 artifact for per-finding format reference; adapted to v3.1 Amendment C interactive-ratification format.
@@ -356,7 +356,7 @@ Two additional considerations strengthen the Pass 3.5 routing:
 
 **Pass 3.5 forward-pointer language for the artifact:**
 - Candidate finding: "Should §VI opening (line 87) be expanded to include a four-traditions / permanent-foreclosure-supply-demand-blind-spot theoretical-frame motivation before the Hartwick lineage anchor, or does the §IV→§VI structural pivot (bidirectional accountability → forward-looking instrument lineage) hold without the intermediate theoretical-frame?"
-- Constraint: fresh BR-register prose; **must not paste the Aeon-allocated verbatim passage from `manuscript/essay/aeon/aeon-essay-carry-forward-inventory.md`**; same arc + same ideas + different sentences per Path B extended cross-essay.
+- Constraint: fresh BR-register prose; **must not paste the Aeon-allocated verbatim passage from `publishing/essays/aeon-mask-of-abundance/carry-forward-inventory.md`**; same arc + same ideas + different sentences per Path B extended cross-essay.
 - Lineage anchors for BR-specific reframe: civic-republican tradition (Pettit / Skinner already in §VI) + reparations-economics tradition (Darity-Mullen already in §V) + Hartwick + Norway already in §VI. The four-traditions framing for BR would substitute Pettit-Skinner-Parfit for Marx where the BR essay's existing lineage scaffolding already does the political-philosophy work.
 
 ---
@@ -395,7 +395,7 @@ This artifact is **PROPOSED**. Per v3.1 Amendment C (ratified 2026-05-19; update
 
 **Per-finding ratification expected at the interactive session:**
 
-For each F-3.2-N finding, author selects Option (a) / (b) / (c) — or supplies an alternative. The session then applies ratified spot-fixes to [`manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_2026-05-21.md) directly.
+For each F-3.2-N finding, author selects Option (a) / (b) / (c) — or supplies an alternative. The session then applies ratified spot-fixes to [`publishing/essays/boston-review-accountability-gap/essay.md`](../../publishing/essays/boston-review-accountability-gap/essay.md) directly.
 
 **Pass 3.5 forward-pointers carried out of this session:**
 - F-3.2-3 (§VI Norway compression — restoration-polarity expansion question).
@@ -403,7 +403,7 @@ For each F-3.2-N finding, author selects Option (a) / (b) / (c) — or supplies 
 
 These forward-pointers fire at the Pass 3.5 session as candidate findings under the developmental-edit lens.
 
-**No Path B violations expected at ratification:** all spot-fixes generate fresh prose from §5 voice register + draft surface. No paste-from-Ch-5 moves required. F-3.2-14 explicitly requires fresh BR-register prose distinct from the Aeon-allocated verbatim passage at `manuscript/essay/aeon/aeon-essay-carry-forward-inventory.md`.
+**No Path B violations expected at ratification:** all spot-fixes generate fresh prose from §5 voice register + draft surface. No paste-from-Ch-5 moves required. F-3.2-14 explicitly requires fresh BR-register prose distinct from the Aeon-allocated verbatim passage at `publishing/essays/aeon-mask-of-abundance/carry-forward-inventory.md`.
 
 ---
 
@@ -415,7 +415,7 @@ After Pass 3.2 interactive ratification + spot-fix application:
 - **Pass 3.4 — Adversarial robustness (OPT-IN per Decision #7).** Fires only if Pass 3.3 surfaces center-right reader (#12) as EXCLUDE or worse.
 - **Pass 3.5 — Developmental-edit (BY DEFAULT per Decision #7).** Fires after 3.1 + 3.2 + 3.3 (and 3.4 if it fired) have ratify-and-applied. Restoration polarity. Picks up F-3.2-3 + F-3.2-14 forward-pointers under the developmental-edit lens.
 
-**Stage 4 + Stage 5 forward-pointers** (per brief §14): Stage 4 essay-scale render audit at Submittable preview before submit; Stage 5 pre-submission bookend sign-off + AI-disclosure transparency at `tools/quality-gates/sign-offs/boston-review-essay_stage5_signoff_<date>.md`.
+**Stage 4 + Stage 5 forward-pointers** (per brief §14): Stage 4 essay-scale render audit at Submittable preview before submit; Stage 5 pre-submission bookend sign-off + AI-disclosure transparency at `publishing/essays/boston-review-accountability-gap/stage-5-signoff.md`.
 
 ---
 

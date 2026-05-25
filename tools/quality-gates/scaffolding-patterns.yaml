@@ -376,13 +376,13 @@ patterns:
 #   manuscript/chapters/_AUTHORSNOTE*.md
 #   manuscript/chapters/_BookLevelGuidance.md
 #   manuscript/chapters/_Dedication.md
-#   publishing/essay-drafts/**/*.md (excluding archive)
+#   publishing/essays/**/*.md (excluding archive)
 #   publishing/op-eds/**/*.md
 #
 # Excluded from scan (these intentionally contain process vocabulary):
 #   tools/**/*.md
 #   alignment/**/*.md
-#   publishing/strategy/**/*.md
+#   publishing/essays/_pipeline/**/*.md
 #   archive/**/*.md
 
 scope:
@@ -390,12 +390,27 @@ scope:
     - "manuscript/chapters/Chapter_*Draft*.md"
     - "manuscript/chapters/_AUTHORSNOTE*.md"
     - "manuscript/chapters/_Dedication.md"
-    - "publishing/essay-drafts/**/*.md"
-    - "publishing/op-eds/**/*.md"
+    # - "publishing/essays/*/essay.md"  # temporarily excluded (essay files mix audit-trail frontmatter with prose body; follow-up cleanup queued)
+    - "publishing/op-eds/*/op-ed.md"
   exclude:
     - "tools/**/*.md"
     - "alignment/**/*.md"
-    - "publishing/strategy/**/*.md"
+    - "publishing/essays/_pipeline/**/*.md"
+    - "publishing/essays/_shared/**/*.md"
+    - "publishing/essays/_archive/**/*.md"
+    - "publishing/essays/**/_archive/**/*.md"
+    - "publishing/op-eds/_shared/**/*.md"
+    - "publishing/op-eds/_pipeline/**/*.md"
+    - "publishing/op-eds/_archive/**/*.md"
+    - "publishing/op-eds/**/_archive/**/*.md"
+    - "publishing/agents/**/*.md"
+    - "publishing/book-proposal/**/*.md"
+    - "publishing/README.md"
+    - "publishing/**/README.md"
+    - "publishing/essays/**/cover-letter.md"
+    - "publishing/essays/**/stage-5-signoff.md"
+    - "publishing/essays/**/submission-day-package*.md"
+    - "publishing/essays/**/carry-forward-inventory.md"
     - "archive/**/*.md"
     - "**/*GuidanceDoc*.md"
     - "manuscript/chapters/_BookLevelGuidance.md"

@@ -24,7 +24,7 @@ Phase 2 trigger is therefore explicitly "just-in-time before deployment" — not
 
 ### Priority 1 — Acquiring-editor IDs at the 4 lead imprints
 
-Drives the **editor-target list** (downstream of agents, feeds `publishing/agents/targets.md`).
+Drives the **editor-target list** (downstream of agents, feeds `publishing/agents/_pipeline/targets.md`).
 
 1. **Public Affairs (Mazzucato — *Value of Everything*)** — who acquired? Imprint changes since 2018 may matter.
 2. **Princeton University Press (Pistor — *Code of Capital*)** — likely a politics / law / political-economy editor; possibly Bridget Flannery-McCoy or successor.
@@ -67,17 +67,17 @@ Per-comp review-outlet rosters drive `publishing/book-proposal/04_marketing-plan
 | 5. Review-outlet network × 6 lead comps | ~2h | High |
 | **Total** | **~5-6h** | |
 
-**If parallel sessions have closed Priorities 4 + 5 + some of 1 by trigger time, budget collapses to ~2-3h.** Check cross-thread-todos.md + `publishing/agents/targets.md` + commit log first.
+**If parallel sessions have closed Priorities 4 + 5 + some of 1 by trigger time, budget collapses to ~2-3h.** Check cross-thread-todos.md + `publishing/agents/_pipeline/targets.md` + commit log first.
 
 ---
 
 ## Methodology
 
-1. **State check first.** Read the matrix at current state on main, the cross-thread-todos list, `publishing/agents/targets.md`, and the `publishing/book-proposal/04_marketing-plan.md` (if it's been deepened by parallel sessions). Identify which `[verify]` cells are still open.
+1. **State check first.** Read the matrix at current state on main, the cross-thread-todos list, `publishing/agents/_pipeline/targets.md`, and the `publishing/book-proposal/04_marketing-plan.md` (if it's been deepened by parallel sessions). Identify which `[verify]` cells are still open.
 2. **Re-verify Phase 1 intel briefly.** Web data shifts. Confirm Wylie cluster (Mazzucato + Tooze) is still current; Sandel still not on Wylie; Felicity Bryan still doesn't list Daniel Susskind. ~10 min.
 3. **Work priorities 1-5 in order.** Stop at any natural break if budget runs short — Priority 1 (acquiring editors) is the most load-bearing for proposal-finalization.
 4. **Update matrix entries inline** with `[HIGH/MEDIUM/LOW-confirmed 2026-07-XX]` confidence markers (same pattern as Phase 1 commit `18a49af`).
-5. **Update `publishing/agents/targets.md`** with editor-target entries derived from Priority 1 findings.
+5. **Update `publishing/agents/_pipeline/targets.md`** with editor-target entries derived from Priority 1 findings.
 6. **Update `publishing/book-proposal/04_marketing-plan.md`** with review-outlet roster derived from Priority 5 findings.
 7. **Commit + push to main per ratified chunk** (per `feedback_git_workflow.md` working principle — active-push expectation).
 
@@ -96,7 +96,7 @@ Per-comp review-outlet rosters drive `publishing/book-proposal/04_marketing-plan
 ## Deliverables
 
 1. **Updated `publishing/book-proposal/02_comp-titles.md`** — `[verify]` cells closed with confidence-marked findings inline.
-2. **Updated `publishing/agents/targets.md`** — editor-target entries added with priority rankings.
+2. **Updated `publishing/agents/_pipeline/targets.md`** — editor-target entries added with priority rankings.
 3. **Updated `publishing/book-proposal/04_marketing-plan.md`** — review-outlet roster populated.
 4. **Cross-thread-todos updates:**
    - `#1 Chalfant ↔ Mazzucato` — moved to Resolved if closed; otherwise status updated.
@@ -109,8 +109,8 @@ Per-comp review-outlet rosters drive `publishing/book-proposal/04_marketing-plan
 
 1. Read this handoff end-to-end.
 2. Read `publishing/book-proposal/02_comp-titles.md` (state check — particularly the verification log section at top of the matrix and the per-entry `[HIGH/MEDIUM/LOW-confirmed]` markers).
-3. Read `publishing/strategy/cross-thread-todos.md` — items #1 (Chalfant) and #2 (post-Darity warm-intro) and #8 (this) for status.
-4. Read `publishing/agents/targets.md` — current agent-target list state.
+3. Read `publishing/essays/_pipeline/cross-thread-todos.md` — items #1 (Chalfant) and #2 (post-Darity warm-intro) and #8 (this) for status.
+4. Read `publishing/agents/_pipeline/targets.md` — current agent-target list state.
 5. Skim original handoff `tools/workstream-handoffs/comp-titles-deep-matrix-handoff_2026-05-10.md` for context.
 6. Identify open `[verify]` cells; cross-reference against parallel-session activity in commit log since 2026-05-11.
 7. Begin Priority 1 (acquiring editors).
@@ -120,10 +120,10 @@ Per-comp review-outlet rosters drive `publishing/book-proposal/04_marketing-plan
 ## Reference files
 
 - `publishing/book-proposal/02_comp-titles.md`
-- `publishing/agents/targets.md`
-- `publishing/agents/personalization-snippets.md`
+- `publishing/agents/_pipeline/targets.md`
+- `publishing/agents/_shared/personalization-snippets.md`
 - `publishing/book-proposal/04_marketing-plan.md`
-- `publishing/strategy/cross-thread-todos.md` (items #1 + #2 + #8)
+- `publishing/essays/_pipeline/cross-thread-todos.md` (items #1 + #2 + #8)
 - `research/literature/bibliography.md` §13 (comp-title entries)
 - `tools/workstream-handoffs/comp-titles-deep-matrix-handoff_2026-05-10.md` (original handoff)
 - `tools/workstream-handoffs/agent-prep-handoff_2026-05-09.md` (downstream consumer)

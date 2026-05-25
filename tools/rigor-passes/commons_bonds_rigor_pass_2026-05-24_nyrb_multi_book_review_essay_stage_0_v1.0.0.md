@@ -34,11 +34,11 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` (Stage 0–5 + Amendments)
 - `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`
 - `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md` (current state; submission queue; ratification bandwidth analysis)
-- `publishing/strategy/cascade-plan_v2_2026-05-24.md` (PROPOSED; companion to this artifact's Wave 2 batch sibling)
-- `publishing/strategy/june-2026-submission-schedule.md` (Wave 1 current cadence; rate-limiting factors)
-- `publishing/strategy/decisions-log.md` (recent decisions)
-- `publishing/strategy/cross-thread-todos.md` (esp. #8 comp-titles deep matrix Phase 2 dormant until early-to-mid July; #2 Darity feedback pending; #15 framework-revision implications from Darity)
-- `publishing/strategy/rights-register.md` (no rights conflict surfaces here — review-essay genre is distinct from chapter-derivative essays)
+- `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md` (PROPOSED; companion to this artifact's Wave 2 batch sibling)
+- `publishing/essays/_pipeline/june-2026-submission-schedule.md` (Wave 1 current cadence; rate-limiting factors)
+- `publishing/essays/_pipeline/decisions-log.md` (recent decisions)
+- `publishing/essays/_pipeline/cross-thread-todos.md` (esp. #8 comp-titles deep matrix Phase 2 dormant until early-to-mid July; #2 Darity feedback pending; #15 framework-revision implications from Darity)
+- `publishing/essays/_pipeline/rights-register.md` (no rights conflict surfaces here — review-essay genre is distinct from chapter-derivative essays)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` (companion batch — esp. §3 reveal map + §5 cumulative-portfolio projection)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md` (Stage 0 canonical worked example)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md` (recent Stage 0 worked example — fuller scope)
@@ -401,17 +401,17 @@ SEQUENCING DISCIPLINE: This Stage 0 fires per author interactive ratification pr
 
 **Companion artifacts:**
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` — Wave 2 batch (PROPOSED; per-candidate ratification in flight); esp. §3 reveal map + §5 cumulative-portfolio projection
-- `publishing/strategy/cascade-plan_v2_2026-05-24.md` — PROPOSED cascade plan v2; needs small amendment to add this candidate as 4th Wave 2 entry if Wave 2 timing ratifies
+- `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md` — PROPOSED cascade plan v2; needs small amendment to add this candidate as 4th Wave 2 entry if Wave 2 timing ratifies
 
 **Sibling NYRB candidate Stage 0 sessions (per author 2026-05-24 plan):**
 - Christophers *Price Is Wrong* single-book review — Stage 0 session fires next
 - Chesapeake Requiem review — Stage 0 session fires last
 
 **Strategy artifacts:**
-- `publishing/strategy/june-2026-submission-schedule.md`
-- `publishing/strategy/decisions-log.md`
-- `publishing/strategy/cross-thread-todos.md` (esp. #8 comp-titles deep matrix Phase 2; #2 Darity feedback; #15 framework-revision implications)
-- `publishing/strategy/rights-register.md`
+- `publishing/essays/_pipeline/june-2026-submission-schedule.md`
+- `publishing/essays/_pipeline/decisions-log.md`
+- `publishing/essays/_pipeline/cross-thread-todos.md` (esp. #8 comp-titles deep matrix Phase 2; #2 Darity feedback; #15 framework-revision implications)
+- `publishing/essays/_pipeline/rights-register.md`
 
 **Doctrine + memory:**
 - `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + Amendments A + B + C
@@ -464,7 +464,7 @@ SEQUENCING DISCIPLINE: This Stage 0 fires per author interactive ratification pr
 
 ### Triggered downstream actions (PM-session pickup)
 
-🔴 **DSA-1 — Cascade plan v2 amendment.** `publishing/strategy/cascade-plan_v2_2026-05-24.md` requires a small amendment to add this candidate as a 4th Wave 2 entry (W2.5 — NYRB multi-book review-essay) alongside W2.1 + W2.2 + W2.3 (and W2.4 Ch 8 deferred per Path D-α / awaiting ratification). PM session absorbs at next cascade plan v2 ratification pass.
+🔴 **DSA-1 — Cascade plan v2 amendment.** `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md` requires a small amendment to add this candidate as a 4th Wave 2 entry (W2.5 — NYRB multi-book review-essay) alongside W2.1 + W2.2 + W2.3 (and W2.4 Ch 8 deferred per Path D-α / awaiting ratification). PM session absorbs at next cascade plan v2 ratification pass.
 
 🔴 **DSA-2 — Ch 8 path ratification gates Stage 1 brief firing.** Author must ratify Ch 8 W2.4 path (D-α / D-β / D-γ) per Wave 2 batch artifact ratification cadence BEFORE this candidate's Stage 1 brief fires (~Jun 17–19). PM tracks the dependency.
 

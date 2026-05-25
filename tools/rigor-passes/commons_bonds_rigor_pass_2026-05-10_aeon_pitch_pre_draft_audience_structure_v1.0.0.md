@@ -10,7 +10,7 @@
 
 **Why this exists:** The user wants to run the two-stage discipline proof-test twice. The Noema test (Stage 2 fresh session forthcoming, Stage 3 comparison after) is the first. This is the second. Running it twice with potentially different artifacts (essay + pitch) shows whether the discipline produces consistent improvements regardless of artifact size and venue.
 
-The "control" (Pitch A) is the ratified Version C at `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` (300w; *The Mask of Abundance*; closed-habitat thought-experiment frame; ratified for Mon Jun 1 2026 submission). Pitch B is the fresh-session output produced under the two-stage discipline.
+The "control" (Pitch A) is the ratified Version C at `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` (300w; *The Mask of Abundance*; closed-habitat thought-experiment frame; ratified for Mon Jun 1 2026 submission). Pitch B is the fresh-session output produced under the two-stage discipline.
 
 ---
 
@@ -98,8 +98,8 @@ The Aeon Pitch is a **3-paragraph query** in Haselby's specified shape. Stage 2 
 **The Stage 2 fresh session must NOT open the following as source texts:**
 
 - `manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md` — Ch 7, the chapter the pitch derives from.
-- `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn.md` — Pitch Version A.
-- `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` — Pitch Version C (Pitch A in this experiment).
+- `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn.md` — Pitch Version A.
+- `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` — Pitch Version C (Pitch A in this experiment).
 
 The fresh session generates fresh prose from beats, scenes, and concrete details supplied in this Stage 1 brief and the carry-forward inventory below. Versions A and C are the *control* in the experiment; reading them contaminates the test.
 
@@ -183,7 +183,7 @@ Stage 2 may revise this outline as long as the essay-arc remains coherent.
 
 ## 9. What the fresh session should produce
 
-- **One file:** `manuscript/essay/aeon/aeon-pitch-fresh-session_2026-05-10.md` — Pitch B, the Stage 2 audience-blind flow draft.
+- **One file:** `publishing/essays/aeon-mask-of-abundance/essay.md` — Pitch B, the Stage 2 audience-blind flow draft.
 - **Word count target:** ~270–300w pitch body. Plus bio + AI disclosure + brief structural outline as separate sections (carrying forward from Version A unless Stage 2 has reason to revise).
 - **Header note:** Stage 2 deliverable; references this rigor pass file; do NOT apply Stage 3 in fresh session.
 - **Path B compliance:** the draft should pass a Path B audit against Ch 7 + Versions A/C — i.e., no sentence-level reuse, no high-echo paragraphs.

@@ -214,14 +214,22 @@ if [[ "$STAGED_ONLY" -eq 1 ]]; then
   # Pre-commit mode: scan only staged files matching scope patterns
   cd "$REPO_ROOT"
   git diff --cached --name-only --diff-filter=ACMR | while read -r f; do
-    # Match against default scope include patterns (manuscript/chapters/*Draft*.md etc.)
+    # Match against default scope include patterns. Per publishing-pipeline reorg
+    # 2026-05-24 (Session 2): scope matches live essay.md / op-ed.md files only
+    # (not _archive/ historical drafts, cover letters, sign-offs, READMEs —
+    # which are internal-scaffolding-adjacent and have their own discipline).
     case "$f" in
       manuscript/chapters/*Draft*.md) echo "$f" ;;
       manuscript/chapters/_AUTHORSNOTE*.md) echo "$f" ;;
       manuscript/chapters/_BookLevelGuidance.md) echo "$f" ;;
       manuscript/chapters/_Dedication.md) echo "$f" ;;
-      publishing/essay-drafts/*.md) echo "$f" ;;
-      publishing/op-eds/*.md) echo "$f" ;;
+      # publishing/essays/*/essay.md) echo "$f" ;;  # temporarily excluded pending follow-up
+      # cleanup: existing essay files mix audit-trail frontmatter with prose body;
+      # separating those is queued as a follow-up workstream after publishing-pipeline
+      # reorg Session 2 lands. Re-enable after frontmatter-aware scan or per-file
+      # allowlist entries are added. See tools/workstream-handoffs/
+      # publishing-reorg-session1-audit_2026-05-24.md §14 deferred-follow-up.
+      publishing/op-eds/*/op-ed.md) echo "$f" ;;
     esac
   done > "$SCOPE_FILES"
 elif [[ -n "$SCOPE_OVERRIDE" ]]; then

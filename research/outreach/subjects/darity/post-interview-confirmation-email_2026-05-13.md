@@ -72,7 +72,7 @@ Chris
   - The substantive-feedback line at close names two specific shifts (restitution-inside-reparations + Ostrom homogeneity-of-interest). If you want to add the coercion-vector observation as a third, that's also a real shift the call produced — I left it at two to keep the line tight.
 
 - **What's deliberately NOT in this email:**
-  - Pre-populated warm-intro candidate names (Kendi, Cook-Center colleagues, Gates, Mullen). The protocol templates for those activations exist at `publishing/agents/post-darity-warm-intro-templates_2026-05-10.md` — wait until Sandy surfaces a name before activating any of them.
+  - Pre-populated warm-intro candidate names (Kendi, Cook-Center colleagues, Gates, Mullen). The protocol templates for those activations exist at `publishing/agents/_shared/post-darity-warm-intro-templates_2026-05-10.md` — wait until Sandy surfaces a name before activating any of them.
   - A jurisdiction / applicable-law section. The recording paragraph subsumes the relevant content; a separate "On applicable law" header for two one-party-consent jurisdictions reads as over-lawyered for a 1-hour academic interview.
   - A formal pre-publication door / blurb prospect. The Q0 Tier S review-before-use commitment subsumes the pre-publication relationship; raising blurb prospects in the same email reads as transactional.
   - A request for Sandy to acknowledge receipt. He'll either reply or not; making him reply puts homework on him.
@@ -80,7 +80,7 @@ Chris
 - **What to do with Sandy's reply** (whenever it comes):
   - File at `research/outreach/subjects/darity/post-interview-correspondence_<DATE>.md`.
   - If he corrects or refines the attribution preference, update Section 2 of `post-interview-synthesis_2026-05-13.md`.
-  - If he surfaces a warm-intro candidate, activate the appropriate template from `publishing/agents/post-darity-warm-intro-templates_2026-05-10.md` (send the (A) forwarding-note variant for Sandy's approval first, never the (B) direct variant before Sandy has cleared the introduction).
+  - If he surfaces a warm-intro candidate, activate the appropriate template from `publishing/agents/_shared/post-darity-warm-intro-templates_2026-05-10.md` (send the (A) forwarding-note variant for Sandy's approval first, never the (B) direct variant before Sandy has cleared the introduction).
   - If he names something concrete from the Tech Appendix + Ch 6 send, route that to the appropriate chapter / appendix revision workstream.
 
 ---

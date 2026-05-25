@@ -198,7 +198,7 @@ Ratified 2026-05-19. Renders (`.docx` + `.pdf`) are **derived artifacts** — ma
 |---|---|---|
 | Per-recipient outreach packets — `research/outreach/subjects/<name>/<artifact>_<date>.{docx,pdf}` | Yes | When the file ships to a named recipient (e.g., the Sandy/Darity packet 2026-05-14). The exact bytes that went out are committed as evidence-of-delivery. |
 | Per-venue submission packets — `research/submissions/<venue>/<artifact>_<date>.{docx,pdf}` | Yes | When shipping to a publisher / agent / book reviewer. (Create the dir on first use.) |
-| Per-venue essay submissions — `manuscript/essay/<venue>/<artifact>.{docx,pdf}` | Yes | When the file goes to an editor at that venue. |
+| Per-venue essay submissions — `publishing/essays/<venue>/<artifact>.{docx,pdf}` | Yes | When the file goes to an editor at that venue. |
 | CI render-verify expected outputs — `tools/scripts/render-verify-fixtures/expected/*.{docx,pdf}` | Yes | Tracked as the byte-stable comparison baseline. |
 | Canonical style template — `tools/scripts/reference.docx` | Yes | Pandoc's `--reference-doc=` target. |
 | Stage 4 audit renders (in-session verification) | No | Render to `/tmp` (or any throwaway dir), audit, discard. The audit findings list goes to `tools/rigor-passes/`; the render itself doesn't need committing. |

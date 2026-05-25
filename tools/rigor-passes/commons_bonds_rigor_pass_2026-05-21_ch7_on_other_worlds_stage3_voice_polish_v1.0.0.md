@@ -14,7 +14,7 @@
 - Front-matter render-fix (commit `e1a533e`, 2026-05-18): byline italicization + horizontal-rule separator. Adds 2 lines to the Pass-1 audit's 248-line baseline. Not in Pass 2 scope (front-matter, not body prose).
 - Abundance Masking name-defense paragraph inserted at Ch 7:123 via widened-sweep flagship-term defense workstream (commit `2a7c336`, 2026-05-13). Pass 2 verifies the defense paragraph lands as substantive register-work (§3 F-V12 below — defense paragraph is voice-substantive but apparatus-form question surfaces independently; see §5.3 + F-V8).
 - Item 15 Ostrom-path light-de-formalize (commit `b1c17d8`, 2026-05-11): "illustrative, not exhaustive" framing at Ch 7:109 + drop "The first / The second / …" enumeration markers while keeping bolded pattern names. Pass 2 verifies enumeration-marker drop holds across the six pattern paragraphs (lines 111–121) — verdict ✓ HOLDS (§5.3 below).
-- Aeon pitch Version C ready-to-send at `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`, fire window Sun May 31 14:01 UTC. MEDIUM-8 from Pass 1 held the verbatim overlap at Ch 7:101 ("structural test the same" + "self-imposed commute lease") with no Ch 7 change. Pass 2 honors this hold; see §5.8 below.
+- Aeon pitch Version C ready-to-send at `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`, fire window Sun May 31 14:01 UTC. MEDIUM-8 from Pass 1 held the verbatim overlap at Ch 7:101 ("structural test the same" + "self-imposed commute lease") with no Ch 7 change. Pass 2 honors this hold; see §5.8 below.
 
 ---
 
@@ -29,7 +29,7 @@
 7. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md` (canonical apparatus register: Item 7 CIT dropped; Item 10 named-Theorem cross-references; Item 12 ARR full-name; Item 14 RCV Sandel-hybrid; Item 15 Ch 7 six-pattern Ostrom-path framing).
 8. `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md` (canonical-terms inventory + flagship-term canonical forms; Mars colony canonical row line 69; Europa / deep-sea biosphere row line 70; existential substitutability gap row at §9 line 243).
 9. `core/terms/terms_index.md` (apparatus-term canonical-form spot-check — Substitutability Function S Title-case; Abundance Masking Title-case framework term; existential substitutability gap lowercase prose phrase with Bostrom-lineage citation requirement on first chapter introduction per Insight #33).
-10. `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` (Aeon Version C pitch — verbatim-overlap protection at Ch 7:101).
+10. `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` (Aeon Version C pitch — verbatim-overlap protection at Ch 7:101).
 11. Memory: `feedback_voice_polish_pipeline.md` (dump → sift → polish; active editorial work expected).
 12. Memory: `feedback_audience_aware_drafting_discipline.md` (v2.0 Amendment B — voice-polish is its own pass).
 13. Memory: `feedback_substance_drives_length.md` (no padding; no cutting to fit).
@@ -635,7 +635,7 @@ Per author's per-prompt scoping + v2.0 Amendment B distinct-pass discipline:
 - ✓ Verified commit `e1a533e` (front-matter render-fix; adds 2 lines to Pass-1 baseline) exists on origin/main.
 - ✓ Verified commits `2a7c336` (Abundance Masking defense paragraph insert) + `b1c17d8` (Item 15 Ostrom-path light-de-formalize) exist on origin/main.
 - ✓ Verified Ch 7 Pass 1 artifact ratification record (§"Ratification record (closed 2026-05-20)") lists per-finding disposition for HIGH-1, MEDIUM-1 through MEDIUM-8, LOW-1 through LOW-6, and CC-1 + CC-2.
-- ✓ Verified Aeon pitch Version C ready-to-send at `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` with Sun May 31 14:01 UTC fire window still active.
+- ✓ Verified Aeon pitch Version C ready-to-send at `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` with Sun May 31 14:01 UTC fire window still active.
 - ✓ Verified Bostrom-lineage citation at Ch 7:141 satisfies terms_index line 683 + Insight #33 first-chapter-introduction discipline requirement (Bostrom 2002 + Bostrom 2014 + MacAskill 2022 + Ord 2020 + FHI/CSER literature pointer all present).
 - ✓ Built feature branch `claude/manuscript-stage-3-ch7-pass2-zealous-ptolemy-487e5f` from current origin/main (`74953b9`) per workstream handoff branch discipline.
 - ✓ Flagged the Abundance Masking apparatus-form question as a load-bearing author-judgment ratification item per §5.3 (the chapter's local sentence-case bolded pattern-name discipline vs cross-chapter terms_index Title-case framework-term discipline tension).

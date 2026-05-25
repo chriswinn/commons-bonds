@@ -7,8 +7,8 @@
 **Critical experimental constraint.** Stage 2 MUST be a fresh session — not a continuation of Stage 1. The audience-blind discipline is the load-bearing experimental claim of v2.0; bundling with Stage 1 contaminates the test.
 
 **Canonical examples.**
-- Long-form essay Stage 2: [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md)
-- Short-form pitch Stage 2: [`manuscript/essay/aeon/aeon-pitch-fresh-session_2026-05-10.md`](../../manuscript/essay/aeon/aeon-pitch-fresh-session_2026-05-10.md)
+- Long-form essay Stage 2: [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md)
+- Short-form pitch Stage 2: [`publishing/essays/aeon-mask-of-abundance/essay.md`](../../publishing/essays/aeon-mask-of-abundance/essay.md)
 
 ---
 

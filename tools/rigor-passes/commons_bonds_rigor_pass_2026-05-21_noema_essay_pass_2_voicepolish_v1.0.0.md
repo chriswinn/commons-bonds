@@ -4,7 +4,7 @@
 **Date drafted:** 2026-05-21
 **Status:** PROPOSED. Author interactive ratification + Phase C application pending per Amendment C (ratified 2026-05-19).
 **Mode:** Audit-existing-prose (post-Pass-3.1 essay state is the audit baseline; v3.1 five-pass discipline; Pass 3.2 is a distinct pass per v2.0 Amendment B carried forward).
-**Source essay:** [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) — **149 lines** (post-Pass-3.1-application state; commit `5dc3a02` 2026-05-21; verified against `origin/main` `34a5433` at session-open).
+**Source essay:** [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) — **149 lines** (post-Pass-3.1-application state; commit `5dc3a02` 2026-05-21; verified against `origin/main` `34a5433` at session-open).
 
 **Pass 3.1 cross-reference:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md) — RATIFIED + APPLIED 2026-05-21. Thirteen spot-fixes applied (4 HIGH + 5 MEDIUM + 2 LOW-or-author-modified + 2 ATG author-confirmations). F-FC-Noema-9 (Norway fund value ~$1.9T) flagged for submission-window re-verification; not a Pass 3.2 concern.
 
@@ -22,7 +22,7 @@
 
 ## §0. Source artifacts read
 
-1. [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) (post-Pass-3.1 state; 149 lines)
+1. [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) (post-Pass-3.1 state; 149 lines)
 2. [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.2: Voice-polish" (LLM-tic inventory + severity scale)
 3. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) (Stage 1 brief — §5 voice register; §7.1 locked Section I closing paragraph)
 4. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md) (Pass 3.1 — context only; fact-check findings not re-litigated)
@@ -866,7 +866,7 @@ Per author's per-prompt scoping + v3.1 distinct-pass discipline:
 
 ## §9. Hard constraints honored
 
-- ✓ Did NOT apply spot-fixes to `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`.
+- ✓ Did NOT apply spot-fixes to `publishing/essays/noema-commons-bonds/essay.md`.
 - ✓ Did NOT re-litigate Pass 3.1 fact-check findings.
 - ✓ Did NOT score Pass 3.3 / 3.4 / 3.5 concerns; flagged forward at §6.
 - ✓ Did NOT re-write paragraphs — Options + Recommendation + Reasoning offered per Amendment C §3.7.2.

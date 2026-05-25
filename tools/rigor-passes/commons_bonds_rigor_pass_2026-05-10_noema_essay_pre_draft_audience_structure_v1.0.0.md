@@ -182,7 +182,7 @@ After Stage 2 produces Essay B, run both essays through the v1.0.0 audience-load
 
 ## 11. What the fresh session should produce
 
-- **One file:** `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md` — the Stage 2 audience-blind flow draft of Essay B.
+- **One file:** `publishing/essays/noema-commons-bonds/essay.md` — the Stage 2 audience-blind flow draft of Essay B.
 - **Word count target:** ~3,800w.
 - **Header note:** mark as Stage 2 deliverable; reference this rigor pass file; do NOT apply Stage 3 in fresh session.
 - **Path B compliance:** the draft should pass a Path B audit against Ch 1 — i.e., no sentence-level reuse, no high-echo paragraphs.

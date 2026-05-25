@@ -33,10 +33,10 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` (Stage 0–5 architecture; two-class cascade)
 - `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`
 - `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md` (current state; submission queue; ratification bandwidth analysis)
-- `publishing/strategy/cascade-plan_2026-05-06.md` (stale predecessor — for context + supersession)
-- `publishing/strategy/june-2026-submission-schedule.md` (Wave 1 current cadence)
-- `publishing/strategy/decisions-log.md` (esp. 2026-05-08 platform-paragraph floor; 2026-05-09 stale-reference cleanup)
-- `publishing/strategy/cross-thread-todos.md` (active items through 2026-05-21)
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (stale predecessor — for context + supersession)
+- `publishing/essays/_pipeline/june-2026-submission-schedule.md` (Wave 1 current cadence)
+- `publishing/essays/_pipeline/decisions-log.md` (esp. 2026-05-08 platform-paragraph floor; 2026-05-09 stale-reference cleanup)
+- `publishing/essays/_pipeline/cross-thread-todos.md` (active items through 2026-05-21)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md` (Stage 0 canonical worked example)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md` (recent Stage 0 worked example — fuller scope)
 - `core/terms/terms_index.md` §3 (apparatus inventory)
@@ -398,20 +398,20 @@ Realistic — but **NOT compatible with Ch 8 firing as a Wave 2 candidate** (Pat
 - **Pipeline doctrine v1.0.0 + Amendments A/B/C:** `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + `tools/memory/feedback_audience_aware_drafting_discipline.md` (v3.1).
 - **Stage 0 template:** `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`.
 - **Stage 0 worked examples:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md`; `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md`.
-- **Strategy artifacts:** `publishing/strategy/cascade-plan_2026-05-06.md` (stale predecessor; superseded by `cascade-plan_v2_2026-05-24.md` PROPOSED in this batch); `publishing/strategy/june-2026-submission-schedule.md`; `publishing/strategy/decisions-log.md`; `publishing/strategy/cross-thread-todos.md`.
+- **Strategy artifacts:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (stale predecessor; superseded by `cascade-plan_v2_2026-05-24.md` PROPOSED in this batch); `publishing/essays/_pipeline/june-2026-submission-schedule.md`; `publishing/essays/_pipeline/decisions-log.md`; `publishing/essays/_pipeline/cross-thread-todos.md`.
 - **PM dashboard:** `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md`.
 - **Framework apparatus inventory:** `core/terms/terms_index.md` §3.
 - **FPD v1.0.0:** `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md`.
 - **Named-subject consent discipline:** `tools/memory/feedback_named_subject_consent.md`; Phat anonymization ratified worked example 2026-05-20 (in-memory record).
 - **Source chapters:** `manuscript/chapters/Chapter__2_TheMiner.md`; `manuscript/chapters/Chapter__3_TheWaterman.md`; `manuscript/chapters/Chapter__4_TheExistenceProof.md`; `manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md`.
 - **Existing essay portfolio (Wave 1 baseline for reveal map):**
-  - `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
-  - `manuscript/essay/Noema/` (Path B rewrite drafts + 2026-05-21 Pass 3.5 applied state)
-  - `manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md`
+  - `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+  - `publishing/essays/noema-commons-bonds/` (Path B rewrite drafts + 2026-05-21 Pass 3.5 applied state)
+  - `publishing/essays/atlantic-ideas-pricing-honestly/essay.md`
   - Boston Review essay drafts (BR Stage 1c COHERENCE VERIFIED `263d519`; Stage 5 RATIFIED `d34214d`)
   - $100 Barrel essay drafts (Stage 5 RATIFIED `0266525`)
-  - `publishing/op-eds/norway-sovereign-wealth-op-ed_2026-05-10.md`
-  - `publishing/op-eds/mcdowell-county-true-cost-op-ed_2026-05-10.md`
+  - `publishing/op-eds/norway-sovereign-wealth/op-ed.md`
+  - `publishing/op-eds/mcdowell-county-true-cost/op-ed.md`
 
 ---
 
@@ -423,7 +423,7 @@ NEXT: author-action-required (Ch 2, Ch 4, Ch 8 per-candidate ratifications) + ca
 AWAITING: author-ratification
 ARTIFACTS PRODUCED:
   - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md (this file)
-  - publishing/strategy/cascade-plan_v2_2026-05-24.md (companion PROPOSED artifact)
+  - publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md (companion PROPOSED artifact)
 RATIFICATION DISCIPLINE: one-at-a-time per candidate (4 separate sessions; Ch 2, Ch 3, Ch 4, Ch 8); per Pipeline Doctrine Amendment C interactive ratification protocol.
 RATIFICATION PASTE-TEXTS: tools/workstream-handoffs/wave-2-derivative-kickoffs_2026-05-24.md (per-candidate kick-off paste-text bundle).
 ```

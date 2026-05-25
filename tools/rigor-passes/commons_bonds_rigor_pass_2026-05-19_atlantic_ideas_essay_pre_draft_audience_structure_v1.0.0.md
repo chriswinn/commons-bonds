@@ -324,7 +324,7 @@ The pitch is a separate deliverable from the essay, produced *after* the Stage 2
   - **¶2 (mechanism):** one-paragraph version of the four-step Classify→Reserve→Invest→Reassess sequence as the response to the gap.
   - **¶3 (cases):** name the entering-wedges cluster (Mondragon / Vienna / Chattanooga / Norway / Alaska) as the not-utopian anchor; cite Mian + Sufi and Olson briefly as the political-economy register.
   - **¶4 (bio + comp-titles cluster + closing):** brief author bio (one or two sentences from the medium-bio paragraph at `publishing/book-proposal/03_author-platform.md`); comp-titles cluster reference (Mazzucato / Christophers / Susskind / Pistor); essay length + state ("Full essay drafted at ~4,000 words, available on request"); closing courtesy.
-- **File path:** `manuscript/essay/atlantic-ideas/atlantic-ideas-pitch-cover-email_<DATE>.md`.
+- **File path:** `publishing/essays/atlantic-ideas-pricing-honestly/atlantic-ideas-pitch-cover-email_<DATE>.md`.
 
 ---
 
@@ -332,7 +332,7 @@ The pitch is a separate deliverable from the essay, produced *after* the Stage 2
 
 **After author ratifies this Stage 1 brief**, PM session drafts Stage 2 paste-text and fires a fresh session with:
 
-- **Output file:** `manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_<DATE>.md`.
+- **Output file:** `publishing/essays/atlantic-ideas-pricing-honestly/atlantic-ideas-essay-fresh-session-draft_<DATE>.md`.
 - **Source material:** this Stage 1 brief only; NOT Ch 9.
 - **Reminder:** Stage 2 does NOT read Ch 9 prose paragraphs.
 - **Fact-question protocol:** if a fact-question surfaces during drafting, narrow fact-check against §7 canonical-facts inventory only; if §7 doesn't cover it, flag for Stage 3 rather than re-opening Ch 9.
@@ -408,7 +408,7 @@ Focus items for this essay:
 Per pipeline doctrine v1.0.0 Stage 4 (`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`). After Stage 3 five-pass closes, render the essay to its submission-format outputs (Word doc + PDF for Atlantic email submission; markdown source as canonical) and audit for character-integrity issues — em-dash rendering; ≈ / ± rendering; Unicode em-dashes vs. ASCII hyphens; quote-mark consistency (curly vs. straight); accented characters (Mondragon's Arizmendiarrieta; Saltsjöbaden; Baotou); section-break rendering.
 
 Atlantic Ideas-specific render targets:
-- **Markdown source** — canonical at `manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_<DATE>.md` post-Stage-3 edits applied.
+- **Markdown source** — canonical at `publishing/essays/atlantic-ideas-pricing-honestly/atlantic-ideas-essay-fresh-session-draft_<DATE>.md` post-Stage-3 edits applied.
 - **Word document** — for email submission attachment; verify em-dashes + accents + quote marks render cleanly in Word's default theme.
 - **PDF** — backup format; verify same.
 
@@ -479,7 +479,7 @@ If a Stage 0 pass is fired retrospectively (e.g., to surface a venue-fit concern
   - `tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md` — Stage 1 1a/1b/1c sub-step framing
   - `tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md` — Stage 4 render + character-integrity audit
   - `tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md` — Stage 5 sign-off bookend + pre-publication review queue artifact
-- **Cross-thread state (per `publishing/strategy/cross-thread-todos.md` 2026-05-21 refresh):**
+- **Cross-thread state (per `publishing/essays/_pipeline/cross-thread-todos.md` 2026-05-21 refresh):**
   - **#4 RESOLVED** 2026-05-19 (Atlantic Ideas vs. PW dual-fire; this workstream is the Atlantic Ideas arm).
   - **#5 + #6 RESOLVED** with v2.0 → v3.1 supersession noted.
   - **#7 operational portion RESOLVED**; user-action lawyer-consultation milestone open.

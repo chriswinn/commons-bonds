@@ -21,7 +21,7 @@ All three clauses fire — apply v2.0, no exceptions.
 **Required v2.0 actions for fresh sessions opening this workstream:**
 
 1. **Build a Stage 1 brief before any prose drafting.** Save as `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`. The brief must include: BR editorial-brain map (institutional/measurement frame; Submittable Essays-and-Book-Reviews stream; ~$300–$500 web-piece pay; "no previously published work" rule; "no op-eds, no unsolicited personal essays" rule); BR-specific 14-character audience pressure-test set adapted from the Aeon/Noema sets; structural anchors (Restitution Bond + Foreclosure Bond two-instrument decomposition as the spine); apparatus exclusion list (every Ch 5 internal term that the BR general readership wouldn't tolerate, marked for replacement-with-translation or omission); **canonical factual ground truth for any memoir-register material that lands in the essay** (per Amendment A — names, scenes, etymologies, numbers, scene-roles, direction-of-action of pivotal moments — even if memoir register is light in this essay). Do not skip the canonical-truth section: the Noema test produced 5+ factual drift points where a Stage 1 brief had only beats.
-2. **Trigger a fresh-session Stage 2 audience-blind flow draft.** Path B preemptive policy: do NOT open Ch 5, prior pitches, or any other source text. Work only from the Stage 1 brief. Output: `manuscript/essay/boston-review/boston-review-essay-fresh-session-draft_<DATE>.md`.
+2. **Trigger a fresh-session Stage 2 audience-blind flow draft.** Path B preemptive policy: do NOT open Ch 5, prior pitches, or any other source text. Work only from the Stage 1 brief. Output: `publishing/essays/boston-review-accountability-gap/boston-review-essay-fresh-session-draft_<DATE>.md`.
 3. **Run Stage 3 as three distinct passes (per Amendment B), in this order:**
    - **(a) Fact-check pass.** Audit the draft against the Stage 1 brief's canonical factual ground truth. Spot-fix factual drift by generating fresh prose from brief anchors — do NOT paste from Ch 5 (re-introduces Path B contamination).
    - **(b) Voice-polish pass.** Catch expository flatness, meta-commentary ("The plain definition is this:" / "That is the whole sentence." patterns), rule-of-three LLM tics, em-dash crutches, hedge phrases.
@@ -62,10 +62,10 @@ Draft Boston Review pitch (~1pp mini-prospectus) + full essay (~4,500w from Ch 5
 ## Files to read first
 
 - `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md` — source chapter (~9,574w)
-- `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` — generic variant for BR
+- `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` — generic variant for BR
 - `publishing/book-proposal/03_author-platform.md` — medium bio paragraph (drafted 2026-05-09)
-- `publishing/strategy/cascade-plan_2026-05-06.md` — Boston Review timing + venue allocation
-- `publishing/strategy/rights-register.md` — confirm no Aeon/Noema rights conflict with Ch 5 frame
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` — Boston Review timing + venue allocation
+- `publishing/essays/_pipeline/rights-register.md` — confirm no Aeon/Noema rights conflict with Ch 5 frame
 
 ## Constraints / disciplines
 

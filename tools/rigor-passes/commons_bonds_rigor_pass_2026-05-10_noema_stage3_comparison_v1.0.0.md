@@ -3,8 +3,8 @@
 **Status:** Stage 3 deliverable for the two-stage drafting-discipline experiment. Per-test verdict only; meta-verdict on the methodology framework is held for the PM session that synthesizes both per-test verdicts (this Noema test + the parallel Aeon test) once Aeon Stage 3 lands.
 
 **Inputs evaluated (in full):**
-- Essay A (control): [`manuscript/essay/Noema/noema-essay-post-pass1_2026-05-09.md`](../../manuscript/essay/Noema/noema-essay-post-pass1_2026-05-09.md) — ~4,580w body (4,677w incl. header). Drafted by close-paraphrasing Ch 1; pass-1 trims applied 2026-05-09.
-- Essay B (experimental): [`manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md) — ~4,429w body (4,578w incl. header). Stage 2 audience-blind flow-draft generated without opening Ch 1 as source text.
+- Essay A (control): [`publishing/essays/noema-commons-bonds/_archive/pre-pass1-drafts/noema-essay-post-pass1_2026-05-09.md`](../../publishing/essays/noema-commons-bonds/_archive/pre-pass1-drafts/noema-essay-post-pass1_2026-05-09.md) — ~4,580w body (4,677w incl. header). Drafted by close-paraphrasing Ch 1; pass-1 trims applied 2026-05-09.
+- Essay B (experimental): [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) — ~4,429w body (4,578w incl. header). Stage 2 audience-blind flow-draft generated without opening Ch 1 as source text.
 
 **Frameworks applied:**
 - v1.0.0 audience-load framework: [`commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md) — 14-character pressure-test set across three tiers.

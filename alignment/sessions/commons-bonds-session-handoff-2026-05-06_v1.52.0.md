@@ -13,7 +13,7 @@
 **Essay tracks active in parallel:**
 
 - **Noema** — original submission withdrawn 2026-05-01 (consent-rejection scope decision; ex-wife medical material foreclosed). Rewrite-plan ratified same day under Path B (book-first, essay paraphrases). Rewrite work cleared for activation now that Ch 1 is drafted. §V third-anchor case selection GATED on Colden interview outcome.
-- **Aeon** — first-pass pitch drafted 2026-05-04 at `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn.md`; in author review. Working pitch title placeholder "Pricing the Air"; title workshop continued next session. Mars/universality cut (closed-habitat thought experiment + six abundance-masking mechanisms + bad-actor / no-bad-actor symmetry). Pitch ~290 words. Submission target: `aeon.co/pitch` first-week-of-month window (next: first week of June). Pending upstream revision flagged in pitch file: revisit McDowell case-walk + universality framing after Darity interview.
+- **Aeon** — first-pass pitch drafted 2026-05-04 at `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn.md`; in author review. Working pitch title placeholder "Pricing the Air"; title workshop continued next session. Mars/universality cut (closed-habitat thought experiment + six abundance-masking mechanisms + bad-actor / no-bad-actor symmetry). Pitch ~290 words. Submission target: `aeon.co/pitch` first-week-of-month window (next: first week of June). Pending upstream revision flagged in pitch file: revisit McDowell case-walk + universality framing after Darity interview.
 - **Berggruen** — independent track; deadline 2026-08-17; AI-free content required. Do not touch.
 
 **Outreach pipeline (week of 2026-05-05):**
@@ -126,7 +126,7 @@ Next free insight number: **#67**.
 - Don't use retired vocabulary (Value Capture · AIT · Dynastic Labor Cost · Reparations Bond · Resource-Foreclosure Bond · Knowledge and Culture · Triangulated RCV Estimation · "dimension" as framework-register).
 - Pattern 2 register throughout drafting (demonstrate the affordance; don't codify).
 - Substance drives length (no word-count targets).
-- Never touch `manuscript/essay/berggruen/` (AI-free competition); `manuscript/essay/Noema/` is now in active rewrite (original submission docs preserved as historical record — do not modify those, but rewrite-plan + working files are active).
+- Never touch `publishing/essays/berggruen-prize-2026/` (AI-free competition); `publishing/essays/noema-commons-bonds/` is now in active rewrite (original submission docs preserved as historical record — do not modify those, but rewrite-plan + working files are active).
 
 ---
 
@@ -143,8 +143,8 @@ Next free insight number: **#67**.
 
 - Darity track: `research/outreach/_pipeline/interview-outreach-drafts_2026-05-01.md` (entry #2) + `research/outreach/subjects/darity/prereadbrief_2026-05-05.md`
 - Colden track: `research/outreach/_pipeline/interview-outreach-drafts_2026-05-04_ch3-fieldwork.md` + `research/outreach/subjects/colden/response-draft_2026-05-05_via-dimarzio.md` + `research/outreach/subjects/colden/questions-draft_2026-05-05_if-val-accepts.md`
-- Aeon track: `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn.md`
-- Noema rewrite: `manuscript/essay/Noema/rewrite-plan_2026-05-01.md` + `manuscript/essay/Noema/withdrawal-note_2026-05-01.md`
+- Aeon track: `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn.md`
+- Noema rewrite: `publishing/essays/noema-commons-bonds/_archive/planning/rewrite-plan_2026-05-01.md` + `publishing/essays/noema-commons-bonds/_archive/withdrawn-2026-05-01/withdrawal-note_2026-05-01.md`
 - Ch 1 (newly drafted): `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md` + `Chapter__1___GuidanceDoc.md` + `research/story-drafts/ch1_*` substrate files
 - Ch 3 (undrafted): `manuscript/chapters/Chapter__3___GuidanceDoc.md` + bibliography §19.5 + Colden track outputs
 

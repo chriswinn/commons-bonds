@@ -32,8 +32,8 @@ You are the PM coordination session. Your job is to keep the *Commons Bonds* pro
    - `feedback_verify_stale_memory_claims.md` — staleness
    - `feedback_audit_recent_active_review_default.md` + `feedback_audit_open_illustrative_default.md`
    - `project_book1_state_2026-05-19.md` — refreshed 2026-05-19 (supersedes `_2026-05-18.md` + `_2026-05-10.md`); still verify time-sensitive claims per stale-memory discipline
-5. `publishing/strategy/cross-thread-todos.md`
-6. `publishing/strategy/cascade-plan_2026-05-06.md` + `publishing/strategy/decisions-log.md`
+5. `publishing/essays/_pipeline/cross-thread-todos.md`
+6. `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` + `publishing/essays/_pipeline/decisions-log.md`
 7. `CLAUDE.md` — canonical workflow doctrine; merge-to-main default extended to rigor-pass artifacts (`abccb43` + `3d52a0e`)
 8. `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` — pipeline doctrine ratified 2026-05-17
 
@@ -336,7 +336,7 @@ Earlier completions still standing (since 2026-05-10): #8 Path B audit, #9 Appar
 | **14 NEW** | Memory-mirror sync (entries at `tools/memory/` + `~/.claude/projects/.../memory/`) | Memory-migration apply 2026-05-17 | All future PM sessions | Operational — sessions should read from `tools/memory/` as canonical going forward |
 | — | Author-bio updates as essays place | #4 + essay submissions | #5 author platform | Continuous |
 
-Full inventory: `publishing/strategy/cross-thread-todos.md`.
+Full inventory: `publishing/essays/_pipeline/cross-thread-todos.md`.
 
 ---
 
@@ -466,9 +466,9 @@ This file IS the PM session's working memory. Update in place as state changes. 
 
 **Index files:**
 - `tools/workstream-handoffs/README.md`
-- `publishing/strategy/cross-thread-todos.md`
-- `publishing/strategy/cascade-plan_2026-05-06.md`
-- `publishing/strategy/decisions-log.md`
+- `publishing/essays/_pipeline/cross-thread-todos.md`
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- `publishing/essays/_pipeline/decisions-log.md`
 - `CLAUDE.md` — workflow doctrine
 - `AGENTS.md` — canonical-state index (refreshed `ed5f6cf`)
 

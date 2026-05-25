@@ -16,7 +16,7 @@ Draft and submit the Berggruen Prize essay. **AI-free writing required** per Ber
 - Submission target identified: Berggruen Prize 2026
 - Hard deadline: 2026-08-17
 - Soft submission target: by 2026-08-05 (12-day buffer)
-- Seed materials directory exists: `manuscript/essay/berggruen/`
+- Seed materials directory exists: `publishing/essays/berggruen-prize-2026/`
 
 **Incomplete:**
 - Isolated working directory not yet stood up
@@ -25,22 +25,22 @@ Draft and submit the Berggruen Prize essay. **AI-free writing required** per Ber
 
 ## Next moves
 
-1. **Stand up isolated working directory** — physically separate from main repo OR enforce strict no-AI-tools discipline on `manuscript/essay/berggruen/` files. Date-stamped logs documenting AI-free process per Working Principle #9 (worktree-isolation).
-2. **Begin essay drafting** from seed materials at `manuscript/essay/berggruen/`.
+1. **Stand up isolated working directory** — physically separate from main repo OR enforce strict no-AI-tools discipline on `publishing/essays/berggruen-prize-2026/` files. Date-stamped logs documenting AI-free process per Working Principle #9 (worktree-isolation).
+2. **Begin essay drafting** from seed materials at `publishing/essays/berggruen-prize-2026/`.
 3. **First full draft target:** end of June 2026.
 4. **Polish target:** late July 2026.
 5. **Submit by 2026-08-05** (12-day buffer before Aug 17 hard deadline).
 
 ## Files to read first
 
-- `manuscript/essay/berggruen/` (directory contents — seed materials; **do-not-edit via AI tools** per AI-free requirement)
-- `publishing/strategy/cascade-plan_2026-05-06.md` (May A-track + Berggruen submission timing)
+- `publishing/essays/berggruen-prize-2026/` (directory contents — seed materials; **do-not-edit via AI tools** per AI-free requirement)
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (May A-track + Berggruen submission timing)
 - Berggruen Prize 2026 official rules (web; verify current AI-free language at session start)
 
 ## Constraints / disciplines
 
 - **AI-free writing required.** Any AI assistance — including Claude in this session — voids Berggruen Prize eligibility. **This session should not edit Berggruen essay prose directly; only coordinate / track / advise.**
-- **Isolation discipline:** physically separate working directory recommended; alternatively a strict no-AI-tools discipline on `manuscript/essay/berggruen/`.
+- **Isolation discipline:** physically separate working directory recommended; alternatively a strict no-AI-tools discipline on `publishing/essays/berggruen-prize-2026/`.
 - **Hard deadline 2026-08-17.** Soft target Aug 5 (12-day buffer for any last-minute friction).
 
 ## Cross-thread dependencies

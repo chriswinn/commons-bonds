@@ -114,7 +114,7 @@ Center-right policy reader: still relevant for non-partisan framing test; can be
 
 **Stage 1 brief at trigger time:** ~3-hour reframe. Pull Atlantic Ideas brief's §1 + §6 + §7; re-tilt §1 toward FP audience set (above); compress §4 structure (Atlantic Ideas 8-section → FP 5-paragraph); re-tighten §6 apparatus list (no Cost Severance as term-of-art). Save as `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_foreign_policy_essay_pre_draft_audience_structure_v1.0.0.md`.
 
-**Stage 2 audience-blind draft at trigger time:** ~1,200w fresh-session draft. Path B preemptive policy still applies — do NOT open Ch 9 prose. Atlantic Ideas essay draft also NOT opened (Path B equivalent for the sibling-essay relationship — the FP cut is a *different essay*, not a compression). Output: `manuscript/essay/foreign-policy/foreign-policy-essay-fresh-session-draft_<DATE>.md`.
+**Stage 2 audience-blind draft at trigger time:** ~1,200w fresh-session draft. Path B preemptive policy still applies — do NOT open Ch 9 prose. Atlantic Ideas essay draft also NOT opened (Path B equivalent for the sibling-essay relationship — the FP cut is a *different essay*, not a compression). Output: `publishing/essays/foreign-policy/foreign-policy-essay-fresh-session-draft_<DATE>.md`.
 
 **Stage 3 three-pass rigor at trigger time:** fact-check + voice-polish + audience-load, same per-prompt serial cadence. Audience-load uses the FP-specific 6-character set.
 
@@ -150,8 +150,8 @@ If FP accepts and Atlantic Ideas later revives interest in the original four-ste
 - Parent workstream: [`tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md`](atlantic-ideas-essay-handoff_2026-05-19.md)
 - Atlantic Ideas Stage 1 brief (carries forward to FP cut): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md)
 - Source chapter: `manuscript/chapters/Chapter__9_PricingHonestly.md`
-- Cascade plan venue allocation: `publishing/strategy/cascade-plan_2026-05-06.md` (Ch 9 row: Atlantic Ideas primary; Foreign Policy alternate)
-- Cross-thread item #4 resolution: `publishing/strategy/cross-thread-todos.md`
+- Cascade plan venue allocation: `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (Ch 9 row: Atlantic Ideas primary; Foreign Policy alternate)
+- Cross-thread item #4 resolution: `publishing/essays/_pipeline/cross-thread-todos.md`
 - FP submission portal: `foreignpolicy.submittable.com`
 - FP submission guidelines: `https://help.foreignpolicy.com/hc/en-us/articles/11732721893020-Submit-an-essay`
 

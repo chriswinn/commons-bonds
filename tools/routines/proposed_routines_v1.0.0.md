@@ -71,16 +71,16 @@ Steps:
    - tools/ (rigor passes, audits, routines)
 
 3. Scan for stale references in canonical living artifacts:
-   - publishing/strategy/cascade-plan_2026-05-06.md
-   - publishing/strategy/decisions-log.md
-   - publishing/strategy/rights-register.md
-   - publishing/strategy/cross-thread-todos.md
-   - manuscript/essay/Noema/rewrite-plan_2026-05-01.md
-   - manuscript/essay/Noema/noema-essay-drafting-plan_*.md
-   - manuscript/essay/aeon/aeon-submission-strategy_*.md
+   - publishing/essays/_pipeline/cascade-plan_2026-05-06.md
+   - publishing/essays/_pipeline/decisions-log.md
+   - publishing/essays/_pipeline/rights-register.md
+   - publishing/essays/_pipeline/cross-thread-todos.md
+   - publishing/essays/noema-commons-bonds/_archive/planning/rewrite-plan_2026-05-01.md
+   - publishing/essays/noema-commons-bonds/_archive/planning/noema-essay-drafting-plan_*.md
+   - publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-submission-strategy_*.md
    - For each markdown file path or commit hash referenced in those artifacts, verify the target exists / commit is reachable. Flag candidates whose target was renamed/moved/deleted.
 
-4. Read publishing/strategy/cross-thread-todos.md
+4. Read publishing/essays/_pipeline/cross-thread-todos.md
    - List items still in "Open" status
    - Flag items with target-resolution date in the past (if dated)
    - Flag items where the surfaced-by or for-thread session has been inactive > 14 days
@@ -102,7 +102,7 @@ Output format:
 - (Limit 20 findings; report "all clean" if none.)
 
 ### Open cross-thread TODOs
-- (Pull from publishing/strategy/cross-thread-todos.md "Open" section; flag overdue items.)
+- (Pull from publishing/essays/_pipeline/cross-thread-todos.md "Open" section; flag overdue items.)
 
 ### Recommended actions
 - (1-3 highest-priority items to address based on the above.)
@@ -302,14 +302,14 @@ Scan run YYYY-MM-DD. Next run: Friday next week 6:30am ET.
 You are running a weekly stale-reference scan for the Commons Bonds book project at /Users/c17n/commons-bonds.
 
 Targets (canonical living artifacts):
-- publishing/strategy/*.md
+- publishing/essays/_pipeline/*.md
 - publishing/book-proposal/*.md
 - publishing/agents/*.md
-- publishing/essay-drafts/templates/*.md
-- manuscript/essay/Noema/rewrite-plan_*.md
-- manuscript/essay/Noema/noema-essay-drafting-plan_*.md
-- manuscript/essay/aeon/aeon-submission-strategy_*.md
-- manuscript/essay/aeon/aeon-essay-dunbar-aside-drafts_*.md
+- publishing/essays/templates/*.md
+- publishing/essays/noema-commons-bonds/_archive/planning/rewrite-plan_*.md
+- publishing/essays/noema-commons-bonds/_archive/planning/noema-essay-drafting-plan_*.md
+- publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-submission-strategy_*.md
+- publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-essay-dunbar-aside-drafts_*.md
 - alignment/sessions/commons-bonds-session-handoff-*.md (latest only)
 - tools/routines/proposed_routines_*.md
 - research/outreach/_pipeline/*.md
@@ -321,14 +321,14 @@ Checks:
 
 2. **Stale path references after restructure.** Specific patterns to check:
    - `research/outreach/<subject>-<artifact>` (flat-path pattern; should now be `research/outreach/subjects/<subject>/<artifact>` post-2026-05-09 restructure)
-   - `publishing/essay-drafts/draft2.md` (archived 2026-05-08; should now be at `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md`)
-   - `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-B_alternate-frame.md` (deleted 2026-05-08; superseded by Version C)
+   - `publishing/essays/draft2.md` (archived 2026-05-08; should now be at `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md`)
+   - `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-B_alternate-frame.md` (deleted 2026-05-08; superseded by Version C)
 
 3. **Stale version references.** Check for "Version A" / "Version B" references in Aeon-context artifacts (Version C is the locked submission cut as of 2026-05-08).
 
 4. **Resolved-decision markers.** Items in "Decisions due" or "Open" sections that are actually resolved per decisions-log/git history. Cross-check against:
-   - publishing/strategy/decisions-log.md latest entries
-   - publishing/strategy/cross-thread-todos.md "Resolved" section
+   - publishing/essays/_pipeline/decisions-log.md latest entries
+   - publishing/essays/_pipeline/cross-thread-todos.md "Resolved" section
 
 5. **Date-modified lint.** For files with `**Date modified:**` headers, verify Date modified ≥ most recent commit touching the file (per git log). Flag if file has been modified more recently than the stated Date modified.
 
@@ -397,7 +397,7 @@ All four live routines run as remote agents on Anthropic cloud (environment `env
 ## Update log
 
 - **2026-04-28.** v1.0.0 drafted — four routines (daily terminology sentinel + weekly pre-submission audit + weekly rigor pass tracker + weekly Open Insights sync). Pending author ratification.
-- **2026-05-09.** v2.0.0 in-place rewrite per author direction. v1.0.0 Routine 1 deprecated; Routine 2 ratified-with-refinement; Routines 3 + 4 deferred. New routines added: 1' (cross-thread state-snapshot, every other day), 3' (weekly branch hygiene scan), 4' (weekly stale-reference scan). Companion file `publishing/strategy/cross-thread-todos.md` stood up same date.
+- **2026-05-09.** v2.0.0 in-place rewrite per author direction. v1.0.0 Routine 1 deprecated; Routine 2 ratified-with-refinement; Routines 3 + 4 deferred. New routines added: 1' (cross-thread state-snapshot, every other day), 3' (weekly branch hygiene scan), 4' (weekly stale-reference scan). Companion file `publishing/essays/_pipeline/cross-thread-todos.md` stood up same date.
 - **2026-05-09 (later same day).** All four ratified routines (1', 2-refined, 3', 4') scheduled as live remote agents. Routine 2's existing v1.0.0 trigger re-purposed in-place with the refined prompt + new cron + MCP connections cleared. Refined Routine 2 prompt (previously "rewrite pending") drafted and inlined into this spec for traceability. v1.0.0 Routine 2 prompt remains recoverable from git history.
 - **2026-05-09 (third pass, same day).** All four routines unified to a 6:30am ET cadence (cron-time refresh per author direction): 1' every other day, 2 Mondays, 3' Fridays, 4' Sundays — all firing at 30 minutes past 10am UTC during EDT season. Auto-attached Gmail + Google Drive MCP connections stripped from Routines 1', 3', 4' (Routine 2 already cleared on initial scheduling). DST-shift reminder one-shot scheduled for 2026-10-25 6:30am ET (`trig_01DZSC4uF8nZwLGVb2Bv3Nq5`) to surface the EST-anchored cron rebase punch list one week ahead of the 2026-11-01 DST shift. Confirmed v1.0.0 Routines 3 + 4 disabled triggers are gone (HTTP 404 on get).
 

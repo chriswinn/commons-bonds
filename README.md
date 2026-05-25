@@ -35,7 +35,7 @@ Vocabulary used by people solving real problems. Not royalties, not prizes, not 
 | Chapter drafts | [`manuscript/chapters/`](manuscript/chapters/) — Ch 1 ("The Quiet Math") drafted 2026-05-04; Ch 2, 4–10 drafted; Ch 3 (Watermen / Chesapeake) gated on fieldwork outreach |
 | Mathematical apparatus | [`core/technical-appendix/`](core/technical-appendix/) (HTML) |
 | Glossary | [`core/glossary/`](core/glossary/) (HTML) |
-| Essays | [`manuscript/essay/Noema/`](manuscript/essay/Noema/) (withdrawn 2026-05-01; rewrite under Path B) · [`manuscript/essay/aeon/`](manuscript/essay/aeon/) (pitch in author review; Mars/universality cut) · [`manuscript/essay/berggruen/`](manuscript/essay/berggruen/) (Berggruen Prize 2026; in progress) |
+| Essays | [`publishing/essays/`](publishing/essays/) — per-essay submission packages (Noema, Boston Review, Aeon, $100 Barrel, Atlantic Ideas, Berggruen) |
 | Research foundation | [`research/case-studies/`](research/case-studies/) (17 case studies) · [`research/literature/`](research/literature/) (bibliography incl. §19.5 Chesapeake fieldwork sources) · [`research/outreach/`](research/outreach/) (interview pipeline) |
 
 ## Ten dimensions

@@ -24,7 +24,7 @@ The preview package is what Phat reads before signing. Keep it small. The whole 
 ### What goes in the packet
 
 1. **Excerpt #1 — Section VI of the *Noema* essay.** The full Fox Hill coda. Approximately 600 words. The exact passage:
-   - **Source file:** `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`
+   - **Source file:** `publishing/essays/noema-commons-bonds/essay.md`
    - **Lines:** 130–142 (the entire Section VI block — from the Chesapeake Bay opening sentence through the mutual-aid-at-three-a.m. closing).
    - **Why these lines and not just line 137 (Phat's paragraph alone):** because the framing matters. Phat's paragraph reads differently sitting between the Bay-wide ecological context (line 131), the introduction of the Fox Hill community (line 135), the Biggie portrait (also line 135), and the mutual-aid description (line 141). He should see how his story is held by the whole.
    - **Reading time:** 5 to 10 minutes for an unhurried reader.

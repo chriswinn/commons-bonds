@@ -12,7 +12,7 @@ discipline is the only genuine new pass-work, so bundling acceptance +
 robustness preserves the v3.0 distinction without chapter-scale cadence
 overhead.
 
-**Audit target.** `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+**Audit target.** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 (297w post-Phase-C-β; ratified 2026-05-08 as the locked submission cut;
 iterated A→B→C control per
 `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`).
@@ -51,7 +51,7 @@ executed 2026-05-21 (6 days ahead of target).
 
 ## §0. Source artifacts read
 
-1. `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` —
+1. `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` —
    audit target (post-Phase-C-β; 297w; line 47 *"pricing framework first,
    an analytical lens second"*).
 2. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
@@ -549,7 +549,7 @@ applied to the pitch in this session per Pass 3.3 + 3.4 hard constraint
 
 ## §10. Cross-references
 
-- Audit target (post-Phase-C-β): `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+- Audit target (post-Phase-C-β): `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 - Pass 3.1 (fact-check) RATIFIED + APPLIED: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_aeon_pitch_version_c_pass_1_factcheck_v1.0.0.md`
 - Pass 3.2 (voice-polish) RATIFIED + APPLIED: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_2_voicepolish_v1.0.0.md`
 - Stage 1 brief (audience set §1 + canonical content §7): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`

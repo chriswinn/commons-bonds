@@ -2,7 +2,7 @@
 
 **Date drafted:** 2026-05-24 (Sun). Supersedes [`pm-session-handoff_2026-05-18.md`](pm-session-handoff_2026-05-18.md) (which covered the 2026-05-18 → 2026-05-23 window via in-place updates including refresh `aa04a4a`).
 **Companion artifact:** [`pm-mobile-todo-dashboard_2026-05-15.md`](pm-mobile-todo-dashboard_2026-05-15.md) — mobile-scope cut. Stale; refresh after this dashboard ratifies.
-**Companion artifact:** [`../../publishing/strategy/june-2026-submission-schedule.md`](../../publishing/strategy/june-2026-submission-schedule.md) — authoritative June cadence (2026-05-21); this dashboard extends it with parallel-submission strategic call requested by author 2026-05-24.
+**Companion artifact:** [`../../publishing/essays/_pipeline/june-2026-submission-schedule.md`](../../publishing/essays/_pipeline/june-2026-submission-schedule.md) — authoritative June cadence (2026-05-21); this dashboard extends it with parallel-submission strategic call requested by author 2026-05-24.
 **Session type:** Parallel coordination session. Tracks state, surfaces dependencies, manages todos, flags deadlines.
 
 **State note (session start, 2026-05-24).** This file is written in worktree `/Users/c17n/commons-bonds` on branch `claude/ch6-pass-3-3-light-refire-1fae85`, which is **9 commits behind `origin/main`** (sister sessions have auto-merged content through `a57532c`). The dashboard below reflects `origin/main` canonical state, not local worktree state. To bring this PM artifact onto `origin/main`, either rebase this branch onto `origin/main` then merge, or cherry-pick this file onto a fresh `claude/pm-session-<harness-id>` branch.
@@ -22,10 +22,10 @@ You are the PM coordination session. Your job is to keep the *Commons Bonds* pro
 ## 1. Read order
 
 1. THIS file — §2–§5 first (action drivers); §6–§8 are the two new dashboards the author requested 2026-05-24.
-2. [`../../publishing/strategy/june-2026-submission-schedule.md`](../../publishing/strategy/june-2026-submission-schedule.md) — June cadence + rate-limiting factors.
+2. [`../../publishing/essays/_pipeline/june-2026-submission-schedule.md`](../../publishing/essays/_pipeline/june-2026-submission-schedule.md) — June cadence + rate-limiting factors.
 3. [`README.md`](README.md) — workstream handoff index.
 4. Memory: [`../memory/feedback_pm_dashboard_structure.md`](../memory/feedback_pm_dashboard_structure.md), [`../memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md), [`../memory/feedback_verify_stale_memory_claims.md`](../memory/feedback_verify_stale_memory_claims.md), [`../memory/feedback_named_subject_consent.md`](../memory/feedback_named_subject_consent.md).
-5. [`../../publishing/strategy/cross-thread-todos.md`](../../publishing/strategy/cross-thread-todos.md), [`../../publishing/strategy/decisions-log.md`](../../publishing/strategy/decisions-log.md).
+5. [`../../publishing/essays/_pipeline/cross-thread-todos.md`](../../publishing/essays/_pipeline/cross-thread-todos.md), [`../../publishing/essays/_pipeline/decisions-log.md`](../../publishing/essays/_pipeline/decisions-log.md).
 
 ---
 
@@ -302,7 +302,7 @@ Plus the 4 essay-side ratifications already in §4. **Total: ~9 ratifications ac
 
 | Parent session | Child session | Trigger | Resume marker |
 |---|---|---|---|
-| e.g., `claude/atlantic-ideas-stage1-<h1>` | `claude/atlantic-ideas-stage2-<h2>` | "fire fresh session to minimize LLM tics for Stage 2 audience-blind draft" | Stage 2 draft PROPOSED at `manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_<DATE>.md` |
+| e.g., `claude/atlantic-ideas-stage1-<h1>` | `claude/atlantic-ideas-stage2-<h2>` | "fire fresh session to minimize LLM tics for Stage 2 audience-blind draft" | Stage 2 draft PROPOSED at `publishing/essays/atlantic-ideas-pricing-honestly/atlantic-ideas-essay-fresh-session-draft_<DATE>.md` |
 | ... | ... | ... | ... |
 
 **Cognitive-saturation signal.** If accept-recommendation rate falls below ~60% sustained across multiple sessions: switch from sprint → sustained → blocked mode per [`../memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md) §"Cognitive sustainability."
@@ -380,10 +380,10 @@ Per `CLAUDE.md`: Sessions completing author-ratified content changes auto-fast-f
 ## 14. Reference inventory
 
 **Strategy artifacts:**
-- [`../../publishing/strategy/june-2026-submission-schedule.md`](../../publishing/strategy/june-2026-submission-schedule.md) — authoritative June cadence
-- [`../../publishing/strategy/cascade-plan_2026-05-06.md`](../../publishing/strategy/cascade-plan_2026-05-06.md) — full strategy (stale per author 2026-05-21; full refresh queued)
-- [`../../publishing/strategy/decisions-log.md`](../../publishing/strategy/decisions-log.md) — append-only decision record
-- [`../../publishing/strategy/cross-thread-todos.md`](../../publishing/strategy/cross-thread-todos.md)
+- [`../../publishing/essays/_pipeline/june-2026-submission-schedule.md`](../../publishing/essays/_pipeline/june-2026-submission-schedule.md) — authoritative June cadence
+- [`../../publishing/essays/_pipeline/cascade-plan_2026-05-06.md`](../../publishing/essays/_pipeline/cascade-plan_2026-05-06.md) — full strategy (stale per author 2026-05-21; full refresh queued)
+- [`../../publishing/essays/_pipeline/decisions-log.md`](../../publishing/essays/_pipeline/decisions-log.md) — append-only decision record
+- [`../../publishing/essays/_pipeline/cross-thread-todos.md`](../../publishing/essays/_pipeline/cross-thread-todos.md)
 
 **Memory (mirrored at `tools/memory/`):**
 - `feedback_pm_dashboard_structure.md` — v2.0 structure

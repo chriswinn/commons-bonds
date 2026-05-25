@@ -6,7 +6,7 @@
 **Status:** **RATIFIED — recommended bundle (§6.1 Option C + §6.2 Option C
 + §6.3 Option A).** Phase C application pending (separate session).
 **Branch:** `claude/ch6-ch8-ta-coal-co2-methodology-reconciliation-stage1c`.
-**Parent workstream:** Manuscript Stage-3 Rigor Pass (PM dashboard #20); routed via cross-thread #12 in [`publishing/strategy/cross-thread-todos.md`](../../publishing/strategy/cross-thread-todos.md#12-ch-8-line-73-coal-co-short-ton-accounting-cascade--pre-existing-finding-for-ch-8-pass-1).
+**Parent workstream:** Manuscript Stage-3 Rigor Pass (PM dashboard #20); routed via cross-thread #12 in [`publishing/essays/_pipeline/cross-thread-todos.md`](../../publishing/essays/_pipeline/cross-thread-todos.md#12-ch-8-line-73-coal-co-short-ton-accounting-cascade--pre-existing-finding-for-ch-8-pass-1).
 
 ---
 
@@ -65,7 +65,7 @@ recommendation at §7).
   Ch 8 spot-fixes. Did not include the cross-thread #12 cascade fix.
 
 - **2026-05-21 (PM session third pass).** Cross-thread #12 status note added
-  to `publishing/strategy/cross-thread-todos.md`: "Ch 8 Pass 1 Phase C
+  to `publishing/essays/_pipeline/cross-thread-todos.md`: "Ch 8 Pass 1 Phase C
   (commit `5fe6af6`, 2026-05-21) did NOT absorb the Ch 6 canonical coal-CO₂
   cascade fix; [Chapter__8_WhatThingsActuallyCost.md:72] still reads '2.86
   tons' + 'five hundred and forty-four dollars.' Cascade-fix kick-off
@@ -580,7 +580,7 @@ required.
 
 ### §5.7 Cross-thread #12 status update
 
-File: `publishing/strategy/cross-thread-todos.md`, entry #12.
+File: `publishing/essays/_pipeline/cross-thread-todos.md`, entry #12.
 
 Current #12 status: "open — known fix pending; documented for Ch 8 Pass 1
 audit to absorb into its scope." Stale recommended-edit text quotes the
@@ -999,7 +999,7 @@ SHAs verified visible in origin/main as of session start (5e260a3 → 02c6a19
 
 Cross-chapter consistency inventory line 111 + line 112 verified against
 current state. Cross-thread #12 entry verified against current
-`publishing/strategy/cross-thread-todos.md` state (entry at line 114; 2026-
+`publishing/essays/_pipeline/cross-thread-todos.md` state (entry at line 114; 2026-
 05-21 status note at update-log line 199).
 
 ---

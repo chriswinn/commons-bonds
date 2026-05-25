@@ -10,7 +10,7 @@ relocated: 2026-05-01 from `alignment/commons_bonds_personal_stories_candidates_
 
 **Layer:** Book 2 seed material per WP#10 (Two-layer content origination discipline). NOT for Book 1 publisher-facing draft. Politically-charged subject matter requires Book 2's coauthor + institutional-affiliation activation gates per `tools/commons_bonds_book_scope_v1_0_3.md` §6.1.
 
-**Provenance:** captured 2026-05-01 during `publishing/essay-drafts/draft2.md` development (lines 135-143 author articulation + collaborative response). Sharpened same-day via author articulation of the 12-13-year-old example + double-severance pattern.
+**Provenance:** captured 2026-05-01 during `publishing/essays/draft2.md` development (lines 135-143 author articulation + collaborative response). Sharpened same-day via author articulation of the 12-13-year-old example + double-severance pattern.
 
 ---
 
@@ -18,7 +18,7 @@ relocated: 2026-05-01 from `alignment/commons_bonds_personal_stories_candidates_
 
 > *"the people that removed the ability to have an abortion are the same ones that removed the social support of healthcare, food, shelter, and education... while the system may not be forcing the creation of slaves 'at least in name' it is very much forcing the creation of 'consumers' which will then get saddled with huge bills at birth for their birth, as well as for every other thing they consume and spend money on as the system extracts value, labor and money directly from that person from birth until after death when the system has someone pay for a plot and casket for you."*
 
-Source: `publishing/essay-drafts/draft2.md` lines 135-143.
+Source: `publishing/essays/draft2.md` lines 135-143.
 
 ## §2. Sharpened articulation (2026-05-01 same-day; canonical for Book 2)
 
@@ -76,7 +76,7 @@ The **structural pattern** (mandate-without-support produces manufactured cost-b
 
 Candidate non-charged illustrations (ALL of these would need rigor against Insight #13 + Insight #25 audience-cell matrix):
 
-- **Pension-to-401(k) shift** (already in `publishing/essay-drafts/draft2.md` §II line 26 — politically settled; structurally illuminating; coercion-via-default-employer-architecture + cost severance + extraction)
+- **Pension-to-401(k) shift** (already in `publishing/essays/draft2.md` §II line 26 — politically settled; structurally illuminating; coercion-via-default-employer-architecture + cost severance + extraction)
 - **2008 financial crisis** (already in `draft2.md` §II line 26 — politically settled in retrospect; demonstrates the pattern at scale)
 - **Unfunded education mandates** (No Child Left Behind without funding; politically-debated but not partisan-tribal)
 - **Tax-credit phaseout cliff effects** (creates incentive structures that punish recipients for income gains; mandate-without-graceful-support; politically-non-charged framing available)
@@ -111,7 +111,7 @@ The double-severance pattern recurring across these domains would be load-bearin
 ## §10. Cross-references
 
 - `alignment/commons_bonds_personal_stories_candidates_v1.0.0.md` Candidate #10 stub — points back to this file as canonical Book 2 seed
-- `publishing/essay-drafts/draft2.md` lines 135-143 — original conversational articulation
+- `publishing/essays/draft2.md` lines 135-143 — original conversational articulation
 - `archive/_OneDayMaybe/book-two/README.md` — Book 2 scope + activation triggers
 - `alignment/decisions/april-19-consumer-generation-observation.md` — pre-existing Book 2 scope decision on consumer-generation observation
 - `alignment/decisions/april-19-publishing-strategy-reproductive-labor.md` — pre-existing Book 2 scope decision on reproductive-labor / subsidy-generation argument

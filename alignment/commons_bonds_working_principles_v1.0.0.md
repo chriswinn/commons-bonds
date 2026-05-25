@@ -534,7 +534,7 @@ All new framework content is classified at origination as **internal-scaffolding
 | Layer | What lives here | Discipline |
 |---|---|---|
 | **Internal scaffolding** | `.claude/` · `tools/` · `core/methodology/` · `alignment/` · `research/` · `archive/` | Rich; preserves methodology notes, worked examples, research-grade depth, literature audits, audit trail, decision-time-application drafts, Book 2 / Book 3 seed material, framework-supporting material that doesn't need publisher-facing exposure |
-| **External publisher-facing** | `manuscript/chapters/*` · `core/glossary/*` · `core/technical-appendix/*` · `manuscript/essay/*` | Disciplined per WP#8 (scrubbed of audit-trail content) + Pattern 2 demonstration (threaded through cases rather than codified in dedicated how-to / methodology sections — the *Doughnut Economics* / *Mission Economy* / *Mine!* model) |
+| **External publisher-facing** | `manuscript/chapters/*` · `core/glossary/*` · `core/technical-appendix/*` · `publishing/essays/*` | Disciplined per WP#8 (scrubbed of audit-trail content) + Pattern 2 demonstration (threaded through cases rather than codified in dedicated how-to / methodology sections — the *Doughnut Economics* / *Mission Economy* / *Mine!* model) |
 
 **Cross-layer flow:**
 

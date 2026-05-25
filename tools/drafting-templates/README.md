@@ -377,7 +377,7 @@ For each stage, recent worked examples (refreshed 2026-05-24):
 | Stage 0 (essay-side) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md` |
 | Stage 1 (long-form) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md` |
 | Stage 1 (short-form) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` |
-| Stage 2 | `manuscript/essay/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0.md` (Draft A; comparative-audit-winning execution) |
+| Stage 2 | `publishing/essays/100-barrel/essay.md` (Draft A; comparative-audit-winning execution) |
 | Stage 2 (parallel-variant comparative) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md` |
 | Stage 3 Pass 3.1 (fact-check) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md` |
 | Stage 3 Pass 3.2 (voice-polish) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_boston_review_essay_stage3_voice_polish_v1.0.0.md` |

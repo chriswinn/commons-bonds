@@ -17,7 +17,7 @@ out-of-scope:
   - Applying any Part B replacement in this session.
   - Submitting to Noema (author submits manually).
 inputs:
-  - `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md` (Essay B, current submission candidate).
+  - `publishing/essays/noema-commons-bonds/essay.md` (Essay B, current submission candidate).
   - `manuscript/chapters/Chapter__3___GuidanceDoc.md` §4 + §5 (consent table + source catalogue; post-2026-05-20 revision).
   - `research/outreach/subjects/phat/phat-mentions-inventory_2026-05-10.md` (catalogued appearances + restoration recipe).
   - `tools/memory/feedback_named_subject_consent.md` (discipline + worked example).

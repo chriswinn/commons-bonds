@@ -30,11 +30,11 @@ Manage the Aeon pitch submission. Aeon's model: pitch-first via portal; if accep
 
 ## Files to read first
 
-- `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` — locked submission
-- `manuscript/essay/aeon/aeon-submission-strategy_2026-05-08.md` — submission timing + fallback plan
-- `manuscript/essay/aeon/aeon-essay-dunbar-aside-drafts_2026-05-08.md` — for post-acceptance phase
-- `publishing/essay-drafts/templates/ai-disclosure-paragraph.md` — Aeon master variant
-- `publishing/strategy/cascade-plan_2026-05-06.md` (Aeon line in Current state + Critical files Aeon block)
+- `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` — locked submission
+- `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-submission-strategy_2026-05-08.md` — submission timing + fallback plan
+- `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-essay-dunbar-aside-drafts_2026-05-08.md` — for post-acceptance phase
+- `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` — Aeon master variant
+- `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (Aeon line in Current state + Critical files Aeon block)
 
 ## Constraints / disciplines
 

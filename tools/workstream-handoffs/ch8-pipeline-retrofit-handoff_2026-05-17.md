@@ -38,7 +38,7 @@ Per the retrofit table in [`README.md`](README.md): **1a + 1c + 3.1 verify + 3.2
 
 - **Cross-chapter $44B sync (commit `cacb82d`).** Ch 2 + Ch 8 were jointly corrected from Program-vs-Trust-Fund framing drift to match Ch 5/6 canonical. Stage 1c re-verifies the alignment held + that any new Pass 1 spot-fixes don't re-introduce drift.
 - **McDowell County canonical anchors.** Ch 8 + Ch 6 + op-ed + TA §11.6 share McDowell anchors. Stage 1c surfaces; Pass 3.1 verify cross-checks the canonical-figure cluster.
-- **Op-ed derivative relationship.** Ch 8 sources the McDowell County true-cost op-ed at `publishing/op-eds/mcdowell-county-true-cost-op-ed_2026-05-10.md`. Cross-coherence is a Stage 1c check.
+- **Op-ed derivative relationship.** Ch 8 sources the McDowell County true-cost op-ed at `publishing/op-eds/mcdowell-county-true-cost/op-ed.md`. Cross-coherence is a Stage 1c check.
 - **Cross-chapter rent-seeking handoff readiness.** Ch 8 is one of the touched chapters in the cross-chapter rent-seeking workstream. Sequencing: prefer AFTER rent-seeking workstream touches land.
 - **Coal CO₂ canonical (2.32 mt/short ton bituminous).** TA-side MEDIUM-11 cascade applied to Ch 6 + op-eds; Ch 8 should align if it references the per-ton CO₂ figure.
 
@@ -50,7 +50,7 @@ Per the retrofit table in [`README.md`](README.md): **1a + 1c + 3.1 verify + 3.2
 - Retrofit template: [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
 - Pass 1 PROPOSED: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-16_ch8_what_things_actually_cost_stage3_fact_check_v1.0.0.md`
 - $44B cross-chapter sync: commit `cacb82d`
-- McDowell op-ed: `publishing/op-eds/mcdowell-county-true-cost-op-ed_2026-05-10.md`
+- McDowell op-ed: `publishing/op-eds/mcdowell-county-true-cost/op-ed.md`
 - Cross-chapter rent-seeking workstream: [`cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md)
 
 ---

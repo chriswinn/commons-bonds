@@ -76,7 +76,7 @@ This consent covers the specific materials I am showing you today — listed bel
 
 **Materials shown to you on [DATE OF CONVERSATION]:**
 
-- [ ] Section VI of the *Noema* essay — the full ~600-word section beginning "The Chesapeake Bay is the largest estuary in North America..." and including the paragraphs about Biggie, about you, and about the mutual-aid morning when watermen show up at three a.m. to mend each other's nets. (Source file: `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`, lines 130–142.)
+- [ ] Section VI of the *Noema* essay — the full ~600-word section beginning "The Chesapeake Bay is the largest estuary in North America..." and including the paragraphs about Biggie, about you, and about the mutual-aid morning when watermen show up at three a.m. to mend each other's nets. (Source file: `publishing/essays/noema-commons-bonds/essay.md`, lines 130–142.)
 - [ ] The Chapter 3 excerpt from the book *Commons Bonds* — Fox Hill establishing block + the section about Biggie + the section about you, with a side-by-side comparison showing the small disclaimer sentences that would be removed if you sign. Approximately 2,100 words. (Preview package documented at `research/outreach/subjects/phat/ch3-preview-package_2026-05-10.md`; the Phat-facing pages of that file are what gets printed and handed to you.)
 - [ ] [If applicable, list any other excerpts the author shows Phat — for example, a future essay excerpt that draws on the same material. As of 2026-05-10, the *Noema* Section VI excerpt and the Chapter 3 excerpt are the publisher-facing prose containing material about you.]
 

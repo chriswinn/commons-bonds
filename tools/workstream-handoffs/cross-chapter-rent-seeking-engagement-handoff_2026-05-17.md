@@ -187,7 +187,7 @@ Probably no insertion needed; Ch 6 develops cost-counting methodology, which is 
 
 4. **Each touched chapter gets a focused mini-rigor-pass** (similar to a Pass-1 / Pass-2 follow-up rather than a full three-pass rerun) verifying the insertion lands cleanly + doesn't trip the chapter's existing audience-load verdicts.
 
-5. **PM session adds a cross-thread flag** in `publishing/strategy/cross-thread-todos.md` if any chapter-specific audience-load discounts surface from the inserted content (parallel to the Ch 1 Pass-3 center-right discount disposition).
+5. **PM session adds a cross-thread flag** in `publishing/essays/_pipeline/cross-thread-todos.md` if any chapter-specific audience-load discounts surface from the inserted content (parallel to the Ch 1 Pass-3 center-right discount disposition).
 
 **Dependencies:**
 - Ch 9 must exist in a near-final state. (Verify: per workstream #20 Phase A schedule, Ch 9 fact-check Pass 1 PROPOSED landed 2026-05-15 commit `9720da0`; voice-polish Pass 2 + audience-load Pass 3 pending.)
@@ -224,7 +224,7 @@ Probably no insertion needed; Ch 6 develops cost-counting methodology, which is 
 **Estimated session length:** moderate (single session). Four touches to apply + brief verification reads per chapter; no from-scratch drafting required given the §5 drafts.
 **Branch:** `claude/rent-seeking-engagement-<harness-id>`.
 **Merge-to-main default:** per CLAUDE.md, post-author-ratification spot-fix application sessions autonomously fast-forward merge to main; this workstream qualifies once author ratifies the §5 draft content.
-**Cross-thread items:** add entry in `publishing/strategy/cross-thread-todos.md` (PM-session task).
+**Cross-thread items:** add entry in `publishing/essays/_pipeline/cross-thread-todos.md` (PM-session task).
 
 **Cross-thread coherence flags:**
 - Touches multiple chapters; verify post-application that each chapter's three-pass rigor cycle remains CLOSED (no new audience-load discounts).
@@ -256,7 +256,7 @@ Probably no insertion needed; Ch 6 develops cost-counting methodology, which is 
 
 3. **Ch 1 Pass 3 REAUDIT v3 doc update** (per §7 open question 5 + §8 cross-thread coherence) — the REAUDIT doc's §5.3 thread-pull synthesis should be updated to record that the rent-seeking engagement thread is RESOLVED. **Disposition: minor doc-state update; can land as a small standalone commit or fold into the next Ch 1 dashboard touch.**
 
-4. **Cross-thread-todos entry** (per §6 step 5 + §8) — add an entry to `publishing/strategy/cross-thread-todos.md` flagging the engagement landed + pointing at this ratification log. **Disposition: small PM-session task; can land in the next dashboard refresh.**
+4. **Cross-thread-todos entry** (per §6 step 5 + §8) — add an entry to `publishing/essays/_pipeline/cross-thread-todos.md` flagging the engagement landed + pointing at this ratification log. **Disposition: small PM-session task; can land in the next dashboard refresh.**
 
 **Standing reference:** this workstream's §5 draft content + §6 sequencing logic + §7 open questions remain as the canonical reference if any of the four touches needs to be revisited or re-engaged (e.g., if Sandy or another reviewer surfaces a follow-up critique of the engagement).
 

@@ -40,7 +40,7 @@ Sub-steps to fire this session:
 
 - **GPFG canonical anchors refresh.** TA verification round 2026-05-14 refreshed canonical figures: cumulative production 8.7 → 8.9B Sm³ o.e.; per-citizen share $380K-$400K → $356K-$391K; population 5.62M. Stage 1c surfaces; Pass 3.1 verifies the chapter's references align with current canonical. If Ch 4 cites the older single-point figures, propose Phase C update.
 - **Existence-proof framing.** Norway-as-existence-proof for the framework's bond-instrument apparatus is Ch 4's load-bearing argument. Pass 3.4 adversarial set should stress-test the framing against: libertarian critique (GPFG is state-managed; framework's bond-instruments are necessarily state-enforced); industry-funded energy economist (Norway-specific exceptionalism — does the proof generalize?); orthodox-econ reader (sovereign wealth fund vs cost-internalization conceptual distinction).
-- **Op-ed derivative relationship.** Ch 4 sources the Norway sovereign-wealth-fund op-ed at `publishing/op-eds/norway-sovereign-wealth-op-ed_2026-05-10.md`; cross-coherence with that op-ed is a Stage 1c check.
+- **Op-ed derivative relationship.** Ch 4 sources the Norway sovereign-wealth-fund op-ed at `publishing/op-eds/norway-sovereign-wealth/op-ed.md`; cross-coherence with that op-ed is a Stage 1c check.
 - **Cross-chapter handoff readiness.** Ch 4 may need bond-instrument-mechanics cross-reference to Ch 5 (Restitution + Foreclosure Bonds per Pass 2 work) + Ch 6 (Three Methods + Four Gates).
 
 ---
@@ -51,7 +51,7 @@ Sub-steps to fire this session:
 - Retrofit template: [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
 - Pass 2 PROPOSED commit: `3174cc8`
 - TA verification round (canonical Norway anchors): `tools/rigor-passes/tech_appendix_verification_round_2026-05-14.md`
-- Norway op-ed: `publishing/op-eds/norway-sovereign-wealth-op-ed_2026-05-10.md`
+- Norway op-ed: `publishing/op-eds/norway-sovereign-wealth/op-ed.md`
 
 ---
 

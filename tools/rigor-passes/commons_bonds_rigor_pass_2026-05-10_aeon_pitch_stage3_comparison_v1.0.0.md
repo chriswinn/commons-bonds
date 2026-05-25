@@ -3,11 +3,11 @@
 **Status:** Stage 3 deliverable for the two-stage drafting-discipline methodology experiment, **Test #2 of 2** (Aeon pitch). Companion test (Test #1) is the Noema essay; its Stage 3 session runs in parallel and is intentionally blind to this one. Per-test verdict only — meta-verdict is a separate PM-session synthesis after both per-test verdicts land.
 
 **Inputs:**
-- **Pitch A (control):** `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` — ratified 2026-05-08 for the Mon Jun 1 2026 Aeon portal window. **Default state if Stage 3 returns "A wins" or "mixed" is: submit Version C as planned.**
-- **Pitch B (experimental):** `manuscript/essay/aeon/aeon-pitch-fresh-session_2026-05-10.md` — Stage 2 audience-blind flow-draft, generated without reading Ch 7 / Pitch Version A / Pitch Version C as source texts.
+- **Pitch A (control):** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` — ratified 2026-05-08 for the Mon Jun 1 2026 Aeon portal window. **Default state if Stage 3 returns "A wins" or "mixed" is: submit Version C as planned.**
+- **Pitch B (experimental):** `publishing/essays/aeon-mask-of-abundance/essay.md` — Stage 2 audience-blind flow-draft, generated without reading Ch 7 / Pitch Version A / Pitch Version C as source texts.
 - **Stage 1 brief:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` — supplies the audience pressure-test character set, editorial-brain map, structural decisions, voice register, carry-forward inventory, and the embedded Stage 3 protocol (§10–§11) executed below.
 - **Discipline memory:** `feedback_audience_aware_drafting_discipline.md`.
-- **Stage 2 brief:** `manuscript/essay/aeon/aeon-session-handoff_2026-05-10.md`.
+- **Stage 2 brief:** `publishing/essays/aeon-mask-of-abundance/_archive/session-handoffs/aeon-session-handoff_2026-05-10.md`.
 
 **Methodology discipline:** Cross-cut criterion-by-criterion, not pitch-by-pitch. Each criterion is applied to A and B before moving to the next. Default-bias toward the ratified Version C unless B convincingly wins.
 
@@ -312,9 +312,9 @@ Per the experimental protocol: this Stage 3 session produces a per-test verdict 
 
 **Cross-references:**
 - Stage 1 brief: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
-- Pitch A (control): `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
-- Pitch B (experimental): `manuscript/essay/aeon/aeon-pitch-fresh-session_2026-05-10.md`
-- Stage 2 brief: `manuscript/essay/aeon/aeon-session-handoff_2026-05-10.md`
+- Pitch A (control): `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+- Pitch B (experimental): `publishing/essays/aeon-mask-of-abundance/essay.md`
+- Stage 2 brief: `publishing/essays/aeon-mask-of-abundance/_archive/session-handoffs/aeon-session-handoff_2026-05-10.md`
 - Discipline memory: `feedback_audience_aware_drafting_discipline.md`
 - Title rigor pass (where *The Mask of Abundance* was ratified): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md`
 - PM session handoff: `tools/workstream-handoffs/pm-session-handoff_2026-05-10.md`

@@ -27,7 +27,7 @@ Three lengths cover the venue cascade. Pick the variant whose word count fits th
 ### Discipline notes
 
 - **Don't manufacture platform.** No "leading scholar of..." / "widely cited..." / similar inflation.
-- **Don't lead with the AI collaboration.** That belongs in the AI-disclosure paragraph (`publishing/essay-drafts/templates/ai-disclosure-paragraph.md`), not in the bio.
+- **Don't lead with the AI collaboration.** That belongs in the AI-disclosure paragraph (`publishing/essays/_shared/templates/ai-disclosure-paragraph.md`), not in the bio.
 - **Update on placements.** Once an essay places at Aeon / Noema / Boston Review / etc., the bio adds a "Recent essays in [venue]" clause to the medium and long versions. Track placements in the Placements section below; revise bios as placements accumulate.
 - **Voice consistent across all three** — direct, unembellished, framework-substance + lived-experience as the strategic asset.
 

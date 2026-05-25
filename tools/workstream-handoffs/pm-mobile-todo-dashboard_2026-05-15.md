@@ -20,7 +20,7 @@ These are the *only* gates on the Noema submission. Each is user-action; PM sess
 | # | Action | Why P0 | Mobile-effort |
 |---|---|---|---|
 | **1** | **Phat consent outreach** (Phat or his family) | Sole remaining gate on Noema submission. Package ready at [`research/outreach/subjects/phat/`](../../research/outreach/subjects/phat/) (commits `585d535` + `721c094` + `9aee0af`). Per `feedback_named_subject_consent.md`, living named subjects stay anonymized until signed. | Compose + send one message. |
-| **2** | **Apply consent decision to Essay B line 136** of [`noema-essay-fresh-session-draft_2026-05-10.md`](../../manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md). Current anonymized text: *"a crabber and fisherman my father had known since he was small."* Signed → restore Phat's actual name. Declined / unreachable → keep anonymization. | Either decision unblocks Noema. | 1-line edit. |
+| **2** | **Apply consent decision to Essay B line 136** of [`noema-essay-fresh-session-draft_2026-05-10.md`](../../publishing/essays/noema-commons-bonds/essay.md). Current anonymized text: *"a crabber and fisherman my father had known since he was small."* Signed → restore Phat's actual name. Declined / unreachable → keep anonymization. | Either decision unblocks Noema. | 1-line edit. |
 | **3** | **Apply same decision to Ch 3** in [`Chapter__3_TheWaterman__Draft.md`](../../manuscript/chapters/Chapter__3_TheWaterman__Draft.md). | Same gate as #2; must match. | 1-line edit. |
 
 ---

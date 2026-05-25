@@ -20,15 +20,19 @@ The boundary that matters: **end-user-facing prose** vs.
 BEFORE merge to main):
 
 - `manuscript/chapters/` — book chapter prose
-- `manuscript/essay/` — derivative-essay prose (Aeon, Noema, BR,
-  PW, Atlantic Ideas, Wave 2 candidates, etc.)
-- `publishing/op-eds/` — op-ed canonical drafts (news-peg
-  activation variants in dated sibling files are derivatives)
+- `publishing/essays/<venue>/essay.md` + `cover-letter.md` —
+  derivative-essay prose + cover notes (Aeon, Noema, BR, PW,
+  Atlantic Ideas, $100 Barrel, Berggruen, Wave 2 candidates,
+  etc.). Per-essay submission packages.
+- `publishing/op-eds/<slug>/op-ed.md` — op-ed canonical drafts
+  (news-peg activation variants in dated sibling files inside the
+  per-op-ed directory are derivatives)
 - `publishing/book-proposal/` — proposal prose (agent/editor-
   facing)
+- `publishing/agents/<agent-slug>/query-letter.md` +
+  `correspondence/` — outbound literary-agent communication
 - Outreach packet content that will be sent to subjects (Sandy,
-  Colden, CBF, etc.)
-- Cover letters / pitch emails attached to submissions
+  Colden, CBF, etc.) under `research/outreach/subjects/<name>/`
 - Anything that goes out the door to anyone other than the author
 
 Apply changes to these files via Phase C application sessions
@@ -48,7 +52,7 @@ to main at session close):
   drafting-trigger paste-texts
 - `tools/quality-gates/`, `tools/scripts/`, `tools/audits/` —
   pipeline infrastructure
-- `publishing/strategy/` — cascade plans, decisions logs,
+- `publishing/essays/_pipeline/` — cascade plans, decisions logs,
   cross-thread-todos, submission schedules
 - `research/` — research notes, outreach packet DRAFTS (before
   send), background briefs, literature notes

@@ -23,15 +23,15 @@ Book-success criteria evaluated against:
 
 - **Source material:** `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` §III (lines 66–126), full §II–VII for surrounding context.
 - **Workstream handoff:** `tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`.
-- **Cascade plan:** `publishing/strategy/cascade-plan_2026-05-06.md` (12-month sequence; venue allocation; Wave 1 green-light rule; comp-titles).
-- **Cross-thread state:** `publishing/strategy/cross-thread-todos.md` (item #4 Atlantic Ideas vs. PW; item #1 Sarah Chalfant agent confirmation; item #7 GDPR / interview-protocol gaps).
+- **Cascade plan:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (12-month sequence; venue allocation; Wave 1 green-light rule; comp-titles).
+- **Cross-thread state:** `publishing/essays/_pipeline/cross-thread-todos.md` (item #4 Atlantic Ideas vs. PW; item #1 Sarah Chalfant agent confirmation; item #7 GDPR / interview-protocol gaps).
 - **Framework apparatus inventory:** `core/terms/terms_index.md` §3 (Ring-1 7 terms; Ring-2 mechanism + measurement + sub-instruments; cost-component examples; methodological apparatus).
 - **FPD v1.0.0:** `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (Goal alignment; success-criterion vocabulary-adoption-at-scale).
 - **Existing essay portfolio:**
-  - Aeon Version C pitch (300w, Ch 7-derived): `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
-  - Noema fresh draft (Stage 3 polished, Ch 1+10-derived): `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`
-  - Norway op-ed (1,016w, Ch 4-derived): `publishing/op-eds/norway-sovereign-wealth-op-ed_2026-05-10.md`
-  - McDowell op-ed (1,024w, Ch 8-derived): `publishing/op-eds/mcdowell-county-true-cost-op-ed_2026-05-10.md`
+  - Aeon Version C pitch (300w, Ch 7-derived): `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+  - Noema fresh draft (Stage 3 polished, Ch 1+10-derived): `publishing/essays/noema-commons-bonds/essay.md`
+  - Norway op-ed (1,016w, Ch 4-derived): `publishing/op-eds/norway-sovereign-wealth/op-ed.md`
+  - McDowell op-ed (1,024w, Ch 8-derived): `publishing/op-eds/mcdowell-county-true-cost/op-ed.md`
 - **Recent ratifications carried forward:**
   - Ch 6 RCV three-component name-defense paragraph ratified (commit `1f3ad9c` 2026-05-11)
   - Ch 5 Restitution + Foreclosure Bond name-defense paragraphs ratified (commit `caa987e`)
@@ -272,7 +272,7 @@ If either condition fails:
 
 - **Condition 1 fails** (non-partisan framing discipline cannot be embedded without losing the essay's signature philosophical move): re-scope to a post-book PW essay, fire after the book establishes non-partisan-positioning publicly. Defer workstream #16 to the Wave-3 / post-launch period. Update cross-thread item #4 to keep Atlantic Ideas as primary slot-3 candidate.
 - **Condition 2 fails** (Tech Appendix Phase 3 in flight; RCV framing not publication-stable): defer fire date until apparatus-stability checkpoint passes. Workstream #16 stays alive but dormant. Re-test in 2–4 weeks.
-- **Both conditions fail**: withdraw workstream #16 from the dashboard. Record decision in `publishing/strategy/decisions-log.md`. The withdrawn-Noema §III material remains archived as historical record.
+- **Both conditions fail**: withdraw workstream #16 from the dashboard. Record decision in `publishing/essays/_pipeline/decisions-log.md`. The withdrawn-Noema §III material remains archived as historical record.
 
 ---
 
@@ -291,15 +291,15 @@ If either condition fails:
 
 - **Workstream handoff:** `tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`
 - **Source material:** `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` §III (lines 66–126)
-- **Cascade plan:** `publishing/strategy/cascade-plan_2026-05-06.md`
-- **Cross-thread #4 (Atlantic Ideas vs. PW):** `publishing/strategy/cross-thread-todos.md`
+- **Cascade plan:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
+- **Cross-thread #4 (Atlantic Ideas vs. PW):** `publishing/essays/_pipeline/cross-thread-todos.md`
 - **Framework apparatus inventory:** `core/terms/terms_index.md` §3
 - **FPD v1.0.0:** `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md`
 - **Existing essay portfolio:**
-  - `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
-  - `manuscript/essay/Noema/noema-essay-fresh-session-draft_2026-05-10.md`
-  - `publishing/op-eds/norway-sovereign-wealth-op-ed_2026-05-10.md`
-  - `publishing/op-eds/mcdowell-county-true-cost-op-ed_2026-05-10.md`
+  - `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+  - `publishing/essays/noema-commons-bonds/essay.md`
+  - `publishing/op-eds/norway-sovereign-wealth/op-ed.md`
+  - `publishing/op-eds/mcdowell-county-true-cost/op-ed.md`
 - **Bond-defense + flagship-terms model artifacts (mirror methodology):**
   - `tools/drafts/why-bonds-paragraph_2026-05-11_v1.0.0.md`
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_why_bonds_paragraph_include_vs_exclude_audience_load_v1.0.0.md`
@@ -315,4 +315,4 @@ If either condition fails:
 
 **2026-05-11 — Author ratified CONDITIONAL verdict.** Q2 sequencing gated on PM Session confirming verification of Condition 2 items 2b (Tech Appendix Phase 3 rebuild status) + 2c (appendix numbering reconciliation cross-thread status). Conditions 2a + 2d already met today (commits `1f3ad9c` + `34dd5b6`). Condition 1 (non-partisan framing discipline) carries forward into Stage 1 brief drafting once apparatus-stability checkpoint passes.
 
-PM Session verification item queued at `publishing/strategy/cross-thread-todos.md` item #10. Q2 sequencing fires when PM Session reports back on 2b/2c — GO if both stable; defer 2–4 weeks if either in flight; re-test on next PM Session pass.
+PM Session verification item queued at `publishing/essays/_pipeline/cross-thread-todos.md` item #10. Q2 sequencing fires when PM Session reports back on 2b/2c — GO if both stable; defer 2–4 weeks if either in flight; re-test on next PM Session pass.

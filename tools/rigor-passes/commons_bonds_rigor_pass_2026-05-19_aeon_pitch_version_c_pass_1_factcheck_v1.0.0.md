@@ -32,7 +32,7 @@ one subsequent session per author ratification, given the prior 2026-05-10
 comparison already substantively scored Version C against the 14-audience
 set.
 
-**Audit target.** `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+**Audit target.** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 — ratified 2026-05-08 as the locked submission cut; iterated A→B→C control
 that beat audience-blind Pitch B at Stage 3 comparison per
 `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`.
@@ -120,7 +120,7 @@ are gating issues flagged separately at §3 below.
     characters (industry-funded; Public-Choice; ideologically-opposed) do not
     weaponize this line.
 - **Disposition (2026-05-20):** **RATIFIED + APPLIED.** Preferred zero-word-
-  cost correction applied to `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+  cost correction applied to `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
   Para 1 in this combined ratification session. Word count preserved at 300w.
 
 ### F-FC-AeonC-2 [LOW] — "Built outside the academy across a decade"
@@ -383,7 +383,7 @@ session.
 
 | Item | Disposition | Source file edit | Net effect |
 |---|---|---|---|
-| F-FC-AeonC-1 | RATIFIED | `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md` Para 1: *"the analog at"* → *"an analog like"* | 300w preserved |
+| F-FC-AeonC-1 | RATIFIED | `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` Para 1: *"the analog at"* → *"an analog like"* | 300w preserved |
 | F-FC-AeonC-2 | CLOSED (author affirmation) | None | No edit |
 | §4.1 Berggruen-2024 flag (Aeon Stage 1 brief) | VERIFIED + PATCHED | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` §1 Tier 2 #5: *"Mazzucato won 2024"* → *"Sandel won 2025; Raworth, Mazzucato, etc. in the broader comp cluster"* + 2026-05-20 correction-note | Stage 1 brief now factually accurate |
 | §4.1 cascade scan (4 additional contaminated artifacts) | EXECUTED + PATCHED | 4 files patched with correction-notes (Atlantic Ideas Stage 1 brief line 71; Noema Stage 1 brief lines 57–58; Noema audience-load 2026-05-09 lines 7, 26, 334; Why-bonds paragraph audience-load 2026-05-11 line 22) | Corpus-wide factual-attribution drift closed |
@@ -511,7 +511,7 @@ merge-to-main default.
 
 ## 8. Cross-references
 
-- Audit target (post-patch): `manuscript/essay/aeon/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+- Audit target (post-patch): `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 - Stage 1 brief (post-patch; canonical-truth audit baseline): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
 - Prior Stage 3 comparison verdict (A wins; submit C as-is): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`
 - Aeon submission workstream handoff: `tools/workstream-handoffs/aeon-submission-handoff_2026-05-09.md`

@@ -12,8 +12,8 @@
 
 ## Canonical sources consulted
 
-1. [_inventory_norway-mcdowell-canonical-facts_2026-05-10.md](publishing/op-eds/_inventory_norway-mcdowell-canonical-facts_2026-05-10.md) — Stage-1-equivalent canonical-facts inventory from op-ed pipeline (commit `5167edd`); GOLD STANDARD for Norway facts.
-2. [norway-sovereign-wealth-op-ed_2026-05-10.md](publishing/op-eds/norway-sovereign-wealth-op-ed_2026-05-10.md) — Op-ed pipeline draft whose Stage-3 fact-check originally caught the GPFG founding-date and Bondevik-coalition-timing drifts.
+1. [norway-mcdowell-inventory_2026-05-10.md](publishing/op-eds/_shared/canonical-facts/norway-mcdowell-inventory_2026-05-10.md) — Stage-1-equivalent canonical-facts inventory from op-ed pipeline (commit `5167edd`); GOLD STANDARD for Norway facts.
+2. [norway-sovereign-wealth/op-ed.md](publishing/op-eds/norway-sovereign-wealth/op-ed.md) — Op-ed pipeline draft whose Stage-3 fact-check originally caught the GPFG founding-date and Bondevik-coalition-timing drifts.
 3. [research/case-studies/norway-swf.md](research/case-studies/norway-swf.md) — Case-study brief (notably copied from Ch 4 itself per its 2026-04-22 housekeeping note; consistency check, not independent verification).
 4. [research/case-studies/nigeria-oil-contrast.md](research/case-studies/nigeria-oil-contrast.md) — Niger Delta contrast-case brief.
 5. [research/case-studies/alaska-permanent-fund.md](research/case-studies/alaska-permanent-fund.md) — Alaska Permanent Fund canonical brief.
@@ -302,7 +302,7 @@ LOW items (initial state — see follow-up below):
 After MEDIUM landed and the LOW items were re-evaluated, author ratified LOW-1 + LOW-3 (LOW-2 held per recommendation). Applied as small follow-up commit:
 
 - ✅ **LOW-3 (Ch 4 line 23):** Equinor parenthetical updated to "(formerly Statoil, the national oil company, renamed in 2018)". Completes the corporate/institutional-rename anchoring symmetry alongside MEDIUM-1's GPFG 2006 anchor.
-- ✅ **LOW-1 (canonical-facts inventory line 19):** Source-variation footnote added at [_inventory_norway-mcdowell-canonical-facts_2026-05-10.md:19](publishing/op-eds/_inventory_norway-mcdowell-canonical-facts_2026-05-10.md:19) documenting Phillips Dec 22 / NPD Dec 23 / Equinor Dec 24 source split, with "three days before Christmas" locked as corpus phrasing. Pure internal scaffolding (per WP#10); prevents future Stage-3 sessions from re-litigating.
+- ✅ **LOW-1 (canonical-facts inventory line 19):** Source-variation footnote added at [_inventory_norway-mcdowell-canonical-facts_2026-05-10.md:19](publishing/op-eds/_shared/canonical-facts/norway-mcdowell-inventory_2026-05-10.md:19) documenting Phillips Dec 22 / NPD Dec 23 / Equinor Dec 24 source split, with "three days before Christmas" locked as corpus phrasing. Pure internal scaffolding (per WP#10); prevents future Stage-3 sessions from re-litigating.
 - ⏸ **LOW-2 (time-sensitive figures):** held; recommendation is to extend the cross-chapter consistency inventory at next revision rather than create a new pre-publication-refresh file.
 
 **Phase C complete for Ch 4 Pass 1 ratifications (5 MEDIUM + 2 LOW applied).** Pass 2 (Voice-polish) + Pass 3 (Audience-load) still required for full Phase A completion of this chapter.
