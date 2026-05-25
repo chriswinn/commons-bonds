@@ -224,10 +224,16 @@ done
 # build-derivatives-alt.sh's repo_root self-detection (via BASH_SOURCE) then
 # returns the host repo root, and tools/scripts/reference.docx +
 # fallback-header.tex resolve under $HOME too.
+# XDG_RUNTIME_DIR: Qt (which wkhtmltopdf uses internally for HTML→PDF) emits
+# "QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'"
+# to stderr if the env var is absent. It's benign — Qt proceeds with the
+# default and the render succeeds — but it scrolls past every TA render and
+# looks like an error. Set it explicitly so Qt stops complaining.
 exec docker run --rm \
   --platform=linux/amd64 \
   -v "${repo_root}:/work" \
   -v "${HOME}:${HOME}" \
   -w "$repo_root" \
+  -e XDG_RUNTIME_DIR=/tmp/runtime-root \
   commons-bonds-render \
   "$repo_root/tools/scripts/build-derivatives-alt.sh" "${new_args[@]+"${new_args[@]}"}"
