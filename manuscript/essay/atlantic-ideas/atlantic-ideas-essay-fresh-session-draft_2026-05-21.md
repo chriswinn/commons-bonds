@@ -1,36 +1,3 @@
----
-title: "Pricing Honestly"
-author: Chris Winn
-date_created: 2026-05-21
-status: Stage 2 audience-blind flow draft + four-traditions diagnostic insertion + Pass 3.1 fact-check RATIFIED + APPLIED 2026-05-24; Pass 3.2 voice-polish next in serial cadence
-body_word_count: ~4,309
-path_b_audit: 0 verbatim sentences from Ch 9 (Ch 9 not opened during drafting)
-apparatus_check: 0 instances of forbidden apparatus terms (ESG, RCV, Asymmetric Regret Rule, Foreclosure Bond, Restitution Bond, Accountability Bond, cluster-γ, Greek letters, subscripts, integrals, "Existence proofs"); "cost severance" used 1× and defined in plain English first
-author_ratified_additions: |
-  - 2026-05-22 four-traditions diagnostic passage inserted into §I (between generalize ¶2 and thesis ¶3); ~119w; lengthened-middle cadence-fix applied to the closing triplet to avoid the three-short-declaratives LLM-tic shape brief §5 flagged. Brief §3 comp-titles cluster did NOT include Marx / Daly / Hartwick; this insertion extends the cluster beyond the brief inventory. Stage 3 Pass 3.1 fact-check should verify the four traditions' characterizations; Pass 3.3 audience-load should re-check center-right pressure-test with the Marx citation in taxonomic register; Pass 3.4 robustness should test whether Hartwick-aware detractor pulls on the "None priced permanent foreclosure" compression (Hartwick's rule presupposes substitutability, which precisely doesn't reach the irreplaceability case — defensible compression but flag for thread-pull). §I now 464w (was 345w; brief target 350w); total 4,275w (~75w over the 4,200 brief band; substance-drives-length per brief §10).
-carry_forward_verifications: |
-  - McDowell coal $4.50/ton (1960) sale vs. $500–600 honest cost — §7.1
-  - EU CRMA 2023, 34 materials — §7.2
-  - USGS rare-earth ~30M MT recoverable, ~300K MT annual, 20% reserve = 6M MT = ~20 yrs — §7.2
-  - MP Materials Mountain Pass 2018; Japan/Lynas post-Senkaku 2010; South Korea 2019 — §7.2
-  - CBAM staged 2023 → operational 2026 — §7.3
-  - Baotou tailings 7 sq mi; Niger Delta 50 yrs; DRC cobalt ~40K children — §7.3
-  - Olson 1965 The Logic of Collective Action — §7.4
-  - US 2008: $700B TARP, $11T household wealth, ~10M foreclosures — §7.4
-  - Mian + Sufi House of Debt (2014); 3–4× bottom-40% benefit — §7.4
-  - Sweden 1933 devaluation/mortgage-modification; 1938 Saltsjöbaden; 1992 banking crisis — §7.4
-  - Darity & Mullen From Here to Equality (2020); ~$14T cumulative wealth deficit (Tier W) — §7.4
-  - Norway GPFG ~$1.9T, ~$340K/citizen, 2001 3% fiscal rule — §7.6
-  - Alaska Permanent Fund 1976, 25%, ~$80B, $1,300–1,700 dividend since 1982 — §7.6
-  - Chattanooga EPB 2010, 25 Gbps, Comcast lawsuits — §7.6
-  - Mondragon 1956 Arizmendiarrieta; ~95 cooperatives; ~80K workers; 6–9:1; Caja Laboral 1959; 2013 Fagor — §7.6
-  - Vienna Gemeindebau 1919; ~60%; >200K apartments; 1% Wohnbauförderungsbeitrag — §7.6
-  - Carbon pricing >70 jurisdictions, ~25% global emissions — §7.3
-  - Tax wedge US ~30% / Sweden ~42% gap ~11pp; ~28M uninsured; >250K medical-crowdfunding campaigns/yr — §7.7
-  - Buchanan + Tullock Calculus of Consent (1962) — §7.8 (light-touch)
-  - Harvey / Ostrom / Raworth / Desmond / Susskind / Pistor / Christophers / Mazzucato / Smith — §7.9 + §3
----
-
 # Pricing Honestly
 
 A ton of coal that came out of McDowell County, West Virginia, in 1960 sold at the mine mouth for four dollars and fifty cents. When every cost that ton produced is added up — the coal and silica dust that scarred the miner's lungs, the carbon released into the atmosphere over the next century, the streams that ran orange and acid for fifty miles downhill, the schools and clinics that emptied as the operators decamped, the longevity gap that opened between McDowell residents and the American median — the honest price is somewhere between five hundred and twenty and six hundred dollars a ton. The price was wrong by two orders of magnitude. It is wrong now, for coal and for almost everything else.
