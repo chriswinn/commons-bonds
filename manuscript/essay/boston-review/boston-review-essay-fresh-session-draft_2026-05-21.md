@@ -1,15 +1,3 @@
----
-**Stage 2 deliverable — Boston Review essay audience-blind flow draft**
-**Date:** 2026-05-21
-**Branch:** `claude/boston-review-essay-stage-2-fresh-draft-clever-sinoussi-440b42`
-**Source brief:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md` (v1.0.1, ratified 2026-05-21)
-**Stage 0 verdict:** GO (with monitoring) per `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md`
-**Stage 1c verdict:** COHERENCE VERIFIED per `tools/quality-gates/coherence-checks/boston-review-essay-workstream_stage1c_2026-05-21.md`
-**Path B compliance:** Drafted audience-blind from Stage 1 brief §7 canonical-facts inventory. `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` was not opened during this session.
-**Status:** PROPOSED. Stage 3 (five-pass v3.1) fires in separate sessions per per-prompt serial cadence. **No Stage 3 self-evaluation applied within this Stage 2 session.**
-**Working title:** *The Accountability Gap* (pencil only; Stage 3 voice-polish may surface a sharper phrase).
----
-
 # The Accountability Gap
 
 ## I. Libby
