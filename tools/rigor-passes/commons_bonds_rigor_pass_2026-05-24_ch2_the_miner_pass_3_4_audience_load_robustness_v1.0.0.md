@@ -6,7 +6,7 @@
 **Discipline:** v3.1 Amendment B 5-pass + Amendment A two-class cascade. Pass 3.4 (audience-load robustness; adversarial / detractor character set; thread-pull synthesis verdict; verdict-floor EXCLUDE per character) per [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.4: Audience-load (robustness)".
 **Mode:** audit-existing-prose (does NOT apply spot-fixes).
 **Format model:** [Ch 9 Pass 3.4 §3 thread-pull synthesis](commons_bonds_rigor_pass_2026-05-23_ch9_pricing_honestly_stage3_pass_3_4_audience_load_robustness_v1.0.0.md) + [$100 Barrel Pass 3.4 light §4 aggregate](commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_4_audience_load_robustness_light_v1.0.0.md) + canonical [Ch 1 REAUDIT v3 §5.3](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) thread-pull canonical format.
-**Status:** **PROPOSED** — pending author ratification. Per Amendment A explicit-gate cascade: this is the first time Ch 2's pre-publication-readiness adversarial robustness has been tested per the v3.0 / v3.1 five-pass architecture. (The original 2026-05-13 audit operated under v2.0 Amendment B three-pass discipline; the 20-character set was a full-spectrum acceptance set with no adversarial-character partition.)
+**Status:** **RATIFIED 2026-05-25** (author ratified as-recommended; ROBUST verdict + RECORD-ONLY Phase C action accepted; T8 carries forward as Pass 3.5 restoration-site candidate; T4/T6 carry forward as Ch 7/Ch 8 Pass 3.4 forward-flags; T5+T8 carry forward as Stage 1c sibling-coherence-check potential). Per Amendment A explicit-gate cascade: this was the first time Ch 2's pre-publication-readiness adversarial robustness was tested per the v3.0 / v3.1 five-pass architecture. (The original 2026-05-13 audit operated under v2.0 Amendment B three-pass discipline; the 20-character set was a full-spectrum acceptance set with no adversarial-character partition.)
 
 **Trigger context.** Author triggered Pass 3.4 explicitly 2026-05-24 ("build it now" trigger per v3.1 Amendment A explicit-gate cascade). Ch 2's review cycle has now completed:
 - Pass 3.1 fact-check ✓ (commits `5bc6edb` + `3dcb15d`)
@@ -510,3 +510,30 @@ Awaiting author ratification of:
 ---
 
 *End of Ch 2 Stage-3 Pass 3.4 (Audience-Load Robustness) rigor pass — PROPOSED 2026-05-24. Aggregate verdict ROBUST; no required Phase C spot-fixes; T1–T7 hold-as-is with pre-pub-review-queue acknowledgment per §6.3; T3 cross-chapter routed; T8 Pass 3.5 attention item; A1 industry-aligned reception-cycle mitigation only; T6 → Ch 8 Pass 3.4 forward-flag; T4 → Ch 7 Pass 3.4 forward-flag; T5 + T8 → Stage 1c sibling-coherence-check potential. Pass 3.5 (developmental-edit) is the next session for this chapter per per-prompt serial cadence after Pass 3.4 ratification. After this artifact lands on main: STOP. Report back to PM session + author per workstream branch discipline + rigor-pass artifact auto-merge-to-main discipline (per `CLAUDE.md` §"rigor-pass artifacts also autonomously fast-forward merge to main at session close").*
+
+---
+
+## Ratification — 2026-05-25
+
+Author ratified the PROPOSED artifact as-recommended 2026-05-25.
+
+**Ratified:**
+- Aggregate verdict ROBUST (chapter holds at structural-claim level against full 8-character adversarial pressure).
+- Per-character verdicts as recorded (1 × ⚠⚠⚠ A1 + 4 × ⚠⚠ A2/A3/A5/A7 + 3 × ⚠ A4/A6/A8 EXCLUDE-floor per template).
+- Thread-pull synthesis T1–T7 hold-as-is structurally.
+- T8 (regional-scholarship + UMWA / Black Lung Association 1968–69 / Miners for Democracy under-acknowledgment) carries forward as Pass 3.5 developmental-edit restoration-site candidate at line 184 analytical pivot + line 186 miner-agency paragraph.
+- T4 → Ch 7 Pass 3.4 forward-flag (spatial cost severance pressure).
+- T6 → Ch 8 Pass 3.4 forward-flag (per-ton arithmetic pressure).
+- T5 + T8 → Stage 1c sibling-coherence-check potential if Ch 5 Pass 3.4 surfaces analogous threads.
+- Phase C action: RECORD-ONLY (no chapter-text changes required).
+
+**Pass 3.4 audience-load robustness — CLOSED for Ch 2's explicit-gate cascade.** Two of five Pass 3 sub-passes now ratified (3.3 acceptance + 3.4 robustness).
+
+**Outstanding for Ch 2 explicit-gate cascade:**
+- Pass 3.5 developmental-edit — T8 already pre-identified as restoration-site candidate; per Amendment B Amendment B per-prompt serial cadence, this is the natural next session.
+- Stage 4 render-audit — author does offline.
+- Stage 5 bookend pre-submission sign-off — gate-triggered (pre-pub / Wave 1 cascade / venue change).
+
+---
+
+*Ratification rev. 2026-05-25. Pass 3.4 closed; chapter holds adversarially-robust at structural-claim level. Pass 3.5 developmental-edit is the queued next session per Amendment B Amendment B 5-pass serial cadence.*
