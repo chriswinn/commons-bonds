@@ -1,6 +1,6 @@
 # Publishing-Pipeline Reorganization — Session 1: Comprehensive Audit + Move-List + Reference-Impact-Map
 
-**Status:** PROPOSED. Ratification gates Session 2 (Phase C application).
+**Status:** RATIFIED 2026-05-24. All 10 design decisions pinned per §14 ratification record. Session 2 (Phase C application) ready to fire.
 **Date:** 2026-05-24
 **Branch:** `claude/publishing-reorg-session1-audit-affectionate-wing-bb4bd8`
 **Workstream:** Publishing-pipeline reorganization (essays + op-eds + literary-agent outreach scaling to ~10 essays/op-eds + 50-100 agent outreaches)
@@ -1076,4 +1076,27 @@ After Session 2 completes, optional Session 3 fills out the per-essay / per-op-e
 
 ---
 
-*End of Publishing-Pipeline Reorganization Session 1 audit + move-list + reference-impact-map artifact (PROPOSED). Auto-merges to main per CLAUDE.md internal-scaffolding boundary. Author ratification of §9 design decisions gates Session 2 (Phase C application). Session 2 estimated scope: ~48 file moves + ~200-300 string replacements across ~128 files + ~10 new READMEs + CLAUDE.md amendments + verification. After Session 2: per-essay/per-op-ed/per-agent README.md content population (Session 3, optional) + agent-search PM session inherits new architecture from day one.*
+## §14. Author ratification record (2026-05-24)
+
+Author ratified all 10 design decisions 2026-05-24 across two ratification turns:
+
+| Q | Author decision | Notes |
+|---|---|---|
+| **Q1** | **Q1-B (overrode Claude rec Q1-A)** | Stage 5 sign-offs MOVE into per-essay dirs as `stage-5-signoff.md` |
+| Q2 | As Claude recommended (Q2-A) | Collapse `manuscript/essay/` into `publishing/essays/` |
+| Q3 | As Claude recommended (Q3-A) | Status-tag convention: directory-name suffix |
+| Q4 | As Claude recommended (Q4-B) | Flat `<agent-slug>/` (not two-level) |
+| Q5 | As Claude recommended (Q5-A) | Shared op-ed canonical-facts at `_shared/canonical-facts/` |
+| Q6 | As proposed | `aeon-mask-of-abundance` |
+| Q7 | Claude-supplied (per author "do a quick search") | `atlantic-ideas-pricing-honestly` (frontmatter title "Pricing Honestly") + `berggruen-prize-2026` (placeholder; renamable when working title emerges) |
+| Q8 | As proposed | `boston-review-accountability-gap` |
+| Q9 | As proposed | `stage-5-signoff.md` filename |
+| Q10 | As Claude recommended | Hybrid: directory-suffix for major transitions + README state field for detail |
+
+**Deferred to follow-up session:** rigor-pass artifact relocation. Author initially ratified ("ratify rigor-passes also move") but reversed within the same ratification turn ("nevermind rigor passes for now. Let's look closer at that after we are done with this."). Session 2 scope holds at the original ~48 file moves + ~200-300 cross-reference updates per §11.2; rigor-pass artifact relocation deferred to a follow-up reorg session after current Session 2 completes.
+
+**Session 2 ready to fire** with the ratified parameters. No further author ratification gates remain before Session 2 (Phase C application).
+
+---
+
+*End of Publishing-Pipeline Reorganization Session 1 audit + move-list + reference-impact-map artifact. RATIFIED 2026-05-24. Auto-merges to main per CLAUDE.md internal-scaffolding boundary. Session 2 (Phase C application) fires next with all 10 design decisions pinned per §14 ratification record. Session 2 estimated scope: ~48 file moves + ~200-300 string replacements across ~128 files + ~10 new READMEs + CLAUDE.md amendments + verification. After Session 2: per-essay/per-op-ed/per-agent README.md content population (Session 3, optional) + agent-search PM session inherits new architecture from day one + follow-up rigor-pass relocation session (deferred per author direction 2026-05-24).*
