@@ -418,13 +418,51 @@ Realistic — but **NOT compatible with Ch 8 firing as a Wave 2 candidate** (Pat
 ## 11. STATE marker (for next-session resumption)
 
 ```
-STATE: PROPOSED
-NEXT: author-action-required (per-candidate Q1 ratification + Q2 sequencing acceptance/adjustment + Ch 8 Path D-α/β/γ decision)
+STATE: PARTIAL RATIFICATION (Ch 3 RATIFIED 2026-05-24; Ch 2, Ch 4, Ch 8 still PROPOSED)
+NEXT: author-action-required (Ch 2, Ch 4, Ch 8 per-candidate ratifications) + cascade plan v2 ratification (separate session with amendments)
 AWAITING: author-ratification
 ARTIFACTS PRODUCED:
   - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md (this file)
   - publishing/strategy/cascade-plan_v2_2026-05-24.md (companion PROPOSED artifact)
 RATIFICATION DISCIPLINE: one-at-a-time per candidate (4 separate sessions; Ch 2, Ch 3, Ch 4, Ch 8); per Pipeline Doctrine Amendment C interactive ratification protocol.
+RATIFICATION PASTE-TEXTS: tools/workstream-handoffs/wave-2-derivative-kickoffs_2026-05-24.md (per-candidate kick-off paste-text bundle).
+```
+
+---
+
+## 12. Author ratification record
+
+### Candidate B: Ch 3 *The Waterman* → The Atlantic main magazine — RATIFIED 2026-05-24
+
+**Driven by:** PM session (2026-05-24) — interactive ratification per Amendment C Interactive Ratification Protocol; one-finding-at-a-time discipline per `tools/memory/feedback_parallel_session_ratification_cadence.md`.
+
+**Finding 1 — Q1 verdict: GO with conditions B1/B2/B3 — RATIFIED AS-PROPOSED.**
+
+- **Verdict:** GO (as-proposed; Option 1 of 4 presented in the ratification session).
+- **Conditions accepted as-stated:**
+  - **B1** — Ch 3 Pass 3.4 closure required before Stage 2 audience-blind drafting fires.
+  - **B2** — Named-subject status confirmation at Stage 1: Phat anonymization carries forward (per 2026-05-20 worked example); Biggie under courtesy-notify-family discipline; ~30 public-record-exception subjects eligible. Verify Phat anonymization continues to satisfy discipline at essay scope (anonymized contour may be more identifiable in focused essay than in chapter).
+  - **B3** — Confirm The Atlantic main magazine submission protocol (Submittable vs editor-direct query) at Stage 1; verify Atlantic main is distinct from Atlantic Ideas in editorial workflow to avoid same-house simultaneous-submission collision.
+- **Reasoning at ratification:** Ch 3 has the strongest substantive case across every dimension the Stage 0 examined (lowest reveal at ~10–13%; highest reach at ~30M+; clearest format-mix fit for multi-voice reportage register; most mature source chapter at 10,256 words + 11-voice augmentation + Phase C Pass 2 applied). Conditions are routine timing gates, not substance gates. Cumulative-portfolio-reveal math holds with Ch 3 in (Wave 1 baseline ~40–43% + Ch 3 increment +3% = ~43–46%, within band).
+
+**Finding 2 — Q2 sequencing — RATIFIED AS-PROPOSED.**
+
+- **Primary venue:** The Atlantic main magazine (multi-voice reportage; ~6,000–10,000w; mainstream-narrative register). HIGH confidence; Coates *Case for Reparations* + Andersen environmental long-form are the editorial-brain model.
+- **Alt cascade:** (1) The New Yorker (stretch); (2) Outside Magazine; (3) Harper's Magazine (collision-managed vs Ch 2 candidate; fires only if Ch 2 doesn't land at Harper's); (4) The Atavist Magazine.
+- **Stage 1 brief firing date:** ~Jun 29 – Jul 5, 2026 (after Ch 2 brief lands; avoid two literary-narrative briefs back-to-back).
+- **Stage 2 draft firing date:** After Ch 3 Pass 3.4 closure (Condition B1). Realistic: early-to-mid August 2026.
+- **Submission window:** Q4 2026 (Oct–Dec). Atlantic response window 2–6 months; cycle into Wave 2/3 agent-query periods (Sep 2026 – Q1 2027) with "Under consideration at The Atlantic" as platform line.
+
+**Surfaced concern (deferred to cascade plan v2 amendment session):** Atlantic essay timing serves Waves 2/3 agent-query platform-building, NOT Wave 1. Per realistic publishing-path math (response windows 2–6 months for Atlantic; 3–6 months query-to-offer for agents; 2–5% query-to-representation conversion rate even for strong manuscripts), cascade plan v2 should be amended to: (a) expand agent target list from 25 → ~40–50 across 4 waves; (b) add Wave 4 fallback (Spring 2027); (c) clarify Ch 3 → Atlantic timing services Waves 2/3 not Wave 1; (d) calibrate editor-iteration calendar to 2027–2028 realism. These amendments are pre-staged for the cascade plan v2 ratification session (separate fresh PM session — paste-text delivered by current PM session 2026-05-24).
+
+**Status:** Ch 3 → Atlantic main magazine = **Phase 2-α of Wave 2 (highest-priority Wave 2 essay; locked).**
+
+---
+
+```
+STATE: RATIFIED (Ch 3 only); PROPOSED (Ch 2, Ch 4, Ch 8)
+NEXT: author-action-required (Ch 2 + Ch 4 + Ch 8 per-candidate ratifications in fresh CC sessions per tools/workstream-handoffs/wave-2-derivative-kickoffs_2026-05-24.md OR via per-candidate paste-texts)
+AWAITING: author-ratification (3 remaining candidates) + cascade plan v2 ratification (separate fresh PM session per paste-text delivered 2026-05-24)
 ```
 
 ---
