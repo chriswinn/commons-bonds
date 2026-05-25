@@ -2,7 +2,7 @@
 
 **Workstream:** Noema essay submission pipeline — Pass 3.2 (voice-polish)
 **Date drafted:** 2026-05-21
-**Status:** PROPOSED. Author interactive ratification + Phase C application pending per Amendment C (ratified 2026-05-19).
+**Status:** RATIFIED + APPLIED 2026-05-22 (commit `98b8274`). Author interactive ratification + Phase C application combined session completed 2026-05-22 per Amendment C cadence. 9 voice-polish spot-fixes applied + 1 author-initiated edit at line 137. F-V-Noema-14 cumulative em-dash + cumulative-cadence-stack passed forward to Pass 3.5 (where they were resolved at HOLD). F-V-Noema-12 B disposition subsequently OVERRIDDEN by Pass 3.5 F-DE-Noema-5 per Amendment B's restoration-polarity-supersedes-chiseling-polarity-at-Pass-3.5-gate rule. See §10 disposition log for per-finding ratification record.
 **Mode:** Audit-existing-prose (post-Pass-3.1 essay state is the audit baseline; v3.1 five-pass discipline; Pass 3.2 is a distinct pass per v2.0 Amendment B carried forward).
 **Source essay:** [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) — **149 lines** (post-Pass-3.1-application state; commit `5dc3a02` 2026-05-21; verified against `origin/main` `34a5433` at session-open).
 

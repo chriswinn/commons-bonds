@@ -2,7 +2,7 @@
 
 **Workstream:** Noema essay submission pipeline — Pass 3.5 (developmental-edit; whole-essay restoration lens)
 **Date drafted:** 2026-05-22
-**Status:** PROPOSED. Pass 3.5 is within Amendment C scope per pipeline doctrine §3.7.1 (prose-modifying pass). PROPOSED artifact auto-merges to main per CLAUDE.md rigor-pass-artifact default; author interactive ratification + Phase C application combined session is the next step.
+**Status:** RATIFIED + APPLIED 2026-05-22 (commit `01067a1`). Pass 3.5 is within Amendment C scope per pipeline doctrine §3.7.1 (prose-modifying pass). Author interactive ratification + Phase C application combined session completed 2026-05-22 per Amendment C cadence. 5 restoration spot-fixes applied + 2 LOW HOLD dispositions. F-V-Noema-12 B (Pass 3.2) disposition OVERRIDDEN by F-DE-Noema-5 A per Amendment B's restoration-polarity-supersedes-chiseling-polarity-at-Pass-3.5-gate rule — first documented Pass 3.5 → Pass 3.2 override in Noema essay pipeline. Pass 3.3 light re-fire (2026-05-24) confirmed predicted character #9 uplift ✓✓ → ✓✓✓ INCLUDE. See §9 disposition log for per-finding ratification record.
 **Mode:** Audit-existing-prose (post-Pass-3.2-application essay state is the audit baseline; same baseline as Pass 3.3 + Pass 3.4).
 **Source essay:** [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) — **149 lines** (post-Pass-3.2-application state; commit `6d134af` 2026-05-22 carries Pass 3.3 + 3.4 RATIFIED).
 
