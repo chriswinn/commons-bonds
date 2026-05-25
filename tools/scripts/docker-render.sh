@@ -130,12 +130,24 @@ bind_mount_hint() {
   echo "  silently fail because docker --rm reaps the container before bytes hit the host." >&2
 }
 
-# ── Resolve all args to absolute paths + validate ────────────────────────────
-# We emulate build-derivatives-alt.sh's getopts flag inventory because we need
-# to know which args are flag-values vs positionals. Flags with a value:
-#   -o OUT_DIR   -f FORMATS   -r REF_DOCX   -H HEADER_TEX
+# ── Resolve all args to absolute paths + validate + normalize order ──────────
+# Two output arrays:
+#   flag_args        — all flags + their values (e.g., -f docx -o /abs/path)
+#   positional_args  — input files (resolved to absolute)
+#
+# We separate them because build-derivatives-alt.sh uses POSIX getopts, which
+# stops parsing flags at the first non-flag argument. If the user writes:
+#   docker-render -f pdf input.md -o ~/out
+# getopts in build-derivatives-alt.sh would consume `-f pdf`, stop at
+# `input.md`, then treat `-o` and `~/out` as TWO MORE input files (each
+# producing a "not found, skipping" error). By re-emitting flags first +
+# positionals after a `--` separator, the wrapper makes arg order user-
+# friendly regardless of what the user typed.
+#
+# Flags-with-value we recognize: -o OUT_DIR -f FORMATS -r REF_DOCX -H HEADER_TEX
 # Boolean flags: -v -h
-new_args=()
+flag_args=()
+positional_args=()
 expecting_value_for=""
 for arg in "$@"; do
 
@@ -149,7 +161,7 @@ for arg in "$@"; do
         bind_mount_hint
         exit 1
       fi
-      new_args+=("$abs")
+      flag_args+=("$abs")
       expecting_value_for=""
       continue
       ;;
@@ -158,7 +170,7 @@ for arg in "$@"; do
       # unless -H is the empty string, which means "disable the header" per
       # build-derivatives-alt.sh semantics.
       if [ "$expecting_value_for" = "-H" ] && [ -z "$arg" ]; then
-        new_args+=("")
+        flag_args+=("")
         expecting_value_for=""
         continue
       fi
@@ -172,13 +184,13 @@ for arg in "$@"; do
         bind_mount_hint
         exit 1
       fi
-      new_args+=("$abs")
+      flag_args+=("$abs")
       expecting_value_for=""
       continue
       ;;
     -f)
       # Format string ("docx,pdf" / "docx" / "pdf") — not a path, pass through.
-      new_args+=("$arg")
+      flag_args+=("$arg")
       expecting_value_for=""
       continue
       ;;
@@ -186,12 +198,12 @@ for arg in "$@"; do
 
   case "$arg" in
     -o|-f|-r|-H)
-      new_args+=("$arg")
+      flag_args+=("$arg")
       expecting_value_for="$arg"
       ;;
     -*)
       # Boolean flag (-v, -h, --help, etc.). Pass through.
-      new_args+=("$arg")
+      flag_args+=("$arg")
       ;;
     *)
       # Positional: an input file. Must exist; must be a regular file (not a
@@ -220,10 +232,25 @@ for arg in "$@"; do
         bind_mount_hint
         exit 1
       fi
-      new_args+=("$abs")
+      positional_args+=("$abs")
       ;;
   esac
 done
+
+# Catch an incomplete flag at the end (e.g., `docker-render -o`).
+if [ -n "$expecting_value_for" ]; then
+  echo "Error: ${expecting_value_for} requires a value, but none was given." >&2
+  exit 1
+fi
+
+# Assemble in getopts-friendly order: flags first, then -- separator, then
+# positionals. The -- guards against any positional path that happens to start
+# with a hyphen.
+new_args=(
+  ${flag_args[@]+"${flag_args[@]}"}
+  --
+  ${positional_args[@]+"${positional_args[@]}"}
+)
 
 # ── Invoke docker with all-absolute paths ────────────────────────────────────
 # Bind-mount strategy:
