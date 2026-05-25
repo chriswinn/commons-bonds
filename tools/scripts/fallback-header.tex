@@ -1,16 +1,38 @@
-% xelatex fallback-font header for sandbox chapter builds.
-% EB Garamond 12-Bold lacks U+2014 (em-dash); EB Garamond lacks U+2248 (≈) in all
-% weights. Map those codepoints to DejaVu Serif (which has all three weights + full
-% coverage) so they render as glyphs rather than tofu boxes. The surrounding font
-% context is otherwise preserved — only the listed codepoints route through the
+% xelatex fallback-font header for canonical Docker pipeline.
+% EB Garamond 12-Bold lacks several common-in-prose codepoints, and EB
+% Garamond lacks U+2248 (≈) in all weights. Map the missing codepoints
+% to DejaVu Serif (which has all three weights + full coverage) so they
+% render as glyphs rather than tofu boxes. The surrounding font context
+% is otherwise preserved — only the listed codepoints route through the
 % fallback font.
+%
+% Per Stage 4 doctrine §3.3: xelatex's "Missing character" stderr warnings
+% are load-bearing — every codepoint covered here was added in response
+% to an actual warning surfaced by a publisher-facing prose render.
 
 \usepackage{newunicodechar}
 \newfontfamily\fallbackfont{DejaVu Serif}
 \newfontfamily\fallbackfontbold{DejaVu Serif}[BoldFont={DejaVu Serif Bold}]
 
-% em-dash (U+2014): EB Garamond 12-Bold lacks the glyph
+% em-dash (U+2014): EB Garamond 12-Bold lacks the glyph. Surfaced 2026-05-15
+% on Ch 5 + Ch 6 (commit d238f2c).
 \newunicodechar{—}{{\fallbackfont—}}
 
-% approximately-equals (U+2248): EB Garamond Regular + Bold both lack the glyph
+% en-dash (U+2013): EB Garamond 12-Bold lacks the glyph. Surfaced 2026-05-24
+% on the Aeon pitch Version-C render.
+\newunicodechar{–}{{\fallbackfont–}}
+
+% curly apostrophe / right single quote (U+2019): EB Garamond 12-Bold lacks
+% the glyph. Surfaced 2026-05-24 on the AuthorsNote + Aeon pitch + 100-barrel
+% essay renders. Affects any bolded passage with an apostrophe.
+\newunicodechar{’}{{\fallbackfont’}}
+
+% curly double quote, left (U+201C) and right (U+201D): EB Garamond 12-Bold
+% lacks both glyphs. Surfaced 2026-05-24 on the Aeon pitch render. Affects
+% any bolded passage with smart-quoted text.
+\newunicodechar{“}{{\fallbackfont“}}
+\newunicodechar{”}{{\fallbackfont”}}
+
+% approximately-equals (U+2248): EB Garamond Regular + Bold both lack the
+% glyph. Surfaced 2026-05-15 on Ch 5 + Ch 6 (commit d238f2c).
 \newunicodechar{≈}{{\fallbackfont≈}}

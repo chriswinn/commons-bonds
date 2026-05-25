@@ -653,6 +653,38 @@ patterns:
       commit: "(convention)"
     allowlist: []
 
+  - id: regressed-render-emoji-warning-sign
+    pattern: '⚠'
+    type: string
+    severity: MEDIUM
+    category: render-failure
+    description: |
+      Warning-sign emoji (U+26A0) in publisher-facing prose. EB Garamond
+      lacks the glyph in Regular weight (xelatex emits "Missing character"
+      to stderr), rendering as a tofu box in the PDF. Almost always
+      scaffolding-leakage from LLM-drafter status markers — replace with
+      a plain word like "Warning:" or "Note:" rather than fix at the font
+      layer (emojis don't belong in trade-press body prose).
+    origin:
+      pass: "Stage 4 font-coverage audit 2026-05-25 (essays + paratext)"
+      commit: "(this commit)"
+    allowlist: []
+
+  - id: regressed-render-emoji-check-mark
+    pattern: '✓'
+    type: string
+    severity: MEDIUM
+    category: render-failure
+    description: |
+      Check-mark glyph (U+2713) in publisher-facing prose. EB Garamond
+      lacks it in Regular weight; renders as a tofu box. Same disposition
+      as the warning-sign emoji entry above — scaffolding leakage; scrub
+      from source rather than mapping to a fallback font.
+    origin:
+      pass: "Stage 4 font-coverage audit 2026-05-25 (essays + paratext)"
+      commit: "(this commit)"
+    allowlist: []
+
   # ===========================================================
   # Category 4: Gate-decision-banned patterns
   # ===========================================================
