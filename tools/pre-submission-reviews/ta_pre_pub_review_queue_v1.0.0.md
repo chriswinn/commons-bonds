@@ -1,9 +1,9 @@
 # Pre-Publication Review Queue — Technical Appendix
 
 **Date generated:** 2026-05-18
-**Status:** PROPOSED-DEFERRED — ratifies in batch with Stage 4 verdict after canonical-pipeline decision lands (per retrofit handoff stub §1 + standardization-handoff §3.5)
+**Status:** **RATIFIED 2026-05-20** — author "Ratify Stage 4 & Stage 5" signal 2026-05-20 confirms GENERATED verdict. Batch-ratified with Stage 4 verdict (RATIFIED 2026-05-20 post canonical-pipeline decision RATIFIED 2026-05-19). Originally PROPOSED-DEFERRED 2026-05-18.
 **Artifact:** Technical Appendix v2.1.0 (`core/technical-appendix/TechnicalAppendix_v2.0.0.html`; dated 2026-05-14; 8,044 lines)
-**Stage 5 sign-off commit:** PENDING (Stage 5 sign-off itself deferred until Stage 4 verdict ratifies)
+**Stage 5 sign-off commit:** [`tools/quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md`](../quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md) — RATIFIED 2026-05-20 PASS verdict
 **Rendered outputs (current baseline):** `tools/scripts/comparison-renders/ta_2026-05-17_9ffad4e/remote-container/TechnicalAppendix_v2.0.0.{docx,pdf}` (rendered 2026-05-17 against `9ffad4e`; laptop renders captured at this session per [`tools/rigor-passes/render_pipeline_comparison_ta_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ta_2026-05-18.md))
 **Sandy-packet artifacts (canonical-shipped):** `research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.{docx,pdf}` (rendered via remote-container at commit `e6ddf92` 2026-05-14; clean prior to Ch 1 in-session patch)
 **Manuscript-submission package context:** for-publisher / for-agent / for-editor (TA is the formal-academic-register apparatus; pre-pub queue is **most consequential in the corpus** per handoff stub §1 row 5)
@@ -84,7 +84,7 @@ Per Stage 1c coherence-check verdict ([`tools/quality-gates/coherence-checks/ta_
 
 ### §1.5 Render integrity
 
-- **Stage 4 render-integrity audit verdict:** PROPOSED-pending-canonical-pipeline-decision per [`tools/rigor-passes/render_pipeline_comparison_ta_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ta_2026-05-18.md). Triple-render summary:
+- **Stage 4 render-integrity audit verdict:** **RATIFIED 2026-05-20 — MEDIUM HOLD with all findings dispositioned** per [`tools/rigor-passes/render_pipeline_comparison_ta_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ta_2026-05-18.md). (Originally PROPOSED-pending-canonical-pipeline-decision 2026-05-18; canonical-pipeline RATIFIED 2026-05-19 via Docker containerization unblocked this verdict.) Triple-render summary:
   - **remote-container baseline (BASE `9ffad4e`):** wkhtmltopdf 0.12.6 (Qt 5.15.13); 129,517-byte DOCX (5,802-line pandoc-plain extraction); 613,750-byte PDF; 91 pages. Plane-1 char `𝒞` U+1D49E **RENDERS correctly** per author visual review 2026-05-18 (the apt-installed Debian font stack reaches U+1D49E coverage that Qt 5.15.13 enumerates; the `pdftotext` extract returning 0 occurrences was a text-extraction-vs-visual-render mismatch — see Stage 4 §13.1 correction).
   - **laptop-build-derivatives:** Chrome headless 148.0; 123,201-byte DOCX (5,339-line plain extraction; **−463 lines vs baseline, −8.0%**); 1,564,871-byte PDF; 97 pages. **Plane-1 char `𝒞` RENDERS CORRECTLY** (only pipeline that does). 2 unclosed-div + 5 "Could not convert TeX math" pandoc warnings.
   - **laptop-build-derivatives-alt:** wkhtmltopdf 0.12.6 (Qt 4.8.7 Homebrew macOS); 123,201-byte DOCX (5,339-line plain extraction; identical content to build-derivatives docx); 584,948-byte PDF; 100 pages. Plane-1 char `𝒞` fails (U+FFFD in pdftotext extract). Same 2+5 pandoc warnings.
@@ -270,14 +270,16 @@ Per author preference, rank-ordered for TA specifically:
 - 2026-05-14 verification round: [`tools/rigor-passes/tech_appendix_verification_round_2026-05-14.md`](../rigor-passes/tech_appendix_verification_round_2026-05-14.md)
 - §5.5 bidirectionality proposal (superseded by parallel-session work): [`tools/rigor-passes/ta_section_5_5_bidirectionality_proposal_2026-05-13.md`](../rigor-passes/ta_section_5_5_bidirectionality_proposal_2026-05-13.md)
 - Pass 3.4 audience-load robustness (this session): [`tools/rigor-passes/ta_stage3_pass_3_4_audience_load_robustness_2026-05-18.md`](../rigor-passes/ta_stage3_pass_3_4_audience_load_robustness_2026-05-18.md)
-- Stage 4 render-integrity audit (PROPOSED-pending-canonical-pipeline-decision): [`tools/rigor-passes/render_pipeline_comparison_ta_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ta_2026-05-18.md)
-- Stage 5 sign-off: PENDING (deferred until Stage 4 verdict ratifies)
+- Stage 4 render-integrity audit (RATIFIED 2026-05-20 MEDIUM HOLD): [`tools/rigor-passes/render_pipeline_comparison_ta_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ta_2026-05-18.md)
+- Stage 5 sign-off (RATIFIED 2026-05-20 PASS): [`tools/quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md`](../quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md)
 - Cross-chapter workstream touching scope: [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) (rent-seeking-engagement workstream — substantive engagement lands in TA §5.5 or new section per workstream §0 framing)
 - Sandy-Darity packet: `research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.{docx,pdf}` (clean baseline; rendered before Ch 1 in-session patch)
 
 ---
 
 ## §6. PROPOSED-DEFERRED status — what locks in vs what stays open
+
+**RATIFIED 2026-05-20 — ALL ITEMS BELOW NOW LOCKED IN.** (Original PROPOSED-DEFERRED framing 2026-05-18 + status update at ratification.)
 
 **LOCKED IN as of this PROPOSED-DEFERRED draft (will not change at ratification):**
 - §1.1 factual verification list (per Pass 1 RATIFIED + APPLIED + 2026-05-14 verification round RATIFIED).
@@ -288,13 +290,13 @@ Per author preference, rank-ordered for TA specifically:
 - §3.1 through §3.6 recommended-reviewer inventories.
 - §4 priority-rank list.
 
-**STAYS OPEN until canonical-pipeline decision lands:**
-- §1.5 Stage 4 render-integrity verdict (currently PROPOSED-pending-canonical-pipeline-decision; ratifies post canonical-pipeline decision — Option A/B/C; recommended Option A per Stage 4 §10).
-- Stage 5 sign-off (currently PENDING; ratifies after Stage 4 verdict ratifies).
-- §3.5 post-typesetter formula-integrity re-verification scope (currently flagged HIGH; specific execution method — manual vs automated — open).
-- Pre-publication refresh I-1 + I-2 application timing (currently DEFERRED; ratifies at pre-pub refresh session).
+**STAYS OPEN until canonical-pipeline decision lands:** ✓ RESOLVED 2026-05-20.
+- ~~§1.5 Stage 4 render-integrity verdict (currently PROPOSED-pending-canonical-pipeline-decision; ratifies post canonical-pipeline decision — Option A/B/C; recommended Option A per Stage 4 §10).~~ → **RATIFIED 2026-05-20 MEDIUM HOLD** (canonical-pipeline decision RATIFIED 2026-05-19 via Docker containerization workstream `b3f4af5`; resolved as hybrid Option B-mirror — Docker + remote-container share canonical toolchain via [install-render-toolchain.sh](../scripts/install-render-toolchain.sh)).
+- ~~Stage 5 sign-off (currently PENDING; ratifies after Stage 4 verdict ratifies).~~ → **RATIFIED 2026-05-20 PASS** per [`tools/quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md`](../quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md).
+- ~~§3.5 post-typesetter formula-integrity re-verification scope.~~ Still flagged HIGH; execution method (manual vs automated) remains open + publisher-managed post-typesetter; carry forward to publisher / typesetter engagement window.
+- ~~Pre-publication refresh I-1 + I-2 application timing.~~ Still DEFERRED to pre-pub refresh session (~1 hour bundled; not Sandy-blocking).
 
-**Ratification path:** This artifact ratifies in batch with Stage 4 verdict ratification, after all 4 first-retrofit chapters' (Ch 1 + Ch 5 + Ch 6 + TA) Stage 4 comparison rounds complete + author selects Option A/B/C. At that ratification, §1.5 + the Stage 5 sign-off cross-reference + the Stage 4 audit-trail update populate; the rest of this artifact carries forward as drafted.
+**Ratification complete.** This artifact ratified in batch with Stage 4 verdict 2026-05-20 per the originally-anticipated ratification path. §1.5 + the Stage 5 sign-off cross-reference + the Stage 4 audit-trail update all populated; the rest of this artifact carries forward as drafted. Sandy reply window opens 2026-05-21; any flags Sandy raises trigger updates per change-cascade routing protocol.
 
 ---
 

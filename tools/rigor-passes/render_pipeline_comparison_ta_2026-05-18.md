@@ -1,7 +1,7 @@
 # Render-Pipeline Comparison — Technical Appendix (TA)
 
 **Date:** 2026-05-18
-**Status:** PROPOSED — pending author ratification + canonical-pipeline decision
+**Status:** **RATIFIED 2026-05-20** — author "Ratify Stage 4 & Stage 5" signal 2026-05-20 confirms MEDIUM HOLD verdict (no HIGH-severity findings; all MEDIUM dispositioned via pre-pub-refresh route or canonical-pipeline-decision disposition; canonical pipeline RATIFIED 2026-05-19 via Docker containerization). Stage 5 sign-off fires per [`tools/quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md`](../quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md). Originally PROPOSED 2026-05-18.
 **Scope:** `core/technical-appendix/TechnicalAppendix_v2.0.0.html` (v2.1.0 dated 2026-05-14; 8,044 lines)
 **Base sha (chapter source):** `9ffad4e` (TA source content unchanged across tools-side commits since baseline pre-render; `tools/` advanced through `3582823` Ch 1 retrofit but TA source itself stable)
 **Session base sha:** `3582823` (post Ch 1 retrofit landing on main; Ch 5 + Ch 6 retrofits not yet fired)
@@ -270,7 +270,13 @@ The Stage 4 canonical-pipeline decision should land **before** Ch 5 + Ch 6 retro
 
 ## §10. Verdict
 
-**PROPOSED-pending-canonical-pipeline-decision** (per retrofit handoff stub §1 + standardization handoff §3.4).
+**RATIFIED 2026-05-20 — MEDIUM HOLD with all findings dispositioned.** Author "Ratify Stage 4 & Stage 5" signal 2026-05-20 confirms verdict. (Originally PROPOSED-pending-canonical-pipeline-decision 2026-05-18; canonical-pipeline decision RATIFIED 2026-05-19 via Docker containerization workstream `b3f4af5` per retrofit handoff stub §1 + standardization handoff §3.4 unblocked this Stage 4 verdict.)
+
+**Per Stage 4 doctrine §4.1 verdict scale:**
+- No HIGH-severity findings remain (F-RP-TA-01 unconditional-`--from` regression has been RESOLVED via conditional-on-input-extension fix already applied to both [build-derivatives.sh:266-271](../scripts/build-derivatives.sh) + [build-derivatives-alt.sh:228-233](../scripts/build-derivatives-alt.sh)).
+- F-RP-TA-02 severity DOWNGRADED HIGH→MEDIUM per §13 author visual review (Plane-1 char `𝒞` renders correctly in both Chrome and remote-container wkhtmltopdf Qt 5.15.13; only laptop wkhtmltopdf Qt 4.8.7 fails; canonical Docker pipeline uses remote-container-mirror invocation which passes).
+- F-RP-TA-03 + F-RP-TA-04 + F-RP-TA-05: MEDIUM; all DISPOSITIONED (route to pre-pub-refresh I-2 or to canonical-pipeline-decision posture).
+- Canonical-pipeline decision: RATIFIED 2026-05-19 — Docker (laptop via Colima) + remote-container (Anthropic cloud) share one canonical toolchain via [install-render-toolchain.sh](../scripts/install-render-toolchain.sh); HTML→PDF route uses wkhtmltopdf Qt 5.15.13 inside the canonical container (Plane-1 char render confirmed). Stage 4 doctrine §3.3 OPEN flag CLOSED.
 
 **Diagnostic summary:**
 - **Chrome (laptop-build-derivatives)** is the load-bearing canonical for HTML→PDF — the only pipeline that renders Plane-1 math char `𝒞`.
