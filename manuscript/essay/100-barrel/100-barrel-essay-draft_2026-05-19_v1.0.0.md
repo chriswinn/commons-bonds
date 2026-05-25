@@ -1,20 +1,3 @@
----
-**Stage 2 deliverable — $100 Barrel essay audience-blind flow draft (post-Stage-3 ratified state)**
-**Date created:** 2026-05-21
-**Date final-ratified:** 2026-05-24 (Stage 5 sign-off RATIFIED — READY-TO-SUBMIT)
-**Branch:** `claude/100-barrel-essay-stage-2-fbc623`
-**Source brief:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md` (RATIFIED 2026-05-19)
-**Stage 0 verdict:** CONDITIONAL → RESOLVED per `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md`
-**Comparative draft audit:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md` (Draft A selected; Draft B archived per commit `095dd46`)
-**Path B compliance:** Drafted audience-blind from Stage 1 brief §7 canonical-facts inventory. `archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md` was not opened during any pipeline session.
-**Stage 3 five-pass cycle:** COMPLETE (Pass 3.1 + 3.2 + 3.3 light + 3.4 light + 3.5 + Pass 3.3 light re-fire all RATIFIED 2026-05-21 → 2026-05-24). See per-pass artifacts in `tools/rigor-passes/` and Stage 5 sign-off §1 cycle status table.
-**Stage 5 sign-off:** `tools/quality-gates/sign-offs/100-barrel-essay_stage5_signoff_2026-05-24.md` (RATIFIED 2026-05-24 — READY-TO-SUBMIT).
-**Cover letter:** `publishing/essay-drafts/100-barrel-essay-cover-letter_2026-05-24.md` (RATIFIED 2026-05-24).
-**Target venue:** *Phenomenal World* (Jain Family Institute). Submission method: email pitch + essay to [email protected] (open and rolling).
-**Body word count:** 4,248 words (Stage 1 brief §10 window 3,500–4,500w).
-**Status:** RATIFIED — READY-TO-SUBMIT.
----
-
 # The $100 Barrel
 
 ## I. The Barrel
