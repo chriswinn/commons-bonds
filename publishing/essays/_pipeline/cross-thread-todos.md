@@ -143,6 +143,19 @@
 
 - **Target resolution:** PM session sequences as workstreams. MI-3 (Ostrom homogeneity-of-interest) is a candidate for cross-chapter workstream (Ch 6 + FPD + Tech Appendix §E.3); MI-1 + MI-2 are author-decision items (vocabulary calibration) that should be ratified before Ch 5 / Ch 6 / Tech Appendix retrofit sessions fire; SI cluster + C cluster fold into per-chapter retrofit sessions as appropriate.
 
+### 16. Fort Monroe / 1619 historical-ground engagement at Old Point Comfort
+
+- **Surfaced by:** Ch 10 Stage 3 comparative draft audit 2026-05-25 (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch10_common_bonds_stage3_comparative_draft_audit_v1.0.0.md` §4.3 acceptance character #15 + §9.3 item 5 cross-chapter consideration).
+- **For-thread:** Ch 10 / Ch 3 cross-chapter structural decision; Stage 1c coherence-check workstream.
+- **Status:** Open — flagged as structural decision needing author judgment; not a Pass 3.5 spot-fix.
+- **Context:** Ch 10 (both pre-ALT-audit draft and the post-ratification canonical draft) is set at Old Point Comfort harbor in Hampton, VA. Fort Monroe sits on Old Point Comfort and is the site where the first ~20 enslaved Africans were brought to English North America in August 1619 — designated a National Monument by Obama in 2011 specifically to honor this history. Both Ch 10 drafts reference "the Fort" and "Old Point Comfort" repeatedly without naming the 1619 historical layer. The Hampton Black community reader / Fort Monroe historical-ground reader (acceptance test character #15 in the comparative audit) registered the omission as NEUTRAL for both drafts; both passed the dispositive Tier 1 #3 Indigenous-rights dispositive without engaging the 1619 layer. The omission may be intentional (Ch 10's frame is the working-waterfront present, not the historical-monument layer) or may be a future-restoration opportunity.
+- **Three possible dispositions:**
+  - **(a) Engage at Ch 10:** add a brief 1619-historical-layer reference at the chapter's harbor frame. Risk: changes the chapter's synthesis-register pacing; the chapter is already at 5,386w post-restoration; closing chapter has structural commitments to the bookending-with-Ch-1 frame.
+  - **(b) Engage at Ch 3:** Ch 3 *The Waterman* opens at Old Point Comfort with similar harbor-anchoring; Ch 3 has more structural room for historical-layer engagement. Would require a Ch 3 retrofit cycle (Stage 1c → Pass 3.1 light → Pass 3.3 light re-fire for the Hampton Black reader character).
+  - **(c) Future printing / scope-out:** acknowledge the omission in the pre-publication review queue artifact (Stage 5) as a "what has NOT been engaged" disclosure item; flag for future printing or downstream artifact.
+- **Cross-impacts:** (i) Ch 3 Stage 1c coherence-check if disposition (b) selected; (ii) Stage 5 pre-publication review queue artifact (`tools/pre-submission-reviews/`) if disposition (c) selected; (iii) named-subject consent discipline does NOT apply (Fort Monroe is a place name + the 1619 history is matter of public record); (iv) cross-chapter consistency inventory may need a new entry tracking Fort Monroe historical-layer canonicalization across chapters.
+- **Target resolution:** PM session ratification before Ch 10 pre-publication readiness gate (Stage 5 sign-off). Disposition (c) is the lightest-touch path; (b) is the most structurally honest if author judgment is to engage; (a) is the most direct but carries pacing risk for the closing chapter.
+
 ---
 
 ## Resolved
