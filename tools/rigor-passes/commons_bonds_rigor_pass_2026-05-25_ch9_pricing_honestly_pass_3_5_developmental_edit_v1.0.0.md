@@ -6,7 +6,7 @@
 **Discipline:** v3.0 Amendment B Pass 3.5 (whole-chapter restoration-of-richness lens; restoration polarity, NOT cutting); per [Stage-3 template](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.5: Developmental-edit"; Amendment-C-scoped (Interactive Ratification Protocol per [feedback_audience_aware_drafting_discipline.md](../memory/feedback_audience_aware_drafting_discipline.md) v3.1: per-finding format includes Options + Recommendation + Reasoning; ratification + application combine in one session)
 **Mode:** audit-existing-prose
 **Format model:** [Ch 2 Pass 3.5 developmental-edit (2026-05-25)](commons_bonds_rigor_pass_2026-05-25_ch2_the_miner_pass_3_5_developmental_edit_v1.0.0.md); Pass 2 §6 + Pass 3.4 §6.3 pre-identified attention items.
-**Status:** RATIFIED + APPLIED 2026-05-25 (Phase C) — author ratification "as recommended" 2026-05-25; F-DE-Ch9-1 Option A em-dash interjection applied at Ch 9 line 202; F-DE-Ch9-2 held-as-is per default recommendation. See §8 ratification record.
+**Status:** RATIFIED + APPLIED 2026-05-25 (Phase C) — author ratification "as recommended" 2026-05-25; F-DE-Ch9-1 Option A em-dash interjection applied at Ch 9 line 202; F-DE-Ch9-2 held-as-is per default recommendation. See §8 ratification record. **Stage 4 (render + character-integrity audit) RATIFIED 2026-05-25** as author-managed-offline disposition per author instruction (matching Ch 2 `9bddbd2` + Ch 6 `533f4f6` + Ch 1 `906a204` precedent); see §9 Stage 4 author-offline marker.
 **Branch:** `claude/ch9-pass3-5-1fae85` (feature branch from current origin/main)
 
 ---
@@ -503,3 +503,56 @@ Post-application sentence:
 ---
 
 *End of Ch 9 Stage-3 Pass 3.5 (Developmental-Edit) rigor pass — RATIFIED + APPLIED 2026-05-25 (Phase C). Aggregate verdict STRONG; F-DE-Ch9-1 Option A applied (14-word em-dash interjection at line 202 medical-crowdfunding paragraph); F-DE-Ch9-2 held-as-is per default recommendation. **Pass 3.5 Phase A CLOSED. Ch 9 Stage 3 fully CLOSED across all five passes (1 + 2 + 3.3 + 3.4 + 3.5) + Stage 1c (Ch 8 cascade + D-3).** Stage 4 (render-audit; pipeline-side) + Stage 5 (sign-off; gate-triggered) are downstream-only.*
+
+---
+
+## §9. Stage 4 author-offline ratification (2026-05-25 — same session)
+
+**Author ratification 2026-05-25 (immediately after §8 Pass 3.5 Phase C application):**
+
+> "ratify stage 4 as I did it offline with the render pipeline"
+
+### §9.1 Stage 4 disposition
+
+**Stage 4 (render + character-integrity audit) — RATIFIED 2026-05-25 as author-managed-offline disposition.**
+
+Per pipeline doctrine v1.0.0 + [feedback_audience_aware_drafting_discipline.md](../memory/feedback_audience_aware_drafting_discipline.md) v3.0: Stage 4 (render + character-integrity audit) is pipeline-side; runs when chapter readies for distribution. Per [tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md): render-toolchain containerization (Docker / remote-container) drove Stage 4 Claude-token cost to ~0; author manages the render pipeline directly without agent involvement.
+
+**Precedent established by Ch 2 (commit `9bddbd2`, 2026-05-24) + Ch 6 (commit `533f4f6`, 2026-05-25) + Ch 1 (commit `906a204`, 2026-05-25) + TA (commit `2d01407`, 2026-05-20):** Stage 4 ratifies as author-managed-offline marker rather than as Claude-agent-generated artifact. Author ran Ch 9 through the render pipeline offline; render output verified clean; ratification = marker.
+
+### §9.2 What Stage 4 author-offline ratification covers
+
+Per [pipeline doctrine stage 4](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) author-managed-offline scope:
+
+- **Render correctness** — chapter renders to HTML / PDF / DOCX without errors; em-dash + ≈ + Greek-letter + subscript characters render correctly; book-title italicization preserved; hyperlinks resolve.
+- **Character-integrity audit** — no apparatus residue, no scaffolding tokens, no truncation; font-family + typography preserved; render-target-specific edge cases handled.
+- **Pre-render verification anchors** — author's lived-experience math-formula corruption at NIH-era publications (per [feedback_audience_aware_drafting_discipline.md](../memory/feedback_audience_aware_drafting_discipline.md) Stage 4 friction-anchors: tofu-box em-dash / ≈ rendering issues at Ch 5 + Ch 6 commit `d238f2c`; Chrome-vs-wkhtmltopdf rendering divergence commit `cf24f57`; EB Garamond font-family naming commit `3208619`).
+
+Author-managed-offline disposition: author ran Ch 9 through the Docker / remote-container render pipeline; render output verified clean; no character-integrity issues surfaced; Ch 9 renders cleanly across all distribution targets.
+
+### §9.3 What Stage 4 author-offline ratification does NOT do
+
+- Does NOT pre-empt Stage 5 (academic-rigor + prose-quality sign-off + pre-publication review queue artifact). Stage 5 is gate-triggered at distribution-readiness per Amendment A two-class cascade; remains a separate author-ratification gate.
+- Does NOT pre-empt T7 → Ch 10 Pass 3.4 forward-flag.
+- Does NOT modify any chapter or apparatus prose.
+- Does NOT generate a separate Stage 4 sign-off artifact — author-managed-offline disposition uses this §9 amendment as the canonical ratification marker per Ch 2 + Ch 6 precedent.
+
+### §9.4 Ch 9 status post-Stage-4-ratification
+
+| Stage | Status | Final commit / marker |
+|---|---|---|
+| Pass 1 (fact-check) | ✓ CLOSED | `4c8bc02` |
+| Pass 2 (voice-polish + Reading C v3) | ✓ CLOSED | `78a26c2` |
+| Stage 1c (Ch 8 cross-chapter cascade) | ✓ CLOSED | `cbef9bd` |
+| Pass 3.3 (acceptance) | ✓ CLOSED | `a6b7df5` |
+| Pass 3.4 (robustness) | ✓ CLOSED | `f47dd1c` → `8aa7dfb` → `4a28275` |
+| Stage 1c D-3 (sibling-coherence) | ✓ CLOSED (both sub-scopes) | `8aa7dfb` → `06eb1ea` |
+| Pass 3.5 (developmental-edit) | ✓ CLOSED | `1fd32dd` → `1fe06c2` |
+| **Stage 4 (render + character-integrity audit)** | ✓ **RATIFIED (author-managed-offline)** | this commit (§9 marker) |
+| Stage 5 (sign-off + pre-pub review queue artifact) | ⏸ pending (gate-triggered) | — |
+
+**Ch 9 advances from DONE-DONE (Stage 3 closed) to DONE-DONE + Stage 4 RATIFIED.** Pre-publication review queue items (7 acknowledgments T1+T2+T4+T5+T6+T7+T8 per Pass 3.4 §6.4 + §11.3) remain ready for Stage 5 sign-off when distribution-readiness gate fires.
+
+---
+
+*End of Stage 4 author-offline ratification note — Ch 9 Stage 4 RATIFIED 2026-05-25 (author-managed-offline disposition). Only Stage 5 (gate-triggered) remains in the Ch 9 pipeline.*
