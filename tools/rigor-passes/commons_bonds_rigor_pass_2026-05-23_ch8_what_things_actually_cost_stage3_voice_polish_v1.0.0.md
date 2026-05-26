@@ -2,7 +2,7 @@
 
 **Workstream:** #20 Manuscript Stage-3 Rigor Pass — Phase A — Ch 8 — Pass 2 (voice-polish)
 **Date drafted:** 2026-05-23
-**Status:** PROPOSED. Awaiting author ratification before Phase C-β spot-fix application session.
+**Status:** **RATIFIED 2026-05-25** (author ratify-as-recommended per §10.1 record; Phase C-β spot-fix application is a separate downstream session).
 **Mode:** Audit-existing-prose (post-Pass-1 Phase-C-α + residual-hedge-alignment chapter is the baseline; v2.0 Amendment B voice-polish discipline as a distinct pass from Pass 1 fact-check and Pass 3 audience-load).
 **Source chapter:** `manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` — **243 lines** (post-Phase-C + post-cascade-reconciliation `9befb92` state verified 2026-05-23 against feature branch `claude/ch8-pass2-voice-polish-ad1947d16476c939c`, branched from `origin/main` at `b31ee2d`).
 
@@ -753,38 +753,44 @@ For author ratification, in recommended sequence (lowest-risk to highest):
 
 ## §10. Ratification record
 
-*Empty section for author to fill in post-decision. Mirror Pass 1 §11 + cross-corpus IPG canonical-construction §9 ratification record format.*
+### §10.1 Author disposition — RATIFIED 2026-05-25
 
-**Author disposition (to be filled in):**
+Author ratified all 20 §9.3 sequenced recommendations as recommended (ratify-as-recommended pattern; consistent with cascade-reconciliation 2026-05-21 ratification cadence + Amendment-C Interactive Ratification Protocol). All coordination dependencies resolved per the artifact's §9.3 conditional clauses (F-V7 → Option B given F-V4 → Option B; F-V10 → Option C given F-V4 → Option B).
 
-| Finding | Severity | Option | Disposition (RATIFY APPLY / RATIFY HOLD / DEFER) |
+| Finding | Severity | Ratified Option | Disposition |
 |---|---|---|---|
-| F-V1 (line 12 chapter-opening five-fold) | HIGH | A / B / C / D / custom | |
-| F-V2 (line 176 six-fold cross-scenario) | HIGH | A / B / C / D / custom | |
-| F-V3 (chapter-wide em-dash density) | HIGH | A / B / C / D / custom | |
-| F-V4 (five-fold "I'll" first-person) | HIGH | A / B / C / D / custom | |
-| F-V5 (section-header parallelism) | MEDIUM | A / B / C / custom | |
-| F-V6 (numerical-pivot three-fold) | MEDIUM | A / B / C / D / custom | |
-| F-V7 (methodological-statement paragraph) | MEDIUM | A / B / C / custom | |
-| F-V8 (YIMBY-engagement self-reference) | MEDIUM | A / B / C / custom | |
-| F-V9 (closing-section cadence) | MEDIUM | A / B / C / custom | |
-| F-V10 (line 222 first-person declarative-pair) | MEDIUM | A / B / C / D / custom | |
-| F-V11 (misreading three-fold) | MEDIUM | A / B / C / custom | |
-| F-V12 (line 122 rent-seeking audit) | MEDIUM | A / B (coord F-V3) | |
-| F-V13 (line 60 three-fold + em-dash) | MEDIUM | A / B / C / custom | |
-| F-V14 (section-opener two-fold) | LOW | (HOLD default) | |
-| F-V15 (line 12 standalone-pair) | LOW | (HOLD default) | |
-| F-V16 (within-sentence rule-of-three) | LOW | (HOLD default) | |
-| F-V17 (line 164 standalone headline-pivot) | LOW | (HOLD default) | |
-| F-V18 (line 200 four-declarative cluster) | LOW | (HOLD default) | |
-| F-V19 (register-toggle observation) | LOW | (observation only) | |
-| F-V20 (line 92 lineage-tradition closer) | LOW | (HOLD default) | |
+| F-V1 (line 12 chapter-opening five-fold) | HIGH | **A** (compress to colon-list) | RATIFY APPLY |
+| F-V2 (line 176 six-fold cross-scenario) | HIGH | **A** (compress to one substantive sentence) | RATIFY APPLY |
+| F-V3 (chapter-wide em-dash density) | HIGH | **B** (comprehensive sweep) | RATIFY APPLY |
+| F-V4 (five-fold "I'll" first-person) | HIGH | **B** (retain one strong site; convert four to third-person) | RATIFY APPLY |
+| F-V5 (section-header parallelism) | MEDIUM | **A** (hold as-is) | RATIFY HOLD |
+| F-V6 (numerical-pivot three-fold) | MEDIUM | **C** (vary line 166 only, no em-dash) | RATIFY APPLY |
+| F-V7 (methodological-statement paragraph) | MEDIUM | **B** (collapse two-fold pairs; coordinated with F-V4 Option B) | RATIFY APPLY |
+| F-V8 (YIMBY-engagement self-reference) | MEDIUM | **A** (hold as-is) | RATIFY HOLD |
+| F-V9 (closing-section cadence) | MEDIUM | **A** (hold as-is) | RATIFY HOLD |
+| F-V10 (line 222 first-person declarative-pair) | MEDIUM | **C** (retain first-person, vary structure; coordinated with F-V4 Option B) | RATIFY APPLY |
+| F-V11 (misreading three-fold) | MEDIUM | **A** (hold as-is) | RATIFY HOLD |
+| F-V12 (line 122 rent-seeking audit) | MEDIUM | **A** (hold as-is at paragraph level; em-dash count handled at F-V3) | RATIFY HOLD |
+| F-V13 (line 60 three-fold + em-dash) | MEDIUM | **B** (vary appositive-pair em-dashes to colons; preserve three-fold anaphora; coordinated with F-V3) | RATIFY APPLY |
+| F-V14 (section-opener two-fold) | LOW | HOLD (default) | RATIFY HOLD |
+| F-V15 (line 12 standalone-pair) | LOW | HOLD (default) | RATIFY HOLD |
+| F-V16 (within-sentence rule-of-three) | LOW | HOLD (default) | RATIFY HOLD |
+| F-V17 (line 164 standalone headline-pivot) | LOW | HOLD (default) | RATIFY HOLD |
+| F-V18 (line 200 four-declarative cluster) | LOW | HOLD (default) | RATIFY HOLD |
+| F-V19 (register-toggle observation) | LOW | observation only (no spot-fix) | RATIFY HOLD |
+| F-V20 (line 92 lineage-tradition closer) | LOW | HOLD (default) | RATIFY HOLD |
 
-**Phase C application (to be filled in post-disposition):**
-- Application commit SHA:
-- Chapter line-count post-application:
-- Cross-chapter cascade required: Y / N
-- Pass 3 (audience-load) session ready: Y / N
+**Tally:** 8 RATIFY APPLY (F-V1, F-V2, F-V3, F-V4, F-V6, F-V7, F-V10, F-V13) + 12 RATIFY HOLD = 20 total dispositions.
+
+**Phase C-β application scope:** 8 ratified spot-fixes applying to lines 12, 28, 40, 60, 62, 74, 96, 108, 122 (partial — F-V3 sweep only), 124, 138, 166, 176, 222 + chapter-wide em-dash sweep per F-V3 Option B (full pass through all 80 em-dashes, retaining only load-bearing rhetorical-pivot + parenthetical-pair + sentence-final-punch sites). Estimated post-application chapter line-count: 243 → 228–238 lines (net compression from F-V1 + F-V2 + F-V3 + F-V4 + F-V13 reductions; partial offset from F-V6 + F-V7 + F-V10 light edits). Cross-chapter cascade: none (all spot-fixes intra-Ch 8).
+
+### §10.2 Phase C application (downstream session — to be filled in post-application)
+
+- Application commit SHA: *(pending downstream Phase C-β session)*
+- Chapter line-count post-application: *(pending)*
+- Cross-chapter cascade required: **N** (all 8 spot-fixes intra-Ch 8 body prose)
+- Pass 3 (audience-load) session ready: **Y** (after Phase C-β application lands)
+- Stage 1c light coherence-check + Pass 3.3 light re-fire from coal-CO₂ methodology cascade (cross-thread #12 closure entry): still queued separately; can fire before, after, or in parallel with Phase C-β (no shared line touches)
 
 ---
 
