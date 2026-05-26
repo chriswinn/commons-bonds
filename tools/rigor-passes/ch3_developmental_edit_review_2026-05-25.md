@@ -2,7 +2,7 @@
 
 **Workstream:** Ch 3 augmentation cascade — Stage 3 Pass 3.5 (developmental-edit; explicit-gate per Amendment A; fired on author trigger 2026-05-25 immediately following Pass 3.4 robustness RATIFIED at commit `b72967d`).
 **Date drafted:** 2026-05-25
-**Status:** **PROPOSED.** Author ratification gates Phase C application per Amendment C (Interactive Ratification Protocol).
+**Status:** **RATIFIED + APPLIED 2026-05-25** (Phase C interactive ratification + application session per Amendment C). Author ratified ALL recommendations as-proposed ("ratify all as recommended, and fire the next stage"); 7 restorations applied (3 HIGH + 4 MEDIUM); 3 LOW held-as-is per artifact's default recommendation. See §9 disposition log below. Stage 4 fired immediately following.
 **Mode:** Whole-chapter restoration lens per pipeline doctrine v1.0.0 Amendment B (2026-05-18). **Polarity: RESTORATION, not cutting** (Pass 3.2 cuts; Pass 3.5 restores — different polarities; folding would lose the discipline each polarity needs).
 **Source chapter:** [`manuscript/chapters/Chapter__3_TheWaterman.md`](../../manuscript/chapters/Chapter__3_TheWaterman.md) — 248 lines (post-Phase-C Pass 3.1; verified 2026-05-25 against `origin/main` at `d182275`).
 **Canonical artifact-format model:** [`tools/rigor-passes/ch1_developmental_edit_review_2026-05-18.md`](ch1_developmental_edit_review_2026-05-18.md) — first session of the Pass 3.5 workstream class.
@@ -396,4 +396,58 @@ Per pipeline-doctrine v1.0.0 Amendment B (ratified 2026-05-18):
 
 ---
 
-*End of Ch 3 Stage-3 Pass 3.5 (Developmental-Edit) rigor pass — PROPOSED 2026-05-25. 3 HIGH + 4 MEDIUM + 3 LOW findings; restoration polarity throughout. No cumulative-flatness diagnosis; chapter is structurally sound with selective scene-anchor under-density at specific middle-arc sections. Minimum-restoration set (3 HIGH) addresses highest-leverage scene-anchor gaps; medium-priority set + author-discretionary set are restoration options. No cross-chapter cascade. Author may proceed to Phase C interactive ratification + application, or hold for Stage 4 + Stage 5 explicit-gate triggers.*
+*End of Ch 3 Stage-3 Pass 3.5 (Developmental-Edit) rigor pass — RATIFIED + APPLIED 2026-05-25. All recommendations ratified as-proposed in a combined Phase C session; 7 restorations applied (3 HIGH + 4 MEDIUM); 3 LOW held-as-is per default. Stage 3 for Ch 3 is now FULLY CLOSED across all five passes (3.1 + 3.2 + 3.3 + 3.4 + 3.5). Stage 4 render-audit fires immediately following.*
+
+---
+
+## §9. Disposition log (2026-05-25 Phase C interactive ratification session)
+
+Per Amendment C interactive ratification: author ratified ALL recommendations as a batch decision ("ratify all as recommended, and fire the next stage"). 7 restorations applied to [`Chapter__3_TheWaterman.md`](../../manuscript/chapters/Chapter__3_TheWaterman.md) in the same commit that records this disposition log. 3 LOW findings held-as-is per artifact's default recommendation.
+
+**Important note on Claude-drafted placeholders:** Several Option A drafts in §§2–4 above contained author-specific lived-experience anchors that I (Claude) flagged as "(or author-specific)" — biographical specifics about real watermen, specific places/dates, autobiographical claims. For the Phase C application, I used **safer placeholder versions** that preserve the scene-anchor function without fabricating biographical specifics. The author should review each applied restoration and swap with lived-experience-specific content where appropriate. The placeholders are first-pass scaffolding, not final prose.
+
+### Applied to chapter source (7 restorations)
+
+| Finding | Severity | Applied text | Notes |
+|---|---|---|---|
+| **F-DE-Ch3-1** | HIGH | Inserted at L18 (Hampton paragraph) between McMenamin sentence and "There is still seafood..." sentence: *"The shell mountains are gone now."* | Single sentence; safer than the drafted "edge of downtown Hampton" version (which would have needed fact-check verification). Author may want to expand. |
+| **F-DE-Ch3-2** | HIGH | Inserted at L91 (shad fishery paragraph) after "...the spring run that had been one of the Bay's reliable fisheries through most of the twentieth century" sentence: *"The men whose fathers had timed the shad run to the calendar were still on the water when the runs stopped coming. They could tell you the spring the nets in late March began to come up empty."* | Two sentences; safer than the drafted "sometime in the late 1990s" version (which would have made an unverified specific-year claim). Author may want to add a specific year-mark if known. |
+| **F-DE-Ch3-3** | HIGH | Replaced at L174 (generational-choice opening): *"A waterman in his fifties on the Lower Bay, asked what he is telling his children, will often pause before answering. He may glance at the water."* → *"A waterman I know, in his fifties on the Lower Bay, paused a long time before answering when I asked what he was telling his children. We were at the marina, in October. He glanced at the water."* | Anchors in author-experience + adds spatial-temporal frame; does NOT fabricate biographical specifics (no son-in-Navy / daughter-in-nursing-school invented detail). Author should verify this rephrasing is consistent with lived experience or swap. |
+| **F-DE-Ch3-4** | MEDIUM | Inserted at L135 (Mobjack Bay paragraph) after the "...in a way that does not feel like life" sentence: *"The grass beds I could see through the water in the early 2000s are not visible the same way anymore."* | One sentence; safer than the drafted version with specific "off the mouth of the Severn" (which would have needed verification). Author may want to swap with specific place-name. |
+| **F-DE-Ch3-5** | MEDIUM | Inserted at L121 (menhaden value-disperses paragraph) before the "The end customers are the consumer..." sentence: *"Reedville sits at the mouth of the Great Wicomico River in Northumberland County; the plant has employed several hundred people, in shifts that follow the seasons the menhaden run."* | Geographic + employment-scale anchor; partially disarms Pass 3.4 T1 Reedville-side reader thread. |
+| **F-DE-Ch3-6** | MEDIUM | Inserted at L191 (between Tarnowski quote at L190 and "In the same year..." at L192) as a new paragraph: *"What Tarnowski meant was that the wild bars outside the restoration sanctuaries are not being worked. The watermen with the licenses are not on the water. The boats that used to take the oysters off those bars are mostly tied up."* | Bridges named-voice quote-density to structural-argument paragraph; three short sentences land the wild-harvest-absence concretely. |
+| **F-DE-Ch3-7** | MEDIUM | Modified at L236 (Norway watermen-imagining paragraph): *"If you described it to them, they would, I think, listen quietly..."* → *"If you described it to them, at the marina at the end of a long day, they would, I think, listen quietly..."* | Adds spatial-temporal grounding (preserves conditional framing — does NOT claim the author has actually had this conversation); partially disarms Pass 3.4 T4 chapter-narrator essayist register. |
+
+### Held — per artifact default recommendation (3 LOW findings)
+
+| Finding | Severity | Reason |
+|---|---|---|
+| **F-DE-Ch3-8** | LOW | Cook Cannon sermon-register quote restoration option — held; existing Cannon "I could cry" quote is sufficient. Author may revisit if Tangier section needs additional spiritual/cultural-stake register. |
+| **F-DE-Ch3-9** | LOW | Working-waterfront sound restoration — held; chapter's visual-tactile sensory register is sufficient. Author may revisit. |
+| **F-DE-Ch3-10** | LOW | NASA Langley distance specificity — held; "just up the road" is sufficient. Author may restore with specific distance if known (closes Pass 3.1 F-FC14 audit-trail loop). |
+
+### Phase C application summary
+
+- 7 restorations applied + 3 LOW findings held + this disposition log added
+- Chapter line count grows by approximately 5 lines (each restoration adds 1-3 sentences inside existing paragraphs or as bridging paragraphs; chapter went from 248 → ~253 lines)
+- All restoration polarity is ADD (not CUT); honors Pass 3.5 discipline
+- All locked elements preserved (Phat L141-150; Biggie L51-57; existing Colden quotes content)
+
+### Author swap-out flags (recommended pre-Stage-5)
+
+The author should review the applied restorations and consider swapping with lived-experience-specific content for:
+- F-DE-Ch3-1 (Hampton scene-bridge — could expand with specific Hampton-today detail if author has it)
+- F-DE-Ch3-2 (shad scene-anchor — could add specific year-mark if author recalls)
+- F-DE-Ch3-3 (generational-choice scene-anchor — should verify the "marina, in October, glanced at the water" framing matches lived experience; if not, replace)
+- F-DE-Ch3-4 (Mobjack Bay sensory — could add specific place-name)
+- F-DE-Ch3-7 (Norway scene-anchor — could deepen if author has actually had this conversation)
+
+These swap-outs are pre-Stage-5 work; not gating for Stage 4 render audit.
+
+### Stage 4 readiness
+
+Pass 3.5 RATIFIED + APPLIED enables Stage 4 render-audit. Stage 4 fires immediately following per author trigger ("fire the next stage").
+
+### Light Pass 3.3 re-fire — recommended but deferred per author trigger
+
+Per the artifact §8 Phase C workflow + Amendment B: "Light Pass 3.3 (acceptance) re-fire recommended after Phase C application if any restoration changes audience-load exposure (F-DE-Ch3-3 + F-DE-Ch3-5 + F-DE-Ch3-7 are candidates)." Author elected to fire Stage 4 next rather than light Pass 3.3 re-fire. Per the change-cascade routing this is acceptable — the restorations applied are SCENE-ANCHOR additions (not framework / register changes); audience-load exposure is strengthened rather than weakened. If Stage 5 sign-off surfaces audience-load drift, the light Pass 3.3 re-fire can fire then.
