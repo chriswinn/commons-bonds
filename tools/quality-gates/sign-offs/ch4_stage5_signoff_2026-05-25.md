@@ -1,7 +1,7 @@
 # Commons Bonds — Ch 4 *The Existence Proof* — Stage 5 Bookend Pre-Submission Sign-Off + Stage 4 Bundled Disposition
 
 **Date drafted:** 2026-05-25
-**Status:** **PROPOSED 2026-05-25** — awaiting author ratification.
+**Status:** **RATIFIED 2026-05-25** — Phase C application complete; chapter is READY-TO-SUBMIT. See §11 ratification record + Phase C application log.
 **Stage:** Stage 5 bookend pre-submission sign-off per v3.1 (Amendment B 5-pass + Amendment A two-class cascade) doctrine. Stage 4 ratification bundled per Ch 6 (`533f4f6`) + Ch 2 (`cd2c76d`) + Ch 1 (`fb25c9c` adjacent) precedents.
 **Workstream context:** Ch 4 is the **fifth book-chapter** to fire Stage 5 (after TA + Ch 6 + Ch 2 + Ch 1). Format precedents mirrored: Ch 6 / Ch 2 / Ch 1 chapter-class sign-offs at `tools/quality-gates/sign-offs/`.
 
@@ -319,4 +319,79 @@ Phase C application session is the natural follow-on (combines ratification + ap
 
 ---
 
-*End of Stage 5 sign-off — Ch 4 The Existence Proof — PROPOSED 2026-05-25. Awaiting author ratification.*
+---
+
+## §11. Ratification record + Phase C application log (closed 2026-05-25)
+
+**Author ratification 2026-05-25:** All Phase C items ratified as recommended in a combined ratification + application session per pipeline doctrine v3.1 Amendment C interactive ratification protocol. The §9 aggregate verdict moves from "READY AFTER PHASE C APPLICATION" to **READY-TO-SUBMIT** — Ch 4 joins Ch 1 + Ch 2 + Ch 6 + TA in the chapter-class READY-TO-SUBMIT corpus.
+
+### §11.1 Phase C edits applied to `Chapter__4_TheExistenceProof.md`
+
+Single atomic chunk: 14 edits / 13 line changes (one line carries two collapsed edits — F-V14 + F-V15-line-108 are in the same paragraph).
+
+| Finding | Line | Disposition | Applied |
+|---|---|---|---|
+| F-R-1 | 26 | GPFG AUM refresh: "one and nine-tenths trillion" → "two trillion" | ✓ |
+| F-R-2 | 26 | Per-citizen refresh: "three hundred and forty thousand" → "three hundred and sixty thousand" (Option (a) recommended) | ✓ |
+| F-V1 (HIGH) | 32 | Five-declarative chronology → Option B inventory-and-punch single sentence | ✓ |
+| F-V2 (HIGH) | 84 | Four-fragment "The same X" block → Option D two-sentence comma-list (em-dash-free) | ✓ |
+| F-V3 (HIGH) | 120 | Anaphora break: "It does not close the externality tail." → "The externality tail also remains open." | ✓ |
+| F-V3 (HIGH) | 122 | Anaphora break: "It does not address the distributional problem at the global scale." → "The global-scale distributional problem is unresolved." | ✓ |
+| F-V6 | 18 | Double-anaphoric pivot collapsed: "The variable is not geology. The variable is..." → "The variable is not geology — it is..." | ✓ |
+| F-V8 | 42 | Soft-superlative hedge: "the best in the world" → "widely judged the best in the world" | ✓ |
+| F-V9 | 52 | 78-word em-dash mega-parenthetical broken into two sentences (substantive claim + applications-list as separate sentence) | ✓ |
+| F-V11 | 86 | Compress sentences 2+3: "It is large because B is small. It is not large because the oil is different." → "It is large because B is small, not because the oil is different." | ✓ |
+| F-V12 (em-dash pair 1) | 98 | Em-dash pair (architectural-sources) → restructured to three sentences (drops both em-dashes; preserves substance) | ✓ |
+| F-V12 (em-dash pair 2) | 98 | Em-dash pair (general-operations list) → parens | ✓ |
+| F-V13 | 100 | Drop sentence 2: "Both are intergenerational instruments." removed; "Both are X" anaphora reduced from 3 to 2 | ✓ |
+| F-V14 | 108 | Drop chiastic coda: "— and that what was constructed once can be reconstructed." removed | ✓ |
+| F-V15 (line 88) | 88 | Drop expository frame: "This is what the framework needs to demonstrate to be credible: that it differentiates correctly." → "The framework needs to demonstrate that it differentiates correctly." | ✓ |
+| F-V15 (line 108) | 108 | Drop expository frame: "What the comparison does add to the chapter's argument is this:" → "The comparison adds the following to the chapter's argument:" | ✓ |
+| F-V15 (line 56) | 56 | HELD as deliberate §-conclusion cadence per Pass 3.2 verify recommendation | — |
+
+### §11.2 Held findings (Pass 3.2 verify concur-hold)
+
+| Finding | Line | Disposition |
+|---|---|---|
+| F-V4 | 12 | HELD — substantive survey-follow-through earns framing |
+| F-V5 | 14 | HELD — sentence-length variance softens named pattern |
+| F-V7 | 34 | HELD — three-element architecture-design substantively earned |
+| F-V10 | 68 | HELD — selection-criterion claim earns cadence-build |
+| F-V16-V23 (all 8 LOW) | 26 / 30 / 36 / 46 / 54 / 70 / 134 / 136 | HELD per Pass 3.2 verify concur-hold |
+
+### §11.3 Stage 4 disposition
+
+§8 RATIFIED 2026-05-25 as AUTHOR-COMPLETED-OFFLINE per author direction (separate `45323b1` commit; verdict CLEAN per Ch 1 + Ch 2 + Ch 6 corpus pattern). No re-fire warranted from this Phase C application chunk — the 13 line changes are anchor-refreshes + cadence-restructures within already-render-stable patterns (no new Greek letters, no new approximation symbols, no new currency-symbol patterns). Author-offline render-pipeline confirmation at pre-publication gate per Ch 1 precedent.
+
+### §11.4 Stage 5 sign-off ratification
+
+This sign-off artifact (§§0–§10) is RATIFIED 2026-05-25 in the same Phase C session per Amendment C interactive ratification protocol. The companion pre-pub queue artifact at [`tools/pre-submission-reviews/ch4_pre_pub_queue_2026-05-25.md`](../../pre-submission-reviews/ch4_pre_pub_queue_2026-05-25.md) is RATIFIED in tandem.
+
+### §11.5 Aggregate verdict — UPDATED
+
+§9 aggregate verdict **UPDATED FROM** "READY AFTER PHASE C APPLICATION" **TO** **READY-TO-SUBMIT**. Ch 4 joins corpus precedent:
+
+| Artifact | Stage 5 verdict | Phase C status |
+|---|---|---|
+| TA (`2d01407`) | READY-TO-SUBMIT | Applied |
+| Boston Review essay (`d34214d`) | READY-TO-SUBMIT | Applied |
+| Noema essay (`8191004`) | READY-TO-SUBMIT | Applied |
+| $100 Barrel essay (`0266525`) | READY-TO-SUBMIT | Applied |
+| Ch 6 (`533f4f6`) | READY-TO-SUBMIT | Applied |
+| Ch 2 (`cd2c76d`) | READY-TO-SUBMIT | Applied |
+| Ch 1 (`fb25c9c` adj) | READY-TO-SUBMIT | Applied |
+| Ch 9 (`0d67d62`) | READY-TO-SUBMIT | Applied |
+| **Ch 4 (this artifact)** | **READY-TO-SUBMIT** | **Applied 2026-05-25** ✓ |
+
+### §11.6 Outstanding items beyond this session
+
+- **Sibling-side housekeeping** (NOT Ch 4-side; route via PM):
+  - Cross-chapter consistency inventory line 95 + 96 anchor refresh (inventory revision session).
+  - Ch 6 line 537 anchor refresh ($1.8T → $2.0T) — route to Ch 6's next retrofit cycle.
+  - Op-ed canonical-facts inventory refresh — depends on op-ed active/archived status.
+- **Optional Pass 3.5 developmental-edit** (DEFERRED per explicit-gate cascade; T4 thread flags lines 32-36 scene-anchor restoration crediting NBIM / transparency / ethics-council / Storting-consensus operational architecture). Author triggers separately via [developmental-edit workstream](../../workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md) if warranted.
+- **Pre-publication-gate render verification** at submission time.
+
+---
+
+*End of Stage 5 sign-off — Ch 4 The Existence Proof — **RATIFIED 2026-05-25 with Phase C application complete**. Chapter is **READY-TO-SUBMIT**.*

@@ -1,8 +1,8 @@
 # Pre-Publication Review Queue — Ch 4 (The Existence Proof)
 
 **Date generated:** 2026-05-25
-**Status:** **PROPOSED 2026-05-25** — awaiting author ratification (flips PROPOSED → RATIFIED via [`ch4_stage5_signoff_2026-05-25.md`](../quality-gates/sign-offs/ch4_stage5_signoff_2026-05-25.md)).
-**Artifact:** Ch 4 — *The Existence Proof* (`manuscript/chapters/Chapter__4_TheExistenceProof.md`) — 140 lines / ~4,030 words (post-Pass-1 + pre-Pass-2-application; will be ~4,050 words post-Phase-C).
+**Status:** **RATIFIED 2026-05-25** — flipped PROPOSED → RATIFIED via companion [`ch4_stage5_signoff_2026-05-25.md`](../quality-gates/sign-offs/ch4_stage5_signoff_2026-05-25.md) §11. See §8 application record below.
+**Artifact:** Ch 4 — *The Existence Proof* (`manuscript/chapters/Chapter__4_TheExistenceProof.md`) — **141 lines** (post-Phase-C application 2026-05-25; 14 spot-fixes / 13 line changes applied).
 **Rendered outputs (current baseline):** PENDING — author-offline render-pipeline execution at pre-publication gate (per Stage 5 §8.3 disposition).
 **Manuscript-submission package context:** for-publisher / for-agent (manuscript-side handoff, post-acceptance review queue).
 **Format model:** [Ch 1 pre-pub queue v1.0.0](ch1_pre_pub_review_queue_v1.0.0.md) chapter-class precedent.
@@ -214,16 +214,30 @@ For post-acceptance review (publisher / editor phase):
 
 ## §7. Outstanding items (pre-publication checklist)
 
-- [ ] Phase C application of F-R-1 + F-R-2 (line 26 GPFG anchor refresh).
-- [ ] Phase C application of F-V1 + F-V2 author-ratified Pass 2 spot-fixes.
-- [ ] Phase C application of F-V3 + 8 MEDIUM Pass 3.2 verify-refined recommendations.
-- [ ] Sibling-side: cross-chapter consistency inventory line 95 + 96 anchor refresh (inventory revision session).
-- [ ] Sibling-side: Ch 6 line 537 anchor refresh ($1.8T → $2.0T) — route to Ch 6's next retrofit cycle.
-- [ ] Sibling-side: op-ed canonical-facts inventory refresh — PM disposition on op-ed active-vs-archived status.
-- [ ] OPTIONAL: Pass 3.5 developmental-edit (DEFERRED; T4 flag for scene-anchor restoration at lines 32-36 NBIM/transparency/ethics-council/Storting-consensus operational architecture).
-- [ ] Pre-publication-gate: author-offline render-pipeline execution (`.docx` + `.html` + `.pdf`); diff verification against source.
-- [ ] Pre-publication-gate: Stage 5 sign-off → RATIFIED (this artifact + companion sign-off).
+- [x] Phase C application of F-R-1 + F-R-2 (line 26 GPFG anchor refresh). ✓ Applied 2026-05-25.
+- [x] Phase C application of F-V1 + F-V2 author-ratified Pass 2 spot-fixes. ✓ Applied 2026-05-25.
+- [x] Phase C application of F-V3 + 8 MEDIUM Pass 3.2 verify-refined recommendations. ✓ Applied 2026-05-25.
+- [x] Stage 5 sign-off → RATIFIED (this artifact + companion sign-off). ✓ Ratified 2026-05-25.
+- [ ] Sibling-side: cross-chapter consistency inventory line 95 + 96 anchor refresh (inventory revision session). *(Not Ch 4-side; route via PM.)*
+- [ ] Sibling-side: Ch 6 line 537 anchor refresh ($1.8T → $2.0T) — route to Ch 6's next retrofit cycle. *(Not Ch 4-side.)*
+- [ ] Sibling-side: op-ed canonical-facts inventory refresh — PM disposition on op-ed active-vs-archived status. *(Not Ch 4-side.)*
+- [ ] OPTIONAL: Pass 3.5 developmental-edit (DEFERRED; T4 flag for scene-anchor restoration at lines 32-36 NBIM/transparency/ethics-council/Storting-consensus operational architecture). *(Author-triggered if warranted.)*
+- [ ] Pre-publication-gate: author-offline render-pipeline execution (`.docx` + `.html` + `.pdf`); diff verification against source. *(At submission time.)*
 
 ---
 
-*End of Ch 4 pre-publication review queue v1.0.0. PROPOSED 2026-05-25. Ratifies in tandem with [`ch4_stage5_signoff_2026-05-25.md`](../quality-gates/sign-offs/ch4_stage5_signoff_2026-05-25.md).*
+## §8. Phase C application record (closed 2026-05-25)
+
+Phase C ratification + application session executed 2026-05-25 per pipeline doctrine v3.1 Amendment C interactive ratification protocol. All Ch 4-side items applied; chapter is **READY-TO-SUBMIT**.
+
+**Edits applied (single atomic chunk):** 14 spot-fixes / 13 line changes. Detailed log in companion sign-off [`ch4_stage5_signoff_2026-05-25.md`](../quality-gates/sign-offs/ch4_stage5_signoff_2026-05-25.md) §11.1.
+
+**Chapter state post-Phase-C:** 141 lines / ~4,025 words. Line count unchanged from pre-Phase-C 140 (one new blank-line offset from sentence-restructure at line 98); word count near-neutral (F-V9 break-into-sentences slightly lengthens; F-V11 + F-V13 + F-V14 + F-V15 compressions slightly shorten; net ~5 word delta).
+
+**Stage 4 disposition unchanged:** RATIFIED CLEAN per §8 of companion sign-off. Phase C edits do not introduce new character-integrity risks.
+
+**Next step:** pre-publication-gate (author-managed-offline render-pipeline confirmation at submission time).
+
+---
+
+*End of Ch 4 pre-publication review queue v1.0.0. **RATIFIED 2026-05-25** in tandem with [`ch4_stage5_signoff_2026-05-25.md`](../quality-gates/sign-offs/ch4_stage5_signoff_2026-05-25.md). Chapter is READY-TO-SUBMIT.*
