@@ -2,7 +2,7 @@
 
 **Workstream:** Ch 3 augmentation cascade — Stage 3 Pass 3.4 (audience-load robustness; explicit-gate per Amendment A; fired on author trigger 2026-05-25 immediately following Pass 3.3 acceptance PROPOSED at commit `84f57bd`).
 **Date drafted:** 2026-05-25
-**Status:** **PROPOSED.** Author ratification gates downstream cross-chapter workstream spin-up if any thread surfaces REQUIRES STRUCTURAL ENGAGEMENT.
+**Status:** **RATIFIED 2026-05-25** (verdict-only ratification per CONDITIONALLY ROBUST disposition). Author ratified the verdict + the 5 PPR queue items + the F-FC9 disposition standing. No chapter spot-fixes flow from Pass 3.4 (per the artifact's own recommendation); the load-bearing T3 climate-engaged-reader thread routes to the pre-publication review queue (Stage 5 artifact) rather than chapter spot-fix. No cross-chapter workstream spin-up needed (no REQUIRES STRUCTURAL ENGAGEMENT verdict). The 5 PPR-Ch3 items (T3 Tangier framing; T1 Reedville employment; T2 Public Choice cross-chapter; T5 agribusiness reviewer-balance; T6 property-rights book-framework) carry forward to Stage 5 sign-off.
 **Mode:** Full Pass 3.4 robustness test against the chapter's adversarial / detractor character set (Stage 1 brief §1 names 2; this pass adds 4 standard adversarial archetypes specific to this chapter, per the audience-pressure-test-construction discipline of 5–10 adversarial characters).
 **Source chapter:** [`manuscript/chapters/Chapter__3_TheWaterman.md`](../../manuscript/chapters/Chapter__3_TheWaterman.md) — 248 lines (post-Phase-C Pass 3.1; verified 2026-05-25 against `origin/main` at `d182275` / `84f57bd`).
 
