@@ -394,4 +394,50 @@ This sign-off artifact (§§0–§10) is RATIFIED 2026-05-25 in the same Phase C
 
 ---
 
-*End of Stage 5 sign-off — Ch 4 The Existence Proof — **RATIFIED 2026-05-25 with Phase C application complete**. Chapter is **READY-TO-SUBMIT**.*
+---
+
+## §12. Pass 3.5 developmental-edit application + Stage 4 re-ratification (closed 2026-05-26)
+
+**Author ratification 2026-05-26:** Pass 3.5 developmental-edit (PROPOSED 2026-05-25 at `8920139`) ratified as recommended in a combined ratification + application session per Amendment C interactive ratification protocol.
+
+### §12.1 Pass 3.5 application
+
+Both HIGH findings applied via Option A as recommended:
+
+| Finding | Line | Disposition | Applied |
+|---|---|---|---|
+| F-DE-Ch4-1 (HIGH; Option A) | 36 | ~50-word single-sentence scene-anchor restoration appended to §"The architecture" close: "The mechanisms that maintained it are specifiable: an operational arm — Norges Bank Investment Management — run at arms length from political direction, an ethics council whose divestment decisions are public, a fiscal rule coupled to quarterly reporting that makes any breach politically observable, and a Storting in which structural change to the fund requires a consensus supermajority no recent coalition has been able to assemble." Closes Pass 3.4 §6.2 T4 thread-pull flag. | ✓ |
+| F-DE-Ch4-2 (HIGH; Option A) | 80 | ~75-word two-sentence international-architecture restoration inserted between corruption-prosecutions sentence and Niger-Delta-communities sentence: "The architecture that routed revenue outside Nigeria is itself part of the architecture the chapter is naming: international tax-treaty structures that legitimize commodity-trade transfer-pricing into low-disclosure jurisdictions, financial-secrecy intermediation in jurisdictions whose own home regulators have chosen not to impose extraterritorial liability on operating-company affiliates, and concession terms inherited from pre-independence arrangements made when the Nigerian state did not yet exist as a counterparty. The mechanism is not a Nigerian failure operating in isolation; it is an international architecture in which Nigerian institutional weakness is one component among others." Closes Pass 3.4 §6.2 T3 thread-pull flag. | ✓ |
+| F-DE-Ch4-4 (LOW) | 52 | HELD per Pass 3.5 verify (Pass 3.4 §6.2 low-priority flag closed; enumeration appropriate to substantive-grounding register). | — |
+| F-DE-Ch4-3, -5, -6 | — | NO FINDING logged — no restoration warranted. | — |
+| C-DE-Ch4-1 through -7 | — | Whole-chapter confirmations — no restoration warranted. | — |
+
+**Chapter state post-Pass-3.5:** ~143 lines / ~4,150 words (chapter grew by ~125 words / 2 lines from prior 141 lines / ~4,025 words at commit `97ba205`).
+
+### §12.2 Cross-pass cascade confirmations
+
+- **Pass 3.3 acceptance:** Pass 3.5 §3 cross-character impact analysis projected Tier 1 #3 (SWF-domain policy reader) verdict to STRENGTHEN from ✓✓ to ✓✓✓ + Tier 3 #14 (Mazzucato/Raworth cluster) to STRENGTHEN. **Light Pass 3.3 acceptance re-fire warranted** per Amendment B Pass-3.5 protocol; fires post-this-commit. No EXCLUDE shift projected at any character.
+- **Pass 3.4 robustness:** Pass 3.4 §6.2 T3 + T4 thread-pull flags directly closed by F-DE-Ch4-1 + F-DE-Ch4-2. **Pass 3.4 re-fire NOT routinely warranted** per Amendment B Pass-3.5 protocol (restorations strengthen adversarial robustness; do not weaken). A3 + A5 + A6 adversarial reads partially defused.
+- **Pass 3.1 fact-check + 3.2 voice-polish:** No re-litigation; all prior dispositions preserved.
+- **Stage 1c coherence:** GPFG canonical anchors ($2.0T / $356K-$391K) unaffected; F-DE-Ch4-1 + F-DE-Ch4-2 add structural-feature content at the right register without touching anchor numerics.
+
+### §12.3 Stage 4 re-ratification (post-Pass-3.5)
+
+**RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE** per author 2026-05-26 direction. Author re-ran Docker render pipeline against the post-Pass-3.5 chapter state; verdict **CLEAN** (matches the prior Stage 4 ratification at `45323b1` against the post-Phase-C state).
+
+Re-fire rationale per §8.3 Phase C re-fire trigger discipline: Pass 3.5 added one new em-dash pair (F-DE-Ch4-1 NBIM institutional-naming convention) within already-render-stable typography. F-DE-Ch4-2 added no new em-dashes. No new Greek letters, approximation symbols, or currency-symbol patterns. Author offline confirmation closes the re-fire flag.
+
+### §12.4 Aggregate verdict — RE-CONFIRMED
+
+**READY-TO-SUBMIT** (aggregate verdict unchanged from §11.5; Pass 3.5 application is optional-but-recommended polish that strengthens the chapter — does not change ship-readiness). Ch 4 remains in the chapter-class READY-TO-SUBMIT corpus alongside Ch 1 + Ch 2 + Ch 6 + Ch 9 + TA.
+
+### §12.5 Outstanding items beyond this session
+
+- **Light Pass 3.3 acceptance re-fire** — fires post-this-commit per Amendment B Pass-3.5 protocol (separate session/subagent; produces re-fire PROPOSED artifact for author ratification).
+- **Pre-publication-gate render verification** — RE-CONFIRMED CLEAN per §12.3.
+- **Cross-chapter cascade follow-up** — F-DE-Ch4-1 NBIM mechanism-credit pattern + F-DE-Ch4-2 international-architecture extension flagged for future cross-chapter developmental-coherence session.
+- **Sibling-side housekeeping** (unchanged from §11.6) — cross-chapter consistency inventory + Ch 6 line 537 + op-ed canonical-facts inventory refresh.
+
+---
+
+*End of Stage 5 sign-off — Ch 4 The Existence Proof — **RATIFIED 2026-05-25 with Phase C application complete; Pass 3.5 RATIFIED + APPLIED 2026-05-26; Stage 4 RE-RATIFIED 2026-05-26 (post-Pass-3.5 author-offline Docker render CLEAN)**. Chapter is **READY-TO-SUBMIT**.*

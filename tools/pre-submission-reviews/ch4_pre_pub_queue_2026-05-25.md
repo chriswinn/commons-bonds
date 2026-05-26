@@ -240,4 +240,28 @@ Phase C ratification + application session executed 2026-05-25 per pipeline doct
 
 ---
 
-*End of Ch 4 pre-publication review queue v1.0.0. **RATIFIED 2026-05-25** in tandem with [`ch4_stage5_signoff_2026-05-25.md`](../quality-gates/sign-offs/ch4_stage5_signoff_2026-05-25.md). Chapter is READY-TO-SUBMIT.*
+---
+
+## §9. Pass 3.5 application addendum (closed 2026-05-26)
+
+**Pass 3.5 developmental-edit RATIFIED + APPLIED 2026-05-26.** Two HIGH restorations applied via Option A (recommended); 1 LOW HELD; aggregate verdict READY-TO-SUBMIT re-confirmed.
+
+**Chapter state post-Pass-3.5:** ~143 lines / ~4,150 words (was 141 lines / ~4,025 words at §8 application close).
+
+**Application detail (see companion sign-off [§12](../quality-gates/sign-offs/ch4_stage5_signoff_2026-05-25.md#§12-pass-3-5-developmental-edit-application--stage-4-re-ratification-closed-2026-05-26)):**
+
+- **F-DE-Ch4-1 (HIGH; line 36)** — NBIM institutional-architecture scene-anchor appended to §"The architecture" close. ~50-word single-sentence addition crediting NBIM operational autonomy + ethics council + fiscal-rule + Storting consensus-supermajority engineering mechanisms. **Closes Pass 3.4 §6.2 T4 thread-pull flag.**
+- **F-DE-Ch4-2 (HIGH; line 80)** — Nigeria international-architecture extension inserted between corruption-prosecutions sentence and Niger-Delta-communities sentence. ~75-word two-sentence addition extending institutional-architecture analytical frame to international scale (tax-treaty structures + financial-secrecy intermediation + extraterritorial-liability + pre-independence-concession architecture). **Closes Pass 3.4 §6.2 T3 thread-pull flag.**
+
+**Stage 4 re-ratification (post-Pass-3.5):** RE-RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE per author Docker render pipeline re-run; verdict CLEAN.
+
+**Pre-pub queue updates:**
+
+- §5 thread-pull items: T3 + T4 acknowledgments may be lightened per F-DE-Ch4-1 + F-DE-Ch4-2 closure. Recommended pre-pub-queue posture: T3 = "[chapter engages international-political-economy + colonial-history axis at structural-feature level; further world-systems depth would require apparatus engagement out of chapter scope]" (per Pass 3.5 F-DE-Ch4-2 cross-pass flag); T4 = closed-by-restoration; no acknowledgment needed beyond pre-pub-queue transparency that NBIM/ethics-council/Storting mechanisms now named in chapter.
+- §3 recommended external reviewer types: unchanged. Pass 3.5 restorations sit within established Norwegian-petroleum-history reader + SWF-academic / GPFG-governance scholar review scope.
+
+**Outstanding:** Light Pass 3.3 acceptance re-fire per Amendment B Pass-3.5 protocol (post-Phase-C cross-character impact projection: STRENGTHEN at Tier 1 #3 + Tier 3 #14; no EXCLUDE shift). Fires post-this-commit as separate session.
+
+---
+
+*End of Ch 4 pre-publication review queue v1.0.0. **RATIFIED 2026-05-25** in tandem with [`ch4_stage5_signoff_2026-05-25.md`](../quality-gates/sign-offs/ch4_stage5_signoff_2026-05-25.md). **Pass 3.5 application + Stage 4 re-ratification addendum closed 2026-05-26.** Chapter is READY-TO-SUBMIT.*
