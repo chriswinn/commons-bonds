@@ -979,4 +979,34 @@ Per author's per-prompt scoping + v3.0/v3.1 sub-pass split discipline:
 
 ---
 
-*End of Ch 7 Stage-3 Pass 3.3 (Audience-Load — Acceptance) — pending author ratification. Aggregate verdict: READY AS-IS (with one optional author-judgment item at §8.3 Option B if author wants to reduce Mars-canonization skim-read risk for the Tier-1 policy reader). Full 30-character acceptance set: 30 INCLUDE / 0 NEUTRAL / 0 EXCLUDE. Pass 3.4 (robustness — adversarial / detractor) is the next session for Ch 7 per per-prompt serial cadence + v3.0/v3.1 sub-pass split.*
+## §11. Ratification record (closed 2026-05-25)
+
+Author ratification of §8.3 author-judgment item completed 2026-05-25 via interactive disposition walkthrough ("ratify as recommended and proposed").
+
+### §11.1 §8.3 disposition
+
+| Item | Disposition | Rationale |
+|---|---|---|
+| §8.3 Mars-canonization skim-read disclaimer (character #17 close-vs-skim divergence) | **Option A (HOLD)** | Chapter holds 30/30 INCLUDE at close-read; methodology-not-advocacy disclaimer at lines 195–199 is substantively earned at the Mars-is-false-analogy objection-and-response moment; skim-read discount bounded; chapter's analytical architecture (answer-when-objection-fires structure) preserved. Pass 3.4 (robustness) may surface additional Mars-canonization concerns from adversarial-character side that change the calculus; deferring potential Option B / Option C consideration until Pass 3.4 verdict allows for combined Phase C-γ disposition if warranted (more efficient than firing Phase C-γ twice). |
+
+### §11.2 Phase C-γ scope
+
+**No Phase C-γ session required for Pass 3.3 acceptance.** Chapter holds AS-IS at the post-Phase-C-β state (commit `e29d5ae`). All 30 acceptance characters INCLUDE; no spot-fixes ratified for application.
+
+If Pass 3.4 (robustness) surfaces adversarial-character pressure that strengthens the case for Option B (pre-positioning note) or Option C (disclaimer relocation), the option may be revisited as part of a combined Phase C-γ session addressing both Pass 3.3 §8.3 + Pass 3.4 spot-fixes together.
+
+**Hard constraints carried forward to Pass 3.4 + any future Phase C-γ:**
+- Theorem 10.3 (Abundance Masking) cross-reference at Ch 7:121 must NOT be modified (matches current Tech Appendix v2.0.0 canonical numbering).
+- Aeon-overlap held passage at Ch 7:101 must NOT be modified (per Pass 3.1 MEDIUM-8 hold + Pass 3.2 §5.8 verification; Aeon Version C pitch fire window Sun May 31 14:01 UTC still active).
+- Pass 3.1 fact-check Phase C-α edits (lines 19, 33, 197, 213, 215, 241) + Pass 3.2 voice-polish Phase C-β edits (lines 21, 85, 121, 195, 229) must not be regressed.
+- Apparatus register canonical decisions (Items 7, 10, 12, 14, 15 + Pass 3.2 §5.3 Abundance Masking Option C) hold.
+
+### §11.3 Next session for Ch 7
+
+**Pass 3.4 (robustness — adversarial / detractor characters with thread-pull synthesis verdict)** is the next session for Ch 7 per per-prompt serial cadence + v3.0/v3.1 sub-pass split. 12 adversarial characters flagged forward at §6 with specific Ch-7-relevant thread expectations.
+
+After Pass 3.4: if spot-fixes ratified (potentially combined with deferred §8.3 Option B / C disposition), Phase C-γ applies; otherwise Pass 3.5 (developmental-edit) is the explicit-gate next step if author triggers, OR Ch 7 closes Stage-3 audit and moves to Stage 4 (render + character-integrity audit) per v3.0 architecture.
+
+---
+
+*End of Ch 7 Stage-3 Pass 3.3 (Audience-Load — Acceptance) — RATIFIED 2026-05-25. Aggregate verdict: READY AS-IS at §8.3 Option A (hold; default). Full 30-character acceptance set: 30 INCLUDE / 0 NEUTRAL / 0 EXCLUDE. No Phase C-γ session required for Pass 3.3. Pass 3.4 (robustness — adversarial / detractor) is the next session for Ch 7 per per-prompt serial cadence + v3.0/v3.1 sub-pass split.*
