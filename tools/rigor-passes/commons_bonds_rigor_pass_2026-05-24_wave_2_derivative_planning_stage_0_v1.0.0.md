@@ -459,12 +459,43 @@ RATIFICATION PASTE-TEXTS: tools/workstream-handoffs/wave-2-derivative-kickoffs_2
 
 ---
 
+### Candidate A: Ch 2 *The Miner* → Harper's Magazine — RATIFIED 2026-05-25
+
+**Driven by:** Candidate-A interactive ratification session (2026-05-25) — Amendment C Interactive Ratification Protocol; one-finding-at-a-time discipline per `tools/memory/feedback_parallel_session_ratification_cadence.md`. Session walked 8 findings (3 HIGH + 5 MED) sequentially; severity-strict ordering; no list-dump. Two material in-session context updates landed via parallel sessions:
+- **Ch 2 chapter-side Stage 3 cascade closure mid-session:** Pass 3.4 RATIFIED (`bc09936`, ROBUST verdict, no prose changes), Pass 3.5 RATIFIED + Phase C-ζ minimum-restoration set applied (`c1d9ae3`, lines 184/186 analytical-pivot restorations per workstream #20), Pass 3.3 LIGHT RE-FIRE post-Phase-C-ζ RATIFIED (`9bddbd2`), Stage 4 author-offline marker set. **Condition A1 mechanically satisfied during session.**
+- **`project_book_complete_marketing_phase` memory entry RATIFIED (`fb25c9c`)** — reframed Stage 0 dimension semantics (book content-complete; essays are downstream marketing instruments). Re-verification confirmed Findings 1–7 hold under marketing-phase reframing; Finding 8 (alt cascade) revised to align with cascade plan v2 §5 NYRB post-publication-only designation.
+
+**Finding 1 — Q1 verdict: GO with conditions A1/A2 — RATIFIED AS-PROPOSED.**
+
+- **Verdict:** GO (as-proposed; Option 1 of 4 presented in the ratification session).
+- **Conditions accepted as-stated, both substantively closed during session:**
+  - **A1** — Ch 2 Pass 3.4 closure required before Stage 2 audience-blind drafting fires. **Mechanically satisfied mid-session** by parallel-session ratifications listed above. Gate set under Finding 2 ratification: Pass 3.4 closure only (Pass 3.5 + Stage 4/5 do NOT gate the derivative, per restoration-polarity + render/sign-off-vs-framework-stability reasoning).
+  - **A2** — Named-subject status check at Stage 1: Bailey (deceased Feb 2019; public-record exception via WV Public Broadcasting + Congressional testimony — courtesy-notify family if reachable; eligible to name). Confirm no other living-named subjects in Ch 2 derivative scope. **Substantively closed during session via inline verification:** Ted Latusek **verified deceased** Oct 19, 2022 (obituary cross-match: Theodore "Ted" Matthew Latusek, Jr.; Consolidated Coal Company → Consol Energy lineage match; Fairmont WV / northern WV match; longwall-operations-coordinator role match with "outmined two-to-one" prose claim; ~95%) + Hamby/CPI 2013 "Breathless and Burdened" Pulitzer-series cross-confirmation (~99%). Latusek discipline shifts to **deceased + courtesy-notify-family** (same as Bailey); reachable family path: spouse Donna Jean Latusek, daughter Jennifer "Nicki" Latusek-Nabholz, Fairmont WV area, Ford Funeral Home fallback. Living journalists (Jessica Lilly = Inside Appalachia host / WVPB; Chris Hamby = CPI / now NYT) covered by public-record exception with **citation-accuracy courtesy-notify protocol** drafted into Stage 1 brief named-subject sub-section per Option 1+4 amendment. No living-pending-consent gating remains for Ch 2 → Harper's derivative scope.
+- **Reasoning at ratification:** 8-dimension analysis surfaces 6 HELPS + 1 NEUTRAL-HELPS + 1 PASS GATE + 1 CONDITIONAL-GATE; cleanest concept-level verdict among the four Wave 2 candidates that name framework apparatus at any level. McDowell coal + reclamation-bonding-gap + Black Lung Trust Fund material structurally hard to read left-coded; Harper's literary-essay register fills format-mix cell empty in Wave 1; ~18–22% effective reveal (concept-only; no formal apparatus). Conditions A1 + A2 are operational rather than structural; both substantively closed during session. Marketing-phase reframing (ratified mid-session) STRENGTHENS the verdict by weakening the framework-positioning-lock-in + source-sufficiency caution dimensions; net direction is unambiguous GO.
+
+**Finding 2 — Q2 sequencing — RATIFIED with two author amendments + Finding 8 cascade revision per marketing-phase reframing.**
+
+- **Primary venue:** Harper's Magazine (single-subject deep memoir; ~6,000–15,000w; literary-essay register). HIGH confidence; long-form Appalachian / regional-decline essay slot is a Harper's signature.
+- **Alt cascade (revised per marketing-phase reframing + cascade plan v2 §5 alignment):** (1) **The Atlantic main magazine** (collision-managed vs Ch 3 candidate; fires only after Ch 3 → Atlantic decision concluded; if Ch 3 placed at Atlantic, skip alt-#1 → route to Granta); (2) **Granta** (literary thematic-issue register; promoted from quaternary on marketing-cell-coverage logic); (3) **The New Yorker** (stretch alt; very high editorial-entry bar; serious cascade-tail). **NYRB explicitly REMOVED as active pre-publication alt; reserved for post-publication re-fire trigger per cascade plan v2 §5 line 130** (Q2 2027 onward; coordinates with the actively-queued Sandel/Sassen multi-book NYRB review essay rather than competing same-editor-pool pre-publication).
+- **Stage 1 brief firing date:** No-later-than ~Jun 22–28, 2026 + **author-amended earlier-firing latitude if free cycles open** (post-Wave-1-sprint recovery; ahead of Wave 1 agent queries; before Ch 3 brief per cadence-management discipline to avoid back-to-back literary-narrative briefs).
+- **Stage 2 draft firing date:** Gate set is **Stage 1 brief landing only** (chapter-side cascade fully cleared mid-session; no remaining chapter-side gate). Calendar-agnostic fire-as-soon-as-gates-clear with no calendar floor; realistic projection days-from-Stage-1-brief-landing rather than the artifact's stale "late Jul / early Aug" projection.
+- **Submission window:** Q4 2026 (Oct–Nov) default + **earlier-firing latitude on strategic conditions** (news-peg / agent direction / Harper's editor cold-pitch opportunity). Trailing-Wave-1 by 30–90 days per cascade plan v2 §1 strategic-frame point 7; Harper's response window 2–6 months → editor-review visibility through Q1 2027 agent rounds; ready-earlier-than-submit gap augments platform paragraph for Wave 1 agent queries without committing apparatus to print.
+
+**Surfaced concern (deferred to other sessions / cascade plan v2 amendment):**
+- **NYRB queue collision tracking** — Sandel/Sassen multi-book NYRB review essay actively queued for Q4 2026 submission; Christophers + Chesapeake Requiem both PARKED until book release. NYRB-as-Ch-2-tertiary repositioned to post-publication re-fire trigger (no active pre-pub same-editor-pool collision).
+- **Ch 3 → Atlantic + Ch 2 → Harper's same-house cross-check** — both Q4 2026 submission window; different houses (Atlantic vs Harper's); no same-house collision. Atlantic main alt-#1 in Ch 2 cascade fires only after Ch 3 → Atlantic decision concluded (collision-resolution rule A1).
+- **Ch 3 ratification's surfaced cascade-plan-v2 amendments** (agent target list 25 → 40–50 across 4 waves; Wave 4 fallback Spring 2027; clarification that Atlantic essay timing serves Waves 2/3 not Wave 1; 2027–2028 editor-iteration calendar realism) **apply equally to Ch 2 Harper's** under the marketing-phase reframing — Harper's submission window Q4 2026 + Harper's response window 2–6 months → decision-window calibration similarly serves Waves 2/3 agent-query rounds. Carries into the cascade plan v2 ratification session per Ch 3 record.
+
+**Status:** Ch 2 → Harper's Magazine = **Phase 2-β of Wave 2 (high-priority Wave 2 essay; locked; calendar-second to Ch 3 per cadence-management discipline; substantively co-equal in priority).** Chapter-side Stage 3 cascade closed; only Stage 1 brief firing + Stage 2 derivative drafting remain.
+
+---
+
 ```
-STATE: RATIFIED (Ch 3 only); PROPOSED (Ch 2, Ch 4, Ch 8)
-NEXT: author-action-required (Ch 2 + Ch 4 + Ch 8 per-candidate ratifications in fresh CC sessions per tools/workstream-handoffs/wave-2-derivative-kickoffs_2026-05-24.md OR via per-candidate paste-texts)
-AWAITING: author-ratification (3 remaining candidates) + cascade plan v2 ratification (separate fresh PM session per paste-text delivered 2026-05-24)
+STATE: RATIFIED (Ch 2 + Ch 3); PROPOSED (Ch 4, Ch 8)
+NEXT: author-action-required (Ch 4 + Ch 8 per-candidate ratifications in fresh CC sessions per tools/workstream-handoffs/wave-2-derivative-kickoffs_2026-05-24.md OR via per-candidate paste-texts); fire Ch 2 → Harper's Stage 1 brief in fresh session (no chapter-side gates remain)
+AWAITING: author-ratification (2 remaining candidates) + cascade plan v2 ratification (separate fresh PM session per paste-text delivered 2026-05-24; surfaced amendments from Ch 3 + Ch 2 ratification records to be incorporated)
 ```
 
 ---
 
-*End of Wave 2 derivative-planning Stage 0 rigor pass (batch). Verdict: per-candidate PROPOSED above; PM-recommended ordering Ch 3 → Ch 2 → Ch 4 → defer Ch 8.*
+*End of Wave 2 derivative-planning Stage 0 rigor pass (batch). Verdict: Ch 2 + Ch 3 RATIFIED; Ch 4 + Ch 8 PROPOSED; PM-recommended ordering Ch 3 → Ch 2 → Ch 4 → defer Ch 8.*
