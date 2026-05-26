@@ -3,7 +3,7 @@
 **Date:** 2026-05-26
 **Scope:** [`manuscript/chapters/Chapter__3_TheWaterman.md`](../../manuscript/chapters/Chapter__3_TheWaterman.md)
 **Stage 3 close commit:** `b4d09fb` (Pass 3.5 PROPOSED) + this session's Phase C application (Pass 3.5 RATIFIED + APPLIED; 7 restorations); chapter line count 250 lines (was 248 pre-Phase-C; +2 net from F-DE-Ch3-6 adding a paragraph + small word-count additions absorbed inside existing paragraphs).
-**Status:** **PROPOSED.** Verdict: CLEAN.
+**Status:** **RATIFIED 2026-05-26** (verdict-only ratification per CLEAN disposition; no spot-fixes flow). Author ratified the CLEAN verdict + 3 PPR-Ch3-Stage4 items (canonical-pipeline byte-exactness; smart-quote convention; italic V. case citations) carrying forward to Stage 5 pre-publication review queue. No chapter source changes. No pipeline-script changes. Stage 5 fires immediately following.
 **Mode:** Stage 4 render + character-integrity audit per pipeline-doctrine v1.0.0 Stage 4 (`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`). Explicit-gate per Amendment A; fired on author trigger 2026-05-25 ("fire the next stage") immediately following Pass 3.5 RATIFIED + APPLIED. Audit work spans 2026-05-25 → 2026-05-26.
 
 **Cascade context (all upstream passes ratified):**
