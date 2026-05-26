@@ -1,9 +1,9 @@
 # Pre-Publication Review Queue — Ch 10 (Common Bonds)
 
 **Date generated:** 2026-05-26
-**Status:** PROPOSED 2026-05-26 — ratifies in batch with Ch 10 Stage 5 sign-off ([`tools/quality-gates/sign-offs/ch10_stage5_signoff_2026-05-26.md`](../quality-gates/sign-offs/ch10_stage5_signoff_2026-05-26.md))
-**Artifact:** Ch 10 — *Common Bonds* ([`manuscript/chapters/Chapter_10_CommonBonds.md`](../../manuscript/chapters/Chapter_10_CommonBonds.md); 184 lines / 5,390 words; HEAD commit lineage `b48d43c` → `e41267d` → `dd997ad` → `0615b9c` → `4ef6b9a`)
-**Stage 5 sign-off commit:** PENDING (ratifies after author ratification per Stage 5 §8)
+**Status:** **RATIFIED 2026-05-26** — author ratified in batch with Ch 10 Stage 5 sign-off ([`tools/quality-gates/sign-offs/ch10_stage5_signoff_2026-05-26.md`](../quality-gates/sign-offs/ch10_stage5_signoff_2026-05-26.md)) per "ratify Stage 5" instruction (ratify-as-recommended)
+**Artifact:** Ch 10 — *Common Bonds* ([`manuscript/chapters/Chapter_10_CommonBonds.md`](../../manuscript/chapters/Chapter_10_CommonBonds.md); 184 lines / 5,390 words; HEAD commit lineage `b48d43c` → `e41267d` → `dd997ad` → `0615b9c` → `4ef6b9a` → `d00538f` → [this batch ratification commit])
+**Stage 5 sign-off commit:** RATIFIED in batch (see Stage 5 sign-off §8 2026-05-26 RATIFIED entry)
 **Stage 4 render-audit:** AUTHOR-COMPLETED-OFFLINE 2026-05-26; verdict CLEAN
 **Manuscript-submission package context:** for-publisher / for-agent (manuscript-side handoff; post-acceptance review queue)
 
@@ -193,7 +193,7 @@ Per author preference, rank-ordered for Ch 10 specifically:
 
 ## §6. PROPOSED status — ratification path
 
-**LOCKED IN as of this PROPOSED draft (will not change at ratification):**
+**LOCKED IN as of this RATIFIED state:**
 - §1.1 factual verification list (per Pass 3.1 consolidation RATIFIED).
 - §1.3 cross-artifact coherence list (per Stage 1c-equivalent inventory updates RATIFIED).
 - §1.4 audience-load verification list (per comparative audit + Pass 3.5 + light Pass 3.3 re-fire RATIFIED).
@@ -201,13 +201,14 @@ Per author preference, rank-ordered for Ch 10 specifically:
 - §2.1 + §2.3 external-corroboration + audience-coverage-gap inventories.
 - §3 + §4 recommended-reviewer + priority-rank inventories.
 
-**STAYS OPEN until author ratifies Stage 5 sign-off:**
-- Pre-pub queue artifact status (PROPOSED → RATIFIED).
-- Stage 5 sign-off commit cross-reference (PENDING → cross-reference populated).
-- Fort Monroe / 1619 disposition (Stage 5 §7.3 item 1 recommends disposition (c) pre-pub queue acknowledgment; PM session can revisit).
+**OPEN ITEMS POPULATED AT RATIFICATION (2026-05-26):**
+- Pre-pub queue artifact status: **RATIFIED 2026-05-26** (this artifact's header status field).
+- Stage 5 sign-off commit cross-reference: RATIFIED in batch per Stage 5 §8 2026-05-26 RATIFIED entry; commit short-sha [this batch ratification commit].
+- Fort Monroe / 1619 disposition: **RATIFIED disposition (c) — pre-pub queue acknowledgment** per Stage 5 §7.3 item 1 ratify-as-recommended. Cross-thread-todos #16 moves to Resolved with disposition (c) selected.
+- M-5 racialized-othering coupling: **RATIFIED held-in-place** per brief-compliant absorption + light Pass 3.3 re-fire's clean verdict at affected audiences; restoration candidate stays documented in Pass 3.1 consolidation §3 for future-printing window if coupled with Fort Monroe disposition (a).
 
-**Ratification path:** This artifact ratifies in batch with Ch 10 Stage 5 sign-off ratification. At Stage 5 ratification, the open items above populate; the rest of this artifact carries forward as drafted.
+**Ratification record:** Ratified in batch with Ch 10 Stage 5 sign-off per pipeline doctrine §7 + author "ratify Stage 5" instruction. All four awaiting Stage 5 ratification items (aggregate verdict + pre-pub queue artifact + Fort Monroe disposition + M-5 coupling) ratified as-recommended per the established ratify-as-recommended pattern.
 
 ---
 
-*End of pre-publication review queue artifact (Ch 10). PROPOSED 2026-05-26. Ratifies in batch with Stage 5 sign-off per pipeline doctrine §7.*
+*End of pre-publication review queue artifact (Ch 10). RATIFIED 2026-05-26 (author ratify-as-recommended; in batch with Stage 5 sign-off). Ch 10 at READY-TO-SUBMIT.*

@@ -1,7 +1,7 @@
 # Commons Bonds — Ch 10 *Common Bonds* — Stage 5 Bookend Pre-Submission Sign-Off + Pre-Publication Review Queue
 
 **Date drafted:** 2026-05-26
-**Status:** **PROPOSED 2026-05-26** — Stage 4 ratified by author offline ("ratify stage 4 as I have done that offline with the docker render pipeline"); Stage 5 sign-off PROPOSED in this artifact. Final aggregate verdict on ratification: **READY-TO-SUBMIT** (matching Ch 1 `906a204` + Ch 2 `cd2c76d` + Ch 6 `533f4f6` chapter-class precedents).
+**Status:** **RATIFIED 2026-05-26** — author ratified Stage 4 (author-completed-offline 2026-05-26; CLEAN) + Stage 5 sign-off as-recommended per "ratify Stage 5" instruction. Final aggregate verdict: **READY-TO-SUBMIT** (matching Ch 1 `906a204` + Ch 2 `cd2c76d` + Ch 6 `533f4f6` + Ch 4 `45323b1` + Ch 9 `0d67d62` chapter-class precedents).
 **Stage:** Stage 5 bookend pre-submission sign-off + pre-publication review queue artifact per v3.1 (Amendment B 5-pass + Amendment A two-class cascade) doctrine. The symmetric pair to the Stage 1 ready-to-draft ratification gate. Stage 5 fires explicit-gate at pre-submission per Amendment A.
 **Workstream context:** Ch 10 is the **eighth artifact** in the corpus to fire Stage 5 and the **fifth book-chapter** to do so (after TA + Ch 1 + Ch 2 + Ch 6). Prior Stage 5 sign-offs (chronological): Technical Appendix RATIFIED 2026-05-20 (commit `2d01407`; paratext-class); Boston Review essay RATIFIED 2026-05-23 (commit `d34214d`; essay-class); Noema essay RATIFIED 2026-05-24 (commit `8191004`; essay-class); $100 Barrel essay RATIFIED 2026-05-24 (commit `0266525`; essay-class); Ch 6 RATIFIED 2026-05-25 (commit `533f4f6`); Ch 2 RATIFIED 2026-05-25 (commit `cd2c76d`); Ch 1 RATIFIED 2026-05-25 (commit `906a204`); Ch 4 RATIFIED 2026-05-25 (commit `45323b1`); Ch 9 RATIFIED 2026-05-25 (commit `0d67d62`). **Ch 10 is now in sequence with the other book-chapter Stage 5 ratifications that have closed the past 48 hours.** **Format precedents mirrored:** Ch 1 Stage 5 (`tools/quality-gates/sign-offs/ch1_stage5_signoff_2026-05-25.md`) as the closest structural template (memoir-register chapter with author-personal-life content); Ch 6 Stage 5 as the chapter-class scaffold + Stage-4-author-managed-offline pattern.
 
@@ -346,6 +346,17 @@ Ch 10's READY-TO-SUBMIT status places the book's closing chapter at distribution
 
 Per CLAUDE.md merge-to-main: this Stage 5 sign-off + the pre-pub queue artifact are internal-scaffolding artifacts; auto-merge to main per default. Once author ratifies, the chapter prose status flips from PROPOSED → RATIFIED for the Ch 10 entry in the manuscript-submission package readiness inventory.
 
+**2026-05-26 — RATIFIED (author ratify-as-recommended).** Author direction: "ratify Stage 5." All four awaiting items ratified as-recommended per the established ratify-as-recommended pattern (Ch 8 `55ce715` + Ch 1 `906a204` + comparative-audit `dd997ad` precedents):
+
+1. **Aggregate verdict** (§7.3): RATIFIED — READY-TO-SUBMIT. Ch 10 joins TA + Ch 1 + Ch 2 + Ch 4 + Ch 6 + Ch 9 at distribution-readiness (7 of 10 manuscript artifacts now ready).
+2. **Pre-publication review queue artifact** (§5): RATIFIED — companion artifact flips PROPOSED → RATIFIED in batch with this sign-off; §6 open items populate with this sign-off's commit short-sha + Fort Monroe disposition (c) selection + M-5 racialized-othering coupling held-in-place state.
+3. **Fort Monroe / 1619 disposition** (§7.3 item 1): RATIFIED disposition (c) — pre-pub queue acknowledgment. Cross-thread-todos item #16 moves to Resolved with disposition (c) selected per ratify-as-recommended. If future-printing window prompts revisiting, the Stage 1c retrofit + Pass 3.5 cycle is the available path (coupled to item 4 below).
+4. **M-5 racialized-othering coupling** (§7.3 item 2): RATIFIED held-in-place — brief-compliant absorption of Normative routinization under "routine" preserved per light Pass 3.3 re-fire's clean verdict at the affected audiences. Restoration candidate stays documented in Pass 3.1 consolidation §3 for future-printing window if coupled with Fort Monroe disposition (a).
+
+**Stage 3 + Stage 4 + Stage 5 cycle for Ch 10 — FULLY CLOSED.** Ch 10 at READY-TO-SUBMIT.
+
+**Manuscript-submission package readiness inventory updated (per CLAUDE.md merge-to-main):** Ch 10 entry flips PROPOSED → RATIFIED. The Ch 10 cascade is the corpus's first comparative-draft audit at chapter scope; the cascade-path artifact-chain (Stage 2 ALT `b48d43c` → comparative audit `e41267d` → Pass 3.5 ratify-as-recommended `dd997ad` → parallel Pass 3.1 consolidation `0615b9c` → Pass 3.3 light re-fire `4ef6b9a` → Stage 5 PROPOSED `d00538f` → Stage 5 RATIFIED [this commit]) is preserved as empirical-anchor record for the audience-aware drafting discipline's v3.2 amendment candidate per Pass 3.5 artifact §5.
+
 ---
 
-*End of Ch 10 Stage 5 bookend pre-submission sign-off. PROPOSED 2026-05-26. Awaiting author ratification.*
+*End of Ch 10 Stage 5 bookend pre-submission sign-off. RATIFIED 2026-05-26 (author ratify-as-recommended). Ch 10 at READY-TO-SUBMIT.*
