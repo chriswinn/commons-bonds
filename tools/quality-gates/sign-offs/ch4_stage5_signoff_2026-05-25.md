@@ -51,7 +51,7 @@ This sign-off fires after a full Ch 4 pipeline-retrofit (Stages 1a + 1c + Passes
 | Pass 3.3 acceptance | 2026-05-25 | INCLUDE — CHAPTER SHIPS | 25/25 INCLUDE (5 ✓✓✓ + 15 ✓✓ + 5 ✓); Tier 1 0 ⚠⚠⚠ NO SHIP BLOCK; Tier 2 + Tier 3 8/8 + 12/12 INCLUDE | `7e390c8` |
 | Pass 3.4 robustness | 2026-05-25 | ROBUST | 8 adversarial characters EXCLUDE-as-expected per verdict-floor; thread-pull synthesis surfaces T1-T7 load-bearing claims (chapter's structural disarms hold); no chapter-disqualifying threads chapter-disarmable | `3a5c03f` |
 | Pass 3.5 developmental-edit | NOT YET FIRED | DEFERRED | Pass 3.5 is explicit-gate per pipeline doctrine v3.1 Amendment B; flagged at Pass 3.4 T4 as candidate (lines 32-36 NBIM/transparency/ethics-council/Storting-consensus scene-anchor restoration); fires at author trigger via [developmental-edit workstream](../../workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md) | (n/a) |
-| Stage 4 render + character-integrity audit | 2026-05-25 | RATIFIED as AUDIT-MODE-CLEAN + author-offline confirmation flagged | See §8 | (this artifact) |
+| Stage 4 render + character-integrity audit | 2026-05-25 | **RATIFIED as AUTHOR-COMPLETED-OFFLINE** per author 2026-05-25 direction; verdict CLEAN (matches Ch 1 + Ch 2 + Ch 6 patterns) | See §8 | (this artifact) |
 
 **Retrofit cascade COMPLETE for the in-scope 8 sub-steps** (1a + 1c + 3.1 verify + 3.2 verify + 3.3 + 3.4 + 4 + 5). Pass 3.5 developmental-edit remains DEFERRED per explicit-gate cascade discipline (not in retrofit scope; author triggers separately).
 
@@ -246,31 +246,31 @@ Companion pre-pub queue at [`tools/pre-submission-reviews/ch4_pre_pub_queue_2026
 
 ---
 
-## §8. Stage 4 render + character-integrity audit (bundled per Ch 1/2/6 precedent)
+## §8. Stage 4 render + character-integrity audit (RATIFIED 2026-05-25 — bundled per Ch 1/2/6 precedent)
 
 ### §8.1 Stage 4 disposition
 
-Per Ch 1 (`fb25c9c` adjacent) + Ch 2 (`cd2c76d`) + Ch 6 (`533f4f6`) precedent — Stage 4 render-audit is bundled into Stage 5 sign-off when render-toolchain execution is author-managed-offline.
+**RATIFIED as AUTHOR-COMPLETED-OFFLINE 2026-05-25 per author direction.** Author render pipeline session executed offline; no agent involvement. Verdict: **CLEAN** (matches Ch 1 + Ch 2 + Ch 6 patterns). Bundled into this Stage 5 sign-off per Ch 1 (`fb25c9c` adjacent) + Ch 2 (`cd2c76d`) + Ch 6 (`533f4f6`) precedent — render-toolchain containerization (Docker / remote-container) drove Claude-token cost to ~0 per pipeline-doctrine reference, freeing Stage 4 execution to the author's offline workflow.
 
-### §8.2 Audit-mode scan (this session)
+### §8.2 Audit-mode scan (PM-session pre-ratification baseline)
 
-Render-toolchain execution (`tools/scripts/build-derivatives.sh`) was NOT executed in this session class — render pipeline is author-offline-managed per established corpus precedent. Audit-mode scan performed against the registered character-integrity risk patterns:
+Prior to the author-offline render-pipeline ratification, the PM session performed an audit-mode scan against the registered character-integrity risk patterns as a pre-ratification baseline check. Findings consistent with the author-offline CLEAN verdict:
 
 - **Em-dash density check:** Chapter has em-dashes flagged at Pass 3.2 F-V9 (78-word mega-parenthetical at line ~52) + F-V12 (4 em-dashes in US-SS comparator paragraph at ~98). Em-dashes are render-stable in EB Garamond + math-font fallback chain per existing render baseline; no tofu-box risk under current Docker render-toolchain (per pipeline-revision handoff §0 fix `d238f2c`).
 - **Approximation-symbol check (≈):** Chapter does NOT contain `≈` symbol. No risk.
-- **Greek-letter check:** Chapter contains "Cᵢ" subscript-i references? Verified absent — Ch 4 prose does not use Cᵢ apparatus notation (apparatus is Ch 5 / Ch 6 home).
+- **Greek-letter check:** Chapter does not use Cᵢ apparatus notation (apparatus is Ch 5 / Ch 6 home).
 - **Currency-symbol check ($, NOK):** Chapter uses $ symbol multiple times (per-citizen, AUM, UNEP $1B); NOK appears in line 117 "rather than in krone" (prose word, not currency symbol). $ is render-stable.
 - **Subscript / superscript check:** Chapter contains "8.9B Sm³ o.e." superscript-3 reference per F-1c-1 disposition (if Phase C applies F-R-1 with cumulative-production refresh) — superscript-3 (³) is render-stable per existing TA render baseline.
-- **Tense / typography (en-dash / hyphen-minus):** Random sampling shows correct em-dash usage (— not -- or --) throughout.
+- **Typography (en-dash / hyphen-minus):** Random sampling shows correct em-dash usage (— not -- or --) throughout.
 - **Cross-reference against `tools/quality-gates/regressed-patterns.yaml`:** All chapter-relevant patterns checked at Stage 1a; 0 findings.
 
-**Audit-mode verdict:** **RENDER-CLEAN** against scanned-pattern set.
+**Audit-mode pre-ratification verdict:** RENDER-CLEAN against scanned-pattern set — consistent with author-offline CLEAN ratification.
 
-### §8.3 Author-offline render-pipeline confirmation flag
+### §8.3 Phase C re-fire trigger
 
-Per corpus precedent, full render-pipeline execution (`.docx` + `.html` + `.pdf` produced via Docker / remote-container; visual + diff verification against source) is author-managed-offline at pre-publication gate. Stage 4 marker in this artifact authorizes Phase C application + downstream pre-publication-gate render verification.
+Per change-cascade discipline: if Phase C application of F-R-1 + F-R-2 (GPFG anchor refresh) or Pass 2 spot-fixes introduces any new character-integrity risks (superscript-3 in F-R-1 cumulative-production refresh; em-dash density redistribution from Pass 2 spot-fixes), a light Stage 4 re-fire is warranted at the Phase C application session's close. The expected diff is small (anchor-refresh + sentence-rhythm spot-fixes) and the post-Phase-C render is the artifact that ships; author can re-run render-pipeline at the pre-publication gate to confirm.
 
-**Stage 4 bundled ratification:** **CLEAN BASELINE + AUTHOR-OFFLINE-CONFIRMATION FLAGGED FOR PRE-PUBLICATION GATE.**
+**Stage 4 bundled ratification:** **RATIFIED 2026-05-25 — CLEAN — author-offline-completed.**
 
 ---
 
@@ -309,13 +309,13 @@ Ch 4 is the first chapter to reach Stage 5 with Phase C application still outsta
 
 ## §10. Author ratification request
 
-Author to ratify:
+**Stage 4 bundled disposition (§8): RATIFIED 2026-05-25** as AUTHOR-COMPLETED-OFFLINE per author direction. CLEAN verdict.
 
-1. **Stage 5 sign-off (this artifact):** PROPOSED → RATIFIED — confirms aggregate verdict + cross-references.
-2. **Pre-publication review queue companion:** PROPOSED → RATIFIED at companion artifact.
-3. **Stage 4 bundled disposition (§8):** PROPOSED CLEAN-BASELINE + AUTHOR-OFFLINE-CONFIRMATION-FLAGGED → RATIFIED.
+Still pending:
+1. **Stage 5 sign-off (this artifact):** PROPOSED → RATIFIED — confirms aggregate verdict + cross-references. Ratifies in same session as Phase C application per Amendment C interactive ratification protocol.
+2. **Pre-publication review queue companion:** PROPOSED → RATIFIED at companion artifact. Ratifies in same session.
 
-Phase C application session is the natural follow-on (not part of this ratification — separate session at author's pace per the interactive ratification protocol per pipeline doctrine §3.7 + v3.1 Amendment C).
+Phase C application session is the natural follow-on (combines ratification + application per pipeline doctrine §3.7 + v3.1 Amendment C interactive ratification protocol).
 
 ---
 
