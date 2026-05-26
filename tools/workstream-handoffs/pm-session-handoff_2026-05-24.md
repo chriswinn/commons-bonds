@@ -289,21 +289,53 @@ Plus the 4 essay-side ratifications already in §4. **Total: ~9 ratifications ac
 - 🟣 AWAITING EXTERNAL — blocked on external response (editor reply; Sandy feedback; etc.)
 - ✅ SESSION COMPLETE — closed; commit hash logged
 
-**Inventory template (populate by hand or via PM session refresh after the next major phase shift):**
+**Inventory (refreshed by PM cascade-v2-ratification session 2026-05-26; second refresh absorbs 21 commits since first refresh — Ch 3 + Ch 4 + Ch 7 + Ch 8 + Ch 9 + Ch 10 all advanced).**
+
+**Methodology note.** Scrape covers branches with commit-date ≥ 2026-05-22. Rows classify state by latest commit + cross-references in [`../../publishing/essays/_pipeline/cross-thread-todos.md`](../../publishing/essays/_pipeline/cross-thread-todos.md) + recent rigor-pass artifacts. Rows NOT individually check-in-verified — drop [`../drafting-templates/existing-session-checkin-paste-text.md`](../drafting-templates/existing-session-checkin-paste-text.md) into each session for per-session state.
+
+**Major book-state shift since first refresh.** Ch 1 + Ch 2 + Ch 4 + Ch 6 + Ch 9 now at **Stage 5 RATIFIED READY-TO-SUBMIT**; Ch 10 alt + Pass 3.5 + comparative audit all in flight; Ch 3 sprinting through Pass 3.1 → 3.5; Ch 7 + Ch 8 Pass 3.3+ queued. Submission-side queue (Aeon + BR + $100B + Noema) unchanged from 2026-05-25 PM handoff §2.
 
 | Session (branch) | Workstream / current pass | Pending state | Awaiting | Parent | Notes |
 |---|---|---|---|---|---|
-| `claude/<workstream>-<harness>` | e.g., Ch 9 Pass 3.4 audience-load robustness | 🔴 AUTHOR DECISION on F-AL4-Ch9-3 | author-ratification | — | Pass 3.4 verdict bundle PROPOSED `f47dd1c` |
-| `claude/<workstream>-<harness>` | e.g., Ch 6 Pass 3.3 light re-fire | ⏳ CLAUDE-ACTION (drafting) | claude-action | — | Post-Pass-3.5 light re-fire |
-| `claude/<workstream>-<harness>` | e.g., $100 Barrel Stage 5 sign-off | ✅ SESSION COMPLETE | — | — | RATIFIED 2026-05-24 (`0266525`); next action = author submits |
-| ... (21 rows for current state — populate at next PM refresh) | ... | ... | ... | ... | ... |
+| `claude/pm-session-cascade-v2-ratification-pm0525` | THIS session — cascade plan v2 ratification + 4 amendments + §10b refresh + branch-contamination diagnosis | 🔴 AUTHOR DECISION on (a) Amendments 1–4; (b) branch-contamination fix | author-ratification | — | Worktree-isolated at `/Users/c17n/commons-bonds-pm-cascade-v2`; rebased to current 2026-05-26 head; one-finding-at-a-time discipline |
+| `claude/wave-2-ch4-fa-ratify-663265` | Wave 2 Ch 4 → Foreign Affairs Stage 0 verdict | 🔴 AUTHOR DECISION | author-ratification | `claude/wave-2-derivative-planning-663265` | CONDITIONAL verdict per Stage 0 batch; conditions C1 + C2; Ch 4 chapter now READY-TO-SUBMIT (`97ba205`) so Condition C1 partial-met — only TA RCV stability remains |
+| `claude/chesapeake-requiem-review-essay-stage-0-663265` | Chesapeake Requiem NYRB review-essay Stage 0 | 🔴 AUTHOR DECISION | author-ratification | — | PROPOSED 2026-05-24 (`f6ba4a7`); NYRB pre-pub coordination question |
+| `claude/ch10-stage3-comparative-audit-250525` | Ch 10 Stage 3 comparative draft audit (canonical vs. alt) | 🔴 AUTHOR DECISION (path) | author-ratification | `claude/ch10-alt-draft-250525` | PROPOSED 2026-05-25 (`e41267d`); coordinates with Ch 1 + Ch 2 bookend per session-close handoff `88e6f85` |
+| `claude/ch10-alt-draft-250525` | Ch 10 Common Bonds ALT — Stage 2 audience-blind draft + Pass 1 consolidation | 🔴 AUTHOR DECISION (path) | author-ratification | — | Pass 1 CLOSED `e53dd40`; Pass 3.1 consolidation RATIFIED + APPLIED `0615b9c`; Pass 3.5 RATIFIED + APPLIED `dd997ad`; Pass 3.3 light re-fire PROPOSED `4ef6b9a` |
+| *Ch 3 Pass 3.3 audience-load acceptance* | Ch 3 Pass 3.3 (12 INCLUDE / 0 EXCLUDE) | 🟢 NEXT STAGE READY (PROPOSED but routine ratify) | author-ratification | — | PROPOSED 2026-05-25 (`84f57bd`); 12 INCLUDE / 0 EXCLUDE — standard acceptance verdict |
+| *Ch 3 Pass 3.5 developmental-edit* | Ch 3 Pass 3.5 (3 HIGH + 4 MED + 3 LOW) | 🔴 AUTHOR DECISION | author-ratification | — | PROPOSED 2026-05-25 (`b4d09fb`); recovery worktree at `.claude/worktrees/ch3-pass3.5-isolated` |
+| *Ch 4 pipeline-retrofit Stage 5 sign-off* | Ch 4 Stage 5 bookend + pre-publication review queue | 🔴 AUTHOR DECISION | author-ratification | — | PROPOSED 2026-05-25 (`118f9ce`); Stage 4 RATIFIED `45323b1`; Phase C RATIFIED + APPLIED (chapter READY-TO-SUBMIT) `97ba205` |
+| *Ch 4 Pass 3.5 developmental-edit review* | Ch 4 Pass 3.5 (per Pass 3.4 §6.2 T4 closure; READY-FOR-RATIFICATION) | 🔴 AUTHOR DECISION | author-ratification | — | PROPOSED 2026-05-25 (`8920139`); recovery from worktree agent-ac63459270ae49fc9; 557-line artifact intact |
+| `claude/ta-rcv-publication-stability-signoff-663265` | TA RCV publication-stability sign-off (cross-thread #10 sub-item 2b) | ⏳ CLAUDE-ACTION | claude-action | — | Still NOT-VERIFIED; gates Wave 2 Ch 4 Condition C1 + Wave 1 Atlantic Ideas + $100 Barrel |
+| `claude/atlantic-ideas-essay-pass-3-2-voice-polish-019d10ff-6fc` | Atlantic Ideas Pass 3.2 voice-polish | ⏳ CLAUDE-ACTION (state-unverified) | claude-action | — | Pass 3.1 RATIFIED + APPLIED `a4de83b` 2026-05-24; Pass 3.2 fires next per cadence |
+| `claude/atlantic-ideas-essay-strip-scaffolding-edf09b0f-a02` | Atlantic Ideas scaffolding-strip pass | ⏳ CLAUDE-ACTION (state-unverified) | claude-action | — | Hygiene/cosmetic |
+| `claude/ta-pipeline-retrofit-ecstatic-shannon-a17b5c` | TA pipeline retrofit | ⏳ CLAUDE-ACTION (state-unverified) | claude-action | — | One of the remaining pipeline retrofits |
+| `claude/100-barrel-essay-stage-2-fbc623` | $100 Barrel → Phenomenal World — pre-submission | 🟣 AWAITING EXTERNAL (author submits) | author-action + PW portal | — | Stage 5 + cover letter both RATIFIED 2026-05-24; all gates clear (verified `b64f3f7`) |
+| `claude/boston-review-essay-cover-letter-clever-sinoussi-440b42` | Boston Review pre-submission package | 🟣 AWAITING EXTERNAL (author submits via Submittable) | author-action + Submittable | — | All gates clear per 2026-05-25 PM handoff; cover-letter scaffolding-stripped 2026-05-24 |
+| *Noema essay (cluster γ Path B)* | Noema submission package | 🟣 AWAITING EXTERNAL (author submits) | author-action + Noema portal | — | Pass 3.3 LR + Stage 5 + cover letter RATIFIED 2026-05-24 (`8191004`, `ca6ba07`); rolling submission window — no portal-date constraint |
+| *Aeon Pitch Version C* | Aeon submission-day package | 🟣 AWAITING EXTERNAL (portal window Jun 1–7) | author-action + Aeon portal | — | Stage 3 COMPLETE 2026-05-21; submission-day package staged at `publishing/essays/aeon-mask-of-abundance/submission-day-package_2026-05-31.md` |
+| Sandy Darity post-interview feedback | Cross-thread #2 (citation responses + Ch5/Ch6/TA review) | 🟣 AWAITING EXTERNAL | Sandy reply | — | Packet sent 2026-05-14; soft deadline 2026-05-28 (today + 2); close as RESOLVED if EOD silence |
+| `claude/ch3-stage3-pass3.1-fact-check-2026-05-25` | Ch 3 Pass 3.1 fact-check (Phase C application) | ✅ SESSION COMPLETE | — | — | RATIFIED + APPLIED 2026-05-25 (`d182275`); 4 CRITICAL findings cleared per `3d14ef2` |
+| `claude/ch3-stage3-pass3.2-voice-polish-flamboyant-sanderson-448bb1` | Ch 3 Pass 3.2 voice-polish | ✅ SESSION COMPLETE | — | — | RATIFIED + APPLIED 2026-05-25 (`84b22a7`); F-V21 chapter-wide em-dash reduction + Hampton seafood-anchor |
+| *Ch 3 Pass 3.4 audience-load robustness* | Ch 3 Pass 3.4 (CONDITIONALLY ROBUST) | ✅ SESSION COMPLETE | — | — | RATIFIED 2026-05-25 (`13c57bf`) |
+| `claude/ch9-pass3-5-1fae85` → renamed `claude/ch9-stage5-pm-handoff-1fae85` | Ch 9 Pass 3.5 + Stage 4 + Stage 5 — DONE-DONE | ✅ SESSION COMPLETE | — | — | Pass 3.5 RATIFIED + APPLIED `1fe06c2`; Stage 4 RATIFIED `bc9f52d`; Stage 5 RATIFIED PASS `0d67d62`. **Note: this is the contamination-suspect branch — Wave 2 Stage 0 file modification on this branch is from a separate workstream.** |
+| `claude/ch1-stage-5-rescue-ratify-exciting-heyrovsky-327780` | Ch 1 Stage 4 + Stage 5 sign-off + pre-pub review queue | ✅ SESSION COMPLETE | — | — | RATIFIED 2026-05-25 (`906a204`); first chapter through full Stage 5 — template established |
+| `claude/ch2-stage-5-ratification-exciting-heyrovsky-327780` | Ch 2 Stage 4 + Stage 5 sign-off + pre-pub review queue | ✅ SESSION COMPLETE | — | — | RATIFIED 2026-05-25 (`cd2c76d`); Ch 2 DONE-DONE |
+| *Ch 4 Phase C application* | Ch 4 Phase C → chapter READY-TO-SUBMIT | ✅ SESSION COMPLETE | — | — | RATIFIED + APPLIED 2026-05-25 (`97ba205`); Pass 3.1+3.2+3.3 (`7e390c8`) + Pass 3.4 robustness (`3a5c03f`) — both via agent recovery |
+| `claude/ch6-developmental-edit-ratify-apply-amazing-moser-dc81d1` | Ch 6 Stage 4 + Stage 5 sign-off | ✅ SESSION COMPLETE | — | — | RATIFIED 2026-05-25 (`533f4f6`); Ch 6 DONE-DONE |
+| `claude/manuscript-stage-3-ch7-pass3-3-agent-aebd6c55548a18a45` | Ch 7 Pass 3.3 audience-load acceptance — Option A hold | ✅ SESSION COMPLETE | — | — | PROPOSED `697bcd2` → RATIFIED 2026-05-26 (`0a3de00`); Option A hold |
+| `claude/ch8-pass2-phase-c-beta-7a3d91` | Ch 8 Pass 2 voice-polish + Phase C-β | ✅ SESSION COMPLETE | — | — | RATIFIED + APPLIED 2026-05-25 (`55ce715` + `16554fa`); Pass 3.3/3.4/3.5 still queued |
+| `claude/ch9-d3b-phase-c-final-1fae85` | Ch 9 D-3b Phase C + Pass 3.3 light re-fire | ✅ SESSION COMPLETE | — | — | RATIFIED 2026-05-25 (`06eb1ea`); Stage 1c D-3 FULLY CLOSED |
+| `claude/publishing-reorg-session2-application-affectionate-wing-bb4bd8` | Publishing-pipeline reorg Session 2 | ✅ SESSION COMPLETE | — | — | APPLIED 2026-05-25 (`52fde31`); 50 file moves + 10 READMEs |
 
-**Sub-session lineage tracking (when a parent session spawns children):**
+**Sub-session lineage tracking (parent → child relationships observed in current scrape):**
 
 | Parent session | Child session | Trigger | Resume marker |
 |---|---|---|---|
-| e.g., `claude/atlantic-ideas-stage1-<h1>` | `claude/atlantic-ideas-stage2-<h2>` | "fire fresh session to minimize LLM tics for Stage 2 audience-blind draft" | Stage 2 draft PROPOSED at `publishing/essays/atlantic-ideas-pricing-honestly/atlantic-ideas-essay-fresh-session-draft_<DATE>.md` |
-| ... | ... | ... | ... |
+| `claude/ch3-stage3-pass3.1-fact-check-2026-05-25` | `claude/ch3-stage3-pass3.2-voice-polish-flamboyant-sanderson-448bb1` | Per-prompt serial cadence — Pass 3.2 fires after Pass 3.1 ratify+apply | Pass 3.2 PROPOSED artifact at `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_ch3_voice_polish_v1.0.0.md` |
+| `claude/ch10-alt-draft-250525` | `claude/ch10-stage3-comparative-audit-250525` | Comparative-audit between canonical + alt — author needs to choose path | Comparative-audit artifact at `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_ch10_alt_comparative_v1.0.0.md` |
+| `claude/wave-2-derivative-planning-663265` (Wave 2 Stage 0 batch) | `claude/wave-2-ch4-fa-ratify-663265` | Per-candidate ratification spawning | Ch 4 ratification record at bottom of `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` §12 |
+| `claude/wave-2-derivative-planning-663265` (via Ch 2 + Ch 3 ratification records) | THIS session (`claude/pm-session-cascade-v2-ratification-pm0525`) | Amendments surfaced during Wave 2 Ch 2 + Ch 3 ratification carry forward to cascade plan v2 ratification | Cascade plan v2 `Author ratification record` appended at bottom of `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md` |
 
 **Cognitive-saturation signal.** If accept-recommendation rate falls below ~60% sustained across multiple sessions: switch from sprint → sustained → blocked mode per [`../memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md) §"Cognitive sustainability."
 
