@@ -6,7 +6,7 @@
 **Discipline:** v3.0 Amendment B Pass 3.5 (whole-chapter restoration-of-richness lens; restoration polarity, NOT cutting); per [Stage-3 template](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.5: Developmental-edit"; Amendment-C-scoped (Interactive Ratification Protocol per [feedback_audience_aware_drafting_discipline.md](../memory/feedback_audience_aware_drafting_discipline.md) v3.1: per-finding format includes Options + Recommendation + Reasoning; ratification + application combine in one session)
 **Mode:** audit-existing-prose
 **Format model:** [Ch 2 Pass 3.5 developmental-edit (2026-05-25)](commons_bonds_rigor_pass_2026-05-25_ch2_the_miner_pass_3_5_developmental_edit_v1.0.0.md); Pass 2 §6 + Pass 3.4 §6.3 pre-identified attention items.
-**Status:** PROPOSED — author ratification gates Phase C application (Amendment-C: ratification + application can combine in one session)
+**Status:** RATIFIED + APPLIED 2026-05-25 (Phase C) — author ratification "as recommended" 2026-05-25; F-DE-Ch9-1 Option A em-dash interjection applied at Ch 9 line 202; F-DE-Ch9-2 held-as-is per default recommendation. See §8 ratification record.
 **Branch:** `claude/ch9-pass3-5-1fae85` (feature branch from current origin/main)
 
 ---
@@ -418,8 +418,88 @@ Pass 3.5 restoration proposals (F-DE-Ch9-1 Option A) operate at line 202 only �
 
 ## §8. Ratification record
 
-(To be populated post-author-ratification per Amendment-C Interactive Ratification Protocol; current state: PROPOSED.)
+**Author ratification 2026-05-25 (same session as PROPOSED artifact landed at commit `1fd32dd`):**
+
+> "as recommended"
+
+Per Amendment-C Interactive Ratification Protocol: ratification + application combine in one session. Phase C application landed in the same commit as this disposition log update.
+
+### §8.1 F-DE-Ch9-1 — RATIFIED + APPLIED (Option A)
+
+**Verdict:** Option A em-dash interjection applied at Ch 9 line 202.
+
+**Phase C application:**
+
+Pre-application sentence (Ch 9 line 202, third sentence of medical-crowdfunding paragraph):
+> "Berliner and Kenworthy's 2017 study documented over 250,000 medical-crowdfunding campaigns annually with average campaigns covering twenty-five to forty percent of stated need;"
+
+Post-application sentence:
+> "Berliner and Kenworthy's 2017 study documented over 250,000 medical-crowdfunding campaigns annually **— for childhood leukemia, for catastrophic illness after employer insurance lapsed, for chronic conditions without coverage —** with average campaigns covering twenty-five to forty percent of stated need;"
+
+**Insertion:** 14-word em-dash interjection between *"annually"* and *"with average campaigns"*. Three representative-class examples (childhood leukemia / catastrophic illness after employer insurance lapsed / chronic conditions without coverage) preserve the consent-discipline (no individual living-private subjects named) while restoring human contour to the 250K-campaigns-annually statistical aggregate.
+
+**Verification:** Surrounding sentences preserved verbatim; Berliner-Kenworthy + Ly-Soman + Kenworthy-Igra citation structure preserved; existing four-sentence paragraph structure preserved; em-dash density change negligible (~50 → ~51 chapter-wide, incremental); chapter line count unchanged at 294.
+
+**Pass 3.4 thread-impact** (per §3.2 above):
+- T1 + T2 + T4 + T5 + T6 + T7 + T8 dispositions unchanged.
+- Cross-pressure positioning diagnostic (Char 1 libertarian-PC vs Char 7 hard-left) preserved.
+
+**Pass 3.3 acceptance-impact** (per §3.1 above):
+- Char 13 (cost-bearer reader): ✓✓ INCLUDE → ✓✓ INCLUDE-strengthened (representative-class register extends into healthcare-financing context).
+- Char 14 (left-progressive natural-fit): ✓✓ INCLUDE → ✓✓ INCLUDE-strengthened (cost-bearer-anchor at analytical pivot).
+- Char 18 (EJ-movement): ✓✓ INCLUDE → ✓✓ INCLUDE-strengthened (spatial-cost-severance framing extends into healthcare-financing context).
+- All other 15 characters: verdicts unchanged.
+- No INCLUDE → NEUTRAL or INCLUDE → EXCLUDE shifts at any character.
+
+### §8.2 F-DE-Ch9-2 — HELD (default recommendation)
+
+**Verdict:** Held-as-is. Step 4 Reassess closing at Ch 9 line 84 preserved without modification.
+
+**Reasoning carry-forward (per §2.B):** Architecture-discipline register Steps 1-4 operate in is structurally appropriate; immediate international-dimension pivot at lines 88-92 carries the cost-bearer reanchor structurally; adding a cost-bearer sentence within Step 4's close risks softening the architecture-discipline register that Steps 1-4 work to establish. Pass 3.4 §3.1 cross-pressure positioning diagnostic preserved by hold.
+
+### §8.3 Phase C application summary
+
+- **Chapter file modified:** `manuscript/chapters/Chapter__9_PricingHonestly.md` line 202 (single 14-word em-dash interjection within existing sentence).
+- **Chapter line count:** 294 → 294 (unchanged; em-dash interjection sits within existing sentence).
+- **Artifacts updated this commit:**
+  - This Pass 3.5 artifact (header status PROPOSED → RATIFIED + APPLIED; §8 ratification record).
+  - Pass 3.4 artifact §13 closure cascade note (Pass 3.5 complete; full Ch 9 Stage 3 + Stage 1c D-3 + Pass 3.5 all CLOSED).
+  - PM dashboard `tools/workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` Ch 9 row.
+  - Cross-thread-todos update log entry.
+
+### §8.4 Pass 3.5 closure + full Ch 9 Stage 3 closure
+
+**Pass 3.5 Phase A CLOSED 2026-05-25.** The full per-prompt serial cadence sequence for Ch 9 Stage 3 is now complete:
+
+| Pass | PROPOSED commit | RATIFIED / APPLIED commit | Status |
+|---|---|---|---|
+| Pass 1 (fact-check) | — | `4c8bc02` | ✓ CLOSED |
+| Pass 2 (voice-polish + Reading C v3) | `e68b505` | `78a26c2` | ✓ CLOSED |
+| Stage 1c (Ch 8 cross-chapter cascade) | — | `cbef9bd` | ✓ CLOSED |
+| Pass 3.3 (acceptance) | `a6b7df5` | (defaults ratified) | ✓ CLOSED |
+| Pass 3.4 (robustness) | `f47dd1c` | `8aa7dfb` → `4a28275` | ✓ CLOSED |
+| Stage 1c D-3 | — | `8aa7dfb` → `06eb1ea` | ✓ CLOSED (both sub-scopes) |
+| **Pass 3.5 (developmental-edit)** | `1fd32dd` | this commit | ✓ **CLOSED** |
+
+**Pass 3.5 ratified state:** CLOSED as of this Phase C session. Ch 9 Stage 3 fully CLOSED.
+
+### §8.5 What this ratification advances
+
+- **Ch 9 Stage 3 fully CLOSED** — all five passes (1 + 2 + 3.3 + 3.4 + 3.5) + Stage 1c (Ch 8 cascade + D-3) RATIFIED + APPLIED + CLOSED.
+- **Stage 4 (render + character-integrity audit)** — author-offline pipeline-side; runs when chapter readies for distribution.
+- **Stage 5 (academic-rigor + prose-quality sign-off + pre-publication review queue artifact)** — gate-triggered at distribution-readiness per Amendment A two-class cascade (explicit-gate).
+- **Pre-publication review queue for Ch 9** — finalized per Pass 3.4 §6.4 + §11.3 (7 acknowledgments: T1+T2+T4+T5+T6+T7+T8); carries forward to Stage 5.
+- **PM dashboard #20 (Manuscript Stage-3 Rigor Pass) advances Ch 9 row to DONE-DONE** — alongside Ch 1 + Ch 2 as the third chapter to fully complete the Stage-3 cadence.
+
+### §8.6 What this ratification does NOT do
+
+- Does NOT modify any pre-publication review queue acknowledgments (T1-T8 remain as Stage 5 sign-off transparency input).
+- Does NOT pre-empt T7 → Ch 10 Pass 3.4 forward-flag.
+- Does NOT pre-empt Stage 4 render-audit (pipeline-side; author-offline).
+- Does NOT pre-empt Stage 5 sign-off (gate-triggered at distribution-readiness).
+- Does NOT contact named subjects.
+- Does NOT re-litigate Reading C v3 framing, D-3a/b ratifications, or any LOCKED chapter passages per §6.5.
 
 ---
 
-*End of Ch 9 Stage-3 Pass 3.5 (Developmental-Edit) rigor pass — PROPOSED 2026-05-25. Aggregate verdict STRONG. One HIGH-severity restoration (F-DE-Ch9-1 eleven-cent passage line 202 representative-class contour, Option A recommended); one MEDIUM-severity item (F-DE-Ch9-2 Step 4 line 84, default HOLD recommended); six whole-chapter confirmations verifying no further restoration warrants. Pass 3.5 closure advances Ch 9 to Stage 4 + Stage 5 readiness per per-prompt serial cadence.*
+*End of Ch 9 Stage-3 Pass 3.5 (Developmental-Edit) rigor pass — RATIFIED + APPLIED 2026-05-25 (Phase C). Aggregate verdict STRONG; F-DE-Ch9-1 Option A applied (14-word em-dash interjection at line 202 medical-crowdfunding paragraph); F-DE-Ch9-2 held-as-is per default recommendation. **Pass 3.5 Phase A CLOSED. Ch 9 Stage 3 fully CLOSED across all five passes (1 + 2 + 3.3 + 3.4 + 3.5) + Stage 1c (Ch 8 cascade + D-3).** Stage 4 (render-audit; pipeline-side) + Stage 5 (sign-off; gate-triggered) are downstream-only.*
