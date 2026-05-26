@@ -418,8 +418,8 @@ Realistic — but **NOT compatible with Ch 8 firing as a Wave 2 candidate** (Pat
 ## 11. STATE marker (for next-session resumption)
 
 ```
-STATE: PARTIAL RATIFICATION (Ch 3 RATIFIED 2026-05-24; Ch 2, Ch 4, Ch 8 still PROPOSED)
-NEXT: author-action-required (Ch 2, Ch 4, Ch 8 per-candidate ratifications) + cascade plan v2 ratification (separate session with amendments)
+STATE: PARTIAL RATIFICATION (Ch 2 RATIFIED 2026-05-25; Ch 3 RATIFIED 2026-05-24; Ch 4 RATIFIED 2026-05-25; Ch 8 still PROPOSED)
+NEXT: author-action-required (Ch 8 per-candidate ratification) + cascade plan v2 ratification (separate session with amendments)
 AWAITING: author-ratification
 ARTIFACTS PRODUCED:
   - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md (this file)
@@ -490,12 +490,49 @@ RATIFICATION PASTE-TEXTS: tools/workstream-handoffs/wave-2-derivative-kickoffs_2
 
 ---
 
+### Candidate C: Ch 4 *The Existence Proof* → Foreign Affairs — RATIFIED 2026-05-25
+
+**Driven by:** Dedicated Ch 4 ratification session (kicked off 2026-05-24; ratification completed 2026-05-25) — interactive ratification per Amendment C Interactive Ratification Protocol; one-finding-at-a-time discipline per `tools/memory/feedback_parallel_session_ratification_cadence.md`. Three findings presented in HIGH → HIGH → MED severity-strict order; all three ratified.
+
+**Finding 1 — Condition C1.a: Tech Appendix RCV publication-stability verification (🔵 ESCALATION) — RATIFIED Option 1 (fire dedicated cross-chapter sign-off pass).**
+
+- **Disposition:** Option 1 of 4 — fire a standalone TA RCV publication-stability sign-off pass before Stage 1 brief fires. Produces a closure-marker artifact that closes cross-thread-todo #10 sub-item 2b for the corpus, not just for this essay. Recurrence framing: this is the **second** Wave-2-class workstream blocked on the same NOT-VERIFIED gate ($100 Barrel was the first, with EVIDENCE-INCONCLUSIVE residue at #10 line 75); treating the gate as corpus-level rather than per-essay closes the recurrence.
+- **Author direct verification (in-session):** TA IS publication-stable per author direct knowledge; TA Stage 4 + Stage 5 ratification is in flight in a separate parallel session (do-not-touch boundary respected); only foreseeable destabilizer in the near term is Darity feedback on the ~150-page packet sent 2026-05-14 (cover-email window 4–6 weeks; ~1 week elapsed at ratification time; outer bound ~2026-06-25). Author-direct verification was the *trigger* for Option 1; the corpus-side independent verification artifact is what Option 1 produced.
+- **Sign-off pass executed:** Read-only verification across TA §1/§2/§3 (Definitions 1.6 + 1.7 + CS = RCV − B + forward-pricing shorthand vs. full bidirectional form scope-clarification) + Ch 6 line 325 RCV three-component name-defense (commit `1f3ad9c`) + Ch 4 lines 44–88 RCV framing + Ch 1 zero-occurrence baseline (by-design; RCV formal intro sits at Ch 6) + cross-check of derivative deployment (op-eds correctly translated-out; Wave 1 / Wave 2 essays inherit). Artifact at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_ta_rcv_publication_stability_signoff_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_ta_rcv_publication_stability_signoff_v1.0.0.md) (originally landed as `792846a` on `claude/ta-rcv-publication-stability-signoff-663265`; re-landed onto post-reorg origin/main).
+- **Verdict:** **Overall GREEN — publication-stable.** Per-site: TA GREEN · Ch 6 GREEN · Ch 4 GREEN · Ch 1 GREEN. Zero HIGH/MEDIUM drift. Two LOW-severity cosmetic observations flagged but not blocking: (LOW-1) TA HTML filename still v2.0.0 despite content header bumped to v2.1.0 at `36073ca` — filename cosmetic debt only; (LOW-2) Ch 4 names B and reasons through CS verbally without printing the equation — by-design for the existence-proof chapter (the equation lives in Ch 6 + TA).
+- **Useful cross-chapter disambiguation surfaced:** Ch 6's *three-component* RCV name-defense (Hartwick / Ostrom / Mazzucato) operates at the *term* layer (defending the phrase "Residual / Commons / Value"); TA's *two-component* integrand decomposition (foreclosure + externality) operates at the *equation* layer. Both coexist coherently — the prior risk that they'd be read as a definitional conflict is now closed.
+- **Cross-thread-todos.md #10 sub-item 2b:** updated NOT-VERIFIED → **VERIFIED 2026-05-24 (GREEN)** with reference to the sign-off artifact. The $100 Barrel EVIDENCE-INCONCLUSIVE residue at line 75 is retroactively closed by the sign-off pass supplying the missing independent verification trace for the Stage 1 brief's apparatus-stability checkpoint assertion.
+- **Downstream applicability:** future RCV-naming workstreams inherit this sign-off rather than re-firing per-workstream verification — Ch 4 → Foreign Affairs (primary inheritor), $100 Barrel → Phenomenal World (in flight), Atlantic Ideas (in pipeline), future derivatives. Inheritance bounded by Darity-feedback contingency window (~2026-06-25 outer bound).
+- **Condition C1.a:** CLEARED.
+
+**Finding 2 — Condition C1.b: Ch 4 Pass 2 ratification + Pass 3.4 closure gate — RATIFIED Option 1 (hold rigor-pass-as-written).**
+
+- **Disposition:** Option 1 of 4 — Stage 1 brief gated on Ch 4 Pass 2 ratification (next step in Ch 4's own pipeline); Stage 2 derivative drafting gated on Ch 4 Pass 3.4 closure. Brief target ~Jul 13–19, 2026 per rigor-pass §4.3 Q2.
+- **Reasoning at ratification:** Symmetric with Ch 2 + Ch 3 Wave 2 pattern (Conditions A1 + B1 both gate Stage 2 drafting on Pass 3.4 closure). Stage 1 brief work is design-time + non-locking; safe to fire early once apparatus is stable enough that the brief won't be invalidated by Pass 2 spot-fixes. Pass 3.4's adversarial-robustness verdict is what tells the Foreign Affairs derivative whether RCV-naming holds against a reactionary-intellectual reader — the exact reader stress-test that matters most for a Foreign Affairs print appearance. Pass 3.5 / Stage 4 / Stage 5 are publishing-readiness gates for the *chapter*, not the derivative; gating Stage 2 derivative drafting on them would slip submission unnecessarily. Brief-firing slack matches Ch 4 pipeline cadence realistically (Pass 2 currently 🔴 PROPOSED `3174cc8` 2026-05-18; if ratified within the next 2–3 weeks post-submission-sprint, Pass 3.3 + 3.4 sequencing through June–July aligns naturally with the ~Jul 13–19 brief target).
+- **Condition C1.b:** CLEARED.
+
+**Finding 3 — Condition C2: Stage 1 brief embeds explicit apparatus-reveal cap ≤22% — RATIFIED Option 1 (selective named-OK / EXCLUDED list per BR §8 pattern).**
+
+- **Disposition:** Option 1 of 4 — embed ≤22% cap with explicit named-OK / EXCLUDED list in Stage 1 brief, modeled on Boston Review brief §8 (empirically proven; held through Stage 2 + Stage 3 audits; BR landed Stage 5 RATIFIED clean at `d34214d`).
+- **NAMED-OK at brief time:** "residual commons value" (as a concept + named phrase); RCV acronym (in conjunction with full phrase); "cost severance" (named); "accountability bond B" (named, with B as a variable); foreclosure component; externality tail; Norway full case; Nigeria full case.
+- **EXCLUDED at brief time:** CS = RCV − B equation (formal equation form); B₁ / B₂ bond decomposition (Restitution / Foreclosure Bond names); Three Ways of Counting (Approach 1/2/3 by name); Four Gates (named); CIT / Commons Inversion Test (named); Cᵢ component vocabulary (all 8 component names — Direct Health Cost, Environmental Degradation Cost, etc.); IPG / Intergenerational Pricing Gap (named); ARR / Asymmetric Regret Rule (named); Hartwick identity / rule (named); Pattern 2 register language.
+- **Cumulative target:** ≤22% effective reveal, verified at Stage 3 Pass 3.3 with cumulative-portfolio audit (per BR pattern).
+- **Condition-1 disarming-moves flag (conditional, not blocking):** Foreign Affairs venue editorial brain is dispositively non-partisan-aligned; the Condition-1 disarming-moves discipline (per `tools/memory/feedback_audience_aware_drafting_discipline.md` 2026-05-21 $100 Barrel anchor) is LESS load-bearing here than at PW or Atlantic Ideas. Explicit-meta disarming moves NOT required by venue alone. Flag in Stage 1 brief only if audience analysis surfaces center-right-policy-reader as Tier 1 dispositive audience; otherwise embed non-partisan-framing discipline at the standard level.
+- **Reasoning at ratification:** The 22% threshold was selected by the Stage 0 audit specifically to hold cumulative portfolio in the manageable band (~50–55% with Ch 4 holding); deviating without strong reason re-litigates a closed Stage 0 decision. The named-OK set preserves what differentiates the Foreign Affairs derivative from the Norway op-ed (which is the apparatus-free version); the EXCLUDED set reserves first-named-in-print value of Three Ways / Four Gates / CIT / Cᵢ / IPG / ARR for the book itself.
+- **Condition C2:** CLEARED.
+
+**Status:** Ch 4 → Foreign Affairs = **Phase 2-γ of Wave 2 (third-priority Wave 2 essay; locked).** Per PM-recommended ordering (Ch 3 → Ch 2 → Ch 4 → defer Ch 8), Ch 4's Stage 1 brief fires after Ch 2's and Ch 3's; submission window Q4 2026 / Q1 2027 (Nov–Feb).
+
+**Surfaced concern (none).** No deferred-to-cascade-plan concerns from this candidate; Wave 2 amendments raised at Ch 3 ratification (target list expansion; Wave 4 fallback; timing-services-Waves-2/3 clarification; 2027–2028 editor-iteration calibration) carry forward unchanged; Ch 2 ratification's surfaced amendments (marketing-phase reframing impact; NYRB queue collision) also carry forward unchanged.
+
+---
+
 ```
-STATE: RATIFIED (Ch 2 + Ch 3); PROPOSED (Ch 4, Ch 8)
-NEXT: author-action-required (Ch 4 + Ch 8 per-candidate ratifications in fresh CC sessions per tools/workstream-handoffs/wave-2-derivative-kickoffs_2026-05-24.md OR via per-candidate paste-texts); fire Ch 2 → Harper's Stage 1 brief in fresh session (no chapter-side gates remain)
-AWAITING: author-ratification (2 remaining candidates) + cascade plan v2 ratification (separate fresh PM session per paste-text delivered 2026-05-24; surfaced amendments from Ch 3 + Ch 2 ratification records to be incorporated)
+STATE: RATIFIED (Ch 2 + Ch 3 + Ch 4); PROPOSED (Ch 8)
+NEXT: author-action-required (Ch 8 per-candidate ratification in fresh CC session per tools/workstream-handoffs/wave-2-derivative-kickoffs_2026-05-24.md OR via per-candidate paste-text); fire Ch 2 → Harper's Stage 1 brief in fresh session (no chapter-side gates remain); fire Ch 4 → Foreign Affairs Stage 1 brief after Ch 4 Pass 2 ratification (target ~Jul 13–19, 2026 per §4.3 Q2); cascade plan v2 ratification (separate fresh PM session per paste-text delivered 2026-05-24; surfaced amendments from Ch 3 + Ch 2 ratification records to be incorporated)
+AWAITING: author-ratification (1 remaining candidate: Ch 8) + cascade plan v2 ratification + Ch 4 Pass 2 ratification (Ch 4 Stage 1 brief gate)
 ```
 
 ---
 
-*End of Wave 2 derivative-planning Stage 0 rigor pass (batch). Verdict: Ch 2 + Ch 3 RATIFIED; Ch 4 + Ch 8 PROPOSED; PM-recommended ordering Ch 3 → Ch 2 → Ch 4 → defer Ch 8.*
+*End of Wave 2 derivative-planning Stage 0 rigor pass (batch). Verdict: Ch 2 + Ch 3 + Ch 4 RATIFIED; Ch 8 PROPOSED; PM-recommended ordering Ch 3 → Ch 2 → Ch 4 → defer Ch 8.*
