@@ -1,7 +1,7 @@
 # Pre-Publication Review Queue — Ch 5 (The Accountability Gap)
 
 **Date generated:** 2026-05-18
-**Status:** PROPOSED-DEFERRED — ratifies in batch with Stage 4 verdict after canonical-pipeline decision lands (per retrofit handoff stub §1 + standardization-handoff §3.5)
+**Status:** **RATIFIED 2026-05-26** in tandem with Stage 5 sign-off at [`tools/quality-gates/sign-offs/ch5_stage5_signoff_2026-05-26.md`](../quality-gates/sign-offs/ch5_stage5_signoff_2026-05-26.md). Chapter is READY-TO-SUBMIT. See §10 ratification record below.
 **Artifact:** Ch 5 — *The Accountability Gap* (`manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md`)
 **Stage 5 sign-off commit:** PENDING (Stage 5 sign-off itself deferred until Stage 4 verdict ratifies)
 **Rendered outputs (current source):** `tools/scripts/comparison-renders/ch5_2026-05-17_9ffad4e/{remote-container, laptop-build-derivatives, laptop-build-derivatives-alt}/Chapter__5_THEACCOUNTABILITYGAP__Draft.{docx,pdf}` per [`tools/rigor-passes/render_pipeline_comparison_ch5_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ch5_2026-05-18.md). Note: remote-container baseline predates the rent-seeking workstream's Ch 5 line 184 touch; laptop renders carry the post-rent-seeking content.
@@ -286,6 +286,38 @@ Per author preference, rank-ordered for Ch 5 specifically:
 - Spin-up disposition of the two candidate cross-chapter workstreams (Orthodox-Econ Engagement + Agency-Conditional-on-Information Naming) — PM session disposition.
 
 **Ratification path:** This artifact ratifies in batch with Stage 4 verdict ratification, after all 4 first-retrofit chapters' (Ch 1 + Ch 5 + Ch 6 + TA) Stage 4 comparison rounds complete + author selects Option A/B/C. At that ratification, §1.5 + the Stage 5 sign-off cross-reference + the Stage 4 audit-trail update populate; the rest of this artifact carries forward as drafted.
+
+---
+
+## §10. Ratification record (closed 2026-05-26)
+
+**Status flip:** PROPOSED-DEFERRED 2026-05-18 → **RATIFIED 2026-05-26** in tandem with Stage 5 sign-off ([`tools/quality-gates/sign-offs/ch5_stage5_signoff_2026-05-26.md`](../quality-gates/sign-offs/ch5_stage5_signoff_2026-05-26.md)).
+
+**Pass 3.5 application addendum:**
+
+Pass 3.5 developmental-edit RATIFIED + APPLIED 2026-05-26 added two cost-bearer-anchor restorations + one paragraph-break split:
+- F-DE-Ch5-1 (HIGH; line 162): Butler pacemaker caregiving-labor anchor beat (~40 words restoring eighty-year-old caregiver's arithmetic beat — 20K+ hours; 5 years).
+- F-DE-Ch5-2 (MEDIUM; line 34): Libby section-close cost-bearer return-beat (~50 words restoring chapter's elsewhere-pattern of cost-bearer-anchor return at section closings).
+- F-DE-Ch5-3 (MEDIUM; line 250): Closing chapter-handoff paragraph-break split (pure structural restoration; no prose modification).
+- F-DE-Ch5-4 (LOW): HELD per artifact recommendation.
+
+**Chapter state post-Pass-3.5:** ~258 lines / ~14,500 words (was 256 lines / ~14,420 words pre-Pass-3.5).
+
+**Stage 4 re-ratification:** Author Docker render pipeline confirmation post-Pass-3.5; verdict CLEAN. See companion sign-off §8.
+
+**§2.3 Audience-coverage gaps unchanged** — Pass 3.5 restorations preserve all 6 Pass 3.4 load-bearing thread dispositions (α1 / α10 / α11 / α12 / α19 / α20 ALL HOLD). External reviewer types in §3 unchanged.
+
+**§5 Pass 3.4 thread-pull items unchanged** — restorations strengthen rather than weaken adversarial robustness; A2 (industry-funded health economist) α4/α5 thread modestly strengthened by Butler caregiving anchor adding cost-bearer breath without GoFundMe-statistics modification; A9 (religious-traditionalist) α18/α19 procedural disposition preserved (Pass 3.5 §F-DE-Ch5-1 §"Cross-pass flag" confirms restoration names labor architecture externalized, not moral-agency of operators).
+
+**Outstanding (post-this-ratification):**
+
+- Light Pass 3.3 re-fire post-Pass-3.5 application (fires as parallel subagent; mobile-doable ratification when artifact lands).
+- Pre-publication-gate render verification (Stage 4 author-offline re-confirmation at submission time per re-fire-trigger discipline).
+- Sibling-side housekeeping per cross-thread-todos #17 + #18 + #19 (PM disposition; unaffected by Ch 5 ratification).
+
+---
+
+*End of Ch 5 pre-publication review queue v1.0.0. **RATIFIED 2026-05-26** in tandem with [`tools/quality-gates/sign-offs/ch5_stage5_signoff_2026-05-26.md`](../quality-gates/sign-offs/ch5_stage5_signoff_2026-05-26.md). Chapter is READY-TO-SUBMIT.*
 
 ---
 

@@ -6,7 +6,7 @@
 **Discipline:** v3.1 Amendment B 5-pass + Amendment A two-class cascade + Amendment C interactive ratification protocol. Pass 3.5 (developmental-edit; whole-chapter restoration-of-richness lens; restoration polarity, NOT cutting) per pipeline doctrine v1.0.0 §3.6 (Amendment B 2026-05-18 — Pass 3.5 codified) + §3.7 (Amendment C 2026-05-19 — interactive ratification protocol).
 **Mode:** audit-existing-prose, STOP at PROPOSED stage per session brief. Phase C application is a separate combined ratification + application session per Amendment C.
 **Format model:** [Ch 9 Pass 3.5 (2026-05-25; primary register-match for policy-economy / institutional-architecture chapter)](commons_bonds_rigor_pass_2026-05-25_ch9_pricing_honestly_pass_3_5_developmental_edit_v1.0.0.md) + [Ch 4 dev-edit (2026-05-25)](ch4_developmental_edit_review_2026-05-25.md) most-recent precedent + [Ch 6 dev-edit (2026-05-20)](ch6_developmental_edit_review_2026-05-20.md) methodology-apparatus precedent + [Ch 2 Pass 3.5 (2026-05-25)](commons_bonds_rigor_pass_2026-05-25_ch2_the_miner_pass_3_5_developmental_edit_v1.0.0.md) foundational-mechanism precedent + [Ch 1 dev-edit (2026-05-18)](ch1_developmental_edit_review_2026-05-18.md) workstream-defining session.
-**Status:** **PROPOSED 2026-05-26.** Awaiting author ratification (combined ratification + application session per Amendment C).
+**Status:** **RATIFIED + APPLIED 2026-05-26** in combined ratification + application session per Amendment C interactive ratification protocol. See §8 application record. All 3 restoration candidates applied; F-DE-Ch5-4 LOW HELD. Chapter is READY-TO-SUBMIT.
 **Branch:** `worktree-agent-a58caac617cdfa278` (off `origin/main` `d46a6ae`)
 
 **Trigger context.** Per developmental-edit workstream §1.3 sequencing plan: Ch 5 follows Ch 1 + Ch 2 + Ch 3 + Ch 4 + Ch 6 + Ch 9 per-chapter dev-edit sessions. Ch 5 enters Pass 3.5 with the unusual condition (vs Ch 4) that Pass 3.4 §6.2 + §10 ratified disposition flagged **NO explicit Pass 3.5 seed candidates** — the 6 load-bearing threads (α1, α10, α11, α12, α19, α20) all ratified as HOLD (chapter must hold its ground). Per session brief: Pass 3.5 here is open whole-chapter scan; surface restoration candidates the chapter prose presents without weakening the Pass 3.4-ratified load-bearing thread dispositions.
@@ -549,4 +549,42 @@ Pass 3.5 restoration proposals (F-DE-Ch5-1 + F-DE-Ch5-2 + F-DE-Ch5-3 Option A) o
 
 ---
 
-*End of Ch 5 Stage-3 Pass 3.5 (Developmental-Edit) rigor pass — PROPOSED 2026-05-26. Awaiting author ratification + application per Amendment C interactive ratification protocol.*
+---
+
+## §8. Phase C application record (closed 2026-05-26)
+
+**Author bulk-ratification 2026-05-26:** All findings ratified + applied as recommended in a single combined ratification + application session per Amendment C interactive ratification protocol. Chapter is **READY-TO-SUBMIT** post-application + post-Stage-5-sign-off.
+
+### §8.1 Chapter edits applied
+
+| Finding | Line (current) | Disposition | Applied |
+|---|---|---|---|
+| F-DE-Ch5-1 (HIGH; Option A) | 162 (within Butler pacemaker scene) | ~40-word sentence-level beat inserted between "...no compensation exists and no ledger captures." and "The device manufacturer received approximately six thousand dollars." Gives the eighty-year-old caregiver her arithmetic beat (20K+ hours; 5 years; woman in her eighties) before the device-manufacturer/physician-reimbursement arithmetic returns. | ✓ |
+| F-DE-Ch5-2 (MEDIUM; Option A) | 34 (within Libby legal-architecture closing paragraph) | ~50-word sentence-level beat appended after "...the mechanism the framework prices." Restores chapter's elsewhere-pattern of cost-bearer-anchor return-beat at section closings (the 400 dead + 3,000 with lung disease + EPA emergency-declaration anchor restored at the analytical-architectural section close). | ✓ |
+| F-DE-Ch5-3 (MEDIUM; Option A) | 250 (chapter's structural-closing run-on) | Pure paragraph-break restoration; no prose modification. ~200-word run-on splits into 3 paragraphs at "What remains is methodology." (closing summary) + before "The accounting framework exists" (opening closing-claim). Honors chapter's elsewhere-pattern of paragraph-breaks-as-structural-breath-markers. | ✓ |
+| F-DE-Ch5-4 (LOW) | 178 (Pattern-Made-Visible enumeration) | HELD per §2.A Option B recommendation (parallel-rhythm structurally load-bearing; Healthcare-line compression preferable to breaking rhythm). | — |
+
+**Chapter state post-Pass-3.5:** ~258 lines / ~14,500 words (was 256 lines / ~14,420 words pre-Pass-3.5; +2 net from F-DE-Ch5-3 paragraph-break + ~90 words from F-DE-Ch5-1 + F-DE-Ch5-2 sentence-level beats).
+
+### §8.2 Cross-pass cascade confirmations
+
+- **Pass 3.3 acceptance** (RATIFIED 9/9 INCLUDE 2026-05-14): preserved. Per §3.1 cross-character impact analysis, Char 2 + Char 6 + Char 8 + Char 9 trend toward STRENGTHEN under post-Pass-3.5 prose. **Light Pass 3.3 re-fire post-Pass-3.5 fires post-this-commit** per Amendment B Pass-3.5 protocol (separate subagent; PROPOSED artifact for confirmation).
+- **Pass 3.4 robustness** (RATIFIED CONDITIONALLY ROBUST 2026-05-26): all 6 load-bearing thread dispositions (α1 / α10 / α11 / α12 / α19 / α20 ALL HOLD per §10) preserved. **Pass 3.4 re-fire NOT routinely warranted** per Amendment B Pass-3.5 protocol (restorations strengthen rather than weaken adversarial robustness).
+- **Pass 3.1 fact-check + 3.2 voice-polish**: no re-litigation; all prior dispositions preserved.
+- **Stage 1c coherence**: cross-chapter consistency-inventory items + bibliography commitments unaffected; no new framework apparatus terms introduced.
+- **Stage 4 render-integrity** (RATIFIED AUTHOR-OFFLINE-CLEAN 2026-05-26): re-ratification flag for post-Pass-3.5 state — Pass 3.5 added 2 sentence-level beats (90 words) + 2 paragraph breaks at lines 34 + 162 + 250; new em-dashes at line 162 ("borne to keep a heart beating that the conversation worth fifty-four dollars might have allowed to stop" uses em-dash) + line 34 ("these are what 'Libby's full record' names" uses em-dash + smart quotes). Author offline-render-pipeline re-confirmation flagged for pre-publication gate per §12.3 Stage 5 re-fire-trigger discipline.
+
+### §8.3 Aggregate verdict — UPDATED
+
+§4 whole-chapter aggregate verdict **UPDATED FROM** "READY-FOR-RATIFICATION" **TO** **READY-TO-SUBMIT** (post-Phase-C application + Stage 5 sign-off ratification). Ch 5 joins TA + Boston Review essay + Noema essay + $100 Barrel essay + Ch 1 + Ch 2 + Ch 4 + Ch 6 + Ch 9 in the chapter-class READY-TO-SUBMIT corpus.
+
+### §8.4 Outstanding items beyond this session
+
+- **Light Pass 3.3 re-fire post-Pass-3.5** — fires post-this-commit per Amendment B Pass-3.5 protocol; subagent on isolated worktree; PROPOSED artifact for author ratification (mobile-doable confirmation).
+- **Pre-publication-gate render verification** — Stage 4 author-offline re-confirmation at submission time per §12.3 re-fire-trigger discipline.
+- **Sibling-side housekeeping** (Pass 3.4 ratified cross-chapter workstream candidates — cross-thread-todos #17 + #18 + #19; PM disposition pending; unaffected by Pass 3.5 application).
+- **Cross-chapter cascade follow-up** — F-DE-Ch5-1 caregiving-labor anchor + F-DE-Ch5-2 cost-bearer-section-close pattern + F-DE-Ch5-3 paragraph-break-as-breath-marker pattern flagged for future cross-chapter developmental-coherence session.
+
+---
+
+*End of Ch 5 Stage-3 Pass 3.5 (Developmental-Edit) rigor pass — **RATIFIED + APPLIED 2026-05-26** in combined ratification + application session per Amendment C interactive ratification protocol. Chapter is **READY-TO-SUBMIT** post Stage 5 sign-off (companion commit).*
