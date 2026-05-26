@@ -303,3 +303,62 @@ Per pipeline doctrine + CLAUDE.md rigor-pass merge default + author-ratified end
 ---
 
 *End of Stage 1c D-3 sibling-coherence-check — partial firing 2026-05-25. D-3a APPLIED (Char 15 Option A consolidated across Ch 5 + Ch 9 + TA §1.10). D-3b PROPOSED options for Ch 5 + TA §1.10 framing-alignment; awaits author ratification. Cross-chapter coherence is partially restored (MacLean dimension complete; framing-dimension PROPOSED).*
+
+---
+
+## §9. Disposition log (2026-05-25 Phase C — D-3b ratification + application)
+
+**Author ratification 2026-05-25 (same session, immediately after Pass 3.4 verdict ratification):**
+
+> "ratify all outstanding decisions as recommended"
+
+### §9.1 D-3b ratification
+
+Author selected the recommended Option A at both sites per §4.2 + §3.2 + §3.3:
+- **D-3b-Ch5:** Option A (substantive paragraph-level realignment) RATIFIED.
+- **D-3b-TA:** Option A (single-clause replacement) RATIFIED.
+
+### §9.2 Phase C application
+
+| Site | Pre-D-3b clause | Post-D-3b clause |
+|---|---|---|
+| **Ch 5 line 202** | *"compatible with — and depends on... Read together... Read apart, each is partial."* (three symmetric markers) | *"supplies the ledger to which... can be applied... supplies the vocabulary for analyzing how rent-seeking-shaped architectures come to be... the framework supplies the accounting of what those architectures have cost and to whom... the angles are not symmetric: the framework's apparatus is the upstream layer the Public Choice tradition's actor-identification analysis is best equipped to apply to."* (asymmetric per Option A) |
+| **TA §1.10 line 610** | *"compatible with Public Choice analysis layered on top of it, and depends on it..."* (one symmetric clause) | *"supplies the cost-bearing-party accounting that Public Choice analysis can be applied to where the architecture's origins are part of the substantive analytical work; the framework does not depend on Public Choice methodology for its own apparatus."* (asymmetric per Option A) |
+| **Ch 9 line 144** | (unchanged — canonical per Reading C v3 + D-3a) | (unchanged) |
+
+D-3a MacLean acknowledgment sentence preserved at all three sites.
+
+### §9.3 D-3b verdict closure
+
+| Site | Pre-D-3b verdict | Post-D-3b verdict |
+|---|---|---|
+| Ch 5 line 202 | ⚠⚠ INCOHERENT | ✓ COHERENT with Reading C v3 + Ch 8:122 Option A canonical |
+| TA §1.10 line 610 | ⚠ DRIFT (partial) | ✓ COHERENT |
+| Cross-chapter sibling-coherence | partial (post-D-3a only) | ✓ FULL COHERENT across Ch 5 + Ch 8 + Ch 9 + TA §1.10 |
+
+### §9.4 Pass 3.3 light re-fire consolidated post-D-3b
+
+Per pipeline doctrine §3.3 + §5.4 recommended sequencing: consolidated Pass 3.3 light re-fire across Ch 5 + Ch 9 + TA fired same session. Verdict: **✓ ACCEPTANCE-TEST DEFENSIBLE**; no INCLUDE → NEUTRAL/EXCLUDE shifts at any site for any character; several verdicts trend strengthened (natural-fit, reparations-tradition, MacLean-sympathetic, EJ-movement, libertarian-PC cross-pressure reduced). Artifact at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_pass_3_3_light_refire_ch5_ch9_ta_post_d3b_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-25_pass_3_3_light_refire_ch5_ch9_ta_post_d3b_v1.0.0.md) (this commit).
+
+### §9.5 Pass 3.4 cross-chapter cross-pressure structural improvement
+
+Per Pass 3.4 §3.1 synthesis observation + §9.4: cross-pressure structure between Char 1 (libertarian-PC hostile) and Char 7 (hard-left hostile) now operates without cross-chapter framing-shift compounding that Char 1's pre-D-3b ⚠⚠ EXCLUDE pressure-point depended on. Cross-pressure-positioning diagnostic operates at strongest possible posture — chapter positioned correctly + position structurally coherent across the corpus.
+
+### §9.6 What D-3b closure does NOT do
+
+- Does NOT re-fire Pass 3.4 — Pass 3.4 §11.5 closure discipline holds; D-3b reinforces rather than re-litigates CONDITIONALLY ROBUST verdict.
+- Does NOT pre-empt Pass 3.5 (developmental-edit) Ch 9.
+- Does NOT pre-empt T7 → Ch 10 Pass 3.4 forward-flag.
+- Does NOT update Ch 9 prose (already canonical).
+
+### §9.7 What D-3b closure advances
+
+- **Stage 1c D-3 sibling-coherence-check fully CLOSED** across both sub-scopes.
+- **Cross-thread-todos #16 moves to RESOLVED** (this commit).
+- **Pass 3.5 (developmental-edit) Ch 9 fully unblocked at all upstream gates.**
+- **Cross-chapter sibling-coherence for Public-Choice-engagement now uniformly asymmetric** across Ch 5 + Ch 8 + Ch 9 + TA §1.10.
+- **Cross-pressure positioning diagnostic validated at strongest posture.**
+
+---
+
+*End of D-3 sibling-coherence-check — FULLY CLOSED 2026-05-25 (Phase C). D-3a + D-3b both RATIFIED + APPLIED + Pass 3.3 light re-fire ✓ ACCEPTANCE-TEST DEFENSIBLE. Cross-chapter sibling-coherence ✓ COHERENT across all four Public-Choice-engagement sites. Pass 3.5 (developmental-edit) Ch 9 fully unblocked for next session.*

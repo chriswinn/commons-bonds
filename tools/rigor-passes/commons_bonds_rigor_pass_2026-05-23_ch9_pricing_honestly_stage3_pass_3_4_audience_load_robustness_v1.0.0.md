@@ -572,3 +572,36 @@ Pass 3.4 PROPOSED → RATIFIED → CLOSED. The full per-prompt serial cadence se
 ---
 
 *End of Pass 3.4 ratification record — author ratified CONDITIONALLY ROBUST verdict 2026-05-25. Pass 3.4 Phase A CLOSED; per-prompt serial cadence next advances to either D-3b ratification (cross-thread-todos #16) or Pass 3.5 (developmental-edit) per author sequencing choice.*
+
+---
+
+## §12. D-3b cascade closure note (2026-05-25 — same session)
+
+**Author ratification 2026-05-25 (immediately after §11):**
+
+> "ratify all outstanding decisions as recommended"
+
+Selection per §11.5 forward-flag enumeration: D-3b-Ch5 + D-3b-TA Option A recommendations ratified + applied. Consolidated Pass 3.3 light re-fire across Ch 5 + Ch 9 + TA fired same session.
+
+**D-3b closure effects on Pass 3.4 verdict:**
+
+- **Pass 3.4 CONDITIONALLY ROBUST verdict UNCHANGED.** Per §11.5 closure discipline + D-3 artifact §9.6: D-3b reinforces rather than re-litigates. No upgrade to ROBUST and no downgrade to REQUIRES STRUCTURAL ENGAGEMENT warranted.
+- **Pass 3.4 §3.1 cross-pressure structural observation STRENGTHENED.** Char 1 (libertarian-PC hostile) + Char 7 (hard-left hostile) cross-pressure now operates at the strongest posture — chapter positioned correctly + position structurally coherent across the Ch 5 + Ch 8 + Ch 9 + TA §1.10 corpus. See D-3 artifact §9.5.
+- **Pass 3.4 T1 thread HOLD-disposition CONFIRMED.** D-3b consolidation removes the cross-chapter framing-shift compounding factor Char 1 / Char 6 hostile reads previously leveraged; chapter's structural-disarm continues to hold.
+
+**Per-chapter cascade fully complete for Ch 9 Stage 3:**
+
+| Stage | Status | Commit |
+|---|---|---|
+| Pass 1 (fact-check) | ✓ CLOSED | `4c8bc02` |
+| Pass 2 (voice-polish + Reading C v3) | ✓ CLOSED | `78a26c2` |
+| Stage 1c (Ch 8 cross-chapter cascade) | ✓ CLOSED | `cbef9bd` |
+| Pass 3.3 (acceptance) | ✓ CLOSED | `a6b7df5` (PROPOSED; defaults ratified) |
+| **Pass 3.4 (robustness)** | ✓ **CLOSED** | `f47dd1c` → `8aa7dfb` → `4a28275` |
+| **Stage 1c D-3 sibling-coherence-check** | ✓ **CLOSED** (both sub-scopes) | `8aa7dfb` (D-3 artifact + D-3a) → this commit (D-3b + Pass 3.3 light re-fire) |
+
+**Pass 3.5 (developmental-edit) Ch 9 — next session per per-prompt serial cadence.** All upstream gates cleared.
+
+---
+
+*End of Pass 3.4 D-3b cascade closure note — full Ch 9 Stage 3 sequence through Pass 3.4 + D-3 CLOSED 2026-05-25. Pass 3.5 (developmental-edit) is the next session for Ch 9.*
