@@ -145,6 +145,44 @@
 
 ---
 
+### 17. Ch 9 Pass 3.4 post-hoc engagement-verification for A1 + A6 cluster (per Ch 5 Pass 3.4 RATIFIED 2026-05-26 cross-chapter handoff)
+
+- **Surfaced by:** Ch 5 Pass 3.4 robustness ratification (2026-05-26); §7.2.1 + §10.6.1 of [`ch5_stage3_pass_3_4_audience_load_robustness_2026-05-18.md`](../../../tools/rigor-passes/ch5_stage3_pass_3_4_audience_load_robustness_2026-05-18.md).
+- **For-thread:** PM session (Ch 9 retrofit thread).
+- **Status:** **verification-only — Ch 9 Pass 3.4 already RATIFIED 2026-05-23** (CONDITIONALLY ROBUST verdict). Cross-chapter handoff lands post-hoc.
+- **Context:** Ch 5 Pass 3.4 surfaced 3 threads warranting Ch 9 policy-economy engagement: α1 (welfare-loss-accounting reframe; A1 industry-funded financial-services economist); α12 (system-working-as-designed indictment; A6 WSJ business-press conservative); α13 (bond-apparatus as regulatory-architecture preparation; A1 + A4 + A6 cluster). Ch 9 Pass 3.4 ran independently 2026-05-23 with its own adversarial set; need to verify whether the A1 + A6 cluster was substantively engaged.
+- **Resolution path:** PM session reads [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_ch9_pricing_honestly_stage3_pass_3_4_audience_load_robustness_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_ch9_pricing_honestly_stage3_pass_3_4_audience_load_robustness_v1.0.0.md) §-by-§ and confirms whether industry-funded financial-services economist + WSJ business-press conservative characters are substantively engaged. If YES: close as RESOLVED (Ch 5 cross-chapter handoff realized). If PARTIAL: flag for any future Ch 9 Pass 3.4 light re-fire or Pass 3.5 cycle. If NO: flag for explicit Ch 9 light re-fire scope. **Per Amendment B Pass-3.5 protocol: Pass 3.4 re-fire NOT routinely warranted unless structural change surfaces.**
+- **Target resolution:** at next PM session disposition of Ch 9 thread (low-priority; not blocking Ch 5 progression).
+
+### 18. Orthodox-Econ Engagement Workstream candidate (per Ch 5 Pass 3.4 RATIFIED 2026-05-26)
+
+- **Surfaced by:** Ch 5 Pass 3.4 robustness ratification (2026-05-26); §5.2.2 + §10.6.2 of [`ch5_stage3_pass_3_4_audience_load_robustness_2026-05-18.md`](../../../tools/rigor-passes/ch5_stage3_pass_3_4_audience_load_robustness_2026-05-18.md).
+- **For-thread:** PM session (cross-chapter workstream spin-up disposition).
+- **Status:** **PROPOSED candidate — PM disposition pending.** Analogous to the Public Choice cross-chapter workstream that RATIFIED 2026-05-17 (commit `bc02767`).
+- **Context:** Ch 5 Pass 3.4 §A5 (orthodox-econ / Chicago School reader) returned ⚠⚠⚠ EXCLUDE — the only chapter-disqualifying-tier adversarial verdict in the Ch 5 set. Two load-bearing threads: α10 ($108T counterfactual as cherry-picked) + α11 (cost-severance framing as unexamined market-failure premise; missing Coasean-bargaining + rational-expectations engagement). Chapter's structural moves (lines 134-136 + 70 + 86) partially address but cannot fully disarm without abandoning framework's central analytical moves. **Full engagement routes to TA §1.10 scope-of-applicability boundary statement** (which already engages stratification-economics complementarity per the Public Choice workstream's TA touch).
+- **Scope candidate:**
+  - TA §1.10 extension — explicit engagement with Coasean-bargaining-availability + rational-expectations-affected-party critiques alongside existing Public Choice complementarity paragraph.
+  - Ch 9 paragraph — Coasean-bargaining-and-rational-expectations engagement at policy-economy level.
+  - Possibly Ch 5 forward-pointer at line 112 ($108T figure) — brief footnote pointing forward to TA §1.10 orthodox-econ engagement.
+  - Orthodox-econ external-reviewer outreach pipeline (per Ch 5 pre-pub queue §3.2 "HIGH priority — single highest-priority external engagement for Ch 5").
+- **Resolution path:** PM session evaluates spin-up. If YES: create cross-chapter workstream handoff at `tools/workstream-handoffs/cross-chapter-orthodox-econ-engagement-handoff_<date>.md` mirroring the Public Choice workstream's structure. If DEFER: hold open for re-evaluation at next major-cascade trigger (Wave 1 agent queries; book-proposal sprint). If DECLINE: close with reasoning (orthodox-econ engagement may be one external-reviewer-cycle away; existing scope-disclaimers carry the load).
+- **Target resolution:** by Wave 1 agent queries (late July / early August 2026) at the latest — orthodox-econ pushback is among the most-likely adversarial reads at agent / publisher review.
+
+### 19. Agency-Conditional-on-Information Naming Workstream candidate (per Ch 5 Pass 3.4 RATIFIED 2026-05-26)
+
+- **Surfaced by:** Ch 5 Pass 3.4 robustness ratification (2026-05-26); §5.2.3 + §10.6.3 of [`ch5_stage3_pass_3_4_audience_load_robustness_2026-05-18.md`](../../../tools/rigor-passes/ch5_stage3_pass_3_4_audience_load_robustness_2026-05-18.md).
+- **For-thread:** PM session (cross-chapter workstream spin-up disposition).
+- **Status:** **PROPOSED candidate — PM disposition pending.** Smaller scope than #18 (1-2 paragraph addition rather than cross-chapter workstream); philosophical-foundations layer.
+- **Context:** Ch 5 Pass 3.4 §A9 (religious-traditionalist reader) returned ⚠⚠ EXCLUDE on α19 (structural-not-blame as moral-agency displacement). The framework applies a consistent discipline — agency where information holds; structural where information asymmetry operates (per line 86 borrower-agency-acknowledgment + line 70 consumer-not-villain framing) — but does not explicitly name "agency-conditional-on-information" as a methodological commitment. Naming would disarm A9's pull without compromising the discipline.
+- **Scope candidate:**
+  - TA §1.10 scope-of-applicability paragraph — explicit naming of agency-conditional-on-information as a methodological commitment + acknowledgment of its philosophical-tradition placement (information-economics + Akerlof-Stiglitz tradition for information-asymmetry side; some affinity with critical-realist + structural-causation traditions in philosophy of social science).
+  - Possibly Ch 9 — brief acknowledgment in policy-economy frame.
+  - Possibly AuthorsNote — methodological-commitment naming.
+- **Resolution path:** PM session evaluates spin-up. If YES: smaller-scope workstream than #18 — likely single multi-artifact-touch session writing 1-2 paragraphs at TA §1.10 + Ch 9 + AuthorsNote with Stage 1c-light coherence verification. If DEFER: hold for re-evaluation at next cascade trigger. If DECLINE: close with reasoning (discipline is consistently applied; explicit naming may add register-load that chapter's intellectual-honesty discipline already carries).
+- **Target resolution:** by pre-publication-readiness gate (after all 10 chapters READY-TO-SUBMIT). Lower priority than #18.
+
+---
+
 ## Resolved
 
 | Resolved date | Item | Resolution |

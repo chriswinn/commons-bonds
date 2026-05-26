@@ -5,7 +5,7 @@
 **Chapter:** 5 — *The Accountability Gap*
 **File audited:** [`manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md`](../../manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md) — **255 lines**, post-Phase-C-β-follow-up + post-rent-seeking-workstream landing (`a1e54d9` 2026-05-17) state, base sha `bc02767`
 **Branch:** `claude/ch5-pipeline-retrofit-serene-hoover-c5b37d` (off `origin/main` `bc02767`)
-**Status:** **PROPOSED** — awaits author ratification at retrofit-session close. Per retrofit-template §5 hard constraints: no spot-fixes applied to chapter source.
+**Status:** **RATIFIED 2026-05-26** — author bulk-ratified all 7 decision clusters as recommended. See §10 ratification record. Per retrofit-template §5 hard constraints: no spot-fixes applied to chapter source. CONDITIONALLY ROBUST verdict confirmed.
 **Mode:** v3.0 Pass 3.4 robustness (first under v3.0 for Ch 5; the original Pass 3 ran acceptance-only under pre-v3.0 framing — RATIFIED 2026-05-14 with 9/9 INCLUDE — and is preserved unchanged).
 **Pass scope:** Pass 3.4 only (adversarial / detractor robustness). Pass 3.1 + Pass 3.2 + Pass 3.3 acceptance already RATIFIED + APPLIED (commits `da26bdc` + `c35cb03` + `d2ee178` + RATIFIED 2026-05-14).
 **Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §1; Stage 3 template (v3.0) [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.4: Audience-load (robustness)"; adversarial-set construction guide [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) §3.
@@ -311,4 +311,83 @@ These join the Sandy-Darity-tradition + Pistor-tradition + civic-republican-trad
 
 ---
 
-*End of Ch 5 Pass 3.4 robustness audit. PROPOSED 2026-05-18. CONDITIONALLY ROBUST verdict. Six load-bearing thread acknowledgments routed to (a) pre-publication review queue (Stage 5), (b) Ch 9 retrofit's Pass 3.4, (c) candidate Orthodox-Econ Engagement Workstream, (d) candidate Agency-Conditional-on-Information Naming Workstream. No Ch 5 prose changes recommended. No structural revision required.*
+*End of Ch 5 Pass 3.4 robustness audit. **RATIFIED 2026-05-26.** CONDITIONALLY ROBUST verdict confirmed. Six load-bearing thread acknowledgments routed per ratified disposition (see §10). No Ch 5 prose changes applied (per ratified disposition).*
+
+---
+
+## §10. Ratification record (closed 2026-05-26)
+
+**Author bulk-ratification 2026-05-26:** All 7 decision clusters ratified as recommended in a single ratification session per pipeline doctrine v3.1 Amendment C interactive ratification protocol. The aggregate verdict CONDITIONALLY ROBUST is confirmed; no Ch 5 prose changes apply; cross-chapter dispositions and pre-pub-queue updates apply per §10.1-§10.7.
+
+### §10.1 Decision 1 — Aggregate verdict
+
+**RATIFIED: CONDITIONALLY ROBUST.** Per §6 final verdict. The 6 load-bearing threads survive Pass 3.4 + are acknowledged in the chapter's structural moves; no escalation to NOT ROBUST / REQUIRES STRUCTURAL ENGAGEMENT warranted.
+
+### §10.2 Decision 2 — 6 load-bearing thread dispositions
+
+**RATIFIED: ALL HOLD.** Per §5 thread-pull synthesis recommendations:
+
+| Thread | Disposition | Routing |
+|---|---|---|
+| α1 (welfare-loss-accounting reframe) | HOLD; chapter must hold ground | Pre-pub queue §2.3 disclosure + Ch 9 retrofit Pass 3.4 engagement |
+| α10 ($108T cherry-picked counterfactual) | HOLD; chapter must hold ground | Cross-chapter handoff to TA §1.10 + Ch 9 + possibly Ch 5 forward-pointer (per §10.6.2 Orthodox-Econ Engagement Workstream) |
+| α11 (cost-severance as unexamined market-failure premise) | HOLD; framework-level claim | Cross-chapter handoff to TA §1.10 (per §10.6.2) |
+| α12 ("system working as designed" as system-indictment) | HOLD; chapter must hold ground | Pre-pub queue §2.3 disclosure + Ch 9 retrofit Pass 3.4 engagement |
+| α19 (structural-not-blame as moral-agency displacement) | HOLD; framework-level claim | Cross-chapter handoff to TA §1.10 + possibly Ch 9 + possibly AuthorsNote (per §10.6.3 Agency-Conditional-on-Information Naming Workstream) |
+| α20 (Restitution Bond methodology as litigation-amplification) | HOLD; methodology portability is feature not flaw | Pre-pub queue §2.3 disclosure (already populated) |
+
+### §10.3 Decision 3 — Bond-apparatus 3-character cluster (α3 + α8 + α13)
+
+**RATIFIED: HOLD + route to Ch 9 retrofit Pass 3.4.** Per §5 + §7.2.1. The cluster is load-bearing-at-book-level + procedural-at-Ch-5-level; the chapter explicitly forward-routes policy-economy to Ch 9 (line 246); Ch 9 retrofit's Pass 3.4 is the canonical engagement site. **Note (2026-05-26):** Ch 9 Pass 3.4 has already been RATIFIED 2026-05-23 (CONDITIONALLY ROBUST). The cross-chapter handoff is now post-hoc: §10.6.1 below flags the Ch 9 retrofit handoff for documentation completeness; the engagement-check action ("did Ch 9 Pass 3.4 cover A1 + A6?") routes to cross-thread-todos for verification.
+
+### §10.4 Decision 4 — 12 procedural / cosmetic flags
+
+**RATIFIED: ALL HOLD.** Per §5 + §6.1. Procedural flags (α2, α4, α5, α6, α7, α14, α15, α16, α17, α18, α21, α9) do not warrant remediation; cumulative reader-load + register-marking are real but verified at Pass 3.3 acceptance as substantively earned. The chapter's intellectual-honesty discipline is the right discipline.
+
+### §10.5 Decision 5 — α4 + α5 healthcare-section selection-bias footnote
+
+**RATIFIED: HOLD.** Per §5 + the artifact's explicit "Held for author disposition. Held in PROPOSED state" recommendation. The lone procedural-spot-fix candidate (peer-reviewed health-services-research literature footnote) is held for future author-discretion application; not in scope for this ratification. Pre-pub queue §3.3 already flags "Health-services-research specialist" as MEDIUM-priority external reviewer — engaging A2's pull route.
+
+### §10.6 Decision 6 — 3 cross-chapter workstream candidates
+
+**RATIFIED: ALL FLAGGED to cross-thread-todos for PM disposition.** Per §7.2 + §5.2. Three new entries appended to `publishing/essays/_pipeline/cross-thread-todos.md` 2026-05-26 in this same atomic chunk.
+
+#### §10.6.1 Ch 9 retrofit Pass 3.4 A1 + A6 engagement
+
+**Disposition:** FLAGGED in Ch 9 pipeline-retrofit handoff §3 (note added 2026-05-26) for documentation completeness. Cross-thread-todos entry #17 carries the post-hoc verification action ("did Ch 9 Pass 3.4 CONDITIONALLY-ROBUST cover A1 + A6 threads?") since Ch 9 Pass 3.4 already RATIFIED 2026-05-23 before this Ch 5 handoff lands. Light Ch 9 Pass 3.4 re-fire NOT routinely warranted; verification-only at PM disposition.
+
+#### §10.6.2 Orthodox-Econ Engagement Workstream candidate
+
+**Disposition:** FLAGGED in cross-thread-todos entry #18. PM session disposition: evaluate spin-up — TA §1.10 scope-of-applicability extension + Ch 9 paragraph + possibly Ch 5 footnote at line 112. Analogous to the Public Choice cross-chapter workstream that landed 2026-05-17.
+
+#### §10.6.3 Agency-Conditional-on-Information Naming Workstream candidate
+
+**Disposition:** FLAGGED in cross-thread-todos entry #19. PM session disposition: evaluate spin-up — TA §1.10 + possibly Ch 9 + possibly AuthorsNote. Smaller scope than Orthodox-Econ workstream; philosophical-foundations layer.
+
+### §10.7 Decision 7 — 4 external reviewer additions
+
+**RATIFIED: PRE-PUB QUEUE §3 ALREADY POPULATED.** The pre-pub queue §3 (Recommended external reviewer types) and §2.3 (Audience-coverage gaps per Pass 3.4 thread-pull synthesis) are already fully populated with the 4 Pass 3.4-derived recommendations: orthodox-econ reviewer (§3.2 + §3.1 paired); industry-funded-financial-services-economist-aware reviewer (named within §2.3); civil-procedure / mass-tort-litigation specialist (§3.3); religious-traditionalist intellectual (§3.3); health-services-research specialist (§3.3). No additional pre-pub queue edits required. Pre-pub queue STATUS marker remains PROPOSED-DEFERRED pending Stage 5 sign-off ratification (which fires post Pass 3.3 light-re-fire ratification + any Pass 3.5 cycle).
+
+### §10.8 What stays open post-Ch-5-Pass-3.4-ratification
+
+Per §6.1 + this ratification:
+
+- **No Ch 5 prose changes.** Confirmed; chapter source unchanged.
+- **Pass 3.3 light re-fire post-d3b ratification** (joint Ch5/Ch9/TA artifact 2026-05-25 PROPOSED). Pending separate ratification.
+- **Pass 3.5 developmental-edit** — explicit-gate; author triggers separately.
+- **Stage 5 sign-off + pre-pub queue ratification** — fires once Pass 3.3 light re-fire ratifies (and optionally after Pass 3.5 cycle if author triggers).
+- **Stage 4 render-integrity** — RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE per [`ch5_stage_4_render_audit_2026-05-26.md`](ch5_stage_4_render_audit_2026-05-26.md). NO LONGER A GATE.
+- **3 cross-chapter workstream candidates** — flagged in cross-thread-todos; PM disposition.
+
+### §10.9 Aggregate verdict — CONFIRMED
+
+**CONDITIONALLY ROBUST** (per §6, RATIFIED 2026-05-26).
+
+Cross-pass cascade preserved:
+- Pass 3.3 acceptance 9/9 INCLUDE — unaffected.
+- Stage 1a CLEAN BASELINE — unaffected.
+- Stage 1c COHERENCE-VERIFIED — unaffected.
+- Pass 3.1 + Pass 3.2 RATIFIED-APPLIED — unaffected.
+- Stage 4 render-integrity RATIFIED 2026-05-26 (separate artifact) — unaffected.
+
+Ch 5 is one ratification cycle (Pass 3.3 light re-fire) + optional Pass 3.5 + Stage 5 sign-off away from joining the chapter-class READY-TO-SUBMIT corpus.
