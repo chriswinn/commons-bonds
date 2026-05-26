@@ -605,3 +605,40 @@ Selection per §11.5 forward-flag enumeration: D-3b-Ch5 + D-3b-TA Option A recom
 ---
 
 *End of Pass 3.4 D-3b cascade closure note — full Ch 9 Stage 3 sequence through Pass 3.4 + D-3 CLOSED 2026-05-25. Pass 3.5 (developmental-edit) is the next session for Ch 9.*
+
+---
+
+## §13. Pass 3.5 cascade closure note (2026-05-25 — same session)
+
+**Pass 3.5 RATIFIED + APPLIED 2026-05-25** per author direction "as recommended" (third ratification of the same session: Pass 3.4 verdict + D-3b options + Pass 3.5 findings all RATIFIED on 2026-05-25).
+
+Pass 3.5 artifact: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch9_pricing_honestly_pass_3_5_developmental_edit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-25_ch9_pricing_honestly_pass_3_5_developmental_edit_v1.0.0.md) §8 ratification record.
+
+**Pass 3.5 closure effects on Pass 3.4 verdict:**
+
+- **Pass 3.4 CONDITIONALLY ROBUST verdict UNCHANGED.** Per §11.5 closure discipline + Pass 3.5 §8.1 thread-impact analysis: Pass 3.5 F-DE-Ch9-1 Option A application is upstream of Pass 3.4 thread analysis sites; no Pass 3.4 thread disposition shifts. Cross-pressure positioning diagnostic preserved.
+- **Pass 3.3 acceptance verdict strengthened** for Char 13 (cost-bearer) + Char 14 (left-progressive natural-fit) + Char 18 (EJ-movement) via the representative-class register extension into healthcare-financing context at line 202. All 18 INCLUDE / 0 EXCLUDE preserved; no shifts toward NEUTRAL/EXCLUDE.
+- **Pre-publication review queue items (T1-T8 acknowledgments)** unchanged. Pass 3.5 application does not modify Stage 5 sign-off input.
+
+**Full Ch 9 Stage 3 sequence — FULLY CLOSED:**
+
+| Stage | Status | Final commit |
+|---|---|---|
+| Pass 1 (fact-check) | ✓ CLOSED | `4c8bc02` |
+| Pass 2 (voice-polish + Reading C v3) | ✓ CLOSED | `78a26c2` |
+| Stage 1c (Ch 8 cross-chapter cascade) | ✓ CLOSED | `cbef9bd` |
+| Pass 3.3 (acceptance) | ✓ CLOSED | `a6b7df5` (PROPOSED; defaults ratified) |
+| Pass 3.4 (robustness) | ✓ CLOSED | `f47dd1c` → `8aa7dfb` → `4a28275` |
+| Stage 1c D-3 (sibling-coherence-check) | ✓ CLOSED (both sub-scopes) | `8aa7dfb` → `06eb1ea` |
+| **Pass 3.5 (developmental-edit)** | ✓ **CLOSED** | `1fd32dd` → this commit |
+
+**Ch 9 advances to DONE-DONE status on PM dashboard #20**, joining Ch 1 + Ch 2 as the third chapter to fully complete the Stage-3 cadence.
+
+**Downstream stages remaining for Ch 9:**
+- Stage 4 (render + character-integrity audit) — author-offline pipeline-side; runs when chapter readies for distribution.
+- Stage 5 (academic-rigor + prose-quality sign-off + pre-publication review queue artifact) — gate-triggered at distribution-readiness per Amendment A two-class cascade.
+- T7 → Ch 10 Pass 3.4 forward-flag — preserved; Ch 10's Pass 3.4 future-session pressure-tests the hard-left ideological-accommodation thread.
+
+---
+
+*End of Pass 3.5 cascade closure note — Ch 9 Stage 3 FULLY CLOSED 2026-05-25. All five passes (1 + 2 + 3.3 + 3.4 + 3.5) + Stage 1c (Ch 8 cascade + D-3) RATIFIED + APPLIED + CLOSED. Ch 9 advances to DONE-DONE on PM dashboard.*
