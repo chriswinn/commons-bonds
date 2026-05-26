@@ -1,7 +1,7 @@
 # Ch 6 — Stage-3 Pass 3.3 (Audience-Load Acceptance) light re-fire, post-Pass-3.5 developmental-edit application
 
-**Status:** PROPOSED (autonomous fast-forward merge to main per CLAUDE.md merge-to-main default for rigor-pass artifacts).
-**Date:** 2026-05-23.
+**Status:** **RATIFIED 2026-05-25** — author ratified the 7-character delta verdict (4 ✓✓✓ + 3 ✓✓; 0 EXCLUDE; 6 LIGHTLY STRENGTHENED + 1 PRESERVED + 0 PERTURBED; READY TO SUBMIT AS-IS). **Stage 4 render-audit ratified as author-managed-offline** per author 2026-05-25 instruction (render pipeline session; no agent involvement) — see §8 below. Stage 5 fires next; see [`tools/quality-gates/sign-offs/ch6_stage5_signoff_2026-05-25.md`](../quality-gates/sign-offs/ch6_stage5_signoff_2026-05-25.md). (Originally PROPOSED 2026-05-23.)
+**Date:** 2026-05-23 (PROPOSED) / 2026-05-25 (RATIFIED + Stage 4 author-offline marker).
 **Branch:** `claude/ch6-pass-3-3-light-refire-1fae85` (branched from `origin/main` at `5f875a6`).
 **Scope:** light Pass 3.3 acceptance re-fire across the canonical 7-character set, testing whether the Ch 6 dev-edit Phase C application (commit `713fbe1`, 2026-05-21) preserves, lightly strengthens, or perturbs the prior Pass 3.3 verdict (7 INCLUDE / 0 EXCLUDE; READY TO SUBMIT AS-IS; Phase C-ε CLOSED EMPTY 2026-05-15).
 **Workstream rationale:** per pipeline doctrine v1.0.0 Amendment B + dev-edit workstream handoff §3.1 step 10, a light Pass 3.3 re-fire is recommended after Phase C application of dev-edit spot-fixes to confirm cumulative acceptance verdicts hold across the audience pressure-test character set. Pass 3.4 robustness re-fire NOT routinely warranted per the same step (restorations strengthen rather than weaken adversarial robustness; thread-pull surface unchanged).
@@ -299,4 +299,23 @@ Per task brief hard constraints:
 
 ---
 
-*End of Ch 6 Stage-3 Pass 3.3 light re-fire post-Pass-3.5-developmental-edit-application — PROPOSED 2026-05-23. Per CLAUDE.md merge-to-main default for rigor-pass artifacts, this artifact autonomously fast-forward merges to `main` at session close (rigor-pass artifact; internal scaffolding; chapter file unchanged; proposes no spot-fixes; verdict preserved + lightly strengthened across the audience pressure-test character set).*
+*End of Ch 6 Stage-3 Pass 3.3 light re-fire post-Pass-3.5-developmental-edit-application — PROPOSED 2026-05-23 / RATIFIED 2026-05-25. Per CLAUDE.md merge-to-main default for rigor-pass artifacts, this artifact autonomously fast-forward merges to `main` at session close (rigor-pass artifact; internal scaffolding; chapter file unchanged; proposes no spot-fixes; verdict preserved + lightly strengthened across the audience pressure-test character set).*
+
+---
+
+## §8. Stage 4 ratification — author-managed-offline disposition (2026-05-25)
+
+**Stage 4 render + character-integrity audit: RATIFIED as author-managed-offline.** Per author 2026-05-25 instruction matching the 2026-05-24 Ch 2 precedent (commit `9bddbd2` "Stage 4 render-audit ratified as author-managed-offline per author 2026-05-24 instruction"): Ch 6's post-dev-edit Stage 4 render audit is owned by the author offline (render pipeline session; no agent involvement). The author has rendered the chapter at the post-dev-edit + post-coal-CO₂-methodology-cascade state and ratifies Stage 4 by confirmation.
+
+**Pre-dev-edit Stage 4 baseline** remains the prior triple-render comparison data at [`tools/rigor-passes/render_pipeline_comparison_ch6_2026-05-18.md`](render_pipeline_comparison_ch6_2026-05-18.md) (verdict CLEAN modulo canonical-pipeline ratification; SI-1 preservation verified at render level; all key Ch 6 render-fidelity tests passing) + the canonical-pipeline-decision retrofit (commit `5e08642`) that closed Stage 4 at the corpus level.
+
+**Post-dev-edit delta from the Stage 4 baseline:**
+- +22 lines structural restoration (paragraph-rhythm + §-break + concrete-texture + worked-example sentences + paragraph-relocation per dev-edit §11.2);
+- 1 concrete-texture paragraph added at Norway Backtest (5 sentences);
+- 3 four-gates worked-example sentences (gates 2/3/4);
+- 6 new `---` §-breaks (carbon-pivot; convergence-finding; Norway differentiation/acknowledgment; Parfit/Sen; substitutability/integrated-architecture; integrated-architecture/CIT);
+- 1 paragraph relocation (externality-tail name-defense).
+
+All restoration polarities use existing paragraph-break + §-break + inline-text patterns consistent with the chapter's already-rendered state per dev-edit §11.4. No new Plane-1 characters, no new math display blocks, no new tables, no new figure references. Stage 4 author-offline ratification confirms no rendering anomalies were surfaced in the post-dev-edit render.
+
+**Stage 4 verdict for the pre-publication review queue artifact §1.5:** CLEAN (author-managed-offline ratification 2026-05-25). MEDIUM HOLD items from the pre-dev-edit Stage 4 baseline (the documented-not-canonical laptop wkhtmltopdf Qt 4.8.7 disposition per F-RP-TA-02 pattern; canonical Docker pipeline at Qt 5.15.13 renders cleanly) carry forward unchanged.
