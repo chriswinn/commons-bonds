@@ -113,7 +113,7 @@ Per Stage 1c coherence-check ([`tools/quality-gates/coherence-checks/ch5_stage1c
 
 ### §1.5 Render integrity
 
-- **Stage 4 render-integrity audit verdict:** PROPOSED-pending-canonical-pipeline-decision per [`tools/rigor-passes/render_pipeline_comparison_ch5_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ch5_2026-05-18.md). Triple-render summary:
+- **Stage 4 render-integrity audit verdict:** **RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE** per [`tools/rigor-passes/ch5_stage_4_render_audit_2026-05-26.md`](../rigor-passes/ch5_stage_4_render_audit_2026-05-26.md) (mirrors Ch 1 + Ch 2 + Ch 3 + Ch 4 + Ch 6 + Ch 9 + TA chapter-class corpus pattern). Author-revised render pipeline (post-2026-05-18 standardization + containerization workstreams; further revised offline 2026-05-26); verdict CLEAN. The triple-render comparison at [`tools/rigor-passes/render_pipeline_comparison_ch5_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ch5_2026-05-18.md) carries forward as the historical canonical-pipeline-decision evidence base. Per-pipeline character-integrity summary from the 2026-05-18 evidence base:
   - Remote-container baseline (BASE `9ffad4e`; **pre-rent-seeking source**): 20 pages, 121,523-byte PDF, 38,573-byte DOCX, pdftotext-extracted prose with em-dashes preserved, no replacement glyphs, no tofu boxes.
   - Laptop `build-derivatives.sh` (post-Ch-1-retrofit-patches; current source post-rent-seeking): 22 pages, 120,094-byte PDF, 40,352-byte DOCX, **0 xelatex Missing-character warnings**, content-identical pdftotext (modulo line-wrap variance), **em-dash-in-bold (Method 1/2/3 at line 232) renders cleanly** (exceeding Ch-1-retrofit-prediction).
   - Laptop `build-derivatives-alt.sh` (post-Ch-1-retrofit-patches; current source post-rent-seeking): 21 pages, 133,500-byte PDF (+11.2% vs canonical due to DejaVu Serif fallback-header embedding), 40,352-byte DOCX, **0 xelatex Missing-character warnings**, content-identical pdftotext to the canonical script (0-line diff per `pandoc -t plain` extraction on docx side; 405-line line-wrap diff on pdftotext side — pure pipeline delta).
@@ -259,8 +259,8 @@ Per author preference, rank-ordered for Ch 5 specifically:
 - Pass 3.2 voice-polish: [`tools/rigor-passes/commons_bonds_ch5_stage_3_pass_2_voice_polish_2026-05-14_PROPOSED.md`](../rigor-passes/commons_bonds_ch5_stage_3_pass_2_voice_polish_2026-05-14_PROPOSED.md) (RATIFIED + APPLIED via `c35cb03` + `d2ee178`)
 - Pass 3.3 audience-load acceptance (RATIFIED 9/9 INCLUDE 2026-05-14): [`tools/rigor-passes/commons_bonds_ch5_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md`](../rigor-passes/commons_bonds_ch5_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md)
 - Pass 3.4 audience-load robustness (PROPOSED 2026-05-18; CONDITIONALLY ROBUST): [`tools/rigor-passes/ch5_stage3_pass_3_4_audience_load_robustness_2026-05-18.md`](../rigor-passes/ch5_stage3_pass_3_4_audience_load_robustness_2026-05-18.md)
-- Stage 4 render-integrity audit (PROPOSED-pending-canonical-pipeline-decision): [`tools/rigor-passes/render_pipeline_comparison_ch5_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ch5_2026-05-18.md)
-- Stage 5 sign-off: PENDING (deferred until Stage 4 verdict ratifies — post canonical-pipeline decision)
+- Stage 4 render-integrity audit (RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE; CLEAN): [`tools/rigor-passes/ch5_stage_4_render_audit_2026-05-26.md`](../rigor-passes/ch5_stage_4_render_audit_2026-05-26.md) (supersedes [`render_pipeline_comparison_ch5_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ch5_2026-05-18.md), which carries forward as historical evidence-base record)
+- Stage 5 sign-off: PENDING (no longer Stage-4-blocked; fires after Pass 3.4 + Pass 3.3 light re-fire ratifications close — or concurrently in a single Phase C session)
 - Cross-chapter workstreams touching scope:
   - Rent-seeking-engagement workstream (RATIFIED 2026-05-18; Ch 5 line 184 touch landed `a1e54d9`): [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md)
   - **Orthodox-Econ Engagement Workstream** (PROPOSED candidate per Pass 3.4 §5.2; PM disposition pending) — surfaced by Ch 5 Pass 3.4 §A5 thread α10 + α11.
@@ -278,9 +278,11 @@ Per author preference, rank-ordered for Ch 5 specifically:
 - §2.1 + §2.2 + §2.3 + §2.4 external-corroboration + audience-coverage-gap inventories.
 - §3 + §4 recommended-reviewer + priority-rank inventories.
 
-**STAYS OPEN until canonical-pipeline decision lands:**
-- §1.5 Stage 4 render-integrity verdict (currently PROPOSED-pending-canonical-pipeline-decision; ratifies post canonical-pipeline decision — Option A/B/C).
-- Stage 5 sign-off (currently PENDING; ratifies after Stage 4 verdict ratifies).
+**Stage 4 verdict RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE — gate removed.**
+
+**STAYS OPEN (no longer Stage-4-blocked):**
+- ~~§1.5 Stage 4 render-integrity verdict~~ ✅ RATIFIED 2026-05-26 per [`tools/rigor-passes/ch5_stage_4_render_audit_2026-05-26.md`](../rigor-passes/ch5_stage_4_render_audit_2026-05-26.md).
+- Stage 5 sign-off (currently PENDING; fires after Pass 3.4 + Pass 3.3 light re-fire ratifications close — or concurrently in a single Phase C session).
 - Spin-up disposition of the two candidate cross-chapter workstreams (Orthodox-Econ Engagement + Agency-Conditional-on-Information Naming) — PM session disposition.
 
 **Ratification path:** This artifact ratifies in batch with Stage 4 verdict ratification, after all 4 first-retrofit chapters' (Ch 1 + Ch 5 + Ch 6 + TA) Stage 4 comparison rounds complete + author selects Option A/B/C. At that ratification, §1.5 + the Stage 5 sign-off cross-reference + the Stage 4 audit-trail update populate; the rest of this artifact carries forward as drafted.

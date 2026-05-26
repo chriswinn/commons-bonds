@@ -1,7 +1,7 @@
 # Render-Pipeline Comparison — Ch 5 (The Accountability Gap)
 
 **Date:** 2026-05-18
-**Status:** PROPOSED — pending author ratification + canonical-pipeline decision (per [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md) §3.4)
+**Status:** **SUPERSEDED 2026-05-26.** Stage 4 RATIFIED at [`tools/rigor-passes/ch5_stage_4_render_audit_2026-05-26.md`](ch5_stage_4_render_audit_2026-05-26.md) as AUTHOR-COMPLETED-OFFLINE per author direction *"completely revised the rendering process and handle that offline now; it works wonderfully."* This comparison artifact carries forward as the **historical canonical-pipeline-decision evidence base** (load-bearing findings — zero Missing-character warnings; em-dash-in-bold renders cleanly; content-fidelity-identical output across the three pipelines — informed the author's offline revision). Original status preserved below as evidence record. **Original:** PROPOSED — pending author ratification + canonical-pipeline decision (per [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md) §3.4).
 **Scope:** `manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md`
 **Base sha (chapter source under retrofit):** `bc02767` (cross-chapter rent-seeking workstream RATIFIED 2026-05-18; Ch 5 line 184 architecture-and-rent-seeking section landed via `a1e54d9` 2026-05-17)
 **Base sha (remote-container baseline render):** `9ffad4e` (2026-05-17; **predates** the rent-seeking workstream's Ch 5 touch at `a1e54d9`)
