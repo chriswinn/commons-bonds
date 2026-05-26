@@ -6,7 +6,7 @@
 **Discipline:** v3.0 Amendment B Pass 3.4 (audience-load robustness; adversarial / detractor character set; thread-pull synthesis verdict; verdict-floor EXCLUDE per character) per [tools/drafting-templates/stage-3-three-pass-rigor-audit.md](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.4: Audience-load (robustness)"
 **Mode:** audit-existing-prose
 **Format model:** [Ch 1 REAUDIT v3 §5.3 adversarial thread-pull synthesis](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) (canonical)
-**Status:** PROPOSED — author ratification gates Phase C spot-fix application (if any)
+**Status:** RATIFIED 2026-05-25 — verdict CONDITIONALLY ROBUST accepted; T3 ratified + Phase C applied per §10 disposition log; pre-publication review queue items (§6.4) accepted as Stage 5 sign-off input. See §11 ratification record.
 
 ---
 
@@ -500,3 +500,75 @@ Pass 3.4 verdict CONDITIONALLY ROBUST holds with T3 disarmed via D-3a applicatio
 ---
 
 *End of Pass 3.4 disposition log — Phase C 2026-05-25. T3 RATIFIED via Char 15 Option A + APPLIED (consolidated across Ch 5 + Ch 9 + TA §1.10). D-3a CLOSED; D-3b PROPOSED for separate ratification. Pass 3.4 verdict CONDITIONALLY ROBUST holds; per-prompt serial cadence advances toward Pass 3.5 (after D-3b sequencing).*
+
+---
+
+## §11. Ratification record (2026-05-25)
+
+**Author ratification 2026-05-25 (same session as §10 disposition log, immediately after Phase C application landed at commit `8aa7dfb`):**
+
+> "ratify the CONDITIONALLY ROBUST verdict now"
+
+### §11.1 Verdict ratified
+
+**Pass 3.4 aggregate verdict: CONDITIONALLY ROBUST — RATIFIED 2026-05-25.**
+
+The CONDITIONALLY ROBUST classification (per [Stage-3 template](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.4: Audience-load (robustness)") is the correct verdict for Ch 9 at this state:
+- Common load-bearing threads (T1, T2, T4, T5, T6, T7) found that the chapter's structural moves DO disarm.
+- T3 (procedural; spot-fixable) disarmed in Phase C 2026-05-25 via consolidated Char 15 Option A application across Ch 5 + Ch 9 + TA §1.10.
+- T8 (industry-funded predisposed-hostile-by-financial-incentive) non-chapter-disarmable; reception-cycle mitigation only.
+- All disarmed load-bearing threads acknowledged in the pre-publication review queue per §6.4 + §7.2.
+
+**No upgrade to ROBUST warranted.** The ROBUST classification requires "no common load-bearing threads found; isolated procedural flags only." Pass 3.4 found six load-bearing threads (T1, T2, T4, T5, T6, T7); CONDITIONALLY ROBUST is the correct verdict even with T3 disarmed because the chapter's structural moves disarm rather than eliminate those threads. ROBUST would misrepresent the corpus's actual adversarial-pressure-test profile.
+
+**No downgrade to REQUIRES STRUCTURAL ENGAGEMENT warranted.** No common load-bearing thread surfaced where the chapter does NOT disarm; no cross-chapter workstream or chapter-level structural revision needed beyond the optional T7 → Ch 10 Pass 3.4 future-session forward-flag (which is a forward-input, not a structural-engagement gate).
+
+### §11.2 Thread dispositions confirmed at ratification
+
+| Thread | Pre-ratification disposition | Post-ratification status |
+|---|---|---|
+| **T1** Decision-tool framing implies prescriptive direction | HOLD; pre-pub review queue acknowledgment | ✓ RATIFIED HOLD |
+| **T2** Rent-extractor sector-naming as left-policy targeting | HOLD; pre-pub review queue acknowledgment | ✓ RATIFIED HOLD |
+| **T3** Buchanan implicit endorsement insufficient (MacLean) | SPOT-FIX via Char 15 Option A | ✓ APPLIED 2026-05-25 (commit `8aa7dfb`); thread closed |
+| **T4** Three property-rights exceptions resolvable within Coase | HOLD; pre-pub review queue acknowledgment | ✓ RATIFIED HOLD |
+| **T5** Asymmetric Regret Rule one-sided risk-framing | HOLD; pre-pub review queue acknowledgment | ✓ RATIFIED HOLD |
+| **T6** Foreign-model importation | HOLD; structural disarm built in | ✓ RATIFIED HOLD |
+| **T7** Ideological accommodation of capital | HOLD + Ch 10 cross-chapter forward-flag | ✓ RATIFIED HOLD; forward-flag preserved |
+| **T8** Cost-attribution math foundations contested (industry-funded) | Non-chapter-disarmable; reception-cycle mitigation | ✓ RATIFIED reception-cycle mitigation only |
+
+### §11.3 Stage 5 sign-off input — pre-publication review queue items finalized
+
+Per [feedback_audience_aware_drafting_discipline.md](../memory/feedback_audience_aware_drafting_discipline.md) v3.0 + §6.4 above: the seven pre-publication-review-queue acknowledgments (T1 + T2 + T4 + T5 + T6 + T7 + T8) are now **accepted as the canonical Stage 5 sign-off input for Ch 9**. The publisher / agent / editor receives these acknowledgments alongside the manuscript-submission package per pipeline-doctrine v1.0.0 Stage 5 protocol.
+
+The pre-publication review queue's transparency-rather-than-overclaiming-verification posture is satisfied: the corpus does not claim to have eliminated adversarial-direction load-bearing threads where none can be eliminated without abandoning the framework's substantive contribution; it claims to have anticipated them, structurally disarmed where possible, and named what an external reader would still find for further scholarly engagement.
+
+### §11.4 Phase A closure for Ch 9 Pass 3.4
+
+Pass 3.4 PROPOSED → RATIFIED → CLOSED. The full per-prompt serial cadence sequence for Ch 9 Stage-3 rigor pass:
+
+| Pass | PROPOSED commit | RATIFIED / APPLIED commit | Status |
+|---|---|---|---|
+| Pass 1 (fact-check) | — (earlier session) | `4c8bc02` (2026-05-19 Phase C) | ✓ CLOSED |
+| Pass 2 (voice-polish) | `e68b505` | `78a26c2` (2026-05-21 Phase C + Reading C v3 substantive rewrite) | ✓ CLOSED |
+| Stage 1c (Ch 8 cross-chapter cascade) | — (Ch 8 artifact) | `cbef9bd` (2026-05-21 Phase C Option A) | ✓ CLOSED |
+| Pass 3.3 (acceptance) | `a6b7df5` (2026-05-23 PROPOSED — READY TO SUBMIT AS-IS) | (no Phase C required; aggregate INCLUDE) | ✓ CLOSED via ratification of recommended defaults this session |
+| Pass 3.4 (robustness) | `f47dd1c` (2026-05-23 PROPOSED — CONDITIONALLY ROBUST) | `8aa7dfb` (2026-05-25 Phase C T3 Char 15 Option A + D-3 fired) + this ratification (2026-05-25) | ✓ **CLOSED 2026-05-25** |
+
+### §11.5 What ratification of CONDITIONALLY ROBUST does NOT do
+
+- Does NOT eliminate the pre-publication review queue acknowledgments (T1, T2, T4, T5, T6, T7) — those remain as Stage 5 sign-off transparency input.
+- Does NOT pre-empt the T7 → Ch 10 Pass 3.4 forward-flag — Ch 10's Pass 3.4 future-session still needs to pressure-test whether the hard-left thread re-triggers at Ch 10's closing-reflection register.
+- Does NOT pre-empt D-3b ratification (Ch 5 + TA §1.10 symmetric-vs-asymmetric framing alignment) — cross-thread-todos #16 still tracks; remains author-judgment item.
+- Does NOT pre-empt Pass 3.5 (developmental-edit) Ch 9 sequencing — per §7.4, Pass 3.5 fires after Pass 3.4 ratification (now satisfied) + D-3b sequencing (still pending).
+- Does NOT reception-cycle-mitigate T8 — industry-funded reception is what it is; mitigation operates via supportive non-hostile reception at publication-time.
+
+### §11.6 What ratification advances
+
+- **Pass 3.5 (developmental-edit) Ch 9 readiness now fully unblocked** at the Pass 3.4 gate (modulo D-3b sequencing per author judgment).
+- **Stage 5 sign-off material for Ch 9 substantially complete** — pre-pub review queue items confirmed; only Pass 3.5 + pre-publication-date-refresh remain in Stage 3 → Stage 5 path.
+- **PM dashboard #20 (Manuscript Stage-3 Rigor Pass) advances Ch 9 row to substantially-complete** — Pass 1 + Pass 2 + Stage 1c (Ch 8 cascade) + Pass 3.3 + Pass 3.4 all CLOSED; only Pass 3.5 + optional D-3b remain.
+- **Cross-pressure structure validated as positioning diagnostic** — the T1 + T7 opposite-direction adversarial pressure on the same chapter passages (per §3.1 synthesis observation) confirms the chapter is correctly positioned in the political-economy debate; this validation is itself a publishable observation about the corpus.
+
+---
+
+*End of Pass 3.4 ratification record — author ratified CONDITIONALLY ROBUST verdict 2026-05-25. Pass 3.4 Phase A CLOSED; per-prompt serial cadence next advances to either D-3b ratification (cross-thread-todos #16) or Pass 3.5 (developmental-edit) per author sequencing choice.*
