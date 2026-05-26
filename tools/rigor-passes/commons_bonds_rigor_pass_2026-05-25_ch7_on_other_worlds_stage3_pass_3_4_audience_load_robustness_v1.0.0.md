@@ -646,3 +646,47 @@ Per session framing hard constraints + v3.1 Amendment A explicit-gate cascade + 
 ---
 
 *End of Ch 7 Stage-3 Pass 3.4 (Audience-Load — Robustness) rigor pass — PROPOSED 2026-05-25. Aggregate verdict ROBUST WITH OPTIONAL SPOT-FIXES. Full 12-character adversarial set: 12 EXCLUDE as expected per template verdict-floor (8 ⚠ EXCLUDE + 3 ⚠⚠ EXCLUDE + 1 ⚠⚠⚠ EXCLUDE). Cross-pressure structure across 12 characters confirms chapter is positioned correctly in political-economy + environmental-ethics + analytical-rigor debates (T1 + T4 cosmic-scale; T6 + A12-inverse extract-freely cluster; T2 + T7 framework-universality). Eight load-bearing threads identified (T1 substantive + T2 + T4 + T5 + T6 + T7 + T8) — chapter's structural moves disarm sufficiently; pre-pub review queue acknowledgment appropriate. Three procedurally-spot-fixable threads (T1 disclaimer-position + T3 Public-Choice-cross-chapter-reference + T4 Bostrom-lineage acknowledgment) flagged for optional combined Phase C-γ disposition; defaults are HOLD-AS-IS. Pass 3.3 §8.3 Option A HOLD disposition substantively reinforced; Pass 3.4 marginally reinforces but does NOT strictly require Option B reconsideration. Pass 3.5 (developmental-edit) is explicit-gate per Amendment A; flagged two low-priority Pass-3.5-attention items at §6. Phase C-γ disposition required only if author elects Option B on T1 / T3 / T4 (each is independent + low-touch); otherwise chapter HOLDS AS-IS at post-Phase-C-β state and proceeds to Pass 3.5 (if explicit-gate triggered) or Stage 4 (if Stage 3 closed for Ch 7).*
+
+---
+
+## §11. Ratification record (closed 2026-05-26)
+
+Author ratification of §8 disposition completed 2026-05-26 via interactive disposition walkthrough ("ratify stage 4 as I have done that offline with the docker render pipeline; continue continue continue continue").
+
+### §11.1 §8 disposition
+
+| Item | Disposition | Rationale |
+|---|---|---|
+| T1 Mars-canonization disclaimer pre-positioning (Pass 3.4 §8.3 Option A default; Pass 3.3 §8.3 Option A HOLD substantively reinforced) | **Option A (HOLD)** | Pass 3.4 marginally reinforces but does NOT strictly require Option B reconsideration. Chapter's methodology-not-advocacy disclaimer at lines 195–199 + Mars-water preserve-absolutely framing + Earth-pivot + Appalachian-coal handoff provide substantive structural disarm. Pre-pub review queue acknowledgment (Stage 5 §2.3) is the appropriate transparency discipline for the residual skim-read risk. Substance-drives-length call: chapter holds STRONG verdict at Pass 3.3 (30/30 INCLUDE close-read) and ROBUST verdict at Pass 3.4; further low-touch defensive disarm would not strengthen the substantive position. |
+| T3 Public-Choice cross-chapter forward-reference (Pass 3.4 §8.3 Option A default) | **Option A (HOLD)** | Existing Ch 9-handoff at line 221 implicitly carries the forward-reference; explicit naming not required for the chapter's claim to operate correctly. Cross-chapter Public-Choice engagement is already closed at Ch 9 Pass 3.4 §10.1 consolidated MacLean-acknowledgment Phase C session 2026-05-25; no re-opening warranted. Pre-pub review queue acknowledgment (Stage 5 §2.3) is the appropriate transparency discipline. |
+| T4 Bostrom-lineage longtermism acknowledgment (Pass 3.4 §8.3 Option A default) | **Option A (HOLD)** | Existing scope-disclaimer at line 141 is substantively narrow + explicitly disclaims most-contested longtermism positions (no commitment to total-utilitarian aggregation; no commitment to particular population-ethics conclusions). Explicit MacLean-style acknowledgment would expand chapter scope into longtermism-controversy engagement that the chapter doesn't otherwise carry. Pre-pub review queue acknowledgment (Stage 5 §2.3) is the appropriate transparency discipline. |
+
+### §11.2 Phase C-γ scope
+
+**No Phase C-γ session required.** Chapter holds AS-IS at the post-Phase-C-β state (commit `e29d5ae`). All three procedurally-spot-fixable convergent threads default to Option A HOLD per substance-drives-length + sample-chapter publication-readiness per Pass 3.3 STRONG verdict (30/30 INCLUDE) + Pass 3.4 ROBUST verdict (12-character adversarial set as expected verdict-floor; thread-pull synthesis confirms correct positioning via cross-pressure structure). Option B's combined disarm is defensive not corrective.
+
+**Hard constraints honored:**
+- Theorem 10.3 (Abundance Masking) cross-reference at Ch 7:121 intact (matches current Tech Appendix v2.0.0 canonical numbering; never modified).
+- Aeon-overlap held passage at Ch 7:101 intact (per Pass 3.1 MEDIUM-8 hold + Pass 3.2 §5.8 verification + Pass 3.4 §5.4 adversarial verification; Aeon Version C pitch fire window Sun May 31 14:01 UTC still active).
+- Pass 3.1 fact-check Phase C-α edits (lines 19, 33, 197, 213, 215, 241) + Pass 3.2 voice-polish Phase C-β edits (lines 21, 85, 121, 195, 229) preserved.
+- Apparatus register canonical decisions (Items 7, 10, 12, 14, 15 + Pass 3.2 §5.3 Abundance Masking Option C) hold.
+
+### §11.3 Stage 3 closure for Ch 7
+
+Stage 3 audit CLOSES for Ch 7 per all four Stage-3 sub-passes complete + ratified:
+- **Pass 3.1 (fact-check)** — CLOSED 2026-05-20 + Phase C-α applied at commit `4987e59`.
+- **Pass 3.2 (voice-polish)** — CLOSED 2026-05-21 + Phase C-β applied at commit `e29d5ae`.
+- **Pass 3.3 (acceptance)** — CLOSED 2026-05-25 Option A HOLD on §8.3 (commit `0a3de00`); 30/30 INCLUDE close-read; READY-AS-IS verdict.
+- **Pass 3.4 (robustness)** — CLOSED 2026-05-26 Option A HOLD on §8 (this record); ROBUST WITH OPTIONAL SPOT-FIXES verdict; default HOLD across T1 + T3 + T4.
+
+**Pass 3.5 (developmental-edit) explicit-gate NOT triggered for Ch 7 at this time** per Amendment A two-class cascade (Pass 3.5 is explicit-gate; fires only on author trigger at specific pre-publication gates). Available if author elects to trigger at a future pre-publication gate; two low-priority Pass-3.5-attention items flagged at §6 above remain available as session inputs. Chapter is publication-ready at the sample-chapter level per Pass 3.3 STRONG verdict + Pass 3.4 ROBUST verdict + workstream handoff line 333 sample-chapter default elevation.
+
+### §11.4 Next stage
+
+**Stage 4 (render + character-integrity audit)** — AUTHOR-COMPLETED OFFLINE via docker render pipeline 2026-05-26. Forthcoming commit ratifies Stage 4 as author-managed-offline disposition per Ch 1 + Ch 2 + Ch 3 + Ch 4 + Ch 5 + Ch 6 + Ch 9 + TA chapter-class corpus precedent.
+
+After Stage 4: **Stage 5 (academic-rigor + prose-quality sign-off bookend + pre-publication review queue artifact)** — forthcoming commit generates the Stage 5 sign-off + pre-pub review queue per v3.0/v3.1 architecture. Ch 7 then joins the chapter-class READY-TO-SUBMIT corpus alongside the other Stage-5-complete chapters.
+
+---
+
+*End of Ch 7 Stage-3 Pass 3.4 ratification record. CLOSED 2026-05-26. Option A HOLD across §8 (T1 + T3 + T4 all default). No Phase C-γ required. Stage 3 audit CLOSES for Ch 7. Stage 4 RATIFIED author-offline (forthcoming commit). Stage 5 sign-off + pre-pub queue forthcoming.*
