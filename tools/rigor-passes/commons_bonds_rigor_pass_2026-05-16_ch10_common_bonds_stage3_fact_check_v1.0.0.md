@@ -1,10 +1,14 @@
 # Stage-3 Rigor Pass — Chapter 10 (Common Bonds) — Pass 1: Fact-check
 
+> **⚠ POST-ALT-AUDIT CONSOLIDATION NOTE (added 2026-05-25 at parallel-workstream consolidation).** This Pass 1 fact-check artifact closed 2026-05-23 against what was then the canonical `manuscript/chapters/Chapter_10_CommonBonds.md`. On 2026-05-25, that file was archived to `archive/_OneDayMaybe/ch10-variants/Chapter_10_CommonBonds_pre_ALT_audit_2026-05-25.md` and replaced as canonical by the post-Pass-3.5-restoration ALT draft. **All Pass 1 findings inherit cleanly to the new canonical** (most via the ALT's brief-compliant Stage-2 drafting; some via Pass 3.5 restoration; the M-2 author-preferred wording was integrated as the final consolidation step). See the consolidation artifact at [`commons_bonds_rigor_pass_2026-05-25_ch10_common_bonds_stage3_pass_3_1_parallel_workstream_consolidation_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-25_ch10_common_bonds_stage3_pass_3_1_parallel_workstream_consolidation_v1.0.0.md) for the per-finding mapping + the new canonical's Pass 3 status (comparative draft audit + Pass 3.5 ratify-as-recommended both closed 2026-05-25). The artifact below is preserved as historical record of the Pass 1 work against the pre-ALT canonical and as the source-of-truth for the Pass 1 disposition log; the Pass 3.1 fact-check status for the post-ALT canonical is the consolidated record in the linked artifact.
+
+---
+
 **Date:** 2026-05-16
 **Workstream:** #20 Manuscript Stage-3 Rigor Pass — Phase A (per-chapter audits)
 **Chapter:** 10 — *Common Bonds*
-**File audited:** [Chapter_10_CommonBonds.md](manuscript/chapters/Chapter_10_CommonBonds.md) (single-underscore prefix; differs from Chs 1–9 double-underscore convention)
-**Word count / line count:** 151 lines / ~7,366w (per workstream handoff; line count verified at session start)
+**File audited:** [Chapter_10_CommonBonds.md](manuscript/chapters/Chapter_10_CommonBonds.md) (single-underscore prefix; differs from Chs 1–9 double-underscore convention). **As of 2026-05-25 the file audited here has been archived; see consolidation note above.**
+**Word count / line count:** 151 lines / ~7,366w (per workstream handoff; line count verified at session start). **The new post-ALT canonical is 184 lines / ~5,386w.**
 **Pass scope:** Pass 1 (Fact-check) only per v2.0 Amendment B (three distinct passes; no bundling). Pass 2 (Voice-polish) and Pass 3 (Audience-load) NOT run; deferred to subsequent sessions per per-prompt serial cadence.
 **Hard constraint observed:** No spot-fixes applied to chapter file. Phase C session (post-author-ratification) applies recommended edits.
 **Mode:** audit-existing-prose (no Stage 1 brief for Ch 10; the chapter file IS the prose under audit). Per `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` §"Audit-existing-prose mode".

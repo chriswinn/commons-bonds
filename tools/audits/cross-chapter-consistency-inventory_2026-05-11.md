@@ -209,7 +209,7 @@ Path B canonical-home assignments:
 | **Em-dash** | `—` (U+2014) — used throughout for parenthetical aside / sentence interruption | HTML Ch 6 uses `&mdash;` entity (rendered identically) |
 | **Quoted speech (italicized internal monologue / aphoristic statements)** | `*We can always extract later. We can never un-extract.*` italic single-line | Per Glossary ARR entry + chapter use |
 | **Chapter cross-references** | "Chapter N" (Title-case "Chapter") | **DRIFT — see audit Item F-1.** 1 instance of lowercase "chapter 9" (Ch 5 line 92) against 51 capitalized instances. |
-| **Chapter-end markers** | "— End of Chapter N —" (em-dash, en-dashes, Title-case) | Ch 2, 3, 4, 5, 7, 9 use the em-dash form. Ch 10 uses "End of Chapter 10" without em-dashes — slight format drift. |
+| **Chapter-end markers** | "— End of Chapter N —" (em-dash, en-dashes, Title-case) | Ch 2, 3, 4, 5, 7, 9, **10** all use the em-dash form. **Inventory drift claim corrected 2026-05-25 per Pass 3.1 L-2** (the prior `Ch 10 uses "End of Chapter 10" without em-dashes` claim was incorrect; Ch 10 has consistently used `— End of Chapter 10 —` per the Pass 3.1 v1.0.0 verification + post-ALT-audit canonical replacement). |
 | **Symbol forms** | `t₀` subscript zero (not `tₔ`); `+` operator (not `⟯`) | Confirmed clean across all chapters per apparatus sweep follow-up |
 | **Bold + Title-case named instruments** | "**Restitution Bond**", "**Foreclosure Bond**" | Ch 5 introduction uses bold; later mentions plain |
 | **Numerical formatting (prose vs digits)** | Spelled out for narrative-flow ("thirteen years"); digits for technical/per-ton arithmetic and tables ("$190/ton") | Author voice-driven; no firm rule but generally consistent within scenes |
