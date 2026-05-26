@@ -433,7 +433,7 @@ Re-fire rationale per §8.3 Phase C re-fire trigger discipline: Pass 3.5 added o
 
 ### §12.5 Outstanding items beyond this session
 
-- **Light Pass 3.3 acceptance re-fire** — fires post-this-commit per Amendment B Pass-3.5 protocol (separate session/subagent; produces re-fire PROPOSED artifact for author ratification).
+- **Light Pass 3.3 acceptance re-fire** — ✅ COMPLETE 2026-05-26. PROPOSED artifact at [`tools/rigor-passes/ch4_existence_proof_stage3_pass_3_3_light_refire_post_pass_3_5_2026-05-26.md`](../../rigor-passes/ch4_existence_proof_stage3_pass_3_3_light_refire_post_pass_3_5_2026-05-26.md). Aggregate verdict: **LIGHT-RE-FIRE CONFIRMS PRIOR + STRENGTHENS** — 25/25 INCLUDE preserved + 2 verdict-level uplifts (#14 Mazzucato/Raworth ✓✓→✓✓✓; #18 Niger Delta reader ✓→✓✓) + 12 confidence-level uplifts + 11 no-change + 0 DISCOUNT. 12 of 12 Pass 3.5 §3 projected STRENGTHEN candidates confirmed. NO SHIP BLOCK at any Tier 1 gating character. Verdict-tier distribution: ✓✓✓ 5→6, ✓✓ 15→15, ✓ 5→4. Awaiting author ratification (mobile-doable; one ratification call closes Ch 4 fully).
 - **Pre-publication-gate render verification** — RE-CONFIRMED CLEAN per §12.3.
 - **Cross-chapter cascade follow-up** — F-DE-Ch4-1 NBIM mechanism-credit pattern + F-DE-Ch4-2 international-architecture extension flagged for future cross-chapter developmental-coherence session.
 - **Sibling-side housekeeping** (unchanged from §11.6) — cross-chapter consistency inventory + Ch 6 line 537 + op-ed canonical-facts inventory refresh.
