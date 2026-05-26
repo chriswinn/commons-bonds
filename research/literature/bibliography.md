@@ -1162,7 +1162,7 @@ The 2026-05-05 search also surfaced the following Colden public-record items, li
 
 #### Wheeler, Timothy, and Jeremy Cox. "Amid oyster bounty, Chesapeake Bay watermen suffer dismal harvest." *Maryland Matters / Bay Journal,* April 27, 2026.
 
-- **Summary:** Co-bylined investigative piece (Bay Journal origination; Maryland Matters / Southern Maryland Chronicle syndication) documenting the 2025-to-2026 paradox of recovering oyster populations alongside collapsing watermen livelihoods. Carries on-record interview material from J.C. Hudgins (Virginia Watermen's Association president; Piankatank River waterman), Mitch Tarnowski (Maryland DNR oyster reef survey lead), Jason Ruth (owner, Harris Seafood Co., Grasonville MD), and U.S. Representative Andy Harris (R-MD); also runs the photograph of Pat Whewell culling oysters in Broad Creek aboard Lonnie Gowe's boat alongside Chumley Fisher and Chet Schwartz.
+- **Summary:** Co-bylined investigative piece (Bay Journal origination; Maryland Matters / Southern Maryland Chronicle syndication) documenting the 2025-to-2026 paradox of recovering oyster populations alongside collapsing watermen livelihoods. Carries on-record interview material from J.C. Hudgins (Virginia Watermen's Association president; Piankatank River waterman), Mitch Tarnowski (Maryland DNR oyster reef survey lead), Jason Ruth (owner, Harris Seafood Co., Grasonville MD), and U.S. Representative Andy Harris (R-MD); also runs two separate Tilghman Island photographs — (a) Pat Whewell culling oysters aboard Lonnie Gowe's boat in Broad Creek, 2023; and (b) Chumley Fisher offloading oysters from Chet Schwartz's boat on Tilghman Island, March 18, 2026. (Pass 3.1 F-FC6 corrected the chapter's earlier conflation of these two separate photos; both are credited to Dave Harp / Chesapeake Bay Journal.)
 - **Relevance:** **LOAD-BEARING.** Single largest source for the chapter's augmentation landings — four direct named-voice quotes plus the Tilghman Island working-waterfront photographic record. The piece's framing (recovering population, collapsing harvest economics, bipartisan-resilience register from Rep. Harris) maps directly onto Ch 3's paradox-of-recovery section.
 - **Status:** APPLIED at commit `9a7cc7e`.
 - **Grounds:** L1 J.C. Hudgins kitchen-table-economics voice at line 65 (*"You're lucky if you can put $150 in your pocket per day [...]"*); L2 Mitch Tarnowski twelve-word-chapter-thesis voice at line 186 (*"There are plenty of oysters out there [...]. They're just not being harvested."*); L3 Jason Ruth market-collapse named voice at line 190 (60-year nationwide shucked-oyster-sector decline); L11 Andy Harris bipartisan-structural-framing voice at line 178 (*"Our watermen are pretty resilient [...]"*); L12 Pat Whewell + Tilghman Island working-waterfront named presence at line 158.
@@ -1202,13 +1202,13 @@ The 2026-05-05 search also surfaced the following Colden public-record items, li
 
 ### Regulatory record
 
-#### O'Connor, Tonya. *Petition for Rulemaking to Establish a Temporary Moratorium on Chesapeake Bay Menhaden Reduction Fishing.* Filed with the Virginia Marine Resources Commission, December 31, 2025.
+#### O'Connor, Tanya. *Petition for Rulemaking to Establish a Temporary Moratorium on Chesapeake Bay Menhaden Reduction Fishing.* Filed with the Virginia Marine Resources Commission, December 31, 2025. **Petition 449.**
 
-- **Summary:** A 349-page petition filed by a Virginia resident asking the Virginia Marine Resources Commission to declare a temporary moratorium on the Bay's menhaden reduction fishery until Bay-specific science is produced. Documents that VMRC *"did not have — and still does not have — a Bay-wide estimate of menhaden biomass, age structure, spatial distribution, recruitment trends, or localized depletion risk."* Grounds the legal posture in Virginia's public-trust doctrine, citing *Commonwealth v. City of Newport News,* 158 Va. 521 (1932); *Taylor v. Commonwealth,* 102 Va. 759 (1904); and *Bradford v. Nature Conservancy,* 224 Va. 181 (1982). VMRC held a hearing on April 21, 2026, and received 1,266 public comments; the decision is pending.
-- **Relevance:** **LOAD-BEARING.** Provides the L4 regulatory-record voice in Ch 3's menhaden section — a working citizen on the formal record naming the data gap in the language the regulator itself uses. Grounds the public-trust doctrine citations that anchor the petition's legal posture (named-in-passing parenthetical grounding per Stage 1 brief §6.5; the chapter does not develop the doctrine analytically). The 1,266 public-comment count anchors the chapter's framing of the public response.
-- **Status:** APPLIED at commit `9a7cc7e`. Named-subject consent posture: public-record petitioner; courtesy-notification discipline applies. See Stage 1 brief §8.
-- **Grounds:** L4 Tonya O'Connor regulatory-record voice at line 119; VMRC petition data-gap framing, public-trust doctrine citations (*Commonwealth v. City of Newport News;* *Taylor v. Commonwealth;* *Bradford v. Nature Conservancy*), 1,266 public-comment count, April 21, 2026 hearing date.
-- **Available at:** https://mrc.virginia.gov/Notices/2026/Menhaden-Moratorium-Petition.pdf
+- **Summary:** A 349-page petition filed by a Virginia resident asking the Virginia Marine Resources Commission to declare a temporary moratorium on the Bay's menhaden reduction fishery until Bay-specific science is produced. Documents that VMRC *"did not have — and still does not have — a Bay-wide estimate of menhaden biomass, age structure, spatial distribution, recruitment trends, or localized depletion risk."* Grounds the legal posture in Virginia's public-trust doctrine, citing *Commonwealth v. City of Newport News,* 158 Va. 521 (1932); *Taylor v. Commonwealth,* 102 Va. 759 (1904); and *Bradford v. Nature Conservancy,* 224 Va. 181 (1982). VMRC held a hearing on April 21, 2026, and received 1,266 public comments (260 in support; 896 in opposition). **The Commission voted 6-2 to deny the petition in its entirety on April 21, 2026; formal action recorded on the Virginia Regulatory Town Hall as "take no action" on April 30, 2026.**
+- **Relevance:** **LOAD-BEARING.** Provides the L4 regulatory-record voice in Ch 3's menhaden section — a working citizen on the formal record naming the data gap in the language the regulator itself uses. Grounds the public-trust doctrine citations that anchor the petition's legal posture (named-in-passing parenthetical grounding per Stage 1 brief §6.5; the chapter does not develop the doctrine analytically). The 1,266 public-comment count anchors the chapter's framing of the public response. The 6-2 denial substantiates the chapter's argument about regulatory-architecture failing to act on its own science.
+- **Status:** APPLIED at commit `9a7cc7e`; spelling correction (Tonya → Tanya per VMRC official record) + decision-status correction (pending → 6-2 denial) applied 2026-05-25 via Ch 3 Pass 3.1 Phase C at commit `d182275` (F-FC2 + F-FC3). Named-subject consent posture: public-record petitioner; courtesy-notification discipline applies (see Stage 1 brief §8).
+- **Grounds:** L4 Tanya O'Connor regulatory-record voice at line 123; VMRC petition data-gap framing, public-trust doctrine citations (*Commonwealth v. City of Newport News;* *Taylor v. Commonwealth;* *Bradford v. Nature Conservancy*), 349-page filing, 1,266 public-comment count, April 21, 2026 hearing date, April 30, 2026 formal denial.
+- **Available at:** https://mrc.virginia.gov/Notices/2026/2026-04-21-Menhaden-Petition.pdf; Virginia Regulatory Town Hall record at https://townhall.virginia.gov/L/ViewPetition.cfm?petitionId=449.
 
 ### Books and book journalism
 
@@ -1227,6 +1227,74 @@ The 2026-05-05 search also surfaced the following Colden public-record items, li
 - **Status:** APPLIED at commit `9a7cc7e` (cited as corroboration for the framing choice; no verbatim quote sourced from G10).
 - **Grounds:** Corroborator for L9 James "Ooker" Eskridge voice at line 154; documents the Stage 1 brief §8 climate-rhetoric framing choice.
 - **Available at:** https://undark.org/2018/08/31/book-review-swift-chesapeake-requiem/
+
+### Hampton historical record (F-V21 seafood-anchor paragraph sourcing)
+
+Sources grounding the L18 Hampton seafood-anchor paragraph added 2026-05-25 at commit `84b22a7` (F-V21 chapter-wide em-dash reduction + Hampton seafood-anchor) and refined 2026-05-25 at commit `d182275` (Pass 3.1 Phase C; F-FC5 + F-FC7 + F-FC8 + F-FC13 corrections to the paragraph's overclaims and historical facts). Status: APPLIED. Promotion-tier; each entry grounds one or more chapter facts at L18.
+
+#### *J.S. Darling and Son Oyster Company* historical marker, Hampton, Virginia. The Historical Marker Database (HMDB.org), marker #166500.
+
+- **Summary:** Virginia historical marker installed at the former J.S. Darling and Son plant site in Hampton. Documents the firm's role in the regional oyster industry, the production-scale operation at its peak, and the four-story oyster shell pile that became a regional landmark.
+- **Relevance:** Source for the L18 framing of Hampton's historical oyster-packing significance; cross-corroborates the Dictionary of Virginia Biography Frank Wilkinson Darling entry (below). HMDB.org was not directly retrievable via WebFetch during Pass 3.1 fact-check (HTTP 403); the chapter's framing was cross-verified against alternative sources (DVB; Site Selection Magazine). Pre-publication external verification recommended via Hampton History Museum or Hampton Public Library local-history reference desk per PPR-Ch3-D5.
+- **Status:** APPLIED at commit `84b22a7` + refined per Pass 3.1 F-FC5 disposition (the "world's largest" overclaim softened to "one of the largest oyster-packing operations in the country" per DVB framing) at commit `d182275`.
+- **Grounds:** L18 Hampton seafood-anchor paragraph — historical-significance framing; cross-corroboration for shell-mountain scale (four stories high).
+- **Available at:** https://www.hmdb.org/m.asp?m=166500
+
+#### *Crabtown* historical marker, Hampton, Virginia. The Historical Marker Database (HMDB.org), marker #166499.
+
+- **Summary:** Virginia historical marker documenting Hampton's nickname "Crabtown" and the crab-canning innovation that earned it. Frames the late-19th-century McMenamin canning process as the inflection point that made Hampton crabmeat a commodity shippable beyond the Bay region.
+- **Relevance:** Source for the L18 Crabtown nickname + McMenamin canning-process claims. The chapter's "1870s" framing for McMenamin's invention (per Pass 3.1 F-FC7 correction from the original "1879 vacuum-sealing process") is consistent with the marker's general date-range; the specific year remains pending external verification (USPTO patent records or Hampton History Museum archives) per PPR-Ch3-Stage4-3 follow-up.
+- **Status:** APPLIED at commit `84b22a7` + refined per Pass 3.1 F-FC7 disposition (the "1879 vacuum-sealing process" framing corrected to "In the 1870s, James McMenamin invented and patented a canning process... airtight tins") at commit `d182275`.
+- **Grounds:** L18 Hampton seafood-anchor paragraph — Crabtown nickname; McMenamin canning-process framing.
+- **Available at:** https://www.hmdb.org/m.asp?m=166499
+
+#### Encyclopedia Virginia. "Pile of Oyster Shells." Encyclopedia Virginia entry (image + caption).
+
+- **Summary:** Encyclopedia Virginia entry featuring the ca. 1900 Cheyne Studio photograph of the J.S. Darling & Son oyster shell mountains in Hampton. Brief caption documents the seafood plant visible at left, with a workboat in the foreground.
+- **Relevance:** Visual / photographic corroboration for the L18 shell-mountain claim (four stories high); the ca. 1900 dating aligns with the peak-operations era of J.S. Darling and Son per the Dictionary of Virginia Biography Frank Wilkinson Darling entry.
+- **Status:** APPLIED at commit `84b22a7`.
+- **Grounds:** L18 Hampton seafood-anchor paragraph — visual corroboration of shell-mountain scale.
+- **Available at:** https://encyclopediavirginia.org/oyster-shells/
+
+#### Wikipedia. "Factory Point, Virginia." Wikipedia entry.
+
+- **Summary:** Stub article documenting Factory Point as a land peninsula separating the Back River from the Chesapeake Bay in Hampton, Virginia. Notes the site as "once home to a bustling seaport and a center for shipbuilding in the 1800s." Documents the geographic coordinates (37°6′28.2″N 76°17′36.6″W). Notes that the site briefly became an island in 1998 (a connecting sand spit washed away) and was rebuilt + reconnected in spring 2010.
+- **Relevance:** Source for the chapter's "Factory Point in Fox Hill" geographic anchor at L18. Cite with stub-source caveat (the Wikipedia article is reliant on a single source); cross-corroborated by the menhaden-factory history surfaced via search-result aggregation (J.S. Darling acquired the 10-acre Factory Point parcel in 1878 by buying out an existing 10-year lease for $20/year; established menhaden processing facility operational by 1879).
+- **Status:** APPLIED at commit `84b22a7`.
+- **Grounds:** L18 Hampton seafood-anchor paragraph — Factory Point geographic anchor; menhaden-factory site context.
+- **Available at:** https://en.wikipedia.org/wiki/Factory_Point,_Virginia
+
+#### Graham & Rollins, Inc. "Virginia's Seafood History." Graham & Rollins blog post (The G&R Catch Blog).
+
+- **Summary:** Blog post on Virginia's seafood-industry history from the perspective of a contemporary Hampton-area seafood operator. Notes Virginia oysters as historically shipped as far as Europe by the late 1800s; documents the broader Virginia oyster industry as "one of the largest oyster industries in the world" by the late 1800s.
+- **Relevance:** Contemporary industry-side framing for the Hampton seafood-history register. Does not directly anchor a specific L18 fact; provides industry-context for the broader L18 framing.
+- **Status:** APPLIED at commit `84b22a7` (background source).
+- **Grounds:** L18 Hampton seafood-anchor paragraph — industry-context framing.
+- **Available at:** https://www.grahamandrollins.com/blogs/the-g-r-catch-blog/virginias-seafood-history
+
+#### Library of Virginia, Dictionary of Virginia Biography. "Darling, Frank Wilkinson (7 October 1865 – 1 February 1941)."
+
+- **Summary:** Biographical entry on Frank Wilkinson Darling, son of James Sands Darling and second-generation principal of the family seafood enterprise. Documents Frank's joining of his father's business in 1884 (the year the firm renamed to "J. S. Darling and Son"); the firm's status by 1900 as "often referred to as one of the largest oyster shippers in the country"; the peak production scale ("about 200,000 bushels, or about 5 million oysters"); the four-story oyster shell pile; the menhaden fish-oil factory the father operated; the National Geographic publication in June 1916 of a photograph of the oyster shell mountain.
+- **Relevance:** **LOAD-BEARING** for the L18 Hampton seafood-anchor paragraph. Primary source for the 1884 firm-renaming date (per Pass 3.1 F-FC8 correction from the original "began in 1882" framing); the "one of the largest oyster shippers in the country" framing (per Pass 3.1 F-FC5 correction from the original "world's largest" overclaim); the 200,000 bushels figure; the four-story shell-mountain figure; the National Geographic June 1916 photographic record. The Darling family's menhaden + oyster dual-industry framing is corroborated here.
+- **Status:** APPLIED at commit `84b22a7` + Pass 3.1 F-FC5 + F-FC8 dispositions applied 2026-05-25 at commit `d182275`.
+- **Grounds:** L18 Hampton seafood-anchor paragraph — J.S. Darling and Son firm-naming year (1884); "one of the largest oyster shippers in the country" framing; 200,000 bushels/year production; four-story shell-mountain figure; menhaden + oyster dual-industry connection; National Geographic June 1916 image citation.
+- **Available at:** https://old.lva.virginia.gov/public/dvb/bio.asp?b=Darling_Frank_Wilkinson
+
+#### *National Geographic Magazine,* June 1916 issue. Photograph of the J.S. Darling and Son oyster shell mountain, Hampton, Virginia.
+
+- **Summary:** National Geographic published a photograph of the four-story oyster shell mountain at the J.S. Darling and Son plant in Hampton in its June 1916 issue. The photograph was widely-cited at the time as visual documentation of the industrial scale of the Chesapeake oyster industry at its peak.
+- **Relevance:** Visual / archival corroboration for the L18 shell-mountain framing. Cited per the Dictionary of Virginia Biography Frank Wilkinson Darling entry (above); not directly retrieved from National Geographic archive during Pass 3.1 fact-check. Pre-publication archive verification recommended if Bluebook-style citation required.
+- **Status:** APPLIED at commit `84b22a7` (cited via DVB cross-reference; direct archival retrieval pending).
+- **Grounds:** L18 Hampton seafood-anchor paragraph — visual / archival corroboration of shell-mountain scale.
+- **Available at:** National Geographic archive (subscription); cited per Library of Virginia DVB Frank W. Darling entry.
+
+#### Bruns, Adam. "Food & Beverage Steeped in Hampton Roads." *Site Selection Magazine.*
+
+- **Summary:** Feature article on the Hampton Roads region's food-and-beverage industry, including a historical-anchor section documenting J.S. Darling & Sons Oyster Packers ("was founded in 1881 in Hampton"), McMenamin Crab Co. (James McMenamin's late-1870s canning patent), the "Crab Town" Hampton nickname, and other regional seafood-industry history.
+- **Relevance:** Contemporary industry-publication source for the L18 historical claims. Anchors the McMenamin "in the 1870s" canning-process framing per Pass 3.1 F-FC7 disposition; provides the J.S. Darling 1881 founding-date framing as one of three available dates (1878 menhaden-factory; 1881 oyster-operation; 1884 firm-renaming per DVB) — the chapter selected the 1884 firm-renaming date per Pass 3.1 F-FC8 Option A (most-accurate to named-source per DVB).
+- **Status:** APPLIED at commit `84b22a7` + Pass 3.1 F-FC7 + F-FC8 dispositions applied 2026-05-25 at commit `d182275`.
+- **Grounds:** L18 Hampton seafood-anchor paragraph — McMenamin 1870s canning-process framing; Hampton "Crab Town" nickname attribution; cross-corroboration for Darling-family-business dating.
+- **Available at:** https://siteselection.com/food-and-beverage-steeped-in-hampton-roads/
 
 ---
 
