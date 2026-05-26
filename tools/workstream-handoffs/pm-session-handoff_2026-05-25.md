@@ -146,6 +146,65 @@ Out of scope for this PM session pickup — see existing PM handoff 2026-05-24 f
 
 ---
 
+## 7.5 Cross-essay courtesy-notification audit (2026-05-25 one-shot + standing capability)
+
+### One-shot audit result (2026-05-25)
+
+Grepped all `publishing/essays/*/essay.md` for on-record-testimony attribution patterns (Executive Director / Director of / spokesperson / said in statement / told reporters / told legislature / in public testimony / in a press release / on-record interview / etc.).
+
+**Result: only the Noema essay contains on-record-testimony attributions requiring courtesy-notification per [`tools/memory/feedback_named_subject_consent.md`](../memory/feedback_named_subject_consent.md) public-record exception.**
+
+| Essay | On-record-testimony quotes? | Courtesy-notification required? |
+|---|---|---|
+| Noema | ✓ Allison Colden (CBF Maryland Executive Director; public testimony) + Chris Moore (CBF Virginia Executive Director; Virginia legislature testimony early 2026) — line 131 | **YES** — per Stage 5 §9 author-action list (already documented) |
+| Boston Review | ✗ none | no |
+| Aeon pitch | ✗ none | no |
+| $100 Barrel | ✗ none | no |
+| Atlantic Ideas | ✗ none | no |
+| Berggruen | ✗ (offline AI-free; out-of-scope at essay-pipeline level) | n/a |
+
+Other italicized quotes across the essays were classified as:
+- Published-work citations (book/paper references; e.g., Pistor, Pettit, Coates, Mazzucato) — public-record exception applies; no courtesy notification per discipline
+- Author memoir-content + remembered direct speech (e.g., father's *"the best part of any trip is the journey"*; sister's son's *"momma" / "Uncle Chris" / "Pou"*) — author's own family material
+- Italicized key terms (*"cost severance"*, *"value creation"*, *"value extraction"*)
+- Dramatized character quotes (free-market-economist's *"what about choice"*)
+- Aphoristic / literary-lineage citations (Dunbar's *"mask that grins and lies"*; Du Bois's veil) — published-work citations to deceased canonical figures; public-record exception applies
+
+**Plus deceased-subject courtesy-notify-family discipline (per same memory):**
+- Noema essay: Biggie (oysterman; deceased 30+ years) — courtesy-notify-surviving-family-if-reachable per Stage 5 §9 (already documented)
+
+### Net consolidated author actions across all essays
+
+| Action | Subject(s) | Essay | Source-discipline |
+|---|---|---|---|
+| Courtesy notification (citation-accuracy verification) | Allison Colden + Chris Moore | Noema | public-record exception (on-record testimony) |
+| Courtesy notification (family-if-reachable) | Biggie's surviving family | Noema | named-deceased default |
+| Consent-status check | Phat | Noema | named-living-pending-consent (anonymized as working-draft baseline 2026-05-20) |
+
+**One consolidated outreach to CBF communications coordinator covers both Colden + Moore notifications** (same institution; institutional comms channel; per `research/outreach/subjects/cbf/`).
+
+### Standing capability — fold into every PM session pickup
+
+**Capability:** on every PM session pickup, run the cross-essay courtesy-notification audit grep across all `publishing/essays/*/essay.md` files. Classify italicized quotes per the four buckets above (on-record testimony / published-work / memoir-content / key-terms-and-dramatized). For any new on-record-testimony attribution, add to per-essay Stage 5 §9 author-action list. For any subject cited across multiple essays, flag for consolidated outreach.
+
+**Trigger conditions for re-run:**
+- New essay drafted (Stage 2 complete) → audit it
+- Existing essay revised at Stage 3 (especially Pass 3.1 fact-check or Pass 3.5 restoration that adds new quoted material) → re-audit
+- New PM session pickup → quick verify (no new essays = no new audit needed)
+
+**Implementation pattern:**
+```bash
+for f in publishing/essays/*/essay.md; do
+  venue=$(basename $(dirname "$f"))
+  echo "--- $venue ---"
+  grep -nE "told (the |reporters|journalists)|in (public |on-record |signed )?testimony|press release|public testimony|Executive Director|Director of|Chair of|spokesperson|said in (a |an )?statement|written testimony|legislative testimony|Congressional testimony|in a published opinion|on-the-record" "$f"
+done
+```
+
+Audit time: ~5-15 minutes per PM session pickup (often zero new findings since most essays don't add on-record-testimony quotes during Stage 3 cycles).
+
+---
+
 ## 8. Other workstreams + standing capabilities
 
 ### Agent-search PM session — READY TO FIRE
