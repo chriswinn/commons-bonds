@@ -2,7 +2,7 @@
 
 **Workstream:** Ch 3 augmentation cascade — Stage 3 Pass 3.1 (fact-check; automatic-on-edit cascade per Amendment A; the Pass 3.2 voice-polish half completed 2026-05-25 at commit `84b22a7`).
 **Date drafted:** 2026-05-25
-**Status:** **PROPOSED.** Author ratification gates Phase C application per Amendment C (Interactive Ratification Protocol — prose-modifying passes ratify INTERACTIVELY: a follow-up session walks the author through each finding with Options + Recommendation + Reasoning + applies ratified spot-fixes to chapter source in the same combined session).
+**Status:** **RATIFIED + APPLIED 2026-05-25** (Phase C interactive ratification + application session per Amendment C). Author ratified ALL recommendations as-proposed in a single combined ratification session ("ratify all recommendations for Ch3 as proposed"); 13 spot-fixes applied to chapter source + 3 Stage 1 brief amendments propagated + 1 HIGH finding (F-FC10) confirmed PRESERVE-AS-IS. See §12 disposition log below.
 **Mode:** Stage 3 Pass 3.1 per the augmentation workstream (Stage 1 brief §6 canonical-facts inventory IS the canonical reference for the augmented voices, dates, statistics, quotes; for Hampton seafood-anchor paragraph added in F-V21, external authoritative sources are the reference since §6 did not yet carry those facts at the time the brief was written).
 **Source chapter:** [`manuscript/chapters/Chapter__3_TheWaterman.md`](../../manuscript/chapters/Chapter__3_TheWaterman.md) — 248 lines (post–F-V21 + Hampton-seafood-anchor; verified 2026-05-25 against `origin/main` at `84b22a7`).
 
@@ -694,4 +694,76 @@ Out-of-scope for this Pass 3.1 fact-check; surfaced for the bibliography workstr
 
 ---
 
-*End of Ch 3 Stage-3 Pass 3.1 (Fact-Check) rigor pass — PROPOSED 2026-05-25. Author ratification gates Phase C application per Amendment C. Four CRITICAL findings (F-FC1 through F-FC4) MUST be resolved before publisher submission. Six HIGH findings (F-FC5 through F-FC10) should be resolved; lighter MEDIUM + LOW set is author-discretionary. Bibliography scribe pass flagged at §9.5 as separate follow-up.*
+*End of Ch 3 Stage-3 Pass 3.1 (Fact-Check) rigor pass — RATIFIED + APPLIED 2026-05-25. All recommendations ratified as-proposed in a single combined Phase C session. Four CRITICAL + six HIGH + five MEDIUM findings dispositioned; one HIGH (F-FC10) PRESERVE-AS-IS; three LOW held-as-is per artifact recommendation. Stage 1 brief Tanya spelling + Petition 449 status propagated. Bibliography scribe pass flagged at §9.5 remains separate follow-up.*
+
+---
+
+## §12. Disposition log (2026-05-25 Phase C interactive ratification session)
+
+Per Amendment C (ratified 2026-05-19), prose-modifying passes ratify INTERACTIVELY: a follow-up session walks the author through each finding with Options + Recommendation + Reasoning + applies ratified spot-fixes to chapter source in the same combined session. Author ratified **all proposed recommendations** as a batch decision ("ratify all recommendations for Ch3 as proposed"). 13 spot-fixes applied to [`Chapter__3_TheWaterman.md`](../../manuscript/chapters/Chapter__3_TheWaterman.md) in the same commit that records this disposition log. Stage 1 brief amendments applied in the same commit.
+
+### Applied to chapter source (13 spot-fixes)
+
+| Finding | Severity | Option | Disposition |
+|---|---|---|---|
+| **F-FC1** | CRITICAL | Single-word replacement | Line 182 *"in **her** own words"* → *"in **his** own words"*. Cameron Evans gender pronoun corrected per Sherfinski 2022 source. |
+| **F-FC2** | CRITICAL | Option B | Line 123 *"The decision is pending."* → *"The commission voted six to two against the petition, and the moratorium did not move forward."* Names the denial outcome substantively; preserves the structural pivot into the "same shape coal had" close (the chapter's argument about regulatory asymmetry is strengthened by the denial, not weakened). |
+| **F-FC3** | CRITICAL | Single-word replacement | Line 123 *"**Tonya** O'Connor"* → *"**Tanya** O'Connor"*. Petitioner first-name spelling corrected per VMRC official records + multiple news sources. |
+| **F-FC4** | CRITICAL | Option A | Line 182 *"how are you going to save the East Coast**?**"* → *"how are you going to save the East Coast**...**"* Ellipsis marks the truncation of "if sea level rise has become a factor"; preserves the per-chapter Tangier-framing discipline (per Stage 1 brief §7 + GuidanceDoc §7) while honoring the verbatim-quote rigor. |
+| **F-FC5** | HIGH | Option A | Line 18 *"the **world's largest** oyster-packing operation"* → *"**one of the largest** oyster-packing operations **in the country**"*. Aligns with Dictionary of Virginia Biography ("one of the largest oyster shippers in the country"); resolves overclaim. |
+| **F-FC6** | HIGH | Option A | Line 162 Tilghman paragraph restructured: separates the Pat Whewell photo (2023 Broad Creek aboard Lonnie Gowe's boat) from the Chumley Fisher + Chet Schwartz photo (2026 Tilghman offloading). Resolves the photo-caption composition conflation. Net add: one sentence; both named-presence anchors preserved with their accurate context. |
+| **F-FC7** | HIGH | Option A | Line 18 *"An **1879 vacuum-sealing process** invented here put cooked Chesapeake crabmeat in tin..."* → *"**In the 1870s, James McMenamin invented and patented a canning process** that put cooked Chesapeake crabmeat in **airtight tins**..."* Year softened to "the 1870s" (sources support 1870s with crab-canning operational by 1880; specific 1879 year-stamp not directly verifiable); inventor named (James McMenamin; deceased 1901, historical-record subject — naming permitted without consent gate); technical-process language corrected from "vacuum-sealing" (technically inaccurate per sources) to "canning... airtight tins" (aligns with Site Selection Magazine + Living Places). |
+| **F-FC8** | HIGH | Option A | Line 18 *"J.S. Darling and Son **began in 1882**."* → *"**The firm of J.S. Darling and Son took that name in 1884, when Frank Darling joined his father's existing oyster business.**"* Aligns with Dictionary of Virginia Biography (firm renaming 1884); acknowledges pre-existing business; small substantive enhancement (father-son business relationship). |
+| **F-FC9** | HIGH | Option A | Line 156 *"losing about fifteen feet of shoreline a year to **sea-level rise and erosion**"* → *"losing about fifteen feet of shoreline a year to **erosion**"*. Aligns with per-chapter Tangier-framing discipline (per Stage 1 brief §7 + GuidanceDoc §7); enforces rather than relitigates the ratified discipline. |
+| **F-FC11** | MEDIUM | Option B | Line 85 *"Bill Goldsborough, **a fisheries scientist**"* → *"Bill Goldsborough, **the fisheries director**"*. Aligns with Smithsonian 2009 source attribution. |
+| **F-FC12** | MEDIUM | Option A | Line 115 *"**she has said**"* → *"**Colden has said**"*. Resolves antecedent-tracking imprecision (six paragraphs of intervening prose between line 99 Colden naming and line 115 attribution). Closes Pass 3.2 §7 carry-forward. |
+| **F-FC13** | MEDIUM | Option A | Line 18 *"It rendered thousands of tons of **fish** a year into **meal and oil for industrial uses**."* → *"It rendered thousands of tons of **menhaden** a year into **fish meal for fertilizer and oil for industrial uses**."* Aligns with sources (menhaden specifically; fertilizer + lubricants as the two output channels). |
+| **F-FC14** | MEDIUM | Option C | Line 22 *"My grandfather worked at NASA Langley, **twelve miles or so up the road**"* → *"My grandfather worked at NASA Langley, **just up the road**"*. Drops the specific-distance claim that would have invited Hampton-local-reader challenge; preserves geographic-proximity sense. |
+
+### Held — verified or PRESERVE-AS-IS per artifact recommendation
+
+| Finding | Severity | Reason |
+|---|---|---|
+| **F-FC10** | HIGH | PRESERVE-AS-IS. Pass 3.2 already stripped the italics; Pass 3.1 verified the four sentences are NOT recoverable as named verbatim from the source corpus; current post-strip prose is defensible as memoir-essay narrator paraphrase. No chapter edit needed. Closes Pass 3.2 §7 carry-forward. |
+| **F-FC15** | MEDIUM | Bay menhaden cap 2006/2017 history — verified accurate; no fix needed. Closes Pass 3.2 §7 carry-forward. |
+| **F-FC16** | LOW | Hudgins quote-sequence ordering — verified verbatim. |
+| **F-FC17** | LOW | Hampton Roads tech corridor — held as defensible memoir-register vernacular. |
+| **F-FC18** | LOW | Eskridge "more than fifty years" — verified accurate. |
+
+### Stage 1 brief amendments applied (3 propagations)
+
+| Brief section | Change |
+|---|---|
+| Multiple instances (§§1 + 3 + 4.L4 + 6.1 + 6.4) | "Tonya O'Connor" → "Tanya O'Connor" via `replace_all`. 8 instances total. |
+| §6.3 (VMRC Petition 449 decision row) | "Pending as of 2026-05-20" → audit-trail entry naming the 6-2 denial on 2026-04-21 (formal action 2026-04-30); acknowledges the brief itself was stale at the moment of writing. |
+
+### Pass 3.2 §7 carry-forwards — all closed
+
+| Pass 3.2 §7 item | Pass 3.1 disposition (this session) |
+|---|---|
+| Line 99 italic composite-voice attribution | Verified NOT-recoverable as named verbatim; PRESERVE-AS-IS post-Pass-3.2 italics-strip (F-FC10). ✓ CLOSED. |
+| Line 111 "she has said" antecedent-tracking | Re-named Colden at line 115 (F-FC12 Option A applied). ✓ CLOSED. |
+| Line 152 Tangier sea-level-rise framing | Dropped "sea-level rise and" at line 156 per per-chapter discipline (F-FC9 Option A applied). ✓ CLOSED. |
+| Line 111 Bay menhaden cap establishment date | Verified accurate (2006 establishment + 2017 reduction); no edit needed (F-FC15). ✓ CLOSED. |
+
+### Phase C application
+
+13 chapter edits + 3 Stage 1 brief amendments + this disposition-log update applied to repo in the same commit. Chapter line count grows by 1 line (F-FC6 Tilghman paragraph restructure adding one sentence).
+
+### Bibliography scribe pass — remains separate follow-up
+
+Per §7.1 + §9.5 above, the 8 Hampton-history sources (HMDB markers, DVB Frank W. Darling, Encyclopedia VA, Wikipedia Factory Point, Graham & Rollins, National Geographic 1916, Site Selection Magazine) still need to be added to [`manuscript/bibliography.md`](../../manuscript/bibliography.md) §19. Out-of-scope for this Phase C application session.
+
+### Pass 3.3 / 3.4 / 3.5 / Stage 4 / Stage 5 readiness
+
+Per Amendment A two-class cascade: Pass 3.3 / 3.4 / 3.5 + Stage 4 + Stage 5 are explicit-gate; do NOT fire as automatic follow-on. Per change-cascade routing in v3.1 doctrine: "Spot-fix applied → Stage 1c (light) → Pass 3.3 (light) re-fire." A light Pass 3.3 re-fire is recommended at the author's discretion, particularly to pressure-test the F-FC9 Tangier-framing-discipline enforcement + the F-FC2 Petition-449-denial substantive shift against the acceptance-test character set. Not gating; author trigger.
+
+### Automatic-on-edit cascade for Ch 3 — CLOSED
+
+With Pass 3.1 RATIFIED + APPLIED, the Amendment A automatic-on-edit cascade for Ch 3 is fully closed:
+
+- Stage 1c-light cross-artifact coherence: VERIFIED per Stage 1 brief §9 (no new chapter-cascade required from these spot-fixes).
+- Pass 3.1 fact-check: RATIFIED + APPLIED 2026-05-25 (this commit).
+- Pass 3.2 voice-polish: RATIFIED + APPLIED 2026-05-21 (commit `589ca05`) + 2026-05-25 (commit `84b22a7` F-V21).
+
+Ch 3 is now publisher-fact-check-ready per Pass 3.1 verdict. The remaining gating items before publisher submission are the explicit-gate cascade (Pass 3.3 acceptance + Pass 3.4 robustness + Pass 3.5 developmental-edit + Stage 4 render + Stage 5 sign-off + pre-publication review queue) which fire on author trigger.

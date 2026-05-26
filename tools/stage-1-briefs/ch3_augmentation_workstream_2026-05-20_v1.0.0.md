@@ -123,7 +123,7 @@ augmentation cleanly.
 |---|---|---|
 | 1 | **CBF Maryland communications team (Val DiMarzio)** | Non-economist; environmental-nonprofit comms career. Likely will read the chapter pre-publication if/when CBF gateway opens further. Wants comprehension she can carry to Colden. Reads for: voice-attribution accuracy, framing fairness, no overclaim. What lands: Colden quoted exactly as published; Tarnowski's 12-word thesis preserved verbatim. What alienates: paraphrasing-as-quote; misattribution; framing CBF as villain or hero. |
 | 2 | **David Sherfinski (CBF VA communications; ex-Reuters Foundation journalist)** | Multi-year political + climate reporter; wrote the 2022 Tangier piece this brief draws on. Reads for: journalism standards — proper attribution, verbatim quotes, source-of-record citation, no over-extension. What lands: Eskridge / Pruitt / Evans quotes attributed to his 2022 piece by name + URL; courtesy-notify discipline acknowledged. What alienates: paraphrasing his subjects' words; weaponizing the quotes against the subjects' stated positions. |
-| 3 | **Tonya O'Connor (VMRC Petition 449 petitioner; non-affiliated VA resident)** | Filed the 349-page petition demanding moratorium until VMRC produces Bay-specific menhaden science; her petition is named-quoted public-record material. Reads for: accurate representation of the petition's central finding; correct citation of public-trust doctrine grounding; no distortion of her ask. What lands: the petition's "no Bay-wide estimate" finding quoted verbatim; the 1,266-comments figure cited; hearing date accurate. What alienates: framing her as a hero-of-the-story; misstating the petition's legal grounding. |
+| 3 | **Tanya O'Connor (VMRC Petition 449 petitioner; non-affiliated VA resident)** | Filed the 349-page petition demanding moratorium until VMRC produces Bay-specific menhaden science; her petition is named-quoted public-record material. Reads for: accurate representation of the petition's central finding; correct citation of public-trust doctrine grounding; no distortion of her ask. What lands: the petition's "no Bay-wide estimate" finding quoted verbatim; the 1,266-comments figure cited; hearing date accurate. What alienates: framing her as a hero-of-the-story; misstating the petition's legal grounding. |
 | 4 | **J.C. Hudgins (President, VA Watermen's Association; Piankatank River waterman)** | The kitchen-table-economics voice in Maryland Matters Apr 2026. The $150/day quote is the public record of his daily margins. Reads for: that his words appear exactly as he gave them to the reporter; that the Piankatank River geography is correctly named; that he's not being made a spokesperson for a position he didn't take. What lands: $150/day + "pretty expensive eating" quotes preserved verbatim; institutional role (President, VWA) attributed. What alienates: paraphrasing the $150 line; using his words for arguments he didn't make. |
 
 ### Tier 2 — pipeline-strengthening
@@ -203,7 +203,7 @@ completeness, the chapter sits inside:
   + **The Banner** (Willis, May 2026) — current 2026 reporting
   layer. Hudgins, Brown Sr., Harrison, Tarnowski, Scheld, Ruth,
   Andy Harris (R-MD) named voices.
-- **Tonya O'Connor — VMRC Petition 449** (filed 2025-12-31) — the
+- **Tanya O'Connor — VMRC Petition 449** (filed 2025-12-31) — the
   regulatory-record layer. 349-page filing; 1,266 public comments;
   hearing 2026-04-21; decision pending. Public-trust doctrine
   grounding cites *Commonwealth v. City of Newport News*, 158 Va.
@@ -312,11 +312,11 @@ all 11 named voices explicitly.
 - **Render-safe convention:** Standard ASCII; no special
   characters.
 
-### §4.L4 — Tonya O'Connor / VMRC Petition 449 (regulatory-record voice)
+### §4.L4 — Tanya O'Connor / VMRC Petition 449 (regulatory-record voice)
 
-- **Anchor voice:** Tonya O'Connor (Virginia resident; petitioner;
+- **Anchor voice:** Tanya O'Connor (Virginia resident; petitioner;
   filed VMRC Petition 449 on 2025-12-31).
-- **Canonical source:** O'Connor, Tonya. *Petition for Rulemaking
+- **Canonical source:** O'Connor, Tanya. *Petition for Rulemaking
   to Establish a Temporary Moratorium on Chesapeake Bay Menhaden
   Reduction Fishing.* Virginia Marine Resources Commission,
   filed 2025-12-31 (Petition 449; hearing 2026-04-21; 1,266 public
@@ -592,7 +592,7 @@ specificity. Reading the proposal's map row-by-row:
 |---|---|
 | 1. J.C. Hudgins | §4.L1 |
 | 2. Mitch Tarnowski | §4.L2 |
-| 3. Tonya O'Connor / Petition 449 | §4.L4 |
+| 3. Tanya O'Connor / Petition 449 | §4.L4 |
 | 4. Genny Nesslage + Rob Latour | §4.L5 + §4.L6 |
 | 5. Cameron Evans | §4.L7 |
 | 6. Cook Cannon | §4.L8 |
@@ -670,7 +670,7 @@ articles.
 | **J.C. Hudgins** | President, Virginia Watermen's Association; works Piankatank River | "J.C. Hudgins, who runs the Virginia Watermen's Association and works the Piankatank River" |
 | **Mitch Tarnowski** | MD DNR oyster reef survey leader | "Mitch Tarnowski, who leads Maryland's Department of Natural Resources oyster reef surveys" |
 | **Jason Ruth** | Owner, Harris Seafood Co., Grasonville, MD | "Jason Ruth, who owns Harris Seafood Co., a Grasonville, Maryland oyster processor" |
-| **Tonya O'Connor** | VA resident; petitioner; filed VMRC Petition 449 | "Tonya O'Connor, a Virginia resident who filed a petition with the Virginia Marine Resources Commission on December 31, 2025" |
+| **Tanya O'Connor** | VA resident; petitioner; filed VMRC Petition 449 | "Tanya O'Connor, a Virginia resident who filed a petition with the Virginia Marine Resources Commission on December 31, 2025" |
 | **Genny Nesslage** | Associate research professor, UMD Center for Environmental Science | "Genny Nesslage, an associate research professor at the University of Maryland Center for Environmental Science" |
 | **Rob Latour** | Professor, William & Mary's Batten School + VIMS | "Rob Latour, a Virginia Institute of Marine Science menhaden researcher" |
 | **Cameron Evans** | Tangier native; Virginia Wesleyan student (at time of 2022 source) | "Cameron Evans, a Tangier native then studying at Virginia Wesleyan" |
@@ -698,7 +698,7 @@ has two), but Stage 2 may not re-word any selected quote.
 | **VMRC Petition 449 page count** | 349 pages | O'Connor petition |
 | **VMRC Petition 449 public comments** | 1,266 | O'Connor petition; CBF live-call-companion |
 | **VMRC Petition 449 hearing date** | 2026-04-21 | O'Connor petition |
-| **VMRC Petition 449 decision** | Pending as of 2026-05-20 | Verify-stale-claims discipline: confirm before submission |
+| **VMRC Petition 449 decision** | DENIED 6-2 at the 2026-04-21 hearing (formal action recorded 2026-04-30). **Correction landed 2026-05-25** via Ch 3 Pass 3.1 fact-check ratification; the original "Pending as of 2026-05-20" entry was stale at the moment of writing (the brief was written 2026-05-20; the decision was 2026-04-21). | Source: VMRC Town Hall Petition 449 record + multiple news sources (WVTF; National Fisherman; CitizenPortal.ai). |
 | **Maryland young-of-year rockfish 2024 index** | 2.0 fish per sample (vs. 11.0 long-term average) | Ch 3 v1 line 71 — preserved unchanged |
 | **Bay-wide blue crab population 2025 winter dredge survey** | ~238M crabs; second-lowest since 1990 | Ch 3 v1 line 91 — preserved unchanged |
 | **Maryland oyster population growth since 2005** | Roughly tripled | Ch 3 v1 line 170 — preserved unchanged |
@@ -730,7 +730,7 @@ canonical date.
 | **Maryland Matters / Bay Journal Apr 2026** | Timothy Wheeler + Jeremy Cox, *"Amid oyster bounty, Chesapeake Bay watermen suffer dismal harvest,"* Maryland Matters / Bay Journal, 2026-04-27 | https://southernmarylandchronicle.com/2026/04/27/amid-oyster-bounty-chesapeake-bay-watermen-suffer-dismal-harvest-2/ |
 | **The Banner May 2026** | Adam Willis, *"Chesapeake blue crabs are disappearing. The reason remains a mystery,"* The Banner, 2026-05-12 | https://www.thebanner.com/community/climate-environment/chesapeake-bay-blue-crab-decline-E5CV5LURHNB23JLFNK4ZQTHCGE/ |
 | **WHRO Oct 2025 (Hafner)** | Katherine Hafner, *"Menhaden board cuts amount harvesters can catch along the Atlantic next year,"* WHRO, 2025-10-29 | https://www.whro.org/environment/2025-10-29/menhaden-board-cuts-amount-harvesters-can-catch-along-the-atlantic-next-year |
-| **O'Connor / VMRC Petition 449** | Tonya O'Connor, *Petition for Rulemaking to Establish a Temporary Moratorium on Chesapeake Bay Menhaden Reduction Fishing,* filed with VMRC, 2025-12-31 | https://mrc.virginia.gov/Notices/2026/Menhaden-Moratorium-Petition.pdf |
+| **O'Connor / VMRC Petition 449** | Tanya O'Connor, *Petition for Rulemaking to Establish a Temporary Moratorium on Chesapeake Bay Menhaden Reduction Fishing,* filed with VMRC, 2025-12-31 | https://mrc.virginia.gov/Notices/2026/Menhaden-Moratorium-Petition.pdf |
 | **Bay Journal / Winegrad 2024** | Gerald Winegrad, *"Chesapeake restoration collapsing on altar of political expediency,"* Bay Journal, 2024-10-04 | https://www.bayjournal.com/opinion/forum/chesapeake-restoration-collapsing-on-altar-of-political-expediency/article_c10b6860-8193-11ef-860c-dfacdaaaa228.html |
 | **Bitter Southerner (Meinhardt)** | Mickie Meinhardt, *"Chronicling The End Times on Tangier Island,"* The Bitter Southerner | https://bittersoutherner.com/chronicling-the-end-times-on-tangier-island |
 | **Undark book review (Unger)** | David J. Unger, book review of *Chesapeake Requiem*, Undark, 2018-08-31 | https://undark.org/2018/08/31/book-review-swift-chesapeake-requiem/ |
