@@ -449,7 +449,15 @@ The following audience-load observations surfaced during Pass 1 and should be ca
    - Whether the cross-cut figure enumeration (Ch 10:25, 117) lands as solidaristic or as flattening lived particularity;
    - Whether the "miner and the waterman... would, if you put them in a room together, struggle to find a common subject, and if they did find one they might well argue" framing (Ch 10:23) lands as honest political-economy observation or as a center-left author projecting onto right-coded subjects.
 4. **Indigenous-rights / Lakota-policy reader: does the Black Hills section meet the load it carries?** The section explicitly names the author's incomplete engagement ("A settler author writing about indigenous dispossession carries responsibilities I am still learning how to carry" Ch 10:75) and offers a reading-list recommendation. Pass 3 should test whether this acknowledgment lands as appropriate humility or as insufficient. The MEDIUM-1 compensation-amount finding may interact with this audience's reading.
-5. **Author's-conservative-friends-of-parents reader (Ch 10:91 explicit address).** The chapter explicitly addresses this reader; Pass 3 should test whether the closing-chapter framing of "this book is not an argument for capitalism. It is not an argument against it" (Ch 10:87) lands as bridge-building or as triangulation. Couple to the chapter's left-critic engagement (Ch 10:83–91).
+5. **Pass 3.3 — Author's-parents'-conservative-friends reader (Ch 10:92 explicit address).** Acceptance test: does the closing-chapter framing of "this book is not an argument for capitalism. It is not an argument against it" (Ch 10:88) land as bridge-building or as triangulation? Per-character INCLUDE / EXCLUDE verdict.
+
+6. **Pass 3.4 — Hard-left ideological-accommodation critic (Ch 10:82–92 explicit address).** Adversarial robustness test: does the chapter's left-critic engagement passage survive thread-pull from a critic who reads it as reformist-evasion / capitalism-will-swallow-it? Specific thread-pull vectors Pass 3.4 should test against:
+   - **(a) ESG-laundering vector** — the framework can be adopted by a carbon-neutral multinational and used to justify continued extraction at a slightly slower rate; "ESG slogan on a quarterly report" (the chapter explicitly anticipates this at Ch 10:86 — Pass 3.4 tests whether the anticipation lands or whether the hard-left reader walks away unconvinced)
+   - **(b) "Honest measurement as concessional precondition" vector** — the framework asks for honest accounting as the prior question; the critic reads "measure honestly" as a system-accepted precondition that does not deliver structural change (the chapter explicitly anticipates this at Ch 10:88–90 — "I am not, in this book, proposing the answer to the deeper question about what kind of economy we should have")
+   - **(c) "Coalition without political vehicle" vector** — the framework's class-position synthesis (miner + waterman + Baotou worker + Niger Delta fisherman + Texas Panhandle farmer at Ch 10:26; "the same class of person" framing at Ch 10:118) gestures at coalition without naming the political vehicle that would deliver it
+   - **(d) "Mechanism-not-system" vector** — the chapter's framing-positioning passage (Ch 10:88, "a state-owned mine that severs costs is still severing costs… A worker cooperative that severs costs is still severing costs") may read as deflecting from political-economy analysis by reducing capitalism, socialism, and feudalism to instances of the same mechanism — a flattening the hard-left reader will resist
+
+   Pass 3.4 verdict is **thread-pull synthesis**, not per-character INCLUDE / EXCLUDE. The question is whether the chapter holds across the four vectors as a coherent whole, not whether one specific hard-left character accepts the chapter. The chapter explicitly anticipates the critic at Ch 10:82 ("the people who make it are not wrong about what they see") and at Ch 10:84 ("I want to say, plainly, that I have thought about this objection"); Pass 3.4 tests whether the anticipation does enough work or whether the chapter needs additional robustness moves.
 
 ---
 
@@ -506,7 +514,7 @@ Pass 2 (Voice-polish) + Pass 3 (Audience-load) still required for full Phase A c
 
 ---
 
-## Ratification record (open; updated 2026-05-21)
+## Ratification record (CLOSED 2026-05-23)
 
 Per-finding ratifications + applied edits, recorded as they close. Updated incrementally as the in-session conversation works through each open item.
 
@@ -562,16 +570,55 @@ Per-finding ratifications + applied edits, recorded as they close. Updated incre
 
 ---
 
-### Open items pending ratification (as of 2026-05-23)
+### Ch 10:22 "roughly my age" — RATIFIED leave-alone 2026-05-23
 
-**Inventory housekeeping (deferred to next inventory revision):**
-- **L-2** (chapter-end-marker inventory drift) — Remove the stale "Ch 10 uses 'End of Chapter 10' without em-dashes" claim from `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:206` at next inventory revision. Chapter is correct; inventory needs the update.
-- **L-3** (Lakota row inventory line-cite) — Update `tools/audits/cross-chapter-consistency-inventory_2026-05-11.md:113` Lakota row: line cite "Ch 10 line 69" → current "Ch 10 line 72"; canonical dollar figure ">$2 billion" → ">$1.5 billion" (matches the M-1 ratified hedge); refused-duration "45 years" → "more than four decades" (matches L-1). All inventory housekeeping; couple to next inventory-revision pass.
+**Author ratification:** Leave alone. First-person memoir register is by convention present-tense at writing; the author-self-reference doesn't need to be temporally durable in the way the Lakota refusal duration does (which is the externally-anchored claim L-1 addressed). No edit applied.
 
-**Voice-polish bundle (deferred to Pass 2):**
-- **M-2** (wife near-death) — Author flagged for prose review (clunky/flat paragraph); accuracy confirmation also pending. Deferred to Pass 2 voice-polish bundle where the rewrite can be done as one move with the surrounding paragraph.
-- **M-3** (four-industry career list) — Same paragraph (Ch 10:16); same Pass 2 bundle.
-- **L-4** (nursing-student framing) — Same: prose review + accuracy confirmation. Pass 2 bundle.
+---
 
-**Open conversation items (this session):**
-- **Ch 10:22 "roughly my age"** — Open question: flag as LOW-5 (temporal-currency principle applied to author's own age — even more brittle than L-1's "forty-five years" since it shifts every year of the author's life), defer to Pass 2, or leave alone. **Awaiting author response.**
+### §7 Pass-3 update — Pass 3.3 / Pass 3.4 split ratified 2026-05-23
+
+Author flagged that Pass 3.4 robustness needs explicit pressure-testing of the hard-left ideological-accommodation thread at the closing-reflection register. Original §7 item 5 bundled the conservative-friends acceptance thread (Pass 3.3) with the left-critic engagement (which is Pass 3.4 territory). Split into two items: Pass 3.3 acceptance test (conservative-friends reader) + Pass 3.4 adversarial robustness test (hard-left critic) with four specific thread-pull vectors (ESG-laundering / honest-measurement-as-precondition / coalition-without-political-vehicle / mechanism-not-system) for Pass 3.4 to test against. See §7 items 5 + 6 (updated).
+
+---
+
+## Pass 1 closeout (2026-05-23)
+
+**Pass 1 (fact-check) for Chapter 10 — CLOSED.**
+
+### Final findings disposition
+
+| Finding | Severity | Disposition | Status |
+|---|---|---|---|
+| M-1 | MEDIUM | Phase C applied 2026-05-23 (hedge to "more than one and a half billion") | ✅ CLOSED |
+| M-2 | MEDIUM | Routed to Pass 2 voice-polish bundle (wife-fact-correction captured as canonical input; preferred wording under active discussion — author's instinct landed on "I had almost lost my wife on an operating table when her heart briefly stopped"; final wording deferred to Pass 2 + alt-draft comparative audit) | 📋 PASS 2 INPUT |
+| M-3 | MEDIUM | Routed to Pass 2 voice-polish bundle (four-industry list accuracy unconfirmed; default to illustrative per Stage 1 brief; Pass 2 + alt-draft handle restructure of the Ch 10:16 paragraph) | 📋 PASS 2 INPUT |
+| M-4 | MEDIUM | Phase C applied 2026-05-21 (grandfather-as-model-maker sweep across Ch 10:38, Ch 10:40, Ch 1:30, AuthorsNote:11; canonical phrase "work he was proud of") | ✅ CLOSED |
+| M-5 | MEDIUM | Phase C applied 2026-05-23 (combined sub-cases framing at Ch 10:32; "the routinized acceptance of cost-bearing as the 'cost of doing business,' or" added before the racialized-othering framing) | ✅ CLOSED |
+| L-1 | LOW | Phase C applied 2026-05-23 ("forty-five years and counting" → "for more than four decades and counting"; couple to M-1) | ✅ CLOSED |
+| L-2 | LOW | Inventory housekeeping; deferred to next consistency-inventory revision | 📋 INVENTORY |
+| L-3 | LOW | Inventory housekeeping; deferred to next consistency-inventory revision (couples to M-1 figure update) | 📋 INVENTORY |
+| L-4 | LOW | Routed to Pass 2 voice-polish bundle (nursing-student framing accuracy unconfirmed; "in whatever capacity I currently hold there" hedge flagged as clunky) | 📋 PASS 2 INPUT |
+| Ch 10:22 "roughly my age" | (would have been LOW-5) | Author-ratified leave-alone — first-person memoir register exception to temporal-currency discipline | ✅ CLOSED |
+
+### Pass 1 closeout tally
+
+- **5 of 5 MEDIUM findings closed in Pass 1 cycle:** M-1, M-4, M-5 applied via Phase C 2026-05-21 + 2026-05-23; M-2, M-3 routed forward to Pass 2 voice-polish bundle with wife-fact correction captured + paragraph-restructure planning captured.
+- **2 of 4 LOW findings closed in Pass 1 cycle:** L-1 applied; Ch 10:22 ratified leave-alone. L-2 + L-3 deferred to next inventory revision (pure housekeeping; do not gate Pass 1 closure). L-4 routed forward to Pass 2.
+- **No regressions detected.** Cross-chapter coherence verified post-application: Ch 1 / AuthorsNote / Ch 10 grandfather-passage corpus consistency maintained; Ch 7 / Ch 10 six-pattern enumeration now maps one-to-one.
+
+### Routes forward
+
+**Pass 2 voice-polish session (next):** the canonical inputs include M-2 + M-3 + L-4 + the sentence-length + everyday-phrasing discipline + the wife-fact correction. The Stage 1 brief for the alt-draft session captures these as authoritative ground-truth for the alternative chapter; Pass 2 should also fire as a dedicated session against the existing Ch 10 prose.
+
+**Alt-draft session (parallel):** Stage 1 brief generated; ready to fire as a separate session. Output to `Chapter_10_CommonBonds_ALT_<harness-id>.md`. Comparative audit pattern at Stage 3.
+
+**Inventory revision:** L-2 + L-3 to fold into next consistency-inventory pass (one commit; not session-gating).
+
+### Aggregate Pass-1 verdict (final)
+
+**PASS 1 COMPLETE.** Original verdict (READY AFTER SPOT-FIXES) satisfied. All ratified Pass-1 spot-fixes applied 2026-05-21 + 2026-05-23. Voice-polish concerns (M-2, M-3, L-4) routed forward to Pass 2 as designed; Pass 1 (fact-check) was not the diagnostic for those concerns. Pass 1 cycle for Chapter 10 closes.
+
+---
+
+*End of Ratification record.*
