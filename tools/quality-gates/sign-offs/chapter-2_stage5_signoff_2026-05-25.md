@@ -1,7 +1,7 @@
 # Commons Bonds — Ch 2 *The Miner* — Stage 5 Bookend Pre-Submission Sign-Off + Pre-Publication Review Queue
 
 **Date drafted:** 2026-05-25
-**Status:** **PROPOSED** — pending author ratification.
+**Status:** **RATIFIED 2026-05-25** — author ratified Stage 4 render-audit (completed offline per 2026-05-25 instruction) + Stage 5 sign-off as-recommended. Final aggregate verdict elevated from "READY AFTER STAGE 4 RENDER-AUDIT" to **READY-TO-SUBMIT** (matching $100 Barrel essay Stage 5 + Ch 6 chapter-class Stage 5 precedents).
 **Stage:** Stage 5 bookend pre-submission sign-off + pre-publication review queue per v3.1 (Amendment B 5-pass + Amendment A two-class cascade) doctrine. The symmetric pair to the Stage 1 ready-to-draft ratification gate. Stage 5 fires explicit-gate at pre-submission per Amendment A.
 **Workstream context:** Ch 2 is the **sixth artifact** in the corpus to fire Stage 5 and the **third book-chapter** to do so per the Ch 6 Stage 5 artifact's inclusive book-chapter convention (TA + Ch 6 + Ch 2). Prior Stage 5 sign-offs (chronological): Technical Appendix RATIFIED 2026-05-20 (commit `2d01407`; paratext-class); Boston Review essay RATIFIED 2026-05-23 (commit `d34214d`; essay-class); Noema essay RATIFIED 2026-05-24 (commit `8191004`; essay-class); $100 Barrel essay RATIFIED 2026-05-24 (commit `0266525`; essay-class); **Ch 6 (Three Ways of Counting) RATIFIED 2026-05-25 (commit `533f4f6`; chapter-class — the immediate chapter precedent)**. The chapter-class adapts the essay-class structure for full-chapter scope: longer audience-load set (20-character acceptance + 8-character adversarial vs the essays' 16–18 + 5); cross-chapter forward-flag inventory replacing the cascade-plan slot positioning; pre-publication review queue artifact load-bearing (per parent doctrine §3.6, the essay-class deferred this artifact to the book-submission workstream — Ch 6 began that workstream chapter-side; Ch 2 continues it). **Format precedents mirrored:** Ch 6 Stage 5 (`tools/quality-gates/sign-offs/ch6_stage5_signoff_2026-05-25.md`) as the canonical chapter-class structural template + Stage-4-author-managed-offline pattern; $100 Barrel Stage 5 (post-reorg path `publishing/essays/100-barrel/stage-5-signoff.md`) as the most-recent Pass-3.4-and-Pass-3.5-included essay precedent; BR essay Stage 5 (post-reorg path `publishing/essays/boston-review-accountability-gap/stage-5-signoff.md`) as the canonical first essay-class structural template. (Essay Stage 5 sign-offs relocated from `tools/quality-gates/sign-offs/` to `publishing/essays/<essay>/stage-5-signoff.md` per Publishing-pipeline reorg Session 2 commit `52fde31` 2026-05-25; TA + Ch 6 + this Ch 2 chapter-class Stage 5 remain in `tools/quality-gates/sign-offs/` per paratext / chapter convention pending future chapter-class reorg.)
 
@@ -541,3 +541,51 @@ Awaiting author ratification of:
 ---
 
 *End of Stage 5 bookend pre-submission sign-off + pre-publication review queue artifact for Ch 2 (The Miner) — PROPOSED 2026-05-25. Per CLAUDE.md rigor-pass-artifact merge-to-main default, this sign-off autonomously fast-forwards to main at session close. Author ratification of READY AFTER STAGE 4 RENDER-AUDIT verdict gates: (a) author-offline Stage 4 rendering review; (b) courtesy-notify pipeline activation pre-publication; (c) endnote-finalization sweep; (d) Wave 1 sample-chapter cascade activation per cascade-plan late-July / early-August 2026 target. Sixth Stage 5 firing corpus-wide (TA + 3 essays + Ch 6 preceded); third book-chapter Stage 5 firing per Ch 6's inclusive convention; canonical chapter-class structural template inherited from Ch 6 Stage 5 (`533f4f6` 2026-05-25).*
+
+---
+
+## Ratification — 2026-05-25
+
+Author ratified both Stage 4 and Stage 5 as-recommended 2026-05-25.
+
+### Stage 4 — RATIFIED
+
+**Stage 4 render-audit:** COMPLETED OFFLINE by author 2026-05-25 per author-managed-offline disposition (originally set on commit `9bddbd2` 2026-05-24). Render pipeline session executed by author; no agent involvement. **Verdict: CLEAN.** Aggregate Stage 4 carries forward into Stage 5 sign-off.
+
+### Stage 5 — RATIFIED
+
+All §1-§8 dispositions ratified as written:
+- Academic-rigor sign-off: PASS (16 ✅ + 6 ⚠ + 8 🔍)
+- Prose-quality sign-off: PASS (apparatus / consent / Path B / scaffolding CLEAN)
+- Pre-publication review queue artifact: GENERATED + ready for publisher-submission packet
+- 3 author-revisit items deferred (F-DE-Ch2-3 + F-DE-Ch2-8 + F-DE-Ch2-9; non-blocking)
+- Cross-chapter forward-flags recorded (T4 → Ch 7; T6 → Ch 8; T5+T8 → Stage 1c conditional)
+
+### Final aggregate verdict — **READY-TO-SUBMIT**
+
+Verdict elevated from PROPOSED "READY AFTER STAGE 4 RENDER-AUDIT" to RATIFIED **READY-TO-SUBMIT** following Stage 4 author-offline completion + ratification. Matches $100 Barrel essay Stage 5 (`0266525` 2026-05-24) + Ch 6 chapter-class Stage 5 (`533f4f6` 2026-05-25) READY-TO-SUBMIT precedent.
+
+### Pre-publication gate items (carry forward; not blocking Stage 5)
+
+- Courtesy-notify pipeline (Bailey + Yablonski required; Latusek living-status verify; Lilly + Hamby courtesy-email)
+- Endnote / citation-finalization sweep (whole-manuscript scope)
+- 3 author-revisit items (author cadence)
+- Wave 1 sample-chapter cascade activation per cascade-plan late-July / early-August 2026 target
+
+### Ch 2 explicit-gate cascade — CLOSED
+
+| Pass / Stage | Status |
+|---|---|
+| Pass 3.1 fact-check | ✅ APPLIED |
+| Pass 3.2 voice-polish | ✅ APPLIED |
+| Pass 3.3 acceptance | ✅ RATIFIED (×3) |
+| Pass 3.4 robustness | ✅ RATIFIED |
+| Pass 3.5 dev-edit | ✅ RATIFIED + Phase C-ζ APPLIED |
+| **Stage 4 render-audit** | ✅ **RATIFIED 2026-05-25 (author-offline complete)** |
+| **Stage 5 bookend sign-off** | ✅ **RATIFIED 2026-05-25 (READY-TO-SUBMIT)** |
+
+Ch 2 is publication-ready. Awaits pre-publication gate items (above) + Wave 1 cascade activation.
+
+---
+
+*Ratification rev. 2026-05-25. Stage 4 + Stage 5 both RATIFIED; aggregate READY-TO-SUBMIT. Ch 2's full 5-pass explicit-gate cascade + Stage 4 + Stage 5 are CLOSED. First chapter to reach READY-TO-SUBMIT under chapter-class Stage 5 convention (Ch 6 fired first 2026-05-25 but per Ch 6 artifact framing TA was 2026-05-20 "first book-chapter"; under that inclusive convention Ch 2 is third book-chapter).*
