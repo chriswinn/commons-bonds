@@ -1,7 +1,8 @@
-# Stage-3 Rigor Pass — Ch 2 *The Miner* → Harper's Magazine essay — Pass 3.3: Audience-load acceptance [PROPOSED + DEFERRED]
+# Stage-3 Rigor Pass — Ch 2 *The Miner* → Harper's Magazine essay — Pass 3.3: Audience-load acceptance [RATIFIED PASS]
 
 **Date:** 2026-05-27
-**Status:** **PROPOSED + DEFERRED 2026-05-27** per autonomous-mode default (Ch 2 → Harper's Pass 3.1 + Pass 3.2 precedent). Per-character INCLUDE / NEUTRAL / EXCLUDE verdicts + per-tier aggregate + apparatus-reveal verification + non-partisan-framing verdict produced end-to-end. Parent session ratifies + applies in same turn. Pass 3.3 produces NO essay.md prose changes even at RATIFIED state — acceptance audit, not prose-modifying.
+**Status:** **RATIFIED PASS 2026-05-27.** Author disposition *"ratify as recommended and proposed; fire the next stage/phase when ready"* 2026-05-27 — single-batch ratification pattern per Ch 2 Pass 3.1 + Pass 3.2 single-batch precedent (cf. [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md)). All 16 per-character INCLUDE verdicts ratified; per-tier aggregate PASS verdicts ratified (Tier 1: 4/4 INCLUDE; Tier 2: 6/6 INCLUDE; Tier 3: 6/6 INCLUDE); apparatus-reveal at-cap ~18–22% PASS ratified; non-partisan-framing PASS ratified via §VIII line 159 explicit-meta Condition-1-disarming move per $100 Barrel 2026-05-21 anchor. **No essay.md spot-fixes produced or required** — Pass 3.3 is acceptance audit, not prose-modifying per parent doctrine §3.3. Forward-flags inventoried for Pass 3.4 (7 adversarial characters A–G) + Pass 3.5 (6 restoration-polarity gain opportunities) + light Pass 3.3 re-fire post-Pass-3.5.
+**Previous status:** PROPOSED + DEFERRED 2026-05-27 (autonomous-mode sub-agent produced per-character artifact end-to-end at post-Pass-3.2 essay.md state; sub-agent published to origin/main commit `7701389`; parent-session ratification completed in same turn at author disposition above).
 **Pass type:** Stage 3 Pass 3.3 — Audience-load acceptance (third of five passes per v3.1 doctrine; explicit-gate cascade per Amendment A two-class; pre-Harper's-submission gate triggered by Pass 3.3 dispositive Tier 1 #1 Beha editorial brain + Tier 1 #2 Harper's reader).
 **Workstream:** Wave 2, Candidate A — Ch 2 *The Miner* → Harper's Magazine derivative essay.
 **Artifact audited:** [`publishing/essays/harpers-the-miner/essay.md`](../../publishing/essays/harpers-the-miner/essay.md) at post-Pass-3.2 state (cherry-picked into this worktree from harness branch `claude/ch2-harpers-pass3-2-voicepolish-260527-52a7ec` head commit `3cc8256`). **7,017w body across 8 sections** (167 lines); Option B limited-first-person frame per PC-4 ratification; six brief-§6-permitted verbatim quotes preserved (Kennedy + Bailey ×2 + Latusek ×3); framework-vocabulary naming retained at §V + §VIII per brief §8 KEEP entries (cost severance + severed cost + value extraction + accumulation by dispossession + spatial cost severance as plain-prose concepts; no formal apparatus).
@@ -554,20 +555,21 @@ After Pass 3.4 RATIFIED + APPLIED → Pass 3.5 (developmental-edit; restoration 
 ### §7.3 End-of-session one-liner
 
 ```
-STATE: Pass 3.3 PROPOSED (DEFERRED for parent-session
-ratification); NEXT: parent-session ratifies per-character
-verdicts + tier aggregates + apparatus-reveal verdict + non-
-partisan-framing verdict; AWAITING: parent-session ratification
-→ Pass 3.4 adversarial-robustness session fires fresh per v3.1
-per-pass per-session cadence. Aggregate verdict: 16/16 INCLUDE
-across Tier 1 (gating) + Tier 2 (pipeline-strengthening) + Tier
-3 (cultural-resonance + accessibility); 0 EXCLUDE; 0 NEUTRAL;
-cumulative-portfolio effective-reveal at-cap ~18–22%; non-
-partisan-framing PASS via §VIII line 159 explicit-meta Condition-
-1-disarming move; no essay.md spot-fixes required at Pass 3.3
-(acceptance audit; not prose-modifying).
+STATE: Pass 3.3 RATIFIED PASS 2026-05-27 (single-batch "ratify
+as recommended and proposed" disposition; 16/16 INCLUDE across
+Tier 1 + Tier 2 + Tier 3; 0 EXCLUDE; 0 NEUTRAL; apparatus-reveal
+at-cap ~18–22%; non-partisan-framing PASS via §VIII line 159
+explicit-meta Condition-1-disarming move; no essay.md spot-fixes
+required — acceptance audit, not prose-modifying); NEXT: Stage 3
+Pass 3.4 adversarial robustness session fires fresh per v3.1
+per-pass per-session cadence + brief §13 BY DEFAULT disposition
+(kickoff paste-text staged at tools/workstream-handoffs/ch2-
+harpers-stage-3-pass-3-4-adversarial-kickoff_2026-05-27.md);
+AWAITING: Pass 3.4 → Pass 3.5 → light Pass 3.3 re-fire each in
+own session; Stage 4 + Stage 5 + cover letter fire after Stage 3
+cascade closes; Harper's submission window target Q4 2026.
 ```
 
 ---
 
-*End of Stage 3 Pass 3.3 (Audience-load acceptance) artifact for Ch 2 The Miner → Harper's Magazine derivative essay — PROPOSED + DEFERRED 2026-05-27.*
+*End of Stage 3 Pass 3.3 (Audience-load acceptance) artifact for Ch 2 *The Miner* → Harper's Magazine derivative essay — RATIFIED PASS 2026-05-27.*
