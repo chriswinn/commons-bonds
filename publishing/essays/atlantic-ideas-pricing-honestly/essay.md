@@ -6,7 +6,7 @@ The McDowell ton is not an outlier. It is a worked example of a problem the pric
 
 Four traditions, in the historical order they took up adjacent territory: Marx, Ostrom, Daly, Hartwick. Each addressed part of what economics is for — who labors, who governs the commons, who lives inside the biosphere, who inherits what is left. None reached the irreplaceability case. And neither does the everyday model the rest of us reason inside — supply and demand at the moment of sale. Supply and demand clears the transaction between the parties present at it. Permanent foreclosure is not present at the moment of sale; the generation that pays for it is not seated at the table. The price clears without them, and the decision gets made on whatever terms the parties at the table find tolerable. The bill comes due in their lifetimes rather than ours.
 
-Treat the gap as an arithmetic problem and the rest of the argument follows. If a society decided to price its extractions honestly, counting every cost the current price misses, it would have five moves to make, in order: classify what cannot be replaced, reserve a fraction of it, invest in substitutes and in alternative sources, adjust the trade architecture to price what crosses borders, and reassess as it learns. This is not a manifesto. It is a sequence of accounting decisions of the kind governments and firms make every day, applied to materials and externalities they currently do not.
+Treat the gap as an arithmetic problem and the rest of the argument follows. If a society decided to price its extractions honestly, counting every cost the current price misses, it would have four moves to make, in order: classify what cannot be replaced, reserve a fraction of it, invest in substitutes and in alternative sources, and reassess as it learns. This is not a manifesto. It is a sequence of accounting decisions of the kind governments and firms make every day, applied to materials and externalities they currently do not.
 
 ## Classify
 
@@ -52,7 +52,7 @@ The fourth move follows from the first three and is the easiest one to forget. R
 
 ## Border
 
-The next move runs into the international system the way it actually works.
+Honest pricing runs into the international system the way it actually works.
 
 If a country prices its extractions honestly, and adds the costs of carbon, of community displacement, and of long-tail remediation to the producer's accounts, and its trading partners do not, the country that priced honestly has handed its industries a competitive disadvantage. This is the cost-severance problem in its trade-policy form: the cost has not gone away. It has been moved across a border, to a tailings pond in Inner Mongolia or a mangrove swamp in the Niger Delta or a hand-dug pit in Lualaba. The Baotou rare-earth processing facility's tailings pond covers approximately five square miles of radioactive slurry. The Niger Delta has been receiving spilled oil and gas-flare emissions for fifty years across thousands of square kilometers of mangrove and farmland. The Democratic Republic of Congo's artisanal cobalt mines were, at peak, employing roughly forty thousand children before reform efforts began to push the numbers down. The price tag on these places is the difference between honest pricing somewhere and the absence of honest pricing here. If the move is going to work, the trading regime has to price what crosses borders the same way it prices what is produced inside them.
 
