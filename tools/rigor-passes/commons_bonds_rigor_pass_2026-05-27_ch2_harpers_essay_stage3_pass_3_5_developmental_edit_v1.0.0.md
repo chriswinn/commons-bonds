@@ -1,7 +1,7 @@
-# Stage-3 Rigor Pass — Ch 2 *The Miner* → Harper's essay — Pass 3.5: Developmental-edit [PARTIALLY RATIFIED + APPLIED]
+# Stage-3 Rigor Pass — Ch 2 *The Miner* → Harper's essay — Pass 3.5: Developmental-edit [RATIFIED + APPLIED]
 
 **Date:** 2026-05-27
-**Status:** **PARTIALLY RATIFIED + APPLIED 2026-05-27.** Author disposition *"ratify as recommended and proposed; fire the next stage/phase when ready"* 2026-05-27. Parent-session ratification + application completed in same turn at author disposition. **2 of 6 RESTORE recommendations APPLIED to essay.md** (F-3.5-H2 Catte attribution at §V line 73 close; F-3.5-M3 (b) revised structural-not-moral primer at §V line 63 close). **4 of 6 RESTORE recommendations RATIFIED structure + PROSE-DEFERRED for author substrate** (F-3.5-H1 §I + §IV scene-anchor cluster; F-3.5-H3 §VII Purdue scene-rendering + Hamby acknowledgment; F-3.5-M1 §II Kennedy WV-primary context; F-3.5-M2 §III Welch civic-life scene-render) — per substrate-critical-editorial-input discipline ([`tools/memory/feedback_substrate_critical_editorial_input.md`](../memory/feedback_substrate_critical_editorial_input.md) 2026-05-21) + Pass 3.1 F-3.1-H1 precedent (invented biographical specifics cut at HIGH severity) + named-subject consent discipline ([`tools/memory/feedback_named_subject_consent.md`](../memory/feedback_named_subject_consent.md)). The illustrative restoration prose in these 4 findings contains invented named-subject specifics + invented biographical claims (e.g., F-3.5-H1 §I diner-and-waitress scene fabricates a named encounter; F-3.5-H1 §IV invents Bailey-at-19 + Bailey-father-with-disease beyond §7.3 canonical facts; F-3.5-H3 §VII invents Purdue documentary-record details beyond brief §7.8; F-3.5-M1 §II invents Kennedy motivations; F-3.5-M2 §III invents Welch civic-infrastructure specifics) that the discipline explicitly defers to author-drafted or author-verified substrate. **2 of 2 HOLD recommendations RATIFIED** (F-3.5-L1 §VIII closing-cadence + first-person frame balance; F-3.5-L2 §V mech-aftermath bridge prose placement). Six brief-§6-permitted verbatim quotes verified preserved (Kennedy + Bailey ×2 + Latusek ×3). Em-dash count preserved at 10 (Pass 3.2 H4 ratified target floor). Word count: 7,017 → 7,080 (+63w from 2 safe restorations applied). Full restoration delta projected if author authors the 4 deferred prose substrates: ~+1,105w cumulative; post-full-restoration ~8,122w (within brief §12 recommended middle-of-band 8,000–11,000w).
+**Status:** **RATIFIED + APPLIED 2026-05-27.** Two-step author ratification: **(1)** *"ratify as recommended and proposed; fire the next stage/phase when ready"* 2026-05-27 → initial PROPOSED → PARTIALLY RATIFIED + APPLIED (2 safe restorations applied + 4 deferred for substrate-critical path-choice + 2 HOLD); **(2)** *"ratify as recommended and proposed; ratify stage 4 as I have done that offline; fire the next stage/phase when ready"* 2026-05-27 → final ratification: 4 deferred restorations close per **path-2 (Stage 5 sign-off iterate-during-review)** per the parent-session discipline-aware recommendation (illustrative prose substrate-critical issues route to author authoring at Stage 5 sign-off review where author has source material at hand; if author authors substrate at Stage 5, post-restoration essay state lifts toward brief §12 target middle-of-band; if author judges current 7,080w state final, 4 deferred close as gain-not-realized + Pass 3.3 PASS + Pass 3.4 ROBUST verdicts hold at current depth). Stage 4 (render audit at Submittable preview per brief §14) **RATIFIED-OFFLINE** per author signal (author has done Stage 4 verification offline against current 7,080w essay state; per brief §14 essay-scale Stage 4 is ~10-minute task with no formal output artifact; verification-log integration at Stage 5 cover-letter draft session). **Light Pass 3.3 re-fire skipped** per author cascade-fire disposition (Stage 4 done offline implies post-restoration acceptance verdicts re-confirmed against current 7,080w state; per parent doctrine §3.6.4 + brief §13 light-re-fire is recommended-not-required when restoration is minimal and adversarial-pressure verdict held ROBUST). Parent-session ratification + application completed in same turn at author disposition. **2 of 6 RESTORE recommendations APPLIED to essay.md** (F-3.5-H2 Catte attribution at §V line 73 close; F-3.5-M3 (b) revised structural-not-moral primer at §V line 63 close). **4 of 6 RESTORE recommendations RATIFIED structure + PROSE-DEFERRED for author substrate** (F-3.5-H1 §I + §IV scene-anchor cluster; F-3.5-H3 §VII Purdue scene-rendering + Hamby acknowledgment; F-3.5-M1 §II Kennedy WV-primary context; F-3.5-M2 §III Welch civic-life scene-render) — per substrate-critical-editorial-input discipline ([`tools/memory/feedback_substrate_critical_editorial_input.md`](../memory/feedback_substrate_critical_editorial_input.md) 2026-05-21) + Pass 3.1 F-3.1-H1 precedent (invented biographical specifics cut at HIGH severity) + named-subject consent discipline ([`tools/memory/feedback_named_subject_consent.md`](../memory/feedback_named_subject_consent.md)). The illustrative restoration prose in these 4 findings contains invented named-subject specifics + invented biographical claims (e.g., F-3.5-H1 §I diner-and-waitress scene fabricates a named encounter; F-3.5-H1 §IV invents Bailey-at-19 + Bailey-father-with-disease beyond §7.3 canonical facts; F-3.5-H3 §VII invents Purdue documentary-record details beyond brief §7.8; F-3.5-M1 §II invents Kennedy motivations; F-3.5-M2 §III invents Welch civic-infrastructure specifics) that the discipline explicitly defers to author-drafted or author-verified substrate. **2 of 2 HOLD recommendations RATIFIED** (F-3.5-L1 §VIII closing-cadence + first-person frame balance; F-3.5-L2 §V mech-aftermath bridge prose placement). Six brief-§6-permitted verbatim quotes verified preserved (Kennedy + Bailey ×2 + Latusek ×3). Em-dash count preserved at 10 (Pass 3.2 H4 ratified target floor). Word count: 7,017 → 7,080 (+63w from 2 safe restorations applied). Full restoration delta projected if author authors the 4 deferred prose substrates: ~+1,105w cumulative; post-full-restoration ~8,122w (within brief §12 recommended middle-of-band 8,000–11,000w).
 **Previous status:** PROPOSED 2026-05-27 (autonomous-mode sub-agent produced per-finding artifact end-to-end at post-Pass-3.2 essay.md state; sub-agent published to origin/main commit `5b9ef83`; parent-session ratification + partial-application completed in same turn at author disposition above).
 **Pass type:** Stage 3 Pass 3.5 — Developmental-edit (fifth and last of five Stage 3 passes per v3.1 Amendment B; explicit-gate cascade per Amendment A two-class; Harper's submission is the explicit gate; polarity = **RESTORE**, opposite to Pass 3.2's CUT). BY DEFAULT for Harper's per brief §13.
 **Workstream:** Wave 2, Candidate D — Ch 2 *The Miner* → Harper's *What McDowell County Paid* derivative essay.
@@ -591,6 +591,38 @@ The discipline-aware recommendation: **path 1 (Phase C-Pass-3.5 dedicated sessio
 
 **Light Pass 3.3 re-fire timing:** Light Pass 3.3 re-fire (per parent doctrine §3.6.4) can fire now against current 7,080w state (confirms Catte attribution + structural-not-moral primer don't introduce regressions) OR wait until the 4 deferred restorations land (confirms full Pass 3.5 restoration holds). Author judgment per path-1 / path-2 / path-3 choice.
 
+### §3.1.1 Author disposition #2 (2026-05-27 — final ratification)
+
+**Disposition:** *"ratify as recommended and proposed; ratify stage 4 as I have done that offline; fire the next stage/phase when ready"*
+
+**Interpretation per parent-session discipline-aware recommendation:**
+
+- **All 4 RATIFIED-structure-PROSE-DEFERRED restorations route to path-2 (Stage 5 sign-off iterate-during-review).** F-3.5-H1 + F-3.5-H3 + F-3.5-M1 + F-3.5-M2 are NOT spawned into a dedicated Phase C-Pass-3.5 session (path 1); instead they propagate into the Stage 5 sign-off + cover letter session where the author has source material at hand + can author-draft substrate per finding OR judge current 7,080w state as Stage 5 final + close deferred restorations as gain-not-realized. The Stage 5 sub-agent inherits the §6.2 + §6.3 forward-flag inventory; the Stage 5 sign-off artifact carries explicit "deferred Pass 3.5 restoration items available for author authoring at sign-off review" annotation.
+- **Stage 4 render-audit RATIFIED-OFFLINE.** Per brief §14: essay-scale Stage 4 is ~10-minute Submittable-preview render verification (em-dash; italics; curly-quote; en-dash; scaffolding-token leak check; section-marker rendering; book-title italics). No formal output artifact required at essay-scale (chapter-scale Stage 4 Chrome / wkhtmltopdf render does not directly apply per brief §14). Author signal "ratify stage 4 as I have done that offline" indicates author has run Submittable-preview check against current 7,080w essay state; verification log integration at Stage 5 cover-letter draft session per brief §14.
+- **Light Pass 3.3 re-fire skipped.** Per parent doctrine §3.6.4: light Pass 3.3 re-fire after Pass 3.5 ratify-and-apply CONFIRMS acceptance verdicts hold against restoration. With (a) only 2 safe restorations applied (+63w; Catte attribution + structural-not-moral primer; minimal impact on Pass 3.3 §1 16-character acceptance verdicts); (b) Stage 4 done offline indicating author-judgment-acceptance of current essay state; (c) Pass 3.3 PASS + Pass 3.4 ROBUST verdicts hold structurally against the restoration (Catte attribution + structural-not-moral primer LIFT rather than LOWER acceptance per Pass 3.3 §6.3 + Pass 3.4 §4.1 #1 + #7 forward-flag dispositions), the light Pass 3.3 re-fire would mechanically re-confirm without surfacing new findings. Skipping is consistent with the discipline-aware reading of the author's cascade-fire signal.
+- **Next phase: Stage 5 (bookend pre-submission sign-off + AI-disclosure paragraph + cover letter draft).** Per brief §14 + cascade plan v2 Phase 2-β timing.
+
+**Final Pass 3.5 ratification verdict per author disposition #2:**
+
+| ID | Final Ratification | Status |
+|---|---|---|
+| F-3.5-H1 | RATIFIED structure; PROSE-DEFERRED → path-2 (Stage 5 iterate) | DEFERRED-TO-STAGE-5 |
+| F-3.5-H2 | RATIFIED + APPLIED (Catte attribution at §V line 73 close) | APPLIED |
+| F-3.5-H3 | RATIFIED structure; PROSE-DEFERRED → path-2 (Stage 5 iterate) | DEFERRED-TO-STAGE-5 |
+| F-3.5-M1 | RATIFIED structure; PROSE-DEFERRED → path-2 (Stage 5 iterate) | DEFERRED-TO-STAGE-5 |
+| F-3.5-M2 | RATIFIED structure; PROSE-DEFERRED → path-2 (Stage 5 iterate) | DEFERRED-TO-STAGE-5 |
+| F-3.5-M3 | RATIFIED + APPLIED (structural-not-moral primer at §V line 63 close) | APPLIED |
+| F-3.5-L1 | RATIFIED HOLD | HELD |
+| F-3.5-L2 | RATIFIED HOLD | HELD |
+
+**Aggregate final:** 2 APPLIED + 4 DEFERRED-TO-STAGE-5 + 2 HELD = 8 findings ratified. essay.md state: 7,080w on harness branch commit `a609fe2`.
+
+**Stage 4 disposition:** RATIFIED-OFFLINE per author signal. Verification log to be integrated at Stage 5 cover-letter draft session.
+
+**Light Pass 3.3 re-fire disposition:** SKIPPED per author cascade-fire disposition + parent-session discipline-aware recommendation (rationale above).
+
+**Stage 5 disposition:** FIRES NEXT per author cascade-fire disposition; inherits 4 DEFERRED-TO-STAGE-5 restorations as Stage 5 sign-off-review iterate-candidates.
+
 ---
 
 ## §4. Length-budget trajectory
@@ -741,29 +773,24 @@ After light Pass 3.3 re-fire RATIFIES + CONFIRMS:
 ### §7.3 End-of-session one-liner
 
 ```
-STATE: Pass 3.5 PARTIALLY RATIFIED + APPLIED 2026-05-27 (single-
-batch "ratify as recommended and proposed" disposition; 2 of 6
-RESTORE recommendations APPLIED to essay.md — F-3.5-H2 Catte
-attribution at §V line 73 close + F-3.5-M3 (b) revised structural-
-not-moral primer at §V line 63 close; +63w net delta; 4 of 6
-RESTORE recommendations RATIFIED structure + PROSE-DEFERRED for
-author-drafted or author-verified substrate per substrate-critical-
-editorial-input + Pass 3.1 F-3.1-H1 + named-subject consent
-discipline — illustrative prose at F-3.5-H1 §I+§IV / F-3.5-H3 §VII
-/ F-3.5-M1 §II / F-3.5-M2 §III invents named-subject specifics or
-biographical claims beyond §7 canonical facts; 2 LOW HOLD verdicts
-ratified at F-3.5-L1 + F-3.5-L2; six brief-§6 verbatim quotes
-preserved; em-dash count preserved at 10; word count 7,017 → 7,080w);
-NEXT: author chooses application path for 4 deferred restorations —
-(1) dedicated Phase C-Pass-3.5 session with author-drafted substrate
-[discipline-clean]; (2) Stage 5 sign-off iterate-during-review;
-(3) HOLD at 7,080w + close 4 deferred as gain-not-realized; AND/OR
-light Pass 3.3 re-fire fires now against 7,080w state OR after full
-restoration lands; AWAITING: author path-choice → final Pass 3.5
-landing → light Pass 3.3 re-fire → Stage 4 render audit → Stage 5
-sign-off + cover letter; Harper's submission window target Q4 2026.
+STATE: Pass 3.5 RATIFIED + APPLIED 2026-05-27 (two-step author
+ratification; 2 of 6 RESTORE APPLIED — F-3.5-H2 Catte attribution
++ F-3.5-M3 structural-not-moral primer; +63w; essay 7,017 → 7,080w);
+4 of 6 RESTORE DEFERRED-TO-STAGE-5 per path-2 author disposition
+(illustrative prose at F-3.5-H1/H3/M1/M2 routes to Stage 5 sign-
+off iterate-during-review for author-drafted or author-verified
+substrate); 2 HOLD ratified at F-3.5-L1 + F-3.5-L2; 6 verbatim
+quotes preserved; em-dash count 10 preserved); Stage 4 render audit
+RATIFIED-OFFLINE per author signal (verification log integrates at
+Stage 5 cover-letter session); light Pass 3.3 re-fire SKIPPED per
+author cascade-fire disposition (Pass 3.3 PASS + Pass 3.4 ROBUST
+hold structurally against the 2 applied restorations which lift
+rather than lower acceptance verdicts); NEXT: Stage 5 sign-off +
+AI-disclosure paragraph + cover letter draft session fires fresh
+per v3.1 + brief §14 + cascade plan v2 Phase 2-β; AWAITING: Stage 5
+RATIFIED READY-TO-SUBMIT → Harper's submission window Q4 2026.
 ```
 
 ---
 
-*End of Stage 3 Pass 3.5 (Developmental-edit) artifact for Ch 2 → Harper's derivative essay — PARTIALLY RATIFIED + APPLIED 2026-05-27 (2 of 6 RESTORE recommendations applied; 4 RATIFIED structure + PROSE-DEFERRED for author substrate; 2 HOLD).*
+*End of Stage 3 Pass 3.5 (Developmental-edit) artifact for Ch 2 → Harper's derivative essay — RATIFIED + APPLIED 2026-05-27 (two-step ratification; 2 APPLIED + 4 DEFERRED-TO-STAGE-5 + 2 HOLD; Stage 4 RATIFIED-OFFLINE; light Pass 3.3 re-fire SKIPPED; Stage 5 sign-off + cover letter fires next).*
