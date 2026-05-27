@@ -9,6 +9,16 @@
 
 ---
 
+## §0. Portfolio-state framing (author correction 2026-05-27)
+
+**The essay portfolio is functionally complete except Ch 2 → Harper's, which is imminent** (Pass 3.4 RATIFIED ROBUST during this audit session; Pass 3.5 kickoff STAGED; Stage 4 + Stage 5 expected to fire within hours). All other Wave 1 + Wave 2 + Wave 3 essays are either RATIFIED-AWAITING-SUBMIT, pitch-LOCKED, RATIFIED READY-TO-SUBMIT (FA awaiting merge authorization), or in post-rigor bookkeeping (Atlantic Ideas Stage 5 sign-off filing + cover letter; NYRB per-essay folder mirror). Berggruen runs on a separate AI-free track and is not gated by AI-collaborative pipeline state.
+
+**What "post-rigor bookkeeping" means and does NOT mean:** rigor passes (3.1 fact-check + 3.2 voice-polish + 3.3 acceptance + 3.4 adversarial + 3.5 developmental) are SUBSTANTIVE work that affects publisher-facing prose. Stage 5 sign-off filings, per-essay folder mirrors, cover-letter drafts, README refreshes, and feature-branch merges to main are HANDOFF / FILING steps — necessary for submission but not gated by rigor-work-still-to-fire. The distinction matters because: a "still pending" framing that conflates the two reads the portfolio as more in-flight than it actually is, and risks miscalibrating PM-session priority.
+
+This framing note was added per author correction post-session-close ("the only essay that isn't complete is harpers and that completion is coming any moment now"). The original §1–§8 inventory + recommendations are factually accurate but were framed without this distinction; §8.G recommendation-priority levels are corrected below to reflect the actual rigor-vs-bookkeeping split.
+
+---
+
 ## §1. Per-essay portfolio inventory
 
 Nine active essay folders on `origin/main` (excluding `_pipeline/`, `_shared/`, `_archive/` infrastructure).
@@ -381,30 +391,34 @@ The vast majority of internal-scaffolding work has already auto-merged to `origi
 
 **F.2 — Multiple older branches** (`claude/aeon-pitch-stage2-flamboyant-clarke-359516`, `claude/aeon-pitch-stage3-comparison-f38496`, `claude/boston-review-essay-pass-3-1-fact-check-clever-sinoussi-440b42` and 4 siblings, `claude/atlantic-ideas-essay-stage-2-determined-payne-8b61ec`, `claude/atlantic-ideas-essay-pensive-mendeleev-7e04b6`, `claude/noema-essay-stage3-polish-great-shirley-ba0e08`, `claude/100-barrel-essay-stage-2-fbc623`) all show 0 commits ahead of main = fully merged. Branch hygiene sweep at author discretion.
 
-### G. Recommendations Summary (TL;DR)
+### G. Recommendations Summary (TL;DR) — priorities corrected per §0 rigor-vs-bookkeeping distinction
 
-| # | Priority | Action | Who | When |
-|---|---|---|---|---|
-| 1 | **HIGH** | Merge FA `claude/ch4-fa-pass3-1-factcheck-260527-c7af4e` to `origin/main` (end-user-facing essay.md + cover-letter.md + README.md) | Author authorize; per-essay session | Next session |
-| 2 | MED | Confirm/track BR + $100 Barrel submission status; rename folders to `_SUBMITTED-<date>` if submitted | Author confirm | When status known |
-| 3 | MED | Atlantic Ideas Stage 5 close-out (sign-off rigor-pass + per-essay mirror + cover letter + README refresh) | Per-essay session | Single session; June |
-| 4 | MED | NYRB per-essay canonical-layout completion (README + stage-5-signoff.md mirror) | Internal scaffolding session | Next session or auto-bundle |
-| 5 | MED | Cascade plan v3 refresh (Wave 2 W2.1 + W2.3 complete; NYRB new slot; cumulative apparatus-reveal re-measurement) | PM session | Within 1 wk |
-| 6 | LOW | Pre-pub review queue extraction sweep for 100-barrel + BR + FA + Noema + NYRB | Bundled session | Post-sprint |
-| 7 | LOW | Stale-branch pruning | Branch-hygiene sweep | Author discretion |
+| # | Priority | Class | Action | Who | When |
+|---|---|---|---|---|---|
+| 1 | **HIGH** | bookkeeping (FA-merge gating) | Merge FA `claude/ch4-fa-pass3-1-factcheck-260527-c7af4e` to `origin/main` (end-user-facing essay.md + cover-letter.md + README.md). Stage 5 already RATIFIED READY-TO-SUBMIT — merge is the last gate before FA is submission-portal-ready. | Author authorize; per-essay session | Next session |
+| 2 | MED | tracking | Confirm/track BR + $100 Barrel submission status; rename folders to `_SUBMITTED-<date>` if submitted | Author confirm | When status known |
+| 3 | LOW (was MED) | bookkeeping | Atlantic Ideas Stage 5 close-out (sign-off rigor-pass + per-essay mirror + cover letter + README refresh). Rigor work already complete (Pass 3.5 + Stage 4 + F-DE-Atlantic-1 REVERT all ratified-and-applied); this is just filing the handoff artifacts. Submission window is late-June anyway. | Per-essay session | Within 1–2 wk |
+| 4 | LOW (was MED) | bookkeeping | NYRB per-essay canonical-layout completion (README + stage-5-signoff.md mirror). Central Stage 5 sign-off rigor-pass artifact already on main; this is mirroring it into the per-essay folder. | Internal scaffolding session | Auto-bundle into next NYRB-touching session |
+| 5 | MED | PM | Cascade plan v3 refresh (Wave 2 W2.1 + W2.2 + W2.3 essentially complete; NYRB new slot; cumulative apparatus-reveal re-measurement). High value because it shapes the next PM session's resource-allocation decisions across Berggruen / agent-queries / Ch 2 → Harper's close-out / Wave 3 surfacing. | PM session | Within 1 wk |
+| 6 | LOW | bookkeeping | Pre-pub review queue extraction sweep for 100-barrel + BR + FA + Noema + NYRB. Content is embedded in stage-5-signoff; extraction produces a separately-filed publisher-handoff artifact. | Bundled session | Post-sprint |
+| 7 | LOW | housekeeping | Stale-branch pruning | Branch-hygiene sweep | Author discretion |
+| 8 | LATCHED | rigor (HARPERS) | **Ch 2 → Harper's** — Pass 3.5 + Stage 4 + Stage 5 imminent in parallel session. This is the only rigor-still-firing piece in the entire portfolio. **No PM action needed** — already in flight per `a9fe7be` Pass 3.5 kickoff STAGED. Per-essay folder `publishing/essays/harpers-<slug>/` to be created at canonical-layout discipline step at or after Stage 5. | Parallel session in flight | Hours |
 
 ---
 
 ## §9. STATE marker (for next-session resumption)
 
 ```
-STATE: cross-essay portfolio review RATIFIED (9 essays inventoried; 16
-feature-branch-only commits flagged on Foreign Affairs branch; 7
-recommendations ranked HIGH→LOW in §8.G); NEXT: author reviews
-recommendations in §8 + makes per-recommendation merge / refresh /
-sweep authorizations; AWAITING: author authorization on Recommendation #1
-(Foreign Affairs merge to main); author confirms Recommendation #2 (BR +
-$100 Barrel submission status).
+STATE: cross-essay portfolio review RATIFIED (10-essay portfolio
+substantively complete except Ch 2 → Harper's, which is firing
+Pass 3.5 + Stage 4 + Stage 5 imminently in parallel session; 16
+feature-branch-only commits flagged on Foreign Affairs branch;
+8 recommendations ranked HIGH/MED/LOW/LATCHED in §8.G per §0
+rigor-vs-bookkeeping distinction); NEXT: author authorizes FA
+merge (Recommendation #1; the only HIGH); author confirms BR +
+$100 Barrel submission status (Recommendation #2); other items
+are post-rigor bookkeeping at LOW priority. AWAITING: Ch 2 →
+Harper's Stage 5 ratification (imminent; parallel session).
 ```
 
 ---

@@ -32,6 +32,7 @@ relevant via this index.
 - [feedback_em_dash_overuse.md](feedback_em_dash_overuse.md) — Em-dashes are a Claude-prose crutch; calibrate critically. Default to commas/periods/restructure; flag every em-dash for active justification. Ratified 2026-05-21 during Ch 3 Pass 3.2.
 - [feedback_substrate_critical_editorial_input.md](feedback_substrate_critical_editorial_input.md) — Author substrate gets critical editorial input — not blind preservation. When author provides substrate, critique grammar/punctuation/voice/flow and surface improvements before applying. Ratified 2026-05-21.
 - [project_book_complete_marketing_phase.md](project_book_complete_marketing_phase.md) — Book is content-complete as of 2026-05-24; current phase is essay/op-ed marketing strategy + iterative chapter polish. Essays are downstream marketing instruments, NOT platform-builders. Reframes Stage 0 dimensions (a/d/f/g) + Wave 3 nomenclature. Ratified 2026-05-25.
+- [feedback_rigor_vs_bookkeeping_distinction.md](feedback_rigor_vs_bookkeeping_distinction.md) — Don't conflate rigor-cascade work (5-pass + Stage 4 + Stage 5 affecting publisher-facing prose) with handoff/filing steps (per-essay folder mirrors, cover-letter drafts, README refreshes, feature-branch merges). Use a Class column in recommendation tables. Surfaced 2026-05-27 after cross-essay portfolio review under-credited portfolio completion.
 
 **Out of scope:**
 
