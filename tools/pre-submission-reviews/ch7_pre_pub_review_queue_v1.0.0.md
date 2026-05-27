@@ -259,4 +259,88 @@ Ch 7 is publisher-ship-ready at the sample-chapter level per workstream handoff 
 
 ---
 
-*End of Ch 7 Pre-Publication Review Queue. RATIFIED 2026-05-26. Companion to Stage 5 bookend pre-publication sign-off PASS. Sample-chapter READY-TO-SUBMIT alongside Ch 5.*
+*End of Ch 7 Pre-Publication Review Queue (original ratification). RATIFIED 2026-05-26. Companion to Stage 5 bookend pre-publication sign-off PASS. Sample-chapter READY-TO-SUBMIT alongside Ch 5.*
+
+---
+
+## §10. Refresh disposition (2026-05-26 post-reconsideration + post-Phase-C-γ + post-Phase-C-δ)
+
+**Status:** **REFRESHED 2026-05-26** — bundled with Stage 4 re-ratification + Stage 5 re-sign-off in this same commit per Ch 5 precedent (`3a4f774`). Updates §1 + §2 + §3 to reflect post-reconsideration chapter state (commit `8cfd3c2`).
+
+### §10.1 Reconsideration cascade summary
+
+The §1–§9 original-ratification content above documented the chapter state at commit `e29d5ae` (post-Phase-C-β) with Pass 3.5 explicit-gate NOT-TRIGGERED. Subsequently:
+- **Pass 3.4 RECONSIDERED 2026-05-26** under author's "make the book as good as possible, period" lens (per §12 supersession in Pass 3.4 artifact). Prior Option A HOLD ratification superseded; **Option B APPLY** across T1 + T3 + T4. Phase C-γ applied 3 chapter edits at lines 19, 141, 221 (commit `7672ff8`).
+- **Pass 3.5 (developmental-edit) TRIGGERED 2026-05-26** under the same reconsidered-context discipline. PROPOSED + RATIFIED in single session (commit `cad750c`); 3 Option A APPLY ratified (F-DE-Ch7-1 + F-DE-Ch7-2 + F-DE-Ch7-4) + 3 HOLD ratified (F-DE-Ch7-3 + F-DE-Ch7-5 + F-DE-Ch7-6 Aeon-overlap locked). Phase C-δ applied 3 chapter edits at lines 33 + 143/145/147/149 + 191 (commit `8cfd3c2`).
+- **Stage 4 RE-RATIFIED 2026-05-26** author-completed-offline at post-Phase-C-δ chapter state; CLEAN re-confirmed (this bundled commit; see §7 of `tools/rigor-passes/ch7_stage_4_render_audit_2026-05-26.md`).
+- **Stage 5 RE-SIGN-OFF 2026-05-26** PASS re-confirmed at post-Phase-C-δ chapter state (this bundled commit; see §11 of `tools/quality-gates/sign-offs/ch7_stage5_signoff_2026-05-26.md`).
+
+Chapter line count: 250 (unchanged through Phase C-γ + Phase C-δ; all edits intra-line additions).
+
+### §10.2 Updated internal-verification posture (supersedes §1.4 + extends §1)
+
+**§1.4 audience-load verification (post-reconsideration):**
+- **Pass 3.4 robustness re-disposition:** T1 + T3 + T4 originally RATIFIED HOLD (Option A) → RECONSIDERED RATIFIED APPLY (Option B); Phase C-γ application landed 3 chapter edits at lines 19 (T1 disclaimer pre-positioning) + 141 (T4 Bostrom-lineage contestation acknowledgment) + 221 (T3 Public-Choice em-dash inset). T2 + T5 + T6 + T7 + T8 remain RATIFIED HOLD with pre-pub-queue acknowledgments at §2.3 below (unchanged).
+- **Pass 3.5 developmental-edit verdict:** RATIFIED 2026-05-26 — READY-AFTER-RESTORATION. 3 APPLY-ratified findings strengthen Pass 3.3 acceptance at Char 2 (trade-press editor) + Char 6 (sample-chapter-evaluating agent) + Char 8 (climate-policy generalist reader) per Pass 3.5 §7.1 cross-character impact analysis; Pass 3.4 robustness verdict unchanged (Pass 3.5 restorations are restoration polarity, not cutting; do not weaken adversarial robustness — per memory `feedback_audience_aware_drafting_discipline.md` v3.1 Amendment B Pass-3.4 re-fire NOT routinely warranted).
+
+**Extended internal-verification inventory (Phase C-γ + Phase C-δ additions):**
+- **Line 19 (Phase C-γ T1)** — Mars-canonization disclaimer pre-positioning sentence cluster. Verifies-as: methodology-not-advocacy disclaimer pre-positioning; substantive disclaimer at lines 195–199 preserved at earned location.
+- **Line 33 (Phase C-δ F-DE-Ch7-2)** — Mars-habitat inhabitant-bodily-presence beat (grandchildren / kindergarten classroom / agricultural domes). Verifies-as: scene-anchor restoration; compounds discount-factor analytical claim at line 43; preserves she/her Mars administrator pronoun consistency across lines 27–47.
+- **Line 141 (Phase C-γ T4)** — Bostrom-lineage longtermism contestation acknowledgment ("substantial contestation in recent years — both around population-ethics commitments internal to the philosophical literature and around EA-movement positioning external to it"). Verifies-as: scope-disclaimer-sufficiency extension within existing paragraph; Streisand-effect risk bounded by retention of immediately-following scope-disclaimer.
+- **Lines 143/145/147/149 (Phase C-δ F-DE-Ch7-1)** — application-anchor clauses across four resource-tier paragraphs. Verifies-as: technical-application precision claims (solar/wind/nuclear/hydro/geothermal for coal substitution; oil-for-transport-fuel-and-feedstock + copper-for-conductive-wiring + zinc-for-galvanization-and-battery-chemistries; uranium-thorium-fuel-cycle + lithium-sodium-ion-and-solid-state + cobalt-iron-phosphate-cathodes; neodymium-dysprosium-permanent-magnet-motors + platinum-palladium-fuel-cell-catalysts + gallium-germanium-indium-semiconductor-architectures). Line 151 helium-3 paragraph unchanged (already substantively grounded). Closes Pass 3.4 §6 pre-identified apparatus-density-spike flag.
+- **Line 191 (Phase C-δ F-DE-Ch7-4)** — objection-response transitional bridging sentence ("The frictionless-plane defense settles one objection; another follows from a different direction."). Verifies-as: hinge-point transitional breath; closes Pass 3.4 §6 pre-identified objection-response section length flag.
+- **Line 221 (Phase C-γ T3)** — Public-Choice em-dash inset within existing Chapter 9 forward-reference sentence ("— a design problem that engages the Public Choice tradition's rent-seeking-architecture analysis at depth —"). Verifies-as: navigational signal of intellectual care; routes through closed cross-chapter Public-Choice engagement at Ch 9 Pass 3.4 §10.1 consolidated MacLean-acknowledgment Phase C session 2026-05-25 + TA §1.10.
+
+**§1.5 Render integrity:** **RE-RATIFIED CLEAN** at the post-Phase-C-δ chapter state (commit `8cfd3c2`) per §7 of Stage 4 render-audit artifact; author-managed-offline docker render pipeline re-confirmation.
+
+### §10.3 Updated external-verification posture (extends §2)
+
+**§2.3 audience-coverage gaps (post-reconsideration):**
+- **T1 (Mars-canonization disclaimer pre-positioning)** — disposition shifts: previously "RATIFIED HOLD with substantive structural disarm via methodology-not-advocacy disclaimer at lines 195–199" → **now "RATIFIED APPLY at line 19 + substantive disclaimer at lines 195–199 preserved at earned location."** External environmental-philosophy / climate-justice / space-policy-skeptic review recommendation retained but residual skim-read risk now bounded substantively tighter.
+- **T3 (Public-Choice cross-chapter forward-reference)** — disposition shifts: previously "RATIFIED HOLD (Option A); existing Ch 9-handoff at line 221 implicitly carries the forward-reference" → **now "RATIFIED APPLY at line 221 with em-dash inset explicitly naming Public Choice tradition's rent-seeking-architecture analysis at depth."** External Public-Choice + heterodox-economics review recommendation retained but explicit-naming now lands on sophisticated readers without requiring close-read deduction.
+- **T4 (Bostrom-lineage longtermism contestation acknowledgment)** — disposition shifts: previously "RATIFIED HOLD (Option A); existing scope-disclaimer at line 141 substantively narrow" → **now "RATIFIED APPLY at line 141 with single-sentence contestation acknowledgment between lineage citation and existing scope-disclaimer."** External longtermism-critic / population-ethics-skeptic + EA-critique review recommendation **elevated priority** (Phase C-γ acknowledgment lands clean per Pass 3.4 + Pass 3.5; external existential-risk academic confirmation of scope-disclaimer-sufficiency at the post-acknowledgment state is the appropriate next-layer verification).
+- **T2 + T5 + T6 + T7 + T8** — unchanged from §2.3 original (RATIFIED HOLD with pre-pub-queue acknowledgments).
+- **Item 9 Pass 3.5 (developmental-edit) NOT TRIGGERED note: SUPERSEDED.** Pass 3.5 was triggered + RATIFIED 2026-05-26 (commit `cad750c`); 3 APPLY-ratified findings applied via Phase C-δ (commit `8cfd3c2`); 3 HOLD-ratified findings recorded.
+
+**Updated external-verification-gap inventories (§2.1 + §2.2 extensions):**
+- **§2.1 item 9 (Bostrom-lineage existential-risk-economics citation discipline at line 141)** — **scope expanded post-Phase-C-γ T4**: external existential-risk-economics academic review should now also verify the contestation-acknowledgment sentence ("substantial contestation in recent years — both around population-ethics commitments internal to the philosophical literature and around EA-movement positioning external to it") lands as appropriate scope-disclaimer-sufficiency framing without inviting Streisand-effect re-engagement at depth the chapter does not otherwise carry.
+- **§2.2 item 1 (existential-substitutability-gap ranking at lines 143–151)** — **scope expanded post-Phase-C-δ F-DE-Ch7-1**: external review now extends beyond ranking-classification-validity to include verification of the application-anchor technical claims at each tier — solar/wind/nuclear/hydro/geothermal coal-substitution alternatives; oil transport-fuel-and-feedstock + copper conductive-wiring + zinc galvanization-and-battery-chemistries; uranium-thorium fuel-cycle + lithium sodium-ion / solid-state + cobalt iron-phosphate cathodes; neodymium-dysprosium permanent-magnet motors + platinum-palladium fuel-cell catalysts + gallium-germanium-indium semiconductor architectures. These specific technical claims are within current materials-science / industrial-applications scholarly consensus but warrant external specialist verification at the precision-of-application-anchor layer.
+
+### §10.4 Updated recommended external reviewer types (extends §3)
+
+**§3.2 existential-risk academic priority — ELEVATED.** Post-Phase-C-γ T4 contestation acknowledgment at line 141 raises the external-review value of an existential-risk academic adjacent to the longtermism contestation literature (population-ethics critics; EA-movement-critique scholars). Coverage now includes scope-disclaimer-sufficiency check at the post-acknowledgment state; specifically whether the single-sentence acknowledgment + retention of existing scope-disclaimer maintains the framework's longtermism-disengagement posture or whether external readers would benefit from further explicit framing.
+
+**§3.9 NEW: Materials-science / industrial-applications specialist (HIGH priority — load-bearing per Phase C-δ F-DE-Ch7-1 application-anchor claims at lines 143/145/147/149).** Profile: materials-science academic OR industrial-applications specialist (critical-materials / strategic-minerals / energy-economics / battery-chemistry / semiconductor-materials specialty). Coverage: application-anchor technical claims at each existential-substitutability-gap tier (specifically neodymium/dysprosium permanent-magnet motor energy-density characterization; platinum/palladium fuel-cell catalysis vs alternative pathways; gallium/germanium/indium semiconductor-architecture characterization; uranium-thorium fuel-cycle alternative-feasibility window; lithium sodium-ion + solid-state research-advancement state; cobalt iron-phosphate cathode chemistry-substitution status; oil transport-fuel-and-feedstock alternative pathways; copper conductive-wiring alternative pathways; zinc galvanization-and-battery-chemistries alternative pathways). Pairs with §3.8 resource-classification academic at the ranking-validity layer; specialist coverage extends downward into application-specific precision.
+
+**§3.1 + §3.3 + §3.4 + §3.5 + §3.6 + §3.7 + §3.8** — unchanged from original §3 (priority + coverage stable through reconsideration cascade).
+
+### §10.5 Highest-priority sections (re-verified)
+
+§4 rank-ordering unchanged at post-reconsideration state. Phase C-γ + Phase C-δ additions strengthen the existing rank-ordering rather than shift it:
+- §4 item 1 (Mars-habitat thought-experiment lines 27–49) — F-DE-Ch7-2 scene-anchor restoration at line 33 strengthens; rank-ordering unchanged.
+- §4 item 5 (existential-substitutability-gap ranking lines 137–155) — Phase C-γ T4 contestation acknowledgment at line 141 + Phase C-δ F-DE-Ch7-1 application-anchor clauses at lines 143/145/147/149 strengthen; rank-ordering unchanged.
+- §4 item 6 ("Mars is a false analogy" objection-and-response lines 179–203) — F-DE-Ch7-4 transitional bridging at line 191 strengthens; rank-ordering unchanged.
+- §4 item 7 (immune-response stress-test paragraph at line 221) — Phase C-γ T3 em-dash inset strengthens; rank-ordering unchanged.
+
+### §10.6 Refresh disposition verdict
+
+**REFRESHED 2026-05-26** — pre-publication review queue now reflects post-reconsideration internal-verification state + updated external-reviewer recommendations + post-Phase-C-γ + post-Phase-C-δ chapter content.
+
+Per Stage 5 doctrine §7 hard constraint: transparent quality-control disclosure (not confession-of-weakness) maintained. Phase C-γ + Phase C-δ chapter additions move the chapter to the **strongest defensible publication-ready state** under author "make the book as good as possible, period" lens; external-verification posture is appropriately rebalanced to reflect what has now been addressed in-chapter (T1 + T3 + T4 explicit disarm; F-DE-Ch7-1 application-anchor clauses; F-DE-Ch7-2 scene-anchor restoration; F-DE-Ch7-4 objection-response transitional breath) and what remains as the canonical external-reviewer queue (planetary scientist / aerospace engineer; existential-risk academic — elevated; comparative-civilization historian; environmental-philosophy + decolonial + degrowth reader; Public-Choice + heterodox-economics reviewer; environmental-economics reviewer; philosophy-of-science reviewer; resource-classification academic; **materials-science / industrial-applications specialist — newly added**).
+
+Ch 7 is publisher-ship-ready at the **strongest defensible publication-ready state** under reconsidered-context lens; sample-chapter pairing with Ch 5 (`3a4f774`) restored; READY-TO-SUBMIT posture re-confirmed.
+
+### §10.7 Cross-references (updated)
+
+- Pass 3.4 reconsideration: §12 supersession in [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch7_on_other_worlds_stage3_pass_3_4_audience_load_robustness_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch7_on_other_worlds_stage3_pass_3_4_audience_load_robustness_v1.0.0.md) — RECONSIDERED `7672ff8` (Option B APPLY across T1+T3+T4)
+- Pass 3.5 developmental-edit: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch7_on_other_worlds_stage3_pass_3_5_developmental_edit_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch7_on_other_worlds_stage3_pass_3_5_developmental_edit_v1.0.0.md) — PROPOSED + RATIFIED `cad750c`
+- Phase C-γ application: commit `7672ff8` (3 edits at lines 19, 141, 221)
+- Phase C-δ application: commit `8cfd3c2` (3 edits at lines 33 + 143/145/147/149 + 191)
+- Stage 4 re-ratification: §7 of [`tools/rigor-passes/ch7_stage_4_render_audit_2026-05-26.md`](../rigor-passes/ch7_stage_4_render_audit_2026-05-26.md) (this bundled commit)
+- Stage 5 re-sign-off: §11 of [`tools/quality-gates/sign-offs/ch7_stage5_signoff_2026-05-26.md`](../quality-gates/sign-offs/ch7_stage5_signoff_2026-05-26.md) (this bundled commit)
+- Ch 5 precedent (bundled-closure pattern): commit `3a4f774` Ch 5 Phase C complete bundle 2026-05-26
+- PM handoff (chapter-by-chapter best-possible-book review context): [`tools/workstream-handoffs/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md`](../workstream-handoffs/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md)
+
+---
+
+*End of Ch 7 Pre-Publication Review Queue refresh. REFRESHED 2026-05-26 at the post-reconsideration + post-Phase-C-γ + post-Phase-C-δ chapter state (commit `8cfd3c2`). Sample-chapter READY-TO-SUBMIT alongside Ch 5 (`3a4f774`). All five Stage 3 sub-passes CLOSED + ratified. Stage 4 RE-RATIFIED CLEAN. Stage 5 RE-SIGN-OFF PASS. Aeon Version C pitch fire window Sun May 31 14:01 UTC coordinated overlap discipline preserved.*

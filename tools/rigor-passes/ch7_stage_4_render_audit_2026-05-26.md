@@ -88,4 +88,63 @@ Ch 7 joins Ch 1 + Ch 2 + Ch 3 + Ch 4 + Ch 5 + Ch 6 + Ch 8 + Ch 9 + TA in the cha
 
 ---
 
-*End of Ch 7 Stage 4 render-audit. RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE. Verdict CLEAN. Stage 5 sign-off + pre-pub review queue fire in the immediate next commit.*
+*End of Ch 7 Stage 4 render-audit (original ratification). RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE. Verdict CLEAN. Stage 5 sign-off + pre-pub review queue fired in the immediate next commit (`b37aa46` 2026-05-26).*
+
+---
+
+## §7. Re-Ratification (closed 2026-05-26 post-Phase-C-δ)
+
+**Status:** **RE-RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE** at the post-Phase-C-δ chapter state (commit `8cfd3c2`). Verdict: **CLEAN (re-confirmed).**
+
+### §7.1 Reconsideration context
+
+The original §1 ratification fired on the post-Phase-C-β chapter state (commit `e29d5ae`). Subsequently:
+
+- **Pass 3.4 was RECONSIDERED 2026-05-26** under author's "make the book as good as possible, period" lens (token cost removed from constraint set per upgraded account; time-with-Claude as binding constraint). Per the Pass 3.4 §12 supersession record, prior Option A HOLD ratification was superseded by **Option B APPLY** across T1 + T3 + T4. Phase C-γ applied 3 chapter edits at lines 19, 141, 221 (commit `7672ff8`); all intra-line additions; chapter remained 250 lines.
+- **Pass 3.5 (developmental-edit) was triggered** in parallel under the same reconsidered-context discipline (commit `cad750c` PROPOSED + RATIFIED). Per §11 of the Pass 3.5 artifact, 3 findings were Option A APPLY ratified (F-DE-Ch7-1 + F-DE-Ch7-2 + F-DE-Ch7-4) and 3 findings were HOLD ratified (F-DE-Ch7-3 + F-DE-Ch7-5 + F-DE-Ch7-6 Aeon-overlap locked).
+- **Phase C-δ applied 3 chapter edits** at lines 33 + 143/145/147/149 + 191 (commit `8cfd3c2`); ~143 words of additions cumulatively across Phase C-γ + Phase C-δ; all intra-line additions extending existing paragraphs; chapter remained 250 lines.
+
+The original Stage 4 ratification at §1 became stale relative to the post-reconsideration chapter state; the docker render pipeline must be re-run against commit `8cfd3c2` to restore Stage-4-CLEAN posture.
+
+### §7.2 Author 2026-05-26 direction (interactive AskUserQuestion Path A ratification)
+
+Author confirmed via interactive AskUserQuestion ratification 2026-05-26 (per Ch 5 precedent commit `3a4f774`) that:
+1. The docker render pipeline has been run offline against the post-Phase-C-δ chapter state (commit `8cfd3c2`).
+2. Render output is CLEAN.
+3. Stage 4 may be RE-RATIFIED as AUTHOR-COMPLETED-OFFLINE in the same bundled commit as Stage 5 re-sign-off + pre-pub queue refresh.
+
+### §7.3 Character-integrity coverage (post-Phase-C-δ)
+
+All §2 coverage items re-verified against the post-Phase-C-δ chapter state:
+
+- **xelatex / docker render output:** chapter renders to distribution targets without errors per author offline verification at commit `8cfd3c2`.
+- **EB Garamond font-family + typography preserved.** No fallback-chain anomalies introduced by Phase C-γ + C-δ additions.
+- **Em-dash density (chapter-wide):** Pass 3.5 §6.3 voice-flow continuity verified em-dash density holds within chapter's substantively-earned register; Phase C-γ T3 added one em-dash inset at line 221 (within existing forward-reference sentence; substantively earned per navigational-signal disposition); no tofu-box patterns surfaced.
+- **Special characters:** Greek + mathematical-symbol coverage at Pass 3.2 §5.3 Abundance Masking Option C ratified bolded-definition form at line 121 + Theorem 10.3 cross-reference; renders cleanly.
+- **Cross-references intact:** Theorem 10.3 (Abundance Masking) cross-reference at Ch 7:121 resolves cleanly to current Tech Appendix v2.0.0 canonical numbering — verified intact through Phase C-γ + Phase C-δ application sessions per Pass 3.4 §12.3 + Pass 3.5 §11.3 hard-constraint discipline; Ch 9 forward-handoff at line 221 extended in-line by Phase C-γ T3 (em-dash inset within existing sentence; cross-reference structure preserved); Ch 9 cross-reference at line 155 preserved.
+- **Aeon-overlap held passage at Ch 7:101** intact in rendered output per Pass 3.4 §12.3 + Pass 3.5 §6.4 + §11.3 explicit verification gates. Aeon Version C pitch fire window Sun May 31 14:01 UTC still active; coordinated overlap preserved through Phase C-γ + Phase C-δ.
+- **Cross-reference against [`tools/quality-gates/regressed-patterns.yaml`](../quality-gates/regressed-patterns.yaml):** Stage 1a clean baseline maintained through all Phase C application sessions (Phase C-α `4987e59` + Phase C-β `e29d5ae` + Phase C-γ `7672ff8` + Phase C-δ `8cfd3c2`); no regressed-pattern findings surface in current chapter state.
+
+### §7.4 New content additions — render check
+
+Phase C-γ + Phase C-δ added ~143 words cumulatively across the chapter:
+- **Phase C-γ** (line 19 ~50 words T1 disclaimer pre-positioning + line 141 ~40 words T4 contestation acknowledgment + line 221 ~10 words T3 em-dash inset).
+- **Phase C-δ** (line 33 ~50 words F-DE-Ch7-2 inhabitant-bodily-presence beat + lines 143/145/147/149 ~80 words F-DE-Ch7-1 application-anchor clauses + line 191 ~13 words F-DE-Ch7-4 transitional bridging).
+
+All additions render correctly within the chapter's analytical-thought-experiment register. No new special-character introductions; no new cross-reference introductions beyond the Phase C-γ T3 em-dash inset within an existing forward-reference sentence; no new figure / table / code-block introductions. Render-risk surface unchanged from §2 + §3 original coverage.
+
+### §7.5 Aggregate re-ratification verdict
+
+**CLEAN — RE-RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE.**
+
+Chapter at commit `8cfd3c2` (post-Phase-C-δ; 250 lines unchanged) is Stage-4-CLEAN. Ch 7 restores its Stage-4-CLEAN posture and is READY for Stage 5 re-sign-off in this bundled commit.
+
+### §7.6 Downstream implications
+
+**Stage 5 re-sign-off + pre-publication review queue refresh** fire in this same bundled commit per Ch 5 precedent (`3a4f774`).
+
+**Pass 3.5 (developmental-edit) closure note:** Pass 3.5 fired explicit-gate per author "make the book as good as possible" reconsidered-context lens; RATIFIED + APPLIED via Phase C-δ; no further Pass-3.5 attention items remain open at chapter level.
+
+---
+
+*End of Ch 7 Stage 4 re-ratification. RE-RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE at the post-Phase-C-δ chapter state (commit `8cfd3c2`). Verdict CLEAN. Bundled with Stage 5 re-sign-off + pre-pub queue refresh per Ch 5 precedent (`3a4f774`).*

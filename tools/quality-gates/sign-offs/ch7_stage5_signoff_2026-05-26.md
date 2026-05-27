@@ -274,4 +274,98 @@ After Stage 5 ratification:
 
 ---
 
-*End of Chapter 7 (On Other Worlds) Stage 5 bookend pre-publication sign-off. RATIFIED 2026-05-26. PASS verdict. Sample-chapter READY-TO-SUBMIT alongside Ch 5. Aeon Version C pitch fire window Sun May 31 14:01 UTC coordinated overlap discipline preserved.*
+*End of Chapter 7 (On Other Worlds) Stage 5 bookend pre-publication sign-off (original ratification). RATIFIED 2026-05-26. PASS verdict. Sample-chapter READY-TO-SUBMIT alongside Ch 5. Aeon Version C pitch fire window Sun May 31 14:01 UTC coordinated overlap discipline preserved.*
+
+---
+
+## §11. Re-Sign-Off (closed 2026-05-26 post-reconsideration + post-Phase-C-γ + post-Phase-C-δ)
+
+**Status:** **RE-RATIFIED 2026-05-26** — bundled with Stage 4 re-ratification + pre-pub queue refresh in this same commit per Ch 5 precedent (`3a4f774`). **PASS overall (re-confirmed).** Ch 7 RESTORES READY-TO-SUBMIT status at the post-reconsideration chapter state (commit `8cfd3c2`).
+
+### §11.1 Reconsideration cascade summary
+
+The original §0–§10 sign-off (closed `b37aa46` 2026-05-26) fired on the post-Phase-C-β chapter state (commit `e29d5ae`). Subsequently, author reconsidered the Pass 3.4 HOLD ratification under the "make the book as good as possible, period" lens (token cost removed from constraint set per upgraded account; time-with-Claude as binding constraint); this triggered Pass 3.4 reconsideration → Phase C-γ application → Pass 3.5 developmental-edit explicit-gate firing → Phase C-δ application.
+
+Full post-reconsideration Stage 3 cascade:
+
+| Pass | Commit(s) | Disposition (post-reconsideration) |
+|---|---|---|
+| 3.1 fact-check | `4948dbb` + `4987e59` | CLOSED 2026-05-20; 7 chapter spot-fixes + bibliography §13 paired edits |
+| 3.2 voice-polish | `440906f` + `e29d5ae` | CLOSED 2026-05-21; 5 chapter edits at lines 21, 85, 121, 195, 229 |
+| 3.3 acceptance | `697bcd2` + `0a3de00` | CLOSED 2026-05-25; Option A HOLD on §8.3; 30/30 INCLUDE; STRONG |
+| 3.4 robustness (original) | `8c8f1f5` + `d46a6ae` | CLOSED 2026-05-26; Option A HOLD (SUPERSEDED) |
+| **3.4 robustness (reconsidered)** | `7672ff8` | **RECONSIDERED 2026-05-26; Option B APPLY across T1+T3+T4 per §12 supersession; Phase C-γ applied same commit** |
+| **3.5 developmental-edit** | `cad750c` + `8cfd3c2` | **PROPOSED + RATIFIED 2026-05-26; 3 Option A APPLY (F-DE-Ch7-1 + F-DE-Ch7-2 + F-DE-Ch7-4) + 3 HOLD; Phase C-δ applied `8cfd3c2`** |
+| **Stage 4** | `e1b4d6d` (original) + this commit (re-ratification) | **RE-RATIFIED 2026-05-26 author-completed-offline at post-Phase-C-δ chapter state (`8cfd3c2`); CLEAN re-confirmed** |
+| **Stage 5** | `b37aa46` (original) + this commit (re-sign-off) | **RE-RATIFIED 2026-05-26; PASS re-confirmed (this §11)** |
+
+Chapter line count: 250 (unchanged through both Phase C-γ + Phase C-δ; all edits intra-line additions extending existing paragraphs).
+
+### §11.2 Academic-rigor re-sign-off
+
+§1 verdicts re-verified at the post-Phase-C-δ chapter state:
+
+- **§1.1 No drift through pipeline:** Framework apparatus discipline holds (Items 7/10/12/14/15); Pass 3.2 §5.3 Abundance Masking Option C bolded-definition canonical at line 121 holds; Theorem 10.3 cross-reference at Ch 7:121 matches Tech Appendix v2.0.0 (verified intact through Phase C-γ + Phase C-δ per Pass 3.4 §12.3 + Pass 3.5 §11.3 hard-constraint discipline); Stern-Nordhaus-Hartwick discount-rate lineage at line 73 preserved; Aeon-overlap held passage at Ch 7:101 intact + verified through full reconsideration cascade. **Bostrom-lineage citation discipline extended:** Phase C-γ T4 inserted single-sentence contestation acknowledgment at line 141 ("That lineage has been the subject of substantial contestation in recent years — both around population-ethics commitments internal to the philosophical literature and around EA-movement positioning external to it.") between the lineage citation and the existing scope-disclaimer; tight design preserves Streisand-effect bounding via retention of immediately-following scope-disclaimer.
+- **§1.2 Pass 3.1 fact-check findings:** PASS unchanged.
+- **§1.3 Pass 3.4 adversarial thread-pull diagnoses:** **Re-dispositioned.** Per Pass 3.4 §12 supersession:
+  - T1 (Mars-canonization disclaimer pre-positioning) — **RATIFIED APPLY Option B** at line 19 (Phase C-γ); disarms both Pass 3.3 character #17 skim-read concern AND Pass 3.4 A1 disclaimer-position thread in single addition.
+  - T3 (Public-Choice cross-chapter forward-reference) — **RATIFIED APPLY Option B** at line 221 (Phase C-γ em-dash inset within existing Chapter 9 forward-reference sentence); navigational signal of intellectual care to sophisticated readers; routes through closed cross-chapter Public-Choice engagement at Ch 9 + TA §1.10.
+  - T4 (Bostrom-lineage longtermism contestation acknowledgment) — **RATIFIED APPLY Option B (carefully designed)** at line 141 (Phase C-γ); Streisand-effect risk bounded by tight design + retention of existing scope-disclaimer immediately following.
+  - T2 + T5 + T6 + T7 + T8 — RATIFIED HOLD with pre-pub-queue acknowledgments (unchanged from §1.3 original).
+- **§1.4 Stage 4 render-integrity verdict:** **RE-RATIFIED CLEAN** per §7 of `tools/rigor-passes/ch7_stage_4_render_audit_2026-05-26.md` (bundled in this commit; author-managed-offline docker render against post-Phase-C-δ chapter state `8cfd3c2`).
+- **§1.5 Academic-rigor verdict:** **PASS (re-confirmed).**
+
+### §11.3 Prose-quality re-sign-off
+
+§2 verdicts re-verified at the post-Phase-C-δ chapter state:
+
+- **§2.1 No regressed-pattern matches:** Stage 1a clean baseline maintained through Phase C-α + Phase C-β + Phase C-γ + Phase C-δ application sessions; no regressed-pattern matches surface in current chapter state. **PASS (CLEAN-BASELINE).**
+- **§2.2 Pass 3.2 voice-polish findings:** Unchanged from §2.2 original. **PASS.**
+- **§2.3 Voice register maintained:** Phase C-γ T1 + T4 additions hold expository-third-person + analytical-thought-experiment register; Phase C-δ F-DE-Ch7-2 inhabitant-bodily-presence beat at line 33 grounds abstract administrator in lived-population stakes via specific physicality (grandchildren / kindergarten classroom / agricultural domes), compounding the discount-factor analytical claim at line 43; Phase C-δ F-DE-Ch7-1 application-anchor clauses at lines 143/145/147/149 close Pass 3.4 §6 pre-identified apparatus-density-spike flag while preserving analytical register; Phase C-δ F-DE-Ch7-4 transitional bridging at line 191 gives objection-response hinge-point transitional breath. **PASS (re-confirmed).**
+- **§2.4 No scaffolding leakage:** Zero substantive scaffolding tokens in Ch 7 prose; Stage 1a clean baseline maintained through Phase C-γ + C-δ. **PASS.**
+- **§2.5 Pass 3.3 acceptance verdict holds:** Pass 3.3 §8.3 deferred Option B reconsideration is partially absorbed by the Phase C-γ T1 Option B line-19 application (per Pass 3.4 §12.4 — Pass 3.3 character #17 skim-read concern is disarmed by the same addition that disarms Pass 3.4 A1; no further Pass 3.3 §8.3 action required). Pass 3.5 §7.1 cross-character impact analysis: Phase C-δ restorations **strengthen** Pass 3.3 acceptance verdict at Char 2 (trade-press editor) + Char 6 (sample-chapter-evaluating agent) + Char 8 (climate-policy generalist reader) — F-DE-Ch7-2 inhabitant-bodily-presence beat + F-DE-Ch7-1 application-anchor clauses + F-DE-Ch7-4 objection-response breath all materially raise sample-chapter readability without compromising analytical register. **PASS (strengthened).**
+- **§2.6 Prose-quality verdict:** **PASS (re-confirmed + strengthened by Phase C-δ restorations).**
+
+### §11.4 Pre-publication review queue re-ratification
+
+§3 GENERATED + RATIFIED 2026-05-26 (original); **REFRESHED in this commit** per §10 append in `tools/pre-submission-reviews/ch7_pre_pub_review_queue_v1.0.0.md`. All mandatory items present per Stage 5 doctrine §2.4 + §3 (re-verified):
+
+- ✓ §1 internal-verification inventories updated for post-Phase-C-γ + post-Phase-C-δ chapter state.
+- ✓ §2 external-verification-gap inventories updated: T1 + T3 + T4 Pass 3.4 acknowledgments rebalanced to reflect that Phase C-γ explicit-disarm applications have moved these from "acknowledged-procedurally-spot-fixable" → "addressed-in-chapter-prose-with-residual-external-review-recommendation." Pass 3.5 explicit-gate NO-LONGER-not-triggered; **3.5 RATIFIED + APPLIED** disposition recorded.
+- ✓ §3 recommended external reviewer types: existential-risk academic priority **elevated** for Phase C-γ T4 contestation-acknowledgment scope-disclaimer-sufficiency check (line 141); materials-science / industrial-applications specialist **newly added** for Phase C-δ F-DE-Ch7-1 application-anchor clause technical claims (neodymium-dysprosium permanent-magnet motors; platinum-palladium fuel-cell catalysts; gallium-germanium-indium semiconductor architectures; uranium-thorium fuel-cycle alternatives; lithium sodium-ion / solid-state research; cobalt iron-phosphate cathodes; oil transport-fuel-and-feedstock; copper conductive-wiring; zinc galvanization-and-battery-chemistries).
+- ✓ §4 highest-priority sections rank-ordered (unchanged; Phase C-δ additions strengthen the existing rank-ordering rather than shift it).
+- ✓ §5 cross-references updated.
+- ✓ §6 ratification disposition log + §10 refresh-disposition log.
+
+### §11.5 Stage 5 re-sign-off verdict
+
+**PASS (re-confirmed)** — Ch 7 RESTORES READY-TO-SUBMIT status at the post-reconsideration chapter state (commit `8cfd3c2`).
+
+Per Stage 5 doctrine §4:
+- Academic-rigor re-sign-off (§11.2): PASS (re-confirmed; T1 + T3 + T4 re-dispositioned APPLY; Phase C-γ applied).
+- Prose-quality re-sign-off (§11.3): PASS (re-confirmed + strengthened by Phase C-δ restorations).
+- Pre-publication review queue refresh (§11.4): RE-RATIFIED.
+- Stage 4 re-ratification (§7 of render-audit artifact): RE-RATIFIED CLEAN.
+
+**Overall: PASS (re-confirmed).** Ch 7 is publisher-ship-ready at the **strongest defensible publication-ready state** under author "make the book as good as possible, period" reconsidered-context lens. All five Stage 3 sub-passes CLOSED + ratified (3.1 + 3.2 + 3.3 + 3.4 RECONSIDERED + 3.5); Phase C-α + C-β + C-γ + C-δ all applied; Stage 4 RE-RATIFIED CLEAN; pre-pub queue REFRESHED.
+
+Ch 7 is **READY-TO-SUBMIT at the sample-chapter level** per workstream handoff line 333 default selection alongside Ch 5 (Ch 5 RATIFIED `3a4f774` 2026-05-26; both chapters now at post-Pass-3.5 strongest-defensible state).
+
+### §11.6 Aeon-overlap held passage discipline
+
+Aeon-overlap held passage at Ch 7:101 ("structural test the same" + "self-imposed commute lease") **intact** through full reconsideration cascade (Pass 3.4 §12.3 + Pass 3.5 §6.4 + §11.3 explicit verification gates). Aeon Version C pitch fire window Sun May 31 14:01 UTC still active; coordinated overlap discipline **preserved** through Phase C-γ + Phase C-δ. Hold disposition stable through full pipeline.
+
+### §11.7 Cross-references (updated)
+
+- Pass 3.4 reconsideration: §12 supersession in [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch7_on_other_worlds_stage3_pass_3_4_audience_load_robustness_v1.0.0.md`](../../rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch7_on_other_worlds_stage3_pass_3_4_audience_load_robustness_v1.0.0.md) — RECONSIDERED `7672ff8` (Option B APPLY across T1+T3+T4; Phase C-γ same commit)
+- Pass 3.5 developmental-edit: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch7_on_other_worlds_stage3_pass_3_5_developmental_edit_v1.0.0.md`](../../rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch7_on_other_worlds_stage3_pass_3_5_developmental_edit_v1.0.0.md) — PROPOSED + RATIFIED `cad750c` (3 Option A APPLY + 3 HOLD)
+- Phase C-γ application: commit `7672ff8` (3 edits at lines 19, 141, 221)
+- Phase C-δ application: commit `8cfd3c2` (3 edits at lines 33 + 143/145/147/149 + 191)
+- Stage 4 re-ratification: §7 of [`tools/rigor-passes/ch7_stage_4_render_audit_2026-05-26.md`](../../rigor-passes/ch7_stage_4_render_audit_2026-05-26.md) (this bundled commit)
+- Pre-pub queue refresh: §10 of [`tools/pre-submission-reviews/ch7_pre_pub_review_queue_v1.0.0.md`](../../pre-submission-reviews/ch7_pre_pub_review_queue_v1.0.0.md) (this bundled commit)
+- Ch 5 precedent (bundled-closure pattern): commit `3a4f774` Ch 5 Phase C complete bundle 2026-05-26
+- PM handoff (chapter-by-chapter best-possible-book review context): [`tools/workstream-handoffs/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md`](../../workstream-handoffs/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md)
+
+---
+
+*End of Chapter 7 (On Other Worlds) Stage 5 re-sign-off. RE-RATIFIED 2026-05-26 PASS at the post-reconsideration chapter state (commit `8cfd3c2`). Sample-chapter READY-TO-SUBMIT alongside Ch 5 (Ch 5 RATIFIED `3a4f774`). All five Stage 3 sub-passes CLOSED + ratified. Phase C-α + C-β + C-γ + C-δ all applied. Stage 4 RE-RATIFIED CLEAN. Pre-pub queue REFRESHED. Aeon Version C pitch fire window Sun May 31 14:01 UTC coordinated overlap discipline preserved.*
