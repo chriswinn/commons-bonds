@@ -1,7 +1,7 @@
-# Stage-3 Rigor Pass — Atlantic Ideas essay — Pass 3.3: Audience-load acceptance [PROPOSED]
+# Stage-3 Rigor Pass — Atlantic Ideas essay — Pass 3.3: Audience-load acceptance [RATIFIED]
 
-**Date:** 2026-05-26
-**Status:** PROPOSED — awaits author ratification. Pass 3.3 produces character-verdicts; no prose modification. Per pipeline doctrine v1.0.0 §3.7.1, Pass 3.3 is OUT of Amendment C interactive-ratification scope (verification pass; doesn't directly propose prose — if any character returns EXCLUDE with a spot-fix recommendation, the spot-fix routes through a separate Amendment C session combining ratification + application).
+**Date:** 2026-05-26 (PROPOSED + RATIFIED same-session per author "ratify as recommended and proposed" signal).
+**Status:** **RATIFIED** — per pipeline doctrine v1.0.0 §3.7.1, Pass 3.3 is OUT of Amendment C interactive-ratification scope (verification pass; produces character-verdicts; no prose modification). PASS verdict with 0 EXCLUDE / 0 NEAR-EXCLUDE; ratification closes the Pass 3.3 cycle with no follow-on Amendment C session needed. ⚠ caution flag (Tier 2 #5 center-right Marx-citation skim-read risk) forwarded to Pass 3.4 adversarial robustness as carry-forward thread-pull test F-3.3-Atlantic-Marx-Caution.
 **Pass type:** Stage 3 Pass 3.3 — Audience-load acceptance (third of five passes per v3.1 doctrine).
 **Workstream:** Atlantic Ideas essay (Ch 9 → Atlantic Ideas cascade per [`publishing/strategy/cascade-plan_2026-05-06.md`](../../publishing/strategy/cascade-plan_2026-05-06.md)).
 **Artifact audited:** [`publishing/essays/atlantic-ideas-pricing-honestly/essay.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/essay.md) (post-Pass-3.2-Phase-C-application state; 95 lines / 4,234w; main HEAD `0e8810d` at audit-fire time).
@@ -437,4 +437,4 @@ Ch 9 ([`manuscript/chapters/Chapter__9_PricingHonestly.md`](../../manuscript/cha
 
 ---
 
-*End of Stage 3 Pass 3.3 audience-load acceptance rigor pass artifact for Atlantic Ideas essay — PROPOSED 2026-05-26. Awaits author ratification. PASS verdict: Tier 1 all INCLUDE; Tier 2 12 INCLUDE + 1 INCLUDE-with-caution forwarded to Pass 3.4; Tier 3 all INCLUDE. Critical pipeline (#5 center-right) INCLUDES with one Marx-citation skim-read caution.*
+*End of Stage 3 Pass 3.3 audience-load acceptance rigor pass artifact for Atlantic Ideas essay — PROPOSED 2026-05-26 / **RATIFIED 2026-05-26** per author "ratify as recommended and proposed" signal. PASS verdict: Tier 1 all INCLUDE; Tier 2 12 INCLUDE + 1 INCLUDE-with-caution forwarded to Pass 3.4; Tier 3 all INCLUDE. Critical pipeline (#5 center-right) INCLUDES with one Marx-citation skim-read caution forwarded to Pass 3.4 adversarial robustness as F-3.3-Atlantic-Marx-Caution. Per pipeline doctrine §3.7.1, ratification closes the Pass 3.3 cycle with no Amendment C application session needed.*
