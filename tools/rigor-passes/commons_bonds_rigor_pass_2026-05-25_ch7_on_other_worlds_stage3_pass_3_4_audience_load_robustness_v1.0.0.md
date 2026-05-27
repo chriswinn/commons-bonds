@@ -689,4 +689,51 @@ After Stage 4: **Stage 5 (academic-rigor + prose-quality sign-off bookend + pre-
 
 ---
 
-*End of Ch 7 Stage-3 Pass 3.4 ratification record. CLOSED 2026-05-26. Option A HOLD across §8 (T1 + T3 + T4 all default). No Phase C-γ required. Stage 3 audit CLOSES for Ch 7. Stage 4 RATIFIED author-offline (forthcoming commit). Stage 5 sign-off + pre-pub queue forthcoming.*
+## §12. Ratification record — RECONSIDERED (closed 2026-05-26; supersedes §11)
+
+§11 above is **superseded**. Author reconsidered the prior Option A HOLD ratification 2026-05-26 under new context (author account upgrade; token cost removed from constraint set; time-with-Claude as the binding constraint; goal: "make the book as good as possible, period").
+
+### §12.1 Author context-for-decisions framing (captured verbatim)
+
+> "I have upgraded my account again and running out of tokens is no longer an issue. So now the only constraint is time interacting with you, which I'm trying to maximize via parallel sessions during my summer break from school. So the goal here is make the book as good as possible. period. So with that context, would approaching the findings in phase 3.4 here with a defensive approach make the book stronger or weaker? and which path would likely help the book align better with its success criteria?"
+
+The reconsidered lens: with token cost removed and the goal as stated, the §11 HOLD recommendation — which had been substantially grounded in "saving Phase C-γ tokens for higher-impact future work" + "good enough" + "substantively defensible-as-is" — no longer aligns with the criterion the author set. Pass 3.4 §8 itself flagged all three threads as procedurally-spot-fixable + bounded + low-touch. Under the reconsidered lens, applying the three spot-fixes makes the book stronger for sample-chapter target audiences (agents + acquisitions editors, who are skim-readers by job description per workstream handoff line 333 default sample-chapter selection); the only argument for HOLD that survives the reconsideration is Streisand-effect risk on T4, which is bounded by careful design (single-sentence acknowledgment within existing scope-disclaimer paragraph, not a new defensive paragraph).
+
+### §12.2 Reconsidered §8 disposition (supersedes §11 + §11.1)
+
+| Thread | Prior §11 disposition | Reconsidered disposition | Edit |
+|---|---|---|---|
+| **T1 — Mars-canonization disclaimer pre-positioning** | Option A HOLD | **Option B APPLY** | Ch 7:19 — append 2 sentences to existing "A note on the choice of setting" paragraph: *"To be explicit about the kind of claim being made here: Mars functions as a stress-test setting for the framework's logic, not as advocacy for off-world inhabitation. The policy question of whether humanity should pursue Mars settlement is engaged on its own terms later in the chapter, and the framework holds whatever answer that policy question turns out to have."* Disarms both Pass 3.3 character #17 skim-read concern AND Pass 3.4 A1 disclaimer-position thread in single addition. Substantive disclaimer at lines 195–199 preserved at its earned location. |
+| **T3 — Public-Choice cross-chapter forward-reference** | Option A HOLD | **Option B APPLY** | Ch 7:221 — insert em-dash inset into existing Chapter 9 forward-reference sentence: *"…how to architect accountability instruments whose verification structure resists the simulated-reattachment adaptation **— a design problem that engages the Public Choice tradition's rent-seeking-architecture analysis at depth —** and what the existing partial-implementations…"* Navigational signal of intellectual care to sophisticated readers; routes through the closed cross-chapter Public-Choice engagement at Ch 9 + TA §1.10. |
+| **T4 — Bostrom-lineage longtermism contestation acknowledgment** | Option A HOLD | **Option B APPLY (carefully designed)** | Ch 7:141 — insert single contestation-acknowledgment sentence between existing lineage citation and existing scope-disclaimer: *"That lineage has been the subject of substantial contestation in recent years — both around population-ethics commitments internal to the philosophical literature and around EA-movement positioning external to it."* One sentence inside existing paragraph; does NOT introduce new defensive paragraph; Streisand-effect risk bounded by tight design + retention of existing scope-disclaimer immediately following. |
+
+### §12.3 Phase C-γ scope (this commit)
+
+**3 prose edits to `manuscript/chapters/Chapter__7_OnOtherWorlds.md`** at:
+- **Line 19** — T1 Option B (2-sentence methodological-vs-advocacy clause appended to "A note on the choice of setting" paragraph)
+- **Line 141** — T4 Option B (1-sentence contestation acknowledgment inserted into Bostrom-lineage paragraph)
+- **Line 221** — T3 Option B (em-dash inset within Chapter 9 forward-reference sentence)
+
+All three edits intra-line; no line-count change (chapter remains 250 lines).
+
+**Verification gates passed:**
+- Line count: 250 (unchanged ✓)
+- Theorem 10.3 (Abundance Masking) cross-reference at Ch 7:121: intact ✓
+- Aeon-overlap held passage at Ch 7:101 ("structural test the same" + "self-imposed commute lease"): intact ✓
+- Pass 3.1 Phase C-α edit lines (19, 33, 197, 213, 215, 241): all preserved (T1 EXTENDS the line-19 paragraph rather than replacing Pass 3.1 content; "extensively measured" framing + Mars-mission chronology intact) ✓
+- Pass 3.2 Phase C-β edit lines (21, 85, 121, 195, 229): all untouched ✓
+- All three edit-application signals present: "Mars functions as a stress-test setting" (1 match at line 19), "Public Choice tradition's rent-seeking-architecture" (1 match at line 221), "subject of substantial contestation in recent years" (1 match at line 141) ✓
+
+### §12.4 Downstream implications
+
+- **Pass 3.5 (developmental-edit) is firing in parallel** under the same reconsidered-context discipline (worktree-isolated agent session). Pass 3.5's findings will land in a separate artifact; if Pass 3.5 surfaces ratify-worthy spot-fixes, Phase C-δ application will follow.
+- **Stage 4 RATIFIED (`e1b4d6d` 2026-05-26)** + **Stage 5 sign-off (`b37aa46` 2026-05-26)** were generated PRE-RECONSIDERATION. Both become stale after this Phase C-γ commit + any post-Pass-3.5 Phase C-δ edits. **Stage 4 re-ratification + Stage 5 re-sign-off will be required post-Pass-3.5-disposition** to restore READY-TO-SUBMIT status at the post-Phase-C-γ + post-Phase-C-δ chapter state.
+- **Pass 3.3 §8.3 deferred Option B reconsideration is partially absorbed by this T1 Option B application.** Pass 3.3 character #17 skim-read concern is disarmed by the same line-19 addition that disarms Pass 3.4 A1. No further Pass 3.3 §8.3 action required.
+
+### §12.5 PM session note (chapter-by-chapter best-possible-book review)
+
+Per author direction 2026-05-26, the same reconsidered-context lens should be applied to all chapters with outstanding HOLD decisions on Pass 3.4 (or any other pass's §8 author-judgment items). PM-session handoff scheduled at `tools/workstream-handoffs/chapter-by-chapter-best-possible-book-review-handoff_2026-05-26.md` (forthcoming commit). Ch 7 is the worked-example precedent for the reconsideration discipline.
+
+---
+
+*End of Ch 7 Stage-3 Pass 3.4 RECONSIDERED ratification record. CLOSED 2026-05-26. Option B APPLY across §8 (T1 + T3 + T4); §11 above superseded by §12. Phase C-γ application in same commit as this §12 append. Pass 3.5 firing in parallel under same reconsidered-context discipline. Stage 4 re-ratification + Stage 5 re-sign-off required post-Pass-3.5-disposition.*
