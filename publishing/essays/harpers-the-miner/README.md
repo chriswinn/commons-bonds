@@ -7,7 +7,7 @@
 
 ## Essay status
 
-- **Word count:** ~9,500w body (target band 8,000–11,000w; ceiling 15,000w)
+- **Word count:** 7,216w body (below target band 8,000–11,000w floor by 784w; sits in brief §12 no-auto-flag band 6,500–12,000w; substance-drives-length disposition per PC-4 ratification 2026-05-27 defers to Pass 3.5 developmental-edit for restoration-polarity identification; ceiling 15,000w)
 - **Stage 1 brief:** PROPOSED 2026-05-26 commit `3d1810b` — `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md`
 - **Stage 2 draft:** PROPOSED 2026-05-27 (this file)
 - **Stage 3 cycle:** NOT STARTED — fires in subsequent sessions after author ratifies Stage 2 draft
