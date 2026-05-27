@@ -1,7 +1,28 @@
-# Stage-3 Rigor Pass — Ch 3 → Atlantic main essay — Pass 3.1: Fact-check [PROPOSED]
+# Stage-3 Rigor Pass — Ch 3 → Atlantic main essay — Pass 3.1: Fact-check [RATIFIED + APPLIED]
 
-**Date:** 2026-05-27 (PROPOSED — awaits author per-finding interactive ratification per Amendment C).
-**Status:** **PROPOSED.** 4 HIGH + 6 MEDIUM + 4 LOW = 14 findings; severity-strict HIGH → MED → LOW ordering; per-finding Options + Recommendation + Reasoning per v3.1 Amendment C interactive-ratification protocol. Pass 3.1 fires ALONE in this session; Pass 3.2 voice-polish does NOT advance until author ratifies + (optionally) applies Phase C spot-fixes to the Stage 2 draft.
+**Date:** 2026-05-27 (PROPOSED + RATIFIED + Phase C APPLIED same-day per Amendment C; author direction "ratify all as recommended and proposed; fire the next stage/phase when ready").
+**Status:** **RATIFIED (14 of 14 findings, all Option 1 or otherwise-recommended) + Phase C APPLIED** (10 essay-prose edits on Stage 2 feature branch commit `84d721f`; 3 bibliography additions on Pass 3.1 worktree at `research/literature/bibliography.md` §19.7; F-3.1-2 audit-error correction folded into apply discipline — see §2.F-3.1-2 correction notation below). 4 HIGH + 6 MEDIUM + 4 LOW = 14 findings; severity-strict HIGH → MED → LOW ordering; per-finding Options + Recommendation + Reasoning per v3.1 Amendment C interactive-ratification protocol. Pass 3.1 fires ALONE in this session; Pass 3.2 voice-polish advances in a separate fresh session per per-prompt serial cadence.
+
+**Ratification + Apply summary table:**
+
+| Finding | Severity | Ratified disposition | Apply state | Apply location |
+|---|---|---|---|---|
+| F-3.1-1 wavelength | HIGH | Option 1 (align with chapter) | APPLIED | essay §I line 29 |
+| F-3.1-2 Goldsborough | HIGH | Option 2 (downgraded post-re-read; see §2 correction) | APPLIED (article-only fix; clause was already present) | essay §IV line 73 |
+| F-3.1-3 anonymization re-id | HIGH | Option 1 (replace childhood anchor) | APPLIED | essay §VII line 123 |
+| F-3.1-4 Harris omission | HIGH | Option 1 (restore at §VI paired with Evans) | APPLIED | essay §VI line 111 |
+| F-3.1-5 grandfather | MED | Option 2 (memory-record-grounded characterization) | APPLIED | essay §I line 27 |
+| F-3.1-6 Tangier distance | MED | Option 2 (verify + update) | APPLIED (verified ~15 mi ESE) | essay §VI line 109 |
+| F-3.1-7 Pulitzer date | MED | Option 1 (tighten to 1977 + General Nonfiction) | APPLIED | essay §II line 47 |
+| F-3.1-8 Eskridge duration | MED | Option 1 (tighten to two-decades phrasing) | APPLIED | essay §VI line 111 |
+| F-3.1-9 Colden pummeling | MED | Option 1 (preserve bracket convention) | APPLIED | essay §IV line 71 |
+| F-3.1-10 frontmatter | MED | Option 1 (ACCEPT as intentional annotation) | NO-CHANGE per disposition | Stage 4 + Stage 5 carry-forward |
+| F-3.1-11 Bay length | LOW | Option 2 (add qualifier) | APPLIED | essay §I line 29 |
+| F-3.1-12 Evans ellipsis | LOW | Option 2 (keep period closure) | NO-CHANGE per disposition | — |
+| F-3.1-13 Colden conventions | LOW | Option 1 (keep current) | NO-CHANGE per disposition | — |
+| F-3.1-14 bibliography | LOW | Option 1 (Phase C alongside spot-fixes) | APPLIED | bibliography §19.7 (Warner + Swift + Horton; auto-merge to main) |
+
+**Audit-error correction (F-3.1-2 Goldsborough).** During Phase C apply, re-reading the essay revealed that the load-bearing clause **"so that it can support viable fisheries"** was already present in the Stage 2 draft. The PROPOSED finding text overstated the omission. The only genuine verbatim-quote divergence was the article "the" before "bay" (essay "the health of the bay" vs brief "the health of bay" no article). The apply edit reflects the corrected scope — article-only removal. F-3.1-2 effectively downgrades from HIGH (omission of substantive clause) to MED (single-article verbatim-fidelity divergence). The finding is retained in the artifact for audit-trail integrity rather than rewritten silently; future audits should treat the corrected scope as the authoritative reading. **Discipline lesson:** Pass 3.1 audits should always re-read the exact essay text immediately before drafting verbatim-quote-divergence findings rather than relying on transcribed-into-memory snippets; transcription-induced false-omission claims are an audit failure mode worth naming.
 **Pass type:** Stage 3 Pass 3.1 — Fact-check (first of five passes per v3.1 doctrine; v3.1 Amendment A automatic-on-edit cascade member).
 **Workstream:** Wave 2, Candidate B — Ch 3 *The Waterman* → The Atlantic main magazine derivative essay (Stage 0 GO + Q2 sequencing RATIFIED 2026-05-24; Stage 1 brief RATIFIED 2026-05-27; Stage 2 audience-blind draft RATIFIED 2026-05-27 same-day).
 **Artifact audited:** [`publishing/essays/atlantic-main-chesapeake-watermen/essay.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/essay.md) on feature branch `claude/ch3-atlantic-main-stage2-draft-260527-9fddf1` at commit `144b14e` (Stage 2 RATIFIED 2026-05-27; ~6,871w body across 8 sections §I–§VIII).
@@ -644,14 +665,16 @@ This is not a fact-check error; it is a discipline-cascade trigger. The bibliogr
 - [x] All findings ordered severity-strict HIGH → MED → LOW; per-finding format compliant with v3.1 Amendment C (Location + Current draft text + Canonical source citation + Issue + Resolution + Options + Recommendation + Reasoning).
 - [x] No stage-bundling violations (Pass 3.1 fires ALONE; Pass 3.2 voice-polish does NOT advance until author ratifies + (optionally) applies Phase C spot-fixes).
 - [x] Path B compliance preserved (Ch 3 opened for verification-allowed exception only; no prose-lifting into recommended fixes).
-- [x] Author ratification of Findings F-3.1-1 through F-3.1-14: **PENDING — interactive cadence; per-finding ratification AWAITING author session.**
+- [x] Author ratification of Findings F-3.1-1 through F-3.1-14: **COMPLETE — all 14 findings RATIFIED Option 1 / as-recommended 2026-05-27** via author direction "ratify all as recommended and proposed; fire the next stage/phase when ready."
+- [x] Phase C apply: **COMPLETE — 10 essay-prose edits APPLIED on Stage 2 feature branch (commit `84d721f`); 3 bibliography additions APPLIED on Pass 3.1 worktree (auto-merge to main); 4 findings NO-CHANGE per disposition (F-3.1-10 ACCEPT + F-3.1-12 + F-3.1-13).**
+- [x] F-3.1-2 audit-error correction: **DOCUMENTED in status-table notation; essay edit reflects corrected scope (article-only fix); audit-trail preserved.**
 
 ---
 
 ## §6. End-of-session status
 
 ```
-STATE: PROPOSED (14 of 14 findings PROPOSED: 4 HIGH + 6 MEDIUM + 4 LOW; awaiting author per-finding interactive ratification per Amendment C)
-NEXT: author-action-required — per-finding ratification (one-at-a-time presentation cadence per parallel-session-ratification-cadence memory); Phase C spot-fix application is OPTIONAL at Pass 3.1 close per author direction (may defer to subsequent application session). After Pass 3.1 ratify + (optional) apply: Pass 3.2 voice-polish fires in a separate fresh session per per-prompt serial cadence.
-AWAITING: author per-finding ratification session (one-at-a-time, in severity-strict HIGH → MED → LOW order: F-3.1-1 wavelength → F-3.1-2 Goldsborough → F-3.1-3 anonymization-re-identification → F-3.1-4 Harris-omission → F-3.1-5 grandfather → F-3.1-6 Tangier-distance → F-3.1-7 Pulitzer-date → F-3.1-8 Eskridge-duration → F-3.1-9 Colden-pummeling-brackets → F-3.1-10 frontmatter-scaffolding → F-3.1-11 Bay-length → F-3.1-12 Evans-ellipsis → F-3.1-13 Colden-minor-conventions → F-3.1-14 bibliography).
+STATE: RATIFIED + APPLIED (14 of 14 findings: 4 HIGH + 6 MEDIUM + 4 LOW; all ratified Option 1 or otherwise-recommended 2026-05-27 via author direction "ratify all as recommended and proposed; fire the next stage/phase when ready"; Phase C apply complete same-session — 10 essay-prose edits on Stage 2 feature branch commit 84d721f + 3 bibliography additions at research/literature/bibliography.md §19.7 + 4 NO-CHANGE per disposition; F-3.1-2 audit-error correction documented in status-table notation)
+NEXT: Pass 3.2 voice-polish — fresh session per per-prompt serial cadence. Stage 2 essay file remains on feature branch claude/ch3-atlantic-main-stage2-draft-260527-9fddf1 (commit 84d721f) awaiting full Stage 3 cascade + author final ratification at sign-off gate per CLAUDE.md merge-to-main extended 2026-05-24 (end-user-facing prose stays on feature branch).
+AWAITING: Pass 3.2 voice-polish fresh-session firing (paste-text construction by PM session or author-direct; not gated by this artifact).
 ```

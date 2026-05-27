@@ -1298,6 +1298,35 @@ Sources grounding the L18 Hampton seafood-anchor paragraph added 2026-05-25 at c
 
 ---
 
+## 19.7. Chesapeake regional reportage and literary nonfiction (essay-derivative-cited)
+
+**Status:** APPLIED 2026-05-27 per Ch 3 → Atlantic main essay Stage 3 Pass 3.1 fact-check Finding F-3.1-14 ratification + Stage 1 brief Finding 7 conditional-fire (entries land at Pass 3.1 if Stage 2 cites in body; Stage 2 RATIFIED 2026-05-27 commit `144b14e` cites all three). Pass 3.1 artifact: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_pass_3_1_fact_check_v1.0.0.md`.
+
+**Chapter / essay relevance (all entries):** Ch 3 (Watermen) + Ch 3 → Atlantic main derivative essay (`publishing/essays/atlantic-main-chesapeake-watermen/essay.md`).
+
+### Warner, William W. *Beautiful Swimmers: Watermen, Crabs, and the Chesapeake Bay.* Little, Brown, 1976. Winner of the 1977 Pulitzer Prize for General Nonfiction.
+
+- **Summary:** Canonical Chesapeake-fisheries narrative; embedded reportage on watermen, crabs, and the Bay's working communities at the moment the working fishery had begun its long contraction. Warner walked the bay, sat on the boats, kept his notebook out, and produced a book that working watermen across the Chesapeake recognized as having gotten the work right.
+- **Relevance:** Regional-scholarship lineage anchor for the Ch 3 → Atlantic essay's §II historical-establishment register. Required register-credit for any Chesapeake-fisheries writing post-1976; the essay names Warner once at §II to acknowledge the lineage without paraphrasing the argument.
+- **Status:** APPLIED at essay commit `84d721f` 2026-05-27 (Pass 3.1 Phase C apply).
+- **Grounds:** §II line 47 essay citation — Pulitzer-date precision tightened per F-3.1-7 ratification.
+
+### Swift, Earl. *Chesapeake Requiem: A Year with the Watermen of Vanishing Tangier Island.* Dey Street Books, 2018.
+
+- **Summary:** Year-long embedded reportage on Tangier Island's watermen + the island's slow erosion. Author's positioning is non-academic literary nonfiction; named-voice attribution discipline; cumulative-portrait architecture; refuses to instrumentalize the community for environmental-pedagogy. Treats the island's loss as partial-inevitability + partial-political-failure rather than a single-cause narrative.
+- **Relevance:** Direct subject comp for the Ch 3 → Atlantic essay's §VI Tangier material. The essay names Swift / *Chesapeake Requiem* once at §VI to credit the regional-reportage lineage and to signal to the Atlantic-features reader that the writer is working in awareness of the canonical Tangier work.
+- **Status:** APPLIED at essay commit `84d721f` 2026-05-27 (Pass 3.1 Phase C apply).
+- **Grounds:** §VI line 111 essay citation — preserves the regional-scholarship lineage discipline carry-forward from Stage 1 brief §3 comp-titles cluster.
+
+### Horton, Tom. *An Island Out of Time: A Memoir of Smith Island in the Chesapeake.* W.W. Norton, 1996.
+
+- **Summary:** Smith Island authority — author's embedded year(s) on the island recording the place at the period when the leaving had begun to accelerate. Horton's continuing Chesapeake Bay journalism (*Baltimore Sun*, *Chesapeake Quarterly*) extends the record. The people of Smith Island recognize Horton as a writer who got the place right; the test that matters for regional-reportage credibility.
+- **Relevance:** Smith Island regional-scholarship anchor for the Ch 3 → Atlantic essay's §VI Smith Island material. The essay names Horton / *An Island Out of Time* once at §VI to credit the lineage and signal awareness of the canonical Smith Island work.
+- **Status:** APPLIED at essay commit `84d721f` 2026-05-27 (Pass 3.1 Phase C apply).
+- **Grounds:** §VI line 113 essay citation — preserves the regional-scholarship lineage discipline carry-forward from Stage 1 brief §3 comp-titles cluster.
+
+---
+
 ## 20. Primary documents — Author's Note (family record)
 
 These two NASA patent records are cited in the Author's Note ("On Wind Tunnels and AI") to support the author's family-history claims about his grandfather's NASA Langley work. They are primary historical documents (USPTO patent record + NASA Tech Transfer disclosure), not scholarly literature engaged with by the framework, and are listed here separately to support reader verification. The patent record lists him as Lavern E. Winn; he filed under the initialed form "L. E. Winn" on application paperwork, which complicated initial retrieval. Both records were verified via patent-database searches in May 2026.
