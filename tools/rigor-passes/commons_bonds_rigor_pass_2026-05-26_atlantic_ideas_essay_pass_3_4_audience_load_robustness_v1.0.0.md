@@ -1,7 +1,7 @@
-# Stage-3 Rigor Pass — Atlantic Ideas essay — Pass 3.4: Audience-load robustness [PROPOSED]
+# Stage-3 Rigor Pass — Atlantic Ideas essay — Pass 3.4: Audience-load robustness [RATIFIED]
 
-**Date:** 2026-05-26
-**Status:** PROPOSED — awaits author ratification. Pass 3.4 is a thread-pull synthesis pass (NOT per-character pass/fail per brief §13.4 + pipeline doctrine v1.0.0 §"Stage 3 four-pass"). Output identifies any adversarial threads that surface real cross-chapter or framework-revision issues. If a thread pulls hard enough to warrant cross-chapter work (analog of cross-thread #13), spin up as separate workstream per pipeline doctrine §5 cross-chapter workstream lifecycle. If a thread pulls hard enough to warrant a Pass 3.5-style restoration spot-fix, route through separate Amendment C ratification session.
+**Date:** 2026-05-26 (PROPOSED) / 2026-05-27 (RATIFIED per author "ratify as recommended and proposed" signal).
+**Status:** **RATIFIED** — Pass 3.4 is a thread-pull synthesis pass (NOT per-character pass/fail per brief §13.4 + pipeline doctrine v1.0.0 §"Stage 3 four-pass"). ROBUST verdict with 4 adversarial threads + 2 carry-forward thread-pulls all compression-defensible at essay length. Ratification disposition: ROBUST verdict ratified; F-3.4-Atlantic-1 RECOMMENDED Pass 3.5 spot-fix ratified for Pass 3.5 application; F-3.4-Atlantic-2 + F-3.4-Atlantic-3 OPTIONAL carry-forwards remain author-judgment at Pass 3.5 ratification.
 **Pass type:** Stage 3 Pass 3.4 — Audience-load robustness (fourth of five passes per v3.1 doctrine).
 **Workstream:** Atlantic Ideas essay (Ch 9 → Atlantic Ideas cascade per [`publishing/strategy/cascade-plan_2026-05-06.md`](../../publishing/strategy/cascade-plan_2026-05-06.md)).
 **Artifact audited:** [`publishing/essays/atlantic-ideas-pricing-honestly/essay.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/essay.md) (post-Pass-3.2-Phase-C-application + Pass-3.3-acceptance-PASS state; 95 lines / 4,234w; main HEAD `bcc3a08` at audit-fire time).
@@ -257,4 +257,4 @@ Ch 9 ([`manuscript/chapters/Chapter__9_PricingHonestly.md`](../../manuscript/cha
 
 ---
 
-*End of Stage 3 Pass 3.4 audience-load robustness rigor pass artifact for Atlantic Ideas essay — PROPOSED 2026-05-26. Awaits author ratification. ROBUST verdict: 4 adversarial threads + 2 carry-forward thread-pull tests; all compression-defensible at essay length; 2 RECOMMENDED Pass 3.5 RESTORATION-polarity spot-fix candidates surface (F-3.4-Atlantic-1 Hartwick compression tightening + F-3.4-Atlantic-2 Coase engagement) + 1 author-judgment spot-fix candidate (F-3.4-Atlantic-3 four-traditions ¶3 Marx-citation accommodation). No cross-chapter workstream warranted.*
+*End of Stage 3 Pass 3.4 audience-load robustness rigor pass artifact for Atlantic Ideas essay — PROPOSED 2026-05-26 / **RATIFIED 2026-05-27** per author "ratify as recommended and proposed" signal. ROBUST verdict: 4 adversarial threads + 2 carry-forward thread-pull tests; all compression-defensible at essay length. F-3.4-Atlantic-1 RECOMMENDED Hartwick compression tightening ratified for Pass 3.5 application. F-3.4-Atlantic-2 Coase engagement + F-3.4-Atlantic-3 four-traditions ¶3 Marx-citation accommodation remain OPTIONAL Pass 3.5 author-judgment spot-fixes. No cross-chapter workstream warranted.*
