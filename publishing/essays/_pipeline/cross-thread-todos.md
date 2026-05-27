@@ -183,6 +183,33 @@
 
 ---
 
+### 20. Blurb + Foreword Network — Gated PM-Session Task (fire on agent-signs + on trade-publisher-contract-signs)
+
+- **Surfaced by:** Author direction 2026-05-26 following NYRB multi-book review-essay Stage 0 ratification (commit `d1d3ce5`) which made the top-4 likely-blurber question concrete + load-bearing for proposal §02 + launch reception. Author asked: capture likely blurbers + status + add a gated PM-session task that fires the blurb / foreword request process at the right workflow moment (typically post-publisher-signing).
+- **For-thread:** PM session — fires at two trigger moments (agent-signs + trade-publisher-contract-signs); per-trigger surfaces decisions per `publishing/blurbs/blurb-network-register.md` §3.
+- **Status:** **NEW 2026-05-26 — DORMANT (gated; awaits trigger).** Register populated with 12 candidate entries (10 individual + 1 Patel & Moore joint + 1 Pettit & Skinner cluster).
+- **Context:** Trade nonfiction launch economics depend materially on cover blurbs (4–8 typical) + optional foreword (0–1) + marketing-paragraph endorsements pre-contract. Without a tracked register, blurb planning typically happens late + ad-hoc post-contract; high-leverage warm paths (Darity interview-already-conducted; comp-title lineage authors; mutual-network connections) get under-utilized. Register at `publishing/blurbs/blurb-network-register.md` consolidates who/why-likely/sensitivity-notes/path-to-ask/per-candidate status into single PM-actionable view.
+- **Trigger framework** (per register §1):
+  - **Pre-Wave-1 (now → late Jul 2026):** NO blurb requests. PM surfaces ONLY register-maintenance items (status updates as outreach evolves; candidate additions if new comp-titles surface).
+  - **At agent-signs (target Aug 2026):** **TRIGGER A FIRES.** PM surfaces author decisions per register §3 Phase 3a — (1) foreword strategy (pursue at all? primary + secondary candidates); (2) pre-proposal warm-asks (1–3 warmest-path candidates for marketing-paragraph endorsement).
+  - **At trade-publisher-contract-signs (target 2026–2027):** **TRIGGER B FIRES.** PM surfaces author decisions per register §3 Phase 3b — (3) foreword commitment letter to primary candidate; (4) blurb-candidate prioritization (tier-ordered ask sequence); (5) galley-distribution coordination with publisher's marketing team.
+  - **Throughout galley window (~4–6mo pre-pub):** **TRIGGER C ACTIVE.** PM tracks per-candidate status + collects confirmed quotes per §3 Phase 3c.
+- **PM-tactical notes baked into register §2 (do NOT lose at trigger time):**
+  - **Mazzucato (#1)** — declined different ask 2026-05-21; do NOT fire blurb ask immediately at contract signing; wait for NYRB review-essay to land + be publicly visible (Q4 2026 / Q1 2027). Foreword path likely closed near-term; reconsider post-NYRB-essay-publication.
+  - **Darity (#5)** — warmest path; interview already conducted; outstanding citation feedback (cross-thread-todos #2). At trigger time, Darity is FIRST call for either substantive blurb OR foreword inquiry — discuss with agent which is better ask.
+  - **Sandel (#6)** — strongest foreword candidate from FPD non-partisan-positioning lens; flag for early agent conversation; identify warm path (Harvard Kennedy / Safra Center adjacencies; FSG-author network).
+  - **Tooze (#7)** — Wylie author; if Chalfant/Wylie signs the book, internal-agency blurb ask is materially easier than cold cross-agency.
+  - **Patel & Moore (#9)** — NO bibliography entry; if pursued, bibliography entry build is prerequisite (~3–5h research + write).
+- **Cross-thread interactions:**
+  - **#1 (Sarah Chalfant / Wylie / Mazzucato acknowledgments).** If Wylie path confirms for agent representation, Mazzucato + Tooze internal-agency paths open up materially.
+  - **#2 (Darity post-interview feedback).** Resolution feeds Darity-as-blurber readiness status.
+  - **#8 (Comp-titles deep matrix Phase 2).** Phase 2 work feeds register §2 sensitivity notes + tier rankings; refresh register after Phase 2 lands.
+  - **NYRB multi-book review-essay Stage 0 RATIFIED (`d1d3ce5`).** The essay's success at NR-2 critique-register discipline (Register A signal-positioning) IS the load-bearing protection of the blurb network from public-essay backfire. Register §2 sensitivity notes for Mazzucato/Pistor/Christophers/Susskind tie back to essay's NR-2 condition.
+- **Target resolution:** **DORMANT until Trigger A or Trigger B fires.** No action pre-trigger except register-maintenance (status updates as outreach evolves; new candidate additions if comp-titles surface). PM session adds register-refresh-check to monthly-cadence checklist starting Sep 2026 (post-Wave-1-queries-fire window).
+- **Cross-references:** `publishing/blurbs/blurb-network-register.md` (canonical register); `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md` §11 (comp-titles tiers); `publishing/agents/_shared/post-darity-warm-intro-templates_2026-05-10.md` (Kendi + Mullen + Gates + Cook-Center template-set); `research/literature/bibliography.md` (per-author engagement state); `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md` §4(e) (NR-2 critique-register discipline that protects blurb network from NYRB-essay backfire).
+
+---
+
 ## Resolved
 
 | Resolved date | Item | Resolution |
