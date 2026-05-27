@@ -582,6 +582,39 @@ After this Stage 1b brief RATIFIES interactively (per autonomous-mode adaptation
 4. Atlantic Ideas essay's McDowell hook + Harper's essay's §VI arithmetic floor numerical-anchor consistency at submission time.
 5. `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` presence verification at Stage 2 fire-time; if absent, draft per Wave 1 precedent.
 
+### §18.4 Author ratification record — RATIFIED 2026-05-27
+
+**Driven by:** Phase C ratification session 2026-05-27 (Ch 2 → Harper's pipeline orchestration parent → agent-a3390c00c9b9a4df0 worktree). Interactive ratification per Amendment C Interactive Ratification Protocol; one-finding-at-a-time discipline per [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md). Author disposition: **"ratify all as recommended and proposed; fire next phase/stage when ready"** (single batch disposition pattern; see precedent at Atlantic Ideas Pass 3.3 commit `20e4316` "ratify as recommended and proposed" 2026-05-26 + Atlantic Ideas Pass 3.4 commit `6224af0` 2026-05-27).
+
+Severity-strict ordering applied: HIGH (3 deferred 🔴 from §18.2) → MED (10 default-acceptance from §18.1; item 3 first-person-frame-Option-B-default folded into HIGH-2 not double-counted).
+
+**HIGH ratifications:**
+
+1. **HIGH-1 (§18.2 #1) — Stage 1a invariant-scan execution — RATIFIED Option 1.** Script executed from Phase C session against agent worktree HEAD; clean-baseline artifact written at [`tools/quality-gates/clean-baselines/ch2_harpers_stage1a_2026-05-27.md`](../quality-gates/clean-baselines/ch2_harpers_stage1a_2026-05-27.md). Per-scope verdict CLEAN BASELINE: zero HIGH + zero MEDIUM + zero LOW touching any Ch 2 → Harper's artifact (brief + Stage 2 draft + per-essay README). Corpus-wide scan returned 0 HIGH + 15 MEDIUM + 14 LOW; all MEDIUM/LOW touch pre-existing op-ed pipeline files (Norway + McDowell op-eds canonical-facts + README metadata) and are doctrine-friendly expected matches in the op-ed metadata layer — flagged for separate op-ed pipeline cleanup workstream (NOT this scope).
+
+2. **HIGH-2 (§18.2 #2) — First-person frame Option B (limited first-person) — RATIFIED.** Brief §2 + §4 + §5 recommendation accepted as-proposed. Stage 2 draft executed Option B as drafted (first-person §I opening + §VIII closing return + occasional structural-inflection first-person elsewhere; third-person reportage spine §II–§VII per brief §4 structural table); no redraft required.
+
+3. **HIGH-3 (§18.2 #3) — Scene-shift marker = three-asterisk ornament (`* * *`) — RATIFIED.** Brief §10 render-safe convention recommendation accepted as-proposed. Stage 2 draft executed `* * *` between major sections; no marker within sections per brief §10; convention confirmed at Stage 4 render audit pre-submit per brief §14.
+
+**MED ratifications (§18.1 default-acceptance items 1, 2, 4–11; item 3 folded into HIGH-2):**
+
+4. **MED-1 (§18.1 #1) — Audience set 16 characters across three tiers — RATIFIED.** Per Wave 1 brief precedent + Ch 2 Pass 3.4 adversarial-set carry-forward.
+5. **MED-2 (§18.1 #2) — Editor identity: Christopher Beha as Harper's editor-since-2019 — RATIFIED.** Cover-letter masthead verification at Stage 4 submission time per brief §1.
+6. **MED-3 (§18.1 #4) — Eight-section structure §I scene + §II–§VII reportage spine + §VIII closing return — RATIFIED.** Stage 2 draft executed 8-section structure as drafted per brief §4 table.
+7. **MED-4 (§18.1 #5) — Apparatus-reveal cap concept-level only ~18–22% effective — RATIFIED.** Stage 2 draft executed: cost severance + severed cost + value extraction as plain-prose concepts; Mazzucato + Harvey lineage attribution at §V; no formal apparatus (no equation, no bond decomposition, no Three Ways of Counting, no CIT, no Four Gates, no Cᵢ vocabulary, no ARR, no named-instrument proper nouns) per brief §8 exclusion list.
+8. **MED-5 (§18.1 #6) — Regional-organizing-tradition crediting at §V — RATIFIED.** Stage 2 draft executed: UMWA + Black Lung Association 1968 wildcat strike + Miners for Democracy + Yablonski named in plain prose at §V miner-agency paragraph per Ch 2 Pass 3.4 T8 carry-forward.
+9. **MED-6 (§18.1 #7) — Explicit-meta Condition-1-disarming move at §VIII close — RATIFIED.** Stage 2 draft executed the explicit-meta disarming move at §VIII final paragraph ("The argument I have made here is not a partisan argument... The mechanism of cost severance operates regardless of whether the reader's political starting point is regulatory caution, market discipline, or worker solidarity...") per $100 Barrel 2026-05-21 anchor.
+10. **MED-7 (§18.1 #8) — Path B preemptive policy + 6 verbatim-quote exceptions — RATIFIED.** Six verbatim-quote carry-forwards per named-subject-attribution discipline confirmed in Stage 2 draft: Kennedy Canton 1960 (§II) + Bailey "It's almost like drowning" (§IV) + Bailey "Most laws... have been written with blood..." (§IV) + Latusek "couldn't see your hand in front of your face" (§VIII) + Latusek "outlive Consol" (§VIII) + Latusek "loyalty wasn't there for me" (§VIII). All 6 are brief §6 explicitly-permitted exceptions; no additional Path B violations queued (Pass 3.1 fact-check will run the full Ch 2 diff for any non-permitted echoes).
+11. **MED-8 (§18.1 #9) — Pass 3.4 BY DEFAULT — RATIFIED.** Brief §13 recommendation accepted; Pass 3.4 adversarial robustness fires by default after Pass 3.3 acceptance per long-form literary-essay register's compounded adversarial-pressure exposure + Harper's submission explicit-gate trigger.
+12. **MED-9 (§18.1 #10) — Length target ~8,000–11,000w body / ceiling 15,000w — RATIFIED.** Brief §12 middle-of-band Harper's literary-essay convention accepted as-proposed. Stage 2 draft landed at 7,216w body (below the 8,000–11,000w target band floor by 784w; above the ≤6,500w Stage-3-flag trigger by 716w; sits in the brief §12 no-auto-flag band 6,500–12,000w). Substance-drives-length disposition: defer to Pass 3.5 developmental-edit for restoration-polarity identification of any genuine restoration sites (per Amendment B Pass 3.5 codification 2026-05-18; restoration polarity NOT cutting polarity) — see PC-4 ratification record at draft sibling for the parallel disposition.
+13. **MED-10 (§18.1 #11) — Em-dash discipline (active justification required) — RATIFIED.** Brief §5 + §10 recommendation per [`feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md) 2026-05-21 accepted as-proposed. Pass 3.2 voice-polish will audit em-dash density against active-justification standard.
+
+**Surfaced concern (none deferred).** The brief landed clean against the cascade plan v2 Phase 2-β Wave 2 Candidate A scope; all surfaced amendments at Ch 2 Stage 0 ratification 2026-05-25 (NYRB queue collision tracking; same-house cross-check vs Ch 3 → Atlantic; Ch 3-ratification's cascade-plan-v2 amendments) carry forward unchanged into the cascade plan v2 ratification session per Stage 0 record at commit `ba5e9f8`.
+
+**Status:** Ch 2 → Harper's Stage 1 brief = **RATIFIED 2026-05-27.** All §18.2 deferred 🔴 items resolved; all §18.1 default-acceptance items ratified; §18.3 Stage-2-fire-time verification flags retained for forward handling (PC-5 of Phase C ratification session). Brief lands at v1.0.0; substantive content frozen; downstream Stage 3 cascade sessions inherit this artifact as ground truth.
+
+Per CLAUDE.md merge-to-main policy (extended 2026-05-24): Stage 1 brief artifact is **internal scaffolding** → auto-fast-forward merge to main at Phase C session close per pre-push reconciliation pattern.
+
 ---
 
 ## §19. Cross-references
@@ -603,7 +636,11 @@ After this Stage 1b brief RATIFIES interactively (per autonomous-mode adaptation
 
 ## §20. End-of-session one-liner
 
+**At brief PROPOSED (2026-05-26):**
 `STATE: PROPOSED; NEXT: author ratifies brief in separate session (one-finding-at-a-time per Amendment C cadence; HIGH-severity items first per severity-strict ordering); AWAITING: brief ratification → Stage 2 audience-blind drafting session can spawn`
+
+**At brief RATIFIED (2026-05-27 — Phase C ratification session):**
+`STATE: RATIFIED; NEXT: Stage 3 Pass 3.1 fact-check fires in separate session (after Stage 2 draft PC-4 ratification at same Phase C session closes); AWAITING: Phase C close → Stage 3 cascade begins (per-prompt serial cadence: 3.1 → 3.2 → 3.3 → 3.4 → 3.5 → light 3.3 re-fire)`
 
 ---
 
