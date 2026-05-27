@@ -750,10 +750,78 @@ After this Stage 1b brief RATIFIES interactively (per autonomous-mode adaptation
 
 ---
 
-## §20. End-of-session one-liner
+## §20. End-of-session one-liner (superseded by §21 ratification record)
 
 `STATE: PROPOSED; NEXT: author-interactive-ratification (one-finding-at-a-time per Amendment C cadence; 🔵 ESCALATION-1 + ESCALATION-2 + ESCALATION-3 first per severity-strict ordering, then §18.1 decisions-taken walkthrough); AWAITING: author-ratification-session → Stage 2 audience-blind drafting session can spawn`
 
 ---
 
-*End of Ch 4 → Foreign Affairs Magazine Stage 1b deliverable — pre-draft audience-and-structure rigor pass v1.0.0 — PROPOSED 2026-05-26 under autonomous-mode (sub-agent) adaptation. Stage 1 sign-off bookend (academic-rigor + prose-quality per Stage 1 doctrine §4) gates Stage 2 fire after Stage 1a invariant-scan execution (🔵 ESCALATION-1) + Stage 1b brief ratification + Stage 1c coherence-check verdict already realized in §9 above.*
+## §21. Author ratification record — RATIFIED 2026-05-26
+
+**Driven by:** Parent Wave 2 Stage 0 Candidate C ratification session (continued post-Stage-0-ratification into Stage 1 brief ratification) — interactive ratification per Amendment C Interactive Ratification Protocol; one-finding-at-a-time discipline per `tools/memory/feedback_parallel_session_ratification_cadence.md`. Author disposition: "ratify as recommended and proposed" — accepts all three 🔵 ESCALATIONs at recommended option + all 15 §18.1 decisions-taken as-proposed.
+
+### §21.1 ESCALATION dispositions
+
+**🔵 ESCALATION-1 — Stage 1a invariant-scan execution — RATIFIED Option 2 (run inline) → SCAN EXECUTED → CLEAN for Ch 4 → FA scope.**
+
+- **Execution:** `tools/scripts/check-corpus-invariants.sh` run inline from parent worktree (`/Users/c17n/commons-bonds/.claude/worktrees/ch4-fa-ratify-663265/`) at 2026-05-26 ratification time.
+- **Verdict for Ch 4 → FA scope: CLEAN BASELINE.** Zero HIGH-severity findings against `manuscript/chapters/Chapter__4_TheExistenceProof.md` or `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md` (this brief). The scan's exit-code-non-zero-on-HIGH gate did not trip for Ch 4 / FA brief scope.
+- **Out-of-scope findings (recorded for transparency, NOT blocking this ratification):**
+  - **~13 MEDIUM:** scaffolding-pattern matches in `publishing/op-eds/norway-sovereign-wealth/op-ed.md` header metadata (Path B audit annotation; Stage 3 fact-check pass scaffolding-stage-numbering); `publishing/op-eds/mcdowell-county-true-cost/op-ed.md` header metadata; `publishing/op-eds/_shared/canonical-facts/norway-mcdowell-inventory_2026-05-10.md` canonical-facts-inventory pattern; `publishing/op-eds/README.md` + per-op-ed READMEs canonical-facts-inventory pattern. Plus one regressed-pattern hit on `$44B trust-fund framing` in `publishing/op-eds/_shared/canonical-facts/norway-mcdowell-inventory_2026-05-10.md:73` + `publishing/op-eds/mcdowell-county-true-cost/op-ed.md:29`.
+  - **~13 LOW:** `~` tilde character render-approx-tilde matches in op-ed header metadata + shared canonical-facts inventory.
+- **Out-of-scope disposition:** the MEDIUM/LOW findings are pre-existing patterns in op-ed pipeline scaffolding (header metadata + canonical-facts inventory + READMEs) that exist independent of this brief. They are corpus-hygiene maintenance items for the op-ed pipeline workstream (separate workstream), NOT gating items for Ch 4 → Foreign Affairs Stage 1 brief ratification. Flag-forward to op-ed pipeline maintenance session.
+- **Stage 1a gate:** ✅ CLEARED for Ch 4 → FA scope.
+
+**🔵 ESCALATION-2 — Voice anchor — RATIFIED Option A (third-person sustained).**
+
+- **Disposition:** Option A — third-person sustained voice throughout the FA derivative essay. Matches the FA editorial-brain register (institutional / international-policy / non-partisan-codable); matches the Ch 4 source-chapter voice. Option B (limited first-person at §VI) NOT selected; Option C (first-person sustained) declined per brief recommendation.
+- **Stage 2 implication:** audience-blind draft fires with third-person sustained as the voice anchor; no "I" or "we" registers in body prose; section-VI closing return runs in third-person at the close.
+- **Cross-coherence note:** symmetric with the Norway op-ed's third-person register; differentiation-from-op-ed lives in apparatus naming (§III RCV concept-level introduction) + analytical depth, not in voice register.
+
+**🔵 ESCALATION-3 — Foreign Policy double-booked-alt resolution — RATIFIED resolution rule as proposed.**
+
+- **Disposition:** Resolution rule per §18.2 — (a) if Atlantic Ideas places at Atlantic Ideas → no collision → Foreign Policy stays Ch 4 alt-#1; (b) if Atlantic Ideas declines + reframes to Foreign Policy → re-route Atlantic Ideas to Foreign Policy → Ch 4 cascades from FA-decline to Project Syndicate long-form (skip Foreign Policy); (c) if both Atlantic Ideas + Ch 4 fire to Foreign Policy simultaneously → escalate to author for manual de-collision.
+- **Carry-forward:** rule embedded into the cascade plan v2 amendment work pre-staged by the Ch 3 ratification session (which already surfaced cascade-plan-v2 amendments: target-list expansion; Wave 4 fallback; timing-services-Waves-2/3 clarification; 2027–2028 editor-iteration calibration). This Foreign-Policy-double-book rule is a fourth amendment item added to that work.
+- **PM-session-absorbed:** cross-thread-todos / cascade-plan-v2-amendment session inherits this rule at next PM-session pass.
+
+### §21.2 §18.1 decisions-taken — all 15 RATIFIED AS-PROPOSED
+
+Author disposition "ratify as recommended and proposed" applies to all 15 §18.1 decisions taken by the sub-agent:
+
+1. ✅ Audience set 18 characters across three tiers + adversarial-load (§1) — RATIFIED.
+2. ✅ Editor identity: Daniel Kurtz-Phelan as Foreign Affairs editor-since-2021 (§1 Tier 1 #1) — RATIFIED; cover-letter masthead verification gates at submission time per §18.3 #8.
+3. ✅ Tier 1 dispositive: FA editor + FA reader/CFR + SWF domain practitioner + literary agent (§1) — RATIFIED.
+4. ✅ Third-person sustained voice Option A as default (§5) — RATIFIED (also per ESCALATION-2 above).
+5. ✅ Six-section structure §I Ekofisk Decision + §II Architecture + §III What the Framework Says About Norway + §IV The Counter-Case + §V Architecture Is a Choice + §VI The Parts Norway Has Not Solved (§4) — RATIFIED.
+6. ✅ Differentiation-from-op-ed structural anchor: §III "What the Framework Says About Norway" (§4 + §16) — RATIFIED.
+7. ✅ Apparatus-reveal cap concept-level only at ≤22% (§8 — already RATIFIED VERBATIM at Stage 0 Finding 3 Option 1; re-affirmed at brief ratification).
+8. ✅ Condition-1 disarming-moves flag does NOT fire at brief level (§1 Tier 2 #9 + §2 + §16) — RATIFIED (matches Stage 0 §4.3 dispositive-non-partisan-aligned-venue disposition).
+9. ✅ Pass 3.4 BY DEFAULT (§13) — RATIFIED per Amendment A two-class cascade.
+10. ✅ Length target ~5,500–6,500w body; ceiling 7,000w (§12) — RATIFIED (middle-of-band FA long-form essay convention; substance drives length).
+11. ✅ Em-dash discipline: active justification required (§5 + §10) — RATIFIED per `feedback_em_dash_overuse.md` 2026-05-21.
+12. ✅ Section headers: noun-phrase headers at six section transitions (§10) — RATIFIED per FA house convention.
+13. ✅ TA RCV publication-stability sign-off alignment: brief §8 named-OK aligns with TA canonical form (Definitions 1.6 + 1.7 + CS = RCV − B per TA §1) per the 2026-05-24 GREEN sign-off (§9.4) — RATIFIED.
+14. ✅ Bondevik II disambiguation explicit at §7.3 + §11 per Pass 3.1 fact-check MEDIUM-2 RATIFIED Option A (numeral-disambiguator) — RATIFIED.
+15. ✅ NBIM + ethics council + Storting supermajority restoration site at §II + international architecture + colonial-era concession-inheritance restoration site at §IV (Pass 3.5 restoration sites) — RATIFIED as load-bearing structural anchors.
+
+### §21.3 §18.3 Stage-2-fire-time verification items — carry forward as-listed
+
+All 8 items in §18.3 (Ch 4 Pass 3.3 light re-fire ripple check; Ch 10 PROPOSED ripple; Atlantic Ideas Pass 3.2+ Norway-anchor consistency; BR Ch 5 Norway-anchor consistency; TA RCV inheritance Darity-window monitoring through ~2026-06-25; rights-register no-overlap verification; GPFG AUM figure refresh; ai-disclosure-paragraph template presence) carry forward to Stage 2 fire-time as non-blocking verification checks. No Stage 1 brief re-fire required for any of them in isolation.
+
+### §21.4 Status
+
+Ch 4 → Foreign Affairs Stage 1 brief = **RATIFIED 2026-05-26**. Stage 1 doctrine three-sub-step gate (1a invariant scan CLEAN for scope + 1b substantive brief work landed + 1c cross-artifact coherence check verdict realized at §9) all closed. Brief is ready-to-supply for Stage 2 audience-blind drafting session firing.
+
+**Next phase:** Stage 2 audience-blind drafting session fires fresh per the brief's §15 paste-text scaffold (fresh CC session; brief artifact + Stage 0 ratification record + TA RCV sign-off as authoritative reading).
+
+**No outstanding gates** for Stage 2 fire on the Ch 4 → FA workstream side. (Sibling workstream advances — cascade plan v2 amendments; Ch 4 Pass 3.3 light re-fire ratification; cross-thread-todos updates from the Foreign-Policy-double-book rule — carry forward in PM-session-absorbed work but do not gate Stage 2.)
+
+---
+
+## §22. End-of-session one-liner (updated)
+
+`STATE: RATIFIED 2026-05-26; NEXT: Stage 2 audience-blind drafting session fires fresh from §15 paste-text scaffold; AWAITING: author fires Stage 2 in fresh CC session (or sub-agent execution per parallel-session-cadence)`
+
+---
+
+*End of Ch 4 → Foreign Affairs Magazine Stage 1b deliverable — pre-draft audience-and-structure rigor pass v1.0.0 — RATIFIED 2026-05-26. Stage 1 sign-off bookend complete: Stage 1a invariant-scan CLEAN for scope (§21.1 ESCALATION-1); Stage 1b substantive brief work RATIFIED (§21.2 all 15 decisions); Stage 1c cross-artifact coherence check verdict realized at §9 + verified by ratification. Brief supplies Stage 2 audience-blind drafting session.*
