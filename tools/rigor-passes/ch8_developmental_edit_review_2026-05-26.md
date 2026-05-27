@@ -586,25 +586,32 @@ Verdict mirrors Ch 5 + Ch 4 + Ch 9 cousin Pass 3.5 STRONG verdicts (3 + 3 + 2 re
 
 ## §10. Ratification record
 
-### §10.1 Author disposition placeholder (pending author ratification per Amendment C interactive protocol)
+### §10.1 Author disposition — RATIFIED 2026-05-26
 
 | Finding | Severity | Disposition options | Recommendation | Author ratification |
 |---|---|---|---|---|
-| F-DE-Ch8-1 (carbon-arithmetic paragraph-break at line 72) | MEDIUM | A (one break / two paragraphs) / B (two breaks / three paragraphs) / C (HOLD) | **A (APPLY)** | *(pending author ratification)* |
-| F-DE-Ch8-2 (civilizational-scale extrapolation default HOLD) | LOW | A (sentence-level beat) / B (HOLD) | **B (HOLD)** | *(pending author ratification)* |
-| F-DE-Ch8-3 (Black-American-writing-tradition paragraph-break at line 92) | HIGH | A (one break / two paragraphs) / B (two breaks / three paragraphs) / C (HOLD) | **A (APPLY)** | *(pending author ratification)* |
-| F-DE-Ch8-4 (McDowell scene-anchor human-contour beat at line 58) | MEDIUM | A (sentence-level beat inside paragraph) / B (standalone paragraph beat) / C (HOLD) | **A (APPLY)** | *(pending author ratification)* |
-| F-DE-Ch8-5 (three-misreadings triadic-pivot default HOLD) | LOW | A (sentence-level beat) / B (HOLD) | **B (HOLD)** | *(pending author ratification)* |
-| §8.2 Aggregate Pass-3.5 verdict | Verdict | VERY STRONG / STRONG / HOLD | **STRONG** | *(pending author ratification)* |
+| F-DE-Ch8-1 (carbon-arithmetic paragraph-break at line 72) | MEDIUM | A (one break / two paragraphs) / B (two breaks / three paragraphs) / C (HOLD) | **A (APPLY)** | **RATIFIED 2026-05-26 — Option A (APPLY)** (author ratify-as-recommended) |
+| F-DE-Ch8-2 (civilizational-scale extrapolation default HOLD) | LOW | A (sentence-level beat) / B (HOLD) | **B (HOLD)** | **RATIFIED 2026-05-26 — Option B (HOLD)** (author ratify-as-recommended) |
+| F-DE-Ch8-3 (Black-American-writing-tradition paragraph-break at line 92) | HIGH | A (one break / two paragraphs) / B (two breaks / three paragraphs) / C (HOLD) | **A (APPLY)** | **RATIFIED 2026-05-26 — Option A (APPLY)** (author ratify-as-recommended) |
+| F-DE-Ch8-4 (McDowell scene-anchor human-contour beat at line 58) | MEDIUM | A (sentence-level beat inside paragraph) / B (standalone paragraph beat) / C (HOLD) | **A (APPLY)** | **RATIFIED 2026-05-26 — Option A (APPLY)** (author ratify-as-recommended) |
+| F-DE-Ch8-5 (three-misreadings triadic-pivot default HOLD) | LOW | A (sentence-level beat) / B (HOLD) | **B (HOLD)** | **RATIFIED 2026-05-26 — Option B (HOLD)** (author ratify-as-recommended) |
+| §8.2 Aggregate Pass-3.5 verdict | Verdict | VERY STRONG / STRONG / HOLD | **STRONG** | **RATIFIED 2026-05-26 — STRONG** (author ratify-as-recommended) |
 
-### §10.2 Phase C-δ application placeholder (downstream session — to be filled in post-application; only if APPLY items ratified)
+**Tally:** 3 RATIFY APPLY (F-DE-Ch8-1 + F-DE-Ch8-3 + F-DE-Ch8-4, all Option A) + 2 RATIFY HOLD (F-DE-Ch8-2 + F-DE-Ch8-5, both default Option B) + 1 RATIFY VERDICT (STRONG aggregate). Pass 3.5 closes the 5-pass Stage 3 discipline for Ch 8 (3.1 + 3.2 + 3.3 + 3.4 + 3.5 all complete post-Phase-C-δ).
 
-- Application commit SHA: *(pending downstream Phase C-δ session)*
-- Chapter line-count post-application: *(pending; expected ~247 lines if 3 APPLY items applied)*
-- Chapter word-count post-application: *(pending; expected ~6,461 words if 3 APPLY items applied)*
-- Chapter em-dash count post-application: *(pending; expected 53 if 3 APPLY items applied)*
-- Cross-chapter cascade required: *(N — pure paragraph-break + brief human-contour beat at chapter-internal register; no cross-chapter coherence implications)*
-- Stage 5 sign-off + pre-pub queue session ready: **Y** (chapter Stage-3 closes after Pass 3.5 Phase C-δ application; Stage 4 already RATIFIED 2026-05-26)
+### §10.2 Phase C-δ application — APPLIED 2026-05-26
+
+All 3 RATIFY APPLY items applied to `manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` in this commit:
+
+- **F-DE-Ch8-4 Option A applied at line 58:** appended sentence-level human-contour beat after the drug-induced-death-rate close ("This is the human-scale shape of community disruption cost — a county the size of a single high-school district losing residents to overdose at a rate that an actuary would flag as a disaster zone."). Adds one em-dash with active justification per §3 reasoning.
+- **F-DE-Ch8-1 Option A applied at line 72:** paragraph-break inserted between methodology-citation parenthetical (closing "…yields 2.32 metric tons CO₂ per short ton).") and SCC anchor sentence ("The EPA's most recent estimate of the social cost of carbon…"). No prose modification; pure paragraph-break restoration giving the methodology-citation parenthetical its structural breath as a self-contained rigor-instrument paragraph.
+- **F-DE-Ch8-3 Option A applied at line 92:** paragraph-break inserted between the "the mask is not his alone… It belongs to the system that produces black lung at industrial scale and asks the wearer to grin while it does." pivot and the four-author lineage enumeration ("Dunbar named the strategy of survival. Du Bois named the structural condition…"). No prose modification; pure paragraph-break restoration giving the Dunbar-anchor + framework's-claim pivot its structural breath as the section's emotional-arc-anchor paragraph.
+
+- Application commit SHA: *(this commit)*
+- Chapter line-count post-application: 247 (was 243; +4 from two paragraph-breaks each adding +2 lines; F-DE-Ch8-4 adds no line change since sentence appended within existing paragraph)
+- Chapter em-dash count post-application: 53 (was 52; +1 from F-DE-Ch8-4 actively-justified em-dash)
+- Cross-chapter cascade required: **N** (pure paragraph-break + brief human-contour beat at chapter-internal register; no cross-chapter coherence implications)
+- Stage 5 sign-off + pre-pub queue session ready: **Y** (chapter Stage-3 closes with this commit; Stage 4 already RATIFIED 2026-05-26)
 
 ### §10.3 Next session for Ch 8
 
