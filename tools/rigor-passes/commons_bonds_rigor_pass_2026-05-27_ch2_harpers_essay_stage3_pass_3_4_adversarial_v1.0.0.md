@@ -1,7 +1,8 @@
-# Stage-3 Rigor Pass — Ch 2 *The Miner* → Harper's Magazine essay — Pass 3.4: Adversarial robustness [PROPOSED]
+# Stage-3 Rigor Pass — Ch 2 *The Miner* → Harper's Magazine essay — Pass 3.4: Adversarial robustness [RATIFIED ROBUST]
 
 **Date:** 2026-05-27
-**Status:** **PROPOSED 2026-05-27 (DEFERRED for parent-session ratification per autonomous-mode default).** Per-character + thread-pull synthesis produced end-to-end by autonomous Pass 3.4 sub-agent at post-Pass-3.2 essay.md state (cherry-picked from harness branch `claude/ch2-harpers-pass3-2-voicepolish-260527-52a7ec` head commit `3cc8256` into fresh worktree off `origin/main`). Per Amendment C Interactive Ratification Protocol + Ch 2 Pass 3.1 + Pass 3.2 + Pass 3.3 autonomous-mode precedents: parent session ratifies thread-pull synthesis verdict + per-character dispositions + any spot-fix routing recommendations. No essay.md prose changes produced by this pass (Pass 3.4 is audit; spot-fix routing on FRAGILE-ON-X findings only — none surfaced).
+**Status:** **RATIFIED ROBUST 2026-05-27.** Author disposition *"fire the next stage/phase when ready"* — single-batch ratification per Ch 2 Pass 3.1 + Pass 3.2 + Pass 3.3 single-batch precedent (cf. [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md)). Thread-pull synthesis verdict ratified ROBUST: 7 adversarial characters A–G pull on 8 threads T1–T8; cross-pressure pattern (T1 + T4 + T5 + T6 + T7) confirms correct positioning; 0 FRAGILE-ON-X findings; 0 essay.md spot-fixes required. A (coal-industry economist) predisposed-hostile-by-financial-incentive → reception-cycle mitigation only (non-essay-disarmable). T8 (§V line 63 "cost severance" first-introduction structural-not-moral framing primer) routed to Pass 3.5 restoration-polarity as gain-not-fix. T1 + T4 + T5 + T7 routed to Stage 5 pre-publication review queue acknowledgments. T3 + T6 already-resolved via brief §8 apparatus cap + cross-chapter routing to book.
+**Previous status:** PROPOSED 2026-05-27 (autonomous-mode sub-agent produced per-character + thread-pull synthesis artifact end-to-end at post-Pass-3.2 essay.md state; sub-agent published to origin/main commit `7c16abc`; parent-session ratification completed in same turn at author disposition above).
 **Pass type:** Stage 3 Pass 3.4 — Adversarial robustness (fourth of five passes per v3.1 doctrine; BY DEFAULT per brief §13 modified-from-BR-OPT-IN disposition + Amendment A two-class cascade; Harper's submission IS the explicit gate).
 **Workstream:** Wave 2, Candidate A — Ch 2 *The Miner* → Harper's Magazine derivative essay.
 **Artifact audited:** [`publishing/essays/harpers-the-miner/essay.md`](../../publishing/essays/harpers-the-miner/essay.md) at post-Pass-3.2 state. **7,017w body across 8 sections** (167 lines); Option B limited-first-person frame per PC-4 ratification; six brief-§6-permitted verbatim quotes preserved (Kennedy + Bailey ×2 + Latusek ×3); framework-vocabulary naming retained at §V + §VIII per brief §8 KEEP entries (cost severance + severed cost + value extraction + accumulation by dispossession + spatial cost severance as plain-prose concepts; no formal apparatus).
@@ -447,23 +448,25 @@ After Pass 3.5 RATIFIED + APPLIED → light Pass 3.3 re-fire (per parent doctrin
 ### §5.3 End-of-session one-liner
 
 ```
-STATE: Pass 3.4 PROPOSED ROBUST (DEFERRED for parent-session
-ratification; thread-pull synthesis verdict; 7 adversarial
-characters A–G pull on 8 threads T1–T8; 0 essay.md spot-fixes
+STATE: Pass 3.4 RATIFIED ROBUST 2026-05-27 (single-batch "fire
+the next stage/phase when ready" disposition; thread-pull
+synthesis verdict; 7 adversarial characters A–G pull on 8
+threads T1–T8; 0 FRAGILE-ON-X findings; 0 essay.md spot-fixes
 required; A predisposed-hostile-by-financial-incentive →
 reception-cycle mitigation only; T1 + T4 + T5 + T6 + T7 cross-
 pressure pattern confirms correct positioning; T3 + T6 cross-
-chapter routed; T8 vocabulary-misread risk Pass 3.5 restoration-
-candidate at §V line 63 first-introduction site); NEXT: parent-
-session ratifies thread-pull synthesis verdict → Pass 3.5
-developmental-edit session fires fresh per v3.1 per-pass per-
-session cadence + brief §13 BY DEFAULT disposition; AWAITING:
-parent-session ratification → Pass 3.5 → light Pass 3.3 re-fire
-each in own session; Stage 4 + Stage 5 + cover letter fire after
-Stage 3 cascade closes; Harper's submission window target Q4
-2026.
+chapter routed; T8 vocabulary-misread risk → Pass 3.5
+restoration-polarity candidate at §V line 63 first-introduction
+site); NEXT: Stage 3 Pass 3.5 developmental-edit session fires
+fresh per v3.1 per-pass per-session cadence + brief §13 BY
+DEFAULT disposition (kickoff paste-text staged at tools/
+workstream-handoffs/ch2-harpers-stage-3-pass-3-5-developmental-
+edit-kickoff_2026-05-27.md); AWAITING: Pass 3.5 → light Pass 3.3
+re-fire each in own session; Stage 4 + Stage 5 + cover letter
+fire after Stage 3 cascade closes; Harper's submission window
+target Q4 2026.
 ```
 
 ---
 
-*End of Stage 3 Pass 3.4 (Adversarial robustness) artifact for Ch 2 *The Miner* → Harper's Magazine derivative essay — PROPOSED ROBUST 2026-05-27.*
+*End of Stage 3 Pass 3.4 (Adversarial robustness) artifact for Ch 2 *The Miner* → Harper's Magazine derivative essay — RATIFIED ROBUST 2026-05-27.*
