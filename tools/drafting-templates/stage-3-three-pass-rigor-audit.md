@@ -1,5 +1,7 @@
 # Stage 3 — Five-Pass Rigor Audit (Template, v3.1 + Amendment C)
 
+**FIRST ACTION (2026-05-26).** Before any other work, the session firing this template must execute the worktree-isolation step at [`worktree-isolation-paste-text.md`](worktree-isolation-paste-text.md). Branch-contamination root-cause + discipline: [`../memory/feedback_worktree_isolation_for_parallel_sessions.md`](../memory/feedback_worktree_isolation_for_parallel_sessions.md).
+
 **Purpose.** Post-draft rigor on a Stage 2 audience-blind flow draft (or an existing piece of prose). Five distinct passes — fact-check + voice-polish + audience-load acceptance + audience-load robustness + developmental-edit — each catching what the others miss.
 
 **v3.1 framing per pipeline-doctrine v1.0.0 Amendment B (ratified 2026-05-18):** Stage 3 extends from four-pass to five-pass with the addition of **Pass 3.5 developmental-edit** at whole-chapter scale. Pass 3.5 catches emotional-arc continuity + scene-anchor density + cumulative-LLM-cadence residue that per-paragraph Pass 3.2 cannot. Filename `stage-3-three-pass-rigor-audit.md` is canonical for cross-reference stability (historical: v2.0 was three-pass; v3.0 four-pass; v3.1 five-pass).

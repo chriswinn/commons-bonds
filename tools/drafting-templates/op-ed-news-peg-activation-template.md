@@ -1,6 +1,9 @@
 # Op-Ed News-Peg Activation Template
 
 **Date drafted:** 2026-05-24
+
+**FIRST ACTION (2026-05-26).** Before any other work, the activation session must execute the worktree-isolation step at [`worktree-isolation-paste-text.md`](worktree-isolation-paste-text.md). Branch-contamination root-cause + discipline: [`../memory/feedback_worktree_isolation_for_parallel_sessions.md`](../memory/feedback_worktree_isolation_for_parallel_sessions.md). The news-peg-activation pace is fast (1–2 day turnaround); worktree isolation must not be skipped.
+
 **Purpose.** Both op-eds (Norway sovereign-wealth + McDowell true-cost) are pipeline-ready: Stage 1 + Stage 2 + Stage 3 done; lede slot marked HTML-comment for swap; body ~1,000w needs ~125–175w trim down to 750–900w for primary venues. When a news-peg surfaces, the turnaround target is **1–2 days from news → submission.**
 
 Each activation prompt below is a self-contained paste-text for a fresh Claude session. Drop the news-event detail into the bracketed slot at the top; the session executes the rest.

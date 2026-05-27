@@ -1,11 +1,15 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
-  "_comment": "Per tools/workstream-handoffs/render-toolchain-containerization-handoff_2026-05-18.md §4.4 + tools/scripts/README.md, the SessionStart hook below installs the canonical render toolchain in Anthropic remote-container sessions (gated on CLAUDE_CODE_REMOTE=true; local laptop sessions use Docker via Colima instead). The recommended primary mechanism is to configure tools/scripts/install-render-toolchain.sh as the environment's web-UI setup script — that benefits from env-cache snapshots and avoids per-session install latency. This hook is a belt-and-suspenders fallback for cases where the UI setup script is not yet configured.",
+  "_comment": "Two SessionStart hooks. (1) session-start-worktree-isolation.sh — added 2026-05-26 in response to author observation of 350+ branches accumulating with active cross-session contamination (sessions in the main /Users/c17n/commons-bonds cwd share .git/HEAD, so checkouts and commits from one session corrupt others). Emits a strongly-worded reminder + ready-to-paste worktree command whenever a session starts in the main cwd; LLM executes the worktree creation as its first tool call. See tools/memory/feedback_worktree_isolation_for_parallel_sessions.md + tools/drafting-templates/worktree-isolation-paste-text.md. (2) session-start-render-toolchain.sh — installs the canonical render toolchain in Anthropic remote-container sessions (gated on CLAUDE_CODE_REMOTE=true; local laptop sessions use Docker via Colima instead). See tools/workstream-handoffs/render-toolchain-containerization-handoff_2026-05-18.md §4.4. The recommended primary mechanism for the render toolchain is to configure tools/scripts/install-render-toolchain.sh as the environment's web-UI setup script.",
   "hooks": {
     "SessionStart": [
       {
         "matcher": "startup|resume",
         "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/tools/scripts/session-start-worktree-isolation.sh"
+          },
           {
             "type": "command",
             "command": "\"$CLAUDE_PROJECT_DIR\"/tools/scripts/session-start-render-toolchain.sh"

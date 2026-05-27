@@ -1,5 +1,7 @@
 # Stage 1 — Pre-Draft Audience-Aware Structure Pass (Template)
 
+**FIRST ACTION (2026-05-26).** Before any other work, the session firing this template must execute the worktree-isolation step at [`worktree-isolation-paste-text.md`](worktree-isolation-paste-text.md). Branch-contamination root-cause + discipline: [`../memory/feedback_worktree_isolation_for_parallel_sessions.md`](../memory/feedback_worktree_isolation_for_parallel_sessions.md).
+
 **Purpose.** Build the load-bearing brief that Stage 2 audience-blind drafting consumes. Covers: audience pressure-test, canonical-facts inventory, structural decisions, voice register, carry-forward inventory, hard constraints.
 
 **When to use.** Required for any publisher-facing prose >~500w. Lighter version acceptable for in-book defense paragraphs.

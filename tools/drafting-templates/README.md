@@ -29,7 +29,16 @@ Templates are organized by the v3.1 pipeline's stages. **Not every drafting task
 
 When you want to fire a new drafting workstream from scratch, this is the meta-template that scopes the session for the model. Customize the bracketed fields; paste into a fresh session.
 
+**FIRST ACTION REQUIREMENT (2026-05-26).** Every fresh session embeds the worktree-isolation paste-text at [`worktree-isolation-paste-text.md`](worktree-isolation-paste-text.md) as its first instruction — BEFORE the required-reads, BEFORE workstream-specific guidance. The session's first tool call MUST be the `git worktree add` step described in that paste-text. Defense-in-depth: a SessionStart hook at [`../scripts/session-start-worktree-isolation.sh`](../scripts/session-start-worktree-isolation.sh) also emits a session-context warning when a session starts in the main `/Users/c17n/commons-bonds` cwd. The hook + the embedded first-action block together prevent the branch-contamination failure mode documented at [`../memory/feedback_worktree_isolation_for_parallel_sessions.md`](../memory/feedback_worktree_isolation_for_parallel_sessions.md).
+
 ```
+FIRST ACTION — WORKTREE ISOLATION (MANDATORY):
+See tools/drafting-templates/worktree-isolation-paste-text.md for the
+canonical copy-paste block. Run it as your first tool call. After that,
+all subsequent tool calls use the new isolated worktree's absolute path.
+
+---
+
 You are a fresh session firing the [STAGE 0 / STAGE 1 / STAGE 2 / STAGE 3
 PASS X.Y / STAGE 4 / STAGE 5 / specific custom task] for:
 
@@ -138,12 +147,21 @@ OUTPUT FORMAT:
 
 BRANCH:
 
-  - Open with: git checkout -b claude/[workstream-shortname]-<harness-id>
-    from current origin/main after git fetch
+  - The worktree-isolation FIRST ACTION above created the feature
+    branch already (claude/<workstream>-<harness-id> branched from
+    current origin/main inside an isolated worktree at
+    /Users/c17n/commons-bonds-<workstream>-<harness-id>). Do NOT
+    create a second branch.
   - Per CLAUDE.md: propose-only artifacts auto-fast-forward merge to
     main at session close; author-ratified content changes also
     auto-merge; direct content edits without prior ratification stop
-    at feature branch
+    at feature branch.
+  - Session-close push from the isolated worktree:
+    `git push -u origin <branch>` then (for internal-scaffolding
+    content per CLAUDE.md) `git push origin HEAD:main`.
+  - Clean up the worktree at session close:
+    `git worktree remove /Users/c17n/commons-bonds-<workstream>-<harness-id>`
+    (only after push succeeds).
 ```
 
 **How to use:** This scaffold is the umbrella that wraps any of the stage-specific templates. The stage template tells the session HOW to do the work; this scaffold tells the session WHAT to do + the context it needs. For complex sessions, both are paste-text inputs.

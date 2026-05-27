@@ -13,9 +13,11 @@ relevant via this index.
 - [feedback_named_subject_consent.md](feedback_named_subject_consent.md) — naming defaults for living / deceased / public-record subjects in publisher-facing prose.
 - [feedback_verify_stale_memory_claims.md](feedback_verify_stale_memory_claims.md) — staleness discipline for time-sensitive claims in memory reads.
 
-**Situational discipline files (13):**
+**Situational discipline files (17):**
 
-- [feedback_git_workflow.md](feedback_git_workflow.md) — Working Principle #9 (2026-04-29). NOT push-every-commit-to-main; merge per ratified chunk via `git push origin HEAD:main`.
+- [feedback_worktree_isolation_for_parallel_sessions.md](feedback_worktree_isolation_for_parallel_sessions.md) — **NEW 2026-05-26.** Every fresh session creates an isolated `git worktree` at start. Prevents the contamination failure mode where multiple parallel sessions in the same physical cwd share `.git/HEAD` and commit each other's working-tree changes to wrong branches. Defense in depth: SessionStart hook ([`../scripts/session-start-worktree-isolation.sh`](../scripts/session-start-worktree-isolation.sh)) + paste-text ([`../drafting-templates/worktree-isolation-paste-text.md`](../drafting-templates/worktree-isolation-paste-text.md)).
+- [feedback_parallel_session_ratification_cadence.md](feedback_parallel_session_ratification_cadence.md) — Parallel-session-hop with one-finding-at-a-time presentation per session. Cognitive switching ceiling is binding constraint at 20+ sessions; standardized status markers + end-of-session one-liner; PM session is the meta-tracker. Ratified 2026-05-24.
+- [feedback_git_workflow.md](feedback_git_workflow.md) — Working Principle #9 (2026-04-29). NOT push-every-commit-to-main; merge per ratified chunk via `git push origin HEAD:main`. Extended 2026-05-24: internal scaffolding auto-fast-forward merges to main at session close.
 - [feedback_two_layer_content_discipline.md](feedback_two_layer_content_discipline.md) — At content origination, classify as internal-scaffolding vs external-publisher-facing. Default to internal when uncertain. Ratified 2026-04-30.
 - [reference_pattern_2_register.md](reference_pattern_2_register.md) — Doughnut/Mazzucato/Mine! threaded-demonstration model for applied/decision-time material in publisher-facing artifacts. Don't codify methodology; demonstrate affordance through cases.
 - [reference_ostrom_illustrative_register.md](reference_ostrom_illustrative_register.md) — Drop "canonical" from framing. Book lists handfuls of commons and cost-components illustratively, not exhaustively (Ostrom path). Ratified 2026-05-02.
@@ -27,6 +29,8 @@ relevant via this index.
 - [feedback_audit_recent_active_review_default.md](feedback_audit_recent_active_review_default.md) — Audit conflict resolution: trust the more recent audit/rigor-pass over the older reference-file entry unless you can verify the file is canonical-source AND was updated after. Ratified 2026-05-12.
 - [feedback_audit_open_illustrative_default.md](feedback_audit_open_illustrative_default.md) — Audit-side application of Ostrom-path discipline. Default to open/illustrative reading of framework lists when auditing; closure-readings need positive evidence. Ratified 2026-05-12.
 - [feedback_pm_dashboard_structure.md](feedback_pm_dashboard_structure.md) — Standard PM handoff structure: top-of-mind action driver + critical path + user actions + priority-labeled status buckets + per-chapter next-action + date-anchored merged action list + session-freshness. Ratified 2026-05-13.
+- [feedback_em_dash_overuse.md](feedback_em_dash_overuse.md) — Em-dashes are a Claude-prose crutch; calibrate critically. Default to commas/periods/restructure; flag every em-dash for active justification. Ratified 2026-05-21 during Ch 3 Pass 3.2.
+- [feedback_substrate_critical_editorial_input.md](feedback_substrate_critical_editorial_input.md) — Author substrate gets critical editorial input — not blind preservation. When author provides substrate, critique grammar/punctuation/voice/flow and surface improvements before applying. Ratified 2026-05-21.
 - [project_book_complete_marketing_phase.md](project_book_complete_marketing_phase.md) — Book is content-complete as of 2026-05-24; current phase is essay/op-ed marketing strategy + iterative chapter polish. Essays are downstream marketing instruments, NOT platform-builders. Reframes Stage 0 dimensions (a/d/f/g) + Wave 3 nomenclature. Ratified 2026-05-25.
 
 **Out of scope:**

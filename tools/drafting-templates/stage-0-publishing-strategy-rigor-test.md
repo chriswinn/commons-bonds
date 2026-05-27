@@ -1,5 +1,7 @@
 # Stage 0 — Publishing-Strategy Rigor Test (Template)
 
+**FIRST ACTION (2026-05-26).** Before any other work, the session firing this template must execute the worktree-isolation step at [`worktree-isolation-paste-text.md`](worktree-isolation-paste-text.md). Branch-contamination root-cause + discipline: [`../memory/feedback_worktree_isolation_for_parallel_sessions.md`](../memory/feedback_worktree_isolation_for_parallel_sessions.md).
+
 **Purpose.** Pre-decision rigor pass that runs BEFORE any drafting begins. Decides whether a proposed publisher-facing piece should exist at all + when it should submit, against book-success criteria.
 
 **When to use.** Substantial publisher-facing derivative work (typically magazine essay; ~3,000+ words; new venue OR potential book-impact). Skip for pieces already cleared in the cascade plan + already-running pipeline.

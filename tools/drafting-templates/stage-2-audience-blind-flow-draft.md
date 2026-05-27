@@ -1,5 +1,7 @@
 # Stage 2 — Audience-Blind Flow Draft (Template)
 
+**FIRST ACTION (2026-05-26).** Before any other work, the session firing this template must execute the worktree-isolation step at [`worktree-isolation-paste-text.md`](worktree-isolation-paste-text.md). Branch-contamination root-cause + discipline: [`../memory/feedback_worktree_isolation_for_parallel_sessions.md`](../memory/feedback_worktree_isolation_for_parallel_sessions.md).
+
 **Purpose.** Fresh-session drafting from the Stage 1 brief alone. Audience-blind = the drafter does NOT read source-prose paragraphs, only the Stage 1 brief's canonical-facts inventory + structural decisions + voice register.
 
 **When to use.** Required for any publisher-facing prose >~500w that derives from chapter / source prose (Path B preemptive policy applies). Bundled with Stage 1 only for in-book defense paragraphs.
