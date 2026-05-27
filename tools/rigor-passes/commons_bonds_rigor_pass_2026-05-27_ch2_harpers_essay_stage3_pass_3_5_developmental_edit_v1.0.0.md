@@ -1,7 +1,8 @@
-# Stage-3 Rigor Pass — Ch 2 *The Miner* → Harper's essay — Pass 3.5: Developmental-edit [PROPOSED]
+# Stage-3 Rigor Pass — Ch 2 *The Miner* → Harper's essay — Pass 3.5: Developmental-edit [PARTIALLY RATIFIED + APPLIED]
 
 **Date:** 2026-05-27
-**Status:** **PROPOSED 2026-05-27** (DEFERRED for parent-session ratification per autonomous-mode default + v3.1 Amendment C interactive-ratification cadence). Per-finding format with Options + Recommendation + Reasoning. No essay.md prose changes applied at this session; ratification + Phase C application happens in the parent session.
+**Status:** **PARTIALLY RATIFIED + APPLIED 2026-05-27.** Author disposition *"ratify as recommended and proposed; fire the next stage/phase when ready"* 2026-05-27. Parent-session ratification + application completed in same turn at author disposition. **2 of 6 RESTORE recommendations APPLIED to essay.md** (F-3.5-H2 Catte attribution at §V line 73 close; F-3.5-M3 (b) revised structural-not-moral primer at §V line 63 close). **4 of 6 RESTORE recommendations RATIFIED structure + PROSE-DEFERRED for author substrate** (F-3.5-H1 §I + §IV scene-anchor cluster; F-3.5-H3 §VII Purdue scene-rendering + Hamby acknowledgment; F-3.5-M1 §II Kennedy WV-primary context; F-3.5-M2 §III Welch civic-life scene-render) — per substrate-critical-editorial-input discipline ([`tools/memory/feedback_substrate_critical_editorial_input.md`](../memory/feedback_substrate_critical_editorial_input.md) 2026-05-21) + Pass 3.1 F-3.1-H1 precedent (invented biographical specifics cut at HIGH severity) + named-subject consent discipline ([`tools/memory/feedback_named_subject_consent.md`](../memory/feedback_named_subject_consent.md)). The illustrative restoration prose in these 4 findings contains invented named-subject specifics + invented biographical claims (e.g., F-3.5-H1 §I diner-and-waitress scene fabricates a named encounter; F-3.5-H1 §IV invents Bailey-at-19 + Bailey-father-with-disease beyond §7.3 canonical facts; F-3.5-H3 §VII invents Purdue documentary-record details beyond brief §7.8; F-3.5-M1 §II invents Kennedy motivations; F-3.5-M2 §III invents Welch civic-infrastructure specifics) that the discipline explicitly defers to author-drafted or author-verified substrate. **2 of 2 HOLD recommendations RATIFIED** (F-3.5-L1 §VIII closing-cadence + first-person frame balance; F-3.5-L2 §V mech-aftermath bridge prose placement). Six brief-§6-permitted verbatim quotes verified preserved (Kennedy + Bailey ×2 + Latusek ×3). Em-dash count preserved at 10 (Pass 3.2 H4 ratified target floor). Word count: 7,017 → 7,080 (+63w from 2 safe restorations applied). Full restoration delta projected if author authors the 4 deferred prose substrates: ~+1,105w cumulative; post-full-restoration ~8,122w (within brief §12 recommended middle-of-band 8,000–11,000w).
+**Previous status:** PROPOSED 2026-05-27 (autonomous-mode sub-agent produced per-finding artifact end-to-end at post-Pass-3.2 essay.md state; sub-agent published to origin/main commit `5b9ef83`; parent-session ratification + partial-application completed in same turn at author disposition above).
 **Pass type:** Stage 3 Pass 3.5 — Developmental-edit (fifth and last of five Stage 3 passes per v3.1 Amendment B; explicit-gate cascade per Amendment A two-class; Harper's submission is the explicit gate; polarity = **RESTORE**, opposite to Pass 3.2's CUT). BY DEFAULT for Harper's per brief §13.
 **Workstream:** Wave 2, Candidate D — Ch 2 *The Miner* → Harper's *What McDowell County Paid* derivative essay.
 **Artifact audited:** [`publishing/essays/harpers-the-miner/essay.md`](../../publishing/essays/harpers-the-miner/essay.md) at post-Pass-3.2 state (= post-Pass-3.4 state; Pass 3.3 PASS + Pass 3.4 ROBUST made no essay changes). 7,017w body across 8 sections; 167 lines; first-person Option B limited frame; six brief-§6-permitted verbatim quotes (Kennedy Canton + Bailey ×2 + Latusek ×3).
@@ -555,6 +556,43 @@ This is LOW severity (awareness item; HOLD verdict; no essay.md spot-fix at Pass
 
 ---
 
+## §3.1 Ratification record [PARTIALLY RATIFIED + APPLIED 2026-05-27]
+
+**Ratification authority:** Author disposition *"ratify as recommended and proposed; fire the next stage/phase when ready"* 2026-05-27 — single-batch ratification pattern per Ch 2 Pass 3.1 + Pass 3.2 + Pass 3.3 + Pass 3.4 single-batch precedent. Parent-session ratification + application combined in the same turn that received the Pass 3.5 PROPOSED sub-agent return.
+
+**Application discipline (load-bearing):** the substrate-critical-editorial-input memory ([`tools/memory/feedback_substrate_critical_editorial_input.md`](../memory/feedback_substrate_critical_editorial_input.md) 2026-05-21) + Pass 3.1 F-3.1-H1 precedent (invented Bailey biographical specifics cut at HIGH severity by Pass 3.1 fact-check) + named-subject consent memory ([`tools/memory/feedback_named_subject_consent.md`](../memory/feedback_named_subject_consent.md)) jointly constrain ratify-all-as-recommended application: where the Recommended option's *prose* contains invented named-subject specifics or invented biographical claims beyond §7 canonical facts, application is **DEFERRED for author-drafted or author-verified substrate** — the *structure* of the restoration ratifies, the *prose* awaits author authorship. The sub-agent's per-finding `[Substrate-critical note: ...]` callouts explicitly flagged this discipline at each illustrative-prose finding. Mechanical application of the illustrative prose would re-introduce the kind of biographical fabrication Pass 3.1 F-3.1-H1 cut.
+
+**Per-finding ratification + APPLIED-or-DEFERRED record (severity-strict ordering):**
+
+| ID | Ratified Option | Status | Disposition |
+|---|---|---|---|
+| F-3.5-H1 | (a) §I + §IV scene-anchor cluster | **RATIFIED structure + PROSE-DEFERRED** | Illustrative prose invents (i) §I diner-and-waitress encounter with three-generation family specifics (named-subject fabrication; per substrate-critical + named-subject discipline must come from author lived encounter or author-composed composite); (ii) §IV Bailey work-scene specifics (Bailey-at-19; Bailey's-father-retired-with-same-disease; specific hand-loading → continuous-mining-machine → longwall career timeline) beyond brief §7.3 canonical facts (Bailey 36 years; McDowell → Boone). Pass 3.1 F-3.1-H1 cut similar Bailey fabrication ("went underground at seventeen... fifty years later... thirty-six of those years actively mining") at HIGH severity. Application requires author substrate; site + structure + word-delta (+350–500w) ratified for next-step authoring. |
+| F-3.5-H2 | (a) §V Catte attribution at line 73 close | **RATIFIED + APPLIED** | Catte *What You Are Getting Wrong About Appalachia* (2018) attribution sentence applied verbatim at §V line 73 close (+45w). Published-work attribution; no factual invention; clean substrate. Closes Pass 3.1 §6 #3 + PC-4 §3 #3 + Pass 3.3 §6.2 #1 + Pass 3.4 §4.1 #1 regional-scholarship-lineage carry-forward. |
+| F-3.5-H3 | (a) §VII Purdue scene-rendering + Hamby acknowledgment | **RATIFIED structure + PROSE-DEFERRED** | Illustrative prose includes specific Purdue documentary-record claims ("sales representatives identifying physicians in specific counties"; "targeting decisions referenced to specific demographic vulnerabilities"; "senior management discussing the four-characteristic profile in the language of opportunity") that are plausible-per-Keefe but not anchored against brief §7.8 + actual Keefe text. Author must verify against Keefe + Hamby texts before application. Site + structure + word-delta (+230–350w) ratified for next-step authoring. |
+| F-3.5-M1 | (a) §II Kennedy WV-primary historical context | **RATIFIED structure + PROSE-DEFERRED** | Illustrative prose attributes specific Kennedy motivations ("He went to McDowell County because he had been told that the conditions there were as severe as anywhere in the country, and because he had decided that the test of his candidacy would have to include a confrontation with the parts of the country the postwar narrative was not seeing") + WV-primary tactical claims (Humphrey-as-Protestant; party-apparatus favoritism; Catholic-question test) requiring historical-record verification + Mechanism-Not-Motive register framing care per brief §16. Author must verify against historical record + Mechanism-Not-Motive framing before application. Site + structure + word-delta (+165w) ratified for next-step authoring. |
+| F-3.5-M2 | (a) §III Welch civic-life scene-render | **RATIFIED structure + PROSE-DEFERRED** | Illustrative prose invents period-typical Welch civic-infrastructure specifics (Pittsburgh coats and dresses; two banks at intersection; full surgical wing; civic clubs Tuesday evenings; schools running two shifts for mining-family schedules) — plausible-per-period-history but not anchored against brief §7.2 canonical facts or author source material. Author must verify against period-specific McDowell County source material before application. Site + structure + word-delta (+200w) ratified for next-step authoring. |
+| F-3.5-M3 | (b) revised §V line 63 structural-not-moral primer | **RATIFIED + APPLIED** | Structural-not-moral framing primer applied verbatim at §V line 63 close ("The word names a structural property of the architecture, not an indictment of intent.") (+15w). Framework-clarification; no factual invention; no em-dash added (revised per polarity discipline preserving Pass 3.2 H4 ratified em-dash floor of 10). Closes Pass 3.4 T8 vocabulary-misread-risk carry-forward at first-introduction site. |
+| F-3.5-L1 | (a) HOLD §VIII closing-cadence + first-person frame | **RATIFIED HOLD** | NO PROSE CHANGE. Pass 3.3 + Pass 3.4 dispositive verdicts confirmed load-bearing rhetorical work + well-balanced literary-essay register. Pass 3.5 polarity discipline (RESTORE not CUT/RESTRUCTURE) + §VIII already +565w over brief target. Forward-flag closed as HELD-by-Pass-3.5. |
+| F-3.5-L2 | (a) HOLD §V mech-aftermath bridge prose placement | **RATIFIED HOLD** | NO PROSE CHANGE. Bridge prose at current placement reads naturally; structural-cost-naming work preserved; restructure would be Pass 3.2 territory. Awareness item only; carry-forward acknowledged at Stage 5 awareness. |
+
+**Aggregate:** 8 findings ratified; 2 APPLIED + 4 RATIFIED-structure-PROSE-DEFERRED + 2 HOLD.
+
+**Post-application essay state:** 7,080w (up +63w from pre-Pass-3.5 7,017w; reflects F-3.5-H2 +45w Catte attribution + F-3.5-M3 +15w structural-not-moral primer + small structural adjustments). Em-dash count: 10 (Pass 3.2 H4 ratified target floor preserved). Six brief-§6-permitted verbatim quotes verified preserved (Kennedy + Bailey ×2 + Latusek ×3 untouched).
+
+**Deferred-prose application path:**
+
+The 4 RATIFIED-structure-PROSE-DEFERRED findings represent ~+1,045w of additional restoration potential (cumulative with the +60w applied = ~+1,105w to reach the projected ~8,122w within brief §12 middle-of-band). The author can:
+
+1. **Phase C-Pass-3.5 dedicated session:** spawn a per-finding interactive ratification session where the author drafts (or verifies) the substrate for each of the 4 deferred findings; spot-fixes apply at that session per Amendment C cadence. This is the discipline-clean path; matches the Phase C application pattern used for prior interactively-ratified prose-modifying passes.
+2. **Stage 5 iterate-during-sign-off:** defer the 4 substrate-pending restorations to Stage 5 sign-off review; the author has source material + lived knowledge to verify each illustrative prose proposal against; restoration prose lands at Stage 5 sign-off rather than at dedicated Phase C.
+3. **HOLD post-Pass-3.5 at 7,080w state:** accept current state as final Stage 3 essay state; the 4 deferred restorations close as gain-not-realized; essay sits at brief §12 no-auto-flag band but below recommended floor (8,000w). Pass 3.3 PASS + Pass 3.4 ROBUST verdicts hold at current depth; restoration was gain-opportunity not required-disarm.
+
+The discipline-aware recommendation: **path 1 (Phase C-Pass-3.5 dedicated session)** for the 2 substantially-load-bearing restorations (F-3.5-H1 §I + §IV scene-anchor cluster — addresses 2 of the 7 inherited forward-flags + lifts §IV Bailey body-cost density which Pass 3.3 §5.4 dispositive verdict identified as the essay's load-bearing miner-anchor; F-3.5-H3 §VII Purdue scene-rendering — addresses Pass 3.3 + Pass 3.4 second-largest single-section deficit); **path 2 (Stage 5)** for the 2 historical-context restorations (F-3.5-M1 §II Kennedy WV-primary + F-3.5-M2 §III Welch civic-life — historical-record-verifiable; Stage 5 sign-off review natural integration point).
+
+**Light Pass 3.3 re-fire timing:** Light Pass 3.3 re-fire (per parent doctrine §3.6.4) can fire now against current 7,080w state (confirms Catte attribution + structural-not-moral primer don't introduce regressions) OR wait until the 4 deferred restorations land (confirms full Pass 3.5 restoration holds). Author judgment per path-1 / path-2 / path-3 choice.
+
+---
+
 ## §4. Length-budget trajectory
 
 | Stage | Word count | Brief §12 reference |
@@ -703,18 +741,29 @@ After light Pass 3.3 re-fire RATIFIES + CONFIRMS:
 ### §7.3 End-of-session one-liner
 
 ```
-STATE: Pass 3.5 PROPOSED 2026-05-27 (DEFERRED for parent-session
-ratification per autonomous-mode default; 3 HIGH + 3 MEDIUM + 2 LOW
-= 8 findings; 6 propose RESTORE at HIGH or MEDIUM severity; 2 close
-as HOLD; all 7 forward-flagged items addressed; em-dash + Pass 3.2
-chiseling preservation CLEAN; projected post-restoration ~8,122w
-within brief §12 recommended middle-of-band 8,000–11,000w); NEXT:
-parent-session ratifies per-finding restoration spot-fixes + applies
-to essay.md on new feature branch; AWAITING: parent-session
-ratification → light Pass 3.3 re-fire session fires fresh per v3.1
-per-pass per-session cadence + parent doctrine §3.6.4 + brief §13
+STATE: Pass 3.5 PARTIALLY RATIFIED + APPLIED 2026-05-27 (single-
+batch "ratify as recommended and proposed" disposition; 2 of 6
+RESTORE recommendations APPLIED to essay.md — F-3.5-H2 Catte
+attribution at §V line 73 close + F-3.5-M3 (b) revised structural-
+not-moral primer at §V line 63 close; +63w net delta; 4 of 6
+RESTORE recommendations RATIFIED structure + PROSE-DEFERRED for
+author-drafted or author-verified substrate per substrate-critical-
+editorial-input + Pass 3.1 F-3.1-H1 + named-subject consent
+discipline — illustrative prose at F-3.5-H1 §I+§IV / F-3.5-H3 §VII
+/ F-3.5-M1 §II / F-3.5-M2 §III invents named-subject specifics or
+biographical claims beyond §7 canonical facts; 2 LOW HOLD verdicts
+ratified at F-3.5-L1 + F-3.5-L2; six brief-§6 verbatim quotes
+preserved; em-dash count preserved at 10; word count 7,017 → 7,080w);
+NEXT: author chooses application path for 4 deferred restorations —
+(1) dedicated Phase C-Pass-3.5 session with author-drafted substrate
+[discipline-clean]; (2) Stage 5 sign-off iterate-during-review;
+(3) HOLD at 7,080w + close 4 deferred as gain-not-realized; AND/OR
+light Pass 3.3 re-fire fires now against 7,080w state OR after full
+restoration lands; AWAITING: author path-choice → final Pass 3.5
+landing → light Pass 3.3 re-fire → Stage 4 render audit → Stage 5
+sign-off + cover letter; Harper's submission window target Q4 2026.
 ```
 
 ---
 
-*End of Stage 3 Pass 3.5 (Developmental-edit) artifact for Ch 2 → Harper's derivative essay — PROPOSED 2026-05-27 (DEFERRED for parent-session ratification).*
+*End of Stage 3 Pass 3.5 (Developmental-edit) artifact for Ch 2 → Harper's derivative essay — PARTIALLY RATIFIED + APPLIED 2026-05-27 (2 of 6 RESTORE recommendations applied; 4 RATIFIED structure + PROSE-DEFERRED for author substrate; 2 HOLD).*
