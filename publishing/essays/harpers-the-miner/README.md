@@ -2,14 +2,14 @@
 
 **Slug:** `harpers-the-miner`
 **Venue:** Harper's Magazine (Essays / Letter From tradition; long-form literary essay)
-**State:** PROPOSED (Stage 2 audience-blind draft 2026-05-27)
+**State:** RATIFIED (Stage 2 audience-blind draft 2026-05-27; PC-4 ratification commit `537258f` + sibling artifact [`stage-2-ratification-2026-05-27.md`](stage-2-ratification-2026-05-27.md))
 **Last updated:** 2026-05-27
 
 ## Essay status
 
 - **Word count:** 7,216w body (below target band 8,000–11,000w floor by 784w; sits in brief §12 no-auto-flag band 6,500–12,000w; substance-drives-length disposition per PC-4 ratification 2026-05-27 defers to Pass 3.5 developmental-edit for restoration-polarity identification; ceiling 15,000w)
-- **Stage 1 brief:** PROPOSED 2026-05-26 commit `3d1810b` — `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md`
-- **Stage 2 draft:** PROPOSED 2026-05-27 (this file)
+- **Stage 1 brief:** RATIFIED 2026-05-27 commit `be87926` on origin/main (scaffolding push; brief PROPOSED at commit `3d1810b` 2026-05-26 + §18.4 ratification record + Stage 1a clean baseline appended at Phase C session 2026-05-27) — `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md` + `tools/quality-gates/clean-baselines/ch2_harpers_stage1a_2026-05-27.md`
+- **Stage 2 draft:** RATIFIED 2026-05-27 (essay.md PROPOSED at commit `55842a3` + PC-4 ratification at commit `537258f` + this README + sibling artifact `stage-2-ratification-2026-05-27.md`; all on feature branch `worktree-agent-a3390c00c9b9a4df0` per CLAUDE.md end-user-facing-prose discipline, NOT on main)
 - **Stage 3 cycle:** NOT STARTED — fires in subsequent sessions after author ratifies Stage 2 draft
   - Pass 3.1 fact-check
   - Pass 3.2 voice-polish
