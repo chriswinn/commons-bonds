@@ -680,19 +680,24 @@ All other threads (T1, T2, T4, T5, T6, T7, T8, T9) are HOLD with pre-pub-review-
 
 ## §10. Ratification record
 
-### §10.1 Author disposition placeholder (pending author ratification)
+### §10.1 Author disposition — RATIFIED 2026-05-26
 
 | Item | Severity | Disposition options | Recommendation | Author ratification |
 |---|---|---|---|---|
-| §8.3 / §9.3 T3 MacLean cross-chapter-coherence spot-fix | Procedural / cross-chapter-coherence-restoration | A (APPLY) / B (HOLD) | **A (APPLY)** | *(pending author ratification)* |
-| §8.2 Aggregate Pass-3.4 verdict | Verdict | ROBUST / CONDITIONALLY ROBUST / FRAYS | **CONDITIONALLY ROBUST** | *(pending author ratification)* |
+| §8.3 / §9.3 T3 MacLean cross-chapter-coherence spot-fix | Procedural / cross-chapter-coherence-restoration | A (APPLY) / B (HOLD) | **A (APPLY)** | **RATIFIED 2026-05-26 — Option A (APPLY)** (author ratify-as-recommended) |
+| §8.2 Aggregate Pass-3.4 verdict | Verdict | ROBUST / CONDITIONALLY ROBUST / FRAYS | **CONDITIONALLY ROBUST** | **RATIFIED 2026-05-26 — CONDITIONALLY ROBUST** (author ratify-as-recommended) |
 
-### §10.2 Phase C-γ application (downstream session — to be filled in post-application; only if T3 Option A ratified)
+**Tally:** 1 RATIFY APPLY (T3 Option A canonical D-3a sentence appended at Ch 8 line 122) + 1 RATIFY VERDICT (CONDITIONALLY ROBUST aggregate). Eight threads (T1, T2, T4, T5, T6, T7, T8, T9) HOLD per §3 thread-pull-synthesis with pre-pub-review-queue acknowledgment for the bounded subgroup-discount regions; one thread (T3) procedurally spot-fixed via D-3a canonical sentence application.
 
-- Application commit SHA: *(pending downstream Phase C-γ session)*
-- Chapter line-count post-application: *(pending; expected +1-2 lines if T3 Option A applied)*
-- Cross-chapter cascade required: *(Stage 1c-light cross-chapter coherence verification recommended across Ch 5 + Ch 8 + Ch 9 + TA §1.10 Public-Choice-engagement sites post-T3 application; optional)*
-- Pass 3.5 (developmental-edit) session ready: **Y** (chapter holds at robustness; Pass 3.5 may fire whether T3 Option A applied or T3 Option B held)
+### §10.2 Phase C-γ application — APPLIED 2026-05-26
+
+T3 Option A applied: canonical D-3a sentence ("The rent-seeking analytical vocabulary survives many readings of Buchanan's broader political project, and this book draws on the vocabulary rather than endorsing the project.") inserted at Ch 8 line 122 between the framework's-contribution-is-different-in-kind statement and the "Chapter 9 develops the framework-Public-Choice relationship at greater length" forward-pointer. Placement matches Ch 5 line 202 + Ch 9 line 144 cousin conventions (D-3a sentence appended to Public-Choice-engagement paragraph in the natural prose-flow position).
+
+- Application commit SHA: *(this commit)*
+- Chapter line-count post-application: 243 (unchanged; sentence inserted within existing paragraph)
+- Em-dash count post-application: 52 (unchanged; no em-dashes in D-3a canonical sentence)
+- Cross-chapter cascade required: Stage 1c-light cross-chapter coherence verification (optional; Ch 5 + Ch 8 + Ch 9 + TA §1.10 Public-Choice-engagement sites now uniformly carry the D-3a canonical sentence post-T3 application)
+- Pass 3.5 (developmental-edit) session ready: **Y** (chapter holds at robustness post-T3 application; Pass 3.5 next per per-prompt serial cadence)
 
 ### §10.3 Next session for Ch 8
 

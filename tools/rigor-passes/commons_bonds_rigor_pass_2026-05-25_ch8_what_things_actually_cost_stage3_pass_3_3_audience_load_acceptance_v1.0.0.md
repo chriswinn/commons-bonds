@@ -956,18 +956,22 @@ The two ✓ INCLUDE verdicts (fiscal-conservative budget-hawk #19; Coasean econo
 
 ## §10. Ratification record
 
-### §10.1 Author disposition placeholder (pending author ratification)
+### §10.1 Author disposition — RATIFIED 2026-05-26
 
 | Item | Severity | Disposition options | Recommendation | Author ratification |
 |---|---|---|---|---|
-| §9.3 Political-Capture-cluster skim-read disclaimer | Author-judgment | A / B / C | **A (HOLD)** | *(pending author ratification)* |
+| §9.3 Political-Capture-cluster skim-read disclaimer | Author-judgment | A / B / C | **A (HOLD)** | **RATIFIED 2026-05-26 — Option A (HOLD)** (author ratify-as-recommended) |
 
-### §10.2 Phase C-γ application (downstream session — to be filled in post-application; only if author selects Option B or C)
+**Tally:** 1 RATIFY HOLD (no Phase C application required). Chapter lands as-is at acceptance; Political-Capture-cluster skim-read disclaimer not warranted per author judgment that the chapter's analytical asymmetric framing absorbs the close-vs-skim divergence within bounded subgroup-discount territory.
 
-- Application commit SHA: *(pending downstream Phase C-γ session, if any)*
-- Chapter line-count post-application: *(pending; no change if Option A)*
-- Cross-chapter cascade required: *(N if Option A; potentially Stage 1c-light if Option B touches rent-seeking-paragraph framing)*
-- Pass 3.4 (robustness) session ready: **Y** (chapter holds at acceptance; Pass 3.4 may fire whether Option A held or Option B applied)
+### §10.2 Phase C application — N/A
+
+Author ratified Option A (HOLD); no chapter prose modification triggered by Pass 3.3 ratification. Chapter file state unchanged from post-Phase-C-β baseline (commit `16554fa`, 243 lines, 52 em-dashes).
+
+- Application commit SHA: N/A (no application required)
+- Chapter line-count post-application: 243 (unchanged)
+- Cross-chapter cascade required: **N**
+- Pass 3.4 (robustness) session ready: **Y** — fired 2026-05-26 (commit `af8bf63`); RATIFIED CONDITIONALLY ROBUST concurrently with this artifact's ratification (see Pass 3.4 artifact §10).
 
 ### §10.3 Next session for Ch 8
 
