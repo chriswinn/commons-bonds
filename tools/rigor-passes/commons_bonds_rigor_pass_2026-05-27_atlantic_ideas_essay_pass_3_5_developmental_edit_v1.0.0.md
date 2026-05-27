@@ -1,7 +1,7 @@
-# Stage-3 Rigor Pass — Atlantic Ideas essay — Pass 3.5: Developmental-edit [PROPOSED]
+# Stage-3 Rigor Pass — Atlantic Ideas essay — Pass 3.5: Developmental-edit [RATIFIED]
 
-**Date:** 2026-05-27
-**Status:** PROPOSED — awaits interactive ratification (v3.1 Amendment C).
+**Date:** 2026-05-27 (PROPOSED + RATIFIED same-session per author "ratify as recommended and proposed" signal).
+**Status:** **RATIFIED** — per v3.1 Amendment C interactive ratification. All 7 findings dispositioned by author 2026-05-27. 4 spot-fixes ratified for Phase C application: F-DE-Atlantic-1 (a) §I thesis + §V ¶1 architectural integrity; F-DE-Atlantic-2 (a) §VII ¶4 three-paragraph split with light transitions; F-DE-Atlantic-3 (a) Hartwick compression tightening; F-DE-Atlantic-5 (b) four-traditions taxonomic-disarming gloss. 3 leave-verbatim dispositions: F-DE-Atlantic-4 (c) Coase engagement leave; F-DE-Atlantic-6 (c) close arc-completion leave; F-DE-Atlantic-7 (a) §II→§III→§IV transitions positive verification. See §3.5-bis Ratification record below. Phase C spot-fix APPLICATION fires same-session per CLAUDE.md author-ratified-content-changes default.
 **Pass type:** Stage 3 Pass 3.5 — Developmental-edit (fifth and final pass per v3.1 Amendment B doctrine; ratified 2026-05-18). **Polarity: RESTORATION** (opposite to Pass 3.2's CUT polarity).
 **Workstream:** Atlantic Ideas essay (Ch 9 → Atlantic Ideas cascade per [`publishing/strategy/cascade-plan_2026-05-06.md`](../../publishing/strategy/cascade-plan_2026-05-06.md)).
 **Artifact audited:** [`publishing/essays/atlantic-ideas-pricing-honestly/essay.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/essay.md) (post-Pass-3.2-Phase-C + Pass-3.3-RATIFIED + Pass-3.4-RATIFIED state; 95 lines / 4,234w; main HEAD `1113a39` at audit-fire time).
@@ -307,6 +307,40 @@ Ch 9 ([`manuscript/chapters/Chapter__9_PricingHonestly.md`](../../manuscript/cha
 
 ---
 
+## §3.5-bis Ratification record (2026-05-27)
+
+Author dispositioned all 7 findings as "ratify as recommended and proposed" 2026-05-27. Spot-fix APPLICATION fires same-session per CLAUDE.md author-ratified-content-changes default (Phase C autonomously fast-forwards to main).
+
+### Per-finding ratification disposition
+
+| Finding | Severity | Option ratified | Spot-fix description |
+|---|---|---|---|
+| **F-DE-Atlantic-1** | HIGH | **(a)** | §I ¶4 thesis: "four moves" → "five moves" + insert "adjust the trade architecture to price what crosses borders" as new 4th move (with reassess as 5th). §V ¶1: "The third move is the one that runs into the international system the way it actually works." → "The next move runs into the international system the way it actually works." Net: ~+5w. Architectural integrity restored. |
+| **F-DE-Atlantic-2** | MEDIUM | **(a) with transitions** | §VII ¶4 470w mega-paragraph break into 3 sub-paragraphs (Chattanooga / Mondragon-with-Caja-Laboral-and-Fagor / Vienna-with-market-default-close) with two light transition sentences. Net: ~+25w. F-3.2-4 carry-forward closed. |
+| **F-DE-Atlantic-3** | MEDIUM | **(a)** | §I ¶3: "None priced permanent foreclosure." → "None reached the irreplaceability case." Word-substitution. Net: 0w. F-3.4-Atlantic-1 + F-3.1-3 Hartwick compression closed. |
+| **F-DE-Atlantic-4** | LOW | **(c)** leave verbatim | Coase engagement at §I ¶3 not added. F-3.4-Atlantic-2 OPTIONAL carry-forward closed as leave-verbatim. |
+| **F-DE-Atlantic-5** | LOW | **(b)** | §I ¶3: "Four traditions: Marx, Ostrom, Daly, Hartwick." → "Four traditions, in the historical order they took up adjacent territory: Marx, Ostrom, Daly, Hartwick." Net: +7w. F-3.4-Atlantic-3 + F-3.3-Atlantic-Marx-Caution + Pass 3.4 Thread A1.1 all closed. |
+| **F-DE-Atlantic-6** | LOW | **(c)** leave verbatim | §VIII close to McDowell hook arc-completion bridge not added (generational-handoff implicit arc preserved). |
+| **F-DE-Atlantic-7** | LOW | **(a)** | Positive verification of §II → §III → §IV transitions; §IV → §V transition re-evaluated post-F-DE-Atlantic-1 application — "The next move runs into the international system" reads as clean continuation of "The fourth move... and reassess as it learns" thesis sequence. |
+
+### Estimated word-count delta on application
+
+Per-finding deltas: F-DE-Atlantic-1 ~+5w; F-DE-Atlantic-2 ~+25w; F-DE-Atlantic-3 0w; F-DE-Atlantic-4 0w; F-DE-Atlantic-5 +7w; F-DE-Atlantic-6 0w; F-DE-Atlantic-7 0w. **Net Pass 3.5 spot-fix delta: ~+37w.** Essay currently 4,234w post-Pass-3.2 → **~4,271w post-Pass-3.5.** Within +75w substance-drives-length tolerance.
+
+### Brief amendments expected at Pass 3.5 Phase C application
+
+None. Pass 3.5 spot-fixes are architectural-restoration + paragraph-architecture + word-substitution modifications to the essay file only; no §7 canonical-facts inventory amendment, no apparatus-exclusion list amendment, no audience-pressure-test-character set amendment. Stage 1 brief v1.1.4 stands unchanged through Pass 3.5.
+
+### Path B compliance at ratification
+
+Ratification + Phase C application session opened only this artifact + the essay file. Ch 9 not opened. Sibling essay drafts not opened as prose sources. Application session maintains the same Path B discipline.
+
+### Phase C application — same session
+
+Per Pass 3.5 ratification + v3.1 Amendment C interactive ratification (combined ratification + application discipline) + CLAUDE.md author-ratified-content-changes merge-to-main default: Pass 3.5 Phase C application fires same-session as ratification. Both commit atomically and autonomously fast-forward to main at session close.
+
+---
+
 ## §4. Interactive ratification protocol (per v3.1 Amendment C)
 
 This artifact is **PROPOSED**. Per v3.1 Amendment C (ratified 2026-05-19; updated 2026-05-21 in Boston Review brief v1.0.1 §13 + Atlantic Ideas brief v1.1.0 §13.2 + Amendment B 2026-05-18 Pass 3.5 codification), prose-modifying passes (3.1 / 3.2 / 3.5) follow per-finding artifact format with Options + Recommendation + Reasoning. Pass 3.5 ratification is INTERACTIVE — a follow-up session walks the author through each finding with options + recommendation + reasoning, applies ratified spot-fixes to source in the same combined session (per Pass 3.5 Amendment C scope per v3.1).
@@ -330,4 +364,4 @@ After Pass 3.5 interactive ratification + Phase C spot-fix application:
 
 ---
 
-*End of Stage 3 Pass 3.5 developmental-edit rigor pass artifact for Atlantic Ideas essay — PROPOSED 2026-05-27. Awaits interactive ratification per v3.1 Amendment C. CONDITIONAL verdict: 1 HIGH (architectural integrity) + 2 MEDIUM (Pass 3.2 + Pass 3.4 carry-forwards applied) + 4 LOW (2 OPTIONAL carry-forwards leave-verbatim + 1 close-arc consideration leave-verbatim + 1 positive verification). Net word-count delta on application: ~+37w (essay 4,234w → ~4,271w; within +75w substance-drives-length tolerance).*
+*End of Stage 3 Pass 3.5 developmental-edit rigor pass artifact for Atlantic Ideas essay — PROPOSED 2026-05-27 / **RATIFIED 2026-05-27** per author "ratify as recommended and proposed" signal. Per-finding ratification record at §3.5-bis. **4 spot-fixes ratified for same-session Phase C application: F-DE-Atlantic-1 + F-DE-Atlantic-2 + F-DE-Atlantic-3 + F-DE-Atlantic-5. 3 leave-verbatim dispositions: F-DE-Atlantic-4 + F-DE-Atlantic-6 + F-DE-Atlantic-7.** Net word-count delta: ~+37w (essay 4,234w → ~4,271w post-Phase-C). Stage 3 five-pass cycle COMPLETE upon Phase C application; next stage is Stage 4 render + character-integrity audit.*
