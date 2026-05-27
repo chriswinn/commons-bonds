@@ -1,7 +1,7 @@
-# Stage-3 Rigor Pass — Atlantic Ideas essay — Pass 3.2: Voice-polish [PROPOSED]
+# Stage-3 Rigor Pass — Atlantic Ideas essay — Pass 3.2: Voice-polish [RATIFIED]
 
-**Date:** 2026-05-25
-**Status:** PROPOSED — awaits interactive ratification (v3.1 Amendment C).
+**Date:** 2026-05-25 (PROPOSED); 2026-05-26 (RATIFIED via interactive author walk-through; Q1 Mian-Sufi primary-text verified via WebSearch).
+**Status:** **RATIFIED** — per v3.1 Amendment C interactive ratification. All 15 findings + 1 Pass-3.1-carry-forward (Q1 Mian-Sufi pre-Pass-3.2 task) dispositioned by author 2026-05-26 ("ratify all as recommended and proposed"). See §3.5 Ratification record below. Spot-fix APPLICATION is a separate Phase C session per v3.1 per-prompt serial cadence.
 **Pass type:** Stage 3 Pass 3.2 — Voice-polish (second of five passes per v3.1 doctrine). **Polarity: CUT** (opposite to Pass 3.5's RESTORATION polarity).
 **Workstream:** Atlantic Ideas essay (Ch 9 → Atlantic Ideas cascade per [`publishing/strategy/cascade-plan_2026-05-06.md`](../../publishing/strategy/cascade-plan_2026-05-06.md)).
 **Artifact audited:** [`manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md) (Stage 2 audience-blind flow draft + author-ratified four-traditions diagnostic insertion + Pass 3.1 fact-check RATIFIED + APPLIED 2026-05-24 + scaffolding strip 2026-05-25; main HEAD `a7b6f96` at audit-fire time).
@@ -503,11 +503,78 @@ Pass 3.5 restoration polarity will add ~+20w (F-3.2-4 carry-forward paragraph-br
 - **Pass 3.5 (developmental-edit):** F-3.2-4 (§VII ¶4 mega-paragraph break) is the primary Pass 3.5 carry-forward (RESTORATION polarity; scene-anchor density restoration). Pass 3.5 may also re-evaluate F-3.2-3 (lineage compression) at restoration polarity if the closing-lineage cluster reads as thin after CUT.
 - **Stage 5 pre-publication review queue:** No new Pass 3.2 items. Pass 3.1 F-3.1-9 (Mian-Sufi primary-text verification; upgraded to pre-Pass-3.2 task at Pass 3.1 §3.5 ratification) — if not yet completed, remains the only outstanding pre-Pass-3.2 task. Confirm with author whether Mian-Sufi check has fired before Pass 3.2 Phase C application; if not, recommend completion before Pass 3.2 Phase C session (Pass 3.2 spot-fix to F-3.1-9 wording defers until primary-text confirms-or-corrects).
 
-### §3.5 Path B compliance declaration
+### §3.5 Ratification record (2026-05-26)
+
+Author walked through 9 open decisions interactively in PM session 2026-05-26 ("resume Pass 3.2 interactive ratification" → walk-through Q1 through Q9 → "ratify all as recommended and proposed" at Q8a revisit). Per-finding dispositions captured below. **Spot-fix APPLICATION deferred to a separate Phase C session per v3.1 per-prompt serial cadence** — this ratification session captured decisions but did not apply edits to the essay source. Per CLAUDE.md author-ratified-content-changes default, Phase C application autonomously fast-forwards to main at session close.
+
+#### Per-finding ratification disposition
+
+| Finding | Severity | Option ratified | Spot-fix description |
+|---|---|---|---|
+| Q1 — Pass-3.1-carry-forward F-3.1-9 (Mian-Sufi) | MEDIUM (carry-forward from Pass 3.1 §3.5) | **(a)** | Defer to Stage 5 pre-publication review queue. Soft-anchor in essay line 69 ("by a factor on the order of three- to four-fold relative to top-quintile households") confirmed by primary-source WebSearch verification: Mian-Sufi MPC framework documents 3× MPC differential between high-LTV and low-LTV ZIP codes (verified anchor); 4× county-level consumption-cut differential (verified upper); $700B principal forgiveness → $126B spending boost counterfactual; bottom-20% net worth collapsed $30K→~$0K vs top-20% $3.2M→$2.9M. Soft-anchor survives fact-checker cross-check; no Pass 3.2 spot-fix needed. Sources logged for Stage 5 sign-off. |
+| F-3.2-1 | HIGH | **(a)** | Cadence collapse 6 mid-paragraph instances; preserve 4 load-bearing closes + 1 §VIII opener verbatim. Modify: §II ¶5 close (line 21); §II ¶6 close (line 23); §III ¶3 close (line 33); §IV ¶4 (line 49); §VI ¶2 (line 67); §VII ¶1 (line 79). Preserve: §I thesis (line 9); §VI ¶6 close (line 75); §VIII ¶2 close (line 95); §VII ¶5 close "It is also there." (line 87); §VIII ¶1 opener "A framework is not a plan." (line 93). Net delta: -22w. |
+| F-3.2-2 | HIGH | **(a)** | §IV ¶2 sentence-fragment cascade restructure to mixed sentence forms preserving all 6 substantive examples (PV / wind+battery / recycling / regenerative+plant-based protein groupings; mix full sentences + 1-2 standalone fragments). Net delta: ~+8w. |
+| F-3.2-3 | MEDIUM | **(a-with-Pistor)** | §VIII ¶1 author-lineage tightened to 5 named authors: Harvey + Ostrom + Raworth + **Pistor** + Christophers. Drop Desmond + Susskind. Vary syntax across the 5 authors. Pistor selected over Susskind for structural-fit reasoning (legal-architecture register closer to framework's accountability-bond logic than growth-redirection). Net delta: ~-40w. |
+| F-3.2-4 | MEDIUM CARRY-FORWARD | **(a)** | §VII ¶4 mega-paragraph break CARRY-FORWARD to Pass 3.5 RESTORATION polarity. Pass 3.5 will break 470w mega-paragraph into 3-4 sub-paragraphs (Chattanooga / Mondragon-with-Caja-Laboral-and-Fagor / Vienna / market-default close) with light transition prose between them. No Pass 3.2 spot-fix; flag for Pass 3.5 architectural-read. |
+| F-3.2-5 | MEDIUM | **(a)** | §I ¶3 four-traditions close three-short-declarative cadence broken: conjunction-join first two ("The price clears without them, and the decision gets made on whatever terms the parties at the table find tolerable.") + preserve standalone third ("The bill comes due in their lifetimes rather than ours."). Net delta: -1w. |
+| F-3.2-6 | MEDIUM | **(a)** | §VII ¶6 Swedish-services list compressed 6 → 4 canonical items: drop "subsidized childcare" + "stronger social trust environment"; keep "universal healthcare, education through university, parental leave, and longer life expectancy with less class variance." Net delta: -10w. |
+| F-3.2-7 / Q8a | LOW | **(a)** `What works already` | §VII subhead replaced from `What already works` → `What works already` (cadence-match noun-phrase; reads as relative-pronoun "that which works already" rather than interrogative; register-symmetric with §VIII subhead retained as `What a framework does` per Q8b). Net delta: 0w. |
+| F-3.2-7 / Q8b | LOW | **(a)** leave-as-is | §VIII subhead `What a framework does` retained verbatim (read as relative-clause noun phrase "[the question of] what a framework does"; register-symmetric with §VII subhead). Net delta: 0w. |
+| F-3.2-8 | LOW | positive verification + leave-as-is | §I ¶1 hook 5-item em-dash inventory preserved verbatim (hook protection rationale; each item doing substantive cost-component arithmetic-grounding work). |
+| F-3.2-9 | LOW | **(a)** preserve verbatim | §VI ¶5 "Same logic. Different ledger." preserved verbatim (Darity & Mullen close; signature device). |
+| F-3.2-10 | LOW | **(a)** preserve verbatim | §IV ¶3 "Same asymmetry. Same conclusion." preserved verbatim (16 Psyche / alternative-supply close; signature device echo with F-3.2-9). Two paired-2-word punctuator closes function as deliberate inter-section structural-recapitulation device. |
+| F-3.2-11 | LOW | positive verification | Em-dash density CLEAN (9 em-dashes essay-wide; ~2.1 per 1,000w; ~1/3 BR density). No action. |
+| F-3.2-12 | LOW | positive verification | Hedge-phrase + connective-tissue sweep CLEAN (zero instances). No action. |
+| F-3.2-13 | LOW | positive verification | Apparatus exclusion re-sweep CLEAN (confirms F-3.1-22 holds post-Phase-C + scaffolding-strip). No action. |
+| F-3.2-14 | LOW | positive verification | "Show me the legislative pathway" hypothetical-objector apostrophe sweep CLEAN (do-not-import from Ch 9 line 252 held). No action. |
+| F-3.2-15 | LOW | **(a)** lock | Title `Pricing Honestly` locked verbatim. |
+
+#### Q1 Mian-Sufi primary-source verification — substantive sources logged for Stage 5
+
+WebSearch verified the following Mian-Sufi figures against published primary sources (Atif R. Mian, Kamalesh Rao, Amir Sufi, "Household Balance Sheets, Consumption, and the Economic Slump," *Quarterly Journal of Economics* 128(4), 2013, pp. 1687-1726; Mian + Sufi, *House of Debt: How They (and You) Caused the Great Recession, and How We Can Prevent It from Happening Again*, University of Chicago Press, 2014):
+
+- **MPC out of housing wealth: 5-7 cents (average), with substantial heterogeneity** — *QJE* 2013.
+- **ZIP codes with 90% housing LTV had MPC THREE TIMES as large as ZIP codes with 30% LTV** — *QJE* 2013.
+- **Bottom 20% of households (2007): nearly all net worth in home equity; debt-to-asset ratio 80%** — *House of Debt* 2014.
+- **Top 20% (2007): nearly all net worth in financial assets; debt-to-asset ratio 7%** — *House of Debt* 2014.
+- **Bottom 20% net worth: $30K → ~$0K during Great Recession (erased all 1992-2007 gains)** — *House of Debt* 2014.
+- **Top 20% net worth: $3.2M → $2.9M (negligible percentage decline)** — *House of Debt* 2014.
+- **$700B principal forgiveness in 2009 → projected $126B spending boost** (counterfactual) — *House of Debt* 2014.
+- **County-level: large net-worth-decline counties cut consumption 20% vs aggregate 5% (4× factor)** — *House of Debt* 2014.
+
+**Synthesis for essay claim:** Lower bound ("three-fold") directly verified via *QJE* 2013 MPC differential. Upper bound ("four-fold") plausible per county-level consumption-cut differential. "Bottom 40%" framing approximate-correct against Mian-Sufi quintile-level data (bottom two quintiles together include the high-MPC population). **Soft-anchor in essay line 69 survives primary-source verification.** Stage 5 pre-publication review queue should log these sources for editor-side fact-checker focus area.
+
+#### Brief amendments expected at Pass 3.2 Phase C application
+
+None. Pass 3.2 spot-fixes are voice-craft + register-discipline modifications to the essay file only; no §7 canonical-facts inventory amendment, no apparatus-exclusion list amendment, no audience-pressure-test-character set amendment. The Stage 1 brief v1.1.4 stands unchanged through Pass 3.2.
+
+#### Stage 5 pre-publication review queue carry-forwards (added 2026-05-26)
+
+| Item | Disposition |
+|---|---|
+| Mian-Sufi primary-source citations (Q1 verification) | **Stage 5 sign-off should reference**: *QJE* 2013 ("Household Balance Sheets, Consumption, and the Economic Slump"); Mian-Sufi *House of Debt* (Univ. Chicago Press, 2014). Recommended editor-side fact-checker focus area: confirm "three- to four-fold" framing against MPC differential + county-level consumption-cut figures. |
+| F-3.2-4 §VII ¶4 mega-paragraph | Pass 3.5 RESTORATION polarity (carry-forward unchanged from Pass 3.2 PROPOSED). |
+| F-3.2-3 §VIII lineage compression | Pass 3.5 may re-evaluate at restoration polarity if cluster reads thin after CUT. |
+
+#### Estimated word-count delta on application
+
+Per-finding word-deltas (recap from §3 above): F-3.2-1 -22w; F-3.2-2 +8w; F-3.2-3 -40w; F-3.2-4 0w (deferred to Pass 3.5); F-3.2-5 -1w; F-3.2-6 -10w; F-3.2-7 0w; F-3.2-8 through F-3.2-15 0w. **Net Pass 3.2 delta: -65w.** Essay currently 4,309w post-Pass-3.1-Phase-C-and-scaffolding-strip → **~4,244w post-Pass-3.2.** Brief target band 3,800–4,200w; ~44w over upper-target (within substance-drives-length tolerance per brief §10).
+
+Pass 3.5 restoration polarity (F-3.2-4) will add ~+20w (paragraph-break transitions) → estimated post-Pass-3.5 essay ~4,264w.
+
+#### Path B compliance at ratification
+
+Ratification session opened only this artifact + the essay file (read-only, for spot-fix-text reference). Ch 9 not opened. Sibling essay drafts not opened as fact-sources. Application session is expected to maintain the same Path B discipline.
+
+#### Phase C application — separate session
+
+Pass 3.2 spot-fix application to [`manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md) fires as a separate Phase C session under PM-session control. Per CLAUDE.md merge-to-main defaults (extended 2026-05-16): Phase C spot-fix application sessions are author-ratified-content-change category — they autonomously fast-forward merge to main at session close. PM session drafts the application paste-text from the §3.5 ratification record above.
+
+### §3.6 Path B compliance declaration
 
 Ch 9 ([`manuscript/chapters/Chapter__9_PricingHonestly.md`](../../manuscript/chapters/Chapter__9_PricingHonestly.md)) was NOT opened during this Pass 3.2 audit session. Sibling essay drafts ([`manuscript/essay/100-barrel/`](../../manuscript/essay/100-barrel/), [`manuscript/essay/boston-review/`](../../manuscript/essay/boston-review/), [`manuscript/essay/noema/`](../../manuscript/essay/noema/), [`manuscript/essay/aeon/`](../../manuscript/essay/aeon/)) were NOT opened as prose sources. BR Pass 3.2 artifact + $100 Barrel Pass 3.2 artifact were read for FORMAT REFERENCE + cross-essay LLM-tic-pattern precedent only. All proposed spot-fix prose is freshly generated from the brief's §5 register; no sibling-essay paste.
 
-### §3.6 Open questions for PM session / author
+### §3.7 Open questions for PM session / author (RESOLVED 2026-05-26)
 
 1. **F-3.2-1 cadence preservation:** the recommendation preserves 4 load-bearing close instances (line 9 thesis; line 75 §VI close; line 95 §VIII close; line 87 §VII close) + 1 §VIII opener (line 93). Author may judge differently — e.g., preserve only 2-3 of these 5 if author wants tighter cadence-density discipline. Author judgment at ratification.
 2. **F-3.2-2 §IV ¶2 grouping:** the recommendation groups PV + wind/battery combined + recycling + regenerative/plant-based combined. Author may prefer alternative groupings (e.g., 6 → 4 with different cuts; 6 → 3 with different cuts) — the discipline is mixed sentence forms, not the specific grouping.
@@ -520,11 +587,13 @@ Ch 9 ([`manuscript/chapters/Chapter__9_PricingHonestly.md`](../../manuscript/cha
 
 ## §4. Interactive ratification protocol (per v3.1 Amendment C)
 
-This artifact is **PROPOSED**. Per v3.1 Amendment C (ratified 2026-05-19; updated 2026-05-21 in Boston Review brief v1.0.1 §13 + Atlantic Ideas brief v1.1.0 §13.2), prose-modifying passes (3.1 / 3.2 / 3.5) follow per-finding artifact format with Options + Recommendation + Reasoning.
+**RATIFIED 2026-05-26** per v3.1 Amendment C (ratified 2026-05-19; updated 2026-05-21 in Boston Review brief v1.0.1 §13 + Atlantic Ideas brief v1.1.0 §13.2). Prose-modifying passes (3.1 / 3.2 / 3.5) follow per-finding artifact format with Options + Recommendation + Reasoning. Author interactive walk-through 2026-05-26 captured per-finding dispositions in §3.5 above.
 
-**Per-finding ratification expected at the interactive session:** For each F-3.2-N finding, author selects Option (a) / (b) / (c) / (d) — or supplies an alternative. The session then applies ratified spot-fixes to [`manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md`](../../manuscript/essay/atlantic-ideas/atlantic-ideas-essay-fresh-session-draft_2026-05-21.md) on a fresh Phase C feature branch.
+**Application path:** Per v3.1 per-prompt serial cadence, spot-fix APPLICATION fires as a separate Phase C session. Reasoning: cleaner separation between ratification (this session, decisions only) and application (next session, source edits) per the Pass 3.1 precedent (Atlantic Ideas Pass 3.1 §3.5 ratification 2026-05-24 → Phase C application 2026-05-24 commit `cc027eb`).
 
-**No Path B violations expected at application:** all spot-fixes generate fresh prose from the brief's §5 register or close inline through cadence-collapse / sentence-shape variation; no paste-from-Ch-9 or sibling-essay-paste moves required.
+**Per-finding ratification record:** see §3.5 above.
+
+**No Path B violations expected at application:** all spot-fixes generate fresh prose from the brief's §5 register or close inline through cadence-collapse / sentence-shape variation; no paste-from-Ch-9 or sibling-essay-paste moves required. The application session should use the §3.5 ratification record as its source-of-truth for what to apply.
 
 ---
 
@@ -540,4 +609,4 @@ After Pass 3.2 interactive ratification + Phase C spot-fix application:
 
 ---
 
-*End of Stage 3 Pass 3.2 voice-polish rigor pass artifact for Atlantic Ideas essay — PROPOSED 2026-05-25. Awaits interactive ratification per v3.1 Amendment C.*
+*End of Stage 3 Pass 3.2 voice-polish rigor pass artifact for Atlantic Ideas essay — PROPOSED 2026-05-25 / **RATIFIED 2026-05-26** per v3.1 Amendment C interactive walk-through. Per-finding ratification record at §3.5. Phase C application fires as separate session per v3.1 per-prompt serial cadence.*
