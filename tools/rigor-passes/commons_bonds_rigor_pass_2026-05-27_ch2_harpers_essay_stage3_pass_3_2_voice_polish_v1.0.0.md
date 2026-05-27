@@ -1,7 +1,8 @@
-# Stage-3 Rigor Pass — Ch 2 *The Miner* → Harper's Magazine essay — Pass 3.2: Voice-polish [PROPOSED]
+# Stage-3 Rigor Pass — Ch 2 *The Miner* → Harper's Magazine essay — Pass 3.2: Voice-polish [RATIFIED + APPLIED]
 
 **Date:** 2026-05-27
-**Status:** **PROPOSED 2026-05-27.** Autonomous-mode agent produced per-finding artifact end-to-end at post-Pass-3.1 essay.md state (harness branch `claude/ch2-harpers-pass3-2-voicepolish-260527-52a7ec`). **Sub-step 3.2-c interactive ratification + application DEFERRED to a separate Phase C session** per the Ch 2 Pass 3.1 autonomous-mode precedent (commit `eaf9434` PROPOSED → Phase C session 2026-05-27 RATIFIED + APPLIED). Prose changes NOT applied to `publishing/essays/harpers-the-miner/essay.md` in this session; Phase C session walks findings interactively per Amendment C cadence + applies ratified spot-fixes on a new feature branch.
+**Status:** **RATIFIED + APPLIED 2026-05-27.** Author disposition *"ratify as recommended and proposed; fire the next stage/phase when ready"* — single-batch ratification pattern per Ch 2 Pass 3.1 PC-3 + PC-4 + Pass 3.1 Phase C 2026-05-27 single-batch precedent (cf. [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md) single-batch ratify-all default). All 12 findings RATIFIED at recommended options + APPLIED to `publishing/essays/harpers-the-miner/essay.md` on harness branch `claude/ch2-harpers-pass3-2-voicepolish-260527-52a7ec` in the same session. Six brief-§6-permitted verbatim quotes (Kennedy Canton + Bailey ×2 + Latusek ×3) verified preserved post-application. Em-dash density reduced 18 → 10 (~2.5/1,000w → ~1.4/1,000w); "I want to / What I want" meta-commentary lead-ins reduced 7 → 0 (8 sites total after F-3.2-H1 expanded-scope discovery at line 55 application time + line 161 "What I have tried to do" included in scope); academic-hedge surfaces reduced ~15 → 1 (line 129 "in fact" preserved as voiced-by-rebutted-framing).
+**Previous status:** PROPOSED 2026-05-27 (autonomous-mode agent produced per-finding artifact end-to-end at post-Pass-3.1 essay.md state; PROPOSED published to origin/main commit `2f8734c`; ratification + application then completed in the same session at author disposition above).
 **Pass type:** Stage 3 Pass 3.2 — Voice-polish (second of five passes per v3.1 doctrine; automatic-on-edit cascade per Amendment A; polarity = CUT, opposite to Pass 3.5's RESTORE).
 **Workstream:** Wave 2, Candidate A — Ch 2 *The Miner* → Harper's Magazine derivative essay.
 **Artifact audited:** [`publishing/essays/harpers-the-miner/essay.md`](../../publishing/essays/harpers-the-miner/essay.md) at post-Pass-3.1 state (essay.md spot-fixes commit on harness branch `worktree-agent-a12ed7f85945ace53` head commit `05bf35f`; cherry-picked onto this Pass 3.2 worktree's harness branch). 7,125w body across 8 sections; first-person Option B limited frame per PC-4 ratification; six brief-§6-permitted verbatim quotes preserved (Kennedy Canton + Bailey ×2 + Latusek ×3); framework-vocabulary naming retained at §V + §VIII per brief §8 KEEP entries.
@@ -529,15 +530,232 @@ After ratification + application of all recommended spot-fixes (per the Phase C 
 
 ---
 
-## §6. Ratification record (DEFERRED to Phase C session)
+## §6. Ratification record [RATIFIED + APPLIED 2026-05-27]
 
-**Per Amendment C Interactive Ratification Protocol + Ch 2 Pass 3.1 autonomous-mode precedent:** this Pass 3.2 session fires in autonomous mode (no interactive author). Per session-spec default, the agent produces the per-finding PROPOSED artifact end-to-end + marks STATE PROPOSED + DEFERRED for a separate Phase C application session. Prose changes are NOT applied to `publishing/essays/harpers-the-miner/essay.md` in this session.
+**Ratification authority:** Author disposition *"ratify as recommended and proposed; fire the next stage/phase when ready"* 2026-05-27 — single-batch ratification pattern per Ch 2 Pass 3.1 Phase C 2026-05-27 single-batch precedent (cf. [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md)). Ratification + application combined in the same session that produced the PROPOSED artifact.
 
-**Phase C ratification session (fires separately):**
-- **Cadence:** walks findings interactively per Amendment C (or single-batch "ratify all as recommended and proposed" if author chooses, per Ch 2 Pass 3.1 PC-3 + PC-4 single-batch precedent).
-- **Severity-strict ordering:** all HIGH first (H1 → H2 → H3 → H4) → all MEDIUM (M1 → M2 → M3) → all LOW (L1 → L2 → L3 → L4 → L5).
-- **Application:** ratified spot-fixes apply to `publishing/essays/harpers-the-miner/essay.md` on a new feature branch (matching the Ch 2 Pass 3.1 application pattern); essay.md stays on the feature branch per CLAUDE.md end-user-facing-prose discipline (does NOT auto-merge to main).
-- **Verbatim-quote preservation:** Phase C session verifies post-application that all six brief-§6-permitted verbatim quotes (Kennedy Canton + Bailey ×2 + Latusek ×3) remain preserved exactly.
+**Ratified Option per finding:** Recommended option in every case (single-batch ratify-all-as-recommended default). Where the Recommendation listed two options as author-judgment-call (L1 was author judgment between (a) direct-declarative and (b) "the word I want" form; L2 was author judgment on which "still" three-row to vary), the discipline-aware option was selected per the single-batch default reading (L1 → (a); L2 → (a)). HOLDs preserved (L4 + L5).
+
+**Per-finding ratification + APPLIED diff record (severity-strict ordering):**
+
+---
+
+### F-3.2-H1 [RATIFIED + APPLIED] — "What I want to do / I want to" meta-commentary tic cluster
+
+**Ratified Option:** (a) — cut all 7 sites identified in finding + 1 expanded-scope site (line 161 "What I have tried to do here" included in scope per the diagnostic §2 table inventory + line 55 "I want to ask" discovered at application time and treated consistently per the discipline-aware default).
+
+**APPLIED diffs:**
+
+- **Line 11 (§I close):** `"What I want to do in what follows is to try, in plain English, to add up..."` → `"What follows is an attempt, in plain English, to add up..."`
+- **Line 43 (§IV close):** `"What I want to do in the rest of this essay is to try to read his unpaid balance honestly."` → `"The rest of this essay tries to read his unpaid balance honestly."`
+- **Line 55 (§V severed-cost transition — expanded scope at application time):** `"The accounting question I want to ask, plainly, is what should have happened differently..."` → `"The accounting question, plainly, is what should have happened differently..."`
+- **Line 73 (§V miner-agency):** `"I want to make a structural correction at this point..."` → `"A structural correction belongs here..."`
+- **Line 83 (§VI Trust Fund population):** `"Behind that line in the ledger is a population I want to make visible."` → `"Behind that line in the ledger is a population worth making visible."`
+- **Line 119 (§VI close):** `"What I want this essay to land is the direction of the gap, not the precise magnitude — the magnitude is in the book."` → `"What this essay can land is the direction of the gap, not the precise magnitude. The magnitude is in the book."` (integrated with F-3.2-H4 line 119 em-dash → period.)
+- **Line 129 (§VII cultural-pathology):** `"I want to be specific here, because the alternative framing — the cultural-pathology framing — is one of..."` → `"Specificity matters here, because the alternative framing, the cultural-pathology framing, is one of..."` (integrated with F-3.2-H4 line 129 em-dash → comma-pair.)
+- **Line 159 (§VIII close opening):** `"I want to close with a sentence that I have, by this point in the essay, perhaps earned."` → `"One sentence, by this point in the essay, has perhaps been earned."`
+- **Line 161 (§VIII penultimate — diagnostic §2 table inventory site):** `"What I have tried to do here is to make one such transfer mechanism visible."` → `"This essay has tried to make one such transfer mechanism visible."`
+
+Result: 8 "I want to / What I want to / What I have tried to do" meta-commentary lead-ins cut (post-Pass-3.2 count of pattern in essay = 0; line 27's `"I do not want, in anything that follows, to write a sentence that makes them sound like victims, because they were not"` preserved per finding's defensible-substance exception note — the §III pre-collapse working-class-dignity disarm is load-bearing substance per brief §III + §4). Authorial-presence-in-scene preserved at lines 7 + 35 + 147 + 149 per PC-4 §2 first-person-frame ratification.
+
+---
+
+### F-3.2-H2 [RATIFIED + APPLIED] — "in X sense / in the end / in fact" academic-hedge cluster
+
+**Ratified Option:** (a) — cut all 15 hedge surfaces where the sentence parses without the hedge. Discipline-aware exception applied at line 99 (substantive *legal-damage vs other-kinds-of-damage* distinction warranted restructure rather than drop) + line 129 (`"in fact"` preserved as voiced-by-rebutted-framing — load-bearing rhetorical move). Net: 13 hedge surfaces cut; 2 preserved.
+
+**APPLIED diffs:**
+
+- **Line 27 (§III WW2-coal):** `"the war was fought, in significant part, on the energy..."` → `"the war was fought on the energy..."`
+- **Line 41 (§IV Bailey-blood paragraph; 4 hedges):** `"That is, in some respects, what a public hearing is for; that is what testimony, in the proper sense, is. And it is also, on a closer reading, the request of a man who knew that the system in which he had spent his working life had not, in the end, paid what it owed him..."` → `"That is what a public hearing is for; that is what testimony is. And it is also the request of a man who knew that the system in which he had spent his working life had never paid what it owed him..."` (4 hedges cut: "in some respects" + "in the proper sense" + "on a closer reading" + "in the end" replaced with "never".)
+- **Line 61 (§V externality):** `"is, in this sense, an externality of the coal he mined"` → `"is an externality of the coal he mined"`
+- **Line 69 (§V value-extraction):** `"Value extraction is not theft, in the legal sense."` → `"Value extraction is not theft."`
+- **Line 81 (§VI Trust Fund deficit):** `"has, in fact, been quietly transferring"` → `"has been quietly transferring"`
+- **Line 99 (§VI community-cost):** `"This is not damage in the legal sense."` → `"This is not damage that the law recognizes."` (Restructure preserves legal-recognition substance + drops "in X sense" hedge form.)
+- **Line 139 (§VIII consumer-not-knowing — integrated with F-3.2-L3):** `"They did not know, in any concrete sense, that the cheap energy..."` → `"They did not know that the cheap energy..."` (drops "in any concrete sense" hedge; combined with L3 four-row → three-row compression.)
+- **Line 151 (§VIII Latusek-grammar):** `"the system, in the end, would be honest with him"` → `"the system would, in the end, be honest with him"` (restructure preserves the "in the end" load-bearing grief-of-missing-architecture register at the interpretive close.)
+- **Line 153 (§VIII analytical-close paragraph; 3 hedges):** `"is, in the end, the question of what an architecture..."` → `"is the question of what an architecture..."`; `"in any sense I am willing to put on the page in an essay of this length"` → `"in this essay's length"`; `"the costs the transaction was, in fact, generating"` → `"the costs the transaction was generating"` (3 hedges cut in one paragraph + integrated with F-3.2-H3 "would have" anaphora variance.)
+- **Line 159 (§VIII close):** `"cost severance is, in market terms, the most consequential failure of the price signal"` → `"cost severance is the most consequential failure of the price signal"`
+- **HELD at line 129 (§VII cultural-pathology):** `"what looks like a structural collapse is, in fact, a moral collapse"` — `"in fact"` preserved as voiced-by-rebutted-framing (the essayist quoting the cultural-pathology framing's confident-declarative logic; load-bearing rhetorical move; not the essayist's own hedge).
+
+Result: 13 of 15 hedge surfaces cut; line 99 restructured with legal-recognition substance preserved; line 129 "in fact" held as voiced-by-rebutted-framing. Post-Pass-3.2 hedge count: 1 (line 129; defensible).
+
+---
+
+### F-3.2-H3 [RATIFIED + APPLIED] — §VIII line 153 "would have" rule-of-five anaphora
+
+**Ratified Option:** (a) — vary openings at sentences 2 + 3 + 4 via subject-shift; preserve sentences 1 + 5 at rhetorical-bracket positions.
+
+**APPLIED diff (essay.md line 153, integrated with F-3.2-H2 three hedge cuts in same paragraph):**
+
+PRE (5-sentence anaphora "It would have" beats 2–5):
+> "An honest accounting would have priced into the original transaction the costs the transaction was, in fact, generating. It would have required the value-capturing party to fund the long-tail liability that the extraction was, predictably, going to produce. It would have routed some portion of the rents at the point of extraction to the parties that would bear the downstream cost. It would have held the funding across the life cycle of the obligation, rather than allowing the funding to evaporate at the moment the corporate shell that owed it dissolved. It would have made cost severance harder to accomplish..."
+
+POST (5 sentences with varied subjects; rule-of-five anaphora form broken):
+> "An honest accounting would have priced into the original transaction the costs the transaction was generating. The value-capturing party would have been required to fund the long-tail liability that the extraction was, predictably, going to produce. Some portion of the rents at extraction would have been routed to the parties bearing the downstream cost. The funding would have been held across the life cycle of the obligation, rather than allowed to evaporate at the moment the corporate shell that owed it dissolved. It would have made cost severance harder to accomplish..."
+
+Result: subject-shifts at sentences 2 ("The value-capturing party") + 3 ("Some portion of the rents") + 4 ("The funding") break the identical-form "It would have" anaphora; bracket-positions sentence 1 ("An honest accounting") + sentence 5 ("It would have made") preserve rhetorical weight. Cumulative §VIII cadence-flatten exposure reduced.
+
+---
+
+### F-3.2-H4 [RATIFIED + APPLIED] — Em-dash density audit (18 → 10)
+
+**Ratified Option:** (a) — apply all reductions per per-site table. HOLDs preserved at lines 69 + 73 + 105 + 149 + 155 (nested-list em-dash-pair constructions with active justification). REDUCEs applied at lines 37 + 93 + 119 + 123 + 129 + 139.
+
+**APPLIED diffs:**
+
+- **Line 37 (§IV cost-paid-by-fund):** `"The cost — the surgery, the anti-rejection medications, the postoperative care — was paid, instead, by the federal Black Lung Disability Trust Fund."` → `"The cost was paid, instead, by the federal Black Lung Disability Trust Fund: the surgery, the anti-rejection medications, the postoperative care."` (Em-dash-pair restructured to lead-claim + trailing-colon-list; 2 em-dashes removed.)
+- **Line 93 (§VI reclamation gap):** `"It is the price of cleanup the industry promised but did not fund — a deficit large enough to read as policy rather than as accident."` → `"It is the price of cleanup the industry promised but did not fund: a deficit large enough to read as policy rather than as accident."` (Trailing em-dash → colon; Pass-3.1-H4-added em-dash removed.)
+- **Line 119 (§VI close — integrated with F-3.2-H1):** `"— the magnitude is in the book."` → `". The magnitude is in the book."` (Trailing em-dash → period + sentence-break; Pass-3.1-L5-added em-dash removed.)
+- **Line 123 (§VII pivot):** `"The two cycles were not unrelated — the documentary record..."` → `"The two cycles were not unrelated: the documentary record..."` (Trailing em-dash → colon; Pass-3.1-H5-added em-dash removed.)
+- **Line 129 (§VII cultural-pathology — integrated with F-3.2-H1):** `"the alternative framing — the cultural-pathology framing — is one of..."` → `"the alternative framing, the cultural-pathology framing, is one of..."` (Em-dash-pair → comma-pair; 2 em-dashes removed.)
+- **Line 139 (§VIII consumption — integrated with F-3.2-L3):** `"and built the ships that launched from Norfolk's yards — four cities that consumed what one county produced."` → `"and built the ships that launched from Norfolk's yards: four cities that consumed what one county produced."` (Trailing em-dash → colon; Pass-3.1-M8-added em-dash removed.)
+- **HELD at lines 69 + 73 + 105 + 149 + 155:** nested-list em-dash-pair constructions (source-list at line 69; regulatory-architecture list at line 73; rents-routing list at line 105; Latusek biographical-attribution at line 149; legal-modules list at line 155) — active justification met (nested-list with internal commas; em-dash-pair is cleanest punctuation; comma-pair alternatives would compete with internal commas).
+
+Result: em-dash count 18 → 10; density ~2.5/1,000w → ~1.4/1,000w. All four Pass-3.1-added em-dash sites (lines 93 + 119 + 123 + 139) re-evaluated and removed at Pass 3.2 per the active-justification standard + forward-flag #5 from Pass 3.1 §6.
+
+---
+
+### F-3.2-M1 [RATIFIED + APPLIED] — §VI line 105 "X subsidized Y" rule-of-four anaphora
+
+**Ratified Option:** (b) — vary verbs across 4 cases to break "subsidized" anaphora while preserving four-case enumeration.
+
+**APPLIED diff (essay.md line 105):**
+
+PRE:
+> "The community subsidized the coal industry. The miners subsidized their employers. The county subsidized the consumers in distant cities. The future subsidized the present."
+
+POST:
+> "The community absorbed the coal industry's costs. The miners underwrote their employers. The county effectively financed the consumers in distant cities. The future paid for the present."
+
+Result: four substantively-distinct cost-mechanism verbs (absorbed / underwrote / financed / paid for) replace the rule-of-four "subsidized" anaphora; the *subsidy*-naming claim (anchored in the paragraph's opening "is *subsidy*") is preserved; the form-as-tic-marker dissolves; substantive precision improves (each verb carries case-specific cost-mechanism nuance).
+
+---
+
+### F-3.2-M2 [RATIFIED + APPLIED] — §IV line 41 "exist because" rule-of-three anaphora + "exist exist" word-doubling
+
+**Ratified Option:** (b) — restructure to break both the "exist exist" doubling + the rule-of-three "exist because" anaphora via verb-variance. Combined with F-3.2-H2 line 41 paragraph-wide hedge cuts.
+
+**APPLIED diff (essay.md line 41):**
+
+PRE (anaphora + word-doubling segment):
+> "The mine safety regulations that exist exist because miners died; the dust standards exist because miners suffocated; the federal black lung program exists because miners and their widows refused to accept that the suffering was nobody's responsibility."
+
+POST:
+> "The mine safety regulations exist because miners died. The dust standards were written after miners suffocated. The federal black lung program was built because miners and their widows refused to accept that the suffering was nobody's responsibility."
+
+Result: word-doubling "exist exist" resolved by dropping "that exist" relative-clause; rule-of-three anaphora broken via verb-variance (exist because / were written after / was built because); semicolons → periods (three independent sentences); substantive precision preserves each beat's historical-mechanism distinctness. Combined with the F-3.2-H2 paragraph-wide hedge cuts (4 hedges removed in same paragraph), this paragraph carries the largest single-paragraph chiseling impact in the Pass 3.2 application.
+
+---
+
+### F-3.2-M3 [RATIFIED + APPLIED] — §VIII line 159 elided-"that" sentence restructure (forward-flag #1)
+
+**Ratified Option:** (b) — restructure to two-sentence form. Combined with F-3.2-H1 line 159 opening + F-3.2-H2 line 159 "in market terms" cut.
+
+**APPLIED diff (essay.md line 159 — combined with H1 + H2):**
+
+PRE:
+> "I want to close with a sentence that I have, by this point in the essay, perhaps earned. The argument I have made here is not a partisan argument. I am not making the case for any particular legislative program. I am not asking the reader to agree with any specific policy I am not, on these pages, proposing."
+
+POST:
+> "One sentence, by this point in the essay, has perhaps been earned. The argument I have made here is not a partisan argument. I am not making the case for any particular legislative program. I am not asking the reader to agree with any specific policy. I am not, on these pages, proposing one."
+
+Result: forward-flag #1 elided-"that" stilt resolved by two-sentence restructure; load-bearing explicit-meta non-partisan-disarming rhetorical work preserved at all three "I am not" beats ("not a partisan argument" / "not making the case for any particular legislative program" / "not asking the reader to agree with any specific policy" / "not, on these pages, proposing one"); negative-anaphora register-weight preserved; H1 meta-commentary "I want to close with" lead-in cut at sentence 1.
+
+---
+
+### F-3.2-L1 [RATIFIED + APPLIED] — §VIII line 141 "What I would call spatial cost severance" framework-naming asymmetry (forward-flag #9)
+
+**Ratified Option:** (a) — conform line 141 to direct-declarative form matching line 113.
+
+**APPLIED diff (essay.md line 141):**
+
+PRE:
+> "What I would call spatial cost severance is the geographic gap between where value is captured and where cost is borne."
+
+POST:
+> "Spatial cost severance is the geographic gap between where value is captured and where cost is borne."
+
+Result: 4-word "What I would call" hedge form dropped; framework-naming register matches line 113 (lineage dimension; direct-declarative form from Pass 3.1 H6) + line 65 (cost severance; "The word I have come to use" form) + line 67 (severed cost; "The word I want for" form) — asymmetric Pass-3.1-application-residue resolved.
+
+---
+
+### F-3.2-L2 [RATIFIED + APPLIED] — §VIII line 163 + 147 cumulative "still"-cadence three-rows (forward-flag #4 / #6)
+
+**Ratified Option:** (a) — vary line 163 close cadence; preserve line 147 three-row.
+
+**APPLIED diff (essay.md line 163):**
+
+PRE:
+> "The mountains are still there. The seams are still there. The bill is still there."
+
+POST:
+> "The mountains are still there. The seams remain. The bill has not yet been paid."
+
+Result: load-bearing iconography preserved (mountains / seams / bill); rule-of-three close-cadence-tell varied via verb-substitution at sentences 2 + 3 ("still there" → "remain" / "still there" → "has not yet been paid"); the strongest brief-§2-named cadence-tell at the essay's final-paragraph close site is broken. Line 147 return-scene "still" cluster ("coal seams were still under them / orange creeks were still running / empty lots in Keystone were still empty") HELD per finding recommendation — return-scene-observation register is less tic-shaped than the abstract-iconography close. Line 9 §I-opener `"The mountains are still there. Almost everything else is gone."` (two-sentence form, brief-canonical §I close) untouched.
+
+---
+
+### F-3.2-L3 [RATIFIED + APPLIED] — §VIII line 139 "They did not" rule-of-four negative-anaphora
+
+**Ratified Option:** (b) — compress to three sentences via collapsing illustrative middle beats. Combined with F-3.2-H2 line 139 "in any concrete sense" hedge cut + F-3.2-H4 line 139 em-dash → colon.
+
+**APPLIED diff (essay.md line 139, full integrated rewrite):**
+
+PRE:
+> "It heated New York apartments, powered Pittsburgh steel mills, lit Chicago streetcars, and built the ships that launched from Norfolk's yards — four cities that consumed what one county produced. The people who consumed it did not see McDowell County. They did not meet the miners. They did not drive past the orange creeks. They did not know, in any concrete sense, that the cheap energy flowing through their lives had a cost that was being concentrated, in real time, in a single county four hundred miles away."
+
+POST:
+> "It heated New York apartments, powered Pittsburgh steel mills, lit Chicago streetcars, and built the ships that launched from Norfolk's yards: four cities that consumed what one county produced. The people who consumed it did not see McDowell County. None of them met the miners or drove past the orange creeks. They did not know that the cheap energy flowing through their lives had a cost that was being concentrated, in real time, in a single county four hundred miles away."
+
+Result: four-row "They did not / They did not / They did not / They did not" anaphora compressed to three sentences via collapsing the two illustrative middle beats into one sentence ("None of them met the miners or drove past the orange creeks"); substantive iconography (miners + orange creeks) preserved; "in any concrete sense" hedge cut at sentence 4 (F-3.2-H2); em-dash → colon at trailing-summative (F-3.2-H4 / Pass-3.1-M8-added).
+
+---
+
+### F-3.2-L4 [RATIFIED] — §III line 27 "Golden Gate Bridge / Empire State Building" identical-form parallel
+
+**Ratified Option:** (c) HOLD.
+
+**APPLIED:** NO PROSE CHANGE. Per Recommendation: deliberate parallel-iconic-monument rhetorical move per brief §III + §4 working-class-pride register; the identical-form repetition IS the rhetorical work (parallel-iconic-iconography of mid-century America); the §III job is to honor the place's mid-century pride per brief §III specification. Active justification met. Finding closed as ratified-HOLD.
+
+---
+
+### F-3.2-L5 [RATIFIED] — §V Mazzucato + Harvey lineage paragraph (forward-flag #2)
+
+**Ratified Option:** (b) HOLD.
+
+**APPLIED:** NO PROSE CHANGE. Per Recommendation: current ~250w single-paragraph treatment is Harper's-literary-essay-register-appropriate; brief §7.9 "one prose mention each" spec is minimum-not-maximum target; the substance carried (Mazzucato attribution + financial-capitalism case-domain + essay's extends-her-diagnosis-into-physical-resource framing + Harvey accumulation-by-dispossession + Marx-tradition framing + cases-list McDowell + Niger Delta + Zambia + West African fisheries) is load-bearing for the essay's framework-positioning. Forward-flag #2 dissolved at one-paragraph state. Finding closed as ratified-HOLD.
+
+---
+
+**Verbatim-quote preservation verification (post-application):** All six brief-§6-permitted verbatim quotes confirmed preserved exactly post-application:
+
+| # | Quote | Essay site | Post-application status |
+|---|---|---|---|
+| 1 | Kennedy Canton "*McDowell County mines more coal than it ever has in its history...*" | line 17 (§II) | ✓ verbatim preserved |
+| 2 | Bailey "*It's almost like drowning.*" | line 35 (§IV) | ✓ verbatim preserved |
+| 3 | Bailey "*Most laws across the nation, most laws have been written with blood...*" | line 39 (§IV) | ✓ verbatim preserved |
+| 4 | Latusek "*A lot of times, you couldn't see your hand in front of your face...*" | line 149 (§VIII) | ✓ verbatim preserved |
+| 5 | Latusek "*My goal in life was to outlive Consol...*" | line 149 (§VIII) | ✓ verbatim preserved |
+| 6 | Latusek "*I was loyal to the company...*" (with Pass-3.1-L4 nested-quote convention) | line 149 (§VIII) | ✓ verbatim preserved |
+
+**Post-application essay state:** 7,017w body (down −108w from pre-fix 7,125w; primarily from F-3.2-H1 meta-commentary cuts + F-3.2-H2 hedge cuts + F-3.2-L3 rule-of-four compression + F-3.2-H4 + F-3.2-M2). Body sits ~983w below brief §12 target band floor (8,000w) but remains within brief §12 no-auto-flag band (6,500–12,000w); restoration polarity routing to Pass 3.5 remains active per PC-4 D-HIGH-2 + Pass 3.1 §6 #4 disposition.
+
+**Voice-register audit post-application:**
+- Em-dash count: 10 (was 18); density ~1.4 per 1,000w (was ~2.5). Target met.
+- "I want to / What I want to / What I have tried to do" meta-commentary lead-ins: 0 (was 8 including diagnostic §2 expansion + line 55 application-time discovery). Line 27 "I do not want, in anything that follows, to write a sentence that makes them sound like victims" preserved per F-3.2-H1 defensible-substance exception (§III working-class-dignity disarm).
+- Academic-hedge surfaces ("in X sense / in the end / in fact / in market terms"): 1 (was ~15) — line 129 "what looks like a structural collapse is, in fact, a moral collapse" preserved as voiced-by-rebutted-framing.
+- §VIII line 153 "would have" anaphora: subjects varied at sentences 2 + 3 + 4; bracket-positions preserved at sentences 1 + 5.
+- §VI line 105 "X subsidized Y" anaphora: verbs varied across 4 cases (absorbed / underwrote / financed / paid for).
+- §IV line 41 "exist because" anaphora + "exist exist" doubling: verbs varied + doubling resolved.
+- §VIII line 159 elided-"that" sentence: restructured to two-sentence form.
+- §VIII line 141 framework-naming asymmetry: resolved (drops "What I would call").
+- §VIII line 163 close cadence: varied (still there / remain / has not yet been paid); line 147 return-scene "still" cluster HELD.
+- §VIII line 139 "They did not" rule-of-four: compressed to three sentences.
+- §III line 27 "Golden Gate / Empire State" parallel: HELD as deliberate iconic-monument register.
+- §V Mazzucato + Harvey lineage paragraph: HELD as Harper's-register-appropriate developed-attribution.
+
+**Application commit:** essay.md spot-fixes committed on harness branch `claude/ch2-harpers-pass3-2-voicepolish-260527-52a7ec`; remains on feature branch per CLAUDE.md end-user-facing-prose discipline (does NOT auto-merge to main). Pass 3.3 inherits from this branch.
 
 ---
 
@@ -574,14 +792,21 @@ After Pass 3.3 RATIFIED + APPLIED → Pass 3.4 (adversarial robustness; BY DEFAU
 ### §7.3 End-of-session one-liner
 
 ```
-STATE: Pass 3.2 PROPOSED (DEFERRED for Phase C application);
-NEXT: Phase C interactive ratification session fires in separate
-CC session (walks findings one-at-a-time per Amendment C cadence;
-applies ratified spot-fixes to essay.md on new feature branch);
-AWAITING: Phase C ratification → ratified spot-fixes apply to
-essay.md → Pass 3.3 kickoff produced + Pass 3.3 session fires.
+STATE: Pass 3.2 RATIFIED + APPLIED 2026-05-27 (single-batch
+"ratify as recommended and proposed" disposition; spot-fixes
+landed against essay.md on harness branch claude/ch2-harpers-
+pass3-2-voicepolish-260527-52a7ec; em-dash density 18 → 10;
+"I want" lead-ins 8 → 0; hedge surfaces ~15 → 1; 6 verbatim
+quotes preserved); NEXT: Stage 3 Pass 3.3 audience-load
+acceptance session fires fresh per v3.1 per-pass per-session
+cadence (kickoff paste-text at tools/workstream-handoffs/ch2-
+harpers-stage-3-pass-3-3-audience-load-kickoff_2026-05-27.md
+on origin/main; Pass 3.3 inherits essay.md from this harness
+branch); AWAITING: Pass 3.3 → Pass 3.4 → Pass 3.5 each in own
+session; Stage 4 + Stage 5 + cover letter fire after Stage 3
+cascade closes; Harper's submission window target Q4 2026.
 ```
 
 ---
 
-*End of Stage 3 Pass 3.2 (Voice-polish) artifact for Ch 2 *The Miner* → Harper's Magazine derivative essay — PROPOSED 2026-05-27. Phase C ratification + application session fires separately per autonomous-mode precedent.*
+*End of Stage 3 Pass 3.2 (Voice-polish) artifact for Ch 2 *The Miner* → Harper's Magazine derivative essay — RATIFIED + APPLIED 2026-05-27.*
