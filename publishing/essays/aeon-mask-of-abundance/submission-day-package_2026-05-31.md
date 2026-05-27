@@ -128,7 +128,7 @@ Log the following in your outreach record (suggested path: `research/outreach/ae
 - Submission timestamp (UTC + EDT)
 - Portal session: [browser + any session ID]
 - Confirmation page screenshot path
-- Version submitted: aeon-pitch-commons-bonds-winn_VERSION-C.md (commit hash at submission)
+- Version submitted: publishing/essays/aeon-mask-of-abundance/essay.md (canonical; character-identical to §2 above) — pedigree Version A → B → C → Pass 3.1 + 3.2 + 3.3 + 3.4 ratified (commit hash at submission)
 - Bio version: Version A line 42 (verbatim carry-forward)
 - AI disclosure version: Version A lines 44-46 (verbatim carry-forward)
 - Structural outline version: adapted Version A outline + line 5 updated to "analytical lens" per F-V-AeonC-5 V3 revision 2026-05-21
@@ -152,7 +152,8 @@ Log the following in your outreach record (suggested path: `research/outreach/ae
 
 ## 🔗 Cross-references
 
-- **Pitch source:** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+- **Pitch source (canonical, character-identical to §2 above):** `publishing/essays/aeon-mask-of-abundance/essay.md`
+- **Pitch source (rigor-pass application history):** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 - **Version A (canonical bio + AI disclosure source):** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn.md`
 - **Submission strategy (Phase 1 + Phase 2 + Phase 3):** `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-submission-strategy_2026-05-08.md`
 - **Stage 1 brief (audience + canonical content):** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`

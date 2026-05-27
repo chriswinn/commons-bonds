@@ -11,8 +11,8 @@
 - **Pitch word count:** ~300w (Version C; locked)
 - **Submission-day package:** [`submission-day-package_2026-05-31.md`](submission-day-package_2026-05-31.md)
 - **Carry-forward inventory** (for post-acceptance essay drafting): [`carry-forward-inventory.md`](carry-forward-inventory.md)
-- **Active pitch:** [`essay.md`](essay.md) — the fresh-session pitch
-- **Prior versions** (archived): [`_archive/prior-versions/`](_archive/prior-versions/)
+- **Active pitch (canonical submission text):** [`essay.md`](essay.md) — 297w Version C body, character-identical to `submission-day-package_2026-05-31.md` §2; this is the file the author pastes from on submission day
+- **Prior versions** (archived, including the rejected Pitch B audience-blind Stage 2 variant moved 2026-05-27 from the canonical essay.md slot — file-placement artifact corrected per 2026-05-27 evolution-audit ratification): [`_archive/prior-versions/`](_archive/prior-versions/)
 
 ## Aeon-specific workflow
 

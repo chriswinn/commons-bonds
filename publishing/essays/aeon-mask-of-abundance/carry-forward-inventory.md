@@ -97,7 +97,8 @@ carry-forward inventory).
 
 ## Cross-references
 
-- **Aeon pitch (submitted):** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
+- **Aeon pitch (canonical submission text):** `publishing/essays/aeon-mask-of-abundance/essay.md` (297w Version C; character-identical to `submission-day-package_2026-05-31.md` §2)
+- **Aeon pitch Version C archive (rigor-pass application history):** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 - **Aeon submission strategy:** `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-submission-strategy_2026-05-08.md` (Phase 1 Submit + Phase 2 Wait + Phase 3 Resubmit)
 - **Aeon pitch Stage 1 brief (pitch-scope only; the essay-scope brief will be drafted post-acceptance):** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
 - **Aeon pitch Stage 3 rigor passes:**
