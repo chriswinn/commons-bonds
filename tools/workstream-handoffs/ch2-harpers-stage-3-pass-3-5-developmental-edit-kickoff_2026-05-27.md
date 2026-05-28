@@ -1,7 +1,7 @@
 # Ch 2 → Harper's — Stage 3 Pass 3.5 (developmental-edit; restoration polarity) — kickoff paste-text
 
 **Date staged:** 2026-05-27
-**Predecessor:** Stage 3 Pass 3.4 (adversarial robustness) RATIFIED ROBUST 2026-05-27 — artifact at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_4_adversarial_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_4_adversarial_v1.0.0.md). 0 FRAGILE-ON-X findings; cross-pressure pattern confirms correct positioning; 0 spot-fixes from Pass 3.4. Pass 3.3 RATIFIED PASS (16/16 INCLUDE). Pass 3.1 + 3.2 RATIFIED + APPLIED.
+**Predecessor:** Stage 3 Pass 3.4 (adversarial robustness) RATIFIED ROBUST 2026-05-27 — artifact at [`publishing/essays/harpers-the-miner/rigor/pass-3-4-adversarial.md`](../../publishing/essays/harpers-the-miner/rigor/pass-3-4-adversarial.md). 0 FRAGILE-ON-X findings; cross-pressure pattern confirms correct positioning; 0 spot-fixes from Pass 3.4. Pass 3.3 RATIFIED PASS (16/16 INCLUDE). Pass 3.1 + 3.2 RATIFIED + APPLIED.
 **Status:** STAGED. Fire Pass 3.5 in a fresh CC session by pasting the body block below.
 **Internal scaffolding** per CLAUDE.md merge-to-main policy — auto-fast-forwards to main at session close. **Restoration-polarity ratified spot-fixes ARE end-user-facing prose** — they apply to essay.md on a feature branch (does NOT auto-merge to main).
 
@@ -9,18 +9,18 @@
 
 ## Resume marker (for parent session)
 
-- Pass 3.5 artifact expected at: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md` (PROPOSED → RATIFIED + APPLIED at session close per Amendment C interactive ratification, OR PROPOSED + DEFERRED per autonomous-mode default; parent-session ratifies + applies in same turn).
+- Pass 3.5 artifact expected at: `publishing/essays/harpers-the-miner/rigor/pass-3-5-developmental-edit.md` (PROPOSED → RATIFIED + APPLIED at session close per Amendment C interactive ratification, OR PROPOSED + DEFERRED per autonomous-mode default; parent-session ratifies + applies in same turn).
 - Essay artifact (input to Pass 3.5): `publishing/essays/harpers-the-miner/essay.md` at post-Pass-3.2 state (7,017w body; Pass 3.3 + Pass 3.4 produced no prose changes). Live on harness branch `claude/ch2-harpers-pass3-2-voicepolish-260527-52a7ec` head commit `3cc8256` + downstream harness branches.
 - Status to look for: `STATE: Pass 3.5 RATIFIED + APPLIED` (interactive) or `Pass 3.5 PROPOSED (DEFERRED)` (autonomous) at session close → ready for light Pass 3.3 re-fire session firing.
 - Pass 3.5 polarity: **RESTORE** (opposite to Pass 3.2's CUT). Pass 3.5 evaluates emotional-arc continuity, scene-anchor density, sensory-detail restoration, voice-flow continuity, cumulative-LLM-cadence residue, reader-engagement at analytical pivots — restoration polarity, NOT cutting.
 
 ## Cross-references
 
-- Pass 3.4 RATIFIED ROBUST artifact: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_4_adversarial_v1.0.0.md`
-- Pass 3.3 RATIFIED PASS artifact: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_3_audience_load_v1.0.0.md` — §6.2 carries 6 Pass 3.5 restoration-polarity forward-flags; §6.3 specifies light Pass 3.3 re-fire scope post-Pass-3.5.
-- Pass 3.2 RATIFIED + APPLIED artifact: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`
-- Pass 3.1 RATIFIED + APPLIED artifact: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_1_fact_check_v1.0.0.md`
-- Stage 1 brief: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md` §4 per-section structural decisions + §5 voice register + §12 length budget + §13 Pass 3.5 BY DEFAULT disposition.
+- Pass 3.4 RATIFIED ROBUST artifact: `publishing/essays/harpers-the-miner/rigor/pass-3-4-adversarial.md`
+- Pass 3.3 RATIFIED PASS artifact: `publishing/essays/harpers-the-miner/rigor/pass-3-3-audience-load.md` — §6.2 carries 6 Pass 3.5 restoration-polarity forward-flags; §6.3 specifies light Pass 3.3 re-fire scope post-Pass-3.5.
+- Pass 3.2 RATIFIED + APPLIED artifact: `publishing/essays/harpers-the-miner/rigor/pass-3-2-voice-polish.md`
+- Pass 3.1 RATIFIED + APPLIED artifact: `publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md`
+- Stage 1 brief: `publishing/essays/harpers-the-miner/rigor/stage-1-brief.md` §4 per-section structural decisions + §5 voice register + §12 length budget + §13 Pass 3.5 BY DEFAULT disposition.
 - Pass 3.5 doctrine: `tools/memory/feedback_audience_aware_drafting_discipline.md` v3.1 Amendment B (Pass 3.5 codified 2026-05-18; per-chapter scale; ~50K-80K tokens; restoration polarity; Pass 3.2 cuts, Pass 3.5 restores — different polarities; whole-chapter scale).
 - Ch 1 chapter-level Pass 3.5 canonical: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-18_ch1_the_quiet_math_stage3_pass_3_5_developmental_edit_v1.0.0.md` (3 HIGH + 7 MEDIUM + 3 LOW findings; restoration model).
 - Wave 1 + Ch 4 → FA Pass 3.5 format precedents:
@@ -130,7 +130,7 @@ After setup your worktree has:
    THE ARTIFACT BEING AUDITED. Read in full at post-Pass-3.2 state
    (7,017w / 167 lines). Whole-essay scale evaluation.
 
-8. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md**
+8. **publishing/essays/harpers-the-miner/rigor/stage-1-brief.md**
    — Stage 1 brief RATIFIED 2026-05-27 commit `be87926`. Load-
    bearing sections for Pass 3.5:
    - §4 per-section structural decisions (with word targets:
@@ -143,12 +143,12 @@ After setup your worktree has:
    - §13 Pass 3.5 BY DEFAULT disposition + ~50K-80K token-economy
      note
 
-9. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_4_adversarial_v1.0.0.md**
+9. **publishing/essays/harpers-the-miner/rigor/pass-3-4-adversarial.md**
    — Pass 3.4 RATIFIED ROBUST 2026-05-27. §4 forward-flag inventory
    carries Pass 3.5 items (T8 §V line 63 first-introduction
    structural-not-moral framing primer).
 
-10. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_3_audience_load_v1.0.0.md**
+10. **publishing/essays/harpers-the-miner/rigor/pass-3-3-audience-load.md**
     — Pass 3.3 RATIFIED PASS 2026-05-27. §6.2 carries 6 restoration-
     polarity forward-flags:
     1. §V regional-scholarship-lineage naming (Caudill / Catte /
@@ -161,7 +161,7 @@ After setup your worktree has:
     5. §VIII closing-sentence cadence (line 163 motif reprise)
     6. First-person frame balance at §I + §VIII
 
-11. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_2_voice_polish_v1.0.0.md**
+11. **publishing/essays/harpers-the-miner/rigor/pass-3-2-voice-polish.md**
     + Pass 3.1 RATIFIED + APPLIED artifacts — predecessor audits.
 
 12. **publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md**
@@ -185,7 +185,7 @@ Harper's post-Pass-3.2 essay. Output spec per Amendment C
 Interactive Ratification Protocol (with autonomous-mode default
 per Ch 2 Pass 3.1 + Pass 3.2 + Pass 3.3 + Pass 3.4 precedents).
 
-**Output artifact:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md`
+**Output artifact:** `publishing/essays/harpers-the-miner/rigor/pass-3-5-developmental-edit.md`
 (PROPOSED at session start; per-finding RATIFIED + APPLIED in
 same session per Amendment C IF interactive author; OR PROPOSED +
 DEFERRED for parent-session ratification per autonomous-mode
@@ -335,7 +335,7 @@ fresh per v3.1 per-pass per-session cadence + parent doctrine §3.6.4.`
 
 When this Pass 3.5 session closes:
 - The Pass 3.5 artifact lands at
-  `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md`
+  `publishing/essays/harpers-the-miner/rigor/pass-3-5-developmental-edit.md`
   (PROPOSED at session close — internal scaffolding —
   autonomously fast-forwards to main per CLAUDE.md policy).
 - The essay at

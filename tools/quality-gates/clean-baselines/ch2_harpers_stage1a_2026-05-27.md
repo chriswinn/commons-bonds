@@ -3,7 +3,7 @@
 **Date:** 2026-05-27
 **Scope:** Ch 2 → Harper's Magazine derivative essay (Wave 2 Candidate A) — Stage 1b brief artifact + Stage 2 audience-blind draft artifact + per-essay README sibling
 **Files in scope:**
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md` (Stage 1b brief; 610 lines; PROPOSED at commit `3d1810b` 2026-05-26)
+- `publishing/essays/harpers-the-miner/rigor/stage-1-brief.md` (Stage 1b brief; 610 lines; PROPOSED at commit `3d1810b` 2026-05-26)
 - `publishing/essays/harpers-the-miner/essay.md` (Stage 2 draft; 7,216w body; PROPOSED at commit `55842a3` 2026-05-27)
 - `publishing/essays/harpers-the-miner/README.md` (per-essay submission package; PROPOSED at commit `55842a3` 2026-05-27)
 **Worktree branch:** `worktree-agent-a3390c00c9b9a4df0` (autonomous-mode agent worktree)
@@ -65,7 +65,7 @@ All 14 LOW findings match the `regressed/regressed-render-approx-tilde` pattern 
 ## Per-scope verdict — Ch 2 → Harper's artifacts
 
 Zero HIGH + zero MEDIUM + zero LOW touching:
-- Stage 1b brief artifact (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md`)
+- Stage 1b brief artifact (`publishing/essays/harpers-the-miner/rigor/stage-1-brief.md`)
 - Stage 2 essay draft (`publishing/essays/harpers-the-miner/essay.md`)
 - Per-essay README sibling (`publishing/essays/harpers-the-miner/README.md`)
 

@@ -1,7 +1,7 @@
 # Ch 2 → Harper's — Stage 3 Pass 3.3 (audience-load acceptance) — kickoff paste-text
 
 **Date staged:** 2026-05-27
-**Predecessor:** Stage 3 Pass 3.2 (voice-polish) PROPOSED 2026-05-27 — artifact at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_2_voice_polish_v1.0.0.md). **A separate Phase C session walks Pass 3.2 findings interactively + applies ratified spot-fixes to `publishing/essays/harpers-the-miner/essay.md` on a new feature branch BEFORE Pass 3.3 fires.** Pass 3.3 audit operates on the post-Pass-3.2-RATIFIED-and-APPLIED essay.md state.
+**Predecessor:** Stage 3 Pass 3.2 (voice-polish) PROPOSED 2026-05-27 — artifact at [`publishing/essays/harpers-the-miner/rigor/pass-3-2-voice-polish.md`](../../publishing/essays/harpers-the-miner/rigor/pass-3-2-voice-polish.md). **A separate Phase C session walks Pass 3.2 findings interactively + applies ratified spot-fixes to `publishing/essays/harpers-the-miner/essay.md` on a new feature branch BEFORE Pass 3.3 fires.** Pass 3.3 audit operates on the post-Pass-3.2-RATIFIED-and-APPLIED essay.md state.
 **Status:** STAGED. Author fires Pass 3.3 in a fresh CC session by pasting the body block below (AFTER the Pass 3.2 Phase C session lands).
 **Internal scaffolding** per CLAUDE.md merge-to-main policy — auto-fast-forwards to main at session close.
 
@@ -9,17 +9,17 @@
 
 ## Resume marker (for parent session)
 
-- Pass 3.3 artifact expected at: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_3_audience_load_v1.0.0.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C, OR PROPOSED + DEFERRED per autonomous-mode Ch 2 Pass 3.1 precedent).
+- Pass 3.3 artifact expected at: `publishing/essays/harpers-the-miner/rigor/pass-3-3-audience-load.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C, OR PROPOSED + DEFERRED per autonomous-mode Ch 2 Pass 3.1 precedent).
 - Essay artifact carrying Pass 3.1 + Pass 3.2 spot-fixes (input to Pass 3.3): `publishing/essays/harpers-the-miner/essay.md` (on feature branch from the Pass 3.2 Phase C application session).
 - Status to look for: `STATE: Pass 3.3 RATIFIED + APPLIED` (interactive) or `Pass 3.3 PROPOSED (DEFERRED)` (autonomous) at session close → ready for Stage 3 Pass 3.4 adversarial robustness session firing.
 
 ## Cross-references
 
 - Stage 2 + Pass 3.1 + Pass 3.2 essay state (input to Pass 3.3): `publishing/essays/harpers-the-miner/essay.md` post-Pass-3.2 Phase C application.
-- Stage 1 brief (audience pressure-test character set + tier dispositions): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md` §1 16-character pressure-test set + §2 editorial-brain map.
+- Stage 1 brief (audience pressure-test character set + tier dispositions): `publishing/essays/harpers-the-miner/rigor/stage-1-brief.md` §1 16-character pressure-test set + §2 editorial-brain map.
 - Pass 3.1 + Pass 3.2 artifacts (immediate predecessors):
-  - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_1_fact_check_v1.0.0.md`
-  - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`
+  - `publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md`
+  - `publishing/essays/harpers-the-miner/rigor/pass-3-2-voice-polish.md`
 - PC-4 + PC-5 ratification artifact (Stage 2 + Pass 3.1 dispositions): `publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md`
 - Wave 1 + Ch 4 → FA Pass 3.3 format precedents:
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_3_audience_load_v1.0.0.md` (long-form literary-and-institutional Pass 3.3 sibling)
@@ -105,7 +105,7 @@ After setup your worktree has:
    **THE ARTIFACT BEING AUDITED.** Read in full at post-Pass-3.2
    state.
 
-7. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md**
+7. **publishing/essays/harpers-the-miner/rigor/stage-1-brief.md**
    — **AUDIENCE PRESSURE-TEST CANONICAL SOURCE.** Stage 1 brief
    RATIFIED 2026-05-27 commit `be87926`. Load-bearing sections
    for Pass 3.3:
@@ -138,11 +138,11 @@ After setup your worktree has:
      reader strong-EXCLUDE blocks submission; Pass 3.3 returns
      the essay to Pass 3.5 + Pass 3.1 re-fire
 
-8. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_1_fact_check_v1.0.0.md**
+8. **publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md**
    — Pass 3.1 fact-check RATIFIED + APPLIED 2026-05-27 (20 spot-
    fixes; §6 forward-flag inventory).
 
-9. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_2_voice_polish_v1.0.0.md**
+9. **publishing/essays/harpers-the-miner/rigor/pass-3-2-voice-polish.md**
    — Pass 3.2 voice-polish RATIFIED + APPLIED via separate Phase C
    session (12 findings: 4 HIGH + 3 MEDIUM + 5 LOW; em-dash density
    reduced from 18 → ~10; "I want to" meta-commentary tic cluster
@@ -174,7 +174,7 @@ Ch 2 → Harper's post-Pass-3.2 essay. Output spec per Amendment C
 Interactive Ratification Protocol (with autonomous-mode default
 per Ch 2 Pass 3.1 + Pass 3.2 precedents):
 
-**Output artifact:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_3_audience_load_v1.0.0.md`
+**Output artifact:** `publishing/essays/harpers-the-miner/rigor/pass-3-3-audience-load.md`
 (PROPOSED at session start; per-character RATIFIED + APPLIED in
 the same session per Amendment C IF interactive author; OR
 PROPOSED + DEFERRED for Phase C application session per
@@ -333,7 +333,7 @@ session fires.`
 
 When this Pass 3.3 session closes:
 - The Pass 3.3 artifact lands at
-  `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_3_audience_load_v1.0.0.md`
+  `publishing/essays/harpers-the-miner/rigor/pass-3-3-audience-load.md`
   (RATIFIED + APPLIED at session close — internal scaffolding —
   autonomously fast-forwards to main per CLAUDE.md policy; OR
   PROPOSED + DEFERRED if autonomous-mode, with Phase C application

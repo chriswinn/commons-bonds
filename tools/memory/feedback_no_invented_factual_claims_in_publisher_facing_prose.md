@@ -118,8 +118,8 @@ This rule does **not** apply to:
 ## Where to read more
 
 - Full pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) — Stage 1 §7 canonical-facts inventory + Pass 3.1 fact-check protocol.
-- Ch 2 → Harper's Pass 3.1 RATIFIED + APPLIED artifact: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_1_fact_check_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_1_fact_check_v1.0.0.md) §2 F-3.1-H1 — canonical fact-check-catches-invention empirical anchor.
-- Ch 2 → Harper's Pass 3.5 RATIFIED + APPLIED artifact: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md) §3.1 — canonical illustrative-prose-substrate-critical-near-miss empirical anchor.
+- Ch 2 → Harper's Pass 3.1 RATIFIED + APPLIED artifact: [`publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md`](../../publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md) §2 F-3.1-H1 — canonical fact-check-catches-invention empirical anchor.
+- Ch 2 → Harper's Pass 3.5 RATIFIED + APPLIED artifact: [`publishing/essays/harpers-the-miner/rigor/pass-3-5-developmental-edit.md`](../../publishing/essays/harpers-the-miner/rigor/pass-3-5-developmental-edit.md) §3.1 — canonical illustrative-prose-substrate-critical-near-miss empirical anchor.
 
 ## Update log
 

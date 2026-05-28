@@ -181,7 +181,7 @@ against:
 
 When this Stage 1 brief session closes, the brief artifact will
 land at:
-`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md`
+`publishing/essays/harpers-the-miner/rigor/stage-1-brief.md`
 (or similar dated filename per Wave 1 brief naming convention).
 
 Parent session (the Stage 0 ratification session) is closed; resume
@@ -201,7 +201,7 @@ Wave 1 pattern).
 
 ## Resume marker (for the parent ratification session if author returns)
 
-- **Stage 1 brief artifact expected at:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md` (or similar dated filename).
+- **Stage 1 brief artifact expected at:** `publishing/essays/harpers-the-miner/rigor/stage-1-brief.md` (or similar dated filename).
 - **Status to look for:** `STATE: PROPOSED` at session close → author interactive ratification → `STATE: RATIFIED` after spot-fixes apply.
 - **Next phase after Stage 1 brief ratifies:** Stage 2 audience-blind drafting (fresh session; brief artifact produces Stage 2 kickoff).
 

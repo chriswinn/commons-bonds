@@ -9,7 +9,7 @@
 
 ## Resume marker (for parent orchestration session at `worktree-ch2-harpers-pipeline-orchestration`)
 
-- **Pass 3.1 artifact expected at:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_1_fact_check_v1.0.0.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C Interactive Ratification Protocol).
+- **Pass 3.1 artifact expected at:** `publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C Interactive Ratification Protocol).
 - **Essay artifact carrying Pass 3.1 spot-fixes:** `publishing/essays/harpers-the-miner/essay.md` (post-Pass-3.1 state lands on a fresh feature branch off `origin/main` per worktree-isolation discipline — typical naming `claude/ch2-harpers-pass3-1-factcheck-<harness-id>`; the essay.md spot-fixes commit stays on that feature branch per CLAUDE.md end-user-facing-prose discipline).
 - **Status to look for:** `STATE: RATIFIED + APPLIED` at session close → ready for Stage 3 Pass 3.2 voice-polish session firing (Pass 3.2 kickoff paste-text expected to land at `tools/workstream-handoffs/ch2-harpers-stage-3-pass-3-2-voice-polish-kickoff_2026-05-27.md` produced by the Pass 3.1 session per Wave 1 + Ch 4 precedent).
 
@@ -17,7 +17,7 @@
 
 - **Input artifacts (Pass 3.1 reads but does NOT modify the inputs themselves):**
   - Stage 2 audience-blind draft: `publishing/essays/harpers-the-miner/essay.md` (feature branch `worktree-agent-a3390c00c9b9a4df0` commit `55842a3`; 7,216w body; 8 sections per brief §4)
-  - Stage 1 brief §7 canonical-facts inventory: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md` §7 (Amendment A canonical fact-ground; §7.1 Kennedy + §7.2 McDowell demographics + §7.3 Bailey + §7.4 Latusek + §7.5 Lilly+Hamby + §7.6 Black Lung Trust Fund + §7.7 SMCRA + §7.8 Purdue/Sackler/Big Three + §7.9 Mazzucato+Harvey + §7.10 regional-scholarship + §7.11 out-of-scope inventory)
+  - Stage 1 brief §7 canonical-facts inventory: `publishing/essays/harpers-the-miner/rigor/stage-1-brief.md` §7 (Amendment A canonical fact-ground; §7.1 Kennedy + §7.2 McDowell demographics + §7.3 Bailey + §7.4 Latusek + §7.5 Lilly+Hamby + §7.6 Black Lung Trust Fund + §7.7 SMCRA + §7.8 Purdue/Sackler/Big Three + §7.9 Mazzucato+Harvey + §7.10 regional-scholarship + §7.11 out-of-scope inventory)
   - Source chapter for fact-verification only (NOT for paraphrase per brief §6 Path B preemptive policy): `manuscript/chapters/Chapter__2_TheMiner.md`
   - PC-4 ratification artifact (forward-flag inventory): `publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md` §3 + §3a (Pass-3.1-specific flags: §VI arithmetic-walk numerical anchors verification + §VII Purdue four-characteristic enumeration verification + Ch 10 RATIFIED-state §VIII coherence-awareness)
 - **Methodology references:**
@@ -151,7 +151,7 @@ cherry-pick, your worktree has:
    component arithmetic → §VII Purdue second cycle → §VIII spatial
    cost severance + closing return + explicit-meta disarming close.
 
-9. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md**
+9. **publishing/essays/harpers-the-miner/rigor/stage-1-brief.md**
    — **CANONICAL FACT-GROUND.** RATIFIED 2026-05-27 commit be87926
    on origin/main; §18.4 ratification record at end. Load-bearing
    sections for Pass 3.1:
@@ -271,7 +271,7 @@ one-finding-at-a-time discipline:
 
 **Sub-step 3.1-d — Output artifact construction.** Output:
 
-`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_1_fact_check_v1.0.0.md`
+`publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md`
 
 Required artifact structure:
 - **Header:** Status (PROPOSED → RATIFIED + APPLIED at session
@@ -299,7 +299,7 @@ Required artifact structure:
 
 **Per CLAUDE.md merge-to-main policy:**
 
-- **The Pass 3.1 artifact** at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_1_fact_check_v1.0.0.md`
+- **The Pass 3.1 artifact** at `publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md`
   is internal scaffolding → at session close, auto-fast-forward
   merge to main per worked pattern at Phase C 2026-05-27 + memory
   entry feedback_worktree_isolation v1.0.1 (commit b8dc99e):
@@ -362,7 +362,7 @@ Required artifact structure:
 == Expected outputs ==
 
 1. **Pass 3.1 artifact PROPOSED → RATIFIED + APPLIED** at
-   `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_1_fact_check_v1.0.0.md`;
+   `publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md`;
    internal scaffolding; pushed to origin/main via temp-worktree
    cherry-pick pattern at session close.
 2. **Essay.md post-Pass-3.1 state** with ratified spot-fixes

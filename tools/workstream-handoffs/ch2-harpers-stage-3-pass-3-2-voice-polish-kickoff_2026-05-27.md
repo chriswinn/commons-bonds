@@ -1,7 +1,7 @@
 # Ch 2 → Harper's Magazine — Stage 3 Pass 3.2 (voice-polish) — kickoff paste-text
 
 **Date staged:** 2026-05-27
-**Predecessor:** Stage 3 Pass 3.1 (fact-check) RATIFIED + APPLIED 2026-05-27 — artifact at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_1_fact_check_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_1_fact_check_v1.0.0.md) (PROPOSED at origin/main commit `eaf9434`; RATIFIED + APPLIED at the scaffolding commit produced alongside this kickoff); essay.md spot-fixes on harness branch `worktree-agent-a12ed7f85945ace53` (per CLAUDE.md end-user-facing-prose discipline, NOT on main).
+**Predecessor:** Stage 3 Pass 3.1 (fact-check) RATIFIED + APPLIED 2026-05-27 — artifact at [`publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md`](../../publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md) (PROPOSED at origin/main commit `eaf9434`; RATIFIED + APPLIED at the scaffolding commit produced alongside this kickoff); essay.md spot-fixes on harness branch `worktree-agent-a12ed7f85945ace53` (per CLAUDE.md end-user-facing-prose discipline, NOT on main).
 **Status:** STAGED. Author / parent orchestration session fires Pass 3.2 in a fresh CC session by spawning a sub-agent with the body block below as kickoff paste.
 **Internal scaffolding** per CLAUDE.md merge-to-main policy — this paste-text file fast-forwards to main at session close.
 
@@ -9,16 +9,16 @@
 
 ## Resume marker (for parent session)
 
-- Pass 3.2 artifact expected at: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_2_voice_polish_v1.0.0.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C Interactive Ratification Protocol).
+- Pass 3.2 artifact expected at: `publishing/essays/harpers-the-miner/rigor/pass-3-2-voice-polish.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C Interactive Ratification Protocol).
 - Essay artifact carrying Pass 3.1 + Pass 3.2 spot-fixes: `publishing/essays/harpers-the-miner/essay.md` (post-Pass-3.1 state on harness branch `worktree-agent-a12ed7f85945ace53`; Pass 3.2 spot-fixes will land on a fresh feature branch off `origin/main` per worktree-isolation discipline; cherry-pick the post-Pass-3.1 essay state from this harness branch onto the fresh worktree as baseline).
 - Status to look for: `STATE: Pass 3.2 RATIFIED + APPLIED` at session close → ready for Stage 3 Pass 3.3 audience-load acceptance session firing.
 
 ## Cross-references
 
 - Stage 2 draft + Pass 3.1 spot-fixes (input to Pass 3.2): `publishing/essays/harpers-the-miner/essay.md` (harness branch `worktree-agent-a12ed7f85945ace53`; post-Pass-3.1 state at the essay.md spot-fixes commit produced alongside this kickoff)
-- Stage 1 brief (audience set + voice-register anchor + apparatus discipline): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md` §5 voice register + §10 expository discipline + §16 hard constraints
+- Stage 1 brief (audience set + voice-register anchor + apparatus discipline): `publishing/essays/harpers-the-miner/rigor/stage-1-brief.md` §5 voice register + §10 expository discipline + §16 hard constraints
 - PC-4 ratification artifact + Pass 3.1 carry-forward forward-flags: `publishing/essays/harpers-the-miner/stage-2-ratification-2026-05-27.md` §3 forward-flag inventory + §7 Pass 3.1 RATIFIED + APPLIED append
-- Pass 3.1 artifact (immediate predecessor; carry-forward awareness items): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_1_fact_check_v1.0.0.md` §6 forward-flag inventory
+- Pass 3.1 artifact (immediate predecessor; carry-forward awareness items): `publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md` §6 forward-flag inventory
 - Em-dash discipline memory: `tools/memory/feedback_em_dash_overuse.md` 2026-05-21 RATIFIED — Pass 3.2 PRIMARY territory
 - Author substrate critical-editorial-input memory: `tools/memory/feedback_substrate_critical_editorial_input.md` 2026-05-21 RATIFIED
 - Worktree-isolation memory: `tools/memory/feedback_worktree_isolation_for_parallel_sessions.md` v1.0.1 (Edit/Write-tool-drift defense; construct paths against harness worktree root, NOT main repo)
@@ -121,7 +121,7 @@ After setup your worktree has:
    Pass 3.2 unchanged in their verbatim spoken content; only
    the surrounding attributive prose is voice-polish territory.
 
-9. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md**
+9. **publishing/essays/harpers-the-miner/rigor/stage-1-brief.md**
    — **VOICE REGISTER CANONICAL SOURCE.** Stage 1 brief RATIFIED
    2026-05-27 commit `be87926`. Load-bearing sections for Pass 3.2:
    - §5 voice register (Harper's literary-essay register; first-
@@ -137,7 +137,7 @@ After setup your worktree has:
      memoir; "Letter From" tradition; concrete-named-and-dated
      anchor convention; no throat-clearing; no LLM tics)
 
-10. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_1_fact_check_v1.0.0.md**
+10. **publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md**
     — **PASS 3.1 PREDECESSOR (immediate carry-forwards).** Read §3
     Ratification record (per-finding applied diffs; especially H4
     + H5 + M8 + H7 where em-dashes were added at application — these
@@ -169,7 +169,7 @@ Produce the Pass 3.2 voice-polish artifact for the Ch 2 → Harper's
 post-Pass-3.1 essay. Output spec per Amendment C Interactive
 Ratification Protocol:
 
-**Output artifact:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`
+**Output artifact:** `publishing/essays/harpers-the-miner/rigor/pass-3-2-voice-polish.md`
 (PROPOSED at session start; per-finding RATIFIED + APPLIED in the
 same session per Amendment C).
 
@@ -382,7 +382,7 @@ essay.md → Pass 3.3 kickoff produced + Pass 3.3 session fires.`
 
 When this Pass 3.2 session closes:
 - The Pass 3.2 artifact lands at
-  `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch2_harpers_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`
+  `publishing/essays/harpers-the-miner/rigor/pass-3-2-voice-polish.md`
   (RATIFIED + APPLIED at session close — internal scaffolding —
   autonomously fast-forwards to main per CLAUDE.md policy; OR
   PROPOSED + DEFERRED if autonomous-mode, with Phase C application

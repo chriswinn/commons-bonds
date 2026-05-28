@@ -105,7 +105,7 @@ Status check of the five Stage 1 brief §18.3 forward-flags performed at Phase C
 ## §4. State + next-action summary
 
 - **Stage 2 draft state:** RATIFIED 2026-05-27 (no prose changes applied; ratify-as-proposed disposition).
-- **Stage 1 brief state:** RATIFIED 2026-05-27 at sibling §18.4 (cross-reference: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md` §18.4 + clean-baseline at `tools/quality-gates/clean-baselines/ch2_harpers_stage1a_2026-05-27.md`).
+- **Stage 1 brief state:** RATIFIED 2026-05-27 at sibling §18.4 (cross-reference: `publishing/essays/harpers-the-miner/rigor/stage-1-brief.md` §18.4 + clean-baseline at `tools/quality-gates/clean-baselines/ch2_harpers_stage1a_2026-05-27.md`).
 - **Stage 1a invariant gate:** CLEAN BASELINE per-scope for Ch 2 → Harper's artifacts.
 - **Stage 3 cascade state:** NOT STARTED — fires sequentially after Phase C session close per brief §13 + v3.1 doctrine + Amendment A two-class cascade discipline + per-prompt serial cadence.
 - **Stage 4 + Stage 5 state:** NOT STARTED — fires post-Stage 3 per brief §14.
