@@ -15,10 +15,20 @@
 
 ## Cross-references
 
-Rigor-pass artifacts at `tools/rigor-passes/` (search for `atlantic_ideas` filename pattern):
-- Stage 1 brief (2026-05-19)
-- Atlantic Ideas Stage 2 paste-text (2026-05-21; in `tools/workstream-handoffs/`)
-- Pass 3.1 fact-check (2026-05-23; PROPOSED)
+Rigor-pass artifacts at [`rigor/`](rigor/) — per-essay consolidation migrated 2026-05-28 (see [`publishing/essays/_pipeline/per-essay-rigor-consolidation-pilot_2026-05-28.md`](../_pipeline/per-essay-rigor-consolidation-pilot_2026-05-28.md)). `git log --follow` traces pre-migration history at the prior `tools/rigor-passes/` and `tools/pre-submission-reviews/` paths.
+
+- **Stage 1 brief** (2026-05-19) — [`rigor/stage-1-brief.md`](rigor/stage-1-brief.md)
+- **Pass 3.1 fact-check** (2026-05-23) — [`rigor/pass-3-1-fact-check.md`](rigor/pass-3-1-fact-check.md)
+- **Pass 3.2 voice-polish** (2026-05-25) — [`rigor/pass-3-2-voice-polish.md`](rigor/pass-3-2-voice-polish.md)
+- **Pass 3.3 audience-load acceptance** (2026-05-26) — [`rigor/pass-3-3-audience-load.md`](rigor/pass-3-3-audience-load.md)
+- **Pass 3.4 audience-load robustness** (2026-05-26) — [`rigor/pass-3-4-adversarial.md`](rigor/pass-3-4-adversarial.md)
+- **Pass 3.5 developmental-edit** (2026-05-27) — [`rigor/pass-3-5-developmental-edit.md`](rigor/pass-3-5-developmental-edit.md)
+- **Stage 4 render audit** (author-offline; 2026-05-27) — [`rigor/stage-4-render-audit.md`](rigor/stage-4-render-audit.md)
+- **Pre-pub review queue** — [`rigor/pre-pub-review-queue.md`](rigor/pre-pub-review-queue.md)
+- **Stage 5 sign-off** (RATIFIED 2026-05-27; at `tools/quality-gates/sign-offs/atlantic_ideas_stage5_signoff_2026-05-27.md`) — note: quality-gates sign-off intentionally retained under `tools/quality-gates/sign-offs/` per pilot doctrine
+- **Atlantic Ideas Stage 2 paste-text** (2026-05-21) — [`tools/workstream-handoffs/atlantic-ideas-essay-stage-2-paste-text_2026-05-21.md`](../../../tools/workstream-handoffs/atlantic-ideas-essay-stage-2-paste-text_2026-05-21.md)
+
+Migration log notes: pre-existing README status block ("Stage 3 cycle status" + "Stage 5 sign-off: pending" at lines 11–14) is stale (essay reached Stage 4 + Stage 5 RATIFIED 2026-05-27). Not corrected here per pilot EC4 (relocate-only; flag for author touch-up).
 
 ## Title note
 

@@ -353,7 +353,7 @@ Final-5 selection rule (per cascade-plan v1 update 2026-05-08): Mazzucato + Pist
 - Aeon: `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`.
 - Noema: `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`.
 - Boston Review: `publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`.
-- Atlantic Ideas: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`.
+- Atlantic Ideas: `publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`.
 - $100 Barrel: `publishing/essays/100-barrel/rigor/stage-1-brief.md` (referenced via PW workstream cross-thread #10).
 
 **Source chapters (Wave 1 + Wave 2 sourcing):**

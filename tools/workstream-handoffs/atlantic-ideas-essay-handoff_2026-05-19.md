@@ -22,7 +22,7 @@ All three clauses fire — apply v2.0, no exceptions.
 
 **Required v2.0 actions for fresh sessions opening this workstream:**
 
-1. **Build a Stage 1 brief before any prose drafting.** Save as `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md` (PM session drafted alongside this handoff 2026-05-19; ratification pending). The brief must include: Atlantic Ideas editorial-brain map (mechanism / policy / argument-and-analysis frame; submission-by-email model; ~3,000–5,000w typical band; no dedicated Ideas section editor publicly listed as of 2026-05-19 verification — pre-submission verification required); Atlantic-Ideas-specific 14–18-character audience pressure-test set tilted toward policy-influencer / Atlantic subscriber base / institutional-design-mechanism reader / center-right policy reader; structural anchors from Ch 9 (Classify→Reserve→Invest→Reassess as the natural spine; ¶1 hook candidates; closing-paragraph candidates; avoid loading on Pass-1-Phase-C-pending content); **apparatus exclusion list** (every Ch 9 internal term Atlantic Ideas general readership won't tolerate, marked for replacement-with-translation or omission); **canonical factual ground truth (Amendment A)** — Ch 9-derived names, dates, figures, scene-roles, direction-of-action; Path B preemptive policy statement.
+1. **Build a Stage 1 brief before any prose drafting.** Save as `publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md` (PM session drafted alongside this handoff 2026-05-19; ratification pending). The brief must include: Atlantic Ideas editorial-brain map (mechanism / policy / argument-and-analysis frame; submission-by-email model; ~3,000–5,000w typical band; no dedicated Ideas section editor publicly listed as of 2026-05-19 verification — pre-submission verification required); Atlantic-Ideas-specific 14–18-character audience pressure-test set tilted toward policy-influencer / Atlantic subscriber base / institutional-design-mechanism reader / center-right policy reader; structural anchors from Ch 9 (Classify→Reserve→Invest→Reassess as the natural spine; ¶1 hook candidates; closing-paragraph candidates; avoid loading on Pass-1-Phase-C-pending content); **apparatus exclusion list** (every Ch 9 internal term Atlantic Ideas general readership won't tolerate, marked for replacement-with-translation or omission); **canonical factual ground truth (Amendment A)** — Ch 9-derived names, dates, figures, scene-roles, direction-of-action; Path B preemptive policy statement.
 2. **Trigger a fresh-session Stage 2 audience-blind flow draft.** Path B preemptive policy: do NOT open Ch 9, prior pitches, or any other source text. Work only from the Stage 1 brief. Output: `publishing/essays/atlantic-ideas-pricing-honestly/atlantic-ideas-essay-fresh-session-draft_<DATE>.md` (create the folder).
 3. **Run Stage 3 as three distinct passes (per Amendment B), in this order:**
    - **(a) Fact-check pass.** Audit the draft against the Stage 1 brief's canonical factual ground truth. Spot-fix factual drift by generating fresh prose from brief anchors — do NOT paste from Ch 9 (re-introduces Path B contamination).
@@ -56,7 +56,7 @@ Draft an Atlantic Ideas pitch (concise pitch in the body of an email — see §"
 - v2.0 discipline ratified 2026-05-10 + canonical Stage 1 / Stage 2 / Stage 3 templates.
 
 **Incomplete:**
-- Atlantic Ideas Stage 1 brief (PM session drafted 2026-05-19; ratification pending — see companion artifact `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`).
+- Atlantic Ideas Stage 1 brief (PM session drafted 2026-05-19; ratification pending — see companion artifact `publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`).
 - Atlantic Ideas pitch (concise; email-body length, not portal-prospectus length).
 - Atlantic Ideas essay first draft (~3,500–4,500w).
 - Cover-email template (brief intro + medium bio + AI disclosure).
@@ -64,7 +64,7 @@ Draft an Atlantic Ideas pitch (concise pitch in the body of an email — see §"
 
 ## Next moves
 
-1. **PM session ratifies Stage 1 brief.** Author reads brief; ratifies or returns with notes. Brief is `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`.
+1. **PM session ratifies Stage 1 brief.** Author reads brief; ratifies or returns with notes. Brief is `publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`.
 2. **Stage 2 audience-blind flow draft session.** PM drafts paste-text only after Stage 1 ratification. Output: `publishing/essays/atlantic-ideas-pricing-honestly/atlantic-ideas-essay-fresh-session-draft_<DATE>.md`. Path B preemptive policy holds — no Ch 9 prose in front.
 3. **Stage 3 three-pass rigor.** Fact-check → voice-polish → audience-load, three distinct passes, three distinct prompts, per-prompt serial cadence per v2.0 Amendment B + per `tools/drafting-templates/stage-3-three-pass-rigor-audit.md`.
 4. **Pitch drafting.** Concise pitch (~250–400 words, email-body length) framed around the essay's argument and substance — NOT a topics list. Demonstrates the writing voice. Drafted after the essay reaches Stage 2 so the pitch can quote / reference the essay's actual moves.

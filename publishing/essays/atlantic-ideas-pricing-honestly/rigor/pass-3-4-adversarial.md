@@ -5,15 +5,15 @@
 **Pass type:** Stage 3 Pass 3.4 — Audience-load robustness (fourth of five passes per v3.1 doctrine).
 **Workstream:** Atlantic Ideas essay (Ch 9 → Atlantic Ideas cascade per [`publishing/strategy/cascade-plan_2026-05-06.md`](../../publishing/strategy/cascade-plan_2026-05-06.md)).
 **Artifact audited:** [`publishing/essays/atlantic-ideas-pricing-honestly/essay.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/essay.md) (post-Pass-3.2-Phase-C-application + Pass-3.3-acceptance-PASS state; 95 lines / 4,234w; main HEAD `bcc3a08` at audit-fire time).
-**Stage 1 brief (canonical adversarial set):** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md) (RATIFIED v1.1.4 2026-05-24). **§13.4 Pass 3.4 protocol + §5 voice register + §14 hard constraints are load-bearing for this pass.**
+**Stage 1 brief (canonical adversarial set):** [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`](stage-1-brief.md) (RATIFIED v1.1.4 2026-05-24). **§13.4 Pass 3.4 protocol + §5 voice register + §14 hard constraints are load-bearing for this pass.**
 **Methodology anchor:** v3.1 audience-aware drafting discipline + pipeline doctrine §"Stage 3 four-pass" (Pass 3.4 thread-pull synthesis polarity).
 **Path B compliance confirmation:** [`manuscript/chapters/Chapter__9_PricingHonestly.md`](../../manuscript/chapters/Chapter__9_PricingHonestly.md) was NOT opened during this Pass 3.4 audit session. Sibling essay drafts not opened as prose sources. Ch 9 Pass 3.4 artifact + Ch 1 Pass 3 REAUDIT adversarial section read for FORMAT REFERENCE only.
 
-**Pass 3.1 cross-reference:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md) — RATIFIED + APPLIED 2026-05-24. F-3.1-3 Hartwick "None priced permanent foreclosure" compression CARRY-FORWARD to this pass.
+**Pass 3.1 cross-reference:** [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md) — RATIFIED + APPLIED 2026-05-24. F-3.1-3 Hartwick "None priced permanent foreclosure" compression CARRY-FORWARD to this pass.
 
-**Pass 3.2 cross-reference:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_atlantic_ideas_essay_voice_polish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-25_atlantic_ideas_essay_voice_polish_v1.0.0.md) — RATIFIED + APPLIED 2026-05-26.
+**Pass 3.2 cross-reference:** [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md) — RATIFIED + APPLIED 2026-05-26.
 
-**Pass 3.3 cross-reference:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_ideas_essay_pass_3_3_audience_load_acceptance_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_atlantic_ideas_essay_pass_3_3_audience_load_acceptance_v1.0.0.md) — RATIFIED 2026-05-26. F-3.3-Atlantic-Marx-Caution (#5 center-right policy reader Marx-in-¶3 skim-read partisan-tell risk) CARRY-FORWARD to this pass.
+**Pass 3.3 cross-reference:** [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-3-audience-load.md`](pass-3-3-audience-load.md) — RATIFIED 2026-05-26. F-3.3-Atlantic-Marx-Caution (#5 center-right policy reader Marx-in-¶3 skim-read partisan-tell risk) CARRY-FORWARD to this pass.
 
 **Pass 3.5 status:** deferred to subsequent session per v3.1 per-prompt serial cadence. F-3.2-4 §VII ¶4 mega-paragraph break is the primary Pass 3.5 RESTORATION-polarity task. Pass 3.4 threads that route through Pass 3.5 spot-fixes will be flagged in §5 carry-forwards.
 
@@ -37,7 +37,7 @@ The Atlantic Ideas essay has cleared Pass 3.1 (fact-check) + Pass 3.2 (voice-pol
 
 1. THIS framing-paste (Pass 3.4 framing).
 2. [`publishing/essays/atlantic-ideas-pricing-honestly/essay.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/essay.md) (post-Pass-3.2-Phase-C + Pass-3.3-RATIFIED state; 95 lines / 4,234w; commit `0e8810d`).
-3. Stage 1 brief [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md) — §13.4 Pass 3.4 protocol specifies 4 detractor characters + thread-pull synthesis polarity.
+3. Stage 1 brief [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`](stage-1-brief.md) — §13.4 Pass 3.4 protocol specifies 4 detractor characters + thread-pull synthesis polarity.
 4. Pass 3.1 + Pass 3.2 + Pass 3.3 artifacts — carry-forward context (F-3.1-3 + F-3.3-Atlantic-Marx-Caution).
 5. Format references (NOT prose sources): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_ch9_pricing_honestly_stage3_pass_3_4_audience_load_robustness_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_ch9_pricing_honestly_stage3_pass_3_4_audience_load_robustness_v1.0.0.md) — Ch 9 Pass 3.4 same-workstream format model. [`publishing/essays/100-barrel/rigor/pass-3-4-adversarial.md`](../../publishing/essays/100-barrel/rigor/pass-3-4-adversarial.md) — $100 Barrel Pass 3.4 essay-level format model.
 6. Memory: [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) — v3.1 pipeline discipline.

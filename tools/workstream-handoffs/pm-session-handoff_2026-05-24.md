@@ -427,7 +427,7 @@ Per `CLAUDE.md`: Sessions completing author-ratified content changes auto-fast-f
 - `publishing/essays/noema-commons-bonds/rigor/light-refires/pass-3-3-light-refire_2026-05-24.md`
 - `publishing/essays/100-barrel/rigor/pass-3-5-developmental-edit.md`
 - `publishing/essays/boston-review-accountability-gap/rigor/light-refires/pass-3-3-light-refire_2026-05-23.md`
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md`
+- `publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-1-fact-check.md`
 - `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-3-and-3-4-bundled-audience-load.md`
 
 **Predecessor PM handoff:** [`pm-session-handoff_2026-05-18.md`](pm-session-handoff_2026-05-18.md) (superseded by this file).

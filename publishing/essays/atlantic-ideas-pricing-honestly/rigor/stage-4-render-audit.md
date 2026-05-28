@@ -5,13 +5,13 @@
 **Pass type:** Stage 4 — Render + character-integrity audit (per brief §13a + pipeline doctrine `tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`).
 **Workstream:** Atlantic Ideas essay (Ch 9 → Atlantic Ideas cascade per [`publishing/strategy/cascade-plan_2026-05-06.md`](../../publishing/strategy/cascade-plan_2026-05-06.md)).
 **Artifact audited:** [`publishing/essays/atlantic-ideas-pricing-honestly/essay.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/essay.md) (post-Pass-3.5-Phase-C-application state; 99 lines / 4,282w; main HEAD `2581277` at Stage 4 ratification time).
-**Stage 1 brief:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md) (RATIFIED v1.1.4 2026-05-24) — §13a Stage 4 protocol.
+**Stage 1 brief:** [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`](stage-1-brief.md) (RATIFIED v1.1.4 2026-05-24) — §13a Stage 4 protocol.
 
-**Pass 3.1 cross-reference:** [`commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md) — RATIFIED + APPLIED 2026-05-24 (commit `cc027eb`).
-**Pass 3.2 cross-reference:** [`commons_bonds_rigor_pass_2026-05-25_atlantic_ideas_essay_voice_polish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-25_atlantic_ideas_essay_voice_polish_v1.0.0.md) — RATIFIED + APPLIED 2026-05-26 (commit `0e8810d`).
-**Pass 3.3 cross-reference:** [`commons_bonds_rigor_pass_2026-05-26_atlantic_ideas_essay_pass_3_3_audience_load_acceptance_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_atlantic_ideas_essay_pass_3_3_audience_load_acceptance_v1.0.0.md) — RATIFIED 2026-05-26 (commit `20e4316`; PASS verdict).
-**Pass 3.4 cross-reference:** [`commons_bonds_rigor_pass_2026-05-26_atlantic_ideas_essay_pass_3_4_audience_load_robustness_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_atlantic_ideas_essay_pass_3_4_audience_load_robustness_v1.0.0.md) — RATIFIED 2026-05-27 (commit `6224af0`; ROBUST verdict).
-**Pass 3.5 cross-reference:** [`commons_bonds_rigor_pass_2026-05-27_atlantic_ideas_essay_pass_3_5_developmental_edit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_atlantic_ideas_essay_pass_3_5_developmental_edit_v1.0.0.md) — RATIFIED + APPLIED 2026-05-27 (commits `8abb89b` + `2581277`; 4 spot-fixes applied).
+**Pass 3.1 cross-reference:** [`pass-3-1-fact-check.md`](pass-3-1-fact-check.md) — RATIFIED + APPLIED 2026-05-24 (commit `cc027eb`).
+**Pass 3.2 cross-reference:** [`pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md) — RATIFIED + APPLIED 2026-05-26 (commit `0e8810d`).
+**Pass 3.3 cross-reference:** [`pass-3-3-audience-load.md`](pass-3-3-audience-load.md) — RATIFIED 2026-05-26 (commit `20e4316`; PASS verdict).
+**Pass 3.4 cross-reference:** [`pass-3-4-adversarial.md`](pass-3-4-adversarial.md) — RATIFIED 2026-05-27 (commit `6224af0`; ROBUST verdict).
+**Pass 3.5 cross-reference:** [`pass-3-5-developmental-edit.md`](pass-3-5-developmental-edit.md) — RATIFIED + APPLIED 2026-05-27 (commits `8abb89b` + `2581277`; 4 spot-fixes applied).
 
 ---
 

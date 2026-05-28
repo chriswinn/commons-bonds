@@ -4,7 +4,7 @@
 **Status:** **RATIFIED 2026-05-27** — Stage 5 sign-off **PASS** post-Option-1-revert. Atlantic Ideas essay is cleared for pitch / cover-letter drafting + submission to Atlantic Ideas section.
 **Stage:** Stage 5 bookend pre-publication sign-off (the symmetric pair to Stage 1 ready-to-draft ratification per pipeline doctrine v1.0.0 Stage 5 §0 + brief §13b).
 **Artifact under sign-off:** [`publishing/essays/atlantic-ideas-pricing-honestly/essay.md`](../../../publishing/essays/atlantic-ideas-pricing-honestly/essay.md) — 99 lines / 4,272 words at post-Stage-5-revert state (commit `6e27090` 2026-05-27). Essay has absorbed Phase C application of all Stage 3 five-pass spot-fixes PLUS Stage-5-surfaced Option 1 revert of F-DE-Atlantic-1 architectural-deviation-from-Ch-9-canonical.
-**Stage 1 brief:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`](../../rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md) (RATIFIED v1.1.4 2026-05-24).
+**Stage 1 brief:** [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`](../../../publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md) (RATIFIED v1.1.4 2026-05-24).
 **Pipeline doctrine:** [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md).
 **Path B compliance:** Ch 9 source-chapter prose not opened during Stage 5; only targeted grep for sequence-vocabulary patterns (`four moves`, `five moves`, `classify`, `reserve`, `invest`, `reassess`) to verify book canonical architecture. Sibling essay drafts not opened.
 
@@ -87,7 +87,7 @@ Stage 5 revert verdict: **APPLIED CLEAN.** Book-architecture restoration complet
 
 ### §2.2 Pass 3.1 fact-check findings dispositioned
 
-Pass 3.1 fact-check artifact: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md`](../../rigor-passes/commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md). All findings ratified + applied via commit `cc027eb` 2026-05-24. Key carry-forwards routed to pre-pub queue §3:
+Pass 3.1 fact-check artifact: [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-1-fact-check.md`](../../../publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-1-fact-check.md). All findings ratified + applied via commit `cc027eb` 2026-05-24. Key carry-forwards routed to pre-pub queue §3:
 
 | Finding cluster | Disposition |
 |---|---|
@@ -102,7 +102,7 @@ Pass 3.1 fact-check artifact: [`tools/rigor-passes/commons_bonds_rigor_pass_2026
 
 ### §2.3 Pass 3.2 voice-polish findings dispositioned
 
-Pass 3.2 voice-polish artifact: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_atlantic_ideas_essay_voice_polish_v1.0.0.md`](../../rigor-passes/commons_bonds_rigor_pass_2026-05-25_atlantic_ideas_essay_voice_polish_v1.0.0.md). RATIFIED + APPLIED via commit `0e8810d` 2026-05-26.
+Pass 3.2 voice-polish artifact: [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-2-voice-polish.md`](../../../publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-2-voice-polish.md). RATIFIED + APPLIED via commit `0e8810d` 2026-05-26.
 
 Mian & Sufi primary-source citation Q1 (QJE 2013 + *House of Debt* 2014 welfare-calculation specifics): CARRY-FORWARD to Stage 5 pre-pub queue §3 HIGHEST PRIORITY editor-side fact-checker focus area.
 
@@ -118,7 +118,7 @@ Mian & Sufi primary-source citation Q1 (QJE 2013 + *House of Debt* 2014 welfare-
 
 ### §2.5 Pass 3.5 developmental-edit dispositions (post-Stage-5-revert)
 
-Pass 3.5 developmental-edit artifact: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_atlantic_ideas_essay_pass_3_5_developmental_edit_v1.0.0.md`](../../rigor-passes/commons_bonds_rigor_pass_2026-05-27_atlantic_ideas_essay_pass_3_5_developmental_edit_v1.0.0.md). STRONG aggregate verdict; 4 spot-fixes ratified + applied Phase C 2026-05-27 (commit `2581277`).
+Pass 3.5 developmental-edit artifact: [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-5-developmental-edit.md`](../../../publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-5-developmental-edit.md). STRONG aggregate verdict; 4 spot-fixes ratified + applied Phase C 2026-05-27 (commit `2581277`).
 
 | Finding | Disposition | Post-Stage-5 status |
 |---|---|---|
@@ -134,7 +134,7 @@ Pass 3.5 developmental-edit artifact: [`tools/rigor-passes/commons_bonds_rigor_p
 
 ### §2.6 Stage 4 render-integrity verdict CLEAN
 
-Stage 4 render audit artifact: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_atlantic_ideas_essay_stage_4_render_audit_author_offline_v1.0.0.md`](../../rigor-passes/commons_bonds_rigor_pass_2026-05-27_atlantic_ideas_essay_stage_4_render_audit_author_offline_v1.0.0.md). **CLEAN** verdict author-offline 2026-05-27 (commit `b54822b`); essay renders cleanly across HTML / PDF / DOCX distribution targets.
+Stage 4 render audit artifact: [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-4-render-audit.md`](../../../publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-4-render-audit.md). **CLEAN** verdict author-offline 2026-05-27 (commit `b54822b`); essay renders cleanly across HTML / PDF / DOCX distribution targets.
 
 **Stage-5-revert carry-forward:** Two essay edits (line 9 thesis -9w + line 55 Border opener word-substitution 0w net) introduce zero new character classes; em-dash count unchanged at 5 (pre-revert) → 5 (post-revert); no new subscript / superscript / Greek letter / special-glyph usage. Stage 4 CLEAN verdict carries forward to post-Stage-5-revert essay state per Ch 5 + Ch 7 + Ch 8 cousin Phase-C-restoration precedent (small-delta prose edits do not introduce new render risks).
 
@@ -294,7 +294,7 @@ Word count: 4,272w (within +75w substance-drives-length tolerance against brief 
 
 1. **Pitch / cover-letter drafting** per brief §11 (Atlantic Ideas pitch format — short cover note + first-pitch-reads-tighter-than-essay register). Separate post-Stage-5 deliverable; not produced in this session.
 2. **Submission to Atlantic Ideas section** post-cover-letter ratification. Separate post-pitch session; per brief §11 + cascade plan.
-3. **Pre-publication review queue handoff** (artifact at [`tools/pre-submission-reviews/atlantic_ideas_pre_pub_review_queue_v1.0.0.md`](../../pre-submission-reviews/atlantic_ideas_pre_pub_review_queue_v1.0.0.md)) accompanies the manuscript-submission package if Atlantic Ideas accepts + assigns an editor-side fact-checker.
+3. **Pre-publication review queue handoff** (artifact at [`tools/pre-submission-reviews/atlantic_ideas_pre_pub_review_queue_v1.0.0.md`](../../../publishing/essays/atlantic-ideas-pricing-honestly/rigor/pre-pub-review-queue.md)) accompanies the manuscript-submission package if Atlantic Ideas accepts + assigns an editor-side fact-checker.
 4. **Pass 3.5 cross-corpus-coherence lesson carry-forward:** Future Pass 3.5 architectural-integrity findings that recommend thesis-amendment resolutions should run a cross-corpus consistency check against source-chapter canonical architecture before ratification. Update [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../../drafting-templates/stage-3-three-pass-rigor-audit.md) Pass 3.5 section accordingly at next template refresh.
 
 ---

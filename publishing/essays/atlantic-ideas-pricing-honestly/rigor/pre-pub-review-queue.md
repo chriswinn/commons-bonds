@@ -12,7 +12,7 @@
 
 ### §1.1 Factual verification (per Pass 3.1 fact-check)
 
-Per Pass 3.1 fact-check artifact ([`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md)) RATIFIED + APPLIED via commit `cc027eb` 2026-05-24:
+Per Pass 3.1 fact-check artifact ([`publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md)) RATIFIED + APPLIED via commit `cc027eb` 2026-05-24:
 
 **Anchor figures + dates:**
 - **McDowell County coal $4.50/ton 1960 mine-mouth price** (line 3) — historical-record per DOE / BLS / WV historical commodity-price records.

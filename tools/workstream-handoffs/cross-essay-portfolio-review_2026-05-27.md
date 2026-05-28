@@ -22,7 +22,7 @@ This framing note was added per author correction post-session-close ("the only 
 **Atlantic Ideas is substantively complete, not "Stage 5 sign-off close-out pending."** The original §1.3 + §3 + §5 + §7 + §8 entries claimed Atlantic Ideas had no Stage 5 sign-off filed; the original §8.B.2 recommendation said "Stage 5 close-out session needed (sign-off + cover-letter + README refresh)." **This was wrong.** The Stage 5 sign-off + pre-publication review queue artifacts DO exist under filing-convention paths this audit failed to scan:
 
 - **Stage 5 sign-off:** [`tools/quality-gates/sign-offs/atlantic_ideas_stage5_signoff_2026-05-27.md`](../quality-gates/sign-offs/atlantic_ideas_stage5_signoff_2026-05-27.md) — **RATIFIED PASS 2026-05-27** post-Option-1-revert; verdict "READY-TO-SUBMIT"
-- **Pre-publication review queue:** [`tools/pre-submission-reviews/atlantic_ideas_pre_pub_review_queue_v1.0.0.md`](../pre-submission-reviews/atlantic_ideas_pre_pub_review_queue_v1.0.0.md) — **RATIFIED 2026-05-27**
+- **Pre-publication review queue:** [`tools/pre-submission-reviews/atlantic_ideas_pre_pub_review_queue_v1.0.0.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/rigor/pre-pub-review-queue.md) — **RATIFIED 2026-05-27**
 
 **Three artifact-filing-conventions exist in the project, not two.** This audit identified Convention A (per-essay-only) and Convention B (per-essay + central at `tools/rigor-passes/`), but missed Convention C (central at `tools/quality-gates/sign-offs/` + separate pre-pub queue at `tools/pre-submission-reviews/`). Convention C is used for **chapters + Atlantic Ideas** specifically; it carries Stage 5 sign-offs for ch1, ch3, ch4, ch5, ch6, ch7, ch8, ch9, ch10, chapter-2, ta, and atlantic_ideas at `tools/quality-gates/sign-offs/`.
 

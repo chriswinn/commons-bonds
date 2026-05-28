@@ -110,7 +110,7 @@ workstream completing per Condition NR-3.
     Boston Review is closest fit for review-essay register; Atlantic
     Ideas is closest fit for long-form length):
     - publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md
+    - publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md
     - publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md
     - tools/workstream-handoffs/ch2-harpers-stage-1-brief-kickoff_2026-05-26.md
       (most recent Wave 2 Stage 1 brief paste-text for structural

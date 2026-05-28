@@ -148,7 +148,7 @@ If FP accepts and Atlantic Ideas later revives interest in the original four-ste
 ## Cross-references
 
 - Parent workstream: [`tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md`](atlantic-ideas-essay-handoff_2026-05-19.md)
-- Atlantic Ideas Stage 1 brief (carries forward to FP cut): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md)
+- Atlantic Ideas Stage 1 brief (carries forward to FP cut): [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md)
 - Source chapter: `manuscript/chapters/Chapter__9_PricingHonestly.md`
 - Cascade plan venue allocation: `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (Ch 9 row: Atlantic Ideas primary; Foreign Policy alternate)
 - Cross-thread item #4 resolution: `publishing/essays/_pipeline/cross-thread-todos.md`

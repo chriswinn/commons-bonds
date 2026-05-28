@@ -393,11 +393,11 @@ For each stage, recent worked examples (refreshed 2026-05-24):
 |---|---|
 | Stage 0 | `publishing/essays/100-barrel/rigor/q1-go-no-go.md` |
 | Stage 0 (essay-side) | `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md` |
-| Stage 1 (long-form) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md` |
+| Stage 1 (long-form) | `publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md` |
 | Stage 1 (short-form) | `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` |
 | Stage 2 | `publishing/essays/100-barrel/essay.md` (Draft A; comparative-audit-winning execution) |
 | Stage 2 (parallel-variant comparative) | `publishing/essays/100-barrel/rigor/stage-3-comparative-draft-audit.md` |
-| Stage 3 Pass 3.1 (fact-check) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md` |
+| Stage 3 Pass 3.1 (fact-check) | `publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-1-fact-check.md` |
 | Stage 3 Pass 3.2 (voice-polish) | `publishing/essays/boston-review-accountability-gap/rigor/pass-3-2-voice-polish.md` |
 | Stage 3 Pass 3.3 (audience-load acceptance) | `publishing/essays/boston-review-accountability-gap/rigor/pass-3-3-audience-load.md` |
 | Stage 3 Pass 3.3 (light re-fire after dev-edit) | `publishing/essays/noema-commons-bonds/rigor/light-refires/pass-3-3-light-refire_2026-05-24.md` |

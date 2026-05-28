@@ -56,7 +56,7 @@ draft session will work from.
     Aeon for literary-register precedent is closest fit):
     - publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md
     - publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md
+    - publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md
 
 == Your task ==
 

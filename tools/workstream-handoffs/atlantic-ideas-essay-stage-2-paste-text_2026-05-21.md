@@ -2,7 +2,7 @@
 
 **Purpose.** Drop the paste-text below into a FRESH session (new chat, new worktree) to fire the Atlantic Ideas essay Stage 2 audience-blind flow draft. Fresh-session discipline is load-bearing — Stage 2 MUST be a new session, not a continuation of any prior Atlantic Ideas / Ch 9 / PM session.
 
-**Stage 1 brief** (RATIFIED v1.1.0 by author 2026-05-21): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md).
+**Stage 1 brief** (RATIFIED v1.1.0 by author 2026-05-21): [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md).
 
 **Workstream handoff:** [`tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md`](atlantic-ideas-essay-handoff_2026-05-19.md).
 
@@ -30,7 +30,7 @@ You may glance at any of these files for **narrow fact verification** (a single 
 == Read in order before drafting ==
 
 1. THIS paste (the framing).
-2. **THE Stage 1 brief** — `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md` (RATIFIED v1.1.0 2026-05-21; §§1–16 contain everything Stage 2 needs).
+2. **THE Stage 1 brief** — `publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md` (RATIFIED v1.1.0 2026-05-21; §§1–16 contain everything Stage 2 needs).
 3. `tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md` (workstream context).
 4. `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` (canonical pipeline doctrine; v3.1 architecture).
 5. `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md` (memory file is v3.0 base + Amendment A and ~3 days stale of canonical doctrine; the pipeline doctrine artifact above is authoritative).

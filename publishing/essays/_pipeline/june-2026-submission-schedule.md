@@ -181,7 +181,7 @@ Log location: per cascade plan §"Outreach" discipline — recommend either a de
   - Aeon: `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`
   - Noema: `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`
   - Boston Review: `publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`
-  - Atlantic Ideas: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`
+  - Atlantic Ideas: `publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`
 - **Stage 3 rigor passes (latest per essay):**
   - Aeon: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-3-and-3-4-bundled-audience-load.md` (Pass 3.3 + 3.4 bundled READY TO SUBMIT)
   - Noema: `publishing/essays/noema-commons-bonds/rigor/pass-3-1-fact-check.md` (Pass 3.1 RATIFIED + APPLIED 2026-05-21)
