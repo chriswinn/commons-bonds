@@ -14,7 +14,7 @@ hard_rule_axis_source: tools/memory/feedback_no_invented_factual_claims_in_publi
 
 # Three-way comparison — Ch 2 → Harper's *What McDowell County Paid* — LOCKED vs ALT-NO-EM vs ALT-NORM-PUNCT
 
-**Bottom line up front:** **SHIP LOCKED.** Both alts trip the no-invented-factual-claims hard rule at the §I scene-anchor layer, and the rule disqualifies hybridization regardless of other-axis verdicts. The locked submission cut remains the only variant cleanly inside the discipline that this essay served as the canonical empirical anchor for. The alts are valuable as architectural-awareness artifacts for future Wave 2 / Wave 3 derivatives and for the editor-iteration phase IF Harper's accepts — but they are not editor-substitutable into the submission package as drafted.
+**Bottom line up front (AMENDED 2026-05-28 per author critique — see §10 amendment that supersedes §7.1):** **SHIP LOCKED-PLUS-SURGICAL-HYBRIDIZATION.** The locked submission cut is the only variant cleanly inside the no-invented-factual-claims discipline as-drafted; both alts trip the hard rule at the §I scene-anchor layer and cannot ship as-is. **BUT** the rule disqualifies the alt-drafts from shipping as drafted; it does NOT disqualify substrate-safe material WITHIN the alts from being surgically hybridized into the locked cut. The original §7.1 binary "no hybridization" recommendation conflated those two propositions. The amended §10 analysis identifies 6 high-confidence substrate-safe hybridization candidates + 4 medium-confidence candidates + 6 low-confidence / contraindicated candidates, with cost-of-cascade-re-fire calibrated against expected accept-probability gain at Harper's. The author's disposition selects which candidates fire as targeted spot-fixes.
 
 ---
 
@@ -230,7 +230,9 @@ Setting Harper's-specific calibration aside and reading each as a standalone lit
 | Publishability at Harper's specifically | highest expected accept-probability; lowest fact-check-revision risk | requires fresh 5-pass + §I substrate-anchor cut | requires fresh 5-pass + multi-site invention cuts + register recalibration |
 | Standalone essay strength | strongest as currently polished | distinctive paired-witness architecture (if 1941 cut) | strongest §I place-anchor (if storefronts cut); citation-density trade-off remains |
 
-### §7.1 Recommendation: **SHIP LOCKED**
+### §7.1 Recommendation: **SHIP LOCKED** (SUPERSEDED by §10 amendment 2026-05-28 — see below)
+
+**§7.1 was the original session's recommendation; the §10 amendment supersedes it.** The original §7.1 conflated "an alt cannot ship as-drafted because it contains a hard-rule violation" with "an alt's substrate-safe material is ineligible for hybridization into the locked cut." Those are different propositions. The amended §10 below corrects the analysis. Original §7.1 text preserved for audit-trail.
 
 **Primary recommendation: SHIP LOCKED.** The locked Stage 5 RATIFIED submission cut is the only variant that survives all three load-bearing axes — Pass 3.3 16/16 INCLUDE; Pass 3.4 ROBUST; no-invented-claims hard rule CLEAN. The alts both trip the hard rule at the §I scene-anchor layer (and ALT-NORM-PUNCT additionally at §III), and the rule polarity is binary at the publisher-facing-prose boundary — **HARD-RULE-VIOLATION-DISQUALIFIES-HYBRIDIZATION** regardless of other-axis verdicts.
 
@@ -285,4 +287,244 @@ What I might have over-credited / mis-graded — independent verification candid
 
 ---
 
-*End of three-way comparison artifact. PROPOSED 2026-05-28 fresh-session independent audit; awaits author disposition on SHIP LOCKED recommendation + alts archival treatment.*
+*End of original three-way comparison artifact body. §10 amendment follows.*
+
+---
+
+## §10. AMENDMENT 2026-05-28 — Surgical-hybridization candidate analysis (SUPERSEDES §7.1)
+
+### §10.0 Why this amendment exists
+
+Author surfaced the critique 2026-05-28 (same session) after reading §7.1:
+
+> *"How come a rule violation would mean that theoretically one sentence I could delete means there is no value to be found in any of the alternative essays?"*
+
+The critique is correct. The original §7.1 binary "SHIP LOCKED + NO HYBRIDIZATION" recommendation conflated two distinct propositions:
+
+1. **An alt cannot ship as-drafted because it contains a hard-rule violation.** (CORRECT — the rule polarity is binary at the publisher-facing-prose boundary, and ALT-NO-EM + ALT-NORM-PUNCT both ship-as-drafted DISQUALIFIED for that reason.)
+2. **An alt's substrate-safe material is ineligible for hybridization into the locked cut.** (INCORRECT — the rule operates at the published-output boundary; substrate-safe material from an alt is hybridizable EVEN IF the alt also contains an unrelated violation, provided the violation itself is not what's being hybridized.)
+
+The original §7.1 collapsed (1) and (2) into a single recommendation. The amendment unbundles them: ship LOCKED-PLUS-SURGICAL-HYBRIDIZATION, where each hybridization candidate is evaluated on substrate-safety + accept-probability-gain at Harper's specifically + cost-of-cascade-re-fire.
+
+The author framing — *"only the success of the book matters"* — sharpens the calibration: if a hybridization candidate materially increases accept-probability at Harper's, fire the cascade for it; if it's marginal, defer to editor-iteration; if it's contraindicated, discard. The cascade-re-fire cost is real but bounded (Pass 3.1 light re-fire on affected paragraphs + Stage 4 render verification + Stage 5 sign-off touch-up) and well-amortized across multiple candidates fired in a single round.
+
+### §10.1 Re-scored alt verdicts assuming hard-rule violations surgically removed
+
+If the §I 1941 seam-opening date is cut from ALT-NO-EM + the §I three-storefront-types + §III Carnegie / marching-bands inventions are cut from ALT-NORM-PUNCT (and the §VII BLS QCEW + §VI WORC/ACLC methodological-claim mild-concerns are softened to substrate-safe phrasing), the Pass 3.3 verdicts shift materially:
+
+| # | Character | LOCKED | ALT-NO-EM (post-cut) | Δ from §1.1 | ALT-NORM-PUNCT (post-cut) | Δ from §1.1 |
+|---|---|---|---|---|---|---|
+| 1 | Harper's editorial brain (Beha) | ✓✓✓ | ✓✓ — paired-witness §II reads as architectural innovation; cooler em-dash register may or may not match Beha's ear | flip from ⚠ EXCLUDE to ✓✓ INCLUDE | ✓✓ — Welch-courthouse opener strong; citation-density seam still pulls toward fact-checked reportage register | flip from ✓ to ✓✓ |
+| 2 | Harper's reader | ✓✓✓ | ✓✓ | wash | ✓✓ | wash |
+| 3 | Literary agent | ✓✓✓ | ✓✓✓ | flip up | ✓✓✓ | wash |
+| 4 | Acquisitions editor | ✓✓✓ | ✓✓✓ | flip up | ✓✓✓ | wash |
+| 8 | Center-right policy (CRITICAL) | ✓✓✓ explicit-meta disarmed | ✓✓ — disarming move compressed | wash | ✓✓✓ disarming move preserved | wash |
+| 11 | **McDowell County resident (HIGHEST-PRIORITY Tier 3)** | ✓✓✓ | ✓✓✓ — §I orange-creek scene with 1941 removed becomes substrate-safe imagistic register | **flip from ⚠ EXCLUDE to ✓✓✓** | ✓✓ — §I Welch-courthouse scene with storefronts removed reads as substrate-safe place-anchor; §III Carnegie/marching cuts re-narrow to canonical-facts inventory | **flip from ⚠ EXCLUDE to ✓✓** |
+| 12 | Skeptical Appalachian academic | ✓✓ + Pass 3.5 gain flag | ✓✓✓ — Eller addition substantively credits the regional-history lineage | preserved | ✓✓ — Stoll + Catte + Caudill named at §III; lineage credit redistributed | preserved |
+
+**Aggregate Pass 3.3 verdict per pitch, POST-CUT:**
+
+| Pitch | Tier 1 (4) | Tier 2 (6) | Tier 3 (6) | Total INCLUDE / EXCLUDE | Pass 3.3 verdict |
+|---|---|---|---|---|---|
+| **LOCKED** (RATIFIED 2026-05-27) | 4 ✓✓✓ | 6 INCLUDE | 6 INCLUDE | **16/16 INCLUDE; 0 EXCLUDE** | NET INCLUDE — PASS |
+| ALT-NO-EM (post-cut) | 4 INCLUDE (2 ✓✓✓ + 2 ✓✓) | 6 INCLUDE (5 wash + 1 ↑) | 6 INCLUDE (with #11 ✓✓✓ + #12 ↑) | **16/16 INCLUDE; 0 EXCLUDE** | NET INCLUDE — PASS-equivalent on Pass 3.3; structural alternative would warrant fresh full cascade re-fire to confirm |
+| ALT-NORM-PUNCT (post-cut + softened) | 4 INCLUDE (3 ✓✓✓ + 1 ✓✓) | 6 INCLUDE | 6 INCLUDE | **16/16 INCLUDE; 0 EXCLUDE** | NET INCLUDE — PASS-equivalent on Pass 3.3; citation-density register-trade-off remains as awareness flag |
+
+**Material finding from the re-score:** both alts, post-cut, would PASS Pass 3.3 cleanly. The hard-rule violations were the load-bearing source of the EXCLUDEs at Tier 1 #1 (Beha for ALT-NO-EM) and Tier 3 #11 (McDowell resident for both alts). Without the violations, both alts are viable submission candidates in their own right — and their substrate-safe material is fully hybridizable into the locked cut as targeted spot-fixes.
+
+This re-score does NOT recommend submitting either alt as a wholesale alternative to the locked cut. The locked cut has 5-pass cascade + Stage 4 + Stage 5 RATIFIED pedigree; the alts have sub-agent self-audit only. Wholesale substitution would require fresh full-cascade re-fire (Pass 3.1 + 3.2 + 3.3 + 3.4 + 3.5 + Stage 4 + Stage 5 sign-off + cover letter recalibration) — which is a much higher cost than surgical hybridization.
+
+### §10.2 Hybridization-candidate inventory
+
+#### HIGH-CONFIDENCE candidates (substrate-safe; recommend FIRE as targeted spot-fixes in a single round)
+
+**HC-1. Ronald Eller *Uneven Ground: Appalachia since 1945* (2008) citation at §V lineage paragraph.**
+
+- **Source:** ALT-NO-EM §V lineage paragraph (the historian Ronald Eller, in *Uneven Ground: Appalachia since 1945* (2008), traced how the political economy of the region's mid-twentieth-century development consistently routed gains outward and costs inward; the diagnostic was already there in the regional-history lineage by the time the policy literature caught up to it.)
+- **Substrate safety:** Published-work citation; verifiable against the actual book. SAFE per `feedback_no_invented_factual_claims` §"Substrate-safe attributions ARE permitted."
+- **Value:** Closes the Pass 3.3 #12 Skeptical Appalachian academic Pass 3.5 gain-not-fix flag noted in RATIFIED Pass 3.3 2026-05-27. Explicitly credits the regional-history lineage at the point where the framework's vocabulary is being established; pre-empts the "outside-the-region writer importing diagnosis" reading. Substantively helps the Tier 3 #12 verdict that the locked cut held but at the modest end of the INCLUDE band.
+- **Cost:** ~50-65 words added at §V lineage paragraph. Triggers Pass 3.1 light re-fire on §V (verify Eller citation accuracy + lineage-paragraph sentence-flow) + Stage 4 verification (no render changes expected) + Stage 5 sign-off touch-up.
+- **Recommendation:** **FIRE.** High-value substrate-safe addition; closes a known Pass 3.3 gain flag.
+
+**HC-2. Joseph Yablonski historical-record correction — "and his wife and daughter."**
+
+- **Source:** ALT-NO-EM §III ("Miners for Democracy took back the UMWA after the murder, on the last night of 1969, of the reform candidate Joseph Yablonski and his wife and daughter.")
+- **Substrate safety:** Historical-record public-event (Margaret Yablonski + Charlotte Yablonski, 25, were murdered alongside Joseph Yablonski December 31, 1969 — widely documented in UMW history; Pulitzer-cited Brit Hume *Death and the Mines* (1971); FBI files; subsequent prosecutions). SAFE per `feedback_named_subject_consent.md` historical-record exception.
+- **Value:** The locked cut at line 73 says "Miners for Democracy took back the union after the murder of the reform candidate Joseph Yablonski" — naming only Joseph. The historical record is that the murder was a triple-killing (Joseph + Margaret + Charlotte) targeted at Joseph by Tony Boyle's order. The "and his wife and daughter" correction adds historical accuracy + amplifies the structural-violence weight of what the regulatory architecture was built against. Honors the full historical record.
+- **Cost:** ~6 words added at §V line 73. Pass 3.1 light re-fire on §V (verify wife+daughter historical record) + Stage 4 (no render impact) + Stage 5 touch-up.
+- **Recommendation:** **FIRE.** Lowest-cost highest-substantive-accuracy gain in the candidate set.
+
+**HC-3. Farmington Mine disaster 1968 context for the 1969 Federal Coal Mine Health and Safety Act.**
+
+- **Source:** ALT-NORM-PUNCT §IV ("The Federal Coal Mine Health and Safety Act of 1969 was passed after the Farmington Mine disaster of 1968 killed seventy-eight miners.")
+- **Substrate safety:** Historical-record public-event (Farmington No. 9 mine explosion November 20, 1968; 78 miners killed; well-documented; widely cited in coal-mining safety history). SAFE.
+- **Value:** The locked cut at line 37 says "The federal black lung program was built because miners and their widows refused to accept that the suffering was nobody's responsibility" — generic framing. Adding the Farmington-1968-killed-78 specific anchor strengthens the structural-claim about why the 1969 Act exists: not just black lung organizing, but a specific mass-casualty event that forced national attention. Anchors the broader regulatory history more precisely.
+- **Cost:** ~15-25 words added at §IV near the Trust Fund discussion or §V near the regulatory-architecture-credit-to-miners paragraph. Pass 3.1 light re-fire + Stage 4 + Stage 5 touch-up.
+- **Recommendation:** **FIRE.** Adds specific historical anchor without bureaucratic register; clean public-record substrate.
+
+**HC-4. 1969 Federal Coal Mine Health and Safety Act explicit naming.**
+
+- **Source:** Both alts (ALT-NO-EM §IV: "The Fund had been created in 1969 under the Federal Coal Mine Health and Safety Act"; ALT-NORM-PUNCT §IV: "The federal Black Lung Benefits Program, established under the Federal Coal Mine Health and Safety Act of 1969 and now administered by the Department of Labor's Office of Workers' Compensation Programs").
+- **Substrate safety:** Public statute; Public Law 91-173. SAFE.
+- **Value:** The locked cut at line 37 says "The fund was created in 1969, after a wildcat strike that the Black Lung Association led across West Virginia, to handle exactly this contingency." Adding "under the Federal Coal Mine Health and Safety Act" gives the legal scaffolding precision without the heavier IRC §4121 / Public Law 91-173 / 30 CFR Part 70 bureaucratic-citation register of ALT-NORM-PUNCT. ALT-NO-EM's lighter framing is the recommended form.
+- **Cost:** ~5-8 words added at §IV. Pass 3.1 light re-fire + Stage 4 + Stage 5 touch-up.
+- **Recommendation:** **FIRE** (use ALT-NO-EM's lighter framing).
+
+**HC-5. Tug Fork geographic anchor at §I.**
+
+- **Source:** ALT-NORM-PUNCT §I ("on a slope above the Tug Fork, with a clock tower that no longer keeps time...")
+- **Substrate safety:** Geographic fact (Tug Fork is the McDowell County-Kentucky border river; Welch sits in the Tug Fork drainage). Verifiable; SAFE.
+- **Value:** Adds verifiable place-anchor at §I that grounds the scene in real geography. The locked cut's §I doesn't name any rivers; the Tug Fork addition would tether the orange-creek imagery to a verifiable specific drainage. Helps Tier 3 #11 (McDowell resident) verdict by demonstrating geographic-fluency-with-place.
+- **Cost:** ~3-5 words added at §I. Pass 3.1 light re-fire + Stage 4 + Stage 5 touch-up.
+- **Recommendation:** **FIRE** if §I is being touched for any other reason (low-cost rider; standalone may not justify the cascade-re-fire for ~3 words).
+
+**HC-6. Three-rivers geography (Tug + Levisa + Guyandotte) at §VI.**
+
+- **Source:** ALT-NORM-PUNCT §VI ("the smaller tributaries that feed into the Tug and the Levisa and the Guyandotte")
+- **Substrate safety:** Geographic fact (Tug Fork, Levisa Fork, Guyandotte are real WV rivers in/near McDowell County; the Tug + Levisa drain into the Big Sandy + Ohio; the Guyandotte drains separately to the Ohio). Verifiable; SAFE.
+- **Value:** Adds geographic-specificity to the §VI orange-creek-acid-mine-drainage paragraph. Grounds the watershed-impact claim in named real drainage systems. Same Tier 3 #11 geographic-fluency gain as HC-5.
+- **Cost:** ~8-12 words added at §VI. Pass 3.1 light re-fire + Stage 4 + Stage 5 touch-up.
+- **Recommendation:** **FIRE** in same round as HC-5 (geographic-anchor cluster; both fire together or both defer together).
+
+#### MEDIUM-CONFIDENCE candidates (substrate-safe with verification; judgment call)
+
+**MC-1. Steven Stoll *Ramp Hollow* substantive sentence at §III.**
+
+- **Source:** ALT-NORM-PUNCT §III ("The historian Steven Stoll has traced in *Ramp Hollow* the longer arc by which Appalachian commons were enclosed and the commoners reorganized into a labor force whose surplus value flowed out of the region.")
+- **Substrate safety:** Published-work citation; verifiable against *Ramp Hollow* (2017). SAFE.
+- **Value:** Goes deeper on the Stoll citation than the locked cut's single-mention pattern. Strengthens the regional-historical-political-economy lineage credit. Possible Tier 3 #12 gain. Risk: redundancy with §V lineage paragraph if Stoll is already cited there — pulling the substantive sentence into §III may double-cite Stoll without proportional value.
+- **Cost:** ~30-40 words added at §III; verify no double-cite redundancy with §V (the locked cut does NOT name Stoll in §V — only Mazzucato + Harvey + Hamby + Catte; so adding Stoll at §III is non-redundant).
+- **Recommendation:** **FIRE if §III is being touched for any other reason (e.g., HC-3 if Farmington-1968 lands in §III rather than §IV); otherwise DEFER to editor-iteration phase.**
+
+**MC-2. 2014 MSHA dust standard tightening anchor at §IV.**
+
+- **Source:** ALT-NORM-PUNCT §IV ("The Mine Safety and Health Administration's current dust standard, codified at 30 CFR Part 70 and tightened most recently in 2014, is itself the residue of dozens of organizing campaigns whose details would fill several histories.")
+- **Substrate safety:** Public regulation; verifiable (MSHA 2014 final rule "Lowering Miners' Exposure to Respirable Coal Mine Dust," effective August 2014). SAFE.
+- **Value:** Modernizes the temporal frame of the regulatory architecture; the locked cut's framing focuses on the 1969 program origins, and adding the 2014 update demonstrates the architecture is still being negotiated. Modest gain. The "30 CFR Part 70" inline citation pushes register toward bureaucratic-precise.
+- **Cost:** ~20-30 words added at §IV. Pass 3.1 light re-fire + Stage 4 + Stage 5 touch-up. Register-shift consideration: dropping "codified at 30 CFR Part 70" in favor of "tightened most recently in 2014" preserves the value while staying in literary-essay register.
+- **Recommendation:** **JUDGMENT CALL — defer to author preference.** If Harper's register-discipline holds, **DEFER**; if author wants regulatory-history-recency anchor, **FIRE with lighter framing** (drop 30 CFR Part 70 inline citation; keep "tightened most recently in 2014" temporal anchor).
+
+**MC-3. 1977 SMCRA Public Law 95-87 explicit naming.**
+
+- **Source:** ALT-NORM-PUNCT §VI ("The Surface Mining Control and Reclamation Act of 1977, Public Law 95-87, required mining companies to post reclamation bonds...")
+- **Substrate safety:** Public statute. SAFE.
+- **Value:** Adds legal-scaffolding precision parallel to HC-4 for the 1969 Act. The locked cut already names "The Surface Mining Control and Reclamation Act of 1977" at line 67; ALT-NORM-PUNCT adds the "Public Law 95-87" identifier. Marginal value-add; PL95-87 reads bureaucratic without proportional gain.
+- **Cost:** ~3 words added at §VI; bureaucratic-register cost.
+- **Recommendation:** **DEFER to editor-iteration phase.** Marginal gain; bureaucratic-register cost.
+
+**MC-4. 1968 wildcat strike "three weeks" specificity at §IV.**
+
+- **Source:** ALT-NORM-PUNCT §IV ("The black lung benefits program owes its existence to the 1968 wildcat strike in West Virginia that, organized by the Black Lung Association, shut the state's mines for three weeks and produced the state's pneumoconiosis statute and the following year's federal program.")
+- **Substrate safety:** Verifiable historical event; the actual strike was February-March 1969 (~3 weeks; ~40,000 miners walked out). **NOTE: ALT-NORM-PUNCT misdates the strike as "1968" — the strike was 1969 (Feb-March). The Farmington disaster was 1968; the strike was 1969; the federal Act was Dec 1969. ALT-NORM-PUNCT's "1968 wildcat strike" is itself a factual error.** The "three weeks" duration is roughly accurate.
+- **Substrate-safety re-verdict: ⚠ FACTUAL ERROR in source ALT-NORM-PUNCT framing.** Verify dates carefully before any fire.
+- **Value:** Adds specificity to the regulatory-history. The locked cut at line 73 says "the Black Lung Association's 1968 wildcat strike across West Virginia" — actually the locked cut may also misdate. **Cross-verify locked cut + alt before fire.** If both misdate, the fire is to correct, not to add specificity.
+- **Cost:** Pass 3.1 light re-fire on the §V regulatory-architecture paragraph; verify all date claims against historical record (Brit Hume *Death and the Mines* 1971; Alan Derickson *Black Lung* 1998).
+- **Recommendation:** **FIRE AS FACT-CHECK CORRECTION, not as hybridization addition.** This is a Pass 3.1 finding flagged for correction, not a hybridization candidate. Verify dates against authoritative sources before any change.
+
+#### LOW-CONFIDENCE / CONTRAINDICATED candidates (substrate-issues OR register-trade-off)
+
+**LC-1. IRC §4121 (Internal Revenue Code excise-tax-mechanism) inline citation at §VI.**
+
+- **Source:** ALT-NORM-PUNCT §VI ("The program is funded largely by an excise tax on the coal industry under Internal Revenue Code section 4121, a tax that was supposed to make the polluting party pay for the cleanup, in the classic Pigouvian framing.")
+- **Substrate safety:** Public statute. SAFE.
+- **Value:** Bureaucratic-precise citation that adds legal-scaffolding identifier. The locked cut already names "an excise tax on the coal industry" + "the classic Pigouvian framing"; the IRC §4121 identifier adds technical precision without literary value.
+- **Register cost:** "Internal Revenue Code section 4121" inline reads bureaucratic-precise; pushes essay AWAY from Harper's literary-essay register and TOWARD New Yorker fact-checked reportage. Brief §2 explicitly warns against apparatus jargon in body prose.
+- **Recommendation:** **DO NOT FIRE in body prose.** **Available for editor-iteration phase** if Harper's editor requests more legal-citation precision at developmental-edit cycle.
+
+**LC-2. 30 CFR Part 70 inline citation at §IV.**
+
+- **Recommendation:** Same as LC-1. **DO NOT FIRE in body prose; available for editor-iteration.**
+
+**LC-3. CBO baseline projection inline citation at §VI.**
+
+- **Source:** ALT-NORM-PUNCT §VI ("the Congressional Budget Office's most recent baseline projects the debt to reach roughly fifteen billion dollars by 2050")
+- **Substrate safety:** Public CBO baseline data. SAFE.
+- **Value:** The locked cut says "the program's Trust Fund is currently about four and six tenths of a billion dollars in debt, and that debt is on track to reach roughly fifteen billion dollars by the year 2050." Adding "Congressional Budget Office's most recent baseline projects" adds source-attribution precision but doesn't change the substantive claim.
+- **Register cost:** Moderate; "CBO baseline" reads policy-wonk register.
+- **Recommendation:** **DO NOT FIRE in body prose; available for editor-iteration** if specific-source-attribution requested.
+
+**LC-4. BLS Quarterly Census of Employment and Wages overlay at §VII.**
+
+- **Source:** ALT-NORM-PUNCT §VII (the Purdue target map "read county by county against the Bureau of Labor Statistics' historic Quarterly Census of Employment and Wages data")
+- **Substrate safety:** ⚠ Methodological claim — asserts the author has done (or that there exists) a county-by-county overlay against BLS QCEW. Stage 1 brief §7 canonical-facts inventory does NOT anchor this specific methodological claim. Requires substrate verification.
+- **Recommendation:** **DO NOT FIRE.** Methodological-claim invention even at the soft end; the BLS QCEW overlay specific-source-attribution claim needs either substrate (which the brief doesn't anchor) or removal.
+
+**LC-5. WORC + ACLC independent estimates at §VI.**
+
+- **Source:** ALT-NORM-PUNCT §VI (OSMRE inventory "supplemented by independent estimates from the Western Organization of Resource Councils and the Appalachian Citizens' Law Center")
+- **Substrate safety:** ⚠ Methodological-attribution claim; WORC + ACLC are real orgs but the specific assertion that they produced supplementing estimates needs substrate verification.
+- **Recommendation:** **DO NOT FIRE.** Same as LC-4 — methodological-attribution invention without canonical-facts substrate.
+
+**LC-6. Paired-witness §II structural reordering (Bailey + Latusek together).**
+
+- **Source:** ALT-NO-EM §II
+- **Substrate safety:** SAFE on substrate (all Bailey + Latusek facts within canonical-facts inventory).
+- **Value:** Real architectural alternative to the locked cut's distributed-witness pattern (Bailey at §IV; Latusek at §VIII closing return). Some readers will prefer paired-witness; some will prefer distributed.
+- **Cost:** This is NOT a surgical hybridization candidate — it requires rewriting §II + §IV + §VIII closing return + restructuring the section sequence. Effectively means producing a different essay; cannot be cherry-picked into the locked cut as a spot-fix. Would require full 5-pass + Stage 4 + Stage 5 re-fire on the modified essay.
+- **Recommendation:** **DEFER to FUTURE WAVE-2 / WAVE-3 DERIVATIVE OR EDITOR-ITERATION.** Architectural choice deserves consideration in its own session if author wants to explore an alternative; not a surgical addition to the current submission package. If Harper's accepts and editor requests structural reconsideration, this is the template for the alternative.
+
+### §10.3 Recommended path forward — three-tier disposition
+
+**Tier 1 — FIRE IN A SINGLE ROUND (next session):**
+
+- HC-1 Eller citation at §V (~50-65w)
+- HC-2 Yablonski wife+daughter correction at §V (~6w)
+- HC-3 Farmington 1968 context at §IV or §V (~15-25w)
+- HC-4 1969 Federal Coal Mine Health and Safety Act explicit naming at §IV (~5-8w; light framing)
+- HC-5 Tug Fork at §I (~3-5w)
+- HC-6 Three-rivers (Tug + Levisa + Guyandotte) at §VI (~8-12w)
+- MC-4 fact-check date correction (1968 vs 1969 wildcat strike; verify against authoritative source; correct if locked cut also misdates)
+
+**Net word-count delta: +90-120 words.** Locked cut 7,121w → ~7,210-7,240w. Still well within brief recommended middle-of-band 8,000w floor; well within no-auto-flag 6,500-12,000w. Substance-drives-length discipline OK.
+
+**Cascade re-fire required for Tier 1 round:**
+- **Pass 3.1 light re-fire on §I + §IV + §V + §VI** (verify Eller citation accuracy; verify Yablonski wife+daughter historical record; verify Farmington 1968 death count; verify 1969 Federal Coal Mine Health and Safety Act = Public Law 91-173; verify Tug Fork + Levisa Fork + Guyandotte geography; verify 1968 vs 1969 wildcat strike date) — ~15-30K tokens.
+- **Stage 4 render verification** on the modified essay.md (em-dash count unchanged at 10; new prose adds zero em-dashes; no render-novel structures) — minimal cost.
+- **Stage 5 sign-off touch-up** noting the Tier 1 hybridization round was fired; word-count update; citation inventory update — minimal cost.
+- **Optional Pass 3.3 light re-fire** post-application to verify 16/16 INCLUDE preserved (Pass 3.3 light re-fire is recommended after any prose-additive work touching §V lineage paragraph or §I scene-anchor per parent doctrine).
+- **Cover letter touch-up** (optional) if the Eller addition + Farmington context warrants a sentence in the cover letter's named-tradition-fluency walk.
+
+**Total expected cost: 25-50K tokens for the full Tier 1 round.** Bounded; well-amortized across 6 candidates fired together; calibrated against expected accept-probability gain at Harper's specifically.
+
+**Tier 2 — DEFER TO EDITOR-ITERATION PHASE (if Harper's accepts):**
+
+- MC-1 Stoll *Ramp Hollow* substantive sentence at §III
+- MC-2 2014 MSHA dust standard tightening (with lighter framing)
+- MC-3 1977 SMCRA Public Law 95-87 explicit naming
+- LC-1 IRC §4121 inline
+- LC-2 30 CFR Part 70 inline
+- LC-3 CBO baseline inline
+
+If Harper's editor requests more bureaucratic-precise sourcing at developmental-edit or line-edit cycle, these are pre-vetted substrate-safe candidates available for selective application.
+
+**Tier 3 — DISCARD or DEFER TO FUTURE-WAVE-DERIVATIVE:**
+
+- LC-4 BLS QCEW overlay (methodological-claim invention; needs substrate before consideration)
+- LC-5 WORC + ACLC estimates (methodological-claim invention; needs substrate before consideration)
+- LC-6 ALT-NO-EM paired-witness §II reordering (architectural alternative; not surgical; future-session candidate if author wants to explore)
+
+### §10.4 Accept-probability calibration
+
+Expected gain at Harper's specifically from Tier 1 round:
+
+- **Pass 3.3 #12 (Skeptical Appalachian academic):** ✓✓ → ✓✓✓ from HC-1 Eller addition. Modest gain at Tier 3 character.
+- **Pass 3.3 #11 (McDowell County resident):** ✓✓✓ → ✓✓✓ (preserved at strong); HC-5 + HC-6 Tug Fork + three-rivers geographic anchors add Tier 3 #11 verifiable-fluency reinforcement.
+- **Pass 3.4 robustness:** preserved; HC-2 Yablonski correction strengthens against G (procedural-conservative misread) marginally by demonstrating the historical-violence weight the rule-of-law-loyal reader respects.
+- **Tier 1 #1 (Beha editorial brain):** preserved at strong; HC-3 Farmington + HC-4 1969-Act-explicit-naming add named-tradition-fluency density at the regulatory-history register without bureaucratic citation seams. Modest gain.
+- **Pre-submission fact-check liability reduction:** if MC-4 1968 vs 1969 wildcat strike date is in fact a misdate in the locked cut too, the Tier 1 round catches it before Harper's fact-check does. Tangible accept-probability gain.
+
+**Net expected accept-probability gain at Harper's: modest-but-real, bounded by the cascade-re-fire cost being bounded.** Author's framing of "only book success matters" justifies the cascade-re-fire investment if HC-1 through HC-6 + MC-4 fact-check together produce even a 2-5 percentage-point accept-probability gain on the Harper's submission. The book platform reads as stronger with each accept and weaker with each reject; the Tier 1 hybridization round is well-calibrated to push the submission marginally toward accept without overspending.
+
+### §10.5 Amended bottom-line recommendation
+
+**SHIP LOCKED-PLUS-TIER-1-HYBRIDIZATION-ROUND.** Fire HC-1 through HC-6 + MC-4 fact-check correction in a single next-session round; re-fire Pass 3.1 light + Stage 4 verification + Stage 5 sign-off touch-up; resubmit revised essay.md for author final-ratification before Harper's portal submission.
+
+The locked-as-currently-Stage-5-RATIFIED submission cut is shippable as-is; the Tier 1 round is a substantive enhancement, not a fix. The author may also ship the locked cut as-is if cascade-re-fire timing is a constraint or if the disposition is "ship what's RATIFIED rather than expand the surface area."
+
+Tier 2 candidates pre-vetted for editor-iteration phase. Tier 3 candidates discarded or routed to future-wave-derivative consideration.
+
+The original §7.1 binary "SHIP LOCKED" recommendation was over-strict; the amended §10 recommendation is calibrated to the author's "only book success matters" framing + the surgical-hybridization-is-substrate-safe-even-if-source-alt-contains-violation discipline + the bounded-cost-of-targeted-cascade-re-fire reality.
+
+---
+
+*End of three-way comparison artifact + §10 amendment. AMENDED 2026-05-28 fresh-session independent audit; awaits author disposition on Tier 1 hybridization-round candidates + cascade-re-fire authorization.*
