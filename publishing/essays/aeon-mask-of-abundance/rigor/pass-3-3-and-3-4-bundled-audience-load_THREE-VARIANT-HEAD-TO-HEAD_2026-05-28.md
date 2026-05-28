@@ -1,11 +1,14 @@
 # Aeon Pitch Three-Variant Head-to-Head — Stage 3 Pass 3.3 + 3.4 Bundled Audience-Load v1.0.0 — 2026-05-28
 
-**Status:** **PROPOSED.** Fresh-session independent head-to-head Pass 3.3
-(acceptance) + Pass 3.4 (robustness) on three candidate variants of the Aeon
-pitch *The Mask of Abundance*, scored from first principles against the
-Stage 1 brief §1 14-character acceptance set + V-C Pass 3.4 §4 5-character
-adversarial set. Audit fires under the v3.1 explicit-gate cascade (Sun May
-31 14:01 UTC Aeon portal submission gate).
+**Status:** **RATIFIED + APPLIED 2026-05-28 afternoon.** Fresh-session
+independent head-to-head Pass 3.3 (acceptance) + Pass 3.4 (robustness) on
+three candidate variants of the Aeon pitch *The Mask of Abundance*, scored
+from first principles against the Stage 1 brief §1 14-character acceptance
+set + V-C Pass 3.4 §4 5-character adversarial set. Audit fires under the
+v3.1 explicit-gate cascade (Sun May 31 14:01 UTC Aeon portal submission
+gate). Author ratified SHIP β recommendation 2026-05-28 afternoon; V-E
+(β) promoted to canonical submission text in the same commit. V-D archived
+as prior canonical; γ archived as defensible second-place alternative.
 
 **Audit targets.** Three parallel drafts of the same pitch, isolating two
 candidate refinements to V-D (the hybrid drafted earlier 2026-05-28):
@@ -1174,14 +1177,19 @@ ratify a SHIP recommendation.
 
 ---
 
-## §9. Stop point — PROPOSED 2026-05-28
+## §9. Stop point — RATIFIED + APPLIED 2026-05-28 afternoon
 
-This artifact PROPOSED 2026-05-28 (fresh-session independent head-to-head
-Pass 3.3 + 3.4 on three candidate variants α/β/γ). Per v3.1 Amendment C,
-this is NOT a prose-modifying pass — no spot-fixes recommended; no author
-interactive ratification required to apply spot-fixes. Author retains
-final decision authority on which variant to ship at Sun May 31 14:01 UTC
-Aeon portal submission.
+This artifact RATIFIED + APPLIED 2026-05-28 afternoon (fresh-session
+independent head-to-head Pass 3.3 + 3.4 on three candidate variants
+α/β/γ). Per v3.1 Amendment C, this was not a prose-modifying pass — no
+spot-fixes were recommended; no author interactive ratification was
+required to apply spot-fixes. Author ratified the SHIP β recommendation
+2026-05-28 afternoon; V-E (β) promoted to canonical submission text for
+Sun May 31 14:01 UTC Aeon portal in the same commit. V-D retained as
+prior-canonical safety-net fallback at
+`_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-D.md`; γ
+retained as defensible second-place alternative at
+`_archive/parallel-drafts_2026-05-28/aeon-pitch_v-f_action-frame-plus-trims.md`.
 
 **Verdict summary:**
 
@@ -1246,4 +1254,5 @@ constraint (audit-only; remediation separate).
 ---
 
 *End of three-variant head-to-head Pass 3.3 + 3.4 (audience-load
-acceptance + robustness) audit — PROPOSED 2026-05-28.*
+acceptance + robustness) audit — RATIFIED + APPLIED 2026-05-28
+afternoon.*

@@ -14,9 +14,9 @@ em_dash_justifications: |
   ¶4 universalizability bridge paired em-dashes ("any world — including this one — would recognize"): inherited V-D justification (Kantian-universalizability pivot; empirically irreducible across all three parallel drafts per V-D §5.1).
 ---
 
-# *The Mask of Abundance* — Aeon pitch Variant β (V-D + announce-the-move trims, 2026-05-28)
+# *The Mask of Abundance* — Aeon pitch Variant β / Version E (V-D + announce-the-move trims, 2026-05-28)
 
-**Status:** PARALLEL DRAFT for author comparison against locked Version C + Version D (hybrid) + Variant γ (action-frame). Not yet a submission cut. Per the three-variant test, this variant applies two subtractive trims to V-D to test the hypothesis that V-D still carries two Stage 1 §2 announce-the-move residuals.
+**Status:** **PROMOTED TO CANONICAL 2026-05-28 AFTERNOON** as Version E. Author ratified SHIP β recommendation from the three-variant head-to-head Pass 3.3 + 3.4 audit. Pitch body below is character-identical to canonical [`publishing/essays/aeon-mask-of-abundance/essay.md`](../../essay.md) and to [`submission-day-package_2026-05-31.md`](../../submission-day-package_2026-05-31.md) §2. V-E archive at [`_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-E.md`](../prior-versions/aeon-pitch-commons-bonds-winn_VERSION-E.md) carries the full promotion rationale; this parallel-draft file is preserved as the source-of-truth-at-drafting-time + audit-trail for the three-variant test.
 
 **What's preserved from V-D verbatim:**
 - ¶1: full sentence-by-sentence (Imagine landing... airlock question... someone else has been paying)
