@@ -1,6 +1,6 @@
 # Git Cleanup Sweep — 2026-05-28
 
-**Status:** Phase A (inventory) + Phase B (prune proposal) **PROPOSED**. Awaiting author confirmation before Phase C (destructive execution).
+**Status:** Phase A + B PROPOSED 2026-05-28 → Phase C EXECUTED 2026-05-28 → Phase D RATIFIED 2026-05-28 (this artifact; auto-fast-forward to main per CLAUDE.md merge-to-main policy as internal scaffolding).
 **Worktree:** `/Users/c17n/commons-bonds-git-cleanup-sweep-260528-451479` (branch `claude/git-cleanup-sweep-260528-451479` off `origin/main` `a5c7256`).
 **Date:** 2026-05-28 morning.
 **Scope:** comprehensive cleanup of 348 local branches + 66 worktrees accumulated during the parallel-session sprint of 2026-05-24 → 2026-05-27.
@@ -411,18 +411,127 @@ Empirical pattern from this sweep:
 
 ---
 
-## §8. STATE marker
+---
+
+## §8. Phase C execution log (2026-05-28)
+
+Author confirmed all four §7 decisions:
+- ☑ All 3 batches
+- ☑ Restore main repo HEAD to `main` after Batch 1
+- ☑ Leave untracked NYRB kickoff paste-text alone in main cwd
+- ☑ Defer the 5 §5.2 STALE-UNMERGED branches to per-branch verification later
+
+### §8.1 Batch 1 — Orphan-locked + legacy unlocked worktree sweep
+
+- 32 `.claude/worktrees/agent-*` worktrees: `git worktree unlock` + `git worktree remove --force`. 1 of 32 had no lock entry (`agent-a92185d216c1bddd6`) — unlock returned `fatal: not locked` (harmless) but remove succeeded.
+- 7 `.claude/worktrees/<non-agent>/` worktrees: `git worktree remove --force`. All clean.
+- Main repo HEAD restored: `git -C /Users/c17n/commons-bonds checkout main`; local `main` was 153 commits behind `origin/main`, fast-forwarded.
+
+**Delta:** 66 → 26 worktrees.
+
+### §8.2 Batch 2 — Merged-clean top-level isolated worktree sweep
+
+- 10 worktrees proposed for removal.
+- 9 removed cleanly.
+- 1 (`commons-bonds-pm-cascade-v2-amend-morning-260527-1b419b`) RETAINED: mid-sweep dirty-state recheck revealed 2 → 3 uncommitted modifications by an active parallel PM session drafting a major workflow-discipline change ("merge-on-ratification" rule) — see §8.5.
+
+**Delta:** 26 → 17 worktrees.
+
+### §8.3 Batch 3a — STALE-UNMERGED top-level worktree sweep (content-on-main verified)
+
+- 10 worktrees proposed (Ch 2 + Ch 3 + FA cascade artifacts; content all on `origin/main`).
+- All 10 removed cleanly after per-worktree dirty-check (all dirty=0).
+
+**Delta:** 17 → 7 worktrees.
+
+### §8.4 Batch 3b — Bulk local-branch deletion
+
+- Keep-list (14 branches): `main` + 5 active 260528 session branches + 1 active 260527 PM session (1b419b; §8.5) + 1 this-session branch + 2 CONTAMINATED (skip) + 5 deferred (§5.2).
+- 334 branches queued for deletion; 334 successfully deleted via `git branch -D <name>` loop; 0 failed.
+
+**Delta:** 348 → 14 branches.
+
+### §8.5 In-flight work preservation event (worth a memory entry)
+
+The `commons-bonds-pm-cascade-v2-amend-morning-260527-1b419b` worktree was initially classified MERGED-CLEAN in Phase A (`dirty=0`, `ahead=0`, last commit 2026-05-27T14:06). Between Phase A scan and Batch 2 execution, the worktree acquired 3 uncommitted modifications:
+
+- Modified: `CLAUDE.md` (+~50 lines: new "merge-on-ratification" rule + escape hatches + revised rationale)
+- Untracked: `tools/memory/feedback_merge_on_ratification.md` (97-line new memory entry)
+- (one additional change appeared by the third re-check)
+
+This was a parallel PM session actively drafting a substantive change to the project's branch-discipline doctrine — the kind of work that, if blown away by `--force` worktree removal, would have been catastrophic. The cleanup sweep correctly paused, investigated, and preserved.
+
+The drafted memory entry explicitly references THIS git-cleanup-sweep session ("The git-cleanup-sweep session spawned 2026-05-28 covers this in its Phase A inventory + Phase C execution"). Two sessions, drafted concurrently, reference each other — symptomatic of the parallel-session sprint reality the new policy is trying to formalize.
+
+**Disposition:** worktree + branch RETAINED. Author needs to finish ratifying the PM session's draft + commit it. Future cleanup sweeps should adopt the per-worktree dirty re-check at each batch as a hard discipline.
+
+### §8.6 Phase D — final state
+
+| Metric | Phase A | Phase D | Δ |
+|---|---:|---:|---:|
+| Total branches | 348 | 14 | **−334 (−96%)** |
+| Total worktrees | 66 | 7 | **−59 (−89%)** |
+| Locked agent worktrees | 32 | 0 | −32 (eliminated) |
+| Legacy unlocked `.claude/worktrees/` | 8 | 0 | −8 (eliminated) |
+| Branches ahead of main | 28 | 7 | −21 |
+| Worktrees claiming `main` | 2 (drift) | 1 (canonical) | −1 |
+
+**Surviving worktrees (7):**
+
+1. `/Users/c17n/commons-bonds` (main repo, on `main` at `6c19ad8`)
+2. `commons-bonds-aeon-essay-evolution-audit-260527-76f504` (active 260528)
+3. `commons-bonds-aeon-pitch-reading-flow-review-260528-040968` (active 260528, 1 ahead)
+4. `commons-bonds-atlantic-ideas-pitch-cover-260528-577e47` (just merged 260528)
+5. `commons-bonds-git-cleanup-sweep-260528-451479` (this session)
+6. `commons-bonds-memory-no-invented-facts-260528-790f09` (active 260528)
+7. `commons-bonds-pm-cascade-v2-amend-morning-260527-1b419b` (active PM; §8.5 — drafting merge-on-ratification policy)
+
+**Surviving branches (14):**
+
+- `main` (canonical)
+- 5 active 260528 session branches (aeon-essay-evolution-audit, aeon-pitch-reading-flow-review, atlantic-ideas-pitch-cover, memory-no-invented-facts, plus this session `git-cleanup-sweep`)
+- 1 active 260527 PM session branch (`pm-cascade-v2-amend-morning-260527-1b419b` — §8.5)
+- 2 CONTAMINATED (`ch9-pass3-5-1fae85`, `ch9-stage5-pm-handoff-1fae85` — §5.1 detective triage)
+- 5 deferred-supersession-verification (`unruffled-elbakyan-af5b16`, `ch10-insertion-placement-lucid-pike-cbf748`, `ta-rcv-publication-stability-signoff-663265`, `laughing-raman-8b4564`, `christophers-single-book-review-stage-0-663265` — §5.2)
+
+`git fsck --no-dangling` clean; no repo-corruption side-effects from the sweep.
+
+---
+
+## §9. Recommendations for future PM sessions
+
+These should be considered for adoption (not all are this session's call):
+
+1. **Session-close worktree cleanup hook.** Add a hook at session close that, after a successful `git push`, runs `cd /Users/c17n/commons-bonds && git worktree remove "${WORKTREE_PATH}"`. Eliminates the orphan-worktree accumulation pattern that produced 39 of the 59 removed worktrees in this sweep.
+
+2. **Orphan-lock auto-recovery on SessionStart.** The SessionStart hook could scan `.claude/worktrees/agent-*/locked` lock files; if the lock pid is dead AND last commit is >24h old, auto-unlock + remove. (Conservative: only auto-prune worktrees with `ahead=0`; flag others for author confirmation.)
+
+3. **Mid-sweep dirty re-check discipline.** This session's Phase A had `dirty=0` for the 1b419b worktree, but a parallel session was actively drafting work there. Adding per-worktree `git status --porcelain` re-check immediately before each `git worktree remove` call would catch all such in-flight work. Codified as a hard step in any future cleanup sweep.
+
+4. **Branch-naming convention enforcement.** Pre-push hook (or session-start hook) that warns if a branch name doesn't match `^claude/[a-z0-9-]+$` or one of an allowed set of harness-managed prefixes. Eliminates the `_essay_input_readonly` / `_scaffolding_push` / `worktree-<descriptive>-*` raw-named branches that accumulated in this sweep.
+
+5. **Spawn-collision detection on SessionStart.** Hook checks for existing worktrees matching the proposed workstream slug; warns before creating a duplicate. Catches the `pm-cascade-v2-amend-morning-260527-{1b419b,48a55d}` duplicate-spawn pattern.
+
+6. **Main-repo HEAD canary.** Hook checks if `/Users/c17n/commons-bonds`'s HEAD is on `main`; if not, warns loudly. This sweep found the main repo had drifted to `claude/atlantic-ideas-essay-pass-3-5-ratify-and-phase-c-61cef166-5c1` — a contamination canary.
+
+7. **Quarterly hygiene cadence.** This was the first comprehensive sweep. Suggest scheduling one at end of each major sprint (e.g., after each Wave 2 batch closes). Runtime: ~5 min read-only analysis + ~5 min destructive batch.
+
+---
+
+## §10. STATE marker
 
 ```
-STATE: Phase A inventory + Phase B prune proposal PROPOSED 2026-05-28
-(348 branches + 66 worktrees inventoried; ALL 32 agent-worktree locks
-verified DEAD = orphan locks safe to remove; 3-batch prune proposal
-ranges from LOW to LOW-MED risk; 2 CONTAMINATED branches deferred to
-per-branch detective triage in §5.1; 5 STALE-UNMERGED branches deferred
-to author supersession verification in §5.2); NEXT: author confirms
-Phase B batched proposal; AWAITING: author OK to proceed with Phase C.
+STATE: Git cleanup sweep RATIFIED + EXECUTED 2026-05-28 (Phase A
+inventory + Phase B prune proposal + Phase C execution all complete;
+348 → 14 branches; 66 → 7 worktrees; in-flight PM session work
+preserved at §8.5 via mid-sweep dirty re-check); NEXT: §5.1
+per-branch detective triage for Ch 9 contamination cluster (separate
+session); §5.2 supersession verification for 5 STALE-UNMERGED
+deferred branches (low priority, ad-hoc); §9 hook + discipline
+recommendations to next PM session; AWAITING: nothing (autonomous
+internal-scaffolding merge to main per CLAUDE.md merge-to-main).
 ```
 
 ---
 
-*Phase A + B end. Phase C execution PAUSED until author confirmation.*
+*Cleanup sweep complete 2026-05-28.*
