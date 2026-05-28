@@ -31,16 +31,16 @@ Do this 1-2 days before submission, NOT on submission day:
 The Mask of Abundance
 ```
 
-### 2. Pitch body (297 words; verbatim final post Pass 3.2 + 3.3 + 3.4)
+### 2. Pitch body (294 words; Version D hybrid, promoted to canonical 2026-05-28; independent Pass 3.3 + 3.4 audit confirmed 3 of 4 Tier 1 ✓✓→✓✓✓ upgrades vs Version C)
 
 ```
 Imagine landing at a closed habitat — Mars, the Moon, an orbital station, an analog like Devon Island or HI-SEAS. At the airlock, you are asked how you will be paying for your air. You understand viscerally, then and there, what you have been taking for granted all your life — someone else has been paying.
 
 Then you come home. The abundant heat, light, water and even the air is free again. All of it suddenly costless. That first morning back, you laugh at the absurdity of it. Then you discover, slowly, that the costs are still being paid. Just not by you.
 
-This essay walks a pricing framework through what you discover. Built outside the academy across a decade, the framework names patterns through which costs get hidden, including geographic distance, temporal asymmetry, informational asymmetry, power asymmetry, normative routinization, and abundance masking. The closed habitat is the limiting case that exposes Earth's open system. These patterns route the costs that stopped at the airlock to communities downstream, to atmospheres a generation has not yet been born to breathe, to ecosystems that cannot send a bill. The framework is not anti-extraction. Asteroid iron, with no community or ecosystem to bear the cost: extract freely. Coal in McDowell County in 1960: severely mispriced. A self-imposed commute lease whose hours of life were never computed: same framework, no external bad actor.
+The closed habitat is the limiting case that exposes Earth's open system. What follows is a pricing framework, built outside the academy across a decade. It names patterns through which costs get hidden: geographic distance, temporal asymmetry, informational asymmetry, power asymmetry, normative routinization, and abundance masking. These patterns route the costs that stopped at the airlock to communities downstream, to atmospheres a generation has not yet been born to breathe, to ecosystems that cannot send a bill. The framework is not anti-extraction. Asteroid iron, with no community or ecosystem to bear the cost: extract freely. Coal in McDowell County in 1960: severely mispriced. A self-imposed commute lease whose hours of life were never computed: same framework, no external bad actor.
 
-The central claim is that the framework is universal: a pricing framework first, an analytical lens second. Most discussions of resource pricing are political. This one is structural. If the framework is right, the price tag on commons is many multiples of what we have been paying as a species. The math, finally done, is what a thoughtful reader on any world — including this one — would recognize as honest accounting.
+The central claim is that the framework is universal: a pricing framework first, an analytical lens second. Most discussions of resource pricing land in policy debate. This one lands in arithmetic. If the framework is right, the price tag on commons is many multiples of what we have been paying as a species. The math, finally done, is what a thoughtful reader on any world — including this one — would recognize as honest accounting.
 ```
 
 ### 3. Brief structural outline (editor reference; ~6 lines)
@@ -86,7 +86,7 @@ Submitting "The Mask of Abundance" — a 297-word pitch for a ~4,000-word essay 
 
 ## 🪛 If the portal asks specifically about word counts
 
-- **Pitch body:** 297 words
+- **Pitch body:** 294 words (Version D hybrid; promoted to canonical 2026-05-28)
 - **Bio:** 62 words
 - **AI disclosure:** 110 words
 - **Estimated essay length:** ~4,000 words (note: Aeon's published essay range is 2,500–5,000 words; 4,000 is a midpoint)
@@ -128,10 +128,10 @@ Log the following in your outreach record (suggested path: `research/outreach/ae
 - Submission timestamp (UTC + EDT)
 - Portal session: [browser + any session ID]
 - Confirmation page screenshot path
-- Version submitted: publishing/essays/aeon-mask-of-abundance/essay.md (canonical; character-identical to §2 above) — pedigree Version A → B → C → Pass 3.1 + 3.2 + 3.3 + 3.4 ratified (commit hash at submission)
+- Version submitted: publishing/essays/aeon-mask-of-abundance/essay.md (canonical; character-identical to §2 above) — pedigree Version A → B → C (5-pass RATIFIED 2026-05-21) → Version D (hybrid; promoted to canonical 2026-05-28; independent Pass 3.3 + 3.4 audit confirmed 3 of 4 Tier 1 ✓✓→✓✓✓ upgrades vs V-C); commit hash at submission
 - Bio version: Version A line 42 (verbatim carry-forward)
 - AI disclosure version: Version A lines 44-46 (verbatim carry-forward)
-- Structural outline version: adapted Version A outline + line 5 updated to "analytical lens" per F-V-AeonC-5 V3 revision 2026-05-21
+- Structural outline version: adapted Version A outline + line 5 updated to "analytical lens" per F-V-AeonC-5 V3 revision 2026-05-21 (carries through into Version D ¶4)
 - Expected response window: 8 weeks (decision point ~2026-07-26)
 - Any portal-side observations (form field changes, unexpected requirements)
 ```
@@ -168,7 +168,7 @@ Log the following in your outreach record (suggested path: `research/outreach/ae
 
 ## ✅ Self-check before closing this file on submission day
 
-- [ ] Pitch body pasted exactly as in §2 (no edits; word count = 297)
+- [ ] Pitch body pasted exactly as in §2 (no edits; word count = 294; Version D hybrid)
 - [ ] Bio pasted exactly as in §4 (word count = 62)
 - [ ] AI disclosure pasted exactly as in §5 (word count = 110)
 - [ ] Working title = "The Mask of Abundance" (no subtitle, no quotation marks unless portal requires)

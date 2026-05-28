@@ -16,7 +16,9 @@ em_dash_justifications: |
 
 # *The Mask of Abundance* — Aeon pitch HYBRID (best-of-both, 2026-05-28)
 
-**Status:** PARALLEL DRAFT for author comparison against locked Version C + the two prior alternatives. Not yet a submission cut. Per author request 2026-05-28, this version takes the best of Version C + Alt-Norm-Punct.
+**Status:** **PROMOTED TO CANONICAL 2026-05-28.** This hybrid draft was promoted to the canonical Aeon submission text on 2026-05-28 by author ratification, following the independent Pass 3.3 + 3.4 audit at `rigor/pass-3-3-and-3-4-bundled-audience-load_VERSION-D_INDEPENDENT-AUDIT_2026-05-28.md` (NET INCLUDE DECISIVE; 3 of 4 Tier 1 ✓✓→✓✓✓ upgrades vs V-C; CONDITIONALLY ROBUST). Canonical submission text now at `publishing/essays/aeon-mask-of-abundance/essay.md`; archival pedigree record at `_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-D.md`. This file retains its parallel-drafts status for the three-variant head-to-head refinement chip spawned 2026-05-28 (variant α / control); the chip operates on this file as the head-to-head baseline and may surface a tighter successor variant.
+
+*Pre-promotion status:* PARALLEL DRAFT for author comparison against locked Version C + the two prior alternatives. Per author request 2026-05-28, this version takes the best of Version C + Alt-Norm-Punct.
 
 **What's preserved from Version C (locked, 297w):**
 - ¶1 verbatim: cinematic *"Imagine landing"* opener + airlock-realization em-dash compression
