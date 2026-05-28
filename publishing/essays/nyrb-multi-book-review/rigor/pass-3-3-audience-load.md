@@ -5,9 +5,9 @@
 **Workstream:** Wave 2 Candidate W2.5 — NYRB Multi-Book Review-Essay (Mazzucato *Value of Everything* 2018 + Pistor *Code of Capital* 2019 + Christophers *Price Is Wrong* 2024 + Susskind *Growth: A Reckoning* 2024).
 
 **Companion artifacts:**
-- Pass 3.2 voice-polish RATIFIED 2026-05-27 (origin/main `b351d84`): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_2_voice_polish_v1.0.0.md)
-- Pass 3.1 fact-check RATIFIED 2026-05-27 (origin/main `f217832`): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_1_fact_check_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_1_fact_check_v1.0.0.md)
-- Stage 1 brief RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md)
+- Pass 3.2 voice-polish RATIFIED 2026-05-27 (origin/main `b351d84`): [`publishing/essays/nyrb-multi-book-review/rigor/pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md)
+- Pass 3.1 fact-check RATIFIED 2026-05-27 (origin/main `f217832`): [`publishing/essays/nyrb-multi-book-review/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md)
+- Stage 1 brief RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`](stage-1-brief.md)
 - Stage 2 audience-blind draft RATIFIED 2026-05-27 (post Pass 3.1 + 3.2 + 3.3 spot-fixes): [`publishing/essays/nyrb-multi-book-review/essay.md`](../../publishing/essays/nyrb-multi-book-review/essay.md)
 
 **Methodology anchor.** v3.1 audience-aware drafting discipline ([`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)) Amendment A explicit-gate cascade. Pass 3.3 audience-load acceptance is the third of the per-prompt serial Stage 3 cascade (3.1 → 3.2 → **3.3** → 3.4 → 3.5). Pass 3.3 is the **load-bearing Condition NR-2 gate**: each of the four reviewed authors (Mazzucato + Pistor + Christophers + Susskind) returns an INCLUDE verdict before Stage 3 clears. EXCLUDE verdict from any of the four = brief returns to Stage 1c → Stage 2 re-draft. Amendment C interactive ratification protocol applies.
@@ -211,9 +211,9 @@ SEQUENCING DISCIPLINE: Pass 3.3 essay spot-fixes committed on feature branch (en
 ## §9. Cross-references
 
 - Stage 2 draft (RATIFIED + post-3 Stage-3-pass spot-fixes): [`publishing/essays/nyrb-multi-book-review/essay.md`](../../publishing/essays/nyrb-multi-book-review/essay.md)
-- Pass 3.2 voice-polish RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_2_voice_polish_v1.0.0.md)
-- Pass 3.1 fact-check RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_1_fact_check_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_1_fact_check_v1.0.0.md)
-- Stage 1 brief RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md)
+- Pass 3.2 voice-polish RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md)
+- Pass 3.1 fact-check RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md)
+- Stage 1 brief RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`](stage-1-brief.md)
 - v3.1 doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) + Amendments A + B + C
 - Blurb-network register (cross-thread-todos #20 DORMANT context): [`publishing/blurbs/blurb-network-register.md`](../../publishing/blurbs/blurb-network-register.md) §2 candidates #1+#2+#3+#4
 - Cadence discipline: [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md)

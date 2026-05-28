@@ -40,7 +40,7 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `publishing/strategy/cross-thread-todos.md` (esp. #8 comp-titles deep matrix Phase 2; #2 Darity feedback; #15 framework-revision implications)
 - `publishing/strategy/rights-register.md` (no rights conflict surfaces here — review-essay genre is distinct from chapter-derivative essays; Christophers is published author, public-record)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` (companion Wave 2 batch — esp. §3 reveal map + §5 cumulative-portfolio projection)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md` (**sibling — RATIFIED 2026-05-24**: NYRB primary venue + Wave 2 Q4 2026 submission + four-book primary set + cascade chain NYRB → LARB → Public Books)
+- `publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md` (**sibling — RATIFIED 2026-05-24**: NYRB primary venue + Wave 2 Q4 2026 submission + four-book primary set + cascade chain NYRB → LARB → Public Books)
 - `publishing/essays/100-barrel/rigor/q1-go-no-go.md` (Stage 0 canonical worked example)
 - `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md` (recent Stage 0 worked example — fuller scope)
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (FPD-1 → FPD-11; vocabulary-adoption-at-scale anchor)
@@ -554,7 +554,7 @@ SEQUENCING DISCIPLINE: When ALL three triggers fire, fire fresh Stage 0 re-test 
 
 **Companion artifacts:**
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` — Wave 2 batch (companion; per-candidate ratification in flight)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md` — **sibling — RATIFIED 2026-05-24**; NYRB primary; Wave 2 Q4 2026 submission; informs THIS candidate's venue routing + sequencing
+- `publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md` — **sibling — RATIFIED 2026-05-24**; NYRB primary; Wave 2 Q4 2026 submission; informs THIS candidate's venue routing + sequencing
 - `publishing/strategy/cascade-plan_v2_2026-05-24.md` — PROPOSED cascade plan v2; needs Wave 3 candidate outlook §7 amendment to add THIS candidate if Wave 3 timing ratifies
 
 **Sibling NYRB candidate Stage 0 sessions (per author 2026-05-24 plan):**
@@ -581,7 +581,7 @@ SEQUENCING DISCIPLINE: When ALL three triggers fire, fire fresh Stage 0 re-test 
 **Stage 0 worked examples:**
 - `publishing/essays/100-barrel/rigor/q1-go-no-go.md` — canonical
 - `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md` — fuller-scope worked example
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md` — sibling (RATIFIED 2026-05-24)
+- `publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md` — sibling (RATIFIED 2026-05-24)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` — Wave 2 batch (companion)
 
 **Christophers source material (verified 2026-05-24):**

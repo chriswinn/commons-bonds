@@ -6,8 +6,8 @@
 
 **Companion artifacts:**
 - Stage 2 audience-blind draft RATIFIED 2026-05-27 (commit `69a9655`, feature branch `claude/nyrb-multibook-stage2-260527-fd4cc6`): [`publishing/essays/nyrb-multi-book-review/essay.md`](../../publishing/essays/nyrb-multi-book-review/essay.md)
-- Stage 1 brief RATIFIED 2026-05-27 (commit `361e5dc`): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md)
-- Stage 0 RATIFIED 2026-05-24 (commit `d1d3ce5`): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md)
+- Stage 1 brief RATIFIED 2026-05-27 (commit `361e5dc`): [`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`](stage-1-brief.md)
+- Stage 0 RATIFIED 2026-05-24 (commit `d1d3ce5`): [`publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md`](stage-0-ratification.md)
 
 **Methodology anchor.** v3.1 audience-aware drafting discipline ([`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)) Amendment A automatic-on-edit cascade — Pass 3.1 fact-check is the first of the per-prompt serial Stage 3 cascade (3.1 → 3.2 → 3.3 → 3.4 → 3.5). Amendment C interactive ratification protocol applies. Per-finding cadence: Problem + Options + Recommendation + Reasoning format.
 
@@ -217,8 +217,8 @@ SEQUENCING DISCIPLINE: Pass 3.1 spot-fixes committed on feature branch (end-user
 ## §8. Cross-references
 
 - Stage 2 draft (PROPOSED → RATIFIED via author bulk-ratify 2026-05-27): [`publishing/essays/nyrb-multi-book-review/essay.md`](../../publishing/essays/nyrb-multi-book-review/essay.md)
-- Stage 1 brief RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md)
-- Stage 0 RATIFIED 2026-05-24: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md)
+- Stage 1 brief RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`](stage-1-brief.md)
+- Stage 0 RATIFIED 2026-05-24: [`publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md`](stage-0-ratification.md)
 - v3.1 doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) + Amendments A + B + C
 - Cadence discipline: [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md)
 - Em-dash discipline: [`tools/memory/feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md)

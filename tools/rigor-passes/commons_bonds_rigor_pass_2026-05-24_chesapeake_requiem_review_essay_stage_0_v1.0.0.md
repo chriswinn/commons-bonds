@@ -45,7 +45,7 @@ Author-leaning per task scope: Wave 2 or Wave 3 (open). Q2 sequencing classifica
 - `publishing/strategy/cross-thread-todos.md` (esp. #2 Darity feedback; #8 comp-titles deep matrix Phase 2; #15 framework-revision implications from Darity)
 - `publishing/strategy/rights-register.md`
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` (Wave 2 batch — Ch 3 → Atlantic main W2.1 RATIFIED 2026-05-24 per §12)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md` (multi-book sibling RATIFIED 2026-05-24; NYRB Wave 2 venue commit)
+- `publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md` (multi-book sibling RATIFIED 2026-05-24; NYRB Wave 2 venue commit)
 - `publishing/essays/100-barrel/rigor/q1-go-no-go.md` (Stage 0 canonical)
 - `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md`
 - `manuscript/chapters/Chapter__3_TheWaterman.md` (10,256 words; full read confirmed collision surface §4.1)
@@ -545,7 +545,7 @@ PM provisional response: author bandwidth + cumulative-reveal + substantive-doub
 - `publishing/strategy/rights-register.md`
 
 **Sibling Stage 0 artifacts (NYRB review-essay batch):**
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md` — Multi-book NYRB; RATIFIED 2026-05-24
+- `publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md` — Multi-book NYRB; RATIFIED 2026-05-24
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_christophers_price_is_wrong_single_book_review_stage_0_v1.0.0.md` — Christophers single-book; pending sibling ratification
 
 **Wave 2 batch:**

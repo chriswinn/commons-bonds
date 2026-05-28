@@ -7,7 +7,7 @@
 **Companion artifacts:**
 - Stage 3 cascade complete (5 passes RATIFIED 2026-05-27 — origin/main commits `f217832` → `b351d84` → `46f9afc` → `2475819` → `584f40c`)
 - Stage 2 audience-blind draft RATIFIED + post-4-Stage-3-pass spot-fixes: [`publishing/essays/nyrb-multi-book-review/essay.md`](../../publishing/essays/nyrb-multi-book-review/essay.md)
-- Stage 1 brief RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md)
+- Stage 1 brief RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`](stage-1-brief.md)
 
 **Methodology anchor.** v3.1 audience-aware drafting discipline ([`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)) Stage 4 + Stage 4 doctrine [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md). Amendment A note: render-toolchain containerization (Docker / remote-container) drove Stage 4 Claude-token cost to ~0; author runs the toolchain offline and ratifies in-session.
 
@@ -69,7 +69,7 @@ SEQUENCING DISCIPLINE: Stage 4 artifact merges to main (internal scaffolding) �
 ## §5. Cross-references
 
 - Stage 3 cascade complete: Pass 3.1 + 3.2 + 3.3 + 3.4 + 3.5 RATIFIED 2026-05-27
-- Stage 1 brief: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md)
+- Stage 1 brief: [`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`](stage-1-brief.md)
 - Stage 4 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)
 - Essay file: [`publishing/essays/nyrb-multi-book-review/essay.md`](../../publishing/essays/nyrb-multi-book-review/essay.md)
 

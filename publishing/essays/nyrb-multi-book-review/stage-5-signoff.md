@@ -1,7 +1,7 @@
 # NYRB Multi-Book Review-Essay — Stage 5 Bookend Pre-Submission Sign-Off
 
 **Date:** 2026-05-27
-**Status:** **RATIFIED PASS 2026-05-27 — READY-TO-SUBMIT.** Author bulk-ratification signal "ratify all as recommended and proposed" + "fire the next stage/phase when ready" carried through Pass 3.1 + 3.2 + 3.3 + 3.4 + 3.5 closures and the Stage 5 fire. Per-essay sign-off bookend at this folder mirrors the central rigor-pass artifact at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage_5_signoff_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage_5_signoff_v1.0.0.md) for at-the-folder visibility per BR + Atlantic Main sibling pattern.
+**Status:** **RATIFIED PASS 2026-05-27 — READY-TO-SUBMIT.** Author bulk-ratification signal "ratify all as recommended and proposed" + "fire the next stage/phase when ready" carried through Pass 3.1 + 3.2 + 3.3 + 3.4 + 3.5 closures and the Stage 5 fire. Per-essay sign-off bookend at this folder mirrors the central rigor-pass artifact at [`publishing/essays/nyrb-multi-book-review/rigor/stage-5-signoff.md`](rigor/stage-5-signoff.md) for at-the-folder visibility per BR + Atlantic Main sibling pattern.
 **Stage:** Stage 5 bookend pre-submission sign-off per Stage 1 brief §14 + pipeline doctrine §3.6 + v3.1 Amendment B Stage 5 doctrine
 **Artifact under sign-off:** [`essay.md`](essay.md) — POST-Stage-3-cycle + Stage-4-offline + Stage-5 state; ~8,301w body
 **Workstream:** Wave 2 Candidate W2.5 — NYRB multi-book review-essay reviewing Pistor + Mazzucato + Christophers + Susskind
@@ -73,7 +73,7 @@ Per central artifact §2 — all dimensions PASS:
 
 ## §4. Pre-publication review queue (mandatory hand-off per v3.1 doctrine + Stage 5)
 
-Per central artifact §3 — produced as transparent quality-control disclosure for NYRB editor / fact-check team. Full detail at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage_5_signoff_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage_5_signoff_v1.0.0.md) §3 (pre-pub review queue is integrated into the central Stage 5 artifact; not separately filed).
+Per central artifact §3 — produced as transparent quality-control disclosure for NYRB editor / fact-check team. Full detail at [`publishing/essays/nyrb-multi-book-review/rigor/stage-5-signoff.md`](rigor/stage-5-signoff.md) §3 (pre-pub review queue is integrated into the central Stage 5 artifact; not separately filed).
 
 **Internally verified** (5 Stage 3 passes + Stage 4 + Stage 5 bookend): factual ground-truth, argumentative arc fidelity, voice register, audience-load acceptance + robustness, whole-essay analytical-density calibration, render integrity, apparatus-exclusion discipline, Register A signal-positioning, em-dash discipline.
 
@@ -160,4 +160,4 @@ SEQUENCING DISCIPLINE: Cascade chain NYRB → LARB → Public Books per Stage 1 
 
 ---
 
-*End of Stage 5 bookend pre-submission sign-off for NYRB multi-book review-essay — RATIFIED PASS 2026-05-27 READY-TO-SUBMIT. The central rigor-pass-artifact version at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage_5_signoff_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage_5_signoff_v1.0.0.md) carries the full audit-trail; this per-essay-folder version carries the at-the-folder visibility per BR + Atlantic Main sibling pattern. Per-essay folder canonical layout completion 2026-05-27 per cross-essay portfolio review recommendation §8.C.1.*
+*End of Stage 5 bookend pre-submission sign-off for NYRB multi-book review-essay — RATIFIED PASS 2026-05-27 READY-TO-SUBMIT. The central rigor-pass-artifact version at [`publishing/essays/nyrb-multi-book-review/rigor/stage-5-signoff.md`](rigor/stage-5-signoff.md) carries the full audit-trail; this per-essay-folder version carries the at-the-folder visibility per BR + Atlantic Main sibling pattern. Per-essay folder canonical layout completion 2026-05-27 per cross-essay portfolio review recommendation §8.C.1.*

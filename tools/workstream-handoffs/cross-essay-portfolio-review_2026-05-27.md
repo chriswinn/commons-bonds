@@ -126,7 +126,7 @@ Nine active essay folders on `origin/main` (excluding `_pipeline/`, `_shared/`, 
 
 - **Essay title:** *The Architecture and Its Residue* (review of Pistor + Mazzucato + Christophers + Susskind)
 - **Venue:** The New York Review of Books (Wave 2 multi-book review-essay; new addition not in cascade plan v2 §3 — cascade plan slotted Ch 8 → NYRB at PM-recommended DEFER; this multi-book review-essay surfaces as a different NYRB shot).
-- **Stage state:** Central rigor-pass artifacts on main show **Stage 5 sign-off RATIFIED 2026-05-27** (rigor-pass `commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage_5_signoff_v1.0.0.md` on main); Stage 4 render audit on main; cover letter DRAFTED + RATIFIED 2026-05-27 (commit `52ad24d`).
+- **Stage state:** Central rigor-pass artifacts on main show **Stage 5 sign-off RATIFIED 2026-05-27** (rigor-pass `publishing/essays/nyrb-multi-book-review/rigor/stage-5-signoff.md` on main); Stage 4 render audit on main; cover letter DRAFTED + RATIFIED 2026-05-27 (commit `52ad24d`).
 - **Canonical layout on main:** ✗ **no `README.md`** · ✓ `essay.md` (8,301w; longest in portfolio) · ✓ `cover-letter.md` (618w) · ✗ **no `stage-5-signoff.md`** (per-essay mirror missing — central rigor-pass artifact present at `tools/rigor-passes/`).
 - **Word count (essay.md):** ~8,301w (review-essay scale — NYRB review-essay band is ~5,000–10,000w; sits within band).
 - **Last activity on main:** `52ad24d` (cover letter DRAFTED + RATIFIED 2026-05-27).

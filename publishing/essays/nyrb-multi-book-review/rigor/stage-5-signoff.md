@@ -5,10 +5,10 @@
 **Workstream:** Wave 2 Candidate W2.5 — NYRB Multi-Book Review-Essay.
 
 **Companion artifacts:**
-- Stage 4 RATIFIED CLEAR 2026-05-27 (author-offline-execution): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage_4_render_audit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage_4_render_audit_v1.0.0.md)
+- Stage 4 RATIFIED CLEAR 2026-05-27 (author-offline-execution): [`publishing/essays/nyrb-multi-book-review/rigor/stage-4-render-audit.md`](stage-4-render-audit.md)
 - Stage 3 cascade complete: Pass 3.1 + 3.2 + 3.3 + 3.4 + 3.5 all RATIFIED 2026-05-27
-- Stage 1 brief RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md)
-- Stage 0 RATIFIED 2026-05-24: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md)
+- Stage 1 brief RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`](stage-1-brief.md)
+- Stage 0 RATIFIED 2026-05-24: [`publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md`](stage-0-ratification.md)
 - Essay: [`publishing/essays/nyrb-multi-book-review/essay.md`](../../publishing/essays/nyrb-multi-book-review/essay.md)
 - Cover letter (produced this session): [`publishing/essays/nyrb-multi-book-review/cover-letter.md`](../../publishing/essays/nyrb-multi-book-review/cover-letter.md)
 
@@ -174,10 +174,10 @@ SEQUENCING DISCIPLINE: Stage 5 explicit merge gate — entire feature-branch sta
 
 - Essay file: [`publishing/essays/nyrb-multi-book-review/essay.md`](../../publishing/essays/nyrb-multi-book-review/essay.md)
 - Cover letter: [`publishing/essays/nyrb-multi-book-review/cover-letter.md`](../../publishing/essays/nyrb-multi-book-review/cover-letter.md)
-- Stage 1 brief: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md)
-- Stage 0: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md)
-- Stage 4 artifact: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage_4_render_audit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage_4_render_audit_v1.0.0.md)
-- Pass 3.5 artifact: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md)
+- Stage 1 brief: [`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`](stage-1-brief.md)
+- Stage 0: [`publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md`](stage-0-ratification.md)
+- Stage 4 artifact: [`publishing/essays/nyrb-multi-book-review/rigor/stage-4-render-audit.md`](stage-4-render-audit.md)
+- Pass 3.5 artifact: [`publishing/essays/nyrb-multi-book-review/rigor/pass-3-5-developmental-edit.md`](pass-3-5-developmental-edit.md)
 - v3.1 doctrine Stage 5: [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
 - Cascade plan v2 W2.5: [`publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md`](../../publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md)
 

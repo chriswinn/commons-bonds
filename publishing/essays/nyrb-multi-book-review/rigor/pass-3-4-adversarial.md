@@ -5,10 +5,10 @@
 **Workstream:** Wave 2 Candidate W2.5 — NYRB Multi-Book Review-Essay.
 
 **Companion artifacts:**
-- Pass 3.3 audience-load acceptance RATIFIED 2026-05-27 (origin/main `46f9afc`): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_3_audience_load_acceptance_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_3_audience_load_acceptance_v1.0.0.md)
+- Pass 3.3 audience-load acceptance RATIFIED 2026-05-27 (origin/main `46f9afc`): [`publishing/essays/nyrb-multi-book-review/rigor/pass-3-3-audience-load.md`](pass-3-3-audience-load.md)
 - Pass 3.2 voice-polish RATIFIED 2026-05-27 (origin/main `b351d84`)
 - Pass 3.1 fact-check RATIFIED 2026-05-27 (origin/main `f217832`)
-- Stage 1 brief RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md)
+- Stage 1 brief RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`](stage-1-brief.md)
 - Stage 2 audience-blind draft (post Pass 3.1 + 3.2 + 3.3 + 3.4 spot-fixes): [`publishing/essays/nyrb-multi-book-review/essay.md`](../../publishing/essays/nyrb-multi-book-review/essay.md)
 
 **Methodology anchor.** v3.1 audience-aware drafting discipline ([`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)) Amendment A explicit-gate cascade. Pass 3.4 audience-load robustness is the fourth of the per-prompt serial Stage 3 cascade (3.1 → 3.2 → 3.3 → **3.4** → 3.5). Per v3.1 doctrine §3.4 + Stage 1 brief §10.4: Pass 3.4 verdict register is **thread-pull synthesis** (NOT per-character pass/fail). Pass 3.4 fires OPT-IN by default per Stage 1 brief §22 F-7 ratification 2026-05-27. Amendment C interactive ratification protocol applies.
@@ -190,10 +190,10 @@ SEQUENCING DISCIPLINE: Pass 3.4 essay spot-fix committed on feature branch (end-
 ## §7. Cross-references
 
 - Stage 2 draft (post-4-Stage-3-pass spot-fixes): [`publishing/essays/nyrb-multi-book-review/essay.md`](../../publishing/essays/nyrb-multi-book-review/essay.md)
-- Pass 3.3 audience-load acceptance RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_3_audience_load_acceptance_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_3_audience_load_acceptance_v1.0.0.md)
-- Pass 3.2 voice-polish RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_2_voice_polish_v1.0.0.md)
-- Pass 3.1 fact-check RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_1_fact_check_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_1_fact_check_v1.0.0.md)
-- Stage 1 brief RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md)
+- Pass 3.3 audience-load acceptance RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/pass-3-3-audience-load.md`](pass-3-3-audience-load.md)
+- Pass 3.2 voice-polish RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md)
+- Pass 3.1 fact-check RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md)
+- Stage 1 brief RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`](stage-1-brief.md)
 - v3.1 Amendment B (Pass 3.5 codification): [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)
 - Cadence discipline: [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md)
 - Boston Review brief precedent (Decision #12 Buchanan/Tullock lineage-register move): [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](../../publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md)

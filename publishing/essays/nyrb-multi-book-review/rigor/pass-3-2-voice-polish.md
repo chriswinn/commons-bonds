@@ -5,9 +5,9 @@
 **Workstream:** Wave 2 Candidate W2.5 — NYRB Multi-Book Review-Essay (Mazzucato *Value of Everything* 2018 + Pistor *Code of Capital* 2019 + Christophers *Price Is Wrong* 2024 + Susskind *Growth: A Reckoning* 2024).
 
 **Companion artifacts:**
-- Pass 3.1 fact-check RATIFIED 2026-05-27 (origin/main commit `f217832`; feature-branch commit `61339c6`): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_1_fact_check_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_1_fact_check_v1.0.0.md)
+- Pass 3.1 fact-check RATIFIED 2026-05-27 (origin/main commit `f217832`; feature-branch commit `61339c6`): [`publishing/essays/nyrb-multi-book-review/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md)
 - Stage 2 audience-blind draft RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/essay.md`](../../publishing/essays/nyrb-multi-book-review/essay.md)
-- Stage 1 brief RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md)
+- Stage 1 brief RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`](stage-1-brief.md)
 
 **Methodology anchor.** v3.1 audience-aware drafting discipline ([`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)) Amendment A automatic-on-edit cascade — Pass 3.2 voice-polish is the second of the per-prompt serial Stage 3 cascade (3.1 → 3.2 → 3.3 → 3.4 → 3.5). Em-dash discipline per [`feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md); voice-polish pipeline per [`feedback_voice_polish_pipeline.md`](../memory/feedback_voice_polish_pipeline.md). Amendment C interactive ratification protocol applies.
 
@@ -202,8 +202,8 @@ SEQUENCING DISCIPLINE: Pass 3.2 essay spot-fixes committed on feature branch (en
 ## §7. Cross-references
 
 - Stage 2 draft (RATIFIED 2026-05-27): [`publishing/essays/nyrb-multi-book-review/essay.md`](../../publishing/essays/nyrb-multi-book-review/essay.md)
-- Pass 3.1 fact-check RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_1_fact_check_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_nyrb_multi_book_review_essay_stage3_pass_3_1_fact_check_v1.0.0.md)
-- Stage 1 brief RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md)
+- Pass 3.1 fact-check RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md)
+- Stage 1 brief RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`](stage-1-brief.md)
 - Em-dash discipline: [`tools/memory/feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md)
 - Voice-polish pipeline: [`tools/memory/feedback_voice_polish_pipeline.md`](../memory/feedback_voice_polish_pipeline.md)
 - Cadence discipline: [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md)

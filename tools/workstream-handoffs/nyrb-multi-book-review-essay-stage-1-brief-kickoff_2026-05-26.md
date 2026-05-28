@@ -1,7 +1,7 @@
 # NYRB Multi-Book Review-Essay — Stage 1 brief kickoff paste-text
 
 **Date staged:** 2026-05-26
-**Driven by:** NYRB Multi-Book Review-Essay Stage 0 RATIFIED 2026-05-24 (commit `d1d3ce5` on origin/main); Stage 0 artifact at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md`.
+**Driven by:** NYRB Multi-Book Review-Essay Stage 0 RATIFIED 2026-05-24 (commit `d1d3ce5` on origin/main); Stage 0 artifact at `publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md`.
 **Scope:** Stage 1 pre-draft brief work (sub-steps 1a + 1b + 1c per v3.1 doctrine). Stop at Stage 1 brief artifact landed PROPOSED; do NOT pre-stage Stage 2 audience-blind drafting (that fires in its own session AFTER reading-depth-deepening sub-workstream completes per Condition NR-3).
 **Cadence:** Amendment C Interactive Ratification Protocol; one-finding-at-a-time discipline per `tools/memory/feedback_parallel_session_ratification_cadence.md`. Author present + ratifying interactively.
 
@@ -60,7 +60,7 @@ workstream completing per Condition NR-3.
    word-count targets — 6,000–10,000w is venue band, not floor)
 8. tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md (Stage 1
    doctrine — sub-steps 1a/1b/1c)
-9. tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md
+9. publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md
    (RATIFIED Stage 0 verdict — §3 reveal map + §4 per-dimension
    analysis + §5 conditions NR-1/NR-2/NR-3 + §6 Wave 2 timing +
    §7 venue-collision-with-Ch-8 contingency + §13 ratification
@@ -432,7 +432,7 @@ against:
 
 When this Stage 1 brief session closes, the brief artifact will
 land at:
-`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md`
+`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`
 (or similar dated filename per Wave 1 brief naming convention; use
 the firing date rather than the staging date).
 
@@ -456,13 +456,13 @@ Stage 2 kickoff per the Wave 1 pattern).
 
 ## Resume marker (for the parent ratification session if author returns)
 
-- **Stage 1 brief artifact expected at:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md` (or similar dated filename based on firing date).
+- **Stage 1 brief artifact expected at:** `publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md` (or similar dated filename based on firing date).
 - **Status to look for:** `STATE: PROPOSED` at session close → author interactive ratification → `STATE: RATIFIED` after spot-fixes apply.
 - **Next phase after Stage 1 brief ratifies:** reading-depth-deepening sub-workstream runs Jun 17 – Sep 1, 2026 (~22–36h focused reading + arc-mapping notes); **Stage 2 audience-blind drafting fires AFTER sub-workstream completes**, ~Sep 7–10, 2026 target per Stage 0 §6 schedule.
 
 ## Cross-references
 
-- Stage 0 RATIFIED artifact: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md` (commit `d1d3ce5` 2026-05-24)
+- Stage 0 RATIFIED artifact: `publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md` (commit `d1d3ce5` 2026-05-24)
 - Wave 2 batch Stage 0 (Ch 8 W2.4 contingency context): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` §4.4
 - Reviewed-book bibliography entries: `research/literature/bibliography.md` lines 514 (Mazzucato VoE) + 522 (Pistor *Code*) + 530 (Christophers *TPIW*) + 538 (Susskind *Growth*) + Ch 5 + Ch 9 prose engagement
 - Stage 1 doctrine: `tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`

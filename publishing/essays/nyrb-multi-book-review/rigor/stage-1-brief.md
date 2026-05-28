@@ -2,7 +2,7 @@
 
 **Status:** **RATIFIED 2026-05-27** via author interactive Amendment C ratification across 9 per-decision findings (3 HIGH + 4 MED + 2 LOW). Spot-fixes applied in-session. See §24 ratification record below. (Originally PROPOSED 2026-05-26 via initial brief landing.)
 
-**Workstream:** Wave 2, Candidate W2.5 — NYRB Multi-Book Review-Essay reviewing Mariana Mazzucato *The Value of Everything* (2018) + Katharina Pistor *The Code of Capital* (2019) + Brett Christophers *The Price Is Wrong* (2024) + Daniel Susskind *Growth: A Reckoning* (2024). Stage 0 ratification record at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md) (RATIFIED 2026-05-24, commit `d1d3ce5`).
+**Workstream:** Wave 2, Candidate W2.5 — NYRB Multi-Book Review-Essay reviewing Mariana Mazzucato *The Value of Everything* (2018) + Katharina Pistor *The Code of Capital* (2019) + Brett Christophers *The Price Is Wrong* (2024) + Daniel Susskind *Growth: A Reckoning* (2024). Stage 0 ratification record at [`publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md`](stage-0-ratification.md) (RATIFIED 2026-05-24, commit `d1d3ce5`).
 
 **Kickoff paste-text source:** [`tools/workstream-handoffs/nyrb-multi-book-review-essay-stage-1-brief-kickoff_2026-05-26.md`](../workstream-handoffs/nyrb-multi-book-review-essay-stage-1-brief-kickoff_2026-05-26.md) (staged commit `baac816` 2026-05-26).
 
@@ -762,7 +762,7 @@ Findings tracked internally; presented one-at-a-time in §23 ratification sessio
 ## §23. Cross-references
 
 **Companion artifacts:**
-- Stage 0 RATIFIED: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md) (commit `d1d3ce5` 2026-05-24)
+- Stage 0 RATIFIED: [`publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md`](stage-0-ratification.md) (commit `d1d3ce5` 2026-05-24)
 - Wave 2 derivative-planning Stage 0 PROPOSED §4.4 Ch 8 → NYRB context: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md)
 - Kickoff paste-text: [`tools/workstream-handoffs/nyrb-multi-book-review-essay-stage-1-brief-kickoff_2026-05-26.md`](../workstream-handoffs/nyrb-multi-book-review-essay-stage-1-brief-kickoff_2026-05-26.md) (staged commit `baac816` 2026-05-26)
 - Cascade plan v2 PROPOSED (DSA-1 amendment pending): [`publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md`](../../publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md)
