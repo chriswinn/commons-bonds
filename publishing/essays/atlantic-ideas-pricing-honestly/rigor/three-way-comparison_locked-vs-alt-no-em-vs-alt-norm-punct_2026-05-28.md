@@ -296,9 +296,66 @@ The dispatch prompt offered "WAIT-FOR-FULL-RIGOR-CASCADE-THEN-RECOMPARE" as a re
 
 **If author disposition is to ship the alt instead:** the right framing is "alt-promotion-as-new-baseline-plus-full-rigor-cycle." This would require dropping the Locked cut from RATIFIED-AWAITING-SUBMIT, promoting either Alt-No-EM or Alt-Norm-Punct as the new Stage 2 baseline, and running Pass 3.2 + 3.3 + 3.4 + 3.5 + Stage 4 + Stage 5 fresh on the promoted alt before submission. This is a strictly higher-cost path than ship-Locked-as-is, and the matrix differential in §1 + the reading-smoothness ranking in §3 do not produce a substantive case for it.
 
-### Final recommendation
+### Final recommendation (initial framing — superseded by §7.1 amendment)
 
 **SHIP STAGE-2-AS-BASELINE — but with the correction that the "Stage 2 baseline" framing in the dispatch prompt is a stale-premise artifact. The actual recommendation is SHIP-LOCKED-RATIFIED-AS-IS — the Locked cut is RATIFIED-AWAITING-SUBMIT through Stage 5 sign-off 2026-05-27 and is the recommended submission text. The alt drafts are valuable parallel exhibits for the prose-craft archive but should not be promoted to canonical without explicit author disposition to accept the full re-cascade cost.**
+
+---
+
+## §7.1 Recommendation amendment — RECOMMEND HYBRIDIZATION (2026-05-28 author-correction)
+
+**Author correction received 2026-05-28 same-session, post-§7 initial framing:** the cost-benefit calculus in §7 above weighted tokens (~240-400K tokens of additional Stage 3 rigor cycle work) as the cost side of "small marginal prose gains vs. large rigor-cycle cost." Author flagged that **tokens are no longer a constraint** for this project (plan upgrade; no usage-limit pressure). The only optimization target is **the success of the book, and these essays being successful is how the book becomes successful**. The correction is now load-bearing cross-session discipline at [`feedback_token_cost_not_a_constraint.md`](../../../../tools/memory/feedback_token_cost_not_a_constraint.md) (memory entry written same-session).
+
+### Recalculated cost-benefit under corrected framing
+
+Cost side that survives the correction:
+- **Author attention** — each Pass + Stage cycle requires author ratification disposition + spot-fix review at Phase C apply. Real cost.
+- **Clock time** — each pass + Phase C cycle takes session time + ratification turnaround. Real cost.
+- **Submission-window timing** — Atlantic Ideas submission has no fixed deadline, so this is not a hard gate, but the longer the hybrid takes to land, the further the Atlantic Ideas slot sits unfilled.
+
+Cost side that does NOT survive: token-count economy. **Drop from framing.**
+
+Benefit side from §1-§6 first-principles analysis:
+- **Alt-No-EM §VII Mondragon paragraph** — em-dash-zero constraint forces a structural break Pass 3.2 F-3.2-4 had recommended for Locked; Alt-No-EM's resulting Mondragon paragraph structure is cleaner than Locked at that one site.
+- **Alt-Norm-Punct §III asymmetry pivot em-dash punch** — Alt-Norm-Punct deploys an em-dash at the load-bearing asymmetric-regret pivot ("you have handed the country with the supply a leverage no policy in your toolkit can buy back — the downside of one error is bounded; the downside of the other is not.") that Locked does not; the em-dash earns its place at the inflection point.
+- **Alt-Norm-Punct §VIII Susskind addition** — extends comp-titles cluster from 5 to 6 names, with the Susskind framing ("Daniel Susskind's *Growth: A Reckoning* (2024) asked what growth, honestly understood, would have to look like to remain compatible with the conditions inside which it became possible.") that earns its inclusion at cluster-density level.
+
+These three gains are small individually but real, and they compound: each one moves the Pass 3.3 acceptance matrix marginally toward stronger Tier 1 + Tier 2 reads, the reading-smoothness ranking marginally toward strongest-per-section coverage, and the standalone essay strength marginally upward.
+
+### Revised final recommendation
+
+**RECOMMEND HYBRIDIZATION** — build a hybrid that takes the Locked cut as base + Alt-Norm-Punct §III asymmetry pivot em-dash + Alt-Norm-Punct §VIII Susskind close addition + Alt-No-EM §VII Mondragon paragraph structural break, then run the hybrid through fresh Pass 3.2 + Pass 3.3 + Pass 3.4 + Pass 3.5 + Stage 4 + Stage 5 cascade before submission.
+
+**Why this is the right answer under corrected framing:**
+
+1. The three sites are real marginal improvements on the Pass-3.5-ratified Locked cut. Pursuing them moves the essay marginally closer to its publishability + standalone-strength ceiling.
+2. Token cost is not the constraint. Author attention + clock time are the constraints — and the author's signal is that essay success is worth those costs.
+3. Atlantic Ideas does not have a hard submission deadline (the cascade-plan venue allocation is "RATIFIED-AWAITING-SUBMIT" rather than deadline-anchored). The submission-window timing cost of running the hybrid through full cascade is acceptable.
+4. The hybrid carries the full v3.1 cascade pedigree post-cascade, matching what the Locked cut currently has — no rigor-history-incompleteness discount factor at submission decision-time.
+5. The empirical observation from §6 (the constraint-vs-calibration discipline) is preserved in the hybrid: it adopts the calibration-not-prohibition default while capturing the alt-revealed improvements.
+
+**Sequencing under the change-cascade routing rule (v3.1 doctrine):**
+
+Per Stage 3 cascade discipline + Amendment B per-prompt serial cadence:
+
+1. **Hybrid construction session** — fresh session takes the Locked cut as base + applies the three site-specific hybridizations (§III asymmetry em-dash; §VII Mondragon paragraph structure break; §VIII Susskind close addition). Output: `publishing/essays/atlantic-ideas-pricing-honestly/atlantic-ideas-essay_hybrid_2026-05-28.md` (or similar) marked as PROPOSED. Author ratifies the three site-level hybridizations before Pass 3.2 fires.
+2. **Pass 3.2 voice-polish on hybrid** — fresh session. Tests whether the hybridization sites and the broader prose survive voice-polish scrutiny under v3.1 Amendment C interactive ratification format. Author ratifies findings; Phase C apply same-session.
+3. **Pass 3.3 audience-load acceptance on hybrid** — fresh session. Re-runs the 17-character audience set against the hybridized prose. Author ratifies verdict.
+4. **Pass 3.4 audience-load robustness on hybrid** — fresh session. Re-runs the adversarial set. Author ratifies verdict.
+5. **Pass 3.5 developmental-edit on hybrid** — fresh session. Tests whether the hybridization broke any of the F-DE-Atlantic-1 through F-DE-Atlantic-7 architectural integrity that Locked Pass 3.5 RATIFIED. Author ratifies + Phase C apply.
+6. **Stage 4 render + character-integrity audit on hybrid** — fresh session OR author-offline per Stage 4 author-offline pattern.
+7. **Stage 5 academic-rigor + prose-quality bookend sign-off on hybrid** — fresh session. Verifies no drift through the pipeline. Pre-pub review queue refreshes to reflect hybrid state.
+8. **Hybrid promoted to canonical at `essay.md`** — at Stage 5 sign-off RATIFIED, the hybrid replaces the Locked cut as canonical via merge-on-ratification rule. Prior Locked cut moves to `_archive/` as historical record.
+
+The Locked cut + the two alt drafts remain in the prose-craft archive as parallel exhibits regardless of hybrid outcome.
+
+**If a finding at any pass surfaces an issue with the hybridization** (e.g., Pass 3.5 flags the Susskind addition as cluster-overload at the close): apply the corresponding spot-fix or revert that one hybridization. The cascade discipline absorbs this naturally.
+
+### What this amendment changes
+
+The §7 initial recommendation (SHIP-LOCKED-RATIFIED-AS-IS) reflected token-cost framing that is no longer load-bearing. §7.1 amendment supersedes §7's "Final recommendation" line. The alts' status is unchanged (parallel exhibits for archive); the canonical Locked cut remains valid as fallback if the hybrid cascade does not improve on the Locked cut's RATIFIED-AWAITING-SUBMIT state.
+
+The honest framing under the corrected cost-benefit: **the hybrid is the right next move** because it captures marginal gains the author values. If the cascade fires and the hybrid does NOT improve on Locked at Stage 5 sign-off level, the Locked cut remains the canonical submission text. The downside risk is bounded; the upside is real, even if small.
 
 ---
 
@@ -357,4 +414,4 @@ The alts are valuable parallel exhibits for the prose-craft archive (and have in
 
 ---
 
-*End of three-way comparison artifact 2026-05-28. PROPOSED for author disposition. Per CLAUDE.md merge-on-ratification (internal scaffolding class), this artifact auto-merges to main at session close via pre-push reconciliation pattern. Recommendation: SHIP-LOCKED-RATIFIED-AS-IS; alts remain valuable parallel exhibits for the prose-craft archive but not recommended for promotion without explicit author disposition to accept the full v3.1 cascade re-fire cost.*
+*End of three-way comparison artifact 2026-05-28. PROPOSED for author disposition. Per CLAUDE.md merge-on-ratification (internal scaffolding class), this artifact auto-merges to main at session close via pre-push reconciliation pattern. **Revised recommendation (per §7.1 amendment): RECOMMEND HYBRIDIZATION** — build a hybrid that takes the Locked cut as base + Alt-Norm-Punct §III asymmetry pivot em-dash + Alt-Norm-Punct §VIII Susskind close addition + Alt-No-EM §VII Mondragon paragraph structural break, then run the hybrid through fresh Pass 3.2 + Pass 3.3 + Pass 3.4 + Pass 3.5 + Stage 4 + Stage 5 cascade before submission. Locked cut remains fallback if cascade does not improve on its RATIFIED-AWAITING-SUBMIT state.*
