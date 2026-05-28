@@ -1,0 +1,13 @@
+# Berggruen Prize 2026 rigor history placeholder
+
+Empty by design. The Berggruen Prize submission is **AI-free**
+(any AI assistance voids eligibility per prize rules), so the
+five-pass rigor cascade + Stage 4 + Stage 5 sign-off pipeline
+that applies to all other per-essay packages does NOT apply here.
+
+If author chooses to add offline-generated review notes / draft
+audits / version snapshots to this subdirectory, those would be
+the only artifacts that ever land here.
+
+This file exists only so the empty `rigor/` directory is tracked
+by git (per the per-essay directory layout established 2026-05-28).

@@ -27,3 +27,4 @@
 
 - Cascade plan position: hard-deadline 2026-08-17 (independent of June batch)
 - AI-disclosed essays (Aeon / Noema / BR / Atlantic Ideas / $100 Barrel) are AI-collaboration-disclosed; this Berggruen submission is AI-free
+- Rigor history: [`rigor/`](rigor/) — **empty by design** (AI-free essay; standard five-pass cascade does not apply). Subdir scaffolded 2026-05-28 for layout consistency with sibling essays; see [`rigor/README.md`](rigor/README.md).
