@@ -2,16 +2,15 @@
 
 **Slug:** `atlantic-ideas-pricing-honestly`
 **Venue:** Atlantic Ideas (TBD; possibly Foreign Policy alternate per `tools/workstream-handoffs/foreign-policy-alternate-outline_2026-05-21.md`)
-**State:** Stage 2 audience-blind flow draft complete (2026-05-21); Stage 3 cycle in progress
-**Last updated:** 2026-05-25
+**State:** RATIFIED-AWAITING-SUBMIT (Stage 5 sign-off RATIFIED 2026-05-27; full Stage 3 cascade + Stage 4 render audit COMPLETE; submission portal upload gated on author submission-window actions)
+**Last updated:** 2026-05-28
 
 ## Essay status
 
 - **Word count:** ~4,275w (per frontmatter; ~75w over the 4,200 brief band; substance-drives-length per brief §10)
-- **Stage 3 cycle status:**
-  - Pass 3.1 fact-check: PROPOSED 2026-05-23 (20 findings; per `tools/rigor-passes/`)
-  - Pass 3.2 / 3.3 / 3.4 / 3.5: pending
-- **Stage 5 sign-off:** pending
+- **Stage 3 cycle:** COMPLETE (all 5 passes RATIFIED 2026-05-23 → 2026-05-27)
+- **Stage 4 render audit:** RATIFIED CLEAR author-offline 2026-05-27
+- **Stage 5 sign-off:** RATIFIED 2026-05-27 — [`rigor/stage-5-signoff.md`](rigor/stage-5-signoff.md)
 
 ## Cross-references
 
@@ -25,10 +24,8 @@ Rigor-pass artifacts at [`rigor/`](rigor/) — per-essay consolidation migrated 
 - **Pass 3.5 developmental-edit** (2026-05-27) — [`rigor/pass-3-5-developmental-edit.md`](rigor/pass-3-5-developmental-edit.md)
 - **Stage 4 render audit** (author-offline; 2026-05-27) — [`rigor/stage-4-render-audit.md`](rigor/stage-4-render-audit.md)
 - **Pre-pub review queue** — [`rigor/pre-pub-review-queue.md`](rigor/pre-pub-review-queue.md)
-- **Stage 5 sign-off** (RATIFIED 2026-05-27; at `tools/quality-gates/sign-offs/atlantic_ideas_stage5_signoff_2026-05-27.md`) — note: quality-gates sign-off intentionally retained under `tools/quality-gates/sign-offs/` per pilot doctrine
+- **Stage 5 sign-off** (RATIFIED 2026-05-27) — [`rigor/stage-5-signoff.md`](rigor/stage-5-signoff.md) (consolidated into per-essay folder 2026-05-28 from `tools/quality-gates/sign-offs/atlantic_ideas_stage5_signoff_2026-05-27.md`)
 - **Atlantic Ideas Stage 2 paste-text** (2026-05-21) — [`tools/workstream-handoffs/atlantic-ideas-essay-stage-2-paste-text_2026-05-21.md`](../../../tools/workstream-handoffs/atlantic-ideas-essay-stage-2-paste-text_2026-05-21.md)
-
-Migration log notes: pre-existing README status block ("Stage 3 cycle status" + "Stage 5 sign-off: pending" at lines 11–14) is stale (essay reached Stage 4 + Stage 5 RATIFIED 2026-05-27). Not corrected here per pilot EC4 (relocate-only; flag for author touch-up).
 
 ## Title note
 

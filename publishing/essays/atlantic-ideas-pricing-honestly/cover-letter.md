@@ -2,7 +2,7 @@
 Atlantic Ideas pitch / cover-letter email — PROPOSED 2026-05-28
 Author final-ratification required before submission.
 
-Stage 5 sign-off RATIFIED PASS 2026-05-27 (tools/quality-gates/sign-offs/atlantic_ideas_stage5_signoff_2026-05-27.md, commit b54822b → revert commit 6e27090).
+Stage 5 sign-off RATIFIED PASS 2026-05-27 (publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-5-signoff.md, commit b54822b → revert commit 6e27090).
 Essay state: publishing/essays/atlantic-ideas-pricing-honestly/essay.md, post-Stage-5-revert (commit 6e27090), 4,272w.
 Pitch body word count: ~382w (within brief §11 250-400w band).
 

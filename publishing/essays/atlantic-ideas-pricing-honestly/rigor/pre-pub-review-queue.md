@@ -3,7 +3,7 @@
 **Date generated:** 2026-05-27 (RATIFIED 2026-05-27)
 **Status:** **RATIFIED 2026-05-27** — Stage 4 author-managed-offline ratification (commit `b54822b`) + Pass 3.5 RATIFIED + APPLIED 2026-05-27 (commits `8abb89b` + `2581277`) + Stage 5 surfaced F-DE-Atlantic-1 cross-corpus drift + Option 1 revert RATIFIED + APPLIED 2026-05-27 (commit `6e27090`) + Stage 5 PASS verdict (this commit) together flip this artifact from GENERATED → RATIFIED. Tracks canonical Pass 3.3 acceptance (PASS / READY AS-IS) + Pass 3.4 robustness (ROBUST) + Pass 3.5 developmental-edit (STRONG; 4 ratified spot-fixes applied + 3 leave-verbatim) + Stage 4 render audit (CLEAN) + Stage 5 sign-off (PASS / READY-TO-SUBMIT post-Option-1-revert).
 **Artifact:** Atlantic Ideas essay (*Pricing Honestly*) — [`publishing/essays/atlantic-ideas-pricing-honestly/essay.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/essay.md) — 99 lines / 4,272 words at post-Stage-5-revert state (commit `6e27090` 2026-05-27).
-**Stage 5 sign-off:** [`tools/quality-gates/sign-offs/atlantic_ideas_stage5_signoff_2026-05-27.md`](../quality-gates/sign-offs/atlantic_ideas_stage5_signoff_2026-05-27.md) — PASS RATIFIED 2026-05-27.
+**Stage 5 sign-off:** [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-5-signoff.md`](stage-5-signoff.md) — PASS RATIFIED 2026-05-27.
 **Manuscript-submission package context:** for-publisher / for-editor (Atlantic Ideas pitch + cover-letter handoff; post-acceptance editor-side fact-checker review queue if section editor assigns one). Essay is the Wave-1-essay-cluster derivation from Ch 9 *Pricing Honestly*; sits in the Atlantic Ideas pitch queue per brief §1 + cascade plan.
 
 ---
