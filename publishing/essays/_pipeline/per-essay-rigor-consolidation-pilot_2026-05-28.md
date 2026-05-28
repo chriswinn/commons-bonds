@@ -142,3 +142,61 @@ When firing the bulk-migration session for the remaining 8 essays:
 ---
 
 *End of pilot worked-example. Status: pilot EXECUTED 2026-05-28; ready for sibling bulk-migration session fire.*
+
+---
+
+## Bulk-migration COMPLETE annex — 8 sibling essays migrated (2026-05-28)
+
+**Status:** EXECUTED. Sibling bulk-migration session fired and completed 2026-05-28 after pilot landed; all 8 remaining essays consolidated per pilot pattern.
+
+### Per-essay artifact counts
+
+| Essay | Artifacts | Commits | Notes |
+|---|---|---|---|
+| noema-commons-bonds | 10 | Phase B + C | Includes pre-discipline-evolution artifacts (early audience-load 2026-05-09 + Stage 3 A-vs-B comparison 2026-05-10) + Phat replacement analysis 2026-05-20 |
+| boston-review-accountability-gap | 7 | Phase B + C | No Pass 3.4 artifact (opt-in; did not fire); Stage 0 publishing-strategy included |
+| aeon-mask-of-abundance | 8 | Phase B + C | Pitch-first model; Pass 3.3+3.4 bundled (small-form variant); title-candidates + evolution audit + reading-flow review |
+| 100-barrel | 9 | Phase B + C | Q1 go/no-go + Stage 3 comparative draft audit (A-vs-B; Draft A selected) included |
+| atlantic-ideas-pricing-honestly | 8 | Phase B + C | Includes pre-pub-review-queue migrated from tools/pre-submission-reviews/; quality-gates sign-off intentionally retained per pilot doctrine; README status-block staleness flagged |
+| foreign-affairs-existence-proof | 7 | Phase B + C | Cross-essay batch artifacts (Wave 2 Stage 0, TA RCV sign-off) retained at tools/rigor-passes/ |
+| harpers-the-miner | 6 | Phase B + C | Chapter-side ch2_the_miner_* rigor retained at tools/rigor-passes/ |
+| nyrb-multi-book-review | 9 | Phase B + C | EC1 dual-file case (both at-folder + central stage-5-signoff.md survive); exploratory single-book Stage 0 artifacts (chesapeake-requiem, christophers-price-is-wrong) retained at tools/rigor-passes/ |
+| **TOTAL** | **64** | **16** | Plus pilot's 8 atlantic-main artifacts = **72 essay-side artifacts** consolidated 2026-05-28 |
+
+### Worked-example carry-forward observations
+
+The pilot's EC1–EC5 edge cases all held up under bulk-migration:
+
+- **EC1 (dual-file stage-5-signoff)** — fired for NYRB (predicted by pilot). Atlantic main + NYRB are now both confirmed as the two cases per the pilot's grep.
+- **EC2 (sibling intra-rigor refs)** — handled cleanly via the rel-from-source link target substitution + label cleanup in the bulk fixup script.
+- **EC3 (sed regex wildcard bug)** — avoided by using Python `str.replace()` for path substrings and `re.escape()` for all basename patterns in the bulk script.
+- **EC4 (pre-existing data-quality issues)** — surfaced one in atlantic-ideas README (stale Stage 3/Stage 5 status block; essay actually RATIFIED Stage 5 2026-05-27); flagged in commit message + per-essay README migration log; NOT corrected (relocate-only discipline).
+- **EC5 (`<DATE>` template placeholders inside artifacts)** — many in migrated rigor artifacts (e.g., Stage 1 brief sections describing expected Pass 3.X output paths); preserved verbatim per relocate-only discipline. Search for `tools/rigor-passes/.*<DATE>.*` is the way to spot these post-migration.
+
+### New observations from bulk-migration
+
+- **EC6 — Sibling rigor-pass artifacts cite OTHER ESSAYS' rigor.** Many `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_<essay-A>_*.md` files contain "Wave 1 format precedent" or "sibling literary-essay" pointers to other essays' rigor-pass artifacts. As each essay migrated, those pointers in still-unmigrated essays' rigor-passes got rewritten. By the end of all 8 migrations, all such pointers point at the new per-essay locations. Net effect: tools/rigor-passes/ files referencing migrated essays' rigor passes are partially-rewritten — they still describe the OLD pipeline state in narrative but the link targets point at NEW locations. Acceptable: relocate-only discipline preserves content; rewriting narrative would violate it.
+- **EC7 — Kickoff-handoff "predicted-filename" inaccuracies pre-existed migration.** Many `tools/workstream-handoffs/*-kickoff_*.md` reference rigor-pass artifacts by predicted-but-inaccurate basenames (e.g., references to `commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_3_audience_load_v1.0.0.md` when the actual artifact was at `2026-05-23` with a slightly different format). These are pre-existing scaffolding inaccuracies, NOT migration regressions. Per EC4 discipline, not corrected; flagged here for surface visibility.
+- **EC8 — Truncated `...` references.** A handful of files use truncation `..._aeon_pitch_stage3_comparison_v1.0.0.md` ("same prefix as above") in narrative prose. These don't match the bulk-substitution script's full-basename regex pattern. As one entry in a list gets substituted to the new path, the `...` truncation in the next entry no longer expands sensibly. Surface ugliness; functionally inert. Not corrected per EC4.
+
+### Validation
+
+- **Final corpus-invariant scan exit 0** (0 HIGH; pre-existing MEDIUM/LOW in `publishing/op-eds/` are unrelated to this migration per pilot Phase D baseline).
+- **All 64 new paths resolve** under their `publishing/essays/<venue>/rigor/` subdirs.
+- **`git log --follow` lineage preserved** on all moves (100% similarity on every rename per the per-essay Phase B commit summaries).
+- **tools/rigor-passes/ file count after bulk migration:** 192 files remaining. Composition: chapter-side rigor (ch1, ch3, ch4-existence-proof chapter, ch5–ch10, TA), cross-essay batch (Wave 2 Stage 0, TA RCV sign-off, cross-corpus IPG canonical construction, chesapeake-requiem + christophers single-book exploratory Stage 0), and term-level / phase-level book-side rigor (`term_*`, `phase2_*`, `gate_*`, etc.).
+
+### Push posture + merge-on-ratification
+
+Each per-essay migration was committed as Phase B (file moves; 100% similarity rename) + Phase C (cross-reference fixup) and pushed to `origin/main` immediately per the merge-on-ratification rule (CLAUDE.md 2026-05-28). Pre-push reconciliation pattern (`git fetch origin main && git rebase origin/main`) ran clean on every push — no parallel-session conflicts surfaced during this bulk run.
+
+### Branch + worktree disposition
+
+- **Bulk-migration branch:** `claude/rigor-consolidation-bulk-migration-260528-defdbe`
+- **Commits on branch:** 16 (8 Phase B + 8 Phase C) + this annex commit.
+- **All commits landed on `origin/main`** via merge-on-ratification.
+- **Worktree path:** `/Users/c17n/commons-bonds-rigor-consolidation-bulk-migration-260528-defdbe` — removable at session close.
+
+---
+
+*Bulk migration COMPLETE 2026-05-28. 64 essay-side artifacts across 8 essays consolidated; pilot pattern held with EC1–EC8 observations integrated. Per-essay-folder lookup ergonomics achieved.*
