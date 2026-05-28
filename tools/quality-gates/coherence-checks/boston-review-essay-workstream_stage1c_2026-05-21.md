@@ -2,8 +2,8 @@
 
 **Status:** **RATIFIED 2026-05-21 — COHERENCE VERIFIED.** Verdict-level acceptance (no prose modification); covered under author "signed off" signal 2026-05-21 (Stage 1 bookend sign-off). Header ratification flag added via author "(A)" signal 2026-05-23 (file-header hygiene pass).
 **Date:** 2026-05-21
-**Scope:** Boston Review essay workstream (PM dashboard #2). Source artifact: Ch 5 *The Accountability Gap*. Stage 1b brief artifact: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`](../../rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md) (v1.0.1).
-**Stage 0 disposition:** RATIFIED 2026-05-21 (author "ratify and go" signal); GO verdict + monitoring conditions per [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md`](../../rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md).
+**Scope:** Boston Review essay workstream (PM dashboard #2). Source artifact: Ch 5 *The Accountability Gap*. Stage 1b brief artifact: [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](../../../publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md) (v1.0.1).
+**Stage 0 disposition:** RATIFIED 2026-05-21 (author "ratify and go" signal); GO verdict + monitoring conditions per [`publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md`](../../../publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md).
 **Audit finding driving this artifact:** Audit Finding H2 in BR brief walkthrough 2026-05-21 — Stage 1c cross-artifact coherence check queued as separate session before Stage 2.
 **Pipeline doctrine reference:** [`tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) §3.
 

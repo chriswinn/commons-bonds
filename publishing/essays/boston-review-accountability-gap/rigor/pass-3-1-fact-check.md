@@ -5,7 +5,7 @@
 **Pass type:** Stage 3 Pass 3.1 — Fact-check (first of five passes per v3.1 doctrine).
 **Workstream:** Boston Review essay (Ch 5 → BR cascade allocation per `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`).
 **Artifact audited:** [`publishing/essays/boston-review-accountability-gap/essay.md`](../../publishing/essays/boston-review-accountability-gap/essay.md) (Stage 2 audience-blind flow draft, PROPOSED 2026-05-21, branch `claude/boston-review-essay-stage-2-fresh-draft-clever-sinoussi-440b42`, commit `02c6a19`).
-**Stage 1 brief (canonical-facts source):** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md) (v1.0.1, ratified 2026-05-21).
+**Stage 1 brief (canonical-facts source):** [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](stage-1-brief.md) (v1.0.1, ratified 2026-05-21).
 **Methodology anchor:** v3.1 audience-aware drafting discipline (Stage 3 Pass 3.1 per parent doctrine; v3.1 Amendment C interactive-ratification per-finding format with Options + Recommendation + Reasoning).
 **Path B compliance confirmation:** `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` was NOT opened during this Pass 3.1 audit session. Fact-sources used: Stage 1 brief §7 canonical-facts inventory; `research/literature/bibliography.md` §13 + §18.5 + §22 entries; WebSearch for the two known flags. Findings flagged as `CARRY-FORWARD` where a load-bearing factual claim in the draft is not anchored in §7 and external sourcing is required before ratification — per the Path B preemptive policy, the canonical move is to flag rather than to paste from Ch 5.
 
@@ -22,7 +22,7 @@ The Boston Review essay carries two known fact-check flags raised by the Stage 2
 ## §1. Source artifacts read
 
 1. THIS framing-paste (Pass 3.1 framing).
-2. Stage 1 brief [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md) — read in full; §7 canonical-facts inventory + §8 apparatus exclusion list + §10 hard constraints + §13 Stage 3 protocol.
+2. Stage 1 brief [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](stage-1-brief.md) — read in full; §7 canonical-facts inventory + §8 apparatus exclusion list + §10 hard constraints + §13 Stage 3 protocol.
 3. Stage 2 audience-blind draft [`publishing/essays/boston-review-accountability-gap/essay.md`](../../publishing/essays/boston-review-accountability-gap/essay.md) — read in full (109 lines).
 4. [`research/literature/bibliography.md`](../../research/literature/bibliography.md) — §13 (Pistor, Christophers, Hartwick, Mazzucato adjacent), §18.5 (Darity & Mullen 2020, Coates 2014, Hamilton et al. 2015, Conley 1999, Himmelstein et al. 2022), §22 (Buchanan & Tullock 1962, Tullock 1967, Mueller 2003).
 5. [`tools/quality-gates/coherence-checks/boston-review-essay-workstream_stage1c_2026-05-21.md`](../../tools/quality-gates/coherence-checks/boston-review-essay-workstream_stage1c_2026-05-21.md) — Stage 1c coherence verification (context).

@@ -77,7 +77,7 @@ audience-blind draft session will work from.
     is the closest fit — institutional-policy register; non-partisan-
     framing-dispositive audience; Condition-1 disarming-moves anchor):
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md
+    - publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md
       (BR §8 apparatus-exclusion-list pattern is the load-bearing
       precedent for the named-OK / EXCLUDED cap in this brief)
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md

@@ -180,7 +180,7 @@ Log location: per cascade plan §"Outreach" discipline — recommend either a de
 - **Stage 1 briefs (per essay):**
   - Aeon: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
   - Noema: `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`
-  - Boston Review: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`
+  - Boston Review: `publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`
   - Atlantic Ideas: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`
 - **Stage 3 rigor passes (latest per essay):**
   - Aeon: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_3_3_3_4_bundled_audience_load_v1.0.0.md` (Pass 3.3 + 3.4 bundled READY TO SUBMIT)

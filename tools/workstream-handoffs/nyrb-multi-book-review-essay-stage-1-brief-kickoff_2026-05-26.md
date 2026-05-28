@@ -109,7 +109,7 @@ workstream completing per Condition NR-3.
 16. Wave 1 brief examples for pattern reference (read at least one —
     Boston Review is closest fit for review-essay register; Atlantic
     Ideas is closest fit for long-form length):
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md
+    - publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md
     - tools/workstream-handoffs/ch2-harpers-stage-1-brief-kickoff_2026-05-26.md

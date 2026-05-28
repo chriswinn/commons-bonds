@@ -42,7 +42,7 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` (companion Wave 2 batch — esp. §3 reveal map + §5 cumulative-portfolio projection)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md` (**sibling — RATIFIED 2026-05-24**: NYRB primary venue + Wave 2 Q4 2026 submission + four-book primary set + cascade chain NYRB → LARB → Public Books)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md` (Stage 0 canonical worked example)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md` (recent Stage 0 worked example — fuller scope)
+- `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md` (recent Stage 0 worked example — fuller scope)
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (FPD-1 → FPD-11; vocabulary-adoption-at-scale anchor)
 - `core/terms/terms_index.md` §3 via sibling §2 reproduction (apparatus inventory; ~30–35 named pieces)
 - `research/literature/bibliography.md` §13 entry (line 530) + §15 entry (line 1008) — Christophers DEEP engaged at bibliography level; both entries treat as STRONG SUPPORT comp candidate
@@ -580,7 +580,7 @@ SEQUENCING DISCIPLINE: When ALL three triggers fire, fire fresh Stage 0 re-test 
 
 **Stage 0 worked examples:**
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md` — canonical
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md` — fuller-scope worked example
+- `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md` — fuller-scope worked example
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md` — sibling (RATIFIED 2026-05-24)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` — Wave 2 batch (companion)
 

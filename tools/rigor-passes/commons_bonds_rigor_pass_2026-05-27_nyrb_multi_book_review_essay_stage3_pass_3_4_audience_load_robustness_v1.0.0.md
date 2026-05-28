@@ -196,7 +196,7 @@ SEQUENCING DISCIPLINE: Pass 3.4 essay spot-fix committed on feature branch (end-
 - Stage 1 brief RATIFIED 2026-05-27: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_nyrb_multi_book_review_essay_pre_draft_audience_structure_v1.0.0.md)
 - v3.1 Amendment B (Pass 3.5 codification): [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)
 - Cadence discipline: [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md)
-- Boston Review brief precedent (Decision #12 Buchanan/Tullock lineage-register move): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md)
+- Boston Review brief precedent (Decision #12 Buchanan/Tullock lineage-register move): [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](../../publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md)
 
 ---
 

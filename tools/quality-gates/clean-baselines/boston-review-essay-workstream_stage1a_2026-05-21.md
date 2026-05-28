@@ -7,7 +7,7 @@
 **Regressed-pattern-scan registry version:** `85878d1` (`tools/quality-gates/regressed-patterns.yaml`)
 **Command:** `bash tools/scripts/check-corpus-invariants.sh --scope manuscript/chapters/Chapter__5_TheAccountabilityGap.md`
 **Pipeline doctrine reference:** [`tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) §1
-**Stage 1b brief:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`](../../rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md) (v1.0.1)
+**Stage 1b brief:** [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](../../../publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md) (v1.0.1)
 **Audit finding driving this artifact:** Audit Finding H1 in Stage 1b brief walkthrough 2026-05-21.
 
 ---
@@ -42,7 +42,7 @@ None.
 
 ## Brief-itself Stage 1a scan (informational; not the doctrinal target)
 
-A supplemental scan of the Stage 1b brief (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md` v1.0.0) returned 15 HIGH + 61 MEDIUM + 24 LOW findings. **These are expected false positives by design.** The brief is a rigor-pass artifact that discusses process-scaffolding vocabulary as something to AVOID in the essay; it does not USE the vocabulary as scaffolding leakage. Stage 1a's scaffolding-pattern registry is designed to catch process-vocabulary leakage INTO chapter prose (the Stage 2 output), not to scan rigor-pass artifacts themselves.
+A supplemental scan of the Stage 1b brief (`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md` v1.0.0) returned 15 HIGH + 61 MEDIUM + 24 LOW findings. **These are expected false positives by design.** The brief is a rigor-pass artifact that discusses process-scaffolding vocabulary as something to AVOID in the essay; it does not USE the vocabulary as scaffolding leakage. Stage 1a's scaffolding-pattern registry is designed to catch process-vocabulary leakage INTO chapter prose (the Stage 2 output), not to scan rigor-pass artifacts themselves.
 
 Per Stage 1 doctrine §1.1: "Run automatically via `tools/scripts/check-corpus-invariants.sh` against the source artifact (if Stage 1 is for new content) or the chapter under audit (if Stage 1 is for a retrofit / partial cycle)." For the BR essay workstream, the source artifact is Ch 5 — which this baseline records. The brief itself is the Stage 1b output, not the Stage 1a target.
 

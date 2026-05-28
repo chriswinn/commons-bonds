@@ -47,7 +47,7 @@ Author-leaning per task scope: Wave 2 or Wave 3 (open). Q2 sequencing classifica
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` (Wave 2 batch — Ch 3 → Atlantic main W2.1 RATIFIED 2026-05-24 per §12)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md` (multi-book sibling RATIFIED 2026-05-24; NYRB Wave 2 venue commit)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md` (Stage 0 canonical)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md`
+- `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md`
 - `manuscript/chapters/Chapter__3_TheWaterman.md` (10,256 words; full read confirmed collision surface §4.1)
 - `research/case-studies/chesapeake-fisheries.md` (boundary-test placeholder)
 - `research/outreach/subjects/phat/` directory (consent document + mentions inventory + ch3-preview-package + consent-process-guide; Phat anonymization ratified 2026-05-20)
@@ -553,7 +553,7 @@ PM provisional response: author bandwidth + cumulative-reveal + substantive-doub
 
 **Stage 0 canonical worked examples:**
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md`
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md`
+- `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md`
 - `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`
 
 **Doctrine + memory:**

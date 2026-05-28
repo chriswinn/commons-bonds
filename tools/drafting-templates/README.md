@@ -392,14 +392,14 @@ For each stage, recent worked examples (refreshed 2026-05-24):
 | Stage / Pass | Worked example |
 |---|---|
 | Stage 0 | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md` |
-| Stage 0 (essay-side) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md` |
+| Stage 0 (essay-side) | `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md` |
 | Stage 1 (long-form) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md` |
 | Stage 1 (short-form) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` |
 | Stage 2 | `publishing/essays/100-barrel/essay.md` (Draft A; comparative-audit-winning execution) |
 | Stage 2 (parallel-variant comparative) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md` |
 | Stage 3 Pass 3.1 (fact-check) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md` |
-| Stage 3 Pass 3.2 (voice-polish) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_boston_review_essay_stage3_voice_polish_v1.0.0.md` |
-| Stage 3 Pass 3.3 (audience-load acceptance) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_boston_review_essay_stage3_audience_load_v1.0.0.md` |
+| Stage 3 Pass 3.2 (voice-polish) | `publishing/essays/boston-review-accountability-gap/rigor/pass-3-2-voice-polish.md` |
+| Stage 3 Pass 3.3 (audience-load acceptance) | `publishing/essays/boston-review-accountability-gap/rigor/pass-3-3-audience-load.md` |
 | Stage 3 Pass 3.3 (light re-fire after dev-edit) | `publishing/essays/noema-commons-bonds/rigor/light-refires/pass-3-3-light-refire_2026-05-24.md` |
 | Stage 3 Pass 3.4 (adversarial robustness) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_4_audience_load_robustness_light_v1.0.0.md` |
 | Stage 3 Pass 3.5 (developmental-edit) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_5_developmental_edit_v1.0.0.md` |

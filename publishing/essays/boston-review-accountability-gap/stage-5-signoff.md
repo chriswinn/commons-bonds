@@ -56,7 +56,7 @@ Brief §10 named-tradition attribution discipline requires that the framework ex
 
 ### §2.2 Citation precision
 
-Pass 3.1 fact-check audit verified all §7 canonical-facts inventory anchors in the draft. Zero HIGH findings. 3 MEDIUM findings (Fed tracking-span compression; Black Lung excise-tax §7.9 brief amendment; Pettit neo-Roman tightening) + 9 LOW findings (including 2 flag closures + 6 positive verifications + 1 §VII subhead change) all ratify-and-applied per `commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage3_fact_check_v1.0.0.md`. 
+Pass 3.1 fact-check audit verified all §7 canonical-facts inventory anchors in the draft. Zero HIGH findings. 3 MEDIUM findings (Fed tracking-span compression; Black Lung excise-tax §7.9 brief amendment; Pettit neo-Roman tightening) + 9 LOW findings (including 2 flag closures + 6 positive verifications + 1 §VII subhead change) all ratify-and-applied per `publishing/essays/boston-review-accountability-gap/rigor/pass-3-1-fact-check.md`. 
 
 **Citation precision verdict: PASS.** Zero FACT-CHECK NEEDED brackets remain in draft (grep verification post-application).
 

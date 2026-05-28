@@ -5,7 +5,7 @@
 **Pass type:** Stage 3 Pass 3.3 — Audience-load acceptance, **LIGHT RE-FIRE** after Pass 3.5 ratify-and-applied (per parent doctrine §3.6.4 cascade-routing protocol).
 **Workstream:** Boston Review essay (Ch 5 → BR cascade allocation per `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`).
 **Artifact audited:** [`publishing/essays/boston-review-accountability-gap/essay.md`](../../publishing/essays/boston-review-accountability-gap/essay.md) (Stage 2 audience-blind flow draft, POST-Pass-3.5-applied state; commit `18d8f56`). Word count: ~4,853w.
-**Stage 1 brief (audience set source):** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md) (v1.0.1, ratified 2026-05-21). §1 16-character pressure-test set + §10 hard constraints (non-partisan-framing discipline) load-bearing for this pass.
+**Stage 1 brief (audience set source):** [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](../stage-1-brief.md) (v1.0.1, ratified 2026-05-21). §1 16-character pressure-test set + §10 hard constraints (non-partisan-framing discipline) load-bearing for this pass.
 **Methodology anchor:** v3.1 audience-aware drafting discipline (Stage 3 Pass 3.3 acceptance scoring per [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) §1.2 verdict scale; light re-fire after Pass 3.5 per parent doctrine §3.6.4 cascade-routing protocol — confirms acceptance verdicts hold against the restoration).
 **Path B compliance confirmation:** `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` was **NOT opened** during this light re-fire session. Audience-load scoring is grounded in the post-Pass-3.5-applied draft surface against brief §1 character sketches. No prose generation occurred; no Ch 5 source consultation was required or performed.
 
@@ -41,10 +41,10 @@ Load-bearing C-12 center-right reader (governs Pass 3.4 opt-in per Decision #7) 
 ## §1. Source artifacts read
 
 1. THIS framing-paste (light re-fire framing).
-2. Stage 1 brief [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md) — §1 16-character pressure-test set + §10 non-partisan-framing discipline load-bearing.
+2. Stage 1 brief [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](../stage-1-brief.md) — §1 16-character pressure-test set + §10 non-partisan-framing discipline load-bearing.
 3. Stage 2 audience-blind draft, POST-Pass-3.5-applied state [`publishing/essays/boston-review-accountability-gap/essay.md`](../../publishing/essays/boston-review-accountability-gap/essay.md) — read in full (113 lines, ~4,853w; commit `18d8f56`).
-4. Pass 3.3 full audit (pre-Pass-3.5) [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_boston_review_essay_stage3_audience_load_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_boston_review_essay_stage3_audience_load_v1.0.0.md) — baseline verdicts (16/16 INCLUDE; PASS; commit `062cba8`).
-5. Pass 3.5 developmental-edit artifact [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_boston_review_essay_stage3_developmental_edit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_boston_review_essay_stage3_developmental_edit_v1.0.0.md) — §4 forecast verdict shifts table; per-finding restoration prose (commit `8639faa`).
+4. Pass 3.3 full audit (pre-Pass-3.5) [`publishing/essays/boston-review-accountability-gap/rigor/pass-3-3-audience-load.md`](../pass-3-3-audience-load.md) — baseline verdicts (16/16 INCLUDE; PASS; commit `062cba8`).
+5. Pass 3.5 developmental-edit artifact [`publishing/essays/boston-review-accountability-gap/rigor/pass-3-5-developmental-edit.md`](../pass-3-5-developmental-edit.md) — §4 forecast verdict shifts table; per-finding restoration prose (commit `8639faa`).
 
 **Ch 5 (`manuscript/chapters/Chapter__5_TheAccountabilityGap.md`) was NOT opened.** Path B preemptive policy holds.
 

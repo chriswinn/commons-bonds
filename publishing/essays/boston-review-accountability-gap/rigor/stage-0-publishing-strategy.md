@@ -26,7 +26,7 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 ## Inputs reviewed
 
 - `tools/workstream-handoffs/boston-review-essay-handoff_2026-05-09.md`
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md` (v1.0.1)
+- `publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md` (v1.0.1)
 - `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
 - `publishing/essays/_pipeline/decisions-log.md` (entries through 2026-05-09; later activity tracked via git log)
 - `publishing/essays/_pipeline/rights-register.md`

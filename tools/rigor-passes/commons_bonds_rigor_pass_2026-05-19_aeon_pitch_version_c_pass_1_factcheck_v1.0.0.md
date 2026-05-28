@@ -300,7 +300,7 @@ rigor-pass artifacts mentioning Mazzucato + Berggruen jointly.
 
 | Brief | File | Status |
 |---|---|---|
-| Boston Review | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md` | **CLEAN** (no Mazzucato-Berggruen attribution; Mazzucato mentioned as comp without prize claim) |
+| Boston Review | `publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md` | **CLEAN** (no Mazzucato-Berggruen attribution; Mazzucato mentioned as comp without prize claim) |
 | Atlantic Ideas | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md` | **CONTAMINATED + PATCHED** at line 71: *"Berggruen Prize 2024"* removed with correction-note |
 | $100 Barrel | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md` | **CLEAN** (Mazzucato mentioned as comp without prize claim) |
 | Noema (Stage 1) | `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md` | **CONTAMINATED + PATCHED** at lines 57–58: *"Berggruen Prize 2024"* (Mazzucato) + *"Berggruen Prize related"* (Raworth) both removed with correction-notes |

@@ -5,7 +5,7 @@
 **Pass type:** Stage 3 Pass 3.2 — Voice-polish (second of five passes per v3.1 doctrine).
 **Workstream:** Boston Review essay (Ch 5 → BR cascade allocation per `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`).
 **Artifact audited:** [`publishing/essays/boston-review-accountability-gap/essay.md`](../../publishing/essays/boston-review-accountability-gap/essay.md) (Stage 2 audience-blind flow draft, POST-Pass-3.1-spot-fix-application state, ratified 2026-05-23 per commit `fda6500`).
-**Stage 1 brief (canonical voice register source):** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md) (v1.0.1, ratified 2026-05-21; §7.9 amended 2026-05-23). §5 voice register + §8 apparatus exclusion + §13 Stage 3 protocol are load-bearing.
+**Stage 1 brief (canonical voice register source):** [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](stage-1-brief.md) (v1.0.1, ratified 2026-05-21; §7.9 amended 2026-05-23). §5 voice register + §8 apparatus exclusion + §13 Stage 3 protocol are load-bearing.
 **Methodology anchor:** v3.1 audience-aware drafting discipline (Stage 3 Pass 3.2 per parent doctrine; v3.1 Amendment C interactive-ratification per-finding format with Options + Recommendation + Reasoning). Polarity: **CUT** (opposite to Pass 3.5's RESTORATION polarity).
 **Path B compliance confirmation:** `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` was **NOT opened** during this Pass 3.2 audit session. Voice-polish calibration is grounded in Stage 1 brief §5 voice register + §8 apparatus exclusion list + the draft surface itself. No Ch 5 prose has been pasted into any proposed spot-fix in this artifact; all spot-fix prose is freshly generated from the brief's register.
 
@@ -26,9 +26,9 @@ One content-addition consideration surfaces: the four-traditions / supply-and-de
 ## §1. Source artifacts read
 
 1. THIS framing-paste (Pass 3.2 framing).
-2. Stage 1 brief [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md) — read in full; §5 voice register + §8 apparatus exclusion list + §13 Stage 3 protocol are load-bearing for this pass.
+2. Stage 1 brief [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](stage-1-brief.md) — read in full; §5 voice register + §8 apparatus exclusion list + §13 Stage 3 protocol are load-bearing for this pass.
 3. Stage 2 audience-blind draft (POST-Pass-3.1-spot-fix-applied) [`publishing/essays/boston-review-accountability-gap/essay.md`](../../publishing/essays/boston-review-accountability-gap/essay.md) — read in full (109 lines).
-4. Pass 3.1 fact-check artifact [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage3_fact_check_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage3_fact_check_v1.0.0.md) — context only (status RESOLVED via commit `fda6500`).
+4. Pass 3.1 fact-check artifact [`publishing/essays/boston-review-accountability-gap/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md) — context only (status RESOLVED via commit `fda6500`).
 5. Stage 1c coherence verification [`tools/quality-gates/coherence-checks/boston-review-essay-workstream_stage1c_2026-05-21.md`](../../tools/quality-gates/coherence-checks/boston-review-essay-workstream_stage1c_2026-05-21.md) — context only.
 6. Format reference (NOT a prose source): [`tools/rigor-passes/commons_bonds_ch5_stage_3_pass_2_voice_polish_2026-05-14_PROPOSED.md`](commons_bonds_ch5_stage_3_pass_2_voice_polish_2026-05-14_PROPOSED.md) — Ch 5 Pass 3.2 artifact for per-finding format reference; adapted to v3.1 Amendment C interactive-ratification format.
 7. Aeon four-traditions commit `1c5bcce` — read commit message via `git log --format=full -1`. No verbatim text from the Aeon entry has been copied into this artifact's proposed prose.

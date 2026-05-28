@@ -1,7 +1,7 @@
 # Wave 2 Derivative-Planning — Stage 0 Publishing-Strategy Rigor Pass (Batch) — v1.0.0
 
 **Date drafted:** 2026-05-24 (Sun)
-**Pass type:** Stage 0 publishing-strategy rigor test, batched across four candidate Wave 2 derivative essays. Per `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md` + canonical examples (`commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md`; `commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md`).
+**Pass type:** Stage 0 publishing-strategy rigor test, batched across four candidate Wave 2 derivative essays. Per `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md` + canonical examples (`commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md`; `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md`).
 **Status:** **PROPOSED — author ratification required per candidate** (one-at-a-time discipline, separate sessions). NOT YET RATIFIED. Batch mode; author was not present in the run that produced this artifact.
 **Scope:** Four Wave 2 candidate pairings: Ch 2 → Harper's · Ch 3 → The Atlantic · Ch 4 → Foreign Affairs · Ch 8 → NYRB. Q1 GO/NO-GO/CONDITIONAL per candidate + Q2 sequencing per GO/CONDITIONAL.
 **Output:** per-candidate verdict + per-dimension tilts + conditions + sequencing recommendation. Stops at verdict; does NOT begin Stage 1 brief work for any candidate.
@@ -38,7 +38,7 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `publishing/essays/_pipeline/decisions-log.md` (esp. 2026-05-08 platform-paragraph floor; 2026-05-09 stale-reference cleanup)
 - `publishing/essays/_pipeline/cross-thread-todos.md` (active items through 2026-05-21)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md` (Stage 0 canonical worked example)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md` (recent Stage 0 worked example — fuller scope)
+- `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md` (recent Stage 0 worked example — fuller scope)
 - `core/terms/terms_index.md` §3 (apparatus inventory)
 - **Source chapters (filename verified):**
   - `manuscript/chapters/Chapter__2_TheMiner.md` (~5,372 words; `__Draft` suffix dropped; Stage 3 Pass 1 ✅ + Pass 2 ✅ + Pass 3.3 ✅ rev `f4ee16b`; Pass 3.4 + 3.5 pending)
@@ -397,7 +397,7 @@ Realistic — but **NOT compatible with Ch 8 firing as a Wave 2 candidate** (Pat
 
 - **Pipeline doctrine v1.0.0 + Amendments A/B/C:** `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + `tools/memory/feedback_audience_aware_drafting_discipline.md` (v3.1).
 - **Stage 0 template:** `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`.
-- **Stage 0 worked examples:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md`; `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md`.
+- **Stage 0 worked examples:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md`; `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md`.
 - **Strategy artifacts:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (stale predecessor; superseded by `cascade-plan_v2_2026-05-24.md` PROPOSED in this batch); `publishing/essays/_pipeline/june-2026-submission-schedule.md`; `publishing/essays/_pipeline/decisions-log.md`; `publishing/essays/_pipeline/cross-thread-todos.md`.
 - **PM dashboard:** `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md`.
 - **Framework apparatus inventory:** `core/terms/terms_index.md` §3.

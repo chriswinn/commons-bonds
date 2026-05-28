@@ -55,7 +55,7 @@ draft session will work from.
 11. Wave 1 brief examples for pattern reference (read at least one —
     Aeon for literary-register precedent is closest fit):
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md
+    - publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md
 
 == Your task ==

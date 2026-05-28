@@ -41,7 +41,7 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `publishing/essays/_pipeline/rights-register.md` (no rights conflict surfaces here — review-essay genre is distinct from chapter-derivative essays)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` (companion batch — esp. §3 reveal map + §5 cumulative-portfolio projection)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md` (Stage 0 canonical worked example)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md` (recent Stage 0 worked example — fuller scope)
+- `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md` (recent Stage 0 worked example — fuller scope)
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (FPD-1 → FPD-11; vocabulary-adoption-at-scale anchor)
 - `core/terms/terms_index.md` §3 (apparatus inventory; Ring-1 7 terms + Ring-2 mechanism/measurement/instruments + decision rule + methodological + cost-component examples; ~30–35 named pieces)
 - `research/literature/bibliography.md` (Mazzucato + Pistor + Christophers + Susskind + Susskind 2020 — all engaged at depth; Sassen + Patel & Moore — NO bibliography entries as of 2026-05-24; reading-depth gap surfaced for source-material self-sufficiency dimension)
@@ -425,7 +425,7 @@ SEQUENCING DISCIPLINE: This Stage 0 fires per author interactive ratification pr
 
 **Stage 0 worked examples:**
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md` — canonical
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md` — fuller-scope worked example
+- `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md` — fuller-scope worked example
 
 **Comp-titles material (chapter + bibliography engagement):**
 - Mazzucato — `research/literature/bibliography.md` §13 entry (line 514) + Ring-1 Value Extraction parent attribution in `core/terms/terms_index.md`

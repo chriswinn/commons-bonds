@@ -342,7 +342,7 @@ Final-5 selection rule (per cascade-plan v1 update 2026-05-08): Mazzucato + Pist
 
 **Stage 0 worked examples + this batch:**
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md` — canonical $100 Barrel worked example.
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage_0_publishing_strategy_v1.0.0.md` — recent Boston Review fuller-scope worked example.
+- `publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md` — recent Boston Review fuller-scope worked example.
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` — companion Wave 2 batch (PROPOSED).
 
 **PM dashboard:**
@@ -352,7 +352,7 @@ Final-5 selection rule (per cascade-plan v1 update 2026-05-08): Mazzucato + Pist
 **Wave 1 Stage 1 briefs (per essay):**
 - Aeon: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`.
 - Noema: `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`.
-- Boston Review: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`.
+- Boston Review: `publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`.
 - Atlantic Ideas: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`.
 - $100 Barrel: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md` (referenced via PW workstream cross-thread #10).
 

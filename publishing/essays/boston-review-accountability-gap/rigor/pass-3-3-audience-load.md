@@ -5,7 +5,7 @@
 **Pass type:** Stage 3 Pass 3.3 — Audience-load acceptance (third of five passes per v3.1 doctrine).
 **Workstream:** Boston Review essay (Ch 5 → BR cascade allocation per `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`).
 **Artifact audited:** [`publishing/essays/boston-review-accountability-gap/essay.md`](../../publishing/essays/boston-review-accountability-gap/essay.md) (Stage 2 audience-blind flow draft, POST-Pass-3.1-applied + POST-Pass-3.2-applied state; commits `fda6500` + `b31ee2d`). Word count: ~4,499w.
-**Stage 1 brief (audience set source):** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md) (v1.0.1, ratified 2026-05-21; §7.9 amended 2026-05-23). §1 16-character pressure-test set + §10 hard constraints + §13 Stage 3 protocol are load-bearing for this pass.
+**Stage 1 brief (audience set source):** [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](stage-1-brief.md) (v1.0.1, ratified 2026-05-21; §7.9 amended 2026-05-23). §1 16-character pressure-test set + §10 hard constraints + §13 Stage 3 protocol are load-bearing for this pass.
 **Methodology anchor:** v3.1 audience-aware drafting discipline (Stage 3 Pass 3.3 per parent doctrine; audience-load acceptance scoring per [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) §1.2 verdict scale).
 **Path B compliance confirmation:** `manuscript/chapters/Chapter__5_TheAccountabilityGap.md` was **NOT opened** during this Pass 3.3 audit session. Audience-load scoring is grounded in the draft surface against brief §1 character sketches. The acceptance-scoring polarity does not generate prose; no source material beyond the draft + brief was needed for verdict reasoning.
 
@@ -26,10 +26,10 @@ The post-3.2-applied draft is at ~4,499w, within the brief's 4,500w target envel
 ## §1. Source artifacts read
 
 1. THIS framing-paste (Pass 3.3 framing).
-2. Stage 1 brief [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md) — read in full; §1 16-character pressure-test set + §2 editorial-brain map + §10 hard constraints + §13 Stage 3 protocol load-bearing.
+2. Stage 1 brief [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](stage-1-brief.md) — read in full; §1 16-character pressure-test set + §2 editorial-brain map + §10 hard constraints + §13 Stage 3 protocol load-bearing.
 3. Stage 2 audience-blind draft (POST-Pass-3.1 + POST-Pass-3.2 spot-fix applied) [`publishing/essays/boston-review-accountability-gap/essay.md`](../../publishing/essays/boston-review-accountability-gap/essay.md) — read in full (109 lines, ~4,499w).
-4. Pass 3.1 fact-check artifact [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage3_fact_check_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_boston_review_essay_stage3_fact_check_v1.0.0.md) — context (status RESOLVED via commit `fda6500`).
-5. Pass 3.2 voice-polish artifact [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_boston_review_essay_stage3_voice_polish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_boston_review_essay_stage3_voice_polish_v1.0.0.md) — context (status RESOLVED via commit `b31ee2d`); F-3.2-3 + F-3.2-14 forward-pointers carried.
+4. Pass 3.1 fact-check artifact [`publishing/essays/boston-review-accountability-gap/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md) — context (status RESOLVED via commit `fda6500`).
+5. Pass 3.2 voice-polish artifact [`publishing/essays/boston-review-accountability-gap/rigor/pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md) — context (status RESOLVED via commit `b31ee2d`); F-3.2-3 + F-3.2-14 forward-pointers carried.
 6. Audience pressure-test construction template [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) — §1.2 acceptance verdict scale.
 7. Format reference (NOT a prose source): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_ch9_pricing_honestly_stage3_pass_3_3_audience_load_acceptance_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_ch9_pricing_honestly_stage3_pass_3_3_audience_load_acceptance_v1.0.0.md) — sibling Pass 3.3 artifact for format reference.
 
