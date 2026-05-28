@@ -99,3 +99,22 @@ Each per-essay `README.md` carries:
 - Submission checklist (Stage 4 render; consent-status checks; courtesy notifications; submission portal upload action)
 - Named-subject inventory (per [`tools/memory/feedback_named_subject_consent.md`](../../tools/memory/feedback_named_subject_consent.md))
 - Cross-essay coordination notes (cascade-plan position; rights-register status; soft-clip phrasing for cover letter)
+
+## Pre-submission named-subject check
+
+Before submitting any essay, execute the named-subject check gate against the canonical [`research/outreach/_pipeline/consent-tracker.md`](../../research/outreach/_pipeline/consent-tracker.md):
+
+1. **Identify named-subject inventory** for the essay (per the essay's own README §"Named-subject inventory").
+2. **For each subject, look up their row in the tracker** (§A living-pending-consent | §B deceased-courtesy-notify | §C public-record-on-record-speech | §D.1 interviewed | §D.2 published-work | §E deceased-public-record | §F author-family).
+3. **Verify the subject's row shows OK-to-publish** per its class:
+   - §A → signed consent landed (restore name) OR anonymization holds (submit anonymized).
+   - §B → courtesy-notify executed OR 30-day good-faith effort completed.
+   - §C → citation-accuracy notify packet fired pre-submission OR scheduled in submission window.
+   - §D.1 → post-interview attribution-review materials sent AND written approval received for direct quotes + substantive paraphrases.
+   - §D.2 → no per-submission check beyond standard fact-check (Pass 3.1 covers).
+   - §E → no consent check; verify citation accuracy via Pass 3.1.
+   - §F → author has confirmed naming for the essay.
+4. **If any row shows a gate not satisfied** → the essay does NOT proceed to submission. Surface to author: complete the consent action OR anonymize the subject.
+5. **Update the essay's submission checklist** with one line per named subject showing tracker-verified-OK-to-publish status, dated.
+
+The check is a **gate**, not a guideline. See tracker §H for full discipline.

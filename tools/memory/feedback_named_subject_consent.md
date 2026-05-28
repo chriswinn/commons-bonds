@@ -4,6 +4,8 @@ description: Defaults for naming real people in publisher-facing Commons Bonds p
 type: feedback
 originSessionId: 6a97b0f9-c18b-4992-8bf6-b2bbf9c60acf
 ---
+**Status tracker:** [`research/outreach/_pipeline/consent-tracker.md`](../../research/outreach/_pipeline/consent-tracker.md) — single source of truth for "where are we with subject X today?" queries across the full publisher-facing portfolio. This file is the POLICY; the tracker is the per-subject OPERATIONAL STATE. Update the tracker when consent state changes; this policy file changes only when the discipline itself amends.
+
 For external publisher-facing prose (Commons Bonds book chapters, Noema / Aeon / other essay submissions, op-eds), apply these defaults whenever a real, identifiable person is named:
 
 - **Living subjects → "named-pending-consent."** Anonymize in the working draft as the safe default. Pursue signed consent in parallel. If consent lands before submission, swap the name back in. If consent does not land before the submission window, submit anonymized; restore the name in future printings or downstream artifacts (book chapter, reprint) once consent lands. Anonymization should preserve the load-bearing details (cost-severance specifics, mutual-aid patterns, biographical contour) — the trade-off is the personal name, not the substantive material.
