@@ -24,7 +24,7 @@
 - Wave 1 + Ch 4 → FA Pass 3.4 format precedents:
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_4_adversarial_v1.0.0.md` (long-form Pass 3.4 sibling)
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_atlantic_ideas_essay_stage3_pass_3_4_adversarial_v1.0.0.md` (long-form Pass 3.4 sibling)
-  - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_4_adversarial_v1.0.0.md` (closest temporal sibling)
+  - `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-4-adversarial.md` (closest temporal sibling)
 
 ---
 
@@ -162,7 +162,7 @@ After setup your worktree has:
 12. Wave 1 + Ch 4 → FA Pass 3.4 format precedents:
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_4_adversarial_v1.0.0.md
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_atlantic_ideas_essay_stage3_pass_3_4_adversarial_v1.0.0.md
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_4_adversarial_v1.0.0.md
+    - publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-4-adversarial.md
       (closest temporal sibling)
 
 == Your task ==

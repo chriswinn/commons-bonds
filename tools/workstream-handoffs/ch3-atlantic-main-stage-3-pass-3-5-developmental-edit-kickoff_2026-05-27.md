@@ -20,7 +20,7 @@
 - Pass 3.1 + 3.2 + 3.3 + 3.4 artifacts (immediate predecessors): see Pass 3.4 artifact §2 + parent-doctrine chain
 - v3.1 Amendment B Pass 3.5 doctrine: [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) §"What v3.1 adds beyond v3.0 (Amendments A + B)"; restoration polarity (3.2 cuts, 3.5 restores — different polarities; folding would lose the discipline each needs)
 - Wave 1 + Ch 4 FA Pass 3.5 format precedents:
-  - Ch 4 FA Pass 3.5 sibling (filename pattern `commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md` — check existence at session start)
+  - Ch 4 FA Pass 3.5 sibling (filename pattern `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-5-developmental-edit.md` — check existence at session start)
   - Ch 1 developmental-edit anchor: [`tools/rigor-passes/`](../rigor-passes/) (search for `ch1*developmental_edit` — 2026-05-18 source for the empirical Pass 3.5 discipline)
 
 ---

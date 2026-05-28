@@ -49,7 +49,7 @@ sessions will audit.
    (status markers; end-of-session one-liner; PM-session tracking)
 9. tools/memory/feedback_verify_stale_memory_claims.md (verify before
    asserting; check counts/dates/figures against current state)
-10. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md**
+10. **publishing/essays/foreign-affairs-existence-proof/rigor/stage-1-brief.md**
     — **THIS IS YOUR PRIMARY SOURCE.** The Stage 1 brief. Read in full.
     Load-bearing sections: §1 audience set (18 characters) + §2
     editorial-brain map + §4 six-section structural plan with per-
@@ -308,7 +308,7 @@ Parent ratification context (Stage 0 + TA RCV sign-off + Stage 1
 brief) lives in:
 - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md §12 Candidate C
 - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_ta_rcv_publication_stability_signoff_v1.0.0.md
-- tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md §21
+- publishing/essays/foreign-affairs-existence-proof/rigor/stage-1-brief.md §21
 
 Next phase after Stage 2 draft lands: Stage 3 Pass 3.1 fact-check
 session fires fresh (per-pass per-session cadence per v3.1 doctrine
@@ -329,7 +329,7 @@ paste-text per Wave 1 pattern.
 
 ## Cross-references
 
-- Stage 1 brief artifact (primary input): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md` (RATIFIED 2026-05-26 commit `1f73197`)
+- Stage 1 brief artifact (primary input): `publishing/essays/foreign-affairs-existence-proof/rigor/stage-1-brief.md` (RATIFIED 2026-05-26 commit `1f73197`)
 - Wave 2 Stage 0 Candidate C ratification record: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` §12 (RATIFIED 2026-05-25 commit `da67acf`)
 - TA RCV publication-stability sign-off: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_ta_rcv_publication_stability_signoff_v1.0.0.md` (commit `d223a7f` 2026-05-24)
 - Stage 1 brief kickoff paste-text (predecessor): `tools/workstream-handoffs/ch4-foreign-affairs-stage-1-brief-kickoff_2026-05-26.md` (commit `eff9f86`)

@@ -5,7 +5,7 @@
 **Pass type:** Stage 3 Pass 3.3 — Audience-load acceptance (third of five passes per v3.1 doctrine; explicit-gate cascade per Amendment A two-class; pre-FA-submission gate triggered by Pass 3.3 dispositive Tier 1 #3 SWF practitioner).
 **Workstream:** Wave 2, Candidate C — Ch 4 *The Existence Proof* → Foreign Affairs derivative essay.
 **Artifact audited:** [`publishing/essays/foreign-affairs-existence-proof/essay.md`](../../publishing/essays/foreign-affairs-existence-proof/essay.md) at post-Pass-3.2 state (feature branch `claude/ch4-fa-pass3-1-factcheck-260527-c7af4e` head). 6,065w body across six sections.
-**Stage 1 brief (audience pressure-test canonical source):** [`commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md) §1 18-character pressure-test set + §2 editorial-brain map + §8.3 cumulative-portfolio effective-reveal verification at ≤22%.
+**Stage 1 brief (audience pressure-test canonical source):** [`stage-1-brief.md`](stage-1-brief.md) §1 18-character pressure-test set + §2 editorial-brain map + §8.3 cumulative-portfolio effective-reveal verification at ≤22%.
 **Pass 3.1 + Pass 3.2 predecessors:** RATIFIED + APPLIED 2026-05-27; ratified spot-fixes preserved in essay.md.
 **Methodology anchor:** v3.1 audience-aware drafting discipline + Amendment C interactive ratification. Format precedent: BR essay Pass 3.3 audience-load 2026-05-22 (third-person institutional-measurement Pass 3.3 register; closest fit by venue).
 

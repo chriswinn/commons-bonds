@@ -17,15 +17,15 @@
 
 ## Cross-references
 
-Rigor-pass artifacts at `tools/rigor-passes/` (search for `ch4_foreign_affairs` filename pattern):
+Rigor-pass artifacts at [`rigor/`](rigor/) — per-essay consolidation migrated 2026-05-28 (see [`publishing/essays/_pipeline/per-essay-rigor-consolidation-pilot_2026-05-28.md`](../_pipeline/per-essay-rigor-consolidation-pilot_2026-05-28.md)). `git log --follow` traces pre-migration history at the prior `tools/rigor-passes/` paths. Cross-essay batch artifacts (Wave 2 Stage 0, TA RCV sign-off) remain at `tools/rigor-passes/` per pilot doctrine.
 
-- **Stage 1 brief** (2026-05-26; RATIFIED commit `1f73197`) — [`commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md)
-- **Pass 3.1 fact-check** (2026-05-27; RATIFIED + APPLIED 5 spot-fix groups) — [`commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md)
-- **Pass 3.2 voice-polish** (2026-05-27; RATIFIED + APPLIED 5 spot-fix groups) — [`commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_2_voice_polish_v1.0.0.md)
-- **Pass 3.3 audience-load** (2026-05-27; RATIFIED PASS) — [`commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_3_audience_load_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_3_audience_load_v1.0.0.md)
-- **Pass 3.4 adversarial robustness** (2026-05-27; RATIFIED ROBUST) — [`commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_4_adversarial_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_4_adversarial_v1.0.0.md)
-- **Pass 3.5 developmental-edit** (2026-05-27; RATIFIED HOLD — no restoration changes) — [`commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md)
-- **Stage 4 render audit** (2026-05-27; RATIFIED CLEAR offline) — [`commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage4_render_audit_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage4_render_audit_v1.0.0.md)
+- **Stage 1 brief** (2026-05-26; RATIFIED commit `1f73197`) — [`stage-1-brief.md`](rigor/stage-1-brief.md)
+- **Pass 3.1 fact-check** (2026-05-27; RATIFIED + APPLIED 5 spot-fix groups) — [`pass-3-1-fact-check.md`](rigor/pass-3-1-fact-check.md)
+- **Pass 3.2 voice-polish** (2026-05-27; RATIFIED + APPLIED 5 spot-fix groups) — [`pass-3-2-voice-polish.md`](rigor/pass-3-2-voice-polish.md)
+- **Pass 3.3 audience-load** (2026-05-27; RATIFIED PASS) — [`pass-3-3-audience-load.md`](rigor/pass-3-3-audience-load.md)
+- **Pass 3.4 adversarial robustness** (2026-05-27; RATIFIED ROBUST) — [`pass-3-4-adversarial.md`](rigor/pass-3-4-adversarial.md)
+- **Pass 3.5 developmental-edit** (2026-05-27; RATIFIED HOLD — no restoration changes) — [`pass-3-5-developmental-edit.md`](rigor/pass-3-5-developmental-edit.md)
+- **Stage 4 render audit** (2026-05-27; RATIFIED CLEAR offline) — [`stage-4-render-audit.md`](rigor/stage-4-render-audit.md)
 - **Stage 0 Candidate C ratification:** [`commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md) §12 (RATIFIED 2026-05-25 commit `da67acf`)
 - **TA RCV publication-stability sign-off** (load-bearing prerequisite; RATIFIED GREEN 2026-05-24 commit `d223a7f`) — [`commons_bonds_rigor_pass_2026-05-24_ta_rcv_publication_stability_signoff_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_ta_rcv_publication_stability_signoff_v1.0.0.md)
 

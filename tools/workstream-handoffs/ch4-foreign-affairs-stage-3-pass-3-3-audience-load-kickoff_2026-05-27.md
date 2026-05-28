@@ -9,15 +9,15 @@
 
 ## Resume marker (for parent session)
 
-- Pass 3.3 artifact expected at: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_3_audience_load_v1.0.0.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C).
+- Pass 3.3 artifact expected at: `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-3-audience-load.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C).
 - Essay artifact carrying Pass 3.1 + 3.2 + 3.3 spot-fixes: `publishing/essays/foreign-affairs-existence-proof/essay.md` (on feature branch `claude/ch4-fa-pass3-1-factcheck-260527-c7af4e` at the Pass 3.2 head commit).
 - Status to look for: `STATE: Pass 3.3 RATIFIED + APPLIED` at session close → ready for Stage 3 Pass 3.4 adversarial robustness session firing.
 
 ## Cross-references
 
 - Stage 2 + Pass 3.1 + Pass 3.2 essay state (input to Pass 3.3): `publishing/essays/foreign-affairs-existence-proof/essay.md`
-- Stage 1 brief (audience pressure-test character set + tier dispositions): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md` §1 18-character pressure-test set + §2 editorial-brain map
-- Pass 3.1 + Pass 3.2 artifacts (immediate predecessors): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md` + `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`
+- Stage 1 brief (audience pressure-test character set + tier dispositions): `publishing/essays/foreign-affairs-existence-proof/rigor/stage-1-brief.md` §1 18-character pressure-test set + §2 editorial-brain map
+- Pass 3.1 + Pass 3.2 artifacts (immediate predecessors): `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-1-fact-check.md` + `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-2-voice-polish.md`
 - Wave 1 Pass 3.3 format precedents:
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_3_audience_load_v1.0.0.md` (third-person institutional-measurement Pass 3.3 register — closest fit)
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_100_barrel_essay_stage3_pass_3_3_audience_load_v1.0.0.md` (institutional-policy-register Pass 3.3 sibling)
@@ -67,7 +67,7 @@ characters per brief §1.
    **THE ARTIFACT BEING AUDITED.** Read in full at post-Pass-3.2
    state.
 
-6. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md**
+6. **publishing/essays/foreign-affairs-existence-proof/rigor/stage-1-brief.md**
    — **AUDIENCE PRESSURE-TEST CANONICAL SOURCE.** Stage 1 brief
    RATIFIED 2026-05-26 commit `1f73197`. Load-bearing sections
    for Pass 3.3:
@@ -101,13 +101,13 @@ characters per brief §1.
      EXCLUDE returns the essay to §II / §IV / §V for Pass 3.5
      + Pass 3.1 re-fire
 
-7. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md**
+7. **publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-1-fact-check.md**
    — Pass 3.1 fact-check RATIFIED + APPLIED 2026-05-27 (5 spot-
    fixes; F-3.1-L1 ethics-council divestment-list flag-forward to
    Pass 3.4 for adversarial-reader attention — NOT a Pass 3.3
    item).
 
-8. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_2_voice_polish_v1.0.0.md**
+8. **publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-2-voice-polish.md**
    — Pass 3.2 voice-polish RATIFIED + APPLIED 2026-05-27 (5 spot-
    fix groups; F-3.2-L3 §VI rule-of-five anaphora flag-forward to
    Pass 3.5 for restoration-polarity consideration — NOT a Pass
@@ -120,7 +120,7 @@ characters per brief §1.
 == Your task ==
 
 Produce the Pass 3.3 audience-load acceptance artifact at
-`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_3_audience_load_v1.0.0.md`
+`publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-3-audience-load.md`
 (PROPOSED at session start; RATIFIED at session close per
 Amendment C; spot-fixes apply in-session ONLY if a Tier 1 strong-
 EXCLUDE surfaces — otherwise PASS verdict; no essay.md changes).

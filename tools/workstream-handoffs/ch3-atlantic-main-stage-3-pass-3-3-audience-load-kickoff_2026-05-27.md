@@ -20,7 +20,7 @@
 - Pass 3.1 + Pass 3.2 artifacts (immediate predecessors): [`publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-1-fact-check.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-1-fact-check.md) + [`publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-2-voice-polish.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-2-voice-polish.md)
 - Wave 1 + Ch 4 FA Pass 3.3 format precedents:
   - [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_3_audience_load_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_3_audience_load_v1.0.0.md) (Wave 1 BR Pass 3.3 — third-person institutional-measurement register; format reference)
-  - Ch 4 FA Pass 3.3 sibling (filename: `commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_3_audience_load_v1.0.0.md` — check existence at session start; most-recent same-cascade sibling Pass 3.3 if present)
+  - Ch 4 FA Pass 3.3 sibling (filename: `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-3-audience-load.md` — check existence at session start; most-recent same-cascade sibling Pass 3.3 if present)
   - [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_noema_essay_stage3_pass3_audienceload_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-21_noema_essay_stage3_pass3_audienceload_v1.0.0.md) (Wave 1 Noema first-person-observational-frame register Pass 3.3 — CLOSEST register fit for Atlantic features first-person observational frame; format reference)
 
 ---
@@ -189,7 +189,7 @@ accessibility) characters per brief §1 + §13.
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_3_audience_load_v1.0.0.md
       (Wave 1 BR Pass 3.3 — third-person institutional-
       measurement; format reference)
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_3_audience_load_v1.0.0.md
+    - publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-3-audience-load.md
       (Ch 4 FA Pass 3.3 — most-recent same-cascade sibling if
       present at session start)
 

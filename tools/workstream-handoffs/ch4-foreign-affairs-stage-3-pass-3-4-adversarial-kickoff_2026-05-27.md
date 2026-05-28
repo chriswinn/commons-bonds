@@ -9,13 +9,13 @@
 
 ## Resume marker (for parent session)
 
-- Pass 3.4 artifact expected at: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_4_adversarial_v1.0.0.md` (PROPOSED at session start → RATIFIED at session close per Amendment C).
+- Pass 3.4 artifact expected at: `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-4-adversarial.md` (PROPOSED at session start → RATIFIED at session close per Amendment C).
 - Essay artifact: `publishing/essays/foreign-affairs-existence-proof/essay.md` (feature branch `claude/ch4-fa-pass3-1-factcheck-260527-c7af4e`; carries Pass 3.1 + 3.2 spot-fixes; Pass 3.3 PASS no changes).
 - Status to look for: `STATE: Pass 3.4 RATIFIED + APPLIED` (or `RATIFIED ROBUST` if no spot-fixes needed) at session close → ready for Stage 3 Pass 3.5 developmental-edit session firing.
 
 ## Cross-references
 
-- Stage 1 brief (adversarial character set + thread-pull synthesis methodology): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md` §1 Tier 3 adversarial set A1-A3 + §13 Pass 3.4 BY DEFAULT discipline
+- Stage 1 brief (adversarial character set + thread-pull synthesis methodology): `publishing/essays/foreign-affairs-existence-proof/rigor/stage-1-brief.md` §1 Tier 3 adversarial set A1-A3 + §13 Pass 3.4 BY DEFAULT discipline
 - Ch 4 Pass 3.4 adversarial-set carry-forward: `tools/rigor-passes/ch4_existence_proof_stage3_pass_3_4_robustness_2026-05-25.md`
 - Pass 3.1 + Pass 3.2 + Pass 3.3 artifacts (predecessors): in `tools/rigor-passes/` 2026-05-27 series
 - F-3.1-L1 flag-forward to Pass 3.4: ethics-council divestment list (Israeli-construction-companies divestment) at essay line 39 — Pass 3.1 flagged for adversarial-reader attention
@@ -71,7 +71,7 @@ before FA-portal submit is the discipline).
    **THE ARTIFACT BEING AUDITED.** Read in full at post-Pass-3.2
    state.
 
-6. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md**
+6. **publishing/essays/foreign-affairs-existence-proof/rigor/stage-1-brief.md**
    — **ADVERSARIAL CHARACTER SET CANONICAL SOURCE.** Stage 1 brief
    RATIFIED 2026-05-26. Load-bearing sections for Pass 3.4:
    - §1 Tier 3 adversarial-load (carried forward for Pass 3.4):
@@ -120,7 +120,7 @@ before FA-portal submit is the discipline).
    carry-forward + thread-pull synthesis precedent from chapter
    scope.
 
-8. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md**
+8. **publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-1-fact-check.md**
    — Pass 3.1 RATIFIED + APPLIED 2026-05-27. **F-3.1-L1 flag-forward
    to Pass 3.4:** ethics-council divestment-list (Israeli-
    construction-companies divestment) at essay line 39 — Pass 3.1
@@ -128,11 +128,11 @@ before FA-portal submit is the discipline).
    item (A2 reactionary intellectual reader may read the inclusion
    as politically coded).
 
-9. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_2_voice_polish_v1.0.0.md**
+9. **publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-2-voice-polish.md**
    — Pass 3.2 RATIFIED + APPLIED 2026-05-27. F-3.2-L3 §VI rule-of-
    five anaphora flag-forward to Pass 3.5 (NOT Pass 3.4).
 
-10. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_3_audience_load_v1.0.0.md**
+10. **publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-3-audience-load.md**
     — Pass 3.3 RATIFIED PASS 2026-05-27. 16/16 acceptance INCLUDE;
     cumulative-reveal at-cap.
 
@@ -149,7 +149,7 @@ before FA-portal submit is the discipline).
 == Your task ==
 
 Produce the Pass 3.4 adversarial robustness artifact at
-`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_4_adversarial_v1.0.0.md`
+`publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-4-adversarial.md`
 (PROPOSED at session start; RATIFIED at session close per Amendment
 C; spot-fixes apply in-session ONLY if adversarial pressure
 exposes a structural weakness materially compromising FA register).

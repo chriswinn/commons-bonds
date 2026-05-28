@@ -26,7 +26,7 @@
   - `publishing/essays/noema-commons-bonds/rigor/pass-3-2-voice-polish.md` (Noema first-person long-form essay Pass 2 voice-polish — closest first-person register fit).
   - `publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-2-voice-polish.md` (Atlantic Ideas voice-polish — same publishing house, different sub-editor pool, declarative-thesis-and-defend register; READ FOR DIFFERENTIATION; Atlantic features register is *cumulative-portrait*, not declarative-thesis).
   - `publishing/essays/boston-review-accountability-gap/rigor/pass-3-2-voice-polish.md` (Boston Review third-person institutional voice-polish — format-reference for per-finding artifact structure; register-differentiated).
-  - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_2_voice_polish_v1.0.0.md` (Ch 4 FA Pass 3.2 — most-recent same-wave sibling; format-reference).
+  - `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-2-voice-polish.md` (Ch 4 FA Pass 3.2 — most-recent same-wave sibling; format-reference).
 - Worktree-isolation discipline: `tools/drafting-templates/worktree-isolation-paste-text.md`.
 
 ---
@@ -205,7 +205,7 @@ this same session.
     - publishing/essays/boston-review-accountability-gap/rigor/pass-3-2-voice-polish.md
       (Boston Review third-person institutional voice-polish —
       format-reference for per-finding artifact structure)
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_2_voice_polish_v1.0.0.md
+    - publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-2-voice-polish.md
       (Ch 4 FA Pass 3.2 — most-recent same-wave sibling; format-
       reference)
 

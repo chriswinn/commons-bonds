@@ -1,7 +1,7 @@
 # Ch 4 → Foreign Affairs — Stage 3 Pass 3.2 (voice-polish) — kickoff paste-text
 
 **Date staged:** 2026-05-27
-**Predecessor:** Stage 3 Pass 3.1 (fact-check) RATIFIED + APPLIED 2026-05-27 — artifact at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md) (landed on `origin/main` at commit `7647133`); essay.md spot-fixes on feature branch `claude/ch4-fa-pass3-1-factcheck-260527-c7af4e` (commit `c4bd4d6`).
+**Predecessor:** Stage 3 Pass 3.1 (fact-check) RATIFIED + APPLIED 2026-05-27 — artifact at [`publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-1-fact-check.md`](../../publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-1-fact-check.md) (landed on `origin/main` at commit `7647133`); essay.md spot-fixes on feature branch `claude/ch4-fa-pass3-1-factcheck-260527-c7af4e` (commit `c4bd4d6`).
 **Status:** STAGED. Author fires Pass 3.2 in a fresh CC session by pasting the body block below.
 **Internal scaffolding** per CLAUDE.md merge-to-main policy — this paste-text file fast-forwards to main at session close.
 
@@ -9,15 +9,15 @@
 
 ## Resume marker (for parent session)
 
-- Pass 3.2 artifact expected at: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_2_voice_polish_v1.0.0.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C).
+- Pass 3.2 artifact expected at: `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-2-voice-polish.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C).
 - Essay artifact carrying Pass 3.1 + Pass 3.2 spot-fixes: `publishing/essays/foreign-affairs-existence-proof/essay.md` (on feature branch `claude/ch4-fa-pass3-1-factcheck-260527-c7af4e` at commit `c4bd4d6` post-Pass-3.1; Pass 3.2 spot-fixes will land on a fresh feature branch off `origin/main` per worktree-isolation discipline).
 - Status to look for: `STATE: Pass 3.2 RATIFIED + APPLIED` at session close → ready for Stage 3 Pass 3.3 audience-load acceptance session firing.
 
 ## Cross-references
 
 - Stage 2 draft + Pass 3.1 spot-fixes (input to Pass 3.2): `publishing/essays/foreign-affairs-existence-proof/essay.md` (feature branch `claude/ch4-fa-pass3-1-factcheck-260527-c7af4e` commit `c4bd4d6`)
-- Stage 1 brief (audience set + voice-register anchor + apparatus discipline): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md` §5 voice register + §10 expository discipline + §16 hard constraints
-- Pass 3.1 artifact (immediate predecessor; carry-forward awareness items): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md`
+- Stage 1 brief (audience set + voice-register anchor + apparatus discipline): `publishing/essays/foreign-affairs-existence-proof/rigor/stage-1-brief.md` §5 voice register + §10 expository discipline + §16 hard constraints
+- Pass 3.1 artifact (immediate predecessor; carry-forward awareness items): `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-1-fact-check.md`
 - Em-dash discipline memory: `tools/memory/feedback_em_dash_overuse.md` 2026-05-21 RATIFIED
 - Author substrate critical-editorial-input memory: `tools/memory/feedback_substrate_critical_editorial_input.md` 2026-05-21 RATIFIED
 - Wave 1 Pass 3.2 format precedents (closest in voice-register territory):
@@ -79,7 +79,7 @@ this same session.
    remain; 0 un-authorized) + apparatus check baseline (named-OK
    terms surface; EXCLUDED terms confirmed-absent).
 
-8. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md**
+8. **publishing/essays/foreign-affairs-existence-proof/rigor/stage-1-brief.md**
    — **VOICE REGISTER CANONICAL SOURCE.** Stage 1 brief RATIFIED
    2026-05-26 commit `1f73197`. Load-bearing sections for Pass 3.2:
    - §5 voice register (third-person sustained — Option A RATIFIED
@@ -102,7 +102,7 @@ this same session.
      framing; no universalist-Norway-as-model trap; constructive
      analytical-conclusion register)
 
-9. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md**
+9. **publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-1-fact-check.md**
    — **PASS 3.1 PREDECESSOR (immediate carry-forwards).** Note:
    - F-3.1-L1 flag-forward to Pass 3.4: ethics-council divestment
      list (Israeli-construction-companies divestment) for
@@ -130,7 +130,7 @@ Produce the Pass 3.2 voice-polish artifact for the Ch 4 → FA
 post-Pass-3.1 essay. Output spec per Amendment C Interactive
 Ratification Protocol:
 
-**Output artifact:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`
+**Output artifact:** `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-2-voice-polish.md`
 (PROPOSED at session start; per-finding RATIFIED + APPLIED in the
 same session per Amendment C).
 
@@ -255,7 +255,7 @@ window Q4 2026 / Q1 2027 (Nov–Feb)`
 
 When this Pass 3.2 session closes:
 - The Pass 3.2 artifact lands at
-  `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`
+  `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-2-voice-polish.md`
   (RATIFIED + APPLIED at session close; internal scaffolding —
   autonomously fast-forwards to main per CLAUDE.md policy).
 - The essay at

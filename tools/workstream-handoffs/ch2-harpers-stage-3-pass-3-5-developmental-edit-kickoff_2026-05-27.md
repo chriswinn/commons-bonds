@@ -26,7 +26,7 @@
 - Wave 1 + Ch 4 → FA Pass 3.5 format precedents:
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md` (long-form essay-scale Pass 3.5 sibling)
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_atlantic_ideas_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md` (long-form Pass 3.5 sibling)
-  - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md` (closest temporal sibling)
+  - `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-5-developmental-edit.md` (closest temporal sibling)
 
 ---
 
@@ -171,7 +171,7 @@ After setup your worktree has:
 13. Wave 1 + Ch 4 → FA Pass 3.5 format precedents:
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_atlantic_ideas_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md
+    - publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-5-developmental-edit.md
       (closest temporal sibling)
 
 14. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-18_ch1_the_quiet_math_stage3_pass_3_5_developmental_edit_v1.0.0.md**

@@ -1,6 +1,6 @@
 <!--
 STAGE 2 audience-blind draft — PROPOSED 2026-05-27.
-Brief: tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md (RATIFIED 2026-05-26 commit 1f73197).
+Brief: publishing/essays/foreign-affairs-existence-proof/rigor/stage-1-brief.md (RATIFIED 2026-05-26 commit 1f73197).
 Stage 0 Candidate C ratification record: tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md §12 (RATIFIED 2026-05-25 commit da67acf).
 TA RCV publication-stability sign-off: tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_ta_rcv_publication_stability_signoff_v1.0.0.md (commit d223a7f; GREEN).
 Voice: third-person sustained (Option A per brief §5 + §21.1 ESCALATION-2 RATIFIED).

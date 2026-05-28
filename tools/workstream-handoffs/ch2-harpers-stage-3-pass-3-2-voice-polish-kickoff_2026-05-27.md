@@ -27,7 +27,7 @@
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_2_voice_polish_v1.0.0.md` (institutional-measurement-register Pass 3.2 — long-form essay precedent)
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_100_barrel_essay_stage3_pass_3_2_voice_polish_v1.0.0.md` (policy-register Pass 3.2 sibling)
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_atlantic_ideas_essay_stage3_pass_3_2_voice_polish_v1.0.0.md` (Atlantic Ideas Pass 3.2 — closest Atlantic-Ideas-pipeline voice precedent)
-  - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_2_voice_polish_v1.0.0.md` (closest temporal sibling Ch 4 → FA Pass 3.2; format-and-structure model)
+  - `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-2-voice-polish.md` (closest temporal sibling Ch 4 → FA Pass 3.2; format-and-structure model)
 - Wave 1 Ch 1 canonical Pass-2-voice-polish artifact format model: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-13_ch1_the_quiet_math_stage3_voice_polish_v1.0.0.md` (chapter-level; per parent doctrine §3 model reference)
 
 ---
@@ -156,7 +156,7 @@ After setup your worktree has:
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_2_voice_polish_v1.0.0.md
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_100_barrel_essay_stage3_pass_3_2_voice_polish_v1.0.0.md
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_atlantic_ideas_essay_stage3_pass_3_2_voice_polish_v1.0.0.md
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_2_voice_polish_v1.0.0.md
+    - publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-2-voice-polish.md
       (closest temporal sibling)
 
 13. tools/rigor-passes/commons_bonds_rigor_pass_2026-05-13_ch1_the_quiet_math_stage3_voice_polish_v1.0.0.md

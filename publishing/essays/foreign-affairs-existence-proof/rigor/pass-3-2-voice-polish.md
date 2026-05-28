@@ -5,8 +5,8 @@
 **Pass type:** Stage 3 Pass 3.2 — Voice-polish (second of five passes per v3.1 doctrine; automatic-on-edit cascade per Amendment A; polarity = CUT, opposite to Pass 3.5's RESTORE).
 **Workstream:** Wave 2, Candidate C — Ch 4 *The Existence Proof* → Foreign Affairs derivative essay.
 **Artifact audited:** [`publishing/essays/foreign-affairs-existence-proof/essay.md`](../../publishing/essays/foreign-affairs-existence-proof/essay.md) at post-Pass-3.1 state (feature branch `claude/ch4-fa-pass3-1-factcheck-260527-c7af4e` commit `c4bd4d6`). 6,125w body across six sections.
-**Stage 1 brief (voice-register canonical source):** [`commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md) §5 voice register + §8.4 apparatus-exclusion table ("the framework" repeated-self-reference COMPRESS directive) + §10 expository discipline + §16 hard constraints (em-dash active justification per `feedback_em_dash_overuse.md` 2026-05-21).
-**Pass 3.1 predecessor:** [`commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md) — RATIFIED + APPLIED 2026-05-27 (5 spot-fixes landed; 2 awareness-only).
+**Stage 1 brief (voice-register canonical source):** [`stage-1-brief.md`](stage-1-brief.md) §5 voice register + §8.4 apparatus-exclusion table ("the framework" repeated-self-reference COMPRESS directive) + §10 expository discipline + §16 hard constraints (em-dash active justification per `feedback_em_dash_overuse.md` 2026-05-21).
+**Pass 3.1 predecessor:** [`pass-3-1-fact-check.md`](pass-3-1-fact-check.md) — RATIFIED + APPLIED 2026-05-27 (5 spot-fixes landed; 2 awareness-only).
 **Methodology anchor:** v3.1 audience-aware drafting discipline + Amendment C per-finding artifact format with Options + Recommendation + Reasoning. Format precedent: BR essay Pass 3.2 voice-polish 2026-05-22 (third-person institutional-measurement register, closest fit by venue).
 
 ---
@@ -26,7 +26,7 @@ The em-dash discipline ([`feedback_em_dash_overuse.md`](../memory/feedback_em_da
 1. THIS paste-text framing (Pass 3.2 kickoff in the parent session).
 2. Stage 1 brief §5 voice register + §8.4 apparatus-exclusion table + §10 expository discipline + §16 hard constraints.
 3. Stage 2 + Pass 3.1 post-fix essay [`publishing/essays/foreign-affairs-existence-proof/essay.md`](../../publishing/essays/foreign-affairs-existence-proof/essay.md) — read in full at post-Pass-3.1 state.
-4. Pass 3.1 artifact [`commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md) — predecessor; ratified spot-fix sites noted to avoid regression.
+4. Pass 3.1 artifact [`pass-3-1-fact-check.md`](pass-3-1-fact-check.md) — predecessor; ratified spot-fix sites noted to avoid regression.
 5. Em-dash discipline memory [`tools/memory/feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md) 2026-05-21 RATIFIED.
 6. Programmatic diagnostic scans: em-dash inventory by essay-file line; LLM-tic pattern inventory; rule-of-three / declarative-three-in-a-row instances; sentence-length distribution.
 

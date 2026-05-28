@@ -20,9 +20,9 @@
 
 ## Cross-references
 
-- Stage 1 brief: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md` §14 Stage 5 forward-pointer
+- Stage 1 brief: `publishing/essays/foreign-affairs-existence-proof/rigor/stage-1-brief.md` §14 Stage 5 forward-pointer
 - Pass 3.1 through 3.5 artifacts: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_*` series
-- Stage 4 ratification artifact: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage4_render_audit_v1.0.0.md`
+- Stage 4 ratification artifact: `publishing/essays/foreign-affairs-existence-proof/rigor/stage-4-render-audit.md`
 - AI-disclosure template: `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` (verify presence at session fire-time)
 - Author platform paragraph: `publishing/book-proposal/03_author-platform.md` (medium bio for cover letter)
 - Pipeline doctrine Stage 5: `tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`
@@ -91,7 +91,7 @@ Your job is to:
    the post-Stage-3 + Stage-4 ratified essay (input to Stage 5
    sign-off + cover-letter).
 
-8. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md** —
+8. **publishing/essays/foreign-affairs-existence-proof/rigor/stage-1-brief.md** —
    Stage 1 brief RATIFIED 2026-05-26. Load-bearing sections for
    Stage 5:
    - §14 Stage 4 + Stage 5 forward-pointers (Stage 5 essay-scale
@@ -129,7 +129,7 @@ Your job is to:
      paragraph break at the rhetorical pivot.
 
 10. **Stage 4 ratification artifact** at
-    `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage4_render_audit_v1.0.0.md`
+    `publishing/essays/foreign-affairs-existence-proof/rigor/stage-4-render-audit.md`
     — RATIFIED CLEAR via author-offline-execution 2026-05-27.
 
 11. **publishing/essays/_shared/templates/ai-disclosure-paragraph.md** —

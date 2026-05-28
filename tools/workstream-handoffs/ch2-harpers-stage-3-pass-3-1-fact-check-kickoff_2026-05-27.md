@@ -28,7 +28,7 @@
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_1_fact_check_v1.0.0.md` (BR institutional-measurement Pass 3.1 precedent)
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_100_barrel_essay_stage3_pass_3_1_fact_check_v1.0.0.md` ($100 Barrel Pass 3.1 sibling)
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_atlantic_ideas_essay_stage3_pass_3_1_fact_check_v1.0.0.md` (Atlantic Ideas Pass 3.1 sibling)
-  - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md` (Ch 4 → FA Pass 3.1 closest temporal sibling; same-day-as-this-staging precedent for cadence + commit pattern)
+  - `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-1-fact-check.md` (Ch 4 → FA Pass 3.1 closest temporal sibling; same-day-as-this-staging precedent for cadence + commit pattern)
 
 ---
 
@@ -191,7 +191,7 @@ cherry-pick, your worktree has:
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_1_fact_check_v1.0.0.md
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_100_barrel_essay_stage3_pass_3_1_fact_check_v1.0.0.md
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_atlantic_ideas_essay_stage3_pass_3_1_fact_check_v1.0.0.md
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_1_fact_check_v1.0.0.md
+    - publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-1-fact-check.md
       (closest temporal sibling; same-day-as-this-staging precedent
       for cadence + commit pattern)
 

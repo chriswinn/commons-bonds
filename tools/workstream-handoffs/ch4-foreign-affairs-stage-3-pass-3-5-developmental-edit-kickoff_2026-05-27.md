@@ -9,13 +9,13 @@
 
 ## Resume marker (for parent session)
 
-- Pass 3.5 artifact expected at: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C).
+- Pass 3.5 artifact expected at: `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-5-developmental-edit.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C).
 - Essay artifact carrying Pass 3.1 + 3.2 + 3.5 spot-fixes: `publishing/essays/foreign-affairs-existence-proof/essay.md` (feature branch `claude/ch4-fa-pass3-1-factcheck-260527-c7af4e`; Pass 3.3 + 3.4 PASS/ROBUST no changes; Pass 3.5 may add restoration-polarity spot-fixes).
 - Status to look for: `STATE: Pass 3.5 RATIFIED + APPLIED` (or `RATIFIED HOLD` if no restorations needed) at session close → Stage 3 cascade closed; ready for light Pass 3.3 re-fire per parent doctrine §3.6.4; Stage 4 + Stage 5 + cover letter fire after.
 
 ## Cross-references
 
-- Stage 1 brief (voice-register + structural-decisions + canonical sources): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md`
+- Stage 1 brief (voice-register + structural-decisions + canonical sources): `publishing/essays/foreign-affairs-existence-proof/rigor/stage-1-brief.md`
 - Predecessor artifacts (Pass 3.1 + 3.2 + 3.3 + 3.4): in `tools/rigor-passes/` 2026-05-27 series
 - F-3.2-L3 flag-forward to Pass 3.5: §VI rule-of-five anaphora ("What the architecture [has/has not] solved") at essay lines 93–101 — Pass 3.2 HELD as structural-canonical; Pass 3.5 to evaluate whether anaphora benefits from variance at restoration-polarity
 - Ch 4 chapter-level Pass 3.5 developmental-edit precedent (NBIM + international-architecture restoration sites): `tools/rigor-passes/ch4_developmental_edit_review_2026-05-25.md`
@@ -89,7 +89,7 @@ where Pass 3.5 was empirically heavy).
    **THE ARTIFACT BEING AUDITED.** Read in full at post-Pass-3.4
    state (= post-Pass-3.2 state since 3.3 + 3.4 made no changes).
 
-8. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch4_foreign_affairs_essay_pre_draft_audience_structure_v1.0.0.md**
+8. **publishing/essays/foreign-affairs-existence-proof/rigor/stage-1-brief.md**
    — Stage 1 brief RATIFIED 2026-05-26 commit `1f73197`. Load-
    bearing sections for Pass 3.5:
    - §5 voice register (third-person sustained; read each
@@ -104,7 +104,7 @@ where Pass 3.5 was empirically heavy).
      Pass 3.5 restorations push above 6,500w, evaluate trade-off)
 
 9. **Pass 3.2 voice-polish artifact** at
-   `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`
+   `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-2-voice-polish.md`
    — load-bearing carry-forward:
    - F-3.2-L3 §VI rule-of-five anaphora ("What the architecture
      [has/has not] solved") at essay lines 93-101 — HELD by Pass
@@ -136,7 +136,7 @@ where Pass 3.5 was empirically heavy).
 == Your task ==
 
 Produce the Pass 3.5 developmental-edit artifact at
-`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md`
+`publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-5-developmental-edit.md`
 (PROPOSED at session start; per-finding RATIFIED + APPLIED in the
 same session per Amendment C; if no restorations required, close
 as RATIFIED HOLD).
