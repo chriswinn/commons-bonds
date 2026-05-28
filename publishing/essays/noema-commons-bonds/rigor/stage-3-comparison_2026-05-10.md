@@ -7,8 +7,8 @@
 - Essay B (experimental): [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) — ~4,429w body (4,578w incl. header). Stage 2 audience-blind flow-draft generated without opening Ch 1 as source text.
 
 **Frameworks applied:**
-- v1.0.0 audience-load framework: [`commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md) — 14-character pressure-test set across three tiers.
-- Stage 1 brief + comparison protocol: [`commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) §10.
+- v1.0.0 audience-load framework: [`early-audience-load_2026-05-09.md`](early-audience-load_2026-05-09.md) — 14-character pressure-test set across three tiers.
+- Stage 1 brief + comparison protocol: [`stage-1-brief.md`](stage-1-brief.md) §10.
 - Path B audit baseline (Essay A's known counts: ~14 verbatim sentences + 9 high-echo paragraphs).
 
 **Independence discipline:** No Aeon-pitch material was read during this pass. Aeon Stage 3 runs blind to this verdict in a parallel session.

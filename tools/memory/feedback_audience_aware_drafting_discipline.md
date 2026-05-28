@@ -241,7 +241,7 @@ The detailed narrative below is preserved from the v2.0 Amendment B memory entry
 underlying three-pass discipline, so the empirical grounding remains live.
 
 **v2.0 ratification context (2026-05-10).** v2.0 ratified after the parallel
-Noema essay + Aeon pitch Stage 3 per-test verdicts (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md`
+Noema essay + Aeon pitch Stage 3 per-test verdicts (`publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md`
 and `..._aeon_pitch_stage3_comparison_v1.0.0.md`).
 
 **Noema test — audience-blind validation + drift-discovery anchoring Amendment A

@@ -3,7 +3,7 @@
 **Date:** 2026-05-11
 **Branch:** `claude/why-bonds-paragraph-laughing-hertz-43da69`
 **Subject:** [tools/drafts/why-bonds-paragraph_2026-05-11_v1.0.0.md](../drafts/why-bonds-paragraph_2026-05-11_v1.0.0.md)
-**Methodology:** Adapted from the Noema essay audience-load pass (`commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md`) extended to book-level audiences per the book-audience ratification (`commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md`) — Option B (academic-trade hybrid) primary + Option D (policy-practitioner) supplementary.
+**Methodology:** Adapted from the Noema essay audience-load pass (`publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md`) extended to book-level audiences per the book-audience ratification (`commons_bonds_rigor_pass_2026-04-28_book_audience_choice_v1.0.0.md`) — Option B (academic-trade hybrid) primary + Option D (policy-practitioner) supplementary.
 **Test:** State A (Ch 5 baseline WITHOUT the paragraph) vs State B (Ch 5 WITH the paragraph inserted between line 190 and line 192).
 
 ---

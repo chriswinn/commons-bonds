@@ -95,7 +95,7 @@ These drive single fresh-session tasks for the two-stage drafting discipline exp
 |---|---|---|---|
 | **Stage 2 — Noema essay (Essay B)** | [noema-session-handoff_2026-05-10](../../publishing/essays/noema-commons-bonds/essay.md) | **COMPLETE 2026-05-10**. | `publishing/essays/noema-commons-bonds/essay.md` |
 | **Stage 2 — Aeon pitch (Pitch B)** | [aeon-session-handoff_2026-05-10](../../publishing/essays/aeon-mask-of-abundance/essay.md) | **COMPLETE 2026-05-10**. | `publishing/essays/aeon-mask-of-abundance/essay.md` |
-| **Stage 3 — Noema comparison** | n/a (PM-paste-driven session) | **COMPLETE 2026-05-10. Verdict: B WINS, mixed.** Submit Essay B with surgical Stage 3 polish (5 factual fixes + 2 voice improvements). | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` |
+| **Stage 3 — Noema comparison** | n/a (PM-paste-driven session) | **COMPLETE 2026-05-10. Verdict: B WINS, mixed.** Submit Essay B with surgical Stage 3 polish (5 factual fixes + 2 voice improvements). | `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` |
 | **Stage 3 — Aeon pitch comparison** | n/a (PM-paste-driven session) | **COMPLETE 2026-05-10. Verdict: A WINS, decisive.** Submit Version C verbatim Mon Jun 1; no fusion. | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md` |
 | **Meta-verdict synthesis (PM session)** | this file §7 | **COMPLETE 2026-05-10. Partial validation, refined regime:** discipline = default for long-form publisher-facing essays (~3,000+w) drafted from chapter prose; not for short-form pitches against iterated controls. | Recorded in §7 below + as new application-rule todo for substantive memory codification. |
 | **Stage 3 polish — Essay B → submission-ready** | (NEW workstream; needs handoff) | **PENDING — not yet triggered.** Surgical spot-fixes only; no Path B reintroduction. | Updated Essay B file ready for late May / early June Noema submission. |
@@ -149,10 +149,10 @@ The methodology experiment is the meta-workstream. Track separately.
 
 | Stage | Status | Artifact |
 |---|---|---|
-| **Stage 1 (pre-draft, both tests)** | COMPLETE 2026-05-10 | Noema: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`. Aeon: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`. |
+| **Stage 1 (pre-draft, both tests)** | COMPLETE 2026-05-10 | Noema: `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`. Aeon: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`. |
 | **Stage 2 (fresh-session draft, Noema)** | **COMPLETE 2026-05-10** | `publishing/essays/noema-commons-bonds/essay.md` |
 | **Stage 2 (fresh-session draft, Aeon pitch)** | **COMPLETE 2026-05-10** | `publishing/essays/aeon-mask-of-abundance/essay.md` |
-| **Stage 3 (comparison)** | **COMPLETE 2026-05-10**. Per-test verdicts: Noema **B WINS, mixed**; Aeon **A WINS, decisive**. | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` + `..._aeon_pitch_stage3_comparison_v1.0.0.md` |
+| **Stage 3 (comparison)** | **COMPLETE 2026-05-10**. Per-test verdicts: Noema **B WINS, mixed**; Aeon **A WINS, decisive**. | `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` + `..._aeon_pitch_stage3_comparison_v1.0.0.md` |
 | **Meta-verdict (PM session synthesis)** | **COMPLETE 2026-05-10**. Per the verdict matrix entry "B wins / A wins" → "Long-form / weak-control benefits; short / strong-control doesn't." **Partial validation, refined regime:** discipline = default for long-form publisher-facing essays (~3,000+w) drafted from chapter prose; not default for short-form pitches against iterated controls. Untested for short-form material with no iterated control. | Recorded inline below + memory codification queued as separate topical-session todo. |
 | **Methodology v2.0 ratification (user)** | **RATIFIED 2026-05-10.** Amendments A + B + C accepted: Stage 1 canonical-facts enrichment; Stage 3 split into fact-check + voice-polish + audience-load passes; domain-of-applicability rule. | Memory codification + cross-thread handoff updates queued as topical session (paste-text drafted by PM session). |
 

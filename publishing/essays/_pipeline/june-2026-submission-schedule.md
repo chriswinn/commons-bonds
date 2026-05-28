@@ -179,12 +179,12 @@ Log location: per cascade plan §"Outreach" discipline — recommend either a de
 - **Aeon submission specifics:** `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-submission-strategy_2026-05-08.md` (Phase 1 Submit + Phase 2 Wait + Phase 3 Resubmit alternative pitches)
 - **Stage 1 briefs (per essay):**
   - Aeon: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
-  - Noema: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`
+  - Noema: `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`
   - Boston Review: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`
   - Atlantic Ideas: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`
 - **Stage 3 rigor passes (latest per essay):**
   - Aeon: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_3_3_3_4_bundled_audience_load_v1.0.0.md` (Pass 3.3 + 3.4 bundled READY TO SUBMIT)
-  - Noema: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md` (Pass 3.1 RATIFIED + APPLIED 2026-05-21)
+  - Noema: `publishing/essays/noema-commons-bonds/rigor/pass-3-1-fact-check.md` (Pass 3.1 RATIFIED + APPLIED 2026-05-21)
   - $100 Barrel: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md` (Pass 3.1 RATIFIED + APPLIED; comparative Pass 3.3 + 3.4 done)
 - **Op-eds:** `publishing/op-eds/norway-sovereign-wealth/op-ed.md` + `publishing/op-eds/mcdowell-county-true-cost/op-ed.md`
 - **Pipeline doctrine (v3.1 Amendment B + C):** `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + `tools/memory/feedback_audience_aware_drafting_discipline.md`

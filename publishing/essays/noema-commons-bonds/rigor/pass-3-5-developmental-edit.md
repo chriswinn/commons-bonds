@@ -57,11 +57,11 @@ The developmental-edit lens is the closest thing the pipeline has to a trade-pre
 ## §2. Source artifacts read
 
 1. [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) (post-Pass-3.2-application state; 149 lines; commit `6d134af`)
-2. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) (Stage 1 brief — §7 canonical-facts inventory; §5 voice register; §7.1 locked Section I closing paragraph)
-3. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md) (Pass 3.1 — fact-anchor baseline; canonical-fact-ground reference)
-4. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md) (Pass 3.2 — voice-polish baseline; §6 cumulative-cadence-stack + §10 disposition log; what was cut during chiseling)
-5. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md) (Pass 3.3 — acceptance verdict; per-character read-attention observations)
-6. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_4_audience_load_robustness_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_4_audience_load_robustness_v1.0.0.md) (Pass 3.4 — robustness verdict; thread-pull synthesis carry)
+2. [`publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`](stage-1-brief.md) (Stage 1 brief — §7 canonical-facts inventory; §5 voice register; §7.1 locked Section I closing paragraph)
+3. [`publishing/essays/noema-commons-bonds/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md) (Pass 3.1 — fact-anchor baseline; canonical-fact-ground reference)
+4. [`publishing/essays/noema-commons-bonds/rigor/pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md) (Pass 3.2 — voice-polish baseline; §6 cumulative-cadence-stack + §10 disposition log; what was cut during chiseling)
+5. [`publishing/essays/noema-commons-bonds/rigor/pass-3-3-audience-load.md`](pass-3-3-audience-load.md) (Pass 3.3 — acceptance verdict; per-character read-attention observations)
+6. [`publishing/essays/noema-commons-bonds/rigor/pass-3-4-adversarial.md`](pass-3-4-adversarial.md) (Pass 3.4 — robustness verdict; thread-pull synthesis carry)
 7. [`tools/rigor-passes/ch1_developmental_edit_review_2026-05-18.md`](ch1_developmental_edit_review_2026-05-18.md) (canonical Pass 3.5 format model; §5.1-5.4 whole-chapter synthesis format)
 8. [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.5"
 9. [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7 (Amendment C scope + interactive ratification protocol)

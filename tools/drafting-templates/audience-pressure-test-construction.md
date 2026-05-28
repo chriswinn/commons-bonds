@@ -12,7 +12,7 @@ Acceptance + robustness are **two distinct tests** with different character sets
 **Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) — see §1 (Stage 3 sub-pass structure) + the canonical Ch 1 REAUDIT v3 example for the 3.3/3.4 split's verdict format.
 
 **Canonical examples to mirror:**
-- 14-character set (Noema essay; acceptance-only model): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md` §1
+- 14-character set (Noema essay; acceptance-only model): `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md` §1
 - Adapted set (Aeon pitch; acceptance-only model): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` §1
 - 20-character book-audience set (acceptance-only model): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_why_bonds_paragraph_include_vs_exclude_audience_load_v1.0.0.md`
 - **40-character full-rigor + adversarial set (canonical 3.3 + 3.4 split):** `tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md` — 30 acceptance + 10 adversarial; §5.3 thread-pull synthesis is the canonical diagnostic format for Pass 3.4.

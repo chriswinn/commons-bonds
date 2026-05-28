@@ -6,9 +6,9 @@
 **Mode:** Audit-existing-prose (post-Pass-3.5-application essay state is the audit baseline).
 **Source essay:** [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) — **151 lines** (post-Pass-3.5-application state; commit `01067a1` 2026-05-22; verified against `origin/main`).
 
-**Pass 3.3 baseline cross-reference:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md) — RATIFIED 2026-05-22; 14/14 INCLUDE; READY TO SUBMIT (acceptance test). Light re-fire measures deltas from this baseline produced by Pass 3.5 restoration application.
+**Pass 3.3 baseline cross-reference:** [`publishing/essays/noema-commons-bonds/rigor/pass-3-3-audience-load.md`](../pass-3-3-audience-load.md) — RATIFIED 2026-05-22; 14/14 INCLUDE; READY TO SUBMIT (acceptance test). Light re-fire measures deltas from this baseline produced by Pass 3.5 restoration application.
 
-**Pass 3.5 cross-reference:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_5_developmental_edit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_5_developmental_edit_v1.0.0.md) — RATIFIED + APPLIED 2026-05-22; 5 restorations applied + 2 holds. F-V-Noema-12 B disposition OVERRIDDEN by F-DE-Noema-5 A per Amendment B's restoration-polarity-supersedes-chiseling-polarity rule.
+**Pass 3.5 cross-reference:** [`publishing/essays/noema-commons-bonds/rigor/pass-3-5-developmental-edit.md`](../pass-3-5-developmental-edit.md) — RATIFIED + APPLIED 2026-05-22; 5 restorations applied + 2 holds. F-V-Noema-12 B disposition OVERRIDDEN by F-DE-Noema-5 A per Amendment B's restoration-polarity-supersedes-chiseling-polarity rule.
 
 **Canonical format model:** [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) §4 delta-focused per-character re-verdicts format.
 
@@ -29,9 +29,9 @@ This light re-fire verifies those predictions empirically against the post-Pass-
 ## §1. Source artifacts read
 
 1. [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) (post-Pass-3.5-application state; 151 lines; commit `01067a1`)
-2. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md) (Pass 3.3 baseline; RATIFIED 2026-05-22)
-3. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_5_developmental_edit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_5_developmental_edit_v1.0.0.md) (Pass 3.5 disposition log + restoration content; RATIFIED + APPLIED 2026-05-22)
-4. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) §1 14-character acceptance-test character set
+2. [`publishing/essays/noema-commons-bonds/rigor/pass-3-3-audience-load.md`](../pass-3-3-audience-load.md) (Pass 3.3 baseline; RATIFIED 2026-05-22)
+3. [`publishing/essays/noema-commons-bonds/rigor/pass-3-5-developmental-edit.md`](../pass-3-5-developmental-edit.md) (Pass 3.5 disposition log + restoration content; RATIFIED + APPLIED 2026-05-22)
+4. [`publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`](../stage-1-brief.md) §1 14-character acceptance-test character set
 5. [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) §4 delta-focused per-character re-verdicts format model
 
 ---

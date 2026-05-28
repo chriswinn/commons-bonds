@@ -12,15 +12,20 @@
 - **Stage 5 sign-off:** RATIFIED 2026-05-24 — [`stage-5-signoff.md`](stage-5-signoff.md)
 - **Cover letter:** RATIFIED 2026-05-24 — [`cover-letter.md`](cover-letter.md)
 
-## Cross-references (rigor-pass artifacts at `tools/rigor-passes/`)
+## Cross-references
 
-- **Stage 1 brief:** `commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md` (ratified 2026-05-10; §7 CTG canonical-truth-gap repairs applied 2026-05-21)
-- **Pass 3.1 fact-check:** RATIFIED + APPLIED 2026-05-21 (`commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md`)
-- **Pass 3.2 voice-polish:** RATIFIED + APPLIED 2026-05-22 (`commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md`)
-- **Pass 3.3 audience-load acceptance:** RATIFIED 2026-05-22 (`commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md`)
-- **Pass 3.4 audience-load robustness:** RATIFIED 2026-05-22 (`commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_4_audience_load_robustness_v1.0.0.md`)
-- **Pass 3.5 developmental-edit:** RATIFIED + APPLIED 2026-05-22 (`commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_5_developmental_edit_v1.0.0.md`)
-- **Pass 3.3 light re-fire:** RATIFIED 2026-05-24 (`commons_bonds_rigor_pass_2026-05-24_noema_essay_pass_3_3_light_rerefire_v1.0.0.md`)
+Rigor-pass artifacts at [`rigor/`](rigor/) — per-essay consolidation migrated 2026-05-28 (see [`publishing/essays/_pipeline/per-essay-rigor-consolidation-pilot_2026-05-28.md`](../_pipeline/per-essay-rigor-consolidation-pilot_2026-05-28.md)). `git log --follow` traces pre-migration history at the prior `tools/rigor-passes/` paths.
+
+- **Stage 1 brief** (ratified 2026-05-10; §7 CTG canonical-truth-gap repairs applied 2026-05-21) — [`rigor/stage-1-brief.md`](rigor/stage-1-brief.md)
+- **Pass 3.1 fact-check** (RATIFIED + APPLIED 2026-05-21) — [`rigor/pass-3-1-fact-check.md`](rigor/pass-3-1-fact-check.md)
+- **Pass 3.2 voice-polish** (RATIFIED + APPLIED 2026-05-22) — [`rigor/pass-3-2-voice-polish.md`](rigor/pass-3-2-voice-polish.md)
+- **Pass 3.3 audience-load acceptance** (RATIFIED 2026-05-22) — [`rigor/pass-3-3-audience-load.md`](rigor/pass-3-3-audience-load.md)
+- **Pass 3.4 audience-load robustness** (RATIFIED 2026-05-22) — [`rigor/pass-3-4-adversarial.md`](rigor/pass-3-4-adversarial.md)
+- **Pass 3.5 developmental-edit** (RATIFIED + APPLIED 2026-05-22) — [`rigor/pass-3-5-developmental-edit.md`](rigor/pass-3-5-developmental-edit.md)
+- **Pass 3.3 light re-fire** (RATIFIED 2026-05-24) — [`rigor/light-refires/pass-3-3-light-refire_2026-05-24.md`](rigor/light-refires/pass-3-3-light-refire_2026-05-24.md)
+- **Stage 5 sign-off** (RATIFIED 2026-05-24; at-folder bookend) — [`stage-5-signoff.md`](stage-5-signoff.md)
+- **Phat replacement analysis** (2026-05-20; Noema-specific decision artifact) — [`rigor/phat-replacement-analysis_2026-05-20.md`](rigor/phat-replacement-analysis_2026-05-20.md)
+- **Pre-discipline-evolution artifacts** (early audience-load + Stage 3 A-vs-B comparison) — [`rigor/early-audience-load_2026-05-09.md`](rigor/early-audience-load_2026-05-09.md) + [`rigor/stage-3-comparison_2026-05-10.md`](rigor/stage-3-comparison_2026-05-10.md)
 
 ## Submission checklist (submission-window author actions)
 

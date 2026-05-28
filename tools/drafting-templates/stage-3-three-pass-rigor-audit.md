@@ -15,7 +15,7 @@
 **Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) — see §1 for the full pipeline stage structure; §6 for the bookend sign-off discipline.
 
 **Canonical examples.**
-- Stage 3 comparison verdict: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md)
+- Stage 3 comparison verdict: [`publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md`](../../publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md)
 - Audience-load pass: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_why_bonds_paragraph_include_vs_exclude_audience_load_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-11_why_bonds_paragraph_include_vs_exclude_audience_load_v1.0.0.md)
 - Op-ed Stage 3 (self-applied): see op-ed pipeline session commit `5167edd` — the session's own Stage 3 caught real GPFG / Bondevik factual drift
 - Pass 2 voice-polish (canonical artifact format model — F-V1 through F-V21 named-tic inventory): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-13_ch1_the_quiet_math_stage3_voice_polish_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-13_ch1_the_quiet_math_stage3_voice_polish_v1.0.0.md)
@@ -86,7 +86,7 @@ acceptance-only test).
 7. /Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_verify_stale_memory_claims.md
    (verification discipline).
 8. Canonical examples to mirror:
-   - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md
+   - publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md
    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_why_bonds_paragraph_include_vs_exclude_audience_load_v1.0.0.md
 
 == Mission ==

@@ -8,7 +8,7 @@
 
 ## ★ v2.0 two-stage drafting discipline applies to this workstream (2026-05-10)
 
-The two-stage audience-aware drafting discipline ratified at v2.0 on 2026-05-10 is the **default methodology for this essay**. Any fresh session opening this workstream must apply v2.0 in full. Authoritative reference: `feedback_audience_aware_drafting_discipline.md` (memory). Empirical basis: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` and `..._aeon_pitch_stage3_comparison_v1.0.0.md`.
+The two-stage audience-aware drafting discipline ratified at v2.0 on 2026-05-10 is the **default methodology for this essay**. Any fresh session opening this workstream must apply v2.0 in full. Authoritative reference: `feedback_audience_aware_drafting_discipline.md` (memory). Empirical basis: `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` and `..._aeon_pitch_stage3_comparison_v1.0.0.md`.
 
 **Regime fit.** This workstream is a long-form (~4,500w) publisher-facing essay derived from Ch 5 *The Accountability Gap* — a chapter that contains Pistor / Christophers / Susskind engagement plus the Restitution-and-Foreclosure two-instrument decomposition. The v2.0 domain-of-applicability rule clauses fire as follows:
 
@@ -30,7 +30,7 @@ All three clauses fire — apply v2.0, no exceptions.
    Three distinct passes. Bundling is the failure mode v2.0 prohibits.
 4. **Path B preemptive policy throughout.** No Ch 5 prose in front of any drafting session. Any sentence that reads as a Ch 5 echo at Stage 3 fact-check gets rewritten freshly, not pasted from Ch 5.
 
-**Cross-references.** v2.0 memory: `feedback_audience_aware_drafting_discipline.md`. Noema Stage 3 verdict (per-test basis for Amendments A + B): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` §3.8 (factual-fidelity drift catalog) + §7 (materials handed to meta-verdict). Aeon Stage 3 verdict (per-test basis for Amendment C — confirms the discipline's regime is long-form-without-strong-control, not short-form-with-strong-control): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md` §5–§6.
+**Cross-references.** v2.0 memory: `feedback_audience_aware_drafting_discipline.md`. Noema Stage 3 verdict (per-test basis for Amendments A + B): `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` §3.8 (factual-fidelity drift catalog) + §7 (materials handed to meta-verdict). Aeon Stage 3 verdict (per-test basis for Amendment C — confirms the discipline's regime is long-form-without-strong-control, not short-form-with-strong-control): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md` §5–§6.
 
 ---
 

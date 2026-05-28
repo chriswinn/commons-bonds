@@ -24,7 +24,7 @@
 3. [Original Ch 2 Pass 3 audience-load 2026-05-13 + appendices through 2026-05-21](commons_bonds_rigor_pass_2026-05-13_ch2_the_miner_stage3_audience_load_v1.0.0.md) — 20-character acceptance baseline + Tier 1 #4 (Coasean/welfare-economics reviewer) + Tier 2 #9 (Coasean/mainstream-econ skeptic) acceptance reads carried forward as adversarial-direction context.
 4. [Ch 9 Pass 3.4 PROPOSED 2026-05-23](commons_bonds_rigor_pass_2026-05-23_ch9_pricing_honestly_stage3_pass_3_4_audience_load_robustness_v1.0.0.md) — chapter-scale Pass 3.4 format precedent + thread-pull synthesis table structure.
 5. [$100 Barrel Pass 3.4 LIGHT RATIFIED 2026-05-23](commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_4_audience_load_robustness_light_v1.0.0.md) — aggregate verdict format precedent (ROBUST).
-6. [Noema Pass 3.4 2026-05-22](commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_4_audience_load_robustness_v1.0.0.md) — CONDITIONALLY ROBUST format precedent.
+6. [Noema Pass 3.4 2026-05-22](../../publishing/essays/noema-commons-bonds/rigor/pass-3-4-adversarial.md) — CONDITIONALLY ROBUST format precedent.
 7. [Stage-3 template](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.4: Audience-load (robustness)".
 8. [Audience-pressure-test-construction](../drafting-templates/audience-pressure-test-construction.md) §3 adversarial character types.
 9. [feedback_audience_aware_drafting_discipline.md](../memory/feedback_audience_aware_drafting_discipline.md) v3.1 + Amendment A two-class cascade.
@@ -463,7 +463,7 @@ Per framing's hard constraints + v3.1 Amendment B per-prompt serial cadence:
 - **Original Pass 3 audience-load:** [`commons_bonds_rigor_pass_2026-05-13_ch2_the_miner_stage3_audience_load_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-13_ch2_the_miner_stage3_audience_load_v1.0.0.md) — RATIFIED 2026-05-13 + appendices through 2026-05-21.
 - **Format model — chapter-scale Pass 3.4:** [`commons_bonds_rigor_pass_2026-05-23_ch9_pricing_honestly_stage3_pass_3_4_audience_load_robustness_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_ch9_pricing_honestly_stage3_pass_3_4_audience_load_robustness_v1.0.0.md) — PROPOSED 2026-05-23 (CONDITIONALLY ROBUST verdict).
 - **Format model — essay-scale Pass 3.4 light:** [`commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_4_audience_load_robustness_light_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_4_audience_load_robustness_light_v1.0.0.md) — RATIFIED 2026-05-23 (ROBUST verdict).
-- **Format model — Noema essay Pass 3.4:** [`commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_4_audience_load_robustness_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_4_audience_load_robustness_v1.0.0.md) (commit `35307ba` CONDITIONALLY ROBUST).
+- **Format model — Noema essay Pass 3.4:** [`pass-3-4-adversarial.md`](../../publishing/essays/noema-commons-bonds/rigor/pass-3-4-adversarial.md) (commit `35307ba` CONDITIONALLY ROBUST).
 - **Canonical thread-pull synthesis format:** [`commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) §5.3.
 - **v3.1 discipline reference:** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) — Amendment A two-class cascade + Amendment B 5-pass.
 - **Stage-3 template:** [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.4: Audience-load (robustness)".

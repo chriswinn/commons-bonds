@@ -78,7 +78,7 @@ Without a project-wide register decision, every essay extraction (Noema, Aeon, B
 ## First actions for fresh session
 
 1. Read this handoff end-to-end.
-2. Read the Noema rigor pass at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md` — specifically the "Apparatus check" findings on cluster-γ, RCV, etc., for calibration on what trade-press editors flag.
+2. Read the Noema rigor pass at `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md` — specifically the "Apparatus check" findings on cluster-γ, RCV, etc., for calibration on what trade-press editors flag.
 3. Read the existing `feedback_two_layer_content_discipline.md` memory entry — apparatus is internal-scaffolding by default; trade body is external-publisher-facing. The two-layer discipline already has the conceptual scaffolding for this work.
 4. Build the apparatus inventory: grep across chapters for known terms; produce a comprehensive list.
 5. Confirm the inventory with the user before making decisions.
@@ -104,7 +104,7 @@ Without a project-wide register decision, every essay extraction (Noema, Aeon, B
 - Tech Appendix (location varies; check `manuscript/` and `tools/`)
 - Glossary (location varies; check `manuscript/`)
 - `feedback_two_layer_content_discipline.md` (memory)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md` (Noema apparatus findings)
+- `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md` (Noema apparatus findings)
 - `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-fresh-draft_named_2026-05-09.md` (working examples of plain-language framings of cost severance, RCV, cluster-γ that already passed audience-load rigor)
 
 ---

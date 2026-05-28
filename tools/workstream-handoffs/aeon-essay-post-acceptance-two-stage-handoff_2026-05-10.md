@@ -8,7 +8,7 @@
 
 ## ★ v2.0 two-stage drafting discipline applies to this workstream (2026-05-10)
 
-The two-stage audience-aware drafting discipline ratified at v2.0 on 2026-05-10 is the **default methodology for the post-acceptance essay**. When the trigger condition fires (Aeon accepts the pitch), the prep + fresh sessions must apply v2.0 in full. Authoritative reference: `feedback_audience_aware_drafting_discipline.md` (memory). Empirical basis: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` and `..._aeon_pitch_stage3_comparison_v1.0.0.md`.
+The two-stage audience-aware drafting discipline ratified at v2.0 on 2026-05-10 is the **default methodology for the post-acceptance essay**. When the trigger condition fires (Aeon accepts the pitch), the prep + fresh sessions must apply v2.0 in full. Authoritative reference: `feedback_audience_aware_drafting_discipline.md` (memory). Empirical basis: `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` and `..._aeon_pitch_stage3_comparison_v1.0.0.md`.
 
 **Regime fit.** This workstream is a long-form (~3,000–4,500w; aim for the Aeon middle of ~3,500w) publisher-facing essay derived from Ch 7 *On Other Worlds* + Ch 8 *What Things Actually Cost* (McDowell case-walk) + Ch 1 *The Quiet Math* (commute case + personal/memoir register). The v2.0 domain-of-applicability rule clauses fire as follows:
 
@@ -34,7 +34,7 @@ All three clauses fire — apply v2.0, no exceptions.
 5. **Editor-collaboration phase, then final polish + AI disclosure.** Aeon's post-acceptance back-and-forth with the editor follows Stage 3; treat editor edits as a separate phase, not as part of Stage 3.
 6. **Path B preemptive policy throughout.** No source-chapter or pitch-version prose in front of any drafting session. Any sentence that reads as a source-chapter echo at Stage 3 fact-check gets rewritten freshly.
 
-**Cross-references.** v2.0 memory: `feedback_audience_aware_drafting_discipline.md`. Noema Stage 3 verdict (per-test basis for Amendments A + B; itemizes the factual-drift catalog this essay's Stage 1 brief must preempt): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` §3.8 + §6.1 + §7. Aeon Stage 3 verdict (per-test basis for Amendment C; confirms the regime distinction): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md` §5–§6.
+**Cross-references.** v2.0 memory: `feedback_audience_aware_drafting_discipline.md`. Noema Stage 3 verdict (per-test basis for Amendments A + B; itemizes the factual-drift catalog this essay's Stage 1 brief must preempt): `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` §3.8 + §6.1 + §7. Aeon Stage 3 verdict (per-test basis for Amendment C; confirms the regime distinction): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md` §5–§6.
 
 ---
 

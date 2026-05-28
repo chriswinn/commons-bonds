@@ -6,7 +6,7 @@
 **Mode:** Audit-existing-prose (post-Pass-3.2-application essay state is the audit baseline; same baseline as Pass 3.3).
 **Source essay:** [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) — **149 lines** (post-Pass-3.2-application state; commit `98b8274` 2026-05-22).
 
-**Pass 3.3 cross-reference:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md) — PROPOSED 2026-05-22; 14/14 INCLUDE across acceptance-test set; READY TO SUBMIT (acceptance test). Pass 3.4 tests the SAME post-Pass-3.2 essay state against the adversarial / detractor character set.
+**Pass 3.3 cross-reference:** [`publishing/essays/noema-commons-bonds/rigor/pass-3-3-audience-load.md`](pass-3-3-audience-load.md) — PROPOSED 2026-05-22; 14/14 INCLUDE across acceptance-test set; READY TO SUBMIT (acceptance test). Pass 3.4 tests the SAME post-Pass-3.2 essay state against the adversarial / detractor character set.
 
 **Canonical format model:** [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) §5.3 thread-pull synthesis (canonical adversarial-pass diagnostic format).
 
@@ -29,10 +29,10 @@ Pass 3.4 measures the essay's adversarial-robustness AT ESSAY SCOPE. Cross-chapt
 ## §1. Source artifacts read
 
 1. [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) (post-Pass-3.2-application state; 149 lines; commit `98b8274`)
-2. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md) (Pass 3.3 — acceptance verdict baseline)
-3. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) (Stage 1 brief — adversarial-character context per §2 "What hurts Noema submissions specifically")
-4. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md) (Pass 3.1 — fact-anchor baseline)
-5. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md) (Pass 3.2 — voice-polish baseline; F-V-Noema-9 A3 preserved no-villain framing specifically for adversarial-robustness)
+2. [`publishing/essays/noema-commons-bonds/rigor/pass-3-3-audience-load.md`](pass-3-3-audience-load.md) (Pass 3.3 — acceptance verdict baseline)
+3. [`publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`](stage-1-brief.md) (Stage 1 brief — adversarial-character context per §2 "What hurts Noema submissions specifically")
+4. [`publishing/essays/noema-commons-bonds/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md) (Pass 3.1 — fact-anchor baseline)
+5. [`publishing/essays/noema-commons-bonds/rigor/pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md) (Pass 3.2 — voice-polish baseline; F-V-Noema-9 A3 preserved no-villain framing specifically for adversarial-robustness)
 6. [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) §5.3 thread-pull synthesis (canonical adversarial-pass diagnostic format)
 7. [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.4"
 8. [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7.1 (Amendment C scope verification)

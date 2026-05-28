@@ -424,7 +424,7 @@ Per `CLAUDE.md`: Sessions completing author-ratified content changes auto-fast-f
 - `feedback_named_subject_consent.md`
 
 **Latest rigor-pass artifacts (essay-side):**
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_noema_essay_pass_3_3_light_rerefire_v1.0.0.md`
+- `publishing/essays/noema-commons-bonds/rigor/light-refires/pass-3-3-light-refire_2026-05-24.md`
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_5_developmental_edit_v1.0.0.md`
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_boston_review_essay_stage3_pass_3_3_light_refire_v1.0.0.md`
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md`

@@ -6,11 +6,11 @@
 **Mode:** Audit-existing-prose (post-Pass-3.2-application essay state is the audit baseline).
 **Source essay:** [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) — **149 lines** (post-Pass-3.2-application state; commit `98b8274` 2026-05-22; verified against `origin/main`).
 
-**Pass 3.1 cross-reference:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md) — RATIFIED + APPLIED 2026-05-21 (13 fact-check spot-fixes applied; F-FC-Noema-9 Norway fund value submission-window re-verification flagged separately).
+**Pass 3.1 cross-reference:** [`publishing/essays/noema-commons-bonds/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md) — RATIFIED + APPLIED 2026-05-21 (13 fact-check spot-fixes applied; F-FC-Noema-9 Norway fund value submission-window re-verification flagged separately).
 
-**Pass 3.2 cross-reference:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md) — RATIFIED + APPLIED 2026-05-22 (9 spot-fixes applied + 1 author-initiated edit at line 137 + F-V-Noema-14 cumulative em-dash passed forward to Pass 3.5; 7 findings held).
+**Pass 3.2 cross-reference:** [`publishing/essays/noema-commons-bonds/rigor/pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md) — RATIFIED + APPLIED 2026-05-22 (9 spot-fixes applied + 1 author-initiated edit at line 137 + F-V-Noema-14 cumulative em-dash passed forward to Pass 3.5; 7 findings held).
 
-**Stage 1 brief cross-reference:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) §1 (14-character audience pressure-test set; carried forward as canonical scope for Pass 3.3 acceptance-test).
+**Stage 1 brief cross-reference:** [`publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`](stage-1-brief.md) §1 (14-character audience pressure-test set; carried forward as canonical scope for Pass 3.3 acceptance-test).
 
 **Canonical format model:** [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) — Ch 1 Pass 3 REAUDIT 40-character full-rigor + adversarial set (canonical artifact-format model for per-character verdict + aggregate-verdict structure).
 
@@ -33,9 +33,9 @@ The Pass 3.2 ratification session (2026-05-22) applied 9 ratified spot-fixes + 1
 ## §1. Source artifacts read
 
 1. [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) (post-Pass-3.2-application state; 149 lines; commit `98b8274`)
-2. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) (Stage 1 brief — §1 14-character acceptance-test character set; §2 Noema editorial brain map; §5 voice register)
-3. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md) (Pass 3.1 — RATIFIED + APPLIED 2026-05-21; context for fact-anchor verification)
-4. [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md) (Pass 3.2 — RATIFIED + APPLIED 2026-05-22; context for voice-polish deltas)
+2. [`publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`](stage-1-brief.md) (Stage 1 brief — §1 14-character acceptance-test character set; §2 Noema editorial brain map; §5 voice register)
+3. [`publishing/essays/noema-commons-bonds/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md) (Pass 3.1 — RATIFIED + APPLIED 2026-05-21; context for fact-anchor verification)
+4. [`publishing/essays/noema-commons-bonds/rigor/pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md) (Pass 3.2 — RATIFIED + APPLIED 2026-05-22; context for voice-polish deltas)
 5. [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) (canonical Pass 3 format model)
 6. [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.3 — Audience-load (acceptance)" (verdict scale + scope)
 7. [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7.1 (Amendment C scope — confirms Pass 3.3 outside Amendment C)

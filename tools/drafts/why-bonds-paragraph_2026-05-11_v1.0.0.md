@@ -14,7 +14,7 @@ Defend the framework's choice of *bond* as the umbrella financial-instrument ter
 
 ## Stage 1 — Pre-draft audience pass
 
-**Audience set the paragraph needs to land for** (per the Noema-essay 14-character set in `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md`):
+**Audience set the paragraph needs to land for** (per the Noema-essay 14-character set in `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md`):
 
 - Mazzucato/Raworth-cluster institution-design intellectuals — must read instrument terminology as a chosen architectural commitment, not a metaphor.
 - Berggruen Prize judges — must read the term as resonant across multiple political-philosophical and economic traditions (multi-tradition convergence is a Berggruen virtue).

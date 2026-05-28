@@ -106,7 +106,7 @@ Specific items flagged:
 - `manuscript/chapters/Chapter*Draft*` — all 10 chapters (post-sweep state)
 - `core/glossary/commons_bonds_updated_glossary_v4.html` — canonical glossary (updated for "central equation" standardization)
 - `core/technical-appendix/TechnicalAppendix_v2.0.0.html` — formal apparatus (updated for §7→§8 ARR reconciliation + "central equation" standardization; pending: parallel-numbering audit)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md` — Noema rigor pass (severity calibration framework + 14-character audience set)
+- `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md` — Noema rigor pass (severity calibration framework + 14-character audience set)
 - `tools/workstream-handoffs/apparatus-register-sweep-handoff_2026-05-10.md` — parent handoff
 - `tools/workstream-handoffs/path-b-audit-cross-chapter-handoff_2026-05-10.md` — Path B parent handoff
 - `research/audits/cross-chapter-path-b-audit_2026-05-11.md` — companion audit document

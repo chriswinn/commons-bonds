@@ -5,7 +5,7 @@
 **Stage:** Stage 5 bookend pre-submission sign-off per pipeline doctrine v1.0.0 §6 + Stage 1 brief §1 bookend pair
 **Artifact under sign-off:** [`publishing/essays/noema-commons-bonds/essay.md`](../../../publishing/essays/noema-commons-bonds/essay.md) — POST-Stage-3-cycle state; 151 lines / ~3,800–4,000w; commit `30a9515` HEAD on origin/main as of 2026-05-24.
 **Workstream:** Noema essay (Essay B; audience-blind two-stage drafting discipline experiment per `tools/memory/feedback_audience_aware_drafting_discipline.md` v3.1)
-**Stage 1 brief:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) (ratified 2026-05-10; six CTG canonical-truth-gap repairs applied 2026-05-21 per Pass 3.1 §9.5)
+**Stage 1 brief:** [`publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`](rigor/stage-1-brief.md) (ratified 2026-05-10; six CTG canonical-truth-gap repairs applied 2026-05-21 per Pass 3.1 §9.5)
 
 ---
 
@@ -222,13 +222,13 @@ After submission:
 
 | Artifact | Path | Date | Purpose |
 |---|---|---|---|
-| Stage 1 brief | [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) | 2026-05-10 (+ §7 CTG repairs 2026-05-21) | Ratified brief; bookend with this Stage 5 sign-off |
-| Pass 3.1 fact-check | [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md) | RATIFIED + APPLIED 2026-05-21 | 13 spot-fixes + 6 CTG brief-repairs |
-| Pass 3.2 voice-polish | [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md) | RATIFIED + APPLIED 2026-05-22 | 9 spot-fixes + 1 author-initiated edit |
-| Pass 3.3 acceptance | [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_3_audience_load_acceptance_v1.0.0.md) | RATIFIED 2026-05-22 | 14/14 INCLUDE |
-| Pass 3.4 robustness | [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_4_audience_load_robustness_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_4_audience_load_robustness_v1.0.0.md) | RATIFIED 2026-05-22 | CONDITIONALLY ROBUST; 5 pre-pub-queue acknowledgments |
-| Pass 3.5 developmental-edit | [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_5_developmental_edit_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_noema_essay_pass_3_5_developmental_edit_v1.0.0.md) | RATIFIED + APPLIED 2026-05-22 | 5 restorations applied; F-V-Noema-12 B overridden |
-| Pass 3.3 light re-fire | [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_noema_essay_pass_3_3_light_rerefire_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_noema_essay_pass_3_3_light_rerefire_v1.0.0.md) | PROPOSED 2026-05-24 | 14/14 INCLUDE preserved + strengthened (1 uplift) |
+| Stage 1 brief | [`publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`](rigor/stage-1-brief.md) | 2026-05-10 (+ §7 CTG repairs 2026-05-21) | Ratified brief; bookend with this Stage 5 sign-off |
+| Pass 3.1 fact-check | [`publishing/essays/noema-commons-bonds/rigor/pass-3-1-fact-check.md`](rigor/pass-3-1-fact-check.md) | RATIFIED + APPLIED 2026-05-21 | 13 spot-fixes + 6 CTG brief-repairs |
+| Pass 3.2 voice-polish | [`publishing/essays/noema-commons-bonds/rigor/pass-3-2-voice-polish.md`](rigor/pass-3-2-voice-polish.md) | RATIFIED + APPLIED 2026-05-22 | 9 spot-fixes + 1 author-initiated edit |
+| Pass 3.3 acceptance | [`publishing/essays/noema-commons-bonds/rigor/pass-3-3-audience-load.md`](rigor/pass-3-3-audience-load.md) | RATIFIED 2026-05-22 | 14/14 INCLUDE |
+| Pass 3.4 robustness | [`publishing/essays/noema-commons-bonds/rigor/pass-3-4-adversarial.md`](rigor/pass-3-4-adversarial.md) | RATIFIED 2026-05-22 | CONDITIONALLY ROBUST; 5 pre-pub-queue acknowledgments |
+| Pass 3.5 developmental-edit | [`publishing/essays/noema-commons-bonds/rigor/pass-3-5-developmental-edit.md`](rigor/pass-3-5-developmental-edit.md) | RATIFIED + APPLIED 2026-05-22 | 5 restorations applied; F-V-Noema-12 B overridden |
+| Pass 3.3 light re-fire | [`publishing/essays/noema-commons-bonds/rigor/light-refires/pass-3-3-light-refire_2026-05-24.md`](rigor/light-refires/pass-3-3-light-refire_2026-05-24.md) | PROPOSED 2026-05-24 | 14/14 INCLUDE preserved + strengthened (1 uplift) |
 | Cover letter | [`publishing/essays/noema-commons-bonds/cover-letter.md`](../../../publishing/essays/noema-commons-bonds/cover-letter.md) | PROPOSED 2026-05-24 | Decision #13 deliverable; medium bio + Noema AI-disclosure variant + 2-3 Noema-specific personalization sentences |
 | Q1 working note (permanent foreclosure) | [`research/literature/working-notes/permanent-foreclosure-four-traditions_2026-05-22.md`](../../../research/literature/working-notes/permanent-foreclosure-four-traditions_2026-05-22.md) | 2026-05-22 | Out-of-scope substrate queued for book-scope placement decision |
 

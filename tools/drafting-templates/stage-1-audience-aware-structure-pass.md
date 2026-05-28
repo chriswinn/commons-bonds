@@ -9,7 +9,7 @@
 **Discipline anchor.** v2.0 audience-aware drafting Amendment A: Stage 1 briefs MUST include canonical factual ground truth (not just beats). Reference: `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md`.
 
 **Canonical examples.**
-- Long-form essay Stage 1: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md)
+- Long-form essay Stage 1: [`publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`](../../publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md)
 - Short-form pitch Stage 1: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md)
 
 ---
@@ -63,7 +63,7 @@ pressure-test set in this brief:
 11. [STAGE 0 ARTIFACT PATH if applicable] — the publishing-strategy
     rigor pass that gated this work.
 12. Canonical examples to mirror:
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md
+    - publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md
 
 == What to draft (context) ==

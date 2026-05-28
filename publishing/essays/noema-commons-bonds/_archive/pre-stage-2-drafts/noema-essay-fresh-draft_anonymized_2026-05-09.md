@@ -4,7 +4,7 @@
 
 **Status:** Phase 1–3 single-pass draft, generated for comparison against the active draft file. Section I closing paragraph preserved verbatim per ratification. Path B sentence-level audit not yet performed; this is a flow-first pass.
 
-**Approx. length:** ~4,610 words. Pass-1 filler trim applied 2026-05-09 (see prior log entry for details). Audience-load rigor-pass fixes applied 2026-05-09 per `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md`: replaced "cluster-γ architecture" jargon (Section VI.1) with "a different architecture in practice"; dropped Deepwater Horizon (Section IV.3); cut "There are not many people like that anymore" line (Section II.3); dropped "I have used my entire career" closing line on the room-volume passage (Section II.7). Chore-and-broom anecdote, Pou nickname, email-sleep-cussing beat, and Fox Hill rule-of-three all preserved per audit verdict.
+**Approx. length:** ~4,610 words. Pass-1 filler trim applied 2026-05-09 (see prior log entry for details). Audience-load rigor-pass fixes applied 2026-05-09 per `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md`: replaced "cluster-γ architecture" jargon (Section VI.1) with "a different architecture in practice"; dropped Deepwater Horizon (Section IV.3); cut "There are not many people like that anymore" line (Section II.3); dropped "I have used my entire career" closing line on the room-volume passage (Section II.7). Chore-and-broom anecdote, Pou nickname, email-sleep-cussing beat, and Fox Hill rule-of-three all preserved per audit verdict.
 
 ---
 

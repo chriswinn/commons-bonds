@@ -16,7 +16,7 @@
 4. `manuscript/chapters/Chapter_10_CommonBonds__Draft.md` (cross-chapter grandfather framing — lines 37, 39, 41, 137)
 5. `tools/workstream-handoffs/manuscript-stage-3-rigor-pass-handoff_2026-05-11.md` (workstream brief)
 6. `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` (template + audit-existing-prose mode)
-7. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` (Noema essay Stage-1 §7.1 reference + Ch 1 cross-reference)
+7. `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` (Noema essay Stage-1 §7.1 reference + Ch 1 cross-reference)
 8. Memory: `project_authors_grandfather_nasa_inventor.md` (LaVern E. Winn patents; 2-patent verified ground)
 9. Memory: `feedback_named_subject_consent.md` (named-subject consent discipline)
 10. Memory: `feedback_verify_stale_memory_claims.md` (verification discipline applied to time-sensitive claims)
@@ -341,7 +341,7 @@ Per workstream-handoff Ch 1 emphasis: "named-subject consent (son/father)."
 
 The workstream-handoff Ch 1 row carries this audit emphasis. Verification:
 
-Per `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` line 82, the locked Section I closing paragraph — "That morning on the plane, the recliner beside my son's NICU bed sat empty…" — is **NOT in Ch 1**. It is original prose for the Noema essay, ratified verbatim in a prior session per the Noema essay's Stage 1 brief §7.1.
+Per `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` line 82, the locked Section I closing paragraph — "That morning on the plane, the recliner beside my son's NICU bed sat empty…" — is **NOT in Ch 1**. It is original prose for the Noema essay, ratified verbatim in a prior session per the Noema essay's Stage 1 brief §7.1.
 
 **Disposition:** The audit emphasis appears to be a workstream-handoff cross-reference reminder (the Noema essay carries forward a paragraph that parallels — but does not duplicate — Ch 1's opening), not a Ch 1 prose lock. There is no Ch 1 paragraph under verbatim lock per Stage 1 §7.1.
 

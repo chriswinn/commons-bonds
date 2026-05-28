@@ -400,7 +400,7 @@ For each stage, recent worked examples (refreshed 2026-05-24):
 | Stage 3 Pass 3.1 (fact-check) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_atlantic_ideas_essay_factcheck_v1.0.0.md` |
 | Stage 3 Pass 3.2 (voice-polish) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_boston_review_essay_stage3_voice_polish_v1.0.0.md` |
 | Stage 3 Pass 3.3 (audience-load acceptance) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_boston_review_essay_stage3_audience_load_v1.0.0.md` |
-| Stage 3 Pass 3.3 (light re-fire after dev-edit) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_noema_essay_pass_3_3_light_rerefire_v1.0.0.md` |
+| Stage 3 Pass 3.3 (light re-fire after dev-edit) | `publishing/essays/noema-commons-bonds/rigor/light-refires/pass-3-3-light-refire_2026-05-24.md` |
 | Stage 3 Pass 3.4 (adversarial robustness) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_4_audience_load_robustness_light_v1.0.0.md` |
 | Stage 3 Pass 3.5 (developmental-edit) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_5_developmental_edit_v1.0.0.md` |
 | Stage 5 sign-off (essay) | Boston Review essay Stage 5 RATIFIED 2026-05-23 (`d34214d`); $100 Barrel Stage 5 RATIFIED 2026-05-24 (`0266525`) |

@@ -33,7 +33,7 @@ After you produce the draft, **stop.** Do not self-evaluate, do not run a rigor 
 
 1. **THIS file** (you are here).
 2. **The two-stage discipline memory** at `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md`.
-3. **The Stage 1 brief** at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`. This is the load-bearing input. It contains: audience pressure-test character set, editorial-brain map for Noema, comp titles cluster, structural decisions (sections + word targets), voice register, Path B preemptive policy, carry-forward inventory, length budget, comparison protocol.
+3. **The Stage 1 brief** at `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`. This is the load-bearing input. It contains: audience pressure-test character set, editorial-brain map for Noema, comp titles cluster, structural decisions (sections + word targets), voice register, Path B preemptive policy, carry-forward inventory, length budget, comparison protocol.
 4. **The named-subject consent discipline** at `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_named_subject_consent.md`. Tells you that Biggie is named; Phat's is anonymized as "a crabber and a fisherman my father had known since he was small" pending consent.
 5. **The Fox Hill primary-source material** at `research/story-drafts/ch3_fox-hill-watermen-biggie-phats_2026-05-09.md`. This is author oral-history dump for Section VI's Fox Hill coda. Polish into final prose; do not paraphrase Ch 1 for this section.
 6. **The cited Chesapeake research** at `research/outreach/subjects/colden/background-brief_2026-05-08.md`, `research/outreach/subjects/moore/background-brief_2026-05-08.md`, and `research/outreach/subjects/cbf/organizational-brief_2026-05-06.md`. Pull verified Colden + Moore quotes for Section VI species block.
@@ -87,7 +87,7 @@ When the draft is complete, stop. Do not self-evaluate. Do not propose cuts. Do 
 
 ## 4. Structural inheritance from Stage 1
 
-Stage 1 ratified the following seven-section structure (full table in `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md` §4). Generate fresh prose for each section from the anchor scenes / authorities listed:
+Stage 1 ratified the following seven-section structure (full table in `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md` §4). Generate fresh prose for each section from the anchor scenes / authorities listed:
 
 | Section | Function | Word target |
 |---|---|---|
@@ -111,7 +111,7 @@ Anchor scenes / authorities for each section are listed in §4 of the Stage 1 br
 
 - **Essay A** (the existing essay) at `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-fresh-draft_named_2026-05-09.md` (~4,580w) and `publishing/essays/noema-commons-bonds/_archive/pre-stage-2-drafts/noema-essay-fresh-draft_anonymized_2026-05-09.md` (~4,610w). These are the *control* in the experiment. Do NOT edit them.
 - **Essay A snapshots** at `noema-essay-pre-pass1_2026-05-09.md` (~5,720w) and `noema-essay-post-pass1_2026-05-09.md` (~4,677w). Historical reference.
-- **Existing rigor passes** at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md` and the Stage 1 brief at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`.
+- **Existing rigor passes** at `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md` and the Stage 1 brief at `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`.
 - **Memory entries** in `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/`. Read MEMORY.md for the index.
 
 ### What you produce
@@ -130,7 +130,7 @@ Anchor scenes / authorities for each section are listed in §4 of the Stage 1 br
 
 1. Read this handoff end-to-end.
 2. Read `feedback_audience_aware_drafting_discipline.md` (the two-stage rule).
-3. Read the Stage 1 brief at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md` end-to-end.
+3. Read the Stage 1 brief at `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md` end-to-end.
 4. Read `feedback_named_subject_consent.md` (Biggie / Phat's policy).
 5. Read `research/story-drafts/ch3_fox-hill-watermen-biggie-phats_2026-05-09.md` (Fox Hill primary source).
 6. Read the three Chesapeake briefs in `research/outreach/subjects/{colden,moore,cbf}/`.
@@ -143,8 +143,8 @@ Anchor scenes / authorities for each section are listed in §4 of the Stage 1 br
 ## 7. Reference files (full inventory)
 
 **Stage 1 + this experiment:**
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md` — Stage 1 brief (audience set + structure + voice + carry-forward + comparison protocol).
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md` — v1.0.0 audience-load framework (will be applied at Stage 3).
+- `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md` — Stage 1 brief (audience set + structure + voice + carry-forward + comparison protocol).
+- `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md` — v1.0.0 audience-load framework (will be applied at Stage 3).
 
 **Memory entries (read MEMORY.md for index):**
 - `feedback_audience_aware_drafting_discipline.md` — the two-stage rule.

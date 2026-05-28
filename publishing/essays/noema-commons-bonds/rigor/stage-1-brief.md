@@ -2,7 +2,7 @@
 
 **Status:** Stage 1 deliverable for the two-stage drafting discipline experiment. Drives a fresh-session Stage 2 audience-blind flow draft. Comparison against the existing essay (Essay A) to be performed in Stage 3 — comparison protocol in §10 below.
 
-**Methodology:** Adapted from `commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md` (which surfaced the agent/publisher-pipeline lens) and `commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md` (which produced the 14-character Noema audience set). The Aeon precedent applied audience pressure-testing to a *title*; this pass applies the same discipline to *structure, scene anchoring, voice register, length budget, and Path B preemptive policy* — i.e., every drafting-relevant decision that should be made *before* a single sentence of prose is written. Codified at `feedback_audience_aware_drafting_discipline.md`.
+**Methodology:** Adapted from `commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md` (which surfaced the agent/publisher-pipeline lens) and `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md` (which produced the 14-character Noema audience set). The Aeon precedent applied audience pressure-testing to a *title*; this pass applies the same discipline to *structure, scene anchoring, voice register, length budget, and Path B preemptive policy* — i.e., every drafting-relevant decision that should be made *before* a single sentence of prose is written. Codified at `feedback_audience_aware_drafting_discipline.md`.
 
 **Why this exists:** The current Noema essay (drafted 2026-05-09) was produced without a Stage 1 pre-draft pass. Pass-1 + audience-load rigor caught the residual filler and apparatus risks; the Path B audit (2026-05-10) revealed the deeper miss — the essay is structurally Chapter 1 with light variations, ~14 verbatim sentences and 9 high-echo paragraphs. This file produces the Stage 1 brief that should have existed before drafting began. A fresh session will use it to produce Essay B; the two essays will then be comparatively run through audience-load rigor as the validation-or-falsification of the two-stage discipline.
 
@@ -168,7 +168,7 @@ Verified public-record material to use in Section VI species block:
 
 ## 10. Comparison protocol — Stage 3 scoring against Essay A
 
-After Stage 2 produces Essay B, run both essays through the v1.0.0 audience-load rigor framework (`commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md`). Output:
+After Stage 2 produces Essay B, run both essays through the v1.0.0 audience-load rigor framework (`publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md`). Output:
 
 1. **Per-element scoring.** For each load-bearing element across both essays, evaluate against each of the 14 audiences (✓✓✓ / ✓✓ / ✓ / ⚠ / ⚠⚠ / ⚠⚠⚠ / –). Tabulate winners per audience per element.
 2. **Aggregate scoring.** Per-audience: which essay wins overall? Per-tier: which essay wins overall? Across all tiers: which essay is closer to publishable?

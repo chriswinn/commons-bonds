@@ -23,7 +23,7 @@
 - Voice + polish pipeline memory: `tools/memory/feedback_voice_polish_pipeline.md` (sift + polish discipline).
 - Ch 3 chapter Pass 3.2 voice-polish predecessor (highest-relevance — same chapter substrate): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-20_ch3_thewaterman_stage3_pass3.2_voice_polish_v1.0.0.md` — read for the voice-polish targets that emerged from Ch 3 chapter prose; Pass 3.2 essay audit should check whether the chapter's polish lessons carried forward into the audience-blind Stage 2 draft OR whether new LLM-cadence drift surfaced through the audience-blind regeneration.
 - Closest-register Wave 1 essay-level Pass 3.2 precedents (first-person long-form + multi-voice reportage):
-  - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md` (Noema first-person long-form essay Pass 2 voice-polish — closest first-person register fit).
+  - `publishing/essays/noema-commons-bonds/rigor/pass-3-2-voice-polish.md` (Noema first-person long-form essay Pass 2 voice-polish — closest first-person register fit).
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_atlantic_ideas_essay_voice_polish_v1.0.0.md` (Atlantic Ideas voice-polish — same publishing house, different sub-editor pool, declarative-thesis-and-defend register; READ FOR DIFFERENTIATION; Atlantic features register is *cumulative-portrait*, not declarative-thesis).
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_boston_review_essay_stage3_voice_polish_v1.0.0.md` (Boston Review third-person institutional voice-polish — format-reference for per-finding artifact structure; register-differentiated).
   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_2_voice_polish_v1.0.0.md` (Ch 4 FA Pass 3.2 — most-recent same-wave sibling; format-reference).
@@ -193,7 +193,7 @@ this same session.
 
 13. Closest-register Wave 1 essay-level Pass 3.2 precedents
     (artifact-structure + register reference, NOT prose source):
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_noema_essay_pass_2_voicepolish_v1.0.0.md
+    - publishing/essays/noema-commons-bonds/rigor/pass-3-2-voice-polish.md
       (Noema first-person long-form essay Pass 2 voice-polish —
       CLOSEST first-person observational-frame register fit;
       multi-voice reportage adjacent)

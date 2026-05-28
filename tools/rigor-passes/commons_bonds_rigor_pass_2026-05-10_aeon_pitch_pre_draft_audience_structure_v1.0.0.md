@@ -2,7 +2,7 @@
 
 **Status:** Stage 1 deliverable for the two-stage drafting discipline experiment, applied to the Aeon Pitch as the second test case. Drives a fresh-session Stage 2 audience-blind flow draft of Pitch B. Comparison against the existing Pitch (Pitch A = Version C, ratified 2026-05-08) to be performed in Stage 3.
 
-**Methodology:** Same framework as `commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`, with Aeon-specific differences:
+**Methodology:** Same framework as `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`, with Aeon-specific differences:
 - Aeon's editorial brain is **literary-philosophical, thought-experiment-tolerant, abstract-tolerant**. Tolerates more philosophical apparatus than Noema's policy-engaged-reportage register. Prizes distinctive philosophical framing, universalizability, and cross-domain reach.
 - Pitch is a **~230–300-word query**, not a full essay. Different conventions: state argument simply + outline how it'll be made (Haselby APA Blog 2020-12-10: *"a simple, direct opener that states the argument followed by 200 words outlining how it will be made"*).
 - Editor-read time is **seconds, not minutes**. First sentence does most of the work. Every sentence load-bearing.

@@ -72,7 +72,7 @@ Concrete steps per chapter pair (10 chapters → 45 unique pairs; not all need f
 1. Read this handoff end-to-end.
 2. Read `tools/workstream-handoffs/README.md` for branch discipline.
 3. Read the `feedback_audience_aware_drafting_discipline.md` memory entry. If Stage 3 of the methodology experiment has been completed, read its verdict — that may inform whether to use the two-stage discipline retrospectively or use a different audit approach.
-4. Read the Noema essay Path B audit findings (in the conversation log on 2026-05-10 if available, or the Noema rigor-pass file `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md` for context on what Ch 1 echoes look like).
+4. Read the Noema essay Path B audit findings (in the conversation log on 2026-05-10 if available, or the Noema rigor-pass file `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md` for context on what Ch 1 echoes look like).
 5. Confirm with user the priority pair list (which chapter pairs to audit first).
 6. Begin with Ch 5 + Ch 6 pair (framework apparatus likely overlap), then Ch 5 + Ch 9 (pricing apparatus likely overlap), then Ch 2 + Ch 3 + Ch 8 (extraction-case-walks likely overlap).
 
@@ -93,7 +93,7 @@ Concrete steps per chapter pair (10 chapters → 45 unique pairs; not all need f
 - `manuscript/chapters/_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md`
 - Tech Appendix (location varies; check `manuscript/` and `tools/` directories)
 - `feedback_audience_aware_drafting_discipline.md` (memory)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md` (the audit framework + Noema-essay findings)
+- `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md` (the audit framework + Noema-essay findings)
 - `publishing/essays/noema-commons-bonds/_archive/pre-pass1-drafts/noema-essay-pre-pass1_2026-05-09.md` and `noema-essay-post-pass1_2026-05-09.md` (Path B's worst-case effects on essay quality, useful as reference for severity calibration)
 
 ---

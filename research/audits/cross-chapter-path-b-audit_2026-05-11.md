@@ -129,7 +129,7 @@ Steps to add for the NEXT pass:
 ## Cross-references to companion documents
 
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md` — companion apparatus register rigor pass (this audit's bundled twin)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-09_noema_essay_audience_load_v1.0.0.md` — Noema rigor pass that triggered this cross-chapter audit
+- `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md` — Noema rigor pass that triggered this cross-chapter audit
 - `tools/workstream-handoffs/path-b-audit-cross-chapter-handoff_2026-05-10.md` — parent handoff
 - `tools/workstream-handoffs/apparatus-register-sweep-handoff_2026-05-10.md` — bundled-twin parent handoff
 

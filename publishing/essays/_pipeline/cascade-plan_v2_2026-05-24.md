@@ -351,7 +351,7 @@ Final-5 selection rule (per cascade-plan v1 update 2026-05-08): Mazzucato + Pist
 
 **Wave 1 Stage 1 briefs (per essay):**
 - Aeon: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`.
-- Noema: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`.
+- Noema: `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`.
 - Boston Review: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_boston_review_essay_pre_draft_audience_structure_v1.0.0.md`.
 - Atlantic Ideas: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`.
 - $100 Barrel: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md` (referenced via PW workstream cross-thread #10).

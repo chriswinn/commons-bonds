@@ -4,15 +4,15 @@
 
 **Audit target:** [`publishing/essays/noema-commons-bonds/essay.md`](../../publishing/essays/noema-commons-bonds/essay.md) (Essay B in current state — header asserts §6.1 six surgical fact-fixes + §6.2 voice improvements + bundling-synthesis import have been applied).
 
-**Source of truth:** Stage 1 brief [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) §7 canonical-facts inventory (Amendment A canonical-truth section). Per v2.0 Path B preemptive policy, Ch 1 / Ch 3 / Ch 10 are NOT source-of-truth — they are themselves derivative; the Stage 1 brief is the single canonical baseline.
+**Source of truth:** Stage 1 brief [`publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`](stage-1-brief.md) §7 canonical-facts inventory (Amendment A canonical-truth section). Per v2.0 Path B preemptive policy, Ch 1 / Ch 3 / Ch 10 are NOT source-of-truth — they are themselves derivative; the Stage 1 brief is the single canonical baseline.
 
-**Prior pass cross-reference:** Stage 3 comparison verdict [`commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md) §3.8 catalogs 5+ factual drift points; §6.1 prescribed six surgical fact-fixes. This pass first verifies whether those fixes are still applied in the current Essay B file, then surfaces net-new findings.
+**Prior pass cross-reference:** Stage 3 comparison verdict [`stage-3-comparison_2026-05-10.md`](stage-3-comparison_2026-05-10.md) §3.8 catalogs 5+ factual drift points; §6.1 prescribed six surgical fact-fixes. This pass first verifies whether those fixes are still applied in the current Essay B file, then surfaces net-new findings.
 
 **Methodology:** Section-by-section audit against Stage 1 brief §7 canonical-truth section. Findings split into two streams: (a) re-flag if any §6.1 spot-fix is NOT applied (preserves original F-id from Stage 3 comparison §3.8); (b) net-new findings (F-FC-Noema-K numbering). External-citation verifications performed for HIGH-severity calls (Norway fiscal rule, *Umbrellas Don't Make It Rain* author order, A. Kirsten Mullen professional identity).
 
 **Hard constraint at original PROPOSED time:** No spot-fixes applied to the essay file. Phase C application is a separate session post-author-ratification.
 
-**Update 2026-05-21:** Amendment C interactive ratification session combined ratification + Phase C application in a single session. All ratified spot-fixes have been applied to the essay file ([publishing/essays/noema-commons-bonds/essay.md](../../publishing/essays/noema-commons-bonds/essay.md)) AND to the Stage 1 brief ([commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md) §7). See §9 below.
+**Update 2026-05-21:** Amendment C interactive ratification session combined ratification + Phase C application in a single session. All ratified spot-fixes have been applied to the essay file ([publishing/essays/noema-commons-bonds/essay.md](../../publishing/essays/noema-commons-bonds/essay.md)) AND to the Stage 1 brief ([stage-1-brief.md](stage-1-brief.md) §7). See §9 below.
 
 ---
 
@@ -540,7 +540,7 @@ Trade-off accepted: drops the blurb-worthy aphorism in exchange for tighter math
 
 ### 9.5 Stage 1 brief repair completeness
 
-Six CTG canonical-truth-gap items applied to [commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md](commons_bonds_rigor_pass_2026-05-10_noema_essay_pre_draft_audience_structure_v1.0.0.md):
+Six CTG canonical-truth-gap items applied to [stage-1-brief.md](stage-1-brief.md):
 
 | CTG | Brief §-anchor | Status |
 |---|---|---|

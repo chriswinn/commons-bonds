@@ -307,7 +307,7 @@ This pass surfaced **one** Stage 1 brief CTG (CTG-1, Norway fiscal-rule history)
 - **Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md)
 - **Stage 1 brief (source of truth):** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md)
 - **Prior pass (comparative draft audit):** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md)
-- **Sibling Pass 3.1 (Noema; format precedent + parallel CTG-1):** [`commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_noema_essay_pass_1_factcheck_v1.0.0.md)
+- **Sibling Pass 3.1 (Noema; format precedent + parallel CTG-1):** [`pass-3-1-fact-check.md`](../../publishing/essays/noema-commons-bonds/rigor/pass-3-1-fact-check.md)
 - **Bibliography:** [`research/literature/bibliography.md`](../../research/literature/bibliography.md)
 - **v3.1 discipline reference:** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)
 - **Pipeline doctrine (five-pass Stage 3 codification):** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6 Amendment B 2026-05-18

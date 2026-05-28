@@ -10,7 +10,7 @@
 
 ## ★ v2.0 two-stage drafting discipline applies to this workstream
 
-The two-stage audience-aware drafting discipline ratified at v2.0 on 2026-05-10 (Amendments A + B + C) is the **default methodology for this essay**. Any fresh session opening this workstream must apply v2.0 in full. Authoritative reference: `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md` (mirrored at `tools/memory/feedback_audience_aware_drafting_discipline.md`). Empirical basis: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` and `..._aeon_pitch_stage3_comparison_v1.0.0.md`.
+The two-stage audience-aware drafting discipline ratified at v2.0 on 2026-05-10 (Amendments A + B + C) is the **default methodology for this essay**. Any fresh session opening this workstream must apply v2.0 in full. Authoritative reference: `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md` (mirrored at `tools/memory/feedback_audience_aware_drafting_discipline.md`). Empirical basis: `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` and `..._aeon_pitch_stage3_comparison_v1.0.0.md`.
 
 **Regime fit.** This workstream is a long-form (~3,500–4,500w target band) publisher-facing essay derived from Ch 9 *Pricing Honestly* — a chapter containing the four-step Classify / Reserve / Invest / Reassess sequence + dense Pistor/Christophers/Susskind/Public-Choice engagement + the Sweden-1932 / US-2008 architecture contrast + the eleven-cent-tax-wedge structural observation + the Mondragon/Vienna/Chattanooga "entering wedges" reachable-horizon cluster. The v2.0 domain-of-applicability rule clauses fire as follows:
 
@@ -32,7 +32,7 @@ All three clauses fire — apply v2.0, no exceptions.
    Three distinct passes. Bundling is the failure mode v2.0 prohibits.
 4. **Path B preemptive policy throughout.** No Ch 9 prose in front of any drafting session. Any sentence that reads as a Ch 9 echo at Stage 3 fact-check gets rewritten freshly, not pasted from Ch 9.
 
-**Cross-references.** v2.0 memory: `feedback_audience_aware_drafting_discipline.md`. Noema Stage 3 verdict (per-test basis for Amendments A + B): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_noema_stage3_comparison_v1.0.0.md` §3.8 (factual-fidelity drift catalog) + §7 (materials handed to meta-verdict). Aeon Stage 3 verdict (per-test basis for Amendment C — confirms the discipline's regime is long-form-without-strong-control, not short-form-with-strong-control): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md` §5–§6.
+**Cross-references.** v2.0 memory: `feedback_audience_aware_drafting_discipline.md`. Noema Stage 3 verdict (per-test basis for Amendments A + B): `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` §3.8 (factual-fidelity drift catalog) + §7 (materials handed to meta-verdict). Aeon Stage 3 verdict (per-test basis for Amendment C — confirms the discipline's regime is long-form-without-strong-control, not short-form-with-strong-control): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md` §5–§6.
 
 ---
 
