@@ -25,21 +25,75 @@ Plus the current session handoff from `alignment/sessions/`.
 
 ## Subfolders
 
+**Updated 2026-05-28** — inventory refreshed to match actual subdir contents; pre-2026-05-28 versions of this section referenced `tools/triage/` (no longer present) and omitted most active subdirs.
+
 ### `tools/rigor-passes/`
 
-Historical audit trail of rigor passes. The most recent pass record is part of the session-upload set; older records stay here for lineage. Naming pattern: `commons_bonds_rigor_pass_YYYY-MM-DD_v#_#_#.md`.
+Historical audit trail of rigor passes. ~260+ files spanning Stage 0 → Stage 5 work across chapters + essays. Naming pattern: `commons_bonds_rigor_pass_YYYY-MM-DD_<slug>_<stage>_v#_#_#.md`.
 
-### `tools/triage/`
+**Migration queue (2026-05-28).** Per-essay rigor consolidation pattern ratified 2026-05-28 (see `publishing/essays/README.md` §Per-essay directory layout). Per-essay rigor artifacts (5 passes + Stage 1 brief + Stage 4 + Stage 5 + pre-pub-review-queue) are migrating into `publishing/essays/<venue>/rigor/` subdirs. After migration, `tools/rigor-passes/` will hold only:
+- Cross-essay rigor (e.g., Wave 2 derivative-planning Stage 0 batch covering Ch 2 + Ch 3 + Ch 4 + Ch 8)
+- Chapter-side rigor for `manuscript/chapters/Chapter__N_*` (book-side, not essay-side)
+- Pre-2026-05-28 historical artifacts retained for lineage
 
-Triage files that fed specific rigor passes — one-session inputs that may be referenced if returning to the pass's topic. Upload at session start only if working on the triage's topic. Naming pattern: `commons_bonds_{topic}_triage_v#_#_#.md`.
+### `tools/workstream-handoffs/`
 
-### `tools/archive/`
+PM dashboards, per-workstream session handoffs, kick-off paste-texts, cross-essay portfolio reviews, parallel-session inventory snapshots. ~85+ files. Naming patterns: `pm-session-handoff_YYYY-MM-DD.md` (PM dashboards), `<workstream-slug>-handoff_YYYY-MM-DD.md` (workstream handoffs), `<workstream-slug>-paste-text_YYYY-MM-DD.md` (kick-off scaffolds). Index at [`workstream-handoffs/README.md`](workstream-handoffs/README.md).
 
-Superseded versions of canonical methodology docs — older book scope versions, older rigor protocol versions, older pass records, deprecated candidates. Not uploaded; retained for lineage.
+### `tools/memory/`
+
+In-repo mirror of the cross-session discipline registry (laptop copy at `~/.claude/projects/-Users-c17n-commons-bonds/memory/`). 19+ situational + 3 always-loaded discipline files (feedback / project / reference). Index at [`memory/README.md`](memory/README.md); always-loaded set hooked from `CLAUDE.md` via `@import`.
+
+### `tools/quality-gates/`
+
+Live gate-status records + invariant-gate registries. Subdirs:
+- `scaffolding-patterns.yaml` + `regressed-patterns.yaml` — pattern registries for invariant-gate scans
+- `clean-baselines/` — per-chapter + per-essay Stage 1a invariant-gate-pass records
+- `coherence-checks/` — per-chapter + per-essay Stage 1c coherence-check records
+- `render-baselines/` — Docker container outputs for Stage 4 render audits
+- `sign-offs/` — per-chapter + per-essay Stage 5 sign-off records
+
+Updates per session as artifacts move through Stage 1 + Stage 4 + Stage 5 gates.
+
+### `tools/drafting-templates/`
+
+Reusable class-level templates: `stage-0-publishing-strategy-rigor-test.md`, `stage-1-audience-aware-structure-pass.md`, `stage-2-audience-blind-flow-draft.md`, `stage-3-three-pass-rigor-audit.md`, `audience-pressure-test-construction.md`. Plus session-scaffolding paste-texts (worktree-isolation, session-checkin). Don't change per-session; instance-level paste-texts go in `workstream-handoffs/`.
+
+### `tools/stage-1-briefs/`
+
+Chapter-side Stage-1 briefs (ready-to-draft gate for workstreams that touch chapters, not essays). Per-essay Stage 1 briefs live in `publishing/essays/<venue>/rigor/stage-1-brief.md` per 2026-05-28 consolidation.
+
+### `tools/pre-submission-reviews/`
+
+Stage-5 hand-off artifacts: per-essay + per-chapter pre-publication review queue records. Naming: `<slug>_pre_pub_review_queue_v#_#_#.md`. Also holds historical PCR (pre-submission comprehensive review) artifacts from earlier project phases.
+
+### `tools/memory-updates/`
+
+Staging area for memory-discipline updates. New / amended discipline files land here first, then mirror into `tools/memory/` once the in-repo mirror is updated.
 
 ### `tools/scripts/`
 
-CLI utilities and any binary style templates they depend on. Currently: `build-derivatives.sh` (generates standardized .docx + .pdf from .md / .html sources; routes HTML→PDF through wkhtmltopdf to preserve CSS, MD→PDF through pandoc+xelatex for book-style typography) and `reference.docx` (the canonical .docx style template — originally a copy of the Ch 6 packet-send file; pandoc inherits its styles automatically). Not uploaded at session start; run from the command line. See `tools/scripts/README.md` for full command-line usage, prerequisites, flags, and troubleshooting (or `build-derivatives.sh -h` for inline help).
+CLI utilities + supporting binaries: `build-derivatives.sh` (.md / .html → .docx + .pdf), `check-corpus-invariants.sh` (scaffolding + regressed-pattern scanner), `session-start-worktree-isolation.sh` (SessionStart hook), `reference.docx` (canonical style template). Not session-upload set; run from CLI. See `tools/scripts/README.md` for usage.
+
+### `tools/audits/`
+
+Snapshot inventories (cross-chapter consistency, pre-submission readiness). Lower-volume bin distinct from live `quality-gates/` records + `rigor-passes/` audit trail.
+
+### `tools/writing-process/`
+
+Meta-reflection artifacts (rigor-pipeline-overview, drafting-flow notes).
+
+### `tools/drafts/`
+
+Intermediate prose drafts + working-session outputs. Lower-volume; distinct from manuscript / publishing canonical paths.
+
+### `tools/archive/`
+
+Superseded versions of canonical methodology docs (older rigor protocol versions; deprecated test artifacts). Not uploaded; retained for lineage. Most supersession lives in git history; this folder catches the explicit "do not load" cases.
+
+### `tools/routines/`
+
+Operational routine specs (low-volume).
 
 ---
 

@@ -15,20 +15,62 @@ Per-essay submission packages. Each `<venue>-<short-title>/` directory holds the
 
 ## Per-essay directory layout
 
+**Updated 2026-05-28** with `rigor/` + `editor-iteration/` + `_archive/pre-submission/` subdirs per the per-essay-consolidation pattern ratified 2026-05-28. Per-essay rigor history co-locates with the essay package so editor-iteration loops (post-acceptance) can grep the full audit trail within one folder; also collapses the multi-location "what's the state of X?" lookup into one `ls`.
+
 ```
 <venue>-<short-title>/
-├── README.md           submission state + checklist + cross-references
-├── essay.md            submission-ready essay text
-├── cover-letter.md     submission cover note (Decision #13 deliverable)
-├── stage-5-signoff.md  Stage 5 sign-off bookend
-└── _archive/           historical drafts of THIS essay
+├── README.md                      submission state + checklist + cross-references
+├── essay.md                       submission-ready essay text
+├── cover-letter.md                submission cover note
+├── stage-5-signoff.md             Stage 5 sign-off bookend
+├── rigor/                         per-essay rigor history (NEW 2026-05-28)
+│   ├── stage-1-brief.md           Stage 1 ready-to-draft brief (per-essay)
+│   ├── pass-3-1-fact-check.md
+│   ├── pass-3-2-voice-polish.md
+│   ├── pass-3-3-audience-load.md
+│   ├── pass-3-4-adversarial.md
+│   ├── pass-3-5-developmental-edit.md
+│   ├── stage-4-render-audit.md
+│   ├── pre-pub-review-queue.md
+│   └── light-refires/             post-Phase-C light re-fire records (if applicable)
+├── editor-iteration/              post-acceptance editor-round artifacts (NEW 2026-05-28)
+│   ├── round-1_<YYYY-MM-DD>/
+│   │   ├── editor-questions.md    the letter / email from editor
+│   │   ├── responses.md           author answers with rationale
+│   │   ├── essay-revisions.md     what changed in essay.md + why (diff-style)
+│   │   └── source-citations.md    new sourcing requests + responses
+│   └── round-2_<YYYY-MM-DD>/
+│       └── ...
+└── _archive/                      historical drafts of THIS essay
+    ├── pre-submission/            frozen essay state at moment of submit (NEW 2026-05-28)
+    │   └── essay_pre-editor_<YYYY-MM-DD>.md
     ├── pre-pass1-drafts/
     ├── pre-stage-2-drafts/
-    ├── withdrawn-<date>/   (if applicable)
+    ├── withdrawn-<date>/          (if applicable)
     ├── session-handoffs/
-    ├── planning/           drafting plans; rewrite plans
-    └── reference/          venue PDFs (writing guidelines; model pitches)
+    ├── planning/                  drafting plans; rewrite plans
+    └── reference/                 venue PDFs (writing guidelines; model pitches)
 ```
+
+### What goes in `rigor/` vs `tools/rigor-passes/`
+
+After the per-essay rigor consolidation migration (queued; pilot session via spawned chip 2026-05-28):
+
+- **`<venue>-<short-title>/rigor/`** — rigor-pass artifacts that pertain to ONE essay (the 5 passes, Stage 1 brief, Stage 4 render audit, Stage 5 pre-pub review queue, any light re-fires). Naming flattens from `commons_bonds_rigor_pass_<DATE>_<slug>_pass_3_1_v1.0.0.md` to `pass-3-1-fact-check.md` since the per-essay folder provides the disambiguation.
+- **`tools/rigor-passes/`** — cross-essay or cross-chapter rigor artifacts that pertain to MULTIPLE essays / chapters (e.g., Wave 2 derivative-planning Stage 0 batch covering Ch 2 + Ch 3 + Ch 4 + Ch 8 in one file; cross-essay portfolio reviews; chapter-side rigor for `manuscript/chapters/Chapter__N_*` files).
+
+The per-essay `README.md` links to any `tools/rigor-passes/` artifacts that include this essay (e.g., "Stage 0 verdict: see `tools/rigor-passes/wave-2-stage-0-batch_2026-05-24.md` §4.2 Candidate B").
+
+### `editor-iteration/` workflow (post-acceptance)
+
+When an editor accepts the essay and begins iteration, each round gets its own dated subdir under `editor-iteration/`. Pre-submission freeze (`_archive/pre-submission/essay_pre-editor_<DATE>.md`) captures the version sent to the editor so revisions are diff-able. Round-N response artifacts:
+
+- `editor-questions.md` — the editor's letter / email verbatim (or anonymized if needed)
+- `responses.md` — point-by-point answers; rationale for keeping or changing
+- `essay-revisions.md` — what changed in essay.md, organized by editor question
+- `source-citations.md` — sourcing answers; new citations added; supporting evidence
+
+The `essay.md` itself is updated in place during each round (no `essay-v2.md`, `essay-v3.md` proliferation) — the rounds are the audit trail.
 
 ## Status tags (per Q3 + Q10 ratification 2026-05-24)
 
