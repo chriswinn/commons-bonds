@@ -8,7 +8,7 @@
 
 **When NOT to use.** Book-proposal sections. Internal-scaffolding. Email correspondence. In-book defense paragraphs. Op-eds in cascade-plan-cleared venues.
 
-**Canonical example.** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md)
+**Canonical example.** [`publishing/essays/100-barrel/rigor/q1-go-no-go.md`](../../publishing/essays/100-barrel/rigor/q1-go-no-go.md)
 
 ---
 

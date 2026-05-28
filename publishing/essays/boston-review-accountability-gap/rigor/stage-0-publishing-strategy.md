@@ -4,7 +4,7 @@
 
 **Scope (fuller Stage 0 per BR brief Decision #15):** Q1 GO/NO-GO verdict + Q2 sequencing verdict + FPD v1.0.0 non-partisan-framing re-confirm + venue allocation against current state + rights-conflict updates since 2026-05-06 + comp-titles validation against current bibliography + Berggruen-Aeon-Noema cascade coordination check + cross-thread-todos refresh + agent-pipeline alignment with Wave-1 late-July/early-August 2026 target.
 
-**Reference template:** [`tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`](../drafting-templates/stage-0-publishing-strategy-rigor-test.md). Canonical example: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md).
+**Reference template:** [`tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`](../drafting-templates/stage-0-publishing-strategy-rigor-test.md). Canonical example: [`publishing/essays/100-barrel/rigor/q1-go-no-go.md`](../../100-barrel/rigor/q1-go-no-go.md).
 
 **Workstream:** Boston Review essay (PM dashboard #2). Source: Ch 5 *The Accountability Gap*. Target venue: Boston Review, Essays & Book Reviews stream via Submittable. Target length: ~4,500w body (per BR brief Decision #8). Target submission: mid-to-late July 2026.
 

@@ -185,7 +185,7 @@ Log location: per cascade plan §"Outreach" discipline — recommend either a de
 - **Stage 3 rigor passes (latest per essay):**
   - Aeon: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-3-and-3-4-bundled-audience-load.md` (Pass 3.3 + 3.4 bundled READY TO SUBMIT)
   - Noema: `publishing/essays/noema-commons-bonds/rigor/pass-3-1-fact-check.md` (Pass 3.1 RATIFIED + APPLIED 2026-05-21)
-  - $100 Barrel: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md` (Pass 3.1 RATIFIED + APPLIED; comparative Pass 3.3 + 3.4 done)
+  - $100 Barrel: `publishing/essays/100-barrel/rigor/pass-3-1-fact-check.md` (Pass 3.1 RATIFIED + APPLIED; comparative Pass 3.3 + 3.4 done)
 - **Op-eds:** `publishing/op-eds/norway-sovereign-wealth/op-ed.md` + `publishing/op-eds/mcdowell-county-true-cost/op-ed.md`
 - **Pipeline doctrine (v3.1 Amendment B + C):** `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + `tools/memory/feedback_audience_aware_drafting_discipline.md`
 - **Cross-thread-todos (active):** `publishing/essays/_pipeline/cross-thread-todos.md`

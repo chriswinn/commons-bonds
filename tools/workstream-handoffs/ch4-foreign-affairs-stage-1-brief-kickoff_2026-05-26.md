@@ -76,7 +76,7 @@ audience-blind draft session will work from.
 13. Wave 1 brief examples for pattern reference (the $100 Barrel brief
     is the closest fit — institutional-policy register; non-partisan-
     framing-dispositive audience; Condition-1 disarming-moves anchor):
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md
+    - publishing/essays/100-barrel/rigor/stage-1-brief.md
     - publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md
       (BR §8 apparatus-exclusion-list pattern is the load-bearing
       precedent for the named-OK / EXCLUDED cap in this brief)
@@ -298,7 +298,7 @@ Wave 1 pattern).
 - Stage 1 doctrine: `tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`
 - Marketing-phase memory: `tools/memory/project_book_complete_marketing_phase.md`
 - Cascade plan v2: `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md`
-- Wave 1 brief examples: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md` (closest fit — institutional-policy register) + Boston Review brief (BR §8 apparatus-exclusion-list pattern precedent) + Atlantic Ideas brief
+- Wave 1 brief examples: `publishing/essays/100-barrel/rigor/stage-1-brief.md` (closest fit — institutional-policy register) + Boston Review brief (BR §8 apparatus-exclusion-list pattern precedent) + Atlantic Ideas brief
 - Ch 4 chapter-side Stage 3 cascade artifacts (full set in `tools/rigor-passes/`):
   - `ch4_existence_proof_stage3_pass_3_1_verify_2026-05-25.md`
   - `ch4_existence_proof_stage3_pass_3_2_verify_2026-05-25.md`

@@ -184,7 +184,7 @@ Implementation: `tools/scripts/check-corpus-invariants.sh`.
   cross-chapter workstream (would have been missed by acceptance-only).
 - v3.0 Condition-1-execution-choice anchor: $100 Barrel parallel-Stage-2-drafts
   comparative audit (2026-05-21,
-  `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`)
+  `publishing/essays/100-barrel/rigor/stage-3-comparative-draft-audit.md`)
   ran the full 18-character acceptance + 5-character adversarial set across
   two parallel Stage 2 drafts of the same brief. Both drafts were
   Stage-1-brief-compliant. The differential was **execution choice**:

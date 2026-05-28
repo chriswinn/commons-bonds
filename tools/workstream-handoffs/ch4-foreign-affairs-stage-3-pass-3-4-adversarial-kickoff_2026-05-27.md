@@ -141,7 +141,7 @@ before FA-portal submit is the discipline).
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_100_barrel_essay_stage3_pass_3_4_adversarial_v1.0.0.md
 
 12. $100 Barrel 2026-05-21 Condition-1-disarming-moves comparative
-    anchor: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`
+    anchor: `publishing/essays/100-barrel/rigor/stage-3-comparative-draft-audit.md`
     (load-bearing if A2 pressure-test surfaces center-right reader
     as dispositive — per brief §1 Tier 2 #9 conditional-elevation
     trigger language).

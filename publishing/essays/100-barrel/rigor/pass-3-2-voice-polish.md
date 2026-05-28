@@ -31,7 +31,7 @@ Active-findings count post-Amendment-B: 0 (all 6 active findings APPLIED; F-VP-B
 
 **Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (Draft A; 4,088w post-Pass-3.1-Phase-C; on `main` commit `cf5db97`).
 
-**Source of truth for voice register:** Stage 1 brief [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md) §5 (voice register) + §8 (locked elements). Comparative draft audit [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md) §8.3 supplied three voice-polish candidates as input.
+**Source of truth for voice register:** Stage 1 brief [`publishing/essays/100-barrel/rigor/stage-1-brief.md`](stage-1-brief.md) §5 (voice register) + §8 (locked elements). Comparative draft audit [`stage-3-comparative-draft-audit.md`](stage-3-comparative-draft-audit.md) §8.3 supplied three voice-polish candidates as input.
 
 **Prior pass cross-reference:** Pass 3.1 fact-check artifact + Phase C application landed 2026-05-21 (commit `cf5db97`); no Pass 3.1 finding had Pass 3.2 voice-polish impact. This pass operates on the fact-corrected text.
 
@@ -387,9 +387,9 @@ The other Stage 1 brief §5 categories ("in short / ultimately / fundamentally";
 ## 7. Cross-references
 
 - **Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (4,088w post-Pass-3.1-Phase-C)
-- **Stage 1 brief (voice register source of truth):** [`commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md) §5 + §8
-- **Prior pass (Pass 3.1 fact-check + Phase C):** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md); Phase C application commit `cf5db97`
-- **Comparative draft audit (input):** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md) §8.3
+- **Stage 1 brief (voice register source of truth):** [`stage-1-brief.md`](stage-1-brief.md) §5 + §8
+- **Prior pass (Pass 3.1 fact-check + Phase C):** [`pass-3-1-fact-check.md`](pass-3-1-fact-check.md); Phase C application commit `cf5db97`
+- **Comparative draft audit (input):** [`stage-3-comparative-draft-audit.md`](stage-3-comparative-draft-audit.md) §8.3
 - **v3.1 discipline reference:** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)
 - **Pipeline doctrine (Pass 3.2 polarity spec):** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6.2
 

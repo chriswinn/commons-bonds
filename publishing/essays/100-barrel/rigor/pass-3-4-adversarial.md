@@ -4,7 +4,7 @@
 
 **Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (4,145w post-Pass-3.2-Phase-C; on `main` commit `a1702e9`).
 
-**Baseline (canonical):** Comparative draft audit Pass 3.4 Draft A verdicts (`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md` §6):
+**Baseline (canonical):** Comparative draft audit Pass 3.4 Draft A verdicts (`publishing/essays/100-barrel/rigor/stage-3-comparative-draft-audit.md` §6):
 - A1 Industry-funded energy economist: ROBUST (cost-severance definition + Nigeria specifics + Norway "constitutional" framing give attack surface but attacks don't land easily)
 - A2 Public Choice theorist: CONDITIONALLY ROBUST (Norway "constitutional" framing substantively responsive; cross-chapter rent-seeking workstream is structural backstop)
 - A3 WSJ editorial-board reader: ROBUST (locked register-anchors LOUDLY ON; architecture-not-program defense loud)
@@ -188,11 +188,11 @@ A2 Public Choice routes to cross-chapter rent-seeking-engagement workstream (Ch 
 
 ## 7. Cross-references
 
-- **Pass 3.3 acceptance light (prior pass):** [`commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_3_audience_load_acceptance_light_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_3_audience_load_acceptance_light_v1.0.0.md) — RATIFIED 2026-05-23. PASS verdict.
-- **Pass 3.2 voice-polish:** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_2_voice_polish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_2_voice_polish_v1.0.0.md) — RATIFIED + APPLIED 2026-05-23 (commit `8b2614a`).
-- **Comparative draft audit (Pass 3.4 baseline source of truth):** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md) §6 (Pass 3.4 adversarial robustness) + §8 (comparative verdict).
-- **Pass 3.1 fact-check:** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md) — RATIFIED + APPLIED commit `cf5db97`.
-- **Stage 1 brief (adversarial set source of truth):** [`commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md) §1 adversarial robustness subsection.
+- **Pass 3.3 acceptance light (prior pass):** [`pass-3-3-audience-load.md`](pass-3-3-audience-load.md) — RATIFIED 2026-05-23. PASS verdict.
+- **Pass 3.2 voice-polish:** [`pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md) — RATIFIED + APPLIED 2026-05-23 (commit `8b2614a`).
+- **Comparative draft audit (Pass 3.4 baseline source of truth):** [`stage-3-comparative-draft-audit.md`](stage-3-comparative-draft-audit.md) §6 (Pass 3.4 adversarial robustness) + §8 (comparative verdict).
+- **Pass 3.1 fact-check:** [`pass-3-1-fact-check.md`](pass-3-1-fact-check.md) — RATIFIED + APPLIED commit `cf5db97`.
+- **Stage 1 brief (adversarial set source of truth):** [`stage-1-brief.md`](stage-1-brief.md) §1 adversarial robustness subsection.
 - **v3.1 discipline reference:** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)
 - **Pipeline doctrine (Pass 3.4 spec):** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6.3
 - **Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (4,145w; on `main` commit `a1702e9`)

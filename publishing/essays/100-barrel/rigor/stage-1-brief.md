@@ -4,7 +4,7 @@
 
 **Workstream:** $100 Barrel essay (Workstream #16); derivative essay from withdrawn-Noema §III for Phenomenal World submission. Handoff: [`tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`](../workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md).
 
-**Stage 0 verdict carry-forward.** Q1 GO/NO-GO/CONDITIONAL rigor pass at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md) returned CONDITIONAL, author-ratified 2026-05-11. Condition 1 (**non-partisan framing discipline**) carries forward into this brief as load-bearing pressure-test architecture; Condition 2 (apparatus-stability checkpoint) verified by PM Session 2026-05-19 ahead of session fire (rigor-pass artifact merge per CLAUDE.md default).
+**Stage 0 verdict carry-forward.** Q1 GO/NO-GO/CONDITIONAL rigor pass at [`publishing/essays/100-barrel/rigor/q1-go-no-go.md`](q1-go-no-go.md) returned CONDITIONAL, author-ratified 2026-05-11. Condition 1 (**non-partisan framing discipline**) carries forward into this brief as load-bearing pressure-test architecture; Condition 2 (apparatus-stability checkpoint) verified by PM Session 2026-05-19 ahead of session fire (rigor-pass artifact merge per CLAUDE.md default).
 
 **Methodology anchor:** mirrors the Noema Stage 1 brief structure ([`publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`](../../publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md)) with venue-specific adaptations from [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) §4 (Phenomenal World row) + §5 (Stage 0 carry-forward → Center-right policy reader as Tier 1 additional gating audience).
 
@@ -399,7 +399,7 @@ Per-prompt serial cadence per v2.0 Amendment B (preserved in v3.0). Each pass fi
 ## 14. Cross-references
 
 - **Workstream handoff:** [`tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`](../workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md)
-- **Q1 GO/NO-GO/CONDITIONAL rigor pass:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md) — Condition 1 carry-forward source
+- **Q1 GO/NO-GO/CONDITIONAL rigor pass:** [`publishing/essays/100-barrel/rigor/q1-go-no-go.md`](q1-go-no-go.md) — Condition 1 carry-forward source
 - **Source material:** [`archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md`](../../archive/_OneDayMaybe/withdrawn-essays/draft2_withdrawn-noema_2026-05-01.md) §III (lines 66–126) + Stern-Nordhaus retrospective at line 131
 - **Stage 1 template:** [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](../drafting-templates/stage-1-audience-aware-structure-pass.md)
 - **Audience pressure-test construction guide (v3.0):** [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) — §4 PW row + §5 carry-forward addition

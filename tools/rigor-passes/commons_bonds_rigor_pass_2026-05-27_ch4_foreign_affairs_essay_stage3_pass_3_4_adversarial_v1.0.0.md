@@ -28,7 +28,7 @@ For the FA derivative specifically: per Stage 0 §4.3 + brief §1 + §2 + §16 �
 4. Pass 3.1 + Pass 3.2 + Pass 3.3 artifacts (predecessors); F-3.1-L1 flag-forward attention item (ethics-council divestment-list at essay line 39) noted as Pass 3.4 site.
 5. Chapter-level Pass 3.4 carry-forward [`ch4_existence_proof_stage3_pass_3_4_robustness_2026-05-25.md`](ch4_existence_proof_stage3_pass_3_4_robustness_2026-05-25.md) — load-bearing threads from chapter scope inherited where applicable.
 6. Cross-chapter rent-seeking workstream RATIFIED 2026-05-18 commit `bc02767` (added Public Choice engagement at TA §1.10 + Ch 5 + Ch 8 + Ch 9; Ch 4 NOT in touched-chapter set; cross-chapter cascade-via-Ch 5 + Ch 9 + TA carries the load).
-7. $100 Barrel 2026-05-21 Condition-1-disarming-moves comparative anchor [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md) — load-bearing only if conditional-elevation flag fires (§4 below).
+7. $100 Barrel 2026-05-21 Condition-1-disarming-moves comparative anchor [`stage-3-comparative-draft-audit.md`](../../publishing/essays/100-barrel/rigor/stage-3-comparative-draft-audit.md) — load-bearing only if conditional-elevation flag fires (§4 below).
 
 ---
 

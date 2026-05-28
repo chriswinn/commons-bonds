@@ -1,6 +1,6 @@
 # $100 Barrel Essay — Pass 3.3 Audience-Load Acceptance LIGHT RE-FIRE v1.0.0 — 2026-05-24
 
-**Status:** RATIFIED 2026-05-24 (author confirmed PASS verdict; Tier 1 #3 unambiguous ✓✓✓; flag #2 closed by F-DE-Barrel-3; Tier 3 #16 + #18 lifts confirmed; no retrofit required). Pass 3.3 light RE-FIRE artifact firing after Pass 3.5 RATIFIED + APPLIED 2026-05-24 (commit `5f33bdd`). Tests whether the 6 Pass 3.5 Phase C restoration spot-fixes shift any of the 18-character acceptance verdicts that the prior Pass 3.3 light (`commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_3_audience_load_acceptance_light_v1.0.0.md` RATIFIED 2026-05-23) established as the canonical post-Pass-3.2 baseline. Per Pass 3.5 §3.6 carry-forward recommendation.
+**Status:** RATIFIED 2026-05-24 (author confirmed PASS verdict; Tier 1 #3 unambiguous ✓✓✓; flag #2 closed by F-DE-Barrel-3; Tier 3 #16 + #18 lifts confirmed; no retrofit required). Pass 3.3 light RE-FIRE artifact firing after Pass 3.5 RATIFIED + APPLIED 2026-05-24 (commit `5f33bdd`). Tests whether the 6 Pass 3.5 Phase C restoration spot-fixes shift any of the 18-character acceptance verdicts that the prior Pass 3.3 light (`publishing/essays/100-barrel/rigor/pass-3-3-audience-load.md` RATIFIED 2026-05-23) established as the canonical post-Pass-3.2 baseline. Per Pass 3.5 §3.6 carry-forward recommendation.
 
 **Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (4,248w post-Pass-3.5-Phase-C; on `main` commit `5f33bdd`).
 
@@ -201,13 +201,13 @@ Pass 3.3 light re-fire surfaces no new findings. All Pass 3.5 restorations net p
 
 ## 7. Cross-references
 
-- **Pass 3.5 developmental-edit (prior pass; carry-forward source):** [`commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_5_developmental_edit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_5_developmental_edit_v1.0.0.md) — RATIFIED + APPLIED 2026-05-24 (commit `5f33bdd`).
-- **Pass 3.4 robustness light:** [`commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_4_audience_load_robustness_light_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_4_audience_load_robustness_light_v1.0.0.md) — RATIFIED 2026-05-23. Pass 3.4 light re-fire NOT routinely warranted per Pass 3.5 §3.5.
-- **Pass 3.3 light (baseline for THIS re-fire):** [`commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_3_audience_load_acceptance_light_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_3_audience_load_acceptance_light_v1.0.0.md) — RATIFIED 2026-05-23. PASS verdict; two audit-trail flags identified for later resolution.
-- **Pass 3.2 voice-polish:** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_2_voice_polish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_2_voice_polish_v1.0.0.md) — RATIFIED + APPLIED 2026-05-23 (commit `8b2614a`).
-- **Pass 3.1 fact-check:** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md) — RATIFIED + APPLIED 2026-05-21 (commit `cf5db97`).
-- **Comparative draft audit (Pass 3.3 original baseline source):** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md) §§2–4.
-- **Stage 1 brief (audience source of truth):** [`commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md) §1 + §9.
+- **Pass 3.5 developmental-edit (prior pass; carry-forward source):** [`pass-3-5-developmental-edit.md`](../pass-3-5-developmental-edit.md) — RATIFIED + APPLIED 2026-05-24 (commit `5f33bdd`).
+- **Pass 3.4 robustness light:** [`pass-3-4-adversarial.md`](../pass-3-4-adversarial.md) — RATIFIED 2026-05-23. Pass 3.4 light re-fire NOT routinely warranted per Pass 3.5 §3.5.
+- **Pass 3.3 light (baseline for THIS re-fire):** [`pass-3-3-audience-load.md`](../pass-3-3-audience-load.md) — RATIFIED 2026-05-23. PASS verdict; two audit-trail flags identified for later resolution.
+- **Pass 3.2 voice-polish:** [`pass-3-2-voice-polish.md`](../pass-3-2-voice-polish.md) — RATIFIED + APPLIED 2026-05-23 (commit `8b2614a`).
+- **Pass 3.1 fact-check:** [`pass-3-1-fact-check.md`](../pass-3-1-fact-check.md) — RATIFIED + APPLIED 2026-05-21 (commit `cf5db97`).
+- **Comparative draft audit (Pass 3.3 original baseline source):** [`stage-3-comparative-draft-audit.md`](../stage-3-comparative-draft-audit.md) §§2–4.
+- **Stage 1 brief (audience source of truth):** [`stage-1-brief.md`](../stage-1-brief.md) §1 + §9.
 - **v3.1 discipline reference:** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md).
 - **Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (4,248w; on `main` commit `5f33bdd`).
 

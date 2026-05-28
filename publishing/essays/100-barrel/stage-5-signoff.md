@@ -59,7 +59,7 @@ Brief §3 + §7 named-tradition attribution discipline requires that the framewo
 
 ### §2.2 Citation precision
 
-Pass 3.1 fact-check audit verified all §7 canonical-facts inventory anchors in the draft. 1 HIGH finding (Norway fiscal rule 4%→3% history) + 3 MEDIUM findings (Norway fund size; Niger Delta decade-count; per-citizen figure) + 1 LOW finding (per-citizen recalculation) + 1 verification confirmation (pump-price hook EIA Weekly Retail Gasoline verification) all ratify-and-applied per `commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md`. CTG-1 (Stage 1 brief §7.2 Amendment A repair) deferred to separate brief-repair workstream per Decision 4 Option (b).
+Pass 3.1 fact-check audit verified all §7 canonical-facts inventory anchors in the draft. 1 HIGH finding (Norway fiscal rule 4%→3% history) + 3 MEDIUM findings (Norway fund size; Niger Delta decade-count; per-citizen figure) + 1 LOW finding (per-citizen recalculation) + 1 verification confirmation (pump-price hook EIA Weekly Retail Gasoline verification) all ratify-and-applied per `publishing/essays/100-barrel/rigor/pass-3-1-fact-check.md`. CTG-1 (Stage 1 brief §7.2 Amendment A repair) deferred to separate brief-repair workstream per Decision 4 Option (b).
 
 **Citation precision verdict: PASS.** All canonical fact claims verified; load-bearing dates / numbers / institutional names / publication facts cleared. Stage 1 brief §7.2 brief-repair workstream tracked separately.
 

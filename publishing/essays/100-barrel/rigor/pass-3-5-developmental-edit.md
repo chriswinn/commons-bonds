@@ -393,12 +393,12 @@ Per pipeline doctrine: Pass 3.5 should not introduce findings that worsen Pass 3
 
 ## 7. Cross-references
 
-- **Pass 3.4 robustness light (prior pass):** [`commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_4_audience_load_robustness_light_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_4_audience_load_robustness_light_v1.0.0.md) — RATIFIED 2026-05-23.
-- **Pass 3.3 acceptance light (prior pass):** [`commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_3_audience_load_acceptance_light_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-23_100_barrel_essay_pass_3_3_audience_load_acceptance_light_v1.0.0.md) — RATIFIED 2026-05-23. **F-DE-Barrel-3 addresses Pass 3.3 light flag #2** (§IV ¶4 entry-point skim-read concern).
-- **Pass 3.2 voice-polish:** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_2_voice_polish_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_2_voice_polish_v1.0.0.md) — RATIFIED + APPLIED 2026-05-23 (commit `8b2614a`).
-- **Pass 3.1 fact-check:** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_pass_1_factcheck_v1.0.0.md) — RATIFIED + APPLIED 2026-05-21 (commit `cf5db97`).
-- **Comparative draft audit:** [`commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md).
-- **Stage 1 brief:** [`commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md) §4 structural decisions + §7 canonical facts.
+- **Pass 3.4 robustness light (prior pass):** [`pass-3-4-adversarial.md`](pass-3-4-adversarial.md) — RATIFIED 2026-05-23.
+- **Pass 3.3 acceptance light (prior pass):** [`pass-3-3-audience-load.md`](pass-3-3-audience-load.md) — RATIFIED 2026-05-23. **F-DE-Barrel-3 addresses Pass 3.3 light flag #2** (§IV ¶4 entry-point skim-read concern).
+- **Pass 3.2 voice-polish:** [`pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md) — RATIFIED + APPLIED 2026-05-23 (commit `8b2614a`).
+- **Pass 3.1 fact-check:** [`pass-3-1-fact-check.md`](pass-3-1-fact-check.md) — RATIFIED + APPLIED 2026-05-21 (commit `cf5db97`).
+- **Comparative draft audit:** [`stage-3-comparative-draft-audit.md`](stage-3-comparative-draft-audit.md).
+- **Stage 1 brief:** [`stage-1-brief.md`](stage-1-brief.md) §4 structural decisions + §7 canonical facts.
 - **v3.1 Amendment B (restoration polarity discipline):** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md).
 - **Pipeline doctrine (Pass 3.5 spec):** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6.2 + §3.6.3.
 - **Ch 1 developmental-edit empirical anchor (2026-05-18):** drives v3.1 Amendment B; finding-density calibration source.

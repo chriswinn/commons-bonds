@@ -116,7 +116,7 @@ When PM-session fires the gated task (cross-thread-todos #20), surface these dec
 - `publishing/agents/_shared/post-darity-warm-intro-templates_2026-05-10.md` (Kendi + Mullen + Gates + Cook-Center colleagues template set)
 - `publishing/book-proposal/02_comp-titles.md` (proposal §02 — where blurb path interacts with comp-titles positioning)
 - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_nyrb_multi_book_review_essay_stage_0_v1.0.0.md` §4(e) (critique-register Register A vs Register B discipline — the load-bearing brief specification that protects blurb network from NYRB-essay backfire risk)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md` §4(e) (original likely-blurber map; surfaced Boyce + Tooze + Mullen + Kendi names)
+- `publishing/essays/100-barrel/rigor/q1-go-no-go.md` §4(e) (original likely-blurber map; surfaced Boyce + Tooze + Mullen + Kendi names)
 
 **Downstream artifacts the register feeds:**
 - `publishing/agents/<agent-slug>/` per-agent pitch letters (whichever agent signs uses the register for the pitch's blurb-network framing)

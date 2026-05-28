@@ -7,7 +7,7 @@
 **Discipline anchors:**
 - [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) v3.1 — Pass 3.3 acceptance + Pass 3.4 robustness + Pass 3.5 developmental-edit.
 - [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) v3.0 — §1 acceptance set + §3 adversarial set + §3.4 thread-pull synthesis.
-- [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md) — canonical pattern for comparative-draft audit structure.
+- [`publishing/essays/100-barrel/rigor/stage-3-comparative-draft-audit.md`](../../publishing/essays/100-barrel/rigor/stage-3-comparative-draft-audit.md) — canonical pattern for comparative-draft audit structure.
 - [`tools/memory/feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md) — em-dash discipline (calibrate critically; default to commas / periods / restructure).
 - [`tools/audits/cross-chapter-consistency-inventory_2026-05-11.md`](../audits/cross-chapter-consistency-inventory_2026-05-11.md) — Lakota / Black Hills canonical facts.
 - [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md) — apparatus register (no ARR / CIT / B₁/B₂; Asymmetric Regret Rule full name in body; "central equation" standardized).
@@ -573,7 +573,7 @@ The exercise's net usefulness verdict: **strongly affirmative.** The parallel-ex
 - **Draft A (existing; on `origin/main`; recommended for archive + Pass 3.5 restoration source):** [`manuscript/chapters/Chapter_10_CommonBonds.md`](../../manuscript/chapters/Chapter_10_CommonBonds.md)
 - **Draft B (alternate; on `origin/main` 2026-05-25 commit `b48d43c`; recommended for Stage 3 advancement):** [`manuscript/chapters/Chapter_10_CommonBonds_ALT_250525.md`](../../manuscript/chapters/Chapter_10_CommonBonds_ALT_250525.md)
 - **Stage 2 ALT-draft brief:** [Inline in the comparative-draft session prompt 2026-05-25; not separately archived as a Stage 1 artifact since the parallel-execution-choice mode does not require a separate Stage 1 brief]
-- **Canonical comparative-draft audit pattern:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-21_100_barrel_essay_stage3_comparative_draft_audit_v1.0.0.md)
+- **Canonical comparative-draft audit pattern:** [`publishing/essays/100-barrel/rigor/stage-3-comparative-draft-audit.md`](../../publishing/essays/100-barrel/rigor/stage-3-comparative-draft-audit.md)
 - **Audience pressure-test construction guide:** [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md)
 - **Audience-aware drafting discipline (v3.1):** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)
 - **Em-dash discipline:** [`tools/memory/feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md)

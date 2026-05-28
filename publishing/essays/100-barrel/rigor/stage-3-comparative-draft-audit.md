@@ -2,12 +2,12 @@
 
 **Status:** PROPOSED 2026-05-21. Comparative Pass 3.3 (audience-load acceptance) + Pass 3.4 (audience-load robustness) + book-strategy strategic-lens overlay across the two parallel Stage 2 drafts of the $100 Barrel essay. Per author direction 2026-05-21 ("now that we have 2 different draft essay's I'm curious to run them each through the audience tests... Not only just which one is a better article, but also answer if publishing that essay will help the book"). Single comparative artifact (option (b): full 18+5 character set at full depth per author scope ratification).
 
-**Workstream:** $100 Barrel essay (Workstream #16); Phenomenal World submission. Stage 1 brief: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md).
+**Workstream:** $100 Barrel essay (Workstream #16); Phenomenal World submission. Stage 1 brief: [`publishing/essays/100-barrel/rigor/stage-1-brief.md`](stage-1-brief.md).
 
 **Discipline anchors:**
 - [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) v3.0 — Pass 3.3 acceptance + Pass 3.4 robustness.
 - [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) — §3.3 acceptance verdict format + §3.4 robustness thread-pull synthesis.
-- [Q1 GO/NO-GO/CONDITIONAL rigor pass](commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md) §6 — Condition 1 non-partisan framing discipline as dispositive carry-forward.
+- [Q1 GO/NO-GO/CONDITIONAL rigor pass](q1-go-no-go.md) §6 — Condition 1 non-partisan framing discipline as dispositive carry-forward.
 
 ---
 
@@ -24,7 +24,7 @@ Both drafts are Stage 1 brief-compliant on the load-bearing constraints: 0 verba
 
 ## 1. Methodology and verdict format
 
-**Pass 3.3 (acceptance) verdict format:** Per [Stage 1 brief §12](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md) and [`audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) §3.3:
+**Pass 3.3 (acceptance) verdict format:** Per [Stage 1 brief §12](stage-1-brief.md) and [`audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) §3.3:
 
 - ✓✓✓ — Strong INCLUDE; this character would not just accept the piece, they'd recommend it onward
 - ✓✓ — INCLUDE; the piece lands cleanly for this character
@@ -317,7 +317,7 @@ But Draft B carries less mechanism-vocabulary specificity. *cost severance* is a
 
 ## 6. Pass 3.4 — Adversarial robustness (5 characters)
 
-Per [Stage 1 brief §1 adversarial set](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md) and [`audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) §8. Verdict format is thread-pull synthesis (per-character readings inform a single robustness verdict per draft).
+Per [Stage 1 brief §1 adversarial set](stage-1-brief.md) and [`audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) §8. Verdict format is thread-pull synthesis (per-character readings inform a single robustness verdict per draft).
 
 ### 6.1 A1 — Industry-funded energy economist (Heritage / Manhattan Institute / API)
 
@@ -493,8 +493,8 @@ Per the canonical pipeline doctrine (`tools/commons_bonds_pipeline_doctrine_v1.0
 
 ## 9. Cross-references
 
-- **Stage 1 brief:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_100_barrel_essay_pre_draft_audience_structure_v1.0.0.md)
-- **Q1 GO/NO-GO/CONDITIONAL rigor pass:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-11_100_barrel_essay_q1_go_no_go_v1.0.0.md) — Condition 1 carry-forward source
+- **Stage 1 brief:** [`publishing/essays/100-barrel/rigor/stage-1-brief.md`](stage-1-brief.md)
+- **Q1 GO/NO-GO/CONDITIONAL rigor pass:** [`publishing/essays/100-barrel/rigor/q1-go-no-go.md`](q1-go-no-go.md) — Condition 1 carry-forward source
 - **Draft A (canonical path; recommended for Stage 3):** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (4,078w; landed on `origin/main` 2026-05-21 commit `74953b9`)
 - **Draft B (variant-fbc623; archive-or-hold per §8.2):** [`publishing/essays/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0_variant-fbc623.md`](../../publishing/essays/100-barrel/100-barrel-essay-draft_2026-05-19_v1.0.0_variant-fbc623.md) (4,096w; feature branch `claude/100-barrel-essay-stage-2-fbc623` commit `f519753`)
 - **Workstream handoff:** [`tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md`](../workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md)

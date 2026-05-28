@@ -225,7 +225,7 @@ No new living-private named subjects introduced by Phase C-δ + C-ε. Courtesy-n
 - **Original Pass 3 (baseline for this re-fire):** [`commons_bonds_rigor_pass_2026-05-13_ch2_the_miner_stage3_audience_load_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-13_ch2_the_miner_stage3_audience_load_v1.0.0.md) — RATIFIED 2026-05-13 + Ratification rev 2026-05-20 + Phase C-δ appendix 2026-05-21 + Phase C-ε appendix 2026-05-21.
 - **Phase C-δ commit:** `46080d8` (Ch 2 Stage-3 Phase C-δ — apply ratified named-voice substitutions, workstream #20).
 - **Phase C-ε commit:** `34a5433` (Ch 2 Phase C-ε — MT-1 applied + first-round review CLOSED).
-- **Pattern precedent — $100 Barrel Pass 3.3 LIGHT RE-FIRE:** [`commons_bonds_rigor_pass_2026-05-24_100_barrel_essay_pass_3_3_light_refire_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_100_barrel_essay_pass_3_3_light_refire_v1.0.0.md) — RATIFIED 2026-05-24 (commit `a348280`). Format precedent for per-character "prior → new" verdict comparison.
+- **Pattern precedent — $100 Barrel Pass 3.3 LIGHT RE-FIRE:** [`pass-3-3-light-refire_2026-05-24.md`](../../publishing/essays/100-barrel/rigor/light-refires/pass-3-3-light-refire_2026-05-24.md) — RATIFIED 2026-05-24 (commit `a348280`). Format precedent for per-character "prior → new" verdict comparison.
 - **Pattern precedent — Ch 1 Pass 3.3 light re-fire:** RATIFIED 2026-05-19 (commit `eb14171`).
 - **Pattern precedent — Noema essay Pass 3.3 LIGHT RE-FIRE:** PROPOSED (commit `30a9515`).
 - **Pattern precedent — BR essay Pass 3.3 LIGHT RE-FIRE:** PROPOSED (commit `404222f`).
