@@ -9,13 +9,31 @@
 
 ---
 
-## §0. Portfolio-state framing (author correction 2026-05-27)
+## §0. Portfolio-state framing (author corrections 2026-05-27)
 
-**The essay portfolio is functionally complete except Ch 2 → Harper's, which is imminent** (Pass 3.4 RATIFIED ROBUST during this audit session; Pass 3.5 kickoff STAGED; Stage 4 + Stage 5 expected to fire within hours). All other Wave 1 + Wave 2 + Wave 3 essays are either RATIFIED-AWAITING-SUBMIT, pitch-LOCKED, RATIFIED READY-TO-SUBMIT (FA awaiting merge authorization), or in post-rigor bookkeeping (Atlantic Ideas Stage 5 sign-off filing + cover letter; NYRB per-essay folder mirror). Berggruen runs on a separate AI-free track and is not gated by AI-collaborative pipeline state.
+**The essay portfolio is functionally complete except Ch 2 → Harper's, which is imminent** (Pass 3.4 RATIFIED ROBUST during this audit session; Pass 3.5 kickoff STAGED; Stage 4 + Stage 5 expected to fire within hours). All other Wave 1 + Wave 2 + Wave 3 essays are either RATIFIED-AWAITING-SUBMIT, pitch-LOCKED, RATIFIED READY-TO-SUBMIT (FA awaiting merge authorization; Atlantic Ideas awaiting cover-letter drafting only — see §0.1 correction below), or in post-rigor bookkeeping (NYRB per-essay folder mirror). Berggruen runs on a separate AI-free track and is not gated by AI-collaborative pipeline state.
 
 **What "post-rigor bookkeeping" means and does NOT mean:** rigor passes (3.1 fact-check + 3.2 voice-polish + 3.3 acceptance + 3.4 adversarial + 3.5 developmental) are SUBSTANTIVE work that affects publisher-facing prose. Stage 5 sign-off filings, per-essay folder mirrors, cover-letter drafts, README refreshes, and feature-branch merges to main are HANDOFF / FILING steps — necessary for submission but not gated by rigor-work-still-to-fire. The distinction matters because: a "still pending" framing that conflates the two reads the portfolio as more in-flight than it actually is, and risks miscalibrating PM-session priority.
 
 This framing note was added per author correction post-session-close ("the only essay that isn't complete is harpers and that completion is coming any moment now"). The original §1–§8 inventory + recommendations are factually accurate but were framed without this distinction; §8.G recommendation-priority levels are corrected below to reflect the actual rigor-vs-bookkeeping split.
+
+### §0.1 Audit correction (added 2026-05-27 post-resume per author second correction)
+
+**Atlantic Ideas is substantively complete, not "Stage 5 sign-off close-out pending."** The original §1.3 + §3 + §5 + §7 + §8 entries claimed Atlantic Ideas had no Stage 5 sign-off filed; the original §8.B.2 recommendation said "Stage 5 close-out session needed (sign-off + cover-letter + README refresh)." **This was wrong.** The Stage 5 sign-off + pre-publication review queue artifacts DO exist under filing-convention paths this audit failed to scan:
+
+- **Stage 5 sign-off:** [`tools/quality-gates/sign-offs/atlantic_ideas_stage5_signoff_2026-05-27.md`](../quality-gates/sign-offs/atlantic_ideas_stage5_signoff_2026-05-27.md) — **RATIFIED PASS 2026-05-27** post-Option-1-revert; verdict "READY-TO-SUBMIT"
+- **Pre-publication review queue:** [`tools/pre-submission-reviews/atlantic_ideas_pre_pub_review_queue_v1.0.0.md`](../pre-submission-reviews/atlantic_ideas_pre_pub_review_queue_v1.0.0.md) — **RATIFIED 2026-05-27**
+
+**Three artifact-filing-conventions exist in the project, not two.** This audit identified Convention A (per-essay-only) and Convention B (per-essay + central at `tools/rigor-passes/`), but missed Convention C (central at `tools/quality-gates/sign-offs/` + separate pre-pub queue at `tools/pre-submission-reviews/`). Convention C is used for **chapters + Atlantic Ideas** specifically; it carries Stage 5 sign-offs for ch1, ch3, ch4, ch5, ch6, ch7, ch8, ch9, ch10, chapter-2, ta, and atlantic_ideas at `tools/quality-gates/sign-offs/`.
+
+**Per the Atlantic Ideas Stage 5 sign-off §8 "What comes next" verdict, the only remaining items for Atlantic Ideas are:**
+1. Pitch / cover-letter drafting per brief §11 (Atlantic Ideas pitch format — short cover note + tighter-than-essay register). Explicitly *not produced* in the Stage 5 session.
+2. Submission to Atlantic Ideas section post-cover-letter ratification.
+3. (Bookkeeping) README refresh at `publishing/essays/atlantic-ideas-pricing-honestly/README.md`; per-essay `stage-5-signoff.md` mirror creation (optional).
+
+Atlantic Ideas is at the **same state Foreign Affairs was at audit start** — RATIFIED READY-TO-SUBMIT pending cover-letter drafting. §3 + §5 + §7 + §8 entries below are factually accurate at the substantive level *with this correction applied:* the canonical-completeness column for Atlantic Ideas should read complete-at-Convention-C-level (Stage 5 sign-off + pre-pub queue both on main), not "Stage 5 sign-off close-out pending."
+
+**Future portfolio-review methodology fix:** scan all three conventions — `tools/rigor-passes/`, `tools/quality-gates/sign-offs/`, AND `tools/pre-submission-reviews/` — at audit start. See updated memory [`tools/memory/feedback_rigor_vs_bookkeeping_distinction.md`](../memory/feedback_rigor_vs_bookkeeping_distinction.md) for the three-convention scan discipline.
 
 ---
 
@@ -340,7 +358,7 @@ Per cascade plan v2 §8 item 7 + Stage 1 brief §10 (cumulative apparatus-reveal
 |---|---|---|---|---|---|
 | 100-barrel | Phenomenal World | **RATIFIED-AWAITING-SUBMIT** (Stage 5 RATIFIED 2026-05-24) | ✓ full layout | 0 ahead | Stage 4 author offline + submit |
 | aeon-mask-of-abundance | Aeon (pitch-first) | **Pitch-LOCKED**; submit Sat May 31 14:01 UTC | ✓ pitch-model layout | 0 ahead | Pre-submission verify (May 29) + submit |
-| atlantic-ideas-pricing-honestly | Atlantic Ideas / FP alt | Pass 3.5 APPLIED + Stage 4 RATIFIED + F-DE-Atlantic-1 REVERT APPLIED; **Stage 5 sign-off close-out pending** | partial (README STALE; no cover-letter; no stage-5-signoff) | 0 ahead (older 1-commit branch is stale) | Stage 5 sign-off file + cover-letter + README refresh + author final-ratification |
+| atlantic-ideas-pricing-honestly | Atlantic Ideas / FP alt | **RATIFIED PASS / READY-TO-SUBMIT 2026-05-27** (per §0.1 correction — Stage 5 sign-off at `tools/quality-gates/sign-offs/atlantic_ideas_stage5_signoff_2026-05-27.md` + pre-pub queue at `tools/pre-submission-reviews/atlantic_ideas_pre_pub_review_queue_v1.0.0.md`; Convention C filing) | ✓ at Convention-C level (essay.md on main; sign-off + pre-pub queue at central paths; README stale + no per-essay mirror — both bookkeeping) | 0 ahead | **Cover-letter / pitch drafting** (Stage 5 §8 next-step) + README refresh + optional per-essay mirror; submission window late-Jun / early-Jul 2026 |
 | atlantic-main-chesapeake-watermen | The Atlantic main | **RATIFIED-AWAITING-SUBMIT** (Stage 5 RATIFIED 2026-05-27) | ✓ full layout (with central pre-pub review queue) | 0 ahead | Cover-letter author final-ratification + sub-editor + courtesy-notify; submission window Oct–Dec 2026 |
 | berggruen-prize-2026 | Berggruen Prize | **Seed-materials (AI-free track)** | ✓ by-design partial layout | 0 ahead (n/a) | (offline workflow; not Claude scope) |
 | boston-review-accountability-gap | Boston Review | **RATIFIED-AWAITING-SUBMIT** (Stage 5 RATIFIED 2026-05-23); cascade-plan submit target May 25 | ✓ full layout | 0 ahead | Stage 4 author offline + submit (slip-or-submitted-offline?) |
@@ -364,7 +382,7 @@ The vast majority of internal-scaffolding work has already auto-merged to `origi
 - Verify all four canonical files now match on main + feature branch
 - Folder slug renames per status-tag convention deferred until actual submission
 
-**B.2 — Atlantic Ideas Stage 5 close-out session.** Author session fires Stage 5 sign-off rigor-pass artifact + per-essay `stage-5-signoff.md` mirror + `cover-letter.md` + README refresh in a single session. Pass 3.5 + Stage 4 + F-DE-Atlantic-1 REVERT all done on main; only the Stage 5 bookend + cover letter + README update remain. Submission window per cascade plan v2 is late-June / early-July, so this is not on the May–Jun sprint.
+**B.2 — Atlantic Ideas cover-letter / pitch drafting session.** *(Corrected per §0.1 audit-correction 2026-05-27 post-resume.)* Atlantic Ideas Stage 5 sign-off + pre-pub review queue are **already filed** (Convention C: `tools/quality-gates/sign-offs/atlantic_ideas_stage5_signoff_2026-05-27.md` + `tools/pre-submission-reviews/atlantic_ideas_pre_pub_review_queue_v1.0.0.md`; both RATIFIED 2026-05-27). The remaining items are the **cover-letter / pitch drafting** (per Atlantic Ideas brief §11 — short cover note, tighter-than-essay register) + (optional bookkeeping) README refresh at `publishing/essays/atlantic-ideas-pricing-honestly/README.md` + (optional bookkeeping) per-essay `stage-5-signoff.md` mirror creation. Cover letter is end-user-facing prose; needs author session. Submission window per cascade plan v2 is late-June / early-July, so this is not on the May–Jun sprint.
 
 ### C. Canonical-layout completion gaps
 
