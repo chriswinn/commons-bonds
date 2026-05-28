@@ -1,258 +1,193 @@
-# Chapter 3 — Internal Scaffolding (Drafting Direction; pre-draft)
+# Chapter 3 (The Waterman) — Internal Scaffolding (Drafting Direction; pre-revision)
 
-**Layer:** internal-scaffolding per Working Principle #10 (Two-layer content origination discipline). The publisher-facing Draft does not yet exist (Ch 3 is undrafted; queued for the Insight #36 β.2 conversational drafting session — Ch 1 + Ch 3 together).
+**Layer:** internal-scaffolding per Working Principle #10 (Two-layer content origination discipline).
 
-**Frontmatter added 2026-04-30** by Insight #37 separation pass (Thread β.1).
+**Status as of 2026-05-20:**
+- Chapter 3 draft EXISTS at [`Chapter__3_TheWaterman.md`](Chapter__3_TheWaterman.md) — Pass 1 PROPOSED `2f76e37`. Pass 2 + Pass 3 not yet fired.
+- **Substantive revision in flight.** Per author direction 2026-05-20, new research material (Tonya O'Connor 2025-12-31 VMRC petition + WHRO Oct 2025 + Maryland Matters Apr 2026 + Banner May 2026 + Smithsonian 2009 + Sherfinski 2022 + Earl Swift's *Chesapeake Requiem* + supporting sources) is being incorporated into Ch 3.
+- **Substance-drives-length rule explicitly applied.** Per `feedback_substance_drives_length.md` (ratified 2026-05-02). The prior "5,000-6,000 words" target is REMOVED. If material earns its place, it stays. Realistic expectation: 8,000-12,000 words.
 
-**Staleness disclaimer (2026-04-30):** This file accumulates content across earlier dates → 2026-04-30. Sections from earlier dates may reference **retired vocabulary** (8-tier scheme retired 2026-04-24 per Insight #21 + #63; AIT renamed to CIT 2026-04-24; Dynastic Labor Cost renamed to Lineage Labor Cost 2026-04-30 per Insight #56; FGC retired; Universality Test retired; Value Capture retired in favor of Value Extraction; Spatial Cost Severance + Temporal Cost Severance reframed) or **superseded direction**. Verify against current state (`core/terms/terms_index.md` + `alignment/commons_bonds_open_insights_v1.0.0.md`) before applying.
+**Supersedes:** [`archive/Chapter__3___GuidanceDoc.md`](archive/Chapter__3___GuidanceDoc.md) (last revised 2026-04-30; pre-Pass-1; pre-research-expansion). The archived doc remains the audit trail for early drafting direction; this doc is the operational reference.
 
-**[PER-SECTION STALENESS AUDIT 2026-05-08]**
-
-This GuidanceDoc is overall the **cleanest** of the 10 (heavily revised 2026-04-30 to support upcoming Insight #36 β.2 conversational drafting session). Most content uses current vocabulary + ratified disciplines.
-
-| Section | Status | Notes |
-|---|---|---|
-| § Header / frontmatter / cross-references | CURRENT | Insight #36 + #9 cross-references aligned with current state |
-| § "Chapter 3 (The Waterman)" + Objections section markers (line ~24-36) | CURRENT (provisional title) | "The Waterman" is provisional; final Ch 3 title TBD when chapter drafts |
-| § "CHAPTER 3: THE WATERMAN" From-our-conversations content (line ~40) | PARTIALLY CURRENT | older guidance; structural framing still applies; "miner-waterman structural parallel" + "common bonds theme planted" still load-bearing |
-| § Counterarguments handling note (line ~52) | CURRENT | "None specific to this chapter; emotional work is connection, not argumentation" still aligned with Pattern 2 register |
-| § "Expanded integration guidance (added 2026-04-23)" | CURRENT | references chapter audit v1.0.3 — verify against current canonical `core/case-studies/commons_bonds_case_study_audit_v1.0.6.md` (one inline note already flags this migration) |
-| § Integration work required (line ~62) | CURRENT | 4 items still align with current state; outreach pipeline now active for items 1-2 (Sherfinski / CBF / Beth-Ingledew Amsterdam — though Amsterdam is Doughnut-team contact, not CBF-fieldwork; CBF outreach via Sherfinski 2026-05-06) |
-| § Case-study file references (line ~73) | CURRENT | references aligned with current archive structure |
-| § Case studies NOT for Ch 3 (line ~80) | CURRENT | scope-clarification still applies |
-| § Pre-drafting gates (line ~86) | CURRENT | interview-consent protocol + Hampton-specificity + CBF/VIMS handling + watermen-community dignity all still applicable |
-| § Register notes (line ~93) | CURRENT | Pure Register 1; target length flagged with 2026-05-02 substance-drives-length caveat (5K-6K is reference, not target) |
-| § Character pressure points (line ~100) | CURRENT | C14/C17/C22/C25 character references aligned with current state |
-| § Cross-chapter tensions (line ~107) | CURRENT | Ch 3↔Ch 4 / Ch 3↔Ch 8 / Ch 3↔Ch 10 coordination still required |
-| § Cross-references (line ~113) | PARTIALLY CURRENT | inline note flags v1.0.3 → v1.0.6 audit migration (already noted); migration verified; §9.1 spec preserved at line 1572 of v1.0.6 file |
-| § Operational guidance for Insight #36 β.2 (line ~122) | CURRENT | added 2026-04-30 per Insight #37 + #9 + WP#10; uses current canonical state |
-| § Pattern 2 anchor framing (line ~126) | CURRENT | aligned with Insight #9 verdict ratified 2026-04-30 |
-| § What waterman stories must do (line ~142) | CURRENT | 6 structural-asks aligned with Pattern 2 + WP#10 + dignity register |
-| § Story types worth gathering (line ~156) | CURRENT | 6-item menu still applies |
-| § Cost-category demonstration mapping (line ~167) | CURRENT | uses current canonical Cᵢ-via-CIT-through-Four-Gates vocabulary; "Lineage Labor cost" not "Dynastic Labor cost" (current per Insight #56); "renewable-past-regeneration variant" of Foreclosure cost is Ch 3's framework-distinctive contribution |
-| § Migrated fieldwork specification (line ~180) | CURRENT | inline reproduction of §9.1 from canonical case-study audit |
-| § Conversational drafting session structure (line ~214) | CURRENT | session-shape suggestion for Insight #36 β.2 |
-| § What Ch 3 publisher-facing prose does NOT do (line ~223) | CURRENT | preserves Pattern 2 + register discipline; vocabulary references are current |
-
-**Cross-references:**
-- `Chapter__3___Draft.md` — does not yet exist; will be drafted during Insight #36 β.2 session.
-- `core/methodology/decision_time_application_internal_v1.0.0.md` — Pattern 2 threading discipline + decision-time worked-example seed material (waterman story is Ch 3's Pattern 2 anchor per Insight #9 verdict 2026-04-30).
-- `alignment/commons_bonds_open_insights_v1.0.0.md` — Insight #36 (Ch 1 + Ch 3 conversational drafting); Insight #9 (Pattern 2 threading verdict ratified 2026-04-30).
-- `alignment/commons_bonds_working_principles_v1.0.0.md` — WP#10 + WP#8.
-- `core/terms/terms_index.md` — current canonical vocabulary.
+**Branch convention for revisions:** `claude/ch3-revision-<stage>-<harness-id>` (e.g., `claude/ch3-revision-stage1-brief-<harness-id>`).
 
 ---
 
-# Commons Bonds
+## §1. Chapter shape — two-act structure
 
-By Chris Winn
+Per author direction 2026-05-20 (substantive revision incorporating petition + capture-sequence material), Ch 3 carries a **two-act structure** with closing tie-back. The shape preserves the prior chapter's discipline (Pattern 2 anchor; story before structure; framework lands by implication at close) while making room for the substantively grounded regulatory-architecture material.
 
----
+### Act 1 — People (~4,000-5,000 words)
 
-Chapter 3 (The Waterman)
+1. **Hampton-harbor opening.** Daily-visible watermen from the sailboat; dockmasters as mentors; the harbor-at-dawn texture that grounds the chapter in personal geography.
+2. **Watermen at depth (one or two named-or-anonymized).** Fox Hill (Phat / Biggie; consent constraints below). Tangier voices via Sherfinski 2022 + Earl Swift + Smithsonian 2009. Multi-generational ties to the Bay.
+3. **The generational arc.** Grandfathers / fathers / children fishing across three generations. The fishery across time as the chapter's temporal spine.
+4. **The specific moment the water changed.** Named-year remembered moments (Lupton's "no stripers"; Godsey's empty creek; Doug Kuett's "the Bay used to boil"). Institutional acknowledgment vs. lived knowledge.
+5. **Working-waterfront collapse.** Tilghman Island ice-bound; Harrison's "worst year"; Hudgins's $150-net-per-day economics; what was asked vs. what was paid back.
 
-========
+### Act 2 — Architecture (~3,000-5,000 words)
 
-========
+6. **The regulator's office at Fort Monroe.** VMRC headquarters on the author's island. The 51,000-metric-ton Bay cap, set in 2006 on "industry past performance" rather than science. The science gap acknowledged by working scientists (Nesslage: *"We don't know the abundance of menhaden in the bay at any given time relative to the coast"*).
+7. **What happened to the science.** The four-step sequence in plain language: VIMS drafts a $3M Bay-specific study → VA General Assembly refuses to fund it → industry-affiliated Science Center for Marine Fisheries (funded by Omega Protein + Ocean Harvesters) announces its own research roadmap.
+8. **Citizens pressing back.** Tonya O'Connor's December 2025 petition demanding moratorium until VMRC produces Bay-specific science. 1,266 public comments. The four-petitions-in-three-years pattern. The geographic / political mobilization map (Lower Bay + recreational + environmental support vs. Northumberland County + Tangier + industry-aligned opposition).
+9. **The argument inside the room.** Omega Protein / Ocean Harvesters' formal opposition (Deihl + Held); the Reedville community defense (anonymous "This Industry Needs to be Kept Accountable" comment as the chapter's nuance-anchor); the statutory mandate that VMRC "promote the general welfare of the seafood industry."
 
-Objections
+### Closing tie-back (~200-500 words)
 
-========
-
-========
-
-Chapter 3 (The Waterman):
-
----
-
-CHAPTER 3: THE WATERMAN
-
-From our conversations, what lives here:
-
-This chapter is almost entirely dependent on your interviews and personal observation. The scaffolding from our conversations:
-
-- The Chesapeake Bay as a renewable commons that has been managed in ways that produced near-permanent foreclosure (oyster collapse, crab decline)
-- The waterman's structural position as identical to the miner's — labor and community absorbing costs while value disperses to consumers who never see the water
-- The introduction of cost severance operating on renewable resources when extraction rate exceeds regeneration rate
-- Your harbor at Old Point Comfort, the dockmasters as mentors, the daily visible connection between your life and the watermen's
-- The "common bonds" theme planted: the miner and the waterman don't know they're in the same structural position. The system that extracts from them is maintained partly by preventing this recognition.
-
-Counterarguments woven in: None specific to this chapter. The chapter's emotional work is connection, not argumentation.
-
-How to handle this: Pure Register 1. Story, observation, voice. The analytical framework is present only as an undertone — the reader recognizes cost severance operating without being told "this is cost severance operating." You name it briefly at the end of the chapter to tie it back: "Different resource. Different geography. Same mechanism."
+10. Return to the harbor. The framework's structural reading by implication, not by name. The reader is led to the question "who paid the bill?" without being given the word for it. Closing line in waterman voice: *"Different resource. Different geography. Same mechanism."* (Or whatever the author's voice produces when the prose arrives.)
 
 ---
 
-## Expanded integration guidance (added 2026-04-23 per chapter audit v1.0.3 §2.3)
+## §2. Apparatus exclusion list — the framework-vs-regulatory architecture distinction
 
-Ch 3 is **BLOCKING on Chesapeake fieldwork** (workstream 11 — Fort Monroe bar reopening + watermen interviews). Without the fieldwork the chapter cannot land its first-person anchor. The Chesapeake fisheries case-study file is currently a stub (32 lines) and must be developed to substantial depth (parallel to `research/case-studies/appalachian-coal.md`) to support the chapter.
+**Per author direction 2026-05-20: these are different kinds of "architecture" and the chapter discipline holds.**
 
-### Integration work required (per chapter audit v1.0.3 §2.3)
+### ❌ DO NOT introduce in chapter prose (framework-internal apparatus; lives in Ch 5 + Ch 6 + Tech Appendix only)
 
-1. **Chesapeake fieldwork.** Watermen interviews — ideally 30+ years on the water (generational witness to oyster collapse + crab decline + regulatory changes + climate signal). Retired watermen who can speak to "what the Bay was" before the stocks declined. Chesapeake Bay Foundation scientist + VIMS (Virginia Institute of Marine Science) academic for the institutional / ecological-science side. See case-study audit v1.0.3 §9.1 for full interview specification — per-interviewee targeting, question architecture, and consent protocol.
-2. **Chesapeake fisheries case-study file development.** Current stub → substantial research-grade file. Research gaps per case audit v1.0.3 §5.2 item 12: NOAA oyster + blue crab population data (1950-2024); Chesapeake Bay Foundation annual State-of-the-Bay reports; Jackson et al. (2001) "Historical Overfishing and the Recent Collapse of Coastal Ecosystems" (*Science*); the ~300-year watermen-community history; the 1800s oyster-boom-to-collapse arc; the 1970s striped-bass moratorium as regulatory case-study-within-case.
-3. **Renewable-past-regenerative-capacity framework-distinctive theorization.** This is a framework claim-staking opportunity. Most extraction-framework literature is about non-renewables. The renewable-pushed-past-regeneration pattern is less well-theorized. Ch 3 is the place to distinguish:
-   - **Non-renewable extraction:** the stock is finite; the question is how fast to extract + what externality-tail accumulates.
-   - **Renewable-past-regeneration extraction:** the stock could be sustained but is being harvested faster than it regenerates; the question is whether the renewable capacity collapses irreversibly, at which point the case becomes non-renewable-in-effect.
-   - **Chesapeake oysters and blue crabs** are the canonical renewable-past-regeneration cases; both have crossed into irreversibility-threshold territory at various points (oysters more than crabs).
-4. **First-person anchor via Chris's Hampton roots.** Daily-visible watermen from the sailboat; harbor-at-dawn observation. This is the chapter where Chris's first-person is most directly integrated beyond Ch 1 + Ch 10. Register discipline: observational, specific, named-in-generics-not-in-specifics (see register notes below).
+- Cost severance
+- Residual commons value (RCV)
+- Foreclosure Bond
+- Restitution Bond
+- Two-instrument decomposition
+- Accounting equation (Cost Severance = RCV − B)
+- CIT / Cᵢ categories
+- Lineage Labor cost
+- Externality Tail
+- Abundance Masking
+- Four Gates
+- Pattern 2 methodology
 
-### Case-study file references
+### ❌ DO NOT introduce in chapter prose (academic political-economy terminology; framework-internal scaffolding)
 
-- **`research/case-studies/chesapeake-fisheries.md`** — currently a stub; load-bearing for this chapter. Development is research-gap per case-study audit v1.0.3 §5.2 item 12. Chris's fieldwork produces the file's primary material.
-- **`research/case-studies/norway-swf.md`** (Ch 4 anchor) — cross-reference. Ch 3 ends with the Bay-as-commons observation; Ch 4 picks up with the existence-proof for what commons-governance at scale can look like. Coordinate the handoff.
-- **`research/case-studies/appalachian-coal.md`** (Ch 2 anchor) — cross-reference for the miner-waterman structural-parallel argument the chapter is building.
-- **`research/case-studies/indigenous-land-dispossession.md`** — possible tertiary reference if Ch 3 engages the Bay's pre-colonial indigenous-stewardship history (Powhatan, Piscataway, Nanticoke, and other tribes of the Chesapeake watershed). Per indigenous case file §6.3 cross-references. Light touch if included; full engagement is Ch 10.
+- "Regulatory capture"
+- "Rent-seeking"
+- "Public Choice tradition"
+- "Externality" (as a noun) — drop in favor of plain "the bill" / "the cost that gets paid by someone else"
+- "Structural mechanism" — academic register; replace with plain-English description
+- "Optimum yield" / "ecological reference points" — only when quoting a regulatory source
 
-### Case studies NOT for Ch 3
+### ✅ DO use in chapter prose (real-world institutional facts; story-facts)
 
-- **Opioid extraction** — Ch 2 material. Not Ch 3.
-- **Housing enforced immobility** — Ch 2 refutation + Ch 8 pattern-integration. Not Ch 3, even though watermen-community displacement has housing-market adjacency.
-- **2008 crisis / Social Security / healthcare** — Ch 5 material.
-- **Reachable-horizon cluster (Alaska / Chattanooga / Mondragon / Vienna)** — Ch 9 material.
+- Virginia Marine Resources Commission (VMRC)
+- Atlantic States Marine Fisheries Commission (ASMFC)
+- The Bay cap (51,000 metric tons; established 2006)
+- Virginia General Assembly
+- Virginia Institute of Marine Science (VIMS)
+- Omega Protein
+- Ocean Harvesters
+- Science Center for Marine Fisheries
+- Va. Code § 28.2-201 (VMRC's enabling statute, including the "promote the general welfare of the seafood industry" language)
+- Chesapeake Bay Foundation (CBF)
+- Specific named regulators, scientists, watermen, advocates
 
-### Pre-drafting gates (non-optional, per audit)
+### ✅ DO describe the four-step capture sequence as story-fact
 
-1. **Watermen interview-consent protocol.** Record with consent. Offer anonymity as default option. Offer transcript review before publication. Establish naming / attribution preference at start of interview. See case-study audit v1.0.3 §9.1 for the interview-design specification.
-2. **Hampton-specificity discipline.** Harbor observations should not identify specific operators (boat names, slip numbers, specific families) without consent. Generic observational register ("a man moving on deck, a line cast, a cough") is the model. Specific identifications require explicit permission.
-3. **Chesapeake Bay Foundation + VIMS institutional handling.** If interviewing scientists or policy advocates affiliated with these institutions, clarify at the outset whether their views represent the institution or the individual. Standard journalistic practice.
-4. **Watermen-community dignity discipline.** Per the Ch 2 miner-dignity register baseline: the chapter must honor the watermen as skilled workers doing essential work, not as victims of forces they don't understand. The analytical framework is structural critique; the prose is respect.
-
-### Register notes (per chapter audit v1.0.3 §2.3 + stands-the-test-of-time drafts §4 humane-and-precise discipline)
-
-- **Pure Register 1.** Story, observation, voice. No framework vocabulary until the closing tie-back ("Different resource. Different geography. Same mechanism.").
-- **Chris's Hampton roots are load-bearing.** Daily-visible watermen, sailboat observation, harbor-at-dawn, the specific places (Old Point Comfort, Fort Monroe, the Bay mouth). The first-person specificity is what makes the case-file material breathe.
-- **Target length 5,000-6,000 words** (matching Ch 1 + Ch 2 + Ch 10 baseline).
-- **The chapter's emotional work is connection, not argumentation.** Let the miner-waterman structural parallel be felt before it is argued. The argument is Ch 2 + Ch 8's job. Ch 3's job is the recognition.
-
-### Character pressure points (anticipated, per audit)
-
-- **C14 (Appalachian reader)** — cross-regional recognition. Does the Appalachian miner see himself in the Chesapeake waterman? Will depend on whether the structural parallel lands as genuine kinship vs. imposed analogy.
-- **C17 (Ostrom scholar)** — HIGH engagement. Chesapeake fisheries is commons-governance territory. Ostrom's own work engaged fisheries specifically (though her canonical work is on smaller-scale common-pool resources). Ch 3 should position as framework-compatible-with-extending-Ostrom, not as framework-replaces-Ostrom.
-- **C22 (MFA critic)** — Ch 3 is prose-heavy. Register discipline critical. This chapter is a register test; if Ch 3's prose lands, the book's literary register is secured.
-- **C25 (grandfather at NASA Langley) + Chris's Hampton roots** — this is where the book's personal-geography most directly lands. The model-maker-at-Langley ethical anchor (Ch 10) shares the Hampton geography with Ch 3's waterman observation. Don't belabor this cross-reference in Ch 3 prose; let it resonate structurally.
-
-### Cross-chapter tensions (per audit)
-
-- **Ch 3 (renewable-past-regeneration) + Ch 8 (non-renewable coal worked through tiers)** demonstrate framework handles both extraction classes. Ch 3 plants the renewable case; Ch 8 works the non-renewable case through tiers. Coordinate explicitly.
-- **Ch 3 + Ch 10 (harbor close)** share the Hampton-harbor setting. Don't repeat; earn the recurrence. Ch 3 establishes the harbor's daily life; Ch 10 returns to it after the framework has been developed.
-- **Ch 3 + Ch 4 (Norway)** handoff. Ch 3 closes on the Bay-as-commons observation; Ch 4 picks up with "here is what commons-governance at scale can look like." Coordinate the bridge so Ch 4 reads as Ch 3's natural continuation.
-
-### Cross-references
-
-- Chapter audit v1.0.3 §2.3 — full integration items + pre-drafting gates + register notes.
-- Case-study audit v1.0.3 §2.15 — Chesapeake fisheries routing (Ch 3 anchor, development blocked on fieldwork).
-- Case-study audit v1.0.3 §5.2 item 12 — research gaps for Chesapeake case-file development.
-- Case-study audit v1.0.3 §9.1 — fieldwork specification (who to interview, what to ask, consent protocol). *[Note: the canonical case-study audit is now `core/case-studies/commons_bonds_case_study_audit_v1.0.6.md`; §9.1 spec migrated forward and is preserved at line 1572 of that file. Operational §9.1 content also reproduced inline below.]*
+The sequence — science gap → VIMS offers study → General Assembly refuses → industry funds research — is told in plain language by naming each step. **The reader supplies the word "capture" or "corruption." The chapter doesn't.**
 
 ---
 
-## Operational guidance for Insight #36 β.2 conversational drafting session
+## §3. Path B preemptive policy (for Stage 2 drafting session)
 
-*Added 2026-04-30 per Insight #37 + WP#10 + Insight #9 (Pattern 2 verdict ratified 2026-04-30). This section pulls the operational content forward from external files + adds discipline-asks parallel to Ch 1's GuidanceDoc structure, so the conversational session can run from this single file.*
+Per `feedback_audience_aware_drafting_discipline.md` v2.0:
 
-### Pattern 2 anchor framing (per Insight #9 verdict ratified 2026-04-30)
+- **The Stage 2 audience-blind drafting session does NOT open the existing Ch 3 draft** ([`Chapter__3_TheWaterman.md`](Chapter__3_TheWaterman.md)). Path B contamination (verbatim sentence reuse) is the failure mode being prevented.
+- The Stage 2 session works only from the Stage 1 brief artifact's beats + canonical facts + structural anchors.
+- The Stage 1 brief itself MAY read the existing draft (Stage 1 is research/synthesis, not drafting).
+- Any sentence in the Stage 2 v2 draft that reads as a Ch 3 v1 echo at Stage 3 fact-check gets rewritten freshly, not pasted from v1.
 
-Ch 3 waterman is the **second external-layer Pattern 2 decision-time anchor** for the framework, after Ch 1's commute trade. Per Insight #9 verdict (b): demonstrate the framework's decision-time affordance through the waterman's voice; do NOT codify a methodology. Readers extract "the framework can be used at decision-time" by watching watermen-decision moments get severed from their longer-horizon outcomes — not from a procedural how-to.
+---
 
-Decision-time moments worth threading through Ch 3 prose (any of these, all of these, or the waterman's own moments that surface during interviews):
+## §4. Named-subject consent
 
-- **Whether to stay on the water for another season** when costs are visibly accumulating but the income is still real.
-- **Whether to let a son or daughter become a waterman** when the bay's trajectory is visible across decades but the family's economic options are constrained.
-- **When to sell the boat** — the moment past which the family's working-waterfront identity ends.
-- **Whether to fish a particular season under particular regulations** — the in-the-moment cost-severance compute when the waterman knows the regulatory-allowed harvest does not match the regenerative-capacity of the stock.
-- **Whether to relocate when the local working waterfront collapses** — the foreclosure cost made visible at family-decision scale.
+Per `feedback_named_subject_consent.md` (ratified 2026-05-09; public-record exception added 2026-05-12):
 
-Each of these is a moment where informal CIT + informal RCV (the two-step from `core/methodology/decision_time_application_internal_v1.0.0.md` §2) would surface costs the decision-maker would otherwise miss. **Do not name these costs in chapter prose using framework vocabulary.** Pure Register 1; the decision-time framing emerges from the waterman's voice describing the choice he faced and what it cost.
+| Subject category | Discipline |
+|---|---|
+| **Phat** (living Fox Hill waterman) | **🟢 ANONYMIZE — RATIFIED 2026-05-20 by author.** All substantive material preserved per `feedback_named_subject_consent.md` ("Anonymization should preserve the load-bearing details — the trade-off is the personal name, not the substantive material"). Consent pursuit moves to relationship-pace, not publishing-gate. If consent lands in a future printing cycle, name restores; otherwise anonymized version is permanent. Apply anonymization to Ch 3 v1 draft + Noema essay Essay B line 136 in dedicated content-edit sessions before next-stage drafting fires. |
+| **Biggie** (deceased Fox Hill waterman; ~30+ years deceased) | Name with care; courtesy-notify reachable surviving family per discipline. |
+| **Mayor "Ooker" Eskridge** (Tangier; elected official; on-record to journalists since at least 2009) | **Name freely.** Public-record exception applies — elected official, on-record speech to journalists for publication. Cite to Sherfinski 2022 / Swift 2018 / Smithsonian 2009 as source-of-record. |
+| **Joseph S. Lupton, Jr / Capt. Craig Freeman / Mildred Reyes-Ritter / Doug Kuett / Richard Godsey / Tim Berlett / Tom Wayland / Christopher Malgee / Brandon Murphy / Ed Pacheco / Jack Strickland / Tonya O'Connor** | **Name freely.** All submitted public comments under their own names to a Virginia regulatory record. Public-record exception applies. Cite to VMRC Petition 449 (Apr 21, 2026). |
+| **Robert T. Brown Sr. / Jeff Harrison / J.C. Hudgins / Allison Colden / Mitch Tarnowski / Genny Nesslage / Rob Latour / Andrew Scheld / Megan Ware / Andy Harris (R-MD) / Jason Ruth / Lee Robbins / Danny Crabbe / Monty Deihl / John Held** | **Name freely.** All on-record statements to journalists or in regulatory records. Cite to original source (Maryland Matters Apr 2026 / The Banner May 2026 / WHRO Oct 2025 / VMRC Petition 449). |
+| **Allen Parks / Leon McMann / Milton Parks / George "Cook" Cannon / Inez Pruitt / Cameron Evans / Bill Goldsborough / Pat Whewell** | **Name with attribution.** All quoted in published journalism (Smithsonian 2009 / Sherfinski 2022 / Swift 2018 / Maryland Matters 2026). |
 
-**Worked-example seed material:** `core/methodology/decision_time_application_internal_v1.0.0.md` §5 carries decision-time worked-examples (apartment leases, employment, medical, housing, career pivots, consumer purchases) — the waterman-decision examples above extend that catalog. Internal-layer; not for chapter prose; informs the conversational session's question shape.
+---
 
-### What waterman stories must do for Ch 3 to land (structural-asks paralleling Ch 1 GuidanceDoc lines 70-93)
+## §5. Source catalogue (with hyperlinks)
 
-1. **The book needs living watermen.** Named (with consent) or anonymized (with care). Real people the reader follows. The waterman chapter — like *Evicted*'s Arleen and Lamar — succeeds because the reader cares about the person before they care about the structure. One or two watermen at depth beats five at survey.
+Primary sources for Ch 3 v2:
 
-2. **The villain is the system, not anyone in the chapter.** The agricultural-runoff farmer upstream isn't malicious. The downstream-consumer ordering crab cakes in Baltimore isn't malicious. The Chesapeake Bay Foundation scientist isn't malicious. The regulatory body isn't malicious. The chapter must honor each role as a structural position, not a moral judgment. The mechanism is the missing instrument that would have priced what the Bay required to remain a Bay. (Per Ch 2 dignity register baseline.)
+- [Tonya O'Connor — Petition for Rulemaking to Establish a Temporary Moratorium on Chesapeake Bay Menhaden Reduction Fishing](https://mrc.virginia.gov/Notices/2026/Menhaden-Moratorium-Petition.pdf) — VMRC Petition 449; filed 2025-12-31; hearing 2026-04-21; 1,266 public comments + Omega Protein/Ocean Harvesters formal opposition. **PDF in author's downloads as `2026-04-21-Menhaden-Petition.pdf`.**
+- [Katherine Hafner — "Menhaden board cuts amount harvesters can catch along the Atlantic next year" — WHRO, Oct 29, 2025](https://www.whro.org/environment/2025-10-29/menhaden-board-cuts-amount-harvesters-can-catch-along-the-atlantic-next-year) — Nesslage + Latour + Ware quotes; ASMFC 20% TAC cut; VIMS $3M study unfunded; 51,000 mt cap on "industry past performance."
+- [Timothy Wheeler + Jeremy Cox — "Amid oyster bounty, Chesapeake Bay watermen suffer dismal harvest" — Maryland Matters / Bay Journal, April 27, 2026](https://southernmarylandchronicle.com/2026/04/27/amid-oyster-bounty-chesapeake-bay-watermen-suffer-dismal-harvest-2/) — Harrison + Brown Sr. + Hudgins + Tarnowski + Scheld + Ruth + Colden quotes; the oyster paradox; Tilghman Island.
+- [Adam Willis — "Chesapeake blue crabs are disappearing. The reason remains a mystery." — The Banner, May 12, 2026](https://www.thebanner.com/community/climate-environment/chesapeake-bay-blue-crab-decline-E5CV5LURHNB23JLFNK4ZQTHCGE/) — Wilberg + Ogburn + Brown Sr. + Bromilow quotes; 50% blue crab decline.
+- [David Sherfinski — "As Sea Levels Rise, Can Chesapeake Bay's Tangier Island Survive?" — Thomson Reuters Foundation / Context, April 2022](https://www.context.news/climate-risks/as-sea-levels-rise-can-chesapeake-bays-tangier-island-survive) — Eskridge + Pruitt + Evans + Schulte + Wu quotes. (Sherfinski now at CBF.)
+- Earl Swift — *Chesapeake Requiem: A Year with the Watermen of Vanishing Tangier Island* (Dey Street Books, 2018) — McMann + Milton Parks + Cook Cannon + Eskridge-vs-Gore CNN town hall + multiple Tangier voices. Book purchase required.
+- [Kenneth R. Fletcher — "Tangier Island and the Way of the Watermen" — Smithsonian Magazine, March 2009](https://www.smithsonianmag.com/science-nature/tangier-island-and-the-way-of-the-watermen-117890294/) — Allen Parks + Cook Cannon (as former waterman) + Bill Goldsborough quotes; 140→65 watermen 2003-2009 decline statistic.
+- [Gerald Winegrad — "Chesapeake restoration collapsing on altar of political expediency" — Bay Journal opinion, October 4, 2024](https://www.bayjournal.com/opinion/forum/chesapeake-restoration-collapsing-on-altar-of-political-expediency/article_c10b6860-8193-11ef-860c-dfacdaaaa228.html) — structural-failure statistics: 28.1% Bay waters unimpaired (2022) vs 26.5% (1985); 7 MD commercial fisheries declined 27-91% since 2012.
 
-3. **The waterman's origin moment.** When did *the waterman* first see the structural decline — the year the oyster harvest changed, the season the crabs didn't return, the moment a regulation arrived that said what could already be felt. Not a quote-mined moment; the moment as the waterman tells it. (Per Ch 1 lines 102-108 origin-story logic.)
+Secondary / supporting sources:
+- [Mickie Meinhardt — "Chronicling The End Times on Tangier Island" — The Bitter Southerner](https://bittersoutherner.com/chronicling-the-end-times-on-tangier-island) — Swift methodology + Cook Cannon sermon.
+- [David J. Unger — Book review of *Chesapeake Requiem* — Undark, August 31, 2018](https://undark.org/2018/08/31/book-review-swift-chesapeake-requiem/) — Eskridge-vs-Gore CNN town hall summary.
 
-4. **The structural parallel must be felt, not asserted.** The miner-waterman connection ("Different resource. Different geography. Same mechanism.") is the chapter's closing tie-back. It must read as recognition, not as analytical claim. The recognition lands when the reader has already felt the structural identity through the prose; the closing line names what was already present. (Per line 54 + line 98 register guidance.)
+Full voices-with-quotes catalogue lives in [`../../research/outreach/subjects/cbf/live-call-companion_2026-05-21_thursday-meeting.html`](../../research/outreach/subjects/cbf/live-call-companion_2026-05-21_thursday-meeting.html) §"Voices catalogued for citation."
 
-5. **Hampton-roots specificity is the access-gate.** Chris's daily-visible watermen, the specific places (Old Point Comfort, Fort Monroe, the Bay mouth), the harbor-at-dawn observation. This is not background texture; it is the cross-spectrum-access function for Ch 3 (analogous to Chris's biography being Ch 1's access-gate). (Per line 70 + line 96.)
+---
 
-6. **Renewable-past-regeneration framing as framework-distinctive contribution.** Most extraction-framework literature is about non-renewables. Ch 3 is the place to plant the renewable-pushed-past-regeneration distinction. The reader should leave Ch 3 understanding (without being told) that renewable-can-become-non-renewable-in-effect when extraction crosses regenerative capacity. (Per lines 66-69.)
+## §6. Cross-chapter linkages
 
-### Story types worth gathering from waterman conversations (paralleling Ch 1 lines 138-143)
+- **Ch 2 (The Miner) — parallel structural pattern.** The miner-waterman recognition is the chapter's load-bearing cross-chapter move. Different industry, different regulator, same shape: extraction past renewability + costs absorbed by community + accountability lagging the harm. The chapters mirror without duplicating.
+- **Ch 5 (The Accountability Gap) — rent-seeking-engagement linkage.** Per cross-chapter rent-seeking workstream ratified 2026-05-18 (`bc02767` + `a1e54d9`). Ch 5 carries the structural critique formally; Ch 3 carries it as story. Ch 3 doesn't need to make the analytical argument because Ch 5 already does.
+- **Ch 8 (What Things Actually Cost) — non-renewable parallel.** Ch 3 plants renewable-past-regeneration; Ch 8 works the non-renewable case through coal.
+- **Ch 9 (Pricing Honestly) — Bay-cap critique parallel.** Moore's "Bay cap based on historic landings rather than current Bay-specific biology" critique echoes structurally in Ch 9's broader pricing-honesty argument. Coordinate without duplicating.
+- **Ch 10 (Common Bonds) — harbor close.** Ch 3 establishes the harbor's daily life; Ch 10 returns after the framework has been built. Don't preempt Ch 10.
+- **Tech Appendix — formal apparatus + political-economy lineage.** Cost severance + RCV formal definitions; rent-seeking + regulatory capture engagement at academic register; references to Stigler (1971) / Peltzman (1976) / Buchanan & Tullock (1962) / Tullock (1967).
 
-A menu, not a checklist. Pick 2-4 for the chapter; let the rest live in interview transcripts + the case-study file.
+---
 
-- **The generational handoff that did or didn't happen.** What did your father / grandfather fish? What did you fish? What do your children / grandchildren fish (if they fish at all)? The story of the fishery across three generations is the chapter's temporal spine.
-- **The specific year the water changed.** The named moment — a year, an event, a species' last good season. Not a statistical-trend story; a remembered-moment story.
-- **The choice to encourage or discourage a child from staying.** What do you tell your children about whether to stay on the water? This is the framework's lineage-cost made personal.
-- **The regulation that confirmed what was already felt.** When the official acknowledgment caught up to (or failed to catch up to) the watermen's lived knowledge. The institutional-vs-experiential gap.
-- **The community collapse — what got asked of the watermen + what was paid back.** Tangier Island, Smith Island, the Hampton working waterfront, specific named places where the working-waterfront economy thinned. What was asked vs. what was returned.
-- **The technical detail that the framework needs to honor.** The texture of the work — gear, seasons, vocabulary, specific boat-handling — at enough density that the prose is felt as observed, not researched. (Register-discipline asset; per C22 MFA-critic pressure point.)
+## §7. What Chapter 3 publisher-facing prose does NOT do
 
-### Cost-category demonstration mapping for waterman stories (current Cᵢ via CIT through Four Gates)
+Preserved from archived GuidanceDoc; updated for 2026-05-20 revision:
 
-Ch 3 should NOT name these in prose (Register 1 discipline; framework vocabulary lands in Ch 6). What follows is internal scaffolding for which Cᵢ categories the waterman stories naturally illuminate, so the conversational session can ensure breadth without naming the categories. Recommend covering 4-6 of these implicitly; the rest can wait for Ch 6 + Tech Appendix.
+- Does NOT invoke framework vocabulary until the closing tie-back — and even there, only structural-mechanism phrasing, not technical terms.
+- Does NOT codify a decision-time methodology. Pattern 2 anchor per WP#10.
+- Does NOT use academic political-economy terms (regulatory capture, rent-seeking, Public Choice).
+- Does NOT preempt Ch 4 (Norway as commons-governance existence proof).
+- Does NOT preempt Ch 5 (analytical chapter; the Bay's accountability-gap case).
+- Does NOT preempt Ch 6 (framework apparatus + cost-category formal naming).
+- Does NOT preempt Ch 8 (non-renewable coal walkthrough).
+- Does NOT preempt Ch 10 (harbor close).
+- Does NOT introduce climate-rhetoric framing for Tangier — erosion-and-shoreline only, per the CBF-political-spectrum discipline.
+- Does NOT frame Omega Protein as villain — mirrors Moore's calibrated "science-gap" register; structural critique without motive attribution.
+- Does NOT disclose Fox Hill names beyond the consent-disciplined defaults (Phat anonymized; Biggie courtesy-notify).
 
-- **Lifetime / Health cost (Cᵢ admitted via CIT Gate physical-survival)** — long-term physical wear from waterman work; cold, repetition, joint damage; healthcare access for retired watermen + Medicare gaps for irregular-income workers.
-- **Individual / Actuarial Risk cost** — boat hazards; economic risk of bad seasons; weather/storm exposure; absence of unemployment-insurance equivalent for self-employed waterman.
-- **Knowledge and Cultural cost** — multi-generational ecological knowledge being lost as fewer young people enter the profession; the watermen-vocabulary, the seasonal-rhythm-knowledge, the boat-handling-skill all degrading as the profession thins.
-- **Community Transition / Spatial cost** — Tangier Island, Smith Island, working-waterfront thinning; what happens to a community when its working economy collapses + the geographic-displacement pattern.
-- **Foreclosure cost (renewable-past-regeneration variant — Ch 3's framework-distinctive contribution)** — the version of the future where oysters returned, where the next generation could have continued; the *foreclosed-on-renewable-stock* possibility space. This is Ch 3's distinctive cost-category contribution to the framework.
-- **Lineage Labor cost** — what watermen pass to (or withhold from) children; the choice to discourage; family labor on the boat at compensation rates the surrounding economy doesn't recognize.
-- **Ecological / Habitability cost** — Bay degradation; dead zones; specific species loss; the spatial-temporal cost-severance to non-Bay consumers who eat the crab and never see the water.
-- **Political Capture cost** — regulatory capture; agricultural-runoff politics; menhaden-management battles; the specific institutional patterns by which the Bay's accountability instruments fail to price what the Bay requires.
+---
 
-### Migrated fieldwork specification (from `commons_bonds_case_study_audit_v1.0.6.md` §9.1 line 1572)
+## §8. Pre-Stage-2 drafting checklist
 
-*Reproduced inline so the conversational session can run from this file. Source remains canonical; this is a working copy for β.2.*
+Before the Stage 2 audience-blind drafting session fires:
 
-#### Who to interview (priority order)
+- [ ] Stage 1 brief artifact ratified at `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_ch3_revision_pre_draft_audience_structure_v1.0.0.md`
+- [ ] Phat consent status confirmed (anonymize vs. name) — discipline applies either way; default anonymize
+- [ ] CBF Thursday 2026-05-21 meeting outcomes folded into brief if substantive
+- [ ] Any post-Thursday source-material additions (Latour at VIMS responds; Moore directly responds; Colden directly responds) folded in
+- [ ] Stage 1 brief audience-pressure-test set updated to ~30 characters relevant to Ch 3 specifically (Bay reader; waterman reader; Tangier reader; recreational-angler reader; Reedville-worker reader; environmentalist reader; CBF-comms reader; adversarial-industry reader; etc.)
+- [ ] Branch created from current `origin/main` per workflow doctrine
 
-1. **Working waterman with 30+ years on the water.** Ideally based at Fort Monroe, Tangier Island, or one of the remaining working waterfronts on the Virginia or Maryland Chesapeake. Look for someone who can speak to: oyster harvest volumes they remember across decades; blue crab catch changes; seasonal rhythm changes; specific named changes in water color / clarity / smell; specific named species disappearances or returns.
-2. **Retired waterman with family members still on the water.** A generational witness — can speak to what his grandfather did, what he did, what his son does, and what is different across the three.
-3. **Chesapeake Bay Foundation scientist or fisheries manager.** For the institutional-side perspective on regulatory failures + governance attempts + specific measurement data on Bay decline.
-4. **Academic at Virginia Institute of Marine Science (VIMS).** For the scholarly anchor — who has studied the specific fishery-collapse mechanisms; who knows where the data anomalies are.
+---
 
-#### Core questions (per §9.1)
+## §9. Cross-references
 
-- What did your father / grandfather fish? What did you fish? What do your children / grandchildren fish (if they fish at all)?
-- Can you point to a specific year or event when you saw the water or the harvest change?
-- What was the last year you caught (specific species) in (specific place)?
-- What do you tell your children about whether to stay on the water?
-- When did the sense change — if it changed — from "we're adjusting to seasonal variation" to "this is structural decline"?
-- What does the framework's word for the harm register as: "severed cost"? "Accountability gap"? "Residual commons value"? Do any of these land as accurate descriptions of what you've experienced? *[Caution: this question tests vocabulary against lived experience — only ask after rapport is established + only with watermen who have signaled curiosity about analytical framing. Default to skipping for working watermen who came for stories, not theory.]*
-- What were the watermen asked to give up, that you don't think the Bay or the broader community ever paid back?
+- [`../../tools/workstream-handoffs/pm-session-handoff_2026-05-18.md`](../../tools/workstream-handoffs/pm-session-handoff_2026-05-18.md) — PM dashboard.
+- [`../../tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../../tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) — pipeline doctrine.
+- [`../../tools/memory/feedback_audience_aware_drafting_discipline.md`](../../tools/memory/feedback_audience_aware_drafting_discipline.md) — v2.0 two-stage discipline.
+- [`../../tools/memory/feedback_named_subject_consent.md`](../../tools/memory/feedback_named_subject_consent.md) — consent discipline.
+- [`../../tools/memory/feedback_substance_drives_length.md`](../../tools/memory/feedback_substance_drives_length.md) — substance-drives-length rule.
+- [`../../research/outreach/subjects/cbf/live-call-companion_2026-05-21_thursday-meeting.html`](../../research/outreach/subjects/cbf/live-call-companion_2026-05-21_thursday-meeting.html) — full voices catalogue + meeting prep.
+- [`../../tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../../tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) — cross-chapter rent-seeking engagement (Ch 5 + Ch 8 + Ch 9 + TA).
+- [`Chapter__3_TheWaterman.md`](Chapter__3_TheWaterman.md) — existing Ch 3 v1 draft (Pass 1 PROPOSED `2f76e37`).
+- [`archive/Chapter__3___GuidanceDoc.md`](archive/Chapter__3___GuidanceDoc.md) — superseded archive copy (audit trail).
+- [`../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-XX_ch3_thewaterman_factcheck.md`](../../tools/rigor-passes/) — Ch 3 Pass 1 PROPOSED `2f76e37` artifact (verify exact filename).
 
-#### Specific anchor-moments to probe
+---
 
-- Oyster-harvest collapse (dates vary by subregion; Virginia vs. Maryland; peak 1880s–1900s → 99% decline by 1990s).
-- Menhaden and striped-bass management disputes (specific regulatory battles).
-- "Dead zones" / hypoxia events (specific years + locations).
-- Reckonings around aquaculture (oyster-reef restoration; whether this is restoration or a different thing).
-
-#### Tone / consent notes
-
-- Record with consent; offer anonymity option; offer to share transcript before publication; ask what the waterman wants to be called in the book (name, waterman, "a waterman I know").
-- Do not fish for the sentence you want to quote — the goal is understanding the situation, not a quotable line.
-- Chris's Hampton roots are an asset here — you are not a visiting academic; you are someone with personal geography.
-
-### Conversational drafting session structure (suggested for Insight #36 β.2)
-
-Not prescriptive — Chris's preference governs. Default shape if no preference surfaced:
-
-1. **Open with Chris's harbor observations** that already exist in conversation memory or notes — the daily-visible watermen, dockmasters, the harbor-at-dawn texture. This anchors the prose voice before any specific waterman's story enters.
-2. **Walk through 1-2 watermen stories** (interview transcripts if available; remembered conversations from harbor + dockmaster context if not). Surface follow-up questions in real time per the §9.1 question list above. Aim to demonstrate 4-6 of the cost categories above through the story texture, without naming them.
-3. **Plant the renewable-past-regeneration framing** as undertone — let the regenerative-capacity-vs-extraction-rate gap show through specific stocks (oysters / blue crab / striped bass) without theorizing it.
-4. **Land the closing tie-back** in waterman voice if possible: "Different resource. Different geography. Same mechanism." Or whatever Chris's voice produces when the prose arrives at the connection.
-
-### What Ch 3 publisher-facing prose does NOT do (preserved register discipline + Pattern 2)
-
-- Does not invoke framework vocabulary (CIT, RCV, Cost Severance, Accountability Bond, Cᵢ categories, etc.) until the closing tie-back — and even there, only the structural-mechanism phrasing, not the technical terms.
-- Does not codify a decision-time methodology — Pattern 2 threading per WP#10. The waterman's choices land as lived dilemmas, not as steps in a how-to.
-- Does not preempt Ch 4 (Norway as commons-governance existence proof) — Ch 3 closes on the Bay-as-commons observation; the existence-proof is Ch 4's work.
-- Does not preempt Ch 6 (framework apparatus + cost-category naming) — the cost categories above are scaffolding for breadth-of-demonstration, NOT for in-prose naming.
-- Does not preempt Ch 8 (full coal-tier walkthrough) — Ch 3 plants renewable-past-regeneration; Ch 8 works the non-renewable case.
-- Does not preempt Ch 10 (harbor close) — Ch 3 establishes the harbor's daily life; Ch 10 returns after the framework has been built.
+*End of Chapter 3 GuidanceDoc (2026-05-20 revision). Update as state evolves; restore key sections from archive copy if substantive prior context is needed.*
