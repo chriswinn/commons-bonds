@@ -1,17 +1,3 @@
----
-dashboard:
-  chapter: 3
-  chapter_title: The Waterman
-  pipeline_stage: post-Stage-3 cascade complete + Stage 4 render audit
-  last_rigor_pass:
-    date: 2026-05-26
-    class: stage-4-render-audit
-    artifact: tools/rigor-passes/ch3_stage_4_render_audit_2026-05-26.md
-  linked_derivative_essays:
-    - publishing/essays/atlantic-main-chesapeake-watermen/
-  named_subject_inventory: research/outreach/_pipeline/consent-tracker.md
----
-
 # Commons Bonds
 *By Chris Winn*
 
