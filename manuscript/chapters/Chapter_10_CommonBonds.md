@@ -1,3 +1,16 @@
+---
+dashboard:
+  chapter: 10
+  chapter_title: Common Bonds
+  pipeline_stage: post-Stage-3 cascade complete (Pass 3.5 developmental edit + Pass 3.3 light re-fire post-Pass-3.5)
+  last_rigor_pass:
+    date: 2026-05-25
+    class: pass-3-5-developmental-edit + pass-3-3-light-refire
+    artifact: tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch10_common_bonds_stage3_pass_3_5_developmental_edit_ratify_as_recommended_v1.0.0.md
+  linked_derivative_essays: []
+  named_subject_inventory: research/outreach/_pipeline/consent-tracker.md
+---
+
 # Commons Bonds
 *By Chris Winn*
 

@@ -1,3 +1,18 @@
+---
+dashboard:
+  chapter: 5
+  chapter_title: The Accountability Gap
+  pipeline_stage: post-Stage-3 cascade complete + Stage 4 render audit
+  last_rigor_pass:
+    date: 2026-05-26
+    class: stage-4-render-audit
+    artifact: tools/rigor-passes/ch5_stage_4_render_audit_2026-05-26.md
+  linked_derivative_essays:
+    - publishing/essays/boston-review-accountability-gap/
+    - publishing/essays/nyrb-multi-book-review/
+  named_subject_inventory: research/outreach/_pipeline/consent-tracker.md
+---
+
 # Commons Bonds
 *By Chris Winn*
 

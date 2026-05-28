@@ -1,3 +1,18 @@
+---
+dashboard:
+  chapter: 1
+  chapter_title: The Quiet Math
+  pipeline_stage: post-Stage-3 cascade complete + Pass 3.3 light re-fire (Stage 4 + Stage 5 baselined in retrofit cohort)
+  last_rigor_pass:
+    date: 2026-05-19
+    class: pass-3-3-light-refire
+    artifact: tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_LIGHT_REFIRE_2026-05-19_PROPOSED.md
+  linked_derivative_essays:
+    - publishing/essays/noema-commons-bonds/
+    - publishing/essays/aeon-mask-of-abundance/
+  named_subject_inventory: research/outreach/_pipeline/consent-tracker.md
+---
+
 # Commons Bonds
 *By Chris Winn*
 

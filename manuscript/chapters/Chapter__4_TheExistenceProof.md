@@ -1,3 +1,18 @@
+---
+dashboard:
+  chapter: 4
+  chapter_title: The Existence Proof
+  pipeline_stage: post-Stage-3 cascade complete + Pass 3.3 light re-fire (post-Pass-3.5)
+  last_rigor_pass:
+    date: 2026-05-26
+    class: pass-3-3-light-refire
+    artifact: tools/rigor-passes/ch4_existence_proof_stage3_pass_3_3_light_refire_post_pass_3_5_2026-05-26.md
+  linked_derivative_essays:
+    - publishing/essays/foreign-affairs-existence-proof/
+    - publishing/essays/100-barrel/
+  named_subject_inventory: research/outreach/_pipeline/consent-tracker.md
+---
+
 # Commons Bonds
 *By Chris Winn*
 

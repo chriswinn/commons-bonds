@@ -1,3 +1,17 @@
+---
+dashboard:
+  chapter: 2
+  chapter_title: The Miner
+  pipeline_stage: post-Stage-3 cascade complete (Pass 3.5 developmental edit ratified)
+  last_rigor_pass:
+    date: 2026-05-25
+    class: pass-3-5-developmental-edit
+    artifact: tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch2_the_miner_pass_3_5_developmental_edit_v1.0.0.md
+  linked_derivative_essays:
+    - publishing/essays/harpers-the-miner/
+  named_subject_inventory: research/outreach/_pipeline/consent-tracker.md
+---
+
 # Commons Bonds
 *By Chris Winn*
 

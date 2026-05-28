@@ -1,3 +1,16 @@
+---
+dashboard:
+  chapter: 6
+  chapter_title: Three Ways of Counting
+  pipeline_stage: post-Stage-3 cascade complete + Stage 4 render-baseline (Ch 6 + Ch 8 + TA methodology reconciliation 2026-05-22)
+  last_rigor_pass:
+    date: 2026-05-22
+    class: cross-chapter-methodology-reconciliation
+    artifact: tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_ch6_ch8_ta_coal_co2_short_ton_methodology_reconciliation_v1.0.0.md
+  linked_derivative_essays: []
+  named_subject_inventory: research/outreach/_pipeline/consent-tracker.md
+---
+
 # Commons Bonds
 *By Chris Winn*
 
