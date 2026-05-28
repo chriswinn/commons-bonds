@@ -164,6 +164,20 @@ chapter). See `tools/drafting-templates/stage-3-three-pass-rigor-audit.md`
 for the canonical template + `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-13_ch1_the_quiet_math_stage3_voice_polish_v1.0.0.md`
 for the canonical Pass-2 artifact format model.
 
+### Status markers
+
+Status values on rigor artifacts (`PROPOSED` / `RATIFIED` /
+`RATIFIED-AWAITING-SUBMIT` / `SUBMITTED` / `PLACED` / `REJECTED`
+/ `WITHDRAWN` / `SUPERSEDED` / `HELD`), per-essay directory tags
+(`_SUBMITTED-<DATE>`, `_PLACED-<DATE>`, etc.), commit-message
+escape-hatch markers (`MERGE-HOLD:` / `MERGE-AFTER:`), and the PM
+dashboard emoji conventions are codified in
+[`tools/conventions/status-markers.md`](tools/conventions/status-markers.md).
+Reference that file before introducing a new marker or unclear
+status value; the state-transition diagram in §State-transition
+diagram is the authoritative rule for what can transition to
+what.
+
 ### Named-subject consent
 
 Confirmed individuals only; see

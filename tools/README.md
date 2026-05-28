@@ -27,6 +27,10 @@ Plus the current session handoff from `alignment/sessions/`.
 
 **Updated 2026-05-28** — inventory refreshed to match actual subdir contents; pre-2026-05-28 versions of this section referenced `tools/triage/` (no longer present) and omitted most active subdirs.
 
+### `tools/conventions/`
+
+Cross-cutting convention references. Currently one entry: [`conventions/status-markers.md`](conventions/status-markers.md) — codifies file-header `Status:` values, rigor-pass filename conventions, per-essay directory-name tags, commit-message escape-hatch markers (`MERGE-HOLD` / `MERGE-AFTER`), PM dashboard emoji conventions, and the state-transition diagram. Added 2026-05-28 per project-review S7. Cross-linked from `CLAUDE.md`, `publishing/essays/README.md`, and `tools/memory/feedback_pm_dashboard_structure.md`.
+
 ### `tools/pipeline-doctrine/`
 
 Canonical pipeline doctrine: four files (v1.0.0 main + Stage 1 / Stage 4 / Stage 5 deep-dives) covering the six-stage architecture, two-class cascade, invariant-gate infrastructure, and cross-chapter workstream lifecycle. Promoted from `tools/` top-level into this subdir 2026-05-28 (S6 of the structure-cleanup-followup session). Index + when-to-read-which guide at [`pipeline-doctrine/README.md`](pipeline-doctrine/README.md).

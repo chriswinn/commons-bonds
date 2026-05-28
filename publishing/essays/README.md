@@ -84,6 +84,8 @@ The directory name carries a status tag for at-a-glance state visibility:
 
 Rename directory on state change via `git mv`.
 
+Full status-marker convention (file-header `Status:` values, rigor-pass filenames, commit-message markers, PM dashboard emoji conventions, state-transition diagram): [`../../tools/conventions/status-markers.md`](../../tools/conventions/status-markers.md).
+
 ## Cross-references
 
 - Rigor-pass artifacts: [`../tools/rigor-passes/`](../../tools/rigor-passes/) — centralized; naming convention disambiguates per-essay; cross-referenced from per-essay `README.md` by canonical path.

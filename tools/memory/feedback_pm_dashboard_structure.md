@@ -40,3 +40,5 @@ Re-evaluate priority on each refresh — a workstream's priority shifts as deadl
 - The PM-session-freshness section (§11) is mandatory — it tells the next session when to recommend wrapping.
 
 **Codified in:** `tools/workstream-handoffs/pm-session-handoff_2026-05-13.md` (after 2026-05-13 v2.0 reorganization).
+
+**Emoji + status-marker conventions:** the priority emoji table (🔴 / 🟡 / 🟢 / 🔵 / 🟣 / ⏳ / ✅) plus the full status-marker reference (file-header `Status:` values, rigor-pass filenames, per-essay directory tags, commit-message markers, state-transition diagram) live at [`../conventions/status-markers.md`](../conventions/status-markers.md) (codified 2026-05-28 per project-review S7).
