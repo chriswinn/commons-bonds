@@ -341,7 +341,13 @@ patterns:
     severity: HIGH
     category: filename-leakage
     description: Drafting-template filename leaked into prose
-    allowlist: []
+    allowlist:
+      - file: tools/scripts/refresh-essay-dashboard.sh
+        line: 106
+        rationale: Script comment naming the file the script parses (stage-5-signoff.md). Filename-leakage rule does not apply to tooling that legitimately operates on those files.
+      - file: tools/scripts/refresh-essay-dashboard.sh
+        line: 148
+        rationale: Script local-var pointing at stage-5-signoff.md inside the per-essay folder being processed. Same rationale as the line:106 allowlist.
 
   # ===== Category 7: Workstream-handoff vocabulary =====
 
