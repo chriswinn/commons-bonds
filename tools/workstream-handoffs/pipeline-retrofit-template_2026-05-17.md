@@ -2,7 +2,7 @@
 
 **Date drafted:** 2026-05-17
 **Status:** Canonical template referenced by all per-chapter retrofit handoffs.
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) (PROPOSED 2026-05-17; all 11 decisions ratified at session start).
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) (PROPOSED 2026-05-17; all 11 decisions ratified at session start).
 **Triggered by:** ratified decision #9 (2026-05-17 brainstorm): all chapters run through the new pipeline once the doctrine cluster lands on `main`.
 
 ---
@@ -37,10 +37,10 @@ Per CLAUDE.md merge-to-main default: retrofit sessions producing rigor-pass arti
 ## §2. Read order
 
 1. THIS template + the per-chapter retrofit handoff stub (which scopes the work).
-2. [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) — full architecture.
-3. [`tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) — Stage 1 three-step structure.
-4. [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) — Stage 4 render-integrity.
-5. [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md) — Stage 5 sign-off + pre-pub review queue template.
+2. [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) — full architecture.
+3. [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) — Stage 1 three-step structure.
+4. [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) — Stage 4 render-integrity.
+5. [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md) — Stage 5 sign-off + pre-pub review queue template.
 6. [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) (v3.0) — Pass 3.4 robustness section.
 7. [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) (v3.0) §3 — adversarial / detractor character types + thread-pull synthesis canonical format.
 8. **Per-chapter prior-cycle rigor-pass artifacts** in `tools/rigor-passes/` (the per-chapter handoff stub lists the specific files).

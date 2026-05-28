@@ -9,7 +9,7 @@ relevant via this index.
 
 **Always-loaded via CLAUDE.md `@import` (3):**
 
-- [feedback_audience_aware_drafting_discipline.md](feedback_audience_aware_drafting_discipline.md) — v3.0 pipeline doctrine summary. Full architecture at `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`.
+- [feedback_audience_aware_drafting_discipline.md](feedback_audience_aware_drafting_discipline.md) — v3.0 pipeline doctrine summary. Full architecture at `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`.
 - [feedback_named_subject_consent.md](feedback_named_subject_consent.md) — naming defaults for living / deceased / public-record subjects in publisher-facing prose.
 - [feedback_verify_stale_memory_claims.md](feedback_verify_stale_memory_claims.md) — staleness discipline for time-sensitive claims in memory reads.
 

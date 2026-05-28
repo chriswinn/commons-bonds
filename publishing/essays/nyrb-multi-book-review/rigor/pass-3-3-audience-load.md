@@ -214,7 +214,7 @@ SEQUENCING DISCIPLINE: Pass 3.3 essay spot-fixes committed on feature branch (en
 - Pass 3.2 voice-polish RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md)
 - Pass 3.1 fact-check RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/pass-3-1-fact-check.md`](pass-3-1-fact-check.md)
 - Stage 1 brief RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`](stage-1-brief.md)
-- v3.1 doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) + Amendments A + B + C
+- v3.1 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) + Amendments A + B + C
 - Blurb-network register (cross-thread-todos #20 DORMANT context): [`publishing/blurbs/blurb-network-register.md`](../../publishing/blurbs/blurb-network-register.md) §2 candidates #1+#2+#3+#4
 - Cadence discipline: [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md)
 

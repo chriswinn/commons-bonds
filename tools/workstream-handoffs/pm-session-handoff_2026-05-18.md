@@ -35,7 +35,7 @@ You are the PM coordination session. Your job is to keep the *Commons Bonds* pro
 5. `publishing/essays/_pipeline/cross-thread-todos.md`
 6. `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` + `publishing/essays/_pipeline/decisions-log.md`
 7. `CLAUDE.md` — canonical workflow doctrine; merge-to-main default extended to rigor-pass artifacts (`abccb43` + `3d52a0e`)
-8. `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` — pipeline doctrine ratified 2026-05-17
+8. `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` — pipeline doctrine ratified 2026-05-17
 
 You do NOT need to read individual workstream handoffs unless drilling into one. Index-level knowledge is enough for coordination.
 
@@ -427,7 +427,7 @@ v2.0 amendments A + B + C in force. Memory: `feedback_audience_aware_drafting_di
 
 ## 17. Pipeline doctrine v1.0.0 — RATIFIED 2026-05-17 + Amendments A/B/C
 
-**Base doctrine** (`3e31d9d` + `935633e` + `ed5f6cf`): `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + stage docs (`stage_1`, `stage_4`, `stage_5`). Invariant-gate infrastructure: `.github/workflows/corpus-invariants.yml` + `tools/scripts/check-corpus-invariants.sh` + `tools/scripts/install-pre-commit-hook.sh` + `tools/quality-gates/` (regressed-patterns.yaml, scaffolding-patterns.yaml, render-baselines/build-environment.yaml).
+**Base doctrine** (`3e31d9d` + `935633e` + `ed5f6cf`): `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` + stage docs (`stage_1`, `stage_4`, `stage_5`). Invariant-gate infrastructure: `.github/workflows/corpus-invariants.yml` + `tools/scripts/check-corpus-invariants.sh` + `tools/scripts/install-pre-commit-hook.sh` + `tools/quality-gates/` (regressed-patterns.yaml, scaffolding-patterns.yaml, render-baselines/build-environment.yaml).
 
 **Amendments ratified since base doctrine:**
 - **Amendment A — selective stage-firing** (`f049c0d`, 2026-05-18). Stages fire only when triggers fire; token-economy note in per-pass artifacts.
@@ -476,7 +476,7 @@ This file IS the PM session's working memory. Update in place as state changes. 
 - See `tools/memory/README.md` + `tools/memory/ARCHIVE.md` for full index
 
 **Pipeline doctrine artifacts (2026-05-17 base + Amendments A/B/C through 2026-05-19):**
-- `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + stage docs
+- `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` + stage docs
 - `tools/quality-gates/` registries
 - `tools/scripts/` (check-corpus-invariants + install-pre-commit-hook + session-start-render-toolchain + render-verify-fixtures/)
 - `.github/workflows/corpus-invariants.yml` + render-verify workflow

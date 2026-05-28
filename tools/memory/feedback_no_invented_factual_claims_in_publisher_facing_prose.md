@@ -117,7 +117,7 @@ This rule does **not** apply to:
 
 ## Where to read more
 
-- Full pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) — Stage 1 §7 canonical-facts inventory + Pass 3.1 fact-check protocol.
+- Full pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) — Stage 1 §7 canonical-facts inventory + Pass 3.1 fact-check protocol.
 - Ch 2 → Harper's Pass 3.1 RATIFIED + APPLIED artifact: [`publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md`](../../publishing/essays/harpers-the-miner/rigor/pass-3-1-fact-check.md) §2 F-3.1-H1 — canonical fact-check-catches-invention empirical anchor.
 - Ch 2 → Harper's Pass 3.5 RATIFIED + APPLIED artifact: [`publishing/essays/harpers-the-miner/rigor/pass-3-5-developmental-edit.md`](../../publishing/essays/harpers-the-miner/rigor/pass-3-5-developmental-edit.md) §3.1 — canonical illustrative-prose-substrate-critical-near-miss empirical anchor.
 

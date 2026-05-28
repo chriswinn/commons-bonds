@@ -78,7 +78,7 @@ All threads dispositioned. No cross-chapter workstream needed beyond the optiona
 
 Stage 4 verdict (RATIFIED 2026-05-26 author-managed-offline disposition, commit `e1b4d6d`): **CLEAN.** Author ran Ch 7 through the docker render pipeline offline; render output verified clean; no character-integrity issues surfaced; Ch 7 renders cleanly across all distribution targets.
 
-Stage 4 author-offline scope covered per [pipeline doctrine stage 4](../../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md):
+Stage 4 author-offline scope covered per [pipeline doctrine stage 4](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md):
 - Render correctness — chapter renders to HTML / PDF / DOCX without errors; EB Garamond font-family applied; em-dash + Theorem 10.3 cross-reference + book-title italicization (Stern Review 2006 not italicized as report-title; *Superintelligence* + *What We Owe the Future* + *The Precipice* + *Records of the Grand Historian* italicized as book-titles per Pass 3.2 §5.1 ratification) + hyperlinks all preserved.
 - Character-integrity audit — she/her Mars administrator pronoun consistency across lines 27–47; named historical figures + scholars consent-clean per Pass 3.3 §5.3 verification; no apparatus residue, no scaffolding tokens, no truncation.
 - Pre-render verification anchors per friction-anchors registry (per [feedback_audience_aware_drafting_discipline.md](../../memory/feedback_audience_aware_drafting_discipline.md) Stage 4 friction-anchors list: tofu-box em-dash / ≈ rendering issues + Chrome-vs-wkhtmltopdf rendering divergence + EB Garamond font-family naming).
@@ -270,7 +270,7 @@ After Stage 5 ratification:
 - Stage 4 render-audit: [`tools/rigor-passes/ch7_stage_4_render_audit_2026-05-26.md`](../../rigor-passes/ch7_stage_4_render_audit_2026-05-26.md) — RATIFIED `e1b4d6d` (author-completed-offline; CLEAN)
 - Pre-publication review queue (RATIFIED 2026-05-26): [`tools/pre-submission-reviews/ch7_pre_pub_review_queue_v1.0.0.md`](../../pre-submission-reviews/ch7_pre_pub_review_queue_v1.0.0.md)
 - Aeon Version C pitch (coordinated overlap discipline): [`publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`](../../../publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md) — Sun May 31 14:01 UTC fire window
-- Stage 5 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
+- Stage 5 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
 
 ---
 

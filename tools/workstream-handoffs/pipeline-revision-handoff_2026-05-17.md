@@ -146,7 +146,7 @@ Goes to publisher / agent / editor with the manuscript submission package — tr
 
 | Artifact | Type | Notes |
 |---|---|---|
-| **Pipeline doctrine doc** | New canonical reference | Likely lives at `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` or similar; captures the full §3 architecture |
+| **Pipeline doctrine doc** | New canonical reference | Likely lives at `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` or similar; captures the full §3 architecture |
 | **Revisions to `stage-3-three-pass-rigor-audit.md`** | Amendment or supersession | Pass 3 split into Pass 3.3 + Pass 3.4; v2.0 Amendment B → v3.0 framing |
 | **Updates to `audience-pressure-test-construction.md`** | Amendment | Acceptance vs robustness character-set distinction; adversarial-detractor character types; severity scales |
 | **New: Stage 1 doctrine doc** | New | Three-step structure (1a invariant gate + 1b substantive + 1c cross-artifact coherence) |

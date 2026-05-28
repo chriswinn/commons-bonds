@@ -400,7 +400,7 @@ Per pipeline doctrine: Pass 3.5 should not introduce findings that worsen Pass 3
 - **Comparative draft audit:** [`stage-3-comparative-draft-audit.md`](stage-3-comparative-draft-audit.md).
 - **Stage 1 brief:** [`stage-1-brief.md`](stage-1-brief.md) §4 structural decisions + §7 canonical facts.
 - **v3.1 Amendment B (restoration polarity discipline):** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md).
-- **Pipeline doctrine (Pass 3.5 spec):** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6.2 + §3.6.3.
+- **Pipeline doctrine (Pass 3.5 spec):** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6.2 + §3.6.3.
 - **Ch 1 developmental-edit empirical anchor (2026-05-18):** drives v3.1 Amendment B; finding-density calibration source.
 - **Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (4,145w; on `main` commit `63e149a`).
 

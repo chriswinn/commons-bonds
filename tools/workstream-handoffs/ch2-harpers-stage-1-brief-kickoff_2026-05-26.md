@@ -37,7 +37,7 @@ draft session will work from.
 6. tools/memory/feedback_parallel_session_ratification_cadence.md
    (one-at-a-time presentation; status markers; end-of-session
    one-liner)
-7. tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md (Stage 1
+7. tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md (Stage 1
    doctrine — sub-steps 1a/1b/1c)
 8. tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md
    — focus on §4.1 Candidate A verdict + §12 Candidate A ratification
@@ -209,7 +209,7 @@ Wave 1 pattern).
 
 - Wave 2 Stage 0 Candidate A ratification record: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` §12 (commit `ba5e9f8` 2026-05-25)
 - Ch 2 source: `manuscript/chapters/Chapter__2_TheMiner.md`
-- Stage 1 doctrine: `tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`
+- Stage 1 doctrine: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`
 - Marketing-phase memory: `tools/memory/project_book_complete_marketing_phase.md`
 - Cascade plan v2: `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md`
 - Wave 1 brief examples: `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` + Boston Review brief + Atlantic Ideas brief (all in `tools/rigor-passes/`)

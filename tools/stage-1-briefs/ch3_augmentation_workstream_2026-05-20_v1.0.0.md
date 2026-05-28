@@ -7,7 +7,7 @@
 drafting of the 11 augmentation landings cleared to fire in a
 follow-up session per §11.
 **Scope:** Stage 1 ready-to-draft gate per pipeline-doctrine v1.0.0
-([`tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md))
+([`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md))
 for the Ch 3 augmentation workstream — landing 11 named
 public-record voices at chapter-specific locations in
 [`manuscript/chapters/Chapter__3_TheWaterman__Draft.md`](../../manuscript/chapters/Chapter__3_TheWaterman__Draft.md)
@@ -1102,8 +1102,8 @@ without explicit author direction.
 
 ## §14. Discipline-trail
 
-- **Pipeline doctrine v1.0.0:** `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`
-- **Stage 1 doctrine v1.0.0:** `tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`
+- **Pipeline doctrine v1.0.0:** `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`
+- **Stage 1 doctrine v1.0.0:** `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`
 - **Stage 1 template:** `tools/drafting-templates/stage-1-audience-aware-structure-pass.md`
 - **Audience-aware drafting v3.0:** `tools/memory/feedback_audience_aware_drafting_discipline.md`
 - **Named-subject consent:** `tools/memory/feedback_named_subject_consent.md`

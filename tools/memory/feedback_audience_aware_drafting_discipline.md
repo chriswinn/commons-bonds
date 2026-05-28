@@ -1,17 +1,17 @@
 ---
 name: Pipeline doctrine — single unified pipeline for publisher-facing prose (v3.1)
-description: Six-stage pipeline (Stages 0-5) with five-pass Stage 3 (Amendment B 2026-05-18 added Pass 3.5 developmental-edit) + two-class cascade (Amendment A 2026-05-18 — automatic-on-edit vs explicit-gate) + continuous invariant-gate scans + change-cascade routing + cross-chapter workstream lifecycle. Extends v3.0 (2026-05-17) → v2.0 Amendment B. Canonical full doctrine at tools/commons_bonds_pipeline_doctrine_v1.0.0.md in commons-bonds repo.
+description: Six-stage pipeline (Stages 0-5) with five-pass Stage 3 (Amendment B 2026-05-18 added Pass 3.5 developmental-edit) + two-class cascade (Amendment A 2026-05-18 — automatic-on-edit vs explicit-gate) + continuous invariant-gate scans + change-cascade routing + cross-chapter workstream lifecycle. Extends v3.0 (2026-05-17) → v2.0 Amendment B. Canonical full doctrine at tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md in commons-bonds repo.
 type: feedback
 originSessionId: 6a97b0f9-c18b-4992-8bf6-b2bbf9c60acf
 ---
-**Canonical full content:** `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`
+**Canonical full content:** `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`
 **Layer:** scan-friendly summary; this file is the cross-session discipline pointer. Update the canonical artifact when content changes; sync this summary via `tools/memory-updates/` spec for substantive amendments.
 
 # feedback_audience_aware_drafting_discipline (v3.0)
 
 **Date:** 2026-05-17
 **Supersedes:** v2.0 Amendment B (2026-05-10 + 2026-05-13)
-**Canonical full doctrine:** `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` in
+**Canonical full doctrine:** `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` in
 the commons-bonds repo. This memory entry is the scan-friendly summary; the
 doctrine artifact carries the full architecture.
 
@@ -225,10 +225,10 @@ Implementation: `tools/scripts/check-corpus-invariants.sh`.
 
 ## Where to read more
 
-- Full doctrine: `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`
-- Stage 1: `tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`
-- Stage 4: `tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`
-- Stage 5: `tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`
+- Full doctrine: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`
+- Stage 1: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`
+- Stage 4: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`
+- Stage 5: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`
 - Stage 3 template (revised): `tools/drafting-templates/stage-3-three-pass-rigor-audit.md`
 - Audience pressure-test construction (revised): `tools/drafting-templates/audience-pressure-test-construction.md`
 

@@ -310,7 +310,7 @@ This pass surfaced **one** Stage 1 brief CTG (CTG-1, Norway fiscal-rule history)
 - **Sibling Pass 3.1 (Noema; format precedent + parallel CTG-1):** [`pass-3-1-fact-check.md`](../../publishing/essays/noema-commons-bonds/rigor/pass-3-1-fact-check.md)
 - **Bibliography:** [`research/literature/bibliography.md`](../../research/literature/bibliography.md)
 - **v3.1 discipline reference:** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)
-- **Pipeline doctrine (five-pass Stage 3 codification):** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6 Amendment B 2026-05-18
+- **Pipeline doctrine (five-pass Stage 3 codification):** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6 Amendment B 2026-05-18
 
 ---
 

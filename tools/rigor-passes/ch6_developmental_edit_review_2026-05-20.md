@@ -59,7 +59,7 @@ ratification + application session per pipeline doctrine v1.0.0 Amendment C
    — workstream class definition; per-finding format (F-DE-Ch<N>-K);
    per-chapter sequencing plan; cascade-per-Amendment-A explicit-gate
    pass; Amendment C interactive ratification protocol.
-4. [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+4. [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
    — Amendment B (Pass 3.5 codification within Stage 3, RATIFIED
    2026-05-18); Amendment C §3.7 (interactive ratification protocol,
    RATIFIED 2026-05-19).

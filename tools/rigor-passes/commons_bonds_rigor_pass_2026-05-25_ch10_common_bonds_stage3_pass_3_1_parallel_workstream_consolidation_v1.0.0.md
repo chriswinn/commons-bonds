@@ -107,7 +107,7 @@ Next gates: **light Pass 3.3 re-fire** → Stage 4 (render + character-integrity
 - **Archived Draft A (Pass 3.5 restoration source):** [`archive/_OneDayMaybe/ch10-variants/Chapter_10_CommonBonds_pre_ALT_audit_2026-05-25.md`](../../archive/_OneDayMaybe/ch10-variants/Chapter_10_CommonBonds_pre_ALT_audit_2026-05-25.md)
 - **Cross-chapter consistency inventory** (Lakota line + L-2 fix): [`tools/audits/cross-chapter-consistency-inventory_2026-05-11.md`](../audits/cross-chapter-consistency-inventory_2026-05-11.md)
 - **Cross-thread-todos** (item #16 Fort Monroe / coupled to §3 racialized-othering future restoration): [`publishing/essays/_pipeline/cross-thread-todos.md`](../../publishing/essays/_pipeline/cross-thread-todos.md)
-- **Pipeline doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6 Amendment B + §3.7 Amendment C
+- **Pipeline doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6 Amendment B + §3.7 Amendment C
 - **Em-dash discipline:** [`tools/memory/feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md)
 
 ---

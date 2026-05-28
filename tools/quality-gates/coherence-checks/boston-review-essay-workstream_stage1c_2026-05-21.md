@@ -5,7 +5,7 @@
 **Scope:** Boston Review essay workstream (PM dashboard #2). Source artifact: Ch 5 *The Accountability Gap*. Stage 1b brief artifact: [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](../../../publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md) (v1.0.1).
 **Stage 0 disposition:** RATIFIED 2026-05-21 (author "ratify and go" signal); GO verdict + monitoring conditions per [`publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md`](../../../publishing/essays/boston-review-accountability-gap/rigor/stage-0-publishing-strategy.md).
 **Audit finding driving this artifact:** Audit Finding H2 in BR brief walkthrough 2026-05-21 — Stage 1c cross-artifact coherence check queued as separate session before Stage 2.
-**Pipeline doctrine reference:** [`tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) §3.
+**Pipeline doctrine reference:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) §3.
 
 ---
 

@@ -401,7 +401,7 @@ Per `tools/memory/feedback_audience_aware_drafting_discipline.md` (mirrored). Fi
 
 ### Pipeline doctrine v1.0.0 — RATIFIED 2026-05-17 + Amendments A/B/C
 
-Base: `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + stage docs. Invariant-gate: `tools/scripts/check-corpus-invariants.sh` + `tools/quality-gates/`.
+Base: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` + stage docs. Invariant-gate: `tools/scripts/check-corpus-invariants.sh` + `tools/quality-gates/`.
 
 ### Merge-to-main default
 

@@ -1,6 +1,6 @@
 # tools/quality-gates/ — corpus-invariant registries + sign-off artifacts
 
-Per pipeline doctrine §2 ([`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)).
+Per pipeline doctrine §2 ([`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)).
 
 ## Registries
 

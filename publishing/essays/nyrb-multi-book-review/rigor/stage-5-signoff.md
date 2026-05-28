@@ -178,7 +178,7 @@ SEQUENCING DISCIPLINE: Stage 5 explicit merge gate — entire feature-branch sta
 - Stage 0: [`publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md`](stage-0-ratification.md)
 - Stage 4 artifact: [`publishing/essays/nyrb-multi-book-review/rigor/stage-4-render-audit.md`](stage-4-render-audit.md)
 - Pass 3.5 artifact: [`publishing/essays/nyrb-multi-book-review/rigor/pass-3-5-developmental-edit.md`](pass-3-5-developmental-edit.md)
-- v3.1 doctrine Stage 5: [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
+- v3.1 doctrine Stage 5: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
 - Cascade plan v2 W2.5: [`publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md`](../../publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md)
 
 ---

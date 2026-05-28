@@ -31,7 +31,7 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `tools/memory/feedback_pm_dashboard_structure.md` (v2.0)
 - `tools/memory/feedback_verify_stale_memory_claims.md`
 - `tools/memory/feedback_named_subject_consent.md` (living + deceased + public-record exception; n/a here — review-essay subjects are published authors, public-record by definition)
-- `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` (Stage 0–5 + Amendments)
+- `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` (Stage 0–5 + Amendments)
 - `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`
 - `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md` (current state; submission queue; ratification bandwidth analysis)
 - `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md` (PROPOSED; companion to this artifact's Wave 2 batch sibling)
@@ -414,7 +414,7 @@ SEQUENCING DISCIPLINE: This Stage 0 fires per author interactive ratification pr
 - `publishing/essays/_pipeline/rights-register.md`
 
 **Doctrine + memory:**
-- `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + Amendments A + B + C
+- `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` + Amendments A + B + C
 - `tools/memory/feedback_audience_aware_drafting_discipline.md` (v3.1)
 - `tools/memory/feedback_parallel_session_ratification_cadence.md` (one-finding-at-a-time discipline)
 - `tools/memory/feedback_pm_dashboard_structure.md` (v2.0)

@@ -37,7 +37,7 @@ Author-leaning per task scope: Wave 2 or Wave 3 (open). Q2 sequencing classifica
 - `tools/memory/feedback_pm_dashboard_structure.md`
 - `tools/memory/feedback_verify_stale_memory_claims.md`
 - `tools/memory/feedback_named_subject_consent.md` (living / deceased / public-record exception; Phat worked example 2026-05-20)
-- `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` (Stage 0–5 + Amendments)
+- `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` (Stage 0–5 + Amendments)
 - `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`
 - `publishing/strategy/cascade-plan_v2_2026-05-24.md` (PROPOSED; companion to this artifact's siblings)
 - `publishing/strategy/june-2026-submission-schedule.md`
@@ -557,7 +557,7 @@ PM provisional response: author bandwidth + cumulative-reveal + substantive-doub
 - `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`
 
 **Doctrine + memory:**
-- `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + Amendments A/B/C
+- `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` + Amendments A/B/C
 - `tools/memory/feedback_audience_aware_drafting_discipline.md` (v3.1)
 - `tools/memory/feedback_parallel_session_ratification_cadence.md`
 - `tools/memory/feedback_pm_dashboard_structure.md`

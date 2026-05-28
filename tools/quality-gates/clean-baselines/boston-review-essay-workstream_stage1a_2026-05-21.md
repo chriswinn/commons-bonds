@@ -6,7 +6,7 @@
 **Scaffolding-scan registry version:** `c41ae4a` (`tools/quality-gates/scaffolding-patterns.yaml`)
 **Regressed-pattern-scan registry version:** `85878d1` (`tools/quality-gates/regressed-patterns.yaml`)
 **Command:** `bash tools/scripts/check-corpus-invariants.sh --scope manuscript/chapters/Chapter__5_TheAccountabilityGap.md`
-**Pipeline doctrine reference:** [`tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) §1
+**Pipeline doctrine reference:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) §1
 **Stage 1b brief:** [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](../../../publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md) (v1.0.1)
 **Audit finding driving this artifact:** Audit Finding H1 in Stage 1b brief walkthrough 2026-05-21.
 

@@ -6,7 +6,7 @@
 
 **Kickoff paste-text source:** Per-session kickoff prompt (this session); paste-text mirror NOT yet checked into `tools/workstream-handoffs/`. Companion artifact for parallel cadence reference: [`publishing/essays/harpers-the-miner/rigor/stage-1-brief.md`](../../harpers-the-miner/rigor/stage-1-brief.md) (Ch 2 → Harper's Stage 1 brief; PROPOSED earlier 2026-05-26; parallel firing per relaxed sequencing).
 
-**Methodology anchor.** v3.1 audience-aware drafting discipline ([`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) — v2.0 Amendment B three-pass core + v3.0 four-pass split with Pass 3.4 adversarial + v3.1 Amendment B Pass 3.5 developmental-edit codification + v3.1 Amendment C per-finding interactive ratification). Canonical full doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md). Stage 1 template: [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](../drafting-templates/stage-1-audience-aware-structure-pass.md). Audience pressure-test construction guide: [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md). Wave 1 brief precedents read for pattern: Atlantic Ideas essay brief 2026-05-19 (register DIFFERENTIATION only — argument/analysis/commentary ≠ multi-voice reportage); Ch 2 Harper's brief 2026-05-26 (parallel-firing literary-essay cadence model).
+**Methodology anchor.** v3.1 audience-aware drafting discipline ([`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) — v2.0 Amendment B three-pass core + v3.0 four-pass split with Pass 3.4 adversarial + v3.1 Amendment B Pass 3.5 developmental-edit codification + v3.1 Amendment C per-finding interactive ratification). Canonical full doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md). Stage 1 template: [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](../drafting-templates/stage-1-audience-aware-structure-pass.md). Audience pressure-test construction guide: [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md). Wave 1 brief precedents read for pattern: Atlantic Ideas essay brief 2026-05-19 (register DIFFERENTIATION only — argument/analysis/commentary ≠ multi-voice reportage); Ch 2 Harper's brief 2026-05-26 (parallel-firing literary-essay cadence model).
 
 **Register-differentiation note (LOAD-BEARING).** This essay's register is **multi-voice reportage / cumulative-portrait long-form features**, NOT argument/analysis/commentary (the Atlantic Ideas register that Ch 9 occupies in Wave 1). Same publishing house; entirely distinct editorial workflow + section + sub-editor pool. Coates, "The Case for Reparations" (2014) + Kurt Andersen environmental long-form + recent Atlantic narrative reportage (e.g., the magazine's environmental and regional-portrait beats) are the editorial-brain model per Stage 0 batch §4.2 Candidate B Q2 sequencing. The structural argument **emerges from cumulative voice** rather than being declared and defended.
 
@@ -20,7 +20,7 @@
 
 ### §0.1 Scope + procedure
 
-Procedural pre-flight per Stage 1 doctrine §1 (`tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`). Scope: [`manuscript/chapters/Chapter__3_TheWaterman.md`](../../manuscript/chapters/Chapter__3_TheWaterman.md). Verified 250 lines on current worktree.
+Procedural pre-flight per Stage 1 doctrine §1 (`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`). Scope: [`manuscript/chapters/Chapter__3_TheWaterman.md`](../../manuscript/chapters/Chapter__3_TheWaterman.md). Verified 250 lines on current worktree.
 
 ### §0.2 Disposition
 
@@ -554,7 +554,7 @@ Per v3.1 Amendment B five-pass discipline + Amendment A two-class cascade:
   - [`tools/memory/feedback_verify_stale_memory_claims.md`](../memory/feedback_verify_stale_memory_claims.md).
   - [`tools/memory/feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md).
   - [`tools/memory/project_book_complete_marketing_phase.md`](../memory/project_book_complete_marketing_phase.md).
-  - [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md).
+  - [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md).
   - [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](../drafting-templates/stage-1-audience-aware-structure-pass.md).
   - [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md).
   - [`tools/drafting-templates/README.md`](../drafting-templates/README.md) (v3.1).
@@ -574,7 +574,7 @@ Per v3.1 Amendment B five-pass discipline + Amendment A two-class cascade:
 
 ## §16. Cross-references
 
-- **Pipeline doctrine v1.0.0 + Amendments A/B/C:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) + [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) (v3.1).
+- **Pipeline doctrine v1.0.0 + Amendments A/B/C:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) + [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) (v3.1).
 - **Stage 1 template:** [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](../drafting-templates/stage-1-audience-aware-structure-pass.md).
 - **Audience pressure-test construction guide:** [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md).
 - **Stage 0 batch + Ch 3 ratification record:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md) §12 Candidate B (RATIFIED 2026-05-24).

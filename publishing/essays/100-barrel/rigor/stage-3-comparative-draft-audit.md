@@ -477,7 +477,7 @@ Items to verify against canonical-facts inventory at Stage 1 brief §7 + bibliog
 
 ### 8.5 Stage 3 session sequencing
 
-Per the canonical pipeline doctrine (`tools/commons_bonds_pipeline_doctrine_v1.0.0.md` §3.6 Amendment B 2026-05-18) + v2.0 Amendment B per-prompt serial cadence (preserved in v3.0 / v3.1): Stage 3 is a **five-pass** rigor audit. Each pass fires in its own session; author ratifies + spot-fixes apply before next pass fires. (Stage 1 brief §12 references the pre-Amendment-B four-pass framing — read with this five-pass correction applied.)
+Per the canonical pipeline doctrine (`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` §3.6 Amendment B 2026-05-18) + v2.0 Amendment B per-prompt serial cadence (preserved in v3.0 / v3.1): Stage 3 is a **five-pass** rigor audit. Each pass fires in its own session; author ratifies + spot-fixes apply before next pass fires. (Stage 1 brief §12 references the pre-Amendment-B four-pass framing — read with this five-pass correction applied.)
 
 1. **Pass 3.1 fact-check** — next session. Output: `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_100_barrel_essay_stage3_fact_check_v1.0.0.md`. Apply §8.4 verifications.
 2. **Pass 3.2 voice-polish** — after author ratifies Pass 3.1 spot-fixes. Output: `..._stage3_voice_polish_v1.0.0.md`. Apply §8.3 candidates.

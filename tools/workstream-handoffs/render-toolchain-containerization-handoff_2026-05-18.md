@@ -5,7 +5,7 @@
 **Status:** PROPOSED — awaiting author ratification + PM session spinup
 **Recommended branch prefix:** `claude/render-toolchain-containerization-`
 **Origin:** Author observation 2026-05-17 → 2026-05-18 standardization workstream: past remote-container sessions produced the best renders for the corpus, but the toolchain capture is partial (architecture documented in `e6ddf92`; specific versions captured ad-hoc in `build-environment.yaml` 2026-05-17). Reproducibility across sessions / machines / future-author / collaborators requires a canonical containerized environment that any context can spin up.
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) §3.3
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) §3.3
 **Companion / predecessor:** [`render-pipeline-standardization-handoff_2026-05-17.md`](render-pipeline-standardization-handoff_2026-05-17.md) — the canonical-pipeline-decision workstream this artifact operationalizes.
 
 ---
@@ -65,7 +65,7 @@ Per CLAUDE.md merge-to-main default: this workstream produces internal-scaffoldi
 
 1. THIS handoff.
 2. [`tools/quality-gates/render-baselines/build-environment.yaml`](../quality-gates/render-baselines/build-environment.yaml) — current canonical toolchain stamp; the installer script's pinned-version targets.
-3. [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) §3.3 — canonical-pipeline doctrine; OPEN flag context.
+3. [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) §3.3 — canonical-pipeline doctrine; OPEN flag context.
 4. [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](render-pipeline-standardization-handoff_2026-05-17.md) — the canonical-pipeline-decision workstream this artifact operationalizes.
 5. [`tools/rigor-passes/render_pipeline_comparison_ta_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ta_2026-05-18.md) — TA Stage 4 comparison + canonical-decision verdict; specifically §13 + §13.1 for the wkhtmltopdf Qt 5.15.13 vs Qt 4.8.7 / OS-font-stack divergence that motivates pinning Linux containerization.
 6. [`tools/scripts/build-derivatives.sh`](../scripts/build-derivatives.sh) + [`tools/scripts/build-derivatives-alt.sh`](../scripts/build-derivatives-alt.sh) + [`tools/scripts/fallback-header.tex`](../scripts/fallback-header.tex) — current scripts that the installer's toolchain supports.
@@ -194,7 +194,7 @@ Update `tools/scripts/README.md` with sections covering:
 | CI workflow (optional) | `.github/workflows/render-verify.yml` |
 | Updated build-environment.yaml | Stamp includes pinned-version assertions + Docker recipe pointer |
 | Updated tools/scripts/README.md | Sections for Docker invocation + setup-script reference + verification mode |
-| Updated tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md §3.3 | Drop OPEN flag if Docker reproducibility resolves the canonical-pipeline decision via Option B; otherwise note Docker as the canonical infrastructure with Option-A/B/C decision still author-ratifiable |
+| Updated tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md §3.3 | Drop OPEN flag if Docker reproducibility resolves the canonical-pipeline decision via Option B; otherwise note Docker as the canonical infrastructure with Option-A/B/C decision still author-ratifiable |
 | Verification test artifacts | `tools/scripts/render-verify-fixtures/` — small known-good markdown + expected `.docx` + `.pdf` for CI byte-comparison |
 
 ---
@@ -249,8 +249,8 @@ Update `tools/scripts/README.md` with sections covering:
 
 ## §9. Cross-references
 
-- Pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
-- Stage 4 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)
+- Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
+- Stage 4 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)
 - Canonical-pipeline standardization workstream: [`render-pipeline-standardization-handoff_2026-05-17.md`](render-pipeline-standardization-handoff_2026-05-17.md)
 - TA Stage 4 comparison + correction: [`tools/rigor-passes/render_pipeline_comparison_ta_2026-05-18.md`](../rigor-passes/render_pipeline_comparison_ta_2026-05-18.md)
 - Build-environment stamp: [`tools/quality-gates/render-baselines/build-environment.yaml`](../quality-gates/render-baselines/build-environment.yaml)

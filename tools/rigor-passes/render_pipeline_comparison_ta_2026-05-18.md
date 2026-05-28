@@ -310,8 +310,8 @@ Per Stage 4 doctrine §"Pre-publication review queue flags (carry forward to Sta
 - Retrofit handoff stub: [`tools/workstream-handoffs/ta-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/ta-pipeline-retrofit-handoff_2026-05-17.md)
 - Retrofit template: [`tools/workstream-handoffs/pipeline-retrofit-template_2026-05-17.md`](../workstream-handoffs/pipeline-retrofit-template_2026-05-17.md)
 - Standardization workstream: [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md)
-- Pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
-- Stage 4 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) — §3.3 carries the wkhtmltopdf-vs-Chrome canonical-engine documentation that this TA Stage 4 confirms empirically
+- Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
+- Stage 4 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) — §3.3 carries the wkhtmltopdf-vs-Chrome canonical-engine documentation that this TA Stage 4 confirms empirically
 - Ch 1 retrofit Stage 4 render comparison: [`tools/rigor-passes/render_pipeline_comparison_ch1_2026-05-18.md`](render_pipeline_comparison_ch1_2026-05-18.md) — the in-session patches landed during Ch 1's retrofit are the root cause of F-RP-TA-01
 - Build-environment stamp: [`tools/quality-gates/render-baselines/build-environment.yaml`](../quality-gates/render-baselines/build-environment.yaml)
 - TA retrofit Stage 1a clean-baseline: [`tools/quality-gates/clean-baselines/ta_stage1a_2026-05-18.md`](../quality-gates/clean-baselines/ta_stage1a_2026-05-18.md)

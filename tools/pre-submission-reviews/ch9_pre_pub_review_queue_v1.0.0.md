@@ -295,7 +295,7 @@ Rank-ordered by load-bearing-claim density + external-verification-warrant:
 - Pass 3.5 developmental-edit: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch9_pricing_honestly_pass_3_5_developmental_edit_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch9_pricing_honestly_pass_3_5_developmental_edit_v1.0.0.md)
 - Cross-chapter rent-seeking workstream: [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md)
 - Stage 5 sign-off (this pre-pub-queue's companion): [`tools/quality-gates/sign-offs/ch9_stage5_signoff_2026-05-25.md`](../quality-gates/sign-offs/ch9_stage5_signoff_2026-05-25.md)
-- Stage 5 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
+- Stage 5 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
 - Stage 5 precedents: TA `2d01407` (2026-05-20); Ch 6 `533f4f6` (2026-05-25); Ch 1 `906a204` (2026-05-25); Ch 2 `cd2c76d` (2026-05-25)
 
 ---

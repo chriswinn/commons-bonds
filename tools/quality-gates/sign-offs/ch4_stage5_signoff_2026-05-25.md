@@ -19,8 +19,8 @@
 - Pass 3.3 acceptance: [`tools/rigor-passes/ch4_existence_proof_stage3_pass_3_3_acceptance_2026-05-25.md`](../../rigor-passes/ch4_existence_proof_stage3_pass_3_3_acceptance_2026-05-25.md) — **25/25 INCLUDE** (5 ✓✓✓ + 15 ✓✓ + 5 ✓; 0 NEUTRAL/EXCLUDE); Tier 1 0 ⚠⚠⚠ → **NO SHIP BLOCK**.
 - Pass 3.4 robustness: [`tools/rigor-passes/ch4_existence_proof_stage3_pass_3_4_robustness_2026-05-25.md`](../../rigor-passes/ch4_existence_proof_stage3_pass_3_4_robustness_2026-05-25.md) — **ROBUST verdict**; thread-pull synthesis surfaces T1/T3/T4/T6/T7 load-bearing claims (chapter's structural disarms hold); T2 routes to Ch 6/TA Pass 3.4 (already RATIFIED); T4 flagged for Pass 3.5 developmental-edit candidate (lines 32-36 scene-anchor restoration).
 - Cross-chapter consistency-inventory: [`tools/audits/cross-chapter-consistency-inventory_2026-05-11.md`](../../audits/cross-chapter-consistency-inventory_2026-05-11.md) (linter-modified intentionally; Norway / GPFG rows need refresh per Stage 1c §3-cross-corpus disposition).
-- Pipeline doctrine v3.1: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_v1.0.0.md).
-- Stage 5 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md).
+- Pipeline doctrine v3.1: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md).
+- Stage 5 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md).
 - Ch 4 pipeline-retrofit handoff: [`tools/workstream-handoffs/ch4-pipeline-retrofit-handoff_2026-05-17.md`](../../workstream-handoffs/ch4-pipeline-retrofit-handoff_2026-05-17.md).
 
 ---

@@ -3,7 +3,7 @@
 **Date:** 2026-05-26
 **Scope:** [`manuscript/chapters/Chapter__7_OnOtherWorlds.md`](../../manuscript/chapters/Chapter__7_OnOtherWorlds.md)
 **Status:** **RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE.** Verdict: **CLEAN.**
-**Mode:** Stage 4 render + character-integrity audit per pipeline-doctrine v1.0.0 Stage 4 ([`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)). Explicit-gate per Amendment A; fired on author trigger 2026-05-26 ("ratify stage 4 as I have done that offline with the docker render pipeline; continue continue continue continue").
+**Mode:** Stage 4 render + character-integrity audit per pipeline-doctrine v1.0.0 Stage 4 ([`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)). Explicit-gate per Amendment A; fired on author trigger 2026-05-26 ("ratify stage 4 as I have done that offline with the docker render pipeline; continue continue continue continue").
 
 **Cascade context (upstream Ch 7 passes):**
 - Pass 3.1 fact-check: RATIFIED + APPLIED 2026-05-20 (ratification `4948dbb`; Phase C-α applied `4987e59`; 7 chapter spot-fixes + bibliography §13 paired edits).
@@ -27,7 +27,7 @@ Per Ch 1 (`906a204`) + Ch 2 (`9bddbd2`) + Ch 3 (`98f3922` + `f0b1164`) + Ch 4 (`
 
 ## §2. Character-integrity coverage
 
-Stage 4 author-offline scope covered per [pipeline doctrine stage 4](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md):
+Stage 4 author-offline scope covered per [pipeline doctrine stage 4](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md):
 
 - **xelatex / docker render output:** chapter renders to distribution targets without errors per author offline verification.
 - **EB Garamond font-family + typography preserved:** font-family applied cleanly; no fallback-chain anomalies.
@@ -83,7 +83,7 @@ Ch 7 joins Ch 1 + Ch 2 + Ch 3 + Ch 4 + Ch 5 + Ch 6 + Ch 8 + Ch 9 + TA in the cha
 - Pass 3.4 robustness: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch7_on_other_worlds_stage3_pass_3_4_audience_load_robustness_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-25_ch7_on_other_worlds_stage3_pass_3_4_audience_load_robustness_v1.0.0.md) — RATIFIED `d46a6ae` (Option A HOLD across §8; no Phase C-γ; Stage 3 CLOSED)
 - Stage 5 sign-off (forthcoming): `tools/quality-gates/sign-offs/ch7_stage5_signoff_2026-05-26.md`
 - Pre-publication review queue (forthcoming): `tools/pre-submission-reviews/ch7_pre_pub_review_queue_v1.0.0.md`
-- Stage 4 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)
+- Stage 4 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)
 - Stage 4 precedents: TA (`2d01407` 2026-05-20); Ch 1 (`906a204` 2026-05-25); Ch 2 (`9bddbd2` 2026-05-24); Ch 3 (`98f3922` 2026-05-26 + `f0b1164` 2026-05-26 re-ratified); Ch 4 (`45323b1` 2026-05-25); Ch 5 (`4a341a4` 2026-05-26); Ch 6 (`533f4f6` 2026-05-25); Ch 8 (`e36bdd6` 2026-05-26); Ch 9 (`bc9f52d` 2026-05-25)
 
 ---

@@ -77,7 +77,7 @@ All threads dispositioned. D-3 closure (commit `06eb1ea`) reinforced cross-chapt
 
 Stage 4 verdict (RATIFIED 2026-05-25 author-managed-offline disposition, commit `bc9f52d`): **CLEAN.** Author ran Ch 9 through the Docker / remote-container render pipeline offline; render output verified clean; no character-integrity issues surfaced; Ch 9 renders cleanly across all distribution targets.
 
-Stage 4 author-offline scope covered per [pipeline doctrine stage 4](../../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md):
+Stage 4 author-offline scope covered per [pipeline doctrine stage 4](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md):
 - Render correctness — chapter renders to HTML / PDF / DOCX without errors; em-dash + book-title italicization + hyperlinks all preserved.
 - Character-integrity audit — no apparatus residue, no scaffolding tokens, no truncation; font-family + typography preserved.
 - Pre-render verification anchors per friction-anchors registry (per [feedback_audience_aware_drafting_discipline.md](../../memory/feedback_audience_aware_drafting_discipline.md) Stage 4 friction-anchors list: tofu-box em-dash / ≈ rendering issues + Chrome-vs-wkhtmltopdf rendering divergence + EB Garamond font-family naming).
@@ -304,7 +304,7 @@ After Stage 5 ratification:
 - Pass 3.5 developmental-edit: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch9_pricing_honestly_pass_3_5_developmental_edit_v1.0.0.md`](../../rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch9_pricing_honestly_pass_3_5_developmental_edit_v1.0.0.md) — RATIFIED + APPLIED `1fe06c2` (F-DE-Ch9-1 Option A; F-DE-Ch9-2 HELD) + §9 Stage 4 author-offline marker
 - Pre-publication review queue (RATIFIED 2026-05-25): [`tools/pre-submission-reviews/ch9_pre_pub_review_queue_v1.0.0.md`](../../pre-submission-reviews/ch9_pre_pub_review_queue_v1.0.0.md)
 - Cross-chapter rent-seeking workstream: [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md) (RATIFIED `bc02767`)
-- Stage 5 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
+- Stage 5 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
 - Stage 5 precedents: TA (`2d01407` 2026-05-20); Ch 6 (`533f4f6` 2026-05-25); Ch 1 (`906a204` 2026-05-25); Ch 2 (`cd2c76d` 2026-05-25)
 
 ---

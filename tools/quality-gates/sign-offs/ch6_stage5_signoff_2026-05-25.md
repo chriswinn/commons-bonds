@@ -271,7 +271,7 @@ The Public Choice rent-seeking cross-chapter thread is APPLIED at Ch 5 + Ch 8 + 
 - Dev-edit workstream handoff: [`tools/workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md`](../../workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md)
 - Sandy-packet canonical-shipped artifacts: `research/outreach/subjects/darity/Chapter_6_Three_Ways_of_Counting_2026-05-14.{docx,pdf}` (pre-dev-edit state at `5569600`)
 - TA Stage 5 sign-off (template precedent + Ch 6 packet companion): [`tools/quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md`](ta_stage5_signoff_2026-05-20.md)
-- Stage 5 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
+- Stage 5 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
 - Ch 2 Stage 4 author-managed-offline precedent: commit `9bddbd2` 2026-05-25 ("Ch 2 Pass 3.3 post-Phase-C-ζ confirmation — RATIFIED + Stage 4 author-offline marker")
 
 ---

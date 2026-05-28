@@ -8,7 +8,7 @@
 **Mode:** Light re-fire per [`tools/rigor-passes/ch1_developmental_edit_review_2026-05-18.md`](ch1_developmental_edit_review_2026-05-18.md) §11.3 step 7 + §11.4 closing + §11.5 cross-pass impact note + commit message at `d36534f`.
 **Branch:** `claude/ch1-phase-c-developmental-edit-goofy-swanson-86aa0b` working off origin/main `9e68496` (Amendment C ratified 2026-05-19).
 
-**Doctrine compliance.** Pass 3.3 is an audience-load *acceptance* pass, not a prose-modifying pass — Amendment C's interactive ratification protocol (per `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` §3.7.1 scope) applies to Pass 3.1 / Pass 3.2 / Pass 3.5 + Phase C application sessions, not to Pass 3.3 / Pass 3.4. This light re-fire follows the standard Pass 3.3 discovery-and-auto-merge cadence (PROPOSED artifact; author ratifies separately; cumulative findings inform any cross-chapter handoffs).
+**Doctrine compliance.** Pass 3.3 is an audience-load *acceptance* pass, not a prose-modifying pass — Amendment C's interactive ratification protocol (per `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` §3.7.1 scope) applies to Pass 3.1 / Pass 3.2 / Pass 3.5 + Phase C application sessions, not to Pass 3.3 / Pass 3.4. This light re-fire follows the standard Pass 3.3 discovery-and-auto-merge cadence (PROPOSED artifact; author ratifies separately; cumulative findings inform any cross-chapter handoffs).
 
 ---
 
@@ -35,7 +35,7 @@ The light re-fire's scope is therefore: **(a) acceptance-test re-confirmation ac
 1. [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) — Pass 3.3 REAUDIT v3 (40-character full-rigor + adversarial; the canonical baseline this light re-fire confirms against).
 2. [`manuscript/chapters/Chapter__1_TheQuietMath.md`](../../manuscript/chapters/Chapter__1_TheQuietMath.md) — 122 lines, post-Phase-C + post-§11.5 state at origin/main `9e68496`.
 3. [`tools/rigor-passes/ch1_developmental_edit_review_2026-05-18.md`](ch1_developmental_edit_review_2026-05-18.md) §11.1 (ratified disposition table) + §11.4 (Phase C application log; per-finding line-numbers + cross-pass impact) + §11.5 (author-revisit log; F-DE-Ch1-7 partial reversal detail).
-4. [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7 (Amendment C — Interactive Ratification Protocol; scope confirmation: applies to prose-modifying passes 3.1/3.2/3.5 + Phase C, NOT to Pass 3.3/3.4 acceptance / robustness).
+4. [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7 (Amendment C — Interactive Ratification Protocol; scope confirmation: applies to prose-modifying passes 3.1/3.2/3.5 + Phase C, NOT to Pass 3.3/3.4 acceptance / robustness).
 5. [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3: Audience-load" — canonical scaffold for the audience-load pass (v3.1 + Amendment C edition).
 6. [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) — character-set construction discipline; not regenerated for this light re-fire (REAUDIT v3 character-set held verbatim).
 
@@ -479,8 +479,8 @@ Ch 1 has now received:
 
 The Stage-3 five-pass cycle is now closed for Ch 1. Per v3.0 + Amendment B doctrine, the remaining workstreams for Ch 1 are:
 
-1. **Stage 4 render + character-integrity audit** (per pipeline doctrine §4 / `tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`).
-2. **Stage 5 academic-rigor + prose-quality sign-off bookend** (per pipeline doctrine §5 / `tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`).
+1. **Stage 4 render + character-integrity audit** (per pipeline doctrine §4 / `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`).
+2. **Stage 5 academic-rigor + prose-quality sign-off bookend** (per pipeline doctrine §5 / `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`).
 3. **Pre-publication review-queue artifact** (per pipeline doctrine §5 closing).
 
 Pass 3.4 robustness re-fire NOT routinely warranted per REAUDIT v3 §5.4 + §11.3 step 7 + §11.5 closing + Amendment B framing. The original REAUDIT v3 §5.3 thread-pull synthesis remains the canonical robustness verdict for Ch 1; the post-Phase-C + post-§11.5 chapter state has not introduced new adversarial vulnerabilities (the changes either strengthen acceptance verdicts or lightly reduce adversarial thread-pull anchors).
@@ -561,7 +561,7 @@ The Stage-3 five-pass cycle for Ch 1 is now closed. The remaining chapter-public
 
 4. **Cross-pass flag predictions from §11.4 are ratified as confirmed.** The §F-DE-Ch1-1 / §F-DE-Ch1-2 / §F-DE-Ch1-6 cross-pass flags predicted the specific confidence-uplift directions that the light re-fire confirmed. The Phase C application log's cross-pass impact section is therefore validated as a reliable forward-prediction instrument.
 
-5. **Ch 1 Stage-3 five-pass cycle is ratified as CLOSED.** No further Stage-3 rigor passes warranted on Ch 1 absent material chapter changes. Remaining chapter-publication-readiness workstreams for Ch 1 are Stage 4 (render + character-integrity audit per `tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`) + Stage 5 (academic-rigor + prose-quality sign-off bookend + pre-publication review-queue artifact per `tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`). These fire in their own sessions per v3.0 + Amendment B doctrine.
+5. **Ch 1 Stage-3 five-pass cycle is ratified as CLOSED.** No further Stage-3 rigor passes warranted on Ch 1 absent material chapter changes. Remaining chapter-publication-readiness workstreams for Ch 1 are Stage 4 (render + character-integrity audit per `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`) + Stage 5 (academic-rigor + prose-quality sign-off bookend + pre-publication review-queue artifact per `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`). These fire in their own sessions per v3.0 + Amendment B doctrine.
 
 6. **Pass 3.4 robustness re-fire NOT warranted.** REAUDIT v3 §5.3 thread-pull synthesis remains the canonical robustness verdict for Ch 1; the post-Phase-C + post-§11.5 chapter state has not introduced new adversarial vulnerabilities (the changes either strengthen acceptance verdicts or lightly reduce adversarial thread-pull anchors). The Public Choice rent-seeking cross-chapter handoff (REAUDIT v3 §5.3 adversarial #33) remains closed via the rent-seeking-engagement workstream disposition.
 

@@ -2,8 +2,8 @@
 
 **Date drafted:** 2026-05-17
 **Status:** PROPOSED — pending author ratification at session close.
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](commons_bonds_pipeline_doctrine_v1.0.0.md) §1
-**Relates to existing template:** [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](drafting-templates/stage-1-audience-aware-structure-pass.md) (Stage 1b internal-substantive template; this doctrine adds 1a + 1c wrapper sub-steps).
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](commons_bonds_pipeline_doctrine_v1.0.0.md) §1
+**Relates to existing template:** [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](../drafting-templates/stage-1-audience-aware-structure-pass.md) (Stage 1b internal-substantive template; this doctrine adds 1a + 1c wrapper sub-steps).
 
 ---
 
@@ -91,7 +91,7 @@ CLEAN BASELINE — Stage 1a complete; ready for Stage 1b.
 
 ### §2.1 What this is
 
-Stage 1b is the existing audience-aware structure pass per [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](drafting-templates/stage-1-audience-aware-structure-pass.md), with the following content-type-aware sub-protocols (per pipeline doctrine §4):
+Stage 1b is the existing audience-aware structure pass per [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](../drafting-templates/stage-1-audience-aware-structure-pass.md), with the following content-type-aware sub-protocols (per pipeline doctrine §4):
 
 | Content type | Sub-protocol |
 |---|---|

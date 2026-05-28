@@ -23,7 +23,7 @@ experiment.
 **Cross-references:**
 - Triggering audit: `publishing/essays/aeon-mask-of-abundance/rigor/evolution-audit_2026-05-27.md` F-EVO-AUDIT-1
 - Reorg commit: `git show 52fde31` (50 file moves)
-- Two-stage discipline doctrine: `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`
+- Two-stage discipline doctrine: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`
 
 **When to fire.** POST-AEON-SUBMISSION (after Sun May 31 14:01 UTC).
 Aeon-only file-org remediation (audit §7.1 paste-text) is the

@@ -26,7 +26,7 @@
 | Ch 5 Pass 3.5 (closest register cousin) | `tools/rigor-passes/ch5_developmental_edit_review_2026-05-26.md` | RATIFIED + APPLIED 2026-05-26 |
 | Ch 4 Pass 3.5 | `tools/rigor-passes/ch4_developmental_edit_review_2026-05-25.md` | PROPOSED 2026-05-25 |
 | Ch 9 Pass 3.5 (adjacent chapter) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch9_pricing_honestly_pass_3_5_developmental_edit_v1.0.0.md` | RATIFIED + APPLIED 2026-05-25 |
-| Pipeline doctrine | `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` | §3.6 Amendment B Pass 3.5 codified + §3.7 Amendment C interactive ratification protocol |
+| Pipeline doctrine | `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` | §3.6 Amendment B Pass 3.5 codified + §3.7 Amendment C interactive ratification protocol |
 | Memory entries | (verified per discipline) | `feedback_audience_aware_drafting_discipline.md` v3.1; `feedback_named_subject_consent.md`; `feedback_em_dash_overuse.md`; `feedback_substance_drives_length.md`; `feedback_substrate_critical_editorial_input.md` |
 
 **Verification (per `feedback_verify_stale_memory_claims.md`):**

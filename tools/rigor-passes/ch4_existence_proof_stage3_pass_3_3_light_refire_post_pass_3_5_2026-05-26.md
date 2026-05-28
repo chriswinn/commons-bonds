@@ -337,7 +337,7 @@ Per Amendment B Pass-3.5 protocol: Pass 3.4 re-fire NOT routinely warranted (res
 - **Pass 3.4 robustness:** [`tools/rigor-passes/ch4_existence_proof_stage3_pass_3_4_robustness_2026-05-25.md`](ch4_existence_proof_stage3_pass_3_4_robustness_2026-05-25.md) — RATIFIED ROBUST 2026-05-25; Pass 3.4 re-fire NOT in scope per Amendment B Pass-3.5 protocol.
 - **Stage 5 sign-off:** [`tools/quality-gates/sign-offs/ch4_stage5_signoff_2026-05-25.md`](../quality-gates/sign-offs/ch4_stage5_signoff_2026-05-25.md) — chapter RATIFIED READY-TO-SUBMIT; light Pass 3.3 re-fire is post-sign-off confirmation.
 - **Format model:** [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_LIGHT_REFIRE_2026-05-19_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_LIGHT_REFIRE_2026-05-19_PROPOSED.md) — chapter-class light-re-fire precedent.
-- **Pipeline doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6 Amendment B Pass-3.5 protocol — light Pass 3.3 re-fire after Phase C application of ratified Pass 3.5 spot-fixes.
+- **Pipeline doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6 Amendment B Pass-3.5 protocol — light Pass 3.3 re-fire after Phase C application of ratified Pass 3.5 spot-fixes.
 
 ---
 

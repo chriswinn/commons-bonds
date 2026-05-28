@@ -27,6 +27,10 @@ Plus the current session handoff from `alignment/sessions/`.
 
 **Updated 2026-05-28** — inventory refreshed to match actual subdir contents; pre-2026-05-28 versions of this section referenced `tools/triage/` (no longer present) and omitted most active subdirs.
 
+### `tools/pipeline-doctrine/`
+
+Canonical pipeline doctrine: four files (v1.0.0 main + Stage 1 / Stage 4 / Stage 5 deep-dives) covering the six-stage architecture, two-class cascade, invariant-gate infrastructure, and cross-chapter workstream lifecycle. Promoted from `tools/` top-level into this subdir 2026-05-28 (S6 of the structure-cleanup-followup session). Index + when-to-read-which guide at [`pipeline-doctrine/README.md`](pipeline-doctrine/README.md).
+
 ### `tools/rigor-passes/`
 
 Historical audit trail of rigor passes. ~260+ files spanning Stage 0 → Stage 5 work across chapters + essays. Naming pattern: `commons_bonds_rigor_pass_YYYY-MM-DD_<slug>_<stage>_v#_#_#.md`.

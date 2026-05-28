@@ -102,7 +102,7 @@ All three APPLY items applied via Phase C-δ commit `75c648b` 2026-05-26 (line-c
 
 Stage 4 verdict (RATIFIED 2026-05-26 author-managed-offline disposition, commit `e36bdd6`): **CLEAN.** Author ran Ch 8 through Docker / remote-container render pipeline offline; render output verified clean; no character-integrity issues surfaced; Ch 8 renders cleanly across all distribution targets.
 
-Stage 4 author-offline scope covered per [pipeline doctrine stage 4](../../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md):
+Stage 4 author-offline scope covered per [pipeline doctrine stage 4](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md):
 - Render correctness — chapter renders to HTML / PDF / DOCX without errors; EB Garamond font-family applied; em-dash + subscript-2 (CO₂ + mmBtu denominators at lines 72, 168, 174) + subscript-i (Cᵢ at line 18) + section sign (§1.1 at line 72) + currency symbol ($ throughout sum-list at lines 148–164) + book-title italicization (*House of Debt* at line 196; *We Wear the Mask* at line 92; *The Souls of Black Folk* at line 92; *Black Skin, White Masks* at line 92; *Invisible Man* at line 92) all preserved.
 - Character-integrity audit — no apparatus residue, no scaffolding tokens, no truncation; bold em-dash gap pre-emptively safe (chapter prose does NOT use bold spans containing em-dashes); no approximation symbol (`≈`) risk; no Greek letters in chapter body (apparatus α/β lives at TA, not Ch 8); no replacement-glyph / tofu-box source corruption.
 - Pre-render verification anchors per friction-anchors registry (per [feedback_audience_aware_drafting_discipline.md](../../memory/feedback_audience_aware_drafting_discipline.md) Stage 4 friction-anchors list: tofu-box em-dash / ≈ rendering issues + Chrome-vs-wkhtmltopdf rendering divergence + EB Garamond font-family naming).
@@ -325,7 +325,7 @@ Ch 8 is **READY-TO-SUBMIT.** Joins Ch 1 + Ch 2 + Ch 3 + Ch 4 + Ch 5 + Ch 6 + Ch 
 - Stage 1c D-3 sibling-coherence-check `06eb1ea` 2026-05-25 (D-3a MacLean consolidation + D-3b symmetric-vs-asymmetric framing realignment; cross-chapter sibling-coherence ✓ COHERENT across Ch 5 + Ch 8 + Ch 9 + TA §1.10) — extended to Ch 8:122 via Pass 3.4 T3 Phase C-γ `6125a4e`
 - Pre-publication review queue (RATIFIED 2026-05-26): [`tools/pre-submission-reviews/ch8_pre_pub_review_queue_v1.0.0.md`](../../pre-submission-reviews/ch8_pre_pub_review_queue_v1.0.0.md)
 - Cousin Stage 5 sign-offs (format calibration): [`tools/quality-gates/sign-offs/ch7_stage5_signoff_2026-05-26.md`](ch7_stage5_signoff_2026-05-26.md) (analytical-register cousin) + [`tools/quality-gates/sign-offs/ch9_stage5_signoff_2026-05-25.md`](ch9_stage5_signoff_2026-05-25.md) (adjacent-chapter; Reading C v3 cousin) + [`tools/quality-gates/sign-offs/ch5_stage5_signoff_2026-05-26.md`](ch5_stage5_signoff_2026-05-26.md) (post-Phase-C-δ bundled-closure precedent)
-- Stage 5 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
+- Stage 5 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
 
 ---
 

@@ -5,7 +5,7 @@
 **Chapter:** Ch 9 — *Pricing Honestly* (`manuscript/chapters/Chapter__9_PricingHonestly__Draft.md`)
 **Status going in:** Pass 1 PROPOSED 2026-05-15 (commit `9720da0`). NOT YET RATIFIED + APPLIED.
 **Template:** [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 
 ---
 
@@ -46,7 +46,7 @@ Per the retrofit table in [`README.md`](README.md): **1a + 1c + 3.1 verify + 3.2
 
 ## §4. Cross-references
 
-- Pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+- Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 - Retrofit template: [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
 - Pass 1 PROPOSED: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-16_ch9_pricing_honestly_stage3_fact_check_v1.0.0.md`
 - Cross-chapter rent-seeking workstream: [`cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md)

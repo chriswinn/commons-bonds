@@ -25,7 +25,7 @@
 - Stage 4 ratification artifact: `publishing/essays/foreign-affairs-existence-proof/rigor/stage-4-render-audit.md`
 - AI-disclosure template: `publishing/essays/_shared/templates/ai-disclosure-paragraph.md` (verify presence at session fire-time)
 - Author platform paragraph: `publishing/book-proposal/03_author-platform.md` (medium bio for cover letter)
-- Pipeline doctrine Stage 5: `tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`
+- Pipeline doctrine Stage 5: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`
 - Wave 1 cover-letter format precedents:
   - `publishing/essays/boston-review-accountability-gap/cover-letter.md` (BR cover-letter precedent — closest fit by venue institutional-policy register)
   - `publishing/essays/100-barrel-essay/cover-letter.md` (if present — institutional-policy-register cover-letter precedent)
@@ -72,7 +72,7 @@ Your job is to:
    until author explicitly merges; Stage 5 sign-off is internal
    scaffolding, auto-fast-forwards to main)
 
-3. tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md
+3. tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md
    (Stage 5 codification: bookend pre-submission sign-off +
    AI-disclosure transparency)
 

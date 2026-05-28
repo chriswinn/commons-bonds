@@ -187,7 +187,7 @@ Log location: per cascade plan §"Outreach" discipline — recommend either a de
   - Noema: `publishing/essays/noema-commons-bonds/rigor/pass-3-1-fact-check.md` (Pass 3.1 RATIFIED + APPLIED 2026-05-21)
   - $100 Barrel: `publishing/essays/100-barrel/rigor/pass-3-1-fact-check.md` (Pass 3.1 RATIFIED + APPLIED; comparative Pass 3.3 + 3.4 done)
 - **Op-eds:** `publishing/op-eds/norway-sovereign-wealth/op-ed.md` + `publishing/op-eds/mcdowell-county-true-cost/op-ed.md`
-- **Pipeline doctrine (v3.1 Amendment B + C):** `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + `tools/memory/feedback_audience_aware_drafting_discipline.md`
+- **Pipeline doctrine (v3.1 Amendment B + C):** `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` + `tools/memory/feedback_audience_aware_drafting_discipline.md`
 - **Cross-thread-todos (active):** `publishing/essays/_pipeline/cross-thread-todos.md`
 - **Cascade plan (stale per author 2026-05-21 — needs full refresh in separate session):** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md`
 

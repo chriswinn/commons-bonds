@@ -2,7 +2,7 @@
 
 **Date drafted:** 2026-05-11
 **Date last refreshed:** 2026-05-24 (v3.1 pipeline doctrine — Amendments A + B + C reflected)
-**Discipline reference:** v3.1 audience-aware drafting + full pipeline doctrine at [`../memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) (canonical, mirrored from `~/.claude/projects/-Users-c17n-commons-bonds/memory/`); full doctrine artifact at [`../commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md).
+**Discipline reference:** v3.1 audience-aware drafting + full pipeline doctrine at [`../memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) (canonical, mirrored from `~/.claude/projects/-Users-c17n-commons-bonds/memory/`); full doctrine artifact at [`../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md).
 
 **Purpose.** Reusable session-paste templates for any drafting task in the *Commons Bonds* project. Each template is a starting point: fill in the `[BRACKET PLACEHOLDERS]`, paste into a fresh session, the session executes.
 
@@ -21,7 +21,7 @@ Templates are organized by the v3.1 pipeline's stages. **Not every drafting task
 | `audience-pressure-test-construction.md` | Guide for building the audience pressure-test set adapted per venue. Reference from Stage 1 templates. |
 | `op-ed-news-peg-activation-template.md` | **News-peg-triggered short-form activation** for the two pipeline-ready op-eds (Norway sovereign-wealth + McDowell true-cost). When a news event surfaces, paste the relevant activation prompt into a fresh session for 1–2-day-turnaround submission. |
 
-**Stage 4 + Stage 5** (render + character-integrity audit; academic-rigor + prose-quality sign-off + pre-pub review queue artifact) do not yet have dedicated templates in this directory — they are codified in `../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md` and `../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`. **First chapter through each stage builds the template** (currently Ch 1 is queued to be first through Stage 5; will produce the template).
+**Stage 4 + Stage 5** (render + character-integrity audit; academic-rigor + prose-quality sign-off + pre-pub review queue artifact) do not yet have dedicated templates in this directory — they are codified in `../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md` and `../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`. **First chapter through each stage builds the template** (currently Ch 1 is queued to be first through Stage 5; will produce the template).
 
 ---
 
@@ -76,7 +76,7 @@ REQUIRED READS (in order):
   5. tools/memory/feedback_em_dash_overuse.md (if drafting prose)
   6. tools/memory/feedback_substrate_critical_editorial_input.md (if
      working from author-supplied substrate)
-  7. tools/commons_bonds_pipeline_doctrine_v1.0.0.md (full doctrine)
+  7. tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md (full doctrine)
   8. The stage-specific template from tools/drafting-templates/
      matching this session's stage
   9. [WORKSTREAM-SPECIFIC HANDOFF: tools/workstream-handoffs/

@@ -37,7 +37,7 @@ findings only; Phase C spot-fix application is a separate session.
    scale). NOTE: read at audit time as `Chapter__1_TheQuietMath__Draft.md`;
    subsequently renamed at origin/main `a09e319` 2026-05-18 (content
    unchanged; `__Draft` suffix removed).
-2. [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+2. [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
    §3 Amendment A — selective stage-firing (this workstream is an
    explicit-gate firing similar to Pass 3.3 / 3.4 but at developmental-editing
    scale).

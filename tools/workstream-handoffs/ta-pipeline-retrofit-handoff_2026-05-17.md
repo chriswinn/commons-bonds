@@ -5,7 +5,7 @@
 **Artifact:** Technical Appendix (`core/technical-appendix/TechnicalAppendix_v2.0.0.html` — 8,038 lines; v2.1.0 dated 2026-05-14)
 **Status going in:** Pass 1 math/proof audit RATIFIED + APPLIED via Phase C Tracks 1-5 (commits `0f62704` + `0af3ff1` + `d1410d9` + `eaf4c19` + `36073ca`). 2026-05-14 verification round ratified. Sandy-Darity-send-ready.
 **Template:** [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 
 ---
 
@@ -56,7 +56,7 @@ Per the retrofit table in [`README.md`](README.md): **1a + 1c + 3.4 + 4 (highest
 
 ## §4. Cross-references
 
-- Pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+- Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 - Retrofit template: [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
 - TA Pass 1 math audit: `tools/rigor-passes/tech_appendix_rigor_pass_2026-05-13_pass_1_math_audit.md`
 - TA verification round: `tools/rigor-passes/tech_appendix_verification_round_2026-05-14.md`

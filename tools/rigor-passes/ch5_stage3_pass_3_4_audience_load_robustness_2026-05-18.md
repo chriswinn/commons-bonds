@@ -8,7 +8,7 @@
 **Status:** **RATIFIED 2026-05-26** — author bulk-ratified all 7 decision clusters as recommended. See §10 ratification record. Per retrofit-template §5 hard constraints: no spot-fixes applied to chapter source. CONDITIONALLY ROBUST verdict confirmed.
 **Mode:** v3.0 Pass 3.4 robustness (first under v3.0 for Ch 5; the original Pass 3 ran acceptance-only under pre-v3.0 framing — RATIFIED 2026-05-14 with 9/9 INCLUDE — and is preserved unchanged).
 **Pass scope:** Pass 3.4 only (adversarial / detractor robustness). Pass 3.1 + Pass 3.2 + Pass 3.3 acceptance already RATIFIED + APPLIED (commits `da26bdc` + `c35cb03` + `d2ee178` + RATIFIED 2026-05-14).
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §1; Stage 3 template (v3.0) [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.4: Audience-load (robustness)"; adversarial-set construction guide [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) §3.
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §1; Stage 3 template (v3.0) [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.4: Audience-load (robustness)"; adversarial-set construction guide [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) §3.
 **Canonical-format model:** Ch 1 REAUDIT v3 [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) §5.3 thread-pull synthesis.
 
 ---
@@ -303,7 +303,7 @@ These join the Sandy-Darity-tradition + Pistor-tradition + civic-republican-trad
 - Stage 1c coherence-check (this session): [`tools/quality-gates/coherence-checks/ch5_stage1c_2026-05-18.md`](../quality-gates/coherence-checks/ch5_stage1c_2026-05-18.md)
 - Stage 1a clean-baseline (this session): [`tools/quality-gates/clean-baselines/ch5_stage1a_2026-05-18.md`](../quality-gates/clean-baselines/ch5_stage1a_2026-05-18.md)
 - Pass 3.3 acceptance (carried forward unchanged, RATIFIED 2026-05-14): [`tools/rigor-passes/commons_bonds_ch5_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md`](commons_bonds_ch5_stage_3_pass_3_audience_load_2026-05-14_PROPOSED.md)
-- Pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+- Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 - Stage 3 template (v3.0): [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md)
 - Audience-pressure-test-construction (v3.0): [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md)
 - Canonical 3.4 thread-pull synthesis format (Ch 1 REAUDIT v3 §5.3): [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md)

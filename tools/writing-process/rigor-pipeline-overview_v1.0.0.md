@@ -333,7 +333,7 @@ Amendments through 2026-05-19:
 
 ## §9. Source-of-truth + license
 
-This is a portable overview. The canonical project-internal doctrine lives at `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + the Stage 1 / 4 / 5 sub-docs at `tools/commons_bonds_pipeline_doctrine_stage_{1,4,5}_v1.0.0.md`. For project-internal usage, treat those as canonical; this document is the externalized overview.
+This is a portable overview. The canonical project-internal doctrine lives at `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` + the Stage 1 / 4 / 5 sub-docs at `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_{1,4,5}_v1.0.0.md`. For project-internal usage, treat those as canonical; this document is the externalized overview.
 
 License: TBD by author for any extraction to standalone repository.
 

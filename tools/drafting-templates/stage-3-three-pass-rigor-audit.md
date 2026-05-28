@@ -12,7 +12,7 @@
 
 **Critical discipline (v3.0 framing, extending v2.0 Amendment B).** Four DISTINCT passes, not bundled. v2.0 Amendment B established the three-pass discipline (fact-check + voice-polish + audience-load); v3.0 splits Pass 3 into Pass 3.3 (audience-load acceptance) + Pass 3.4 (audience-load robustness against adversarial / detractor characters) per the 2026-05-17 Ch 1 Pass 3 REAUDIT v3 canonical example. Acceptance + robustness use different character sets, different verdict scales, and produce different diagnostic outputs.
 
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) — see §1 for the full pipeline stage structure; §6 for the bookend sign-off discipline.
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) — see §1 for the full pipeline stage structure; §6 for the bookend sign-off discipline.
 
 **Canonical examples.**
 - Stage 3 comparison verdict: [`publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md`](../../publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md)

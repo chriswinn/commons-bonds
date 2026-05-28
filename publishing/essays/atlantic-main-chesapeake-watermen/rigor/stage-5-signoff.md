@@ -7,7 +7,7 @@
 **Artifact under sign-off:** [`publishing/essays/atlantic-main-chesapeake-watermen/essay.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/essay.md) at Stage 3 cascade close state (Pass 3.5 feature branch `claude/ch3-atlantic-pass35-260527-5f34a1` Pass 3.5 head commit `221e415`; copied into Stage 5 worktree commit `8ebc2fa` as Stage 5 baseline). 6,590w body across 8 sections §I–§VIII.
 **Stage 1 brief (academic-rigor + prose-quality bookend match):** [`stage-1-brief.md`](stage-1-brief.md) RATIFIED 2026-05-27 commit `361e5dc`.
 **Cascade predecessors:** Pass 3.1 fact-check (commit `84d721f`) + Pass 3.2 voice-polish (commit `a25def8`) + Pass 3.3 audience-load (commit `1815813`) + Pass 3.4 adversarial robustness (commit `025611e`) + Pass 3.5 developmental-edit (commit `708ec0f`) + Stage 4 render-audit (commit `b54822b`).
-**Methodology anchor:** v3.1 Amendment B Stage 5 bookend sign-off doctrine + parent doctrine §3.5 "Pre-publication review queue" mandatory hand-off + Stage 5 doctrine in [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md). Format precedent: NYRB Stage 5 RATIFIED 2026-05-27 commit `4aacac2` (most-recent same-cascade-class sibling) + FA Stage 5 RATIFIED commit `33da821`.
+**Methodology anchor:** v3.1 Amendment B Stage 5 bookend sign-off doctrine + parent doctrine §3.5 "Pre-publication review queue" mandatory hand-off + Stage 5 doctrine in [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md). Format precedent: NYRB Stage 5 RATIFIED 2026-05-27 commit `4aacac2` (most-recent same-cascade-class sibling) + FA Stage 5 RATIFIED commit `33da821`.
 
 ---
 

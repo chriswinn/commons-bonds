@@ -366,7 +366,7 @@ After Stage 2 draft lands PROPOSED:
 - **Outreach packets:** [`research/outreach/subjects/colden/`](../../research/outreach/subjects/colden/), [`research/outreach/subjects/cbf/`](../../research/outreach/subjects/cbf/), [`research/outreach/subjects/phat/`](../../research/outreach/subjects/phat/), [`research/outreach/subjects/biggie/`](../../research/outreach/subjects/biggie/).
 - **Parallel-firing siblings (Wave 2):** Ch 2 → Harper's brief (PROPOSED 2026-05-26 `3d1810b`); Ch 4 → Foreign Affairs brief (RATIFIED 2026-05-26 `1f73197`); NYRB multi-book review brief (RATIFIED 2026-05-27 `361e5dc`).
 - **Register-differentiation reference (DO-NOT-PARAPHRASE):** Atlantic Ideas brief (different venue + different register; argument/analysis/commentary, NOT multi-voice reportage) — [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md).
-- **Pipeline doctrine + v3.1 discipline:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) + [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md).
+- **Pipeline doctrine + v3.1 discipline:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) + [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md).
 
 ---
 

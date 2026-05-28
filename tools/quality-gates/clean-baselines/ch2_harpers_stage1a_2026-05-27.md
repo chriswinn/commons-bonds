@@ -10,7 +10,7 @@
 **Scaffolding-scan registry version:** `tools/quality-gates/scaffolding-patterns.yaml` (current HEAD)
 **Regressed-pattern-scan registry version:** `tools/quality-gates/regressed-patterns.yaml` (current HEAD)
 **Command executed:** `tools/scripts/check-corpus-invariants.sh` (full-corpus scan; per-scope verdict extracted below)
-**Pipeline doctrine reference:** [`tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) §1
+**Pipeline doctrine reference:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) §1
 
 ---
 

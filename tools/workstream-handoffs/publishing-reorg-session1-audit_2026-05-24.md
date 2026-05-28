@@ -972,7 +972,7 @@ Replace the path references with the new architecture:
 
 - Per-essay file paths cited as examples in `tools/memory/` files
 - Per-essay file paths cited in `tools/drafting-templates/` files
-- Per-essay file paths cited in `tools/commons_bonds_pipeline_doctrine_*` files
+- Per-essay file paths cited in `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_*` files
 
 Session 2 needs to grep these explicitly.
 

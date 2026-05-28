@@ -13,7 +13,7 @@
 
 **Canonical format model:** [`tools/rigor-passes/ch1_developmental_edit_review_2026-05-18.md`](ch1_developmental_edit_review_2026-05-18.md) — Ch 1 developmental-edit review (canonical Pass 3.5 artifact-format model per pipeline doctrine §3.7.2).
 
-**Pipeline-doctrine cross-reference:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7.1 (Amendment C scope — Pass 3.5 within scope; restoration polarity per Amendment B 2026-05-18).
+**Pipeline-doctrine cross-reference:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7.1 (Amendment C scope — Pass 3.5 within scope; restoration polarity per Amendment B 2026-05-18).
 
 **Stage 5 status:** fires after Pass 3.5 interactive ratification + Phase C application combined session settles. Stage 5 sign-off bookend + pre-publication review queue artifact (incorporating Pass 3.4's 5 pre-pub-queue acknowledgments) at submission-gate.
 
@@ -64,7 +64,7 @@ The developmental-edit lens is the closest thing the pipeline has to a trade-pre
 6. [`publishing/essays/noema-commons-bonds/rigor/pass-3-4-adversarial.md`](pass-3-4-adversarial.md) (Pass 3.4 — robustness verdict; thread-pull synthesis carry)
 7. [`tools/rigor-passes/ch1_developmental_edit_review_2026-05-18.md`](ch1_developmental_edit_review_2026-05-18.md) (canonical Pass 3.5 format model; §5.1-5.4 whole-chapter synthesis format)
 8. [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.5"
-9. [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7 (Amendment C scope + interactive ratification protocol)
+9. [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7 (Amendment C scope + interactive ratification protocol)
 10. Memory: [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) (v3.1 Amendment B Pass 3.5 codification — restoration polarity, whole-chapter scale, ~50K-80K tokens)
 11. Memory: `~/.claude/projects/-Users-c17n-commons-bonds/memory/project_authors_grandfather_nasa_inventor.md` (author's grandfather LaVern E. Winn — 2 patents: Liquid Waste Feed System 1972 + fiberglass-laminate lathe; canonical-fact source for line 39 restoration candidate)
 12. Memory: [`tools/memory/feedback_substance_drives_length.md`](../memory/feedback_substance_drives_length.md) (restorations should be substantively-earned; not pad to length)

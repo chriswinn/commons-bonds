@@ -35,7 +35,7 @@ The portable overviews here **derive from** project-internal canonical artifacts
 
 | Portable overview (here) | Project-internal canonical (elsewhere) |
 |---|---|
-| `rigor-pipeline-overview_v1.0.0.md` | `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + Stage 1 / 4 / 5 sub-docs at `tools/commons_bonds_pipeline_doctrine_stage_{1,4,5}_v1.0.0.md` |
+| `rigor-pipeline-overview_v1.0.0.md` | `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` + Stage 1 / 4 / 5 sub-docs at `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_{1,4,5}_v1.0.0.md` |
 | `audience-character-roster_v1.0.0.md` | `tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md` (lived 40-character full-rigor example) + `tools/drafting-templates/audience-pressure-test-construction.md` (construction discipline) |
 | `interview-prep-process_v1.0.0.md` (planned) | `research/outreach/subjects/<subject>/` prep stacks; `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` |
 

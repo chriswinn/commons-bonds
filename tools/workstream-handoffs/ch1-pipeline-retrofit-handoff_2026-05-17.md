@@ -5,7 +5,7 @@
 **Chapter:** Ch 1 — *The Quiet Math* (`manuscript/chapters/Chapter__1_TheQuietMath__Draft.md`)
 **Status going in:** Three-pass cycle CLOSED (2026-05-17); REAUDIT v3 PROPOSED + ratified-as-applied for Items (i) + (iv).
 **Template:** [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 
 ---
 
@@ -50,7 +50,7 @@ Effectively this is the lightest retrofit in the set: 1a + 1c + 4 + 5 only (3.4 
 
 ## §4. Cross-references
 
-- Pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+- Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 - Retrofit template (procedure + read order): [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
 - REAUDIT v3 artifact (canonical 3.3/3.4 split): `tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`
 - Cross-chapter rent-seeking workstream: [`cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md)

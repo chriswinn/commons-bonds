@@ -5,7 +5,7 @@
 **Chapter:** Ch 3 — *The Waterman* (`manuscript/chapters/Chapter__3_TheWaterman__Draft.md`)
 **Status going in:** Drafted 2026-05-09 (commit `3a8b096`); Phase A not yet entered. **Full new pipeline application** required.
 **Template:** [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 
 ---
 
@@ -52,7 +52,7 @@ This is the heaviest retrofit in the set — full new-cycle Phase A application 
 
 ## §4. Cross-references
 
-- Pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+- Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 - Retrofit template: [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
 - Ch 3 draft commit: `3a8b096` (2026-05-09)
 - Colden pre-read brief: `research/outreach/subjects/colden/prereadbrief_2026-05-06.md`

@@ -3,7 +3,7 @@
 **Date:** 2026-05-26
 **Scope:** [`manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md`](../../manuscript/chapters/Chapter__5_THEACCOUNTABILITYGAP__Draft.md)
 **Status:** **RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE.** Verdict: **CLEAN.**
-**Mode:** Stage 4 render + character-integrity audit per pipeline-doctrine v1.0.0 Stage 4 ([`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)). Explicit-gate per Amendment A; fired on author trigger 2026-05-26 ("ratify stage 4 as I completely revised the rendering process and handle that offline now; it works wonderfully").
+**Mode:** Stage 4 render + character-integrity audit per pipeline-doctrine v1.0.0 Stage 4 ([`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)). Explicit-gate per Amendment A; fired on author trigger 2026-05-26 ("ratify stage 4 as I completely revised the rendering process and handle that offline now; it works wonderfully").
 
 **Cascade context (upstream Ch 5 passes):**
 - Pass 3.1 fact-check: RATIFIED + APPLIED 2026-05-13 (commit `da26bdc` Phase C-α; authoritative-source verification `999bd73` Amendment 2).

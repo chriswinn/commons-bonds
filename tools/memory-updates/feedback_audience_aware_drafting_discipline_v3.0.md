@@ -9,11 +9,11 @@
 
 **Amendment C in one line (ratified 2026-05-19):** prose-modifying passes (Pass 3.1 / Pass 3.2 / Pass 3.5) + Phase C application sessions follow an **interactive ratification protocol** — each finding gets Options + Recommendation + Reasoning, walked through interactively in a follow-up session, with author dispositioning each before chapter-source changes apply. Two-session workflow: (1) discovery session produces PROPOSED artifact + auto-merges to main; (2) interactive ratification + application session walks through findings + applies ratified spot-fixes to chapter source in the same combined session. Replaces the prior three-step pattern (discovery + external author-review + Phase C application).
 
-**Apply Amendments A + B + C to local memory:** v3.1.0 memory entry should append "Amendment A" + "Amendment B" + "Amendment C" blocks from `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` §3.1-3.4 + §3.6 + §3.7 respectively, OR replace the v3.0-original cascade section with the new two-class five-pass interactive-ratification framework. Memory file remains a scan-friendly summary; canonical doctrine carries the full architecture.
+**Apply Amendments A + B + C to local memory:** v3.1.0 memory entry should append "Amendment A" + "Amendment B" + "Amendment C" blocks from `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` §3.1-3.4 + §3.6 + §3.7 respectively, OR replace the v3.0-original cascade section with the new two-class five-pass interactive-ratification framework. Memory file remains a scan-friendly summary; canonical doctrine carries the full architecture.
 
 ---
 **Origin:** Pipeline-revision workstream (handoff at [`tools/workstream-handoffs/pipeline-revision-handoff_2026-05-17.md`](../workstream-handoffs/pipeline-revision-handoff_2026-05-17.md)).
-**Versioning approach:** hybrid per ratified decision #8 — this memory entry stays scan-friendly (summary + pointer); the full doctrine lives in `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`.
+**Versioning approach:** hybrid per ratified decision #8 — this memory entry stays scan-friendly (summary + pointer); the full doctrine lives in `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`.
 **Applies to local memory file:** `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md`
 
 ---
@@ -31,7 +31,7 @@ The author's memory file is on the local Claude Code machine, not in the repo. T
 
 **Date:** 2026-05-17
 **Supersedes:** v2.0 Amendment B (2026-05-10 + 2026-05-13)
-**Canonical full doctrine:** `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` in
+**Canonical full doctrine:** `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` in
 the commons-bonds repo. This memory entry is the scan-friendly summary; the
 doctrine artifact carries the full architecture.
 
@@ -167,10 +167,10 @@ Implementation: `tools/scripts/check-corpus-invariants.sh`.
 
 ## Where to read more
 
-- Full doctrine: `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`
-- Stage 1: `tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`
-- Stage 4: `tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`
-- Stage 5: `tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`
+- Full doctrine: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`
+- Stage 1: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`
+- Stage 4: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`
+- Stage 5: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`
 - Stage 3 template (revised): `tools/drafting-templates/stage-3-three-pass-rigor-audit.md`
 - Audience pressure-test construction (revised): `tools/drafting-templates/audience-pressure-test-construction.md`
 ```

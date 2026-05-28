@@ -212,7 +212,7 @@ Per Q1 rigor pass §6 + Stage 1 brief §9 + comparative draft audit §1: Conditi
 - **Pass 3.1 fact-check (prior pass):** [`pass-3-1-fact-check.md`](pass-3-1-fact-check.md) — RATIFIED + APPLIED commit `cf5db97`.
 - **Stage 1 brief (audience source of truth):** [`stage-1-brief.md`](stage-1-brief.md) §1 (18-character acceptance set) + §9 (Condition 1 dispositive test).
 - **v3.1 discipline reference:** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)
-- **Pipeline doctrine (Pass 3.3 spec):** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6.3
+- **Pipeline doctrine (Pass 3.3 spec):** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6.3
 - **Audit target:** [`publishing/essays/100-barrel/essay.md`](../../publishing/essays/100-barrel/essay.md) (4,145w; on `main` commit `8b2614a`)
 
 ---

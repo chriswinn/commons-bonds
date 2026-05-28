@@ -3,7 +3,7 @@
 **Date:** 2026-05-26
 **Scope:** [`manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md`](../../manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md) (243 lines; 52 em-dashes post-Phase-C-β)
 **Status:** **RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE.** Verdict: **CLEAN.**
-**Mode:** Stage 4 render + character-integrity audit per pipeline-doctrine v1.0.0 Stage 4 ([`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)). Explicit-gate per Amendment A; fired on author trigger 2026-05-26 ("ratify stage 4 as I have done that offline with the docker render pipeline").
+**Mode:** Stage 4 render + character-integrity audit per pipeline-doctrine v1.0.0 Stage 4 ([`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)). Explicit-gate per Amendment A; fired on author trigger 2026-05-26 ("ratify stage 4 as I have done that offline with the docker render pipeline").
 
 **Cascade context (upstream Ch 8 passes):**
 - Pass 3.1 fact-check: CLOSED (per Pass 2 session prompt 2026-05-23; cascade-reconciliation Phase C work documented across commits `5e260a3` + `9befb92` + `275b75a` + `cbef9bd` + `444e325`).

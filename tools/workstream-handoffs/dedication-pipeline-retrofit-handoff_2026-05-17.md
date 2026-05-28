@@ -5,7 +5,7 @@
 **Artifact:** Dedication (`manuscript/chapters/_Dedication.md`)
 **Status going in:** Currently in DRAFTING / PLANNING state — direction notes + family-name notes present; finalized dedication text NOT YET WRITTEN. Per 2026-05-04 author conversation: dedication will be three-generation arc (grandfather + father + son) mirroring the book's intergenerational thesis.
 **Template:** [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 
 ---
 
@@ -60,7 +60,7 @@ The dedication is the smallest publisher-facing artifact in the manuscript. Retr
 
 ## §4. Cross-references
 
-- Pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+- Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 - Retrofit template: [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
 - Ch 1 retrofit handoff: [`ch1-pipeline-retrofit-handoff_2026-05-17.md`](ch1-pipeline-retrofit-handoff_2026-05-17.md)
 - AuthorsNote retrofit handoff: [`authorsnote-pipeline-retrofit-handoff_2026-05-17.md`](authorsnote-pipeline-retrofit-handoff_2026-05-17.md)

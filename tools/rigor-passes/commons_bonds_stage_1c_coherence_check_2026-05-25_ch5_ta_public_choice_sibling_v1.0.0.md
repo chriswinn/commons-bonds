@@ -20,7 +20,7 @@
 | Stage 1c Ch 8 artifact (D-3 origin) | `tools/rigor-passes/commons_bonds_stage_1c_coherence_check_2026-05-21_ch8_rent_seeking_v1.0.0.md` | 310 lines | §6.2 IF-2 + IF-3 + §8 D-3 deferral; canonical D-3 framing source |
 | Pass 3.3 acceptance (Ch 9) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_ch9_pricing_honestly_stage3_pass_3_3_audience_load_acceptance_v1.0.0.md` | 688 lines | §2 Char 15 Option A canonical sentence at lines 414–417; §6.3 default hold-as-is |
 | Pass 3.4 robustness (Ch 9) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-23_ch9_pricing_honestly_stage3_pass_3_4_audience_load_robustness_v1.0.0.md` | (commit `f47dd1c`) | §3 T3 + §5.2 D-3 MacLean consolidation scope expansion; §7.3 Phase-C disposition recommendation |
-| Pipeline doctrine v1.0.0 | `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` | (§3 + §3.1 + §3.3 verified) | Stage 1c position + change-cascade routing |
+| Pipeline doctrine v1.0.0 | `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` | (§3 + §3.1 + §3.3 verified) | Stage 1c position + change-cascade routing |
 | Memory: [audience-aware drafting](../memory/feedback_audience_aware_drafting_discipline.md) | | v3.0 + Amendment A two-class cascade | Pre-publication review queue framing |
 | Memory: [verify-stale-memory-claims](../memory/feedback_verify_stale_memory_claims.md) | | (heeded staleness reminder; all date / file / commit / line claims verified) | n/a |
 | Memory: [named-subject consent](../memory/feedback_named_subject_consent.md) | | public-record exception | Scholarly citation discipline (Buchanan, Tullock, MacLean) |

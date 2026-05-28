@@ -16,7 +16,7 @@
 | Ch 8 — *What Things Actually Cost* | `manuscript/chapters/Chapter__8_WhatThingsActuallyCost.md` | 243 lines | Rent-seeking paragraph inserted by `a1e54d9` (2026-05-17), ratified `bc02767` (2026-05-18); current location line 122 (within Political Capture Cost section, lines 112–124) |
 | Ch 9 — *Pricing Honestly* | `manuscript/chapters/Chapter__9_PricingHonestly.md` | 294 lines | Reading C v3 substantive rewrite applied at `78a26c2` (2026-05-21); current location lines 134–148 (header line 136; body 138–148) |
 | Pass 2 disposition artifact | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_ch9_pricing_honestly_stage3_voice_polish_v1.0.0.md` | 750 lines | §11 disposition log records Reading C v3 emergence + cross-chapter cascade flag at lines 716, 734–736 |
-| Pipeline doctrine v1.0.0 | `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` | (verified §3 + §3.1 + §3.3 light re-fire definition) | §3.1 routes "cross-chapter workstream applies content to multiple chapters" through Stage 1c automatically; light re-fire defined at §3.3 |
+| Pipeline doctrine v1.0.0 | `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` | (verified §3 + §3.1 + §3.3 light re-fire definition) | §3.1 routes "cross-chapter workstream applies content to multiple chapters" through Stage 1c automatically; light re-fire defined at §3.3 |
 | Memory: audience-aware drafting | `tools/memory/feedback_audience_aware_drafting_discipline.md` | (verified Stage 1c position + change-cascade routing rules) | v3.0 doctrine framing matches |
 | Memory: verify-stale-memory | `tools/memory/feedback_verify_stale_memory_claims.md` | (heeded staleness reminder; verified all date / file / commit / line-number claims at session start) | n/a |
 

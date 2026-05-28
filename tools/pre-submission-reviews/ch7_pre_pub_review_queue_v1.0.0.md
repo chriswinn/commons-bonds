@@ -238,7 +238,7 @@ Rank-ordered by load-bearing-claim density + external-verification-warrant:
 - Stage 4 render-audit: [`tools/rigor-passes/ch7_stage_4_render_audit_2026-05-26.md`](../rigor-passes/ch7_stage_4_render_audit_2026-05-26.md) — RATIFIED `e1b4d6d` (author-completed-offline; CLEAN)
 - Stage 5 sign-off (this pre-pub-queue's companion): [`tools/quality-gates/sign-offs/ch7_stage5_signoff_2026-05-26.md`](../quality-gates/sign-offs/ch7_stage5_signoff_2026-05-26.md)
 - Aeon Version C pitch (coordinated overlap discipline): [`publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`](../../publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md) — Sun May 31 14:01 UTC fire window
-- Stage 5 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
+- Stage 5 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
 
 ---
 

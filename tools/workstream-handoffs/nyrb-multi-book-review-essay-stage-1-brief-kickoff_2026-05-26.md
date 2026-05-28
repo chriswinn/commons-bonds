@@ -58,7 +58,7 @@ workstream completing per Condition NR-3.
 6. tools/memory/feedback_em_dash_overuse.md (em-dash discipline)
 7. tools/memory/feedback_substance_drives_length.md (no arbitrary
    word-count targets — 6,000–10,000w is venue band, not floor)
-8. tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md (Stage 1
+8. tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md (Stage 1
    doctrine — sub-steps 1a/1b/1c)
 9. publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md
    (RATIFIED Stage 0 verdict — §3 reveal map + §4 per-dimension
@@ -465,7 +465,7 @@ Stage 2 kickoff per the Wave 1 pattern).
 - Stage 0 RATIFIED artifact: `publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md` (commit `d1d3ce5` 2026-05-24)
 - Wave 2 batch Stage 0 (Ch 8 W2.4 contingency context): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` §4.4
 - Reviewed-book bibliography entries: `research/literature/bibliography.md` lines 514 (Mazzucato VoE) + 522 (Pistor *Code*) + 530 (Christophers *TPIW*) + 538 (Susskind *Growth*) + Ch 5 + Ch 9 prose engagement
-- Stage 1 doctrine: `tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`
+- Stage 1 doctrine: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`
 - Marketing-phase memory: `tools/memory/project_book_complete_marketing_phase.md` (load-bearing for this candidate's framing)
 - Cascade plan v2: `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md`
 - Blurb network register: `publishing/blurbs/blurb-network-register.md` (top-4 reviewed authors = top-4 likely-blurbers; Register A discipline IS blurb-network protection)

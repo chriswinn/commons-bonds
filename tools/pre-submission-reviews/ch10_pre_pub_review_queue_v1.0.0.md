@@ -184,7 +184,7 @@ Per author preference, rank-ordered for Ch 10 specifically:
 - Archived pre-ALT canonical (Pass 3.5 restoration source): [`archive/_OneDayMaybe/ch10-variants/Chapter_10_CommonBonds_pre_ALT_audit_2026-05-25.md`](../../archive/_OneDayMaybe/ch10-variants/Chapter_10_CommonBonds_pre_ALT_audit_2026-05-25.md)
 - Cross-chapter consistency inventory (Lakota row + L-2 fix): [`tools/audits/cross-chapter-consistency-inventory_2026-05-11.md`](../audits/cross-chapter-consistency-inventory_2026-05-11.md)
 - Cross-thread-todos (item #16 Fort Monroe coupling): [`publishing/essays/_pipeline/cross-thread-todos.md`](../../publishing/essays/_pipeline/cross-thread-todos.md)
-- Pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) + [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
+- Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) + [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
 - Em-dash discipline: [`tools/memory/feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md)
 - Named-subject consent: [`tools/memory/feedback_named_subject_consent.md`](../memory/feedback_named_subject_consent.md)
 - Memory anchor — grandfather: [`tools/memory/project_authors_grandfather_nasa_inventor.md`](../memory/project_authors_grandfather_nasa_inventor.md) (2 patents verified ground)

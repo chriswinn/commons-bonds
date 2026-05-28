@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-27
 **Status:** **RATIFIED** — author-offline ratification marker per author signal 2026-05-27. Stage 4 render + character-integrity audit completed by author offline (no in-session audit performed by Claude session). Marker artifact established for rigor-pass audit-trail completeness.
-**Pass type:** Stage 4 — Render + character-integrity audit (per brief §13a + pipeline doctrine `tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`).
+**Pass type:** Stage 4 — Render + character-integrity audit (per brief §13a + pipeline doctrine `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`).
 **Workstream:** Atlantic Ideas essay (Ch 9 → Atlantic Ideas cascade per [`publishing/strategy/cascade-plan_2026-05-06.md`](../../publishing/strategy/cascade-plan_2026-05-06.md)).
 **Artifact audited:** [`publishing/essays/atlantic-ideas-pricing-honestly/essay.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/essay.md) (post-Pass-3.5-Phase-C-application state; 99 lines / 4,282w; main HEAD `2581277` at Stage 4 ratification time).
 **Stage 1 brief:** [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`](stage-1-brief.md) (RATIFIED v1.1.4 2026-05-24) — §13a Stage 4 protocol.

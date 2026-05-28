@@ -5,7 +5,7 @@
 **Workstream:** Ch 10 ALT comparative-audit workstream → Pass 3.5 application (final stage before light Pass 3.3 re-fire + Stage 4 + Stage 5).
 
 **Discipline anchors:**
-- Pipeline doctrine [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6 Amendment B 2026-05-18 (Pass 3.5 developmental-edit codified) + §3.7 Amendment C 2026-05-19 (interactive ratification + application combined session).
+- Pipeline doctrine [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6 Amendment B 2026-05-18 (Pass 3.5 developmental-edit codified) + §3.7 Amendment C 2026-05-19 (interactive ratification + application combined session).
 - Comparative draft audit (this session's parent artifact): commit `e41267d`.
 - Audience-aware drafting discipline v3.1: [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md).
 - Em-dash discipline: [`tools/memory/feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md).
@@ -151,7 +151,7 @@ This is the **second comparative-draft case** in the discipline's empirical-anch
 - **Archived Draft A (Pass 3.5 restoration source):** [`archive/_OneDayMaybe/ch10-variants/Chapter_10_CommonBonds_pre_ALT_audit_2026-05-25.md`](../../archive/_OneDayMaybe/ch10-variants/Chapter_10_CommonBonds_pre_ALT_audit_2026-05-25.md) (this session)
 - **Cross-chapter consistency inventory** (Lakota line updated): [`tools/audits/cross-chapter-consistency-inventory_2026-05-11.md`](../audits/cross-chapter-consistency-inventory_2026-05-11.md) (this session)
 - **Cross-thread-todos** (item #16 Fort Monroe added): [`publishing/essays/_pipeline/cross-thread-todos.md`](../../publishing/essays/_pipeline/cross-thread-todos.md) (this session)
-- **Pipeline doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6 Amendment B + §3.7 Amendment C
+- **Pipeline doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6 Amendment B + §3.7 Amendment C
 - **Em-dash discipline:** [`tools/memory/feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md)
 - **Audience-aware drafting discipline:** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)
 

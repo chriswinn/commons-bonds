@@ -26,7 +26,7 @@
 | Stage 5 sign-off | `tools/quality-gates/sign-offs/ch4_stage5_signoff_2026-05-25.md` | RATIFIED (chapter READY-TO-SUBMIT; Pass 3.5 is optional polish, not a ship-blocker) |
 | Ch 9 Pass 3.5 (primary register-match) | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-25_ch9_pricing_honestly_pass_3_5_developmental_edit_v1.0.0.md` | RATIFIED + APPLIED 2026-05-25 (Ch 9 = policy-analytical / institutional-architecture chapter; identical register) |
 | Workstream handoff | `tools/workstream-handoffs/developmental-edit-workstream-handoff_2026-05-18.md` | §1.1 per-finding format + §3.1 two-session (Amendment C) workflow |
-| Pipeline doctrine | `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` | §3.6 Amendment B Pass 3.5 codified + §3.7 Amendment C interactive ratification protocol |
+| Pipeline doctrine | `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` | §3.6 Amendment B Pass 3.5 codified + §3.7 Amendment C interactive ratification protocol |
 | Memory entries | (verified per discipline) | `feedback_audience_aware_drafting_discipline.md` v3.1 Amendment B + Amendment C; `feedback_named_subject_consent.md` public-record exception; `feedback_em_dash_overuse.md` calibration; `feedback_substance_drives_length.md` |
 
 **Verification (per `feedback_verify_stale_memory_claims.md`):**

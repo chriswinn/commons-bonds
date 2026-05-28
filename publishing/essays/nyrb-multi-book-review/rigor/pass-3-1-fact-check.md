@@ -219,7 +219,7 @@ SEQUENCING DISCIPLINE: Pass 3.1 spot-fixes committed on feature branch (end-user
 - Stage 2 draft (PROPOSED → RATIFIED via author bulk-ratify 2026-05-27): [`publishing/essays/nyrb-multi-book-review/essay.md`](../../publishing/essays/nyrb-multi-book-review/essay.md)
 - Stage 1 brief RATIFIED 2026-05-27: [`publishing/essays/nyrb-multi-book-review/rigor/stage-1-brief.md`](stage-1-brief.md)
 - Stage 0 RATIFIED 2026-05-24: [`publishing/essays/nyrb-multi-book-review/rigor/stage-0-ratification.md`](stage-0-ratification.md)
-- v3.1 doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) + Amendments A + B + C
+- v3.1 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) + Amendments A + B + C
 - Cadence discipline: [`tools/memory/feedback_parallel_session_ratification_cadence.md`](../memory/feedback_parallel_session_ratification_cadence.md)
 - Em-dash discipline: [`tools/memory/feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md)
 - Bibliography source-of-truth: [`research/literature/bibliography.md`](../../research/literature/bibliography.md) §13 (Mazzucato line 514+; Pistor line 522+; Christophers line 530+; Susskind line 538+) + secondary entries near line 1000

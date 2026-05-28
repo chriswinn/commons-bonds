@@ -126,7 +126,7 @@ cadence.
 
 ## §2. Doctrine-amendment — RATIFIED 2026-05-18 (Option (a) Pass 3.5 within Stage 3)
 
-**Status update 2026-05-18:** the doctrine-amendment candidate flagged in this section was RATIFIED by author 2026-05-18 — Option (a) "Pass 3.5 within Stage 3" — codified as **pipeline doctrine v1.0.0 Amendment B**. See `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` §3.6 for the formal codification + `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` (v3.1) for the updated five-pass Stage 3 template. Stage 3 is now a five-pass rigor audit: 3.1 → 3.2 → 3.3 → 3.4 → 3.5. Memory entry bumps to v3.1.0 (memory-update spec at `tools/memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md` revised to capture the v3.1.0 framing).
+**Status update 2026-05-18:** the doctrine-amendment candidate flagged in this section was RATIFIED by author 2026-05-18 — Option (a) "Pass 3.5 within Stage 3" — codified as **pipeline doctrine v1.0.0 Amendment B**. See `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` §3.6 for the formal codification + `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` (v3.1) for the updated five-pass Stage 3 template. Stage 3 is now a five-pass rigor audit: 3.1 → 3.2 → 3.3 → 3.4 → 3.5. Memory entry bumps to v3.1.0 (memory-update spec at `tools/memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md` revised to capture the v3.1.0 framing).
 
 Empirical-grounding-recommendation in §2.3 below was OVERRIDDEN — author ratified on Ch 1 single-chapter empirical basis + methodological-clarity argument (Pass 3.2 cuts; Pass 3.5 restores; opposite polarities; folding would lose discipline). Cross-chapter empirical grounding continues via this workstream's per-chapter sessions; if cross-chapter data surfaces material refinements, those land as future amendments (Amendment C, etc.) without disturbing Pass 3.5's codification.
 
@@ -348,7 +348,7 @@ After all 11 per-chapter sessions land + Phase C applications complete
 - **This workstream's first session artifact:**
   [`tools/rigor-passes/ch1_developmental_edit_review_2026-05-18.md`](../rigor-passes/ch1_developmental_edit_review_2026-05-18.md)
 - **Pipeline doctrine:**
-  [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+  [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
   (Amendment A — selective stage-firing — establishes the
   explicit-gate-cascade framework this workstream operates within).
 - **Stage-3 rigor-pass template:**

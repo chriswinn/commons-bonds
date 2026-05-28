@@ -3,7 +3,7 @@
 **Date drafted:** 2026-05-17
 **Branch prefix:** `claude/render-pipeline-standardization-`
 **Status:** PROPOSED — comparison-render baseline in hand from remote-container pre-renders (2026-05-17, BASE `9ffad4e`); awaiting laptop-pipeline-tuning runs during the first 4 retrofit sessions + author's canonical-pipeline decision after tuning rounds plateau. The retrofit Stage-4 dual-render work IS the resumption of the author's laptop-pipeline-improvement effort (Chrome render in progress, hours invested at the time of the Sandy packet send); explicit intent is to give the laptop pipeline another shot at matching or beating the remote-container baseline before any canonical ratification.
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) (Stage 4 §3.3 marks canonical-pipeline question as OPEN pending this workstream)
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) (Stage 4 §3.3 marks canonical-pipeline question as OPEN pending this workstream)
 **Companion / predecessor:** [`publishing-pipeline-handoff_2026-05-11.md`](publishing-pipeline-handoff_2026-05-11.md) (built the original `tools/scripts/build-derivatives.sh` toolchain).
 **Origin trigger:** Author observation 2026-05-17: document conversions performed via remote-container Claude Code sessions are rendering better than the current laptop-side `build-derivatives.sh` toolchain. (Earlier draft of this handoff used the term "remote-container pipeline" — corrected 2026-05-17 late-session after author clarification: the better-rendering output came from past remote-container sessions, specifically the Sandy packet artifacts at `research/outreach/subjects/darity/` generated in commit `e6ddf92`, not from the user's remote-container session.)
 
@@ -52,7 +52,7 @@ Per CLAUDE.md merge-to-main default: this workstream produces a comparison-rende
 ## §2. Read order
 
 1. THIS handoff.
-2. [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) — current Stage 4 doctrine with OPEN canonical-pipeline flag.
+2. [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) — current Stage 4 doctrine with OPEN canonical-pipeline flag.
 3. [`tools/scripts/README.md`](../scripts/README.md) — laptop pipeline documentation (incl. defect-triage section).
 4. [`tools/scripts/build-derivatives.sh`](../scripts/build-derivatives.sh) + [`tools/scripts/build-derivatives-alt.sh`](../scripts/build-derivatives-alt.sh) + [`tools/scripts/fallback-header.tex`](../scripts/fallback-header.tex).
 5. Recent render-related commits surfacing friction:
@@ -142,7 +142,7 @@ Per author's Option-A/B/C ratification:
 | Comparison-render artifacts | `tools/scripts/comparison-renders/<date>/` (file structure TBD per §3.2) |
 | Comparison + diagnosis artifact | `tools/rigor-passes/render_pipeline_comparison_<date>.md` |
 | Canonical-pipeline decision | Author-ratified verdict captured in this handoff's §6 + applied in artifacts below |
-| Updated Stage 4 doctrine §3.3 | `tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md` |
+| Updated Stage 4 doctrine §3.3 | `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md` |
 | Populated build-environment.yaml | `tools/quality-gates/render-baselines/build-environment.yaml` |
 | (If Option A) Tuning commits | `build-derivatives.sh` / `build-derivatives-alt.sh` / `fallback-header.tex` |
 
@@ -196,7 +196,7 @@ To be filled in at session-start author conversation:
 
 ## §8. Cross-references
 
-- Stage 4 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)
+- Stage 4 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)
 - Original publishing pipeline handoff: [`publishing-pipeline-handoff_2026-05-11.md`](publishing-pipeline-handoff_2026-05-11.md)
 - Existing build scripts: [`tools/scripts/build-derivatives.sh`](../scripts/build-derivatives.sh) + `build-derivatives-alt.sh` + `fallback-header.tex`
 - Defect-triage README: [`tools/scripts/README.md`](../scripts/README.md) §"Diagnosing rendering issues"

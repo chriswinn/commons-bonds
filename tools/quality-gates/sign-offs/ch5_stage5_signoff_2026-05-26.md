@@ -21,8 +21,8 @@
 - Stage 4 render-integrity: [`tools/rigor-passes/ch5_stage_4_render_audit_2026-05-26.md`](../../rigor-passes/ch5_stage_4_render_audit_2026-05-26.md) **RATIFIED 2026-05-26 as AUTHOR-COMPLETED-OFFLINE; verdict CLEAN.** Pass 3.5 application is small-scope (2 sentence-level beats + 2 paragraph breaks; new em-dashes within already-render-stable typography); §8.3 of this sign-off bundles Stage 4 re-ratification per post-Pass-3.5 state.
 - Cross-chapter rent-seeking workstream (RATIFIED 2026-05-18; Ch 5 line 184 touch landed `a1e54d9`): [`tools/workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](../../workstream-handoffs/cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md).
 - Pass 3.4 cross-chapter workstream candidates (PM disposition pending): cross-thread-todos #17 (Ch 9 Pass 3.4 verification) + #18 (Orthodox-Econ Engagement Workstream) + #19 (Agency-Conditional-on-Information Naming Workstream).
-- Pipeline doctrine v3.1: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_v1.0.0.md).
-- Stage 5 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md).
+- Pipeline doctrine v3.1: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md).
+- Stage 5 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md).
 - Ch 5 pipeline-retrofit handoff: [`tools/workstream-handoffs/ch5-pipeline-retrofit-handoff_2026-05-17.md`](../../workstream-handoffs/ch5-pipeline-retrofit-handoff_2026-05-17.md).
 
 ---

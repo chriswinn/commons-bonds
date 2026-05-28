@@ -12,7 +12,7 @@
 
 **Stage 3 template scope:** [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.4 — Audience-load (robustness)" — verdict scale (⚠ / ⚠⚠ / ⚠⚠⚠ EXCLUDE only; NEUTRAL + INCLUDE out of scope); diagnostic is thread-pull-synthesis not per-character-pass/fail; final verdict ROBUST / CONDITIONALLY ROBUST / REQUIRES STRUCTURAL ENGAGEMENT.
 
-**Pipeline-doctrine cross-reference:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7.1 (Pass 3.4 outside Amendment C scope; PROPOSED auto-merges to main per CLAUDE.md rigor-pass default).
+**Pipeline-doctrine cross-reference:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7.1 (Pass 3.4 outside Amendment C scope; PROPOSED auto-merges to main per CLAUDE.md rigor-pass default).
 
 ---
 
@@ -35,7 +35,7 @@ Pass 3.4 measures the essay's adversarial-robustness AT ESSAY SCOPE. Cross-chapt
 5. [`publishing/essays/noema-commons-bonds/rigor/pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md) (Pass 3.2 — voice-polish baseline; F-V-Noema-9 A3 preserved no-villain framing specifically for adversarial-robustness)
 6. [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) §5.3 thread-pull synthesis (canonical adversarial-pass diagnostic format)
 7. [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.4"
-8. [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7.1 (Amendment C scope verification)
+8. [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7.1 (Amendment C scope verification)
 9. Memory: [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) (v3.1 discipline; adversarial-set construction; thread-pull synthesis as diagnostic)
 
 ---

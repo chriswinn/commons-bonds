@@ -5,7 +5,7 @@
 **Artifact:** Author's Note (`manuscript/chapters/_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md` — 35 lines)
 **Status going in:** Drafted; not previously through Phase A rigor cycle.
 **Template:** [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 
 ---
 
@@ -47,7 +47,7 @@ Per the retrofit table in [`README.md`](README.md): **Full new pipeline applicat
 
 ## §4. Cross-references
 
-- Pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+- Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 - Retrofit template: [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
 - AI disclosure master text: `publishing/essays/_shared/templates/ai-disclosure-paragraph.md`
 - Ch 1 retrofit handoff: [`ch1-pipeline-retrofit-handoff_2026-05-17.md`](ch1-pipeline-retrofit-handoff_2026-05-17.md)

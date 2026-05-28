@@ -16,7 +16,7 @@ You are running **Stage 2 of the v3.1 audience-aware drafting discipline** for t
 
 == Critical experimental constraint — read this first ==
 
-**You are Stage 2 of a methodology that depends on you not reading the source chapter.** The discipline being applied is canonical pipeline doctrine v1.0.0 + Amendments B + C (`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`; supersedes the v2.0 memory file). Your job is **Stage 2 only — flow-draft, audience-blind.** You will not run a Stage 3 rigor pass on your own draft.
+**You are Stage 2 of a methodology that depends on you not reading the source chapter.** The discipline being applied is canonical pipeline doctrine v1.0.0 + Amendments B + C (`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`; supersedes the v2.0 memory file). Your job is **Stage 2 only — flow-draft, audience-blind.** You will not run a Stage 3 rigor pass on your own draft.
 
 **The load-bearing constraint:** Do NOT open the following files as source texts:
 
@@ -32,7 +32,7 @@ You may glance at any of these files for **narrow fact verification** (a single 
 1. THIS paste (the framing).
 2. **THE Stage 1 brief** — `publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md` (RATIFIED v1.1.0 2026-05-21; §§1–16 contain everything Stage 2 needs).
 3. `tools/workstream-handoffs/atlantic-ideas-essay-handoff_2026-05-19.md` (workstream context).
-4. `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` (canonical pipeline doctrine; v3.1 architecture).
+4. `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` (canonical pipeline doctrine; v3.1 architecture).
 5. `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md` (memory file is v3.0 base + Amendment A and ~3 days stale of canonical doctrine; the pipeline doctrine artifact above is authoritative).
 6. `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_named_subject_consent.md` (named-subject discipline; this essay carries few named living subjects — Ch 9 frame is mechanism/policy, not memoir — but apply discipline if any surface).
 7. `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_voice_polish_pipeline.md` (dump → sift → polish).

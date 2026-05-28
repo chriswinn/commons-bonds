@@ -31,7 +31,7 @@ A dimension that helps the piece land but hurts a book-success criterion tilts H
 - `tools/memory/feedback_pm_dashboard_structure.md` (v2.0)
 - `tools/memory/feedback_verify_stale_memory_claims.md`
 - `tools/memory/feedback_named_subject_consent.md` (n/a here — review-essay subject is published author Christophers, public-record by definition)
-- `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` (Stage 0–5 + Amendments)
+- `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` (Stage 0–5 + Amendments)
 - `tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`
 - `tools/workstream-handoffs/pm-session-handoff_2026-05-24.md` (current state; submission queue; ratification bandwidth analysis)
 - `publishing/strategy/cascade-plan_v2_2026-05-24.md` (PROPOSED; Wave 2 architecture + cascade chains)
@@ -569,7 +569,7 @@ SEQUENCING DISCIPLINE: When ALL three triggers fire, fire fresh Stage 0 re-test 
 - `publishing/strategy/rights-register.md`
 
 **Doctrine + memory:**
-- `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + Amendments A + B + C
+- `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` + Amendments A + B + C
 - `tools/memory/feedback_audience_aware_drafting_discipline.md` (v3.1)
 - `tools/memory/feedback_parallel_session_ratification_cadence.md` (one-finding-at-a-time discipline + cognitive-saturation signal protocol)
 - `tools/memory/feedback_pm_dashboard_structure.md` (v2.0)

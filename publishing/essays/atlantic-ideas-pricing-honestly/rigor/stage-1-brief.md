@@ -346,7 +346,7 @@ The pitch is a separate deliverable from the essay, produced *after* the Stage 2
 
 ## 13. Stage 3 protocol — five passes (v3.1 doctrine, Amendment B ratified 2026-05-18)
 
-Per pipeline doctrine v1.0.0 + Amendment B 2026-05-18 — **five distinct passes**, five distinct prompts, per-prompt serial cadence. Author ratifies + spot-fixes apply between passes per Amendment C per-finding interactive ratification format. Replaces v1.0.0 brief's three-pass Stage 3 (v2.0 Amendment B). Canonical reference: `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`.
+Per pipeline doctrine v1.0.0 + Amendment B 2026-05-18 — **five distinct passes**, five distinct prompts, per-prompt serial cadence. Author ratifies + spot-fixes apply between passes per Amendment C per-finding interactive ratification format. Replaces v1.0.0 brief's three-pass Stage 3 (v2.0 Amendment B). Canonical reference: `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`.
 
 ### Pass 3.1 — Fact-check
 
@@ -405,7 +405,7 @@ Focus items for this essay:
 
 ## 13a. Stage 4 — Render + character-integrity audit
 
-Per pipeline doctrine v1.0.0 Stage 4 (`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`). After Stage 3 five-pass closes, render the essay to its submission-format outputs (Word doc + PDF for Atlantic email submission; markdown source as canonical) and audit for character-integrity issues — em-dash rendering; ≈ / ± rendering; Unicode em-dashes vs. ASCII hyphens; quote-mark consistency (curly vs. straight); accented characters (Mondragon's Arizmendiarrieta; Saltsjöbaden; Baotou); section-break rendering.
+Per pipeline doctrine v1.0.0 Stage 4 (`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`). After Stage 3 five-pass closes, render the essay to its submission-format outputs (Word doc + PDF for Atlantic email submission; markdown source as canonical) and audit for character-integrity issues — em-dash rendering; ≈ / ± rendering; Unicode em-dashes vs. ASCII hyphens; quote-mark consistency (curly vs. straight); accented characters (Mondragon's Arizmendiarrieta; Saltsjöbaden; Baotou); section-break rendering.
 
 Atlantic Ideas-specific render targets:
 - **Markdown source** — canonical at `publishing/essays/atlantic-ideas-pricing-honestly/atlantic-ideas-essay-fresh-session-draft_<DATE>.md` post-Stage-3 edits applied.
@@ -418,7 +418,7 @@ Atlantic Ideas-specific render targets:
 
 ## 13b. Stage 5 — Academic-rigor + prose-quality sign-off bookend + pre-publication review queue
 
-Per pipeline doctrine v1.0.0 Stage 5 (`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`). After Stage 4 closes, bookend sign-off verifies no drift through the pipeline from Stage 1 brief assumptions. Two sign-offs:
+Per pipeline doctrine v1.0.0 Stage 5 (`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`). After Stage 4 closes, bookend sign-off verifies no drift through the pipeline from Stage 1 brief assumptions. Two sign-offs:
 - **Academic-rigor sign-off** — verifies facts, citations, named-tradition engagement, comp-titles cluster fluency all held through Stage 3 → Stage 4 transitions.
 - **Prose-quality sign-off** — verifies voice register from §5 + apparatus exclusion from §6 held through Stage 3 → Stage 4 transitions.
 
@@ -453,7 +453,7 @@ Per pipeline doctrine v1.0.0 Stage 5 (`tools/commons_bonds_pipeline_doctrine_sta
 
 If a Stage 0 pass is fired retrospectively (e.g., to surface a venue-fit concern or a non-partisan-framing gap not yet captured), update this brief's §1 audience pressure-test set + §14 hard constraints accordingly. The Boston Review workstream's Stage 0 rigor pass (commit `419f916`) is the canonical Stage 0 model for the essay-cluster going forward.
 
-**Stage 1 — three sub-steps per pipeline doctrine v1.0.0 §"Stage 1" (`tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`):**
+**Stage 1 — three sub-steps per pipeline doctrine v1.0.0 §"Stage 1" (`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`):**
 
 - **1a — invariant-gate scan (scaffolding + regressed-pattern).** Corpus-wide automated scan via `tools/scripts/check-corpus-invariants.sh` using `tools/quality-gates/scaffolding-patterns.yaml` + `tools/quality-gates/regressed-patterns.yaml`. NOT specific to this brief; pre-commit hook coverage ensures the brief itself doesn't carry scaffolding leakage. Verified clean at v1.1.0 commit time (no process-scaffolding vocabulary in body prose; "Pass 1" / "Phase C" / "Stage 3" references are properly contextualized as protocol references, not regressed-pattern leakage).
 - **1b — substantive (this brief).** The bulk of §§1–14 above functions as the v3.1 Stage 1b substantive pre-draft work: audience pressure-test set, editorial-brain map, comp-titles cluster, structural decisions, voice register, apparatus exclusion list, canonical-facts inventory, Path B preemptive policy, hard constraints. This is the load-bearing artifact Stage 2 reads.
@@ -475,10 +475,10 @@ If a Stage 0 pass is fired retrospectively (e.g., to surface a venue-fit concern
 - **Source chapter:** `manuscript/chapters/Chapter__9_PricingHonestly.md` — **Pass 1 Phase C RATIFIED + APPLIED 2026-05-19 (commit `4c8bc02`); Pass 2 Phase C RATIFIED + APPLIED 2026-05-20 (commit `78a26c2`)** — sequencing gate "wait for Ch 9 Pass 2" satisfied.
 - **v3.1 discipline memory:** `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md` (mirrored at `tools/memory/feedback_audience_aware_drafting_discipline.md`) — v3.0 base + Amendment A; per cross-thread #14 partially-resolved, the memory file is 2+ days stale of canonical doctrine (Pass 3.5 + Amendment C codifications had not yet been synced to memory at the time of last update). **Authoritative canonical doctrine** lives at the pipeline doctrine artifacts below:
 - **v3.1 canonical doctrine artifacts:**
-  - `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` — full pipeline architecture
-  - `tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md` — Stage 1 1a/1b/1c sub-step framing
-  - `tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md` — Stage 4 render + character-integrity audit
-  - `tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md` — Stage 5 sign-off bookend + pre-publication review queue artifact
+  - `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` — full pipeline architecture
+  - `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md` — Stage 1 1a/1b/1c sub-step framing
+  - `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md` — Stage 4 render + character-integrity audit
+  - `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md` — Stage 5 sign-off bookend + pre-publication review queue artifact
 - **Cross-thread state (per `publishing/essays/_pipeline/cross-thread-todos.md` 2026-05-21 refresh):**
   - **#4 RESOLVED** 2026-05-19 (Atlantic Ideas vs. PW dual-fire; this workstream is the Atlantic Ideas arm).
   - **#5 + #6 RESOLVED** with v2.0 → v3.1 supersession noted.

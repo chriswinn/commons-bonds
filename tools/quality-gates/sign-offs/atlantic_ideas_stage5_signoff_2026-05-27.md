@@ -5,7 +5,7 @@
 **Stage:** Stage 5 bookend pre-publication sign-off (the symmetric pair to Stage 1 ready-to-draft ratification per pipeline doctrine v1.0.0 Stage 5 §0 + brief §13b).
 **Artifact under sign-off:** [`publishing/essays/atlantic-ideas-pricing-honestly/essay.md`](../../../publishing/essays/atlantic-ideas-pricing-honestly/essay.md) — 99 lines / 4,272 words at post-Stage-5-revert state (commit `6e27090` 2026-05-27). Essay has absorbed Phase C application of all Stage 3 five-pass spot-fixes PLUS Stage-5-surfaced Option 1 revert of F-DE-Atlantic-1 architectural-deviation-from-Ch-9-canonical.
 **Stage 1 brief:** [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md`](../../../publishing/essays/atlantic-ideas-pricing-honestly/rigor/stage-1-brief.md) (RATIFIED v1.1.4 2026-05-24).
-**Pipeline doctrine:** [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md).
+**Pipeline doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md).
 **Path B compliance:** Ch 9 source-chapter prose not opened during Stage 5; only targeted grep for sequence-vocabulary patterns (`four moves`, `five moves`, `classify`, `reserve`, `invest`, `reassess`) to verify book canonical architecture. Sibling essay drafts not opened.
 
 ---

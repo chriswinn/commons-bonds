@@ -391,7 +391,7 @@ The other Stage 1 brief §5 categories ("in short / ultimately / fundamentally";
 - **Prior pass (Pass 3.1 fact-check + Phase C):** [`pass-3-1-fact-check.md`](pass-3-1-fact-check.md); Phase C application commit `cf5db97`
 - **Comparative draft audit (input):** [`stage-3-comparative-draft-audit.md`](stage-3-comparative-draft-audit.md) §8.3
 - **v3.1 discipline reference:** [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md)
-- **Pipeline doctrine (Pass 3.2 polarity spec):** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6.2
+- **Pipeline doctrine (Pass 3.2 polarity spec):** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6.2
 
 ---
 

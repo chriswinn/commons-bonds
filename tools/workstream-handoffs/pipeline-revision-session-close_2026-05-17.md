@@ -35,7 +35,7 @@ Five doctrine-cluster commits + one infrastructure-expansion commit + one stubs 
 | 5 | Pre-publication review queue mandatory at Stage 5 | **CONFIRMED.** |
 | 6 | Bookend sign-offs (academic-rigor + prose-quality at Stage 1 + Stage 5) | **CONFIRMED: both at both.** |
 | 7 | YAML registry format | RATIFIED at brainstorm. |
-| 8 | Versioning approach | **CONFIRMED hybrid:** memory entry v3.0 summary + pointer; full doctrine in new canonical artifact at `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`. |
+| 8 | Versioning approach | **CONFIRMED hybrid:** memory entry v3.0 summary + pointer; full doctrine in new canonical artifact at `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`. |
 | 9 | Retrofit-all-chapters | RATIFIED at brainstorm; 13 retrofit handoff stubs produced (Ch 1-10 + TA + AuthorsNote + Dedication). |
 | 10 | External-reviewer policy | RATIFIED at brainstorm. |
 | 11 | Cross-chapter workstream lifecycle | **CONFIRMED six-step lifecycle.** |
@@ -47,10 +47,10 @@ All 11 ratified.
 ## §3. Artifacts delivered (per pipeline-revision handoff §4)
 
 ### Doctrine cluster
-- ✅ `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` — canonical reference
-- ✅ `tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md` — Stage 1 three-step
-- ✅ `tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md` — render-integrity
-- ✅ `tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md` — sign-off + pre-pub queue
+- ✅ `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` — canonical reference
+- ✅ `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md` — Stage 1 three-step
+- ✅ `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md` — render-integrity
+- ✅ `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md` — sign-off + pre-pub queue
 
 ### Template revisions
 - ✅ `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` — v3.0 four-pass framing
@@ -134,7 +134,7 @@ For the next PM session that picks up sequencing of retrofit workstreams + the c
 ## §8. Cross-references
 
 - Pre-session handoff: [`pipeline-revision-handoff_2026-05-17.md`](pipeline-revision-handoff_2026-05-17.md) (the source of the workstream)
-- Canonical doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+- Canonical doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 - Cross-chapter rent-seeking workstream: [`cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md`](cross-chapter-rent-seeking-engagement-handoff_2026-05-17.md)
 - Retrofit template: [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
 - Memory-update spec: [`tools/memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md`](../memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md)

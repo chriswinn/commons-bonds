@@ -536,7 +536,7 @@ After downstream chapter Stage 5 firings:
 - Ch 6 Stage 5 (canonical chapter-class template precedent): [`tools/quality-gates/sign-offs/ch6_stage5_signoff_2026-05-25.md`](ch6_stage5_signoff_2026-05-25.md)
 - Ch 2 Stage 5 (Stage-4-bundled-into-Stage-5 ratification-appendix precedent): [`tools/quality-gates/sign-offs/chapter-2_stage5_signoff_2026-05-25.md`](chapter-2_stage5_signoff_2026-05-25.md)
 - TA Stage 5 (paratext-class precedent): [`tools/quality-gates/sign-offs/ta_stage5_signoff_2026-05-20.md`](ta_stage5_signoff_2026-05-20.md)
-- Stage 5 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
+- Stage 5 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
 - Named-subject consent memory: [`tools/memory/feedback_named_subject_consent.md`](../../memory/feedback_named_subject_consent.md)
 - Audience-aware drafting discipline memory (v3.1): [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../../memory/feedback_audience_aware_drafting_discipline.md)
 

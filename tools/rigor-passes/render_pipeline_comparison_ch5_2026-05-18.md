@@ -148,7 +148,7 @@ Ch 5 line 232 contains the Method 1 / 2 / 3 run-in subhead set within a single s
 …**Method 1 — Replacement Cost** (here: remediation cost rather than substitute-engineering cost); **Method 2 — Revealed Preference** (here: revealed restitution rather than revealed restraint); **Method 3 — Scarcity-Adjusted Option Value** (here: the option value extinguished at the time of past extraction, evaluable from what we know now).
 ```
 
-This is the **load-bearing em-dash-in-bold test for Ch 5** — EB Garamond 12-Bold lacks U+2014 per [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) §3.3 known-coverage-gaps; without the `fallback-header.tex` mapping, the em-dashes inside the bold runs would tofu-box. The Ch 1 retrofit deferred this test to Ch 5 (Ch 1 had no bolded em-dashes).
+This is the **load-bearing em-dash-in-bold test for Ch 5** — EB Garamond 12-Bold lacks U+2014 per [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) §3.3 known-coverage-gaps; without the `fallback-header.tex` mapping, the em-dashes inside the bold runs would tofu-box. The Ch 1 retrofit deferred this test to Ch 5 (Ch 1 had no bolded em-dashes).
 
 **Result:**
 
@@ -314,8 +314,8 @@ The Ch 5 data weighs (in addition to Ch 1's pattern):
 - Retrofit handoff stub: [`tools/workstream-handoffs/ch5-pipeline-retrofit-handoff_2026-05-17.md`](../workstream-handoffs/ch5-pipeline-retrofit-handoff_2026-05-17.md)
 - Retrofit template: [`tools/workstream-handoffs/pipeline-retrofit-template_2026-05-17.md`](../workstream-handoffs/pipeline-retrofit-template_2026-05-17.md)
 - Standardization workstream: [`tools/workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md`](../workstream-handoffs/render-pipeline-standardization-handoff_2026-05-17.md)
-- Pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
-- Stage 4 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)
+- Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
+- Stage 4 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md)
 - Build-environment stamp: [`tools/quality-gates/render-baselines/build-environment.yaml`](../quality-gates/render-baselines/build-environment.yaml)
 - Ch 5 Stage 1a clean-baseline (this session): [`tools/quality-gates/clean-baselines/ch5_stage1a_2026-05-18.md`](../quality-gates/clean-baselines/ch5_stage1a_2026-05-18.md)
 - Ch 5 Stage 1c coherence-check (this session): [`tools/quality-gates/coherence-checks/ch5_stage1c_2026-05-18.md`](../quality-gates/coherence-checks/ch5_stage1c_2026-05-18.md)

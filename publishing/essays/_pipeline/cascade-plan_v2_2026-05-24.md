@@ -325,7 +325,7 @@ Final-5 selection rule (per cascade-plan v1 update 2026-05-08): Mazzucato + Pist
 - `publishing/essays/_pipeline/rights-register.md` — rights-status per piece (Aeon 5-yr digital + 1-yr print; Noema no-overlap).
 
 **Doctrine + memory:**
-- `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` + Amendments A/B/C.
+- `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` + Amendments A/B/C.
 - `tools/memory/feedback_audience_aware_drafting_discipline.md` (v3.1).
 - `tools/memory/feedback_pm_dashboard_structure.md` (v2.0).
 - `tools/memory/feedback_named_subject_consent.md` (living + deceased + public-record exception + Phat worked example 2026-05-20).
@@ -336,9 +336,9 @@ Final-5 selection rule (per cascade-plan v1 update 2026-05-08): Mazzucato + Pist
 - `core/terms/terms_index.md` §3 (apparatus inventory).
 
 **Pipeline doctrine stage docs:**
-- `tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`.
-- `tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`.
-- `tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`.
+- `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`.
+- `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`.
+- `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`.
 
 **Stage 0 worked examples + this batch:**
 - `publishing/essays/100-barrel/rigor/q1-go-no-go.md` — canonical $100 Barrel worked example.

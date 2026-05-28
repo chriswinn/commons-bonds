@@ -178,7 +178,7 @@ Before the Stage 2 audience-blind drafting session fires:
 ## §9. Cross-references
 
 - [`../../tools/workstream-handoffs/pm-session-handoff_2026-05-18.md`](../../tools/workstream-handoffs/pm-session-handoff_2026-05-18.md) — PM dashboard.
-- [`../../tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../../tools/commons_bonds_pipeline_doctrine_v1.0.0.md) — pipeline doctrine.
+- [`../../tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../../tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) — pipeline doctrine.
 - [`../../tools/memory/feedback_audience_aware_drafting_discipline.md`](../../tools/memory/feedback_audience_aware_drafting_discipline.md) — v2.0 two-stage discipline.
 - [`../../tools/memory/feedback_named_subject_consent.md`](../../tools/memory/feedback_named_subject_consent.md) — consent discipline.
 - [`../../tools/memory/feedback_substance_drives_length.md`](../../tools/memory/feedback_substance_drives_length.md) — substance-drives-length rule.

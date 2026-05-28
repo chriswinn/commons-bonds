@@ -348,7 +348,7 @@ Per Stage 5 doctrine §7 hard constraint — items that should be refreshed at s
 - Stage 1c D-3 sibling-coherence-check: [`tools/rigor-passes/commons_bonds_stage_1c_coherence_check_2026-05-25_ch5_ta_public_choice_sibling_v1.0.0.md`](../rigor-passes/commons_bonds_stage_1c_coherence_check_2026-05-25_ch5_ta_public_choice_sibling_v1.0.0.md) — `06eb1ea` (D-3a MacLean consolidation across Ch 5 + Ch 9 + TA §1.10; extended to Ch 8:122 via Pass 3.4 T3 Phase C-γ `6125a4e`)
 - Stage 5 sign-off (this pre-pub-queue's companion): [`tools/quality-gates/sign-offs/ch8_stage5_signoff_2026-05-26.md`](../quality-gates/sign-offs/ch8_stage5_signoff_2026-05-26.md) — PASS RATIFIED 2026-05-26
 - Cousin pre-pub queues (format calibration): [`tools/pre-submission-reviews/ch7_pre_pub_review_queue_v1.0.0.md`](ch7_pre_pub_review_queue_v1.0.0.md) (analytical-register cousin) + [`tools/pre-submission-reviews/ch9_pre_pub_review_queue_v1.0.0.md`](ch9_pre_pub_review_queue_v1.0.0.md) (adjacent-chapter; Reading C v3 cousin) + [`tools/pre-submission-reviews/ch5_pre_pub_review_queue_v1.0.0.md`](ch5_pre_pub_review_queue_v1.0.0.md) (post-Phase-C-δ bundled-closure precedent)
-- Stage 5 doctrine: [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
+- Stage 5 doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md)
 - Stage 5 precedents: TA `2d01407` (2026-05-20); Ch 6 `533f4f6` (2026-05-25); Ch 1 `906a204` (2026-05-25); Ch 2 `cd2c76d` (2026-05-25); Ch 4 `2026-05-25`; Ch 9 `2026-05-25`; Ch 3 `2026-05-26`; Ch 5 `3a4f774` (2026-05-26); Ch 7 `b37aa46` + `2026-05-26` (re-ratified post-Phase-C-δ)
 
 ---

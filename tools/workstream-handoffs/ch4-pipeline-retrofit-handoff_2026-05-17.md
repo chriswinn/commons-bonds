@@ -5,7 +5,7 @@
 **Chapter:** Ch 4 — *The Existence Proof* (`manuscript/chapters/Chapter__4_THEEXISTENCEPROOF__Draft.md`)
 **Status going in:** Pass 1 PROPOSED 2026-05-12; Pass 2 PROPOSED 2026-05-15 (commit `3174cc8`). Neither RATIFIED + APPLIED.
 **Template:** [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 
 ---
 
@@ -47,7 +47,7 @@ Sub-steps to fire this session:
 
 ## §4. Cross-references
 
-- Pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+- Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 - Retrofit template: [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
 - Pass 2 PROPOSED commit: `3174cc8`
 - TA verification round (canonical Norway anchors): `tools/rigor-passes/tech_appendix_verification_round_2026-05-14.md`

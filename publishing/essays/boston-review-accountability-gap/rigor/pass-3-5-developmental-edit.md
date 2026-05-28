@@ -40,7 +40,7 @@ Beyond the six forward-pointers, the audit runs the whole-essay restoration lens
 5. Pass 3.2 voice-polish artifact [`publishing/essays/boston-review-accountability-gap/rigor/pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md) — context (status RESOLVED; F-3.2-3 + F-3.2-14 forward-pointers carried).
 6. Pass 3.3 audience-load artifact [`publishing/essays/boston-review-accountability-gap/rigor/pass-3-3-audience-load.md`](pass-3-3-audience-load.md) — context (status PASS; C-6 + C-7 + C-15 + C-12 optional forward-pointers carried).
 7. Aeon essay carry-forward inventory [`publishing/essays/aeon-mask-of-abundance/carry-forward-inventory.md`](../../publishing/essays/aeon-mask-of-abundance/carry-forward-inventory.md) Entry #1 — **read for context only**; no verbatim text pasted. Path B cross-essay extension constraint observed.
-8. Pipeline doctrine [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6 — Pass 3.5 codification (Amendment B ratification; restoration polarity; whole-chapter/whole-essay scale; six lens categories).
+8. Pipeline doctrine [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.6 — Pass 3.5 codification (Amendment B ratification; restoration polarity; whole-chapter/whole-essay scale; six lens categories).
 
 **Ch 5 (`manuscript/chapters/Chapter__5_TheAccountabilityGap.md`) was NOT opened.** Path B preemptive policy holds.
 **Aeon Entry #1 verbatim passage was NOT pasted into proposed BR prose.** Path B cross-essay extension holds.

@@ -9,7 +9,7 @@ Acceptance + robustness are **two distinct tests** with different character sets
 - **Acceptance set** (Pass 3.3): target audiences whose No vote kills the piece (Tier 1) + whose Yes vote amplifies (Tier 2) + whose experience the piece engages (Tier 3). Typically 15-25 characters. Verdict: per-character INCLUDE / NEUTRAL / EXCLUDE.
 - **Adversarial set** (Pass 3.4): characters who will TRY to unwind the artifact (industry-funded; predisposed-hostile-by-financial-incentive; ideologically-opposed; trade-press hostile reviewer; etc.). Typically 5-10 characters. Verdict: thread-pull synthesis (the diagnostic is which threads adversarial readers find, NOT pass/fail per character).
 
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) — see §1 (Stage 3 sub-pass structure) + the canonical Ch 1 REAUDIT v3 example for the 3.3/3.4 split's verdict format.
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) — see §1 (Stage 3 sub-pass structure) + the canonical Ch 1 REAUDIT v3 example for the 3.3/3.4 split's verdict format.
 
 **Canonical examples to mirror:**
 - 14-character set (Noema essay; acceptance-only model): `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md` §1

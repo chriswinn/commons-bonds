@@ -2,8 +2,8 @@
 
 **Date drafted:** 2026-05-17
 **Status:** PROPOSED — pending author ratification at session close.
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](commons_bonds_pipeline_doctrine_v1.0.0.md) §1 + §7
-**Related directory:** [`tools/pre-submission-reviews/`](pre-submission-reviews/) (existing pre-submission review artifacts; pre-publication review queue artifacts will live here too).
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](commons_bonds_pipeline_doctrine_v1.0.0.md) §1 + §7
+**Related directory:** [`tools/pre-submission-reviews/`](../pre-submission-reviews/) (existing pre-submission review artifacts; pre-publication review queue artifacts will live here too).
 
 ---
 

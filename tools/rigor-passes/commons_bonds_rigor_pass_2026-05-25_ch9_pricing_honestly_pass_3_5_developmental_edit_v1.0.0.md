@@ -516,13 +516,13 @@ Post-application sentence:
 
 **Stage 4 (render + character-integrity audit) — RATIFIED 2026-05-25 as author-managed-offline disposition.**
 
-Per pipeline doctrine v1.0.0 + [feedback_audience_aware_drafting_discipline.md](../memory/feedback_audience_aware_drafting_discipline.md) v3.0: Stage 4 (render + character-integrity audit) is pipeline-side; runs when chapter readies for distribution. Per [tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md): render-toolchain containerization (Docker / remote-container) drove Stage 4 Claude-token cost to ~0; author manages the render pipeline directly without agent involvement.
+Per pipeline doctrine v1.0.0 + [feedback_audience_aware_drafting_discipline.md](../memory/feedback_audience_aware_drafting_discipline.md) v3.0: Stage 4 (render + character-integrity audit) is pipeline-side; runs when chapter readies for distribution. Per [tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md): render-toolchain containerization (Docker / remote-container) drove Stage 4 Claude-token cost to ~0; author manages the render pipeline directly without agent involvement.
 
 **Precedent established by Ch 2 (commit `9bddbd2`, 2026-05-24) + Ch 6 (commit `533f4f6`, 2026-05-25) + Ch 1 (commit `906a204`, 2026-05-25) + TA (commit `2d01407`, 2026-05-20):** Stage 4 ratifies as author-managed-offline marker rather than as Claude-agent-generated artifact. Author ran Ch 9 through the render pipeline offline; render output verified clean; ratification = marker.
 
 ### §9.2 What Stage 4 author-offline ratification covers
 
-Per [pipeline doctrine stage 4](../commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) author-managed-offline scope:
+Per [pipeline doctrine stage 4](../pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) author-managed-offline scope:
 
 - **Render correctness** — chapter renders to HTML / PDF / DOCX without errors; em-dash + ≈ + Greek-letter + subscript characters render correctly; book-title italicization preserved; hyperlinks resolve.
 - **Character-integrity audit** — no apparatus residue, no scaffolding tokens, no truncation; font-family + typography preserved; render-target-specific edge cases handled.

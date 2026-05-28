@@ -22,7 +22,7 @@
 
 **High-priority migration candidates** (highest citation counts; load-bearing for current rigor-pass + workstream-handoff infrastructure):
 
-1. `feedback_audience_aware_drafting_discipline.md` (34 cites) — already wired to canonical doctrine artifact via hybrid versioning per §8 of `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`; migration moves the v3.0 summary into git.
+1. `feedback_audience_aware_drafting_discipline.md` (34 cites) — already wired to canonical doctrine artifact via hybrid versioning per §8 of `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`; migration moves the v3.0 summary into git.
 2. `feedback_named_subject_consent.md` (30 cites) — already referenced by filename from `CLAUDE.md` line 53; named subjects (Phat / Biggie / Colden) already appear in repo under `research/outreach/subjects/`, so migration adds no new subject exposure.
 3. `feedback_substance_drives_length.md` (21 cites) — pure drafting discipline; no sensitive content.
 4. `feedback_verify_stale_memory_claims.md` (18 cites) — memory-hygiene discipline applied to every memory read.
@@ -49,7 +49,7 @@ Length column reports rough `wc -l` per the live local files. Citation column co
 
 | File | Lines | Last modified | Cited by | Verdict | Rationale | Proposed repo path | Hybrid-versioning note |
 |---|---|---|---|---|---|---|---|
-| `feedback_audience_aware_drafting_discipline.md` | ~245 (post-v3.0) | 2026-05-17 (Part A this session) | 34 across doctrine + rigor-passes + handoffs + drafting-templates | **MIGRATE** | Highest citation density; hybrid versioning already ratified per ratified decision #8 (2026-05-17); the memory entry IS the scan-friendly summary layer, the canonical full architecture is `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`. Migration puts the scan-friendly layer in git alongside the doctrine layer. | `tools/memory/feedback_audience_aware_drafting_discipline.md` | **Doctrine-side artifact already exists** — `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` is canonical full architecture; migrated memory file is scan-friendly summary. Future updates flow through `tools/memory-updates/` specs (established convention). |
+| `feedback_audience_aware_drafting_discipline.md` | ~245 (post-v3.0) | 2026-05-17 (Part A this session) | 34 across doctrine + rigor-passes + handoffs + drafting-templates | **MIGRATE** | Highest citation density; hybrid versioning already ratified per ratified decision #8 (2026-05-17); the memory entry IS the scan-friendly summary layer, the canonical full architecture is `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`. Migration puts the scan-friendly layer in git alongside the doctrine layer. | `tools/memory/feedback_audience_aware_drafting_discipline.md` | **Doctrine-side artifact already exists** — `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` is canonical full architecture; migrated memory file is scan-friendly summary. Future updates flow through `tools/memory-updates/` specs (established convention). |
 | `feedback_named_subject_consent.md` | 17 | 2026-05-12 | 30 across rigor-passes + outreach-subject files + handoffs | **MIGRATE** | Already referenced from `CLAUDE.md` line 53 by filename. Discipline applies across all sessions. Subjects named in the file (Phat / Biggie) already appear in `research/outreach/subjects/` so migration adds no new git exposure. Should hold consistently mobile + laptop. | `tools/memory/feedback_named_subject_consent.md` | Memory file IS canonical — no separate doctrine artifact needed. Consider moving the CLAUDE.md §"Named-subject consent" reference to point at `tools/memory/feedback_named_subject_consent.md` instead of by bare filename. |
 | `feedback_substance_drives_length.md` | 17 | 2026-05-02 | 21 across rigor-passes + handoffs | **MIGRATE** | Pure drafting discipline; widely cited. Applies to every chapter session. No sensitive content. | `tools/memory/feedback_substance_drives_length.md` | Memory file IS canonical. |
 | `feedback_verify_stale_memory_claims.md` | 23 | 2026-05-10 | 18 across rigor-passes + handoffs + memory entries | **MIGRATE** | Meta-discipline about memory reads; companion to harness staleness reminder. Cross-cutting; should hold consistently mobile + laptop. | `tools/memory/feedback_verify_stale_memory_claims.md` | Memory file IS canonical. |
@@ -105,7 +105,7 @@ mobile sessions + future collaborators can read via the repo.
 High-touch files (cite this directly when applicable):
 
 - `tools/memory/feedback_audience_aware_drafting_discipline.md` — v3.0 pipeline
-  doctrine summary; full architecture at `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`.
+  doctrine summary; full architecture at `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`.
 - `tools/memory/feedback_named_subject_consent.md` — naming defaults for living /
   deceased / public-record subjects in publisher-facing prose.
 - `tools/memory/feedback_verify_stale_memory_claims.md` — staleness discipline
@@ -254,7 +254,7 @@ Apply-session handoff at [`tools/workstream-handoffs/memory-migration-apply-hand
 ## §8. References
 
 - Originating mobile-session brainstorm (paste only; no artifact in repo; framing block at top of this session).
-- `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` §8 — hybrid versioning per ratified decision #8 (the model this audit applies more broadly).
+- `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` §8 — hybrid versioning per ratified decision #8 (the model this audit applies more broadly).
 - `tools/memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md` — v3.0 update spec (applied locally in Part A of this session).
 - `AGENTS.md` §"Current canonical state" — canonical-state index; doctrine + invariant-gate rows ground this audit's "doctrine artifact already exists" notes.
 - `CLAUDE.md` §"Named-subject consent" — existing by-filename memory reference (line 53); proposed §3 pointer-block updates this convention.

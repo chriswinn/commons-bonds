@@ -220,7 +220,7 @@ Paste-text at `tools/drafting-templates/existing-session-checkin-paste-text.md`.
 
 ## Where to read more
 
-- `tools/commons_bonds_pipeline_doctrine_v1.0.0.md` — Amendment C Interactive Ratification Protocol (per-session pattern)
+- `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md` — Amendment C Interactive Ratification Protocol (per-session pattern)
 - `tools/memory/feedback_audience_aware_drafting_discipline.md` — v3.1 doctrine (the work this cadence operates on)
 - `tools/memory/feedback_pm_dashboard_structure.md` — PM dashboard structure (canonical)
 - `tools/memory/feedback_git_workflow.md` — merge-to-main policy (extended 2026-05-24)

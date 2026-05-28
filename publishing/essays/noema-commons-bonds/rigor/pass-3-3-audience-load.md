@@ -38,7 +38,7 @@ The Pass 3.2 ratification session (2026-05-22) applied 9 ratified spot-fixes + 1
 4. [`publishing/essays/noema-commons-bonds/rigor/pass-3-2-voice-polish.md`](pass-3-2-voice-polish.md) (Pass 3.2 — RATIFIED + APPLIED 2026-05-22; context for voice-polish deltas)
 5. [`tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`](commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md) (canonical Pass 3 format model)
 6. [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) §"Pass 3.3 — Audience-load (acceptance)" (verdict scale + scope)
-7. [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7.1 (Amendment C scope — confirms Pass 3.3 outside Amendment C)
+7. [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.7.1 (Amendment C scope — confirms Pass 3.3 outside Amendment C)
 8. Memory: [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) (v3.1 pipeline discipline)
 9. Memory: [`tools/memory/feedback_named_subject_consent.md`](../memory/feedback_named_subject_consent.md) (Phat anonymization ratified 2026-05-20 as working-draft baseline; Biggie named with courtesy-notify-family discipline)
 10. Memory: [`tools/memory/feedback_verify_stale_memory_claims.md`](../memory/feedback_verify_stale_memory_claims.md) (verification discipline — essay line count + commit verified against origin/main)

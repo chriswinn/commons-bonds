@@ -5,7 +5,7 @@
 **Chapter:** Ch 8 — *What Things Actually Cost* (`manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md`)
 **Status going in:** Pass 1 PROPOSED 2026-05-16 (commit `210b02c`; 4 HIGH / 8 MEDIUM / 7 LOW; READY AFTER SPOT-FIXES). NOT YET RATIFIED + APPLIED.
 **Template:** [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
-**Parent doctrine:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+**Parent doctrine:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 
 ---
 
@@ -46,7 +46,7 @@ Per the retrofit table in [`README.md`](README.md): **1a + 1c + 3.1 verify + 3.2
 
 ## §4. Cross-references
 
-- Pipeline doctrine: [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+- Pipeline doctrine: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 - Retrofit template: [`pipeline-retrofit-template_2026-05-17.md`](pipeline-retrofit-template_2026-05-17.md)
 - Pass 1 PROPOSED: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-16_ch8_what_things_actually_cost_stage3_fact_check_v1.0.0.md`
 - $44B cross-chapter sync: commit `cacb82d`

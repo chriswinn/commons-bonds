@@ -2,7 +2,7 @@
 
 **Date drafted:** 2026-05-17
 **Status:** PROPOSED — pending author ratification at session close.
-**Origin:** Pipeline-revision workstream (handoff at [`tools/workstream-handoffs/pipeline-revision-handoff_2026-05-17.md`](workstream-handoffs/pipeline-revision-handoff_2026-05-17.md)); 11 decisions, 11 ratified at session start of 2026-05-17 (decisions #7 + #9 + #10 ratified within the originating brainstorm; decisions #1 + #2 + #3 + #4 + #5 + #6 + #8 + #11 ratified at the doctrine-session opening per author confirmation).
+**Origin:** Pipeline-revision workstream (handoff at [`tools/workstream-handoffs/pipeline-revision-handoff_2026-05-17.md`](../workstream-handoffs/pipeline-revision-handoff_2026-05-17.md)); 11 decisions, 11 ratified at session start of 2026-05-17 (decisions #7 + #9 + #10 ratified within the originating brainstorm; decisions #1 + #2 + #3 + #4 + #5 + #6 + #8 + #11 ratified at the doctrine-session opening per author confirmation).
 **Supersedes nothing.** Extends the existing v2.0 Amendment B of `feedback_audience_aware_drafting_discipline.md` (memory entry stays current with summary + pointer to this artifact per ratified decision #8 hybrid approach).
 **Canonical reference for:** all Phase A per-chapter rigor cycles + retrofit cycles + future drafting sessions for publisher-facing prose.
 
@@ -33,12 +33,12 @@ Specific frictions the doctrine resolves (surfaced by the Ch 1 Pass 3 REAUDIT v3
 
 | Stage | Purpose | Doctrine doc |
 |---|---|---|
-| **0** | Author conception / topic decision | [`tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`](drafting-templates/stage-0-publishing-strategy-rigor-test.md) |
-| **1** | Ready-to-draft gate (three sub-steps: 1a invariant + 1b structure + 1c coherence) | [`tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) + [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](drafting-templates/stage-1-audience-aware-structure-pass.md) + [`tools/drafting-templates/audience-pressure-test-construction.md`](drafting-templates/audience-pressure-test-construction.md) |
-| **2** | Audience-blind drafting | [`tools/drafting-templates/stage-2-audience-blind-flow-draft.md`](drafting-templates/stage-2-audience-blind-flow-draft.md) |
-| **3** | **Five-pass rigor audit** (3.1 fact-check + 3.2 voice-polish + 3.3 audience-load acceptance + 3.4 audience-load robustness + **3.5 developmental-edit per Amendment B 2026-05-18**) | [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](drafting-templates/stage-3-three-pass-rigor-audit.md) (v3.0 four-pass split + v3.1 Amendment B Pass 3.5 codification) |
-| **4** | Render + character-integrity audit | [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) |
-| **5** | Academic-rigor + prose-quality sign-off bookend + pre-publication review queue artifact | [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md) |
+| **0** | Author conception / topic decision | [`tools/drafting-templates/stage-0-publishing-strategy-rigor-test.md`](../drafting-templates/stage-0-publishing-strategy-rigor-test.md) |
+| **1** | Ready-to-draft gate (three sub-steps: 1a invariant + 1b structure + 1c coherence) | [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) + [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](../drafting-templates/stage-1-audience-aware-structure-pass.md) + [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) |
+| **2** | Audience-blind drafting | [`tools/drafting-templates/stage-2-audience-blind-flow-draft.md`](../drafting-templates/stage-2-audience-blind-flow-draft.md) |
+| **3** | **Five-pass rigor audit** (3.1 fact-check + 3.2 voice-polish + 3.3 audience-load acceptance + 3.4 audience-load robustness + **3.5 developmental-edit per Amendment B 2026-05-18**) | [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) (v3.0 four-pass split + v3.1 Amendment B Pass 3.5 codification) |
+| **4** | Render + character-integrity audit | [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) |
+| **5** | Academic-rigor + prose-quality sign-off bookend + pre-publication review queue artifact | [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md) |
 
 ---
 
@@ -55,7 +55,7 @@ Detects placeholders + drafting-template scaffolding + process-scaffolding vocab
 - Process-scaffolding vocabulary (`Option A` through `Option Z`, `ratified`, `Phase C-*`, `F-V*`, `INCLUDE`/`EXCLUDE` glyphs `✓✓✓` / `⚠⚠⚠` used as verdicts, `EXCLUDE` / `INCLUDE` as standalone tokens).
 - Meta-commentary tics (*"That is the whole sentence."*, *"What I mean to say is…"*).
 
-Registry: [`tools/quality-gates/scaffolding-patterns.yaml`](quality-gates/scaffolding-patterns.yaml).
+Registry: [`tools/quality-gates/scaffolding-patterns.yaml`](../quality-gates/scaffolding-patterns.yaml).
 
 ### §2.2 Regressed-pattern scan
 
@@ -68,7 +68,7 @@ Categories:
 - **Cross-chapter consistency-inventory items** (terminology + symbol + flagship-equation canonical-name commitments).
 - **Render-failure patterns** (em-dash / approx-symbol tofu-box fixes; minus-into-box rendering artifacts; etc.).
 
-Registry: [`tools/quality-gates/regressed-patterns.yaml`](quality-gates/regressed-patterns.yaml).
+Registry: [`tools/quality-gates/regressed-patterns.yaml`](../quality-gates/regressed-patterns.yaml).
 
 ### §2.3 Severity tiers + allowlist mechanism
 
@@ -94,7 +94,7 @@ Allowlist entries must cite line number + rationale.
 - **Stage-transition checklist** — every stage transition verifies both scans clean (per the doctrine docs for each stage).
 - **CI workflow** — runs both scans + reports MEDIUM-severity findings; full registry update PRs trigger registry-validation step.
 
-Implementation: [`tools/scripts/check-corpus-invariants.sh`](scripts/check-corpus-invariants.sh).
+Implementation: [`tools/scripts/check-corpus-invariants.sh`](../scripts/check-corpus-invariants.sh).
 
 ---
 
@@ -426,7 +426,7 @@ Each pre-publication review queue artifact contains:
 
 Pre-publication review queue artifact lives at `tools/pre-submission-reviews/[artifact-name]_pre_pub_review_queue_v1.0.0.md` (note: directory already exists per repository layout).
 
-Template: see [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md) §3.
+Template: see [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md) §3.
 
 ### §7.3 Discipline
 
@@ -440,8 +440,8 @@ External-reviewer engagement policy: per ratified decision #10 (2026-05-17 brain
 
 ### §8.1 Hybrid versioning (per ratified decision #8)
 
-- This doctrine artifact (`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`) is the **canonical reference** carrying the full architecture.
-- The author's memory entry `feedback_audience_aware_drafting_discipline.md` is updated to **v3.0** with a concise summary + pointer to this artifact. Memory entry stays scan-friendly; doctrine artifact carries the full architecture. Memory-update spec is at [`tools/memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md`](memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md).
+- This doctrine artifact (`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`) is the **canonical reference** carrying the full architecture.
+- The author's memory entry `feedback_audience_aware_drafting_discipline.md` is updated to **v3.0** with a concise summary + pointer to this artifact. Memory entry stays scan-friendly; doctrine artifact carries the full architecture. Memory-update spec is at [`tools/memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md`](../memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md).
 
 ### §8.2 Extends, does not supersede
 
@@ -467,7 +467,7 @@ All chapters run through the new pipeline once the doctrine cluster lands. Retro
 - Stage 4 render + character-integrity audit.
 - Stage 5 academic-rigor + prose-quality sign-off + pre-publication review queue artifact generation.
 
-Per-chapter retrofit scope: see [`tools/workstream-handoffs/pipeline-revision-handoff_2026-05-17.md`](workstream-handoffs/pipeline-revision-handoff_2026-05-17.md) §6.2.
+Per-chapter retrofit scope: see [`tools/workstream-handoffs/pipeline-revision-handoff_2026-05-17.md`](../workstream-handoffs/pipeline-revision-handoff_2026-05-17.md) §6.2.
 
 Retrofit sequencing: see same handoff §6.3.
 
@@ -516,16 +516,16 @@ This session ratified all 11 decisions; remaining open items (carry-forward from
 
 ## §13. References
 
-- [`tools/workstream-handoffs/pipeline-revision-handoff_2026-05-17.md`](workstream-handoffs/pipeline-revision-handoff_2026-05-17.md) — the originating handoff
-- [`tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) — Stage 1 doctrine (three-step structure)
-- [`tools/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) — Stage 4 doctrine (render + character-integrity audit)
-- [`tools/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md) — Stage 5 doctrine + pre-publication review queue template
-- [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](drafting-templates/stage-3-three-pass-rigor-audit.md) — Stage 3 four-pass template (v3.0 framing)
-- [`tools/drafting-templates/audience-pressure-test-construction.md`](drafting-templates/audience-pressure-test-construction.md) — character-set construction (acceptance + robustness)
-- [`tools/quality-gates/scaffolding-patterns.yaml`](quality-gates/scaffolding-patterns.yaml) — scaffolding-scan registry
-- [`tools/quality-gates/regressed-patterns.yaml`](quality-gates/regressed-patterns.yaml) — regressed-pattern-scan registry
-- [`tools/scripts/check-corpus-invariants.sh`](scripts/check-corpus-invariants.sh) — invariant-check script
-- [`tools/memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md`](memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md) — memory-entry update spec for v2.0 → v3.0
+- [`tools/workstream-handoffs/pipeline-revision-handoff_2026-05-17.md`](../workstream-handoffs/pipeline-revision-handoff_2026-05-17.md) — the originating handoff
+- [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) — Stage 1 doctrine (three-step structure)
+- [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) — Stage 4 doctrine (render + character-integrity audit)
+- [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md) — Stage 5 doctrine + pre-publication review queue template
+- [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) — Stage 3 four-pass template (v3.0 framing)
+- [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) — character-set construction (acceptance + robustness)
+- [`tools/quality-gates/scaffolding-patterns.yaml`](../quality-gates/scaffolding-patterns.yaml) — scaffolding-scan registry
+- [`tools/quality-gates/regressed-patterns.yaml`](../quality-gates/regressed-patterns.yaml) — regressed-pattern-scan registry
+- [`tools/scripts/check-corpus-invariants.sh`](../scripts/check-corpus-invariants.sh) — invariant-check script
+- [`tools/memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md`](../memory-updates/feedback_audience_aware_drafting_discipline_v3.0.md) — memory-entry update spec for v2.0 → v3.0
 
 ---
 

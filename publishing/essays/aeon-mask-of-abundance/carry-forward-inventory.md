@@ -109,7 +109,7 @@ carry-forward inventory).
 - **Cultural-engagement commitment paratext:** `research/literature/bibliography.md` §21 (Dunbar / Du Bois / Ellison / Fanon)
 - **Pre-existing essay-related Aeon material:**
   - `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-essay-dunbar-aside-drafts_2026-05-08.md` (cultural-engagement drafts; bibliography §21 connected)
-- **Pipeline doctrine (v3.1):** `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`
+- **Pipeline doctrine (v3.1):** `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`
 
 ---
 

@@ -422,7 +422,7 @@ The closing chapter has two structural jobs that compound: (1) synthesize the fr
 
 ### 8.1 Closing-chapter portfolio context
 
-Per the [book pipeline doctrine](../commons_bonds_pipeline_doctrine_v1.0.0.md) §3.2, the closing chapter approaches pre-publication readiness in a specific cascade sequence. Pass 3.1 + 3.2 + 3.3 + 3.4 + 3.5 fire serially per-prompt. Then Stage 4 (render + character-integrity audit). Then Stage 5 (academic-rigor + prose-quality sign-off + pre-publication review queue artifact).
+Per the [book pipeline doctrine](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) §3.2, the closing chapter approaches pre-publication readiness in a specific cascade sequence. Pass 3.1 + 3.2 + 3.3 + 3.4 + 3.5 fire serially per-prompt. Then Stage 4 (render + character-integrity audit). Then Stage 5 (academic-rigor + prose-quality sign-off + pre-publication review queue artifact).
 
 For the closing chapter specifically, the synthesis function means Stage 3 + Stage 4 + Stage 5 are weighted heavily — the chapter is the last impression a reader takes from the book, and any pre-publication review queue artifact ships with the manuscript-submission package as transparent quality-control disclosure. The closing chapter's voice register, fact-correctness, and substantive engagement are all load-bearing for the manuscript-submission-package's overall quality signal.
 
@@ -579,7 +579,7 @@ The exercise's net usefulness verdict: **strongly affirmative.** The parallel-ex
 - **Em-dash discipline:** [`tools/memory/feedback_em_dash_overuse.md`](../memory/feedback_em_dash_overuse.md)
 - **Apparatus register decisions:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-11_apparatus_register_decision_v1.0.0.md)
 - **Cross-chapter consistency inventory:** [`tools/audits/cross-chapter-consistency-inventory_2026-05-11.md`](../audits/cross-chapter-consistency-inventory_2026-05-11.md)
-- **Pipeline doctrine v1.0.0 + Amendment B 2026-05-18 + Amendment C 2026-05-19:** [`tools/commons_bonds_pipeline_doctrine_v1.0.0.md`](../commons_bonds_pipeline_doctrine_v1.0.0.md)
+- **Pipeline doctrine v1.0.0 + Amendment B 2026-05-18 + Amendment C 2026-05-19:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md)
 - **Named-subject consent discipline:** [`tools/memory/feedback_named_subject_consent.md`](../memory/feedback_named_subject_consent.md)
 - **Ch 1 (sunrise-departure bookend):** [`manuscript/chapters/Chapter__1_TheQuietMath.md`](../../manuscript/chapters/Chapter__1_TheQuietMath.md)
 - **Ch 7 (Mars administrator + six cost-hiding patterns):** [`manuscript/chapters/Chapter__7_OnOtherWorlds.md`](../../manuscript/chapters/Chapter__7_OnOtherWorlds.md)
