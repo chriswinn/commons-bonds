@@ -1300,7 +1300,7 @@ Sources grounding the L18 Hampton seafood-anchor paragraph added 2026-05-25 at c
 
 ## 19.7. Chesapeake regional reportage and literary nonfiction (essay-derivative-cited)
 
-**Status:** APPLIED 2026-05-27 per Ch 3 → Atlantic main essay Stage 3 Pass 3.1 fact-check Finding F-3.1-14 ratification + Stage 1 brief Finding 7 conditional-fire (entries land at Pass 3.1 if Stage 2 cites in body; Stage 2 RATIFIED 2026-05-27 commit `144b14e` cites all three). Pass 3.1 artifact: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_pass_3_1_fact_check_v1.0.0.md`.
+**Status:** APPLIED 2026-05-27 per Ch 3 → Atlantic main essay Stage 3 Pass 3.1 fact-check Finding F-3.1-14 ratification + Stage 1 brief Finding 7 conditional-fire (entries land at Pass 3.1 if Stage 2 cites in body; Stage 2 RATIFIED 2026-05-27 commit `144b14e` cites all three). Pass 3.1 artifact: `publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-1-fact-check.md` (consolidated 2026-05-28 per per-essay rigor consolidation pilot).
 
 **Chapter / essay relevance (all entries):** Ch 3 (Watermen) + Ch 3 → Atlantic main derivative essay (`publishing/essays/atlantic-main-chesapeake-watermen/essay.md`).
 

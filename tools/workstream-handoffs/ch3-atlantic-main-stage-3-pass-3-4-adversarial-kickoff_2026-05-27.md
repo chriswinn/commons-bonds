@@ -1,7 +1,7 @@
 # Ch 3 → Atlantic main magazine — Stage 3 Pass 3.4 (adversarial robustness) — kickoff paste-text
 
 **Date staged:** 2026-05-27
-**Predecessor:** Stage 3 Pass 3.3 (audience-load acceptance) RATIFIED PASS 2026-05-27 — artifact at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_3_audience_load_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_3_audience_load_v1.0.0.md) (commit to land on main); essay.md unchanged from Pass 3.2 state on feature branch `claude/ch3-atlantic-pass32-260527-a92210` at commit `a25def8` (no Pass 3.3 spot-fixes; Pass 3.3 acceptance-test scope; A–G adversarial set carries forward).
+**Predecessor:** Stage 3 Pass 3.3 (audience-load acceptance) RATIFIED PASS 2026-05-27 — artifact at [`publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-3-audience-load.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-3-audience-load.md) (commit to land on main); essay.md unchanged from Pass 3.2 state on feature branch `claude/ch3-atlantic-pass32-260527-a92210` at commit `a25def8` (no Pass 3.3 spot-fixes; Pass 3.3 acceptance-test scope; A–G adversarial set carries forward).
 **Status:** STAGED. Author fires Pass 3.4 in a fresh CC session by pasting the body block below.
 **Internal scaffolding** per CLAUDE.md merge-to-main policy — auto-fast-forwards to main at session close.
 
@@ -9,14 +9,14 @@
 
 ## Resume marker (for parent session)
 
-- Pass 3.4 artifact expected at: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_4_adversarial_v1.0.0.md` (PROPOSED at session start → RATIFIED ROBUST / RATIFIED VULNERABLE + spot-fixes at session close per Amendment C).
+- Pass 3.4 artifact expected at: `publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-4-adversarial.md` (PROPOSED at session start → RATIFIED ROBUST / RATIFIED VULNERABLE + spot-fixes at session close per Amendment C).
 - Essay artifact carrying any Pass 3.4 spot-fixes: `publishing/essays/atlantic-main-chesapeake-watermen/essay.md` (on a fresh Pass 3.4 feature branch; baseline copied from Pass 3.2 commit `a25def8`).
 - Status to look for: `STATE: Pass 3.4 RATIFIED ROBUST` (no essay.md spot-fixes; thread-pull synthesis verdict ROBUST) or `STATE: Pass 3.4 RATIFIED + APPLIED` (VULNERABLE thread-pulls drove spot-fixes) at session close → ready for Stage 3 Pass 3.5 developmental-edit session firing.
 
 ## Cross-references
 
 - Stage 2 + Pass 3.1 + Pass 3.2 essay state (input to Pass 3.4; identical to Pass 3.3 baseline): `publishing/essays/atlantic-main-chesapeake-watermen/essay.md` (on feature branch `claude/ch3-atlantic-pass32-260527-a92210` at commit `a25def8`)
-- Stage 1 brief (adversarial set A–G + tier dispositions): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md) §1 adversarial cluster + §2 editorial-brain map + §11 hard constraints + §13 Pass 3.4 + Pass 3.5 Decision flags (OPT-IN)
+- Stage 1 brief (adversarial set A–G + tier dispositions): [`publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md) §1 adversarial cluster + §2 editorial-brain map + §11 hard constraints + §13 Pass 3.4 + Pass 3.5 Decision flags (OPT-IN)
 - Pass 3.1 + Pass 3.2 + Pass 3.3 artifacts (immediate predecessors): see Pass 3.3 artifact §6 + parent-doctrine chain
 - Wave 1 + Ch 4 FA Pass 3.4 format precedents:
   - [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_4_adversarial_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_4_adversarial_v1.0.0.md) (Wave 1 BR Pass 3.4 — third-person institutional-measurement; format reference)
@@ -75,7 +75,7 @@ thread-pulls that compromise Tier 1 Atlantic editorial register
    state (Pass 3.3 made no essay changes; Pass 3.3 acceptance
    verdict PASS).
 
-6. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md**
+6. **publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md**
    — **ADVERSARIAL SET CANONICAL SOURCE.** Stage 1 brief RATIFIED
    2026-05-27 commit `361e5dc`. Load-bearing for Pass 3.4:
    - §1 adversarial set A–G (full descriptions):
@@ -113,13 +113,13 @@ thread-pulls that compromise Tier 1 Atlantic editorial register
      motive close at §VIII line 151).
    - §13 Pass 3.4 OPT-IN flag.
 
-7. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_3_audience_load_v1.0.0.md**
+7. **publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-3-audience-load.md**
    — Pass 3.3 RATIFIED PASS 2026-05-27. Note Pass 3.3 §2
    acceptance verdicts to avoid regression + Pass 3.3 §5 awareness
    flags (length-band-low; Pass 3.2 L3 §VI Harris-framing; §II
    line 39 / §II line 49 / §VII line 139 cadence-earned holds).
 
-8. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_2_voice_polish_v1.0.0.md**
+8. **publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-2-voice-polish.md**
    — Pass 3.2 RATIFIED + APPLIED 2026-05-27 (12 spot-fix groups at
    commit `a25def8`; reference §8 disposition table to avoid
    regression).
@@ -133,7 +133,7 @@ thread-pulls that compromise Tier 1 Atlantic editorial register
 == Your task ==
 
 Produce the Pass 3.4 adversarial robustness artifact at
-`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_4_adversarial_v1.0.0.md`
+`publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-4-adversarial.md`
 (PROPOSED at session start; RATIFIED ROBUST or RATIFIED VULNERABLE
 + spot-fixes at session close per Amendment C).
 

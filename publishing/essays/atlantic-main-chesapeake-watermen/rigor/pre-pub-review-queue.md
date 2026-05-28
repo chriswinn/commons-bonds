@@ -3,7 +3,7 @@
 **Date:** 2026-05-27
 **Status:** **RATIFIED for hand-off to Atlantic features editor with submission package.** Goes to publisher / editor as transparent quality-control disclosure per v3.1 Amendment B Stage 5 mandatory hand-off artifact ("Pre-publication review queue").
 **Submission target:** The Atlantic main magazine — features submissions (National desk or environmental long-form features sub-editor pool per Stage 1 brief §1 #1).
-**Companion artifacts:** [Stage 5 academic-rigor + prose-quality sign-off](commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_sign_off_v1.0.0.md) + [cover letter draft](../../publishing/essays/atlantic-main-chesapeake-watermen/cover-letter.md) + Stage 4 render-toolchain submission package (PDF + .docx variants; frontmatter stripped).
+**Companion artifacts:** [Stage 5 academic-rigor + prose-quality sign-off](stage-5-signoff.md) + [cover letter draft](../../publishing/essays/atlantic-main-chesapeake-watermen/cover-letter.md) + Stage 4 render-toolchain submission package (PDF + .docx variants; frontmatter stripped).
 
 ---
 
@@ -144,7 +144,7 @@ Lower-priority sections (if budget allows): §I opening scene + writer-place-cre
 
 ## §5. Transparent quality-control disclosure language for editor
 
-The cover letter (companion artifact) includes a brief pre-publication citation-verification status note per §4 of [Stage 5 sign-off](commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_sign_off_v1.0.0.md). This pre-publication review queue artifact is the longer transparency-disclosure document; offered to the editor on request or with the submission package per editor preference.
+The cover letter (companion artifact) includes a brief pre-publication citation-verification status note per §4 of [Stage 5 sign-off](stage-5-signoff.md). This pre-publication review queue artifact is the longer transparency-disclosure document; offered to the editor on request or with the submission package per editor preference.
 
 ---
 

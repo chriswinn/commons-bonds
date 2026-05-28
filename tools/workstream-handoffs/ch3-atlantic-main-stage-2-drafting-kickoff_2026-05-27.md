@@ -76,7 +76,7 @@ will audit.
    (status markers; end-of-session one-liner; PM-session tracking)
 9. tools/memory/feedback_verify_stale_memory_claims.md (verify before
    asserting; check counts/dates/figures against current state)
-10. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md**
+10. **publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md**
     — **THIS IS YOUR PRIMARY SOURCE.** The Stage 1 brief. Read in full.
     Load-bearing sections: §1 audience set (18 characters) + §2
     editorial-brain map (Coates *Case for Reparations* + Andersen
@@ -359,7 +359,7 @@ After Stage 2 draft lands PROPOSED:
 
 ## Cross-references
 
-- **Stage 1 brief (load-bearing):** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md) (RATIFIED 2026-05-27 commit `361e5dc`).
+- **Stage 1 brief (load-bearing):** [`publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md) (RATIFIED 2026-05-27 commit `361e5dc`).
 - **Stage 0 batch + Candidate B ratification record:** [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md) §4.2 + §12 Candidate B (RATIFIED 2026-05-24).
 - **Cascade plan v2 (sequencing + calendar):** [`publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md`](../../publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md) §3 W2.1 + §6 calendar (Stage 1 brief Jun 29–Jul 5 in original sequencing; landed earlier per relaxed cadence; Stage 2 ~Aug 2026 target; submission Q4 2026).
 - **Source chapter (DO-NOT-READ at Stage 2):** [`manuscript/chapters/Chapter__3_TheWaterman.md`](../../manuscript/chapters/Chapter__3_TheWaterman.md).

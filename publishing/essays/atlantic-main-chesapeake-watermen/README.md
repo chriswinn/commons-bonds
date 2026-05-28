@@ -28,16 +28,16 @@
 
 ## Cross-references
 
-Rigor-pass artifacts at `tools/rigor-passes/` (search for `atlantic_main` filename pattern):
+Rigor-pass artifacts at [`rigor/`](rigor/) — per-essay consolidation pilot migrated 2026-05-28 (see [`publishing/essays/_pipeline/per-essay-rigor-consolidation-pilot_2026-05-28.md`](../_pipeline/per-essay-rigor-consolidation-pilot_2026-05-28.md)). `git log --follow` traces pre-migration history at the prior `tools/rigor-passes/` paths.
 
-- **Stage 1 brief** (2026-05-27; RATIFIED commit [`361e5dc`](https://github.com/chriswinn/commons-bonds/commit/361e5dc)) — [`commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md)
-- **Pass 3.1 fact-check** (2026-05-27; RATIFIED + APPLIED 10 spot-fixes) — [`commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_pass_3_1_fact_check_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_pass_3_1_fact_check_v1.0.0.md)
-- **Pass 3.2 voice-polish** (2026-05-27; RATIFIED + APPLIED 12 spot-fix groups; ~365w cut) — [`commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_2_voice_polish_v1.0.0.md)
-- **Pass 3.3 audience-load** (2026-05-27; RATIFIED PASS — 17 INCLUDE + 1 NEUTRAL across 18 acceptance characters) — [`commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_3_audience_load_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_3_audience_load_v1.0.0.md)
-- **Pass 3.4 adversarial robustness** (2026-05-27; RATIFIED ROBUST — 0 LANDS / 1 PARTIAL / 6 BOUNCES across 7 adversarial readers) — [`commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_4_adversarial_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_4_adversarial_v1.0.0.md)
-- **Pass 3.5 developmental-edit** (2026-05-27; RATIFIED + APPLIED 2 restorations; ~20w restored) — [`commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md)
-- **Stage 5 academic-rigor + prose-quality sign-off** (2026-05-27; RATIFIED READY-TO-SUBMIT) — [`commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_sign_off_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_sign_off_v1.0.0.md)
-- **Pre-publication review queue** (2026-05-27; RATIFIED for hand-off to editor) — [`commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_pre_publication_review_queue_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_pre_publication_review_queue_v1.0.0.md)
+- **Stage 1 brief** (2026-05-27; RATIFIED commit [`361e5dc`](https://github.com/chriswinn/commons-bonds/commit/361e5dc)) — [`rigor/stage-1-brief.md`](rigor/stage-1-brief.md)
+- **Pass 3.1 fact-check** (2026-05-27; RATIFIED + APPLIED 10 spot-fixes) — [`rigor/pass-3-1-fact-check.md`](rigor/pass-3-1-fact-check.md)
+- **Pass 3.2 voice-polish** (2026-05-27; RATIFIED + APPLIED 12 spot-fix groups; ~365w cut) — [`rigor/pass-3-2-voice-polish.md`](rigor/pass-3-2-voice-polish.md)
+- **Pass 3.3 audience-load** (2026-05-27; RATIFIED PASS — 17 INCLUDE + 1 NEUTRAL across 18 acceptance characters) — [`rigor/pass-3-3-audience-load.md`](rigor/pass-3-3-audience-load.md)
+- **Pass 3.4 adversarial robustness** (2026-05-27; RATIFIED ROBUST — 0 LANDS / 1 PARTIAL / 6 BOUNCES across 7 adversarial readers) — [`rigor/pass-3-4-adversarial.md`](rigor/pass-3-4-adversarial.md)
+- **Pass 3.5 developmental-edit** (2026-05-27; RATIFIED + APPLIED 2 restorations; ~20w restored) — [`rigor/pass-3-5-developmental-edit.md`](rigor/pass-3-5-developmental-edit.md)
+- **Stage 5 academic-rigor + prose-quality sign-off** (2026-05-27; RATIFIED READY-TO-SUBMIT) — [`rigor/stage-5-signoff.md`](rigor/stage-5-signoff.md) (the central rigor-pass artifact; the at-folder bookend at [`stage-5-signoff.md`](stage-5-signoff.md) mirrors this for at-the-folder visibility)
+- **Pre-publication review queue** (2026-05-27; RATIFIED for hand-off to editor) — [`rigor/pre-pub-review-queue.md`](rigor/pre-pub-review-queue.md)
 
 Stage workstream-handoffs at [`tools/workstream-handoffs/`](../../../tools/workstream-handoffs/) (kickoff paste-texts for each pass; staged for fresh-CC-session fires).
 

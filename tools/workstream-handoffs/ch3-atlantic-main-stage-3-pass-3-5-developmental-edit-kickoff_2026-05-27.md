@@ -1,7 +1,7 @@
 # Ch 3 → Atlantic main magazine — Stage 3 Pass 3.5 (developmental-edit) — kickoff paste-text
 
 **Date staged:** 2026-05-27
-**Predecessor:** Stage 3 Pass 3.4 (adversarial robustness) RATIFIED ROBUST 2026-05-27 — artifact at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_4_adversarial_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_4_adversarial_v1.0.0.md) (commit to land on main); essay.md unchanged from Pass 3.2 state on feature branch `claude/ch3-atlantic-pass32-260527-a92210` at commit `a25def8` (Pass 3.3 + Pass 3.4 both PASS / ROBUST with no essay.md spot-fixes).
+**Predecessor:** Stage 3 Pass 3.4 (adversarial robustness) RATIFIED ROBUST 2026-05-27 — artifact at [`publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-4-adversarial.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-4-adversarial.md) (commit to land on main); essay.md unchanged from Pass 3.2 state on feature branch `claude/ch3-atlantic-pass32-260527-a92210` at commit `a25def8` (Pass 3.3 + Pass 3.4 both PASS / ROBUST with no essay.md spot-fixes).
 **Status:** STAGED. Author fires Pass 3.5 in a fresh CC session by pasting the body block below.
 **Internal scaffolding** per CLAUDE.md merge-to-main policy — auto-fast-forwards to main at session close.
 
@@ -9,14 +9,14 @@
 
 ## Resume marker (for parent session)
 
-- Pass 3.5 artifact expected at: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C).
+- Pass 3.5 artifact expected at: `publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-5-developmental-edit.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C).
 - Essay artifact carrying Pass 3.5 spot-fixes: `publishing/essays/atlantic-main-chesapeake-watermen/essay.md` (on a fresh Pass 3.5 feature branch; baseline copied from Pass 3.2 commit `a25def8`).
 - Status to look for: `STATE: Pass 3.5 RATIFIED + APPLIED` at session close → Stage 3 cascade closes; ready for Stage 5 sign-off session firing.
 
 ## Cross-references
 
 - Stage 2 + Pass 3.1 + Pass 3.2 essay state (input to Pass 3.5): `publishing/essays/atlantic-main-chesapeake-watermen/essay.md` (feature branch `claude/ch3-atlantic-pass32-260527-a92210` at commit `a25def8`)
-- Stage 1 brief: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md) §5 voice register + §11 hard constraints
+- Stage 1 brief: [`publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md) §5 voice register + §11 hard constraints
 - Pass 3.1 + 3.2 + 3.3 + 3.4 artifacts (immediate predecessors): see Pass 3.4 artifact §2 + parent-doctrine chain
 - v3.1 Amendment B Pass 3.5 doctrine: [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../memory/feedback_audience_aware_drafting_discipline.md) §"What v3.1 adds beyond v3.0 (Amendments A + B)"; restoration polarity (3.2 cuts, 3.5 restores — different polarities; folding would lose the discipline each needs)
 - Wave 1 + Ch 4 FA Pass 3.5 format precedents:
@@ -96,12 +96,12 @@ meta cluster is gone.
    — **THE ARTIFACT BEING AUDITED.** Read in full at post-Pass-
    3.2 state.
 
-10. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md**
+10. **publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md**
     — Stage 1 brief §5 voice register + §11 hard constraints
     (explicit-meta §VIII close preserved at line 153 post-Pass-
     3.2; mechanism-not-motive close preserved at line 151).
 
-11. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_2_voice_polish_v1.0.0.md**
+11. **publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-2-voice-polish.md**
     — Pass 3.2 RATIFIED + APPLIED 2026-05-27. Note Pass 3.2 §8
     disposition table to AVOID REGRESSION:
     - 12 spot-fix groups APPLIED (do not regress)
@@ -113,11 +113,11 @@ meta cluster is gone.
       lens reveals these read thin after the explicit-meta
       cluster is gone — flag-and-discuss)
 
-12. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_3_audience_load_v1.0.0.md**
+12. **publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-3-audience-load.md**
     — Pass 3.3 RATIFIED PASS 2026-05-27. Note Pass 3.3 §5
     awareness carry-forward flags for Pass 3.5.
 
-13. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_4_adversarial_v1.0.0.md**
+13. **publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-4-adversarial.md**
     — Pass 3.4 RATIFIED ROBUST 2026-05-27. Note brief §11
     disarming moves preserved (cumulative-portrait architecture
     + mechanism-not-motive close + explicit-meta Condition-1-
@@ -133,7 +133,7 @@ meta cluster is gone.
 == Your task ==
 
 Produce the Pass 3.5 developmental-edit artifact at
-`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md`
+`publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-5-developmental-edit.md`
 (PROPOSED at session start; per-finding RATIFIED + APPLIED in
 this same session per Amendment C). Scope: ~50K-80K tokens per
 v3.1 Amendment B (essay length ~6,570w body materially clears

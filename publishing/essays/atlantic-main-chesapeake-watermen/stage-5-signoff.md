@@ -1,7 +1,7 @@
 # The Atlantic Essay — Stage 5 Bookend Pre-Submission Sign-Off
 
 **Date:** 2026-05-27
-**Status:** **RATIFIED 2026-05-27 — READY-TO-SUBMIT.** Author bulk-ratification signal "ratify as recommended and proposed; ratify stage 4 as I have done that offline; fire the next stage/phase when ready" carried through Pass 3.2 + Pass 3.3 + Pass 3.4 + Pass 3.5 closures and the Stage 5 fire. Per-essay sign-off bookend at this folder mirrors the central rigor-pass artifact at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_sign_off_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_sign_off_v1.0.0.md) for at-the-folder visibility per BR sibling pattern.
+**Status:** **RATIFIED 2026-05-27 — READY-TO-SUBMIT.** Author bulk-ratification signal "ratify as recommended and proposed; ratify stage 4 as I have done that offline; fire the next stage/phase when ready" carried through Pass 3.2 + Pass 3.3 + Pass 3.4 + Pass 3.5 closures and the Stage 5 fire. Per-essay sign-off bookend at this folder mirrors the central rigor-pass artifact at [`rigor/stage-5-signoff.md`](rigor/stage-5-signoff.md) (consolidated into the per-essay folder 2026-05-28 per pilot migration) for at-the-folder visibility per BR sibling pattern.
 **Stage:** Stage 5 bookend pre-submission sign-off per Stage 1 brief §14 + pipeline doctrine §3.6 + v3.1 Amendment B Stage 5 doctrine
 **Artifact under sign-off:** [`essay.md`](essay.md) — POST-Stage-3-cycle + Stage-4-offline + Stage-5 state; ~6,590w body across 8 sections §I–§VIII
 **Workstream:** The Atlantic main magazine essay (Ch 3 *The Waterman* → Atlantic features cascade allocation per [`publishing/essays/_pipeline/`](../_pipeline/) cascade plan v2 §3 W2.1)
@@ -69,7 +69,7 @@ All sibling-artifact discipline boundaries preserved through cascade — see [`R
 
 ### §2.5 What has NOT been externally verified
 
-Disclosed per honest-accounting discipline; full detail in [`pre-publication review queue`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_pre_publication_review_queue_v1.0.0.md):
+Disclosed per honest-accounting discipline; full detail in [`pre-publication review queue`](rigor/pre-pub-review-queue.md):
 - No publisher fact-checker has reviewed the essay (trade-press standard not yet applied)
 - 14 of 15 named-subject pre-publication citation-verification packets are pending (Colden model pre-staged; 14 others to fire pre-submission)
 - Legal-citation accuracy at law-review standard pending
@@ -179,7 +179,7 @@ The disclosure points to:
 
 ## §8. What has NOT been verified (honest-accounting disclosure)
 
-In the spirit of the essay's own structural-accounting discipline, full disclosure of what the pre-submission pipeline has NOT verified — also recorded in the [pre-publication review queue](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_pre_publication_review_queue_v1.0.0.md) as a transparent quality-control disclosure document for the editor:
+In the spirit of the essay's own structural-accounting discipline, full disclosure of what the pre-submission pipeline has NOT verified — also recorded in the [pre-publication review queue](rigor/pre-pub-review-queue.md) as a transparent quality-control disclosure document for the editor:
 
 1. **Stage 4 essay-scale render audit:** RATIFIED offline 2026-05-27 (commit `b54822b`); author confirms render-toolchain produces submission-ready PDF + .docx variants. Re-verification at pre-submission is the author's responsibility before formal submission.
 2. **Publisher fact-checker review:** Not run. Trade-press fact-checking standard (Atlantic main's editorial process) not yet applied. The Atlantic features editorial team will apply their standard editorial process upon submission.
@@ -229,4 +229,4 @@ After Stage 5 ratification + author final-ratification of cover letter + pre-sub
 
 ---
 
-*End of Stage 5 bookend pre-submission sign-off for The Atlantic main magazine essay — RATIFIED 2026-05-27 READY-TO-SUBMIT. The central rigor-pass-artifact version at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_sign_off_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_sign_off_v1.0.0.md) carries the full audit-trail; this per-essay-folder version carries the at-the-folder visibility per BR sibling pattern. Author ratification of READY-TO-SUBMIT verdict + closure of §10 author actions gates submission.*
+*End of Stage 5 bookend pre-submission sign-off for The Atlantic main magazine essay — RATIFIED 2026-05-27 READY-TO-SUBMIT. The central rigor-pass-artifact version at [`rigor/stage-5-signoff.md`](rigor/stage-5-signoff.md) carries the full audit-trail; this per-essay-folder version carries the at-the-folder visibility per BR sibling pattern. Author ratification of READY-TO-SUBMIT verdict + closure of §10 author actions gates submission.*

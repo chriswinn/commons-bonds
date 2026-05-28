@@ -1,7 +1,7 @@
 # Ch 3 → Atlantic main magazine — Stage 3 Pass 3.3 (audience-load acceptance) — kickoff paste-text
 
 **Date staged:** 2026-05-27
-**Predecessor:** Stage 3 Pass 3.2 (voice-polish) RATIFIED + APPLIED 2026-05-27 — artifact at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_2_voice_polish_v1.0.0.md) (commit `b9d6e08` on main); essay.md spot-fixes on feature branch `claude/ch3-atlantic-pass32-260527-a92210` at commit `a25def8`.
+**Predecessor:** Stage 3 Pass 3.2 (voice-polish) RATIFIED + APPLIED 2026-05-27 — artifact at [`publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-2-voice-polish.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-2-voice-polish.md) (commit `b9d6e08` on main); essay.md spot-fixes on feature branch `claude/ch3-atlantic-pass32-260527-a92210` at commit `a25def8`.
 **Status:** STAGED. Author fires Pass 3.3 in a fresh CC session by pasting the body block below.
 **Internal scaffolding** per CLAUDE.md merge-to-main policy — auto-fast-forwards to main at session close.
 
@@ -9,15 +9,15 @@
 
 ## Resume marker (for parent session)
 
-- Pass 3.3 artifact expected at: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_3_audience_load_v1.0.0.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C).
+- Pass 3.3 artifact expected at: `publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-3-audience-load.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C).
 - Essay artifact carrying Pass 3.1 + 3.2 + 3.3 spot-fixes: `publishing/essays/atlantic-main-chesapeake-watermen/essay.md` (on feature branch `claude/ch3-atlantic-pass32-260527-a92210` at Pass 3.2 head commit; Pass 3.3 session forks fresh worktree off origin/main and copies essay.md forward).
 - Status to look for: `STATE: Pass 3.3 RATIFIED PASS` or `STATE: Pass 3.3 RATIFIED + APPLIED` at session close → ready for Stage 3 Pass 3.4 adversarial robustness session firing.
 
 ## Cross-references
 
 - Stage 2 + Pass 3.1 + Pass 3.2 essay state (input to Pass 3.3): `publishing/essays/atlantic-main-chesapeake-watermen/essay.md` (on feature branch `claude/ch3-atlantic-pass32-260527-a92210` at commit `a25def8`)
-- Stage 1 brief (audience pressure-test character set + tier dispositions): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md) §1 18-character pressure-test set + §2 editorial-brain map + §8 apparatus exclusion list + §13 Decision flags for Pass 3.4 + Pass 3.5
-- Pass 3.1 + Pass 3.2 artifacts (immediate predecessors): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_pass_3_1_fact_check_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_pass_3_1_fact_check_v1.0.0.md) + [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_2_voice_polish_v1.0.0.md)
+- Stage 1 brief (audience pressure-test character set + tier dispositions): [`publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md) §1 18-character pressure-test set + §2 editorial-brain map + §8 apparatus exclusion list + §13 Decision flags for Pass 3.4 + Pass 3.5
+- Pass 3.1 + Pass 3.2 artifacts (immediate predecessors): [`publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-1-fact-check.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-1-fact-check.md) + [`publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-2-voice-polish.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-2-voice-polish.md)
 - Wave 1 + Ch 4 FA Pass 3.3 format precedents:
   - [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_3_audience_load_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-22_boston_review_essay_stage3_pass_3_3_audience_load_v1.0.0.md) (Wave 1 BR Pass 3.3 — third-person institutional-measurement register; format reference)
   - Ch 4 FA Pass 3.3 sibling (filename: `commons_bonds_rigor_pass_2026-05-27_ch4_foreign_affairs_essay_stage3_pass_3_3_audience_load_v1.0.0.md` — check existence at session start; most-recent same-cascade sibling Pass 3.3 if present)
@@ -90,7 +90,7 @@ accessibility) characters per brief §1 + §13.
    per F-3.1-10 disposition; do NOT strip frontmatter as part of
    Pass 3.3 work — Stage 4 render-toolchain handles).
 
-7. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md**
+7. **publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md**
    — **AUDIENCE PRESSURE-TEST CANONICAL SOURCE.** Stage 1 brief
    RATIFIED 2026-05-27 commit `361e5dc`. Load-bearing sections
    for Pass 3.3:
@@ -164,7 +164,7 @@ accessibility) characters per brief §1 + §13.
      before submission); Pass 3.5 OPT-IN by default (essay clears
      ~3,500w applicability floor materially at ~6,570w).
 
-8. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_pass_3_1_fact_check_v1.0.0.md**
+8. **publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-1-fact-check.md**
    — Pass 3.1 fact-check RATIFIED + APPLIED 2026-05-27 (10 essay-
    prose spot-fixes APPLIED at commit `84d721f`; carry-forwards
    for Pass 3.3 awareness: F-3.1-3 §VII anonymization re-id "has
@@ -174,7 +174,7 @@ accessibility) characters per brief §1 + §13.
    F-3.1-9 Colden "[the species]" bracket preserved per brief
    §7.3).
 
-9. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_2_voice_polish_v1.0.0.md**
+9. **publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-2-voice-polish.md**
    — Pass 3.2 voice-polish RATIFIED + APPLIED 2026-05-27 (12
    spot-fix groups APPLIED at commit `a25def8`; cumulative cuts
    ~365w; F-3.2-L3 §VI line 109 "from the other side of the
@@ -196,7 +196,7 @@ accessibility) characters per brief §1 + §13.
 == Your task ==
 
 Produce the Pass 3.3 audience-load acceptance artifact at
-`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_3_audience_load_v1.0.0.md`
+`publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-3-audience-load.md`
 (PROPOSED at session start; RATIFIED at session close per
 Amendment C; spot-fixes apply in-session ONLY if a Tier 1 strong-
 EXCLUDE surfaces or a brief-§13-named dispositive Tier 2 character

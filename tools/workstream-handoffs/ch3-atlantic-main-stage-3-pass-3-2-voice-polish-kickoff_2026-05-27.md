@@ -1,7 +1,7 @@
 # Ch 3 → Atlantic main essay — Stage 3 Pass 3.2 (voice-polish) — kickoff paste-text
 
 **Date staged:** 2026-05-27
-**Predecessor:** Stage 3 Pass 3.1 (fact-check) RATIFIED + APPLIED 2026-05-27 — artifact at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_pass_3_1_fact_check_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_pass_3_1_fact_check_v1.0.0.md) (landed on `origin/main` at commit `7763d10`); essay.md spot-fixes on Stage 2 feature branch `claude/ch3-atlantic-main-stage2-draft-260527-9fddf1` at commit `84d721f` (post-Pass-3.1-Phase-C body word count 6,935w).
+**Predecessor:** Stage 3 Pass 3.1 (fact-check) RATIFIED + APPLIED 2026-05-27 — artifact at [`publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-1-fact-check.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-1-fact-check.md) (landed on `origin/main` at commit `7763d10`); essay.md spot-fixes on Stage 2 feature branch `claude/ch3-atlantic-main-stage2-draft-260527-9fddf1` at commit `84d721f` (post-Pass-3.1-Phase-C body word count 6,935w).
 **Status:** STAGED. Author fires Pass 3.2 in a fresh CC session by pasting the body block below.
 **Internal scaffolding** per CLAUDE.md merge-to-main policy — this paste-text file fast-forwards to main at session close.
 
@@ -9,15 +9,15 @@
 
 ## Resume marker (for parent session)
 
-- Pass 3.2 artifact expected at: `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_ch3_atlantic_main_essay_stage3_pass_3_2_voice_polish_v1.0.0.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C).
+- Pass 3.2 artifact expected at: `publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-2-voice-polish.md` (PROPOSED at session start → RATIFIED + APPLIED at session close per Amendment C).
 - Essay artifact carrying Pass 3.1 + Pass 3.2 spot-fixes: `publishing/essays/atlantic-main-chesapeake-watermen/essay.md` (Stage 2 feature branch `claude/ch3-atlantic-main-stage2-draft-260527-9fddf1` at commit `84d721f` post-Pass-3.1-Phase-C). Pass 3.2 spot-fixes land on a fresh feature branch off `origin/main` per worktree-isolation discipline; cherry-pick or copy-and-rebase the post-Pass-3.1 essay state as the Pass 3.2 baseline.
 - Status to look for: `STATE: Pass 3.2 RATIFIED + APPLIED` at session close → ready for Stage 3 Pass 3.3 audience-load acceptance session firing.
 
 ## Cross-references
 
 - Stage 2 draft + Pass 3.1 spot-fixes (input to Pass 3.2): `publishing/essays/atlantic-main-chesapeake-watermen/essay.md` (feature branch `claude/ch3-atlantic-main-stage2-draft-260527-9fddf1` commit `84d721f`).
-- Stage 1 brief (audience set + voice-register anchor + apparatus discipline): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md` §2 editorial-brain map + §5 voice register + §8 apparatus exclusion + §11 hard constraints.
-- Pass 3.1 artifact (immediate predecessor; carry-forward awareness items): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_pass_3_1_fact_check_v1.0.0.md`.
+- Stage 1 brief (audience set + voice-register anchor + apparatus discipline): `publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md` §2 editorial-brain map + §5 voice register + §8 apparatus exclusion + §11 hard constraints.
+- Pass 3.1 artifact (immediate predecessor; carry-forward awareness items): `publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-1-fact-check.md`.
 - Em-dash discipline memory: `tools/memory/feedback_em_dash_overuse.md` 2026-05-21 RATIFIED.
 - Author substrate critical-editorial-input memory: `tools/memory/feedback_substrate_critical_editorial_input.md` 2026-05-21 RATIFIED.
 - Voice + polish pipeline memory: `tools/memory/feedback_voice_polish_pipeline.md` (sift + polish discipline).
@@ -104,7 +104,7 @@ this same session.
    strip frontmatter as part of Pass 3.2 work — Stage 4 render-
    toolchain handles).
 
-10. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md**
+10. **publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md**
     — **VOICE REGISTER CANONICAL SOURCE.** Stage 1 brief RATIFIED
     2026-05-27 commit `361e5dc`. Load-bearing sections for Pass 3.2:
     - §2 editorial-brain map for The Atlantic main magazine
@@ -138,7 +138,7 @@ this same session.
       compressed; explicit-meta Condition-1-disarming move at
       §VIII close preserved).
 
-11. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_pass_3_1_fact_check_v1.0.0.md**
+11. **publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-1-fact-check.md**
     — **PASS 3.1 PREDECESSOR (immediate carry-forwards).** Note:
     - 10 essay-prose Phase C spot-fixes APPLIED at commit `84d721f`;
       Pass 3.2 audits the *post-fix* essay state.
@@ -219,7 +219,7 @@ Produce the Pass 3.2 voice-polish artifact for the Ch 3 → Atlantic
 main post-Pass-3.1 essay. Output spec per Amendment C Interactive
 Ratification Protocol:
 
-**Output artifact:** `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_ch3_atlantic_main_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`
+**Output artifact:** `publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-2-voice-polish.md`
 (PROPOSED at session start; per-finding RATIFIED + APPLIED in the
 same session per Amendment C).
 
@@ -415,7 +415,7 @@ window Q4 2026 (Oct–Dec) per cascade plan v2 §3 W2.1`
 
 When this Pass 3.2 session closes:
 - The Pass 3.2 artifact lands at
-  `tools/rigor-passes/commons_bonds_rigor_pass_<DATE>_ch3_atlantic_main_essay_stage3_pass_3_2_voice_polish_v1.0.0.md`
+  `publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-2-voice-polish.md`
   (RATIFIED + APPLIED at session close; internal scaffolding —
   autonomously fast-forwards to main per CLAUDE.md policy).
 - The essay at

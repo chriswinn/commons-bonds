@@ -1,7 +1,7 @@
 # Ch 3 → Atlantic main magazine — Stage 5 (academic-rigor + prose-quality sign-off + pre-publication review queue + cover letter) — kickoff paste-text
 
 **Date staged:** 2026-05-27
-**Predecessor:** Stage 3 cascade CLOSED 2026-05-27 — Pass 3.1 + 3.2 + 3.3 + 3.4 + 3.5 all RATIFIED; Stage 4 render audit RATIFIED offline 2026-05-27 (commit `b54822b`). Pass 3.5 artifact at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage3_pass_3_5_developmental_edit_v1.0.0.md); essay.md on feature branch `claude/ch3-atlantic-pass35-260527-5f34a1` at Pass 3.5 head (~6,590w body across 8 sections §I–§VIII).
+**Predecessor:** Stage 3 cascade CLOSED 2026-05-27 — Pass 3.1 + 3.2 + 3.3 + 3.4 + 3.5 all RATIFIED; Stage 4 render audit RATIFIED offline 2026-05-27 (commit `b54822b`). Pass 3.5 artifact at [`publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-5-developmental-edit.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/rigor/pass-3-5-developmental-edit.md); essay.md on feature branch `claude/ch3-atlantic-pass35-260527-5f34a1` at Pass 3.5 head (~6,590w body across 8 sections §I–§VIII).
 **Status:** STAGED. Author fires Stage 5 in a fresh CC session by pasting the body block below.
 **Internal scaffolding** per CLAUDE.md merge-to-main policy — auto-fast-forwards to main at session close. Stage 5 sign-off artifact + cover letter draft are end-user-facing-prose-adjacent (cover letter goes to editor) — author final-ratifies + explicitly merges at Stage 5 closure.
 
@@ -9,15 +9,15 @@
 
 ## Resume marker (for parent session)
 
-- Stage 5 sign-off artifact expected at: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_sign_off_v1.0.0.md` (PROPOSED at session start → RATIFIED READY-TO-SUBMIT at session close per Amendment C).
-- Pre-publication review queue artifact expected at: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_pre_publication_review_queue_v1.0.0.md` (per Stage 5 doctrine; transparent quality-control disclosure for publisher).
+- Stage 5 sign-off artifact expected at: `publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-5-signoff.md` (PROPOSED at session start → RATIFIED READY-TO-SUBMIT at session close per Amendment C).
+- Pre-publication review queue artifact expected at: `publishing/essays/atlantic-main-chesapeake-watermen/rigor/pre-pub-review-queue.md` (per Stage 5 doctrine; transparent quality-control disclosure for publisher).
 - Cover letter draft expected at: `publishing/essays/atlantic-main-chesapeake-watermen/cover-letter.md` (PROPOSED at session start → RATIFIED at session close; author final-ratifies before submission).
 - Status to look for: `STATE: Stage 5 RATIFIED READY-TO-SUBMIT` at session close.
 
 ## Cross-references
 
 - Essay at Stage 3 cascade close: `publishing/essays/atlantic-main-chesapeake-watermen/essay.md` (feature branch `claude/ch3-atlantic-pass35-260527-5f34a1` at Pass 3.5 head)
-- Stage 1 brief: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md) §1 audience set + §2 editorial-brain map + §3 comp titles + §9 cross-artifact coherence (Stage 1c)
+- Stage 1 brief: [`publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md`](../../publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md) §1 audience set + §2 editorial-brain map + §3 comp titles + §9 cross-artifact coherence (Stage 1c)
 - Pass 3.1 + 3.2 + 3.3 + 3.4 + 3.5 artifacts (cumulative cascade record)
 - Stage 4 render audit: commit `b54822b` (RATIFIED offline 2026-05-27)
 - Cover-letter precedents:
@@ -45,11 +45,11 @@ RATIFIED offline 2026-05-27 (commit `b54822b`). Your job is to
 produce three Stage 5 artifacts in this session:
 
 1. **Stage 5 academic-rigor + prose-quality sign-off artifact**
-   at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_sign_off_v1.0.0.md`
+   at `publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-5-signoff.md`
    (PROPOSED → RATIFIED READY-TO-SUBMIT at session close).
 
 2. **Pre-publication review queue artifact** at
-   `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_ch3_atlantic_main_essay_stage5_pre_publication_review_queue_v1.0.0.md`
+   `publishing/essays/atlantic-main-chesapeake-watermen/rigor/pre-pub-review-queue.md`
    (transparent quality-control disclosure for publisher per
    parent doctrine "Pre-publication review queue" mandatory
    hand-off artifact; goes to Atlantic features editor with
@@ -86,7 +86,7 @@ produce three Stage 5 artifacts in this session:
    Pass 3.5 restorations applied at §VII line 137 + §VIII line
    141).
 
-6. **tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_atlantic_main_essay_pre_draft_audience_structure_v1.0.0.md**
+6. **publishing/essays/atlantic-main-chesapeake-watermen/rigor/stage-1-brief.md**
    — Stage 1 brief (the Stage 1 brief's academic-rigor +
    prose-quality bookend sign-off was the §17 Findings inventory
    RATIFIED 2026-05-27 commit `361e5dc`; Stage 5 sign-off bookend
