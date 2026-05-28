@@ -2,7 +2,7 @@
 
 **Status:** Framework ratified 2026-05-09. Applied to pre-pass-1 essay (`publishing/essays/noema-commons-bonds/_archive/pre-pass1-drafts/noema-essay-pre-pass1_2026-05-09.md`).
 
-**Methodology:** Adapted from the Aeon title rigor pass (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md`), with Noema-specific differences:
+**Methodology:** Adapted from the Aeon title rigor pass (`publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md`), with Noema-specific differences:
 - Noema editorial brain is Berggruen-Institute-adjacent / policy-engaged / internationalist / reportage-driven / named-sources-required; lower jargon tolerance than Aeon. Demands a three-register weave (memoir + history/theory + reportage), not the two-register (memoir + thought-experiment) that Aeon tolerates.
 - Berggruen Prize judge is elevated to a Tier-2 audience (not optional); the prize is the book's longer-arc destination. (Earlier claim that "Mazzucato + Raworth are recent winners" was wrong — neither has won the Berggruen Prize; corrected 2026-05-20 per Aeon Pass 3.1 §4.1 cascade scan. Verified recent winners: 2023 Patricia Hill Collins / 2025 Michael Sandel.)
 - Mazzucato/Raworth-cluster reader added — this character is dense in Noema's actual readership.

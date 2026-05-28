@@ -224,7 +224,7 @@ The reasoning for not archiving now:
 
 **Captures the following state changes:**
 
-1. **Aeon pitch title ratified** — "The Mask of Abundance" (rigor pass v1.0.0, 2026-05-08); five candidates evaluated through full rigor pass (`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md`); selected for "X of Y" pattern matching Sandel/Pistor/Mazzucato/Raworth + frame-agnosticism + threading to pitch's own signature phrasing. Cultural-engagement commitment to Dunbar/Du Bois/Ellison/Fanon lineage — explicit acknowledgment in Aeon essay + book Ch 8 + Ch 1; bibliography §21 added; mask-terminology pivot prepared for Darity May 12 call. Version B alternate-frame draft preserved on hand.
+1. **Aeon pitch title ratified** — "The Mask of Abundance" (rigor pass v1.0.0, 2026-05-08); five candidates evaluated through full rigor pass (`publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md`); selected for "X of Y" pattern matching Sandel/Pistor/Mazzucato/Raworth + frame-agnosticism + threading to pitch's own signature phrasing. Cultural-engagement commitment to Dunbar/Du Bois/Ellison/Fanon lineage — explicit acknowledgment in Aeon essay + book Ch 8 + Ch 1; bibliography §21 added; mask-terminology pivot prepared for Darity May 12 call. Version B alternate-frame draft preserved on hand.
 2. **Darity interview confirmed** — 2026-05-12 @ 14:00 ET, phone, 1 hr (author calls Sandy). Pre-read brief, background brief, internal interview-prep doc, live-call companion (HTML+MD), framework-decline contingency plan all drafted. Mullen warm-intro deferred to end-of-call.
 3. **Outreach pipeline state per v1.52.0 + post-handoff:**
    - Mazzucato HOLDING via Adam Albrecht (UCL/IIPP).

@@ -35,10 +35,10 @@ set.
 **Audit target.** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 — ratified 2026-05-08 as the locked submission cut; iterated A→B→C control
 that beat audience-blind Pitch B at Stage 3 comparison per
-`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`.
+`publishing/essays/aeon-mask-of-abundance/rigor/stage-3-comparison_2026-05-10.md`.
 
 **Audit baseline.** Stage 1 brief §6/§7 canonical-truth carry-forward inventory
-in `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
+in `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`
 — per v2.0 Amendment A discipline, the Stage 1 brief is the canonical
 source-of-truth for the pitch; Ch 7 / Ch 8 / Ch 1 prose are NOT re-opened
 as source-of-truth (Path B preemptive policy carried into the audit).
@@ -338,7 +338,7 @@ Cascade flag CLOSED in this session.
 Version C is extraordinarily tight against Stage 1 canonical truth. This is
 expected: Version C is the iterated A→B→C control that beat audience-blind
 Pitch B at Stage 3 comparison on 13 of 14 substantive criteria (see
-`commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`
+`publishing/essays/aeon-mask-of-abundance/rigor/stage-3-comparison_2026-05-10.md`
 §5). The careful iteration that produced Version C — multi-version refinement
 + title rigor pass + ratification — left no factual drift of severity HIGH
 or MEDIUM.
@@ -385,7 +385,7 @@ session.
 |---|---|---|---|
 | F-FC-AeonC-1 | RATIFIED | `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` Para 1: *"the analog at"* → *"an analog like"* | 300w preserved |
 | F-FC-AeonC-2 | CLOSED (author affirmation) | None | No edit |
-| §4.1 Berggruen-2024 flag (Aeon Stage 1 brief) | VERIFIED + PATCHED | `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` §1 Tier 2 #5: *"Mazzucato won 2024"* → *"Sandel won 2025; Raworth, Mazzucato, etc. in the broader comp cluster"* + 2026-05-20 correction-note | Stage 1 brief now factually accurate |
+| §4.1 Berggruen-2024 flag (Aeon Stage 1 brief) | VERIFIED + PATCHED | `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` §1 Tier 2 #5: *"Mazzucato won 2024"* → *"Sandel won 2025; Raworth, Mazzucato, etc. in the broader comp cluster"* + 2026-05-20 correction-note | Stage 1 brief now factually accurate |
 | §4.1 cascade scan (4 additional contaminated artifacts) | EXECUTED + PATCHED | 4 files patched with correction-notes (Atlantic Ideas Stage 1 brief line 71; Noema Stage 1 brief lines 57–58; Noema audience-load 2026-05-09 lines 7, 26, 334; Why-bonds paragraph audience-load 2026-05-11 line 22) | Corpus-wide factual-attribution drift closed |
 
 Word count check (post-Phase-C-α): Version C body = 300w (Para 1 = 101w
@@ -512,13 +512,13 @@ merge-to-main default.
 ## 8. Cross-references
 
 - Audit target (post-patch): `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
-- Stage 1 brief (post-patch; canonical-truth audit baseline): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
-- Prior Stage 3 comparison verdict (A wins; submit C as-is): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`
+- Stage 1 brief (post-patch; canonical-truth audit baseline): `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`
+- Prior Stage 3 comparison verdict (A wins; submit C as-is): `publishing/essays/aeon-mask-of-abundance/rigor/stage-3-comparison_2026-05-10.md`
 - Aeon submission workstream handoff: `tools/workstream-handoffs/aeon-submission-handoff_2026-05-09.md`
 - Stage 3 template (Pass 3.1 protocol): `tools/drafting-templates/stage-3-three-pass-rigor-audit.md`
 - Discipline memory: `tools/memory/feedback_audience_aware_drafting_discipline.md`
 - Named-subject consent memory: `tools/memory/feedback_named_subject_consent.md`
-- Title rigor pass (locked title *The Mask of Abundance*): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md`
+- Title rigor pass (locked title *The Mask of Abundance*): `publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md`
 
 ---
 

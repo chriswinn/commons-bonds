@@ -251,7 +251,7 @@ The 25-name list mix: ~60% econ/policy big-idea, ~25% narrative-nonfiction-with-
 - `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-essay-dunbar-aside-drafts_2026-05-08.md` (cultural-engagement drafts for post-acceptance essay-development phase)
 - `publishing/essays/noema-commons-bonds/_archive/planning/rewrite-plan_2026-05-01.md`
 - `publishing/essays/berggruen-prize-2026/_archive/reference/commons-bonds-berggruen-essay-draft.docx`
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md`
+- `publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md`
 
 **Framework + alignment:**
 - `alignment/commons_bonds_framework_positioning_disciplines_v1.0.0.md` (FPD v1.0.0)

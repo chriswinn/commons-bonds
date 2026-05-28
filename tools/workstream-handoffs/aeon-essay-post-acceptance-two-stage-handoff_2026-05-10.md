@@ -13,7 +13,7 @@ The two-stage audience-aware drafting discipline ratified at v2.0 on 2026-05-10 
 **Regime fit.** This workstream is a long-form (~3,000–4,500w; aim for the Aeon middle of ~3,500w) publisher-facing essay derived from Ch 7 *On Other Worlds* + Ch 8 *What Things Actually Cost* (McDowell case-walk) + Ch 1 *The Quiet Math* (commute case + personal/memoir register). The v2.0 domain-of-applicability rule clauses fire as follows:
 
 - **(a) Path B contamination risk applies — and it is identical in structure to the Noema test that just validated Amendment A.** The essay derives from chapters that contain the exact pitch material plus extension. Drafting from those chapters as source text reproduces the Noema-essay-A failure pattern: ~17–22 verbatim sentences + ~14 high-echo paragraphs. The audience-blind Stage 2 protects against this — Pitch B passed Path B audit cleanly under the same preemptive policy. Path B preemptive policy is mandatory: do NOT open Ch 7, Ch 8, Ch 1, or any pitch version (A / B / C) as source text in Stage 2.
-- **(b) Apparatus tripwire risk applies.** The source chapters contain framework apparatus (cluster-γ, RCV, ARR, IPG, etc. as relevant) that Aeon's literary-philosophical general readership does not tolerate. The Stage 1 brief's apparatus exclusion list must hold through Stage 2. The Aeon pitch Stage 1 brief at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` is the template; the essay's brief extends it.
+- **(b) Apparatus tripwire risk applies.** The source chapters contain framework apparatus (cluster-γ, RCV, ARR, IPG, etc. as relevant) that Aeon's literary-philosophical general readership does not tolerate. The Stage 1 brief's apparatus exclusion list must hold through Stage 2. The Aeon pitch Stage 1 brief at `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` is the template; the essay's brief extends it.
 - **(c) No strong iterated control exists for the essay.** Unlike the pitch (which had a ratified Version C control that the Aeon Stage 3 verdict showed beat audience-blind drafting decisively), the post-acceptance essay has not been drafted before. There is nothing to iterate against. Audience-blind Stage 2 from a Stage 1 brief is the right shape — the Aeon pitch result does NOT contradict applying v2.0 here, because that result was about strong-control short-form material; this is no-control long-form material.
 
 All three clauses fire — apply v2.0, no exceptions.
@@ -34,7 +34,7 @@ All three clauses fire — apply v2.0, no exceptions.
 5. **Editor-collaboration phase, then final polish + AI disclosure.** Aeon's post-acceptance back-and-forth with the editor follows Stage 3; treat editor edits as a separate phase, not as part of Stage 3.
 6. **Path B preemptive policy throughout.** No source-chapter or pitch-version prose in front of any drafting session. Any sentence that reads as a source-chapter echo at Stage 3 fact-check gets rewritten freshly.
 
-**Cross-references.** v2.0 memory: `feedback_audience_aware_drafting_discipline.md`. Noema Stage 3 verdict (per-test basis for Amendments A + B; itemizes the factual-drift catalog this essay's Stage 1 brief must preempt): `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` §3.8 + §6.1 + §7. Aeon Stage 3 verdict (per-test basis for Amendment C; confirms the regime distinction): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md` §5–§6.
+**Cross-references.** v2.0 memory: `feedback_audience_aware_drafting_discipline.md`. Noema Stage 3 verdict (per-test basis for Amendments A + B; itemizes the factual-drift catalog this essay's Stage 1 brief must preempt): `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` §3.8 + §6.1 + §7. Aeon Stage 3 verdict (per-test basis for Amendment C; confirms the regime distinction): `publishing/essays/aeon-mask-of-abundance/rigor/stage-3-comparison_2026-05-10.md` §5–§6.
 
 ---
 
@@ -53,7 +53,7 @@ If both conditions hold, this handoff drives a fresh-session Stage 2 audience-bl
 
 Draft the Aeon essay version of *The Mask of Abundance* using the two-stage discipline. Source chapter: Ch 7 *On Other Worlds* (`manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md`) plus Ch 8 *What Things Actually Cost* for the McDowell case-walk and Ch 1 for the personal/commute case.
 
-**Stage 1 (pre-draft audience pass) for the essay would be done in this handoff's prep session** (not the fresh session). It produces a Stage 1 brief similar to the Aeon-pitch Stage 1 brief at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`, but for the full essay rather than the pitch:
+**Stage 1 (pre-draft audience pass) for the essay would be done in this handoff's prep session** (not the fresh session). It produces a Stage 1 brief similar to the Aeon-pitch Stage 1 brief at `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`, but for the full essay rather than the pitch:
 
 - Audience set adapted from Aeon-pitch v1.0.0 (the same 14 characters apply; Aeon Philosophy Prize judges + Berggruen Prize judges remain Tier 2).
 - Editorial-brain map: the editor handling the post-acceptance essay will likely be Sam Haselby (philosophy editor) or Sam Dresser (deputy). Voice + register matches the pitch.
@@ -116,7 +116,7 @@ If the two-stage discipline validates at Stage 3 of the Noema/Aeon-pitch experim
 1. Confirm the trigger condition: Aeon accepted the pitch AND two-stage discipline status is known (validated, modified, or falsified per Stage 3 of the Noema/Aeon-pitch experiment).
 2. Read this handoff end-to-end.
 3. Read the Aeon editor's commission letter (length, deadline, structural preferences).
-4. Read the Aeon-pitch Stage 1 brief at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` — this is the template for the essay's Stage 1 brief.
+4. Read the Aeon-pitch Stage 1 brief at `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` — this is the template for the essay's Stage 1 brief.
 5. Read `feedback_audience_aware_drafting_discipline.md` (memory). If the discipline was modified, read the modification.
 6. Build the Stage 1 brief in this prep session.
 7. Build the fresh-session handoff doc.
@@ -140,8 +140,8 @@ If the two-stage discipline validates at Stage 3 of the Noema/Aeon-pitch experim
 - `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-essay-dunbar-aside-drafts_2026-05-08.md` (Dunbar engagement variants)
 - `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-submission-strategy_2026-05-08.md` (post-acceptance context)
 - `publishing/essays/aeon-mask-of-abundance/_archive/session-handoffs/aeon-session-handoff_2026-05-10.md` (template for the essay's handoff)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` (template for the essay's Stage 1 brief)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md` (title rigor pass)
+- `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` (template for the essay's Stage 1 brief)
+- `publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md` (title rigor pass)
 - `manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md` (primary source — DO NOT read as source text in fresh session)
 - `manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md` (McDowell case)
 - `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md` (commute case)

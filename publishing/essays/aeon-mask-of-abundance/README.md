@@ -22,4 +22,13 @@
 
 ## Cross-references
 
-Rigor-pass artifacts at `tools/rigor-passes/` (search for `aeon` filename pattern; Stage 3 cycle ran 2026-05-21).
+Rigor-pass artifacts at [`rigor/`](rigor/) — per-essay consolidation migrated 2026-05-28 (see [`publishing/essays/_pipeline/per-essay-rigor-consolidation-pilot_2026-05-28.md`](../_pipeline/per-essay-rigor-consolidation-pilot_2026-05-28.md)). `git log --follow` traces pre-migration history at the prior `tools/rigor-passes/` paths.
+
+- **Title candidates** (2026-05-08) — [`rigor/title-candidates_2026-05-08.md`](rigor/title-candidates_2026-05-08.md)
+- **Stage 1 brief** (pitch-first model; ratified 2026-05-10) — [`rigor/stage-1-brief.md`](rigor/stage-1-brief.md)
+- **Stage 3 audience-blind A-vs-B comparison** (2026-05-10) — [`rigor/stage-3-comparison_2026-05-10.md`](rigor/stage-3-comparison_2026-05-10.md)
+- **Pass 3.1 fact-check** (Version C; 2026-05-19) — [`rigor/pass-3-1-fact-check.md`](rigor/pass-3-1-fact-check.md)
+- **Pass 3.2 voice-polish** (Version C; 2026-05-21) — [`rigor/pass-3-2-voice-polish.md`](rigor/pass-3-2-voice-polish.md)
+- **Pass 3.3 + 3.4 bundled audience-load** (Version C; small-form Aeon variant; 2026-05-21) — [`rigor/pass-3-3-and-3-4-bundled-audience-load.md`](rigor/pass-3-3-and-3-4-bundled-audience-load.md)
+- **Evolution audit** (2026-05-27 file-placement correction) — [`rigor/evolution-audit_2026-05-27.md`](rigor/evolution-audit_2026-05-27.md)
+- **Reading-flow review** (2026-05-28) — [`rigor/reading-flow-review_2026-05-28.md`](rigor/reading-flow-review_2026-05-28.md)

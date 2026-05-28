@@ -2,13 +2,13 @@
 
 **Status:** Stage 2 deliverable for the two-stage drafting discipline experiment, run #2 of 2 (Aeon pitch). Audience-blind flow draft of the Aeon pitch for *Commons Bonds*, drafted from beats and carry-forward inventory in the Stage 1 brief. Comparison against Pitch A (= Version C, ratified 2026-05-08, at `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`) is a separate Stage 3 session — do NOT run a self-evaluation or Path B audit on this file in this session.
 
-**Source brief:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`.
+**Source brief:** `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`.
 
 **Path B preemptive policy:** Ch 7 (`manuscript/chapters/Chapter__7_OnOtherWorlds__Draft.md`), Pitch Version A (`publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn.md`), and Pitch Version C (`publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`) were not opened during drafting.
 
 **Body word count:** ~286w (¶1 ~96 / ¶2 ~123 / ¶3 ~67). Target 270–300w.
 
-**Proposed essay title:** *The Mask of Abundance* (locked per `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md`).
+**Proposed essay title:** *The Mask of Abundance* (locked per `publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md`).
 
 **Author:** Chris Winn
 
@@ -53,4 +53,4 @@ Chris Winn is a nursing student in Hampton, Virginia, and a former healthcare IT
 
 ---
 
-*End of Pitch B (Stage 2 audience-blind flow draft). Stage 3 comparison against Pitch A is a separate session per `publishing/essays/aeon-mask-of-abundance/_archive/session-handoffs/aeon-session-handoff_2026-05-10.md` §1 and `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` §11.*
+*End of Pitch B (Stage 2 audience-blind flow draft). Stage 3 comparison against Pitch A is a separate session per `publishing/essays/aeon-mask-of-abundance/_archive/session-handoffs/aeon-session-handoff_2026-05-10.md` §1 and `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` §11.*

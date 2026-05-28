@@ -21,7 +21,7 @@ may exist in other venues that ran the two-stage drafting discipline
 experiment.
 
 **Cross-references:**
-- Triggering audit: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_aeon_pitch_evolution_audit_v1.0.0.md` F-EVO-AUDIT-1
+- Triggering audit: `publishing/essays/aeon-mask-of-abundance/rigor/evolution-audit_2026-05-27.md` F-EVO-AUDIT-1
 - Reorg commit: `git show 52fde31` (50 file moves)
 - Two-stage discipline doctrine: `tools/commons_bonds_pipeline_doctrine_v1.0.0.md`
 

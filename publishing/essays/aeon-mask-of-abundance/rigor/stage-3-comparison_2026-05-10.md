@@ -5,7 +5,7 @@
 **Inputs:**
 - **Pitch A (control):** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` — ratified 2026-05-08 for the Mon Jun 1 2026 Aeon portal window. **Default state if Stage 3 returns "A wins" or "mixed" is: submit Version C as planned.**
 - **Pitch B (experimental):** `publishing/essays/aeon-mask-of-abundance/essay.md` — Stage 2 audience-blind flow-draft, generated without reading Ch 7 / Pitch Version A / Pitch Version C as source texts.
-- **Stage 1 brief:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` — supplies the audience pressure-test character set, editorial-brain map, structural decisions, voice register, carry-forward inventory, and the embedded Stage 3 protocol (§10–§11) executed below.
+- **Stage 1 brief:** `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` — supplies the audience pressure-test character set, editorial-brain map, structural decisions, voice register, carry-forward inventory, and the embedded Stage 3 protocol (§10–§11) executed below.
 - **Discipline memory:** `feedback_audience_aware_drafting_discipline.md`.
 - **Stage 2 brief:** `publishing/essays/aeon-mask-of-abundance/_archive/session-handoffs/aeon-session-handoff_2026-05-10.md`.
 
@@ -311,12 +311,12 @@ Per the experimental protocol: this Stage 3 session produces a per-test verdict 
 **Companion test:** Noema essay Stage 3 session, running blind to this one in parallel.
 
 **Cross-references:**
-- Stage 1 brief: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
+- Stage 1 brief: `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`
 - Pitch A (control): `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 - Pitch B (experimental): `publishing/essays/aeon-mask-of-abundance/essay.md`
 - Stage 2 brief: `publishing/essays/aeon-mask-of-abundance/_archive/session-handoffs/aeon-session-handoff_2026-05-10.md`
 - Discipline memory: `feedback_audience_aware_drafting_discipline.md`
-- Title rigor pass (where *The Mask of Abundance* was ratified): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md`
+- Title rigor pass (where *The Mask of Abundance* was ratified): `publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md`
 - PM session handoff: `tools/workstream-handoffs/pm-session-handoff_2026-05-10.md`
 
 ---

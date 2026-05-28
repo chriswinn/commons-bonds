@@ -788,7 +788,7 @@ Findings tracked internally; presented one-at-a-time in §23 ratification sessio
 **Wave 1 brief precedents read for pattern:**
 - Boston Review brief (closest fit for review-essay register): [`publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md`](../../publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md)
 - Atlantic Ideas brief (long-form length precedent): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md)
-- Aeon pitch brief (literary register): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md)
+- Aeon pitch brief (literary register): [`publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`](../../publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md)
 - Ch 2 Harpers brief (most recent Wave 2 structural pattern): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-26_ch2_harpers_essay_pre_draft_audience_structure_v1.0.0.md)
 
 **Cross-thread coordination:**

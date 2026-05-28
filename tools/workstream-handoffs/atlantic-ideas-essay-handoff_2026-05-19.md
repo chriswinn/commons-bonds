@@ -32,7 +32,7 @@ All three clauses fire — apply v2.0, no exceptions.
    Three distinct passes. Bundling is the failure mode v2.0 prohibits.
 4. **Path B preemptive policy throughout.** No Ch 9 prose in front of any drafting session. Any sentence that reads as a Ch 9 echo at Stage 3 fact-check gets rewritten freshly, not pasted from Ch 9.
 
-**Cross-references.** v2.0 memory: `feedback_audience_aware_drafting_discipline.md`. Noema Stage 3 verdict (per-test basis for Amendments A + B): `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` §3.8 (factual-fidelity drift catalog) + §7 (materials handed to meta-verdict). Aeon Stage 3 verdict (per-test basis for Amendment C — confirms the discipline's regime is long-form-without-strong-control, not short-form-with-strong-control): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md` §5–§6.
+**Cross-references.** v2.0 memory: `feedback_audience_aware_drafting_discipline.md`. Noema Stage 3 verdict (per-test basis for Amendments A + B): `publishing/essays/noema-commons-bonds/rigor/stage-3-comparison_2026-05-10.md` §3.8 (factual-fidelity drift catalog) + §7 (materials handed to meta-verdict). Aeon Stage 3 verdict (per-test basis for Amendment C — confirms the discipline's regime is long-form-without-strong-control, not short-form-with-strong-control): `publishing/essays/aeon-mask-of-abundance/rigor/stage-3-comparison_2026-05-10.md` §5–§6.
 
 ---
 

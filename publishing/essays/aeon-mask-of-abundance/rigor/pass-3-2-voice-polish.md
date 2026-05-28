@@ -17,7 +17,7 @@ ratification session.
 **Audit target.** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 (300w post-Phase-C-α; ratified 2026-05-08 as the locked submission cut;
 iterated A→B→C control that beat audience-blind Pitch B at Stage 3
-comparison per `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`).
+comparison per `publishing/essays/aeon-mask-of-abundance/rigor/stage-3-comparison_2026-05-10.md`).
 
 **Audit baseline.** Voice register per Stage 1 brief §5 (Mulgan / Sandel /
 MacAskill cluster — not journalist, not academic, not memoirist; concise
@@ -50,12 +50,12 @@ not applicable to a 300w pitch.
    HI-SEAS"*).
 2. `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` §"Pass 3.2:
    Voice-polish" — LLM-tic inventory + severity scale.
-3. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_aeon_pitch_version_c_pass_1_factcheck_v1.0.0.md`
+3. `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-1-fact-check.md`
    — Pass 3.1 RATIFIED artifact (esp. §5.4 carry-forward advisory on
    singular-verb-with-compound-subject in Para 1).
-4. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
+4. `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`
    — Stage 1 brief (§5 voice register; §10 length budget; §6 Path B policy).
-5. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`
+5. `publishing/essays/aeon-mask-of-abundance/rigor/stage-3-comparison_2026-05-10.md`
    — prior comparison (§1.6 voice-register / LLM-tic exposure baseline).
 6. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-13_ch1_the_quiet_math_stage3_voice_polish_v1.0.0.md`
    — canonical Pass 3.2 artifact-format model (F-V1 through F-V21
@@ -931,9 +931,9 @@ v3.1 Amendment C interactive ratification protocol).
 ## §9. Cross-references
 
 - Audit target (post-Phase-C-α; pre-Pass-3.2): `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
-- Pass 3.1 (fact-check) ratified artifact: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_aeon_pitch_version_c_pass_1_factcheck_v1.0.0.md`
-- Stage 1 brief (post-Pass-3.1-§4.1 patch): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
-- Prior Stage 3 comparison (A wins; submit C as-is): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`
+- Pass 3.1 (fact-check) ratified artifact: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-1-fact-check.md`
+- Stage 1 brief (post-Pass-3.1-§4.1 patch): `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`
+- Prior Stage 3 comparison (A wins; submit C as-is): `publishing/essays/aeon-mask-of-abundance/rigor/stage-3-comparison_2026-05-10.md`
 - Canonical Pass 3.2 artifact-format model: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-13_ch1_the_quiet_math_stage3_voice_polish_v1.0.0.md`
 - Stage 3 template (Pass 3.2 protocol): `tools/drafting-templates/stage-3-three-pass-rigor-audit.md`
 - Aeon submission workstream handoff: `tools/workstream-handoffs/aeon-submission-handoff_2026-05-09.md`
@@ -1012,7 +1012,7 @@ canonical-phrasing update (see §10.1 cross-pass routing below).
   third clause. Holds.
 
 **Stage 1 §7.4 brief patch needed.** Stage 1 brief
-`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
+`publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`
 §7.4 canonical phrasing should be updated at next PM refresh to reflect
 V3 revision (*"critique second"* → *"analytical lens second"*) with
 correction-note traceability per the Pass 3.1 §4.1 cascade discipline.

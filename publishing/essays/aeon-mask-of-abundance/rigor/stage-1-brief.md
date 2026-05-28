@@ -109,7 +109,7 @@ The fresh session may consult Ch 7 narrowly for fact verification (a date, a sce
 
 ### 7.1 Title
 
-**The Mask of Abundance** — ratified per `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md`. Cannot be changed.
+**The Mask of Abundance** — ratified per `publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md`. Cannot be changed.
 
 ### 7.2 Frame
 

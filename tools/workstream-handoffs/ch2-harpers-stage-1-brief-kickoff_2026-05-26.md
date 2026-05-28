@@ -54,7 +54,7 @@ draft session will work from.
     offline marker set; ~5,434 words)
 11. Wave 1 brief examples for pattern reference (read at least one —
     Aeon for literary-register precedent is closest fit):
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md
+    - publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md
     - publishing/essays/boston-review-accountability-gap/rigor/stage-1-brief.md
     - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_atlantic_ideas_essay_pre_draft_audience_structure_v1.0.0.md
 
@@ -212,7 +212,7 @@ Wave 1 pattern).
 - Stage 1 doctrine: `tools/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`
 - Marketing-phase memory: `tools/memory/project_book_complete_marketing_phase.md`
 - Cascade plan v2: `publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md`
-- Wave 1 brief examples: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` + Boston Review brief + Atlantic Ideas brief (all in `tools/rigor-passes/`)
+- Wave 1 brief examples: `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` + Boston Review brief + Atlantic Ideas brief (all in `tools/rigor-passes/`)
 - Pass 3.4 adversarial-set precedent for Ch 2: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_ch2_the_miner_pass_3_4_audience_load_robustness_v1.0.0.md`
 
 ---

@@ -279,7 +279,7 @@ durable record.)
 ```
 SESSION ROLE: Aeon file-organization remediation. Sub-session of
 2026-05-27 Aeon pitch evolution audit
-(tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_aeon_pitch_evolution_audit_v1.0.0.md
+(publishing/essays/aeon-mask-of-abundance/rigor/evolution-audit_2026-05-27.md
 F-EVO-AUDIT-1 ratification).
 
 CONTEXT: publishing/essays/aeon-mask-of-abundance/essay.md currently
@@ -365,11 +365,11 @@ venue; report findings.)
 ## §8. Cross-references
 
 - Audit target: `publishing/essays/aeon-mask-of-abundance/`
-- Stage 1 brief: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
-- Stage 3 comparison verdict (A wins; submit C): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`
-- Pass 3.1 fact-check ratified: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_aeon_pitch_version_c_pass_1_factcheck_v1.0.0.md`
-- Pass 3.2 voice-polish ratified: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_2_voicepolish_v1.0.0.md`
-- Pass 3.3 + 3.4 bundled: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_3_3_3_4_bundled_audience_load_v1.0.0.md`
+- Stage 1 brief: `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`
+- Stage 3 comparison verdict (A wins; submit C): `publishing/essays/aeon-mask-of-abundance/rigor/stage-3-comparison_2026-05-10.md`
+- Pass 3.1 fact-check ratified: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-1-fact-check.md`
+- Pass 3.2 voice-polish ratified: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-2-voice-polish.md`
+- Pass 3.3 + 3.4 bundled: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-3-and-3-4-bundled-audience-load.md`
 - Pipeline doctrine v3.1: `tools/memory/feedback_audience_aware_drafting_discipline.md`
 - Em-dash discipline: `tools/memory/feedback_em_dash_overuse.md`
 - Author hypothesis test reference (Wave 2 derivative planning): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` §3

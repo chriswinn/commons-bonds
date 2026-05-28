@@ -5,7 +5,7 @@ scope: aeon-pitch-versionC-post-pass32
 date: 2026-05-28
 status: PROPOSED (review session not yet fired)
 version: v1.0.0
-upstream-trigger: tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_aeon_pitch_evolution_audit_v1.0.0.md (F-EVO-AUDIT-1 ratified; this script is the F-EVO-AUDIT-2-and-after deep-review tool)
+upstream-trigger: publishing/essays/aeon-mask-of-abundance/rigor/evolution-audit_2026-05-27.md (F-EVO-AUDIT-1 ratified; this script is the F-EVO-AUDIT-2-and-after deep-review tool)
 target: publishing/essays/aeon-mask-of-abundance/essay.md (or _archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md if Aeon file-org fix not yet fired)
 ---
 
@@ -407,13 +407,13 @@ If NO: drop lowest-priority RESTORE candidates until within cap.
 
 ## §7. Cross-references
 
-- Upstream audit: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-27_aeon_pitch_evolution_audit_v1.0.0.md` (Phase B archaeology table sourced 8 candidates)
+- Upstream audit: `publishing/essays/aeon-mask-of-abundance/rigor/evolution-audit_2026-05-27.md` (Phase B archaeology table sourced 8 candidates)
 - Aeon file-org remediation handoff (PRE-SUBMIT): audit §7.1 paste-text
 - Cross-essay corpus-hygiene handoff (POST-SUBMIT): `tools/workstream-handoffs/cross-essay-corpus-hygiene-spot-check_2026-05-27.md`
 - Submission source-of-truth: `publishing/essays/aeon-mask-of-abundance/submission-day-package_2026-05-31.md` §2
 - Current canonical Version C (or new essay.md if file-org fix fired): `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` (or `publishing/essays/aeon-mask-of-abundance/essay.md`)
-- Pass 3.2 (voice-polish) source artifact: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_2_voicepolish_v1.0.0.md`
-- Pass 3.3 + 3.4 bundled source artifact: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_3_3_3_4_bundled_audience_load_v1.0.0.md`
+- Pass 3.2 (voice-polish) source artifact: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-2-voice-polish.md`
+- Pass 3.3 + 3.4 bundled source artifact: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-3-and-3-4-bundled-audience-load.md`
 - Em-dash discipline memory: `tools/memory/feedback_em_dash_overuse.md`
 - Voice-polish pipeline memory: `tools/memory/feedback_voice_polish_pipeline.md`
 

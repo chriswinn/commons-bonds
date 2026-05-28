@@ -156,11 +156,11 @@ Log the following in your outreach record (suggested path: `research/outreach/ae
 - **Pitch source (rigor-pass application history):** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 - **Version A (canonical bio + AI disclosure source):** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn.md`
 - **Submission strategy (Phase 1 + Phase 2 + Phase 3):** `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-submission-strategy_2026-05-08.md`
-- **Stage 1 brief (audience + canonical content):** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
+- **Stage 1 brief (audience + canonical content):** `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`
 - **Stage 3 rigor passes (full audit trail):**
-  - Pass 3.1 fact-check: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_aeon_pitch_version_c_pass_1_factcheck_v1.0.0.md`
-  - Pass 3.2 voice-polish: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_2_voicepolish_v1.0.0.md`
-  - Pass 3.3 + 3.4 bundled audience-load: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_3_3_3_4_bundled_audience_load_v1.0.0.md`
+  - Pass 3.1 fact-check: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-1-fact-check.md`
+  - Pass 3.2 voice-polish: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-2-voice-polish.md`
+  - Pass 3.3 + 3.4 bundled audience-load: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-3-and-3-4-bundled-audience-load.md`
 - **Post-acceptance essay source-material inventory:** `publishing/essays/aeon-mask-of-abundance/carry-forward-inventory.md`
 - **June submission cadence (broader context):** `publishing/essays/_pipeline/june-2026-submission-schedule.md`
 

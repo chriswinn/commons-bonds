@@ -85,6 +85,6 @@ Plus tighter close (*"any world"* instead of *"any of these worlds"*).
 ## Cross-references
 
 - `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn.md` — Version A (Mars admin frame)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md` — title rigor pass (applies to all versions)
+- `publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md` — title rigor pass (applies to all versions)
 - `research/literature/bibliography.md` §21 — Black literary tradition citations (applies to all versions)
 - `research/outreach/darity-live-call-companion_2026-05-06.md` — mask-question pivot prepared (applies to all versions)

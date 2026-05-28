@@ -28,8 +28,8 @@ The central claim is that the framework is universal: a pricing framework first,
 
 ## Rigor-pass application history
 
-- **Pass 3.1 fact-check** (2026-05-19): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_aeon_pitch_version_c_pass_1_factcheck_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_aeon_pitch_version_c_pass_1_factcheck_v1.0.0.md)
-- **Pass 3.2 voice-polish** (2026-05-21): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_2_voicepolish_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_2_voicepolish_v1.0.0.md) — applied F-V-AeonC-4 (Para 2 coda drop) + F-V-AeonC-5 ("a critique" → "an analytical lens")
-- **Pass 3.3 + 3.4 bundled audience-load** (2026-05-21): [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_3_3_3_4_bundled_audience_load_v1.0.0.md`](../../../tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_3_3_3_4_bundled_audience_load_v1.0.0.md)
+- **Pass 3.1 fact-check** (2026-05-19): [`publishing/essays/aeon-mask-of-abundance/rigor/pass-3-1-fact-check.md`](rigor/pass-3-1-fact-check.md)
+- **Pass 3.2 voice-polish** (2026-05-21): [`publishing/essays/aeon-mask-of-abundance/rigor/pass-3-2-voice-polish.md`](rigor/pass-3-2-voice-polish.md) — applied F-V-AeonC-4 (Para 2 coda drop) + F-V-AeonC-5 ("a critique" → "an analytical lens")
+- **Pass 3.3 + 3.4 bundled audience-load** (2026-05-21): [`publishing/essays/aeon-mask-of-abundance/rigor/pass-3-3-and-3-4-bundled-audience-load.md`](rigor/pass-3-3-and-3-4-bundled-audience-load.md)
 
 *The verbatim pitch body above is character-identical to [`submission-day-package_2026-05-31.md`](submission-day-package_2026-05-31.md) §2. If a discrepancy is observed, the submission-day package §2 is authoritative for paste-time use and this file should be reconciled to match.*

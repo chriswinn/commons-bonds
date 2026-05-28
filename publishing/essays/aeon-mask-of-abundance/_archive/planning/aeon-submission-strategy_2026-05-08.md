@@ -132,6 +132,6 @@ The Aeon submission is one bet; the broader campaign has multiple bets running i
 
 - `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` — the submission
 - `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn.md` — Version A (held as alternative)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md` — title rigor pass (applies to all Aeon submissions)
+- `publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md` — title rigor pass (applies to all Aeon submissions)
 - `research/literature/bibliography.md` §21 — Black literary tradition citations (cultural-engagement commitment for *Mask of Abundance* title)
 - `research/outreach/darity-live-call-companion_2026-05-06.md` — mask-question pivot for May 12 Darity interview

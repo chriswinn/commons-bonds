@@ -15,10 +15,10 @@ overhead.
 **Audit target.** `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
 (297w post-Phase-C-β; ratified 2026-05-08 as the locked submission cut;
 iterated A→B→C control per
-`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`).
+`publishing/essays/aeon-mask-of-abundance/rigor/stage-3-comparison_2026-05-10.md`).
 
 **Audit baseline.** Stage 1 brief §1 14-character acceptance set
-(`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`).
+(`publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`).
 Prior 2026-05-10 comparison §1.15 scored Version C as winner 7/14, ties
 6/14, loses 1/14 (slight to Pitch B on Coasean economist) under the
 comparison framework. Post-Phase-C-β state is scored here on absolute
@@ -54,15 +54,15 @@ executed 2026-05-21 (6 days ahead of target).
 1. `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` —
    audit target (post-Phase-C-β; 297w; line 47 *"pricing framework first,
    an analytical lens second"*).
-2. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
+2. `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`
    — Stage 1 brief (§1 14-character acceptance set; §5 voice register;
    §7.4 canonical central claim).
-3. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`
+3. `publishing/essays/aeon-mask-of-abundance/rigor/stage-3-comparison_2026-05-10.md`
    — prior 2026-05-10 comparison (§1.15 audience-load matrix baseline).
-4. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_2_voicepolish_v1.0.0.md`
+4. `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-2-voice-polish.md`
    — Pass 3.2 RATIFIED + APPLIED artifact (esp. §10 disposition log +
    §10.1 cross-pass routing flagging F-V-AeonC-5 V3 revision).
-5. `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_aeon_pitch_version_c_pass_1_factcheck_v1.0.0.md`
+5. `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-1-fact-check.md`
    — Pass 3.1 RATIFIED + APPLIED artifact (compressed cadence rationale).
 6. `tools/drafting-templates/stage-3-three-pass-rigor-audit.md` §"Pass
    3.3" + §"Pass 3.4" — protocols + verdict scales.
@@ -550,10 +550,10 @@ applied to the pitch in this session per Pass 3.3 + 3.4 hard constraint
 ## §10. Cross-references
 
 - Audit target (post-Phase-C-β): `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`
-- Pass 3.1 (fact-check) RATIFIED + APPLIED: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-19_aeon_pitch_version_c_pass_1_factcheck_v1.0.0.md`
-- Pass 3.2 (voice-polish) RATIFIED + APPLIED: `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-21_aeon_pitch_version_c_pass_2_voicepolish_v1.0.0.md`
-- Stage 1 brief (audience set §1 + canonical content §7): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
-- Prior 2026-05-10 Stage 3 comparison (§1.15 audience-load matrix baseline): `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_stage3_comparison_v1.0.0.md`
+- Pass 3.1 (fact-check) RATIFIED + APPLIED: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-1-fact-check.md`
+- Pass 3.2 (voice-polish) RATIFIED + APPLIED: `publishing/essays/aeon-mask-of-abundance/rigor/pass-3-2-voice-polish.md`
+- Stage 1 brief (audience set §1 + canonical content §7): `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`
+- Prior 2026-05-10 Stage 3 comparison (§1.15 audience-load matrix baseline): `publishing/essays/aeon-mask-of-abundance/rigor/stage-3-comparison_2026-05-10.md`
 - Stage 3 template (Pass 3.3 + 3.4 protocols): `tools/drafting-templates/stage-3-three-pass-rigor-audit.md`
 - Audience pressure-test construction guide (Pass 3.4 adversarial-set §3): `tools/drafting-templates/audience-pressure-test-construction.md`
 - Canonical Pass 3.3 + 3.4 split example (Ch 1 REAUDIT v3 §5.3 thread-pull synthesis format model): `tools/rigor-passes/commons_bonds_ch1_stage_3_pass_3_audience_load_REAUDIT_2026-05-17_PROPOSED.md`

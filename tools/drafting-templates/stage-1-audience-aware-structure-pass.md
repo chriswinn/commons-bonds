@@ -10,7 +10,7 @@
 
 **Canonical examples.**
 - Long-form essay Stage 1: [`publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`](../../publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md)
-- Short-form pitch Stage 1: [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`](../rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md)
+- Short-form pitch Stage 1: [`publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`](../../publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md)
 
 ---
 
@@ -64,7 +64,7 @@ pressure-test set in this brief:
     rigor pass that gated this work.
 12. Canonical examples to mirror:
     - publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md
-    - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md
+    - publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md
 
 == What to draft (context) ==
 

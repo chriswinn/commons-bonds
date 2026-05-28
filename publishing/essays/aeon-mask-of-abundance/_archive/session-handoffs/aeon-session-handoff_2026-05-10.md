@@ -29,7 +29,7 @@ Produce **Pitch B** — a ~270–300-word audience-blind flow-draft of the Aeon 
 - **Target length for Pitch B:** ~270–300w pitch body. Plus bio + AI disclosure + brief structural outline as separate sections (carry forward verbatim from Version A unless you have reason to revise).
 - **Venue:** Aeon Magazine. Long-form intellectual essay; philosophy + literary register. Editors: Sam Haselby (philosophy editor); Sam Dresser (deputy).
 - **Author:** Chris Winn. The book *Commons Bonds* is the source. The Aeon essay is a standalone piece arguing the universalizability of the cost-severance pricing framework through a closed-habitat thought experiment.
-- **Title (LOCKED):** *The Mask of Abundance* — ratified per `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md`. Cannot be changed.
+- **Title (LOCKED):** *The Mask of Abundance* — ratified per `publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md`. Cannot be changed.
 - **Frame (LOCKED):** Reader visits closed habitat (Mars, the Moon, an orbital station, Devon Island, HI-SEAS). The "perspective reversal" angle is what differentiates the pitch.
 - **Central claim (LOCKED):** The framework is universal — a pricing framework first, a critique second.
 
@@ -41,7 +41,7 @@ After you produce the draft, **stop.** Do not self-evaluate. Do not propose chan
 
 1. **THIS file** (you are here).
 2. **The two-stage discipline memory** at `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_audience_aware_drafting_discipline.md`.
-3. **The Stage 1 brief** at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`. This is the load-bearing input. It contains: Aeon-adapted audience pressure-test character set, editorial-brain map for Aeon (different from Noema), comp titles cluster, structural decisions (3 paragraphs, word targets per ¶), voice register, Path B preemptive policy, carry-forward inventory, length budget, comparison protocol.
+3. **The Stage 1 brief** at `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`. This is the load-bearing input. It contains: Aeon-adapted audience pressure-test character set, editorial-brain map for Aeon (different from Noema), comp titles cluster, structural decisions (3 paragraphs, word targets per ¶), voice register, Path B preemptive policy, carry-forward inventory, length budget, comparison protocol.
 4. **The named-subject consent discipline** at `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/feedback_named_subject_consent.md`. (No named living subjects in the Aeon pitch — McDowell County is a place name, safe to use — but the discipline is in scope for any future essay revision.)
 5. **Aeon's published guidance:** `noema-writing-guidelines.pdf` does NOT apply (different venue). Aeon's pitch guidance is summarized in the Stage 1 brief §2 (editorial brain map). Haselby's APA Blog 2020-12-10 interview is the most-specific published guidance: *"a simple, direct opener that states the argument followed by 200 words outlining how it will be made."*
 
@@ -111,8 +111,8 @@ Stage 1 ratified the following 3-paragraph pitch structure. Generate fresh prose
 - **Pitch A (Version C — the *control*)** at `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`. ~300w. Title *The Mask of Abundance.* Closed-habitat thought-experiment frame. Ratified 2026-05-08 for Mon Jun 1 2026 submission. **Do NOT edit.**
 - **Pitch Version A (held as alternative)** at `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn.md`. ~283w. Mars-administrator frame. **Do NOT edit; do NOT read as source text.**
 - **Existing rigor passes** at `tools/rigor-passes/`:
-  - `commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md` — title rigor pass (where *The Mask of Abundance* was ratified).
-  - `commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` — Stage 1 brief for this experiment.
+  - `publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md` — title rigor pass (where *The Mask of Abundance* was ratified).
+  - `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` — Stage 1 brief for this experiment.
 - **Submission strategy** at `publishing/essays/aeon-mask-of-abundance/_archive/planning/aeon-submission-strategy_2026-05-08.md` — context only.
 - **Memory entries** in `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/memory/`. Read MEMORY.md for the index.
 
@@ -132,7 +132,7 @@ Stage 1 ratified the following 3-paragraph pitch structure. Generate fresh prose
 
 1. Read this handoff end-to-end.
 2. Read `feedback_audience_aware_drafting_discipline.md` (the two-stage rule).
-3. Read the Stage 1 brief at `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` end-to-end.
+3. Read the Stage 1 brief at `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` end-to-end.
 4. Confirm with the user that you have the inputs you need before drafting. Ask any clarifying questions.
 5. Draft Pitch B from scratch — fresh prose, audience-blind (no rigor pass during drafting), one paragraph at a time, ratifying with the user as appropriate.
 6. When complete, save the file. Stop. Do not run Stage 3.
@@ -142,8 +142,8 @@ Stage 1 ratified the following 3-paragraph pitch structure. Generate fresh prose
 ## 7. Reference files (full inventory)
 
 **Stage 1 + this experiment:**
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` — Stage 1 brief.
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md` — title rigor pass (where *The Mask of Abundance* was ratified).
+- `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` — Stage 1 brief.
+- `publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md` — title rigor pass (where *The Mask of Abundance* was ratified).
 
 **Memory entries (read MEMORY.md for index):**
 - `feedback_audience_aware_drafting_discipline.md` — the two-stage rule.

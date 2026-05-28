@@ -6,7 +6,7 @@
 
 **Cross-references:**
 - `publishing/essays/aeon-mask-of-abundance/_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` — the pitch (the essay would derive from this)
-- `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md` — title rigor pass with cultural-engagement commitment
+- `publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md` — title rigor pass with cultural-engagement commitment
 - `research/literature/bibliography.md` §21 — Black literary tradition citations
 - `manuscript/chapters/Chapter__1_TheQuietMath__Draft.md` — Ch 1 light acknowledgment (applied 2026-05-08)
 - `manuscript/chapters/Chapter__8_WhatThingsActuallyCost_Draft.md` — Ch 8 substantive engagement (applied 2026-05-08)

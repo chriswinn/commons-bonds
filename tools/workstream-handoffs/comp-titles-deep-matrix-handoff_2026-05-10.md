@@ -85,10 +85,10 @@ Also: comp-titles work needs to be **fact-checked against current state of the p
 3. Read `book-proposal-handoff_2026-05-09.md` (existing workstream handoff — coordinate, don't duplicate).
 4. Read `agent-prep-handoff_2026-05-09.md` (the agent target list workflow this matrix feeds).
 5. Read the comp-titles sections of the rigor passes:
-   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-08_aeon_pitch_title_candidates_v1.0.0.md`
+   - `publishing/essays/aeon-mask-of-abundance/rigor/title-candidates_2026-05-08.md`
    - `publishing/essays/noema-commons-bonds/rigor/early-audience-load_2026-05-09.md`
    - `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md`
-   - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md`
+   - `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md`
 6. Confirm with user the comp set (which to include) before web research begins.
 7. Populate the matrix iteratively, with regular check-ins.
 

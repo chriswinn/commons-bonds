@@ -16,7 +16,7 @@
 - **§14 Public Choice hard constraint replaced** — cross-thread #13 (rent-seeking-engagement) RATIFIED + APPLIED 2026-05-18 (commit `bc02767`). Constraint rationale updated from "do not load-bear on unratified content" to length-budget + audience-load convergence on light-touch engagement.
 - **§16 cross-references refreshed** — #4 / #5 / #6 / #7 (operational) / #13 moved to cross-thread Resolved 2026-05-21; #14 partially-resolved; #15 new (Darity framework-revision); Foreign Policy alternate outline added.
 
-**Methodology:** Adapted from `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md` (long-form Stage 1 model) and `commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` (short-form Stage 1 model), with v1.1.0 refresh modeled on the Boston Review Stage 1b brief v1.0.1 v3.1-doctrine application (commit `755e758`). The Atlantic Ideas essay is a long-form (~3,500–4,500w) piece with a separate concise email-body pitch (~250–400w), so this brief covers both deliverables — the long-form essay is the primary, the pitch derives from it after the Stage 2 draft lands.
+**Methodology:** Adapted from `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md` (long-form Stage 1 model) and `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` (short-form Stage 1 model), with v1.1.0 refresh modeled on the Boston Review Stage 1b brief v1.0.1 v3.1-doctrine application (commit `755e758`). The Atlantic Ideas essay is a long-form (~3,500–4,500w) piece with a separate concise email-body pitch (~250–400w), so this brief covers both deliverables — the long-form essay is the primary, the pitch derives from it after the Stage 2 draft lands.
 
 **Why this exists:** Cross-thread item #4 (Atlantic Ideas vs. Phenomenal World slot-3 decision) was RESOLVED 2026-05-19 by author direction — *both fire in parallel.* Phenomenal World takes the $100 Barrel derivative essay; Atlantic Ideas takes the Ch 9 mechanism / policy frame per cascade-plan venue allocation. There was no pre-existing handoff for Atlantic Ideas; the PM session drafted both this brief and the handoff in parallel on 2026-05-19 as the first deliverables of the workstream. v1.1.0 refresh applies brief-update items D1–D7 ratified by author 2026-05-21 after PM session surfaced doctrinal + content drift since 2026-05-19 drafting.
 
@@ -490,7 +490,7 @@ If a Stage 0 pass is fired retrospectively (e.g., to surface a venue-fit concern
   - **#15 NEW** (Darity framework-revision findings; MI-1 / MI-2 / MI-3 + SI cluster + C cluster — none load-bearing for this essay per §14).
 - **Canonical Stage 1 examples:**
   - `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md` (long-form model — v2.0 era; structural reference)
-  - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` (short-form model — v2.0 era; structural reference)
+  - `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` (short-form model — v2.0 era; structural reference)
   - **Boston Review Stage 1b brief v1.0.1** (commit `755e758`) — v3.1 doctrine application model; this brief's v1.1.0 refresh mirrors BR's structure
 - **Darity interview material:**
   - `research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md` — §2 attribution preference (Tier W / Tier S split); §9 bibliography expansion recommendations; §10 framework-revision findings; §12 warm-intro question disposition
@@ -499,7 +499,7 @@ If a Stage 0 pass is fired retrospectively (e.g., to surface a venue-fit concern
 - **Original v2.0 discipline reference (historical):** v2.0 ratified 2026-05-10 (Amendments A + B + C); superseded by v3.1 doctrine 2026-05-17 → 2026-05-19. v2.0 framing in earlier brief sections + workstream handoff is preserved as historical record; downstream sessions apply v3.1.
 - **Canonical Stage 1 examples:**
   - `publishing/essays/noema-commons-bonds/rigor/stage-1-brief.md` (long-form model)
-  - `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-10_aeon_pitch_pre_draft_audience_structure_v1.0.0.md` (short-form model)
+  - `publishing/essays/aeon-mask-of-abundance/rigor/stage-1-brief.md` (short-form model)
 - **Sibling workstream handoffs:**
   - `tools/workstream-handoffs/boston-review-essay-handoff_2026-05-09.md` (Ch 5 / institutional-measurement frame)
   - `tools/workstream-handoffs/100-barrel-essay-handoff_2026-05-11.md` (withdrawn-Noema §III + Ch 8 thread / oil-thought-experiment frame; parallel-fire partner per cross-thread #4 resolution)
