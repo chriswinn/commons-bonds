@@ -77,7 +77,7 @@ Stage-5 hand-off artifacts: per-essay + per-chapter pre-publication review queue
 
 ### `tools/memory-updates/`
 
-Staging area for memory-discipline updates. New / amended discipline files land here first, then mirror into `tools/memory/` once the in-repo mirror is updated.
+Staging area for memory-discipline updates. New / amended discipline files land here first, then mirror into `tools/memory/` once the in-repo mirror is updated. Active class even at low volume (one file as of 2026-05-28); kept per S8 decision 2026-05-28.
 
 ### `tools/scripts/`
 
@@ -85,15 +85,11 @@ CLI utilities + supporting binaries: `build-derivatives.sh` (.md / .html → .do
 
 ### `tools/audits/`
 
-Snapshot inventories (cross-chapter consistency, pre-submission readiness). Lower-volume bin distinct from live `quality-gates/` records + `rigor-passes/` audit trail.
+Strategic-snapshot inventories. Distinct from the live `quality-gates/` records + `rigor-passes/` audit trail in that audits here are infrequent one-shot or standing-reference artifacts (cross-chapter consistency inventory; pre-submission readiness audit). Two files as of 2026-05-28 (one is a long-lived standing reference; the other a one-shot 2026-05-01 strategic snapshot). Decided to keep + document per S8 decision 2026-05-28.
 
 ### `tools/writing-process/`
 
-Meta-reflection artifacts (rigor-pipeline-overview, drafting-flow notes).
-
-### `tools/drafts/`
-
-Intermediate prose drafts + working-session outputs. Lower-volume; distinct from manuscript / publishing canonical paths.
+Portable / lift-and-reuse process docs (rigor-pipeline-overview, audience-character-roster). Distinct from `drafting-templates/` (project-specific templates) and `pipeline-doctrine/` (project doctrine) in that these are designed to be extractable to standalone references for other writing projects. Three files as of 2026-05-28. Decided to keep + document per S8 decision 2026-05-28.
 
 ### `tools/archive/`
 
@@ -101,7 +97,7 @@ Superseded versions of canonical methodology docs (older rigor protocol versions
 
 ### `tools/routines/`
 
-Operational routine specs (low-volume).
+Operational routine specs — RATIFIED 2026-05-09 routines for cron-scheduled remote agents (currently Routines 1', 2 refined, 3', 4' on unified 6:30am ET cadence). One file as of 2026-05-28. Decided to keep + document per S8 decision 2026-05-28.
 
 ---
 
