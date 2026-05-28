@@ -1,6 +1,7 @@
 # memory-process-review_2026-05-28.md
 
 **Status:** PROPOSED 2026-05-28 — author-action-required (per-recommendation disposition); AWAITING author ratification.
+**Amended 2026-05-28** (same session) — author pushback on the bulk-promotion recommendation (§1.3 Rec A/B/C + §3) ratified Option E architecture: short CLAUDE.md paragraph for `no-invented-factual-claims` only; the other two newcomers stay situational because the SessionStart hook + CLAUDE.md §"Branch discipline" already cover their operational rules. Original §1.3 Rec A/B/C + §3 preserved for reasoning trail; revised recommendation at §3.0 (replaces §3) and §5 menu refreshed (A.1, A.3 → withdrawn; A.2 → CLAUDE.md addition instead of full-file promotion).
 **Workstream:** `claude/memory-process-review-260528-67ca7b`
 **Author kickoff:** "fresh CC session doing a reflective review of the commons-bonds project's memory + process documents, looking for streamlining + pruning opportunities. Author requested this as a follow-up to the 2026-05-28 process + structure changes ratified by the PM session at `tools/workstream-handoffs/pm-session-handoff_2026-05-28.md`."
 **Method:** Phase A (memory layer review via 3 parallel Explore sub-agents, ~23 files) + Phase B (process documents drift scan) + Phase C (synthesis + recommendation report — this file).
@@ -12,7 +13,7 @@
 
 The memory + process layer is **substantively healthy** (24 entries, no obvious legacy junk, clear cross-linking) but has accumulated three identifiable inefficiencies that the 2026-05-28 ratifications make easier to fix:
 
-1. **Always-load set is undersized.** Three load-bearing 2026-05-26-to-28 disciplines (worktree-isolation, merge-on-ratification, no-invented-factual-claims) are currently situational. Each is reputational-stakes + foundational + recurrence-prone enough to belong in the always-load set. **Strong recommendation: promote all three.** Cost ~30KB of context-window addition; benefit is preventing the contamination / stranded-ratified-prose / shipped-fabrication failure modes the entries were ratified to prevent.
+1. **One load-bearing 2026-05-28 discipline (`no-invented-factual-claims`) is not yet captured in any always-loaded context. The other two newcomers (`merge-on-ratification`, `worktree-isolation`) are already covered operationally** — CLAUDE.md §"Branch discipline + merge-to-main" canonicalizes the first; the SessionStart hook + kickoff paste-text enforce the second at the harness layer. **Revised recommendation (Option E, §3.0): add a short paragraph to CLAUDE.md capturing the no-invented-facts rule (~1KB); leave the other two as situational.** Original §1.3 Rec A/B/C bulk-promotion reasoning preserved below for trail; superseded by §3.0.
 
 2. **`feedback_git_workflow.md` is now redundant + partially stale.** Its 2026-04-29 ".claude/worktrees/" pattern was superseded 2026-05-26 by the parallel-session worktree pattern; its session-end-merge cadence was superseded 2026-05-28 by merge-on-ratification. Its content survives as canonical in CLAUDE.md §"Branch discipline + merge-to-main" + the two newer memory entries. **Recommendation: major amendment OR merge into pointer.** Either trim to a 3-line pointer or archive entirely (the canonical content is now in CLAUDE.md + the newer memory entries).
 
@@ -31,9 +32,9 @@ The 20 other memory files are well-calibrated, currently load-bearing, and need 
 | 1 | feedback_audience_aware_drafting_discipline.md | always-load | v3.1 (2026-05-18) | current | **keep-as-is** |
 | 2 | feedback_named_subject_consent.md | always-load | 2026-05-09 + 05-12 + 05-20 | current | **keep-as-is** |
 | 3 | feedback_verify_stale_memory_claims.md | always-load | 2026-05-10 | current | **keep-as-is** |
-| 4 | feedback_merge_on_ratification.md | situational | 2026-05-28 | current (NEW) | **promote-to-always-load** |
-| 5 | feedback_no_invented_factual_claims_in_publisher_facing_prose.md | situational | 2026-05-28 | current (NEW) | **promote-to-always-load** |
-| 6 | feedback_worktree_isolation_for_parallel_sessions.md | situational | 2026-05-26 | current (NEW) | **promote-to-always-load** |
+| 4 | feedback_merge_on_ratification.md | situational | 2026-05-28 | current (NEW) | **keep situational** (Option E; CLAUDE.md §Branch discipline already canonicalizes) |
+| 5 | feedback_no_invented_factual_claims_in_publisher_facing_prose.md | situational | 2026-05-28 | current (NEW) | **add ~5-sentence CLAUDE.md paragraph; full file stays situational** (Option E) |
+| 6 | feedback_worktree_isolation_for_parallel_sessions.md | situational | 2026-05-26 | current (NEW) | **keep situational** (Option E; SessionStart hook + kickoff paste-text already enforce) |
 | 7 | feedback_parallel_session_ratification_cadence.md | situational | 2026-05-24 | current | **keep-as-is** (situational is right) |
 | 8 | feedback_git_workflow.md | situational | 2026-04-29 (with 05-10, 05-24, 05-25 extensions) | partially superseded | **major amendment OR archive** |
 | 9 | feedback_two_layer_content_discipline.md | situational | 2026-04-30 (WP#10) | current | **keep-as-is** |
@@ -157,7 +158,65 @@ Recommended: Option 1 (substantial refresh) as a dedicated post-this-review chip
 
 ---
 
-## §3. Phase C — Always-load set recalibration
+## §3.0 Phase C — Always-load set recalibration (REVISED — Option E, supersedes §3)
+
+**Author pushback 2026-05-28 (same session):** the §3 bulk-promotion recommendation underweighted that (a) the load-bearing rule per discipline is ~1 paragraph while the 7-17KB files are mostly empirical anchors + worked examples + cross-references, and (b) two of the three newcomers are already covered operationally at the always-loaded layer (CLAUDE.md §"Branch discipline") or at the harness layer (SessionStart hook). The original symmetry-argument for promoting all three was thin.
+
+### §3.0.1 Revised always-load architecture
+
+**Current always-load (unchanged):**
+- `feedback_audience_aware_drafting_discipline.md` (v3.1; ~18KB; justified because the rule IS the v3.1 pipeline architecture — 6 stages × 5 passes × change-cascade routing; the OS manual for every Stage 3 pass)
+- `feedback_named_subject_consent.md` (~5.6KB)
+- `feedback_verify_stale_memory_claims.md` (~2.5KB)
+
+**Net change:** No file promotions. Instead, **add a ~5-sentence paragraph to CLAUDE.md** capturing the no-invented-factual-claims hard rule. Estimated CLAUDE.md addition: ~1KB. Full memory file (`feedback_no_invented_factual_claims_in_publisher_facing_prose.md`, ~17KB) stays situational; sessions doing Pass 3.1 / Pass 3.5 / Stage 5 / sub-agent kickoff work load it deliberately.
+
+**Net always-load delta: ~1KB instead of 40KB.** All three newcomer rules covered operationally:
+
+| Discipline | Where it's covered |
+|---|---|
+| Merge-on-ratification | CLAUDE.md §"Branch discipline + merge-to-main" (already always-load); memory file at `tools/memory/feedback_merge_on_ratification.md` is supplementary empirical anchor |
+| Worktree isolation | SessionStart hook fires automatically on every fresh session + kickoff paste-text + `tools/conventions/status-markers.md` references; memory file remains the deep-dive |
+| No-invented-factual-claims | **Gap.** No CLAUDE.md analog; no harness-layer mechanism. The Ch 2 → Harper's Pass 3.5 near-miss empirically demonstrated that the *situational-load-when-relevant* discipline can fail at high parallelism when sub-agents generate invented prose at HIGH confidence with substrate-critical flags. The discipline applies at *every* drafting + Pass 3.1 + Pass 3.5 + Stage 5 + sub-agent generation point — even sessions whose primary task isn't prose generation can spawn sub-agents that produce invented content. This is the one with the real always-load case, but the always-load form should be a short CLAUDE.md paragraph, not the full 17KB file. |
+
+### §3.0.2 Draft CLAUDE.md addition (for ratification with Option E)
+
+Recommended insertion point: after the existing §"Named-subject consent" section (CLAUDE.md lines 181-188), as a new §"No invented factual claims" section. Draft:
+
+```markdown
+### No invented factual claims
+
+In publisher-facing non-fiction prose (book chapters, derivative essays,
+op-eds, cover letters, query letters, agent correspondence, AI-disclosure
+paragraphs, Stage 5 sign-offs), do NOT invent factual claims about real
+subjects — biographical specifics, scene-rendered encounters, period-typical
+civic-infrastructure detail, quoted speech, documentary-record specifics,
+motivation attributions. Substrate-safe attributions ARE permitted
+(verifiable published-work citations; on-record quotes). For restoration
+recommendations needing substrate the canonical-facts inventory doesn't
+anchor, surface the structure-only recommendation; do not generate
+illustrative invented prose, even with `[Substrate-critical note: ...]`
+flags. The single exception is explicit thought-experiment register
+signaled to the reader in the prose itself (Ch 7 *On Other Worlds* model).
+Sub-agent kickoff paste-texts must specify this discipline explicitly;
+parent-session ratify-as-recommended defaults are conditional on
+substrate-safety. Hard rule — reputational asymmetry: shipped-with-
+fabrication propagates from essay to book to future work and is not
+recoverable. See [`tools/memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md`](tools/memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md)
+for empirical anchors (Ch 2 → Harper's Pass 3.5 near-miss 2026-05-27;
+Pass 3.1 F-3.1-H1 invented Bailey biographical specifics) + 9-case
+"how to apply" detail + sub-agent design discipline.
+```
+
+~205 words / ~1.4KB. Captures the hard-rule scope, the asymmetric stakes, the thought-experiment exception, the sub-agent kickoff discipline, the pointer to deep reference.
+
+### §3.0.3 What replaces the original §3.2 "Compromise option"
+
+Option E IS the compromise option the original §3.2 gestured at, but sharper: a ~1KB CLAUDE.md addition is meaningfully different from a 17KB always-loaded memory file. The original §3.2 compromise (promote only no-invented-facts; leave the other two situational) was already directionally correct; Option E refines it to "add the rule to CLAUDE.md prose; full memory file stays situational" which is the architecture pattern that already works for the v3.1 doctrine summary vs the full pipeline-doctrine files.
+
+---
+
+## §3. Phase C — Always-load set recalibration (SUPERSEDED — preserved for trail; see §3.0 for revised recommendation)
 
 ### §3.1 Current always-load set (3)
 
@@ -189,13 +248,15 @@ Keep all 3 existing.
 
 ## §4. Pruning execution plan (sequenced)
 
-If author ratifies all recommendations, execute in this strict order (each step depends on prior step landing):
+**Revised per Option E (§3.0):** Step 1 is now a CLAUDE.md prose addition, not an `@import` block update. The always-load file set stays at 3. Steps 5+ also adjusted (README index reflects situational status of the three newcomers; no always-load count change).
 
-1. **Update CLAUDE.md** (`@import` for 3 new always-loads). One commit. Pre-push reconcile + push (internal scaffolding; auto-merge per merge-on-ratification).
+If author ratifies all (Option E version), execute in this strict order (each step depends on prior step landing):
+
+1. **Add CLAUDE.md §"No invented factual claims" section** (~205 words, drafted at §3.0.2) after existing §"Named-subject consent" section. No `@import` changes. One commit. Pre-push reconcile + push (internal scaffolding; auto-merge per merge-on-ratification).
 2. **Amend `feedback_pm_dashboard_structure.md`** (line 44 → status-markers.md pointer + Class-column note). One commit.
 3. **Amend `project_book_complete_marketing_phase.md`** (split phase-reframing from operational status). One commit.
-4. **Major-amendment `feedback_git_workflow.md`** (collapse to pointer per Option D1) OR **archive entirely** per Option D2. One commit. If archived, add ARCHIVE.md entry in same commit. Update memory/README.md index to reflect.
-5. **Update `tools/memory/README.md`** index: re-list always-loads (6); update the disposition of `feedback_git_workflow.md`. One commit.
+4. **Major-amendment `feedback_git_workflow.md`** (collapse to pointer per Option D1) OR **archive entirely** per Option D2. One commit. If archived, add ARCHIVE.md entry in same commit.
+5. **Update `tools/memory/README.md`** index: confirm always-loads remain 3 (no change); update the disposition of `feedback_git_workflow.md`; optionally add a one-line note that `feedback_no_invented_factual_claims_in_publisher_facing_prose.md` is now also captured in CLAUDE.md §"No invented factual claims" as a short paragraph for always-loaded context. One commit.
 6. **Refresh `tools/README.md`** session-start sections (lines 11-22 + 121-131 + 152-156). One commit.
 7. **Refresh `tools/workstream-handoffs/README.md`** branch-prefix conventions. One commit.
 8. **Refresh `publishing/essays/README.md`** Active essay packages table. One commit.
@@ -216,11 +277,11 @@ Each commit is internal scaffolding; auto-merges to main per the merge-on-ratifi
 
 Author can ratify per-recommendation OR batch-ratify all. Each numbered item maps to a §1.3 or §1.4 or §2 recommendation.
 
-**Memory layer (Phase A):**
+**Memory layer (Phase A) — REVISED per §3.0 Option E:**
 
-- ☐ **A.1** Promote `feedback_merge_on_ratification.md` to always-load? (Strong recommendation: YES.) [§1.3 Rec A]
-- ☐ **A.2** Promote `feedback_no_invented_factual_claims_in_publisher_facing_prose.md` to always-load? (Strong recommendation: YES — highest reputational stakes.) [§1.3 Rec B]
-- ☐ **A.3** Promote `feedback_worktree_isolation_for_parallel_sessions.md` to always-load? (Strong recommendation: YES.) [§1.3 Rec C]
+- ~~**A.1** Promote `feedback_merge_on_ratification.md` to always-load?~~ **WITHDRAWN per §3.0** — CLAUDE.md §"Branch discipline + merge-to-main" already canonicalizes; memory file stays situational.
+- ☐ **A.2** ~~Promote `feedback_no_invented_factual_claims_in_publisher_facing_prose.md` to always-load?~~ **REVISED:** Add the ~5-sentence CLAUDE.md paragraph drafted at §3.0.2 (~1KB) as a new §"No invented factual claims" section after CLAUDE.md §"Named-subject consent". Full memory file stays situational. [§3.0]
+- ~~**A.3** Promote `feedback_worktree_isolation_for_parallel_sessions.md` to always-load?~~ **WITHDRAWN per §3.0** — SessionStart hook + kickoff paste-text + status-markers.md cross-refs already enforce; memory file stays situational.
 - ☐ **A.4** Dispose of `feedback_git_workflow.md` — Option D1 (3-line pointer) OR Option D2 (archive entirely)? (Recommendation: D1.) [§1.3 Rec D]
 - ☐ **A.5** Minor amendment to `feedback_pm_dashboard_structure.md` (line 44 → status-markers.md; Class-column note)? [§1.4]
 - ☐ **A.6** Minor amendment to `project_book_complete_marketing_phase.md` (split phase-reframing from operational status; remove stale operational anchors)? [§1.4]
@@ -233,9 +294,9 @@ Author can ratify per-recommendation OR batch-ratify all. Each numbered item map
 - ☐ **B.4** AGENTS.md refresh — Option 1 (substantial), Option 2 (pointers), or Option 3 (lighter-touch)? (Recommendation: Option 1 as a dedicated chip.) [§2.3]
 - ☐ **B.5** Optional CLAUDE.md addition (one-line cross-reference to publishing/essays/README.md per-essay layout)? Low priority. [§2.2]
 
-**Compromise option (if context-budget is a concern):**
+**~~Compromise option C.1~~ — SUPERSEDED by Option E (§3.0)** which is sharper than C.1 (CLAUDE.md paragraph, not full-file promotion). Original C.1 preserved below for trail; if author prefers the lighter touch, C.1 is also acceptable.
 
-- ☐ **C.1** Promote only A.2 (no-invented-factual-claims) to always-load; leave A.1 and A.3 as situational on the rationale that CLAUDE.md §"Branch discipline" + SessionStart hook already cover their core content. Saves ~24KB of always-loaded context. [§3.2]
+- ~~**C.1** Promote only A.2 (no-invented-factual-claims) to always-load; leave A.1 and A.3 as situational on the rationale that CLAUDE.md §"Branch discipline" + SessionStart hook already cover their core content. Saves ~24KB of always-loaded context. [§3.2]~~ Superseded by Option E.
 
 ---
 
@@ -285,6 +346,6 @@ one-liner: "STATE: memory-process-pruning-execution COMPLETE; NEXT:
 
 ## §8. State
 
-**STATE:** memory-process-review PROPOSED 2026-05-28; NEXT: author-action-required (per-recommendation disposition per §5); AWAITING: author ratification.
+**STATE:** memory-process-review PROPOSED 2026-05-28 (amended same session per author pushback — Option E architecture for always-load recalibration; see §3.0); NEXT: author-action-required (per-recommendation disposition per refreshed §5); AWAITING: author ratification.
 
-**Per-session protocol close:** This report itself is internal scaffolding; auto-merge to main per merge-on-ratification rule. The report's recommendations are PROPOSED, not RATIFIED; the file landing on main does not constitute ratification of its recommendations.
+**Per-session protocol close:** This report itself is internal scaffolding; auto-merge to main per merge-on-ratification rule. The report's recommendations are PROPOSED, not RATIFIED; the file landing on main does not constitute ratification of its recommendations. The Option E amendment IS ratified (author pushback → Option E selected via AskUserQuestion 2026-05-28); the per-recommendation dispositions inside Option E remain awaiting batch / per-item ratification.
