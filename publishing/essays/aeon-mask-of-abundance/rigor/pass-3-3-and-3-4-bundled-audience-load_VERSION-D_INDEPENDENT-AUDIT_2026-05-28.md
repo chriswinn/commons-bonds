@@ -1,10 +1,6 @@
 # Aeon Pitch Version D (hybrid) — Stage 3 Pass 3.3 + 3.4 Bundled Audience-Load INDEPENDENT AUDIT v1.0.0 — 2026-05-28
 
-**Status:** **PROPOSED.** Independent (fresh-session) audit of Version D (hybrid)
-parallel draft against the 14-character Pass 3.3 acceptance set + 5-character
-Pass 3.4 adversarial set established by the V-C RATIFIED 2026-05-21 audit.
-Independence from drafter is the value-add: Phase 2 independent scoring was
-completed before Phase 3 reading of `aeon-pitch_hybrid_drafters-self-audit.md`.
+**Status:** **RATIFIED + APPLIED 2026-05-28.** Author ratified the SHIP V-D recommendation 2026-05-28 (commit `967c76e` swapped `essay.md` from V-C content to V-D content; V-D promoted to canonical at `_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-D.md`; V-C retained as safety-net fallback at `_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`). Independent (fresh-session) audit of Version D (hybrid) parallel draft against the 14-character Pass 3.3 acceptance set + 5-character Pass 3.4 adversarial set established by the V-C RATIFIED 2026-05-21 audit. Independence from drafter is the value-add: Phase 2 independent scoring was completed before Phase 3 reading of `aeon-pitch_hybrid_drafters-self-audit.md`.
 
 **Audit target.** `publishing/essays/aeon-mask-of-abundance/_archive/parallel-drafts_2026-05-28/aeon-pitch_hybrid_best-of-both.md`
 (Version D, 301w claimed in frontmatter; ~294w by token-recount; 4 em-dash
@@ -431,12 +427,22 @@ Pre-submission verification Fri May 29 (=2026-05-29) remains scheduled — porta
 
 ## §8. Cross-pass routing (post-V-D-audit-ratification)
 
-### §8.1 What fires next
+### §8.1 What fires next (post-ratification 2026-05-28)
 
-- **Author decision on V-D vs V-C swap.** This artifact recommends SHIP V-D; author retains final decision authority on Aeon portal submission content.
-- **If author ratifies SHIP V-D:** swap `publishing/essays/aeon-mask-of-abundance/essay.md` to V-D content; update submission-day-package §2 paste-block to match; archive V-C as prior-version (V-C is already RATIFIED through full 5-pass cascade and preserved at `_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md`).
-- **If author stays with V-C:** V-D remains parallel draft; V-C ships as-is at Sun May 31 portal submission per existing schedule.
-- **Pre-submission verification (Fri May 29 = 2026-05-29).** Portal-accessibility + submission-form check; final word-count + paste-block verification (matches whichever version the author ratifies).
+**Status of what fired:**
+
+- ✅ **Author ratified SHIP V-D recommendation 2026-05-28.** Per merge-on-ratification rule.
+- ✅ **`publishing/essays/aeon-mask-of-abundance/essay.md` swapped to V-D content** (commit `967c76e` 2026-05-28). 294w; metadata updated with V-C → V-D promotion rationale; rigor-pass application history extended.
+- ✅ **`submission-day-package_2026-05-31.md` §2 paste-block updated to V-D** (same commit). Word counts + self-check + post-submission logging note all updated.
+- ✅ **V-D prior-versions archive created** at `_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-D.md` (mirrors V-C archive structure: pedigree + 3 diffs from V-C + word-count breakdown + cross-references).
+- ✅ **V-C retained as safety-net fallback** at `_archive/prior-versions/aeon-pitch-commons-bonds-winn_VERSION-C.md` (5-pass RATIFIED 2026-05-21; superseded but preserved).
+- ✅ **Parallel-drafts hybrid file** at `_archive/parallel-drafts_2026-05-28/aeon-pitch_hybrid_best-of-both.md` frontmatter updated to "PROMOTED TO CANONICAL 2026-05-28"; file retained for the three-variant head-to-head refinement chip (variant α / control).
+
+**What remains:**
+
+- **Three-variant head-to-head refinement chip spawned 2026-05-28** (announce-the-move trims + ¶1 action-frame test against V-D control). May surface a tighter successor variant (would become Version E); if so, would use the same swap pattern. V-D remains canonical pending any such successor's ratification.
+- **Pre-submission verification (Fri May 29 = 2026-05-29).** Portal-accessibility + submission-form check; final word-count + paste-block verification (V-D pitch body 294w).
+- **Aeon portal submission (Sun May 31 14:01 UTC = Mon Jun 1 ~00:01 AEST).** Submit V-D 294w body + bio + AI disclosure + brief structural outline per `submission-day-package_2026-05-31.md`.
 
 ### §8.2 What does NOT fire from this artifact
 
@@ -458,9 +464,9 @@ Don't-slip status: **CLEAR.** V-D audit lands 1 day ahead of pre-verification ga
 
 ---
 
-## §9. Stop point — PROPOSED 2026-05-28
+## §9. Stop point — RATIFIED + APPLIED 2026-05-28
 
-This artifact PROPOSED 2026-05-28 (independent fresh-session audit of V-D hybrid against V-C RATIFIED baseline). Per v3.1 Amendment C, this is NOT a prose-modifying pass — no spot-fixes recommended; no author interactive ratification required to apply spot-fixes. Author retains final decision authority on V-D vs V-C swap for Sun May 31 portal submission.
+This artifact PROPOSED 2026-05-28 morning (independent fresh-session audit of V-D hybrid against V-C RATIFIED baseline); **RATIFIED + APPLIED 2026-05-28 afternoon** when the author ratified the SHIP V-D recommendation and V-D was promoted to canonical submission text via commit `967c76e`. Per v3.1 Amendment C, this is NOT a prose-modifying pass — no spot-fixes recommended; ratification took the form of author-acceptance of the SHIP V-D recommendation + corresponding swap of canonical `essay.md`.
 
 **Verdict summary:**
 - **Pass 3.3 acceptance:** NET INCLUDE DECISIVE (11/14 INCLUDE + 3/14 NEUTRAL + 0/14 EXCLUDE); **substantially stronger at Tier 1 than V-C** (3 of 4 Tier 1 ✓✓✓ vs V-C's 1 of 4).
@@ -468,13 +474,18 @@ This artifact PROPOSED 2026-05-28 (independent fresh-session audit of V-D hybrid
 - **Cross-check vs drafter's-self-audit (§11):** 11 of 14 acceptance verdicts confirmed; 3 divergences at T1.4 + T2.7 + T2.9 (all "drafter over-credited by 1 rung"). All 5 of 5 adversarial verdicts confirmed.
 - **Aggregate verdict:** **SHIP V-D for Sun May 31 14:01 UTC Aeon portal submission.** V-D earns the swap based on the meta-sentence drop addressing a Stage 1 §2 Aeon-disqualifier + 3 ✓✓→✓✓✓ Tier 1/2 upgrades concentrated where verdict-magnitude matters most.
 
-**What fires next:**
-- Author decision on V-D vs V-C swap (informed by this artifact + §11 cross-check + drafter's-self-audit).
-- If SHIP V-D: swap essay.md content + update submission-day-package §2 paste-block.
-- Pre-submission verification Fri May 29 (=2026-05-29) — unchanged regardless of swap decision.
-- Aeon portal submission Sun May 31 14:01 UTC — unchanged regardless of swap decision.
+**What has fired (post-ratification 2026-05-28 afternoon):**
+- ✅ Author ratified SHIP V-D 2026-05-28.
+- ✅ `essay.md` swapped to V-D content (commit `967c76e`).
+- ✅ `submission-day-package_2026-05-31.md` §2 paste-block updated to V-D.
+- ✅ V-D prior-versions archive created.
 
-This artifact (internal scaffolding rigor-pass artifact) autonomously fast-forwards to `main` at session close per CLAUDE.md merge-on-ratification rule. No source-file edits applied to V-D or V-C in this session per Pass 3.3 + 3.4 hard constraint (audit-only; remediation separate).
+**What remains:**
+- Three-variant head-to-head refinement chip continues (spawned 2026-05-28); may surface V-E.
+- Pre-submission verification Fri May 29 (=2026-05-29).
+- Aeon portal submission Sun May 31 14:01 UTC.
+
+This artifact (internal scaffolding rigor-pass artifact) was fast-forwarded to `main` at the PROPOSED commit (`ce9b518` 2026-05-28 morning); the RATIFIED + APPLIED status update is in a subsequent commit. No source-file edits to V-D or V-C were applied by this audit session per Pass 3.3 + 3.4 hard constraint (audit-only); the canonical-swap was applied by the author-ratification session (commit `967c76e` 2026-05-28 afternoon).
 
 ---
 
