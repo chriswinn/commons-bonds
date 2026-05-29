@@ -862,19 +862,184 @@ V2 audit complete at §§0-10 Phase 2 LOCK. §11 cross-check vs prior audits rem
 
 ## §11. Cross-check vs drafter's-self-audit + V1 prior independent audit
 
-⏳ **DEFERRED until §§0-10 Phase 2 LOCK commit lands on feature branch.** Per V2 audit-chip discipline: Phase 2 verdicts must be timestamp-frozen against cross-check inputs. §11 will be populated in a separate Phase 3 commit after the PROPOSED-PHASE-2-LOCKED commit lands.
+**Phase 3 protocol executed.** §11 populated AFTER PROPOSED-PHASE-2-LOCKED commit at `973ea0e` landed on feature branch. The Phase 2 verdicts at §§2-10 are timestamp-frozen against this cross-check. The drafter's-self-audit at `_archive/parallel-drafts_2026-05-28/ch2-harpers-essay_hybrid_drafters-self-audit.md` + V1 prior independent audit at `pass-3-3-and-3-4-bundled-audience-load_VERSION-D_INDEPENDENT-AUDIT_2026-05-28.md` were both opened only at this Phase 3 step.
 
-Phase 3 cross-check protocol (to be executed after Phase 2 LOCK):
-1. Open drafter's-self-audit at `publishing/essays/harpers-the-miner/_archive/parallel-drafts_2026-05-28/ch2-harpers-essay_hybrid_drafters-self-audit.md` — read in full.
-2. Open V1 prior independent audit at `publishing/essays/harpers-the-miner/rigor/pass-3-3-and-3-4-bundled-audience-load_VERSION-D_INDEPENDENT-AUDIT_2026-05-28.md` — read in full.
-3. Compare per-character Pass 3.3 verdicts (16 chars) + per-character Pass 3.4 verdicts (7 chars A-G) + §2.1 hard-rule axis findings between (a) this V2 audit; (b) V1 prior audit; (c) drafter's-self-audit.
-4. Document agreements + disagreements (with magnitude of gap) per pass + axis.
-5. Special attention to **§2.1 hard-rule axis verdict** — did V1 + drafter catch all the HARD-RULE-VIOLATIONS this V2 audit catches? Did either miss any?
-6. Special attention to **Pass 3.5 findings** — V1 did NOT cover Pass 3.5; drafter's-self-audit did NOT cover Pass 3.5. V2 Pass 3.5 findings are net-new; only the LOCKED Pass 3.5 RATIFIED + APPLIED baseline is available as comparison input.
-7. **Reverse cross-check:** did either V1 or drafter's-self-audit catch findings this V2 audit missed? Surface them explicitly here.
+### §11.1 Cross-check protocol summary
+
+Three audit sources triangulated:
+- **V2 (this audit)** — independent fresh-session; Phase 2 locked at commit `973ea0e`; scope adds Pass 3.5 developmental-edit beyond V1's Pass 3.3 + 3.4 + §2.1 scope.
+- **V1 prior independent audit** (`pass-3-3-and-3-4-bundled-audience-load_VERSION-D_INDEPENDENT-AUDIT_2026-05-28.md`) — independent fresh-session; PROPOSED 2026-05-28; Pass 3.3 + 3.4 + §2.1 hard-rule axis (no Pass 3.5).
+- **Drafter's-self-audit** (`ch2-harpers-essay_hybrid_drafters-self-audit.md`) — same-session as V-D draft; methodologically-suspect-by-design; Pass 3.3 + 3.4 + §2.1 hard-rule.
+
+### §11.2 Pass 3.3 cross-check (16 characters)
+
+| Char | V2 verdict | V1 verdict | Drafter verdict | Agreement |
+|---|---|---|---|---|
+| T1.1 Beha | ✓✓✓ preserved | ✓✓✓ = | ✓✓✓ = | **AGREE** |
+| T1.2 Harper's reader | ✓✓✓ (**LIFT** from LOCKED ✓✓ via Eller) | ✓✓✓ = (no LIFT recorded) | ✓✓✓ = (wash) | **CALIBRATION DISAGREEMENT** — V2 reads LOCKED #2 baseline as ✓✓ moderate-to-strong per LOCKED Pass 3.3 source artifact §2.1.2 explicit "moderate-to-strong" text; V1 + drafter compress moderate-to-strong → ✓✓✓ baseline. V2's reading of source baseline is correct; V-D LIFT is real. V1 + drafter compression is also defensible (moderate-to-strong cleared INCLUDE PASS at LOCKED). No substantive V-D-evaluation disagreement. |
+| T1.3 agent | ✓✓✓ preserved | ✓✓✓ = | ✓✓✓ = | **AGREE** |
+| T1.4 acquisitions editor | ✓✓✓ preserved | ✓✓✓ = | ✓✓✓ = | **AGREE** |
+| T2.5 Mazzucato cluster | ✓✓ preserved | ✓✓ = | ✓✓ = | **AGREE** |
+| T2.6 reparations-econ | ✓ mild | ✓ mild (V1 records as ✓✓ with "low-load-bearing per brief") | ✓✓ wash | **MINOR NOTATION** — V2 + drafter agree mild INCLUDE; V1 records ✓✓ with low-load-bearing framing. No substantive disagreement. |
+| T2.7 civic-republican | ✓✓ moderate | ✓✓ = | ✓✓ = | **AGREE** |
+| T2.8 center-right (CRITICAL) | ✓✓✓ preserved + marginal STRENGTHEN | ✓✓✓ = | ✓✓✓ = | **AGREE on verdict;** V2 records marginal STRENGTHEN (HC-2); V1 + drafter wash. Converging. |
+| T2.9 Manchin-aligned | ✓✓✓ (**LIFT** via HC-2 + MC-4) | ✓✓ = (no LIFT) | ✓✓ = (wash) | **CALIBRATION DISAGREEMENT** — V2 over-credits HC-2 + MC-4 as Manchin-aligned LIFT. V1 + drafter conservative read more defensible. **V2 mis-calibration acknowledged.** |
+| T2.10 Berggruen | ✓✓ moderate | ✓✓ = | ✓✓ = | **AGREE** |
+| **T3.11 McDowell-resident (DISPOSITIVE)** | ✓✓✓-PLUS-STRONG-RESONANCE | ✓✓✓ preserved (with **HC-6 MEDIUM Pass-3.1-equivalent flag for Levisa Fork**) | ✓✓✓ possibly marginally up | **PARTIAL DISAGREEMENT** — agree verdict-magnitude ✓✓✓. **V2 MISSED V1's HC-6 Levisa Fork geographic concern.** See §11.4 load-bearing reverse-cross-check finding. |
+| T3.12 Skeptical Appalachian academic | ✓✓✓ (**LIFT** via Eller + MC-4 + HC-2) | ✓✓✓ (**LIFT** via Eller) | ✓✓✓ (LIFT via Eller) | **AGREE — convergence on LIFT.** All three identify Eller as load-bearing LIFT. V2 additionally credits MC-4 + HC-2; V1 + drafter compress to Eller alone. V2 may over-credit beyond Eller; LIFT direction correct. |
+| T3.13 Coates lineage | ✓ mild | ✓ = | ✓ = | **AGREE** |
+| T3.14 General Harper's subscriber | ✓✓ + marginal STRENGTHEN | ✓✓ = | ✓✓ = | **AGREE on verdict;** V2 marginal-strengthen + others wash. Converging. |
+| T3.15 First-gen / working-class | ✓✓ + marginal STRENGTHEN | ✓✓ = | ✓✓ = | **AGREE on verdict;** V2 marginal-strengthen + others wash. Converging. |
+| T3.16 Environmental-justice | ✓✓✓ (**LIFT** via HC-5 + HC-6 + HC-2) | ✓✓ = | ✓✓ = | **CALIBRATION DISAGREEMENT** — V2 over-credits HC-5 + HC-6 + HC-2 as env-justice LIFT. V1 + drafter conservative read more defensible. **V2 mis-calibration acknowledged.** |
+
+**Pass 3.3 cross-check summary:**
+
+- **AGREED VERDICTS:** 16 of 16 verdict-magnitudes converge at ✓✓✓ / ✓✓ / ✓ tier across V2 + V1 + drafter. No V-D character reaches EXCLUDE in any audit.
+- **LIFT-MAGNITUDE DISAGREEMENT:** V2 surfaces 5 LIFTS (#2 + #9 + #11 + #12 + #16) where V1 + drafter surface only 1 LIFT (#12 Eller). V2's #2 LIFT is defensible (LOCKED baseline reads moderate-to-strong); V2's #9 + #16 LIFTS over-credit HC-2/HC-5/HC-6 contribution; V2's #11 + #12 records additional credit beyond what V1 + drafter saw. **Verdict-magnitude direction convergent at 16/16 INCLUDE; LIFT-magnitude count V2-inflated.** V1 + drafter conservative read of 1 LIFT (Eller alone) more defensible.
+- **AGGREGATE:** No EXCLUDE in any audit; no submission-blocking finding; SHIP-recommendation direction converges.
+
+### §11.3 Pass 3.4 cross-check (7 adversarial chars A-G)
+
+| Char | V2 verdict | V1 verdict | Drafter verdict | Agreement |
+|---|---|---|---|---|
+| A | ⚠⚠⚠ EXCLUDE non-disarmable | ⚠⚠⚠ same | ⚠⚠⚠ same | **AGREE** |
+| B | ⚠⚠ EXCLUDE | ⚠⚠ same | ⚠⚠ same | **AGREE** |
+| C | ⚠⚠ EXCLUDE | ⚠⚠ same | ⚠⚠ same | **AGREE** |
+| D | ⚠⚠ EXCLUDE preserved | ⚠⚠ same with mild strengthening | ⚠⚠ same + marginally ↑ | **AGREE on verdict + magnitude reasoning** |
+| E | ⚠ EXCLUDE + V2 marginal STRENGTHEN | ⚠ same | ⚠ same | **AGREE on verdict;** V2 explicit marginal-strengthen + others wash. Converging. |
+| F | ⚠⚠ EXCLUDE | ⚠⚠ same | ⚠⚠ same | **AGREE** |
+| G | ⚠ EXCLUDE preserved via F-3.5-M3 primer | ⚠ same with mild HC-2 strengthening | ⚠ same + marginally ↑ | **AGREE on verdict + magnitude reasoning** |
+
+**Pass 3.4 cross-check summary:** 7 of 7 verdict-magnitudes converge. Cross-pressure pattern preserved across all three audits. Thread-pull synthesis: **ROBUST unanimous.** No FRAGILE-ON-X finding. Substantively converging.
+
+### §11.4 §2.1 hard-rule axis cross-check + LOAD-BEARING REVERSE-CROSS-CHECK FINDING
+
+**V2 + V1 + drafter binary axis polarity verdict:** ALL THREE report **HARD-RULE CLEAN / 0 HARD-RULE-VIOLATIONS**.
+
+**Per-spot-fix cross-check:**
+
+| Spot-fix | V2 verdict | V1 verdict | Drafter verdict |
+|---|---|---|---|
+| HC-1 Eller | CLEAN | SUBSTRATE-SAFE | CLEAN |
+| HC-2 Yablonski wife+daughter | CLEAN | SUBSTRATE-SAFE | CLEAN |
+| HC-3 Farmington Mine 1968 | CLEAN | SUBSTRATE-SAFE | CLEAN |
+| HC-4 Federal Coal Mine Health and Safety Act | CLEAN | SUBSTRATE-SAFE | CLEAN |
+| HC-5 Tug Fork | CLEAN | SUBSTRATE-SAFE | CLEAN |
+| **HC-6 Tug + Levisa + Guyandotte** | **CLEAN (V2 MISSED the Levisa-Fork-tributary-claim geographic imprecision)** | **MILD CONCERN — Levisa-Fork-tributary claim technically inaccurate; McDowell tributaries feed Tug (which meets Levisa at Louisa KY Big Sandy confluence), NOT directly Levisa** | CLEAN at §2.1; flagged as caveat #4 ("the Levisa is more nuanced — primarily a Kentucky river but receives water from McDowell tributaries; geographic precision should be independently verified") |
+| MC-4 wildcat strike 1968 → 1969 | CLEAN | SUBSTRATE-SAFE FACT-CHECK CORRECTION | CLEAN (corrected) |
+
+**§11.4.1 LOAD-BEARING REVERSE-CROSS-CHECK FINDING — HC-6 Levisa Fork geographic concern**
+
+**V1's specific finding** (V1 §2.1.1 HC-6 + §3.1 T3.11):
+
+> The **Tug Fork:** Drains majority of McDowell County → Big Sandy → Ohio. **Substantively accurate** as receiving "smaller tributaries" from McDowell.
+> The **Guyandotte River:** Drains parts of Logan / Lincoln / Wyoming / Cabell Counties. McDowell County's northeast tributaries may feed into upper Guyandotte headwaters via Wyoming County boundary streams. **Plausible** at marginal-tributary scale.
+> The **Levisa Fork:** Drains primarily Pike County KY + Buchanan County VA + Floyd County KY. Meets Tug Fork at Louisa KY to form the Big Sandy. **McDowell County tributaries do NOT directly feed into Levisa Fork** — they feed the Tug, which then meets the Levisa at the Big Sandy confluence. The asserted "tributaries that feed into... the Levisa" is technically inaccurate at the direct-tributary level.
+
+V1 classifies this as **MEDIUM-severity Pass-3.1-equivalent fact-check finding, NOT HARD-RULE-VIOLATION** per the rule's category list (rule polarity targets named-person fabrication + period-typical civic-infrastructure invention + invented documentary-record + invented quoted-speech + invented motivation-attribution; geographic-watershed-assignment imprecision is NOT in the hard-rule category list). V1's classification is correct.
+
+**V2's §2.1.1 + §2.1.3 verification on HC-6 read** verified that all three rivers are real drainage systems but did NOT scrutinize the directional accuracy of "tributaries that feed into Levisa." V2's verdict "no invented geographic claim" is correct at the hard-rule polarity (rivers are real, not invented) — but V2 missed the technical-accuracy concern about the directionality of tributary drainage. **V1's finer-grained per-river-system precision analysis caught the imprecision V2 missed.**
+
+**V2 acknowledges this as load-bearing reverse-cross-check finding.** V1 conducted more rigorous geographic-watershed-precision verification than V2; the V2 audit at §2.1.1 + §2.1.3 should have surfaced HC-6 Levisa Fork as MEDIUM-severity Pass-3.1-equivalent fact-check finding.
+
+**V2 revised assessment of HC-6 (post-Phase-3 cross-check):**
+
+The HC-6 Levisa-Fork-tributary-claim is a geographic-precision finding. Per V1's analysis (confirmed by drafter's caveat #4):
+- Levisa Fork does NOT receive direct tributaries from McDowell County.
+- McDowell County tributaries feed Tug Fork, which then meets Levisa Fork at Louisa KY.
+- V-D phrasing *"the smaller tributaries that feed into the Tug and the Levisa and the Guyandotte"* is technically inaccurate at the direct-tributary level for the Levisa.
+
+**Classification:** Pass-3.1-equivalent fact-check finding (verifiable-against-public-record geographic-claim imprecision), NOT HARD-RULE-VIOLATION per the rule's category list. **Does NOT trigger automatic STAY LOCKED per V2 audit-chip discipline §1.**
+
+**V2 §8.1 submission-readiness verdict REVISED:** V2's prior §8.2 Disposition 2 (SHIP V-D AS-IS) is **upgraded to Disposition 1 (SHIP V-D AFTER HC-6 PASS-3.1-LIGHT-FIX)** matching V1's recommendation. Clean spot-fix paths per V1 §7.3:
+- *"feed into the Tug and the upper Guyandotte"* (drop Levisa specifier)
+- *"drain southward toward the Tug Fork and the Big Sandy"* (parent watershed name)
+- delete Levisa specifier; retain Tug + Guyandotte
+- substrate-verify and retain (if Levisa-tributary claim can be authoritatively confirmed)
+
+The verification + spot-fix is bounded (~5-10 minutes author-driven). Sub-threshold to STAY LOCKED; well within SHIP V-D disposition.
+
+### §11.5 Pass 3.5 cross-check (NEW for V2; V1 + drafter did not cover)
+
+**V1** did not run Pass 3.5 (scope per V1 §0 was Pass 3.3 + 3.4 + §2.1 only).
+
+**Drafter's-self-audit** did not run Pass 3.5.
+
+**V2's Pass 3.5 findings (5 LOW HOLD) are net-new** with only the LOCKED Pass 3.5 RATIFIED + APPLIED 2026-05-27 baseline as comparison input.
+
+**V2 regression check vs LOCKED Pass 3.5:** ZERO regressions. All LOCKED Pass 3.5 ratify-and-apply states preserved verbatim in V-D; all LOCKED Pass 3.5 deferred-to-Stage-5 substrate-critical illustrative-prose states correctly NOT applied in V-D.
+
+**V2's 5 LOW HOLD findings (F-V2-3.5-L1 through L5)** all HOLD verdicts; no fix required. **No HIGH/MED restoration findings surface for V-D specifically.**
+
+### §11.6 Cross-check synthesis + V2 REVISED disposition
+
+**Direction convergence across V2 + V1 + drafter:**
+
+- Pass 3.3: **NET INCLUDE PASS / 16-of-16 INCLUDE / no submission-blocking finding** (unanimous)
+- Pass 3.4: **ROBUST preserved / cross-pressure pattern confirmed / no FRAGILE-ON-X / A non-disarmable** (unanimous)
+- §2.1 hard-rule axis: **HARD-RULE CLEAN / 0 HARD-RULE-VIOLATIONS / binary axis polarity PASSED** (unanimous)
+- Pass 3.5 (V2 only): **CLEAN / 0 regressions / 5 LOW HOLD awareness items** (V2 net-new)
+
+**Substantive convergence on direction:** All three audits independently arrive at **SHIP V-D recommendation** with V-D delivering material acceptance gain vs LOCKED (at minimum T3.12 ✓✓ → ✓✓✓ via Eller).
+
+**Magnitude divergences surfaced:**
+
+1. **V2 over-credited 3-4 Pass 3.3 LIFTS.** V2 records 5 LIFTS; V1 + drafter record 1 LIFT (#12 Eller only). V2's #9 + #16 LIFTS over-credit HC-2/HC-5/HC-6 contribution; #11 + #12 records additional credit beyond V1 + drafter. **Verdict-direction convergent (PASS 16/16); LIFT-magnitude V2-inflated.** V1 + drafter conservative read more defensible.
+
+2. **V2 MISSED V1's HC-6 Levisa Fork geographic-precision finding.** V1 + drafter caveat #4 both surfaced; V2 missed. V1's finding is correct per per-river-system watershed analysis. **V2 disposition revised to SHIP V-D AFTER HC-6 PASS-3.1-LIGHT-FIX (Disposition 1) per §11.4.1.** This is a material substantive correction to V2's §8 verdict.
+
+3. **V2 added Pass 3.5 coverage V1 + drafter did not.** V2's 5 LOW HOLD findings net-new; 0 regressions from LOCKED; 0 HIGH/MED V-D-introduced restoration sites. V2's distinctive value-add per scope amendment.
+
+**Reverse-cross-check findings (V2 missed; V1 + drafter caught):**
+
+- **HC-6 Levisa Fork geographic-precision** (V1 + drafter caught; V2 MISSED). **Material; updates V2 disposition.**
+- HC-1 Eller summary-characterization warrants pre-submission verification (drafter caveat #5; V1 endorses; V2 substrate-safe assessment holds but pre-submission verification recommended). Minor.
+- HC-2 Yablonski timing warrants pre-submission verification (drafter caveat #1; V1 endorses substrate-safe; V2 substrate-safe). Minor.
+- HC-3 Farmington fatality count warrants pre-submission verification (drafter caveat #2; V1 + V2 substrate-safe at 78 standard reference). Minor.
+- MC-4 1969 strike date verification (drafter caveat #3; V1 endorses correction; V2 substrate-safe). V2 + V1 + drafter agree MC-4 REDUCES pre-submission fact-check liability.
+
+**No V1-missed-or-under-credited V2-only finding of substance.** V2's 5 Pass 3.5 LOW HOLD findings are net-new but no HIGH/MED escalation warranted.
+
+### §11.7 V2 REVISED disposition recommendation
+
+**REVISED Disposition: SHIP V-D AFTER HC-6 PASS-3.1-LIGHT-FIX (Disposition 1).**
+
+V2's prior §8.2 SHIP V-D AS-IS (Disposition 2) **upgraded to Disposition 1** based on V1's HC-6 Levisa Fork finding V2 missed.
+
+**Substantive recommendation steps:**
+
+1. Author verifies HC-6 Levisa Fork tributary-claim against authoritative source (USGS hydrography; WV DNR watershed maps). ~5 minutes.
+2. If verification fails (Levisa does NOT receive direct McDowell tributaries; matches V1's analysis), apply V1's clean spot-fix path (recommend: *"feed into the Tug and the upper Guyandotte"* — drops Levisa specifier).
+3. If verification succeeds (authoritative source confirms Levisa-tributary claim), retain V-D phrasing.
+4. Optional pre-submission verifications per V1 §7.3 caveats (HC-1 Eller summary; HC-2 Yablonski timing; HC-3 Farmington fatality count; MC-4 1969 strike date against Derickson 1998).
+5. Promote V-D to canonical `essay.md` (commit swap + archive LOCKED to prior-versions).
+6. Stage 4 render verification at Submittable preview (~5 minutes).
+7. Stage 5 sign-off touch-up.
+8. Pre-submission author final-ratification.
+9. Harper's portal submission per cascade plan v2 Phase 2-β.
+
+**Cascade-re-fire cost estimate:** Bounded. ~5-10 minutes HC-6 verification + ~3 minutes spot-fix if needed + ~10 minutes Stage 4 + Stage 5 touch-up + ~15-30K tokens optional Pass 3.1 light re-fire across §I + §IV + §V + §VI. Well within three-way comparison §10.3 Tier 1 bounded cost estimate.
+
+**Disposition 4 (STAY LOCKED) NOT TRIGGERED.** Hard-rule binary axis polarity verdict is HARD-RULE CLEAN unanimous across V2 + V1 + drafter. HC-6 Levisa Fork is Pass-3.1-equivalent geographic-precision fact-check, NOT testimonial-content fabrication per the rule's category list.
+
+### §11.8 V2 audit value-add assessment vs V1
+
+**V2's distinctive contributions vs V1:**
+
+1. **Pass 3.5 coverage (NEW).** V2 adds developmental-edit / restoration-polarity walk on V-D specifically (V1 did not run Pass 3.5). V2's 5 LOW HOLD findings + 0 regressions confirm V-D preserves LOCKED Pass 3.5 state cleanly and V-D's seven hybridization additions do not introduce HIGH/MED restoration sites.
+
+2. **Hardened Phase 2 → Phase 3 boundary discipline (NEW for V2).** V2 commits §§0-10 to feature branch with MERGE-HOLD marker BEFORE opening drafter's-self-audit or V1. Phase 2 verdicts timestamp-frozen at commit `973ea0e`. V1 documented its Phase 2 → Phase 3 boundary but did NOT lock-and-file before opening drafter's-self-audit (V1's §11 cross-check is in the same commit as §§0-10). V2's harder boundary is a methodological strengthening of audit-trail integrity.
+
+**V2's distinctive limitations vs V1:**
+
+1. **V2 MISSED the HC-6 Levisa Fork geographic-precision finding** that V1 + drafter (in caveat #4) both surfaced. V2's §2.1.1 + §2.1.3 sweeps verified rivers as real but did not scrutinize the directionality of tributary drainage. **Material V2 limitation.**
+
+2. **V2 over-credited Pass 3.3 LIFTS at #9 + #16 + partially #11 + #12.** V1 + drafter conservative read of 1 LIFT (Eller only) more defensible at magnitude-of-improvement level. V2's directional verdicts converge with V1 + drafter (16/16 INCLUDE; T3.12 ✓✓ → ✓✓✓ Eller); V2's LIFT-counting calibration-optimistic.
+
+**Net V2 audit value-add:** **Positive on Pass 3.5 coverage + hardened Phase 2 → Phase 3 boundary; mixed on hard-rule axis (caught no new violations; missed one Pass-3.1-equivalent geographic-precision finding V1 caught); mixed on Pass 3.3 (verdict-direction convergent; LIFT-magnitude calibration-optimistic).** V2 usefully complements V1 by adding Pass 3.5 coverage + harder Phase 2 lock; V2 does NOT substitute for V1 (V1 independently caught the HC-6 finding V2 missed).
+
+**Proper synthesis for author disposition:** Author should consider V2 + V1 + drafter's-self-audit jointly. Convergent direction (SHIP V-D; PASS 3.3; ROBUST 3.4; HARD-RULE CLEAN; CLEAN Pass 3.5) supports Disposition 1 SHIP V-D AFTER HC-6 PASS-3.1-LIGHT-FIX. V1's HC-6 finding is load-bearing for the light-fix recommendation. V2's Pass 3.5 coverage confirms no V-D-specific developmental-edit restoration sites require spot-fix. Drafter's-self-audit's methodological caveats remain honest discipline; both V1 + V2 confirm drafter's verdicts at directional level.
 
 ---
 
-*End of V2 Independent Audit §§0-10 — Phase 2 LOCKED 2026-05-28 PROPOSED.*
-
-*§11 cross-check populated in subsequent Phase 3 commit per chip discipline.*
+*End of V2 Independent Audit §§0-11 — PROPOSED 2026-05-28. §11 cross-check populated post Phase-2 LOCK commit `973ea0e`. Disposition recommendation REVISED to SHIP V-D AFTER HC-6 PASS-3.1-LIGHT-FIX per V1 reverse-cross-check finding.*
