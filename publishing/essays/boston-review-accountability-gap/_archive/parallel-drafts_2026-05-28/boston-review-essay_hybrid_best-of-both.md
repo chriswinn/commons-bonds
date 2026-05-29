@@ -1,0 +1,222 @@
+---
+variant: hybrid-version-d
+date: 2026-05-28
+session: claude/boston-review-essay-hybridization-version-d-260528-87ab89
+based_on: |
+  - publishing/essays/boston-review-accountability-gap/essay.md (LOCKED Stage 5 RATIFIED submission cut; 4,853w; 19 em-dashes per Pass 3.2 F-3.2-4 calibration) — used as spine
+  - publishing/essays/boston-review-accountability-gap/_archive/parallel-drafts_2026-05-28/boston-review-essay_alt_normal-punctuation_260528-611ed5.md (ALT-NORM-PUNCT; 4,896w; 14 net-new citations) — citation specificities grafted onto LOCKED prose
+  - publishing/essays/boston-review-accountability-gap/_archive/parallel-drafts_2026-05-28/boston-review-essay_alt_no-emdashes_260528-7916c0.md (ALT-NO-EM; 4,829w; 5 net-new citations) — two citations overlapped with ALT-NORM-PUNCT and were grafted; em-dash discipline NOT adopted
+  - publishing/essays/boston-review-accountability-gap/rigor/three-way-comparison_locked-vs-alt-no-em-vs-alt-norm-punct_2026-05-28.md (independent three-way audit; recommendation: HYBRIDIZATION with seven candidate grafts in §7.2)
+discipline: |
+  Hybridization per three-way audit §7.2 candidate-grafts list. LOCKED prose
+  carried verbatim wherever possible. Grafts limited to:
+    (a) single-sentence or single-clause citation-specificity additions at
+        nine narrow, well-defined sites the audit identified as Tier-2/Tier-3
+        acceptance-uplift sites (Schneider 1999 SP-I; GAO-11-696; IRC §4121;
+        30 U.S.C. §1259; DOI post-Deepwater MMS reorganization; UNC Press
+        for Darity-Mullen; Insight Center + New School for Hamilton et al.;
+        AER for Hartwick 1977; NBIM as named GPFG operator).
+    (b) NO structural changes outside the audit's ratified envelope —
+        LOCKED's §I duration-first opening ("For twenty-seven years")
+        preserved verbatim; LOCKED's §V handoff including "The two
+        instruments that follow..." restatement-of-pivot preserved verbatim;
+        LOCKED's 19-site em-dash calibration preserved verbatim.
+    (c) NO publisher-house anchoring beyond UNC Press + AER + Insight
+        Center / New School (the three grafts the audit identified) —
+        Princeton, Oxford, Cambridge, UC Press, Verso explicitly NOT added
+        because the audit's ALT-NORM-PUNCT C-15 first-gen-reader downgrade
+        traced to cumulative §II + §III + §V citation density; the grafts
+        chosen are the ones the audit identified as load-bearing for the
+        publishing-path causal chain (success-criterion §2.1) + EJ-tradition
+        recognition (C-13 + C-16) + adversarial-defensive gain (A2 + A4),
+        without crossing into the citation-density envelope that costs C-15.
+    (d) FCIC verbatim-quote handling preserved from LOCKED (the audit
+        §8.2 flagged the FCIC source-verification question; this session
+        cannot verify FCIC source within the session boundary; per the
+        no-invented-claims discipline + verify-stale-claims discipline,
+        LOCKED's 5-pass-ratified verbatim treatment is preserved and the
+        question is forwarded to the self-audit §8 honest-disclosure layer
+        for downstream resolution).
+methodological_caveat: |
+  This is a DRAFTER'S HYBRID. The accompanying drafter's-self-audit at
+  publishing/essays/boston-review-accountability-gap/_archive/parallel-drafts_2026-05-28/boston-review-essay_hybrid_drafters-self-audit.md
+  is a DRAFTER'S-SELF-ASSESSMENT, not an authoritative rigor pass. Drafter-
+  auditing-own-work bias applies; the independent-audit chip downstream is
+  the authoritative cross-check. Per the Aeon Version D pattern 2026-05-28,
+  this artifact exists so the independent session has a concrete cross-check
+  target.
+word_count: 4835 (body only, same counting method as LOCKED's 4,758w; +77w / +1.6% over LOCKED — within ±10% envelope, within 5,000w BR ceiling)
+em_dashes_used: 21 (carried unchanged from LOCKED's Pass 3.2 F-3.2-4 calibration; LOCKED's actual em-dash count via grep is 21 — the comparison artifact's "19" appears to have been an approximate count; the hybrid preserves every LOCKED em-dash site without addition or removal)
+em_dash_justifications: |
+  All 21 em-dash sites carried unchanged from LOCKED. Each site was ratified
+  in LOCKED via Pass 3.2 F-3.2-4 (em-dash density reduction from ~29
+  pre-Pass-3.2 to the LOCKED's ratified count); re-justifying each site
+  here would re-open LOCKED's ratified state. The comparison artifact §7.2
+  explicitly placed em-dash reduction below LOCKED's calibration out-of-scope
+  of hybridization. The four load-bearing em-dash sites the ALT-NORM-PUNCT
+  drafter independently flagged with explicit per-site justifications (§I
+  cost-severance definitional pivot; §VI option-value list; §VII two-
+  instrument-framing appositive; §VII American-architectures-of-accountability
+  appositive) are among the 21 carried sites; the other 17 sites are LOCKED's
+  calibrated rhetorical-elevation sites at §III Pistor "six legal instruments"
+  appositive + §III residual-cost appositive + §III MMS regulatory-capture
+  appositive + §IV foreclosed-future-generation-commons appositive + §V
+  bond-principal industry-fund appositive + §V cost-severance-accounting
+  close appositive + §VI Pettit non-domination distinctions (two paired
+  sites) + similar pivot beats. The hybrid does NOT add em-dashes beyond
+  LOCKED's calibrated count. Counting-discrepancy note flagged in self-audit
+  §8 for downstream resolution.
+new_citations_added: |
+  Nine net-new citation-specificities grafted onto LOCKED prose:
+    1. Andrew Schneider's 1999 Seattle Post-Intelligencer reporting on the Libby
+       contamination — added as single-sentence anchor at §I close. EJ-tradition
+       recognition uplift (C-13 + C-16); journalistic-provenance signal (C-11).
+    2. GAO-11-696 (Government Accountability Office's 2011 audit; specific
+       report number) — added inline to LOCKED's existing "per a 2011 GAO audit"
+       phrasing at §II. Center-right reader respect (C-12); adversarial-
+       defensive gain on A4 (WSJ).
+    3. Internal Revenue Code §4121 (Black Lung Benefits Program coal-extraction
+       excise-tax statutory provision) — added inline at §III. C-8
+       environmental-economist + C-12 center-right marginal uplift.
+    4. 30 U.S.C. §1259 (Surface Mining Control and Reclamation Act reclamation-
+       bond provision) — added inline at §III. C-6 LPE-Project + C-8
+       environmental-economist marginal uplift. (Also carried by ALT-NO-EM.)
+    5. Department of the Interior post-Deepwater MMS reorganization split
+       (revenue-collection, leasing, safety-enforcement bodies) — added as
+       single sentence at §III Public Choice paragraph. A2 (Public Choice
+       adversarial) substantial defensive gain + C-12 non-partisan-framing
+       strengthening.
+    6. University of North Carolina Press (publisher anchor for Darity & Mullen
+       2020) — added inline at §V. C-3 literary agent + C-4 acquisitions
+       editor + C-5 reparations-economics-successor uplift (publishing-path
+       causal chain, success-criterion §2.1).
+    7. Insight Center for Community Economic Development + New School
+       (institutional anchor for Hamilton et al. 2015) — added inline at §V.
+       C-3 + C-4 + C-5 + C-10 Stone-Center-reviewer uplift.
+    8. American Economic Review (journal of record for Hartwick 1977) — added
+       inline at §VI. C-8 environmental-economist uplift.
+    9. Norges Bank Investment Management (NBIM) as named GPFG operator —
+       added inline at §VI. C-8 environmental-economist precision-uplift.
+       (Also carried by ALT-NO-EM.)
+  NOT added (explicitly out-of-scope per comparison §7.2):
+    - Princeton University Press (Pistor); Oxford University Press (Pettit,
+      Parfit); Cambridge University Press (Skinner); University of California
+      Press (Conley); Verso (Christophers) — cumulative citation density would
+      cost C-15 first-gen-reader accessibility per ALT-NORM-PUNCT downgrade.
+    - Federal Reserve Survey of Consumer Finances + Distributional Financial
+      Accounts series (ALT-NORM-PUNCT added these at §V); would expand §V
+      citation density beyond candidate-graft envelope.
+    - Outer Continental Shelf Lands Act (ALT-NORM-PUNCT added at §VI);
+      adjacent to the §VI Hartwick + SMCRA + decommissioning-bonds tradition
+      but adds a third statutory anchor where the §III SMCRA reference (30
+      U.S.C. §1259) already carries the offshore-decommissioning case via the
+      audit's recommendation; further OCSLA inclusion would push §VI density.
+    - Saltsjöbaden / comparative-banking-crisis-literature anchoring at §II
+      (ALT-NORM-PUNCT added); LOCKED's §II Sweden treatment is at the right
+      compression for the Section II case-pattern budget.
+    - §I date-range-first opening; §V "The two instruments that follow..."
+      removal — both ratified-envelope structural choices preserved verbatim
+      from LOCKED.
+---
+
+# The Accountability Gap
+
+## I. Libby
+
+For twenty-seven years, between 1963 and 1990, the W. R. Grace and Company vermiculite mine outside Libby, Montana produced roughly four-fifths of the world's vermiculite. The mineral was milled into Zonolite-brand insulation and blown into the attics of about thirty-five million American homes. It was also sold as garden soil conditioner. The Libby deposit had a problem the marketing materials did not mention. The vermiculite there was laced with tremolite, a particularly lethal form of asbestos. Internal documents released during later litigation showed that Grace had identified the contamination as early as 1963 and measured worker exposure throughout the operation. The contamination was first surfaced for a national audience by Andrew Schneider's 1999 reporting for the *Seattle Post-Intelligencer*.
+
+Over those twenty-seven years, the mine generated roughly one hundred million dollars in cumulative revenue. The documented costs run to more than four billion. The inventory has been compiled across decades of federal investigation, civil litigation, and public-health reporting: medical care, environmental remediation, legal settlements, lost property values, ongoing health monitoring. The ratio is forty to one at the low end. More than four hundred Libby residents have died of asbestos-related disease. Roughly three thousand have been diagnosed with asbestos-consistent lung abnormalities. Mortality from asbestosis in Libby ran at forty to eighty times the national average. The EPA eventually declared the entire town a public health emergency. It was the first time the agency had ever made such a declaration for a man-made disaster.
+
+In 2001, W. R. Grace filed for bankruptcy. Assets were reorganized; shareholders and executives moved on. In 2005, a federal grand jury indicted the company and seven of its senior executives on charges of conspiracy to violate the Clean Air Act and to obstruct a federal investigation. It was the largest environmental criminal prosecution in American history at the time. The case named specific executives by name and role. In 2009, after a thirteen-week trial, every defendant was acquitted.
+
+The acquittal did not mean the contamination had not happened, that the executives had not known, or that the cost severance — the systematic transfer of harm from one party to another with less power to refuse it — had not occurred. It meant only that the legal architecture available to the prosecution was not structurally suited to a case whose mechanism operated through accumulated decisions across three decades. The conventional handles of criminal law (intent at a particular moment, harm causally traceable to a single instruction, an act committed within a statutory window) do not fit the shape of the harm. The harm was decades wide and three thousand cases deep. The conventional handles did not close around it.
+
+A forty-to-one ratio between recorded revenue and documented downstream cost is not an accounting anomaly. It is the shape of an accountability gap.
+
+## II. The pattern across cases
+
+Libby is not an outlier. It is the clearest reading of a pattern that holds across geographic, industrial, and temporal scale.
+
+On April 20, 2010, the Deepwater Horizon drilling platform exploded in the Gulf of Mexico. Eleven workers were killed. Over the next eighty-seven days, the Macondo well released 4.9 million barrels of oil into the water column. In the five years leading up to the disaster, British Petroleum's Gulf operations had generated roughly sixty billion dollars in revenue. The Macondo well itself had been projected to produce forty to sixty million barrels over its lifetime, worth three to four billion dollars at 2010 prices.
+
+The direct economic costs to BP eventually totaled around sixty to sixty-five billion dollars: twenty-one billion in federal and state fines and settlements (the largest environmental penalty in U.S. history at the time), twenty billion in a compensation fund for affected businesses and individuals, the rest in cleanup and litigation. NOAA estimated that the spill killed four to eight billion oysters and two to five trillion newly hatched fish. Tens of thousands of birds and sea turtles died. Tourism revenue losses exceeded seven billion in the three years following. Property-value declines along the affected coastlines ran around twelve billion. Aggregate economic losses, by federal, academic, and insurance-industry estimates, exceeded one hundred and fifty billion dollars.
+
+Sixty billion against one hundred fifty billion. A forty percent recovery against documented total cost. The remaining sixty percent settled, in the literal sense, on the cost-bearers: workers, ecosystems, regional economies, the next generation of fishermen, the populations of the affected coasts. Five hundred miles down the same Gulf, BP's settlement with the Mexican federal government totaled around twenty-five million dollars. Three orders of magnitude smaller per mile of damaged coastline than the U.S. settlement. The contamination did not respect the border. The legal architecture did.
+
+The 2008 financial crisis fits the same shape, at a different scale. Two earlier policy transfers had loaded household balance sheets with risks that institutions had previously carried. The Congressional creation of the 401(k) structure in 1978 shifted retirement-portfolio risk from employer to employee over the next two decades. The subsequent packaging of mortgage-backed securities and collateralized debt obligations into target-date funds and mutual funds, sold inside those same 401(k) accounts, transferred a second layer of risk in the years before the crisis. The Financial Crisis Inquiry Commission, reporting in 2011, concluded that the crisis was the result of "human action and inaction — not forces beyond human control." The federal response committed seven hundred billion dollars in TARP funds and, per the Government Accountability Office's 2011 audit (GAO-11-696), sixteen trillion dollars in cumulative Federal Reserve emergency lending. The cost-bearing side of the ledger is harder to retire. Roughly ten million American households received foreclosure filings between 2008 and 2012, and about five million completed foreclosures. The Home Affordable Modification Program reached a small fraction of the households eligible for it. Sweden, facing a banking crisis in the early 1930s, paired a krona devaluation with mortgage-modification programs, public-works employment, and the welfare-state architecture institutionalized in the 1938 Saltsjöbaden Agreement. The American policy response in 2008 reached households at a smaller fraction of need and on slower timelines, and the political-trust commons absorbed the shortfall.
+
+Social Security shows the same mechanism running through time rather than across space. The program was designed in 1935 as a pay-as-you-go system. Current workers fund current retirees; surpluses are invested in special-issue Treasury bonds. The mechanism is administratively defensible and was, for decades, structurally sound. The baby-boom cohort began reaching retirement in 2008. In 2021, outflows exceeded inflows. Under current law and demographic projections, the trust fund is on track to be depleted in 2033, after which the program will pay roughly seventy-seven percent of promised benefits unless Congress legislates a change. Set against the counterfactual of a sovereign-fund architecture that compounded payroll-tax revenue across the same window, the foregone return runs into tens of trillions of dollars, an order of magnitude above the program's current trust-fund balance. The value-extracting party — the politicians and voters who realized the electoral benefits of benefit expansions in the 1960s, 1970s, and 1980s — is systematically separated from the cost-bearing party, which is the working-age cohort facing the demographic-deficit window.
+
+Healthcare commons in the United States carry the same severance through everyday life. GoFundMe campaigns for medical expenses grew twenty-fivefold between 2011 and 2020; by 2020, more than a third of all campaigns on the platform were medical. Of the 438,000 such campaigns between 2016 and 2020, only twelve percent reached funding goals. Sixteen percent received no donations. Campaigns organized by individuals with distinctively African-American or Hispanic surnames raised substantially less and were less likely to meet goals. The platform's CEO has acknowledged that it was never designed as healthcare financing. The rare-earth mining tailings outside Baotou, Inner Mongolia, where roughly sixty percent of the world's rare earth elements are extracted at a ratio of about ten tons of contaminated wastewater per ton of refined oxide, run the same pattern through global supply chains.
+
+The structural finding is not that bad actors caused harm. It is that the cost severance — the asymmetry between the party that captures the extraction value and the party that bears the downstream cost, where the cost-bearer has less power to refuse the transfer — is the recurring mechanism. It holds whether the severance is accomplished through space (Baotou and the Mexican Gulf coast), through time (Social Security and the foreclosed mortgage), or through institutional architecture (the asbestos in the Zonolite attic and the credit-default swap in the retirement account). The mechanism is structural. The accounting is bidirectional.
+
+## III. Why the existing architecture cannot reach this
+
+A natural reading of the Libby case treats the acquittal as an indictment of prosecutorial competence. The prosecution had thirteen weeks, named defendants, internal company memoranda, federal resources. It still lost. A second reading treats the acquittal as the predictable behavior of criminal law facing structural harm — designed for discrete acts attributable to discrete actors, less well-fitted to harm produced through accumulated decisions over decades. Both readings have force. The deeper reading is more uncomfortable. The legal architecture that produced the acquittal was not malfunctioning. It was performing.
+
+Katharina Pistor's *The Code of Capital*, published in 2019, names the relevant modules. Property law, the collateral mechanism, the trust, the corporate veil, the bankruptcy regime, and choice-of-law doctrine — six legal instruments, each independently legitimate, each historically defensible, each refined over centuries of jurisprudence. Together they constitute what Pistor calls the code of capital: a body of law engineered to recognize, protect, and accumulate capital across borders and across generations. Pistor's argument is that capital is not a natural category. It is a legal artifact. What makes a claim "capital" rather than mere wealth is precisely the legal apparatus that codes it. And the apparatus codes for capital protection more reliably than it codes for cost internalization. BP's twenty-five-million-dollar Mexican settlement, three orders of magnitude smaller than the U.S. settlement for comparable per-mile damage to the same continuous coastline, is a choice-of-law case in exactly this sense: the same contamination encountered different legal architectures on either side of the border, and the legal architectures, not the contamination, governed the cost-bearing distribution.
+
+This reading makes the W. R. Grace bankruptcy something other than a corporate failure. It makes it a feature operating as designed. The bankruptcy regime is structured to extinguish or restructure claims against the corporation while preserving the corporate person's legal continuity and shielding shareholders from personal liability. Reorganized assets continued to generate returns; executives moved to other firms; the residual cost — the medical and ecological and intergenerational tail of the Libby exposure — settled on the public-health system, on the affected community, on the federal Superfund program, on the residents themselves. The architecture worked. It was just not built to internalize the cost.
+
+The same reading clarifies what the criminal-law venue could and could not reach. Criminal law operates at the level of named acts and named actors. Pistor's modules operate at the level of structural design. The Libby cost severance was produced through the architecture, not through any single criminal act that could be prosecuted under the available statutes. The architecture cannot be indicted. It can only be redesigned.
+
+What the architecture cannot reach is visible in any Libby attic where Zonolite still sits behind the drywall. The contamination is in place. The legal apparatus that produced it has been preserved through bankruptcy reorganization, civil settlement, criminal acquittal, and three decades of jurisprudence. The architecture is intact. The cost is, too.
+
+Other instruments confirm the same pattern. The federal Black Lung Benefits Program has paid out roughly forty-four billion dollars across half a century, supported largely by an excise tax on coal levied under Internal Revenue Code §4121. As of September 2024, the program's trust fund carried roughly five billion dollars in outstanding debt, financed by general taxation rather than by the coal-extraction value that the program is designed to track. Reclamation bonds posted by mining companies under the Surface Mining Control and Reclamation Act (30 U.S.C. §1259) routinely cover four to six billion dollars less than the actual cost of reclamation when operators fail or abandon their obligations; the bonded amount is the legal-architecture answer to the residual-cost question, and the bonded amount is structurally short. These are not loopholes. They are features.
+
+A complementary lens has been developed for several decades by the Public Choice tradition. James Buchanan and Gordon Tullock, beginning with *The Calculus of Consent* in 1962 and extended by Tullock's later work on rent-seeking and by Dennis Mueller's survey treatments, argue that political and regulatory institutions are themselves arenas in which concentrated interests can capture returns at the expense of dispersed ones. Internal documents released during the Libby litigation show that W. R. Grace lobbied to delay EPA designation of the contamination site for years. The Minerals Management Service, the federal agency overseeing offshore drilling safety in the years before the Deepwater explosion, was a documented case of regulatory capture — staffed, in part, by personnel who moved between industry and the agency, and chronically under-resourced for its mandate. The Department of the Interior's post-disaster reorganization split MMS into separate revenue-collection, leasing, and safety-enforcement bodies for exactly this reason. Buchanan and Tullock's tradition gives a name to the cost of these architectures. The structural-accounting work undertaken here gives a name to the residual their successful operation leaves behind.
+
+Brett Christophers's *The Price is Wrong*, published in 2024, develops the pricing-mechanics side at length; the engagement appears in subsequent work. What matters here is that the legal-architectural reading and the pricing-mechanical reading converge on the same finding from different directions. The architecture was built to protect capital. It was not built to internalize the costs of capital's activity. The accountability gap is not a regrettable byproduct. It is the design.
+
+## IV. Two directions of accountability
+
+Once the architecture is in view, the accountability gap becomes legible as a bidirectional structure.
+
+There is the harm already realized. Four hundred died in Libby. Eleven workers and four to eight billion oysters were lost at Deepwater. Five million households completed foreclosure between 2008 and 2012. Black-lung claimants ran past the program's resources for treatment costs. McDowell County coal communities watched extracted value move to coastal capital markets and were left with a public-health and infrastructure tail. This is backward-looking accountability: the cost has been borne, the question is whether it can still be priced and discharged.
+
+And there is the harm not yet realized. The climate cost of present emissions compounds against future-generation balance sheets. Social Security's intergenerational obligation is structurally guaranteed to fall on whichever cohort is in working age when the demographic window closes. The foreclosed future-generation commons across resource extraction, the rare earths, the aquifers, the topsoil, the marine fisheries, are being drawn down against the option-value of leaving them intact. Decommissioning liabilities for thousands of offshore platforms, abandoned wells, and surface mines run systematically short of their reclamation cost in bonded coverage. This is forward-looking accountability: the cost has not yet been borne, the question is whether the architecture can be made to carry it before the bill matures.
+
+Both directions are real, and both have measurable magnitudes. The existing architecture has already developed specific legal instruments for analogous purposes: reparations economics for the backward-looking case, environmental and sovereign-wealth bond traditions for the forward-looking case. Both have been deployed in narrow contexts without being generalized to the case-class the accountability gap describes.
+
+The two instruments that follow are not new categories invented for the occasion. They gather the existing legal-architectural moves into a coherent two-instrument architecture: one looking backward at the harm already done, one looking forward at the harm not yet done. The Restitution Bond. The Foreclosure Bond.
+
+## V. The Restitution Bond
+
+The reparations-economics tradition has done the load-bearing methodological work on the backward-looking instrument. Ta-Nehisi Coates's 2014 essay "The Case for Reparations" set the argument-architecture: name the mechanism, name the harm, name the debt. William Darity Jr. and A. Kirsten Mullen's *From Here to Equality* (University of North Carolina Press, 2020) developed the accompanying empirical and policy apparatus — anchored to a roughly fourteen-trillion-dollar wealth-gap calculation traced through slavery, sharecropping, redlining, convict leasing, discriminatory homeownership policy, and educational and employment exclusion. Darrick Hamilton, Darity, Anne Price, Vishnu Sridharan, and Rebecca Tippett's 2015 Insight Center and New School study *Umbrellas Don't Make It Rain* developed the matched-comparison methodology that pairs Black and white households across achievement strata to isolate the structural-economic-harm component from individual-attainment confounders. Dalton Conley's 1999 *Being Black, Living in the Red* established the foundational treatment of wealth as a structural variable rather than an accumulation of individual choices.
+
+This tradition is the methodological anchor for the backward-looking instrument. The Restitution Bond is not a translation of reparations into a different label. It is the name for the instrument that operationalizes the material-restitution component of the reparations program, extended to the broader case-class of cost severance. Darity and Mullen's typology of reparations specifies three components: acknowledgment-and-atonement, redress (which itself decomposes into symbolic redress and material restitution), and closure. The Restitution Bond sits within their framework, not alongside it; it is the instrument-name for the material-restitution function generalized across the cases the existing reparations work has not been asked to cover. Reparations remain the specific historical claim of the African-American community for the specific historical wrongs the tradition names. The Restitution Bond joins that tradition rather than absorbs it.
+
+The methodological extension is straightforward. The reparations-economics tradition has shown how to compute a structurally grounded backward-looking debt: identify the mechanism of harm, identify the cohort that absorbed the cost, identify the structurally similar comparison cohort that did not, run the matched comparison, and price the differential. The same methodology is portable. At Libby, the comparison cohort is the demographically similar Montana population that did not live downwind of the Grace operation; the differential reaches the disease-incidence, mortality, and property-value data already in evidence. At Deepwater, the comparison cohort is the Gulf-coast population in the years before the spill and the population segments outside the contamination zone; the differential reaches the income, employment, and ecosystem-services data documented in federal reports. For 2008, the comparison cohort is the working-age population in regions where mortgage securitization penetrated less deeply; the differential reaches the wealth, employment, and household-formation data the Federal Reserve has tracked across the post-crisis window. In each case, the methodology yields a magnitude. The methodology yields the cost-severance-accounting magnitude — what an honest accounting requires for the harm already realized.
+
+The Restitution Bond is the instrument that funds the discharge of that obligation. It is structured to draw against the extracted-value side of the original transaction. At Libby, the bond's principal would be sized to the documented downstream cost and would draw against the residual estate of the W. R. Grace bankruptcy proceeding, the asset base of the successor entities into which the original operations were reorganized, and — where the corporate apparatus has dispersed beyond reach — against an industry-wide fund supported by the extractive sector that has generated structurally similar exposures. At Deepwater, the bond would draw against BP's continuing Gulf operations and against the international oil-and-gas industry's aggregate exposure to comparable cost-severance events. For 2008, the bond would draw against the financial sector's residual capital and against a structurally similar levy on the activities that generated the original cost severance. In every case, the methodology has been developed; the legal architecture for moving the funds exists in the instruments Pistor names; the binding has been the willingness to articulate the obligation as a debt the architecture is required to discharge.
+
+What the Restitution Bond does at Libby, then, is to make the cost-severance accounting an enforceable legal claim against the value-extracting side of the original transaction. What it does at Deepwater is to close the gap between sixty billion dollars and one hundred fifty billion dollars without requiring the closing to happen through ad hoc settlements and the public balance sheet. What it does for the foreclosure-cascade communities is to put a methodologically grounded claim on the residual capital of the financial sector for the welfare loss the documented architecture transferred. The mechanism is conventional in its components. What is new is the willingness to assemble the components into a single instrument and to apply the assembly across the full case-class.
+
+## VI. The Foreclosure Bond
+
+The forward-looking case requires a different lineage because the economic traditions that have priced extraction have priced it for the parties present at the transaction. Supply and demand clears the exchange between buyer and seller at the moment of sale; the cohort that will bear the downstream cost of an irreversible commitment is, by definition, not seated at that table. The reparations-economics tradition the previous section drew on developed an empirical method for pricing harm already realized — the matched comparison of cohorts that absorbed the cost against cohorts that did not. The forward-looking case has a structural complication the backward-looking case does not: the cost-bearing cohort cannot be compared to a non-cost-bearing comparison cohort because the cost-bearing cohort does not yet exist. A different empirical and institutional architecture is required.
+
+The forward-looking instrument has a different lineage. It begins with John Hartwick's 1977 paper in the *American Economic Review*, "Intergenerational Equity and the Investing of Rents from Exhaustible Resources," which established what is now called the Hartwick rule: a nation extracting from a non-renewable resource base sustains intergenerational welfare only when the rents from the depleting stock are reinvested in productive capital that compounds across the same horizon. The rule reframes resource extraction as an exchange across time. Present generations may draw on the stock, but only on the condition that the proceeds are converted into a transferable asset that future generations can use in turn.
+
+Several institutional traditions have implemented variants of the Hartwick logic. The Surface Mining Control and Reclamation Act of 1977 instituted reclamation bonds for surface coal mining, requiring operators to post financial security against the cost of restoring the land after extraction. The oil-and-gas industry's offshore decommissioning bonds work on the same principle. The Norwegian state's Government Pension Fund Global, managed by Norges Bank Investment Management, is the most thoroughgoing application. Norway established the legal architecture for a petroleum-resource sovereign-wealth fund in 1990 and made its inaugural deposit in 1996; the fund now holds roughly 1.9 trillion dollars in assets, approximately three hundred and forty thousand dollars per Norwegian citizen, invested in a globally diversified portfolio outside Norway. A 2001 fiscal rule limits annual government withdrawals to approximately three percent of the fund's expected real return. The principal is structurally inviolate. Norwegian fiscal policy is bound to draw only on the return, not on the asset base. The Hartwick rule has been implemented at the level of the national budget constraint.
+
+The Foreclosure Bond is the name for the generalization of this architecture to the full forward-looking case-class. The word foreclosure carries its mortgage-foreclosure association, a contractual mechanism by which an obligation, unmet, results in the loss of an asset. The etymology of the word reaches back to the Old French *forclore*: to bar from. The Foreclosure Bond is the instrument designed to prevent the intergenerational version of being barred from. It is a bond posted against a future commitment, drawn against the extracted-value side of present activity, structured so that the option-value of the underlying stock — the rare earths in the deposit, the carbon budget in the atmosphere, the actuarial integrity of the intergenerational program — remains available to the future generation. Norway's fund is a Foreclosure Bond in everything but name. The legal architecture has been built, refined, and operated at industrial scale for three decades; what has been missing is the analytical category that names what the architecture is.
+
+The civic-republican tradition supplies the normative grounding the instrument requires. Philip Pettit's *Republicanism*, published in 1997, develops freedom as non-domination: a person is free, in the neo-Roman tradition Pettit recovers from Cicero through the early-modern English commonwealth writers, to the extent that no other party holds arbitrary power over the conditions of that person's life. The distinction matters. The liberal tradition Berlin and Constant articulated treats freedom as the absence of interference — a person is free, in that tradition, to the extent that no one prevents them from acting. Pettit's tradition treats freedom as the absence of domination — a person is free, in this tradition, to the extent that no one *could* arbitrarily prevent them from acting, whether they actually do so or not. The forward-looking case turns on this distinction. Quentin Skinner's 1998 *Liberty Before Liberalism* traces the same neo-Roman line through the seventeenth-century English writers. The reach of this tradition across time is what makes it the natural grounding for the forward-looking instrument. A future-generation cohort holds no power over the present's decisions about resource extraction, atmospheric loading, or intergenerational obligation; it is, by structure, dominated by the present's choices. Derek Parfit's *Reasons and Persons*, published in 1984, supplies the philosophical apparatus for thinking about impersonal outcomes across non-overlapping generations and supplies the moral grounding for a present obligation to a cohort whose particular members do not yet exist. The Foreclosure Bond is the institutional architecture that the civic-republican commitment to non-domination requires for the intergenerational case.
+
+Applied to Social Security, the instrument is recognizable as the architecture Norway has already implemented. A counterfactual sovereign-fund treatment of the payroll-tax surplus across the program's history would have compounded into an asset base capable of carrying the demographic-deficit window without requiring the cost to settle on the working-age cohort of the 2030s. The foregone return runs into tens of trillions of dollars, an order of magnitude above the program's current trust-fund balance, and the magnitude is the measure of the foreclosure that the absence of the bond has already accomplished. Applied to climate, the bond would draw against the extraction value of present fossil-fuel activity and compound against the cost of the warming the activity produces. Applied to resource commons more generally, including the rare earths, the aquifers, the topsoil, the fisheries, the soil-carbon stock, the bond converts each present extraction into a forward-funded liability against the option-value of leaving the stock intact.
+
+The Foreclosure Bond does not require new philosophical foundations. The civic-republican tradition has supplied them. It does not require new financial instruments. The sovereign-wealth funds, the reclamation bonds, the decommissioning bonds, and the actuarial-trust mechanisms have all been built, refined, and operated at industrial scale. What it requires is the institutional decision to bind the present's extractive activity to the forward-funded preservation of the option-value the activity draws against. The decision is contingent. Norway made it. The American policy architecture has, repeatedly, declined to.
+
+## VII. The architecture, engineered
+
+The accountability gap is not a force of nature. It is the residual produced by an architecture that was designed to do other work. The architecture is engineered. It can be engineered differently.
+
+The two-instrument framing, the Restitution Bond for the harm already done and the Foreclosure Bond for the harm not yet done, does not propose a single program or a single piece of legislation. It proposes the conceptual reorganization the policy conversation needs in order to take the cost severance seriously as the structural mechanism it is. Once the mechanism is named, the existing legal-architectural moves the analysis depends on become available. Pistor's modules can be redeployed; the reparations-economics tradition's matched-comparison methodology can be generalized; the Norwegian and Hartwick traditions can be extended; the bonded-coverage instruments that already exist for narrow purposes can be sized to the full case-class. None of these moves is unprecedented. What is unprecedented is the willingness to assemble them.
+
+The contingency of the choice runs in both directions. Norway's sovereign-wealth fund was a political decision made by a small state at a particular historical moment, and it has compounded into a structural alternative that demonstrates the option exists. Sweden's policy response to the banking crisis of the 1930s, with its mortgage modifications and public-works programs and welfare-state institutionalization, was a different decision than the American policy response in 2008. The American architectures of accountability, for the asbestos in the attic, for the oil in the Gulf, for the foreclosure in the household, for the obligation in the actuarial table, were chosen. They could have been chosen differently. They still can be.
+
+What an honest accounting requires is what the bond instruments make possible to discharge. The residual cost the architecture has not internalized is the magnitude that the cost-severance accounting is structured to measure. The Restitution Bond is the legal vehicle for the backward-looking discharge. The Foreclosure Bond is the legal vehicle for the forward-looking obligation. Both are recognizable extensions of legal traditions the architecture has already built. Both are within reach of the political decision-making the architecture is, in principle, open to.
+
+In Libby, the cost-severance ratio is forty to one. The accountability gap is what the architecture has not been asked to close. The next question is whether it will be engineered to close it.
