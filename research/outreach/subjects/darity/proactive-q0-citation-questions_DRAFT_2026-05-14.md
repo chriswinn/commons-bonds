@@ -1,6 +1,10 @@
 # Proactive Q0 tier-S citation outreach — Darity Jr. (three paragraphs + TA minor revisions)
 
-**Status:** DRAFT 2026-05-14. Author reviews + adjusts before sending. Send target window: sooner-rather-than-later — earlier is better because (a) it lets Sandy clear all three citation questions in one round rather than as he reads them and surfaces them ad hoc, and (b) the TA-revisions mention is more useful before he opens the TA than after.
+**Status:** SENT 2026-05-15 02:31 AM ET (Friday) by Chris Winn. As-sent canonical record at [`post-citation-packet-email_2026-05-15.md`](post-citation-packet-email_2026-05-15.md). This DRAFT file captures the as-drafted-by-Claude state from 2026-05-14; the actually-sent email at 2026-05-15 includes author-added content not present in this DRAFT — specifically a fourth section (§5.1.1 / B₁ Restitution Bond sentence correction) plus explicit attachment-call-out + build-routine caveat. Use the as-sent record for any legal / permissions / reply-handling reference; this DRAFT is preserved as audit-trail.
+
+**Status correction history:** This file's previous "Status: DRAFT 2026-05-14" header treated the packet as still-pending-send for 16 days post-actual-send because (a) the filename retained the `DRAFT_` prefix; (b) the consent tracker §D.1 + §I.12 and cross-thread-todos item #2 both propagated the wrong state; (c) no SENT artifact was created at actual-send time. 2026-05-31 verify-stale-memory pass surfaced the gap; status corrected here + downstream artifacts updated.
+
+**Original status (historical):** DRAFT 2026-05-14. Author reviews + adjusts before sending. Send target window: sooner-rather-than-later — earlier is better because (a) it lets Sandy clear all three citation questions in one round rather than as he reads them and surfaces them ad hoc, and (b) the TA-revisions mention is more useful before he opens the TA than after.
 
 **Author decision logged 2026-05-14** in PM handoff §17 + cover-email reply-handling list: option (a) — proactive Q0 outreach — selected from the three routing options (raise proactively / wait-and-see / decide-not-required). This file is the operational follow-through.
 
