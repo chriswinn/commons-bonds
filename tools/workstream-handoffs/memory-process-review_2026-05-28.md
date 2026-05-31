@@ -1,6 +1,18 @@
 # memory-process-review_2026-05-28.md
 
-**Status:** RATIFIED 2026-05-31 — 13 of 14 §5 items ratified in-session via 4-question batch. Decisions: A.4 = D1 (collapse to 3-line pointer); A.8 = KEEP-LOCAL (Out-of-scope flag); B.4.a = Config γ (hybrid AGENTS.md). Batch-ratified as-recommended: A.5, A.6, A.7, A.9, B.1, B.2, B.3, B.4.b, B.6. Declined per recommendation: B.5 (optional CLAUDE.md cross-ref). Option E (A.2) carries forward from v1 mid-session ratification. Execution chip spawning per §7 next.
+**Status:** RATIFIED + EXECUTED 2026-05-31 — 13 of 14 §5 items ratified in-session via 4-question batch (decisions A.4 = D1, A.8 = KEEP-LOCAL, B.4.a = Config γ; batch-ratified as-recommended A.5/A.6/A.7/A.9/B.1/B.2/B.3/B.4.b/B.6; B.5 declined; A.2 carried forward from v1 mid-session ratification). Execution chip landed 9 in-repo commits on `origin/main` + A.7 laptop MEMORY.md sync as laptop-only step. Landed commits (in §4 sequenced order; reconciled-rebased over parallel-session work as needed):
+
+1. A.2 CLAUDE.md "No invented factual claims" section — commit `0313c05`
+2. A.5 amend `feedback_pm_dashboard_structure.md` (line 44 → status-markers.md authoritative + Class-column note) — commit `75a60f0` (rebased to `85c05d8` on main)
+3. A.6 amend `project_book_complete_marketing_phase.md` (split phase-reframing rule from stale operational status) — commit `9e5948c`
+4. A.4 collapse `feedback_git_workflow.md` to pointer (Option D1; iCloud-incident anchor preserved) — commit `d71d5be`
+5. README index updates (A.4 disposition + A.8 KEEP-LOCAL + A.9 sync discipline) — commit `9b11d90`
+6. B.1 refresh `tools/README.md` session-start sections — commit `a5ef30e` (rebased to `809da3f`)
+7. B.2 refresh `tools/workstream-handoffs/README.md` branch conventions + G2 resolution — commit `715ba05` (rebased to `79c6a84`)
+8. B.3 refresh `publishing/essays/README.md` Active essay packages table to 2026-05-31 state — commit `00c10c3`
+9. B.4 AGENTS.md Config γ refresh (168 lines → 84 lines; resolves S5) — commit `c0937df` (rebased to `d4d73dc`)
+10. B.6 three-home cross-reference paragraph in `feedback_audience_aware_drafting_discipline.md` — commit `1b23660` (rebased to `4858485`)
+11. A.7 laptop MEMORY.md sync — mirrored 3 newcomer files + 4 amended files to laptop; refreshed laptop index entries for `feedback_git_workflow.md` (pointer-only) + `feedback_audience_aware_drafting_discipline.md` (v2.0 → v3.1) + added 3 newcomer index entries (merge-on-ratification, worktree-isolation, parallel-session-ratification-cadence). Laptop-only; no commit.
 **Version:** **v2** — fresh-eyes redo per author request 2026-05-28 afternoon. Supersedes v1 (commits `e3b082b` + `c852336` on origin/main). v1 produced first-pass findings + Option E always-load architecture (already ratified by author mid-session). v2 expands on v1 with findings missed on first pass: (a) **laptop MEMORY.md vs in-repo mirror drift**, (b) **AGENTS.md vs PM-dashboard "primary home for PM state" conflict** (S5 still DOC-pending per PM handoff), (c) **`tools/writing-process/`** portable-extracts folder, (d) **V-D audit cluster** flag, (e) **alignment with the broader project-review G/S items** still pending from `tools/workstream-handoffs/pm-session-handoff_2026-05-28.md`. Option E (always-load recalibration) from v1 is preserved as the load-bearing recommendation; v2 adds rather than replaces.
 **Workstream:** `claude/memory-process-review-260528-67ca7b`
 **Author kickoff:** "fresh CC session doing a reflective review of the commons-bonds project's memory + process documents, looking for streamlining + pruning opportunities. Author requested this as a follow-up to the 2026-05-28 process + structure changes ratified by the PM session at `tools/workstream-handoffs/pm-session-handoff_2026-05-28.md`."
