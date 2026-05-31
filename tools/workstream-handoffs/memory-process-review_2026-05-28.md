@@ -1,31 +1,39 @@
 # memory-process-review_2026-05-28.md
 
 **Status:** PROPOSED 2026-05-28 — author-action-required (per-recommendation disposition); AWAITING author ratification.
-**Amended 2026-05-28** (same session) — author pushback on the bulk-promotion recommendation (§1.3 Rec A/B/C + §3) ratified Option E architecture: short CLAUDE.md paragraph for `no-invented-factual-claims` only; the other two newcomers stay situational because the SessionStart hook + CLAUDE.md §"Branch discipline" already cover their operational rules. Original §1.3 Rec A/B/C + §3 preserved for reasoning trail; revised recommendation at §3.0 (replaces §3) and §5 menu refreshed (A.1, A.3 → withdrawn; A.2 → CLAUDE.md addition instead of full-file promotion).
+**Version:** **v2** — fresh-eyes redo per author request 2026-05-28 afternoon. Supersedes v1 (commits `e3b082b` + `c852336` on origin/main). v1 produced first-pass findings + Option E always-load architecture (already ratified by author mid-session). v2 expands on v1 with findings missed on first pass: (a) **laptop MEMORY.md vs in-repo mirror drift**, (b) **AGENTS.md vs PM-dashboard "primary home for PM state" conflict** (S5 still DOC-pending per PM handoff), (c) **`tools/writing-process/`** portable-extracts folder, (d) **V-D audit cluster** flag, (e) **alignment with the broader project-review G/S items** still pending from `tools/workstream-handoffs/pm-session-handoff_2026-05-28.md`. Option E (always-load recalibration) from v1 is preserved as the load-bearing recommendation; v2 adds rather than replaces.
 **Workstream:** `claude/memory-process-review-260528-67ca7b`
 **Author kickoff:** "fresh CC session doing a reflective review of the commons-bonds project's memory + process documents, looking for streamlining + pruning opportunities. Author requested this as a follow-up to the 2026-05-28 process + structure changes ratified by the PM session at `tools/workstream-handoffs/pm-session-handoff_2026-05-28.md`."
-**Method:** Phase A (memory layer review via 3 parallel Explore sub-agents, ~23 files) + Phase B (process documents drift scan) + Phase C (synthesis + recommendation report — this file).
+**Author redo prompt 2026-05-28 afternoon:** "update branch; then redo your investigation + report + recommendations."
+**Method:** Phase A (memory layer review via 3 parallel Explore sub-agents in v1; verified in v2 — files unchanged since v1) + Phase B (process documents drift scan; expanded in v2 with PM-handoff context + `tools/writing-process/` discovery + AGENTS.md ↔ PM-dashboard conflict articulation) + Phase A.2 (NEW in v2 — laptop MEMORY.md vs in-repo mirror drift) + Phase C (synthesis + recommendation report — this file).
 **Mode:** read-then-recommend. DO NOT prune until author ratifies. Pruning execution is a separate follow-up chip.
+**Branch state:** rebased onto current `origin/main` 2026-05-28 afternoon; 65+ parallel-session commits intervened (all V-D essay audits + Berggruen scaffold + Atlantic Ideas Stage 5 consolidation); **none of those commits touched the memory + process layer**, so v1's per-file analysis remains valid; v2 expands scope rather than re-analyzing the same files.
 
 ---
 
-## Top-of-mind takeaway (TL;DR)
+## §0. Top-of-mind takeaway (TL;DR v2)
 
-The memory + process layer is **substantively healthy** (24 entries, no obvious legacy junk, clear cross-linking) but has accumulated three identifiable inefficiencies that the 2026-05-28 ratifications make easier to fix:
+The memory + process layer is **substantively healthy** (23 in-repo entries; clean index; clear cross-linking) but has accumulated five identifiable inefficiencies. The first three are carried forward from v1; the last two are new findings from the v2 fresh-eyes pass.
 
-1. **One load-bearing 2026-05-28 discipline (`no-invented-factual-claims`) is not yet captured in any always-loaded context. The other two newcomers (`merge-on-ratification`, `worktree-isolation`) are already covered operationally** — CLAUDE.md §"Branch discipline + merge-to-main" canonicalizes the first; the SessionStart hook + kickoff paste-text enforce the second at the harness layer. **Revised recommendation (Option E, §3.0): add a short paragraph to CLAUDE.md capturing the no-invented-facts rule (~1KB); leave the other two as situational.** Original §1.3 Rec A/B/C bulk-promotion reasoning preserved below for trail; superseded by §3.0.
+1. **The `no-invented-factual-claims` rule (2026-05-28) is the only newcomer not yet captured in always-loaded context.** Add a ~5-sentence CLAUDE.md paragraph capturing the hard rule (~1KB); full memory file stays situational. (**Option E**; v1 finding; author ratified mid-session.) The other two newcomers (`merge-on-ratification`, `worktree-isolation`) are already covered at always-load layer (CLAUDE.md §"Branch discipline") or harness layer (SessionStart hook + drafting-templates first-action discipline). [§3]
 
-2. **`feedback_git_workflow.md` is now redundant + partially stale.** Its 2026-04-29 ".claude/worktrees/" pattern was superseded 2026-05-26 by the parallel-session worktree pattern; its session-end-merge cadence was superseded 2026-05-28 by merge-on-ratification. Its content survives as canonical in CLAUDE.md §"Branch discipline + merge-to-main" + the two newer memory entries. **Recommendation: major amendment OR merge into pointer.** Either trim to a 3-line pointer or archive entirely (the canonical content is now in CLAUDE.md + the newer memory entries).
+2. **`feedback_git_workflow.md` (2026-04-29) is now substantively superseded.** Its `.claude/worktrees/<session-name>` pattern was superseded 2026-05-26 by parallel-session worktrees; its session-end-merge cadence was superseded 2026-05-28 by merge-on-ratification. Disposition: **collapse to 3-line pointer (Option D1) OR archive entirely (Option D2)**. Recommended: D1. [§1.3 Rec D]
 
-3. **AGENTS.md has substantial drift.** The "Current canonical state" table is heavily dated to 2026-05-06/17 (open insights tracker, outreach pipeline, Aeon pitch state, current handoff cell). It does not mention merge-on-ratification, status-markers, workstream-handoffs/ system, or the 2026-05-25 marketing-phase reframing. **Recommendation: substantial refresh OR convert most of it to pointers to live artifacts.**
+3. **AGENTS.md has substantial drift + an unresolved structural question.** Table dated 2026-05-06/17; no mention of merge-on-ratification, status-markers, workstream-handoffs/ system, or 2026-05-25 marketing-phase reframing. **NEW IN V2:** the AGENTS.md vs `tools/workstream-handoffs/pm-session-handoff_<DATE>.md` conflict for "primary home for PM state" is **S5 (MED) still DOC-pending per `pm-session-handoff_2026-05-28.md`** — my v1 recommendation to "substantially refresh AGENTS.md" did not acknowledge this. Refresh-vs-radically-slim is a decision the author should make, not a foregone refresh. [§2.3 v2 revised]
 
-The 20 other memory files are well-calibrated, currently load-bearing, and need only minor amendments (mostly: update cross-references to newer files; refresh one or two stale chapter-status anecdotes that don't affect the load-bearing rule).
+4. **NEW IN V2 — Laptop MEMORY.md vs in-repo `tools/memory/README.md` drift.** Three entries on in-repo are missing from laptop index (the three 2026-05-24-to-28 newcomers); one entry on laptop is missing from in-repo (`project_chapter_draft_suffix_consent_marker.md`, 2026-05-18); one description on laptop is stale (audience-aware-drafting v2.0 → actual v3.1). This is a recurring drift class — the laptop index lags repo amendments by ~1-2 weeks. Recommend: **mirror the 3 newcomers to laptop; either mirror the `__Draft suffix` entry to in-repo OR mark it KEEP-LOCAL in tools/memory/README.md "Out of scope" section**. [§1.5 NEW]
+
+5. **NEW IN V2 — `tools/writing-process/` portable-extracts folder (2026-05-19) is a third home for pipeline content** alongside `tools/pipeline-doctrine/` (project-specific) and `feedback_audience_aware_drafting_discipline.md` (always-load summary). Three documents (rigor-pipeline-overview, audience-character-roster, planned interview-prep-process). Not a drift problem — the three layers serve distinct audiences (portable extract / project doctrine / always-load summary) — but worth flagging in §2 so future amendments to the v3.1 doctrine don't drift across the three locations. [§2.4 NEW]
+
+The 19 other memory files are well-calibrated, currently load-bearing, and need only minor amendments. The §4 sequenced execution plan + §5 author-action menu reflect v2's expanded scope.
 
 ---
 
 ## §1. Phase A — Memory layer review
 
-### §1.1 Summary table — 23 memory files
+### §1.1 Summary table — 23 in-repo memory files
+
+(Unchanged from v1; files were not touched by the 65 parallel-session commits between v1 and v2.)
 
 | # | File | Type | Ratified | Status | Recommended disposition |
 |---|---|---|---|---|---|
@@ -36,18 +44,18 @@ The 20 other memory files are well-calibrated, currently load-bearing, and need 
 | 5 | feedback_no_invented_factual_claims_in_publisher_facing_prose.md | situational | 2026-05-28 | current (NEW) | **add ~5-sentence CLAUDE.md paragraph; full file stays situational** (Option E) |
 | 6 | feedback_worktree_isolation_for_parallel_sessions.md | situational | 2026-05-26 | current (NEW) | **keep situational** (Option E; SessionStart hook + kickoff paste-text already enforce) |
 | 7 | feedback_parallel_session_ratification_cadence.md | situational | 2026-05-24 | current | **keep-as-is** (situational is right) |
-| 8 | feedback_git_workflow.md | situational | 2026-04-29 (with 05-10, 05-24, 05-25 extensions) | partially superseded | **major amendment OR archive** |
+| 8 | feedback_git_workflow.md | situational | 2026-04-29 (+ 05-10, 05-24, 05-25 extensions) | partially superseded | **major amendment OR archive** [Option D1 or D2] |
 | 9 | feedback_two_layer_content_discipline.md | situational | 2026-04-30 (WP#10) | current | **keep-as-is** |
 | 10 | feedback_audit_recent_active_review_default.md | situational | 2026-05-12 | current | **keep-as-is** |
 | 11 | feedback_audit_open_illustrative_default.md | situational | 2026-05-12 | current | **keep-as-is** |
 | 12 | feedback_pm_dashboard_structure.md | situational | 2026-05-13 | minor drift | **minor amendment** (line 44 → status-markers.md; add Class-column note) |
-| 13 | feedback_rigor_vs_bookkeeping_distinction.md | situational | 2026-05-27 | current | **keep-as-is** (consider promote) |
+| 13 | feedback_rigor_vs_bookkeeping_distinction.md | situational | 2026-05-27 | current | **keep-as-is** |
 | 14 | feedback_substrate_critical_editorial_input.md | situational | 2026-05-21 | current | **keep-as-is** |
 | 15 | feedback_em_dash_overuse.md | situational | 2026-05-21 | current | **keep-as-is** |
 | 16 | feedback_dual_audience_test.md | situational | 2026-05-11 | current | **keep-as-is** |
 | 17 | feedback_grammatical_role_cross_references.md | situational | 2026-05-11 | current | **keep-as-is** |
 | 18 | feedback_substance_drives_length.md | situational | 2026-05-02 | current | **keep-as-is** (one stale chapter-status anecdote does not affect rule) |
-| 19 | feedback_voice_polish_pipeline.md | situational | 2026-05-04 | current | **keep-as-is** (ditto) |
+| 19 | feedback_voice_polish_pipeline.md | situational | 2026-05-04 | current | **keep-as-is** |
 | 20 | reference_ostrom_illustrative_register.md | situational | 2026-05-02 | current | **keep-as-is** (verify Cᵢ list before audit-side use) |
 | 21 | reference_pattern_2_register.md | situational | (Insight-anchored, pre-2026-05-01) | current | **keep-as-is** |
 | 22 | reference_sandel_hybrid_pattern.md | situational | 2026-05-11 | current | **keep-as-is** |
@@ -55,133 +63,98 @@ The 20 other memory files are well-calibrated, currently load-bearing, and need 
 
 ### §1.2 ARCHIVE.md candidate ranking
 
-The bar for archival is high (the entry is fully-resolved AND no longer informing current practice). On that bar:
+Bar for archival: fully-resolved AND no longer informing current practice.
 
 | Rank | Candidate | Rationale | Disposition |
 |---|---|---|---|
-| 1 | `feedback_git_workflow.md` | The 2026-04-29 worktree pattern (`/Users/c17n/commons-bonds/.claude/worktrees/<session-name>`) and the session-end-merge cadence are both superseded. The 2026-05-24 internal-scaffolding extension and 2026-05-25 path update lived inside this file but are now codified in CLAUDE.md + `feedback_merge_on_ratification.md`. The file no longer adds load-bearing content vs the canonical CLAUDE.md section. | **Archive OR collapse to 3-line pointer** |
+| 1 | `feedback_git_workflow.md` | The 2026-04-29 `.claude/worktrees/<session-name>` pattern + session-end-merge cadence are both superseded (2026-05-26 worktree-isolation; 2026-05-28 merge-on-ratification). The 2026-05-24 internal-scaffolding extension + 2026-05-25 path update lived inside this file but are now codified in CLAUDE.md + `feedback_merge_on_ratification.md`. The file no longer adds load-bearing content vs the canonical CLAUDE.md section. | **Archive (Option D2) OR collapse to 3-line pointer (Option D1)** |
 | — | (none others rank high enough) | All other 22 memory entries remain operationally live in some form. | — |
 
 **Discipline reminder:** ARCHIVE.md is the safe disposal target. Do NOT delete a memory file — archive it (move the entry into `ARCHIVE.md` with a one-paragraph retirement rationale, then delete the source file). The 2026-05-17 `project_book1_state_2026-05-10.md` ARCHIVE.md entry is the format precedent.
 
-### §1.3 Per-file justification for the four headline recommendations
+### §1.3 Per-file justification for the four headline recommendations (carried from v1)
 
-#### Rec A — Promote `feedback_merge_on_ratification.md` to always-load
+#### Rec A — keep `feedback_merge_on_ratification.md` situational (per Option E)
 
-**Argument.** Ratified 2026-05-28 (today). Codifies the new default merge cadence for ALL end-user-facing prose work (book chapters + every essay + op-eds + cover letters + agent correspondence + outreach packets). Every session touching publisher-facing prose needs this rule to avoid falling back to the 2026-05-16 explicit-merge gate. Empirical anchor (Foreign Affairs essay 2026-05-27, 6-hour stranded-ratified-prose incident) is recent and reputationally consequential. The escape-hatch markers (`MERGE-HOLD:` / `MERGE-AFTER:`) are vocabulary the session needs to recognize at commit-message-authoring time, which happens at every commit. Cost of loading: ~7.5KB (small file). Cost of NOT loading: a session falls back to 2026-05-16 logic and another piece of ratified prose strands on a feature branch.
+CLAUDE.md §"Branch discipline + merge-to-main" already canonicalizes the rule at always-load level. The memory file is the empirical-anchor + escape-hatch-syntax + worked-examples deep reference; loaded situationally when a session wants to litigate the rule. Promoting full file to always-load adds ~7.5KB for content already covered by CLAUDE.md. **Keep situational.**
 
-**Counterargument.** The rule is already canonicalized in CLAUDE.md §"Branch discipline + merge-to-main" (which IS always-load). So the memory entry is duplicative.
+#### Rec B — add CLAUDE.md prose paragraph for `feedback_no_invented_factual_claims_in_publisher_facing_prose.md` (full file stays situational, per Option E)
 
-**Resolution.** The CLAUDE.md section is the rule statement; the memory file is the empirical anchoring + escape-hatch syntax + worked examples. Both are useful, but the memory entry is the more grep-friendly + cross-link-friendly form. Recommended: keep CLAUDE.md as the rule, promote memory file to always-load as the operational reference. (Alternative: don't promote, but explicitly mark that CLAUDE.md §"Branch discipline" is the authoritative source and the memory entry is supplementary. Either works; promotion is mildly preferred for symmetry with the other two newcomers.)
+Hard rule. Reputational asymmetry: shipped-with-fabrication propagates essay → book → future work. Ch 2 → Harper's Pass 3.5 near-miss + Pass 3.1 F-3.1-H1 empirical anchors demonstrate that at high parallelism, sub-agents WILL produce invented testimonial-register prose at HIGH confidence with substrate-critical flags unless the discipline is in the always-loaded context. Unlike Rec A + Rec C, this rule has **no CLAUDE.md analog + no harness-layer mechanism**. The ~5-sentence CLAUDE.md prose paragraph (drafted at §3.0.2) is the always-load form; the full 17KB memory file is the situational deep reference (9-case "how to apply" detail; Ch 2 Harper's anchors; Pass 3.1 precedent). **Net always-load delta: ~1KB.**
 
-#### Rec B — Promote `feedback_no_invented_factual_claims_in_publisher_facing_prose.md` to always-load
+#### Rec C — keep `feedback_worktree_isolation_for_parallel_sessions.md` situational (per Option E)
 
-**Argument.** Ratified 2026-05-28 (today). HARD RULE. Reputational asymmetry is the load-bearing claim — shipped-with-fabrication propagates from essay → book → future work and is not recoverable. The empirical anchor (Ch 2 → Harper's Pass 3.5 near-miss with 4 illustrative-prose findings each containing invented testimonial-register specifics; Pass 3.1 F-3.1-H1 invented Bailey biographical specifics caught at HIGH severity) demonstrates that absent this discipline, sub-agents WILL produce invented testimonial-register prose at HIGH confidence. The discipline applies at every drafting + Pass 3.1 + Pass 3.5 + Stage 5 + sub-agent generation point. The "sub-agent discipline" section (§"In sub-agent design + kickoff paste-texts") is load-bearing for every kickoff paste-text Claude writes. Cost of loading: ~17KB. Cost of NOT loading: at high parallelism, a sub-agent generates invented prose with `[Substrate-critical note: ...]` flags + parent session ratifies-as-recommended without per-finding scrutiny + fabrication ships.
+Three operational layers already enforce the discipline:
+1. **SessionStart hook** (`tools/scripts/session-start-worktree-isolation.sh`) fires automatically on every fresh session; emits warning if session starts in main cwd.
+2. **First-action paste-text** (`tools/drafting-templates/worktree-isolation-paste-text.md`) is embedded in every kickoff template per `tools/drafting-templates/README.md` line referencing "FIRST ACTION REQUIREMENT (2026-05-26)".
+3. **Memory file** is the cross-session discipline pointer (situational).
 
-**Counterargument.** None of consequence. This is the most defensible promotion of the three.
+Promoting the memory file to always-load is belt-and-suspenders-and-a-third-belt. The first two layers operate before context window assembly + at template-paste time; the situational memory load handles the deep-reference case. **Keep situational.**
 
-**Resolution.** Promote.
+#### Rec D — Major-amendment (or archive) `feedback_git_workflow.md` (Option D1 or D2)
 
-#### Rec C — Promote `feedback_worktree_isolation_for_parallel_sessions.md` to always-load
+The file is heavily superseded (per §1.2 ranking). Two options:
 
-**Argument.** Ratified 2026-05-26. Operating-model discipline at 20-35+ concurrent sessions. The SessionStart hook fires automatically (defense layer 1), but the hook only warns; the discipline depends on the session reading + heeding the warning AND doing the worktree-add correctly AND using absolute paths inside the new worktree for the entire session. A session that loads this memory has internalized the WHY (350-branch contamination empirical anchor) + the HOW (worktree-add bash snippet) + the failure mode (absolute paths, not `cd` back to main cwd). Cost of loading: ~16KB. Cost of NOT loading: at sustained parallel-session volume, contamination recurs; the 2026-05-26 incident demonstrated the contamination is silent (HEAD swap is not visible until commit lands on wrong branch).
+- **Option D1 (recommended): collapse to a 3-line pointer.** Replace lines 10-30 with: "Canonical content moved to CLAUDE.md §'Branch discipline + merge-to-main' (2026-05-28 merge-on-ratification rule). Worktree-isolation pattern at [`feedback_worktree_isolation_for_parallel_sessions.md`](feedback_worktree_isolation_for_parallel_sessions.md). This file retained for historical reference to the 2026-04-29 ratification of WP#9 + the iCloud-incident empirical anchor."
+- **Option D2: archive entirely.** Add an entry to ARCHIVE.md noting the supersession; delete the source file. Cleaner but loses the iCloud-incident historical anchor.
 
-**Counterargument.** The SessionStart hook + the kickoff paste-text already enforce this. Loading the memory is belt-and-suspenders.
+Recommendation: **D1**. Aligns with PM-handoff S3 (HIGH) "Move superseded files to `_archive/`" if author prefers D2.
 
-**Resolution.** The empirical anchor (350+ contaminated branches; "sessions just swapping branches they were committing in seemingly at random") establishes that the hook alone is insufficient under volume. Belt-and-suspenders is justified for system-level operational safeguards at this stakes level. Promote.
+### §1.4 Minor-amendment cases (carried from v1)
 
-#### Rec D — Major-amendment (or archive) `feedback_git_workflow.md`
+- **`feedback_pm_dashboard_structure.md`**: Add a sentence after line 44 pointing to `tools/conventions/status-markers.md` as the authoritative source for emoji + status-marker conventions. Optional addition: a "Class column recommendation" note pointing to `feedback_rigor_vs_bookkeeping_distinction.md` for PM dashboards that need rigor-vs-bookkeeping discrimination.
 
-**Argument.** The file is heavily superseded:
+- **`project_book_complete_marketing_phase.md`**: Split the phase-reframing rule (load-bearing; foundational to cascade plan + venue strategy) from the operational status claims (which chapters in which stage; cascade-plan version; Q2-Q3 2027 timing). The phase-reframing should remain in the memory; the operational status should either (a) be removed (stale-prone) or (b) be marked as "verify against current state before quoting." Recommend (a).
 
-- Line 16-17: ".claude/worktrees/<session-name>" pattern — superseded 2026-05-26 by the parallel-session worktree pattern at `/Users/c17n/commons-bonds-<workstream>-<harness-id>` (siblings of main, not subdirectories).
-- Line 19-25: "Session-end ritual" — superseded 2026-05-28 by merge-on-ratification (push per ratified chunk, not at session-end).
-- Line 28: 2026-05-24 "end-user-facing prose requires author ratification before merge" — superseded 2026-05-28 by merge-on-ratification (ratification IS the merge).
+### §1.5 NEW IN V2 — Laptop MEMORY.md vs in-repo `tools/memory/README.md` drift
 
-The remaining load-bearing content is:
-- The "pre-push reconciliation pattern" (line 27) — already in CLAUDE.md.
-- The "active-push expectation" (line 26) — already in CLAUDE.md.
-- The "internal scaffolding auto-merge" (line 28) — already in CLAUDE.md.
+Comparison performed against the laptop MEMORY.md content auto-loaded at session start (`~/.claude/projects/-Users-c17n-commons-bonds/memory/MEMORY.md`) vs the in-repo `tools/memory/README.md`.
 
-**Resolution.** Two options.
+**In-repo perfect sync:** 23 README entries ↔ 23 actual files in `tools/memory/`. No mismatch.
 
-- **Option D1 (recommended): collapse to a 3-line pointer.** Replace lines 10-30 with: "Canonical content moved to CLAUDE.md §'Branch discipline + merge-to-main' (2026-05-28 merge-on-ratification rule). Worktree-isolation pattern at [`feedback_worktree_isolation_for_parallel_sessions.md`](feedback_worktree_isolation_for_parallel_sessions.md). This file retained for historical reference to the 2026-04-29 ratification of WP#9." Keeps the memory-index link working without duplicating content.
-- **Option D2: archive entirely.** Add an entry to ARCHIVE.md noting the supersession, then delete the file. Cleaner but loses the small amount of historical context (the iCloud incident anchor for WP#9).
+**Laptop ↔ in-repo drift:**
 
-Recommendation: **D1**. The iCloud-incident historical anchor is small but useful for understanding why the project moved to worktree isolation in the first place.
+| Drift | Direction | Detail | Recommended fix |
+|---|---|---|---|
+| D-L1 | In-repo → laptop missing | `feedback_merge_on_ratification.md` (2026-05-28) not yet in laptop index. | Mirror to laptop on next sync. |
+| D-L2 | In-repo → laptop missing | `feedback_worktree_isolation_for_parallel_sessions.md` (2026-05-26) not yet in laptop index. | Mirror to laptop on next sync. |
+| D-L3 | In-repo → laptop missing | `feedback_parallel_session_ratification_cadence.md` (2026-05-24) not yet in laptop index. | Mirror to laptop on next sync. |
+| D-L4 | Laptop → in-repo missing | `project_chapter_draft_suffix_consent_marker.md` (laptop entry; "__Draft suffix on chapter filenames = consent-pending marker; author flagged 2026-05-18"). NOT in tools/memory/. NOT flagged KEEP-LOCAL in tools/memory/README.md "Out of scope" section. | **Author decision:** either mirror to in-repo (treat as discipline that should be cross-session-load-bearing), OR mark KEEP-LOCAL in tools/memory/README.md Out-of-scope section + add note to laptop entry. |
+| D-L5 | Description staleness on laptop | `feedback_audience_aware_drafting_discipline.md` described on laptop as "Two-stage audience-aware drafting discipline (v2.0)". Actual file is v3.1 (Amendments A + B ratified 2026-05-18). | Refresh laptop description on next sync. Could automate via `tools/memory-updates/` spec discipline. |
 
-### §1.4 Minor-amendment cases
+**Pattern.** The laptop index lags in-repo amendments by ~1-2 weeks. The `tools/memory-updates/` staging area exists to mediate this (per S8 decision 2026-05-28 keep documented in `tools/README.md`) but is not running as a regular sync routine. The 3 newcomers in D-L1/L2/L3 have been ratified for 4 days, 2 days, and the same day respectively — laptop drift is recoverable on next manual sync.
 
-- **`feedback_pm_dashboard_structure.md`**: Add a sentence after line 44 pointing to `tools/conventions/status-markers.md` as the authoritative source for emoji + status-marker conventions (the memory entry's summary remains useful; the canonical now lives elsewhere). Optional addition: a "Class column recommendation" note pointing to `feedback_rigor_vs_bookkeeping_distinction.md` for PM dashboards that need rigor-vs-bookkeeping discrimination.
+**Recommended sync routine.** Spawn a periodic (~weekly?) "memory sync" chip that:
+1. Diffs laptop MEMORY.md vs in-repo `tools/memory/README.md`.
+2. Mirrors new in-repo entries into laptop.
+3. Mirrors version/description updates into laptop.
+4. Flags laptop-only entries as either KEEP-LOCAL (in-repo Out-of-scope) or mirror-to-in-repo (depending on author decision).
 
-- **`project_book_complete_marketing_phase.md`**: Split the phase-reframing rule (load-bearing; foundational to cascade plan + venue strategy) from the operational status claims (which chapters in which stage; cascade-plan version; Q2-Q3 2027 timing). The phase-reframing should remain in the memory; the operational status should either (a) be removed (stale-prone) or (b) be marked as "verify against current state before quoting." Recommend (a): remove the operational status; keep the phase-reframing.
+Or fold this into the existing `tools/memory-updates/` staging discipline by adding a "laptop sync verification" step.
 
 ---
 
-## §2. Phase B — Process documents drift scan
+## §2. Phase B — Process documents drift scan (expanded in v2)
 
-### §2.1 Drift table
+### §2.1 Drift table (carried from v1 + expanded)
 
 | Document | Current state | Drift assessment | Recommended disposition |
 |---|---|---|---|
-| `CLAUDE.md` | 207 lines; refreshed 2026-05-28 for merge-on-ratification + status-markers section + per-essay rigor consolidation note. | **Current.** Merge-on-ratification section is canonical authority for the new rule. Status-markers section is canonical pointer. | **Keep-as-is.** Consider one small addition (see §2.2 below). |
-| `AGENTS.md` | 168 lines; "Current canonical state" table dated 2026-05-06/07/09/17. | **Substantially drifted.** No mention of merge-on-ratification, status-markers, workstream-handoffs/ system, or marketing-phase reframing. Open-insights tracker says "7 OPEN as of 2026-05-17" (11 days stale). Outreach pipeline cell dated 2026-05-05. Aeon essay cell dated 2026-05-04. Current handoff cell references `v1.52.0` (the old `alignment/sessions/` system, not the workstream-handoffs/ system). "Session workflow" section (lines 135-144) references old upload-set workflow that does not match current worktree-isolation + paste-text reality. "What's queued" section (lines 115-133) is dated 2026-05-06. | **Substantial refresh OR convert most to pointers.** See §2.3 for refresh plan. |
-| `tools/README.md` | 156 lines; refreshed 2026-05-28 for subfolders inventory; "Session-start upload set" section retained from earlier era. | **Partially drifted.** Subfolders inventory (lines 28-101) is current. Session-start upload set (lines 11-22) + copy-paste session-start block (lines 121-131) + "Notes for agents" (lines 152-156) are stale — they reference `alignment/sessions/` handoffs, the v2.2.0 rigor protocol upload set, `/Noema/` and `/Berggruen Institute - Essay/` Drive folders (Drive-era; not current). | **Minor amendment** — strip or refresh the upload-set sections (lines 11-22 + 121-131); update notes section (lines 152-156) to remove Drive-era hard rules; explicitly note that current session start = worktree-isolation first, paste-text kickoff. |
-| `tools/pipeline-doctrine/README.md` | 36 lines; created 2026-05-28 as part of S6. | **Current.** Clean. | **Keep-as-is.** |
-| `tools/conventions/status-markers.md` | 150 lines; codified 2026-05-28 as part of S7. | **Current.** Clean. | **Keep-as-is.** |
-| `tools/workstream-handoffs/README.md` | 122 lines; last refreshed 2026-05-28 for merge-on-ratification update at line 11. | **Partial drift.** Lines 11 are current. Lines 17-83 list workstream handoffs by date through 2026-05-18; the branch-prefix conventions (`claude/aeon-submission-`, `claude/boston-review-essay-`, etc.) are stale — actual current branches use `claude/<workstream>-<harness-id>` with auto-generated harness IDs per the worktree-isolation discipline. Lines 99-105 list PM dashboards through 2026-05-28 (current). "Excluded from these handoffs" section (lines 107-113) is fine. | **Minor amendment** — update branch-prefix column header or remove it (the auto-generated harness-ID format makes per-workstream branch prefixes lower-stakes than they were 2026-05-09). Add a paragraph in the branch-discipline section noting that current branches use the `claude/<workstream>-<harness-id>` format per `feedback_worktree_isolation_for_parallel_sessions.md`. |
-| `publishing/essays/README.md` | 123 lines; refreshed 2026-05-28 for `rigor/` + `editor-iteration/` + `_archive/pre-submission/` subdirs. | **Mostly current.** "Active essay packages (as of 2026-05-25)" table is 3 days stale — current state has Atlantic Ideas pitch ratified 2026-05-28 (Aeon column says "Submission package scheduled 2026-05-31" — verify against actual current state). | **Minor amendment** — refresh the Active essay packages table to current 2026-05-28 state. |
+| `CLAUDE.md` | 207 lines; refreshed 2026-05-28 for merge-on-ratification + status-markers section + per-essay rigor consolidation note. | **Current.** | **Keep-as-is + add §"No invented factual claims" section per Option E §3.0.2.** |
+| `AGENTS.md` | 168 lines; "Current canonical state" table dated 2026-05-06/07/09/17. | **Substantially drifted + S5 unresolved (NEW IN V2).** Drift specifics: no mention of merge-on-ratification, status-markers, workstream-handoffs/ system, marketing-phase reframing. Open-insights tracker says "7 OPEN as of 2026-05-17" (11 days stale). Outreach pipeline cell dated 2026-05-05. Aeon essay cell dated 2026-05-04. "Current handoff" cell references `v1.52.0` (old `alignment/sessions/` system). "Session workflow" section (lines 135-144) references obsolete upload-set workflow. "What's queued" section (lines 115-133) is dated 2026-05-06. **PM-handoff S5 (MED) still DOC-pending:** "Pick primary home for PM state — discussion-required." AGENTS.md and the `tools/workstream-handoffs/pm-session-handoff_<DATE>.md` PM dashboard both claim canonical-state-of-project role; they're redundant + drift-prone (PM dashboards refresh ~weekly; AGENTS.md has not been comprehensively refreshed in ~3 weeks). | **Decision-then-disposition — see §2.3 v2 revised.** |
+| `tools/README.md` | 156 lines; refreshed 2026-05-28 for subfolders inventory; "Session-start upload set" sections retained from earlier era. | **Partially drifted.** Subfolders inventory (lines 28-101) is current. Session-start upload set (lines 11-22) + copy-paste session-start block (lines 121-131) + "Notes for agents" (lines 152-156) are stale — they reference `alignment/sessions/` handoffs, v2.2.0 rigor protocol upload set, `/Noema/` and `/Berggruen Institute - Essay/` Drive folders (Drive-era; not current). | **Minor amendment** — strip or refresh the upload-set sections; explicitly note current session start = worktree-isolation first, paste-text kickoff per `tools/drafting-templates/`. |
+| `tools/pipeline-doctrine/README.md` | 36 lines; created 2026-05-28 as part of S6. | **Current.** | **Keep-as-is.** |
+| `tools/conventions/status-markers.md` | 150 lines; codified 2026-05-28 as part of S7. | **Current.** | **Keep-as-is.** |
+| `tools/conventions/` (directory) | Holds only `status-markers.md`. Bare-minimum directory. | **Not a drift problem; observation:** could be a home for future cross-cutting conventions (commit-message conventions; review-cadence conventions; etc.) as they get codified. | **Keep-as-is.** Use as a deliberate home for future convention codifications. |
+| `tools/workstream-handoffs/README.md` | 122 lines; last refreshed 2026-05-28 for merge-on-ratification at line 11. | **Partial drift.** Lines 11 are current. Lines 17-83 list workstream handoffs by date through 2026-05-18; the branch-prefix conventions (`claude/aeon-submission-`, `claude/boston-review-essay-`, etc.) are stale — actual current branches use `claude/<workstream>-<harness-id>` with auto-generated harness IDs per worktree-isolation discipline. PM-handoff G2 (HIGH) "Require deliberate workstream slugs — DOC pending" overlaps with this; the branch-prefix convention REFRESH should also resolve G2. | **Minor amendment** — remove or restructure branch-prefix column; add paragraph noting current `claude/<workstream>-<harness-id>` format per `feedback_worktree_isolation_for_parallel_sessions.md`; this commit also resolves G2 documentation. |
+| `publishing/essays/README.md` | 123 lines; refreshed 2026-05-28 for `rigor/` + `editor-iteration/` + `_archive/pre-submission/` subdirs. | **Mostly current.** "Active essay packages (as of 2026-05-25)" table is 3 days stale — Atlantic Ideas pitch ratified 2026-05-28; verify Aeon timing. | **Minor amendment** — refresh table to 2026-05-28 state. |
+| `tools/drafting-templates/README.md` | 50+ lines; refreshed 2026-05-24 (v3.1 doctrine reflected). | **Current.** Already references worktree-isolation paste-text + SessionStart hook + the memory file as defense-in-depth (NEW IN V2: this validates Option E architecture; the three-layer enforcement is already operational). | **Keep-as-is.** |
+| `tools/writing-process/README.md` | NEW V2 OBSERVATION; created 2026-05-19. Holds portable / lift-and-reuse process docs (rigor-pipeline-overview v1.0.0, audience-character-roster v1.0.0, planned interview-prep-process). | **Not drifted; observation.** Three-home structure: (a) `feedback_audience_aware_drafting_discipline.md` (always-load summary); (b) `tools/pipeline-doctrine/` (project-specific full doctrine); (c) `tools/writing-process/` (portable extracts for lift-and-reuse). Three distinct audiences justify three homes. **Drift risk:** future amendments to v3.1 doctrine could land in only one or two of the three locations. | **Keep-as-is + flag.** Add an explicit cross-reference paragraph in the v3.1 always-load memory summary noting all three homes exist + naming them. Any future doctrine amendment session should update all three. |
+| `tools/quality-gates/README.md` | Current. Holds invariant-gate registries + sign-off artifact subdirs. | **Current.** Not pertinent to memory pruning. | **Keep-as-is.** |
 
-### §2.2 Recommended CLAUDE.md addition (optional, low-priority)
+### §2.2 Recommended CLAUDE.md addition
 
-CLAUDE.md currently mentions per-essay rigor consolidation in the "Internal scaffolding" bullets (line 109-112) but does not point to the per-essay layout standard. Consider adding a one-line cross-reference: "Per-essay layout: see [`publishing/essays/README.md`](publishing/essays/README.md) for the `rigor/` + `editor-iteration/` + `_archive/pre-submission/` subdirs and the per-essay-rigor-consolidation pattern ratified 2026-05-28."
-
-Low priority — the current cross-references via the internal-scaffolding bullets are sufficient; this is a navigability nice-to-have.
-
-### §2.3 AGENTS.md refresh plan
-
-**Option 1 (recommended): substantial refresh.** Update the "Current canonical state" table to reflect 2026-05-28 reality:
-
-- Add rows for: merge-on-ratification rule, status-markers convention, workstream-handoffs/ system, marketing-phase reframing.
-- Refresh stale rows: open insights tracker (verify count and entries), manuscript drafting state (verify 10/10 still accurate; note Phat anonymization), Aeon essay (refresh to current state), outreach pipeline (heavy refresh).
-- Update "Current handoff" row to point to `tools/workstream-handoffs/pm-session-handoff_2026-05-28.md` (not `v1.52.0`).
-- Refresh "Session workflow" section (lines 135-144) to current discipline: worktree-isolation first action → workstream-handoffs/ paste-text kickoff → per-session protocol close.
-- Refresh "What's queued" section (lines 115-133) to current workstreams.
-
-Estimated effort: ~30-60 min substantive editing. Spawn as a dedicated chip after this review's recommendations are ratified.
-
-**Option 2: convert most of AGENTS.md to pointers.** Many AGENTS.md rows duplicate content from canonical sources (working principles document, vocabulary strategy, framework-positioning disciplines, etc.). Converting the table to one-line pointers ("Pipeline doctrine: see `tools/pipeline-doctrine/`") reduces drift surface area at the cost of one-stop scannability.
-
-**Option 3: lighter-touch refresh.** Refresh only the 2-3 most-stale rows (open insights tracker, current handoff, marketing-phase reframing) and leave the rest. Trades thoroughness for time.
-
-Recommended: Option 1 (substantial refresh) as a dedicated post-this-review chip. AGENTS.md is the canonical internal-scaffolding orientation document; the value of currency is high. If author prefers a lighter touch given competing priorities, Option 3 is acceptable.
-
----
-
-## §3.0 Phase C — Always-load set recalibration (REVISED — Option E, supersedes §3)
-
-**Author pushback 2026-05-28 (same session):** the §3 bulk-promotion recommendation underweighted that (a) the load-bearing rule per discipline is ~1 paragraph while the 7-17KB files are mostly empirical anchors + worked examples + cross-references, and (b) two of the three newcomers are already covered operationally at the always-loaded layer (CLAUDE.md §"Branch discipline") or at the harness layer (SessionStart hook). The original symmetry-argument for promoting all three was thin.
-
-### §3.0.1 Revised always-load architecture
-
-**Current always-load (unchanged):**
-- `feedback_audience_aware_drafting_discipline.md` (v3.1; ~18KB; justified because the rule IS the v3.1 pipeline architecture — 6 stages × 5 passes × change-cascade routing; the OS manual for every Stage 3 pass)
-- `feedback_named_subject_consent.md` (~5.6KB)
-- `feedback_verify_stale_memory_claims.md` (~2.5KB)
-
-**Net change:** No file promotions. Instead, **add a ~5-sentence paragraph to CLAUDE.md** capturing the no-invented-factual-claims hard rule. Estimated CLAUDE.md addition: ~1KB. Full memory file (`feedback_no_invented_factual_claims_in_publisher_facing_prose.md`, ~17KB) stays situational; sessions doing Pass 3.1 / Pass 3.5 / Stage 5 / sub-agent kickoff work load it deliberately.
-
-**Net always-load delta: ~1KB instead of 40KB.** All three newcomer rules covered operationally:
-
-| Discipline | Where it's covered |
-|---|---|
-| Merge-on-ratification | CLAUDE.md §"Branch discipline + merge-to-main" (already always-load); memory file at `tools/memory/feedback_merge_on_ratification.md` is supplementary empirical anchor |
-| Worktree isolation | SessionStart hook fires automatically on every fresh session + kickoff paste-text + `tools/conventions/status-markers.md` references; memory file remains the deep-dive |
-| No-invented-factual-claims | **Gap.** No CLAUDE.md analog; no harness-layer mechanism. The Ch 2 → Harper's Pass 3.5 near-miss empirically demonstrated that the *situational-load-when-relevant* discipline can fail at high parallelism when sub-agents generate invented prose at HIGH confidence with substrate-critical flags. The discipline applies at *every* drafting + Pass 3.1 + Pass 3.5 + Stage 5 + sub-agent generation point — even sessions whose primary task isn't prose generation can spawn sub-agents that produce invented content. This is the one with the real always-load case, but the always-load form should be a short CLAUDE.md paragraph, not the full 17KB file. |
-
-### §3.0.2 Draft CLAUDE.md addition (for ratification with Option E)
-
-Recommended insertion point: after the existing §"Named-subject consent" section (CLAUDE.md lines 181-188), as a new §"No invented factual claims" section. Draft:
+The Option E paragraph from v1 §3.0.2. **Retained verbatim:**
 
 ```markdown
 ### No invented factual claims
@@ -208,105 +181,153 @@ Pass 3.1 F-3.1-H1 invented Bailey biographical specifics) + 9-case
 "how to apply" detail + sub-agent design discipline.
 ```
 
-~205 words / ~1.4KB. Captures the hard-rule scope, the asymmetric stakes, the thought-experiment exception, the sub-agent kickoff discipline, the pointer to deep reference.
+~205 words / ~1.4KB. Insertion point: after CLAUDE.md §"Named-subject consent" (lines 181-188), as a new §"No invented factual claims" section.
 
-### §3.0.3 What replaces the original §3.2 "Compromise option"
+### §2.3 AGENTS.md disposition — REVISED IN V2 ("decision-then-refresh" framing)
 
-Option E IS the compromise option the original §3.2 gestured at, but sharper: a ~1KB CLAUDE.md addition is meaningfully different from a 17KB always-loaded memory file. The original §3.2 compromise (promote only no-invented-facts; leave the other two situational) was already directionally correct; Option E refines it to "add the rule to CLAUDE.md prose; full memory file stays situational" which is the architecture pattern that already works for the v3.1 doctrine summary vs the full pipeline-doctrine files.
+**v1 framing was wrong.** v1 recommended "substantial refresh" as Option 1 (the default) without acknowledging that the AGENTS.md ↔ workstream-handoffs/ PM-dashboard tension is **S5 (MED) still DOC-pending per `tools/workstream-handoffs/pm-session-handoff_2026-05-28.md`**.
+
+**v2 framing.** The disposition is a two-step:
+
+**Step 1 — decide the structural question (S5 resolution).** Three configurations:
+
+- **Config α — AGENTS.md retains canonical-state-of-project role.** Workstream-handoffs/ PM dashboards become operational state-of-week snapshots; AGENTS.md is refreshed to reflect substantive project state. AGENTS.md needs substantial refresh (~30-60 min) on a regular cadence (~weekly?).
+- **Config β — workstream-handoffs/ PM dashboards become primary; AGENTS.md radically slims to a pointer + repo-structure-orientation doc.** AGENTS.md "Current canonical state" table collapses to ~5 rows of authoritative-source pointers; the rest becomes either workstream-handoffs/ entries or moves to `tools/conventions/` / `tools/pipeline-doctrine/` / `tools/memory/`. AGENTS.md becomes ~30 lines instead of 168.
+- **Config γ — hybrid: AGENTS.md holds STRUCTURAL orientation (repo structure, working principles, working-discipline conceptual foundations) but DROPS operational state.** "Current canonical state" table goes away entirely; PM dashboards own operational state; AGENTS.md owns "how this repo works conceptually." AGENTS.md becomes ~80-100 lines.
+
+**Recommendation: Config γ.** It cleanest-resolves the redundancy without losing the structural-orientation function (which workstream-handoffs/ dashboards do NOT cover). Config α perpetuates the dual-source-of-truth + drift problem. Config β risks losing structural orientation altogether.
+
+**Step 2 — execute the refresh per chosen config.** Once author rules on α/β/γ, the actual AGENTS.md edit is mechanical:
+- α: substantial refresh (v1 plan)
+- β: radical slim
+- γ: drop "Current canonical state" table; keep working-discipline + repo-structure + key-conceptual-foundations sections; refresh those to 2026-05-28 reality
+
+Estimated effort: α = 60-90 min, β = 20-30 min, γ = 30-45 min.
+
+**Coordination note.** PM-handoff S5 lists this as "DOC pending; discussion-required" — author has not yet ruled. v2 surfaces the decision; this review does NOT presume to make it. Suggest spawn a dedicated S5-decision chip OR fold the decision into the next PM session.
+
+### §2.4 NEW IN V2 — `tools/writing-process/` three-home pipeline observation
+
+**Three homes for the v3.1 audience-aware drafting pipeline content:**
+
+| Home | Audience | Granularity | When refresh |
+|---|---|---|---|
+| `tools/memory/feedback_audience_aware_drafting_discipline.md` (always-load) | Every CC session | Scan-friendly summary (~18KB) | When the doctrine itself amends |
+| `tools/pipeline-doctrine/` (subdir; 4 files) | Sessions executing the pipeline | Full canonical doctrine + per-stage deep-dives (~90KB total) | When the doctrine itself amends |
+| `tools/writing-process/` (3 docs incl. 1 planned) | External readers + future projects | Portable extracts; project-specific examples generalized; lift-and-reuse-ready | When portable form needs refresh (lags doctrine amendments) |
+
+**This is not a drift problem; it's deliberate architecture.** Three distinct audiences justify three homes. The drift RISK is that a future doctrine amendment (e.g., Amendment D, Amendment E) lands in `tools/pipeline-doctrine/` + the memory file but is forgotten in `tools/writing-process/` extracts.
+
+**Mitigation.** Add an explicit cross-reference paragraph in the v3.1 always-load memory summary noting all three homes exist, naming them, and stating that any future doctrine amendment session should update all three. Low-effort safeguard against three-way drift.
 
 ---
 
-## §3. Phase C — Always-load set recalibration (SUPERSEDED — preserved for trail; see §3.0 for revised recommendation)
+## §3. Phase C — Always-load set recalibration (Option E — carried from v1; verified under v2 fresh-eyes pass)
 
-### §3.1 Current always-load set (3)
+**Author already ratified Option E mid-session via AskUserQuestion 2026-05-28.** v2 verifies under fresh-eyes pass: Option E architecture holds.
 
-- `feedback_audience_aware_drafting_discipline.md` (v3.1)
-- `feedback_named_subject_consent.md`
-- `feedback_verify_stale_memory_claims.md`
+### §3.0.1 Revised always-load architecture (Option E)
 
-### §3.2 Proposed always-load set (6)
+**Current always-load (unchanged):**
+- `feedback_audience_aware_drafting_discipline.md` (v3.1; ~18KB)
+- `feedback_named_subject_consent.md` (~5.6KB)
+- `feedback_verify_stale_memory_claims.md` (~2.5KB)
 
-Add:
-- `feedback_merge_on_ratification.md` (rationale §1.3 Rec A)
-- `feedback_no_invented_factual_claims_in_publisher_facing_prose.md` (rationale §1.3 Rec B)
-- `feedback_worktree_isolation_for_parallel_sessions.md` (rationale §1.3 Rec C)
+**Net change:** No file promotions. **Add a ~5-sentence paragraph to CLAUDE.md** capturing the no-invented-factual-claims hard rule (§2.2 above; ~1KB). Full memory file stays situational.
 
-Keep all 3 existing.
+**Net always-load delta: ~1KB instead of ~40KB.**
 
-**Demotion candidates:** None. All 3 current always-loads are foundational; none demotes.
+| Discipline | Where it's covered |
+|---|---|
+| Merge-on-ratification | CLAUDE.md §"Branch discipline + merge-to-main" (always-load); memory file at `tools/memory/feedback_merge_on_ratification.md` supplementary |
+| Worktree isolation | SessionStart hook + drafting-templates first-action paste-text discipline + status-markers.md cross-refs; memory file deep-dive |
+| No-invented-factual-claims | **Gap until Option E lands.** Add CLAUDE.md paragraph (§2.2); memory file stays situational. |
 
-**Total context-window impact:** Adding 3 files at ~7.5KB + 17KB + 16KB = ~40KB additional always-loaded context. The existing always-loaded set is ~26KB total (the audience-aware-drafting summary is the largest at 18KB). Combined new always-load = ~66KB, which is a meaningful chunk of context. Author may want to weigh that against the cognitive-overhead-on-every-session cost of loading 40KB of recurrent operational discipline.
+### §3.0.2 V2 verification under fresh-eyes pass
 
-**Compromise option:** Promote only `feedback_no_invented_factual_claims_in_publisher_facing_prose.md` (highest reputational stakes; least redundant with CLAUDE.md). Leave `feedback_merge_on_ratification.md` and `feedback_worktree_isolation_for_parallel_sessions.md` as situational on the rationale that (a) CLAUDE.md §"Branch discipline" already canonicalizes merge-on-ratification at always-load level, and (b) the SessionStart hook fires automatically for worktree-isolation. This compromise saves ~24KB of always-loaded context for the cost of a slightly thinner safety net. Defensible if context-budget is the binding constraint.
+Reading `tools/drafting-templates/README.md` (which I did NOT read on v1's first pass) explicitly confirms the worktree-isolation three-layer enforcement: SessionStart hook + first-action paste-text + memory-file deep-dive. Quoting:
 
-### §3.3 Considered-and-rejected always-load candidates
+> **FIRST ACTION REQUIREMENT (2026-05-26).** Every fresh session embeds the worktree-isolation paste-text at [`worktree-isolation-paste-text.md`](worktree-isolation-paste-text.md) as its first instruction — BEFORE the required-reads, BEFORE workstream-specific guidance. The session's first tool call MUST be the `git worktree add` step described in that paste-text. Defense-in-depth: a SessionStart hook at [`../scripts/session-start-worktree-isolation.sh`](../scripts/session-start-worktree-isolation.sh) also emits a session-context warning when a session starts in the main `/Users/c17n/commons-bonds` cwd. The hook + the embedded first-action block together prevent the branch-contamination failure mode documented at [`../memory/feedback_worktree_isolation_for_parallel_sessions.md`](../memory/feedback_worktree_isolation_for_parallel_sessions.md).
 
-- `feedback_rigor_vs_bookkeeping_distinction.md` (2026-05-27) — load-bearing for PM session work and cross-essay portfolio reviews, but situational for the modal drafting session. Keep situational; the index entry is clear enough that PM sessions will load it.
-- `feedback_parallel_session_ratification_cadence.md` (2026-05-24) — operating-model discipline; reasonable case for promotion but the kickoff paste-texts already enforce the per-session pattern + the PM session inherits the meta-tracker pattern via the dashboard. Keep situational.
+The drafting-templates README explicitly names the memory file as the THIRD defense layer (not the first). Promoting the memory file to always-load would belt-and-suspenders the third layer, leaving the first two layers (which do the enforcement work) untouched. **Option E architecture is the correct one.**
 
 ---
 
-## §4. Pruning execution plan (sequenced)
+## §4. Pruning execution plan (sequenced) — v2 revised
 
-**Revised per Option E (§3.0):** Step 1 is now a CLAUDE.md prose addition, not an `@import` block update. The always-load file set stays at 3. Steps 5+ also adjusted (README index reflects situational status of the three newcomers; no always-load count change).
+Per Option E (always-load architecture) + v2 additions (laptop sync; AGENTS.md decision-then-refresh).
 
-If author ratifies all (Option E version), execute in this strict order (each step depends on prior step landing):
+If author ratifies the recommended dispositions, execute in this strict order:
 
-1. **Add CLAUDE.md §"No invented factual claims" section** (~205 words, drafted at §3.0.2) after existing §"Named-subject consent" section. No `@import` changes. One commit. Pre-push reconcile + push (internal scaffolding; auto-merge per merge-on-ratification).
+1. **Add CLAUDE.md §"No invented factual claims" section** (~205 words per §2.2). No `@import` changes. One commit. Pre-push reconcile + push (internal scaffolding; auto-merge per merge-on-ratification).
 2. **Amend `feedback_pm_dashboard_structure.md`** (line 44 → status-markers.md pointer + Class-column note). One commit.
 3. **Amend `project_book_complete_marketing_phase.md`** (split phase-reframing from operational status). One commit.
-4. **Major-amendment `feedback_git_workflow.md`** (collapse to pointer per Option D1) OR **archive entirely** per Option D2. One commit. If archived, add ARCHIVE.md entry in same commit.
-5. **Update `tools/memory/README.md`** index: confirm always-loads remain 3 (no change); update the disposition of `feedback_git_workflow.md`; optionally add a one-line note that `feedback_no_invented_factual_claims_in_publisher_facing_prose.md` is now also captured in CLAUDE.md §"No invented factual claims" as a short paragraph for always-loaded context. One commit.
+4. **Major-amendment OR archive `feedback_git_workflow.md`** (Option D1 collapse-to-pointer OR Option D2 archive entirely). One commit. If archived (D2), add ARCHIVE.md entry in same commit.
+5. **Update `tools/memory/README.md`** index: confirm always-loads remain 3; update disposition of `feedback_git_workflow.md`; optionally add note that `feedback_no_invented_factual_claims_in_publisher_facing_prose.md` rule is also captured in CLAUDE.md §"No invented factual claims" as short-form always-load. **NEW v2:** if D-L4 disposition is "mark KEEP-LOCAL", add `project_chapter_draft_suffix_consent_marker.md` to the Out-of-scope section. One commit.
 6. **Refresh `tools/README.md`** session-start sections (lines 11-22 + 121-131 + 152-156). One commit.
-7. **Refresh `tools/workstream-handoffs/README.md`** branch-prefix conventions. One commit.
+7. **Refresh `tools/workstream-handoffs/README.md`** branch-prefix conventions + add `claude/<workstream>-<harness-id>` format paragraph. This commit also documents PM-handoff G2 (HIGH) "Require deliberate workstream slugs" resolution. One commit.
 8. **Refresh `publishing/essays/README.md`** Active essay packages table. One commit.
-9. **Refresh AGENTS.md** (Option 1: substantial refresh OR Option 3: lighter-touch refresh). One commit (the largest).
-
-Each commit is internal scaffolding; auto-merges to main per the merge-on-ratification rule. Pre-push reconcile (`git fetch origin main && git rebase origin/main`) before each push to inherit parallel-session work.
+9. **AGENTS.md disposition (NEW V2 — two-step):**
+   - **9a.** Surface S5 decision-question to author OR fold into next PM session. (No commit; author action.)
+   - **9b.** After α/β/γ ruling: execute the refresh per chosen config. One commit.
+10. **NEW V2 — Laptop MEMORY.md sync.** (No commit; laptop-only.) Mirror D-L1/L2/L3 newcomers; refresh D-L5 description; resolve D-L4 per author decision.
+11. **NEW V2 — `tools/writing-process/` three-home cross-reference.** Add ~3-sentence cross-reference paragraph in `feedback_audience_aware_drafting_discipline.md` noting the three homes + the all-three-update discipline. One commit.
 
 **Strict ordering rationale:**
-- Step 1 (CLAUDE.md `@import` updates) lands first because subsequent memory amendments may want to verify the always-load set is updated.
+- Step 1 (CLAUDE.md addition) lands first because subsequent memory amendments may want to verify the always-load set is updated.
 - Step 4 (git_workflow disposition) before step 5 (README index update) because the index reflects the disposition.
-- Step 9 (AGENTS.md refresh) last because it pulls from the now-clean state of all prior steps.
+- Step 9 (AGENTS.md) is conditional on S5 decision — pause if author hasn't ruled.
+- Step 10 (laptop sync) is independent of in-repo commits; can fire anytime.
+- Step 11 (three-home cross-reference) is small; can batch with step 5.
 
-**Estimated total effort:** ~2-3 hours if substantial AGENTS.md refresh (Option 1); ~1-1.5 hours if lighter-touch (Option 3).
+**Estimated total effort:** ~2-3 hours if AGENTS.md goes Config α (substantial refresh); ~1.5-2 hours if Config γ (hybrid); ~1-1.5 hours if Config β (radical slim).
 
 ---
 
-## §5. Author-action menu (per-recommendation disposition)
+## §5. Author-action menu (per-recommendation disposition) — v2 expanded
 
-Author can ratify per-recommendation OR batch-ratify all. Each numbered item maps to a §1.3 or §1.4 or §2 recommendation.
+Author can ratify per-recommendation OR batch-ratify all.
 
-**Memory layer (Phase A) — REVISED per §3.0 Option E:**
+**Memory layer (Phase A):**
 
-- ~~**A.1** Promote `feedback_merge_on_ratification.md` to always-load?~~ **WITHDRAWN per §3.0** — CLAUDE.md §"Branch discipline + merge-to-main" already canonicalizes; memory file stays situational.
-- ☐ **A.2** ~~Promote `feedback_no_invented_factual_claims_in_publisher_facing_prose.md` to always-load?~~ **REVISED:** Add the ~5-sentence CLAUDE.md paragraph drafted at §3.0.2 (~1KB) as a new §"No invented factual claims" section after CLAUDE.md §"Named-subject consent". Full memory file stays situational. [§3.0]
-- ~~**A.3** Promote `feedback_worktree_isolation_for_parallel_sessions.md` to always-load?~~ **WITHDRAWN per §3.0** — SessionStart hook + kickoff paste-text + status-markers.md cross-refs already enforce; memory file stays situational.
-- ☐ **A.4** Dispose of `feedback_git_workflow.md` — Option D1 (3-line pointer) OR Option D2 (archive entirely)? (Recommendation: D1.) [§1.3 Rec D]
-- ☐ **A.5** Minor amendment to `feedback_pm_dashboard_structure.md` (line 44 → status-markers.md; Class-column note)? [§1.4]
-- ☐ **A.6** Minor amendment to `project_book_complete_marketing_phase.md` (split phase-reframing from operational status; remove stale operational anchors)? [§1.4]
+- ☐ **A.2** Add ~5-sentence CLAUDE.md §"No invented factual claims" section per §2.2 (Option E)? [Already ratified mid-session; carries forward.]
+- ☐ **A.4** Dispose of `feedback_git_workflow.md` — Option D1 (3-line pointer) OR Option D2 (archive entirely)? Recommendation: D1.
+- ☐ **A.5** Minor amendment to `feedback_pm_dashboard_structure.md` (line 44 → status-markers.md; Class-column note)?
+- ☐ **A.6** Minor amendment to `project_book_complete_marketing_phase.md` (split phase-reframing from operational status)?
+
+**Laptop / in-repo mirror (NEW IN V2):**
+
+- ☐ **A.7** Sync laptop MEMORY.md — mirror D-L1 + D-L2 + D-L3 (3 newcomers) + D-L5 (description refresh)?
+- ☐ **A.8** Resolve D-L4: `project_chapter_draft_suffix_consent_marker.md` — mirror to in-repo OR mark KEEP-LOCAL?
+- ☐ **A.9** Spawn periodic memory-sync routine (e.g., weekly chip) OR fold sync verification into `tools/memory-updates/` discipline?
 
 **Process documents (Phase B):**
 
-- ☐ **B.1** Refresh `tools/README.md` session-start sections (lines 11-22 + 121-131 + 152-156) to current discipline? [§2.1 + §2.3]
-- ☐ **B.2** Refresh `tools/workstream-handoffs/README.md` branch-prefix conventions to `claude/<workstream>-<harness-id>` format? [§2.1]
-- ☐ **B.3** Refresh `publishing/essays/README.md` Active essay packages table to 2026-05-28 state? [§2.1]
-- ☐ **B.4** AGENTS.md refresh — Option 1 (substantial), Option 2 (pointers), or Option 3 (lighter-touch)? (Recommendation: Option 1 as a dedicated chip.) [§2.3]
-- ☐ **B.5** Optional CLAUDE.md addition (one-line cross-reference to publishing/essays/README.md per-essay layout)? Low priority. [§2.2]
+- ☐ **B.1** Refresh `tools/README.md` session-start sections to current discipline?
+- ☐ **B.2** Refresh `tools/workstream-handoffs/README.md` branch-prefix conventions + document `claude/<workstream>-<harness-id>` format (also resolves PM-handoff G2)?
+- ☐ **B.3** Refresh `publishing/essays/README.md` Active essay packages table to 2026-05-28 state?
+- ☐ **B.4** AGENTS.md disposition — **NEW V2 two-step:**
+  - **B.4.a** S5 ruling — Config α (retain canonical-state role), Config β (radical slim to pointer-doc), OR Config γ (hybrid — drop "Current canonical state" table; keep structural orientation)? Recommendation: **Config γ**.
+  - **B.4.b** Execute the refresh per chosen config.
+- ☐ **B.5** Optional CLAUDE.md addition (one-line cross-reference to publishing/essays/README.md per-essay layout)? Low priority.
+- ☐ **B.6** NEW V2 — Add three-home cross-reference paragraph to `feedback_audience_aware_drafting_discipline.md` (per §2.4)?
 
-**~~Compromise option C.1~~ — SUPERSEDED by Option E (§3.0)** which is sharper than C.1 (CLAUDE.md paragraph, not full-file promotion). Original C.1 preserved below for trail; if author prefers the lighter touch, C.1 is also acceptable.
+**Cross-PM-handoff alignment (NEW IN V2):**
 
-- ~~**C.1** Promote only A.2 (no-invented-factual-claims) to always-load; leave A.1 and A.3 as situational on the rationale that CLAUDE.md §"Branch discipline" + SessionStart hook already cover their core content. Saves ~24KB of always-loaded context. [§3.2]~~ Superseded by Option E.
+- ☐ **B.7** Cross-reference PM-handoff G2 (HIGH) "Require deliberate workstream slugs" — partial resolution via B.2 above; confirm sufficient OR spawn dedicated chip?
+- ☐ **B.8** Cross-reference PM-handoff S3 (HIGH) "Move superseded files to `_archive/`" — `feedback_git_workflow.md` D2 disposition counts as one instance; broader sweep separate?
+- ☐ **B.9** Cross-reference PM-handoff S5 (MED) "Pick primary home for PM state" — surface via B.4.a above; sufficient OR spawn dedicated chip?
 
 ---
 
-## §6. What is explicitly NOT in scope (deferred / out-of-scope)
+## §6. What is explicitly NOT in scope
 
-- **Local laptop memory layer** (`~/.claude/projects/-Users-c17n-commons-bonds/memory/`). The MEMORY.md index loaded into context at session start shows the laptop layer is in sync with the in-repo mirror at `tools/memory/`. This review confines its recommendations to the in-repo mirror; the laptop layer should mirror any ratified amendments via the next memory-sync routine. (Reference: `tools/memory-updates/` staging area.)
-- **`tools/memory-updates/` staging-area review.** S8 decision 2026-05-28 kept this directory as low-volume-but-active. This review did not audit the staging-area entries.
-- **Skill invocation.** The `anthropic-skills:consolidate-memory` skill was considered but not invoked because (a) its primary target is the local laptop memory, not the in-repo mirror under review here; and (b) the cross-document drift scan (Phase B) is broader than the skill's scope. If author wants a mechanical pass over the laptop memory after these in-repo ratifications land, the skill is the right tool — spawn as a separate chip.
-- **Memory entry content correctness audit.** This review checked for staleness + supersession + overlap, not for whether each memory's load-bearing claim is empirically correct. The claims are the author's ratifications; this review respects those ratifications.
-- **Execution of any pruning.** Per the kickoff brief: this is read-then-recommend. No pruning was executed in this session. Pruning execution is a follow-up chip spawnable after author ratifies the dispositions.
+- **Local laptop memory layer FILES** (the `.md` files at `~/.claude/projects/-Users-c17n-commons-bonds/memory/`). v2 reviewed the laptop MEMORY.md INDEX vs in-repo `tools/memory/README.md` index; this surfaced 5 drift findings (§1.5). Full file-content comparison between laptop layer + in-repo mirror was not performed because this CC session does not have a direct read path into `~/.claude/projects/`; laptop file-content drift detection is on the next memory-sync routine.
+- **`tools/memory-updates/` staging-area content review.** S8 decision 2026-05-28 kept this directory as low-volume-but-active. v2 references its discipline but does not audit the staging-area entries.
+- **The V-D audit cluster workstream pattern.** ~30+ commits between v1 and v2 are Version A/B/C/D parallel-draft + independent-audit + hybrid pattern across the Wave 1 + Wave 2 essays. This MAY warrant codification as a `reference_` memory entry (alongside `reference_pattern_2_register.md`, `reference_ostrom_illustrative_register.md`, `reference_sandel_hybrid_pattern.md`) IF the pattern stabilizes. v2 flags but does not recommend codification — pattern is in-flight; let it stabilize first. Spawn a follow-up "V-D pattern codification?" decision chip after the cluster lands.
+- **Skill invocation.** The `anthropic-skills:consolidate-memory` skill remains an appropriate tool for the laptop-side memory sweep (the in-repo mirror is the focus here). If author wants a mechanical pass over laptop memory after these in-repo ratifications land, the skill is the right tool — spawn as a separate chip per A.9.
+- **Memory entry content correctness audit.** v2 (like v1) checks staleness + supersession + overlap + sync; not whether each memory's load-bearing claim is empirically correct. The claims are the author's ratifications.
+- **Execution of any pruning.** v2 (like v1) is read-then-recommend. No pruning was executed in this session. Execution is a follow-up chip.
 
 ---
 
@@ -315,21 +336,23 @@ Author can ratify per-recommendation OR batch-ratify all. Each numbered item map
 If author ratifies subset / all, spawn a follow-up "memory-process-pruning-execution" chip with the following:
 
 ```
-Title: Execute memory-process review pruning (PROPOSED 2026-05-28)
-TLDR: Execute the per-recommendation dispositions ratified at tools/workstream-handoffs/memory-process-review_2026-05-28.md per §4 sequenced execution plan.
+Title: Execute memory-process review pruning v2 (PROPOSED 2026-05-28)
+TLDR: Execute the per-recommendation dispositions ratified at
+tools/workstream-handoffs/memory-process-review_2026-05-28.md per §4
+sequenced execution plan (v2 revised).
 
 Prompt (self-contained):
 
 You are a fresh CC session executing the ratified pruning dispositions
-from the 2026-05-28 memory-process review. Author has ratified the
-following subset of recommendations: [author specifies which of A.1-A.6,
-B.1-B.5, C.1 to execute].
+from the 2026-05-28 memory-process review v2. Author has ratified the
+following subset of recommendations: [author specifies which of A.2,
+A.4-A.9, B.1-B.9 to execute].
 
 Read tools/workstream-handoffs/memory-process-review_2026-05-28.md §4
-"Pruning execution plan (sequenced)" and execute the ratified steps in
-the order specified there. Each step is one commit; internal scaffolding;
-auto-merge to main per merge-on-ratification rule with pre-push
-reconcile.
+"Pruning execution plan (sequenced) — v2 revised" and execute the
+ratified steps in the order specified there. Each step is one commit;
+internal scaffolding; auto-merge to main per merge-on-ratification rule
+with pre-push reconcile.
 
 MANDATORY FIRST ACTION: worktree isolation per CLAUDE.md +
 feedback_worktree_isolation_for_parallel_sessions.md.
@@ -337,15 +360,22 @@ feedback_worktree_isolation_for_parallel_sessions.md.
 DO NOT execute steps the author did not ratify. DO NOT execute steps
 out of the §4 sequenced order.
 
-Expected output: each ratified disposition landed on origin/main; state
-one-liner: "STATE: memory-process-pruning-execution COMPLETE; NEXT:
-[next action]; AWAITING: nothing or author-direction."
+If B.4 (AGENTS.md) is ratified: confirm the chosen Config (α / β / γ)
+before executing 9b. Pause if unclear.
+
+If A.7 (laptop sync) is ratified: the laptop sync is laptop-only, no
+commit; record completion in the session summary.
+
+Expected output: each ratified disposition landed on origin/main (or
+laptop, for sync items); state one-liner: "STATE: memory-process-
+pruning-execution v2 COMPLETE; NEXT: [next action]; AWAITING: nothing
+or author-direction."
 ```
 
 ---
 
 ## §8. State
 
-**STATE:** memory-process-review PROPOSED 2026-05-28 (amended same session per author pushback — Option E architecture for always-load recalibration; see §3.0); NEXT: author-action-required (per-recommendation disposition per refreshed §5); AWAITING: author ratification.
+**STATE:** memory-process-review PROPOSED 2026-05-28 v2 (fresh-eyes redo per author request 2026-05-28 afternoon; supersedes v1 commits `e3b082b` + `c852336`); NEXT: author-action-required (per-recommendation disposition per refreshed §5); AWAITING: author ratification.
 
-**Per-session protocol close:** This report itself is internal scaffolding; auto-merge to main per merge-on-ratification rule. The report's recommendations are PROPOSED, not RATIFIED; the file landing on main does not constitute ratification of its recommendations. The Option E amendment IS ratified (author pushback → Option E selected via AskUserQuestion 2026-05-28); the per-recommendation dispositions inside Option E remain awaiting batch / per-item ratification.
+**Per-session protocol close:** This report itself is internal scaffolding; auto-merge to main per merge-on-ratification rule. The report's recommendations are PROPOSED, not RATIFIED; the file landing on main does not constitute ratification of its recommendations. Option E (always-load architecture, A.2) was ratified mid-v1-session and carries forward. Other recommendations remain pending per-item ratification.
