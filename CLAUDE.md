@@ -187,6 +187,29 @@ do not require consent gating. Living named subjects require
 explicit author confirmation before naming in publisher-facing
 prose.
 
+### No invented factual claims
+
+In publisher-facing non-fiction prose (book chapters, derivative essays,
+op-eds, cover letters, query letters, agent correspondence, AI-disclosure
+paragraphs, Stage 5 sign-offs), do NOT invent factual claims about real
+subjects — biographical specifics, scene-rendered encounters, period-typical
+civic-infrastructure detail, quoted speech, documentary-record specifics,
+motivation attributions. Substrate-safe attributions ARE permitted
+(verifiable published-work citations; on-record quotes). For restoration
+recommendations needing substrate the canonical-facts inventory doesn't
+anchor, surface the structure-only recommendation; do not generate
+illustrative invented prose, even with `[Substrate-critical note: ...]`
+flags. The single exception is explicit thought-experiment register
+signaled to the reader in the prose itself (Ch 7 *On Other Worlds* model).
+Sub-agent kickoff paste-texts must specify this discipline explicitly;
+parent-session ratify-as-recommended defaults are conditional on
+substrate-safety. Hard rule — reputational asymmetry: shipped-with-
+fabrication propagates from essay to book to future work and is not
+recoverable. See [`tools/memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md`](tools/memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md)
+for empirical anchors (Ch 2 → Harper's Pass 3.5 near-miss 2026-05-27;
+Pass 3.1 F-3.1-H1 invented Bailey biographical specifics) + 9-case
+"how to apply" detail + sub-agent design discipline.
+
 ## Project memory (cross-session discipline)
 
 The project's cross-session discipline registry lives at
