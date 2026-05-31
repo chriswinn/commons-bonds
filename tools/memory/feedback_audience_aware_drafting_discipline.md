@@ -232,6 +232,18 @@ Implementation: `tools/scripts/check-corpus-invariants.sh`.
 - Stage 3 template (revised): `tools/drafting-templates/stage-3-three-pass-rigor-audit.md`
 - Audience pressure-test construction (revised): `tools/drafting-templates/audience-pressure-test-construction.md`
 
+### Three-home cross-reference (added 2026-05-31 per memory-process-review v2 B.6)
+
+The v3.1 pipeline doctrine deliberately lives in three homes serving three distinct audiences:
+
+| Home | Audience | Granularity |
+|---|---|---|
+| This memory file (`tools/memory/feedback_audience_aware_drafting_discipline.md`) | Every CC session (always-load via CLAUDE.md `@import`) | Scan-friendly summary (~18KB) |
+| [`tools/pipeline-doctrine/`](../pipeline-doctrine/) (4 files: v1.0.0 main + Stage 1 / 4 / 5 deep-dives) | Sessions executing the pipeline | Full canonical doctrine + per-stage deep-dives (~90KB total) |
+| [`tools/writing-process/`](../writing-process/) (rigor-pipeline-overview, audience-character-roster, planned interview-prep-process) | External readers + future projects | Portable extracts; project-specific examples generalized; lift-and-reuse-ready |
+
+**Doctrine-amendment discipline.** Any future amendment to the v3.1 doctrine (Amendment D, Amendment E, etc.) MUST update all three homes — drift across them is the failure mode this cross-reference is here to prevent. The amendment session is responsible for cascading the change into all three; the sequenced update order is (1) `tools/pipeline-doctrine/` canonical full doctrine, (2) this memory file summary, (3) `tools/writing-process/` portable extracts. Step 1 establishes ground truth; steps 2 + 3 keep the summary + portable forms in sync.
+
 ---
 
 ## Historical record — v2.0 Amendment B empirical anchoring (preserved as audit-trail)
