@@ -84,6 +84,28 @@ Submitting "The Mask of Abundance" — a 289-word pitch for a ~4,000-word essay 
 
 ---
 
+## 🛟 Contingency: if the portal has a separate argument-statement / thesis / 1-line summary field
+
+**Default assumption:** there is no such field, and V-E's pitch body IS the argument statement. If there is one, use the polished opener below — designed to satisfy Haselby's published guidance (*"a simple, direct opener that states the argument,"* APA Blog 2020-12-10) without contradicting V-E's scene-first opening. Drafted + ratified 2026-05-31 (Option E.2 γ.1 opener); Pass 3.3 + 3.4 + 3.5 audit chip spawned 2026-05-31 to verify net effect on combined submission package.
+
+**Suggested contingency text** (if a "thesis statement" / "main argument" / "premise" / "abstract" field ~50-100w exists):
+
+```
+Earth is a closed system that perceives itself as open because of the seemingly inexhaustible abundance of its commons — air, light, water. From the perspective of a person on an off-world closed habitat, that use of commons reveals itself as unpaid accounting: the costs of non-renewable extraction, of renewable extraction past the point of renewability, and of damage to communities and ecosystems are many multiples of what modern economic theory prices in. A pricing framework, built outside the academy across a decade, makes the math doable and the accounting auditable — for individuals, companies, and governments — on any world, including this one.
+```
+
+**Word count:** ~83w.
+
+**Short-form variant** (for tagline / 1-line summary fields ~15-25w, if present):
+
+```
+The price tag on commons is many multiples of what we have been paying as a species — and the patterns by which it stays hidden are nameable as a single framework.
+```
+
+**Do NOT use** if no such field exists. Adding a thesis-statement preamble where none is requested would risk landing in announce-the-move register (per Stage 1 §2 anti-pattern flag); V-E's scene-first airlock opener is the deliberate rhetorical bet ratified across 5 rigor passes + 3 head-to-head audits, and this contingency is fallback-only.
+
+---
+
 ## 🪛 If the portal asks specifically about word counts
 
 - **Pitch body:** 289 words (Version E trimmed; promoted to canonical 2026-05-28 afternoon)
