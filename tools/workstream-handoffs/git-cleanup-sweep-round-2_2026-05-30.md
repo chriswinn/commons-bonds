@@ -1,6 +1,6 @@
 # Git Cleanup Sweep — Round 2 — 2026-05-29 → 2026-05-30
 
-**Status:** Phase A inventory + Phase B prune proposal **PROPOSED** (this artifact). Author authorization for Phase C destructive execution requested in §7.
+**Status:** Phase A + B PROPOSED → Phase C EXECUTED → Phase D RATIFIED 2026-05-31 (this artifact; auto-fast-forward to main per CLAUDE.md merge-to-main policy as internal scaffolding).
 **Worktree:** `/Users/c17n/commons-bonds-git-cleanup-sweep-2-260529-2f296e` (branch `claude/git-cleanup-sweep-2-260529-2f296e` off `origin/main`).
 **Round 1 reference:** [`git-cleanup-sweep_2026-05-28.md`](git-cleanup-sweep_2026-05-28.md) (still on main; verified via `git ls-tree`).
 **Round 1 close:** 348 → 14 branches, 66 → 7 worktrees. Round 2 inventories the regrowth across ~24h + reissues recommendations.
@@ -162,21 +162,93 @@ Round 1 issued 7 recommendations. Round 2 empirically validates the same failure
 
 ---
 
-## §6. STATE marker
+---
+
+## §6. Phase C execution log (2026-05-31)
+
+Author confirmed all four §5 decisions:
+- ☑ All 3 batches
+- ☑ Spawn task chip for §4.1 hook adoption (chip spawned during Phase C)
+- ☑ Continue deferring 6 §5.2 branches
+- ☑ Defer §4.5 comparison-batch archive to a separate session
+
+### §6.1 Batch 1 — Orphan-locked agent worktree sweep
+
+- 2 worktrees: `agent-a8073769a8718aed0` (lock pid 74779 DEAD) + `agent-aaeb0d21013fe38be` (lock pid 73742 DEAD).
+- Both unlocked + force-removed. `agent-a8073769`'s untracked rigor artifact verified ALREADY on origin/main (blob `6ee5254d`) — no preservation needed.
+
+**Delta:** 68 → 66 worktrees.
+
+### §6.2 Pre-Batch-2 state-drift re-check (~24h gap before Batch 2 ran)
+
+Per-worktree dirty re-check surfaced 4 worktrees needing fresh classification:
+
+- `commons-bonds-consent-tracker-creation-260528-879220` had acquired DIRTY=1 (uncommitted modifications to `research/outreach/_pipeline/consent-tracker.md`) → **PRESERVED** (added to keep-list)
+- `commons-bonds-memory-process-review-260528-67ca7b` had RECENT activity (2026-05-30T22:35 new commit `d2f8c87` "Memory + process layer review v2 — fresh-eyes redo (PROPOSED)") but content verified on origin/main → safe to remove
+- `commons-bonds-aeon-opener-contingency-audit-260531-721cdb` NEW (2026-05-31T00:12) — Aeon submission-day critical-path → **PRESERVED**
+- `commons-bonds-aeon-pitch-final-review-260530-a40b71` NEW (2026-05-31T00:12) — Aeon submission-day critical-path → **PRESERVED**
+
+Keep-list grew from the proposed 5 to 7 worktrees + 14 branches.
+
+### §6.3 Batch 2 — Top-level merged-clean worktree sweep
+
+- Built dynamic remove list: all top-level worktrees EXCEPT the 7 keep-list entries (main + this + pm-portfolio + 2× new 260531 aeon + aeon-pitch-reading-flow defer + consent-tracker dirty).
+- Per-worktree dirty re-check ran immediately before each `git worktree remove` (Round 1 §8.5 discipline).
+- **61 removed; 0 failed; 0 skipped.**
+
+**Delta:** 66 → 7 worktrees.
+
+### §6.4 Batch 3 — Bulk local-branch deletion
+
+- Keep-list: 14 branches (`main` + 5 active session branches + 1 deferred-1-ahead + 2 CONTAMINATED §5.1 + 5 deferred-supersession §5.2).
+- 65 branches queued for `git branch -D` deletion.
+- **65 deleted; 0 failed.**
+
+**Delta:** 77 → 14 branches.
+
+### §6.5 Final state
+
+| Metric | Round 2 start | Round 2 end | Δ |
+|---|---:|---:|---:|
+| Total branches | 76 (77 mid-sweep) | 14 | **−62 (−81%)** |
+| Total worktrees | 67 (68 mid-sweep) | 7 | **−60 (−89%)** |
+| Locked agent worktrees | 2 | 0 | eliminated |
+| Branches ahead of main | 7 | 7 | unchanged (same deferred + contaminated set) |
+
+**Surviving worktrees (7):**
+
+1. `/Users/c17n/commons-bonds` (main repo, on `main` at `4ab77cf`; will FF to `6da9393`)
+2. `commons-bonds-aeon-opener-contingency-audit-260531-721cdb` (Aeon submission-day; active)
+3. `commons-bonds-aeon-pitch-final-review-260530-a40b71` (Aeon submission-day; active)
+4. `commons-bonds-aeon-pitch-reading-flow-review-260528-040968` (1 ahead; §5.2 deferred)
+5. `commons-bonds-consent-tracker-creation-260528-879220` (DIRTY consent-tracker work; preserved)
+6. `commons-bonds-git-cleanup-sweep-2-260529-2f296e` (this session)
+7. `commons-bonds-pm-portfolio-ratification-and-aeon-submission-260529-b4ac02` (active PM successor)
+
+**Surviving branches (14):** main + 5 active session branches + 1 §5.2-new defer + 2 §5.1 CONTAMINATED + 5 §5.2 supersession-verification-deferred.
+
+### §6.6 Hook-adoption task chip spawned
+
+A task chip was spawned during Phase C ("Adopt session-close + orphan-lock cleanup hooks") with self-contained instructions, file paths, hard constraints, and empirical anchors citing both this Round 2 report and Round 1's report. The author can launch it in a fresh isolated worktree to implement the §4.1 hooks (session-close worktree cleanup + SessionStart orphan-lock auto-recovery), which would prevent the failure mode that produced 60+ orphan worktrees per day in both Round 1 and Round 2.
+
+---
+
+## §7. STATE marker
 
 ```
-STATE: Round 2 Phase A inventory + Phase B prune proposal PROPOSED
-(76 branches + 67 worktrees inventoried 24h after Round 1 close;
-identical failure mode produced 60-worktree regrowth driven by
-2026-05-28 portfolio-wide parallel-comparison sprint; same 7
-ahead-of-main branches as Round 1 close + 1 new 1-ahead defer; 1
-mid-sweep in-flight preservation event detected AND resolved itself
-via active PM session executing proper session-close ritual; 9
-recommendations reissued with §4.1 reinforced + new §4.5
-comparison-batch archive proposal); NEXT: author confirms Round 2
-Phase B; AWAITING: author OK to proceed with Phase C.
+STATE: Round 2 cleanup sweep RATIFIED + EXECUTED 2026-05-31 (Phase
+A + B + C all complete; 77 → 14 branches; 68 → 7 worktrees; 4
+mid-sweep state-drift items surfaced via per-worktree re-check and
+correctly preserved [consent-tracker dirty + 2 new Aeon-submission
+260531 worktrees + memory-process-review verified merged]; hook-
+adoption task chip spawned per §4.1 author authorization); NEXT:
+hook-adoption chip available for author launch; §5.1 Ch 9
+contamination triage + §5.2 supersession verification continue
+deferred; §4.5 comparison-batch archive deferred per author choice;
+AWAITING: nothing (autonomous merge to main per CLAUDE.md
+internal-scaffolding policy).
 ```
 
 ---
 
-*Round 2 inventory complete; awaiting author confirmation.*
+*Round 2 cleanup sweep complete 2026-05-31.*
