@@ -1,6 +1,6 @@
 # memory-process-review_2026-05-28.md
 
-**Status:** PROPOSED 2026-05-28 — author-action-required (per-recommendation disposition); AWAITING author ratification.
+**Status:** RATIFIED 2026-05-31 — 13 of 14 §5 items ratified in-session via 4-question batch. Decisions: A.4 = D1 (collapse to 3-line pointer); A.8 = KEEP-LOCAL (Out-of-scope flag); B.4.a = Config γ (hybrid AGENTS.md). Batch-ratified as-recommended: A.5, A.6, A.7, A.9, B.1, B.2, B.3, B.4.b, B.6. Declined per recommendation: B.5 (optional CLAUDE.md cross-ref). Option E (A.2) carries forward from v1 mid-session ratification. Execution chip spawning per §7 next.
 **Version:** **v2** — fresh-eyes redo per author request 2026-05-28 afternoon. Supersedes v1 (commits `e3b082b` + `c852336` on origin/main). v1 produced first-pass findings + Option E always-load architecture (already ratified by author mid-session). v2 expands on v1 with findings missed on first pass: (a) **laptop MEMORY.md vs in-repo mirror drift**, (b) **AGENTS.md vs PM-dashboard "primary home for PM state" conflict** (S5 still DOC-pending per PM handoff), (c) **`tools/writing-process/`** portable-extracts folder, (d) **V-D audit cluster** flag, (e) **alignment with the broader project-review G/S items** still pending from `tools/workstream-handoffs/pm-session-handoff_2026-05-28.md`. Option E (always-load recalibration) from v1 is preserved as the load-bearing recommendation; v2 adds rather than replaces.
 **Workstream:** `claude/memory-process-review-260528-67ca7b`
 **Author kickoff:** "fresh CC session doing a reflective review of the commons-bonds project's memory + process documents, looking for streamlining + pruning opportunities. Author requested this as a follow-up to the 2026-05-28 process + structure changes ratified by the PM session at `tools/workstream-handoffs/pm-session-handoff_2026-05-28.md`."
@@ -288,35 +288,36 @@ If author ratifies the recommended dispositions, execute in this strict order:
 
 Author can ratify per-recommendation OR batch-ratify all.
 
+**Ratification log 2026-05-31 batch:**
+
 **Memory layer (Phase A):**
 
-- ☐ **A.2** Add ~5-sentence CLAUDE.md §"No invented factual claims" section per §2.2 (Option E)? [Already ratified mid-session; carries forward.]
-- ☐ **A.4** Dispose of `feedback_git_workflow.md` — Option D1 (3-line pointer) OR Option D2 (archive entirely)? Recommendation: D1.
-- ☐ **A.5** Minor amendment to `feedback_pm_dashboard_structure.md` (line 44 → status-markers.md; Class-column note)?
-- ☐ **A.6** Minor amendment to `project_book_complete_marketing_phase.md` (split phase-reframing from operational status)?
+- ✓ **A.2** RATIFIED mid-session (v1 Option E). Add ~5-sentence CLAUDE.md §"No invented factual claims" section per §2.2.
+- ✓ **A.4** RATIFIED — **Option D1** (collapse to 3-line pointer; preserve iCloud-incident historical anchor).
+- ✓ **A.5** RATIFIED — minor amendment to `feedback_pm_dashboard_structure.md` (line 44 → status-markers.md; Class-column note) as-recommended.
+- ✓ **A.6** RATIFIED — minor amendment to `project_book_complete_marketing_phase.md` (split phase-reframing from operational status; remove stale operational anchors) as-recommended.
 
 **Laptop / in-repo mirror (NEW IN V2):**
 
-- ☐ **A.7** Sync laptop MEMORY.md — mirror D-L1 + D-L2 + D-L3 (3 newcomers) + D-L5 (description refresh)?
-- ☐ **A.8** Resolve D-L4: `project_chapter_draft_suffix_consent_marker.md` — mirror to in-repo OR mark KEEP-LOCAL?
-- ☐ **A.9** Spawn periodic memory-sync routine (e.g., weekly chip) OR fold sync verification into `tools/memory-updates/` discipline?
+- ✓ **A.7** RATIFIED — sync laptop MEMORY.md (mirror D-L1 + D-L2 + D-L3 + D-L5) as-recommended. Laptop-only; no commit.
+- ✓ **A.8** RATIFIED — **mark KEEP-LOCAL** in tools/memory/README.md Out-of-scope section.
+- ✓ **A.9** RATIFIED — fold periodic memory-sync verification into `tools/memory-updates/` discipline (no new chip; existing staging discipline owns).
 
 **Process documents (Phase B):**
 
-- ☐ **B.1** Refresh `tools/README.md` session-start sections to current discipline?
-- ☐ **B.2** Refresh `tools/workstream-handoffs/README.md` branch-prefix conventions + document `claude/<workstream>-<harness-id>` format (also resolves PM-handoff G2)?
-- ☐ **B.3** Refresh `publishing/essays/README.md` Active essay packages table to 2026-05-28 state?
-- ☐ **B.4** AGENTS.md disposition — **NEW V2 two-step:**
-  - **B.4.a** S5 ruling — Config α (retain canonical-state role), Config β (radical slim to pointer-doc), OR Config γ (hybrid — drop "Current canonical state" table; keep structural orientation)? Recommendation: **Config γ**.
-  - **B.4.b** Execute the refresh per chosen config.
-- ☐ **B.5** Optional CLAUDE.md addition (one-line cross-reference to publishing/essays/README.md per-essay layout)? Low priority.
-- ☐ **B.6** NEW V2 — Add three-home cross-reference paragraph to `feedback_audience_aware_drafting_discipline.md` (per §2.4)?
+- ✓ **B.1** RATIFIED — refresh `tools/README.md` session-start sections (lines 11-22 + 121-131 + 152-156) to current discipline.
+- ✓ **B.2** RATIFIED — refresh `tools/workstream-handoffs/README.md` branch-prefix conventions to `claude/<workstream>-<harness-id>` format. Commit ALSO documents PM-handoff G2 resolution.
+- ✓ **B.3** RATIFIED — refresh `publishing/essays/README.md` Active essay packages table to current 2026-05-31+ state.
+- ✓ **B.4.a** RATIFIED — **Config γ** (hybrid: drop "Current canonical state" table; keep working-discipline + repo-structure + key-conceptual-foundations sections; refresh to current state; target ~80-100 lines).
+- ✓ **B.4.b** RATIFIED — execute Config γ refresh per B.4.a.
+- ✗ **B.5** DECLINED per recommendation (optional CLAUDE.md → publishing/essays/README.md cross-ref; low-priority navigability boost; skipped).
+- ✓ **B.6** RATIFIED — add three-home cross-reference paragraph to `feedback_audience_aware_drafting_discipline.md` (per §2.4).
 
 **Cross-PM-handoff alignment (NEW IN V2):**
 
-- ☐ **B.7** Cross-reference PM-handoff G2 (HIGH) "Require deliberate workstream slugs" — partial resolution via B.2 above; confirm sufficient OR spawn dedicated chip?
-- ☐ **B.8** Cross-reference PM-handoff S3 (HIGH) "Move superseded files to `_archive/`" — `feedback_git_workflow.md` D2 disposition counts as one instance; broader sweep separate?
-- ☐ **B.9** Cross-reference PM-handoff S5 (MED) "Pick primary home for PM state" — surface via B.4.a above; sufficient OR spawn dedicated chip?
+- ✓ **B.7** Covered — G2 resolution included in B.2 commit message; sufficient (no standalone chip).
+- ✓ **B.8** Covered — A.4 Option D1 partially addresses S3; broader superseded-files sweep remains separate (out of scope here).
+- ✓ **B.9** Covered — B.4.a Config γ ruling resolves S5 for AGENTS.md ↔ PM-dashboard tension.
 
 ---
 
@@ -376,6 +377,10 @@ or author-direction."
 
 ## §8. State
 
-**STATE:** memory-process-review PROPOSED 2026-05-28 v2 (fresh-eyes redo per author request 2026-05-28 afternoon; supersedes v1 commits `e3b082b` + `c852336`); NEXT: author-action-required (per-recommendation disposition per refreshed §5); AWAITING: author ratification.
+**STATE:** memory-process-review RATIFIED 2026-05-31 — 13 of 14 §5 items ratified in-session via 4-question batch (A.4 D1; A.8 KEEP-LOCAL; B.4.a Config γ; remaining 9 minor items batch-ratified as-recommended; B.5 declined per recommendation). Execution chip spawning per §7.
 
-**Per-session protocol close:** This report itself is internal scaffolding; auto-merge to main per merge-on-ratification rule. The report's recommendations are PROPOSED, not RATIFIED; the file landing on main does not constitute ratification of its recommendations. Option E (always-load architecture, A.2) was ratified mid-v1-session and carries forward. Other recommendations remain pending per-item ratification.
+**NEXT:** spawned execution chip lands the 9-10 ratified in-repo commits per §4 sequenced order + A.7 laptop sync as laptop-only step.
+
+**AWAITING:** execution-chip completion. After chip lands, this report's status closes; no further author action required for the ratified items.
+
+**Per-session protocol close:** This report itself is internal scaffolding; auto-merge to main per merge-on-ratification rule. The ratification IS the merge authorization per CLAUDE.md §"Branch discipline + merge-to-main". v2 RATIFIED-update commit pushes to main per the standard reconcile pattern.
