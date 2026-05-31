@@ -1,6 +1,6 @@
 # Final-pre-submission tweak — argument-statement opener contingency
 
-**Status:** RATIFIED 2026-05-31 — Option E.2 γ.1 opener; Pass 3.3 + 3.4 + 3.5 audit chip spawned 2026-05-31 to verify net effect on combined submission package.
+**Status:** RATIFIED 2026-05-31 — Option E.2 γ.1 opener; Pass 3.3 + 3.4 + 3.5 audit + editor-facing-pitch lens addendum RATIFIED 2026-05-31 KEEP AS-IS (net effect HELPS; combined package STRENGTHENS V-E baseline at Tier 1 gating audiences; addendum reframe confirmed directness IS the editor signal at pitch scale). Audit at [`final-pre-submission-tweak_2026-05-31_pass-3-3-3-4-3-5-audit.md`](final-pre-submission-tweak_2026-05-31_pass-3-3-3-4-3-5-audit.md) + [`addendum`](final-pre-submission-tweak_2026-05-31_pass-3-3-3-4-3-5-audit_ADDENDUM.md).
 
 **Session:** `claude/aeon-pitch-final-review-260530-a40b71`
 
@@ -77,13 +77,18 @@ Final-pre-submission review session 2026-05-31. Reviewing Haselby's published Ae
 
 ---
 
-## Audit pending
+## Audit complete + RATIFIED
 
-Pass 3.3 + 3.4 + 3.5 chip spawned 2026-05-31 to audit the combined submission package (Option E.2 opener + V-E pitch body) against the 14-acceptance + 5-adversarial character set + developmental-edit lens. Specifically assessing: does adding this contingency text in a hypothetical portal *"thesis statement"* field STRENGTHEN or WEAKEN the editor's read of the V-E body that follows?
+Pass 3.3 + 3.4 + 3.5 chip spawned 2026-05-31 audited the combined submission package (Option E.2 opener + V-E pitch body) against the 14-acceptance + 5-adversarial character set + developmental-edit lens. **Result: NET EFFECT HELPS; RECOMMENDATION KEEP AS-IS; RATIFIED 2026-05-31.**
 
-If the chip finds NET HARM, the contingency text is removed from `submission-day-package_2026-05-31.md` or revised; if NET HELP or NEUTRAL, the contingency stays. Audit result will be filed at `publishing/essays/aeon-mask-of-abundance/rigor/final-pre-submission-tweak_2026-05-31_pass-3-3-3-4-3-5-audit.md` for author ratification before the submission window opens ~14:01 UTC.
+- Primary audit: [`final-pre-submission-tweak_2026-05-31_pass-3-3-3-4-3-5-audit.md`](final-pre-submission-tweak_2026-05-31_pass-3-3-3-4-3-5-audit.md). Pass 3.3 NET INCLUDE DECISIVE STRENGTHENED (Tier 1 4/4 STRENGTHENED via Haselby-guidance-compliance gain); Pass 3.4 CONDITIONALLY ROBUST mildly weakened (verdict-preserving); Pass 3.5 PASSES with all findings = KEEP AS-IS.
+- Editor-facing-pitch lens addendum: [`final-pre-submission-tweak_2026-05-31_pass-3-3-3-4-3-5-audit_ADDENDUM.md`](final-pre-submission-tweak_2026-05-31_pass-3-3-3-4-3-5-audit_ADDENDUM.md). Reweighted under editor-facing-pitch lens reframe; KEEP AS-IS even more strongly recommended; Option α defensible minor optimization (preserves *"economic theory"* for A3 Rothbardian defense); Option β (full mediation clause) explicitly retracted (directness IS the editor signal at pitch scale).
 
-**Discipline carry-forward note:** Per the post-V-E-promotion discipline, light Pass 3.3 re-fire NOT routinely required for contingency text that does not replace V-E body. The chip audit here is precautionary — assessing combined-package effect, not re-auditing V-E itself.
+**Contingency text disposition.** Option E.2 γ.1 opener stays as ratified in `submission-day-package_2026-05-31.md` §"Contingency: if the portal has a separate argument-statement / thesis / 1-line summary field." No source-file edits applied per KEEP AS-IS ratification.
+
+**Methodology insight surfaced (separate-session-pending).** Editor-mediation reweighting for editor-facing pitch audits — recommended carry-forward to `tools/drafting-templates/audience-pressure-test-construction.md` + `tools/memory/feedback_audience_aware_drafting_discipline.md` (candidate Amendment D). NOT ratified by this KEEP AS-IS decision; author surfaces carry-forward separately if desired.
+
+**Discipline carry-forward note (preserved from pre-audit state):** Per the post-V-E-promotion discipline, light Pass 3.3 re-fire NOT routinely required for contingency text that does not replace V-E body. The chip audit here was precautionary — assessing combined-package effect, not re-auditing V-E itself.
 
 ---
 

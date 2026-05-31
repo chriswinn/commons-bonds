@@ -1,6 +1,9 @@
 # Aeon Pitch Argument-Statement Opener Contingency (Option E.2 γ.1) — Stage 3 Pass 3.3 + 3.4 + 3.5 Audit v1.0.0 — 2026-05-31
 
-**Status:** **PROPOSED 2026-05-31 (author ratifies).** Fresh-session
+**Status:** **RATIFIED 2026-05-31 — KEEP AS-IS** (author ratified
+primary recommendation; Option α defensible alternative + Option β
+retraction superseded by [`ADDENDUM`](final-pre-submission-tweak_2026-05-31_pass-3-3-3-4-3-5-audit_ADDENDUM.md)
+under editor-facing-pitch lens reframe). Fresh-session
 precautionary audit of the combined submission package — Option E.2 γ.1
 contingency opener (~83w, drafted + ratified 2026-05-31 per
 [`final-pre-submission-tweak_2026-05-31.md`](final-pre-submission-tweak_2026-05-31.md))
@@ -1201,15 +1204,16 @@ discretionary judgment outside the audit's recommendation envelope.
 
 ---
 
-## §8. Stop point — PROPOSED 2026-05-31 (author ratifies)
+## §8. Stop point — RATIFIED 2026-05-31 — KEEP AS-IS
 
-This artifact PROPOSED 2026-05-31. Per v3.1 Amendment C, this is not a
-prose-modifying pass — no spot-fixes were recommended that modify V-E
-body; Option E.2 contingency text recommendation is KEEP AS-IS (no
-prose modification); F-3.5-M2(d) alternative is defensible but optional
-(author discretion). Author interactive ratification required to apply
-the F-3.5-M2(d) alternative; KEEP AS-IS recommendation requires no apply
-action.
+This artifact RATIFIED 2026-05-31 — author ratified KEEP AS-IS primary
+recommendation. Per v3.1 Amendment C, this is not a prose-modifying
+pass — no spot-fixes were recommended that modify V-E body; Option E.2
+contingency text recommendation is KEEP AS-IS (no prose modification).
+Author ratification (KEEP AS-IS) requires no apply action; submission-
+day-package contingency text remains as ratified 2026-05-31 morning.
+F-3.5-M2(d) alternative reformulation in [`ADDENDUM`](final-pre-submission-tweak_2026-05-31_pass-3-3-3-4-3-5-audit_ADDENDUM.md)
+§3.2 is also superseded under the KEEP AS-IS ratification.
 
 **Verdict summary:**
 

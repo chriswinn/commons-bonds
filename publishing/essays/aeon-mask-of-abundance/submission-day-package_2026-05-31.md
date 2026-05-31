@@ -86,7 +86,7 @@ Submitting "The Mask of Abundance" — a 289-word pitch for a ~4,000-word essay 
 
 ## 🛟 Contingency: if the portal has a separate argument-statement / thesis / 1-line summary field
 
-**Default assumption:** there is no such field, and V-E's pitch body IS the argument statement. If there is one, use the polished opener below — designed to satisfy Haselby's published guidance (*"a simple, direct opener that states the argument,"* APA Blog 2020-12-10) without contradicting V-E's scene-first opening. Drafted + ratified 2026-05-31 (Option E.2 γ.1 opener); Pass 3.3 + 3.4 + 3.5 audit chip spawned 2026-05-31 to verify net effect on combined submission package.
+**Default assumption:** there is no such field, and V-E's pitch body IS the argument statement. If there is one, use the polished opener below — designed to satisfy Haselby's published guidance (*"a simple, direct opener that states the argument,"* APA Blog 2020-12-10) without contradicting V-E's scene-first opening. Drafted + ratified 2026-05-31 (Option E.2 γ.1 opener); Pass 3.3 + 3.4 + 3.5 audit + editor-facing-pitch lens addendum RATIFIED 2026-05-31 KEEP AS-IS (net effect HELPS; combined package STRENGTHENS V-E baseline at Tier 1 gating audiences via Haselby-guidance-compliance; audit at `rigor/final-pre-submission-tweak_2026-05-31_pass-3-3-3-4-3-5-audit.md` + addendum).
 
 **Suggested contingency text** (if a "thesis statement" / "main argument" / "premise" / "abstract" field ~50-100w exists):
 

@@ -1,6 +1,12 @@
 # Addendum to Option E.2 γ.1 opener-contingency Pass 3.3 + 3.4 + 3.5 audit — editor-facing-pitch lens reframe — 2026-05-31
 
-**Status:** **PROPOSED 2026-05-31 (author ratifies).** Addendum to
+**Status:** **RATIFIED 2026-05-31 — KEEP AS-IS confirmed under
+editor-facing-pitch lens reframe** (author ratified primary
+recommendation; Option α defensible alternative remains optional /
+not-applied per KEEP AS-IS ratification; Option β explicitly retracted;
+methodology insight carry-forward to discipline-templates per §4.3
+remains separate-session-pending and is NOT ratified by this KEEP
+AS-IS decision). Addendum to
 [`final-pre-submission-tweak_2026-05-31_pass-3-3-3-4-3-5-audit.md`](final-pre-submission-tweak_2026-05-31_pass-3-3-3-4-3-5-audit.md).
 Primary audit's findings + per-character verdicts stand unchanged at the
 data level; the addendum reweights those findings under the
@@ -364,15 +370,19 @@ a separate session if the carry-forward is desired.
 
 ---
 
-## §6. Stop point — PROPOSED 2026-05-31 (author ratifies)
+## §6. Stop point — RATIFIED 2026-05-31 — KEEP AS-IS
 
-This addendum PROPOSED 2026-05-31. Per v3.1 Amendment C, this is not a
-prose-modifying pass — no spot-fixes were recommended for V-E body or
-the contingency text beyond Option α (already surfaced as defensible
-minor optimization in primary audit; reformulated here per conversation
-analysis preserving *"economic theory"* for A3 defense). Option β
-explicitly retracted. KEEP AS-IS recommendation requires no apply
-action.
+This addendum RATIFIED 2026-05-31 — author ratified KEEP AS-IS primary
+recommendation. Per v3.1 Amendment C, this is not a prose-modifying pass
+— no spot-fixes were recommended for V-E body or the contingency text
+beyond Option α (defensible minor optimization; NOT applied under KEEP
+AS-IS ratification). Option β explicitly retracted. KEEP AS-IS
+recommendation requires no apply action; submission-day-package
+contingency text remains as ratified 2026-05-31 morning.
+
+**Methodology insight carry-forward to discipline-templates per §4.3
+remains separate-session-pending** — NOT ratified by this KEEP AS-IS
+decision. Author surfaces carry-forward separately if desired.
 
 **Addendum summary:**
 
