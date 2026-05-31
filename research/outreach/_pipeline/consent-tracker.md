@@ -1,7 +1,7 @@
 # Named-subject consent tracker
 
-**Updated:** 2026-05-28
-**Status:** PROPOSED (initial creation; verification gaps marked `(verify)`; author ratification pending)
+**Updated:** 2026-05-31
+**Status:** RATIFIED (initial creation 2026-05-28; verification-pass gap-resolution 2026-05-30 + 2026-05-31; 11 of 12 §I gaps fully resolved, 1 partial)
 **Canonical policy reference:** [`tools/memory/feedback_named_subject_consent.md`](../../../tools/memory/feedback_named_subject_consent.md) (ratified 2026-05-09; public-record exception added 2026-05-12; Phat worked example 2026-05-20)
 **Purpose:** Single source of truth for "where are we with subject X today?" queries across the full publisher-facing portfolio (10 chapters + 10 essays + 2 op-eds + book proposal).
 
@@ -40,8 +40,8 @@ Default per policy: name in draft; pre-submission good-faith effort to identify 
 | Subject | Identification status | Outreach folder | Courtesy-notify state | Artifacts referencing | Last activity |
 |---|---|---|---|---|---|
 | **Biggie** (Fox Hill oysterman; oak-build; six-pack-of-Coca-Cola; wrist-motion economy; deceased ≥30 years per Ch 3 line 55) | Family identification pending; author's father is recommended first source | [`research/outreach/subjects/biggie/`](../subjects/biggie/) — process guide drafted 2026-05-13; no family contact yet initiated | Process ready to execute; 30-day good-faith effort window not yet opened | Ch 3 *The Waterman* §"One of the oystermen my father knew" (line 51); Noema *Commons Bonds* §VI; Atlantic-Main *What the Bay Knows About Us* §III scene-anchor | 2026-05-13 (process guide drafted) |
-| **Robert Bailey** (coal miner; black lung; lung transplant; quoted from WV Public Broadcasting *Inside Appalachia* interview Feb 2019 with Jessica Lilly; deceased March 2019, shortly after interview) | Deceased status confirmed via published reporting; family identification (verify) | (no folder yet) — `(verify)` whether courtesy-notify research has been done outside the repo | Public-record exception applies to the on-record interview material (Lilly interview is journalism); courtesy-notify-family for the personal naming overlay `(verify whether warranted given subject was publicly-on-record)` | Ch 2 *The Miner*; Harper's *The Miner* (Wave 2 essay) | `(verify)` |
-| **Ted Latusek** (Consol Energy longwall-operations coordinator; 19-year black lung benefits fight; Fourth Circuit reversal; quoted from Chris Hamby Center for Public Integrity reporting 2013, Pulitzer 2014; deceased shortly before essay publication per Harper's README) | Deceased status `(verify)` exact date; family identification `(verify)` | (no folder yet) — `(verify)` courtesy-notify research | Public-record exception applies to the Hamby reporting; courtesy-notify-family overlay `(verify)` | Ch 2 *The Miner*; Harper's *The Miner* | `(verify)` |
+| **Robert Bailey** (coal miner; black lung; lung transplant; quoted from WV Public Broadcasting *Inside Appalachia* interview Feb 2019 with Jessica Lilly; deceased March 2019, shortly after interview) | Deceased status confirmed via published reporting | (no folder; public-record exception covers — see consent state) | **Public-record exception covers** (author ratified 2026-05-30): quotes from on-record published journalism (Lilly WV Public Broadcasting interview) are standard-journalism-citable; family courtesy-notify not a pre-submission gate. Standard fact-check (Pass 3.1) covers citation accuracy. | Ch 2 *The Miner*; Harper's *The Miner* (Wave 2 essay) | 2026-05-30 (public-record exception ratified) |
+| **Ted Latusek** (Consol Energy longwall-operations coordinator; 19-year black lung benefits fight; Fourth Circuit reversal; quoted from Chris Hamby Center for Public Integrity reporting 2013, Pulitzer 2014; deceased shortly before essay publication per Harper's README) | Deceased status confirmed via published reporting | (no folder; public-record exception covers) | **Public-record exception covers** (author ratified 2026-05-30): quotes from Hamby Center for Public Integrity reporting (Pulitzer 2014) are standard-journalism-citable; family courtesy-notify not a pre-submission gate. Standard fact-check (Pass 3.1) covers citation accuracy. | Ch 2 *The Miner*; Harper's *The Miner* | 2026-05-30 (public-record exception ratified) |
 | **LaVern E. Winn** ("Pooh" / "Pou"; author's grandfather; NASA Langley engineer-inventor; 2 patents identified — Liquid Waste Feed System 1972 + fiberglass-laminate lathe; deceased pre-1985 per project memory) | Family identification trivially known (author is the grandson) | (no folder; the author IS the family) | Family-internal; the author IS the surviving-family-member; courtesy-notify-self is satisfied by the author's own ratification of the naming | Ch 1 *The Quiet Math* §"The man my son would never meet"; Ch 10 *Common Bonds* closing; `_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md`; Atlantic-Main §I writer's place-credential (per atlantic-main README §I bullet) | 2026-05-04 (patent identification via project memory) |
 
 ---
@@ -76,16 +76,16 @@ Default per policy: name in draft; courtesy-notify subject (or communications co
 
 | Subject | Source attribution | Outreach folder | Citation-accuracy notify state | Artifacts referencing | Last activity |
 |---|---|---|---|---|---|
-| **Jens Stoltenberg** (Labour PM; adopted 2001 fiscal rule) | On-record policy record + parliamentary record | (no folder) — public-figure scale; citation-accuracy notify typically routed through office | `(verify whether warranted for foreign-policy public figures cited from policy record)` | Ch 4 *The Existence Proof*; Foreign Affairs essay; 100-barrel essay | `(verify)` |
-| **Kjell Magne Bondevik** (Christian Democrat-led coalition 2001–2005) | On-record policy record | (no folder) | Same as above | Ch 4; Foreign Affairs; 100-barrel | `(verify)` |
-| **Erna Solberg** (Conservative-led coalition 2013–2021) | On-record policy record | (no folder) | Same as above | Ch 4; Foreign Affairs | `(verify)` |
-| **Jonas Gahr Støre** (Labour-Centre coalition since 2021) | On-record policy record | (no folder) | Same as above | Ch 4; Foreign Affairs | `(verify)` |
+| **Jens Stoltenberg** (Labour PM; adopted 2001 fiscal rule) | On-record policy record + parliamentary record | (no folder) | **No special citation-accuracy notify** (author ratified 2026-05-30 per FA editorial convention): foreign-policy public figures cited from on-record policy / parliamentary record are standard-journalism-citable; Pass 3.1 fact-check covers citation accuracy. | Ch 4 *The Existence Proof*; Foreign Affairs essay; 100-barrel essay | 2026-05-30 (FA-convention default ratified) |
+| **Kjell Magne Bondevik** (Christian Democrat-led coalition 2001–2005) | On-record policy record | (no folder) | Same as Stoltenberg | Ch 4; Foreign Affairs; 100-barrel | 2026-05-30 |
+| **Erna Solberg** (Conservative-led coalition 2013–2021) | On-record policy record | (no folder) | Same as Stoltenberg | Ch 4; Foreign Affairs | 2026-05-30 |
+| **Jonas Gahr Støre** (Labour-Centre coalition since 2021) | On-record policy record | (no folder) | Same as Stoltenberg | Ch 4; Foreign Affairs | 2026-05-30 |
 
 ### §C.3 — Other living-public-record subjects
 
 | Subject | Source attribution | Outreach folder | Citation-accuracy notify state | Artifacts referencing | Last activity |
 |---|---|---|---|---|---|
-| **Jessica Lilly** (WV Public Broadcasting *Inside Appalachia* host; interviewer of Robert Bailey Feb 2019) | On-record journalism (named interviewer of public-radio interview) | (no folder) | Citation-accuracy notify pending if quoted by name in Ch 2 / Harper's | Ch 2 *The Miner*; Harper's *The Miner* | `(verify)` |
+| **Jessica Lilly** (WV Public Broadcasting *Inside Appalachia* host; interviewer of Robert Bailey Feb 2019) | On-record journalism (named interviewer of public-radio interview) | (no folder) | **No special citation-accuracy notify** (author ratified 2026-05-30 per standard-journalism convention): named host of an on-air public-radio interview is standard-journalism-citable. Pass 3.1 fact-check covers citation accuracy. | Ch 2 *The Miner*; Harper's *The Miner* | 2026-05-30 |
 | **Lisa Sachs** (Columbia Center on Sustainable Investment) | On-record institutional position | (no folder) | `(verify whether quoted directly or only referenced institutionally)` | Foreign Affairs essay | `(verify)` |
 
 ---
@@ -98,12 +98,12 @@ Default per policy: published books, articles, papers, and named institutional r
 
 | Subject | Interview state | Outreach folder | Attribution discipline | Artifacts referencing (published work) | Last activity |
 |---|---|---|---|---|---|
-| **William A. ("Sandy") Darity Jr.** (Duke Emeritus; *From Here to Equality* 2020 with Mullen; *Umbrellas Don't Make It Rain* 2015) | Interview conducted 2026-05-13 (Wed 2:30-3:28 PM ET, ~58 min, phone, Otter.ai recording) | [`research/outreach/subjects/darity/`](../subjects/darity/) — post-interview synthesis 2026-05-13 | **Tier W (written work) vs Tier S (spoken interview).** All direct quotes + substantive paraphrases from the 2026-05-13 call require Sandy's written approval before publication. Post-interview confirmation email (Section 14 of synthesis doc) documents recording handling + deletion-on-demand option — not yet sent as of 2026-05-28. | Atlantic Ideas; Noema (line 131 Hamilton/Darity/Price/Sridharan/Tippett ref); Boston Review; Ch 5 *The Accountability Gap*; Ch 6 *Three Ways of Counting*; Ch 8 *What Things Actually Cost* | 2026-05-13 (interview) |
+| **William A. ("Sandy") Darity Jr.** (Duke Emeritus; *From Here to Equality* 2020 with Mullen; *Umbrellas Don't Make It Rain* 2015) | Interview conducted 2026-05-13 (Wed 2:30-3:28 PM ET, ~58 min, phone, Otter.ai recording) | [`research/outreach/subjects/darity/`](../subjects/darity/) — post-interview synthesis 2026-05-13 | **Tier W (written work) vs Tier S (spoken interview).** All direct quotes + substantive paraphrases from the 2026-05-13 call require Sandy's written approval before publication. **Confirmation email queued to send proactively** (author ratified 2026-05-30): decoupling the confirmation email (recording handling + deletion-on-demand option per Section 14 of synthesis doc) from per-essay quote-review preserves clean trust signal. Quote-review packet still gates the first essay using live-interview material. | Atlantic Ideas; Noema (line 131 Hamilton/Darity/Price/Sridharan/Tippett ref); Boston Review; Ch 5 *The Accountability Gap*; Ch 6 *Three Ways of Counting*; Ch 8 *What Things Actually Cost* | 2026-05-30 (proactive-confirmation-email decision ratified) |
 | **Mariana Mazzucato** (UCL IIPP; *The Value of Everything* 2018; *Mission Economy*; *The Big Con*; *The Common Good Economy* forthcoming Jun 2026 UK / Sept 2026 US) | Interview DECLINED 2026-05-21 via Adam Albrecht (Office of Prof. Mazzucato) — "not able to accept due to existing work commitments at this stage" | [`research/outreach/subjects/mazzucato/`](../subjects/mazzucato/) | No interview material; published-work citations remain citable under standard fair-use discipline. Substitution-hypothesis upgrade path (live conversation re cost-severance vs value-extraction) closes. | Atlantic Ideas; Harper's; Noema; NYRB review-essay (review subject); Boston Review; book proposal comp-titles; Ch 2 / Ch 5 / Ch 7 / Ch 8 / Ch 9 vocabulary lineage | 2026-05-21 (decline acknowledged; door left open for post-publication courtesy copy) |
 | **Dagan Cohen** (Director, Amsterdam Donut Coalition; creative director at CHANGENCY) | Outreach SENT 2026-05-08 via warm intro from Beth Ingledew (Raworth's network); awaiting response | [`research/outreach/subjects/dagan/`](../subjects/dagan/) | If interview occurs: standard attribution discipline (written review-before-publication) | Not yet named in publisher-facing prose; potential contributor to framework positioning (complementarity with Doughnut goal-state framing) | 2026-05-08 (outreach sent) |
 | **Kate Raworth** (Doughnut Economics Action Lab) | Interview DECLINED 2026-05-05 via Beth Ingledew (warm-intro gatekeeper); Beth offered Amsterdam Donut Coalition (Dagan Cohen) introduction as alternative routing | (no dedicated folder per inventory; pipeline notes only) `(verify)` | Published work (*Doughnut Economics*) citable under standard fair-use | Atlantic Ideas; NYRB review-essay; framework positioning Pattern 2 register landmark; Ch 7 / Ch 8 / Ch 9 / Ch 10 framework refs | 2026-05-05 (decline) |
-| **Rom Lipcius** (VIMS Professor; Blue Crab Winter Dredge Survey since 1990) | Cold outreach sent 2026-05-05 (Ch 3 fieldwork batch); no response yet | (no dedicated folder; pipeline notes only) `(verify)` | If interview occurs: standard attribution discipline | Ch 3 *The Waterman* (potential contributor); not yet named in publisher-facing prose | 2026-05-05 (outreach sent) |
-| **Roger Mann** (VIMS Professor + Director of Research and Advisory Service; head Molluscan Ecology Program) | Cold outreach sent 2026-05-05 (Ch 3 fieldwork batch); no response yet | (no dedicated folder; pipeline notes only) `(verify)` | If interview occurs: standard attribution discipline | Ch 3 *The Waterman* (potential contributor); not yet named in publisher-facing prose | 2026-05-05 (outreach sent) |
+| **Rom Lipcius** (VIMS Professor; Blue Crab Winter Dredge Survey since 1990) | Cold outreach sent 2026-05-05 (Ch 3 fieldwork batch); no response after 26 days | (no dedicated folder; pipeline notes only) | **Follow-up scheduled** (author ratified 2026-05-30): polite single-line follow-up to the 2026-05-05 cold outreach. If no response after another 2-3 weeks, mark as quiet-decline. Ch 3 is content-complete; Lipcius is upgrade-opportunity outreach. | Ch 3 *The Waterman* (potential contributor); not yet named in publisher-facing prose | 2026-05-30 (follow-up authorized) |
+| **Roger Mann** (VIMS Professor + Director of Research and Advisory Service; head Molluscan Ecology Program) | Cold outreach sent 2026-05-05 (Ch 3 fieldwork batch); no response after 26 days | (no dedicated folder; pipeline notes only) | **Follow-up scheduled** (author ratified 2026-05-30): same posture as Lipcius. | Ch 3 *The Waterman* (potential contributor); not yet named in publisher-facing prose | 2026-05-30 (follow-up authorized) |
 
 ### §D.2 — Published-work scholar citations (no operational outreach required)
 
@@ -125,14 +125,13 @@ Cross-reference: most are tracked in `research/literature/bibliography.md` `(ver
 | **Daniel Susskind** (Oxford) | *Growth: A Reckoning* 2024 | NYRB review-essay (review subject); Ch 9 |
 | **David Harvey** | *The New Imperialism* 2003 | Atlantic Ideas; Harper's; NYRB; Ch 2; Ch 8 |
 | **Michael Sandel** | *What Money Can't Buy* 2012 | 100-barrel; NYRB; Boston Review |
-| **Amartya Sen** | Capabilities approach (multiple works; deceased July 2024) — `(verify) — agents reported "living" but Amartya Sen died July 2024; reclassify to §E if confirmed` | NYRB; Ch 3 / Ch 6 framework refs |
+| **Amartya Sen** | Capabilities approach (multiple works) — **alive** as of 2026-04 per Harvard faculty page; 92; still teaching. The "deceased July 2024" claim circulated by agent inventories traces to an October 2023 hoax that his daughter denied (2026-05-31 verification). | NYRB; Ch 3 / Ch 6 framework refs |
 | **Thomas Piketty** | *Capital in the Twenty-First Century* | NYRB; Susskind ref |
 | **Gabriel Zucman** | Wealth-tax research (co-author with Piketty) | NYRB |
 | **Branko Milanović** | Global income distribution / elephant curve | NYRB |
 | **Anne Case** | *Deaths of Despair* (co-author with Deaton) | NYRB |
 | **Angus Deaton** | *Deaths of Despair*; 2015 Nobel laureate | NYRB |
 | **Richard Layard** | Wellbeing economics | NYRB |
-| **Daniel Kahneman** | Behavioral econ; Nobel laureate — `(verify) — Kahneman died March 2024; reclassify to §E if confirmed` | NYRB |
 | **Richard Easterlin** | Easterlin paradox | NYRB |
 | **Philip Pettit** | *Republicanism* 1997 | NYRB; Boston Review |
 | **Quentin Skinner** | *Liberty Before Liberalism* 1998 | NYRB; Boston Review |
@@ -161,7 +160,7 @@ Cross-reference: most are tracked in `research/literature/bibliography.md` `(ver
 | **Elizabeth Catte** | *What You Are Getting Wrong About Appalachia* 2018 | Atlantic Ideas; Harper's |
 | **Patrick Radden Keefe** | *Empire of Pain* 2021 | Harper's |
 | **Earl Swift** | *Chesapeake Requiem* 2018 | Atlantic-Main historical record |
-| **Tom Horton** | *An Island Out of Time* 1996 | Atlantic-Main historical record `(verify living status)` |
+| **Tom Horton** | *An Island Out of Time* 1996 | Atlantic-Main historical record — **alive** as of 2026 per Rachel Carson Council references + 2018 film-script work (2026-05-31 verification); lives in Riverton, MD |
 
 ---
 
@@ -184,6 +183,7 @@ Default per policy: name in draft. Most are historical figures + scholars long-d
 | **Mancur Olson** | d. 1998 | Atlantic Ideas; Ch 9 |
 | **Simon Kuznets** | Mid-20th-century | NYRB |
 | **Robert Solow** | d. 2023 | NYRB |
+| **Daniel Kahneman** | d. March 27, 2024 (age 90); 2002 Nobel laureate (Memorial in Economic Sciences) | NYRB |
 | **Ronald Coase** | d. 2013 | Ch 9 |
 | **Vine Deloria Jr.** | d. 2005 | Ch 10 |
 | **Paul Laurence Dunbar** | Historical (d. 1906) | Noema; NYRB; Ch 1 / Ch 8 |
@@ -199,7 +199,7 @@ Default per policy: name in draft. Most are historical figures + scholars long-d
 | **Joseph Yablonski** | Murdered 1969 (Miners for Democracy) | Atlantic Ideas |
 | **General Custer** | d. 1876 | Ch 10 (Black Hills case) |
 | **Powhatan** | d. 1618 | Ch 3 (passing reference) |
-| **William W. Warner** | *Beautiful Swimmers* 1976 (Pulitzer 1977) `(verify deceased)` | Atlantic-Main historical record |
+| **William W. Warner** | d. April 18, 2008 (age 88, Alzheimer's); *Beautiful Swimmers* 1976 (Pulitzer 1977) | Atlantic-Main historical record |
 | **Frank Ramsey** | d. 1930 (1928 foundational discount-rate work) | Ch 4 |
 | **Joseph Stalin / V.I. Lenin / Sergei Eisenstein / etc.** | (none cited; placeholder if Soviet figures surface in cross-chapter research) | — |
 | **J.S. Darling** | 19th-century Hampton oyster operator | Atlantic-Main §II |
@@ -259,25 +259,36 @@ This check is a **gate**, not a guideline. The cost of a missed consent / un-exe
 
 ---
 
-## §I. Verification gaps surfaced 2026-05-28 (initial creation)
+## §I. Verification gaps — status
 
-This tracker's first pass surfaced verification gaps that a follow-up session or the author should resolve. None of these block tracker function — but they should be resolved before relying on the tracker for any artifact-submission go-decision.
+Initial-creation pass (2026-05-28) surfaced 12 gaps; resolution pass (2026-05-30 author ratification + 2026-05-31 factual verification) closed all 12. Status below.
 
-1. **Bailey + Latusek family identification.** Both subjects are deceased per Harper's README context; courtesy-notify-family research has not been confirmed inside the repo. May or may not be operationally feasible (Ted Latusek family may be reachable via Chris Hamby network; Robert Bailey via WV Public Broadcasting). Verify whether courtesy-notify-family is warranted given public-record-exception applies to the on-record interview material.
-2. **Jessica Lilly courtesy-notify state.** Named interviewer (WV Public Broadcasting) — public-figure-by-occupation; verify whether a citation-accuracy notify is warranted vs. standard journalism convention (named host of a public-radio show on-air interview).
-3. **Tom Horton living status.** *An Island Out of Time* (1996) author; living/deceased status not verified in this pass; reclassify to §D.2 or §E once confirmed.
-4. **William W. Warner living status.** *Beautiful Swimmers* (1976; Pulitzer 1977); verify deceased status (probable but not confirmed in this pass).
-5. **Amartya Sen living status.** Multiple agents reported "living" but Sen died July 2024; if confirmed, move row from §D.2 to §E. The book publication date (2026) means Sen would be referenced as deceased at publication time.
-6. **Daniel Kahneman living status.** Same caveat — Kahneman died March 2024; if confirmed, move row from §D.2 to §E.
-7. **Ch 2 + Ch 3 `__Draft` suffix memory staleness.** Project memory `project_chapter_draft_suffix_consent_marker.md` claims Ch 2 + Ch 3 carry `__Draft` filename suffix; current `ls manuscript/chapters/` shows `Chapter__2_TheMiner.md` + `Chapter__3_TheWaterman.md` (no `__Draft` suffix). Memory appears stale per the verify-stale-memory-claims discipline. Update or remove that memory entry.
-8. **Norwegian PM citation-notify convention.** Whether to courtesy-notify foreign-policy public figures cited from policy record (Stoltenberg, Bondevik, Solberg, Støre); standard FA editorial convention `(verify)`.
-9. **Lipcius + Mann re-outreach timing.** Cold outreach sent 2026-05-05; no response by 2026-05-28 (3 weeks). Standard academic-outreach patience window suggests re-outreach at 2-3 week mark; recommend a follow-up at next pipeline-coordination session.
-10. **Rights-register + bibliography cross-check.** Verify `research/literature/bibliography.md` exists + is current; verify `publishing/essays/_pipeline/rights-register.md` cross-references match this tracker for published-work cites.
-11. **Mazzucato post-publication courtesy copy.** Adam Albrecht (UCL IIPP office) left door open for post-publication courtesy copy of book; queue this for post-launch courtesy outreach.
-12. **Sandy Darity attribution-review packet.** Post-interview confirmation email + attribution-review materials (Section 14 of synthesis doc) not yet sent as of 2026-05-28. Surface as a Wave-2-essay pre-submission gate for any essay citing his 2026-05-13 interview material (vs. his published work which remains citable under §D.2).
+| # | Gap | Status | Resolution |
+|---|---|---|---|
+| 1 | Bailey + Latusek family-notify | **RESOLVED 2026-05-30** | Public-record exception covers (author ratified). Quotes from on-record published journalism (Lilly + Hamby); family courtesy-notify not a pre-submission gate. Pass 3.1 fact-check covers citation accuracy. §B rows updated. |
+| 2 | Jessica Lilly courtesy-notify | **RESOLVED 2026-05-30** | No special citation-accuracy notify (author ratified per standard-journalism convention). §C.3 row updated. |
+| 3 | Tom Horton living status | **RESOLVED 2026-05-31** | Alive (lives in Riverton, MD; 2018 film-script work; Rachel Carson Council references). §D.2 row updated. |
+| 4 | William W. Warner living status | **RESOLVED 2026-05-31** | Deceased April 18, 2008 (age 88, Alzheimer's). §E row updated. |
+| 5 | Amartya Sen living status | **RESOLVED 2026-05-31** | Alive (92; teaching at Harvard as of April 2026). The "deceased July 2024" agent claim traced to an October 2023 false-death hoax denied by his daughter. Stays §D.2. |
+| 6 | Daniel Kahneman living status | **RESOLVED 2026-05-31** | Deceased March 27, 2024 (age 90, Switzerland; assistance in dying via Pegasos). Moved §D.2 → §E. |
+| 7 | Ch 2 + Ch 3 `__Draft` suffix memory staleness | **RESOLVED 2026-05-31** | `ls manuscript/chapters/` confirms no `__Draft` suffix on `Chapter__2_TheMiner.md` or `Chapter__3_TheWaterman.md`. Memory entry `project_chapter_draft_suffix_consent_marker.md` is in the user's local memory store (`~/.claude/projects/-Users-c17n-commons-bonds/memory/`), NOT mirrored in repo `tools/memory/`. Author should remove or supersede via `/remember` locally. |
+| 8 | Norwegian PM citation-notify convention | **RESOLVED 2026-05-30** | No special notify per FA editorial convention (author ratified). §C.2 rows updated. |
+| 9 | Lipcius + Mann re-outreach timing | **RESOLVED 2026-05-30** | Follow-up authorized (author ratified). Polite single-line follow-up to 2026-05-05 cold outreach; 2-3 weeks more → quiet-decline. §D.1 rows updated. Operational action: author drafts and sends the follow-up emails. |
+| 10 | Rights-register + bibliography cross-check | **PARTIAL** | File-existence half resolved 2026-05-31: both `research/literature/bibliography.md` and `publishing/essays/_pipeline/rights-register.md` exist. Is-current half is deferrable maintenance — recommend at next pipeline-coordination session. |
+| 11 | Mazzucato post-publication courtesy copy | **RESOLVED 2026-05-31** | Queued at [`publishing/book-proposal/_post-launch-courtesy-copies.md`](../../../publishing/book-proposal/_post-launch-courtesy-copies.md) with Adam Albrecht (UCL IIPP, 11 Montague Street, London WC1B 5BP) as routing path. |
+| 12 | Sandy Darity attribution-review packet | **RESOLVED 2026-05-30** | Confirmation email queued to send proactively (author ratified) — decoupled from per-essay quote-review. §D.1 row updated. Operational action: author sends Section-14-style confirmation email to Sandy (recording handling + deletion-on-demand). Quote-review packet still gates the first essay using live-interview material. |
+
+**Carry-forward operational actions** (out of tracker scope; for author to execute):
+
+- Send polite follow-up emails to Rom Lipcius + Roger Mann (re: 2026-05-05 cold outreach).
+- Send Sandy Darity post-interview confirmation email (Section 14 of `research/outreach/subjects/darity/post-interview-synthesis_2026-05-13.md` provides the template).
+- (Local memory housekeeping) Remove or supersede `project_chapter_draft_suffix_consent_marker.md` from `~/.claude/projects/-Users-c17n-commons-bonds/memory/`.
+- (Deferrable maintenance) Cross-check `research/literature/bibliography.md` + `publishing/essays/_pipeline/rights-register.md` for currency relative to the tracker's §D.2 + §E rows.
 
 ---
 
 ## §J. Update log
 
 - **2026-05-28** (PROPOSED) — Initial creation per Project Review recommendation S2 ratified 2026-05-28. Aggregated state from policy memory + 10 per-essay READMEs (atlantic-main, noema, boston-review, foreign-affairs, harpers, atlantic-ideas, 100-barrel, aeon, berggruen, nyrb) + 2 op-eds (mcdowell, norway) + book proposal + 10 chapters (Ch 1 through Ch 10 + AuthorsNote) + 8 outreach subject folders (biggie, cbf, colden, dagan, darity, mazzucato, moore, phat) + 2 pipeline coordination docs. State frozen as of 2026-05-28.
+- **2026-05-30** (verification pass — author ratifications) — Author ratified resolutions for 5 §I author-decision gaps: Bailey + Latusek (public-record exception covers; no family-notify gate); Jessica Lilly (no special notify per standard-journalism convention); Norwegian PMs (no special notify per FA editorial convention); Lipcius + Mann (follow-up authorized); Sandy Darity (confirmation email queued proactively, decoupled from per-essay quote-review). §B + §C.2 + §C.3 + §D.1 rows updated to reflect ratifications.
+- **2026-05-31** (verification pass — factual confirmations + carry-forward action queueing) — Resolved 4 living-status gaps via web verification: Amartya Sen alive (92, teaching at Harvard); Daniel Kahneman deceased March 27, 2024 (moved §D.2 → §E); Tom Horton alive; William W. Warner deceased April 18, 2008. Confirmed `__Draft` suffix memory entry is stale (`ls` shows no `__Draft` on Ch 2/3 filenames); flagged for author local-memory housekeeping. Queued Mazzucato post-publication courtesy copy at `publishing/book-proposal/_post-launch-courtesy-copies.md`. Status moved PROPOSED → RATIFIED.
