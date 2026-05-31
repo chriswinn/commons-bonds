@@ -7,6 +7,13 @@
 
 **Defense-in-depth pair.** The `SessionStart` hook at [`../scripts/session-start-worktree-isolation.sh`](../scripts/session-start-worktree-isolation.sh) emits a session-context warning that mirrors this paste-text. Either mechanism alone reduces the contamination risk; both together close it.
 
+**Session-lifecycle companion hooks (added 2026-05-31; G1 + orphan-lock-recovery).** Two additional hooks run automatically around the worktree-isolation discipline:
+
+- **`SessionStart` orphan-lock recovery** ([`../scripts/session-start-orphan-lock-recovery.sh`](../scripts/session-start-orphan-lock-recovery.sh)) — at session start, ordered after the isolation hook, scans `.claude/worktrees/agent-*/locked` markers; if the locking pid is dead + ahead=0 vs origin/main + dirty=0 + not on the §5.1 contaminated skip-list, auto-runs `git worktree unlock` + `git worktree remove --force` + best-effort `git branch -D`. Resolves the orphan-lock-from-killed-agent failure mode.
+- **`SessionEnd` worktree cleanup (G1 session-end branch-delete default)** ([`../scripts/session-end-worktree-cleanup.sh`](../scripts/session-end-worktree-cleanup.sh)) — at session close, if cwd is a top-level isolated worktree on a `claude/<slug>-<harness>` branch AND the same safety gates pass (ahead=0; dirty=0; no `MERGE-HOLD:`/`MERGE-AFTER:` commit-body markers; not contaminated), auto-runs `git worktree remove + git branch -D`. The session does not need to manually clean up its worktree at close — this hook does it. Honors merge-on-ratification escape hatches per CLAUDE.md §Branch discipline.
+
+Both hooks are dry-run by default and require `COMMONS_BONDS_HOOK_DESTRUCTIVE=1` to actually run. They complement (do not replace) the isolation hook + the paste-text discipline.
+
 ---
 
 ## Copy-paste block
