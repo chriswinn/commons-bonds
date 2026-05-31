@@ -1,6 +1,8 @@
 # Post-interview confirmation email — Darity Jr. (2026-05-13 instance)
 
-**Status:** DRAFTED 2026-05-13 (synthesis session, post-call). Author sends after review. Send target window: 2026-05-13 to 2026-05-15 (within 1–3 days of call per the protocol).
+**Status:** SUPERSEDED 2026-05-31 by [`post-interview-confirmation-email_2026-05-31.md`](post-interview-confirmation-email_2026-05-31.md). The 2026-05-13 → 2026-05-15 send window closed unused; author ratified 2026-05-30 (per consent tracker §I gap-resolution pass) that a fresh confirmation email goes proactively NOW, decoupled from the per-essay quote-review packet. This 2026-05-13 file is retained as historical audit-trail of what the same-day attempt would have said and is NOT for send.
+
+**Original status (historical):** DRAFTED 2026-05-13 (synthesis session, post-call). Author sends after review. Send target window: 2026-05-13 to 2026-05-15 (within 1–3 days of call per the protocol).
 
 **Adapted from:** `research/outreach/subjects/darity/post-interview-confirmation-email_template_2026-05-10.md`. Adaptations reflect what actually happened on the call — Sandy's two-tier Q0 answer (written = freely quotable; spoken = review-before-use), the Q0(a) recording-consent question not being separately asked, the warm-intro question not being reached, and Sandy's reading recommendations + the Fogel-Engerman two-volume hint. Full call accounting in `post-interview-synthesis_2026-05-13.md`.
 
