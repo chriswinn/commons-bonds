@@ -11,13 +11,15 @@
 
 **Recommendation:** **Do not submit at 10:01 EDT today.** That target was based on a falsified timezone assumption (see §3 + §5). Instead:
 
-**Primary recommendation — submit Mon Jun 1 ~07:00–09:00 EDT** (= 11:00–13:00 UTC = early Mon morning London = early Mon morning NYC, before Sam Haselby's US workday begins).
+**Primary recommendation — submit at portal-open tonight Sun May 31 ~19:00–20:00 EDT** (= 23:00 UTC May 31 or 00:00 UTC Jun 1 = 00:00 BST or 00:00 UTC Mon Jun 1). This is the queue-position-optimal moment within the Jun 1–7 window: portal-open submission lands ahead of overnight Asia/Pacific + UK + EU pitches that will accumulate between portal-open and Mon AM US-time, all of which arrive in Haselby's first Monday-morning review batch.
 
-**Alternative recommendation — submit late tonight Sun May 31 19:00–22:00 EDT** if author wants the symbolic "as portal opens" posture (≈ 00:00–03:00 BST Mon Jun 1 = the most likely portal-open moment).
+**Acceptable backup — submit any time Mon Jun 1 EDT** if author has independent reason to prefer Mon AM (rest, focus, calmer headspace). Submitting Mon AM buys nothing editorially over portal-open — both arrive before Haselby logs in for his workday — but it costs queue position relative to overnight global submissions. The cost is small but real; choose Mon AM only on author-convenience grounds, not on editorial reasoning.
 
-**Hard floor:** Author MUST manually verify `aeon.co/pitch` is open via a real browser session BEFORE pasting. Aeon's site is behind a Vercel security checkpoint that blocks automated state checks; the only authoritative open/closed signal is a human-browser visit.
+**Hard floor:** Author MUST manually verify `aeon.co/pitch` is open via a real browser session BEFORE pasting. Aeon's site is behind a Vercel security checkpoint that blocks automated state checks; the only authoritative open/closed signal is a human-browser visit. Browser cache + CDN propagation can lag — recommend hard-refresh (Cmd-Shift-R) and/or incognito session if the page appears stuck on a stale "closed" state past the candidate open-moments.
 
-**Confidence rating:** **HIGH** that 10:01 EDT today is wrong (empirically falsified — see §4). **MEDIUM-HIGH** that the portal opens tonight 19:00–24:00 EDT (= 23:00 UTC Sun → 04:00 UTC Mon — bracketing London-midnight, UTC-midnight, and the latest plausible cron). **HIGH** that there is no meaningful queue-position cost to waiting until Mon AM EDT, because the editor processing the pitch (Haselby) is in NYC and will batch pitches during his US workday regardless of arrival minute.
+**Confidence rating:** **HIGH** that 10:01 EDT today is wrong (empirically falsified — see §4). **MEDIUM-HIGH** that the portal opens tonight 19:00–24:00 EDT (= 23:00 UTC Sun → 04:00 UTC Mon — bracketing London-midnight, UTC-midnight, and the latest plausible NYC-midnight cron). **MEDIUM** on the marginal queue-position benefit of portal-open submission vs Mon AM EDT — small in absolute terms (Haselby reads pitches in batch regardless), but real if there is any FIFO bias.
+
+**Correction note (2026-05-31 corrected ~10:55 EDT):** The initial version of this document recommended "Mon Jun 1 ~07:00–09:00 EDT" as primary. That landed in an inconsistent middle — it argued queue position is weak (so timing doesn't matter), then recommended a sub-optimal time within the week anyway. The corrected position above is internally coherent: if queue position matters at all, submit at portal-open; if it doesn't, submit anytime; the original "Mon AM EDT" recommendation was author-convenience reasoning ("submit during your own daylight hours") miscast as editorial reasoning ("before Haselby logs in"). Both submissions arrive before Haselby logs in; only the earlier submission is ahead of overnight global pitches.
 
 ---
 
@@ -152,15 +154,15 @@ Current:
 
 Proposed:
 ```
-# Aeon submission-day package — Mon Jun 1 2026 (US-morning window)
+# Aeon submission-day package — portal-open Sun May 31 evening EDT
 
 **Purpose:** Single file to open at submission time. All copy-paste material in one place; no context-switching across files mid-submission.
 
 **Submission target (REVISED 2026-05-31 per portal-timing investigation):**
-Primary window — Mon Jun 1 2026 ~07:00–09:00 EDT (= 11:00–13:00 UTC = early Mon Jun 1 London + NYC).
-Alternative window — late Sun May 31 19:00–22:00 EDT (≈ portal-open moment per London-midnight / UTC-midnight hypothesis).
+Primary window — Sun May 31 2026 ~19:00–20:00 EDT (= 23:00 UTC May 31 or 00:00 UTC Jun 1 = portal-open moment per London-midnight or UTC-midnight cron hypothesis).
+Acceptable backup — any time Mon Jun 1 EDT (author-convenience choice; small queue-position cost vs portal-open).
 
-**Why revised:** Original 14:01 UTC target was based on a "Melbourne AEST midnight" inference that was empirically falsified Sun May 31 at 10:05 EDT (portal closed). The actual portal-open cron almost certainly runs on London BST or UTC, opening ~19:00–20:00 EDT Sun May 31 (= 00:00 BST or 00:00 UTC Mon Jun 1). The Philosophy editor (Sam Haselby) processing this pitch is NYC-based and will read pitches during his US workday; queue-position urgency at the exact open-moment is not a meaningful editorial advantage. See `rigor/portal-timing-investigation_2026-05-31.md` for full evidence.
+**Why revised:** Original 14:01 UTC target was based on a "Melbourne AEST midnight" inference that was empirically falsified Sun May 31 at 10:05 EDT (portal closed). The actual portal-open cron almost certainly runs on London BST or UTC, opening ~19:00–20:00 EDT Sun May 31 (= 00:00 BST or 00:00 UTC Mon Jun 1). The Philosophy editor (Sam Haselby) processing this pitch is NYC-based and reads pitches during his US workday — but portal-open submission still lands ahead of overnight Asia/Pacific + UK + EU pitches that will accumulate before his Mon AM EDT review batch. Submit at portal-open for the queue-position-optimal moment. See `rigor/portal-timing-investigation_2026-05-31.md` §1 + §7 for full evidence + the corrected reasoning trail.
 ```
 
 ### Amendment 2 — Replace "Strategic rationale" line
@@ -172,7 +174,7 @@ Current:
 
 Proposed:
 ```
-**Strategic rationale (REVISED 2026-05-31):** Submit cleanly within the first 24-48 hours of the Jun 1–7 window. The "first-in-queue Melbourne morning" rationale in the 2026-05-08 strategy artifact rested on three unsupported assumptions (Melbourne HQ as cron anchor; cron-on-HQ-time SaaS convention; FIFO editorial workflow) and the first was empirically falsified Sun May 31. The Philosophy editor (Haselby, NYC) batch-processes pitches during his US workday; arrival minute is not load-bearing. Submission early Mon Jun 1 EDT puts the pitch at the top of Haselby's first weekly review batch with no symbolic cost relative to portal-open submission.
+**Strategic rationale (REVISED 2026-05-31):** Submit at portal-open Sun May 31 evening EDT (~19:00–20:00 EDT = London-midnight or UTC-midnight Mon Jun 1). The "first-in-queue Melbourne morning" rationale in the 2026-05-08 strategy artifact rested on three unsupported assumptions (Melbourne HQ as cron anchor; cron-on-HQ-time SaaS convention; FIFO editorial workflow); the first was empirically falsified Sun May 31. The corrected version of the queue-position logic: the Philosophy editor (Haselby, NYC) reads pitches during his US workday in batch, but portal-open submission still lands ahead of overnight Asia/Pacific + UK + EU pitches that accumulate between portal-open and Mon AM EDT, all of which arrive in Haselby's first weekly review batch. The marginal benefit of portal-open submission is small in absolute terms but coherent — it costs nothing (V-E pitch is already final-ratified) and removes the noise of "submit during my own daylight hours" rationalization.
 ```
 
 ### Amendment 3 — Update §"Submission-day workflow (suggested sequence)" §1
@@ -186,9 +188,9 @@ Current ¶1:
 
 Proposed:
 ```
-1. **Mon Jun 1 ~06:50 EDT (10 min before):** Open this file. Open `aeon.co/pitch` portal in a separate tab (real browser; portal is behind Vercel bot-checkpoint — automated state checks unreliable).
-2. **Mon Jun 1 ~06:55 EDT:** Confirm portal is open + form fields are as expected. If portal is still closed at 07:00 EDT, wait 15-min increments and try again; if still closed by 09:00 EDT, escalate (see §"What to do if something unexpected happens at submission").
-3. **Mon Jun 1 ~07:00–07:30 EDT:** Begin paste sequence:
+1. **Sun May 31 ~18:30 EDT (30 min before earliest candidate open):** Open this file. Open `aeon.co/pitch` portal in a separate tab (real browser; portal is behind Vercel bot-checkpoint — automated state checks unreliable; recommend hard-refresh + incognito session if state appears stuck).
+2. **Sun May 31 ~18:55 EDT onward:** Refresh `aeon.co/pitch` at 5-min intervals starting 18:55 EDT. Candidate open-moments: 19:00 EDT (London BST midnight), 20:00 EDT (UTC midnight), 00:00 EDT Mon (NYC midnight). Cache/CDN propagation may lag — give each candidate moment +5-10 min buffer before moving to next hypothesis.
+3. **At first verified-open moment:** Begin paste sequence:
 ```
 
 ### Amendment 4 — Update §"What to do if something unexpected happens at submission" §"Portal isn't open at 14:01 UTC"
