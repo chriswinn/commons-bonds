@@ -19,6 +19,58 @@ Acceptance + robustness are **two distinct tests** with different character sets
 
 ---
 
+## Reception-chain audience weighting (Amendment D, ratified 2026-05-31)
+
+**Load-bearing principle.** For any prose artifact, construct the audience-pressure-test set from the **actual reader chain** — weighted by proximity to the artifact:
+
+1. **Direct readers of THIS specific artifact** — HIGHEST weight. The people who will literally read this prose.
+2. **Parties the direct readers will likely consult or defer to** — HIGH weight. Deputy editors, screening assistants, external second-opinion reviewers, editorial-board members, agent's network, acquisitions-board peers.
+3. **Downstream readers of next-stage artifacts** — LOWER weight. They matter only through the direct reader's projection lens ("how will eventual readers receive what I'm being asked to forward?").
+
+Pass 3.3 / 3.4 / 3.5 verdicts apply at full strength to (1); through the direct-reader's projection lens to (2) + (3).
+
+### Artifact-class worked examples (canonical reference)
+
+| Artifact class | Direct readers (HIGHEST) | Consultants (HIGH) | Projected downstream (LOWER) |
+|---|---|---|---|
+| End-reader-facing essay / chapter / op-ed prose | All theoretical audiences per Stage 1 brief — they ARE the direct readers | (none; the buck stops here) | (n/a) |
+| Editor-facing pitch | Venue editor (e.g., Sam Haselby at Aeon Philosophy) | Deputy editor; external second-opinion reviewer | Eventual essay readers (editor-projected) |
+| Cover letter | Venue editor | Deputy editor; second-opinion reviewer | Eventual essay readers (editor-projected) |
+| Literary-agent query letter | Literary agent | Agent's screening assistant; agent's network connections | Acquisitions editors agent will pitch to; eventual book buyers |
+| Book proposal | Literary agent + acquisitions editor + in-house sales/marketing | Acquisitions board; comp-title sales-data consultants | Eventual book buyers; reviewers; lifetime readers |
+| Peer-review article submission | 2-3 peer reviewers | Editor + editorial board | Eventual published-article readers |
+| Prize-judge submission (e.g., Berggruen, Aeon Philosophy Prize) | Prize judges (panel) | Prize committee external advisors | Eventual prize-announcement audience |
+| Op-ed submission email (NOT the op-ed prose itself) | Op-ed page editor | Op-ed page deputy | Eventual published-op-ed readers |
+| Acquisitions-editor email pitch | Acquisitions editor | Acquisitions editor's assistant; in-house publisher | Sales team; bookshop buyers (acquisitions-editor-projected) |
+
+**Notable cases the framing naturally captures:**
+
+- **Op-ed package has two prose classes with different weightings.** The published op-ed prose itself is end-reader-facing (the top row of the table); the submission email to the editor is editor-facing (a separate row). Same package, different reception chains; the two prose classes require different audience-weighting at Stage 3.
+- **Same prose at different lifecycle stages shifts artifact class.** A manuscript chapter at proposal-stage has acquisitions editor as direct reader + book buyer as projected; at editing-stage has copy editor + book editor as direct readers; at published-book stage has book readers as direct readers. The principle handles this without per-stage amendments.
+- **Internal-scaffolding artifacts** (drafting-templates, memory entries, session handoffs) have author as direct reader + future-Claude-sessions + collaborators as consultants; no downstream projection. Per the two-layer content-origination discipline (WP#10), these remain out of scope for Pass 3.3 / 3.4 / 3.5 audits.
+
+### Operational guidance — Stage 1 brief construction
+
+Before constructing the audience-pressure-test character set for a Stage 1 brief, **classify the artifact class** per the worked-examples table. Use the classification to identify direct readers + consultants + projected downstream. Construct the character set with explicit weight-tags:
+
+- **HIGH weight** = direct reader (verdict applies at face value).
+- **MEDIUM weight** = consultant (editor-projected through direct-reader's projection lens; verdict applies indirectly through the direct reader's projection of consultant reception).
+- **LOW weight** = projected downstream (signaling-only; pitch / cover letter / query letter needs to signal craft, not fully execute essay-level work).
+
+The Stage 1 brief's §1 character set should record the artifact-class classification + the weight-tag assigned to each character.
+
+### Operational guidance — Stage 3 Pass 3.3 / 3.4 / 3.5 aggregation
+
+When aggregating per-character verdicts to a net-effect synthesis at Pass 3.3 / 3.4 / 3.5, **apply the Stage 1 brief's weight-tags**. Within-verdict basis-deepening on a LOW-weight character matters less than on a HIGH-weight character; per-character data is unchanged at the data level, but aggregate weighting honors the reception-chain proximity.
+
+When evaluating spot-fix candidates for editor-facing / agent-facing / consultant-facing prose, explicitly check: **"Does this fix improve the projected-downstream reader's response while damaging the direct reader's directness / conviction signal?"** If yes, the fix may be correct at downstream-prose-scale (essay, published book) and wrong at direct-prose-scale (pitch, query letter, cover letter). Apply at downstream-stage (post-acceptance editing); do NOT apply at direct-stage (pitch / cover letter / query letter).
+
+### Empirical anchor
+
+Aeon Option E.2 γ.1 opener-contingency Pass 3.3 + 3.4 + 3.5 audit addendum (2026-05-31; commit `73c5764`): same Option β prose move (mediation clause adding "hidden by patterns the framework names") was the right answer at essay-prose-scale (downstream readers; eventual essay-publication context) but the wrong answer at editor-pitch-scale (direct reader = Sam Haselby; pitch-craft directness signals author conviction; mediation clause reads as defensive). The Pass 3.3 + 3.4 + 3.5 per-character data was sound; the aggregate verdict synthesis under-credited directness-loss costs and over-credited adversarial-mediation gains because the character set was treated as end-reader-facing without reweighting for the editor-facing-pitch artifact class. Amendment D codifies the reception-chain audience weighting that resolves this lens-calibration drift.
+
+---
+
 ## §1. The acceptance-test set (Pass 3.3)
 
 ### §1.1 Three-tier structure
