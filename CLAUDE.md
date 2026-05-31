@@ -151,6 +151,25 @@ resolved or contradicts something in the chunk being pushed,
 add a small reconciliation commit so what lands on main is
 consistent. Then push.
 
+**Session-end branch-delete default (G1; ratified 2026-05-31).**
+At session close, the SessionEnd hook
+[`tools/scripts/session-end-worktree-cleanup.sh`](tools/scripts/session-end-worktree-cleanup.sh)
+automatically runs `git worktree remove + git branch -D` for the
+session's branch IF safety gates pass: cwd is a top-level isolated
+worktree on a `claude/<slug>-<harness>` branch AND ahead=0 vs
+origin/main AND dirty=0 AND no `MERGE-HOLD:`/`MERGE-AFTER:` marker
+in HEAD commit body AND branch is not on the §5.1 contaminated
+skip-list. Dry-run by default; set
+`COMMONS_BONDS_HOOK_DESTRUCTIVE=1` to enable. Sessions inherit
+cleanup automatically rather than running it as a manual
+session-close ritual. Companion at SessionStart:
+[`tools/scripts/session-start-orphan-lock-recovery.sh`](tools/scripts/session-start-orphan-lock-recovery.sh)
+recovers orphan-locked agent worktrees from killed prior agents.
+Both are documented in
+[`tools/scripts/README.md`](tools/scripts/README.md) §Session
+lifecycle hooks and in the canonical paste-text at
+[`tools/drafting-templates/worktree-isolation-paste-text.md`](tools/drafting-templates/worktree-isolation-paste-text.md).
+
 Hard constraints (recurring): never force-push `main`; never
 amend a commit already on `origin/main`; never skip hooks
 (`--no-verify`) without explicit author direction.
