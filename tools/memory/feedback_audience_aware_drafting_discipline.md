@@ -1,6 +1,6 @@
 ---
 name: Pipeline doctrine — single unified pipeline for publisher-facing prose (v3.1)
-description: Six-stage pipeline (Stages 0-5) with five-pass Stage 3 (Amendment B 2026-05-18 added Pass 3.5 developmental-edit) + two-class cascade (Amendment A 2026-05-18 — automatic-on-edit vs explicit-gate) + continuous invariant-gate scans + change-cascade routing + cross-chapter workstream lifecycle. Extends v3.0 (2026-05-17) → v2.0 Amendment B. Canonical full doctrine at tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md in commons-bonds repo.
+description: Six-stage pipeline (Stages 0-5) with five-pass Stage 3 (Amendment B 2026-05-18 added Pass 3.5 developmental-edit) + two-class cascade (Amendment A 2026-05-18 — automatic-on-edit vs explicit-gate) + Interactive Ratification Protocol (Amendment C 2026-05-19) + reception-chain audience weighting (Amendment D 2026-05-31) + continuous invariant-gate scans + change-cascade routing + cross-chapter workstream lifecycle. Extends v3.0 (2026-05-17) → v2.0 Amendment B. Canonical full doctrine at tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md in commons-bonds repo.
 type: feedback
 originSessionId: 6a97b0f9-c18b-4992-8bf6-b2bbf9c60acf
 ---
@@ -139,7 +139,7 @@ Implementation: `tools/scripts/check-corpus-invariants.sh`.
 - v2.0 Amendment B's three-pass discipline + per-prompt serial cadence is
   preserved as the core of Stage 3.
 
-## What v3.1 adds beyond v3.0 (Amendments A + B, ratified 2026-05-18)
+## What v3.1 adds beyond v3.0 (Amendments A + B + C + D, ratified 2026-05-18 / 2026-05-19 / 2026-05-31)
 
 - **Amendment A — Two-class cascade.** Original v3.0 cascade treated all
   stages as equally auto-firing on every relevant change. Amendment A splits
@@ -170,6 +170,24 @@ Implementation: `tools/scripts/check-corpus-invariants.sh`.
   prose-modifying passes, ratified 2026-05-19): per-finding format must
   include Options + Recommendation + Reasoning; ratification + application
   combine in one session.
+- **Amendment D — Reception-chain audience weighting.** Audience-pressure-test
+  set weights characters by proximity to the artifact: direct readers
+  (HIGHEST), consultants (HIGH; editor-projected), projected downstream
+  (LOWER; pitch-craft-signaling only). Same prose move can be right at one
+  artifact class and wrong at another — the principle resolves
+  lens-calibration drift at Stage 1 brief construction rather than
+  discovering it mid-Pass 3.3 / 3.4 / 3.5. Canonical worked-examples table
+  + operational guidance for Stage 1 brief construction + Stage 3 audit
+  aggregation at `tools/drafting-templates/audience-pressure-test-construction.md`
+  §"Reception-chain audience weighting (Amendment D)". Stage 1 doctrine §2.0
+  codifies the procedure step. Empirically grounded by Aeon Option E.2 γ.1
+  opener-contingency Pass 3.3 + 3.4 + 3.5 audit addendum 2026-05-31 (commit
+  `73c5764`): Option β mediation clause was the right answer at
+  essay-prose-scale and wrong answer at editor-pitch-scale; per-character
+  data sound, aggregate verdict synthesis under-credited directness-loss +
+  over-credited adversarial-mediation gains because character set was
+  treated as end-reader-facing without reweighting for the
+  editor-facing-pitch artifact class.
 
 ## Empirical anchors
 
@@ -210,6 +228,13 @@ Implementation: `tools/scripts/check-corpus-invariants.sh`.
   divergence (commit `cf24f57`); EB Garamond font-family naming
   (commit `3208619`); author's lived-experience math-formula corruption
   at NIH-era publications.
+- Amendment D empirical validation: Aeon Option E.2 γ.1 opener-contingency
+  Pass 3.3 + 3.4 + 3.5 audit addendum (2026-05-31; commit `73c5764`). Same
+  Option β prose move (mediation clause "hidden by patterns the framework
+  names") was right at essay-prose-scale and wrong at editor-pitch-scale.
+  Per-character data sound; aggregate verdict synthesis without
+  reception-chain reweighting under-credited directness-loss costs. Drove
+  Amendment D codification of reception-chain audience weighting.
 
 ## Discipline carry-forward from v2.0 (unchanged in v3.0)
 
