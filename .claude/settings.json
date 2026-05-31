@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
-  "_comment": "Two SessionStart hooks. (1) session-start-worktree-isolation.sh — added 2026-05-26 in response to author observation of 350+ branches accumulating with active cross-session contamination (sessions in the main /Users/c17n/commons-bonds cwd share .git/HEAD, so checkouts and commits from one session corrupt others). Emits a strongly-worded reminder + ready-to-paste worktree command whenever a session starts in the main cwd; LLM executes the worktree creation as its first tool call. See tools/memory/feedback_worktree_isolation_for_parallel_sessions.md + tools/drafting-templates/worktree-isolation-paste-text.md. (2) session-start-render-toolchain.sh — installs the canonical render toolchain in Anthropic remote-container sessions (gated on CLAUDE_CODE_REMOTE=true; local laptop sessions use Docker via Colima instead). See tools/workstream-handoffs/render-toolchain-containerization-handoff_2026-05-18.md §4.4. The recommended primary mechanism for the render toolchain is to configure tools/scripts/install-render-toolchain.sh as the environment's web-UI setup script.",
+  "_comment": "Hooks for the commons-bonds project. SessionStart fires session-start-worktree-isolation.sh (the load-bearing branch-contamination prevention layer; emits reminder + worktree-creation paste-text when a session starts in the main /Users/c17n/commons-bonds cwd; see tools/memory/feedback_worktree_isolation_for_parallel_sessions.md) and session-start-orphan-lock-recovery.sh (opportunistically reclaims orphan-locked .claude/worktrees/agent-* worktrees whose owning process has died; conservative gating — dead lock pid + ≥1h since last commit + ahead=0 + dirty=0; dry-run by default unless COMMONS_BONDS_HOOK_DESTRUCTIVE=1; see tools/scripts/session-start-orphan-lock-recovery.sh header for empirical anchors). SessionEnd fires session-end-worktree-cleanup.sh (removes the current top-level isolated worktree + branch if fully merged + clean + no MERGE-HOLD/MERGE-AFTER marker; dry-run by default unless COMMONS_BONDS_HOOK_DESTRUCTIVE=1; eliminates the orphan-top-level-worktree accumulation pattern empirically validated twice by tools/workstream-handoffs/git-cleanup-sweep_2026-05-28.md and tools/workstream-handoffs/git-cleanup-sweep-round-2_2026-05-30.md §4.1). session-start-render-toolchain.sh installs the canonical render toolchain in Anthropic remote-container sessions (gated on CLAUDE_CODE_REMOTE=true; local laptop sessions use Docker via Colima instead); see tools/workstream-handoffs/render-toolchain-containerization-handoff_2026-05-18.md §4.4.",
   "hooks": {
     "SessionStart": [
       {
@@ -12,7 +12,21 @@
           },
           {
             "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/tools/scripts/session-start-orphan-lock-recovery.sh"
+          },
+          {
+            "type": "command",
             "command": "\"$CLAUDE_PROJECT_DIR\"/tools/scripts/session-start-render-toolchain.sh"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/tools/scripts/session-end-worktree-cleanup.sh"
           }
         ]
       }
