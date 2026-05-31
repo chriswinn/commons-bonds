@@ -6,20 +6,16 @@ This folder holds the canonical methodology documents for the Commons Bonds proj
 
 ---
 
-## Session-start upload set
+## Session-start workflow (current as of 2026-05-31)
 
-For any substantive session work, upload these files plus the current session handoff (from `alignment/sessions/`):
+This section was refreshed 2026-05-31 per memory-process-review v2 B.1 ratification. Prior to that refresh, this section documented an upload-set workflow (Drive-era; v1.28.0 handoff + v2.2.0 rigor protocol + abundance-dimensions methodology upload) that no longer matches how sessions actually start. Current discipline:
 
-| File | What it does |
-|---|---|
-| `tools/claude_prefs.md` | Operating preferences, file-format rules, privacy rules, Commons Bonds operating core |
-| `tools/commons_bonds_rigor_protocol_v2.2.0.md` | Canonical rigor protocol — **Pre-Submission Peer Review Suite + Path Comparison Mode + 6 Informational Goals**. 11 purpose-driven modules (M1 Framework / M2 Case study / M3 Book content / M4 Craft / M5 Dinner-table / M6 Academic rigor / M7 Originality / M8 Long-term / M9 Risk / M10 Publishing / M11 Critic pressure). Five running modes (single-module / combined / full / light / path comparison). Two output deliverables: PSR (single-state) + PCR (comparative-state). PCR includes 4 primary goals (drive recommendations) + 6 informational goals (produce findings only — personal/ethical satisfaction + family wellbeing + career safety + time/capacity + movement utility + financial sustainability). v1.3.0 + v2.0.0 + v2.1.0 retired (git history preserves; mapping in v2.2.0 §0.2). |
-| `tools/commons_bonds_guiding_constraints_v1_0_0.md` | Canonical Group D (strategic / publishing-path) + Group E (success criteria) inputs |
-| `core/dimensions/commons_bonds_abundance_dimensions_v1_3_0.md` | Methodology document for the 10 abundance dimensions; **v1.3.0 current** (note: prior v1_2_0 reference was stale; corrected 2026-04-30 per Insight #55 hygiene pass). **Path F reframing applied** — dimensions are organizational scaffolding over variables CIT has surfaced across 18 case studies; not closed ontological taxonomy. **Queued for absorption into Tech Appendix v2.0.0 §C.2 during Phase 3 rebuild; directory will archive at that point per Insight #55 hygiene pass.** Originally promoted to `core/` 2026-04-22 per scaffolding-vs-book-worthy placement principle (parallel to `archive/decomposition/` (formerly `core/decomposition/`; archived 2026-04-30), `core/glossary/`, `core/technical-appendix/`). Naming cohort: Habitability, Spatial, Temporal, Institutional, Kindred, Ecosystem, Political, Cohesion, Epistemic, Autonomy. |
-| `tools/commons_bonds_book_scope_v1_0_3.md` | Canonical Book One scope |
-| `tools/rigor-passes/commons_bonds_rigor_pass_2026-04-22_v1_0_1.md` | Most recent rigor pass record (Part 2, session v1.28.0) |
+1. **First tool call MUST be `git worktree add`** — every fresh CC session creates an isolated git worktree (`/Users/c17n/commons-bonds-<workstream-slug>-<harness-id>`) before any other operation. Branch-contamination is the failure mode this prevents under sustained 20-35+ concurrent-session operation (per author observation 2026-05-26). Canonical reference: [`memory/feedback_worktree_isolation_for_parallel_sessions.md`](memory/feedback_worktree_isolation_for_parallel_sessions.md). Defense in depth: a SessionStart hook ([`scripts/session-start-worktree-isolation.sh`](scripts/session-start-worktree-isolation.sh)) emits a warning + the worktree-isolation paste-text ([`drafting-templates/worktree-isolation-paste-text.md`](drafting-templates/worktree-isolation-paste-text.md)) is embedded in every kickoff template.
+2. **Paste-text kickoff** — workstream-specific kickoff paste-texts live in [`drafting-templates/`](drafting-templates/) for class-level templates (Stage 0/1/2/3 templates; audience-pressure-test-construction; worktree-isolation paste-text) and in [`workstream-handoffs/`](workstream-handoffs/) for instance-level paste-texts (per-workstream kickoffs, dated). Sessions launch by pasting the relevant kickoff text after the worktree-add step.
+3. **PM-coordination sessions** — start by reading the latest `tools/workstream-handoffs/pm-session-handoff_<DATE>.md` PM dashboard. That document holds the current state-of-week snapshot: priority-labeled status buckets, per-chapter Stage state, per-essay submission state, decisions pending, date-anchored action list. Index at [`workstream-handoffs/README.md`](workstream-handoffs/README.md).
+4. **Always-load context is automatic** — `CLAUDE.md` + the three `@import`-hooked memory files (audience-aware drafting v3.1 doctrine; named-subject consent; verify-stale-claims) load into every session by default. See [`memory/README.md`](memory/README.md) for the always-load set + situational discipline files.
 
-Plus the current session handoff from `alignment/sessions/`.
+The session-start workflow no longer relies on a fixed upload set; required context loads automatically via the always-load hooks + the kickoff paste-text names whatever situational context the session needs.
 
 ---
 
@@ -117,18 +113,9 @@ These are referenced from `tools/` content but live elsewhere:
 
 ---
 
-## Copy-paste session-start block (from handoff v1.28.0)
+## Copy-paste session-start block
 
-```
-Please read these files before responding:
-- commons-bonds-session-handoff-2026-04-22_v1_28_0.html
-- commons_bonds_rigor_protocol_v2.2.0.md
-- commons_bonds_guiding_constraints_v1_0_0.md
-- commons_bonds_abundance_dimensions_v1_3_0.md
-- commons_bonds_rigor_pass_2026-04-22_v1_0_1.md
-```
-
-(Add `claude_prefs.md` and `commons_bonds_book_scope_v1_0_3.md` if they're not already session-implicit context.)
+The Drive-era copy-paste block previously documented here (a v1.28.0 handoff + v2.2.0 rigor-protocol upload list) is retired as of 2026-05-31. Current session-start does not use a fixed upload list; the worktree-add command + the relevant kickoff paste-text together constitute the session start. See §"Session-start workflow" above + [`drafting-templates/worktree-isolation-paste-text.md`](drafting-templates/worktree-isolation-paste-text.md) for the canonical first-action paste.
 
 ---
 
@@ -149,8 +136,9 @@ Versioned files: `_v#_#_#` suffix; increment rightmost digit per minor update.
 
 ## Notes for agents working in this folder
 
+- **Worktree-isolation is the first action** — every fresh session creates an isolated worktree under `/Users/c17n/commons-bonds-<workstream-slug>-<harness-id>` BEFORE any other tool call. See [`memory/feedback_worktree_isolation_for_parallel_sessions.md`](memory/feedback_worktree_isolation_for_parallel_sessions.md).
+- **Merge-on-ratification is the merge gate** — ratification of an end-user-facing prose change (or session-close for internal scaffolding) IS the authorization to fast-forward `origin/main`. See `CLAUDE.md` §"Branch discipline + merge-to-main" + [`memory/feedback_merge_on_ratification.md`](memory/feedback_merge_on_ratification.md). Escape hatches: `MERGE-HOLD: <reason>` + `MERGE-AFTER: <gate>` commit-message-body markers.
+- **Pre-push reconcile before every push** — `git fetch origin main && git rebase origin/main` to inherit any parallel-session work; add a reconciliation commit if a parallel session changed anything load-bearing for the chunk being pushed. Hard constraints (unchanged): never force-push `main`; never amend a commit already on `origin/main`; never skip hooks (`--no-verify`) without explicit author direction.
 - **Math files stay `.html`** — never convert `.html` to `.md` for math-heavy content (eight-tier decomposition, technical appendix, error-out, glossary).
 - **Privacy rule active** — scrub personal financial specifics from external-facing outputs by default.
-- **Never write to Google Drive.** Drive-specific heredoc truncation risk. Drive uploads are manual on Chris's side.
-- **Worktree writes + merges + pushes** are validated workflow as of 2026-04-22 (session v1.28.0). See `claude_prefs.md` §1 for current collaboration rules.
-- **Hard rules** — never touch `/Noema/` or `/Berggruen Institute - Essay/` Drive folders; never rename Drive files.
+- **No invented factual claims** — in publisher-facing non-fiction prose, do NOT invent factual claims about real subjects. See `CLAUDE.md` §"No invented factual claims" + [`memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md`](memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md).
