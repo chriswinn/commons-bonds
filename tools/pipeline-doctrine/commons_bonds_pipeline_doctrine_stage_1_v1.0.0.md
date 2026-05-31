@@ -89,6 +89,10 @@ CLEAN BASELINE — Stage 1a complete; ready for Stage 1b.
 
 ## §2. Stage 1b — Canonical fact-ground + audience-aware structure + render-safe convention
 
+### §2.0 Artifact-class classification (Amendment D, ratified 2026-05-31)
+
+**Before** building the audience-pressure-test character set, classify the artifact class per the worked-examples table at [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) §"Reception-chain audience weighting (Amendment D)". The classification identifies direct readers (HIGHEST weight), consultants (HIGH), and projected-downstream readers (LOWER). Assign per-character weight-tags to the §1 character set; the brief records the artifact-class label + per-character weight-tags + reception-chain roles. Weight-tags propagate forward to Stage 3 Pass 3.3 / 3.4 / 3.5 audit aggregation. Empirical anchor: Aeon Option E.2 γ.1 opener-contingency Pass 3.3 + 3.4 + 3.5 audit addendum 2026-05-31 (commit `73c5764`).
+
 ### §2.1 What this is
 
 Stage 1b is the existing audience-aware structure pass per [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](../drafting-templates/stage-1-audience-aware-structure-pass.md), with the following content-type-aware sub-protocols (per pipeline doctrine §4):
@@ -104,9 +108,10 @@ For math-heavy artifacts (Tech Appendix; Ch 6 + Ch 9 math-section), the baseline
 
 ### §2.2 Procedure
 
+0. **Classify artifact class** per §2.0; record the classification label.
 1. Use the existing Stage 1 template (`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`) verbatim.
-2. For each content type in scope, run the relevant sub-protocol.
-3. Produce the Stage 1 brief artifact per the template's output spec.
+2. For each content type in scope, run the relevant sub-protocol. **Assign per-character weight-tags (HIGH / MEDIUM / LOW)** to the audience-pressure-test character set per the artifact-class classification.
+3. Produce the Stage 1 brief artifact per the template's output spec; the §1 character set records the artifact-class label + per-character weight-tags + reception-chain roles.
 
 ### §2.3 Output
 
@@ -207,6 +212,7 @@ Verify:
 ### §4.2 Prose-quality sign-off
 
 Verify:
+- **Artifact-class classification (§2.0) recorded + per-character weight-tags assigned to audience-pressure-test character set (Amendment D).**
 - Audience pressure-test character set (1b §1) complete + tier-coverage appropriate to venue.
 - Voice register specification (1b §5) complete + venue-appropriate.
 - LLM-tic avoidance list (1b §5) complete.
