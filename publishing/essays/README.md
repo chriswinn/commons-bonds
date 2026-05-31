@@ -2,16 +2,24 @@
 
 Per-essay submission packages. Each `<venue>-<short-title>/` directory holds the full submission package for one essay through its complete lifecycle (drafting → ratifying → submitting → archive after response).
 
-## Active essay packages (as of 2026-05-25)
+## Active essay packages (as of 2026-05-31)
 
-| Directory | Essay | Venue | State |
+This table snapshots state as of 2026-05-31; for live state and the per-unit V-D verdicts, see the latest PM dashboard at [`../../tools/workstream-handoffs/pm-session-handoff_<DATE>.md`](../../tools/workstream-handoffs/) (`pm-session-handoff_2026-05-28-portfolio-aeon-pattern-complete.md` is the active dashboard at this snapshot). Refresh this table when essay state transitions (RATIFIED → SUBMITTED → PLACED/REJECTED/WITHDRAWN) rather than treating it as the live source of truth.
+
+| Directory | Essay | Venue | State (2026-05-31) |
 |---|---|---|---|
-| [`noema-commons-bonds/`](noema-commons-bonds/) | *Commons Bonds* | Noema | RATIFIED-AWAITING-SUBMIT (Stage 5 ratified 2026-05-24) |
-| [`boston-review-accountability-gap/`](boston-review-accountability-gap/) | *The Accountability Gap* | Boston Review | RATIFIED-AWAITING-SUBMIT (Stage 5 ratified 2026-05-23) |
-| [`aeon-mask-of-abundance/`](aeon-mask-of-abundance/) | *The Mask of Abundance* | Aeon | Submission package scheduled 2026-05-31 |
-| [`100-barrel/`](100-barrel/) | *$100 Barrel* | Phenomenal World (target) | RATIFIED-AWAITING-SUBMIT (Stage 5 ratified 2026-05-24) |
-| [`atlantic-ideas-pricing-honestly/`](atlantic-ideas-pricing-honestly/) | *Pricing Honestly* | Atlantic Ideas | Stage 2 draft; Stage 3 cycle pending |
-| [`berggruen-prize-2026/`](berggruen-prize-2026/) | (placeholder slug; offline AI-free drafting) | Berggruen Prize 2026 | Seed materials; hard deadline 2026-08-17 |
+| [`aeon-mask-of-abundance/`](aeon-mask-of-abundance/) | *The Mask of Abundance* | Aeon | **Submission today (Sun 2026-05-31 14:01 UTC).** Version D PROMOTED-TO-CANONICAL 2026-05-28 (3 of 4 Tier 1 ✓✓→✓✓✓ upgrades; CONDITIONALLY ROBUST). |
+| [`noema-commons-bonds/`](noema-commons-bonds/) | *Commons Bonds* | Noema | Wave 1 Stage 5 RATIFIED-AWAITING-SUBMIT (Stage 5 ratified 2026-05-24; V-D second-pass audit landed 2026-05-28). |
+| [`boston-review-accountability-gap/`](boston-review-accountability-gap/) | *The Accountability Gap* | Boston Review | Wave 1 Stage 5 RATIFIED-AWAITING-SUBMIT (Stage 5 ratified 2026-05-23; V-D second-pass audit landed 2026-05-28). |
+| [`100-barrel/`](100-barrel/) | *$100 Barrel* | Phenomenal World (target) | Wave 1 Stage 5 RATIFIED-AWAITING-SUBMIT (Stage 5 ratified 2026-05-24; V-D second-pass audit landed 2026-05-28). |
+| [`atlantic-ideas-pricing-honestly/`](atlantic-ideas-pricing-honestly/) | *Pricing Honestly* | Atlantic Ideas | Wave 1 mid-cascade — full Stage 3 cascade incomplete; Version D + independent audit landed 2026-05-28 (rigor-incomplete caveat applies; wait-for-full-cascade remains a legitimate option). |
+| [`harpers-the-miner/`](harpers-the-miner/) | *The Miner* (Ch 2 derivative) | Harper's | Wave 2 Stage 5 RATIFIED-AWAITING-SUBMIT 2026-05-27 (commits `dc737bb` + `6366a17`); V-D second-pass with 3.5 bundled landed 2026-05-28. |
+| [`atlantic-main-chesapeake-watermen/`](atlantic-main-chesapeake-watermen/) | *Chesapeake Watermen* (Ch 3 derivative) | Atlantic main | Wave 2 Stage 5 RATIFIED 2026-05-27 (full Stage 3 cascade through Pass 3.5); V-D second-pass landed 2026-05-28. |
+| [`foreign-affairs-existence-proof/`](foreign-affairs-existence-proof/) | *The Existence Proof* (Ch 4 derivative) | Foreign Affairs | Wave 2 Stage 5 RATIFIED 2026-05-27; merged to main 2026-05-27 (commit `3ae1777` — the merge-on-ratification empirical anchor); V-D second-pass with 3.5 bundled landed 2026-05-28. |
+| [`nyrb-multi-book-review/`](nyrb-multi-book-review/) | NYRB multi-book review | NYRB | Wave 2 Stage 5 RATIFIED-AWAITING-SUBMIT (per-essay folder layout completed 2026-05-27 commit `6d1b565`); V-D second-pass with 3.5 bundled landed 2026-05-28. |
+| [`berggruen-prize-2026/`](berggruen-prize-2026/) | (placeholder slug; offline AI-free drafting) | Berggruen Prize 2026 | Seed materials; hard deadline 2026-08-17. |
+
+(Op-eds at `publishing/op-eds/norway-sovereign-wealth/` + `publishing/op-eds/mcdowell-county-true-cost/` are tracked separately; news-peg-activation pending.)
 
 ## Per-essay directory layout
 
