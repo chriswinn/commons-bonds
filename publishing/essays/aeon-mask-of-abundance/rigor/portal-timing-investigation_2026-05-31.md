@@ -9,7 +9,9 @@
 
 ## §1 Executive recommendation
 
-**Recommendation:** **Do not submit at 10:01 EDT today.** That target was based on a falsified timezone assumption (see §3 + §5). Instead:
+**SUPERSEDED — see §8 for current recommendation (Update 2, 20:44 EDT).** The recommendation below was the state of the investigation through ~11:00 EDT; both 19:00 EDT (London BST midnight) and 20:00 EDT (UTC midnight) candidate open-moments are now empirically falsified per author observation at 20:44 EDT. Read §1 for the reasoning trail; read §8 for the revised hypothesis ranking + current recommendation.
+
+**Original recommendation (now superseded):** **Do not submit at 10:01 EDT today.** That target was based on a falsified timezone assumption (see §3 + §5). Instead:
 
 **Primary recommendation — submit at portal-open tonight Sun May 31 ~19:00–20:00 EDT** (= 23:00 UTC May 31 or 00:00 UTC Jun 1 = 00:00 BST or 00:00 UTC Mon Jun 1). This is the queue-position-optimal moment within the Jun 1–7 window: portal-open submission lands ahead of overnight Asia/Pacific + UK + EU pitches that will accumulate between portal-open and Mon AM US-time, all of which arrive in Haselby's first Monday-morning review batch.
 
@@ -249,3 +251,45 @@ Proposed:
 ---
 
 *Investigation completed Sun May 31 2026 ~10:45 EDT. Findings document committed to feature branch `claude/aeon-portal-timing-investigation-260531-87934e`; auto-merging to main per merge-on-ratification (internal scaffolding) at session close.*
+
+---
+
+## §8 Update 2 — empirical anchor at 20:44 EDT Sun May 31
+
+**Author observation (20:44 EDT Sun May 31 / 00:44 UTC Mon Jun 1):** Portal STILL NOT open. Cache-bust + incognito verified.
+
+**Empirically falsified hypotheses (all candidate open-moments through 20:44 EDT):**
+
+| Hypothesis | Predicted open at (EDT) | Status |
+|---|---|---|
+| Melbourne AEST midnight (original assumption) | 10:00 EDT Sun | FALSIFIED (10:05 EDT obs) |
+| Melbourne business open (09:00 AEST Mon) | 19:00 EDT Sun | FALSIFIED (20:44 EDT obs) |
+| London BST midnight (00:00 BST Mon Jun 1) | 19:00 EDT Sun | FALSIFIED (20:44 EDT obs) |
+| UTC midnight (00:00 UTC Mon Jun 1) | 20:00 EDT Sun | FALSIFIED (20:44 EDT obs) |
+
+**Revised hypothesis ranking — remaining candidates:**
+
+| Hypothesis | Predicted open at (EDT) | Time until (from 20:44 EDT) | Plausibility |
+|---|---|---|---|
+| **NYC EDT midnight (00:00 EDT Mon Jun 1)** | **00:00 EDT Mon Jun 1** | **~3h 16m** | **HIGH** — editorial team is NYC; cron tied to editor-local clock is the remaining standard option after UTC + London + Melbourne are all falsified |
+| London BST business open (~08:00 BST Mon) | 03:00 EDT Mon | ~6h 16m | MEDIUM — implies human-toggled portal vs cron |
+| London BST business open (~09:00 BST Mon) | 04:00 EDT Mon | ~7h 16m | MEDIUM |
+| NYC business open (~09:00 EDT Mon) | 09:00 EDT Mon | ~12h 16m | LOWER — gates the whole weekly window by one office's business hours, which is unusual but possible if Haselby personally toggles |
+| Portal paused / June window delayed | N/A | N/A | LOW-MEDIUM — no public signal of delay (no Haselby X update; no Aeon social-channel notice surfacing in web search) but cannot be ruled out |
+
+**Current primary recommendation (supersedes §1):**
+
+1. **Continue checking at 00:00 EDT Mon Jun 1** — highest-probability remaining candidate (NYC midnight, ~3.25h from now).
+2. **If still closed at 00:30 EDT:** check at 03:00–04:00 EDT Mon (London business-hours-open candidate).
+3. **If still closed at 09:00 EDT Mon:** check on the hour through 12:00 EDT (NYC business-hours-open candidate).
+4. **If still closed by 12:00 EDT Mon Jun 1:** escalate. Likely interpretations: (a) June window has been delayed/paused (cf. May 2026 Philosophy Prize bandwidth-pressure friction noted in 2026-05-08 strategy artifact); (b) Aeon shifted the portal cadence and Haselby hasn't tweeted the change yet; (c) Vercel/CDN issue specific to today. Escalation actions: check Haselby's X account for any pitch-window update; check `@aeonmag` X account; if both silent, send a single short email via `aeon.co/contact` ("Hi — wanted to confirm the June pitch window is open; aeon.co/pitch still showing closed at [time]. Submitting [working title] this cycle. Thanks.").
+
+**Decision-tree threshold for switching out of "portal-open is queue-optimal" framing:** If portal is still closed by ~09:00 EDT Mon Jun 1, the queue-position rationale evaporates entirely (all global submitters are now blocked equally). At that point, the right move is "submit cleanly when portal opens, no matter the hour"; no need to anchor to a specific candidate window.
+
+**Authority of remaining hypotheses:** All four falsified hypotheses had MEDIUM-or-better prior plausibility before tonight's observation. Their joint falsification is informative: it suggests the Aeon portal cron is NOT tied to any of the standard server-side clocks (UTC, the legal-entity London time, the founder-Melbourne time). The remaining best-fit hypothesis is **editor-local time (NYC EDT)** — which would be a quirky choice for a SaaS cron but coherent if the portal is human-toggled by Haselby or Dresser themselves at the start of their week. The "human-toggled" interpretation has a separate empirical signature: if true, the portal would never open during the editor's sleep hours, which would predict NYC-business-hours-Mon (09:00 EDT) as the actual moment. The NYC-midnight hypothesis is a compromise between cron-based and editor-local logics.
+
+**Confidence on §8 revised ranking:** MEDIUM. The falsifications are HIGH-confidence; the remaining ranking is a best-guess given limited data. Author's continued empirical observations (each "still closed" datapoint at a candidate moment is a falsification; first "open" observation is the answer) will dominate this analysis going forward.
+
+**Update author handling:** Author has indicated they will continue manual portal checks. This investigation cannot improve on real-time observation; the §8 ranking is a prior over candidate moments, not an authoritative answer. Author's manual check IS the authoritative signal. Suggest the author keep a short timestamp log of "checked at HH:MM EDT — state X" — this becomes useful evidence if the portal-open moment falls in a pattern (e.g., a specific top-of-the-hour or top-of-the-minute moment that confirms cron vs human-toggle).
+
+*§8 update added Sun May 31 2026 ~21:00 EDT.*
