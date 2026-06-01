@@ -37,11 +37,13 @@ This refresh:
 
 5. **Format mix builds platform breadth over time.** Wave-1 + Wave-2 target portfolio: 5–8 magazine essays + 2 pipeline-ready op-eds + 1 Berggruen Prize attempt. Mix shape (literary / memoir / institutional / heterodox-econ / mechanism-policy / multi-voice reportage / international-policy) determines launch-positioning amplitude; the mix is built deliberately across the Wave 1 + Wave 2 cycle.
 
-6. **Agent green-light rule (Wave 1, late July / early August 2026):** complete book proposal AND ≥1 essay at editor-review at a top-tier venue AND ≥1 substantive named-source interview recorded with quote-permission. **Floor met by ~Sun Jun 1, 2026** assuming the May 25 – May 31 submission sprint clears. "Under consideration at \_\_\_\_" is queryable in good faith if real and current.
+6. **Agent green-light rule (Pipeline A Wave 1, late July / early August 2026):** complete book proposal AND ≥1 essay at editor-review at a top-tier venue AND ≥1 substantive named-source interview recorded with quote-permission. **Floor met by ~Sun Jun 1, 2026** assuming the May 25 – May 31 submission sprint clears. "Under consideration at \_\_\_\_" is queryable in good faith if real and current. **Pre-warmed-cold framing (Amendment 1 ratified 2026-05-31):** agents seeing essays at editor-review have higher conversion (5–10%) than pure slush-pile cold queries (2–5%); Wave 1 quality bar can be raised accordingly. Pipeline B green-light rule is the same except acquisitions editors can be queried directly without the agent-pitch platform paragraph (an essay placement at editor-review serves as credentialing in either case).
 
 7. **Wave 2 pre-positioning rationale (NEW in v2).** Wave 1 agent queries fire late Jul / early Aug 2026. Wave 2 derivative-essay Stage 1 briefs pre-position BEFORE Wave 1 fires so the agent-pipeline can claim "additional essays drafted, ready to submit on agent direction" — augments platform paragraph + demonstrates pipeline depth without committing apparatus to print prematurely. **Wave 2 submissions generally trail Wave 1 by 30–90 days** (submission window opens Q4 2026), with a few venue-specific exceptions per §3.
 
 8. **Fire-all-ready parallel-submission cadence (NEW in v2; ratified 2026-05-24 per PM dashboard §5).** Different essays at different venues are NOT simultaneous-submissions; no publisher-side conflict. Author submits all essays ready-to-submit within the natural cadence; rate limit is author ratification bandwidth (~2 interactive ratifications / day sustainably per `feedback_parallel_session_ratification_cadence.md` reference in PM dashboard §10b), not arbitrary spacing. The 2026-05-24 ratification: yes — submit all four essays ready-or-near-ready in the next 7 days; the platform-paragraph criterion (≥1 essay at editor-review at a top-tier venue) is met *and exceeded*; holding ready essays in the drawer reads as risk-aversion to a literary agent.
+
+9. **Two parallel agent/publisher pipelines (NEW per Amendment 1 ratified 2026-05-31).** Pipeline A = full-trade agent queries across 5 waves (~65–80 total queries; Tier 1 / Tier 2 / Tier 3 lane structure). Pipeline B = academic-trade direct-to-editor queries (~10–15 acquisitions editors at Duke / Princeton / Harvard Belknap / MIT / UC / Yale / U Chicago / Cambridge / Oxford). Both are **parallel-Plan-A routes**, not Plan-A + Plan-B fallback — they optimize differently against FPD v1.0.0 success criteria: Pipeline A weights criteria 1–3 (general-audience reach, financial, awareness); Pipeline B weights criterion 4 (vocabulary adoption at scale in legal/regulatory/advocacy/academic contexts). Half of the closest comps (Pistor / Patel & Moore / Sassen / Rodrik) deliberately chose academic-trade routes; the comp evidence treats Pipeline B as parallel-Plan-A territory, not consolation. Both fire in parallel; Pipeline B fires on its own trigger (~Aug 2026) and is not gated by Pipeline A waves. **Plan B end-state:** if Pipeline A waves all exhaust with no acceptable offer, the project commits to Pipeline B as primary publication route with full-court referral push (Berggruen-judge + Mazzucato/Sandel/Darity blurber referrals + essay-editor introductions). Plan B preserves the framework's vocabulary-diffusion success criterion regardless of trade-route outcome.
 
 ---
 
@@ -160,7 +162,7 @@ These were named in cascade-plan v1 or decisions-log but are NOT in active pipel
 - Ch 2 + Ch 3 + Ch 4 Pass 3.4 + 3.5 closure targets.
 - Comp-titles deep matrix Phase 2 verification (~early-to-mid July).
 - Berggruen polish; **submit by Aug 5** (12-day buffer).
-- **Wave 1 agent queries (8 of 25)** fire **late July or early August** when green-light rule met (proposal complete + ≥1 essay at editor-review + ≥1 interview recorded).
+- **Pipeline A Wave 1 (~12–15 queries; pre-warmed cold; Tier 1 priority lanes)** fires **late July or early August** when green-light rule met (proposal complete + ≥1 essay at editor-review + ≥1 interview recorded). **Pipeline B (~10–15 academic-trade acquisitions editors at Duke / Princeton / Harvard Belknap / MIT / UC / Yale / U Chicago / Cambridge / Oxford) fires in parallel ~Aug 2026** — author-direct; not gated by Pipeline A.
 
 ### August 2026
 - **Aug 17: Berggruen Prize hard deadline.**
@@ -172,7 +174,7 @@ These were named in cascade-plan v1 or decisions-log but are NOT in active pipel
 - Wave 2 W2.1 + W2.2 Stage 3 cycles run (5-pass per essay).
 - W2.3 Stage 2 → Stage 3.
 - If Path D-β ratified: W2.4 Stage 2 → Stage 3 fires Sept–Oct.
-- **Wave 2 agent queries (8 more)** fire incorporating Wave 1 feedback (per cascade-plan v1 timing).
+- **Pipeline A Wave 2 (~15–20 queries; remaining Tier 1 lanes)** fires **conditional on Wave 1 response signal** (typically 6–8 weeks after Wave 1; sooner if Wave 1 dud signal). Substantive-response-rate floor: if <10% substantive responses in Wave 1, revise query letter before Wave 2 fires.
 - RWER methods note (academic-policy slot) — re-evaluate if Atlantic Ideas declines or if heterodox-econ portfolio needs depth.
 
 ### October 2026
@@ -187,13 +189,16 @@ These were named in cascade-plan v1 or decisions-log but are NOT in active pipel
 
 ### January – March 2027 (Q1 2027)
 - If Path D-β ratified: **SUBMIT Wave 2 W2.4 Ch 8 → NYRB** (~Jan–Mar).
-- **Wave 3 agent queries (9 queries)** fire Q1 2027 per cascade-plan v1 E-track.
+- **Pipeline A Wave 3 (~15–20 queries; Tier 1 tail + Tier 2 entry)** fires **conditional on Wave 2 signal**. Tier 2 = positionable partisan agents who can route to non-partisan-coded imprints. Imprint-orientation veto applies at offer-acceptance time.
 - Wave 1 decisions consolidate (post-submission 4–8 month windows from May/Jun 2026).
 - Pivot decisions on rejection-routing per piece (see Cascade chains §3 + §5).
 - Wave 3 derivative candidate planning surfaces (see §7 below).
 
 ### April 2027 onward
 - By April 2027 expect representation offers or clear pivot signal per cascade-plan v1.
+- **Pipeline A Wave 4 (~15–20 queries; Tier 2 scaled up)** fires **conditional on Wave 3 signal** — typically Spring 2027. Imprint-orientation veto applies.
+- **Pipeline A Wave 5 (~10–15 queries; Tier 3 last-resort lanes)** fires **conditional on Wave 4 signal** — typically Fall 2027. Tier 3 = serious-trade-nonfiction agents with ≥1 non-partisan-narrow imprint in recent deal list; partisan-coded imprints at offer-acceptance time require explicit author sign-off against FPD v1.0.0.
+- **Plan B trigger:** if Pipeline A Wave 5 exhausts with no acceptable offer, project commits to Pipeline B as primary publication route with full-court referral push (per §1.9 + §11).
 - Post-acceptance essay-development work cycles (Aeon if accepted; venue-specific cycles for any other acceptance).
 - Wave 3 derivative candidates surface (see §7 below).
 
@@ -263,7 +268,10 @@ Per cross-thread-todos `publishing/essays/_pipeline/cross-thread-todos.md`:
 - Atlantic Ideas Stage 3 cycle compresses to ~2–3 wk; Pass 3.2 → 3.5 closure mid-June.
 - Wave 2 Ch 2/3/4 Pass 3.4 closures by end-July 2026.
 - Wave 2 Stage 1 briefs fire ~Jun 22 – Jul 19, 2026.
-- Wave 1 agent queries fire late Jul / early Aug; first response acknowledgments within ~2 wk; first decision signals within ~4–6 wk.
+- Pipeline A Wave 1 agent queries fire late Jul / early Aug; first response acknowledgments within ~2 wk; first decision signals within ~4–6 wk.
+- **Substantive-response rate per agent query wave (Amendment 1 ratified 2026-05-31):** track distinctly from offer rate. Substantive = response includes reasoning beyond boilerplate "not a fit for me." **Threshold: <10% substantive responses in a wave → revise query letter before next wave fires.**
+- **Pipeline B inbound signal:** acquisitions editors at academic-trade presses reaching out post-essay-placement counts as high-EV inbound (50%+ conversion); track distinctly from cold-query metrics. Author preparation: one-page response packet ready.
+- **Referral pipeline activity:** Mazzucato/Chalfant acknowledgments check resolution (cross-thread #1); Sandel/Darity/Boyce referral pursuit; Berggruen-judge referrals if shortlisted; essay-editor introductions on essay acquisition. Referrals convert at 15–30% vs 5–10% pre-warmed cold; pursue actively.
 
 **3-month checkpoint (Aug 2026):**
 - 4–5 Wave 1 essays at editor-review or decided.
@@ -311,7 +319,56 @@ Strongest leading pair: **Mazzucato + Pistor** (recent, sold, prestigious, non-p
 
 Final-5 selection rule (per cascade-plan v1 update 2026-05-08): Mazzucato + Pistor + Christophers + Susskind + at most one Tier 3 round-out.
 
-**Agent profile:** trade nonfiction with academic credibility — Penguin Press, FSG, Knopf, PublicAffairs, Norton, Princeton Trade, Riverhead, Metropolitan/Holt imprint lanes. First Priority A target: **The Wylie Agency / Sarah Chalfant** (acknowledgments-page confirmation queued; partial verification 2026-05-10 — Mazzucato *Value of Everything* Acknowledgments shows no agent named; *Mission Economy* check pending). Mix target: ~60% econ/policy big-idea, ~25% narrative-nonfiction-with-systems-thinking, ~15% wildcards (memoir-hybrid).
+**Agent + publisher pipeline structure (per Amendment 1 ratified 2026-05-31).** Trade nonfiction with academic credibility. **Two parallel pipelines:**
+
+**Pipeline A — Full-trade agent queries (5 waves, ~65–80 total).**
+
+Tier assignment heuristics:
+- **Tier 1** — agent has repped ≥2 non-partisan econ-policy big-idea trade nonfiction in last 5 years AND roster shows imprints across both liberal + conservative editorial houses (Penguin Press + FSG + Knopf + Norton lanes, not just Verso + Haymarket).
+- **Tier 2** — agent has repped ≥1 econ-policy big-idea trade nonfiction (any political coding) AND can plausibly route to ≥1 non-partisan-coded imprint.
+- **Tier 3** — agent has repped serious trade nonfiction AND ≥1 non-partisan-narrow imprint in recent deal list.
+
+**Imprint-orientation veto:** Tier 2/3 agents are acceptable at query time; partisan-coded imprints at offer-acceptance time (Verso left-coded; Encounter right-coded; etc.) require explicit author sign-off against FPD v1.0.0. The discipline operates at offer-acceptance, not query-send.
+
+| Wave | Expected window | Lane scope | Query count | Cumulative |
+|---|---|---|---|---|
+| 1 | ~Aug 2026 (green-light trigger) | Tier 1 priority lanes (Wylie/Chalfant tier; reflexive-fit) | ~12–15 | 12–15 |
+| 2 | Conditional on Wave 1 signal (~Sep/Oct 2026) | Remaining Tier 1 lanes | ~15–20 | 27–35 |
+| 3 | Conditional on Wave 2 signal (~Q1 2027) | Tier 1 tail + Tier 2 entry | ~15–20 | 42–55 |
+| 4 | Conditional on Wave 3 signal (~Spring 2027) | Tier 2 scaled up | ~15–20 | 57–75 |
+| 5 | Conditional on Wave 4 signal (~Fall 2027) | Tier 3 last-resort | ~10–15 | 67–90 |
+
+**Total cumulative ceiling:** ~65–80 queries across 5 waves. **Expected-offer math** at 5–10% pre-warmed-cold conversion (Wave 1 essays at editor-review pre-warm subsequent queries): ~3.25–8 expected offers across the full cascade.
+
+Imprint lanes (representative; expand during per-wave lane research): Penguin Press · FSG · Knopf · Norton · PublicAffairs · Princeton Trade · Riverhead · Metropolitan/Holt · Belknap (Harvard) · Allen Lane (Penguin UK) · Harper Business · Princeton trade list · Yale trade list · plus academic-trade-prestige straddle imprints.
+
+**First Priority A target (Pipeline A Wave 1):** The Wylie Agency / Sarah Chalfant (acknowledgments-page confirmation queued; partial verification 2026-05-10 — Mazzucato *Value of Everything* Acknowledgments shows no agent named; *Mission Economy* check pending).
+
+**Pipeline B — Academic-trade direct-to-editor queries (parallel; author-direct; ~10–15 acquisitions editors).**
+
+Fires on its own trigger (~Aug 2026; not gated by Pipeline A). Target presses:
+- **Duke University Press** — register-perfect fit per Robinson / Hall / Sassen / Wendy Brown / Fred Moten lineage; institutional-injustice-via-economic-mechanism is Duke's editorial brain.
+- **Princeton University Press** (trade + academic lists) — Pistor (*Code of Capital*) + Rodrik (*Straight Talk on Trade*) lineage.
+- **Harvard Belknap** — Sassen (*Expulsions*) + Piketty (*Capital in the Twenty-First Century*) lineage.
+- **MIT Press** (trade list) — Bostrom (*Superintelligence*) + serious econ-policy trade-list books.
+- **University of California Press** — Patel & Moore (*A History of the World in Seven Cheap Things*) lineage.
+- **Yale University Press** — serious econ-policy trade-list books.
+- **University of Chicago Press** — economics + social-theory rigor.
+- **Cambridge University Press · Oxford University Press** — international academic prestige; serious-trade-list editors.
+
+Author-direct queries; optional agent representation post-Pipeline-A-offer if author wants to convert a Pipeline-A relationship into academic-trade representation.
+
+**Pipeline B specifically optimizes against FPD v1.0.0 success criterion 4** (vocabulary adoption at scale in legal, regulatory, advocacy, and academic contexts). Half of the closest comps (Pistor / Patel & Moore / Sassen / Rodrik) deliberately chose academic-trade routes; Pipeline B treats this as parallel-Plan-A territory, not fallback. The financial-advance + general-retail metrics that conventionally favor full trade are not the load-bearing criteria for a framework book.
+
+**First Priority B target (Pipeline B):** Duke University Press (acquisitions editor identification pending; register-perfect fit per editorial brain lineage).
+
+**Referral pipeline (cross-cutting both A + B).** Mazzucato/Chalfant acknowledgments check (cross-thread #1); possible Sandel / Darity / Boyce / Cowen referrals; Berggruen-judge referrals if shortlisted; **essay-editor referrals** (Wave 1 essay editors who acquire can introduce to their stable's agents OR to academic-trade acquisitions editors). Referrals convert at 15–30% vs 5–10% pre-warmed cold — pursue actively as a distinct pipeline.
+
+**Inbound pipeline (cross-cutting both A + B).** Agent or acquisitions editor reaches out post-essay-placement. Passive but high-EV (50%+ conversion). Author preparation: one-page response packet ready.
+
+**Mix target:** ~60% econ/policy big-idea, ~25% narrative-nonfiction-with-systems-thinking, ~15% wildcards (memoir-hybrid). Mix target applies across the combined A + B + referral + inbound pipeline, not per-pipeline.
+
+**Plan B end-state.** If Pipeline A Wave 5 exhausts with no acceptable offer, the project commits to **Pipeline B as primary publication route** with full-court referral push (Berggruen-judge + Mazzucato/Sandel/Darity blurber referrals + essay-editor introductions). Plan B-α = academic-trade press with primary editorial relationship. This preserves the framework's vocabulary-diffusion success criterion regardless of trade-route outcome. Plan B is not a deferred-quality outcome — for a framework book where success criterion 4 is the anchor, Pipeline B may actually deliver higher EV against the criteria the project ultimately cares about most.
 
 ---
 
@@ -387,6 +444,8 @@ Final-5 selection rule (per cascade-plan v1 update 2026-05-08): Mazzucato + Pist
 - **Files marked for supersession:** `cascade-plan_2026-05-06.md` (header amended in companion commit).
 - **Files marked stale-but-not-superseded:** `pm-mobile-todo-dashboard_2026-05-15.md` (refresh after this cascade plan v2 ratifies).
 - **Files referenced but not located (flag forward):** `tools/memory/feedback_parallel_session_ratification_cadence.md` (referenced as canonical for parallel-session-hop cadence; not present in repo as of 2026-05-24).
+
+- **2026-05-31 — Amendment 1 RATIFIED + APPLIED.** Agent target list expansion + tiered structure + parallel pipelines. Per author disposition with all 5 improvements folded in: (i) conditional wave timing (Wave N triggers on Wave N-1 response signal, not calendar); (ii) pre-warmed-cold conversion math reweighting (Wave 1 essays at editor-review yield 5–10% conversion, not 2–5% slush rate) — total ceiling 65–80 not 90+; (iii) referral + inbound pipelines as cross-cutting structures distinct from cold-query waves; (iv) substantive-response rate as leading indicator (<10% threshold triggers query-letter revision); (v) named Plan B end-state (Pipeline B as primary publication route if Pipeline A exhausts). Pipeline A = 5-wave 65–80-query full-trade agent cascade with Tier 1/2/3 + imprint-orientation veto at offer-acceptance. Pipeline B = parallel academic-trade direct-to-editor pipeline (Duke / Princeton / Harvard Belknap / MIT / UC / Yale / U Chicago / Cambridge / Oxford); author-direct; not gated by Pipeline A. **Reframe:** Pipeline B is parallel-Plan-A territory (optimizes FPD v1.0.0 criterion 4 — vocabulary diffusion), not consolation. Half of closest comps (Pistor / Patel & Moore / Sassen / Rodrik) deliberately chose academic-trade routes. Sections updated: §1 (added point 9 two-pipeline frame); §1.6 (pre-warmed-cold framing + Pipeline B green-light parity); §6 (calendar entries reframed to trigger-conditional; added Pipeline A Wave 4 + Wave 5 + Plan B trigger); §10 (added substantive-response rate + Pipeline B inbound signal + referral activity tracking); §11 (full agent-profile expansion with Tier heuristics + Pipeline A wave table + Pipeline B press list). Empirical anchors: Ch 3 → Atlantic + Ch 2 → Harper's ratifications surfaced the original 4 amendments; Amendment 1 walked via interactive ratification 2026-05-31 with 5 improvements folded in; Duke-as-register-perfect-fit reframing surfaced by author challenge "wouldn't Duke be huge?" during ratification.
 
 ---
 
