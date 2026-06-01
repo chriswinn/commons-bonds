@@ -11,6 +11,7 @@ Command-line utilities and any binary assets they depend on. Run from the repo r
 | `session-start-worktree-isolation.sh` | SessionStart hook (ordered before the others). Emits the red 🔴 banner instructing the session to spawn a worktree before any other tool call, if cwd is the main repo. Per [`../memory/feedback_worktree_isolation_for_parallel_sessions.md`](../memory/feedback_worktree_isolation_for_parallel_sessions.md). |
 | `session-start-orphan-lock-recovery.sh` | SessionStart hook (ordered after worktree-isolation). Scans `.claude/worktrees/agent-*/locked` markers; if pid is dead + last commit ≥1h ago + ahead=0 + dirty=0 + not on §5.1 skip-list → `git worktree unlock` + `git worktree remove --force` + best-effort `git branch -D`. Dry-run by default; set `COMMONS_BONDS_HOOK_DESTRUCTIVE=1` to enable. Resolves the orphan-lock-from-killed-agent failure mode that drove the 2026-05-28 + 2026-05-30 cleanup sweeps. |
 | `session-end-worktree-cleanup.sh` | SessionEnd hook. **G1 session-end branch-delete default** — if cwd is a top-level isolated worktree on a `claude/<slug>-<harness>` branch AND ahead=0 vs origin/main AND dirty=0 AND HEAD body has no `MERGE-HOLD:`/`MERGE-AFTER:` marker AND branch is not on the §5.1 contaminated skip-list → `cd /Users/c17n/commons-bonds && git worktree remove + git branch -D`. Dry-run by default; set `COMMONS_BONDS_HOOK_DESTRUCTIVE=1` to enable. Honors merge-on-ratification escape hatches per CLAUDE.md. |
+| `check-workstream-slug.sh` | **G4 slug-collision pre-check.** Invoked from the canonical worktree-isolation paste-text BEFORE `git worktree add -b`. Read-only. Enumerates local + remote `claude/<slug>-<harness>` branches matching the requested slug; for each match reports branch, worktree path (if active), last-commit age, ahead/dirty state, and a STALE/ACTIVE/CONTAMINATED classification. Exit 0 (clear) / 1 (collision) / 2 (input error). Escape hatch: `FORCE_SLUG_COLLISION=1` in calling shell for intentional intra-slug sub-sessions. See §check-workstream-slug below. |
 | `build-derivatives.sh` | Generate standardized `.docx` + `.pdf` derivatives from `.md` and `.html` sources. Laptop-native default (commercial Garamond + Chrome-preferred). Not the canonical Docker pipeline. |
 | `build-derivatives-alt.sh` | Canonical script inside Docker + the remote-container. Defaults to `MAIN_FONT="EB Garamond"`; auto-includes `fallback-header.tex` on `.md` → PDF builds. |
 | `check-corpus-invariants.sh` | Invariant-gate corpus-hygiene scan (scaffolding + regressed-pattern registries). Per pipeline doctrine §2 in [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md). See `--help` for usage. |
@@ -19,6 +20,26 @@ Command-line utilities and any binary assets they depend on. Run from the repo r
 | `reference.docx` | Canonical .docx style template (Garamond 12pt, US Letter, 1" margins, soft-gray h2/h3 accent). pandoc reads its styles section automatically. Originally a copy of the Ch 6 packet-send `.docx`. |
 | `fallback-header.tex` | xelatex header snippet (fontspec + `\newunicodechar`) mapping codepoints that EB Garamond doesn't cover (U+2014 em-dash in bolded weight, U+2248 `≈`) to DejaVu Serif. Used by `build-derivatives-alt.sh`; can be passed manually to `build-derivatives.sh` via pandoc's `--include-in-header`. |
 | `render-verify-fixtures/` | Small known-good fixture + expected outputs for CI render-verification (`.github/workflows/render-verify.yml`). |
+
+---
+
+## Session-lifecycle hook cluster
+
+Four scripts work together to keep parallel-session worktree state clean. None of them replaces the others; they target distinct failure modes.
+
+**SessionStart cluster** (run in order, ahead of the model's first tool call):
+
+- **`session-start-worktree-isolation.sh`** — emits the red 🔴 banner at session start *if* cwd is the main repo (`/Users/c17n/commons-bonds`). Tells the model to create an isolated worktree before any other work. The user-facing first defense against parallel-session contamination of `.git/HEAD`. Per [`../memory/feedback_worktree_isolation_for_parallel_sessions.md`](../memory/feedback_worktree_isolation_for_parallel_sessions.md).
+- **`session-start-orphan-lock-recovery.sh`** — auto-recovers `.claude/worktrees/agent-*` orphan locks left behind by killed sub-agents. PID-aliveness + age + ahead/dirty + skip-list gates. Dry-run by default; `COMMONS_BONDS_HOOK_DESTRUCTIVE=1` to actually unlock + remove.
+- **`check-workstream-slug.sh`** (G4) — pre-check guard invoked from the [`worktree-isolation paste-text`](../drafting-templates/worktree-isolation-paste-text.md) BEFORE `git worktree add -b`. Catches duplicate-slug spawns across parallel sessions. Read-only (no destructive mode). `FORCE_SLUG_COLLISION=1` escape hatch for intentional intra-slug sub-sessions. See §check-workstream-slug below.
+
+**SessionEnd cluster** (runs at session close, after the model's last tool call):
+
+- **`session-end-worktree-cleanup.sh`** (G1) — auto-cleanup of completed top-level isolated worktrees. Same safety gates as the orphan-lock hook (ahead=0; dirty=0; not on §5.1 skip-list) plus honors `MERGE-HOLD:` / `MERGE-AFTER:` commit-body markers per CLAUDE.md merge-on-ratification policy. Dry-run by default; `COMMONS_BONDS_HOOK_DESTRUCTIVE=1` to actually remove.
+
+Empirical anchor: ~50-60 active worktrees per sprint day under sustained 20-35 parallel sessions (per the 2026-05-28 + 2026-05-30 cleanup sweeps; see [`../workstream-handoffs/git-cleanup-sweep_2026-05-28.md`](../workstream-handoffs/git-cleanup-sweep_2026-05-28.md) + [`../workstream-handoffs/git-cleanup-sweep-round-2_2026-05-30.md`](../workstream-handoffs/git-cleanup-sweep-round-2_2026-05-30.md)). The cluster eliminates the orphan-top-level-worktree accumulation pattern (G1) + the orphan-lock-from-killed-agent pattern (orphan-lock-recovery) + the duplicate-slug-spawn pattern (G4) — three of the most common failure modes from the cleanup-sweep audits.
+
+The `§5.1 contaminated-branch` skip-list is shared across all four scripts (kept in sync manually; canonical at git-cleanup-sweep_2026-05-28.md §5.1). All scripts refuse to act on contaminated branches without explicit per-branch detective triage.
 
 ---
 
@@ -68,6 +89,52 @@ tools/scripts/install-pre-commit-hook.sh
 ```
 
 The hook runs HIGH-severity invariant scans against staged files and refuses commit on HIGH match. To temporarily bypass for legitimate exceptions, use `git commit --no-verify` — but per CLAUDE.md, do NOT bypass hooks without explicit author direction.
+
+---
+
+## `check-workstream-slug.sh`
+
+G4 slug-collision pre-check. Invoked from the canonical [worktree-isolation paste-text](../drafting-templates/worktree-isolation-paste-text.md) BEFORE `git worktree add -b` to catch the parallel-session failure mode where two independent sessions pick the same workstream slug.
+
+### Usage
+
+```bash
+tools/scripts/check-workstream-slug.sh <workstream-slug>
+```
+
+Exit codes:
+
+| Exit | Meaning |
+|---|---|
+| 0 | Slug clear — safe to `git worktree add -b`. |
+| 1 | Slug collision — review WARN output before proceeding. |
+| 2 | Input-validation or environment error. |
+
+### Slug rules
+
+Lowercase letters + digits + hyphens only; 3–50 chars; no leading/trailing hyphen; no underscores; no spaces.
+
+### Classification
+
+For each match, the script reports a class:
+
+| Class | Meaning |
+|---|---|
+| **STALE** | ahead=0 vs origin/main + clean (or no active worktree) + last commit ≥24h ago. Safe to clean up via `git worktree remove + git branch -D` before spawning. |
+| **ACTIVE** | Any of: ahead>0, dirty, or recent commit (<24h). Another session is plausibly working this slug — refine yours or attach to the existing worktree. |
+| **CONTAMINATED (§5.1 skip-list)** | Branch is on the canonical contaminated-branch list (per [git-cleanup-sweep_2026-05-28.md §5.1](../workstream-handoffs/git-cleanup-sweep_2026-05-28.md)). Cleanup-suggestion block is suppressed — these require detective triage, NOT automated cleanup. |
+
+### Escape hatch
+
+For the rare intentional intra-slug sub-session case (e.g., a coordinated multi-session workstream that genuinely wants to share a slug), set `FORCE_SLUG_COLLISION=1` in the calling shell before running the paste-text block. The pre-check still runs and reports; the calling block proceeds despite the warning.
+
+### Why read-only
+
+Unlike the orphan-lock-recovery + SessionEnd-cleanup hooks (which have a `COMMONS_BONDS_HOOK_DESTRUCTIVE=1` destructive mode), `check-workstream-slug.sh` is *always* read-only. The script reports; the model + author decide what to do. No destructive mode exists.
+
+### Empirical anchor
+
+~50-60 active worktrees per sprint day under sustained 20-35 parallel sessions. Even with random harness IDs (16M possible per day), slug collisions happen at this volume — and *near-collisions* (e.g., `aeon-pitch-review` vs `aeon-pitch-final-review`) hide work fragmentation that the SessionStart isolation hook + the orphan-lock-recovery hook cannot catch. Resolves PM-handoff G4 (MED) per [`../workstream-handoffs/pm-session-handoff_2026-05-28.md`](../workstream-handoffs/pm-session-handoff_2026-05-28.md).
 
 ---
 
