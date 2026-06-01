@@ -194,13 +194,59 @@ These were named in cascade-plan v1 or decisions-log but are NOT in active pipel
 - Pivot decisions on rejection-routing per piece (see Cascade chains §3 + §5).
 - Wave 3 derivative candidate planning surfaces (see §7 below).
 
-### April 2027 onward
+### April – December 2027 (NEW per Amendment 4 ratified 2026-05-31; extends prior "April 2027 onward")
 - By April 2027 expect representation offers or clear pivot signal per cascade-plan v1.
-- **Pipeline A Query Wave 4 (~15–20 queries; Tier 2 scaled up)** fires **conditional on Wave 3 signal** — typically Spring 2027. Imprint-orientation veto applies.
-- **Pipeline A Query Wave 5 (~10–15 queries; Tier 3 last-resort lanes)** fires **conditional on Wave 4 signal** — typically Fall 2027. Tier 3 = serious-trade-nonfiction agents with ≥1 non-partisan-narrow imprint in recent deal list; partisan-coded imprints at offer-acceptance time require explicit author sign-off against FPD v1.0.0.
+- **Pipeline A Query Wave 4 (~15–20 queries; Tier 2 scaled up)** fires **conditional on Query Wave 3 signal** — typically Spring 2027. Imprint-orientation veto applies.
+- **Pipeline A Query Wave 5 (~10–15 queries; Tier 3 last-resort lanes)** fires **conditional on Query Wave 4 signal** — typically Fall 2027. Tier 3 = serious-trade-nonfiction agents with ≥1 non-partisan-narrow imprint in recent deal list; partisan-coded imprints at offer-acceptance time require explicit author sign-off against FPD v1.0.0.
 - **Plan B trigger:** if Pipeline A Query Wave 5 exhausts with no acceptable offer, project commits to Pipeline B as primary publication route with full-court referral push (per §1.9 + §11).
+- **Pipeline B parallel pursuit:** decisions on Aug 2026 outreach may begin landing Q1–Q2 2027 (academic-trade editor cycles run ~6–12 months from query; faster than Pipeline A agent + editor stack).
+- **Wave 2 essay decisions land:** Ch 3 → Atlantic / Ch 2 → Harper's / Ch 4 → Foreign Affairs response windows close Q1–Q3 2027. "Under consideration at" stack converts to "placed at" stack for Pipeline A Query Wave 3 + 4 + 5 platform paragraphs (per Amendment 3b).
+- **Wave 3 derivative essays surface** per §7 outlook; candidates evaluated against accumulated Pipeline A + Pipeline B signal patterns.
 - Post-acceptance essay-development work cycles (Aeon if accepted; venue-specific cycles for any other acceptance).
-- Wave 3 derivative candidates surface (see §7 below).
+- **Conversion-focus pauses outreach** if a Pipeline A or Pipeline B relationship enters active offer-conversion mode (see §11 firing discipline).
+
+### 2028 (NEW per Amendment 4)
+- **If agent representation landed in 2027 (Pipeline A):** book proposal goes to editors Q1–Q2 2028 (agent shaping period 2–4 months); editor decisions Q2–Q4 2028; contract signature Q3 2028 – Q1 2029.
+- **If Pipeline B landed:** academic-trade editor + author → contract Q1–Q3 2028 (faster cycle than trade; typically no auction); contract → developmental edit Q2–Q4 2028.
+- **If neither lands:** project enters Plan B activation per §1.9 + §11; Pipeline B becomes named primary route; referral push intensifies (Berggruen-judge + Mazzucato/Sandel/Darity blurber referrals + essay-editor introductions).
+- Post-2027 Wave-2 / Wave-3 essay placements accumulate; platform paragraph at any in-flight query wave continues to mature.
+
+### 2029 (NEW per Amendment 4)
+- **If Pipeline A contract landed in 2028:** developmental edit Q1–Q2 2029; copy edit Q2–Q3 2029; page proofs Q3 2029; printing Q4 2029; **publication late 2029 / early 2030** is realistic median for Pipeline A contracts signed Q3 2028 – Q1 2029. Pre-pub marketing coordinated with publisher Q2–Q3 2029.
+- **If Pipeline B contract landed in 2028:** typically 18–24 months contract → publication; **publication mid-2030** realistic for Pipeline B contracts signed early-to-mid 2028.
+- Wave 4+ derivative essays + reviews + interview circuits begin lining up against publication date in coordinated pre-pub-marketing phase.
+
+---
+
+## 6.5. Publishing-cycle realism timeline (NEW per Amendment 4 ratified 2026-05-31)
+
+Trade vs academic-trade decision cycles differ meaningfully; the parallel-Pipeline structure benefits from naming this differential explicitly.
+
+| Phase | Pipeline A (full-trade) | Pipeline B (academic-trade) |
+|---|---|---|
+| Query → agent / editor offer | 4–8 months query window + 2–4 months agent shaping | 3–6 months direct-editor cycle (no agent intermediary) |
+| Offer → contract | 1–2 months (auction adds 1–2 months) | 1–2 months (typically no auction) |
+| Contract → developmental edit start | 2–4 months | 2–3 months |
+| Developmental → copy edit | 3–6 months | 4–8 months |
+| Copy edit → page proofs | 2–4 months | 3–4 months |
+| Page proofs → printing | 3–4 months | 3–4 months |
+| Pre-pub marketing | 3–6 months (coordinated with publisher) | 3–4 months (typically lower-amplitude) |
+| **Total query → publication** | **15–28 months optimistic; 18–24 months median** | **12–22 months optimistic; 15–20 months median** |
+
+**Key differentials:**
+- Pipeline B is typically **3–6 months faster** to publication than Pipeline A on a query-to-pub basis, primarily because the agent-shaping stage doesn't apply and auctions are rare.
+- Pipeline B advances are typically smaller ($5K–$30K vs $50K–$500K+) but academic-trade contracts often include earlier royalty curves (no large advance to earn out before royalty payments start).
+- Pipeline B publications carry stronger academic-citation + course-adoption + legal-policy-citation signals — exactly the FPD v1.0.0 criterion 4 (vocabulary diffusion) anchor.
+
+**Realistic Commons Bonds publication windows (assuming Pipeline A Query Wave 1 fires Aug 2026):**
+
+- **Optimistic-fastest (Pipeline A Q3 2026 agent + Q4 2026 quick-close auction):** publication early 2028
+- **Optimistic-median (Pipeline A 2027 agent + 2028 contract):** publication late 2028 / early 2029
+- **Realistic-median (Pipeline A 2027 agent + 2028 contract + normal pre-pub cycle):** publication mid-to-late 2029
+- **Realistic-median (Pipeline B 2027 academic-trade contract):** publication mid-2029
+- **Conservative (Plan B activation 2028 + Pipeline B primary route 2028 contract):** publication late 2029 / early 2030
+
+**Implication:** the cascade plan is realistically a **2.5–3.5 year sprint** from Pipeline A Query Wave 1 (Aug 2026) to publication (late 2028 - early 2030). Plan structure should not assume publication < 2 years out.
 
 ---
 
@@ -385,6 +431,7 @@ Author-direct queries; optional agent representation post-Pipeline-A-offer if au
 - **Query Wave 4 fires if:** Pipeline A Query Waves 1–3 yield zero **closed offers** (offer with mutually-agreeable representation terms). Substantive-interest signals (requests for partials/fulls; second-round meetings) without closure do NOT count as offers and still trigger Query Wave 4. If Query Wave 3 yields ≥1 closed offer, **author chooses** whether Query Wave 4 fires — e.g., to broaden options before accepting, or to forgo additional firings and negotiate with the standing offer.
 - **Query Wave 5 fires if:** Pipeline A Query Wave 4 yields zero closed offers AND Pipeline B has not yet yielded an acceptable academic-trade route. If Pipeline B has yielded an active Duke / Princeton / Harvard Belknap / MIT / UC / Yale / etc. relationship that author wants to pursue, Query Wave 5 can be skipped — Pipeline B becomes primary at that point without exhausting Pipeline A's full cascade.
 - **Plan B activates if:** Pipeline A Query Wave 5 exhausts AND Pipeline B has not yet yielded a primary editorial relationship. At this point Pipeline B becomes the named primary route with full-court referral push (Berggruen-judge + Mazzucato/Sandel/Darity blurber referrals + essay-editor introductions per §1.9 + below).
+- **Conversion-focus pauses outreach (per Amendment 4 ratified 2026-05-31 author observation):** when a Pipeline A or Pipeline B relationship enters active offer-conversion mode (substantive editorial conversation; request for revised proposal; "we'd like to make an offer pending board approval"; multi-house auction in progress), author full-focus shifts to **converting that interest into a contract**. Outreach pipeline pauses for the conversion period (typically 4–12 weeks). If conversion succeeds → contract → pipeline becomes moot for the represented book; if conversion fails → pipeline resumes from where it paused, with conversion-period delay absorbed. This is the realistic human-focus pattern; the cascade plan should not assume parallel-pursuit through active-conversion windows.
 
 **Reasoning:** without named triggers the cascade is mechanical ("fire all 5 waves regardless"), which ignores the real possibility that a Wave 3 offer or Pipeline B relationship lands earlier and makes Wave 4/5 firing wasteful (lane-burn — querying additional agents while a closed offer is in hand) or actively harmful (signals shopworn to subsequent agents). Named triggers preserve cascade-as-fallback while letting earlier success short-circuit later waves.
 
@@ -465,6 +512,7 @@ Author-direct queries; optional agent representation post-Pipeline-A-offer if au
 - **Files marked stale-but-not-superseded:** `pm-mobile-todo-dashboard_2026-05-15.md` (refresh after this cascade plan v2 ratifies).
 - **Files referenced but not located (flag forward):** `tools/memory/feedback_parallel_session_ratification_cadence.md` (referenced as canonical for parallel-session-hop cadence; not present in repo as of 2026-05-24).
 
+- **2026-05-31 — Amendment 4 RATIFIED + APPLIED (Option A + C combined).** §6 calendar extended through 2027 + 2028 + 2029 with realistic trade-publishing-cycle math. New §6.5 "Publishing-cycle realism timeline" subsection codifies trade vs academic-trade decision-cycle differential (Pipeline B 3–6 months faster to publication on average; smaller advances but stronger academic-citation + course-adoption signals — exactly the FPD v1.0.0 criterion 4 vocabulary-diffusion anchor). Realistic Commons Bonds publication window: **late 2028 - early 2030** (2.5–3.5 year sprint from Pipeline A Query Wave 1 Aug 2026). Plan structure should not assume publication < 2 years out. Also folded in author observation (real-pattern-not-mechanical): **conversion-focus pauses outreach** — when a Pipeline A/B relationship enters offer-conversion mode (substantive editorial conversation; offer pending board approval; auction in progress), full author focus shifts to closing that deal; outreach pipeline pauses 4–12 weeks for conversion period; resumes if conversion fails, moot if it succeeds. Added as fourth bullet to §11 Wave + Plan B firing discipline. Sections updated: §6 (added May–Dec 2027 + 2028 + 2029 calendar sections; also renamed "April 2027 onward" → "April – December 2027"); new §6.5; §11 (added conversion-focus-pause bullet); §13. Also caught two residual "Wave 3 signal" / "Wave 4 signal" references in §6 (Amendment 3a missed) and renamed to "Query Wave 3 signal" / "Query Wave 4 signal" for consistency.
 - **2026-05-31 — Amendment 3 RATIFIED + APPLIED (3a + 3b together).** **3a (terminology disambiguation):** Pipeline A's wave structure renamed to "Pipeline A Query Wave 1–5" throughout §1.6 + §6 + §10 + §11 to keep clean separation from the existing "Wave 1 essays / Wave 2 essays / Wave 3 essays" derivative-batch terminology (which predates Amendment 1 and remains in cascade-plan-v1 + decisions-log + cross-thread-todos). The collision was scaffolding-only (end readers / agents / editors never see this artifact) but caused real internal-comprehension friction during the Amendment 3 ratification itself. **3b (platform-paragraph stack):** §11 new sub-section codifies what each Pipeline A Query Wave's query letter can cite at firing time — Wave 1 essay placements + Wave 2 essays drafted-not-submitted in Query Wave 1; Wave 2 essays submitted ("under consideration at Atlantic / Harper's / Foreign Affairs") becomes citable starting Query Wave 3. Reconciles the quiet contradiction in §7 strategic-frame-point-7 ("Wave 2 derivatives pre-position before Wave 1" — true at draft level, not submission level). Empirical anchors: Ch 3 → Atlantic ratification 2026-05-24 (rigor-pass §12 line 456); Ch 2 → Harper's ratification 2026-05-25 (rigor-pass §12 line 487). Sections updated: §1.6 + §6 + §10 + §11 (all "Pipeline A Wave N" references renamed); §11 wave-table column header renamed; §11 trigger-discipline references updated; §11 new "Wave-by-wave platform-paragraph stack" sub-section added between First Priority A target paragraph + Pipeline B section.
 - **2026-05-31 — Amendment 2 RATIFIED + APPLIED.** Wave 4 + Wave 5 + Plan B firing-discipline codified. Original Amendment 2 substance ("add Wave 4 fallback (Spring 2027)") mechanically satisfied by Amendment 1's expansion to 5 waves; Amendment 2 ratified in re-scoped form (Option B) to add **named trigger discipline** for Wave 4 / Wave 5 / Plan B activation. Wave 4 fires only on zero-closed-offers from Waves 1–3 (substantive-interest-without-closure still triggers Wave 4); Wave 5 fires conditional on Wave 4 dud AND Pipeline B not yet primary-relationship; Plan B activates only on Wave 5 exhaustion AND no Pipeline B primary relationship. Discipline preserves cascade-as-fallback property while letting earlier success short-circuit later waves (avoids lane-burn + shopworn signal to subsequent agents). Section updated: §11 (added "Wave + Plan B firing discipline" subsection before Plan B end-state paragraph).
 - **2026-05-31 — Amendment 1 RATIFIED + APPLIED.** Agent target list expansion + tiered structure + parallel pipelines. Per author disposition with all 5 improvements folded in: (i) conditional wave timing (Wave N triggers on Wave N-1 response signal, not calendar); (ii) pre-warmed-cold conversion math reweighting (Wave 1 essays at editor-review yield 5–10% conversion, not 2–5% slush rate) — total ceiling 65–80 not 90+; (iii) referral + inbound pipelines as cross-cutting structures distinct from cold-query waves; (iv) substantive-response rate as leading indicator (<10% threshold triggers query-letter revision); (v) named Plan B end-state (Pipeline B as primary publication route if Pipeline A exhausts). Pipeline A = 5-wave 65–80-query full-trade agent cascade with Tier 1/2/3 + imprint-orientation veto at offer-acceptance. Pipeline B = parallel academic-trade direct-to-editor pipeline (Duke / Princeton / Harvard Belknap / MIT / UC / Yale / U Chicago / Cambridge / Oxford); author-direct; not gated by Pipeline A. **Reframe:** Pipeline B is parallel-Plan-A territory (optimizes FPD v1.0.0 criterion 4 — vocabulary diffusion), not consolation. Half of closest comps (Pistor / Patel & Moore / Sassen / Rodrik) deliberately chose academic-trade routes. Sections updated: §1 (added point 9 two-pipeline frame); §1.6 (pre-warmed-cold framing + Pipeline B green-light parity); §6 (calendar entries reframed to trigger-conditional; added Pipeline A Query Wave 4 + Wave 5 + Plan B trigger); §10 (added substantive-response rate + Pipeline B inbound signal + referral activity tracking); §11 (full agent-profile expansion with Tier heuristics + Pipeline A wave table + Pipeline B press list). Empirical anchors: Ch 3 → Atlantic + Ch 2 → Harper's ratifications surfaced the original 4 amendments; Amendment 1 walked via interactive ratification 2026-05-31 with 5 improvements folded in; Duke-as-register-perfect-fit reframing surfaced by author challenge "wouldn't Duke be huge?" during ratification.
