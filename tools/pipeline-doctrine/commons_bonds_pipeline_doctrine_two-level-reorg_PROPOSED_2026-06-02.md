@@ -159,29 +159,58 @@ author's discuss-then-draft discipline. The sequence:
   an explicit verdict on whether there is enough material to brief this piece
   (sibling-session addition, 2026-06-02). Three verdicts:
   - `READY-TO-ALLOCATE` — abundance pool is rich enough; proceed to Allocate.
-  - `NOT-READY-NEEDS-X` (X enumerated) — gaps remain; specify what closes them
-    (field research, interview, public-domain harvest, author memory dump,
-    etc.). Do not proceed to Allocate until X closes.
+  - `NOT-READY-NEEDS-X` (X enumerated) — gaps remain; specify what closes them.
+    **X requires a two-branch diagnosis before this verdict stands:**
+    - **(a) Mis-diagnosed gap.** What looks like a material shortage is
+      actually unrecognized abundance — fair-use public works, on-record
+      interviews, adjacent scholarship already exist and were simply not yet
+      recognized. Resolution: recognition, not acquisition. The true verdict
+      is `READY-TO-ALLOCATE`.
+    - **(b) Genuine gap.** There really are zero (or too few) citable published
+      works/interviews; the material can only be acquired by real-world work —
+      fieldwork, original interviews, site visits, travel. The gap is real and
+      cannot be recognized away. Closing it triggers a **cost-justification
+      decision** (see below) before any commitment.
+    Do not proceed to Allocate until X closes (branch b) or is recognized as
+    already-met (branch a).
   - `RECONSIDER` — the piece may be the wrong piece: different shape, different
     venue, deferred, or dropped from the queue. **This verdict IS the X.5
     substrate-question ("is this the right essay?") relocated to the
     front-end** (see §3 X.5) — the same judgment, now with a concrete verdict
-    and a home rather than bolted onto the late cascade.
+    and a home rather than bolted onto the late cascade. **It is also where a
+    genuine-gap (branch b) piece lands when the fieldwork is not worth it
+    right now** (see cost-justification below).
 
-  *Empirical anchor (corrected 2026-06-02):* the McDowell County / Chesapeake
-  Bay moment — the book *appeared* blocked in `NOT-READY-NEEDS-X` where X was
-  mistaken for "funding to travel to extraction sites and get usable quotes."
-  Stepping back revealed the real situation: an overabundance of public works +
-  on-record interviews was already citable under fair use. The actual gap was
-  **research/recognition, not fieldwork or funding** — and once recognized, the
-  verdict was already `READY-TO-ALLOCATE`. This is the gate's *highest-value*
-  function: `NOT-READY-NEEDS-X` must force the question "is X genuinely
-  missing, or do we simply not yet recognize the abundance that already
-  exists?" A mis-diagnosed gap (perceived scarcity that is actually
-  unrecognized fair-use surplus) is the failure mode the gate exists to catch.
-  The current pipeline handles readiness implicitly (the brief just doesn't get
-  written until someone feels ready); the explicit gate makes the state — and
-  the diagnosis of X — visible + auditable.
+  **Cost-justification decision (branch b).** When the gap is genuine and only
+  real-world acquisition closes it, the gate forces an explicit
+  portfolio-level decision: *is this piece worth the fieldwork cost + time,
+  given everything else in the queue?* The binding cost here is **real-world —
+  author time, travel money, clock time — NOT tokens** (consistent with the
+  ratified token-cost-not-a-constraint memory; the constraints that bind are
+  attention + clock + real expense). Two outcomes:
+  - **Worth it → commit the fieldwork investment.** The verdict stays
+    `NOT-READY-NEEDS-X` with a *justified* acquisition plan; the piece waits
+    for the material.
+  - **Not worth it now → `RECONSIDER` / postpone.** Defer the piece in favor of
+    higher-priority work whose material is already in hand (or cheaper to
+    acquire). This is a portfolio-prioritization call, not a verdict that the
+    piece is bad — it may re-enter the queue when priorities or resources shift.
+
+  *Empirical anchors (corrected 2026-06-02).* Branch (a): the McDowell County /
+  Chesapeake Bay moment — the book *appeared* blocked in `NOT-READY-NEEDS-X`
+  where X was mistaken for "funding to travel to extraction sites and get
+  usable quotes." Stepping back revealed an overabundance of public works +
+  on-record interviews already citable under fair use; the actual gap was
+  **research/recognition, not fieldwork or funding**, and the true verdict was
+  already `READY-TO-ALLOCATE`. The gate's highest-value function is forcing the
+  question "is X genuinely missing, or do we simply not yet recognize the
+  abundance that already exists?" Branch (b): a piece for which no published or
+  on-record material exists — the gate must NOT hand-wave the gap away; it must
+  run the cost-justification and either commit the fieldwork or postpone the
+  piece. The current pipeline handles readiness implicitly (the brief just
+  doesn't get written until someone feels ready); the explicit gate makes the
+  state, the branch-(a)-vs-(b) diagnosis of X, and the cost-justification all
+  visible + auditable.
 
   *Location (refinement):* defaults to a **preface section of the
   drafting-plan artifact** (§4, under "Allocation & scope"). Promote to a
@@ -488,7 +517,7 @@ we go" (2026-06-02). The rest remain open:
 | 7 | **Two-state citation model** (tentative w/ provenance → confirmed on landing) + fabrication gate built into the gather phase | Harvest is where fabrication enters; catching it at harvest is far cheaper than at Pass 3.1; provenance-at-tentative enforces the hard no-invented-claims rule |
 | 8 | **Length calibration discipline** — running actual-vs-minimum tally used descriptively, never as a target | Cutting fat beats adding substance; but lowering minimums to match observed overage would re-smuggle length-targeting; tally guides *our* floor choice, not the drafter's optimization |
 | 9 | **Two differentiation axes** (§2.1) — internal-corpus (matrix) + external-field (`differential-positioning.md`, fed by Gather harvest) | A piece can be internally-unique-vs-siblings yet externally-redundant-with-the-field ("restates Christophers in his own voice"); both axes must clear the bar; external axis reuses the already-harvested, fabrication-gated adjacent works |
-| 10 | **Material-readiness gate** (§2.2) — `READY-TO-ALLOCATE` / `NOT-READY-NEEDS-X` / `RECONSIDER` between Gather and Allocate; `RECONSIDER` = X.5 substrate-question | Makes the implicit "do we have enough to brief this?" decision visible + auditable; the gate's highest-value function is catching a *mis-diagnosed* gap — McDowell/Chesapeake *appeared* `NOT-READY-NEEDS-travel-for-quotes` but was actually `READY` once the fair-use abundance of public works + on-record interviews was recognized (gap = research/recognition, not fieldwork); defaults to a drafting-plan preface |
+| 10 | **Material-readiness gate** (§2.2) — `READY-TO-ALLOCATE` / `NOT-READY-NEEDS-X` / `RECONSIDER` between Gather and Allocate; `NOT-READY-NEEDS-X` carries a two-branch diagnosis + cost-justification; `RECONSIDER` = X.5 substrate-question | Makes readiness visible + auditable. `NOT-READY-NEEDS-X` must diagnose: **(a) mis-diagnosed gap** (unrecognized fair-use abundance → really `READY`; the McDowell/Chesapeake catch) vs **(b) genuine gap** (zero citable material; only fieldwork closes it). Branch (b) forces a cost-justification — is the piece worth the fieldwork time/travel/clock (NOT tokens)? Worth it → commit + wait; not worth it → `RECONSIDER`/postpone for higher-priority work. Defaults to a drafting-plan preface |
 | 11 | **X.6 essay→book sub-cascade** (§3.1) — 6 steps, batched via `book-amendment-candidates.md`, hard (a)+(b)+(c) threshold, Cut-phase trigger, class-boundary flag at step 3 | Essay→book propagation is a workflow, not a line item; threshold + batching prevent constant firing; step 3 crosses into end-user-facing prose (merge-on-ratification), which the doctrine must flag or a session auto-merges a chapter change |
 | 12 | **Per-venue submission-norms artifact** (§6.1) at `publishing/venues/<venue>/submission-norms.md`, **partitioned by a contamination firewall** — drafter-safe block (editorial brain, format, minimum) vs editorial-only block (maximum, calibration band) | Venue norms are venue-property not essay-property (one source of truth, no per-essay duplication); BUT the artifact contains a maximum, and pointing the drafter at it would re-contaminate generation with a ceiling (§1) — so generation draws only from the drafter-safe block; Cut + Stage 5 consult the editorial-only block after generation |
 
