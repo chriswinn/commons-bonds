@@ -2,9 +2,23 @@
 
 **Slug:** `aeon-mask-of-abundance`
 **Venue:** Aeon (pitch-first model; full essay developed post-acceptance via editor collaboration)
-**State:** Pitch-ready (Version E promoted to canonical 2026-05-28 afternoon after independent three-variant head-to-head Pass 3.3 + 3.4 audit confirmed β strictly Pareto-improves V-D via two Stage 1 §2 announce-the-move subtractive trims; V-D + V-C retained as safety-net fallbacks)
-**Submission target:** Sun May 31 2026 14:01 UTC Aeon portal window
-**Last updated:** 2026-05-28
+**State:** Pitch-ready (Version E promoted to canonical 2026-05-28 afternoon after independent three-variant head-to-head Pass 3.3 + 3.4 audit confirmed β strictly Pareto-improves V-D via two Stage 1 §2 announce-the-move subtractive trims; V-D + V-C retained as safety-net fallbacks). **Pitch text unchanged; submission timing posture revised — see status banner below.**
+**Submission target:** ~~Sun May 31 2026 14:01 UTC Aeon portal window~~ → **REVISED 2026-06-01: Aeon June 2026 portal window has not opened on any standard schedule through Mon Jun 1 09:24 EDT — author posture is spot-check 1-2x/day at varied times through June; mentally plan for Aeon July window (Wed Jul 1–Sun Jul 5) as primary fallback. See [`rigor/portal-timing-investigation_2026-05-31.md`](rigor/portal-timing-investigation_2026-05-31.md) §9 for full empirical anchor + reasoning trail.**
+**Last updated:** 2026-06-01
+
+## Status banner — Aeon June 2026 window (added 2026-06-01)
+
+**Empirical observation pattern:** Portal `aeon.co/pitch` checked CLOSED at 10:05 EDT Sun May 31; 19:00–20:44 EDT Sun May 31; 00:00–00:05 EDT, 01:30 EDT, 04:30 EDT, 07:00 EDT, 07:30 EDT, 09:24 EDT Mon Jun 1. All standard portal-open cron candidates (Melbourne AEST midnight, Melbourne business open, London BST midnight, UTC midnight, NYC EDT midnight, London BST business open, NYC business open) are empirically falsified through 09:24 EDT Mon Jun 1.
+
+**Most-likely interpretation (HIGH confidence):** Aeon has not opened the June 2026 pitch window on a standard schedule. Plausible mechanism: continued bandwidth-pressure friction from the May 2026 Philosophy Prize backlog leading Aeon to defer the June window. No public delay announcement surfaced in web search.
+
+**Author posture (ratified 2026-06-01):**
+1. Spot-check `aeon.co/pitch` 1-2x/day at varied times of day (rotating AM / midday / PM / evening) through June to catch off-schedule mid-month opening if it happens.
+2. Mentally plan for Aeon July window (Wed Jul 1–Sun Jul 5 per submission strategy 2026-05-08) as primary submission slot.
+3. V-E pitch preserved and ready — June surprise-open OR July primary, same submission package, no edits needed.
+4. Portfolio not in a corner: book content-complete; cross-essay set (Noema + Phenomenal World + Boston Review + Atlantic Ideas + op-eds) advancing independently; agent batch sequenced; one venue cycle slipping is absorbable.
+
+**If author catches portal open:** paste from [`submission-day-package_2026-05-31.md`](submission-day-package_2026-05-31.md) §2–§5 as-is. The pitch package itself is unchanged; only the timing of *when* to submit shifted.
 
 ## Pitch status
 

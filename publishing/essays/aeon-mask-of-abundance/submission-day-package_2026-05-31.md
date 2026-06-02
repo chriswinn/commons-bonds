@@ -1,8 +1,16 @@
-# Aeon submission-day package — Sun May 31 2026 14:01 UTC
+# Aeon submission-day package — opportunistic spot-check mode (revised 2026-06-01)
+
+> **⚠ STATUS BANNER (added 2026-06-01) — posture revised from scheduled to opportunistic.**
+>
+> The Aeon June 2026 pitch portal has not opened on any standard schedule through Mon Jun 1 09:24 EDT. Empirical falsification log + reasoning trail in [`rigor/portal-timing-investigation_2026-05-31.md`](rigor/portal-timing-investigation_2026-05-31.md) §1 through §9. Most-likely interpretation: Aeon has deferred the June window (plausibly extending May 2026 Philosophy Prize bandwidth friction).
+>
+> **Revised posture:** Spot-check `aeon.co/pitch` 1-2x/day at varied times of day through June. If portal opens unexpectedly mid-month, paste from §2-§5 below as-is — pitch package itself is unchanged. Otherwise plan for Aeon July window (Wed Jul 1–Sun Jul 5 per submission strategy 2026-05-08) as primary submission slot.
+>
+> The original "submission-day workflow" §7 below — written for scheduled 14:01 UTC submission — is preserved as historical record but is NOT the operative posture. The operative posture is opportunistic: see [`rigor/portal-timing-investigation_2026-05-31.md`](rigor/portal-timing-investigation_2026-05-31.md) §9 for the full reasoning trail + courtesy-email draft (§9.1) if extended portal-closure (>1 business day) warrants reaching out to Aeon.
 
 **Purpose:** Single file to open at submission time. All copy-paste material in one place; no context-switching across files mid-submission.
 
-**Submission target:** Sun May 31 2026 ~14:01 UTC (= Mon Jun 1 ~00:01 AEST Melbourne; = Sun May 31 ~10:01 EDT; = Sun May 31 ~07:01 PDT)
+**Submission target:** ~~Sun May 31 2026 ~14:01 UTC (= Mon Jun 1 ~00:01 AEST Melbourne; = Sun May 31 ~10:01 EDT; = Sun May 31 ~07:01 PDT)~~ **REVISED:** opportunistic — submit immediately upon catching portal open during June spot-checks, OR plan for July window (Wed Jul 1–Sun Jul 5).
 
 **Portal:** `https://aeon.co/pitch`
 

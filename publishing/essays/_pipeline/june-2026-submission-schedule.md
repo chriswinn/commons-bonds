@@ -20,7 +20,7 @@ session.
 
 | # | Piece | Venue | Pipeline stage | Estimated submission-ready |
 |---|---|---|---|---|
-| 1 | **Aeon Pitch** (*The Mask of Abundance*) | Aeon | ✅ Stage 3 COMPLETE (Pass 3.1 + 3.2 + 3.3 + 3.4 all RATIFIED + APPLIED 2026-05-21; bundled Pass 3.3+3.4 verdict READY TO SUBMIT AS-IS) | **Sun May 31 14:01 UTC (= Mon Jun 1 ~00:01 AEST)** |
+| 1 | **Aeon Pitch** (*The Mask of Abundance*) | Aeon | ✅ Stage 3 COMPLETE (Pass 3.1 + 3.2 + 3.3 + 3.4 all RATIFIED + APPLIED 2026-05-21; V-E promoted to canonical 2026-05-28; bundled Pass 3.3+3.4 verdict READY TO SUBMIT AS-IS) | ⚠ **REVISED 2026-06-01:** Aeon June portal not opened on any standard schedule through Mon Jun 1 09:24 EDT — posture shifted to opportunistic spot-check 1-2x/day through June + plan for **Aeon July window (Wed Jul 1–Sun Jul 5)** as primary fallback. See `publishing/essays/aeon-mask-of-abundance/rigor/portal-timing-investigation_2026-05-31.md` §9. Pitch package unchanged; only timing shifted. |
 | 2 | **Noema essay** (Path B Chris-as-vignette + solutions cluster γ rewrite) | Noema | 🟡 Pass 3.1 RATIFIED + APPLIED 2026-05-21 (commit `5dc3a02`); Pass 3.2 + 3.3 + 3.4 pending | **~Jun 9–12** if Pass 3.2 + bundled Pass 3.3 + 3.4 cycle condenses at same cadence as Aeon (4 Stage 3 sessions in 2 days) |
 | 3 | **$100 Barrel essay** (withdrawn-Noema §III material; Phenomenal World target per cross-thread-todos #4 resolution) | Phenomenal World | 🟡 Pass 3.1 RATIFIED + APPLIED 2026-05-21 (commit `cf5db97`); Stage 2 Draft A selected; comparative Pass 3.3 + 3.4 audit done; Pass 3.2 + Pass 3.5 pending | **~Jun 16–20** |
 | 4 | **Boston Review essay** (Ch 5 *Accountability Gap* derivative) | Boston Review | 🟠 Stage 0 publishing-strategy rigor pass complete (commit `419f916`); Stage 1b brief v1.0.1 RATIFIED (commit `755e758`); Stage 1c cross-artifact coherence check COHERENCE VERIFIED (commit `263d519`); **Stage 2 audience-blind drafting not yet fired** | **~Jun 23–28** if Stage 2 fires by Mon Jun 1 + Stage 3 five-pass condenses |
@@ -32,13 +32,17 @@ session.
 
 ## Recommended June batching
 
-### Batch 1 — Week of Jun 1: Aeon Pitch
+### Batch 1 — Week of Jun 1: Aeon Pitch (REVISED 2026-06-01 to opportunistic mode)
 
-- **Submission target:** Sun May 31 14:01 UTC (= Mon Jun 1 ~00:01 AEST)
-- **Piece:** Version C pitch body (297w) + bio + AI disclosure + 6-line structural outline + working title (*The Mask of Abundance*)
-- **Status:** LOCKED. Stage 3 complete. No additional rigor pass scheduled.
-- **Pre-submission verification:** Fri May 29 (portal check + clipboard prep + timezone confirm).
-- **Submission count:** 1.
+- **Original submission target:** ~~Sun May 31 14:01 UTC (= Mon Jun 1 ~00:01 AEST)~~ — empirically falsified; portal closed at predicted moment and at every subsequent standard cron candidate through Mon Jun 1 09:24 EDT.
+- **Revised submission target:** **Opportunistic** during June — spot-check `aeon.co/pitch` 1-2x/day at varied times; submit immediately if portal opens. **Primary fallback: Aeon July window (Wed Jul 1–Sun Jul 5)** per submission strategy 2026-05-08.
+- **Piece:** Version E pitch body (289w; promoted to canonical 2026-05-28 afternoon, supersedes Version C/D safety-net fallbacks) + bio + AI disclosure + 6-line structural outline + working title (*The Mask of Abundance*).
+- **Status:** Pitch package LOCKED + READY. Only timing shifted. No additional rigor pass scheduled.
+- **Most-likely interpretation of June portal closure:** Aeon has deferred the June window — plausibly continuation of May 2026 Philosophy Prize bandwidth-pressure friction (the 2026-05-08 strategy artifact itself flagged this as precedent). No public delay announcement surfaced in web search (no Haselby tweet; no `@aeonmag` notice).
+- **Decision-tree threshold:** If portal still closed by ~Fri Jun 5 EDT (end of normal "first 7 days" window), the June skip is effectively confirmed and July becomes the operative target.
+- **Escalation option (if author wants):** Courtesy email to Aeon via `aeon.co/contact` per draft text in `publishing/essays/aeon-mask-of-abundance/rigor/portal-timing-investigation_2026-05-31.md` §9.1 — single short status-query email; no follow-up unless they reply.
+- **Portfolio implication:** Aeon June slip is a ~4-week editorial-pipeline delay, not a portfolio-breaker. Book content-complete; cross-essay set + agent batch + op-eds advance independently.
+- **Submission count for June:** 0 (under revised posture) — OR 1 (if portal surprise-opens mid-month).
 
 ### Batch 2 — Week of Jun 8–12: Noema essay
 
@@ -196,6 +200,7 @@ Log location: per cascade plan §"Outreach" discipline — recommend either a de
 ## Update log
 
 - **2026-05-21.** Initial draft. Successor artifact to cascade plan §"June 2026" section; refreshed against book-complete-drafting state + v3.1 pipeline doctrine + 2026-05-21 cross-thread-todos comprehensive staleness refresh. Aeon submission package readiness verified against `aeon-submission-strategy_2026-05-08.md` Phase 1 action items. Cascade plan full refresh queued for separate PM session.
+- **2026-06-01.** Aeon Batch 1 posture revised to opportunistic per empirical portal-closure pattern through Mon Jun 1 09:24 EDT. All standard portal-open cron candidates falsified. Most-likely interpretation: Aeon deferred June window. V-E pitch package preserved unchanged; primary submission target shifts to July window (Wed Jul 1–Sun Jul 5). Author posture: spot-check 1-2x/day at varied times through June; mentally plan July as primary. Portfolio not in a corner — book content-complete + cross-essay set + agent batch all advance independently. See `publishing/essays/aeon-mask-of-abundance/rigor/portal-timing-investigation_2026-05-31.md` §9 for full empirical anchor + reasoning trail + courtesy-email escalation draft (§9.1).
 
 ---
 
