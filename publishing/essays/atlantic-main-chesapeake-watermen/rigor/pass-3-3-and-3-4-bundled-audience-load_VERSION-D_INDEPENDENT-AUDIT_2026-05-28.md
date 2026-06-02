@@ -741,7 +741,7 @@ The drafter's-self-audit at the V-D front-matter `projected_pass_3_4_verdict` fi
 ---
 
 ```
-STATE: ch3-atlantic-main-V-D-independent-audit PROPOSED (phat-anonymization-axis PASSED); NEXT: author-decision-ship-V-D-vs-stay-locked; AWAITING: author-confirmation
+STATE: ch3-atlantic-main-V-D-independent-audit RATIFIED + APPLIED 2026-06-01 (phat-anonymization-axis PASSED; recommendation SHIP V-D HYBRID ratified as-recommended by author 2026-06-01; canonical-swap APPLIED at `publishing/essays/atlantic-main-chesapeake-watermen/essay.md` 2026-06-01 — V-D HYBRID promoted to canonical; LOCKED original cut preserved as safety-net at `_archive/prior-versions/atlantic-main-essay_LOCKED-2026-05-27.md`); NEXT: light-re-cascade (Pass 3.2 single-site + Stage 5 light re-sign-off + cover-letter Amendment-D-aware re-audit per Amendment D 2026-05-31 ratification) + Stage 5 pre-submission action items (sub-editor identification + 14 pre-pub citation-verification packets + Biggie courtesy-notify-surviving-family); AWAITING: light-re-cascade-session-fires + author-submission
 ```
 
 *End of bundled Pass 3.3 + 3.4 (audience-load acceptance + robustness) INDEPENDENT AUDIT on V-D — PROPOSED 2026-05-28. §11 cross-check completed in same artifact (Phase 3 boundary preserved: §§0–10 drafted before front-matter drafter-projection re-engaged).*

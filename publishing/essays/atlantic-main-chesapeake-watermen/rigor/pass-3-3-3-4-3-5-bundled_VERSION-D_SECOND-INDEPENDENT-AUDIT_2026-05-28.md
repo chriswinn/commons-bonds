@@ -493,7 +493,7 @@ The first-independent-audit covered Pass 3.3 + Pass 3.4 only (Pass 3.5 was outsi
 ## §13. End-of-session one-liner
 
 ```
-STATE: ch3-atlantic-main-V-D-second-independent-audit PROPOSED (phat-anonymization-axis PASSED; pass-3-5-verdict RESTORATION-POLARITY-COMPATIBLE; first-audit-cross-check DIVERGES-AT-2-VERDICTS at Pass 3.3 T1.3 + T1.4 — my STRONG upgrades reflect drafter-bias contagion per honest reconsideration; first audit's HOLD-AT-INCLUDE better-reasoned; 23 of 25 verdicts AGREE; recommendation impact UNCHANGED: SHIP V-D conditional on light re-cascade); NEXT: author-decision-ship-V-D-vs-stay-locked-vs-spot-fix; AWAITING: author-confirmation
+STATE: ch3-atlantic-main-V-D-second-independent-audit RATIFIED + APPLIED 2026-06-01 (phat-anonymization-axis PASSED; pass-3-5-verdict RESTORATION-POLARITY-COMPATIBLE; first-audit-cross-check CONFIRMS at 23 of 25 verdicts + 2 self-reconciled at T1.3 + T1.4 toward first-audit reasoning; recommendation SHIP V-D HYBRID ratified as-recommended by author 2026-06-01; canonical-swap APPLIED at `publishing/essays/atlantic-main-chesapeake-watermen/essay.md` 2026-06-01 — V-D HYBRID promoted to canonical; Pass 3.5 light re-fire requirement from first-audit §7.5 SUBSTANTIVELY SATISFIED by this audit's §6 RESTORATION-POLARITY-COMPATIBLE verdict); NEXT: light-re-cascade (Pass 3.2 single-site + Stage 5 light re-sign-off + cover-letter Amendment-D-aware re-audit per Amendment D 2026-05-31 ratification) + Stage 5 pre-submission action items (sub-editor identification + 14 pre-pub citation-verification packets + Biggie courtesy-notify-surviving-family); AWAITING: light-re-cascade-session-fires + author-submission
 ```
 
 ---
