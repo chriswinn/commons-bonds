@@ -341,6 +341,31 @@ Per Pass 3.5 ratification + v3.1 Amendment C interactive ratification (combined 
 
 ---
 
+## §3.5-tris Stage-5-surfaced revert annotation (added 2026-06-01)
+
+**Important forward-pointer for future audits.** F-DE-Atlantic-1 (a) was fully applied at Pass 3.5 Phase C 2026-05-27 (commits `8abb89b` + `2581277`) — essay §I thesis updated to "five moves" + new 4th move ("adjust the trade architecture to price what crosses borders") inserted + §V opener reframed.
+
+**Stage 5 sign-off then surfaced a cross-corpus drift finding** and the author ratified an Option 1 partial revert (commit `6e27090` 2026-05-27). See [`stage-5-signoff.md`](stage-5-signoff.md) §1.1 ("Stage-5-surfaced F-DE-Atlantic-1 drift + Option 1 revert") for the full revert record.
+
+**Current essay state** (as of `essay.md` HEAD post-revert):
+
+- §I thesis: **reverted to "four moves"** — aligns with Ch 9 line 18 book-canonical four-step architecture (Classify → Reserve → Invest → Reassess).
+- §V opener: **kept at non-numbered Pass-3.5-Phase-C reframe** — "Honest pricing runs into the international system the way it actually works." Does NOT number Border as a discrete move.
+- Border treatment: discrete §V section as a cross-cutting concern that complicates each of the four moves, NOT a fifth numbered move.
+
+**Rationale (book-canonical-alignment).** Ch 9 canonical architecture is "four moves" (Classify → Reserve → Invest → Reassess). Border is a cross-cutting concern in Ch 9, not a fifth move. Essay must preserve cross-corpus coherence with the book. The Pass 3.5 §3.5-bis-disposition framing was right at essay-architectural-integrity-scale (in isolation, the §I-thesis-vs-section-delivery mismatch was real) but wrong at cross-corpus-coherence-scale (introduces a book↔essay incoherence on the load-bearing mechanism count). Stage 5's pipeline-wide check is what caught this; Option 1 revert restores cross-corpus coherence while preserving the §V opener clean-up that doesn't require five-moves framing.
+
+**Empirical anchor for misread risk.** The V-D Hybrid second independent audit 2026-05-28 ([`pass-3-3-and-3-4-and-3-5-bundled_VERSION-D_SECOND-INDEPENDENT-AUDIT_2026-05-28.md`](pass-3-3-and-3-4-and-3-5-bundled_VERSION-D_SECOND-INDEPENDENT-AUDIT_2026-05-28.md) §4.5.4) read this §3.5-bis ratification record without cross-checking Stage 5 sign-off and flagged the §I-thesis "four moves" preservation as a Locked-side partial-application discrepancy ("Option E" — Locked-side spot-fix recommendation). Author clarification 2026-06-01: the preservation is intentional book-canonical-alignment per Stage 5 Option 1 revert; the chip's Option E was withdrawn. This annotation prevents future audits from replaying the same misread.
+
+**Future-audit reading discipline.** When reading the §3.5-bis ratification record below as Pass 3.5 disposition history, ALSO read Stage 5 sign-off §1.1 for the as-shipped state. The §3.5-bis record reflects the as-ratified Pass 3.5 state; Stage 5 sign-off reflects the as-shipped state post-revert. The two states differ at F-DE-Atlantic-1 specifically.
+
+**Cross-references:**
+- Stage 5 sign-off §1.1: [`stage-5-signoff.md`](stage-5-signoff.md)
+- V-D second independent audit (§4.5.4 + §6.1 Option E): [`pass-3-3-and-3-4-and-3-5-bundled_VERSION-D_SECOND-INDEPENDENT-AUDIT_2026-05-28.md`](pass-3-3-and-3-4-and-3-5-bundled_VERSION-D_SECOND-INDEPENDENT-AUDIT_2026-05-28.md)
+- Cover-letter operationalizes the four-moves + Border-as-cross-cutting framing: [`../cover-letter.md`](../cover-letter.md)
+
+---
+
 ## §4. Interactive ratification protocol (per v3.1 Amendment C)
 
 This artifact is **PROPOSED**. Per v3.1 Amendment C (ratified 2026-05-19; updated 2026-05-21 in Boston Review brief v1.0.1 §13 + Atlantic Ideas brief v1.1.0 §13.2 + Amendment B 2026-05-18 Pass 3.5 codification), prose-modifying passes (3.1 / 3.2 / 3.5) follow per-finding artifact format with Options + Recommendation + Reasoning. Pass 3.5 ratification is INTERACTIVE — a follow-up session walks the author through each finding with options + recommendation + reasoning, applies ratified spot-fixes to source in the same combined session (per Pass 3.5 Amendment C scope per v3.1).
