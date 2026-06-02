@@ -54,6 +54,62 @@ Per Stage 1 doctrine §6 hard constraint: Stage 1a HIGH-severity findings would 
 
 ---
 
+## §1.0 Artifact-class classification + reception-chain weighting (Amendment D, applied retroactively 2026-06-01)
+
+**Procedural note.** This brief was originally RATIFIED 2026-05-26, predating Amendment D's codification (2026-05-31; commits `a1f88db` + `63e9f53` + `dac1e85`). The §1.0 classification + per-character weight-tags below were added retroactively 2026-06-01 to bring the brief into compliance with Stage 1 doctrine §2.0 (Amendment D procedure step). Substantive verdicts at the §1 character set are unchanged; the weight-tags clarify reception-chain proximity for Stage 3 Pass 3.3 / 3.4 / 3.5 aggregation purposes.
+
+**Empirical anchor for the retrofit:** Aeon Option E.2 γ.1 opener-contingency Pass 3.3 + 3.4 + 3.5 audit addendum 2026-05-31 (commit `73c5764`) — Option β mediation clause was right at essay-prose-scale, wrong at editor-pitch-scale; lens-calibration drift exposed the need for explicit reception-chain weighting.
+
+### §1.0.1 Artifact-class label
+
+Per the canonical worked-examples table at [`tools/drafting-templates/audience-pressure-test-construction.md`](../../../tools/drafting-templates/audience-pressure-test-construction.md) §"Reception-chain audience weighting (Amendment D)":
+
+- **Essay prose at `essay.md` (the Foreign Affairs submission body):** artifact class = **"End-reader-facing essay / chapter / op-ed prose."** Direct readers (HIGHEST) = the theoretical-audience set; consultants = (none; the buck stops here); projected downstream = (n/a).
+- **Cover letter at `cover-letter.md` (the Foreign Affairs submission cover):** artifact class = **"Cover letter."** Direct reader (HIGHEST) = **Daniel Kurtz-Phelan (Foreign Affairs editor)**; consultants (HIGH) = FA deputy editors + external second-opinion reviewers; projected downstream (LOWER) = eventual FA essay readers (editor-projected through Kurtz-Phelan's projection lens).
+
+The two artifacts have different reception-chain weightings and require different audience-weighting at Stage 3. The essay-prose audit aggregation honors the §1 character set at face value (15 of 16 characters at HIGHEST weight); the cover-letter audit aggregation honors Kurtz-Phelan as dispositive direct reader + editor-projected downstream — citation-inventory consistency between cover letter and essay is a Stage 4 / fact-check team concern at the cover letter, NOT a Stage 1 brief consideration.
+
+### §1.0.2 Per-character weight-tags for the essay-prose artifact
+
+| # | Character | Reception-chain role | Weight |
+|---|---|---|---|
+| **T1.1** | Foreign Affairs editorial brain (Daniel Kurtz-Phelan) | Direct reader of the essay prose at editorial intake | **HIGHEST** (dispositive — venue-fit gate) |
+| **T1.2** | Foreign Affairs reader / CFR member / IPE policy elite | Direct reader via FA subscription | **HIGHEST** (dispositive — analytical-bite gate) |
+| **T1.3** | Sovereign-wealth-fund domain practitioner | Direct reader via FA + topic-domain interest | **HIGHEST** (dispositive — substantive-accuracy gate) |
+| **T1.4** | Literary agent (Wylie / Chalfant / Bohan-cluster) | **NOT a direct reader of the essay prose** at intake; reads the FA placement signal at future agent-query-letter time | **PROJECTED-DOWNSTREAM (LOWER)** — reweighted from brief's original Tier 1 dispositive framing; the literary-agent verdict signals platform-paragraph credibility (a placement-strength meta-judgment), which is what the FA editor's Tier 1 #1 verdict already tests. T1.4's verdict applies through T1.1 + T1.2 + T1.3's projection lens, not at face value. |
+| T2.5 | Mazzucato / Tooze cluster comp-author reader | Direct reader via FA subscription + comp-author overlap | **HIGH** |
+| T2.6 | Brookings / PIIE / heterodox-econ policy reader | Direct reader via FA + cluster overlap | **HIGH** |
+| T2.7 | Christophers / Susskind cluster comp-author reader | Direct reader | **HIGH** |
+| T2.8 | Norway-cluster scholar | Direct reader via FA + topic interest | **HIGH** |
+| T2.9 | Public Choice / center-right reader (CONDITIONAL — NOT FIRED) | Direct reader | **HIGH** |
+| T3.10 | Non-Anglo / internationalist reader | Direct reader via FA international subscription base | **HIGH** |
+| T3.11 | Niger Delta / postcolonial reader (CRITICAL) | Direct reader via FA + Niger-Delta material engagement | **HIGH** |
+| T3.12 | Sovereign-wealth-funded developing-country reader | Direct reader via FA + topic interest | **HIGH** |
+| T3.13 | General FA subscriber without SWF domain expertise | Direct reader (subscription base) | **HIGH** |
+| T3.14 | First-gen / climate-curious / energy-transition reader | Direct reader (FA recent critical-minerals coverage) | **HIGH** |
+| T3.15 | Climate-finance / discount-rate-engagement reader | Direct reader via FA + cluster engagement | **HIGH** |
+| T3.16 | Reparations-economics lineage reader | Direct reader (cultural-engagement carry-forward) | **HIGH** (low-load-bearing per brief) |
+| A1 | Public Choice / industry-funded petroleum economist (adversarial) | Direct reader via FA + tribal-tradition engagement | **HIGH** |
+| A2 | Reactionary intellectual reader (adversarial) | Direct reader via FA + *Nat'l Review* / *Nat'l Affairs* cross-readership | **HIGH** |
+| A3 | Procedural-conservative reader (adversarial) | Direct reader via FA + WSJ editorial-board cross-readership | **HIGH** |
+
+### §1.0.3 Aggregation discipline (Stage 3 Pass 3.3 / 3.4 / 3.5)
+
+Per Amendment D operational guidance:
+
+- **Per-character verdict data is unchanged at the data level.** Independent Pass 3.3 / 3.4 / 3.5 audits 2026-05-27 + 2026-05-28 (including AUDIT-2 commit `1d796de`) scored characters at face value; that data stands.
+- **Aggregate verdict synthesis honors the weight-tags.** Within-verdict basis-deepening at HIGHEST-weight characters (T1.1 + T1.2 + T1.3) is more dispositive than at HIGH-weight characters (T2 + T3 + adversarial). T1.4 verdicts apply through T1.1 + T1.2 + T1.3's projection lens (does the essay-prose-as-evaluated-by-direct-readers produce a placement-credible-enough outcome that a literary agent reading the FA placement as platform-signal would Yes-the-pitch?), not at face-value Tier 1 dispositive weight.
+- **Cover-letter audit aggregation is separate.** Kurtz-Phelan is dispositive direct reader of the cover letter; pitch-craft directness signals author conviction; mediation-of-projected-downstream-essay-reader-concerns reads as defensive at editor-pitch register. Cover-letter Pass 3.3 / 3.4 / 3.5 audits (if and when they fire) should apply Amendment D reception-chain weighting at the cover-letter scope — NOT inherit the essay-prose §1 character set.
+
+### §1.0.4 Cross-references
+
+- Amendment D canonical worked-examples table: [`tools/drafting-templates/audience-pressure-test-construction.md`](../../../tools/drafting-templates/audience-pressure-test-construction.md) §"Reception-chain audience weighting (Amendment D)"
+- Stage 1 doctrine §2.0 procedure step: [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](../../../tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md)
+- Memory pointer: [`tools/memory/feedback_audience_aware_drafting_discipline.md`](../../../tools/memory/feedback_audience_aware_drafting_discipline.md) §"Amendment D — Reception-chain audience weighting"
+- Aeon Option E.2 empirical anchor: commit `73c5764` 2026-05-31
+
+---
+
 ## §1. Audience pressure-test character set (Foreign-Affairs-specific; 18 characters)
 
 **Construction rationale.** Per audience-pressure-test construction template + Ch 4 Pass 3.4 adversarial set (`commons_bonds_rigor_pass_2026-05-25_ch4_existence_proof_stage3_pass_3_4_robustness_v1.0.0.md` precedent — to be loaded if pass 3.4 surfaces threads relevant here; carry-forward inheritance applied below) + Wave 1 $100 Barrel brief Tier-1 / Tier-2 / Tier-3 discipline + BR brief §1 character-count target (16 → expanded to 18 here to seat the international-policy register's wider acceptance band). Foreign Affairs-specific tilts: institutional-policy register; CFR-published; sovereign-wealth-architecture + international-economics + foreign-policy beat; 4,000–7,000w envelope; third-person reportage convention; reviewer-pool overlap with Foreign Policy + Brookings + PIIE + CFR cluster, minimal overlap with Atlantic / Harper's / NYRB / Boston Review cluster (Stage 0 §4.3 dimension (c) HELPS). Editor brain (see §2) prizes named-institution clarity + cross-jurisdictional comparative analysis + non-partisan-aligned institutional argument; venue is **dispositively non-partisan-aligned** per Stage 0 §4.3 dimension (b) HELPS.
@@ -824,4 +880,42 @@ Ch 4 → Foreign Affairs Stage 1 brief = **RATIFIED 2026-05-26**. Stage 1 doctri
 
 ---
 
-*End of Ch 4 → Foreign Affairs Magazine Stage 1b deliverable — pre-draft audience-and-structure rigor pass v1.0.0 — RATIFIED 2026-05-26. Stage 1 sign-off bookend complete: Stage 1a invariant-scan CLEAN for scope (§21.1 ESCALATION-1); Stage 1b substantive brief work RATIFIED (§21.2 all 15 decisions); Stage 1c cross-artifact coherence check verdict realized at §9 + verified by ratification. Brief supplies Stage 2 audience-blind drafting session.*
+## §23. Amendment D retroactive retrofit — RATIFIED 2026-06-01
+
+**Driven by:** Author ratification 2026-06-01 ("ratify all as recommended and proposed") of the Amendment-D-aware review surfaced during the Ch 4 → FA V-D hybrid disposition workstream. The original brief at §1 predated Amendment D's codification (commits `a1f88db` + `63e9f53` + `dac1e85` on 2026-05-31); §1.0 added retroactively 2026-06-01 to bring the brief into compliance with Stage 1 doctrine §2.0.
+
+### §23.1 What §1.0 adds
+
+- **Artifact-class label** for essay prose (`essay.md`) = "End-reader-facing essay / chapter / op-ed prose" + for cover letter (`cover-letter.md`) = "Cover letter" (separate reception-chain weighting).
+- **Per-character weight-tags** for the §1 19-character audience pressure-test set (16 acceptance + 3 adversarial). 15 of 16 acceptance characters at HIGHEST (essay-prose-direct-readers) or HIGH (subscription-base or topic-cluster direct readers); **T1.4 literary agent reweighted to PROJECTED-DOWNSTREAM (LOWER)** — verdict applies through T1.1 + T1.2 + T1.3's projection lens, not at face-value Tier 1 dispositive weight.
+- **Aggregation discipline note** for Stage 3 Pass 3.3 / 3.4 / 3.5 audit synthesis honoring the weight-tags.
+- **Cover-letter audit-scope clarification:** Kurtz-Phelan dispositive direct reader; pitch-craft directness; citation-inventory consistency between cover letter and essay is a Stage 4 / fact-check team concern, NOT a Stage 1 brief consideration.
+
+### §23.2 What §1.0 does NOT change
+
+- **Per-character verdict data is unchanged.** Independent Pass 3.3 / 3.4 / 3.5 audits 2026-05-27 + 2026-05-28 (including locked-cut Pass 3.3 RATIFIED PASS + Pass 3.4 RATIFIED ROBUST + Pass 3.5 RATIFIED HOLD; V-D AUDIT-2 commit `1d796de` PROPOSED) scored characters at face value. That data stands.
+- **Substantive disposition recommendations unchanged.** V-D > locked cut > alts ranking holds under Amendment D reweighting per audit `pass-3-3-and-3-4-bundled-audience-load_VERSION-D_INDEPENDENT-AUDIT_2026-05-28.md` §11 + audit `pass-3-3-3-4-and-3-5-bundled_VERSION-D_INDEPENDENT-AUDIT-2_2026-05-28.md` §13. The T1.4 reweighting from dispositive Tier 1 → projected-downstream slightly narrows the Tier 1 dispositive set from 4 → 3 characters (T1.1 + T1.2 + T1.3) but doesn't reverse direction.
+
+### §23.3 Cover-letter framing implication (load-bearing)
+
+My prior chip's recommendation to "refresh cover letter to add Pistor + Hannesson + Tooze for citation-inventory consistency with V-D" was framed wrong under Amendment D — that framing treated the cover letter as a downstream-projection of essay-body needs. **Under Amendment D, the current cover letter at `cover-letter.md` (DRAFTED 2026-05-27 ~736w) is largely correct as-is** — it pitches Kurtz-Phelan with pitch-craft directness + compressed comp-cluster signal (Hartwick implicit; Sachs/CCSI explicit; UNEP 2011 explicit; Saro-Wiwa + Sani Abacha explicit; all Norwegian PMs explicit). The only adjustment needed if/when V-D Phase C amendment lands on `essay.md` is the word-count line at ¶1 ("a 6,065-word essay") → updated to V-D body word count.
+
+### §23.4 Status
+
+Ch 4 → Foreign Affairs Stage 1 brief Amendment D retrofit = **RATIFIED 2026-06-01**. Brief is now Amendment-D-compliant. No re-fire of brief sign-off required; no re-fire of Stage 3 audits required (verdicts unchanged; only aggregation discipline shifted).
+
+### §23.5 Forward-pointing items (concurrent with retrofit)
+
+Three sub-agents fired concurrently with this retrofit (background) to handle the gating items that V-D Phase C amendment to `essay.md` requires:
+
+1. **Pass 3.1 verification of V-D's four backport citations** (Hannesson 1909 + NBIM AR 2023 + Pistor paraphrase + Tooze paraphrase) — output at `publishing/essays/foreign-affairs-existence-proof/rigor/pass-3-1-verification_VERSION-D-backports_2026-06-01.md`. Phase C amendment to `essay.md` is GATED on this verification clearing.
+2. **V-E generation** (V-E-α Tooze §VI tightening + V-E-β Mazzucato explicit-attribution test) — output at `publishing/essays/foreign-affairs-existence-proof/_archive/parallel-drafts_2026-06-01/`. Tournament-audit V-D vs V-E-α vs V-E-β to follow.
+3. **Cross-essay Norway numerical-anchor consistency check** (BR Ch 5 + Atlantic Ideas Ch 9 + FA Ch 4 locked cut + FA Ch 4 V-D) — output at `publishing/essays/_pipeline/cross-essay-norway-consistency_2026-06-01.md`.
+
+### §23.6 End-of-session one-liner (Amendment D retrofit)
+
+`STATE: Stage 1 brief Amendment D retrofit RATIFIED 2026-06-01 (artifact-class label + per-character weight-tags + T1.4 reweighted to projected-downstream); NEXT: 3 parallel sub-agents running in background (Pass 3.1 verification gating Phase C amendment + V-E generation + cross-essay Norway consistency check); AWAITING: sub-agent completions + author disposition on Phase C amendment to essay.md`
+
+---
+
+*End of Ch 4 → Foreign Affairs Magazine Stage 1b deliverable — pre-draft audience-and-structure rigor pass v1.0.0 — RATIFIED 2026-05-26 (§1.0 Amendment D retrofit RATIFIED 2026-06-01). Stage 1 sign-off bookend complete: Stage 1a invariant-scan CLEAN for scope (§21.1 ESCALATION-1); Stage 1b substantive brief work RATIFIED (§21.2 all 15 decisions); Stage 1c cross-artifact coherence check verdict realized at §9 + verified by ratification. Amendment D retroactive compliance §23 RATIFIED 2026-06-01.*
