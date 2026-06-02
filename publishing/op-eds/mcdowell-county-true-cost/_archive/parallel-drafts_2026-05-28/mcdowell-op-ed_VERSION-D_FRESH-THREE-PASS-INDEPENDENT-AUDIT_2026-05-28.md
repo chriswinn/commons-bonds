@@ -871,7 +871,98 @@ NEXT: parent-session-commits-and-pushes; AWAITING: parent-handoff
 
 ---
 
+## §9. Reception-chain audience weighting addendum (Amendment D retroactive application; added 2026-06-01)
+
+*Added 2026-06-01 per author ratification of the McDowell op-ed bundle (Workstream C). The fresh three-pass audit §§0-8 above were drafted 2026-05-28, three days before Amendment D's ratification on 2026-05-31 (`tools/drafting-templates/audience-pressure-test-construction.md` §"Reception-chain audience weighting"; canonical empirical anchor: Aeon Option E.2 γ.1 opener-contingency Pass 3.3 + 3.4 + 3.5 audit addendum commit `73c5764`). This addendum applies Amendment D weighting retroactively to the §2 / §3 / §4 per-character data without modifying the data itself; only the aggregate-verdict synthesis is re-weighted. Canonical-pattern role: this is the **op-ed worked example for Amendment D**, parallel to the Aeon **editor-pitch worked example**, intended to set the pattern for the broader portfolio sweep of the 2026-05-28 V-D cohort.*
+
+### §9.1 Amendment D framing reminder
+
+Construct + aggregate audience-pressure-test sets by proximity to the artifact:
+
+- **HIGH weight = direct readers** of THIS specific artifact (the people who will literally read this prose)
+- **MEDIUM weight = consultants** the direct readers consult/defer to (deputy editors, screening assistants, external second-opinion reviewers, fact-checkers)
+- **LOW weight = projected downstream readers** of next-stage artifacts (they matter only through direct-reader's projection lens)
+
+Per-character data unchanged at the data level; aggregate weighting honors reception-chain proximity. Spot-fix discipline: "Does this fix improve projected-downstream reader's response while damaging the direct reader's directness / conviction signal?"
+
+### §9.2 McDowell op-ed reception-chain map
+
+Artifact class per worked-examples table: **end-reader-facing op-ed prose** (top row of the table). This means **two-tier direct-reader structure** (distinct from editor-pitch class where ONLY editor is direct):
+
+- **Direct readers (HIGH weight):**
+  - FT/Bloomberg Opinion page editors (gating direct — without their yes, prose never reaches end readers)
+  - FT/Bloomberg page deputy editors (gating-adjacent direct — commissioning + editorial-board peers)
+  - FT/Bloomberg end readers (end-reader-facing direct — they read the published op-ed prose)
+- **Consultants (MEDIUM weight):**
+  - FT/Bloomberg fact-checkers (consulted by editors; specialist-domain accuracy gates)
+  - External-policy-expertise consultants the page editor might ping
+- **Projected downstream (LOW weight):**
+  - Non-subscriber readers who encounter via syndication / social / mentions
+  - Policy aides + journalists who cite the piece in subsequent work
+  - Center-right policy aides + McDowell residents + center-left policy aides etc. (theoretical audience tags whose reception is editor-projected)
+
+### §9.3 Per-character weight-tag assignment (9-char fresh-chip set)
+
+| # | Tier | Character | Reception-chain class | Amendment-D weight | Original V-D verdict |
+|---|---|---|---|---|---|
+| T1.1 | 1 | FT Opinion editor | **Direct (gating)** | **HIGH** | ✓✓✓ |
+| T1.2 | 1 | Bloomberg Opinion editor | **Direct (gating)** | **HIGH** | ✓✓✓ |
+| T1.3 | 1 | FT/Bloomberg reader | **Direct (end-reader)** | **HIGH** | ✓✓ |
+| T2.1 | 2 | Appalachian-policy specialist | Consultant (fact-check) → Projected downstream | MEDIUM-to-LOW | ✓✓ |
+| T2.2 | 2 | Black-Lung-policy specialist | Consultant (fact-check) → Projected downstream | MEDIUM-to-LOW | ✓✓ |
+| T2.3 | 2 | Energy-economics analyst | Consultant (fact-check) → Projected downstream | MEDIUM-to-LOW | ✓✓✓ |
+| T3.1 | 3 | Center-right policy aide | Projected downstream | LOW | ✓✓ (wash) |
+| T3.2 | 3 | McDowell County resident | Projected downstream | LOW | ✓✓ |
+| T3.3 | 3 | General FT/Bloomberg subscriber | **Direct (end-reader; overlaps T1.3)** | **HIGH** | ✓✓ |
+
+### §9.4 Amendment-D-weighted re-aggregation (Pass 3.3)
+
+**By weight tier:**
+
+| Weight tier | Characters | Verdict pattern | Tier aggregate |
+|---|---|---|---|
+| **HIGH (direct readers)** | T1.1 ✓✓✓ + T1.2 ✓✓✓ + T1.3 ✓✓ + T3.3 ✓✓ | All UPGRADE vs LOCKED; 2 strongest at ✓✓✓ on the gating editors | **DECISIVE INCLUDE on direct readers** |
+| **MEDIUM (consultants)** | T2.1 ✓✓ + T2.2 ✓✓ + T2.3 ✓✓✓ | All UPGRADE vs LOCKED; T2.3 at ✓✓✓ on the most-likely-consulted-by-editor character | **STRONG INCLUDE on consultants** |
+| **LOW (projected downstream)** | T3.1 ✓✓ (wash) + T3.2 ✓✓ | One wash, one UPGRADE; the wash sits on the lowest-weight tier | **MODEST INCLUDE on projected downstream** |
+
+**Compare to unweighted aggregate:** the fresh chip's aggregate was 3 ✓✓✓ + 6 ✓✓ + 0 ✓ + 0 NEUTRAL + 0 EXCLUDE (NET INCLUDE DECISIVE). Under Amendment-D weighting:
+
+1. **The verdict is MORE decisive than the unweighted aggregate suggested**, because the strongest verdicts (3 of the 4 HIGH-weight characters at ✓✓✓ or ✓✓) cluster on the direct-reader tier where they carry the most aggregate weight.
+2. **The single wash verdict (T3.1) is on a LOW-weight projected-downstream character** — its load-bearing impact on the aggregate is correctly reduced. The unweighted aggregate treated it as equally-weighted with T1.1 + T1.2 + T1.3, which under Amendment D it is not.
+3. **The drafter-aggregate vs fresh-chip-aggregate magnitude divergence at T1.4 in the Aeon cross-check pattern does not appear here** because the V-D upgrades concentrate on HIGH-weight tiers across all three audits' direct-reader-comparable characters (FT/Bloomberg editor + reader); the drafter's-self-audit + prior independent audit + fresh chip all agree on these.
+
+### §9.5 Pass 3.4 + 3.5 Amendment-D weighting check
+
+**Pass 3.4 (adversarial set):** Adversarial floor is EXCLUDE by definition; the verdict-floor logic is unchanged by Amendment D (adversarial characters are not direct readers of the artifact; they are *imagined* hostile reads applied to the prose to surface threads the direct readers might be persuaded by). Amendment D's weighting does not re-rank adversarial verdicts. ROBUST verdict holds unchanged.
+
+**Pass 3.5 (developmental-edit):** F-3.5-M1 (three-responses graf rule-of-three), F-3.5-L1 (Wagner/Anthoff/Cropper venue), F-3.5-L2 (Walmart datum) were all HOLD findings. Each can be re-examined under Amendment D's spot-fix discipline question — "Does this fix improve projected-downstream reader's response while damaging direct reader's directness?" — and the HOLD verdicts hold or strengthen:
+
+- **F-3.5-M1.** Three-responses graf's "The first is that..." construction lands the disarming moves emphatically for centrist-policy-aide ears (T3.1 LOW weight per §9.3). Restructuring to break the rule-of-three would marginally serve a LOW-weight projected-downstream character at the cost of HIGH-weight direct-reader directness. **Amendment D strengthens the HOLD recommendation.**
+- **F-3.5-L1.** Wagner/Anthoff/Cropper venue specificity at "2021" without journal name is consultant-facing (MEDIUM weight) precision. Tightening to name venue serves consultants at zero cost to direct readers IF substrate-verified. Amendment D unchanged: HOLD until author-verifies venue.
+- **F-3.5-L2.** Walmart 2016 datum dropped per pre-trim guidance. Walmart serves McDowell-resident lived-recognition (LOW weight projected-downstream) at the cost of pushing word count further past primary band (which damages HIGH-weight direct-editor response). **Amendment D strengthens the HOLD recommendation** (restore only at stretch-venue activation where HIGH-weight direct-editor band-tolerance is higher).
+
+### §9.6 Effect on SHIP V-D AS-IS recommendation
+
+**The SHIP V-D AS-IS verdict (§6.1) is STRENGTHENED under Amendment-D weighting**, not weakened.
+
+Specifically:
+1. The fresh chip's retraction of the prior independent audit's WVBLA "led by" → "and a miners' strike" spot-fix recommendation (§5.3) is now revalidated on Amendment-D directness-discipline grounds, not just on rigor-recency grounds (`feedback_audit_recent_active_review_default.md`). The original spot-fix would have served fact-check-consultant readers (T2.1 + T2.2 MEDIUM weight) by tightening to inventory-strict phrasing, but "led by" reads as more direct/natural to FT/Bloomberg editor + end-reader (HIGH weight). This is the **same failure mode as the Aeon empirical anchor** — fix-for-downstream-but-damage-direct. The fresh chip caught it on rigor-recency grounds; Amendment D explains *why* the rigor-recency catch was correct.
+2. The single wash verdict (T3.1 center-right policy aide) is correctly de-weighted as LOW-weight projected-downstream. Author-attention spent on defusing the wash would have reduced leverage relative to leverage on HIGH-weight tiers.
+3. The portfolio sweep of the 2026-05-28 V-D cohort is reframed (per the bundle's deferred Workstream item) from "Pass 3.5 sweep" to "Pass 3.3/3.4/3.5 Amendment-D-correction sweep" — broader scope, higher leverage. This addendum is the canonical worked example for that sweep.
+
+### §9.7 Canonical-pattern role (op-ed worked example for Amendment D)
+
+This addendum is the canonical **op-ed worked example for Amendment D's reception-chain weighting**, parallel to:
+
+- **Aeon Option E.2 γ.1 opener-contingency audit addendum (commit `73c5764`, 2026-05-31)** — the **editor-pitch worked example** (ONLY editor direct; all theoretical readers projected through editor's projection lens).
+- **This addendum (McDowell op-ed; commit pending, 2026-06-01)** — the **end-reader-facing op-ed prose worked example** (two-tier direct: editor + end-reader; consultants between; projected downstream below).
+
+Future portfolio sweep of the 2026-05-28 V-D cohort should classify each piece's artifact class per the worked-examples table and apply per-piece Amendment-D weighting accordingly. Pieces in different artifact classes have meaningfully different reception chains; uniform character-set treatment across heterogeneous-class pieces is the failure mode Amendment D was ratified to address.
+
+---
+
 *End of fresh three-pass independent audit (Pass 3.3 + 3.4 + 3.5) on Version D (hybrid) —
-McDowell op-ed — 2026-05-28. PROPOSED; supersedes scope-limited 3.3 + 3.4 audit at commit
-d3f6d10 for ratification routing per Pass 3.5 coverage. Per merge-on-ratification, this
-internal-scaffolding artifact fast-forwards to main at parent-session close.*
+McDowell op-ed — 2026-05-28. RATIFIED 2026-06-01 + APPLIED per Workstream A of the
+2026-06-01 author-ratified McDowell op-ed bundle (V-D HYBRID promoted to canonical op-ed.md).
+Amendment-D retroactive weighting addendum §9 added 2026-06-01 per Workstream C of the same
+bundle. Per merge-on-ratification, this internal-scaffolding artifact auto-merges to main.*
