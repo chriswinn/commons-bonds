@@ -1,7 +1,7 @@
 ---
-variant: hybrid-best-of-both (Version D)
-date: 2026-05-28
-session: claude/noema-essay-hybridization-version-d-260528-e92d61
+variant: hybrid-best-of-both (Version D-prime; post-SF-VD-1)
+date: 2026-05-28 (V-D PROPOSED); 2026-06-01 (V-D-prime SF-VD-1 application)
+session: claude/noema-essay-hybridization-version-d-260528-e92d61 (V-D drafted); claude/noema-vd-cascade-ratified-260601-23c017 (SF-VD-1 applied per author ratification of three-audit cascade recommendation)
 based_on:
   - publishing/essays/noema-commons-bonds/essay.md (locked submission cut, 5,006w body, 5 rigor passes RATIFIED + Stage 5 sign-off + light Pass 3.3 re-fire RATIFIED-AWAITING-SUBMIT 2026-05-24)
   - publishing/essays/noema-commons-bonds/_archive/parallel-drafts_2026-05-28/noema-essay_alt_no-emdashes_260528-dfb2dc.md (Alt-No-EM; 4,975w; 0 em-dashes; em-dash-forbidden experimental variant)
@@ -47,7 +47,26 @@ new_citations_added:
   - Ralph Ellison, *Invisible Man* (1952) — brief fair-use phrase ("*invisible, understand, simply because people refuse to see me*") at §Close. Phrase is the prologue's most-anthologized line (prologue p. 3 of standard editions); fair-use brief reference under standard academic-essay norms. Pre-pub courtesy-notify recommended at submission window per fair-use prudence (Ellison estate; brief-phrase use is well within fair-use thresholds for an academic-register essay but estate-level prudence-check at submission discretion).
   - Elinor Ostrom, *Governing the Commons* (1990) — named-published-work citation at §VI Fox Hill mutual-aid scene, replacing locked cut's silent allusion. Reference made at level of named-published-work-citation only; NO fabricated paraphrase of design principles (per `feedback_no_invented_factual_claims_in_publisher_facing_prose.md` Pass 3.5 sub-agent generation discipline). Pre-pub courtesy-notify N/A (Ostrom died 2012; published-work-as-public-record per discipline).
   - Frantz Fanon, *The Wretched of the Earth* (1961) — mild paraphrase expansion at §Close (settler's town / native town / wall of accumulated routine and force). Paraphrase of Ch 1 compartmentalized-world description; no direct quotation; fair-use-safe at academic-essay norms; preserves locked cut's no-direct-quote-of-under-copyright-Fanon discipline. Pre-pub courtesy-notify N/A (Fanon died 1961; paraphrase-level engagement; no estate-level review needed for paraphrase).
-status: DRAFTED — drafter's-self-audit at sibling file `noema-essay_hybrid_drafters-self-audit.md`; independent fresh-session Pass 3.3 + 3.4 audit RECOMMENDED before any disposition decision; locked cut (`publishing/essays/noema-commons-bonds/essay.md`) remains RATIFIED-AWAITING-SUBMIT baseline and is NOT overwritten by this artifact
+status: V-D-prime PROPOSED 2026-06-01 — SF-VD-1 (Ostrom block repositioning at §VI) APPLIED per author ratification 2026-06-01 of three-audit cascade recommendation. Three audits converged on SF-VD-1 (drafter's-self-audit; prior-independent audit at `rigor/pass-3-3-and-3-4-bundled-audience-load_VERSION-D_INDEPENDENT-AUDIT_2026-05-28.md`; fresh second-independent audit at `rigor/pass-3-3-and-3-4-and-3-5-bundled_VERSION-D_SECOND-INDEPENDENT-AUDIT_2026-05-28.md`). Awaiting full re-cascade on V-D-prime (Pass 3.1 + 3.3 + 3.4 + 3.5 + Stage 4 + Stage 5) before promotion to canonical `essay.md`. Locked cut remains RATIFIED-AWAITING-SUBMIT baseline until V-D-prime cascade clears.
+sf_vd_1_application: |
+  Per author ratification 2026-06-01 of full cascade ("ratify all as recommended and proposed"). Three-audit triangulation converged on SF-VD-1 (drafter's-self-audit §8.1 #2 explicitly anticipated; prior-independent audit §7.3; fresh second-independent audit §5.4 F-DE-VD-H1 HIGH).
+
+  Change applied at §VI Fox Hill mutual-aid scene (line 183 of pre-SF-VD-1 hybrid):
+
+  BEFORE (V-D pre-SF-VD-1):
+    "...older than the interstate fisheries commissions. Elinor Ostrom spent her career documenting communities like this one, where commons-governance arrangements predate and outlast their formal institutional cousins. *Governing the Commons* (1990) is the canonical reckoning. The Fox Hill watermen never read it. They did not need to. It is what a commons bond looks like when no institution is taking notes."
+
+  AFTER (V-D-prime post-SF-VD-1):
+    "...older than the interstate fisheries commissions. It is what a commons bond looks like when no institution is taking notes. Elinor Ostrom spent her career documenting communities like this one, where commons-governance arrangements predate and outlast their formal institutional cousins. *Governing the Commons* (1990) is the canonical reckoning. The Fox Hill watermen never read it. They did not need to."
+
+  Same words; title-earning sentence repositioned to land as the rhetorical capstone of the "older than..." crescendo (locked-cut cadence-arc restored) before the Ostrom scholarly anchor lands. Per fresh second-independent audit §5.4: single repositioning expected to close Pass 3.3 T1.1 + T3.11 downgrades + Pass 3.4 NEW T9 + Pass 3.5 F-DE-VD-H1 simultaneously while preserving all V-D upgrade gains (T2.5 Berggruen ✓✓✓; T2.7 Ostrom-successor ✓✓✓; T3.9 substantive citation-depth gain). F-DE-VD-M1 §Close lineage-citation asymmetry remains open — separate disposition path via parallel Fanon-rights inquiry chip + alternative-lineage exploration.
+no_other_changes: |
+  Only the §VI Ostrom block repositioning applied. NO other prose modifications:
+  - §I closing paragraph unchanged (Stage 1 §7.1 verbatim-lock preserved)
+  - §II title "Pooh" preserved
+  - §Close lineage paragraph (Dunbar/Du Bois/Fanon/Ellison citations + Fanon paraphrase) preserved verbatim from V-D — F-DE-VD-M1 disposition is routed to separate parallel chips (Fanon rights + alternative lineage), NOT applied in this session
+  - All em-dash sites preserved
+  - All non-§VI prose verbatim from V-D
 ---
 
 # Commons Bonds
@@ -180,7 +199,7 @@ There was also a crabber and fisherman my father had known since he was small. H
 
 That two-job life is what cost severance looks like in a body. The architecture priced out the catch; the man absorbed the difference.
 
-What the architecture priced out is not the only thing operating in Fox Hill. When a waterman needs to rework his nets — a job too large to do alone — every other waterman in the community arrives at his place at three or four in the morning, on a day when each of them would otherwise be on the water. If somebody is missing at the appointed hour, no one assumes he is running late. They stop what they are doing with the nets and they go look for him. *They know what the water is capable of taking.* The arrangement is older than the regulations, older than the federal disaster declarations, older than the interstate fisheries commissions. Elinor Ostrom spent her career documenting communities like this one, where commons-governance arrangements predate and outlast their formal institutional cousins. *Governing the Commons* (1990) is the canonical reckoning. The Fox Hill watermen never read it. They did not need to. It is what a commons bond looks like when no institution is taking notes.
+What the architecture priced out is not the only thing operating in Fox Hill. When a waterman needs to rework his nets — a job too large to do alone — every other waterman in the community arrives at his place at three or four in the morning, on a day when each of them would otherwise be on the water. If somebody is missing at the appointed hour, no one assumes he is running late. They stop what they are doing with the nets and they go look for him. *They know what the water is capable of taking.* The arrangement is older than the regulations, older than the federal disaster declarations, older than the interstate fisheries commissions. It is what a commons bond looks like when no institution is taking notes. Elinor Ostrom spent her career documenting communities like this one, where commons-governance arrangements predate and outlast their formal institutional cousins. *Governing the Commons* (1990) is the canonical reckoning. The Fox Hill watermen never read it. They did not need to.
 
 ## Close
 
