@@ -4,27 +4,7 @@
 
 **Purpose.** Per-workstream session handoff documents enabling fresh sessions to pick up specific workstreams from scratch without inheriting context drift. Each handoff is self-contained: a fresh session reads only the relevant handoff + the files it cross-references, and operates on a dedicated feature branch for that workstream.
 
-**Branch discipline (current convention, codified 2026-05-26; refreshed here 2026-05-31).** Each workstream gets a dedicated feature branch on a dedicated git worktree. The canonical first action of every fresh session is:
-
-```bash
-HARNESS_ID="$(date +%y%m%d)-$(openssl rand -hex 3)"
-WORKSTREAM="<workstream-slug>"  # short descriptive slug for THIS session's work
-BRANCH="claude/${WORKSTREAM}-${HARNESS_ID}"
-WORKTREE_PATH="/Users/c17n/commons-bonds-${WORKSTREAM}-${HARNESS_ID}"
-
-git -C /Users/c17n/commons-bonds fetch origin main
-git -C /Users/c17n/commons-bonds worktree add -b "${BRANCH}" "${WORKTREE_PATH}" origin/main
-```
-
-Branches follow the format `claude/<workstream>-<harness-id>` where `<harness-id>` is auto-generated from the session-start timestamp + a 6-char random suffix. The worktree path mirrors the branch name. This pattern is enforced by [`../memory/feedback_worktree_isolation_for_parallel_sessions.md`](../memory/feedback_worktree_isolation_for_parallel_sessions.md) + the SessionStart hook at [`../scripts/session-start-worktree-isolation.sh`](../scripts/session-start-worktree-isolation.sh) + the kickoff paste-text at [`../drafting-templates/worktree-isolation-paste-text.md`](../drafting-templates/worktree-isolation-paste-text.md). Under sustained parallel-session operation (20-35+ concurrent CC sessions observed 2026-05-26), worktree isolation is non-negotiable — without it, parallel sessions share `.git/HEAD` and corrupt each other's branch state.
-
-Workstream slug discipline: pick a slug that names what this session's work IS, not what workstream-handoff inspired it. A session executing the memory-process review pruning is `memory-process-pruning-execution`, not `memory-process-review`. Slug quality matters because (a) it appears in the worktree path + branch + commit log, and (b) PM dashboards filter by slug-class to discriminate parallel work. This commit also documents resolution of PM-handoff G2 (HIGH) "Require deliberate workstream slugs" per memory-process-review v2 B.2 ratification.
-
-**PM-handoff G1 RESOLVED (2026-05-31).** PM-handoff G1 (HIGH) "Session-end branch-delete default" is resolved by commit `5313225` (implementation — `tools/scripts/session-end-worktree-cleanup.sh`) + the 2026-05-31 documentation pass (this README's branch-discipline section above + the worktree-isolation paste-text §"Session-lifecycle companion hooks" subsection + CLAUDE.md §Branch discipline session-end-auto-cleanup paragraph + `tools/scripts/README.md` table additions for the 3 lifecycle hooks). The session-end branch-delete now fires automatically on session close — sessions inherit cleanup rather than running it as a manual ritual; safety gates (ahead=0; dirty=0; no MERGE-HOLD/MERGE-AFTER marker; not on §5.1 skip-list) honored by default.
-
-**PM-handoff G4 RESOLVED (2026-05-31).** PM-handoff G4 (MED) "SessionStart guard against duplicate workstream-slug spawns" is resolved by commit `580a927` (implementation — [`../scripts/check-workstream-slug.sh`](../scripts/check-workstream-slug.sh)) + the 2026-05-31 wiring + doc pass (commit `4545f62` paste-text wiring → [`../drafting-templates/worktree-isolation-paste-text.md`](../drafting-templates/worktree-isolation-paste-text.md); commit `cdf2e4a` [`../scripts/README.md`](../scripts/README.md) Session-lifecycle hook cluster narrative + per-script subsection). The canonical worktree-isolation paste-text now invokes the pre-check before `git worktree add -b`; on collision the model surfaces options (refine slug; clean up STALE matches; resume existing worktree) to the author. Read-only script (no destructive mode); `FORCE_SLUG_COLLISION=1` escape hatch for intentional intra-slug sub-sessions. STALE/ACTIVE/CONTAMINATED classification per match; CONTAMINATED matches (§5.1 skip-list) suppress the cleanup-suggestion block since those require detective triage rather than automated cleanup. Companion to G1 + the existing orphan-lock-recovery hook — together the four scripts close the duplicate-slug-spawn + orphan-top-level + orphan-lock failure modes empirically anchored by the 2026-05-28 + 2026-05-30 cleanup sweeps.
-
-**DEPRECATION NOTE (2026-05-31).** The "Recommended branch prefix" column in the per-workstream tables below (rows from 2026-05-09 through 2026-05-18) used a pre-worktree-isolation pattern (`claude/aeon-submission-`, `claude/boston-review-essay-`, etc. with author-chosen suffixes). That column is **deprecated as guidance** — sessions executing those workstreams today use the `claude/<workstream>-<harness-id>` format above, with the workstream slug derived from the handoff slug. The column is preserved as historical record but should not be copied into new branches.
+**Branch discipline.** Each workstream gets a dedicated feature branch. A fresh session opens with `git checkout -b claude/<workstream>-<harness-id>` from a current `origin/main` after `git fetch`. Per-workstream branches reduce cross-contamination + make rescue / merge-to-main cleaner.
 
 **Pipeline doctrine.** All publisher-facing prose moves through the canonical six-stage pipeline codified at [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md`](../pipeline-doctrine/commons_bonds_pipeline_doctrine_v1.0.0.md) (v1.0.0 ratified 2026-05-17). Workstream sessions producing rigor-pass artifacts or content edits must respect the change-cascade routing rules in that doctrine + the cross-chapter workstream lifecycle codified there.
 
@@ -80,6 +60,12 @@ Workstream slug discipline: pick a slug that names what this session's work IS, 
 | Workstream | Handoff file | Recommended branch prefix |
 |---|---|---|
 | **Render-toolchain containerization** — **COMPLETED 2026-05-18.** Produced the canonical apt-based installer ([`install-render-toolchain.sh`](../scripts/install-render-toolchain.sh)) + Dockerfile ([`Dockerfile.render`](../scripts/Dockerfile.render)) + SessionStart hook ([`.claude/settings.json`](../../.claude/settings.json)) + CI render-verify workflow ([`render-verify.yml`](../../.github/workflows/render-verify.yml)) + fixtures. Resolves Stage 4 doctrine §3.3 canonical-pipeline OPEN flag: Docker (laptop via Colima) + remote-container (Anthropic cloud) share one apt-installed canonical toolchain. Chrome intentionally NOT installed (wkhtmltopdf canonical for HTML→PDF per Sandy packet `e6ddf92`). Strict `--platform=linux/amd64` pinning. | [`render-toolchain-containerization-handoff_2026-05-18.md`](render-toolchain-containerization-handoff_2026-05-18.md) | `claude/render-toolchain-containerization-` |
+
+### Added 2026-06-01 (portfolio triangulation discipline)
+
+| Workstream | Handoff file | Recommended branch prefix |
+|---|---|---|
+| **Portfolio triangulation discipline** — PROPOSED 2026-06-01. Codifies three-audit triangulation (drafter's-self-audit + prior-independent + fresh-second-independent) as the default discipline for Wave 2+ derivative essays at the Pass 3.3 + 3.4 + 3.5 explicit-gate cascade. Wave 2 portfolio inventory + per-essay activation plan + PM-dashboard-integration spec + memory-entry draft at [`../memory/feedback_portfolio_triangulation_discipline.md`](../memory/feedback_portfolio_triangulation_discipline.md). Empirical anchor: Noema V-D second-independent audit 2026-05-28. Awaits author ratification. | [`portfolio-triangulation-discipline-handoff_2026-06-01.md`](portfolio-triangulation-discipline-handoff_2026-06-01.md) | `claude/noema-portfolio-triangulation-scaffolding-` |
 
 ### Pipeline-doctrine retrofit workstreams (post-2026-05-17 pipeline-revision)
 
