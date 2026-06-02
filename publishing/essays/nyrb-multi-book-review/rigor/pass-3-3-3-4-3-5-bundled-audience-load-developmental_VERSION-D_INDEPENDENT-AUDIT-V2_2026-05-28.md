@@ -802,3 +802,94 @@ This V2 audit (internal scaffolding rigor-pass artifact) fast-forwards to `main`
 ---
 
 *End of NYRB multi-book review-essay V-D independent audit V2. Locked-cut `essay.md` remains the RATIFIED-AWAITING-SUBMIT safety-net baseline regardless of author-decision-on-V-D-swap outcome. NYRB submission window is Oct 8 – Nov 15, 2026; ample lead time for author to deliberate the V-D vs locked-cut decision without clock pressure. Pass 3.5 firing (the V2 audit's load-bearing addition vs prior audit) confirms inheritance assumption substantively while adding formal structural-choice question worth author awareness.*
+
+---
+
+## §13. Amendment-D-aware reweighting addendum (retrofitted 2026-06-01 per author ratification)
+
+**Trigger:** Amendment D (reception-chain audience weighting) was ratified into the v3.1 audience-aware drafting discipline on 2026-05-31 — **three days after this V2 audit was filed** (2026-05-28, origin/main `4ab77cf`). Author surfaced Amendment D in a follow-up conversational turn 2026-06-01 + asked whether the new doctrine changes the V2 audit's recommendations or reasoning. Per author "ratify all as recommended and proposed" 2026-06-01, this §13 retrofits the V2 audit's aggregate framing with Amendment-D-aware reception-chain weighting. **Per-character verdicts at §3 + §5 + §7 are unchanged at the data level** (Amendment D doctrine: "per-character data is unchanged at the data level, but aggregate weighting honors the reception-chain proximity"). Only aggregate-synthesis framing is retrofitted.
+
+**Doctrine references:**
+- `tools/drafting-templates/audience-pressure-test-construction.md` §"Reception-chain audience weighting (Amendment D, ratified 2026-05-31)" — load-bearing principle + artifact-class worked-examples table + operational guidance
+- `tools/memory/feedback_audience_aware_drafting_discipline.md` v3.1 §"Reception-chain audience weighting (Amendment D)" + §"Doctrine-amendment discipline"
+- Empirical anchor: Aeon Option E.2 γ.1 opener-contingency Pass 3.3 + 3.4 + 3.5 audit addendum 2026-05-31 (commit `73c5764`)
+
+### §13.1 Artifact-class classification (audit target)
+
+Per Amendment D §"Artifact-class worked examples":
+
+| Audit target prose | Artifact class | Direct readers (HIGHEST weight) | Consultants (HIGH weight) | Projected downstream (LOWER weight) |
+|---|---|---|---|---|
+| **essay.md (V-D hybrid)** — the audit target | **End-reader-facing essay** | All 17 acceptance-set characters per Stage 1 brief §1 (they ARE the direct readers; the editor is BOTH a direct reader AND the gatekeeper) | (none; the buck stops here) | (n/a at essay-prose-scale) |
+
+**Important class boundary:** the V2 audit covered the **essay.md hybrid only**. The NYRB submission package's other prose class — **cover-letter.md** — is editor-facing-pitch class with a different reception chain (direct reader = NYRB editor; consultants = deputy editor + masthead readers; projected downstream = eventual essay readers editor-projected). The cover letter's Amendment-D-class re-audit is NEW load-bearing work spawned downstream per §13.5 chip list below.
+
+### §13.2 Per-character weight-tag retrofit (essay-class; all HIGHEST direct-reader weight)
+
+Under Amendment D essay-class classification, all 17 acceptance characters carry HIGHEST weight at the essay-prose-scale. Substantively this is a no-op for aggregate verdict magnitude (no reweighting downshift applies). Per-character weight-tag retrofit for the brief's §1:
+
+| Char # | Character | Amendment-D weight (essay-class) | Notes |
+|---|---|---|---|
+| T1.1 | NYRB editorial brain | HIGHEST | direct reader + gatekeeper |
+| T1.2 | NYRB reader | HIGHEST | direct reader (cross-political-spectrum readership) |
+| T1.3 | Center-right policy reader (Condition NR-1 DISPOSITIVE) | HIGHEST | direct reader; dispositive on non-partisan-framing discipline |
+| T1.4 | Mariana Mazzucato (Condition NR-2 REQUIRED) | HIGH for book-success path / LOWER for NYRB-acceptance gate | nuance: not direct reader at editor-acceptance gate (editor doesn't consult her); becomes direct reader post-publication; INCLUDE-REQUIRED framing is correctly weighted for blurb-network book-success criterion |
+| T1.5 | Katharina Pistor (Condition NR-2 REQUIRED) | HIGH for book-success path / LOWER for NYRB-acceptance gate | same nuance as T1.4 |
+| T1.6 | Brett Christophers (Condition NR-2 REQUIRED) | HIGH for book-success path / LOWER for NYRB-acceptance gate | same nuance as T1.4 |
+| T1.7 | Daniel Susskind (Condition NR-2 REQUIRED) | HIGH for book-success path / LOWER for NYRB-acceptance gate | same nuance as T1.4 |
+| T1.8 | Trade-publisher acquisitions editor | HIGHEST for book-success path / lower for NYRB-acceptance gate | platform-paragraph evidence + comp-titles pre-validation |
+| T1.9 | Literary agent | HIGHEST for book-success path / lower for NYRB-acceptance gate | "under consideration at NYRB" credibility deliverable |
+| T2.10 | Heterodox-econ academic-adjacent | HIGHEST | direct reader; on-tradition fluency signal |
+| T2.11 | Civic-republican / democratic-theory | HIGHEST | direct reader |
+| T2.12 | Environmental / climate-policy | HIGHEST | direct reader |
+| T2.13 | Reparations-economics-adjacent | HIGHEST | direct reader; lineage-only register per brief |
+| T2.14 | Berggruen Prize / institutional-redesign | HIGHEST | direct reader |
+| T2.15 | Literary-essay-of-ideas | HIGHEST | direct reader |
+| T3.16 | General NYRB subscriber (HIGHEST-PRIORITY Tier 3) | HIGHEST | direct reader; accessibility character |
+| T3.17 | NYRB reviewer-network reader | HIGH for book-success path / direct for post-pub | future-book-reviewers; pre-warming-the-reviewer-network signal |
+
+**Net:** essay-class reading has 12 direct-reader HIGHEST characters (T1.1, T1.2, T1.3, T2.10-T2.15, T3.16, T3.17) + 6 book-success-path characters (T1.4-T1.7, T1.8, T1.9) that aren't direct readers at the NYRB-acceptance gate but are load-bearing for the book-success criterion (blurb-network + agent + acquisitions-editor + reviewer-network).
+
+### §13.3 V-D gain-site reweighting
+
+Under Amendment-D-aware aggregation, V-D's gains land as follows:
+
+| V-D gain site | Characters strengthened | Amendment-D weight | Net |
+|---|---|---|---|
+| §VI Polanyi "fictitious commodities of land, labor, and money" + "protective counter-movements" canonical phrasing | T2.10 heterodox-econ; T2.11 civic-republican; T2.14 Berggruen; T2.15 literary-essay-of-ideas | HIGHEST (all 4 are direct readers at essay-class) | Direct-reader scholarly-density gains at HIGHEST weight |
+| §VI Sen "Development as Freedom" capabilities-rather-than-income attribution | T1.7 Susskind (blurb-protection); T2.11 civic-republican; T2.12 environmental; T2.14 Berggruen | HIGH for T1.7 book-success path; HIGHEST for T2.11+T2.12+T2.14 direct-reader | Mixed-weight gains; T1.7 strengthening is book-success-path-load-bearing |
+| §VIII four-named-case closing-list (sovereign default / pharma molecule / renewable project / family trust) | T1.1 NYRB editor; T1.2 NYRB reader; T1.4 Mazzucato; T1.5 Pistor; T1.6 Christophers; T2.15 literary-essay-of-ideas; T3.16 general NYRB subscriber | HIGHEST on T1.1 (gatekeeper = direct reader); HIGHEST on T1.2+T2.15+T3.16; HIGH for T1.4-T1.6 book-success path | Strongly direct-reader-weighted; gatekeeper (editor) gain at HIGHEST weight |
+
+**Aggregate Amendment-D-aware verdict statement (retrofitted from §4 + §7.2):**
+
+The V-D additions concentrate gains at HIGHEST-weight direct-reader characters at the NYRB-acceptance gate — particularly the gatekeeper-direct-reader (T1.1 NYRB editorial brain via §VIII four-named-case analytical-completion) + cross-tradition direct-reader cluster (T2.10 + T2.11 + T2.14 + T2.15 + T3.16 via §VI Polanyi/Sen scholarly density). T1.4-T1.7 reviewed-author gains land at HIGH weight for the book-success-criterion path (blurb-network protection on post-publication reading) — which IS the author-specified success criterion alignment per 2026-06-01 framing. **Under reception-chain-aware aggregation, the V-D additions are net-positive at both the acceptance gate AND the book-success path; the "wash-to-marginal-gain" framing at §4 + §7.2 (filed pre-Amendment-D) tilts modestly stronger toward V-D under reception-chain-aware reweighting.** SHIP V-D direction holds + is reinforced.
+
+### §13.4 Condition NR-2 framing reads MORE coherently under Amendment D
+
+The Stage 1 brief §10.5 treats T1.4-T1.7 as Tier-1-gating with "EXCLUDE = brief returns to Stage 2 re-draft." Under Amendment D's reception-chain framing, T1.4-T1.7 are technically projected-downstream-readers at the NYRB-acceptance gate (the editor does not consult them) but are HIGH-weight direct readers at the book-success-criterion gate (they read post-publication; their reception drives the blurb-network outcome that is load-bearing for the book-publication path). The brief's INCLUDE-REQUIRED framing was already correctly weighted for the book-success path — Amendment D codifies the lens that explains why. **No substantive change to Condition NR-2 discipline; Amendment D retrofits the coherent framing.**
+
+### §13.5 Spawn-chip set (ratified 2026-06-01 per author "ratify all as recommended and proposed")
+
+The following 4 downstream chips were spawned by this session under the same 2026-06-01 ratification:
+
+1. **Cover letter Amendment-D-class Pass 3.3 + 3.4 + 3.5 re-audit + Stage 5 refresh under V-D-aware framing** (HIGHEST priority NEW load-bearing work surfaced by Amendment D review)
+2. **V-D' parallel variant generation** (TRIM-TO-3-or-4 §VIII anaphora per F-3.5-M1 alternative) **+ independent Pass 3.5 audit + 3-way comparison vs V-D + V-D''** (REVERT-§VIII variant)
+3. **Fresh Pass 3.1 + 3.2 + 3.4 on V-D delta prose** (~120w at §VI Polanyi/Sen + §VIII four-named-case sites) **+ bibliography verification** of Polanyi §13 line 96+ + Sen §13 line 129+
+4. **NYRB stage-1-brief §1 retrofit with explicit Amendment-D weight-tags** (coherence cleanup per Amendment D §"Operational guidance — Stage 1 brief construction")
+
+These chips operate under the token-cost-not-a-constraint + publication-aligns-with-book-success regime ratified by author 2026-05-28 + 2026-06-01. Author selects highest-EV variant from the resulting independently-audited grid.
+
+### §13.6 STATE marker update (Amendment-D-retrofit)
+
+```
+STATE: V2 audit PROPOSED 2026-05-28; Amendment-D retrofit RATIFIED 2026-06-01 (§13)
+SUBSTANTIVE VERDICTS: unchanged at per-character data level (Pass 3.3 17/17 INCLUDE; Pass 3.4 CONDITIONALLY ROBUST; Pass 3.5 0 HIGH + 1 MED + 1 LOW; all 3 NYRB axes PASSED + em-dash PASSED)
+AGGREGATE FRAMING: retrofitted with Amendment-D reception-chain weighting; SHIP V-D direction holds + reinforced under reception-chain-aware aggregation
+SPAWN CHIPS: 4 ratified workstreams spawned downstream (cover-letter re-audit + V-D'/V-D'' variant generation + V-D-delta fresh Pass 3.1/3.2/3.4 + bibliography verification + Stage 1 brief weight-tag retrofit)
+NEXT: PM session coordinates the 4 chips; author selects highest-EV variant from independently-audited grid at NYRB submission window Oct 8 – Nov 15, 2026
+AWAITING: chip-cascade-completion-and-author-selection
+```
+
+---
+
+*End of Amendment-D-aware reweighting addendum 2026-06-01. The V2 audit's substantive verdicts are unchanged; only aggregate framing is retrofitted with reception-chain-aware weighting. Internal scaffolding (rigor-pass artifact addendum) → auto-fast-forward merge to main per CLAUDE.md merge-to-main policy + merge-on-ratification rule scaffolding cadence.*
