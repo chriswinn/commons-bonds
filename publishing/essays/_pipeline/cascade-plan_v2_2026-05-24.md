@@ -1,9 +1,10 @@
 # Commons Bonds — Cascade Plan v2 (Wave 1 + Wave 2 + Op-eds + Berggruen + Wave 3 outlook)
 
 **Date drafted:** 2026-05-24
-**Status:** **PROPOSED — author ratification required.** Successor to (stale) `cascade-plan_2026-05-06.md`. NOT YET RATIFIED.
+**Date ratified:** 2026-06-01 (master ratification after 5 ratified amendments)
+**Status:** **RATIFIED 2026-06-01.** Successor to (stale) `cascade-plan_2026-05-06.md`. Master ratification covers initial draft (2026-05-24 PROPOSED state) + Amendments 1 + 2 + 3 + 4 + 5 (X1+X2+X3 fold-in) ratified 2026-05-31 through 2026-06-01; original Amendments 5 + 6 IRRECOVERABLE per §13 update log. Canonical for Wave 2 + Wave 3 onward.
 **Supersedes:** `publishing/essays/_pipeline/cascade-plan_2026-05-06.md` (mark as superseded; do not delete).
-**Companion artifact:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` (PROPOSED Stage 0 batch verdicts for the four Wave 2 candidates).
+**Companion artifact:** `tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md` (Stage 0 batch verdicts for the four Wave 2 candidates; per-candidate RATIFICATION RECORD in §12; master ratification 2026-06-01 closes all surfaced cascade-plan-v2 amendments).
 **Extends but does NOT supersede:** `publishing/essays/_pipeline/june-2026-submission-schedule.md` (authoritative for June 2026 batches; this file extends the strategic frame to Q1 2027 and adds Wave 2 candidates).
 
 ---
@@ -539,10 +540,10 @@ Author-direct queries; optional agent representation post-Pipeline-A-offer if au
 ## 14. STATE marker (for next-session resumption)
 
 ```
-STATE: PROPOSED
-NEXT: author-action-required (cascade-plan-v2 ratification; sequenced AFTER per-candidate Wave 2 Stage 0 batch ratifications)
-AWAITING: author-ratification
-SEQUENCING DISCIPLINE: Wave 2 Stage 0 batch (per-candidate, 4 sessions) → this cascade plan v2 (1 session) → header amendment on superseded cascade-plan_2026-05-06.md → cascade plan v2 lands canonical for Wave 2 + Wave 3 onward.
+STATE: RATIFIED 2026-06-01
+NEXT: cascade-plan-v2 is canonical for Wave 2 + Wave 3 onward; operational execution per §6 calendar + §11 Pipeline A/B structure + §8 rate-limiting factors
+AWAITING: nothing internal to this plan; external execution drivers per §9 author-action gates
+RATIFICATION HISTORY: initial draft 2026-05-24 PROPOSED; Amendments 1 + 2 + 3 + 4 RATIFIED 2026-05-31; Amendments 5 + 6 (original) IRRECOVERABLE 2026-05-31 per morning 2026-05-28 PM session pivot losing Step 0 outputs; Amendment 5 (X1+X2+X3 fold-in) RATIFIED 2026-06-01; master ratification 2026-06-01. See §13 update log for per-amendment detail.
 ```
 
 ---

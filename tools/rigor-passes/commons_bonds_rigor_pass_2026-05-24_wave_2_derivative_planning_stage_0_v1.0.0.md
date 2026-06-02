@@ -418,14 +418,15 @@ Realistic — but **NOT compatible with Ch 8 firing as a Wave 2 candidate** (Pat
 ## 11. STATE marker (for next-session resumption)
 
 ```
-STATE: PARTIAL RATIFICATION (Ch 2 RATIFIED 2026-05-25; Ch 3 RATIFIED 2026-05-24; Ch 4 RATIFIED 2026-05-25; Ch 8 still PROPOSED)
-NEXT: author-action-required (Ch 8 per-candidate ratification) + cascade plan v2 ratification (separate session with amendments)
-AWAITING: author-ratification
+STATE: PARTIAL RATIFICATION (Ch 2 RATIFIED 2026-05-25; Ch 3 RATIFIED 2026-05-24; Ch 4 RATIFIED 2026-05-25; Ch 8 still PROPOSED) — companion cascade-plan-v2 MASTER RATIFIED 2026-06-01
+NEXT: author-action-required (Ch 8 per-candidate ratification only; cascade-plan-v2 amendments fully ratified)
+AWAITING: author-ratification (Ch 8 candidate only)
 ARTIFACTS PRODUCED:
   - tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md (this file)
-  - publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md (companion PROPOSED artifact)
+  - publishing/essays/_pipeline/cascade-plan_v2_2026-05-24.md (companion artifact; MASTER RATIFIED 2026-06-01 after 5 amendments ratified through 2026-05-31 → 2026-06-01)
 RATIFICATION DISCIPLINE: one-at-a-time per candidate (4 separate sessions; Ch 2, Ch 3, Ch 4, Ch 8); per Pipeline Doctrine Amendment C interactive ratification protocol.
 RATIFICATION PASTE-TEXTS: tools/workstream-handoffs/wave-2-derivative-kickoffs_2026-05-24.md (per-candidate kick-off paste-text bundle).
+CASCADE-PLAN-V2 AMENDMENTS RATIFIED 2026-05-31 → 2026-06-01: Amendments 1 + 2 + 3 + 4 + 5 (X1+X2+X3 fold-in) ratified + applied; Amendments 5 + 6 (original; surfaced from morning 2026-05-28 Step 0 portfolio step-back) IRRECOVERABLE per cascade-plan-v2 §13 update log. Surfaced concerns from §12 Candidate B (Ch 3) + §12 Candidate A (Ch 2) ratification records (agent target list 25 → 65–80; Wave 4 fallback; Atlantic timing serves Waves 2/3 not Wave 1; 2027–2028 editor-iteration calendar realism) fully addressed by ratified amendments. See cascade-plan-v2 §13 for per-amendment detail.
 ```
 
 ---
@@ -528,9 +529,9 @@ RATIFICATION PASTE-TEXTS: tools/workstream-handoffs/wave-2-derivative-kickoffs_2
 ---
 
 ```
-STATE: RATIFIED (Ch 2 + Ch 3 + Ch 4); PROPOSED (Ch 8)
-NEXT: author-action-required (Ch 8 per-candidate ratification in fresh CC session per tools/workstream-handoffs/wave-2-derivative-kickoffs_2026-05-24.md OR via per-candidate paste-text); fire Ch 2 → Harper's Stage 1 brief in fresh session (no chapter-side gates remain); fire Ch 4 → Foreign Affairs Stage 1 brief after Ch 4 Pass 2 ratification (target ~Jul 13–19, 2026 per §4.3 Q2); cascade plan v2 ratification (separate fresh PM session per paste-text delivered 2026-05-24; surfaced amendments from Ch 3 + Ch 2 ratification records to be incorporated)
-AWAITING: author-ratification (1 remaining candidate: Ch 8) + cascade plan v2 ratification + Ch 4 Pass 2 ratification (Ch 4 Stage 1 brief gate)
+STATE: RATIFIED (Ch 2 + Ch 3 + Ch 4); PROPOSED (Ch 8); companion cascade-plan-v2 MASTER RATIFIED 2026-06-01
+NEXT: author-action-required (Ch 8 per-candidate ratification in fresh CC session per tools/workstream-handoffs/wave-2-derivative-kickoffs_2026-05-24.md OR via per-candidate paste-text); fire Ch 2 → Harper's Stage 1 brief in fresh session (no chapter-side gates remain); fire Ch 4 → Foreign Affairs Stage 1 brief after Ch 4 Pass 2 ratification (target ~Jul 13–19, 2026 per §4.3 Q2); cascade-plan-v2 ratification COMPLETE 2026-06-01 (5 amendments ratified + applied; surfaced amendments from §12 Ch 3 + Ch 2 ratification records fully addressed; original Amendments 5+6 IRRECOVERABLE per cascade-plan-v2 §13)
+AWAITING: author-ratification (1 remaining candidate: Ch 8) + Ch 4 Pass 2 ratification (Ch 4 Stage 1 brief gate)
 ```
 
 ---
