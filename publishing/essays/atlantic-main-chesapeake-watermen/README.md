@@ -2,8 +2,8 @@
 
 **Slug:** `atlantic-main-chesapeake-watermen`
 **Venue:** The Atlantic main magazine — features (print; National desk or environmental long-form sub-editor pool)
-**State:** RATIFIED-AWAITING-SUBMIT (Stage 5 sign-off RATIFIED 2026-05-27)
-**Last updated:** 2026-05-27
+**State:** RATIFIED-AWAITING-SUBMIT (Stage 5 sign-off RATIFIED 2026-05-27; V-D HYBRID promoted to canonical 2026-06-01 commit `41839ef`; Stage 5 V-D light re-sign-off RATIFIED 2026-06-01)
+**Last updated:** 2026-06-01 (V-D HYBRID + F-COV-L2 count correction + Stage 5 light re-sign-off)
 
 ## Essay status
 
@@ -45,7 +45,7 @@ Stage workstream-handoffs at [`tools/workstream-handoffs/`](../../../tools/works
 
 Per [`tools/memory/feedback_named_subject_consent.md`](../../../tools/memory/feedback_named_subject_consent.md) ratified discipline:
 
-**15 public-record-exception named subjects (verbatim quotes preserved through cascade):**
+**16 public-record-exception named subjects (verbatim quotes preserved through cascade; count corrected 2026-06-01 per F-COV-L2 finding — see [rigor/cover-letter-AMENDMENT-D-RE-AUDIT_2026-06-01.md](rigor/cover-letter-AMENDMENT-D-RE-AUDIT_2026-06-01.md) §6.4 + [rigor/stage-5-signoff_V-D-LIGHT-RE-SIGNOFF_2026-06-01.md](rigor/stage-5-signoff_V-D-LIGHT-RE-SIGNOFF_2026-06-01.md) §3; LOCKED-era "15" undercount carried forward across cover-letter ¶2 + this README + pre-pub-review-queue until cross-artifact coherence check surfaced it):**
 
 | Subject | Source attribution | Quote site | Pre-pub citation-verification status |
 |---|---|---|---|
@@ -73,7 +73,7 @@ Per [`tools/memory/feedback_named_subject_consent.md`](../../../tools/memory/fee
 ## Submission checklist (per Stage 5 sign-off §4 author actions)
 
 - [ ] **Sub-editor identification** for cover-letter salutation (per Stage 1 brief §1 #1 + §8 Condition B3) — National desk features sub-editor or environmental long-form features sub-editor at The Atlantic; if not identifiable, current default "Features Editorial Team" preserved
-- [ ] **Pre-publication citation-verification packets** fire to 14 non-Colden public-record-exception named subjects per courtesy-notify-for-citation-accuracy discipline (Colden packet pre-staged)
+- [ ] **Pre-publication citation-verification packets** fire to 15 non-Colden public-record-exception named subjects per courtesy-notify-for-citation-accuracy discipline (Colden packet pre-staged) — count corrected 2026-06-01 per F-COV-L2
 - [ ] **Biggie courtesy-notify-surviving-family-if-reachable** discipline fires per ratified protocol
 - [ ] **Phat outreach packet status check** — relationship-pace consent pursuit; anonymization holds for submission
 - [ ] **Stage 4 render-toolchain submission package** — render essay.md via existing toolchain (frontmatter stripped; EB Garamond; PDF + .docx variants per Atlantic features submission convention); commit `b54822b` Stage 4 audit pre-ratified

@@ -1,9 +1,10 @@
-# Pre-Publication Review Queue — Ch 3 *The Waterman* → The Atlantic main magazine essay [RATIFIED for hand-off to publisher]
+# Pre-Publication Review Queue — Ch 3 *The Waterman* → The Atlantic main magazine essay [RATIFIED for hand-off to publisher; UPDATED 2026-06-01 for V-D HYBRID + F-COV-L2 count correction]
 
-**Date:** 2026-05-27
-**Status:** **RATIFIED for hand-off to Atlantic features editor with submission package.** Goes to publisher / editor as transparent quality-control disclosure per v3.1 Amendment B Stage 5 mandatory hand-off artifact ("Pre-publication review queue").
+**Date:** 2026-05-27 (original RATIFIED hand-off state); **updated 2026-06-01** to reflect V-D HYBRID canonical-swap (commit `41839ef`) + F-COV-L2 sixteen-named-voices count correction (Wave 1 cover-letter Amendment-D-re-audit `cover-letter-AMENDMENT-D-RE-AUDIT_2026-06-01.md` ratified + applied 2026-06-01) + Stage 5 light re-sign-off (`stage-5-signoff_V-D-LIGHT-RE-SIGNOFF_2026-06-01.md`).
+**Status:** **RATIFIED for hand-off to Atlantic features editor with submission package** (V-D HYBRID + count-corrected state).
 **Submission target:** The Atlantic main magazine — features submissions (National desk or environmental long-form features sub-editor pool per Stage 1 brief §1 #1).
-**Companion artifacts:** [Stage 5 academic-rigor + prose-quality sign-off](stage-5-signoff.md) + [cover letter draft](../../publishing/essays/atlantic-main-chesapeake-watermen/cover-letter.md) + Stage 4 render-toolchain submission package (PDF + .docx variants; frontmatter stripped).
+**Companion artifacts:** [LOCKED Stage 5 sign-off](stage-5-signoff.md) (RATIFIED 2026-05-27; historical-record baseline) + [Stage 5 V-D light re-sign-off](stage-5-signoff_V-D-LIGHT-RE-SIGNOFF_2026-06-01.md) (2026-06-01; current state) + [cover letter](../cover-letter.md) (Amendment-D-aware + F-COV-L2-corrected) + Stage 4 render-toolchain submission package (PDF + .docx variants; frontmatter stripped).
+**V-D substitution scope (carried forward from LOCKED baseline):** 6 sub-site cadence calibrations (em-dash → colon at §III Biggie scene-anchor sites; semicolon → period at §II / §VI / §VIII; paragraph break at §IV) + 1 §VIII close extension sentence (+25w; "Naming the shape does not require choosing a side in the partisan fight; it requires noticing that the fight has been used to keep the shape hidden"). All LOCKED Pass 3.5 RATIFIED restorations preserved. All 16 verbatim public-record quotes preserved EXACTLY as published. Phat anonymization preserved.
 
 ---
 
@@ -23,7 +24,7 @@ All claims in body prose audited against canonical sources at Pass 3.1 (2026-05-
 - Geographic facts (bay watershed scale; Tangier + Smith + Tilghman + Fox Hill + Hampton + Reedville + Piankatank locations + distances)
 - Temporal facts (1884 J.S. Darling and Son; 1870s McMenamin patent; 1985 Maryland rockfish moratorium; 1994 Virginia shad fishery closure; 2017 menhaden cap reduction; 2023 VIMS $3M study proposal; 2024 MD YOY index 2.0; 2025 blue crab estimate 238M; December 31 2025 O'Connor petition filing; April 21 2026 hearing)
 - Quantitative facts (15M to under 200K bushels oyster decline; 51,000 metric ton menhaden cap; ~tripled Maryland oyster population since 2005; 349-page petition; 1,266 public comments; 6-2 vote; ~fifteen-feet-per-year Tangier erosion; ~6,590w body)
-- 15 named-subject verbatim quotes (Colden ×12; Goldsborough; Hudgins ×2; Nesslage; Latour; O'Connor; Eskridge; Cannon; Evans; Harris; Tarnowski; Ruth)
+- 16 named-subject verbatim quotes (Colden ×12; Goldsborough; Hudgins ×2; Nesslage; Latour; O'Connor; Eskridge; Cannon; Evans; Harris; Whewell + Gowe photo-caption; Fisher + Schwartz photo-caption; Tarnowski; Ruth) — count corrected 2026-06-01 per F-COV-L2 finding; LOCKED-era "15" undercount carried through cover-letter ¶2 + multiple sites until cross-artifact coherence check at Wave 1 cover-letter Amendment-D-re-audit surfaced it
 - Legal-citation accuracy at face level (three Virginia public-trust-doctrine cases cited from O'Connor's petition; *Commonwealth v. City of Newport News* 1932; *Taylor v. Commonwealth* 1904; *Bradford v. Nature Conservancy* 1982)
 - Bracketed editorial insertions ("[the species]" at Colden pummeling quote at §IV per Pass 3.1 F-3.1-9 ratified discipline)
 
@@ -66,9 +67,9 @@ All hard-constraint moves preserved through cascade: Path B preemptive policy + 
 
 ## §2. What has NOT been externally verified
 
-### 2.1 Pre-publication citation-verification packets (15 public-record-exception named subjects)
+### 2.1 Pre-publication citation-verification packets (16 public-record-exception named subjects; count corrected 2026-06-01 per F-COV-L2)
 
-**Status:** Colden model pre-staged at `research/outreach/subjects/colden/pre-publication-citation-verification-packet_2026-05-13.md`; courtesy-notify-for-citation-accuracy packets to fire pre-submission to 14 other public-record-exception named subjects per Stage 5 sign-off §4. Each packet asks the subject (or the subject's communications coordinator) for citation-accuracy verification only — NOT for consent (consent not required per public-record exception when the subject's quote was made in institutional capacity from on-record speech).
+**Status:** Colden model pre-staged at `research/outreach/subjects/colden/pre-publication-citation-verification-packet_2026-05-13.md`; courtesy-notify-for-citation-accuracy packets to fire pre-submission to 15 other public-record-exception named subjects per Stage 5 V-D light re-sign-off §7 (was "14" pre-2026-06-01; corrected per F-COV-L2 carry-forward of underlying 16-vs-15 named-subject count error). Each packet asks the subject (or the subject's communications coordinator) for citation-accuracy verification only — NOT for consent (consent not required per public-record exception when the subject's quote was made in institutional capacity from on-record speech).
 
 **Subjects pending packet fire:**
 
