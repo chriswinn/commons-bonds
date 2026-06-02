@@ -37,10 +37,10 @@ Specific frictions the doctrine resolves (surfaced by the Ch 1 Pass 3 REAUDIT v3
 | **1** | Ready-to-draft gate (three sub-steps: 1a invariant + 1b structure + 1c coherence) | [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md) + [`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`](../drafting-templates/stage-1-audience-aware-structure-pass.md) + [`tools/drafting-templates/audience-pressure-test-construction.md`](../drafting-templates/audience-pressure-test-construction.md) |
 | **2** | Audience-blind drafting | [`tools/drafting-templates/stage-2-audience-blind-flow-draft.md`](../drafting-templates/stage-2-audience-blind-flow-draft.md) |
 | **3** | **Five-pass rigor audit** (3.1 fact-check + 3.2 voice-polish + 3.3 audience-load acceptance + 3.4 audience-load robustness + **3.5 developmental-edit per Amendment B 2026-05-18**) | [`tools/drafting-templates/stage-3-three-pass-rigor-audit.md`](../drafting-templates/stage-3-three-pass-rigor-audit.md) (v3.0 four-pass split + v3.1 Amendment B Pass 3.5 codification) |
-| **4** | Render + character-integrity audit | [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) |
+| **4** | ~~Render + character(glyph)-integrity audit~~ **RELOCATED to toolchain (Amendment E refinement 2026-06-02 — §14.7); not a per-artifact stage** | [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) |
 | **5** | Academic-rigor + prose-quality sign-off bookend + pre-publication review queue artifact | [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md) |
 
-> **Amendment E (2026-06-02) adds a Portfolio layer above this per-artifact pipeline and rebuilds the Stage 0–2 front-end as `gather → [material-readiness gate] → allocate → plan → generate (min-only, no maximum) → cut`.** See §14 + the detailed spec. The Stage 3/4/5 cascade is unchanged.
+> **Amendment E (2026-06-02) adds a Portfolio layer above this per-artifact pipeline and rebuilds the Stage 0–2 front-end as `gather → [material-readiness gate] → allocate → plan → generate (min-only, no maximum) → cut`.** See §14 + the detailed spec. The Stage 3 + Stage 5 cascade is unchanged; **Stage 4 (render/glyph integrity) is relocated out of the per-artifact pipeline to toolchain-level rendering sessions per §14.7.**
 
 ---
 
@@ -556,6 +556,8 @@ This session ratified all 11 decisions; remaining open items (carry-forward from
 **§14.5 Disposition of handoff amendments X.1–X.6.** X.1 (fresh-start Stage 2) demoted to a legacy fallback for old-max-length-regime essays. X.2/X.3 = prose-craft made structural (brief §5 + the Cut phase). X.4 = standalone memory entry (`tools/memory/feedback_cost_constraint_removal_default_reset.md`). X.5 relocated to the readiness gate's `RECONSIDER`. X.6 widened (see §14.4).
 
 **§14.6 Deferred (downstream work, not framework gaps).** Per-essay differentiation *criteria* (both axes); corpus-wide audit scope; Atlantic Ideas editorial cut/focus timing. See the detailed spec §7.
+
+**§14.7 Stage 4 relocation (refinement, ratified 2026-06-02).** Stage 4 ("render + character-integrity audit") is **removed from the per-artifact pipeline.** "Character-integrity" there always meant **glyph/typography integrity** (em-dash/≈ tofu-boxes, accents, EB Garamond font naming, math-formula corruption) — not portrayal of named people. That is a **toolchain concern**, handled in dedicated rendering-pipeline sessions fired corpus-wide when render issues surface, NOT a per-essay gate. The author's actual practice already works this way: render problems are debugged in the rendering pipeline itself, not in the individual essay/chapter/op-ed. Effect: the per-artifact pipeline runs Stage 0–3 → Stage 5; the author's own read-through and sharing-for-human-review are author activities, not pipeline stages. The cascade is **3.1 → 3.2 → 3.3 → 3.4 → 3.5 → Stage 5.** (The `commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md` doc is retained as the rendering-pipeline reference, now toolchain-scoped rather than per-artifact.)
 
 ---
 
