@@ -293,3 +293,86 @@ Proposed:
 **Update author handling:** Author has indicated they will continue manual portal checks. This investigation cannot improve on real-time observation; the §8 ranking is a prior over candidate moments, not an authoritative answer. Author's manual check IS the authoritative signal. Suggest the author keep a short timestamp log of "checked at HH:MM EDT — state X" — this becomes useful evidence if the portal-open moment falls in a pattern (e.g., a specific top-of-the-hour or top-of-the-minute moment that confirms cron vs human-toggle).
 
 *§8 update added Sun May 31 2026 ~21:00 EDT.*
+
+---
+
+## §9 Update 3 — empirical anchors through 09:24 EDT Mon Jun 1 — all standard cron candidates falsified
+
+**Author observation log (continued through Mon Jun 1 morning):**
+
+| Check time (EDT) | Portal state | Falsifies hypothesis |
+|---|---|---|
+| 12:00–12:05 EDT Mon Jun 1 | CLOSED | NYC EDT midnight (00:00 EDT Mon) — already past at this check; falsified at the actual moment |
+| 01:30 EDT Mon Jun 1 | CLOSED | NYC midnight + 90 min cron lag — implicitly falsified |
+| 04:30 EDT Mon Jun 1 | CLOSED | London BST business-open (~03:00–04:00 EDT Mon) — FALSIFIED |
+| 07:00 EDT Mon Jun 1 | CLOSED | London office mid-morning — implicitly falsified |
+| 07:30 EDT Mon Jun 1 | CLOSED | London office late-morning — implicitly falsified |
+| 09:24 EDT Mon Jun 1 | CLOSED | **NYC business-open (~09:00 EDT Mon) — FALSIFIED** |
+
+**Effect on §8 hypothesis ranking:** All four "remaining candidates" from §8 are now falsified through 09:24 EDT. Specifically:
+- NYC EDT midnight (HIGH plausibility in §8) — **FALSIFIED**
+- London BST business open ~03:00–04:00 EDT Mon (MEDIUM) — **FALSIFIED**
+- NYC business open ~09:00 EDT Mon (LOWER) — **FALSIFIED** (9:24 EDT is well into Haselby's NYC workday — if he were going to manually toggle the portal at workday-start, it would be open by now)
+
+**The decision-tree threshold from §8 has been crossed.** §8 said: "If portal is still closed by ~09:00 EDT Mon Jun 1, the queue-position rationale evaporates entirely (all global submitters are now blocked equally). At that point, the right move is 'submit cleanly when portal opens, no matter the hour'; no need to anchor to a specific candidate window."
+
+We are past that threshold. The question is no longer "which timezone clock does the portal cron run on" but **"is the June 2026 pitch window happening at all, and if so, on what schedule?"**
+
+**Remaining hypotheses (revised after 09:24 EDT falsifications):**
+
+| Hypothesis | What it predicts | Plausibility now |
+|---|---|---|
+| **June window paused / delayed by Aeon** | Portal opens later this week or next month; possibly tied to May 2026 Philosophy Prize bandwidth friction continuing through June | **HIGH (revised up from LOW-MEDIUM in §8)** |
+| **Cadence changed** (e.g., "first Wednesday of month," "second week of month") and Haselby's old tweets are stale | Portal opens later this week | MEDIUM — but no Haselby tweet announcing change surfaced in web search |
+| **Portal opens NYC afternoon Mon Jun 1** (~12:00–17:00 EDT, e.g., Haselby has a calendared "open the portal" task post-lunch) | Portal opens later today | LOWER-MEDIUM — would be unusual cron design |
+| **Technical issue** (Vercel deploy / CDN cache / portal misconfigured) | Portal SHOULD be open but is showing closed due to bug | LOW-MEDIUM — possible but would normally be fixed within 23+ hours of author's first observation |
+| **Window opens at end-of-NYC-business-day Mon Jun 1** (~17:00 EDT) | Portal opens later today | LOWER |
+
+**Most-likely explanation:** **June window paused or delayed.** The 2026-05-08 Aeon submission strategy artifact explicitly noted that "the May 2026 portal closing on schedule rather than extending due to the Philosophy Prize bandwidth pressure" was an empirical observation that informed timing strategy. If that bandwidth pressure has continued into June (e.g., a backlog of Philosophy Prize entries still being processed; staffing change; editorial reorganization), Aeon may have quietly paused the June window without a public announcement. This pattern — pause without announcement — would be consistent with: (a) no Haselby tweet surfaced in web search confirming June; (b) no `@aeonmag` social-channel update surfaced; (c) the portal status page itself shows no countdown / explanation (per author's repeated checks).
+
+**Revised recommendation (supersedes §8):**
+
+1. **Stop checking the portal hourly.** The empirical pattern is clear: it is not opening on any standard schedule we can predict. Continued checks consume the author's attention without informational value.
+2. **Set a single later check window: Mon Jun 1 ~17:00 EDT (end of NYC business).** If portal opens by then, submit. If not, escalate per (3).
+3. **If still closed at 17:00 EDT Mon Jun 1: SEND COURTESY EMAIL to Aeon.** Draft text in §9.1 below. Single short email; no follow-up unless they reply.
+4. **Treat Aeon June window as on-hold for portfolio purposes.** The V-E pitch is ratified and ready; if Aeon June window fails, redirect attention to other workstreams (Noema, op-ed cascade, agent batch) per the 2026-05-08 strategy's Phase 3 framing. Aeon July window (Wed Jul 1–Sun Jul 5 per the strategy artifact) remains a fallback.
+5. **If Haselby or `@aeonmag` posts a "delayed" update at any point today/tomorrow:** that's the authoritative signal — supersede this analysis with whatever Aeon says.
+
+### §9.1 Suggested courtesy-email text (if still closed at 17:00 EDT Mon Jun 1)
+
+Single short email, professional tone, no salutation hedge per the V-E pitch discipline. Send via `aeon.co/contact` (or directly to Sam Haselby's published email if author has it from prior correspondence; otherwise contact form).
+
+**Subject:** Confirming June 2026 pitch window status
+
+**Body:**
+```
+Hi — I noticed aeon.co/pitch is showing as closed today (Mon Jun 1, ~17:00 EDT at time of writing); I'd planned to submit a Philosophy-desk pitch this cycle and wanted to confirm whether the June window is delayed or whether I should hold for the July window instead. Working title: The Mask of Abundance.
+
+Thanks,
+Chris Winn
+```
+
+**Word count:** ~60 words. No need for elaboration; the courtesy is the inquiry itself.
+
+**Do NOT include the pitch body** in the email — that's portal submission territory; pre-submitting via email would land as a workflow violation. The email is a status query only.
+
+**Do NOT follow up** if Aeon doesn't respond within 48-72 hours. Aeon editors don't owe a status response to a pitcher; if they choose to reply, that's a courtesy; if they don't, treat the silence as "wait and watch" and check the portal again in 24-48 hours.
+
+### §9.2 Portfolio implication
+
+The book's content-complete state + the cross-essay portfolio means the Aeon June window is one of several active distribution paths, not a load-bearing single bet. If June fails:
+- V-E pitch is preserved and ready for Aeon July window (Wed Jul 1–Sun Jul 5).
+- V-E could be repurposed for Noema's commons-bonds pitch (different audience but adjacent register).
+- Other downstream pitches in the portfolio continue independently.
+
+The lost cost of Aeon June is ~4 weeks of editorial pipeline delay, not a portfolio-breaker.
+
+### §9.3 What I cannot rule out
+
+- Aeon may open the portal later today (NYC afternoon or late) — keep one Mon 17:00 EDT check open before escalating.
+- Aeon may be experiencing a technical issue that's auto-resolving — the courtesy email gives them low-friction visibility on the failure if it's a bug.
+- Aeon may have changed the cadence to e.g. "first Wednesday" and the old tweets are stale — Wednesday Jun 3 would be the next observable open candidate.
+
+**Confidence on §9:** MEDIUM-HIGH on "June window not opening on any standard schedule today"; MEDIUM on "June window has been quietly paused/delayed"; HIGH on "right move is one Mon 17:00 EDT check + escalate by email if still closed."
+
+*§9 update added Mon Jun 1 2026 ~09:45 EDT after author observation log through 09:24 EDT.*
