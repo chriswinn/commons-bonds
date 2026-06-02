@@ -46,8 +46,8 @@ without an explicit author-ratified book-amendment session.
   - (c) The taxonomy recurs cross-chapter; changing it is a cross-chapter
     coherence operation, not a one-line edit.
 - **Author signal (2026-06-02):** leaning toward removing Marx from the book
-  too — "[the] attack is highly likely and I'm guessing well funded, so no
-  reason to widen our attack surface for zero gain." Not yet a decision.
+  too — "its attack is highly likely and I'm guessing well funded so no reason
+  to widen our attack surface for zero gain." Not yet a decision.
 - **Recommendation:** **DO NOT auto-propagate.** Hold for an explicit
   book-amendment session. If pursued, it is a cross-chapter change (identify all
   Marx/four-traditions occurrences → amend → cross-chapter coherence check →
