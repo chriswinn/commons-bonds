@@ -382,4 +382,26 @@ The audit's recommendation is option 2 (RECOMMEND HYBRIDIZATION) if the author h
 
 ---
 
-*End of Boston Review essay three-way comparison rigor audit 2026-05-28 — COMPLETE; awaiting author disposition.*
+---
+
+## §10. Documentation NB — 2026-06-02 (post-V-G-test correction)
+
+**Discovered during Phase C8 V-G structural-choice test (filed at [`v-g-structural-choice-V-handoff_2026-06-01.md`](v-g-structural-choice-V-handoff_2026-06-01.md), 2026-06-01):**
+
+The claims at lines 37, 144 (own self-description carried forward from ALT-NORM-PUNCT's drafter note), 223, 228, 254, 285, 295, 310, and 344 that **ALT-NORM-PUNCT "drops the canonical cut's §V 'The two instruments that follow...' restatement-of-pivot"** are **factually incorrect**. Grep-verification 2026-06-01 + Phase C8 first-principles read of the ALT-NORM-PUNCT source at [`_archive/parallel-drafts_2026-05-28/boston-review-essay_alt_normal-punctuation_260528-611ed5.md`](../_archive/parallel-drafts_2026-05-28/boston-review-essay_alt_normal-punctuation_260528-611ed5.md) line 98 confirms ALT-NORM-PUNCT **preserves the restatement-of-pivot verbatim**, identical to LOCKED + V-D + V-E.
+
+**Origin of the error:** ALT-NORM-PUNCT's own drafter-authored comparison note (its line 144) claimed the alt drops the restatement. The three-way comparison artifact inherited this self-description without independently verifying it against the body of the alt source. This is a discipline lesson: drafter self-descriptions are themselves audit surfaces (per `feedback_audit_recent_active_review_default.md` calibration question).
+
+**Impact:**
+- The SHIP-V-D / SHIP-V-E recommendations stand. V-D and V-E both preserve LOCKED's §V handoff restatement; the recommendation analysis is correct.
+- The §I date-range-first opening claim about ALT-NORM-PUNCT is correct (independently verified at ALT-NORM-PUNCT line ~ "Between 1963 and 1990, the W. R. Grace and Company...").
+- The "structural choices outside ratified envelope" framing for ALT-NORM-PUNCT is partially incorrect: only the §I opening is outside the envelope; the §V handoff is identical to LOCKED's ratified state.
+- The Phase C8 V-G test was reframed as first-principles structural evaluation (rather than V-E-vs-ALT-NORM-PUNCT comparison) and concluded V-E PRESERVED (V-G drop NOT recommended).
+
+**No retroactive edits to historical body text in §§1-9.** The historical claims preserve as audit-trail record; this §10 NB carries the correction forward for future-reference + downstream-artifact-coherence.
+
+**Downstream artifacts inheriting the incorrect framing:** the V-D drafter's-self-audit; the prior V-D bundled 3.3+3.4 independent audit; the V-D fresh three-pass re-audit; the V-E application artifact. All carried the framing "ALT-NORM-PUNCT structural choices outside ratified envelope include §V handoff drop" without independently verifying. The corrected framing: ALT-NORM-PUNCT carries one structural choice outside the LOCKED ratified envelope (§I date-range-first opening), not two. The recommendations downstream still hold because V-D / V-E preserve LOCKED's §V handoff regardless.
+
+---
+
+*End of Boston Review essay three-way comparison rigor audit 2026-05-28 — COMPLETE; §10 NB appended 2026-06-02; awaiting author disposition.*
