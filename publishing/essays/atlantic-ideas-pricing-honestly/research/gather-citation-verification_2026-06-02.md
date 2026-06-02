@@ -17,9 +17,13 @@ each citation's state. It directly answers the author's two questions
 (2026-06-02): *why wasn't this verified before drafting, and why was the Darity
 longevity citation omitted?*
 
-**Headline:** the Gather phase **confirms 2 citations** (one already used
-solidly in the draft) and **keeps 2 tentative** — which *validates* the
-drafter's caution. The write-around and the omission were the correct calls.
+**Headline (updated 2026-06-02):** the Gather phase now **confirms 3 citations**
+and **keeps 1 tentative** (the Mian/Sufi multiplier). The longevity citation,
+initially omitted, was upgraded to CONFIRMED after a deeper search found the
+Darity-coauthored *JAMA Network Open* paper — and is now grafted into the essay
+(author direction). The Mian/Sufi write-around remains the correct call. Net:
+the Gather phase first validated the drafter's caution, then *recovered* a
+citation worth including — exactly the abundance-then-verify discipline.
 
 ## Per-citation verdicts
 
@@ -28,7 +32,7 @@ drafter's caution. The write-around and the omission were the correct calls.
 | 1 | **Darity & Mullen, *From Here to Equality* — ~$14T** | **CONFIRMED** | "At least $14 trillion" to eliminate the racial wealth gap (Darity, CNBC 2023-01-28; book's specific build: $10.7T / ~$267,000 per person for ~40M eligible). Tier W — freely quotable per Darity 2026-05-13 interview Q0. | **Used, line 71** — "on the order of fourteen trillion dollars." | **KEEP — pinned.** Lands solidly; figure verified. |
 | 2 | **Mian & Sufi, *House of Debt* (2014) — qualitative claim** | **CONFIRMED** | High-leverage / low-net-worth borrowers have a higher MPC than creditors; debt restructuring would have produced more consumption recovery than the bank-recapitalization architecture (House of Debt, Univ. Chicago Press 2014; multiple reviews confirm the MPC-differential mechanism). | **Used qualitatively** in "the politics of resistance" section. | **KEEP** as written. |
 | 3 | **Mian & Sufi — specific "3-to-4× / bottom 40%" multiplier** | **TENTATIVE (unverified)** | NOT found in accessible secondary sources (moneyandbanking.com commentary, multiple book reviews, Stern working paper surface only the *qualitative* MPC differential, no "3–4×" or bottom-40% ratio). Brief §7.4 flagged it Pass-1-PROPOSED. | **Wrote around it** qualitatively — correct call. | **DO NOT PIN.** Needs primary-text page-pin (House of Debt / Mian-Sufi-Rao QJE 2013) or editor-side fact-check before any number is stated. Carry-forward to pre-pub review queue. |
-| 4 | **Darity longevity-gap "~6–7 years"** | **TENTATIVE (corrected) / OMIT** | Current Black–white life-expectancy gap is ~4 yr overall (pre-pandemic 5.2 yr men / 3.1 yr women, NCHS/CDC); ~6 yr was the COVID-era *peak* (2020–21), narrowing since 2022. No specific Darity "pricing the longevity gap" paper located. So "~6–7 years average" is not supported. | **Omitted** — correct call. | **Keep omitted**, OR if wanted, cite the verified ~4–5 yr figure to **NCHS/CDC**, NOT a Darity-attributed 6–7. Don't attribute a specific Darity reference unless found. |
+| 4 | **Darity longevity-gap** | **CONFIRMED (upgraded 2026-06-02)** | A deeper search located the pinnable Darity-coauthored paper: **Himmelstein, Darity, et al., "Association Between Racial Wealth Inequities and Racial Disparities in Longevity Among US Adults and Role of Reparations Payments, 1992 to 2018," *JAMA Network Open* (2022).** Black median life expectancy **77.5 yr** vs White **81.5 yr** (a **4-year gap**); after adjusting for wealth, racial survival difference **disappeared** (HR 1.00, 95% CI 0.92–1.08); modeled reparations of **$828,055/household** would close the gap by **65.0–102.5%**. The earlier "~6–7 yr" figure was wrong (that was the COVID-era peak); the verified gap is **4 years**, and Darity IS a co-author (Tier W, citable). | Initially omitted; **now grafted** into the politics-of-resistance section (after the $14T paragraph) per author direction 2026-06-02. | **INCLUDE.** Frame as "a research team that included William Darity, Jr." (he is a co-author, not lead — accurate attribution). The wealth-drives-longevity mechanism is the strongest version of the cost-severance argument: the severed cost is paid in years of life, and honest accounting closes it. |
 
 ## What this demonstrates
 
@@ -52,3 +56,4 @@ drafter's caution. The write-around and the omission were the correct calls.
 - [Black–white life expectancy gap (KFF, racial disparities in life expectancy)](https://www.kff.org/racial-equity-and-health-policy/racial-disparities-in-life-expectancy/)
 - [NCHS Data Brief No. 521 (Dec 2024) — life expectancy](https://www.cdc.gov/nchs/data/databriefs/db521.pdf)
 - [Princeton SPIA — Black–white life expectancy gap narrowing](https://spia.princeton.edu/news/life-expectancy-gap-between-black-and-white-americans-closes-nearly-50-30-years)
+- [Himmelstein, Darity, et al. — Racial Wealth Inequities and Longevity, *JAMA Network Open* 2022 (PMC9641537)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9641537/)
