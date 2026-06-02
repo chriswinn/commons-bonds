@@ -145,20 +145,57 @@ author's discuss-then-draft discipline. The sequence:
   - *Publisher + audience intelligence* — who receives this, what their
     editorial brain wants (deepens existing Stage 1b + Amendment D
     reception-chain weighting into its own deliberate phase).
-  - *Citation / adjacent-works harvest* — collect the public-domain quotes,
-    adjacent scholarship, on-record interviews, and other material citable
-    under fair use *available* to this piece. New to the doctrine. Anchored in
-    the author's McDowell/Chesapeake insight: the book unblocked not by funding
-    travel to extraction sites for original quotes, but by *recognizing* that
-    an overabundance of public works + on-record interviews was already citable
-    under fair use — "more citable work than we could ever fit." The gap was
-    **research/recognition, not fieldwork.** **Abundance is the precondition
-    for good prose, not a nice-to-have.** Harvested material runs through the
-    two-state fabrication gate (§5).
+  - *Citation / adjacent-works harvest* — operates in three layers:
+    - **(1) Collect what exists, broadly.** Public-domain quotes, adjacent
+      scholarship, on-record interviews, and other material citable under fair
+      use *available* to this piece. Abundance-first — do NOT pre-filter to
+      "only what this piece needs," which would narrow the harvest and defeat
+      the abundance principle. Collecting what exists is valuable in its own
+      right: during information-gathering it **maps what has already been said
+      on the subject**, and that map is what reveals **what has not been said
+      yet** — i.e., it is the direct input to the external-field
+      differentiation axis (§2.1, `differential-positioning.md`). You cannot
+      credibly claim the unsaid without first surveying the said.
+    - **(2) Goal-directed overlay.** As material is collected, keep an ear open
+      for — and tag — the subset that specifically *accomplishes what this
+      piece needs to land* (supplies the analytical anchor, the counterargument
+      source, the human face, etc.).
+    - **(3) Outstanding-needs note.** Record which landing-requirements existing
+      fair-use material already satisfies, and which remain **outstanding /
+      still needed.** This note is what the material-readiness gate consumes.
+
+    New to the doctrine. Anchored in the author's McDowell/Chesapeake insight:
+    the book unblocked not by funding travel to extraction sites for original
+    quotes, but by *recognizing* that an overabundance of public works +
+    on-record interviews was already citable under fair use — "more citable
+    work than we could ever fit." The gap was **research/recognition, not
+    fieldwork.** **Abundance is the precondition for good prose, not a
+    nice-to-have.** Harvested material runs through the two-state fabrication
+    gate (§5).
 - **Material-readiness gate (between Gather and Allocate).** Before allocating,
   an explicit verdict on whether there is enough material to brief this piece
   (sibling-session addition, 2026-06-02). Three verdicts:
-  - `READY-TO-ALLOCATE` — abundance pool is rich enough; proceed to Allocate.
+  - `READY-TO-ALLOCATE` — **the common, default outcome.** Most
+    essays/chapters/op-eds land cleanly with no fieldwork. Reached by any of
+    three routes:
+    - **(i) No external citations needed at all** *(distinct callout)*. The
+      piece's argument stands on its own reasoning / the author's framework and
+      requires no external sourcing to land. Fieldwork question never arises.
+    - **(ii) Sufficient fair-use material already exists** — the harvest pool
+      and the outstanding-needs note (Gather layer 3) show every landing-
+      requirement is met by existing citable material.
+    - **(iii) Explicit thought-experiment / theoretical register** — the
+      subject is future, counterfactual, or theoretical, so no real
+      interviewable subject exists or *can* exist (the asteroid-miner in Aeon
+      *Mask of Abundance* + book Ch 7; the $100-barrel sections). The "missing
+      face" is not a fillable gap; the theoretical analysis **is** the
+      contribution (it is where the CIT + the framework were established —
+      arguably among the author's biggest contributions). **Guardrail:** this
+      route is legitimate ONLY under the no-invented-claims hard rule's narrow
+      exception — the theoretical register must be **explicitly signaled in the
+      prose** (the Ch 7 *On Other Worlds* model), and a fictional subject must
+      **never** be rendered with invented biographical detail presented as
+      real. The absence of a real subject is honored openly, not invented away.
   - `NOT-READY-NEEDS-X` (X enumerated) — gaps remain; specify what closes them.
     **X requires a two-branch diagnosis before this verdict stands:**
     - **(a) Mis-diagnosed gap.** What looks like a material shortage is
@@ -181,20 +218,47 @@ author's discuss-then-draft discipline. The sequence:
     genuine-gap (branch b) piece lands when the fieldwork is not worth it
     right now** (see cost-justification below).
 
-  **Cost-justification decision (branch b).** When the gap is genuine and only
-  real-world acquisition closes it, the gate forces an explicit
-  portfolio-level decision: *is this piece worth the fieldwork cost + time,
-  given everything else in the queue?* The binding cost here is **real-world —
-  author time, travel money, clock time — NOT tokens** (consistent with the
-  ratified token-cost-not-a-constraint memory; the constraints that bind are
-  attention + clock + real expense). Two outcomes:
-  - **Worth it → commit the fieldwork investment.** The verdict stays
-    `NOT-READY-NEEDS-X` with a *justified* acquisition plan; the piece waits
-    for the material.
-  - **Not worth it now → `RECONSIDER` / postpone.** Defer the piece in favor of
-    higher-priority work whose material is already in hand (or cheaper to
-    acquire). This is a portfolio-prioritization call, not a verdict that the
-    piece is bad — it may re-enter the queue when priorities or resources shift.
+  **Branch (b) first classifies the gap as blocking vs non-blocking:**
+  - **Blocking gap** — the piece cannot land at all without the missing
+    element. → run the cost-justification (below); close it via fieldwork or
+    `RECONSIDER`.
+  - **Non-blocking gap** — the piece lands as-is but *weaker* (worked example:
+    it lands, but has no human *face* / personal story to carry it). → choose
+    among the **four paths** below.
+
+  **Cost-justification / EV decision.** When closing the gap requires
+  real-world acquisition, the gate forces an explicit, portfolio-level
+  **expected-value** decision: *does the value of closing the gap (materially
+  better landing odds, a human face, a decisive source) justify the fieldwork
+  cost + time, given everything else in the queue?* The binding cost is
+  **real-world — author time, travel money, clock time — NOT tokens**
+  (consistent with the ratified token-cost-not-a-constraint memory; the
+  constraints that bind are attention + clock + real expense).
+
+  **Four paths for a non-blocking gap:**
+  1. **Ship as-is now.** The piece lands without the element; accept it is
+     somewhat weaker. Verdict effectively `READY-TO-ALLOCATE`.
+  2. **Postpone for fieldwork while prioritizing other work.** EV of the
+     fieldwork is high enough to wait; verdict stays `NOT-READY-NEEDS-X` with a
+     justified acquisition plan, but lower-priority than work whose material is
+     in hand.
+  3. **Ship now, upgrade in a later printing/version.** Ship without the
+     element now; add it once fieldwork happens. Mirrors the ratified
+     named-subject **upgrade-window** discipline (anonymize/omit now, restore
+     later) — see `tools/memory/feedback_named_subject_consent.md`.
+  4. **Reframe in explicit thought-experiment register.** When the gap is
+     *structurally unfillable* because the subject is theoretical/future/
+     counterfactual (no real subject exists or can exist — the asteroid-miner
+     case), the "missing face" is a category error, not a gap. Reframe the
+     piece to operate openly in theoretical register; the theoretical analysis
+     is the contribution. **Same guardrail as `READY-TO-ALLOCATE` route (iii):
+     explicit register signaling + no fabricated-as-real subject.**
+
+  For a **blocking** gap the EV decision collapses to two outcomes: **worth
+  it → commit the fieldwork** (verdict stays `NOT-READY-NEEDS-X` with a
+  justified plan); **not worth it now → `RECONSIDER` / postpone** for
+  higher-priority work. Not a verdict that the piece is bad — it may re-enter
+  the queue when priorities or resources shift.
 
   *Empirical anchors (corrected 2026-06-02).* Branch (a): the McDowell County /
   Chesapeake Bay moment — the book *appeared* blocked in `NOT-READY-NEEDS-X`
@@ -206,11 +270,17 @@ author's discuss-then-draft discipline. The sequence:
   question "is X genuinely missing, or do we simply not yet recognize the
   abundance that already exists?" Branch (b): a piece for which no published or
   on-record material exists — the gate must NOT hand-wave the gap away; it must
-  run the cost-justification and either commit the fieldwork or postpone the
-  piece. The current pipeline handles readiness implicitly (the brief just
-  doesn't get written until someone feels ready); the explicit gate makes the
-  state, the branch-(a)-vs-(b) diagnosis of X, and the cost-justification all
-  visible + auditable.
+  classify blocking vs non-blocking and run the EV decision. Thought-experiment
+  route (READY route iii / non-blocking path 4): the asteroid-miner in Aeon
+  *Mask of Abundance* + book Ch 7 + the $100-barrel sections — no asteroid
+  miners exist, so no interview is possible *or needed*; the theoretical
+  analysis is where the CIT + framework were established. The gate must
+  recognize this as `READY`, not chase an impossible interview — under the
+  explicit-register + no-fabrication guardrail. The current pipeline handles
+  readiness implicitly (the brief just doesn't get written until someone feels
+  ready); the explicit gate makes the state, the branch-(a)-vs-(b) diagnosis of
+  X, the blocking/non-blocking classification, and the EV/cost-justification
+  all visible + auditable.
 
   *Location (refinement):* defaults to a **preface section of the
   drafting-plan artifact** (§4, under "Allocation & scope"). Promote to a
@@ -510,14 +580,14 @@ we go" (2026-06-02). The rest remain open:
 |---|---|---|
 | 1 | Reframe compression as a generation-time (max-length) failure, not a rigor failure | Relocates the corrective upstream; motivates min-only generation and demotes the fresh-draft diagnostic from permanent step to legacy fallback |
 | 2 | Add a standing **Portfolio layer** (duplication matrix + unique-contribution profiles + allocation decisions) above the per-artifact pipeline | Cross-artifact decisions can't be made correctly inside a single artifact's pipeline; a compressed *map* gives coherence without holding all text in one context; generalizes the existing `_BookLevelGuidance.md` migration instinct corpus-wide |
-| 3 | Rebuild the per-artifact front-end as **gather → [material-readiness gate] → allocate → plan → generate → cut → cascade → calibrate** | Encodes the author's discuss-then-draft discipline; abundance precedes drafting; two cuts at two grains (coarse pre-draft scope; fine post-draft fat) |
+| 3 | Rebuild the per-artifact front-end as **gather → [material-readiness gate] → allocate → plan → generate → cut → cascade → calibrate**. Gather's harvest is **three-layer**: (1) collect-what-exists broadly (abundance + field-map of what's already said), (2) goal-directed overlay (tag what accomplishes landing), (3) outstanding-needs note (what the gate consumes) | Encodes the author's discuss-then-draft discipline; abundance precedes drafting; broad collection maps the said → reveals the unsaid (feeds external differentiation, row 9); two cuts at two grains (coarse pre-draft scope; fine post-draft fat) |
 | 4 | **Min-only generation, no maximum** | Max-length manufactured compression; venue-anchored floor + abundance lets the drafter write each element fully |
 | 5 | Re-sort X.1–X.6 into the two homes (X.1 demoted to legacy fallback; X.2/X.3 prose-craft made structural; X.4 standalone memory; X.5 relocated to front-end; X.6 widened to bidirectional incl. portfolio) | Once the two levels exist, four of the six amendments are consequences; the re-sort reveals X.1/X.5 were symptoms of the missing layer + max-length root cause |
 | 6 | Replace per-chapter GuidanceDocs with a **disposable, sectioned drafting-plan artifact** that points up to the portfolio map | Fixes the four observed GuidanceDoc failure modes (mixing, accretion, no available-vs-decided split, no upward pointer); makes discuss-then-draft portable |
 | 7 | **Two-state citation model** (tentative w/ provenance → confirmed on landing) + fabrication gate built into the gather phase | Harvest is where fabrication enters; catching it at harvest is far cheaper than at Pass 3.1; provenance-at-tentative enforces the hard no-invented-claims rule |
 | 8 | **Length calibration discipline** — running actual-vs-minimum tally used descriptively, never as a target | Cutting fat beats adding substance; but lowering minimums to match observed overage would re-smuggle length-targeting; tally guides *our* floor choice, not the drafter's optimization |
-| 9 | **Two differentiation axes** (§2.1) — internal-corpus (matrix) + external-field (`differential-positioning.md`, fed by Gather harvest) | A piece can be internally-unique-vs-siblings yet externally-redundant-with-the-field ("restates Christophers in his own voice"); both axes must clear the bar; external axis reuses the already-harvested, fabrication-gated adjacent works |
-| 10 | **Material-readiness gate** (§2.2) — `READY-TO-ALLOCATE` / `NOT-READY-NEEDS-X` / `RECONSIDER` between Gather and Allocate; `NOT-READY-NEEDS-X` carries a two-branch diagnosis + cost-justification; `RECONSIDER` = X.5 substrate-question | Makes readiness visible + auditable. `NOT-READY-NEEDS-X` must diagnose: **(a) mis-diagnosed gap** (unrecognized fair-use abundance → really `READY`; the McDowell/Chesapeake catch) vs **(b) genuine gap** (zero citable material; only fieldwork closes it). Branch (b) forces a cost-justification — is the piece worth the fieldwork time/travel/clock (NOT tokens)? Worth it → commit + wait; not worth it → `RECONSIDER`/postpone for higher-priority work. Defaults to a drafting-plan preface |
+| 9 | **Two differentiation axes** (§2.1) — internal-corpus (matrix) + external-field (`differential-positioning.md`, fed by Gather harvest layer 1's field-map of what's already been said) | A piece can be internally-unique-vs-siblings yet externally-redundant-with-the-field ("restates Christophers in his own voice"); both axes must clear the bar; external axis reuses the already-harvested, fabrication-gated adjacent works — you cannot claim the unsaid without first surveying the said |
+| 10 | **Material-readiness gate** (§2.2) — `READY-TO-ALLOCATE` (common, default) / `NOT-READY-NEEDS-X` / `RECONSIDER`; READY has 3 routes incl. a distinct no-citations callout + a thought-experiment route; `NOT-READY-NEEDS-X` = two-branch diagnosis + blocking/non-blocking + EV decision | Makes readiness visible + auditable. **Most pieces are simply `READY`** — no citations needed (i), or fair-use abundance exists (ii), or explicit thought-experiment register where no real subject exists/can-exist and the theory IS the contribution (iii; asteroid-miner/$100-barrel/Ch7/Aeon; guardrail: explicit register + no fabricated-as-real subject). `NOT-READY-NEEDS-X` diagnoses **(a) mis-diagnosed** (unrecognized fair-use abundance → really READY; McDowell catch) vs **(b) genuine gap**; (b) classifies blocking vs non-blocking and runs an EV decision (value of closing the gap vs real-world cost — time/travel/clock, NOT tokens). Non-blocking → 4 paths: ship-as-is / postpone-for-fieldwork / ship-now-upgrade-later (consent upgrade-window) / reframe-as-thought-experiment. Defaults to a drafting-plan preface |
 | 11 | **X.6 essay→book sub-cascade** (§3.1) — 6 steps, batched via `book-amendment-candidates.md`, hard (a)+(b)+(c) threshold, Cut-phase trigger, class-boundary flag at step 3 | Essay→book propagation is a workflow, not a line item; threshold + batching prevent constant firing; step 3 crosses into end-user-facing prose (merge-on-ratification), which the doctrine must flag or a session auto-merges a chapter change |
 | 12 | **Per-venue submission-norms artifact** (§6.1) at `publishing/venues/<venue>/submission-norms.md`, **partitioned by a contamination firewall** — drafter-safe block (editorial brain, format, minimum) vs editorial-only block (maximum, calibration band) | Venue norms are venue-property not essay-property (one source of truth, no per-essay duplication); BUT the artifact contains a maximum, and pointing the drafter at it would re-contaminate generation with a ceiling (§1) — so generation draws only from the drafter-safe block; Cut + Stage 5 consult the editorial-only block after generation |
 
