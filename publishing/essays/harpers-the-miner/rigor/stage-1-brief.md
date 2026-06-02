@@ -1,6 +1,6 @@
 # Ch 2 *The Miner* → Harper's Magazine — Pre-Draft Audience-and-Structure Rigor Pass v1.0.0 — 2026-05-26
 
-**Status:** **PROPOSED 2026-05-26.** Stage 1b deliverable produced under autonomous-mode adaptation (no author present for interactive Amendment C ratification). Awaits author ratification in a follow-on session per the standardized one-finding-at-a-time cadence; spot-fixes apply in the ratification session.
+**Status:** **PROPOSED 2026-05-26 → RATIFIED 2026-05-27 → AMENDMENT D RETROACTIVE UPDATE APPLIED 2026-06-01.** Stage 1b deliverable produced under autonomous-mode adaptation (no author present for interactive Amendment C ratification). RATIFIED 2026-05-27 per §18.4 Phase C ratification record. **Amendment D retroactive update 2026-06-01:** artifact-class classification + reception-chain weighting added per Amendment D Stage 1 doctrine §2.0 procedure step (see §0.5 below). No per-character verdict changes; classification formalizes what was already operating implicitly through Pass 3.3 RATIFIED 2026-05-27 + V1/V2/drafter audit verdicts on V-D hybrid. Author "ratify all as recommended and proposed" 2026-06-01 authorizes this retroactive update.
 
 **Workstream:** Wave 2, Candidate A — Ch 2 *The Miner* → Harper's Magazine derivative essay. Stage 0 batch ratification record at [`tools/rigor-passes/commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md`](commons_bonds_rigor_pass_2026-05-24_wave_2_derivative_planning_stage_0_v1.0.0.md) §12 Candidate A (RATIFIED 2026-05-25 commit `ba5e9f8`).
 
@@ -17,6 +17,52 @@
 - Reasoning embedded in artifact (decisions + reasoning + author-ratifiable-alternatives surfaced in-line; not deferred as separate findings).
 - Best-judgment calls per doctrine + Wave 1 brief examples + Stage 0 ratification-record closures; items genuinely requiring author input flagged 🔴 AUTHOR DECISION REQUIRED — DEFERRED TO RATIFICATION SESSION.
 - STATE at close = **PROPOSED**.
+
+---
+
+## §0.5. Amendment D — Artifact-class classification + reception-chain weighting (retroactive update 2026-06-01)
+
+Per Amendment D Stage 1 doctrine §2.0 procedure step (RATIFIED 2026-05-31; `tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_1_v1.0.0.md` §2.0; `tools/drafting-templates/audience-pressure-test-construction.md` §"Reception-chain audience weighting (Amendment D)"). This brief was RATIFIED 2026-05-27 pre-Amendment D; this section is a retroactive scaffolding cleanup to formalize the classification + weight-tags that were operating implicitly through Pass 3.3 RATIFIED 2026-05-27 + V1/V2 independent + drafter's-self-audit on V-D hybrid 2026-05-28.
+
+### §0.5.1 Artifact class
+
+**End-reader-facing essay / chapter / op-ed prose** (per Amendment D worked-examples table top row; `tools/drafting-templates/audience-pressure-test-construction.md` §"Reception-chain audience weighting (Amendment D)" §Artifact-class worked examples).
+
+### §0.5.2 Reception-chain weighting
+
+| Reception-chain tier | Weight | Membership |
+|---|---|---|
+| Direct readers | **HIGHEST** | All 16 audiences in §1 character set — they ARE the direct readers (published Harper's essay reaches all 16 reader-classes; no projection lens for any character) |
+| Consultants | HIGH | (none; buck stops at the audience set — Harper's editor's read IS already the eventual-reader-projection-through-editor's-lens that the published-essay artifact class collapses into the direct-reader category at Tier 1 #1 Beha) |
+| Projected downstream | LOWER | (n/a — no downstream projection beyond what the 16-character set captures) |
+
+### §0.5.3 Operational consequence at Stage 3
+
+Pass 3.3 / 3.4 / 3.5 verdicts apply at **full HIGHEST weight** to every character in §1. The brief's Tier 1 / Tier 2 / Tier 3 structure (gating / pipeline-strengthening / cultural-resonance) operates as **within-direct-reader weighting** independent of Amendment D's reception-chain layer:
+- Tier 1 EXCLUDE remains **dispositive** (blocks ship) per brief §1.
+- Tier 3 #11 (McDowell County resident) remains **dispositive cultural-resonance check** per brief §1 + Pass 3.3 RATIFIED baseline 2026-05-27 + V1/V2/drafter audit convergent verdict on V-D 2026-05-28.
+- All other tier-membership weights are unchanged from pre-Amendment-D operation.
+
+### §0.5.4 What changes vs what doesn't
+
+**Does not change:**
+- §1 audience set composition (16 characters across 3 tiers; unchanged)
+- Per-character verdicts at Pass 3.3 / 3.4 / 3.5 (V1 + V2 + drafter convergent on V-D 16/16 INCLUDE + ROBUST + CLEAN + HARD-RULE PASSED)
+- Tier-aggregate dispositive thresholds (Tier 1 EXCLUDE blocks ship; Tier 3 #11 dispositive)
+- Brief §4 structural decisions; §5 voice register; §6 Path B preemptive policy; §7 canonical-facts inventory; §8 apparatus exclusion list; §10 render-safe convention; §11 named-subject status; §12 length budget; §13 Stage 3 protocol
+
+**Does formalize (was implicit; now explicit):**
+- Artifact class classification (was operating as "end-reader-facing essay" implicitly; now named explicitly)
+- Reception-chain weighting (was operating as "all 16 audiences at face-value" implicitly; now recorded explicitly)
+- Operational consequence at Stage 3 (was producing correct verdicts implicitly; now traceable through Amendment D framework)
+
+### §0.5.5 What this brief is NOT classified as
+
+The cover letter to Christopher Beha (`publishing/essays/harpers-the-miner/cover-letter.md`) is a SEPARATE artifact class per Amendment D worked-examples table — **"Cover letter"** with direct reader = Beha (HIGHEST), consultants = deputy editor + second-opinion reviewer (HIGH), projected downstream = eventual Harper's readers (LOWER). The cover-letter Amendment-D-classified Pass 3.3 audit at editor-pitch-scale is a separate workstream (R-2 per parent session 2026-06-01) and is NOT covered by this brief's §1 character set.
+
+### §0.5.6 Retroactive update authority
+
+Author "ratify all as recommended and proposed" 2026-06-01 (parent session ratified the recommendation surfaced in the Ch 2 → Harper's V-D-promotion + Amendment-D review session). Per Amendment D Stage 1 doctrine §2.0: future Stage 1 briefs after 2026-05-31 carry artifact-class classification + weight-tags natively; this brief inherits the discipline through retroactive update.
 
 ---
 
