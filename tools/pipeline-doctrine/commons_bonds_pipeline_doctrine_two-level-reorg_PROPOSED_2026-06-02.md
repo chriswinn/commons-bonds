@@ -146,12 +146,15 @@ author's discuss-then-draft discipline. The sequence:
     editorial brain wants (deepens existing Stage 1b + Amendment D
     reception-chain weighting into its own deliberate phase).
   - *Citation / adjacent-works harvest* — collect the public-domain quotes,
-    adjacent scholarship, and citable material *available* to this piece. New
-    to the doctrine. Anchored in the author's McDowell/Chesapeake insight: the
-    book unblocked when fieldwork turned scarcity into surplus — "more citable
-    work than we could ever fit." **Abundance is the precondition for good
-    prose, not a nice-to-have.** Harvested material runs through the two-state
-    fabrication gate (§5).
+    adjacent scholarship, on-record interviews, and other material citable
+    under fair use *available* to this piece. New to the doctrine. Anchored in
+    the author's McDowell/Chesapeake insight: the book unblocked not by funding
+    travel to extraction sites for original quotes, but by *recognizing* that
+    an overabundance of public works + on-record interviews was already citable
+    under fair use — "more citable work than we could ever fit." The gap was
+    **research/recognition, not fieldwork.** **Abundance is the precondition
+    for good prose, not a nice-to-have.** Harvested material runs through the
+    two-state fabrication gate (§5).
 - **Material-readiness gate (between Gather and Allocate).** Before allocating,
   an explicit verdict on whether there is enough material to brief this piece
   (sibling-session addition, 2026-06-02). Three verdicts:
@@ -165,12 +168,20 @@ author's discuss-then-draft discipline. The sequence:
     front-end** (see §3 X.5) — the same judgment, now with a concrete verdict
     and a home rather than bolted onto the late cascade.
 
-  *Empirical anchor:* the McDowell County / Chesapeake Bay travel moment — the
-  book was blocked in `NOT-READY-NEEDS-X` where X was "field research +
-  first-hand observation of extraction sites"; travel was the gap-closer; the
-  verdict then flipped to `READY-TO-ALLOCATE`. The current pipeline handles
-  this implicitly (the brief just doesn't get written until material arrives);
-  the explicit gate makes the state visible + auditable.
+  *Empirical anchor (corrected 2026-06-02):* the McDowell County / Chesapeake
+  Bay moment — the book *appeared* blocked in `NOT-READY-NEEDS-X` where X was
+  mistaken for "funding to travel to extraction sites and get usable quotes."
+  Stepping back revealed the real situation: an overabundance of public works +
+  on-record interviews was already citable under fair use. The actual gap was
+  **research/recognition, not fieldwork or funding** — and once recognized, the
+  verdict was already `READY-TO-ALLOCATE`. This is the gate's *highest-value*
+  function: `NOT-READY-NEEDS-X` must force the question "is X genuinely
+  missing, or do we simply not yet recognize the abundance that already
+  exists?" A mis-diagnosed gap (perceived scarcity that is actually
+  unrecognized fair-use surplus) is the failure mode the gate exists to catch.
+  The current pipeline handles readiness implicitly (the brief just doesn't get
+  written until someone feels ready); the explicit gate makes the state — and
+  the diagnosis of X — visible + auditable.
 
   *Location (refinement):* defaults to a **preface section of the
   drafting-plan artifact** (§4, under "Allocation & scope"). Promote to a
@@ -388,27 +399,46 @@ venue submission norms still exist and still need to inform the Cut phase
 Once relocated out of the per-essay brief (§10), those norms need a home.
 
 **Location:** a per-venue artifact at
-`publishing/venues/<venue>/submission-norms.md`. Catalogues:
-- Stated word-count norms (e.g., Atlantic Ideas 3,000–6,000w; 5,000w
-  submission norm).
-- Section-fit conventions (e.g., Aeon ~2,500–5,000w essays; ~250–400w pitches).
-- Format requirements (markdown / Word / PDF; em-dash vs ASCII; etc.).
-- Editorial-brain map — the current brief §2, **moved up to venue level**
-  since it is venue-property, not essay-property.
-- **The §6 descriptive calibration band** (refinement) — "a fully-developed
-  piece for this venue historically runs N words." The calibration data is
-  *also* venue-property, so it lives here, alongside the stated norms, rather
-  than in a separate tally file.
+`publishing/venues/<venue>/submission-norms.md`.
+
+**CONTAMINATION FIREWALL (author correction 2026-06-02 — load-bearing).** A
+venue's stated norms include a **maximum** (e.g., Atlantic Ideas 3,000–6,000w —
+the 6,000 is a ceiling). The entire point of min-only generation is that the
+drafter NEVER sees a maximum. Therefore the venue artifact MUST be internally
+partitioned, and the generation-prompt assembly must draw ONLY from the
+drafter-safe partition:
+
+- **Drafter-safe block** (may be surfaced to the drafter):
+  - Editorial-brain map — the current brief §2, **moved up to venue level**
+    since it is venue-property, not essay-property.
+  - Format requirements that carry no length ceiling (markdown / Word / PDF;
+    em-dash vs ASCII; etc.).
+  - The venue-anchored **minimum** floor only.
+- **Editorial-only block** (consulted ONLY by the Cut phase + Stage 5, AFTER
+  generation; NEVER injected into the generation prompt):
+  - The stated **maximum** / ceiling and any section-fit upper bounds.
+  - The §6 descriptive **calibration band** ("a fully-developed piece for this
+    venue historically runs N words").
+
+The maximum is a real submission constraint — Cut + Stage 5 must respect it —
+but it lives behind the firewall. **The brief's pointer to the venue artifact
+(§7-3 brief-template change) resolves to the drafter-safe block for generation,
+and to the full artifact only for the post-generation editorial phases.** If a
+pointer ever lets the maximum reach the drafter, the contamination that
+manufactured compression in the first place (§1) is reintroduced.
 
 **Reasoning.** Venue norms are properties of the venue, not of any specific
 piece. Embedding them in per-essay briefs duplicates the same information
 across every essay targeting that venue (Atlantic Ideas norms would appear in
 the Pricing-Honestly brief AND any future Atlantic Ideas essay brief). A
 per-venue artifact is one source of truth. Consequence for the brief template:
-brief §2 (editorial brain) and §10 (venue length norms) stop duplicating and
-instead *point to* the venue artifact — a concrete brief-template change that
-feeds open decision §7-3. The Cut phase and Stage 5 consult the venue
-artifact; the drafter never sees it.
+brief §2 (editorial brain) and the §10 *minimum* stop duplicating and instead
+*point to the drafter-safe block* of the venue artifact — a concrete
+brief-template change that feeds open decision §7-3. The §10 *maximum* does NOT
+move into the generation-facing brief at all; it lives only in the
+editorial-only block, consulted by the Cut phase + Stage 5 after generation.
+The drafter never receives the venue artifact's editorial-only block, and
+therefore never sees a maximum.
 
 ---
 
@@ -433,8 +463,9 @@ we go" (2026-06-02). The rest remain open:
    what doesn't directly support"; "fewer ideas written fully over more ideas
    compressed densely"; "separate writing-energy from editorial-judgment");
    exact template text is open. ALSO open: the brief-template change where §2
-   (editorial brain) and §10 (venue length norms) stop duplicating and instead
-   *point to* `publishing/venues/<venue>/submission-norms.md` (§6.1).
+   (editorial brain) + the §10 *minimum* point to the **drafter-safe block** of
+   `publishing/venues/<venue>/submission-norms.md`, while the §10 *maximum*
+   stays behind the contamination firewall in the editorial-only block (§6.1).
 4. **Corpus-wide audit scope.** All essays + op-eds + book + tech appendix? Or
    essays + op-eds only? Or essays only? (Affects the item-3 mechanical scan;
    cost is author-attention, not tokens.)
@@ -457,9 +488,9 @@ we go" (2026-06-02). The rest remain open:
 | 7 | **Two-state citation model** (tentative w/ provenance → confirmed on landing) + fabrication gate built into the gather phase | Harvest is where fabrication enters; catching it at harvest is far cheaper than at Pass 3.1; provenance-at-tentative enforces the hard no-invented-claims rule |
 | 8 | **Length calibration discipline** — running actual-vs-minimum tally used descriptively, never as a target | Cutting fat beats adding substance; but lowering minimums to match observed overage would re-smuggle length-targeting; tally guides *our* floor choice, not the drafter's optimization |
 | 9 | **Two differentiation axes** (§2.1) — internal-corpus (matrix) + external-field (`differential-positioning.md`, fed by Gather harvest) | A piece can be internally-unique-vs-siblings yet externally-redundant-with-the-field ("restates Christophers in his own voice"); both axes must clear the bar; external axis reuses the already-harvested, fabrication-gated adjacent works |
-| 10 | **Material-readiness gate** (§2.2) — `READY-TO-ALLOCATE` / `NOT-READY-NEEDS-X` / `RECONSIDER` between Gather and Allocate; `RECONSIDER` = X.5 substrate-question | Makes the implicit "do we have enough to brief this?" decision visible + auditable; McDowell/Chesapeake travel = `NOT-READY-NEEDS-X` → field research closed the gap → `READY-TO-ALLOCATE`; defaults to a drafting-plan preface |
+| 10 | **Material-readiness gate** (§2.2) — `READY-TO-ALLOCATE` / `NOT-READY-NEEDS-X` / `RECONSIDER` between Gather and Allocate; `RECONSIDER` = X.5 substrate-question | Makes the implicit "do we have enough to brief this?" decision visible + auditable; the gate's highest-value function is catching a *mis-diagnosed* gap — McDowell/Chesapeake *appeared* `NOT-READY-NEEDS-travel-for-quotes` but was actually `READY` once the fair-use abundance of public works + on-record interviews was recognized (gap = research/recognition, not fieldwork); defaults to a drafting-plan preface |
 | 11 | **X.6 essay→book sub-cascade** (§3.1) — 6 steps, batched via `book-amendment-candidates.md`, hard (a)+(b)+(c) threshold, Cut-phase trigger, class-boundary flag at step 3 | Essay→book propagation is a workflow, not a line item; threshold + batching prevent constant firing; step 3 crosses into end-user-facing prose (merge-on-ratification), which the doctrine must flag or a session auto-merges a chapter change |
-| 12 | **Per-venue submission-norms artifact** (§6.1) at `publishing/venues/<venue>/submission-norms.md` — norms + editorial-brain map + calibration band; briefs §2/§10 point to it | Venue norms are venue-property not essay-property; embedding in per-essay briefs duplicates across N essays per venue; one source of truth; consulted by Cut + Stage 5, never by the drafter |
+| 12 | **Per-venue submission-norms artifact** (§6.1) at `publishing/venues/<venue>/submission-norms.md`, **partitioned by a contamination firewall** — drafter-safe block (editorial brain, format, minimum) vs editorial-only block (maximum, calibration band) | Venue norms are venue-property not essay-property (one source of truth, no per-essay duplication); BUT the artifact contains a maximum, and pointing the drafter at it would re-contaminate generation with a ceiling (§1) — so generation draws only from the drafter-safe block; Cut + Stage 5 consult the editorial-only block after generation |
 
 ---
 
