@@ -2,7 +2,7 @@
 artifact: Pipeline doctrine two-level reorganization — PROPOSED
 date: 2026-06-02
 session_of_origin: claude/pipeline-prose-revision-corpus-audit-260602-6b5eda
-status: PROPOSED — captures the collaborative framework settled in the 2026-06-02 interactive session; awaits author ratification before becoming doctrine v-next
+status: RATIFIED 2026-06-02 — framework ratified by author ("I think this is good. go ahead and write the changes"); codified as Amendment E to commons_bonds_pipeline_doctrine_v1.0.0.md §14 + brief-template update + standalone X.4 memory entry. This artifact is the canonical DETAILED SPEC; §14 is the summary + pointer. The §7 items marked DEFERRED below remain open downstream-work decisions (not framework gaps).
 supersedes: nothing yet (proposal layer); on ratification it amends commons_bonds_pipeline_doctrine_v1.0.0.md
 extends: the six amendments (X.1–X.6) proposed in tools/workstream-handoffs/pipeline-prose-revision-and-corpus-wide-audit-handoff_2026-06-01.md §2
 scope: items 1 + 2 + the framework for item 4 of the expanded workstream (pipeline doctrine reorg + prose-craft integration + differentiation-framework structure); item 3 mechanical scan + item 4 per-essay profiles fire in subsequent work
@@ -543,34 +543,46 @@ therefore never sees a maximum.
 
 ## §7. Open decisions still needing author ratification
 
-These are deliberately NOT decided in this PROPOSED artifact. They were the
-five §8 inputs from the handoff; input 1 was answered "decide per-amendment as
-we go" (2026-06-02). The rest remain open:
+Input 1 was answered "decide per-amendment as we go" (2026-06-02); the
+framework was then ratified ("I think this is good. go ahead and write the
+changes"). Decision-1 is now SETTLED; decisions 2/4/5 remain DEFERRED
+downstream-work decisions (not framework gaps); decision 3's brief-template
+changes are SETTLED + applied, with the per-essay differentiation *criteria*
+themselves deferred with decision 2.
 
-1. **Codification container.** Is this two-level reorg "Amendment E" to
-   doctrine v1.0.0, or a structurally distinct revision? Recommendation
-   pending the substance settling, per "decide as we go." The Amendment D
-   pattern (one canonical location + cross-references in sister files) is the
-   reference.
-2. **Differentiation criteria + cut threshold.** Now split into TWO axes
-   (§2.1): *internal-corpus* (criteria + cut threshold for cross-essay
-   duplications; feeds the duplication matrix) AND *external-field* (criteria
-   for the unique contribution against the discourse; feeds
-   `differential-positioning.md`). Both axes' criteria are open. (handoff §3.3.)
-3. **Brief §5 voice-register exact text + brief-template pointer changes.** The
-   prose-craft discipline is articulated ("write long with detail, then cut
-   what doesn't directly support"; "fewer ideas written fully over more ideas
-   compressed densely"; "separate writing-energy from editorial-judgment");
-   exact template text is open. ALSO open: the brief-template change where §2
-   (editorial brain) + the §10 *minimum* point to the **drafter-safe block** of
-   `publishing/venues/<venue>/submission-norms.md`, while the §10 *maximum*
-   stays behind the contamination firewall in the editorial-only block (§6.1).
-4. **Corpus-wide audit scope.** All essays + op-eds + book + tech appendix? Or
-   essays + op-eds only? Or essays only? (Affects the item-3 mechanical scan;
-   cost is author-attention, not tokens.)
-5. **Atlantic Ideas editorial cut/focus timing.** Suggested: AFTER the
-   differentiation framework is settled, since Atlantic Ideas cut decisions
-   depend on knowing what is in the other essays. Author confirmation needed.
+1. **Codification container — SETTLED 2026-06-02.** Split-by-natural-home: the
+   two-level architecture is **Amendment E** to doctrine v1.0.0 (codified at
+   §14 as summary + pointer; THIS artifact is the canonical detailed spec,
+   mirroring the Amendment D pattern). X.4 → standalone memory entry
+   (`tools/memory/feedback_cost_constraint_removal_default_reset.md`). §5 voice
+   register + venue-pointer → brief-template update
+   (`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`).
+2. **Differentiation criteria + cut threshold — DEFERRED (downstream work).**
+   Now split into TWO axes (§2.1): *internal-corpus* (criteria + cut threshold
+   for cross-essay duplications; feeds the duplication matrix) AND
+   *external-field* (criteria for the unique contribution against the
+   discourse; feeds `differential-positioning.md`). Both axes' criteria are the
+   substance of item 4 (per-essay differentiation framework) and fire in
+   subsequent work, not this session. (handoff §3.3.)
+3. **Brief §5 voice-register + brief-template pointer changes — SETTLED +
+   APPLIED 2026-06-02.** The prose-craft discipline is now written into the
+   brief template §5 ("write long with detail, then cut what doesn't directly
+   support"; "fewer ideas written fully over more ideas compressed densely";
+   "separate writing-energy from editorial-judgment"). The brief-template
+   changes are applied: the `Length:` field now carries a MINIMUM FLOOR only
+   (the HARD CEILING removed — it was the literal contamination vector); §2 +
+   the §10 minimum point to the **drafter-safe block** of
+   `publishing/venues/<venue>/submission-norms.md`; the maximum stays behind
+   the firewall (§6.1). (Full front-end restructure of the template to the
+   gather→gate→allocate→plan→generate shape remains a larger follow-on.)
+4. **Corpus-wide audit scope — DEFERRED (downstream work).** All essays +
+   op-eds + book + tech appendix? Or essays + op-eds only? Or essays only?
+   (Affects the item-3 mechanical scan; cost is author-attention, not tokens.)
+   Decided when the inventory scan fires.
+5. **Atlantic Ideas editorial cut/focus timing — DEFERRED (downstream work).**
+   Suggested: AFTER the differentiation framework is settled, since Atlantic
+   Ideas cut decisions depend on knowing what is in the other essays. Author
+   confirmation needed when that session is scheduled.
 
 ---
 
@@ -608,8 +620,9 @@ we go" (2026-06-02). The rest remain open:
 
 ---
 
-*End of pipeline doctrine two-level reorganization, PROPOSED 2026-06-02.
-Internal scaffolding. Awaits author ratification of the §7 open decisions
-before becoming doctrine v-next. Merge-on-ratification per CLAUDE.md (this
-PROPOSED artifact merges to origin/main at author direction per the session
-2026-06-02; ratification of the §7 decisions is a separate gate).*
+*End of pipeline doctrine two-level reorganization, RATIFIED 2026-06-02.
+Internal scaffolding. This is the canonical detailed spec for Amendment E to
+`commons_bonds_pipeline_doctrine_v1.0.0.md` (§14 = summary + pointer). §7
+decisions 2/4/5 remain deferred downstream-work items (not framework gaps);
+decision 1 (codification) + decision 3 (brief-template changes) are settled +
+applied. Merge-on-ratification per CLAUDE.md.*

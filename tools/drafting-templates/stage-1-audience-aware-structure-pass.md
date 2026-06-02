@@ -72,7 +72,7 @@ pressure-test set in this brief:
 **Destination:** [VENUE NAME or CHAPTER LOCATION]
 **Why:** [STRATEGIC PURPOSE — which book-success criterion does this serve?]
 **Audience:** [WHO READS THIS — venue's editorial brain + reader]
-**Length:** [TARGET BAND + HARD CEILING]
+**Length:** [MINIMUM FLOOR anchored to venue — NO maximum. Per Amendment E (2026-06-02), a maximum imposed at generation manufactures compression. Any venue ceiling lives ONLY in the editorial-only block of `publishing/venues/<venue>/submission-norms.md`, consulted at Cut + Stage 5, and is NEVER supplied to the drafter.]
 **Voice register:** [MEMOIR / LITERARY-PHILOSOPHICAL / OP-ED / METHODS-NOTE / ACADEMIC / TRADE-PUBLISHING / OTHER]
 **Source material:** [WHAT THE DRAFT DRAWS ON]
 **Locked elements:** [TITLE / OPENING LINE / CLOSING PARAGRAPH / SPECIFIC NAMED SUBJECTS — what cannot change]
@@ -116,6 +116,13 @@ what trips their No, what makes them say Yes. Pull from venue's
 published submission guidance + recent published pieces in that
 venue + any direct knowledge of the editor's positions.
 
+[Per Amendment E (2026-06-02): the editorial-brain map is VENUE
+property, not essay property. Maintain it in the drafter-safe block of
+`publishing/venues/<venue>/submission-norms.md` as one source of truth
+and POINT here, rather than re-deriving it per essay. Pull only the
+drafter-safe block into the brief — never the editorial-only block
+(which holds the venue maximum + calibration band).]
+
 Example moves: Aeon = "simple direct opener that states the argument
 followed by 200 words outlining how it will be made" (Haselby APA
 Blog 2020-12-10).
@@ -138,6 +145,14 @@ Section-by-section plan:
 
 == 5. Voice register ==
 
+- **Prose-craft discipline (Amendment E, 2026-06-02 — load-bearing).**
+  Write long with detail, then cut what doesn't directly support the
+  piece's subject and intent. Prefer FEWER ideas written FULLY over
+  more ideas compressed densely. Separate writing-energy from
+  editorial-judgment — do NOT collapse them into one step; the full
+  draft is the START of editing, not the end. Generate to the MINIMUM
+  floor with no maximum; the cut is a post-draft editorial step, not a
+  generation-time constraint.
 - Person (first / second / third)
 - Tense (present / past / mixed-by-section)
 - Sentence-length variance discipline (mix 5w and 25w sentences;

@@ -40,6 +40,8 @@ Specific frictions the doctrine resolves (surfaced by the Ch 1 Pass 3 REAUDIT v3
 | **4** | Render + character-integrity audit | [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_4_v1.0.0.md) |
 | **5** | Academic-rigor + prose-quality sign-off bookend + pre-publication review queue artifact | [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md`](commons_bonds_pipeline_doctrine_stage_5_v1.0.0.md) |
 
+> **Amendment E (2026-06-02) adds a Portfolio layer above this per-artifact pipeline and rebuilds the Stage 0–2 front-end as `gather → [material-readiness gate] → allocate → plan → generate (min-only, no maximum) → cut`.** See §14 + the detailed spec. The Stage 3/4/5 cascade is unchanged.
+
 ---
 
 ## §2. Continuous infrastructure — invariant gates
@@ -529,4 +531,32 @@ This session ratified all 11 decisions; remaining open items (carry-forward from
 
 ---
 
-*End of Commons Bonds Pipeline Doctrine v1.0.0. PROPOSED 2026-05-17.*
+## §14. Amendment E — Two-level architecture + front-end rebuild (Ratified 2026-06-02)
+
+**Canonical detailed spec:** [`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_two-level-reorg_PROPOSED_2026-06-02.md`](commons_bonds_pipeline_doctrine_two-level-reorg_PROPOSED_2026-06-02.md) (RATIFIED 2026-06-02 — filename retains the `PROPOSED` slug for git-history continuity; the in-file status is RATIFIED). This §14 is the summary + pointer, mirroring the Amendment D codification pattern.
+
+**Empirical anchor:** the Atlantic Ideas Pricing-Honestly iteration (2026-05-28 → 2026-06-01) + the archived per-chapter GuidanceDocs.
+
+**§14.1 Root-cause reframe.** The compressed/clunky prose the cascade fought was a **generation-time failure**: imposing a maximum length *manufactured* compression at drafting. Fix: **min-only generation from abundance; no maximum ever reaches the drafter.**
+
+**§14.2 Two levels.** The v1.0.0 Stage 0–5 pipeline is a *per-artifact assembly line*. Amendment E adds a **Portfolio layer** above it — a standing, compressed *map* (cross-corpus duplication matrix + per-artifact unique-contribution profiles + allocation decisions). It gives cross-artifact coherence without holding all artifact text in one context; each per-artifact session reads the map. Differentiation has **two axes**: internal-corpus (the matrix) and external-field (`publishing/essays/<essay>/research/differential-positioning.md` — what the piece says that the discourse doesn't).
+
+**§14.3 Per-artifact front-end rebuilt** to **gather → [material-readiness gate] → allocate → plan → generate → cut → cascade → calibrate**:
+- **Gather** — three-layer harvest: (1) collect-what-exists broadly (abundance + field-map of what's already been said → feeds external differentiation), (2) goal-directed overlay (tag what accomplishes landing), (3) outstanding-needs note. All harvested material runs the §5 two-state fabrication gate (tentative-with-provenance → confirmed-on-landing).
+- **Material-readiness gate** — `READY-TO-ALLOCATE` is the common default (no citations needed / fair-use abundance exists / explicit thought-experiment register — guardrail: explicit register + no fabricated-as-real subject). `NOT-READY-NEEDS-X` requires a two-branch diagnosis (a: mis-diagnosed unrecognized-abundance → really READY; b: genuine gap → blocking/non-blocking + EV/cost-justification where the binding cost is real-world time/travel/clock, NOT tokens; non-blocking → 4 paths incl. ship-now-upgrade-later + reframe-as-thought-experiment). `RECONSIDER` = the X.5 substrate-question relocated to the front-end.
+- **Allocate** = coarse pre-draft cut (which cases belong here, consulting the portfolio map). **Cut** = fine post-draft cut (write-long-then-cut; X.3).
+- **Generate** = minimum floor anchored to venue, **no maximum**.
+- **Calibrate** = running actual-vs-minimum tally, used *descriptively* to pick future floors — never as a target.
+
+**§14.4 Supporting changes.**
+- **Drafting-plan artifact** succeeds the per-chapter GuidanceDocs: disposable per-cycle, sectioned (source pool / allocation+scope incl. readiness-verdict preface / differential-positioning pointer / what-lands plan / counterarguments / register notes), points up to the portfolio map.
+- **Per-venue submission-norms artifact** (`publishing/venues/<venue>/submission-norms.md`), **partitioned by a contamination firewall**: drafter-safe block (editorial brain, format, minimum) vs editorial-only block (maximum + calibration band, consulted by Cut + Stage 5 only, never injected into the generation prompt).
+- **X.6 essay→book sub-cascade** (six steps, batched via `book-amendment-candidates.md`, hard (a)+(b)+(c) threshold, Cut-phase trigger). **Class-boundary flag:** step 3 touches chapter prose = merge-on-*ratification*, NOT the auto-merge governing scaffolding.
+
+**§14.5 Disposition of handoff amendments X.1–X.6.** X.1 (fresh-start Stage 2) demoted to a legacy fallback for old-max-length-regime essays. X.2/X.3 = prose-craft made structural (brief §5 + the Cut phase). X.4 = standalone memory entry (`tools/memory/feedback_cost_constraint_removal_default_reset.md`). X.5 relocated to the readiness gate's `RECONSIDER`. X.6 widened (see §14.4).
+
+**§14.6 Deferred (downstream work, not framework gaps).** Per-essay differentiation *criteria* (both axes); corpus-wide audit scope; Atlantic Ideas editorial cut/focus timing. See the detailed spec §7.
+
+---
+
+*End of Commons Bonds Pipeline Doctrine v1.0.0. PROPOSED 2026-05-17; Amendment B 2026-05-18; Amendment C 2026-05-19; Amendment D 2026-05-31; Amendment E 2026-06-02.*

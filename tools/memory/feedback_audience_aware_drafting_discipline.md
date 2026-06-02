@@ -189,6 +189,41 @@ Implementation: `tools/scripts/check-corpus-invariants.sh`.
   treated as end-reader-facing without reweighting for the
   editor-facing-pitch artifact class.
 
+## What Amendment E adds (2026-06-02 — two-level architecture)
+
+Ratified 2026-06-02. **Root-cause reframe:** compressed/clunky prose was a
+*generation-time* failure — imposing a maximum length manufactured compression
+at drafting. Fix: **min-only generation from abundance; no maximum ever reaches
+the drafter.**
+
+- **New Portfolio layer** above the per-artifact pipeline: a compressed standing
+  *map* (cross-corpus duplication matrix + per-artifact unique-contribution
+  profiles + allocation decisions). Cross-artifact coherence without holding all
+  text in one context. Differentiation is **two axes** — internal-corpus (the
+  matrix) + external-field (`differential-positioning.md`).
+- **Per-artifact front-end rebuilt:** `gather → [material-readiness gate] →
+  allocate → plan → generate → cut → cascade → calibrate`. Gather = three-layer
+  harvest (collect-what-exists/field-map + goal-directed overlay +
+  outstanding-needs note) through the §5 two-state fabrication gate. Gate =
+  `READY-TO-ALLOCATE` (common; no-citations / fair-use-abundance /
+  thought-experiment register) vs `NOT-READY-NEEDS-X` (two-branch diagnosis +
+  blocking/non-blocking + EV/cost-justification in real-world cost) vs
+  `RECONSIDER`. Two cuts: allocate (coarse pre-draft) + cut (fine post-draft,
+  write-long-then-cut).
+- **Supporting:** disposable drafting-plan artifact (succeeds the GuidanceDocs);
+  per-venue submission-norms artifact partitioned by a **contamination
+  firewall** (drafter-safe block vs editorial-only block holding the maximum +
+  calibration band); X.6 essay→book sub-cascade; X.4 → standalone memory
+  `feedback_cost_constraint_removal_default_reset.md`.
+- **Brief-template changes applied:** §5 carries the prose-craft discipline; the
+  `Length:` field is a minimum floor only (HARD CEILING removed — it was the
+  contamination vector); §2 points to the venue artifact's drafter-safe block.
+
+Canonical: doctrine §14 + detailed spec
+`tools/pipeline-doctrine/commons_bonds_pipeline_doctrine_two-level-reorg_PROPOSED_2026-06-02.md`
+(RATIFIED). Deferred (downstream work): differentiation *criteria* both axes;
+corpus-wide audit scope; Atlantic Ideas cut/focus timing.
+
 ## Empirical anchors
 
 - v2.0 Amendment B empirical validation: op-ed pipeline session
