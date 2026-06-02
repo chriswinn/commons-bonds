@@ -543,12 +543,18 @@ therefore never sees a maximum.
 
 ## §7. Open decisions still needing author ratification
 
-Input 1 was answered "decide per-amendment as we go" (2026-06-02); the
-framework was then ratified ("I think this is good. go ahead and write the
-changes"). Decision-1 is now SETTLED; decisions 2/4/5 remain DEFERRED
-downstream-work decisions (not framework gaps); decision 3's brief-template
-changes are SETTLED + applied, with the per-essay differentiation *criteria*
-themselves deferred with decision 2.
+Status as of 2026-06-02: decisions **1, 2, 3, 4 SETTLED**; decision **5
+DEFERRED** (Atlantic cut/focus timing — fires after the test-run verification).
+
+**§7-test-gate (author direction 2026-06-02).** Before any cross-corpus audit
+execution or multi-essay generation rollout, VERIFY the core hypothesis on
+Atlantic Ideas: did removing the maximum-length parameter + applying the §5
+prose-craft discipline produce **smoother prose without contamination** (full
+length AND low em-dash-crutch density AND no fabrication/drift)? The 2026-06-01
+fresh draft is NOT a fair test — it predates the §5 discipline and ran 8.3
+em-dashes/1k-words (vs Locked's 2.1). The test run uses the new-pipeline prompt.
+Differentiation-criteria *execution* (matrix + profiles) and the rollout are
+gated behind a passing verification.
 
 1. **Codification container — SETTLED 2026-06-02.** Split-by-natural-home: the
    two-level architecture is **Amendment E** to doctrine v1.0.0 (codified at
@@ -557,13 +563,34 @@ themselves deferred with decision 2.
    (`tools/memory/feedback_cost_constraint_removal_default_reset.md`). §5 voice
    register + venue-pointer → brief-template update
    (`tools/drafting-templates/stage-1-audience-aware-structure-pass.md`).
-2. **Differentiation criteria + cut threshold — DEFERRED (downstream work).**
-   Now split into TWO axes (§2.1): *internal-corpus* (criteria + cut threshold
-   for cross-essay duplications; feeds the duplication matrix) AND
-   *external-field* (criteria for the unique contribution against the
-   discourse; feeds `differential-positioning.md`). Both axes' criteria are the
-   substance of item 4 (per-essay differentiation framework) and fire in
-   subsequent work, not this session. (handoff §3.3.)
+2. **Differentiation criteria + cut threshold — RATIFIED 2026-06-02.** Two
+   axes (§2.1); a case/claim must clear BOTH.
+   - **Axis A — internal-corpus.** Three tests per case per location: (1)
+     *load-bearing* (does the argument collapse/weaken if removed?); (2)
+     *functional-role/register* (what work does it do here — establish-concept
+     / illustrate / thought-experiment-stress-test / policy-mechanism / hook —
+     and in what register?); (3) *redundancy* (does it do the SAME work, same
+     register, as another location?). **Cut dial (author-set 2026-06-02):**
+     cut a case from a location ONLY when it does the **same work, in the same
+     register, and is non-load-bearing there.** Different work / load-bearing /
+     distinct register → KEEP. **Recognizable authorial voice is a FEATURE, not
+     a cut criterion** — you want the corpus recognizably the author's; the
+     asteroid-miner (Ch 7 thought-experiment-establishing-CIT vs Aeon
+     mask-of-abundance illustration vs Atlantic policy-mechanism) earns all
+     three homes precisely because it does different work in each. Book is the
+     provisional canonical home (deferred from audit per §7-4); essays must
+     differentiate or carry as load-bearing.
+   - **Axis B — external-field.** (1) *novel-move* (name what this piece
+     asserts/reframes that the field comps don't carry); (2) *restatement guard*
+     (strip the author's voice — is the substantive claim already made, with no
+     new analytical move? → externally redundant). Contribution must be ≥1 of:
+     (a) new framework/concept, (b) novel cross-tradition synthesis, (c) new
+     case/data, (d) novel application. (e) fresh-voiced-restatement alone does
+     NOT earn a venue.
+   - **Output:** per-artifact unique-contribution profile + per-case
+     earned-presence decision (Portfolio layer). The cross-corpus *execution*
+     of these criteria (the matrix + profiles) is downstream work, gated behind
+     verifying the pipeline produces better prose (see §7-test-gate).
 3. **Brief §5 voice-register + brief-template pointer changes — SETTLED +
    APPLIED 2026-06-02.** The prose-craft discipline is now written into the
    brief template §5 ("write long with detail, then cut what doesn't directly
@@ -575,10 +602,14 @@ themselves deferred with decision 2.
    `publishing/venues/<venue>/submission-norms.md`; the maximum stays behind
    the firewall (§6.1). (Full front-end restructure of the template to the
    gather→gate→allocate→plan→generate shape remains a larger follow-on.)
-4. **Corpus-wide audit scope — DEFERRED (downstream work).** All essays +
-   op-eds + book + tech appendix? Or essays + op-eds only? Or essays only?
-   (Affects the item-3 mechanical scan; cost is author-attention, not tokens.)
-   Decided when the inventory scan fires.
+4. **Corpus-wide audit scope — SETTLED 2026-06-02.** Generation scope = essays
+   + op-eds (the book is content-complete; not re-drafted now). Near-term audit
+   scope = essays + op-eds (so they don't duplicate *each other*). Book
+   chapters + tech appendix are **DEFERRED — TBD on essay/op-ed results**: if
+   the new pipeline produces better prose, chapters may be re-drafted through it
+   and brought into the audit then. Caveat: without the book in the audit, a
+   case's "canonical home" is *provisional* (flag "also in Ch X" without
+   resolving cross-book allocation).
 5. **Atlantic Ideas editorial cut/focus timing — DEFERRED (downstream work).**
    Suggested: AFTER the differentiation framework is settled, since Atlantic
    Ideas cut decisions depend on knowing what is in the other essays. Author
