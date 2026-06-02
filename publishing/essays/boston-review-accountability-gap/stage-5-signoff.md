@@ -78,7 +78,7 @@ Disclosed per honest-accounting discipline:
 - **Sentence-length variance:** mix of 5w and 25w sentences observed. Pass 3.2 spot-fix application broke the major rule-of-three / declarative-anaphora cadence stacks at §IV lines 65, 67, 69.
 - **LLM-tic absence:** Pass 3.2 F-3.2-11 + F-3.2-12 + F-3.2-13 hedge-phrase / meta-commentary / apparatus-exclusion sweeps all CLEAN; Pass 3.5 confirmed cumulative-LLM-cadence residue PASS at whole-essay scale (F-3.5-10).
 - **Image-anchored prose:** Pass 3.2 F-3.2-1 chiseled the §I throat-of-the-case image to lower-temperature register; Pass 3.5 F-3.5-12 added "decades wide and three thousand cases deep" scene-anchor restoring scene-anchor density without crossing back into rhetorical-flight altitude.
-- **Em-dash density:** 29 → 19 per Pass 3.2 F-3.2-4 targeted reduction; ~3.9 per 1,000w (within memory `feedback_em_dash_overuse.md` calibration).
+- **Em-dash density:** 29 → 19 per Pass 3.2 F-3.2-4 targeted reduction; ~3.9 per 1,000w (within memory `feedback_em_dash_overuse.md` calibration). **NB (2026-06-01):** grep-verified actual count on LOCKED's surface state was 21 sites (documentation discrepancy inherited from Pass 3.2 F-3.2-4 calibration record; the "19" cited above is the calibration-target number, not the post-application count). V-E (post-2026-06-01 F-FCIC-FIX) carries 20 sites — one fewer than LOCKED because the §II FCIC verbatim-quote em-dash inside the quote was found to be an artifact of LOCKED's miscitation and was removed when restoring the FCIC actual verbatim ("human action and inaction, not of Mother Nature or computer models gone haywire" — comma, not em-dash, in the FCIC source).
 
 **Voice register verdict: PASS.**
 
