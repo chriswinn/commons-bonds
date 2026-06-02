@@ -84,6 +84,32 @@ feeds into it. Its deliverables:
   in locations {A, B} because {register difference / load-bearing role /
   differentiation reason}; cut from {C} as non-load-bearing duplication."
 
+**Differentiation has TWO axes, not one** (sibling-session addition,
+2026-06-02). "Differentiation" was being treated as a single concept. It is
+actually two distinct axes, each needing its own criteria, and a piece must
+clear *both*:
+
+- **Internal-corpus differentiation** — what does this artifact carry that no
+  other Winn essay or book chapter carries? Answered by the cross-corpus
+  duplication matrix above. Lives in the Portfolio layer.
+- **External-field differentiation** — what does this artifact say that the
+  broader discourse / field does not already say? The unique contribution
+  against everything else that exists on the topic in the world. NOT answered
+  by the internal matrix; an essay can be internally-unique-vs-siblings while
+  being externally-redundant-with-the-field ("Winn restates Christophers in
+  his own voice"). Needs a per-essay positioning artifact at
+  `publishing/essays/<essay>/research/differential-positioning.md`.
+
+**Reasoning + dependency.** The external axis is not a free-standing research
+effort — it *consumes the Gather phase's adjacent-works harvest* (§2.2). The
+citation/adjacent-works sweep is already happening and is already
+fabrication-gated (§5); the positioning artifact repurposes that validated
+material to articulate "here is what the field already says; here is what this
+piece adds." Wiring the external axis to the Gather harvest makes it cheap and
+keeps both axes honest: the matrix stops same-voice duplication *inside* the
+corpus; the positioning artifact stops same-claim duplication *against* the
+field.
+
 **Critical property — it is a compressed map, not a megadocument.** The
 portfolio layer is a few thousand tokens (matrix + profiles + decisions). It
 does NOT require holding the full text of every artifact in one context.
@@ -113,7 +139,7 @@ enters or a case is reallocated. It is the *durable* layer.
 The existing per-artifact pipeline, with its front-end rebuilt around the
 author's discuss-then-draft discipline. The sequence:
 
-**gather → allocate → plan → generate → cut → cascade → calibrate**
+**gather → [material-readiness gate] → allocate → plan → generate → cut → cascade → calibrate**
 
 - **Gather (abundance).** Two intelligence sweeps before any drafting:
   - *Publisher + audience intelligence* — who receives this, what their
@@ -126,6 +152,32 @@ author's discuss-then-draft discipline. The sequence:
     work than we could ever fit." **Abundance is the precondition for good
     prose, not a nice-to-have.** Harvested material runs through the two-state
     fabrication gate (§5).
+- **Material-readiness gate (between Gather and Allocate).** Before allocating,
+  an explicit verdict on whether there is enough material to brief this piece
+  (sibling-session addition, 2026-06-02). Three verdicts:
+  - `READY-TO-ALLOCATE` — abundance pool is rich enough; proceed to Allocate.
+  - `NOT-READY-NEEDS-X` (X enumerated) — gaps remain; specify what closes them
+    (field research, interview, public-domain harvest, author memory dump,
+    etc.). Do not proceed to Allocate until X closes.
+  - `RECONSIDER` — the piece may be the wrong piece: different shape, different
+    venue, deferred, or dropped from the queue. **This verdict IS the X.5
+    substrate-question ("is this the right essay?") relocated to the
+    front-end** (see §3 X.5) — the same judgment, now with a concrete verdict
+    and a home rather than bolted onto the late cascade.
+
+  *Empirical anchor:* the McDowell County / Chesapeake Bay travel moment — the
+  book was blocked in `NOT-READY-NEEDS-X` where X was "field research +
+  first-hand observation of extraction sites"; travel was the gap-closer; the
+  verdict then flipped to `READY-TO-ALLOCATE`. The current pipeline handles
+  this implicitly (the brief just doesn't get written until material arrives);
+  the explicit gate makes the state visible + auditable.
+
+  *Location (refinement):* defaults to a **preface section of the
+  drafting-plan artifact** (§4, under "Allocation & scope"). Promote to a
+  standalone `material-readiness.md` only when a piece's readiness has real
+  deliberation history worth tracking separately (the McDowell case would have
+  earned its own file; most pieces will not).
+
 - **Allocate (coarse, pre-draft cut).** With the portfolio map in hand, decide
   which *cases/topics* belong to this piece at all — and which it consciously
   leaves to siblings. This is the *coarse* cut: scope, not sentences.
@@ -169,7 +221,7 @@ and fall out as consequences. The re-sort:
 | **X.3** Stage 2.5 editorial-cut step | New stage between Stage 2 and Stage 3 | Per-artifact pipeline (Cut phase) | **Adopted, renamed.** This is the "fine, post-draft cut" in §2.2. Confirmed as the author's canonical write-long-then-cut discipline at sentence/paragraph grain. |
 | **X.4** Cost-constraint-removal default reset | Standalone session-discipline memory | Memory layer (`tools/memory/`) | **Adopted as a standalone memory entry**, independent of the two-level reorg. Addresses handoff Lesson 1 (resource-conservation reverting to minimum-discipline defaults under cost-removed framing). Relocate the baseline entirely; don't expand marginally. |
 | **X.5** Cascade substrate-question gate | New gate at Pass 3.5 or Stage 5 | Per-artifact pipeline + Portfolio layer | **Adopted, reframed.** "Is this the right essay?" is now answered up front by the Allocate + Plan phases (consulting the portfolio map), not bolted onto the cascade. The legacy X.1 fresh-draft fallback operationalizes it for old-regime essays. |
-| **X.6** Bidirectional brief↔essay update flow | New brief-amendment trigger | Per-artifact pipeline + Portfolio layer | **Adopted, widened.** Pass 3.1 fact-corrections already propagate forward to brief §7. Extend the same to §5 voice register and §4 structural decisions. AND: essay-level structural lessons propagate *up* to the portfolio layer (e.g., a case discovered to be load-bearing here updates the allocation matrix). |
+| **X.6** Bidirectional brief↔essay update flow | New brief-amendment trigger | Per-artifact pipeline + Portfolio layer | **Adopted, widened — has its own sub-cascade (see §3.1).** Pass 3.1 fact-corrections already propagate forward to brief §7. Extend the same to §5 voice register and §4 structural decisions. AND: essay-level structural lessons propagate *up* to the portfolio layer (a case discovered load-bearing here updates the allocation matrix). AND: essay-side → book-side propagation (a sharper essay formulation amending the chapter) is a six-step sub-cascade gated by a hard threshold — §3.1. |
 
 **Reasoning.** The re-sort is not cosmetic. It reveals that X.1 and X.5 were
 both *symptoms* of the missing portfolio layer + the max-length root cause —
@@ -177,6 +229,47 @@ once those are fixed, X.1 demotes and X.5 relocates to the front-end. X.2 and
 X.3 are the prose-craft discipline made structural. X.4 is genuinely
 orthogonal (a session-discipline memory) and stays standalone. X.6 is the
 update-flow glue that keeps both levels from going stale.
+
+### §3.1 X.6 essay→book sub-cascade (sibling-session addition, 2026-06-02)
+
+The X.6 widening understated the operational complexity of *essay-side →
+book-side* propagation (a sharper essay formulation amending the chapter it
+derived from). It is a workflow of its own:
+
+1. **Identification.** A pass flags "this essay-side formulation is sharper
+   than the book's." *Trigger location: the Cut phase* (§2.2 fine post-draft
+   cut) — earlier and more general than Pass 3.5, which is late and
+   restoration-polarity. *Worked example:* the Atlantic Ideas fresh draft
+   surfaced a cost-of-mis-classification asymmetry paragraph (§Classify)
+   sharper than Ch 9's current treatment of the same logic.
+2. **Candidate capture.** Write to a living `book-amendment-candidates.md`
+   that **batches** candidates. The full cascade fires when a batch is worked,
+   NOT per-candidate.
+3. **Book-side amendment cycle.** Apply the sharpening via a Phase C amendment.
+4. **Cross-chapter coherence check.** Does the sharpening affect adjacent
+   chapters? (Ch 9's asymmetry might also touch Ch 6 or Ch 8.)
+5. **Brief refresh.** If the sharpening changes any §7 canonical fact-anchor,
+   update the relevant essay brief(s).
+6. **Sibling-essay cascade.** If other essays cite the book's older
+   formulation, align them.
+
+**The threshold is THE gate, not a footnote.** Propagate to the book only if
+**(a)** the formulation makes a load-bearing claim more rigorous OR more
+clearly expressed, AND **(b)** the book's current treatment does not already
+convey what the sharpening adds, AND **(c)** propagation does not break
+cross-chapter coherence. Without this gate, every sharp essay-side phrasing
+triggers a book-amendment cycle and the sub-cascade fires constantly.
+
+**Class-boundary flag (load-bearing).** Step 3 touches
+`manuscript/chapters/` — that is **end-user-facing prose**, governed by
+**merge-on-*ratification***, NOT the auto-merge that governs this
+internal-scaffolding artifact. The sub-cascade *crosses a content-class
+boundary at step 3*; the doctrine must say so explicitly, or a session will
+auto-merge a chapter change that requires author ratification.
+
+**Reasoning.** The six steps are real, but this is the item most at risk of
+becoming heavyweight process. Batching (step 2) + the hard threshold + the
+Cut-phase trigger keep it disciplined; the class-boundary flag keeps it safe.
 
 ---
 
@@ -211,7 +304,14 @@ exactly why they decayed, and the fixes are specific:
 
 - **§ Source pool** — tentative→confirmed citations with provenance (§5).
 - **§ Allocation & scope** — what this piece is about; which cases it carries;
-  what it consciously leaves to siblings (consults the portfolio map).
+  what it consciously leaves to siblings (consults the portfolio map). Opens
+  with the **material-readiness verdict** (§2.2 gate: `READY-TO-ALLOCATE` /
+  `NOT-READY-NEEDS-X` / `RECONSIDER`) as a preface, before allocation
+  decisions.
+- **§ Differential positioning (pointer)** — links to
+  `publishing/essays/<essay>/research/differential-positioning.md` (the
+  external-field axis, §2.1) so the drafting plan reflects both
+  differentiation axes.
 - **§ What-lands plan** — audience/publisher fit + the "what it would take to
   land" editorial output from the Plan-phase discussion, made durable.
 - **§ Counterarguments to pre-empt** — the Ch 4 objection-inventory move,
@@ -280,6 +380,36 @@ essays/op-eds against their brief minimums to test whether the ~50–70%-over
 pattern is real and consistent or varies by length-band. This produces the
 first calibration data points.
 
+### §6.1 Per-venue submission-norms artifact (sibling-session addition, 2026-06-02)
+
+Min-only generation removes venue length constraints from the *drafter*, but
+venue submission norms still exist and still need to inform the Cut phase
+(§2.2) and Stage 5 sign-off ("does this fit the venue's submission norms?").
+Once relocated out of the per-essay brief (§10), those norms need a home.
+
+**Location:** a per-venue artifact at
+`publishing/venues/<venue>/submission-norms.md`. Catalogues:
+- Stated word-count norms (e.g., Atlantic Ideas 3,000–6,000w; 5,000w
+  submission norm).
+- Section-fit conventions (e.g., Aeon ~2,500–5,000w essays; ~250–400w pitches).
+- Format requirements (markdown / Word / PDF; em-dash vs ASCII; etc.).
+- Editorial-brain map — the current brief §2, **moved up to venue level**
+  since it is venue-property, not essay-property.
+- **The §6 descriptive calibration band** (refinement) — "a fully-developed
+  piece for this venue historically runs N words." The calibration data is
+  *also* venue-property, so it lives here, alongside the stated norms, rather
+  than in a separate tally file.
+
+**Reasoning.** Venue norms are properties of the venue, not of any specific
+piece. Embedding them in per-essay briefs duplicates the same information
+across every essay targeting that venue (Atlantic Ideas norms would appear in
+the Pricing-Honestly brief AND any future Atlantic Ideas essay brief). A
+per-venue artifact is one source of truth. Consequence for the brief template:
+brief §2 (editorial brain) and §10 (venue length norms) stop duplicating and
+instead *point to* the venue artifact — a concrete brief-template change that
+feeds open decision §7-3. The Cut phase and Stage 5 consult the venue
+artifact; the drafter never sees it.
+
 ---
 
 ## §7. Open decisions still needing author ratification
@@ -293,13 +423,18 @@ we go" (2026-06-02). The rest remain open:
    pending the substance settling, per "decide as we go." The Amendment D
    pattern (one canonical location + cross-references in sister files) is the
    reference.
-2. **Differentiation criteria + cut threshold.** What makes an essay earn its
-   place vs. duplicate the book + siblings? What is the cut threshold for
-   cross-essay duplications? (handoff §3.3 — feeds the portfolio layer.)
-3. **Brief §5 voice-register exact text.** The discipline is articulated
-   ("write long with detail, then cut what doesn't directly support"; "fewer
-   ideas written fully over more ideas compressed densely"; "separate
-   writing-energy from editorial-judgment"). The exact template text is open.
+2. **Differentiation criteria + cut threshold.** Now split into TWO axes
+   (§2.1): *internal-corpus* (criteria + cut threshold for cross-essay
+   duplications; feeds the duplication matrix) AND *external-field* (criteria
+   for the unique contribution against the discourse; feeds
+   `differential-positioning.md`). Both axes' criteria are open. (handoff §3.3.)
+3. **Brief §5 voice-register exact text + brief-template pointer changes.** The
+   prose-craft discipline is articulated ("write long with detail, then cut
+   what doesn't directly support"; "fewer ideas written fully over more ideas
+   compressed densely"; "separate writing-energy from editorial-judgment");
+   exact template text is open. ALSO open: the brief-template change where §2
+   (editorial brain) and §10 (venue length norms) stop duplicating and instead
+   *point to* `publishing/venues/<venue>/submission-norms.md` (§6.1).
 4. **Corpus-wide audit scope.** All essays + op-eds + book + tech appendix? Or
    essays + op-eds only? Or essays only? (Affects the item-3 mechanical scan;
    cost is author-attention, not tokens.)
@@ -315,12 +450,16 @@ we go" (2026-06-02). The rest remain open:
 |---|---|---|
 | 1 | Reframe compression as a generation-time (max-length) failure, not a rigor failure | Relocates the corrective upstream; motivates min-only generation and demotes the fresh-draft diagnostic from permanent step to legacy fallback |
 | 2 | Add a standing **Portfolio layer** (duplication matrix + unique-contribution profiles + allocation decisions) above the per-artifact pipeline | Cross-artifact decisions can't be made correctly inside a single artifact's pipeline; a compressed *map* gives coherence without holding all text in one context; generalizes the existing `_BookLevelGuidance.md` migration instinct corpus-wide |
-| 3 | Rebuild the per-artifact front-end as **gather → allocate → plan → generate → cut → cascade → calibrate** | Encodes the author's discuss-then-draft discipline; abundance precedes drafting; two cuts at two grains (coarse pre-draft scope; fine post-draft fat) |
+| 3 | Rebuild the per-artifact front-end as **gather → [material-readiness gate] → allocate → plan → generate → cut → cascade → calibrate** | Encodes the author's discuss-then-draft discipline; abundance precedes drafting; two cuts at two grains (coarse pre-draft scope; fine post-draft fat) |
 | 4 | **Min-only generation, no maximum** | Max-length manufactured compression; venue-anchored floor + abundance lets the drafter write each element fully |
 | 5 | Re-sort X.1–X.6 into the two homes (X.1 demoted to legacy fallback; X.2/X.3 prose-craft made structural; X.4 standalone memory; X.5 relocated to front-end; X.6 widened to bidirectional incl. portfolio) | Once the two levels exist, four of the six amendments are consequences; the re-sort reveals X.1/X.5 were symptoms of the missing layer + max-length root cause |
 | 6 | Replace per-chapter GuidanceDocs with a **disposable, sectioned drafting-plan artifact** that points up to the portfolio map | Fixes the four observed GuidanceDoc failure modes (mixing, accretion, no available-vs-decided split, no upward pointer); makes discuss-then-draft portable |
 | 7 | **Two-state citation model** (tentative w/ provenance → confirmed on landing) + fabrication gate built into the gather phase | Harvest is where fabrication enters; catching it at harvest is far cheaper than at Pass 3.1; provenance-at-tentative enforces the hard no-invented-claims rule |
 | 8 | **Length calibration discipline** — running actual-vs-minimum tally used descriptively, never as a target | Cutting fat beats adding substance; but lowering minimums to match observed overage would re-smuggle length-targeting; tally guides *our* floor choice, not the drafter's optimization |
+| 9 | **Two differentiation axes** (§2.1) — internal-corpus (matrix) + external-field (`differential-positioning.md`, fed by Gather harvest) | A piece can be internally-unique-vs-siblings yet externally-redundant-with-the-field ("restates Christophers in his own voice"); both axes must clear the bar; external axis reuses the already-harvested, fabrication-gated adjacent works |
+| 10 | **Material-readiness gate** (§2.2) — `READY-TO-ALLOCATE` / `NOT-READY-NEEDS-X` / `RECONSIDER` between Gather and Allocate; `RECONSIDER` = X.5 substrate-question | Makes the implicit "do we have enough to brief this?" decision visible + auditable; McDowell/Chesapeake travel = `NOT-READY-NEEDS-X` → field research closed the gap → `READY-TO-ALLOCATE`; defaults to a drafting-plan preface |
+| 11 | **X.6 essay→book sub-cascade** (§3.1) — 6 steps, batched via `book-amendment-candidates.md`, hard (a)+(b)+(c) threshold, Cut-phase trigger, class-boundary flag at step 3 | Essay→book propagation is a workflow, not a line item; threshold + batching prevent constant firing; step 3 crosses into end-user-facing prose (merge-on-ratification), which the doctrine must flag or a session auto-merges a chapter change |
+| 12 | **Per-venue submission-norms artifact** (§6.1) at `publishing/venues/<venue>/submission-norms.md` — norms + editorial-brain map + calibration band; briefs §2/§10 point to it | Venue norms are venue-property not essay-property; embedding in per-essay briefs duplicates across N essays per venue; one source of truth; consulted by Cut + Stage 5, never by the drafter |
 
 ---
 
@@ -334,6 +473,8 @@ we go" (2026-06-02). The rest remain open:
 - No-invented-claims hard rule: `tools/memory/feedback_no_invented_factual_claims_in_publisher_facing_prose.md`
 - Token-cost-not-a-constraint (cost is author-attention): `tools/memory/feedback_token_cost_not_a_constraint.md`
 - Brief template (corpus-wide): `tools/drafting-templates/stage-1-audience-aware-structure-pass.md`
+- Sibling session (source of the four 2026-06-02 additions §2.1 two-axis, §2.2 readiness gate, §3.1 essay→book sub-cascade, §6.1 per-venue norms): branch `claude/atlantic-ideas-package-ratification-260601-e8593b`
+- Atlantic Ideas tree (empirical anchor for the additions; fresh draft surfaced the §3.1 cost-of-mis-classification worked example): `publishing/essays/atlantic-ideas-pricing-honestly/` + `_archive/fresh-stage-2-experiment_2026-06-01.md`
 
 ---
 
