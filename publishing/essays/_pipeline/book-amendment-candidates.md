@@ -143,3 +143,31 @@ without an explicit author-ratified book-amendment session.
   also in the cover-letter / cross-artifact carry-forwards.
 - **Status:** LOGGED — book edit held (merge-on-ratification); FA fresh draft
   corrected.
+
+## Candidate 5 — McDowell coal carbon arithmetic does not reconcile (Ch 8)
+
+- **Surfaced:** 2026-06-03, McDowell op-ed cascade fact-check (numerate Project
+  Syndicate / Bloomberg readers will catch it).
+- **The error:** the stated figures do not multiply. Ch 8 gives ~2.6 metric tons
+  CO₂ per short ton of coal, a social cost of carbon of $190/ton, a carbon term
+  of **$510**, and an honest total of **$524**. But **2.6 × $190 = $494**, not
+  $510 (and the chapter's own grounded calc, 93.28 kg/mmBtu × ~28 mmBtu/ton =
+  **2.61 t**, gives **$496**). $510 would require ~2.68 t, or an SCC of ~$195.
+  So the carbon term is overstated by ~$14–16, and the $524 total inherits it.
+- **Propagation:** Ch 8 (origin) → **Atlantic Ideas essay** (essay.md, RATIFIED-
+  AWAITING-SUBMIT — uses the coal figure) → **McDowell op-ed** (fresh draft; even
+  looser at "two and a half tons" × $190 = $475 but stated $510) → **Aeon
+  high-floor/lead arms** (used $524/$510/2.6t/$190). A shared-figure drift the
+  Portfolio layer should own (canonical-value-per-shared-figure, same pattern as
+  the Norway GPFG number).
+- **Recommended reconciliation (author picks the canonical set):** the grounded
+  calc is 2.61 t × $190 = **~$496 carbon**, total **~$510** (carbon + ~$14 other
+  components). Either (a) restate carbon ≈ $495 / total ≈ $510, or (b) keep $510
+  by adopting ~2.68 t or SCC ≈ $195 — but (a) matches the chapter's own
+  derivation and is the clean fix. Make ONE set canonical and propagate.
+- **Pre-submission gate:** because Atlantic Ideas is submit-ready, this is a
+  **fact-fix to resolve before that essay ships** (a numerate editor/fact-checker
+  catches a multiplication that doesn't), and the McDowell op-ed's internal
+  2.5t×$190≠$510 slip must be fixed before it ships too.
+- **Status:** LOGGED — book edit held (merge-on-ratification); affects a
+  submit-ready essay, so flagged as a pre-submission fact-gate.
