@@ -21,9 +21,9 @@ The essay engages the literature by name rather than around it. It walks the lin
 
 It seems to me to sit squarely in Phenomenal World's lane: heterodox political economy, named institutions and named debates, the political economy of capital and the state, in the company of the pricing-and-extraction work you publish. It is also timely against the current resource-frontier moment (critical minerals, deep-sea mining), though it is built to outlast any single news peg.
 
-[A line on me — author to finalize: I developed this pricing framework outside the academy over the past decade; it anchors a book-length project, *Commons Bonds*, now complete in draft. (Add any prior publications / professional background you'd like to include.)]
+A note on me: I am a nursing student at Virginia Peninsula Community College and a former healthcare-IT executive whose career spanned the National Institutes of Health during the Human Genome Project, federal research and consulting, and the CEO seat of a healthcare-IT firm. My forthcoming book, *Commons Bonds*, develops a formal framework for pricing the intergenerational costs that resource extraction severs from the populations that bear them — the framework this essay applies to oil. I live aboard a sailboat in Hampton, Virginia.
 
-[AI-collaboration disclosure — author to finalize per your standard practice across the portfolio.]
+*Disclosure:* the book this essay derives from was developed in collaboration with Claude (Anthropic) as a research and rigor-testing partner, across the framework's mathematical formalization, cross-scenario stress testing, and structural editing. The originating intuitions, the case selection, the framework's vocabulary, and the argumentative posture are mine; the collaboration is documented in a public Author's Note and Open Insights Log preserved alongside the manuscript. I offer this proactively, in keeping with the honest-accounting discipline the essay itself argues for.
 
 The full essay is finished and I'd be glad to send it along; it's ready whenever you'd like to read it. Thank you for considering the proposal.
 
