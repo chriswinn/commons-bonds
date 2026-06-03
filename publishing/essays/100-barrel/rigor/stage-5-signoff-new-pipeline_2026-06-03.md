@@ -1,7 +1,7 @@
 ---
 artifact: $100 Barrel (new-pipeline) — Stage 5 sign-off + pre-pub review queue
 date: 2026-06-03
-status: CASCADE COMPLETE → RATIFIED-AWAITING-SUBMIT (promoted to essay.md)
+status: ✅ SUBMITTED 2026-06-03 — Phenomenal World (pitch emailed by author; portfolio submission #2). Was CASCADE COMPLETE → RATIFIED-AWAITING-SUBMIT.
 base: essay.md (4,201w body, 0 em-dashes; full front-end behind it)
 venue: Phenomenal World (pitch-by-email; ~3,500–5,000w; center-right reader Tier-1 dispositive)
 pipeline: Amendment E new-pipeline; cascade 3.1 → 3.2 → 3.3/3.4/3.5 (Stage 4 = toolchain, §14.7)
@@ -34,4 +34,4 @@ Companion: [source-manifest.md](../source-manifest.md). Priority pins: (1) Stern
 - Brief §7.2 Ekofisk fact corrected in-place (was stale).
 
 ## §6. Status
-**CASCADE COMPLETE → RATIFIED-AWAITING-SUBMIT.** Promoted to essay.md; prior iterated version archived (`_archive/essay_iterated-superseded-by-new-pipeline_2026-06-03.md`). Stage 4 did not fire (toolchain, §14.7). **Next portfolio step: Foreign Affairs** through the same full-front-end pipeline.
+**✅ SUBMITTED 2026-06-03 to Phenomenal World** (pitch emailed by author; portfolio submission #2 after Boston Review). **CASCADE COMPLETE → RATIFIED-AWAITING-SUBMIT → SUBMITTED.** Promoted to essay.md; prior iterated version archived (`_archive/essay_iterated-superseded-by-new-pipeline_2026-06-03.md`). Stage 4 did not fire (toolchain, §14.7). **Next portfolio step: Foreign Affairs** through the same full-front-end pipeline.
