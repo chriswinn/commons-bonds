@@ -1,7 +1,7 @@
 ---
 artifact: Boston Review essay "The Accountability Gap" — canonical (new-pipeline)
 date: 2026-06-02
-status: RATIFIED-AWAITING-SUBMIT (Amendment E new-pipeline; cascade complete 2026-06-02; promoted from fresh draft + cut/focus)
+status: SUBMITTED 2026-06-03 to Boston Review (Essays & Book Reviews stream, via Submittable — confirmed "received"); cascade complete 2026-06-02 (Amendment E new-pipeline). Submitted version frozen; further edits are for reprint/book only.
 supersedes: the prior iterated version (archived at _archive/essay_iterated-superseded-by-new-pipeline_2026-06-02.md)
 pipeline: "Amendment E new-pipeline (min-only, no max, §5 prose-craft); fresh path-independent generation → §7-5 cut/focus (bond-mechanism graft + why-bonds clause + craft fixes) → cascade 3.1→3.2→light 3.3→3.5 → Stage 5; Stage 4 toolchain per §14.7"
 provenance: "fresh-stage-2-experiment_2026-06-02.md → cut/focus (graft Restitution-Bond mechanism; why-bonds disambiguation; externality-distinction; 100%-target defense; softened Sweden/Social-Security; hardened reparations asymmetry) → 3.1 fact-check (caught + fixed the foreclosure filings-vs-completed conflation, like Atlantic) → 3.2 voice → 3.5 developmental"

@@ -1,7 +1,7 @@
 ---
 artifact: Boston Review "The Accountability Gap" (new-pipeline) — Stage 5 sign-off + pre-pub review queue
 date: 2026-06-02
-status: CASCADE COMPLETE → RATIFIED-AWAITING-SUBMIT (promoted to essay.md)
+status: SUBMITTED 2026-06-03 to Boston Review (Submittable, confirmed "received") — was CASCADE COMPLETE → RATIFIED-AWAITING-SUBMIT
 base: essay.md (4,448w body, 0 em-dashes; promoted from the fresh draft + §7-5 cut/focus)
 pipeline: "Amendment E new-pipeline; cascade 3.1→3.2→light-3.3→3.5→Stage 5 (Stage 4 toolchain per §14.7)"
 ---
@@ -43,4 +43,4 @@ Companion: [source-manifest.md](../source-manifest.md) (line-by-line). Editor-si
 
 ## §6. Status
 
-**Cascade COMPLETE → RATIFIED-AWAITING-SUBMIT.** Promoted to essay.md; the prior iterated version archived. Stage 4 did not fire (toolchain, §14.7).
+**SUBMITTED 2026-06-03 to Boston Review** (Essays & Book Reviews, via Submittable; confirmed "received"). Cover note cut to under 300 words by the author for the Submittable field. Was: Cascade COMPLETE → RATIFIED-AWAITING-SUBMIT. Promoted to essay.md; the prior iterated version archived. Stage 4 did not fire (toolchain, §14.7).

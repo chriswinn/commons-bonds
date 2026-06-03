@@ -42,5 +42,5 @@ status: LIVING checklist. Per author direction 2026-06-03, ALL cuts/trims + the 
 
 ## Already ratified / done (for reference)
 - $100 Barrel: full cascade complete; close strengthened; PW pitch drafted (bio + AI-disclosure bracketed for author). RATIFIED-AWAITING-SUBMIT.
-- Boston Review: cascade complete, promoted. RATIFIED-AWAITING-SUBMIT. **Optional trim considered 2026-06-03 → KEEP FULL** (author: keep the GoFundMe + Baotou pair + the Social Security beat for the punch; submit at 4,448w, within BR's 6,000-word max; let an editor request cuts rather than pre-gut the GoFundMe reality). Cover letter's "4,448-word" matches — fully send-ready, no count update.
+- Boston Review: **✅ SUBMITTED 2026-06-03** (Submittable, confirmed "received"). Optional trim considered 2026-06-03 → KEEP FULL (author: keep the GoFundMe + Baotou pair + the Social Security beat for the punch; submit at 4,448w, within BR's 6,000-word max; let an editor request cuts rather than pre-gut the GoFundMe reality). Cover letter's "4,448-word" matches — fully send-ready, no count update.
 - Aeon: 289w pitch ships; full-essay lead candidates banked (post-acceptance).
