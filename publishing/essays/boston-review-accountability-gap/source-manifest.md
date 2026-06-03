@@ -2,8 +2,9 @@
 artifact: Boston Review "The Accountability Gap" — source manifest (fact-check support sheet)
 date: 2026-06-02
 status: LIVING — travels with the submission package; not for publication
-keyed_to: essay.md
+keyed_to: essay.md (NEW-PIPELINE version promoted 2026-06-02; the figure-table below still holds — the fresh draft drew the same facts from the same brief/source)
 purpose: Every inline citation / factual claim → source → verification status. For the venue's fact-checker + the pre-publication review queue. NOT a bibliography (the book carries that; this essay cites inline). Built from the 2026-06-02 Gather-verify (figures traced to source per §14.9), the doctrine-mandated check that caught the Atlantic $600.
+new_pipeline_note: "essay.md is now the new-pipeline draft (cascade-complete). Two items the cascade touched: (1) the foreclosure filings-vs-completed distinction is now CONSISTENT throughout (10M filings / 5M lost homes) — 3.1 caught a back-reference conflation and fixed it; (2) the grafted Restitution-Bond mechanism leans on the black-lung coal-excise-tax (IRC §4121) model — see the §4121 pin below (now load-bearing, appears twice)."
 source_chapter: Chapter 5 *The Accountability Gap* (Norway detail traces to Chapter 4)
 ---
 

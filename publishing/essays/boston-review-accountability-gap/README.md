@@ -2,15 +2,17 @@
 
 **Slug:** `boston-review-accountability-gap`
 **Venue:** Boston Review (Essays & Book Reviews stream; Submittable portal)
-**State:** RATIFIED-AWAITING-SUBMIT (Stage 5 sign-off RATIFIED 2026-05-23)
-**Last updated:** 2026-05-25
+**State:** RATIFIED-AWAITING-SUBMIT — **NEW-PIPELINE version (Amendment E), cascade complete + Stage 5 signed off 2026-06-02.** Supersedes the 2026-05-23 iterated version (archived in `_archive/`).
+**Last updated:** 2026-06-02
 
 ## Essay status
 
-- **Word count:** ~4,853w (per Stage 5 sign-off)
-- **Stage 3 cycle:** COMPLETE (5 passes + light Pass 3.3 re-fire 2026-05-23)
-- **Stage 5 sign-off:** RATIFIED 2026-05-23 — [`stage-5-signoff.md`](stage-5-signoff.md)
-- **Cover letter:** RATIFIED 2026-05-24 — [`cover-letter.md`](cover-letter.md)
+- **Word count:** ~4,448w (new-pipeline; 0 em-dashes — vs the iterated version's ~4,853w / 20 em-dashes). Within BR's 6,000 submission max; above the 2,500–4,000 published sweet spot (optional tightening flagged).
+- **Pipeline:** Amendment E new-pipeline — fresh path-independent draft → §7-5 cut/focus (bond-mechanism graft + why-bonds + craft fixes) → cascade 3.1→3.2→light-3.3→3.5 → Stage 5. Stage 4 toolchain (§14.7).
+- **Stage 5 sign-off (new-pipeline):** RATIFIED 2026-06-02 — [`rigor/stage-5-signoff-new-pipeline_2026-06-02.md`](rigor/stage-5-signoff-new-pipeline_2026-06-02.md)
+- **Source manifest (fact-check sheet):** [`source-manifest.md`](source-manifest.md)
+- **Cover letter:** RATIFIED 2026-05-24 — [`cover-letter.md`](cover-letter.md) (verify it still fits the new-pipeline essay before submission)
+- **Prior iterated version:** Stage 5 RATIFIED 2026-05-23 — archived at [`_archive/essay_iterated-superseded-by-new-pipeline_2026-06-02.md`](_archive/essay_iterated-superseded-by-new-pipeline_2026-06-02.md)
 
 ## Cross-references
 
