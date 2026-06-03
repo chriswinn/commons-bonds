@@ -119,3 +119,27 @@ without an explicit author-ratified book-amendment session.
   essays + the book. (Add to the portfolio map's standing maintenance.)
 - **Status:** LOGGED — book edit held (merge-on-ratification); BR + Atlantic now
   consistent at the current figure.
+
+## Candidate 4 — Norway "Storting supermajority" claim is unsupported (Ch 4)
+
+- **Surfaced:** 2026-06-03, Foreign Affairs fresh-draft fact-check (the claim
+  entered the FA draft from the FA Stage-1 brief, which carried it from a **Ch 4
+  Pass 3.5 restoration** — "NBIM operational arm + ethics council + Storting
+  supermajority").
+- **The error:** there is **no Storting supermajority requirement** protecting
+  the Government Pension Fund Global or the fiscal rule (handlingsregelen). The
+  rule is a parliamentary convention held in place by **broad cross-party
+  consensus**, not a constitutional/legal supermajority lock. When it was
+  adjusted from 4% to 3% in 2017 it passed by ordinary broad agreement (only the
+  Progress Party opposed). (Web-verified 2026-06-03: regjeringen.no fiscal-policy
+  framework + Wikipedia "The budgetary rule.")
+- **Why it matters:** aimed at the dispositive sovereign-wealth-practitioner
+  reader; a false institutional specific discredits the piece with exactly the
+  audience it must satisfy. **Fixed in the FA fresh draft** (both §29 + §37 sites)
+  → "settled cross-party consensus," not a supermajority lock.
+- **Book action (held):** check **Ch 4** (and the FA brief §7.4 / §II structure
+  table, and any chapter Pass 3.5 restoration text) for the "Storting
+  supermajority" claim and correct to the cross-party-consensus framing. Likely
+  also in the cover-letter / cross-artifact carry-forwards.
+- **Status:** LOGGED — book edit held (merge-on-ratification); FA fresh draft
+  corrected.
