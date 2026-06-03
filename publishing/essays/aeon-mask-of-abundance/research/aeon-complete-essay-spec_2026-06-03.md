@@ -17,6 +17,16 @@ Second arm of the minimum-floor calibration experiment. The first run set low fl
 
 **One honest ledger, on any scale, on any world, run in either direction.** Every section is the *same move*: find the commons value that abundance, distance, or time has hidden, and put it on the ledger honestly. The mask of abundance is the way *in*; the framework is what the mask reveals. The essay should feel like a single argument widening — breath → barrel → county → other worlds → any economy, any world — not a tour of topics.
 
+## Stated goal + book-thunder discipline (author-ratified 2026-06-03)
+
+**Name the goal plainly** (near the open and again at the close): *the essay builds a framework for honest accounting that works on this world and any other, by making cost severance — the currently hidden and invisible costs — visible.* That is the whole of what the essay claims to do. It is fully ownable by the essay and steals no thunder from the book.
+
+**RESERVED FOR THE BOOK — do NOT put in the Aeon essay:**
+- **The Commons Bonds formula** (CS = RCV − B; the Cᵢ / Four Gates apparatus). Off-register for Aeon and a premature spend of the book's machinery. The named instruments + "residual commons value" carry the concept without it.
+- **The title-pun reveal** — that the *commons bonds* are the bonds of mutual obligation that tie everyone together across distance and time. This is the book's signature payoff. The essay earns the social-bonds resonance **implicitly only** (through the "owed to people not at the table, across distance and time" through-line) and may *gesture* toward it in the close **without naming it**. Leave the reader wanting the book.
+
+Rationale: the essay is a downstream marketing instrument for the content-complete book. Its job is a complete, compelling taste that makes a reader want the named framework — not to hand over the name.
+
 ## Register + discipline (binding)
 
 - **Aeon literary-philosophical**: vivid, unhurried, idea-forward; second person and concrete images welcome; NO academic apparatus, NO inline citation strings (vol/issue/page), NO section-number scaffolding. Name a thinker and a work in flowing prose, not in a parenthetical.
