@@ -37,9 +37,9 @@ correctly but injected colloquialisms/idioms ("for the price of a sandwich," "fl
 globally-inclusive target is more neutral and slightly more formal than folksy-plain, not
 less.
 
-Calibration point left open for the author: natural contractions were ALLOWED in this draft
-(they aid readability and ESL clarity when unambiguous). A stricter no-contractions variant
-is a one-line change if the author prefers it.
+Calibration point — RATIFIED 2026-06-03: **natural contractions are allowed** (they aid
+readability and ESL clarity when unambiguous). The stricter no-contractions variant was
+considered and declined. This is now part of the standard.
 
 ## The draft (read in full)
 
@@ -64,7 +64,7 @@ most deep-baked idioms do not REGISTER as idioms to the writer producing them. R
 - L71 "**Money changed hands**"
 - L83 "not to **settle scores**"
 - L137 "No government, **of any color**" (idiom for political affiliation; also awkward near
-  the race discussion)
+  the race discussion) — FIXED 2026-06-03 to "of any party" per author.
 - L187 "you are **deciding in the dark**" (one line after correctly replacing "flying blind"
   with the literal "moving without sight" — an inconsistency)
 - (Borderline: L137 "raided the principal." The L173/177/181/211 "in the dark" are LITERAL —
