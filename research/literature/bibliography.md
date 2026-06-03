@@ -85,6 +85,7 @@
 - **Chapter relevance:** Atlantic Ideas essay §I four-traditions diagnostic insertion (2026-05-22 commit `74f8c6c`); potential future cross-corpus engagement if framework's labor-cost-severance dimension is developed further. Ch 9 *Pricing Honestly* does not explicitly cite Marx; the four-traditions essay-level insertion extends beyond Ch 9's named-tradition set.
 - **Status:** added 2026-05-24 per Atlantic Ideas Pass 3.1 §3.5 ratification record (F-3.1-3 bibliography expansion proposal; placement in §2 Political economy of extraction ratified at interactive session, more thematically natural than the originally proposed §13 Framework-adjacent — sits in Harvey/Klein/Piketty/Polanyi lineage).
 - **Path B note:** Pass 3.1 fact-check verified Marx attribution accuracy ("who labors" gloss accurate to *Capital* Volume I labor-theory-of-value tradition); see [`publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-1-fact-check.md`](../../publishing/essays/atlantic-ideas-pricing-honestly/rigor/pass-3-1-fact-check.md) F-3.1-3 + F-3.1-20.
+- **2026-06-02 UPDATE (essay → Polanyi substitution):** The Atlantic Ideas essay's §I four-traditions gloss was changed from Marx to **Polanyi** on 2026-06-02 — attack-surface reduction for the center-right dispositive audience; Marx was the most charged AND, for an extraction-costs essay, the least load-bearing of the four (consistent with the Relationship note above, which already placed the framework closer to Polanyi). **The essay no longer cites Marx**; the essay-specific notes above are retained as historical record. **Marx remains the BOOK's canonical four-traditions taxonomy** (Marx/Ostrom/Daly/Hartwick); the Marx→Polanyi-in-the-book question is logged at [`publishing/essays/_pipeline/book-amendment-candidates.md`](../../publishing/essays/_pipeline/book-amendment-candidates.md) (held). This entry stays as the book's citation + audit trail.
 
 ### Piketty, Thomas. *Capital in the Twenty-First Century.* Harvard University Press, 2014.
 
@@ -98,7 +99,7 @@
 - **Summary:** Argued that market society requires the treatment of land, labor, and money as "fictitious commodities" — resources that were not produced for market exchange but are treated as if they were, generating the characteristic crises of market society.
 - **Relevance:** The framework's core observation — that certain costs should not be transactable externalities but are treated as such — is a descendant of Polanyi's fictitious-commodities frame.
 - **Relationship:** **STRONG SUPPORT.** Polanyi is the deep intellectual substrate that Ostrom, Harvey, and Commons Bonds all build on.
-- **Chapter relevance:** Ch 10 (political-economy closing); Technical Appendix methodology.
+- **Chapter relevance:** Ch 10 (political-economy closing); Technical Appendix methodology; **Atlantic Ideas essay §I four-traditions gloss (2026-06-02 — substituted in for Marx as the essay's labor-and-land tradition; "Polanyi asked what happens when labor and land are treated as ordinary commodities").**
 
 ---
 

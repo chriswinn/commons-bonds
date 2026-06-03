@@ -43,7 +43,7 @@ Body 5,107 words (in Atlantic's range), **0 em-dashes** (vs the old-pipeline raw
 
 ## §5. Carry-forwards before submission
 
-- **Add Polanyi (*The Great Transformation*, 1944) to `research/literature/bibliography.md` §2** (the essay §I four-traditions gloss now load-bears on it; Marx remains the book's taxonomy). Brief §7 resynced 2026-06-02.
+- **Bibliography synced 2026-06-02 (DONE):** Polanyi was already in `research/literature/bibliography.md` (full entry, "STRONG SUPPORT") — no separate essay bibliography exists. Added the Atlantic essay to Polanyi's chapter-relevance; updated the Marx entry to record the essay → Polanyi substitution (Marx retained as the book's four-traditions taxonomy + audit trail). Brief §7 resynced 2026-06-02. (My earlier "add Polanyi" carry-forward was wrong — it was already present.)
 - **Author final read** of the new-pipeline base, including the one additive change to the ratified deferral passage ("I am not among them.").
 - **Promote decision:** on author sign-off, promote `essay-cut-focus-base_2026-06-02.md` → `essay.md` (the Locked is superseded), and update the package status.
 - **Cover letter / pitch:** Christophers (*The Price is Wrong*) was held out of the essay body per Axis B; consider it as a comp-title signal in the cover letter instead.
