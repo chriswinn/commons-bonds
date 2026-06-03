@@ -41,6 +41,33 @@ Calibration point — RATIFIED 2026-06-03: **natural contractions are allowed** 
 readability and ESL clarity when unambiguous). The stricter no-contractions variant was
 considered and declined. This is now part of the standard.
 
+## Calibration 2 — TRUST THE READER + ECONOMY (author, 2026-06-03, after reading the draft)
+
+The first draft hit the inclusivity target (rules 1-4) but overshot on a separate axis:
+it **over-explains and over-narrates**. Two distinct corrections, now part of the standard:
+
+- **Trust the reader.** Inclusivity = removing jargon / idiom / regional barriers. It does
+  NOT mean explaining things a normal reader already knows from ordinary life and film
+  (e.g. what an airlock is). Reserve build-then-name for GENUINE terms of art (cost
+  severance, residual commons value, social cost of carbon); never gloss common words.
+  Over-explaining familiar concepts reads as condescension, not inclusion.
+- **Economy.** Make each point as efficiently as it can be made. Cut method-narration and
+  throat-clearing: "the misunderstanding I want to take apart slowly," "I want it on the
+  table from the start," "I want to be precise here." One strong sentence beats three
+  careful ones. The author's anchor: the Biosphere 2 content was all valuable, "but it took
+  a lot of writing to get there."
+
+**Root-cause note (connects to the min-floor / no-max finding):** much of the inflation was
+the **8,500 floor interacting with the plain overlay**. "Explain plainly enough to reach
+8,500 words" incentivizes spelling-everything-out + connective filler. The min-floor mechanic
+is right when richness is genuinely wanted, but for CAPTURING A VOICE — and for book chapters,
+where the right DENSITY matters more than any word count — economy and a high floor pull in
+opposite directions. Refined standard: globally inclusive **and economical**, substance-driven
+in length (likely meaningfully SHORTER than 9,962w), not floor-driven.
+
+Next step (afternoon 2026-06-03): a tightened globally-inclusive pass — reader-trusting,
+throat-clearing removed, no high floor — to land the voice at its natural (shorter) density.
+
 ## The draft (read in full)
 
 `_archive/global-plain-colony-8500w_2026-06-03.md` — 9,962 words. 0 em-dashes, 0 en-dashes.
