@@ -14,7 +14,7 @@ purpose: Every inline citation / factual claim in the essay → its source → v
 
 | Claim (essay) | Source | Status |
 |---|---|---|
-| McDowell coal $4.50/ton (1960) → honest cost $520–600/ton | Brief §7.1 (Ch 8 post-cascade floor; 2.61 mt CO₂/short ton × $190 SCC) | ✅ (editor note: the carbon-tail basis is the load-bearing component) |
+| McDowell coal $4.50/ton (1960) → honest cost **at least $520/ton (conservative floor); Ch 8 total = $524** | Ch 8 (carbon term ~$510 = 2.61 t CO₂/short ton × $190 SCC; four-component floor $518–532; total $524) | ✅ **corrected 2026-06-02** — the prior "$520–600" carried an ungrounded $600 upper bound (Ch 8 tops at $524); essay now floor-framed. Carbon-tail is the load-bearing component. |
 | Four traditions: Polanyi / Ostrom / Daly / Hartwick | Bibliography (Polanyi 1944; Ostrom 1990; Daly steady-state; Hartwick 1977) | Polanyi ✅; Ostrom/Daly/Hartwick 🔎 (accurate one-line glosses; pin editions) |
 | Coase named the conditions for private bargaining of externalities | Bibliography (Coase, "The Problem of Social Cost," 1960) | ✅ |
 
