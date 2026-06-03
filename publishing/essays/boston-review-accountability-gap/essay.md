@@ -6,7 +6,7 @@ supersedes: the prior iterated version (archived at _archive/essay_iterated-supe
 pipeline: "Amendment E new-pipeline (min-only, no max, §5 prose-craft); fresh path-independent generation → §7-5 cut/focus (bond-mechanism graft + why-bonds clause + craft fixes) → cascade 3.1→3.2→light 3.3→3.5 → Stage 5; Stage 4 toolchain per §14.7"
 provenance: "fresh-stage-2-experiment_2026-06-02.md → cut/focus (graft Restitution-Bond mechanism; why-bonds disambiguation; externality-distinction; 100%-target defense; softened Sweden/Social-Security; hardened reparations asymmetry) → 3.1 fact-check (caught + fixed the foreclosure filings-vs-completed conflation, like Atlantic) → 3.2 voice → 3.5 developmental"
 companions: "rigor/stage-5-signoff-new-pipeline_2026-06-02.md; source-manifest.md; ../../venues/boston-review/submission-norms.md; cover-letter.md"
-length_note: "4,448w — within BR's 6,000 submission max, above the 2,500-4,000 published sweet spot; optional further tightening available (see Stage 5 §carry-forwards)"
+length_note: "4,446w — within BR's 6,000 submission max, above the 2,500-4,000 published sweet spot; optional further tightening available (see Stage 5 §carry-forwards)"
 submission_gate: "author-controlled; landing on essay.md is not shipping"
 ---
 

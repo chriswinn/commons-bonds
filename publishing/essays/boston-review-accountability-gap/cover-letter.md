@@ -1,6 +1,6 @@
 Dear Editors,
 
-Please consider *The Accountability Gap*, a 4,448-word essay submitted to Boston Review's Essays & Book Reviews stream. The piece draws from my forthcoming book *Commons Bonds* and works in the civic-republican / institutional-measurement register the magazine has anchored, with named-tradition attribution and a constructive proposal grounded in measurement rather than in posture.
+Please consider *The Accountability Gap*, a 4,446-word essay submitted to Boston Review's Essays & Book Reviews stream. The piece draws from my forthcoming book *Commons Bonds* and works in the civic-republican / institutional-measurement register the magazine has anchored, with named-tradition attribution and a constructive proposal grounded in measurement rather than in posture.
 
 The essay opens at the W. R. Grace vermiculite mine outside Libby, Montana, where a forty-to-one ratio between recorded revenue and documented downstream cost stands in for a pattern that holds across Deepwater Horizon, the 2008 foreclosure cascade, and Social Security. The middle section reads that pattern through the six legal modules of Katharina Pistor's *Code of Capital* (property, collateral, trust, corporate veil, bankruptcy, choice-of-law) and asks why the existing architecture has been engineered to internalize the value side of extraction more reliably than the cost side. The Public Choice tradition (Buchanan and Tullock; Mueller's later survey work) enters as a complementary lens on regulatory capture and rent-seeking rather than as a competing one.
 
