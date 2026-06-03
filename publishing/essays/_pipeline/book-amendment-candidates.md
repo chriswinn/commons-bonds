@@ -96,3 +96,26 @@ without an explicit author-ratified book-amendment session.
   voice. Author-ratified book-amendment session required (class-boundary:
   chapter prose = merge-on-ratification).
 - **Status:** LOGGED — author flagged as likely-earned; deferred.
+
+---
+
+## Candidate 3 — Norway GPFG figure-currency reconciliation (cross-corpus)
+
+- **Surfaced:** Boston Review Gather-verify, 2026-06-02.
+- **The drift:** the Norway Government Pension Fund Global figure has drifted out
+  of sync across the corpus. Current NBIM (May 2026, verified): **>$2 trillion /
+  >$390,000 per citizen.** But: Boston Review said $1.9T / $340K (2024 figure —
+  corrected 2026-06-02); **Ch 4 *The Existence Proof* says ">$2T / ~$360,000"**;
+  the Atlantic Ideas essay uses ~$2T / ~$390K (current). Three figures for one
+  fund.
+- **Book action (held):** update **Ch 4**'s per-citizen figure ($360K → ~$390K)
+  to the current NBIM number. Cross-chapter check: anywhere else the book cites
+  the GPFG size.
+- **Systemic note:** this is a *figure-currency* drift on a **shared case** —
+  exactly what the Portfolio layer should own. Recommendation: the portfolio map
+  carries a **canonical-current value per shared figure** (Norway GPFG, Alaska
+  dividend, Mondragon headcount, etc.), and each artifact points to it, so a
+  quarterly-moving number is updated in one place rather than drifting across N
+  essays + the book. (Add to the portfolio map's standing maintenance.)
+- **Status:** LOGGED — book edit held (merge-on-ratification); BR + Atlantic now
+  consistent at the current figure.
