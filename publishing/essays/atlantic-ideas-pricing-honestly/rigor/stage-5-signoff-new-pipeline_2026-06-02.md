@@ -28,6 +28,8 @@ Body 5,107 words (in Atlantic's range), **0 em-dashes** (vs the old-pipeline raw
 
 ## §4. Pre-publication review queue (hand-off to publisher / editor)
 
+**Companion artifact:** the per-citation [source manifest](../source-manifest.md) is the fact-check support sheet for this package (every inline citation → source → status), per Amendment E §14.8. The summary below is the queue; the manifest is the line-by-line detail the venue's fact-checker works from.
+
 **Internally verified:** all §7 figures (McDowell $520–600; rare-earth reserves; CRMA; CBAM; carbon pricing; Norway/Alaska/Mondragon/Vienna/Chattanooga; tax-wedge; Berliner-Kenworthy); Darity & Mullen $14T; JAMA longevity figures; apparatus-exclusion compliance (no RCV / no bond names / no term-of-art jargon); em-dash + LLM-tic discipline.
 
 **NOT externally verified — recommended editor-side fact-check focus (priority order):**
