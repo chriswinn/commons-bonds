@@ -2,7 +2,7 @@
 artifact: Atlantic Ideas "Pricing Honestly" — source manifest (fact-check support sheet)
 date: 2026-06-02
 status: LIVING — travels with the submission package; not for publication
-keyed_to: essay-cut-focus-base_2026-06-02.md (→ essay.md on promote)
+keyed_to: essay.md (promoted from the cut/focus base 2026-06-02)
 purpose: Every inline citation / factual claim in the essay → its source → verification status. For the editor's fact-checker on acceptance + the Stage 5 pre-publication review queue. NOT a bibliography (magazine essays cite inline; no works-cited ships). The book carries the bibliography; the essay carries this.
 ---
 
