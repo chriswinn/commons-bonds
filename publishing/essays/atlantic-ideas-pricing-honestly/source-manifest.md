@@ -60,7 +60,7 @@ purpose: Every inline citation / factual claim in the essay → its source → v
 | Claim | Source | Status |
 |---|---|---|
 | Olson, *The Logic of Collective Action*, 1965 (concentrated vs diffuse) | Brief §7.4 | ✅ |
-| 2008: ~$11T household wealth destroyed; ~10M foreclosures (5 yrs); TARP ~$700B; Fed trillions | Brief §7.4 | ✅ |
+| 2008: ~$11T household wealth destroyed; **~10M foreclosure filings / ~5M completed** (5 yrs); TARP ~$700B; Fed trillions | Brief §7.4 + Ch 5 | ✅ **corrected 2026-06-02** — essay said "~10M foreclosures" (conflated filings with home-losses); now distinguishes ~10M filings / ~5M actually lost, per Ch 5 + the Boston Review essay. |
 | Mian & Sufi, *House of Debt* (2014): debt restructuring would have produced more consumption recovery than bank recapitalization | Brief §7.4 + Gather #2 | ↔ (qualitative claim verified; the "3-to-4× / bottom-40%" multiplier is NOT asserted — pin to primary text only if ever stated) |
 | Sweden 1933 devaluation + mortgage write-down + public works; 1938 Saltsjöbaden; 1992 recap-with-equity | Brief §7.4 | ✅ |
 | Darity & Mullen, *From Here to Equality* (2020): ~$14T wealth deficit | Brief §7.4 + Gather #1 | ✅ |

@@ -210,7 +210,7 @@ For each Ch 9 term, specify replacement-with-translation or omission:
 - **Mancur Olson — *The Logic of Collective Action*:** **1965**. Concentrated-vs-diffuse interest dynamic; named-tradition for the resistance section.
 - **US 2008 financial crisis architecture:**
   - **Approximately $11 trillion** US household wealth destroyed.
-  - **Approximately 10 million foreclosures** over the following five years.
+  - **Approximately 10 million foreclosure FILINGS** over the following five years, **~5 million completed (homes actually lost)** — distinction per Ch 5 (the prior "~10 million foreclosures" conflated filings with completed; corrected 2026-06-02, matching the Boston Review essay + Ch 5 which both carry the filings-vs-completed distinction).
   - **Approximately $700 billion** direct authorization (Troubled Asset Relief Program — TARP).
   - Plus trillions of dollars in Federal Reserve emergency liquidity + guarantees + AIG / Citigroup bailouts.
   - **Almost all deployed capital went to bank-balance-sheet recapitalization**, not to household-debt restructuring.
