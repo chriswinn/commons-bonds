@@ -1,6 +1,6 @@
 Dear Editors,
 
-Please consider *The Accountability Gap*, a 4,850-word essay submitted to Boston Review's Essays & Book Reviews stream. The piece draws from my forthcoming book *Commons Bonds* and works in the civic-republican / institutional-measurement register the magazine has anchored, with named-tradition attribution and a constructive proposal grounded in measurement rather than in posture.
+Please consider *The Accountability Gap*, a 4,448-word essay submitted to Boston Review's Essays & Book Reviews stream. The piece draws from my forthcoming book *Commons Bonds* and works in the civic-republican / institutional-measurement register the magazine has anchored, with named-tradition attribution and a constructive proposal grounded in measurement rather than in posture.
 
 The essay opens at the W. R. Grace vermiculite mine outside Libby, Montana, where a forty-to-one ratio between recorded revenue and documented downstream cost stands in for a pattern that holds across Deepwater Horizon, the 2008 foreclosure cascade, and Social Security. The middle section reads that pattern through the six legal modules of Katharina Pistor's *Code of Capital* (property, collateral, trust, corporate veil, bankruptcy, choice-of-law) and asks why the existing architecture has been engineered to internalize the value side of extraction more reliably than the cost side. The Public Choice tradition (Buchanan and Tullock; Mueller's later survey work) enters as a complementary lens on regulatory capture and rent-seeking rather than as a competing one.
 
@@ -8,7 +8,7 @@ From there the argument moves to two instruments. The reparations-economics trad
 
 Three implementation-level questions — per-case funding scale, the Social Security counterfactual, the climate application — are left at the level of substantive respondent engagement rather than pre-emption. The architecture suits a Forum series if that is where the piece eventually lands.
 
-A separate pitch for *Aeon*, drawn from a different chapter and a different frame, is queued for the June portal window; the manuscript's rights register confirms no overlap.
+A separate pitch for *Aeon*, drawn from a different chapter and a different frame, is queued for the next portal window; the manuscript's rights register confirms no overlap.
 
 Chris Winn is a nursing student at Virginia Peninsula Community College (Hampton, Virginia) and former healthcare-IT executive whose career spanned the National Institutes of Health during the Human Genome Project, federal research and consulting, and the CEO seat of a healthcare-IT firm. His forthcoming book *Commons Bonds* develops a formal framework for pricing the intergenerational costs that resource extraction systematically severs from the populations that bear them. He lives aboard a sailboat in Hampton.
 
