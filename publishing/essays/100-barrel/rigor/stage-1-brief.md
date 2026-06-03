@@ -238,7 +238,7 @@ The apparatus-core that distinguishes the book from the essay portfolio stays in
 
 **7.2 Norway sovereign wealth fund (canonical facts)**
 
-- **Discovery:** December 1969, Block 2/4, North Sea, Ekofisk well. Three days before Christmas.
+- **Discovery:** Ekofisk well, Block 2/4, North Sea. Discovery dated late October 1969; Phillips confirmed the commercial find to Norwegian authorities just before Christmas 1969 (public announcement June 1970). Use "just before Christmas 1969" — NOT "three days before Christmas" (web-verified 2026-06-03; the precise-day claim is unsupported).
 - **Fund founding:** Government Petroleum Fund established 1990. Renamed Government Pension Fund Global (GPFG) in 2006.
 - **Fiscal rule:** Adopted 2001 under Stoltenberg I (Labour). Limits annual withdrawals to expected real return on capital (~3%). Capital itself inviolate. Has held through every subsequent government: Bondevik II (center-right coalition); Stoltenberg II (Labour); Solberg (Conservative coalition); Støre (Labour-Centre coalition).
 - **Fund size:** **>$2 trillion** in assets (current NBIM, May 2026 — web-verified 2026-06-02; supersedes the stale ">$1.9T" the brief previously carried, and Ch 4's stale figure).
