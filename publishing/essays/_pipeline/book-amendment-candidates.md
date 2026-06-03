@@ -169,8 +169,7 @@ without an explicit author-ratified book-amendment session.
   **fact-fix to resolve before that essay ships** (a numerate editor/fact-checker
   catches a multiplication that doesn't), and the McDowell op-ed's internal
   2.5t×$190≠$510 slip must be fixed before it ships too.
-- **Status:** LOGGED — book edit held (merge-on-ratification); affects a
-  submit-ready essay, so flagged as a pre-submission fact-gate.
+- **Status:** ✅ **RESOLVED + PROPAGATED 2026-06-03.** Canonical: **carbon ~$496** (2.61 t × $190, McDowell-specific Pocahontas; national avg 2.33), **total ~$510**; essays use "more than $500 a ton, nearly all carbon" (reconcile-proof); SCC date-anchored as "the EPA's 2023 estimate." Applied to **Ch 8** ($510→$496 carbon, $524→$510 total, $518–532→$504–518 range, IPG 122→120×, §242 restatement), **Atlantic Ideas** essay, **McDowell op-ed**, and the **Aeon spec** (existing Aeon arms carry the old figure; corrected at synthesis).
 
 ## Candidate 6 — Framework neutrality demonstrated via renewables (source-near-zero vs hardware-non-zero)
 

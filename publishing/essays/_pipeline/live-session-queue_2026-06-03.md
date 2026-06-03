@@ -7,7 +7,7 @@ status: LIVING checklist. Per author direction 2026-06-03, ALL cuts/trims + the 
 # Live-session queue (interactive, with author)
 
 ## ⛔ Cross-cutting fact gate — do FIRST (blocks a submit-ready essay)
-- **McDowell coal carbon figure (book-amendment-candidate #5).** Stated figures don't multiply: 2.6 t × $190 = $494, not the stated $510 carbon / $524 total (chapter's own grounded calc = 2.61 t → ~$496). **Reconcile to one canonical set** (grounded calc → ~$496 carbon / ~$510 total) and propagate. **Affects:** Ch 8 (origin), **Atlantic Ideas essay (RATIFIED-AWAITING-SUBMIT — gated)**, McDowell op-ed, Aeon arms. Author picks the canonical number; I propagate.
+- **✅ RESOLVED 2026-06-03 — McDowell coal carbon figure (book-amendment-candidate #5).** Reconciled to: **carbon ~$496** (2.61 t × $190, McDowell Pocahontas; national avg 2.33), **total ~$510**; essays use "more than $500 a ton, nearly all carbon"; SCC date-anchored "the EPA's 2023 estimate." **Propagated** to Ch 8, Atlantic Ideas, McDowell op-ed, and the Aeon spec. (Was: stated $510 carbon / $524 total, which didn't reconcile — 2.6 × $190 = $494.) Atlantic Ideas no longer gated on this.
 
 ## Per-artifact live items
 
