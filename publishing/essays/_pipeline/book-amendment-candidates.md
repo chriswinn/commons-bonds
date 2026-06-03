@@ -171,3 +171,11 @@ without an explicit author-ratified book-amendment session.
   2.5t×$190≠$510 slip must be fixed before it ships too.
 - **Status:** LOGGED — book edit held (merge-on-ratification); affects a
   submit-ready essay, so flagged as a pre-submission fact-gate.
+
+## Candidate 6 — Framework neutrality demonstrated via renewables (source-near-zero vs hardware-non-zero)
+
+- **Surfaced:** 2026-06-03 (author idea; applied to the $100 Barrel essay as the "third way" renewables beat).
+- **The point:** apply the same ledger to solar and wind and the residual commons value comes back near zero — NOT because the framework favors them, but because there is no foreclosure to price (the sun shines and the wind blows regardless; today's capture removes nothing from tomorrow). The identical arithmetic that returns a large number for the barrel returns almost nothing for sunlight, for the same reason in both cases: it prices what is *permanently removed*, and the sun removes nothing. The **hardware** (rare earths, lithium) is a *separate* ledger with its own severed costs, which the framework prices in their own right.
+- **Why it matters (book-level):** this is the cleanest rebuttal to the trojan-horse critique the author named — that the book could be read as "a renewables campaign in a cost-framework trojan horse." Demonstrating the framework's neutrality (no thumb on the scale; it just prices foreclosure; it even prices renewable *hardware's* costs) defends the book's credibility. It also reinforces the asteroid-iron "extract freely where cost severance is low" logic — renewables are the Earth-side instance of near-zero cost severance.
+- **Book action (held):** place the renewables source-vs-hardware neutrality demonstration in the framework's exposition (wherever even-handedness + the foreclosure axis is established — candidates: Ch 7 / Ch 9). Strengthens the framework's "accounting, not an argument" standing.
+- **Status:** LOGGED — book edit held; already applied to the $100 Barrel essay (renewables "third way" beat) 2026-06-03.

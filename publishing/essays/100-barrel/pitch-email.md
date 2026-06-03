@@ -13,7 +13,7 @@ AUTHOR-CONFIRM: the bio line + the AI-collaboration disclosure (both bracketed) 
 
 Dear Phenomenal World editors,
 
-I'd like to propose a long-form essay, "The $100 Barrel" (about 4,200 words, complete and ready to read), on a specific gap in how economics prices exhaustible resources.
+I'd like to propose a long-form essay, "The $100 Barrel" (about 4,400 words, complete and ready to read), on a specific gap in how economics prices exhaustible resources.
 
 The argument begins with a simple observation. When a barrel of oil sells for a hundred dollars, that price is struck by and for the present; it measures present scarcity at the margin. What it cannot capture is the worth of the barrel's permanent absence to everyone who comes after, because the parties that worth is owed to are not at the table, and most of them are not yet born. I call that unpriced remainder the residual commons value, and the essay's central claim is structural: it sits entirely outside the discount-rate debate that has occupied climate economics for twenty years. Stern and Nordhaus, and Weitzman's work on fat-tailed catastrophe, are all pricing the damage flow from combustion, discounted back to the present. None of them prices the resource's absence as such, and that absence survives even Stern's low rate, because it is not a future flow to be discounted but a fact about the present.
 
