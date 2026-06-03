@@ -9,9 +9,11 @@ purpose: Every inline citation / factual claim in the essay → its source → v
 # Source manifest — <VENUE> "<ESSAY TITLE>"
 
 > **What this is (Amendment E §14.8, 2026-06-02):** the standard pre-pub artifact
-> for inline-citation pieces (essays + op-eds). Magazine essays cite inline and
-> ship NO bibliography; this sheet is the fact-check support doc that travels with
-> the submission package. Fill one row per citation/claim, grouped by essay section.
+> for pieces whose venue cites inline and ships no bibliography — normally
+> magazine essays and op-eds. (Trigger is the venue's norm, not the piece type:
+> a venue that expects a formal reference list gets that instead; the book carries
+> the bibliography.) This sheet is the fact-check support doc that travels with the
+> submission package. Fill one row per citation/claim, grouped by section.
 
 **Status legend:** ✅ verified (internal, vs brief §7 / Gather / bibliography) · 🔎 needs source-pin (accurate but unpinned; pin at fact-check) · ⚠ soft (known-soft figure; editor fact-check) · ↔ written-around (kept qualitative; pin only if ever asserted) · ⏱ figure-currency (moves; re-verify if submission lands >60 days after the date above)
 
