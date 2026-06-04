@@ -100,6 +100,14 @@ constrained. → Structurally the **coercion vector** (Ch5/TA: the cost-bearer k
 forced anyway). **HANDLING: living person — ANONYMIZE per the named-subject consent default.**
 Preserve all load-bearing structure (credentials the firm relied on; ~half salary; green-card-
 tied coercion); drop identifying specifics. Consent path optional, not required to use anonymized.
+**ADD — author 2026-06-04, LOAD-BEARING for the opener:** the inversion is far sharper than v1
+shows. At the time the AUTHOR was a **junior developer — about two years of experience, NO
+certifications, NO college degree.** So *the most credentialed person in the building made about
+half of what an uncredentialed, degree-less junior made.* The opener MUST establish the narrator's
+own lack of credentials up front; that contrast is what makes the wrongness visceral (unfair →
+grotesque). *(Validation note: the v1 drafter correctly did NOT invent the author's credentials and
+explicitly flagged the opener needed a real detail here — the no-fabrication discipline left the
+hole and asked the author to fill it. He did.)*
 
 **2. The 1,300-hour commute.** In a single year the author spent ~1,300 hours commuting (≈5
 hrs/day × 5 × 52 — arithmetic verified) because he never had the *real* numbers of what a lease
