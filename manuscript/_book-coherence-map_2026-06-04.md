@@ -183,3 +183,21 @@ The Technical Appendix (`core/technical-appendix/TechnicalAppendix_v2.0.0.html`,
 - **Label ambiguity:** Ch8 says carbon $496 / total $510; appendix says carbon $510 / total $518–532. They disagree on what "$510" denotes — pin it in a canonical-figure ledger.
 - **IPG:** §11.11 attributes "33–122×" to Ch6/Ch8; chapters moved to ~120×, so that attribution is now stale. Appendix also carries 33× / ~50× / 50–555× across sections — one canonical IPG must be chosen.
 - Formula **notation matches** the chapters. No drift. ✓
+
+---
+
+## KEY UNIFYING LANDING POINT — the commons is structural; the title resolves on the shared bond of the extracted-from (added 2026-06-04, author insight)
+
+The framework's object — "a commons" — is defined **structurally**, not by whether it is ecological. This is Polanyi's move (labor, land, money as **fictitious commodities**: treated as commodities though never produced for sale) and the book's own existing **"commons as structural identity" / "10-commons-list dissolution"** work. (Polanyi is already in the corpus — `core/terms/terms_index.md`, methodology, multiple rigor passes; Fraser / expropriation / social reproduction appears in the Ch2 + Ch4 rigor work.)
+
+**Consequence — supersedes the earlier "commons (reef) vs gap (McDowell/Darity)" distinction, which forgot this structural definition:** a community, its labor, a people's accumulated capacity is itself a commons. So:
+- The reef = a destroyed **ecological** commons.
+- McDowell's people (strip-mined alongside the coal: value captured upstream, costs severed onto them) = a destroyed **human** commons.
+- Darity's Black community (value extracted across generations) = a destroyed **human** commons.
+These are the **same object** (a destroyed commons) priced backward via the Restitution Bond — NOT a different "wealth gap" object. 1:1 with the reef.
+
+**The title resolves here:** *Commons Bonds = the common bond of all the extracted-from* — everyone has been treated as a commons someone severed costs onto while capturing the value (waterman, miner, enslaved — one structure). The extraction's trick is to persuade the extracted-from to blame each other rather than see the shared bond. This is the deepest sense of the title-pun and why the "persuaded to blame each other" thread lands.
+
+**Literature-matrix centerpiece:** Polanyi (+ Fraser's expropriation/social-reproduction extension) *diagnosed* the treating-of-labor-and-land-as-commodity; the framework's contribution is to **price** that severed cost and **reserve** against it. This is a top cell of the contribution matrix (type A).
+
+**Implication for the worked cases:** the framework runs on BOTH kinds of commons (ecological + human), forward + backward. McDowell can carry forward (foreclosure on the carbon/ecological commons) AND backward (restitution on the human commons) cleanly — two commons, not one-commons-two-instruments. The reef retains the author's-standing advantage for drafting the backward case. They are the same move.
