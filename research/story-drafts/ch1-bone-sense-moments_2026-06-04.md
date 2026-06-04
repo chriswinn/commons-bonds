@@ -24,9 +24,18 @@ the book's hand-the-reader-the-honest-accounting close.)
 everywhere"). The chapter enacts the lens forming and the world lighting up — it does not catalog
 five examples.
 
-**Structure — UNDER DISCUSSION** (recommendation in chat: open colleague → the commute births the
-framework → *the widening* ("suddenly everywhere") → narrow to the deepest/personal, where the
-ledger reaches its limit).
+**Structure — RATIFIED 2026-06-04: four movements that ENACT discovery (not a catalog).**
+1. **Colleague** — one fully-rendered, apparatus-free scene; the reader feels the wrongness before
+   having a word for it.
+2. **The commute (1,300 hrs)** — the lens forms; the moment seeing becomes a method (the math is born).
+3. **The widening** — "and then I saw it everywhere": short, accelerating touches (watermen, the
+   deepest historical version, value-generated-captured-by-others), NOT fully developed (Ch3 owns the
+   reef, Ch5 owns coercion) — the reader's own memory starts supplying examples. This does the
+   north-star work.
+4. **The family / the marriage** — narrow to the cost that can't be billed back; the ledger reaches
+   its limit (the D8 close).
+**The lineage (grandfather → father → author) runs underneath all four as the bass line** — the
+reason he recognized the colleague on sight; grandfather = first instance.
 
 **Factual confirmations (author, 2026-06-04):**
 - **Pou/Pooh — RESOLVED, no invented provenance:** "Pooh" = the *Winnie-the-Pooh* children's story;
@@ -47,8 +56,9 @@ ledger reaches its limit).
   unfound ones.
 - **"Fifty-eight countries" — current as of this writing** (keep, with the "as of this writing"
   framing).
-- **HGP overlap — UNDER DISCUSSION** (need the author's approximate NIH year to confirm it fits the
-  public HGP milestone: 2000 working draft / 2003 full sequence).
+- **HGP overlap — RESOLVED.** Author at NIH ~2001–2003 (full HGP sequence completed April 2003).
+  Use the soft, accurate phrasing **"the project was racing toward completion while I was there"**
+  (not "completed during my time there"). Airtight against the public record.
 
 ## The spine
 Five moments, the same bone-sense at five registers — and they are the book in miniature:
