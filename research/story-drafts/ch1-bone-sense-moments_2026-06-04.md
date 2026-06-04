@@ -19,6 +19,12 @@ feels like **discovery, not fate.**
 are yours to enter and calculate.* Some costs, fully entered, still cannot be billed back. (Echoes
 the Aeon Darity beat — "the numbers on it are theirs to enter" — good cross-artifact consistency;
 the book's hand-the-reader-the-honest-accounting close.)
+  **v1-revision note (author 2026-06-04): the close must land HARDER.** v1's phrasing ("The way of
+  seeing in this book hands you a ledger. The numbers are yours to enter and yours to calculate")
+  is close but dilutes the punch. Sharpen to a crisp, declarative variant of the coined line —
+  *illustrative, not verbatim:* "This is the ledger. The numbers are yours to enter." Make the
+  ledger line hit clean and short; it is the chapter's last real beat before "an honest accounting;
+  it does not undo it."
 
 **The five moments are REPRESENTATIVE, not canonical** (author: "countless moments… now I see it
 everywhere"). The chapter enacts the lens forming and the world lighting up — it does not catalog
