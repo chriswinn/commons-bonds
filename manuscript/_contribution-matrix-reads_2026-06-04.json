@@ -1,0 +1,815 @@
+[
+  {
+    "works": [
+      {
+        "name": "Harold Hotelling, \"The Economics of Exhaustible Resources\" (1931)",
+        "relationship": "add-to / extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Hotelling prices the private owner's scarcity rent (when should I sell my oil; rent rises at rate of interest). The framework adds the Hotelling Identity, RCV \u2212 Hotelling rent = CS per unit: commons-extraction cost is precisely the residual value beyond standard Hotelling rent. Hotelling optimizes the extraction path for the resource owner, not for humanity; he structurally excludes intergenerational foreclosure cost because future-generation utility is not in the owner's objective function. RCV prices what Hotelling's model cannot capture. Explicitly framed as the framework's part vs Hotelling's part.",
+        "where": "\u00a74 Hotelling Identity (lines 1126-1197); \u00a714.1 (lines 6533-6542); \u00a715.1.4 (lines 6736-6760)"
+      },
+      {
+        "name": "A.C. Pigou, The Economics of Welfare (1920)",
+        "relationship": "add-to / extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Pigou prices costs imposed on third parties via pricing instruments (the externality framework). The framework treats Pigouvian instruments (carbon taxes, cap-and-trade, reclamation bonds) as covering externalities only PARTIALLY; the Theorem P2 (\"partial externality pricing \u2014 extension of Pigou 1920\") establishes that externality components of the bond B are strictly less than corresponding RCV components, forcing aggregate B < aggregate RCV. Hotelling Identity is positioned against Pigou-only (which treats resource-rent as private revenue and prices only the externality tail). CAI sub-form routes private-property-externality claims OUT to the Pigou tradition.",
+        "where": "\u00a714 \u00b6 (line 3347 Theorem P2); \u00a715.1.4 (lines 6742-6760); \u00a715.1.8 CAI routing (line 6934)"
+      },
+      {
+        "name": "Ronald Coase, \"The Problem of Social Cost\" (1960)",
+        "relationship": "extend-into-a-setting-they-could-not-reach / contradict-within-scope",
+        "how_engaged": "Theorem premise P1 (\"intergenerational market incompleteness \u2014 extension of Coase 1960\"): Coasean complete bargaining requires all affected parties to participate, but future generations cannot bid in present markets, so market pricing systematically under-internalizes intergenerational cost components. Applied symmetrically to backward damages (CSD \u2212 B\u2081). Coase also named as one of the standard single-accounting-object environmental-economics frameworks the two-instrument architecture is rejected against.",
+        "where": "\u00a7 Theorem P1 (lines 3341-3377); \u00a715.1.2 (line 6692)"
+      },
+      {
+        "name": "Elinor Ostrom, Governing the Commons (1990); Hess & Ostrom, Understanding Knowledge as a Commons (2007)",
+        "relationship": "parallel / extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Ostrom's eight design principles govern RENEWABLE coordination-commons (fisheries, forests, irrigation) where there is a harvest rate to manage; they give nothing for the permanent foreclosure of a non-renewable barrel of oil. The framework does NOT subsume Ostrom and Ostrom does not subsume the framework \u2014 hybrid cases admit parallel analyses. RCV is read as Ostrom's principles translated into a pricing mechanism for the non-renewable case (\"what does it cost when management fails and it doesn't last?\"). The CCI sub-form routes coordination-commons claims OUT to Ostrom. Ostrom also cited as precedent for the Option C' illustrative-not-canonical list discipline. Also flagged as not reaching the heterogeneous/structurally-divided-stakeholder commons.",
+        "where": "\u00a714.5 (lines 6589-6598); \u00a76.6 / CIT routing (lines 1638, 1792-1812); \u00a715.1.6 (line 6806); \u00a715.1.8 (line 6945); heterogeneous-stakeholder note (line 604)"
+      },
+      {
+        "name": "John Hartwick, \"Intergenerational Equity...\" (1977) (Hartwick Rule)",
+        "relationship": "extend-into-a-setting-they-could-not-reach / generalize",
+        "how_engaged": "Hartwick: invest all resource rents in reproducible capital for a non-declining consumption path (Norway's GPFG is the cleanest application). Hartwick assumes strong substitutability (S_max = 1). RCV generalizes Hartwick to S_max \u2264 1: when substitution is imperfect, no investment policy can fully compensate for foreclosure \u2014 strategic preservation is the only complete solution. Hartwick's Rule is the investment policy that makes CS = 0 only under S_max = 1.",
+        "where": "\u00a714.2 (lines 6547-6556); \u00a75 B\u2082 instrument lineage (lines 1282, 7157-7163)"
+      },
+      {
+        "name": "Martin Weitzman, \"Gamma Discounting\" (2001)",
+        "relationship": "add-to / adopt-directly",
+        "how_engaged": "The framework ADOPTS Weitzman declining discount rates directly as its D(t,t\u2080) factor \u2014 under uncertainty about the true rate, the certainty-equivalent rate declines toward the lowest plausible rate. Framed as the most significant methodological choice; biases RCV downward, making results conservative. Used to adjudicate the Nordhaus (5.5%) vs Stern (1.4%) debate: CS > 0 holds across the entire plausible rate range, only magnitude varies.",
+        "where": "\u00a73 discount factor (line 416); \u00a714.3 (lines 6561-6571); \u00a715 limitation 6 (line 6645)"
+      },
+      {
+        "name": "John Rawls, A Theory of Justice (1971) + Just Savings Principle",
+        "relationship": "extend-into-a-setting-they-could-not-reach / operationalize",
+        "how_engaged": "RCV is \"the Rawlsian veil applied to resource extraction\": if you did not know which generation you'd be born into, would you consent to first-come extraction of the planet's non-renewable endowment? Implements Rawls's \"no grounds for discounting future well-being on pure time preference\" via the U(R,t,Q(t)) term giving future generations equal standing in the integral. Names Rawls's limit: Just Savings is synchronic-leaning and underdeveloped (Rawls's own admission); Brian Barry's narrowing-of-opportunities sharpening is what RCV prices directly as foreclosure cost. Rawls's primary goods also cited as precedent for the illustrative-list discipline.",
+        "where": "\u00a714.4 (lines 6575-6584); \u00a715.1.6 (line 6818)"
+      },
+      {
+        "name": "Herman Daly \u2014 ecological economics / strong sustainability (1990s)",
+        "relationship": "add-to / operationalize-quantitatively",
+        "how_engaged": "Daly argues normatively that weak sustainability (capital-for-natural-capital substitution) is insufficient; strong sustainability requires maintaining critical natural-capital stock. RCV operationalizes Daly mathematically: where Daly argues S_max must equal 1, RCV asks empirically what S_max is per resource class, quantifying the cost when S_max < 1 (rare earths, PGMs, phosphorus). Complements Daly's qualitative argument with a measurable framework.",
+        "where": "\u00a714.6 (lines 6603-6609); commons-lineage (line 538)"
+      },
+      {
+        "name": "David Harvey, The New Imperialism (2003) \u2014 accumulation by dispossession",
+        "relationship": "add-to / measurement-tool-for",
+        "how_engaged": "Harvey names the broader mechanism (capital accumulates by dispossessing communities of commons through enclosure, privatization, force). Cost severance is the PRICING dimension of that mechanism \u2014 the financial means by which dispossession appears economically rational. \"Harvey diagnoses the mechanism; RCV measures its magnitude.\" Accumulation-by-dispossession says it happened; the IPG says by how much ($518 of cost absorbed per $4.50 paid, McDowell County). Measurement does not replace political analysis; it gives it a number.",
+        "where": "\u00a714.7 (lines 6614-6620); \u00a715.2.1 positioning (line 7117)"
+      },
+      {
+        "name": "William Darity & A. Kirsten Mullen, From Here to Equality (2020); stratification economics (Darity, Hamilton et al.)",
+        "relationship": "add-to / extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Reparations-economics methodology is the lineage for the backward-looking CSD / Restitution Bond (B\u2081) instrument \u2014 pricing past extraction that harmed specifically documented people. Separately, stratification economics is the bridge for the heterogeneous/structurally-divided-stakeholder commons that Ostrom cannot reach: the framework applies stratification-economics analysis of hierarchical group-divisions (race, class, ethnicity) to commons simultaneously contested across stakeholder lines AND extracted by structural outsiders, because the CIT operates on the extraction relationship rather than the coordination relationship. Author interviewed Darity (May 2026).",
+        "where": "Heterogeneous-stakeholder break-point (line 604); \u00a715.1.2 CSD lineage (line 6698); \u00a715.2.1 (line 7071); bibliography (Darity interview + JAMA reparations-longevity study)"
+      },
+      {
+        "name": "Derek Parfit, Reasons and Persons (1984)",
+        "relationship": "add-to / moral-grounding-for",
+        "how_engaged": "Supplies the intergenerational moral grounding for the forward-looking Foreclosure Bond (B\u2082) \u2014 moral standing of future people whose specific identities are not knowable in advance (the non-identity problem territory). Paired with option-value economics as the pricing methodology for that standing.",
+        "where": "\u00a75 B\u2082 definition (line 208); \u00a715.1.2 (line 6706)"
+      },
+      {
+        "name": "Dixit & Pindyck, Investment under Uncertainty (1994); Brennan & Schwartz 1985; Arrow & Fisher 1974; Henry 1974",
+        "relationship": "add-to / lineage-extension",
+        "how_engaged": "Option-value / real-options economics is the methodology lineage for RCV's forward-looking irreversibility pricing (\u03c3 + \u03b1 + V_option parameter set, Method 3 of the Three Ways). The irreversibility-effect literature (Arrow-Fisher, Henry) grounds the asymmetry between reversible non-extraction and irreversible extraction. Single-method RCV is rejected against triangulation.",
+        "where": "\u00a715.1.2 (line 6706); \u00a715.1.3 (line 6723); scarcity-multiplier (line 896)"
+      },
+      {
+        "name": "Savage 1951 (minimax-regret); Loomes & Sugden 1982 (regret theory); Lempert/Popper/Bankes 2003; Knight 1921; Rio Declaration 1992 Principle 15",
+        "relationship": "extend-into-a-setting-they-could-not-reach / specialize",
+        "how_engaged": "The Asymmetric Regret Rule (ARR) specializes Savage minimax-regret and Loomes-Sugden regret theory for collective commons-extraction decisions where one direction of regret is commons-extinction. Rejected alternative is standard Cost-Benefit Analysis under risk (Hicks/Kaldor, Mishan, Nordhaus DICE), which fails CBA's three performance conditions for commons (reversibility, expected-value reliability via Knightian deep uncertainty, symmetry). ARR is bidirectional where the precautionary principle (Rio 15) is only unidirectional.",
+        "where": "\u00a715.1.7 (lines 6871-6911); \u00a715.1.9 (line 6959)"
+      },
+      {
+        "name": "David Lewis, Counterfactuals (1973)",
+        "relationship": "extend-into-a-setting-they-could-not-reach / specialize",
+        "how_engaged": "Counterfactual-reasoning methodology is the lineage for the Commons Inversion Test (CIT). The framework specializes one-counterfactual-at-a-time philosophy-of-action reasoning into two sub-forms (CAI + CCI) for commons-extraction discrimination. CIT is chosen over revealed-preference-as-discrimination-gate (Samuelson/Hicks/Bockstael-McConnell) because revealed preference is institutionally captured.",
+        "where": "\u00a715.1.1 (line 6675); \u00a715.1.8 (lines 6914-6953); \u00a715.1.9 (line 6959)"
+      },
+      {
+        "name": "Costanza et al. 1997/2014 (ecosystem-services valuation); Daily 1997; revealed-preference resource economics (Samuelson 1948, Hicks 1939, Bockstael & McConnell 2007)",
+        "relationship": "add-to / use-as-estimation-input",
+        "how_engaged": "Replacement-cost ecosystem-services valuation (Costanza) is Method 1 of the Three Ways (anchors a floor, cannot price irreplaceability). Revealed preference (Norway calibration, Method 2) is retained for ESTIMATION but explicitly rejected as a DISCRIMINATION gate because it inherits the pricing polity's institutional architecture. Triangulation discipline grounded in Campbell & Fiske 1959 multitrait-multimethod matrix.",
+        "where": "\u00a73 Three Ways; \u00a715.1.1 (line 6661); \u00a715.1.3 (lines 6719-6733)"
+      },
+      {
+        "name": "Mariana Mazzucato, The Value of Everything (2018)",
+        "relationship": "add-to / specialize",
+        "how_engaged": "Paired with Harvey as the broader \"extraction-as-dispossession\" / value-capture-vs-value-creation diagnosis that Cost Severance SPECIALIZES for the value-capture-vs-cost-bearing separation in resource-extraction contexts. The HR-severance lexical collision is converted into a teaching on-ramp.",
+        "where": "\u00a715.2.1 framework positioning (line 7117)"
+      },
+      {
+        "name": "Sen (Development as Freedom 1999; Inequality Reexamined) & Nussbaum (capabilities approach)",
+        "relationship": "parallel / precedent-for-discipline",
+        "how_engaged": "The capabilities approach (ten central capabilities held open to refinement) is cited as precedent for the framework's Option C' discipline: presenting the ten commons categories as illustrative examples surfaced from cases rather than an exhaustive metaphysical enumeration.",
+        "where": "\u00a715.1.6 (line 6810)"
+      },
+      {
+        "name": "Civic-republican tradition: Pettit, Republicanism (1997); Anderson, Private Government (2017); Skinner 1998",
+        "relationship": "parallel / accommodation",
+        "how_engaged": "Cited as one of the divergent political-commitment-spaces the framework's Option C' deliberately accommodates rather than legislating over \u2014 civic republicanism treats autonomy as non-domination requiring shared institutions that function as commons. Part of the political-philosophical-accommodation lineage of the configuration claim. Also a \u00a715.2.1 positioning cluster (neo-republican/civic ethics).",
+        "where": "\u00a715.1.6 (lines 6833-6845); \u00a715.1.9 (line 6959); \u00a715.2.1 (line 7081)"
+      },
+      {
+        "name": "Decolonial / settler-colonial tradition: Coulthard 2014, Tuck & Yang 2012, Wolfe 1999, Whyte; Federici 2004 (Marxist-feminist primitive accumulation); Patel & Moore 2017 (cheap nature); Hickel 2020 (degrowth)",
+        "relationship": "parallel / lineage-cohort",
+        "how_engaged": "Engaged as lineage clusters establishing Cost Severance's cross-political-tradition reach (decolonial extraction, Marxist-feminist reproduction-theory primitive accumulation extending through body/care-work, anti-political-economy cheap-nature). Indigenous-tradition philosophies (relationally-personed ancestral lands) are explicitly named as a commitment-space the framework must accommodate without legislating Western-property commons-ontology. These are positioned as adjacent diagnoses the framework's pricing apparatus serves, not contradicted.",
+        "where": "Kindred commons lineage (line 562); \u00a715.1.6 indigenous-tradition (line 6859); \u00a715.2.1 clusters (lines 6999-7065)"
+      },
+      {
+        "name": "Nordhaus (DICE 2000) & Stern (Stern Review 2007)",
+        "relationship": "contradict-within-scope / adjudicate",
+        "how_engaged": "The Nordhaus-Stern discount-rate dispute (5.5% vs 1.4%) is engaged directly; the framework does not resolve it but shows via the Weitzman declining-rate result and a sensitivity analysis (McDowell IPG 33-122\u00d7) that CS > 0 across the entire plausible range. Nordhaus DICE also named as a single-accounting-object damage-function framework that the two-instrument architecture and ARR are rejected against.",
+        "where": "\u00a714.3 (line 6570); \u00a715 limitation 6 (line 6645); \u00a715.1.2 (line 6692); \u00a715.1.7 (line 6877)"
+      }
+    ],
+    "candidate_meta_claims": [
+      "The framework's distinctive contribution is pricing AND reserving (via foreclosure + restitution bonds) the residual value of a liquidated/foreclosed commons across distance and time \u2014 measuring what existing frameworks (Hotelling, Pigou, Coase, Hartwick, Ostrom, Daly, Harvey) each diagnose or partially price but structurally cannot fully capture.",
+      "The contribution is configurational, not novelty in any single move: CIT discriminates, Four Gates admit, Three Ways estimate, Two Instruments account, the Hotelling Identity bridges to standard resource economics, Option C' accommodates political-philosophical diversity, and ARR handles irreversibility \u2014 each choice's lineage is established and rejected-alternative tested; the integrated configuration applied to commons-extraction is what is new (\u00a715.1.9).",
+      "The Hotelling Identity (RCV \u2212 Hotelling rent = CS per unit) is the framework's signature formal claim: when extraction honestly prices private exhaustible-resource rent, the residual commons value beyond that rent is precisely the severed cost the extractor is not paying.",
+      "The framework prices what cannot be bargained in present markets: future generations cannot bid (extension of Coase), so market pricing systematically under-internalizes the intergenerational component \u2014 establishing aggregate B < aggregate RCV as a theorem, hence CS > 0.",
+      "The framework reaches commons that the Ostrom tradition structurally cannot: non-renewable permanent-foreclosure commons (no harvest rate to manage) and heterogeneous/structurally-divided-stakeholder commons (via stratification economics), because the Commons Inversion Test operates on the extraction relationship, not the stakeholder-coordination relationship.",
+      "Measurement, not new diagnosis, is the value-add against the critical/dispossession traditions (Harvey, Mazzucato, Federici, Patel & Moore): they name the mechanism; RCV/IPG supplies the magnitude \u2014 'it gives the political analysis a number.'",
+      "Conservative-by-construction is a deliberate credibility posture: adopting Weitzman declining discount rates biases RCV downward, and CS > 0 is shown robust across the full Nordhaus-to-Stern rate range."
+    ],
+    "candidate_objections": [
+      {
+        "objection": "You are double-counting: the Hotelling rent and the Pigouvian externality together already capture the full social cost, so 'residual commons value beyond Hotelling rent' is just the externality Pigou already prices.",
+        "source": "Mainstream resource/environmental economists (Pigou-Hotelling tradition)",
+        "engaged": "yes"
+      },
+      {
+        "objection": "This is just a relabeled Coasean externality / market-incompleteness story dressed in new vocabulary; future-generation under-representation is well known.",
+        "source": "Law-and-economics / Coasean readers",
+        "engaged": "yes"
+      },
+      {
+        "objection": "Ostrom already showed commons can be governed without pricing; imposing a monetized bond mechanism is exactly the commodifying move the commons literature warns against.",
+        "source": "Commons-governance / Ostrom tradition",
+        "engaged": "yes"
+      },
+      {
+        "objection": "The whole construction is unbounded \u2014 any narratable harm becomes an RCV contributor, making the number a vehicle for the analyst's priors.",
+        "source": "Skeptical quantitative economist / methodologist",
+        "engaged": "yes"
+      },
+      {
+        "objection": "Discount-rate choice drives the result; pick Nordhaus's 5.5% and the dramatic IPG multiples collapse \u2014 the finding is an artifact of the low Weitzman/Stern rate.",
+        "source": "Cost-benefit / integrated-assessment-model economists (Nordhaus side)",
+        "engaged": "yes"
+      },
+      {
+        "objection": "Putting a price on dispossession launders an injustice into a transaction; monetizing the commons-loss concedes the extractor's frame and risks legitimating extraction-for-a-fee.",
+        "source": "Critical / decolonial / Marxist-feminist traditions (Harvey, Federici, Coulthard, Patel & Moore)",
+        "engaged": "partial"
+      },
+      {
+        "objection": "Revealed preference is the only disciplined valuation input; a counterfactual-driven CIT lets the analyst conjure value no market or polity has ever recognized.",
+        "source": "Revealed-preference / contingent-valuation econometricians",
+        "engaged": "yes"
+      },
+      {
+        "objection": "The ten commons categories are arbitrary; without a closed taxonomy the framework can be stretched to price anything.",
+        "source": "Analytic-philosophy / taxonomy critics",
+        "engaged": "yes"
+      },
+      {
+        "objection": "Cost-benefit analysis already handles uncertainty; minimax-regret/ARR is just precaution-in-disguise that will block any extraction by inflating worst-case regret.",
+        "source": "Welfare-economics / CBA defenders",
+        "engaged": "yes"
+      },
+      {
+        "objection": "By treating commons-extraction value as something to be priced and capitalized through bonds, you are extending the very financialization/legal-coding logic that turned land and nature into fictitious commodities in the first place.",
+        "source": "Polanyi (fictitious commodities), Pistor (Code of Capital), Christophers (asset-economy / rentier capitalism)",
+        "engaged": "no"
+      }
+    ],
+    "notes": "Source file read: /Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/core/technical-appendix/TechnicalAppendix_v2.0.0.html (8,044 lines; primary path readable, no fallback needed). The two load-bearing literature-engagement sections are \u00a714 (Engagement with Existing Literature, lines 6522-6622 \u2014 seven frameworks each with explicit 'what X gets right / where X stops / formal relationship' structure) and \u00a715.1 (Methodology Defense Consolidation, lines 6648-6963 \u2014 eight design choices each with rejected-alternative + cited lineage extension, closing with the \u00a715.1.9 configuration claim). \u00a715.2.1 (lines 6987-7117) adds cross-political-tradition positioning clusters. The Hotelling Identity has its own \u00a74 (lines 1126-1197). Coase/Pigou appear as Theorem premises P1/P2 (lines 3341-3377). Full bibliography is \u00a718 (lines 7716-8044).\\n\\nIMPORTANT GAP: The three thinkers the task specifically named to search for \u2014 Brett CHRISTOPHERS, Katharina PISTOR, and Karl POLANYI \u2014 are NOT cited anywhere in the appendix (grep -ci = 0 for all three across the full file, including bibliography). This is a substantive absence, not an extraction miss: I verified by case-insensitive grep over the entire document. These are arguably the most pointed missing interlocutors for a framework whose contribution is pricing+reserving (capitalizing) the residual value of a foreclosed commons \u2014 Polanyi's 'fictitious commodities' (land/nature/labor), Pistor's 'Code of Capital' (how legal coding manufactures capital from assets), and Christophers's asset-economy/rentier-capitalism work all directly target the move of turning a commons into a priced/bonded financial object. I flagged this as the single un-engaged candidate objection (engaged: no). The author/editor may want to add an engagement note distinguishing 'pricing the cost severance to force honest accounting and restitution' from 'financializing the commons as a new asset class' \u2014 the Polanyi/Pistor/Christophers reading would otherwise be the strongest unanswered hostile-reader line.\\n\\nThe critical/decolonial traditions (Harvey, Mazzucato, Federici, Patel & Moore, Coulthard) ARE cited but engaged mostly as supportive lineage ('they diagnose, we measure'); the framework does not fully engage the internal-to-that-tradition objection that monetization itself concedes the extractor's frame \u2014 hence I marked that objection 'partial.'\\n\\nAll relationship classifications use the task's vocabulary; many works carry more than one relationship (e.g., Hotelling is both add-to and extend-into-a-setting-they-could-not-reach) and I noted both in how_engaged."
+  },
+  {
+    "works": [
+      {
+        "name": "Paul Laurence Dunbar (\"We Wear the Mask\") and W.E.B. Du Bois (the \"veil\" / double-consciousness)",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Names the book's central interpretive move as inherited: \"The work of naming what hides behind a mask \u2014 Dunbar's mask, Du Bois's veil \u2014 is older than this book. Black American writing has carried that work for over a century. The framework extends the move into the pricing of commons. The pricing is new; the move is old.\"",
+        "where": "Ch1, closing positioning section (lines 116-118)"
+      },
+      {
+        "name": "The free-market / neoclassical economist (voluntary-trade-offs view); \"no villain\" framing",
+        "relationship": "parallel",
+        "how_engaged": "Concedes the free-market reading rather than contradicting it head-on: \"A free-market economist would say I made voluntary trade-offs. I did.\" The system \"did exactly what the system was designed to do. There was no villain in it.\" Sets up the framework as compatible-with but exceeding the voluntary-exchange account. Recurs at Ch5 (consumer not a villain), Ch6 (classical-liberal reading), Ch10.",
+        "where": "Ch1 (lines 90-92); echoed Ch5 Baotou (line 72), Ch6 (autonomy commons readings, lines 243-251)"
+      },
+      {
+        "name": "Public Choice tradition \u2014 James M. Buchanan & Gordon Tullock (rent-seeking; Tullock 1967 \"Welfare Costs of Tariffs, Monopolies, and Theft\")",
+        "relationship": "parallel",
+        "how_engaged": "Treated as complementary-but-asymmetric: Public Choice supplies the vocabulary for WHO shaped the rent-seeking architecture; the framework supplies the ledger of WHAT the architecture cost and to whom. \"The two traditions describe the same political-economy phenomenon from two angles, but the angles are not symmetric.\" Explicitly draws on the rent-seeking vocabulary \"rather than endorsing the [Buchanan] project.\" Names AEI/Cato/Mercatus/GMU as target readers.",
+        "where": "Ch5 \"Architecture and rent-seeking\" (lines 186-202); Ch9 \"Public Choice and the framework\" (lines 136-148)"
+      },
+      {
+        "name": "Ronald Coase (\"The Problem of Social Cost,\" 1960)",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Engaged as the strongest property-rights objection. Concedes Coasean bargaining works for rivalrous/excludable/present-tense resources, but argues it \"structurally cannot reach\" three problems: intergenerational foreclosure (future generations \"cannot participate in the bargaining Coase described\"), transboundary externality, and civilizational-scale information asymmetry. \"The residual commons value framework is the supplement, not the replacement.\"",
+        "where": "Ch9 \"Property rights, and their limits\" (lines 152-166)"
+      },
+      {
+        "name": "Brett Christophers, The Price is Wrong: Why Capitalism Won't Save the Planet (2024)",
+        "relationship": "add-to",
+        "how_engaged": "Convergent climate-finance diagnosis: Christophers shows investment is driven by profit not price, so renewables underdeliver absent subsidy. \"Christophers names the why; the framework names the how-to-see-it.\" Both \"converge on the same architectural conclusion\" re public ownership/investment. First flagged at end of Ch5.",
+        "where": "Ch9 (line 168); foreshadowed Ch5 (line 184)"
+      },
+      {
+        "name": "Adam Smith, The Wealth of Nations",
+        "relationship": "parallel",
+        "how_engaged": "Claims lineage rather than rupture: Smith \"spent a good portion of The Wealth of Nations arguing against producers who externalized costs onto the public\" and \"would have recognized what this framework does. It is not a departure from the market mechanism. It is the completion of it.\"",
+        "where": "Ch9 (line 170)"
+      },
+      {
+        "name": "Katharina Pistor, The Code of Capital (2019)",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Capital as legal artifact coded by legal modules. \"Where she diagnoses the legal modules that encode cost severance, the framework prices what the modules sever.\" W.R. Grace's bankruptcy is \"a legal-architectural design feature, not a bug.\" Re-cited in Ch9 as the legal-architectural reason property rights externalize cost.",
+        "where": "Ch5 (line 220); Ch9 (line 166)"
+      },
+      {
+        "name": "Ta-Nehisi Coates, \"The Case for Reparations\" (The Atlantic, 2014)",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Coates's argument-architecture (name the mechanism, name the harm, name the debt) is \"the rhetorical companion\" to reparations economics. \"The framework's CSD (Cost Severance Damages) instrument is a structural extension of Coates's argument-architecture into extraction-community contexts.\"",
+        "where": "Ch5 (line 216)"
+      },
+      {
+        "name": "William Darity Jr. & A. Kirsten Mullen, From Here to Equality (2020); and reparations economics broadly",
+        "relationship": "add-to",
+        "how_engaged": "Named the \"contemporary landmark\" and \"primary informing source.\" The framework's CSD instrument \"applies the same matched-comparison discipline to extraction-community contexts.\" The Restitution Bond \"operationalizes the restitution component of redress within their framework\" \u2014 \"uses their language inside their typology, not against it.\" Their longevity-gap pricing is the model for McDowell's 13-year gap as a \"legacy effect.\" Backward-direction work \"with Darity and Mullen as the primary developers.\"",
+        "where": "Ch5 (lines 212, 216, 218, 236, 238, 244); Ch6 (lines 34, 145, 269)"
+      },
+      {
+        "name": "Hamilton, Darity, Price, Sridharan & Tippett, Umbrellas Don't Make It Rain (2015); Dalton Conley, Being Black, Living in the Red (1999); stratification economics",
+        "relationship": "add-to",
+        "how_engaged": "Empirical/methodological extension of reparations economics: matched-comparison showing wealth (not behavior) is the structural variable. Conley \"established the wealth-as-structural-variable methodology these later works develop.\" Stratification economics (Darity, Hamilton, collaborators) connected to the framework's heterogeneous-stakeholder commons extension \u2014 applying intergroup-extraction analysis to contested commons.",
+        "where": "Ch5 (line 218); Ch6 \"heterogeneous-stakeholder commons\" (line 285)"
+      },
+      {
+        "name": "Derek Parfit, Reasons and Persons (1984) \u2014 the non-identity problem; impersonal-outcomes morality",
+        "relationship": "parallel",
+        "how_engaged": "Adopted as the philosophical grounding for pricing future-generation costs. \"Parfit's response \u2014 and the response this framework adopts \u2014 is to operate at the level of outcomes rather than of specific persons.\" RCV \"operates in exactly this register.\" The two-instrument architecture \"inherits Parfit's distinction\" between forward impersonal and backward person-affecting evaluation. Does not claim to solve the problem Parfit himself did not solve.",
+        "where": "Ch6 \"What Is Owed\" (lines 257-265, 273); Ch5 (line 224, Parfit 1984 grounding Foreclosure Bond)"
+      },
+      {
+        "name": "Amartya Sen (and Nussbaum) \u2014 capability approach / social-welfare-function",
+        "relationship": "add-to",
+        "how_engaged": "Paired with Parfit: \"Parfit grounding the standing, Sen grounding the valuation.\" RCV is \"in Sen's vocabulary, a measurement of the capability set extraction forecloses.\" Sen/Nussbaum's ten capabilities also cited as a precedent for illustrative-not-exhaustive list-making.",
+        "where": "Ch6 (line 273; list-precedent at line 239)"
+      },
+      {
+        "name": "Elinor Ostrom, Governing the Commons (eight design principles)",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Most sustained boundary-drawing in the book. Distinguishes \"coordination commons\" (Ostrom's domain) from \"extraction commons\" (the framework's). \"Ostrom operates on coordination commons; the two domains are adjacent and the methodologies extend rather than compete.\" Names a second break-point Ostrom \"does not address\": the heterogeneous-stakeholder commons. In \"The Contribution,\" Ostrom (with Pigou) is one of \"two intellectual traditions\" the framework extends \"into a setting neither addressed.\" Also cited as illustrative-list precedent and in Ch9 property-rights section.",
+        "where": "Ch6 \"Two Kinds of Commons\" (lines 277-285), \"The Contribution\" (line 323), RCV-naming (line 325); Ch9 (line 156); Ch9 closing (line 264)"
+      },
+      {
+        "name": "Arthur Pigou \u2014 externality theory",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Paired with Ostrom as the second tradition the framework extends. \"From Pigou comes the move to internalize externalities through pricing instruments.\" Repeatedly contrasts \"standard Pigouvian accounting\" (prices damage when it occurs) against RCV (adds substitutability-weighted foreclosure cost + Commons Inversion discovery). \"Standard Pigouvian analysis has no principled reason to exclude these costs; it simply has no method for including them. RCV has a method.\"",
+        "where": "Ch6 \"The Contribution\" (lines 323, 329, 331, 343-348)"
+      },
+      {
+        "name": "Harold Hotelling (1931 exhaustible-resource economics) and John Hartwick (1977 rule)",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Hotelling \"prices the rent rule for private extraction... but does not price the option-value of leaving resources in situ for future generations.\" The Hotelling Identity is \"the framework's bridge\" (RCV minus Hotelling rent = Cost Severance) \u2014 \"It does not replace either tradition; it formalizes what each leaves out.\" Hartwick's residual-obligation framing is the lineage for the word \"Residual\"; Norway is \"the closest working example... of Hartwick's Rule.\"",
+        "where": "Ch6 (lines 331, 325 RCV-naming); Ch5 (line 224 Hartwick 1977); Ch6/Ch9 Norway backtest (Ch6 lines 219-229)"
+      },
+      {
+        "name": "Mariana Mazzucato \u2014 value created vs. value extracted",
+        "relationship": "add-to",
+        "how_engaged": "Supplies the \"Value\" component of \"Residual Commons Value\": \"Mazzucato distinguishes value created from value extracted; the framework's value is what the commons creates over time for the parties who depend on it \u2014 a value extraction takes without paying for.\"",
+        "where": "Ch6 RCV-naming (line 325)"
+      },
+      {
+        "name": "Martin Weitzman (declining discount rate; 2009 fat-tail climate damages)",
+        "relationship": "add-to",
+        "how_engaged": "Discount factor D(t,t0) \"follow[s] Weitzman's declining-rate framework.\" The \"externality tail\" usage joins \"the statistical-distribution lineage that climate-tipping-point and climate-tail-risk literatures occupy; Weitzman's 2009 work on fat-tail climate damages is the adjacent tradition the usage joins.\" Also named (Ch10) as proposing a declining-rate direction \"without ending the argument.\"",
+        "where": "Ch6 RCV formula (line 119), externality-tail naming (line 121); Ch10 (line 76)"
+      },
+      {
+        "name": "Stern Review (Nicholas Stern) vs. William Nordhaus (DICE) \u2014 discount-rate debate; Ramsey (1928)",
+        "relationship": "parallel",
+        "how_engaged": "Cited as the unresolved century-long discount-rate impasse the substitutability function \"sidesteps\": \"Instead of asking 'how much do future generations matter?' it asks 'how quickly can we develop alternatives?'\" The model \"is honest about this. It does not pretend to settle a question the discipline has not settled.\"",
+        "where": "Ch6 \"The Substitutability Function\" (lines 153-159); Ch10 (line 76)"
+      },
+      {
+        "name": "Dixit & Pindyck, Investment Under Uncertainty (1994) \u2014 real options",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Method 3 (Scarcity-Adjusted Option Value) applies \"Dixit and Pindyck's 1994 real-options framework with the framework's scarcity multiplier... and irreversibility premium.\" Standard real-options is the mainstream model oil majors already use; the framework \"add[s] the social terms.\"",
+        "where": "Ch6 Approach 2 (lines 70-87) and Method 3 (line 143)"
+      },
+      {
+        "name": "Leonard Savage (1951) \u2014 minimax-regret",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "The Asymmetric Regret Rule \"specializes Savage 1951's minimax-regret discipline to commons-extraction decisions where one direction of regret is commons-extinction.\" Does not replace CBA where CBA works; specializes for the case-class where CBA's symmetry assumption fails.",
+        "where": "Ch6 (lines 359-361); applied in Ch9 Step 2 reservation (line 56) and CCZ case (line 236)"
+      },
+      {
+        "name": "Philip Pettit, Republicanism (1997); Quentin Skinner, Liberty Before Liberalism (1998); Elizabeth Anderson \u2014 civic-republican tradition (freedom as non-domination)",
+        "relationship": "parallel",
+        "how_engaged": "Grounds the Foreclosure Bond's commitment to future generations: a society extracting in ways that subject future generations to domination \"violates the civic-republican commitment.\" Framework \"does not require the reader to accept civic-republican political philosophy as the only frame\" \u2014 engages it \"under the discipline of accommodating where alternative traditions converge.\" Civic-republican autonomy-as-non-domination is one of the multiple readings the autonomy-commons accommodates.",
+        "where": "Ch5 (lines 212, 226); Ch6 autonomy commons (lines 243, 249)"
+      },
+      {
+        "name": "Mancur Olson, The Logic of Collective Action (1965)",
+        "relationship": "add-to",
+        "how_engaged": "Diagnoses why honest pricing has not happened: concentrated interests defeat diffuse interests. \"This is not a discovery. Mancur Olson described it in 1965.\" The framework's contribution is changing the terms (moral argument to fiscal; concrete local beneficiaries).",
+        "where": "Ch9 \"political economy of resistance\" (lines 110-118)"
+      },
+      {
+        "name": "Atif Mian & Amir Sufi, House of Debt (2014)",
+        "relationship": "add-to",
+        "how_engaged": "Their welfare calculation of the 2008 household-debt-restructuring counterfactual is cited as quantifying the cost of the chosen bank-rescue architecture; \"the framework's accountability-bond logic prices [the scope-choice] structurally.\"",
+        "where": "Ch9 (line 122)"
+      },
+      {
+        "name": "Jacob Hacker, The Great Risk Shift (2006); Mishel & Bivens (EPI, productivity-wage decoupling)",
+        "relationship": "add-to",
+        "how_engaged": "Hacker \"named the broader pattern of risk-and-cost transfer from institutional to individual balance sheets that healthcare-cost-severance is one specific instance of.\" Mishel/Bivens document the wage-productivity gap that makes households unable to absorb the transfer.",
+        "where": "Ch5 Healthcare Commons (line 160)"
+      },
+      {
+        "name": "Atul Gawande, Being Mortal (2014); Katy Butler (journalist, pacemaker case)",
+        "relationship": "add-to",
+        "how_engaged": "Gawande \"documents the broader structure\" of systematic over-treatment of the dying / under-funded palliative care; Butler's documented pacemaker case is \"one archetype of a systemic pattern\" of cost severance \"operating on the dying body.\"",
+        "where": "Ch5 Healthcare Commons (lines 162-164)"
+      },
+      {
+        "name": "Kindleberger (1973) & Eichengreen (1992) \u2014 comparative banking-crisis literature; the 1930s Swedish response",
+        "relationship": "add-to",
+        "how_engaged": "Cited as establishing that \"bank-rescue and household-relief are not structurally either-or.\" The Swedish 1930s response is the positive analog to the contingent US 2008 scope-choice; \"what was chosen once can be re-decided.\"",
+        "where": "Ch5 (line 98); developed in Ch9 (lines 120-130)"
+      },
+      {
+        "name": "David Lewis \u2014 counterfactual reasoning",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "The Commons Inversion Test \"is the David Lewis counterfactual-reasoning tradition specialized to one specific premise-flip\" \u2014 inverting only the resource-scarcity dimension while holding the world fixed.",
+        "where": "Ch6 \"The Four Gates\" / CIT naming (line 303)"
+      },
+      {
+        "name": "David Harvey \u2014 \"accumulation by dispossession\"",
+        "relationship": "parallel",
+        "how_engaged": "Named as a precedent for what frameworks (vs. legislation) do: \"did not pass a single law. It gave people a vocabulary for naming a structural pattern\" \u2014 model for how Commons Bonds expects to operate.",
+        "where": "Ch9 \"What a framework does\" (line 262)"
+      },
+      {
+        "name": "Kate Raworth, Doughnut Economics; Matthew Desmond, Evicted; Daniel Susskind, Growth: A Reckoning (2024)",
+        "relationship": "parallel",
+        "how_engaged": "Cited as model cases of frameworks/narratives that changed the conceivable without passing laws. Susskind specifically aligned: \"Susskind's growth-redirection [and] the framework's accounting... are different facets of the same task \u2014 making honest what current measurement leaves dishonest.\"",
+        "where": "Ch9 \"What a framework does\" (lines 266-272)"
+      },
+      {
+        "name": "Garrett Hardin \u2014 \"The Tragedy of the Commons\"",
+        "relationship": "contradict",
+        "how_engaged": "Invoked through Ostrom: the coordination-commons risk \"Ostrom names is that uncoordinated drawing produces collective ruin \u2014 Hardin's 'tragedy' \u2014 and her contribution was to demonstrate, empirically across hundreds of cases, that communities... can self-govern.\" The book sides with Ostrom's empirical refutation.",
+        "where": "Ch6 \"Two Kinds of Commons\" (line 279)"
+      },
+      {
+        "name": "Indigenous-studies / decolonial tradition \u2014 Robin Wall Kimmerer, Leanne Betasamosake Simpson, Glen Coulthard, Roxanne Dunbar-Ortiz, Vine Deloria Jr.",
+        "relationship": "unclear",
+        "how_engaged": "Explicitly named as the tradition the framework CANNOT reach. The Black Hills / Lakota case (US v. Sioux Nation 1980) is \"in the category the framework cannot price.\" \"A reader who wants to understand what the framework cannot reach should read [them]... It is a different shape of the question the book is asking, and a deeper one.\" Frames itself as settler-authored; structural-mechanism claim, not moral equivalence.",
+        "where": "Ch10 Black Hills section (lines 98-112)"
+      },
+      {
+        "name": "Albert Camus, Le Mythe de Sisyphe (1942)",
+        "relationship": "parallel",
+        "how_engaged": "Closing metaphor. \"The framework... is not the boulder... It does not lighten the load... What it does is tell him where north is.\" Frames the framework as a compass, not a redemption.",
+        "where": "Ch10 (lines 162-166)"
+      },
+      {
+        "name": "Marxist / radical-left anti-capitalist critique (the \"does not go far enough\" objection)",
+        "relationship": "parallel",
+        "how_engaged": "Engaged as \"the objection I find most serious,\" from readers who are \"in a real sense, my allies.\" Concedes the framework \"can be captured... turned into an ESG slogan,\" but insists cost severance \"is not a feature of any ownership structure\" \u2014 feudal lords, pharaohs, Qin emperors did it; \"Capitalism is the current and most efficient delivery vehicle. It is not the cause.\" Refuses to take the pro- or anti-capitalist side.",
+        "where": "Ch10 (lines 116-126)"
+      }
+    ],
+    "candidate_meta_claims": [
+      "The book's master move is OLD (naming what hides behind a mask \u2014 Dunbar's veil, Du Bois's mask, a century of Black American writing) applied to a NEW object (the pricing of commons): \"The pricing is new; the move is old.\"",
+      "The framework EXTENDS rather than rejects the two parent traditions it grew from \u2014 Pigouvian externality theory and Ostrom-lineage commons governance \u2014 \"into a setting neither addressed: extraction contexts where commons are drawn down rather than managed-in-place.\"",
+      "Three contributions claimed as net-new relative to that lineage: (1) substitutability-weighting of foreclosure cost (a category standard externality analysis lacks); (2) an integrated additive formula (RCV) uniting foreclosure + externality + community + epistemic terms under shared gates; (3) the Commons Inversion Test as a generative discovery method for previously-unpriced costs.",
+      "Methodological credibility rests on TRIANGULATION: three independent estimation methods (Replacement Cost / Revealed Preference / Scarcity-Adjusted Option Value) built on different foundations converge in direction (CS>0) across every tested case \u2014 convergence as evidence the measured thing is real, not a parameter artifact.",
+      "The framework is DIRECTION-AGNOSTIC: the same apparatus (four gates, three methods) runs forward (Foreclosure Bond, impersonal-outcomes, environmental-bond economics) and backward (Restitution Bond, person-affecting harm, reparations economics) \u2014 inheriting Parfit's forward/backward distinction.",
+      "The framework is a complement, not a competitor, to Public Choice: Public Choice analyzes WHO shaped rent-seeking architectures; the framework supplies the LEDGER of what those architectures cost and to whom. It draws on rent-seeking vocabulary without endorsing Buchanan's broader political project.",
+      "The framework is politically non-aligned by design: it measures what extraction costs; cost severance is a structural mechanism independent of ownership structure (feudal, capitalist, state-owned, cooperative), so it takes neither the pro- nor anti-capitalist side.",
+      "The framework structures uncertainty rather than eliminating it \u2014 converting an unresolvable philosophical question (the discount rate) into a tractable empirical one (substitutability), and disclosing parameter sensitivity rather than hiding behind a single headline number.",
+      "Honest pricing is reachable, not utopian: every component (carbon pricing, sovereign wealth funds, reclamation bonds, critical-minerals stockpiles, EIAs, border carbon adjustment, Alaska/Norway funds, Chattanooga/Mondragon/Vienna) already exists as a partial \"entering wedge\"; the task is to connect, strengthen, align, and extend them.",
+      "The framework names its own limits as a discipline: it cannot settle the discount rate, cannot price the non-denominable (a Europa biosphere, a sacred landscape), and explicitly cannot reach indigenous dispossession \u2014 the Black Hills is \"the account that holds the framework honest.\""
+    ],
+    "candidate_objections": [
+      {
+        "objection": "The model's output depends on analyst parameter choices \u2014 \"choose your own adventure\"; different choices yield different numbers.",
+        "source": "Generic methodological skeptic / quantitative reviewer",
+        "engaged": "yes"
+      },
+      {
+        "objection": "A model that always finds extraction underpriced is unfalsifiable (Popperian objection).",
+        "source": "Philosopher of science",
+        "engaged": "yes"
+      },
+      {
+        "objection": "Two analysts applying the framework to the same case won't produce the same number (reproducibility).",
+        "source": "Applied cost-accounting / peer-review standards",
+        "engaged": "yes"
+      },
+      {
+        "objection": "The substitutability function does enormous work and merely relocates the hard problem from the discount rate to a substitutability curve.",
+        "source": "Critic of the RCV model's central move",
+        "engaged": "yes"
+      },
+      {
+        "objection": "How can extraction wrong people who do not yet exist? (the non-identity problem)",
+        "source": "Derek Parfit / population ethics",
+        "engaged": "partial"
+      },
+      {
+        "objection": "Well-defined private property rights plus Coasean bargaining already solve the commons problem.",
+        "source": "Property-rights / free-market-environmental tradition (Coase, free-market environmentalism)",
+        "engaged": "yes"
+      },
+      {
+        "objection": "Borrowers took loans they could not afford \u2014 they had agency (2008).",
+        "source": "Center-right / personal-responsibility reader",
+        "engaged": "yes"
+      },
+      {
+        "objection": "2008 was a global crisis, not a US-policy failure.",
+        "source": "International-finance reader",
+        "engaged": "yes"
+      },
+      {
+        "objection": "TARP was repaid, so taxpayers did not lose money.",
+        "source": "Public-finance / fiscal-conservative reader",
+        "engaged": "yes"
+      },
+      {
+        "objection": "Dodd-Frank already reformed the architecture (the reformist objection).",
+        "source": "Institutionalist / reformist reader",
+        "engaged": "yes"
+      },
+      {
+        "objection": "The Social Security Treasury-bond mechanism was administratively prudent, not the source of severance.",
+        "source": "Public-finance-prudence objection",
+        "engaged": "yes"
+      },
+      {
+        "objection": "The Social Security gap is a tractable, soluble policy problem (timeline-and-tractability).",
+        "source": "Bipartisan Policy Center / Simpson-Bowles / Concord Coalition fiscal-policy reader",
+        "engaged": "yes"
+      },
+      {
+        "objection": "Nordic outcomes are not replicable in a continental, demographically heterogeneous democracy of 330M (scale, homogeneity, resource base, historical contingency).",
+        "source": "The Nordic / American-exceptionalism skeptic",
+        "engaged": "yes"
+      },
+      {
+        "objection": "If a simple carbon tax can't pass after 30 years, a comprehensive RCV regime is fantasy \u2014 show me the legislative pathway, the coalition, the treaty.",
+        "source": "Practitioner who has tried to pass legislation",
+        "engaged": "yes"
+      },
+      {
+        "objection": "The book does not go far enough \u2014 it is a reformist critique a capitalism that extracts-until-nothing-is-left will swallow and accommodate.",
+        "source": "Marxist / radical-left ally",
+        "engaged": "yes"
+      },
+      {
+        "objection": "The book is too generous to institutional reform / too statist.",
+        "source": "Conservative reader (author's parents' conservative friends)",
+        "engaged": "partial"
+      },
+      {
+        "objection": "Treating indigenous dispossession as one case among many (coal mines, oil spills) flattens what is being engaged.",
+        "source": "Indigenous-studies / decolonial tradition",
+        "engaged": "partial"
+      },
+      {
+        "objection": "Is the Commons Inversion Test filtering the same commons Ostrom's Governing the Commons describes \u2014 i.e., does the framework compete with Ostrom?",
+        "source": "Ostrom-tradition commons economist",
+        "engaged": "yes"
+      },
+      {
+        "objection": "The framework can be captured \u2014 turned into an ESG slogan / conflict-free-diamond performance of accountability.",
+        "source": "Skeptic of accountability instruments",
+        "engaged": "yes"
+      }
+    ],
+    "notes": "Read from the audit-corpus dir (exists): /Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/manuscript/chapters/ \u2014 files Chapter__1_TheQuietMath.md, Chapter__5_TheAccountabilityGap.md, Chapter__6_ThreeWaysofCounting.md, Chapter__9_PricingHonestly.md, Chapter_10_CommonBonds.md.\\n\\nDensity of positioning by chapter: Ch1 is thin \u2014 a single load-bearing lineage claim (Dunbar/Du Bois mask) plus the free-market/no-villain framing. Ch5 and Ch6 are where the book situates itself in the academic literature most densely (reparations economics, Pistor, Parfit, Sen, civic-republican, Public Choice, Ostrom, Pigou, Hotelling/Hartwick, Mazzucato). Ch9 carries the policy-economy positioning (Coase/property-rights, Christophers, Olson, Mian & Sufi, Smith, Nordic objection, framework-vs-legislation precedents). Ch10 carries the meta-positioning + the explicit out-of-scope boundary (Black Hills / indigenous tradition) + the anti-capitalist \\\"doesn't go far enough\\\" objection + the Camus compass metaphor.\\n\\nRecurring rhetorical pattern worth flagging for the contribution-claim audit: nearly every key TERM (Restitution Bond, Foreclosure Bond, Residual Commons Value, externality tail, Commons Inversion Test, Asymmetric Regret Rule, bond-as-umbrella) gets an explicit \\\"other names were available and each fails for reason X; this name joins tradition Y\\\" passage. These naming-justification passages are the single richest source of \\\"the book claims continuity with tradition Z\\\" signals and are concentrated in Ch5 (bond-naming, lines 212-228) and Ch6 (RCV/CIT/ARR naming, lines 121, 303, 325, 361).\\n\\nThe relationship taxonomy in this audit: I used \\\"extend-into-a-setting-they-could-not-reach\\\" wherever the book explicitly says it extends a tradition into territory that tradition did not/could not address (Pigou, Ostrom, Coase, Hotelling/Hartwick, Pistor, Dunbar/Du Bois, Coates, Dixit-Pindyck, Savage, Lewis). \\\"add-to\\\" for sources whose findings are cited as convergent support without an explicit reach-claim (Darity/Mullen, Hacker, Gawande, Olson, Mian/Sufi, Christophers, Susskind, Mazzucato, Weitzman). \\\"parallel\\\" for traditions engaged as compatible-but-distinct frames the framework accommodates rather than absorbs (Public Choice, civic-republican, free-market economist, Parfit, Harvey/Raworth/Desmond as framework-precedents, Marxist objection). \\\"contradict\\\" only for Hardin (the book sides with Ostrom's empirical refutation). \\\"unclear\\\" for the indigenous tradition, which the book deliberately places outside its reach rather than in any add/extend relationship.\\n\\nObjection-engagement note: the book is unusually systematic about steelmanning \u2014 Ch5 and the SS/2008 sections run formal \\\"serious version of the objection / framework's response\\\" structures, and Ch9's Nordic objection runs four named sub-conditions each separately rebutted. I marked the non-identity, indigenous-flattening, and too-statist objections \\\"partial\\\" because the book explicitly declines to fully resolve them (Parfit's problem it concedes is unsolved; indigenous dispossession it concedes is out of scope; the conservative objection is named in one line at Ch10:126 but not separately rebutted the way the left objection is)."
+  },
+  {
+    "works": [
+      {
+        "name": "Katharina Pistor, The Code of Capital",
+        "relationship": "add-to",
+        "how_engaged": "Pistor names the legal architecture (six modules: property, collateral, trust, corporate veil, bankruptcy, choice-of-law) that produces priced assets but does not propose the per-transaction instrument that prices cost severance; the framework 'reads through Pistor's modules' to show the Libby acquittal is a feature of the code, and supplies the missing pricing instrument that would attach at the modules' location.",
+        "where": "Public Books 'Accountability Gap' \u00a7'Why the existing architecture cannot reach this'; NYRB 'Architecture and Its Residue' (lead book reviewed); Foreign Affairs \u00a7IV; Harper's (legal-modules list at close)"
+      },
+      {
+        "name": "Mariana Mazzucato, The Value of Everything / value creation vs. value extraction",
+        "relationship": "add-to",
+        "how_engaged": "Explicit crisp formula: 'Mazzucato names the extraction. The framework I am proposing adds the accounting.' Mazzucato draws the making/taking distinction but provides a diagnostic frame, not a metric; the framework supplies the per-transaction accounting/instrumentation that operationalizes it.",
+        "where": "Noema 'Commons Bonds' \u00a7VI (verbatim 'Mazzucato names the extraction. The framework I am proposing adds the accounting'); NYRB (second book reviewed); Harper's \u00a7on vocabulary lineage"
+      },
+      {
+        "name": "Brett Christophers, The Price Is Wrong",
+        "relationship": "add-to",
+        "how_engaged": "Christophers diagnoses that 'profit, not price' governs capital allocation and that prices fail to align private return with public goods; the framework treats this as the mechanism-level evidence the corrective instrument would attach to ('prices the architecture produces are not natural facts but products of how the code is written, a point Christophers develops').",
+        "where": "NYRB (third book reviewed); Public Books \u00a7'one corner of the system that almost works' close"
+      },
+      {
+        "name": "Daniel Susskind, Growth: A Reckoning",
+        "relationship": "parallel",
+        "how_engaged": "Susskind's growth-redirection is named the 'macro analog' of the framework's per-extraction-event redirection; the two scales are 'complementary' \u2014 Susskind redirects the aggregate metric (national accounts), the framework redirects at the transaction level.",
+        "where": "NYRB (fourth book reviewed); \u00a7'Susskind's growth-redirection is the macro analog'"
+      },
+      {
+        "name": "John Hartwick / Hartwick's rule (1977 AER)",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Hartwick proved rents can be reinvested to sustain consumption, but '[t]he rule operates on the consumption stream. It does not reconstitute the stock.' The framework's 'residual commons value' / 'foreclosure component' prices precisely what Hartwick conserves the proceeds of but never priced: the permanently foreclosed barrel itself. '$100 Barrel' makes this the climactic near-miss.",
+        "where": "$100 Barrel \u00a7'A lineage of near-misses' (Hartwick as 'closest anyone has come'); Foreign Affairs \u00a7III; Public Books 'Foreclosure Bond' \u00a7; Atlantic Ideas 'Invest' \u00a7"
+      },
+      {
+        "name": "Elinor Ostrom, Governing the Commons",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Ostrom governed RENEWABLE commons (fisheries, forests, aquifers) and her design principles presuppose a sustainable harvest; oil 'sits outside the world her principles were built for' because the non-renewable resource cannot be sustained at any harvest. NYRB additionally uses Ostrom's homogeneity-of-interest condition as a constraint Pistor's account leaves open.",
+        "where": "$100 Barrel \u00a7'A lineage of near-misses' (Ostrom 'governed the renewable'); Atlantic Ideas 'four traditions' \u00a7; NYRB \u00a7on Pistor's scope limit + lineage para"
+      },
+      {
+        "name": "Herman Daly / steady-state + ecological economics",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Daly warned about aggregate throughput and planetary limits ('Daly gives us the warning. He does not give us the invoice'). The framework rests on his foundation but supplies the specific per-resource number Daly's planetary-aggregate level cannot.",
+        "where": "$100 Barrel \u00a7'A lineage of near-misses' ('Daly warned about the throughput'); Atlantic Ideas 'four traditions'"
+      },
+      {
+        "name": "Karl Marx (Capital, surplus value)",
+        "relationship": "contradict",
+        "how_engaged": "Marx's injustice runs 'along the axis of class'; the framework's runs 'along the axis of time.' The barrel could be burned with surplus split perfectly evenly and still be gone forever \u2014 Marx names a real but different injustice. Atlantic Ideas pointedly substitutes Polanyi for Marx in the 'four traditions' gloss.",
+        "where": "$100 Barrel \u00a7'A lineage of near-misses' (opening with Marx 'as a tell'); Atlantic Ideas provenance note ('Polanyi-not-Marx four-traditions gloss')"
+      },
+      {
+        "name": "John Rawls (A Theory of Justice / veil of ignorance)",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Borrows the veil-of-ignorance device and 'widens the veil' along the generational dimension \u2014 you don't know which generation you're born into \u2014 to derive the claim that residual commons value must be reckoned. Explicitly disclaims signing the whole Rawlsian program ('borrowing one of his tools, not signing the whole of his program').",
+        "where": "$100 Barrel \u00a7'The price seen from no particular time'"
+      },
+      {
+        "name": "Michael Sandel (moral limits of markets)",
+        "relationship": "parallel",
+        "how_engaged": "Convergent corroboration: Sandel's distinction between what markets can price and what they cannot is one of 'three thinkers, three starting points, one convergent result' supporting that the missing number is real and not an artifact of one philosopher's commitments.",
+        "where": "$100 Barrel \u00a7'The price seen from no particular time'"
+      },
+      {
+        "name": "Derek Parfit (Reasons and Persons / population ethics)",
+        "relationship": "parallel",
+        "how_engaged": "Supplies the logic of obligations to people who do not yet exist; used as both convergent corroboration ($100 Barrel) and the philosophical grounding for the forward-looking Foreclosure Bond (Public Books).",
+        "where": "$100 Barrel \u00a7'price seen from no particular time'; Public Books 'Foreclosure Bond' \u00a7"
+      },
+      {
+        "name": "Nicholas Stern vs. William Nordhaus (discount-rate debate); Martin Weitzman (fat tails)",
+        "relationship": "contradict",
+        "how_engaged": "The framework explicitly refuses to take a side in the Stern-Nordhaus discount-rate war: both price a future FLOW of climate damages; the residual commons value is 'a number the axis does not have a column for' \u2014 the present absence of the barrel, surviving even Stern's low rate. This is positioned as the move 'that distinguishes this argument from a vote in the Stern-Nordhaus contest.'",
+        "where": "$100 Barrel \u00a7'The battleground that already exists'"
+      },
+      {
+        "name": "Norway Government Pension Fund Global (existence proof)",
+        "relationship": "parallel",
+        "how_engaged": "The empirical existence proof that cost severance is a policy choice, not geological destiny \u2014 Hartwick's rule 'made real at the scale of a nation.' Used as the recurring working-model anchor across nearly every essay; Foreign Affairs makes it the central case and also bounds it (foreclosure component + externality tail remain).",
+        "where": "Foreign Affairs \u00a7\u00a7I-VI (central); $100 Barrel \u00a7'Honest accounting'; Norway op-ed (whole); Public Books 'Foreclosure Bond'; Atlantic Ideas 'What already works'; Noema \u00a7V"
+      },
+      {
+        "name": "William Darity Jr. & A. Kirsten Mullen, From Here to Equality (reparations economics); Hamilton, Conley",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Reparations economics 'built the method that taught [the framework] how to count.' The Restitution Bond operationalizes the material-restitution component and EXTENDS it to the broader class of cost-severance cases (asbestos, oil) while explicitly NOT renaming or absorbing the historical reparations claim ('The bond joins the reparations-economics tradition. It does not translate it or rebrand it'). Atlantic Ideas adds the JAMA longevity finding and a first-person deferral ('that work... is not mine to do').",
+        "where": "Public Books 'Restitution Bond' \u00a7; Atlantic Ideas \u00a7'cost already paid by the wrong people'; Noema \u00a7V (second existence proof); Foreign Affairs"
+      },
+      {
+        "name": "James Buchanan & Gordon Tullock / Public Choice; Mancur Olson, Logic of Collective Action",
+        "relationship": "add-to",
+        "how_engaged": "Public Choice/Olson supply the complementary lens explaining WHY the gap is held open (concentrated interests, rent-seeking, diffuse costs). Framed as 'not an argument against pricing the commons... in the toolkit of anyone serious about the problem rather than in the opposing camp.' Cost-severance accounting 'does not replace this analysis. It prices what the rent-seeking buys.'",
+        "where": "Public Books \u00a7'Why the existing architecture cannot reach this'; Atlantic Ideas \u00a7'politics of resistance' (Olson) + 'Public Choice... usefully compatible'; NYRB close"
+      },
+      {
+        "name": "Philip Pettit (Republicanism) & Quentin Skinner (Liberty Before Liberalism) \u2014 freedom as non-domination",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Civic-republican non-domination extended intergenerationally: a future generation is 'in the most literal sense, dominated by the present one.' The Foreclosure Bond is 'the institutional form of a commitment not to dominate the future.'",
+        "where": "Public Books 'Foreclosure Bond' \u00a7; NYRB \u00a7on intellectual foundations already built"
+      },
+      {
+        "name": "David Harvey (accumulation by dispossession)",
+        "relationship": "parallel",
+        "how_engaged": "Harvey's phrase named for the value-taken-from-many pattern; Mazzucato's value-extraction vocabulary 'in productive dialogue with Harvey's' but reaching the diagnosis 'in a tradition that does not need Marx.' Harper's uses Harvey as the longer Marxian lineage of the McDowell pattern.",
+        "where": "Atlantic Ideas 'What a framework does' \u00a7; Harper's \u00a7vocabulary lineage; NYRB lineage para"
+      },
+      {
+        "name": "Kate Raworth (Doughnut Economics)",
+        "relationship": "parallel",
+        "how_engaged": "Listed among thinkers who each 'supplied a piece' and 'changed how the rest of us could see and name' \u2014 Amsterdam adoption cited as a working planning instance; positioned as part of the demonstrate-affordance Pattern-2 register rather than a contradiction.",
+        "where": "Atlantic Ideas 'What a framework does' \u00a7; NYRB lineage para"
+      },
+      {
+        "name": "Katharina Pistor + Mazzucato + Christophers + Susskind as a quartet (NYRB synthesis)",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Crispest contribution articulation in the corpus: the four books 'name the location, the activity, the mechanism, and the metric' of the engineered architecture but 'do not operationalize the corrective... at the per-extraction-event mechanism level.' The framework is positioned as 'the assembly' \u2014 the per-transaction instrument that the four diagnoses cumulatively make legible but none supplies. Likened to the 1936-1948 General Theory / Great Transformation / Road to Serfdom mid-century pivot.",
+        "where": "NYRB 'Architecture and Its Residue' \u2014 entire synthesis, esp. closing 'negative-space observations' + 'What remains is the assembly'"
+      },
+      {
+        "name": "Adam Smith",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Honest pricing framed not as departure from but 'completion of' the market Smith described: 'A price that reflects every cost is the price the market was always supposed to produce.' Used to non-partisan-disarm.",
+        "where": "Atlantic Ideas 'What a framework does' close"
+      },
+      {
+        "name": "Ronald Coase / Coasean bargaining",
+        "relationship": "add-to",
+        "how_engaged": "Coase 'named the conditions under which' affected parties bargain costs away; the framework's costs are precisely the ones falling on 'parties who cannot get to the table at all' \u2014 communities downstream, ecosystems, the unborn. Demarcates the framework's domain as the residual Coase's theorem cannot reach.",
+        "where": "Atlantic Ideas \u00a7opener/Coase nod (added in 3.3/3.4 audience-gate resolution)"
+      },
+      {
+        "name": "Atif Mian & Amir Sufi, House of Debt; Sweden 1930s/1992 crisis response",
+        "relationship": "parallel",
+        "how_engaged": "Used as counter-history 'existence proofs' that distribution of crisis loss is a choice (architecture protecting households vs. balance sheets); supports the 'engineered, therefore re-engineerable' meta-claim rather than the pricing instrument per se.",
+        "where": "Atlantic Ideas 'politics of resistance' \u00a7; Public Books \u00a7Sweden counter-history; Foreign Affairs \u00a7V (Social Security / Bismarck contrast)"
+      },
+      {
+        "name": "Paul Laurence Dunbar, W.E.B. Du Bois, Frantz Fanon, Ralph Ellison (mask/veil/unseen lineage)",
+        "relationship": "parallel",
+        "how_engaged": "Literary lineage of 'naming what hides behind a polite surface' \u2014 the framework's move (naming cost severance behind a market price) is 'old'; only 'the pricing of commons is new.' Positions the contribution culturally rather than analytically.",
+        "where": "Noema 'Commons Bonds' \u00a7Close"
+      },
+      {
+        "name": "Mariana Mazzucato (Mondragon/firm) + Jos\u00e9 Mar\u00eda Arizmendiarrieta (Mondragon)",
+        "relationship": "parallel",
+        "how_engaged": "Mondragon worker-coops + Norway funds + Vienna housing + Alaska dividend presented as scattered 'working parts' that are 'versions of the same idea' the framework names and connects \u2014 the demonstrate-affordance (Pattern 2) register rather than a thinker-contradiction.",
+        "where": "Atlantic Ideas 'What already works' \u00a7; Noema \u00a7VI (three architectures)"
+      },
+      {
+        "name": "Ronald Eller (Uneven Ground), Chris Hamby (Soul Full of Coal Dust), Elizabeth Catte, Patrick Radden Keefe (Empire of Pain)",
+        "relationship": "add-to",
+        "how_engaged": "Regional/journalistic lineage that already documented the McDowell extraction-aftermath pattern; the framework extends Mazzucato's value-extraction diagnosis 'into the physical-resource domain' and adds the structural-accounting reading on top of their cultural/historical record.",
+        "where": "Harper's 'The Miner' \u00a7vocabulary lineage + closing"
+      }
+    ],
+    "candidate_meta_claims": [
+      "The central repeated contribution claim, in its crispest verbatim form (Noema \u00a7VI): 'Mazzucato names the extraction. The framework I am proposing adds the accounting.' The framework's distinctive move is supplying a PER-TRANSACTION pricing instrument/accounting, not a new diagnosis.",
+      "From the NYRB synthesis (the sharpest articulation the chapters likely lack): adjacent thinkers have named 'the location [Pistor], the activity [Mazzucato], the mechanism [Christophers], and the metric [Susskind]' of an engineered architecture of cost severance, but none 'operationalize the corrective at the per-extraction-event mechanism level.' The framework is 'the assembly' \u2014 building and seating the instruments the four diagnoses make legible. 'The shape of what is missing... is no longer a matter of speculation. It is a matter of construction.'",
+      "Cost severance is the load-bearing named mechanism: 'the structural separation of the party that captures the value of an activity from the party that absorbs its costs, where the second party has less power than the first to refuse the transfer.' Crucially distinguished from 'externality': 'An externality names a cost that falls outside a transaction; cost severance names the legal architecture that put it there, and the power asymmetry that keeps the cost-bearer from refusing it' (Public Books). The framework's edge over standard economics is naming the architecture + the power asymmetry, not just the unpriced cost.",
+      "The 'lineage of near-misses' contribution frame ($100 Barrel): a century of major economists each 'worked the ground around the empty plot' \u2014 Marx priced the surplus, Ostrom governed the renewable, Daly warned about throughput, Hartwick saved the rent, Stern/Nordhaus/Weitzman argued the discount rate \u2014 but none priced 'the residual commons value,' the worth of what is permanently foreclosed for the unborn. This is the cleanest articulation of WHAT IS NEW: pricing the permanent absence of a non-renewable resource, a quantity that lives outside the discount-rate axis and survives even a low discount rate because it is not a discounted future flow.",
+      "The bidirectional-accountability articulation (Public Books): cost severance resolves into two instruments pointing opposite directions in time \u2014 the backward-looking Restitution Bond (prices harm already realized; operationalizes the material-restitution component of reparations economics and extends it) and the forward-looking Foreclosure Bond (bars present extraction from foreclosing the unborn's options; grounded in Hartwick + Parfit + civic-republican non-domination). Norway = the Foreclosure Bond 'in working form.'",
+      "The architecture-is-a-choice meta-claim, repeated as the organizing existence-proof logic: cost severance 'is a policy choice. It is not a geological fact' (Noema/Foreign Affairs). Norway vs. Nigeria/Venezuela = 'same crude, different architecture, different outcome.' Darity/Mullen = the cost-side existence proof from the opposite end of a century. 'What is engineered can be engineered differently.'",
+      "The honest-pricing-as-completion-of-the-market framing (Atlantic Ideas): the framework is 'not a departure from the market... It is the completion of it. A price that reflects every cost is the price the market was always supposed to produce.' Four operational moves: Classify (substitution gap), Reserve, Invest, Border. This is the most policy-instrument-forward articulation.",
+      "The non-partisanship/structural-not-prescriptive meta-claim, present in every essay's close: the argument 'is structural, not partisan'; the framework 'offers the ledger,' not a legislative program; reachable from regulatory caution, market discipline, OR worker solidarity. 'A free-market system that does not price its costs is not a free-market system. It is a transfer mechanism' (Harper's).",
+      "The framework requires 'no new philosophical foundations \u2014 the intellectual foundations have been built' (NYRB): reparations economics for the backward instrument, civic-republican non-domination for the forward instrument, Hartwick + Norway for the operational template, Pistor's modules as the coding location. The novelty is assembly + per-transaction instrumentation, not invention of new theory."
+    ],
+    "candidate_objections": [
+      {
+        "objection": "The framework is just a rebranding of standard externality theory / Pigouvian taxation with new vocabulary.",
+        "source": "mainstream/neoclassical economist",
+        "engaged": "yes"
+      },
+      {
+        "objection": "If you cannot produce the actual number, you have only named a gap, not closed it \u2014 naming is not pricing.",
+        "source": "empirical economist / quantitatively-minded reader",
+        "engaged": "yes"
+      },
+      {
+        "objection": "This is the substitution argument: scarcity raises prices, which summons alternatives, so there is no missing price; the future is handled by the same mechanism that handles the present.",
+        "source": "free-market / resource-optimist economist",
+        "engaged": "yes"
+      },
+      {
+        "objection": "You are simply taking a side in the Stern-Nordhaus discount-rate debate dressed up as a new quantity.",
+        "source": "climate economist",
+        "engaged": "yes"
+      },
+      {
+        "objection": "Norway is a small, homogeneous, high-trust, low-corruption society with a freak windfall; the model is a Norwegian particular, not a transferable existence proof.",
+        "source": "comparative-political-economy / institutionalist skeptic",
+        "engaged": "yes"
+      },
+      {
+        "objection": "The Restitution Bond appropriates or dilutes the specific historical claim of reparations by folding it into a generic cost-severance class (asbestos, oil).",
+        "source": "reparations scholar / racial-justice reader",
+        "engaged": "yes"
+      },
+      {
+        "objection": "'He chose those hours / the miner chose the mine' \u2014 choice is real, so cost severance overstates structural coercion.",
+        "source": "personal-responsibility / center-right reader",
+        "engaged": "yes"
+      },
+      {
+        "objection": "This is a left-wing anti-extraction / anti-market program disguised as accounting; a call for revolution.",
+        "source": "reactionary / center-right intellectual reader",
+        "engaged": "yes"
+      },
+      {
+        "objection": "Honest pricing is rich-world protectionism \u2014 pulling the cheap-energy ladder up behind developing economies.",
+        "source": "development economist / Global South reader",
+        "engaged": "yes"
+      },
+      {
+        "objection": "The arrangement persists because concentrated interests capture the rules (rent-seeking); naming a ledger does nothing against that political economy.",
+        "source": "Public Choice economist",
+        "engaged": "partial"
+      },
+      {
+        "objection": "A border-adjustment / extended-cost-pricing mechanism is administratively unbuildable beyond carbon (embedded carbon is measurable; most severed costs are not).",
+        "source": "trade-policy / regulatory-practitioner reader",
+        "engaged": "partial"
+      },
+      {
+        "objection": "The Norway sovereign-fund model is not generalizable: if every resource state ran one investing abroad, there would be insufficient external activity to absorb the aggregate \u2014 it is a local optimum dependent on others not copying it.",
+        "source": "international-macro economist",
+        "engaged": "yes"
+      }
+    ],
+    "notes": "All 9 canonical essay.md files + both op-eds read from the audit-corpus worktree (/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/). Key file paths: essays/{aeon-mask-of-abundance,public-books-accountability-gap,100-barrel,atlantic-ideas-pricing-honestly,noema-commons-bonds,foreign-affairs-existence-proof,nyrb-multi-book-review,harpers-the-miner,atlantic-main-chesapeake-watermen}/essay.md; op-eds/{norway-sovereign-wealth,mcdowell-county-true-cost}/op-ed.md.\\n\\nWHERE THE ESSAYS ARTICULATE THE CONTRIBUTION MORE CRISPLY THAN THE CHAPTERS LIKELY DO:\\n1. NYRB 'The Architecture and Its Residue' is the single richest positioning document: it does the explicit four-thinker triangulation (Pistor=location, Mazzucato=activity, Christophers=mechanism, Susskind=metric) and states the framework's job as 'the assembly' of an instrument the four diagnoses make legible but none builds. The 'negative-space observations' (none offers a per-transaction pricing instrument; none connects present extraction to future cost-bearer at the transaction level) are the cleanest statement of the contribution's boundary anywhere in the corpus. It also names the mid-century-pivot analogy (General Theory / Great Transformation / Road to Serfdom).\\n2. $100 Barrel 'lineage of near-misses' is the cleanest articulation of WHAT IS NEW analytically: residual commons value = the price of the permanently foreclosed non-renewable resource, a quantity that lives OUTSIDE the discount-rate axis (the move that distinguishes it from a Stern-Nordhaus vote). The renewables-return-near-zero symmetry is offered as proof it is 'an accounting and not an argument in disguise.'\\n3. Noema's 'Mazzucato names the extraction. The framework I am proposing adds the accounting.' is the most compressed single-sentence contribution claim.\\n4. Public Books gives the cleanest mechanism definition + the externality-vs-cost-severance distinction (adds 'the legal architecture that put it there, and the power asymmetry') and the bidirectional Restitution Bond / Foreclosure Bond instrument split with named lineages for each.\\n5. Atlantic Ideas gives the most policy-instrument-forward articulation (Classify/Reserve/Invest/Border) and the 'honest pricing = completion of the market Smith described' framing.\\n\\nNAMED INSTRUMENTS appear in different guises by venue: 'cost severance' is the universal named mechanism (plain prose in all). 'Residual commons value / RCV' surfaces in $100 Barrel + Foreign Affairs. 'Accountability bond B' + 'foreclosure component' + 'externality tail' are Foreign-Affairs-specific framework vocabulary. 'Restitution Bond' + 'Foreclosure Bond' are the Public Books named instruments. Op-eds and the two Atlantic essays deliberately carry ZERO named framework apparatus (per brief exclusion lists) and convey the concept via 'honest pricing / institutional architecture is engineerable.'\\n\\nRECURRING DISARMING MOVES worth flagging: (a) explicit refusal to take Stern's or Nordhaus's side; (b) explicit Rawls-tool-not-Rawls-program hedge; (c) Polanyi substituted for Marx in Atlantic Ideas; (d) first-person deferral on reparations ('not mine to do'); (e) 'structural not partisan' + 'not a call for revolution' in every close; (f) Public Choice/rent-seeking folded in as 'complementary, in the toolkit, not the opposing camp.' These suggest the author treats the center-right/non-partisan reader and the reparations scholar as the two most load-bearing adversarial audiences.\""
+  },
+  {
+    "works": [
+      {
+        "name": "Karl Polanyi \u2014 The Great Transformation (1944): fictitious commodities (labor, land, money)",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "The framework's STRUCTURAL definition of its object is the operational descendant of Polanyi's fictitious-commodity thesis: labor/land/money are treated as commodities though not produced as such. Commons Bonds reframes its 10 elements (Habitability, Ecosystem, Temporal, Autonomy, Kindred, etc.) as COMMONS \u2014 things depended-on and shared but not produced-as-commodities \u2014 and the Commons Inversion Test operationalizes Polanyi's intuition by asking 'imagine this commons absent/unconsumed; what cost appears?' Crucially Polanyi is named only as background lineage and as a 'Pattern 3 ex-post-only' diagnostic precedent \u2014 engagement is thin. Polanyi diagnosed the double movement and the disembedding of fictitious commodities but priced nothing; the framework EXTENDS Polanyi into the pricing/accountability-instrument setting Polanyi never reached (RCV quantification + Accountability Bond B = B1 restitution + B2 foreclosure). Note: Polanyi is NOT a formal bibliography entry in Tech Appendix v2.0.0 and 'fictitious commodities' is engaged only obliquely; this is an under-realized positioning opportunity.",
+        "where": "commons-as-structural-identity rigor pass \u00a77 (ratified 2026-04-24, lineage citation Ostrom+Hess+Klinenberg+Anderson+Polanyi 1944); commons-list-dissolution pass \u00a74.2 (Polanyi's 3 fictitious commodities cited as enumerated-framework precedent); core/methodology/decision_time_application_internal_v1.0.0.md \u00a73.3 (Polanyi as Pattern-3 ex-post-only exemplar); full-framework-audit-phase1 \u00a7M12 (Polanyi-tradition lineage)"
+      },
+      {
+        "name": "Nancy Fraser \u2014 expropriation of social reproduction / nature (Cannibal Capitalism; 'Behind Marx's Hidden Abode')",
+        "relationship": "parallel",
+        "how_engaged": "COMPLETELY ABSENT from the corpus. Zero hits for Fraser the political theorist, 'social reproduction,' or Fraser-style 'expropriation' anywhere in core/, chapters/, or tools/ (all 'Fraser' string-matches are Simon Fraser University and the Peters Fraser + Dunlop literary agency; all 'expropriation' hits are the LIBERTARIAN HOSTILE READ of the bonds-architecture as property-rights-expropriation, the opposite of Fraser's technical sense). This is the single biggest positioning gap. Fraser's expropriation/exploitation distinction \u2014 capital's reliance on the unpaid appropriation of social-reproductive labor and nature 'behind' the wage relation \u2014 is almost exactly the framework's claim that cost severance prices what markets push onto the unpaid commons substrate (community, future generations, ecosystem). The framework already does the parallel work empirically (Federici, Patel & Moore are cited for the same substrate) but never names Fraser, who is the closest living political-theory anchor for the meta-claim. Adding Fraser would let the book position its object-definition as the pricing-instrument extension of Fraser's diagnostic.",
+        "where": "absent \u2014 verified via repo-wide grep across core/ chapters/ tools/; closest proxies cited instead are Federici 2004 (Caliban and the Witch, primitive accumulation as severance of reproductive labor) and Patel & Moore 2017 (Seven Cheap Things) in Tech Appendix bibliography + Cost Severance Phase 2 lineage"
+      },
+      {
+        "name": "Elinor Ostrom \u2014 Governing the Commons (1990); Hess & Ostrom \u2014 Understanding Knowledge as a Commons (2007)",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "Primary lineage anchor. The framework's structural identity IS 'commons-governance extended to extraction contexts.' Ostrom governs commons that PERSIST (8 design principles for in-place management among aligned stakeholders); the framework prices commons that are DRAWN DOWN via extraction and explicitly reaches the heterogeneous/divided-stakeholder commons Ostrom's apparatus excludes (TA \u00a71.10 break-point \u2192 stratification economics). The Commons Inversion Test is positioned as a framework-specific methodology with no Ostrom-literature prior art.",
+        "where": "commons-as-structural-identity pass \u00a73.6/\u00a77 + \u00a78.1 (CIT record); Tech Appendix v2.0.0 line 604 (heterogeneous-stakeholder break-point) + line 586 (Epistemic commons lineage)"
+      },
+      {
+        "name": "Mariana Mazzucato \u2014 The Value of Everything (2018) / David Harvey \u2014 accumulation by dispossession (2003)",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "'Value Extraction' (Ring-1 term) explicitly extends Mazzucato's rent-seeking-in-financial-capitalism critique into the physical-resource domain, adding a pricing mechanism (RCV/Severed Cost), a causal chain, and an accountability instrument (B) Mazzucato lacks. Harvey's accumulation-by-dispossession is named as the foundational predecessor reframed in accessible accounting register.",
+        "where": "terms_index.md Value Extraction record (Tech Appendix def, M12 lineage, lines 496-506)"
+      },
+      {
+        "name": "Darity & Mullen \u2014 From Here to Equality (2020); stratification economics (Darity, Hamilton)",
+        "relationship": "extend-into-a-setting-they-could-not-reach",
+        "how_engaged": "The reparations/human-extraction side of the same-object claim. The Restitution Bond B1 operationalizes the restitution-as-redress component of the Darity-Mullen reparations program, extended beyond the Black-American-descendants-of-US-slavery scope to the general commons-extraction case-class. Stratification economics supplies the analytical apparatus for the heterogeneous-stakeholder commons. The framework concedes the coercion vector itself remains unpriced (defers to reparations-economics open problem).",
+        "where": "Tech Appendix v2.0.0 lines 1255, 1294, 1385 (\u00a75.5 backward-pricing), 1425, 604; Ch6 Pass 3.3 audience-load (MI-3 stratification tie)"
+      },
+      {
+        "name": "Marx \u2014 Capital Vol. 1 (severance of labor from product)",
+        "relationship": "parallel",
+        "how_engaged": "Named as adjacent-but-distinct lineage. Cost Severance INVERTS Marx's severance-of-labor-from-product to name severance-of-COST-from-value-capture; framework specializes in commons-extraction and adds the Accountability-Bond instrument the Marxist tradition does not provide. Explicitly held as parallel/distinct, not subsumption.",
+        "where": "Cost Severance Phase 2 tier2d rigor pass (line 674 critic-engagement); terms_index Cost Severance cross-tradition lineage"
+      },
+      {
+        "name": "Coulthard 2014; Tuck & Yang 2012; Wolfe 1999; Whyte (decolonial / settler-colonialism)",
+        "relationship": "add-to",
+        "how_engaged": "Cited for the colonial-foreclosure / severance-of-land-from-people register \u2014 the human-extraction substrate of the same-object claim. Supports the Kindred commons (family/language/indigenous-people severance) and the \u00a715.2.1 decolonial cross-reference. Used to ground the backward-pricing direction without the framework claiming to displace decolonial critique.",
+        "where": "Tech Appendix v2.0.0 lines 562 (Kindred commons lineage), 7199 (\u00a715.2.1 decolonial cross-ref); Cost Severance Phase 2 Tier-2d lineage"
+      }
+    ],
+    "candidate_meta_claims": [
+      "The framework's OBJECT is defined STRUCTURALLY, not by enumeration: a commons is anything depended-on and shared but not produced-as-a-commodity (Polanyi's fictitious-commodity logic generalized). Therefore a community, a people, a body of labor, and a future generation are commons in exactly the same sense as a reef or the atmosphere.",
+      "Because the object is structural, ecological extraction (strip-mining a reef / atmosphere) and human extraction (strip-mining a community; slavery/forced labor; the intergenerational wealth gap) are the SAME OBJECT \u2014 a commons whose abundance masked its cost \u2014 and the same apparatus (Four Gates + Three Ways of Counting) prices both, running FORWARD for ecological/atmospheric cases and BACKWARD (in reverse) for realized human-extraction / reparations cases. (Tech Appendix \u00a75.5, line 1385: 'The same apparatus applies in reverse to price backward damages.')",
+      "The Commons Inversion Test makes the structural identity operational: invert the abundance of any commons (imagine it absent or unconsumed) and the masked, severed cost becomes legible \u2014 oxygen in space, water on Mars, time consumed by commuting, freedom stripped by coercion all yield to one test.",
+      "The book's title resolves on the shared bond of the extracted-from: 'Commons Bonds' is load-bearing polysemy \u2014 (1) the accountability BONDS (instrument B) that would price the severance, (2) the relational BONDS (intergenerational, community, kinship, labor solidarity) that severance breaks, and (3) the structural BONDS of ecosystems/economies. The three are mechanistically linked: posting the accountability bond is what closes the gap that severs the relational and structural bonds. The unifying subject is whoever/whatever was extracted from \u2014 reef, community, generation \u2014 bound together as commons.",
+      "The framework is positioned as commons-governance (Ostrom) EXTENDED into extraction-drawdown contexts that Ostrom governs-in-place could not reach, fused with a pricing instrument (RCV) and an accountability bond (B1 restitution + B2 foreclosure) that the Polanyi/Marx/Harvey/Mazzucato diagnostic traditions never supplied \u2014 the contribution is the pricing/accountability layer on top of a structural-extraction diagnosis those traditions share.",
+      "Universality is a claim about METHOD, not ontology: the framework does not assert what metaphysically IS a commons; it asserts that whenever something operates AS a commons in a given society, extraction can sever cost from it, and this methodology measures the severance \u2014 working within classical-liberal, civic-republican, socialist-communitarian, Marxist, or decolonial commitments alike. What it refuses is extraction without accountability, regardless of which commons."
+    ],
+    "candidate_objections": [
+      {
+        "objection": "You claim Polanyi lineage but engage him only as background \u2014 you have not actually built on the fictitious-commodity thesis, you have re-derived a thinner version of it and dropped his name in a footnote. Where is the genuine extension vs. the rebrand?",
+        "source": "Polanyian / economic-sociology reader",
+        "engaged": "partial"
+      },
+      {
+        "objection": "The single closest living anchor for your central meta-claim \u2014 that capital relies on the unpaid appropriation of social-reproductive labor and nature 'behind' the wage relation \u2014 is Nancy Fraser's expropriation/exploitation distinction, and she is nowhere in the book. Treating reef-extraction and community-extraction as 'the same object priced backward' is precisely Fraser's terrain; not engaging her reads as either ignorance of the field or avoidance.",
+        "source": "Critical-theory / Nancy Fraser tradition",
+        "engaged": "no"
+      },
+      {
+        "objection": "Collapsing ecological extraction and human extraction into 'the same object' flattens the coercion vector. Slavery is not a reef with a longer time-horizon; the moral structure of coerced human extraction is categorically different from drawing down a fishery, and pricing it 'the same way, backward' risks commodifying exactly the unpriceable.",
+        "source": "Reparations economics (Darity) + decolonial tradition (Coulthard, Tuck & Yang)",
+        "engaged": "partial"
+      },
+      {
+        "objection": "Treating 'a community' or 'a people' as a commons identical in structure to the atmosphere is an ontological overreach \u2014 it imports a collectivist premise about what is shared that classical-liberal and property-rights traditions reject categorically; the 'structural identity' move smuggles a political commitment in under the guise of accounting.",
+        "source": "Classical-liberal / libertarian / Rothbardian reader",
+        "engaged": "yes"
+      },
+      {
+        "objection": "'Cost severance' borrows HR/employment-severance and severance-tax connotations that read as commodifying-labor framing rather than commons-extraction framing \u2014 for indigenous and heterodox-left readers the metaphor itself enacts the disembedding it claims to critique.",
+        "source": "Tier-2d lived-oppression / heterodox-left reader",
+        "engaged": "yes"
+      },
+      {
+        "objection": "This is just externality internalization / Pigouvian pricing with a commons vocabulary layered on; the 'structural identity' and 'same object' claims add rhetoric, not analytical content the welfare-economics tradition lacks.",
+        "source": "Orthodox welfare / environmental economist",
+        "engaged": "yes"
+      }
+    ],
+    "notes": "STRUCTURAL-COMMONS FOUNDATION (verified, ratified 2026-04-24): The framework's object is defined structurally via two ratified rigor passes \u2014 commons-as-structural-identity (AIT\u2192CIT rename; the 10 are 'commons categories,' abundance is their STATE) and commons-list-dissolution (Option C': demote the 10-list to illustrative-reference; universality is about METHOD not ontology; explicit political-philosophical agnosticism about what IS a commons). Together these establish: a commons = anything depended-on/shared but not produced-as-commodity; therefore community/labor/a-people/future-generations are commons in the same structural sense as reef/atmosphere.\n\nSAME-OBJECT-PRICED-BACKWARD (the load-bearing meta-claim) IS articulated and ratified, primarily in: (1) Tech Appendix v2.0.0 \u00a75.5 line 1385 \u2014 'The same apparatus applies in reverse to price backward damages... The Commons Inversion Test's structural move runs both directions'; forward = atmospheric/Mars-habitability, backward = coercion/reparations; same Four Gates + same Three Ways of Counting (substitution\u2192remediation; revealed-restraint\u2192revealed-restitution; forward-option-value\u2192extinguished-option-value). (2) Ch 5 Pass-2 voice-polish \u00a7F-V16 (the air-stripped / freedom-stripped parallel-paragraph chiasmus \u2014 the prose enactment of the methodological symmetry). (3) TA \u00a71.10 Autonomy-commons scope boundary + line 1425 (coercion vector named but conceded unpriced \u2014 honest scope limit). Reparations operationalized via Restitution Bond B1 (TA lines 1255/1294) extending Darity-Mullen beyond US-slavery scope.\n\nTITLE RESOLUTION: terms_index 'Commons Bonds' record \u2014 load-bearing tripartite polysemy (accountability bonds B / relational bonds / structural bonds), mechanistically linked: posting B closes the gap that severs relational + structural bonds. The shared subject is the extracted-from.\n\nPOSITIONING vs POLANYI: extend-into-a-setting-they-could-not-reach, but UNDER-REALIZED. Polanyi named as lineage in the structural-identity pass \u00a77 ratification and as a Pattern-3 ex-post-only exemplar in the internal methodology doc, but he is NOT a formal Tech Appendix v2.0.0 bibliography entry and 'fictitious commodities' is never directly worked. RECOMMENDED FOLLOW-UP: add Polanyi to the bibliography and make the fictitious-commodity \u2192 commons mapping explicit; it is currently implicit.\n\nPOSITIONING vs FRASER: the biggest gap. Nancy Fraser is entirely absent from the corpus (verified by repo-wide grep; every 'Fraser'/'expropriation' hit is a false positive \u2014 Simon Fraser Univ, PFD agency, or the LIBERTARIAN hostile-read of bonds-as-property-expropriation, which is the inverse of Fraser's sense). Fraser's expropriation-of-social-reproduction/nature is the single closest living political-theory anchor for the same-object meta-claim and would let the book name its parallel directly. The empirical substrate Fraser theorizes is already cited (Federici 2004, Patel & Moore 2017) but the synthesizing theorist is not. STRONG candidate for a Stage-1b bibliography + Ch-1/Ch-6/TA engagement addition.\n\nRelationship to political-economy traditions overall: ADD-TO the diagnostic traditions (Polanyi, Marx, Harvey, Mazzucato, Fraser-by-omission all diagnose structural extraction); the framework's specific contribution is the PRICING + ACCOUNTABILITY-INSTRUMENT layer (RCV + B = B1 + B2 + bidirectional Three Ways of Counting) that none of those traditions supply.\n\nAll counts/status verified against current worktree files (audit corpus at /Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda); the two foundational rigor passes are dated 2026-04-24 and carry author-ratification stamps."
+  }
+]
