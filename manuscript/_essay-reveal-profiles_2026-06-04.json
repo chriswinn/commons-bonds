@@ -1,0 +1,937 @@
+[
+  {
+    "essay": "aeon",
+    "venue": "Aeon",
+    "draft_read": "origin/main:publishing/essays/aeon-mask-of-abundance/_archive/aeon-final-candidate-assembled_2026-06-03.md",
+    "placement_status": "Not submitted / not placed / not declined. The 289w Version-E pitch is AWAITING-SUBMIT \u2014 Aeon June 2026 portal has not opened on any standard schedule (falsified through Jun 1; Jun 3 maintenance page); author posture is opportunistic spot-check 1-2x/day through June with July window (Jul 1-5) as primary fallback. The full-essay LEAD draft is internal harvest-pool material with no placement status of its own (Aeon develops the full essay post-acceptance).",
+    "contribution_made": [
+      "META-CLAIM 2 (configurational novelty) CARRIED and well-positioned via the lineage near-miss row: Ostrom (parallel/extend, renewable-only) and Hartwick (generalize, substitution-limit) are the best-positioned cells in the corpus",
+      "META-CLAIM 3 (measurement-not-diagnosis; conservative-by-construction) CARRIED explicitly via the 'note on the numbers' floor-discipline declaration + the discount-rate-survival argument (CS>0 across Nordhaus-Stern)",
+      "META-CLAIM 1 (Polanyi/Fraser structural-commons/fictitious-commodity) NOT carried \u2014 the SAME-OBJECT move (labor + commons priced by one logic) is performed but never claimed against the tradition; corpus's biggest gap left a gap",
+      "EXTEND cells positioned by name: Ostrom, Hartwick, Daly, Rawls, Sandel, Marx, Darity+Mullen",
+      "EXTEND cells carried in substance but UNNAMED: Hotelling, Pigou (B<RCV), Coase (future can't bid), Parfit, Harvey",
+      "Two-instrument structure REVEALED by function and name: foreclosure bond (forward) + restitution bond (backward)"
+    ],
+    "landing_points_carried": [
+      "A contribution/positioning (lineage row + 'what is missing is the act of running the honest accounting on a single real thing')",
+      "B core-claims (cost severance / value extraction / residual commons value defined in plain words)",
+      "C objections (dystopia/debtor's-prison ENGAGED; discount-rate ENGAGED; against-extraction ENGAGED via asteroid; which-system/too-statist ENGAGED; coercion-flattening ENGAGED via Darity discipline note)",
+      "D limits (substitution-may-work concession; numbers-are-theirs-to-enter boundary; asteroid near-zero severance)",
+      "E worked-demos (McDowell backward, Norway forward, Niger Delta counterfactual, $100 barrel \u2014 richest in corpus)",
+      "G human/narrative-spine (airlock, diver, Biosphere 2, ISS, colony, asteroid miner)",
+      "H values/emotional (thinner-margin unborn; reserves-all-the-way-down deep-time close)",
+      "K reader-takeaway ('the mask comes off the moment we are willing to take it off')",
+      "M domain/boundary (scale-invariance: 'change the world and you only get new numbers' \u2014 best in corpus)",
+      "N concealment-taxonomy (mask of abundance; severance across distance vs time; planet does not send statements)",
+      "O stakes/why-now (Sun brightening deep-time reserves + still-free-but-not-by-law close)"
+    ],
+    "landing_points_missed": [
+      "J citations+gaps \u2014 PARTIAL: well-sourced where named (EPA 2023, Darity/Mullen, JAMA, Hartwick 1977, Rawls, Sandel, Stern, Nordhaus, Ostrom) but the Polanyi/Fraser and Pistor GAPS leave a hole exactly where META-CLAIM 1 lives",
+      "F originality/credibility \u2014 under-deployed because apparatus is reserved (deliberate for genre, but the formal-novelty claim is not staked)",
+      "I audience \u2014 implicit only (appropriate to genre)",
+      "P comps/market \u2014 not in-text (lives in submission package, correct)",
+      "L falsifiability \u2014 only PARTIAL-strong; carried via floor-discipline + asteroid 'extract freely' but not stated as an explicit falsification condition",
+      "META-CLAIM 1 anchor (Polanyi/Fraser by name) \u2014 the through-line miss touching A, B, J, N"
+    ],
+    "positioning_quality": "Strong-to-excellent on META-CLAIMS 2 and 3; the lineage near-miss row is a model for explicit add/parallel/contradict/extend positioning IN PROSE (each tradition gets a verdict: Ostrom renewable-only, Hartwick saved-the-rent-not-the-barrel, Daly billed-the-river-not-the-drop, Stern/Nordhaus/Weitzman priced-the-flow-not-the-absence). The discount-rate-survival move ('the residual commons value is not a discounted flow... it is the present absence') is the single sharpest positioning in the corpus. WEAK on META-CLAIM 1: the Polanyi/Fraser move is performed structurally but never claimed by name, so the ratified top move (framework PRICES+RESERVES what the diagnostic tradition only NAMED) is implicit, not positioned. Several EXTEND cells (Hotelling, Pigou, Coase) carried in substance but unnamed \u2014 positioning would upgrade them from summary to explicit at near-zero cost.",
+    "reveal_revealed": [
+      "Cases: diver helium reclaim (>80%, into 90s); Biosphere 2 (3 acres, $150M, O2 21%->14%, 19/25 vertebrates + all pollinators died); ISS ($21,000/kg water, ~90% reclaim, electrolysis O2); McDowell coal ($4-5/ton -> >$500); Norway GPFG ($2T+, $390,000/citizen, Ekofisk 1969, 1990/2006/2001 rule); Niger Delta/Ogoniland (Saro-Wiwa 1995, UN $1B/25-30yr); Darity/Mullen ($14T, JAMA longevity); $100 barrel; asteroid miner",
+      "Framings: airlock; mask of abundance; cost severance (distance vs time); value extraction; residual commons value; renewable vs non-renewable foreclosure; option value of unburned barrel; scale-invariance; 'honest accounting is not restraint'; 'not a rival economic system'; deep-time reserves",
+      "Instruments: foreclosure bond (forward) + restitution bond (backward) \u2014 revealed by name and function but not labelled as the formal 'Two Instruments' taxonomy"
+    ],
+    "reveal_reserved": [
+      "The formula / CIT (Commons Identity) \u2014 no equation, no symbol, no 'RCV ='; entirely prose. INTACT.",
+      "Title-pun detonation \u2014 'mask of abundance' used as surface metaphor + 'the mask comes off' close, but the book-level full-apparatus reveal NOT spent. INTACT.",
+      "Full named apparatus: Four Gates, Three Ways, Hotelling Identity (by name), ARR, the named 'Two Instruments' taxonomy, the formal S_max <= 1 statement",
+      "RCV-model $580-620 TA-only carbon figure",
+      "IPG ratio family (33-122x public / ~50x central / 555x TA-only)"
+    ],
+    "reveal_pct": "~70-75% of the A-P landing-point map (highest-reveal full-essay candidate in the corpus); carries A,B,C,D,E,G,H,K,M,N,O strongly, partials on J and L, reserves/omits F,I,P mostly by design. Reserved-apparatus payoffs stay sealed.",
+    "reserved_payoffs_intact": true,
+    "sharpening_opportunities": [
+      "Carry META-CLAIM 1 by name (biggest gain): add one positioned sentence to the lineage row naming Polanyi (fictitious commodity) + Fraser (boundary struggle) and claiming 'this framework prices and reserves what they could only name' \u2014 converts implicit performance into explicit ADD and closes the corpus's biggest gap",
+      "Name Pigou and Hotelling once each in the worked runs (McDowell IS Pigou-but-bigger; barrel IS Hotelling-plus-residual) \u2014 upgrades two EXTEND cells from substance-only to positioned without revealing the reserved formal identity",
+      "Name the divided-stakeholder / stratification-economics extension in the Darity/Niger Delta section to position the extend-Darity cell explicitly",
+      "Name Coase once at the 'never asked and cannot be paid' line to convert the implicit contradiction into a positioned one and pre-empt the Coase/voluntary objection (currently exposed-not-engaged)",
+      "Engage the Pistor/financialization objection in the Norway section: distinguish reserving value (foreclosure bond) from re-commodifying the commons (currently a GAP, exposed-not-engaged)"
+    ],
+    "crisp_articulations": [
+      "We are trained to read a price of zero as a verdict that a thing is worth little. The truth is the reverse.",
+      "A thing with no price is invisible to a civilization that decides what to protect by reading prices.",
+      "The bill was never cancelled. It was sent somewhere you could not see, to someone who could not send it back.",
+      "People who do not yet exist make poor plaintiffs.",
+      "The whole apparatus of price and law and grievance is built for parties who can show up, and the deepest severed costs are owed to parties who cannot.",
+      "A renewing resource taken too fast is a debt you can repay by slowing down. A barrel of oil burned is a debt that cannot be repaid by anyone, ever.",
+      "The residual commons value of the barrel is not a discounted flow of future damage. It is the present absence of a thing that will not return... you do not discount the absence of a thing.",
+      "Honest accounting lays the cost bare. It does not, by itself, decide who pays it.",
+      "Change the world and you do not need a new framework. You only get new numbers.",
+      "Honest accounting is not the same as restraint... the guilt was always supposed to attach to the severed cost.",
+      "Take freely here; reserve there. That is not a contradiction. It is the framework seeing clearly in both directions at once.",
+      "The difference between the two was never that one drilled and the other refrained. Both drilled. The difference is architecture.",
+      "Not a politics and not a system, just an honest set of books."
+    ],
+    "figure_drift": [
+      "Carbon $496 \u2014 MATCH ('$496', line 86)",
+      "Total $510 \u2014 MATCH ('more than $500, on the order of $510')",
+      "Floor $504-518 \u2014 consistent (essay states floor '>$500, ~$510'; less precise than range but within band)",
+      "RCV-model $580-620 TA-only \u2014 RESERVED (correctly held back)",
+      "IPG 33-122x/~50x/555x \u2014 RESERVED (essay gives worked instance 'around a hundred times' for carbon-alone, not the ratio family)",
+      "Mine-mouth $4.50 \u2014 MINOR DRIFT: essay gives range '$4 or $5 a ton ~1960' rather than canonical point figure $4.50; defensible as illustrative, flag for consistency",
+      "SCC $190 \u2014 MATCH ('$190 per ton of CO2', EPA 2023)",
+      "Factor 2.61 McD / 2.33 national \u2014 MATCH (national stated 2.33, within canon 2.32-2.33 band)",
+      "Closure 'across the 1980s' \u2014 OMITTED (McDowell case anchored on ~1960 mine-mouth price only; closure beat not deployed; omission not drift)",
+      "Net: no contradictions with canon; one minor drift + one omitted beat; numerals/digits pass applied"
+    ],
+    "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/deep-pass/essay-aeon-deeppass_2026-06-04.md"
+  },
+  {
+    "essay": "public-books",
+    "venue": "Public Books (Boston Review DECLINED, repositioned here)",
+    "draft_read": "origin/main:publishing/essays/public-books-accountability-gap/essay.md",
+    "placement_status": "BR SUBMITTED 2026-06-03 (Submittable, commit bd9a20a) \u2192 REJECTED same-day (editorial-triage boilerplate decline; logged as venue-fit not quality data) \u2192 cascading to Public Books 2026-06-04, essay canonical/unchanged (Stage 5 RATIFIED 2026-06-02). Front-matter status string is stale-by-venue; README + decline-letter are live state.",
+    "contribution_made": [
+      "META-CLAIM 3 measurement-not-new-diagnosis: EXPLICIT and strongly positioned \u2014 'Cost-severance accounting does not replace this analysis. It prices what the rent-seeking buys' (add-magnitude to Pistor + Buchanan/Tullock public-choice + Christophers + Darity)",
+      "META-CLAIM 2 configurational novelty: PARTIAL \u2014 Two Instruments (Restitution + Foreclosure Bond) fully exposed with mechanism + worked apps + bond-family disambiguation; bidirectionality explicit; Hartwick rule named; but Pigou/Ostrom extension NOT staged and CIT/Four-Gates/Three-Ways/Hotelling/ARR reserved",
+      "META-CLAIM 1 structural-commons/fictitious-commodity (Polanyi/Fraser): ENACTED but NOT NAMED \u2014 same-object claim demonstrated via 'the mechanism is the same' but Polanyi and Fraser entirely absent (the portfolio's biggest gap, reproduced here)",
+      "Cell: measures-the-mechanism-it-diagnoses move made on Pistor/public-choice/Christophers (Harvey absent by name but the move is present)",
+      "Cell: extend reparations economics backward \u2014 Coates/Darity-Mullen/Hamilton/Conley lineage named, Restitution Bond extends material-restitution component, with explicit anti-dilution protection",
+      "Cell: operationalize future-obligation \u2014 Parfit + distinctive Pettit/Skinner non-domination-of-the-future framing (substitutes for Rawls/Daly)",
+      "Cell: conservative-by-construction DEMONSTRATED (documented/at-least/floor) but Weitzman/Nordhaus/Stern absent so not NAMED as a property"
+    ],
+    "landing_points_carried": [
+      "B core-claims (cost severance defined + bidirectional gap + two instruments)",
+      "E worked-demos (strongest LP \u2014 Libby/Deepwater/2008/SocSec/GoFundMe/Baotou/BlackLung/reclamation/Norway/Sweden)",
+      "F originality/credibility (reparations lineage + Pistor + bond-family disambiguation)",
+      "G human/narrative-spine (Libby ring composition, 'children played in it')",
+      "H values/emotional ('no community sacrificed for a product sold elsewhere; no generation inherits a bill it had no part in running up')",
+      "J citations (inline discipline; gaps tracked in manifest)",
+      "K reader-takeaway ('what is engineered can be engineered differently')"
+    ],
+    "landing_points_missed": [
+      "A contribution/positioning \u2014 partial; no single whole-contribution sentence; Polanyi/Fraser/Pigou/Ostrom positioning absent",
+      "C objections \u2014 partial; several engaged in-prose (TARP-wrong-unit, just-Pigou, reparations-dilution) but financialization/Pistor-as-objection, Fraser-absent, coercion-flattening, ESG-capture, unfalsifiable, degrowth, too-statist, Norway-not-transferable, non-identity all exposed not engaged",
+      "D limits \u2014 weak; only 'not every activity must stop'",
+      "L falsifiability \u2014 MISSED; no statement that CS>0 is the testable claim",
+      "M domain/boundary \u2014 weak; no explicit scope-of-applicability",
+      "N concealment-taxonomy \u2014 partial; space/time/financial-instrument/statute series is a four-cover taxonomy in embryo but unnamed",
+      "O stakes/why-now \u2014 partial; climate + 2033 SocSec implicit, not foregrounded",
+      "I audience \u2014 partial; carries literal dead-venue tell 'two traditions BR readers will recognize' needing genericization for Public Books"
+    ],
+    "positioning_quality": "Mixed and lens-predictable: demonstration-rich, positioning-light. META-CLAIM 3 (measurement-not-diagnosis) is positioned with genuine craft \u2014 the add/extend to Pistor, public-choice, Christophers, and Darity is explicit and well-staged. META-CLAIM 2's two instruments are exposed cleanly with good reserve discipline, but the extend-Pigou/Ostrom-into-extraction relationship is enacted not stated (both absent by name). META-CLAIM 1 (Polanyi/Fraser structural anchor) is the worst-positioned: the deepest unifying claim is left for the reader to infer, never named as a contradict/extend-the-diagnostic-tradition move. Net: the add/parallel/contradict/extend is explicit for the measurement cells, enacted-only for the extension cells, and absent for the structural-anchor cell.",
+    "reveal_revealed": [
+      "Cases: Libby/W.R. Grace, Deepwater Horizon (incl. Mexico legal-asymmetry), 2008/401(k)/TARP, Social Security PAYGO, GoFundMe medical, Baotou rare-earth, McDowell County, Black Lung Benefits Program, reclamation/decommissioning bonds, Norway GPFG, Sweden 1930s/Saltsj\u00f6baden",
+      "Framings: cost severance (term+definition+'more than an externality'), the accountability gap, bidirectionality (backward restitution / forward foreclosure), 'TARP is the wrong unit of measure', 'the architecture knows how to tag cost to value but does so incompletely', non-domination-of-the-future (Pettit/Skinner applied to the unborn)",
+      "Instruments: Restitution Bond (full mechanism + worked apps + reparations-lineage extension + bond-family disambiguation) and Foreclosure Bond (full mechanism + Hartwick rule + Norway as working form)",
+      "Lineages: reparations economics (Coates/Darity-Mullen/Hamilton/Conley), Pistor's six modules, public-choice (Buchanan/Tullock), Christophers price-formation"
+    ],
+    "reveal_reserved": [
+      "The formula / Cost Internalization Theorem (CIT) \u2014 fully reserved",
+      "Full apparatus: Four Gates, Three Ways as named taxonomy, Hotelling Identity, ARR, S_max<=1 generalization \u2014 fully reserved",
+      "Entire synthetic quantitative canon: carbon $496, total $510, floor $504\u2013518, RCV-model $580\u2013620, IPG multiples, mine-mouth $4.50, SCC $190, factor 2.61 \u2014 none exposed (only case-level documented figures used)",
+      "Pigou B<RCV explicit comparison and Ostrom renewable/non-renewable contrast \u2014 reserved (absent by name)",
+      "FLAG: the Foreclosure etymology pun (forclore/to-bar-from) is PERFORMED in-essay \u2014 confirm whether this was a reserved book-first payoff"
+    ],
+    "reveal_pct": "Landing-point map ~55-60% exposed; marquee cases ~70% (broadest case-reveal of any single essay); apparatus/formula ~10% (only the two bonds + Hartwick rule; zero quantitative core)",
+    "reserved_payoffs_intact": true,
+    "sharpening_opportunities": [
+      "HIGHEST VALUE: name the structural anchor \u2014 add one paragraph after 'the mechanism is the same' invoking Polanyi (fictitious commodities) and Fraser (social reproduction) naming what reef/atmosphere/community/labor/future-generation share; converts the strongest implicit move into the strongest explicit contribution and closes the portfolio's biggest gap",
+      "Stage the Pigou/Ostrom extension: two sentences \u2014 Pigou taxed the externality but assumed the toll equalled the harm; Ostrom solved the renewable commons but the foreclosed commons here is non-renewable with no future party at the table",
+      "Name the conservatism: one clause stating the accounting is a floor by construction (downward-biased, holds across the discount-rate spread) \u2014 pre-empts overcounting + numbers-invented objections",
+      "Name the concealment taxonomy (LP N): label the space/time/financial-instrument/statute series as 'four covers' the severance hides behind",
+      "Add a falsifiability/boundary line (LP L+M): the instruments fire only when CS>0; where documented costs do not exceed captured value there is no gap \u2014 pre-empts unfalsifiable + too-statist",
+      "Genericize the dead-venue tell 'two traditions BR readers will recognize' for Public Books"
+    ],
+    "crisp_articulations": [
+      "An externality names a cost that falls outside a transaction; cost severance names the legal architecture that put it there, and the power asymmetry that keeps the cost-bearer from refusing it.",
+      "What happened at Libby was not a moment. It was an architecture.",
+      "TARP is the wrong unit of measure.",
+      "Cost-severance accounting does not replace this analysis. It prices what the rent-seeking buys.",
+      "The architecture knows how to tag cost to value. It simply does so incompletely, and the incompleteness is where the severance lives.",
+      "Tractability is not the absence of severance. It is severance proceeding on schedule.",
+      "It is the claim that taught the method how to count, and extending the method to asbestos and oil takes nothing from it.",
+      "A future generation is, in the most literal sense, dominated by the present one. It cannot contest the decisions being made on its behalf.",
+      "What is engineered can be engineered differently."
+    ],
+    "figure_drift": [
+      "No synthetic-canon drift: none of the canonical per-unit figures (carbon $496, total $510, RCV $580\u2013620, IPG multiples, mine-mouth $4.50, SCC $190, factor 2.61, closure-decade) appear \u2014 all fully reserved, so no drift possible",
+      "Norway: essay uses '>$2T / >$390K per citizen' = CORRECT current NBIM; manifest documents this was a corrected cross-corpus drift (BR draft once had stale $1.9T/$340K; Ch 4 carries $360K). Essay now matches Atlantic essay; residual is a book-side reconciliation item (book-amendment Candidate 3), not an essay defect",
+      "2008: '10M foreclosure filings / ~5M lost homes' consistent; Pass 3.1 caught and fixed a filings-vs-completed conflation \u2014 now clean",
+      "Case figures (Libby 40:1/>$4B/~$100M/400+ deaths/40-80x; Deepwater 40%/$60B/>$150B/Mexico ~$25M; $16T GAO; $700B TARP; $44B Black Lung; $5.1B trust debt; $4-6B reclamation) all internally consistent and manifest-tracked",
+      "Open items are \ud83d\udd0e primary-pin fact-checker tasks (Libby human toll to ATSDR/EPA; IRC \u00a74121; GAO-11-696; Hartwick AER venue), not drift"
+    ],
+    "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/deep-pass/essay-public-books-deeppass_2026-06-04.md"
+  },
+  {
+    "essay": "100-barrel",
+    "venue": "Phenomenal World (submitted)",
+    "draft_read": "/Users/c17n/commons-bonds/publishing/essays/100-barrel/essay.md (read from origin/main via git show)",
+    "placement_status": "SUBMITTED 2026-06-03 to Phenomenal World (pitch emailed by author; portfolio submission #2 after Boston Review). Confirmed in rigor/stage-5-signoff-new-pipeline_2026-06-03.md \u00a76. README is stale (reads RATIFIED-AWAITING-SUBMIT, dated 2026-05-25, pre-new-pipeline); the new-pipeline Stage 5 sign-off is authoritative.",
+    "contribution_made": [
+      "META-CLAIM 3 (measurement not new diagnosis; conservative by construction; non-aligned vs Stern/Nordhaus) \u2014 STRONGLY MADE, the essay's signature; the 'empty plot / nobody built on it' device + the sunlight falsifiability proof",
+      "META-CLAIM 2 (configurational novelty) \u2014 MINIMALLY surfaced: only the Three Ways typology is load-bearing; CIT/Four Gates/Two Instruments/Hotelling Identity/ARR/formula all reserved; Pigou+Ostrom-extended-into-extraction present in substance",
+      "META-CLAIM 1 (Polanyi/Fraser structural unification of the fictitious commodity) \u2014 NOT MADE; Polanyi and Fraser both absent; the matrix's top contribution + biggest gap is left unaddressed",
+      "Cost-severance mechanism stated jargon-free ('no way to send the bill back')",
+      "Residual commons value as a missing balance-sheet line that sits OUTSIDE the discount-rate axis"
+    ],
+    "landing_points_carried": [
+      "A contribution/positioning",
+      "B core-claims",
+      "D limits",
+      "E worked-demos (Norway + Niger Delta; Stern/Nordhaus century illustration)",
+      "F originality/credibility",
+      "H values/emotional",
+      "I audience (center-right Condition-1 disarming distributed)",
+      "K reader-takeaway ('stop writing zero')",
+      "L falsifiability (sunlight ~zero proof \u2014 strongest in portfolio)",
+      "M domain/boundary (Three Ways spine)",
+      "O stakes/why-now (pitch sharper than essay)"
+    ],
+    "landing_points_missed": [
+      "C objections \u2014 PARTIAL: substitution/discount-rate/Sandel/too-statist engaged, but Coase-by-name, just-Pigou/double-count, Ostrom-did-it-by-name, financialization/Pistor, Fraser-absent, Public-Choice/capture, non-identity, ESG-capture, numbers-invented, Simon-Ehrlich all unengaged or substance-only",
+      "G human/narrative-spine \u2014 PARTIAL: no authorial/personal spine (deliberate for PW)",
+      "J citations+gaps \u2014 PARTIAL: named works well-cited but GAP-cells (Polanyi/Fraser/Pistor) absent rather than flagged-as-gaps",
+      "N concealment-taxonomy \u2014 PARTIAL: only cost-severance cover deployed",
+      "P comps/market \u2014 pitch only (essay-appropriate)"
+    ],
+    "positioning_quality": "High where present, but coverage-limited. Where the essay names a work it positions with genuine add/parallel/extend precision, not summary \u2014 the Ostrom (parallel/extend: renewable-only), Hartwick ('saves the proceeds, not the resource'), Daly ('warning not invoice'), Rawls (operationalize), Sandel and Parfit (future-obligation convergence) treatments each state the prior work's boundary and the specific unbuilt piece. The 'lineage of near-misses / empty plot' is a reusable, elegant positioning architecture. Weakness is coverage not quality: Polanyi/Fraser (structural anchor), Harvey (mechanism-diagnostician), Darity/stratification (backward Restitution + divided-stakeholder), Pistor (financialization), Hotelling/Pigou/Coase (executed in substance but not named) are all absent \u2014 and the matrix flags several as the framework's largest contributions/gaps.",
+    "reveal_revealed": [
+      "Residual commons value (by name, as a balance-sheet line)",
+      "Three Ways typology (renewable/non-renewable/non-depletable) in full",
+      "Cost-severance mechanism stated plainly",
+      "Norway GPFG + Niger Delta paired institutional demonstration (Norway as Hartwick's-rule-made-real; cross-partisan durability)",
+      "Lineage-of-near-misses positioning map (Marx/Ostrom/Daly/Hartwick + Rawls/Sandel/Parfit + Stern/Nordhaus/Weitzman)",
+      "Sunlight/wind falsifiability proof (non-depletable returns ~zero)",
+      "Rawlsian generational-veil operationalization",
+      "RCV-sits-outside-the-discount-rate-axis structural claim"
+    ],
+    "reveal_reserved": [
+      "The formula (only 'worth of what is permanently foreclosed' prose)",
+      "Title-pun / Commons Bonds signature payoff",
+      "Full integrated apparatus: CIT, Four Gates, Two Instruments, Hotelling Identity, ARR, S_max<=1",
+      "ALL canonical figures: carbon $496, total $510, floor $504-518, RCV-model $580-620, IPG multipliers, mine-mouth $4.50, SCC $190, McDowell factor 2.61, closure 'across the 1980s' \u2014 essay explicitly refuses the number",
+      "Backward Restitution arm + divided-stakeholder via stratification economics",
+      "Polanyi/Fraser fictitious-commodity unification (reserved by gap, not by design)"
+    ],
+    "reveal_pct": "~50-55% of the landing-point map (11 strong + 4 partial of 16), but only ~15-20% of the integrated apparatus machinery \u2014 the essay operates deliberately at the 'name the gap, refuse the number' altitude, leaving the quantitative payoff and configurational novelty almost entirely dark.",
+    "reserved_payoffs_intact": true,
+    "sharpening_opportunities": [
+      "Flag the GAP-cells as gaps rather than omitting: one sentence naming the foreclosed barrel + poisoned delta + displaced community + unborn generation as the SAME severed commodity (Polanyi/Fraser META-CLAIM 1) without revealing the apparatus",
+      "Name Coase and Pigou at least once \u2014 both moves are already executed in substance (no-escrow/future-can't-bid = Coase; whoever-creates-a-cost-bears-it = Pigou B<RCV); PW audience knows the names; converts implicit substance to explicit positioning (LP J)",
+      "Add the backward Restitution arm to the Niger Delta \u2014 the UNEP cleanup figure already on the page is a backward-Restitution number waiting to be named; brings in Darity/stratification divided-stakeholder",
+      "Make Weitzman's 'biases down' role explicit to reinforce conservative-by-construction (META-CLAIM 3) and pre-empt the overcounting objection by name",
+      "Pre-empt financialization/Pistor in one clause on the Norway-invested-abroad passage (fund is conversion-discipline, not financialization)",
+      "Pose the through-question 'Am I looking at the full honest accounting?' in the reader's own voice (self/community/country/colony) to tie essay to the book's organizing spine"
+    ],
+    "crisp_articulations": [
+      "It prices what is permanently removed, and the sun removes nothing.",
+      "Marx priced the surplus. Ostrom governed the renewable. Daly warned about the throughput. Hartwick saved the rent. Each of them stood near the empty plot. None of them built on it.",
+      "Hartwick saves the proceeds of the sale. The thing that was sold is not coming back.",
+      "Daly gives us the warning. He does not give us the invoice.",
+      "The discount rate is not a measurement of how much the future is worth. It is a decision about how much the future is worth, carried through the arithmetic as if it were a fact of nature.",
+      "It is a number the axis does not have a column for.",
+      "Someone creates a cost; someone else absorbs it; and the second party has no way to send the bill back to the first.",
+      "The residual commons value is not a slogan. It is a missing line on a balance sheet, and balance sheets do not have politics.",
+      "Norway built the escrow. Nigeria did not. The difference was a choice, and the choice was institutional, which means it was available to both.",
+      "We have been selling the barrel for the present's hundred dollars, writing zero in the column that should hold the rest, and calling the difference cheap. It was never cheap."
+    ],
+    "figure_drift": [
+      "No drift against the framework canonical set \u2014 all canonical figures (carbon $496, total $510, floor $504-518, RCV-model $580-620, IPG multipliers, mine-mouth $4.50, SCC $190, McDowell factor 2.61, closure across-the-1980s) are RESERVED INTACT; the essay refuses the number by design.",
+      "Norway fund 'well over two trillion / more than $390,000 per citizen' \u2014 consistent with new-pipeline fact-check; flagged in Stage 5 \u00a74 as an editor-freshness watch item ('\u2192 current NBIM at pub time'), not drift.",
+      "Ekofisk 'just before Christmas 1969' \u2014 this is the fix (corrected from prior 'three days before Christmas' error, web-verified), not drift.",
+      "Fiscal rule 'roughly three percent' \u2014 corrected from an earlier 4% error; consistent.",
+      "Stern '~1.5%' \u2014 Stage 5 \u00a74 pin notes vs canonical ~1.4% (author's call to tighten); minor precision flag, not framework-canon drift.",
+      "UNEP Ogoniland 'initial billion dollars / 25-30 years' \u2014 case figure traced to UNEP 2011, not framework canon."
+    ],
+    "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/deep-pass/essay-100-barrel-deeppass_2026-06-04.md"
+  },
+  {
+    "essay": "atlantic-ideas",
+    "venue": "Atlantic / Ideas",
+    "draft_read": "/Users/c17n/commons-bonds/publishing/essays/atlantic-ideas-pricing-honestly/essay.md (read from origin/main)",
+    "placement_status": "RATIFIED-AWAITING-SUBMIT (Amendment E new-pipeline cascade complete 2026-06-02; supersedes the 2026-05-27 Locked draft, now archived). Not yet submitted; submission gate author-controlled. README.md is stale (2026-05-28, ~4,275w/old-Locked); essay.md frontmatter + rigor/stage-5-signoff-new-pipeline_2026-06-02.md are authoritative. Body ~5,107w, 0 em-dashes.",
+    "contribution_made": [
+      "Meta-1 structural-commons/same-object: PARTIAL \u2014 same-object severance identity is the spine (McDowell coal = Darity $14T = Baotou/Niger/DRC = 'same kind of object'); four-traditions gloss positions it as explicit ADD ('none did X; that is the work this essay takes up'); but Polanyi reduced to one clause, fictitious-commodity vocabulary unused, FRASER ABSENT (matrix-flagged biggest gap, confirmed)",
+      "Meta-2 configurational novelty: MOSTLY RESERVED \u2014 appears only as the four plain-verb moves (Classify/Reserve/Invest/Border + Reassess close); CIT/Four Gates/Three Ways/Two Instruments/Hotelling Identity/ARR all withheld; novelty claim deliberately downscaled to 'connect the dots,' not a configurational-novelty claim",
+      "Meta-3 measurement-not-diagnosis + conservative-by-construction: measurement-not-diagnosis carried cleanly + explicitly (Harvey/Pistor/Ostrom/Raworth/Desmond/Susskind 'none ended the problem; each changed how we see it'); conservative-by-construction asserted bare ('conservative floor') but NOT mechanized \u2014 no Weitzman, no CS>0-across-Nordhaus-Stern, no discount-rate robustness",
+      "Through-question forward/backward single-ledger: CARRIED elegantly ('the same accounting that sees a bill before it comes due can also read one already overdue')",
+      "Key-works positioned explicitly: Coase (contradict/extend, named), Darity+stratification (backward-Restitution extend, named), Harvey (measures-the-mechanism, best-positioned), Susskind/Pistor/Ostrom/Olson/Buchanan-Tullock/Mian-Sufi (named). Reserved/absent: Pigou (concept, unnamed; B<RCV absent), Hotelling (implicit), Weitzman/Rawls/Parfit/Sandel/Fraser (absent), Mazzucato/Christophers (cover-letter cluster only / held out)"
+    ],
+    "landing_points_carried": [
+      "B core-claims",
+      "D limits (strong, honest)",
+      "E worked-demos (best-populated)",
+      "G human/narrative-spine (McDowell open+close)",
+      "H values/emotional",
+      "I audience (center-right Condition-1 held)",
+      "J citations+gaps",
+      "K reader-takeaway",
+      "O stakes/why-now"
+    ],
+    "landing_points_missed": [
+      "L falsifiability \u2014 no falsifiability framing; conservative-by-construction asserted not earned; unfalsifiable + numbers-invented objections not pre-empted",
+      "A contribution/positioning \u2014 PARTIAL; configurational-novelty claim downscaled to connect-the-dots",
+      "C objections \u2014 PARTIAL; financialization/Pistor, Fraser, overcounting, unfalsifiable, ESG-capture, Simon-Ehrlich, non-identity, discount-rate all unsurfaced",
+      "M domain/boundary \u2014 PARTIAL; Ostrom renewable-only vs framework-nonrenewable boundary not drawn",
+      "N concealment-taxonomy \u2014 PARTIAL; severance idea present, full taxonomy not deployed",
+      "P comps/market \u2014 PARTIAL; comps cluster lives in cover letter, not body"
+    ],
+    "positioning_quality": "Strong where it commits, deliberately soft where it reserves. The add/parallel/contradict/extend is EXPLICIT for the four-traditions gloss ('none put the parts on a single ledger... that is the work this essay takes up' = explicit add/extend), for Coase (explicit contradict/extend: future can't get to the table), for Harvey (explicit measures-the-mechanism-it-diagnoses), and for Public Choice (explicit complement-not-opponent). It is SUMMARY-ONLY or downscaled for the configurational-novelty claim (reduced to 'connect the dots') and for Polanyi/Daly/Hartwick (one-clause glosses). The conservative-by-construction claim is asserted but not positioned against the discount-rate literature. Net: a well-positioned contribution for a general-intellectual venue that deliberately trades apparatus-precision for accessibility, with two genuine positioning gaps (falsifiability/robustness of the number; Ostrom renewable-only boundary).",
+    "reveal_revealed": [
+      "Cases: McDowell coal arithmetic; Norway GPFG ($2T/$390K/3% rule); Alaska PFD; Mondragon (81/70K); Vienna Gemeindebau (1919/60%/1%); Chattanooga fiber; rare-earth reserve arithmetic; Lynas/MP Materials/South Korea/2010 Senkaku; CBAM; CRMA (34 materials); Baotou/Niger Delta/DRC offshored costs; Ogallala/North China/Guarani aquifers; 16 Psyche; Clarion-Clipperton; SPR; reclamation bonds; EIAs; US-2008-vs-Sweden (TARP/Mian&Sufi/Saltsjobaden/1992); tax-wedge 30v42; Berliner-Kenworthy; Darity $14T + JAMA longevity",
+      "Framings: the four moves; substitution gap (plain-English); cost-severance/design-not-accident; insurance logic of reserving; forward/backward single ledger; measurement-not-diagnosis (Harvey); Olson concentrated-vs-diffuse engine; Adam-Smith completion-of-the-market",
+      "Instruments as plain verbs: classification of irreplaceables; strategic reserves; substitution+supply investment; border adjustment; reassess/reanneal close"
+    ],
+    "reveal_reserved": [
+      "The formula / C_i / RCV (Reserved Conservative Value) computation \u2014 no equation, no RCV term, no B<RCV",
+      "The title-pun / 'Commons Bonds' double-meaning \u2014 essay titled 'Pricing Honestly'",
+      "Full named apparatus: CIT, Four Gates, Three Ways, Two Instruments, Hotelling Identity, Asymmetric Regret Rule, Foreclosure/Restitution/Accountability Bond names, 'existential substitutability gap' as term-of-art (brief 6 exclusion verified clean)",
+      "Fraser; Weitzman dismal-theorem; Rawls operationalization; Parfit non-identity; divided-stakeholder stratification mechanism; the concealment taxonomy"
+    ],
+    "reveal_pct": "~55-60% of the landing-point map (9 of 16 strong, 6 partial, 1 missed; weighted toward high-value cases E/O/through-question, away from reserved apparatus)",
+    "reserved_payoffs_intact": true,
+    "sharpening_opportunities": [
+      "Mechanize 'conservative by construction' (Meta-3, Pt L): one sentence on WHY the number is a floor \u2014 uses low-end carbon costs and still lands 100x \u2014 pre-empts unfalsifiable AND numbers-invented objections; biggest single gap",
+      "Name the renewable/nonrenewable boundary against Ostrom (Pt M, Meta-2): the 'you are mining it' line in Classify is the hook; one clause connecting it to Ostrom's renewable-only design principles makes the extend explicit",
+      "Surface one held-out objection \u2014 financialization/Pistor (Pt C GAP): convert Pistor from comp to interlocutor; disarms the Christophers/climate-finance Tier-2 reader",
+      "One clause on divided-stakeholder/stratification economics in the Darity passage to tie reparations to the structural claim",
+      "Promote one comp (Mazzucato value-creation) from cover letter into the body to complete the comps-as-positioning move (Pt P)"
+    ],
+    "crisp_articulations": [
+      "'The price was four and a half dollars. The cost was more than a hundred times that. The difference did not vanish. The value went to those who captured it. The cost went to the miner, the community, and the river.'",
+      "'It is not an accident or a scandal. It is a design... structurally indifferent to the costs that fall on people who are not at the table.'",
+      "'Each got part of what economics is for. None put the parts on a single ledger, carried it through to the resources that cannot be replaced, and made the result into something a government could act on.'",
+      "'Call the thing that separates these categories the substitution gap. It is the distance between a material and its nearest replacement, measured in time, money, and feasibility.'",
+      "'You buy cheap insurance against a downside bigger than you think.' / 'declining to dig, or declining to sell, which is the cheapest form of storage there is.'",
+      "'The same accounting that sees a bill before it comes due can also read one already overdue. Looking forward, it prices what has not yet been taken... Looking backward, it reads a cost already paid by the wrong people.'",
+      "'That number is the same kind of object as the gap between four dollars and five hundred: a cost severed from the people who captured the benefit and carried by the people who bore the harm.'",
+      "'What the framework offers is the ledger. What belongs on it, looking backward, is theirs to enter.'",
+      "'honest pricing is not a departure from the market he described. It is the completion of it. A price that reflects every cost is the price the market was always supposed to produce.'",
+      "'None of them ended the problem they described. Each of them changed how the rest of us could see and name and argue about it, which is the precondition for doing anything about it at all.'"
+    ],
+    "figure_drift": [
+      "essay.md BODY carries NO canonical figure drift: '$4.50' exact; 'more than five hundred dollars' / 'conservative floor' consistent with $504-518 floor + $510 total; 'more than a hundred times' correctly anchors to the ~122x public-cost multiple, NOT the 555x TA-only headline (conservative choice)",
+      "DRIFT FLAG (cover letter only, not essay body): cover-letter band '$520-600' / '$520 floor' loosely blends the ~$510 total floor with the $580-620 RCV-model (TA-only) ceiling into one band; essay body avoids this by using 'more than five hundred' language. Recommend pinning the cover-letter band before submission",
+      "Not surfaced (no drift): carbon-alone $496/$510 (essay says 'nearly all of it carbon', no number); SCC $190; factor 2.61 McD / 2.32-2.33 nat'l; closure 'across the 1980s' (Mountain Pass lapse not decade-pinned)",
+      "Pre-pub-queue figures (accurate, flagged for editor fact-check per Stage 5 4): JAMA 77.5/81.5; Darity $14T; rare-earth 30M/300K tons; Baotou 'approximately five square miles' (sources ~4.6); iron 'fourth most abundant'; 16 Psyche; Norway $2T/$390K; Alaska $85B/$1,000-1,702; Mondragon 81/70K; tax-wedge 30/42; carbon 80 instruments/28%"
+    ],
+    "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/deep-pass/essay-atlantic-ideas-deeppass_2026-06-04.md"
+  },
+  {
+    "essay": "foreign-affairs",
+    "venue": "Foreign Affairs",
+    "draft_read": "/Users/c17n/commons-bonds/publishing/essays/foreign-affairs-existence-proof/essay.md (read from origin/main)",
+    "placement_status": "RATIFIED READY-TO-SUBMIT (Stage 5 sign-off RATIFIED 2026-05-27; Stage 4 CLEAR offline; cover letter drafted ~736w). NOT YET SUBMITTED. Target submission window Q4 2026 / Q1 2027 per cascade plan v2 \u00a73 W2.3. Author-controlled submission gate open; NBIM figure-refresh + portal-preview are open pre-pub queue items.",
+    "contribution_made": [
+      "Meta-Claim 1 (structural-commons / fictitious-commodity): ENACTED across atmosphere + future-generation + community faces; never named (Polanyi/Fraser absent by design)",
+      "Meta-Claim 3 (conservative measurement): carried structurally via the limits architecture (bond never closes the full gap) + magnitude added to a structural diagnosis; conservatism implicit not flagged as virtue",
+      "Meta-Claim 2 (configurational novelty): deliberately SUPPRESSED to concept level (cost severance, RCV, accountability bond B, foreclosure component, externality tail) \u2014 on-spec",
+      "Hartwick: EXTEND/GENERALIZE positioned explicitly (runs Hartwick at sovereign scale; rule operates on consumption stream not stock)",
+      "Tooze: near-explicit EXTEND ('pointing at the asymmetry without naming an instrument that resolves it')",
+      "Pistor: PARALLEL via citation ('reads the same architecture from the legal-engineering side'); financialization objection gestured not engaged",
+      "Ostrom / Pigou / Coase / Darity-stratification: enacted but NOT named or positioned (latent EXTEND/CONTRADICT opportunities)"
+    ],
+    "landing_points_carried": [
+      "B core-claims (cost severance = RCV \u2212 bond, plain prose)",
+      "C objections (Norway-not-transferable engaged + inverted; structural-not-moral/prescriptive; too-statist defused; global-distributional/local-optimum)",
+      "D limits (EXEMPLARY four-limit \u00a7VI taxonomy)",
+      "E worked-demos (Norway + Niger Delta + US Social Security/Bismarck + McDowell)",
+      "I audience (tightly FA-calibrated; apparatus suppressed for the pool)",
+      "J citations+gaps (Hannesson, Pistor, Tooze, Hartwick, Sachs/CCSI, UNEP, NBIM AR)",
+      "K reader-takeaway (architecture is a choice; what was constructed once can be reconstructed)",
+      "M domain/boundary (local optimum not universal template; renewable-vs-non-renewable boundary)"
+    ],
+    "landing_points_missed": [
+      "A contribution/positioning \u2014 partial; no explicit 'what the framework adds to the literature'; positioned against national-success-story reading not the scholarly comps",
+      "F originality/credibility \u2014 credibility high but originality under-claimed behind concept-level reveal; reads as comparative-institutional analysis",
+      "G human/narrative-spine \u2014 weak; only Saro-Wiwa as human anchor (by design but thin)",
+      "H values/emotional \u2014 partial; restrained",
+      "L falsifiability \u2014 partial; testable contrast present but not flagged as a virtue",
+      "N concealment-taxonomy \u2014 partial; cost severance + transfer-pricing are concealment mechanisms but the 'covers' taxonomy not surfaced",
+      "O stakes/why-now \u2014 partial; implicit, no news-peg (appropriate for FA evergreen register)",
+      "P comps/market \u2014 MISS (correct for an essay but drags A/F)",
+      "Backward Restitution arm of the through-question \u2014 dropped (Niger Delta unpaid-compensation is restitution-owed but not connected to the instrument)"
+    ],
+    "positioning_quality": "Mixed and mostly ENACTED rather than POSITIONED. The structural-commons meta-claim is dramatized superbly but never stated as a contribution; Polanyi/Fraser/Harvey/Mazzucato/Christophers unnamed. Two relationships ARE positioned explicitly with add/extend language: Hartwick (generalize \u2014 sovereign-scale run + consumption-stream-not-stock limit) and Tooze (extend \u2014 names the asymmetry nobody has an instrument for). Pistor is a citation-parallel. The rest (Ostrom non-renewable boundary, Pigou B<RCV, Coase future-can't-bid, Darity divided-stakeholder) are enacted in the cases but the add/parallel/contradict/extend is left as summary/demonstration, not flagged. Strong on conservatism-by-construction as posture, weak on stating it as a positioning virtue.",
+    "reveal_revealed": [
+      "Cases: Norway/GPFG full architecture (intake, handlingsregelen, NBIM, ethics council, supermajority lock); Niger Delta/Ogoniland (UNEP, Saro-Wiwa); US Social Security 1935 vs Bismarck 1889; McDowell County; Alberta + Alaska as contrast foils",
+      "Framings: existence-proof framing; architecture-as-choice; structural-not-moral/prescriptive; same-crude-different-architecture; bond-large\u2192severance-small",
+      "Instruments (concept-level): cost severance; residual commons value (RCV); accountability bond B; foreclosure component; externality tail; Hartwick's rule named with consumption-stream-vs-stock distinction"
+    ],
+    "reveal_reserved": [
+      "The formula CS = RCV \u2212 B (stated only as a plain-prose sentence, never as an equation)",
+      "The title-pun / 'Commons Bonds' double-meaning resolution ('bond' used only in the financial accountability-bond sense)",
+      "Full apparatus: B\u2081/B\u2082 decomposition; Three Ways of Counting; Four Gates; CIT/Commons Inversion Test; C\u1d62 vocabulary; IPG; ARR; Hartwick identity (formal); Hotelling identity; Pattern 2 register",
+      "Backward-Restitution instrument (not gestured)"
+    ],
+    "reveal_pct": "~40-45% of the A-P landing-point map at usable depth (\u22487 LPs full, \u22486 partial, \u22483 weak/miss). Apparatus effective reveal \u226422%, verified at Pass 3.3 \u2014 diagnostic concepts revealed, machinery reserved.",
+    "reserved_payoffs_intact": true,
+    "sharpening_opportunities": [
+      "Name the Ostrom extension at concept level \u2014 foreclosure component IS the non-renewable boundary Ostrom's renewable-CPR work does not reach; one sentence converts an enacted move into explicit contribution (highest-value for A/F, no apparatus cost)",
+      "Generalize the Tooze line into the Meta-Claim 1 contribution \u2014 it is one half-clause from 'the critical tradition NAMES this severance; what it lacked is an instrument that prices and reserves it' (surfaces the ratified top move without naming Polanyi/Fraser)",
+      "Surface the backward Restitution arm \u2014 connect Niger Delta unpaid-compensation to a forward/backward honest-accounting symmetry (recovers LP H/N)",
+      "Flag conservatism as a credibility virtue \u2014 'the accounting here credits Norway with less than its defenders claim and still finds the gap large' (converts posture into positioning, LP F/L)",
+      "Add one human anchor in \u00a7IV beyond Saro-Wiwa to lift narrative spine (LP G) without breaking FA register"
+    ],
+    "crisp_articulations": [
+      "Whether cost severance is large or small in any given case is not a natural feature of the world. It is a policy choice.",
+      "Same physical resource, different architecture, different outcome \u2014 the choice is the thing.",
+      "An existence proof, in mathematics, does not specify how to construct what it proves possible; it establishes only that the thing can be done.",
+      "The financial instrument constructed to capture the rent of the physical resource has, in operational terms, outgrown the resource that created it.",
+      "[Hartwick's rule] operates on the consumption stream. It does not reconstitute the stock.",
+      "The next generation of Norwegians inherits a wealthier financial economy but a poorer geological one.",
+      "Cost severance in the Delta is large because the bond is small, not because Nigerian oil is somehow different in its physical or chemical character from Norwegian oil.",
+      "It sought out McDowell because the institutional protection was structurally easier to overwhelm. This is not a malfunction of the extraction economy; it is its operating principle.",
+      "[Tooze] has been steadily pointing at this asymmetry without yet naming an instrument that resolves it. The Norwegian case does not resolve it either. It only makes the asymmetry legible as architecture rather than as accident.",
+      "Norway's accountability bond is denominated in Norwegian-citizen claims; the climate externality runs to populations with no Norwegian citizenship."
+    ],
+    "figure_drift": [
+      "No drift against the canonical carbon/RCV-model set ($496 carbon, $510 total, $504-518 floor, $580-620 RCV-model, IPG 33-122x, $4.50 mine-mouth, $190 SCC, 2.61/2.32 factor, 1980s closure) \u2014 that set is INTENTIONALLY ABSENT (TA-only / mine-case figures reserved from this venue). No drift because not in scope.",
+      "Live figure-refresh gate (already tracked in Stage 5 pre-pub queue): NBIM AUM >$2T and derived ~$360k/citizen move with markets \u2014 needs refresh at submission window.",
+      "NBIM AR 2023 holdings counts (~9,000 companies / >70 markets) applied under hedged phrasing; precise-figure author nbim.no lookup deferred \u2014 open gate, tracked.",
+      "Norway design figures internally consistent and externally checkable: 70-80% intake; 3% draw (from 4% in 2017); founded 1990; GPFG rename 2006; Statoil\u2192Equinor 2018; ethics council 2004; handlingsregelen 2001; UNEP Ogoniland ~$1B / 25-30yr / 2011; Hartwick AER 1977 67:972-974 (verify page range at pre-pub). No drift detected."
+    ],
+    "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/deep-pass/essay-foreign-affairs-deeppass_2026-06-04.md"
+  },
+  {
+    "essay": "nyrb",
+    "venue": "New York Review of Books",
+    "draft_read": "/Users/c17n/commons-bonds/publishing/essays/nyrb-multi-book-review/essay.md (read from origin/main; LOCKED-CUT lead)",
+    "placement_status": "RATIFIED-AWAITING-SUBMIT \u2014 Stage 5 sign-off PASS 2026-05-27; full 5-pass cascade + Stage 4 + Stage 5 complete; cover letter RATIFIED. NOT submitted. Submission window Oct 8 \u2013 Nov 15 2026. One live OPEN-DECISION (OPEN-DECISION_2026-06-03.md): the \u00a7VIII closing return form + dedup of the final 4-5 \"what remains is construction\" paragraphs; variant fan archived; decision deferred to a live author session.",
+    "contribution_made": [
+      "Meta-claim 1 STRUCTURAL-COMMONS/FICTITIOUS-COMMODITY: PARTIAL \u2014 Polanyi named as lineage (clean parallel, \u00b617/\u00b693); coastline carries the same-object intuition implicitly but never generalizes to reef=atmosphere=community=labor=future-gen; the ratified top move (framework PRICES+RESERVES what the tradition only NAMED) appears only as an absence (essay refuses to be the thing that prices); FRASER ABSENT \u2014 confirms flagged GAP",
+      "Meta-claim 2 CONFIGURATIONAL NOVELTY: NAMED IN NEGATIVE \u2014 CIT/Four Gates/Three Ways/Two Instruments/Hotelling Identity/ARR all reserved (0 named terms); Three Ways surfaces almost verbatim \u00b6105; Ostrom parallel/extend (renewable-only, heterogeneity load-bearing) explicit \u00b635/\u00b693; Pigou B<RCV reserved; Hartwick named \u00b6107 but S_max generalization reserved",
+      "Meta-claim 3 MEASUREMENT-NOT-NEW-DIAGNOSIS, CONSERVATIVE-BY-CONSTRUCTION: STRONGLY EXPLICIT as posture (whole rhetorical spine is measurement-not-diagnosis; Christophers \u00b671 measures-the-mechanism landed) but conservative-by-construction PROOF reserved entirely (no SCC, no Weitzman, no Nordhaus-Stern bracket); non-aligned/structural-not-partisan is the most fully landed claim (\u00b6105 + cover letter)",
+      "Four reviewed authors (Pistor/Mazzucato/Christophers/Susskind) get textbook add/parallel/contradict/extend positioning; the location/activity/mechanism/metric synthesis (\u00b689/\u00b6101) is explicit and crisp",
+      "Framework's own key-works positioning (Pigou, Coase, Weitzman, Hartwick-generalization, Darity, Fraser) held in the negative \u2014 named as gaps, never as filled cells"
+    ],
+    "landing_points_carried": [
+      "C objections (STRONG \u2014 Coase-voluntary via NML, Ostrom-did-it \u00b635, intergenerational/discount \u00b697, too-statist \u00b6103, degrowth \u00b683/\u00b6103, Public-Choice complementary-not-competing \u00b6107, Norway-transferability via Hartwick/\u00d8rsted existence proofs)",
+      "D limits (STRONG \u2014 \u00b695-97 negative-space, \u00b635 Pistor scope-limit)",
+      "I audience (STRONG \u2014 17/17 INCLUDE; NYRB literary register sustained)",
+      "J citations+gaps (STRONG \u2014 dense accurate lineage; gaps named explicitly)",
+      "K reader-takeaway (STRONG \u2014 shape-of-what-is-missing close)",
+      "M domain/boundary (CARRIED \u2014 \u00b6103 four negative bounds)",
+      "N concealment-taxonomy/covers (STRONG \u2014 location/activity/mechanism/metric IS the covers map as spine)",
+      "O stakes/why-now (STRONG \u2014 diagnostic-vocabulary-becoming-available + 1936-48 mid-century-pivot analogy)",
+      "P comps/market (STRONG latent \u2014 four reviewed authors ARE the book's comp-titles)",
+      "B core-claims (PARTIAL \u2014 four-thinker synthesis carries it in books' vocabulary, framework core reserved)"
+    ],
+    "landing_points_missed": [
+      "L falsifiability (MISSED \u2014 framework concealed, nothing to falsify)",
+      "G human/narrative-spine (THIN \u2014 coastline only; no Fox Hill/biographical spine; by genre design)",
+      "A contribution/positioning (PARTIAL/UNDER-DEPLOYED \u2014 stated only as negative-space 'work that remains'; cover letter carries the real positioning, essay defers it; \u00b6107-109 nearly state not-philosophically-novel but stop short)",
+      "E worked-demos (PARTIAL \u2014 demos are the books' cases NML/Sovaldi/Brookfield/\u00d8rsted; framework's own dollar-cascade demo reserved)",
+      "F originality/credibility (PARTIAL \u2014 originality deferred to the book)",
+      "Fraser structural-anchor (MISSED \u2014 confirms flagged GAP; highest-value zero-payoff add)"
+    ],
+    "positioning_quality": "Bifurcated. For the FOUR REVIEWED AUTHORS positioning is excellent and fully explicit: the synthesis section (\u00b689, \u00b691, \u00b6101) maps location\u2192activity\u2192mechanism\u2192metric, argues each book is weaker without the others, and uses the 1936-48 mid-century-pivot analogy as the why-now. This four-thinker synthesis is the crispest core-claim articulation in the corpus. But for the FRAMEWORK's own contribution cells the positioning is by IMPLICATION only \u2014 add/parallel/contradict/extend against Pigou/Coase/Weitzman/Hartwick-generalization/Darity/Fraser is held in the negative, named as gaps the books leave rather than as the author's filled cells. This is correct for the concealment posture but means the matrix's biggest move (price-and-reserve the commodification the tradition only named) lands as an absence, not a claim. Ostrom (parallel/extend, heterogeneity) and Polanyi (lineage parallel) are the two cleanly-explicit framework-relevant positionings.",
+    "reveal_revealed": [
+      "Four-faces diagnostic shape (location=legal modules / activity=value-extraction / mechanism=price\u2260profit / metric=growth) as the structure of 'costs capitalism does not pay for'",
+      "Structural-not-partisan posture = Three Ways, almost verbatim \u00b6105 (regulatory caution / market discipline / worker-citizen solidarity)",
+      "Ostrom heterogeneity / divided-stakeholder scope-limit \u00b635",
+      "Intergenerational-pricing-gap framing + backward(reparations)/forward(civic-republican) two-instrument shape, named in the negative \u00b697/\u00b6103/\u00b6107",
+      "Institutional-templates existence-proof set: Norwegian SWF + Hartwick rule + US coal/offshore bonded-coverage + \u00d8rsted/Energiewende/Spanish solar",
+      "Lineage map (Polanyi/Harvey/Ostrom/Raworth/Daly) as intellectual ancestry",
+      "Configurational-novelty claim in plain language ('instruments conventional in components; what is new is the willingness to assemble' \u00b6109)"
+    ],
+    "reveal_reserved": [
+      "The formula / Hotelling Identity / RCV computation \u2014 fully reserved (0 figures)",
+      "Title-pun + signature framework terms (CIT, Four Gates, Three Ways, Two Instruments, ARR) \u2014 fully reserved (0 named terms)",
+      "Full apparatus: Pigou B<RCV, Weitzman-biases-down, CS>0 across Nordhaus-Stern, Hartwick S_max\u22641 generalization, conservative-by-construction proof",
+      "The 'same object' generalization (reef=atmosphere=community=labor=future-gen) \u2014 only the single coastline shown",
+      "Fox Hill / Chesapeake / personal narrative spine (genre)",
+      "All canonical figures: carbon $496, total $510, floor $504-518, RCV $580-620, IPG multiples, mine-mouth $4.50, SCC $190, factor 2.61/2.32-2.33"
+    ],
+    "reveal_pct": "~6% of the framework apparatus (per README/Stage 1 brief \u00a78.1, concept-level only); against the A-P landing-point map roughly 35-40% exposed (diagnosis, covers-taxonomy, objections, limits, comps, stakes, structural-not-partisan) with the contribution's positive content (formula, figures, named config, worked demo, falsifiability) reserved. Asymmetry is the design: HIGH reveal of problem-shape, NEAR-ZERO reveal of solution-mechanism.",
+    "reserved_payoffs_intact": true,
+    "sharpening_opportunities": [
+      "FRASER is the highest-value add (closes corpus's biggest flagged gap; NYRB reads social-reproduction work; one paragraph threading Fraser's update of Polanyi into the \u00b693 lineage \u2014 pure upside, no payoff leaked)",
+      "Make the 'same object' insight do one more turn: a single synthesis sentence noting the same capture/cost separation recurs across reef/atmosphere/community/labor/unborn-generation, without naming the framework \u2014 lands Meta-claim 1 harder",
+      "Name conservative-by-construction once in the negative: the missing instrument, were it built, would bias estimates DOWNWARD (floor not advocacy number) because the diagnostic literature earns trust by under-claiming \u2014 imports Weitzman/Nordhaus-Stern discipline as a design requirement with no figure revealed",
+      "Name Coase (future can't bid) and Parfit (non-identity) once each \u2014 both already present in the negative \u00b697 but un-attributed; sharpens the intergenerational-gap diagnosis and pre-empts the non-identity objection at zero payoff cost",
+      "LP-A is deferred too completely: tighten \u00b6107-109 into one explicit reviewer's-own sentence that the missing instrument is NOT philosophically novel (components conventional) and 'what is new is the willingness to assemble' \u2014 carries contribution-positioning without breaking concealment",
+      "Resolve the OPEN-DECISION toward the single-anchor locked-cut close + CUT the redundant final 4-5 'what remains is construction' paragraphs (the real redundancy per OPEN-DECISION_2026-06-03) \u2014 pure tightening of LP-K, no payoff at stake"
+    ],
+    "crisp_articulations": [
+      "FOUR-THINKER SYNTHESIS (crispest core-claim articulation in corpus \u2014 harvest verbatim): 'Where Pistor names the legal location, Mazzucato the diagnostic frame, and Christophers the pricing mechanism, Susskind names the aggregate metric against which the activity has been judged' (\u00b689) + the \u00b6101 companion mapping the instruments back onto all four",
+      "'A systematic separation between those who capture the value a transaction produces and those who bear the costs the transaction also produces' (\u00b615) \u2014 cost-severance core in one audience-neutral sentence",
+      "'The clearing of the price is downstream of the coding of the asset. The asset's character was decided before the market opened, often centuries before, in the chambers where the lawyers do their work.' (\u00b611)",
+      "'The water has not changed. The architecture around the water has' (\u00b69) + 'The fact of the architecture's contingency is what the four books cumulatively make impossible to overlook. The fact of its engineering is what makes its redesign conceivable' (\u00b6113) \u2014 engineered-not-natural thesis",
+      "Three Ways without the label (\u00b6105): 'whether the architecture were reached from regulatory caution... from market discipline that priced what the current pricing mechanism fails to price, or from worker and citizen solidarity that demanded the cost-bearing side of the ledger be honored'",
+      "'The instruments would be conventional in their components. What is new is the willingness to assemble the components into an architecture' (\u00b6109) \u2014 configurational-novelty in two sentences, no named term",
+      "1936-48 mid-century-pivot analogy (\u00b691): the four books do for contemporary political economy what The General Theory / The Great Transformation / The Road to Serfdom did for the previous moment \u2014 make a vocabulary available without which the next step cannot be taken (why-now + comp framing)"
+    ],
+    "figure_drift": [
+      "No drift to report and that IS the finding: 0 framework figures present by design (concealment posture). None of the canonical set can drift \u2014 carbon $496/total $510/floor $504-518/RCV $580-620 NOT present (reserved); IPG 33-122x/~50x/555x NOT present; mine-mouth $4.50/SCC $190/factor 2.61 McD/2.32-2.33 nat'l/closure-across-1980s NOT present. Figure-discipline CLEAN.",
+      "Only external figures carried are the reviewed books' own (must track source books, not Commons Bonds canon): Sovaldi $84,000/12-week course \u00b645 (Mazzucato/Gilead \u2014 on Stage 5 fact-check checklist); renewable shortfall 'factor of three or four' \u00b659 (Christophers); 'more than a billion out of extreme poverty 1980-2020' \u00b679 (Susskind); two-and-twenty / 'hundreds of billions' \u00b649 (Mazzucato)",
+      "Date-precision note (not a canonical-figure drift): locked cut keeps NML Capital 'early 2010s' \u00b629 (pari passu order ran 2012-2014); fresh-draft variant drops it. Recommend adding the NML date to the Stage 5 verbatim-quote source-citation checklist alongside the Pistor/Mazzucato/Christophers quotes."
+    ],
+    "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/deep-pass/essay-nyrb-deeppass_2026-06-04.md"
+  },
+  {
+    "essay": "atlantic-main",
+    "venue": "Atlantic (Chesapeake watermen)",
+    "draft_read": "origin/main:publishing/essays/atlantic-main-chesapeake-watermen/essay.md (V-D HYBRID canonical cut, ~6,617w body; the more-developed of essay.md [7,808w] vs _archive/fresh-newpipe-draft_2026-06-03.md [6,611w])",
+    "placement_status": "RATIFIED-AWAITING-SUBMIT. Stage 5 sign-off RATIFIED 2026-05-27; V-D HYBRID promoted to canonical 2026-06-01 (commit 41839ef); Stage 5 V-D light re-sign-off RATIFIED 2026-06-01; cover letter DRAFTED (~709w, awaits author final-ratification). Submission window Q4 2026 per cascade plan v2 W2.1. NOT submitted, not placed, not declined.",
+    "contribution_made": [
+      "META-CLAIM (1) structural-commons/fictitious-commodity: CARRIED by inhabitation, not named -- reef/community/body/future/foodweb shown absorbing one uncounted cost; 'The product is the thing the market priced. The practice is the thing the market did not.' Polanyi/Fraser absent by brief design (GAP exposed only as phenomenon, never as lineage).",
+      "META-CLAIM (2) configurational novelty: RESERVED almost entirely -- no CIT/Four Gates/Three Ways/Two Instruments/Hotelling/ARR. Settings populated (menhaden = divided-stakeholder commons via stratification; watermen = would-be-Ostrom community architecture cannot incorporate) but config held back; non-renewable foreclosure carried only by coal analogy.",
+      "META-CLAIM (3) measurement-not-new-diagnosis, conservative-by-construction: PARTIAL -- additive-to-tradition framing ('what I want to add here is what came after Warner') + non-aligned structural-not-partisan posture carried; Weitzman down-bias / Harvey-measures-the-mechanism / SCC magnitude RESERVED.",
+      "Backward/Restitution worked case (Darity/stratification extend): the deferred-moral-weight, cost-carried-forward intuition is the essay's spine (\u00a7VII-\u00a7VIII); Darity unnamed, 'Restitution' instrument label reserved.",
+      "All named-work positioning cells (Hotelling/Pigou/Coase/Ostrom/Hartwick/Weitzman/Rawls/Daly/Harvey/Darity/Polanyi/Fraser/Pistor/Mazzucato/Christophers/Susskind/Parfit/Sandel) RESERVED -- no explicit add/parallel/contradict/extend in body by design."
+    ],
+    "landing_points_carried": [
+      "A (partial -- contribution positioned vs Chesapeake regional scholarship, not vs economics literature)",
+      "C (objections -- \u00a7VIII explicit-meta structural-not-partisan disarming move; cross-aisle Eskridge+Harris pairing engages too-partisan/coercion-flattening/capture)",
+      "E (worked demos -- 5 fishery cases + 4-island fabric + anonymized portrait + McDowell parallel; densest case instrument in portfolio)",
+      "G (narrative spine -- Biggie scene-anchor, man-two-slips-over bookend, crabber-mechanic)",
+      "H (values/emotional -- 'Biggie's motion died with him'; 'It is not yet the day he could have had')",
+      "N (concealment-taxonomy as phenomenon -- 'the column where it would be visible'; 'kept the stories in different rooms'; 'used to keep the shape hidden')",
+      "O (stakes/why-now -- rockfish 2.0 vs 11.0; crab 238M; O'Connor petition + 6-2 vote; MD disaster declaration)",
+      "M (domain/boundary -- McDowell 'same shape different geography' cross-extraction generalization)",
+      "B (weak/diffuse), F (partial -- place-credential + 16 named voices), I (Pass 3.3 PASS / 3.4 ROBUST), K (felt takeaway), P (carried in COVER LETTER only -- Coates/Wallace-Wells/McKibben/Kolbert/Swift/Horton/Warner comps)"
+    ],
+    "landing_points_missed": [
+      "D (limits -- essentially absent; no scope conditions / what-it-cannot-price)",
+      "J (citations+gaps -- no theoretical citations; Polanyi/Fraser GAP and Pistor financialization GAP entirely absent in body, correct for venue but a true matrix miss)",
+      "L (falsifiability -- not carried; no 'what would prove this wrong')",
+      "P-in-body (comps appear in cover letter, not essay prose)",
+      "All theoretical-lineage positioning (no named add/parallel/contradict/extend)",
+      "META-CLAIM (3) quantitative half (conservative-by-construction posture present but the numbers backing it are absent)"
+    ],
+    "positioning_quality": "Demonstration without positioning, by deliberate Stage 1 brief design (apparatus-zero). The essay PROVES claims a reader could attach Polanyi/Pigou/Coase/Darity to, but makes zero explicit attachment -- there is essentially no add/parallel/contradict/extend in the body. The one clean positioning move is journalistic-tradition-level ('what I want to add here is what came after the decline Warner watched begin'), positioning vs Chesapeake regional scholarship rather than the economics literature. Correct/optimal for Atlantic features readership; means 100% of theoretical-lineage positioning is reserved. The cover letter carries the only near-explicit framework-contribution sentence ('a formal framework for pricing the intergenerational costs that resource-extractive systems systematically sever').",
+    "reveal_revealed": [
+      "Cases: oyster collapse (15M->under-200K, ~99%), rockfish moratorium+second decline (YOY 2.0 vs 11.0), shad closure 1994, blue crab 238M (2025), full menhaden divided-stakeholder case (51k metric ton cap, $3M VIMS study unfunded, O'Connor 349-page petition + 3 public-trust cases + 1,266 comments + 6-2 vote), four-island fabric (Tangier/Smith/Tilghman/Hampton), anonymized crabber-mechanic two-jobs portrait, McDowell County coal parallel",
+      "Framings: structural-commons object-fusion (reef=community=body=future=foodweb absorbing one cost); cost-severance metaphor ('the column where it would be visible', 'the body has been the cushion'); divided-stakeholder 'different stories in different rooms' stratification mechanism; structural-not-partisan non-alignment posture; data-absence-as-architecture-failure (menhaden); recovery-without-the-watermen paradox (MD oyster)",
+      "Instruments: NONE by name -- cost-severance revealed only as prose intuition"
+    ],
+    "reveal_reserved": [
+      "The formula -- fully reserved, absent in any form",
+      "The title-pun (Commons Bonds) -- not deployed; title is 'What the Bay Knows About Us'",
+      "Full named apparatus -- CIT, Four Gates, Three Ways, Two Instruments, Hotelling Identity, ARR, Ci vocabulary, Greek letters",
+      "The 'Restitution' instrument label and backward-accounting machinery (intuition carried, named instrument reserved)",
+      "All theoretical-lineage positioning (Polanyi/Fraser/Pigou/Coase/Ostrom/Hotelling/Hartwick/Weitzman/Rawls/Daly/Harvey/Darity/Pistor/Mazzucato/Christophers/Susskind/Parfit/Sandel)",
+      "All canonical quantitative figures ($496/$510/$504-518/RCV $580-620/IPG multipliers/$4.50 mine-mouth/$190 SCC/2.61/2.32) -- none present"
+    ],
+    "reveal_pct": "~40-45% of the landing-point map. Full strength on E/G/H/N/O + meta-claim-1-as-phenomenon + A-partial; reserves entire theoretical apparatus, all positioning, formula, title-pun, limits, falsifiability, quantitative spine. By meta-claim: (1) ~70% as-phenomenon/0% as-lineage; (2) ~20% (settings populated, config reserved); (3) ~40% (posture revealed, apparatus reserved).",
+    "reserved_payoffs_intact": true,
+    "sharpening_opportunities": [
+      "Tighten the backward/Restitution beat in \u00a7VII -- one plain sentence making deferred-moral-weight explicit (cost not just unpaid but carried-forward, accumulating on someone else's body) would make this unmistakably the Restitution case without naming the instrument",
+      "Link the \u00a7V menhaden divided-stakeholder structure (operator vs recreational fishery vs foodweb) explicitly to the \u00a7VIII 'different stories in different rooms' mechanism, so the stratification pattern is shown operating WITHIN the bay, not only across bay-vs-coal",
+      "Cover letter could carry the one PRICES-AND-RESERVES positioning sentence the body cannot (it prices+reserves what the diagnostic tradition only named) -- the single most book-distinctive contribution claim, statable to an editor without violating body apparatus-zero",
+      "Falsifiability/limits (D,L) absent -- not a body fix (wrong register) but flag that a sibling essay must carry the conservative-by-construction + falsifiability load this one drops",
+      "Atmosphere member of the structural-commons set is the weakest leg (only Colden warming quote + McDowell carbon analogy); one sentence tying bay warming into the same uncounted-cost ledger would complete the object-fusion, but low priority (register-drift risk)"
+    ],
+    "crisp_articulations": [
+      "'The product is the thing the market priced. The practice is the thing the market did not.' (\u00a7VI) -- fictitious-commodity/commodification-limit claim in nine words",
+      "'The cost did not vanish because the price did not include it. The cost was paid. It was paid by people whose books did not record the payment in the column where it would be visible.' (\u00a7VII) -- cleanest plain-prose cost-severance / B<RCV statement in corpus",
+      "'The watermen carry the data. The regulatory system carries the authority. The two have, for forty years, been failing to find each other.' (\u00a7I) -- Ostrom-community-vs-architecture gap",
+      "'Each of them has been given an enemy who is, in fact, the other one... keeping the stories in different rooms.' (\u00a7VIII) -- stratification/divided-stakeholder mechanism as narrative",
+      "'Naming the shape does not require choosing a side in the partisan fight; it requires noticing that the fight has been used to keep the shape hidden.' (\u00a7VIII V-D close extension) -- most portable non-alignment disarming-move line in the portfolio; belongs in book framing chapter",
+      "'The body has been the cushion. The second job has been the cushion.' (\u00a7VII) -- who-absorbs-the-severed-cost rendered concretely",
+      "'The recovery did not come back to them.' / 'The population came back to a market the watermen were already losing.' (\u00a7VII) -- recovery != restitution; worked illustration of the backward/Restitution distinction"
+    ],
+    "figure_drift": [
+      "ZERO drift against canonical framework figures -- $496/$510/$504-518/RCV $580-620/IPG/$4.50/$190 SCC/2.61/2.32 are all correctly absent per apparatus-zero brief (not in scope)",
+      "Empirical Chesapeake case figures internally consistent (oyster 15M->under-200K ~99% across \u00a7II/\u00a7IV; rockfish YOY 2.0 vs 11.0; crab 238M 2nd-lowest since 1990; menhaden 51k MT cap / $3M study / 349-page petition / 1,266 comments / 6-2 vote; Tangier ~2 sq mi / ~15 ft-yr erosion / inhabited since 1770s)",
+      "Bookkeeping nit only: front-matter ~6,617w vs README ~6,590w (V-D +25w close extension; reconciled in front-matter)",
+      "Named-subject count drift (15->16) was a confirmed prior error, now corrected across all three sites per F-COV-L2 (2026-06-01)"
+    ],
+    "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/deep-pass/essay-atlantic-main-deeppass_2026-06-04.md"
+  },
+  {
+    "essay": "harpers",
+    "venue": "Harper\\u2019s (The Miner)",
+    "draft_read": "origin/main:publishing/essays/harpers-the-miner/essay.md (7,233w body, V-D hybrid promoted to canonical 2026-06-01)",
+    "placement_status": "RATIFIED READY-TO-SUBMIT 2026-05-27 (stage-5-signoff.md); V-D hybrid promoted to canonical 2026-06-01 (README). NOT yet submitted \u2014 Harper's Q4 2026 (Oct-Nov) window per cascade plan v2 Phase 2-beta; submission gate author-controlled. No decline/placed markers.",
+    "contribution_made": [
+      "META-CLAIM 1 (structural-commons / fictitious-commodity): made explicit + strongly via the four-column ledger (health/land/community/children) as ONE structural object + 'four severances in a row' \u2014 but Polanyi/Fraser never named; positioned as 'extend Mazzucato into physical-resource domain' rather than 'the diagnostic tradition NAMED this; framework PRICES+RESERVES it'. The ratified biggest gap is structurally embodied here.",
+      "META-CLAIM 3 (measurement not new diagnosis; conservative by construction): explicit + well-positioned \u2014 'extend her diagnosis into the physical-resource domain' (add=magnitude); 33x floor 'nobody serious disputes' + 'magnitude is in the book' (direction-certain, magnitude-reserved).",
+      "META-CLAIM 2 (configurational novelty: CIT/Four Gates/Three Ways/Two Instruments/Hotelling/ARR): deliberately WITHHELD; rendered only as a silhouette \u2014 the SVIII 'legal modules' kit (trust/bond/levy/corporate-liability-extension/cross-border) named but never assembled.",
+      "Pigou extend (B<RCV): demonstrated empirically \u2014 black-lung excise tax named 'classic Pigouvian framing', shown structurally insufficient (45 deficit years) \u2014 but B<RCV never formalized.",
+      "Mazzucato (extend) + Harvey (extend, measures-the-mechanism-it-diagnoses) + Eller (parallel/lineage) + Hamby + Keefe + Catte (parallel, cultural-narrative register): all explicit and positioned.",
+      "THROUGH-QUESTION ('full honest accounting?'): carried explicitly \u2014 backward/Restitution axis (unpaid bill) dominant; forward/decision axis via SVIII; 'severing costs I'm not counting?' = the four-severances passage."
+    ],
+    "landing_points_carried": [
+      "A contribution/positioning (extend-Mazzucato/Harvey, explicit)",
+      "B core-claims (cost severance / severed cost / value extraction / spatial cost severance defined in plain prose)",
+      "C objections (partial-strong; non-partisan disarm SVIII line 159 is textbook Condition-1)",
+      "E worked-demos (four-column ledger IS the demo + Purdue second-cycle)",
+      "F originality/credibility ('vocabulary not original to me')",
+      "G human/narrative-spine (strongest in portfolio \u2014 Bailey, Latusek, Kennedy)",
+      "H values/emotional (Latusek grammatical-indictment reading)",
+      "K reader-takeaway ('has not yet been built. We have not yet started')",
+      "N concealment-taxonomy/covers (strongest in portfolio \u2014 cultural-pathology cover named + dismantled via Purdue target-map; four severances)",
+      "O stakes/why-now (opioid second cycle; resurgent black lung; food stamps again)"
+    ],
+    "landing_points_missed": [
+      "L falsifiability \u2014 essentially absent in-essay; 'nobody serious disputes the floor' is appeal-to-authority not a testable bound; clearest dropped landing point",
+      "J citations+gaps \u2014 gap-acknowledgment lives only in cover letter / Stage 5 queue, not signaled in-essay",
+      "D limits \u2014 only gestured ('what cannot be priced'); framework limit conditions not surfaced (register-appropriate)",
+      "M domain/boundary \u2014 domain-generality stated (not industry-specific; Niger Delta/Zambia/W.Africa) but boundary CONDITIONS (where it does NOT apply) absent",
+      "Polanyi/Fraser fictitious-commodity ANCHOR under-deployed \u2014 the four-column ledger already IS this claim but it is never named, so the add is positioned vs Mazzucato only, not vs the diagnostic tradition",
+      "Pistor/financialization \u2014 shown 4x (corporate-shell dissolution, Sackler $11B pre-bankruptcy, Big Three $865M transfer) but never named as ONE mechanism",
+      "Ostrom contrast (non-renewable foreclosure / renewable-only) \u2014 implicit across the arc, never positioned",
+      "Coase (future can't bid) + Darity/stratification + Parfit + Sandel \u2014 thematically present, unpositioned at name level"
+    ],
+    "positioning_quality": "Strong on the extend-Mazzucato/Harvey axis (the add=magnitude claim is stated with unusual clarity at line 71) and on conservative-by-construction (33x floor + magnitude-reserved). The add/extend/parallel is EXPLICIT for Mazzucato/Harvey/Eller/Catte, not mere summary. But three matrix moves the case material is uniquely positioned to carry in-register are left implicit: the Polanyi/Fraser fictitious-commodity anchor (the ratified biggest gap, structurally embodied by the unnamed four-column ledger), the Pistor/financialization mechanism (shown four times, never named as one), and Ostrom non-renewable-foreclosure contrast. Register (no academic apparatus) explains some withholding, but the move that PRICES the commodification is also absent, so the reader gets diagnosis-deepened, not diagnosis-priced.",
+    "reveal_revealed": [
+      "Cases: McDowell century-arc (book's structural anchor); Bailey + Latusek black-lung records; Kennedy 1960 WV primary; Purdue/OxyContin engineered second-cycle targeting; Sackler $11B + Big Three $21B; Farmington 1968; Yablonski; Niger Delta/Zambia copper/W.Africa fisheries (one-line case-set)",
+      "Framings: cost severance; severed cost; value extraction; spatial cost severance; 'four severances in a row'; four-column ledger; subsidy-reframe ('the future paid for the present'); cultural-pathology concealment-cover + refutation; non-partisan disarm",
+      "Instruments (silhouette only): SVIII 'legal modules' kit \u2014 trust/bond/levy/corporate-liability-extension/cross-border enforcement \u2014 named as a kit, never assembled; 'price at extraction / route rents downstream / hold across life-cycle' = Two Instruments + Four Gates described functionally",
+      "Lineage: Mazzucato, Harvey, Eller, Hamby, Catte, Keefe (+ cover letter: Caudill, Stoll, Berry, McKibben, Robinson, Sullivan)"
+    ],
+    "reveal_reserved": [
+      "The formula / equation \u2014 NOT revealed",
+      "The title-pun resolution (Commons Bonds) \u2014 NOT revealed; 'bond' appears only in reclamation-bond sense (a quiet thematic seed, not the pun)",
+      "Full named apparatus \u2014 CIT, Four Gates, Three Ways of Counting, Two Instruments (by name), Hotelling Identity, ARR, C_i vocabulary all reserved",
+      "Per-ton arithmetic + precise magnitude \u2014 explicitly routed to the book (line 119; cover letter)",
+      "The 33x-122x derivation \u2014 range stated, construction reserved"
+    ],
+    "reveal_pct": "~62-66% of the landing-point map in-prose; ~75% including cover-letter + Stage-5 queue. Apparatus reveal held at the ratified ~18-22% cap.",
+    "reserved_payoffs_intact": true,
+    "sharpening_opportunities": [
+      "Name the financialization mechanism without naming Pistor: one sentence tying the corporate-shell dissolution + Sackler $11B-pre-bankruptcy + Big Three $865M-transfer into ONE mechanism ('the dissolution was the architecture's escape hatch') \u2014 converts 4 scattered facts into the matrix's financialization claim, partly fills the live Pistor GAP at concept level",
+      "Add one falsifiability beat (Landing L): a 'here is what would prove this wrong' sentence (gap fails if bonds had funded cleanup / trust ran a surplus) \u2014 hardens vs numbers-invented/unfalsifiable/overcounting; replaces appeal-to-authority with a testable bound",
+      "One-clause Ostrom-contrast for non-renewable foreclosure (META-CLAIM 2): 'this is not a commons better rules could have saved; the coal does not grow back' \u2014 positions the configurational-novelty / extraction-setting claim now only implied",
+      "Light Polanyi/Fraser fictitious-commodity nod (register-sensitive author call): 'labor, land, community, and the future were treated as commodities the market could price, and they were not' \u2014 the four-column ledger already IS this; naming it positions the add vs the diagnostic tradition, not only vs Mazzucato; single biggest positioning improvement",
+      "Balance the through-question's forward/decision axis (currently backward/Restitution-dominant): extend the SVI 'consumer was not asked to know' beat into present tense to locate the reader's own consumption inside the spatial-severance frame"
+    ],
+    "crisp_articulations": [
+      "'He meant it as an indictment of neglect. He was right that it was an indictment. He had the wrong defendant.' \u2014 cleanest diagnosis-vs-pricing distinction in the portfolio",
+      "'What was left in 1960 ... was not the residue of neglect. It was the visible portion of an enormous unpaid bill.'",
+      "'What those mountains held, the country took. What the taking cost, the hollows still carry.' \u2014 chiasmus, load-bearing for Ch 2",
+      "'Cost severance is the mechanism by which a cost is cut loose from the transaction that produced it and left to be carried by parties who did not capture the value the transaction produced.' \u2014 cleanest plain-prose concept gloss",
+      "'The deficit is not an absence of payment. It is a redirection.'",
+      "'It severed the information from the price; the price from the cost; the cost from the cost-bearer; the cost-bearer from any instrument by which the cost could be sent back. Four severances in a row.' \u2014 concealment-taxonomy in one move",
+      "'A free-market system that does not price its costs is not a free-market system. It is a transfer mechanism.' \u2014 portfolio-wide reusable non-partisan disarm",
+      "'The second wave was engineered to harvest the damage left by the first.' \u2014 sequential-extraction / divided-stakeholder claim",
+      "'The first sentence would be anger at an external party. The second sentence is grief at a missing architecture.' \u2014 'missing architecture' harvestable as the book's name for the gap the framework fills",
+      "'It would not exist at all, in its present form, without the labor that built it' + 'The cost-severance gap is what remains after the regulatory victories ... have done what they can' \u2014 pre-empts labor-passive AND Ostrom-did-it objections at once"
+    ],
+    "figure_drift": [
+      "33x-122x framework-multiple range: PRESENT + consistent ('between thirty-three and a hundred and twenty-two times'; '33x' floor). MATCHES canonical 33-122x public band. Sub-bands (50x central / 555x TA-only) correctly omitted for register.",
+      "Canonical per-ton/cost figures ($496 carbon / $510 total / $504-518 floor / $580-620 RCV-model TA-only / mine-mouth $4.50 / SCC $190 / factor 2.61 McD / 2.32-2.33 nat'l): ALL correctly ABSENT \u2014 reserved to book per brief; withholding intentional, no drift.",
+      "Closure 'across the 1980s' (canonical phrasing) vs essay 'Gary mine closed in the late 1980s': minor specification/localization \u2014 essay localizes the Gary closure to late-1980s rather than the broader wave 'across the 1980s'. Defensible but worth a Ch 2 coherence check.",
+      "Cross-coordination per-ton band tension: README cites '$4.50/ton -> $520-600/ton honest cost' while canonical-set reads floor $504-518 + RCV-model $580-620 TA-only. Essay carries NO per-ton figure (no in-essay drift) but the $520-600 cover-band should be reconciled with Atlantic-Ideas package so both cite identical bands.",
+      "WORD-COUNT DRIFT (package, not prose): cover letter says '7,080-word essay'; Stage 5 says 7,121w; README + canonical body say 7,233w post-V-D promotion. Cover-letter + Stage-5 word-count strings are stale vs canonical body \u2014 fix cover-letter figure before submission.",
+      "Essay-specific empirical anchors ($44B paid; $4.6B->$15B-by-2050 trust debt; 45 deficit yrs; 633k acres / $7.5-9.8B vs $3.8B bonds; $865M 2014-16; Sackler ~$11B; Big Three $21B 2022; 63.5 vs 76.5 life-exp / 13-yr gap; 141 vs ~16 drug deaths; 37.6% poverty; $28k median; 55/55 health rank; 1-in-5 black lung at 25+yr; 8-13 yr life reduction): not part of framework canonical-figure set \u2014 no drift verdict; these are the cover-letter's 'not independently verified' queue items."
+    ],
+    "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/deep-pass/essay-harpers-deeppass_2026-06-04.md"
+  },
+  {
+    "essay": "noema",
+    "venue": "Noema",
+    "draft_read": "publishing/essays/noema-commons-bonds/essay.md (read from origin/main; locked cut, commit 30a9515 lineage)",
+    "placement_status": "RATIFIED-AWAITING-SUBMIT (Stage 5 sign-off RATIFIED 2026-05-24; cover letter RATIFIED 2026-05-24). NOT submitted; no decline/placement marker. Submission gated only on submission-window author actions. A parallel V-D-prime hybrid is in PROPOSED re-cascade but not promoted to canonical essay.md.",
+    "contribution_made": [
+      "META-CLAIM 3 (measurement-not-diagnosis): EXPLICIT + crisp via Mazzucato-extend ('Mazzucato names the extraction; the framework adds the accounting') and Darity honest-cost-side-ledger; conservative-by-construction half ABSENT",
+      "META-CLAIM 1 (structural-commons/fictitious-commodity): ENACTED across 8 heterogeneous cases + gestured via Black-literary named-not-priced lineage, but Polanyi/Fraser ENTIRELY ABSENT (biggest gap)",
+      "META-CLAIM 2 (configurational novelty/apparatus): MINIMAL/RESERVED \u2014 no CIT/Four Gates/Three Ways/Two Instruments/Hotelling/ARR; Pigou B<RCV gestured via pacemaker but unnamed; Ostrom absent from locked cut",
+      "Mazzucato cell: extend (add accounting) \u2014 explicit",
+      "Darity+stratification cell: extend (backward Restitution) explicit; divided-stakeholder method-extension not named",
+      "Coase/voluntary + coercion-flattening objections: ENGAGED via free-market-economist interlocutor + 'architecture sets the price of every choice'",
+      "Norway-not-transferable objection: ENGAGED via Venezuela/Nigeria contrast + 'policy choice not geological fact'",
+      "Through-question (full honest accounting): CARRIED on both backward (Darity $14T) and forward (NICU son/Fox Hill/Norway/Fanon/Bay) axes"
+    ],
+    "landing_points_carried": [
+      "A contribution/positioning (cost severance named; Mazzucato-extend)",
+      "B core claims (one-sentence definition is the spine)",
+      "E worked demos (8 cases: Libby, 2008 MBS, pacemaker, Norway, Darity ledger, Mondragon, Bay species, Fox Hill)",
+      "F originality/credibility (partial-strong: 'pricing is new, move is old')",
+      "G human/narrative spine (exceptional: plane/NICU + grandfather/father lineage)",
+      "H values/emotional (exceptional: 'I write this for my son')",
+      "I audience (Noema three-register weave; internationalist; cultural seriousness)",
+      "K reader-takeaway ('architecture is engineered; can be engineered differently')",
+      "O stakes/why-now (Bay collapse, 2026 disaster declarations, the son)",
+      "C objections (PARTIAL: 4 engaged)",
+      "L falsifiability (PARTIAL: two existence proofs constructed as falsifiers)",
+      "N concealment-taxonomy (PARTIAL: prose gesture only)"
+    ],
+    "landing_points_missed": [
+      "D limits (only Mondragon 'not perfect, it is operating'; no systematic limits)",
+      "M domain/boundary (no where-it-does/doesn't-apply statement; latent unfalsifiability risk across 8 heterogeneous cases)",
+      "J citations+gaps (gaps live only in Stage 5 pre-pub queue, correctly invisible in essay)",
+      "P comps/market (lives in cover letter, not essay body)",
+      "conservative-by-construction credibility shield (Weitzman-down / CS>0 across Nordhaus-Stern) \u2014 under-deployed half of META-CLAIM 3",
+      "Pistor/financialization door opened by 2008 MBS case left unengaged",
+      "Coase/Parfit future-can't-bid contradiction enacted emotionally but never named as a positioned contribution"
+    ],
+    "positioning_quality": "Mixed but strong where it commits. The Mazzucato-extend cell is positioned near-verbatim to the matrix's intended language ('names the extraction / adds the accounting') \u2014 explicit add, not summary. Norway-transferability and Coase/voluntary objections are genuinely engaged, not just exposed. BUT the ratified top move (META-CLAIM 1 Polanyi/Fraser structural-commons anchor) is enacted-and-gestured rather than named \u2014 the strongest Berggruen-audience hook is left implicit. The configurational-novelty contribution (META-CLAIM 2) is invisible by design. Net: best-positioned cells are explicit; the highest-leverage cell is implicit.",
+    "reveal_revealed": [
+      "Framework name + one-sentence definition (cost severance: value captured by one party, costs absorbed by another who cannot bill back)",
+      "Through-question as prose ('the full honest accounting / the full ledger')",
+      "Cases: Libby/W.R. Grace 40:1, 2008 MBS, pacemaker $6,000-vs-$86, Norway GPFG, Darity/Mullen $14T + Hamilton Umbrellas, Mondragon, Chesapeake Bay species + Colden/Moore testimony, Fox Hill mutual aid",
+      "Framings: value-creation/value-extraction (via Mazzucato), architecture-as-set-of-slots, three-architecture spread (firm/labor/ecosystem), named-not-priced literary lineage (Dunbar/Du Bois/Fanon/Ellison)",
+      "Reservation principle enacted via Norway 'principal never spent, capital inviolate' (Hartwick/Daly idea without naming the instrument)"
+    ],
+    "reveal_reserved": [
+      "THE FORMULA \u2014 no CIT, no RCV, no B<RCV, no Hotelling Identity, no ARR (INTACT)",
+      "The full apparatus \u2014 Four Gates, Three Ways, Two Instruments, CIT, ARR (INTACT)",
+      "Canonical apparatus figures \u2014 $496 carbon / $510 total / $504-518 floor / $580-620 RCV / IPG multiples / SCC $190 / factor 2.61 / closure factors (NONE revealed; INTACT)",
+      "Title-pun financial-instrument pole \u2014 the human-bond sense is gestured at the close ('what a commons bond looks like when no institution is taking notes') but the bond-as-reserved-financial-asset pun mechanism is NOT resolved (INTACT, gestured-not-resolved)",
+      "Conservative-by-construction defense (Weitzman-down, CS>0 across Nordhaus-Stern)",
+      "Formal concealment taxonomy (only prose gesture appears)"
+    ],
+    "reveal_pct": "~50-55% of the A-P map (narrative/human/values/case points A,B,E,G,H,I,K,O near-fully revealed; apparatus/formal/credibility points C-partial,D,L,M,N-formal,P mostly reserved)",
+    "reserved_payoffs_intact": true,
+    "sharpening_opportunities": [
+      "Add Polanyi/Fraser anchor to the literary-lineage close \u2014 converts the essay's strongest implicit move (META-CLAIM 1) into the ratified top positioning AND directly serves the Berggruen brain; single highest-leverage add",
+      "Name the future-can't-bid contradiction (Coase-contradict/Parfit-operationalize) \u2014 the NICU son already enacts it; one explicit beat converts emotion into positioned contribution at near-zero prose cost",
+      "Close the Pistor/financialization door opened by the 2008 MBS case with one clause locating cost severance upstream of financialization",
+      "Add the conservative-by-construction half of META-CLAIM 3 ('I have counted conservatively; the real ledger is larger') \u2014 credibility shield + pre-empts overcounting without revealing the formula",
+      "Make the divided-stakeholder/stratification-economics extension explicit in the Darity block (method the framework generalizes, not just a figure it cites)",
+      "Add a one-line domain/boundary statement (landing point M) to answer the unfalsifiability risk latent in 8 heterogeneous cases"
+    ],
+    "crisp_articulations": [
+      "'Mazzucato names the extraction. The framework I am proposing adds the accounting.' \u2014 cleanest one-line statement of the measurement-not-diagnosis meta-claim in the portfolio",
+      "'The architecture sets the price of every choice and the cost of every refusal. If the cost of refusing the slot is a career and the cost of taking it is a body or a child's holding, the choice has been narrowed before you got to it.' \u2014 best Coase/voluntary objection-disarming language",
+      "'What honest accounting prices, for any architecture, is the full ledger \u2014 value created, costs absorbed, by whom, with what bill-back capacity.' \u2014 near-canonical statement of the through-question",
+      "'The pricing of commons is new. The move is old.' \u2014 the originality claim in five words",
+      "'That is what an architecture is. It is the set of slots you can fit yourself into... the slot's only material is your hours.' \u2014 most concrete lay-definition of architecture in the corpus",
+      "'The umbrella does not make the rain. The rain has been falling for a long time, and the architecture has not closed the price.' \u2014 reframes the Umbrellas finding into cost-severance ledger language",
+      "'It is what a commons bond looks like when no institution is taking notes.' \u2014 title-earning sentence; human-bond pole of the pun",
+      "'Cost severance is a policy choice. It is not a geological fact.' \u2014 reducibility claim + Norway-transferability answer in one line"
+    ],
+    "figure_drift": [
+      "No canonical apparatus-set drift to report \u2014 the essay deliberately uses NO apparatus figures ($496/$510/$504-518/$580-620/IPG/SCC $190/factor 2.61/closure-1980s); all reserved (correct posture)",
+      "Norway GPFG ~$1.9T / ~$340,000 per citizen \u2014 time-sensitive; flagged for submission-window re-verification (value as of 2026-05-10 drafting); only live monitoring item",
+      "Norway fiscal rule 4% (2001) -> 3% (2017) \u2014 RATIFIED via Pass 3.1, corrects earlier '~3%' conflation; clean",
+      "Case figures internally consistent and cover-letter-aligned: Libby ~$100M/40:1; Darity $14T; Mondragon 95 coops/70k workers/3:1->6-9:1/300:1; pacemaker $6,000 vs $86 (the $86 framing flagged Stage 5 \u00a77 for external review); Daraprim $13.50->$750; Bay 2-vs-11 recruitment + 51,000mt menhaden cap (2017 ASMFC)"
+    ],
+    "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/deep-pass/essay-noema-deeppass_2026-06-04.md"
+  },
+  {
+    "essay": "berggruen",
+    "venue": "Berggruen Prize 2026",
+    "draft_read": "origin/main:publishing/essays/berggruen-prize-2026/_archive/reference/commons-bonds-berggruen-essay-draft.docx",
+    "placement_status": "PRE-DRAFT / seed-materials, AI-free-pending-author-drafting. No essay.md exists. Not drafted, not submitted, not placed, not declined. Hard deadline 2026-08-17 (soft 2026-08-05); first-draft target end of June 2026; rigor/ empty by design (five-pass cascade does not apply to AI-free essay).",
+    "contribution_made": [
+      "Meta-Claim 2 (configurational novelty): PARTIALLY committed via three-model convergence ('Three Ways of Counting') + spatial-vs-temporal cost-severance axes (genuine vocabulary addition = divided-stakeholder/stratification axis), but lineage names deferred to Appendix; not positioned against Darity by name",
+      "Meta-Claim 2 extraction extension: non-renewable foreclosure ($100 barrel / McDowell / 'burning materials grandchildren need') carried as intuition, names reserved",
+      "Meta-Claim 3 (measurement not diagnosis, conservative): carried in FRAGMENTS ($190 understates; CS>0 backtest; convergence) but ACTIVELY UNDERCUT by 'proof under any framework' + 'Mars validates Earth' overclaim",
+      "Meta-Claim 1 (Polanyi/Fraser fictitious-commodity / SAME-OBJECT): NOT carried, not even gestured at the literature; same-object move framed sociologically ('structurally identical') only; labor + atmosphere not threaded into the one-object identity",
+      "Through-question: FORWARD direction (decision / colony administrator / what costs am I not counting) is the whole spine; BACKWARD Restitution direction almost entirely absent \u2014 half-carried"
+    ],
+    "landing_points_carried": [
+      "A contribution/positioning (but intramural vs Noema, not field-level)",
+      "B core claims (cost severance, RCV, $100 barrel)",
+      "E worked demos (McDowell, Norway, Libby, Baotou, Deepwater, Exxon Valdez, Mars, asteroid)",
+      "G human/narrative spine (harbor/plane, waterman thread, grandfather wind-tunnels)",
+      "H values/emotional (grandchildren, Camus, instrument-of-honest-measurement)",
+      "M domain/boundary (universality test \u2014 strongest landing point, scale-invariance)",
+      "O stakes/why-now (existential/civilizational turn, finitude, 'insurance is cheap')",
+      "D limits (partial \u2014 CSG/insurance falsifiability intent, but inconsistent with overclaim)",
+      "K reader takeaway (partial \u2014 bounded system / Mars-colonist recognition)",
+      "N concealment taxonomy (partial \u2014 spatial: value disperses, costs concentrate)"
+    ],
+    "landing_points_missed": [
+      "C objections \u2014 almost none engaged; Simon-Ehrlich, unfalsifiability, degrowth, too-statist, Norway-not-transferable, Coase, just-Pigou, Ostrom-did-it, Sandel all unnamed (Simon-Ehrlich acutely live given Mars/finitude frame)",
+      "F originality/credibility \u2014 leans on 'proof' rhetoric not worked credibility; no 'every number is the low end' move",
+      "J citations+gaps \u2014 strategy doc; lineage works deferred to Appendix; Polanyi/Fraser + Pistor total gaps",
+      "L falsifiability \u2014 INTERNALLY CONTRADICTORY: claims CSG/insurance testability while asserting unfalsifiable 'proof under any framework' + 'Mars produces obviously correct answer'",
+      "P comps/market \u2014 N/A for prize essay",
+      "Backward Restitution direction (touches through-question)",
+      "Polanyi/Fraser Claim-1 anchor (touches A, B, J, N)"
+    ],
+    "positioning_quality": "Weak-to-mixed and partly off-doctrine. Self-positioning is INTRAMURAL (essay positions itself against its Noema sibling \u2014 'diagnosis, a proof, a prescription' \u2014 not against the diagnostic tradition). Add/parallel/contradict/extend verdicts are NOT explicit anywhere: lineage works (Hotelling/Pigou/Ostrom/Hartwick) are deferred to the Technical Appendix, so the essay-as-planned carries extensions as intuition with names reserved. Spatial cost severance is the one genuinely-positioned configurational addition but is framed as the author's own vocabulary, not positioned against Darity/stratification econ by name. Most serious positioning flaw: the universality crown jewel is framed as 'mathematical proof... under any discount rate, any ethical framework' which CONTRADICTS the ratified Meta-Claim-3 conservative-by-construction posture and invites the very unfalsifiability/Simon-Ehrlich objections it never names.",
+    "reveal_revealed": [
+      "Cases: McDowell County (anchor), Chesapeake waterman thread, Norway existence proof, Libby Montana, Baotou toxic lake, Deepwater Horizon, Exxon Valdez, Mars colony, asteroid",
+      "Framings: cost severance, residual commons value / $100 barrel, three-jewels structure, spatial-vs-temporal cost-severance axes, colony-administrator/bounded-system universality, CSG (existential substitutability gap) ranking, insurance-cost / in-situ-reserve / asymmetric-regret / appreciating-reserve, four-step renewable-imperative sequence, three-model convergence ('Three Ways of Counting')",
+      "Instruments named: 'Three Ways of Counting', CSG ranking, in-situ strategic reserve, four-step sequence; SCC $190 referenced",
+      "NB: this reveal is INTERNAL ONLY \u2014 the scaffolding ships to no one and the essay is unwritten, so public reveal of delivered prose = 0%; this is effectively a book-contents inventory, not an essay reveal"
+    ],
+    "reveal_reserved": [
+      "The formula / CIT (Commons Identity Theorem) \u2014 fully reserved (not in scaffolding)",
+      "Full named apparatus: Four Gates, Two Instruments as named taxonomy, Hotelling Identity by name, ARR \u2014 reserved to Technical Appendix",
+      "Hotelling/Pigou/Ostrom/Hartwick lineage BY NAME \u2014 reserved to Appendix",
+      "Canonical computed figures (carbon $496, total $510, floor $504-518, RCV $580-620, IPG multiples, McD/national factors) \u2014 not exposed",
+      "AT-RISK: the title-pun ('Commons Bonds' -> 'common bonds') is EXPOSED in the plan and the plan INTENDS to spend it in the essay close \u2014 recommend pulling back so the book keeps the named resolution"
+    ],
+    "reveal_pct": "Delivered-prose reveal = 0% (essay unwritten). Landing-point coverage of the PLAN approximately 50-55% (8-9 of 16 points committed with weight; 6-7 missed/under-committed).",
+    "reserved_payoffs_intact": false,
+    "sharpening_opportunities": [
+      "Brief-level only (essay is AI-free; lens cannot touch prose). #1 HIGHEST VALUE: demote 'proof' to 'floor/robustness' \u2014 the 'mathematical proof under any framework' overclaim contradicts ratified conservative-by-construction (Claim 3) and rescues falsifiability (L) from self-contradiction",
+      "Make Mars an ILLUSTRATION that exposes parameters (S(t)\u22480, U huge, irreversibility lethal), not a VALIDATION method ('Mars proves Earth' is unfalsifiable validation-by-intuition)",
+      "Add the Polanyi/Fraser fictitious-commodity anchor \u2014 the 'common bonds' same-object realization begs for it; Berggruen (a philosophy prize) is the ideal venue to close the corpus's biggest gap; complete the one-object identity by threading labor + atmosphere",
+      "Carry the BACKWARD Restitution direction (Darity/stratification named) to complete the two-direction through-question; plan is all-forward",
+      "Engage 3-4 objections explicitly: Simon-Ehrlich (CSG is the answer), unfalsifiability (V_civ-retirement is the answer), degrowth/too-statist ('navigation system not prohibition'), Norway-not-transferable",
+      "State conservative-by-construction in-text (borrow Aeon's 'every number is the low end' note) \u2014 cheapest Claim-3 credibility move",
+      "Reserve the title-pun \u2014 land the common-bonds IDEA without spending the DEVICE, so the book keeps it"
+    ],
+    "crisp_articulations": [
+      "Spatial cost severance: 'The value dispersed nationally while the costs concentrated in hollows between two mountains' / 'The costs concentrate geographically. The value disperses nationally. Both are cost severance. Different dimensions of the same mechanism.' \u2014 cleanest spatial-axis statement in the corpus; harvest for Ch 6",
+      "'The model is a navigation system, not a prohibition' / 'It doesn't say never extract \u2014 it says extract from the source with the lowest RCV first' \u2014 strong anti-degrowth/anti-statist line",
+      "Asymmetric regret: 'You can always extract later, you can never un-extract'",
+      "Appreciating reserve: 'a hedge that costs almost nothing to hold and pays off exactly when needed... peaks during the danger period and depreciates only when the danger passes'",
+      "'Leave them in the ground. The ground is free storage' \u2014 disarms strategic-reserve-as-stockpiling misread",
+      "Instrument-of-honest-measurement close (grandfather/Langley): 'Commons Bonds is that kind of instrument. It doesn't tell us what the world should look like. It tells us what extraction actually costs' \u2014 strong Claim-3 articulation",
+      "CAVEAT: all are AI-generated scaffolding phrasings \u2014 harvest as candidate articulations the author RE-VOICES, and verify factual elements (esp. McDowell mechanism) against canonical figures first"
+    ],
+    "figure_drift": [
+      "Essentially no figure drift \u2014 the artifact is a strategy doc carrying almost no quantitative figures, so little surface for drift",
+      "SCC $190/ton \u2014 appears ('even $190 understates'); MATCHES canonical $190",
+      "$100 barrel \u2014 appears as device name, not a claimed computed result; consistent",
+      "Mine-mouth \u2014 gestures at '$4-5' actual worth; consistent in spirit with canonical $4.50; no explicit number",
+      "FLAG: McDowell '13-year life expectancy gap' appears as a lived-story fact but is NOT in the canonical figure set provided (canonical tracks the 2.61/2.32-2.33 factor, not a year-gap) \u2014 verify against canonical McDowell figures before the offline draft uses it",
+      "Big canonical results (carbon $496, total $510, floor $504-518, RCV $580-620, IPG 33-122x/~50x/555x, factor 2.61/2.32-2.33, closure 'across the 1980s') \u2014 NONE appear (deferred to Appendix); no drift because no exposure"
+    ],
+    "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/deep-pass/essay-berggruen-deeppass_2026-06-04.md"
+  },
+  {
+    "essay": "mcdowell-oped",
+    "venue": "McDowell op-ed",
+    "draft_read": "publishing/op-eds/mcdowell-county-true-cost/_archive/fresh-newpipe-draft_2026-06-03.md",
+    "placement_status": "drafted/unsubmitted \u2014 news-peg activation pending; no submission, decline, or acceptance evidenced in README or any status marker. README tags op-ed.md (V-D HYBRID) as canonical; fresh-newpipe (the LEAD per task) sits in _archive/ one day newer (un-flagged shadow canonical).",
+    "contribution_made": [
+      "Meta-claim 1 (structural-commons / fictitious-commodity): carried IMPLICITLY \u2014 atmosphere that does not bill, black lung as labor cost, county + future drawn against as a silent loan; SAME-OBJECT gestured via 'the point is the column'; but Polanyi/Fraser unnamed and the prices+RESERVES move un-banked (biggest gap not advanced)",
+      "Meta-claim 2 (configurational novelty \u2014 CIT/Four Gates/Hotelling/ARR): NOT carried, wholly reserved; only the non-renewable-foreclosure image survives",
+      "Meta-claim 3 (measurement-not-diagnosis; conservative-by-construction; non-aligned): carried implicitly \u2014 'the first honest act is not a policy, it is an accounting'; non-partisan leg explicit and best-in-corpus; conservative-by-construction leg dropped from LEAD",
+      "Matrix relationship present: Pigou-extend (B<RCV) rendered as folk wisdom ('whoever creates a cost should bear it') \u2014 summary, not positioned"
+    ],
+    "landing_points_carried": [
+      "B core-claims (partial \u2014 falsely-low-price-as-loan carried hard; full B<RCV/reserve not)",
+      "C objections (LEAD: nobody-knew-in-1960 + blame/villain-flattening; op-ed.md adds against-extraction, markets-fake, cheap-energy-ladder)",
+      "D limits (strong \u2014 explicit scope-humility on tariff/pace/who-pays)",
+      "E worked-demos (McDowell is the demo; the price-gap is the computation)",
+      "F originality/credibility (partial \u2014 bio + op-ed.md citation density)",
+      "G human/narrative-spine (strong \u2014 Kennedy 1960, widows + oxygen tanks)",
+      "H values/emotional (strong \u2014 paid in advance without consent, the receipt)",
+      "I audience (non-partisan cross-spectrum build)",
+      "J citations+gaps (partial \u2014 op-ed.md rich, LEAD near-bare)",
+      "M domain/boundary (partial \u2014 extraction boundary clear, renewable boundary undrawn)",
+      "N concealment-taxonomy (strong implicit \u2014 hidden != avoided)",
+      "O stakes/why-now (the excuse expires / news-peg lede)"
+    ],
+    "landing_points_missed": [
+      "A contribution/positioning (no framework stake \u2014 by design)",
+      "L falsifiability (no handle \u2014 appropriate for op-ed)",
+      "P comps/market (no market framing \u2014 appropriate)",
+      "Within carried set: conservative-by-construction leg of Meta-claim 3 under-deployed (LEAD dropped the SCC-revision-history that op-ed.md had)",
+      "Coase-future-can't-bid / Parfit future-obligation objection un-engaged despite 'drawn against the future' setup"
+    ],
+    "positioning_quality": "Summary, not positioning \u2014 which is the CORRECT register for an apparatus-stripped op-ed. Add/parallel/contradict/extend relationships to the literature are entirely invisible; the sole matrix relationship (Pigou-extend B<RCV) appears as folk wisdom, not positioned against Pigou. The non-partisan/non-aligned positioning IS explicit and is the corpus's strongest articulation of it. Net: a one-cell dramatization functioning as a demand-generation instrument, not a contribution-stake.",
+    "reveal_revealed": [
+      "Case: McDowell County coal extraction (Ch 8 / Ch 2 territory) \u2014 demographic collapse, black-lung trust-fund insolvency (op-ed.md), SMCRA reclamation shortfall (op-ed.md), Kennedy-1960 anchor",
+      "Framing: ledger/column with a zero where costs belong; loan-drawn-against-the-future; hidden != avoided concealment intuition; falsely-low vs honestly-low price distinction",
+      "Instrument fragment: externality pricing (Pigou B<RCV leg) as honest accounting; single true-cost number revealed (~$500 LEAD / $558 op-ed.md)",
+      "Non-partisan positioning as a framing asset"
+    ],
+    "reveal_reserved": [
+      "The formula (C\u1d62 / RCV computation) \u2014 not shown",
+      "The title-pun (Commons Bonds double/triple meaning) \u2014 title is 'What a Ton of Coal Actually Cost(s)', no exposure",
+      "Full apparatus \u2014 CIT, Four Gates, Three Ways, Two Instruments, Hotelling Identity, ARR, IPG, lineage labor, accountability bond, temporal displacement (op-ed.md frontmatter verifies 0 named terms)",
+      "The reserve/restitution move (prices AND reserves; backward-Restitution / Darity-stratification)",
+      "IPG magnitudes (33-122x), full integrated configuration, conservative-by-construction proof, RCV-model $580-620 TA-only figure"
+    ],
+    "reveal_pct": "~35-40% of the A-P landing-point map (exposes the demand-generation surface \u2014 human spine, single worked number, concealment intuition, non-partisan framing \u2014 while reserving the entire contribution/positioning/formula/apparatus supply-and-proof surface)",
+    "reserved_payoffs_intact": true,
+    "sharpening_opportunities": [
+      "Add the foreclosure beat (Meta-claim 2 hook, no apparatus cost): one clause that coal, unlike a fishery, cannot be re-grown \u2014 so the loan against the future can never be repaid in kind \u2014 carries the Hotelling/extraction extension of Pigou+Ostrom without naming them. Highest leverage.",
+      "Bank the conservative-by-construction leg (Meta-claim 3): one sentence that $190 SCC is the government's own mainstream figure, not the highest credible one \u2014 disarms numbers-invented + overcounting objections at once. op-ed.md has the raw material the LEAD dropped.",
+      "Engage the Coase-future-can't-bid / Parfit future-obligation objection cheaply: the future generation now paying never sat at the table, which is precisely why a market price could never catch it \u2014 closes two cells in a half-sentence.",
+      "Tighten the SAME-OBJECT claim: one explicit line that the poisoned creek, the scarred lung, the emptied town, and the loaded atmosphere are the SAME unbooked entry lands Meta-claim 1's structural-commons move without Polanyi's name.",
+      "Reconcile the figure conflict before activation: pick 2.6 (canon McDowell) over 2.86 (off-canon) and propagate; update README canonical pointer (see figure_drift)."
+    ],
+    "crisp_articulations": [
+      "A bargain is a price honestly low. This was a price falsely low, and the difference did not vanish.",
+      "It was a loan, drawn silently against the future and against the county itself, and the bill has been arriving in installments ever since.",
+      "McDowell County did not fail to share in coal's prosperity. McDowell County financed it, at terms no one ever read aloud.",
+      "American energy accounting has written a zero where the real costs belong. Not a small number, not a contested number. A zero.",
+      "A country that keeps a ledger like that is not thrifty. It is flying blind, mistaking the costs it has hidden for costs it has avoided.",
+      "Whoever creates a cost should bear it. That principle does not belong to the left or the right. It is the premise under every functioning market and every theory of personal responsibility ever taught.",
+      "The first honest act is not a policy. It is an accounting. (candidate epigraph)",
+      "It only looked that way to the people who did not have to pay the rest.",
+      "(op-ed.md) a second, unmeasured trade ran in parallel, binding on parties who never sat at the table. (plain-English gloss of the fictitious-commodity move)"
+    ],
+    "figure_drift": [
+      "CRITICAL: coal->CO2 factor \u2014 canon is 2.61 McD / 2.32-2.33 nat'l. LEAD = 2.6 (\u2248 canon McD). op-ed.md = 2.86 (OFF-CANON \u2014 neither McD nor nat'l; likely an older national-bituminous figure). README-declared canonical carries the error.",
+      "Carbon term \u2014 canon $496. LEAD 'nearly five hundred' (~$494 via $190x2.6) \u2248 canon. op-ed.md $544 (=$190x2.86) OFF-CANON, driven by the 2.86 error.",
+      "Total true cost \u2014 canon $510 (floor $504-518). LEAD 'above $500' consistent. op-ed.md $558 OFF-CANON, above the floor band.",
+      "Mine-mouth price \u2014 canon $4.50. op-ed.md $4.50 (exact). LEAD 'four or five dollars'/'four dollars' imprecise but in range.",
+      "SCC $190 \u2014 both versions = canon.",
+      "Closure timing \u2014 canon 'across the 1980s'. op-ed.md 'U.S. Steel closed its McDowell mine in 1990' diverges (single-event vs across-the-decade); reconcile against _shared/canonical-facts/norway-mcdowell-inventory_2026-05-10.md.",
+      "RCV-model $580-620 (TA-only) and IPG 33-122x correctly reserved (absent from both).",
+      "NET: the newer archived LEAD is MORE canon-faithful than the declared-canonical op-ed.md \u2014 inverts the usual stale-working-copy assumption."
+    ],
+    "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/deep-pass/essay-mcdowell-oped-deeppass_2026-06-04.md"
+  },
+  {
+    "essay": "norway-oped",
+    "venue": "Norway op-ed",
+    "draft_read": "origin/main:publishing/op-eds/norway-sovereign-wealth/_archive/fresh-newpipe-draft_2026-06-03.md",
+    "placement_status": "drafted \u2014 pipeline draft, news-peg-activation pending; not submitted/declined/placed. README \u00a7State: \"V-D' canonical (ratified 2026-06-01); news-peg activation pending.\" The fresh draft is a parallel ship-fresh experiment not yet promoted over the V-D' canonical op-ed.md.",
+    "contribution_made": [
+      "Meta-claim (1) Polanyi/Fraser fictitious-commodity: NOT MADE \u2014 reserved by silence; only a faint future-generation strand in the kicker, delivered as Hartwick/Parfit prudence, never named as commodification",
+      "Meta-claim (2) configurational novelty: NOT MADE \u2014 CIT/Four Gates/Three Ways/Two Instruments/Hotelling/ARR all reserved; V-D's 'architecture is engineerable' softened to single-instrument 'engineered, not inherited'",
+      "Meta-claim (3) measurement/conservative-by-construction: NOT MADE \u2014 no magnitude claim advanced; Harvey 'measures the mechanism it diagnoses' wholly reserved",
+      "Hotelling/Hartwick cell: EXPLICIT and NAMED (John Hartwick) but positioned as ADOPT/ILLUSTRATE, not the book's EXTEND/generalize (S_max<=1, non-renewable foreclosure)",
+      "Norway-not-transferable objection: ENGAGED (not just exposed) via 'engineered not inherited / order of events backwards / bound its own hands'",
+      "All other key-works cells (Pigou, Coase, Ostrom, Weitzman, Rawls, Daly, Darity, Pistor, Mazzucato, Christophers, Susskind, Sandel): NOT MADE; Parfit future-obligation present only atmospherically in the kicker"
+    ],
+    "landing_points_carried": [
+      "C objections (Norway-not-transferable, engaged)",
+      "D limits (light \u2014 slavish imitation would fail)",
+      "E worked-demos (Norway, single case)",
+      "G human/narrative-spine (just-before-Christmas-1969 bookend; second-decade politician scene)",
+      "H values/emotional (standing inheritance; kicker)",
+      "I audience (clean FT/Bloomberg/PS pitch; fully serves T3.10 non-finance-fluent reader)",
+      "K reader-takeaway (strong \u2014 design-not-destiny kicker)",
+      "M domain/boundary (light \u2014 new-frontier scope)",
+      "O stakes/why-now (strongest LP \u2014 commitment-window framing)",
+      "A positioning (partial \u2014 engineered-not-inherited only)",
+      "B core-claims (partial \u2014 Hartwick reinvestment only)",
+      "F originality/credibility (partial \u2014 Hartwick attribution)"
+    ],
+    "landing_points_missed": [
+      "J citations+gaps (near-miss: one citation, Hartwick unnamed-date; resource-curse lit Sachs-Warner/Mehlum-Moene-Torvik CUT vs V-D')",
+      "L falsifiability (absent; no claim framed falsifiable)",
+      "N concealment-taxonomy/covers (wholly reserved)",
+      "P comps/market (absent)",
+      "All three meta-claims under-deployed (Polanyi/Fraser anchor reserved by silence rather than positioned)"
+    ],
+    "positioning_quality": "Carries exactly ONE matrix cell (Hartwick) and ZERO meta-claims. The one cell it carries is clear and lay-accessible but UNDER-positioned: presented as adoption/illustration of the settled Hartwick principle Norway instantiated, where the book's move is EXTEND/generalize (non-renewable foreclosure, S_max<=1). The add/parallel/contradict/extend relationship is therefore NOT explicit \u2014 it reads as a Hartwick explainer. Objection-engagement on Norway-not-transferable is genuinely strong and explicit. Appropriate strip-down for an op-ed instrument, but on its own the draft cannot establish the book's distinctive contribution.",
+    "reveal_revealed": [
+      "Hartwick principle (named, lay-stated) as the resource-rents anchor",
+      "Norway worked case (fund >$2T, ~$390k/citizen, 1990 founding/2006 rename, 2001 fiscal rule ~3% real-return draw, invest-abroad rationale)",
+      "The second-decade durability-of-the-rule insight (signature reveal)",
+      "Engineered-not-inherited positioning vs the trust-society objection",
+      "Institutional-design-over-geological-destiny thesis",
+      "New-frontier stakes (Greenland/Guyana/lithium-triangle/deep-sea)",
+      "Intergenerational kicker (future-generation strand, atmospheric)"
+    ],
+    "reveal_reserved": [
+      "The formula / RCV / cost-severance / Ci (never gestured at)",
+      "The title-pun 'Commons Bonds' (not used; fresh draft has NO byline at all, so book is not even named)",
+      "Full apparatus: Four Gates, CIT, Three Ways, Two Instruments, Hotelling Identity, ARR, IPG, Pattern 2, concealment taxonomy",
+      "Polanyi/Fraser fictitious-commodity structural anchor (reserved by silence)",
+      "Backward-Restitution / divided-stakeholder / stratification-economics extension",
+      "All canonical magnitude figures (carbon $496, total $510, RCV $580-620, IPG multiples, mine-mouth $4.50, SCC $190, McDowell factor 2.61)"
+    ],
+    "reveal_pct": "~40-45% of A-P landing points touched, but only ~15-20% of the book's DISTINCTIVE contribution surface (reveals the borrowed/common-ground layer \u2014 Hartwick + Norway existence proof \u2014 and reserves the entire distinctive layer)",
+    "reserved_payoffs_intact": true,
+    "sharpening_opportunities": [
+      "Add one clause positioning Hartwick as EXTEND not illustrate (e.g. 'Hartwick's rule was written for resources you can replant; the harder cases are the ones you cannot') \u2014 signals non-renewable-foreclosure generalization without naming the formula",
+      "Recover the future-can't-bid (Coase contradiction) as the kicker's spine \u2014 connect 'leave the future to fend for itself' to 'the future has no seat at the table' so the kicker points at a reserved contribution rather than ambient thrift",
+      "Re-insert ONE compressed counter-case (Nigeria or Venezuela) \u2014 the fresh draft cut all comparators; an existence proof with no contrast invites 'so did Botswana/Chile' and weakens landing point E",
+      "Decide the byline deliberately \u2014 restore the V-D' bio block; it is the only place the book is named and carries the 'institutional architecture of cost and accountability' reserved-payoff pointer",
+      "Add a news-peg LEDE swap marker \u2014 V-D' has explicit scaffolding; the fresh draft bakes the generic lede into prose, making activation discipline harder",
+      "Find the middle path between fresh and V-D': fresh solved the T3.10 readability worry by removing finance mechanics, but also removed the credibility scaffolding (resource-curse lit + comparators) the FT/Bloomberg T1 reader expects \u2014 restore one counter-case + one lit anchor without re-loading jargon"
+    ],
+    "crisp_articulations": [
+      "'The oil money is not income to be consumed. It is principal to be preserved, with only the harvest available for use.' (income/principal/harvest distinction)",
+      "'The difficulty has never been the founding. It has been the second decade, when the original architects are gone and a politician facing an election can point to billions sitting idle and ask why they should not be spent now. Norway built a rule that answered that question in advance, and then honored it.' (the second-decade problem)",
+      "'Norway turned a wasting asset under the seabed into a renewable claim on the world economy, and in doing so converted a one-time geological accident into a standing inheritance.' (wasting asset -> renewable claim -> standing inheritance)",
+      "'The objection that Norway pulled this off only because it was already a rich, high-trust society gets the order of events backwards: it was a modest fishing-and-shipping country on Europe's northern margin when it bound its own hands.' (best trust-society objection-disarm; Ulysses-contract phrasing)",
+      "'The window in which a society can credibly commit its future self to discipline opens before the first cargo ships, and it narrows quickly.' (commitment-window why-now)",
+      "'The resource will be exhausted. Whether the wealth outlives it is a matter of design.' (design-not-destiny thesis in nine words)"
+    ],
+    "figure_drift": [
+      "NO drift against the canonical CONTRIBUTION figure set \u2014 none of carbon $496 / total $510 / RCV $580-620 / IPG multiples / mine-mouth $4.50 / SCC $190 / factor 2.61 appears (all correctly reserved)",
+      "INTRA-PACKAGE inconsistency: fund total 'well over two trillion dollars' (fresh) vs 'more than $1.9 trillion' (V-D' canonical) \u2014 reconcile to one figure",
+      "MATERIAL ~15% drift: per-citizen share 'more than 390,000 dollars' (fresh) vs 'roughly $340,000' (V-D') \u2014 must fact-check against current NBIM annual report before either ships",
+      "Population inconsistency: 'barely five million people' (fresh) vs 'fewer than four million citizens' (V-D') \u2014 reconcile (founding-era ~4M vs current ~5.5M)"
+    ],
+    "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/deep-pass/essay-norway-oped-deeppass_2026-06-04.md"
+  }
+]
