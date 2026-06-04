@@ -6,6 +6,50 @@ of someone or something* — wrong "in the bones," with no words for it until th
 "The Quiet Math" is the words arriving. Source material only; nothing here is drafted prose.
 Consent/no-fabrication/handling flags are per moment.
 
+## Ch1 DECISIONS + CONFIRMATIONS — RATIFIED 2026-06-04 (author)
+
+**North star (the chapter's purpose):** make the reader *see what has been invisible to them even
+though they have witnessed it their whole lives.* The chapter enacts that discovery.
+
+**Opener — RATIFIED: colleague-open, discovery arc.** Open on the credentialed colleague (concrete,
+witnessable injustice); the reader *sees* it, then the chapter reveals it was inherited. Ending
+feels like **discovery, not fate.**
+
+**D8 close — RATIFIED (author's sharper version):** *the framework gives you the ledger; the numbers
+are yours to enter and calculate.* Some costs, fully entered, still cannot be billed back. (Echoes
+the Aeon Darity beat — "the numbers on it are theirs to enter" — good cross-artifact consistency;
+the book's hand-the-reader-the-honest-accounting close.)
+
+**The five moments are REPRESENTATIVE, not canonical** (author: "countless moments… now I see it
+everywhere"). The chapter enacts the lens forming and the world lighting up — it does not catalog
+five examples.
+
+**Structure — UNDER DISCUSSION** (recommendation in chat: open colleague → the commute births the
+framework → *the widening* ("suddenly everywhere") → narrow to the deepest/personal, where the
+ledger reaches its limit).
+
+**Factual confirmations (author, 2026-06-04):**
+- **Pou/Pooh — RESOLVED, no invented provenance:** "Pooh" = the *Winnie-the-Pooh* children's story;
+  "Pou" = a child's mispronunciation of the Greek *Pappou* (grandfather), phonetically identical to
+  the grandfather's nickname. (Clears the prior Noema accent-invention drift.)
+- **"Fifteen audiences" — RESOLVED:** a baseline minimum of ~15 derivative works for ~15 different
+  **reader** audiences (per article), sometimes rising to the mid-20s. (Reader-audiences, NOT
+  meeting-audiences.)
+- **NIH project scope — confirmed from memory (20+ yrs):** numbers as recalled; recommend a
+  recalled-approximation register ("a team of around forty," "about a million dollars") rather than
+  false precision, given the span + memoir form.
+- **Father's details — CLEARED + CONSENTED:** author asked him; father confirmed no issue (the
+  author never heard anything he should not have). Use **diplomatic passport** (correction from
+  "political passport"), high clearance, etc. — naming the credentials exposes no secrets.
+- **Cable-TV-station rescue — confirmed as recalled.**
+- **Grandfather's patents — in the bibliography;** some specific ones the father described could not
+  be located → cite the located patents to ground "name in the patent record"; do NOT assert the
+  unfound ones.
+- **"Fifty-eight countries" — current as of this writing** (keep, with the "as of this writing"
+  framing).
+- **HGP overlap — UNDER DISCUSSION** (need the author's approximate NIH year to confirm it fits the
+  public HGP milestone: 2000 working draft / 2003 full sequence).
+
 ## The spine
 Five moments, the same bone-sense at five registers — and they are the book in miniature:
 - **(1) the credentialed colleague** — coercion (cost-bearer knows, is forced; freedom constrained)
