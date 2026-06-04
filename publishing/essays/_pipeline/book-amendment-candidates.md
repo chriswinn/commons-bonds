@@ -178,3 +178,32 @@ without an explicit author-ratified book-amendment session.
 - **Why it matters (book-level):** this is the cleanest rebuttal to the trojan-horse critique the author named — that the book could be read as "a renewables campaign in a cost-framework trojan horse." Demonstrating the framework's neutrality (no thumb on the scale; it just prices foreclosure; it even prices renewable *hardware's* costs) defends the book's credibility. It also reinforces the asteroid-iron "extract freely where cost severance is low" logic — renewables are the Earth-side instance of near-zero cost severance.
 - **Book action (held):** place the renewables source-vs-hardware neutrality demonstration in the framework's exposition (wherever even-handedness + the foreclosure axis is established — candidates: Ch 7 / Ch 9). Strengthens the framework's "accounting, not an argument" standing.
 - **Status:** LOGGED — book edit held; already applied to the $100 Barrel essay (renewables "third way" beat) 2026-06-03.
+
+## Candidate 7 — Coal per-ton figure ($510) cross-chapter propagation cascade (book side)
+
+- **Surfaced:** 2026-06-03, prepping the Aeon assembly. Candidate #5 reconciled the
+  McDowell coal figure to carbon ~$496 / total ~$510 and propagated it to **Ch 8 + the
+  essays/op-eds** — but NOT to the rest of the book or the canonical/shipping internal
+  artifacts, which still carry the OLD $524 / $510-carbon (and an older $550/$558 lineage
+  in Ch 9).
+- **Blast radius (mapped 2026-06-03):**
+  - **LIVE chapter prose:** **Ch 9 (Pricing Honestly)** ~line 116 uses **"$550"** for the
+    coal per-ton figure (its ~$500–$600 range still brackets $510, so the range is fine; the
+    $550 point estimate is the target). Verify Ch 7 ~line 213 "550" (off-world; likely
+    unrelated). Ch 8 already fixed today.
+  - **SHIPPING/CANONICAL artifacts to update:** `cross-chapter-consistency-inventory_2026-05-11.md`;
+    pre-pub review queues **ch8** (says "$524/ton total at low end of every component"), **ch9**,
+    **ch7**, **ch1** (verify which actually cite the coal figure).
+  - **HISTORICAL rigor-pass artifacts (~27 files carry 524/558/550): LEAVE AS-IS** —
+    point-in-time audit trail; rewriting them falsifies the record. The reconciliation commits
+    ARE the change record.
+- **Canonical figure:** carbon ~$496, total ~$510 ("more than $500, nearly all carbon" for
+  prose; precise $496/$510 + component table for the book). Per the Ch 8:28 conservative-floor
+  discipline, **$510 is the defended floor** (computed ~$509.50, rounded to $510).
+- **Recommended handling:** execute as the **FIRST task of the book-redraft phase** — a
+  dedicated coal-figure consistency cascade with a Stage-1c coherence check. Rationale: the book
+  is not imminently shipping (the essays are the active front and are already correct), the
+  redraft will be in these chapters anyway, and a multi-chapter figure reconciliation deserves a
+  proper pass, not a hurried patch. Update only LIVE chapter prose + canonical/shipping artifacts;
+  leave historical rigor records.
+- **Status:** LOGGED — queued for the book-redraft phase opening pass; blast radius mapped.
