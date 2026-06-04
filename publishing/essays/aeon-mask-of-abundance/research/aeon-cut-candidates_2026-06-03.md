@@ -43,7 +43,7 @@ skippable whole beat in the essay.
 **Lost if cut:** The cosmic-scale crescendo and the "off-world habitat as
 the longest-horizon reserve" payoff. Real texture loss, zero argument
 loss. The close still lands.
-**Verdict: SAFE.** Highest-confidence single cut.
+**Verdict: KEEP — reassessed 2026-06-04 per author. NOT a safe cut.** It is load-bearing: (a) it is the maximal form of "reserves, not discounting" — the framework's actual answer to the discount-rate war the lineage sets up (you do not discount a finite world to a smaller finite world; you hold a reserve so the option survives); (b) it justifies the entire off-world frame (the airlock/colony pays off because the off-world habitat IS the longest-horizon reserve, not just a lens); (c) the asteroid-miner reserve logic scales straight up into it. Also a strong Aeon-register fit (deep-time/cosmic perspective is Aeon's wheelhouse). The only caveat: it is an extension of the reserve logic, not a new mechanism, so for a tighter non-Aeon venue it would be a defensible cut. For this essay at this venue, KEEP.
 
 ### 2. Arm-4 market-structure paragraph — SAFE
 **Find:** "It is worth being exact about why the market is structurally
