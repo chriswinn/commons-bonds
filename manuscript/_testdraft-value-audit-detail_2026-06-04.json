@@ -1,0 +1,888 @@
+[
+ {
+  "chapter": "Ch5",
+  "cut_inventory": [
+   {
+    "what": "2008 four-objection inline rebuttal apparatus (orig lines 88-96): borrower-agency, global-not-US, TARP-repaid, Dodd-Frank-reform, each a full ~350w setup/serious-version/framework-response triad, plus the 'what survives' recap",
+    "verdict": "judgment-call",
+    "note": "Collapsed to one ~330w paragraph (test 90) + the recap (92). All four objection NAMES survive with a one-line rebuttal each, and the killer lines survive (TARP wrong accounting unit; reform partial/reversible; Volcker relaxed 2018-19). This is memo C-1, tagged TRADE: it deliberately loses inline adversarial depth for the academic reader, explicitly relocated to the Technical Appendix. The relocation pointer is asserted ('lives in the Technical Appendix') but I could not verify the TA actually carries the full four-objection engagement \u2014 flagged in lost_value."
+   },
+   {
+    "what": "Subprime 'documented playbook' specifics \u2014 CFPB post-crisis enforcement record, originator commissions tied to volume, broker-disclosed vs contract terms (orig 88)",
+    "verdict": "judgment-call",
+    "note": "The substance survives in compressed form in test 90 ('originator commissions tied to volume rather than to default rates, broker-disclosed terms differing materially from contract terms'). CFPB naming dropped. Minor."
+   },
+   {
+    "what": "Financial Crisis Inquiry Commission Basel/BIS, European banking exposure, Asian export-dependency specifics in the global-objection (orig 90)",
+    "verdict": "genuinely-non-earning",
+    "note": "Compressed to 'instruments predominantly US-originated, rating-agency conflicts and regulatory exemptions were US policy choices.' The load-bearing rebuttal logic survives; the inventory of global-transmission specifics was premature depth per memo I-1."
+   },
+   {
+    "what": "GAO/CBO lifetime-cost-review detail and 'legitimacy depletion' elaboration in TARP rebuttal (orig 92)",
+    "verdict": "genuinely-non-earning",
+    "note": "Core move ('public trust that absorbed the asymmetric rescue as evidence of the system's real priorities') survives in test 90. Procedural detail correctly cut."
+   },
+   {
+    "what": "Social Security two-objection apparatus (orig 128-146, ~1,650w): public-finance-prudence three-part structure + timeline-tractability with Bipartisan Policy Center / Concord Coalition / Simpson-Bowles / Domenici-Rivlin commission inventory",
+    "verdict": "judgment-call",
+    "note": "Memo C-2 (TRADE). Collapsed to two tight paragraphs (test 110, 112). The killer line survives verbatim-in-spirit: 'the accountability gap is upstream of the portfolio question and downstream of the timeline question.' 'Tractability is not the absence of severance; it is severance unfolding on schedule' survives. The named adjustment menu (payroll-tax/cap/benefit-formula/eligibility-age) survives. Commission names dropped \u2014 acceptable."
+   },
+   {
+    "what": "Swedish-1930s crisis-response inventory (orig 98, ~210w): krona devaluation 1931, Riksbank rescue + mortgage modification 1933, public-works 1934-37, Saltsj\u00f6baden 1938, Kindleberger 1973 / Eichengreen 1992 citations",
+    "verdict": "judgment-call",
+    "note": "Memo C-8 (TRADE). Reduced to a single contingency sentence (test 94) with explicit [RELOCATE TO Ch9] flag. I VERIFIED Ch9 (Chapter__9_PricingHonestly.md) does contain Saltsj\u00f6baden/Riksbank/krona material, so the relocation has a real home. Not a loss provided Ch9 carries the full inventory \u2014 confirmed present."
+   },
+   {
+    "what": "Four bond-naming etymology essays: Restitution-vs-Reparations/Restoration/Indemnification/Damages (orig 214); Foreclosure-vs-Future-Generations/Sustainability/Reclamation/Conservation/Intergenerational + forclore Old French gloss (orig 222)",
+    "verdict": "genuinely-non-earning",
+    "note": "Memo C-3 (SAFE). Rejected-alternatives enumerations cut. The load-bearing 'bond does three things' core survives (test 172) and the 'restitution keeps the instrument portable' justification survives folded into test 178. The forclore etymology was fully dropped \u2014 judgment call but memo rated SAFE."
+   },
+   {
+    "what": "Restitution/Reparations vocabulary triplication (orig 214, 216-218, 238)",
+    "verdict": "genuinely-non-earning",
+    "note": "Memo C-7 (SAFE). Merged into the single cleanest 238-version (test 178, the redress-typology framing). Pure de-duplication."
+   },
+   {
+    "what": "Rent-seeking / Public Choice five-bullet inventory (orig 192-202): Libby/Deepwater/2008/healthcare/McDowell rent-seeking specifics + 4x restatement of the complementary-but-asymmetric relationship",
+    "verdict": "judgment-call",
+    "note": "Memo C-5 (TRADE, recommended PARTIAL). Test 160-162 keeps the section but trims to 2 exemplar bullets (Deepwater/MMS, Gramm-Leach-Bliley) and the relationship stated once + 'use the vocabulary, not the project.' Libby/healthcare/McDowell rent-seeking specifics dropped (recoverable in Ch8/Ch9). The inoculating core survives. Memo recommended keeping the section visibly engaged \u2014 done."
+   },
+   {
+    "what": "Paragraph-final 'same mechanism' restatement tic (orig 100, 120, 148, 172, etc.)",
+    "verdict": "genuinely-non-earning",
+    "note": "Memo C-4 (SAFE). The dozen-plus inline 'mechanism is identical' restatements removed; the synthesis ('Pattern Made Visible') now carries it once. LLM-cadence residue correctly excised."
+   },
+   {
+    "what": "Three-scales handoff bridge paragraphs at section seams (orig 100, 148, 166)",
+    "verdict": "genuinely-non-earning",
+    "note": "Memo C-6 (SAFE). Compressed to one-sentence seams. Synthesis made them redundant."
+   },
+   {
+    "what": "Libby acquittal paragraph four-fold restatement (orig 34)",
+    "verdict": "genuinely-non-earning",
+    "note": "Memo C-9 (SAFE). Test 36 keeps the Pistor-seam setup and the 'four hundred dead... full record' close; redundant restatements removed."
+   },
+   {
+    "what": "Deepwater international-asymmetry jurisdictional inventory (orig 52): Oil Pollution Act 1990, state-level tort jurisprudence, class-action infrastructure detail",
+    "verdict": "genuinely-non-earning",
+    "note": "Memo C-10 (SAFE). Test 54 keeps the Mexico $25M / three-orders-of-magnitude datum + 'same spill, different legal architecture' point; the comparative-tort mini-essay cut."
+   },
+   {
+    "what": "Baotou no-villain elaboration (orig 72)",
+    "verdict": "genuinely-non-earning",
+    "note": "Memo C-11 (SAFE). Compressed to two sentences in test 74; full no-villain doctrine generalizes in the synthesis."
+   },
+   {
+    "what": "Triple closer (orig 250-256)",
+    "verdict": "genuinely-non-earning",
+    "note": "Memo C-12 (SAFE). Collapsed to the strongest single closer (test 202: 'Not whether cost severance exists, but what we do about it')."
+   },
+   {
+    "what": "Niger Delta references (orig: 3 uses \u2014 Restitution-Bond context 214, structural-independence example 228, Indigenous/ecosystem-restitution 240)",
+    "verdict": "lost-value",
+    "note": "ZERO occurrences in test-draft. Niger Delta was the chapter's only sustained non-US extraction-community exemplar for the Restitution Bond and the high-Restitution/low-Foreclosure case (orig 228 paired 'McDowell after coal, the Niger Delta after sixty years'). Its loss narrows the instrument's demonstrated portability to US-only cases. Flag for restoration \u2014 at minimum the orig-228 structural-independence example lost a second exemplar."
+   },
+   {
+    "what": "Christophers, The Price is Wrong (2024) pointer (orig 184)",
+    "verdict": "judgment-call",
+    "note": "Dropped entirely from test-draft. Memo \u00a76 rated it 'correctly a pointer' to Ch9. Low cost since it was only a forward-pointer, but it was a lit-positioning touch (climate-finance: profit not price) the matrix tracks. Confirm Ch9 carries Christophers if it is to be dropped here."
+   },
+   {
+    "what": "Asteroid-mining thought-experiment example (orig 228)",
+    "verdict": "judgment-call",
+    "note": "Test 184 keeps 'deep-seabed mining' as the low-Restitution/high-Foreclosure example but drops asteroid mining. One exemplar of two; acceptable thinning."
+   },
+   {
+    "what": "Social Security 'mechanism is identical... transfer accomplished through time rather than space' + 'politicians extracted electoral value and departed before costs came due' beats (orig 120, 122)",
+    "verdict": "judgment-call",
+    "note": "Partially folded into test 108 ('transferred forward in time to people too young to vote or not yet born'). The explicit space-vs-time contrast and the 'departed through retirement, defeat, or death' rhetorical beat are compressed. Emotional/rhetorical force slightly reduced but argument intact."
+   }
+  ],
+  "add_inventory": [
+   {
+    "what": "Polanyi (fictitious commodities / double movement) + Nancy Fraser (expropriation distinct from exploitation) naming and gloss in the synthesis (test 148)",
+    "verdict": "earns-place",
+    "note": "This is the memo's explicit HIGH-priority GAP-to-fill (\u00a710 + \u00a76 'the single biggest positioning miss'). It gives the 'six cases are one object' claim its theoretical name and closes a real lineage gap. VERIFIED absent from all other manuscript chapters, so this is the first home \u2014 appropriate. Earns its ~120 words."
+   },
+   {
+    "what": "Falsifiability paragraph (test 152): 'worth being precise about what would disconfirm this... applied to a well-managed regime it returns a small number... Chapter 4's Norway is the differentiating case... the variation is the test'",
+    "verdict": "earns-place",
+    "note": "Directly answers memo landing-point L (DROPPED falsifiability) and the \u00a77 exposed unfalsifiability objection. Memo recommended exactly a one-sentence-to-one-paragraph add gesturing to Ch4. Well-targeted."
+   },
+   {
+    "what": "Coase naming in the 2008 borrower-agency rebuttal (test 90): 'this is, in effect, the answer to the Coasean intuition that voluntary trades take care of themselves'",
+    "verdict": "earns-place",
+    "note": "Memo \u00a76 + \u00a77 flagged the chapter's strongest anti-Coase material was unlabeled. Naming it converts latent content into an engaged matrix cell at near-zero word cost."
+   },
+   {
+    "what": "Pigou/double-counting forward-pointer (test 170): '(How that accounting avoids simply re-deriving a Pigouvian externality tax, and how it avoids double-counting, is the work of Chapter 6's gates...)'",
+    "verdict": "earns-place",
+    "note": "Memo \u00a77 exposed-objection 'Just-Pigou/double-counting' recommended exactly this one-clause inoculating forward-pointer. Earns place."
+   },
+   {
+    "what": "Deepwater 'what kind of number this is' gloss (test 52): 'It is not modeled... it is what BP itself paid, set against losses courts, agencies, and insurers independently tallied'",
+    "verdict": "earns-place",
+    "note": "Reinforces the memo's move-2 'measurement not diagnosis; court-validated, conservative' thesis that memo landing-point F flagged as THIN/never-stated. Strengthens the originality framing the chapter most needs."
+   },
+   {
+    "what": "Sandel commodification-limit paragraph at the Butler emotional peak (test 134): 'a reader in the tradition of Michael Sandel will object that some things degrade when priced... The framework is not pricing the devotion. It is pricing the severance... The objection is serious and the book engages it directly elsewhere.'",
+    "verdict": "bloat-or-risk",
+    "note": "RISK, not bloat. The MOVE is good \u2014 memo \u00a77 flagged this as a live latent Sandel exposure at the chapter's emotional peak. BUT the paragraph asserts 'the book engages it directly elsewhere,' and I VERIFIED that Sandel/commodification appears in NO manuscript chapter. This is a forward-reference to content that does not exist \u2014 exactly the kind of unverifiable claim the no-invented-claims discipline guards against. The draft's own [RELOCATE/REFERENCE] flag concedes this ('confirm the owning chapter carries it'). Either the owning chapter must be created/confirmed, or the 'engages it directly elsewhere' clause must be softened to 'the framework's response here is...' Keep the paragraph; fix the dangling promise."
+   },
+   {
+    "what": "'Re-embedding / Polanyian double movement made operational' answer to the financialization objection, appended to the Pistor paragraph (test 180)",
+    "verdict": "judgment-call",
+    "note": "Genuine value (memo \u00a76 names Pistor as the financialization-objection answer site) but the draft's own flag says 'developed at fuller depth in Ch9; confirm Ch9 owns the full re-embedding treatment so this is preview not duplication.' Unverified cross-chapter dependency. Keep, but verify Ch9."
+   },
+   {
+    "what": "Norway-not-transferable parenthetical (test 116): '(Whether Norway's model transfers to a country of America's scale and politics is a fair question, and Chapter 4 answers it...)'",
+    "verdict": "earns-place",
+    "note": "Memo \u00a77 exposed-objection 'Norway-not-transferable' recommended a pointer. Low-cost inoculation pointing to Ch4."
+   },
+   {
+    "what": "CITATION GAP / RELOCATE bracketed editorial flags left inline throughout (test 30, 32, 50, 54, 64, 70, 72, 94, 106, 124, 126, 130, 134, 180, 188, 192)",
+    "verdict": "earns-place",
+    "note": "These are working-draft scaffolding, NOT prose for submission. Correct and useful for a test-draft (they surface the SS $108T and Baotou remediation numbers-are-invented exposures the memo \u00a79 rated highest-risk). MUST be stripped before any publisher-facing use \u2014 they would trip the Stage-1a scaffolding invariant scan. Appropriate at this stage."
+   }
+  ],
+  "lost_value": [
+   "Niger Delta exemplar fully dropped (3 uses in original \u2192 0). It was the chapter's only sustained non-US extraction-community example for the Restitution Bond and a load-bearing half of the structural-independence illustration (orig 228: 'McDowell after the coal era, the Niger Delta after sixty years of extraction'). Its removal narrows the demonstrated portability of the framework to US-only cases and weakens the 'methodology is portable; per-context calibration differs' claim. RESTORE at least the orig-228 structural-independence pairing.",
+   "UNVERIFIED RELOCATION TARGET \u2014 2008 full adversarial engagement: test 90 asserts the full four-objection rebuttal 'lives in the Technical Appendix.' The memo (C-1) proposed moving it 'to TA / rigor file' but this is a proposal, not a confirmed state. If the TA does not actually carry the borrower-agency / global / TARP / Dodd-Frank engagement, the chapter has quietly LOST ~1,200 words of adversarial depth rather than relocating it. Verify TA before treating this as a safe relocation.",
+   "DANGLING PROMISE \u2014 Sandel engagement: the new test-134 paragraph claims 'the book engages it directly elsewhere,' but Sandel/commodification appears in NO manuscript chapter (verified by grep across manuscript/). This is a forward-reference to non-existent content. Either confirm/create the owning chapter's Sandel treatment or soften the clause. As written it is an unsupported claim about the book's own contents.",
+   "Christophers (The Price is Wrong, 2024) pointer dropped (orig 184). Minor, but it was a tracked lit-positioning cell (climate-finance: profit not price drives investment). Confirm Ch9 carries Christophers; if not, the book loses the reference entirely.",
+   "Verify Ch9 actually carries the FULL Swedish-1930s inventory (krona devaluation, Riksbank+mortgage-modification, public works, Saltsj\u00f6baden, Kindleberger 1973 / Eichengreen 1992). Grep confirms Ch9 mentions Saltsj\u00f6baden/Riksbank, but confirm the Kindleberger/Eichengreen citations and the four-item policy inventory survive there so the C-8 relocation is not a quiet loss of the comparative citations."
+  ],
+  "overall_verdict": "The test-draft is a high-quality, lens-faithful compression that executes the deep-pass memo's recommended landing (~6.5K target overshot slightly to 8,822w, i.e. it did NOT take the aggressive Tier-2 collapse \u2014 it kept more than the memo's most aggressive option, which is the safer choice). All four spine moves survive at full strength; every case study retains full empirical weight; all four bond-naming load-bearing cores survive; the killer lines ('upstream of the portfolio question and downstream of the timeline question'; 'severance unfolding on schedule'; 'pricing the severance, not the devotion') survive. The additions are nearly all memo-sanctioned and genuinely value-adding: Polanyi/Fraser (the memo's #1 GAP), falsifiability, Coase-naming, Pigou-pointer, and the Deepwater measurement gloss all close exposed objections the memo identified. This is NOT a quiet-loss redraft for the mechanical cuts. BUT three real concerns block a clean 'lose-NONE-of-the-value' verdict: (1) Niger Delta is a genuine lost-value drop \u2014 the chapter's only non-US Restitution-Bond exemplar and half a structural-independence illustration, removed with no relocation home; restore it. (2) The Sandel paragraph asserts 'the book engages it directly elsewhere' when Sandel appears NOWHERE in the manuscript \u2014 an unsupported claim about the book's own contents that the no-invented-claims discipline forbids; the draft's own flag concedes it needs verification. (3) The 2008 four-objection relocation to the Technical Appendix is asserted as fact but is only a memo PROPOSAL \u2014 if the TA does not carry it, ~1,200w of adversarial depth is lost, not moved. None of these is fatal; all are fixable by restoration/verification rather than restart. The bracketed CITATION-GAP/RELOCATE flags are correct working-draft scaffolding but MUST be stripped before publisher-facing use.",
+  "safe_as_redraft_base": "yes-with-restorations"
+ },
+ {
+  "chapter": "Ch6",
+  "cut_inventory": [
+   {
+    "what": "\"Externality tail\" naming-defense essay (orig \u00b6121): the full lexicographic defense of *tail* over aftermath/trail/legacy/long-run/persistent, plus the bond-forward-posting-architecture consequence (\"a bond posted against bounded aftermath could discharge... a bond posted against a tail must carry forward indefinitely\").",
+    "verdict": "judgment-call",
+    "note": "Concept survives in test-draft \u00b694 (statistical-tail sense + Weitzman fat-tail cite + 'cumulative cost is dominated by the long-running tail'). The thesaurus rejections are genuinely appendix-grade. BUT the original's final sentence \u2014 that naming the tail is what makes the bond's forward-posting architecture NECESSARY \u2014 is a load-bearing argument step (it links the term choice to the instrument design), not mere lexicography. The test-draft drops it entirely. Memo C-1 said 'keep concept + Weitzman, drop rejections' \u2014 it did not flag the bond-architecture consequence as droppable. See lost_value."
+   },
+   {
+    "what": "\"Commons Inversion Test\" naming defense (orig \u00b6303, ~310w): the David Lewis counterfactual lineage + defense of *inversion* over reversal/recovery/counterfactual + the revealed-preference-rejected-as-gate argument.",
+    "verdict": "genuinely-non-earning",
+    "note": "Per memo I-2/C-2. The operational core ('would the same extraction impose this cost if the commons were non-scarce?') is preserved in test-draft \u00b6123 as the first gate. The name-defense and Lewis lineage are appendix material. Clean cut."
+   },
+   {
+    "what": "Redundant revealed-preference-at-the-gate rejection (orig \u00b6305, ~190w).",
+    "verdict": "genuinely-non-earning",
+    "note": "Per memo I-3/C-3. Verbatim-duplicative of orig \u00b6303's closing move. The 'revealed preference as estimation input not as discrimination gate' point is still implicitly carried by Method 2's framing. Clean cut."
+   },
+   {
+    "what": "\"Residual Commons Value\" naming-defense thesaurus (orig \u00b6325): the per-word rejection of resource/public-good/natural-capital (for Commons) and cost/wealth/worth (for Value).",
+    "verdict": "genuinely-non-earning",
+    "note": "Per memo I-4/C-4. The load-bearing Hartwick/Ostrom/Mazzucato positioning IS preserved in test-draft \u00b6225 ('residual in Hartwick's sense... commons in Ostrom's sense... value in Mazzucato's sense'). Only the thesaurus is gone. Clean."
+   },
+   {
+    "what": "\"Asymmetric Regret Rule\" naming defense (orig \u00b6361, ~190w): regret-vs-risk and asymmetric-vs-one-sided distinctions.",
+    "verdict": "genuinely-non-earning",
+    "note": "Per memo I-5/C-5. ARR is explicitly deferred to Appendix \u00a78 + Ch 9 in both versions; the test-draft \u00b6247 keeps the ARR's substantive content (why CBA fails: irreversibility, deep uncertainty, asymmetric regret) and drops only the name-defense. Clean."
+   },
+   {
+    "what": "Standalone \u00a7The Four Gates section (orig \u00b6287-315, ~1,500w): full apparatus with two CIT sub-forms (Commons-Absence / Commons-Consumption Inversion), worked examples, and the second revealed-preference rejection.",
+    "verdict": "judgment-call",
+    "note": "Memo's recommended landing said KEEP a compressed Four Gates in-chapter, relocated to follow the formula. The test-draft did relocate (gates now in \u00b6123, right after the formula) and compressed hard \u2014 but it dropped the two CIT sub-forms (Commons-Absence vs Commons-Consumption Inversion) entirely. Those sub-forms are not pure pedagogy: Commons-Consumption Inversion is the operation that admits the personal-scale time/autonomy cases (the 120-hour-week) and distinguishes extraction-commons from Ostrom coordination-commons. With Ten Commons Categories also cut, the sub-form machinery has no other home in-chapter. See lost_value."
+   },
+   {
+    "what": "Standalone \u00a7Ten Commons Categories section (orig \u00b6233-253, ~1,150w): the ten-category list, the illustrative-not-exhaustive framing, the three political-tradition readings (classical-liberal/civic-republican/lived-oppression), and the Ch 1 120-hour-week autonomy-commons recap.",
+    "verdict": "judgment-call",
+    "note": "Per memo C-6 (a TRADE). Test-draft \u00b6245 compresses to a one-paragraph pointer ('walked one of them, habitability... ten are examples not a closed enumeration'). DEFENSIBLE relocation of Ch 1's ontology debate. But note: original promised 'walks TWO of the ten at depth' (habitability + time/autonomy); test-draft now says 'walked ONE' (habitability only) \u2014 the promise is honestly downgraded, not broken. The political-tradition-neutrality demonstration is fully gone from Ch 6; mitigant is Ch 1 ownership."
+   },
+   {
+    "what": "Standalone \u00a7What Is Owed (orig \u00b6255-273, ~1,050w): full Parfit non-identity treatment + full Amartya Sen capability-valuation grounding + the Restitution/Darity-Mullen methodological note.",
+    "verdict": "judgment-call",
+    "note": "Per memo C-7. Test-draft \u00b6243 keeps a compressed Parfit nod (non-identity \u2192 impersonal-outcomes \u2192 two-instrument architecture) AND adds the Coase rebuttal ('future generations cannot bid'). Sen is cut entirely. The memo explicitly recommended 'Sen out, Parfit compressed.' Defensible \u2014 but the original's Sen block answered a DISTINCT question (Parfit grounds WHETHER future gens have standing; Sen grounds HOW their standing is valued). The test-draft's compressed Parfit nod does not absorb the Sen 'how-to-value' function. Minor exposed flank; arguably Ch 5/Ch 7's job."
+   },
+   {
+    "what": "DAC cost-horizon dump in Approach 1 (orig \u00b658-62): four DAC horizons (Climeworks Orca/Mammoth/Gen-3 with June 2024 Zurich summit date, Carbon Engineering Stratos mid-2026 ramp, IEA DAC 2022, IPCC AR6 WGIII) + the damage-vs-engineering-reversal distinction.",
+    "verdict": "genuinely-non-earning",
+    "note": "Per memo I-11/C-8. Test-draft relocated the DAC horizons to Method 1 (\u00b6131) where DAC is actually used, and kept a 2-sentence damage-vs-replacement distinction in Approach 1 (\u00b654). This is exactly the recommended move. Improvement, not loss."
+   },
+   {
+    "what": "SCC-is-political over-argument + 'parameters becoming more estimable' optimism coda (orig \u00b654-57).",
+    "verdict": "genuinely-non-earning",
+    "note": "Per memo I-10/C-11. Test-draft \u00b650-52 keeps the strong core (SCC-zero is also a choice; weather-model analogy; structures-not-eliminates uncertainty) and cuts the 'uncertainty is narrowing' coda that invited the Simon-Ehrlich substitution-optimism objection. Cleaner and less exposed. Good cut."
+   },
+   {
+    "what": "IPG reconciliation thicket (orig \u00b6183-194, ~600w): the 33-122x vs 50-555x reconciliation PLUS per-case Libby-40x, Deepwater-40%-recovery micro-reconciliations PLUS 'every figure carries an implicit method-and-time-horizon attribution.'",
+    "verdict": "judgment-call",
+    "note": "Per memo C-10. Test-draft \u00b6175 compresses to the one load-bearing sentence (the two ranges differ by time-horizon-anchored, not contradiction; Appendix \u00a711.11 for full). HOWEVER: the original's 50-to-555x triangulated range is now DROPPED from main prose entirely \u2014 test-draft only states Ch 2's 33-122x and 'the wider triangulated range.' The 555x figure (M3 ceiling) no longer appears. Memo \u00a78 flagged 555x as 'the most exposed instance \u2014 confirm intended for main-text.' Dropping it is arguably safer, but it is a substantive number-loss the memo did not explicitly direct. See lost_value (low priority)."
+   },
+   {
+    "what": "Per-case re-application in \u00a7The Contribution (orig \u00b6343-347): McDowell/Deepwater/Libby each re-walked a third time under the 'three additions' lens.",
+    "verdict": "genuinely-non-earning",
+    "note": "Per memo I-16/C-12. Test-draft \u00b6235 keeps ONE McDowell worked comparison (standard Pigouvian floor vs RCV) and drops the Deepwater + Libby re-walks (the convergence table + Approach-1 walk already carried them). Good de-duplication."
+   },
+   {
+    "what": "Third Ostrom-distinction restatement; merged \u00a7Two Kinds of Commons (orig \u00b6275-285).",
+    "verdict": "judgment-call",
+    "note": "Per memo C-13. Test-draft \u00a7What Kind of Commons (\u00b6207-219) keeps the coordination-vs-extraction distinction AND the heterogeneous/divided-stakeholder + stratification-economics (Darity-Hamilton) extension \u2014 both matrix-load-bearing cells the memo said keep. De-duplicated from 3 Ostrom-distinctions to ~1. Preserved correctly."
+   },
+   {
+    "what": "Falsifiability second worked case (construction sand) + two-layer CIT-vs-empirical distinction (orig \u00b6205-211).",
+    "verdict": "judgment-call",
+    "note": "Per memo C-14. Test-draft \u00b6187 keeps the Yeager analogy + ONE CS\u22480 worked case (plantation timber) and drops the construction-sand case + the Commons-Inversion-Test-is-a-thought-experiment-filter-not-empirically-falsifiable distinction. The dropped two-layer distinction was a genuine clarification (it pre-empts the objection 'your CIT is itself unfalsifiable'). One worked case is defensible; the two-layer nuance is a minor exposed flank, memo-sanctioned."
+   },
+   {
+    "what": "Darity longevity-gap worked depth in Approach 1 (orig \u00b634): the 6-7yr Black-white gap specifics + 'racially-stratified vs coal-extraction-affected' calibration contrast.",
+    "verdict": "genuinely-non-earning",
+    "note": "Per memo I-15/C-15. Test-draft \u00b634 keeps the methodology-travels claim + Ch 5 cross-ref, trims the worked depth. Clean; Ch 5 owns the depth."
+   },
+   {
+    "what": "Institutional-asymmetry double-statement inside \u00a7Three Ways Inside RCV (orig \u00b6137).",
+    "verdict": "genuinely-non-earning",
+    "note": "Per memo I-12/C-16. Test-draft \u00b6129 states the DCF-prices-profit-not-harm point once. The original's closing 'the triangulation is the work that gives the RCV claim its standing' sentence is dropped \u2014 minor, the point is implicit. Clean."
+   },
+   {
+    "what": "Method 3 numeric specifics (orig \u00b6143): the explicit '$420 to $13,100/ton, mid ~$2,500' range and the '\u03b1-dominance regime 0.9-1.0' / 'asymmetric-regret structure is the dominant cross-case driver' language.",
+    "verdict": "judgment-call",
+    "note": "Test-draft \u00b6135 softens to 'a wide per-ton range running into the thousands, with a mid-range estimate of a few thousand dollars per ton' and drops the explicit $13,100 ceiling and the \u03b1-dominance numeric. The convergence TABLE (\u00b6165) still carries '$420-$13,100/ton; mid $2,500' verbatim, so the figure is not lost from the chapter \u2014 but the prose no longer names it, creating a soft prose/table mismatch. Memo \u00a79 gap-7 flagged $13,100 as 'the kind of number a hostile reader will demand provenance for,' so softening prose while keeping the sourced table cell is reasonable. Low risk."
+   },
+   {
+    "what": "Bidirectional-reverse-triangulation case lineage (orig \u00b6145): the full reverse-direction list \u2014 Holocaust reparations, 1988 Civil Liberties Act (Japanese-American internment), Black Lung Trust Fund payouts, South African TRC, Darity-Mullen 2020 / 1619.",
+    "verdict": "judgment-call",
+    "note": "Test-draft \u00b6137 compresses to 'revealed restitution (the case lineage of reparations economics that Darity and Mullen developed for harm accumulated through policy choices over generations).' The specific historical-precedent roster (Holocaust, internment redress, TRC) is dropped. These are concrete, credibility-bearing precedents for the Restitution Bond's empirical standing. Defensible if Ch 5 carries them, but the memo did not explicitly direct this compression \u2014 verify Ch 5 holds the roster. Minor lost-value candidate."
+   }
+  ],
+  "add_inventory": [
+   {
+    "what": "Polanyi fictitious-commodities + Fraser expropriation-as-condition-of-accumulation positioning (test-draft \u00b6215), grounding the 'same object' structural-commons claim (reef = atmosphere = labor = future generation).",
+    "verdict": "earns-place",
+    "note": "This is the memo's flagged #1 exposed flank (\u00a77, \u00a710: 'Polanyi + Fraser ABSENT \u2014 GAP... the book's #1 ratified GAP. Ch 6's extraction-commons section is the single best insertion point'). The addition lands exactly where the memo recommended (the extraction-commons class). It does real positioning work and converts a bare assertion ('the asymmetry is structural') into a named lineage with a precise claim (diagnosis named it, the framework prices it). Carries a [CITATION GAP] flag for specific works \u2014 acceptable for a test-draft. Strong, earned addition."
+   },
+   {
+    "what": "David Harvey accumulation-by-dispossession positioning (test-draft \u00b6215, appended to the Polanyi/Fraser paragraph): 'Harvey diagnosed the mechanism... RCV measures the magnitude.'",
+    "verdict": "earns-place",
+    "note": "Memo \u00a76 matrix listed Harvey as 'MEASUREMENT-TOOL \u2014 DROPPED... the book's meta-claim but Harvey is not named in Ch 6.' The addition restores a dropped matrix cell with the book's signature diagnose-vs-measure framing. One sentence, high value-per-word. Earned."
+   },
+   {
+    "what": "Pistor financialization objection + Polanyi double-movement / re-embedding answer (test-draft \u00b6219): 'has it not simply deepened the commodification it claims to oppose?' answered via the double movement, with full development deferred to Ch 9.",
+    "verdict": "earns-place",
+    "note": "Memo \u00a77 flagged this as 'the chapter's biggest exposed flank given that it's the chapter that introduces the bond-as-RCV-sized instrument' and recommended a 1-paragraph engagement. The addition is exactly that: names the objection (Pistor Code of Capital), gives a real answer (bond makes consumption more expensive than extraction is worth = opposite of a market in the commons), and defers full treatment to Ch 9. Converts an EXPOSED objection to ENGAGED. Earned."
+   },
+   {
+    "what": "Coasean objection rebuttal (test-draft \u00b6243): 'future generations cannot bid, so there is no bargaining table.'",
+    "verdict": "earns-place",
+    "note": "Memo \u00a76/\u00a77 flagged Coase as 'CONTRADICT, implicit, THIN \u2014 present only via Parfit/non-identity, not named as a Coase rebuttal.' The addition names it explicitly and ties it to the non-identity ground. One sentence, closes a thin flank. Earned."
+   },
+   {
+    "what": "Through-question framing added to intro (test-draft \u00b618): 'Am I looking at the full honest accounting?' with the downwind/county-empties/generations gloss.",
+    "verdict": "earns-place",
+    "note": "Memo \u00a71 explicitly distilled the spine to this through-question ('Distill to the through-question: \"Am I looking at the full honest accounting?\"'). The addition installs it as an explicit reader-anchor and supplies the one bit of human texture (downwind people, the county that empties) the memo \u00a75 noted the chapter lacked (H/G landing-points THIN/DROPPED). Earned."
+   },
+   {
+    "what": "Promoted thesis sentence to the convergence climax (test-draft \u00b6179): 'That difference is not a rounding error. It is the subsidy by which the entire extraction economy runs' \u2014 now appears at the climax (\u00b6179) AND the close (\u00b6251).",
+    "verdict": "earns-place",
+    "note": "Memo I-17/\u00a75-K flagged the takeaway as BURIED (only at the final line, climax at orig \u00b6199 followed by 170 lines of apparatus). Moving the subsidy line up to the convergence climax fixes the structural burial the memo's single biggest structural complaint. Earned. (Minor: it now appears twice, \u00b6179 and \u00b6251 \u2014 acceptable bookending, not bloat.)"
+   },
+   {
+    "what": "Carbon/total figure reconciliation to canonical set (test-draft \u00b642-44): carbon = $496 (2.61t \u00d7 $190, Pocahontas), honest total = $510, Pigouvian floor $504-518, with explicit Ch 8 deferral for the full decomposition.",
+    "verdict": "earns-place",
+    "note": "Memo \u00a78 was the 'real, actionable problem' section: original ran $441 carbon / $449-464 national total / $518-532 McDowell with canonical $496/$510 ABSENT. The test-draft replaces the dual-basis muddle with the canonical $496 carbon / $510 total / $504-518 floor \u2014 exactly the ratified set the memo said to reconcile to. This is a correctness FIX, not bloat. Strong. (Verify Ch 8 carries $496/$510 per memo \u00a710 dependency flag before finalizing the forward-reference.)"
+   },
+   {
+    "what": "Explicit cross-chapter pointers replacing re-walks: Ch 2 (Trust Fund), Ch 4 (Norway fund mechanics, twice \u2014 \u00b6133 and \u00b6197), Ch 5 (Darity lineage, two-instrument), Ch 1 (autonomy/time), Ch 8 (decomposition).",
+    "verdict": "earns-place",
+    "note": "These are the connective tissue that lets the relocations be safe rather than lossy \u2014 each cut section now has an explicit 'X chapter walks this' pointer. Good discipline; they cost few words and prevent orphaned references."
+   },
+   {
+    "what": "Six [CITATION GAP] / two [RELOCATE TO ...] inline bracketed flags left in the test-draft body.",
+    "verdict": "judgment-call",
+    "note": "These are working-draft scaffolding, NOT shippable prose \u2014 they would trip the Stage-1a scaffolding invariant scan (placeholders/process-vocabulary) if this draft moved toward render. Appropriate and useful in a test-draft (they honestly mark what still needs sourcing per the no-invented-facts rule), but they MUST be resolved or stripped before this becomes a redraft base that goes anywhere near Stage 4. Not bloat-or-risk to the argument; flagged so the author does not mistake the test-draft for submission-ready."
+   }
+  ],
+  "lost_value": [
+   "BOND-FORWARD-POSTING ARCHITECTURE LINK (orig \u00b6121 final sentence). The original closes the externality-tail discussion with a load-bearing argument step: 'Naming the tail is what makes the bond's forward-posting architecture necessary: a bond posted against bounded aftermath could discharge when the aftermath ends; a bond posted against a tail must carry forward indefinitely.' This is not lexicography \u2014 it is the causal link from the term choice TO the instrument design (why the bond must carry forward forever). The test-draft (\u00b694) keeps the statistical-tail concept + Weitzman but drops this consequence entirely. In a chapter that introduces the bond-as-RCV-sized instrument, the 'why the bond can't discharge' reasoning is worth restoring as one sentence. Memo C-1 did not flag it as droppable.",
+   "COMMONS INVERSION TEST TWO SUB-FORMS (Commons-Absence Inversion vs Commons-Consumption Inversion, orig \u00b6293-301). The test-draft compresses the CIT to a single operational sentence in the first gate (\u00b6123) and drops both named sub-forms. These are not redundant pedagogy: Commons-Consumption Inversion is the specific operation that (a) admits the personal-scale time/autonomy cases and (b) distinguishes extraction-commons from Ostrom coordination-commons ('a coordination commons fails the second test'). The original's \u00a7Two Kinds of Commons explicitly relied on the two sub-forms to make the Ostrom routing work ('A coordination commons fails the second test... An extraction commons passes the second test'). The test-draft's \u00a7What Kind of Commons (\u00b6211-213) now makes the Ostrom distinction WITHOUT the sub-form machinery, which works but loses the crisp operational test. With Ten Commons Categories also cut, the sub-forms have NO home left in-chapter. Restore at least the named Commons-Absence / Commons-Consumption distinction (one or two sentences) \u2014 it is the operational heart of the discovery method the chapter claims as its #3 contribution.",
+   "SEN CAPABILITY-VALUATION 'HOW' FUNCTION (orig \u00b6273). The test-draft's compressed Parfit nod (\u00b6243) grounds WHETHER future generations have standing but drops Sen's grounding of HOW that standing is valued (capability sets the framework's accounting can preserve or extinguish). The original explicitly paired them ('Parfit grounding the standing, Sen grounding the valuation'). Lower priority than the two above (arguably Ch 5/Ch 7's job, and the memo sanctioned cutting Sen) \u2014 but flag it: with Sen gone, a reader asking 'why is RCV the right thing to measure, morally?' gets the standing answer but not the valuation answer. A single clause naming the capability-valuation register would close it.",
+   "REVERSE-DIRECTION RESTITUTION PRECEDENT ROSTER (orig \u00b6145): Holocaust reparations, the 1988 Civil Liberties Act (Japanese-American internment redress), Black Lung Trust Fund payouts, the South African TRC. The test-draft (\u00b6137) compresses to 'reparations economics that Darity and Mullen developed.' These named precedents are concrete credibility anchors for the Restitution Bond's claim that backward-looking person-affecting accounting is real, established practice \u2014 not a coinage. Restore at least the roster as a parenthetical IF Ch 5 does not already carry it (memo \u00a710 says verify Ch 5 ownership). Low-to-medium priority.",
+   "555x TRIANGULATED IPG CEILING dropped from main prose (orig \u00b6185-187). The original stated the 50-to-555x triangulated range in main text; the test-draft (\u00b6175) names only Ch 2's 33-122x and 'the wider triangulated range' without the 555x number. The number still lives in the convergence table cell (M3 $420-13,100 \u2192 ~555x implied) but the prose no longer states it. Memo \u00a78 flagged 555x as the most-exposed-instance and said 'confirm intended for main-text vs TA-only' \u2014 so dropping it from prose is plausibly CORRECT (reduces a hostile-reader provenance demand). Flagged only for completeness: confirm the drop is intended, not accidental. Low priority."
+  ],
+  "overall_verdict": "The test-draft is a strong, disciplined execution of the deep-pass memo, not a quiet-loss sleeper draft. It hit the memo's recommended ~8,500-9,000-word landing almost exactly (13,431 \u2192 9,103 words, a 32% cut) and the cut profile matches the memo's prescriptions closely: all four naming-defense thesaurus passages gone (C-1 through C-5), the DAC dump relocated to Method 1 (C-8), the SCC optimism coda dropped (C-11), the per-case re-walks de-duplicated (C-12), the Ostrom distinction collapsed from 3x to 1x (C-13), and the IPG reconciliation thicket compressed (C-10). The spine the memo identified as 'excellent and should survive intact' DID survive intact and is materially more authoritative without the defensive over-explanation. Better still, the draft delivered four of the memo's flagged value-ADDS that were not mere cuts: it inserted the Polanyi/Fraser/Harvey structural-commons grounding (the memo's #1 exposed flank), the Pistor financialization engagement (the #2 exposed flank), the Coase rebuttal (a thin flank), and it FIXED the \u00a78 figure-drift by reconciling carbon/total to the canonical $496/$510/$504-518 set \u2014 a correctness win, not just a length win. It also fixed the buried-climax problem (I-17) by promoting the subsidy thesis to the convergence climax. So on the 'does it address everything needed to land' axis: yes, comprehensively. On the adversarial 'did it lose NONE of the value' axis the answer is: it lost a SMALL amount of genuinely load-bearing content beyond what the memo authorized \u2014 most importantly (1) the bond-forward-posting-architecture link in the externality-tail passage, and (2) the two named Commons Inversion Test sub-forms (Commons-Absence / Commons-Consumption), which are the operational heart of the discovery method the chapter claims as a core contribution and which now have no home in-chapter after the Ten-Categories and Four-Gates compressions. These are restorable in 2-4 sentences total. Secondary minor losses (Sen 'how-to-value', the reverse-direction precedent roster, the 555x prose figure) are defensible and arguably belong to other chapters. Two operational caveats: the draft still carries six [CITATION GAP] and two [RELOCATE] bracketed flags that are working scaffolding and must be resolved/stripped before any move toward render (they would trip the Stage-1a scaffolding invariant scan); and the canonical-figure fix depends on Ch 8 actually carrying $496/$510 (memo \u00a710 dependency flag \u2014 verify before finalizing).",
+  "safe_as_redraft_base": "yes-with-restorations"
+ },
+ {
+  "chapter": "Ch9",
+  "cut_inventory": [
+   {
+    "what": "Step 1 renewable-commons 'third category' excursus (orig line 34, ~210w): solar-access easements, wind-rights, rainwater-harvesting laws, atmospheric-oxygen-via-deforestation edge-case catalogue + 'substitutability functions that approach unity' detail.",
+    "verdict": "genuinely-non-earning",
+    "note": "Test-draft line 36 preserves the load-bearing claim (renewable commons read low-gap by construction; 'use freely'; price only the captured/contested edge cases by cost severance). Only the example catalogue is gone. Spine intact. Matches deep-pass item #9 SAFE."
+   },
+   {
+    "what": "Step 1 helium-3 / lunar-regolith parenthetical and the longer phosphorus/groundwater framing (orig line 30): 'Helium-3, should fusion reactors ever run on it... lunar regolith at orders-of-magnitude higher (though still parts-per-billion) concentrations.'",
+    "verdict": "judgment-call",
+    "note": "Test-draft line 32 keeps phosphorus, fossil aquifers (all three named), and helium He-4, but drops helium-3/fusion/lunar-regolith here. Helium-3 reappears in the property-rights section (test line 172, 'would have priced at zero in 1900'), so the concept is not lost from the chapter, only the Step-1 instance. Low risk."
+   },
+   {
+    "what": "Step 1 closing 'Medium-existential-substitutability-gap resources get progressive extraction rates and sovereign wealth mechanisms like Norway's' rephrased to 'sovereign-fund mechanisms of the kind Chapter 4 examines' (orig line 38 \u2192 test line 40).",
+    "verdict": "genuinely-non-earning",
+    "note": "Equivalent content; adds a useful Ch4 cross-ref. No loss."
+   },
+   {
+    "what": "The full ~1,400-word 2008-TARP-vs-Sweden-1932 financial-crisis case study (orig lines 120-130): Mian & Sufi welfare math + bottom-40% 3-4x figure, $11T household wealth, ~10M foreclosures, $700B TARP, Saltsjobaden 1938, 1992 Swedish bank crisis equity-recovery.",
+    "verdict": "lost-value",
+    "note": "RELOCATED via explicit '[RELOCATE TO Ch5]' bracket (test line 142), NOT yet present in Ch5. The one-sentence thesis + Mian-and-Sufi name + the bank-rescue-could-organize / foreclosed-households-could-not contrast + Sweden-combined-both ARE retained in test line 142 prose. But the vivid macro-scale demonstration, the quantified welfare differential, and all the historical specifics are currently absent from the corpus until Ch5 actually receives them. This is the single largest cut and its safety is contingent on the Ch5 relocation being executed. Deep-pass memo \u00a710 explicitly says 'Confirm those chapters do not already carry the same material.'"
+   },
+   {
+    "what": "Public Choice section compressed ~960w \u2192 ~600w (orig lines 136-148 \u2192 test 150-156): cut the FMLA-1993-twelve-weeks-unpaid worked example, the explicit 'readers at AEI, Cato, the Mercatus Center, George Mason economics' address-list, and the 'measurement tool and a decision tool' elaboration.",
+    "verdict": "judgment-call",
+    "note": "The genuinely-original move is fully retained (Public Choice supplied the vocabulary for the extractor's reasoning; framework supplies cost-visibility; asymmetry breaks where extractor and bearer overlap, with the electronics-consumer example kept). LOST: the explicit center-right think-tank courtship (landing-point I) and the concrete FMLA institutional-design example. Per deep-pass item #7 this is an accepted TRADE, but the think-tank-audience targeting was a deliberate positioning asset; flag for author awareness."
+   },
+   {
+    "what": "Property-rights Pistor/Christophers/Adam-Smith coda (orig lines 166-170, ~250w): the full Christophers 'The Price is Wrong' (2024) climate-finance passage + 'public ownership... not extreme... what honest accounting requires'.",
+    "verdict": "judgment-call",
+    "note": "RELOCATED via '[RELOCATE TO Ch5]' bracket (test line 176). The Adam Smith 'completion of the market mechanism' line IS retained (moved up to test line 174). The Pistor financialization answer is carried by the NEW re-embedding section (test line 120). LOST from corpus until Ch5 receives it: the Christophers 'markets do not price climate solutions because investment is driven by profit not price' diagnosis and the 'public investment is not extreme' conclusion. Christophers is a matrix-cell positioning; its absence is a real (if minor) positioning loss pending relocation."
+   },
+   {
+    "what": "Nordic objection compressed ~880w \u2192 ~280w (orig lines 174-190 \u2192 test 180-184): the four-condition steelman is collapsed from four full paragraphs (scale / demographic homogeneity with three pressure-test responses / resource base / historical contingency) into a single compressed paragraph.",
+    "verdict": "lost-value",
+    "note": "The decisive move is retained (mechanism is not Nordic-culture-dependent; corrective architectures have US state-scale partial implementations; integration is empirical-political not structurally-impossible; contingency runs forward; Ch10 names decision points). LOST: the demographic-homogeneity steelman with its three specific pressure-test rebuttals (Nordic countries integrated post-WWII immigration; Minnesota/Oregon/Vermont/California/Massachusetts outcomes correlate with policy not demographics; framework does not require ethnic homogeneity), plus the Medicare/Medicaid + Massachusetts/California/Washington + Mitchell-Lama/Montgomery-County concrete examples. Deep-pass item #6 calls this a TRADE that 'loses steelman thoroughness valued by adversarial Tier-1 audiences.' For an adversarial reader this is the most substantive argumentative loss in the draft \u2014 the homogeneity rebuttal was the steelman's 'strongest claim' per the original."
+   },
+   {
+    "what": "Entire 'What the eleven-cent difference actually buys' section (~1,300w, orig lines 194-208): Tax Foundation tax-wedge numbers (30% US / 42% Sweden; 26%/41% tax-to-GDP), universal-healthcare/parental-leave/childcare list, US healthcare-financing architecture + 28M uninsured, GoFundMe medical-crowdfunding (Berliner & Kenworthy 2017, 250k campaigns, Ly & Soman 2020, Kenworthy & Igra 2024), Mirror Mirror, the 'trade-off sold as freedom' argument, the rent-extractor/political-capture/information-shield cluster.",
+    "verdict": "lost-value",
+    "note": "RELOCATED wholesale via '[RELOCATE TO Ch4]' implied by deep-pass (test-draft simply omits it; deep-pass item #4 says relocate to Ch4). This is a large, self-contained, high-impact argument ('you already pay Swedish taxes and get nothing back' \u2014 landing-point K gut-punch). It is currently ABSENT from the corpus entirely. The deep-pass concedes it is 'mis-shelved' in Ch9 but it must actually land in Ch4 or it is a pure loss. Also note: the 'information shield / political-capture shield / rent-extractor cluster' concealment-taxonomy language (deep-pass \u00a75 landing-point N) is orphaned by this cut."
+   },
+   {
+    "what": "Chattanooga EPB / Mondragon / Vienna Gemeindebau trio (~900w, orig lines 220-228): three reachable-horizon set-pieces for infrastructure/labor/housing commons.",
+    "verdict": "lost-value",
+    "note": "RELOCATED via '[RELOCATE TO macro chapter]' bracket (test line 200). These are, per the deep-pass itself, 'among the book's strongest it-works demonstrations' and carry landing-points H/I (emotional/concrete 'it works' texture, the chapter's THIN human/values register). They are entirely absent from the corpus until a macro chapter receives them. The test-draft does NOT even leave a one-clause reference where they were, despite the deep-pass recommending 'a one-clause reference here at most.' Highest-risk relocation because the destination ('macro chapter') is unspecified in the deep-pass (\u00a710: 'possibly Ch4 or Ch10')."
+   },
+   {
+    "what": "Clarion-Clipperton Zone / ISA / Nauru-2-year-rule full treatment (~500w, orig lines 234-238): polymetallic nodules, 4.5M km2, ISA 1994/UNCLOS, exploration contracts since 2001, Ch7 Europa-ocean + immune-response/simulated-reattachment stress-test cross-refs.",
+    "verdict": "genuinely-non-earning",
+    "note": "CUT entirely (no replacement text). Deep-pass item #3 SAFE: 'it re-runs Steps 1-4 the reader just finished.' True. But note the test-draft does not even leave the recommended '2 sentences (CCZ exists; framework reads it preserve-and-study; decision is live).' Minor: a live, contested, near-term policy case is fully gone, which slightly weakens the 'reachable now' texture, but no argument step lost."
+   },
+   {
+    "what": "Rare-earth program catalogue trimmed (orig lines 230-232, ~400w of detail): MP Materials/Mountain Pass full history (2002 closure, 2015 Molycorp bankruptcy, 2017 acquisition, 2018 restart), EU CRMA exact counts (34 critical/17 strategic), Japan-Lynas-Senkaku-2010, South Korea 2019.",
+    "verdict": "genuinely-non-earning",
+    "note": "Test line 196 retains the point with EU CRMA (tied to Step 1), Mountain Pass restoration, and Japan/Korea named in compressed form. Specific dates/counts moved to [CITATION GAP] flags. No argument loss; matches deep-pass item #5 SAFE."
+   },
+   {
+    "what": "Frameworks roll-call trimmed (orig lines 262-270): Matthew Desmond's Evicted paragraph and Daniel Susskind's Growth: A Reckoning paragraph both dropped to nothing (Harvey + Ostrom + Raworth retained).",
+    "verdict": "genuinely-non-earning",
+    "note": "Test lines 220-222 keep Harvey (now enriched with the diagnose-vs-measure point), Ostrom, Raworth. Desmond and Susskind gone. Deep-pass item #8 SAFE ('point over-proven at five examples'). Susskind was a late comp-positioning add; Desmond carried housing-narrative texture but the point survives. Acceptable."
+   },
+   {
+    "what": "Numerous small voice-compression rewrites throughout (e.g. 'imposes externality costs \u2014 the mine pit, the tailings' \u2192 'imposes externality costs, the pit, the tailings'; em-dashes converted to commas per house style).",
+    "verdict": "genuinely-non-earning",
+    "note": "Consistent with the project's em-dash-overuse discipline (feedback_em_dash_overuse). No content loss; arguably improves flow."
+   },
+   {
+    "what": "Original closing hinge line 'a fact about ourselves and the generations we belong to, and the ones we owe' \u2014 and the per-figure roll-call (miner/waterman/villager/farmer/off-world administrator).",
+    "verdict": "genuinely-non-earning",
+    "note": "Fully retained in test lines 236-240, with an ADDED synthesis line ('The reef, the atmosphere, the community, the labor, the access of the generations who come after: one object, severed in one way, measured by one ledger') that strengthens the close. No loss."
+   }
+  ],
+  "add_inventory": [
+   {
+    "what": "FIGURE FIX (orig 'somewhere between five hundred and six hundred dollars' \u2192 test 'about five hundred and ten dollars... The carbon term alone came to four hundred and ninety-six dollars') at opening line 12.",
+    "verdict": "earns-place",
+    "note": "This is the HIGH-priority correctness fix from deep-pass \u00a78/\u00a7Bottom-line item 1. Original leaked the TA-only $580-620 band into the headline total, contradicting post-fix Ch8 ($496 carbon / $510 total). Test-draft now matches canonical. Essential, not optional."
+   },
+   {
+    "what": "FIGURE FIX in the political-economy 'subsidy sentence' (orig line 116 'approximately $550 per ton... selling the coal for $40' \u2192 test line 138 'about five hundred and ten dollars per ton... while the coal sold at the mine mouth for four and a half').",
+    "verdict": "earns-place",
+    "note": "Fixes both the $550\u2260$510 drift AND the era-muddle (original paired drifted $550 with modern $40; test anchors to 1960 mine-mouth $4.50, era-consistent). Exactly the deep-pass \u00a78 prescription. Essential correctness fix."
+   },
+   {
+    "what": "NEW section 'What the framework re-embeds' (~900w, test lines 110-124): Polanyi double-movement + fictitious commodities + Nancy Fraser expropriation; the four-steps-re-embed argument; the Pistor 'bonds-extend-commodification' financialization objection answered via polarity (disembed vs re-embed); the same-mechanism-not-same-worth move for human-cost commodification; the backward-looking Restitution half with William Darity stratification economics.",
+    "verdict": "earns-place",
+    "note": "This discharges the TWO ratified must-carry FILL obligations (deep-pass \u00a70/\u00a77: Polanyi/Fraser re-embedding + Restitution backward-half, both 'DROPPED entirely' in original) AND closes three EXPOSED objections (financialization/Pistor-bonds, commodify-labor, coercion-flattening). High-value addition. NOTE: contains substantive intellectual claims about Polanyi/Fraser/Darity \u2014 needs a fact-check pass (Pass 3.1) that the characterizations are accurate; these are real authors with real positions and the project's no-invented-claims rule applies to how their views are summarized."
+   },
+   {
+    "what": "New preview paragraph at the opening (test line 20): 'Then the chapter does one more thing. It says plainly what kind of work this is, names the partial versions... show me the pathway. That answer is the hinge into the book's closing chapter.'",
+    "verdict": "earns-place",
+    "note": "Useful roadmap that subordinates the apparatus to the four-step spine \u2014 directly addresses the deep-pass's central 'buried spine / inverted figure-ground' concern (I-10). Low risk."
+   },
+   {
+    "what": "Asymmetric Regret Rule cross-ref added (test line 60): 'The same rule the Appendix derives formally is the one a reader can feel intuitively here.' Plus 'What a framework does' addition (test line 224) tying the four steps to 'the Hotelling-identity bridge and the Asymmetric Regret Rule that Chapter 8 and the Appendix build.'",
+    "verdict": "earns-place",
+    "note": "Addresses deep-pass \u00a710 'formal machinery floats free' cross-chapter flag \u2014 ties the practical chapter to its analytical apparatus. Pre-empts 'is this rigorous or just intuition?' Good."
+   },
+   {
+    "what": "ESG/reformist-capture objection pre-empt added to Entering wedges (test line 204): 'it invites a fair suspicion: that strengthen-and-align is exactly the posture markets absorb without changing... The re-embedding test from earlier is the answer.'",
+    "verdict": "earns-place",
+    "note": "Closes the deep-pass \u00a77 EXPOSED 'ESG/reformist-capture' objection by reusing the new re-embedding test. Good integration of the added section with the existing wedges material."
+   },
+   {
+    "what": "CITATION GAP and RELOCATE bracket markers inserted inline ([CITATION GAP: ...], [RELOCATE TO Ch5: ...], etc.) throughout the test-draft.",
+    "verdict": "judgment-call",
+    "note": "Appropriate for a working test-draft and faithful to the deep-pass \u00a79 citation-gap list. BUT these are scaffolding markers that MUST be resolved before any merge/render \u2014 the corpus-invariant scaffolding scan (CLAUDE.md) would flag them HIGH. They also signal that the relocations are NOT yet executed, which is the core value-retention risk. Not bloat in a draft; would be blocking in a ship artifact."
+   },
+   {
+    "what": "Harvey paragraph enriched (test line 220) with the diagnose-vs-measure framing: 'Harvey diagnosed the mechanism... What he did not do, because diagnosis was the task, was measure how much. That is the relation the framework keeps repeating with the diagnostic tradition.'",
+    "verdict": "earns-place",
+    "note": "Makes explicit the magnitude-not-mechanism value-add that deep-pass \u00a76 flagged as 'implicit, not stated' in the original Harvey treatment. Strengthens positioning."
+   },
+   {
+    "what": "Closing synthesis line added (test line 238): 'The reef, the atmosphere, the community, the labor, the access of the generations who come after: one object, severed in one way, measured by one ledger.'",
+    "verdict": "earns-place",
+    "note": "Echoes the new re-embedding section's 'same object seen from different sides' language and ties the close back to the added material. Strengthens the hinge."
+   }
+  ],
+  "lost_value": [
+   "The 2008-TARP-vs-Sweden-1932 financial-crisis case study (~1,400w) is RELOCATED-not-deleted via an inline [RELOCATE TO Ch5] bracket, but is NOT yet present in Ch5. Until Ch5 actually receives it, the quantified Mian-and-Sufi welfare differential (bottom-40% benefit 3-4x), the $11T/10M-foreclosures/$700B-TARP figures, the Saltsjobaden 1938 settlement, and the 1992 Swedish bank-crisis equity-recovery analog are ABSENT from the corpus. This is the largest single block of content at risk. Restore-or-confirm-landed before treating the draft as complete.",
+   "The entire 'What the eleven-cent difference actually buys' section (~1,300w) is gone from Ch9 with a Ch4 relocation intent (per deep-pass) but NO relocation bracket left in the test-draft and NO confirmation Ch4 carries it. The 'Americans already pay comparable tax burden and get almost none of it back' argument (Tax Foundation 30%/42% wedge, medical-crowdfunding-as-structural-safety-net, the trade-off-sold-as-freedom move) is a high-impact standalone argument currently absent from the corpus. Confirm it lands in Ch4 or restore.",
+   "The Chattanooga/Mondragon/Vienna trio (~900w) is relocated to an unspecified 'macro chapter' ([RELOCATE TO macro chapter] bracket, test line 200) with NO destination chapter identified and NO one-clause reference left behind (the deep-pass recommended keeping 'a one-clause reference here at most'). These are the book's strongest 'it works at scale, durably, in a diverse political economy' demonstrations and carry the chapter's otherwise-THIN human/values/emotional register. Highest relocation risk because the destination is undefined.",
+   "The Nordic-objection demographic-homogeneity steelman with its three specific pressure-test rebuttals (Nordic integration of post-WWII immigration; Minnesota/Oregon/Vermont/California/Massachusetts policy-not-demography correlation; the framework does not require ethnic homogeneity) plus the concrete US-partial-implementation examples (Medicare/Medicaid, Massachusetts/California/Washington healthcare programs, Mitchell-Lama, Montgomery County) is collapsed to a single compressed paragraph. For an adversarial Tier-1 reader this is a genuine argumentative thinning \u2014 the original called demographic homogeneity 'the steelman's strongest claim' and answered it at length; the compressed version asserts the conclusion without showing the rebuttal work. Consider restoring at least the three-response demographic rebuttal.",
+   "The Christophers 'The Price is Wrong' positioning (markets do not price climate solutions because investment follows profit not price; public investment is 'not extreme but what honest accounting requires') is relocated to Ch5 via bracket but not yet landed; it is a distinct matrix-cell positioning absent from the corpus until Ch5 receives it.",
+   "The Public Choice section's explicit center-right think-tank courtship ('readers at AEI, Cato, the Mercatus Center, George Mason economics') and the concrete FMLA-1993 rent-seeking worked example are cut. The original move was a deliberate adversarial-audience-acceptance play (landing-point I); its loss is defensible as a TRADE but is a real positioning decision the author should ratify consciously, not absorb silently.",
+   "NOTE (not a cut but a verification gap): the NEW re-embedding section makes substantive characterizations of Polanyi (double movement, fictitious commodities), Fraser (expropriation beyond exploitation), Pistor, and Darity (stratification economics). Per the project's no-invented-factual-claims rule these author-position summaries must pass a Pass 3.1 fact-check before ship \u2014 added value can itself introduce risk if a characterization is inaccurate."
+  ],
+  "overall_verdict": "The test-draft is a strong, faithful execution of the deep-pass memo's three priority actions: (1) it FIXES the HIGH-priority figure drift correctly ($510 total / $496 carbon, era-consistent $4.50 mine-mouth pairing); (2) it FILLS the ratified Polanyi/Fraser re-embedding gap AND the Restitution/Darity backward-half via a genuinely high-value new section that simultaneously closes three previously-EXPOSED objections (financialization/Pistor-bonds, commodify-labor, coercion); (3) it surfaces the four-step spine by subordinating the apparatus. The SAFE cuts (Clarion-Clipperton, rare-earth catalogue, renewable-commons excursus, Desmond/Susskind roll-call) lose no argument. The claim that it 'lost NONE of the value' is, however, too strong on an adversarial read for two reasons. FIRST and most important: roughly 3,600 words of genuinely valuable material (the 2008-vs-Sweden case, the eleven-cent healthcare section, the Chattanooga/Mondragon/Vienna trio, the Christophers coda) are not deleted but RELOCATED via inline brackets to chapters that have NOT yet been confirmed to receive them \u2014 the deep-pass itself flags 'confirm those chapters do not already carry the same material,' and the macro-chapter destination for the trio is left undefined. As a corpus, that value is currently in limbo: excised from Ch9, not yet landed elsewhere. A value-retention audit cannot certify 'no loss' on relocated-but-not-landed content. SECOND: the Nordic demographic-homogeneity steelman (the original's self-described strongest objection-rebuttal, with three specific pressure-tests) is compressed to assertion, a real thinning for adversarial Tier-1 readers. The draft is therefore an excellent redraft BASE, but treating it as the final chapter requires (a) confirming/executing all four relocations into live destination chapters, (b) resolving every [CITATION GAP]/[RELOCATE] scaffolding marker (which the corpus-invariant scan would block), (c) a fact-check pass on the new Polanyi/Fraser/Darity characterizations, and (d) an author decision on whether to restore the Nordic demographic rebuttal and the Public Choice think-tank courtship.",
+  "safe_as_redraft_base": "yes-with-restorations"
+ },
+ {
+  "chapter": "Ch2",
+  "cut_inventory": [
+   {
+    "what": "Etymology defense of 'severance' vs four rejected alternatives (externality/displacement/transfer/appropriation) + severance-pay payroll metaphor (original line 144 second half, ~232w)",
+    "verdict": "genuinely-non-earning",
+    "note": "Memo cut #1 (SAFE). Fully removed in test-draft. The three-term definition block (cost severance / severed cost / value extraction) is preserved intact at test-draft lines 132-138. Pure glossary/Tech-Appendix register; its removal also eliminates the labor-commodification metaphor exposure the memo flagged. Correctly cut."
+   },
+   {
+    "what": "Mazzucato three-case mini-abstract (asset managers / pharma patents / platforms) + full Harvey New Imperialism Ch4 accumulation-by-dispossession paragraph + 'Harvey is the lineage behind Mazzucato' claim (original lines 148-152, ~227w combined)",
+    "verdict": "judgment-call",
+    "note": "Memo cut #4 (TRADE, recommended take). Compressed to one paragraph (test-draft line 140) that keeps Mazzucato's making/taking distinction, the finance cases in compressed form, the Harvey accumulation-by-dispossession nod, and the load-bearing originality claim ('extends it to physical-resource extraction... proposes a way to put a price on the separation'). The contestable 'Harvey is the lineage behind Mazzucato's diagnosis' intellectual-history claim was correctly dropped. Loses some scholarly positioning richness (Matrix cells A/F) but the memo judged this recoverable in Ch1/Ch5/Appendix. Defensible."
+   },
+   {
+    "what": "Rents/routing/life-cycle apparatus clause in community-collapse paragraph ('The architecture that would have closed the gap -- capturing the rents at extraction, routing them to the bearers, holding them across the full life cycle of the externality tail...') (original line 100, ~45w)",
+    "verdict": "genuinely-non-earning",
+    "note": "Memo cut #5 (SAFE). Removed. The 'subsidy' triad ('the community subsidized the coal industry; the miners subsidized their employers; the future subsidized the present') is preserved at test-draft line 98. Premature Ch9 solution-shape correctly cut before the problem is fully built."
+   },
+   {
+    "what": "Black-lung deficit double-statement: the ledger paragraph and the back-to-back elegy restatement of the same $44B/$4.6B/$15B figures (original lines 70-72)",
+    "verdict": "genuinely-non-earning",
+    "note": "Memo cut #6 (SAFE). Folded into one paragraph (test-draft line 72) that keeps the figures once plus the 'and it still was not enough... Someone is paying the difference. It is not the coal companies' emotional close. Both registers' best lines preserved."
+   },
+   {
+    "what": "Cost-burdened-renters / 'company town returned in distributed form' / rental-housing-as-asset-class generalization (original line 196, ~140w)",
+    "verdict": "judgment-call",
+    "note": "Memo cut #2 (SAFE, recommended take, relocate to Ch8/Ch9). The full generalization was condensed to two sentences at test-draft line 178 ('The same bootstrap argument is made today... a savings cushion and a stretch without income that the households this book is concerned with do not have'). BUT a raw editorial instruction '[RELOCATE TO Ch9: ...]' was left embedded IN the prose -- see lost_value/scaffolding. The condensation itself is reasonable; the leaked marker is not."
+   },
+   {
+    "what": "\u00a7The Numbers 'if you add... if you add... if you add...' anaphora enumerating the four cost categories a third time (original lines 124-126)",
+    "verdict": "judgment-call",
+    "note": "Memo cut #3 (SAFE). Only lightly compressed -- test-draft line 120 reworks to 'Take... Add... Add... Add...' but still walks all four categories (black lung actuarial, reclamation, managed-transition, intergenerational). The 33-122x hand-off to Ch8 and the 'externality, technically accurate and practically insufficient' turn are preserved. The memo wanted this compressed to 'a single transitional sentence'; the test-draft kept most of the recap. Net length barely moved. Not a value loss, but the prescribed cut was largely NOT taken."
+   },
+   {
+    "what": "Purdue litigation chronology granularity (2007 felony misbranding plea + three executives' misdemeanor counts + 2020 felony plea on three federal counts), moved/compressed (original line 208)",
+    "verdict": "judgment-call",
+    "note": "Memo cut #7 (TRADE) -- which the memo explicitly recommended HOLDING unless the chapter ran long. Test-draft took it anyway: the plea chronology was stripped and replaced with 'documented through Purdue's federal guilty pleas and the broader litigation record' (test-draft line 190). Since the chapter did NOT come down to ~4,700w (it is essentially flat at 5,373w), there was no length pressure justifying this trade. Falsifiability armor against 'numbers-are-invented' slightly reduced against the memo's own advice."
+   },
+   {
+    "what": "One redundant 'pride was real' restatement (memo wanted 5 touches -> 3)",
+    "verdict": "judgment-call",
+    "note": "Memo cut #8 (SAFE). Original line 24's 'or that they should have chosen something else. The chapter is an argument about accounting' became 'or that they should have chosen something else. It is an argument about accounting' (test-draft line 24) -- a micro-tightening, not a real consolidation of the five pride touches. The pride beat still appears at test-draft lines 24, 170, 172, 176, 204. Cut largely not taken."
+   },
+   {
+    "what": "Framing sentence 'This is the affirmative form of what the mechanism looks like when the documentation is available.' (original line 212 opening)",
+    "verdict": "lost-value",
+    "note": "NOT flagged for cutting anywhere in the memo. Silently dropped from test-draft line 194. It is the topic sentence that labels the Purdue case as the 'affirmative form' (documentation-available form) of the mechanism -- a meaningful framing handle. Minor but unflagged."
+   },
+   {
+    "what": "Closing button 'That is a different story. It is a story the framework this book is building was designed to make visible.' (original line 212 close)",
+    "verdict": "lost-value",
+    "note": "NOT flagged for cutting in the memo. Dropped from test-draft line 194. This was the rhetorical button tying the Purdue refutation back to the book's framework-purpose. The new Fraser/Polanyi paragraph (test-draft line 196) now follows immediately and does related framework-connecting work, which softens the loss -- but the specific 'designed to make visible' beat is a distinct close that is now gone. See lost_value."
+   }
+  ],
+  "add_inventory": [
+   {
+    "what": "Coase forward-link / absent-parties expansion at \u00a7What a Ton of Coal Actually Cost (test-draft line 58): 'two parties were not at the table. The miner's future body could not negotiate the wage that his present body was signing for, and the generations who would inherit the emptied county could not bid for the future... We will come back to why a market cannot price what the absent parties would have refused'",
+    "verdict": "earns-place",
+    "note": "This is the memo's recommended ADD (\u00a77, \u00a7Bottom line item b). Closes the loop the chapter opens by calling the transaction 'voluntary... and, in its own terms, honest.' Replaces the bare 'real and voluntary and, in its own terms, honest' with a structurally richer treatment that names the absent parties and forward-links to Ch5. Well-executed, earns its place. NOTE: it does add ~90 words, partially offsetting the cuts -- a contributor to why the draft stayed flat."
+   },
+   {
+    "what": "Fraser expropriation-vs-exploitation + Polanyi fictitious-commodities paragraph in \u00a7The Second Cycle (test-draft line 196): names Nancy Fraser's expropriation ('accumulation by means other than the wage bargain') distinguished from exploitation, and Karl Polanyi's account of a market society treating land/labor/community as commodities",
+    "verdict": "earns-place",
+    "note": "This is the memo's highest-value ADD recommendation (\u00a76 Matrix, \u00a710 cross-chapter flag, \u00a7Bottom line item a) -- seeding the ratified book-level Polanyi/Fraser gap at its single best site. The exploitation-through-the-contract (black lung) vs expropriation-around-the-contract (Purdue) distinction is genuinely illuminating and load-bearing for the two-cycle argument. Strong add. CAVEAT: it is ~180 words and pitches toward the specialist register the memo elsewhere wanted reduced; it is the single largest reason the draft did not shrink. Worth it, but it means the chapter is now LONGER in its analytical-positioning load, not shorter -- the opposite of the memo's net intent. Verify Fraser/Polanyi attributions are citation-grounded before submission (no inline cite present)."
+   },
+   {
+    "what": "Light de-em-dashing / punctuation normalization throughout (em-dashes converted to commas/periods; e.g. original line 10 '\u2014 the story of postwar prosperity' becomes '. That was the story of postwar prosperity')",
+    "verdict": "earns-place",
+    "note": "Consistent with the ratified em-dash-overuse discipline (feedback_em_dash_overuse.md). Applied corpus-wide in the test-draft. No content effect; a voice-polish pass artifact. Benign."
+   }
+  ],
+  "lost_value": [
+   "SCAFFOLDING LEAK (submission-blocking): Eight inline '[CITATION GAP: ...]' markers are embedded in the prose at test-draft lines 40, 44, 46, 68, 70, 72, 82, 84, 190, 192 -- covering the Gary 1,200 jobs, two-thirds income drop, 63.5/76.5 life expectancy, 20% black-lung prevalence, resurgent black lung, $44B/$4.6B/$15B fund figures, 633,000 acres/$7.5-9.8B/$3.8B reclamation, $865M bankruptcy transfer, Purdue four-characteristic profile, and Sackler $11B/Big-Three $21B. These are process scaffolding that would trip the HIGH-severity scaffolding-scan (tools/quality-gates/scaffolding-patterns.yaml) and cannot ship. They are not present in the original prose -- the original states these figures cleanly. NOTE: the underlying citation gaps are real per memo \u00a79 and need sourcing, but the BRACKETED MARKERS themselves are new contamination introduced by the test-draft.",
+   "SCAFFOLDING LEAK (submission-blocking): A raw editorial instruction '[RELOCATE TO Ch9: the cost-burdened-renters / rental-housing-as-asset-class / company town returned in distributed form generalization is developed with the JCHS data in Ch9; reference the owner there rather than re-deriving the contemporary thesis in Ch2.]' is embedded mid-paragraph in the prose at test-draft line 178. This is process-scaffolding vocabulary inside end-user-facing prose. Must be removed before any merge/submission.",
+   "Dropped framing sentence (unflagged): 'This is the affirmative form of what the mechanism looks like when the documentation is available.' (original line 212). Restore unless deliberately superseded -- it labels the Purdue case's evidentiary status and was not on any cut list.",
+   "Dropped closing button (unflagged): 'That is a different story. It is a story the framework this book is building was designed to make visible.' (original line 212). This tied the culture-not-structure refutation back to the book's purpose. The new Fraser/Polanyi paragraph partially absorbs the framework-connecting function, but the specific 'designed to make visible' close is gone and was not flagged for cutting. Restore or confirm the Fraser/Polanyi close is intended to replace it."
+  ],
+  "overall_verdict": "The test-draft is NOT the draft the deep-pass memo specified, and it is NOT submission-clean. Two problems dominate. (1) SUBMISSION-BLOCKING SCAFFOLDING: the draft carries eight inline '[CITATION GAP: ...]' brackets plus one '[RELOCATE TO Ch9: ...]' editorial instruction embedded in the prose. These are HIGH-severity scaffolding-scan violations that were never in the original and must be stripped before any merge or submission; the 'lose NONE of the value' claim fails immediately on the fact that the draft is dirtier than the original it came from. (2) IT IS NEARLY FLAT, NOT TRIMMED: 5,434 -> 5,373 words (a 1.1% reduction) against the memo's recommended ~4,700w (~13%). The memo's two heaviest SAFE cuts -- the etymology paragraph (#1) and the black-lung fold (#6) and the rents/routing clause (#5) -- were taken cleanly, but \u00a7The Numbers anaphora (#3) and the pride-restatement consolidation (#8) were barely touched, and the two ADDs (Coase expansion ~90w + Fraser/Polanyi ~180w) added back roughly what the real cuts removed. The author asked whether the sleeper draft 'lost NONE of the value' -- on pure prose content the answer is close to yes (only two minor unflagged sentence-level losses at the Purdue close), and the two ADDs are genuine improvements the memo itself requested. But the draft also took the one TRADE cut the memo told it to HOLD (Purdue chronology #7) despite no length pressure, slightly weakening falsifiability armor against the contradictory advice. Net: low actual prose-value loss, but the draft is not safe to ship as-is because of the embedded markers, and it did not achieve the memo's tightening objective.",
+  "safe_as_redraft_base": "yes-with-restorations"
+ },
+ {
+  "chapter": "Ch4",
+  "cut_inventory": [
+   {
+    "what": "Alberta Heritage Trust Fund detailed history (1976 establishment; repeated drawdown for general revenue during oil-price downturns; growth capped) + Alaska Permanent Fund dividend-vs-capitalization distinction (\u00b62). Compressed to: 'Alberta and Alaska both built sovereign funds in 1976; both have been drawn down within a single generation's horizon.'",
+    "verdict": "genuinely-non-earning",
+    "note": "Memo C-4 (SAFE, ~110w). The chapter never uses the Alberta/Alaska distinctions analytically; they pre-litigate a comparison the chapter doesn't run. The load-bearing contrast (most jurisdictions spend it, Norway didn't) survives intact. The Venezuela/Nigeria/Saudi 'quickly and badly' and Texas/Alberta/Alaska 'more carefully' enumerations were also dropped but the abstracted 'Some do it quickly and badly. Some do it more carefully' carries the same point."
+   },
+   {
+    "what": "Substitution-application catalog: original 5-item list (medical-grade plastics for surgical instruments AND pharmaceutical packaging, aviation jet fuel for present commercial fleet, specialty petrochemistry for high-performance polymers and pharmaceutical synthesis, asphalt for road infrastructure, carbon-fiber and lubricant chemistries) reduced to 'medical-grade plastics and aviation jet fuel... and a handful of other high-performance chemistries.'",
+    "verdict": "genuinely-non-earning",
+    "note": "Memo C-3 (SAFE, ~70w). Pure inventory compression; the foreclosure concept (no-substitute applications exist) is unharmed and arguably sharpened. The test-draft actually STRENGTHENS this by adding the Simon-Ehrlich rebuttal framing ('the old optimism that says scarcity always calls forth a substitute. Sometimes it does not') that the original lacked."
+   },
+   {
+    "what": "Nigeria externality-tail specifics: UNEP 25-30-year remediation timeline + 'subsequent monitoring suggests cleanup progress remained well short' + mangrove multi-decade recovery; flare-gas and heavy-metals specificity; 'Ogoni crisis of the 1990s' framing + 'subsequent militant insurgencies'; the entire international-response sentence (diplomatic protests, Commonwealth suspension, 'failed to alter the structural arrangement; operating companies continued production').",
+    "verdict": "judgment-call",
+    "note": "Memo C-2 (TRADE, ~180w) explicitly authorized dropping remediation-timeline specifics and the Commonwealth-suspension sentence, and keeping Saro-Wiwa + one UNEP figure. Test-draft kept UNEP 2011 + $1B + Saro-Wiwa 1995 as instructed. The dropped 'Commonwealth suspension failed to alter the structural arrangement' carried a small distinct argumentative beat (international moral pressure did not interrupt the mechanism) that reinforces the chapter's 'mechanism is structural, not shamed away' theme. Low-stakes loss, but it is a genuine micro-argument, not pure color. Flagging per over-flag default."
+   },
+   {
+    "what": "Social Security / Bismarck section heavy compression (~620w to ~250w): dropped Bismarck 1889 Old Age and Disability Insurance + post-WWI hyperinflation collapse case entirely; dropped detailed pay-as-you-go mechanics ('future generation's pensions depend on the next generation's workforce, not a real reserve'); dropped the explicit 'they chose what was politically reachable in 1935' coalition-history elaboration; dropped 'the U.S. could have chosen at 1935 or subsequent moments to capitalize a portion.'",
+    "verdict": "judgment-call",
+    "note": "Memo C-1 (TRADE, biggest single win, ~470w) + RELOCATE-TO-Ch5 annotation. The memo's recommended carve-back (a) \u2014 keep ONE sentence of the Treasury-trust-fund-is-intra-government-debt observation \u2014 was honored ('its trust fund is an accounting record of intra-government debt rather than a pool of saved-and-grown wealth'). F-4 flagged Ch5 may own this material. The Bismarck case is the only fully-dropped HISTORICAL EXEMPLAR in the chapter; it served the 'funded architecture was proposed/partially implemented elsewhere, so 1935's choice was contingent' sub-argument. That contingency point still lands abstractly ('choices made at a particular moment... with particular templates available'), so the exemplar is decorative rather than load-bearing here. Sanctioned cut, but the bracketed RELOCATE note flags it is pending Ch5-ownership confirmation."
+   },
+   {
+    "what": "Equinor/Statoil parenthetical '(formerly Statoil, the national oil company, renamed in 2018)' and the date-stacked GPFG rename '(later renamed the Government Pension Fund Global in 2006)'.",
+    "verdict": "genuinely-non-earning",
+    "note": "Memo C-6 (SAFE, ~20w). Test-draft keeps the GPFG rename (it recurs) and drops the Statoil-2018 date and the 2006 date-stacking, replacing 'Equinor' with 'the national oil company.' Reference-grade precision the prose doesn't need; no argument loss."
+   },
+   {
+    "what": "Triple 'the rules held' restatement collapsed; the government-succession list (Bondevik II, Stoltenberg II, Solberg, StE) compressed from named-coalition enumeration to 'through center-right and Labour-led coalitions alike.'",
+    "verdict": "judgment-call",
+    "note": "Memo C-5 (SAFE, ~90w) for the redundancy; the named-coalition list was a credibility/specificity anchor (it concretely demonstrates 'every administration since 2001'). Test-draft's CITATION GAP note flags the succession claim is checkable-and-should-be-sourced, implying the names were pulled pending sourcing rather than judged non-earning. Mild specificity loss; a careful reader gets the same point but loses the demonstrable roster. Restorable once sourced."
+   },
+   {
+    "what": "Explicit '$70-80 cents of every dollar of net petroleum wealth' figure in the 'What the framework says about Norway' section, replaced with 'the large majority of every dollar.'",
+    "verdict": "lost-value",
+    "note": "This is the chapter's load-bearing B-IS-LARGE quantification (memo \u00a79 gap #2 calls it 'a load-bearing figure'). The test-draft softened it to a qualitative phrase and attached a CITATION GAP note pointing to the ~78% marginal special-tax anchor. The concrete figure is genuinely more persuasive than 'the large majority' and the original's range was plausible. This should be RESTORED once the ~78% source is confirmed (it is a real, citable Norwegian petroleum-tax-regime number). Listed as lost-value because shipping 'the large majority' permanently would be a quiet down-grade of the chapter's strongest concrete claim."
+   }
+  ],
+  "add_inventory": [
+   {
+    "what": "New term-gloss paragraph at end of opening section defining cost severance + accountability bond (B) in-prose, with a CITATION GAP/cross-ref note flagging that formal definitions land in Ch5/Ch6.",
+    "verdict": "earns-place",
+    "note": "Directly addresses memo F-1, the memo's 'most important flag' and 'real broken-promise risk for a reader reading in order' (Ch4 is the first chapter to lean hard on B and residual commons value as if defined). The gloss is the recommended remedy (b). High value, low cost. The bracketed CITATION GAP annotation itself must be resolved/removed before ship."
+   },
+   {
+    "what": "Hartwick rule + Hotelling scarcity-rent naming ('Norway's fund is the Hartwick rule made flesh. The scarcity rent that Harold Hotelling first modeled...').",
+    "verdict": "earns-place",
+    "note": "Memo \u00a76 flagged these as 'the chapter's single biggest positioning miss' and 'highest-value addition' \u2014 the chapter was doing Hartwick/Hotelling's work uncredited (TA engages Hotelling 80x, chapter named him 0x). Cheap, large lit-positioning gain. Carries a CITATION GAP for Hartwick 1977 / Hotelling 1931."
+   },
+   {
+    "what": "Daly / strong-sustainability naming on the externality-tail paragraph ('what the strong-sustainability tradition, the line of thought Herman Daly did most to develop, has insisted on... some forms of natural capital have no substitute').",
+    "verdict": "earns-place",
+    "note": "Memo \u00a76 OPERATIONALIZE flag (substance present, name absent). Cheap attribution that converts plain-English strong-sustainability into credited lit-positioning."
+   },
+   {
+    "what": "Public-choice objection named and answered ('the obvious objection... why would politicians not simply loot it? ... the architecture was built so that looting it is visible, slow, and hard').",
+    "verdict": "earns-place",
+    "note": "Memo \u00a77 flagged this as 'partially engaged but never badged' \u2014 the chapter HAD the answer (NBIM arm's-length + supermajority + public ethics council) in hand and didn't name the objection. Converts implicit capture-resistance into explicit objection-handling. Strong addition."
+   },
+   {
+    "what": "Coase / future-generations-cannot-bid argument (new full paragraph: 'the party with the strongest claim against the extraction cannot be at the table... one of the two parties does not yet exist. No voluntary trade can reach a counterparty who is not born').",
+    "verdict": "earns-place",
+    "note": "Memo \u00a77 flagged this objection as 'adjacent but unstated' and 'the perfect setup' the original never used. The addition closes the Coase voluntary-bargaining objection and deepens the foreclosure argument. Net-new value, not in original."
+   },
+   {
+    "what": "Explicit falsifiability framing ('it is worth stating plainly as a test, because a framework that cannot fail is not measuring anything... The framework makes a discriminating prediction, and the two cases test it').",
+    "verdict": "earns-place",
+    "note": "Memo \u00a75-L + \u00a77 flagged falsifiability as only implicitly carried; recommended converting to explicit via a single clause. Test-draft did this well, framing Norway/Nigeria as the discriminating test. Earns place."
+   },
+   {
+    "what": "Expanded financialization-objection answer in the Nigeria section (Polanyi/Fraser 'fictitious commodity' seam + Pistor legal-coding-of-capital + 'the financial instrument is not inherently a severing device. It is a routing device... Norway aimed it inward and downward'), tagged with a RELOCATE-TO-Ch9 bracket.",
+    "verdict": "judgment-call",
+    "note": "This DIVERGES from the memo. Memo C-8 default recommendation was to CUT the international-architecture passage here and 'address financialization where the framework's own bonds are defined,' OR develop it as the Pistor bridge. The test-draft chose to EXPAND it into a full re-embedding/routing-device answer, then self-flag it for relocation to Ch9. The argument itself is strong and answers the matrix's flagged financialization GAP, but executing it here (then marking it for relocation) leaves the chapter carrying a partially-developed Ch9-owned argument plus an editorial bracket. Risk: double-coverage with Ch9 and a seam that may read as over-built for Ch4's spine. The Polanyi/Fraser/Pistor NAMING specifically is what the bracket says should land in Ch9, not here. Needs author decision: keep the routing-device seam (good) but confirm the named-theorist re-embedding answer lives in Ch9, not duplicated."
+   },
+   {
+    "what": "Inline editorial annotations preserved in the prose: multiple [CITATION GAP: ...] brackets and two [RELOCATE TO Ch5/Ch9: ...] brackets.",
+    "verdict": "bloat-or-risk",
+    "note": "These are scaffolding markers (placeholders / process vocabulary) that would trip the corpus-invariants scaffolding scan (tools/quality-gates/scaffolding-patterns.yaml) and absolutely cannot ship in publisher-facing prose. Appropriate for a sleeper/test-draft working artifact, but they confirm this draft is a WORKING document, not ship-ready. Must be resolved (sourced or cut) and removed before any merge toward end-user-facing prose."
+   }
+  ],
+  "lost_value": [
+   "The concrete '$70-80 cents of every dollar of net petroleum wealth' B-is-large figure was softened to 'the large majority of every dollar.' This is the chapter's load-bearing quantification of the accountability bond (memo \u00a79 gap #2: 'a load-bearing figure'). Restore the concrete figure once the ~78% marginal special-tax-rate source is confirmed; do not ship the qualitative downgrade permanently.",
+   "The named government-succession roster (Stoltenberg I -> Bondevik II -> Stoltenberg II -> Solberg -> StE) was compressed to 'center-right and Labour-led coalitions alike.' The concrete roster is a credibility anchor that demonstrably proves 'held through every administration since 2001.' Restore the names once sourced (memo \u00a79 gap #3 confirms it is checkable); the abstracted version is weaker evidence of the cross-partisan-consensus claim that the section depends on.",
+   "MINOR / over-flag: the Nigeria 'international response failed to alter the structural arrangement' beat (diplomatic protests + Commonwealth suspension did not interrupt the mechanism; operating companies continued production) was dropped. This carried a small distinct argument \u2014 that external moral pressure does not fix a severed cost, only architecture does \u2014 that reinforces the chapter's structural thesis. Memo C-2 sanctioned cutting the Commonwealth sentence, so this is a defensible loss, but consider preserving the one-clause point ('moral pressure did not interrupt it') since it is on-thesis."
+  ],
+  "overall_verdict": "The test-draft is a genuinely strong sleeper draft that executes the memo's cuts faithfully and, more importantly, lands ALL of the memo's high-value ADDITIONS (Hartwick/Hotelling/Daly naming, public-choice objection badging, Coase cannot-bid argument, explicit falsifiability, the F-1 term-gloss fix) \u2014 it is net richer in argument than the original despite being shorter. No structural beat was dropped: all seven sections survive, the Norway/Nigeria differentiation spine is intact and sharpened, the Ch5 handoff (Libby/Deepwater/Exxon Valdez/Baotou) is preserved, and named-limits discipline ('the part Norway has not solved') is fully carried. It is NOT a quiet loss of value in the way the audit feared. However, three things keep it from being clean-as-is: (1) one real specificity downgrade \u2014 the $70-80-cents B figure became 'the large majority' \u2014 which is the single load-bearing concrete claim the section rests on and should be restored on sourcing; (2) the financialization passage DIVERGES from the memo: rather than cutting it (memo C-8 default) or cleanly bridging, the draft expanded it into a Ch9-owned Polanyi/Fraser/Pistor re-embedding answer AND self-flagged it for relocation \u2014 leaving a partially-built argument that risks double-coverage with Ch9 and needs an explicit author keep/relocate decision; (3) the draft still carries inline [CITATION GAP] and [RELOCATE] scaffolding brackets and ~9 uncited empirical claims (fund size, $360k/citizen, 3% rule, succession roster, Nigeria revenue, UNEP) \u2014 entirely appropriate for a working test-draft but disqualifying for ship until resolved. Bottom line: the value-retention is excellent; the open items are sourcing + one specificity restoration + one relocation decision, not lost argument.",
+  "safe_as_redraft_base": "yes-with-restorations"
+ },
+ {
+  "chapter": "Ch7",
+  "cut_inventory": [
+   {
+    "what": "Entire closing section 'A note on the numbers behind the thought experiment' (original lines 239-245, ~372 words): launch-cost trajectory ($30k/kg Shuttle -> $2-5k/kg current -> $200-1000/kg plausible), Mars-surface $2.5M/kg from Curiosity/Perseverance/InSight, Keck 2012 / Planetary Resources / Deep Space Industries asteroid-mining targets, and the closing 'these numbers are real / parameter ranges are grounded' reassurance.",
+    "verdict": "judgment-call",
+    "note": "DELETED whole, with NO footnote stub. Deep-pass C-2 tagged this SAFE but explicitly recommended KEEPING ONE sentence ('launch costs have fallen ~10x and parameter ranges are grounded in real exploration economics'). The test-draft kept zero. The chapter still makes empirical parameter claims about asteroid iron and Mars water; the original's only defense that 'the parameter ranges in the chapter are grounded in real exploration economics' is now entirely absent. A skeptical reader who wonders whether the cost numbers are fantasy gets no anchor. Self-acknowledged-surplus by the original's own framing, but the deep-pass wanted a residue and got none."
+   },
+   {
+    "what": "Mars-setting-justification specifics in front matter (original 19): the spacecraft enumeration ('Mars 3, Viking I and II, Pathfinder, Spirit and Opportunity, Phoenix, Curiosity, InSight, Perseverance, with sample return and crewed proposals') and the full alternate-habitat list ('on the Moon, on a free-flying space station, on a rotating asteroid platform').",
+    "verdict": "genuinely-non-earning",
+    "note": "Per deep-pass C-4 (cut ~300 of ~600 front-matter words). The compressed test-draft 19 keeps the load-bearing claims (parameter ranges measured not invented; not Mars-specific; stress-test not advocacy). The probe enumeration and habitat-type list were texture, not argument. Clean cut."
+   },
+   {
+    "what": "Front-matter teaser/restatement layering (original 21 'The claim the chapter establishes is a strong one...' + 23). The strong-claim restatement paragraph was folded away.",
+    "verdict": "genuinely-non-earning",
+    "note": "Per deep-pass C-4 / I-1 (chapter stated its thesis four times before the first scenario). Test-draft 21 keeps the existential-substitutability teaser ('a variable the framework quietly relies on'). The redundant universality restatement is gone with no argument loss."
+   },
+   {
+    "what": "Abundance-masking four-way synonym defense (original 123, ~470 words): the named rejection of 'abundance illusion', 'abundance-as-cover', 'false abundance', 'abundance concealment', and the 'mask is the architecture not the perception' lexicography.",
+    "verdict": "genuinely-non-earning",
+    "note": "Per deep-pass C-1 (SAFE, cut ~400 of 470; relocate full defense to Tech Appendix). Test-draft 127 preserves the load-bearing real-but-finite vs perceptual-error distinction in two sentences ('the abundance was real, not imagined... the hiding was structural, not a failure of anyone's perception. The mask is the architecture, not the eye.') and carries an explicit [RELOCATE TO Technical Appendix] flag. No argument loss; the one load-bearing distinction survives."
+   },
+   {
+    "what": "Intra-section six-pattern per-case re-mapping (original 129): 'McDowell County coal is severed primarily through geographic distance and informational asymmetry. The 2008 housing collapse was severed primarily through informational asymmetry. The pyramids were severed through power asymmetry...'",
+    "verdict": "genuinely-non-earning",
+    "note": "Per deep-pass C-5/I-9. The mapping was implicit in the pattern definitions just given. Test-draft 133 goes straight from the Mars-collapse to the policy implication. Redundancy removed cleanly."
+   },
+   {
+    "what": "Across-time historiographic apparatus (original 213-215): Mark Lehner's Giza Plateau Mapping Project, Zahi Hawass's workers'-cemetery excavations by name; Great Wall '5,000 kilometers', '300-500 thousand concurrent conscripted laborers', '700,000 for the mausoleum', 'Terracotta Army discovered in 1974', 'Sima Qian's Records of the Grand Historian compiled ~a century after Qin's fall', 'collapsed within four years'.",
+    "verdict": "judgment-call",
+    "note": "Per deep-pass C-9 (TRADE, internal-compression half). The structural three-civilization claim survives intact (pyramids + Qin + feudalism, mechanism-older-than-capitalism, 'The Great Wall is still standing. So are the figures.'). The specific scholar names and quantitative figures were converted to bracketed [CITATION GAP] notes rather than retained as prose. This is a working-draft state, not a finished cut: a reader of the test-draft sees hedged generalities ('Modern archaeology has substantially revised', 'the records report as severe') where the original had vivid sourced specifics. The vividness/credibility texture is genuinely thinner; whether that is loss depends on whether the citations get restored at clean-up. Flagging because the figures were a credibility asset (landing-point F)."
+   },
+   {
+    "what": "Fair-trade coffee certification example in the immune-response section (original 221: 'fair-trade coffee certification that does not substantively raise farmer income').",
+    "verdict": "genuinely-non-earning",
+    "note": "Per deep-pass C-10 (keep Kimberley as the one worked example; cut the triple example). Test-draft 217-219 keeps Kimberley Process (worked example) + carbon offsets + ESG screens; only fair-trade coffee was dropped. The generalization 'the pattern generalizes' survives. Minimal loss."
+   },
+   {
+    "what": "Public-Choice rent-seeking-architecture inline mention + the partial-implementations inventory (Norwegian sovereign-fund discipline, early-twentieth-century Nordic policy architectures, reachable-horizon institutions) from original 221.",
+    "verdict": "judgment-call",
+    "note": "Per deep-pass C-10 / RELOCATE-TO-Ch9. Test-draft 219 carries a [RELOCATE TO Ch 9] flag and keeps the Public Choice mention as a forward-pointer. The partial-implementations list (Norway etc.) is dropped here. The deep-pass and cross-chapter flags say this MUST be guaranteed delivered in Ch 9 -- so this is conditionally safe: lost-value IF Ch 9 does not carry it. Cannot be confirmed from Ch 7 alone."
+   },
+   {
+    "what": "Existential-risk extended-timescale callout (original 141): '10,000+ years for space-travel options; 500 million to 1 billion years for sun-expansion contingencies' as the horizons civilizational-continuity option-preservation actually requires, plus the explicit Bostrom 2002/2014, MacAskill 2022, Ord 2020, FHI/CSER enumeration and the population-ethics/EA-contestation disavowal.",
+    "verdict": "judgment-call",
+    "note": "Per deep-pass C-3/I-5 (compress EA-distancing to one sentence). Test-draft 141 compresses the disavowal well ('borrows the existential-risk lineage's concern... without adopting longtermism's specific ethical commitments') and carries a [CITATION GAP] flag questioning whether the bare lineage reference is even wanted. The '10,000+ years' figure is dropped; the '500M-1B years' figure survives later at test-draft 197. The longer-horizon reasoning (why 200 years is illustrative) is thinned. Mostly non-earning apparatus, but the dropped 10,000-year horizon was the one figure giving the 'two-hundred-year planning horizon' its 'illustrative' justification -- minor thinning of landing-point O."
+   },
+   {
+    "what": "Commute-lease quantitative specifics (original 101): 'five-hour daily commute', 'roughly two hundred and fifty work days per year', 'two-and-a-half-hour each-way reality', and the four named intra-personal mechanisms with parentheticals (temporal asymmetry / informational asymmetry / normative routinization / abundance masking operating intra-personally across time).",
+    "verdict": "judgment-call",
+    "note": "Per deep-pass C-7/I-8 (name the point, defer four-mechanism enumeration to six-patterns section). Test-draft 99 genericizes to 'a long daily commute', 'hours per day, across the work days of a year' and drops the four-mechanism recitation. The '$20k/year saved on cheaper housing' survives. The deep-pass sanctioned this, but the test-draft's genericization removes the concrete arithmetic ('thousands of hours' is asserted without the 5hr x 250 x years that produced it) -- the case loses its felt specificity. Borderline; flagged because the worked-number was part of why the case persuaded."
+   },
+   {
+    "what": "Cross-scenario framing capstones (original 83, 103, 161, 175): the redundant 'this proves universality' restatements, notably original 175's 'The framework is universal.' opening sentence.",
+    "verdict": "genuinely-non-earning",
+    "note": "Per deep-pass C-6/I-7 (four capstones -> one). Test-draft 83 sharpens to a stronger line ('A single calibrated case is an anecdote'); test-draft 175 drops the bare 'The framework is universal.' assertion and keeps the earned 'This is what a calibrated instrument looks like.' Net improvement, no loss."
+   },
+   {
+    "what": "'What comes next' recap sentence (original 229 first portion summarizing the whole chapter before the Ch-8 handoff).",
+    "verdict": "genuinely-non-earning",
+    "note": "Per deep-pass C-8 (two-ending problem). Test-draft 227 replaces the generic recap with a Polanyi/Fraser-anchored close ('it prices the one object underneath all the cases, the fictitious commodity Polanyi and Fraser diagnosed but never costed'). The Ch-8 handoff ('one ton of Appalachian coal... Notice the gap.') is preserved verbatim. Upgrade, not loss."
+   }
+  ],
+  "add_inventory": [
+   {
+    "what": "Polanyi/Fraser fictitious-commodity + double-movement frame, added as a new two-paragraph block opening 'What cost severance requires' (test-draft 111-113) and threaded into the policy-implication paragraph (133, 'This is Polanyi's re-embedding stated as engineering') and the chapter close (227).",
+    "verdict": "earns-place",
+    "note": "Directly closes the book-level ratified Polanyi/Fraser positioning gap that the deep-pass \u00a710 flagged as 'a prime FILL site' precisely because the six-patterns-collapse-on-Mars argument was already reaching for the double-movement without naming it. The 'one object under seven descriptions' synthesis (113) is a genuine argumentative gain, not decoration -- it gives the six patterns a unifying ontological referent. High-value addition aligned with an explicit standing workstream."
+   },
+   {
+    "what": "Fraser expropriation-vs-exploitation framing added to the across-time section opener (test-draft 207: 'This is, in Fraser's terms, expropriation rather than exploitation, and expropriation predates the wage relation by millennia').",
+    "verdict": "earns-place",
+    "note": "The deep-pass \u00a77 explicitly flagged the across-time section (pyramids/Qin/serfs) as 'textbook expropriation material... EXPOSED by omission' -- a missed Fraser opportunity. This one clause converts the temporal-universality argument into an on-point Fraser engagement and strengthens the capitalism-specificity rebuttal. Tightly placed."
+   },
+   {
+    "what": "Hotelling 1931 exhaustible-resource rent lineage added (test-draft 67: 'Harold Hotelling showed in 1931... RCV is that rent logic carried to its honest conclusion... adds exactly what Hotelling's rent omits, and no more').",
+    "verdict": "earns-place",
+    "note": "Deep-pass \u00a76 named Hotelling as the matrix EXTEND cell that was 'implicit but NOT named in-chapter' and a 'Gap: the chapter never connects its RCV outputs to the Hotelling-identity bridge.' This addition fills exactly that gap and gives the calibration claim a canonical economic anchor. Earns place."
+   },
+   {
+    "what": "Weitzman declining/uncertainty-adjusted discount rate (test-draft 71) + Daly weak-vs-strong-sustainability (test-draft 71: 'some natural capital is not substitutable by manufactured capital at any price') added to the Stern/Nordhaus/Hartwick discount-rate paragraph.",
+    "verdict": "earns-place",
+    "note": "Deep-pass \u00a76 flagged both as gaps: Weitzman 'ADOPT, partially... does NOT name Weitzman' and Daly 'strong-sustainability is implicit... NOT named.' The Daly addition does real work -- it locates the framework's reservation-vs-investment switch ('where Hartwick's compensation logic has nothing to compensate with') as the weak/strong-sustainability boundary, which is a sharper contribution statement than the original had. Both earn place. Caveat: carries [CITATION GAP] flags, so cleanup is required before submission."
+   },
+   {
+    "what": "Coase + Parfit added to the Temporal-asymmetry pattern (test-draft 119): Coasean-bargaining-requires-all-parties-present ('the largest affected party... is structurally absent') and Parfit's non-identity problem ('the framework does not need to resolve Parfit's non-identity problem... it is pricing the foreclosure of options for whoever the future turns out to contain').",
+    "verdict": "earns-place",
+    "note": "Deep-pass \u00a76/\u00a77 flagged Coase as 'CONTRADICT, implicit... Coase not named' and Parfit's non-identity as 'NOT engaged / left exposed.' This addition both names Coase at the point of contact AND closes the previously-exposed non-identity objection with a clean answer. Two gaps closed in one paragraph. Strong."
+   },
+   {
+    "what": "Sandel commodification-limit move named at two points (test-draft 39, the Mars microbial-life externality; test-draft 93, Europa) plus a new full 'one honesty is owed here' paragraph on the commute-lease case (test-draft 101: 'The number is a disclosure, not a valuation... the difference between measuring a harm and endorsing the exchange').",
+    "verdict": "earns-place",
+    "note": "Deep-pass \u00a77 flagged a COERCION/Sandel-commodification INCONSISTENCY: 'the Europa case DOES make the not-priceable move; the commute case does not, and they sit in the same chapter, which a sharp reader will notice as inconsistent.' The new 101 paragraph repairs exactly that seam -- it makes the disclosure-not-valuation move for the human-life-hours case, resolving the intra-chapter inconsistency. This is the single most important objection-repair among the additions. Earns place decisively."
+   },
+   {
+    "what": "Rawls veil-of-ignorance named in the discount-factor paragraph (test-draft 41: 'What John Rawls reached for behind a veil of ignorance... the Mars habitat supplies as a brute physical fact. She has, in effect, already drawn that lot').",
+    "verdict": "earns-place",
+    "note": "Deep-pass \u00a76 flagged the veil-on-extraction logic as 'implicit in the discount-factor-to-unity argument but not named as Rawlsian.' The 'already drawn that lot' image is vivid and makes the discount-factor=unity claim land harder than the original's bare statement. Earns place."
+   },
+   {
+    "what": "Pigou named in the reduces-to-market-price defense (test-draft 199: 'the precise answer to the reader who says the framework is just Pigou in new clothes... the bond exceeds what a Pigouvian tax would charge, because RCV exceeds the measurable externality').",
+    "verdict": "earns-place",
+    "note": "Deep-pass \u00a76/\u00a77 flagged the just-Pigou objection as 'partially engaged... Not named as such.' Naming Pigou and stating the B<RCV / B=full-missing-value relationship explicitly converts an implicit defense into a head-on one. Earns place."
+   },
+   {
+    "what": "Simon-Ehrlich selective-optimism framing (test-draft 153: 'the framework's reply to the substitution optimism associated with the Simon side of the Simon-Ehrlich wager... selective optimism, applied resource by resource').",
+    "verdict": "earns-place",
+    "note": "Deep-pass \u00a77 noted the Simon-Ehrlich substitution-optimism objection was 'engaged structurally... Good, implicit answer' but unnamed. Naming it makes the existential-substitutability-gap ranking visibly answer a known objection. Earns place."
+   },
+   {
+    "what": "Pistor Code-of-Capital / financialization objection named in the immune-response section (test-draft 219: 'exactly the objection Katharina Pistor's work on the legal coding of capital raises... a residual commons bond risks becoming one more financialized asset').",
+    "verdict": "earns-place",
+    "note": "Deep-pass \u00a77 flagged FINANCIALIZATION/Pistor as the leading EXPOSED objection -- 'the chapter raises the wound without dressing it... a book-level GAP.' The addition names Pistor and supplies an answer-in-principle (verification-structure-enforced re-embedding; a bond that does not reach the cost-bearer 'is, by the framework's own definition, not a bond at all'). This dresses the wound at least partially in-chapter rather than fully deferring. High value -- but the deep design problem is still flagged [RELOCATE TO Ch 9], so the in-chapter answer is a promissory note dependent on Ch 9 delivery."
+   },
+   {
+    "what": "Divided-stakeholder / stratification-economics cross-reference added to the Mars-rare-earths case (test-draft 97: 'This is the inverse of the divided-stakeholder commons the book treats elsewhere... often divided along the exact lines stratification economics studies').",
+    "verdict": "judgment-call",
+    "note": "Deep-pass \u00a76 said the Mars-rare-earths self-bearing case is 'structurally adjacent to the divided-stakeholder idea but is its inverse... so no cross-reference is forced.' The test-draft adds the cross-reference anyway. It is accurate and lightly done, and it productively links to the Darity/Mullen stratification material the deep-pass noted lives elsewhere. Mild risk of importing a cross-chapter dependency that must be honored, but low-cost. Leaning earns-place; tagged judgment-call because the deep-pass said it was not forced."
+   },
+   {
+    "what": "Power-asymmetry worth-deferral caveat added (test-draft 123: 'The framework prices this severance like any other, but it does not flatten it... Measuring the magnitude of a severance is one act; weighing the wrong of how it was produced is another, and the book defers the second to where it belongs').",
+    "verdict": "earns-place",
+    "note": "Deep-pass \u00a77 flagged coercion-flattening as 'Partial, and slightly risky' -- the chapter priced coercion into the same severance taxonomy 'without the worth-deferral caveat.' This addition supplies the missing same-mechanism-not-same-worth move, aligning Ch 7 with the book's ratified coercion-handling doctrine. Closes a flagged seam."
+   },
+   {
+    "what": "Inline editorial flags left in the prose: multiple [CITATION GAP: ...] brackets and [RELOCATE TO ...] brackets (test-draft 71, 87, 127, 141, 155, 197, 209, 211, 217, 219).",
+    "verdict": "bloat-or-risk",
+    "note": "These are working-draft scaffolding, NOT finished prose -- they would trip the corpus scaffolding-invariant scan (placeholder/process-vocabulary patterns) and obviously cannot ship. They are appropriate for a test-draft/deep-pass artifact in _pipeline/test-drafts/, but they mean this file is explicitly a pre-cleanup state: the citation gaps must be filled (no-invented-factual-claims hard rule) and the relocations resolved before any of this prose is submission-eligible. Not a value loss; a readiness flag."
+   }
+  ],
+  "lost_value": [
+   "The delivery-cost grounding has NO residue. The deep-pass (C-2) recommended keeping one sentence asserting that the chapter's parameter ranges (asteroid iron, lunar He-3, Mars water cost) are grounded in real exploration economics; the test-draft deleted the entire closing note with no footnote stub. The chapter still leans on those parameter ranges to make its scenarios credible. Restore a one-to-three-sentence note or footnote: launch costs have fallen roughly an order of magnitude in fifteen years, and the chapter's parameter ranges are grounded in real exploration economics rather than invented -- so a reader who wants to check is answered.",
+   "Across-time credibility specifics are currently bracketed, not restored. The original's Lehner / Hawass / Sima Qian attributions and the Great Wall figures (5,000 km; 300-500k concurrent laborers; 700k mausoleum; Terracotta Army 1974; collapse within four years) are gone from the prose, replaced by [CITATION GAP] notes and hedged generalities. Per the no-invented-factual-claims rule the citations must be supplied before submission anyway -- but as it stands the across-time section reads markedly thinner and less authoritative than the original. Restore the named scholars and the hedged-as-reported figures (the original already hedged Sima Qian's numbers with 'by his estimate'), or confirm the C-9 relocation to Ch 5 carries them.",
+   "The commute-lease case lost its arithmetic. The original showed the work ('five-hour daily commute', '~250 work days/year', '~2.5-hour each-way') that produces 'thousands of hours of life'; the test-draft asserts the conclusion without the computation. Since this case is the chapter's only Earth-side, no-counterparty demonstration of the instrument, the concrete arithmetic was part of its persuasive force. Consider restoring at least the per-day-times-days-times-years computation even while keeping the four-mechanism enumeration deferred to the six-patterns section.",
+   "Ch 9 dependencies are now load-bearing and unverified from Ch 7. By compressing the immune-response section to a forward-pointer (Pistor answer-in-principle + [RELOCATE TO Ch 9]) and the existential-substitutability policy payoff to a single hand-forward sentence, the test-draft makes Ch 9 delivery a hard precondition. The deep-pass \u00a710 says this MUST be guaranteed in Ch 9. Before this draft is treated as final, confirm Ch 9 actually carries (a) the simulated-reattachment/verification-structure design problem incl. Public Choice rent-seeking analysis and the partial-implementations inventory (Norway, Nordic, reachable-horizon institutions), and (b) the rare-earths/PGM/cobalt/nickel renewable-transition payoff. If either is missing in Ch 9, the corresponding Ch 7 cut becomes a real loss."
+  ],
+  "overall_verdict": "This is a strong, disciplined revision that is closer to a NET GAIN than a quiet loss -- but it is explicitly a pre-cleanup working draft, not a ship-ready chapter, and it carries two genuine restoration items plus two conditional ones. On the cut side: every SAFE cut the deep-pass identified (C-1 abundance-masking lexicography, C-4 front-matter dedup, C-5 pattern re-mapping, C-6 capstone collapse, C-7 commute-mechanism recitation, C-8 ending dedup, plus C-9/C-10 internal compressions) was executed faithfully and the load-bearing distinctions survive in compressed form. Landing-points L (falsifiability, test-draft 195) and M (boundary/Europa, 93) -- the chapter's signature deliverables the deep-pass said to PROTECT -- are fully intact. On the add side the draft is genuinely impressive: it closes nearly every named-theorist positioning gap the deep-pass \u00a76 flagged (Hotelling, Pigou, Coase, Parfit, Rawls, Daly, Weitzman, Sandel, Simon-Ehrlich, Pistor) at the exact points of contact, closes the ratified book-level Polanyi/Fraser gap, AND repairs two objection seams the deep-pass \u00a77 flagged as EXPOSED/risky (the commute-lease Sandelian commodification inconsistency via the new 'disclosure not valuation' paragraph at 101, and the coercion-flattening worth-deferral caveat at 123). That is exactly the work the lens called for. The honest concerns: (1) the delivery-cost note was deleted with zero residue where the deep-pass wanted one sentence -- a small but clean lost-value item; (2) the across-time specifics and the commute arithmetic are currently thinner than the original, pending citation cleanup; (3) the draft is studded with [CITATION GAP] and [RELOCATE] brackets, so it is categorically not submission-eligible until those are resolved (no-invented-factual-claims hard rule); and (4) two compressions (immune-response, existential-gap payoff) now hard-depend on Ch 9 delivery that cannot be verified from Ch 7 alone. None of these is fatal; all are addressable by restoration rather than restart.",
+  "safe_as_redraft_base": "yes-with-restorations"
+ },
+ {
+  "chapter": "Ch8",
+  "cut_inventory": [
+   {
+    "what": "Opener eight-vector pre-list (orig L12): 'the families dispersed, the knowledge lost, the political work required to keep the whole operation invisible, the acceleration that compressed centuries of resource use into decades' compressed to four vectors ('health damage, the poisoned ground, the community, the foreclosure').",
+    "verdict": "genuinely-non-earning",
+    "note": "Deep-pass rank 7 (SAFE, I-8): pre-listing all eight components spends the reveal the chapter is built to deliver one at a time. The four kept components still set up the walk. Non-earning cut, as intended."
+   },
+   {
+    "what": "Orig L14 framing clause: 'letting the reader see what the gap looks like when it isn't aggregated, abstracted, or dissolved in policy language, but priced, cost-component by cost-component, against the extraction we've been following from the book's opening.'",
+    "verdict": "judgment-call",
+    "note": "Test-draft L14 cuts straight to 'This chapter does that exercise for one ton of Appalachian coal. The result is not degrowth.' The 'not aggregated/abstracted/dissolved in policy language' phrasing is a small but real anti-aggregation framing (it pre-empts the 'this is just externality accounting at altitude' read). Not load-bearing enough to block, but a minor rhetorical loss; the methodology-walk paragraph at L16 partly recovers it."
+   },
+   {
+    "what": "Health component middle paragraph (orig L38) re-deriving the $1-1.5 program figure; original three-statement structure (L34/L38/L40) collapsed to two.",
+    "verdict": "genuinely-non-earning",
+    "note": "Deep-pass rank 6 (SAFE, I-6): pure redundancy. The $1-1.5 program floor and the $2-4 all-in national figure each now stated once. Clean."
+   },
+   {
+    "what": "Orig L36 detail: 'the medical costs of populations whose life expectancy diverges from the national average by more than a decade.'",
+    "verdict": "judgment-call",
+    "note": "The decade-of-lost-life-expectancy clause was a concrete human-scale anchor inside the health component. Test-draft L34 folds the other health costs into a list but drops the life-expectancy-divergence specifically. See lost_value \u2014 this is one of two places the life-expectancy gap (a recurring book figure) gets thinned."
+   },
+   {
+    "what": "Black lung Trust Fund descriptors: orig L34 'The per-ton arithmetic for purposes of this chapter is the headline number: between one and one and a half dollars per ton allocated against the national coal tonnage produced since the Program's 1969 establishment' simplified to 'For this chapter the relevant arithmetic is the all-in figure.'",
+    "verdict": "genuinely-non-earning",
+    "note": "Reframing redundancy removal consistent with rank 6; the program figure still lands at L34. No value loss."
+   },
+   {
+    "what": "Dunbar couplet truncation (orig L94): 'it hides our cheeks and shades our eyes,\u2014 this debt we pay to human guile' shortened to 'it hides our cheeks and shades our eyes.' (drops 'this debt we pay to human guile').",
+    "verdict": "lost-value",
+    "note": "The dropped line 'this debt we pay to human guile' is the precise hinge that makes the Dunbar quotation do cost-accounting work ('debt'/'pay') rather than just evoke concealment. The chapter's whole move is reframing the mask as a *priced* debt; cutting the 'debt we pay' clause removes the verbal bridge. Restore the full couplet."
+   },
+   {
+    "what": "Du Bois (veil, Souls of Black Folk 1903) and Ellison (long-form narrative, Invisible Man 1952) from the literary genealogy (orig L96). Test-draft keeps Dunbar + Fanon only.",
+    "verdict": "judgment-call",
+    "note": "Deep-pass rank 3 (TRADE, I-3) explicitly recommended Dunbar + Fanon and holding the cut of Du Bois/Ellison to Ch1; test-draft executed exactly the recommended landing. Defensible as a relocate-to-Ch1 deduplication, NOT a quiet loss \u2014 provided Ch1 actually carries the four-author lineage (verify on Ch1 cascade). Flagged judgment-call because the synthesis sentence 'Du Bois named the structural condition... Ellison gave the long-form narrative... The framework adds the cost-accounting mechanism' was a crisp four-beat escalation; test-draft's replacement ('The literary tradition named the strategy of survival and the structural condition that required it') is more compressed but preserves the logical structure."
+   },
+   {
+    "what": "Entire Lewis/UMW history paragraph (orig L120): 'Black lung was identifiable as an occupational disease by the early twentieth century. It was not formally recognized... until 1969, and only after a miners' strike and the West Virginia Black Lung Association forced the legislative issue. The United Mine Workers under John L. Lewis declined to press the issue... on the grounds that raising it would interfere with the mechanization that was producing higher wages... The rank and file paid the difference.'",
+    "verdict": "lost-value",
+    "note": "Deep-pass rank 5 said 'cut the Lewis paragraph to ONE sentence' \u2014 the test-draft cut it to ZERO sentences and did not flag it for relocation. This is a quiet over-cut. The Lewis/UMW beat is the chapter's only concrete demonstration that political capture operated through *labor's own institutions* against labor \u2014 a non-obvious, originality-bearing historical claim, and the only fully-narrated illustration in the Political Capture component (which otherwise rests on the SCC-number politics). The 'rank and file paid the difference' line is also a values beat. Restore at least one compressed sentence. See lost_value."
+   },
+   {
+    "what": "Political Capture positioning paragraph (orig L126) heavily compressed: dropped the explicit reparations-economics roster (Coates, Darity, Mullen, Hamilton, Conley), the explicit Buchanan/Tullock naming, the 'cost-bearing-party analysis (who absorbed what; over what timeframe; against what counterfactual)' gloss, the absentee-mineral-rights-holders/trade-associations actor list, and the WV-statehouse public-record claim.",
+    "verdict": "judgment-call",
+    "note": "Deep-pass rank 5 (TRADE) recommended keeping ONE positioning sentence and pushing the rest to Ch9; test-draft did this (L116) and tagged it [RELOCATE TO Ch9]. Defensible. But note the explicit author names (Coates/Hamilton/Conley; Buchanan/Tullock) and the 'draws on the vocabulary rather than endorsing the project' Public-Choice-disarming move are now gone from Ch8 \u2014 if Ch9 does not carry the disarming move, the book loses its only inoculation against the 'why are you citing Buchanan' objection. Verify Ch9. Also the explicit '(Coates, Darity, Mullen, Hamilton, Conley)' roster being reduced to 'Darity and Mullen and the writers around them' is a small lit-positioning thinning (landing-point A)."
+   },
+   {
+    "what": "'thirteen-year life-expectancy gap' (orig L126) \u2192 'life-expectancy gap' (test-draft L116): the specific 13-year number dropped.",
+    "verdict": "lost-value",
+    "note": "The 13-year figure is a recurring, concrete, citable book figure and the single sharpest number in the political-capture positioning ('names McDowell County's thirteen-year life-expectancy gap as a number rather than as an actor-attribution problem'). Generic 'life-expectancy gap' loses the punch. Combined with the orig-L36 'more than a decade' cut, the chapter now states the life-expectancy gap as a hard number NOWHERE. Restore the number in at least one place."
+   },
+   {
+    "what": "Housing/YIMBY steelman-and-rebuttal, ~850 words (orig L184-194): Glaeser/Gyourko, Schuetz, JCHS 2024, supply-elasticity taxonomy (SF/NY/Boston/Seattle vs Atlanta/Phoenix/Houston/Charlotte), DOJ RealPage antitrust timeline, the full 'supply restriction explains level differences not across-market rise' argument, 'both are real, both are operating' synthesis.",
+    "verdict": "judgment-call",
+    "note": "Deep-pass rank 1 (SAFE, highest-value cut, I-1) \u2014 recommended compress to a one-beat household generalization + one sentence marking supply restriction as a separate real mechanism, with the full rebuttal relocated to Ch9. Test-draft executed exactly this: household beat kept (L174), the key one-sentence concession kept inside the [RELOCATE TO Ch9] flag ('the supply-side story explains the level differences across metropolitan markets, not the across-market rise in cost-burdened share'). Defensible AS A CH8 CUT. BUT: this is a relocation, and the deep-pass itself notes (\u00a77 EXPOSED) the YIMBY objection is genuine objection-survival; Ch8 no longer survives it on its own. If a self-contained essay is derived from Ch8, or if Ch9 does not carry this apparatus, the objection goes unanswered. Flagged judgment-call, conditional on Ch9 delivery."
+   },
+   {
+    "what": "Entire 2008 financial-crisis paragraph (orig L196): $11T household wealth destroyed, ~10M foreclosure filings / ~5M completed, $700B TARP, Mian & Sufi House of Debt 2014, bank-balance-sheet-vs-household-debt-restructuring scope-choice analysis.",
+    "verdict": "judgment-call",
+    "note": "Deep-pass rank 4 (TRADE, I-5) / recommended landing said relocate to Ch9 OR compress to one sentence. Test-draft relocated wholesale via [RELOCATE TO Ch9] flag (L176) and did NOT leave even the recommended one-sentence pointer in the body prose (the pointer lives only inside the bracketed relocation note, which is scaffolding, not prose). Per the deep-pass, 2008 is real work for landing-points E (worked demonstration) and K ('cost severance is a policy choice'). Relocation is defensible, but in the test-draft as written the reader gets NO 2008 beat at all in the running prose. If this draft were rendered with the bracket removed, the pattern-montage loses its macro-financial-crisis instance entirely. Restore a one-sentence in-prose pointer at minimum."
+   },
+   {
+    "what": "'The brief extrapolation' section heading + the standalone degrowth paragraph placement (orig L214-226) restructured; closing scope-fence restatements consolidated (orig L222/224/226/236/240).",
+    "verdict": "genuinely-non-earning",
+    "note": "Deep-pass rank 2 (SAFE, I-7): the 'accounting not policy / belongs to others' disclaimer appeared ~5x. Test-draft consolidates to open + close and merges the extrapolation into the closing-line section. The degrowth rebuttal, GDP-vs-welfare, leaded-gasoline precedent, and $10-15T figure all survive (test-draft L202, L210-214). Clean consolidation; no argument loss."
+   },
+   {
+    "what": "Closing-line question cascade trimmed (orig L232): 'What happens to a household in the bottom forty percent... when essentials rise by forty percent? Where does the pricing surplus go, and who decides? What does the economy look like on the other side, and is that economy still recognizably capitalist?' \u2014 test-draft L216 keeps a shorter version, drops 'is that economy still recognizably capitalist' and the specific 'bottom forty percent / rise by forty percent.'",
+    "verdict": "judgment-call",
+    "note": "The 'is it still recognizably capitalist' question was a sharp framing hook (anti-anti-capitalism signaling) and 'bottom forty percent / essentials rise by forty percent' gave the distributional-crisis question concrete shape. Test-draft's 'bottom of the income distribution when essentials rise sharply' is vaguer. Minor loss of specificity; not load-bearing for the argument, but the 'recognizably capitalist' beat did values-positioning work (reassuring the center-right reader). Consider restoring that one clause."
+   },
+   {
+    "what": "Orig L234 explicit affirmation: 'The framework answers them: the mathematics produces specific results, the simulations run in recognizable directions, the distributional crisis and the structural necessity of a universal floor emerge with a clarity that is neither ideological nor optional.'",
+    "verdict": "judgment-call",
+    "note": "Test-draft L216 keeps 'These questions are real, and they are consequences of the pricing exercise' but drops the 'the framework answers them / simulations run / universal floor emerges' sentence. This was a forward-promise to Ch9 (the simulation results) and a confidence beat. Its loss slightly weakens the bridge into Ch9's quantitative payoff. Borderline; the closing 'better, more stable, more resilient economy with a floor beneath it' (test-draft L216) partly recovers the 'floor' idea."
+   }
+  ],
+  "add_inventory": [
+   {
+    "what": "New full section 'What the market left out, and who named it' (test-draft L180-188): names Karl Polanyi's fictitious-commodity move and Nancy Fraser's expropriation thesis, glosses each, asserts the structural-commons identity (reef/atmosphere/community/labor/future generation = same object priced at nothing), and adds Polanyi's double-movement to answer the pricing-is-commodification worry, with a pointer to Ch9/Ch10 on whether the accountability bond holds the pricing-to-protect-vs-pricing-to-sell line.",
+    "verdict": "earns-place",
+    "note": "Directly closes the deep-pass's single highest-value identified miss (\u00a75 J-THIN, \u00a77 FRASER-absent, \u00a76 STRUCTURAL ANCHOR ABSENT): Ch8 demonstrated the Polanyi/Fraser thesis in plain English at orig-L206 while citing neither. This add converts the chapter from 'just-rebranded-externality'-exposed to inoculated, AND the double-movement passage pre-empts the financialization/'doesn't the bond commodify too' objection the deep-pass flagged (\u00a77 FINANCIALIZATION EXPOSED). High-value, on-spec add. Verify Polanyi/Fraser characterizations are accurate (no fabrication risk in the gloss) and that the names are consistent with the book's bibliography."
+   },
+   {
+    "what": "Pigou paragraph inside Foreclosure (test-draft L78): names Pigou explicitly, frames the four-component subtotal ($504-518) as 'the Pigouvian floor,' and makes the 'honest cost > Pigouvian floor because foreclosure prices the permanent removal of a finite stock a marginal-externality tax was never built to see' move ('Pigou priced the smoke. The framework prices the smoke and the fact that the coal is now gone').",
+    "verdict": "earns-place",
+    "note": "Closes deep-pass \u00a75 A-THIN and \u00a76 'Pigou EXTEND IMPLICIT ONLY \u2014 Gap to close.' This is genuine lit-positioning the original lacked, and it does double duty by giving the $504-518 figure a NAME (Pigouvian floor), which sets up the reconciliation the deep-pass flagged as the #1 structural fix. Earns its place. Verify the Pigou characterization is accurate."
+   },
+   {
+    "what": "Pigouvian-floor-vs-eight-component-total reconciliation sentence in 'The sum' (test-draft L158): 'Two numbers in this chapter are easy to confuse... The four-component Pigouvian floor... is between five hundred and four and five hundred and eighteen... The full eight-component honest total... is five hundred and ten... the difference between them is exactly the part of the cost the standard externality account leaves out and the framework puts back in.'",
+    "verdict": "earns-place",
+    "note": "Closes deep-pass I-2 (the #1 structural problem: keystone number arrived in an unreconciled three-jump $8 to $504-518 to $510 relay). This is the highest-priority structural insert and it lands cleanly. Pairs with the Pigou naming. Strong add. (Note: $510 total < $504-518 four-component floor is arithmetically odd on its face \u2014 the draft handles it with 'They overlap because the carbon term dominates both,' which is true but a careful reader may still snag; verify this phrasing satisfies the reconciliation rather than creating a new confusion. The deep-pass \u00a78 confirms both figures match the ratified ledger, so the numbers are correct; the prose just has to make the overlap legible.)"
+   },
+   {
+    "what": "Falsification-surface paragraph in 'The sum' (test-draft L164): 'A fair reader will want to know where this could be wrong... Eight components, every one of them adding cost, none of them subtracting, is exactly the pattern a skeptic should distrust. So the framework states the condition under which the gap closes: where a resource is fully renewable and harvested at or below its regeneration rate, the foreclosure term goes to zero... That is the falsification surface.'",
+    "verdict": "earns-place",
+    "note": "Closes deep-pass \u00a75 L-DROPPED and \u00a77 Popper-EXPOSED ('eight components, every one additive, none subtracting' \u2014 the unfalsifiability objection bites hardest exactly here, and the original stated no falsification surface). This is a genuine objection-survival add that the original lacked entirely. High value. Verify the CS=0-at-S_max=1 claim is consistent with Ch6/TA."
+   },
+   {
+    "what": "Weitzman declining-discount-rate clause in Foreclosure (test-draft L74): 'And the carbon number is itself conservative. The framework prices the foreclosure tail using a declining discount rate, which following Weitzman biases the estimate downward rather than upward.'",
+    "verdict": "earns-place",
+    "note": "Closes deep-pass \u00a75 F-PARTIAL and \u00a76 'Weitzman ADOPT ABSENT.' One clause; strengthens the conservative-by-construction claim against the overcounting objection. Earns its place. Verify Weitzman attribution accuracy."
+   },
+   {
+    "what": "Hotelling identity in 'The sum' (test-draft L136): '...including the identity that ties the framework's residual commons value to standard resource economics: the residual commons value of a unit, minus the Hotelling scarcity rent the market already captures, is the cost severance per unit. The market sees the rent. The framework prices the remainder.'",
+    "verdict": "earns-place",
+    "note": "Closes deep-pass \u00a75 A-THIN and \u00a76 'Hotelling EXTEND ABSENT \u2014 Ch8 is the obvious place to land the identity on the worked number; it defers to TA. Consider one sentence.' Test-draft adds exactly the one sentence. Crisp formal-positioning. Verify the RCV - Hotelling rent = CS identity matches the TA's formal statement."
+   },
+   {
+    "what": "Triangulated central IPG estimate '~50x' (test-draft L162): 'The triangulated central estimate, inflation-corrected, sits near fifty times.'",
+    "verdict": "judgment-call",
+    "note": "Adds a central-tendency anchor inside the 33-122x range (closes part of \u00a75 F triangulation). Useful, but it introduces a NEW figure ('near fifty times') not present in the original and not confirmed against the ledger in the deep-pass \u00a78 figure-audit (the deep-pass \u00a78 verifies 33-122x but does NOT list a ~50x central estimate). FLAG: verify '~50x' against the Canonical Figure Ledger before this ships \u2014 a new keystone-adjacent number that isn't ledger-confirmed is exactly the drift risk the deep-pass \u00a78 is policing."
+   },
+   {
+    "what": "IPG '120x' corrected to '122x' (test-draft L162: 'one hundred and twenty-two times'); '$4-5' mine-mouth harmonized to 'about four and a half dollars' / '$4.50' throughout (test-draft L22, L36, L72, L160, L218); U.S. Steel '1986' softened to 'across the 1980s' (test-draft L54).",
+    "verdict": "earns-place",
+    "note": "These three execute the deep-pass \u00a78 RATIFIED figure-drift fixes exactly (J3 $4.50 harmonization; J5 1986-to-across-the-1980s softening; the 120-vs-122 internal slip). Correct, ledger-compliant. No value loss \u2014 these are accuracy fixes."
+   },
+   {
+    "what": "Inline [CITATION GAP: ...] and [RELOCATE TO Ch9 / Ch1: ...] bracketed scaffolding markers throughout the test-draft body (e.g. L44, L46, L54, L58, L68, L88, L90, L92, L112, L114, L116, L170, L174, L176).",
+    "verdict": "bloat-or-risk",
+    "note": "These are working-draft scaffolding, NOT prose. They are the correct mechanism for a test-draft (they capture the deep-pass's citation-gap and relocation findings inline), but they are HARD-BLOCK scaffolding patterns under the corpus invariant gate and MUST be resolved/stripped before any merge or render. Risk: if this draft is treated as ship-ready, the brackets leak. They are appropriate for the test-draft stage only. Several CITATION GAP flags correspond to genuinely unsourced figures the deep-pass \u00a79 already catalogued (regional-collapse $5-15/ton; 60k Hendryx cancer cases; bond/remediation band; fossil lobbying $; energy-intensity 50%) \u2014 these are real pre-publication-queue items, not invented problems."
+   }
+  ],
+  "lost_value": [
+   "Lewis/UMW history paragraph (orig L120) is GONE entirely, not relocated. The deep-pass rank 5 said 'cut to ONE sentence,' not zero. This is the chapter's only narrated demonstration that political capture ran through labor's own institutions (UMW under John L. Lewis declining to press black-lung recognition because it would interfere with wage-raising mechanization \u2014 'the rank and file paid the difference'). It is a non-obvious, originality-bearing historical beat AND a values beat. Restore at least one compressed sentence in the Political Capture component.",
+   "Dunbar couplet truncated: the dropped final line 'this debt we pay to human guile' (orig L94) is the exact phrase that lets the mask quotation do cost-accounting work (debt / pay). The chapter's move is reframing the mask as a priced debt; without 'this debt we pay' the quotation only evokes concealment. Restore the full couplet.",
+   "The '13-year life-expectancy gap' as a hard number is now stated NOWHERE in the chapter. Orig L126 ('thirteen-year life-expectancy gap') was generalized to 'life-expectancy gap,' and orig L36's 'life expectancy diverges from the national average by more than a decade' was dropped from the health component. This is a recurring, citable book figure and the human-scale anchor of the McDowell case. Restore the number in at least one location (Community Disruption or the political-capture positioning sentence).",
+   "2008 financial-crisis beat has NO presence in the running prose \u2014 it lives only inside a [RELOCATE TO Ch9] bracket. The deep-pass recommended either relocation OR a one-sentence in-prose pointer; the test-draft body as written gives the reader zero 2008 instance, so the pattern-montage loses its macro-financial-crisis case when the bracket is stripped. Add a one-sentence in-prose pointer ('the same shape scaled, in 2008, to the architecture of the response itself, where a policy choice rather than a market outcome distributed the costs between bank and household balance sheets \u2014 a story Chapter 9 returns to').",
+   "CONDITIONAL \u2014 verify-then-restore-if-Ch9-doesnt-carry-it: the Public-Choice-disarming move ('the rent-seeking analytical vocabulary survives many readings of Buchanan's broader political project; this book draws on the vocabulary rather than endorsing the project') and the explicit reparations-economics roster (Coates/Darity/Mullen/Hamilton/Conley) were the chapter's only inoculation against 'why are you citing Buchanan' and its main explicit lit-positioning (landing-point A). Test-draft relocates to Ch9. If Ch9 does not carry the disarming move, restore one sentence to Ch8.",
+   "CONDITIONAL \u2014 the YIMBY supply-side objection is no longer survived within Ch8 (relocated to Ch9). Acceptable for a chapter inside a book IF Ch9 carries the apparatus; NOT acceptable if Ch8 is the basis for a standalone derivative essay. Verify Ch9 delivery; if a Ch8-derived essay is planned, the steelman-and-rebuttal must travel with it."
+  ],
+  "overall_verdict": "This is NOT a true 'lost none of the value' one-shot. It is a strong, largely faithful execution of the deep-pass that nonetheless made FOUR quiet over-cuts beyond what the memo authorized, plus introduced one unverified new figure. The adds are excellent and almost all earn their place: the Polanyi/Fraser section, the Pigou naming + Pigouvian-floor reconciliation, the falsification surface, the Weitzman clause, and the Hotelling identity each close a specific deep-pass-identified gap and materially strengthen the chapter's objection-survival and lit-positioning \u2014 these are net gains, not bloat. The figure-drift fixes ($4.50, across-the-1980s, 122x) are correct and ledger-compliant. BUT the skeptic's job surfaces real quiet losses the author would not want to ship: (1) the Lewis/UMW paragraph was cut to ZERO when the memo said cut to ONE sentence \u2014 the chapter loses its only narrated political-capture demonstration; (2) the Dunbar couplet lost its load-bearing 'this debt we pay to human guile' line, which is the verbal hinge of the mask-as-priced-debt move; (3) the 13-year life-expectancy gap is now a hard number stated nowhere (two separate cuts conspired to erase it); (4) the 2008 beat exists only inside a relocation bracket, so the running prose has no macro-financial-crisis instance. Additionally, the new '~50x triangulated central estimate' is a keystone-adjacent figure NOT confirmed in the deep-pass \u00a78 ledger audit \u2014 a drift risk that must be verified before ship. The housing/YIMBY and Public-Choice relocations are defensible AS CH8 CUTS but leave two objections unsurvived within the chapter, contingent on Ch9 actually delivering \u2014 must verify. The inline [CITATION GAP]/[RELOCATE] brackets are correct test-draft scaffolding but are hard-block invariant-gate patterns that must be stripped before any merge/render.",
+  "safe_as_redraft_base": "yes-with-restorations"
+ }
+]
