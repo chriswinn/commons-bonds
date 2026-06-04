@@ -98,7 +98,7 @@ the uncounted cost**. The emotional climax of the bone-sense. **HANDLING: the ma
 the author's OWN to tell (his loss) and stays on his side of the boundary; the son's and
 ex-wife's medical specifics remain off the page.**
 
-## Family legend — Blackbeard (Edward Teach) descent (HANDLE WITH NO-FABRICATION CARE; author leans "probably too far")
+## Family legend — Blackbeard (Edward Teach) descent — **DECISION: OMIT from the book. RATIFIED 2026-06-04 (author).** (kept here as a tried-and-cut record so it is not re-proposed)
 Author shares (2026-06-04) a paternal-line family legend of descent from **Edward Teach
 ("Blackbeard")**. **UNPROVABLE** (author: "zero way to prove it except maybe a DNA test").
 - **Hard rule:** this can NEVER be asserted as fact in publisher-facing prose. If it appears at
