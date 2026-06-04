@@ -1,6 +1,6 @@
 # Commons Bonds — Canonical Figure Ledger
 
-**Status: PROPOSED 2026-06-04 — awaiting author ratification of the judgment calls (J1–J7) below.**
+**Status: RATIFIED 2026-06-04 (author). J1–J7 resolved below; J5 resolved to a framing pending a primary-source year-lock. This file is now the single source of truth for the book's shared figures.**
 Once ratified, this file is the SINGLE SOURCE OF TRUTH for the book's shared figures. Every
 chapter, the Technical Appendix, and every derivative essay/op-ed must match it. Built from the
 cross-artifact number sweep (`publishing/essays/_pipeline/coal-figure-canonical-sweep_2026-06-04.md`)
@@ -34,15 +34,15 @@ cascade.
 - **$504–518** = 4-component Pigouvian floor.
 - **$580–620** = RCV-model estimate (method-distinct; keep out of the "total" slot).
 
-## Open judgment calls (need author ratification → then this becomes RATIFIED)
+## Judgment calls — RATIFIED 2026-06-04 (author)
 
-- **J1.** Ratify carbon $510→**$496** and total $524→**$510** book-wide (already applied to Ch8 + Atlantic + op-ed draft this session; arithmetic-driven; corrected numbers are *more* conservative).
-- **J2.** Public IPG = **33–122×**; ~50× as the triangulated central; confine 50–555× to the TA; never quote 555× bare.
-- **J3.** Harmonize Ch8 "$4–5/ton" → **$4.50**?
-- **J4.** Op-ed Black Lung debt "$4.5B (2021)" — deliberate vintage anchor, or align to $4.6B?
-- **J5.** **U.S. Steel / Gary (WV) closure year: late-1980s vs 1986 vs 1990 — genuine factual discrepancy, unresolvable from the corpus; needs a verified external lock.** (Can web-verify.)
-- **J6.** Ch6 national-basis "$449–464": confirm decomposition (carbon $441 + heads) and relabel.
-- **J7.** RCV-model $580–620: keep in main text, or confine to the TA?
+- **J1. RATIFIED.** Carbon = **$496**, total = **$510**, book-wide (arithmetic-driven; more conservative). Already applied to Ch8 + Atlantic + the op-ed draft; cascade the rest (Technical Appendix, Ch6, Ch2, canonical `op-ed.md`, the 2026-05-11 inventory, the Ch8 pre-pub queue) — this is the execution of book-amendment-candidate #7.
+- **J2. RATIFIED.** Public IPG = **33–122×**; **~50×** = triangulated central; **50–555× confined to the Technical Appendix; never quote 555× bare.**
+- **J3. RATIFIED.** Harmonize Ch8 "$4–5/ton" → **$4.50**.
+- **J4. RESOLVED.** Keep the dated **"$4.5B (2021)"** as a defensible vintage anchor (low-stakes); if a single current figure is later preferred, use the most recent DOL Black Lung Disability Trust Fund debt *with its year*.
+- **J5. RESOLVED to a framing (hard-year still needs a primary source).** The U.S. Steel McDowell/Gary shutdown was a **phased wind-down across the 1980s into the early 1990s** (Gary closure often cited ~1986; broader U.S. Steel McDowell exit toward ~1992, ~1,200 jobs), not a single year — which is exactly why the artifacts disagree. **Canonical framing: harmonize every artifact to "across the 1980s" / "by the late 1980s,"** NOT a contested point-year. A specific hard year (1986 vs 1990) must not be stated as fact until locked against a primary source (a Gary/McDowell history, U.S. Steel records, or a contemporaneous news archive) — flagged for the gather/drafting stage.
+- **J6. RATIFIED.** Ch6 national-basis carbon = **$441** (= 2.32 × $190); relabel the "$449–464" band accordingly (carbon $441 + non-carbon heads).
+- **J7. RESOLVED.** The RCV-model **$580–620** band lives in the **Technical Appendix** (method-distinct, Weitzman declining-rate); chapters/essays use the **$510 total** and may point to the appendix for the higher model estimate. Never conflate $580–620 with the $510 total.
 
 ## Cascade targets (expands book-amendment-candidate #7)
 

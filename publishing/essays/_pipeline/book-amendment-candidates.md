@@ -218,5 +218,10 @@ without an explicit author-ratified book-amendment session.
   exactly why the book needs a one-page canonical figure ledger (carbon term, total, RCV-model
   band, IPG, SCC, tonnage bases, with labels pinned) as the single source of truth — build it as
   the first step of this cascade.
-- **Status:** LOGGED — queued for the book-redraft phase opening pass; blast radius mapped (now
-  includes the Technical Appendix + the carbon-term-vs-total label ambiguity).
+- **Status:** ✅ **CANONICAL SET RATIFIED 2026-06-04** — see `manuscript/_CANONICAL_FIGURE_LEDGER.md`
+  (carbon **$496** / total **$510** / Pigouvian floor **$504–518** / IPG **33–122×** public, ~50×
+  central, 555× TA-internal only / RCV-model **$580–620** TA-only / mine-mouth **$4.50** / J5 closure
+  = **"across the 1980s"** framing, hard year pending a primary source). **Cascade AUTHORIZED** to
+  execute across the still-unfixed artifacts (Technical Appendix §11.1/§11.6/§9.5/§11.11, Ch6, Ch2,
+  canonical `op-ed.md` [2.86 factor — highest exposure], 2026-05-11 consistency inventory, Ch8
+  pre-pub queue) as part of the book-redraft phase.
