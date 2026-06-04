@@ -44,9 +44,13 @@ reason he recognized the colleague on sight; grandfather = first instance.
 - **"Fifteen audiences" — RESOLVED:** a baseline minimum of ~15 derivative works for ~15 different
   **reader** audiences (per article), sometimes rising to the mid-20s. (Reader-audiences, NOT
   meeting-audiences.)
-- **NIH project scope — confirmed from memory (20+ yrs):** numbers as recalled; recommend a
+- **NIH project scope — confirmed from memory (20+ yrs):** numbers as recalled; use a
   recalled-approximation register ("a team of around forty," "about a million dollars") rather than
-  false precision, given the span + memoir form.
+  false precision, given the span + memoir form. **Author note (2026-06-04): "around forty" is a
+  rough memory (could be ~36, could be ~47) and he was deliberately AIMING LOW when he wrote it.**
+  Keep the aim-low framing — it is the conservative-floor discipline (Ch8:28, "the smallest honest
+  number the framework can defend") showing up in the author's own memoir register. Note resonance:
+  the framework is not imposed on the material; it is how the author already thinks.
 - **Father's details — CLEARED + CONSENTED:** author asked him; father confirmed no issue (the
   author never heard anything he should not have). Use **diplomatic passport** (correction from
   "political passport"), high clearance, etc. — naming the credentials exposes no secrets.
