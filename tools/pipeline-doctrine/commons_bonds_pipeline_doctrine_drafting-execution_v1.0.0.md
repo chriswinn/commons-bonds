@@ -98,15 +98,20 @@ findings are NOT evidence that one-shot lens drafting is inherently weak. They a
 two fixable gaps — an *unratified-proposal* gap in the prep, and a missing *dedup guard*.
 One-shot whole-cloth drafting remains the method; these rules close the gaps.
 
-### Rule 4 — No unratified proposals enter the drafting brief
+### Rule 4 — Every proposal in the brief is handled (ratified, amended, or declined) before drafting
 
 Before a one-shot draft fires, every PROPOSAL in the prep (deep-pass memos, relocation
-suggestions, "move X to Ch Y," open decisions) must be **resolved/ratified**, not carried in
-as a proposal. The test's dominant failure was the drafters treating a deep-pass *proposed
-relocation* as a settled fact and excising the content — but the destination move was never
-ratified or executed, so the value went homeless ("relocate became delete"). Fix: the
-ready-to-draft brief contains only DECIDED state. If a relocation is in the brief, its
-destination is real and the move is part of the plan, not a flag for later.
+suggestions, "move X to Ch Y," open decisions) must be **explicitly handled — ratified,
+amended, or declined.** The requirement is NOT that proposals be removed, nor that they all be
+accepted; it is that **none remains in an unhandled / still-proposed state** when drafting
+begins. A declined proposal is handled; an amended one is handled; a ratified one is handled.
+What breaks the draft is an *unhandled* proposal the drafter then guesses about — the test's
+dominant failure, where a deep-pass *proposed relocation* was treated as settled fact and the
+content excised though the move was never ratified or executed ("relocate became delete").
+Author framing (2026-06-04): "ratify, amend, or decline all proposals in a brief, but
+regardless of how they are handled, handle them all before drafting." So the ready-to-draft
+brief carries only HANDLED state: each relocation is decided (its destination real and part of
+the plan, or declined and the content stays), never a flag for later.
 
 ### Rule 5 — A deduplication/cut step needs an explicit retention guard
 
