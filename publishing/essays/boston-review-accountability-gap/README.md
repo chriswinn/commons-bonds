@@ -2,8 +2,22 @@
 
 **Slug:** `boston-review-accountability-gap`
 **Venue:** Boston Review (Essays & Book Reviews stream; Submittable portal)
-**State:** RATIFIED-AWAITING-SUBMIT — **NEW-PIPELINE version (Amendment E), cascade complete + Stage 5 signed off 2026-06-02.** Supersedes the 2026-05-23 iterated version (archived in `_archive/`).
-**Last updated:** 2026-06-02
+**State:** **REJECTED by Boston Review 2026-06-03** (same-day editorial-triage decline; boilerplate "not a good fit at this time, hope you can place it elsewhere"). **Cascading to Public Books per cascade plan v2 W1.2 fallback chain (BR → n+1 alt → Public Books tertiary; n+1 alt unspecified → cascading directly to Public Books per author 2026-06-03).** Cover-letter venue-specific rewrite in flight via dedicated chip 2026-06-03; essay body unchanged (Amendment E new-pipeline version, Stage 5 RATIFIED 2026-06-02, remains canonical for the Public Books submission package).
+
+**Decline-letter verbatim (2026-06-03):**
+> Dear Chris,
+>
+> Thank you for your submission, "The Accountability Gap." We were grateful for the opportunity to read it, but unfortunately it isn't a good fit for us at this time. We hope you can place it elsewhere.
+>
+> Best wishes,
+>
+> The Editors, Boston Review
+
+**Decline read:** Same-day turnaround = editorial-triage decline (not substantive read); boilerplate language = information-poor signal about the essay itself; "we hope you can place it elsewhere" = standard courtesy, not strength-or-weakness signal. Treat as venue-fit data point (BR not a fit at this submission moment) rather than essay-quality data point. Per cascade plan v2 §1.8 fire-all-ready cadence, early declines are expected and absorb-without-strategy-change.
+
+**Last updated:** 2026-06-04 (state transition to REJECTED + cascade-firing logged)
+
+**Prior state (preserved as audit-trail):** RATIFIED-AWAITING-SUBMIT — NEW-PIPELINE version (Amendment E), cascade complete + Stage 5 signed off 2026-06-02. Submitted to Boston Review via Submittable portal 2026-06-03 (commits `9a72bf6` BR trim resolved → KEEP FULL + `bd9a20a` 🎉 first portfolio submission). Supersedes the 2026-05-23 iterated version (archived in `_archive/`).
 
 ## Essay status
 
