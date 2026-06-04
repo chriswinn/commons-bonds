@@ -1,0 +1,1231 @@
+[
+ {
+  "unit": "Ch1",
+  "existing_citations": [
+   {
+    "source": "Paul Laurence Dunbar \u2014 \"We Wear the Mask\" (the \"mask\" trope)",
+    "what_it_supports": "Lineage/originality-narrowing claim that the move of naming what hides behind a mask predates the book; the framework only extends the move into the pricing of commons.",
+    "quote_or_locator": "\"The work of naming what hides behind a mask \u2014 Dunbar's mask, Du Bois's veil \u2014 is older than this book. Black American writing has carried that work for over a century\u2026 The pricing is new; the move is old.\" (Ch1 line 116). General attribution, not a direct quotation \u2014 safe as written per deep-pass \u00a79; pin the source only if a Ch1-derived essay quotes the poem directly."
+   },
+   {
+    "source": "W.E.B. Du Bois \u2014 The Souls of Black Folk (the \"veil\")",
+    "what_it_supports": "Same lineage-credit claim: the veil as a prior instance of the naming move the framework inherits.",
+    "quote_or_locator": "\"Dunbar's mask, Du Bois's veil \u2014 is older than this book\" (Ch1 line 116). General reference, not a quotation; deep-pass \u00a79 rates it safe as written, pin source if directly quoted downstream."
+   },
+   {
+    "source": "USPTO patent record + NASA Langley (NACA\u2192NASA 1958) institutional history \u2014 corroborating record for the grandfather cluster (LaVern E. Winn; 2 identified patents per project memory: Liquid Waste Feed System 1972; fiberglass-laminate lathe)",
+    "what_it_supports": "Grandfather worked at NASA Langley (first NACA, then NASA after 1958) as a wind-tunnel model maker and is named in the patent record. Deep-pass \u00a79 G-2 calls this the one Ch1 factual cluster with an actual public paper trail.",
+    "quote_or_locator": "\"He worked his entire career at NASA Langley, in Hampton, Virginia \u2014 first when the agency was NACA, then after it became NASA in 1958\u2026 an inventor with his name in the patent record\" (Ch1 lines 30\u201332). Note: the chapter itself cites no patent number; deep-pass \u00a79 G-2 recommends pinning the actual patent numbers in the AuthorsNote/Ch10 rather than Ch1. The public record exists but is not yet attached as a verifiable locator in-text."
+   },
+   {
+    "source": "Human Genome Project public completion record (working draft 2000; full sequence 2003)",
+    "what_it_supports": "Author's claim that the HGP \"would complete during my time there\" at NIH, used as the chapter's one externally-checkable date-anchor.",
+    "quote_or_locator": "\"The Human Genome Project would complete during my time there\" (Ch1 line 54). HGP completion dates are publicly datable; deep-pass \u00a79 G-6 flags that the author's NIH tenure + age/timeline must be confirmed to overlap, since a hostile reader could test it. Public anchor exists but in-chapter framing is not yet verified against the author's actual dates."
+   }
+  ],
+  "supported_claims": [
+   "Chapter 1 is memoir/first-person prose by ratified design (the \"apparatus-free felt-experience opener\"); deep-pass \u00a70 confirms it \"deliberately names nothing\" and \u00a79 confirms NO claim in Ch1 needs an academic citation \u2014 most claims are first-person and not externally citable.",
+   "Lineage/originality claim (Dunbar's mask, Du Bois's veil; \"the pricing is new; the move is old\") \u2014 backed by general literary attribution to Dunbar and Du Bois; deep-pass \u00a79 rates it safe as written.",
+   "Arithmetic claim: the \"thirteen hundred hours\" commute figure is internally verified (5 hrs/day \u00d7 5 days \u00d7 52 weeks = 1,300); deep-pass \u00a78 confirms the arithmetic checks.",
+   "Figure-integrity: Ch1 contains NONE of the book's canonical-set figures ($496/$510/$504\u2013518/$580\u2013620/IPG multiples/SCC $190/CO2 factors/US-Steel framing); deep-pass \u00a78 verified by grep \u2014 zero canonical-figure-drift risk.",
+   "Grandfather's NASA Langley / wind-tunnel model-maker / patent-record claim \u2014 corroborated by project memory (LaVern E. Winn, 2 identified patents) and publicly verifiable against USPTO + NASA Langley history (deep-pass \u00a79 G-2), though patent numbers are not yet pinned in-text."
+  ],
+  "needs_research": [
+   "G-1 (deep-pass \u00a79): Pou/Pooh nickname etymology (\"Pappou\" Greek-grandfather \u2192 toddler's \"Pou\"; grandfather independently nicknamed \"Pooh\") \u2014 KNOWN PRIOR DRIFT SITE (v2.0 Noema test caught an invented \"Tidewater-accent provenance\"). No public citation possible; requires author fact-confirmation that no invented accent/provenance has re-entered (Ch1 lines 28, 36).",
+   "G-2 (deep-pass \u00a79): Grandfather's specific patents \u2014 chapter asserts \"an inventor with his name in the patent record\" but cites no patent number. Patent numbers (Liquid Waste Feed System 1972; fiberglass-laminate lathe per memory) need to be pinned to USPTO records to make the verifiability promise have a real target before any Ch1-derived submission (Ch1 lines 30\u201332).",
+   "G-3 (deep-pass \u00a79): \"fifteen audiences\" at NIH \u2014 KNOWN PRIOR DRIFT SITE (reader-audiences vs meeting-audiences inversion in the Noema draft). Author must confirm both the count and the KIND of audience match the ratified-true account (Ch1 line 56). Not externally citable.",
+   "G-4 (deep-pass \u00a79): NIH project scope \"team of more than forty\u2026 one year\u2026 one million dollars\" growing to \"a million and a half and a year past due\" \u2014 KNOWN PRIOR DRIFT SITE (original-scope vs direct-management framing). Author must verify the framing before the specifics are retained (Ch1 line 58). Not externally citable.",
+   "G-5 (deep-pass \u00a79): Cussing-at-self polarity in the falling-asleep-mid-email scene \u2014 KNOWN PRIOR DRIFT SITE (cursing-at-self vs cursing-at-recipient inverted in the Noema draft). Current text reads cursing-at-self; author must confirm that is the ratified polarity (Ch1 line 66). Not externally citable.",
+   "G-6 (deep-pass \u00a79): Author \"twenty-two years old, on a [three-month] contract\" at NIH AND the Human Genome Project \"would complete during my time there\" \u2014 the one externally-checkable date-anchor a hostile reader could test. Author's NIH tenure must be confirmed to overlap the publicly-datable HGP completion (working draft 2000; full 2003) and the age/timeline must be internally consistent (Ch1 line 54).",
+   "G-7 (deep-pass \u00a79): \"fifty-eight countries\u2026 as of this writing\" \u2014 self-reported count that should match any bio/jacket copy to avoid trivial inconsistency (Ch1 line 10). Not externally citable; deep-pass recommends cutting it anyway (cut C-7).",
+   "Other unverifiable first-person autobiographical specifics with no public source, asserted as fact and load-bearing for the chapter's emotional spine but requiring author fact-confirmation (not public research): the NICU premature-birth timeline (born August, due October, ~two months in NICU; line 16); the ~120 and ~138 billed-hours-per-week stretches (line 66); father as \"naval architect / civil servant employed by the Navy\" holding a high clearance and traveling on a political passport (line 48); the cable-TV-station rescue particulars (decade-old server from a famous broadcasting company, warehouse worker flown from Chicago, three days back up; lines 78\u201380); the IMF/World Bank golf-course referral (line 70); the $300/month rent saving, $40 parking, 48-minute test drive vs 2.5-hour real commute (line 72). These carry the chapter, but per the no-invented-facts discipline each must be ratified-true, not drafted-plausible."
+  ]
+ },
+ {
+  "unit": "Ch2",
+  "existing_citations": [
+   {
+    "source": "John F. Kennedy, campaign speech, Canton, Ohio (Sept. 1960)",
+    "what_it_supports": "Kennedy's 'wrong defendant' framing of McDowell County's paradox: richest coal output yet most people on surplus food packages",
+    "quote_or_locator": "Quoted in italics (line 14): 'McDowell County mines more coal than it ever has in its history, and there are more people getting surplus food packages in McDowell County than any county in the United States.' \u2014 attributed to JFK at Canton, Ohio, four months after the May 1960 McDowell visit"
+   },
+   {
+    "source": "Robert Bailey, interview with West Virginia Public Broadcasting / Inside Appalachia, host Jessica Lilly (Feb. 2019)",
+    "what_it_supports": "Lived human anchor for black lung's cost; miner's account of the disease and his motive for testifying",
+    "quote_or_locator": "Lines 30, 34: 'It's almost like drowning.' and 'Most laws across the nation, most laws have been written with blood... I don't want the things I went through just to drop and no knowledge to be gained, no people to be helped.' Attributed inline to the Inside Appalachia host Jessica Lilly, Feb 2019; Bailey reported dead 28 days after the interview (line 32)"
+   },
+   {
+    "source": "Ted Latusek, interview with Chris Hamby, Center for Public Integrity (2013)",
+    "what_it_supports": "Lived human anchor for black-lung-benefit denial / corporate appeal-attrition; constrained-loyalty register",
+    "quote_or_locator": "Lines 168-172: 'A lot of times, you couldn't see your hand in front of your face... It felt like somebody had put a bag over my face.' / 'My goal in life was to outlive Consol... And then it goes to the Fourth Circuit Court, and they take it all away from me.' / 'I was loyal to the company, but the loyalty wasn't there for me...' Attributed inline to Chris Hamby, Center for Public Integrity, 2013"
+   },
+   {
+    "source": "Mariana Mazzucato, The Value of Everything: Making and Taking in the Global Economy (2018)",
+    "what_it_supports": "Intellectual lineage for the value-creation vs value-extraction distinction the chapter adopts and extends to physical-resource extraction",
+    "quote_or_locator": "Lines 148-150: cites the book by title/year and summarizes its making/taking distinction and three financial-capital cases (asset-manager fees, pharma patent rents on publicly-funded research, platform value capture); chapter frames its own contribution as extending Mazzucato's diagnosis to physical-resource extraction"
+   },
+   {
+    "source": "David Harvey, The New Imperialism (2003), Chapter 4",
+    "what_it_supports": "Intellectual lineage via 'accumulation by dispossession' as the contemporary form of Marx's primitive accumulation; positioned as the diagnostic lineage the framework operationalizes",
+    "quote_or_locator": "Line 152: cites book by title/year and Ch 4; names 'accumulation by dispossession' and the Marx primitive-accumulation lineage. NOTE: the in-text claim 'Harvey's analysis is the lineage behind Mazzucato's diagnosis' is an intellectual-history assertion flagged by the deep-pass (ISSUE B) as contestable and not independently sourced"
+   },
+   {
+    "source": "Patrick Radden Keefe, Empire of Pain (2021)",
+    "what_it_supports": "Documentary record of the Sackler family's role in Purdue Pharma / OxyContin and the litigation chronology",
+    "quote_or_locator": "Line 208: cited by title/year as tracing 'the family's role through the documentary record'; supports the Purdue 2007 felony misbranding plea (three executives' misdemeanor counts) and 2020 felony plea on three federal counts referenced in the same paragraph"
+   },
+   {
+    "source": "Surface Mining Control and Reclamation Act of 1977 (SMCRA)",
+    "what_it_supports": "Legal basis for reclamation-bond requirement; the 'price it in / make the accounting honest' theory the chapter says practice failed to match",
+    "quote_or_locator": "Line 82: names the Act by title and year and its reclamation-bond posting requirement"
+   },
+   {
+    "source": "Federal Black Lung Benefits Program (established 1969)",
+    "what_it_supports": "Institutional anchor for black-lung compensation; the program whose $44B-distributed / $4.6B-debt deficit the chapter uses as a severed-cost example",
+    "quote_or_locator": "Line 70: names the Program and its 1969 establishment date. NOTE: the Program's existence/founding is a public-record institutional fact, but the specific dollar figures attached to it ($44B, $4.6B, $15B-by-2050, borrowing since 1979) are NOT attributed to a source \u2014 see needs_research"
+   },
+   {
+    "source": "Purdue Pharma federal litigation record (2007 misbranding plea; 2020 federal plea); Sackler and Big-Three distributor settlements",
+    "what_it_supports": "The Second Cycle argument: documented corporate plea history and settlement figures establishing the opioid second-extraction wave as a matter of public record",
+    "quote_or_locator": "Lines 208-210: '2007 felony misbranding plea (with three executives pleading guilty to misdemeanor counts)' and '2020 felony plea on three federal counts.' These plea facts are presented as litigation-record events. NOTE: the settlement dollar figures (Sackler ~$11B; McKesson/Cardinal Health/AmerisourceBergen $21B in 2022) and the four-characteristic target-map are asserted without a specific source citation beyond the general litigation record / Keefe \u2014 see needs_research items 10-11 from the deep-pass"
+   }
+  ],
+  "supported_claims": [
+   "Kennedy toured McDowell County, WV in May 1960 during his primary campaign and returned to the imagery in a Canton, Ohio speech four months later \u2014 backed by the verbatim Canton quote (line 14).",
+   "Black lung's lived experience ('almost like drowning') and a miner's stated motive for congressional testimony \u2014 backed by Robert Bailey's on-record WV Public Broadcasting / Inside Appalachia interview (Feb 2019, host Jessica Lilly).",
+   "Black-lung-benefit claimants face decades-long corporate appeal attrition and a sense of betrayed loyalty \u2014 backed by Ted Latusek's on-record Center for Public Integrity interview (Chris Hamby, 2013), including the nineteen-year fight and Fourth Circuit reversal.",
+   "The value-creation vs value-extraction distinction the chapter adopts originates with Mazzucato's The Value of Everything (2018); the book frames its own move as extending that distinction to physical-resource extraction \u2014 vocabulary lineage cited inline.",
+   "The 'accumulation by dispossession' framing echoes Harvey's The New Imperialism (2003) and the Marx primitive-accumulation lineage \u2014 cited inline (with the caveat that the 'Harvey is the lineage behind Mazzucato' sub-claim is unsourced/contestable).",
+   "SMCRA (1977) required mining companies to post reclamation bonds \u2014 named statute, public-record legal fact.",
+   "The federal Black Lung Benefits Program was established in 1969 \u2014 public-record institutional founding fact (the dollar figures attached to it are NOT yet sourced).",
+   "The Sackler family / Purdue Pharma role in the OxyContin sales strategy is documented through the public litigation record and Keefe's Empire of Pain (2021), including Purdue's 2007 and 2020 federal guilty pleas \u2014 narrative backed by the named book and the plea events."
+  ],
+  "needs_research": [
+   "McDowell County personal income 'dropped by two-thirds in a single year after the Gary closure' (line 40) \u2014 striking, load-bearing claim with no source (candidate: BEA local-area personal income); gap shared with Ch 8.",
+   "U.S. Steel Gary mine closure 'in the late 1980s \u2014 taking 1,200 jobs' (line 40) \u2014 the 1,200-jobs count needs a source; Ch 8 does not state the count.",
+   "McDowell County 1950 peak population of 'nearly 100,000' and collapse to 'under 20,000' by 2020 (lines 22, 42) \u2014 population figures need a Census source/year.",
+   "Male life expectancy 63.5 years vs national male average 76.5 (a 13-year gap) (line 44) \u2014 needs source + year; this figure is the spine of the paragraph.",
+   "Drug death rate '141 per 100,000' vs '2015 national rate of roughly sixteen per hundred thousand' (line 46) \u2014 needs source/year (CDC?); matches Ch 8 but neither chapter sources it.",
+   "Poverty rate 37.6 percent; median household income $28,235; county ranks 55th of 55 WV counties in health outcomes (line 46) \u2014 needs Census/ACS + County Health Rankings cite with year.",
+   "'The first food stamps under the modern program were issued here' (line 46) \u2014 historical claim (Welch/McDowell County 1961 pilot) asserted without citation.",
+   "'Twenty percent of miners in Appalachia with twenty-five or more years of tenure have black lung' (line 66) \u2014 epidemiological claim needs a NIOSH/study cite.",
+   "'The disease reduces life expectancy by eight to thirteen years per case' (line 66) \u2014 needs source.",
+   "'Black lung rates are rising again \u2014 and rising fastest among younger miners' (line 68) \u2014 contested, high-visibility claim; needs NIOSH/epidemiology cite.",
+   "Black Lung Program figures: '$44 billion in benefits,' Trust Fund '$4.6 billion in debt,' 'borrowed... almost every year since 1979,' debt 'projected to reach $15 billion' by 2050 (lines 70-72) \u2014 each figure needs a source (candidate: GAO).",
+   "Reclamation/AMD figures: 'more than 633,000 acres require environmental remediation,' cleanup cost '$7.5 billion and $9.8 billion,' available bond money '$3.8 billion,' gap '$4 billion and $6 billion' (lines 84-86) \u2014 the AMD/reclamation spine needs sourcing.",
+   "'Between 2014 and 2016, three major coal companies declared bankruptcy, transferring $865 million in liabilities directly to taxpayers' (line 86) \u2014 specific dollar + date claim needs a cite.",
+   "The 33-122x honest-price magnitude band (line 126) \u2014 handed forward to Ch 8 but the underlying social-cost-of-carbon and actuarial inputs need to trace to sourced figures in Ch 8 / Technical Appendix (verify the hand-off chain is itself sourced).",
+   "Purdue target-map four characteristics \u2014 high physical-labor-injury rates, limited healthcare infrastructure, high-prescribing-physician concentrations, economic precarity (line 208) \u2014 attributed only to 'internal documents released through litigation'; needs a specific litigation-record or secondary-source citation rather than a general gesture.",
+   "Sackler extraction of 'approximately eleven billion dollars' before bankruptcy, and Big Three distributors (McKesson, Cardinal Health, AmerisourceBergen) settling for '$21 billion in 2022' (line 210) \u2014 settlement/extraction figures need their own attribution beyond the general Keefe cite.",
+   "Purdue's 2007 felony misbranding plea (three executives' misdemeanor counts) and 2020 federal three-count plea (line 208) \u2014 plea chronology stated as fact; should carry a specific court-record/DOJ citation.",
+   "'Roughly half of all American renters are cost-burdened today' and the rental-housing-consolidation / 'company town returned in distributed form' claim (line 196) \u2014 contemporary statistic asserted without citation (deep-pass notes the sourced JCHS-2024 version lives in Ch 8; the Ch 2 instance is unsourced and flagged for cut)."
+  ]
+ },
+ {
+  "unit": "Ch3",
+  "existing_citations": [
+   {
+    "source": "Maryland Matters (interview / reporting)",
+    "what_it_supports": "Per-day economics of watermen work and consumer price resistance for oysters (J.C. Hudgins, Virginia Watermen's Association, Piankatank River)",
+    "quote_or_locator": "J.C. Hudgins: \"You're lucky if you can put $150 in your pocket per day... And it ain't no easy job. You're freezing your butt off. It's cold.\" / \"People aren't going to spend $20 for a pint of oysters. It's pretty expensive eating. I think people are feeding their families in other ways.\" (line 69)"
+   },
+   {
+    "source": "Public statements / interviews attributed to Allison Colden, Chesapeake Bay Foundation Maryland executive director",
+    "what_it_supports": "Striped bass looming-disaster warning; few levers left; reliance on striped bass for food/business/futures; warming 'pummeling' the species",
+    "quote_or_locator": "Colden: \"Maryland's striped bass surveys have made it clear, we're facing a looming disaster. Without action now, the Chesapeake Bay won't have a striped bass fishery in the future.\" / \"there are very few levers left to pull.\" (line 79)"
+   },
+   {
+    "source": "Smithsonian Magazine (interview)",
+    "what_it_supports": "Institutional time-scale tension between ecosystem restoration (long term) and watermen's immediate economic needs (Bill Goldsborough, CBF fisheries director through the moratorium years)",
+    "quote_or_locator": "Goldsborough: \"Our objective is to try to restore the health of bay and aquatic life so that it can support viable fisheries... We see that task taking place over a longer term [...]. But the watermen don't have the luxury of the long term. They are concerned about making their next boat payment.\" (line 85)"
+   },
+   {
+    "source": "Public statements attributed to Allison Colden (CBF)",
+    "what_it_supports": "Blue crab below-average warning and structural-management framing (2025 winter dredge survey context)",
+    "quote_or_locator": "Colden: \"The red flags are flying for blue crabs.\" / \"with more than five years of below average crab numbers, it is clear that changing conditions in the Bay are undermining the current management of this important species.\" (line 99)"
+   },
+   {
+    "source": "WHRO (interview)",
+    "what_it_supports": "Absence of Bay-specific menhaden abundance data relative to the coast (Genny Nesslage, Univ. of Maryland Center for Environmental Science)",
+    "quote_or_locator": "Nesslage: \"We don't know the abundance of menhaden in the bay at any given time relative to the coast.\" (line 117)"
+   },
+   {
+    "source": "WHRO (interview)",
+    "what_it_supports": "No biologically meaningful data to manage Bay menhaden (Rob Latour, Virginia Institute of Marine Science menhaden researcher)",
+    "quote_or_locator": "Latour: \"We have no data to really do this in a meaningful way, from a biological perspective.\" (line 117)"
+   },
+   {
+    "source": "Public statements attributed to Allison Colden (CBF)",
+    "what_it_supports": "Asymmetry argument: willingness to increase catch when science permits should be matched by willingness to reduce when science warrants (menhaden management)",
+    "quote_or_locator": "Colden: \"Just as we were confident in increasing the total allowable catch when the science says we should, we need to be as willing to take reductions when the science indicates that that's warranted.\" (line 115)"
+   },
+   {
+    "source": "Tanya/Tonya O'Connor petition to the Virginia Marine Resources Commission (VMRC) \u2014 quoted from the petition record",
+    "what_it_supports": "VMRC lacks a Bay-wide estimate of menhaden biomass, age structure, distribution, recruitment, depletion risk; basis for requested moratorium",
+    "quote_or_locator": "Petition finding: \"[VMRC] did not have \u2014 and still does not have \u2014 a Bay-wide estimate of menhaden biomass, age structure, spatial distribution, recruitment trends, or localized depletion risk.\" (line 123) \u2014 NB: name spelling Tanya (chapter) vs Tonya (consent tracker) must be reconciled; petition number to confirm"
+   },
+   {
+    "source": "Public-trust case law cited within the O'Connor petition",
+    "what_it_supports": "Virginia public-trust doctrine grounding for the moratorium petition",
+    "quote_or_locator": "Commonwealth v. City of Newport News, 158 Va. 521 (1932); Taylor v. Commonwealth, 102 Va. 759 (1904); Bradford v. Nature Conservancy, 224 Va. 181 (1982) (line 123) \u2014 verify reporter citations as printed"
+   },
+   {
+    "source": "Thomson Reuters Foundation (interview)",
+    "what_it_supports": "What is at stake on Tangier Island (James 'Ooker' Eskridge, mayor and working waterman 50+ years)",
+    "quote_or_locator": "Eskridge: \"We're talking about saving a culture, the people, (a) way of life \u2014 the whole package.\" (line 158)"
+   },
+   {
+    "source": "Smithsonian Magazine (interview)",
+    "what_it_supports": "Emotional stakes of Tangier's loss from inside the island (Cook Cannon, former Tangier waterman, now CBF)",
+    "quote_or_locator": "Cannon: \"I could cry to think about what's going to happen to Tangier.\" (line 158)"
+   },
+   {
+    "source": "Maryland Matters (photo feature)",
+    "what_it_supports": "Named on-water presences in the Maryland working-waterfront record (Tilghman Island oyster culling/offloading)",
+    "quote_or_locator": "Pat Whewell aboard Lonnie Gowe's boat in Broad Creek (2023); Chumley Fisher and Chet Schwartz offloading oysters on Tilghman (three years later) \u2014 \"The pictures ran in Maryland Matters.\" (line 162)"
+   },
+   {
+    "source": "Thomson Reuters Foundation (interview)",
+    "what_it_supports": "Framing the scale-of-loss question (Cameron Evans, Tangier native, Virginia Wesleyan student)",
+    "quote_or_locator": "Evans: \"If you can't save an island a mile and a half long, how are you going to save the East Coast...\" (line 182)"
+   },
+   {
+    "source": "Maryland Matters (interview)",
+    "what_it_supports": "Resilience-and-limits framing of watermen's economics (Rep. Andy Harris, Maryland's Eastern Shore)",
+    "quote_or_locator": "Harris: \"Our watermen are pretty resilient. They're like our farmers. They have good years and bad years. But if you have a couple bad seasons in a row, then you're in trouble.\" (line 182)"
+   },
+   {
+    "source": "Public statements attributed to Allison Colden (CBF)",
+    "what_it_supports": "Maryland oyster restoration is working; recovery not guaranteed",
+    "quote_or_locator": "Colden: \"Large-scale oyster restoration is working.\" / \"Our effort to bring oysters back from the brink in Chesapeake Bay is working\" with \"continued recovery is not guaranteed.\" (line 188)"
+   },
+   {
+    "source": "Maryland Matters (interview)",
+    "what_it_supports": "The oyster-restoration paradox: oysters present but unharvested (Mitch Tarnowski, MD DNR oyster reef surveys lead)",
+    "quote_or_locator": "Tarnowski: \"There are plenty of oysters out there. They're just not being harvested.\" (line 190)"
+   },
+   {
+    "source": "Public statement attributed to Allison Colden (CBF) in support of the disaster request",
+    "what_it_supports": "Watermen squeezed by extreme weather and market competition despite growing oyster population",
+    "quote_or_locator": "Colden: \"Despite a growing oyster population, Maryland's watermen are feeling the pinch of extreme weather and market competition.\" (line 194)"
+   },
+   {
+    "source": "Maryland Matters (interview)",
+    "what_it_supports": "60-year nationwide decline in the shucked-oyster sector vs. growth in boutique aquaculture (Jason Ruth, Harris Seafood Co., Grasonville MD)",
+    "quote_or_locator": "Ruth: \"While the demand for boutique aquaculture oysters has grown over the last decade, the shucked oyster sector \u2014 the larger part of the industry \u2014 has seen a 60-year nationwide decline.\" (line 196)"
+   },
+   {
+    "source": "Public statements attributed to Allison Colden (CBF)",
+    "what_it_supports": "Watermen as the Bay's stewards/'eyes on the water'; losing them loses passionate caretakers",
+    "quote_or_locator": "Colden: \"One of the most important ways people connect with the Chesapeake Bay is through eating seafood and fishing.\" / without watermen \"there's certainly a lot fewer eyes on the water and a lot fewer people caring passionately about the Bay.\" (line 200)"
+   },
+   {
+    "source": "VMRC public hearing record, April 21, 2026",
+    "what_it_supports": "Disposition of the O'Connor menhaden-moratorium petition",
+    "quote_or_locator": "Hearing held April 21, 2026; 1,266 public comments received; commission voted six to two against the petition (line 123) \u2014 cite the VMRC hearing record"
+   }
+  ],
+  "supported_claims": [
+   "Per-day waterman economics (~$150/day) and oyster consumer-price resistance \u2014 backed by Hudgins quote to Maryland Matters (line 69).",
+   "Striped bass is facing a 'looming disaster' and few management levers remain \u2014 backed by Colden public statements (line 79).",
+   "Institutions operate on a long-term restoration time-scale while watermen face immediate economic pressure \u2014 backed by Goldsborough to Smithsonian Magazine (line 85).",
+   "Blue crab numbers signal that changing Bay conditions are undermining the existing management regime \u2014 backed by Colden public statements (line 99).",
+   "There is no Bay-specific menhaden abundance/biological data adequate for management \u2014 backed by Nesslage (WHRO) and Latour (WHRO) quotes (line 117).",
+   "Management exhibits an asymmetry \u2014 confident to increase catch, cautious to reduce \u2014 backed by Colden quote (line 115) [NB: chapter restates this point in the narrator's own voice 3 additional times (lines 83, 119, 200) without separate sourcing; the sourced anchor is the Colden quote].",
+   "The O'Connor petition documented VMRC's lack of Bay-wide menhaden biomass/structure data and grounded its request in Virginia's public-trust doctrine \u2014 backed by the petition record and the cited case law (line 123).",
+   "Tangier Island's loss is framed by its mayor as the loss of a whole culture/way of life \u2014 backed by Eskridge to Thomson Reuters Foundation (line 158).",
+   "Maryland large-scale oyster restoration is succeeding while recovery is not guaranteed \u2014 backed by Colden public statements (line 188).",
+   "Oysters are present on restored reefs but largely unharvested \u2014 backed by Tarnowski to Maryland Matters (line 190).",
+   "Maryland watermen are squeezed by extreme weather and market competition despite a growing oyster population \u2014 backed by Colden statement supporting the disaster request (line 194).",
+   "The shucked-oyster sector has seen a ~60-year nationwide decline even as boutique aquaculture grew \u2014 attributed as Ruth's opinion-quote to Maryland Matters (line 196) [OK as a sourced quote; would need independent sourcing if asserted as plain fact].",
+   "Loss of watermen reduces stewardship/'eyes on the water' for the Bay \u2014 backed by Colden public statements (line 200).",
+   "Named working-waterfront individuals appear in the Maryland record (Whewell, Fisher, Schwartz, Gowe) \u2014 backed by the Maryland Matters photo feature (line 162)."
+  ],
+  "needs_research": [
+   "J.S. Darling & Son local-industrial-history specifics (line 18): firm took the name in 1884 when Frank Darling joined his father's oyster business; at peak 160 shuckers handled 200,000 bushels/year; oyster-shell mountains rose more than four stories; Darlings ran a menhaden factory at Factory Point, Fox Hill, rendering thousands of tons/year. No public citation; highest-risk unsourced claims (Hampton History Museum / Library of Virginia).",
+   "McDowell-of-canning claim: James McMenamin 'invented and patented a canning process' for cooked Chesapeake crabmeat in the 1870s (line 18). Verifiable in USPTO patent records but currently uncited.",
+   "Oyster collapse magnitude: ~15 million bushels/year in the late 1880s falling to under 200,000 by the 1990s; 99% decline / two orders of magnitude (line 38). Needs NOAA / VIMS / Chesapeake Bay Program historical-landings citation.",
+   "Disease timeline: MSX in the late 1950s and Dermo in the years following as drivers of oyster collapse (line 40). Standard but needs a VIMS citation.",
+   "Rockfish moratorium specifics: Maryland's 5-year commercial striped bass moratorium beginning 1985; fishery declared restored by 1995 (lines 75). Needs ASMFC / MD DNR citation.",
+   "2024 Maryland young-of-year striped bass index of 2.0 fish per sample vs. long-term average of 11.0, sixth consecutive below-average year (line 77). Needs MD DNR juvenile striped bass survey citation.",
+   "Virginia closed its commercial shad fishery in January 1994; runs never recovered; science 'has not converged' on why (lines 91, 55). Needs VMRC / VIMS citation.",
+   "Blue crab 2025 winter dredge survey: Bay-wide population ~238 million, second-lowest since the survey began in 1990, sixth consecutive below-average year (line 99). Needs MD DNR / VIMS winter dredge survey citation.",
+   "Menhaden Bay-specific cap set by ASMFC in 2006 and reduced in 2017 to 51,000 metric tons (line 115). Needs ASMFC citation.",
+   "VIMS drafted a $3 million Bay-specific menhaden study proposal in 2023 that the Virginia General Assembly declined to fund (line 117). Needs source (likely WHRO / VIMS / GA budget record).",
+   "O'Connor petition logistics: 349-page petition filed Dec 31, 2025 (line 123). Needs VMRC petition record; also reconcile name spelling (chapter 'Tanya O'Connor' vs consent tracker 'Tonya O'Connor' / 'Petition 449') and confirm petition number.",
+   "Public-trust case-law reporter citations as printed (line 123): Commonwealth v. City of Newport News 158 Va. 521 (1932); Taylor v. Commonwealth 102 Va. 759 (1904); Bradford v. Nature Conservancy 224 Va. 181 (1982) \u2014 verify accuracy even though presented as cited within the petition.",
+   "Tangier Island: losing ~15 feet of shoreline per year; continuously inhabited since the 1770s; two square miles (line 156). Needs USACE / Army Corps Tangier study + standard history citation.",
+   "Maryland oyster population 'roughly tripled since 2005'; five tributary-scale sanctuaries; hundreds of acres of rebuilt reef; tens of millions of oysters/year added (line 188). Needs NOAA Chesapeake / MD DNR citation.",
+   "State of Maryland filed for a federal disaster declaration for the oyster fishery (line 194); year not stated in the chapter \u2014 needs the state/NOAA record and a specified year.",
+   "Reedville menhaden reduction fishery characterized as 'the largest single fishery on the East Coast' and the plant having 'employed several hundred people' (lines 111, 121). Needs precise sourcing for the largest-by-volume-on-the-Atlantic claim and employment figures.",
+   "Osprey reproductive failure in Bay tributaries linked to insufficient menhaden forage (line 113) \u2014 hedged as 'suspicion among the people who watch ospreys,' but should cite the underlying osprey-reproduction research (e.g., Watts / Center for Conservation Biology) if leaned on.",
+   "Chesapeake watershed scale: ~64,000 square miles across six states and DC (line 129); Chesapeake Bay Program 'established 1983' (line 131); Bay Program science advisory committee's 40-year review finding the cleanup 'not on track to meet its goals' (line 131). Largely standard but uncited \u2014 needs Chesapeake Bay Program / STAC citation, especially the review finding.",
+   "Norway sovereign-wealth-fund / existence-proof claims in the preview (lines 232-236): finite seabed resource acquired late 1960s-early 1970s; fund held in trust with draw limits; kept intact 'more than thirty years.' These are previewed here but their canonical sourcing belongs to Ch 4 (verify Ch 4 carries them); flagged so they are not asserted as Ch 3's own unsourced facts."
+  ]
+ },
+ {
+  "unit": "Ch4",
+  "existing_citations": [
+   {
+    "source": "United Nations Environment Programme (UNEP), Environmental Assessment of Ogoniland (2011)",
+    "what_it_supports": "Scale of environmental devastation in the Niger Delta from oil spills, and the cost/timeline of remediation: that initial capitalization of an Ogoniland Environmental Restoration Authority would require ~$1 billion and full restoration ~25-30 years.",
+    "quote_or_locator": "\"documented by the United Nations Environment Programme in a 2011 report whose conclusions have not been seriously contested. The UNEP report estimated that initial capitalization of an Ogoniland Environmental Restoration Authority would require on the order of one billion dollars, with full restoration projected to require twenty-five to thirty years of sustained remediation\" (Nigeria section)"
+   }
+  ],
+  "supported_claims": [
+   "Niger Delta oil-spill environmental devastation (hundreds of square kilometers of mangrove/farmland contaminated) and the ~$1B / 25-30-year remediation estimate \u2014 backed by the named UNEP 2011 report (the chapter's only named source; figures match the widely-cited UNEP 2011 numbers per deep-pass memo \u00a78)."
+  ],
+  "needs_research": [
+   "Ekofisk discovery: oil struck on Norwegian Block 2/4 'In 1969, three days before Christmas' \u2014 opening scene date/locator, no source cited.",
+   "Alberta Heritage Trust Fund (established 1976) was 'repeatedly drawn down for general-revenue support during oil-price downturns' and growth was 'capped at a small fraction of what Norway's discipline allowed' \u2014 uncited.",
+   "Alaska Permanent Fund (established 1976) 'captured petroleum royalties for distribution as annual citizen dividends rather than long-term sovereign capitalization' \u2014 uncited.",
+   "Norway White Paper in the early 1970s; Government Petroleum Fund formally established 1990; renamed Government Pension Fund Global in 2006 \u2014 institutional-history dates, uncited.",
+   "Statoil renamed Equinor in 2018 \u2014 uncited.",
+   "Fund holds 'more than two trillion dollars in assets' \u2014 load-bearing figure, no dated NBIM/GPFG source (deep-pass \u00a79 gap #1).",
+   "Per-citizen fund value 'roughly three hundred and sixty thousand dollars for every person' \u2014 derived figure, no arithmetic shown or citation (deep-pass \u00a79 gap #1).",
+   "Fiscal rule adopted in 2001 limiting annual withdrawals to expected real return 'roughly three percent'; capital never drawn down \u2014 uncited; note 3% was reportedly revised down from 4% in 2017, which needs verification (deep-pass \u00a79 gap #3).",
+   "Norway 'generates more income from investment returns today than the underlying oil and gas production generates in extraction revenue' \u2014 vivid, load-bearing, unsourced (deep-pass \u00a79 gap #4).",
+   "Government-succession list showing the 2001 fiscal rule held across administrations: Stoltenberg I (Labour, who adopted it) \u2192 Bondevik II center-right coalition \u2192 Stoltenberg II Labour \u2192 Solberg Conservative coalition \u2192 St\u00f8re Labour-Centre coalition \u2014 checkable but uncited (deep-pass \u00a79 gap #3).",
+   "State 'captures roughly seventy to eighty cents of every dollar of net petroleum wealth' via taxation, production licenses, Equinor ownership, fund contributions \u2014 load-bearing 'B is large' figure, no Norwegian petroleum-tax-regime citation (78% marginal rate is the usual anchor) (deep-pass \u00a79 gap #2).",
+   "Enforcement-mechanism claims: Norges Bank Investment Management run at arm's length; public ethics-council divestment decisions; fiscal rule coupled to quarterly reporting; Storting structural change requires a consensus supermajority \u2014 uncited institutional-design assertions.",
+   "Claim that Norwegian extraction pace is 'deliberately limited, despite recurring industry pressure to accelerate' \u2014 uncited.",
+   "Catalog of petroleum applications for which 'no renewable alternative yet exists' (medical-grade plastics for surgical instruments/pharma packaging, aviation jet fuel, specialty petrochemistry, asphalt, carbon-fiber and lubricant chemistries) \u2014 asserted as fact, uncited.",
+   "North Sea drilling 'documentary history of oil spills, drilling-fluid discharges, decommissioned-platform seabed disturbances, and cumulative carbon emissions' and that combustion emissions 'persist in the atmosphere for centuries' \u2014 uncited.",
+   "Nigeria 'a major oil producer since the 1950s' and Niger Delta reserves have generated 'cumulatively, hundreds of billions of dollars of petroleum revenue over six decades' \u2014 load-bearing figure, no source (e.g., NEITI/resource-revenue estimates) (deep-pass \u00a79 gap #5).",
+   "Revenue routing claim: much of Nigeria's oil revenue flowed through Shell, Chevron, ExxonMobil, Total into financial systems outside Nigeria, and a substantial fraction reaching the state was 'captured by political elites in Abuja, Lagos, and the international accounts routinely documented in subsequent corruption prosecutions' \u2014 uncited.",
+   "International-architecture passage: 'international tax-treaty structures that legitimize commodity-trade transfer-pricing into low-disclosure jurisdictions, financial-secrecy intermediation... concession terms inherited from pre-independence arrangements' \u2014 uncited (a Pistor/Code-of-Capital seam, per deep-pass \u00a76/\u00a77; either develop with citation or cut).",
+   "Hanging of Ken Saro-Wiwa in 1995; the Ogoni crisis of the 1990s; subsequent militant insurgencies \u2014 historical record, low-risk but uncited in publisher-facing prose (deep-pass \u00a79 gap #6).",
+   "International response to the 1995 executions: 'diplomatic protests, the temporary suspension of Nigeria from the Commonwealth of Nations' \u2014 uncited (deep-pass \u00a79 gap #6).",
+   "Resource-curse framing of Nigeria generally \u2014 entirely uncited; no Sachs-Warner / Ross nod (deep-pass \u00a79 gap #7).",
+   "U.S. Social Security architecture: pay-as-you-go design, surplus historically invested in U.S. Treasury bonds whose proceeds the federal government spent on general operations, 'trust fund' as an accounting record of intra-government debt rather than a compounding external pool \u2014 checkable, uncited (deep-pass \u00a79 gap #9).",
+   "U.S. Social Security 'designed in 1935, in the middle of the Great Depression' with the pay-as-you-go form chosen for immediate benefit delivery and political reachability \u2014 uncited (deep-pass \u00a79 gap #9).",
+   "Bismarck's Germany: the '1889 Old Age and Disability Insurance system' had a 'partially-funded character' that 'survived until the post-WWI hyperinflation of the early 1920s' \u2014 uncited (deep-pass \u00a79 gap #8; section is also a C-1 cut candidate).",
+   "Climate-externality incidence claim: atmospheric carbon from combusted Norwegian petroleum 'falls disproportionately on populations in tropical and subtropical regions \u2014 Bangladesh, the Sahel, low-lying Pacific island states' \u2014 uncited.",
+   "Unnamed-but-present literature attributions the chapter does work for without citing (per deep-pass \u00a76): the fund logic is Hotelling rent-capture; the fund is the Hartwick rule in operation; strong-sustainability is Daly; intergenerational obligation is Parfit \u2014 all present in substance, named nowhere; flagged as positioning gaps that should be grounded with citations."
+  ]
+ },
+ {
+  "unit": "Ch5",
+  "existing_citations": [
+   {
+    "source": "GAO 2011 audit of Federal Reserve emergency lending",
+    "what_it_supports": "Federal Reserve emergency lending facilities exceeded $16 trillion in cumulative emergency loans across the 2008 crisis",
+    "quote_or_locator": "line 84: \"exceeded sixteen trillion dollars in cumulative emergency loans across the crisis (per the GAO's 2011 audit)\"; restated line 92"
+   },
+   {
+    "source": "Financial Crisis Inquiry Commission report (2011)",
+    "what_it_supports": "The 2008 crisis was the result of human action and inaction, not forces beyond human control",
+    "quote_or_locator": "line 86: \"The Financial Crisis Inquiry Commission, established by Congress to investigate, concluded in 2011 that the crisis was the result of human action and inaction\""
+   },
+   {
+    "source": "Consumer Financial Protection Bureau post-crisis enforcement record",
+    "what_it_supports": "Subprime origination operated under a documented playbook of volume-tied commissions and adversarial information structure",
+    "quote_or_locator": "line 88: \"The Consumer Financial Protection Bureau's post-crisis enforcement record documents the pattern at scale\" (general attribution, no specific enforcement action cited)"
+   },
+   {
+    "source": "U.S. Treasury / GAO TARP retrospectives + Congressional Budget Office lifetime-cost reviews",
+    "what_it_supports": "TARP direct outlays substantially recovered through repayments and asset disposals; some accountings show a modest profit (cited by the objection the chapter then rebuts)",
+    "quote_or_locator": "line 92: \"The Government Accountability Office's TARP retrospectives and the Congressional Budget Office's lifetime-cost reviews document the recovery numbers in detail\" (general attribution)"
+   },
+   {
+    "source": "Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010",
+    "what_it_supports": "Post-crisis regulatory restructuring: created CFPB, Financial Stability Oversight Council, Volcker Rule, enhanced capital/liquidity requirements",
+    "quote_or_locator": "line 94: named statute; \"Dodd-Frank created the Consumer Financial Protection Bureau, established the Financial Stability Oversight Council, restricted proprietary trading through the Volcker Rule\""
+   },
+   {
+    "source": "Kindleberger 1973; Eichengreen 1992",
+    "what_it_supports": "1930s Swedish bank-rescue-plus-household-relief response is widely cited in comparative-banking-crisis literature as demonstrating bank-rescue and household-relief are not either-or",
+    "quote_or_locator": "line 98: \"widely cited in the comparative-banking-crisis literature (Kindleberger 1973; Eichengreen 1992)\""
+   },
+   {
+    "source": "Lawrence Mishel and Josh Bivens, Economic Policy Institute (wage-productivity decoupling)",
+    "what_it_supports": "Median U.S. wage tracked productivity from late 1940s to early 1970s, then decoupled; wage stagnated in real terms for the next half century",
+    "quote_or_locator": "line 160: \"Lawrence Mishel and Josh Bivens at the Economic Policy Institute have documented that the median U.S. wage tracked roughly with productivity growth...then decoupled\" (no specific EPI paper/year cited)"
+   },
+   {
+    "source": "Jacob Hacker, The Great Risk Shift (2006)",
+    "what_it_supports": "Broader pattern of risk-and-cost transfer from institutional to individual balance sheets, of which healthcare cost-severance is one instance",
+    "quote_or_locator": "line 160: \"Jacob Hacker's *Great Risk Shift* (2006) named the broader pattern of risk-and-cost transfer\""
+   },
+   {
+    "source": "Katy Butler (journalist; her documented account, presumably Knocking on Heaven's Door / NYT essay)",
+    "what_it_supports": "Medicare reimbursement: $54 long office visit vs $461 pacemaker implantation atop ~$12,000 hospital flat fee, ~$6,000 to device manufacturer; father's 5-year cognitive decline cared for by 80-year-old mother",
+    "quote_or_locator": "line 162: \"in the individual case the journalist Katy Butler documented\" (work not titled inline; specific figures $54/$461/$12,000/$6,000 not page-cited)"
+   },
+   {
+    "source": "Atul Gawande, Being Mortal (2014)",
+    "what_it_supports": "American healthcare-financing architecture systematically over-treats dying patients and under-funds palliative-care infrastructure",
+    "quote_or_locator": "line 164: \"Atul Gawande's *Being Mortal* (2014) documents the broader structure\""
+   },
+   {
+    "source": "Brett Christophers, The Price is Wrong (2024)",
+    "what_it_supports": "Contemporary climate-finance argument that profit, not price, drives investment",
+    "quote_or_locator": "line 184: \"Brett Christophers' *The Price is Wrong* (2024)...develops the contemporary climate-finance argument that profit, not price, drives investment\" (pointer to Ch9)"
+   },
+   {
+    "source": "Ta-Nehisi Coates, The Case for Reparations (The Atlantic, 2014)",
+    "what_it_supports": "Argument-architecture for reparations claims grounded in structural-economic harm: name mechanism, name harm, name debt",
+    "quote_or_locator": "line 216: \"articulated most influentially by Ta-Nehisi Coates in *The Case for Reparations* (*The Atlantic*, 2014)\""
+   },
+   {
+    "source": "William Darity Jr. and A. Kirsten Mullen, From Here to Equality (2020)",
+    "what_it_supports": "Contemporary landmark reparations-economics methodology; wealth-gap calculation; three-component redress typology (acknowledgment-and-atonement; redress = symbolic + material restitution; closure); prices racial wealth gap since 1619 and longevity gap (6-7 yr life-expectancy differential)",
+    "quote_or_locator": "lines 218, 236, 238: \"*From Here to Equality: Reparations for Black Americans in the Twenty-First Century* (2020)\"; typology at line 238"
+   },
+   {
+    "source": "Hamilton, Darity, Price, Sridharan, and Tippett, Umbrellas Don't Make It Rain (2015)",
+    "what_it_supports": "Matched-comparison work showing educational attainment, employment, family structure cannot account for racial wealth-gap magnitude; highest-achievement Black households below lower-achievement white households",
+    "quote_or_locator": "line 218: \"*Umbrellas Don't Make It Rain* (2015) extends the methodology empirically\""
+   },
+   {
+    "source": "Dalton Conley, Being Black, Living in the Red (1999)",
+    "what_it_supports": "Established the wealth-as-structural-variable methodology",
+    "quote_or_locator": "line 218: \"Dalton Conley's earlier *Being Black, Living in the Red* (1999) established the wealth-as-structural-variable methodology\""
+   },
+   {
+    "source": "Katharina Pistor, The Code of Capital (2019)",
+    "what_it_supports": "Capital is a legal artifact; specific legal modules (property, collateral, trust, corporate veil, bankruptcy, choice-of-law) encode assets as capital and protect from accountability across jurisdictions; Libby bankruptcy + 2009 acquittal as design features",
+    "quote_or_locator": "line 220: \"most rigorously developed in Katharina Pistor's *The Code of Capital* (2019)\""
+   },
+   {
+    "source": "Hartwick's rule (John Hartwick, 1977)",
+    "what_it_supports": "Sustainable-extraction rule in the Foreclosure Bond environmental-bond lineage",
+    "quote_or_locator": "lines 212, 224: \"Hartwick's rule for sustainable extraction (1977)\""
+   },
+   {
+    "source": "Surface Mining Control and Reclamation Act (SMCRA)",
+    "what_it_supports": "Reclamation-bond regime mining companies post against site restoration; named as part of Foreclosure Bond lineage",
+    "quote_or_locator": "lines 212, 222: \"The reclamation bonds mining companies post under the Surface Mining Control and Reclamation Act\""
+   },
+   {
+    "source": "Derek Parfit, Reasons and Persons (1984)",
+    "what_it_supports": "Intergenerational impersonal-outcomes framework philosophically grounds the future-generations moral-standing commitment",
+    "quote_or_locator": "line 224: \"Parfit 1984's intergenerational impersonal-outcomes framework grounds this commitment philosophically\""
+   },
+   {
+    "source": "Philip Pettit, Republicanism (1997)",
+    "what_it_supports": "Civic-republican freedom as non-domination, requiring institutional architecture future generations cannot trivially be subjected to",
+    "quote_or_locator": "line 226: \"most contemporarily articulated in Philip Pettit's *Republicanism* (1997)\""
+   },
+   {
+    "source": "Quentin Skinner, Liberty Before Liberalism (1998)",
+    "what_it_supports": "Historical recovery of the civic-republican non-domination tradition",
+    "quote_or_locator": "line 226: \"historically recovered in Quentin Skinner's *Liberty Before Liberalism* (1998)\""
+   },
+   {
+    "source": "EPA public-health-emergency declaration for Libby, Montana",
+    "what_it_supports": "EPA declared the entire town a public health emergency \u2014 first time for a man-made disaster",
+    "quote_or_locator": "line 28: \"The Environmental Protection Agency declared the entire town a public health emergency \u2014 the first time it had ever made such a declaration for a man-made disaster\" (declaration referenced; no document citation)"
+   },
+   {
+    "source": "U.S. DOJ 2005 federal grand jury indictment of W.R. Grace + seven executives; 2009 acquittal after 13-week trial",
+    "what_it_supports": "Largest environmental criminal prosecution in American history at the time; all defendants acquitted in 2009",
+    "quote_or_locator": "line 34: \"In 2005, the United States Department of Justice obtained a federal grand jury indictment...In 2009, after a thirteen-week trial, all of the defendants were acquitted\" (court record referenced; not formally cited)"
+   },
+   {
+    "source": "NOAA spill-impact estimates (Deepwater Horizon)",
+    "what_it_supports": "Spill killed 4-8 billion oysters and 2-5 trillion newly hatched fish, plus tens of thousands of birds and sea turtles",
+    "quote_or_locator": "line 48: \"The National Oceanic and Atmospheric Administration estimated that the spill killed 4 to 8 billion oysters and 2 to 5 trillion newly hatched fish\""
+   },
+   {
+    "source": "Oil Pollution Act of 1990",
+    "what_it_supports": "Legal architecture under which American Gulf-state Deepwater litigation operated (vs weaker Mexican cross-border regime)",
+    "quote_or_locator": "line 52: \"American Gulf-state litigation operated under the Oil Pollution Act of 1990\""
+   },
+   {
+    "source": "Social Security Trustees' annual reports / current-law projections",
+    "what_it_supports": "Trust fund depleted in 2033; only 77% of promised benefits payable thereafter; identified policy-adjustment range",
+    "quote_or_locator": "lines 110, 112, 140: \"the trust fund will be depleted in 2033\"; \"Social Security will only be able to pay seventy-seven percent of promised benefits\"; \"The Trustees' annual reports identify a finite range of policy adjustments\""
+   },
+   {
+    "source": "Bipartisan Policy Center; Concord Coalition; Simpson-Bowles and Domenici-Rivlin commissions",
+    "what_it_supports": "Have produced specific Social Security adjustment packages (cited within the timeline-tractability objection)",
+    "quote_or_locator": "line 140: \"The Bipartisan Policy Center, the Concord Coalition, and successive iterations of the Simpson-Bowles and Domenici-Rivlin commissions have produced specific adjustment packages\""
+   },
+   {
+    "source": "Gramm-Leach-Bliley Act 1999; Commodity Futures Modernization Act 2000; OCC preemption rules; Center for Responsive Politics; Congressional hearings",
+    "what_it_supports": "Deregulatory architecture producing the 2008 crisis was shaped by financial-industry lobbying expenditure",
+    "quote_or_locator": "line 196: named statutes + \"the Center for Responsive Politics and successive Congressional hearings documented in detail\""
+   },
+   {
+    "source": "Department of Interior Inspector General reports (MMS)",
+    "what_it_supports": "Minerals Management Service was a captured regulator; industry funding of MMS travel/gifts/revolving door; post-disaster split into three successor agencies",
+    "quote_or_locator": "line 195: \"the Department of Interior Inspector General reports had been describing for years\""
+   },
+   {
+    "source": "Buchanan, Tullock and successors (Public Choice tradition)",
+    "what_it_supports": "Rent-seeking analytical tools for identifying who shaped institutional architecture",
+    "quote_or_locator": "lines 190, 202: \"The Public Choice tradition (Buchanan, Tullock, and their successors)\"; \"read Buchanan and Tullock and their successors in parallel\""
+   },
+   {
+    "source": "Darity 2026 (forthcoming/cited work informing TA \u00a71.10 coercion scope-boundary)",
+    "what_it_supports": "Coercion-vector scope boundary at Technical Appendix \u00a71.10",
+    "quote_or_locator": "line 240: \"the Technical Appendix's scope-of-applicability boundary at \u00a71.10 names the variable explicitly (informed by Darity 2026)\" \u2014 flagged in deep-pass \u00a710 as needing verification it is a real citable work, not a placeholder"
+   }
+  ],
+  "supported_claims": [
+   "Federal Reserve cumulative emergency lending exceeded $16 trillion across the 2008 crisis (GAO 2011 audit \u2014 sourced inline; deep-pass memo \u00a79 item 7 marks this as the one well-sourced 2008 figure)",
+   "The Financial Crisis Inquiry Commission concluded in 2011 the crisis resulted from human action and inaction (named commission + year)",
+   "Dodd-Frank (2010) created the CFPB, FSOC, Volcker Rule, and enhanced capital/liquidity requirements (named statute + provisions)",
+   "The 1930s Swedish bank-rescue-plus-household-relief response is treated in comparative-banking-crisis literature as showing bank-rescue and household-relief are not either-or (Kindleberger 1973; Eichengreen 1992)",
+   "Median U.S. wages tracked productivity until the early 1970s then decoupled (Mishel/Bivens, EPI \u2014 attributed)",
+   "Risk-and-cost shifted from institutional to individual balance sheets (Hacker, The Great Risk Shift 2006 \u2014 attributed)",
+   "American healthcare over-treats dying patients while under-funding palliative care (Gawande, Being Mortal 2014 \u2014 attributed)",
+   "The framework's CSD instrument extends Coates's name-mechanism/name-harm/name-debt architecture (Coates, The Case for Reparations, Atlantic 2014 \u2014 attributed)",
+   "Reparations-economics matched-comparison methodology shows achievement variables cannot explain the racial wealth gap (Darity-Mullen From Here to Equality 2020; Hamilton et al. Umbrellas Don't Make It Rain 2015; Conley Being Black, Living in the Red 1999 \u2014 all attributed)",
+   "Darity-Mullen structure reparations as acknowledgment-and-atonement / redress (symbolic + material restitution) / closure, declaring for restitution (From Here to Equality 2020 \u2014 attributed typology)",
+   "Capital is a legal artifact encoded by specific legal modules that protect it from accountability; Libby bankruptcy and 2009 acquittal are design features of that architecture (Pistor, The Code of Capital 2019 \u2014 attributed)",
+   "Future-generations moral standing grounded in Parfit's intergenerational impersonal-outcomes framework (Parfit 1984 \u2014 attributed) and the civic-republican non-domination tradition (Pettit 1997; Skinner 1998 \u2014 attributed)",
+   "The reclamation-bond and SMCRA regimes, plus Norway's sovereign wealth fund and Hartwick's rule (1977), constitute the Foreclosure Bond's environmental-bond lineage (named statutes/sources)",
+   "Social Security trust fund depletes in 2033, after which ~77% of promised benefits are payable; the gap is closeable via the Trustees-identified adjustment menu (Trustees' reports; Bipartisan Policy Center; Concord Coalition; Simpson-Bowles; Domenici-Rivlin \u2014 attributed)",
+   "The 2008 deregulatory architecture (Gramm-Leach-Bliley 1999; Commodity Futures Modernization Act 2000; OCC preemption) was shaped by financial-industry lobbying (Center for Responsive Politics + Congressional hearings \u2014 attributed)",
+   "MMS was a captured regulator later split into three agencies (Interior IG reports \u2014 attributed)",
+   "Profit, not price, drives climate-finance investment (Christophers, The Price is Wrong 2024 \u2014 attributed, pointer to Ch9)"
+  ],
+  "needs_research": [
+   "Libby: documented costs 'exceed four billion dollars' and the 40:1 cost-to-revenue ratio ($100M revenue / $4B cost) \u2014 both numerator and denominator asserted without an EPA/ATSDR/litigation-record citation (deep-pass \u00a79 item 1)",
+   "Libby mortality: 400+ residents dead, ~3,000 diagnosed with lung abnormalities, mortality rate 40-80x national average \u2014 asserted without ATSDR/EPA/peer-reviewed citation (deep-pass \u00a79 item 2)",
+   "Libby: mine produced ~80% of world vermiculite; ~$100M lifetime revenue; Zonolite in ~35 million American homes; Grace identified contamination as early as 1963 \u2014 asserted without inline source",
+   "Libby: EPA's public-health-emergency declaration being the FIRST ever for a man-made disaster \u2014 claim of firstness needs a source",
+   "Deepwater: $150 billion total economic losses ('aggregate estimates from academic, insurance-industry, and federal sources') \u2014 the load-bearing denominator of the 40% recovery ratio; sources not named (deep-pass \u00a79 item 3)",
+   "Deepwater: BP ~$60-65B total paid ($21B fines/settlements + $20B compensation fund); ~$60B Gulf revenue in five years; Macondo projected 40-60M barrels worth $3-4B \u2014 figures asserted without citation",
+   "Deepwater: 4.9 million barrels released over 87 days; 11 workers killed \u2014 asserted without source (widely reported but uncited)",
+   "Deepwater: BP-Mexico 2018 settlement ~$25 million, 'three orders of magnitude smaller' than U.S. settlements per mile of coastline \u2014 needs a source (deep-pass \u00a79 item 4)",
+   "Deepwater: tourism revenue losses >$7B over three years; property-value declines ~$12B \u2014 asserted without source",
+   "Baotou: ~60% of world rare earths; ~10 tons wastewater per ton rare-earth oxide; remediation costs 'will exceed one hundred billion dollars'; industry spends <1% of revenue on remediation; $10-12B annual Chinese rare-earth revenue (Baotou ~half) \u2014 named journals (Environmental Pollution; Ecotoxicology and Environmental Safety; Science of the Total Environment) without specific papers; deep-pass \u00a79 item 5 flags this as citation-theater a reviewer will press; the $100B claim is the highest-risk Baotou figure",
+   "Social Security: $108 trillion foregone-return figure ('largest cost severance in human history') \u2014 a counterfactual equity-index model output, not a documented figure; highly methodology-dependent; the chapter's HIGHEST-RISK numbers-are-invented exposure per deep-pass \u00a79 item 6; needs explicit model-assumption disclosure (equity-return series, contribution timing, drawdown) or demotion to a band with footnoted methodology",
+   "2008: ~10 million households received foreclosure filings 2008-2012, ~5 million completed foreclosures; TARP $700B; HAMP reached a small fraction of eligible applicants with administrative failures 'documented in multiple GAO reports' \u2014 figures asserted; specific GAO reports not cited",
+   "GoFundMe: 25-fold growth in medical campaigns 2011-2020; 438,000 campaigns / >$2B / 21.7M donations 2016-2020; only 12% reached goals (88% failure); 16% received zero donations; CEO acknowledgment platform was never designed as healthcare financing \u2014 map to identifiable academic papers and name them (deep-pass \u00a79 item 8)",
+   "GoFundMe racial disparity: campaigns by individuals with distinctively African American or Hispanic surnames raise substantially less and are less likely to meet goals controlling for geography/time \u2014 from an identifiable academic paper that must be named (deep-pass \u00a79 item 8)",
+   "Katy Butler figures: $54 office visit / $461 pacemaker implantation / ~$12,000 hospital flat fee / ~$6,000 device manufacturer; 80-year-old caregiver, 80-hour weeks, five years \u2014 need a page-cite to Butler's book/NYT essay (deep-pass \u00a79 item 11)",
+   "Black Lung Benefits Program: $44 billion paid across half a century; Trust Fund ~$5.1 billion outstanding debt 'as of September 2024' \u2014 the date-specificity demands a DOL/GAO citation (deep-pass \u00a79 item 9)",
+   "Reclamation bonds cover '$4-6 billion less than actual reclamation cost' \u2014 needs a GAO/Interior source (deep-pass \u00a79 item 10)",
+   "United States is the only wealthy nation whose healthcare-financing architecture produces the GoFundMe-as-default pattern at this scale \u2014 comparative claim asserted without source (line 166)",
+   "Synthesis claim that cost severance 'is the mechanism by which every extractive economy has ever operated' \u2014 an unanchored Polanyi/Fraser fictitious-commodity/expropriation claim with NO theoretical citation (deep-pass \u00a76 + \u00a710 flag this as the single biggest positioning gap; Polanyi and Fraser are absent from the chapter)",
+   "Whether 'Darity 2026' (line 240, informing TA \u00a71.10 coercion boundary) is a real, citable forthcoming work rather than a placeholder (deep-pass \u00a710)",
+   "Existence/accuracy of TA cross-reference targets \u00a75.5 and \u00a71.10 in TechnicalAppendix_v2.0.0.html, and the separate TA carbon-term drift ($510 mislabeled as carbon term vs ratified $496) that a reader following the \u00a75.5 pointer would hit (deep-pass \u00a78)",
+   "Norway GPFG comparison detail used as the Social Security contrast (line 126) leans on Ch4's Norway architecture \u2014 verify Ch4 carries the sourced GPFG specifics rather than re-asserting here"
+  ]
+ },
+ {
+  "unit": "Ch6",
+  "existing_citations": [
+   {
+    "source": "GAO/CRS (Government Accountability Office / Congressional Research Service) \u2014 federal Black Lung Benefits Program distributions",
+    "what_it_supports": "Health-cost tier of the bottom-up damage accounting for coal: the Black Lung Trust Fund's distributions allocated per ton of coal produced",
+    "quote_or_locator": "\u00b628: \"The federal Black Lung Benefits Program's approximately $44 billion in distributions through 2009 (GAO/CRS), allocated across the national tonnage of coal produced since the Program's 1969 establishment, runs between one and one and a half dollars per ton\""
+   },
+   {
+    "source": "EPA emission factor for bituminous coal",
+    "what_it_supports": "CO\u2082 released per ton of bituminous coal combusted (national-bituminous-average basis)",
+    "quote_or_locator": "\u00b642: \"approximately 2.32 tons of CO\u2082 (EPA emission factor for bituminous coal at short-ton accounting: 93.28 kg CO\u2082 per mmBtu \u00d7 roughly 24.9 mmBtu per short ton...)\""
+   },
+   {
+    "source": "EPA 2023 social cost of carbon estimate",
+    "what_it_supports": "The $190/ton CO\u2082 value used to compute the carbon externality term",
+    "quote_or_locator": "\u00b642: \"At the EPA's 2023 estimate of $190 per ton CO\u2082, the carbon externality alone is approximately $441 per ton of coal\"; also \u00b648 (Obama EPA $42; first Trump admin $1\u2013$7; Biden EPA $190)"
+   },
+   {
+    "source": "Rennert et al. 2022 (social cost of carbon at 2% discount rate)",
+    "what_it_supports": "Provenance of the ~$190/ton SCC figure as a damage-side measure",
+    "quote_or_locator": "\u00b660/\u00b662: \"the figure of approximately one hundred ninety dollars per ton at a two percent discount rate, drawn from Rennert and colleagues 2022\""
+   },
+   {
+    "source": "Climeworks (Orca facility, Iceland; Mammoth facility 2024; Generation-3 trajectory disclosed at June 2024 Carbon Removal Summit, Zurich)",
+    "what_it_supports": "Direct-air-capture cost horizons used in Method 1 (Replacement Cost): ~$1000+/ton at first-of-a-kind, target $400\u2013600/ton net-removal by 2030, $250\u2013350/ton capture-only",
+    "quote_or_locator": "\u00b660: \"Climeworks's Orca facility in Iceland... captures CO\u2082 at approximately one thousand dollars or more per ton... toward four hundred to six hundred dollars per ton... under the corporate cost-reduction trajectory the company disclosed at its June 2024 Carbon Removal Summit in Zurich\""
+   },
+   {
+    "source": "Carbon Engineering (Stratos facility, Texas)",
+    "what_it_supports": "DAC cost horizon: $300\u2013600/ton at full operation",
+    "quote_or_locator": "\u00b660: \"Carbon Engineering's Stratos facility in Texas... is projected to capture at three hundred to six hundred dollars per ton at full operation\""
+   },
+   {
+    "source": "International Energy Agency, Direct Air Capture 2022 review",
+    "what_it_supports": "Achievable DAC cost at scaled-up operation, $230\u2013600/ton depending on energy source",
+    "quote_or_locator": "\u00b660: \"The International Energy Agency's Direct Air Capture 2022 review places the achievable cost at scaled-up operation in the two-hundred-thirty to six-hundred-dollar range\""
+   },
+   {
+    "source": "IPCC AR6 Working Group III",
+    "what_it_supports": "Optimistic DAC mid-century cost projection of $100\u2013300/ton under favorable learning-curve/policy scenarios",
+    "quote_or_locator": "\u00b660: \"The IPCC's AR6 Working Group III, under more optimistic learning-curve and policy-support scenarios, projects mid-century costs as low as one hundred to three hundred dollars per ton\""
+   },
+   {
+    "source": "Weitzman (declining-rate discount framework; 2009 fat-tail climate damages)",
+    "what_it_supports": "The social discount factor D(t,t0) in the RCV formula (declining certainty-equivalent rate); and the statistical-tail lineage for the 'externality tail' naming",
+    "quote_or_locator": "\u00b6119: \"the social discount factor, following Weitzman's declining-rate framework\"; \u00b6121: \"Weitzman's 2009 work on fat-tail climate damages is the adjacent tradition the usage joins\""
+   },
+   {
+    "source": "Dixit and Pindyck 1994 (real-options framework)",
+    "what_it_supports": "The real-options base for Method 3 (Scarcity-Adjusted Option Value)",
+    "quote_or_locator": "\u00b6143: \"Applied to McDowell coal via Dixit and Pindyck's 1994 real-options framework with the framework's scarcity multiplier...\""
+   },
+   {
+    "source": "Darity and Mullen 2020 (reparations-economics / racial-wealth-gap methodology)",
+    "what_it_supports": "Method 2 backward-direction specialization to revealed restitution; and the Restitution Bond's already-realized-harm methodology",
+    "quote_or_locator": "\u00b6145: \"the reparations-economics methodology Darity and Mullen 2020 developed for the racial-wealth-gap accumulated through American policy choices since 1619\"; \u00b6269 (Restitution Bond builds on Darity & Mullen wealth-gap framework)"
+   },
+   {
+    "source": "NBIM (Norges Bank Investment Management), early-2025 figure",
+    "what_it_supports": "Government Pension Fund Global asset size (~$2.2 trillion) anchoring the Norway backtest and Method 2 revealed-preference anchor",
+    "quote_or_locator": "\u00b6219: \"holds approximately $2.2 trillion (early 2025 NBIM) against the country's cumulative oil revenues\""
+   },
+   {
+    "source": "Savage 1951 (minimax-regret)",
+    "what_it_supports": "The decision-theoretic base specialized into the Asymmetric Regret Rule",
+    "quote_or_locator": "\u00b6359/\u00b6361: \"specializes Savage 1951's minimax-regret discipline to commons-extraction decisions\""
+   },
+   {
+    "source": "NOAA Office of Response and Restoration; DOJ; 2016 BP Consent Decree (Deepwater Horizon)",
+    "what_it_supports": "Convergence-table cost figures for Deepwater Horizon: NRDA $8.8B per 2016 Consent Decree; CWA $5.5B; DOJ criminal $4.5B; class-action economic ~$10\u2013$15B",
+    "quote_or_locator": "\u00b6175 (table row) + \u00b6181: cell values \"cross-referenced against authoritative public sources (NOAA Office of Response and Restoration, DOJ, and the 2016 BP Consent Decree for Deepwater)\""
+   },
+   {
+    "source": "EPA Libby Asbestos Superfund Site record; Montana Department of Justice; W.R. Grace settlement public filings",
+    "what_it_supports": "Convergence-table cost figures for Libby, MT: ~$0.6B EPA Superfund cleanup; W.R. Grace settlements ($250M 2008 EPA + $18.5M 2023 NRDA + $5.1M 2008 DEQ)",
+    "quote_or_locator": "\u00b6176 (table row) + \u00b6181: \"the EPA Libby Asbestos Superfund Site record, Montana Department of Justice, and W.R. Grace settlement public filings for Libby\""
+   },
+   {
+    "source": "Exxon Valdez Oil Spill Trustee Council; DOJ 1991 settlement record",
+    "what_it_supports": "Convergence-table cost figures for Exxon Valdez: ~$2.3B cleanup + ecological restoration; 1991 civil $900M + private claims ~$507M + punitive $507M + criminal $25M",
+    "quote_or_locator": "\u00b6177 (table row) + \u00b6181: \"the Exxon Valdez Oil Spill Trustee Council and DOJ 1991 settlement record for Exxon Valdez\""
+   },
+   {
+    "source": "Technical Appendix \u00a73.6 Block 4 (worked-example calibration; same-repo internal cross-reference, not a public citation)",
+    "what_it_supports": "McDowell County coal and Norway petroleum per-method (M1/M2/M3) figures in the convergence table, and the implied IPG/cost-severance summary",
+    "quote_or_locator": "\u00b6181: \"McDowell County coal and Norway petroleum figures are sourced verbatim from the Technical Appendix's worked-example calibration (\u00a73.6 Block 4 numerical execution)\"; \u00b6185"
+   },
+   {
+    "source": "Hartwick 1977 (Hartwick's Rule for sustainable extraction; internal/intellectual-tradition citation)",
+    "what_it_supports": "Norway as working example of Hartwick's Rule; the 'Residual' in Residual Commons Value",
+    "quote_or_locator": "\u00b6219: \"the closest working example the world has of Hartwick's Rule\"; \u00b6325: \"John Hartwick's 1977 rule for sustainable extraction\""
+   },
+   {
+    "source": "Hotelling 1931 (exhaustible-resource rent rule; intellectual-tradition citation)",
+    "what_it_supports": "The Hotelling Identity bridge (RCV minus standard Hotelling rent = Cost Severance)",
+    "quote_or_locator": "\u00b6331: \"Hotelling's 1931 exhaustible-resource economics prices the rent rule for private extraction of finite resources\""
+   },
+   {
+    "source": "Parfit (non-identity problem; intellectual-tradition citation)",
+    "what_it_supports": "Moral grounding for pricing future-generation costs via impersonal-outcomes evaluation",
+    "quote_or_locator": "\u00b6259: \"what Derek Parfit named the non-identity problem\"; \u00b6261\u2013265"
+   }
+  ],
+  "supported_claims": [
+   "Carbon externality of ~$441/ton of coal at $190/ton CO2 on the national-bituminous basis is computed from cited inputs (EPA bituminous emission factor 93.28 kg CO2/mmBtu x ~24.9 mmBtu/short ton = 2.32 t CO2; x EPA 2023 SCC $190) \u2014 \u00b642",
+   "The social cost of carbon has ranged across administrations ($42 Obama EPA, $1\u2013$7 first Trump admin, $190 Biden EPA), supporting the 'SCC is a political choice' argument \u2014 \u00b648 (figures named; EPA-attributed)",
+   "The ~$190/ton SCC at 2% discount is drawn from Rennert et al. 2022 \u2014 \u00b660/\u00b662",
+   "Direct-air-capture cost horizons span ~$100\u2013$1000+/ton across cited sources (Climeworks Orca/Mammoth/Gen-3; Carbon Engineering Stratos; IEA DAC 2022; IPCC AR6 WGIII), grounding Method 1 Replacement-Cost ranges \u2014 \u00b660",
+   "The Government Pension Fund Global holds ~$2.2 trillion (early-2025 NBIM), anchoring the Norway backtest and Method 2 revealed-preference value \u2014 \u00b6219",
+   "Method 3 uses the Dixit & Pindyck 1994 real-options framework \u2014 \u00b6143",
+   "Method 2 backward-direction restitution and the Restitution Bond build on Darity & Mullen 2020 reparations-economics methodology \u2014 \u00b6145, \u00b6269",
+   "The Asymmetric Regret Rule specializes Savage 1951's minimax-regret discipline \u2014 \u00b6359/\u00b6361",
+   "Convergence-table cost figures for Deepwater Horizon, Libby, and Exxon Valdez are anchored to authoritative public records (NOAA/DOJ/2016 BP Consent Decree; EPA Libby Superfund/Montana DOJ/W.R. Grace filings; Exxon Valdez Trustee Council/DOJ 1991 settlement) \u2014 \u00b6175\u2013177, \u00b6181",
+   "Black Lung health-cost tier (~$44B distributions through 2009, GAO/CRS) allocated per ton supports the $2\u2013$4/ton health component \u2014 \u00b628",
+   "The Social Cost of Carbon prices damage-side cost while DAC prices the engineering-reversal/replacement-side cost \u2014 the two are distinct and both belong in honest carbon accounting \u2014 \u00b658, \u00b662",
+   "The framework extends Pigou and Ostrom traditions; the 'Residual Commons Value' term assembles Hartwick (residual), Ostrom (commons), and Mazzucato (value created vs extracted) lineages \u2014 \u00b6323, \u00b6325"
+  ],
+  "needs_research": [
+   "McDowell County 'thirteen-year' life-expectancy gap vs the national average \u2014 load-bearing, recurs at \u00b632 and \u00b6295; no county-health-rankings / CDC / academic source cited inline (deep-pass \u00a79 gap #1)",
+   "Darity's 'six-to-seven year Black-versus-white longevity gap' priced as a legacy effect \u2014 \u00b634; methodology attributed only to 'Darity Jr. and collaborators' with no specific publication named (deep-pass \u00a79 gap #2)",
+   "Appalachian reclamation bonds '$3.7 to $6 billion short' of the work actually required \u2014 \u00b630; specific figure, attributed to 'Chapter 2' but no public source carried in Ch 6 (verify Ch 2 carries a public source) (deep-pass \u00a79 gap #3)",
+   "Bare prose total-cost figures for Deepwater '$65 to $70 billion', Libby '$5 to $8 billion', and Exxon Valdez '$7 to $10 billion' \u2014 \u00b646; the convergence-table cells cite public sources but the \u00b646 prose figures are unsourced and must be aligned to the table sourcing (deep-pass \u00a79 gap #4)",
+   "Causal claim that 'much of the information was suppressed deliberately' regarding coal-industry information \u2014 \u00b682 (and \u00b680); strong factual/causal assertion with no source; needs sourcing or softening (deep-pass \u00a79 gap #5)",
+   "Norway carbon tax introduced 1991 'one of the world's earliest'; carbon priced on petroleum extraction at 'one of the highest rates in any oil-producing economy'; ethics-council public divestments \u2014 \u00b6219\u2013221; multiple sourceable claims, none cited (deep-pass \u00a79 gap #6)",
+   "Method 3 per-ton range '$420 to $13,100/ton, mid ~$2,500' and the 'alpha-dominance regime 0.9\u20131.0' \u2014 \u00b6143; attributed only to internal 'Technical Appendix cross-case sensitivity analysis'; the $13,100 ceiling lacks a public anchor a hostile reader will demand (deep-pass \u00a79 gap #7)",
+   "'Solar cells at three cents per kilowatt-hour' (\u00b676) and 'renewables are already displacing coal at scale' (\u00b6100) \u2014 LCOE figure needs a public source (e.g., LBNL / Lazard) (deep-pass \u00a79 gap #8)",
+   "Exxon Valdez '$5.5 million of oil spilled (product value)' \u2014 \u00b646; unusual product-value framing needs a source for the basis (deep-pass \u00a79 gap #9)",
+   "Contemporary mine-mouth coal price of '$40 to $140 per ton depending on region and grade' \u2014 \u00b638; no source cited for the contemporary price range",
+   "Bottom-up tier estimates \u2014 health $2\u2013$4/ton, environment $1\u2013$3/ton, community costs $5\u2013$15/ton \u2014 \u00b628, \u00b630, \u00b632, \u00b636; presented as 'conservative' figures but only the Black Lung sub-component is cited; the aggregate tier ranges lack inline public sourcing",
+   "Method 2 Norway 'approximately fifty dollars' / '~$48' per barrel-of-oil-equivalent revealed-preference figure \u2014 \u00b6141, \u00b6174; the per-BOE value is asserted with internal-only attribution (Technical Appendix \u00a73.6) and also carries an internal $48-vs-$50 inconsistency (deep-pass \u00a78); needs a public derivation/source",
+   "1960 mine-mouth coal price of 'roughly $4.50' \u2014 \u00b638, \u00b680, table; recurring anchor with no inline public source (historical EIA/USGS coal-price series)"
+  ]
+ },
+ {
+  "unit": "Ch7",
+  "existing_citations": [
+   {
+    "source": "Commons Bonds Technical Appendix v2.0.0 (core/technical-appendix/TechnicalAppendix_v2.0.0.html), Theorem 10.3 (Abundance Masking)",
+    "what_it_supports": "The claim that the framework formalizes abundance masking \u2014 the pattern by which a resource appearing unlimited goes unpriced while its borne costs flow continuously uncomputed (air, ocean fisheries, Ogallala aquifer, atmospheric carbon-absorbing capacity, soil regenerative capacity).",
+    "quote_or_locator": "Ch7 line 121: 'The framework's mathematics formalizes this in Theorem 10.3 (Abundance Masking) of the Tech Appendix.' VERIFIED: TA HTML contains both 'Theorem 10.3' and 'Abundance Masking' (deep-pass memo \u00a79 item 13 confirms; independently grep-verified). This is the only verifiable inline citation in the chapter \u2014 an internal cross-reference, not an external public source."
+   },
+   {
+    "source": "Cross-reference to Commons Bonds framework apparatus \u2014 Commons Inversion Test (CIT) and Asymmetric Regret Rule (ARR), confirmed present in the Technical Appendix per deep-pass memo \u00a79 item 13",
+    "what_it_supports": "Repeated reliance on the Commons Inversion Test as the detection apparatus for cost severance / abundance masking (lines 101, 121, 127) and the Asymmetric Regret Rule as the decision rule for lunar He-3, comet volatiles, and Europa (lines 87, 91, 93).",
+    "quote_or_locator": "Deep-pass memo \u00a79 item 13: 'CIT + ARR + Existential Substitutability Gap also confirmed present in TA. No broken-promise.' Internal apparatus cross-reference, not an external public source; verified present in the TA, so the cross-reference is sound."
+   }
+  ],
+  "supported_claims": [
+   "The framework formalizes abundance masking as Theorem 10.3 of the Technical Appendix (verified internal cross-reference; TA contains Theorem 10.3 'Abundance Masking').",
+   "The framework's Commons Inversion Test (CIT) and Asymmetric Regret Rule (ARR) \u2014 invoked throughout Ch7 as the detection/decision apparatus \u2014 exist in the apparatus as promised (CIT + ARR confirmed present in the TA per deep-pass \u00a79; no broken cross-reference).",
+   "The $4.50 mine-mouth figure handed forward to Ch8 ('the four-dollar-and-fifty-cent figure the market cleared the transaction on,' line 233) is consistent with the canonical set and with Ch8's '1960 market price of four to five dollars' (deep-pass \u00a78 + \u00a710 verified clean against Ch8's $496/$510/33-122x post-fix state; no figure drift in Ch7).",
+   "Internal/structural claims that are self-contained to the thought experiment and require no external source: the parameter-sweep logic (one-number-at-a-time convergence/divergence, lines 55-69); the per-scenario RCV/cost-severance recommendations in the summary table (lines 163-175); the 'existential substitutability gap' construct as S_max(industrial) - S_max(existential) (line 139); the six concealment-pattern taxonomy and its by-construction collapse on a closed Mars habitat (lines 109-129); the frictionless-plane / ideal-gas / thought-experiment methodological defenses (lines 191-201). These are argumentation, not empirical assertions, and stand on their own reasoning."
+  ],
+  "needs_research": [
+   "Launch-cost trajectory (line 241): Space Shuttle era ~$30,000/kg to LEO; current commercial baseline ~$2,000-5,000/kg (Falcon 9/Falcon Heavy); plausible-but-unvalidated ~$200-1,000/kg next decade contingent on Starship. Needs public sources (NASA/CBO Shuttle per-kg figures; published Falcon 9/Heavy per-kg figures). [deep-pass \u00a79 item 1]",
+   "Operational-status claim (line 241): 'Vulcan Centaur and New Glenn now operational.' Time-sensitive; verify operational status as of publication date. [deep-pass \u00a79 item 1]",
+   "Mars-surface delivery cost ~$2.5M/kg (line 243): 'Curiosity, Perseverance, and InSight delivered about a kilogram of operational hardware to the Martian surface for approximately two and a half million dollars apiece.' This is a constructed ratio needing a derivation source or citation. [deep-pass \u00a79 item 2]",
+   "Asteroid-mining cost targets (line 243): Keck Institute Asteroid Retrieval Mission Study (2012) and pre-acquisition Planetary Resources / Deep Space Industries projections targeting costs '5 to 7 orders of magnitude below current science-mission economics.' Cite Keck 2012 directly; flag company projections as actor-stated targets (chapter already does). [deep-pass \u00a79 item 3]",
+   "Lunar helium-3 stock (line 87): 'the Moon's regolith contains roughly a million tons.' Commonly cited but contested; needs a source for the estimate's origin. [deep-pass \u00a79 item 4]",
+   "Stern vs. Nordhaus discount-rate framing (line 73): 2006 Stern Review near-zero pure rate of time preference; Nordhaus DICE model higher market-calibrated rate; the specific 'roughly 1.4 percent versus 4 percent' gap and the 'trillions of dollars' present-value difference. Cite Stern 2006 and Nordhaus DICE; the 1.4/4 figures specifically need a source. [deep-pass \u00a79 item 5]",
+   "Hartwick's rule (line 73): 'John Hartwick's 1977 rule' that exhaustible-resource rents should be invested in reproducible capital to leave future generations no worse off. Cite Hartwick 1977. [deep-pass \u00a79 item 6]",
+   "Pyramids at Giza (line 213): built over ~70 years in the Old Kingdom ~2550 BCE; workers paid in rations, medically cared for, properly buried (not chattel slaves); Mark Lehner's Giza Plateau Mapping Project and Zahi Hawass's workers'-cemetery excavations as the revisionist consensus. Cite Lehner and Hawass. [deep-pass \u00a79 item 7]",
+   "Qin China (line 215): Great Wall ~5,000 km; Sima Qian's Records of the Grand Historian (compiled ~a century after Qin's fall) reporting 300,000-500,000 concurrent conscripted laborers on the Wall and ~700,000 on the mausoleum, with documented mass mortality; Terracotta Army discovered 1974; Qin dynasty collapsed within four years of the First Emperor's death. Cite Sima Qian + a modern scholarly source for labor figures (Sima Qian's numbers contested; chapter hedges with 'by his estimate'). [deep-pass \u00a79 item 8]",
+   "Solar luminosity / Earth habitability horizon (line 197): Sun's increasing main-sequence luminosity makes Earth uninhabitable for biological civilizations on the order of 500 million to 1 billion years from now, well before the red-giant phase that engulfs the planet ~7.5 billion years out. Cite a solar-physics / stellar-evolution source (e.g., Schroder & Smith 2008 or standard reference). [deep-pass \u00a79 item 9]",
+   "Existential-risk lineage (line 141): Bostrom 2002 (existential-risk concept origination), Bostrom 2014 Superintelligence, MacAskill 2022 What We Owe the Future, Ord 2020 The Precipice, and the Future of Humanity Institute / Centre for the Study of Existential Risk literatures. Bibliographic citations needed. [deep-pass \u00a79 item 10]",
+   "Kimberley Process empirical claim (line 221): that the 'conflict-free' diamond ethical premium 'stays with the retailer and the certification infrastructure; it does not reach the miners.' Needs a public source for this empirical distribution claim. (Related downstream claims \u2014 fair-trade coffee certification not substantively raising farmer income; carbon offsets reducing marketing cost without reducing emissions; ESG screens not altering capital flow \u2014 would each also need sourcing if retained.) [deep-pass \u00a79 item 11]",
+   "Illustrative-precedent attributions (line 109): 'Ostrom's eight design principles, Sen's ten capabilities, and Rawls's primary goods.' Standard but should be cited once (Ostrom 1990; Sen capabilities; Rawls A Theory of Justice). [deep-pass \u00a79 item 12]",
+   "Abundance-masking historical exemplars (line 121/123): ocean fisheries before collapse; Ogallala aquifer abundance in the 1940s when central-pivot irrigation began drawing it down; atmosphere absorbing combusted carbon ~two centuries without observable saturation. These empirical-historical specifics (Ogallala 1940s central-pivot onset; ~two-century atmospheric absorption) are asserted without a public source and should be grounded.",
+   "Mars-exploration mission roster (line 19): 'Mars 3, Viking I and II, Pathfinder, Spirit and Opportunity, Phoenix, Curiosity, InSight, Perseverance, with sample return and crewed proposals discussed for years.' Used to support 'half a century' of active attempts and 'extensively measured' Martian-regolith parameter ranges; the mission list and the 'parameter ranges extensively measured' claim should carry a source."
+  ]
+ },
+ {
+  "unit": "Ch8",
+  "existing_citations": [
+   {
+    "source": "EPA AP-42 \u00a71.1 (bituminous-coal combustion emission factor)",
+    "what_it_supports": "One ton of McDowell coal releases ~2.61 metric tons CO2 when burned (combustion factor of 93.28 kg CO2/mmBtu applied to Pocahontas-seam heat content of ~28 mmBtu/short ton); national-bituminous-average heat content yields 2.32 t CO2/short ton",
+    "quote_or_locator": "line 72: \"the EPA AP-42 \u00a71.1 bituminous-coal combustion factor of 93.28 kg CO\u2082 per mmBtu, applied to McDowell County's production-weighted Pocahontas-seam heat content of roughly 28 mmBtu per short ton, yields 2.61 metric tons CO\u2082 per short ton coal\""
+   },
+   {
+    "source": "EPA 2023 social cost of carbon estimate, anchored to Rennert et al. 2022 (Nature)",
+    "what_it_supports": "Social cost of carbon = $190 per metric ton CO2, used to compute the $496 carbon/foreclosure term (2.61 x $190)",
+    "quote_or_locator": "line 74: \"The EPA's 2023 estimate of the social cost of carbon... anchored to the Rennert et al. 2022 *Nature* integrated estimate that grounded that update \u2014 is one hundred and ninety dollars per metric ton.\""
+   },
+   {
+    "source": "Hendryx and colleagues (epidemiology of mountaintop removal mining)",
+    "what_it_supports": "60,000 Appalachian cancer cases linked to mountaintop removal mining",
+    "quote_or_locator": "line 50: \"the sixty thousand Appalachian cancer cases linked to mountaintop removal mining (per Hendryx and colleagues' epidemiology)\" \u2014 named author, but specific paper/year not given"
+   },
+   {
+    "source": "Opportunity Insights / Opportunity Atlas (Chetty et al.)",
+    "what_it_supports": "A child born in McDowell County in the bottom income quintile has among the lowest odds of reaching the top quintile of any U.S. location; county ranks at the floor of national mobility outcomes",
+    "quote_or_locator": "line 92: \"The mobility data the Opportunity Insights project has made public ranks the county at the floor of national outcomes.\" \u2014 project named, specific data point not located"
+   },
+   {
+    "source": "Paul Laurence Dunbar, \"We Wear the Mask\" (1896)",
+    "what_it_supports": "Literary lineage for the mask/survival-strategy framing applied to the miner told the dust is better now",
+    "quote_or_locator": "line 94: \"Paul Laurence Dunbar wrote *We Wear the Mask* in 1896: *We wear the mask that grins and lies...*\""
+   },
+   {
+    "source": "W.E.B. Du Bois, The Souls of Black Folk (1903)",
+    "what_it_supports": "Naming the structural condition (the veil) that required the survival strategy Dunbar named",
+    "quote_or_locator": "line 96: \"Du Bois named the structural condition that required it in *The Souls of Black Folk* (1903).\""
+   },
+   {
+    "source": "Frantz Fanon, Black Skin, White Masks (1952)",
+    "what_it_supports": "Extension of the mask analysis into the colonial-economic register the framework's extraction-community cases sit closest to",
+    "quote_or_locator": "line 96: \"Fanon extended the analysis into the colonial-economic register... in *Black Skin, White Masks* (1952).\""
+   },
+   {
+    "source": "Ralph Ellison, Invisible Man (1952)",
+    "what_it_supports": "Long-form narrative of life under the mask",
+    "quote_or_locator": "line 96: \"Ellison gave the long-form narrative of life under the mask in *Invisible Man* (1952).\""
+   },
+   {
+    "source": "Reparations-economics tradition (Coates, Darity, Mullen, Hamilton, Conley)",
+    "what_it_supports": "Supplies the actor-and-coalition vocabulary for the racial wealth gap underlying the cost-bearing-party analysis",
+    "quote_or_locator": "line 126: \"The reparations-economics tradition (Coates, Darity, Mullen, Hamilton, Conley) supplies the actor-and-coalition vocabulary for the racial wealth gap.\""
+   },
+   {
+    "source": "Public Choice tradition (Buchanan, Tullock)",
+    "what_it_supports": "Supplies the rent-seeking vocabulary for the extractor's reasoning that shaped the political-coalition record; book draws on the vocabulary rather than endorsing the project",
+    "quote_or_locator": "line 126: \"The Public Choice tradition (Buchanan, Tullock) supplies the vocabulary for the extractor's reasoning...\""
+   },
+   {
+    "source": "Executive Order 12866 / Obama-administration Interagency Working Group SCC",
+    "what_it_supports": "Obama-administration social cost of carbon set at $42/ton, anchored to global-scope externality calculation",
+    "quote_or_locator": "line 122: \"Under the Obama administration it was set at forty-two dollars per ton through Executive Order 12866 implementation, anchored to global-scope externality calculation.\""
+   },
+   {
+    "source": "Wagner, Anthoff, Cropper, et al. 2021 (academic commentary on SCC methodology)",
+    "what_it_supports": "The Trump-administration SCC cut to $1-7/ton (via geographic-scope limitation to the U.S.) was flagged as ungrounded in standard cost-benefit-analysis practice",
+    "quote_or_locator": "line 122: \"a methodological change academic commentary (Wagner, Anthoff, Cropper, et al. 2021) flagged as ungrounded in standard cost-benefit-analysis practice.\""
+   },
+   {
+    "source": "1977 Surface Mining Control and Reclamation Act (SMCRA)",
+    "what_it_supports": "Statutory basis for the reclamation-bond requirement whose shortfall the chapter prices",
+    "quote_or_locator": "line 48: \"the reclamation bonds coal companies were required to post under the 1977 Surface Mining Control and Reclamation Act\""
+   },
+   {
+    "source": "Federal Black Lung Benefits Program / Trust Fund (est. 1969); detailed walk attributed to Ch2",
+    "what_it_supports": "$1-1.50 per ton from the Black Lung program allocated against national coal tonnage since 1969; funding gap, debt trajectory, and severance mechanism",
+    "quote_or_locator": "line 34: \"Chapter 2 walks the federal Black Lung Benefits Program's Trust Fund... in detail. The per-ton arithmetic... is the headline number: between one and one and a half dollars per ton...\" (cross-chapter dependency on Ch2)"
+   },
+   {
+    "source": "Mian & Sufi, House of Debt (2014)",
+    "what_it_supports": "Analysis of the welfare cost of the 2008 bank-recapitalization response architecture vs the politically-reachable household-debt-restructuring alternative",
+    "quote_or_locator": "line 196: \"documented since by economists including Mian and Sufi, whose 2014 *House of Debt* analyzed the welfare cost of the chosen architecture...\""
+   },
+   {
+    "source": "Edward Glaeser and Joseph Gyourko (housing-supply-restriction literature)",
+    "what_it_supports": "Documentation of supply-constrained metropolitan housing markets (steelman of the YIMBY supply-side objection)",
+    "quote_or_locator": "line 186: \"Edward Glaeser and Joseph Gyourko's work documenting supply-constrained metropolitan areas.\""
+   },
+   {
+    "source": "Jenny Schuetz (land-use regulation research)",
+    "what_it_supports": "Land-use regulation as the binding constraint in high-cost housing markets (steelman of YIMBY objection)",
+    "quote_or_locator": "line 186: \"Jenny Schuetz's research on land-use regulation as the binding constraint in high-cost markets.\""
+   },
+   {
+    "source": "JCHS (Joint Center for Housing Studies) 2024 report",
+    "what_it_supports": "Cost-burdened renter share has risen across both supply-restricted and supply-expanded metro markets",
+    "quote_or_locator": "line 190: \"the JCHS 2024 report documents the rise in cost-burden share across both.\""
+   },
+   {
+    "source": "U.S. Department of Justice antitrust action (RealPage / property-management pricing-coordination)",
+    "what_it_supports": "Documented pricing-coordination patterns enabled by property-management software; DOJ action timeline (investigation 2022, formal complaint 2024, proposed settlement late 2025)",
+    "quote_or_locator": "line 192: \"the subject of a U.S. Department of Justice antitrust action that opened with investigation in 2022, escalated to formal complaint in 2024, and reached proposed settlement in late 2025\" \u2014 FORWARD-DATED claim, needs re-verification as past-tense fact"
+   },
+   {
+    "source": "Treaty 8 of 1899 (Canada); Athabasca Chipewyan, Mikisew Cree, Fort McKay First Nations",
+    "what_it_supports": "First Nations whose traditional territories under Treaty 8 sit above/beside the Athabasca bitumen deposits; documented elevated cancer rates, contaminated traditional-food sources, consultation-and-consent failures",
+    "quote_or_locator": "line 182: \"The Athabasca Chipewyan First Nation, Mikisew Cree First Nation, and Fort McKay First Nation, whose traditional territories under Treaty 8 of 1899 sit above and beside the bitumen deposits, have documented elevated cancer rates...\" \u2014 named specifics, but no source citation for the cancer-rate / contamination claims"
+   }
+  ],
+  "supported_claims": [
+   "One ton of burned McDowell/Pocahontas-seam coal releases ~2.61 metric tons CO2 (EPA AP-42 \u00a71.1 factor applied to seam heat content); national-bituminous average is 2.32 t CO2/short ton.",
+   "The EPA 2023 social cost of carbon is $190/metric ton, anchored to Rennert et al. 2022 (Nature); the carbon/foreclosure term is $496 (2.61 x $190).",
+   "The Black Lung Benefits Program was established in 1969; the per-ton allocation against national tonnage since then is ~$1-1.50 (detailed Trust Fund walk carried in Ch2).",
+   "Reclamation bonds were required under the 1977 Surface Mining Control and Reclamation Act.",
+   "The SCC has been a political object: Obama set it at $42/ton via EO 12866 global-scope methodology; Trump cut it to $1-7 by restricting geographic scope (flagged as ungrounded by Wagner, Anthoff, Cropper et al. 2021); Biden returned it to $51 (global scope); EPA 2023 raised it to $190.",
+   "The literary lineage of the 'mask'/survival-condition framing runs Dunbar (We Wear the Mask, 1896), Du Bois (Souls of Black Folk, 1903), Fanon (Black Skin White Masks, 1952), Ellison (Invisible Man, 1952).",
+   "The reparations-economics tradition (Coates, Darity, Mullen, Hamilton, Conley) supplies actor/coalition vocabulary; Public Choice (Buchanan, Tullock) supplies the extractor-reasoning/rent-seeking vocabulary.",
+   "The 2008 response architecture (TARP + Fed facilities) recapitalized bank balance sheets rather than restructuring household debt; Mian & Sufi's House of Debt (2014) analyzed the welfare cost of that choice vs the reachable alternative.",
+   "The YIMBY/supply-side objection has substantial empirical support (Glaeser/Gyourko on supply-constrained metros; Schuetz on land-use regulation as binding constraint); cost-burdened renter share rose across both supply-restricted and supply-expanded markets (JCHS 2024).",
+   "Cancer cases linked to Appalachian mountaintop-removal mining number ~60,000 (attributed to Hendryx and colleagues \u2014 author named but specific paper not cited).",
+   "McDowell County child mobility outcomes sit at the floor of national outcomes (attributed to Opportunity Insights \u2014 project named but specific data point not cited)."
+  ],
+  "needs_research": [
+   "Direct health cost per ton: 'between two and four dollars per ton at the national level' (line 38) including Medicare/Medicaid shift, uncompensated care, and bankrupt-employer private bills \u2014 only the $1-1.50 Black Lung subcomponent is program-anchored; the all-in $2-4 figure has no external source.",
+   "Excess cardiovascular mortality, respiratory illness in mining communities, cancer rates near processing facilities, and >10-year life-expectancy divergence (line 36) \u2014 asserted without citation.",
+   "Acid mine drainage / reclamation bond shortfall: 'available bonds total $3.8 billion against cleanup costs estimated at $7.5 to 9.8 billion; gap $4-6 billion' (line 48) \u2014 no year, no source. Deep-pass \u00a79 flags this conflicts with the ledger's dated '$4.5B (2021)' anchor; needs GAO/OSMRE/Appalachian Voices source.",
+   "Hendryx 60,000-cancer-case figure (line 50) \u2014 needs the specific Hendryx et al. paper + year for the source list.",
+   "'Hundreds of thousands of acres across Appalachia awaiting cleanup. Close to a million nationwide.' (line 48) \u2014 abandoned-mine-land acreage needs a source.",
+   "Atmospheric mercury from coal combustion showing up in North Atlantic fish (line 50) \u2014 asserted without citation.",
+   "Environmental degradation cost allocated at '$1-3 per ton' (line 52) \u2014 no source for the per-ton allocation methodology.",
+   "McDowell County demographics/socioeconomics: peak ~100,000 in 1950; <20,000 by 2020; mechanization cut workforce by more than half within a decade of 1960; last Walmart left 2016; 2022 median household income $28,000, ~38% poverty, 16th-poorest; national median over $67,000 (line 58) \u2014 time-sensitive Census figures needing source + year-lock.",
+   "U.S. Steel mine closure 'in 1986' dropped county personal income by two-thirds in a single year (line 58) \u2014 deep-pass \u00a78 (Ledger J5) flags the hard year 1986 as contested/unsourced; must lock to a primary source or soften to 'across the 1980s.'",
+   "2015 drug-induced death rate '141 per 100,000' (highest of any U.S. county) vs ~16 national (line 58) \u2014 CDC figures needing source + year-lock.",
+   "Community disruption cost: economists' figures for sustained regional decline 'in the range of five to fifteen dollars per ton' (line 62) \u2014 no named source; deep-pass \u00a79 calls this the least-sourced component figure and the second-largest non-carbon head ($5).",
+   "Lineage labor cost: 'development economists... regional estimates in the single-digit billions... per-ton $1-5' (line 98) \u2014 author concedes imprecise; unsourced, flag as internally-estimated for pre-pub queue.",
+   "Knowledge-and-cultural-cost $1/ton and temporal-displacement $2/ton and lineage-labor $2/ton placeholders (lines 100, 112, 142) \u2014 explicitly author placeholders, not externally sourced.",
+   "Political capture: 'fossil fuel industry annual lobbying spend runs into the hundreds of millions of dollars' (line 124) \u2014 needs OpenSecrets / public source.",
+   "John L. Lewis / UMW history: claim that the UMW 'declined to press' black-lung compensation 'reportedly on the grounds that raising it would interfere with mechanization' (line 120) \u2014 'reportedly' flags an unsourced attribution needing a historical source.",
+   "Black lung 'identifiable as an occupational disease by the early twentieth century'; '1969 recognition only after a miners' strike and the West Virginia Black Lung Association forced the legislative issue' (line 120) \u2014 historical claims needing sourcing.",
+   "Obama '$42' and Biden '$51' interim SCC values (line 122) \u2014 public IWG technical support documents exist but should be cited directly.",
+   "Temporal displacement: '1970s oil shocks produced a fifty-percent improvement in U.S. energy intensity over the subsequent two decades' (line 138) \u2014 needs EIA source.",
+   "Cross-case IPGs in the pattern montage (line 178): Deepwater Horizon IPG 15-17; Macondo projected 40-60M barrels -> 17-26M tons CO2 -> $3-5B carbon tail; Libby/W.R. Grace IPG 40-80; Baotou rare-earth; Exxon Valdez 11M gallons \u2014 need sourcing or verified 'see Ch5' pointer (confirm Ch5 grounds them).",
+   "Tar sands First Nations cancer/contamination claims (line 182): elevated downstream cancer rates, contaminated traditional-food sources, court engagement under Treaty 8 \u2014 named specifics but no source (likely Alberta Cancer Board / Fort Chipewyan studies); needs citation.",
+   "DOJ RealPage timeline 'proposed settlement in late 2025' (line 192) \u2014 FORWARD-DATED relative to drafting; deep-pass flags re-verification as a past-tense fact (confirm the settlement actually landed and the dates).",
+   "Across-market rise in cost-burdened renter share independent of supply elasticity (line 190) \u2014 partially anchored to JCHS 2024 but the causal 'asset-class consolidation is producing it, not supply restriction' claim (line 192) needs support.",
+   "2008 crisis figures (line 196): '$11 trillion in U.S. household wealth destroyed,' '~10 million foreclosure filings over five years,' '~5 million completed foreclosures,' '$700 billion TARP authorization plus trillions in liquidity/guarantees' \u2014 standard Fed/RealtyTrac/Treasury sources needed (only Mian & Sufi is cited, for the analysis not the figures).",
+   "Civilizational extrapolation (lines 218-220): global fossil-fuel industry ~$4-5 trillion annual revenue; full-cost pricing factor of 2-3x; resulting $8-10T fossil severed cost and $10-15T all-sector annual figure \u2014 the chapter itself flags this as a 'gestured claim' with 'one sentence of supporting arithmetic'; not a verifiable public citation.",
+   "Claim that the $10-15T figure is 'larger than every government subsidy program combined, larger than all international development assistance, larger than all charitable giving... combined' and 'the largest continuous wealth transfer in human history' (line 220) \u2014 asserted without citation.",
+   "Leaded gasoline: banned, refineries reformulated, industry did not collapse, children's cognitive outcomes improved (line 224) \u2014 historical precedent asserted without citation.",
+   "Solar electricity 'now cheaper than coal in most of the developing world' (line 210) \u2014 needs a source (e.g., IRENA/Lazard LCOE)."
+  ]
+ },
+ {
+  "unit": "Ch9",
+  "existing_citations": [
+   {
+    "source": "Mancur Olson (1965), The Logic of Collective Action",
+    "what_it_supports": "The political-economy claim that a concentrated interest defending a large position reliably defeats a diffuse interest trying to reclaim a small per-capita share even when aggregate loss exceeds aggregate gain.",
+    "quote_or_locator": "Chapter line 112: 'This is not a discovery. Mancur Olson described it in 1965.' (Olson named; specific 1965 work/page not cited in text.)"
+   },
+   {
+    "source": "Atif Mian & Amir Sufi (2014), House of Debt",
+    "what_it_supports": "That a household-debt-restructuring architecture would have produced more consumption recovery in 2009\u20132011 than the bank-rescue architecture, with redistributive effects benefiting the bottom 40% by a factor of 3\u20134 relative to top-quintile households.",
+    "quote_or_locator": "Chapter lines 122\u2013124: \"Mian and Sufi's 2014 House of Debt analyzed the welfare cost of the chosen architecture... benefiting the bottom forty percent of the income distribution by a factor of three to four relative to top-quintile households\". Work named; no page-cite for the 3\u20134x figure."
+   },
+   {
+    "source": "Sweden \u2014 1938 Saltsj\u00f6baden Agreement (named historical instrument)",
+    "what_it_supports": "That Sweden's response to the 1929\u201332 crisis institutionalized labor-employer wage-bargaining maintaining household consumption, with multi-generational durability.",
+    "quote_or_locator": "Chapter line 126: 'the 1938 Saltsj\u00f6baden Agreement framework institutionalized labor-employer wage-bargaining'. Instrument named; no external source cited."
+   },
+   {
+    "source": "Gordon Tullock (1967), 'The Welfare Costs of Tariffs, Monopolies, and Theft'",
+    "what_it_supports": "Introduction of rent-seeking \u2014 treating political behavior as rational actors maximizing value extractable from politically-mediated arrangements.",
+    "quote_or_locator": "Chapter line 138: \"Tullock's 1967 paper 'The Welfare Costs of Tariffs, Monopolies, and Theft' introduced rent-seeking\". Title/year given in text; journal not stated (deep-pass \u00a79 flags exact-title/journal verification)."
+   },
+   {
+    "source": "James M. Buchanan & Gordon Tullock \u2014 Public Choice / Virginia school (tradition named)",
+    "what_it_supports": "The analytical vocabulary for why cost-bearers cannot stop costs being assigned to them; rent-seeking-shaped institutional architecture.",
+    "quote_or_locator": "Chapter line 138: 'The Public Choice tradition, founded by James M. Buchanan and Gordon Tullock at Virginia and developed over six decades...'. Tradition/founders named; no specific work cited."
+   },
+   {
+    "source": "Family and Medical Leave Act of 1993 (statute, named)",
+    "what_it_supports": "Worked example of rent-seeking shaping architecture \u2014 business lobbies opposed paid leave and pushed the final architecture toward twelve weeks of unpaid leave.",
+    "quote_or_locator": "Chapter line 140: 'The Family and Medical Leave Act of 1993... twelve weeks of unpaid leave.' Statute named; deep-pass \u00a79 flags 'twelve weeks unpaid' as correct-but-cite."
+   },
+   {
+    "source": "Ronald Coase (1960), 'The Problem of Social Cost'",
+    "what_it_supports": "The property-rights claim that, absent transaction costs, externalities resolve through bargaining regardless of initial entitlement \u2014 which the framework contradicts for future generations who cannot bid.",
+    "quote_or_locator": "Chapter line 156: \"Ronald Coase's 1960 demonstration \u2014 that in the absence of transaction costs, externalities will be resolved through bargaining regardless of initial entitlement\". Author/year given; paper title not stated."
+   },
+   {
+    "source": "Elinor Ostrom \u2014 common-pool-resource governance work (named)",
+    "what_it_supports": "That local institutions govern common-pool resources sustainably; she 'identified design principles that dozens of existing local institutions had independently evolved.'",
+    "quote_or_locator": "Chapter line 156 and line 264: 'Elinor Ostrom's work on common-pool resources governed by local institutions'; 'identified design principles... has since informed fisheries policy, forestry policy, and water governance.' Author/work named; no specific title."
+   },
+   {
+    "source": "Katharina Pistor (2019), The Code of Capital",
+    "what_it_supports": "That property rights are themselves legal modules designed within a system that encodes capital while leaving costs externalized \u2014 the legal-architectural reason property rights cannot reach the full problem.",
+    "quote_or_locator": "Chapter line 166: \"Pistor's The Code of Capital (engaged at depth in Chapter 5) names the legal-architectural reason\". Work named; cross-referenced to Ch5."
+   },
+   {
+    "source": "Brett Christophers (2024), The Price is Wrong: Why Capitalism Won't Save the Planet",
+    "what_it_supports": "That markets do not price climate solutions correctly because investment is driven by profit not price, and renewables do not meet private-investment profit thresholds absent state subsidy.",
+    "quote_or_locator": "Chapter line 168: \"Brett Christophers' The Price is Wrong: Why Capitalism Won't Save the Planet (2024)... investment is driven not by price but by profit\". Title/year given."
+   },
+   {
+    "source": "Adam Smith, The Wealth of Nations (named)",
+    "what_it_supports": "Lineage claim that Smith argued against producers who externalized costs onto the public; the framework is 'the completion' of the market mechanism, not a departure.",
+    "quote_or_locator": "Chapter line 170: 'Adam Smith, who spent a good portion of The Wealth of Nations arguing against producers who externalized costs onto the public, would have recognized what this framework does.' Work named; no passage cited."
+   },
+   {
+    "source": "Tax Foundation \u2014 2024 cross-national tax comparison (source named)",
+    "what_it_supports": "Tax wedge ~30% US vs ~42% Sweden (11-pt difference); tax-to-GDP ~26% US vs ~41% Sweden (15-pt gap). Basis of the 'eleven-cent difference' framing.",
+    "quote_or_locator": "Chapter line 198: 'The numbers, drawn from the Tax Foundation's twenty-twenty-four cross-national comparison...'. Source named; specific table not cited (deep-pass \u00a79 flags: cite the specific 2024 table)."
+   },
+   {
+    "source": "OECD Health Statistics; Commonwealth Fund, Mirror Mirror (cross-national report) \u2014 named",
+    "what_it_supports": "That comparison countries deliver universal coverage at outcomes comparing favorably with the US on life expectancy, infant mortality, maternal mortality, preventable mortality, treatment outcomes.",
+    "quote_or_locator": "Chapter line 200: 'tracked by OECD Health Statistics and the Commonwealth Fund's Mirror Mirror cross-national report'. Sources named; no specific edition/figures cited."
+   },
+   {
+    "source": "Berliner & Kenworthy (2017) \u2014 medical-crowdfunding study",
+    "what_it_supports": "Over 250,000 medical-crowdfunding campaigns annually; average campaigns covering 25\u201340% of stated need.",
+    "quote_or_locator": "Chapter line 202: \"Berliner and Kenworthy's 2017 study documented over 250,000 medical-crowdfunding campaigns annually... average campaigns covering twenty-five to forty percent of stated need\". Authors/year named; full cite (journal) not given."
+   },
+   {
+    "source": "Ly & Soman (2020); Kenworthy & Igra (2024) \u2014 follow-on crowdfunding research",
+    "what_it_supports": "Confirmation of medical-crowdfunding pattern at scale and differential success rates mirroring healthcare-access disparities.",
+    "quote_or_locator": "Chapter line 202: 'subsequent research (Ly and Soman 2020; Kenworthy and Igra 2024) confirms the pattern at scale'. Authors/years named; full cites not given."
+   },
+   {
+    "source": "EU Carbon Border Adjustment Mechanism (CBAM) \u2014 named instrument",
+    "what_it_supports": "That border adjustment scaled to unpriced externality is legally/administratively/diplomatically feasible; transitional since 2023, definitive phase 2026.",
+    "quote_or_locator": "Chapter line 98: 'The European Union's Carbon Border Adjustment Mechanism, in transitional operation since 2023 and entering its definitive phase in 2026...'. Instrument named; dates stated without external source."
+   },
+   {
+    "source": "Alaska Permanent Fund (named institution + statutory facts)",
+    "what_it_supports": "Domestic state-scale rent-capture model: 25% of mineral royalty income captured since 1976; irrevocable constitutional trust ~$80B; annual dividend to every resident since 1982, recently $1,300\u2013$1,700.",
+    "quote_or_locator": "Chapter line 118: 'since 1976 the state has captured 25 percent of mineral royalty income... now holds roughly $80 billion and has distributed an annual dividend to every resident since 1982, most recently in the $1,300\u2013$1,700 range.' Institution named; figures stated bare (deep-pass \u00a79 flags year-anchored dividend-range cite)."
+   },
+   {
+    "source": "Norway sovereign wealth fund / GPFG (named institution)",
+    "what_it_supports": "National-scale, more disciplined version of resource-rent capture preserved for intergenerational equity; sustained ~50 years through changes of government and industry pressure.",
+    "quote_or_locator": "Chapter lines 118, 218: 'Norway's sovereign wealth fund is a larger, more disciplined national version'; 'Norway has demonstrated, over fifty years...'. Institution named; figures not externally cited."
+   },
+   {
+    "source": "Surface Mining Control and Reclamation Act of 1977 (SMCRA, statute)",
+    "what_it_supports": "That mining reclamation bonds exist in the US under SMCRA; the mechanism is sound though structurally underpriced (cross-ref Ch2).",
+    "quote_or_locator": "Chapter line 240: 'Mining reclamation bonds exist in the United States under the Surface Mining Control and Reclamation Act of 1977.' Statute named; underpricing claim cross-referenced to Ch2."
+   },
+   {
+    "source": "NEPA (National Environmental Policy Act, 1970) \u2014 statute named",
+    "what_it_supports": "Environmental impact assessments as a partial, procedural (non-monetized) implementation of pricing the externality tail, established 1970 and widely adopted.",
+    "quote_or_locator": "Chapter line 242: 'Environmental impact assessments, established under NEPA in the United States in 1970...'. Statute named."
+   },
+   {
+    "source": "Community Reinvestment Act (statute named)",
+    "what_it_supports": "Partial implementation of the spatial-justice principle that capital extracted from a place owes something to that place.",
+    "quote_or_locator": "Chapter line 242: 'The Community Reinvestment Act, for all its limitations, is a partial implementation of the spatial justice principle.' Statute named."
+   },
+   {
+    "source": "EU Critical Raw Materials Act (CRMA) + EU Critical Raw Materials list (named)",
+    "what_it_supports": "Classification machinery exists: CRMA agreed late 2023, in force May 2024, classifies 34 critical materials with 17 designated strategic; EU publishes a Critical Raw Materials list doing part of the classification work.",
+    "quote_or_locator": "Chapter line 36 ('The European Union publishes a Critical Raw Materials list') and line 232 ('Critical Raw Materials Act, politically agreed in late 2023 and entered into force in May 2024, classifies thirty-four materials... seventeen of these designated strategic'). Named; deep-pass \u00a79 flags verify count and date."
+   },
+   {
+    "source": "US Geological Survey (USGS) annual assessments (named)",
+    "what_it_supports": "That USGS publishes annual assessments doing part of the resource-classification work; basis for illustrative reserves/production figures in the reserve example.",
+    "quote_or_locator": "Chapter line 36: 'The United States Geological Survey publishes annual assessments that do another portion.' Agency named; the line-50 reserves/production figures are explicitly hypothetical ('identifies, say, thirty million metric tons')."
+   },
+   {
+    "source": "MP Materials / Mountain Pass mine (named entity + corporate-history facts)",
+    "what_it_supports": "US restored domestic rare-earth supply: MP Materials 2017 acquisition out of bankruptcy, 2018 operations restart; capacity lost to 2002 environmental closure and 2015 Molycorp bankruptcy.",
+    "quote_or_locator": "Chapter line 232: 'MP Materials' 2017 acquisition out of bankruptcy and 2018 operations restart... lost to environmental closure in 2002 and the 2015 bankruptcy of the prior operator Molycorp.' Entities/dates named; deep-pass \u00a79 flags verify dates."
+   },
+   {
+    "source": "International Seabed Authority (ISA) / UNCLOS / Clarion-Clipperton Zone / Nauru 2-year rule (named)",
+    "what_it_supports": "Live near-term policy case: ISA established 1994 under UNCLOS, exploration contracts since 2001, commercial-mining code under negotiation; Nauru-sponsored 2-year-rule trigger 2021; CCZ ~4.5M km2 holds largest known polymetallic-nodule deposits.",
+    "quote_or_locator": "Chapter line 234: 'The International Seabed Authority, established in 1994 under UNCLOS, has issued exploration contracts since 2001... The Nauru-sponsored 2-year-rule trigger in 2021...'. Institutions/dates named."
+   },
+   {
+    "source": "David Harvey \u2014 'accumulation by dispossession' (concept named)",
+    "what_it_supports": "Precedent that a framework/vocabulary changes political conversation without passing a law (gentrification, enclosure, privatization).",
+    "quote_or_locator": "Chapter line 262: 'David Harvey's \"accumulation by dispossession\" did not pass a single law.' Concept/author named; no work title."
+   },
+   {
+    "source": "Kate Raworth, Doughnut Economics (named)",
+    "what_it_supports": "Precedent that a framework adopted by Amsterdam, regional governments, parts of EU climate architecture, and development agencies shapes legislation without being cited.",
+    "quote_or_locator": "Chapter line 266: \"Kate Raworth's Doughnut Economics has not yet passed a single law. It has been adopted as a guiding framework by the city of Amsterdam...\". Work named; adoption claims uncited."
+   },
+   {
+    "source": "Matthew Desmond, Evicted (named)",
+    "what_it_supports": "Precedent that narrative/reporting changed how housing instability is discussed and made policy experiments (rent support, eviction moratoriums, right-to-counsel) conceivable.",
+    "quote_or_locator": "Chapter line 268: 'Matthew Desmond's Evicted did not pass a law. It produced... a change in how housing instability is discussed.' Work named."
+   },
+   {
+    "source": "Daniel Susskind (2024), Growth: A Reckoning (named)",
+    "what_it_supports": "Parallel argument that growth must be redirected toward measures of human flourishing rather than abandoned \u2014 facet of the same 'make honest what measurement leaves dishonest' task.",
+    "quote_or_locator": "Chapter line 270: \"Daniel Susskind's Growth: A Reckoning (2024) names a parallel question... growth must be redirected \u2014 not abandoned\". Title/year given."
+   },
+   {
+    "source": "Internal cross-references to other Commons Bonds chapters / Technical Appendix",
+    "what_it_supports": "Derivation pointers for load-bearing claims: Ch8 invoice/per-ton math; Ch5 Pistor + accountability gap; Ch4 Norway-vs-Social-Security retirement-security comparison; Ch7 Europa-ocean treatment + immune-response/simulated-reattachment stress test; Ch2 reclamation-bond underpricing.",
+    "quote_or_locator": "Chapter lines 10 ('Chapter 8 put a number on the invoice'), 166 ('engaged at depth in Chapter 5'), 218 ('Chapter 4 develops the comparison between Norway's sovereign-fund architecture and the United States Social Security system'), 234\u2013236 (Ch7 cross-refs), 240 ('as Chapter 2 documented'). Deep-pass \u00a710 flags these as dependencies/broken-promise risks to verify."
+   }
+  ],
+  "supported_claims": [
+   "Rent-seeking (treating political behavior as rational value-extraction from politically-mediated arrangements) was introduced by Tullock's 1967 paper \u2014 backed by the named Tullock 1967 work.",
+   "The political-economy logic that concentrated interests defeat diffuse interests even when aggregate loss exceeds aggregate gain \u2014 backed by named Olson (1965).",
+   "Mian & Sufi's House of Debt argued household-debt restructuring would have produced more consumption recovery than the bank-rescue architecture \u2014 backed by the named 2014 work (though the specific 3\u20134x bottom-40% figure needs a page-cite; see needs_research).",
+   "Coase (1960) held that absent transaction costs externalities resolve through bargaining regardless of initial entitlement \u2014 backed by named Coase 1960.",
+   "Ostrom identified design principles that existing local institutions evolved to govern common-pool resources \u2014 backed by named Ostrom work.",
+   "Pistor's Code of Capital argues property rights are legal modules encoding capital while externalizing costs \u2014 backed by named work (and cross-ref Ch5).",
+   "Christophers' The Price is Wrong (2024) argues renewables fail private-investment profit thresholds absent state subsidy because investment follows profit not price \u2014 backed by named 2024 work.",
+   "Susskind's Growth: A Reckoning (2024) argues growth should be redirected toward human-flourishing measures rather than abandoned \u2014 backed by named 2024 work.",
+   "The EU CBAM is in transitional operation since 2023 with a definitive phase in 2026 and demonstrates border-adjustment feasibility \u2014 backed by the named instrument (dates flagged for verification).",
+   "Reclamation bonds exist under SMCRA (1977); EIAs exist under NEPA (1970); the Community Reinvestment Act exists \u2014 all backed by named statutes.",
+   "The EU publishes a Critical Raw Materials list and the EU CRMA classifies critical/strategic materials; the USGS publishes annual assessments \u2014 backed by named bodies/instruments (counts/dates flagged for verification).",
+   "The FMLA (1993) provides twelve weeks of unpaid leave and was shaped by business-lobby opposition to paid leave \u2014 statute named (figure flagged correct-but-cite).",
+   "Frameworks/vocabularies (Harvey's accumulation by dispossession, Raworth's Doughnut Economics, Desmond's Evicted, Ostrom's design principles) changed political discourse and policy conceivability without passing laws \u2014 backed by the named works (specific adoption/effect claims flagged for verification).",
+   "The Alaska Permanent Fund and Norway's sovereign wealth fund are real rent-capture institutions that have sustained their discipline over decades \u2014 institutions named (specific figures/dividend range flagged for verification).",
+   "The ISA (est. 1994 under UNCLOS) is negotiating a commercial deep-sea-mining code for the Clarion-Clipperton Zone under deadline pressure from the Nauru 2021 2-year-rule trigger \u2014 institutions/dates named.",
+   "The framework's per-ton McDowell coal honest-cost figure and the $10\u201315T/yr aggregate severed cost derive from Chapter 8 / the Appendix \u2014 backed by internal derivation pointer (NB: deep-pass \u00a78 flags HIGH figure-drift: the chapter's opening 'five hundred to six hundred dollars' and the line-116 '$550' overshoot the ratified $510 total and must be corrected)."
+  ],
+  "needs_research": [
+   "Aggregate '$10\u201315 trillion per year of severed costs' (line 110) \u2014 asserted bare in Ch9; needs an explicit public source or an in-text derivation pointer to Ch8/Appendix.",
+   "Mian & Sufi specific welfare figure: 'benefiting the bottom forty percent... by a factor of three to four relative to top-quintile households' (line 122) \u2014 presented as quantified-and-defensible but needs a page-cite to House of Debt (2014).",
+   "2008-crisis macro figures: '~$11 trillion in U.S. household wealth destroyed', '~10 million foreclosures over five years', '~$700 billion TARP direct authorization' (line 122) \u2014 standard but uncited; need Fed / FCIC / Treasury sources.",
+   "Sweden 1931\u20131938 historical claims: 1931 gold-standard exit reducing real debt burdens, mortgage-modification write-downs, public-works employment programs, the 1938 Saltsj\u00f6baden Agreement durability through WWII/1973/1992/present, and the 1992 Swedish banking-crisis equity-capture/recovery-with-countercyclical-fiscal claims (line 126) \u2014 multiple historical assertions, all uncited.",
+   "Baotou: 'seven square miles of radioactive slurry' tailings pond bordering villages (line 92) \u2014 uncited; needs a public source.",
+   "Niger Delta: 'fifty years of spillage have rendered thousands of square kilometers of mangrove and farmland uninhabitable' (line 92) \u2014 uncited; UNEP Ogoniland (2011) is the usual anchor.",
+   "DRC cobalt: 'an estimated forty thousand children have worked in artisanal mines' and 'overwhelmingly extracted from the DRC until very recently' (line 92) \u2014 uncited; Amnesty International (2016) is the usual anchor; verify temporal hedge.",
+   "Alaska Permanent Fund specifics: 25% of mineral royalty captured since 1976, ~$80 billion corpus, dividend to every resident since 1982 'most recently in the $1,300\u2013$1,700 range' (line 118) \u2014 institution real but the figures (esp. the year-anchored recent dividend range, which has varied widely) need a sourced, dated citation.",
+   "Tax Foundation 2024 specifics: tax wedge ~30% US / ~42% Sweden; tax-to-GDP ~26% US / ~41% Sweden (line 198) \u2014 the entire 'eleven-cent difference' rests on these; cite the specific 2024 Tax Foundation table and confirm the figures.",
+   "Universal-coverage / outcomes comparison across Sweden, Denmark, Norway, Germany, UK, Canada, Australia and the '~28 million uninsured' US figure (line 200) \u2014 need OECD Health Statistics + Commonwealth Fund Mirror Mirror specific editions/figures; the 28M uninsured figure needs a dated source.",
+   "Berliner & Kenworthy 2017: 'over 250,000 medical-crowdfunding campaigns annually', '25\u201340% of stated need' (line 202) \u2014 full journal cite needed; verify figures.",
+   "Ly & Soman 2020 and Kenworthy & Igra 2024 (line 202) \u2014 full cites needed; verify they confirm scale + differential success rates.",
+   "Mondragon: '95+ worker-owned cooperatives', '~80,000 employees', 'pay ratio 3\u20139x averaging ~5', '2013 Fagor bankruptcy', founded 1956, 'tens of billions of euros revenue' (line 224) \u2014 multiple figures uncited; need source.",
+   "Vienna social housing: '60% of population in municipal/cooperative housing', '200,000+ Gemeindebau apartments', 'initiated 1919 by Red Vienna', funded via Wohnbausteuer + Luxury Tax then since 1949 a 1% federal payroll Wohnbauf\u00f6rderungsbeitrag (line 226) \u2014 multiple figures/statutory facts uncited.",
+   "EPB Chattanooga: 2010 fiber launch, gigabit/25 Gbps service, profitability, Comcast lawsuit, Tennessee state-legislature footprint-restriction laws (line 222) \u2014 uncited; needs source.",
+   "EU CRMA exact counts/dates: '34 critical / 17 strategic', 'politically agreed late 2023', 'in force May 2024' (line 232) \u2014 verify the count and entry-into-force date against the official regulation.",
+   "MP Materials / Mountain Pass dates: '2017 acquisition out of bankruptcy', '2018 restart', '2002 environmental closure', '2015 Molycorp bankruptcy' (line 232) \u2014 verify each date.",
+   "Japan-Lynas response to the 2010 Senkaku rare-earth export-restriction crisis; South Korea building equivalent reserves after the 2019 Japan-Korea trade dispute (line 232) \u2014 uncited historical claims; verify.",
+   "Tullock 1967 exact title/journal: 'The Welfare Costs of Tariffs, Monopolies, and Theft' (line 138) \u2014 commonly cited; confirm exact title and journal (Western Economic Journal).",
+   "FMLA 1993 'twelve weeks of unpaid leave' and the claim that 'business lobbies actively opposed paid leave and successfully pushed' the architecture (line 140) \u2014 figure correct but cite; the lobbying-causation characterization needs a source.",
+   "Carbon pricing: 'more than seventy jurisdictions as of 2025, covering roughly a quarter of global emissions' (lines 102, 216) \u2014 cite World Bank State and Trends of Carbon Pricing (year-anchored).",
+   "ISA / CCZ specifics: CCZ '~4.5 million square kilometers', 'largest known accessible deposits of polymetallic nodules', exploration contracts since 2001, Nauru 2021 trigger (line 234) \u2014 institutions real but the specific area/superlative/date claims need sources.",
+   "Raworth Doughnut Economics adoption claims: adopted by Amsterdam, several regional governments, parts of EU climate architecture, development agencies (line 266) \u2014 needs sources for the adoption specifics.",
+   "Desmond Evicted policy-effect claim that it made rent support / eviction moratoriums / right-to-counsel 'politically conceivable in ways they were not a decade earlier' (line 268) \u2014 causal claim, needs support or softening.",
+   "China 'quietly building rare earth reserves for two decades' and US historically holding strategic stockpiles of helium, tungsten, cobalt, etc. (line 54) \u2014 uncited; verify.",
+   "Helium history: 'the United States government literally gave it away' then later priced it seriously (line 82) \u2014 references the Federal Helium Program / sell-off history; needs a source.",
+   "Cobalt 'looked abundant twenty years ago... since reclassified by most industrial nations as strategically critical' (line 82) \u2014 needs a source for the reclassification claim."
+  ]
+ },
+ {
+  "unit": "Ch10",
+  "existing_citations": [
+   {
+    "source": "United States v. Sioux Nation of Indians, 448 U.S. 371 (1980)",
+    "what_it_supports": "The 1980 Supreme Court ruling that the 1877 taking of the Black Hills was unconstitutional, and the compensation award (~$17.5M for the land's 1877 value + 5% interest accruing since 1877, ~$106M by 1980).",
+    "quote_or_locator": "Chapter \u00a7100-102: 'In 1980 the Supreme Court ruled, in United States v. Sioux Nation of Indians, that the 1877 taking was unconstitutional. The Court awarded compensation: approximately seventeen and a half million dollars for the land's 1877 value, plus interest accumulated since 1877 at five percent. By 1980 the award amounted to roughly a hundred and six million dollars.' Locator: 448 U.S. 371 (1980)."
+   },
+   {
+    "source": "Treaty of Fort Laramie (1868)",
+    "what_it_supports": "The Lakota Sioux were guaranteed the Black Hills (\u021ee S\u00e1pa) within the Great Sioux Reservation by the 1868 treaty.",
+    "quote_or_locator": "Chapter \u00a7100: 'The Lakota Sioux were guaranteed the Black Hills, \u021ee S\u00e1pa, by the Treaty of Fort Laramie in 1868. The treaty named the Great Sioux Reservation. The Black Hills were inside it.'"
+   },
+   {
+    "source": "Act of Congress, February 1877 (the Act severing the Black Hills from the Great Sioux Reservation)",
+    "what_it_supports": "The 1877 statutory taking of the Black Hills from the reservation, three years after the Custer expedition found gold (1874).",
+    "quote_or_locator": "Chapter \u00a7100: 'Six years later, the Custer expedition entered the Hills and found gold. Three years after that, in February 1877, an Act of Congress stripped the Hills from the reservation.'"
+   },
+   {
+    "source": "Albert Camus, Le Mythe de Sisyphe (1942)",
+    "what_it_supports": "The closing Sisyphus figure \u2014 'one must imagine Sisyphus happy' \u2014 used as the chapter's compass metaphor.",
+    "quote_or_locator": "Chapter \u00a7162: 'Camus closed Le Mythe de Sisyphe in 1942 with a sentence... Il faut imaginer Sisyphe heureux. One must imagine Sisyphus happy.' Quoted closing line of the 1942 essay."
+   },
+   {
+    "source": "Nordhaus, Stern, and Weitzman (discount-rate / climate-economics literature; per deep-pass \u00a79 the Weitzman declining-rate attribution should be pinned to a specific paper, e.g. Weitzman 1998/2001 gamma-discounting)",
+    "what_it_supports": "The unresolved discount-rate debate: Nordhaus and Stern have not converged across decades; Weitzman proposed a declining-rate approach for long horizons.",
+    "quote_or_locator": "Chapter \u00a776: 'The economists who have worked the question hardest, William Nordhaus on one side and Nicholas Stern on the other, have not converged across decades of careful work. Martin Weitzman, who proposed a declining-rate approach for the longest horizons, named a useful direction...' (Specific Weitzman paper citation still to be pinned per deep-pass \u00a79.4.)"
+   },
+   {
+    "source": "Indigenous-scholarship reading list named in-text: Robin Wall Kimmerer (Citizen Potawatomi); Leanne Betasamosake Simpson (Michi Saagiig Nishnaabeg); Glen Coulthard (Yellowknives Dene); Roxanne Dunbar-Ortiz; Vine Deloria Jr. (Standing Rock Sioux)",
+    "what_it_supports": "The recommended-reading list for the tradition the framework cannot reach (indigenous dispossession as a different kind of harm requiring a different vocabulary).",
+    "quote_or_locator": "Chapter \u00a7108: 'should read Robin Wall Kimmerer (Citizen Potawatomi); Leanne Betasamosake Simpson (Michi Saagiig Nishnaabeg); Glen Coulthard (Yellowknives Dene); Roxanne Dunbar-Ortiz; and Vine Deloria Jr. (Standing Rock Sioux).' Deep-pass \u00a79.5 flags nation affiliations as reputationally load-bearing and to be verified + entered in the bibliography."
+   },
+   {
+    "source": "AuthorsNote (_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md, line 11) + project memory (2 patents identified 2026-05-04: Liquid Waste Feed System 1972 + fiberglass-laminate lathe/tool-bit), naming L. E. (LaVern E.) Winn",
+    "what_it_supports": "The grandfather as a NASA Langley wind-tunnel model maker with a patent record extending the discipline beyond the tunnel.",
+    "quote_or_locator": "Chapter \u00a766: 'My grandfather worked at NASA Langley... He was a model maker in the wind tunnels... His patented work extended the same discipline beyond the tunnel.' Internally anchored to the AuthorsNote; deep-pass \u00a79.3 confirms consistency and notes patent numbers belong in the citation apparatus once. The public patent records (USPTO) are the verifiable external source."
+   },
+   {
+    "source": "Norway / Government Pension Fund Global (GPFG) \u2014 citation already used elsewhere in the book; cross-reference Ch 9 / TA \u00a711.5 Norway petroleum calibration",
+    "what_it_supports": "That maintaining a sovereign wealth fund's discipline through successive governments is achievable.",
+    "quote_or_locator": "Chapter \u00a788: 'Capturing extraction rents in a sovereign fund costs the discipline to maintain the fund through every government that inherits it, which Norway has demonstrated is achievable.' Deep-pass \u00a79.6: no new source needed if cross-referenced to the canonical GPFG treatment; ensure figure/claim identical to Ch 9 / TA \u00a711.5."
+   }
+  ],
+  "supported_claims": [
+   "The 1980 Supreme Court ruled the 1877 taking of the Black Hills unconstitutional and awarded ~$17.5M (1877 land value) + 5% interest = ~$106M by 1980 \u2014 backed by United States v. Sioux Nation of Indians, 448 U.S. 371 (1980).",
+   "The Lakota were guaranteed the Black Hills within the Great Sioux Reservation by the 1868 Treaty of Fort Laramie \u2014 backed by the treaty as public-record document.",
+   "An Act of Congress in February 1877 stripped the Black Hills from the reservation, following the 1874 Custer expedition's gold discovery \u2014 backed by the 1877 Act + historical record.",
+   "The discount rate remains unsettled: Nordhaus and Stern have not converged over decades, and Weitzman proposed a declining-rate approach \u2014 backed by the named climate-economics literature (Weitzman paper still to be pinned).",
+   "Camus closed Le Mythe de Sisyphe (1942) with 'Il faut imaginer Sisyphe heureux' \u2014 backed by the primary text.",
+   "The grandfather was a NASA Langley wind-tunnel model maker with a patent record \u2014 internally anchored to the AuthorsNote and the public USPTO patent records (2 patents identified).",
+   "Norway has demonstrated that maintaining a sovereign wealth fund through successive governments is achievable \u2014 backed by the book's canonical GPFG citation (cross-referenced, not newly sourced)."
+  ],
+  "needs_research": [
+   "Black Hills escrow current total: 'the trust account is now more than one and a half billion dollars' and 'refused for more than four decades and counting' (\u00a7102). This is the highest staleness-risk number \u2014 it compounds with interest and has been reported variously in the ~$1.3B-$2B+ range across different years. Needs a dated public source (Treasury/BIA trust-account reporting or recent dated journalism) with the year pinned. Per deep-pass \u00a78 and \u00a79.1.",
+   "Weitzman declining-discount-rate attribution (\u00a776): the in-text claim that Weitzman 'proposed a declining-rate approach for the longest horizons' needs to be cited to a specific paper (e.g., Weitzman 1998/2001 gamma-discounting) in the apparatus rather than left as a bare name. Per deep-pass \u00a79.4.",
+   "Indigenous-scholarship nation affiliations (\u00a7108): the parenthetical nation attributions (Citizen Potawatomi; Michi Saagiig Nishnaabeg; Yellowknives Dene; Standing Rock Sioux) are reputationally load-bearing and must be verified for accuracy and the works entered in the bibliography before submission. Per deep-pass \u00a79.5.",
+   "Grandfather's patent numbers (\u00a766): the claim 'his patents read' presumes a verifiable record; the specific USPTO patent numbers must appear in the citation apparatus at least once (the coda need not carry them, but the underlying patent record must be cited). Per deep-pass \u00a79.3.",
+   "Nordhaus/Stern non-convergence (\u00a776): while the named economists are standard, the specific claim that they 'have not converged across decades' should be anchored to representative citations (e.g., Nordhaus DICE / Stern Review) in the apparatus for a non-fiction submission. Per deep-pass \u00a79.4 (standard, ensure cited).",
+   "McDowell County coal moved 'primarily through distance and information'; the 2008 housing crisis 'primarily through information'; the pyramids 'through power'; modern industrial subsidy 'cost of doing business' through routine; the atmosphere absorbed 'two centuries of combusted carbon under the cover of abundance' (\u00a758). These worked-example attributions are recalls of earlier-chapter cases; verify each is sourced in its home chapter (Chs 1-9 + TA) so the coda's recall does not assert anything unsupported upstream \u2014 not independently sourced within Ch 10.",
+   "Norway SWF claim (\u00a788): although cross-referenced rather than newly sourced, confirm the canonical GPFG citation actually backs the specific 'achievable through every government' claim and that no independent/unsupported figure is introduced. Per deep-pass \u00a79.6 / FLAG-4."
+  ]
+ },
+ {
+  "unit": "TA",
+  "existing_citations": [
+   {
+    "source": "Hotelling, Harold. \"The Economics of Exhaustible Resources.\" Journal of Political Economy 39, no. 2 (1931): 137\u2013175.",
+    "what_it_supports": "The Hotelling Identity / scarcity-rent lineage the framework EXTENDS: RCV \u2212 Hotelling rent = CS; resource prices rise at rate of interest as stock depletes (\u00a74, \u00a714.1, \u00a715.1.4)",
+    "quote_or_locator": "\u00a714.1: 'The Hotelling price path is P(t) = P(0)\u00b7e^{r\u00b7t}. The RCV augments this with the foreclosure cost \u222b[1\u2212S(t)]U(R,t,Q(t))D(t)dt'"
+   },
+   {
+    "source": "Hartwick, John M. \"Intergenerational Equity and the Investing of Rents from Exhaustible Resources.\" American Economic Review 67, no. 5 (1977): 972\u2013974.",
+    "what_it_supports": "Hartwick's Rule generalized by RCV: Hartwick makes CS = 0 under S_max = 1; RCV generalizes to S_max \u2264 1 (\u00a714.2, \u00a714.6)",
+    "quote_or_locator": "\u00a714.2: 'Hartwick's Rule is the investment policy that makes CS = 0 under the assumption S_max = 1. RCV generalizes Hartwick to S_max \u2264 1'"
+   },
+   {
+    "source": "Weitzman, Martin L. \"Gamma Discounting.\" American Economic Review 91, no. 1 (2001): 260\u2013271.",
+    "what_it_supports": "Declining-discount-rate result the framework ADOPTS as its conservative-by-construction anchor (META-CLAIM 3); biases RCV down (\u00a71.5, \u00a73.1, \u00a714.3, \u00a716.1)",
+    "quote_or_locator": "\u00a714.3: 'The RCV model adopts Weitzman declining discount rates directly... it biases RCV estimates downward relative to fixed high discount rates, making the results conservative'"
+   },
+   {
+    "source": "Rawls, John. A Theory of Justice (1971).",
+    "what_it_supports": "Veil of ignorance + Just Savings Principle OPERATIONALIZED: RCV as the Rawlsian veil applied to resource extraction (\u00a714.4, \u00a715.1.6)",
+    "quote_or_locator": "\u00a714.4 attributes to Rawls: 'there are no grounds for discounting future well-being on the basis of pure time preference' \u2014 NOTE: quoted without page cite (see needs_research)"
+   },
+   {
+    "source": "Ostrom, Elinor. Governing the Commons: The Evolution of Institutions for Collective Action. Cambridge: Cambridge University Press, 1990.",
+    "what_it_supports": "Eight design principles for renewable-commons coordination; positioned as PARALLEL/EXTEND \u2014 necessary-but-insufficient complement for the non-renewable extraction case; also anchors the heterogeneous-stakeholder scope boundary (\u00a76.6, \u00a714.5, \u00a715.1.8, l.604)",
+    "quote_or_locator": "\u00a714.5: 'Ostrom's governance framework is a necessary but insufficient complement to the RCV model'; l.604 Ostrom's eight design principles 'presume substantially-aligned stakeholders'"
+   },
+   {
+    "source": "Coase, Ronald H. \"The Problem of Social Cost.\" Journal of Law and Economics 3 (1960): 1\u201344.",
+    "what_it_supports": "Coase-extension theorem premise P1 (CS > 0): future generations cannot participate in voluntary trades / market incompleteness (\u00a710.1b P1)",
+    "quote_or_locator": "\u00a710.1b P1: 'intergenerational extraction affects parties who cannot participate' (cannot bid)"
+   },
+   {
+    "source": "Pigou, Arthur Cecil. The Economics of Welfare. London: Macmillan, 1920.",
+    "what_it_supports": "Pigou-extension premise P2 (CS > 0): externality pricing covers only the externality tail, B < RCV (\u00a710.1b P2, \u00a715.1.4)",
+    "quote_or_locator": "\u00a710.1b P2 + \u00a715.1.4: Pigou prices only the externality tail, not the rent-side commons foreclosure"
+   },
+   {
+    "source": "Darity, William A., Jr., and A. Kirsten Mullen. From Here to Equality. Chapel Hill: UNC Press, 2020.",
+    "what_it_supports": "Stratification-economics / reparations-economics methodology anchoring backward Restitution (B\u2081) + Method-2 revealed-restitution backward direction (\u00a75.1.1, l.604, l.1385)",
+    "quote_or_locator": "l.1385: 'revealed restitution backward (Darity & Mullen 2020 reparations-economics methodology...)'"
+   },
+   {
+    "source": "Parfit, Derek. Reasons and Persons. Oxford: Oxford University Press, 1984.",
+    "what_it_supports": "Future-obligation / non-identity problem OPERATIONALIZED: impersonal-outcomes vs person-affecting mapping onto B\u2082/B\u2081 (\u00a75.4)",
+    "quote_or_locator": "\u00a75.4 Parfit impersonal-outcomes vs person-affecting mapping"
+   },
+   {
+    "source": "Harvey, David. The New Imperialism. Oxford: Oxford University Press, 2003.",
+    "what_it_supports": "Accumulation-by-dispossession as the broader mechanism; RCV positioned as MEASUREMENT-TOOL (Harvey diagnoses mechanism, RCV measures magnitude) (\u00a714.7)",
+    "quote_or_locator": "\u00a714.7: 'Harvey diagnoses the mechanism; RCV measures its magnitude... you absorbed at least $518 of cost for every $4.50 you were paid' \u2014 NOTE: the $518 figure carries the drifted carbon term (see needs_research)"
+   },
+   {
+    "source": "Daly, Herman (cited as 'Daly 1990s' inline; no dedicated bibliography entry).",
+    "what_it_supports": "Strong-sustainability criterion OPERATIONALIZED mathematically; RCV quantifies cost where S_max < 1 (\u00a714.6)",
+    "quote_or_locator": "\u00a714.6: 'The RCV model operationalizes Daly's strong sustainability criterion mathematically'"
+   },
+   {
+    "source": "US EPA Social Cost of Carbon central estimate $190/ton CO\u2082 at 2% discount rate; Rennert et al. 2022.",
+    "what_it_supports": "The SCC value used throughout for the carbon damage term and \u00a716.4 sensitivity baseline (\u00a73.3, \u00a711.1, \u00a716.4)",
+    "quote_or_locator": "l.820 + l.5740: 'current US EPA central estimate: $190/ton CO\u2082 at 2% discount rate; Rennert et al. 2022' \u2014 NOTE: Rennert et al. 2022 is NOT in the \u00a718 bibliography (incomplete)"
+   },
+   {
+    "source": "EPA AP-42 \u00a71.1 Bituminous and Subbituminous Coal Combustion (93.28 kg CO\u2082/mmBtu); USGS Professional Paper 1625-C; WV Geological Survey trace-elements database.",
+    "what_it_supports": "The CO\u2082 emission factors: 2.61 mt CO\u2082/short ton (McDowell Pocahontas-seam basis) and 2.32 mt CO\u2082/short ton (national-bituminous-average basis) (\u00a77.4, \u00a711.1, \u00a711.6)",
+    "quote_or_locator": "l.4520: 'EPA AP-42 \u00a71.1... \u00d7 McDowell-specific production-weighted heat content (~28 mmBtu/short ton, Pocahontas Nos. 3 + 4 + Eagle seams per USGS Professional Paper 1625-C + WV Geological Survey...) \u2248 2.61 mt CO\u2082/short ton'"
+   },
+   {
+    "source": "Norges Bank Investment Management (NBIM) Annual Report 2025; Norway Ministry of Finance; Statistics Norway 2025; Norwegian Petroleum Directorate / Norwegian Offshore Directorate / Norwegianpetroleum.no.",
+    "what_it_supports": "\u00a711.5 Norway GPFG calibration table: GPFG ~$2.0T end-2025 (21,268 bn NOK), ~$356K\u2013391K per citizen, ~70\u201380% state capture rate, ~3% fiscal-rule withdrawal, 50B BOE cumulative production (\u00a711.5, l.4040\u20134079)",
+    "quote_or_locator": "l.4050\u20134053: '~$2.0 trillion (21,268 billion NOK per NBIM end-2025 figures...)' source 'Norges Bank Investment Management (NBIM) Annual Report 2025; Ministry of Finance' \u2014 NOTE: NBIM/Norges Bank/Stat. Norway/NPD NOT in \u00a718 bibliography"
+   },
+   {
+    "source": "Balboa, Cristina M. \"Accountability of Environmental Impact Bonds.\" 2016.",
+    "what_it_supports": "Environmental Impact Bonds as a regulatory-precedent lineage for the Foreclosure Bond (B\u2082) apparatus (\u00a75, l.1270)",
+    "quote_or_locator": "l.1270: 'Environmental Impact Bonds (Balboa 2016)' \u2014 NOTE: bibliography entry incomplete (no venue/publisher; see needs_research)"
+   },
+   {
+    "source": "SMCRA 1977 (Surface Mining Control and Reclamation Act); CERCLA / RCRA financial-assurance requirements; BLM 43 CFR Part 3162; BSEE 30 CFR Part 250 + 254; ~36 state plugging/abandonment bond regimes.",
+    "what_it_supports": "Regulatory-precedent lineage for the bond apparatus (B\u2081 reclamation bonds, B\u2082 decommissioning bonds) \u2014 framework as configuration of existing US regulatory practice (\u00a75, l.1270, l.7239)",
+    "quote_or_locator": "l.1270: 'reclamation bonds (SMCRA 1977 surface mining)... decommissioning bonds for oil and gas (BLM 43 CFR Part 3162; BSEE 30 CFR Part 250 + 254; ~36 state plugging/abandonment bond regimes); CERCLA / RCRA financial-assurance requirements'"
+   },
+   {
+    "source": "Atkinson 1970 (J. Econ. Theory) + Cobb & Douglas 1928 (American Economic Review).",
+    "what_it_supports": "Logarithmic-form welfare-economics lineage justifying the framework's log-in-stock-depletion scarcity-amplification discipline (\u00a71, l.911)",
+    "quote_or_locator": "l.911: 'Atkinson 1970... + Cobb & Douglas 1928... establish the logarithmic form as standard in welfare-economics utility-aggregation'"
+   },
+   {
+    "source": "Arrow & Fisher 1974 (QJE) + Henry 1974 (AER) + Dixit & Pindyck 1994 (Investment under Uncertainty).",
+    "what_it_supports": "Irreversibility-effect / real-options lineage underpinning the Asymmetric Regret Rule (\u00a78) and \u03b1-dominance estimation (\u00a73.5, \u00a711.8)",
+    "quote_or_locator": "Bibliography entries; real-options structural-overlap defense at \u00a79.1"
+   },
+   {
+    "source": "Nordhaus (DICE, 5.5% discount rate) vs Stern Review 2007 (1.4%).",
+    "what_it_supports": "The discount-rate debate the framework engages: CS > 0 holds across the full plausible range; only magnitude varies (\u00a714.3, \u00a716.4)",
+    "quote_or_locator": "\u00a714.3: 'Nordhaus used a 5.5% discount rate... Stern (2006) used 1.4%' \u2014 NOTE: bibliography carries only Nordhaus & Boyer 2000 and Stern 2007; the cited 'Nordhaus (2007)' / 'Stern (2006)' years mismatch the bib entries"
+   },
+   {
+    "source": "Federici, Silvia. Caliban and the Witch (2004).",
+    "what_it_supports": "Primitive-accumulation-through-body/care lineage in framework positioning (\u00a715.2.1) \u2014 light but present",
+    "quote_or_locator": "\u00a715.2.1 primitive-accumulation lineage cluster"
+   },
+   {
+    "source": "Darity, William A., Jr. Interview by Christopher Winn. May 13, 2026. Recording on file with author.",
+    "what_it_supports": "Used to certify (a) that direct pricing of coercion-as-cost-dimension is methodologically unresolved in reparations-economics, and (b) that Darity did not view the framework's calculations as underestimating (l.598, 604, 1348, 1425)",
+    "quote_or_locator": "Bibliography: 'Darity... Interview by Christopher Winn. May 13, 2026. Recording on file with author.' \u2014 NOTE: private interview doing field-consensus + framework-adequacy work; flagged as citation-integrity exposure (see needs_research)"
+   }
+  ],
+  "supported_claims": [
+   "CS = RCV \u2212 B > 0 follows structurally from the Coase-extension (P1: future generations cannot bid \u2014 Coase 1960), the Pigou-extension (P2: B prices only the externality tail, B < RCV \u2014 Pigou 1920), and empirical inadequacy (P3) \u2014 Theorem \u00a710.1a/\u00a710.1b.",
+   "RCV \u2212 Hotelling rent = CS: the framework extends Hotelling 1931's scarcity-rent model to price the intergenerational foreclosure cost Hotelling's private-owner optimization structurally excludes (\u00a74, \u00a714.1).",
+   "Hartwick's Rule (Hartwick 1977) makes CS = 0 only under the strong-substitutability assumption S_max = 1; RCV generalizes to S_max \u2264 1, so no investment policy fully compensates for foreclosure when S_max < 1 (\u00a714.2, \u00a714.6).",
+   "The framework adopts Weitzman 2001 declining discount rates, biasing RCV estimates downward (conservative-by-construction / META-CLAIM 3) (\u00a714.3).",
+   "Ostrom 1990's eight design principles govern renewable-commons coordination but are necessary-but-insufficient for the non-renewable extraction case and presume substantially-aligned stakeholders (heterogeneous-stakeholder scope boundary) (\u00a76.6, \u00a714.5, l.604).",
+   "The carbon damage term uses the US EPA Social Cost of Carbon central estimate of $190/ton CO\u2082 at 2% discount rate (Rennert et al. 2022) (\u00a73.3, \u00a711.1, \u00a716.4).",
+   "The McDowell CO\u2082 emission factor of 2.61 mt CO\u2082/short ton (Pocahontas-seam basis) and 2.32 mt CO\u2082/short ton (national-bituminous-average basis) both derive from EPA AP-42 \u00a71.1, with McDowell heat content from USGS Professional Paper 1625-C + WV Geological Survey (\u00a77.4, \u00a711.6).",
+   "Norway's GPFG (~$2.0T end-2025, 21,268 bn NOK; ~70\u201380% state capture rate; ~5.62M population) operationalizes Hartwick's Rule and is the canonical existing B\u2082 exemplar \u2014 sourced to NBIM Annual Report 2025, Statistics Norway 2025, Norwegian Petroleum Directorate (\u00a711.5).",
+   "The bond apparatus (B\u2081 Restitution / B\u2082 Foreclosure) is a principled extension of existing US regulatory practice \u2014 SMCRA 1977, CERCLA/RCRA financial assurance, BLM 43 CFR Part 3162, BSEE 30 CFR Part 250+254, ~36 state plugging/abandonment regimes, Environmental Impact Bonds (Balboa 2016) (\u00a75).",
+   "The framework is the Rawlsian veil (Rawls 1971) applied to resource extraction, implemented via the stock-dependent utility term U(R,t,Q(t)) (\u00a714.4).",
+   "Harvey 2003's accumulation-by-dispossession names the mechanism; RCV measures its magnitude (Harvey diagnoses, RCV quantifies) (\u00a714.7).",
+   "The logarithmic scarcity-amplification form follows welfare-economics precedent (Atkinson 1970 + Cobb & Douglas 1928) (\u00a71).",
+   "CS > 0 holds across the entire plausible discount-rate range from Nordhaus (5.5%) to Stern (1.4%); only the magnitude (IPG) varies \u2014 confirmed by the \u00a716.4 sensitivity table (\u00a714.3, \u00a716.4)."
+  ],
+  "needs_research": [
+   "FIGURE-DRIFT (highest priority): The McDowell carbon term is stated as ~$510/ton but the shown derivation 2.61 mt CO\u2082/short ton \u00d7 $190 = $495.90 \u2248 $496, not $510. The 'Total with carbon: $518\u2013532/ton' (\u00a711.1 l.3882) and the 'at least $518 of cost for every $4.50' (\u00a714.7 l.6620) cascade from this error. Canonical set per deep-pass memo: carbon term $496, honest total $510, Pigouvian floor $504\u2013518. The flagship empirical case's headline arithmetic must be re-cascaded and reconciled with Ch 6 + Ch 8 before submission (deep-pass \u00a78).",
+   "'(Darity 2026)' private interview (l.598, 604, 1348, 1425) is doing load-bearing work on two contested points \u2014 (a) that direct pricing of coercion-as-cost is 'methodologically unresolved in the reparations-economics field' and (b) that Darity 'did not view the framework's calculations as underestimating.' A reviewer cannot verify an unpublished interview; (b) reads as soliciting a named living scholar's endorsement. Needs either a published Darity source or reframing as personal communication, plus consent/accuracy confirmation per named-subject discipline.",
+   "META-CLAIM 1 anchor (Polanyi + Fraser) has ZERO textual presence (grep: Polanyi 0, Fraser 0, 'fictitious commodit' 0, expropriation 0). The claim that a reef, the atmosphere, a community, labor, and a future generation are the SAME object is asserted by enumeration but never theorized. When filled, needs real citations: Polanyi, The Great Transformation (1944, fictitious commodities + double-movement); Fraser ('Behind Marx's Hidden Abode,' New Left Review 2014, or Cannibal Capitalism 2022). Neither is currently in the bibliography (deep-pass \u00a75, \u00a76, \u00a79.2).",
+   "Pistor, The Code of Capital (2019) \u2014 needed for the financialization objection rebuttal ('your own Foreclosure Bond extends commodification') and the framework-location cell. Currently absent; the rebuttal raw material ('capital-constraint not capital-deployment,' \u00a715.2.2 l.7146) exists but is not deployed against the named objection and Pistor is uncited (deep-pass \u00a76, \u00a77, \u00a79.3).",
+   "\u00a79.5 convergence-table three-model IPG ranges for Deepwater Horizon (15\u201317\u00d7 / 12\u201321\u00d7 / 16\u201319\u00d7), Libby (55\u201382\u00d7 / 48\u201376\u00d7 / 61\u201391\u00d7), Baotou (12\u201335\u00d7 / 18\u201348\u00d7 / 22\u201341\u00d7) \u2014 these three cases have case prefaces only (\u00a711.2\u201311.4), NOT executed Three-Ways calibrations (only McDowell + Norway are executed). The three-model numbers lack a shown derivation; either show the calibration or label them preface-level estimates (deep-pass \u00a79.5).",
+   "\u00a714.4 Rawls quote 'there are no grounds for discounting future well-being on the basis of pure time preference' is attributed to Rawls with no page cite; verify exact wording/location in A Theory of Justice (just-savings discussion) before submission (deep-pass \u00a79.6).",
+   "Balboa 2016 'Accountability of Environmental Impact Bonds' \u2014 bibliography gives only author + year + title, no venue/publisher. Incomplete citation (deep-pass \u00a79.7).",
+   "\u00a79.3 'solar at $0.03/kWh' (l.3094) and \u00a716.2 'stranded asset risk' mechanism \u2014 public-domain figures asserted without a source; a reviewer would want a cited LCOE source (deep-pass \u00a79.8).",
+   "Bibliography-completeness gaps: Rennert et al. 2022 (the SCC $190 source), NBIM Annual Report 2025, Norges Bank, Norwegian Petroleum Directorate, and Statistics Norway are cited inline as sources but have NO \u00a718 bibliography entries; Daly (cited 'Daly 1990s') and Brian Barry (named \u00a714.4) have no bibliography entries; the inline 'Nordhaus (2007)' / 'Stern (2006)' year references mismatch the bibliography's 'Nordhaus & Boyer 2000' and 'Stern 2007' entries.",
+   "\u00a711.5 inline statement at l.859 still carries the superseded round-number Norway anchor ('GPFG ~$1.9T... \u00f7 50B BOE'); the \u00a711.5 table (l.4040+) has updated to the sourced $2.0T end-2025 figure. The stale inline figure should be reconciled to the table's NBIM-sourced value before submission (consistency, not a missing source)."
+  ]
+ }
+]
