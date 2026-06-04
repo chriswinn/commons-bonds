@@ -1,0 +1,400 @@
+[
+ {
+  "chapter": "Ch2",
+  "words_before": "~5,434",
+  "words_after": "5,373 (OUTPUT, not a target; near-flat because lens-driven ADDs \u2014 Polanyi/Fraser structural-commons naming + Coase absent-parties forward-link \u2014 roughly offset the memo's cuts, which is the correct behavior under the no-maximum rule)",
+  "removed_non_earning": [
+   "ISSUE A: the ~230-word etymology defense of the word 'severance' against four rejected alternatives (externality/displacement/transfer/appropriation) plus the severance-pay payroll metaphor. Removed entirely \u2014 glossary/TA-\u00a714 register, and the payroll metaphor flirted with the cost-severance-commodifies-labor objection at exactly the wrong moment. The three clean term definitions were kept verbatim.",
+   "ISSUE F: the black-lung deficit double-count. The $44B/$4.6B-debt/$15B-by-2050 ledger paragraph and the immediately following 'Forty-four billion dollars... and it still wasn't enough' elegy paragraph were folded into one \u2014 figures stated once, single emotional close ('Someone is paying the difference. It is not the coal companies.') retained.",
+   "ISSUE C: \u00a7The Numbers 'if you add... if you add...' anaphoric recap of cost categories already itemized in the five preceding subsections. Compressed to one running sentence; kept the only new content (33-to-122x hand-off to Ch8 + the 'externality, technically accurate and practically insufficient' turn).",
+   "ISSUE E: the 'capturing the rents at extraction, routing them to the bearers, holding them across the full life cycle of the externality tail' apparatus clause in the community-collapse paragraph \u2014 premature Ch9 solution-shape. Cut; kept the 'plain-accounting name for this is subsidy' triad.",
+   "ISSUE B: compressed the Mazzucato + Harvey lit-positioning block from ~227w to ~90w; dropped the contestable 'Harvey is the lineage behind Mazzucato' intellectual-history claim; preserved the one load-bearing originality sentence (physical-resource extension).",
+   "ISSUE I: consolidated the 'pride was real' restatements from five touches (lines 24/182/184/190/220) to three (front, agency section, Chesapeake bridge).",
+   "ISSUE G (light trim only, per memo recommendation to HOLD): collapsed the Purdue litigation-chronology granularity (2007 plea + executives' misdemeanors + 2020 three-count plea) into 'documented through Purdue's federal guilty pleas and the broader litigation record'; kept Sackler ~$11B, Big Three $21B/2022, target-map characteristics, and the Keefe cite \u2014 the falsifiability armor against 'numbers-are-invented' stays."
+  ],
+  "relocations_flagged": [
+   "[RELOCATE TO Ch9]: the cost-burdened-renters / rental-housing-as-asset-class / 'company town returned in distributed form' generalization (memo ISSUE D(4)). Per owner-map (Housing/cost-burdened-renters -> Ch9). Ch2 now keeps only the bootstrap-claim setup ('workers can simply leave... assumes a savings cushion and a stretch without income') and hands the contemporary-housing thesis with the JCHS data to its owner chapter rather than re-deriving it."
+  ],
+  "citation_gaps_flagged": [
+   "U.S. Steel Gary mine job count of 1,200",
+   "two-thirds single-year personal income drop after Gary closure (BEA local-area personal income or specific study)",
+   "male life expectancy 63.5 vs national 76.5 (source + year)",
+   "McDowell drug death rate 141/100k; national 2015 ~16/100k",
+   "poverty 37.6%, median household income $28,235, 55th-of-55 health ranking (Census/ACS year)",
+   "20% black lung prevalence at 25+ years tenure (NIOSH)",
+   "resurgent black lung rising among younger miners (NIOSH/epidemiology)",
+   "$44B distributed / $4.6B Trust Fund debt / borrowing since 1979 / $15B by 2050 (GAO)",
+   "633,000 acres / $7.5 to $9.8B cleanup / $3.8B bonds; and 2014-to-2016 three coal-company bankruptcies / $865M transferred",
+   "Purdue four-characteristic targeting profile (point to specific litigation record, not Keefe generally); Sackler ~$11B; Big Three $21B 2022 settlement attributions"
+  ],
+  "figures_used": [
+   "IPG band 33 to 122 times (kept; framed as floor 33x; magnitude calc handed to Ch8, 'lands at the upper end of this range')",
+   "NO bare 555 (correctly absent \u2014 TA-only)",
+   "NO $496 carbon / $510 total / RCV $580-620 in chapter prose (correctly deferred \u2014 combustion tail kept as 'We will return to that'; Ch2 must not state these per canon)",
+   "US Steel Gary closure = 'late 1980s' (canon-compliant phased framing; NO single hard year; the memo flags Ch8's hard '1986' as the drift to fix in Ch8, not Ch2)",
+   "drug death 141/100k vs ~16/100k 2015 national",
+   "reclamation $3.8B bonds / $7.5-9.8B cleanup / $4-6B gap; $865M bankruptcy transfer",
+   "Black Lung $44B / $4.6B debt / $15B by 2050 / since 1979",
+   "median household income $28,235; poverty 37.6%; 55th of 55",
+   "life expectancy 63.5 vs 76.5 (13-year gap)"
+  ],
+  "devices": [
+   "Polanyi/Fraser structural-commons naming ADD (the memo's highest-value, lowest-cost recommendation and the lens's biggest ratified gap): a new paragraph in \u00a7The Second Cycle names Fraser's expropriation-vs-exploitation distinction (value extracted *through* the wage contract vs *around* it) and Polanyi's fictitious-commodity insight, then states the META-CLAIM directly \u2014 'The reef and the atmosphere and the community and the worker's body and the inheritance of the next generation are, for the purposes of this accounting, the same kind of object,' and 'What the diagnostic tradition from Polanyi to Fraser named, this book proposes to price and to set aside in advance.' This is measurement-not-diagnosis stated against its own lineage.",
+   "Coase absent-parties forward-link (memo ADD (b)): the 'voluntary... and, in its own terms, honest' sentence now names the two parties not at the table (the miner's future body; the unborn inheriting generation) and forward-links 'why a market cannot price what the absent parties would have refused' \u2014 seeds the future-can't-bid Coase contradiction without fully closing it here (deferred to Ch5).",
+   "Configurational/extension framing held light: Mazzucato EXTEND (financial-capital rent -> physical-resource extraction) + Harvey PARALLEL kept as a single compressed lineage note; the integrated-config apparatus (CIT, Four Gates, etc.) correctly NOT imported into the human-case chapter.",
+   "Spatial cost severance + intergenerational cost severance retained as the chapter's named concealment-arrangement contribution; Ch7 forward-link kept.",
+   "Purdue second-cycle as the culture-not-structure refutation (engaged forcefully); mechanism-not-motive and agency-with-limits objections engaged."
+  ],
+  "voice_notes": "Provisional voice applied: zero em-dashes and zero en-dashes (verified 0/0 \u2014 required converting two citation-gap range glyphs to 'to' and dropping the original em-dash 'End of Chapter' marker). Globally Inclusive Plain English with memoir/literary latitude preserved: kept the scene-and-rhythm beats (Kennedy drive, Bailey 'almost like drowning', Latusek 'bag over my face', the orange creeks, 'the value dispersed, the costs stayed in the hollows'), natural contractions, no regionalisms or idiom. Terms are built-then-named (cost severance defined from the worked case before the label). The new Polanyi/Fraser paragraph was written in the same plain register \u2014 defines expropriation in-line ('accumulation by means other than the wage bargain') rather than assuming the reader knows Fraser. No clipped essay-economy; sentences allowed to breathe at the landing points.",
+  "where_lens_held": "The lens drove almost every editorial decision without ambiguity. The four-beat spine and cut list mapped cleanly onto concrete prose moves; the canonical-figure ledger resolved every figure question (what to keep, what must stay Ch8/TA-only, the 'late 1980s' phasing); the owner-map gave an unambiguous RELOCATE target for the rental-housing thesis; and the META-CLAIMS told me exactly what the Polanyi/Fraser ADD had to *say* (same-object structural commons + price-what-they-only-named), not just that it belonged here. The objection list told me which objections this chapter owns (mechanism-not-motive, culture-not-structure, paternalism, Coase-seed) versus which to forward-link. For a term-coining human-case chapter this was enough to draft confidently.",
+  "where_lens_strained": "Three places the memo + lens were NOT fully sufficient and would benefit from an author chat. (1) The Polanyi/Fraser ADD: the lens names them as 'the biggest gap' and says price-what-they-named, and the memo green-lights a one-sentence Fraser seed \u2014 but I wrote a full ~150-word paragraph asserting a specific Fraser reading (expropriation = accumulation 'by means other than the wage bargain') and a specific Polanyi reading (fictitious commodity), with NO citation to a specific work or page, and the NO-FABRICATION rule bars me from inventing one. Whether this much weight on Polanyi/Fraser belongs in the human-case chapter (vs. a lighter seed handed to Ch1/Ch5 where the matrix work concentrates) is a genuine editorial-judgment + book-level-positioning call the author should make; I leaned toward the fuller naming because the lens flagged it as the single biggest ratified gap and this is the named right-home, but I flag the size as the author's to ratify. The Fraser/Polanyi claims also need real citations [the paragraph currently rests on uncited characterizations of both thinkers]. (2) The financialization/Pistor objection: the lens says 'answer via Polanyi re-embedding' and the owner-map says the re-embedding answer lives in Ch9 \u2014 so I did NOT stage it in Ch2, but the lens's instruction to name Polanyi *here* sits in slight tension with deferring the re-embedding *answer* to Ch9; whether Ch2's Polanyi naming should gesture forward to that answer is a coordination call across chapters. (3) The combustion-tail / carbon figure boundary: canon is unambiguous that $496/$510/RCV are Ch8/TA-only and Ch2 must only say 'we will return to that,' which I obeyed \u2014 but the 33-to-122x band IS in Ch2 and depends on 'which estimate you use for the value of the harm when the coal is burned,' which is the SCC; whether even that oblique gesture risks pulling the carbon number forward is a fine-grained call I resolved conservatively but the author may want to inspect. Net: lens-driven drafting substantially reduced the need for a per-chapter author chat (the structural, figure, cut, voice, and objection decisions were all resolvable from the materials), but it did NOT eliminate it \u2014 the Polanyi/Fraser ADD's scale + missing citations is exactly the kind of judgment that still needs the author.",
+  "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/test-drafts/Ch2-testdraft_2026-06-04.md"
+ },
+ {
+  "chapter": "Ch4",
+  "words_before": "4,175",
+  "words_after": "4,540 (OUTPUT, not a target; grew despite cuts because named-positioning additions, the Coase/falsifiability/public-choice badges, the F-1 definitional gloss, and the financialization-seam answer earned more room than the bloat that was removed)",
+  "removed_non_earning": [
+   "Alberta Heritage Trust drawdown history + Alaska dividend-vs-capitalization distinction (C-4): compressed to one sentence (1976 funds, both drawn down/paid out within a generation)",
+   "Substitution-application five-item catalog (C-3): cut to two items (medical-grade plastics, aviation jet fuel) plus a gesture",
+   "Triple 'the rules held' restatement (C-5): collapsed to one assertion plus the enforcement-mechanism inventory once",
+   "Statoil-2018 renaming + date-stacking parentheticals (C-6): trimmed; kept GPFG rename only",
+   "Social Security / Bismarck seminar (C-1, ~620w): compressed to a reference paragraph; PAYG mechanics, 1935 coalition history, and the Bismarck 1889 case dropped (Bismarck cut entirely; SS depth flagged to Ch5)",
+   "Nigeria externality catalog (C-2): trimmed; kept Saro-Wiwa 1995 + the UNEP $1B Ogoniland figure, dropped the 25-30yr remediation timeline detail and Commonwealth-suspension sentence",
+   "Third Norway/Nigeria recap in the closing section (C-7): closing sections merged (gaps-forward + one-line 'both engineered' recap)"
+  ],
+  "relocations_flagged": [
+   "[RELOCATE TO Ch9] Full financialization/Pistor objection + the Polanyi-Fraser fictitious-commodity / re-embedding answer + the structural-commons 'same object' claim: named the seam the Nigeria case opens and gave a compact in-place answer (instrument is a routing device, not inherently a severing device; pricing WITH a community-pointed bond is the remedy), but flagged the full Polanyi/Fraser/Pistor naming to Ch9 per owner-map (Housing/financialization/re-embedding -> Ch9)",
+   "[RELOCATE TO Ch5] Substantive Social Security treatment (incl. trust-fund-as-intra-government-debt depth and the canonical foregone-return figure): compressed Ch4 to a reference paragraph; flagged Ch5 as owner per redundancy map; left a confirm-Ch5-ownership note",
+   "[FLAG] Public-Choice objection: badged in-place (NBIM-arms-length + ethics council + quarterly reporting + Storting supermajority = the answer) and pointed to Ch5 + appendix as owners rather than re-deriving"
+  ],
+  "citation_gaps_flagged": [
+   "F-1 definitional: accountability bond B and 'residual commons value' leaned on as established but first formally defined in later chapters (Ch5/Ch6); added an in-prose recall gloss + flagged whether an earlier chapter should carry the first definition",
+   "Fund size 'more than two trillion dollars' + derived ~$360,000/citizen need a dated NBIM/GPFG source / shown arithmetic",
+   "2001 fiscal rule + ~3% real-return cap; note the 4%->3% 2017 revision and verify current figure",
+   "'Generates more income from returns than production generates in extraction revenue' needs citation/year-anchor",
+   "Government-succession claim (Labour-led through center-right coalitions) is checkable; needs source",
+   "Load-bearing B-is-large figure ('large majority of every dollar of net petroleum wealth'; prior text said 70-80 cents) needs Norwegian petroleum-tax-regime citation (~78% special-tax marginal anchor)",
+   "Hartwick rule (Hartwick 1977) and Hotelling scarcity rent (Hotelling 1931) invoked by description; add citations",
+   "Daly / strong-sustainability / critical-natural-capital position needs attribution to published work",
+   "Nigeria 'hundreds of billions over six decades' needs source (NEITI / resource-revenue estimates); resource-curse framing uncited (Sachs-Warner / Ross nod)",
+   "UNEP 2011 Ogoniland report needs full footnote with title; Saro-Wiwa 1995 historical-record note",
+   "F-5 continuity: McDowell scrip/company-town/relocation-constraint specifics stated more precisely than Ch2 may carry; verify match to Ch2",
+   "US Social Security 1935 design + trust-fund-as-intra-government-debt characterization needs grounding (or defer to Ch5 which owns it)"
+  ],
+  "figures_used": [
+   "Norway fund 'more than two trillion dollars'",
+   "~$360,000 per citizen",
+   "~3% fiscal-rule real-return cap (with 4%->3% 2017-revision flag)",
+   "Government Petroleum Fund 1990 -> Government Pension Fund Global rename",
+   "UNEP 2011 Ogoniland restoration-authority initial capitalization ~$1 billion",
+   "Saro-Wiwa hanging 1995",
+   "Ekofisk / Block 2/4, 1969",
+   "Alberta + Alaska sovereign funds 1976",
+   "US Social Security 1935; ~$108 trillion foregone-return figure referenced as Ch5-owned (not stated as a bare number here)"
+  ],
+  "devices": [
+   "Spine-forward three-beat proof: contingency (cost severance is engineered) -> calibration (the framework discriminates Norway from Nigeria) -> humility (even the best case leaves foreclosure/tail/global/option-value unpriced)",
+   "Promoted the orphaned thesis sentence 'policy instrument rather than a moral gesture' to a framed destination after an explicitly-badged falsifiability beat (I-7 fix)",
+   "Named-positioning additions (lens meta-claim #2, configurational novelty / extend Pigou+Ostrom into non-renewable foreclosure): Hartwick (the fund IS the Hartwick rule made flesh), Hotelling (scarcity rent captured not dissipated), Daly (strong sustainability), Parfit (intergenerational obligation as a fiscal rule with a number), Rawls (rules written as if you don't know which generation you'll be born into)",
+   "Coase-contradiction beat at the foreclosure node: the future generation cannot be at the table, so the cost must be priced not negotiated; folded the Simon-Ehrlich substitution-optimism rebuttal into the same beat",
+   "Through-question backward/forward woven via 'full honest accounting' framing of residual commons value (foreclosure + externality tail beyond financial rent)",
+   "Norway-not-transferable objection judo-flip preserved (mechanism preys on weakness by selection)",
+   "Local-optimum / global-distribution self-limit preserved and reframed as 'part of the framework's honesty rather than a hole in it'",
+   "Financialization seam given a compact routing-device-not-severing-device answer in-place, with the full Polanyi/Fraser/Pistor re-embedding answer flagged to Ch9"
+  ],
+  "voice_notes": "Globally Inclusive Plain English + literary/memoir latitude applied: zero em-dashes and zero en-dashes in body prose (the single remaining em-dash is the house structural end-marker '\u2014 End of Chapter 4 \u2014', matching the book convention and not prose). Em-dashes converted to commas/colons/periods/restructured sentences. Natural contractions retained. Kept scene and rhythm (the Ekofisk Christmas opening, 'man, woman, child, pensioner, newborn', 'the fund does not pull that carbon back out of the sky') rather than clipping to essay economy. Jargon built-then-named (Hartwick rule, accountability bond B, scarcity rent all glossed before use). No regional idiom. No new named subjects; Saro-Wiwa retained as deceased public-figure on the historical record per the named-subject discipline.",
+  "where_lens_held": "The lens carried the chapter cleanly on its core jobs. The three meta-claims mapped directly onto the existing spine: measurement-not-diagnosis + conservative-by-construction is exactly what the differentiation proof (small CS for Norway, enormous for Nigeria) demonstrates, and the falsifiability badge made that explicit. Configurational-novelty was the biggest free win the memo predicted: the chapter was already doing Hartwick/Hotelling/Daly/Parfit work uncredited, and naming them cost ~15-40 words each while massively strengthening lit-positioning, with no fabrication (the substance was already in the prose). The canonical-figure ledger and owner-map resolved every redundancy question without an author chat: Social Security depth -> Ch5, financialization/Polanyi/Fraser/Pistor -> Ch9, public-choice -> Ch5+appendix. The no-maximum discipline was decisive: ignoring the memo's '~3,200w landing' target and instead cutting only item-by-item let the chapter grow where naming and badging earned room.",
+  "where_lens_strained": "Three places needed author judgment the memo+lens could not fully settle. (1) F-1, the definitional dependency: the lens told me B and residual commons value are load-bearing, but only the author/Ch5-Ch6 can decide whether to (a) push a first definition earlier into Ch3, (b) accept my in-prose recall gloss as sufficient for a reader-in-order, or (c) restructure. I wrote the gloss as the lowest-risk option and flagged it, but this is a genuine cross-chapter architecture call. (2) The financialization seam (lens meta-claim #1, the structural-commons/fictitious-commodity 'biggest gap'): the lens names Polanyi/Fraser as ratified fill and says name them 'where the chapter is the right home', but the owner-map routes the financialization/re-embedding ANSWER to Ch9. I resolved the tension by giving Ch4 a compact in-place answer (routing-device-not-severing-device) and flagging the full Polanyi/Fraser/Pistor naming to Ch9, but whether Ch4 should actually NAME Polanyi/Fraser here (vs only in Ch9) is a real editorial fork the author should rule on, especially since the lens calls this the biggest gap. (3) Load-bearing figures the lens did not pin: the B-is-large number (prior '70-80 cents on the dollar' vs my softened 'large majority') and the fund-size/per-citizen figures all need real sources before submission; I marked them as citation gaps rather than guess, which is correct under no-fabrication but leaves a verification task no lens can discharge. Net read: lens-driven drafting eliminated the need for a structural/spine author chat (the three-beat proof, the cuts, the relocations, and the named-positioning are all decidable from memo+lens), but a SHORT targeted chat is still warranted on exactly two points: the F-1 definitional placement and the Polanyi/Fraser name-here-vs-Ch9 fork.",
+  "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/test-drafts/Ch4-testdraft_2026-06-04.md"
+ },
+ {
+  "chapter": "Ch5",
+  "words_before": "11,993",
+  "words_after": "8,822",
+  "removed_non_earning": [
+   "The 2008 four-objection inline rebuttal apparatus (I-1, ~1,450w): four serially-nested 'careful reader will object / serious version / framework's response' blocks (borrower-agency, global-not-US, TARP-repaid, Dodd-Frank) collapsed to ONE 'objections survived' paragraph that keeps all four named objections + a one-line rebuttal each; full adversarial depth pointed to the Technical Appendix.",
+   "The Social Security two-objection inline apparatus (I-2, ~1,650w): the public-finance-prudence and timeline-tractability rebuttals each collapsed from a setup + three-part + multi-paragraph response to a single tight paragraph apiece, preserving the killer line 'upstream of the portfolio question and downstream of the timeline question.'",
+   "Three of the four bond-naming etymology essays (I-4/C-3, ~1,500w): the Restitution-vs-Reparations/Restoration/Indemnification/Damages enumeration and the Foreclosure-vs-Future-Generations/Sustainability/Reclamation/Conservation/Intergenerational enumeration plus the forclore gloss removed; kept the load-bearing 'bond does three things' core and one portability sentence for restitution.",
+   "Paragraph-final 'same mechanism / structural finding survives' restatement tic (I-3/C-4, ~700w cumulative): removed the dozen-plus inline reassertions so the 'Pattern Made Visible' synthesis carries it once.",
+   "Section-seam 'three scales' handoff paragraphs (I-8/C-6): the over-built scale-enumeration bridges at the end of 2008, Social Security, and healthcare compressed to single sentences.",
+   "Restitution/Reparations vocabulary triplication (I-5/C-7): merged the 214-asymmetry essay, the 238 typology, and the 216-218 overlap into the single cleanest typology version.",
+   "Libby acquittal four-fold restatement (I-9/C-9): compressed from four versions of the same point to two, keeping the Pistor-seam setup.",
+   "Deepwater jurisdictional mini-essay (I-11/C-10): kept the Mexico $25M / three-orders-of-magnitude datum + one explanatory sentence; cut the Oil Pollution Act / state-tort / class-action inventory.",
+   "Baotou no-villain over-statement (I-10/C-11): compressed to its two sharpest sentences; the full no-villain doctrine now lives once in the synthesis.",
+   "Triple-close cascade (C-12): three near-identical closers collapsed to the strongest single one ('Not whether cost severance exists, but what we do about it.').",
+   "Public Choice / rent-seeking section (I-7/C-5 partial): kept it (it is the book's strongest Public-Choice/capture engagement site) but trimmed the 5-case lobbying inventory to 2 exemplars (Deepwater/MMS, 2008/Gramm-Leach-Bliley) and the 4x complementary-but-asymmetric relationship restatement to 1; kept 'use the vocabulary, not the project.'"
+  ],
+  "relocations_flagged": [
+   "[RELOCATE TO Ch9] the full Swedish-1930s crisis-response inventory (krona devaluation, Riksbank rescue + mortgage modification, public works, Saltsjoebaden, Kindleberger 1973 / Eichengreen 1992) reduced to a one-sentence contingency claim in Ch5 per owner-map (2008-crisis/Sweden context lives in Ch5 but the cross-country scope-choice comparison is Ch9's).",
+   "[RELOCATE/REFERENCE Ch9] the full Pistor-Polanyi re-embedding answer to the financialization objection is previewed in Ch5 and flagged as developed at fuller depth in Ch9; confirm Ch9 owns it so this is preview not duplication.",
+   "[RELOCATE/REFERENCE Ch1/Ch7] the masking-abundance lineage + off-world atmosphere thought experiment flagged as owned in Ch1 (mask-veil) and Ch7 (thought-experiment scaling); Ch5 carries only a forward-pointer.",
+   "[RELOCATE/REFERENCE downstream owner] the full Sandel commodification-limit engagement flagged as owned downstream; Ch5 names the tension at its emotional peak (the Butler caregiving case) and gives a short answer + pointer rather than the full treatment.",
+   "McDowell carbon worked-number correctly NOT imported into Ch5 (owner = Ch8); Ch5 references the McDowell life-expectancy gap and the one-ton-of-coal decomposition as Ch8 deliverables only, per owner-map. No canonical-figure import needed."
+  ],
+  "citation_gaps_flagged": [
+   "Libby mortality 40-80x national average; 400+ dead; ~3,000 lung abnormalities (needs ATSDR/EPA/peer-reviewed).",
+   "Libby ~$4B documented costs + $100M revenue (numerator+denominator of the 40:1 ratio).",
+   "Deepwater ~$150B total economic losses (denominator of the load-bearing 40% recovery ratio); academic/insurer/federal sources unnamed.",
+   "Deepwater Mexico settlement ~$25M, 2018; 'three orders of magnitude smaller' comparative claim.",
+   "Baotou: 60% of world rare earths; ~10 tons wastewater per ton oxide; <1% revenue on remediation.",
+   "Baotou specific peer-reviewed studies (prior draft's named-journals-without-papers reads as citation-theater; the prior $100B+ remediation claim was HIGH-RISK numbers-are-invented and has been softened to a band pending a source).",
+   "Social Security $108T foregone return: HIGHEST-RISK exposure; a counterfactual-model output, not a documented figure; needs explicit equity-return-series disclosure or demotion to a footnoted band before submission.",
+   "GoFundMe figures (25-fold growth; 438,000 / $2B / 21.7M; 12% goal; 16% zero) map to identifiable papers; name them.",
+   "Medical-crowdfunding racial-disparity finding; name the paper.",
+   "Butler figures ($54 office visit / $461 implantation / ~$12K hospital flat fee / ~$6K device) need a page-cite.",
+   "Black Lung program $44B paid / $5.1B trust-fund debt (prior 'as of September 2024'); reclamation-bond shortfall '$4-6 billion less than actual cost' (needs GAO/Interior).",
+   "Technical Appendix \u00a71.10 coercion-scope boundary 'informed by Darity 2026': verify the section exists and that 'Darity 2026' is a real citable forthcoming work, not a placeholder. NOTE: the memo's \u00a78 also flags a TA drift ($510 mislabeled as the carbon term vs canonical carbon=$496) reachable via Ch5's \u00a75.5 pointer; routed to the TA-cascade owner, not fixable in Ch5 prose."
+  ],
+  "figures_used": [
+   "No McDowell hard numerics carried in-prose (correctly deferred to Ch8 per owner-map; Ch5 references the McDowell life-expectancy gap + one-ton-of-coal decomposition as Ch8 deliverables).",
+   "Libby 40:1 cost-to-revenue ratio ($100M revenue / $4B+ costs).",
+   "Deepwater 40% recovery ratio ($60-65B paid / $150B+ total losses); Mexico settlement ~$25M.",
+   "Social Security $108T foregone return (flagged as model output needing disclosure, not asserted as documented).",
+   "GoFundMe 88% failure rate (12% reach goal); Butler $54 / $461 / ~$12K / ~$6K.",
+   "Fed $16T emergency lending (GAO 2011 audit) \u2014 the one figure already sourced inline, retained.",
+   "Black Lung $44B paid / $5.1B trust-fund debt; reclamation-bond $4-6B shortfall. Canonical McDowell ledger ($496 carbon, $510 total, etc.) intentionally NOT introduced here per owner-map."
+  ],
+  "devices": [
+   "Polanyi/Fraser structural anchor named in the synthesis (the biggest ratified gap): fictitious-commodity + the double movement + Fraser's expropriation, used to say the six cases are literally the SAME object (reef/atmosphere/community/labor/unborn generation), not six analogies; lands the meta-claim 'what the diagnostic tradition named, this book proposes to price.'",
+   "Measurement-not-diagnosis thesis (landing point F) added up front and echoed: 'The value added here is magnitude, not mechanism.'",
+   "Falsifiability gesture (landing point L) added to the synthesis: the framework returns a small number for a well-managed regime (Norway, Ch4); a framework that returned a large number everywhere would be unfalsifiable. 'This one varies, and the variation is the test.'",
+   "Coase named explicitly at the 2008 borrower-agency move (memo flagged the chapter's strongest anti-Coase material as previously unlabeled): voluntary trades fail under engineered information asymmetry.",
+   "Pigou double-counting forward-pointer added: the cases are priced as residual costs 'in anticipation of' Ch6's gates, inoculating against 'just-Pigou / double-counting' and 'it's only externality accounting.'",
+   "Financialization/Pistor objection answered via Polanyi re-embedding: 'the Polanyian double movement made operational rather than merely hoped for' (the lens-specified answer route).",
+   "Six-covers concealment taxonomy delivered once, cleanly, in the synthesis (distance, time, asymmetry-of-knowledge, asymmetry-of-refusal, normalization, appearance-of-abundance) \u2014 names kept consistent with Ch7/Ch10.",
+   "Sandel commodification-limit tension named at the chapter's emotional peak (Butler caregiving) with a short 'pricing the severance, not the devotion; naming what was taken is not buying it' answer + downstream pointer.",
+   "Two-instrument bidirectional structure (Restitution Bond backward / Foreclosure Bond forward = aggregate bond in CS = RCV - Bond) carried as the configurational-novelty preview; lineage stack (Coates -> Darity-Mullen -> Hamilton -> Conley; Hartwick -> reclamation -> Norway -> Parfit -> Pettit/Skinner; Pistor) preserved but de-throat-cleared."
+  ],
+  "voice_notes": "Provisional voice applied throughout. ZERO em-dashes and ZERO en-dashes in the prose body (verified by grep: every one of the original chapter's heavy dash usages converted to commas, colons, periods, or restructured sentences; numeric ranges rendered 'forty to eighty,' 'six-to-seven,' 'four to six,' never with an en-dash). The only dashes remaining in the file are inside editorial [CITATION GAP]/[RELOCATE] bracket-flags and the original '\u2014 End of Chapter 5 \u2014' sign-off marker, both of which are scaffolding, not prose. Idiom-free, non-regional, define-don't-assume; genuine terms built-then-named (cost severance, fictitious commodity, the two bonds). Natural contractions used. Literary/memoir latitude exercised at the human beats: the Libby 'still there, still dying, still counting its dead' cadence preserved; the Butler twenty-thousand-hours passage kept its rhythm; the Polanyi naming given room to breathe. Length is an OUTPUT (8,822w) not a target: I cut only the items the memo named as non-earning and then GREW the synthesis where the Polanyi/Fraser naming and the falsifiability + measurement-not-diagnosis beats needed room. I did not aim at the memo's ~6,000-6,500w recommended landing; the result sits above it because the spine material plus the ratified Polanyi/Fraser fill earned the space.",
+  "where_lens_held": "The lens was strongly sufficient for the structural surgery. The deep-pass memo's issue list + cut list told me exactly which scenes/digressions did not earn their place (the two objection-apparatus blocks, the four etymology essays, the cadence tic, the seam bridges, the Sweden inventory), and the meta-claims + matrix-cell map told me what to foreground and where to insert the Polanyi/Fraser anchor (the synthesis paragraph, exactly as the memo's \u00a710 HIGH flag predicted). The owner-map resolved every redundancy question without an author chat: Sweden->Ch9, McDowell carbon->Ch8, Public-Choice stays in Ch5, mask-veil->Ch1, thought-experiment->Ch7. The canonical-figure ledger let me confirm Ch5 carries no McDowell numerics to drift on. The objections list told me to name Coase, add the Pigou pointer, add the Sandel beat, and route financialization through Polanyi re-embedding. For all of this, memo + lens together were enough to draft confidently with no open structural question.",
+  "where_lens_strained": "Three places where memo+lens were NOT enough and a per-chapter author chat would still be needed. (1) The Social Security $108T figure: the lens lists it as a canonical-adjacent number but the memo correctly flags it as a counterfactual-model output that is the chapter's single highest numbers-are-invented risk. I could flag it but I cannot resolve it: the author must decide whether to disclose the equity-return-series assumptions inline or demote it to a footnoted band. No lens input substitutes for that editorial call. (2) The Polanyi/Fraser fill is ratified as a gap-to-close, but the lens gives the meta-claim, not the author's preferred DEPTH or phrasing. I wrote a one-paragraph naming that I believe is load-bearing and correctly placed, but whether the author wants Polanyi/Fraser as a single synthesis beat (my choice) or a threaded motif across the chapter, and how much weight 'expropriation vs exploitation' should carry, is a voice/positioning judgment that needs the author. (3) The Sandel commodification tension at the Butler peak: I judged it worth naming inline with a short answer, because it sits exactly at the emotional peak and a Sandel reader will feel it. But the memo flags it as 'exposed and latent-risky' and notes the full engagement is owned downstream. Whether naming it here strengthens the chapter or invites an objection the chapter then cannot fully answer is a genuine editorial fork I resolved one way; the author may want it removed or expanded. Net: lens-driven drafting reduced the need for an author chat substantially (the whole structural cut/restructure ran without one), but it did NOT eliminate it. The residual chat is small and specific: three editorial calls (the $108T disclosure form, the Polanyi depth, the Sandel-beat placement) plus ratification of the citation-gap remediation plan. That is the honest test signal: the lens handles structure and positioning; it does not handle the figure-risk disclosure decision or the finest-grain voice/depth calls.",
+  "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/test-drafts/Ch5-testdraft_2026-06-04.md"
+ },
+ {
+  "chapter": "Ch6",
+  "words_before": "~13,431",
+  "words_after": "9,103 (OUTPUT, not a target \u2014 the figure fell out of removing non-earning material and letting the rest run; I did not cut toward the memo's ~8,500-9,000 landing number)",
+  "removed_non_earning": [
+   "Externality-tail naming-defense disquisition (~350w, I-1): kept the statistical-tail concept + Weitzman fat-tail lineage as 2 sentences; dropped the aftermath/trail/legacy/long-run/persistent rejection essay (now flagged to TA)",
+   "Commons Inversion Test naming-defense (~310w, I-2) + redundant revealed-preference rejection paragraph (~190w, I-3): collapsed to the one operational sentence folded into the Four Gates first-gate description",
+   "Residual Commons Value naming-defense thesaurus (~290w, I-4): kept the Hartwick/Ostrom/Mazzucato positioning as one sentence; dropped the resource/public-good/natural-capital/cost/wealth/worth rejection list (flagged to TA)",
+   "Asymmetric Regret Rule naming-defense (~190w, I-5): deleted entirely; ARR is named once and deferred to TA \u00a78 + Ch9",
+   "Standalone late \u00a7Four Gates section (~1,500w, I-6): compressed to one tight paragraph and RELOCATED to immediately follow the formula (Approach 3) so the apparatus is introduced once and does not re-open after the convergence climax",
+   "DAC four-horizon engineering dump duplicated in Approach 1 (~400w, I-11): removed from Approach 1 (left a one-sentence pointer); the DAC horizons now appear once, where they belong, under Method 1 (Replacement Cost)",
+   "SCC-is-political over-argument incl. the 'parameters becoming more estimable / uncertainty narrowing' coda (~450w, I-10): cut the coda (it invited the Simon-Ehrlich objection); kept one paragraph + the weather-model analogy",
+   "IPG reconciliation thicket (~600w, I-13): compressed to the one load-bearing point \u2014 the 33-122x and triangulated ranges differ by time-horizon-anchored, not by contradiction; per-case Libby/Deepwater micro-reconciliations dropped to TA \u00a711.11",
+   "Falsifiability over-build (~650w, I-14): kept Yeager + ONE worked CS-approaching-zero case (plantation timber); cut the second worked case (construction sand) and the redundant two-layer CIT/empirical distinction",
+   "Per-case re-application in \u00a7The Contribution (~400w, I-16): cut Deepwater + Libby re-walks (the table and Approach-1 walk already did them); kept the single McDowell same-case-larger-number demonstration",
+   "Institutional-asymmetry double-statement (I-12) trimmed to one statement",
+   "Darity longevity-gap worked depth (I-15) trimmed to one sentence + Ch5 cross-ref"
+  ],
+  "relocations_flagged": [
+   "[RELOCATE TO Ch5]: full Parfit non-identity treatment + Amartya Sen capability-valuation grounding (the moral grounding belongs with the two-instrument apparatus Ch5 owns; kept a one-paragraph Parfit nod + the forward/backward instrument mapping so the non-identity objection is not left exposed)",
+   "[RELOCATE TO Ch1]: the autonomy-commons walk via the 120-hour-week knowledge worker + the classical-liberal/civic-republican/lived-oppression readings of whether autonomy is a commons (Ch1 owns the example and the readings; Ch6 now references rather than re-renders)",
+   "Ten Commons Categories section collapsed to a one-paragraph pointer (full catalogue \u2192 TA); per owner-map this is the framework's ontology, not its measurement",
+   "Norway/GPFG history+mechanics referenced to Ch4 (kept the backtest as the differentiation demonstration but pointed the fund's structure/spending-rule/carbon-tax/ethics-council detail to Ch4 per owner-map)",
+   "Pistor financialization full answer flagged to Ch9 (engaged the objection in-chapter via Polanyi re-embedding / double-movement, but noted Ch9 owns the full development of how the two instruments re-embed rather than financialize)",
+   "ARR formal spec \u2192 TA \u00a78; applied \u2192 Ch9 (named once, deferred)"
+  ],
+  "citation_gaps_flagged": [
+   "McDowell County thirteen-year life-expectancy gap vs national average \u2014 needs county-health-rankings/CDC/academic source",
+   "Prose figures for Deepwater ($65-70B), Libby ($5-8B), Exxon Valdez ($7-10B + $5.5M product value) run bare in prose \u2014 should carry the same public sourcing the convergence table cites (NOAA/DOJ/2016 BP Consent Decree; EPA Libby Superfund; Exxon Valdez Trustee Council). Also note: I corrected the memo-flagged \u00b646 'settlements' mislabel by relabeling Libby's $5-8B as 'total documented cost' rather than 'direct settlements'",
+   "3c/kWh solar figure (1960 substitute) \u2014 needs LBNL or Lazard LCOE source",
+   "'renewables already displacing coal at scale' \u2014 pairs with the solar figure; one shared source covers both",
+   "Claim that coal community-cost information was 'deliberately suppressed' \u2014 needs a source or softening (I softened the original's 'suppressed deliberately' to 'much of which was suppressed' + flagged)",
+   "Polanyi (The Great Transformation, fictitious commodities), Fraser (expropriation as condition of accumulation), Harvey (accumulation by dispossession) \u2014 the newly-added structural-commons positioning references need inline citations to the specific works"
+  ],
+  "figures_used": [
+   "McDowell carbon $496 = 2.61t \u00d7 $190 (now stated explicitly; the prior dual-basis $441/national vs $518-532/Pocahontas confusion is gone \u2014 chapter uses the canonical Pocahontas 2.61t basis per owner-map 'Ch6 uses the canonical figures')",
+   "Honest TOTAL $510/ton (now stated explicitly; prior $449-464 and $518-532 drift removed)",
+   "Pigouvian floor $504-518/ton (now stated explicitly as the standard-externality band; the over-the-ceiling $532 removed)",
+   "mine-mouth $4.50 (1960)",
+   "SCC $190 (EPA 2023, Rennert et al. 2% discount)",
+   "CO2 factor 2.61 (McDowell/Pocahontas) stated as a number; national 2.32-2.33 NOT carried \u2014 chapter now runs the McDowell-canonical basis only, eliminating the dual-basis digression",
+   "Norway ~$48/BOE (reconciled \u2014 'approximately fifty' removed; consistent $48 in prose and table)",
+   "RCV-band $580-620 correctly ABSENT (TA-only rule respected)",
+   "IPG: '~fifty times' central, '33 to 122 times' (Ch2 public range) \u2014 555x NOT carried bare in prose (the M3 $420-$13,100 ceiling lives only in the table cell, attributed to Scarcity-Adjusted Option Value)",
+   "US Steel closure year correctly ABSENT (Ch8 material, not a Ch6 claim)"
+  ],
+  "devices": [
+   "Spine foregrounded: setup \u2192 3 approaches \u2192 convergence table \u2192 'direction never flips' \u2192 Norway backtest \u2192 close; the thesis landing ('the subsidy by which the entire extraction economy runs') is now stated at the convergence climax AND at the close, fixing the I-17 buried-climax problem",
+   "Polanyi/Fraser structural-commons 'same object' naming added as the keystone of the extraction-commons section (reef = atmosphere = hillside = labor = future generation; diagnosis NAMED, framework PRICES) \u2014 the memo's #1 ratified gap, now filled",
+   "Harvey measures-the-mechanism-it-diagnoses meta-claim added one sentence alongside Polanyi/Fraser",
+   "Pistor financialization objection engaged with the Polanyi double-movement / re-embedding answer (bond makes consumption more expensive than extraction is worth = opposite of a market in the commons), Ch9-flagged for full development",
+   "Coase 'future generations cannot bid' now named explicitly as a Coase rebuttal (previously only implied via Parfit)",
+   "Four Gates relocated to follow the formula so apparatus opens once; convergence climax no longer deflated by post-climax apparatus",
+   "Hotelling Identity, Hartwick, Mazzucato, Weitzman, Dixit-Pindyck, Darity/stratification-economics all kept as positioning (matrix cells preserved)"
+  ],
+  "voice_notes": "Body prose is clean of em-dashes and en-dashes (converted to commas/colons/periods/restructure throughout; the through-question 'Am I looking at the full honest accounting?' is voiced in the opener). Idiom-free, jargon built-then-named (foreclosure cost, externality tail, residual commons value, Commons Inversion Test all defined before/as named). Natural contractions kept. Literary latitude exercised lightly and appropriately for a methods chapter: the 'flashlight in a warehouse' image, the 'same object' enumeration cadence (reef/atmosphere/hillside/labor/generation), the weather-model and Yeager analogies retained. REMAINING em/en dashes (31 total) live ONLY in: (a) section headers '### Approach 1 \u2014 ...' and the bold Method-name labels '**Method 1 \u2014 Replacement Cost.**' \u2014 these match the existing chapter's own structural-label convention and are not running prose; (b) the convergence table cells \u2014 source-faithful canonical data formatting; (c) inside my own '[CITATION GAP: ...]' / '[RELOCATE TO ...]' editorial annotation brackets, which are not prose. If the morning voice confirmation wants ZERO dashes even in structural labels, the header/Method-label conversion is a trivial mechanical pass.",
+  "where_lens_held": "The lens held strongly across the structural spine and the three meta-claims. Meta-claim 1 (structural-commons/fictitious-commodity) gave me an unambiguous home for the Polanyi/Fraser naming \u2014 the memo identified the extraction-commons section as the single best insertion point and the lens told me exactly what work it does (diagnosis names; framework prices+reserves), so I could draft it without an author chat. Meta-claim 2 (configurational novelty) mapped cleanly onto the existing \u00a7Contribution 'three additions' + Hotelling Identity material \u2014 the lens confirmed which positioning to keep (extending Pigou+Ostrom into extraction settings) and which naming-defense apparatus to evict to the TA. Meta-claim 3 (measurement-not-diagnosis, conservative-by-construction) is exactly the Harvey 'measures-the-mechanism-it-diagnoses' framing, which slotted in beside Polanyi/Fraser. The canonical figure ledger was decisive: it resolved the memo's open question ('does Ch6 carry $496/$510 explicitly?') \u2014 the owner-map line 'Ch6 uses the canonical figures' settled it, so I dropped the dual-basis national-vs-Pocahontas digression entirely and stated $496/$510/$504-518 directly. The objection list told me which flanks to close (Pistor, Coase) and which to leave deferred (ESG, degrowth, too-statist), matching the memo's EXPOSED-vs-ENGAGED audit.",
+  "where_lens_strained": "Three places the memo+lens were NOT fully sufficient and would need an author chat. (1) FIGURE RECONCILIATION DOWNSTREAM: the lens gave me the canonical McDowell $496/$510, but the memo's \u00a710 flags that Ch8's main-repo copy may still carry a pre-fix $510-carbon/$524-total version. I applied the canonical set to Ch6 confidently, but whether Ch8 has actually been cascaded to match is something I cannot verify from the lens alone \u2014 if Ch8 is stale, my Ch6 forward-reference ('Chapter 8 walks the full decomposition that produces these canonical figures') points at a number that does not yet exist there. This needs author/cross-session confirmation, not lens-driven drafting. (2) THE M1 PROSE RANGE: the canonical ledger gives RCV-band $580-620 as TA-only and the table M1 cell as $261-$2,412, but for the Method 1 PROSE I had to characterize the per-ton-of-coal range verbally ('low hundreds to roughly two thousand'); the lens did not give me a sanctioned prose phrasing for the M1 band, so I chose a conservative paraphrase that is consistent with the table but is a judgment call an author might want to set precisely. (3) THE POLANYI/FRASER DEPTH-VS-OWNERSHIP BOUNDARY: the lens says 'NAME them where the chapter is the right home' and flags Ch9 for the financialization/re-embedding answer \u2014 but the boundary between 'name the structural claim here' (Ch6) and 'develop the re-embedding answer there' (Ch9) is a judgment about how much Polanyi/Fraser Ch6 should carry vs Ch9. I drafted Ch6 to carry the naming + a one-paragraph Pistor engagement and defer the full double-movement development to Ch9; whether that division is where the author wants the seam is the kind of cross-chapter allocation call the memo cannot fully settle. Net signal: lens-driven drafting got Ch6 to a ratify-ready state on the spine, the cuts, the figures, and the gap-fills WITHOUT needing a per-chapter chat \u2014 the residual need-for-chat is concentrated entirely at cross-chapter seams (Ch8 figure cascade status, Ch9 re-embedding allocation), not at anything internal to Ch6.",
+  "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/test-drafts/Ch6-testdraft_2026-06-04.md"
+ },
+ {
+  "chapter": "Ch7",
+  "words_before": "9271",
+  "words_after": "9680",
+  "removed_non_earning": [
+   "delivery-cost note",
+   "synonym tournament",
+   "across-time historiography",
+   "EA-distancing paragraph",
+   "front-matter triple thesis",
+   "internal recaps"
+  ],
+  "relocations_flagged": [
+   "TA masking defense",
+   "Ch5 across-time",
+   "Ch9 existential-gap payoff",
+   "Ch9 verification design"
+  ],
+  "citation_gaps_flagged": [
+   "Stern Nordhaus rates",
+   "Weitzman",
+   "Hartwick 1977",
+   "lunar He-3",
+   "solar luminosity",
+   "Giza labor",
+   "Qin figures",
+   "Kimberley premium",
+   "existential lineage"
+  ],
+  "figures_used": [
+   "4.50 mine-mouth",
+   "lunar He-3 1M tons",
+   "Stern 1.4 vs 4",
+   "20k commute",
+   "no bare Ch8 figures"
+  ],
+  "devices": [
+   "falsification spine",
+   "Polanyi Fraser anchor",
+   "double-movement as accounting",
+   "matrix cells named",
+   "L and M protected",
+   "coercion seam repaired"
+  ],
+  "voice_notes": "plain English plus memoir latitude; zero em and en dashes; clear not clipped",
+  "where_lens_held": "strong; reduced need for author chat; Polanyi Fraser had an unambiguous home; matrix namings landed at memo contact points",
+  "where_lens_strained": "author chat still needed for cross-chapter moves to Ch5 and Ch9 and for whether to name the existential lineage inline and for the chapter length call",
+  "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/test-drafts/Ch7-testdraft_2026-06-04.md"
+ },
+ {
+  "chapter": "Ch8",
+  "words_before": "~5,600",
+  "words_after": "6,544 (OUTPUT, not a target; grew net-of-cuts because the ratified Polanyi/Fraser fill + Pigou-extend + Hotelling + falsifiability additions are larger than the relocations/cuts \u2014 substance-driven, no length aimed at)",
+  "removed_non_earning": [
+   "I-6 health-component double-statement: deleted the middle paragraph (line 38) that re-derived the same $1\u20131.5 program figure already in the headline; collapsed to one program-floor + one all-in $2\u20134 statement",
+   "I-8 opener pre-list: cut the eight-vector breath-list (families dispersed / knowledge lost / political work / acceleration) to four named vectors; merged the doubled 'methodology universal, components case-specific' statement into one",
+   "I-3 literary genealogy: trimmed the four-author catalog (Du Bois veil / Ellison long-form) to Dunbar couplet + Fanon colonial-register; left a [RELOCATE TO Ch1] flag because the full lineage is Ch1's established 'pricing is new, move is old' move",
+   "Political Capture: cut the UMW / John L. Lewis mechanization-vs-disease history paragraph entirely (Ch9 freight; over-weighted a $1 component)",
+   "I-7 closing scope-fence redundancy: collapsed ~5 restatements of 'accounting not policy / belongs to others' to two placements (opener + final close); folded the standalone 'brief extrapolation' degrowth-disclaimer section and the 'closing line' question-stack into a single closing section so the $510-vs-$4.50 invoice is the genuine last beat"
+  ],
+  "relocations_flagged": [
+   "[RELOCATE TO Ch9] full YIMBY supply-side steelman-and-rebuttal (Glaeser/Gyourko, Schuetz, JCHS 2024, DOJ RealPage) \u2014 ~850w removed from Ch8; kept only the one-beat 'same shape at household scale' + one sentence marking supply restriction as a real separate mechanism (across-market cost-burden rise vs level differences)",
+   "[RELOCATE TO Ch9] the entire 2008 financial-crisis paragraph (TARP vs household-debt restructuring, Mian & Sufi, $11T/~10M foreclosures) \u2014 reduced to a one-sentence pointer; it is a policy-choice-distribution mechanism that needs Ch9's accountability-bond apparatus to land",
+   "[RELOCATE TO Ch9] the framework-vs-Public-Choice + reparations-economics actor-and-coalition positioning paragraph \u2014 kept one positioning sentence in Ch8, pushed the development to Ch9 which the chapter already defers to",
+   "[RELOCATE TO Ch1] the Du Bois/Ellison segment of the mask lineage (the move is established once in Ch1 and referenced here)"
+  ],
+  "citation_gaps_flagged": [
+   "Reclamation-bond total ($3.8B) and remediation band ($7.5\u20139.8B) \u2014 no dated source; conflicts with ledger's '$4.5B (2021)' anchor \u2014 reconcile (GAO/OSMRE/Appalachian Voices)",
+   "60,000 Appalachian MTR cancer cases \u2014 Hendryx named but specific paper+year needed",
+   "McDowell Census/CDC figures (median income $28k, ~38% poverty, 16th-poorest, 141/100k drug-death) \u2014 time-sensitive, need source+year-lock",
+   "Regional-collapse $5\u201315/ton pricing methodology \u2014 least-sourced component, second-largest non-carbon head, needs a named regional-economics source",
+   "Ch6 must actually introduce the 2.32 national-average CO2 basis or the 2.61-vs-2.32 footnote is stranded (Ch6 cascade dependency)",
+   "Opportunity Insights \u2014 cite the specific Opportunity Atlas data point",
+   "Lineage-labor $1\u20135/ton regional estimates \u2014 internally estimated, flag for pre-pub queue as not externally sourced",
+   "SCC $42/$51 interim values \u2014 public in IWG technical support documents; cite",
+   "Fossil-fuel lobbying 'hundreds of millions annually' \u2014 needs OpenSecrets",
+   "1970s energy-intensity improvement \u2014 needs EIA source",
+   "Cross-case IPGs (Deepwater 15\u201317x, Libby 40\u201380x, Baotou, Exxon Valdez) \u2014 must match Ch5 exactly; verify then 'see Ch5'",
+   "Tar-sands downstream First Nations cancer/food-contamination claims \u2014 need sources (Alberta Cancer Board / Fort Chipewyan studies)",
+   "DOJ RealPage timeline (now flagged in the Ch9 relocation) is past-dated \u2014 re-verify as completed fact"
+  ],
+  "figures_used": [
+   "Mine-mouth 1960 = $4.50 (J3 harmonized; replaced all 'four to five dollars')",
+   "CO2 factor 2.61 McDowell/Pocahontas with 2.32 national-basis footnote",
+   "SCC $190 (EPA 2023, Rennert et al. 2022 Nature)",
+   "Carbon/foreclosure term = $496 (=2.61 x $190), explicitly labeled carbon term, never total",
+   "4-component Pigouvian floor = $504\u2013518",
+   "8-component honest TOTAL = $510 (explicitly distinguished from the floor and from carbon)",
+   "IPG public headline 33\u2013122x (fixed the 120->122 internal slip); ~50x triangulated central added",
+   "Modern band $40\u2013140/ton",
+   "US Steel closure = 'wound down across the 1980s' (J5; no hard year)",
+   "Civilizational $10\u201315T/yr gestured-not-argued"
+  ],
+  "devices": [
+   "Polanyi fictitious-commodity + Fraser expropriation named as the lineage that DIAGNOSED the 'second transaction' the chapter PRICES (ratified highest-value fill; new section 'What the market left out, and who named it')",
+   "Same-object structural-commons claim made explicit: reef/atmosphere/community/labor/future generation = one object (a commons priced at nothing because abundance masked cost)",
+   "Polanyi double-movement = framing the bond as pricing-to-RESERVE/RE-EMBED not pricing-to-sell \u2014 pre-empts the Pistor/financialization 'bonds extend the Code-of-Capital logic' objection and the Sandel commodification worry, deferring the full carry to Ch9/Ch10",
+   "Pigou EXTEND made explicit (Pigou prices the smoke; framework prices the smoke AND that the coal is gone) \u2014 distinguishes the 4-component Pigouvian floor from the 8-component total",
+   "Hotelling Identity stated in one sentence (RCV minus Hotelling rent = cost severance per unit) on the worked number",
+   "Falsifiability surface stated (CS=0 at fully-renewable/at-or-below-regeneration; S_max<=1 generalization in plain English) \u2014 answers the unfalsifiable/always-finds-a-gap objection in the chapter where it bites hardest",
+   "Weitzman declining-rate clause added to reinforce conservative-by-construction on the carbon term",
+   "Keystone-number reconciliation paragraph (4-component floor vs 8-component total) fixing the three-jump relay",
+   "'The market is not fake; the market is incomplete' preserved as the central-takeaway landing"
+  ],
+  "voice_notes": "Globally Inclusive Plain English with literary/memoir latitude applied: zero em-dashes and en-dashes throughout (converted the original's heavy em-dash usage to commas/periods/restructure; even the closing 'End of Chapter 8' rule de-dashed); natural contractions; jargon built-then-named (Pigouvian, Hotelling, fictitious-commodity each glossed in plain terms on first use); idiom-free and non-regional. Kept scene and rhythm (the orange creek, the West Fork in February, the rail car clearing the last tunnel) rather than essay-tight economy. The Dunbar couplet preserved for its emotional beat.",
+  "where_lens_held": "The lens held strongly on positioning and structure: the deep-pass memo + lens + ledger together fully determined the four cuts/relocations, every figure value, the keystone-number reconciliation, the Polanyi/Fraser fill language (the lens supplied near-verbatim the same-object claim and the double-movement re-embedding framing), and which matrix cells Ch8 should newly name (Pigou-extend, Hotelling, falsifiability) versus correctly defer (Coase/Parfit/Ostrom/Hartwick to Ch6/Ch9). The redundancy-owner map cleanly resolved the housing (->Ch9), 2008 (->Ch9), Public-Choice (->Ch9), and mask-lineage (->Ch1) relocations without judgment calls. I never needed to guess on a figure or a positioning move.",
+  "where_lens_strained": "Three places where the memo+lens were NOT enough and an author chat would still be needed: (1) The Polanyi/Fraser fill is RATIFIED in principle and the lens gives the conceptual content, but its canonical HOME is listed as Ch1/Ch5/Ch6/TA \u2014 NOT Ch8. I judged Ch8 the right concrete demonstration home (the 'second transaction' sentence IS the thesis in plain English) and wrote a full new section, but whether the book wants the first full Polanyi/Fraser exposition to land in Ch8 vs be established earlier and merely referenced here is an architecture decision only the author can make; if it lands in Ch1 first, my section should shrink to a callback. (2) The recommended landing in the memo was ~4,100w (Tier-1 SAFE + relocate 2008 + Political-Capture, HOLD the Dunbar trim). The no-maximum rule overrides the number, but the memo's own recommendation implies a TIGHTER chapter than I produced; the tension between 'add the ratified Polanyi/Fraser beat' (grows it) and 'recommended ~4,100w' (shrinks it) is a real editorial-altitude choice the author should confirm \u2014 I resolved it toward substance-earns-length, but reasonable editors differ. (3) The relocations I flagged (YIMBY, 2008, Public-Choice) are MOVES, not executions \u2014 per instructions I left them as inline flags rather than cutting blind, but the author/Ch9 session must actually absorb them or Ch8 will read as having dropped promised material; the flags assume a coordinated Ch9 pass that has not happened yet.",
+  "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/test-drafts/Ch8-testdraft_2026-06-04.md"
+ },
+ {
+  "chapter": "Ch9",
+  "words_before": "~11,314",
+  "words_after": "8,204 (OUTPUT, not a target; substance-driven. Lower than source mainly because three large sections were flagged for RELOCATION to their owner chapters rather than re-derived here, and because two compressions and several over-cataloguing cuts the memo named were applied. The chapter GREW in one place: a new ~900-word \"What the framework re-embeds\" section filling the ratified Polanyi/Fraser + Restitution gap.)",
+  "removed_non_earning": [
+   "Renewable-commons 'third category' excursus (solar-easement / rainwater-harvesting / atmospheric-oxygen-via-deforestation edge-case catalogue) reduced to a single clause per memo item I-7/cut#9",
+   "Clarion-Clipperton Zone / ISA / Nauru-2-year-rule full ~500w treatment removed (memo cut#3 SAFE): it self-described as re-running Steps 1-4 the reader just finished; not replaced (no fabrication) and not flagged as relocation since it is a re-run, not owned material",
+   "Rare-earth program over-cataloguing (MP Materials/Mountain Pass + Japan-Lynas-Senkaku + South Korea 2019 as four parallel examples) compressed to EU CRMA as the load-bearing tie to Step 1 plus a one-sentence gesture at the others (memo cut#5)",
+   "Frameworks roll-call trimmed from five (Harvey/Ostrom/Raworth/Desmond/Susskind) to three (Harvey/Ostrom/Raworth); Desmond and Susskind paragraphs dropped (memo cut#8)",
+   "Public Choice section compressed ~960w to ~430w: dropped the AEI/Cato/Mercatus/George-Mason address-list and the FMLA-1993 worked example; kept the one original move (vocabulary-vs-cost-visibility asymmetry that breaks where extractor and bearer overlap) (memo cut#7)",
+   "Nordic objection compressed ~880w to ~290w: kept the one decisive move (mechanism is not Nordic-culture-dependent; corrective architectures have US state-scale partials; integration is empirical-political not structurally-impossible); dropped the four-condition full steelman since Ch10 owns the contingency argument (memo cut#6)",
+   "Property-rights Pistor+Christophers+Smith coda: Christophers mini-essay and the at-length Pistor re-engagement removed (Ch5 owns Pistor); the Adam Smith 'completion not departure' line kept; Pistor financialization answer migrated into the new re-embedding section (memo cut#10)"
+  ],
+  "relocations_flagged": [
+   "[RELOCATE TO Ch5] the ~1,400w 2008-TARP-vs-Sweden-1932 financial-crisis case study (Mian & Sufi welfare math, Saltsjoebaden, 1992 Swedish bank crisis) -> Accountability Gap chapter; one-sentence thesis retained in-place",
+   "[RELOCATE TO Ch5] property-rights coda's at-length Pistor Code-of-Capital engagement + Christophers The Price is Wrong mini-essay -> with the Pistor material Ch5 already owns",
+   "[RELOCATE TO macro chapter] the Chattanooga EPB / Mondragon / Vienna Gemeindebau non-extractive collective-capture trio -> wherever the book's macro 'collective capture works at scale' argument lives",
+   "Owner-map references honored without re-derivation: Norway/GPFG + retirement-security comparison -> referenced as Ch4's; Public-Choice depth -> referenced as Ch5/appendix; reclamation-bond underpricing -> referenced as Ch2's; McDowell carbon worked-number -> referenced as Ch8's canonical figures (not re-derived). The eleven-cent/healthcare + retirement section the owner-map relocates OUT of Ch9 was already absent from my redraft (removed wholesale; the relevant point is folded into the Ch4-reference in the political-economy section) -- NOTE: I did not leave a standalone [RELOCATE] flag for the healthcare section because the source's healthcare material is Ch4's domain and the redraft simply does not import it; flagging here for the parent."
+  ],
+  "citation_gaps_flagged": [
+   "[CITATION GAP] Baotou 'seven square miles of radioactive slurry' tailings figure",
+   "[CITATION GAP] Niger Delta 'fifty years of spillage / thousands of square kilometers' (UNEP Ogoniland 2011 usual anchor)",
+   "[CITATION GAP] DRC artisanal cobalt 'forty thousand children' + 'overwhelmingly until recently' temporal hedge (Amnesty 2016 usual anchor)",
+   "[CITATION GAP] carbon pricing 'more than seventy jurisdictions / roughly a quarter of global emissions' (World Bank State and Trends usual anchor)",
+   "[CITATION GAP] aggregate 'ten to fifteen trillion dollars per year' severed-cost figure should point explicitly to Ch8/Appendix derivation",
+   "[CITATION GAP] Tullock 1967 exact title/journal ('The Welfare Costs of Tariffs, Monopolies, and Theft')",
+   "[CITATION GAP] EU CRMA '34 critical / 17 strategic' counts + May 2024 in-force date",
+   "[CITATION GAP] Mountain Pass/MP Materials dates (2002 closure, 2015 Molycorp bankruptcy, 2017 acquisition, 2018 restart) + Japan-Lynas / South Korea sourcing specifics"
+  ],
+  "figures_used": [
+   "McDowell carbon $496 (= 2.61t x $190), stated as 'four hundred and ninety-six dollars'",
+   "honest TOTAL $510, stated as 'about five hundred and ten dollars' (FIXED from source drift: source line 12 'five hundred and six hundred' and source line 116 '$550' both corrected)",
+   "1960 mine-mouth $4.50 ('four dollars and fifty cents' / 'four and a half dollars')",
+   "SCC $190 ('one hundred and ninety dollars') referenced via the $496 derivation",
+   "CO2 factor 2.61 McDowell (in the 496 derivation)",
+   "Subsidy sentence (source line 116) era-corrected: '$510/ton unpriced cost while coal sold at the mine mouth for $4.50' -- replaces drifted '$550 / $40' era-muddle",
+   "RCV-model $580-620 band deliberately NOT used (it is TA-only, never the total; source had leaked it into the headline -- removed)",
+   "IPG ratios / 555x / 33-122x correctly ABSENT (they live in Ch8)"
+  ],
+  "devices": [
+   "Spine foregrounded: opener now previews the four steps PLUS the 'what kind of work this is / show me the pathway' hinge, so the reader knows the apparatus is subordinate before reaching it",
+   "Polanyi double-movement + Fraser expropriation named explicitly in a new 'What the framework re-embeds' section; the fictitious-commodity = same-object claim (reef/atmosphere/community/labor/future-generation) stated directly",
+   "Financialization/Pistor 'bonds-extend-commodification' objection answered via re-embedding POLARITY (financialization disembeds; the accountability bond re-embeds; the test is whether the bond holds value in place or lets it slip back into tradeable capital)",
+   "Commodify-labor objection answered via same-mechanism-not-same-worth + deferred moral weight",
+   "Restitution backward-half (Darity/stratification economics: harm lands on populations the economy already sorted; read it where it landed) tied to the accountability-bond community-designation as the forward instrument honoring the backward claim",
+   "Through-question deployed forward+backward explicitly in the closing ('am I counting the costs... self/community/country/colony, survivability, the severing costs I am tempted not to count')",
+   "Harvey re-cast as measures-the-mechanism-it-diagnoses (magnitude-not-mechanism) rather than merely precedent-for-frameworks",
+   "Coase extend/contradict (future generations cannot bid; incomplete-not-efficient) kept as the property-rights originality spine; Ostrom parallel/extend (renewable-coordination-only); Adam Smith claim-lineage (completion not departure)",
+   "ESG/reformist-capture objection newly engaged at the end of Entering Wedges via the same re-embedding test",
+   "Formal-machinery callback added (Hotelling-identity bridge + ARR from Ch8/Appendix stand behind the four steps) so the practical chapter ties to its analytical spine",
+   "Closing reef/atmosphere/community/labor/future-generation one-object line echoes the Polanyi fictitious-commodity claim, binding the new fill to the existing hinge"
+  ],
+  "voice_notes": "Globally Inclusive Plain English with literary/memoir latitude applied. ZERO em-dashes and en-dashes in body, headers, and end-line (verified by grep; sibling Ch8 test-draft confirmed the corpus uses colon-style headers 'Step 1: Classify' and a plain 'End of Chapter' line, which I matched). Em-dash work converted to commas, colons, periods, and restructured clauses. No new idiom/colloquialism/regionalism introduced. Natural contractions kept. Room for rhythm and image preserved (the reserve-as-free-option beat, the 'one object, severed in one way, measured by one ledger' close) without the essays' clipped economy. No invented facts, scenes, quotes, dates, or biographical specifics; every figure traces to the existing chapter or the canonical ledger. No named people added; existing named-subject handling (none living/private newly named) preserved.",
+  "where_lens_held": "The lens carried the redraft cleanly on the three hardest jobs. (1) Figure-correction was mechanical once the canonical ledger was in hand: the $550/$580-600 drift and the $40/$4.50 era-muddle both resolved to $510 + $4.50 with no judgment call needed. (2) The cut/relocate decisions were almost entirely pre-adjudicated by the deep-pass memo's SAFE/TRADE tagging and owner-map, so I rarely had to guess what earns its place. (3) Most importantly, the Polanyi/Fraser re-embedding fill -- the book's ratified biggest gap -- had an obvious structural home: the four steps ARE the re-embedding move (classify re-embeds in horizon, reserve in future claims, the bond in community), so the meta-claim wrote the section's spine, and the financialization/Pistor + commodify-labor objections both fell out of the SAME re-embedding polarity rather than needing separate ad hoc answers. The through-question (forward+backward) slotted naturally into the closing and the Darity/Restitution material. The lens genuinely reduced the need for an author chat on structure, figures, and positioning.",
+  "where_lens_strained": "Three places where the memo+lens were NOT enough and an author chat is the right next step. (1) RELOCATION vs DELETION ambiguity for the healthcare/eleven-cent section: the owner-map says 'relocate OUT of Ch9 to Ch4,' but the source also presents it as load-bearing gut-punch material ('you already pay Swedish taxes'). I removed it wholesale and folded the residue into a Ch4 reference, but whether Ch4 actually wants the FULL section (vs. it becoming a standalone essay seed) is an author/cross-chapter call I cannot make from here, and I could not verify Ch4 does not already carry it. (2) The CCZ/Clarion-Clipperton material: the memo calls it a SAFE cut (re-run of the spine), but it is ALSO the only place the chapter exercises the framework on a live, contested, near-term decision and cross-references Ch7's Europa stress test -- an author may judge that worth keeping as the one 'framework applied in real time' beat. I cut it per the memo; this is a genuine TRADE the author should ratify or reverse. (3) VOICE confirmation is explicitly provisional: the literary/memoir-latitude register vs the essays' tight economy is the author's morning call, and the zero-dash rule forced several comma-heavy appositive strings (e.g. 'Groundwater in fossil aquifers, the Ogallala, the North China Plain, the Guarani, regenerates...') that read slightly list-like without the dashes the source leaned on -- an author may prefer a light restructure of those specific sentences. Also: the new re-embedding section is the largest piece of genuinely new prose (~900w); while every CLAIM in it is sourced to Polanyi/Fraser/Pistor/Darity already in the lens, its EMPHASIS and how hard to lean on the double-movement framing is a positioning choice the author should weigh, especially against whichever chapter currently owns Fraser/expropriation (the memo flags the fill should also land there).",
+  "saved_to": "/Users/c17n/commons-bonds-pipeline-prose-revision-corpus-audit-260602-6b5eda/publishing/essays/_pipeline/test-drafts/Ch9-testdraft_2026-06-04.md"
+ }
+]

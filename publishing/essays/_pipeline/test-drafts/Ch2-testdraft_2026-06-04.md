@@ -1,0 +1,214 @@
+# Commons Bonds
+*By Chris Winn*
+
+
+
+## Chapter 2: The Miner
+
+---
+
+In May of 1960, John F. Kennedy drove through McDowell County, West Virginia, and what he saw changed the direction of his campaign. He had come to win a primary in a state he was expected to lose. What he found instead did not fit the story America was telling about itself that year. That was the story of postwar prosperity, of a country that had beaten the Depression and then the Axis and was now growing its way toward something permanent and good.
+
+What Kennedy saw were children with distended bellies. Families eating surplus commodities, distributed right there in the hollows of McDowell County, because there was nothing else. Men who had mined the coal that powered the cities and built the ships that won the war, now sitting idle because the machines had come and the companies had no further use for them.
+
+Kennedy was not given to sentiment in his public remarks. But four months later, in Canton, Ohio, he came back to what he had seen. *McDowell County mines more coal than it ever has in its history, and there are more people getting surplus food packages in McDowell County than any county in the United States.*
+
+He meant it as an indictment of neglect. He was right that it was an indictment. He had the wrong defendant.
+
+---
+
+Before we look at what happened to McDowell County, we need to understand what McDowell County was.
+
+At its peak, in 1950, McDowell County was home to nearly 100,000 people. The towns had names, Welch and Keystone and Kimball and War, and the towns had everything towns are supposed to have: department stores, theaters, hotels, newspapers, a civic life. The county sat on top of some of the richest metallurgical coal seams in the world, the kind of coal that made steel hard enough to build the Golden Gate Bridge, the Empire State Building, the aircraft carriers that turned the Pacific war. During World War II, McDowell County coal did not just heat homes. It armed a civilization.
+
+The people who mined it were proud of that. The chapter that follows is not an argument that those people were wrong to be proud, or that the work they did was ignoble, or that they should have chosen something else. It is an argument about accounting. About who paid for what, and who did not, and what the ledger looks like when you add up all the columns.
+
+The value that came out of McDowell County's mountains dispersed across a continent. The costs stayed in the hollows between them.
+
+---
+
+Robert Bailey spent thirty-six years underground. He started in McDowell County and finished in Boone County after McDowell's mines closed and he had nowhere else to go. He described what black lung did to him in five words. *"It's almost like drowning."*
+
+He needed a double lung transplant. His employer had declared bankruptcy by then, and the legal obligation to pay for the transplant had dissolved with the corporate shell. The federal Black Lung Disability Trust Fund covered the cost instead. Twenty-eight days after his final interview with West Virginia Public Broadcasting in February 2019, Bailey was dead, of a cancer brought on, in part, by the anti-rejection medications that had been keeping the transplanted lungs alive.
+
+He had testified twice before Congress about the backlog of black lung claims still awaiting evaluation. What he wanted from those appearances was simple. *"Most laws across the nation, most laws have been written with blood,"* he told the *Inside Appalachia* host, Jessica Lilly. *"I don't want the things I went through just to drop and no knowledge to be gained, no people to be helped."*
+
+Everything that follows in this chapter is an accounting of what happened to him.
+
+---
+
+The mechanization came in waves. Each wave took more jobs than the last. By the time the U.S. Steel Gary mine closed in the late 1980s, taking 1,200 jobs with it [CITATION GAP: U.S. Steel Gary mine job count of 1,200], the process that had started in the 1950s was nearly complete. Personal income in McDowell County dropped by two-thirds in a single year after the Gary closure [CITATION GAP: two-thirds single-year personal income drop after Gary closure; BEA local-area personal income or specific study]. Not two-thirds of the growth. Two-thirds of the income. In one year.
+
+The population began to drain. Not all at once. Slowly, then faster, then in the kind of continuous bleed that becomes self-reinforcing, because each person who leaves takes with them the small weight they were adding to the local economy, and the next person finds it slightly easier to justify leaving too. By 2020, McDowell County's population had collapsed from 100,000 to under 20,000. The towns that had department stores and theaters now had empty lots where the buildings used to be.
+
+What remained was this: a male life expectancy of 63.5 years, against a national male average of 76.5 [CITATION GAP: male life expectancy 63.5 vs national 76.5; source and year]. Thirteen years. Not a gap you can close with better personal choices or a more optimistic attitude. Thirteen years is a structural outcome. It is what happens to bodies when costs accumulate over generations without relief.
+
+The drug death rate in McDowell County runs at 141 per 100,000, close to ten times the 2015 national rate of roughly sixteen per hundred thousand [CITATION GAP: McDowell drug death rate 141/100k; national 2015 rate ~16/100k]. The poverty rate is 37.6 percent. Median household income is $28,235, and the county ranks 55th of 55 West Virginia counties in health outcomes [CITATION GAP: poverty rate 37.6%, median household income $28,235, 55th-of-55 health ranking; Census/ACS year]. The first food stamps under the modern program were issued here. The latest data suggests the county may need them again.
+
+These numbers are real. But the numbers are not the argument. The numbers are what the argument explains.
+
+---
+
+### What a Ton of Coal Actually Cost
+
+Here is a question that sounds simple and is not. What was a ton of McDowell County coal actually worth?
+
+Not what it sold for. What it *cost*.
+
+The market price reflected what buyers were willing to pay and sellers were willing to accept at the moment of sale. That transaction was real and, in its own terms, honest. People sometimes call it voluntary, and within the four corners of the contract it was. But two parties were not at the table. The miner's future body could not negotiate the wage that his present body was signing for, and the generations who would inherit the emptied county could not bid for the future that was being spent on their behalf. A transaction can be voluntary between the people who are present and still leave out everyone the cost will actually land on. We will come back to why a market cannot price what the absent parties would have refused; for now it is enough to see who was missing from the room.
+
+What the price did not reflect was everything that happened before the coal came out of the ground, everything that happened to the people who brought it out, and everything that would continue happening long after the coal was burned.
+
+---
+
+**The man who developed black lung.**
+
+Black lung disease, coal workers' pneumoconiosis, is what happens when coal dust accumulates in the lungs over years of underground work. It does not happen quickly. It happens the way a debt accumulates: slowly, invisibly, until the day you can no longer ignore it.
+
+Twenty percent of miners in Appalachia with twenty-five or more years of tenure have black lung [CITATION GAP: 20% black lung prevalence at 25+ years tenure; NIOSH]. The disease reduces life expectancy by eight to thirteen years per case. It is not a freak outcome. It is not bad luck. It is a predictable, statistically regular consequence of extracting coal by the methods that were used in McDowell County for a hundred years.
+
+The disease is also resurgent. Despite decades of dust regulation, black lung rates are rising again, and rising fastest among younger miners, which suggests that the regulatory framework has not kept pace with new extraction methods [CITATION GAP: resurgent black lung, rising among younger miners; NIOSH/epidemiology cite]. The disease that should have been in decline is instead spreading to a new generation.
+
+The federal Black Lung Benefits Program was established in 1969 to compensate miners and their survivors. As of this writing, the Program has distributed $44 billion in benefits, its Trust Fund is $4.6 billion in debt, it has borrowed from the federal general fund almost every year since 1979, and by 2050 that debt is projected to reach $15 billion [CITATION GAP: $44B distributed, $4.6B Trust Fund debt, borrowing since 1979, $15B by 2050; GAO]. Forty-four billion dollars, paid to miners whose lungs turned to stone, and to the widows who watched them suffocate, and to the families who spent the last years learning to breathe around grief, and it still was not enough. The fund that was supposed to make the accounting honest has been running a deficit for forty-five years. Someone is paying the difference. It is not the coal companies.
+
+---
+
+**The creek running orange.**
+
+When you drive through McDowell County, you will see creeks that run colors they should not run. Orange from iron sulfide. Gray from sediment. Dead from acid drainage that began when mining operations disturbed sulfur-bearing rock and will continue for decades after the last mine closes, because acid mine drainage does not stop when the mining does.
+
+The Surface Mining Control and Reclamation Act of 1977 required mining companies to post reclamation bonds, money set aside to restore the land after extraction. The theory was sound: whoever creates the environmental liability should fund the cleanup. Price it in. Make the accounting honest.
+
+The practice has not matched the theory. Across Appalachian coal country, more than 633,000 acres require environmental remediation. The estimated cleanup cost runs between $7.5 billion and $9.8 billion. The available bond money totals $3.8 billion [CITATION GAP: 633,000 acres, $7.5 to $9.8B cleanup, $3.8B available bonds; source].
+
+The gap, somewhere between $4 billion and $6 billion, is not a rounding error. It is not a paperwork problem. It is the severed cost made tangible: the difference between what the industry promised to clean up and what it actually funded. Between 2014 and 2016, three major coal companies declared bankruptcy, transferring $865 million in liabilities directly to taxpayers [CITATION GAP: 2014 to 2016 three coal-company bankruptcies, $865M liabilities transferred; source]. The accounting that was supposed to be honest turned out to have been theoretical.
+
+---
+
+**The community that emptied out.**
+
+There is a cost category that does not appear in the Black Lung Trust Fund and does not appear in the reclamation bond calculations. It is the cost of a community ceasing to function: the schools that cannot be funded because the tax base has collapsed, the roads that cannot be maintained, the hospitals that closed because there were not enough patients who could pay, the municipal services that degraded year by year as the people who would have paid for them left.
+
+This is not damage in the legal sense. No single company is liable for McDowell County's population collapse. The causal chain is too long and too distributed for conventional liability to attach. The mine closure that triggered the income collapse was a legal business decision, not a tort. The company had no legal obligation to fund the community's transition.
+
+That is precisely the point.
+
+When the coal came out of the ground, it carried with it an implicit obligation: that when the coal ran out or became uneconomical, the community that had organized itself around extraction would have something to organize itself around next. That obligation was never priced. It was never bonded. It was never part of the transaction.
+
+Costs that are not priced are still costs. They get paid. Someone pays them. In McDowell County, what was not priced was the future of the place: the bodies of the miners, the institutions of the towns, the children's odds, the soil, the water, the air. By every conservative measure, the unpriced costs exceeded the priced compensation by an order of magnitude. The plain-accounting name for this is subsidy. The community subsidized the coal industry. The miners subsidized their employers. The future subsidized the present. The community absorbed the full cost of transition alone. It is still absorbing it.
+
+---
+
+**The children who did not come back.**
+
+The people who left McDowell County did not leave because they wanted to. Most of them left because there was nothing left to stay for. They took with them the education their parents had funded, the skills they had developed, the years of formation that had been paid for by families who had hoped those children would have a future nearby.
+
+This is a real cost. It is not sentimental to call it a cost. Every dollar invested in a child's development, every year of schooling, every piano lesson, every Little League uniform, every meal cooked at seven in the morning before a shift, is an investment in a person who will eventually produce value somewhere. When that person leaves, the value they produce goes with them. The community that funded the investment gets no return.
+
+This is the lineage dimension of cost severance: not just what was taken from the people who stayed, but what was taken from the generations who would have built what came next, if there had been something to build.
+
+---
+
+**The one sentence we will return to.**
+
+None of these figures includes what happens when the coal is burned. We will return to that.
+
+---
+
+### The Numbers
+
+Add up those columns honestly and the size of the gap stops being a matter of opinion. Take the actuarial cost of black lung over the century of peak production, the medical care and the lost productive years and the disability payments and the insurance premium that would have covered the full expected liability. Add the reclamation liability. Add even a conservative estimate of what a managed transition would have cost instead of an unmanaged collapse. Add the intergenerational cost of a workforce that was formed at community expense and dispersed without return. The total arrives at something between 33 and 122 times the price the coal actually sold for, depending on which cost categories you include and which estimate you use for the value of the harm done when the coal is burned.
+
+Chapter 8 walks the floor-estimate version of this calculation through the framework's full cost decomposition for one specific ton of McDowell County coal, and the per-ton honest price that chapter calculates lands at the upper end of this range. The range is wide because some of the costs are contested and some are genuinely uncertain. But the floor is 33 times. The coal was not slightly underpriced. It was not underpriced by a rounding error. It was underpriced by an order of magnitude, and the difference was paid by the people who had the least ability to refuse.
+
+Economists call this an externality. The word is technically accurate and practically insufficient. An externality is a cost that falls outside the transaction. What happened in McDowell County is that the costs fell on specific people, in specific bodies, in specific communities, and those people are still paying them.
+
+---
+
+### The Vocabulary
+
+At this point the book needs a word for what we have been describing, because we will use it in every chapter that follows.
+
+**Cost severance** is the mechanism by which costs are cut loose from the transactions that create them and transferred to parties who did not participate in the value extraction. The coal company extracted the value when it sold the coal. The miners, their families, and their communities bore the costs: the black lung, the empty towns, the children who left. The severance is the structural gap between those two groups. Who got the money, and who got the bill.
+
+The noun form is **severed cost**: a cost that has been detached from its source and displaced onto a third party. The $4 to $6 billion reclamation bonding gap is a severed cost. The $4.6 billion Black Lung Trust Fund deficit is a severed cost. The 13-year life expectancy gap is the human body absorbing severed cost.
+
+The paired mechanism is **value extraction**: the act of separating worth from its source while declining to absorb the full cost of the separation. Value extraction is not theft. It is not fraud. In most cases it is perfectly legal. It is what happens when the accounting system does not require honest pricing.
+
+These three terms, cost severance and severed cost and value extraction, will appear throughout this book. They are not rhetorical devices. They are descriptions of a mechanism that operates the same way whether we are talking about coal mines in West Virginia, oil wells in the Niger Delta, copper mines in Zambia, or fisheries in the Chesapeake Bay.
+
+The term *value extraction* carries a lineage worth naming once. Mariana Mazzucato draws a sharp line between value creation, the productive activity that adds to what exists, and value extraction, the activity that moves existing value without adding to it. Her cases sit in finance: fees on capital the manager did not create, patent rents on research the public substantially funded, platforms booking the value of work their users do. The diagnosis here echoes David Harvey's account of accumulation by dispossession, capital growing not by making but by enclosing what was held in common. What this book attempts to add is narrow and specific. Where their cases name the pattern, this book extends it to physical-resource extraction, specifies the mechanism by which extraction operating on the physical commons separates value-capturers from cost-bearers, and proposes a way to put a price on the separation.
+
+---
+
+### Distance
+
+There is one more dimension of McDowell County's story that the numbers alone cannot convey.
+
+The value that came out of those mountains was not consumed in those mountains. It powered Pittsburgh's steel mills. It lit Chicago's streetcars. It heated New York apartments. It built the ships that were launched from Norfolk. The people who consumed it never saw McDowell County. They never met the miners. They never drove past the orange creeks. They did not know, in any concrete sense, that the cheap energy flowing through their lives had a cost that was being concentrated, in real time, in a county 400 miles away.
+
+This is spatial cost severance: the geographic gap between where value is extracted and where costs are borne. Distance enabled ignorance, and ignorance made the accounting invisible. The consumers were not villains. Most of them would have been horrified by McDowell County if they had seen it. But they did not see it. The transaction was structured so that they did not have to.
+
+Spatial cost severance is distinct from, but as important as, intergenerational cost severance, the gap between present value extraction and future cost-bearing. We will see intergenerational cost severance in later chapters. What McDowell County demonstrates is that you do not need centuries of delay for cost severance to operate. You just need enough distance that the people who benefit never have to look at what their benefit costs. Distance is one of several arrangements that hide cost from honest accounting. Chapter 7 walks through more of them, by examining what happens when all of them collapse at once.
+
+---
+
+Ted Latusek worked for Consol Energy in northern West Virginia. His crew, he liked to point out, outmined the other crews two to one. *"A lot of times, you couldn't see your hand in front of your face,"* he told Chris Hamby of the Center for Public Integrity in 2013. *"It felt like somebody had put a bag over my face."*
+
+By that point he had been fighting for federal black lung benefits for nineteen years. Each time he won at an administrative stage, Consol's lawyers appealed. *"My goal in life was to outlive Consol,"* he told Hamby. *"I thought that I had. And then it goes to the Fourth Circuit Court, and they take it all away from me."*
+
+*"I was loyal to the company, but the loyalty wasn't there for me,"* he said. *"I felt like somebody just put a knife in my gut. I told my wife: 'I can take the lung disease because a lot of that's my problem. I went in that mine and ate that dust and knew better. I should have known better, but I thought I was invincible. But I always thought Consol would take care of me.'"*
+
+---
+
+### The Mechanism, Not the Motive
+
+Here is what McDowell County proves, and what it does not.
+
+It does not prove that the coal companies were evil. Some of the people who ran them were callous, and some were genuinely trying to do right by their workers within the constraints they faced.
+
+It does not prove that industrialization was a mistake. Cheap coal was essential to industrialization, and industrialization did reduce global poverty dramatically. Coal, American coal, Appalachian coal, McDowell County coal, was part of the energy system that made that possible. The people who made it possible had something to be proud of, and the framework does not dispute that. The question the framework asks is not whether extraction should have happened. The question is whether the people who bore the costs should have been compensated for bearing them. Those are different questions, and conflating them is the move that hides the cost severance.
+
+You can believe extraction was necessary, and it was, and at the same time believe the miners who developed black lung and the communities that absorbed the transition costs should have been made whole. If you believe industrialization was worth doing, the case for compensation is stronger, not weaker. The people of McDowell County subsidized a benefit that accrued to everyone, and making them whole is settling a debt, not charity.
+
+The structural problem with the cheap-energy argument is what it leaves out. The cost-bearing of specific, identifiable communities was treated as an acceptable price for a diffuse global benefit, without asking those communities, without compensating them, without any mechanism for declining. The miner who developed black lung did not agree to bear the cost of industrialization on behalf of the world. He agreed to a wage contract with a coal company. The community transition costs that followed mine closure were not in that contract. The fact that nobody told the miners what aggregate effect the industry would have on their bodies and their towns is not a procedural detail. It is the structural mechanism by which the severance operated.
+
+It does not prove, either, that mining communities were helpless or passive. They were not. They organized, they struck, they fought for wages and safety standards and benefits, and they won many of those fights. The United Mine Workers built that fight across a century. The Black Lung Association's 1968 wildcat strike across West Virginia won the state's pneumoconiosis statute and accelerated the federal Black Lung Benefits Program the next year. Miners for Democracy took back the union after the Yablonski murder. The regulatory architecture this chapter has been describing exists because miners built it. The miners had agency, and honoring that agency is essential. They were proud of the work, and the dignity of that work was real. A framework that treated working people as passive victims of forces beyond their control would miss the actual mechanism.
+
+But that agency had structural limits the chapter has documented. In McDowell County at the industry's peak, the coal company was not one employer among many. It owned the land, the company store, the houses miners rented. When the alternative was leaving everything you knew, the choice to stay was not the unconstrained choice free-market theory assumes. Constrained choices are still choices, but they are not the same thing as free choices, and the wage that fairly compensates a free choice differs from the wage that fairly compensates a constrained one. Information asymmetry compounded the constraint. Nobody told the miners what black lung would do to them. The industry knew, the pathology had been documented for decades, but companies resisted dust regulations and disputed the science with the same playbook the tobacco industry would later make famous and the climate industry would later use again. Consent is meaningful only when informed. The same bootstrap argument is made today, that workers can simply leave a place where extraction has failed them. It assumes a savings cushion and a stretch without income that the households this book is concerned with do not have. [RELOCATE TO Ch9: the cost-burdened-renters / rental-housing-as-asset-class / "company town returned in distributed form" generalization is developed with the JCHS data in Ch9; reference the owner there rather than re-deriving the contemporary thesis in Ch2.]
+
+What McDowell County proves is that the accounting system in which those transactions took place was structurally incapable of pricing what was actually being exchanged. The market price captured the value of the coal. It did not capture the value of the community's long-term viability, the miners' biological futures, the transition costs that would fall on the next generation, the cleanup liability that would transfer to taxpayers. Those costs were real. They were predictable, not in every detail, but in aggregate their existence was foreseeable. They were not priced because the system had no instrument for pricing them.
+
+Cost severance is not a story about villains. It is a story about an instrument that does not exist. The argument of this book is that we need to build it.
+
+---
+
+### The Second Cycle
+
+If the story of McDowell County ended with the mines closing, the accounting would already be wrong, but it would be closed. The coal would have been extracted, the costs borne, the communities left to recover or not. It did not end there.
+
+When Purdue Pharma built a national sales strategy around OxyContin in the 1990s, the company's internal documents, released through litigation in the years that followed, showed that the sales targeting was not random. It was engineered. Purdue's sales teams targeted counties with four specific characteristics: high rates of physical labor injury, limited healthcare infrastructure, concentrations of high-prescribing physicians, and economic precarity [CITATION GAP: Purdue four-characteristic targeting profile; point to the specific litigation record, not Keefe generally]. The target map reads, county by county, as a near-perfect overlay of the communities whose coal the country had already consumed and whose coal economy had already collapsed. The injury rates, the disability caseloads, the limited medical alternatives, the desperation, all of these were the predictable consequences of the earlier extraction. The second extraction wave was engineered to exploit the damage left by the first. The pattern is documented through Purdue's federal guilty pleas and the broader litigation record; Patrick Radden Keefe's *Empire of Pain* traces the family's role through that documentary record.
+
+The Sackler family extracted approximately eleven billion dollars from the company before it filed for bankruptcy. The Big Three pharmaceutical distributors, McKesson, Cardinal Health, and AmerisourceBergen, settled for twenty-one billion dollars in 2022 for their role in shipping volumes that no legitimate medical demand could explain [CITATION GAP: Sackler ~$11B extraction figure; Big Three $21B 2022 settlement; attribution for each]. These numbers do not fit on a scale with the extracted value. They describe a small fraction of it. The communities Purdue targeted are still in crisis. The hundred and forty-one overdose deaths per hundred thousand in McDowell County is not a random outcome of cultural choices. It is the numerical signature of a deliberate corporate extraction of community vulnerability, documented in the public litigation record, executed county by county, against a target map a single company drew itself.
+
+A familiar political narrative interprets these outcomes as cultural pathology, a failure of Appalachian character, a learned helplessness, a deficit in the people who live there. The Purdue litigation record is the most direct available refutation. The pattern attributed to culture follows, with precision, the sales strategy of a single corporation that identified the vulnerabilities left behind by coal extraction and built a pharmaceutical market on top of them. The culture did not choose the opioid crisis. A corporation identified the crisis as a market opportunity and supplied it with a product engineered to create dependency.
+
+It is worth naming what kind of taking this is, because it is not the same as the wage bargain that produced the black lung. When the miner sold his labor for a wage, value was extracted *through* a contract, however constrained. When Purdue mapped the wreckage and sold dependency into it, value was extracted *around* the contract entirely, by reaching past any exchange to seize what a community could no longer protect. Nancy Fraser gives this second kind of taking a name. She calls it expropriation, accumulation by means other than the wage bargain, and distinguishes it from the exploitation that runs through the wage. The distinction matters for the accounting, because it tells you that cost severance is not one act but a sequence: a community is first exploited, then, once it has been hollowed out, expropriated. Karl Polanyi saw the deeper structure underneath both. A market society, he argued, treats things that were never produced for sale, the land, the labor of human beings, the substance of a community, as though they were ordinary commodities, and then is surprised when the people and the places so treated come apart. The reef and the atmosphere and the community and the worker's body and the inheritance of the next generation are, for the purposes of this accounting, the same kind of object: something held in common that the market priced as if it were a thing to be sold. What the diagnostic tradition from Polanyi to Fraser named, this book proposes to price and to set aside in advance.
+
+Cost severance is not industry-specific. It is not coal-specific. It is not pharmaceutical-specific. It is a pattern that operates wherever the structural conditions are available: information asymmetry, target-community vulnerability, regulatory weakness, an architecture that lets accountability escape. An industry that finds these conditions in a community will produce the pattern. The specific output varies by industry. The structural function is identical. What McDowell County has lived is not one extraction but a sequence of them, each targeting what the previous one left behind.
+
+---
+
+### What McDowell County and the Chesapeake Have in Common
+
+Two hundred and fifty miles from the McDowell County courthouse, there are men who go out before dawn on the Chesapeake Bay to harvest oysters and blue crabs from water that their fathers and grandfathers worked before them. They are independent operators, most of them. They own their boats and their licenses. They are proud of their work in the same way the miners were proud of theirs, because the work is skilled and physical and essential, because it has been done in their families across generations, because the knowledge of where the crabs run and how the currents shift in late October is knowledge that took a lifetime to develop.
+
+The mechanism operating on them is different in its details: a renewable resource rather than a finite one, ecological costs rather than occupational, water rather than tunnels.
+
+But the structure is the same. The value disperses, to the restaurants in Richmond and Washington and Baltimore that serve the crab, to the consumers who eat it, to the supply chains that move it. The costs concentrate on the water, on the communities that depend on the water, on the Bay itself. The accounting system that prices the crab cake does not price what it takes to sustain the Bay that produces the crabs.
+
+The miner and the waterman do not know each other. The mechanism connecting them has no name in ordinary speech. One of the purposes of this book is to give it one.
+
+---
+
+End of Chapter 2
