@@ -98,6 +98,32 @@ the uncounted cost**. The emotional climax of the bone-sense. **HANDLING: the ma
 the author's OWN to tell (his loss) and stays on his side of the boundary; the son's and
 ex-wife's medical specifics remain off the page.**
 
+## Family legend — Blackbeard (Edward Teach) descent (HANDLE WITH NO-FABRICATION CARE; author leans "probably too far")
+Author shares (2026-06-04) a paternal-line family legend of descent from **Edward Teach
+("Blackbeard")**. **UNPROVABLE** (author: "zero way to prove it except maybe a DNA test").
+- **Hard rule:** this can NEVER be asserted as fact in publisher-facing prose. If it appears at
+  all, it must be explicitly framed as an unverified family legend.
+- **What IS historically grounded (and verify before any use):** Blackbeard was killed Nov 1718
+  at Ocracoke by Lt. Robert Maynard's Royal Navy force; his severed head was reportedly displayed
+  on a pike at the mouth of the Hampton River — the spot is still called **"Blackbeard's Point,"
+  Hampton, VA** (a strong, citable Hampton place-anchor). NOTE: the *Queen Anne's Revenge*
+  grounding (Beaufort Inlet, 1718) is, in the documented record, plausibly **Blackbeard's own
+  move to thin his crew and keep the loot** — i.e., the opposite of the family-legend "betrayed by
+  his crew / sold out for ransom" version. Any colorful detail must use the documented history,
+  not the folk version.
+- **Why it is probably wrong for the book (recommend OMIT):** (1) unprovable → only usable as a
+  hedged legend, and in a book whose entire credibility rests on *honest accounting / I do not
+  claim what I cannot prove*, a romantic unprovable family myth is a credibility LIABILITY, not an
+  asset. (2) **Moral polarity is wrong for the lineage thread:** Blackbeard is an *extractor* (he
+  severed costs onto others at gunpoint) — the opposite of the cost-bearers the thread honors (the
+  inventor grandfather, the watermen, the Darling oyster family). Putting him in the value-
+  generated-captured-by-others lineage muddies the book's moral center.
+- **The one narrow exception, if the author ever wants it (optional, not load-bearing):** NOT in
+  the lineage thread, but as a brief self-aware aside that *demonstrates* the discipline — "there
+  is a family legend I cannot prove, so I hold it as a legend, not a fact" — the author practicing
+  the honest-accounting discipline on his own mythology. And "Blackbeard's Point" is usable as
+  pure Hampton place-color independent of the descent claim.
+
 ## Open decision-chat questions (not yet answered)
 - Which moment OPENS Ch1? (Working thought: Moment 1 is the most concrete, apparatus-free,
   immediately-graspable injustice — a candidate opener — with the arc moving inward to Moment 2
