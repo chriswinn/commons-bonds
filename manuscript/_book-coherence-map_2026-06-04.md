@@ -201,3 +201,16 @@ These are the **same object** (a destroyed commons) priced backward via the Rest
 **Literature-matrix centerpiece:** Polanyi (+ Fraser's expropriation/social-reproduction extension) *diagnosed* the treating-of-labor-and-land-as-commodity; the framework's contribution is to **price** that severed cost and **reserve** against it. This is a top cell of the contribution matrix (type A).
 
 **Implication for the worked cases:** the framework runs on BOTH kinds of commons (ecological + human), forward + backward. McDowell can carry forward (foreclosure on the carbon/ecological commons) AND backward (restitution on the human commons) cleanly — two commons, not one-commons-two-instruments. The reef retains the author's-standing advantage for drafting the backward case. They are the same move.
+
+---
+
+## The framework as ONE QUESTION, two directions (added 2026-06-04, author synthesis) — reader-takeaway distillation + the coercion resolution
+
+The coercion-handling resolution (prong 1 = the deferral; prong 2 = same-mechanism-not-same-worth + Polanyi re-embedding + the two-reasons layering [moral, deferred + stability, the framework's]) generalizes into the framework's through-question: **"Am I actually looking at the full honest accounting?"** — asked in two directions, at any scale, on any world:
+
+- **Backward (Restitution Bond):** what has been harmed, severed, taken advantage of — how do we rebalance it / restore it to whom it was taken from, deferring the moral weight to those with standing?
+- **Forward (Foreclosure Bond / decision heuristic):** for myself / my community / my country / my off-world colony — does this make sense, how will it affect our long-term survivability, am I severing costs I am not counting?
+
+This single question CONTAINS much of the book: the scale-invariance keystone (myself→community→country→colony = same ledger, any scale/world); the two instruments (backward rebalance / forward decide); the reserves + deep-time/survivability thread (asteroid air, Norway principal, the billion-year horizon = don't foreclose your own/your descendants' survival); the floor discipline + Four Gates ("am I counting ALL the severed costs"); and the title resolution (the bond is what you owe across distance and time once you have looked). The coercion case is not a special exception — it is this same question turned backward with the moral weight deferred.
+
+Landing-point homes: **K (reader-takeaway)** — the reader leaves able to run this question on their own decisions — and a strong candidate framing for the **close** and a one-line reader-facing distillation of the whole framework. Author's articulation 2026-06-04 is near book-ready: *"does this make sense for myself, my community, my country, my off-world colony; how will this affect our long-term survivability; am I actually looking at the full honest accounting?"* Treat as candidate close/distillation prose (essay-harvest discipline: capture the crisp articulation).
