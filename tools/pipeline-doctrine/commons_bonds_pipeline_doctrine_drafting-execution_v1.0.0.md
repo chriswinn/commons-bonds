@@ -1,13 +1,13 @@
 ---
 artifact: Drafting-execution doctrine — decision/draft split + whole-cloth-over-graft + fresh-focused-pass-for-prose
-status: PROPOSED (2026-06-04) — awaiting author ratification
+status: RATIFIED 2026-06-04 — standing rule for ALL future publisher-facing drafting
 date: 2026-06-04
 trigger: Aeon "The Mask of Abundance" build, this session. The DECISION process (what hooks, what voice, what earns its place) was strong; the DRAFTING execution (assemble from grafts + patch live) cost flow. Surfaced as the bridge from the Aeon work into the book-chapter redrafts + literary-agent samples.
 extends: feedback_substance_drives_length.md (min-floor-only / no-max generation corollary, ratified 2026-06-03); the Amendment-E new pipeline (gather → material-readiness → allocate → plan → generate min-only → cut → cascade).
-scope: applies to publisher-facing prose generation, especially the upcoming book-chapter redrafts.
+scope: ALL future publisher-facing drafting (book chapters, essays, op-eds, agent/editor-facing prose). Author ratified 2026-06-04 as a standing rule for all drafting, not only the chapters phase ("points 1, 2 and 3 should go for all future drafting").
 ---
 
-# Drafting-execution doctrine (PROPOSED)
+# Drafting-execution doctrine (RATIFIED 2026-06-04)
 
 Three rules, learned by backing into them during the Aeon build. They govern HOW prose
 gets made once the substance is known; they sit downstream of Stage 0/1 (conception +
@@ -92,6 +92,8 @@ No hard ceiling per chapter (per the min-floor corollary) — write rich, cut la
 
 ## Ratification
 
-PROPOSED 2026-06-04. On author ratification, fold the durable core into
-`feedback_substance_drives_length.md` (or a dedicated memory entry) so it travels across
-sessions, and reference it from the chapters-phase kickoff.
+RATIFIED 2026-06-04 by author direction ("points 1, 2 and 3 should go for all future
+drafting … it really did turn out something interesting"). Applies to all publisher-facing
+drafting going forward. Durable core to be mirrored into the memory layer (sibling to
+`feedback_substance_drives_length.md`) so it travels across sessions; referenced from the
+chapters-phase kickoff.
