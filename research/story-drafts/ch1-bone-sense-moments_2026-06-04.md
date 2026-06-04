@@ -11,8 +11,24 @@ Five moments, the same bone-sense at five registers — and they are the book in
 - **(1) the credentialed colleague** — coercion (cost-bearer knows, is forced; freedom constrained)
 - **(2) the 1,300-hour commute** — the framework's birth: the *real* cost, including the uncounted
 - **(3) the oyster shells / reef** — the commons + Restitution (author's Hampton / J.S. Darling standing)
-- **(4) slavery / Harriet Tubman / Fort Monroe** — the moral floor of coercion
-- **(5) pulled from his family in crisis** — cost-severance come home; healthcare; the personal climax
+- **(4) slavery / Harriet Tubman** — the moral floor of coercion
+- **(5) pulled from his family in crisis** — cost-severance come home; healthcare; **it cost the marriage** — the personal climax
+
+**Connective thread (author, 2026-06-04) — the inherited lineage of generative labor.** Across
+three generations — grandfather (LaVern E. Winn, NASA Langley inventor, name on the patents),
+father, and the author — Winns pulled long hours and generated value while OTHERS took the fame
+and the fortune it produced. This is **not a sixth moment; it is the autobiographical CHARGE
+under the whole bone-sense** — already carried by the colleague (1) and Tubman (4). It gives the
+grandfather/wind-tunnel material (already in Ch1) its emotional purpose: the grandfather is the
+*first instance of the family pattern*, not merely a lineage-credit nod. The bone-sense may be
+*inherited* — "I had no words for it, but I had been handed the feeling." **HANDLING:** draw from
+real family knowledge; do NOT invent the grandfather's/father's feelings or grievance — the
+THREAD is the author's reading, the specifics his to supply. **Must hold the scale-distinction
+(the book's coercion guard):** the Winn salaried-inventor pattern and slavery are the *same
+structural vector* (value generated, captured by others) at *incomparable* moral weights — name
+the structural rhyme, never flatten the difference. (NASA inventors' patents are typically
+government-assigned; frame "others captured the fortune" as the structural pattern of salaried
+invention, not a claim a specific party stole from the grandfather.)
 
 ## The moments
 
@@ -43,20 +59,26 @@ when returned to the water.** The author is a child of Hampton, part of the comm
 "crab town" that is said to have *invented meat canning*. The bone-sense: the regenerative
 substrate carted off to build boardwalks — the reef's capacity removed, the value captured
 cheaply elsewhere. → **Ch3 (Waterman) load-bearing + author's STANDING for the reef Restitution
-case.** **HANDLING: the shells→reef restoration claim is an UNVERIFIED "wives' tale" per the
-author — present as "what I was told growing up," hedged, NOT as fact. The J.S. Darling facts
-(1884; "largest oyster business"; meat-canning-invention; boardwalk paving) need sourcing →
-research sweep / Ch3 needs-research. Place names safe.**
+case.** **HANDLING (UPDATED 2026-06-04 — author): the shells→reef restoration claim is
+SCIENTIFICALLY SUPPORTED, not folklore.** Recycled oyster shell as regenerative substrate /
+cultch for reef rebuilding is established Chesapeake restoration science. **Drop the "wives'
+tale" hedge; state it as fact WITH a citation** (source the specific restoration science →
+Ch3 needs-research). This *strengthens* the reef Restitution case — the severed cost (the
+regenerative substrate carted off for boardwalks) is real and the remedy is documented, not
+mythic. The J.S. Darling facts (1884; "largest oyster business"; meat-canning-invention;
+boardwalk paving) also need sourcing. Place names safe.
 
-**4. Slavery, Harriet Tubman, Fort Monroe.** The author cannot speak of people being taken
-advantage of without naming systemic racism and slavery — and the stories of Harriet Tubman,
-who worked at/near **Fort Monroe** off the Hampton coast, and the Underground Railroad. The
-wrongness is not only the theft of freedom but the theft of **the choice of how to live one's
-life** — forced labor for another's gain. → The **moral floor of the coercion vector**; the
-backward/Restitution direction. **HANDLING: historical record (deceased; public record) —
-nameable. VERIFY the Tubman / Fort Monroe specifics (Tubman's Civil-War service at Fort Monroe)
-before stating as fact → research sweep. Fort Monroe = "Freedom's Fortress" / 1861 contraband
-decision is a strong, verifiable Hampton anchor.**
+**4. Slavery and Harriet Tubman.** The author cannot speak of people being taken advantage of
+without naming systemic racism and slavery — and the stories of **Harriet Tubman: a free woman
+(she had escaped slavery) who worked the Underground Railroad, the network that smuggled
+enslaved people north to freedom** (author clarification 2026-06-04). The wrongness is not only
+the theft of freedom but the theft of **the choice of how to live one's life** — forced labor
+for another's gain. → The **moral floor of the coercion vector**; the backward/Restitution
+direction. **HANDLING: historical record (deceased; public record) — nameable. State Tubman
+accurately as a formerly-enslaved free woman + Underground Railroad conductor (this is solidly
+documented). If the Fort Monroe / Hampton connection is used (Tubman served at Fort Monroe as a
+nurse/scout during the Civil War), VERIFY the specifics → research sweep. Fort Monroe =
+"Freedom's Fortress" / 1861 contraband decision is a strong, verifiable Hampton anchor.**
 
 **5. Pulled from his family in crisis. (HANDLE WITH GREATEST CARE.)** The most painful moments
 of the author's life: being pulled away from his son and then-wife during a premature birth and
@@ -67,10 +89,14 @@ pulled away by work at the worst moment, and the retrospective clarity that the 
 house" carried a hidden cost — that a tiny house on the coast, in the woods, or a boat would
 have let him quit and stay afloat through the crisis for a time. And the brutal honest coda:
 even at $400k/year he could **not** have afforded the year-plus of surgeries and rehabilitation
-eventually required. → **Cost-severance come home**: the invisible house-math (Moment 2 made
-unbearably personal) + **healthcare cost-severance** (the system fails even high earners). The
-emotional climax of the bone-sense. **HANDLING: author tells only his own frame; the family's
-medical specifics are off-limits.**
+eventually required. **And the deepest cost (author, 2026-06-04): it also cost him his
+marriage.** The severance did not stop at money and presence; the accumulated cost — the house,
+the hours, the absence at the worst possible moment — ended the marriage. → **Cost-severance
+come home**: the invisible house-math (Moment 2 made unbearably personal) + **healthcare
+cost-severance** (the system fails even high earners) + **the marriage as the truest measure of
+the uncounted cost**. The emotional climax of the bone-sense. **HANDLING: the marriage ending is
+the author's OWN to tell (his loss) and stays on his side of the boundary; the son's and
+ex-wife's medical specifics remain off the page.**
 
 ## Open decision-chat questions (not yet answered)
 - Which moment OPENS Ch1? (Working thought: Moment 1 is the most concrete, apparatus-free,
