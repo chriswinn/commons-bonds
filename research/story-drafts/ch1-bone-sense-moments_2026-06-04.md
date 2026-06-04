@@ -142,8 +142,11 @@ author's direct instruction).** What IS the author's to tell: *his own* experien
 pulled away by work at the worst moment, and the retrospective clarity that the "beautiful
 house" carried a hidden cost — that a tiny house on the coast, in the woods, or a boat would
 have let him quit and stay afloat through the crisis for a time. And the brutal honest coda:
-even at $400k/year he could **not** have afforded the year-plus of surgeries and rehabilitation
-eventually required. **And the deepest cost (author, 2026-06-04): it also cost him his
+even in his BEST years — when salary plus commission together reached about $400,000 (NOT a steady
+annual salary; the peak of best years only, author clarification 2026-06-04) — he could **not** have
+afforded the year-plus of surgeries and rehabilitation eventually required. *(This strengthens the
+beat: it is the absolute ceiling of his earning, not a typical year, that still fell short — the
+healthcare cost-severance point lands harder for being the peak.)* **And the deepest cost (author, 2026-06-04): it also cost him his
 marriage.** The severance did not stop at money and presence; the accumulated cost — the house,
 the hours, the absence at the worst possible moment — ended the marriage. → **Cost-severance
 come home**: the invisible house-math (Moment 2 made unbearably personal) + **healthcare
