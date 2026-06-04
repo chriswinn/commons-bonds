@@ -1,6 +1,6 @@
 ---
 name: Substance drives length — no arbitrary word-count targets for Commons Bonds chapters
-description: When drafting or revising chapters, focus on getting the content the chapter needs to land. Do not optimize for hitting a word-count target; let substance determine length. Generation-stage corollary (ratified 2026-06-03): give a MINIMUM word floor only and NEVER a maximum — a minimum safely pulls length up without compressing prose; a maximum forces compression and damages prose. Length belongs in a separate post-generation cut pass, not as a generation constraint.
+description: When drafting or revising chapters, focus on getting the content the chapter needs to land. Do not optimize for hitting a word-count target; let substance determine length. Generation-stage corollary (ratified 2026-06-03): give a MINIMUM word floor only and NEVER a maximum — a minimum safely pulls length up without compressing prose; a maximum forces compression and damages prose. Length belongs in a separate post-generation cut pass, not as a generation constraint. Cut-stage corollary (ratified 2026-06-04): cuts are item-driven, never target-driven — remove only what does not earn its place; a cut target is just a maximum at the cut stage and does the same damage; tier word-counts in deep-pass memos are "what to cut," not a length to hit.
 type: feedback
 originSessionId: e80d97a6-c4f7-492b-98ce-8bd950f7d0b9
 ---
@@ -56,3 +56,38 @@ In all three, the floor pulled length up to the extent substance supported and
 never squeezed prose down. The danger case (high floor + thin substance →
 padding/invention) did not occur, because the full front-end (gather + verified-
 facts block) front-loaded enough real substance to fill the floor with depth.
+
+## Cut-stage corollary (ratified 2026-06-04): cuts are item-driven, never target-driven
+
+The no-maximum discipline applies symmetrically to **cutting**, not just
+generation. A cut target ("cut ~1,500–2,000w," "get it down to ~7,470w") is just
+a maximum imposed at the cut stage, and it does the same damage: it pressures the
+cutter to over-cut to hit a number, stripping material that earns its place to
+satisfy an arithmetic goal.
+
+**The correct framing of any cut is item-driven, not target-driven.** Remove
+*only what does not earn its place* — the specific duplicated scenes, redundant
+vignettes, and digressions that a deep-pass / developmental read names by name.
+The resulting length is the **output** of that judgment, never its goal. A chapter
+may even *grow* during a "cut" pass where a beat needs more room (a positioned
+matrix cell, a landing point, a framework naming) — and that is correct.
+
+**Tier/landing word-counts in deep-pass memos are NOT cut targets.** They indicate
+*which items* the analysis judged non-earning; they are a by-product of the item
+list, not a length to aim at. Read them as "here is what to cut," never as "cut to
+this number."
+
+**Why this is the same principle.** Whether the constraint is imposed at
+generation ("max 8k") or at the cut stage ("cut to 8k"), a length ceiling forces
+compression, and compression produces the cut-to-fit damage (dropped scene
+anchors, flattened reasoning, lost breath) that Pass 3.5 then has to repair. The
+author's framing has been consistent and emphatic across both stages: a maximum
+"will cause all sorts of bad things to happen to the prose."
+
+**Empirical anchor (2026-06-04):** during chapter-redraft prep, a Ch1 brief framed
+the sprawl cut as "~1,500–2,000w" and the overnight test-draft workflow's drafters
+read deep-pass memos carrying tier word-counts. Author caught both as a maximum
+smuggled back in ("remember we have proven again and again a maximum leads to bad
+prose. so just remove the upper bound completely"). The workflow was stopped and
+relaunched with cuts re-specified as item-driven (the memo word-counts explicitly
+flagged "what to cut, not a length to hit"; length an output that may grow).
