@@ -55,7 +55,7 @@ Rationale: the essay is a downstream marketing instrument for the content-comple
 ## Verified facts block (use these; do not exceed them)
 
 **Abundance-mask anchors (web-verified 2026-06-02):**
-- Saturation/deep-sea divers breathe heliox; helium ~$1.70–$2.75 / cubic foot; ~$80–$200 / hour for the helium alone; ships run helium-reclaim rigs. (Depth hazard: nitrogen turns narcotic, oxygen turns toxic — phrase carefully.)
+- Saturation/deep-sea divers breathe heliox; helium ~$1.70–$2.75 / cubic foot; ~$80–$200 / hour for the helium alone (older ~2000 estimate; helium prices have risen since, so the low end is doubly conservative); ships run helium-reclaim rigs. **ESSAY USES THE LOW END (~$80/hr, $1.70/cf) per the Ch 8:28 conservative-floor discipline ("where estimates have a range, I use the lower figure"); NOT the $200 high end.** (Depth hazard: nitrogen turns narcotic, oxygen turns toxic — phrase carefully.)
 - Biosphere 2 (1991–93): 8 crew; ~3 acres sealed glass; ~$150M; oxygen fell 21% → 14% over 16 months (soil-microbe respiration + CO₂ binding into concrete); managers pumped O₂ in; 19 of 25 vertebrate species died; all pollinators died (crops hand-pollinated).
 - ISS: lifting water to orbit ~$21,000 / kg; a six-month supply ~$135M (order-of-magnitude); life-support recycles ~90% of crew sweat + urine; oxygen made by electrolysis of water.
 - Air is ~21% oxygen; ISS orbits a few hundred km up.
