@@ -1,0 +1,1107 @@
+[
+ {
+  "unit": "Ch1",
+  "refs": [
+   {
+    "claiming_text": "I did not understand, at thirty-eight, on that plane, that this was the math the framework would later let me put a number on. I just knew the math was there.",
+    "target": "the book / framework chapters (unspecified \u2014 implied Ch6/Ch8/Ch9 quantification machinery)",
+    "what_promised": "The framework will let the author put a number on 'this math' \u2014 the personal/relational cost set up by the surrounding narrative: the lost years with his son, the marriage that did not survive, the 1,300 commute hours ('time enough to fall out of love'), the dying-parents/disappearing-son tradeoff. The implicit promise is that the book quantifies the author's OWN lived/relational cost.",
+    "status": "dangling",
+    "note": "No chapter ever puts a number on the author's personal/relational cost. Searched all 10 chapters for NICU/my-son/commute-hours/marriage quantification: 11 hits in Ch1 (setup) and 0 in every other chapter. The framework's actual quantification machinery (carbon tail at $190/ton CO2; black-lung actuarial cost; the 33x-122x and IPG ratios) is applied exclusively to commodities and commons \u2014 coal tons (Ch6 \u00a7, Ch8 \u00a7178), oil (Deepwater IPG 15-17), rare earths (Baotou), vermiculite (Libby IPG 40-80) \u2014 never to a human relationship or to the author's life. The closest the book comes is Ch10's return to the author's grandfather/model-maker lineage (Ch10 lines 66-70) and folding the author implicitly into the gallery of cost-bearers (the waterman who 'runs a mechanic shop because the math of the morning will no longer carry the family'), plus Ch1's own closing reframe ('an honest accounting... It does not undo it'). But that is a thematic/qualitative honoring of the cost, not the literal 'put a number on' the sentence promises. The substance the promise gestures at \u2014 a quantified personal accounting \u2014 exists nowhere; only the commodity-side quantification exists. This is the central motioned-at-but-absent item: the memoir frame promises the framework will price the author's own life, and the framework only ever prices things."
+   },
+   {
+    "claiming_text": "The chapters that follow walk through it carefully, at different scales, against different cases.",
+    "target": "Ch2-Ch10 (the chapters that follow)",
+    "what_promised": "Subsequent chapters apply the framework at different scales against different concrete cases.",
+    "status": "delivered",
+    "note": "Genuinely delivered. Ch2 = McDowell County coal miner (single-community scale); Ch3 = waterman/Chesapeake (fishery scale); Ch4 = existence proof; Ch5 = six cases across geography/industry/decades (Libby vermiculite, Deepwater oil, Baotou rare earth, 2008 financial system, Social Security, healthcare); Ch6/Ch8 = per-ton cost decomposition; Ch9 = pricing-honestly policy architecture; Ch10 = the full gallery of cost-bearers across continents. 'Different scales, different cases' is accurate."
+   },
+   {
+    "claiming_text": "I had options a coal miner in McDowell County does not have.",
+    "target": "Ch2 (The Miner)",
+    "what_promised": "A coal miner in McDowell County is a real case the book engages \u2014 implicitly the contrasting bearer of severed cost.",
+    "status": "delivered",
+    "note": "Ch2 (The Miner) is entirely the McDowell County coal-miner case: Kennedy's 1960 drive-through, Robert Bailey's 36 years underground, black lung, population collapse 100,000 to under 20,000, the unpriced transition cost. The McDowell miner is fully realized as the framework's anchor case."
+   },
+   {
+    "claiming_text": "The work of naming what hides behind a mask \u2014 Dunbar's mask, Du Bois's veil \u2014 is older than this book. Black American writing has carried that work for over a century. The framework extends the move into the pricing of commons. The pricing is new; the move is old.",
+    "target": "the book (unspecified \u2014 where the lineage is engaged; in fact Ch8)",
+    "what_promised": "The book engages the Dunbar 'mask' / Du Bois 'veil' lineage of Black American writing and positions the framework as extending that move into commons-pricing.",
+    "status": "delivered",
+    "note": "Delivered, most rigorously in Ch8 lines 94-96: Dunbar's 'We Wear the Mask' (1896) quoted verbatim and tied to the miner told 'the dust is better now'; Du Bois named 'the structural condition' in The Souls of Black Folk (1903); Fanon (Black Skin, White Masks 1952) and Ellison (Invisible Man 1952) extended; explicit framing 'The framework adds the cost-accounting mechanism by which the mask remains structurally necessary' \u2014 exactly the 'extends the move' promise. Ch7 line 123 separately develops 'abundance masking' as architecture-not-perception (related 'mask' usage). The promise names no concrete chapter home in Ch1's own text, but the lineage IS carried (Ch8), so status is delivered rather than target-unspecified. (Note: Ch10's Dunbar-Ortiz reference is a different person \u2014 Roxanne Dunbar-Ortiz, Indigenous-studies \u2014 not Paul Laurence Dunbar; not part of this lineage.)"
+   },
+   {
+    "claiming_text": "The framework in this book is how I learned to account for what happened. ... It is an honest accounting.",
+    "target": "the book (framework as a whole)",
+    "what_promised": "The book contains a framework that constitutes an 'honest accounting' of severed/unpriced cost.",
+    "status": "delivered",
+    "note": "Delivered as the book's through-line. The 'honest accounting' / cost-severance / unpriced-cost vocabulary is developed across Ch2 (unpriced transition cost = subsidy), Ch5 (accountability gap, six cases), Ch6 (three ways of counting), Ch8 (what things actually cost), Ch9 (pricing honestly), Ch10 ('structure an honest accounting in a vocabulary the parties... can use'). The framework-as-honest-accounting promise is the book's spine and is carried throughout. (Caveat: 'how I learned to account for WHAT HAPPENED' to the author personally overlaps the dangling personal-quantification promise above \u2014 the framework accounts for the GENERAL mechanism honestly, but never accounts for the author's specific 'what happened' with a number.)"
+   },
+   {
+    "claiming_text": "[KNOWN-anchor (a)] 2008 / TARP / Dodd-Frank engagement 'lives in the Technical Appendix'",
+    "target": "Technical Appendix (per the task's known-anchor hypothesis)",
+    "what_promised": "Per the audit brief: a claim somewhere that the 2008/TARP/Dodd-Frank engagement lives in the TA.",
+    "status": "target-unspecified",
+    "note": "NOT A Ch1 CROSS-REFERENCE. Ch1 makes no mention of 2008, TARP, Dodd-Frank, bailout, or the financial crisis anywhere (grep across full chapter: 0 hits). The substantive 2008/TARP/Dodd-Frank engagement lives in Ch5 (The Accountability Gap, lines 76-98: the double risk transfer, $700B TARP, $16T Fed lending, ~10M foreclosures, the agency/global/repayment/Dodd-Frank objection-handling, Sweden 1930s comparison) and Ch5 routes its forward-development to Ch9 ('Chapter 9 will name it as one of the entering wedges'). The TA does carry 2008/TARP-related terms (16 hits) as supporting material. But since the audit unit is Ch1 and Ch1 makes no such claim, this anchor is out of scope for Ch1 \u2014 flagged here as target-unspecified so it is not lost: if a 'lives-in-the-TA' claim exists, it originates in Ch5, not Ch1, and should be audited against Ch5's outgoing references."
+   },
+   {
+    "claiming_text": "[KNOWN-anchor (b)] Sandel 'engaged elsewhere'",
+    "target": "unspecified ('elsewhere')",
+    "what_promised": "Per the audit brief: a Sandel 'engaged elsewhere' claim that names no concrete home.",
+    "status": "target-unspecified",
+    "note": "NOT A Ch1 CROSS-REFERENCE and Sandel is absent from the entire book. Ch1 never mentions Sandel. Confirmed Sandel = 0 hits across all 10 chapters AND the Technical Appendix. So any 'Sandel engaged elsewhere' promise (wherever it is made in the corpus) is genuinely dangling/target-unspecified \u2014 Sandel appears in no chapter and no appendix. But the claim does not originate in Ch1; it must be made by another unit (likely a cover letter, essay, or another chapter's prose that this Ch1 audit did not source). Flagged here so it is not lost: the underlying fact (Sandel nowhere in the book) is confirmed, so wherever the claim lives it is dangling."
+   }
+  ]
+ },
+ {
+  "unit": "Ch2",
+  "refs": [
+   {
+    "claiming_text": "Chapter 8 walks the floor-estimate version of this calculation through the framework's full cost-decomposition for one specific ton of McDowell County coal in 1960; the per-ton honest price that chapter calculates lands at the upper end of this range.",
+    "target": "Ch8",
+    "what_promised": "Ch8 performs the full floor-estimate cost-decomposition for one ton of McDowell County coal in 1960, and the resulting per-ton honest price lands at the upper end of the 33-122x range Ch2 cites.",
+    "status": "delivered",
+    "note": "Ch8 explicitly returns to McDowell County 1960 (4-5 dollar mine-mouth price), walks each C\u1d62 component conservatively as a floor ('the smallest honest number the framework can defend'), totals $510/ton (line 168), and states the Intergenerational Pricing Gap 'sits somewhere between thirty-three and one hundred and twenty times the 1960 sale price' (line 172). The $510 floor against a ~$4 1960 price is ~122x, i.e. the upper end of the range \u2014 exactly as promised. Fully delivered."
+   },
+   {
+    "claiming_text": "Distance is one of several arrangements that hide cost from honest accounting; Chapter 7 walks through more of them, by examining what happens when all of them collapse at once.",
+    "target": "Ch7",
+    "what_promised": "Ch7 enumerates more of the arrangements (beyond geographic distance) that hide cost from honest accounting, and examines what happens when all of them collapse simultaneously.",
+    "status": "delivered",
+    "note": "Ch7 \u00a7'What cost severance requires' (lines 107-131) names six patterns \u2014 geographic distance, temporal asymmetry, informational asymmetry, power asymmetry, normative routinization, abundance masking \u2014 and the Mars thought-experiment shows 'none of the six patterns can produce concealment' on a closed habitat: each collapses by construction (lines 125-127). This is precisely the 'all of them collapse at once' move Ch2 promises. Fully delivered."
+   },
+   {
+    "claiming_text": "None of these figures includes what happens when the coal is burned. We'll return to that.",
+    "target": "unspecified",
+    "what_promised": "The book will later account for the combustion (carbon) tail of burning the coal, which the McDowell ledger in Ch2 omits.",
+    "status": "delivered",
+    "note": "Names no concrete home ('We'll return to that'), so target is nominally unspecified \u2014 but the combustion tail is unambiguously delivered in Ch8 (lines 72-82): 2.61 metric tons CO\u2082 per short ton at $190/ton SCC = ~$496/ton carbon term, explicitly the dominant component of the $510 floor. The substance lands; only the pointer is vague. Treating as delivered since the promised content is concretely carried downstream."
+   },
+   {
+    "claiming_text": "We will see intergenerational cost severance in later chapters.",
+    "target": "later chapters (unspecified)",
+    "what_promised": "Later chapters will develop intergenerational cost severance (the gap between present value extraction and future cost-bearing), the temporal counterpart to the spatial cost severance Ch2 demonstrates.",
+    "status": "delivered",
+    "note": "Names no specific chapter, but 'intergenerational' is developed extensively in later chapters: Ch4 (6 occurrences), Ch5 (11), Ch7 (7 \u2014 including temporal asymmetry as a named cost-hiding pattern), Ch8 (3), Ch9 (5). The promised theme is genuinely carried. Pointer is generic ('later chapters') but substance is amply delivered."
+   },
+   {
+    "claiming_text": "These three terms \u2014 cost severance, severed cost, value extraction \u2014 will appear throughout this book ... we will use it in every chapter that follows.",
+    "target": "the book / every chapter that follows",
+    "what_promised": "The three coined vocabulary terms recur throughout the book, in every chapter following Ch2.",
+    "status": "delivered",
+    "note": "Verified across the corpus: Ch4 (10 'cost severance'), Ch5 (30), Ch6 (10), Ch7 (15), Ch8 (severed cost x7, cost severance x1), Ch9 (9), Ch10 (cost severance x1, severed cost x1, value extraction x1). The one chapter where the exact space-delimited phrase 'cost severance' is absent is Ch3 (the immediately following chapter) \u2014 but Ch3 carries the vocabulary in inflected/conceptual form: 'the cost-severance pattern this book is tracking' (hyphenated adjective, line 186), 'without severing the costs of the extraction' (line 234), 'the mechanism this book is naming' (lines 222, 234). The term and mechanism are present and named in every following chapter; promise holds. Minor note: a strict exact-string reading would flag Ch3 as the weakest instance, but the conceptual vocabulary is genuinely present there."
+   }
+  ]
+ },
+ {
+  "unit": "Ch3",
+  "refs": [
+   {
+    "claiming_text": "The chapter on McDowell County described this same pattern from the inside of the hollow. The accent is different. The work is different. The pattern is not.",
+    "target": "Ch2",
+    "what_promised": "Ch2 (The Miner) presents the cost-severance pattern 'from the inside of the hollow' \u2014 value extracted, costs concentrated on the community/bodies left behind \u2014 i.e., the same structural pattern Ch3 is tracing on the water.",
+    "status": "delivered",
+    "note": "Ch2 carries this fully and explicitly. It documents McDowell County's value-out/costs-stay pattern (Ch2 line 26: 'The value that came out of McDowell County's mountains dispersed across a continent. The costs stayed in the hollows between them.'), the black lung / community-collapse / orange-creek cost categories (lines 62-100), names the mechanism 'cost severance' (lines 136-138), and even contains a dedicated section 'What McDowell County and the Chesapeake Have in Common' (line 218ff) that names the waterman parallel directly. Backward reference is genuine and well-supported."
+   },
+   {
+    "claiming_text": "I went back to McDowell County, in my mind, while I was finishing this chapter. The miner who developed black lung was not compensated for the lung. He was paid for the coal. ... It is the same thought the men in McDowell County had been thinking for two generations before the books got written about them.",
+    "target": "Ch2",
+    "what_promised": "The specific McDowell facts the closing invokes \u2014 miner with black lung paid for coal not the lung, community emptied out, river running orange below the closed mine \u2014 are established in Ch2 as 'accounting facts.'",
+    "status": "delivered",
+    "note": "All three load-bearing specifics are anchored in Ch2: black-lung miner paid for coal not the lung (Ch2 lines 30-34, 62-70, 198), the community emptying/population collapse (Ch2 lines 42, 92-106), and the creek running orange from acid mine drainage (Ch2 lines 78-80). The Ch3 closing draws on Ch2's substance accurately; no drift."
+   },
+   {
+    "claiming_text": "That country is Norway. It is the closest thing the world currently has to an existence proof: a working demonstration ... that the mechanism this book is naming is not inevitable.",
+    "target": "Ch4",
+    "what_promised": "Implicitly points to Ch4 'The Existence Proof' \u2014 that Norway is a working demonstration that cost severance is not inevitable (rents captured at source, future not spent, costs not severed onto the commons community).",
+    "status": "delivered",
+    "note": "Ch4 is titled 'The Existence Proof' and delivers exactly this: Norway as the existence proof that 'cost severance is a policy choice' / 'the mechanism is interruptible' (Ch4 lines 18, 70, 132), the sovereign-fund architecture capturing rents at source and preserving capital in perpetuity (lines 24-36), and the explicit framing 'Norway is an existence proof, not a solution' (line 114). The 'existence proof' framing and the not-inevitable claim are fully carried."
+   },
+   {
+    "claiming_text": "But the question the chapter that follows is going to ask is whether the instrument that was built in Oslo could, in some adapted form, be built for the Bay. Whether what was done for the oil could be done for the oyster. ... That is the question the next chapter takes up.",
+    "target": "Ch4",
+    "what_promised": "The next chapter (Ch4) will take up whether the Norwegian/Oslo fund instrument could, in adapted form, be built FOR THE CHESAPEAKE BAY \u2014 'what was done for the oil could be done for the oyster.'",
+    "status": "dangling",
+    "note": "Ch4 does NOT take up this question. A grep of Ch4 for Chesapeake / oyster / waterman / Bay / fishery / crab / 'adapt' / 'built for' returns ZERO hits \u2014 the word 'oyster' never reappears in Ch4. Ch4 establishes Norway as existence proof, then pivots to Nigeria (the mirror image), U.S. Social Security (architecture-is-a-choice), and the gaps Norway has NOT solved (foreclosure, externality tail, global distribution), and at its close (Ch4 line 136) hands off to Ch5's industrial cases (Libby, Deepwater Horizon, Exxon Valdez, Baotou) \u2014 not to any Chesapeake/oyster adaptation. The specific applied move Ch3 promises ('done for the oyster' / 'built for the Bay') is not delivered by the named target. Nor is it carried downstream: Ch9 (Pricing Honestly) and Ch10 (Common Bonds) reprise the waterman only as a recurring exemplar of the cost-severance diagnosis (Ch9 line 284; Ch10 lines 42, 144) and discuss other architectures (Mondragon, in-situ preservation) \u2014 neither builds or even sketches a Norway-style fund instrument specifically for the Chesapeake/oyster fishery. The promised adaptation substance currently lives in NO unit; it is motioned-at in Ch3 and absent everywhere. This is the primary integrity gap in Ch3's outgoing references. Recommended remediation: either soften the Ch3 forward promise to match what Ch4 actually does (asks whether the Norwegian instrument generalizes, takes the question into other cases), or add the Chesapeake/oyster-adaptation treatment to the target chapter."
+   },
+   {
+    "claiming_text": "the cost-severance pattern this book is tracking / the mechanism this book is naming / the accounting this book is trying to make visible / some future the framework is trying to make conceivable",
+    "target": "the book",
+    "what_promised": "Diffuse self-references to the book's overall project (naming cost severance, making the accounting visible). Point at the whole book, not a concrete chapter.",
+    "status": "target-unspecified",
+    "note": "These are book-level/framework-level self-references, not unit-pointing cross-references, so there is no specific chapter target to verify against. The underlying concepts ARE delivered across the corpus (cost severance is defined in Ch2 lines 136-138; the framework/existence-proof logic in Ch4). Listed here for exhaustiveness; not a dangling promise \u2014 they name no concrete home and require none. Note also: 'before the books got written about them' (Ch3 line 212) refers to external literature on McDowell County, not a Commons Bonds unit."
+   },
+   {
+    "claiming_text": "[KNOWN-ANCHOR CHECK] 2008/TARP/Dodd-Frank engagement 'lives in the Technical Appendix'",
+    "target": "TA",
+    "what_promised": "Task-flagged anchor to confirm: a claim routing 2008/TARP/Dodd-Frank engagement to the Technical Appendix (which the TA does not carry).",
+    "status": "delivered",
+    "note": "NOT APPLICABLE TO Ch3 \u2014 this anchor does not appear in Ch3. A grep of Ch3 for TARP / Dodd / 2008 / Technical / Appendix returns zero hits. Ch3 makes NO Technical Appendix reference of any kind. (Status marked 'delivered' only in the narrow sense that there is no Ch3 promise to be dangling; the flagged TARP/TA-dangling problem is a Ch5-original issue, not a Ch3 outgoing reference. Confirming per task instruction that Ch3 does not carry it.)"
+   },
+   {
+    "claiming_text": "[KNOWN-ANCHOR CHECK] Sandel 'engaged elsewhere'",
+    "target": "unspecified",
+    "what_promised": "Task-flagged anchor to confirm: a Sandel 'engaged elsewhere' claim (Sandel appears in no chapter).",
+    "status": "delivered",
+    "note": "NOT APPLICABLE TO Ch3 \u2014 Sandel does not appear in Ch3 at all (grep for 'Sandel' returns zero hits in the chapter body). Ch3 makes no 'engaged elsewhere' Sandel promise. (Status 'delivered' in the narrow sense that there is no Ch3 promise here to dangle.) Confirming per task instruction that Ch3 does not carry the Sandel reference; that anchor belongs to other units."
+   }
+  ]
+ },
+ {
+  "unit": "Ch4",
+  "refs": [
+   {
+    "claiming_text": "It proves, among other things, that cost severance is a policy choice... Appalachia is one outcome. Norway is another.",
+    "target": "Ch2",
+    "what_promised": "An Appalachian cost-severance outcome (McDowell County coal) established as the contrasting case the Norway proof is measured against.",
+    "status": "delivered",
+    "note": "Ch2 (The Miner) carries McDowell County / Appalachia / coal extensively (50 hits on mcdowell/appalachia/coal; opens on Kennedy in McDowell County 1960, surplus-commodity poverty, displaced miners). The Appalachian outcome the Ch4 contrast leans on is genuinely there. Ch4 names no chapter explicitly, but the substance lives in Ch2."
+   },
+   {
+    "claiming_text": "if it is engineered in one place, it can be engineered elsewhere \u2014 which is the claim the book needs to establish before asking what an honestly priced extraction regime would look like.",
+    "target": "Ch8 / Ch9 (\"the book\")",
+    "what_promised": "A later place where the book asks what an honestly priced extraction regime would look like.",
+    "status": "delivered",
+    "note": "Ch8 (What Things Actually Cost) and Ch9 (Pricing Honestly) carry the honest-pricing payoff (Ch9: 'the set of practical moves a society would make if it decided to close the gap... the decision to start pricing honestly'; 'priced honestly' / 'pricing honestly' recur). Target named only as 'the book' but substance is delivered downstream."
+   },
+   {
+    "claiming_text": "So what does the residual commons value framework say about Norway? ... the accountability bond B \u2014 the total financial value captured on behalf of the national community",
+    "target": "TA / Ch6 (framework definitions)",
+    "what_promised": "That 'residual commons value' and 'accountability bond B' are framework terms with an established formal definition the reader can rely on by Ch4.",
+    "status": "partial",
+    "note": "Ch4 uses these as already-defined formal terms, but they are NOT defined in Ch1 (0 hits for 'residual commons value', 'accountability bond', or 'cost severance' in Ch1 \u2014 Ch1 introduces the framework only narratively/informally). The formal definitions live in the Technical Appendix ('residual commons value' 17x, 'accountability bond' 21x) and Ch6 (residual commons value 16x, accountability bond 5x), both of which a sequential reader reaches AFTER Ch4. So the terms are anchored in the book, but not at any point the reader has reached by Ch4; the reliance is forward-loaded onto Ch6/TA without a signpost."
+   },
+   {
+    "claiming_text": "Cost severance, the book has claimed from the beginning, is not a natural law.",
+    "target": "Ch1 (\"from the beginning\")",
+    "what_promised": "That the book has claimed, from its opening, that cost severance is not a natural law \u2014 locating the origin of the 'cost severance' concept at the book's beginning.",
+    "status": "partial",
+    "note": "Ch1 (The Quiet Math) introduces the framework's spirit (an 'honest accounting' of 'what is being absorbed by which people') but never uses the term 'cost severance' (0 hits) and does not formally claim it 'is not a natural law.' The literal phrase and the not-a-natural-law claim are first made formal later (TA/Ch6). The conceptual seed is in Ch1; the named claim 'from the beginning' overstates how explicitly Ch1 carries it."
+   },
+   {
+    "claiming_text": "The parts it does not solve are the ones the remaining chapters of this book are organized around.",
+    "target": "Ch5\u2013Ch10 (\"remaining chapters\")",
+    "what_promised": "That the remaining chapters are organized around the unsolved framework parts (foreclosure pricing, externality tail, global-scale distribution, Intergenerational Option Value).",
+    "status": "delivered",
+    "note": "Borne out: Ch5 develops the accountability gap / externality tail across industrial cases; Ch6 develops the three ways of counting incl. Intergenerational Option Value (option value 13x); Ch8/Ch9 develop honest pricing incl. foreclosure and global/import-gap distribution (Ch9 \u00a796 explicitly engages the import/global-relocation problem). Target named only collectively as 'the remaining chapters,' but the substance is distributed across them as promised."
+   },
+   {
+    "claiming_text": "It does not price the existence of the resource for its Intergenerational Option Value \u2014 the possibility that future generations will need the oil... for applications we have not yet imagined.",
+    "target": "TA / Ch6 (framework component)",
+    "what_promised": "That 'Intergenerational Option Value' is a named, defined framework component the reader can take as established.",
+    "status": "partial",
+    "note": "The capitalized formal term 'Intergenerational Option Value' is defined in the Technical Appendix (exact phrase present). Ch6 develops the option-value component (lowercase 'option value' 13x) but does not use the exact capitalized term. Ch4 capitalizes and treats it as a defined term without a signpost to its home; a sequential reader meets the formal definition only later (TA/Ch6). Substance exists; the in-Ch4 reliance precedes its definitional home with no pointer."
+   },
+   {
+    "claiming_text": "The next chapter takes that question into the industrial cases that have not been Norway: Libby, Deepwater Horizon, Exxon Valdez, Baotou.",
+    "target": "Ch5",
+    "what_promised": "Ch5 develops four named industrial cases: Libby, Deepwater Horizon, Exxon Valdez, and Baotou.",
+    "status": "partial",
+    "note": "MOST MATERIAL FINDING. Ch5 (The Accountability Gap) genuinely carries Libby, Montana (own section), Deepwater Horizon (own section), and Baotou, Inner Mongolia (own section) \u2014 but does NOT contain Exxon Valdez at all (0 occurrences of 'valdez' or 'exxon' anywhere in Ch5). The Exxon Valdez case is motioned-at here but absent from the promised target chapter. Where the substance actually lives: Ch6 (valdez 3x) and Ch8 (valdez 1x), not Ch5. So three of the four named cases are delivered by Ch5; the fourth (Exxon Valdez) is dangling against the named target. Note also Ch5 adds cases Ch4 did not foreshadow (2008, Social Security, Healthcare), so the list is both under- and over-inclusive relative to the actual chapter."
+   }
+  ]
+ },
+ {
+  "unit": "Ch5",
+  "refs": [
+   {
+    "claiming_text": "Dodd-Frank is a partial implementation of accountability-bond architecture, and Chapter 9 will name it as one of the entering wedges by which the broader framework gets built.",
+    "target": "Ch9",
+    "what_promised": "Ch9 names Dodd-Frank (the 2008 financial-regulatory reform: CFPB, FSOC, Volcker Rule) as one of the 'entering wedges' by which the broader accountability-bond framework gets built.",
+    "status": "dangling",
+    "note": "Ch9's 'Entering wedges' section (lines 212-274) enumerates carbon pricing, sovereign wealth funds, municipal broadband/Mondragon/Vienna, strategic mineral stockpiles, ISA seabed mining, and reclamation bonds. It does NOT name Dodd-Frank, the CFPB, the FSOC, the Volcker Rule, or any financial-regulatory reform as an entering wedge. Grep of Ch9 for dodd/cfpb/volcker/financial-stability/financial-reform returns nothing. Ch9 does discuss 2008 \u2014 but only as a negative example in 'The political economy of resistance' (lines 120-128), contrasted against Sweden's 1930s response; that treatment never frames Dodd-Frank as a partial bond-architecture entering wedge. The substantive Dodd-Frank engagement lives only in Ch5 itself (line 94). The promised naming-as-entering-wedge in Ch9 is absent."
+   },
+   {
+    "claiming_text": "Chapter 9 (Pricing Honestly) develops the comparison at fuller depth, including the broader cluster of cross-country and cross-century cases that demonstrate scope-choice variation in crisis-response architecture.",
+    "target": "Ch9",
+    "what_promised": "Ch9 develops the Sweden-1930s-vs-US-2008 bank-rescue-plus-household-relief scope-choice comparison at fuller depth, including a broader cluster of cross-country/cross-century crisis-response cases.",
+    "status": "delivered",
+    "note": "Ch9 lines 120-128 ('The political economy of resistance') develop the comparison in detail: Sweden's 1931 gold-standard departure, mortgage-modification, public-works employment, the 1938 Saltsjobaden Agreement, and the 1992 Swedish banking crisis as a recurrence, explicitly contrasted with the concentrated US 2008 coalition. Broader cross-national scope-choice material (Norway, Nordic comparison, healthcare-financing architectures across seven nations) appears at lines 178-206. Genuinely fuller depth than Ch5's brief note."
+   },
+   {
+    "claiming_text": "Chapter 4 has documented Norway's contrasting architectural choice for analogous intergenerational fiscal architecture: the Government Pension Fund Global... The chapter on Norway documents what was possible.",
+    "target": "Ch4",
+    "what_promised": "Ch4 documents Norway's GPFG sovereign-fund architecture as a contrasting intergenerational-fiscal choice, including an explicit Norway-vs-US-Social-Security comparison.",
+    "status": "delivered",
+    "note": "Ch4 line 24 documents the Government Petroleum Fund / Government Pension Fund Global; lines 98-108 develop an explicit, extended Norway-GPFG-vs-US-Social-Security architectural comparison (compounding vs pay-as-you-go transfer; trust fund as intra-government-debt accounting record). Fully carries the promise."
+   },
+   {
+    "claiming_text": "the cross-national comparison Chapter 9 develops at fuller depth will return to this finding.",
+    "target": "Ch9",
+    "what_promised": "Ch9 develops a cross-national healthcare-financing comparison at fuller depth and returns to the US-as-unique-GoFundMe-default finding.",
+    "status": "delivered",
+    "note": "Ch9 lines 200-206 engage the US healthcare-financing architecture against Sweden/Denmark/Norway/Germany/UK/Canada/Australia, and line 202 explicitly returns to the medical-crowdfunding/GoFundMe default (Berliner & Kenworthy 2017; Ly & Soman 2020; Kenworthy & Igra 2024), stating none of the comparison countries produces medical crowdfunding at this scale. Delivered."
+   },
+   {
+    "claiming_text": "Brett Christophers' The Price is Wrong (2024), engaged at depth in Chapter 9, develops the contemporary climate-finance argument that profit, not price, drives investment \u2014 a finding the next chapter returns to when it engages property-rights limits and the political economy of resistance.",
+    "target": "Ch9",
+    "what_promised": "Ch9 engages Christophers' The Price is Wrong at depth, and returns to it in the context of property-rights limits and the political economy of resistance.",
+    "status": "delivered",
+    "note": "Ch9 line 168 engages Christophers' The Price is Wrong (2024) at depth (profit-not-price drives investment; framework makes the subsidy-and-rent architecture visible). The 'Property rights, and their limits' section (lines 152-166) and 'The political economy of resistance' section (lines 106-128) both exist as promised. Delivered."
+   },
+   {
+    "claiming_text": "McDowell County (developed at depth in Chapter 8)",
+    "target": "Ch8",
+    "what_promised": "Ch8 develops the McDowell County coal case at depth.",
+    "status": "delivered",
+    "note": "Ch8 is the chapter built around McDowell County coal \u2014 the full eight-component one-ton cost-decomposition (lines 14-242), including the coal-industry rent-seeking architecture (line 126) and the thirteen-year life-expectancy gap. Fully delivered."
+   },
+   {
+    "claiming_text": "the methodology that follows in Chapter 6 will formalize them",
+    "target": "Ch6",
+    "what_promised": "Ch6 formalizes the framework's two response instruments (Restitution Bond + Foreclosure Bond) and the accounting methodology.",
+    "status": "delivered",
+    "note": "Ch6 formalizes the Four Gates (lines 287-301), the Commons Inversion Test with two sub-forms (lines 283, 295-301), the central equation CS = RCV - B, and the two-instrument Restitution/Foreclosure Bond architecture with the Parfit forward/backward distinction (lines 263-265). Delivered."
+   },
+   {
+    "claiming_text": "the policy-economy work in Chapter 9 will engage what their political implementation looks like",
+    "target": "Ch9",
+    "what_promised": "Ch9 engages the political implementation of the framework's accountability instruments.",
+    "status": "delivered",
+    "note": "Ch9 (Pricing Honestly) is the policy-economy chapter: political economy of resistance (lines 106-128), property-rights limits (152-166), the entering-wedges implementation survey (212-274), tax-burden/provision comparison (198-206). The political-implementation engagement is present and substantial."
+   },
+   {
+    "claiming_text": "The Technical Appendix \u00a75.5 develops both directions formally; Chapter 6 develops each.",
+    "target": "TA",
+    "what_promised": "TA \u00a75.5 formally develops the bidirectional (forward + backward) application of the framework apparatus.",
+    "status": "delivered",
+    "note": "TA \u00a75.5 'Bidirectional application of the framework apparatus' (anchor sec-5-5-bidirectionality, line 1369 et seq.) formally develops the direction-agnostic apparatus: Three Ways forward/backward, Four Gates forward/backward with the Gate-3 boundedness asymmetry, the full bidirectional equation total CS = (CSD - B1) + (RCV - B2). Fully delivered."
+   },
+   {
+    "claiming_text": "The Technical Appendix \u00a75.5 develops both directions formally; Chapter 6 develops each.",
+    "target": "Ch6",
+    "what_promised": "Ch6 develops each of the two directions (forward and backward) of the apparatus.",
+    "status": "delivered",
+    "note": "Ch6 line 145 ('The triangulation, applied forward and backward') develops the forward triangulation and the backward specialization of each method (Method 1 -> remediation cost; Method 2 -> revealed restitution with the reparations case lineage; Method 3 -> option value extinguished at past extraction). Delivered."
+   },
+   {
+    "claiming_text": "In later chapters we will walk through a theoretical use case of the abundance of clean air being stripped \u2014 by an off-world colony on Mars engineering its own atmosphere, by a climate crisis on Earth",
+    "target": "Ch7",
+    "what_promised": "A later chapter walks through the thought-experiment of clean-air abundance stripped (Mars colony / Earth climate crisis), and the autonomy-commons backward case (slavery/forced labor).",
+    "status": "delivered",
+    "note": "Ch5 names no chapter number ('In later chapters'), but the content is delivered in Ch7 (On Other Worlds): the Mars-habitat thought experiment with the air/water survival commons (lines 17-43), Earth climate-crisis parallel (lines 71-75), and the slavery/forced-labor power-asymmetry + abundance-masking backward cases (lines 117-121). Target left implicit but substantively delivered; recording as delivered with the unspecified-target caveat noted here."
+   },
+   {
+    "claiming_text": "the Technical Appendix's scope-of-applicability boundary at \u00a71.10 names the variable explicitly.",
+    "target": "TA",
+    "what_promised": "TA \u00a71.10 explicitly names the coercion vector as a scope-of-applicability boundary variable.",
+    "status": "delivered",
+    "note": "TA \u00a71.10 (Per-category commons profiles; Autonomy commons, line 590-598) explicitly names the coercion vector as methodologically unresolved and outside the volume's scope, routing coerced cases through the legacy-effects pathway. Line 1425 reiterates 'per \u00a71.10 Autonomy commons Scope-of-applicability boundary.' Delivered."
+   },
+   {
+    "claiming_text": "the backward application is structurally identical methodology, carried in formal articulation in the Technical Appendix (\u00a75.5).",
+    "target": "TA",
+    "what_promised": "TA \u00a75.5 carries the formal articulation of the backward (legacy-effect) application of the apparatus.",
+    "status": "delivered",
+    "note": "Duplicate-target of the line-230 promise; TA \u00a75.5 explicitly covers 'Backward application (structurally identical; outside this volume's empirical scope)' at line 1383-1397, with per-method and per-gate backward specialization. Delivered."
+   },
+   {
+    "claiming_text": "What political path leads from current bond levels to levels approaching the residual commons value is a separate question, addressed in Chapter 9's policy economy",
+    "target": "Ch9",
+    "what_promised": "Ch9's policy economy addresses the political path from current bond levels toward residual-commons-value levels.",
+    "status": "delivered",
+    "note": "Ch9 is the policy-economy chapter and engages the political path: entering wedges as the from-here-it-is-reachable argument (212-274), political economy of resistance (106-128), the closing 'strengthen what exists, connect what is disconnected' program (line 274). The political-path question is engaged as promised (consistent with the framework's stated discipline of scoping it as open rather than legislating a single instrument)."
+   },
+   {
+    "claiming_text": "The next chapter formalizes the apparatus: the Commons Inversion Test... the four gates... the three ways of estimating Residual Commons Value... the Hotelling Identity that bridges the framework to standard resource economics.",
+    "target": "Ch6",
+    "what_promised": "Ch6 formalizes the Commons Inversion Test, the four gates, the three ways of counting RCV, and the Hotelling Identity.",
+    "status": "delivered",
+    "note": "All four present in Ch6: Commons Inversion Test (lines 283-301), the Four Gates (287-301), the Three Ways of Counting / Methods 1-3 (135-145), and the Hotelling Identity bridge (line 331: per-unit RCV minus per-unit Hotelling rent equals per-unit Cost Severance). Fully delivered."
+   },
+   {
+    "claiming_text": "Chapter 7 walks the framework through thought-experiment scaling \u2014 does the apparatus hold under maximally-different conditions of off-Earth extraction?",
+    "target": "Ch7",
+    "what_promised": "Ch7 stress-tests the framework under maximally-different off-Earth extraction conditions.",
+    "status": "delivered",
+    "note": "Ch7 (On Other Worlds) runs the Mars-habitat thought experiment plus asteroid iron, lunar helium, comet volatiles, Europa ocean, exoplanet ecosystems, and a Maryland commute lease (lines 17-103) as a parameter-sweep stress test. Delivered."
+   },
+   {
+    "claiming_text": "Chapter 8 walks one ton of Appalachian coal through the framework's full cost-decomposition that produces the chapter's most concrete numerical example.",
+    "target": "Ch8",
+    "what_promised": "Ch8 walks one ton of Appalachian coal through the full cost-component decomposition.",
+    "status": "delivered",
+    "note": "Ch8 line 14 states the chapter does exactly this; the eight-component decomposition runs through line 242 (floor of ~$510/ton against the $4-5 mine-mouth invoice). Delivered."
+   },
+   {
+    "claiming_text": "The policy economy that Chapter 9 develops, the closing reflection that Chapter 10 offers, and the technical appendix that operationalizes everything for academic-reviewer engagement all build on the apparatus this chapter has now introduced.",
+    "target": "Ch10",
+    "what_promised": "Ch10 offers a closing reflection building on the framework apparatus.",
+    "status": "delivered",
+    "note": "Ch10 (Common Bonds) exists and is the closing reflective chapter (the double-meaning of 'common bonds' as financial instruments and as bonds among the extracted-from, lines 144 et seq.; ends line 184). Delivered. (Ch9 policy economy and TA operationalization in the same sentence are delivered per the entries above and below.)"
+   },
+   {
+    "claiming_text": "...the technical appendix that operationalizes everything for academic-reviewer engagement all build on the apparatus this chapter has now introduced.",
+    "target": "TA",
+    "what_promised": "The TA operationalizes the full framework for academic-reviewer engagement.",
+    "status": "delivered",
+    "note": "The 8,041-line TA carries formal definitions, the Four Gates apparatus, Three Ways of Counting (\u00a73), bidirectionality (\u00a75.5), per-commons scope boundaries (\u00a71.10), worked CIT walkthroughs (\u00a7 around 1821-2491 incl. the 2008 walkthrough), and a full reference apparatus. Operationalization for reviewer engagement is delivered."
+   },
+   {
+    "claiming_text": "McDowell County's thirteen-year life-expectancy gap, cited in earlier chapters, is the same legacy-effect variant applied to coal-extraction-affected populations.",
+    "target": "Ch2",
+    "what_promised": "Earlier chapters established the McDowell County thirteen-year life-expectancy gap that this line cites backward.",
+    "status": "delivered",
+    "note": "Ch2 line 44 establishes it precisely: male life expectancy 63.5 vs national 76.5 male average \u2014 'Thirteen years.' Re-cited in Ch8 line 126. The backward 'cited in earlier chapters' reference is grounded."
+   },
+   {
+    "claiming_text": "readers who want the architecture-shaping analysis the framework's apparatus does not perform should read Buchanan and Tullock and their successors in parallel. The rent-seeking analytical vocabulary survives many readings of Buchanan's broader political project, and this book draws on the vocabulary rather than endorsing the project.",
+    "target": "the book",
+    "what_promised": "Points readers to the Public Choice / rent-seeking literature (Buchanan, Tullock, successors) as a complementary external body of work; relationship engaged further in the book.",
+    "status": "delivered",
+    "note": "This is primarily a pointer to external literature (Buchanan/Tullock), not a book-internal unit promise, so the named external home is concrete. The book-internal complement is also delivered: Ch8 line 126 reuses the same Public-Choice framing and explicitly states 'Chapter 9 develops the framework-Public-Choice relationship at greater length.' Recorded as delivered; the in-book home for the relationship is Ch8 + Ch9."
+   },
+   {
+    "claiming_text": "KNOWN ANCHOR CHECK (a): any \"2008/TARP/Dodd-Frank engagement lives in the Technical Appendix\" claim.",
+    "target": "TA",
+    "what_promised": "(Per task) a Ch5 claim that the 2008/TARP/Dodd-Frank substantive engagement lives in the Technical Appendix.",
+    "status": "target-unspecified",
+    "note": "No such claim exists in this version of Ch5. Grep of Ch5 for TARP/Dodd/appendix confirms: the TARP and Dodd-Frank material (lines 84-98) is self-contained in Ch5 and forward-routed only to Ch9 (the entering-wedge promise, which is itself dangling \u2014 see the first ref). Ch5's only TA references are to \u00a75.5 (bidirectionality) and \u00a71.10 (coercion scope) \u2014 neither attaches 2008/TARP/Dodd-Frank to the TA. Separately verified: the TA does contain a 2008 treatment, but it is Walkthrough 4 (a Commons-Inversion-Test / Four-Gates Independence-gate methodology walkthrough, TA lines ~2034-2491), NOT the TARP/Dodd-Frank/double-risk-transfer substantive engagement; grep of TA confirms no TARP, no Dodd-Frank, no 401(k), no double-risk-transfer content. So the substantive 2008 engagement does NOT live in the TA \u2014 but Ch5 never promises that it does. The genuine gap is the Ch9 entering-wedge dangling promise, not a Ch5->TA claim."
+   },
+   {
+    "claiming_text": "KNOWN ANCHOR CHECK (b): any Sandel \"engaged elsewhere\" claim.",
+    "target": "unspecified",
+    "what_promised": "(Per task) a Ch5 claim that Sandel is engaged elsewhere in the book.",
+    "status": "target-unspecified",
+    "note": "No such claim exists in this version of Ch5. Grep of Ch5 for 'sandel' and 'elsewhere' returns nothing \u2014 Sandel is not named in Ch5 at all, and there is no 'engaged elsewhere' phrasing. There is therefore no dangling Sandel cross-reference to flag in Ch5. (If a Sandel 'engaged elsewhere' promise exists in the corpus, it is in a different unit; it is absent from Ch5.)"
+   }
+  ]
+ },
+ {
+  "unit": "Ch6",
+  "refs": [
+   {
+    "claiming_text": "Chapter 2 walks the program's Trust Fund \u2014 its funding gap, debt trajectory, and structural mechanics \u2014 in detail",
+    "target": "Ch2",
+    "what_promised": "Ch2 details the Black Lung Trust Fund's funding gap, debt trajectory, and structural mechanics",
+    "status": "delivered",
+    "note": "Ch2 line 70 carries the Trust Fund mechanics: $44B distributed, $4.6B in debt, borrowing from general fund since 1979, $15B projected by 2050. Fully delivered."
+   },
+   {
+    "claiming_text": "note, as Chapter 2 did, that across Appalachia those bonds fall between $3.7 and $6 billion short of the work actually required",
+    "target": "Ch2",
+    "what_promised": "Ch2 documents reclamation-bond shortfall of ~$3.7-6B",
+    "status": "delivered",
+    "note": "Ch2 line 84: cleanup cost $7.5-9.8B against $3.8B available bond money (implied gap ~$3.7-6B); line 138 names '$4 to $6 billion reclamation bonding gap.' Consistent and delivered."
+   },
+   {
+    "claiming_text": "the McDowell-specific worked example in Chapter 8 and the Technical Appendix's \u00a711 McDowell calibration use the Pocahontas-seam production-weighted heat content of roughly 28 mmBtu per short ton",
+    "target": "Ch8",
+    "what_promised": "Ch8 uses Pocahontas-seam 28 mmBtu/short-ton heat content for McDowell carbon calibration",
+    "status": "delivered",
+    "note": "Ch8 line 72 carries exactly this: Pocahontas-seam ~28 mmBtu/short ton, 2.61 mt CO2/short ton, explicitly contrasted with Ch6's national-bituminous-average 2.32 figure. Delivered."
+   },
+   {
+    "claiming_text": "the Technical Appendix's \u00a711 McDowell calibration use the Pocahontas-seam production-weighted heat content of roughly 28 mmBtu per short ton",
+    "target": "TA",
+    "what_promised": "TA \u00a711 carries the McDowell Pocahontas-seam 28-mmBtu calibration",
+    "status": "delivered",
+    "note": "TA \u00a711 (id sec-11-empirical-validation) line 3876 carries ~$510/ton McDowell-specific Pocahontas-seam basis, ~2.61 mt CO2/short ton x $190. Delivered."
+   },
+   {
+    "claiming_text": "formal articulation in [Technical Appendix \u00a73 \u2014 RCV Quantification \u2014 Three Ways of Counting]",
+    "target": "TA",
+    "what_promised": "TA \u00a73 formalizes the RCV integral",
+    "status": "delivered",
+    "note": "TA section id sec-3-rcv-quantification opens at line 724 with the core formula term-by-term, IPG, and the three methods. Delivered."
+   },
+   {
+    "claiming_text": "(Formal specification in [Technical Appendix \u00a73.3 \u2014 Method 1: Replacement Cost].)",
+    "target": "TA",
+    "what_promised": "TA \u00a73.3 formally specifies Method 1 Replacement Cost",
+    "status": "partial",
+    "note": "Substance delivered: TA line 768 has the \u00a73.3 Method 1 heading inside the sec-3 section with full body. BUT the Ch6 hyperlink href points to #sec-3-rcv-quantification (the parent section anchor), not a method-specific anchor like #sec-3-3-method-1. No sec-3-3 id exists in the TA. The reader lands at the top of \u00a73 rather than at \u00a73.3. Link-precision gap; content is present."
+   },
+   {
+    "claiming_text": "(Formal specification in [Technical Appendix \u00a73.4 \u2014 Method 2: Revealed Preference].)",
+    "target": "TA",
+    "what_promised": "TA \u00a73.4 formally specifies Method 2 Revealed Preference",
+    "status": "partial",
+    "note": "Substance delivered: TA line 837 has the \u00a73.4 Method 2 heading with body ($50/BOE anchor at line 861). BUT the href points to #sec-3-rcv-quantification, not a \u00a73.4 anchor; no sec-3-4 id exists. Same link-precision gap as Method 1."
+   },
+   {
+    "claiming_text": "(Formal specification in [Technical Appendix \u00a73.5 \u2014 Method 3: Scarcity-Adjusted Option Value].)",
+    "target": "TA",
+    "what_promised": "TA \u00a73.5 formally specifies Method 3 Scarcity-Adjusted Option Value",
+    "status": "partial",
+    "note": "Substance delivered: TA line 876 has the \u00a73.5 Method 3 heading with full body (logarithmic scarcity multiplier, alpha-dominance). BUT the href points to #sec-3-rcv-quantification, not a \u00a73.5 anchor; no sec-3-5 id exists. Same link-precision gap."
+   },
+   {
+    "claiming_text": "The bidirectional structural property is formalized in [Technical Appendix \u00a75.5]",
+    "target": "TA",
+    "what_promised": "TA \u00a75.5 formalizes the bidirectional (forward/backward) applicability with backward-method specialization lineage",
+    "status": "delivered",
+    "note": "TA id sec-5-5-bidirectionality (line ~1385) carries the exact backward-specialization lineage Ch6 cites: Method 1 to remediation, Method 2 to revealed restitution (Holocaust reparations, 1988 Civil Liberties Act, Black Lung Trust Fund, South African TRC, Darity & Mullen 2020), Method 3 to extinguished option value. Delivered."
+   },
+   {
+    "claiming_text": "McDowell County coal and Norway petroleum figures are sourced verbatim from the Technical Appendix's worked-example calibration (\u00a73.6 Block 4 numerical execution)",
+    "target": "TA",
+    "what_promised": "TA \u00a73.6 'Block 4' carries verbatim numerical execution of the McDowell + Norway three-method figures",
+    "status": "partial",
+    "note": "The McDowell three-method figures ($261-$2,412 M1; $420-$13,100 mid $2,500 M3; IPG ~50x) and Norway figures are delivered, but they live in the TA \u00a711 worked-validation blocks (lines 4637-4907 for McDowell, 4137-4343 for Norway), not in a section literally labeled '\u00a73.6 Block 4.' TA \u00a73.6 (line 1036) is titled 'Triangulation logic' and is a logic/method section, not a numbered-Block numerical-execution section. The label '\u00a73.6 Block 4 numerical execution' does not correspond to a discrete locatable unit in the TA; the substance is real but lives under \u00a711, and the citation mis-locates it."
+   },
+   {
+    "claiming_text": "(Formal reconciliation in [Technical Appendix \u00a711.11 \u2014 IPG-table reconciliation].)",
+    "target": "TA",
+    "what_promised": "TA \u00a711.11 reconciles the 33-122x canonical IPG with the 50-555x triangulated range",
+    "status": "delivered",
+    "note": "TA id sec-11-11-ipg-reconciliation (line 6199) is titled exactly '33-122x canonical -> 50-555x triangulated range' and carries the full reconciliation. Delivered."
+   },
+   {
+    "claiming_text": "Chapter 2 anchored the McDowell IPG at thirty-three to one hundred and twenty-two times the 1960 sale price; Chapter 8 walked the worked floor estimate to the upper end of that range",
+    "target": "Ch2",
+    "what_promised": "Ch2 anchors McDowell IPG at 33-122x the 1960 price",
+    "status": "delivered",
+    "note": "Ch2 line 126: 'between 33 and 122 times the price the coal actually sold for'; explicitly notes Ch8 walks the floor-estimate to the upper end. Delivered."
+   },
+   {
+    "claiming_text": "Chapter 8 walked the worked floor estimate to the upper end of that range",
+    "target": "Ch8",
+    "what_promised": "Ch8 walks a worked floor estimate landing at the upper end of the 33-122x range",
+    "status": "delivered",
+    "note": "Ch8 produces $510/ton total (line 168) and states IPG sits between 33 and 122x (line 172), explicitly as a conservative floor (line 28). Delivered."
+   },
+   {
+    "claiming_text": "Formal specification in [Technical Appendix \u00a713 \u2014 Substitutability Function and Gap]",
+    "target": "TA",
+    "what_promised": "TA \u00a713 formally specifies the substitutability function",
+    "status": "delivered",
+    "note": "TA id sec-13-substitutability-function-and-gap opens at line 6375 as a full section. Delivered."
+   },
+   {
+    "claiming_text": "The three-model convergence is formalized in [Technical Appendix \u00a79 \u2014 Three-Model Convergence]",
+    "target": "TA",
+    "what_promised": "TA \u00a79 formalizes the three-model convergence",
+    "status": "delivered",
+    "note": "TA id sec-9-three-model-convergence opens at line 3041 as a full section. Delivered."
+   },
+   {
+    "claiming_text": "see [Technical Appendix \u00a76 \u2014 Commons Inversion Test]",
+    "target": "TA",
+    "what_promised": "TA \u00a76 specifies the Commons Inversion Test",
+    "status": "delivered",
+    "note": "TA id sec-6-commons-inversion-test opens at line 1450, spanning to ~2517 \u2014 substantial body including replacement-cost / abundance-inversion content. Delivered."
+   },
+   {
+    "claiming_text": "All four gates have formal statements, worked examples, and a step-by-step application protocol in the Technical Appendix's [Four Gates Admission Apparatus section]",
+    "target": "TA",
+    "what_promised": "TA \u00a77 carries formal statements, worked examples, and step-by-step protocol for the four gates",
+    "status": "delivered",
+    "note": "TA id sec-7-four-gates opens at line 2518 (spans to ~2940) as a full section. Delivered."
+   },
+   {
+    "claiming_text": "shows that the two-term formula is the n = 2 special case under the four gates ([Formula Generalization section])",
+    "target": "TA",
+    "what_promised": "TA \u00a717 derives the general RCV form and shows the two-term formula as n=2 special case",
+    "status": "delivered",
+    "note": "TA id sec-17-formula-generalization opens at line 7524 as a full section. Delivered."
+   },
+   {
+    "claiming_text": "the same apparatus runs in both temporal directions; the bidirectional applicability of the framework's gates and three methods is articulated in [Technical Appendix \u00a75.5]",
+    "target": "TA",
+    "what_promised": "TA \u00a75.5 articulates bidirectional applicability of gates + three methods",
+    "status": "delivered",
+    "note": "Second reference to sec-5-5-bidirectionality; same delivered target as above."
+   },
+   {
+    "claiming_text": "Chapter 1's account of a knowledge-worker billing 120 hours per week is the framework's most-favorable-conditions test",
+    "target": "Ch1",
+    "what_promised": "Ch1 contains the 120-hours/week knowledge-worker account with voluntary-contract / autonomy-infrastructure framing",
+    "status": "delivered",
+    "note": "Ch1 line 66: 'I billed over a hundred and twenty hours a week for stretches... close to a hundred and thirty-eight hours.' The son/spouse/displacement and elite-credential voluntary-trade-off framing (lines 92, 110, 62) all present. Delivered."
+   },
+   {
+    "claiming_text": "the time / autonomy through the personal-scale Consumption-Inversion examples carried over from Chapter 1",
+    "target": "Ch1",
+    "what_promised": "Ch1 supplies the personal-scale time/autonomy consumption examples (commute hours)",
+    "status": "delivered",
+    "note": "Ch1 lines 72-74 carry the 2.5-hour-each-way commute and '1,300 hours / time enough to learn a language' framing that Ch6's Commons-Consumption Inversion reuses (Ch6 line 297). Delivered."
+   },
+   {
+    "claiming_text": "The remaining eight commons categories... Their per-category specifications, with the full worked-example record from the eighteen cases this book has examined, are catalogued in the Technical Appendix",
+    "target": "TA",
+    "what_promised": "TA catalogs per-category specifications for all ten commons categories across the eighteen-case library",
+    "status": "delivered",
+    "note": "Target-unspecified at the section level (no \u00a7 number cited), but the TA does carry the commons-category definitions (e.g., Autonomy commons Definition 1.10 referenced at line 1385) and the eighteen-case worked record under \u00a711 case files (\u00a7\u00a711.1-11.11, line 256). Substantively present; the cross-reference names 'the Technical Appendix' as a whole rather than a section, but the home exists."
+   },
+   {
+    "claiming_text": "engaged at depth in Chapter 5's introduction of the two-instrument apparatus",
+    "target": "Ch5",
+    "what_promised": "Ch5 introduces the two-instrument (Restitution + Foreclosure Bond) apparatus and the Darity/Mullen reparations-economics methodology at depth",
+    "status": "delivered",
+    "note": "Ch5 lines 210-238 carry the full two-instrument apparatus (Restitution Bond, Foreclosure Bond), Darity & Mullen 2020 From Here to Equality, the longevity-gap legacy-effect methodology (line 236), and Coates. Delivered."
+   },
+   {
+    "claiming_text": "the $65 billion of Chapter 5's enumeration",
+    "target": "Ch5",
+    "what_promised": "Ch5 enumerates Deepwater Horizon total cost at ~$65 billion",
+    "status": "delivered",
+    "note": "Ch5 line 46: '$21B fines/settlements + $20B compensation fund... total documented cost to BP approached sixty-five billion dollars.' Delivered."
+   },
+   {
+    "claiming_text": "the methodology for pricing legacy effects of this kind has been developed most rigorously by William Darity Jr. and collaborators in their work on the six-to-seven year Black-versus-white longevity gap",
+    "target": "TA",
+    "what_promised": "implicit: the Darity longevity-gap legacy-effect methodology is grounded/carried in the book's apparatus",
+    "status": "delivered",
+    "note": "No explicit cross-reference target named in Ch6 (target-unspecified as stated), but the substance is carried both in Ch5 line 236 (six-to-seven-year longevity gap as legacy effect, McDowell's 13-year gap as same variant) and TA \u00a75.5 / \u00a711. Delivered; home exists even though Ch6 names none."
+   },
+   {
+    "claiming_text": "Chapter 7 will apply the same framework in a different setting \u2014 the Mars colony thought experiment \u2014 and use the setting to test whether the framework is Earth-parochial or general",
+    "target": "Ch7",
+    "what_promised": "Ch7 applies the framework to the Mars-colony thought experiment to test Earth-parochialism vs generality",
+    "status": "delivered",
+    "note": "Ch7 lines 17-21 carry exactly this: Mars habitat thought experiment, the four parameters re-run, and the explicit claim that conclusions are 'bounded-system' not 'Mars-conclusions' (general, not Earth-parochial). Delivered."
+   },
+   {
+    "claiming_text": "Chapter 8 will then take one extraction, one ton of McDowell County coal, and walk it through the framework's full cost-decomposition",
+    "target": "Ch8",
+    "what_promised": "Ch8 walks one ton of McDowell coal through full cost-decomposition",
+    "status": "delivered",
+    "note": "Ch8 lines 14, 34-168 do exactly this, component by component to a $510/ton total. Delivered."
+   },
+   {
+    "claiming_text": "The Technical Appendix carries the formal specification ([\u00a78, Asymmetric Regret Rule]), with empirical evidence from Method 3... demonstrating the rule's prescriptions hold across the documented case library",
+    "target": "TA",
+    "what_promised": "TA \u00a78 formally specifies the Asymmetric Regret Rule with Method-3 alpha-dominance empirical backing",
+    "status": "delivered",
+    "note": "TA id sec-8-asymmetric-regret-rule (line 2941) carries the ARR with explicit cross-reference to Method 3 alpha-dominance as 'the empirical companion to ARR' (lines 3032-3038). Delivered."
+   },
+   {
+    "claiming_text": "Chapter 9's policy economy applies the rule to specific decisions",
+    "target": "Ch9",
+    "what_promised": "Ch9 applies the Asymmetric Regret Rule to specific policy decisions",
+    "status": "delivered",
+    "note": "Ch9 lines 54-56 apply the ARR to reservation-fraction sizing for high-substitutability-gap resources ('reserved fractions sized to the asymmetric regret'); the Clarion-Clipperton seabed case (line 234) exercises the full apparatus on a near-term decision. Delivered."
+   },
+   {
+    "claiming_text": "the methodology applied to the Restitution Bond builds on Darity and Mullen's reparations-economics wealth-gap framework, engaged at depth in Chapter 5's introduction of the two-instrument apparatus",
+    "target": "Ch5",
+    "what_promised": "Ch5 engages Darity & Mullen's reparations-economics wealth-gap framework at depth in the two-instrument introduction",
+    "status": "delivered",
+    "note": "Ch5 line 218 engages From Here to Equality (2020), Umbrellas Don't Make It Rain (2015), Conley (1999), and the matched-comparison wealth-as-structural-variable methodology applied to McDowell/Libby/opioid contexts. Delivered."
+   },
+   {
+    "claiming_text": "the Asymmetric Regret Rule, which specializes Savage 1951's minimax-regret discipline... Chapter 9's policy economy applies the rule to specific decisions",
+    "target": "Ch9",
+    "what_promised": "Ch9 applies the Savage-grounded ARR to concrete policy decisions",
+    "status": "delivered",
+    "note": "Duplicate of the ARR->Ch9 reference; Ch9 lines 54-56 and the Clarion-Clipperton case deliver. Delivered."
+   },
+   {
+    "claiming_text": "the Mars colony thought experiment... The next chapter tests whether the mathematics is universal",
+    "target": "Ch7",
+    "what_promised": "Ch7 tests universality of the framework's mathematics",
+    "status": "delivered",
+    "note": "Ch7 line 21 makes the universality claim explicitly ('general instrument... works on Mars, on asteroids, on comets'). Delivered."
+   }
+  ]
+ },
+ {
+  "unit": "Ch7",
+  "refs": [
+   {
+    "claiming_text": "The policy question of whether humanity should pursue Mars settlement is engaged on its own terms later in the chapter, and the framework holds whatever answer that policy question turns out to have.",
+    "target": "Ch7 (internal, the \"Mars is a false analogy\" section)",
+    "what_promised": "Later in this same chapter, the policy question of whether humanity should pursue Mars settlement is engaged on its own terms.",
+    "status": "delivered",
+    "note": "Ch7 line 199 delivers this directly: 'This argument is methodological, not advocational... There are good arguments on both sides of that policy question \u2014 from the existential-risk literature... to the skeptical academic lineage that argues off-world expansionism is geopolitically destabilizing... and the framework holds whatever the answer to that policy question turns out to be.' The forward-promise is honored in-chapter."
+   },
+   {
+    "claiming_text": "The framework's mathematics formalizes this in Theorem 10.3 (Abundance Masking) of the Tech Appendix; the framework's Commons Inversion Test is the apparatus for detecting it.",
+    "target": "TA",
+    "what_promised": "The Technical Appendix carries a Theorem 10.3 (Abundance Masking) that formalizes the abundance-masking pattern mathematically.",
+    "status": "delivered",
+    "note": "TA carries Theorem 10.3 (Abundance Masking under Stock-Flow Framework) at \u00a710 (TA.html line 3422), with proof, scope/non-applicability conditions (line 3461+), and an explicit link to the Commons Inversion Test as the empirical-detection apparatus (lines 481, 3552). The CIT itself is defined in TA \u00a76 and Ch6. Fully delivered."
+   },
+   {
+    "claiming_text": "the framework's Commons Inversion Test is the apparatus for detecting it. / the framework's Commons Inversion Test is the tool for detecting which parts of it are actually finite-and-being-drawn-down. / The framework's Commons Inversion Test, applied at decision time, would have surfaced the actual price of the lease before signing.",
+    "target": "Ch6 + TA",
+    "what_promised": "The Commons Inversion Test is a defined apparatus of the framework (detection/discovery method) that the reader can rely on as a real instrument.",
+    "status": "delivered",
+    "note": "CIT is fully defined and characterized in Ch6 (lines 209, 235, 283-305 \u2014 including the two sub-forms Commons-Absence Inversion and Commons-Consumption Inversion, the gate-1 role, and a naming defense) and in TA \u00a76 (Definition 1.8; TA.html lines 213-224, 481, 3552). Ch7 invokes it as an established instrument; the home exists and carries the substance."
+   },
+   {
+    "claiming_text": "Chapter 9 will return to this ranking when it asks what the policy architecture for the renewable-energy transition has to actually accomplish. The high existential substitutability gap of rare earths, platinum-group metals, cobalt, and nickel... is the reason that getting the transition wrong on these specific resources would foreclose the very civilizational capabilities the transition is meant to deliver.",
+    "target": "Ch9",
+    "what_promised": "Ch9 returns to the existential-substitutability-gap ranking and uses it to drive the renewable-energy-transition policy architecture (reservation of high-gap resources: rare earths, PGMs, cobalt, nickel).",
+    "status": "delivered",
+    "note": "Ch9 carries this in depth: the three-bin existential-substitutability-gap sort drives every policy decision (lines 30-50), high-gap resources 'get the one move the framework is organized around: reservation' (line 38), with rare earths/PGMs/cobalt/nickel as the transition inputs and reservation sizing tied to asymmetric regret (lines 50-54). The pricing-logic-meets-policy-logic promise is honored."
+   },
+   {
+    "claiming_text": "The existential substitutability gap ranking... is the input that, combined with the stock estimate and the externality tail for each resource class, produces the reservation policy the later chapters will develop.",
+    "target": "Ch9",
+    "what_promised": "A later chapter develops the reservation policy that the existential-substitutability-gap ranking feeds.",
+    "status": "delivered",
+    "note": "Ch9 develops reservation as its central policy move (lines 38, 48-54): cost of in-situ preservation = foregone revenue, strategic-reserve sizing, institutional architecture (USGS, strategic stockpiles) already in place. Substance present and substantial."
+   },
+   {
+    "claiming_text": "This has an implication for the policy work the later chapters take up. / Place-based transition-cost accounting, spatial cost severance charges, border carbon adjustments, transparent supply chain disclosure \u2014 all of these address one or more of the six patterns.",
+    "target": "Ch9",
+    "what_promised": "Later chapters take up the policy work of collapsing the six cost-severance patterns (place-based transition-cost accounting, spatial cost-severance charges, border carbon adjustments, transparent supply-chain disclosure).",
+    "status": "delivered",
+    "note": "Ch9 carries the policy instruments named: generalized border adjustment scaled to existential-substitutability gap (lines 98-102, citing the EU CBAM as a partial real-world version), supply-chain cost-bearer identification (line 92), reservation, sovereign-wealth mechanisms (line 38). The 'collapse the patterns' policy program is the substance of Ch9."
+   },
+   {
+    "claiming_text": "Chapter 9, in particular, takes up the design problem this stress test surfaces: how to architect accountability instruments whose verification structure resists the simulated-reattachment adaptation \u2014 a design problem that engages the Public Choice tradition's rent-seeking-architecture analysis at depth.",
+    "target": "Ch9",
+    "what_promised": "Ch9 takes up (a) the design problem of accountability instruments whose verification structure resists simulated-reattachment, and (b) engages the Public Choice rent-seeking tradition at depth.",
+    "status": "delivered",
+    "note": "Both halves land in Ch9. Simulated-reattachment / verification-structure: Ch9 line 236 explicitly \u2014 'whether the ISA architecture's verification structure resists the simulated-reattachment adaptation Chapter 7's immune-response stress test surfaced'; reclamation-bond design as serious-instrument-vs-token-gesture (line 240). Public Choice at depth: full section \u00a7136-148 'Public Choice and the framework: rent-seeking under a complete ledger' (Buchanan/Tullock, Tullock 1967, rent-seeking, AEI/Cato/Mercatus/GMU readership). Delivered."
+   },
+   {
+    "claiming_text": "what the existing partial-implementations \u2014 the Norwegian sovereign-fund discipline, the early-twentieth-century Nordic policy architectures, the reachable-horizon institutions Chapter 9 will catalog \u2014 already get right and where they remain vulnerable.",
+    "target": "Ch9",
+    "what_promised": "Ch9 catalogs the reachable-horizon partial implementations: Norwegian sovereign-fund discipline, early-20th-century Nordic policy architectures, and reachable-horizon institutions.",
+    "status": "delivered",
+    "note": "Ch9 carries a reachable-horizon cluster and a full 'Nordic objection, taken seriously' section (\u00a7174-208): Norway's GPFG / sovereign-wealth mechanism (lines 38, 178, 182), Alaska Permanent Fund as US-domestic analog (line 182), Chattanooga EPB / Mondragon / Vienna reachable-horizon cases (lines 222-228), and an honest where-they-remain-vulnerable treatment (scale/homogeneity/resource-base/contingency four-condition steelman). Delivered."
+   },
+   {
+    "claiming_text": "the mechanism does not require a specific ownership structure \u2014 it requires the conditions Chapter 5 named, and those conditions are not ideologically parochial.",
+    "target": "Ch5",
+    "what_promised": "Chapter 5 named the conditions cost severance requires (a discrete, identifiable set of conditions).",
+    "status": "partial",
+    "note": "Ch5 documents the cost-severance MECHANISM and its dimensions (spatial, temporal, informational/adversarial-information, power/coercion, ecological, normative 'cost of doing business') across six cases \u2014 Libby, Deepwater Horizon, Baotou, 2008, Social Security, healthcare (Ch5 lines 8-14, 44, 66, 88, 148). But Ch5 does NOT present these as a discrete, labeled enumerated set of 'conditions.' The crisp named enumeration of the six patterns (geographic distance, temporal asymmetry, informational asymmetry, power asymmetry, normative routinization, abundance masking) actually lives in Ch7 ITSELF (the 'What cost severance requires' section, lines 109-131), not in Ch5. So Ch7 points back to Ch5 for a named conditions-set that Ch5 carries only dimensionally/illustratively, not as a labeled list. Substance is present in Ch5; the precise 'named conditions' framing overstates Ch5's structure."
+   },
+   {
+    "claiming_text": "The next chapter does that, for the resource and the community the book opened with. One ton of Appalachian coal, from a specific mine, in a specific county, in a specific year. Every cost category named, every tier priced conservatively, every number defensible. And the result placed against the four-dollar-and-fifty-cent figure the market cleared the transaction on.",
+    "target": "Ch8",
+    "what_promised": "Ch8 prices one ton of McDowell County Appalachian coal tier-by-tier, every cost category, against the market clearing price (stated here as $4.50).",
+    "status": "delivered",
+    "note": "Ch8 delivers the full tier-by-tier invoice for one ton of McDowell County coal (lines 12-18, 24, eight cost components, IPG of 33-120x, line 172). One small numeric nuance: Ch7 cites a precise 'four-dollar-and-fifty-cent figure' but Ch8 states the 1960 mine-mouth price as 'roughly four to five dollars' (line 24) \u2014 a range rather than the exact $4.50 point figure. The substance and the gap-against-market promise are fully delivered; only the exact-figure precision differs slightly between the chapters."
+   },
+   {
+    "claiming_text": "The instrument that told her to preserve Martian water is the same instrument that tells us, when applied honestly to Appalachian coal, that the resource has been severely mispriced for a century. / applied on Earth where the parameters are moderate enough to have allowed centuries of systematic mispricing",
+    "target": "Ch8 (and Ch2/Ch5 for the empirical coal record)",
+    "what_promised": "The framework applied to Appalachian coal yields a severe-mispricing result (implicitly carried by the book's coal accounting).",
+    "status": "delivered",
+    "note": "This is a within-book claim about the framework's coal result rather than an explicit 'see Chapter X.' The coal-mispricing result is delivered concretely in Ch8 (IPG 33-120x; carbon term alone exceeds every era's market price) and grounded narratively in Ch2 (the miner / McDowell) and Ch5. Not a dangling promise \u2014 the substance exists."
+   },
+   {
+    "claiming_text": "The 2008 housing collapse is the clearest exemplar [of informational asymmetry]. / The 2008 housing collapse was severed primarily through informational asymmetry.",
+    "target": "Ch5 (and TA \u00a74 walkthrough)",
+    "what_promised": "Implicit: the 2008 financial crisis as a cost-severance case is engaged substantively somewhere in the book.",
+    "status": "delivered",
+    "note": "KNOWN-ANCHOR CHECK (a): Ch7 makes NO claim that '2008/TARP/Dodd-Frank engagement lives in the Technical Appendix.' Ch7 only uses 2008 illustratively as the informational-asymmetry exemplar (lines 115, 129). The substantive 2008/TARP/Dodd-Frank engagement lives in Ch5 (lines 78-100, the national-financial-scale case, TARP-repaid and Dodd-Frank objections answered) and is also walked through in TA \u00a74 as a CIT case (TA.html lines 2034-2097). So no dangling TARP/Dodd-Frank-to-TA promise originates in Ch7 \u2014 the anchored DANGLING claim is not present in this unit. The 2008 substance is well-homed in Ch5."
+   },
+   {
+    "claiming_text": "the same spirit as Ostrom's eight design principles, Sen's ten capabilities, and Rawls's primary goods [naming the six patterns as illustrative-not-exhaustive].",
+    "target": "unspecified (no concrete chapter/appendix home)",
+    "what_promised": "Implicit lineage gesture to Ostrom / Sen / Rawls as analogues for the illustrative-not-exhaustive list discipline; no claim that any unit 'engages' Sandel.",
+    "status": "delivered",
+    "note": "KNOWN-ANCHOR CHECK (b): The task flagged a Sandel 'engaged elsewhere' claim as target-unspecified/dangling. VERIFIED: Ch7 contains NO mention of Sandel at all (grep confirms zero hits in Ch7), and Sandel appears in NO chapter and NOT in the TA across the whole corpus. So there is no Sandel cross-reference originating in Ch7 to mark dangling \u2014 the anchored claim does not appear in this unit. The thinker-lineage gestures Ch7 actually makes (Ostrom/Sen/Rawls at line 109; Bostrom/MacAskill/Ord at line 141; Stern/Nordhaus/Hartwick at line 73) are in-text citations of intellectual lineage, not forward-promises to a delivering unit, so they are not cross-reference promises requiring a target. Noted here for completeness so the Sandel anchor is explicitly resolved as not-present."
+   },
+   {
+    "claiming_text": "the conditions Chapter 5 named, and those conditions are not ideologically parochial. / it requires the conditions Chapter 5 named [in the cross-time / pyramids / Great Wall passage].",
+    "target": "Ch5",
+    "what_promised": "Power-asymmetry / coercion as a cost-severance condition is grounded in Chapter 5.",
+    "status": "delivered",
+    "note": "The power-asymmetry/coercion strand of the 'conditions' is grounded in Ch5's cases (information-asymmetry as the 2008 lever, line 88; the broader mechanism-not-ideology framing, lines 100, 120). This sub-aspect is delivered; see the separate 'partial' entry above for the nuance that Ch5 carries the conditions dimensionally rather than as a discrete named enumeration."
+   },
+   {
+    "claiming_text": "the cross-national comparison Chapter 9 develops at fuller depth will return to this finding [healthcare GoFundMe-as-default] \u2014 [Ch7 relies on \"the policy work the later chapters take up\" framing that routes through this].",
+    "target": "Ch9",
+    "what_promised": "Implicit (via Ch7's 'later chapters take up the policy work'): the policy/cross-national development happens in the later chapters.",
+    "status": "delivered",
+    "note": "Ch7's generic 'later chapters' / 'remaining chapters' promises (lines 131, 221, 229, 231) are satisfied by Ch9's policy architecture (reservation, border adjustment, Nordic/reachable-horizon cluster, Public Choice) and Ch10's closing reflection. No dangling generic-later-chapters promise; the policy substance exists downstream."
+   }
+  ]
+ },
+ {
+  "unit": "Ch8",
+  "refs": [
+   {
+    "claiming_text": "any extraction, though the one we've been tracing since Chapter 2 will do",
+    "target": "Ch2",
+    "what_promised": "Ch2 establishes the McDowell County coal extraction case that Ch8 walks through the full cost accounting",
+    "status": "delivered",
+    "note": "Ch2 (The Miner) is the McDowell County / Robert Bailey coal-extraction chapter; the extraction Ch8 prices is genuinely introduced there."
+   },
+   {
+    "claiming_text": "what Chapter 6 spent its pages showing every serious pricing methodology agrees it didn't price",
+    "target": "Ch6",
+    "what_promised": "Ch6 shows, across multiple pricing methodologies, that the market did not price the externalities/severed costs",
+    "status": "delivered",
+    "note": "Ch6 (Three Ways of Counting) presents bottom-up damage accounting, real-options, and the RCV model converging on the conclusion that market price omits the majority of true cost."
+   },
+   {
+    "claiming_text": "Chapter 2 walks the federal Black Lung Benefits Program's Trust Fund \u2014 its funding gap, debt trajectory, and mechanism of severance \u2014 in detail",
+    "target": "Ch2",
+    "what_promised": "Ch2 details the Black Lung Trust Fund's funding gap, debt trajectory, and severance mechanism",
+    "status": "delivered",
+    "note": "Ch2 carries it precisely: $44B distributed, $4.6B Trust Fund debt, borrowing from general fund since 1979, $15B projected by 2050 (line 70), plus the severance-mechanism definition (lines 136-138)."
+   },
+   {
+    "claiming_text": "the cost component Chapter 2 named through the cost-walkthrough that lands multiple orders of magnitude above the price coal actually sold for and Chapter 6 formalized through the residual commons value integral",
+    "target": "Ch2 + Ch6",
+    "what_promised": "Ch2 names the foreclosure cost via a cost-walkthrough landing orders of magnitude above price; Ch6 formalizes it through the RCV integral",
+    "status": "delivered",
+    "note": "Ch2 carries the cost-walkthrough that 'dwarfs what the coal sold for' (line 124). Ch6 carries the RCV integral (line 108, RCV(R,t0)=\u222b...dt) and frames foreclosure cost weighted by substitute-probability. Both halves deliver."
+   },
+   {
+    "claiming_text": "the McDowell-specific calibration of the framework figure Chapter 6 introduced under the national-bituminous-average heat content, which yields 2.32 metric tons CO\u2082 per short ton",
+    "target": "Ch6",
+    "what_promised": "Ch6 introduces the 2.32 metric tons CO\u2082/short-ton figure under national-bituminous-average heat content (~24.9 mmBtu/short ton)",
+    "status": "delivered",
+    "note": "Ch6 line 42 carries exactly this: 2.32 tons CO\u2082, 93.28 kg CO\u2082/mmBtu \u00d7 ~24.9 mmBtu/short ton, explicitly noting the McDowell-specific Ch8 + TA \u00a711 calibration uses ~28 mmBtu Pocahontas-seam content. The cross-reference is reciprocal and consistent."
+   },
+   {
+    "claiming_text": "Chapter 9 develops the framework-Public-Choice relationship at greater length",
+    "target": "Ch9",
+    "what_promised": "Ch9 develops at greater length the relationship between the framework and the Public Choice (Buchanan/Tullock rent-seeking) tradition",
+    "status": "delivered",
+    "note": "Ch9 has a dedicated section 'Public Choice and the framework: rent-seeking under a complete ledger' (lines 136-148) developing Buchanan/Tullock, Tullock 1967 rent-seeking, and the framework-as-ledger relationship at substantial length."
+   },
+   {
+    "claiming_text": "The Tech Appendix carries the formal integral for readers who want it",
+    "target": "TA",
+    "what_promised": "The Technical Appendix carries the formal integral form of the cost-component summation across the time horizon",
+    "status": "delivered",
+    "note": "TA \u00a73 (RCV Quantification) carries the formal integral RCV(R,t0)=\u222bt0^\u221e {[1\u2212S]\u00b7U + E}\u00b7D dt with convergence (Weitzman 2001, Theorem 10.4) and the cost-component summation (\u00a73.3). Delivered."
+   },
+   {
+    "claiming_text": "Chapter 5 answered that question with case after case. The ratios were not identical; the mechanism was. Deepwater Horizon... The W. R. Grace vermiculite mine in Libby, Montana... The Baotou rare earth extractions... The Exxon Valdez spill",
+    "target": "Ch5",
+    "what_promised": "Ch5 supplies case after case (Deepwater Horizon, Libby/W.R. Grace, Baotou rare earth, Exxon Valdez) showing the same mechanism with varying IPG ratios",
+    "status": "partial",
+    "note": "Ch5 (The Accountability Gap) delivers the case-after-case structure and three of the four named cases in detail: Libby/W.R. Grace (40:1 cost-to-revenue, line 30), Deepwater Horizon/Macondo (40% cost-recovery ratio, lines 40-52), and Baotou rare earth (lines 58-70). But EXXON VALDEZ does NOT appear anywhere in Ch5 (grep returns zero hits). Ch8 invokes the Exxon Valdez IPG ('defies simple calculation only because the recovery was never completed') as if Ch5 carried it; it does not. The Exxon Valdez sub-claim is dangling within an otherwise-delivered Ch5 reference. The substance of the other three cases lives in Ch5; the Exxon Valdez substance lives nowhere in the verified chapters."
+   },
+   {
+    "claiming_text": "The housing-market pattern Chapter 2 named \u2014 nearly half of American renters cost-burdened, the landlord class capturing the surplus that would otherwise have funded mobility",
+    "target": "Ch2",
+    "what_promised": "Ch2 names the housing-market pattern: ~half of American renters cost-burdened, landlord/asset-class capturing the mobility surplus",
+    "status": "delivered",
+    "note": "Ch2 line 196 carries it: 'Roughly half of all American renters are cost-burdened today; the consolidation of rental housing into asset-class portfolios captures the surplus that would have funded relocation. The company town has returned in distributed form.'"
+   },
+   {
+    "claiming_text": "Chapter 9 will return to what the alternative architecture would have looked like under honest pricing",
+    "target": "Ch9",
+    "what_promised": "Ch9 returns to the alternative (household-debt-restructuring) architecture for the 2008 response under honest pricing",
+    "status": "delivered",
+    "note": "Ch9 lines 122-128 develop exactly this: Mian & Sufi 2014 House of Debt household-debt-restructuring alternative vs. the bank-rescue architecture, with welfare calculations and the Sweden 1930s positive analog. The 2008/TARP engagement is genuinely routed here, NOT to the TA \u2014 so the known 'TA carries 2008' dangling anchor is NOT triggered in Ch8."
+   },
+   {
+    "claiming_text": "Chapter 1 through Chapter 8 have done that [made the invisible visible]",
+    "target": "Ch1-Ch8 (the book so far)",
+    "what_promised": "Chapters 1 through 8 collectively perform the 'make the invisible visible' work",
+    "status": "delivered",
+    "note": "Collective backward reference to the eight preceding chapters; all eight exist on origin/main and carry the visibility-establishing argument. No specific deliverable promised beyond their collective existence."
+   },
+   {
+    "claiming_text": "Chapter 9 sketches the direction a civilization committed to honest accounting would move",
+    "target": "Ch9",
+    "what_promised": "Ch9 sketches the direction a civilization committed to honest accounting would move (entering wedges, Nordic comparison, implementation)",
+    "status": "delivered",
+    "note": "Ch9 (Pricing Honestly) carries 'Entering wedges' section (line 212+), Nordic/Sweden comparison, Mondragon, carbon pricing \u2014 the forward direction-sketch. Delivered."
+   },
+   {
+    "claiming_text": "Chapter 10 closes with the miner, the waterman, and the off-world administrator recognizing each other across the distance the mechanism was designed to maintain",
+    "target": "Ch10",
+    "what_promised": "Ch10's closing brings the miner, waterman, and off-world (Mars) administrator into mutual recognition across the engineered distance",
+    "status": "delivered",
+    "note": "Ch10 line 42 places the miner and the waterman ('runs a mechanic shop in the afternoons') in the same room; line 50 places the Mars habitat administrator there; the recognition-across-distance / structural-kinship theme is the chapter's close (line 144, 'common bonds are the bonds among the people who have been extracted from'). Cast is broader than three (adds Baotou woman, Niger Delta fisherman, Panhandle farmer), but the three named in Ch8's promise are all present and the recognition framing holds."
+   },
+   {
+    "claiming_text": "The next two chapters return to what that means, for McDowell County, for the waterman, for the reader's own life, and for the century ahead",
+    "target": "Ch9 + Ch10",
+    "what_promised": "The two following chapters (9 and 10) return to the meaning of the pricing exercise for McDowell County, the waterman, the reader, and the century ahead",
+    "status": "delivered",
+    "note": "Ch9 develops implementation/direction (the century ahead) and Ch10 returns to the miner/waterman/reader at human scale (the closing scene + the settler reflection). Both follow Ch8 and deliver the promised return."
+   },
+   {
+    "claiming_text": "Chapter 7 walked through what the framework says about her decision [the Mars administrator]",
+    "target": "Ch7",
+    "what_promised": "Ch7 walks through what the framework says about the Mars/off-world administrator's extraction decision",
+    "status": "delivered",
+    "note": "This claim appears in Ch10 line 50 (within the verified Ch10 read), confirming Ch7 (On Other Worlds) carries the off-world thought-experiment. Note: this is a Ch10 reference observed during target verification, not an outgoing Ch8 reference; Ch8 itself routes the off-world material to Ch10 rather than naming Ch7. Included for completeness of the recognition-scene provenance chain. The off-world/Mars substance lives in Ch7."
+   }
+  ]
+ },
+ {
+  "unit": "Ch9",
+  "refs": [
+   {
+    "claiming_text": "Chapter 8 put a number on the invoice. One ton of McDowell County coal, sold at the mine mouth in 1960 for four dollars and fifty cents, actually cost ... somewhere between five hundred and six hundred dollars",
+    "target": "Ch8",
+    "what_promised": "Ch8 derives the honest per-ton cost of one ton of 1960 McDowell County coal (~$500-600 floor) component by component, against a ~$4.50 mine-mouth price.",
+    "status": "delivered",
+    "note": "Ch8 lines 76-82, 242 carry exactly this: 'a ton of coal, priced honestly, at a floor of roughly five hundred and ten dollars,' against the four-to-five-dollar invoice, decomposed cost-component by component. The 1960 $4.50 mine-mouth anchor and the $500-518 conservative floor are present. Delivered."
+   },
+   {
+    "claiming_text": "The ten to fifteen trillion dollars per year of severed costs that Chapter 8 identified",
+    "target": "Ch8",
+    "what_promised": "Ch8 produces a global annual severed-cost figure of ten to fifteen trillion dollars.",
+    "status": "delivered",
+    "note": "Ch8 line 218-220 lands the global severed-cost figure 'somewhere between ten and fifteen trillion dollars annually' and frames it as the largest continuous wealth transfer in human history. Exact match. Delivered."
+   },
+   {
+    "claiming_text": "The eleven million U.S. household-foreclosure filings from 2008 to 2012 are a number.",
+    "target": "Ch8",
+    "what_promised": "Implicit grounding: the 2008 foreclosure/household-wealth figures established earlier (Ch8).",
+    "status": "delivered",
+    "note": "Ch8 line 196 documents ~eleven trillion in household wealth destroyed and ~ten million foreclosure filings 2008-2012 (~five million completed). Ch9's '$11 trillion / ten million foreclosures' restatement (line 122) is internally consistent with Ch8. The 'eleven million filings' phrasing in Ch9 line 142 is a loose restatement of Ch8's 'ten million filings'; substance grounded, minor figure-phrasing slippage noted. Delivered."
+   },
+   {
+    "claiming_text": "the same as its reading of the retirement-security comparison Chapter 4 develops",
+    "target": "Ch4",
+    "what_promised": "Ch4 develops a retirement-security comparison (U.S. architecture as a contingent choice priced by the framework).",
+    "status": "delivered",
+    "note": "Ch4 lines 98-108 develop the U.S. Social Security retirement-security architecture explicitly as a contingent choice (pay-as-you-go vs. funded, the 1935 design moment, the Treasury-bond trust-fund mechanism) and read it through the framework. Delivered."
+   },
+   {
+    "claiming_text": "Chapter 4 develops the comparison between Norway's sovereign-fund architecture and the United States Social Security system, demonstrating that retirement-security architectures are themselves contingent choices ... and that the framework's accountability-bond logic prices both",
+    "target": "Ch4",
+    "what_promised": "Ch4 contains a developed Norway-sovereign-fund vs. U.S.-Social-Security comparison framed as contingent architecture priced by the accountability-bond logic.",
+    "status": "delivered",
+    "note": "Ch4 lines 98-108 ('A contrast worth drawing') carry exactly this comparison: Norway compounds petroleum rents, U.S. Social Security transfers payroll taxes pay-as-you-go; both are 'retirement-security architectures'; both are engineered choices; the framework reads both structurally. Fully delivered."
+   },
+   {
+    "claiming_text": "Pistor's The Code of Capital (engaged at depth in Chapter 5) names the legal-architectural reason",
+    "target": "Ch5",
+    "what_promised": "Ch5 engages Pistor's The Code of Capital at depth (legal modules encoding capital while leaving costs externalized).",
+    "status": "delivered",
+    "note": "Ch5 line 220 develops Pistor's The Code of Capital (2019) substantively: the legal-module argument (property/collateral/trust/corporate-veil/bankruptcy/choice-of-law), the Libby/W.R. Grace bankruptcy as the named pattern, and the framework as the 'Pistor-adjacent move.' 'Engaged at depth' is accurate. Delivered."
+   },
+   {
+    "claiming_text": "similar to Chapter 7's Europa-ocean treatment \u2014 the recovery timescales of deep-sea ecosystems following disturbance are unknown on multi-decadal-to-multi-century scales",
+    "target": "Ch7",
+    "what_promised": "Ch7 treats the Europa subsurface ocean as an externality-tail-unbounded / unpriceable case where the Asymmetric Regret Rule dominates (wait, study, defer).",
+    "status": "delivered",
+    "note": "Ch7 line 93 and the summary table (line 172) carry the Europa-ocean treatment: 'externality term cannot be filled in with a number,' Asymmetric Regret Rule dominates, irreversibility absolute, defer extraction. Matches Ch9's invocation. Delivered."
+   },
+   {
+    "claiming_text": "whether the ISA architecture's verification structure resists the simulated-reattachment adaptation Chapter 7's immune-response stress test surfaced",
+    "target": "Ch7",
+    "what_promised": "Ch7's immune-response stress test surfaces a 'simulated-reattachment' dynamic (accountability performed without delivery) that Ch9 says it takes up as a design problem.",
+    "status": "delivered",
+    "note": "Ch7 line 221 ('The framework across time, and the immune response') develops the simulated-reattachment dynamic (Kimberley Process, fair-trade, carbon offsets, ESG screens) and at line 221 explicitly says 'Chapter 9, in particular, takes up the design problem this stress test surfaces.' The cross-reference is reciprocal and delivered on the Ch7 side. Delivered."
+   },
+   {
+    "claiming_text": "Mining reclamation bonds exist ... under the Surface Mining Control and Reclamation Act of 1977 ... They are structurally underpriced, as Chapter 2 documented \u2014 the current bond pool covers a fraction of actual reclamation costs, and the gap has been papered over through bankruptcy-driven transfer of liability to the public",
+    "target": "Ch2",
+    "what_promised": "Ch2 documents that SMCRA reclamation bonds are structurally underpriced and that the shortfall was transferred to the public via coal-company bankruptcies.",
+    "status": "delivered",
+    "note": "Ch2 lines 82-86 carry SMCRA 1977, the $4-6 billion bonding gap, and the 2014-2016 bankruptcies of three major coal companies 'transferring $865 million in liabilities directly to taxpayers.' Exact support for the underpricing + bankruptcy-transfer claim. Delivered."
+   },
+   {
+    "claiming_text": "a contingency argument that names specific moments \u2014 and the framework will name them in the next section \u2014 is more useful than a counterfactual rebuild from the eighteen-nineties. ... The United States can make different decisions now, at identifiable decision points the next chapter will name",
+    "target": "Ch10",
+    "what_promised": "The next section (within Ch9) AND the next chapter (Ch10) will NAME SPECIFIC, identifiable decision-point moments forming a forward-looking contingency argument.",
+    "status": "partial",
+    "note": "This is a double-barreled promise ('the next section' and 'the next chapter will name'). Neither target names specific identifiable decision-point moments. Within Ch9, the next sections ('What the eleven-cent difference actually buys,' 'Entering wedges,' 'What a framework does') catalog existing institutions/wedges but do not enumerate named forward decision-point moments. Ch10 gestures generally \u2014 line 134: 'The decision points are not in the next century. They are in this one. The leverage is here' \u2014 and frames the present as 'the hinge,' but never names specific identifiable decision points the way Ch9 twice promises ('names specific moments,' 'identifiable decision points the next chapter will name'). The substance that exists is a general this-generation-this-century framing plus the entering-wedges catalog; the promised enumeration of specific named moments is thin/absent. Partial."
+   },
+   {
+    "claiming_text": "That work is what this chapter's policy architecture, and the next chapter's closing reflection, attempt to make legible.",
+    "target": "Ch10",
+    "what_promised": "Ch10's closing reflection makes legible which components of social-democratic/accountability architectures can be integrated at U.S. scale starting from current conditions.",
+    "status": "partial",
+    "note": "Ch10's closing reflection (grandfather/model-maker discipline, the six severance patterns, the Black Hills limit, the reformist-critique engagement, the generational-hinge section) is a meditation on the framework's reach and limits and the generational stakes. It does not deliver a component-by-component 'which architectures integrate at U.S. scale from current conditions' analysis; that integration analysis actually lives in Ch9 itself ('The Nordic objection, taken seriously,' lines 182-190) rather than in Ch10. Ch10 makes the stakes and the hinge legible but not the specific integration roadmap Ch9's sentence implies the closing reflection will. Partial."
+   },
+   {
+    "claiming_text": "Strategic petroleum reserves already exist in most industrial countries. ... The United States has at various points held strategic stockpiles of helium, tungsten, cobalt",
+    "target": "the book",
+    "what_promised": "Self-contained factual assertion; no concrete target unit promised \u2014 relies on the framework's own catalog of existing reserve institutions.",
+    "status": "delivered",
+    "note": "Not a true cross-reference; in-chapter factual grounding. The strategic-reserve / stockpile claims are restated and expanded in Ch9's own 'Entering wedges' section (lines 230-234: MP Materials/Mountain Pass, EU CRMA, Japan/Lynas, South Korea). Internally consistent; no dangling external promise."
+   },
+   {
+    "claiming_text": "Mancur Olson described it in 1965.",
+    "target": "unspecified",
+    "what_promised": "Attribution of the concentrated-interest-defeats-diffuse-interest logic to Olson; no internal-unit cross-reference (external citation).",
+    "status": "target-unspecified",
+    "note": "External-literature citation, not an intra-book cross-reference, so no target unit to verify within the manuscript. Flagged only for completeness; the 1965 date is a factual citation matter (Olson's The Logic of Collective Action, 1965), not a dangling forward/backward promise. No book-internal home is promised or required."
+   },
+   {
+    "claiming_text": "[Known-anchor check] any '2008/TARP/Dodd-Frank engagement lives in the Technical Appendix' claim",
+    "target": "TA",
+    "what_promised": "Task-specified known anchor: a claim routing the 2008/TARP/Dodd-Frank engagement to the Technical Appendix would be dangling.",
+    "status": "delivered",
+    "note": "NOT APPLICABLE TO Ch9 \u2014 Ch9 makes NO such claim. Ch9 contains zero references to the Technical Appendix, and its 2008/TARP/Dodd-Frank engagement (lines 122-130, 'The political economy of resistance') is developed in-chapter and grounded in Ch5 (which carries the original TARP/Dodd-Frank treatment at lines 84-98). The dangling 'lives in the TA' claim the task warns of does not originate in Ch9. Recorded as delivered=N/A so nothing is left motioned-at. (NB: Ch10 line ~ 'Chapter 5 introduced ... the Technical Appendix formalizes the same architecture for retrospective accounting' is a Ch10 claim, not a Ch9 claim, and is outside this unit's scope.)"
+   },
+   {
+    "claiming_text": "[Known-anchor check] any Sandel 'engaged elsewhere' claim",
+    "target": "unspecified",
+    "what_promised": "Task-specified known anchor: a Sandel 'engaged elsewhere' claim would be target-unspecified/dangling (Sandel appears in no chapter).",
+    "status": "delivered",
+    "note": "NOT APPLICABLE TO Ch9 \u2014 Ch9 contains no reference to Sandel and no 'engaged elsewhere' construction. The chapter's named interlocutors are Coase, Ostrom, Pistor, Christophers, Adam Smith, Buchanan/Tullock, Olson, Harvey, Raworth, Desmond, Susskind, Mian/Sufi. No Sandel dangling-reference originates here. Recorded so the anchor is explicitly cleared for this unit."
+   }
+  ]
+ },
+ {
+  "unit": "Ch10",
+  "refs": [
+   {
+    "claiming_text": "Chapter 7 walked through what the framework says about her decision.",
+    "target": "Ch7",
+    "what_promised": "Ch7 runs the framework through the Mars-habitat administrator's decision about whether to accelerate subsurface-water extraction.",
+    "status": "delivered",
+    "note": "Ch7 (Chapter__7_OnOtherWorlds.md) delivers fully. The section 'The habitat' (lines 27-49) sets up exactly this scenario: a 10,000-person habitat, three subsurface water-ice deposits, a trading consortium requesting accelerated extraction, and the administrator's decision. Lines 37-47 run all four framework parameters (substitutability, stock-dependent utility, externality tail, discount factor) and reach the 'reserve / ration / do not accelerate' recommendation. Genuine and detailed."
+   },
+   {
+    "claiming_text": "Chapter 5 introduced what an honest pricing of past extraction would look like",
+    "target": "Ch5",
+    "what_promised": "Ch5 introduces honest retrospective pricing of past/already-realized extraction (the framework running backward).",
+    "status": "delivered",
+    "note": "Ch5 (Chapter__5_TheAccountabilityGap.md) carries this. Line 210 defines the Restitution Bond ('addresses harm already realized... discharges the historical extraction-portfolio'); line 232 'The same apparatus runs in reverse'; lines 234-244 develop backward application via the Three Ways applied in reverse, Darity & Mullen reparations methodology, McDowell longevity-gap legacy effect, and point to TA \u00a75.5. The 1860/1960/1995 retrospective-pricing claim in Ch10 line 94 is genuinely grounded."
+   },
+   {
+    "claiming_text": "the Technical Appendix formalizes the same architecture for retrospective accounting",
+    "target": "TA",
+    "what_promised": "The Technical Appendix gives a formal articulation of the framework's architecture applied to retrospective (backward-looking) accounting.",
+    "status": "delivered",
+    "note": "The TA (TechnicalAppendix_v2.0.0.html) genuinely carries this and it is the one anchor most worth confirming. \u00a75 (line 1202) decomposes the Accountability Bond into B1 Restitution Bond (backward-looking, paired with CSD = Cost Severance Damages already realized) and B2 Foreclosure Bond (forward). \u00a75.1.1 (line 1219) formally defines B1. \u00a75.5 (line 1370) 'Bidirectional application of the framework apparatus' is an explicit formalization of the framework running in reverse: it shows the Commons Inversion Test, Four Gates, and Three Ways of Counting are direction-agnostic and walks the backward application (lines 1373-1428), including the canonical bidirectional equation total CS = (CSD - B1) + (RCV - B2) at line 474. This is a real, substantial formalization, NOT a gesture. DELIVERED."
+   },
+   {
+    "claiming_text": "The 2008 housing crisis moved primarily through information.",
+    "target": "the book",
+    "what_promised": "In-text recapitulation only; characterizes the 2008 crisis as severed primarily through the information pattern. No promise that engagement of 2008/TARP/Dodd-Frank 'lives in' any named target.",
+    "status": "delivered",
+    "note": "IMPORTANT re the known anchor: Ch10 makes NO claim that 2008/TARP/Dodd-Frank engagement 'lives in the Technical Appendix.' Line 58 is a bare one-clause pattern-attribution, structurally a recap of Ch7 line 129 (near-verbatim). The known DANGLING anchor (2008/TARP/Dodd-Frank in TA) does NOT fire in this chapter because no such routing promise is made here. The substantive TARP/Dodd-Frank engagement lives in Ch5 (lines 88-98); the TA contains 2008 only as a one-line worked-walkthrough label (line 216), no TARP/Dodd-Frank text. But since Ch10 points nowhere, there is no dangling cross-reference to flag in Ch10 itself. The bare claim that 2008 moved through information is itself substantiated (Ch5 lines 88-92; Ch7 line 129)."
+   },
+   {
+    "claiming_text": "the framework cannot reach... A reader who wants to understand what the framework cannot reach should read Robin Wall Kimmerer... Leanne Betasamosake Simpson... Glen Coulthard... Roxanne Dunbar-Ortiz; and Vine Deloria Jr.",
+    "target": "the book",
+    "what_promised": "Points the reader to external (non-book) authors for the indigenous-dispossession vocabulary the framework explicitly cannot reach.",
+    "status": "target-unspecified",
+    "note": "This is an external reading-list gesture, not a within-book or within-appendix cross-reference. By design it names no concrete home inside the book/TA (the chapter is candid that this work 'is not adjacent to the book'). Not a dangling promise \u2014 it is an honest external referral. Catalogued for completeness; no internal target is owed. NB: the Sandel known-anchor does NOT appear here or anywhere in Ch10 \u2014 Ch10 makes no Sandel 'engaged elsewhere' claim at all."
+   },
+   {
+    "claiming_text": "The book unfolds it slowly, against the coal of West Virginia, the oysters of the Chesapeake, the rare earths of Inner Mongolia, the oil of the North Sea and the Niger Delta, the water of the Ogallala, the water ice of Mars.",
+    "target": "the book",
+    "what_promised": "The book as a whole develops the framework across these named cases (coal=Ch2; oysters=Ch3; rare earths/Inner Mongolia=Ch6; North Sea oil=Ch4; Niger Delta; Ogallala water; Mars water ice=Ch7).",
+    "status": "delivered",
+    "note": "Collective book-level claim, not a pointed cross-reference, but every case anchor is verifiably present: coal/McDowell Ch2 (58 hits); oysters/Chesapeake Ch3 (50); rare earths/Baotou/Inner Mongolia Ch6 (3, plus heavy abundance treatment); North Sea oil/Norway Ch4 (35); Niger Delta Ch4 (7) + Ch9 (4) + Ch5 (3); Ogallala/aquifer/Panhandle Ch6 (2) + Ch7 (2) + Ch9 (5); Mars water ice Ch7 (extensive). Substance present throughout."
+   },
+   {
+    "claiming_text": "Most of the extractions the book examined operate through some combination of them... The pyramids moved through power. The 'cost of doing business' pattern in modern industrial subsidy moves through routine. The atmosphere absorbed two centuries of combusted carbon under the cover of abundance.",
+    "target": "the book",
+    "what_promised": "The book's cases instantiate each of the six severance patterns; specifically pyramids=power, industrial-subsidy 'cost of doing business'=routine, atmosphere/carbon=abundance.",
+    "status": "delivered",
+    "note": "Within-book recap (near-verbatim of Ch7 line 129), not a pointed forward/backward reference, but all attributions are substantiated. Pyramids/pharaohs as power-severance: Ch7 lines 117, 213, 215 (Giza + Qin Great Wall, extended treatment). 'Cost of doing business' / normative routinization: Ch5 line 88, Ch7 line 119 (defines the normative-routinization pattern), Ch3 (1 hit). Atmosphere/carbon under abundance: developed heavily in Ch6 (23), Ch7 (12), Ch8 (14), Ch9 (10). Genuinely carried."
+   }
+  ]
+ },
+ {
+  "unit": "TA",
+  "refs": [
+   {
+    "claiming_text": "four-step implementation sequence connecting to Ch 9 / \u00a713.3 \u2014 The Four-Step Implementation Sequence (Chapter 9 connection)",
+    "target": "Ch9",
+    "what_promised": "Ch9 carries / connects to the four-step Classify-Reserve-Invest-Reassess implementation sequence (the framework's applied-policy build-out)",
+    "status": "partial",
+    "note": "Ch9 (Chapter__9_PricingHonestly.md) genuinely carries the applied accountability-bond architecture \u2014 rent-capture at extraction, community-designation, life-cycle-matched disbursement (line 118), Alaska/Norway sovereign-fund exemplars (lines 118, 218), reclamation-bond correctness (line 240), and the closing vocabulary list (line 272). But Ch9 does NOT present the four numbered steps (Classify / Reserve / Invest / Reassess) as such; it explicitly defers the specific architecture to 'separate applied-policy analysis the framework does not attempt to legislate' (line 118). The four-step sequence as an enumerated object lives only in the TA \u00a713.3. The 'connection' is thematic, not a delivered one-to-one mapping."
+   },
+   {
+    "claiming_text": "The high-level form CS = RCV \u2212 B used throughout this volume's chapter prose (Ch 6 line 304 et seq.)",
+    "target": "Ch6",
+    "what_promised": "Ch6 prose around line 304 uses the high-level CS = RCV \u2212 B form",
+    "status": "delivered",
+    "note": "Ch6 carries the central-equation discussion in that region (line 265: 'Cost Severance equals Residual Commons Value minus Bond posting'; the CS=RCV\u2212B form recurs across Ch5 line 210 and Ch6). The exact line-304 anchor lands on the Commons Inversion Test naming passage rather than the equation, so the line number is approximate, but the substance (the high-level form used in chapter prose) is genuinely present. Line citations in HTML\u2192markdown are inherently soft; the claim is substantively delivered."
+   },
+   {
+    "claiming_text": "McDowell County's 13-year life-expectancy gap (cited Ch 2 + Ch 6)",
+    "target": "Ch2 / Ch6",
+    "what_promised": "Both Ch2 and Ch6 cite McDowell County's 13-year life-expectancy gap",
+    "status": "delivered",
+    "note": "Ch2 line 44 (63.5 vs 76.5 male life expectancy = 'Thirteen years') and line 138 ('The 13-year life expectancy gap'); Ch6 line 32 ('the life-expectancy gap \u2014 thirteen years, in McDowell County') and line 34 (the legacy-effect framing). Both targets carry it. Delivered."
+   },
+   {
+    "claiming_text": "The framework's earlier IPG ... reports in Ch 6 + Ch 8 cited a 33\u2013122\u00d7 range for the McDowell coal IPG",
+    "target": "Ch6 / Ch8",
+    "what_promised": "Both Ch6 and Ch8 cite the 33\u2013122\u00d7 McDowell IPG range",
+    "status": "partial",
+    "note": "Ch8 carries it directly (line 172 '33 and 120'; line 216 '33 and 122'). Ch6, however, attributes the 33\u2013122\u00d7 figure to CHAPTER 2, not to itself: Ch6 line 187 reads 'Chapter 2 anchored the McDowell IPG at thirty-three to one hundred and twenty-two times.' The canonical home of the 33\u2013122\u00d7 range is Ch2 (line 126) + Ch8. The TA's 'Ch 6 + Ch 8' attribution is slightly mis-sourced on the Ch6 side \u2014 Ch6 references the range but explicitly credits Ch2 as its origin. Substance exists; the chapter-attribution is imprecise."
+   },
+   {
+    "claiming_text": "Pedagogical implication for Ch 6: when Ch 6 walks through the McDowell convergence table, the reconciliation should be made explicit",
+    "target": "Ch6",
+    "what_promised": "Ch6 walks through the McDowell convergence table and makes the 33\u2013122 vs 50\u2013555 reconciliation explicit",
+    "status": "delivered",
+    "note": "Ch6 carries the convergence table (lines 163-193) and explicitly makes the reconciliation (line 187: '50-to-555\u00d7 triangulated range ... Both correctly describe McDowell's intergenerational pricing gap; they differ in which time horizon ... Formal reconciliation in Technical Appendix \u00a711.11'). The chapter delivers exactly the pedagogical move the TA recommends, and reciprocally links back to TA \u00a711.11."
+   },
+   {
+    "claiming_text": "Pedagogical implication for Ch 8: Ch 8's 22-vs-1\u00d7 tier-by-tier walkthrough (per the Ch 8 worked-example reframing) sits within the lower-bound",
+    "target": "Ch8",
+    "what_promised": "Ch8 carries a 22-vs-1\u00d7 tier-by-tier worked walkthrough",
+    "status": "partial",
+    "note": "Ch8 (Chapter__8_WhatThingsActuallyCost.md) carries the McDowell single-ton worked-example reframing and the IPG discussion (lines 74, 172, 216) and the SCC carbon math (line 74, ~$496/ton). But a specifically labeled '22-vs-1\u00d7' tier-by-tier figure was not located in the chapter prose on grep (the chapter expresses the gap as 33\u2013122\u00d7 and as 'a factor of at least three' on carbon alone). The TA's '22-vs-1\u00d7' phrasing appears to be a TA-side characterization of Ch8's worked floor estimate rather than a verbatim Ch8 figure; the underlying conservative-floor claim is delivered, the exact '22-vs-1\u00d7' label is not confirmable in Ch8."
+   },
+   {
+    "claiming_text": "Ch 1 Option C bridge plan converts the HR collision into a teaching on-ramp rather than a renaming move (\u00a715.2.1 Cost Severance methodological framing)",
+    "target": "Ch1",
+    "what_promised": "Ch1 contains a teaching on-ramp / bridge that converts the HR-'severance costs' lexical collision into a pedagogical asset for the term Cost Severance",
+    "status": "dangling",
+    "note": "Ch1 (Chapter__1_TheQuietMath.md, 122 lines) contains NO mention of 'Cost Severance', 'severance', 'severed cost', or any HR-severance-pay bridge \u2014 grep count for 'cost severance' in Ch1 = 0. Ch1 is the personal-narrative opener (commute trade, NICU, grandfather, NIH); it never names the term or stages an HR collision. The term 'Cost Severance' / 'severed cost' is actually introduced in Ch2 (line 136: 'Cost severance is the mechanism by which costs are cut loose...'; line 138 'severed cost'; line 142 lists the three terms), and even Ch2 defines the term without explicitly invoking the HR-severance-pay collision as a 'teaching on-ramp.' The 'Ch 1 Option C bridge plan' is internal process-scaffolding language ('Option C bridge plan' = a planning artifact) that did not materialize in published Ch1 prose. The substance the TA promises (an HR-collision teaching on-ramp at first-mention) does not exist in Ch1, and the bare term-definition lives in Ch2."
+   },
+   {
+    "claiming_text": "that pairing is load-bearing for Ch 9 Pricing Honestly's teaching arc (\u00a715.2.2 Foreclosure Bond) ... the trauma-affect ... is honored via Ch 9 bridge prose at first-introduction (~250\u2013350 words at canonical Foreclosure Bond first-mention)",
+    "target": "Ch9",
+    "what_promised": "Ch9 carries ~250\u2013350 words of bridge prose at the Foreclosure Bond's first-mention that surfaces race-and-housing-economics scholarship before naming the framework's structural commitment",
+    "status": "dangling",
+    "note": "Ch9 carries the 2008 housing-crisis material substantively (lines 120-130: TARP, Mian & Sufi House of Debt, ten million foreclosures, Swedish 1932 analog) and uses 'accountability-bond logic' repeatedly (lines 118, 130). But the specific promised artifact \u2014 a ~250\u2013350-word bridge at the 'Foreclosure Bond' FIRST-MENTION that surfaces race-and-housing-economics scholarship (redlining / racial housing economics) and then names the structural commitment \u2014 was not found. Grep of Ch9 for the term 'Foreclosure Bond' / race / redline returns the bond-logic discussion but no dedicated affect-handling bridge passage and no race-and-housing scholarship surfacing at a Foreclosure-Bond first-mention. The Restitution/Foreclosure Bond first-introduction with its lineage actually lives in Ch5 (lines 204-228), not Ch9. The promised Ch9 bridge prose appears to be a TA-side plan not realized as described in Ch9."
+   },
+   {
+    "claiming_text": "Ch 4 The Existence Proof frames the entire chapter argument via option-value reasoning ... when Ch 4 frames future-generation foreclosure via option-value reasoning, the named specialization preserves the argument (\u00a715.4 Intergenerational Option Value)",
+    "target": "Ch4",
+    "what_promised": "Ch4 frames its argument via option-value reasoning and uses the Intergenerational Option Value specialization",
+    "status": "delivered",
+    "note": "Ch4 (Chapter__4_TheExistenceProof.md) carries the foreclosure/option-value framing throughout (lines 50, 52, 56, 118) and names 'Intergenerational Option Value' explicitly (line 124: 'It does not price the existence of the resource for its Intergenerational Option Value'). The TA's Ch4 promise is delivered."
+   },
+   {
+    "claiming_text": "The asteroid miner (Ch 7 Mars habitat / Europa thought-experiment) ... Used in Ch 7 as the framework's universality test ('if it works on Mars, it works on Earth') (Walkthrough 5, \u00a711.10 space-economics anchors)",
+    "target": "Ch7",
+    "what_promised": "Ch7 runs the Mars-habitat / asteroid / Europa thought-experiment as a universality/stress-test of the framework",
+    "status": "delivered",
+    "note": "Ch7 (Chapter__7_OnOtherWorlds.md) carries the full thought-experiment: Mars habitat of ten thousand (line 17), asteroid iron / lunar helium / comet volatiles / Europa ice / exoplanet (lines 17, 21), the four parameters applied to Mars water (lines 37-43), and the explicit Earth-is-the-same-system-with-different-parameters universality claim (lines 71-73). Delivered."
+   },
+   {
+    "claiming_text": "Method 2 backward-direction exemplars ... developed operationally by the reparations-economics tradition (Darity, Mullen, Hamilton, Coates, Anderson) ... \u00a75.4 Parfit 1984 grounding standing and Sen 1985/1999 grounding valuation (\u00a75.5 backward application + \u00a75.4 coordination note)",
+    "target": "Ch5",
+    "what_promised": "The framework's backward-direction / reparations-economics application (Restitution Bond, CSD, Darity-Mullen-Coates lineage) is carried by the narrative chapters",
+    "status": "delivered",
+    "note": "Ch5 (Chapter__5_TheAccountabilityGap.md) robustly carries the backward-direction apparatus: Restitution and Foreclosure as two directions of accountability (lines 204-228), the Coates/Darity-Mullen/Hamilton/Conley reparations lineage (lines 216-218), CSD as structural extension of Coates's argument-architecture (line 216), and the Parfit 1984 intergenerational grounding (line 224). Ch6 independently carries the Parfit non-identity/impersonal-outcomes grounding (lines 259-261). The \u00a75.4 Parfit/Sen reference is itself an intra-TA pointer; its narrative-chapter substance is delivered in Ch5 + Ch6."
+   },
+   {
+    "claiming_text": "Walkthrough 4 / \u00a74 \u2014 2008 financial crisis: institutional-commons damage with multi-stream Independence-gate exercise ... comparable public-record validation through Financial Crisis Inquiry Commission",
+    "target": "TA (self) / Ch5",
+    "what_promised": "The TA's 2008 walkthrough engages the 2008 crisis (the TA carries a 2008-crisis worked example)",
+    "status": "delivered",
+    "note": "The TA's own 2008 references (lines 216, 1821, 2034-2097, 2389, 2432, 2484, 2491) are an internally-delivered Walkthrough/\u00a74 example focused narrowly on the Independence-gate multi-stream decomposition exercise (foreclosure cost vs retirement-savings-loss double-counting avoidance) and FCIC public-record validation. This is self-contained and consistent within the TA. NOTE for cross-corpus context: this TA 2008 material is NARROW (gate-decomposition only). The TA carries ZERO TARP / Dodd-Frank / bailout-architecture content (grep count for 'dodd' and 'tarp' in TA = 0). The full 2008/TARP/Dodd-Frank institutional engagement (double-risk-transfer, TARP repayment objection, Dodd-Frank reform reversibility, Mian-Sufi) lives entirely in Ch5 (lines 76-96) and Ch9 (lines 120-130) \u2014 NOT in the TA."
+   },
+   {
+    "claiming_text": "[KNOWN ANCHOR CHECK] any claim that the 2008/TARP/Dodd-Frank engagement 'lives in the Technical Appendix'",
+    "target": "TA (self)",
+    "what_promised": "(Per task: a claim elsewhere in the corpus that the TARP/Dodd-Frank engagement is carried by the TA)",
+    "status": "dangling",
+    "note": "Confirmed from the TA-outgoing side: the TA makes NO outgoing promise that it carries the TARP/Dodd-Frank engagement, and it in fact does not carry it (zero TARP/Dodd-Frank tokens). The TA's only 2008 content is the narrow Independence-gate Walkthrough 4. Therefore any unit (the task names Ch5 original) that asserts '2008/TARP/Dodd-Frank engagement lives in the Technical Appendix' is making a DANGLING claim \u2014 the target (TA) does not deliver it. The substance lives in Ch5 lines 76-96 (full double-risk-transfer + 4 objection-responses incl. TARP-repaid and Dodd-Frank-reform-reversible) and is wedge-referenced forward in Ch9 (line 94: 'Chapter 9 will name it as one of the entering wedges'). This was verified, not assumed; the incoming claim itself is outside the TA so could not be located within TA scope \u2014 flagging that the TA end of any such claim is empty."
+   },
+   {
+    "claiming_text": "[KNOWN ANCHOR CHECK] any Sandel 'engaged elsewhere' claim",
+    "target": "unspecified",
+    "what_promised": "(Per task: a claim that Michael Sandel's work is engaged elsewhere in the corpus)",
+    "status": "target-unspecified",
+    "note": "The TA makes NO outgoing reference to Sandel at all \u2014 grep for 'Sandel' in the TA returns zero hits. The TA therefore neither promises a Sandel engagement nor defers one 'elsewhere.' (For corpus context: Sandel appears in no manuscript chapter either; per project memory he surfaces only in essay-side material such as the Atlantic Ideas pricing essay, not in book prose.) Within TA-outgoing scope there is no Sandel promise to dangle; recording as target-unspecified because the known anchor concerns a Sandel 'engaged elsewhere' claim that does not originate in the TA."
+   },
+   {
+    "claiming_text": "Future analysts can apply CIT + the four gates to extraction contexts the book does not examine ... it is structurally open (\u00a719 Third-party extension); computed prices for these variables sit outside this volume's empirical scope (\u00a75.5)",
+    "target": "the book / future work (unspecified)",
+    "what_promised": "Backward-direction variables (racial wealth gap, longevity gap, coercion vector, Indigenous dispossession, cultural-knowledge severance) and additional Ci are extensible but explicitly NOT computed in this volume",
+    "status": "target-unspecified",
+    "note": "These are honestly-flagged NON-promises: the TA explicitly states these computations 'sit outside this volume's empirical scope' and are left to 'field-extending papers and third-party applications' (\u00a75.5) and 'future analysts' (\u00a719, line 7701). No concrete home is named (and none should be \u2014 the volume disclaims them). Recorded as target-unspecified per the framing: the TA gestures at future/elsewhere extension without naming a deliverable home, which is intended scope-discipline, not a dangling internal promise."
+   },
+   {
+    "claiming_text": "Coordination note (B\u2081-direction moral grounding) ... Whether a B\u2081-direction moral-grounding companion should be expanded as an explicit subsection (an extension of \u00a75.4; a new \u00a75.6; or left implicit) is a subsequent-revision question (\u00a75.5)",
+    "target": "TA (self) \u2014 \u00a75.4 / hypothetical \u00a75.6",
+    "what_promised": "An explicit B\u2081-direction (backward) moral-grounding subsection may exist or be expanded",
+    "status": "partial",
+    "note": "Self-aware open item inside the TA: it explicitly logs that a dedicated B\u2081-direction moral-grounding subsection does NOT currently exist (no \u00a75.6) and that the operational grounding is 'currently delivered through this section's reparations-economics lineage' (Darity/Mullen/Coates/Anderson via Method 2). The TA is transparent that the structural home is unresolved \u2014 'logged here without prescribing the resolution.' Substance (backward moral grounding) is gestured-at and partially carried via the reparations lineage; the promised dedicated subsection is intentionally absent. Not a hidden dangle \u2014 it is self-flagged as a subsequent-revision question."
+   },
+   {
+    "claiming_text": "Method 3 \u03b1-dominance is the estimation companion [to ARR] (\u00a7 cross-ref); \u00a78 decision-rule level; \u00a711.8 estimation-method level; Companion to \u00a711.5 Norway (\u00a711.6)",
+    "target": "TA (self) \u2014 internal \u00a7-cross-references",
+    "what_promised": "Intra-TA companion sections (ARR\u2194Method3 \u03b1-dominance; \u00a78\u2194\u00a711.8; \u00a711.6\u2194\u00a711.5) cross-deliver",
+    "status": "delivered",
+    "note": "These are internal TA-to-TA cross-references and are self-consistent: \u00a78 ARR decision rule and \u00a711.8 / Method 3 \u03b1-dominance estimation both present (lines 3034, 5086); \u00a711.6 Appalachian-coal calibration is genuinely a companion execution to \u00a711.5 Norway (lines 4448 ff., shared Three-Ways structure). Internal coherence confirmed; the '$4.50/ton (Ch 6 convergence-table anchor)' value (line 4487) also matches Ch6 line 44. Delivered."
+   }
+  ]
+ }
+]

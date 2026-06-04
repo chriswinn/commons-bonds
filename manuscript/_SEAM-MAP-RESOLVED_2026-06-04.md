@@ -53,7 +53,36 @@ compressed it to a bare pointer, which would break Ch9.
 → **Ch7 retains the immune-response substance** (not reduced to a pointer); Ch9's CCZ reference
 stays valid.
 
+## Must-include net (D8–D13, from the dangling-reference sweep 2026-06-04)
+Full detail: `_DANGLING-REFERENCE-MUST-INCLUDE_2026-06-04.md`. 119/150 cross-references deliver
+cleanly; these are the unkept promises. **D8 needs an author craft decision; D9–D13 fold into
+the redraft briefs.**
+
+- **D8 — Ch1's personal-quantification promise (CRAFT DECISION, author).** Ch1 promises the
+  framework "would later let me put a number on" the author's own personal/relational cost; the
+  framework only ever prices commodities/commons, never his life. *Recommended resolution
+  (pending author): reframe the promise — the framework gave him the words to NAME the cost
+  honestly, and taught him the deepest costs resist the invoice (the number was never the point;
+  the marriage cannot be billed back). Turns a dangling promise into the book's emotional thesis;
+  fits the marriage disclosure + "an honest accounting… it does not undo it."* NOT a literal
+  pricing of his life.
+- **D9 — Ch3→Ch4 oyster/Chesapeake question:** Ch4 takes up "what was done for the oil could be
+  done for the oyster," OR Ch3 drops/relocates the promise. *(Rec: Ch4 takes it up briefly — it
+  is the existence-proof chapter and the bridge is strong.)*
+- **D10 — Exxon Valdez:** add Valdez to Ch5 (the case-after-case chapter that promises it), OR
+  correct the Ch4/Ch8 pointers to Ch6 (where Valdez actually lives). *(Rec: add a short Valdez
+  beat to Ch5 so the named quartet delivers.)*
+- **D11 — Dodd-Frank as a Ch9 entering wedge:** Ch9 names it among the wedges (Ch5 promises it),
+  OR Ch5 drops the promise. *(Rec: Ch9 names it — it is a true partial-implementation wedge.)*
+- **D12 — Ch9→Ch10 "names specific decision-point moments" (BP-3):** Ch10 names them, or Ch9
+  softens. *(Rec: Ch10 names them — protect the spine Ch9 hands forward.)*
+- **D13 — "cost severance" term-introduction:** Ch1 is framework-free by design and never names
+  the term, but Ch4+ attribute it to "the beginning." *(Rec: later chapters stop attributing the
+  TERM to Ch1 — Ch1 carries the felt sense, the later chapters name it; do NOT force a naming
+  bridge into Ch1.)* Plus render-fix: Ch6→TA method-specific anchors (§3.3/§3.4/§3.5).
+
 ## Gate
-Once the dangling-reference sweep returns, fold its must-include list into this map; then all
-analytical-chapter redraft briefs are complete (Rule 4 satisfied) and the whole-cloth redrafts
-can fire. Ch1 is seam-independent and not gated by this.
+All inputs are now in (value-audit + seam map D1–D7 + research ledger + dangling-ref D8–D13).
+With D8 decided and D9–D13 folded in, every analytical-chapter redraft brief is complete
+(Rule 4 satisfied) and the whole-cloth redrafts can fire. Ch1 is seam-independent for *seams*,
+but D8 is a Ch1 craft decision that should be settled in the Ch1 decision chat.
