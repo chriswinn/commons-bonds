@@ -99,8 +99,24 @@ touches) per the over-frame caution — but it is the strongest controlling-imag
   "+ some entries cannot be repaid"** — author flagged it sticks out; diagnosis: (a) the son-silence ALREADY
   embodies the un-repayable entry, so stating it is telling-after-showing and flattens it; and (b) "repaid"
   is the wrong frame — the chapter's established verb is "billed back" (a cost never invoiced), not a debt to
-  repay. The son-silence carries it; end clean on the empowering hand-off. (Two example endings drafted for
-  author 2026-06-04; final choice pending.)
+  repay. The son-silence carries it; end clean on the empowering hand-off.
+  **RESOLVED 2026-06-05 — the author WROTE the close (Ending-A shape: ends on the ledger hand-off). RATIFIED close (lightly polished; author voice + truth preserved verbatim where possible):**
+  > What the years finally gave me was not the satisfaction of righting the things that felt wrong, it was the ability to shine a light on them. To make the unseen, seen. It took me back to the morning that man greeted me in my mother's language, and it gave me the arithmetic that shows the system as it is, and that proves the decisions we made would not all have been the same if we had known the real cost.
+  >
+  > This is an honest accounting. It does not undo the damage.
+  >
+  > The son I once held is somewhere in the world now. I do not know where. I wish I knew. We have no contact.
+  >
+  > I am writing for the ones still ahead of us, for the unseen costs of the decisions not yet made, so that we can see the true cost before the truth is too late to use.
+  >
+  > This is the ledger. I can only point out the empty columns. The numbers are yours to enter.
+
+  **Corrections baked into v2 (author 2026-06-05):**
+  - **NO "chasing a number" arc anywhere.** The author was NEVER chasing a number; cut the entire v1 "I thought there would be a number at the bottom of the page / what the math gave me instead was seeing" framing. The TRUE engine: the lived moments of seeing (or being) someone taken advantage of with no words for it, and no way to know the real trade-off before taking a job or making a business decision. That is why the book exists.
+  - **"It was the seeing" → "make the unseen, seen"** — the chapter's spine line; ties to the high-point image + the north star (what the colleague did from the high points; what the framework does; what the reader is invited to do). Light motif.
+  - **"it does not undo it" → "it does not undo the damage"** (more concrete).
+  - **"the son I once held"** = the held-baby payoff phrasing at the close.
+  - Author stylistic choices left open: the comma in "the unseen, seen"; whether "and that proves…" stays folded or reverts to the punchy "And proves…" fragment.
 
 **F. Craft fixes (v2, no author input needed):** EXCISE meta-narration of intent ("I want you to sit with that," "I am going fast on purpose," "That is the moment I want to mark," "I want to bring this all the way home"); thin the "weather" metaphor to 1–2 uses; tighten the mid-chapter career sag (sustain the accelerando); cut "pennies on the dollar" redundancy; trim the over-explained tether; vary the value-generated/captured refrain (incantation fatigue).
 
