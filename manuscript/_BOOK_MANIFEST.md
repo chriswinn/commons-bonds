@@ -39,6 +39,11 @@ doubt about "what is the book," this file is the authority.
 - Supporting (validation / sourcing): `block4_validation_2026-04-25.md`,
   `empirical_sourcing_pass_2026-04-25.md`, `method3_sensitivity_analysis_2026-04-25.md`.
 
+### Back matter / apparatus (NEWLY CATALOGUED 2026-06-05 — components the manifest had omitted)
+- **Glossary** — `core/glossary/` — **THREE versions exist and the canonical pointer is ambiguous:** v2 is marked SUPERSEDED → v3; **v3 self-declares "Canonical Vocabulary Glossary"** (2026-04-24, 29 terms); **v4 is later and larger** (40 terms) but carries NO canonical / supersede marker. **OPEN DECISION: confirm the canonical version (v3 vs v4) and retire the others.** *(NB: the Ch2 severance-term-choice rationale was added to v4 on 2026-06-05 assuming v4 is latest; if v3 is canonical, move it there.)* The glossary is **back matter** — at assembly it becomes a back-matter section of the book, not a permanently separate document.
+- **Bibliography / source apparatus — GAP (do NOT design as multiple bibliographies).** The only existing reference list is **TA §18**, explicitly scoped to "academic citations referenced inline throughout this Tech Appendix." The chapters' journalism / interview / primary / litigation sources (Kennedy, Bailey/Lilly, Latusek/Hamby, Van Zee, GAO reports, Purdue litigation, etc.) have **no apparatus home yet.** **The book should have ONE unified source apparatus:** per-chapter endnotes for inline citations + a single back-matter Bibliography; the TA's references fold into / feed that master rather than competing with it. Building this is a deliberate assembly-stage task. Chapter sources are currently captured in the per-chapter source lists (Ch2 brief §5 + `ch2-v1-redline`) pending the apparatus.
+- **Also needed at assembly:** an index; acknowledgments (seed at `manuscript/chapters/_ACKNOWLEDGMENTS.md`).
+
 ---
 
 ## Structure note + PROPOSED relocation (2026-06-04)
