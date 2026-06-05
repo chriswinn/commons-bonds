@@ -145,6 +145,44 @@ restoration step: the test-drafts are valuable INPUTS to the real whole-cloth dr
 base to patch. *(Supersedes the value-audit's "no chapter needs a re-draft / restorations
 suffice" recommendation — the author overrode it on flow grounds, consistent with Rule 2.)*
 
+## Amendment B (RATIFIED 2026-06-05) — the narrate-the-feeling rule, and the prework-vs-polish line
+
+From the Ch1 v2 author redline. Two doctrine points.
+
+### Rule 7 — Never narrate the feeling or the move
+
+Cut any sentence whose job is to tell the reader **what to feel**, **why you are telling them**,
+or **what the prose is doing**. Show it and stop. This is the through-line of the heaviest v1→v2
+redline cuts ("I want you to sit with that"; "I want to be precise, because it is the reason I am
+telling you this"; "I am going fast on purpose"; "I am moving quickly through these"; "I had no
+idea, then, how I knew it"; the whole recognition paragraph that *told* the recognition instead of
+letting it land). It is the same principle as the close discipline the author named: **a caption
+on a feeling always reads as a small betrayal of it.** A book about making the unseen seen must
+not, at its own landings, narrate the thing it just made the reader see.
+
+**Why this is a PREWORK rule, not just a polish target.** v1's brief listed four banned phrases;
+the v2 drafter excised exactly those four and let new instances of the same species through. A
+blocklist of phrases does not generalize; **the principle does.** State the principle in every
+chapter brief and it kills the whole class — in this chapter's next pass and in all ten chapters.
+
+### The prework-vs-polish line (so we know which is which)
+
+A chapter's redline splits into two buckets, and the split tells us where to put effort:
+- **Prework-fixable PATTERNS** — a recurring tic (narrate-the-feeling), an over-writing habit
+  (elaborating a clean phrase: "an instrument well enough to play for people" for "a musical
+  instrument"), romanticized-euphemism imprecision ("the secret road" for the Underground
+  Railroad). Pull the PATTERN into the brief once; it stops recurring across chapters.
+- **The irreducible last mile** — word-level rhythm trims, precision swaps, add-or-cut taste
+  calls, the one paragraph that "reads off." No prework eliminates these; they are what a
+  sentence-level edit pass (Pass 3.2 voice-polish) + the author's own taste pass ARE. Every
+  chapter, by every serious writer, gets this pass.
+
+The signal to read from a redline: **if it is mostly last-mile line-polish and not structural
+rework, the whole-cloth draft succeeded** — you are polishing sentences, not rebuilding the
+chapter. Sentence-level polish at this stage applies as LINE-EDITS in place (including a clean
+paragraph cut plus a one-line seam-repair); it does NOT trigger a whole-cloth re-fire. Re-fire is
+for structural/scene-level restoration (Rule 2); line-polish is not graft.
+
 ## Ratification
 
 RATIFIED 2026-06-04 by author direction ("points 1, 2 and 3 should go for all future
