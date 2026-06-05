@@ -19,8 +19,8 @@ doubt about "what is the book," this file is the authority.
 - `_BookLevelGuidance.md` — internal book-level guidance (NOT end-user-facing; scaffolding)
 
 ### Chapters (in `manuscript/chapters/`)
-1. `Chapter__1_TheQuietMath_Draft.md` — **whole-cloth redraft, working draft (redline pending), 2026-06-05.** Prior month-of-iteration version regressed to `_archive/Chapter__1_TheQuietMath_REGRESSED_2026-06-05.md`. Drop the `_Draft` suffix when the redline is finalized + ratified.
-2. `Chapter__2_TheMiner_Draft.md` — **whole-cloth redraft, working draft (redline pending), 2026-06-05.** Prior version regressed to `_archive/Chapter__2_TheMiner_REGRESSED_2026-06-05.md`. Drop the `_Draft` suffix when redline finalized + ratified.
+1. `Chapter__1_TheQuietMath_Draft.md` — **whole-cloth redraft, working draft (redline pending), 2026-06-05.** Prior month-of-iteration version regressed to `archive/Chapter__1_TheQuietMath_REGRESSED_2026-06-05.md`. Drop the `_Draft` suffix when the redline is finalized + ratified.
+2. `Chapter__2_TheMiner_Draft.md` — **whole-cloth redraft, working draft (redline pending), 2026-06-05.** Prior version regressed to `archive/Chapter__2_TheMiner_REGRESSED_2026-06-05.md`. Drop the `_Draft` suffix when redline finalized + ratified.
 3. `Chapter__3_TheWaterman.md`
 4. `Chapter__4_TheExistenceProof.md`
 5. `Chapter__5_TheAccountabilityGap.md`

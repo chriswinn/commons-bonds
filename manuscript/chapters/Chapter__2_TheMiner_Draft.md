@@ -1,4 +1,4 @@
-<!-- WORKING DRAFT (2026-06-05): whole-cloth redraft (v1) now serving as the Ch2 working chapter, replacing the regressed prior version at manuscript/chapters/_archive/Chapter__2_TheMiner_REGRESSED_2026-06-05.md. REDLINE PENDING — author to redline; ratified rescues + notes captured in research/story-drafts/ch2-v1-redline_2026-06-05.md (Latusek "knife in my gut" restore + source citations + GAO debt # + Purdue exec names). "_Draft" = work-in-progress; drop the suffix when the redline is finalized and ratified. -->
+<!-- WORKING DRAFT (2026-06-05): whole-cloth redraft (v1) now serving as the Ch2 working chapter, replacing the regressed prior version at manuscript/chapters/archive/Chapter__2_TheMiner_REGRESSED_2026-06-05.md. REDLINE PENDING — author to redline; ratified rescues + notes captured in research/story-drafts/ch2-v1-redline_2026-06-05.md (Latusek "knife in my gut" restore + source citations + GAO debt # + Purdue exec names). "_Draft" = work-in-progress; drop the suffix when the redline is finalized and ratified. -->
 
 # Commons Bonds
 *By Chris Winn*
