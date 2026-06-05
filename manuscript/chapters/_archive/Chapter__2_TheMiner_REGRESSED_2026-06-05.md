@@ -1,3 +1,5 @@
+<!-- REGRESSED 2026-06-05: this is the prior, month-of-iteration version of Chapter 2. It has been SUPERSEDED by the whole-cloth redraft now at manuscript/chapters/Chapter__2_TheMiner_Draft.md. Per the 2026-06-05 version comparison, the whole-cloth draft won on dash hygiene, three factual corrections (the "two-thirds in a single year" income error, "central Appalachia" black-lung scope, the $865M black-lung-not-reclamation relabel), the Purdue provenance fix (split attribution + Van Zee 2009), the wrong-defendant controlling image, and the cross-chapter welds to Ch1. The beat worth keeping from THIS version was rescued forward into the redraft's redline (Latusek's fuller "knife in my gut" public-record quote). Retained for reference/lineage; do NOT treat as current. -->
+
 # Commons Bonds
 *By Chris Winn*
 

@@ -1,3 +1,5 @@
+<!-- REGRESSED 2026-06-05: this is the prior, month-of-iteration version of Chapter 1. It has been SUPERSEDED by the whole-cloth redraft now at manuscript/chapters/Chapter__1_TheQuietMath_Draft.md. Per the 2026-06-05 version comparison, the whole-cloth draft won on opener (colleague/high-point vs the slow plane open), discovery-arc structure, the controlling image, cross-chapter welds to Ch2+, the framework-free discipline, and dash hygiene. The beats worth keeping from THIS version were rescued forward into the redraft's redline (the Appalachian hunting "best part of any trip is the journey" beat + the true breath-count). Retained for reference/lineage; do NOT treat as current. -->
+
 # Commons Bonds
 *By Chris Winn*
 

@@ -1,3 +1,5 @@
+<!-- WORKING DRAFT (2026-06-05): whole-cloth redraft (v2) now serving as the Ch1 working chapter, replacing the regressed prior version at manuscript/chapters/_archive/Chapter__1_TheQuietMath_REGRESSED_2026-06-05.md. REDLINE PENDING — author finishing the line-redline; ratified rescues + line-edits captured in research/story-drafts/ch1-v2-redline_2026-06-05.md (hunting beat + true breath-count + the author's pass incl. the Tubman paragraph). "_Draft" = work-in-progress; drop the suffix when the redline is finalized and ratified. -->
+
 # Commons Bonds
 *By Chris Winn*
 
