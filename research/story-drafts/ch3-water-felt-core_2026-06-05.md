@@ -29,7 +29,31 @@ Two registers braid through it: **the beauty** (sunrise's limitless possibility;
 - **Family** (father et al.): memoir-voice; author is the consent-holder, case by case.
 - Any NEW living-private personal person the author names follows Phat's anonymize-default.
 
-## Open (next in the decision chat)
-- The LOSS / the felt decline — what has changed on the water in the author's lifetime (the oyster collapse, the reef, what's gone). The severance, felt.
-- The reef Restitution case core: the shells four stories high → carted off for boardwalks (the documentable severed substrate); the Darling/Fox Hill standing; running the Restitution Bond to a conservative floor.
-- The personal watermen: Phat (anonymized), Biggie, any others; what the author wants each to carry.
+## Round 2 (author 2026-06-05): the people, the loss, the shells/reef
+
+### BIGGIE — what he carries: the master's economy of motion
+The chop/Deadrise/one-oar material (anchors 3–5) is the **perfect segue to Biggie.** Biggie is the waterman the author's father *always talked about* for how **efficient and minimal his movements were** — shucking oysters, maneuvering his boat around his oyster beds. So Biggie embodies the mastery-and-intimacy register: economy of motion, a lifetime of skill made to look effortless. (Consent: deceased ≥30 yrs; courtesy-notify-family, father is first source; tracker §B.) The earlier "wrist-motion economy / six-pack-of-Coca-Cola / oak-build" details in the tracker are the same man — render him as the master.
+
+### PHAT — still to detail
+Author addressed Biggie here, not Phat. Tracker framing: Fox Hill waterman, mechanic shop + crab pots, **dual-economy portrait** (the modern waterman who can't live on the water alone). Keep anonymized. ASK the author what Phat carries (likely the present-day vs Biggie's past — the dual economy, the squeeze).
+
+### THE LOSS — the sunset, slow-then-sudden (felt severance + a controlling-image candidate)
+The Bay never feels fast — a kind of island time. **It is like a sunset: you feel it takes forever, then you blink and you've missed it.** That is the felt shape of the decline.
+- The author's three favorite Chesapeake fish to eat: **striped bass, red snapper, grouper.** As a child in the 1980s they were findable, but watermen fish by spawning season (you don't take them off-season or you throw off the gentle balance of the world).
+- Then: one bad season after another. First just not catching them often; a passing thought that they had dropped off restaurant menus. **Only later does he know the "bad season or two" waved away was actually the LAST of the meaningful-quantity seasons — "and yet we still took as much as we could carry to the shore."** (The no-villain / everyone-complicit honesty — the same register as Ch1's "nobody did this to me.")
+- Now their populations are so low he does not know if the generation being born as he writes will encounter one in a lifetime. (The intergenerational foreclosure, felt — "for the ones who come after.")
+- **The sunset (slow-then-sudden, blink-and-miss-it) is the controlling-image candidate for the LOSS**, complementing the chop (the WORLD). Ties the book-wide dawn→sunset device.
+- **FACT-CHECK FLAG (no-fabrication):** **striped bass** is solid — iconic Chesapeake rockfish, documented collapse + the 1985–95 moratorium (already in Ch3's figures). **Red snapper and grouper are NOT classic Chesapeake Bay species** (they are warmer-water Gulf / SE-Atlantic fish). The author's memory is the substrate, but before the prose calls them Chesapeake Bay fish, VERIFY whether they were Bay-caught vs coastal-Virginia/ocean-caught (lower Bay mouth / ocean access). The felt point (the fish he loved vanished in his lifetime) survives regardless; the species-as-Bay framing needs the check.
+
+### THE SHELLS / THE REEF — the full circle, in his father's hands (the Restitution case core)
+- Oyster shells were everywhere; around **1900, piled 3–4 stories high in Hampton, VA** (searchable historical photos per the author). They did not know what to do with them, so the shells went into **concrete mix to pave sidewalks.**
+- **The author's father, working every summer to pay his way through college, one summer poured the oyster-shell-packed concrete that makes up the Hampton, VA boardwalk — which still stands at the time of writing.** (Direct family standing; living-family substrate — father can confirm.)
+- The author first saw the old 3–4-story-shell photos and was told what then felt like **an old wives' tale: that you were supposed to put the shells back in the water to help the water.** Years later he learned there is **real scientific basis** — oyster shells are **regenerative substrate** that can restore reefs.
+- **The complete circle:** recent efforts now use **old concrete to rebuild oyster reefs via "concrete oyster castles"** for baby oysters to cling to. Author source: `https://www.militarynews.com/norfolk-navy-flagship/naval-support-activity-hampton-roads-installs-oyster-castles-to-help-protect-shoreline/` (NSA Hampton Roads oyster castles).
+- **The severed cost made literal:** the regenerative substrate (the shells) was carted off and ground into a boardwalk — and now money is spent making *concrete* castles to do what the discarded shells would have done. They paved sidewalks with the thing that rebuilds reefs, then paid to recreate it artificially. This IS the Restitution-Bond worked case, with the author's father's own hands in the pour.
+- **FACT-CHECK FLAGS:** the 1900 Hampton 3–4-story shell mounds (verify via the historical photos); the Hampton boardwalk = oyster-shell concrete + still standing (verify Hampton boardwalk history; father confirms the pouring); oyster-shell-as-reef-substrate science (established marine restoration — recycled shell/cultch; cite); the oyster-castle effort (verify the militarynews source + the claim).
+
+## Open (still to give)
+- **PHAT** — what he carries (the present-day dual-economy waterman vs Biggie's past-master? the squeeze?).
+- **The Restitution accounting** — running the Restitution Bond on this reef to a conservative floor: the inputs (lost reef acreage/biomass; the foreclosed fishery; the carted-off-shell-as-substrate severed cost). The author's Darling/Fox Hill standing to enter the numbers.
+- Whether **D9** (Ch3 → Ch4 "what was done for the oil could be done for the oyster") stays or relocates.
