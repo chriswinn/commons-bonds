@@ -14,12 +14,21 @@
 - Ch4 v1 → `research/story-drafts/ch4-wholecloth-redraft-v1_2026-06-06.md`
 - Ch6 v1 → `publishing/essays/_pipeline/test-drafts/ch6-v1-redraft_2026-06-06.md` (non-standard location; normalize on resume)
 
-**Complete but NOT yet filed — recover from this session's transcript (verbatim in the task-completion notifications) or the task `.output` files, then write to `research/story-drafts/chN-wholecloth-redraft-v1_2026-06-06.md`:**
-- Ch5 → task `ab2417e4c8deada2b`
-- Ch7 → task `a5c0e1763a8f3d569`
-- Ch8 → task `abfd1965c6b8f1ee2`
-- Ch9 → task `a1419c8878c1481bf`
-- Session transcript: `/Users/c17n/.claude/projects/-Users-c17n-commons-bonds/00af238f-496b-4f0c-a81c-593767f85999.jsonl`
+**[DONE 2026-06-06 resume session] Persisted — all four recovered + filed:**
+- Ch5 → `research/story-drafts/ch5-wholecloth-redraft-v1_2026-06-06.md` (incl. appended $108T WORKINGS note)
+- Ch7 → `research/story-drafts/ch7-wholecloth-redraft-v1_2026-06-06.md`
+- Ch8 → `research/story-drafts/ch8-wholecloth-redraft-v1_2026-06-06.md`
+- Ch9 → `research/story-drafts/ch9-wholecloth-redraft-v1_2026-06-06.md`
+- Ch6 normalized → `research/story-drafts/ch6-wholecloth-redraft-v1_2026-06-06.md`
+- (Recovered from prior-session subagent transcripts in session 00af238f.)
+
+**[DONE 2026-06-06 resume session] Step-2 comparisons complete.** Six per-chapter
+artifacts `manuscript/_CH{4-9}-COMPARISON_2026-06-06.md` + consolidated
+`manuscript/_REDRAFT-COMPARISON-SUMMARY_2026-06-06.md`. Net: **5 of 6 PROMOTE-NEW-
+AFTER-FOLDIN (Ch4/5/6/8/9); Ch7 KEEP-CURRENT-WITH-FIXES.** Promotion of canonical
+chapters is AWAITING AUTHOR RATIFICATION (see decision points in the summary:
+Ch5 Public Choice cut; Ch8 overturns spot-fix exception; coal $4.50-vs-$4.70
+canon ambiguity).
 
 **Still running / pending:**
 - TA findings ledger workflow `w4os6eqtq` (internal+external rigor audit; check `/workflows` or its output). When done, apply confirmed fixes on branch `claude/ta-rigor-audit-260605` (HELD from main; author reviews before merge). My 17 earlier in-loop TA edits were REVERTED; baseline is pristine.
