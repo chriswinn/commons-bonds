@@ -1,3 +1,5 @@
+<!-- Ch6 "Three Ways of Counting" whole-cloth redraft v1, 2026-06-06. Normalized 2026-06-06 from publishing/essays/_pipeline/test-drafts/ch6-v1-redraft_2026-06-06.md (agent-written to disk, commit de03b31). New-vs-current comparison PENDING. Owns Valdez in the enumeration; figure cascade ($4.70-4.85 mine-mouth / $496 carbon / $510 total / $504-518 floor) consistency to verify in seam pass. -->
+
 # Commons Bonds
 *By Chris Winn*
 
