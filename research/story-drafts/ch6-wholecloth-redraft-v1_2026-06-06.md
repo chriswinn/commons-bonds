@@ -182,10 +182,10 @@ Apply the inner three methods, Replacement Cost, Revealed Preference, and Scarci
 
 | Case | Market Price | M1, Replacement Cost | M2, Revealed Preference | M3, Scarcity-Adjusted Option Value | Direction |
 | --- | --- | --- | --- | --- | --- |
-| McDowell County coal | ~$4.70–$4.85/ton (1960 mine-mouth) | $261–$2,412/ton | $8–$88/ton | $420–$13,100/ton; mid $2,500 | CS > 0 |
-| Norway petroleum | ~$48/BOE rent captured | $161–$422/BOE | $48/BOE | $70–$1,000/BOE; mid $280 | CS > 0 |
-| Deepwater Horizon | $4.25B Macondo revenue | ~$22B engineering + ecological restoration (BP response ~$14B + NRDA $8.8B per 2016 Consent Decree) | ~$20–$25B settlements + damages paid (CWA $5.5B + DOJ criminal $4.5B + class-action economic ~$10–$15B) | N/A† | CS > 0 |
-| Libby, Montana | ~$100M lifetime revenue | ~$0.6B EPA Superfund cleanup + ongoing remediation; long-tail illness-cost flow $4–$7B | ~$0.3B W.R. Grace settlements ($250M 2008 EPA + $18.5M 2023 NRDA + $5.1M 2008 DEQ) | N/A† | CS > 0 |
+| McDowell County coal | ~$4.70-$4.85/ton (1960 mine-mouth) | $261-$2,412/ton | $8-$88/ton | $420-$13,100/ton; mid $2,500 | CS > 0 |
+| Norway petroleum | ~$48/BOE rent captured | $161-$422/BOE | $48/BOE | $70-$1,000/BOE; mid $280 | CS > 0 |
+| Deepwater Horizon | $4.25B Macondo revenue | ~$22B engineering + ecological restoration (BP response ~$14B + NRDA $8.8B per 2016 Consent Decree) | ~$20-$25B settlements + damages paid (CWA $5.5B + DOJ criminal $4.5B + class-action economic ~$10-$15B) | N/A† | CS > 0 |
+| Libby, Montana | ~$100M lifetime revenue | ~$0.6B EPA Superfund cleanup + ongoing remediation; long-tail illness-cost flow $4-$7B | ~$0.3B W.R. Grace settlements ($250M 2008 EPA + $18.5M 2023 NRDA + $5.1M 2008 DEQ) | N/A† | CS > 0 |
 | Exxon Valdez | $5.5M product spilled | ~$2.3B cleanup + ecological restoration (Exxon $2.2B + NRDA ~$100M per 1991 settlement) | ~$1.9B settlements + damages paid (1991 civil $900M + private claims ~$507M + punitive $507M + criminal $25M) | N/A† | CS > 0 |
 
 † Method 3, Scarcity-Adjusted Option Value, does not cleanly apply to one-event historical cases in the forward direction: the option-value framing prices what extraction forecloses on future generations, and for completed historical events the forward-foreclosure question is moot. The backward-direction application of Method 3, the option value extinguished at the time of past extraction, evaluable retrospectively from parameters known at analysis time, per Technical Appendix §5.5, is structurally available for these cases but sits outside this volume's empirical scope.
@@ -371,5 +371,3 @@ One methodological apparatus the chapter has not formally introduced is the fram
 The framework's choice of *Asymmetric Regret Rule* as the name for its decision rule defends at the name level on two distinctions. The *regret* choice, rather than *risk*, reflects that under deep uncertainty over century-scale horizons, the probabilities expected-utility risk would require are not knowable; Savage's 1951 minimax-regret discipline, which the framework specializes, operates without them. The *asymmetric* choice, rather than *one-sided*, reflects the specific structural feature commons-extinction produces: one direction's regret is unbounded, commons-extinction is loss of access that cannot be recovered at any cost, and the other direction's regret is bounded, foregone extraction revenue across a fixed time horizon. The framework joins the regret-theory tradition and names what its specialization adds: the asymmetry the irreversibility of commons-extinction produces.
 
 Three methods. Different foundations. Same direction. When markets do not price what honest accounting prices, the difference is not a rounding error. It is the subsidy by which the entire extraction economy runs.
-
-— End of Chapter 6 —

@@ -170,7 +170,3 @@ The severing of cost from value is a policy choice. The same extraction, run und
 None of these outcomes was inevitable. Every one of them was engineered.
 
 The remaining chapters ask what it would take to engineer the honest outcome everywhere, not only in the narrow set of places that happened to inherit the right institutions. The next chapter carries that question into the industrial cases that have not been Norway. Libby. Deepwater Horizon. Exxon Valdez. Baotou. Each one tells part of the answer. Each one tells part of the warning.
-
----
-
-— End of Chapter 4 —

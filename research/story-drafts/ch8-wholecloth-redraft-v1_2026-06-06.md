@@ -238,5 +238,3 @@ These questions presuppose the framework this book establishes. Their pursuit be
 For now, what this chapter gives the reader is the one worked example. A ton of coal, priced honestly, at a floor of roughly five hundred ten dollars. The gap between that number and the just-under-five-dollar invoice is the severed cost. The invoice is what McDowell County was paid. The severed cost is what McDowell County bore.
 
 The next two chapters return to what that means. For McDowell County. For the waterman. For the reader's own life. And for the century ahead.
-
-— End of Chapter 8 —

@@ -243,7 +243,6 @@ The accounting exists. What remains is its formalization, its testing, and its h
 
 ---
 
-— End of Chapter 5 —
 
 === $108T WORKINGS ===
 
@@ -256,12 +255,12 @@ The accounting exists. What remains is its formalization, its testing, and its h
 **3. Inputs (life-of-program, OASDI combined, nominal).**
 - Cumulative income through 2009: ~$13.8T; cumulative expenditures through 2009: ~$11.3T (SSA history, *tftable*).
 - Lifetime (through end-2024): cumulative income ~$29.17T; cumulative benefits paid ~$26.45T; ending reserves ~$2.72T (SSA 2024/2025 Trustees data; reserves declined $67B in 2024 to $2.72T).
-- Non-payroll-tax share of total income ≈ 12% (interest + benefit taxation + transfers), so cumulative *net contributions* ≈ ~88% of income ≈ ~$25–26T, i.e., roughly equal to cumulative benefits paid (~$26.45T).
+- Non-payroll-tax share of total income ≈ 12% (interest + benefit taxation + transfers), so cumulative *net contributions* ≈ ~88% of income ≈ ~$25-26T, i.e., roughly equal to cumulative benefits paid (~$26.45T).
 - Because lifetime contributions ≈ lifetime benefits, the cumulative *net* surplus ever available to invest is small and is, by construction, the accumulated reserve: **~$2.7T**, earned at Treasury rates.
 
 **4. The counterfactual arithmetic (illustrative, disclosed-assumption).**
 - What actually happened: annual net surpluses, reinvested at the special-issue Treasury rate, compounded to **~$2.7T** by end-2024.
-- Counterfactual: the *same* annual net-surplus stream, compounded instead at a disclosed real equity return. Treasury real yields over the surplus decades averaged roughly ~2–3% real; a broad equity index returned roughly ~6.5–7% real over comparable windows. The excess return is ~3.5–4.5 points per year, applied to a surplus stream that built from near-zero (1980s) to ~$2.7T (2010s).
+- Counterfactual: the *same* annual net-surplus stream, compounded instead at a disclosed real equity return. Treasury real yields over the surplus decades averaged roughly ~2-3% real; a broad equity index returned roughly ~6.5-7% real over comparable windows. The excess return is ~3.5-4.5 points per year, applied to a surplus stream that built from near-zero (1980s) to ~$2.7T (2010s).
 - Applying that excess return premium to the dollar-weighted, relatively *recent* net-surplus stream yields a counterfactual fund larger than the actual ~$2.7T but bounded in the **low single-digit trillions** on central assumptions, and only at the high end of aggressive assumptions (treating a larger share of gross contributions as "investable" and extending the high real return across the full window) does it reach **low double-digit trillions**. It does not approach $108T under any honest netting, because the netting removes the ~$26T of benefits the gross figure silently kept invested.
 
 **5. Result presented in prose.** The chapter states the honest version explicitly: contributions and benefits over the life of the program are each ~$26T and nearly cancel; the only investable money was the running surplus (~$2.7T actual reserve); re-running it at a real equity return yields a counterfactual "in the range of a few trillion dollars, not a hundred," and the foregone return "runs into the trillions." This satisfies the spec: NET figure shown with method disclosed; gross $108T never presented; qualitative "into the trillions" floor available and used as the headline claim since the precise netting is assumption-sensitive.

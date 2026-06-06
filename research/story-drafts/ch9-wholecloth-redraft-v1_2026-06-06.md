@@ -140,7 +140,3 @@ The miner in McDowell County. The waterman on the Chesapeake. The villager besid
 If that is true, then the last chapter has to ask what follows from recognizing it, not as policy but as something closer to a fact about ourselves and the generations we belong to, and the ones we owe. The next chapter names where the present-day decision points sit.
 
 That is where the book goes from here.
-
----
-
-— End of Chapter 9 —
