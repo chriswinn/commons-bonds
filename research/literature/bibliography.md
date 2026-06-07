@@ -692,6 +692,14 @@ Added 2026-04-24. Decision-theoretic literature the framework engages — for **
 - **Rigor provenance:** ARP rigor pass 2026-04-24; literature audit 2026-04-24.
 - **Status:** ratified 2026-04-24 (ARP Option A ratified by Chris Winn).
 
+### Arrow, Kenneth J., and Anthony C. Fisher. "Environmental Preservation, Uncertainty, and Irreversibility." *Quarterly Journal of Economics* 88, no. 2 (1974): 312–319. https://doi.org/10.2307/1883074
+
+- **Summary:** Establishes that under uncertainty, the *irreversibility* of environmental loss creates a quasi-option value of preservation — it is worth paying a premium to keep options open when a decision is irreversible and information may improve. Foundational companion to Dixit & Pindyck 1994 (below).
+- **Relevance:** **CONSTRUCT source for Method 3's irreversibility premium + V_option.** Grounds *why* the framework includes an irreversibility/option-value term and why irreversible commons loss warrants a preservation premium. It does **not** supply calibrated values for α or V_option — those are posited analytical parameters carried with sensitivity ranges. Cite Arrow-Fisher + Dixit-Pindyck for the *construct*; flag the parameter magnitudes as book-derived assumptions.
+- **Relationship:** **STRONG SUPPORT (construct grounding).**
+- **Chapter relevance:** Tech Appendix §3.5 (scarcity-adjusted option value / irreversibility premium), §11.6 Method 3, §8 Asymmetric Regret Rule lineage.
+- **Status:** added 2026-06-06 per Method-3 parameter-provenance verification (named in the deep-source report but missing from §3.5 + bibliography).
+
 ### Dixit, Avinash K., and Robert S. Pindyck. *Investment under Uncertainty.* Princeton, NJ: Princeton University Press, 1994.
 
 - **Summary:** First detailed exposition of real-options theory applied to capital investment — frames investment decisions as options that can be delayed under uncertainty, exploiting the analogy to financial-options theory for a richer dynamic framework than traditional NPV.
