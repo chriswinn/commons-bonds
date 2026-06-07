@@ -1417,6 +1417,32 @@ The framework engages the Public Choice tradition explicitly as a complementary 
 
 ---
 
+## 23. Primary data + agency sources (canonical figure-backing)
+
+**Added 2026-06-06.** The empirical-data citations that back the framework's *computed* canonical figures — distinct from the scholarly lineage in §§1–22. Recorded here so a source we have already used is never re-searched, and so any derived figure's inputs trace to an authoritative *external* record. **Citation discipline:** cite the external source (Census, EPA, BP/DOJ, Appalachian Voices), never the internal ledger that merely records it — the in-repo file is the index, not the citation.
+
+### 23.1 In-repo–vetted (already used in the corpus)
+
+- **U.S. Census Bureau.** Decennial census + QuickFacts, McDowell County, West Virginia (FIPS 54047). *Backs:* McDowell population 98,887 (1950 peak) → 19,111 (2020); ~80% decline, ~50,000 net out-migration (TA §11.6 Cohesion input; Ch2/Ch8). *In-repo index:* `manuscript/_RESEARCH-RESULTS-LEDGER_2026-06-04.md:83`; `research/case-studies/appalachian-coal.md:10-12,39`. Confidence: HIGH (official).
+- **Appalachian Voices. *Repairing the Damage* (2021).** *Backs:* ~633,000 acres requiring reclamation/AMD across 7 eastern coal states; ~$7.5–9.8B → ~$12,000–15,500/acre documented reclamation anchor (TA §11.6 Ecosystem input — the documented floor against which the framework's $50–200K/acre *functional-substitute* estimate is set). *In-repo index:* `_RESEARCH-RESULTS-LEDGER_2026-06-04.md:91`; `research/case-studies/appalachian-coal.md:71`. Confidence: HIGH.
+- **BP p.l.c. financial disclosures (June 2016).** *Backs:* Deepwater Horizon total cost estimate ~$61.6B (TA §11.2 cost basis; Ch5 canonical Deepwater). *In-repo index:* `manuscript/_research-results-detail_2026-06-04.json:482-485`. Confidence: HIGH.
+- **U.S. Department of Justice settlement (April 2016) + BP press release (2015).** *Backs:* $20.8B DOJ-approved settlement (2016, largest U.S. environmental settlement); "up to $18.7B" federal/state/local settlement announced 2015 (TA §11.2 components). *In-repo index:* same JSON. Confidence: HIGH.
+- **U.S. EPA, AP-42 §1.1** + Pocahontas-seam heat content (~28 mmBtu/short ton; USGS/EIA). *Backs:* McDowell coal emission factor 93.28 kg CO₂/mmBtu × 28 = 2.61 mt CO₂/short ton (TA §11.1/§11.6; Ch8 §72). *In-repo index:* `manuscript/_CANONICAL_FIGURE_LEDGER.md`. Confidence: HIGH (ledger-pinned).
+- **U.S. EPA (2023), Social Cost of Carbon.** *Backs:* SCC $190/t CO₂ central estimate (attribute to EPA 2023, **not** Rennert et al. 2022 ≈ $185). Carbon cascade. *In-repo index:* `_CANONICAL_FIGURE_LEDGER.md`. Confidence: HIGH.
+- **Climeworks (Orca/Mammoth); IEA; IPCC AR6; U.S. National Academies.** *Backs:* DAC cost bands $600–1,000 / $300–600 / $100–300 per ton CO₂ (TA §3.3/§11.6/§11.9 Habitability anchor). *In-repo index:* `TechnicalAppendix §11.6 L4601/4615/4629`; `_CANONICAL_FIGURE_LEDGER.md`. Confidence: HIGH (attributed in-text).
+
+### 23.2 Candidate sources (surfaced 2026-06-06 web research — RE-VERIFY before any publisher-facing use)
+
+Per the no-invented-claims discipline: surfaced by this session's web-research agents, NOT yet independently re-verified; recorded so they are not lost, flagged so they are not used as-is.
+
+- **Louisiana Office of Community Development — Isle de Jean Charles resettlement.** ~$48.3M / ~37 households (~$1.3M/household); first fully federally-funded whole-community relocation. *Candidate anchor:* TA §11.6 Cohesion / community-replacement ($200–500K/resident is *conservative* vs this precedent). Status: candidate, re-verify.
+- **Pericak, A.A., et al. (2018), *PLOS ONE*.** ~720,000 acres Central Appalachia surface mining 1985–2015 (Duke/SkyTruth/Appalachian Voices mapping). *Candidate anchor:* TA §11.6 disturbed-acreage apportionment. Status: candidate, re-verify.
+- **OSMRE / Powell River Project (ARRI).** Reforestation ~$1,000–1,400/acre. *Candidate anchor:* TA §11.6 lower-bound restoration cost. Status: candidate, re-verify.
+
+(Full provenance + materiality: `tools/audits/ta-method1-input-provenance_2026-06-06.md`.)
+
+---
+
 ## Maintenance notes
 
 - **Adding new entries:** follow the template (citation / summary / relevance / support-or-contradict / chapter relevance / any framework-character note). Prefer consistency over exhaustiveness.
