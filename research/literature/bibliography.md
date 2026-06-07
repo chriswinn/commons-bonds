@@ -1448,6 +1448,8 @@ The framework engages the Public Choice tradition explicitly as a complementary 
 - **U.S. EPA (2023), Social Cost of Carbon.** *Backs:* SCC $190/t CO₂ central estimate (attribute to EPA 2023, **not** Rennert et al. 2022 ≈ $185). Carbon cascade. *In-repo index:* `_CANONICAL_FIGURE_LEDGER.md`. Confidence: HIGH.
 - **Climeworks (Orca/Mammoth); IEA; IPCC AR6; U.S. National Academies.** *Backs:* DAC cost bands $600–1,000 / $300–600 / $100–300 per ton CO₂ (TA §3.3/§11.6/§11.9 Habitability anchor). *In-repo index:* `TechnicalAppendix §11.6 L4601/4615/4629`; `_CANONICAL_FIGURE_LEDGER.md`. Confidence: HIGH (attributed in-text).
 
+- **SpaceX — Falcon 9 capabilities + list price.** *Backs:* LEO payload capacity **22,800 kg** (SpaceX official spec, expendable max); list price **~$74M (2026)** — was ~$67M (2023), $70M (2025) — → **~$3,245/kg** LEO (TA §11.10 launch-cost table). *Source:* SpaceX official capabilities (capacity); list price per public reporting (year-stamped, moving target). Confidence: HIGH (capacity); MEDIUM / year-stamped (price — re-confirm against SpaceX primary at publication). Web-verified 2026-06-06. **NB:** the §11.10 Falcon Heavy cell (`$90M / 63.8t`) and Starship target need the same year-pin + verification (SOFT follow-up).
+
 ### 23.2 Candidate sources (surfaced 2026-06-06 web research — RE-VERIFY before any publisher-facing use)
 
 Per the no-invented-claims discipline: surfaced by this session's web-research agents, NOT yet independently re-verified; recorded so they are not lost, flagged so they are not used as-is.
