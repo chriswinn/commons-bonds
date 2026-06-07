@@ -888,6 +888,14 @@ Added 2026-04-24 per Three Ways + RCV Formal-Model rigor pass ratification (Chri
 
 Added 2026-04-24 per Phase A3 sweep — load-bearing on multiple ratified Ring-2 elements (Hotelling Identity, Triangulated RCV Estimation Methods 1+2, B2 Foreclosure Bond). Per Chris directive: ensure all referenced documents are in the bibliography.
 
+### Weitzman, Martin L. "Gamma Discounting." *American Economic Review* 91, no. 1 (2001): 260–271.
+
+- **Summary:** Derives a *declining* term structure of social discount rates from uncertainty about the future rate (an expert-survey-grounded "gamma" distribution), so the far future is discounted at progressively lower rates rather than at a single constant rate. Theoretical companion: Weitzman, "Why the Far-Distant Future Should Be Discounted at Its Lowest Possible Rate," *Journal of Environmental Economics and Management* 36, no. 3 (1998): 201–208.
+- **Relevance:** **LOAD-BEARING for the RCV declining-discount specification.** The RCV integral's convergence under a declining discount rate (Theorem 10.4), the §16.1 variable-discount extension, and the method-distinct RCV-model estimate ($580–620/ton) all rest on Weitzman declining rates.
+- **Relationship:** **STRONG SUPPORT (load-bearing method source).**
+- **Chapter relevance:** Tech Appendix §9 (RCV model), §14.3 (Weitzman literature engagement), §16.1 (RCV with variable discount rates), Theorem 10.4 (RCV integral convergence under Weitzman declining discount).
+- **Status:** added 2026-06-06 per canonical-ledger ↔ bibliography cross-check (cited throughout the TA but previously missing from the bibliography).
+
 ### Hartwick, John M. "Intergenerational Equity and the Investing of Rents from Exhaustible Resources." *American Economic Review* 67, no. 5 (1977): 972–974.
 
 - **Summary:** Foundational result in resource economics — if the rent on a non-renewable resource is fully invested in reproducible capital, consumption can be sustained indefinitely (Hartwick rule). Companion to Hotelling 1931.
@@ -1428,6 +1436,7 @@ The framework engages the Public Choice tradition explicitly as a complementary 
 - **BP p.l.c. financial disclosures (June 2016).** *Backs:* Deepwater Horizon total cost estimate ~$61.6B (TA §11.2 cost basis; Ch5 canonical Deepwater). *In-repo index:* `manuscript/_research-results-detail_2026-06-04.json:482-485`. Confidence: HIGH.
 - **U.S. Department of Justice settlement (April 2016) + BP press release (2015).** *Backs:* $20.8B DOJ-approved settlement (2016, largest U.S. environmental settlement); "up to $18.7B" federal/state/local settlement announced 2015 (TA §11.2 components). *In-repo index:* same JSON. Confidence: HIGH.
 - **U.S. EPA, AP-42 §1.1** + Pocahontas-seam heat content (~28 mmBtu/short ton; USGS/EIA). *Backs:* McDowell coal emission factor 93.28 kg CO₂/mmBtu × 28 = 2.61 mt CO₂/short ton (TA §11.1/§11.6; Ch8 §72). *In-repo index:* `manuscript/_CANONICAL_FIGURE_LEDGER.md`. Confidence: HIGH (ledger-pinned).
+- **U.S. Energy Information Administration (EIA), historical coal price series** (Annual Energy Review / coal historical statistics; average mine price of coal). *Backs:* 1960 nominal mine-mouth coal price ~$4.71/short ton (bituminous) / ~$4.83 (all coal) → "just under five dollars"; the price (denominator) side of the McDowell IPG. *In-repo index:* `manuscript/_CANONICAL_FIGURE_LEDGER.md` (J3). Confidence: HIGH (official); exact series/URL to lock at apply-time.
 - **U.S. EPA (2023), Social Cost of Carbon.** *Backs:* SCC $190/t CO₂ central estimate (attribute to EPA 2023, **not** Rennert et al. 2022 ≈ $185). Carbon cascade. *In-repo index:* `_CANONICAL_FIGURE_LEDGER.md`. Confidence: HIGH.
 - **Climeworks (Orca/Mammoth); IEA; IPCC AR6; U.S. National Academies.** *Backs:* DAC cost bands $600–1,000 / $300–600 / $100–300 per ton CO₂ (TA §3.3/§11.6/§11.9 Habitability anchor). *In-repo index:* `TechnicalAppendix §11.6 L4601/4615/4629`; `_CANONICAL_FIGURE_LEDGER.md`. Confidence: HIGH (attributed in-text).
 
