@@ -55,11 +55,18 @@
 - Single-source-of-truth figures: `manuscript/_CANONICAL_FIGURE_LEDGER.md`
 - Structural TODOs (deferred): `tools/workstream-handoffs/post-audit-structural-todos_2026-06-06.md`
 
-## NEXT-SESSION ORDER
-1. §11.10 cluster (Keck error + PR substitution + Bennu-as-derived + unit fix + Falcon Heavy + bib).
-2. M3 Path-B: resolve the 5 open questions → apply the rework.
-3. Item 3 Deepwater reconciliation (cross-corpus).
-4. Remaining HARD items (defensibility-check each).
-5. SOFT batch (relabels + bib sources).
-6. Final confirmation burst (re-audit fixed file clean).
-7. Author reviews path-scoped diff → approve → merge.
+## SESSION PLAN (spawned 2026-06-07 — RE-ORDERED: sourcing integrity FIRST)
+
+Branch is pushed: `origin/claude/ta-rigor-audit-260606-f537b4` (20 commits ahead of main; NOT merged). **Every session: branch off it, read THIS doc, stay in ONE cluster, do NOT merge to main, commit back; merge sub-branches sequentially to avoid the divergent-edit failure that forced the prior TA rewrite.**
+
+**FOUNDATION — do FIRST, largely solo (the rock-solidness guarantee before sharing):**
+- **Session A — Number-provenance sweep + bibliography consolidation.** Enumerate EVERY worked number in the TA; classify each **sourced / derived-with-work-shown / labeled-assumption / UNSUPPORTED(=defect)**; verify the external source for each; fold all into the bibliography. Absorbs the sourcing-dependent fixes: §11.10 cluster (Keck ~$5,200/kg error; Planetary Resources $50–500/kg UNVERIFIABLE → substitute Colvin/Crane/Lal 2020; Bennu-as-derivation; unit fix; Falcon Heavy), §11.6 M2 ($8–13 / $88–100), §3.4/3.6 Norway vintage, §11.6 Eco/Cohesion estimate-labels. **Start from the pre-existing `core/technical-appendix/empirical_sourcing_pass_2026-04-25.md` + `method3_sensitivity_analysis_2026-04-25.md`.**
+
+**PARALLEL-SAFE (read-only / additive — run anytime):**
+- **Session B — Darity version diff (read-only).** Compare current TA vs the 2026-05-14 version sent to Darity (`research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.{docx,pdf}`); map each confirmed error to in-Darity? / introduced-later?; report. NB the sent PDF may be from a pre-rename source — archaeology required.
+- **Session F — CSD reverse model + reef worked case (additive).** Build the backward/restitution model + Chesapeake oyster-reef calibration per `core/technical-appendix/CSD-computation-method-spec_2026-06-06.md`. **Darity's version had NO reverse model — this is the addition to offer him.** Coordinate with the Ch3 chapter-drafting session.
+
+**SEQUENTIAL after Foundation (overlapping TA sections):**
+- **Session C — Internal-correctness sweep** (no external sourcing — fast ratifies): §16.1, §16.2, §9.5 ordering, §3.1 Def 1.3, §10.1b, §3.5 α-dominance, §11.5 M1 table, §3.6 McDowell M1, §14.6 Daly, §3.5 Solow.
+- **Session D — M3 Path-B rework** (formal crux; resolve the 5 open questions, Norway cascade highest-risk; depends on Session A's bib).
+- **Session E — Deepwater reconciliation + closeout** (§11.2/§9.5/Ch5; then final confirmation burst → author full-diff review → approve → merge). **Do LAST.**
