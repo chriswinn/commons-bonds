@@ -1,6 +1,75 @@
 # Reverse-CSD model + Chesapeake oyster-reef calibration — Proposal Record (2026-06-08)
 
-**Status: PROPOSED — NO TA edits made.** Substantive content for author ratification before applying.
+> ## ⚠️ VERIFICATION ADDENDUM (2026-06-08, independent re-investigation)
+>
+> The author flagged that the originating session + the CSD spec it produced were context-saturated and
+> error-prone, and asked for independent confirmation that this work is needed and correctly directed —
+> treating the spec, the session instructions, AND this proposal's body (sections A–H below) as unverified
+> suggestions. I re-investigated against the actual TA, the actual chapters, and the actual sources (three
+> independent agents + direct reads). Findings, in order of how much they change the plan:
+>
+> 1. **Two of the spec's core mandates target things that DO NOT EXIST in the TA.** A full backward-direction
+>    census found **no "unpriceability theorem"** and **no "standing" apparatus-primitive** to remove. The only
+>    "→∞" result (Thm 10.4 knife-edge) is forward-side and explicitly framed as a *feature* ("the divergence is
+>    the correct answer"); the only "cannot price" statements (§12/§14.7 Europa) are an incommensurability-→-ARR
+>    boundary unrelated to the backward direction; "standing" appears only as forward moral-grounding (Parfit/Sen)
+>    + idiom ("has standing = is admissible"). So "remove the unpriceability theorem / remove standing" is
+>    addressing phantoms. The *constraint* (do not ADD them) is fine and honored; the spec's framing that the
+>    apparatus needs de-coercion surgery is false.
+>
+> 2. **The shipped Ch3 does NOT price the reef.** `Chapter__3_TheWaterman.md` (250 lines) is qualitative — the
+>    99% decline, the reef-as-extracted-renewal-structure, "you have to put something back," restoration on the
+>    public dime, "recovery without honest accounting for who paid." There is **no Restitution Bond dollar figure**
+>    and **no "Method 3" / "foregone fishery decline."** The spec's quoted Ch3 line *"invites an argument I do not
+>    need to have"* is **not in Ch3** (and the reef-numbers research file is explicitly dated "for author review
+>    BEFORE Ch3 drafting"). **Consequence:** a TA §11.12 would be the FIRST place the $20–37M number appears,
+>    ahead of any chapter — inverting the pipeline (the TA supports the book; it must not lead a number into print
+>    that the book itself does not make). §11.12 should FOLLOW a priced Ch3 restitution section, not precede it.
+>    The figure-cascade-coherence the spec demands has nothing on the Ch3 side to cohere with yet.
+>
+> 3. **The §5.5 rewrite has a much larger blast radius than the spec admits.** The current TA presents a
+>    *coherent, internally consistent, and audit-"DELIVERED"* posture across ~9 locations (§1.7 L474, §1.10 L598,
+>    §5.5 L1377–1441, §11.7, Thm 10.1b L3377, §17.5 L7623): "methodology is bidirectional & structurally
+>    **symmetric**; this volume computes forward only **by design**; backward cases cited-not-computed." Flipping
+>    ONE case to "computed" + asserting "backward yields a **range, not convergence**" directly **contradicts the
+>    existing symmetry theorems** (Thm 10.1b "extends symmetrically"; §17.5 "bidirectional preservation... operates
+>    symmetrically") unless ALL of them are reconciled. The spec touches only §5.5. **Lighter-touch alternative
+>    (recommended):** keep the existing forward-by-design posture and add the reef purely as a *single worked
+>    backward demonstration* ("proof of reach"), which needs far less reconciliation than a "range vs convergence"
+>    redesign that fights the theorems.
+>
+> 4. **This proposal's own authorial-note draft (§F) is defective.** It uses *"those with standing to enter"* —
+>    which (a) violates the spec's own no-standing rule and (b) deviates from the shipped authorial voice. The real
+>    beats are Ch1:56 (*"a commute and a stolen life do not belong on the same line… Naming the rhyme is not the
+>    same as making them equal"*; *"the ledger torn up and the person who kept it sold"*) and Atlantic essay :80
+>    (*"Putting a price on the costs of coercion borne by a group I do not belong to is not mine to do… What the
+>    framework offers is the ledger. What belongs on it, looking backward, is **theirs** to enter."*). Any TA note
+>    must echo "theirs"/"those continuing it," NOT "standing." Also: this material already exists, beautifully, in
+>    Ch1 + Ch5 + Atlantic; whether the *formal TA* needs a duplicate first-person note is a genuine author-call,
+>    not a settled requirement.
+>
+> **VERIFIED SOLID (independently):** the Daly §14.6 fix (the current text genuinely *inverts* Daly — confirmed),
+> and the reef arithmetic + external sourcing (all checks pass; AREA-not-volume; Hampton-Bar handled as honest
+> James-River proxy; two immaterial nits: VA $21.77M vs $21.863M itemized, and $108M is the softest MEDIUM-confidence
+> input).
+>
+> **REVISED RECOMMENDATION (what I actually agree should happen):**
+> - **DO NOW (standalone, M3-independent, no dependencies):** the **Daly §14.6 fix** only. It's a clean
+>   correctness repair worth shipping on its own merits.
+> - **HOLD as working draft (do NOT apply):** §11.12 reef case + §5.5 reframe + authorial note. Gate them on
+>   (a) M3 Path-B landing in `origin/main` (so reverse-M3 prose mirrors the corrected forward M3), AND
+>   (b) Ch3 actually acquiring a priced restitution section (so the TA follows the book, not vice-versa).
+>   When unheld, prefer the lighter-touch "single worked demonstration" framing over the "range-vs-convergence"
+>   redesign, and reconcile the symmetry theorems explicitly if the range framing is kept.
+> - **OPTIONAL tidy-ups (low value, low risk, anytime):** §5.6/L1447 open-question resolution; §17.7 generative
+>   strengthening. Neither is load-bearing.
+> - **DROP from the mandate:** "remove the unpriceability theorem" and "remove standing from the apparatus" —
+>   there is nothing to remove.
+>
+> Sections A–H below are the ORIGINAL proposal, retained as the working draft they now are. Read them through the
+> four findings above. — end addendum.
+
+**Status: WORKING DRAFT (was: PROPOSED) — NO TA edits made.** See verification addendum above; most of this is gated.
 **Branch:** `claude/ta-reverse-csd-260607-1efd85` (off held `claude/ta-rigor-audit-260606-f537b4`). Do NOT merge to main.
 **Session:** Session F of the 2026-06-07 TA-audit plan (CSD reverse model + reef worked case — additive).
 
