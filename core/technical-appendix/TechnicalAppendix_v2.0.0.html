@@ -1081,7 +1081,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
         M2 (Revealed Preference)
        </th>
        <th>
-        M3 (Option Value, &beta;=1)
+        M3 (Option Value)
        </th>
        <th>
         Implied CS
@@ -4291,18 +4291,15 @@ Numerical anchors below are the framework's empirical operationalization.
       &sigmaf; &asymp; 50&ndash;200 (oil-reserves R/P register; recoverable via secondary extraction; partially substitutable)
      </li>
      <li>
-      &alpha; &asymp; 0.50&ndash;0.75 (institutional architecture moves Norway out of &alpha;-dominance regime &mdash; restoration optionality preserved through GPFG)
+      &alpha; &asymp; 0.50&ndash;0.75 (institutional architecture lowers Norway's effective irreversibility, out of the high-irreversibility regime &mdash; restoration optionality preserved through GPFG)
      </li>
      <li>
-      V_option &asymp; $30&ndash;200/BOE (climate-policy + future-substitutability uncertainty)
-     </li>
-     <li>
-      &beta; = 1 (default conservative-irreversibility regime)
+      V_option = the crude's own market value (&asymp; recent Brent, EIA; the abundance-context baseline) &mdash; ~$80/BOE central, ~$40&ndash;120/BOE across price regimes
      </li>
     </ul>
     <p>
      <strong>
-      Calculation (mid-range parameter choice &mdash; &sigmaf;=100, &alpha;=0.65, V_option=$80):
+      Computation (central &mdash; &sigmaf;=100, &alpha;=0.65, V_option=$80 market crude):
      </strong>
     </p>
     <ul>
@@ -4310,7 +4307,7 @@ Numerical anchors below are the framework's empirical operationalization.
       scarcity_multiplier(&sigmaf;=100) = 1 + ln(101) &times; Hotelling_anchor (using 5%/yr Hotelling-rate proxy) &asymp; 1 + 4.6 &times; 0.05 &asymp; 1.23
      </li>
      <li>
-      irreversibility_premium(&alpha;=0.65, &beta;=1) = 1/(0.35) &asymp; 2.86
+      irreversibility_premium(&alpha;=0.65) = 1/(1 &minus; 0.65) &asymp; 2.86
      </li>
      <li>
       <strong>
@@ -4325,15 +4322,15 @@ Numerical anchors below are the framework's empirical operationalization.
     </p>
     <ul>
      <li>
-      Low parameters (&sigmaf;=50, &alpha;=0.50, V_option=$30): $30 &times; 1.20 &times; 2.0 &asymp;
+      Low corner (V_option=$40 crude, &sigmaf;=50, &alpha;=0.50): $40 &times; 1.20 &times; 2.0 &asymp;
       <strong>
-       $72/BOE
+       $96/BOE
       </strong>
      </li>
      <li>
-      High parameters (&sigmaf;=200, &alpha;=0.75, V_option=$200): $200 &times; 1.27 &times; 4.0 &asymp;
+      High corner (V_option=$120 crude, &sigmaf;=200, &alpha;=0.75): $120 &times; 1.27 &times; 4.0 &asymp;
       <strong>
-       $1,016/BOE
+       $610/BOE
       </strong>
      </li>
     </ul>
@@ -4342,7 +4339,7 @@ Numerical anchors below are the framework's empirical operationalization.
       Method 3 range for Norway:
      </strong>
      <strong>
-      ~$70&ndash;1,000/BOE; mid-range ~$280/BOE.
+      ~$96&ndash;610/BOE, central ~$281/BOE (M3-IPG ~2.4&ndash;5.1&times;). Norway's moderate &alpha; reflects the institutional architecture that internalized restoration optionality &mdash; so the M3 premium is modest; the band overlaps Method 1's $161&ndash;422/BOE replacement-cost floor, with realized B (Method 2) ~$48/BOE far below.
      </strong>
     </p>
     <h5>
@@ -4757,7 +4754,7 @@ Companion to &sect;11.5 Norway.
       scarcity_multiplier(&sigmaf;) = 1 + ln(1 + &sigmaf;) &times; 0.05 &asymp; 1.27&ndash;1.31 (R/P-register-grounded; near-insensitive)
      </li>
      <li>
-      irreversibility_weight(&alpha;) = 1/(1 &minus; &alpha;) = 6.67 (&alpha;=0.85) &hellip; 20 (&alpha;=0.95); convex in &alpha;, so the representative value is the geometric center (&asymp;11.5), not the midpoint-&alpha; value (10)
+      irreversibility_premium(&alpha;) = 1/(1 &minus; &alpha;) = 6.67 (&alpha;=0.85) &hellip; 20 (&alpha;=0.95); convex in &alpha;, so the representative value is the geometric center (&asymp;11.5), not the midpoint-&alpha; value (10)
      </li>
      <li>
       <strong>
