@@ -76,7 +76,7 @@ The **M3 Path-B rework session** (Session D, branch `ta-m3-pathb`) is live and o
 
 **Issue.** §11.9 intro says $600–**1,200** / $**150**–500 / $100–**200** per ton CO₂; the **sourced** body (facility table, consolidated range, anchor blockquote, IEA/IPCC/NAS) says **$600–1,000 / $300–600 / $100–300.** The intro bounds ($1,200/$150/$500/$200) are unsupported and contradict the section's own cited literature.
 
-**Recommendation:** correct the intro to match the sourced body. **Pure internal-correctness, no external sourcing, no judgment call** — I left it only because it sits outside the "verified-safe §11.10/C1/C2" apply set authorized this session. Fast author ratify or Session C. **Owner:** Session C or a one-line author OK.
+**Recommendation (REVISED per author direction 2026-06-08):** **Do NOT simply align the intro to the body.** The author's point: *internal consistency means nothing if the numbers are wrong* — the intro's $1,200/$150/$500/$200 provenance is unknown, and the body bands ($600–1,000 / $300–600 / $100–300), while attributed to Climeworks/IEA/IPCC/NAS, must be **independently source-confirmed against those authorities** before being made the alignment target. So the fix is: (1) verify the body bands against the named sources; (2) then reconcile the intro to the *verified* numbers (not merely to the body). **Author has parked this for a parallel session and asked it be NOTED for the next PM session — leave unfixed here.** **Owner:** next PM session to route → Session C (with a source-verification step, not a blind align).
 
 ---
 
