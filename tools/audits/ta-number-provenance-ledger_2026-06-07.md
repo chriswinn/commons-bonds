@@ -49,11 +49,17 @@ All independently verified against primary sources before applying. Numbers unch
 | Falcon Heavy | year/config-stamped: "$90M (2018 list) ÷ 63.8 t expendable-max; lower payload when boosters recovered" | Wikipedia price history; expendable-max capacity. |
 | Falcon 9 | "expendable-max" clarification added; **$74M / 2026 price RE-VERIFIED CORRECT** | SpaceX raised the dedicated Falcon 9 price to **$74M in early 2026** (from $70M in 2025). [SatBase 2026](https://satbase.com/articles/spacex-falcon-9-price-increase-2026), [NextBigFuture Feb 2026](https://www.nextbigfuture.com/2026/02/spacex-falcon-9-true-cost-to-launch-is-about-300-per-pound-which-is-25-of-selling-price-to-customers.html). |
 
-### Bibliography (§18 HTML) — provenance gaps closed
-Three sources cited inline but absent from §18 (confirmed by grep), added in alphabetical position:
+### §11.9 DAC bands — VERIFIED + FIXED (authorized 2026-06-08)
+The intro's unsupported $600–**1,200** / $**150–500** / $100–**200** bounds (which appeared nowhere else in the section and matched no source) corrected to the **source-confirmed** $600–1,000 / $300–600 / $100–300 — the same bands the body, facility table, review-literature table, and anchor blockquote already carry, and which trace to Fuss et al. 2018 / IPCC AR6 ($600–1,000 and $100–300), IEA DAC 2022 ($125–335), and Climeworks/Stratos targets ($300–600). Added a **sourced Orca actual-cost caveat** (Climeworks reports Orca at/above the top of the band, >$1,000/ton) to the facility table + intro + anchor blockquote — so the band stays the citable literature range while the real-plant figure is disclosed. **Conservative cap kept at $1,000 → NO cascade into §3.3/§11.5/§11.6 (Session D's M1 work); verified those sections were untouched and remain consistent.** This is a *source-confirmed* fix, not the blind intro→body align the author flagged against.
+
+### Bibliography (§18 HTML) — provenance gaps closed (all citation details verified vs primary sources)
 - **Black, Fischer, and Myron Scholes.** "The Pricing of Options and Corporate Liabilities." *Journal of Political Economy* 81, no. 3 (1973): 637–654. (cited 6723)
-- **Brennan, Michael J., and Eduardo S. Schwartz.** "Evaluating Natural Resource Investments." *The Journal of Business* 58, no. 2 (1985): 135–157. (cited 6710, 6723; verified via [JSTOR](https://www.jstor.org/stable/2352967))
+- **Brennan, Michael J., and Eduardo S. Schwartz.** "Evaluating Natural Resource Investments." *The Journal of Business* 58, no. 2 (1985): 135–157. (cited 6710, 6723; [JSTOR](https://www.jstor.org/stable/2352967))
 - **Knight, Frank H.** *Risk, Uncertainty and Profit.* Boston: Houghton Mifflin, 1921. (cited 6895)
+- **House, Kurt Zenz, et al.** "Economic and Energetic Analysis of Capturing CO2 from Ambient Air." *PNAS* 108, no. 51 (2011): 20428–20433. (DAC, cited §11.9)
+- **Keith, David W., Geoffrey Holmes, David St. Angelo, and Kenton Heidel.** "A Process for Capturing CO2 from the Atmosphere." *Joule* 2, no. 8 (2018): 1573–1594. (DAC, cited §11.9; DOI 10.1016/j.joule.2018.05.006)
+- **Realmonte, Giulia, et al.** "An Inter-Model Assessment of the Role of Direct Air Capture in Deep Mitigation Pathways." *Nature Communications* 10 (2019): 3277. (DAC, cited §11.9)
+- **Rennert, Kevin, et al.** "Comprehensive Evidence Implies a Higher Social Cost of CO2." *Nature* 610, no. 7933 (2022): 687–692. (SCC, cited §11.9. **NB:** Rennert's figure is ~$185/ton; the TA's $190 is EPA 2023, not Rennert — a minor mis-attribution flagged in §23, out of DAC-cost scope, left for a parallel session.)
 
 ### Bibliography (§23 repo `research/literature/bibliography.md`) — space-economics sources added
 NASA OSIRIS-REx/Bennu; KISS 2012 (with the mass/$-per-kg correction recorded); Colvin/Crane/Lal 2020; Falcon 9 price-verification note. All flagged "verified 2026-06-08 (this session)."
@@ -124,7 +130,7 @@ The actionable core. Organized by defect *type* (recurring figures consolidated)
 ### 3D — Method-3 parameters (currently class-3; mostly OK, two real issues)
 σ / α / V_option / β across §3.5, §11.5, §11.6, §11.8 are explicitly posited (class-3) and acceptable as labeled calibration. **Two non-cosmetic issues:** (1) the **Hotelling 0.05 anchor** is unsupported (3C); (2) `scarcity_multiplier = 1 + log(1+σ)×0.05` **reproduces only under natural-log** — the notation `log` is ambiguous and base-10 gives a different (~1.12) result. Flag for the author. The M3 midpoints ($280 Norway, $2,500 McDowell) are **not arithmetic means** of their stated ranges and carry no stated weighting rule.
 
-### 3E — §11.9 DAC three-horizon bands — **PROVENANCE VERIFIED THIS SESSION (2026-06-08)**
+### 3E — §11.9 DAC three-horizon bands — **VERIFIED + FIXED (2026-06-08)** — see Part 1. (Provenance detail retained below.)
 *Originally flagged as an "internal inconsistency" (intro $600–1,200 / $150–500 / $100–200 vs body $600–1,000 / $300–600 / $100–300). Author (correctly) rejected "align intro to body" — internal consistency ≠ correctness. So I verified all bands against the named external authorities. **Finding: NEITHER set is fully correct, and the body is NOT a safe alignment target.***
 
 | Horizon | TA intro | TA body | **VERIFIED from sources** | Verdict |
@@ -137,7 +143,7 @@ The actionable core. Organized by defect *type* (recurring figures consolidated)
 
 **Knock-on (NEW):** the §11.9 **facility table** also lists **Orca at "$600–1,000/ton" — this understates the current ~$1,000–1,200+ figure** and needs the same refresh against 2024–2026 Climeworks reporting. The DAC cost section is **stale**, not merely internally inconsistent.
 
-**Materiality:** the conservative-band cap feeds the McDowell Habitability Method-1 anchor (2.61 mt CO₂ × $/ton). Raising the conservative cap $1,000 → $1,200 would raise the conservative Habitability anchor ~20% at the top of its range (Method-1 conservative high $2,610 → ~$3,130/ton). NOT applied — parked per author; flagged for the parallel session with the verified targets so it is a source-confirmed correction, not a blind align.
+**Materiality + what was applied:** raising the conservative *cap* to $1,200 would have raised the McDowell Habitability M1 anchor ~20% ($2,610 → ~$3,130/ton) AND cascaded into §3.3/§11.5/§11.6 (Session D's M1 territory → divergent-edit risk). **Resolution applied:** keep the conservative band at the **sourced** literature range $600–1,000 (Fuss 2018 / IPCC AR6 — these ARE citable), and disclose the real Orca cost (>$1,000) as a sourced caveat in the facility table + intro + anchor. This fixes the genuine defect (the intro's unsourced $1,200/$150/$200) with zero cascade and zero unsourced numbers. The $1,200 "actual leading-plant" figure lives in the caveat, not the band.
 
 **Sources (verified 2026-06-08):** Climeworks Orca/Mammoth cost — Canary Media; OceanCare; Yale E360; Euronews 2024. IEA *Direct Air Capture 2022* exec summary ($125–335; <$100). IPCC AR6 WGIII 2022 / Fuss et al. 2018 ($100–300). NAS 2019 ($100–600). URLs in the decision memo Item 5.
 

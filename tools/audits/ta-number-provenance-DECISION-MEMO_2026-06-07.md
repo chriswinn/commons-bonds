@@ -72,7 +72,11 @@ The **M3 Path-B rework session** (Session D, branch `ta-m3-pathb`) is live and o
 
 ---
 
-## Item 5 — §11.9 DAC three-horizon bands — **PROVENANCE VERIFIED; fix parked**
+## Item 5 — §11.9 DAC three-horizon bands — **VERIFIED + FIXED 2026-06-08 (no longer parked)**
+
+> **RESOLVED.** Author authorized the fix once verified, citable numbers were in hand. **Applied:** intro corrected from the unsupported $600–1,200 / $150–500 / $100–200 to the **source-confirmed** $600–1,000 / $300–600 / $100–300 (= the bands the body/facility/review-lit/anchor already carry, traceable to Fuss 2018/IPCC AR6/IEA/targets); added a **sourced Orca actual-cost caveat** (>$1,000/ton) to the facility table + intro + anchor. **Conservative cap kept at $1,000 → no cascade into §3.3/§11.5/§11.6** (verified untouched + still consistent). Four DAC/SCC bib entries added to §18 (Keith 2018, Realmonte 2019, House 2011, Rennert 2022), all citation details verified vs primary sources. §23 updated. The text below is retained as the provenance record.
+
+---
 
 **Issue + verification (done this session 2026-06-08).** The intro said $600–1,200 / $150–500 / $100–200; the body said $600–1,000 / $300–600 / $100–300. Rather than align intro→body, I verified all bands against the named authorities (per the author's point: *internal consistency ≠ correctness*). **Neither set is fully right, and the body is NOT a safe alignment target.** Verified verdict:
 
@@ -127,7 +131,7 @@ The **M3 Path-B rework session** (Session D, branch `ta-m3-pathb`) is live and o
 | 3 Eco/Cohesion estimate-labels | this workstream SOFT | after Session D |
 | 3 Foreclosure/V_option/$300-RCV | **Session D** | Path-B rework |
 | 4 Deepwater repro | **Session E** | reconciliation closeout |
-| 5 §11.9 DAC intro | Session C / author OK | anytime (fast) |
+| 5 §11.9 DAC bands | **DONE 2026-06-08** | applied (source-confirmed; no cascade) |
 | 6 log/Hotelling/midpoints | **Session D** | Path-B rework |
 | 7 Norway USD FX stamp | SOFT / Session D | low priority |
 | 8 Solow orphan | **Closeout (E), merged tree** | swap already on ta-m3-pathb; delete §18 1956 entry post-merge (grep-verify 0 in-text first) |
