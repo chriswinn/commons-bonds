@@ -201,9 +201,21 @@ reverse architecture:
 
 **Deliberately NOT committed here** (left to the reverse-model session's own investigation, since
 the CSD spec is itself an unverified suggestion): the point/range asymmetry (rejected — see Part 4),
-the ex-post/ex-ante backward fork, the M2 direction-split, the reef numbers. M3-backward in the
-reverse §5.5 should use Path-A-consistent language (one (quasi-)option-value object; **no** separate
-`scarcity_multiplier × irreversibility_premium`) and commit to **no** forward M3 number.
+the ex-post/ex-ante backward fork, the M2 direction-split, the reef numbers.
+
+**Backward-M3 under Path A (symmetric with forward — corrects a Path-B residue):**
+`CSD_M3 = V_option(extinguished optionality / foregone service flow) × scarcity_weight(ς at extraction)
+× irreversibility_weight(1/(1−α), realized)`. **The multiplier architecture is KEPT in both
+directions.** Retiring the multipliers ("a single option premium; no separate scarcity_multiplier ×
+irreversibility_premium") was *Path B*, now rejected. Under Path A they do **not** double-count,
+because V_option is the *market/intrinsic* base (not a D–P-derived value that already embeds σ/α).
+The reverse §5.5 should commit to **no** forward M3 number.
+
+> **⚠ Reconciliation (prose, not numbers):** the reverse draft's §0 flag 1 *and the earlier version
+> of this record* described backward-M3 in **Path-B terms** ("single option premium; no separate
+> multipliers"). That must be reconciled to the Path-A multiplier framing above when the reverse draft
+> is next touched. **No reef numbers change** — the reef bond is M1 cure-cost + M2 realized-B with M3
+> *declined* (Open ceiling slot), so it is unaffected by Decisions 1 & 2 regardless.
 
 ---
 
@@ -212,6 +224,10 @@ reverse §5.5 should use Path-A-consistent language (one (quasi-)option-value ob
    (c)-uniform into the reverse draft (drops A3's forward-estimator half; M2 = realized-B reader both
    directions; preserves M2's "revealed lower bound on RCV" role). Shared ~L4907 (held, no live
    collision); edit lands in the reverse draft when that session next touches it.
+1a. **Backward-M3 description (Path-B residue):** the reverse draft's §0 flag 1 describes backward-M3
+   as "a single option premium; no separate multipliers" (Path B). Reconcile to the **Path-A multiplier
+   architecture** (V_option × ς-weight × irreversibility-weight, both directions; Part 6). Prose only —
+   **no reef numbers change** (reef bond = M1 cure-cost + M2 realized-B; M3 declined / Open slot).
 2. **Daly §14.6** is being applied by the reverse session (M3-independent; *strengthens* the
    dominance-relocation since corrected Daly = the S_max<1-critical-capital basis). Not edited here.
 3. **§9 / Obs 10.2 Real Options cross-check = where full D–P lives.** Keep M3 distinct; do not
