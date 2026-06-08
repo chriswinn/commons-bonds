@@ -72,11 +72,23 @@ The **M3 Path-B rework session** (Session D, branch `ta-m3-pathb`) is live and o
 
 ---
 
-## Item 5 — §11.9 DAC intro internal inconsistency (FAST — recommend doing soon)
+## Item 5 — §11.9 DAC three-horizon bands — **PROVENANCE VERIFIED; fix parked**
 
-**Issue.** §11.9 intro says $600–**1,200** / $**150**–500 / $100–**200** per ton CO₂; the **sourced** body (facility table, consolidated range, anchor blockquote, IEA/IPCC/NAS) says **$600–1,000 / $300–600 / $100–300.** The intro bounds ($1,200/$150/$500/$200) are unsupported and contradict the section's own cited literature.
+**Issue + verification (done this session 2026-06-08).** The intro said $600–1,200 / $150–500 / $100–200; the body said $600–1,000 / $300–600 / $100–300. Rather than align intro→body, I verified all bands against the named authorities (per the author's point: *internal consistency ≠ correctness*). **Neither set is fully right, and the body is NOT a safe alignment target.** Verified verdict:
 
-**Recommendation (REVISED per author direction 2026-06-08):** **Do NOT simply align the intro to the body.** The author's point: *internal consistency means nothing if the numbers are wrong* — the intro's $1,200/$150/$500/$200 provenance is unknown, and the body bands ($600–1,000 / $300–600 / $100–300), while attributed to Climeworks/IEA/IPCC/NAS, must be **independently source-confirmed against those authorities** before being made the alignment target. So the fix is: (1) verify the body bands against the named sources; (2) then reconcile the intro to the *verified* numbers (not merely to the body). **Author has parked this for a parallel session and asked it be NOTED for the next PM session — leave unfixed here.** **Owner:** next PM session to route → Session C (with a source-verification step, not a blind align).
+| Horizon | **Source-confirmed band** | What's wrong in the TA |
+|---|---|---|
+| Current operational | **~$600–1,000; leading plants ~$1,000–1,200+** (Climeworks Orca "over $1,000"/€929) | **Body's $1,000 cap understates; intro's $1,200 is the better bound.** The §11.9 facility table's "Orca $600–1,000" is ALSO stale. |
+| At-scale ~2030 | **$300–600** (targets); near-term deployment may run $400–1,000 | Intro's $150 floor unsupported. |
+| Optimistic 2050 | **$100–300** (IPCC AR6/Fuss 2018; IEA $125–335→<$100; NAS $100–600) | Intro's $200 cap understates. |
+
+**Defensible target set: ~$600–1,200 / $300–600 / $100–300** (conservative upper from the intro; at-scale + optimistic from the body). **The whole DAC cost section is stale (2021-vintage), not merely internally inconsistent** — refresh the facility table + intro + consolidated bands against 2024–2026 Climeworks/IEA reporting.
+
+**Materiality:** raising the conservative cap $1,000→$1,200 lifts the McDowell Habitability Method-1 conservative high ~20% ($2,610 → ~$3,130/ton). So this is NOT cosmetic — it moves a headline anchor.
+
+**Decision (author 2026-06-08): leave the FIX to a parallel session; NOTE for next PM session.** The provenance work is done (above); the parallel session applies the *source-confirmed* targets, not a blind align. **Owner:** next PM session → route to whichever session owns §11.9 (Session C, or fold into the M3/Habitability-anchor work since it moves the M1 anchor).
+
+**Sources (verified 2026-06-08):** [Canary Media — Climeworks halving costs](https://www.canarymedia.com/articles/carbon-capture/co2-removal-leader-climeworks-says-new-tech-can-halve-costs-energy-use); [OceanCare — Mammoth](https://www.oceancare.org/en/stories_and_news/climeworks-climate-crisis/); [IEA Direct Air Capture 2022 exec summary](https://www.iea.org/reports/direct-air-capture-2022/executive-summary); [Clean Energy Wire — DAC Q&A (IPCC AR6 $100–300; $400–1,000 near-term)](https://www.cleanenergywire.org/factsheets/qa-dac).
 
 ---
 

@@ -124,8 +124,22 @@ The actionable core. Organized by defect *type* (recurring figures consolidated)
 ### 3D — Method-3 parameters (currently class-3; mostly OK, two real issues)
 σ / α / V_option / β across §3.5, §11.5, §11.6, §11.8 are explicitly posited (class-3) and acceptable as labeled calibration. **Two non-cosmetic issues:** (1) the **Hotelling 0.05 anchor** is unsupported (3C); (2) `scarcity_multiplier = 1 + log(1+σ)×0.05` **reproduces only under natural-log** — the notation `log` is ambiguous and base-10 gives a different (~1.12) result. Flag for the author. The M3 midpoints ($280 Norway, $2,500 McDowell) are **not arithmetic means** of their stated ranges and carry no stated weighting rule.
 
-### 3E — §11.9 DAC intro internal inconsistency (clean internal-correctness fix)
-§11.9's intro paragraph states $600–**1,200** / $**150**–500 / $100–**200** per ton CO₂, but every **sourced** element of the section (facility table, consolidated range, anchor blockquote, IEA/IPCC/NAS lit) supports **$600–1,000 / $300–600 / $100–300**. The intro's $1,200/$150/$500/$200 bounds are unsupported and contradict the section's own cited body. *Treatment: correct the intro to match the sourced body. No external sourcing needed — pure internal consistency. Candidate for the internal-correctness sweep (Session C) or a fast author ratify.*
+### 3E — §11.9 DAC three-horizon bands — **PROVENANCE VERIFIED THIS SESSION (2026-06-08)**
+*Originally flagged as an "internal inconsistency" (intro $600–1,200 / $150–500 / $100–200 vs body $600–1,000 / $300–600 / $100–300). Author (correctly) rejected "align intro to body" — internal consistency ≠ correctness. So I verified all bands against the named external authorities. **Finding: NEITHER set is fully correct, and the body is NOT a safe alignment target.***
+
+| Horizon | TA intro | TA body | **VERIFIED from sources** | Verdict |
+|---|---|---|---|---|
+| Current / first-of-a-kind operational | $600–1,200 | $600–1,000 | **~$600–1,000, but leading operational plants run ~$1,000–1,200+**: Climeworks Orca "over $1,000" (€929)/ton; "currently around $1,000/ton" | **Body's $1,000 cap UNDERSTATES.** The intro's $1,200 cap is the *more* defensible bound. |
+| At-scale / ~2030 | $150–500 | $300–600 | **$300–600 (company targets: Climeworks $400–600 / $250–350; CE-Stratos $300–600); near-term full-scale deployment may run $400–1,000** | **Body's $300–600 is well-supported; intro's $150 floor is UNSUPPORTED** (too low). |
+| Optimistic / 2050 nth-of-a-kind | $100–200 | $100–300 | **$100–300** (IPCC AR6 WGIII 2022 via Fuss et al. 2018; IEA DAC 2022 $125–335 → <$100 with deployment; NAS 2019 $100–600) | **Body's $100–300 is well-supported; intro's $200 cap UNDERSTATES.** |
+
+**Net:** the defensible three-horizon set is **~$600–1,200 / $300–600 / $100–300** — i.e. take the conservative *upper* bound from the intro ($1,200, matching real Orca cost) and the at-scale + optimistic bands from the body. Blind-aligning to the body would have **locked in the understated $1,000 conservative cap.**
+
+**Knock-on (NEW):** the §11.9 **facility table** also lists **Orca at "$600–1,000/ton" — this understates the current ~$1,000–1,200+ figure** and needs the same refresh against 2024–2026 Climeworks reporting. The DAC cost section is **stale**, not merely internally inconsistent.
+
+**Materiality:** the conservative-band cap feeds the McDowell Habitability Method-1 anchor (2.61 mt CO₂ × $/ton). Raising the conservative cap $1,000 → $1,200 would raise the conservative Habitability anchor ~20% at the top of its range (Method-1 conservative high $2,610 → ~$3,130/ton). NOT applied — parked per author; flagged for the parallel session with the verified targets so it is a source-confirmed correction, not a blind align.
+
+**Sources (verified 2026-06-08):** Climeworks Orca/Mammoth cost — Canary Media; OceanCare; Yale E360; Euronews 2024. IEA *Direct Air Capture 2022* exec summary ($125–335; <$100). IPCC AR6 WGIII 2022 / Fuss et al. 2018 ($100–300). NAS 2019 ($100–600). URLs in the decision memo Item 5.
 
 ---
 
