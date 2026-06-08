@@ -21,10 +21,14 @@
 >    the M3 session resolved it the same way, in favor of preserving the theorems.)
 > 4. **Notation/sourcing:** σ is renamed **ς** (final sigma); "irreversibility_premium" has **no β** (it = 1/(1−α));
 >    cite **IPCC AR6 SPM B.5** + **Bernhardt & Palmer 2011** for the α (irreversibility) grounding.
-> 5. **Reef:** still anchor the bond figure at the **M1 cure-cost floor** with M3 declined *as the figure* — but
->    **fully specify the backward-M3 method** (the multiplier form above, applied to the foregone oyster-service
->    flow / extinguished fishery optionality, with the ex-post/ex-ante fork) so it is **Darity-transferable**.
->    → Upgrades §11.12's "Method 3 — declined" subsection from a bare decline to a fully-specified-then-declined.
+> 5. **Reef (author decision 2026-06-08 — "bond only the unassailable floor"):** anchor the bond figure at the
+>    **M1 cure-cost floor** (M2-corroborated); **name** M3 as the admitted *Open*-state ceiling (real and owed, a
+>    lower-bound, not zero/unpriceable) but do **NOT** put a foregone-fishery number on paper for the reef. The
+>    backward-M3 *method* is specified **generically in §5.5** (Path A multiplier form) and is load-bearing in the
+>    **forward** cases — so M3's credibility is established there and the reef section never "shows-then-flinches."
+>    The alternative (surface the reef M3 ceiling numerically) was explicitly considered and declined: it would put a
+>    large contestable figure on paper and invite the argument the floor-only posture avoids. → §11.12 Method-3
+>    subsection rewritten to this floor-only / named-not-priced form.
 >
 > These are recorded as overrides; the inline body spots (§0-flag-1, A1, A2, A3, §11.12-M3, bib) have been edited
 > to match. The "review the M3 rework + the unpriceability approach + the M2 reframe once it lands" task is still
@@ -362,27 +366,36 @@ This is the first backward worked case, parallel to the forward §11.1–§11.6 
      B&#8321; (and that it is mis-assigned to the public).
     </p>
     <h4>
-     Method 3 &mdash; fully specified, then declined as the bond figure (Darity-transferable)
+     Method 3 &mdash; named as the admitted ceiling; the bond is anchored at the unassailable floor
     </h4>
     <p>
      The foregone fishery &mdash; the option value of all the oysters the foreclosed reef would have grown &mdash; is a
-     gate-admittable ceiling variable. <strong>Backward-M3 is fully specified here</strong> (Path A) so a third party
-     can compute it even though this volume does not enter it as the bond figure:
-     <code>CSD_M3 = V_option &times; scarcity_weight(&sigmaf;) &times; irreversibility_weight(1/(1&minus;&alpha;))</code>,
-     where V_option is the extinguished optionality / foregone oyster-service flow, &sigmaf; the scarcity weight, and
-     &alpha; the irreversibility parameter (1/(1&minus;&alpha;) the irreversibility weight; &alpha;-grounding per IPCC
-     AR6 SPM B.5 + Bernhardt &amp; Palmer 2011). It forks ex-post (realized foregone harvest) vs. ex-ante
-     (correct-value-at-extraction-time); the framework exposes the fork rather than settling it. The chapter
-     <em>declines to enter</em> this value as the bond figure &mdash; in CSD terms the <em>Open</em> state of
-     &sect;5.5: an admitted slot deliberately left empty, so the computed CSD is a lower bound, not a claim that the
-     value is zero or unpriceable. The bond is anchored at the M1 cure-cost floor. (Specifying-then-declining is what
-     makes the method portable to a user &mdash; e.g. Darity &mdash; who <em>does</em> have reason to enter the slot.)
+     gate-admittable ceiling variable. The bond is anchored at the <strong>M1 cure-cost floor</strong> (corroborated by
+     M2): the polity bonds what is unassailable. Method 3 is <em>named</em> here as the admitted ceiling variable; in
+     CSD terms it is the <em>Open</em> state of &sect;5.5 &mdash; an admitted slot deliberately left empty &mdash; so
+     the true Cost Severance Damages are a <strong>range whose floor is bonded and whose ceiling, including the M3
+     option value, remains real and owed</strong>. Leaving the slot empty makes the computed bond a lower bound; it is
+     <em>not</em> a claim that the foregone fishery is worth zero or that it cannot be priced. The backward-M3 method
+     itself is fully specified generically in &sect;5.5 (Path A:
+     <code>CSD_M3 = V_option &times; scarcity_weight(&sigmaf;) &times; irreversibility_weight(1/(1&minus;&alpha;))</code>),
+     so a party with reason to enter the slot can compute it; this case simply does not post the ceiling as the
+     enforced figure.
+    </p>
+    <p>
+     <em>Why this is a strategic decline, not a methodological one (per the 2026-06-08 author decision):</em> M3 is not
+     declined because it cannot be computed for the reef &mdash; it can. It is declined as the <em>bonded</em> figure
+     because anchoring the enforceable instrument at the provable floor is the stronger move ("bond only the
+     unassailable floor"). M3's real-world weight is carried where it is load-bearing &mdash; generically in &sect;5.5
+     and numerically in the forward cases (&sect;11.8 &alpha;-dominance; the IPG range's upper bound, &sect;11.11)
+     &mdash; so the reef section never shows-then-flinches. Surfacing the M3 ceiling <em>numerically</em> for the reef
+     was considered and declined: it would put a large, contestable foregone-fishery figure on paper and invite the
+     argument the modest floor-only posture is designed to avoid.
     </p>
     <p>
      <em>Drafting note (verification finding #2):</em> the original draft attributed the phrase "invites an argument I
      do not need to have" to Ch3. That phrase is <strong>not in the shipped Ch3</strong>, and Ch3 currently prices no
-     reef figure at all. Do not put an invented quote in the TA; describe the decline as the chapter's posture, or
-     wait for Ch3 to actually carry a priced restitution section and cite it then.
+     reef figure at all. Do not put an invented quote in the TA; describe the floor-only posture in the framework's own
+     words, or wait for Ch3 to carry a priced restitution section and cite it then.
     </p>
     <h4>
      Formal note &mdash; renewable resource with extracted renewal-structure
