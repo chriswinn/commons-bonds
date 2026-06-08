@@ -1,8 +1,9 @@
 # Method-3 forward core — Path-A rework + triangulation reframe — Proposal Record (2026-06-08)
 
-**Status: PROPOSAL — NO TA edits made.** Branch `claude/ta-m3-pathb-260607-6e6849`
-(off held `claude/ta-rigor-audit-260606-f537b4`). **Do NOT merge to main.** Each
-substantive change below is presented for author ratification before applying.
+**Status: DIRECTION RATIFIED 2026-06-08 (Decisions 1A + band-reporting); §3.5/§11.6/§11.8 HTML edits
+pending cluster-by-cluster drafting + per-cluster sign-off. NO TA edits made yet.** Branch
+`claude/ta-m3-pathb-260607-6e6849` (off held `claude/ta-rigor-audit-260606-f537b4`). **Do NOT merge
+to main.**
 
 **Supersedes** the Path-B proposal record (`ta-m3-pathB-rework_proposal-record_2026-06-07.md`):
 Path B (drop the multipliers, use the full Dixit–Pindyck premium `M×V_underlying`) was
@@ -238,12 +239,42 @@ The reverse §5.5 should commit to **no** forward M3 number.
    path-independent — can land first.
 5. **Do NOT merge to main;** commit to branch; sequential reconciliation with parallel TA branches.
 
-## PART 8 — Open items for author
-1. **Irreversibility form (the one genuine fork):** drop-β + reframe + relocate-dominance + route-α→1-to-ARR **(recommended)** vs hard-bounded saturating form. (Recommended chosen here.)
-2. **Confirm (c)-uniform over reverse A3 direction-split** (Part 5).
-3. **Headline presentation:** report McDowell M3 as a **band ($350–3,640) with central ~$1,170**,
-   "within M1's replacement-cost range, independently anchored," + α/grade sensitivity. Confirm.
-4. **Hand to Ch6/Ch8 drafting sessions** once §3.5 ratified.
+## PART 8 — Decisions
+1. **Irreversibility form: ✅ RATIFIED 2026-06-08 — 1A** (drop-β → `1/(1−α)` + reframe + relocate-dominance
+   to Thm 10.4/10.5 + route-α→1-to-§12-ARR). (Hard-bounded form rejected.)
+2. **M2 (c)-uniform: ✅ RESOLVED** (Part 5; reverse A3 reconciles to (c) by propagation).
+3. **Headline presentation: ✅ RATIFIED 2026-06-08** — McDowell M3 as **band ($350–3,640) with central
+   ~$1,170**, "within M1's replacement-cost range, independently anchored," + α/grade sensitivity.
+4. **Next:** draft §3.5 + §11.6/§11.8 HTML edits cluster-by-cluster for per-cluster sign-off; then hand
+   the reframed core to the Ch6/Ch8 drafting sessions.
+
+## PART 9 — Reef / Method-3-backward demonstration (recommendation for the reverse session)
+**Question (author, 2026-06-08): why decline M3 for the reef; does *not* declining introduce an issue;
+and Darity would value seeing M3 work a restitution case.**
+
+**What M3 measures for the reef:** the *foregone option value* of the reef's extinguished ecological +
+fishery optionality — a ceiling on the CSD **range**, NOT "the cost to restore" (that is M1 cure-cost).
+
+**Provenance caveat:** the "Ch3 declines M3" posture is a *proposed* claim, not a shipped-chapter fact —
+the reverse session verified the shipped Ch3 does not price the reef or contain the quoted "argument I do
+not need to have" line. So this is genuinely open / author's call / gated behind a priced Ch3.
+
+**Why declining the *figure* is right for the reef bond:** (a) the bond's job is to rebuild the reef →
+anchored at the documented M1 cure-cost; M3 is surplus to what the bond needs. (b) Entering a naive M3
+figure imports the corpus's **single biggest adversarial vulnerability** — the peak-output × decades ×
+price extrapolation. (c) It shifts the anchor from bulletproof documented restoration cost to a
+speculative foregone-value number. (d) The reef is **restorable → low α → modest `1/(1−α)`** weight, so
+M3 adds little ceiling anyway. So yes — *not* declining the figure introduces real issues (b + c).
+
+**But Darity's point holds, and is satisfiable without the risk:** the transferable tool is the **method**,
+not a reef dollar figure. Recommendation — the reverse model **fully specifies operational backward-M3**
+(Path-A: `V_option(extinguished optionality / foregone service flow) × scarcity_weight(ς) ×
+irreversibility_weight(1/(1−α))`, + the ex-post/ex-ante fork + the Four-Gates admission + the Open-slot
+discipline) **while declining to enter a contestable reef figure.** That demonstrates M3 working backward
+(operational + transferable — exactly what Darity could leverage) and keeps the reef bond bulletproof.
+Note the reef (low-α, restorable) is *not* M3's strongest showcase; M3-backward does its real work on
+**high-irreversibility legacy cases** (closer to Darity's reparations domain), so "specify the method;
+let it be applied where it does real work" is correct, not a cop-out.
 
 ## Cross-references
 - Superseded: `tools/audits/ta-m3-pathB-rework_proposal-record_2026-06-07.md`
