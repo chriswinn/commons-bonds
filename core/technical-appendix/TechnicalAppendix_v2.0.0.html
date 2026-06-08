@@ -886,40 +886,43 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       Formal specification:
      </strong>
     </p>
-    <pre>RCV_M3 = V_option &times; scarcity_multiplier(&sigma;) &times; irreversibility_premium(&alpha;)
+    <pre>RCV_M3 = V_option &times; scarcity_multiplier(&sigmaf;) &times; irreversibility_premium(&alpha;)
 
-  V_option                       = standard real-options option value (Dixit-Pindyck 1994)
-  &sigma;                              = scarcity parameter (commons-stock / sustainable-flow ratio)
+  V_option                       = resource's own intrinsic (market / extraction) value [abundance-context baseline]
+  &sigmaf;                              = scarcity parameter (commons-stock / sustainable-flow ratio; reserves-to-production&ndash;grounded)
   &alpha;                              = irreversibility parameter (probability commons cannot be restored
                                    at any finite cost once extracted; &alpha; &isin; [0, 1])
 
-  scarcity_multiplier(&sigma;)         = 1 + log(1 + &sigma;) &times; Hotelling_anchor
-  irreversibility_premium(&alpha;)    = 1 / (1 - &alpha;)^&beta;     where &beta; &gt; 0 calibrates risk-posture
-                                                       (&beta; = 1 default; &beta; = 2 precaution-regime)
+  scarcity_multiplier(&sigmaf;)         = 1 + ln(1 + &sigmaf;) &times; Hotelling_anchor
+  irreversibility_premium(&alpha;)    = 1 / (1 &minus; &alpha;)
+                                                       [per-event expected loss given irreversibility probability &alpha;]
 </pre>
+    <p>
+     <strong>Reading the formula.</strong> V_option is the resource&rsquo;s own intrinsic value, so under counterfactual abundance both multipliers approach 1 and RCV_M3 approaches market price (the asteroid-iron calibration, &sect;11.8); the social premium emerges only as scarcity (&sigmaf;) and irreversibility (&alpha;) rise. The construct is the quasi-option value of preserving an irreversibly-losable commons (Arrow &amp; Fisher 1974; Henry 1974) &mdash; not the Dixit&ndash;Pindyck investment-timing model, which appears separately as the &sect;9 Real-Options cross-check. The irreversibility term carries no free exponent: high-&alpha; cases are weighted heavily because the empirical record shows the loss is irreversible (&sect;11.8; IPCC AR6 SPM B.5; Bernhardt &amp; Palmer 2011), and the <em>dominance</em> of permanent non-substitutable foreclosure is established independently by Theorem 10.4 (knife-edge) and Theorem 10.5 (Substitution Dominance). As &alpha; &rarr; 1 the weight diverges; that regime is handed to the incommensurability boundary and the Asymmetric Regret Rule (&sect;12), not priced by a runaway multiplier.
+    </p>
     <p>
      <strong>
       Functional-form motivation (scarcity_multiplier).
      </strong>
-     The log(1 + &sigma;) form is selected for four converging reasons:
+     The ln(1 + &sigmaf;) form is selected for four converging reasons:
     </p>
     <ul>
      <li>
-      <em>Hotelling rent-path conjugate.</em> Under Hotelling 1931 rent-path dynamics, optimal extraction prices grow exponentially at the long-run interest rate; the logarithmic form is the conjugate that linearizes this exponential under integration. The Hotelling_anchor coefficient maps σ-induced multiplier growth onto the documented Hotelling-rate range (~5%/yr proxy across documented σ regimes).
+      <em>Hotelling rent-path conjugate.</em> Under Hotelling 1931 rent-path dynamics, optimal extraction prices grow exponentially at the long-run interest rate; the logarithmic form is the conjugate that linearizes this exponential under integration. The Hotelling_anchor coefficient maps ς-induced multiplier growth onto the documented Hotelling-rate range (~5%/yr proxy across documented ς regimes).
      </li>
      <li>
       <em>Welfare-economics log-utility lineage.</em> Atkinson 1970 <em>Journal of Economic Theory</em> ("On the Measurement of Inequality") + Cobb &amp; Douglas 1928 <em>American Economic Review</em> establish the logarithmic form as standard in welfare-economics utility-aggregation under risk + inequality contexts. The framework adopts a parallel discipline: scarcity-induced cost amplification is logarithmic in stock-depletion ratio, consistent with bounded-concavity preferences in present-value comparison.
      </li>
      <li>
-      <em>Bounded concavity + numerical tractability.</em> Slow-growing logarithmically; practically bounded across documented σ range; structurally unbounded as σ &rarr; &infin; (the divergence reflects the framework's commitment to finite-but-large-cost regimes near critical-stock thresholds, not a numerical pathology). Alternative asymptotic-bounded forms (e.g., σ/(1 + σ) bounded; arctan(σ) bounded) are admissible under sensitivity-robustness scoping; the cross-case α-dominance regime is preserved across all admissible concave forms (see Method 3 sensitivity analysis &sect;11.8 for full numerical verification).
+      <em>Bounded concavity + numerical tractability.</em> Slow-growing logarithmically; practically bounded across documented ς range; structurally unbounded as ς &rarr; &infin; (the divergence reflects the framework's commitment to finite-but-large-cost regimes near critical-stock thresholds, not a numerical pathology). Alternative asymptotic-bounded forms (e.g., ς/(1 + ς) bounded; arctan(ς) bounded) are admissible under sensitivity-robustness scoping; the high-irreversibility (high-α) regime is preserved across all admissible concave forms (see Method 3 sensitivity analysis &sect;11.8 for full numerical verification).
      </li>
      <li>
-      <em>Adjacent intergenerational-equity lineage.</em> Solow 1956 <em>Quarterly Journal of Economics</em> + Bergson 1938 <em>Quarterly Journal of Economics</em> on long-horizon utility aggregation under intergenerational discounting establish the broader concave-aggregation discipline that the logarithmic form sits within.
+      <em>Adjacent intergenerational-equity lineage.</em> Solow 1974 <em>Review of Economic Studies</em> + Bergson 1938 <em>Quarterly Journal of Economics</em> on long-horizon utility aggregation under intergenerational discounting establish the broader concave-aggregation discipline that the logarithmic form sits within.
      </li>
     </ul>
     <p>
      <strong>
-      Sensitivity finding (cross-case dominance map):
+      Cross-case weighting map (which parameter carries the result):
      </strong>
     </p>
     <table>
@@ -929,7 +932,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
         Regime
        </th>
        <th>
-        &sigma;
+        &sigmaf;
        </th>
        <th>
         &alpha;
@@ -974,7 +977,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
        </td>
        <td>
         <strong>
-         &sigma;
+         &sigmaf;
         </strong>
        </td>
        <td>
@@ -1013,7 +1016,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
        <td>
         mixed;
         <strong>
-         &alpha; &rarr; &sigma; &rarr; V_option
+         &alpha; &rarr; &sigmaf; &rarr; V_option
         </strong>
        </td>
        <td>
@@ -1026,11 +1029,11 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      <strong>
       Framework debate-narrowing implication:
      </strong>
-     Earth-bound civilization-scale extractions cluster in &alpha;-dominance regime. The real debate about RCV for those cases is a debate about
+     Earth-bound civilization-scale extractions are dominated by irreversibility &mdash; not because the weight 1/(1&minus;&alpha;) diverges as &alpha; &rarr; 1 (a property of the chosen form), but because the empirical record shows these losses are irreversible (&sect;11.8; IPCC AR6 SPM B.5; Bernhardt &amp; Palmer 2011) and the dominance of permanent non-substitutable foreclosure is established independently by Theorem 10.4 and Theorem 10.5. The framework therefore
      <strong>
-      irreversibility
+      weights
      </strong>
-     &mdash; not about discount rates, scarcity, or option-value. Tractably empirical; aligned with Asymmetric Regret Rule (&sect;8.2); aligned with climate-tipping-point + biodiversity-collapse + cultural-loss literatures.
+     irreversibility heavily rather than claiming to discover its dominance. The real debate about RCV for these cases is the empirically tractable question &mdash; <strong>is this loss irreversible?</strong> &mdash; aligned with the Asymmetric Regret Rule (&sect;8.2) and the climate-tipping-point + biodiversity-collapse + cultural-loss literatures.
     </p>
     <h3>
      &sect;3.6 &mdash; Triangulation logic
