@@ -5,6 +5,10 @@
 **Branch:** `claude/ta-darity-diff-260607-a91c8f` (worktree off the held branch
 `claude/ta-rigor-audit-260606-f537b4`). **No TA edits made — report only.**
 **Status:** COMPLETE.
+**Correction (2026-06-08):** the source-commit anchor was corrected from
+`cf24f57` → **`71fb076`** after independent re-verification (the prior framing,
+inherited from the resume doc, mis-anchored a day late and dropped 7 commits —
+all non-numeric, so no error-provenance conclusion changed). See §Provenance.
 
 ## Scope + method
 
@@ -18,8 +22,9 @@ whether it was **present in Darity's version** or **introduced later**.
 1. **Darity's actual deliverable** — `Technical_Appendix_Commons_Bonds_2026-05-14.docx`,
    extracted to plain text via `pandoc` (ground truth of what Darity received;
    the `.pdf` and `_with-citations_` variants carry the same body text).
-2. **`cf24f57`** (2026-05-15) — the TA source just after the Darity send, used
-   for provenance archaeology.
+2. **`71fb076`** (2026-05-14) — **the verified Darity source commit** (the
+   commit that committed the in-scope DOCX into the repo; the TA HTML in this
+   tree is what was rendered into the deliverable).
 3. **`origin/main`** — canonical current repo state. *(The held branch's
    proposed audit fixes `cefe5e4..4521e28` are NOT on main and are NOT what
    Darity's copy should be compared against; they are the corrections under
@@ -28,30 +33,53 @@ whether it was **present in Darity's version** or **introduced later**.
 ### Provenance finding (DOCX archaeology) — resolved
 
 The handoff warned the DOCX might be rendered from a pre-rename source. It is
-not. **The Darity DOCX body text matches the `cf24f57`-era TA source exactly**
-on every load-bearing marker checked: carbon term ($544), total-with-carbon
-($552–566), 2.32 CO₂-intensity basis, the expanded "OSIRIS-REx → Bennu" row,
-the Keck/Planetary-Resources/DSI commercial-mining table, and the full §11.10
-space-economics block. The only DOCX-vs-`cf24f57` differences are cosmetic
-table line-wrapping introduced by the DOCX renderer. **The DOCX is a faithful
-ground-truth witness; treat `cf24f57` ≈ Darity's TA for content purposes.**
+not — but the source commit is **`71fb076` (2026-05-14)**, not `cf24f57`
+(2026-05-15). `cf24f57` is where the prior session (and the first draft of this
+report) anchored; it is a day after the send and 7 TA commits downstream of the
+true source. Those 7 intervening commits (`6d28f4e`, `f6d6281`, `7599c41`,
+`769938a`, `b469079`, `4cc49df`, `cf24f57`) are **all prose / citation / CSS
+with zero numeric changes**, which is why anchoring on `cf24f57` happened to
+preserve every error-provenance conclusion — but the count and the source ID
+were wrong.
+
+**`71fb076` is confirmed as the source three independent ways:** (1) it is the
+sole commit in the in-scope DOCX file's `git log --follow` history; (2) the
+DOCX carries the citation form "(Darity, personal communication, May 2026)"
+(×2) and **not** "(Darity 2026)" — matching `71fb076`, not `cf24f57`; (3) the
+DOCX lacks the §5.4 Parfit/Sen-pairing expansion and retains the "explicitly
+approved the framework's use of 'reparations' terminology" sentence — both
+matching `71fb076` only. The DOCX also matches on every numeric marker (carbon
+$544, total $552–566, 2.32 basis, OSIRIS-REx→Bennu row, Keck table, §11.10).
+**The DOCX is a faithful ground-truth witness for the TA state at `71fb076`.**
+This commit is marked: see `research/outreach/subjects/darity/PROVENANCE_TA-source-commit.md`
+and the git note attached to `71fb076`.
 
 ---
 
 ## (a) What materially changed between Darity's version and current
 
-There are exactly **6 commits** touching the TA between `cf24f57` and
-`origin/main`. Of these, **only one changed any number.** The complete
+There are **13 commits** touching the TA between `71fb076` (the true source)
+and `origin/main`. Of all 13, **only one changed any number.** The complete
 material change-set:
+
+**The 7 commits `71fb076..cf24f57` (2026-05-14 → 05-15) — all non-numeric.**
+`6d28f4e` (§1.10 + §5.4 MI-3/SI-3 prose incorporations), `f6d6281` (Darity
+citation form: personal-communication → author-date), `7599c41` / `769938a` /
+`b469079` (§5.2 "Naming outcome" prose rewrites), `4cc49df` (print-CSS),
+`cf24f57` (build-script + CSS). These also added the §5.4 Parfit/Sen pairing
+and the Sen 1985/1999 bibliography entries — prose, no figures. Verified: the
+`71fb076..cf24f57` diff contains zero numeric-bearing changed lines.
+
+**The 6 commits `cf24f57..origin/main`:**
 
 | Commit | Date | Class | What it did to the TA |
 |---|---|---|---|
 | `a1e54d9` | 2026-05-17 | prose | Added a "Scope: complementarity with Public Choice / rent-seeking analysis" paragraph (§1.x). No numbers. |
 | `dd825f2` | 2026-05-21 | structural | Added an HTML anchor `id="sec-11-11-ipg-reconciliation"` to the §11.11 header. No content change. (The §11.11 reconciliation section itself was already in Darity's copy.) |
-| **`914addc`** | **2026-05-23** | **NUMERIC** | **The Coal-CO₂ methodology cascade — the only numeric change, and the source of every introduced error. See below.** |
-| `8aa7dfb` | 2026-05-25 | citation | Removed an interview "(Darity 2026)" parenthetical. No numbers. |
-| `06eb1ea` | 2026-05-25 | citation | Removed an interview "(Darity 2026)" parenthetical. No numbers. |
-| `389b773` | 2026-06-04 | citation | Deleted all interview citations: removed the "Darity (2026) did not view the framework's calculations … as underestimating" sentence from the Darity-Mullen para; removed the bibliography entry "Darity … Interview by Christopher Winn. May 13, 2026. Recording on file with author." |
+| **`914addc`** | **2026-05-23** | **NUMERIC** | **The Coal-CO₂ methodology cascade — the only numeric change in all 13 commits, and the source of every introduced error. See below.** |
+| `8aa7dfb` | 2026-05-25 | citation | Reworded/removed a "(Darity …)" parenthetical. No numbers. |
+| `06eb1ea` | 2026-05-25 | citation | Reworded/removed a "(Darity …)" parenthetical. No numbers. |
+| `389b773` | 2026-06-04 | citation | Deleted all interview citations: removed the Darity-Mullen "did not view … as underestimating" sentence; removed the bibliography entry "Darity … Interview by Christopher Winn. May 13, 2026. Recording on file with author." |
 
 ### The one numeric change: `914addc` (Coal-CO₂ cascade, 2026-05-23)
 
@@ -127,9 +155,9 @@ All of the following are byte-identical in Darity's DOCX and `origin/main`:
 
 The remaining ledger items (B3, B5–B7, C1–C8, D1–D2, D5, E1–E12, E14) are all
 structural / notational / citation issues in long-standing apparatus untouched
-by any of the 6 post-send commits; spot-checks (B4, D3, D4, E13, E15, A12)
-confirm the pattern, and the complete `cf24f57..origin/main` TA diff shows no
-edits to those sections. **They are present in Darity's copy.**
+by any of the 13 post-send commits; spot-checks (B4, D3, D4, E13, E15, A12)
+confirm the pattern, and the complete `71fb076..origin/main` TA diff shows no
+numeric edits to those sections. **They are present in Darity's copy.**
 
 ---
 
@@ -148,12 +176,19 @@ edits to those sections. **They are present in Darity's copy.**
    wrong in both versions, but the wrong number differs ($544 → $510).
    Corollary totals $552–566 are likewise unique to Darity.
 
-2. **Interview citations present in Darity's copy, removed since:** the
-   "(Darity 2026)" parentheticals (coercion-vector boundary, stratification-
-   economics, Parfit/Sen, coercion-vector list item), the "Darity (2026) did
-   not view the framework's calculations … as underestimating" sentence, and
-   the bibliography entry "Darity … Interview by Christopher Winn. May 13,
-   2026." These are *content* differences, not errors.
+2. **Interview citations present in Darity's copy, removed/reworded since:** at
+   `71fb076` these read **"(Darity, personal communication, May 2026)"** (×2 —
+   coercion-vector boundary §1.10, coercion-vector list item §5.5) plus the
+   Darity-Mullen sentence **"Darity (personal communication, May 2026)
+   explicitly approved the framework's use of 'reparations' terminology for
+   non-Black-American extraction cases provided the calculations do not
+   underestimate what is due."** The 2026-05-15 commits reworded these to
+   "(Darity 2026)" author-date form and added a formal interview bibliography
+   entry; `389b773` (2026-06-04) then deleted all of it. So Darity's copy
+   carries the *strongest* version of the interview attribution; current main
+   carries none. These are *content* differences, not errors. *(Also Darity-
+   only: §5.4 was Parfit-only — the Sen 1985/1999 pairing was added after the
+   send.)*
 
 **Unique to current (introduced since the send):** the carbon-cascade cluster
 in (b) above (A1's $510 / $518–532 / 2.61 basis / 1.57B mt / $1,566–2,610
@@ -192,6 +227,6 @@ Public Choice paragraph (`a1e54d9`).
    had no reverse model; that is an addition to offer, independent of this diff.
 
 ### Verification artifacts
-- Darity DOCX text: extracted via `pandoc -f docx -t plain` (provenance matched to `cf24f57`).
-- Complete change-set: `git diff cf24f57 origin/main -- core/technical-appendix/TechnicalAppendix_v2.0.0.html` (63 content lines; 1 numeric commit).
+- Darity DOCX text: extracted via `pandoc -f docx -t plain` (provenance verified to `71fb076` three ways: file `git log --follow`; citation form; §5.4 Parfit-only).
+- Complete change-set: `git diff 71fb076 origin/main -- core/technical-appendix/TechnicalAppendix_v2.0.0.html` (13 commits; only `914addc` numeric; `git diff 71fb076 cf24f57` confirms the 7 dropped commits carry zero numeric-bearing lines).
 - Per-commit TA stats: `a1e54d9` +6 (prose), `dd825f2` ±1 (anchor), `914addc` ±42 (carbon), `8aa7dfb`/`06eb1ea` ±2 each (citations), `389b773` −13/+? (citation deletion).
