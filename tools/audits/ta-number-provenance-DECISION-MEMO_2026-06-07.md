@@ -112,7 +112,9 @@ The **M3 Path-B rework session** (Session D, branch `ta-m3-pathb`) is live and o
 
 **Verified facts (this session):** line 917 is the **only** "Solow 1956" use in the TA; the 1956 bib entry is at §18 L7981; "Solow 1974" is already in §18 (L7984) and used 5× elsewhere. Line 917's context ("intergenerational-equity lineage… long-horizon utility aggregation") fits **Solow 1974** (Intergenerational Equity & Exhaustible Resources), not the 1956 growth paper — the correctness sweep's misattribution diagnosis is sound.
 
-**Decision:** **if** the correctness sweep lands the 917 swap, the §18 Solow 1956 entry (L7981) becomes an orphan → **remove it** (nothing else cites it). **If** the swap does not land, keep it. **I did NOT edit either** — the swap belongs to Session C; the orphan removal is contingent on it. **Owner:** Session C (swap) → then this/any session removes the orphan in the same change.
+**UPDATE 2026-06-08 — gating condition CONFIRMED MET.** The swap is **already applied on `ta-m3-pathb`** (§3.5 line 920 = "Solow 1974 *Review of Economic Studies*"; zero "Solow 1956" in-text there). Since the merged tree takes M3's §3.5, the §18 Solow-1956 entry (L7981) **is** orphaned post-merge.
+
+**Decision: remove the §18 Solow-1956 entry — but at CLOSEOUT, against the MERGED tree, NOT on this branch.** Reason: **this branch's §3.5 still cites "Solow 1956"** (line 917 — untouched; §3.5 is M3's domain). Removing the bib entry on this branch in isolation would create a **dangling in-text citation** (citation with no entry) until the merge takes M3's §3.5 — strictly worse than the harmless orphan. So the safe sequence is: merge takes M3's §3.5 (Solow 1974, zero 1956 in-text) → **then** delete the §18 Solow-1956 line (`Solow, Robert M. "A Contribution to the Theory of Economic Growth." QJE 70, no. 1 (1956): 65–94.`). **Owner:** closeout (Session E) against the merged tree; verify `grep -c "Solow 1956"` = 0 in-text before deleting.
 
 ---
 
@@ -128,6 +130,6 @@ The **M3 Path-B rework session** (Session D, branch `ta-m3-pathb`) is live and o
 | 5 §11.9 DAC intro | Session C / author OK | anytime (fast) |
 | 6 log/Hotelling/midpoints | **Session D** | Path-B rework |
 | 7 Norway USD FX stamp | SOFT / Session D | low priority |
-| 8 Solow orphan | Session C → then remove | after the 917 swap |
+| 8 Solow orphan | **Closeout (E), merged tree** | swap already on ta-m3-pathb; delete §18 1956 entry post-merge (grep-verify 0 in-text first) |
 
 **Nothing in this memo is applied by the Foundation session.** The verified-safe fixes (§11.10, §18+§23 bib, B-collision) are in the ledger Part 1.
