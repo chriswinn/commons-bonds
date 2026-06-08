@@ -1117,7 +1117,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
         $8&ndash;$88/ton
        </td>
        <td>
-        $420&ndash;$13,100/ton; mid $2,500
+        $340&ndash;$3,670/ton; geo center ~$1,115
        </td>
        <td>
         ~$2,400/ton; IPG ~50&times; (2025$)
@@ -4742,33 +4742,30 @@ Companion to &sect;11.5 Norway.
     </p>
     <ul>
      <li>
-      &sigma; &asymp; 200&ndash;500 (coal regenerates over geological time; functionally non-renewable; high effective scarcity)
+      &sigmaf; grounded in the McDowell coal reserves-to-production register (EIA; USGS) &mdash; producing-mine R/P collapsed locally (decades) while total-recoverable centuries are foreclosed for this community; scarcity_multiplier &asymp; 1.27&ndash;1.31 across the register (near-insensitive to register choice)
      </li>
      <li>
-      &alpha; &asymp; 0.85&ndash;0.95 (mountaintop-removal habitat irreversible at finite engineering cost; cultural-and-community commons irreversible without targeted intervention; atmospheric carbon-cycle disruption irreversible at climate-tipping-point boundary)
+      &alpha; &asymp; 0.85&ndash;0.95 (mountaintop-removal habitat irreversible at finite engineering cost; cultural-and-community commons irreversible without targeted intervention; atmospheric carbon-cycle disruption irreversible &mdash; IPCC AR6 SPM B.5; Bernhardt &amp; Palmer 2011)
      </li>
      <li>
-      V_option &asymp; $50&ndash;500/ton (per-ton coal option value of preserving the resource for future-non-energy-uses + climate-stability)
-     </li>
-     <li>
-      &beta; = 1 (conservative; &beta; = 2 produces order-of-magnitude amplification per &sect;3.4 sensitivity)
+      V_option = the coal's own intrinsic (market) value &asymp; $40&ndash;140/ton contemporary by grade (EIA; 1960 mine-mouth ~$4.50/ton) &mdash; the abundance-context baseline; the social premium emerges from the two weights
      </li>
     </ul>
     <p>
      <strong>
-      Calculation (mid-range parameter choice &mdash; &sigma;=300, &alpha;=0.9, V_option=$200, &beta;=1):
+      Computation (reported as a band; geometric center as the representative figure):
      </strong>
     </p>
     <ul>
      <li>
-      scarcity_multiplier(&sigma;=300) = 1 + log(301) &times; 0.05 &asymp; 1.29
+      scarcity_multiplier(&sigmaf;) = 1 + ln(1 + &sigmaf;) &times; 0.05 &asymp; 1.27&ndash;1.31 (R/P-register-grounded; near-insensitive)
      </li>
      <li>
-      irreversibility_premium(&alpha;=0.9, &beta;=1) = 1/(0.10) = 10
+      irreversibility_weight(&alpha;) = 1/(1 &minus; &alpha;) = 6.67 (&alpha;=0.85) &hellip; 20 (&alpha;=0.95); convex in &alpha;, so the representative value is the geometric center (&asymp;11.5), not the midpoint-&alpha; value (10)
      </li>
      <li>
       <strong>
-       Method 3 RCV &asymp; $200 &times; 1.29 &times; 10 &asymp; $2,580/ton
+       Method 3 RCV &mdash; band ~$340&ndash;$3,670/ton (V_option $40&ndash;140 &times; scarcity 1.27&ndash;1.31 &times; irreversibility 6.67&ndash;20); geometric center ~$1,115/ton
       </strong>
      </li>
     </ul>
@@ -4779,19 +4776,19 @@ Companion to &sect;11.5 Norway.
     </p>
     <ul>
      <li>
-      Low parameters (&sigma;=200, &alpha;=0.85, V_option=$50): $50 &times; 1.27 &times; 6.67 &asymp;
+      Low corner (V_option=$40, &alpha;=0.85): $40 &times; 1.27 &times; 6.67 &asymp;
       <strong>
-       $420/ton
+       $340/ton
       </strong>
      </li>
      <li>
-      High parameters (&sigma;=500, &alpha;=0.95, V_option=$500): $500 &times; 1.31 &times; 20 &asymp;
+      High corner (V_option=$140, &alpha;=0.95): $140 &times; 1.31 &times; 20 &asymp;
       <strong>
-       $13,100/ton
+       $3,670/ton
       </strong>
      </li>
      <li>
-      Conservative &beta;=2 at &alpha;=0.9: irreversibility_premium = 100; Method 3 &asymp; $25,800/ton (precaution-regime)
+      The band is driven by coal grade and the irreversibility band &alpha;; both inputs are externally documented. No risk-posture exponent enters (the former &beta; is retired; genuinely incommensurable cases &alpha;&rarr;1 go to the incommensurability boundary + ARR, &sect;12).
      </li>
     </ul>
     <p>
@@ -4799,7 +4796,7 @@ Companion to &sect;11.5 Norway.
       Method 3 range for McDowell coal:
      </strong>
      <strong>
-      ~$420&ndash;$13,100/ton at &beta;=1; ~$5,000&ndash;$130,000/ton at &beta;=2 precaution-regime; mid-range &beta;=1 ~$2,500/ton.
+      ~$340&ndash;$3,670/ton (IPG ~8.5&ndash;26&times;), geometric center ~$1,115/ton (~15&times;) &mdash; within Method 1's replacement-cost range and independently anchored to the coal's market value (no shared input with M1).
      </strong>
     </p>
     <h5>
@@ -4836,27 +4833,27 @@ Companion to &sect;11.5 Norway.
       <tr>
        <td>
         <strong>
-         M2 &mdash; Revealed Preference (existing accountability regime)
+         M2 &mdash; Revealed Preference (realized-B comparator)
         </strong>
        </td>
        <td>
         ~$8&ndash;$88 (industry-paid: $8-15; societally-paid including Black Lung: $50-88)
        </td>
        <td>
-        What existing B has actually captured
+        Realized B captured &mdash; the bond side of CS = RCV &minus; B, not a third RCV estimator (&sect;5.5)
        </td>
       </tr>
       <tr>
        <td>
         <strong>
-         M3 &mdash; Scarcity-Adjusted Option Value (&beta;=1 default)
+         M3 &mdash; Scarcity-Adjusted Option Value
         </strong>
        </td>
        <td>
-        ~$420&ndash;$13,100 (mid: $2,500)
+        ~$340&ndash;$3,670 (geometric center ~$1,115)
        </td>
        <td>
-        Combined scarcity + irreversibility + option-value (&alpha;-dominated)
+        Market value &times; scarcity &times; irreversibility weights (the foreclosure premium over market price)
        </td>
       </tr>
      </tbody>
@@ -4869,45 +4866,45 @@ Companion to &sect;11.5 Norway.
     <ul>
      <li>
       <strong>
-       M1 and M3 mid-range converge at ~$812&ndash;$2,500/ton coal.
+       M1 and M3 converge at ~$1,000&ndash;1,500/ton coal (center), overlapping across ~$340&ndash;2,700.
       </strong>
-      Triangulation finding: when &alpha; is near 1 (the McDowell case), M3 dominates and exceeds M1 substantially. M1 is the floor (at-scale-DAC mid-range $812&ndash;$1,658/ton); M3 sets the upper bound ($2,500/ton mid-range, up to $13,100/ton at high parameters); the gap between them is informative &mdash; it's the irreversibility premium.
+      Two independent estimators &mdash; engineering/DAC replacement cost (M1) and option value (M3) &mdash; land in the same range from different data; that overlap is the well-supported RCV. They agree to within ~30% at center (M1 at-scale center ~$1,235; M3 geometric center ~$1,115).
      </li>
      <li>
       <strong>
-       M2 is dramatically below M1 and M3 &mdash; by 1-3 orders of magnitude.
+       M2 is dramatically below the RCV &mdash; by 1-2 orders of magnitude.
       </strong>
-      This is the framework's load-bearing empirical claim: existing American accountability regimes capture ~1-3% of true RCV for McDowell coal. The "accountability gap" is real, large, and triangulation-confirmed.
+      This is the framework's load-bearing empirical claim: existing American accountability regimes capture only a few percent of true RCV for McDowell coal. The accountability gap is real, large, and robust across both RCV estimators &mdash; and M2 is the realized-B reading, not a third RCV estimator (&sect;5.5).
      </li>
      <li>
       <strong>
        Implied Cost Severance:
       </strong>
-      at RCV ~$2,500/ton (M3 mid-range) and B ~$50-88/ton (M2 societally-paid), CS &asymp; $2,400-2,450/ton.
+      at RCV ~$1,115/ton (M3 geometric center; comparable to M1's center) and realized B ~$50-88/ton (M2 societally-paid), CS &asymp; $1,025-1,065/ton.
       <strong>
-       Per-ton CS ~50&times; the 1960-era market price; per-ton CS dwarfs the realized B by 25-50&times;.
+       The prospective-foreclosure half of the Cost Severance Decomposition; CS dwarfs the realized B by ~12-20&times;.
       </strong>
      </li>
      <li>
       <strong>
        IPG calculation:
       </strong>
-      if IPG = (RCV / market price), then McDowell IPG &asymp; $2,500 / $4.50 (1960 nominal) &asymp;
+      under the market-anchored option value (V_option = market price), the M3-IPG is the foreclosure-premium multiple itself &mdash; scarcity &times; irreversibility &asymp;
       <strong>
-       555&times;
+       8.5&ndash;26&times; (center ~15&times;)
       </strong>
-      &mdash; but this is mixing 1960 nominal with 2025 RCV, which inflates the ratio. Inflation-corrected (1960 $4.50 &asymp; $50 in 2025), McDowell IPG &asymp; $2,500 / $50 &asymp;
+      , price-independent on a consistent basis &mdash; more conservative than the carbon-externality IPG (the carbon term, not M3, carries the high end; see &sect;11.11). On a consistent price basis the lenses converge rather than spanning
       <strong>
-       50&times;
+       50&ndash;555&times;
       </strong>
-      . This is roughly consistent with the canonical 33-122&times; range and confirms the compression at the lower end.
+      ; the wider earlier figures reflected 1960-nominal era-mixing.
      </li>
     </ul>
     <p>
      <strong>
       Structural finding:
      </strong>
-     McDowell coal triangulates to an RCV in the $1,000-3,000/ton range (2025$), against realized B of $50-88/ton (societally-paid; $8-15/ton industry-paid). The 50&times; IPG ratio is empirically grounded by triangulation across three independent methods. The framework's "accountability gap" claim is structurally supported.
+     McDowell coal triangulates to an RCV in the ~$340&ndash;2,700/ton range (2025$), center ~$1,000&ndash;1,500, against realized B of $50-88/ton (societally-paid; $8-15/ton industry-paid). The accountability gap is empirically grounded by the convergence of two independent RCV estimators (M1 replacement-cost and M3 option-value); M2 reveals how little of it has been bonded. The framework's "accountability gap" claim is structurally supported.
     </p>
     <hr>
     <h3>
