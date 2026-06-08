@@ -95,6 +95,7 @@
 | P1–P4 | Premise labels (also abstract properties in 10.3) | 3335ff, 3482 | ✓ | 🔴 vs price P |
 | A, A(t) | abundance | 3434 | — | 🔴 |
 | c(A), c₀, ξ | cost function; scale; curvature exponent (ξ≥1) | 3440–3523 | ✓ (ξ local-noted) | 🟢 (3488 note) |
+| η_S(A) | supply elasticity (→0 as A→τ⁺) | 3455 | ✓ (η=elasticity standard) | 🟢 (unique glyph) |
 | τ | scarcity threshold | 3440ff | — | 🔴 (re-overloaded §5.4) |
 | ε, δ, M, A_ε | standard ε–δ analysis variables | 3499–3520 | ✓ | 🔴 δ vs §16.1 δ |
 | U,U₀,k / E,E₀,m | utility & externality polynomial-growth bounds | 3567–3573 | ✓ | 🟠 m/M, k/K |
@@ -137,22 +138,53 @@ Confirmed PRESENT (symbol-provenance-relevant): Solow 1956 (7981) & 1974 (7984);
 
 ---
 
-## PART 4 — STANDARD-NOTATION DEVIATIONS NEEDING EXTERNAL VERIFICATION
+## PART 4 — STANDARD-NOTATION DEVIATIONS (VERIFIED 2026-06-07 against cited sources)
 
-The biggest referee-risk is not the internal collisions but **deviation from strong cross-literature conventions** in the option-value formula. Verify each against the cited source before deciding rename vs. keep-with-note:
+Verified by a standard-notation agent against Black–Scholes (Columbia/Haugh), Dixit–Pindyck (NBER w12486, MIT Pindyck lectures, Princeton UP), Hotelling. Confidence per row.
 
-1. **σ = scarcity ratio vs. σ = volatility (Dixit–Pindyck, Black–Scholes).** In every real-options / option-pricing text σ is the volatility of the underlying. Our σ is a stock/flow scarcity ratio inside an option-value product. A finance-literate referee will misread it on sight. **VERIFY** Dixit–Pindyck notation; recommend rename (e.g. ς or "scar" or a descriptive subscript).
-2. **δ = discount-rate decay (§16.1) vs. δ = convenience yield/payout (Dixit–Pindyck).** **VERIFY**; relevant if M3 Path B introduces a DP δ.
-3. **β = risk-posture exponent vs. β = CAPM systematic risk.** Lower risk (no CAPM nearby) but worth a note.
-4. **E = externality vs. E[·] = expectation operator.** Pervasive; the §16.3 E-as-region makes it worse.
-5. **α = irreversibility probability** — non-standard but not in conflict with a dominant convention; OK to keep with a definition.
+| Symbol | Standard meaning (source) | Framework use | Deviation | Risk | Decision |
+|---|---|---|---|---|---|
+| **σ** | **Volatility of the underlying** — universal in Black–Scholes & Dixit–Pindyck (HIGH conf.) | scarcity ratio *inside* the cited option-value product | **direct conflict** | **HIGH — dismissal-grade** | **RENAME** (Path-A) → ς / κ / descriptive. *M3-coupled: dissolves under Path B if proper DP σ=volatility is adopted.* |
+| **δ** | **Convenience yield / payout rate** in Dixit–Pindyck (HIGH conf.) | §16.1 discount-rate decay constant (undefined on first use) | direct conflict (latent) | MED → HIGH if Path B adds DP δ | **RENAME now → κ** + define on first use. *M3-independent (§16.1).* |
+| **β** | CAPM systematic risk + D–P fundamental-quadratic root (HIGH conf.) | risk-posture exponent in 1/(1−α)^β | partial | MED | note or rename → ψ. *M3-coupled.* |
+| **α** | no dominant conflicting convention; ∈[0,1] reads naturally (MED–HIGH) | irreversibility probability (M3) | none (external) | LOW ext. / MED internal | **keep** M3 α; rename the §16.2 innovation-α instead. |
+| **E** | **Expectation operator E[·]** (HIGH conf.) | externality fn E(R,t) + §16.3 extraction *region* | partial→direct | MED–HIGH | **RENAME region → Ω**; consider fn → ℰ/X. *M3-independent.* |
+| **r** | interest/discount rate — Hotelling (HIGH) | discount/interest rate | none | LOW | keep (preserve r-vs-R case discipline). |
+| **Q, S** | Hotelling q=flow; Dasgupta–Heal S=stock (HIGH) | Q=stock; S=substitutability (deliberate redefinitions) | partial (intentional) | LOW | keep — disambiguation already present & adequate; reproduce in reader Notation section. |
+| **log** | `log(101)≈4.6` ⇒ natural log (HIGH — arithmetic) | unspecified-base log | ambiguity | LOW–MED | **write ln**, or define "log ≡ ln" once. |
+
+**Verified bottom line:** σ is the one dismissal-grade problem (rename-blocking, but M3-coupled — Path B may vindicate it). δ is rename-now (D–P payout glyph; pre-empts the Path-B second-δ). β and E are real second-tier (rename-or-strong-note). log→ln is trivial but checkable arithmetic a referee will run. α/r/Q/S are defensible with their existing notes.
 
 ---
 
-## NEXT STEPS (proposed, not executed)
+## PART 5 — REMEDIATION PLAN (proposed; ratify before applying)
 
-1. **Resolve each 🔴 collision**: rename to eliminate (preferred — e.g. §16.2 innovation α,β → distinct letters; §16.3 extraction-region E → Ω or 𝓔; bond B vs "billion" → spell out "billion") OR explicit local-notation note where coexistence is unavoidable.
-2. **Define on first use**: δ (§16.1); log = ln (§3.5).
-3. **Coordinate the Method-3 σ/α/β decisions with the M3 Path-A/B direction** (don't rename twice).
-4. **Build the reader-facing Notation section** as a curated view of Part 2.
-5. **Hand Part 3 bib gaps to the bib-consolidation session.**
+Free Greek letters (unused anywhere in the TA, per the completeness sweep): γ ζ θ ι κ μ ν π φ χ ψ ω (capitals aside). Used: α β δ Δ ε η λ ξ ρ σ Σ τ.
+
+### Batch I — M3-INDEPENDENT (apply on ratification; survives either Path-A/B outcome)
+
+| # | Collision | Fix | Locations |
+|---|---|---|---|
+| I-1 | §16.1 δ (decay) vs §10.3 ε–δ; undefined; pre-empts Path-B DP-δ | rename δ → **κ**; define "κ = decay constant" on first use | 7341, 7344 |
+| I-2 | §16.3 E (extraction region) vs E(R,t) externality + E[·] | rename region E → **Ω** (and E∖K → Ω∖K) + note | 7362, 7365, 7368 |
+| I-3 | §16.2 innovation α,β vs Method-3 α,β | rename §16.2 α→**ζ**, β→**ω** (keep Method-3 α,β) + note | 7350, 7353, 7356 |
+| I-4 | log base unspecified | define **"log ≡ ln (natural logarithm)"** once at first use; verify worked values | 896 (+4311, 4761, 5245 unchanged) |
+| I-5 | bare B vs "billion" suffix | spell out "billion" in worked numbers ("55 billion BOE") | §11 numeric passages |
+| I-6 | §10 A1–A4 (Assumptions) vs A(t) abundance; P1–P4 (Premises) vs P price | add a one-line §10 local-notation note distinguishing labels from variables (no rename — labels entrenched) | §10.3 head |
+| I-7 | registry completeness | add η_S (3455) ✓done; note integration dummies s (§10.3) / u (§16.1) | registry only |
+
+### Batch II — M3-COUPLED (HOLD for the Path-A/B direction decision)
+
+| # | Symbol | If Path A (keep σ/α/β architecture) | If Path B (DP premium) |
+|---|---|---|---|
+| II-1 | **σ** (dismissal-grade) | RENAME σ (scarcity) → **ς** or descriptive; reserve σ for nothing | likely DISSOLVES — adopt proper DP σ=volatility; our scarcity term goes away |
+| II-2 | **β** (M3 risk-posture exponent) | rename → **ψ** or strong note | replaced by DP exponent structure |
+| II-3 | **α** (M3 irreversibility) | keep (defensible) | replaced by DP δ in Path B |
+
+### Sequencing
+1. Apply Batch I on author ratification (M3-independent, low-risk renames).
+2. Resolve M3 Path-A/B → then apply Batch II against the final §3.5/§11.8.
+3. Build the reader-facing Notation section from Part 2 AFTER Batch I + II land.
+4. Hand Part 3 bib gaps (Brennan–Schwartz, Black–Scholes, Knight) to the bib-consolidation session.
+
+**Note:** the verified σ finding is a *third* reason to resolve the M3 Path-A/B question — the direction determines whether σ must be renamed (Path A) or is vindicated as proper volatility (Path B).
