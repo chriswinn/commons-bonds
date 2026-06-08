@@ -245,8 +245,14 @@ The reverse §5.5 should commit to **no** forward M3 number.
 2. **M2 (c)-uniform: ✅ RESOLVED** (Part 5; reverse A3 reconciles to (c) by propagation).
 3. **Headline presentation: ✅ RATIFIED 2026-06-08** — McDowell M3 as **band ($350–3,640) with central
    ~$1,170**, "within M1's replacement-cost range, independently anchored," + α/grade sensitivity.
-4. **Next:** draft §3.5 + §11.6/§11.8 HTML edits cluster-by-cluster for per-cluster sign-off; then hand
-   the reframed core to the Ch6/Ch8 drafting sessions.
+4. **§3.5 cluster: ✅ APPLIED 2026-06-08 (commit `fd39af7`)** — V_option market anchor, σ→ς (ratified),
+   log→ln, β dropped (1A), reframed implication + "Reading the formula" prose, Solow 1974. σ→ς sweep
+   verified scoped to §3.5 (§11.x σ untouched). **Follow-ups:** Stage-4 render check for ς (`&sigmaf;`
+   tofu risk); §16.2 α→ζ rename must reach the merged tree.
+5. **Next clusters:** (a) §11.6/§11.8 worked McDowell → band ($350–3,640) + central ~$1,170; §11.8
+   α-dominance section; cascade σ→ς + `irreversibility_premium` form. (b) convergence-overclaim
+   softening (L3050/4877/4907/3064). (c) M2 (c) §11.6 line + §3.2/§8 ARR cross-ref (L3038) reconcile.
+   Then hand the reframed core to the Ch6/Ch8 drafting sessions.
 
 ## PART 9 — Reef / Method-3-backward demonstration (recommendation for the reverse session)
 **Question (author, 2026-06-08): why decline M3 for the reef; does *not* declining introduce an issue;
