@@ -171,12 +171,18 @@ Options / RCV-integral) — untouched by E12.
 (c) framing — two RCV estimators (M1, M3) + M2 as the realized-B reading. **Uniform across
 directions.**
 
-> **⚠ COORDINATION CONFLICT (must reconcile before either applies):** the reverse-CSD session's
-> draft edit **A3** keeps M2 as a *forward estimator / backward comparator* (direction-split) and
-> targets the **same ~L4907**. That preserves the forward overclaim. **Recommendation: reconcile
-> the reverse A3 *down to (c)-uniform.*** Principled-asymmetry counter-argument (revealed-preference
-> *could* in principle estimate RCV forward) is noted but does not match how Norway is *computed*
-> (realized capture). Their A3 is currently *held* (working draft) → no live collision; flag only.
+> **COORDINATION — RESOLVED by propagation (author-confirmed 2026-06-08):** the reverse-CSD
+> session's draft edit **A3** keeps M2 as a *forward estimator / backward comparator* (direction-split)
+> and targets the **same ~L4907**. Resolution: **propagate (c)-uniform into the reverse draft** — A3
+> drops its forward-estimator half and reads M2 as the realized-B reader **both directions** (forward
+> = realized B₂ / Norway; backward = realized B₁ / reef). The CSD draft is explicitly adjustable to
+> make the book's parts agree, so this is a coordination edit, not a tension. **What is preserved:**
+> M2's "**revealed lower bound on RCV**" role survives — a rational polity internalizes ≤ what it
+> values, so realized B is a floor under RCV; (c) delivers that floor signal *as a realized-B reading*
+> rather than as an independent RCV point-estimator. We drop the overclaim, not the usefulness. The
+> principled-asymmetry note (revealed-preference *could* in principle estimate RCV forward) does not
+> match how Norway is actually *computed* (realized capture). Reverse A3 is held → no live collision;
+> the edit lands in the reverse draft when that session next touches it (not edited from here).
 
 ---
 
@@ -202,7 +208,10 @@ reverse §5.5 should use Path-A-consistent language (one (quasi-)option-value ob
 ---
 
 ## PART 7 — Coordination flags
-1. **Reverse A3 ↔ reframe (c):** reconcile A3 to (c)-uniform; shared ~L4907 (held, no live collision).
+1. **Reverse A3 ↔ reframe (c): RESOLVED by propagation** (author-confirmed 2026-06-08) — propagate
+   (c)-uniform into the reverse draft (drops A3's forward-estimator half; M2 = realized-B reader both
+   directions; preserves M2's "revealed lower bound on RCV" role). Shared ~L4907 (held, no live
+   collision); edit lands in the reverse draft when that session next touches it.
 2. **Daly §14.6** is being applied by the reverse session (M3-independent; *strengthens* the
    dominance-relocation since corrected Daly = the S_max<1-critical-capital basis). Not edited here.
 3. **§9 / Obs 10.2 Real Options cross-check = where full D–P lives.** Keep M3 distinct; do not
