@@ -161,15 +161,15 @@ Verified by a standard-notation agent against Black–Scholes (Columbia/Haugh), 
 
 Free Greek letters (unused anywhere in the TA, per the completeness sweep): γ ζ θ ι κ μ ν π φ χ ψ ω (capitals aside). Used: α β δ Δ ε η λ ξ ρ σ Σ τ.
 
-### Batch I — M3-INDEPENDENT (apply on ratification; survives either Path-A/B outcome)
+### Batch I — M3-INDEPENDENT (✅ I-1/I-2/I-3/I-6 APPLIED 2026-06-07 to held branch; I-4/I-5 reclassified)
 
 | # | Collision | Fix | Locations |
 |---|---|---|---|
 | I-1 | §16.1 δ (decay) vs §10.3 ε–δ; undefined; pre-empts Path-B DP-δ | rename δ → **κ**; define "κ = decay constant" on first use | 7341, 7344 |
 | I-2 | §16.3 E (extraction region) vs E(R,t) externality + E[·] | rename region E → **Ω** (and E∖K → Ω∖K) + note | 7362, 7365, 7368 |
 | I-3 | §16.2 innovation α,β vs Method-3 α,β | rename §16.2 α→**ζ**, β→**ω** (keep Method-3 α,β) + note | 7350, 7353, 7356 |
-| I-4 | log base unspecified | define **"log ≡ ln (natural logarithm)"** once at first use; verify worked values | 896 (+4311, 4761, 5245 unchanged) |
-| I-5 | bare B vs "billion" suffix | spell out "billion" in worked numbers ("55 billion BOE") | §11 numeric passages |
+| ~~I-4~~ | log base unspecified | **RECLASSIFIED → Batch II (M3-coupled):** every log() usage is inside the Method-3 scarcity_multiplier (896, 904, 4311, 4761, 5245); dissolves under Path B, belongs with Path A. NOT applied. | — |
+| ~~I-5~~ | bare B vs "billion" suffix | **DEFERRED:** ~50 occurrences, all sourced numbers owned by the provenance session (§6/§11/§15); coordinate with that session rather than unilaterally edit its lines. NOT applied. | §6/§11/§15 |
 | I-6 | §10 A1–A4 (Assumptions) vs A(t) abundance; P1–P4 (Premises) vs P price | add a one-line §10 local-notation note distinguishing labels from variables (no rename — labels entrenched) | §10.3 head |
 | I-7 | registry completeness | add η_S (3455) ✓done; note integration dummies s (§10.3) / u (§16.1) | registry only |
 

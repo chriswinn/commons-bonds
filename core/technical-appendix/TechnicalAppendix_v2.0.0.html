@@ -3262,6 +3262,9 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     </h2>
     <hr>
     <p>
+     <strong>Notation convention (&sect;10).</strong> Throughout &sect;10 the labels A1&ndash;A4 denote Assumptions and P1&ndash;P4 denote Premises (in Theorem 10.3, P1&ndash;P4 additionally label abstract cost-function properties, as noted there). These identifiers are distinct from the abundance variable A(t) (Theorem 10.3) and the market price P (Theorem 10.5), which are mathematical quantities, not assumption/premise labels.
+    </p>
+    <p>
      Theorem 10.1a (Cost Severance Identity)
     </p>
     <p>
@@ -7338,19 +7341,19 @@ is not framework-imprecision but time-horizon-attribution discipline.
      RCV = &int;t₀&infin;&nbsp;{ [1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; exp(&minus;&int;t₀t&nbsp;r(u)du) dt
     </p>
     <p>
-     where r(t) = r₀ &middot; e&minus;&delta;t&nbsp;+ r_min
+     where r(t) = r₀ &middot; e&minus;&kappa;t&nbsp;+ r_min
     </p>
     <p>
-     The declining discount rate function r(t) starts at r₀ (conventional current rate, ~4&ndash;5%) and declines to r_min (~1%) over long horizons, reflecting Weitzman's certainty-equivalent rate under discount rate uncertainty. This specification is conservative relative to a zero or near-zero pure time preference &mdash; it biases RCV downward.
+     The declining discount rate function r(t) starts at r₀ (conventional current rate, ~4&ndash;5%) and declines to r_min (~1%) over long horizons at decay rate &kappa; &gt; 0, reflecting Weitzman's certainty-equivalent rate under discount rate uncertainty. This specification is conservative relative to a zero or near-zero pure time preference &mdash; it biases RCV downward.
     </p>
     <h3>
      &sect;16.2 &mdash; Stock-Dependent Substitutability
     </h3>
     <p>
-     S(t | t₀, Q(t)) = S_base(t) &middot; [1 &minus; &alpha; &middot; (Q_critical / Q(t))&beta;]
+     S(t | t₀, Q(t)) = S_base(t) &middot; [1 &minus; &zeta; &middot; (Q_critical / Q(t))&omega;]
     </p>
     <p>
-     where &alpha;, &beta; &gt; 0 capture scarcity effects on innovation incentives
+     where &zeta;, &omega; &gt; 0 capture scarcity effects on innovation incentives (&zeta; and &omega; are local to &sect;16.2 and distinct from the Method-3 irreversibility parameters &alpha;, &beta; in &sect;3.5)
     </p>
     <p>
      When stock Q is large, innovators have low incentive to develop substitutes &mdash; resources appear abundant, prices are low. As Q approaches Q_critical (the level at which scarcity becomes economically visible), innovation pressure increases and S_base rises faster. This creates a potential feedback loop: very rapid extraction can keep prices low long enough to delay substitute development, resulting in a lower achieved S_max when depletion eventually forces the issue. This is the mechanism behind "stranded asset risk" &mdash; industries that extracted too fast find themselves without substitutes when they need them.
@@ -7359,13 +7362,13 @@ is not framework-imprecision but time-horizon-attribution discipline.
      &sect;16.3 &mdash; Spatial cost severance formalization
     </h3>
     <p>
-     SCS = &int;<sub>E&setminus;K</sub>&nbsp;&int;<sub>time</sub>&nbsp;C(x, t) dx dt
+     SCS = &int;<sub>&Omega;&setminus;K</sub>&nbsp;&int;<sub>time</sub>&nbsp;C(x, t) dx dt
     </p>
     <p>
-     where x represents geographic location, E is the extraction region, K is the consumption region (lettered K to avoid collision with the cost function C(x,t)), and C(x,t) is the cost burden at location x and time t. Where value-received-at-location appears in expanded forms or extensions, the framework denotes it V(x,t) &mdash; a distinct symbol from the framework's Accountability Bond B used elsewhere.
+     where x represents geographic location, &Omega; is the extraction region, K is the consumption region (K and &Omega; are lettered to avoid collision with the cost function C(x,t) and the externality function E(R,t) respectively), and C(x,t) is the cost burden at location x and time t. Where value-received-at-location appears in expanded forms or extensions, the framework denotes it V(x,t) &mdash; a distinct symbol from the framework's Accountability Bond B used elsewhere.
     </p>
     <p>
-     Spatial cost severance measures the cost borne in the extraction region outside the consumption region. When the extraction region is contained within the consumption region (E &sube; K; Mars colony mining its own rare earths; Norway's sovereign wealth fund returning extraction rent to the Norwegian polity that bears extraction's domestic costs), SCS = 0 because no cost falls outside the value-receiving region. When E and K are geographically separated (Appalachian coal, Baotou rare earths, Niger Delta oil), SCS &gt; 0 and scales with the cost density in the non-overlapping region E&setminus;K.
+     Spatial cost severance measures the cost borne in the extraction region outside the consumption region. When the extraction region is contained within the consumption region (&Omega; &sube; K; Mars colony mining its own rare earths; Norway's sovereign wealth fund returning extraction rent to the Norwegian polity that bears extraction's domestic costs), SCS = 0 because no cost falls outside the value-receiving region. When &Omega; and K are geographically separated (Appalachian coal, Baotou rare earths, Niger Delta oil), SCS &gt; 0 and scales with the cost density in the non-overlapping region &Omega;&setminus;K.
     </p>
     <p>
      This formalization explains why cost severance produces systematic geographic inequality: extraction communities absorb environmental, health, and economic disruption costs while consuming communities receive energy and materials at artificially low prices. The 13-year life expectancy gap between McDowell County and the national average is the human face of SCS.
