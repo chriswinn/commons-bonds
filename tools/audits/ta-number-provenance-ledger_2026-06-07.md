@@ -180,6 +180,21 @@ External authorities genuinely cited in-text (the framework's defensible empiric
 
 ---
 
+## Part 5b — CLASS-1 VALUE-VERIFICATION SWEEP (2026-06-08)
+
+Beyond "an authority is *named*," each remaining headline Class-1 anchor was confirmed against its actual external source (the DAC case proved naming ≠ correctness).
+
+| Anchor | TA value | Verified value (source) | Verdict | Action |
+|---|---|---|---|---|
+| **SCC $190/ton** | $190, attributed to "EPA central estimate; Rennert et al. 2022" (§3.3, §11.9) | EPA 2023 SCGHG report: $120/**$190**/$340 at 2.5/2.0/1.5% discount. Rennert 2022 = **$185**. EPA "drew heavily from" Rennert. | **$190 is CORRECT (EPA 2023 @ 2%)** — so the carbon term $496 (2.61×$190) stands, no cascade. But the *attribution* conflated EPA's $190 with Rennert's $185. | **FIXED (attribution-only):** §3.3 + §11.9 now read "US EPA 2023 central estimate $190 … drawing on Rennert et al. 2022, which estimated ~$185." No number changed. |
+| **Norway state capture ~70–80%** | ~70–80% (75% used in M2) | **78% combined marginal rate** (22% ordinary + 56% special), plus SDFI + Equinor dividends on top (Norwegianpetroleum.no). | **DEFENSIBLE** — the 78% marginal rate sits inside the stated 70–80% band; the 75% midpoint used in the M2 calc is *conservative*. | No change. (Optional precision: cite "78% combined marginal rate.") |
+| **Black Lung debt $5.1B** | $5.1B outstanding (Sept 2024) | **$5.1B CONFIRMED** (GAO; multiple). | ✓ verified | none |
+| **Black Lung cumulative $44B** | ~$44B cumulative payouts | **UNVERIFIED this session** — not located in accessible sources; the authoritative CRS R45261 returned HTTP 403 to WebFetch. | **UNCONFIRMED** (plausible but unproven) | **Flag:** downgrade from Class-1 to *Class-1-unconfirmed*; verify via CRS R45261 (accessible mirror) or DOL OWCP annual report before relying on it. |
+| **Baotou / USGS** 69% / 49% / 37–40% / 80% | per USGS MCS 2025 | USGS MCS 2025: China **69%** mine production ✓; Bayan Obo **>40%** of world REE reserves ✓ and **>80%** of China's reserves ✓; China ~49% reserves (consistent: >40%world ÷ >80%china ≈ 50%). | **ALL VERIFIED / consistent** | none |
+| **EIA 1960 coal price $4.50** | $4.50/ton (1960), sourced only to "Ch 6 convergence table" (TA-internal → Class-4) | EIA total-energy table ptb0709: 1960 **bituminous $4.71** / all-coal **$4.83** per short ton (nominal). | **$4.50 is LOW + unsourced.** Correct value $4.71 (bituminous; McDowell = Pocahontas bituminous). | **Flag, NOT applied:** $4.50 appears in **7 spots** (§3.3 L3094, §11.1 L3860, §11.6 L4491/4892/4896, §6.7/7.6 L2916, §14.7 L6637) and feeds the **IPG ratios** (555×, inflation-corrected 50×). Route the $4.50→$4.71 change to **Session C (IPG reframe) / Session D (§11.6)** so it doesn't thrash the ratios mid-rework. |
+
+**Net:** 4 of 6 verified clean (SCC value, Norway, Black-Lung debt, Baotou). 1 attribution fix applied (SCC). 2 flagged for follow-up: Black-Lung $44B (unverifiable this session) and the EIA $4.50→$4.71 coal-price (verified-correctable but cascades into the IPG apparatus → Session C/D).
+
 ## Part 6 — Goal state & what remains
 
 **Goal:** a TA where every surviving number is class 1/2/3, zero class-4, all sources in the bib.
