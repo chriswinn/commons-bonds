@@ -1,60 +1,64 @@
-# PROVENANCE — Technical Appendix source commit for the Darity packet
+# PROVENANCE — Technical Appendix source commits for the Darity packet
 
-**Purpose:** pin the exact repository state from which the Technical Appendix
-delivered to William Darity Jr. was rendered, so no future (possibly
-context-saturated) session re-derives it and gets it wrong. Created 2026-06-08
-during the Session-B Darity-version diff (`tools/audits/ta-darity-version-diff_2026-06-07.md`).
+**Purpose:** pin the exact repository states from which the Technical Appendix
+files delivered to William Darity Jr. were rendered, so no future (possibly
+context-saturated) session re-derives them and gets it wrong. Created 2026-06-08
+during the Session-B Darity-version diff (`tools/audits/ta-darity-version-diff_2026-06-07.md`);
+revised same day after the author flagged that **two** TA files were sent.
 
-## The source commit
+## TWO files were sent — track the SECOND
 
-**`71fb076` (2026-05-14)** — "TA Sandy-packet — WP#10 regression cleanup: strip
-version + status-block scaffolding from reviewer-facing artifacts."
+| | File | Sent | Source commit |
+|---|---|---|---|
+| 1st (superseded) | `Technical_Appendix_Commons_Bonds_2026-05-14.docx` / `.pdf` | 2026-05-14 | **`71fb076`** |
+| **2nd (PRIMARY — the latest Darity holds)** | `Technical_Appendix_Commons_Bonds_with-citations_2026-05-14.docx` / `.pdf` | **2026-05-15 02:31 ET** | **`e6ddf92`** (TA body == `cf24f57` state) |
 
-This is the commit that committed `Technical_Appendix_Commons_Bonds_2026-05-14.docx`
-(+ `.pdf`) into the repo. The TA HTML in this commit's tree
-(`core/technical-appendix/TechnicalAppendix_v2.0.0.html`) is the exact body
-text that was rendered into the deliverable Darity received.
+The 2026-05-15 "proactive-Q0-citation" send (`post-citation-packet-email_2026-05-15.md`)
+shipped the revised with-citations derivatives. Per that email the only changes
+since the Thursday packet were citation form, two added paragraphs, and one
+sentence rewrite — **"no changes to case-study computations or apparatus."** So
+the two files are numerically identical; the second adds the author-date
+"(Darity 2026)" citation form, the §18 interview bibliography entry, the §5.4
+Parfit/Sen pairing, and the §5.1.1 Darity-Mullen sentence rewrite.
 
-- **In-scope artifact:** `Technical_Appendix_Commons_Bonds_2026-05-14.docx` / `.pdf`
-  → source **`71fb076`** (sole commit in the file's `git log --follow`).
-- **With-citations variant:** `Technical_Appendix_Commons_Bonds_with-citations_2026-05-14.docx`
-  → regenerated later at **`e6ddf92`** (2026-05-15); it therefore includes the
-  2026-05-15 prose/citation edits (author-date citation form; §5.4 Parfit/Sen
-  pairing). Still pre-`914addc`, so its numeric content matches `71fb076`.
+**Anchor analysis on the SECOND file (`e6ddf92` / `cf24f57` TA body).** It is the
+latest TA Darity has.
 
-## Why NOT `cf24f57`
+## Why NOT `cf24f57`-as-the-only-story / NOT `71fb076`
 
-`cf24f57` (2026-05-15) is a day **after** the send and 7 TA commits downstream
-of `71fb076`. An earlier draft of the Session-B report (and the rigor-audit
-resume doc) mis-anchored on `cf24f57` and called it "the 6 commits." The 7
-intervening commits (`6d28f4e`, `f6d6281`, `7599c41`, `769938a`, `b469079`,
-`4cc49df`, `cf24f57`) are all prose / citation / CSS with **zero numeric
-changes**, so the mis-anchor did not corrupt the error-provenance conclusions —
-but the source ID and commit count were wrong. Anchor on `71fb076`.
+- `71fb076` (2026-05-14) is the **first** file's source — superseded by the
+  05-15 send. Retain as history only.
+- `cf24f57` (2026-05-15) is a build-script/CSS commit; it did not change the TA
+  body but its body state == the second file's. `e6ddf92` is the commit that
+  actually regenerated the second file's derivatives. Either identifies the
+  second file's TA state; `e6ddf92` is the precise committing commit.
 
-## Verified three ways (DOCX == `71fb076`, not `cf24f57`)
+## Verified (DOCX → source) three ways each
 
-1. **File history:** `71fb076` is the only commit in
-   `git log --follow -- research/outreach/subjects/darity/Technical_Appendix_Commons_Bonds_2026-05-14.docx`.
-2. **Citation form:** the DOCX carries "(Darity, personal communication, May
-   2026)" ×2 and zero "(Darity 2026)" — matching `71fb076` (the 05-15 commits
-   switched to author-date form).
-3. **§5.4 + Darity-Mullen prose:** the DOCX lacks the Parfit/Sen-pairing
-   expansion and retains the "explicitly approved the framework's use of
-   'reparations' terminology" sentence — both `71fb076`-only.
+**Second file (with-citations DOCX) == `e6ddf92`/`cf24f57` state:**
+1. `e6ddf92` heads the file's `git log --follow`.
+2. Carries "(Darity 2026)" ×3 and zero "personal communication" — the post-05-15
+   author-date form.
+3. Contains the §18 "Interview by Christopher Winn" entry + §5.4 Sen pairing
+   (×6); the "explicitly approved" sentence is absent (rewritten).
 
-Numeric markers also all match `71fb076`: carbon $544/ton, total-with-carbon
-$552–566/ton, 2.32 mt CO₂/short ton basis, the OSIRIS-REx→Bennu row, the Keck
-commercial-mining table, and the full §11.10 space-economics block.
+**First file (DOCX) == `71fb076`:** sole `--follow` commit; "(Darity, personal
+communication, May 2026)" ×2; §5.4 Parfit-only; "explicitly approved" present.
+
+Numeric markers (both files, identical): carbon $544/ton, total $552–566/ton,
+2.32 mt CO₂/short ton basis, OSIRIS-REx→Bennu row, Keck commercial-mining table,
+full §11.10 space-economics block.
 
 ## Consequence for corrections to Darity
 
 The carbon figures Darity holds ($544 / $552–566, 2.32 basis) were **superseded
-after the send** by the Coal-CO₂ cascade (`914addc`, 2026-05-23 → 2.61 basis,
-$510 / $518–532) and are themselves being corrected by the held-branch rigor
-audit (→ $496 / $504–518). Darity **never saw** the `$510` figure the audit
-ledger flags. Every other confirmed audit error was already present in his copy.
+after both sends** by the Coal-CO₂ cascade (`914addc`, 2026-05-23 → 2.61 basis,
+$510 / $518–532), itself being corrected by the held-branch rigor audit (→ $496
+/ $504–518). Darity **never saw** the `$510` figure the audit ledger flags.
+Every other confirmed audit error was already present in his copy. The new
+substantive offer (backward-CSD / reworked Method-3) was in neither file.
 Full mapping: `tools/audits/ta-darity-version-diff_2026-06-07.md`.
 
-*(A git note recording the same is attached to `71fb076`; git notes are not
-pushed by default, so this tracked file is the durable record.)*
+*(Git notes recording the same are attached to `e6ddf92` (primary) and
+`71fb076` (superseded first send); git notes are not pushed by default, so this
+tracked file is the durable record.)*

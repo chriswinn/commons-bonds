@@ -5,70 +5,71 @@
 **Branch:** `claude/ta-darity-diff-260607-a91c8f` (worktree off the held branch
 `claude/ta-rigor-audit-260606-f537b4`). **No TA edits made — report only.**
 **Status:** COMPLETE.
-**Correction (2026-06-08):** the source-commit anchor was corrected from
-`cf24f57` → **`71fb076`** after independent re-verification (the prior framing,
-inherited from the resume doc, mis-anchored a day late and dropped 7 commits —
-all non-numeric, so no error-provenance conclusion changed). See §Provenance.
+**Revision history:**
+- *2026-06-08a:* source-commit anchor changed `cf24f57` → `71fb076` (the first
+  packet) on independent re-verification.
+- *2026-06-08b (THIS revision, authoritative):* **author flagged that TWO TA
+  files were sent to Darity, and only the SECOND is worth tracking.** Re-anchored
+  on the second file. Net effect: every numeric conclusion is unchanged (the two
+  files have identical apparatus — the author's 05-15 cover email states "no
+  changes to case-study computations or apparatus"); the provenance + citation
+  framing now describe the second file.
 
 ## Scope + method
 
-Compare the version of the Technical Appendix sent to William Darity Jr. on
-2026-05-14 against the current TA, and for each confirmed audit error
-(`core/technical-appendix/TA-rigor-audit-ledger_2026-06-06.md`) determine
-whether it was **present in Darity's version** or **introduced later**.
+**Two TA files were sent to Darity** (verified against the as-sent cover emails):
 
-**Three text states extracted and compared:**
+| | File | Sent | Source commit | TA-body state | Citations |
+|---|---|---|---|---|---|
+| 1st | `Technical_Appendix_Commons_Bonds_2026-05-14.docx`/`.pdf` | 2026-05-14 | `71fb076` | 2.32 carbon basis; carbon $544 | "(Darity, personal communication, May 2026)"; §5.4 Parfit-only |
+| **2nd (TRACK THIS)** | `Technical_Appendix_Commons_Bonds_with-citations_2026-05-14.docx`/`.pdf` | **2026-05-15 02:31 ET** | **`e6ddf92`** (regen; TA body == `cf24f57` state) | **identical apparatus — carbon $544, same numbers** | "(Darity 2026)" author-date; §18 interview bib entry; §5.4 Parfit/Sen pairing; §5.1.1 sentence rewritten |
 
-1. **Darity's actual deliverable** — `Technical_Appendix_Commons_Bonds_2026-05-14.docx`,
-   extracted to plain text via `pandoc` (ground truth of what Darity received;
-   the `.pdf` and `_with-citations_` variants carry the same body text).
-2. **`71fb076`** (2026-05-14) — **the verified Darity source commit** (the
-   commit that committed the in-scope DOCX into the repo; the TA HTML in this
-   tree is what was rendered into the deliverable).
-3. **`origin/main`** — canonical current repo state. *(The held branch's
-   proposed audit fixes `cefe5e4..4521e28` are NOT on main and are NOT what
-   Darity's copy should be compared against; they are the corrections under
-   review. Comparisons below are Darity-DOCX vs `origin/main`.)*
+The 2026-05-15 "proactive-Q0-citation" email (`post-citation-packet-email_2026-05-15.md`)
+shipped the revised with-citations derivatives and explicitly states the changes
+since the Thursday packet were citation-form + two added paragraphs + one
+sentence rewrite, with **"no structural reorganization, no changes to
+case-study computations or apparatus."** That is the latest TA Darity holds.
+
+For each confirmed audit error (`core/technical-appendix/TA-rigor-audit-ledger_2026-06-06.md`)
+this report determines whether it was **present in the second file** or
+**introduced later**, comparing the with-citations DOCX vs `origin/main`. *(The
+held branch's in-flight audit + M3 fixes — e.g. the carbon cluster `cefe5e4..4521e28`
+and the M3 §3.5 Path-A rework `fd39af7` on sub-branch `claude/ta-m3-pathb-260607-6e6849`
+— are the corrections under review, NOT what Darity is compared against.)*
 
 ### Provenance finding (DOCX archaeology) — resolved
 
-The handoff warned the DOCX might be rendered from a pre-rename source. It is
-not — but the source commit is **`71fb076` (2026-05-14)**, not `cf24f57`
-(2026-05-15). `cf24f57` is where the prior session (and the first draft of this
-report) anchored; it is a day after the send and 7 TA commits downstream of the
-true source. Those 7 intervening commits (`6d28f4e`, `f6d6281`, `7599c41`,
-`769938a`, `b469079`, `4cc49df`, `cf24f57`) are **all prose / citation / CSS
-with zero numeric changes**, which is why anchoring on `cf24f57` happened to
-preserve every error-provenance conclusion — but the count and the source ID
-were wrong.
+The second file's source is **`e6ddf92` (2026-05-15)** — the commit that
+regenerated the with-citations derivatives; its TA body equals the `cf24f57`
+state (no TA-body change between `cf24f57` and `e6ddf92`). Confirmed three ways
+against the with-citations DOCX: (1) `e6ddf92` heads the file's `git log
+--follow`; (2) the DOCX carries "(Darity 2026)" (×3) and **zero** "personal
+communication" — the post-05-15 author-date form; (3) it contains the §18
+"Interview by Christopher Winn" bib entry and the §5.4 Sen pairing (×6), and the
+"explicitly approved" sentence is **absent** (rewritten) — all `cf24f57`/`e6ddf92`
+markers, none of the `71fb076` markers. Numeric markers match too (carbon $544,
+total $552–566, 2.32 basis, OSIRIS-REx→Bennu, Keck table, §11.10) — identical to
+the first file, confirming the apparatus was untouched between the two sends.
 
-**`71fb076` is confirmed as the source three independent ways:** (1) it is the
-sole commit in the in-scope DOCX file's `git log --follow` history; (2) the
-DOCX carries the citation form "(Darity, personal communication, May 2026)"
-(×2) and **not** "(Darity 2026)" — matching `71fb076`, not `cf24f57`; (3) the
-DOCX lacks the §5.4 Parfit/Sen-pairing expansion and retains the "explicitly
-approved the framework's use of 'reparations' terminology" sentence — both
-matching `71fb076` only. The DOCX also matches on every numeric marker (carbon
-$544, total $552–566, 2.32 basis, OSIRIS-REx→Bennu row, Keck table, §11.10).
-**The DOCX is a faithful ground-truth witness for the TA state at `71fb076`.**
-This commit is marked: see `research/outreach/subjects/darity/PROVENANCE_TA-source-commit.md`
-and the git note attached to `71fb076`.
+*(The first file's source `71fb076` is retained as historical record — see the
+marker file — but it is superseded by the 2026-05-15 send.)* This is marked:
+`research/outreach/subjects/darity/PROVENANCE_TA-source-commit.md` + git notes
+on `e6ddf92` (primary) and `71fb076` (superseded first send).
 
 ---
 
 ## (a) What materially changed between Darity's version and current
 
-There are **13 commits** touching the TA between `71fb076` (the true source)
-and `origin/main`. Of all 13, **only one changed any number.** The complete
-material change-set:
+Anchoring on the **second file** (TA body == `cf24f57`/`e6ddf92` state), there
+are **6 commits** touching the TA between it and `origin/main`. **Only one
+changed any number.** The complete material change-set:
 
-**The 7 commits `71fb076..cf24f57` (2026-05-14 → 05-15) — all non-numeric.**
-`6d28f4e` (§1.10 + §5.4 MI-3/SI-3 prose incorporations), `f6d6281` (Darity
-citation form: personal-communication → author-date), `7599c41` / `769938a` /
-`b469079` (§5.2 "Naming outcome" prose rewrites), `4cc49df` (print-CSS),
-`cf24f57` (build-script + CSS). These also added the §5.4 Parfit/Sen pairing
-and the Sen 1985/1999 bibliography entries — prose, no figures. Verified: the
-`71fb076..cf24f57` diff contains zero numeric-bearing changed lines.
+*(The 7 commits between the first and second files — `71fb076..cf24f57`,
+2026-05-14 → 05-15 — are the revisions the 05-15 cover email describes: §5.2
+prose rewrites, the §5.4 Parfit/Sen pairing, author-date citation conversion,
+§5.1.1 sentence rewrite, print-CSS. Verified zero numeric-bearing changed lines;
+they are the diff between the first and second files, not post-second-send
+changes.)*
 
 **The 6 commits `cf24f57..origin/main`:**
 
@@ -76,7 +77,7 @@ and the Sen 1985/1999 bibliography entries — prose, no figures. Verified: the
 |---|---|---|---|
 | `a1e54d9` | 2026-05-17 | prose | Added a "Scope: complementarity with Public Choice / rent-seeking analysis" paragraph (§1.x). No numbers. |
 | `dd825f2` | 2026-05-21 | structural | Added an HTML anchor `id="sec-11-11-ipg-reconciliation"` to the §11.11 header. No content change. (The §11.11 reconciliation section itself was already in Darity's copy.) |
-| **`914addc`** | **2026-05-23** | **NUMERIC** | **The Coal-CO₂ methodology cascade — the only numeric change in all 13 commits, and the source of every introduced error. See below.** |
+| **`914addc`** | **2026-05-23** | **NUMERIC** | **The Coal-CO₂ methodology cascade — the only numeric change post-send, and the source of every introduced error. See below.** |
 | `8aa7dfb` | 2026-05-25 | citation | Reworded/removed a "(Darity …)" parenthetical. No numbers. |
 | `06eb1ea` | 2026-05-25 | citation | Reworded/removed a "(Darity …)" parenthetical. No numbers. |
 | `389b773` | 2026-06-04 | citation | Deleted all interview citations: removed the Darity-Mullen "did not view … as underestimating" sentence; removed the bibliography entry "Darity … Interview by Christopher Winn. May 13, 2026. Recording on file with author." |
@@ -155,9 +156,9 @@ All of the following are byte-identical in Darity's DOCX and `origin/main`:
 
 The remaining ledger items (B3, B5–B7, C1–C8, D1–D2, D5, E1–E12, E14) are all
 structural / notational / citation issues in long-standing apparatus untouched
-by any of the 13 post-send commits; spot-checks (B4, D3, D4, E13, E15, A12)
-confirm the pattern, and the complete `71fb076..origin/main` TA diff shows no
-numeric edits to those sections. **They are present in Darity's copy.**
+by any of the 6 post-send commits; spot-checks (B4, D3, D4, E13, E15, A12)
+confirm the pattern, and the complete `cf24f57..origin/main` TA diff shows no
+numeric edits to those sections. **They are present in Darity's second file.**
 
 ---
 
@@ -176,19 +177,17 @@ numeric edits to those sections. **They are present in Darity's copy.**
    wrong in both versions, but the wrong number differs ($544 → $510).
    Corollary totals $552–566 are likewise unique to Darity.
 
-2. **Interview citations present in Darity's copy, removed/reworded since:** at
-   `71fb076` these read **"(Darity, personal communication, May 2026)"** (×2 —
-   coercion-vector boundary §1.10, coercion-vector list item §5.5) plus the
-   Darity-Mullen sentence **"Darity (personal communication, May 2026)
-   explicitly approved the framework's use of 'reparations' terminology for
-   non-Black-American extraction cases provided the calculations do not
-   underestimate what is due."** The 2026-05-15 commits reworded these to
-   "(Darity 2026)" author-date form and added a formal interview bibliography
-   entry; `389b773` (2026-06-04) then deleted all of it. So Darity's copy
-   carries the *strongest* version of the interview attribution; current main
-   carries none. These are *content* differences, not errors. *(Also Darity-
-   only: §5.4 was Parfit-only — the Sen 1985/1999 pairing was added after the
-   send.)*
+2. **Interview citations present in Darity's second file, deleted since:** the
+   with-citations file carries the author-date **"(Darity 2026)"** form (×3),
+   the §18 bibliography entry **"Darity, William A., Jr. Interview by
+   Christopher Winn. May 13, 2026. Recording on file with author,"** the §5.4
+   Parfit/Sen pairing, and the rewritten §5.1.1 Darity-Mullen sentence ("did not
+   view the framework's calculations … as underestimating"). `389b773`
+   (2026-06-04) **deleted all interview citations** from main. So Darity's
+   second file attributes the interview throughout; current main attributes none.
+   These are *content* differences, not errors. *(Contrast the superseded first
+   file, which used "(Darity, personal communication, May 2026)" and was
+   Parfit-only — the 05-15 second send is what upgraded these.)*
 
 **Unique to current (introduced since the send):** the carbon-cascade cluster
 in (b) above (A1's $510 / $518–532 / 2.61 basis / 1.57B mt / $1,566–2,610
@@ -223,10 +222,22 @@ Public Choice paragraph (`a1e54d9`).
    "the carbon term and the McDowell Method-1 chain were both re-based and
    corrected after we sent your copy; the figures you have are superseded."
 
-4. **Session F (CSD reverse model) addition stands unaffected** — Darity's copy
-   had no reverse model; that is an addition to offer, independent of this diff.
+4. **The new substantive offer to Darity is the backward-CSD / Method-3 work,
+   which neither file contained.** Per the M3 session (2026-06-08): M3 §3.5 is
+   reworked Path-A and applied at `fd39af7` (on sub-branch
+   `claude/ta-m3-pathb-260607-6e6849`, MERGE-HOLD); §11.6/§11.8 + convergence-
+   softening + M2 still pending. The backward-CSD/M3 method is the addition to
+   offer — independent of this diff, since the version Darity holds (either file)
+   has neither the reverse model nor the reworked M3.
+
+5. **"His copy" throughout = the second file** (with-citations, 2026-05-15). On
+   carbon and every other apparatus figure the two files are identical, so points
+   1–3 hold regardless; the second file differs from the first only in citation
+   form, the §18 interview entry, the §5.4 Sen pairing, and the §5.1.1 sentence
+   rewrite — none of which touch any audited error.
 
 ### Verification artifacts
-- Darity DOCX text: extracted via `pandoc -f docx -t plain` (provenance verified to `71fb076` three ways: file `git log --follow`; citation form; §5.4 Parfit-only).
-- Complete change-set: `git diff 71fb076 origin/main -- core/technical-appendix/TechnicalAppendix_v2.0.0.html` (13 commits; only `914addc` numeric; `git diff 71fb076 cf24f57` confirms the 7 dropped commits carry zero numeric-bearing lines).
+- Second-file (with-citations) DOCX text: extracted via `pandoc -f docx -t plain` (provenance verified to `e6ddf92`/`cf24f57`-state three ways: file `git log --follow`; "(Darity 2026)" author-date citation form ×3; §18 interview bib + §5.4 Sen pairing present).
+- Complete change-set (second file → current): `git diff cf24f57 origin/main -- core/technical-appendix/TechnicalAppendix_v2.0.0.html` (6 commits; only `914addc` numeric).
+- First→second file delta: `git diff 71fb076 cf24f57` (prose/citation/CSS only; zero numeric-bearing lines).
 - Per-commit TA stats: `a1e54d9` +6 (prose), `dd825f2` ±1 (anchor), `914addc` ±42 (carbon), `8aa7dfb`/`06eb1ea` ±2 each (citations), `389b773` −13/+? (citation deletion).
