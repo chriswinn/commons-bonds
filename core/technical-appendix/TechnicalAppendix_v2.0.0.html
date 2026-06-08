@@ -4288,7 +4288,7 @@ Numerical anchors below are the framework's empirical operationalization.
     </p>
     <ul>
      <li>
-      &sigma; &asymp; 50&ndash;200 (oil reserves recoverable via secondary extraction; functionally non-renewable on civilizational scale but partially substitutable)
+      &sigmaf; &asymp; 50&ndash;200 (oil-reserves R/P register; recoverable via secondary extraction; partially substitutable)
      </li>
      <li>
       &alpha; &asymp; 0.50&ndash;0.75 (institutional architecture moves Norway out of &alpha;-dominance regime &mdash; restoration optionality preserved through GPFG)
@@ -4302,12 +4302,12 @@ Numerical anchors below are the framework's empirical operationalization.
     </ul>
     <p>
      <strong>
-      Calculation (mid-range parameter choice &mdash; &sigma;=100, &alpha;=0.65, V_option=$80, &beta;=1):
+      Calculation (mid-range parameter choice &mdash; &sigmaf;=100, &alpha;=0.65, V_option=$80):
      </strong>
     </p>
     <ul>
      <li>
-      scarcity_multiplier(&sigma;=100) = 1 + log(101) &times; Hotelling_anchor (using 5%/yr Hotelling-rate proxy) &asymp; 1 + 4.6 &times; 0.05 &asymp; 1.23
+      scarcity_multiplier(&sigmaf;=100) = 1 + ln(101) &times; Hotelling_anchor (using 5%/yr Hotelling-rate proxy) &asymp; 1 + 4.6 &times; 0.05 &asymp; 1.23
      </li>
      <li>
       irreversibility_premium(&alpha;=0.65, &beta;=1) = 1/(0.35) &asymp; 2.86
@@ -4325,13 +4325,13 @@ Numerical anchors below are the framework's empirical operationalization.
     </p>
     <ul>
      <li>
-      Low parameters (&sigma;=50, &alpha;=0.50, V_option=$30): $30 &times; 1.20 &times; 2.0 &asymp;
+      Low parameters (&sigmaf;=50, &alpha;=0.50, V_option=$30): $30 &times; 1.20 &times; 2.0 &asymp;
       <strong>
        $72/BOE
       </strong>
      </li>
      <li>
-      High parameters (&sigma;=200, &alpha;=0.75, V_option=$200): $200 &times; 1.27 &times; 4.0 &asymp;
+      High parameters (&sigmaf;=200, &alpha;=0.75, V_option=$200): $200 &times; 1.27 &times; 4.0 &asymp;
       <strong>
        $1,016/BOE
       </strong>
@@ -4784,7 +4784,7 @@ Companion to &sect;11.5 Norway.
       </strong>
      </li>
      <li>
-      The band is driven by coal grade and the irreversibility band &alpha;; both inputs are externally documented. No risk-posture exponent enters (the former &beta; is retired; genuinely incommensurable cases &alpha;&rarr;1 go to the incommensurability boundary + ARR, &sect;12).
+      The band is driven by coal grade and the irreversibility band &alpha;; both inputs are externally documented. The irreversibility weight 1/(1&minus;&alpha;) carries no free exponent; genuinely incommensurable cases (&alpha;&rarr;1) are handled by the incommensurability boundary and the Asymmetric Regret Rule (&sect;12), not by an unbounded multiplier.
      </li>
     </ul>
     <p>
@@ -4893,7 +4893,7 @@ Companion to &sect;11.5 Norway.
       <strong>
        50&ndash;555&times;
       </strong>
-      ; the wider earlier figures reflected 1960-nominal era-mixing.
+      ; comparing a present-dollar RCV against a 1960-nominal price (an inconsistent basis) is what would inflate the ratio to that span.
      </li>
     </ul>
     <p>
@@ -5337,10 +5337,10 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
      , and the framework's primary cases (extraction of resources with high existential substitutability gaps) cluster in the high-irreversibility regime. The framework's "irreversibility is the heart of the matter" prose claim is empirically supported by this sensitivity pattern.
     </p>
     <h5>
-     Why no risk-posture exponent (the retired &beta;)
+     Why no risk-posture exponent
     </h5>
     <p>
-The Path-A specification fixes the irreversibility weight at 1/(1&minus;&alpha;) with no free exponent: the empirical irreversibility record (&sect;11.6; IPCC AR6 SPM B.5; Bernhardt &amp; Palmer 2011), not an analyst's risk-posture dial, carries the magnitude. Genuinely incommensurable cases (&alpha;&rarr;1) are handed to the incommensurability boundary + Asymmetric Regret Rule (&sect;12), not to an unbounded exponent.
+The irreversibility weight is 1/(1&minus;&alpha;), with no free exponent: the empirical irreversibility record (&sect;11.6; IPCC AR6 SPM B.5; Bernhardt &amp; Palmer 2011), not an analyst's risk-posture dial, carries the magnitude. Genuinely incommensurable cases (&alpha;&rarr;1) are handed to the incommensurability boundary + Asymmetric Regret Rule (&sect;12), not to an unbounded exponent.
     </p>
     <p>
      <strong>
@@ -6200,7 +6200,7 @@ boundary-awareness register (per &sect;12).
     </h3>
     <p>
      The framework's earlier IPG (Intergenerational Pricing Gap) reports in Ch 6 + Ch 8 cited a 33&ndash;122&times; range for the McDowell coal IPG (the ratio of true RCV to
-market-priced cost) &mdash; the carbon-externality lens (Damage Function), on a 1960-nominal price basis. Under the Path-A market-anchored Method 3 (&sect;11.6), the M3 lens is the foreclosure-premium multiple itself,
+market-priced cost) &mdash; the carbon-externality lens (Damage Function), on a 1960-nominal price basis. With Method 3's market-anchored option value (&sect;11.6), the M3 lens is the foreclosure-premium multiple itself,
      <strong>
       ~8.5&ndash;26&times; (center ~15&times;)
      </strong>
@@ -6212,7 +6212,7 @@ Reconciliation finding:
       <strong>
        The lenses are not in tension &mdash; they measure different things.
       </strong>
-      The 33&ndash;122&times; canonical figure is the carbon-externality lens (damage cost &divide; 1960-nominal price). The Method-3 lens (~8.5&ndash;26&times;) is the foreclosure-premium <em>multiple</em> over market price &mdash; price-independent, hence more conservative. The earlier "50&ndash;555&times;" figure conflated a 2025 RCV with a 1960-nominal price (era-mixing) and is retired; on a consistent price basis the lenses converge rather than spanning two orders of magnitude.
+      The 33&ndash;122&times; canonical figure is the carbon-externality lens (damage cost &divide; 1960-nominal price). The Method-3 lens (~8.5&ndash;26&times;) is the foreclosure-premium <em>multiple</em> over market price &mdash; price-independent, hence more conservative. Comparing a present-dollar RCV against a 1960-nominal price (an inconsistent basis) would inflate the ratio toward two orders of magnitude; on a consistent price basis the lenses converge.
      </li>
      <li>
       <strong>
@@ -6715,7 +6715,7 @@ is not framework-imprecision but time-horizon-attribution discipline.
      <strong>
       Why triangulation instead.
      </strong>
-     Each method has a strength the other two lack and a blind spot the other two illuminate. Replacement Cost prices substitution but cannot price irreplaceability &mdash; it anchors only a floor (per &sect;3 Method 1). Revealed Preference prices what one polity actually internalized but inherits that polity's institutional architecture and tradition's commitments &mdash; Norway-anchored, the methodology fails for cases without Norway-equivalent revealed-preference data (epistemic-humility constraint). Scarcity-Adjusted Option Value prices irreversibility through the &sigma; + &alpha; + V
+     Each method has a strength the other two lack and a blind spot the other two illuminate. Replacement Cost prices substitution but cannot price irreplaceability &mdash; it anchors only a floor (per &sect;3 Method 1). Revealed Preference prices what one polity actually internalized but inherits that polity's institutional architecture and tradition's commitments &mdash; Norway-anchored, the methodology fails for cases without Norway-equivalent revealed-preference data (epistemic-humility constraint). Scarcity-Adjusted Option Value prices irreversibility through the &sigmaf; + &alpha; + V
      <sub>
       option
      </sub>
