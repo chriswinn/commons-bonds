@@ -1,0 +1,121 @@
+# TA Number-Provenance — DECISION MEMO
+
+**Created:** 2026-06-07 (work 2026-06-07 → 2026-06-08)
+**Companion to:** `tools/audits/ta-number-provenance-ledger_2026-06-07.md`
+**Branch:** `claude/ta-provenance-260607-ad2dfc` (HELD; not merged).
+**Purpose:** the class-4 / structural items the Foundation session **deliberately did NOT apply** because they need author judgment or belong to another session. Each item: the issue, options, recommendation, owner. Per the Interactive Ratification Protocol (options + recommendation + reasoning).
+
+---
+
+## Cross-session coordination (READ FIRST)
+
+The **M3 Path-B rework session** (Session D, branch `ta-m3-pathb`) is live and overlaps this memo:
+
+- It **reworked McDowell M3:** central $2,580 → **band ~$340–3,670 / central ~$1,160 (market-anchored).** This supersedes the prior `$2,500 mid` and the `V_option $50–500/ton` interim edit, and cascades into §11.6 / §3.6 M3, the implied CS (~$2,400/ton), and the McDowell IPG (~50×).
+- It **added bib entries** on its branch: **§16.5** (α-irreversibility: Henry 1974, Palmer 2010, Bernhardt & Palmer 2011, Lindberg 2011, Solomon 2009, **IPCC AR6 SPM B.5, Archer 2009**) and **§23.1** ς/R-P data sources (**EIA coal R/P; Energy Institute / BP Statistical Review; USGS Appalachian/McDowell + Mineral Commodity Summaries**).
+
+**Consequences for this memo:**
+1. **Two of my class-4 sourcing flags are already being closed by Session D** — route them there, do NOT double-source:
+   - Atmospheric CO₂ half-life ~100/1000 yr (§7.3, §17.6) → **Archer 2009 + IPCC AR6** (Session D §16.5).
+   - McDowell disturbed-acreage / cumulative coal production / coal-price (§11.6, §7.6) → **USGS McDowell + EIA** (Session D §23.1).
+2. **§23.1 merge coordination:** *both* this branch and `ta-m3-pathb` edited `research/literature/bibliography.md` §23.1. My edits = the **Falcon 9 update + NASA/KISS/Colvin space-economics entries**; Session D's = the **ς/R-P + USGS + EIA coal entries**. Different bullets, same list → should merge cleanly, but **merge sequentially and eyeball §23.1** (per the resume-doc divergent-edit caution).
+3. **All §11.6/§3.6/§9.5 Method-3 numbers + the McDowell IPG belong to Session D.** This memo's 3C V_option/$300-RCV items are noted but **Session D owns the resolution.**
+
+---
+
+## Item 1 — The IPG / three-model-convergence apparatus (§9.5, §11.11, §3.2, §16.4) — **BIGGEST**
+
+**Issue.** Every IPG multiple — the §9.5 twelve-cell table, the "canonical" 33–122×, the "triangulated" 50–555×, the §3.2 `IPG=33` illustration, the §16.4 33×–122× — is a CIT **model output**, currently presented with TA-internal backing ("canonical," "documented," "terms_index"). As **external facts** they are class-4. As **derived model outputs** they could be legitimate class-2 — *if* the derivation is shown and the "canonical/documented" framing (which reads as an external-authority claim) is dropped.
+
+**Options.**
+- **(A) Reframe as derived outputs (recommended).** Relabel "canonical/documented IPG" → "framework-computed IPG (per §11.x derivation)"; ensure each case's multiple traces visibly to its RCV÷price work; keep the numbers. Converts class-4-by-framing → class-2.
+- **(B) Source-validate against external implicit-pricing literature.** Stronger but heavy; only some cases have external IPG analogues.
+- **(C) Leave as-is.** Rejected — "canonical" reads as an external-authority claim the framework can't cash.
+
+**Recommendation: (A).** It's the honest frame (these *are* the framework's outputs, and that's fine) and it's the cheapest. **Risk:** the §9.5 Deepwater 15–17× and the §11.2 inputs don't reproduce cleanly (numerator < component sum; see Item 4) — fix those *before* relabeling so the shown derivation actually reproduces.
+**Owner:** correctness sweep (Session C) for the relabel; coordinate with Session E for Deepwater.
+
+---
+
+## Item 2 — Norway CS-reduction 84% → 16% (narrative inversion) — **HIGHEST-RISK**
+
+**Issue.** The committed edit (84%→16%) is **arithmetically correct** ($48/$300 = 16%; the old "84%" mistakenly reported the *remaining* fraction). But it **inverts the framework's Norway story**: "16% CS-reduction" is not "dramatically reduced CS." And it rests on the disputed **$300 RCV** anchor (§11.5 body says $161–422/BOE; the $300 is the contested table figure).
+
+**The deeper problem (already flagged in the resume doc).** Measuring Norway's architecture-benefit as `$48/$300` (realized rent-capture ÷ RCV) is arguably the **wrong model.** Per the M3 sensitivity doc, Norway's CS-reduction mechanism is **institutional architecture moving α from ~1 to ~0.5–0.75** (reducing *irreversibility*), plus a ~$2T restoration-optionality fund — not the $48/BOE rent number. Path B has no α dial, so this must be re-expressed.
+
+**Options.**
+- **(A) Defer to Session D Path-B rework (recommended).** Norway is explicitly the highest-risk Path-B open question; the GPFG-restoration-optionality / canonical-B₂ story must be re-expressed there with the reworked numbers.
+- **(B) Quick narrative patch now.** Reword so "16% reduction" doesn't read as undercutting Norway. Rejected as premature — Session D may change the number again.
+
+**Recommendation: (A). Do not touch the Norway CS-reduction framing in this session.** Leave the committed 84→16 edit as the interim arithmetic correction; Session D re-expresses.
+**Owner:** Session D.
+
+---
+
+## Item 3 — Load-bearing posited per-unit anchors (§11.5 / §11.6 / §11.7)
+
+**Issue.** Bare numbers that propagate into headline results (ledger Part 3C): Foreclosure +$50–200/BOE; the $50/$300-BOE pair behind "Norway 17% captured"; restoration $50–200K/acre; $200–500K/displaced-resident; the M2 back-outs ($5–8B / $5–10B / $3–5B). The input-provenance audit already found real anchors **far lower** for several (reclamation ~$12–15.5K/acre vs the posited $50–200K).
+
+**Options.**
+- **(A) Estimate-label + cite the real anchor (recommended for Eco/Cohesion/reclamation).** Relabel as explicit framework estimates; cite Appalachian Voices (reclamation), Isle de Jean Charles (relocation), Census (migration), OSMRE/GAO (bonds); state the functional-substitute-vs-reclamation assumption; route the non-substitutable remainder to M3. **No number change required** (input-provenance audit confirms the combined anchor is dominated ~50× by the Habitability term, so Eco/Cohesion sub-floor moves are immaterial to the headline).
+- **(B) Re-peg to the documented anchors.** Would drop the Ecosystem floor to ~$1–4/ton — defensible but changes the number; immaterial to the combined anchor.
+
+**Recommendation: (A) for Eco/Cohesion/reclamation/migration** — low-risk relabels with citations already in §23/§23.2. **The Foreclosure +$50–200/BOE, V_option, and $300-RCV items → Session D** (they move with the M3 rework). **Owner:** mostly this workstream's SOFT-batch (relabels), but stage *after* Session D lands so the M3-dependent ones don't thrash.
+
+---
+
+## Item 4 — Deepwater §11.2 internal inconsistencies (route to Session E)
+
+**Issue.** Two non-class-4 defects the enumeration caught: (a) §11.2 "Total documented $20–30B" is **less than the sum of its own components** ($18.7B + $4B + $8–12B = $30.7–34.7B); (b) the 15–17× IPG **doesn't reproduce** from the stated inputs ($20–30B ÷ $1.1B ≈ 18–27×) — it matches the *real* reconciliation (~$61.6B ÷ ~$3–4B) only because numerator and denominator are *both* wrong in offsetting directions. The resume doc's Deepwater decision (cost $61.6B; rev ~$3–4B; **keep IPG 15–17×**) is the fix anchor.
+
+**Recommendation:** route to **Session E** (Deepwater reconciliation closeout). Note the resume-doc "KNOWN FALSE POSITIVE: do NOT change the convergence-within-1.5× claim." **Owner:** Session E.
+
+---
+
+## Item 5 — §11.9 DAC intro internal inconsistency (FAST — recommend doing soon)
+
+**Issue.** §11.9 intro says $600–**1,200** / $**150**–500 / $100–**200** per ton CO₂; the **sourced** body (facility table, consolidated range, anchor blockquote, IEA/IPCC/NAS) says **$600–1,000 / $300–600 / $100–300.** The intro bounds ($1,200/$150/$500/$200) are unsupported and contradict the section's own cited literature.
+
+**Recommendation:** correct the intro to match the sourced body. **Pure internal-correctness, no external sourcing, no judgment call** — I left it only because it sits outside the "verified-safe §11.10/C1/C2" apply set authorized this session. Fast author ratify or Session C. **Owner:** Session C or a one-line author OK.
+
+---
+
+## Item 6 — §3D mechanical issues (fast)
+
+- **`log` ambiguity:** `scarcity_multiplier = 1 + log(1+σ)×0.05` **reproduces only under natural log**; base-10 gives ~1.12 not ~1.27/1.31. Recommend writing `ln` explicitly (or stating the base). Affects every M3 scarcity_multiplier. **Coordinate with Session D** (it owns the M3 functional forms).
+- **Hotelling 0.05 anchor:** the "5%/yr proxy" is unsourced. Either cite a Hotelling-rent empirical range or relabel as a posited calibration. **→ Session D.**
+- **M3 midpoints** ($280 Norway, $2,500→now ~$1,160 McDowell) are **not arithmetic means** of their ranges and carry no weighting rule. **→ Session D** (already reworking).
+
+---
+
+## Item 7 — Norway USD vintage (minor)
+
+**Issue.** The NOK anchor is solid (NOK 21,268B end-2025, NBIM). The USD "~$2.0T end-2025 with $2.2T peak" is FX-date-sensitive; current sources say the fund **exceeded $2.2T at end-2025**, so the TA arguably understates it.
+
+**Recommendation:** lead with the NOK figure (FX-invariant); give USD with an explicit FX-date stamp rather than a number-change. Low priority. **Owner:** this workstream SOFT-batch or Session D (Norway).
+
+---
+
+## Item 8 — C3 Solow 1956 → 1974 (coordinate with correctness sweep)
+
+**Verified facts (this session):** line 917 is the **only** "Solow 1956" use in the TA; the 1956 bib entry is at §18 L7981; "Solow 1974" is already in §18 (L7984) and used 5× elsewhere. Line 917's context ("intergenerational-equity lineage… long-horizon utility aggregation") fits **Solow 1974** (Intergenerational Equity & Exhaustible Resources), not the 1956 growth paper — the correctness sweep's misattribution diagnosis is sound.
+
+**Decision:** **if** the correctness sweep lands the 917 swap, the §18 Solow 1956 entry (L7981) becomes an orphan → **remove it** (nothing else cites it). **If** the swap does not land, keep it. **I did NOT edit either** — the swap belongs to Session C; the orphan removal is contingent on it. **Owner:** Session C (swap) → then this/any session removes the orphan in the same change.
+
+---
+
+## Summary of ownership
+
+| Item | Owner | Apply when |
+|---|---|---|
+| 1 IPG apparatus reframe | Session C (+E for Deepwater repro) | after Item 4 |
+| 2 Norway 84→16 narrative | **Session D** | Path-B rework |
+| 3 Eco/Cohesion estimate-labels | this workstream SOFT | after Session D |
+| 3 Foreclosure/V_option/$300-RCV | **Session D** | Path-B rework |
+| 4 Deepwater repro | **Session E** | reconciliation closeout |
+| 5 §11.9 DAC intro | Session C / author OK | anytime (fast) |
+| 6 log/Hotelling/midpoints | **Session D** | Path-B rework |
+| 7 Norway USD FX stamp | SOFT / Session D | low priority |
+| 8 Solow orphan | Session C → then remove | after the 917 swap |
+
+**Nothing in this memo is applied by the Foundation session.** The verified-safe fixes (§11.10, §18+§23 bib, B-collision) are in the ledger Part 1.
