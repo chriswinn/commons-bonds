@@ -1,5 +1,35 @@
 # Reverse-CSD model + Chesapeake oyster-reef calibration — Proposal Record (2026-06-08)
 
+> ## 🔁 M3 PATH-A RECONCILIATION (2026-06-08, ratified by the M3-rework session — OVERRIDES this draft)
+>
+> The M3 rework ratified **Path A, NOT Path B** (the saturated handoff that seeded this draft said Path B; that
+> was reversed). The following override the body below wherever they conflict:
+>
+> 1. **Backward-M3 KEEPS the multiplier architecture** (Path B's "single Dixit–Pindyck premium, drop the
+>    multipliers" is RETIRED). Canonical form:
+>    `CSD_M3 = V_option(extinguished optionality / foregone service flow) × scarcity_weight(ς) × irreversibility_weight(1/(1−α))`.
+>    → Fixes §0-flag-1 and edit A1's Method-3 bullet (both currently describe backward-M3 in Path-B "single premium,
+>    no multipliers" terms — WRONG).
+> 2. **M2 is (c)-uniform: the realized-B reader in BOTH directions** — forward Norway = realized B₂; backward reef =
+>    realized B₁ — preserving its "**revealed lower bound on RCV**" role. → Drops edit A3's "forward = independent
+>    estimator" half; M2 is NOT a third independent estimator in either direction. It reads the realized bond and
+>    thereby sets a revealed lower bound.
+> 3. **Convergence is a bound-range — a matter of DEGREE, not KIND.** Do **NOT** assert "forward converges to a
+>    point / backward yields a range" — that contradicts the symmetry theorems (Thm 10.1b, §17.5). → Edit A2's
+>    "Backward triangulation does not inherit forward convergence" paragraph is WRONG and must be replaced with the
+>    degree-not-kind framing. (NB: this is the exact symmetry-theorem tension my verification finding #3 flagged —
+>    the M3 session resolved it the same way, in favor of preserving the theorems.)
+> 4. **Notation/sourcing:** σ is renamed **ς** (final sigma); "irreversibility_premium" has **no β** (it = 1/(1−α));
+>    cite **IPCC AR6 SPM B.5** + **Bernhardt & Palmer 2011** for the α (irreversibility) grounding.
+> 5. **Reef:** still anchor the bond figure at the **M1 cure-cost floor** with M3 declined *as the figure* — but
+>    **fully specify the backward-M3 method** (the multiplier form above, applied to the foregone oyster-service
+>    flow / extinguished fishery optionality, with the ex-post/ex-ante fork) so it is **Darity-transferable**.
+>    → Upgrades §11.12's "Method 3 — declined" subsection from a bare decline to a fully-specified-then-declined.
+>
+> These are recorded as overrides; the inline body spots (§0-flag-1, A1, A2, A3, §11.12-M3, bib) have been edited
+> to match. The "review the M3 rework + the unpriceability approach + the M2 reframe once it lands" task is still
+> pending the author's cue. — end Path-A reconciliation.
+
 > ## ⚠️ VERIFICATION ADDENDUM (2026-06-08, independent re-investigation)
 >
 > The author flagged that the originating session + the CSD spec it produced were context-saturated and
@@ -89,10 +119,11 @@ apparatus), not a formula term.
 1. **M3 Path-B (Session D) is NOT yet applied on this branch.** The reef worked case (§11.12) is **M3-INDEPENDENT** —
    Ch3 *declines* Method 3 for the bond (the foregone fishery / option value is named as a gate-admittable ceiling
    variable the chapter chooses not to enter; the bond anchors at the cure-cost floor). So the reef calibration does
-   not depend on the corrected forward M3 numbers and is safe to build now. The §5.5 reverse-model *description* of
-   M3-backward uses Path-B-consistent language (a single option premium under resolved uncertainty; **no** separate
-   `scarcity_multiplier × irreversibility_premium` — those double-counted and Path B retired them) and commits to **no**
-   forward M3 number, so it stays consistent whenever Session D lands. **Author/lead: confirm this M3-independence read
+   not depend on the corrected forward M3 numbers and is safe to build now. **[PATH-A CORRECTED]** The §5.5
+   reverse-model *description* of M3-backward must use the **Path-A multiplier architecture** —
+   `CSD_M3 = V_option(extinguished optionality / foregone service flow) × scarcity_weight(ς) × irreversibility_weight(1/(1−α))`
+   — NOT the Path-B "single premium, no multipliers" wording originally written here. It commits to **no** forward M3
+   dollar number, so the reef floor stays M3-independent regardless. **Author/lead: confirm the M3-independence read
    before §11.12 applies.**
 2. **Coordinate with the Ch3 chapter-drafting session.** The reef numbers ($20–37M floor / ~$200M central / >$92M MD /
    ~$110M Bay-wide) are Ch3's. After ratification, reconcile against `manuscript/chapters/Chapter__3_TheWaterman.md`
@@ -129,11 +160,11 @@ REPLACE WITH (HTML-ready):
       Backward application (computed for the ecological restitution case; human-coercion deferred).
      </strong>
      The same apparatus applies in reverse to price <em>Cost Severance Damages</em> (CSD) &mdash; the already-realized
-     commons-loss of extraction that has already occurred. This volume computes the backward direction for one case it
-     has standing to compute: the Chesapeake oyster-reef restitution case of Chapter 3 (worked end-to-end in &sect;11.12)
-     &mdash; an <em>ecological</em>, not human-coercion, severance that is documented, bounded, and physically
-     restorable. The Three Ways of Counting run in reverse, but they answer subtly different questions than they do
-     forward, and the honest backward output is a <em>range</em>, not a single triangulated point:
+     commons-loss of extraction that has already occurred. This volume computes the backward direction for one case the
+     author is positioned to compute: the Chesapeake oyster-reef restitution case of Chapter 3 (worked end-to-end in
+     &sect;11.12) &mdash; an <em>ecological</em>, not human-coercion, severance that is documented, bounded, and
+     physically restorable. The Three Ways of Counting run in reverse and converge on a bound-range, as they do forward
+     (degree, not kind &mdash; see below):
     </p>
     <ul>
      <li>
@@ -151,10 +182,13 @@ REPLACE WITH (HTML-ready):
       not an independent CSD computation.
      </li>
      <li>
-      <em>Method 3 (option value, uncertainty resolved)</em> prices the option value extinguished at the time of past
-      extraction, evaluable from what is known now. Backward it forks &mdash; ex-post realized value (a strict-liability
-      reading) versus ex-ante correct-value-at-t&#8320; (a negligence reading); the framework <em>exposes</em> the choice
-      rather than settling it. Backward, Method 3 is <strong>one admittable ceiling variable, not the bond basis.</strong>
+      <em>Method 3 (scarcity-adjusted option value, uncertainty resolved)</em> prices the option value extinguished
+      at the time of past extraction, evaluable from what is known now, via the same multiplier form the forward
+      method uses (Path A): <code>CSD_M3 = V_option &times; scarcity_weight(&sigmaf;) &times; irreversibility_weight(1/(1&minus;&alpha;))</code>,
+      where V_option is the extinguished optionality / foregone service flow. Backward it forks &mdash; ex-post
+      realized value (a strict-liability reading) versus ex-ante correct-value-at-t&#8320; (a negligence reading); the
+      framework <em>exposes</em> the choice rather than settling it. Backward, Method 3 is <strong>one admittable
+      ceiling variable, not the bond basis.</strong>
      </li>
     </ul>
 ```
@@ -180,13 +214,16 @@ INSERT (HTML-ready):
     </p>
     <p>
      <strong>
-      Backward triangulation does not inherit forward convergence.
+      Convergence is a bound-range &mdash; a matter of degree, not kind.
      </strong>
-     Forward, the Three Ways converge three estimators toward a point &mdash; the framework&rsquo;s robustness claim
-     (&sect;11.5&ndash;&sect;11.6). Backward, once uncertainty is resolved the methods answer subtly different questions
-     (cure-cost; revealed comparator; extinguished option value under an ex-post/ex-ante fork), and the honest output is
-     the range above. The forward convergence epistemology is <em>not</em> imported unmodified; the symmetry that
-     transfers is the apparatus (gates, units, the sum), not the convergence.
+     The Three Ways converge on a bound-range in <em>both</em> directions; what differs between forward and backward is
+     the <em>tightness</em> of that range, not its character. This preserves the symmetry the apparatus already asserts
+     (Theorem 10.1b extends symmetrically to the CSD side; the &sect;17.5 bidirectional-preservation corollary operates
+     symmetrically on both terms): it would be wrong to claim the forward direction converges to a single point while
+     the backward direction yields a range &mdash; the honest statement is that each direction produces a range, and the
+     backward range is typically wider because realized restitution-value estimation carries more
+     methodological-choice spread (cf. the epistemic-asymmetry note below), not because the convergence logic is
+     different in kind.
     </p>
     <p>
      <strong>
@@ -212,13 +249,18 @@ INSERT (HTML-ready):
     </p>
 ```
 
-### A3 — M2-is-comparator clarity in §11.6 (audit E12)
+### A3 — M2-is-the-realized-B-reader, uniform across directions (PATH-A / M3-session (c)-uniform reframe)
 
-In §11.6 (forward McDowell), add a one-line cross-reference clause where Method 2 is introduced, stating the
-direction-dependence: *"(Forward, Method 2 is an independent revealed-restraint estimator; backward — see &sect;5.5,
-&sect;11.12 — the same method reads as a comparator + the realized-B&#8321; reading of CS = RCV &minus; B, not a third
-estimator.)"* Exact insertion point to be located at apply-time (the Method-2 heading within §11.6). **Low-risk relabel,
-no number change.**
+**[PATH-A CORRECTED — this supersedes the original "forward = independent estimator, backward = comparator" split.]**
+Per the M3-session ratified (c)-uniform reframe, Method 2 plays the **same** role in both directions: it reads the
+**realized Bond** and thereby sets a **revealed lower bound on RCV** — forward, Norway's GPFG is the realized B₂;
+backward, the reef's public restoration spend is the realized B₁. It is **not** a third independent estimator in
+either direction. Proposed one-line cross-reference clause where Method 2 is introduced in §11.6:
+*"(Method 2 is the realized-Bond reader in both directions — forward it reads B₂ (Norway's GPFG), backward it reads
+B₁ (see &sect;5.5, &sect;11.12); in each case it reveals a lower bound on the true value rather than acting as a third
+independent estimator.)"* Exact insertion point at apply-time (the Method-2 heading within §11.6). **Low-risk relabel,
+no number change.** This must also propagate into edit A1's Method-2 bullet (already written as realized-B reader —
+consistent) and anywhere the draft called forward-M2 an "independent estimator."
 
 ---
 
@@ -320,14 +362,27 @@ This is the first backward worked case, parallel to the forward §11.1–§11.6 
      B&#8321; (and that it is mis-assigned to the public).
     </p>
     <h4>
-     Method 3 &mdash; declined for the bond; available as ceiling variable
+     Method 3 &mdash; fully specified, then declined as the bond figure (Darity-transferable)
     </h4>
     <p>
      The foregone fishery &mdash; the option value of all the oysters the foreclosed reef would have grown &mdash; is a
-     gate-admittable ceiling variable. Chapter 3 explicitly <em>declines</em> to price it (it "invites an argument I do
-     not need to have"). In CSD terms this is the <em>Open</em> state of &sect;5.5: an admitted slot deliberately left
-     empty, which means the computed CSD is a lower bound &mdash; not that the value is zero or unpriceable. The bond is
-     anchored at the cure-cost floor.
+     gate-admittable ceiling variable. <strong>Backward-M3 is fully specified here</strong> (Path A) so a third party
+     can compute it even though this volume does not enter it as the bond figure:
+     <code>CSD_M3 = V_option &times; scarcity_weight(&sigmaf;) &times; irreversibility_weight(1/(1&minus;&alpha;))</code>,
+     where V_option is the extinguished optionality / foregone oyster-service flow, &sigmaf; the scarcity weight, and
+     &alpha; the irreversibility parameter (1/(1&minus;&alpha;) the irreversibility weight; &alpha;-grounding per IPCC
+     AR6 SPM B.5 + Bernhardt &amp; Palmer 2011). It forks ex-post (realized foregone harvest) vs. ex-ante
+     (correct-value-at-extraction-time); the framework exposes the fork rather than settling it. The chapter
+     <em>declines to enter</em> this value as the bond figure &mdash; in CSD terms the <em>Open</em> state of
+     &sect;5.5: an admitted slot deliberately left empty, so the computed CSD is a lower bound, not a claim that the
+     value is zero or unpriceable. The bond is anchored at the M1 cure-cost floor. (Specifying-then-declining is what
+     makes the method portable to a user &mdash; e.g. Darity &mdash; who <em>does</em> have reason to enter the slot.)
+    </p>
+    <p>
+     <em>Drafting note (verification finding #2):</em> the original draft attributed the phrase "invites an argument I
+     do not need to have" to Ch3. That phrase is <strong>not in the shipped Ch3</strong>, and Ch3 currently prices no
+     reef figure at all. Do not put an invented quote in the TA; describe the decline as the chapter's posture, or
+     wait for Ch3 to actually carry a priced restitution section and cite it then.
     </p>
     <h4>
      Formal note &mdash; renewable resource with extracted renewal-structure
@@ -522,6 +577,12 @@ ch3-restitution-bond-numbers research pass; cite the external authority.
 - **Great Wicomico River Oyster Restoration Tributary Plan, §5 Cost Estimate** (Chesapeake Bay Program / partners, 2020). *Backs:* forward-engineering construction unit-cost ~$13,500/ac (light shell/stone on shell bottom, natural recruitment); ~$80,000/ac non-shell bottom; unit-price assumptions ($4/bu shell etc.) (TA §11.12 headline floor). https://d18lev1ok5leia.cloudfront.net/chesapeakeprogress/OysterRestorationBlueprintGreatWicomicoDec20.pdf Confidence: HIGH (primary plan doc).
 - **Maryland DNR / Office of the Governor. "Governor Wes Moore Announces Completion of Maryland's Five Tributary-Scale Oyster Restoration Sanctuaries,"** Aug 26, 2025. *Backs:* realized public B₁ >$92M (state + federal) across ~1,300 ac / 5 sanctuaries; Manokin $21.6M (TA §11.12 realized restitution). https://news.maryland.gov/dnr/2025/08/26/governor-wes-moore-announces-completion-of-marylands-five-tributary-scale-oyster-restoration-sanctuaries/ Confidence: HIGH (agency).
 - **Bi-state program-level total ~$108M over ten years** (NOAA, USACE, MD DNR, VMRC). *Backs:* "~$110M bay-wide public restitution" rounded figure (TA §11.12). Program-level as reported; corroborated by NOAA itemized ~$115M above. Confidence: MEDIUM (program-level reporting; cite the itemized NOAA table as primary, this as rounding corroborator).
+
+**Backward-M3 α-grounding (PATH-A; shared with the M3-rework session's bib additions — do not duplicate):** the
+irreversibility parameter α in `CSD_M3 = V_option × ς × 1/(1−α)` is grounded by **IPCC AR6 SPM B.5** (committed/
+irreversible Earth-system change) + **Bernhardt & Palmer 2011** (stream-ecosystem irreversibility). Reuse the entries
+the M3 session adds rather than creating parallel ones; this proposal only needs the cross-reference for §11.12's
+fully-specified backward-M3 method.
 ```
 
 (Optional, only if the dockside/value-dispersal narrative numbers are included per the §11.12 author-call: add MD DNR
