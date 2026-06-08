@@ -249,10 +249,15 @@ The reverse §5.5 should commit to **no** forward M3 number.
    log→ln, β dropped (1A), reframed implication + "Reading the formula" prose, Solow 1974. σ→ς sweep
    verified scoped to §3.5 (§11.x σ untouched). **Follow-ups:** Stage-4 render check for ς (`&sigmaf;`
    tofu risk); §16.2 α→ζ rename must reach the merged tree.
-5. **Next clusters:** (a) §11.6/§11.8 worked McDowell → band ($350–3,640) + central ~$1,170; §11.8
-   α-dominance section; cascade σ→ς + `irreversibility_premium` form. (b) convergence-overclaim
-   softening (L3050/4877/4907/3064). (c) M2 (c) §11.6 line + §3.2/§8 ARR cross-ref (L3038) reconcile.
-   Then hand the reframed core to the Ch6/Ch8 drafting sessions.
+5. **APPLIED 2026-06-08:**
+   - §11.6 McDowell M3 (`47ab21c`): band **$340–3,670/ton**, geometric center **~$1,115/ton** (convexity-aware), IPG **8.5–26× (center ~15×)**; M2 → realized-B comparator; convergence reframe (M1∩M3); §3.6 summary L1120 cascaded.
+   - §11.8 (`5ebab7b`): reframe + sweep + 3 folds (asteroid He-3/REE; ς=accessible-scarcity; directionality air+REE); β retired.
+   - §11.11 (`ec2d884`): three-lens reframe (M3 premium-multiple 8.5–26×; carbon high-end; old 50–555× = era-mixing). **§9.5 67–134× left UNCHANGED** — it's the cross-MODEL (integral) check, independent of the M3-METHOD reframe.
+   - ARR cross-refs §3.2 + §15.1.7 + TOC (`f63caca`): α-dominance → irreversibility-weighting; β superscript dropped; dominance relocated to Thm 10.4/10.5.
+   - Cost Severance Decomposition name + §3.5 ς-tweak (`0e7f3e3`).
+6. **REMAINING (flagged, not yet done):**
+   - **§11.5 Norway worked example** (4294/4317/4423): still σ/β/old-form/α-dominance-regime. Needs a dedicated Norway-worked-example pass (like §11.6): σ→ς, log→ln, drop β, V_option→market crude, irreversibility_premium→1/(1−α); **preserve the α 0.50–0.75 institutional-architecture story** (Path A keeps the α dial — Norway needs no surgery, just the mechanical reframe + V_option relabel + recompute the ~$281/BOE worked number). Left internally intact rather than half-swept.
+   - Hand the reframed core to the **Ch6/Ch8 drafting sessions** (paste-blocks already drafted).
 
 ## PART 9 — Reef / Method-3-backward demonstration (recommendation for the reverse session)
 **Question (author, 2026-06-08): why decline M3 for the reef; does *not* declining introduce an issue;
