@@ -1,4 +1,3 @@
-DARITY PACKET SOURCE COMMIT (2026-05-14).
-TA HTML in this tree was rendered into Technical_Appendix_Commons_Bonds_2026-05-14.docx/.pdf delivered to William Darity Jr.
-Verified 3 ways (file git-log; citation form 'personal communication, May 2026'; §5.4 Parfit-only). Carbon $544/$552-566 @ 2.32 basis here; superseded post-send by 914addc (2.61 basis). Darity never saw the $510 the audit flags.
-See research/outreach/subjects/darity/PROVENANCE_TA-source-commit.md + tools/audits/ta-darity-version-diff_2026-06-07.md
+DARITY PACKET SOURCE COMMIT — FIRST file (sent 2026-05-14), SUPERSEDED by the 2026-05-15 with-citations send (see commit e6ddf92).
+TA HTML here was rendered into Technical_Appendix_Commons_Bonds_2026-05-14.docx/.pdf. Citation form 'personal communication, May 2026'; §5.4 Parfit-only. Carbon $544 @ 2.32 basis.
+Track the SECOND file (e6ddf92) for the Darity-diff. See research/outreach/subjects/darity/PROVENANCE_TA-source-commit.md
