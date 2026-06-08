@@ -74,17 +74,17 @@
 | IPG(R,t₀) | Intergenerational Pricing Gap = RCV/P | dimensionless (×) | D §3.2 (759) | — | — | — |
 | S_threshold, existential substitutability gap | criticality threshold; S_max(ind)−S_max(exist) | dimensionless | D §1.9 (616); §13 (6380) | — | — | 🟢 (gap deliberately left unnamed, 6380) |
 
-### Method-3 cluster (§3.5 / §11.5–11.8) — **coordinate with M3 Path-A/B decision**
+### Method-3 cluster (§3.5 / §11.5–11.8) — **✅ PATH A applied 2026-06-08 (σ→ς; β dropped; log→ln)**
 
 | Glyph | Meaning | Units | Provenance | Std-notation | Collision |
 |---|---|---|---|---|---|
-| RCV_M3 | Method-3 estimate = V_option × scarcity_multiplier(σ) × irreversibility_premium(α) | $·res⁻¹ | Dixit–Pindyck 1994 | — | — |
+| RCV_M3 | Method-3 estimate = V_option × scarcity_multiplier(ς) × irreversibility_premium(α) | $·res⁻¹ | quasi-option value (Arrow–Fisher 1974; Henry 1974) — NOT DP investment-timing, per §3.5 line 901 | — | — |
 | V_option | real-options option value | $ | Dixit–Pindyck 1994 **VERIFY** | — | 🟠 vs V(x,t) |
-| σ | scarcity parameter = stock/flow ratio | "dimensionless" (but defined as a ratio → time-dimensioned; **units conflict**) | — | ⚠⚠ **In Dixit–Pindyck/Black–Scholes σ = VOLATILITY.** Reusing σ for a scarcity ratio inside an option-value formula is the single most reader-confusing choice. **VERIFY** | (units issue, Part 1) |
-| α | irreversibility probability ∈[0,1] | dimensionless | — (aligned to IPCC tipping-point lit) | — | 🔴 vs §16.2 α |
-| β | risk-posture exponent in 1/(1−α)^β | dimensionless | — | ⚠ finance β = CAPM systematic risk | 🔴 vs §16.2 β |
-| scarcity_multiplier(σ) | 1+log(1+σ)×Hotelling_anchor | dimensionless | Hotelling 1931; Atkinson 1970 | — | log undefined (Part 1) |
-| irreversibility_premium(α) | 1/(1−α)^β | dimensionless | Dixit–Pindyck 1994 | — | — |
+| **ς** (final sigma) | M3 scarcity parameter (accessible-recoverable stock vs long-horizon demand; reserves-to-production-grounded) | dimensionless | — | **σ→ς applied 2026-06-08 (Path A)** to escape the σ=volatility read; ς is sigma-adjacent (scarcity mnemonic) | ✅ resolved. **Residual old-σ stragglers pending M3 cleanup:** TA 4295, 4309, 4314, 4332, 4338, 6732 |
+| α | irreversibility probability ∈[0,1] | dimensionless | — (aligned to IPCC AR6 SPM B.5; Bernhardt & Palmer 2011) | — | 🟠 vs §16.2 α — resolved by I-3 (§16.2 α→ζ) once branches merge |
+| ~~β~~ | **DROPPED from M3 (Path A, 2026-06-08):** irreversibility_premium = 1/(1−α), no free exponent (§3.5 line 901). M3-side β collision gone. | — | — | — | ✅ resolved |
+| scarcity_multiplier(ς) | 1+ln(1+ς)×Hotelling_anchor | dimensionless | Hotelling 1931; Atkinson 1970 | log→ln applied §3.5 | ✅ (residual `log(` at TA 4314 pending) |
+| irreversibility_premium(α) | 1/(1−α) (no free exponent — Path A) | dimensionless | quasi-option value (Arrow–Fisher 1974; Henry 1974) | — | — |
 | Hotelling_anchor | ~5%/yr Hotelling-rate proxy coefficient | ~rate | Hotelling 1931 | — | — |
 
 ### §10 proof apparatus
@@ -144,14 +144,14 @@ Verified by a standard-notation agent against Black–Scholes (Columbia/Haugh), 
 
 | Symbol | Standard meaning (source) | Framework use | Deviation | Risk | Decision |
 |---|---|---|---|---|---|
-| **σ** | **Volatility of the underlying** — universal in Black–Scholes & Dixit–Pindyck (HIGH conf.) | scarcity ratio *inside* the cited option-value product | **direct conflict** | **HIGH — dismissal-grade** | **RENAME** (Path-A) → ς / κ / descriptive. *M3-coupled: dissolves under Path B if proper DP σ=volatility is adopted.* |
+| **σ→ς** | **Volatility of the underlying** — universal in Black–Scholes & Dixit–Pindyck (HIGH conf.) | scarcity ratio | (was) direct conflict | (was) dismissal-grade | ✅ **RESOLVED 2026-06-08 — Path A: σ→ς applied** (final sigma; reserves-to-production-grounded). Residual σ stragglers pending M3 cleanup (TA 4295/4309/4314/4332/4338/6732). |
 | **δ** | **Convenience yield / payout rate** in Dixit–Pindyck (HIGH conf.) | §16.1 discount-rate decay constant (undefined on first use) | direct conflict (latent) | MED → HIGH if Path B adds DP δ | **RENAME now → κ** + define on first use. *M3-independent (§16.1).* |
-| **β** | CAPM systematic risk + D–P fundamental-quadratic root (HIGH conf.) | risk-posture exponent in 1/(1−α)^β | partial | MED | note or rename → ψ. *M3-coupled.* |
+| **β** | CAPM systematic risk + D–P fundamental-quadratic root (HIGH conf.) | (was) risk-posture exponent | — | — | ✅ **RESOLVED — DROPPED from M3 (Path A)**; no free exponent. |
 | **α** | no dominant conflicting convention; ∈[0,1] reads naturally (MED–HIGH) | irreversibility probability (M3) | none (external) | LOW ext. / MED internal | **keep** M3 α; rename the §16.2 innovation-α instead. |
 | **E** | **Expectation operator E[·]** (HIGH conf.) | externality fn E(R,t) + §16.3 extraction *region* | partial→direct | MED–HIGH | **RENAME region → Ω**; consider fn → ℰ/X. *M3-independent.* |
 | **r** | interest/discount rate — Hotelling (HIGH) | discount/interest rate | none | LOW | keep (preserve r-vs-R case discipline). |
 | **Q, S** | Hotelling q=flow; Dasgupta–Heal S=stock (HIGH) | Q=stock; S=substitutability (deliberate redefinitions) | partial (intentional) | LOW | keep — disambiguation already present & adequate; reproduce in reader Notation section. |
-| **log** | `log(101)≈4.6` ⇒ natural log (HIGH — arithmetic) | unspecified-base log | ambiguity | LOW–MED | **write ln**, or define "log ≡ ln" once. |
+| **log→ln** | `log(101)≈4.6` ⇒ natural log (HIGH — arithmetic) | unspecified-base log | ambiguity | LOW–MED | ✅ **ln applied in §3.5 (Path A)**; residual `log(` at TA 4314 pending M3 cleanup. |
 
 **Verified bottom line:** σ is the one dismissal-grade problem (rename-blocking, but M3-coupled — Path B may vindicate it). δ is rename-now (D–P payout glyph; pre-empts the Path-B second-δ). β and E are real second-tier (rename-or-strong-note). log→ln is trivial but checkable arithmetic a referee will run. α/r/Q/S are defensible with their existing notes.
 
@@ -168,18 +168,20 @@ Free Greek letters (unused anywhere in the TA, per the completeness sweep): γ �
 | I-1 | §16.1 δ (decay) vs §10.3 ε–δ; undefined; pre-empts Path-B DP-δ | rename δ → **κ**; define "κ = decay constant" on first use | 7341, 7344 |
 | I-2 | §16.3 E (extraction region) vs E(R,t) externality + E[·] | rename region E → **Ω** (and E∖K → Ω∖K) + note | 7362, 7365, 7368 |
 | I-3 | §16.2 innovation α,β vs Method-3 α,β | rename §16.2 α→**ζ**, β→**ω** (keep Method-3 α,β) + note | 7350, 7353, 7356 |
-| ~~I-4~~ | log base unspecified | **RECLASSIFIED → Batch II (M3-coupled):** every log() usage is inside the Method-3 scarcity_multiplier (896, 904, 4311, 4761, 5245); dissolves under Path B, belongs with Path A. NOT applied. | — |
+| ~~I-4~~ | log base unspecified | ✅ **DONE via Path A (M3 session):** ln applied in §3.5; residual `log(` at TA 4314 pending M3 cleanup. | 896/904/4761/5245 ✓; 4314 pending |
 | ~~I-5~~ | bare B vs "billion" suffix | **DEFERRED:** ~50 occurrences, all sourced numbers owned by the provenance session (§6/§11/§15); coordinate with that session rather than unilaterally edit its lines. NOT applied. | §6/§11/§15 |
 | I-6 | §10 A1–A4 (Assumptions) vs A(t) abundance; P1–P4 (Premises) vs P price | add a one-line §10 local-notation note distinguishing labels from variables (no rename — labels entrenched) | §10.3 head |
 | I-7 | registry completeness | add η_S (3455) ✓done; note integration dummies s (§10.3) / u (§16.1) | registry only |
 
-### Batch II — M3-COUPLED (HOLD for the Path-A/B direction decision)
+### Batch II — M3-COUPLED — ✅ RESOLVED by Path A (2026-06-08, M3 session)
 
-| # | Symbol | If Path A (keep σ/α/β architecture) | If Path B (DP premium) |
-|---|---|---|---|
-| II-1 | **σ** (dismissal-grade) | RENAME σ (scarcity) → **ς** or descriptive; reserve σ for nothing | likely DISSOLVES — adopt proper DP σ=volatility; our scarcity term goes away |
-| II-2 | **β** (M3 risk-posture exponent) | rename → **ψ** or strong note | replaced by DP exponent structure |
-| II-3 | **α** (M3 irreversibility) | keep (defensible) | replaced by DP δ in Path B |
+| # | Symbol | Resolution (Path A applied) |
+|---|---|---|
+| II-1 | **σ → ς** | ✅ applied in §3.5 (final sigma; reserves-to-production-grounded). Residual old-σ stragglers pending M3 cleanup: TA 4295, 4309, 4314, 4332, 4338, 6732. |
+| II-2 | **β** | ✅ **DROPPED from M3** (not renamed to ψ) — irreversibility_premium = 1/(1−α), no free exponent (§3.5 line 901). M3-side β collision gone. |
+| II-3 | **α** | ✅ kept; α-dominance narrative reframed to empirically-grounded + theorem-backed (§3.5 line 901) — substantially addresses correctness item #6 (verify the ~line 922 header still / no longer says "Sensitivity finding"). |
+
+**Cross-branch merge dependency:** Batch I I-3 (§16.2 α→ζ, β→ω) lives on the notation-sweep branch (`claude/ta-internal-fixes-260607-208b7b`), NOT yet on the M3/rigor-audit tree. Until the TA file from both branches merges, the M3-α / §16.2-α collision persists in any tree that has M3's α but not §16.2's ζ-rename. The TA-file merge (M3 §3.5 Path-A edits + notation-sweep §16/§10 Batch I edits — disjoint sections, low conflict) is the gating step.
 
 ### Sequencing
 1. Apply Batch I on author ratification (M3-independent, low-risk renames).
@@ -188,3 +190,37 @@ Free Greek letters (unused anywhere in the TA, per the completeness sweep): γ �
 4. Hand Part 3 bib gaps (Brennan–Schwartz, Black–Scholes, Knight) to the bib-consolidation session.
 
 **Note:** the verified σ finding is a *third* reason to resolve the M3 Path-A/B question — the direction determines whether σ must be renamed (Path A) or is vindicated as proper volatility (Path B).
+
+---
+
+## PART 6 — RESERVE POOL (unused letters + standard-notation baggage)
+
+**Added 2026-06-08** (author request, during the M3 Path-A σ→ς decision). Purpose: a vetted pool of symbols to draw from as the book adds quantities, so future choices avoid both *internal* collisions (Part 1) and *reader-expectation* collisions.
+
+**Governing principle (the σ=volatility lesson generalized):** "unused in this corpus" ≠ "free of meaning a reader brings." Before adopting any symbol, check it against (a) the used-symbol inventory (Part 2) for an internal collision, AND (b) the standard-notation baggage below for a reader-expectation collision. A symbol can be internally free yet still mislead — exactly the §3.5 σ problem (internally "scarcity," but every finance-literate reader reads volatility).
+
+### Greek — unused in the corpus, with reader-expectation baggage flags
+
+| Letter | Standard-notation baggage (reader expectation) | Use-cleanliness |
+|---|---|---|
+| **ι** (iota) | rarely used as a variable; "an iota" = a tiny amount | ✓ cleanest |
+| **ζ** (zeta) | Riemann zeta function; damping ratio | ~ low |
+| **ψ** (psi) | wavefunction; digamma function | ~ low (registry's suggested target for a retired M3 β) |
+| **γ** (gamma) | Euler–Mascheroni constant; Lorentz factor; Γ gamma function; skewness | ⚠ moderate |
+| **ν** (nu) | frequency; degrees of freedom; Poisson ratio | ⚠ moderate |
+| **χ** (chi) | chi-squared; Euler characteristic | ⚠ moderate |
+| **ω** (omega) | angular frequency; sample space; Omega ratio (finance) | ⚠ moderate |
+| **φ** (phi) | golden ratio; **standard-normal density φ(·)**; potential; angle | ⚠ moderate–high |
+| **θ** (theta) | angle; generic "the parameter"; **option Greek (time decay)** | ✗ avoid in option contexts |
+| **π** (pi) | **the constant 3.14159 (universal)**; profit (econ); inflation (macro); Π product operator | ✗ avoid |
+| **μ** (mu) | mean; micro- prefix; **drift in Black–Scholes / Dixit–Pindyck** | ✗ avoid (esp. option contexts) |
+| **κ** (kappa) | curvature; option vega-adjacent | **TAKEN** — §16.1 decay constant (δ→κ, Batch I I-1) |
+
+- **ς** (final sigma) — collision-free in the corpus (TA + chapters: 0 uses) and the recommended target for the §3.5 σ-scarcity rename (Part 4/5). Baggage: it *looks like* σ, so it only partially escapes the volatility-read — acceptable because its only association is sigma-adjacent (scarcity mnemonic), but **descriptive naming is the zero-baggage alternative.** Was omitted from the original used/free inventory (it's a sigma glyph-variant); record it here as RESERVED-for-M3-scarcity pending the Path-A apply.
+- **Capitals** (Γ Θ Λ Ξ Π Φ Ψ Ω) are mostly free but inherit the same baggage as their lowercase forms (Π = product, Σ = sum [TAKEN], Ω = ohms/sample-space, Φ = normal CDF). Λ, Ξ unused-and-low-baggage if a capital is needed.
+
+### Latin — guidance (not a full inventory)
+
+Most single lowercase Latin letters are already in service as variables (Part 2: r, s, m, k, c, n, i, t, T, x, g, plus the framework set R, Q, S, P, E, B, C, D, U, A, V, K). Apparently-free and low-baggage: **f, h, j, w, y, z** (lowercase) and **G, H, J, L, M, N, W, X, Y, Z** (capitals) — **verify against Part 2 before use** (e.g., M is used as a proof bound and as a "million" suffix; E as expectation/region/externality). **Default for new quantities: a descriptive or subscripted name** (e.g., `S_RP`, `Cure_cost`) rather than a bare letter — descriptive names carry zero reader-expectation baggage, which is why they are the safe fallback whenever a clean single letter is unavailable.
+
+> **Coordination note:** this Part 6 was appended from the `ta-m3-pathb` branch (the registry currently lives on `origin/main`). It is an end-append (low merge-conflict). Reconcile with the notation-sweep session's copy when branches merge; if that session has already advanced the registry, graft this section in.
