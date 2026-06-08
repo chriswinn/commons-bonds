@@ -5060,7 +5060,7 @@ Both findings are framework-coherent.
     </p>
     <hr>
     <h3>
-     &sect;11.8 &mdash; Method 3 sensitivity analysis: &alpha;-dominance finding + cross-case dominance map
+     &sect;11.8 &mdash; Method 3 sensitivity analysis: which parameter carries the result + cross-case weighting map
     </h3>
     <p>
      Sensitivity analysis of Method 3 RCV
@@ -5072,17 +5072,17 @@ Both findings are framework-coherent.
       option
      </sub>
      &times;
-scarcity_multiplier(&sigma;) &times; irreversibility_premium(&alpha;) across realistic &sigma; + &alpha; + V
+scarcity_multiplier(&sigmaf;) &times; irreversibility_premium(&alpha;) across realistic &sigmaf; + &alpha; + V
      <sub>
       option
      </sub>
      ranges
 + functional-form specifications. Key finding:
      <strong>
-      &alpha; (irreversibility) dominates the cross-case
+      irreversibility (&alpha;) carries the cross-case
 output range
      </strong>
-     . The framework debate about RCV is therefore a debate about irreversibility &mdash;
+     &mdash; not because the weight 1/(1&minus;&alpha;) diverges as &alpha;&rarr;1 (a property of the form) but because the record shows these losses are irreversible (IPCC AR6 SPM B.5; Bernhardt &amp; Palmer 2011) and the dominance of permanent non-substitutable foreclosure is established by Theorem 10.4 + 10.5. The framework therefore weights irreversibility heavily &mdash;
 the empirical companion to the Asymmetric Regret Rule's irreversibility-weighting (&sect;8 decision-rule level; &sect;11.8 estimation-method level).
 Same structural insight expressed at decision-rule level (ARR) and estimation-method level (Method 3).
     </p>
@@ -5099,7 +5099,7 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
         Regime
        </th>
        <th>
-        &sigma;
+        &sigmaf;
        </th>
        <th>
         &alpha;
@@ -5157,7 +5157,7 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
        </td>
        <td>
         <strong>
-         &sigma;
+         &sigmaf;
         </strong>
        </td>
        <td>
@@ -5205,11 +5205,11 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
        </td>
        <td>
         <strong>
-         mixed; &alpha; &rarr; &sigma; &rarr; V_option order
+         mixed; &alpha; &rarr; &sigmaf; &rarr; V_option order
         </strong>
        </td>
        <td>
-        &alpha; matters most because it's near-1; &sigma; second because it's the visible scarcity; V_option third because it's the dimensional anchor
+        &alpha; matters most because it's near-1; &sigmaf; second because it's the visible scarcity; V_option third because it's the dimensional anchor
        </td>
       </tr>
      </tbody>
@@ -5227,13 +5227,13 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
     </p>
     <ul>
      <li>
-      &sigma; &asymp; 200&ndash;500 (coal regenerates over geological time; functionally non-renewable on civilizational scale)
+      &sigmaf; grounded in the McDowell coal R/P register (EIA; USGS); scarcity_multiplier &asymp; 1.27&ndash;1.31 (near-insensitive to register)
      </li>
      <li>
       &alpha; &asymp; 0.85&ndash;0.95 (mountaintop-removal habitat is mostly irreversible; community-and-cultural commons partially recoverable through targeted intervention but largely lost in current US policy regime)
      </li>
      <li>
-      V_option &asymp; $50&ndash;$500/ton (energy-system substitution + climate-stability optionality)
+      V_option = the coal's own market value &asymp; $40&ndash;140/ton by grade (EIA)
      </li>
      <li>
       <strong>
@@ -5242,7 +5242,7 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
       <strong>
        &alpha; dominates
       </strong>
-      (irreversibility_premium &asymp; 7&ndash;20 at &alpha; = 0.85&ndash;0.95; scarcity_multiplier &asymp; 1.27&ndash;1.31 via 1 + log(1+200..500) &times; 0.05; V_option &asymp; $50&ndash;$500). The framework's RCV estimate for McDowell is driven primarily by irreversibility &mdash; the framework's "the coal is gone" / "the mountains are cut" claim is the load-bearing structural finding.
+      (irreversibility_premium &asymp; 7&ndash;20 at &alpha; = 0.85&ndash;0.95; scarcity_multiplier &asymp; 1.27&ndash;1.31 via 1 + ln(1+200..500) &times; 0.05; V_option &asymp; $50&ndash;$500). The framework's RCV estimate for McDowell is driven primarily by irreversibility &mdash; the framework's "the coal is gone" / "the mountains are cut" claim is the load-bearing structural finding.
      </li>
     </ul>
     <p>
@@ -5252,22 +5252,22 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
     </p>
     <ul>
      <li>
-      &sigma; &asymp; 50&ndash;200 (oil reserves; recoverable secondary extraction reduces effective &sigma;)
+      &sigmaf; &asymp; 50&ndash;200 (oil reserves; recoverable secondary extraction reduces effective &sigmaf;)
      </li>
      <li>
       &alpha; &asymp; 0.50&ndash;0.75 (Norwegian extraction is partially recoverable via sovereign-wealth-fund accumulation that could fund DAC-class restoration; the resource itself is lost but the value is preserved through the institutional architecture)
      </li>
      <li>
-      V_option &asymp; $30&ndash;$200/barrel (climate-policy + future-substitutability uncertainty)
+      V_option = market crude value per barrel (climate-policy + future-substitutability uncertainty fold into the scarcity/irreversibility weights, not the base)
      </li>
      <li>
       <strong>
        Dominance:
       </strong>
       <strong>
-       &sigma; + &alpha; near-equal; V_option third.
+       &sigmaf; + &alpha; near-equal; V_option third.
       </strong>
-      Norway's institutional architecture has reduced effective irreversibility (by funding restoration optionality through GPFG accumulation) &mdash; so &alpha; is moderate rather than near-1, and &sigma; + &alpha; both matter. This is the structural reason Norway is the framework's canonical-existing-B2 exemplar: institutional architecture moves the case out of the &alpha;-dominance regime.
+      Norway's institutional architecture has reduced effective irreversibility (by funding restoration optionality through GPFG accumulation) &mdash; so &alpha; is moderate rather than near-1, and &sigmaf; + &alpha; both matter. This is the structural reason Norway is the framework's canonical-existing-B2 exemplar: institutional architecture moves the case out of the high-irreversibility regime.
      </li>
     </ul>
     <p>
@@ -5277,13 +5277,13 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
     </p>
     <ul>
      <li>
-      &sigma; &asymp; 1&ndash;10 (cosmic-scale stocks; substitutability across asteroids &asymp; 1; effective scarcity is low)
+      &sigmaf; &asymp; 1&ndash;10 (cosmic-scale stocks; substitutability across asteroids &asymp; 1; effective scarcity is low)
      </li>
      <li>
       &alpha; &asymp; 0.05&ndash;0.2 (asteroid extraction is recoverable through extraction of substitutes; minimal habitat / community / atmospheric loss)
      </li>
      <li>
-      V_option &asymp; $0.01&ndash;$10/ton (low option value because substitution is plentiful)
+      V_option = the metal's own market value (low for abundant iron); the asteroid stock is cosmic-abundant so the foreclosure weights &asymp; 1
      </li>
      <li>
       <strong>
@@ -5292,9 +5292,12 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
       <strong>
        V_option dominates by default.
       </strong>
-      Both multipliers &asymp; 1; V_option &times; small-multiplier produces small RCV; framework's "RCV approaches market price for asteroid iron" claim follows. This is the framework correctly producing market-price-equivalent answers where market pricing is approximately right &mdash; exactly the calibration the asteroid case is designed to demonstrate.
+      Both multipliers &asymp; 1; V_option &times; small-multiplier produces small RCV; framework's "RCV approaches market price for asteroid iron" claim follows. This is the framework correctly producing market-price-equivalent answers where market pricing is approximately right &mdash; exactly the calibration the asteroid case is designed to demonstrate. <strong>Note &mdash;</strong> iron is the <em>low-existential-gap</em> exemplar; resources that are scarce on Earth and accessible from few bodies (lunar/asteroid helium-3, rare earths) carry a <em>higher</em> existential-substitutability gap (&sect;13) and a higher accessible-scarcity ς, so they do <em>not</em> price &asymp; market merely by being asteroid-sourced &mdash; ς must be grounded in accessible-recoverable stock, not theoretical cosmic abundance.
      </li>
     </ul>
+    <p>
+     <strong>Directionality &mdash; source abundance vs. destination scarcity.</strong> The same commons prices differently by <em>which</em> closed system and <em>which</em> direction it moves. Breathable air is &asymp;$0 on Earth (abundant) but life-support-priced (~$1M&ndash;10M/person-year) on Mars (scarce) &mdash; the Commons Inversion Test (&sect;6) reading the same commons at opposite abundance contexts. Two rules follow for off-world and import cases: <strong>(i)</strong> extraction RCV is governed by the <em>source's</em> accessible abundance &mdash; mining rare-earth metals from Earth's scarce, non-renewable stock carries a high RCV (high ς, high &alpha;), but mining the same metals from a cosmic-abundant asteroid, or recovering them from a meteorite, forecloses nothing scarce, so RCV &asymp; their (high) market value; <strong>(ii)</strong> importing a commons into a closed system supplies it at a Method-1 replacement cost (life-support manufacture; asteroid-mining-plus-transport; near-zero meteorite recovery) and raises substitutability S(t), relieving the destination's scarcity <em>to the extent the import volume shifts its abundance</em> &mdash; asteroid rare-earth mining at scale raises Earth's S and lowers the RCV of preserving Earth's stock, whereas per-capita life-support air does not make a colony's atmosphere abundant. Destination scarcity sets the commons value (Method 3); the import sets the supply cost (Method 1). (Cf. &sect;6 air; &sect;13 existential-substitutability gap.)
+    </p>
     <h5>
      Cross-case dominance pattern
     </h5>
@@ -5318,7 +5321,7 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
       <strong>
        Institutional-architecture-mediated extractions
       </strong>
-      (Norway oil; well-managed renewables): &sigma; + &alpha; moderate; V_option third. Institutional architecture is the lever that shifts cases out of the &alpha;-dominance regime.
+      (Norway oil; well-managed renewables): &sigmaf; + &alpha; moderate; V_option third. Institutional architecture is the lever that shifts cases out of the high-irreversibility regime.
      </li>
      <li>
       <strong>
@@ -5335,19 +5338,19 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
      <em>
       whatever is closest to its range-extreme
      </em>
-     , and the framework's primary cases (extraction of resources with high existential substitutability gaps) cluster in the &alpha;-dominance regime. The framework's "irreversibility is the heart of the matter" prose claim is empirically supported by this sensitivity pattern.
+     , and the framework's primary cases (extraction of resources with high existential substitutability gaps) cluster in the high-irreversibility regime. The framework's "irreversibility is the heart of the matter" prose claim is empirically supported by this sensitivity pattern.
     </p>
     <h5>
-     Sensitivity to &beta; (irreversibility-aversion calibration)
+     Why no risk-posture exponent (the retired &beta;)
     </h5>
     <p>
-     Switching from &beta; = 1 to &beta; = 2 in irreversibility_premium amplifies the &alpha;-dominance regime by additional orders of magnitude near &alpha; = 1. For the McDowell case at &alpha; = 0.9, irreversibility_premium grows from 10 (&beta; = 1) to 100 (&beta; = 2), shifting the framework's RCV by an order of magnitude.
+The Path-A specification fixes the irreversibility weight at 1/(1&minus;&alpha;) with no free exponent: the empirical irreversibility record (&sect;11.6; IPCC AR6 SPM B.5; Bernhardt &amp; Palmer 2011), not an analyst's risk-posture dial, carries the magnitude. Genuinely incommensurable cases (&alpha;&rarr;1) are handed to the incommensurability boundary + Asymmetric Regret Rule (&sect;12), not to an unbounded exponent.
     </p>
     <p>
      <strong>
       Methodological recommendation:
      </strong>
-     &beta; = 1 is the conservative default. Sensitivity to &beta; = 2 is reported as an alternative precaution-regime per the Method 3 specification above. Analysts applying the framework can calibrate &beta; to the case's risk-posture (climate-tipping-point cases may warrant &beta; &gt; 1; well-restorable cases warrant &beta; closer to 1).
+Because the weight is convex in &alpha;, a case's representative value is the band's geometric center, not the midpoint-&alpha; value (which under-states it). Restorability enters through &alpha; itself (well-restorable cases have low &alpha;; climate-tipping-point cases have &alpha;&rarr;1), so no separate risk-posture exponent is needed.
     </p>
     <hr>
     <h4>
@@ -5372,7 +5375,7 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
       </strong>
       (McDowell, Deepwater, Libby, atmospheric-carbon, biodiversity, indigenous-dispossession) all cluster in the
       <strong>
-       &alpha;-dominance regime
+       high-irreversibility regime
       </strong>
       .
      </li>
@@ -5398,10 +5401,10 @@ Same structural insight expressed at decision-rule level (ARR) and estimation-me
      <strong>
       Framework-positioning implication:
      </strong>
-     The Method 3 specification foregrounds the &alpha;-dominance finding and frames the framework's contested surface as "is this commons-loss irreversible?" rather than the broader "is the RCV estimate correct?" The narrower question is more empirically tractable and more aligned with established climate-economics + biodiversity-economics + cultural-preservation literature.
+     The Method 3 specification foregrounds the irreversibility-weighting result and frames the framework's contested surface as "is this commons-loss irreversible?" rather than the broader "is the RCV estimate correct?" The narrower question is more empirically tractable and more aligned with established climate-economics + biodiversity-economics + cultural-preservation literature.
     </p>
     <p>
-     This narrowing is itself a methodological contribution: by surfacing &alpha;-dominance, the framework gives reviewers + opponents + adopters a focused empirical question rather than an uncontainable methodological debate.
+     This narrowing is itself a methodological contribution: by surfacing irreversibility-weighting, the framework gives reviewers + opponents + adopters a focused empirical question rather than an uncontainable methodological debate.
     </p>
     <hr>
     <h3>
