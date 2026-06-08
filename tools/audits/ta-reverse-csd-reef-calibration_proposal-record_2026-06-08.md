@@ -278,7 +278,7 @@ This is the first backward worked case, parallel to the forward §11.1–§11.6 
     </h3>
     <p>
      The framework&rsquo;s first worked <em>backward</em> case: Cost Severance Damages for the Chesapeake oyster reef of
-     Chapter 3 (the Restitution Bond case). It is the case the framework has standing to compute &mdash; an ecological,
+     Chapter 3 (the Restitution Bond case). It is the case the author is positioned to compute &mdash; an ecological,
      not human-coercion, severance; documented; bounded; physically restorable. It exercises the CSD range method of
      &sect;5.5: a provable Method-1 floor, corroborated by Method-2 revealed restitution, with Method 3 named as an
      admittable ceiling variable the chapter declines to enter.
