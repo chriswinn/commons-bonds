@@ -133,13 +133,13 @@ The sweep (ledger Part 5b) confirmed SCC $190 (attribution fixed), Norway 78%, B
 
 | Item | Owner | Apply when |
 |---|---|---|
-| 1 IPG apparatus reframe | Session C (+E for Deepwater repro) | after Item 4 |
-| 2 Norway 84→16 narrative | **Session D** | Path-B rework |
-| 3 Eco/Cohesion estimate-labels | this workstream SOFT | after Session D |
-| 3 Foreclosure/V_option/$300-RCV | **Session D** | Path-B rework |
+| 1 IPG apparatus reframe | Session C | **per Session D: M3-IPG is now a premium-MULTIPLE (~8.5–26×, ctr ~15×), NOT 50–555×; §9.5 67–134× is the cross-MODEL cell, left unchanged. Session C keeps §9.5 12-cell + §3.2 IPG=33 + §16.4 consistent + drops "canonical/documented" phrasing** |
+| 2 Norway 84→16 narrative | **DONE (Session D)** | merged — α-reduction reframe; dropped 16%/84% + $300 RCV; kept $13–15T residual (§11.5 L4436, verified) |
+| 3 Eco/Cohesion estimate-labels | **THIS SESSION — NOW UNBLOCKED** | Session D landed; §11.6 reclamation $/acre + $/resident + migration still unlabeled (L4645/L4662). TODO this session |
+| 3 Foreclosure/V_option/$300-RCV | **DONE (Session D)** | merged — Foreclosure relabeled est.; V_option market-anchored |
 | 4 Deepwater repro | **Session E** | reconciliation closeout |
-| 5 §11.9 DAC bands | **DONE 2026-06-08** | applied (source-confirmed; no cascade) |
-| 6 log/Hotelling/midpoints | **Session D** | Path-B rework |
+| 5 §11.9 DAC bands | **DONE 2026-06-08** | applied. **NB: kept conservative cap at $1,000 (Orca-caveat, NOT $1,200) → Session D's §11.6 "M1 $290–2,702" is UNAFFECTED; the earlier "~20% cap lift / M1 follow-up" is moot.** |
+| 6 log/Hotelling/midpoints | **DONE (Session D)** | merged — log→ln; Hotelling 0.05 relabeled POSITED; midpoints now geometric centers |
 | 7 Norway USD FX stamp | **DONE (Session D, 0a50c68)** | merged into this branch |
 | 8 Solow orphan | **Closeout (E), merged tree** | swap already on ta-m3-pathb; delete §18 1956 entry post-merge (grep-verify 0 in-text first) |
 | 9a Black Lung $44B | any session w/ source access / closeout | verify CRS R45261 or DOL OWCP report; else relabel/cut |
