@@ -8,12 +8,21 @@
 **Revision history:**
 - *2026-06-08a:* source-commit anchor changed `cf24f57` → `71fb076` (the first
   packet) on independent re-verification.
-- *2026-06-08b (THIS revision, authoritative):* **author flagged that TWO TA
-  files were sent to Darity, and only the SECOND is worth tracking.** Re-anchored
-  on the second file. Net effect: every numeric conclusion is unchanged (the two
-  files have identical apparatus — the author's 05-15 cover email states "no
-  changes to case-study computations or apparatus"); the provenance + citation
-  framing now describe the second file.
+- *2026-06-08b (authoritative):* **author flagged that TWO TA files were sent
+  to Darity, and only the SECOND is worth tracking.** Re-anchored on the second
+  file. Net effect: every numeric conclusion is unchanged (the two files have
+  identical apparatus — the author's 05-15 cover email states "no changes to
+  case-study computations or apparatus"); the provenance + citation framing now
+  describe the second file.
+- *2026-06-09 (status note):* the held-branch correction targets cited below
+  (e.g. carbon → $496 per `cefe5e4`; §11.6 combined anchor → $1,595–2,702 per
+  `23ec2e7`) are now **superseded by the M3 branch**
+  `claude/ta-m3-pathb-260607-6e6849` (Session-D Path-A **COMPLETE**), which
+  inherits those commits and reworks §3.5/§11.6/§11.8 further (Path-A recompute;
+  V_option→V_market). The **direction** of every Darity-vs-current finding here
+  is unchanged; the canonical *corrected* TA figures now live on the M3 branch,
+  so quote those (not the interim held-branch values) when drafting any actual
+  correction to Darity. This Darity-diff analysis is read-only and unaffected.
 
 ## Scope + method
 
