@@ -5,6 +5,21 @@
 **HELD from main** (18+ commits ahead, NOTHING merged). Author reviews before merge. Path-scoped diff: `git diff origin/main -- core/technical-appendix/TechnicalAppendix_v2.0.0.html`.
 **Why this handoff:** session length started degrading rigor (twice cited our own table/ledger as "the authoritative source" — the self-citation trap; nearly applied a fix on an unverified number that the §11.10 agent then proved wrong). A fresh session + this doc + the disciplines below avoids that.
 
+> **⚠ SUPERSEDED — TA numeric work has moved to the M3 branch (noted 2026-06-09).**
+> This held branch's TA numeric fixes (the "APPLIED + COMMITTED" list below) are
+> now **inherited and extended by `claude/ta-m3-pathb-260607-6e6849`** (Session-D
+> M3 Path-A **COMPLETE**, tip `74fab1c`). That branch contains all 5 of this
+> branch's numeric-fix commits (`cefe5e4`, `23ec2e7`, `d041cdd`, `1f093d9`,
+> `4521e28`) as ancestors **plus** the full Path-A rework (§3.5 core, §11.6
+> McDowell recompute, §11.8 sensitivity reframe, §11.5 Norway, §11.11 IPG,
+> σ→ς / log→ln / drop-β, **V_option→V_market** rename, EIA coal price
+> $4.50→$4.71). So the M3 branch is a **strict superset** and is the canonical
+> TA line going forward — **base any further TA numeric work on the M3 branch,
+> not this held branch.** Verified clean: `git merge-tree` of this branch ←
+> M3 reports zero conflicts (this branch's only net-new content beyond the
+> shared base `4690f85` is the read-only Darity-diff analysis, which touches no
+> TA). The interim §11.8 V_option flagged below is resolved on M3 (→ V_market).
+
 ---
 
 ## RATIFIED DISCIPLINES (carry forward — do NOT re-litigate)
@@ -19,6 +34,10 @@
 ---
 
 ## APPLIED + COMMITTED (on held branch; author reviews before merge)
+
+> **SUPERSEDED by the M3 branch** — see the banner at the top of this doc. The
+> TA list below is inherited + extended by `claude/ta-m3-pathb-260607-6e6849`
+> (Path-A complete). This held branch is no longer the TA frontier.
 
 **TA (`TechnicalAppendix_v2.0.0.html`, 14 line-changes):**
 - §11.5 Norway CS-reduction **84%→16%** (item 1)
