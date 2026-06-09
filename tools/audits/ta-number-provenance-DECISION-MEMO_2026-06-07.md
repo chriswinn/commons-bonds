@@ -140,7 +140,7 @@ The sweep (ledger Part 5b) confirmed SCC $190 (attribution fixed), Norway 78%, B
 | 4 Deepwater repro | **Session E** | reconciliation closeout |
 | 5 §11.9 DAC bands | **DONE 2026-06-08** | applied (source-confirmed; no cascade) |
 | 6 log/Hotelling/midpoints | **Session D** | Path-B rework |
-| 7 Norway USD FX stamp | SOFT / Session D | low priority |
+| 7 Norway USD FX stamp | **DONE (Session D, 0a50c68)** | merged into this branch |
 | 8 Solow orphan | **Closeout (E), merged tree** | swap already on ta-m3-pathb; delete §18 1956 entry post-merge (grep-verify 0 in-text first) |
 | 9a Black Lung $44B | any session w/ source access / closeout | verify CRS R45261 or DOL OWCP report; else relabel/cut |
 | 9b EIA coal $4.50→$4.71 | Session C / Session D | verified; apply when IPG ratios are recomputed |
