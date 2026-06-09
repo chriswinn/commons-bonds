@@ -4,6 +4,30 @@
 **For:** a whole-cloth drafting agent who has NOT read and will NOT read the current Chapter 6.
 **Status:** complete and ready to draft against. All inputs in (value-audit, seam map D1-D7, dangling-ref D8-D13, research ledger, citation ledger, canonical figure ledger).
 
+---
+
+> ## ⚠ M3 FINAL OVERRIDE (Session D Method-3 Path-A rework, 2026-06-09 — SUPERSEDES the M3 / IPG / coal numbers and framing in the brief body below)
+>
+> The brief body below predates the finalized Method-3 rework. Where the body says Dixit-Pindyck, "α-dominance," "50–555×," "$420–13,100 / mid $2,500," "$4.70–4.85," or "ceiling," **use THIS instead.** The TA is canonical; these are final (no further drift).
+>
+> **Numbers (market-anchored Path-A M3, geometric center, convexity-aware):**
+> - **McDowell coal M3 = $340–3,670/ton, center ~$1,115/ton** (NOT "$420–13,100 / mid $2,500"; the $13,100 ceiling is gone).
+> - **M3-IPG (foreclosure-premium multiple) = 8.5–26×, center ~15×**, price-independent. The old **"50–555×" is DISOWNED** (era-mixing artifact). **Never use 50–555×.** The public headline IPG **33–122×** (Ch2-owned) is UNCHANGED; the cross-model §9.5 **67–134×** is UNCHANGED.
+> - **1960 mine-mouth coal price = $4.71/ton** (1960, bituminous; EIA Total Energy T7.9). Use $4.71 as the point value (prose may still say "just under five dollars").
+> - **Norway M3 = $96–610/BOE, central ~$281/BOE; M3-IPG ~2.4–5.1×.** The Norway CS-reduction is **irreversibility-reduction** (GPFG restoration optionality moves α from ~1 toward ~0.50–0.75), **NOT rent-capture** — **do NOT carry "16% / $48/BOE rent captured / $300."**
+>
+> **Convergence-table rows (correct values):**
+> - McDowell: price **$4.71/ton (1960 mine-mouth, bituminous)** | M3 **$340–3,670/ton; center ~$1,115**.
+> - Norway: M3 **$96–610/BOE; central ~$281** (drop the "$48/BOE rent captured" framing).
+>
+> **Framing (publisher-facing — no internal/process language: no "Path A," no symbol-rename history, no "α-dominance"):**
+> - M3 is the **quasi-option value of preservation (Arrow-Fisher 1974 / Henry 1974)**, NOT the Dixit-Pindyck investment-timing model.
+> - Irreversibility is **weighted because the empirical record + the Asymmetric Regret Rule say so** (IPCC AR6 SPM B.5; Bernhardt & Palmer 2011), NOT a "discovered α-dominance."
+>
+> **NOTATION** (only if the chapter ever introduces M3 parameters — it should not): V_market (not V_option), ς (not σ), irreversibility 1/(1−α) with NO β. Per `core/technical-appendix/symbol-registry_2026-06-07.md`.
+>
+> **FLAG — NOT an M3 item, route to the correctness/IPG owner, do NOT fix blind:** the M1 column "$261–$2,412/ton" (table) vs the TA §11.6 M1 range "$290–$2,702" is a chapter↔TA Method-1 discrepancy needing separate reconciliation; the pending §11.9 DAC refresh will move the M1 conservative cap ~20%.
+
 This brief is self-contained. Draft the entire chapter from this brief alone. Do NOT seek out the existing chapter; nothing here is lifted from it. Every beat below is abstracted to its function and obligation, not its wording. Invent your own sentences for everything.
 
 ---
