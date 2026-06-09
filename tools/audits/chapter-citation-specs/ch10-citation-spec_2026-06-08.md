@@ -1,0 +1,53 @@
+# Ch 10 — Common Bonds — Per-Chapter Citation Apply-Spec
+
+**Date:** 2026-06-08
+**Chapter:** Ch 10 — Common Bonds (closing chapter; Black Hills / *US v. Sioux Nation*; grandfather NASA Langley; Camus; Indigenous scholars)
+**Clean prose:** `manuscript/chapters/Chapter_10_CommonBonds.md`
+**Status:** Internal scaffolding (audit artifact); auto-merge on session close.
+
+**Sources consulted:**
+- `manuscript/_CITATION_EVIDENCE_LEDGER_2026-06-04.md` (Part 1 §A/§B; Part 2 Tier-1 "Ch10 (coda)"; Part 3)
+- `manuscript/_citation-evidence-detail_2026-06-04.json` (Ch10 entries: Sioux/Laramie/1877 Act/Camus/Weitzman/grandfather/Indigenous-scholars; needs-research §)
+- `tools/audits/corpus-primary-source-register_2026-06-08.md` §1E (*US v. Sioux Nation*, 448 U.S. 371 (1980); ~$106M; escrow >$1.5B)
+- `research/citations/noema-indigenous-frame-citation-research_2026-06-01.md` — **NOT applicable to Ch10's named scholars.** That file covers Powhatan/Algonquian Chesapeake substrate (Rountree, Potter, Necotowance) for a Noema-essay Bay-coda insert; it does not treat Kimmerer/Simpson/Coulthard/Dunbar-Ortiz/Deloria. Ch10 scholar works supplied independently below (web-verified 2026-06-08).
+
+**Status legend:** READY-TO-CITE = source + URL in hand, drop in apparatus as-is · NEEDS-PIN = real public record exists, specific locator/figure must be pinned · AUTHOR-CONFIRM = memoir/family-record claim only the author can ratify · UNVERIFIABLE = no public record possible · FRAMEWORK-OUTPUT = model-derived, not an external citation.
+
+---
+
+## Spec table
+
+| Figure / Claim | Status | Source (+URL) | Note |
+|---|---|---|---|
+| **Treaty of Fort Laramie (1868)** — guaranteed the Black Hills (Ȟe Sápa) within the Great Sioux Reservation (§100) | READY-TO-CITE | Treaty with the Sioux — Brulé, Oglala…, Apr. 29, 1868, 15 Stat. 635. Avalon/OurDocuments. https://www.archives.gov/milestone-documents/treaty-of-fort-laramie | Public-record document. Cite 15 Stat. 635 in apparatus. |
+| **Custer expedition entered the Hills and found gold (1874)** — "six years later" (§100) | READY-TO-CITE | Black Hills Expedition of 1874 (Custer); historical record. NPS / standard histories. https://en.wikipedia.org/wiki/Black_Hills_Expedition | Historical event; 1874 date correct (1868 + 6). Pin to a standard secondary history in bibliography. |
+| **Act of Congress, February 1877** — stripped the Hills from the reservation; "three years after" Custer (§100) | READY-TO-CITE | Act of Feb. 28, 1877, ch. 72, 19 Stat. 254 ("an act to ratify… agreement with… Sioux"). Public statute. | Date correct (1874 + 3 = 1877). Pin 19 Stat. 254 in apparatus. |
+| **\*United States v. Sioux Nation of Indians\* (1980)** — Court ruled the 1877 taking unconstitutional (§102) | READY-TO-CITE | *United States v. Sioux Nation of Indians*, 448 U.S. 371 (1980). https://supreme.justia.com/cases/federal/us/448/371/ | Register §1E HIGH-confidence anchor. Case name + reporter cite verbatim. |
+| **Award: ~$17.5M (1877 land value) + 5% interest since 1877 → ~$106M by 1980** (§102) | READY-TO-CITE | Same case, 448 U.S. 371 (1980). Register §1E: "$17.1M land + $0.45M gold + ~$88M interest (5%) ≈ $106M (1980)." | HIGH for case/$106M. Chapter rounds land to "seventeen and a half million" (register's $17.1M land + $0.45M gold ≈ $17.55M total principal — consistent). $106M / "five percent" / "1877" all hold. |
+| **Black Hills escrow now > $1.5 billion; refused for 40+ years** (§102) | NEEDS-PIN | BIA Bureau of Trust Funds Administration (trustee). PBS NewsHour "$1.3 Billion" segment (~2018–2019). https://www.bia.gov/btfa · https://www.pbs.org/newshour/show/why-the-sioux-are-refusing-1-3-billion | **HIGHEST staleness risk.** Register §1E rates escrow ">$1.5B" as **MED** — the verifiable dated anchor is **">$1B as of 2018"** (PBS reported ~$1.3B ~2018). The exact current balance is **NOT publicly disclosed** (Oglala Sioux Tribe rejected a FOIA to unseal it — Buffalo's Fire). **Recommend** softening "more than one and a half billion" to a date-locked, sourceable form ("more than a billion dollars" w/ 2018 PBS anchor, or "well over a billion" + year) unless a dated >$1.5B source surfaces. "More than four decades and counting" (1980→2026 = 46 yrs) holds. |
+| **Grandfather worked at NASA Langley; wind-tunnel model maker; "his patents read"; "his patented work" (§66, §68, §70)** | AUTHOR-CONFIRM + NEEDS-PIN | USPTO patent record (LaVern E. Winn). Project memory: 2 patents identified 2026-05-04 — Liquid Waste Feed System (1972) + fiberglass-laminate lathe/tool-bit. Corroborated by `_AUTHORSNOTE_ON_WINDTUNNELS_AND_AI.md` l.11. | **Cross-ref Ch1 NEEDS-PIN (ledger Tier-1 G-2).** Employment/biography = AUTHOR-CONFIRM (family record). The patent *existence* is publicly verifiable, but **no patent number is pinned in-text** anywhere (deep-pass §9.3). Ch10 prose says "his patents read" — presumes a verifiable record. **Apply:** pin the two USPTO patent numbers in the citation apparatus (AuthorsNote or bibliography) at least once; coda prose need not carry the numbers. Confirm "LaVern E. Winn" spelling + that patents are his. |
+| **Wife's near-death on the operating table; heart stopped ~20 seconds; never officially pronounced dead (§30)** | AUTHOR-CONFIRM | Memoir / personal record. No public source. | Author-private medical episode. Not externally verifiable; ratify-as-written per author. No citation target. |
+| **Author's parents alive, in the Hampton area (§28); author studying nursing, tutoring, time at hospital (§156)** | AUTHOR-CONFIRM | Memoir. | Author-private biography. No citation target. |
+| **Camus closed \*Le Mythe de Sisyphe\* (1942) — "Il faut imaginer Sisyphe heureux" (§162)** | READY-TO-CITE | Albert Camus, *Le Mythe de Sisyphe* (Gallimard, 1942), closing line. Ledger Part 1 §A. | Primary text; date + quoted French line verified. Drop in bibliography. |
+| **Robin Wall Kimmerer (Citizen Potawatomi) (§108)** | READY-TO-CITE | *Braiding Sweetgrass* (Milkweed Editions, 2013). Member, Citizen Potawatomi Nation (confirmed via potawatomi.org). https://milkweed.org/book/braiding-sweetgrass | Affiliation **verified** (deep-pass §9.5 flags affiliations as reputationally load-bearing). Add named work + year to bibliography. |
+| **Leanne Betasamosake Simpson (Michi Saagiig Nishnaabeg) (§108)** | READY-TO-CITE | *As We Have Always Done: Indigenous Freedom through Radical Resistance* (Univ. of Minnesota Press, 2017). Michi Saagiig Nishnaabeg; member, Alderville First Nation. https://www.upress.umn.edu/9781517903879/as-we-have-always-done/ | Affiliation **verified**. Add named work + year to bibliography. |
+| **Glen Coulthard (Yellowknives Dene) (§108)** | READY-TO-CITE | *Red Skin, White Masks: Rejecting the Colonial Politics of Recognition* (Univ. of Minnesota Press, 2014). Member, Yellowknives Dene First Nation. https://www.upress.umn.edu/9780816679652/red-skin-white-masks/ | Affiliation **verified**. Add named work + year to bibliography. |
+| **Roxanne Dunbar-Ortiz (§108, no nation parenthetical — correct; she is not enrolled tribal)** | READY-TO-CITE | *An Indigenous Peoples' History of the United States* (Beacon Press, 2014). https://www.beacon.org/An-Indigenous-Peoples-History-of-the-United-States-P1164.aspx | Chapter correctly gives **no** nation parenthetical (Dunbar-Ortiz is a historian, not enrolled). Add named work + year to bibliography. |
+| **Vine Deloria Jr. (Standing Rock Sioux) (§108)** | READY-TO-CITE | *Custer Died for Your Sins: An Indian Manifesto* (Macmillan, 1969). Member, Standing Rock Sioux Tribe. https://www.simonandschuster.com/books/Custer-Died-For-Your-Sins/Vine-Deloria/9781501188237 | Affiliation **verified**. Add named work + year to bibliography. |
+| **Nordhaus / Stern "have not converged across decades" (§76)** | NEEDS-PIN | Nordhaus (e.g., *A Question of Balance*, 2008) vs. Stern (*Stern Review*, 2006/2007). Ledger Part 3 flags inline-vs-bib year mismatch (Nordhaus 2007 / Stern 2006 vs bib's Nordhaus & Boyer 2000 / Stern 2007). | Pin representative cites; reconcile inline/bib years. Non-convergence claim itself is sound. |
+| **Weitzman "declining-rate approach for the longest horizons" (§76)** | NEEDS-PIN | Weitzman, "Gamma Discounting," *AER* 91(1):260–271 (2001). Ledger Part 1 §A explicitly: "Ch10 §76 (pin specific paper)." Detail-JSON also offers Weitzman 1998/2001. | Bare name → pin to a specific paper (deep-pass §9.4). Recommend the 2001 *Gamma Discounting* paper (already a bib entry in the detail JSON). |
+| **The six cover-patterns (distance/time/information/power/routine/abundance) (§56–58)** | FRAMEWORK-OUTPUT | Book's own framework (Ch1–Ch9 + TA). | Internal framework taxonomy; no external citation. |
+| **"Land is not substitutable by money… category the framework cannot price" (§104); reverse/retrospective accounting (§94); compass figure (§164–166)** | FRAMEWORK-OUTPUT | Book's own framework / TA retrospective architecture. | Internal argument; no external citation. |
+| **Norway sovereign fund "achievable" (§88, glancing reference)** | READY-TO-CITE (cross-chapter) | NBIM Annual Report 2025 (~$2.0T). Ledger §B / TA §11.5. | Glancing reference only in Ch10; full sourcing lives in Ch4/TA. No new pin needed here. |
+
+---
+
+## Priority callouts
+
+1. **HIGHEST PRIORITY — Black Hills escrow figure (§102).** "More than one and a half billion dollars" is the single highest-staleness-risk number in the chapter and is **not publicly disclosable** at the exact balance (FOIA to unseal was rejected). The defensible, dated anchor is "> $1 billion as of ~2018" (PBS / register §1E MED rating). Recommend softening to a date-locked form before submission, OR finding a dated >$1.5B trust-account source. The ~$106M (1980) and the case cite are HIGH-confidence and need no softening.
+
+2. **SECOND — Grandfather USPTO patent numbers (§66/68/70).** Cross-chapter with Ch1 (ledger Tier-1 G-2). Patent *existence* is publicly verifiable (LaVern E. Winn; 2 patents per project memory) but **no number is pinned anywhere in-text**. The coda's "his patents read" promises a verifiable record with no target attached. Pin the two USPTO numbers in the apparatus once (AuthorsNote/bibliography). Author must confirm the name spelling + attribution.
+
+3. **THIRD — pin Weitzman §76 to the 2001 *Gamma Discounting* paper** (mechanical; specific paper already in the detail-JSON bib).
+
+All five named Indigenous scholars' works + nation affiliations are now **verified READY-TO-CITE** (the reputationally load-bearing deep-pass §9.5 flag is cleared); they need only bibliography entries. Treaty 1868 / Act 1877 / *Sioux Nation* 1980 / Camus 1942 are all READY-TO-CITE.
