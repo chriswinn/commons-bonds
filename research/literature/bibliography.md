@@ -695,10 +695,10 @@ Added 2026-04-24. Decision-theoretic literature the framework engages — for **
 ### Arrow, Kenneth J., and Anthony C. Fisher. "Environmental Preservation, Uncertainty, and Irreversibility." *Quarterly Journal of Economics* 88, no. 2 (1974): 312–319. https://doi.org/10.2307/1883074
 
 - **Summary:** Establishes that under uncertainty, the *irreversibility* of environmental loss creates a quasi-option value of preservation — it is worth paying a premium to keep options open when a decision is irreversible and information may improve. Foundational companion to Dixit & Pindyck 1994 (below).
-- **Relevance:** **CONSTRUCT source for Method 3's irreversibility premium + V_option.** Grounds *why* the framework includes an irreversibility/option-value term and why irreversible commons loss warrants a preservation premium. It does **not** supply calibrated values for α or V_option — those are posited analytical parameters carried with sensitivity ranges. Cite Arrow-Fisher + Dixit-Pindyck for the *construct*; flag the parameter magnitudes as book-derived assumptions.
+- **Relevance:** **CONSTRUCT source for Method 3's irreversibility premium + V_option.** Grounds *why* the framework includes an irreversibility/option-value term and why irreversible commons loss warrants a preservation premium. It does **not** supply calibrated values for α or V_option — those are posited analytical parameters carried with sensitivity ranges. Cite Arrow-Fisher (+ Henry 1974, §16.5) for the *construct*; flag the parameter magnitudes as book-derived assumptions. **Path-A reframe (2026-06-08):** Method 3 is presented as this *quasi-option-value-of-preservation* construct (Arrow–Fisher / Henry lineage), NOT as the Dixit–Pindyck investment-timing model — the full D–P model lives separately as the §9 Real Options cross-check. α's high-end placement (0.85–0.95) is now empirically corroborated for its physical sub-components by the irreversibility record (§16.5), while remaining a posited composite (direction-grounded, magnitude carried with sensitivity).
 - **Relationship:** **STRONG SUPPORT (construct grounding).**
-- **Chapter relevance:** Tech Appendix §3.5 (scarcity-adjusted option value / irreversibility premium), §11.6 Method 3, §8 Asymmetric Regret Rule lineage.
-- **Status:** added 2026-06-06 per Method-3 parameter-provenance verification (named in the deep-source report but missing from §3.5 + bibliography).
+- **Chapter relevance:** Tech Appendix §3.5 (scarcity-adjusted option value / irreversibility weight), §11.6 Method 3, §8 Asymmetric Regret Rule lineage.
+- **Status:** added 2026-06-06 per Method-3 parameter-provenance verification (named in the deep-source report but missing from §3.5 + bibliography); Path-A use-note extended 2026-06-08.
 
 ### Dixit, Avinash K., and Robert S. Pindyck. *Investment under Uncertainty.* Princeton, NJ: Princeton University Press, 1994.
 
@@ -717,6 +717,61 @@ Added 2026-04-24. Decision-theoretic literature the framework engages — for **
 - **Chapter relevance:** Tech Appendix §L methodological footnote (substitutability lineage).
 - **Rigor provenance:** Substitutability Function rigor pass 2026-04-24; literature audit 2026-04-24.
 - **Status:** ratified 2026-04-24 (S Option A ratified by Chris Winn).
+
+---
+
+## 16.5. Method-3 irreversibility parameter (α) — quasi-option construct + empirical grounding
+
+**Added 2026-06-08** per the Method-3 α-irreversibility grounding audit (`tools/audits/ta-m3-alpha-irreversibility-grounding_2026-06-07.md`) and the Path-A core rework (`tools/audits/ta-m3-pathA-core-rework_proposal-record_2026-06-08.md`). These sources ground the *direction and high-end placement* of Method 3's irreversibility parameter α (the irreversibility_weight = 1/(1−α), §3.5). α remains a **posited composite** — no source supplies a numeric irreversibility *fraction* — but the record corroborates that 0.85–0.95 is, if anything, *conservative* for α's physical sub-components (resource-stock + carbon-persistence), with the band held below 1 only by the partially-recoverable community/cultural component. The "dominance" of irreversible/non-substitutable harm is carried by Theorem 10.4 (knife-edge) + Theorem 10.5 (Substitution Dominance), NOT by the α-weight's functional form. **Citation discipline:** cite these external authorities for α's direction; flag the magnitude as a book-derived posited composite with sensitivity.
+
+### Henry, Claude. "Investment Decisions under Uncertainty: The 'Irreversibility Effect.'" *American Economic Review* 64, no. 6 (1974): 1006–1012.
+
+- **Summary:** Independent 1974 statement (with Arrow & Fisher) of the irreversibility effect — under uncertainty with the prospect of better information, an irreversible decision should be discounted relative to a flexible one; preserving options has value.
+- **Relevance:** **CONSTRUCT co-source (with Arrow–Fisher 1974) for Method 3 as quasi-option-value-of-preservation.** Anchors the Path-A re-citation of M3 to the quasi-option lineage rather than the Dixit–Pindyck investment-timing model.
+- **Relationship:** **STRONG SUPPORT (construct grounding).**
+- **Status:** added 2026-06-08 (Path-A construct co-citation; was named in the TA but absent from the bibliography).
+
+### Palmer, M. A., E. S. Bernhardt, W. H. Schlesinger, et al. "Mountaintop Mining Consequences." *Science* 327, no. 5962 (2010): 148–149. https://doi.org/10.1126/science.1180543
+
+- **Summary:** Landmark *Science* policy-forum paper documenting forest clearance, valley-fill stream burial, and downstream water-chemistry degradation from mountaintop-removal (MTR) mining, arguing that mitigation/reclamation does not compensate for lost ecological functions.
+- **Relevance:** Foundational MTR-irreversibility / reclamation-failure anchor for the ecological sub-component of α (McDowell case, §11.6/§11.8).
+- **Relationship:** **SUPPORT (α direction grounding).**
+- **Status:** added 2026-06-08 (M3-rigor α-grounding audit 2026-06-07).
+
+### Bernhardt, Emily S., and Margaret A. Palmer. "The Environmental Costs of Mountaintop Mining Valley Fill Operations for Aquatic Ecosystems of the Central Appalachians." *Annals of the New York Academy of Sciences* 1223, no. 1 (2011): 39–57. https://doi.org/10.1111/j.1749-6632.2011.05986.x
+
+- **Summary:** Peer-reviewed review; the key verbatim anchor: *"there is, to date, no evidence to suggest that the extensive chemical and hydrologic alterations of streams by [MTR valley fill] can be offset or reversed by currently required reclamation and mitigation practices."* Documents conversion of 1.1M ha of forest and burial of >2,000 km of stream channel.
+- **Relevance:** **Primary verbatim α anchor** — a categorical-under-current-regime irreversibility statement (maps to α near 1 for the habitat sub-component) for §11.6/§11.8.
+- **Relationship:** **STRONG SUPPORT (α direction grounding).**
+- **Status:** added 2026-06-08 (M3-rigor α-grounding audit 2026-06-07).
+
+### Lindberg, T. T., E. S. Bernhardt, R. Bier, A. M. Helton, R. B. Merola, A. Vengosh, and R. T. Di Giulio. "Cumulative Impacts of Mountaintop Mining on an Appalachian Watershed." *Proceedings of the National Academy of Sciences* 108, no. 52 (2011): 20929–20934. https://doi.org/10.1073/pnas.1112381108
+
+- **Summary:** Mines reclaimed nearly two decades earlier continue to contribute significant water-quality degradation; weathering-derived ions exported at high concentrations decades after reclamation.
+- **Relevance:** Decades-persistence evidence for MTR irreversibility (α direction, §11.6/§11.8).
+- **Relationship:** **SUPPORT (α direction grounding).**
+- **Status:** added 2026-06-08 (M3-rigor α-grounding audit 2026-06-07).
+
+### Solomon, Susan, Gian-Kasper Plattner, Reto Knutti, and Pierre Friedlingstein. "Irreversible Climate Change Due to Carbon Dioxide Emissions." *Proceedings of the National Academy of Sciences* 106, no. 6 (2009): 1704–1709. https://doi.org/10.1073/pnas.0812721106
+
+- **Summary:** Title is the claim: climate change from CO₂ increases is *"largely irreversible for 1,000 years after emissions stop"*; ~40% of peak concentration enhancement retained to end of millennium.
+- **Relevance:** Foundational peer-reviewed anchor for the carbon-persistence sub-component of α (→1 on civilizational timescales); also relevant to the Externality Tail (§17).
+- **Relationship:** **STRONG SUPPORT (α direction grounding).**
+- **Status:** added 2026-06-08 (M3-rigor α-grounding audit 2026-06-07).
+
+### IPCC, 2021. *Summary for Policymakers,* statement B.5. In *Climate Change 2021: The Physical Science Basis* (Working Group I contribution to the Sixth Assessment Report). Cambridge University Press. https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/
+
+- **Summary:** Consensus-institutional headline: *"Many changes due to past and future greenhouse gas emissions are irreversible for centuries to millennia, especially changes in the ocean, ice sheets and global sea level."*
+- **Relevance:** Consensus anchor for the carbon-persistence sub-component of α. **NB:** TA §11.6 already *claims alignment* with "IPCC AR6 / climate-tipping-point literature" without citing it — this closes that gap. (Distinct from the IPCC AR6 DAC-cost data-source entry in §23.1.)
+- **Relationship:** **STRONG SUPPORT (α direction grounding).**
+- **Status:** added 2026-06-08 (M3-rigor α-grounding audit 2026-06-07).
+
+### Archer, David, Michael Eby, Victor Brovkin, et al. "Atmospheric Lifetime of Fossil Fuel Carbon Dioxide." *Annual Review of Earth and Planetary Sciences* 37 (2009): 117–134. https://doi.org/10.1146/annurev.earth.031208.100206
+
+- **Summary:** 20–35% of fossil-fuel CO₂ remains in the atmosphere after ocean equilibration (2–20 centuries), with a residual fraction persisting on weathering timescales of hundreds of thousands of years.
+- **Relevance:** Long-tail CO₂-persistence anchor for α (carbon channel) and the σ/ς non-renewability framing.
+- **Relationship:** **SUPPORT (α direction grounding).**
+- **Status:** added 2026-06-08 (M3-rigor α-grounding audit 2026-06-07).
 
 ---
 
@@ -1445,10 +1500,16 @@ The framework engages the Public Choice tradition explicitly as a complementary 
 - **U.S. Department of Justice settlement (April 2016) + BP press release (2015).** *Backs:* $20.8B DOJ-approved settlement (2016, largest U.S. environmental settlement); "up to $18.7B" federal/state/local settlement announced 2015 (TA §11.2 components). *In-repo index:* same JSON. Confidence: HIGH.
 - **U.S. EPA, AP-42 §1.1** + Pocahontas-seam heat content (~28 mmBtu/short ton; USGS/EIA). *Backs:* McDowell coal emission factor 93.28 kg CO₂/mmBtu × 28 = 2.61 mt CO₂/short ton (TA §11.1/§11.6; Ch8 §72). *In-repo index:* `manuscript/_CANONICAL_FIGURE_LEDGER.md`. Confidence: HIGH (ledger-pinned).
 - **U.S. Energy Information Administration (EIA), historical coal price series** (Annual Energy Review / coal historical statistics; average mine price of coal). *Backs:* 1960 nominal mine-mouth coal price ~$4.71/short ton (bituminous) / ~$4.83 (all coal) → "just under five dollars"; the price (denominator) side of the McDowell IPG. *In-repo index:* `manuscript/_CANONICAL_FIGURE_LEDGER.md` (J3). Confidence: HIGH (official); exact series/URL to lock at apply-time.
+- **U.S. Energy Information Administration (EIA) / ICE Brent crude spot price.** *Backs:* Method-3 V_option for the Norway petroleum case = the crude's own market value (&asymp; recent Brent ~$80/BOE; ~$40&ndash;120/BOE across 2020&ndash;2024 price regimes) (TA &sect;11.5). *In-repo index:* `manuscript/_CANONICAL_FIGURE_LEDGER.md`. Confidence: HIGH (official; exact series/date to lock at apply-time).
 - **U.S. EPA (2023), Social Cost of Carbon.** *Backs:* SCC $190/t CO₂ central estimate (attribute to EPA 2023, **not** Rennert et al. 2022 ≈ $185). Carbon cascade. *In-repo index:* `_CANONICAL_FIGURE_LEDGER.md`. Confidence: HIGH.
 - **Climeworks (Orca/Mammoth); IEA; IPCC AR6; U.S. National Academies.** *Backs:* DAC cost bands $600–1,000 / $300–600 / $100–300 per ton CO₂ (TA §3.3/§11.6/§11.9 Habitability anchor). *In-repo index:* `TechnicalAppendix §11.6 L4601/4615/4629`; `_CANONICAL_FIGURE_LEDGER.md`. Confidence: HIGH (attributed in-text).
 
 - **SpaceX — Falcon 9 capacity + list price.** *Backs:* LEO payload capacity **22,800 kg** (expendable max) and list price **~$74M (2026; year-stamped, rises over time)** → **~$3,245/kg** LEO (TA §11.10). *Source:* SpaceX — the seller is the authority on its own vehicle's spec + list price; corroborated by the NASA-hosted *Space Launch Report* data sheet (sma.nasa.gov). Re-confirm the price at publication. **NB:** the §11.10 Falcon Heavy (`$90M / 63.8t`) + Starship cells need the same year-pin (SOFT follow-up).
+
+- **U.S. Energy Information Administration (EIA), U.S. coal reserves + reserves-to-production.** ("How much coal is left"; FAQ id=70; U.S. Coal Reserves.) *Backs:* the ς (scarcity) parameter of Method 3 (TA §3.5/§11.6) on the reserves-to-production (R/P) register — U.S. recoverable reserves ~249–250 Bst; at-producing-mines ~11.7 Bst; **R/P ~422 yr (total recoverable) vs ~20 yr (producing-mine inventory)** (EIA's own arithmetic). Added 2026-06-08 (M3-rigor σ/ς-grounding audit 2026-06-07). https://www.eia.gov/energyexplained/coal/how-much-coal-is-left.php Confidence: HIGH (official).
+- **Energy Institute (formerly BP), *Statistical Review of World Energy*.** *Backs:* the R/P-ratio *definition* ("years remaining reserves would last at current production") and the world-resource R/P anchors for ς — **world coal R/P ~133 yr; world oil R/P ~47–53 yr** (consistent with M3's lower oil-σ vs higher coal-σ ordering once register + substitutability are stated). Added 2026-06-08 (M3-rigor σ/ς-grounding audit 2026-06-07). https://www.energyinst.org/statistical-review Confidence: HIGH (industry-standard series).
+- **U.S. Geological Survey — Appalachian-basin coal depletion + McDowell coking-coal estimate.** (USGS Prof. Papers 1625-F Ch. H and 1708-D3; McDowell County recoverable-reserve estimate via UNT Digital Library / WV Geological Survey.) *Backs:* the McDowell-specific scarcity register for ς (TA §11.6) — Central Appalachian production trends lower over ~20 yr as dwindling reserves make the coal uncompetitive; McDowell original mineable ~5.34 Bt, produced ~1.50 Bt (1883–1995), **estimated recoverable remaining ~1.70 Bt** — i.e. the producing-mine register has collapsed locally (the framework's point). Added 2026-06-08 (M3-rigor σ/ς-grounding audit 2026-06-07). https://pubs.usgs.gov/pp/1708/d3/ Confidence: HIGH (agency / peer-reviewed compilation).
+- **U.S. Geological Survey, *Mineral Commodity Summaries* (2024/2025), Rare Earths.** *Backs:* the rare-earth scarcity register for ς (illustrative cross-resource calibration) — world reserves ~90–110 Mt REO ÷ ~390,000 t/yr production → **R/P ~230–280 yr** (derived; arithmetic on cited USGS inputs); binding scarcity is geopolitical concentration + processing toxicity, not R/P exhaustion. Added 2026-06-08 (M3-rigor σ/ς-grounding audit 2026-06-07). https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-rare-earths.pdf Confidence: HIGH (agency; R/P derived).
 
 ### 23.2 Candidate sources (surfaced 2026-06-06 web research — RE-VERIFY before any publisher-facing use)
 
