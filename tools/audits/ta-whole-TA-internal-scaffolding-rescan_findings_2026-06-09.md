@@ -11,8 +11,10 @@ reader-facing prose. Author direction 2026-06-09: "ensure we aren't talking abou
 internal audience, or rigor tests as that doesn't really mean anything to anyone else."
 **Method:** manual whole-file scan (parent session) + three sub-agents reading thirds
 (1–2700 / 2700–5400 / 5400–8007). All findings independently spot-verified in context.
-**Status of edits:** Tier-1 (4 items) RATIFIED + APPLIED (commit `8dc1389`, MERGE-HOLD).
-Everything below the Tier-1 block is PROPOSED, awaiting ratification. No further edits applied.
+**Status of edits: ALL TIERS RATIFIED + APPLIED 2026-06-09.** Tier-1 (4 items) commit
+`8dc1389`; Tier HIGH/MED/LOW (32 targeted + 1 global) applied as a single assertion-guarded
+batch (the scaffolding-sweep commit). 0 residual scaffolding-class phrases remain in the TA.
+Substance preserved throughout; only internal framing stripped. All MERGE-HOLD.
 
 ---
 
