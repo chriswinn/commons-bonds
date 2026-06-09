@@ -22,7 +22,7 @@
 ## Per-chapter candidate beats (seed; fill during each chapter's decision chat)
 
 - **Ch1 — The Quiet Math:** plane-open (exists); wind-tunnel frame (exists); "something I do not yet have a name for" → pays off when the framework is named (setup already seeded).
-- **Ch3 — The Waterman:** **the shells piled four stories high → carted off to build boardwalks** = the regenerative substrate physically removed (the documentable severed cost for the reef Restitution case). Status: **IDEA** (vivid, documentable, author-standing). Harvest the Atlantic-main essay's "reef = community = body = future = foodweb" framing in alongside it.
+- **Ch3 — The Waterman:** **the shells piled four stories high → carted off and ground into the region's roads, driveways, and wharves (incl. the author's family's own driveway, shell being cheaper than rocks)** = the regenerative substrate physically removed (the documentable severed cost for the reef Restitution case). Status: **IDEA** (vivid, documentable, author-standing). **CORRECTED 2026-06-08 (father): NOT the Buckroe Beach boardwalk — that was concrete + rocks, no oyster shells. See `research/story-drafts/ch3-FACT-CORRECTION_father_boardwalk_2026-06-08.md`.** Harvest the Atlantic-main essay's "reef = community = body = future = foodweb" framing in alongside it.
 - **Ch10 — Common Bonds (close):** candidate close devices — plane *landing* / *sunset* / the through-question handed to the reader / a breath. Status: **IDEA** (choose one+ at the redraft; this is the book's last impression).
 - **[Ch2, Ch4–Ch9, TA]:** populate during their decision chats.
 
