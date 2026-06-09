@@ -18,7 +18,11 @@ The **M3 Path-B rework session** (Session D, branch `ta-m3-pathb`) is live and o
 1. **Two of my class-4 sourcing flags are already being closed by Session D** — route them there, do NOT double-source:
    - Atmospheric CO₂ half-life ~100/1000 yr (§7.3, §17.6) → **Archer 2009 + IPCC AR6** (Session D §16.5).
    - McDowell disturbed-acreage / cumulative coal production / coal-price (§11.6, §7.6) → **USGS McDowell + EIA** (Session D §23.1).
-2. **§23.1 merge coordination:** *both* this branch and `ta-m3-pathb` edited `research/literature/bibliography.md` §23.1. My edits = the **Falcon 9 update + NASA/KISS/Colvin space-economics entries**; Session D's = the **ς/R-P + USGS + EIA coal entries**. Different bullets, same list → should merge cleanly, but **merge sequentially and eyeball §23.1** (per the resume-doc divergent-edit caution).
+2. **`bibliography.md` merge coordination — 3+ contributors (CLOSEOUT EYEBALL; confirmed by Session D ack 2026-06-09).** The bib now carries edits from three branches; merge sequentially and eyeball the shared sections. Contributor map:
+   - **Session D (`ta-m3-pathb`, tip 346ddf0):** §16.5 (α-irreversibility refs: Henry 1974, Palmer 2010, Bernhardt & Palmer 2011, IPCC AR6 SPM B.5, Archer 2009) + §23.1 (ς/R-P: EIA coal R/P, Energy Institute, USGS Appalachian/McDowell + MCS; Brent).
+   - **Provenance branch (foundation + this resume session):** §23.1 space-economics (Falcon 9 update + NASA/KISS/Colvin); §18 DAC papers (Keith/Realmonte/House/Rennert); §20 patents; §1507 Black Lung relabel; §23.2 Isle de Jean Charles (promoted/verified); §23.3 Himmelstein authorship fix; **§24 (manuscript-ledger consolidation, ~25 entries + the 4 §24 verify-flag clearances)**.
+   - **Original audit pass:** the base §23.1 entries.
+   **Collision zones = §23.1 (all three touched it) + §23.3 (Himmelstein authorship — NB the same garble likely still lives in TA §18, which is a separate hand-maintained bib; see the back-matter reorg brief sent to PM).** Different bullets/sections → should merge cleanly; the eyeball is to catch any same-bullet edit. §24/§16.5/§23.2 are single-contributor (clean).
 3. **All §11.6/§3.6/§9.5 Method-3 numbers + the McDowell IPG belong to Session D.** This memo's 3C V_option/$300-RCV items are noted but **Session D owns the resolution.**
 
 ---
