@@ -368,7 +368,7 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       Increasing in scarcity: &part;U/&part;Q &lt; 0 (utility per remaining unit increases as stock depletes)
      </li>
      <li>
-      Bounded below by market price: U(R, t, Q(t)) &ge; P(t) for all t &ge; t₀
+      Bounded below by the annualized market price: U(R, t, Q(t)) &ge; r &middot; P(t) for all t &ge; t₀ (the stock price P(t) is converted to a per-period flow r &middot; P(t) so the lower bound is dimensionally consistent with the flow U)
      </li>
     </ol>
     <p>
@@ -6595,7 +6595,7 @@ is not framework-imprecision but time-horizon-attribution discipline.
      What Daly gets right:&nbsp;"Weak sustainability" (Hartwick's approach: substitute capital for natural capital) is insufficient. "Strong sustainability" requires maintaining the natural capital stock itself &mdash; particularly for critical natural capital with no adequate substitute. GDP as a measure of welfare is deeply misleading because it counts environmental destruction as economic activity.
     </p>
     <p>
-     RCV relationship:&nbsp;The RCV model operationalizes Daly's strong sustainability criterion mathematically. Where Daly argues normatively that S_max must equal 1 for strong sustainability to be achievable, RCV asks empirically: what is S_max for each resource class? For high-existential substitutability gap resources (rare earths, platinum group metals, phosphorus), S_max &lt; 1 &mdash; Daly's strong sustainability criterion cannot be met by substitution alone. The RCV model quantifies the resulting cost, complementing Daly's qualitative argument with a measurable framework.
+     RCV relationship:&nbsp;The RCV model operationalizes Daly's strong sustainability criterion mathematically. Daly's claim, in the framework's terms, is that for critical natural capital S_max &lt; 1 &mdash; there is no adequate substitute &mdash; so strong sustainability cannot be achieved by substituting capital for the natural stock and instead requires maintaining the physical stock itself. RCV asks empirically: what is S_max for each resource class? For high-existential substitutability gap resources (rare earths, platinum group metals, phosphorus), S_max &lt; 1, confirming Daly's premise &mdash; substitution alone cannot meet the criterion. The RCV model quantifies the resulting cost, complementing Daly's qualitative argument with a measurable framework.
     </p>
     <h4>
     </h4>
@@ -7327,7 +7327,7 @@ is not framework-imprecision but time-horizon-attribution discipline.
      RCV = &int;t₀&infin;&nbsp;{ [1 &minus; S(t)] &middot; U(R, t, Q(t)) + E(R, t) } &middot; exp(&minus;&int;t₀t&nbsp;r(u)du) dt
     </p>
     <p>
-     where r(t) = r₀ &middot; e&minus;&kappa;t&nbsp;+ r_min
+     where r(t) = (r₀ &minus; r_min) &middot; e&minus;&kappa;t&nbsp;+ r_min
     </p>
     <p>
      The declining discount rate function r(t) starts at r₀ (conventional current rate, ~4&ndash;5%) and declines to r_min (~1%) over long horizons at decay rate &kappa; &gt; 0, reflecting Weitzman's certainty-equivalent rate under discount rate uncertainty. This specification is conservative relative to a zero or near-zero pure time preference &mdash; it biases RCV downward.
@@ -7342,7 +7342,7 @@ is not framework-imprecision but time-horizon-attribution discipline.
      where &zeta;, &omega; &gt; 0 capture scarcity effects on innovation incentives (&zeta; and &omega; are local to &sect;16.2 and distinct from the Method-3 irreversibility parameters &alpha;, &beta; in &sect;3.5)
     </p>
     <p>
-     When stock Q is large, innovators have low incentive to develop substitutes &mdash; resources appear abundant, prices are low. As Q approaches Q_critical (the level at which scarcity becomes economically visible), innovation pressure increases and S_base rises faster. This creates a potential feedback loop: very rapid extraction can keep prices low long enough to delay substitute development, resulting in a lower achieved S_max when depletion eventually forces the issue. This is the mechanism behind "stranded asset risk" &mdash; industries that extracted too fast find themselves without substitutes when they need them.
+     When stock Q is large the suppression term &zeta; &middot; (Q_critical / Q(t))&omega; is negligible and achieved substitutability sits at its baseline S_base &mdash; abundance keeps prices low and removes the economic pressure that would drive substitute development, but the penalty has not yet bitten. As Q falls toward Q_critical (the level at which scarcity becomes economically visible) the suppression term grows and achieved S is pulled below S_base: the substitutes that low-price abundance failed to call forth are not ready when depletion forces the issue. This is the mechanism behind "stranded asset risk" &mdash; industries that extracted too fast kept prices low long enough to delay substitute development, and so face a lower achieved S_max (a larger 1 &minus; S foreclosure weight) exactly when substitutes are most needed.
     </p>
     <h3>
      &sect;16.3 &mdash; Spatial cost severance formalization
