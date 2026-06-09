@@ -25,7 +25,7 @@ Path B's headline (`RCV_M3 = M×V_underlying`, M=β/(β−1), β from the D–P 
 arithmetically correct (β≈1.341, M≈3.93, M×$496≈$1,950 — rederived) but rejected because:
 
 1. **"Double-counts volatility + irreversibility" mischaracterizes the current formula.**
-   Current `V_option` is a posited ~market-price base, not D–P-derived, so it embeds no σ/α
+   Current `V_market` is a posited ~market-price base, not D–P-derived, so it embeds no σ/α
    to double-count. The real defect is *posited/mis-specified base + over-hot bespoke amplifier*.
 2. **It relocates fragility from the best-grounded parameter to the worst.** The headline
    diverges to ∞ as δ→r; $1,950 hinges entirely on the assumed wedge (r−δ)=0.01, and δ
@@ -54,9 +54,9 @@ Henry 1974 lineage — preservation under uncertainty + irreversibility), built 
 the **Commons Inversion Test** into the pricing formula:
 
 ```
-RCV_M3 = V_option × scarcity_weight(ς) × irreversibility_weight(α)
+RCV_M3 = V_market × scarcity_weight(ς) × irreversibility_weight(α)
 
-  V_option            = the resource's own intrinsic value (market / extraction value).
+  V_market            = the resource's own intrinsic value (market / extraction value).
                         In ABUNDANCE this is ~market price (both weights → 1, RCV ≈ market —
                         the asteroid-iron calibration); the SOCIAL premium EMERGES from the
                         two weights under scarcity + irreversibility. (NOT a posited $50–500
@@ -77,7 +77,7 @@ RCV_M3 = V_option × scarcity_weight(ς) × irreversibility_weight(α)
 | # | Current | Path A | Drives |
 |---|---|---|---|
 | **σ-rename** | `σ = scarcity ratio` *inside an option-value product cited to Dixit–Pindyck* — read as VOLATILITY on sight; and stock÷flow is time-dimensioned (units bug) | rename **σ → ς**; define ς as dimensionless normalized R/P; cite EIA/EI-BP/USGS | **Finding A (dismissal-grade).** ✔ registry Part 4. Removes the volatility-collision + units bug. |
-| **V_option anchor** | posited `$50–500/ton` (market-price-flavored, unsourced) | **the resource's own market/intrinsic value** (coal: $40–140/ton contemporary by grade, TA L2916; asteroid: ~iron market price). The CiT premium emerges from the weights, not from the base | Fixes the mis-specified/posited base **without** carbon-SCC anchoring (which would double-load scarcity, break the asteroid demo, and break backward CSD). Preserves M3's identity + triangulation independence. |
+| **V_market anchor** | posited `$50–500/ton` (market-price-flavored, unsourced) | **the resource's own market/intrinsic value** (coal: $40–140/ton contemporary by grade, TA L2916; asteroid: ~iron market price). The CiT premium emerges from the weights, not from the base | Fixes the mis-specified/posited base **without** carbon-SCC anchoring (which would double-load scarcity, break the asteroid demo, and break backward CSD). Preserves M3's identity + triangulation independence. |
 | **irreversibility form** | `1/(1−α)^β`, free β (β=2 → ×100, an order-of-magnitude swing, L5344) | `1/(1−α)`, **β fixed = 1**, given the *expected-loss-under-irreversibility-probability* interpretation | **Finding D.** Removes the single worst fragility (free β). |
 | **dominance relocation** | "α-dominance *finding*": the formula diverges as α→1, presented as a discovered sensitivity result (header L922; implication L1029–1033) | reframe as **weighted, not discovered**: irreversibility is *weighted* heavily (direction grounded by IPCC/B&P); the *dominance* of irreplaceable harm is **theorem-grounded — Thm 10.4 knife-edge (L3677) + Thm 10.5 Substitution Dominance + §13** — not manufactured by the multiplier. The α→1 limit is routed to the existing **§12 incommensurability boundary + ARR** (L6355/6639) | **Finding D + CSD-spec §7 reconciliation.** ✔-corroborated (reverse session: 10.4 divergence is a *feature*; no unpriceability theorem exists). Honors §7's "prices high / divergence = dominates" while killing the tautology. |
 | **construct citation** | "standard real-options option value (Dixit–Pindyck 1994)" — implies D–P calibration provenance it does not have | cite **Arrow–Fisher 1974 + Henry 1974** for the *construct* (quasi-option value of preservation; already in bib L7738); flag parameter magnitudes as posited-with-sensitivity (the framework's existing honest posture). Note full D–P lives in the §9 Real Options cross-check | Fixes the "cites D–P but isn't D–P" mismatch without adopting D–P. |
@@ -113,7 +113,7 @@ The thesis "irreversibility is the heart of the matter" is **unchanged**; it mov
 `scarcity_weight ≈ 1 + ln(1+ς)×0.05 ≈ 1.27–1.31` across the documented R/P range
 (insensitive — ≤13% swing, per σ-grounding audit). `irreversibility_weight = 1/(1−α)`.
 
-| Case | V_option (market) | ς-weight | α | irrev-weight | RCV_M3 | Behaves? |
+| Case | V_market (market) | ς-weight | α | irrev-weight | RCV_M3 | Behaves? |
 |---|---|---|---|---|---|---|
 | **Asteroid iron** (abundance) | ~market iron price | ~1.0 (ς≈1–10) | 0.05–0.2 | ~1.05–1.25 | **≈ market price** | ✓ CiT: RCV≈market (matches L5295) |
 | **Mars breathable air** | life-support cost | high | →1 (existential) | → diverges | **→ §12 incommensurability boundary + ARR** | ✓ routed to ARR, not a finite multiplier |
@@ -192,7 +192,7 @@ directions.**
 The Path-A formula is **bidirectional-capable by construction**, without hard-wiring the contested
 reverse architecture:
 
-- **V_option** — forward: resource's market/intrinsic value; **backward**: value of the
+- **V_market** — forward: resource's market/intrinsic value; **backward**: value of the
   optionality *extinguished* at extraction (non-renewable stock value) **or** the foregone
   *service flow* (renewable-regeneration cases, e.g. the reef — "the oysters the bar would have
   grown").
@@ -205,11 +205,11 @@ the CSD spec is itself an unverified suggestion): the point/range asymmetry (rej
 the ex-post/ex-ante backward fork, the M2 direction-split, the reef numbers.
 
 **Backward-M3 under Path A (symmetric with forward — corrects a Path-B residue):**
-`CSD_M3 = V_option(extinguished optionality / foregone service flow) × scarcity_weight(ς at extraction)
+`CSD_M3 = V_market(extinguished optionality / foregone service flow) × scarcity_weight(ς at extraction)
 × irreversibility_weight(1/(1−α), realized)`. **The multiplier architecture is KEPT in both
 directions.** Retiring the multipliers ("a single option premium; no separate scarcity_multiplier ×
 irreversibility_premium") was *Path B*, now rejected. Under Path A they do **not** double-count,
-because V_option is the *market/intrinsic* base (not a D–P-derived value that already embeds σ/α).
+because V_market is the *market/intrinsic* base (not a D–P-derived value that already embeds σ/α).
 The reverse §5.5 should commit to **no** forward M3 number.
 
 > **⚠ Reconciliation (prose, not numbers):** the reverse draft's §0 flag 1 *and the earlier version
@@ -227,7 +227,7 @@ The reverse §5.5 should commit to **no** forward M3 number.
    collision); edit lands in the reverse draft when that session next touches it.
 1a. **Backward-M3 description (Path-B residue):** the reverse draft's §0 flag 1 describes backward-M3
    as "a single option premium; no separate multipliers" (Path B). Reconcile to the **Path-A multiplier
-   architecture** (V_option × ς-weight × irreversibility-weight, both directions; Part 6). Prose only —
+   architecture** (V_market × ς-weight × irreversibility-weight, both directions; Part 6). Prose only —
    **no reef numbers change** (reef bond = M1 cure-cost + M2 realized-B; M3 declined / Open slot).
 2. **Daly §14.6** is being applied by the reverse session (M3-independent; *strengthens* the
    dominance-relocation since corrected Daly = the S_max<1-critical-capital basis). Not edited here.
@@ -245,7 +245,7 @@ The reverse §5.5 should commit to **no** forward M3 number.
 2. **M2 (c)-uniform: ✅ RESOLVED** (Part 5; reverse A3 reconciles to (c) by propagation).
 3. **Headline presentation: ✅ RATIFIED 2026-06-08** — McDowell M3 as **band ($350–3,640) with central
    ~$1,170**, "within M1's replacement-cost range, independently anchored," + α/grade sensitivity.
-4. **§3.5 cluster: ✅ APPLIED 2026-06-08 (commit `fd39af7`)** — V_option market anchor, σ→ς (ratified),
+4. **§3.5 cluster: ✅ APPLIED 2026-06-08 (commit `fd39af7`)** — V_market market anchor, σ→ς (ratified),
    log→ln, β dropped (1A), reframed implication + "Reading the formula" prose, Solow 1974. σ→ς sweep
    verified scoped to §3.5 (§11.x σ untouched). **Follow-ups:** Stage-4 render check for ς (`&sigmaf;`
    tofu risk); §16.2 α→ζ rename must reach the merged tree.
@@ -256,7 +256,7 @@ The reverse §5.5 should commit to **no** forward M3 number.
    - ARR cross-refs §3.2 + §15.1.7 + TOC (`f63caca`): α-dominance → irreversibility-weighting; β superscript dropped; dominance relocated to Thm 10.4/10.5.
    - Cost Severance Decomposition name + §3.5 ς-tweak (`0e7f3e3`).
 6. **REMAINING (flagged, not yet done):**
-   - **§11.5 Norway worked example** (4294/4317/4423): still σ/β/old-form/α-dominance-regime. Needs a dedicated Norway-worked-example pass (like §11.6): σ→ς, log→ln, drop β, V_option→market crude, irreversibility_premium→1/(1−α); **preserve the α 0.50–0.75 institutional-architecture story** (Path A keeps the α dial — Norway needs no surgery, just the mechanical reframe + V_option relabel + recompute the ~$281/BOE worked number). Left internally intact rather than half-swept.
+   - **§11.5 Norway worked example** (4294/4317/4423): still σ/β/old-form/α-dominance-regime. Needs a dedicated Norway-worked-example pass (like §11.6): σ→ς, log→ln, drop β, V_market→market crude, irreversibility_premium→1/(1−α); **preserve the α 0.50–0.75 institutional-architecture story** (Path A keeps the α dial — Norway needs no surgery, just the mechanical reframe + V_market relabel + recompute the ~$281/BOE worked number). Left internally intact rather than half-swept.
    - Hand the reframed core to the **Ch6/Ch8 drafting sessions** (paste-blocks already drafted).
 
 ## PART 9 — Reef / Method-3-backward demonstration (recommendation for the reverse session)
@@ -279,7 +279,7 @@ M3 adds little ceiling anyway. So yes — *not* declining the figure introduces 
 
 **But Darity's point holds, and is satisfiable without the risk:** the transferable tool is the **method**,
 not a reef dollar figure. Recommendation — the reverse model **fully specifies operational backward-M3**
-(Path-A: `V_option(extinguished optionality / foregone service flow) × scarcity_weight(ς) ×
+(Path-A: `V_market(extinguished optionality / foregone service flow) × scarcity_weight(ς) ×
 irreversibility_weight(1/(1−α))`, + the ex-post/ex-ante fork + the Four-Gates admission + the Open-slot
 discipline) **while declining to enter a contestable reef figure.** That demonstrates M3 working backward
 (operational + transferable — exactly what Darity could leverage) and keeps the reef bond bulletproof.

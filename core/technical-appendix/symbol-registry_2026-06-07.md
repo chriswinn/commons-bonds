@@ -34,7 +34,7 @@
 | **δ vs Δ** | ε–δ width δ vs change-operator Δ (ΔForeclosure_cost) | 3520 vs 3747 |
 | **T vs t/t₀** | proof threshold time T vs time variable t | 3624 vs throughout |
 | **c vs C vs 𝒞** | cost function c(A) vs cost component C/Cᵢ vs commons set 𝒞 (script) | 3440 vs 327 vs 327 |
-| **V(x,t) vs V_option** | spatial value vs Method-3 option value | 7365 vs 889 |
+| **V(x,t) vs V_market** | spatial value vs Method-3 option value | 7365 vs 889 |
 | **C₁ vs B₁** | Foreclosure Cost C₁ (forward) vs Restitution Bond B₁ (backward) — subscript-1 carries *opposite* temporal valence | 1276 vs 1219 |
 | **2%** | EPA SCC discount rate vs one of Weitzman's candidate rates | 5740 vs 6564 |
 | **× (times)** | multiplication vs ratio-magnitude suffix ("33–122×") vs Cartesian product (ℝ×[t₀,∞)) | many |
@@ -78,8 +78,8 @@
 
 | Glyph | Meaning | Units | Provenance | Std-notation | Collision |
 |---|---|---|---|---|---|
-| RCV_M3 | Method-3 estimate = V_option × scarcity_multiplier(σ) × irreversibility_premium(α) | $·res⁻¹ | Dixit–Pindyck 1994 | — | — |
-| V_option | real-options option value | $ | Dixit–Pindyck 1994 **VERIFY** | — | 🟠 vs V(x,t) |
+| RCV_M3 | Method-3 estimate = V_market × scarcity_multiplier(σ) × irreversibility_premium(α) | $·res⁻¹ | Dixit–Pindyck 1994 | — | — |
+| V_market | resource's own market / underlying value (abundance baseline; renamed from V_option under Path A — the option premium emerges from the ς/α weights, not the base) | $ | Arrow–Fisher 1974 / Henry 1974 | — | 🟠 vs V(x,t) |
 | σ | scarcity parameter = stock/flow ratio | "dimensionless" (but defined as a ratio → time-dimensioned; **units conflict**) | — | ⚠⚠ **In Dixit–Pindyck/Black–Scholes σ = VOLATILITY.** Reusing σ for a scarcity ratio inside an option-value formula is the single most reader-confusing choice. **VERIFY** | (units issue, Part 1) |
 | α | irreversibility probability ∈[0,1] | dimensionless | — (aligned to IPCC tipping-point lit) | — | 🔴 vs §16.2 α |
 | β | risk-posture exponent in 1/(1−α)^β | dimensionless | — | ⚠ finance β = CAPM systematic risk | 🔴 vs §16.2 β |
@@ -128,8 +128,8 @@ Symbol/formula provenance citations used inline but **NOT found as bibliography 
 
 | Cited inline for | Work | Status |
 |---|---|---|
-| V_option / σ real-options provenance | **Brennan & Schwartz 1985** (commodity-investment real options) | ❌ ABSENT (cited 6706, 6719, 6723) |
-| V_option option-pricing foundation | **Black–Scholes 1973** | ❌ ABSENT (cited 6723) |
+| V_market / σ real-options provenance | **Brennan & Schwartz 1985** (commodity-investment real options) | ❌ ABSENT (cited 6706, 6719, 6723) |
+| V_market option-pricing foundation | **Black–Scholes 1973** | ❌ ABSENT (cited 6723) |
 | risk-vs-uncertainty | **Knight 1921** | ❌ ABSENT (cited 6895) |
 
 Confirmed PRESENT (symbol-provenance-relevant): Solow 1956 (7981) & 1974 (7984); Weitzman 2001 (8026); Dixit & Pindyck 1994 (7807); Hotelling 1931 (7855); Hartwick 1977 (7834); Dasgupta & Heal 1979 (7801); Atkinson 1970 (7741); Cobb & Douglas 1928 (7777); Arrow & Fisher 1974 (7738); Henry 1974 (7840); Pindyck 1978 (7945) & 2008 (7948); Pigou 1920 (7942); Nordhaus & Boyer 2000 (7915); Stern 2007 (7993); Royden 1988 (7966); Folland 1999 (7822).
