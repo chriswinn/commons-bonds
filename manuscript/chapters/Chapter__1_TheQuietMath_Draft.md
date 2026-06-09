@@ -134,5 +134,3 @@ The son I once held is somewhere in the world now. I do not know where. I wish I
 I am writing for the ones still ahead of us, for the unseen costs of the decisions not yet made, so that we can see the true cost before the truth is too late to use.
 
 This is the ledger. I can only point out the empty columns. The numbers are yours to enter.
-
-End of Chapter 1

@@ -244,7 +244,3 @@ Mars-surface presence is currently far more expensive than low-Earth-orbit acces
 
 None of this is offered as a delivery-cost forecast. The framework's claim about asteroid iron — that residual commons value approaches market price under any reasonable accountability bond — does not depend on which specific cost-per-kilogram number eventually settles. The structural argument is about substitutability and externality, both approximately zero for asteroid iron, regardless of the delivery economics. The numbers are noted here only so that a reader who wants to know whether the parameter ranges in the chapter are grounded in real exploration economics has the answer: they are.
 
----
-
-— End of Chapter 7 —
-

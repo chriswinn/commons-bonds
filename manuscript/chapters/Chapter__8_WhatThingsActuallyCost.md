@@ -243,5 +243,3 @@ For now, what this chapter gives the reader is the one worked example: a ton of 
 
 The next two chapters return to what that means, for McDowell County, for the waterman, for the reader's own life, and for the century ahead.
 
-— End of Chapter 8 —
-

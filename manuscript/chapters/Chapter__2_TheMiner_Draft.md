@@ -208,7 +208,3 @@ The mechanism working on them is different in its details. A renewable resource 
 But the structure is the same. The value disperses, to the restaurants in Richmond and Washington and Baltimore, to the people who eat the crab, to the supply chains that move it. The cost concentrates on the water, on the communities that live off the water, on the Bay itself. The accounting that prices the crab cake does not price what it takes to keep the Bay that makes the crabs.
 
 The miner and the waterman do not know each other. The thing connecting them has no name in ordinary speech, which is most of why it has been able to run so long. I have given it one now: cost severance, the value going up and out, the cost settling down and staying. The next chapter goes out onto the water to watch it work there, in a place the author happens to have grown up on, against people he can name. Same structure. Different details. The defendant is the same in both, and it is still not in the room, because it is still an instrument that does not exist.
-
----
-
-End of Chapter 2

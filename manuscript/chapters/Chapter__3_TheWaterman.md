@@ -244,7 +244,3 @@ That is the question the next chapter takes up.
 For now, the boats are out at the mouth. The light has crossed the channel and reached the top of the Fort. A man two slips over has come in early. He is empty. He is hosing down. A truck door closes, somewhere on the parking lot. The day is beginning. It is the day a waterman has, on the Bay he has, with the accounting the country has agreed to do.
 
 It is not yet the day he could have had.
-
----
-
-— End of Chapter 3 —

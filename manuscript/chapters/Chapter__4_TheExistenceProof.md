@@ -135,7 +135,3 @@ Neither outcome was inevitable. Both were engineered.
 
 The remaining chapters ask what engineering the honest outcome everywhere — not only in the narrow set of jurisdictions that happen to have inherited Norway's institutional advantages — would actually require. The next chapter takes that question into the industrial cases that have not been Norway: Libby, Deepwater Horizon, Exxon Valdez, Baotou. Each one tells part of the answer. Each one tells part of the warning.
 
----
-
-— End of Chapter 4 —
-

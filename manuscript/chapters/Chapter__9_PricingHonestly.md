@@ -288,7 +288,3 @@ They are not, the book has argued, separate problems. They are the same problem 
 If that is true, then the last chapter has to ask what follows from recognizing it — not as policy, but as something closer to a fact about ourselves and the generations we belong to, and the ones we owe.
 
 That is where the book goes from here.
-
----
-
-— End of Chapter 9 —

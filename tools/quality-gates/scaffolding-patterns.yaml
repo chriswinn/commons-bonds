@@ -494,6 +494,34 @@ patterns:
       Anchor: TA §11.11 line 6236.
     allowlist: []
 
+  # ===== Category 9: Structural terminal markers =====
+  # End-of-chapter / end-of-section terminal markers ("End of Chapter N",
+  # "— End of Chapter N —", "End of Appendix"). Unnecessary in a written or
+  # digital book — the next chapter's title page already signals the boundary.
+  # Author-forbidden by direction 2026-06-09. These are structural scaffolding,
+  # not prose; they leak in from drafting where a chapter file is worked in
+  # isolation. Removed from all 9 live chapters carrying them (Ch 1-4, 6-10;
+  # Ch 5 live was already clean) in the same workstream that added this pattern.
+  #
+  # Case-sensitive capital "End of" to avoid false-positiving legitimate prose
+  # ("by the end of this chapter ...", "the chapter ends ..."), which is
+  # lowercase and uses different word order. The terminal-marker form is
+  # title-cased and stands alone on its own line.
+
+  - id: scaffold-end-of-chapter-marker
+    pattern: 'End of (the )?(Chapter|Appendix|Section|Part)\b'
+    type: regex
+    severity: HIGH
+    category: structural-terminal-marker
+    description: |
+      End-of-chapter / end-of-section terminal marker ("End of Chapter N",
+      "— End of Chapter N —", "End of Appendix"). Author-forbidden 2026-06-09:
+      unnecessary because the next chapter's title page signals the boundary
+      in print + digital. Anchor: removed from 9 live chapters 2026-06-09
+      (Ch 1 L138, Ch 2 L214, Ch 3 L250, Ch 4 L140, Ch 6 L365, Ch 7 L249,
+      Ch 8 L246, Ch 9 L294, Ch 10 L184).
+    allowlist: []
+
 # ===== Scope configuration =====
 #
 # By default, scaffolding scan runs against:

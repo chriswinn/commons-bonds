@@ -180,5 +180,3 @@ Naming them is also not the end. After the naming comes the long, slow work of p
 The morning is coming. The boats are going out. The dog is at the foot of the companionway, waiting for me to bring the kettle up and to begin the day she has decided is, like every day, a perfectly ordinary one to be alive for.
 
 Let us begin.
-
-— End of Chapter 10 —
