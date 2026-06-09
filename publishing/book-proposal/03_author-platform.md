@@ -24,6 +24,29 @@ Three lengths cover the venue cascade. Pick the variant whose word count fits th
 
 > Chris Winn is a nursing student at Virginia Peninsula Community College in Hampton, Virginia, and a former healthcare-IT executive whose career began at the National Institutes of Health during the Human Genome Project and rose through federal research and consulting to the CEO seat of a healthcare-IT firm. His forthcoming book *Commons Bonds* develops an economic framework for pricing the intergenerational costs that resource extraction severs from the populations that bear them — what he calls *cost severance* — and introduces *Residual Commons Value* as the corresponding pricing apparatus. The framework applies across coal, oil, fisheries, rare-earth processing, financial instruments, pharmaceutical distribution, and (as a universality test) off-Earth extraction. He lives aboard a sailboat in Hampton.
 
+<!-- PLATFORM-PARAGRAPH-UPDATE-ANCHOR
+
+Ready-to-paste platform-line snippets per Wave 1 venue are in:
+  publishing/book-proposal/platform-paragraph-snippets.md
+
+To update the long bio above as essays land, swap in / append the venue-specific
+line per the snippets file. Snippets are pre-drafted in three status-states:
+
+  (a) "Under consideration at [VENUE] (as of [DATE])."   — submitted, awaiting decision
+  (b) "Forthcoming in [VENUE] ([MONTH YYYY])."           — accepted, pre-publication
+  (c) "Recent essays in [VENUE] ([MONTH YYYY])."         — published
+
+Insertion site: typically as the second sentence of the long bio (after "former
+healthcare-IT executive...firm." and before "His forthcoming book Commons Bonds..."),
+or as the closing sentence if the rhythm prefers it there. Match per-essay-status
+per snippets file. Soft "under consideration" claims may only be cited within the
+venue's response window — never speculative, never beyond the window.
+
+Update cadence: refresh on every placement decision (accepted / declined / withdrawn).
+Also refresh the Placements + Interview record tables below as state changes.
+
+-->
+
 ### Discipline notes
 
 - **Don't manufacture platform.** No "leading scholar of..." / "widely cited..." / similar inflation.
