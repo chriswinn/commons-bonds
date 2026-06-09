@@ -50,10 +50,20 @@ items below are owned by other sessions + the closeout.
    (clears the M3-α/§16.2-α collision). CORPUS-WIDE propagation of **V_option→V_market AND σ→ς**
    into the reader-facing **glossary** (`core/glossary/`) + **terms_index** (`core/terms/`) — both
    still carry the old V_option + σ in their M3-parameters lines (left un-half-edited).
-3. **Correctness/IPG (Session C)** — IPG-apparatus relabel (memo Item 1: §9.5 12-cell table, §3.2
-   IPG=33, §16.4 — keep consistent with M3-IPG-as-premium-multiple); §11.9 DAC refresh (Item 5);
-   the other four $4.50→$4.71 (§9.3/§8/case-file/§15); the Ch6 M1 "$261–2,412" ↔ TA §11.6
-   "$290–2,702" reconciliation. Deepwater repro (Item 4) → Session E.
+3. **Correctness/IPG (Session C) + provenance (co-owned)** — IPG-apparatus relabel (memo Item 1:
+   §9.5 12-cell table, §3.2 IPG=33, §16.4 — keep consistent with M3-IPG-as-premium-multiple);
+   §11.9 DAC refresh (Item 5); the other four $4.50→$4.71 (§9.3/§8/case-file/§15); the Ch6 M1
+   "$261–2,412" ↔ TA §11.6 "$290–2,702" reconciliation. Deepwater repro (Item 4) → Session E.
+   - **⚠ NUMBER-INTEGRITY (33–122× does NOT reproduce).** Verified 2026-06-09: the "canonical
+     33–122×" McDowell IPG does not reproduce from current inputs — carbon $496/1960-$4.71 = 105×,
+     floor = 107–110×, RCV estimate = 123–132× (all cluster ~105–132×); 33× ⇒ $155 (below floor),
+     no current numerator. It's a pre-cascade Ch-6 carry-over (post carbon $510→$496 + price
+     $4.50→$4.71). The Item-1 relabel ("documented"→"framework-computed") is BLOCKED on all
+     33–122× spots (§9.5 L3147, §11.6 cell L4500, §3888, §6556, Ch6/Ch8) until the derivation is
+     re-established. **My §11.11 is already de-asserted** (commit below): it no longer claims
+     "33–122× = carbon ÷ 1960-price"; it only *reports* that Ch6/Ch8 cited it (factual) and
+     reconciles via the reproducible M3 premium-multiple (~8.5–26×) + qualitative carbon lens.
+     The canonical-figure recompute is co-owned (correctness/IPG + provenance), NOT mine.
 4. **Reverse-CSD session** — reconcile backward-M3 to the Path-A multipliers (V_market × ς ×
    1/(1−α)); A3 → (c)-uniform; convergence degree-not-kind; reef M3 declined-but-method-specified.
 5. **Redraft campaign** — chapter M3-number propagation: Ch6 L173 table row (M3 col → $340–3,670/
