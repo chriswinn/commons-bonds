@@ -8,7 +8,7 @@
 # script + all registry consumers.
 
 schema_version: "1.0.0"
-last_updated: "2026-05-17"
+last_updated: "2026-06-09"
 registry_type: "scaffolding"
 
 # Severity tiers:
@@ -405,6 +405,95 @@ patterns:
     description: Workstream-process token
     allowlist: []
 
+  # ===== Category 8: Chapter-author-instruction / cross-draft-reconciliation =====
+  # Internal author-to-drafter instructions + cross-draft reconciliation notes
+  # that direct how a SIBLING chapter should present / reconcile a figure or
+  # argument. These leak from drafting-reconciliation work (e.g. a Tech-Appendix
+  # block that records "Pedagogical implication for Ch 6: when Ch 6 walks
+  # through the table, the reconciliation should be made explicit") into
+  # publisher-facing prose. Distinct from Category 3 process-scaffolding: the
+  # voice here is editorial-instructional ("X should be made explicit when
+  # Ch N walks through Y"), not pipeline-vocabulary.
+  #
+  # Empirical anchor: TA §11.11 IPG-reconciliation cleanup (2026-06-04) found
+  # 3+ uncaught instances the Option-letter / TODO / glyph families miss
+  # ("Pedagogical implication for Ch 6:" / "when Ch 6 walks through the table"
+  # / "the framework's earlier IPG reports in Ch 6 + Ch 8 cited ...");
+  # full-TA re-scan 2026-06-09 confirmed the cluster is confined to §11.11
+  # (4 hits) plus one borderline-descriptive cross-reference at L7326
+  # ("when Ch 4 frames ... via option-value reasoning") that the MEDIUM
+  # severity correctly surfaces for human triage rather than auto-blocking.
+  #
+  # Severity rationale: the unambiguous author-to-drafter instruction voice
+  # ("Pedagogical implication for Ch N:") is HIGH (block); the broader
+  # cross-reference + reconciliation-instruction signatures are MEDIUM (flag),
+  # because a legitimate published cross-reference can share surface form with
+  # the scaffolding ("when Chapter N walks the reader through ...") and the
+  # human reviewer should adjudicate via per-file allowlist rather than the
+  # gate auto-blocking a false positive.
+
+  - id: scaffold-pedagogical-implication-for-ch
+    pattern: 'Pedagogical implication for Ch(apter)?[[:space:]]*[0-9]'
+    type: regex
+    severity: HIGH
+    category: chapter-author-instruction
+    description: |
+      Author-to-drafter instruction voice ("Pedagogical implication for
+      Ch N:") recording how a sibling chapter should present a figure.
+      Unambiguous drafting-reconciliation scaffolding. Anchor: TA §11.11
+      lines 6233 + 6246 (2026-06-04 cleanup).
+    allowlist: []
+
+  - id: scaffold-when-ch-walks-frames
+    pattern: 'when Ch(apter)?[[:space:]]*[0-9]+ (walks|frames)'
+    type: regex
+    severity: MEDIUM
+    category: chapter-author-instruction
+    description: |
+      Cross-draft-reconciliation instruction signature ("when Ch N walks
+      through / frames ..."). MEDIUM because a legitimate descriptive
+      cross-reference can share this surface form (TA L7326 "when Ch 4
+      frames ..." is borderline-legit and should be human-triaged, not
+      auto-blocked). Anchor: TA §11.11 line 6235 (scaffolding) + L7326
+      (borderline).
+    allowlist: []
+
+  - id: scaffold-earlier-ch-reports-cited
+    pattern: 'earlier .* (reports?|figures?) .* cited'
+    type: regex
+    severity: MEDIUM
+    category: chapter-author-instruction
+    description: |
+      Cross-draft figure-reconciliation signature ("the framework's earlier
+      ... reports/figures ... cited a ... range"). Records that a prior
+      chapter cited a now-superseded number; flags for reconciliation review.
+      Anchor: TA §11.11 line 6203.
+    allowlist: []
+
+  - id: scaffold-per-ch-reframing
+    pattern: 'per the Ch(apter)?[[:space:]]*[0-9]+.*reframing'
+    type: regex
+    severity: MEDIUM
+    category: chapter-author-instruction
+    description: |
+      Cross-draft-reconciliation instruction ("per the Ch N ... reframing").
+      Directs alignment with a sibling chapter's reframing of a figure or
+      argument. Anchor: TA §11.11 line 6249 ("per the Ch 8 worked-example
+      reframing").
+    allowlist: []
+
+  - id: scaffold-should-be-made-explicit
+    pattern: 'should be made explicit'
+    type: string
+    severity: MEDIUM
+    category: chapter-author-instruction
+    description: |
+      Reconciliation-instruction tell ("the reconciliation should be made
+      explicit"). MEDIUM because the phrase has plausible legitimate uses
+      ("the assumption should be made explicit"); flags for human review.
+      Anchor: TA §11.11 line 6236.
+    allowlist: []
+
 # ===== Scope configuration =====
 #
 # By default, scaffolding scan runs against:
@@ -420,6 +509,21 @@ patterns:
 #   alignment/**/*.md
 #   publishing/essays/_pipeline/**/*.md
 #   archive/**/*.md
+#
+# KNOWN COVERAGE GAP — Technical Appendix + core/ HTML artifacts (2026-06-09):
+#   core/technical-appendix/TechnicalAppendix_v*.html is end-user-facing prose
+#   but is NOT in the include scope (scope is .md-focused; the TA is HTML).
+#   Category 8 patterns were added 2026-06-09 after a manual TA re-scan found
+#   chapter-author-instruction scaffolding in §11.11 that this gate missed.
+#   The TA is NOT blanket-added to scope because a full-TA dry-run surfaces
+#   6 HIGH false positives on `scaffold-option-letter` — "Option C'" is a
+#   SUBSTANTIVE framework term in the TA (political-philosophical-accommodation
+#   discipline), not process scaffolding — plus ~46 intentional `~`-tilde LOWs.
+#   Bringing the TA under continuous coverage requires a per-file allowlist
+#   for those substantive uses (or a TA-specific severity profile) before it
+#   can be added without auto-blocking every commit. Until that decision lands,
+#   scan the TA manually:
+#     check-corpus-invariants.sh --scope core/technical-appendix/TechnicalAppendix_v2.0.0.html --no-fail
 
 scope:
   include:
