@@ -320,9 +320,9 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      &sect;1. Foundations &mdash; Formal Definitions and Primitives
     </h2>
     <hr>
-    <p>
+    <h3>
      Definition 1.1 (Commons Resource)
-    </p>
+    </h3>
     <p>
      A resource unit R &isin; 𝒞 (where 𝒞 (script C) denotes the commons-territory set; distinguished typographically from C used as cost variable Cᵢ) is drawn from a shared stock Q with regeneration rate &rho; &ge; 0. The framework prices extraction for all values of &rho;.
     </p>
@@ -334,9 +334,9 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       When &rho; &gt; 0, extraction below&nbsp;the regeneration rate leaves Q stable and drives the foreclosure component toward zero; extraction above&nbsp;the regeneration rate drives Q downward and the foreclosure component upward, approaching the non-renewable case as &rho; &rarr; 0 or as stock depletion approaches ecological thresholds.
      </li>
     </ul>
-    <p>
+    <h3>
      Definition 1.2 (Substitutability Function)
-    </p>
+    </h3>
     <p>
      S(t | t₀): [t₀, &infin;) &rarr; [0, S_max] where S_max &le; 1, is the probability that a functionally adequate substitute for resource R exists at time t, given extraction at time t₀. S satisfies:
     </p>
@@ -354,9 +354,9 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     <p>
      For computational tractability: S(t) = S_max &middot; (1 &minus; e&minus;&lambda;(t&minus;t₀)), where &lambda; &gt; 0 is the substitution rate estimated empirically per resource class. S(t) may be influenced by extraction timing &mdash; earlier extraction can slow innovation by reducing economic pressure to develop alternatives.
     </p>
-    <p>
+    <h3>
      Definition 1.3 (Stock-Dependent Utility)
-    </p>
+    </h3>
     <p>
      U(R, t, Q(t)) represents generation t's utility from resource R being available in situ, conditional on remaining stock Q(t). U is:
     </p>
@@ -397,9 +397,9 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     <p>
      The internal mathematical apparatus enforces the framework's reading: &part;U/&part;Q &lt; 0 (utility per remaining unit increases as stock depletes; would be ill-typed under Hotelling-flow or Mussa-Rosen-quality readings) and Q-critical-threshold coupling (Q approaches ecological thresholds; would be ill-typed under flow reading). Adjacent literature: Slade &amp; Thille 2009 <em>Journal of Economic Literature</em> on natural-resource cost-function notation; Spence 1976 <em>Review of Economic Studies</em> + Tirole 1988 <em>The Theory of Industrial Organization</em> on Q-as-quality contrast.
     </p>
-    <p>
+    <h3>
      Definition 1.4 (Externality Tail)
-    </p>
+    </h3>
     <p>
      E(R, t) represents the externality flow at time t resulting from extraction of resource R at time t₀ (per Definition 1.3, Q(t) = remaining in-situ stock at time t; E is independent of Q in this formulation). This includes ongoing environmental damage, health costs, community disruption, and ecological degradation that persist beyond the extraction event. E(R, t) &ge; 0 for all t, and typically exhibits a long tail: E(R, t) &gt; 0 for many generations after extraction ceases.
     </p>
@@ -409,15 +409,15 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      </strong>
      "Externality Tail" in this framework names the temporal-persistence dimension of an externality: damage that persists for many generations after extraction stops. The "tail" is in <em>time</em>, not in <em>probability distribution</em>. E(R, t) is a deterministic flow function, not a probability density's tail region. Readers approaching the framework from finance / actuarial / industrial-organization conventions may pattern-match "tail" to extreme-value-theory or fat-tailed distribution conventions (Mandelbrot 1963 <em>Journal of Business</em> on fat-tailed price distributions; Taleb 2007 <em>The Black Swan</em>; Embrechts, Kl&uuml;ppelberg &amp; Mikosch 1997 <em>Modelling Extremal Events</em>; Anderson 2006 <em>The Long Tail</em>); the framework's usage is distinct. The "runs on its own clock" rhetorical anchor (&sect;7 methodological framing) reinforces the temporal-persistence reading.
     </p>
-    <p>
+    <h3>
      Definition 1.5 (Social Discount Function)
-    </p>
+    </h3>
     <p>
      D(t, t₀): T &times; T &rarr; (0,1] is a declining discount factor following Weitzman (2001). The instantaneous discount rate r(t) satisfies r(t) = r₀ &middot; g(t), where r₀ is the initial discount rate and g(t) is a declining function reflecting uncertainty about appropriate long-horizon discounting. The Weitzman result: under uncertainty about the true discount rate, the certainty-equivalent rate declines toward the lowest plausible rate. This is a conservative choice that biases the RCV estimate downward relative to a fixed high discount rate.
     </p>
-    <p>
+    <h3>
      Definition 1.6 (Residual Commons Value: Core Formula)
-    </p>
+    </h3>
     <p>
      The RCV of resource unit R, extracted at t₀, is the present value of all foregone intergenerational utility plus all ongoing externalities (per Definition 1.3, Q(t) = remaining in-situ stock at time t):
     </p>
@@ -455,9 +455,9 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
       Externality component:&nbsp;E(R, t) &mdash; the ongoing damage costs regardless of substitution status. A substitute for coal does not remove carbon from the atmosphere; the externality tail runs independently.
      </li>
     </ul>
-    <p>
+    <h3>
      Definition 1.7 (Accountability Bond)
-    </p>
+    </h3>
     <p>
      B represents the total set of mechanisms that force extractors to bear costs: reclamation bonds, severance taxes, legal liability, regulatory requirements, community compensation agreements. Cost Severance is formally defined as:
     </p>
@@ -473,9 +473,9 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      </strong>
      The form above &mdash; <code>CS = RCV &minus; B</code> &mdash; is the high-level forward-pricing shorthand operative throughout this volume's chapter prose and the empirical work in &sect;11. The canonical bidirectional articulation &mdash; the <strong>Cost Severance Decomposition</strong> &mdash; <code>total CS = (CSD &minus; B&#8321;) + (RCV &minus; B&#8322;)</code> where B decomposes into B&#8321; (Restitution Bond, backward-paired with CSD = Cost Severance Damages already realized) and B&#8322; (Foreclosure Bond, forward-paired with RCV), is given in &sect;5 (decomposition) and &sect;5.5 (bidirectional application of the framework apparatus). The two forms coincide when (CSD &minus; B&#8321;) &asymp; 0 &mdash; either because backward damages have been restituted, or in pure forward-looking analysis bracketing backward damages. This volume's empirical scope operates in the latter mode by design.
     </p>
-    <p>
+    <h3>
      Definition 1.8 (Commons Inversion Test: Methodological Protocol)
-    </p>
+    </h3>
     <p>
      <em>
       Per Theorem 10.3 (Abundance Masking) at &sect;10, the abundance-masking phenomenon is established analytically from resource-economics cost-function primitives. CIT operationalizes detection of the phenomenon: stripping away dimensions of abundance and observing which cost components transition from C &asymp; 0 to C &rarr; large is the empirical signature of Theorem 10.3's analytic prediction. CIT's validity as a discovery methodology follows from Theorem 10.3's analytic establishment of the abundance-masking phenomenon.
@@ -609,9 +609,9 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
      </strong>
      The framework's cost-severance accounting operates at the architecture level &mdash; identifying which parties absorb which costs given an institutional architecture's distributive properties. A complementary analytical question &mdash; who shaped the institutional architecture, by what political-economic process, with what rent-seeking expenditure &mdash; is the domain of Public Choice analysis (Buchanan &amp; Tullock 1962; Tullock 1967; Mueller 2003 and successors). The framework supplies the cost-bearing-party accounting that Public Choice analysis can be applied to where the architecture's origins are part of the substantive analytical work; the framework does not depend on Public Choice methodology for its own apparatus. The framework does not attempt to replicate Public Choice's actor-identification methodology; the framework's apparatus is calibrated for cost-bearing-party identification + magnitude, not for political-coalition-of-architecture-shapers analysis. Applicability conditions: <em>sharpest application of Public Choice complementarity</em> &mdash; cases where extractor populations and cost-bearer populations are heterogeneous (corporate operator vs downstream community; industry lobbying vs unaffiliated household; financial-services concentration vs diffuse depositor base); <em>blurred application</em> &mdash; cases where extractor and cost-bearer populations overlap (consumer-good supply chains where consumers occupy both roles; intergenerational dynamics where temporal-distance creates an actor-identification challenge that present-tense Public Choice analysis is not optimized for); <em>out of scope of this Technical Appendix</em> &mdash; rent-seeking-actor-identification methodology; the Appendix does not develop this apparatus and refers readers to the Public Choice literature for it. Readers in the Public Choice tradition should read the framework's cost-bearing-party identification as a foundation their apparatus can apply to, not as an alternative to their apparatus. The rent-seeking analytical vocabulary survives many readings of Buchanan's broader political project, and this Appendix draws on the vocabulary rather than endorsing the project.
     </p>
-    <p>
+    <h3>
      Definition 1.9 (Existentially Critical Resource / existential substitutability gap Classification)
-    </p>
+    </h3>
     <p>
      A resource R is existentially critical if its substitutability S_max &le; S_threshold for any application class that may be necessary for species-level viability or major civilizational threshold events (including but not limited to: off-world settlement, advanced energy generation, high-density computing, precision manufacturing). The Civilizational Substitutability Gap (existential substitutability gap) for resource R is defined as:
     </p>
@@ -1643,9 +1643,9 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
     <p>
      The two sub-forms run in sequence: CAI first (is this commons-grounded at all?), then CCI (is this consumption-grounded?). Only claims passing both qualify as Cost Severance.
     </p>
-    <h3>
+    <h4>
      &sect;6.4.1 &mdash; Level-of-claim specification
-    </h3>
+    </h4>
     <p>
      <strong>
       Discipline:
@@ -6220,11 +6220,9 @@ boundary-awareness register (per &sect;12).
     <p>
      The framework must produce intuitively correct results across all extraction scenarios &mdash; on Earth and beyond. Seven cross-scenario tests validate universality. The framework passes all seven, and correctly identifies its own boundary condition in scenario 6.
     </p>
-    <h4>
-    </h4>
-    <p>
+    <h3>
      Scenario 1: Mars Colony Water (10,000 people, 50-year supply, three deposits)
-    </p>
+    </h3>
     <p>
      Parameters:&nbsp;S &asymp; 0 (no water substitute at required scale), U enormous (survival-critical), E(t) &asymp; 0 (water waste is recyclable), Q is small and fixed.
     </p>
@@ -6237,11 +6235,9 @@ boundary-awareness register (per &sect;12).
     <p>
      Validation:&nbsp;&checkmark; Framework produces obviously correct answer. Key insight: cost severance goes to zero because the administrator is&nbsp;the community bearing the cost. No distance between extractor and cost-bearer &rarr; no CS. Cost severance requires distance.
     </p>
-    <h4>
-    </h4>
-    <p>
+    <h3>
      Scenario 2: Asteroid Iron Mining (abundant, lifeless, remote)
-    </p>
+    </h3>
     <p>
      Parameters:&nbsp;S &rarr; 1 (iron has abundant substitutes and alternatives), U low (iron not scarce), E(t) &asymp; 0 (no communities, no atmosphere to damage), Q effectively unlimited.
     </p>
@@ -6251,11 +6247,9 @@ boundary-awareness register (per &sect;12).
     <p>
      Validation:&nbsp;&checkmark; Framework correctly reduces to near-market pricing when externalities are zero and stocks are abundant. This is the model's key falsifiability feature &mdash; it does not always disagree with the market. When market pricing is correct, the model confirms it.
     </p>
-    <h4>
-    </h4>
-    <p>
+    <h3>
      Scenario 3: Lunar Helium-3 (potentially critical for fusion energy)
-    </p>
+    </h3>
     <p>
      Parameters:&nbsp;S uncertain (depends on fusion development timeline), U potentially enormous (civilizational energy technology), E(t) &asymp; 0 (no biosphere), Q limited in accessible deposits.
     </p>
@@ -6265,11 +6259,9 @@ boundary-awareness register (per &sect;12).
     <p>
      Validation:&nbsp;&checkmark; Framework correctly handles uncertain criticality: when the cost of preservation is near zero and the potential cost of premature extraction is enormous, preserve. Asymmetric regret principle applies.
     </p>
-    <h4>
-    </h4>
-    <p>
+    <h3>
      Scenario 4: Comet Flyby Volatiles (access window closes permanently)
-    </p>
+    </h3>
     <p>
      Parameters:&nbsp;S depends on resource; Q abundant in the comet; E(t) &asymp; 0; but access is a one-time event &mdash; the comet passes once.
     </p>
@@ -6279,11 +6271,9 @@ boundary-awareness register (per &sect;12).
     <p>
      Validation:&nbsp;&checkmark; Framework correctly identifies that the source geometry changes the calculus. Not anti-extraction &mdash; extract when RCV is low and preservation is impossible. The model differentiates correctly between "leave it in the ground" (Earth rare earths) and "extract now before the window closes" (comet flyby).
     </p>
-    <h4>
-    </h4>
-    <p>
+    <h3>
      Scenario 5: Mars Colony Rare Earth Mining (same population extracts and bears cost)
-    </p>
+    </h3>
     <p>
      Parameters:&nbsp;The colony mines its own subsurface rare earths. The extractor and the cost-bearer are the same people.
     </p>
@@ -6296,11 +6286,9 @@ boundary-awareness register (per &sect;12).
     <p>
      Validation:&nbsp;&checkmark; Framework reveals the mechanism's structural prerequisite.
     </p>
-    <h4>
-    </h4>
-    <p>
+    <h3>
      Scenario 6: Europa Ice (potential independent biosphere)
-    </p>
+    </h3>
     <p>
      Parameters:&nbsp;Europa's subsurface ocean may harbor independent life. E(R, t) potentially includes the destruction of an independent biosphere &mdash; a cost that is incommensurable with human utility scales.
     </p>
@@ -6310,11 +6298,9 @@ boundary-awareness register (per &sect;12).
     <p>
      Validation:&nbsp;&checkmark; A framework that correctly identifies its own limits is more credible than one that claims universal applicability. The Europa case establishes where the model stops &mdash; which by implication tells you that everywhere inside that boundary, the model works.
     </p>
-    <h4>
-    </h4>
-    <p>
+    <h3>
      Scenario 7: Exoplanet Rare Earths (independent ecosystem, necessary resource)
-    </p>
+    </h3>
     <p>
      Parameters:&nbsp;The exoplanet has a biosphere (non-zero E), but civilization genuinely needs a specific resource (S &asymp; 0, U is very high). Genuine tension between preservation and necessity.
     </p>
@@ -6480,11 +6466,9 @@ boundary-awareness register (per &sect;12).
     <p>
      This section, entirely absent from the prior Technical Appendix, is the most important addition for academic credibility. Reviewers and economists will ask how RCV relates to existing frameworks. This section answers that question directly and honestly &mdash; acknowledging what each framework gets right and where each one stops short.
     </p>
-    <h4>
-    </h4>
-    <p>
+    <h3>
      &sect;14.1 &mdash; Hotelling (1931): Optimal Depletion and Scarcity Rent
-    </p>
+    </h3>
     <p>
      What Hotelling gets right:&nbsp;Resource prices should rise at the rate of interest as a non-renewable stock depletes. Owners of finite resources who optimize over time will not sell too fast &mdash; they will hold the resource until the price has risen enough to justify extraction. The "scarcity rent" &mdash; Hotelling's price premium above extraction cost &mdash; is a genuine contribution that RCV builds on.
     </p>
@@ -6494,11 +6478,9 @@ boundary-awareness register (per &sect;12).
     <p>
      Formal relationship:&nbsp;The Hotelling price path is P(t) = P(0) &middot; e^{r&middot;t}. The RCV augments this with the foreclosure cost &int;[1&minus;S(t)]U(R,t,Q(t))D(t)dt, which Hotelling's private-owner optimization cannot capture because future-generation utility is not represented in the owner's objective function.
     </p>
-    <h4>
-    </h4>
-    <p>
+    <h3>
      &sect;14.2 &mdash; Hartwick (1977): Invest the Rents
-    </p>
+    </h3>
     <p>
      What Hartwick gets right:&nbsp;Hartwick's Rule states that a non-declining consumption path is achievable if a society invests all rents from exhaustible resource extraction in reproducible capital (machines, infrastructure, knowledge). Norway's sovereign wealth fund is the cleanest real-world application: extract the oil, invest the revenue, maintain the capital stock for future generations.
     </p>
@@ -6508,11 +6490,9 @@ boundary-awareness register (per &sect;12).
     <p>
      Formal relationship:&nbsp;Hartwick's Rule is the investment policy that makes CS = 0 under the assumption S_max = 1. RCV generalizes Hartwick to S_max &le; 1, showing that when S_max &lt; 1 (imperfect substitution), no investment policy can fully compensate for foreclosure &mdash; strategic preservation is the only complete solution.
     </p>
-    <h4>
-    </h4>
-    <p>
+    <h3>
      &sect;14.3 &mdash; Weitzman (2001): Declining Discount Rates
-    </p>
+    </h3>
     <p>
      What Weitzman gets right:&nbsp;Under uncertainty about the appropriate long-run discount rate, the certainty-equivalent rate declines toward the lowest plausible rate. This is not merely a policy preference &mdash; it is a mathematical result. If we are uncertain whether the appropriate rate is 1%, 2%, or 4%, we should behave as if the rate approaches 1% over long horizons.
     </p>
@@ -6522,11 +6502,9 @@ boundary-awareness register (per &sect;12).
     <p>
      Engagement with Nordhaus (2007):&nbsp;Nordhaus used a 5.5% discount rate to recommend moderate climate action (DICE model). Stern (2006) used 1.4% and recommended aggressive action. The RCV model does not resolve this debate &mdash; it acknowledges that the output is sensitive to discount rate assumptions. However, the Weitzman result means that rational agents facing uncertainty about the discount rate should act as if the low rate applies. CS &gt; 0 holds across the entire plausible discount rate range; only the magnitude varies.
     </p>
-    <h4>
-    </h4>
-    <p>
+    <h3>
      &sect;14.4 &mdash; Rawls (1971): Veil of Ignorance and the Just Savings Principle
-    </p>
+    </h3>
     <p>
      What Rawls gets right:&nbsp;Principles of justice should be chosen from behind a veil of ignorance &mdash; without knowing your position in society. His Just Savings Principle extends this across time: each generation owes something to those that follow, and we should choose only principles we would wish all preceding and succeeding generations to have followed.
     </p>
@@ -6536,11 +6514,9 @@ boundary-awareness register (per &sect;12).
     <p>
      Where Rawls is limited:&nbsp;Rawls's framework is primarily synchronic (within a generation) and only partially extends across time. His Just Savings Principle was acknowledged by Rawls himself to be underdeveloped. Brian Barry (later) sharpened it: the overall range of opportunities open to successive generations should not be narrowed. RCV prices the narrowing of opportunities directly &mdash; as the foreclosure cost.
     </p>
-    <h4>
-    </h4>
-    <p>
+    <h3>
      &sect;14.5 &mdash; Ostrom (1990): Governing the Commons
-    </p>
+    </h3>
     <p>
      What Ostrom gets right:&nbsp;Common-pool resources are not inevitably subject to the "tragedy of the commons." Communities can and do develop governance institutions that sustainably manage shared resources. Her eight design principles (clear boundaries, rules fit to local conditions, collective choice arrangements, monitoring, graduated sanctions, conflict resolution, recognition of rights, nested governance) identify the conditions under which commons governance succeeds.
     </p>
@@ -6550,22 +6526,18 @@ boundary-awareness register (per &sect;12).
     <p>
      RCV as extension:&nbsp;The RCV model can be read as Ostrom's design principles translated into a pricing mechanism for the non-renewable case. Where Ostrom asks "how do we manage this so it lasts?" RCV asks "what does it cost when management fails and it doesn't last?"
     </p>
-    <h4>
-    </h4>
-    <p>
+    <h3>
      &sect;14.6 &mdash; Daly (1990s): Ecological Economics and Strong Sustainability
-    </p>
+    </h3>
     <p>
      What Daly gets right:&nbsp;"Weak sustainability" (Hartwick's approach: substitute capital for natural capital) is insufficient. "Strong sustainability" requires maintaining the natural capital stock itself &mdash; particularly for critical natural capital with no adequate substitute. GDP as a measure of welfare is deeply misleading because it counts environmental destruction as economic activity.
     </p>
     <p>
      RCV relationship:&nbsp;The RCV model operationalizes Daly's strong sustainability criterion mathematically. Where Daly argues normatively that S_max must equal 1 for strong sustainability to be achievable, RCV asks empirically: what is S_max for each resource class? For high-existential substitutability gap resources (rare earths, platinum group metals, phosphorus), S_max &lt; 1 &mdash; Daly's strong sustainability criterion cannot be met by substitution alone. The RCV model quantifies the resulting cost, complementing Daly's qualitative argument with a measurable framework.
     </p>
-    <h4>
-    </h4>
-    <p>
+    <h3>
      &sect;14.7 &mdash; Harvey (2003): Accumulation by Dispossession
-    </p>
+    </h3>
     <p>
      What Harvey gets right:&nbsp;Harvey names the broader mechanism of which cost severance is a specific instance: capital accumulates by dispossessing communities of their assets, commons, and resources through enclosure, privatization, and force. Cost severance is the pricing dimension of this &mdash; the financial mechanism by which dispossession is made to appear economically rational.
     </p>
