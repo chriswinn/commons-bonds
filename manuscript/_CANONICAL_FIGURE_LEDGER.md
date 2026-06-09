@@ -49,3 +49,26 @@ cascade.
 - ✅ **Already fixed this session** (worktree + origin/main): **Ch8** ($496/$510/$504–518/IPG 120→ confirm), **Atlantic Ideas** ("more than $500"), **McDowell op-ed** fresh draft.
 - ⛔ **Still need editing:** **Technical Appendix** §11.1/§11.6/§9.5/§11.11 (carbon $510, total $518–532, the stale "33–122× cited in Ch6/Ch8" attribution); **Ch6** (national-basis labels + $518–532); **Ch2** (IPG framing); the **canonical `op-ed.md`** (sweep found 2.86 factor / $544 carbon / $558 total — **highest exposure**, NYT/WaPo/PS target — verify and fix); **cross-chapter-consistency-inventory_2026-05-11**; **Ch8 pre-pub queue** (retract its "arithmetic verified" note).
 - **Aeon candidate:** no edits ("more than $500" + the shown $496 are already correct).
+
+## AMENDED 2026-06-09 — TA → redraft reconciliation (supersedes the entries noted)
+
+Provenance source of truth: `tools/audits/corpus-primary-source-register_2026-06-08.md` (§1 sourced / §2 the 14 corrections / §3 unverifiable) + `tools/audits/chapter-citation-specs/`. Full per-target application map: `tools/audits/_TA-redraft-reconciliation_2026-06-09.md`. Discipline: cite the EXTERNAL primary source, never our own ledger; framework outputs (IPG/RCV/CS/M3) are "framework-computed, derivation shown."
+
+**Coal price — SHARPENED.** Supersedes line 18 / J3 "~$4.70–4.85": canonical 1960 mine-mouth = **$4.71/ton** (EIA Total Energy Table 7.9, bituminous; all-coal $4.83). Register §2.9. Prose may still say "just under five dollars"; use $4.71 where a point value is shown. Cascades into M1/IPG inputs. [Ch2, Ch6, Ch8, Ch9, TA]
+
+**M3 (Method-3) Path-A rework — chapter M3 figures SUPERSEDED.** Replaces all prior chapter M3 ranges/centers/ceiling AND the 50–555× triangulated IPG (supersedes lines 27–28 + J2's "50–555×"):
+- McDowell coal M3 = **~$340–3,670/ton, geometric center ~$1,115/ton** (V_option $40–140 × scarcity 1.27–1.31 × irreversibility 6.67–20). The old "$13,100 ceiling" / "$420–13,100 / mid ~$2,500" is GONE; new top ~$3,670.
+- M3-IPG (market-anchored; V_option = market price) = scarcity × irreversibility = **8.5–26× (center ~15×)**, price-independent. The old **50–555× is DISOWNED** as an inconsistent-basis artifact; on a consistent basis the lenses converge to 8.5–26×. Never quote 50–555× as a triangulated IPG.
+- Norway M3 = **~$96–610/BOE, central ~$281/BOE**; M3-IPG **~2.4–5.1×**.
+- Notation: scarcity = **ς**; irreversibility = **1/(1−α)** (no β exponent); V_option = the resource's own market/intrinsic value (premium emerges from scarcity × irreversibility). M3 = the **quasi-option value of preservation (Arrow–Fisher/Henry)**, NOT Dixit–Pindyck investment-timing. Irreversibility weighted by the empirical record + ARR (IPCC AR6 SPM B.5; Bernhardt & Palmer 2011; Thm 10.4/10.5), NOT a "discovered α-dominance." [Ch6, Ch8 + TA §3.5/§11.6/§11.8/§11.11]
+- **UNCHANGED:** public headline IPG **33–122×** (line 26); §9.5 cross-MODEL **67–134×**.
+
+**$108T Social Security — DONE (Ch5 landed).** $108T disavowed as the dishonest version; honest version = investable base ~$2.7T surplus peak, compounded net of payouts → "a few trillion, not a hundred"; ~$22.6T 75-yr shortfall kept distinct. Any OTHER chapter (Ch8/Ch9) still citing $108T or its 3×-debt / 4×-GDP / $300k-per-person scalings → delete/align.
+
+**$44B black lung — RELABEL.** "≈$44 billion through 2009 (GAO/CRS)" — a conservative, honestly-dated floor for 1969–present (no authoritative post-2009 cumulative total exists; modern GAO/CRS/DOL report only ~$150–184M/yr + Trust-Fund debt). Keep the Trust-Fund-DEBT clause ($5.1B as of Sept 2024, DOL/GAO) DISTINCT from cumulative-paid. [Ch2, Ch5 §194, Ch6, Ch8]
+
+**$11T household net worth — RE-ATTRIBUTE.** The ~$11T total-household-net-worth peak→trough is the **Federal Reserve Z.1** figure, NOT Mian & Sufi (whose own central magnitude is ~$5.5T HOUSING wealth). Attribute $11T to the Fed; keep Mian & Sufi for the leverage / distribution / MPC analysis. [Ch5 §76, Ch8, Ch9]
+
+**Carbon cascade — canonical UNCHANGED, re-cascade still live.** carbon $496 / total $510 / floor $504–518 (J1/J6). Mechanical re-cascade still owed in the TA + Ch6 + Ch9 (README §B).
+
+*(The per-chapter citation corrections — Norway fiscal rule 2001@4%→2017@3%; Fed $16T = "cumulative"; Hendryx OR 2.03; menhaden cap 2017/2018 not 2006; Baotou $5–15B; Deepwater ">$150B" not NOAA; GoFundMe AJPH-2022/437,596; Tangier ~1.7 ft/yr exposed-max; Libby >70%-of-US; Norway per-capita ~$390k; foreclosures ~4.1M completed; reclamation-gap single figure; US-Steel "across the 1980s" — are chapter-level, not cross-chapter shared figures; they live in the reconciliation artifact + the per-chapter briefs.)*
