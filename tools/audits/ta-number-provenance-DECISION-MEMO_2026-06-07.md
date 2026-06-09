@@ -135,7 +135,7 @@ The sweep (ledger Part 5b) confirmed SCC $190 (attribution fixed), Norway 78%, B
 |---|---|---|
 | 1 IPG apparatus reframe | Session C | **per Session D: M3-IPG is now a premium-MULTIPLE (~8.5–26×, ctr ~15×), NOT 50–555×; §9.5 67–134× is the cross-MODEL cell, left unchanged. Session C keeps §9.5 12-cell + §3.2 IPG=33 + §16.4 consistent + drops "canonical/documented" phrasing** |
 | 2 Norway 84→16 narrative | **DONE (Session D)** | merged — α-reduction reframe; dropped 16%/84% + $300 RCV; kept $13–15T residual (§11.5 L4436, verified) |
-| 3 Eco/Cohesion estimate-labels | **THIS SESSION — NOW UNBLOCKED** | Session D landed; §11.6 reclamation $/acre + $/resident + migration still unlabeled (L4645/L4662). TODO this session |
+| 3 Eco/Cohesion estimate-labels | **DONE 2026-06-09** | §11.6 reclamation $/acre (L4645) + community-replacement $/resident (L4662) relabeled as explicit framework engineering-substitute estimates, NO number change; cited the documented anchors — reclamation ~$12–15.5K/acre (Appalachian Voices 2021 / Yang & Davis 2021 / GAO-17-207R / OSMRE under-bonding); Isle de Jean Charles ~$48.3M/~37 hh ~$1.3M/hh (LOCD, VERIFIED 2026-06-09 → conservatism confirmed); Census 98,887→19,111 for the ~50K out-migration. Non-substitutable remainder routed to M3 (already noted in prose) |
 | 3 Foreclosure/V_option/$300-RCV | **DONE (Session D)** | merged — Foreclosure relabeled est.; V_option market-anchored |
 | 4 Deepwater repro | **Session E** | reconciliation closeout |
 | 5 §11.9 DAC bands | **DONE 2026-06-08** | applied. **NB: kept conservative cap at $1,000 (Orca-caveat, NOT $1,200) → Session D's §11.6 "M1 $290–2,702" is UNAFFECTED; the earlier "~20% cap lift / M1 follow-up" is moot.** |
