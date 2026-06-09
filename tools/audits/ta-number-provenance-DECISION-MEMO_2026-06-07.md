@@ -126,7 +126,7 @@ The **M3 Path-B rework session** (Session D, branch `ta-m3-pathb`) is live and o
 
 The sweep (ledger Part 5b) confirmed SCC $190 (attribution fixed), Norway 78%, Black-Lung $5.1B debt, and all Baotou/USGS shares. Two items remain:
 
-- **(9a) Black Lung "$44B cumulative payouts" — UNVERIFIED.** The $5.1B debt is confirmed; the $44B cumulative figure could not be located in accessible sources (CRS R45261 returned HTTP 403). **Action:** confirm via CRS R45261 (accessible mirror) or DOL OWCP / BLDTF annual financial report; if unconfirmable, relabel as an estimate or cut. Low materiality (it is one addend in the realized-B aggregate, not a headline). **Owner:** any session with source access; or closeout.
+- **(9a) Black Lung "$44B cumulative payouts" — NOT LOCATABLE; ESCALATED (corpus-wide, not just TA).** Exhaustive search 2026-06-08: our bib + `research/citations` + `research/case-studies/appalachian-coal.md` (states it verbatim, "copied from Ch 2 draft," NO source) + GAO-18-351 + Brookings 2021 (both PDFs text-extracted — neither has a cumulative-benefits total) + 3 web searches + CRS R45261 (403). **The $44B is a corpus-wide UNSOURCED figure used in Ch 2 / Ch 6 / Ch 8 + the TA**, carried as self-citation. *Verified clean:* the $15.4B-by-2050 debt projection (GAO/Brookings) + borrowing-since-1979. *Also flagged:* the debt figure is inconsistent across the corpus — chapters "$4.6B" / GAO "$5.85B (Sept 2019)" / TA "$5.1B (Sept 2024)." **Action:** because it lives in the published chapters, this is an AUTHOR / chapter-session item, not a TA-only fix — locate the primary source (likely a DOL OWCP annual report or 2018–19 NPR/Ohio Valley ReSource reporting) OR relabel as estimate / recompute from OWCP annual benefit-outlay data; reconcile the debt vintage. Low headline-materiality in the TA (one addend in realized-B), but **reputational risk is corpus-wide** (an unsourced "$44 billion" in the book body). **Owner:** author + chapter session (not TA-only).
 - **(9b) EIA 1960 coal price $4.50 → $4.71 — VERIFIED, not applied.** EIA confirms 1960 bituminous = $4.71/short ton (TA's $4.50 is low + sourced only to the internal Ch 6 table). The change cascades into the IPG ratios across **7 spots** (§3.3, §11.1, §11.6 ×3, §7.6, §14.7). **Owner:** Session C (IPG reframe) / Session D (§11.6) — apply $4.71 when they recompute the ratios, so it doesn't thrash mid-rework. (Effect is small: 555× → ~531×; inflation-corrected 50× → ~48×.)
 
 ## Summary of ownership
@@ -142,7 +142,7 @@ The sweep (ledger Part 5b) confirmed SCC $190 (attribution fixed), Norway 78%, B
 | 6 log/Hotelling/midpoints | **DONE (Session D)** | merged — log→ln; Hotelling 0.05 relabeled POSITED; midpoints now geometric centers |
 | 7 Norway USD FX stamp | **DONE (Session D, 0a50c68)** | merged into this branch |
 | 8 Solow orphan | **Closeout (E), merged tree** | swap already on ta-m3-pathb; delete §18 1956 entry post-merge (grep-verify 0 in-text first) |
-| 9a Black Lung $44B | any session w/ source access / closeout | verify CRS R45261 or DOL OWCP report; else relabel/cut |
+| 9a Black Lung $44B | **AUTHOR + chapter session** | NOT locatable (GAO-18-351 + Brookings + repo all checked); corpus-wide unsourced (Ch2/6/8); locate primary source or relabel/recompute |
 | 9b EIA coal $4.50→$4.71 | Session C / Session D | verified; apply when IPG ratios are recomputed |
 
 **Nothing in this memo is applied by the Foundation session.** The verified-safe fixes (§11.10, §18+§23 bib, B-collision) are in the ledger Part 1.
